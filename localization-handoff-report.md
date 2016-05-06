@@ -6,14 +6,14 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [InTuneDocs\DeployUse\overview-of-device-and-app-lifecycles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e56ae52f22dec3c5cde28fba01245904d72c2899/InTuneDocs/DeployUse/overview-of-device-and-app-lifecycles-in-microsoft-intune.md) | HandedOffSuccess | [Details](#00055d42bb34c5225fb01aeb439fb2f0ec847de3227)
+ [InTuneDocs\DeployUse\use-remote-wipe-to-help-protect-data-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/13c820f212fc162f7dd38029dfbab3fd924549c5/InTuneDocs/DeployUse/use-remote-wipe-to-help-protect-data-using-microsoft-intune.md) | HandedOffSuccess | [Details](#84bf9b9951109ed1f4ee11f53711a973435ffba3269)
 
 ## Item Details
-##### <a name='00055d42bb34c5225fb01aeb439fb2f0ec847de3227'></a> Source: [InTuneDocs\DeployUse\overview-of-device-and-app-lifecycles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e56ae52f22dec3c5cde28fba01245904d72c2899/InTuneDocs/DeployUse/overview-of-device-and-app-lifecycles-in-microsoft-intune.md)
+##### <a name='84bf9b9951109ed1f4ee11f53711a973435ffba3269'></a> Source: [InTuneDocs\DeployUse\use-remote-wipe-to-help-protect-data-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/13c820f212fc162f7dd38029dfbab3fd924549c5/InTuneDocs/DeployUse/use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [overview-of-device-and-app-lifecycles-in-microsoft-intune.751001cc04be2f390298ead3f49c7182080934a1.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f0342e7fc43f4e7e218d20b77e1bafb788baf9c3/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/overview-of-device-and-app-lifecycles-in-microsoft-intune.751001cc04be2f390298ead3f49c7182080934a1.ja-jp.xlf)
-* Handoff Datetime: 2016-05-06 01:05:10
+* Handoff File: [use-remote-wipe-to-help-protect-data-using-microsoft-intune.19e8c7ce9b75e4b0a3976774a8ffc9c3dbe0797a.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/a4b0ebc8034d3da1c50b7d6a289adcad95d31f5c/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/use-remote-wipe-to-help-protect-data-using-microsoft-intune.19e8c7ce9b75e4b0a3976774a8ffc9c3dbe0797a.ja-jp.xlf)
+* Handoff Datetime: 2016-05-06 19:08:04
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
