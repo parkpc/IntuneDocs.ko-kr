@@ -1,52 +1,11 @@
 # <a name='report-top'></a> Localization Archive Report
 
 ## Summary
- Total Files | 3
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [zDeletedTopics\Windows-Phone-custom-policy-settings-in-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d651ce9b5b3efca6cef45bb3a10c40f66b15e030/zDeletedTopics/Windows-Phone-custom-policy-settings-in-Microsoft-Intune.md) | ArchivedSuccess | [Details](#cbdb1a9e1c79e44789e17271d5cc90e693f202a22251)
- [zDeletedTopics\Windows-Team-configuration-policy-settings-in-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d651ce9b5b3efca6cef45bb3a10c40f66b15e030/zDeletedTopics/Windows-Team-configuration-policy-settings-in-Microsoft-Intune.md) | ArchivedSuccess | [Details](#0861907830284ace5f784db7000cbd476a18b6682252)
- [zDeletedTopics\Your-computer-is-already-enrolled.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d651ce9b5b3efca6cef45bb3a10c40f66b15e030/zDeletedTopics/Your-computer-is-already-enrolled.md) | ArchivedSuccess | [Details](#4488c53ee15d51ceddeb4368706c6e2acf2742102253)
 
 ## Item Details
-##### <a name='cbdb1a9e1c79e44789e17271d5cc90e693f202a22251'></a> Source: [zDeletedTopics\Windows-Phone-custom-policy-settings-in-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d651ce9b5b3efca6cef45bb3a10c40f66b15e030/zDeletedTopics/Windows-Phone-custom-policy-settings-in-Microsoft-Intune.md)
-* Status: ArchivedSuccess
-* Target File: 
-* Handoff File: [Windows-Phone-custom-policy-settings-in-Microsoft-Intune.4e9e1211f3fa381fe44d9cdbd29482dbec143f1e.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/40253f27f82ff5e8ac4659dcca3d52d5734885e0/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/Windows-Phone-custom-policy-settings-in-Microsoft-Intune.4e9e1211f3fa381fe44d9cdbd29482dbec143f1e.ja-jp.xlf)
-* Handoff Datetime: 2016-04-21 20:40:44
-* Handoff Reason: Include
-* Archive File: [Windows-Phone-custom-policy-settings-in-Microsoft-Intune.4e9e1211f3fa381fe44d9cdbd29482dbec143f1e.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/c30bc8083b95cccf696e46d639df90b0ea45a3bc/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/Windows-Phone-custom-policy-settings-in-Microsoft-Intune.4e9e1211f3fa381fe44d9cdbd29482dbec143f1e.ja-jp.xlf)
-* Archive Datetime: 2016-05-08 17:47:26
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='0861907830284ace5f784db7000cbd476a18b6682252'></a> Source: [zDeletedTopics\Windows-Team-configuration-policy-settings-in-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d651ce9b5b3efca6cef45bb3a10c40f66b15e030/zDeletedTopics/Windows-Team-configuration-policy-settings-in-Microsoft-Intune.md)
-* Status: ArchivedSuccess
-* Target File: 
-* Handoff File: [Windows-Team-configuration-policy-settings-in-Microsoft-Intune.6fa9c5175f50e5d22f83139d2ac6485e067a6df4.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/40253f27f82ff5e8ac4659dcca3d52d5734885e0/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/Windows-Team-configuration-policy-settings-in-Microsoft-Intune.6fa9c5175f50e5d22f83139d2ac6485e067a6df4.ja-jp.xlf)
-* Handoff Datetime: 2016-04-21 20:40:44
-* Handoff Reason: Include
-* Archive File: [Windows-Team-configuration-policy-settings-in-Microsoft-Intune.6fa9c5175f50e5d22f83139d2ac6485e067a6df4.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/c30bc8083b95cccf696e46d639df90b0ea45a3bc/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/Windows-Team-configuration-policy-settings-in-Microsoft-Intune.6fa9c5175f50e5d22f83139d2ac6485e067a6df4.ja-jp.xlf)
-* Archive Datetime: 2016-05-08 17:47:26
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='4488c53ee15d51ceddeb4368706c6e2acf2742102253'></a> Source: [zDeletedTopics\Your-computer-is-already-enrolled.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d651ce9b5b3efca6cef45bb3a10c40f66b15e030/zDeletedTopics/Your-computer-is-already-enrolled.md)
-* Status: ArchivedSuccess
-* Target File: 
-* Handoff File: [Your-computer-is-already-enrolled.b38c9db9e7074cab16e6ea727ef5591416d34549.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/40253f27f82ff5e8ac4659dcca3d52d5734885e0/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/Your-computer-is-already-enrolled.b38c9db9e7074cab16e6ea727ef5591416d34549.ja-jp.xlf)
-* Handoff Datetime: 2016-04-21 20:40:44
-* Handoff Reason: Include
-* Archive File: [Your-computer-is-already-enrolled.b38c9db9e7074cab16e6ea727ef5591416d34549.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/c30bc8083b95cccf696e46d639df90b0ea45a3bc/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/Your-computer-is-already-enrolled.b38c9db9e7074cab16e6ea727ef5591416d34549.ja-jp.xlf)
-* Archive Datetime: 2016-05-08 17:47:26
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
