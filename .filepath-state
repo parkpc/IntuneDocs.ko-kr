@@ -2806,9 +2806,6 @@
   "78a507cf5c5710a6fefc0ca147e94baed8dd7639": [
     "InTuneDocs\\EndUser\\Wait-while-your-device-is-being-evaluated.md"
   ],
-  "aa76c597f0f7b81aabccb7ff49c843da983aecb1": [
-    "InTuneDocs\\EndUser\\Wait-while-your-device-is-being-evaluated.md"
-  ],
   "aa62528e588b0579669ab8d115766efd72e6f9b2": [
     "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
   ],
@@ -2999,30 +2996,6 @@
     "InTuneDocs\\media\\Windows-Phone-Enrollment.png"
   ],
   "f1fdb0d41040607a9ae5269d25701bc2465fccd7": [
-    "InTuneDocs\\GetStarted\\enterprise-rollout.md"
-  ],
-  "38feaf681676a739c8f7b2d551905bb92c2df4bf": [
-    "InTuneDocs\\GetStarted\\enterprise-rollout.md"
-  ],
-  "4ec210104fc6e41ec243a1804823ecaa2a61fe4d": [
-    "InTuneDocs\\GetStarted\\enterprise-rollout.md"
-  ],
-  "a2cbaf8611abd684cb71358f79c9bad553ffd191": [
-    "InTuneDocs\\GetStarted\\enterprise-rollout.md"
-  ],
-  "b8635af8d716a26df87b8df0c1a97e54909f510d": [
-    "InTuneDocs\\GetStarted\\enterprise-rollout.md"
-  ],
-  "d899c6baf2fd6c72c7b4c588a56f915b89f82033": [
-    "InTuneDocs\\GetStarted\\enterprise-rollout.md"
-  ],
-  "1544a48134918b9cbff3ebbe17a84e4b06696b92": [
-    "InTuneDocs\\GetStarted\\enterprise-rollout.md"
-  ],
-  "9c73f75636c29fd117d5247dfcc1032fec05a10e": [
-    "InTuneDocs\\GetStarted\\enterprise-rollout.md"
-  ],
-  "88d12cc7e482bc8c04b81be87357bf5b0bf064b5": [
     "InTuneDocs\\GetStarted\\enterprise-rollout.md"
   ],
   "c9734858c4837822e25ec0565e0d9f81e029182a": [
@@ -3967,24 +3940,6 @@
   "b0cb97f8b7044894686e571b896a1c6c4955ac02": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
   ],
-  "7bc905e8c580114928aff3f91c5f46c42bb768ae": [
-    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
-  ],
-  "9bb10bd5ebaf455d7434db697b2c19655073b2bf": [
-    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
-  ],
-  "9c23682a8a0a9702378d2e874e5015ec44f7fbef": [
-    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
-  ],
-  "2c2b64840e30ec1be7ec735c7ce0d827b8754f38": [
-    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
-  ],
-  "c9c92c2bf7c32a80d7104234db46041a2ccdeaeb": [
-    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
-  ],
-  "fdd22ee080201c817f129f237a2cef63e9d32c17": [
-    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
-  ],
   "8772fcbabd29e423d3624fe1779726c871cd1c36": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-mac-os-x.md"
   ],
@@ -4733,21 +4688,6 @@
     "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-ios.md"
   ],
   "2279b366f068a7b83dd3cba5cd1ee641e8f30e5a": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-ios.md"
-  ],
-  "17e063700d5457f6974e40121b6ac7abf2a87219": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-ios.md"
-  ],
-  "7ddbff560456fad6443912d62c87c0935d7246ba": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-ios.md"
-  ],
-  "59f31b8aaf95d9c3ff333093e1bc304ef80d8cd5": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-ios.md"
-  ],
-  "f3b4c9db7ffb4e8795ab3a5d99799b841fa15829": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-ios.md"
-  ],
-  "9b49ce3645a8219f61a457d0448cc179a1cbdf6f": [
     "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-ios.md"
   ],
   "2c5bfcbad02d1eef7662b19f9cc3051bdd6739b0": [
@@ -5965,36 +5905,6 @@
   "b3db4a9c6afc8b2e01c3bef4d422f7ab4fb1ab36": [
     "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
   ],
-  "fef8a58a59595a38eca7381720daec79af356994": [
-    "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
-  ],
-  "06cef2b666e69fc4844e952977b52c08a02caae6": [
-    "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
-  ],
-  "9b01c9850d70fc742ddd8c8de1ee158da89ceeca": [
-    "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
-  ],
-  "e5e3a98ff944b449aba79cd18d0c49481f936002": [
-    "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
-  ],
-  "8728fbd0a70d6d0ab3a611b07e42832e108a2a49": [
-    "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
-  ],
-  "95ddf65882d1940eb88b0201c0cab40c360172c8": [
-    "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
-  ],
-  "70adcb3d39b45532d03249a2d8712dde13132aea": [
-    "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
-  ],
-  "d16850e9167cd041f26feee3e42ffdfda87d5078": [
-    "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
-  ],
-  "b5be54433bf50227e38f48eae32620e7f18fd435": [
-    "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
-  ],
-  "462e6cb310fdc1874bb419bf749d5dac217b422d": [
-    "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
-  ],
   "ef0b9901e340aec8b2b516f0180133e37833bf37": [
     "InTuneDocs\\DeployUse\\exchange-access-rules-for-mobile-devices.md"
   ],
@@ -6451,21 +6361,6 @@
   "b469138625ba29ccbaa2edc797872f9e812dbad3": [
     "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
   ],
-  "3173c857be6fdec353ab15709d3eb89bdd18e067": [
-    "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
-  ],
-  "f4fff2638266e24c2186649956b781ff2e975d84": [
-    "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
-  ],
-  "73fc221d248b2aec8a17816ca7b5ca161ac73b28": [
-    "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
-  ],
-  "40a697ce362982725e733e4463f6924661b7061a": [
-    "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
-  ],
-  "0c4c165343b9a7de01ced4c3c5f2fc68a7a649c5": [
-    "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
-  ],
   "5f6877d384db80143c34573c1dd341e37636bcfd": [
     "InTuneDocs\\media\\IntuneSASharePointOnlineCAPolicy.png"
   ],
@@ -6676,27 +6571,6 @@
   "8ba0c83fc8a80937bfd7010134f3eb15dfac21df": [
     "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
   ],
-  "d55bc906922b0b648d49277f38a5b00e019f7056": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "344c69e503a4c8c7d4c0ed81db8b4e388c1473b3": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "aad69c45f43cecb39cca2b69fdd9ddf887480807": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "31bfe30948a23bae87fa24ca51a3794b1d45c612": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "85a25f96e74c4b872060ce2db6023d279d2844ab": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "c092011d541277b4447b6acf7a061d1990737eaf": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "9d03b6990321208ec58b65fdaa1ef91dff170b11": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
   "eac2f6affbfae14d4be1b8c1ce22cf593c04a776": [
     "InTuneDocs\\Understand\\media\\Email-Walkthrough\\email-walkthrough-1.png"
   ],
@@ -6874,27 +6748,6 @@
   "f81411b050720d034f8b674872dce5ff68a97c77": [
     "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
   ],
-  "1ebd33dc1776cb1d63a9e4d4fb414aa3fcfe511d": [
-    "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
-  ],
-  "c7c8cc2db8378905a49f9b47863f4300601d279b": [
-    "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
-  ],
-  "11201eaec97c554d09a0788b9e64fcabe1aefc51": [
-    "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
-  ],
-  "4558e8adc6d13e323d59899211e67638e9c93414": [
-    "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
-  ],
-  "84c6879c527c11f0b362bfd7e03bc6f40fdc6bb3": [
-    "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
-  ],
-  "334c6e94a8acfd8a1a4e0da8d50834572b1ebf91": [
-    "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
-  ],
-  "3ba62617509cf5c75d1360799d723e54791f2295": [
-    "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
-  ],
   "cde197d106eebce348d9962910e8def86b8e4caa": [
     "InTuneDocs\\EndUser\\media\\andr-cert_install-1-cert_missing.png"
   ],
@@ -7034,27 +6887,6 @@
     "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
   ],
   "650ca8f928fc99e7ab50e896be1a0f49bdacad54": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
-  "4355dab30f5f19f7bcb05649478894f4cc92d070": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
-  "31662a38081137f66484e1bdefa4a15872ffb5b4": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
-  "ddc366711112335150e0294ca49f2abd2ea59d5d": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
-  "f3fbd261e7a09eef62085f897f0484641253dbb3": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
-  "ebee8ea5e17c65b1c670443bad5188c602ebcb10": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
-  "c4f87a2c01592f28e98c06c4176be1998e323bd2": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
-  "1bd9ef200dff9ceea2836404d2759f1f44fd5361": [
     "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
   ],
   "c31ee9bb3aafa6b54068adda5b14f2c1cacacd31": [
