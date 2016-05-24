@@ -1855,24 +1855,6 @@
   "3622e81aad871022b4c86eedd6acb8819067140e": [
     "InTuneDocs\\DeployUse\\mobile-device-security-policy-settings-in-microsoft-intune.md"
   ],
-  "d95272c08ca21cbbbb5606fb63fa63522f87cecc": [
-    "InTuneDocs\\DeployUse\\mobile-device-security-policy-settings-in-microsoft-intune.md"
-  ],
-  "ead823733374462609c0b2ed3e5d10fe4e9c8a0d": [
-    "InTuneDocs\\DeployUse\\mobile-device-security-policy-settings-in-microsoft-intune.md"
-  ],
-  "95e14bb40a7dc1232a24b74895c000757ed22d04": [
-    "InTuneDocs\\DeployUse\\mobile-device-security-policy-settings-in-microsoft-intune.md"
-  ],
-  "516fd41636a32c597549000ccc4d02c819c17ed3": [
-    "InTuneDocs\\DeployUse\\mobile-device-security-policy-settings-in-microsoft-intune.md"
-  ],
-  "499beeb9eb5bef1001d564fe4685b5d3e369a97d": [
-    "InTuneDocs\\DeployUse\\mobile-device-security-policy-settings-in-microsoft-intune.md"
-  ],
-  "9b04a6bb400020af5fb91856913b4f40e2e5a68c": [
-    "InTuneDocs\\DeployUse\\mobile-device-security-policy-settings-in-microsoft-intune.md"
-  ],
   "8a9dfe8224b4e0e441691043eaffea73c456b3ec": [
     "InTuneDocs\\DeployUse\\overview-of-the-microsoft-intune-app-sdk.md"
   ],
@@ -4510,40 +4492,10 @@
   "326b28b6662bc27d88dbf2dd6f21966c509859bc": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md"
   ],
-  "339b6707d244a0325d3a80803950af07882718cf": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md"
-  ],
-  "d5cd6bf736e090f46f481fc12c3f16abce1ca9c2": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md"
-  ],
-  "d356c69273d3f2332de0afadb917f73f9fe83890": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md"
-  ],
-  "8078a908fe3b846792f4b1b3585660300b2d3990": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md"
-  ],
-  "b5383d3ad1066152d07005c6ccb50477a8ef1f9f": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md"
-  ],
   "113c3b21fdd68c700dfa8b1ba34d9ece562e93e7": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
   ],
   "4aedefe5cf069866a91c321c0912a3f8264c6afc": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
-  ],
-  "1b0f1e88f1dfe9aeec8d8e41a3a42f153c451c47": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
-  ],
-  "6d864372c75fa48952147b9044caf0ff850112de": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
-  ],
-  "3bad9dbe8cbfbef1d28ee02ea4022c134257b8a6": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
-  ],
-  "afd5cdaffd23fd3ff72ae7512bcf54dd5e8e68ac": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
-  ],
-  "fd8b9574a87de312bb0a6b93efa06ef19c7c8122": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
   ],
   "2000278e0012dd5f45ec46212df3378140fdf17b": [
@@ -5140,39 +5092,6 @@
   "70d450061705ee451e551bd8eb1084f5dbff1635": [
     "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
   ],
-  "a2ffd86214c437aacfdfcce4f8e7e31388ae459e": [
-    "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
-  ],
-  "34d93f6c1d52bcf5c0ac187545d1d661474901ee": [
-    "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
-  ],
-  "141c00ebf341fb40040701e1add6c2ccd553a72b": [
-    "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
-  ],
-  "4419c971e8b9ab22ae1e62c149c09eb8f5056eea": [
-    "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
-  ],
-  "30ce946f57489be538a34643a20f3a358e92e413": [
-    "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
-  ],
-  "885e8f8644aa9cb80257fa8e3501b55ada54b5f7": [
-    "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
-  ],
-  "9f06bc275c6c526e7ec2a09eb33c621a4ded39fe": [
-    "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
-  ],
-  "e32ad7ed05134702c954119fb1c0c48f7eb1387f": [
-    "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
-  ],
-  "2dddd4ce2fcaf624190f5c3be08d65eeab7088b9": [
-    "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
-  ],
-  "9c0e51a62ec37c76177575c5560be23815eb8334": [
-    "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
-  ],
-  "df631e7d331cbf2bf7dae4d278164836cde64ead": [
-    "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
-  ],
   "f9d3a71792b226d0d3f313fd3815df8c46947b41": [
     "InTuneDocs\\DeployUse\\windows-compliance-policy-settings-in-microsoft-intune.md"
   ],
@@ -5551,24 +5470,6 @@
   "2f9787609f190e26215c540a50a453ab7be7e64c": [
     "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
   ],
-  "07f439bfd76e83b98bdb402d5f455da73147fe23": [
-    "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
-  ],
-  "06cf8e69049cd9c86432d865d39136bf64cab318": [
-    "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
-  ],
-  "1ce8865c7f29d567b5454835d3008b04f68dfe9c": [
-    "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
-  ],
-  "8a77e218d88726aea2acc407c03d312b05614436": [
-    "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
-  ],
-  "da34a71068098a45fa1ad588f9666c6ef1a99584": [
-    "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
-  ],
-  "d21a69a3df2f3c3baa67d555b8915fb3b7491f3a": [
-    "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
-  ],
   "b551aca6994780591dabe042420d5f23d98b218b": [
     "InTuneDocs\\GetStarted\\network-infrastructure-requirements-for-microsoft-intune.md"
   ],
@@ -5786,45 +5687,6 @@
     "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
   ],
   "68353dbdee81d59fce986c63575d307bb8cadfeb": [
-    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
-  ],
-  "86e7ca8174fbf409cde25ec429378c4827a152df": [
-    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
-  ],
-  "7ffe29d1d3233331c47814b687096abfca837514": [
-    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
-  ],
-  "6efebdbabfde13767ce2e4663398391b6de3b3dc": [
-    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
-  ],
-  "d76cc1008cdbf050de88fa1cc0b60ed963cd93a7": [
-    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
-  ],
-  "567dc90306b04a58d77643338c1ddedae9bc1b59": [
-    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
-  ],
-  "365dac5c6311e901993d2e821448f7c4b67bc7e6": [
-    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
-  ],
-  "5565691d4e58b21d02ecd1d6e95d4a7a111e0f12": [
-    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
-  ],
-  "e5f3e4b25a19df9c9a943e99eb898c86fadf6c95": [
-    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
-  ],
-  "32d07725da6da6eff001800975a35a6c2d44b341": [
-    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
-  ],
-  "93f34372563cc2afa9c1898e249abbb06706e0b9": [
-    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
-  ],
-  "0661410afad39709d88a12e1721a13229dee4eb0": [
-    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
-  ],
-  "9b700999f8ab692d69eed6f640787083c7ec7995": [
-    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
-  ],
-  "2e31a61bf97ce9cf5f21cbc53dd3aa4767cf2f31": [
     "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
   ],
   "e6d8507a143dede66ae4c299d928ea7f3cb9bd1b": [
@@ -6418,15 +6280,6 @@
   "73d376778e3635ac3e8b6f9aba1ab1873343a473": [
     "InTuneDocs\\DeployUse\\how-your-windows-users-get-their-apps.md"
   ],
-  "7b7930b14a8074862fb7b6752a8034b273a11d41": [
-    "InTuneDocs\\DeployUse\\how-your-windows-users-get-their-apps.md"
-  ],
-  "3e8340e85915c15d18f3b604d10e277cce650d96": [
-    "InTuneDocs\\DeployUse\\how-your-windows-users-get-their-apps.md"
-  ],
-  "ffb6fd5b0576d02e9b311ba3047c6a6699c6722a": [
-    "InTuneDocs\\DeployUse\\how-your-windows-users-get-their-apps.md"
-  ],
   "cdc4eaa69d8f0ce7b818204f0489aaa72b1625bb": [
     "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
   ],
@@ -6896,24 +6749,6 @@
     "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
   ],
   "a289ba11c4a481de951dba0db5308b9b0d9d1d05": [
-    "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
-  ],
-  "ad055fb87fc5d179663f54ec8a850faeddaf547b": [
-    "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
-  ],
-  "43a7f34aff7cd099efa1f47bdbdd2e533e7cfc93": [
-    "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
-  ],
-  "f5c7e89cdf8f92ee3143031259364fe2875a4e2f": [
-    "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
-  ],
-  "a822725bb6463d0f078b772afdc535a2f0becb6e": [
-    "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
-  ],
-  "39548a4c6b110e87415876c24ea70ff562580350": [
-    "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
-  ],
-  "c325a34778f52b965695ef27147b1d07e957f632": [
     "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
   ],
   "67d005fc75397f5cf24693c953e69460c1f470a3": [
