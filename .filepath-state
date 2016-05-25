@@ -1010,21 +1010,6 @@
   "409cbcdf4e162654454e9fda6a11ee8ab5b8e62c": [
     "InTuneDocs\\DeployUse\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
   ],
-  "55cfb7f7fa398177831c9ec645225f54cd4c6d68": [
-    "InTuneDocs\\DeployUse\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
-  ],
-  "15c8c6f227b25846953f08b715149d2b11f79c40": [
-    "InTuneDocs\\DeployUse\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
-  ],
-  "e16d05c98b564e3bd27be643d78328a1accbdc8c": [
-    "InTuneDocs\\DeployUse\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
-  ],
-  "e74d663a31dc67f56d2794741dd2aa5088863f1d": [
-    "InTuneDocs\\DeployUse\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
-  ],
-  "aa710abae51e7c4eb9d62c239e8516ef0fe89348": [
-    "InTuneDocs\\DeployUse\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
-  ],
   "48359b44bec9ac3e1c9510debc01d2cf8abf6d2b": [
     "InTuneDocs\\DeployUse\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
   ],
@@ -2581,31 +2566,7 @@
   "016b6992005617e8d89a2e3e75720f40c4d6cfc6": [
     "InTuneDocs\\EndUser\\using-your-windows-device-with-intune.md"
   ],
-  "40647e6f2156bb7982382cf96335ceb7aa7d7db0": [
-    "InTuneDocs\\EndUser\\using-your-windows-device-with-intune.md"
-  ],
-  "907c50ff9776905a7731ff567d8a7263e82b197f": [
-    "InTuneDocs\\EndUser\\using-your-windows-device-with-intune.md"
-  ],
-  "63add057702fb6a72b56cac17e5dd3e2a46a37a2": [
-    "InTuneDocs\\EndUser\\using-your-windows-device-with-intune.md"
-  ],
-  "4261dfd3bd812751ecc8600b0e2540758ce7a05b": [
-    "InTuneDocs\\EndUser\\using-your-windows-device-with-intune.md"
-  ],
-  "11ed822b969e07eb83f1a5587ff56e124dfcaa80": [
-    "InTuneDocs\\EndUser\\using-your-windows-device-with-intune.md"
-  ],
-  "e57c1b0bf099d15b1125f9ed14fccae28d9fe9dd": [
-    "InTuneDocs\\EndUser\\using-your-windows-device-with-intune.md"
-  ],
   "bd9e33fbcb0b562e11b9579fe8479dd93b78bb7d": [
-    "InTuneDocs\\EndUser\\Wait-while-your-device-is-being-evaluated.md"
-  ],
-  "812f9b89a25401c2ce3e466c74c11a6a3aa8694c": [
-    "InTuneDocs\\EndUser\\Wait-while-your-device-is-being-evaluated.md"
-  ],
-  "78a507cf5c5710a6fefc0ca147e94baed8dd7639": [
     "InTuneDocs\\EndUser\\Wait-while-your-device-is-being-evaluated.md"
   ],
   "aa62528e588b0579669ab8d115766efd72e6f9b2": [
@@ -3616,21 +3577,6 @@
   "1816bc5005ef4ac91acc5aa4dd8ea66de9588385": [
     "InTuneDocs\\EndUser\\encrypt-your-device-windows.md"
   ],
-  "f93a58354681a90378674ba1008f9fa6e5d581b8": [
-    "InTuneDocs\\EndUser\\encrypt-your-device-windows.md"
-  ],
-  "b4ffab39c49f1b5b3cc5aa2188d5c7d987e7af92": [
-    "InTuneDocs\\EndUser\\encrypt-your-device-windows.md"
-  ],
-  "4e4263623d8193cab2b5b9788b4693b49337f9bc": [
-    "InTuneDocs\\EndUser\\encrypt-your-device-windows.md"
-  ],
-  "d7920d5da38732767f02d6d4c4a067ebd36fe461": [
-    "InTuneDocs\\EndUser\\encrypt-your-device-windows.md"
-  ],
-  "6ed3c7be1612f23edac4c6dadf34fad807402249": [
-    "InTuneDocs\\EndUser\\encrypt-your-device-windows.md"
-  ],
   "d04b05344a3e1da285b7c9c7866e188a6c7f4dab": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-Intune-android.md"
   ],
@@ -4177,21 +4123,6 @@
   "543e4dcaa6ea8ef173742d2f9199b668a9e3468e": [
     "InTuneDocs\\EndUser\\what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md"
   ],
-  "54c7c22db09ac9442b59484ce518a8f8d49099f8": [
-    "InTuneDocs\\EndUser\\what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md"
-  ],
-  "f66cdda0b1bbd63254574c3026de15b4f205f03b": [
-    "InTuneDocs\\EndUser\\what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md"
-  ],
-  "b325f031150dc2efd6121c66afca8e7f27cc6eea": [
-    "InTuneDocs\\EndUser\\what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md"
-  ],
-  "3f4e0ad0cd6e900f1a3562eb331d70452abd7d64": [
-    "InTuneDocs\\EndUser\\what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md"
-  ],
-  "a89e3f3a066432284f37a8f0086300ee2f7ad548": [
-    "InTuneDocs\\EndUser\\what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md"
-  ],
   "326b28b6662bc27d88dbf2dd6f21966c509859bc": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md"
   ],
@@ -4220,24 +4151,6 @@
     "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-ios.md"
   ],
   "aac6c38b08d40a73f9668413ccbff0585c467192": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-windows.md"
-  ],
-  "d39b444d7a43d5a85762262b02fc49678280c27d": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-windows.md"
-  ],
-  "ce8f596a71efbf30e08634d33a3c82e2e90c243f": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-windows.md"
-  ],
-  "d76b1cb22f9ff9f8c234218d501e8a3a657f6dd9": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-windows.md"
-  ],
-  "2826f3336b201c727086c46877d4a386a46d8049": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-windows.md"
-  ],
-  "42c0f7cd222a1fda096f6f7b1dba7d8ccc996bc1": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-windows.md"
-  ],
-  "734e51656471cd6859ef495bfbfab19a47da3985": [
     "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-windows.md"
   ],
   "94239f1af609cb2961af04f03a9972bae1d6230b": [
@@ -5242,36 +5155,6 @@
   "1b30346d0605ecc4ebd39e3c39a3f0581a8e7128": [
     "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
   ],
-  "f7c59122cbf8e9fbb37acad6e20b357114d5d9cd": [
-    "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
-  ],
-  "e1bc7212d44d104a794fb43a20ca460b73462615": [
-    "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
-  ],
-  "2957db0d9f90210a3803e22f58cd481b27048095": [
-    "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
-  ],
-  "14a308127763ec9b33526c634ad371e3a58b50d0": [
-    "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
-  ],
-  "05d6e63cc6e3af42219061ac7c03e6f786c7e82f": [
-    "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
-  ],
-  "ef2988412743c71edb02979781fd0cfde90581f3": [
-    "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
-  ],
-  "15dc83efdd26167596d106b43f9123d641afb9f8": [
-    "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
-  ],
-  "6edac47219e2d570602308cd379c20c80bb127cc": [
-    "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
-  ],
-  "3b85de87fad4280caef3f0683618424d3036d4bb": [
-    "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
-  ],
-  "ae436c13137b09f261281b17e8adde32942f1775": [
-    "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
-  ],
   "28448f5ca267e0a3fa0ffc35018b480da45aefc6": [
     "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
   ],
@@ -5369,36 +5252,6 @@
     "InTuneDocs\\DeployUse\\intune-on-premises-exchange-connector.md"
   ],
   "6cfc532cba2f53034c4c3ef0c2df3d6c1e6e7841": [
-    "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
-  ],
-  "46e1a60e134c955447ecb4891b8c070e637231fc": [
-    "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
-  ],
-  "d66df8f9e96aa08729298190dca1f0cbbc243700": [
-    "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
-  ],
-  "7bc63f3ae20eea6108596ac1fa6326690686ae35": [
-    "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
-  ],
-  "72c1ccc1af4d1b4900ce8f82c8986b582025fada": [
-    "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
-  ],
-  "7cff6a0642eed85fe0deffba3f99ac1c12a2eb3c": [
-    "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
-  ],
-  "3d68ef4b623038db38fef9ed739d9bb74959711d": [
-    "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
-  ],
-  "90d4dbedfac3cb0bb630e390804a883f2b4d5edf": [
-    "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
-  ],
-  "2c88233825525d9f761120abf637efd7a277093c": [
-    "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
-  ],
-  "aba43fc30b94cf9fe6d2f2fd4b8056f9548fdca7": [
-    "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
-  ],
-  "980cd19c4b0d2c0a287d4dfc8fdfa7e49dc8594d": [
     "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
   ],
   "566a226c19825990c6a34bffbbd9d1cd6a242ddb": [
@@ -6349,33 +6202,6 @@
   "0408998f43012e9ef636a87ffcac2dafd5b68981": [
     "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
   ],
-  "d9c4bc2e17fa9e45eeb96a4c0d1abc8ecb5462b3": [
-    "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
-  ],
-  "62d2c4146512f4e487e584c158bea74679c4d15e": [
-    "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
-  ],
-  "e1f9abc097b6204c5f1e8e42b52f9542e6b66518": [
-    "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
-  ],
-  "2e328cda0d1cc93f849aef2959e97fff0bbb3ade": [
-    "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
-  ],
-  "fc501ba978ec3eba26cdd27b143a4245a5e2383c": [
-    "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
-  ],
-  "ed0ce2f1235349939a20688a1ce575e080d13b7c": [
-    "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
-  ],
-  "b005cb24c5c8bd54acbe7c8da2d99dc51abd5066": [
-    "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
-  ],
-  "f4ffa05bc92f46557625c364eb51e9a5a5e12855": [
-    "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
-  ],
-  "ee680c70a48c083dcf288ae907b5c54444cb7103": [
-    "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
-  ],
   "2521500820d769bfe7c5742cf035e5eee8f2aacc": [
     "InTuneDocs\\DeployUse\\manage-data-transfer-between-ios-apps-with-microsoft-intune.md"
   ],
@@ -6440,15 +6266,6 @@
     "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
   ],
   "5a391383fec76e7602c7e9ccc047dec7eb5362e1": [
-    "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
-  ],
-  "56d86fc3380658c740ed41729360d5a37deaf437": [
-    "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
-  ],
-  "298cc7bc76330459a5c7ef0f728d1ed3fad88f4b": [
-    "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
-  ],
-  "b9f015265fc432c9ce2a6806ba15b31b0df069cb": [
     "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
   ],
   "b8284a6060e8bd5dc51a9f1c41448d3c69fca5e3": [
