@@ -1,13 +1,30 @@
 ---
-title: Microsoft Intune アプリ SDK の概要
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: ef1751bb-3a2f-4662-a922-38c076869eb3
+# required metadata
+
+title: Microsoft Intune アプリ SDK の概要 | Microsoft Intune
+description:
+keywords:
 author: Msmbaldwin
+manager: jeffgilb
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service: microsoft-intune
+ms.technology:
+ms.assetid: ef1751bb-3a2f-4662-a922-38c076869eb3
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: jeffgilb
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Microsoft Intune アプリ SDK の概要
 Intune アプリ SDK は、iOS プラットフォームと Android プラットフォームの両方で利用でき、Microsoft Intune を使ったモバイル アプリ管理機能が有効になります。 さらに、Microsoft は、開発者が行う必要のあるコード変更の量を減らすことに努めています。 SDK の機能の大半は、アプリの動作を変更せずに利用できます。 エンド ユーザーと IT 管理者のエクスペリエンスを向上させるために、API を利用してアプリの動作をカスタマイズし、アプリ側の処理が必要な機能を実現できます。 
 
@@ -36,7 +53,7 @@ IT 管理者は、Intune の管理対象アプリの中からリンクを開く�
 IT 管理者は、Intune の管理対象アプリが開始するときに暗証番号 (PIN) ポリシーを適用できます。 このポリシーによって、Microsoft Intune を使用してデバイスを登録しているエンドユーザーとアプリを起動しているユーザーが同一であることを確認できます。 エンド ユーザーが自分の暗証番号 (PIN) を構成するとき、Intune アプリ SDK は Azure Active Directory を使用して、エンド ユーザーの資格情報をデバイス登録資格情報に照らして確認します。 
 
 ## ユーザーは、アプリを起動する前に、資格情報を入力する必要があります。
-IT 管理者は、ユーザーが Intune の管理対象アプリを起動する前に、自分の資格情報を入力するように要求できます。 Intune アプリ SDK は Azure Active Directory を使用してシングル サインオン エクスペリエンスを提供します。1 回入力した資格情報が、それ以降のログインで再利用されます。 [Azure Active Directory とフェデレーション](https://msdn.microsoft.com/en-us/library/azure/jj679342.aspx)している ID 管理ソリューションの認証もサポートしています。 
+IT 管理者は、ユーザーが Intune の管理対象アプリを起動する前に、自分の資格情報を入力するように要求できます。 Intune アプリ SDK は Azure Active Directory を使用してシングル サインオン エクスペリエンスを提供します。1 回入力した資格情報が、それ以降のログインで再利用されます。 [Azure Active Directory とフェデレーション](https://msdn.microsoft.com/en-us/library/azure/jj679342.aspx)している ID 管理ソリューションの認証もサポートしています。. 
 
 ## デバイスのヘルスとコンプライアンスの確認
 エンド ユーザーが Intune の管理対象アプリにアクセスする前に、IT 管理者は、デバイスのヘルスと企業のポリシーに対するコンプライアンスを確認できます。 iOS プラットフォームでは、このポリシーにより、デバイスが脱獄されているかどうかを確認できます。 Android プラットフォームでは、このポリシーにより、デバイスがルート化されているかどうかを確認できます。  
@@ -44,6 +61,6 @@ IT 管理者は、ユーザーが Intune の管理対象アプリを起動する
 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=May16_HO1-->
 
 
