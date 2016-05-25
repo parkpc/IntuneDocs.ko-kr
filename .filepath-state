@@ -8,15 +8,6 @@
   "ddf727348aae2edb3981bec3251f09f1231b752e": [
     "InTuneDocs\\DeployUse\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
   ],
-  "f220f439e62e5258a697e7e854c6e761dfc332c7": [
-    "InTuneDocs\\DeployUse\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
-  ],
-  "aaf572a1ce6096a91c31b0db077315e4a2d6cdfb": [
-    "InTuneDocs\\DeployUse\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
-  ],
-  "60b3e79cfd8424d7b64c6cfa35a4fd3d407a645f": [
-    "InTuneDocs\\DeployUse\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
-  ],
   "003210b7b282114ee3b8aef81ae7f9bddd2585ca": [
     "InTuneDocs\\EndUser\\company-portal-app-not-supported.md"
   ],
@@ -3559,21 +3550,6 @@
   "656bc3b8766582eddb5de765f923cdfc98bfb812": [
     "InTuneDocs\\EndUser\\encrypt-your-device-android.md"
   ],
-  "6d9ee1ec7e8dde26e4fe35d30524ce65b7ce4021": [
-    "InTuneDocs\\EndUser\\encrypt-your-device-android.md"
-  ],
-  "e68a573993994ee18c839f834a1800eb42c6434d": [
-    "InTuneDocs\\EndUser\\encrypt-your-device-android.md"
-  ],
-  "e84b021e54920c8450343096b092f6be84c12ea0": [
-    "InTuneDocs\\EndUser\\encrypt-your-device-android.md"
-  ],
-  "2f23e479709b89ffec385af17de15221773934c1": [
-    "InTuneDocs\\EndUser\\encrypt-your-device-android.md"
-  ],
-  "79f2ee594602d4cad74752e34b32c29b9c7eca41": [
-    "InTuneDocs\\EndUser\\encrypt-your-device-android.md"
-  ],
   "1816bc5005ef4ac91acc5aa4dd8ea66de9588385": [
     "InTuneDocs\\EndUser\\encrypt-your-device-windows.md"
   ],
@@ -4171,27 +4147,6 @@
   "4c0d0f5cca6435ff149ad0a0e93663519482c3fc": [
     "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-windows.md"
   ],
-  "70199b787b5cc211a245bce1c15abd875735a078": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-windows.md"
-  ],
-  "e173d1dce38ef0bb66136d534468732037be1bdf": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-windows.md"
-  ],
-  "8adda9a21039d041bc71fa9b0b364a33a2bc2877": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-windows.md"
-  ],
-  "933f7777c249cd6230f8c90b91bfb896e5b95414": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-windows.md"
-  ],
-  "69904e4f96ef365d79134c296efca836776a1f16": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-windows.md"
-  ],
-  "956596d5cc4aa8f2354bf5183391c26ae52fb838": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-windows.md"
-  ],
-  "6690412772ded769c14f56244daa9b501ae75936": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-windows.md"
-  ],
   "ab307676bc85cc8c32ca850174de76081ef377ec": [
     "InTuneDocs\\EndUser\\you-get-an-error-while-using-the-company-portal-app-ios.md"
   ],
@@ -4199,18 +4154,6 @@
     "InTuneDocs\\EndUser\\you-get-an-error-while-using-the-company-portal-app-ios.md"
   ],
   "cef1dac1b5b23281b64509c38319a3534b8b4bd8": [
-    "InTuneDocs\\EndUser\\your-device-is-rooted-and-you-cant-connect-android.md"
-  ],
-  "4f6f68acd8747ff7d723cfe6e045cf19a1153178": [
-    "InTuneDocs\\EndUser\\your-device-is-rooted-and-you-cant-connect-android.md"
-  ],
-  "eaec8b3b296f18f26bd264a62a5e290e4b655ae9": [
-    "InTuneDocs\\EndUser\\your-device-is-rooted-and-you-cant-connect-android.md"
-  ],
-  "f1ab0091831916ca1a4181ff4728085f73f5a5ae": [
-    "InTuneDocs\\EndUser\\your-device-is-rooted-and-you-cant-connect-android.md"
-  ],
-  "e2553bee12bf3c7795678c4e5e68fb169d00bb41": [
     "InTuneDocs\\EndUser\\your-device-is-rooted-and-you-cant-connect-android.md"
   ],
   "2efebae061730454cd6b9f77f5499d6b60f77772": [
@@ -5623,30 +5566,6 @@
   "0b63694fae79872f7b8eb686a9478eb7d866748a": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
-  "b68e58e773f5cbf42ca815be702bbbf36ac00849": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "71705c2247c0c31e2e953035c94b83a78999e33c": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "e9218e8c35017e13053879d4dd9d603e3c04f1ca": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "457d9851e3ec7bd6d76b8ede6e7c350837956d2e": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "b4baf87a9d986d7864a47afc5ec65b1f43f022ef": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "bc37bc7224bf528d7f159817affbe6d4fe826d3e": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "7d634b36c000bd206c86151bc085dd3416b15e32": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "ed9ddbce928723dc68d315e085afaa91a127d0a0": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
   "bdb4059504fd10af7ec2e928df6d36d7ba842d74": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
@@ -6248,15 +6167,6 @@
     "InTuneDocs\\EndUser\\enroll-your-rt-windows.md"
   ],
   "c581ccf3633a9445e7a58ea2fda8b0d61f884fb0": [
-    "InTuneDocs\\EndUser\\enroll-your-w10-phone-or-w10-pc-windows.md"
-  ],
-  "f3b65661c43d913b6b8102314b10ddf42ad69cd7": [
-    "InTuneDocs\\EndUser\\enroll-your-w10-phone-or-w10-pc-windows.md"
-  ],
-  "04a8c1223a88bf3ab11bc76355dde8d0b49af2bf": [
-    "InTuneDocs\\EndUser\\enroll-your-w10-phone-or-w10-pc-windows.md"
-  ],
-  "9cff3103d05be351a3988cc1bdc376ad045f7030": [
     "InTuneDocs\\EndUser\\enroll-your-w10-phone-or-w10-pc-windows.md"
   ],
   "527c6267f394cabfd1af3bfdc5fa1d90a63f44f7": [
