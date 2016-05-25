@@ -2410,57 +2410,6 @@
   "da9db0b3961cbbd53fc2b7aa7704fa31c8c78718": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
-  "1f488ff025c433dbb0284e15a3432a5596e0c7f2": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "0f14b771cd0a55d91a2bec77e8f4269c58d33286": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "3df48f058175c99c0417304cf7adb099e106933a": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "7dd2cde93d8dafc9c70fcb34b4b724a8c90f90e4": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "f5736e427844bb6f680ba35064b5564107299b45": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "06b58ed6e6ea648092354a327f4197b9ce2c3fb8": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "3b9c00857551480257905fe0215aeb25b30506f2": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "0a20d91cfe8d12c0199168a35b6053b4318251ff": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "e2fdd9bb479f088d47c0ab93da1d7c77535a8cdf": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "0c542a53ee712c9ab855455b5b39743648d47d7f": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "c81517c28dfb06828a5194c8818f87979c926ef0": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "82727f98cc1868ee9629633ba10fe82500831bff": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "9960069f2eaf8b3d1eeabe2580ad0dcbd79f0525": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "c895a9227c374ee26c6840c5289bf86d2304db92": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "6dd2dc3915d9fe477a632709dcc014209ce18623": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
-  "455701510cf85442c6b4ee4a39d42f4283f18a87": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
   "b1fe07143474e4ad150033f94e2bb85caf87ff10": [
     "InTuneDocs\\Understand\\TOC.md"
   ],
@@ -2606,33 +2555,6 @@
     "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "1ab29b91ada2c8cc9b144e39ed808c6155bb31e9": [
-    "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
-  ],
-  "902f3c97b7202923c8ed6fa2f3a47852cc6d7366": [
-    "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
-  ],
-  "19471e8d8744a19f1836ff50138d63fb566f935e": [
-    "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
-  ],
-  "90c46a2a71aa2cd9aed416016782f4c9e499b11f": [
-    "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
-  ],
-  "3fc0ecefd2285f4c9f7b2039d4d91f804d1853be": [
-    "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
-  ],
-  "da76e6a200de74dd0624a0ba8514e0112ec487e5": [
-    "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
-  ],
-  "09b3220c93c6f4da4119cd991950a43aac8e732a": [
-    "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
-  ],
-  "07a1410b66e175d10de7f4d3120df78b0ed446f4": [
-    "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
-  ],
-  "6f552632b42f1660bfb5d062dce0f0ce48aa2479": [
-    "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
-  ],
-  "47a8d710859e29c6786c565383e03c26803ac14a": [
     "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "b08d52289b94429b1328a7470469a7efdf4d46a7": [
@@ -3835,24 +3757,6 @@
   "80e9253e08e5aca9c89f0968e7656593b106a93d": [
     "InTuneDocs\\EndUser\\install-and-sign-in-to-the-intune-company-portal-app-ios.md"
   ],
-  "c20b12a76d909e0f9439d2b8d3c78fad8b1a6f1a": [
-    "InTuneDocs\\EndUser\\install-and-sign-in-to-the-intune-company-portal-app-ios.md"
-  ],
-  "3c49203172cd2aae91c5dd0c1cf2041d6f69bc3c": [
-    "InTuneDocs\\EndUser\\install-and-sign-in-to-the-intune-company-portal-app-ios.md"
-  ],
-  "d4b8d266c2b249c89f044ff78f601eb77f307da1": [
-    "InTuneDocs\\EndUser\\install-and-sign-in-to-the-intune-company-portal-app-ios.md"
-  ],
-  "dedef432ec4cf1baa51879dee6fe2eceb6c92011": [
-    "InTuneDocs\\EndUser\\install-and-sign-in-to-the-intune-company-portal-app-ios.md"
-  ],
-  "f4662d00acc88a583d6fa85f10e09bfd7e65a7e1": [
-    "InTuneDocs\\EndUser\\install-and-sign-in-to-the-intune-company-portal-app-ios.md"
-  ],
-  "517a7079a6e91fc4d4ab01e01b69224691190a50": [
-    "InTuneDocs\\EndUser\\install-and-sign-in-to-the-intune-company-portal-app-ios.md"
-  ],
   "e2276fd87b2642166dc7db05592db5e85f987e30": [
     "InTuneDocs\\EndUser\\install-the-microsoft-intune-company-portal-app-android.md"
   ],
@@ -4292,36 +4196,6 @@
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
   ],
   "86ec26e4a89f3d02212b76a0c71a8fe14e594122": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
-  ],
-  "98b7a2b5c217ba1f12b65c3b5190e14734756161": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
-  ],
-  "ce70b79d5ef4d696ff8f79b3a31fc73a81839363": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
-  ],
-  "7f1f03fc3c6b969258e4d6d326a084198450958d": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
-  ],
-  "00dc1720a8c0d24066f4ab13704879520c2529df": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
-  ],
-  "6af1f898a3c70cfd01bd18cbf54c75a31bbd0f58": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
-  ],
-  "ac2cfcb2e69f08d2e1a54dac4387dd2ab456ca18": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
-  ],
-  "16404c23f4673e2dde8ec00e7ed22a681018c60c": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
-  ],
-  "48982f55aee19b99bd439b8e69ac126196e62159": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
-  ],
-  "0b904595891773899c0db990039a6024f33edd6b": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
-  ],
-  "69b4a1f585753154c7804fe053d6e7327c080ff0": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
   ],
   "da5c9d634c84ef8489307b3086835559db04306f": [
@@ -5620,30 +5494,6 @@
   "0b63694fae79872f7b8eb686a9478eb7d866748a": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
-  "b68e58e773f5cbf42ca815be702bbbf36ac00849": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "71705c2247c0c31e2e953035c94b83a78999e33c": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "e9218e8c35017e13053879d4dd9d603e3c04f1ca": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "457d9851e3ec7bd6d76b8ede6e7c350837956d2e": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "b4baf87a9d986d7864a47afc5ec65b1f43f022ef": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "bc37bc7224bf528d7f159817affbe6d4fe826d3e": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "7d634b36c000bd206c86151bc085dd3416b15e32": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
-  "ed9ddbce928723dc68d315e085afaa91a127d0a0": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
-  ],
   "bdb4059504fd10af7ec2e928df6d36d7ba842d74": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
@@ -5741,27 +5591,6 @@
     "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
   ],
   "8ba0c83fc8a80937bfd7010134f3eb15dfac21df": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "d55bc906922b0b648d49277f38a5b00e019f7056": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "344c69e503a4c8c7d4c0ed81db8b4e388c1473b3": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "aad69c45f43cecb39cca2b69fdd9ddf887480807": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "31bfe30948a23bae87fa24ca51a3794b1d45c612": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "85a25f96e74c4b872060ce2db6023d279d2844ab": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "c092011d541277b4447b6acf7a061d1990737eaf": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "9d03b6990321208ec58b65fdaa1ef91dff170b11": [
     "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
   ],
   "eac2f6affbfae14d4be1b8c1ce22cf593c04a776": [
@@ -6082,27 +5911,6 @@
   "650ca8f928fc99e7ab50e896be1a0f49bdacad54": [
     "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
   ],
-  "4355dab30f5f19f7bcb05649478894f4cc92d070": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
-  "31662a38081137f66484e1bdefa4a15872ffb5b4": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
-  "ddc366711112335150e0294ca49f2abd2ea59d5d": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
-  "f3fbd261e7a09eef62085f897f0484641253dbb3": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
-  "ebee8ea5e17c65b1c670443bad5188c602ebcb10": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
-  "c4f87a2c01592f28e98c06c4176be1998e323bd2": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
-  "1bd9ef200dff9ceea2836404d2759f1f44fd5361": [
-    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
-  ],
   "c31ee9bb3aafa6b54068adda5b14f2c1cacacd31": [
     "InTuneDocs\\DeployUse\\mac-os-x-policy-settings-in-microsoft-intune.md"
   ],
@@ -6404,27 +6212,6 @@
     "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
   ],
   "67a1be70b8a8b91d2bd881003efa6462176f5e70": [
-    "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
-  ],
-  "033e0746fd5318d4173ccd9496458cba872cc124": [
-    "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
-  ],
-  "ceb0de2858ee43c2a3e706ebc5f44a27688e0289": [
-    "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
-  ],
-  "9a0f16646fadd2e86d05c5dbcff8b4517cfff2b1": [
-    "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
-  ],
-  "b9ac53f392f94c3bb191b02d2e5482f04136eee1": [
-    "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
-  ],
-  "e494bc2671ebed7b05e8a6e7d83786e1278e6fa1": [
-    "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
-  ],
-  "51ca3caff7089d9306a1d67a55ec8b515b49e70e": [
-    "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
-  ],
-  "02c432e436bec4c7b45ad9f0c7beb9615edf8fac": [
     "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
   ],
   "d331fa9c9cd16ec05782efb1e47ac44692cb0d9f": [
