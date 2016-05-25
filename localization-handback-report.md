@@ -1,39 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [InTuneDocs\EndUser\error-evaluating-device.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/error-evaluating-device.md) | InSyncHandedBackSuccess | [Details](#ee368dcc2427b8917a6097ed08835d4963c68e12297)
- [InTuneDocs\EndUser\use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md) | InSyncHandedBackSuccess | [Details](#6ac303b5ab67433c252d12cfaf663b616306c24e441)
 
 ## Item Details
-##### <a name='ee368dcc2427b8917a6097ed08835d4963c68e12297'></a> Source: [InTuneDocs\EndUser\error-evaluating-device.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/error-evaluating-device.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\error-evaluating-device.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/a6edf8062f92c6247b1d921fc769f273935cdba9/InTuneDocs/EndUser/error-evaluating-device.md)
-* Handoff File: [error-evaluating-device.6b69de70204b65f202a28394b323a9f9ecf4a0fb.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/4c85c86418756844b31f65394b74954cad737b8b/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/error-evaluating-device.6b69de70204b65f202a28394b323a9f9ecf4a0fb.ko-kr.xlf)
-* Handoff Datetime: 2016-05-01 17:46:57
-* Handoff Reason: Include
-* Archive File: [error-evaluating-device.6b69de70204b65f202a28394b323a9f9ecf4a0fb.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/ec5ac7c031cbc12a989e5fd374f281bd58121a42/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/error-evaluating-device.6b69de70204b65f202a28394b323a9f9ecf4a0fb.ko-kr.xlf)
-* Archive Datetime: 2016-05-08 18:23:23
-* Handback File: [error-evaluating-device.6b69de70204b65f202a28394b323a9f9ecf4a0fb.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/8c83da564d19bccadd547f2f6bad90f6f5304195/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/error-evaluating-device.6b69de70204b65f202a28394b323a9f9ecf4a0fb.ko-kr.xlf)
-* Handback Datetime: 2016-05-25 08:59:01
-* [Back to Top](#report-top)
-
-##### <a name='6ac303b5ab67433c252d12cfaf663b616306c24e441'></a> Source: [InTuneDocs\EndUser\use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/a6edf8062f92c6247b1d921fc769f273935cdba9/InTuneDocs/EndUser/use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
-* Handoff File: [use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.ef81d47520e164656db1e326ccd5afd031d0018e.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/4c85c86418756844b31f65394b74954cad737b8b/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.ef81d47520e164656db1e326ccd5afd031d0018e.ko-kr.xlf)
-* Handoff Datetime: 2016-05-01 17:46:57
-* Handoff Reason: Include
-* Archive File: [use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.ef81d47520e164656db1e326ccd5afd031d0018e.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/ec5ac7c031cbc12a989e5fd374f281bd58121a42/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.ef81d47520e164656db1e326ccd5afd031d0018e.ko-kr.xlf)
-* Archive Datetime: 2016-05-08 18:23:23
-* Handback File: [use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.ef81d47520e164656db1e326ccd5afd031d0018e.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/8c83da564d19bccadd547f2f6bad90f6f5304195/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.ef81d47520e164656db1e326ccd5afd031d0018e.ko-kr.xlf)
-* Handback Datetime: 2016-05-25 08:59:01
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
