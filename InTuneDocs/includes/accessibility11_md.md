@@ -1,4 +1,4 @@
-**Learning Ally(이전 Recording for the Blind &amp; Dyslexic, Inc.)** 
+**Learning Ally(이전의 Recording for the Blind &amp; Dyslexic, Inc.)** 
 
 <!--HONumber=May16_HO1-->
 
