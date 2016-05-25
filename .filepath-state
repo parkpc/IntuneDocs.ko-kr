@@ -1067,21 +1067,6 @@
   "48359b44bec9ac3e1c9510debc01d2cf8abf6d2b": [
     "InTuneDocs\\DeployUse\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
   ],
-  "c2bc05f695536a8aa5257731b7303bbace995b9c": [
-    "InTuneDocs\\DeployUse\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
-  ],
-  "58f1ffb5d672892fdd832f288ffd9fb70ffc96a7": [
-    "InTuneDocs\\DeployUse\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
-  ],
-  "32502610432f879de065166b4966ee0318a1f395": [
-    "InTuneDocs\\DeployUse\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
-  ],
-  "e0d93407004f1370d882317104194bfd0bf17d9b": [
-    "InTuneDocs\\DeployUse\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
-  ],
-  "2ddcfc818c7a2afd2d1057ce52b256a1b47e0f39": [
-    "InTuneDocs\\DeployUse\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
-  ],
   "ee368dcc2427b8917a6097ed08835d4963c68e12": [
     "InTuneDocs\\EndUser\\error-evaluating-device.md"
   ],
@@ -1116,12 +1101,6 @@
     "InTuneDocs\\DeployUse\\exchange-activesync-policy-settings-in-microsoft-intune.md"
   ],
   "d80768ad9e44d112b01db849cc20107a43a626a4": [
-    "InTuneDocs\\EndUser\\existing-company-email-account-found.md"
-  ],
-  "71b8d8efac8ac85791c2f109b4566072dd5c7f4b": [
-    "InTuneDocs\\EndUser\\existing-company-email-account-found.md"
-  ],
-  "fe98e87737685b79a1db7d7a34eb487ae11f0e80": [
     "InTuneDocs\\EndUser\\existing-company-email-account-found.md"
   ],
   "d93ab710f6bc2bc62321be5f7079f6092c261284": [
@@ -4459,24 +4438,6 @@
   "88b56541c6b3988d61661785a2034c09438eaa1a": [
     "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-android.md"
   ],
-  "9ba70f385cbef579bb2875b22a3159aa1060e2db": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-android.md"
-  ],
-  "f09400bed5ea00def96e69199273999d3adf09fc": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-android.md"
-  ],
-  "7cec644ba0923b9982f2c4f823980496fa33b7ae": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-android.md"
-  ],
-  "8ee988b15e01c5f0203a610ddc21b1b7d13cb690": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-android.md"
-  ],
-  "65b810566e8c38e01e54f36b721fe33b5ac1e89b": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-android.md"
-  ],
-  "f7ac07a646422375ce8230495a7d930de3be2e32": [
-    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-android.md"
-  ],
   "0d6f3b5cd4bd79d915ef9ae3ec7b3cc05038b693": [
     "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-ios.md"
   ],
@@ -6856,27 +6817,6 @@
   "c29cc0f9b4e0cae5b1deea9393247787f9c6ed85": [
     "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
   ],
-  "df8df5072a6bf8cc85db7751fba96ad231449db8": [
-    "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
-  ],
-  "69bb6219332da8219fc9ea55e3dec37a7f8cb2b6": [
-    "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
-  ],
-  "fcc2cc6340f716e9358369ab602b61f64c1d7886": [
-    "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
-  ],
-  "24d4910fa1458cdc4feb2e3f7501d8f8f064699b": [
-    "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
-  ],
-  "639b86ffebaa4bd33523ebc2aeb360ad95070d61": [
-    "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
-  ],
-  "572290468716318b9109c7755ba222a8f773fe3b": [
-    "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
-  ],
-  "6e43604fb0389276944a54e0402c05f0893d1b95": [
-    "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
-  ],
   "5a391383fec76e7602c7e9ccc047dec7eb5362e1": [
     "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
   ],
@@ -7034,15 +6974,6 @@
     "InTuneDocs\\EndUser\\media\\ios-enroll-9-comp-access-setup-complete.PNG"
   ],
   "79e07431c479746ed259690d1c2ea6ae542358aa": [
-    "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
-  ],
-  "ba86fa8f209ac468f3c37667f0487f3603d401fd": [
-    "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
-  ],
-  "4d8d6938425131303728e85b8ca5ea5191a289c5": [
-    "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
-  ],
-  "c427b3f1a59d33001cf00f6f997796ac9be47a3c": [
     "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
   ],
   "2758799a3713a79a43280b8ff61deff08993827a": [
