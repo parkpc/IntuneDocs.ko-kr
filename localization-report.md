@@ -8,9 +8,9 @@
 [ Handoff Success Files ](#handoff-success-list)| 609
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 18
-[ Handback Failed Files ](#handback-failed-list)| 23
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 104
-[ In Sync Handback Files ](#insync-handback-success-list)| 251
+[ Handback Failed Files ](#handback-failed-list)| 2
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 115
+[ In Sync Handback Files ](#insync-handback-success-list)| 261
 [ Ignored Files ](#ignored-list)| 225
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -659,29 +659,8 @@
 ## <a name='handback-failed-list'></a> Handback Failed File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [InTuneDocs\DeployUse\android-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a747dbde020738287a84d07d4653a705fe99752/InTuneDocs/DeployUse/android-mam-policy-settings.md) | HandedBackFailed | [Details](#565c4789b0f27e904e66cb70843d3f4710ba2ebe14)
- [InTuneDocs\DeployUse\categorize-devices-with-device-group-mapping-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/categorize-devices-with-device-group-mapping-in-microsoft-intune.md) | HandedBackFailed | [Details](#fcc2e417766a4a7b6fcbe3a7831d0d15c765ca8117)
- [InTuneDocs\DeployUse\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bd52b0e5a9e3be1b8549687e70c86b6e86301c19/InTuneDocs/DeployUse/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md) | HandedBackFailed | [Details](#bd36ee9c1c6080abda869a525335b272d193299418)
- [InTuneDocs\DeployUse\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a747dbde020738287a84d07d4653a705fe99752/InTuneDocs/DeployUse/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md) | HandedBackFailed | [Details](#1e19c0029ac0eaa43d298dee8639c113b2dda58520)
- [InTuneDocs\DeployUse\Configure-Intune-certificate-profiles.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5a7699050b9b46d93b0936c2256397bc776529b5/InTuneDocs/DeployUse/Configure-Intune-certificate-profiles.md) | HandedBackFailed | [Details](#1d13dac07be4defa1fe3382e1c893ba80b97b5ba24)
- [InTuneDocs\DeployUse\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/control-what-admins-can-see-in-the-microsoft-intune-admin-console.md) | HandedBackFailed | [Details](#52a77e50b3dde24ba270766d4472bdd6176cc41527)
- [InTuneDocs\DeployUse\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/71fd2322dd8647eae0848661cfab9693dccc8904/InTuneDocs/DeployUse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md) | HandedBackFailed | [Details](#2454aecb48cceab96c79094bc95185898bdf734a29)
- [InTuneDocs\DeployUse\deploy-apps-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/deploy-apps-in-microsoft-intune.md) | HandedBackFailed | [Details](#723bf2dcafcc0c0fc064c960cb4e04dc9da9e51a33)
- [InTuneDocs\DeployUse\overview-of-device-and-app-lifecycles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8d83f8ea2fa116ca6f1dbf96370c837ca6581d0b/InTuneDocs/DeployUse/overview-of-device-and-app-lifecycles-in-microsoft-intune.md) | HandedBackFailed | [Details](#d1912736361a9fa74a8827be367227336ee800eb208)
- [InTuneDocs\DeployUse\overview-of-device-lifecycle-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8d83f8ea2fa116ca6f1dbf96370c837ca6581d0b/InTuneDocs/DeployUse/overview-of-device-lifecycle-in-microsoft-intune.md) | HandedBackFailed | [Details](#908c052484dc1532ade9576ab09070b18a85d71e209)
- [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-app-management.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-app-management.md) | HandedBackFailed | [Details](#e5a2bf543e2627839f27a4610ca27a2b40caaaf2215)
- [InTuneDocs\DeployUse\previous-intune-releases.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b9c8e67e70be825368e016749164b19386082c5e/InTuneDocs/DeployUse/previous-intune-releases.md) | HandedBackFailed | [Details](#c082a47dd0bc348ce4b5e6e8c23a5d1ce9d01547219)
- [InTuneDocs\DeployUse\protect-windows-devices-with-multi-factor-authentication.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/protect-windows-devices-with-multi-factor-authentication.md) | HandedBackFailed | [Details](#a53a8e1317fc55cfcf7c5dc90be6b647589e17cd223)
- [InTuneDocs\EndUser\remove-your-device-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/remove-your-device-cpwebsite.md) | HandedBackFailed | [Details](#30eb42012e269031f9abd3334eeedd0818d860ad416)
- [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6d435c2c9773040d6870aea274d3879c00461457/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-ios.md) | HandedBackFailed | [Details](#e992b17f424a09e56c7a376ffae4f0db9af71ddb419)
- [InTuneDocs\GetStarted\administrative-accounts-websites-perms.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/GetStarted/administrative-accounts-websites-perms.md) | HandedBackFailed | [Details](#a8d9cf5d36107c54b97d2b5a5250645dc735a8da481)
- [InTuneDocs\GetStarted\choose-how-to-manage-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bb44d53c87bec1b6892bf49a65f3df684199ed08/InTuneDocs/GetStarted/choose-how-to-manage-devices.md) | HandedBackFailed | [Details](#527506ce7b14cdbfeb413b0b52a521f7a411a710483)
  [InTuneDocs\GetStarted\mobile-device-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/GetStarted/mobile-device-management-capabilities-in-microsoft-intune.md) | HandedBackFailed | [Details](#3235d7f0db88db980dd08399fd2a650e1b6ad639506)
  [InTuneDocs\GetStarted\windows-pc-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/98fef2cbd78b8f8c38d47a6a43552871dd7eeb62/InTuneDocs/GetStarted/windows-pc-management-capabilities-in-microsoft-intune.md) | HandedBackFailed | [Details](#711d1ca4d6afe52fdeec94ff2e7893618b4fe28c528)
- [InTuneDocs\includes\accessibility17_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility17_md.md) | HandedBackFailed | [Details](#ec300e64342ef3c9f5e340088eee2046e1897bb8557)
- [InTuneDocs\includes\accessibility7_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility7_md.md) | HandedBackFailed | [Details](#1ee43f463d7f9fbaab219c73e8ed25208b14c35d570)
- [InTuneDocs\Troubleshoot\contact-assisted-phone-support-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/cc64e51499908d08823429871cda91dfb0078b1e/InTuneDocs/Troubleshoot/contact-assisted-phone-support-for-microsoft-intune.md) | HandedBackFailed | [Details](#de00d31ab32916f29a111c93b39a578f82524f801120)
- [InTuneDocs\Understand\common-microsoft-intune-evaluation-tasks.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f3985b10ac9612c8c1efc4756eb25cdcf29b023/InTuneDocs/Understand/common-microsoft-intune-evaluation-tasks.md) | HandedBackFailed | [Details](#d93ab710f6bc2bc62321be5f7079f6092c2612841137)
 
 ## <a name='outofsync-handback-success-list'></a> Out Of Sync Handback Success File List
  Source File | Status | Details 
@@ -689,13 +668,19 @@
  [InTuneDocs\DeployUse\add-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6a232475ebd6fb301ba04c00d2c12b7111fa8976/InTuneDocs/DeployUse/add-apps.md) | OutofSyncHandedBackSuccess | [Details](#2758799a3713a79a43280b8ff61deff08993827a12)
  [InTuneDocs\DeployUse\add-apps-for-mobile-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6a232475ebd6fb301ba04c00d2c12b7111fa8976/InTuneDocs/DeployUse/add-apps-for-mobile-devices-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#eb735cdbaf574104ad090c770fcc9f1f18a54d3010)
  [InTuneDocs\DeployUse\add-apps-for-windows-pcs-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8e911193075d2a621ef94f2917b2126501ea2100/InTuneDocs/DeployUse/add-apps-for-windows-pcs-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#44d4bae56cb5595d86117289a28ff4bc97aa861d11)
+ [InTuneDocs\DeployUse\android-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a747dbde020738287a84d07d4653a705fe99752/InTuneDocs/DeployUse/android-mam-policy-settings.md) | OutofSyncHandedBackSuccess | [Details](#565c4789b0f27e904e66cb70843d3f4710ba2ebe14)
  [InTuneDocs\DeployUse\android-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8e911193075d2a621ef94f2917b2126501ea2100/InTuneDocs/DeployUse/android-policy-settings-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#01e1cf0c790db4ebebdf29f33aa7e4d85f5f1c8c15)
  [InTuneDocs\DeployUse\azure-portal-for-microsoft-intune-mam-policies.md](https://github.com/Microsoft/IntuneDocs-pr/blob/71fd2322dd8647eae0848661cfab9693dccc8904/InTuneDocs/DeployUse/azure-portal-for-microsoft-intune-mam-policies.md) | OutofSyncHandedBackSuccess | [Details](#620e48bbc5ff9e8abe286bbdcd34181215fc7f9316)
+ [InTuneDocs\DeployUse\categorize-devices-with-device-group-mapping-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/categorize-devices-with-device-group-mapping-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#fcc2e417766a4a7b6fcbe3a7831d0d15c765ca8117)
+ [InTuneDocs\DeployUse\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bd52b0e5a9e3be1b8549687e70c86b6e86301c19/InTuneDocs/DeployUse/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md) | OutofSyncHandedBackSuccess | [Details](#bd36ee9c1c6080abda869a525335b272d193299418)
+ [InTuneDocs\DeployUse\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a747dbde020738287a84d07d4653a705fe99752/InTuneDocs/DeployUse/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md) | OutofSyncHandedBackSuccess | [Details](#1e19c0029ac0eaa43d298dee8639c113b2dda58520)
  [InTuneDocs\DeployUse\Configure-certificate-infrastructure.md](https://github.com/Microsoft/IntuneDocs-pr/blob/216796f39c9d2711376c0226a0f57baddeba43ed/InTuneDocs/DeployUse/Configure-certificate-infrastructure.md) | OutofSyncHandedBackSuccess | [Details](#a949eb8f212746cace9ad69855780feb7bab0bee23)
  [InTuneDocs\DeployUse\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#a1b2fb7f2938939725465a18efb594dda91d16bd25)
  [InTuneDocs\DeployUse\control-microsoft-passport-settings-on-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/control-microsoft-passport-settings-on-devices-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#bdf7dfda3814ad6c6c00f5c133027175a95fb5e226)
+ [InTuneDocs\DeployUse\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/71fd2322dd8647eae0848661cfab9693dccc8904/InTuneDocs/DeployUse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#2454aecb48cceab96c79094bc95185898bdf734a29)
  [InTuneDocs\DeployUse\Custom-configurations-for-VPN-profiles.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d5c48a4cead6250864f5b10444d99d062441bd99/InTuneDocs/DeployUse/Custom-configurations-for-VPN-profiles.md) | OutofSyncHandedBackSuccess | [Details](#7e7c50552b5a61804e759a7ec5443029d4bd458430)
  [InTuneDocs\DeployUse\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6d435c2c9773040d6870aea274d3879c00461457/InTuneDocs/DeployUse/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#f4e8fd298de6b92a994e67be5d9fb59cb5bd136f31)
+ [InTuneDocs\DeployUse\deploy-apps-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/deploy-apps-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#723bf2dcafcc0c0fc064c960cb4e04dc9da9e51a33)
  [InTuneDocs\DeployUse\edition-upgrade-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8e911193075d2a621ef94f2917b2126501ea2100/InTuneDocs/DeployUse/edition-upgrade-policy-settings-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#e468ff102b45bf0c23fd76d8d15c44978861ae8a36)
  [InTuneDocs\DeployUse\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/498721bd8dfa2bfe23355d838cb2a9486dd2ed5d/InTuneDocs/DeployUse/end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#06deb548479cf4873221417591bcb7d3db77eca038)
  [InTuneDocs\DeployUse\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3e0a2ca4632551663b316e7c89f3f65dc57c3670/InTuneDocs/DeployUse/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#bdc2ba21ddeaedcbb0cf847f2491be118c27505739)
@@ -717,7 +702,10 @@
  [InTuneDocs\DeployUse\mobile-device-security-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/mobile-device-security-policy-settings-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#8b7dac0bef8505567a9d0485fe6e952a3f6aa305203)
  [InTuneDocs\DeployUse\monitor-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/71fd2322dd8647eae0848661cfab9693dccc8904/InTuneDocs/DeployUse/monitor-mobile-app-management-policies-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#6bec50736915ab4458ad31dda43eee59a774bdcf205)
  [InTuneDocs\DeployUse\overview-of-app-lifecycle-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8d83f8ea2fa116ca6f1dbf96370c837ca6581d0b/InTuneDocs/DeployUse/overview-of-app-lifecycle-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#882f0aa030d1d9e03ca50baed3f618f7a719b5b5207)
+ [InTuneDocs\DeployUse\overview-of-device-and-app-lifecycles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8d83f8ea2fa116ca6f1dbf96370c837ca6581d0b/InTuneDocs/DeployUse/overview-of-device-and-app-lifecycles-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#d1912736361a9fa74a8827be367227336ee800eb208)
+ [InTuneDocs\DeployUse\overview-of-device-lifecycle-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8d83f8ea2fa116ca6f1dbf96370c837ca6581d0b/InTuneDocs/DeployUse/overview-of-device-lifecycle-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#908c052484dc1532ade9576ab09070b18a85d71e209)
  [InTuneDocs\DeployUse\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/df37c7c44875df08cd668005d61bfa5409555554/InTuneDocs/DeployUse/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) | OutofSyncHandedBackSuccess | [Details](#6f42cf48eb3c0b6c42d13186a11d5baf5ad2c0c9218)
+ [InTuneDocs\DeployUse\previous-intune-releases.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b9c8e67e70be825368e016749164b19386082c5e/InTuneDocs/DeployUse/previous-intune-releases.md) | OutofSyncHandedBackSuccess | [Details](#c082a47dd0bc348ce4b5e6e8c23a5d1ce9d01547219)
  [InTuneDocs\DeployUse\protect-your-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/protect-your-devices-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#90f66c7385e0caf0a3f006d8dcbc7e5ab930ddd9224)
  [InTuneDocs\DeployUse\restrict-access-to-exchange-onpremises-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/498721bd8dfa2bfe23355d838cb2a9486dd2ed5d/InTuneDocs/DeployUse/restrict-access-to-exchange-onpremises-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#0bb657e149e2db533a291a0df356fdb0915a89be230)
  [InTuneDocs\DeployUse\set-up-ios-and-mac-management-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bb44d53c87bec1b6892bf49a65f3df684199ed08/InTuneDocs/DeployUse/set-up-ios-and-mac-management-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#9766b6e64259d809b04e6f6004c25ed88ad72659239)
@@ -746,6 +734,7 @@
  [InTuneDocs\EndUser\how-to-set-the-period-before-your-android-device-is-locked.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6d435c2c9773040d6870aea274d3879c00461457/InTuneDocs/EndUser/how-to-set-the-period-before-your-android-device-is-locked.md) | OutofSyncHandedBackSuccess | [Details](#60c650fa62e6bfd08cfb7c52c650b2ffba38d213304)
  [InTuneDocs\EndUser\remote-lock-your-device-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2c0f356aefc8c3e14e75ba4be752a6f7ce19e760/InTuneDocs/EndUser/remote-lock-your-device-cpwebsite.md) | OutofSyncHandedBackSuccess | [Details](#67d005fc75397f5cf24693c953e69460c1f470a3415)
  [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2c0f356aefc8c3e14e75ba4be752a6f7ce19e760/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-android.md) | OutofSyncHandedBackSuccess | [Details](#9d8037dec5042f4d6301df5ecee9185e8020071d418)
+ [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6d435c2c9773040d6870aea274d3879c00461457/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-ios.md) | OutofSyncHandedBackSuccess | [Details](#e992b17f424a09e56c7a376ffae4f0db9af71ddb419)
  [InTuneDocs\EndUser\reset-your-passcode-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2c0f356aefc8c3e14e75ba4be752a6f7ce19e760/InTuneDocs/EndUser/reset-your-passcode-cpwebsite.md) | OutofSyncHandedBackSuccess | [Details](#8eae934362404ee23b35934b6fa26c56793b1974422)
  [InTuneDocs\EndUser\sync-your-device-manually-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2c0f356aefc8c3e14e75ba4be752a6f7ce19e760/InTuneDocs/EndUser/sync-your-device-manually-cpwebsite.md) | OutofSyncHandedBackSuccess | [Details](#a44483e4ec4b12ca45dad8a85afa4aa9ae75248e431)
  [InTuneDocs\EndUser\sync-your-device-manually-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2c0f356aefc8c3e14e75ba4be752a6f7ce19e760/InTuneDocs/EndUser/sync-your-device-manually-windows.md) | OutofSyncHandedBackSuccess | [Details](#2d9ce9b71a081398be30279fcc468b1d1bc52b18433)
@@ -767,6 +756,7 @@
  [InTuneDocs\EndUser\you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6d435c2c9773040d6870aea274d3879c00461457/InTuneDocs/EndUser/you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md) | OutofSyncHandedBackSuccess | [Details](#df16b937f841184268d9e758ce5779a3017aa55e460)
  [InTuneDocs\EndUser\you-get-an-error-while-using-the-company-portal-app-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6d435c2c9773040d6870aea274d3879c00461457/InTuneDocs/EndUser/you-get-an-error-while-using-the-company-portal-app-ios.md) | OutofSyncHandedBackSuccess | [Details](#ab307676bc85cc8c32ca850174de76081ef377ec462)
  [InTuneDocs\EndUser\your-computer-is-already-enrolled.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3d61b3274693f49ba63642314f940c5c56d91b2c/InTuneDocs/EndUser/your-computer-is-already-enrolled.md) | OutofSyncHandedBackSuccess | [Details](#d8fc6c1eadfbd7925ccf2ffd82d033dfc18cbafd464)
+ [InTuneDocs\GetStarted\choose-how-to-manage-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bb44d53c87bec1b6892bf49a65f3df684199ed08/InTuneDocs/GetStarted/choose-how-to-manage-devices.md) | OutofSyncHandedBackSuccess | [Details](#527506ce7b14cdbfeb413b0b52a521f7a411a710483)
  [InTuneDocs\GetStarted\microsoft-intune-company-portal.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b3b0e4e10b93537b9a2a9a3efa9d21e21acf2c57/InTuneDocs/GetStarted/microsoft-intune-company-portal.md) | OutofSyncHandedBackSuccess | [Details](#f3583c87c1d0f5eba666a74ce6511079b43364b1505)
  [InTuneDocs\GetStarted\network-infrastructure-requirements-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c5d1b53f09ce2f475cd934e36ddb19d019737431/InTuneDocs/GetStarted/network-infrastructure-requirements-for-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#b551aca6994780591dabe042420d5f23d98b218b508)
  [InTuneDocs\GetStarted\start-with-a-paid-subscription-to-microsoft-intune-step-6.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6cb729533107d511fa0cc863ec6ab842e7624982/InTuneDocs/GetStarted/start-with-a-paid-subscription-to-microsoft-intune-step-6.md) | OutofSyncHandedBackSuccess | [Details](#bee00e5bbb7b8fde5c7a11dc8338b5fda4ee745f521)
@@ -796,6 +786,8 @@
  ----------- | ------ | ------- 
  [InTuneDocs\DeployUse\android-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/android-compliance-policy-settings-in-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#07e3665f32c890b6f3cd3c0c55434cb5ac41ebed13)
  [InTuneDocs\DeployUse\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e988fe275bec2942b3993665ef30e61898a8aec2/InTuneDocs/DeployUse/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#73f3f8086b462173a0f54fabb1fe5622bc300c0d19)
+ [InTuneDocs\DeployUse\Configure-Intune-certificate-profiles.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5a7699050b9b46d93b0936c2256397bc776529b5/InTuneDocs/DeployUse/Configure-Intune-certificate-profiles.md) | InSyncHandedBackSuccess | [Details](#1d13dac07be4defa1fe3382e1c893ba80b97b5ba24)
+ [InTuneDocs\DeployUse\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/control-what-admins-can-see-in-the-microsoft-intune-admin-console.md) | InSyncHandedBackSuccess | [Details](#52a77e50b3dde24ba270766d4472bdd6176cc41527)
  [InTuneDocs\DeployUse\create-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/create-a-device-compliance-policy-in-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#446ea0e7af1d41404a91154b7dddfd1cd23e439928)
  [InTuneDocs\DeployUse\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#48e6011ea0d7c1b654ca2106a66cded25a8487cf32)
  [InTuneDocs\DeployUse\deploy-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/deploy-apps.md) | InSyncHandedBackSuccess | [Details](#85fc2f5b59c656429eec946a51c79e538edf2cf334)
@@ -829,10 +821,12 @@
  [InTuneDocs\DeployUse\plan-your-user-and-device-groups.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7c4a74defdbad06e676ed48753c759eb3c7109f8/InTuneDocs/DeployUse/plan-your-user-and-device-groups.md) | InSyncHandedBackSuccess | [Details](#4863e37b93f30cbaaa48d5efd174d1513c2939d7212)
  [InTuneDocs\DeployUse\policies-to-protect-windows-pcs-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/policies-to-protect-windows-pcs-in-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#8d1bad7af972a32ce3509d67edab3f4f9c9df299213)
  [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0cbffc260fae5c78dd33ebec3b5afc86017ac33b/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) | InSyncHandedBackSuccess | [Details](#c793cc34b10c336a95b40c31befa6c6ff87b4ba6216)
+ [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-app-management.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-app-management.md) | InSyncHandedBackSuccess | [Details](#e5a2bf543e2627839f27a4610ca27a2b40caaaf2215)
  [InTuneDocs\DeployUse\prepare-ios-apps-for-mobile-app-management.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/prepare-ios-apps-for-mobile-app-management.md) | InSyncHandedBackSuccess | [Details](#b9d826cd801cca47fbf4b17dd38982feb3bdb752217)
  [InTuneDocs\DeployUse\pre-shared-key-wi-fi-profile.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5a7699050b9b46d93b0936c2256397bc776529b5/InTuneDocs/DeployUse/pre-shared-key-wi-fi-profile.md) | InSyncHandedBackSuccess | [Details](#3c10ea313e9f5f1cdbbe98868b66c20a644a08ca214)
  [InTuneDocs\DeployUse\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b242d6e9a9f1783e1325d5edee57bf73f94c4b51/InTuneDocs/DeployUse/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#5cb8754e3b1fe6acacd8a18152f81d1a34d024d7220)
  [InTuneDocs\DeployUse\protect-apps-and-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/dcee7a81bf4f1a5e2ec69725c1332c0e064d7466/InTuneDocs/DeployUse/protect-apps-and-data-with-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#9ddf4676f234fd3ecf79055780591dcb97dacc35221)
+ [InTuneDocs\DeployUse\protect-windows-devices-with-multi-factor-authentication.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/protect-windows-devices-with-multi-factor-authentication.md) | InSyncHandedBackSuccess | [Details](#a53a8e1317fc55cfcf7c5dc90be6b647589e17cd223)
  [InTuneDocs\DeployUse\Release-notes-for-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/Release-notes-for-Microsoft-Intune.md) | InSyncHandedBackSuccess | [Details](#1906f14568484ebbf23ac7c4350964fb2d5d508f225)
  [InTuneDocs\DeployUse\renew-a-symantec-code-signing-certificate.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/renew-a-symantec-code-signing-certificate.md) | InSyncHandedBackSuccess | [Details](#566a226c19825990c6a34bffbbd9d1cd6a242ddb226)
  [InTuneDocs\DeployUse\resolve-gpo-and-microsoft-intune-policy-conflicts.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/resolve-gpo-and-microsoft-intune-policy-conflicts.md) | InSyncHandedBackSuccess | [Details](#790aca232c53d4b531403e0ec160876fbb448422227)
@@ -882,6 +876,7 @@
  [InTuneDocs\EndUser\install-and-sign-in-to-the-intune-company-portal-app-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/install-and-sign-in-to-the-intune-company-portal-app-ios.md) | InSyncHandedBackSuccess | [Details](#80e9253e08e5aca9c89f0968e7656593b106a93d306)
  [InTuneDocs\EndUser\install-the-microsoft-intune-company-portal-app-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/install-the-microsoft-intune-company-portal-app-android.md) | InSyncHandedBackSuccess | [Details](#e2276fd87b2642166dc7db05592db5e85f987e30307)
  [InTuneDocs\EndUser\install-your-companys-virtual-private-network-VPN-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/install-your-companys-virtual-private-network-VPN-android.md) | InSyncHandedBackSuccess | [Details](#7d04c49419102df8d152148a4ddf99b25cf7444d308)
+ [InTuneDocs\EndUser\remove-your-device-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/remove-your-device-cpwebsite.md) | InSyncHandedBackSuccess | [Details](#30eb42012e269031f9abd3334eeedd0818d860ad416)
  [InTuneDocs\EndUser\rename-your-device-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/rename-your-device-cpwebsite.md) | InSyncHandedBackSuccess | [Details](#12b9e1a6300fab772fcb09647a7ea4bd38d6986e417)
  [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-windows.md) | InSyncHandedBackSuccess | [Details](#fa871efdb89fa9900173e64d60f592834ac7977c420)
  [InTuneDocs\EndUser\reset-your-device-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/reset-your-device-cpwebsite.md) | InSyncHandedBackSuccess | [Details](#22f243c52909f91d7e10200b308fc7872467821d421)
@@ -906,6 +901,7 @@
  [InTuneDocs\EndUser\your-device-is-missing-a-required-certificate-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/your-device-is-missing-a-required-certificate-android.md) | InSyncHandedBackSuccess | [Details](#79e07431c479746ed259690d1c2ea6ae542358aa465)
  [InTuneDocs\EndUser\your-device-is-rooted-and-you-cant-connect-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/your-device-is-rooted-and-you-cant-connect-android.md) | InSyncHandedBackSuccess | [Details](#cef1dac1b5b23281b64509c38319a3534b8b4bd8466)
  [InTuneDocs\EndUser\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md) | InSyncHandedBackSuccess | [Details](#2efebae061730454cd6b9f77f5499d6b60f77772463)
+ [InTuneDocs\GetStarted\administrative-accounts-websites-perms.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/GetStarted/administrative-accounts-websites-perms.md) | InSyncHandedBackSuccess | [Details](#a8d9cf5d36107c54b97d2b5a5250645dc735a8da481)
  [InTuneDocs\GetStarted\application-rollout.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e42318b83b51dcab329a951a53a022f9c8833c40/InTuneDocs/GetStarted/application-rollout.md) | InSyncHandedBackSuccess | [Details](#c38169a6ef14ae7b52d2d9bdd3b2c8c8198c0116482)
  [InTuneDocs\GetStarted\domain-names-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2ad46d1686874dd64daa4543e9c63e2876da3ea5/InTuneDocs/GetStarted/domain-names-for-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#340198b6ffeb8880fca82dfe52725196a39fd030485)
  [InTuneDocs\GetStarted\enterprise-rollout.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a1524ed3d5e741ae309ab4e93c8210730c9bcca7/InTuneDocs/GetStarted/enterprise-rollout.md) | InSyncHandedBackSuccess | [Details](#f1fdb0d41040607a9ae5269d25701bc2465fccd7486)
@@ -954,6 +950,7 @@
  [InTuneDocs\includes\accessibility16.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility16.md) | InSyncHandedBackSuccess | [Details](#9052b406bb1f59ee9e9d493b21756da8ea385475554)
  [InTuneDocs\includes\accessibility16_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility16_md.md) | InSyncHandedBackSuccess | [Details](#74eb5b1b7f0162c783145dfd7e1134b794448176555)
  [InTuneDocs\includes\accessibility17.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility17.md) | InSyncHandedBackSuccess | [Details](#004701452c79f4fb9996428c23597ae459da71d9556)
+ [InTuneDocs\includes\accessibility17_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility17_md.md) | InSyncHandedBackSuccess | [Details](#ec300e64342ef3c9f5e340088eee2046e1897bb8557)
  [InTuneDocs\includes\accessibility2.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility2.md) | InSyncHandedBackSuccess | [Details](#33d4ae53319e3eea041da26285c60b28b3c537c4559)
  [InTuneDocs\includes\accessibility2_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility2_md.md) | InSyncHandedBackSuccess | [Details](#43d7946bc8365fd4e638ecaa6c1548d2febaf06c560)
  [InTuneDocs\includes\accessibility3.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility3.md) | InSyncHandedBackSuccess | [Details](#def903812590af80e8c3368a1849c03f826ddd1f561)
@@ -965,6 +962,7 @@
  [InTuneDocs\includes\accessibility6.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility6.md) | InSyncHandedBackSuccess | [Details](#f700ddfc5a94d6f5100dc0b5ded2454680b382af567)
  [InTuneDocs\includes\accessibility6_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility6_md.md) | InSyncHandedBackSuccess | [Details](#2484ac3a7dfa7f5a6bb52e430a28c2ec25d87a0f568)
  [InTuneDocs\includes\accessibility7.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility7.md) | InSyncHandedBackSuccess | [Details](#18d81ad7f0036b5e013b7b1471d670e26926c6bf569)
+ [InTuneDocs\includes\accessibility7_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility7_md.md) | InSyncHandedBackSuccess | [Details](#1ee43f463d7f9fbaab219c73e8ed25208b14c35d570)
  [InTuneDocs\includes\accessibility8.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility8.md) | InSyncHandedBackSuccess | [Details](#d3bededd9523a98ca908a50b3eedf6b407cbe21b571)
  [InTuneDocs\includes\accessibility8_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility8_md.md) | InSyncHandedBackSuccess | [Details](#7933c42f82d8dfedac952871eaa717378bcfe12e572)
  [InTuneDocs\includes\accessibility9.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility9.md) | InSyncHandedBackSuccess | [Details](#888a5084feddbeacccceddd681ba38b5c2997816573)
@@ -1033,8 +1031,10 @@
  [InTuneDocs\includes\wit_tools_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/wit_tools_md.md) | InSyncHandedBackSuccess | [Details](#58643537b9c0a34ac93bf6af99240b6e3469ab2a637)
  [InTuneDocs\includes\wps_2.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/wps_2.md) | InSyncHandedBackSuccess | [Details](#e9096a16bdd11b30f840ceba6f1cb16bd4cf25e8638)
  [InTuneDocs\includes\wps_2_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/wps_2_md.md) | InSyncHandedBackSuccess | [Details](#7aec405442c5cb6c886214b18022f4f9d2af5cbf639)
+ [InTuneDocs\Troubleshoot\contact-assisted-phone-support-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/cc64e51499908d08823429871cda91dfb0078b1e/InTuneDocs/Troubleshoot/contact-assisted-phone-support-for-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#de00d31ab32916f29a111c93b39a578f82524f801120)
  [InTuneDocs\Troubleshoot\troubleshoot-company-resource-access-problems-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/cc64e51499908d08823429871cda91dfb0078b1e/InTuneDocs/Troubleshoot/troubleshoot-company-resource-access-problems-with-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#0e76cc445998b859596fd4325f64af157518eb531131)
  [InTuneDocs\Troubleshoot\troubleshoot-software-updates-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/cc64e51499908d08823429871cda91dfb0078b1e/InTuneDocs/Troubleshoot/troubleshoot-software-updates-in-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#168bdab9c44477fc49e96705f97d8f282cb7b52d1136)
+ [InTuneDocs\Understand\common-microsoft-intune-evaluation-tasks.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f3985b10ac9612c8c1efc4756eb25cdcf29b023/InTuneDocs/Understand/common-microsoft-intune-evaluation-tasks.md) | InSyncHandedBackSuccess | [Details](#d93ab710f6bc2bc62321be5f7079f6092c2612841137)
  [InTuneDocs\Understand\frequently-asked-questions-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/cc64e51499908d08823429871cda91dfb0078b1e/InTuneDocs/Understand/frequently-asked-questions-for-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#55f880db2805159e174d268bf68b8caf92781d711140)
  [InTuneDocs\Understand\get-started-with-a-30-day-trial-of-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9755499575118feecf33780ee29a70525f95508e/InTuneDocs/Understand/get-started-with-a-30-day-trial-of-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#cdf297e71cb341b365afa9a2827214b803f8aa121148)
  [InTuneDocs\Understand\get-started-with-a-30-day-trial-of-microsoft-intune-step-1.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9755499575118feecf33780ee29a70525f95508e/InTuneDocs/Understand/get-started-with-a-30-day-trial-of-microsoft-intune-step-1.md) | InSyncHandedBackSuccess | [Details](#b36f48e4a2b738ba539737513d91c544d3f12cd81141)
@@ -1454,7 +1454,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='565c4789b0f27e904e66cb70843d3f4710ba2ebe14'></a> Source: [InTuneDocs\DeployUse\android-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a747dbde020738287a84d07d4653a705fe99752/InTuneDocs/DeployUse/android-mam-policy-settings.md)
-* Status: HandedBackFailed
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [android-mam-policy-settings.b4b77111e882cd82d74b84ec7f641f5b62ca8428.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/35f0a8e04dc6b35f450f9df73410d74d3894c479/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/android-mam-policy-settings.b4b77111e882cd82d74b84ec7f641f5b62ca8428.ja-jp.xlf)
 * Handoff Datetime: 2016-05-18 21:09:39
@@ -1463,6 +1463,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\DeployUse\android-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/android-mam-policy-settings.md)
+* Current Handback File: [android-mam-policy-settings.b4b77111e882cd82d74b84ec7f641f5b62ca8428.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/android-mam-policy-settings.b4b77111e882cd82d74b84ec7f641f5b62ca8428.ja-jp.xlf)
+* Current Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='01e1cf0c790db4ebebdf29f33aa7e4d85f5f1c8c15'></a> Source: [InTuneDocs\DeployUse\android-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8e911193075d2a621ef94f2917b2126501ea2100/InTuneDocs/DeployUse/android-policy-settings-in-microsoft-intune.md)
@@ -1496,7 +1499,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='fcc2e417766a4a7b6fcbe3a7831d0d15c765ca8117'></a> Source: [InTuneDocs\DeployUse\categorize-devices-with-device-group-mapping-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/categorize-devices-with-device-group-mapping-in-microsoft-intune.md)
-* Status: HandedBackFailed
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [categorize-devices-with-device-group-mapping-in-microsoft-intune.8376e6e8cc03ea16b8eaf70699d34929f0be2ce6.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/59dffd0bfd1d03b28e00a0cc2231e550a7be3e1d/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/categorize-devices-with-device-group-mapping-in-microsoft-intune.8376e6e8cc03ea16b8eaf70699d34929f0be2ce6.ja-jp.xlf)
 * Handoff Datetime: 2016-05-13 16:14:34
@@ -1505,10 +1508,13 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\DeployUse\categorize-devices-with-device-group-mapping-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/categorize-devices-with-device-group-mapping-in-microsoft-intune.md)
+* Current Handback File: [categorize-devices-with-device-group-mapping-in-microsoft-intune.8376e6e8cc03ea16b8eaf70699d34929f0be2ce6.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/categorize-devices-with-device-group-mapping-in-microsoft-intune.8376e6e8cc03ea16b8eaf70699d34929f0be2ce6.ja-jp.xlf)
+* Current Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='bd36ee9c1c6080abda869a525335b272d193299418'></a> Source: [InTuneDocs\DeployUse\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bd52b0e5a9e3be1b8549687e70c86b6e86301c19/InTuneDocs/DeployUse/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
-* Status: HandedBackFailed
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.ad43704da208117abad53962a42b9b87a4150126.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/5b7336fb70f3348233fbfdda7353a5e70c0f5fd1/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.ad43704da208117abad53962a42b9b87a4150126.ja-jp.xlf)
 * Handoff Datetime: 2016-05-26 23:59:58
@@ -1517,6 +1523,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\DeployUse\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
+* Current Handback File: [common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.ad43704da208117abad53962a42b9b87a4150126.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.ad43704da208117abad53962a42b9b87a4150126.ja-jp.xlf)
+* Current Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='73f3f8086b462173a0f54fabb1fe5622bc300c0d19'></a> Source: [InTuneDocs\DeployUse\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e988fe275bec2942b3993665ef30e61898a8aec2/InTuneDocs/DeployUse/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)
@@ -1532,7 +1541,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='1e19c0029ac0eaa43d298dee8639c113b2dda58520'></a> Source: [InTuneDocs\DeployUse\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a747dbde020738287a84d07d4653a705fe99752/InTuneDocs/DeployUse/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)
-* Status: HandedBackFailed
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.9cd7a4452d1085b98eff742705d6f0dc2db5c8c9.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/35f0a8e04dc6b35f450f9df73410d74d3894c479/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.9cd7a4452d1085b98eff742705d6f0dc2db5c8c9.ja-jp.xlf)
 * Handoff Datetime: 2016-05-18 21:09:39
@@ -1541,6 +1550,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\DeployUse\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)
+* Current Handback File: [configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.9cd7a4452d1085b98eff742705d6f0dc2db5c8c9.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.9cd7a4452d1085b98eff742705d6f0dc2db5c8c9.ja-jp.xlf)
+* Current Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='a949eb8f212746cace9ad69855780feb7bab0bee23'></a> Source: [InTuneDocs\DeployUse\Configure-certificate-infrastructure.md](https://github.com/Microsoft/IntuneDocs-pr/blob/216796f39c9d2711376c0226a0f57baddeba43ed/InTuneDocs/DeployUse/Configure-certificate-infrastructure.md)
@@ -1583,16 +1595,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='1d13dac07be4defa1fe3382e1c893ba80b97b5ba24'></a> Source: [InTuneDocs\DeployUse\Configure-Intune-certificate-profiles.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5a7699050b9b46d93b0936c2256397bc776529b5/InTuneDocs/DeployUse/Configure-Intune-certificate-profiles.md)
-* Status: HandedBackFailed
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\Configure-Intune-certificate-profiles.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/Configure-Intune-certificate-profiles.md)
 * Handoff File: [Configure-Intune-certificate-profiles.36f8475bce3543ae708359c027892a55e5ec98a7.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/d12f04d5e05cae91234bdc2f76e414d03d534b8f/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/Configure-Intune-certificate-profiles.36f8475bce3543ae708359c027892a55e5ec98a7.ja-jp.xlf)
 * Handoff Datetime: 2016-05-04 17:15:29
 * Handoff Reason: Include
 * Archive File: [Configure-Intune-certificate-profiles.36f8475bce3543ae708359c027892a55e5ec98a7.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ecb4cefb654e27638312a25288d4fef66454dcef/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/Configure-Intune-certificate-profiles.36f8475bce3543ae708359c027892a55e5ec98a7.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 10:35:44
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Handback Error: [handback_transform_failed](#1d13dac07be4defa1fe3382e1c893ba80b97b5ba24handback_transform_failed)
+* Handback File: [Configure-Intune-certificate-profiles.36f8475bce3543ae708359c027892a55e5ec98a7.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/Configure-Intune-certificate-profiles.36f8475bce3543ae708359c027892a55e5ec98a7.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='a1b2fb7f2938939725465a18efb594dda91d16bd25'></a> Source: [InTuneDocs\DeployUse\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)
@@ -1626,16 +1637,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='52a77e50b3dde24ba270766d4472bdd6176cc41527'></a> Source: [InTuneDocs\DeployUse\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/control-what-admins-can-see-in-the-microsoft-intune-admin-console.md)
-* Status: HandedBackFailed
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/control-what-admins-can-see-in-the-microsoft-intune-admin-console.md)
 * Handoff File: [control-what-admins-can-see-in-the-microsoft-intune-admin-console.0c8a1590e48caf0a9e1c25a5dd199995d0e021dd.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/control-what-admins-can-see-in-the-microsoft-intune-admin-console.0c8a1590e48caf0a9e1c25a5dd199995d0e021dd.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [control-what-admins-can-see-in-the-microsoft-intune-admin-console.0c8a1590e48caf0a9e1c25a5dd199995d0e021dd.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ecb4cefb654e27638312a25288d4fef66454dcef/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/control-what-admins-can-see-in-the-microsoft-intune-admin-console.0c8a1590e48caf0a9e1c25a5dd199995d0e021dd.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 10:35:44
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Handback Error: [handback_transform_failed](#52a77e50b3dde24ba270766d4472bdd6176cc41527handback_transform_failed)
+* Handback File: [control-what-admins-can-see-in-the-microsoft-intune-admin-console.0c8a1590e48caf0a9e1c25a5dd199995d0e021dd.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/control-what-admins-can-see-in-the-microsoft-intune-admin-console.0c8a1590e48caf0a9e1c25a5dd199995d0e021dd.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='446ea0e7af1d41404a91154b7dddfd1cd23e439928'></a> Source: [InTuneDocs\DeployUse\create-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/create-a-device-compliance-policy-in-microsoft-intune.md)
@@ -1651,7 +1661,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='2454aecb48cceab96c79094bc95185898bdf734a29'></a> Source: [InTuneDocs\DeployUse\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/71fd2322dd8647eae0848661cfab9693dccc8904/InTuneDocs/DeployUse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
-* Status: HandedBackFailed
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [create-and-deploy-mobile-app-management-policies-with-microsoft-intune.1c3f40f45ddd82bb184d6dd9988ff7087c19b9e3.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/4844a97b5fd149f4ee1ac09feb219343d68d1167/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.1c3f40f45ddd82bb184d6dd9988ff7087c19b9e3.ja-jp.xlf)
 * Handoff Datetime: 2016-05-18 02:19:22
@@ -1660,6 +1670,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\DeployUse\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
+* Current Handback File: [create-and-deploy-mobile-app-management-policies-with-microsoft-intune.1c3f40f45ddd82bb184d6dd9988ff7087c19b9e3.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.1c3f40f45ddd82bb184d6dd9988ff7087c19b9e3.ja-jp.xlf)
+* Current Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='7e7c50552b5a61804e759a7ec5443029d4bd458430'></a> Source: [InTuneDocs\DeployUse\Custom-configurations-for-VPN-profiles.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d5c48a4cead6250864f5b10444d99d062441bd99/InTuneDocs/DeployUse/Custom-configurations-for-VPN-profiles.md)
@@ -1717,7 +1730,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='723bf2dcafcc0c0fc064c960cb4e04dc9da9e51a33'></a> Source: [InTuneDocs\DeployUse\deploy-apps-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/deploy-apps-in-microsoft-intune.md)
-* Status: HandedBackFailed
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [deploy-apps-in-microsoft-intune.0cf6e71c2179ec739da13742db6825d2ea43f5af.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/59dffd0bfd1d03b28e00a0cc2231e550a7be3e1d/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/deploy-apps-in-microsoft-intune.0cf6e71c2179ec739da13742db6825d2ea43f5af.ja-jp.xlf)
 * Handoff Datetime: 2016-05-13 16:14:34
@@ -1726,6 +1739,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\DeployUse\deploy-apps-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/deploy-apps-in-microsoft-intune.md)
+* Current Handback File: [deploy-apps-in-microsoft-intune.0cf6e71c2179ec739da13742db6825d2ea43f5af.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/deploy-apps-in-microsoft-intune.0cf6e71c2179ec739da13742db6825d2ea43f5af.ja-jp.xlf)
+* Current Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='56836cf888571a84fb6533cb407713dbf3adff6d35'></a> Source: [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/83b1726aa8b29f466d9192c294096a4b367e5b53/InTuneDocs/DeployUse/docfx.json)
@@ -3920,15 +3936,14 @@
 
 ##### <a name='c8273a85399a64d5174fe82cf779be949387ad46206'></a> Source: [InTuneDocs\DeployUse\monitoring-and-reports-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/cc64e51499908d08823429871cda91dfb0078b1e/InTuneDocs/DeployUse/monitoring-and-reports-with-microsoft-intune.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\DeployUse\monitoring-and-reports-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/687a66300b8d035c40e44a875a2368f6de0089d2/InTuneDocs/DeployUse/monitoring-and-reports-with-microsoft-intune.md)
+* Target File: [InTuneDocs\DeployUse\monitoring-and-reports-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/monitoring-and-reports-with-microsoft-intune.md)
 * Handoff File: [monitoring-and-reports-with-microsoft-intune.9cd2e2b51551e7f62a6765aeee4d7db60862b929.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/1cb63ec74a434d14874c32d236ed02cfed3b2863/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/monitoring-and-reports-with-microsoft-intune.9cd2e2b51551e7f62a6765aeee4d7db60862b929.ja-jp.xlf)
 * Handoff Datetime: 2016-05-04 05:15:38
 * Handoff Reason: Include
 * Archive File: [monitoring-and-reports-with-microsoft-intune.9cd2e2b51551e7f62a6765aeee4d7db60862b929.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/5187a147c8ee08f069c82a54c2478f66fa5eb97a/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/monitoring-and-reports-with-microsoft-intune.9cd2e2b51551e7f62a6765aeee4d7db60862b929.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 11:37:33
-* Handback File: [monitoring-and-reports-with-microsoft-intune.9cd2e2b51551e7f62a6765aeee4d7db60862b929.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/ecff3734368e418b4d8b2d5ead04684b57aa2b16/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/monitoring-and-reports-with-microsoft-intune.9cd2e2b51551e7f62a6765aeee4d7db60862b929.ja-jp.xlf)
-* Handback Datetime: 2016-05-27 00:21:43
-* Handback Error: [handback_transform_failed](#c8273a85399a64d5174fe82cf779be949387ad46206handback_transform_failed)
+* Handback File: [monitoring-and-reports-with-microsoft-intune.9cd2e2b51551e7f62a6765aeee4d7db60862b929.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/monitoring-and-reports-with-microsoft-intune.9cd2e2b51551e7f62a6765aeee4d7db60862b929.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='6bec50736915ab4458ad31dda43eee59a774bdcf205'></a> Source: [InTuneDocs\DeployUse\monitor-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/71fd2322dd8647eae0848661cfab9693dccc8904/InTuneDocs/DeployUse/monitor-mobile-app-management-policies-with-microsoft-intune.md)
@@ -3962,7 +3977,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='d1912736361a9fa74a8827be367227336ee800eb208'></a> Source: [InTuneDocs\DeployUse\overview-of-device-and-app-lifecycles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8d83f8ea2fa116ca6f1dbf96370c837ca6581d0b/InTuneDocs/DeployUse/overview-of-device-and-app-lifecycles-in-microsoft-intune.md)
-* Status: HandedBackFailed
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [overview-of-device-and-app-lifecycles-in-microsoft-intune.751001cc04be2f390298ead3f49c7182080934a1.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/59dffd0bfd1d03b28e00a0cc2231e550a7be3e1d/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/overview-of-device-and-app-lifecycles-in-microsoft-intune.751001cc04be2f390298ead3f49c7182080934a1.ja-jp.xlf)
 * Handoff Datetime: 2016-05-13 16:14:34
@@ -3971,10 +3986,13 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\DeployUse\overview-of-device-and-app-lifecycles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/overview-of-device-and-app-lifecycles-in-microsoft-intune.md)
+* Current Handback File: [overview-of-device-and-app-lifecycles-in-microsoft-intune.751001cc04be2f390298ead3f49c7182080934a1.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/overview-of-device-and-app-lifecycles-in-microsoft-intune.751001cc04be2f390298ead3f49c7182080934a1.ja-jp.xlf)
+* Current Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='908c052484dc1532ade9576ab09070b18a85d71e209'></a> Source: [InTuneDocs\DeployUse\overview-of-device-lifecycle-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8d83f8ea2fa116ca6f1dbf96370c837ca6581d0b/InTuneDocs/DeployUse/overview-of-device-lifecycle-in-microsoft-intune.md)
-* Status: HandedBackFailed
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [overview-of-device-lifecycle-in-microsoft-intune.6609610398d9ddba57824b2e55d96fa333201499.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/59dffd0bfd1d03b28e00a0cc2231e550a7be3e1d/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/overview-of-device-lifecycle-in-microsoft-intune.6609610398d9ddba57824b2e55d96fa333201499.ja-jp.xlf)
 * Handoff Datetime: 2016-05-13 16:14:34
@@ -3983,6 +4001,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\DeployUse\overview-of-device-lifecycle-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/overview-of-device-lifecycle-in-microsoft-intune.md)
+* Current Handback File: [overview-of-device-lifecycle-in-microsoft-intune.6609610398d9ddba57824b2e55d96fa333201499.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/overview-of-device-lifecycle-in-microsoft-intune.6609610398d9ddba57824b2e55d96fa333201499.ja-jp.xlf)
+* Current Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='8a9dfe8224b4e0e441691043eaffea73c456b3ec210'></a> Source: [InTuneDocs\DeployUse\overview-of-the-microsoft-intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/overview-of-the-microsoft-intune-app-sdk.md)
@@ -4046,16 +4067,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='e5a2bf543e2627839f27a4610ca27a2b40caaaf2215'></a> Source: [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-app-management.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-app-management.md)
-* Status: HandedBackFailed
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-app-management.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-app-management.md)
 * Handoff File: [prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/5187a147c8ee08f069c82a54c2478f66fa5eb97a/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 11:37:33
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Handback Error: [handback_transform_failed](#e5a2bf543e2627839f27a4610ca27a2b40caaaf2215handback_transform_failed)
+* Handback File: [prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='6f42cf48eb3c0b6c42d13186a11d5baf5ad2c0c9218'></a> Source: [InTuneDocs\DeployUse\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/df37c7c44875df08cd668005d61bfa5409555554/InTuneDocs/DeployUse/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)
@@ -4098,7 +4118,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='c082a47dd0bc348ce4b5e6e8c23a5d1ce9d01547219'></a> Source: [InTuneDocs\DeployUse\previous-intune-releases.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b9c8e67e70be825368e016749164b19386082c5e/InTuneDocs/DeployUse/previous-intune-releases.md)
-* Status: HandedBackFailed
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [previous-intune-releases.bfee8a546524d237ebe8b6adb9d63cdf229089a4.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/4844a97b5fd149f4ee1ac09feb219343d68d1167/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/previous-intune-releases.bfee8a546524d237ebe8b6adb9d63cdf229089a4.ja-jp.xlf)
 * Handoff Datetime: 2016-05-18 02:19:22
@@ -4107,6 +4127,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\DeployUse\previous-intune-releases.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/previous-intune-releases.md)
+* Current Handback File: [previous-intune-releases.bfee8a546524d237ebe8b6adb9d63cdf229089a4.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/previous-intune-releases.bfee8a546524d237ebe8b6adb9d63cdf229089a4.ja-jp.xlf)
+* Current Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='5cb8754e3b1fe6acacd8a18152f81d1a34d024d7220'></a> Source: [InTuneDocs\DeployUse\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b242d6e9a9f1783e1325d5edee57bf73f94c4b51/InTuneDocs/DeployUse/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
@@ -4146,16 +4169,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='a53a8e1317fc55cfcf7c5dc90be6b647589e17cd223'></a> Source: [InTuneDocs\DeployUse\protect-windows-devices-with-multi-factor-authentication.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/protect-windows-devices-with-multi-factor-authentication.md)
-* Status: HandedBackFailed
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\protect-windows-devices-with-multi-factor-authentication.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/DeployUse/protect-windows-devices-with-multi-factor-authentication.md)
 * Handoff File: [protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/5187a147c8ee08f069c82a54c2478f66fa5eb97a/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 11:37:33
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Handback Error: [handback_transform_failed](#a53a8e1317fc55cfcf7c5dc90be6b647589e17cd223handback_transform_failed)
+* Handback File: [protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='90f66c7385e0caf0a3f006d8dcbc7e5ab930ddd9224'></a> Source: [InTuneDocs\DeployUse\protect-your-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/protect-your-devices-with-microsoft-intune.md)
@@ -6625,16 +6647,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='30eb42012e269031f9abd3334eeedd0818d860ad416'></a> Source: [InTuneDocs\EndUser\remove-your-device-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/remove-your-device-cpwebsite.md)
-* Status: HandedBackFailed
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\EndUser\remove-your-device-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/EndUser/remove-your-device-cpwebsite.md)
 * Handoff File: [remove-your-device-cpwebsite.1a7e4fe2dc1d742e4ada9f0c1c5930c3354681d7.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/remove-your-device-cpwebsite.1a7e4fe2dc1d742e4ada9f0c1c5930c3354681d7.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [remove-your-device-cpwebsite.1a7e4fe2dc1d742e4ada9f0c1c5930c3354681d7.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/6fb0d0b8455826d09765db78e5efe2fc49088227/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/remove-your-device-cpwebsite.1a7e4fe2dc1d742e4ada9f0c1c5930c3354681d7.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 12:09:27
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Handback Error: [handback_transform_failed](#30eb42012e269031f9abd3334eeedd0818d860ad416handback_transform_failed)
+* Handback File: [remove-your-device-cpwebsite.1a7e4fe2dc1d742e4ada9f0c1c5930c3354681d7.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/remove-your-device-cpwebsite.1a7e4fe2dc1d742e4ada9f0c1c5930c3354681d7.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='12b9e1a6300fab772fcb09647a7ea4bd38d6986e417'></a> Source: [InTuneDocs\EndUser\rename-your-device-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/rename-your-device-cpwebsite.md)
@@ -6665,7 +6686,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='e992b17f424a09e56c7a376ffae4f0db9af71ddb419'></a> Source: [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6d435c2c9773040d6870aea274d3879c00461457/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-ios.md)
-* Status: HandedBackFailed
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [reset-erase-your-lost-or-stolen-device-ios.83a7d457b3370aeeea969000242a32db70152754.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/59dffd0bfd1d03b28e00a0cc2231e550a7be3e1d/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/reset-erase-your-lost-or-stolen-device-ios.83a7d457b3370aeeea969000242a32db70152754.ja-jp.xlf)
 * Handoff Datetime: 2016-05-13 16:14:34
@@ -6674,6 +6695,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-ios.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-ios.md)
+* Current Handback File: [reset-erase-your-lost-or-stolen-device-ios.83a7d457b3370aeeea969000242a32db70152754.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/reset-erase-your-lost-or-stolen-device-ios.83a7d457b3370aeeea969000242a32db70152754.ja-jp.xlf)
+* Current Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='fa871efdb89fa9900173e64d60f592834ac7977c420'></a> Source: [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-windows.md)
@@ -7472,16 +7496,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='a8d9cf5d36107c54b97d2b5a5250645dc735a8da481'></a> Source: [InTuneDocs\GetStarted\administrative-accounts-websites-perms.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/GetStarted/administrative-accounts-websites-perms.md)
-* Status: HandedBackFailed
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\GetStarted\administrative-accounts-websites-perms.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/GetStarted/administrative-accounts-websites-perms.md)
 * Handoff File: [administrative-accounts-websites-perms.1b7c1d93c66fa6a72475493a5c6913b51c1ee7a1.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/administrative-accounts-websites-perms.1b7c1d93c66fa6a72475493a5c6913b51c1ee7a1.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [administrative-accounts-websites-perms.1b7c1d93c66fa6a72475493a5c6913b51c1ee7a1.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/6fb0d0b8455826d09765db78e5efe2fc49088227/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/administrative-accounts-websites-perms.1b7c1d93c66fa6a72475493a5c6913b51c1ee7a1.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 12:09:27
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Handback Error: [handback_transform_failed](#a8d9cf5d36107c54b97d2b5a5250645dc735a8da481handback_transform_failed)
+* Handback File: [administrative-accounts-websites-perms.1b7c1d93c66fa6a72475493a5c6913b51c1ee7a1.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/administrative-accounts-websites-perms.1b7c1d93c66fa6a72475493a5c6913b51c1ee7a1.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='c38169a6ef14ae7b52d2d9bdd3b2c8c8198c0116482'></a> Source: [InTuneDocs\GetStarted\application-rollout.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e42318b83b51dcab329a951a53a022f9c8833c40/InTuneDocs/GetStarted/application-rollout.md)
@@ -7497,7 +7520,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='527506ce7b14cdbfeb413b0b52a521f7a411a710483'></a> Source: [InTuneDocs\GetStarted\choose-how-to-manage-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bb44d53c87bec1b6892bf49a65f3df684199ed08/InTuneDocs/GetStarted/choose-how-to-manage-devices.md)
-* Status: HandedBackFailed
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [choose-how-to-manage-devices.20f1cf63526e8446a204174d32682ccf9a802918.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/473aa414464f90192ac4bf3fac6f322e00864326/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/choose-how-to-manage-devices.20f1cf63526e8446a204174d32682ccf9a802918.ja-jp.xlf)
 * Handoff Datetime: 2016-05-26 16:01:02
@@ -7506,6 +7529,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\GetStarted\choose-how-to-manage-devices.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/GetStarted/choose-how-to-manage-devices.md)
+* Current Handback File: [choose-how-to-manage-devices.20f1cf63526e8446a204174d32682ccf9a802918.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/choose-how-to-manage-devices.20f1cf63526e8446a204174d32682ccf9a802918.ja-jp.xlf)
+* Current Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='4b210ceed65498a98ba242855e6188b6a9728bca484'></a> Source: [InTuneDocs\GetStarted\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/83b1726aa8b29f466d9192c294096a4b367e5b53/InTuneDocs/GetStarted/docfx.json)
@@ -7829,15 +7855,14 @@
 
 ##### <a name='69dd5bc7dba04ba5d58f64ceec6ff4ea075d8fdf509'></a> Source: [InTuneDocs\GetStarted\operations-and-maintenance.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/GetStarted/operations-and-maintenance.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\GetStarted\operations-and-maintenance.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/9deca3f12f10ec3b6e01ee469f2ebe3fad6507b9/InTuneDocs/GetStarted/operations-and-maintenance.md)
+* Target File: [InTuneDocs\GetStarted\operations-and-maintenance.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/GetStarted/operations-and-maintenance.md)
 * Handoff File: [operations-and-maintenance.7467e422e35ff69a713333c75b3c2bdf82440793.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/operations-and-maintenance.7467e422e35ff69a713333c75b3c2bdf82440793.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [operations-and-maintenance.7467e422e35ff69a713333c75b3c2bdf82440793.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/6fb0d0b8455826d09765db78e5efe2fc49088227/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/operations-and-maintenance.7467e422e35ff69a713333c75b3c2bdf82440793.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 12:09:27
-* Handback File: [operations-and-maintenance.7467e422e35ff69a713333c75b3c2bdf82440793.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/ef7de390383c6952cb24533bd0f7d4d6c2c252b6/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/operations-and-maintenance.7467e422e35ff69a713333c75b3c2bdf82440793.ja-jp.xlf)
-* Handback Datetime: 2016-05-27 00:21:43
-* Handback Error: [handback_transform_failed](#69dd5bc7dba04ba5d58f64ceec6ff4ea075d8fdf509handback_transform_failed)
+* Handback File: [operations-and-maintenance.7467e422e35ff69a713333c75b3c2bdf82440793.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/operations-and-maintenance.7467e422e35ff69a713333c75b3c2bdf82440793.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='c9734858c4837822e25ec0565e0d9f81e029182a510'></a> Source: [InTuneDocs\GetStarted\pilot.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/GetStarted/pilot.md)
@@ -7854,15 +7879,14 @@
 
 ##### <a name='c879564ada8ad8c82a90c9b0ab4230cf03c9ef0a511'></a> Source: [InTuneDocs\GetStarted\policy-rollout.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e42318b83b51dcab329a951a53a022f9c8833c40/InTuneDocs/GetStarted/policy-rollout.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\GetStarted\policy-rollout.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/57bee32e075a7cdcc37ef13359d8c3669f9b53c2/InTuneDocs/GetStarted/policy-rollout.md)
+* Target File: [InTuneDocs\GetStarted\policy-rollout.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/GetStarted/policy-rollout.md)
 * Handoff File: [policy-rollout.7b60cf2975184526baa59da9e5f4fe9b3546bd1f.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/policy-rollout.7b60cf2975184526baa59da9e5f4fe9b3546bd1f.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [policy-rollout.7b60cf2975184526baa59da9e5f4fe9b3546bd1f.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/6fb0d0b8455826d09765db78e5efe2fc49088227/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/policy-rollout.7b60cf2975184526baa59da9e5f4fe9b3546bd1f.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 12:09:27
-* Handback File: [policy-rollout.7b60cf2975184526baa59da9e5f4fe9b3546bd1f.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/8417d739bda2cb7ea88ecfc5c5d5d5710d8e487a/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/policy-rollout.7b60cf2975184526baa59da9e5f4fe9b3546bd1f.ja-jp.xlf)
-* Handback Datetime: 2016-05-27 00:21:43
-* Handback Error: [handback_transform_failed](#c879564ada8ad8c82a90c9b0ab4230cf03c9ef0a511handback_transform_failed)
+* Handback File: [policy-rollout.7b60cf2975184526baa59da9e5f4fe9b3546bd1f.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/policy-rollout.7b60cf2975184526baa59da9e5f4fe9b3546bd1f.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='2ea7f48c8d34da920c7cb3a70309d34c3f768fed512'></a> Source: [InTuneDocs\GetStarted\post-configuration-tasks.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/GetStarted/post-configuration-tasks.md)
@@ -8242,15 +8266,14 @@
 
 ##### <a name='04a9cad3a03187390da0393af29c7abf25307271539'></a> Source: [InTuneDocs\includes\accessibility11-d_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-d_md.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\accessibility11-d_md.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/1ee8d7c2296b3bfa700147076f55e6fff934b20f/InTuneDocs/includes/accessibility11-d_md.md)
+* Target File: [InTuneDocs\includes\accessibility11-d_md.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/includes/accessibility11-d_md.md)
 * Handoff File: [accessibility11-d_md.4e2e2b5a439129c40c240ca96c6b92bf14db4d52.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility11-d_md.4e2e2b5a439129c40c240ca96c6b92bf14db4d52.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [accessibility11-d_md.4e2e2b5a439129c40c240ca96c6b92bf14db4d52.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/eac361e87de8fefa2ac4f67c0fabde6b10b6becb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/accessibility11-d_md.4e2e2b5a439129c40c240ca96c6b92bf14db4d52.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 14:12:53
-* Handback File: [accessibility11-d_md.4e2e2b5a439129c40c240ca96c6b92bf14db4d52.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/8329389f604cdf90e2d9e3b4c1997002a0ff304b/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility11-d_md.4e2e2b5a439129c40c240ca96c6b92bf14db4d52.ja-jp.xlf)
-* Handback Datetime: 2016-05-27 00:21:43
-* Handback Error: [handback_transform_failed](#04a9cad3a03187390da0393af29c7abf25307271539handback_transform_failed)
+* Handback File: [accessibility11-d_md.4e2e2b5a439129c40c240ca96c6b92bf14db4d52.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility11-d_md.4e2e2b5a439129c40c240ca96c6b92bf14db4d52.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='aa1f82a76f57432c03ed4436aa3575da8d24e93d540'></a> Source: [InTuneDocs\includes\accessibility11-e.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-e.md)
@@ -8315,15 +8338,14 @@
 
 ##### <a name='6a53bb33f107679e333a9728c8e709f47a2a0cbe547'></a> Source: [InTuneDocs\includes\accessibility12_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility12_md.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\accessibility12_md.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/1ee8d7c2296b3bfa700147076f55e6fff934b20f/InTuneDocs/includes/accessibility12_md.md)
+* Target File: [InTuneDocs\includes\accessibility12_md.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/includes/accessibility12_md.md)
 * Handoff File: [accessibility12_md.31652cf874941a3c62c71c3f2a4cb3af7e5c9a7e.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility12_md.31652cf874941a3c62c71c3f2a4cb3af7e5c9a7e.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [accessibility12_md.31652cf874941a3c62c71c3f2a4cb3af7e5c9a7e.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/eac361e87de8fefa2ac4f67c0fabde6b10b6becb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/accessibility12_md.31652cf874941a3c62c71c3f2a4cb3af7e5c9a7e.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 14:12:53
-* Handback File: [accessibility12_md.31652cf874941a3c62c71c3f2a4cb3af7e5c9a7e.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/8329389f604cdf90e2d9e3b4c1997002a0ff304b/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility12_md.31652cf874941a3c62c71c3f2a4cb3af7e5c9a7e.ja-jp.xlf)
-* Handback Datetime: 2016-05-27 00:21:43
-* Handback Error: [handback_transform_failed](#6a53bb33f107679e333a9728c8e709f47a2a0cbe547handback_transform_failed)
+* Handback File: [accessibility12_md.31652cf874941a3c62c71c3f2a4cb3af7e5c9a7e.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility12_md.31652cf874941a3c62c71c3f2a4cb3af7e5c9a7e.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='d64ab436a4fd522c988668574a966d76c2ed7bb6548'></a> Source: [InTuneDocs\includes\accessibility13.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility13.md)
@@ -8435,16 +8457,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='ec300e64342ef3c9f5e340088eee2046e1897bb8557'></a> Source: [InTuneDocs\includes\accessibility17_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility17_md.md)
-* Status: HandedBackFailed
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\includes\accessibility17_md.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/includes/accessibility17_md.md)
 * Handoff File: [accessibility17_md.243b6fc1ac3afae7de4f6b0b734256de529300e3.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility17_md.243b6fc1ac3afae7de4f6b0b734256de529300e3.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [accessibility17_md.243b6fc1ac3afae7de4f6b0b734256de529300e3.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/eac361e87de8fefa2ac4f67c0fabde6b10b6becb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/accessibility17_md.243b6fc1ac3afae7de4f6b0b734256de529300e3.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 14:12:53
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Handback Error: [handback_transform_failed](#ec300e64342ef3c9f5e340088eee2046e1897bb8557handback_transform_failed)
+* Handback File: [accessibility17_md.243b6fc1ac3afae7de4f6b0b734256de529300e3.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility17_md.243b6fc1ac3afae7de4f6b0b734256de529300e3.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='33d4ae53319e3eea041da26285c60b28b3c537c4559'></a> Source: [InTuneDocs\includes\accessibility2.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility2.md)
@@ -8461,15 +8482,14 @@
 
 ##### <a name='43d7946bc8365fd4e638ecaa6c1548d2febaf06c560'></a> Source: [InTuneDocs\includes\accessibility2_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility2_md.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\accessibility2_md.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/1ee8d7c2296b3bfa700147076f55e6fff934b20f/InTuneDocs/includes/accessibility2_md.md)
+* Target File: [InTuneDocs\includes\accessibility2_md.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/includes/accessibility2_md.md)
 * Handoff File: [accessibility2_md.f6db61c3f19b7af6bfaad72991586acdb726611c.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility2_md.f6db61c3f19b7af6bfaad72991586acdb726611c.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [accessibility2_md.f6db61c3f19b7af6bfaad72991586acdb726611c.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/eac361e87de8fefa2ac4f67c0fabde6b10b6becb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/accessibility2_md.f6db61c3f19b7af6bfaad72991586acdb726611c.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 14:12:53
-* Handback File: [accessibility2_md.f6db61c3f19b7af6bfaad72991586acdb726611c.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/8329389f604cdf90e2d9e3b4c1997002a0ff304b/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility2_md.f6db61c3f19b7af6bfaad72991586acdb726611c.ja-jp.xlf)
-* Handback Datetime: 2016-05-27 00:21:43
-* Handback Error: [handback_transform_failed](#43d7946bc8365fd4e638ecaa6c1548d2febaf06c560handback_transform_failed)
+* Handback File: [accessibility2_md.f6db61c3f19b7af6bfaad72991586acdb726611c.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility2_md.f6db61c3f19b7af6bfaad72991586acdb726611c.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='def903812590af80e8c3368a1849c03f826ddd1f561'></a> Source: [InTuneDocs\includes\accessibility3.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility3.md)
@@ -8498,15 +8518,14 @@
 
 ##### <a name='5f5570d77261f22d8f4e391a5fb03feb99c8d8a0563'></a> Source: [InTuneDocs\includes\accessibility4.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility4.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\accessibility4.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/1ee8d7c2296b3bfa700147076f55e6fff934b20f/InTuneDocs/includes/accessibility4.md)
+* Target File: [InTuneDocs\includes\accessibility4.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/includes/accessibility4.md)
 * Handoff File: [accessibility4.ddeee334aa20417b07f880e43c2d9ec9a30ab9db.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility4.ddeee334aa20417b07f880e43c2d9ec9a30ab9db.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [accessibility4.ddeee334aa20417b07f880e43c2d9ec9a30ab9db.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/eac361e87de8fefa2ac4f67c0fabde6b10b6becb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/accessibility4.ddeee334aa20417b07f880e43c2d9ec9a30ab9db.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 14:12:53
-* Handback File: [accessibility4.ddeee334aa20417b07f880e43c2d9ec9a30ab9db.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/8329389f604cdf90e2d9e3b4c1997002a0ff304b/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility4.ddeee334aa20417b07f880e43c2d9ec9a30ab9db.ja-jp.xlf)
-* Handback Datetime: 2016-05-27 00:21:43
-* Handback Error: [handback_transform_failed](#5f5570d77261f22d8f4e391a5fb03feb99c8d8a0563handback_transform_failed)
+* Handback File: [accessibility4.ddeee334aa20417b07f880e43c2d9ec9a30ab9db.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility4.ddeee334aa20417b07f880e43c2d9ec9a30ab9db.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='2da59dc5d6bae651dc0c89335ab2c2ad0a127b5d564'></a> Source: [InTuneDocs\includes\accessibility4_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility4_md.md)
@@ -8535,15 +8554,14 @@
 
 ##### <a name='f410f8314e8f5c884080b71f6146cedb4eadfb56566'></a> Source: [InTuneDocs\includes\accessibility5_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility5_md.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\accessibility5_md.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/1ee8d7c2296b3bfa700147076f55e6fff934b20f/InTuneDocs/includes/accessibility5_md.md)
+* Target File: [InTuneDocs\includes\accessibility5_md.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/includes/accessibility5_md.md)
 * Handoff File: [accessibility5_md.8da259ce60dd4ca7d2c4bcd793bad65d68eb41f1.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility5_md.8da259ce60dd4ca7d2c4bcd793bad65d68eb41f1.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [accessibility5_md.8da259ce60dd4ca7d2c4bcd793bad65d68eb41f1.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/eac361e87de8fefa2ac4f67c0fabde6b10b6becb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/accessibility5_md.8da259ce60dd4ca7d2c4bcd793bad65d68eb41f1.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 14:12:53
-* Handback File: [accessibility5_md.8da259ce60dd4ca7d2c4bcd793bad65d68eb41f1.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/8329389f604cdf90e2d9e3b4c1997002a0ff304b/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility5_md.8da259ce60dd4ca7d2c4bcd793bad65d68eb41f1.ja-jp.xlf)
-* Handback Datetime: 2016-05-27 00:21:43
-* Handback Error: [handback_transform_failed](#f410f8314e8f5c884080b71f6146cedb4eadfb56566handback_transform_failed)
+* Handback File: [accessibility5_md.8da259ce60dd4ca7d2c4bcd793bad65d68eb41f1.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility5_md.8da259ce60dd4ca7d2c4bcd793bad65d68eb41f1.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='f700ddfc5a94d6f5100dc0b5ded2454680b382af567'></a> Source: [InTuneDocs\includes\accessibility6.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility6.md)
@@ -8583,16 +8601,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='1ee43f463d7f9fbaab219c73e8ed25208b14c35d570'></a> Source: [InTuneDocs\includes\accessibility7_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility7_md.md)
-* Status: HandedBackFailed
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\includes\accessibility7_md.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/includes/accessibility7_md.md)
 * Handoff File: [accessibility7_md.c7a5ede87e3ebb04e5a0a38d664a1a94eadb2ea9.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility7_md.c7a5ede87e3ebb04e5a0a38d664a1a94eadb2ea9.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [accessibility7_md.c7a5ede87e3ebb04e5a0a38d664a1a94eadb2ea9.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/42628c46755964a4efb00b6a38d85a2f655dbc76/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/accessibility7_md.c7a5ede87e3ebb04e5a0a38d664a1a94eadb2ea9.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 14:54:52
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Handback Error: [handback_transform_failed](#1ee43f463d7f9fbaab219c73e8ed25208b14c35d570handback_transform_failed)
+* Handback File: [accessibility7_md.c7a5ede87e3ebb04e5a0a38d664a1a94eadb2ea9.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility7_md.c7a5ede87e3ebb04e5a0a38d664a1a94eadb2ea9.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='d3bededd9523a98ca908a50b3eedf6b407cbe21b571'></a> Source: [InTuneDocs\includes\accessibility8.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility8.md)
@@ -8657,28 +8674,26 @@
 
 ##### <a name='85880c99684adf143d786a2a492500c45e97d35b576'></a> Source: [InTuneDocs\includes\cm5long_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/cm5long_md.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\cm5long_md.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/1ee8d7c2296b3bfa700147076f55e6fff934b20f/InTuneDocs/includes/cm5long_md.md)
+* Target File: [InTuneDocs\includes\cm5long_md.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/includes/cm5long_md.md)
 * Handoff File: [cm5long_md.3f0c00a768e2e959cf8ea493c19fa6d9969a94bc.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/cm5long_md.3f0c00a768e2e959cf8ea493c19fa6d9969a94bc.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [cm5long_md.3f0c00a768e2e959cf8ea493c19fa6d9969a94bc.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/42628c46755964a4efb00b6a38d85a2f655dbc76/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/cm5long_md.3f0c00a768e2e959cf8ea493c19fa6d9969a94bc.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 14:54:52
-* Handback File: [cm5long_md.3f0c00a768e2e959cf8ea493c19fa6d9969a94bc.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/8329389f604cdf90e2d9e3b4c1997002a0ff304b/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/cm5long_md.3f0c00a768e2e959cf8ea493c19fa6d9969a94bc.ja-jp.xlf)
-* Handback Datetime: 2016-05-27 00:21:43
-* Handback Error: [handback_transform_failed](#85880c99684adf143d786a2a492500c45e97d35b576handback_transform_failed)
+* Handback File: [cm5long_md.3f0c00a768e2e959cf8ea493c19fa6d9969a94bc.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/cm5long_md.3f0c00a768e2e959cf8ea493c19fa6d9969a94bc.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='964469fffb8bdb3173c03bd460c68e1ba0ea4074577'></a> Source: [InTuneDocs\includes\cm5short.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/cm5short.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\cm5short.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/1ee8d7c2296b3bfa700147076f55e6fff934b20f/InTuneDocs/includes/cm5short.md)
+* Target File: [InTuneDocs\includes\cm5short.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/includes/cm5short.md)
 * Handoff File: [cm5short.9c3710d8295e5a0098d615e66ed5067c2b7ab0bf.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/cm5short.9c3710d8295e5a0098d615e66ed5067c2b7ab0bf.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [cm5short.9c3710d8295e5a0098d615e66ed5067c2b7ab0bf.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/42628c46755964a4efb00b6a38d85a2f655dbc76/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/cm5short.9c3710d8295e5a0098d615e66ed5067c2b7ab0bf.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 14:54:52
-* Handback File: [cm5short.9c3710d8295e5a0098d615e66ed5067c2b7ab0bf.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/8329389f604cdf90e2d9e3b4c1997002a0ff304b/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/cm5short.9c3710d8295e5a0098d615e66ed5067c2b7ab0bf.ja-jp.xlf)
-* Handback Datetime: 2016-05-27 00:21:43
-* Handback Error: [handback_transform_failed](#964469fffb8bdb3173c03bd460c68e1ba0ea4074577handback_transform_failed)
+* Handback File: [cm5short.9c3710d8295e5a0098d615e66ed5067c2b7ab0bf.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/cm5short.9c3710d8295e5a0098d615e66ed5067c2b7ab0bf.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='b70ed7a9f0369fdbe357006f156325aaaaa554da578'></a> Source: [InTuneDocs\includes\cm5short_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/cm5short_md.md)
@@ -15527,16 +15542,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='de00d31ab32916f29a111c93b39a578f82524f801120'></a> Source: [InTuneDocs\Troubleshoot\contact-assisted-phone-support-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/cc64e51499908d08823429871cda91dfb0078b1e/InTuneDocs/Troubleshoot/contact-assisted-phone-support-for-microsoft-intune.md)
-* Status: HandedBackFailed
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\Troubleshoot\contact-assisted-phone-support-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/Troubleshoot/contact-assisted-phone-support-for-microsoft-intune.md)
 * Handoff File: [contact-assisted-phone-support-for-microsoft-intune.2dc621ee0e1e72b479a781513fcd08e7c77fa0cd.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/1cb63ec74a434d14874c32d236ed02cfed3b2863/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/contact-assisted-phone-support-for-microsoft-intune.2dc621ee0e1e72b479a781513fcd08e7c77fa0cd.ja-jp.xlf)
 * Handoff Datetime: 2016-05-04 05:15:38
 * Handoff Reason: Include
 * Archive File: [contact-assisted-phone-support-for-microsoft-intune.2dc621ee0e1e72b479a781513fcd08e7c77fa0cd.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/eac361e87de8fefa2ac4f67c0fabde6b10b6becb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/contact-assisted-phone-support-for-microsoft-intune.2dc621ee0e1e72b479a781513fcd08e7c77fa0cd.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 13:41:44
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Handback Error: [handback_transform_failed](#de00d31ab32916f29a111c93b39a578f82524f801120handback_transform_failed)
+* Handback File: [contact-assisted-phone-support-for-microsoft-intune.2dc621ee0e1e72b479a781513fcd08e7c77fa0cd.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/contact-assisted-phone-support-for-microsoft-intune.2dc621ee0e1e72b479a781513fcd08e7c77fa0cd.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='271149c8637a667870c5c9ca5925e89655c833bf1121'></a> Source: [InTuneDocs\Troubleshoot\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/83b1726aa8b29f466d9192c294096a4b367e5b53/InTuneDocs/Troubleshoot/docfx.json)
@@ -15761,16 +15775,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='d93ab710f6bc2bc62321be5f7079f6092c2612841137'></a> Source: [InTuneDocs\Understand\common-microsoft-intune-evaluation-tasks.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f3985b10ac9612c8c1efc4756eb25cdcf29b023/InTuneDocs/Understand/common-microsoft-intune-evaluation-tasks.md)
-* Status: HandedBackFailed
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\Understand\common-microsoft-intune-evaluation-tasks.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c7ed191c799f9f11f422c17cb0bcc08ff5e42f37/InTuneDocs/Understand/common-microsoft-intune-evaluation-tasks.md)
 * Handoff File: [common-microsoft-intune-evaluation-tasks.47d85dbd96a18cc56702d64fbb1cc731132c53e6.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/2f021b31010ae14a5f7730ba4b16b4d23f0c5e96/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/common-microsoft-intune-evaluation-tasks.47d85dbd96a18cc56702d64fbb1cc731132c53e6.ja-jp.xlf)
 * Handoff Datetime: 2016-05-05 17:14:32
 * Handoff Reason: Include
 * Archive File: [common-microsoft-intune-evaluation-tasks.47d85dbd96a18cc56702d64fbb1cc731132c53e6.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/eac361e87de8fefa2ac4f67c0fabde6b10b6becb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/common-microsoft-intune-evaluation-tasks.47d85dbd96a18cc56702d64fbb1cc731132c53e6.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 13:41:44
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Handback Error: [handback_transform_failed](#d93ab710f6bc2bc62321be5f7079f6092c2612841137handback_transform_failed)
+* Handback File: [common-microsoft-intune-evaluation-tasks.47d85dbd96a18cc56702d64fbb1cc731132c53e6.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/369aff900d4990e48017b945eb7bda0e22aa0722/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/common-microsoft-intune-evaluation-tasks.47d85dbd96a18cc56702d64fbb1cc731132c53e6.ja-jp.xlf)
+* Handback Datetime: 2016-05-27 02:10:47
 * [Back to Top](#report-top)
 
 ##### <a name='c854893f457a60a7424010cdf69a91cb8476e1671138'></a> Source: [InTuneDocs\Understand\common-ways-to-use-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9cb6894cefad1da14332f9994fdf45fe2d1e9b9c/InTuneDocs/Understand/common-ways-to-use-intune.md)
@@ -16985,36 +16998,6 @@
 
 
 ## Error Details
-##### <a name='1d13dac07be4defa1fe3382e1c893ba80b97b5ba24handback_transform_failed'></a> Source: [InTuneDocs\DeployUse\Configure-Intune-certificate-profiles.md](#1d13dac07be4defa1fe3382e1c893ba80b97b5ba24)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\Configure-Intune-certificate-profiles.36f8475bce3543ae708359c027892a55e5ec98a7.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\Configure-Intune-certificate-profiles.36f8475bce3543ae708359c027892a55e5ec98a7.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='52a77e50b3dde24ba270766d4472bdd6176cc41527handback_transform_failed'></a> Source: [InTuneDocs\DeployUse\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md](#52a77e50b3dde24ba270766d4472bdd6176cc41527)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\control-what-admins-can-see-in-the-microsoft-intune-admin-console.0c8a1590e48caf0a9e1c25a5dd199995d0e021dd.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\control-what-admins-can-see-in-the-microsoft-intune-admin-console.0c8a1590e48caf0a9e1c25a5dd199995d0e021dd.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='c8273a85399a64d5174fe82cf779be949387ad46206handback_transform_failed'></a> Source: [InTuneDocs\DeployUse\monitoring-and-reports-with-microsoft-intune.md](#c8273a85399a64d5174fe82cf779be949387ad46206)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\monitoring-and-reports-with-microsoft-intune.9cd2e2b51551e7f62a6765aeee4d7db60862b929.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\monitoring-and-reports-with-microsoft-intune.9cd2e2b51551e7f62a6765aeee4d7db60862b929.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='e5a2bf543e2627839f27a4610ca27a2b40caaaf2215handback_transform_failed'></a> Source: [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-app-management.md](#e5a2bf543e2627839f27a4610ca27a2b40caaaf2215)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='a53a8e1317fc55cfcf7c5dc90be6b647589e17cd223handback_transform_failed'></a> Source: [InTuneDocs\DeployUse\protect-windows-devices-with-multi-factor-authentication.md](#a53a8e1317fc55cfcf7c5dc90be6b647589e17cd223)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
 ##### <a name='4004752da545e7c9c19b67ce8808ad3d3f0bd3a2355handoff_transform_failed'></a> Source: [InTuneDocs\EndUser\media\Enroll-Android-logo.JPG](#4004752da545e7c9c19b67ce8808ad3d3f0bd3a2355)
 * Error Code: handoff_transform_failed
 * Error Message: Handoff source file: InTuneDocs\media\Enroll-Android-logo.JPG transformed failed.
@@ -17026,96 +17009,6 @@
 * Error Message: Handoff source file: InTuneDocs\media\Enroll-windows-logo.JPG transformed failed.
 * Retriable: False
 * Error Details: {"internal_error_code":"handoff_transform_failed","internal_error_message":"Handoff source file: InTuneDocs\\media\\Enroll-windows-logo.JPG transformed failed.","internal_error_retriable":false,"exception_message":"Could not find file 'C:\\ol\\master\\InTuneDocs\\InTuneDocs\\media\\Enroll-windows-logo.JPG'.","exception_type":"System.IO.FileNotFoundException","stack_trace":"   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 396","extended_information":null}
-
-##### <a name='30eb42012e269031f9abd3334eeedd0818d860ad416handback_transform_failed'></a> Source: [InTuneDocs\EndUser\remove-your-device-cpwebsite.md](#30eb42012e269031f9abd3334eeedd0818d860ad416)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\remove-your-device-cpwebsite.1a7e4fe2dc1d742e4ada9f0c1c5930c3354681d7.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\remove-your-device-cpwebsite.1a7e4fe2dc1d742e4ada9f0c1c5930c3354681d7.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='a8d9cf5d36107c54b97d2b5a5250645dc735a8da481handback_transform_failed'></a> Source: [InTuneDocs\GetStarted\administrative-accounts-websites-perms.md](#a8d9cf5d36107c54b97d2b5a5250645dc735a8da481)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\administrative-accounts-websites-perms.1b7c1d93c66fa6a72475493a5c6913b51c1ee7a1.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\administrative-accounts-websites-perms.1b7c1d93c66fa6a72475493a5c6913b51c1ee7a1.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='69dd5bc7dba04ba5d58f64ceec6ff4ea075d8fdf509handback_transform_failed'></a> Source: [InTuneDocs\GetStarted\operations-and-maintenance.md](#69dd5bc7dba04ba5d58f64ceec6ff4ea075d8fdf509)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\operations-and-maintenance.7467e422e35ff69a713333c75b3c2bdf82440793.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\operations-and-maintenance.7467e422e35ff69a713333c75b3c2bdf82440793.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='c879564ada8ad8c82a90c9b0ab4230cf03c9ef0a511handback_transform_failed'></a> Source: [InTuneDocs\GetStarted\policy-rollout.md](#c879564ada8ad8c82a90c9b0ab4230cf03c9ef0a511)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\policy-rollout.7b60cf2975184526baa59da9e5f4fe9b3546bd1f.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\policy-rollout.7b60cf2975184526baa59da9e5f4fe9b3546bd1f.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='04a9cad3a03187390da0393af29c7abf25307271539handback_transform_failed'></a> Source: [InTuneDocs\includes\accessibility11-d_md.md](#04a9cad3a03187390da0393af29c7abf25307271539)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\accessibility11-d_md.4e2e2b5a439129c40c240ca96c6b92bf14db4d52.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\accessibility11-d_md.4e2e2b5a439129c40c240ca96c6b92bf14db4d52.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='6a53bb33f107679e333a9728c8e709f47a2a0cbe547handback_transform_failed'></a> Source: [InTuneDocs\includes\accessibility12_md.md](#6a53bb33f107679e333a9728c8e709f47a2a0cbe547)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\accessibility12_md.31652cf874941a3c62c71c3f2a4cb3af7e5c9a7e.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\accessibility12_md.31652cf874941a3c62c71c3f2a4cb3af7e5c9a7e.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='ec300e64342ef3c9f5e340088eee2046e1897bb8557handback_transform_failed'></a> Source: [InTuneDocs\includes\accessibility17_md.md](#ec300e64342ef3c9f5e340088eee2046e1897bb8557)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\accessibility17_md.243b6fc1ac3afae7de4f6b0b734256de529300e3.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\accessibility17_md.243b6fc1ac3afae7de4f6b0b734256de529300e3.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='43d7946bc8365fd4e638ecaa6c1548d2febaf06c560handback_transform_failed'></a> Source: [InTuneDocs\includes\accessibility2_md.md](#43d7946bc8365fd4e638ecaa6c1548d2febaf06c560)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\accessibility2_md.f6db61c3f19b7af6bfaad72991586acdb726611c.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\accessibility2_md.f6db61c3f19b7af6bfaad72991586acdb726611c.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='5f5570d77261f22d8f4e391a5fb03feb99c8d8a0563handback_transform_failed'></a> Source: [InTuneDocs\includes\accessibility4.md](#5f5570d77261f22d8f4e391a5fb03feb99c8d8a0563)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\accessibility4.ddeee334aa20417b07f880e43c2d9ec9a30ab9db.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\accessibility4.ddeee334aa20417b07f880e43c2d9ec9a30ab9db.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='f410f8314e8f5c884080b71f6146cedb4eadfb56566handback_transform_failed'></a> Source: [InTuneDocs\includes\accessibility5_md.md](#f410f8314e8f5c884080b71f6146cedb4eadfb56566)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\accessibility5_md.8da259ce60dd4ca7d2c4bcd793bad65d68eb41f1.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\accessibility5_md.8da259ce60dd4ca7d2c4bcd793bad65d68eb41f1.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='1ee43f463d7f9fbaab219c73e8ed25208b14c35d570handback_transform_failed'></a> Source: [InTuneDocs\includes\accessibility7_md.md](#1ee43f463d7f9fbaab219c73e8ed25208b14c35d570)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\accessibility7_md.c7a5ede87e3ebb04e5a0a38d664a1a94eadb2ea9.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\accessibility7_md.c7a5ede87e3ebb04e5a0a38d664a1a94eadb2ea9.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='85880c99684adf143d786a2a492500c45e97d35b576handback_transform_failed'></a> Source: [InTuneDocs\includes\cm5long_md.md](#85880c99684adf143d786a2a492500c45e97d35b576)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\cm5long_md.3f0c00a768e2e959cf8ea493c19fa6d9969a94bc.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\cm5long_md.3f0c00a768e2e959cf8ea493c19fa6d9969a94bc.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='964469fffb8bdb3173c03bd460c68e1ba0ea4074577handback_transform_failed'></a> Source: [InTuneDocs\includes\cm5short.md](#964469fffb8bdb3173c03bd460c68e1ba0ea4074577)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\cm5short.9c3710d8295e5a0098d615e66ed5067c2b7ab0bf.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\cm5short.9c3710d8295e5a0098d615e66ed5067c2b7ab0bf.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='de00d31ab32916f29a111c93b39a578f82524f801120handback_transform_failed'></a> Source: [InTuneDocs\Troubleshoot\contact-assisted-phone-support-for-microsoft-intune.md](#de00d31ab32916f29a111c93b39a578f82524f801120)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\contact-assisted-phone-support-for-microsoft-intune.2dc621ee0e1e72b479a781513fcd08e7c77fa0cd.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\contact-assisted-phone-support-for-microsoft-intune.2dc621ee0e1e72b479a781513fcd08e7c77fa0cd.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
-
-##### <a name='d93ab710f6bc2bc62321be5f7079f6092c2612841137handback_transform_failed'></a> Source: [InTuneDocs\Understand\common-microsoft-intune-evaluation-tasks.md](#d93ab710f6bc2bc62321be5f7079f6092c2612841137)
-* Error Code: handback_transform_failed
-* Error Message: Handback file: C:\ol\master\EM.handback\d39e40\ol-handback\Microsoft\IntuneDocs-pr.ja-jp\master\common-microsoft-intune-evaluation-tasks.47d85dbd96a18cc56702d64fbb1cc731132c53e6.ja-jp.xlf failed.
-* Retriable: False
-* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\EM.handback\\d39e40\\ol-handback\\Microsoft\\IntuneDocs-pr.ja-jp\\master\\common-microsoft-intune-evaluation-tasks.47d85dbd96a18cc56702d64fbb1cc731132c53e6.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.XliffToMarkdownCore(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 119\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 117\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 206\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424","extended_information":null}
 
 
 Generated by OpenLocalization.
