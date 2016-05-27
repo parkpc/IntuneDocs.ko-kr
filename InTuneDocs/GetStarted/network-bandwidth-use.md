@@ -90,7 +90,7 @@ BranchCache を使用するには、クライアント コンピューターで 
 BranchCache を使用する場合、グループ ポリシーと [!INCLUDE[wit_firstref](../includes/wit_firstref_md.md)] ファイアウォール ポリシーを管理する組織内の他の管理者にも伝えて、BranchCache を無効にするポリシーやファイアウォールの例外を展開しないようにします。 BranchCache の詳細については、「[BranchCache の概要](http://technet.microsoft.com/library/hh831696.aspx)」を参照してください。.
 
 ### 関連項目
-[Microsoft Intune を使い始める前に](what-to-know-before-you-start-microsoft-intune.md)
+[What to know before you start Microsoft Intune (Microsoft Intune を開始する前に理解しておくこと)](what-to-know-before-you-start-microsoft-intune.md)
 
 <!--HONumber=May16_HO1-->
 

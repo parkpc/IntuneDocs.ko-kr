@@ -56,7 +56,7 @@ Intune ポータル サイトは、会社のデータとアプリに対するア
 ユーザーがポータル サイトにアクセスできるようにするには、ユーザーのアカウントに、[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] を使用するライセンスを付与し、サインイン状態を "**許可済み**" にする必要があります。 [ユーザーの追加](start-with-a-paid-subscription-to-microsoft-intune-step-3.md)と[サブスクリプションのライセンスの割り当て](start-with-a-paid-subscription-to-microsoft-intune-step-4.md)の詳細情報を参照してください。 また、[ポータル Web サイトの会社のロゴ、使用条件などをカスタマイズ](start-with-a-paid-subscription-to-microsoft-intune-step-7.md)することもできます。 ユーザーがポータル Web サイトにアクセスする場合は、職場アカウントまたは学校アカウントでサインインします。
 
 ### 関連項目
-[Microsoft Intune を使い始める前に](what-to-know-before-you-start-microsoft-intune.md)
+[What to know before you start Microsoft Intune (Microsoft Intune を開始する前に理解しておくこと)](what-to-know-before-you-start-microsoft-intune.md)
 
 
 <!--HONumber=May16_HO1-->

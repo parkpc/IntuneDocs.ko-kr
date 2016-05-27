@@ -45,7 +45,7 @@ TechNet ライブラリで [Azure AD の管理](http://technet.microsoft.com/lib
 詳細については、[!INCLUDE[cm5short](../includes/cm5short_md.md)] SP1 のドキュメントで「[Configuration Manager と Microsoft Intune を使用してモバイル デバイスを管理する](http://msdn.microsoft.com/library/2c6bd0e5-d436-41c8-bf38-30152d76be10)」を参照してください。
 
 ### 関連項目
-[Microsoft Intune を使い始める前に](what-to-know-before-you-start-microsoft-intune.md)
+[What to know before you start Microsoft Intune (Microsoft Intune を開始する前に理解しておくこと)](what-to-know-before-you-start-microsoft-intune.md)
 
 <!--HONumber=May16_HO1-->
 
