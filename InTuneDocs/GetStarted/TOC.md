@@ -1,35 +1,45 @@
-# [Understand and Explore](/intune/understand-explore/introduction-to-microsoft-intune)
+# [이해 및 탐색](/intune/understand-explore/introduction-to-microsoft-intune)
 
-# [Get Started](what-to-know-before-you-start-microsoft-intune.md)
-## [What to know before you start](what-to-know-before-you-start-microsoft-intune.md)
-### [Supported web browsers](supported-web-browsers.md)
-### [Network infrastructure requirements](network-infrastructure-requirements-for-microsoft-intune.md)
-### [Administrative accounts, websites, and permissions](administrative-accounts-websites-perms.md)
-### [Company Portal](microsoft-intune-company-portal.md)
-### [Integration with Microsoft cloud services and products](integration-with-cloud-services.md)
-### [Network bandwidth usage](network-bandwidth-use.md)
-### [Domain names](domain-names-for-microsoft-intune.md)
+# [시작](what-to-know-before-you-start-microsoft-intune.md)
+## [시작 전에 알아야 할 사항](what-to-know-before-you-start-microsoft-intune.md)
+### [지원되는 웹 브라우저](supported-web-browsers.md)
+### [네트워크 인프라 요구 사항](network-infrastructure-requirements-for-microsoft-intune.md)
+### [관리자 계정, 웹 사이트 및 권한](administrative-accounts-websites-perms.md)
+### [회사 포털](microsoft-intune-company-portal.md)
+### [Microsoft 클라우드 서비스 및 제품과 통합](integration-with-cloud-services.md)
+### [네트워크 대역폭 사용량](network-bandwidth-use.md)
+### [도메인 이름](domain-names-for-microsoft-intune.md)
 
-## [Start with a paid subscription](start-with-a-paid-subscription-to-microsoft-intune.md)
-### [Sign in to Intune](start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
-### [Configure a custom domain name](start-with-a-paid-subscription-to-microsoft-intune-step-2.md)
-### [Synchronize AD and add users](start-with-a-paid-subscription-to-microsoft-intune-step-3.md)
-### [Manage Intune licenses](start-with-a-paid-subscription-to-microsoft-intune-step-4.md)
-### [Organize users and devices](start-with-a-paid-subscription-to-microsoft-intune-step-5.md)
-### [Create policies and publish an app](start-with-a-paid-subscription-to-microsoft-intune-step-6.md)
-### [Customize the Company Portal](start-with-a-paid-subscription-to-microsoft-intune-step-7.md)
-### [Enroll mobile devices & install an app](start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
-### [Post configuration tasks](post-configuration-tasks.md)
+## [Intune 빠른 시작 가이드](start-with-a-paid-subscription-to-microsoft-intune.md)
+### [Intune에 로그인](start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
+### [사용자 지정 도메인 이름 구성](start-with-a-paid-subscription-to-microsoft-intune-step-2.md)
+### [AD 동기화 및 사용자 추가](start-with-a-paid-subscription-to-microsoft-intune-step-3.md)
+### [Intune 라이선스 관리](start-with-a-paid-subscription-to-microsoft-intune-step-4.md)
+### [사용자 및 장치 구성](start-with-a-paid-subscription-to-microsoft-intune-step-5.md)
+### [정책 만들기 및 앱 게시](start-with-a-paid-subscription-to-microsoft-intune-step-6.md)
+### [회사 포털 사용자 지정](start-with-a-paid-subscription-to-microsoft-intune-step-7.md)
+### [모바일 장치 등록 및 앱 설치](start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
+### [구성 후 작업](post-configuration-tasks.md)
 
+<!--
+## [Choose how to manage devices](choose-how-to-manage-devices.md)
+### [Mobile device management capabilities](mobile-device-management-capabilities-in-microsoft-intune.md)
+### [Windows PC management capabilities](windows-pc-management-capabilities-in-microsoft-intune.md)
+-->
 
-## [Rollout phases for Intune deployments](rollout-phases-for-microsoft-intune-deployment.md)
-### [Project scope](project-scope.md)
-### [Proof of concept](proof-of-concept.md)
-### [Pilot](pilot.md)
-### [Enterprise rollout](enterprise-rollout.md)
-### [Operations and maintenance](operations-and-maintenance.md)
+## [Intune 배포용 출시 단계](rollout-phases-for-microsoft-intune-deployment.md)
+### [프로젝트 범위](project-scope.md)
+### [개념 증명](proof-of-concept.md)
+### [파일럿](pilot.md)
+### [엔터프라이즈 출시](enterprise-rollout.md)
+### [운영 및 유지 관리](operations-and-maintenance.md)
 
 
 <!-- # [Plan and Design](/intune/plan-design/ways-to-do-enterprise-mobility) -->
-# [Deploy and Use](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
-# [Troubleshoot](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
+# [배포 및 사용](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
+# [문제 해결](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
+
+
+<!--HONumber=May16_HO1-->
+
+

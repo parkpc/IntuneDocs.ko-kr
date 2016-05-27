@@ -51,7 +51,7 @@ Microsoft Intune **Exchange ActiveSync** 정책을 사용하여 Exchange ActiveS
 |**메모리 카드 암호화 필요**|(지원되는 장치에서) 암호화될 SD 카드와 같은 외부 저장소에 저장된 데이터가 필요합니다.
 <sup>1</sup> Windows 8.1을 실행하는 장치에 대한 추가 정보
 
--   Windows 8.1을 실행하는 장치에 암호화를 적용하려면 각 장치에 [Windows용 December 2014 MDM 클라이언트 업데이트](http://support.microsoft.com/kb/3013816) 를 설치해야 합니다.
+-   Windows 8.1을 실행하는 장치에 암호화를 적용하려면 각 장치에 [Windows용 December 2014 MDM 클라이언트 업데이트](http://support.microsoft.com/kb/3013816)를 설치해야 합니다.
 
 -   Windows 8.1 장치에 대해 이 설정을 사용하도록 설정하려면 장치의 모든 사용자가 Microsoft 계정을 가지고 있어야 합니다.
 
