@@ -21,25 +21,23 @@
 ### [モバイル デバイスを登録してアプリをインストールする](start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
 ### [構成後のタスク](post-configuration-tasks.md)
 
-<!--
-## [Choose how to manage devices](choose-how-to-manage-devices.md)
-### [Mobile device management capabilities](mobile-device-management-capabilities-in-microsoft-intune.md)
-### [Windows PC management capabilities](windows-pc-management-capabilities-in-microsoft-intune.md)
--->
+## [デバイスを管理する方法を選択する](choose-how-to-manage-devices.md)
+### [モバイル デバイス管理機能](mobile-device-management-capabilities-in-microsoft-intune.md)
+### [Windows PC 管理機能](windows-pc-management-capabilities-in-microsoft-intune.md)
 
 ## [Intune の展開のロールアウト フェーズ](rollout-phases-for-microsoft-intune-deployment.md)
 ### [プロジェクト スコープ](project-scope.md)
 ### [概念実証](proof-of-concept.md)
 ### [パイロット](pilot.md)
-### [企業でのロールアウト](enterprise-rollout.md)
+### [全社的なロールアウト](enterprise-rollout.md)
 ### [運用とメンテナンス](operations-and-maintenance.md)
-
 
 <!-- # [Plan and Design](/intune/plan-design/ways-to-do-enterprise-mobility) -->
 # [展開と使用](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
+# [アプリの開発とカスタマイズ](/intune/develop/intune-app-sdk)
 # [トラブルシューティング](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

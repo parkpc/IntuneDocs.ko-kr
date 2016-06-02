@@ -63,11 +63,12 @@ ms.suite: ems
 - [IT 管理者に登録に関するエラーを送信する](send-enrollment-errors-to-your-it-administrator-android.md)</br>
 - [デバイスに最低限必要なバージョンのオペレーティング システムがインストールされていない](device-doesnt-have-the-required-minimum-operating-system-version-android.md)</br>
 - [デバイスが最新のオペレーティング システムのバージョンに準拠していない](device-doesnt-comply-with-maximum-operating-system-version-android.md)</br>
-- [デバイスが root 化され、接続できない](your-device-is-rooted-and-you-cant-connect-android.md)
-- [デバイスに必要な証明書がない](your-device-is-missing-a-required-certificate-android.md)
+- [デバイスが root 化され、接続できない](your-device-is-rooted-and-you-cant-connect-android.md)</br>
+- [デバイスに必要な証明書がない](your-device-is-missing-a-required-certificate-android.md)</br>
 
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=May16_HO3-->
 
 

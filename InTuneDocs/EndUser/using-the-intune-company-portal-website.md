@@ -52,9 +52,9 @@ ms.suite: ems
 
 - [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 - [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
-- [Android デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
+- [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO4-->
 
 

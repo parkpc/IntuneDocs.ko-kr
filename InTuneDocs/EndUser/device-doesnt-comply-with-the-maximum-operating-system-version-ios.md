@@ -15,7 +15,7 @@ ms.assetid: ada223d7-2a80-4415-bd85-5bdf9eca7ace
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -31,9 +31,9 @@ ms.suite: ems
 お使いの iOS デバイスは、最新バージョンのオペレーティング システムについての IT 管理者のポリシーに準拠していません。 IT 管理者に問い合わせてください。
 
 ### 関連項目
-[iOS デバイスまたは Mac OS X デバイスを Intune で使用する](using-your-ios-or-mac-os-x-device-with-intune.md)
+[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 
