@@ -180,7 +180,7 @@ Service to Service Connector は、クラウドベースの Exchange のみを�
 -   On-Premises Connector のインストールに使用するユーザー アカウントは、Intune のテナント管理者であり、Exchange Server 2013 を使用するライセンスを持つ Exchange テナントの管理者である必要があります。
 
 ### 関連項目
-[What to know before you start Microsoft Intune (Microsoft Intune を開始する前に理解しておくこと)](what-to-know-before-you-start-microsoft-intune.md)
+[Microsoft Intune を使い始める前に](what-to-know-before-you-start-microsoft-intune.md)
 
 
 <!--HONumber=May16_HO1-->
