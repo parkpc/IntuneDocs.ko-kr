@@ -15,7 +15,7 @@ ms.assetid: ada223d7-2a80-4415-bd85-5bdf9eca7ace
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -34,6 +34,6 @@ iOS 장치가 최대 운영 체제 버전에 대한 IT 관리자의 정책을 �
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

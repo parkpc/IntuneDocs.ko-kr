@@ -15,7 +15,7 @@ ms.assetid: ade7353e-7338-484d-a50f-b91146d5fc46
 
 # optional metadata
 
-ROBOTS: noindex,nofollow
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -32,6 +32,6 @@ IT 관리자에게 장치를 다시 연결하기 위한 지원을 요청하세�
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 
