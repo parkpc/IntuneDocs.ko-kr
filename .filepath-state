@@ -727,9 +727,6 @@
   "1f12e5b9d36dc3b71a77f0f99c243e9345109829": [
     "InTuneDocs\\PlanDesign\\TOC.md"
   ],
-  "579ec975fe94c17a7b44ab60b605d6fb4c7fd899": [
-    "InTuneDocs\\PlanDesign\\TOC.md"
-  ],
   "c879564ada8ad8c82a90c9b0ab4230cf03c9ef0a": [
     "InTuneDocs\\GetStarted\\policy-rollout.md"
   ],
@@ -860,9 +857,6 @@
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
   "b1fe07143474e4ad150033f94e2bb85caf87ff10": [
-    "InTuneDocs\\Understand\\TOC.md"
-  ],
-  "d0f3bb2bab226cb748f8066a649f7411f51274f4": [
     "InTuneDocs\\Understand\\TOC.md"
   ],
   "1dde0f9c701974b72ef12e63ecc4ed76f84f053e": [
@@ -1529,9 +1523,6 @@
     "InTuneDocs\\EndUser\\turn-off-microsoft-usage-data-collection-android.md"
   ],
   "343551db25a9e945cca997cdd68b2f3780a7da60": [
-    "InTuneDocs\\EndUser\\turn-off-microsoft-usage-data-collection-ios.md"
-  ],
-  "4fef73018493d5b51711f566f3dc72e199b15193": [
     "InTuneDocs\\EndUser\\turn-off-microsoft-usage-data-collection-ios.md"
   ],
   "70c9b0901ceca1cd0ee5eb765b7e73c96b52e5f7": [
