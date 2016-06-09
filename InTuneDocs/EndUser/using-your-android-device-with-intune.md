@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/03/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -63,11 +63,12 @@ ms.suite: ems
 - [IT 관리자에게 등록 오류 보내기](send-enrollment-errors-to-your-it-administrator-android.md)</br>
 - [장치에 필요한 최소 운영 체제 버전이 없는 경우](device-doesnt-have-the-required-minimum-operating-system-version-android.md)</br>
 - [장치가 최대 운영 체제 버전에 부합되지 않는 경우](device-doesnt-comply-with-maximum-operating-system-version-android.md)</br>
-- [장치가 루팅되었으며 연결할 수 없는 경우](your-device-is-rooted-and-you-cant-connect-android.md)
-- [장치에 필요한 인증서가 없습니다.](your-device-is-missing-a-required-certificate-android.md)
+- [장치가 루팅되었으며 연결할 수 없는 경우](your-device-is-rooted-and-you-cant-connect-android.md)</br>
+- [장치에 필요한 인증서가 없습니다.](your-device-is-missing-a-required-certificate-android.md)</br>
 
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO1-->
 
 

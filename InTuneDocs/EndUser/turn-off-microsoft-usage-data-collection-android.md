@@ -18,7 +18,7 @@ ms.assetid: df53feab-4f5e-46ae-b1e8-9adb048711e5
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -32,6 +32,6 @@ ms.suite: ems
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 
