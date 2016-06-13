@@ -67,11 +67,11 @@ Intune은 Apple 장치 등록 프로그램 및 Samsung KNOX 모바일 보안 플
 <!-- Learn more about how to plan and deploy Intune to support shared tablets. -->
 
 ## 직원이 관리되지 않는 공용 키오스크에서 Office 365에 안전하게 액세스하도록 할 수 있습니다.
-직원이 무역 박람회 및 호텔 로비에 있는 공용 컴퓨터 등 관리할 수 없는 장치, 앱 또는 브라우저를 사용해야 하는 경우도 있습니다.  이 경우에 직원이 회사 전자 메일에 액세스할 수 있어야 하나요?  Intune 및 Enterprise Mobility Suite를 사용하면 선택할 수 있습니다.  조직에서 관리하는 장치에 대한 전자 메일 액세스를 제한해야 하므로 대답은 단순히 “아니요”입니다.  또는, Multi-Factor Authentication을 요구하거나 파일을 다운로드할 수 없는 모드(예: 전자 메일 첨부 파일)에서 브라우저 액세스(Outlook Web Access)를 허용하여 이러한 신뢰할 수 없는 컴퓨터에 대한 제한된 액세스를 허용하도록 선택할 수 있습니다.  이렇게 하면 강력하게 인증된 직원이 실수로 신뢰할 수 없는 컴퓨터에 회사 데이터를 남기지 않게 됩니다.
+직원이 무역 박람회 및 호텔 로비에 있는 공용 컴퓨터 등 관리할 수 없는 장치, 앱 또는 브라우저를 사용해야 하는 경우도 있습니다. 이 경우에 직원이 회사 전자 메일에 액세스할 수 있어야 하나요? Intune 및 Enterprise Mobility Suite를 사용하면 <!--you have choices. The--> 조직에서 관리하는 장치에 대한 메일 액세스를 제한해야 하므로 대답은 간단히 “아니요”입니다.  <!-- Alternatively, you can choose to allow limited access to these untrusted computers by requiring multi-factor authentication and only allowing browser access (Outlook Web Access) in a mode where files cannot be downloaded (e.g. email attachments).-->  이렇게 하면 강력하게 인증된 직원이 실수로 신뢰할 수 없는 컴퓨터에 회사 데이터를 남기지 않게 됩니다.
 
 <!-- Learn more about how to plan and deploy Intune to support kiosks. -->
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

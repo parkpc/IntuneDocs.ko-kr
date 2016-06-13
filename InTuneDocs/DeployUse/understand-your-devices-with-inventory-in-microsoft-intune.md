@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune에서 인벤토리를 사용하는 장치 이해 | Microsoft Intune
+title: 인벤토리를 사용하는 장치 이해 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -66,8 +66,7 @@ Microsoft Intune을 사용하면 Intune 클라이언트 소프트웨어를 실�
 |**암호화 사용**|All 장치|
 
 ## Windows PC에서 수집되는 내용
-> [!IMPORTANT]
-> 이 섹션은 Intune Windows PC 클라이언트 소프트웨어를 실행하는 Windows PC에만 적용됩니다.
+> [!IMPORTANT] 이 섹션은 Intune Windows PC 클라이언트 소프트웨어를 실행하는 Windows PC에만 적용됩니다.
 
 Windows PC에 의해 수집된 인벤토리를 보려면 [컴퓨터 인벤토리 보고서](understand-microsoft-intune-operations-by-using-reports.md)를 실행합니다. Intune은 Windows PC에서 다음 인벤토리를 수집합니다.
 
@@ -113,11 +112,12 @@ Windows PC에 의해 수집된 인벤토리를 보려면 [컴퓨터 인벤토리
 
 -   **마지막 업데이트 날짜**
 
-### 참고 항목
-[Microsoft Intune을 사용한 모니터링 및 보고서](monitoring-and-reports-with-microsoft-intune.md)
+<!-- this section below belongs in the planning journey
+### See Also
+[Monitoring and reports with Microsoft Intune](monitoring-and-reports-with-microsoft-intune.md)
+-->
 
 
-
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

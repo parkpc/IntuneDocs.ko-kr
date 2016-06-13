@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune의 모바일 장치 관리 기능 | Microsoft Intune
+title: 모바일 장치 관리 기능 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -66,12 +66,13 @@ Microsoft Intune에서 다양한 장치를 서비스에 *등록*하여 관리할
 
 |기능|세부 정보|추가 정보|
 |--------------|-----------|--------------------|
-|인벤토리 및 보고|관리하는 장치와 사용 중인 소프트웨어에 대한 정보를 찾아보세요.<br /><br />장치가 회사 표준에 맞는지 여부, 장치 플랫폼 등과 같은 다양한 기준으로 이러한 보고서를 필터링할 수 있습니다.|[보고서를 사용하는 Microsoft Intune 작업 이해](/intune/understand-explore/understand-microsoft-intune-operations-by-using-reports)|
+|인벤토리 및 보고|관리하는 장치와 사용 중인 소프트웨어에 대한 정보를 찾아보세요.|[Microsoft Intune에서 인벤토리를 사용하는 장치 이해](./deploy-use/understand-your-devices-with-inventory-in-microsoft-intune)|
+
 
 ### 참고 항목
-[Microsoft Intune의 Windows PC 관리 기능](/intune/understand-explore/windows-pc-management-capabilities-in-microsoft-intune)
+[Microsoft Intune의 Windows PC 관리 기능](./windows-pc-management-capabilities-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

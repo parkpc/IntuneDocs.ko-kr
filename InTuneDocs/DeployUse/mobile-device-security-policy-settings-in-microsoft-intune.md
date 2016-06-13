@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune의 모바일 장치 보안 정책 설정 | Microsoft Intune
+title: 모바일 장치 보안 정책 설정 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -72,7 +72,7 @@ Windows RT를 실행하는 장치에 암호 길이 정책을 배포하면 사용
 
 |설정 이름|Windows 8.1 및 Windows RT 8.1|Windows RT|Windows Phone 8 및 Windows Phone 8.1|iOS|Android 및 삼성 KNOX|
 |----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|
-|**모바일 장치 암호화 필요**<sup>1</sup><br /><br />Windows Phone 8 장치의 경우 이 옵션을 **예**로 설정해야 합니다..<br /><br />iOS 장치에서 암호화를 사용하도록 설정하려면 **모바일 장치를 잠금 해제하기 위해 암호 필요**설정을 사용하도록 설정합니다..|예|아니요|예|아니요|예|
+|**모바일 장치 암호화 필요**<sup>1</sup><br /><br />Windows Phone 8 장치의 경우 이 옵션을 **예**로 설정해야 합니다.<br /><br />iOS 장치에서 암호화를 사용하도록 설정하려면 **모바일 장치를 잠금 해제하기 위해 암호 필요**설정을 사용하도록 설정합니다.|예|아니요|예|아니요|예|
 |**메모리 카드 암호화 필요**<br /><br />Exchange ActiveSync에서 관리하는 장치에도 적용됩니다.|해당 없음|해당 없음|해당 없음(앱 및 연결된 데이터가 자동으로 암호화됨)|해당 없음|예|
 Windows 8.1을 실행하는 장치에 대한 추가 정보
 
@@ -217,6 +217,6 @@ Windows 8.1을 실행하는 장치에 대한 추가 정보
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune의 Windows PC 관리 기능 | Microsoft Intune
+title: Windows PC 관리 기능 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -34,7 +34,7 @@ ms.suite: ems
 
 -   **맬웨어 방지 보호** - Intune에 포함된 Endpoint Protection을 사용하면 PC를 맬웨어로부터 보호할 수 있습니다.
 
--   **원격 지원** - Intune을 통해 IT 지원 직원에게 문의하면 해당 직원이 Intune에 포함된 원격 데스크톱 기능을 사용하여 도움을 줄 수 있습니다.
+-   **원격 지원** - Intune을 통해 IT 지원 직원에게 문의하면 해당 직원이 Intune에 포함된 원격 데스크톱 기능을 사용하여 도움을 줄 수 있습니다(TeamViewer 소프트웨어 필요).
 
 -   **소프트웨어 라이선스 관리** - 사용 가능한 소프트웨어 라이선스 수와 사용 가능한 라이선스 중 현재 사용 중인 라이선스 수를 추적합니다.
 -   **앱 배포** - 관리하는 PC에 소프트웨어를 배포합니다. 일부 앱 관리 기능은 클라이언트 소프트웨어를 사용하여 PC를 관리하면 사용할 수 없습니다.
@@ -46,11 +46,13 @@ Intune은 다음 Windows 버전(x86 및 x64)을 실행하는 PC를 관리할 수
 
 -   **Windows Vista** - Business, Enterprise 및 Ultimate 버전
 
--   **Windows 7** - Professional, Enterprise 및 Ultimate 버전(서비스 팩 미포함 또는 SP1)
+-   **Windows 7** - Pro, Enterprise 및 Ultimate 버전(서비스 팩 미포함 또는 SP1)
 
--   **Windows 8** - Professional 및 Enterprise 버전
+-   **Windows 8** - Pro 및 Enterprise 버전
 
--   **Windows 8.1** - Professional 및 Enterprise 버전
+-   **Windows 8.1** - Pro 및 Enterprise 버전
+
+- **Windows 10** - Home, Pro, Education 및 Enterprise 버전
 
 
 ## 최소 하드웨어 요구 사항
@@ -72,9 +74,9 @@ Intune은 다음 Windows 버전(x86 및 x64)을 실행하는 PC를 관리할 수
 |호환되지 않는 클라이언트 소프트웨어를 제거합니다.|Intune PC 클라이언트 소프트웨어를 설치하려면 먼저 해당 PC에서 다음 클라이언트 소프트웨어를 제거해야 합니다.<br /><br />-   Configuration Manager의 모든 버전<br />-   Microsoft SMS(Systems Management Server)의 모든 버전|
 
 ### 참고 항목
-[Microsoft Intune의 모바일 장치 관리 기능](/intune/understand/mobile-device-management-capabilties-in-microsoft-intune.md)
+[Microsoft Intune의 모바일 장치 관리 기능](./mobile-device-management-capabilities-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 

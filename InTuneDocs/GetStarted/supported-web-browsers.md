@@ -27,13 +27,12 @@ ms.suite: ems
 
 # Microsoft Intune 지원 웹 브라우저
 
-Intune을 설정하기 전에, 이 항목과 [시작 전에 알아야 할 사항](what-to-know-before-you-start-microsoft-intune.md)에 나열된 요구 사항을 검토합니다..
+Intune을 설정하기 전에, 이 항목과 [What to know before you start](what-to-know-before-you-start-microsoft-intune.md)(시작하기 전에 알아두어야 할 사항) 항목에 나열된 요구 사항을 검토합니다.
 
 |Intune 기능 |지원되는 브라우저|
 |---------|---------|
 |Intune 관리 콘솔     |  Internet Explorer 10 이상<br /><br />Google Chrome(버전 42 이전 버전)<br /><br />Mozilla Firefox <br /><br />**참고:** Edge는 현재 관리 콘솔에서 지원되지 않습니다.                      
-|Intune 계정 포털     | Internet Explorer 10 이상<br /><br />Google Chrome <br /><br />Mozilla Firefox<br /><br />**참고:** Intune 계정 포털을 대체하는 Office 365 관리 포털을 사용하는 경우 브라우저 목록은 아래의 "Office 365 관리 포털"을 참조하세요.    
-|Office 365 관리 포털     |Internet Explorer 10 이상<br /><br />Google Chrome<br /><br />Mozilla Firefox <br /><br />Microsoft Edge  |
+|Office 365 관리 포털     |모든 브라우저  |
 |회사 포털 웹 사이트     |**모바일 장치:** 지원되는 각 플랫폼의 기본 웹 브라우저를 사용합니다.   <br /><br />**Windows PC:** Internet Explorer 10 이상 또는 Microsoft Edge<br /><br />**Mac OS X 10.9 이상:** Apple Safari    |
 
 
@@ -43,6 +42,6 @@ Intune을 설정하기 전에, 이 항목과 [시작 전에 알아야 할 사항
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO4-->
 
 

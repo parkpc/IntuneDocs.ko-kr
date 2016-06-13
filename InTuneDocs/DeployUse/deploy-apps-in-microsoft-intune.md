@@ -1,5 +1,5 @@
 ---
-title: Microsoft Intune에서 앱 배포 | Microsoft Intune
+title: 앱 배포 | Microsoft Intune
 ms.custom: na
 ms.reviewer: na
 ms.service: microsoft-intune
@@ -21,7 +21,7 @@ author: robstackmsft
 
 1. [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에서 **앱** &gt; **앱**을 클릭하여 관리 대상 앱 목록을 표시합니다.
 
-2.  배포할 앱을 선택하고 **배포 관리**를 클릭합니다..
+2.  배포할 앱을 선택하고 **배포 관리**를 클릭합니다.
 
 3.  먼저 *&lt;앱 이름&gt;*대화 상자의 **그룹 선택** 페이지에서 앱을 배포할 사용자 또는 장치 그룹을 선택합니다.
 
@@ -39,7 +39,7 @@ author: robstackmsft
     [모바일 응용 프로그램 관리 정책과 호환되는 Microsoft 앱을 참조하세요.](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)
 
 6. 배포 중인 앱이 Intune VPN 프로필과 호환되는 경우 **VPN 프로필** 페이지가 표시됩니다. 이 페이지에서 배포한 VPN 프로필을 iOS 앱과 연결하도록 선택할 수 있습니다. 앱이 시작되면 VPN 연결이 자동으로 열립니다. VPN 프로필을 사용할 수 있도록 하려면, 사용하도록 설정된 **앱별 VPN** 프로필 설정이 있어야 합니다.
- 프로필과 앱의 연결에 대한 지원을 비롯하여, VPN 프로필을 구성하는 방법에 대한 자세한 내용은 [사용자가 Microsoft Intune에서 VPN 프로필을 사용하여 회사에 연결하도록 지원](vpn-connections-in-microsoft-intune.md)을 참조하세요..
+ 프로필과 앱의 연결에 대한 지원을 비롯하여, VPN 프로필을 구성하는 방법에 대한 자세한 내용은 [사용자가 Microsoft Intune에서 VPN 프로필을 사용하여 회사에 연결하도록 지원](vpn-connections-in-microsoft-intune.md) 항목을 참조하세요.
 
 ## 예제
 
@@ -52,9 +52,9 @@ iOS 장치에 **필요한** 앱을 배포한 경우 사용자는 앱을 설치�
 
 ## 다음 단계
 
-앱을 배포한 후에 진행 상태를 모니터링하려고 합니다. 자세한 내용은 [Microsoft Intune에서 앱 모니터링](monitor-apps-in-microsoft-intune.md)을 참조하세요..
+앱을 배포한 후에 진행 상태를 모니터링하려고 합니다. 자세한 내용은 [Monitor apps in Microsoft Intune](monitor-apps-in-microsoft-intune.md)(Microsoft Intune에서 앱 모니터링) 항목을 참조하세요.
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

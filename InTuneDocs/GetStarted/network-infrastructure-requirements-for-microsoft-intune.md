@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Microsoft Intune의 네트워크 인프라 요구 사항
-Microsoft Intune을 설정하기 전에, 이 항목과 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)에 나열된 요구 사항을 검토합니다..
+Microsoft Intune을 설정하기 전에, 이 항목과 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md) 항목에 나열된 요구 사항을 검토합니다.
 
 이 항목에서는 네트워크 인프라가 Intune 구독을 관리하기 위해 사용 및 관리하는 장치와 클라우드 기반 서비스에서 사용하는 인터넷의 웹 사이트 간에 통신을 전달할 수 있는 요구 사항을 나열합니다.
 
@@ -169,20 +169,10 @@ Microsoft Intune을 설정하기 전에, 이 항목과 [Microsoft Intune을 시�
 또한 Intune 클라이언트에 사용되는 [네트워크 대역폭을 줄이기](network-bandwidth-use.md) 위해 콘텐츠를 캐시하는 프록시 서버를 사용할 수도 있습니다.
 
 
-
-## 서비스 간 커넥터에 대한 요구 사항
-Service to Service Connector는 클라우드 기반 Exchange만 지원하며 온-프레미스 인프라에 대한 요구 사항은 없습니다.
-
-커넥터를 사용하려면 다음 사항을 충족해야 합니다.
-
--   Exchange Server 2013 테넌트를 포함하는 Office 365 구독이 있어야 합니다. 테넌트가 Exchange Server 2013이라면 이 커넥터는 동일한 환경의 Exchange Server 2010을 지원합니다.
-
--   On-Premises Connector를 설치하기 위해 사용하는 사용자 계정은 Intune의 테넌트 관리자여야 하며 Exchange Server 2013을 사용할 수 있는 라이선스가 있는 Exchange 테넌트의 관리자여야 합니다.
-
 ### 참고 항목
 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

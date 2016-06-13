@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune으로 장치의 Microsoft Passport 설정 제어 | Microsoft Intune
+title: 장치의 Microsoft Passport 설정 제어 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -34,11 +34,11 @@ Intune는 다음 두 가지 방법으로 Passport for Work에 통합됩니다.
 
 -   Intune 정책을 사용하여 사용자가 로그인하는 데 사용할 수 있는 제스처와 사용할 수 없는 제스처를 제어할 수 있습니다.
 
--   Passport for Work KSP(키 저장소 공급자)에 인증 인증서를 저장할 수 있습니다. 자세한 정보는 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요..
+-   Passport for Work KSP(키 저장소 공급자)에 인증 인증서를 저장할 수 있습니다. 자세한 정보는 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md) 항목을 참조하세요.
 
 ## Passport for Work 정책을 만들려면
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **Admin** &gt; **모바일 장치 관리** &gt; **Windows** &gt; **Passport for Work**를 클릭하여 아래와 같이 Passport for Work 페이지를 엽니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리자** &gt; **모바일 장치 관리** &gt; **Windows** &gt; **Passport for Work**를 클릭하여 아래와 같이 Passport for Work 페이지를 엽니다.
 
     ![Passport for Work 페이지](../media/passport.png)
 
@@ -47,7 +47,7 @@ Intune는 다음 두 가지 방법으로 Passport for Work에 통합됩니다.
     - **등록된 장치에서 Passport for Work 사용** - 모든 Windows 10 장치에서 Passport for Work 설정을 구성하려는 경우이 설정을 선택합니다.
     - **구성되지 않음** - Passport for Work를 제어하도록 Intune을 사용하지 않으려는 경우 이 설정을 선택합니다. Windows 10 장치에서 기존 Passport for Work 설정이 변경되지 않습니다. 화면의 다른 모든 설정은 비활성화됩니다.
 3.  **등록된 장치에서 Passport for Work 사용**을 선택한 경우 등록된 모든 Windows 10 및 Windows 10 모바일 장치에 적용될 필요한 설정을 구성합니다.
-3.  작업을 마쳤으면 **저장**을 클릭합니다..
+3.  작업을 마쳤으면 **저장**을 클릭합니다.
 
 ## Passport for Work: PIN 설정
 
@@ -57,8 +57,7 @@ Intune는 다음 두 가지 방법으로 Passport for Work에 통합됩니다.
     - **허용** - 사용자는 해당 PIN에 문자 형식을 사용할 수 있지만 필수는 아닙니다.
     - **필수** - 사용자는 PIN에 하나 이상의 문자 형식을 포함해야 합니다. 예를 들어, 일반적으로 하나 이상의 대문자 및 특수 문자가 필요합니다.
     - **허용되지 않음**(기본값) - 사용자는 해당 PIN에 다음과 같은 문자를 사용하지 않아야 합니다(설정이 구성되지 않은 경우에도 이 동작 수행).
-    > [!TIP]
-    > 특수 문자에는 다음이 포함됩니다. **! " # $ % &amp; ' ( ) &#42; + , - . / : ; &lt; = &gt; ? @ [ \ ] ^ _ &#96; { &#124; } ~**.
+    > [!TIP] 특수 문자에는 다음이 포함됩니다. **! " # $ % &amp; ' ( ) &#42; + , - . / : ; &lt; = &gt; ? @ [ \ ] ^ _ &#96; { &#124; } ~**.
 - **PIN 만료(일)** - 최종 사용자가 변경해야 하는 기간 이후에 PIN에 대한 만료 기간을 지정하는 것이 좋습니다. 기본값은 41일입니다. 
 - **PIN 기록 기억** - 이전에 사용한 PIN의 재사용을 제한하려면 이 설정을 사용합니다. 기본적으로 마지막으로 사용한 5개 PIN을 다시 사용할 수 없습니다.
 
@@ -80,6 +79,6 @@ Microsoft Passport에 대한 자세한 내용은 Windows 10 설명서의 [가이
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

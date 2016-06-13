@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune의 Windows Phone 8.1 정책 설정 | Microsoft Intune
+title: Windows Phone 8.1 정책 설정 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -29,11 +29,17 @@ ms.suite: ems
 
 ## 일반 구성 설정
 
-Microsoft Intune **Windows Phone 일반 구성 정책**을 사용하여 Windows Phone 8.1 장치에 대해 다음과 같은 설정을 구성할 수 있습니다.
+Microsoft Intune **Windows Phone 일반 구성 정책(Windows Phone 8.1 이상)**을 사용하여 Windows Phone 8.1 장치에 대해 다음과 같은 설정을 구성할 수 있습니다.
 
 -   **모바일 장치 보안 설정** – 다양한 기능을 제어할 수 있는 미리 정의된 설정 목록에서 선택합니다.
 
 -   **규격 및 비규격 앱** - 회사에서 준수 또는 미준수 앱 목록을 지정합니다. Windows Phone 장치는 이 앱의 설치를 차단하거나 허용할 수 있습니다.
+
+### 적용 가능성 설정
+
+|설정 이름|세부 정보|
+|----------------|----------------------------------|
+|**모든 구성을 Windows 10에 적용**|이 정책의 설정을 Windows Phone 8.1 장치 외에 Windows 10 Mobile 장치에도 적용할 수 있습니다.|
 
 ### 암호 설정
 
@@ -54,7 +60,7 @@ Microsoft Intune **Windows Phone 일반 구성 정책**을 사용하여 Windows 
 
 |설정 이름|세부 정보|Windows Phone 8|Windows Phone 8.1|
 |----------------|-----------------------------------------|
-|**모바일 장치 암호화 필요**|지원되는 모바일 장치의 데이터를 암호화해야 합니다.<br>Windows Phone 8 장치의 경우 이 옵션을 **예**로 설정해야 합니다..|예|예|
+|**모바일 장치 암호화 필요**|지원되는 모바일 장치의 데이터를 암호화해야 합니다.<br>Windows Phone 8 장치의 경우 이 옵션을 **예**로 설정해야 합니다.|예|예|
 
 ### 시스템 설정
 
@@ -121,8 +127,7 @@ Microsoft Intune **Windows Phone 일반 구성 정책**을 사용하여 Windows 
 |**앱 가져오기**|지정한 앱 목록을 쉼표로 구분된 값 파일로 가져옵니다. 파일의 형식, 응용 프로그램 이름, 게시자, 앱 URL을 사용합니다.|
 |**편집**|선택한 앱의 이름, 게시자 및 URL을 편집할 수 있습니다.|
 |**삭제**|목록에서 선택한 앱을 삭제합니다.|
-> [!IMPORTANT]
-> Windows Phone 8.1 장치용으로 사용 가능한 앱 목록을 지정하는 경우 회사 포털 앱을 이 목록에 추가해야 합니다. 그렇지 않으면 앱이 차단됩니다.
+> [!IMPORTANT] Windows Phone 8.1 장치용으로 사용 가능한 앱 목록을 지정하는 경우 회사 포털 앱을 이 목록에 추가해야 합니다. 그렇지 않으면 앱이 차단됩니다.
 
 
 ### 규격 및 비규격 앱에 대한 참조 정보
@@ -134,14 +139,14 @@ Microsoft Intune **Windows Phone 일반 구성 정책**을 사용하여 Windows 
 
 앱 페이지를 열고 클립보드에 URL을 복사합니다. 이제 규격 또는 비규격 앱 목록의 URL로 사용할 수 있습니다.
 
-**예:** Skype 앱의 저장소를 검색합니다. 사용하는 URL이 **http://www.windowsphone.com/ko-kr/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51**이 됩니다..
+**예:** Skype 앱의 저장소를 검색합니다. 사용하는 URL이 **http://www.windowsphone.com/ko-kr/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51**이 됩니다.
 
 ## 사용자 지정 정책 설정 
 Microsoft Intune **Windows Phone 사용자 지정 구성 정책**을 사용하여 **Windows Phone 8.1 장치**에서 기능을 제어하는 데 사용할 수 있는 OMA-URI(Open Mobile Alliance Uniform Resource Identifier) 설정을 배포할 수 있습니다. 이는 많은 모바일 장치 제조업체가 장치 기능을 제어하는 데 사용하는 표준 설정입니다.
 
-이 기능은 Intune 일반 구성 정책으로는 구성할 수 없는 Windows Phone 설정을 배포하도록 허용하는 데 사용됩니다. 이러한 정책을 사용하여 구성할 수 있는 설정에 대한 자세한 내용은 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)를 참조하세요..
+이 기능은 Intune 일반 구성 정책으로는 구성할 수 없는 Windows Phone 설정을 배포하도록 허용하는 데 사용됩니다. 이러한 정책을 사용하여 구성할 수 있는 설정에 대한 자세한 내용은 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md) 항목을 참조하세요.
 
-Windows Phone 장치에 대한 OMA-URI 설정 만들기에 대한 도움이 필요하면 [Windows Phone 8.1 MDM 프로토콜 설명서](http://technet.microsoft.com/library/dn499787.aspx)를 참조하세요..
+Windows Phone 장치에 대한 OMA-URI 설정 만들기에 대한 도움이 필요하면 [Windows Phone 8.1 MDM 프로토콜 설명서](http://technet.microsoft.com/library/dn499787.aspx)를 참조하세요.
 
 ### 일반 설정
 
@@ -169,6 +174,6 @@ Windows Phone 장치에 대한 OMA-URI 설정 만들기에 대한 도움이 필�
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

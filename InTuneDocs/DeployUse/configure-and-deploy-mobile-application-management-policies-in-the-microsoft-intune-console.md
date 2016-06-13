@@ -34,18 +34,17 @@ Microsoft Intune의 모바일 응용 프로그램 관리 정책을 사용하여 
 
 -   iOS 7 이상을 실행하는 장치
 
-> [!TIP]
-> 모바일 응용 프로그램 관리 정책에서는 Intune으로 등록된 장치를 지원합니다.
-> 
-> Intune에서 관리되지 않는 장치의 앱 관리 정책을 만드는 방법에 대한 정보를 찾으려는 경우 [Microsoft Intune으로 모바일 앱 관리 정책을 사용하여 앱 데이터 보호](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)를 참조하세요..
+> [!TIP] 모바일 응용 프로그램 관리 정책에서는 Intune으로 등록된 장치를 지원합니다.
+>
+> Intune에서 관리되지 않는 장치의 앱 관리 정책을 만드는 방법에 대한 정보를 찾으려는 경우 [Protect app data using mobile app management policies with Microsoft Intune](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)(Microsoft Intune으로 모바일 앱 관리 정책을 사용하여 앱 데이터 보호) 항목을 참조하세요.
 
 다른 Intune 정책과는 달리 모바일 응용 프로그램 관리 정책은 직접 배포하지 않고 대신 제한할 앱에 해당 정책을 연결합니다. 장치에서 앱을 배포하고 설치하면 지정한 설정이 적용됩니다.
 
 앱에 제한을 적용하려면 Microsoft 앱 SDK(소프트웨어 개발 키트)를 통합해야 합니다. 이러한 유형의 앱은 두 가지 방법으로 얻을 수 있습니다.
 
--   **정책 관리된 앱 사용** – 앱 SDK가 기본으로 제공됩니다. 이 유형의 앱을 추가하려면 iTunes 스토어, Google Play 등의 앱 스토어에 있는 앱의 링크를 지정합니다. 이러한 앱 유형은 추가로 처리할 필요가 없습니다. [Microsoft Intune 모바일 응용 프로그램 관리 정책과 함께 사용할 수 있는 앱](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx) 목록을 참조하세요..
+-   **정책 관리된 앱 사용** – 앱 SDK가 기본으로 제공됩니다. 이 유형의 앱을 추가하려면 iTunes 스토어, Google Play 등의 앱 스토어에 있는 앱의 링크를 지정합니다. 이러한 앱 유형은 추가로 처리할 필요가 없습니다. [Microsoft Intune 모바일 응용 프로그램 관리 정책과 함께 사용할 수 있는 앱](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx) 목록을 참조하세요.
 
--   **'래핑된' 앱 사용** - **Microsoft Intune 앱 래핑 도구**를 사용하여 앱 SDK를 포함하도록 다시 패키지된 앱입니다. 이 도구는 일반적으로 사내에서 작성된 회사 앱을 처리하는 데 사용되며, 앱 스토어에서 다운로드한 앱을 처리하는 데 사용할 수는 없습니다. [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 iOS 앱 준비](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) 및 [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 Android 앱 준비](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)를 참조하세요..
+-   **'래핑된' 앱 사용** - **Microsoft Intune 앱 래핑 도구**를 사용하여 앱 SDK를 포함하도록 다시 패키지된 앱입니다. 이 도구는 일반적으로 사내에서 작성된 회사 앱을 처리하는 데 사용되며, 앱 스토어에서 다운로드한 앱을 처리하는 데 사용할 수는 없습니다. [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 iOS 앱 준비](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) 및 [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 Android 앱 준비](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) 항목을 참조하세요.
 
 iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 지원합니다. 즉, Intune은 회사 계정 또는 앱의 데이터에만 관리 설정을 적용합니다.
 
@@ -57,8 +56,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 �
 
 -   사용한 회사 계정은 Intune으로 장치를 등록하는 데 사용한 계정과 같아야 합니다.
 
-> [!TIP]
-> 구성 관리자에서 Intune을 사용하는 경우 [Configuration Manager에서 모바일 응용 프로그램 관리 정책을 사용하여 앱을 제어하는 방법](https://technet.microsoft.com/library/mt131414.aspx)을 참조하세요..
+> [!TIP] 구성 관리자에서 Intune을 사용하는 경우 [Configuration Manager에서 모바일 응용 프로그램 관리 정책을 사용하여 앱을 제어하는 방법](https://technet.microsoft.com/library/mt131414.aspx) 항목을 참조하세요.
 
 ## 모바일 응용 프로그램 관리 정책을 사용하여 앱 만들기 및 배포
 
@@ -87,11 +85,11 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 �
 
 #### 정책으로 관리되는 앱을 게시하려면
 
-1.  클라우드 저장소 공간에 앱을 업로드할 준비가 되면 [Microsoft Intune에서 모바일 장치에 앱 추가](add-apps-for-mobile-devices-in-microsoft-intune.md)의 지침을 따릅니다..
+1.  클라우드 저장소 공간에 앱을 업로드할 준비가 되면 [Add apps for mobile devices in Microsoft Intune](add-apps-for-mobile-devices-in-microsoft-intune.md)(Microsoft Intune에서 모바일 장치에 앱 추가) 항목의 지침을 따릅니다.
 
-2.  iOS 앱의 경우 **이 소프트웨어를 장치에 제공할 방법 선택**에서 **앱 스토어에서 관리되는 iOS 앱**을 선택합니다..
+2.  iOS 앱의 경우 **이 소프트웨어를 장치에 제공할 방법 선택**에서 **앱 스토어에서 관리되는 iOS 앱**을 선택합니다.
 
-    Android 앱의 경우에는 **외부 링크**를 선택합니다..
+    Android 앱의 경우에는 **외부 링크**를 선택합니다.
 
 3.  이전 단계에서 적어 둔 정책으로 관리되는 앱의 URL을 **URL 지정**에 입력합니다.
 
@@ -101,11 +99,11 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 �
 
 #### Microsoft Intune 앱 래핑 도구를 사용하여 처리한 앱을 게시하려면
 
-1.  클라우드 저장소 공간에 앱을 업로드할 준비가 되면 [Microsoft Intune에서 모바일 장치에 앱 추가](add-apps-for-mobile-devices-in-microsoft-intune.md)의 지침을 따릅니다..
+1.  클라우드 저장소 공간에 앱을 업로드할 준비가 되면 [Add apps for mobile devices in Microsoft Intune](add-apps-for-mobile-devices-in-microsoft-intune.md)(Microsoft Intune에서 모바일 장치에 앱 추가) 항목의 지침을 따릅니다.
 
-2.  **이 소프트웨어를 장치에 제공할 방법 선택**에서 **소프트웨어 설치 관리자**를 선택합니다..
+2.   **이 소프트웨어를 장치에 제공할 방법 선택**에서 **소프트웨어 설치 관리자**를 선택합니다.
 
-3.  **소프트웨어 설치 관리자 파일 형식**에서 **iOS용 앱 패키지(&#42;.ipa 파일)**를 선택합니다..
+3.  **소프트웨어 설치 관리자 파일 형식**에서 **iOS용 앱 패키지(&#42;.ipa 파일)**를 선택합니다.
 
 업로드가 완료되면 업로드한 앱의 **소프트웨어 속성** 페이지에서 **앱 관리 정책** 에 **예** 가 표시됩니다.
 
@@ -113,7 +111,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 �
 
 ## **3단계:** 모바일 응용 프로그램 관리 정책을 만듭니다.
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **개요** &gt; **정책 추가**를 클릭합니다..
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **개요** &gt; **정책 추가**를 클릭합니다.
 
 2.  앱을 구성할 장치 유형에 따라 다음 **소프트웨어** 정책 중 하나를 구성하고 배포합니다.
 
@@ -121,7 +119,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 �
 
     -   **모바일 응용 프로그램 관리 정책(iOS 7 이상)**
 
-    권장 설정을 사용하거나 설정을 사용자 지정할 수 있습니다. 자세한 내용은 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)를 참조하세요..
+    권장 설정을 사용하거나 설정을 사용자 지정할 수 있습니다. 자세한 내용은 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md) 항목을 참조하세요.
 
 3.  필요한 다음 설정을 구성합니다. 정책을 구성하는 장치 유형에 따라 옵션은 달라질 수 있습니다.
 
@@ -141,21 +139,20 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 �
     |**액세스 시 회사 정책을 준수하는 장치 필요**|장치를 무단 해제하거나 루팅하지 않은 경우에만 앱을 사용할 수 있습니다.|
     |**액세스 요구 사항을 다시 확인할 시간(분)**| **제한 시간** 필드에 앱 실행 후 앱의 액세스 요구 사항을 다시 확인하기 전까지의 기간을 지정합니다.|
     |**오프라인 유예 기간**|장치가 오프라인 상태인 경우 앱의 액세스 요구 사항을 다시 확인하기 전까지의 기간을 지정합니다.|
-    |**앱 데이터 암호화**|SD 카드 등 외부 위치에 저장된 데이터를 비롯하여 이 앱과 연결된 모든 데이터를 암호화하도록 지정합니다.<br /><br />**iOS용 암호화**<br /><br />Intune 모바일 응용 프로그램 관리 정책과 연결된 앱의 경우 데이터는 OS에서 제공하는 장치 수준 암호화를 사용하여 암호화된 상태로 보관됩니다. 이러한 암호화는 IT 관리자가 설정해야 하는 장치 PIN 정책을 통해 사용하도록 설정됩니다. PIN이 필요한 경우에는 모바일 응용 프로그램 관리 정책의 설정에 따라 데이터가 암호화됩니다. Apple 설명서에 나와 있는 것처럼 [iOS 7에서 사용하는 모듈은 FIPS 140-2의 인증을 받았습니다](http://support.apple.com/en-us/HT202739)..<br /><br />**Android용 암호화**<br /><br />Intune 모바일 응용 프로그램 관리 정책과 연결된 앱의 경우에는 Microsoft에서 암호화 기능을 제공합니다. 데이터는 모바일 응용 프로그램 관리 정책의 설정에 따라 파일 I/O 작업 중에 동기식으로 암호화됩니다. Android의 관리되는 앱은 플랫폼 암호화 라이브러리를 통해 CBC 모드에서 AES-128 암호화를 사용합니다. 이 암호화 방법은 FIPS 140-2의 인증을 받지 않았습니다. 장치 저장소의 콘텐츠는 항상 암호화됩니다.|
+    |**앱 데이터 암호화**|SD 카드 등 외부 위치에 저장된 데이터를 비롯하여 이 앱과 연결된 모든 데이터를 암호화하도록 지정합니다.<br /><br />**iOS용 암호화**<br /><br />Intune 모바일 응용 프로그램 관리 정책과 연결된 앱의 경우 데이터는 OS에서 제공하는 장치 수준 암호화를 사용하여 암호화된 상태로 보관됩니다. 이러한 암호화는 IT 관리자가 설정해야 하는 장치 PIN 정책을 통해 사용하도록 설정됩니다. PIN이 필요한 경우에는 모바일 응용 프로그램 관리 정책의 설정에 따라 데이터가 암호화됩니다. Apple 설명서에 나와 있는 것처럼 [iOS 7에서 사용하는 모듈은 FIPS 140-2의 인증을 받았습니다](http://support.apple.com/en-us/HT202739).<br /><br />**Android용 암호화**<br /><br />Intune 모바일 응용 프로그램 관리 정책과 연결된 앱의 경우에는 Microsoft에서 암호화 기능을 제공합니다. 데이터는 파일 I/O를 작업하는 동안 동기적으로 암호화됩니다.  장치 저장소의 콘텐츠는 항상 암호화됩니다. 이 암호화 방법은 FIPS 140-2의 인증을 받지 않았습니다.|
     |**화면 캡처 차단** (Android 장치에만 해당)|이 앱을 사용할 때 장치의 화면 캡처 기능을 차단하도록 지정합니다.|
 
-4.  작업이 끝나면 **정책 저장**을 클릭합니다..
+4.  작업이 끝나면 **정책 저장**을 클릭합니다.
 
 새 정책이 **정책** 작업 영역의 **구성 정책** 노드에 표시됩니다.
 
 ## **4단계:** 앱을 모바일 응용 프로그램 관리 정책에 연결한 다음 배포합니다.
 앱을 배포하고서, **모바일 앱 관리** 페이지에서 모바일 응용 프로그램 관리 정책을 선택하여 해당 정책이 앱에 연결되었는지 확인합니다.
 
-자세한 내용은 [Microsoft Intune에서 앱 배포](deploy-apps.md)를 참조하세요..
+자세한 내용은 [Microsoft Intune에서 앱 배포](deploy-apps.md) 항목을 참조하세요.
 
-> [!IMPORTANT]
-> iOS 7.1 이전 운영 체제를 실행하는 장치의 경우에는 앱을 제거해도 연결된 정책이 제거되지 않습니다.
-> 
+> [!IMPORTANT] iOS 7.1 이전 운영 체제를 실행하는 장치의 경우에는 앱을 제거해도 연결된 정책이 제거되지 않습니다.
+>
 > Intune에서 장치 등록을 취소해도 정책은 앱에서 제거되지 않으며, 정책이 적용되었던 앱은 제거했다가 다시 설치해도 정책 설정이 그대로 유지됩니다.
 
 ### 앱을 장치에 이미 배포한 경우 수행할 작업
@@ -165,15 +162,14 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 �
 
 그러나 iOS 9 이상을 실행하는 장치의 경우 Intune에서는 기존 앱 관리를 수행할 권한을 제공할 것인지를 사용자에게 묻는 메시지를 자동으로 표시합니다. 사용자가 권한 제공에 동의하면 앱은 Intune에서 관리되며, 해당 앱과 연결한 모바일 응용 프로그램 관리 정책도 적용됩니다.
 
-> [!TIP]
-> 장치가 감독 모드인 경우 Intune에서는 사용자에게 권한을 요청하지 않고 기존 앱을 관리합니다.
+> [!TIP] 장치가 감독 모드인 경우 Intune에서는 사용자에게 권한을 요청하지 않고 기존 앱을 관리합니다.
 
 ## **5단계:** 앱 배포를 모니터링합니다.
 모바일 응용 프로그램 관리 정책과 연결된 앱을 만들고 배포한 후에는 다음 절차에 따라 앱을 모니터링하고 정책 충돌을 해결합니다.
 
 #### 배포 상태를 보려면
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **그룹** &gt; **개요**를 클릭합니다..
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **그룹** &gt; **개요**를 클릭합니다.
 
 2.  다음 단계 중 하나를 수행합니다.
 
@@ -201,9 +197,6 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 �
 -   장치에 아직 배포된 정책이 없는 상태에서 충돌하는 두 설정이 배포되면 장치에서 기본 제공되는 설정이 사용됩니다.
 
 
-
-
-
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리| Microsoft Intune
+title: 정책을 사용하여 장치의 설정 및 기능 관리 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -35,33 +35,32 @@ Intune 정책은 다음과 같은 범주로 분류됩니다. 사용하는 범주
 
 - **구성 정책:** 장치에 대한 보안 설정 및 기능을 관리하는 데 널리 사용됩니다. 이 항목의 정보를 사용하여 이러한 정책을 만들고 배포하는 방법에 대해 알아보고 사용 가능한 설정을 탐색할 수 있습니다.
 - **장치 준수 정책:** 조건부 액세스 정책을 준수하는 것으로 간주되기 위해 장치가 준수해야 하는 규칙 및 설정을 정의합니다. 준수 정책을 사용하여 조건부 액세스와 독립적으로 장치의 준수를 모니터링하고 수정할 수도 있습니다.
-자세한 내용은 [Microsoft Intune의 장치 준수 정책](introduction-to-device-compliance-policies-in-microsoft-intune.md)을 참조하세요..
+자세한 내용은 [Microsoft Intune의 장치 준수 정책](introduction-to-device-compliance-policies-in-microsoft-intune.md) 항목을 참조하세요.
 - **조건부 액세스 정책:** 지정하는 조건에 따라 전자 메일 및 기타 서비스를 보호하는 데 도움이 됩니다.
-자세한 내용은 [Microsoft Intune을 사용한 메일 및 O365 서비스 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)을 참조하세요..
-- **회사 장치 등록 정책:** 회사 장치 등록 정책에 대한 자세한 내용은 [Microsoft Intune을 사용하여 iOS 및 Mac 관리 설정](set-up-ios-and-mac-management-with-microsoft-intune.md)을 참조하세요..
+자세한 내용은 [Microsoft Intune을 사용한 메일 및 O365 서비스 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 항목을 참조하세요.
+- **회사 장치 등록 정책:** 회사 장치 등록 정책에 대한 자세한 내용은 [Microsoft Intune을 사용하여 iOS 및 Mac 관리 설정](set-up-ios-and-mac-management-with-microsoft-intune.md) 항목을 참조하세요.
 - **리소스 액세스 정책:** 이 정책 그룹은 함께 작동하여 사용자가 어디에 있든지 상관없이 정상적인 작업 수행에 필요한 파일 및 리소스에 쉽게 액세스하게 해 줍니다.
-자세한 내용은 [Microsoft Intune을 사용하여 회사 리소스에 대한 액세스 허용](enable-access-to-company-resources-with-microsoft-intune.md)을 참조하세요..
+자세한 내용은 [Microsoft Intune을 사용하여 회사 리소스에 대한 액세스 허용](enable-access-to-company-resources-with-microsoft-intune.md) 항목을 참조하세요.
 
 
-Intune 정책 목록에 대한 자세한 내용은 [Microsoft Intune 정책 참조](microsoft-intune-policy-reference.md)를 참조하세요..
+Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](microsoft-intune-policy-reference.md) 항목을 참조하세요.
 
 
 
 
 ## 구성 정책 만들기
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **정책** &gt; **구성 정책** &gt; **추가**를 클릭합니다..
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **정책** &gt; **구성 정책** &gt; **추가**를 클릭합니다.
 
 2.  원하는 정책을 선택합니다. 해당 정책에 권장되는 설정을 사용하거나(사용 가능한 경우. 나중에 이러한 설정을 변경할 수 있음) 원하는 설정으로 사용자 지정 정책을 만들 수 있습니다.
 
-    > [!TIP]
-    > 올바른 정책을 선택하기 위해 도움이 필요하면 [Microsoft Intune 정책 참조](microsoft-intune-policy-reference.md)를 참조하세요..
+    > [!TIP] 올바른 정책을 선택하는 데 도움이 필요하면 [Microsoft Intune 정책 참조](microsoft-intune-policy-reference.md) 항목을 참조하세요.
 
-3.  준비가 되면 **정책 만들기**를 클릭합니다..
+3.  준비가 되면 **정책 만들기**를 클릭합니다.
 
-4.  **정책 만들기** 화면에서 정책의 이름과 설명(옵션)을 구성합니다.
+4.   **정책 만들기** 화면에서 정책의 이름과 설명(옵션)을 구성합니다.
 
-5.  필요한 정책 설정을 구성하고 **정책 저장**을 클릭합니다..
+5.  필요한 정책 설정을 구성하고 **정책 저장**을 클릭합니다.
 
     어떤 정책 설정이든 도움이 필요하면 다음 목록에서 정책 유형을 선택 합니다.
 
@@ -90,13 +89,13 @@ Intune 정책 목록에 대한 자세한 내용은 [Microsoft Intune 정책 참�
 
 ## 구성 정책 배포
 
-1.  **정책** 작업 영역에서 배포할 정책을 선택하고 **배포 관리**를 클릭합니다..
+1.   **정책** 작업 영역에서 배포할 정책을 선택하고 **배포 관리**를 클릭합니다.
 
-2.  **배포 관리** 대화 상자에서
+2.   **배포 관리** 대화 상자에서
 
-    -   **정책을 배포하려면** - 정책을 배포하려는 그룹을 하나 이상 선택하고 **추가** &gt; **확인**을 클릭합니다..
+    -   **정책을 배포하려면** - 정책을 배포하려는 그룹을 하나 이상 선택한 후 **추가** &gt; **확인**을 클릭합니다.
 
-    -   **정책을 배포하지 않고 대화 상자를 닫으려면** - **취소**를 클릭합니다..
+    -   **정책을 배포하지 않고 대화 상자를 닫으려면** - **취소**를 클릭합니다.
 
 배포한 정책을 선택하면 정책 목록 아래쪽에서 배포에 대한 추가 정보를 볼 수 있습니다.
 
@@ -108,7 +107,7 @@ Intune 정책 목록에 대한 자세한 내용은 [Microsoft Intune 정책 참�
 
 - **편집** - 선택한 정책의 속성을 열어 변경합니다.
 - **삭제** - 선택한 정책을 삭제합니다.<br>정책을 삭제한 경우 배포된 모든 그룹에서 해당 정책이 삭제됩니다.
-- **배포 관리** - 정책을 배포할 그룹을 선택하고 **추가**를 클릭합니다..
+- **배포 관리** - 정책을 배포할 그룹을 선택하고 **추가**를 클릭합니다.
 
 ## Intune 정책에 대한 작업
 
@@ -116,11 +115,11 @@ Intune 정책 목록에 대한 자세한 내용은 [Microsoft Intune 정책 참�
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **그룹**을 클릭한 후 장치 그룹을 선택합니다.
 
-2.  정책을 새로 고칠 장치를 선택한 후 **원격 작업** &gt; **정책 새로 고침**을 클릭합니다..
+2.  정책을 새로 고칠 장치를 선택한 후 **원격 작업** &gt; **정책 새로 고침**을 클릭합니다.
 
 3.  Intune 관리 콘솔의 오른쪽 아래에서 **원격 작업**을 클릭하여 작업 상태를 확인합니다.
 
-## Intune 정책에 대한 참조 정보
+## Intune 정책에 대한 질문과 대답
 
 ### 정책 또는 앱을 배포한 후 모바일 장치에서 해당 정책 또는 앱을 수신할 때까지 걸리는 시간
 정책 또는 앱을 배포하면 Intune에서는 Intune 서비스에 체크 인해야 한다는 알림을 장치에 즉시 보내기 시작합니다. 이 과정은 대개 5분 이내에 완료됩니다.
@@ -132,7 +131,8 @@ Intune 정책 목록에 대한 자세한 내용은 [Microsoft Intune 정책 참�
 - iOS - 6시간마다
 - Android - 8시간마다
 - Windows Phone - 8시간마다
-- 장치로 등록된 Windows PC - 24시간마다
+- 등록된 Windows RT 장치 - 24시간마다
+- 장치로 등록된 Windows 8.1 및 Windows 10 PC - 8시간마다
 
 장치를 방금 등록한 경우에는 다음과 같이 체크 인 빈도가 더 높아집니다.
 
@@ -172,7 +172,7 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI 정책 페이로�
 
 따라서 사용자 지정 정책을 배포할 때는 구성된 설정이 준수, 구성 또는 기타 사용자 지정 정책과 충돌하지 않는지 확인해야 합니다. 설정이 충돌하는 사용자 지정 정책에서는 설정이 임의 순서에 따라 적용됩니다.
 
-### 정책이 삭제되거나 더 이상 적용할 수 없는 경우 발생하는 결과
+### 정책이 삭제되거나 더 이상 적용할 수 없는 경우 어떻게 되나요?
 정책을 삭제하거나 정책이 배포된 그룹에서 장치를 제거하면, 정책 및 설정이 다음 테이블에 따라 장치에서 제거됩니다.
 
 #### 등록된 장치
@@ -214,15 +214,15 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI 정책 페이로�
 
 #### Intune 클라이언트 소프트웨어를 실행하는 Windows PC
 
-- **Endpoint Protection 설정** - 설정이 원래 권장 값으로 복원됩니다. 유일한 예외는 기본값이 **아니요** 인 **Microsoft 활성 보호 서비스에 가입**설정입니다. 자세한 내용은 [Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)을 참조하세요..
-- **소프트웨어 업데이트 설정** - 설정이 운영 체제의 기본 상태로 다시 설정됩니다. 자세한 내용은 [Microsoft Intune에서 소프트웨어 업데이트를 사용하여 Windows PC를 최신 상태로 유지](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)를 참조하세요..
+- **Endpoint Protection 설정** - 설정이 원래 권장 값으로 복원됩니다. 유일한 예외는 기본값이 **아니요** 인 **Microsoft 활성 보호 서비스에 가입**설정입니다. 자세한 내용은 [Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md) 항목을 참조하세요.
+- **소프트웨어 업데이트 설정** - 설정이 운영 체제의 기본 상태로 다시 설정됩니다. 자세한 내용은 [Microsoft Intune에서 소프트웨어 업데이트를 사용하여 Windows PC를 최신 상태로 유지](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md) 항목을 참조하세요.
 - **Microsoft Intune Center 설정** - 정책에서 구성된 모든 지원 연락처 정보가 컴퓨터에서 삭제됩니다.
-- **Windows 방화벽 설정** - 설정이 컴퓨터 운영 체제의 기본값으로 다시 설정됩니다. 자세한 내용은 [Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)을 참조하세요..
+- **Windows 방화벽 설정** - 설정이 컴퓨터 운영 체제의 기본값으로 다시 설정됩니다. 자세한 내용은 [Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md) 항목을 참조하세요.
 
 
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 

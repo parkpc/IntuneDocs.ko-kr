@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성 | Microsoft Intune
+title: 모바일 앱 구성 정책을 사용하여 iOS 앱 구성 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -42,19 +42,18 @@ Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 
 
 사용자 및 장치에 이러한 정책을 직접 배포하지는 않으며, 대신 앱에 정책을 연결한 다음 앱을 배포합니다. 정책 설정은 앱에서 해당 설정을 확인할 때마다(일반적으로는 앱을 처음 실행할 때) 사용됩니다.
 
-> [!TIP]
-> 이 정책 유형은 현재 iOS 7.1 이상을 실행하는 장치에서만 사용 가능하며, 다음과 같은 앱 설치 유형을 지원합니다.
+> [!TIP] 이 정책 유형은 현재 iOS 7.1 이상을 실행하는 장치에서만 사용 가능하며, 다음과 같은 앱 설치 유형을 지원합니다.
 > 
 > -   **앱 스토어에서 관리되는 iOS 앱**
 > -   **iOS용 앱 패키지**
 > 
-> 앱 설치 유형에 대한 자세한 내용은 [Microsoft Intune을 사용하여 앱 배포](deploy-apps.md)를 참조하세요..
+> 앱 설치 유형에 대한 자세한 내용은 [Microsoft Intune을 사용하여 앱 배포](deploy-apps.md) 항목을 참조하세요.
 
 ## 모바일 앱 구성 정책 구성
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **개요** &gt; **정책 추가**를 클릭합니다..
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **개요** &gt; **정책 추가**를 클릭합니다.
 
-2.  정책 목록에서 **iOS**를 확장하고 **모바일 앱 구성**을 클릭한 다음 **정책 만들기**를 클릭합니다..
+2.  정책 목록에서 **iOS**를 확장하고 **모바일 앱 구성**을 클릭한 다음 **정책 만들기**를 클릭합니다.
 
     > [!TIP]
     > 이 정책 유형에는 사용자 지정 설정만 구성할 수 있습니다. 권장 설정은 사용할 수 없습니다.
@@ -63,33 +62,24 @@ Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 
 
 4.  해당 페이지의 **모바일 앱 구성 정책** 섹션에서 원하는 앱 구성 설정이 포함된 XML 속성 목록을 상자에 입력하거나 붙여넣습니다.
 
-    > [!TIP]
-    > XML 속성 목록에 대한 자세한 내용은 iOS 개발자 라이브러리의 [XML 속성 목록 이해](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html)를 참조하세요.
+    > [!TIP] XML 속성 목록에 대한 자세한 내용은 iOS Developer Library의 [Understanding XML Property Lists](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html)(XML 속성 목록 이해) 항목을 참조하세요.
     > 
     > XML 속성 목록의 형식은 구성하는 앱에 따라 달라집니다. 사용해야 하는 정확한 형식에 대한 자세한 내용은 앱 공급업체에 문의하세요.
     > 
     > Intune에서는 속성 목록에서 다음과 같은 데이터 형식을 지원합니다.
     > 
-    > &lt;integer&gt;
-    > &lt;real&gt;
-    > &lt;string&gt;
-    > &lt;array&gt;
+    > &lt;정수&gt;
+    > &lt;실수&gt;
+    > &lt;문자열&gt;
+    > &lt;배열&gt;
     > &lt;dict&gt;
     > &lt;true /&gt; 또는 &lt;false /&gt;
     > 
-    > 데이터 형식에 대한 자세한 내용은 iOS 개발자 라이브러리의 [속성 목록 정보](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/AboutPropertyLists/AboutPropertyLists.html) 를 참조하세요.
+    > 데이터 형식에 대한 자세한 내용은 iOS Developer Library의 [속성 목록 정보](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/AboutPropertyLists/AboutPropertyLists.html) 를 참조하세요.
     >
         > 또한 Intune에서는 속성 목록에서 다음과 같은 토큰 형식을 지원합니다.
     >    
-    > \{\{userprincipalname\}\} - (예: **John@contoso.com**)
-    > \{\{mail\}\} - (예: **John@contoso.com**)
-    > \{\{partialupn\}\} - (예: **John**))
-    > \{\{accountid\}\} - (예: **fc0dc142-71d8-4b12-bbea-bae2a8514c81**)
-    > \{\{deviceid\}\} - (예: **b9841cd9-9843-405f-be28-b2265c59ef97**)
-    > \{\{userid\}\} - (예: **3ec2c00f-b125-4519-acf0-302ac3761822**)
-    > \{\{username\}\} - (예: **John Doe**)
-    > \{\{serialnumber\}\} - (예: **F4KN99ZUG5V2**)(iOS 장치)
-    > \{\{serialnumberlast4digits\}\} - (예: **G5V2**)(iOS 장치)
+    > \{\{userprincipalname\}\} - (예: **John@contoso.com**) \{\{mail\}\} - (예: **John@contoso.com**) \{\{partialupn\}\} - (예: **John**) \{\{accountid\}\} - (예: **fc0dc142-71d8-4b12-bbea-bae2a8514c81**) \{\{deviceid\}\} - (예: **b9841cd9-9843-405f-be28-b2265c59ef97**) \{\{userid\}\} - (예: **3ec2c00f-b125-4519-acf0-302ac3761822**) \{\{username\}\} - (예: **John Doe**) \{\{serialnumber\}\} - (iOS 장치의 경우 예: **F4KN99ZUG5V2**) \{\{serialnumberlast4digits\}\} - (iOS 장치의 경우 예: **G5V2**)
 >
 > \{\{ 및 \}\} 문자는 토큰 형식에만 사용되며 다른 용도로 사용하면 안 됩니다.
 
@@ -101,7 +91,7 @@ Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 
     > [!IMPORTANT]
     > **유효성 검사**를 클릭하면 Intune에서는 입력한 XML이 올바른 형식인지 확인합니다. 그러나 해당 XML 속성 목록이 연결된 앱에서 작동하는지는 확인하지 않습니다.
 
-6.  완료되면 **정책 저장**을 클릭합니다..
+6.  완료되면 **정책 저장**을 클릭합니다.
 
 새 정책이 **구성 정책** 노드에 표시됩니다.
 
@@ -114,8 +104,7 @@ Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 
 
 배포된 앱은 장치에서 실행하면 모바일 앱 구성 정책에서 구성한 설정을 사용하여 실행됩니다.
 
-> [!TIP]
-> 하나 이상의 모바일 앱 구성 정책이 충돌하는 경우에는 모든 정책이 적용되지 않으며 Intune 관리 콘솔 **대시보드**에 충돌 내용이 보고됩니다..
+> [!TIP] 하나 이상의 모바일 앱 구성 정책이 충돌하는 경우에는 모든 정책이 적용되지 않으며 Intune 관리 콘솔 **대시보드**에 충돌 내용이 보고됩니다.
 
 ## 모바일 앱 구성 XML 파일의 형식 예
 
@@ -150,6 +139,6 @@ Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

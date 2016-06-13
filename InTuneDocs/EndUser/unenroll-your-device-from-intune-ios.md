@@ -15,7 +15,7 @@ ms.assetid: 28914db1-3e62-45f5-9632-b0d2a808a44d
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -34,7 +34,7 @@ Intune에서 장치 등록을 취소하려면 다음 단계를 따르거나 이 
 
 1.  회사 포털 앱의 **내 장치**아래에서 등록을 취소할 장치를 선택합니다.
 
-2.  **제거** &gt; **제거**를 탭합니다..
+2.  **제거** &gt; **제거**를 탭합니다.
 
 Intune에서 장치를 등록 취소하면 다음과 같은 일이 발생합니다.
 
@@ -57,6 +57,6 @@ Intune에서 장치를 등록 취소하면 다음과 같은 일이 발생합니�
 ### 참고 항목
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

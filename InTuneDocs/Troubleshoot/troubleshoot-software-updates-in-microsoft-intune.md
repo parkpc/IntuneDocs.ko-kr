@@ -30,7 +30,7 @@ ms.suite: ems
 
 이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
 
-다음 표에는 Intune **업데이트 에이전트** 오류 코드가 정리되어 있습니다. 이 표에서 특정 오류 코드를 찾을 수 없는 경우 [Windows Update Agent Result Codes(Windows 업데이트 에이전트 결과 코드)](http://go.microsoft.com/fwlink/?LinkID=221542)를 참조하십시오..
+다음 표에는 Intune **업데이트 에이전트** 오류 코드가 정리되어 있습니다. 이 표에서 특정 오류 코드를 찾을 수 없는 경우 [Windows Update Agent Result Codes(Windows 업데이트 에이전트 결과 코드)](http://go.microsoft.com/fwlink/?LinkID=221542)를 참조하십시오.
 
 |오류 코드|심볼 이름|추가 정보|
 |--------------|-----------------|--------------------|
@@ -249,25 +249,25 @@ ms.suite: ems
 - Microsoft 관리 콘솔에 대한 보고가 갑자기 중단됩니다.  
 - CPU 사용률이 높아집니다.
 - Intune 포털을 통해 설치하는 경우, 응용 프로그램이 느리게 설치됩니다. 
-- Microsoft Intune Center에서 다음과 같은 오류가 트리거됩니다. 컴퓨터를 업데이트하는 동안 오류가 발생했습니다. 발견된 오류: 코드 0x800705b4.
-- Intune 관리 콘솔 > 그룹 > 모든 장치 아래 상태 필드에 다음 메시지가 표시됩니다. 이 컴퓨터에 설치된 하나 이상의 에이전트에서 오류가 발생했습니다. 이 컴퓨터에 대한 정보는 정확하지 않거나 최신 상태가 아닐 수 있습니다..
+- Microsoft Intune Center에서 다음과 같은 오류가 트리거됩니다. *컴퓨터를 업데이트하는 동안 오류가 발생했습니다. 발견된 오류: 코드 0x800705b4*.
+- Intune 관리 콘솔 > 그룹 > 모든 장치 아래 상태 필드에 다음 메시지가 표시됩니다. *이 컴퓨터에 설치된 하나 이상의 에이전트에서 오류가 발생했습니다. 이 컴퓨터에 대한 정보는 정확하지 않거나 최신 상태가 아닐 수 있습니다*.
 
 이 문제는 대체된 업데이트(다른 업데이트에 의해 대체된 업데이트)가 오랜 기간 동안 거부되지 않은 경우에 발생할 수 있습니다. 특정한 프로세스(예: 응용 프로그램 설치)가 진행되는 동안, Windows는 업데이트 및 그 후속 작업이 올바르게 매핑될 수 있도록, 대체된 모든 업데이트를 순서대로 확인합니다. 대체된 업데이트 목록이 너무 커지면, 이러한 확인 작업에 필요한 시간 및 처리 부하로 인해 CPU 사용률이 높아질 수 있습니다. 이 문제는 Windows 7에 제공되는 대체된 업데이트의 수가 많기 때문에 주로 Windows 7을 실행하는 클라이언트에 영향을 미칩니다. Windows 8 이상의 운영 체제에는 대체된 업데이트가 그만큼 많지 않기 때문에 이러한 문제의 영향을 덜 받습니다.
 
 **해결 방법**: 이 문제를 해결하려면 다음 단계를 수행하십시오.
-1. [Intune 관리 콘솔](https://manage.microsoft.com)에 로그인합니다..
-2. **업데이트** > **모든 업데이트**를 선택합니다..
+1. [Intune 관리 콘솔](https://manage.microsoft.com)에 로그온합니다.
+2. **업데이트** > **모든 업데이트**를 선택합니다.
 3. 위쪽 도구 모음에서 필터 옵션을 사용하여 대체된 업데이트를 필터링합니다.
 4. Windows 7 또는 영향을 받는 클라이언트에 설치된 응용 프로그램(예: Microsoft Office)에 적용될만한 대체되는 업데이트를 모두 거부합니다. 
 5. 영향을 받는 클라이언트를 다시 시작합니다.
 
-또한 Windows 7을 실행하는 경우, 다음 업데이트를 반드시 설치해야 합니다. [3050265 Windows Update Client for Windows 7: June 2015](https://support.microsoft.com/kb/3050265).
+또한 Windows 7을 실행하는 경우, 다음 업데이트를 반드시 설치해야 합니다. [3050265 Windows Update Client for Windows 7: June 2015](https://support.microsoft.com/kb/3050265)
 
 ### 다음 단계
-문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라, Microsoft 지원에 문의하세요..
+문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 
