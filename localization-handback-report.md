@@ -1,11 +1,42 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [InTuneDocs\DeployUse\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e/InTuneDocs/DeployUse/end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#7a42482dd56b25d867e2bb80dcd7ad4c3474b5e938)
+ [InTuneDocs\DeployUse\overview-of-device-lifecycle-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8d83f8ea2fa116ca6f1dbf96370c837ca6581d0b/InTuneDocs/DeployUse/overview-of-device-lifecycle-in-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#908c052484dc1532ade9576ab09070b18a85d71e209)
 
 ## Item Details
+##### <a name='7a42482dd56b25d867e2bb80dcd7ad4c3474b5e938'></a> Source: [InTuneDocs\DeployUse\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e/InTuneDocs/DeployUse/end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
+* Status: OutofSyncHandedBackSuccess
+* Target File: 
+* Handoff File: [end-user-experience-for-mam-enabled-apps-with-microsoft-intune.7c4686a11d073da6085dcfa7266f5f6c197c5f69.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/7e5052f863fb1620024933866c580e818da0d8ba/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/end-user-experience-for-mam-enabled-apps-with-microsoft-intune.7c4686a11d073da6085dcfa7266f5f6c197c5f69.ja-jp.xlf)
+* Handoff Datetime: 2016-06-09 16:52:48
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\DeployUse\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/b0f7b5aa79946139c9f007d7df6e6da2685f0a43/InTuneDocs/DeployUse/end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
+* Current Handback File: [end-user-experience-for-mam-enabled-apps-with-microsoft-intune.7c4686a11d073da6085dcfa7266f5f6c197c5f69.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/a51ee9dc639afc84c0fdec79c47529ec494ef856/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/end-user-experience-for-mam-enabled-apps-with-microsoft-intune.7c4686a11d073da6085dcfa7266f5f6c197c5f69.ja-jp.xlf)
+* Current Handback Datetime: 2016-06-13 19:12:03
+* [Back to Top](#report-top)
+
+##### <a name='908c052484dc1532ade9576ab09070b18a85d71e209'></a> Source: [InTuneDocs\DeployUse\overview-of-device-lifecycle-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8d83f8ea2fa116ca6f1dbf96370c837ca6581d0b/InTuneDocs/DeployUse/overview-of-device-lifecycle-in-microsoft-intune.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\overview-of-device-lifecycle-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/b0f7b5aa79946139c9f007d7df6e6da2685f0a43/InTuneDocs/DeployUse/overview-of-device-lifecycle-in-microsoft-intune.md)
+* Handoff File: [overview-of-device-lifecycle-in-microsoft-intune.6609610398d9ddba57824b2e55d96fa333201499.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/59dffd0bfd1d03b28e00a0cc2231e550a7be3e1d/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/overview-of-device-lifecycle-in-microsoft-intune.6609610398d9ddba57824b2e55d96fa333201499.ja-jp.xlf)
+* Handoff Datetime: 2016-05-13 16:14:34
+* Handoff Reason: Include
+* Archive File: [overview-of-device-lifecycle-in-microsoft-intune.6609610398d9ddba57824b2e55d96fa333201499.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e7dffecc274f7ea830b60a451f0c64865f064100/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/overview-of-device-lifecycle-in-microsoft-intune.6609610398d9ddba57824b2e55d96fa333201499.ja-jp.xlf)
+* Archive Datetime: 2016-06-02 02:38:18
+* Handback File: [overview-of-device-lifecycle-in-microsoft-intune.6609610398d9ddba57824b2e55d96fa333201499.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/a51ee9dc639afc84c0fdec79c47529ec494ef856/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/overview-of-device-lifecycle-in-microsoft-intune.6609610398d9ddba57824b2e55d96fa333201499.ja-jp.xlf)
+* Handback Datetime: 2016-06-13 19:12:03
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
