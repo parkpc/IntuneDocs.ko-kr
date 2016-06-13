@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune でのモバイル アプリ構成ポリシーを使用した iOS アプリの構成 | Microsoft Intune
+title: モバイル アプリ構成ポリシーを使用した iOS アプリの構成 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -42,19 +42,18 @@ Microsoft Intune のモバイル アプリ構成ポリシーを使用して、�
 
 これらのポリシーをユーザーやデバイスに直接展開しないでください。 代わりに、ポリシーをアプリに関連付け、そのアプリを展開します。 ポリシー設定は、アプリがポリシーを確認する際に (通常は初めて実行したときに) 必ず使用されます。
 
-> [!TIP]
-> このポリシーの種類は、iOS 7.1 以降を実行しているデバイスのみで現在利用可能で、次のアプリのインストールの種類をサポートします。
+> [!TIP] このポリシーの種類は、iOS 7.1 以降を実行しているデバイスのみで現在利用可能で、次のアプリのインストールの種類をサポートします。
 > 
 > -   **App Store の管理対象 iOS アプリ**
 > -   **iOS 用アプリ パッケージ**
 > 
-> アプリのインストールの種類の詳細については、「[Deploy apps with Microsoft Intune](deploy-apps.md)」(Microsoft Intune でアプリを展開する) を参照してください。.
+> アプリのインストールの種類の詳細については、「[Deploy apps with Microsoft Intune](deploy-apps.md)」(Microsoft Intune でアプリを展開する) を参照してください。
 
 ## モバイル アプリ構成ポリシーを構成する
 
-1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[ポリシー]**  &gt;  **[概要]**  &gt;  **[ポリシーの追加]** を選択します。.
+1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[ポリシー]** &gt; **[概要]** &gt; **[ポリシーの追加]** の順にクリックします。
 
-2.  ポリシーの一覧で、**[iOS]** を展開し、**[モバイル アプリの構成]**、**[ポリシーの作成]** の順にクリックします。.
+2.  ポリシーの一覧で、 **[iOS]**を展開し、 **[モバイル アプリの構成]**、 **[ポリシーの作成]**の順にクリックします。
 
     > [!TIP]
     > このポリシーの種類ではカスタム設定のみを構成できます。 推奨設定はありません。
@@ -63,8 +62,7 @@ Microsoft Intune のモバイル アプリ構成ポリシーを使用して、�
 
 4.  このページの **[モバイル アプリ構成ポリシー]** セクションで、必要なアプリの構成設定を含む XML プロパティ リストをボックスに入力するか貼り付けます。
 
-    > [!TIP]
-    > XML プロパティ リストの詳細については、iOS 開発者ライブラリの [XML プロパティ リスト](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html)に関するページを参照してください。
+    > [!TIP] XML プロパティ リストの詳細については、iOS 開発者ライブラリの [XML プロパティ リスト](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html)に関するページを参照してください。
     > 
     > XML プロパティ リストの形式は、構成するアプリによって異なります。 使用する形式の詳細については、アプリの供給元にお問い合わせください。
     > 
@@ -81,17 +79,9 @@ Microsoft Intune のモバイル アプリ構成ポリシーを使用して、�
     >
         > また、Intune は次のトークンの種類をプロパティ リストでサポートしています。
     >    
-    > \{\{userprincipalname\}\} - (例: **John@contoso.com**)
-    > \{\{mail\}\} - (例: **John@contoso.com**)
-    > \{\{partialupn\}\} - (例: **John**)
-    > \{\{accountid\}\} - (例: **fc0dc142-71d8-4b12-bbea-bae2a8514c81**)
-    > \{\{deviceid\}\} - (例: **b9841cd9-9843-405f-be28-b2265c59ef97**)
-    > \{\{userid\}\} - (例: **3ec2c00f-b125-4519-acf0-302ac3761822**)
-    > \{\{username\}\} - (例: **John Doe**)
-    > \{\{serialnumber\}\} - (例: **F4KN99ZUG5V2**) iOS デバイスの場合
-    > \{\{serialnumberlast4digits\}\} - (例: **G5V2**) iOS デバイスの場合
+    > \{\{userprincipalname\}\} - (例: **John@contoso.com**) \{\{mail\}\} - (例: **John@contoso.com**) \{\{partialupn\}\} - (例: **John**) \{\{accountid\}\} - (例: **fc0dc142-71d8-4b12-bbea-bae2a8514c81**) \{\{deviceid\}\} - (例: **b9841cd9-9843-405f-be28-b2265c59ef97**) \{\{userid\}\} - (例: **3ec2c00f-b125-4519-acf0-302ac3761822**) \{\{username\}\} - (例: **John Doe**) \{\{serialnumber\}\} - (例: **F4KN99ZUG5V2**) iOS デバイス用 \{\{serialnumberlast4digits\}\} - (例: **G5V2**) iOS デバイス用
 >
-> \{\{ および \}\} 文字を使用できるのはトークンの種類のみであり、他の目的には使用しないでください。
+> \{\{ 文字と \}\} 文字を使用できるのはトークンの種類のみであり、他の目的には使用しないでください。
 
 
 
@@ -101,7 +91,7 @@ Microsoft Intune のモバイル アプリ構成ポリシーを使用して、�
     > [!IMPORTANT]
     > **[検証]** をクリックすると、Intune によって、入力した XML が有効な形式であるかどうかがチェックされます。 XML プロパティ リストが関連付けられているアプリで動作するかどうかはチェックされません。
 
-6.  終了したら、**[ポリシーの保存]** をクリックします。.
+6.  終了したら、 **[ポリシーの保存]**をクリックします。
 
 新しいポリシーは、 **[構成ポリシー]** ノードに表示されます。
 
@@ -114,8 +104,7 @@ Microsoft Intune のモバイル アプリ構成ポリシーを使用して、�
 
 展開したアプリをデバイスで実行すると、モバイル アプリ構成ポリシーで構成した設定を使用して実行されます。
 
-> [!TIP]
-> 1 つまたは複数のモバイル アプリ構成ポリシーが競合する場合は、どちらのポリシーも適用されず、競合が Intune 管理コンソールの**ダッシュボード**で報告されます。.
+> [!TIP] 1 つまたは複数のモバイル アプリ構成ポリシーが競合する場合は、どちらのポリシーも適用されず、競合が Intune 管理コンソールの**ダッシュボード**で報告されます。
 
 ## モバイル アプリ構成 XML ファイルの形式の例
 
@@ -150,6 +139,6 @@ Microsoft Intune のモバイル アプリ構成ポリシーを使用して、�
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

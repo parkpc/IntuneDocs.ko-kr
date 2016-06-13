@@ -42,6 +42,7 @@ ms.suite: ems
 このセクションの情報は、Windows デバイスを Intune に登録した後に行える操作で役立ちます。
 
 - [デバイスを暗号化する](encrypt-your-device-windows.md)</br>
+- [パスワードを設定または変更する](set-or-change-your-password-windows.md)</br>
 - [紛失したまたは盗難にあったデバイスをリセット (消去) する](reset-erase-your-lost-or-stolen-device-windows.md)</br>
 - [Intune からデバイスの登録を解除する](unenroll-your-device-from-intune-windows.md)</br>
 - [Intune からデバイスの登録を解除するとどうなるか](what-happens-if-you-unenroll-your-device-from-intune-windows.md)</br>
@@ -54,7 +55,7 @@ ms.suite: ems
 このセクションの情報は、Windows デバイスを Intune に登録した場合に発生する可能性がある問題を修正するのに役立ちます。
 
 - [デバイスに最低限必要なバージョンのオペレーティング システムがインストールされていない](device-doesnt-have-the-required-minimum-operating-system-version-windows.md)</br>
-- [デバイスが最新のオペレーティング システムのバージョンに準拠していない](device-doesnt-comply with-maximum-operating-system-version-windows.md)</br>
+- [デバイスが最新のオペレーティング システムのバージョンに準拠していない](device-doesnt-comply-with-maximum-operating-system-version-windows.md)</br>
 - [デバイスで BitLocker が有効ではない](device-doesnt-have-bitlocker-enabled-windows.md)</br>
 - [デバイスでマルウェア対策ソフトウェアが有効ではない](device-doesnt-have-antimalware-software-enabled-windows.md)</br>
 - [デバイスでセキュア ブートが有効ではない](device-doesnt-have-secure-boot-enabled-windows.md)</br>
@@ -63,6 +64,6 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO4-->
 
 

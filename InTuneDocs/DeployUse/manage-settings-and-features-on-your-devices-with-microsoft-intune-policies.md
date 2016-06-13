@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune ポリシーを使用してデバイスの設定と機能を管理する | Microsoft Intune
+title: ポリシーを使用してデバイスの設定と機能を管理する | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -35,33 +35,32 @@ Intune のポリシーは以下のカテゴリに分類されます。 使用す
 
 - **構成ポリシー:** デバイスのセキュリティ設定と機能を管理するために一般的に使用されます。 ポリシーの作成方法と展開方法、使用できる設定については、このトピックの情報を参照してください。
 - **デバイス コンプライアンス ポリシー:** デバイスが条件付きアクセス ポリシーによって "準拠している" と見なされるために遵守する必要がある規則および設定を定義します。 コンプライアンス ポリシーを使用して、条件付きアクセスとは別に、デバイスのコンプライアンスを監視および修復することもできます。
-詳細については、「[Microsoft Intune のデバイス コンプライアンス ポリシー](introduction-to-device-compliance-policies-in-microsoft-intune.md)」を参照してください。.
+詳細については、「[Microsoft Intune のデバイス コンプライアンス ポリシー](introduction-to-device-compliance-policies-in-microsoft-intune.md)」を参照してください。
 - **条件付きアクセス ポリシー:** 指定する条件に基づいて電子メールおよびその他のサービスをセキュリティで保護できます。
-詳細については、「[Microsoft Intune を使用して電子メールおよび O365 サービスへのアクセスを制限する](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)」を参照してください。.
-- **会社のデバイスの登録ポリシー:** 会社のデバイスの登録ポリシーについては、「[Microsoft Intune を使用した iOS および Mac の管理のセットアップ](set-up-ios-and-mac-management-with-microsoft-intune.md)」を参照してください。.
+詳細については、「[Microsoft Intune を使用して電子メールおよび O365 サービスへのアクセスを制限する](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)」を参照してください。
+- **会社のデバイスの登録ポリシー:** 会社のデバイスの登録ポリシーについては、「[Microsoft Intune を使用した iOS および Mac の管理のセットアップ](set-up-ios-and-mac-management-with-microsoft-intune.md)」を参照してください。
 - **リソース アクセス ポリシー:** このポリシー グループを使用すると、ユーザーはどこにいても仕事を確実に遂行するために必要なファイルとリソースにアクセスできます。
-詳細については、「[Microsoft Intune を使用して、会社のリソースへのアクセスを有効にする](enable-access-to-company-resources-with-microsoft-intune.md)」を参照してください。.
+詳細については、「[Microsoft Intune を使用して、会社のリソースへのアクセスを有効にする](enable-access-to-company-resources-with-microsoft-intune.md)」を参照してください。
 
 
-Intune ポリシーの一覧については、「[Microsoft Intune policy reference (Microsoft Intune ポリシー リファレンス)](microsoft-intune-policy-reference.md)」を参照してください。.
+Intune ポリシーの一覧については、「[Microsoft Intune policy reference (Microsoft Intune ポリシー リファレンス)](microsoft-intune-policy-reference.md)」を参照してください。
 
 
 
 
 ## 構成ポリシーを作成する
 
-1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com/)で、**[ポリシー]** &gt; **[構成ポリシー]** &gt; **[追加]** をクリックします。.
+1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com/)で、**[ポリシー]** &gt; **[構成ポリシー]** &gt; **[追加]** の順にクリックします。
 
 2.  作成するポリシーを選択します。ポリシーの推奨設定 (使用可能な場合。この設定は後で変更できます) を使用するか、独自の設定でカスタム ポリシーを作成するか選びます。
 
-    > [!TIP]
-    > 適切なポリシーを選択する方法については、「[Microsoft Intune policy reference (Microsoft Intune ポリシー リファレンス)](microsoft-intune-policy-reference.md)」を参照してください。.
+    > [!TIP] 適切なポリシーを選択する方法については、「[Microsoft Intune policy reference](microsoft-intune-policy-reference.md)」 (Microsoft Intune ポリシー リファレンス) を参照してください。
 
-3.  準備ができたら、**[ポリシーを作成する]** をクリックします。.
+3.  準備ができたら、 **[ポリシーを作成する]**をクリックします。
 
-4.  **[ポリシーを作成する]** 画面で、ポリシーの名前とオプションの説明を構成します。
+4.   **[ポリシーを作成する]** 画面で、ポリシーの名前とオプションの説明を構成します。
 
-5.  必要なポリシー設定を構成して、**[ポリシーの保存]** をクリックします。.
+5.  必要なポリシー設定を構成して、 **[ポリシーの保存]**をクリックします。
 
     ポリシー設定の詳細については、次の一覧から使用するポリシーの種類を選択してください。
 
@@ -90,13 +89,13 @@ Intune ポリシーの一覧については、「[Microsoft Intune policy refere
 
 ## 構成ポリシーを展開する
 
-1.  **[ポリシー]** ワークスペースで、展開するポリシーを選択し、**[展開の管理]** をクリックします。.
+1.   **[ポリシー]** ワークスペースで、展開するポリシーを選択し、 **[展開の管理]**をクリックします。
 
-2.  **[展開の管理]** ダイアログ ボックスで、次の操作を実行します。
+2.   **[展開の管理]** ダイアログ ボックスで、次の操作を実行します。
 
-    -   **ポリシーを展開するには** - ポリシーを展開する対象となる 1 つ以上のグループを選択して、**[追加]** &gt;  **[OK]** の順にクリックします。.
+    -   **ポリシーを展開するには**、ポリシーを展開する対象となる 1 つ以上のグループを選択して、**[追加]** &gt; **[OK]** をクリックします。
 
-    -   **ポリシーを展開せずにダイアログ ボックスを閉じるには**、**[キャンセル]** をクリックします。.
+    -   **ポリシーを展開せずにダイアログ ボックスを閉じるには**、**[キャンセル]** をクリックします。
 
 展開済みポリシーを選択すると、ポリシー一覧の下部に展開についての詳細が表示されます。
 
@@ -108,7 +107,7 @@ Intune ポリシーの一覧については、「[Microsoft Intune policy refere
 
 - **編集** - 選択したポリシーのプロパティを開き、変更できます。
 - **削除** - 選択したポリシーを削除します。<br>ポリシーを削除すると、展開先のすべてのグループから削除されます。
-- **展開の管理** - ポリシーを展開するグループを選択し、**[追加]** をクリックします。.
+- **展開の管理** - ポリシーを展開するグループを選択し、**[追加]** をクリックします。
 
 ## Intune ポリシーのタスク
 
@@ -116,11 +115,11 @@ Intune ポリシーの一覧については、「[Microsoft Intune policy refere
 
 1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com/)で、 **[グループ]**をクリックして、デバイス グループを選択します。
 
-2.  ポリシーを更新するデバイスを選択して、**[リモート タスク]** &gt; **[ポリシーの更新]** の順にクリックします。.
+2.  ポリシーを更新するデバイスを選択して、**[リモート タスク]** &gt; **[ポリシーの更新]** の順にクリックします。
 
 3.  Intune 管理コンソールの右下にある **[リモート タスク]** をクリックし、タスクの状態を確認します。
 
-## Intune ポリシーの参照情報
+## Intune ポリシーについてよく寄せられる質問
 
 ### モバイル デバイスが展開後にポリシーまたはアプリを取得するのにどれくらいの時間がかかりますか。
 ポリシーまたはアプリが展開されると、Intune はデバイスに対して、Intune サービスにチェックインする必要があることをすぐに通知し始めます。 これにかかる時間は通常 5 分未満です。
@@ -132,7 +131,8 @@ Intune ポリシーの一覧については、「[Microsoft Intune policy refere
 - iOS - 6 時間ごと
 - Android - 8 時間ごと
 - Windows Phone - 8 時間ごと
-- デバイスとして登録された Windows PC - 24 時間ごと
+- 登録済み Windows RT デバイス - 24 時間ごと
+- デバイスとして登録された Windows 8.1 および Windows 10 PC - 8 時間ごと
 
 登録してすぐのデバイスでは、チェックイン頻度が高くなります。頻度は次のとおりです。
 
@@ -214,15 +214,15 @@ Intune は Apple 構成ファイルのペイロードまたはカスタム OMA-U
 
 #### Intune クライアント ソフトウェアを実行している Windows PC
 
-- **Endpoint Protection 設定** - 設定は、推奨値に復元されます。 例外は、 **[Microsoft Active Protection Service に参加する]** の設定だけで、既定値は **[いいえ]**です。 詳細については、「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)」を参照してください。.
-- **ソフトウェアの更新プログラムの設定** - 設定は、オペレーティング システムの既定の状態にリセットされます。 詳細については、「[Microsoft Intune でソフトウェア更新プログラムを使用して Windows PC を最新の状態に保つ](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)」を参照してください。.
+- **Endpoint Protection 設定** - 設定は、推奨値に復元されます。 例外は、 **[Microsoft Active Protection Service に参加する]** の設定だけで、既定値は **[いいえ]**です。 詳細については、「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)」を参照してください。
+- **ソフトウェアの更新プログラムの設定** - 設定は、オペレーティング システムの既定の状態にリセットされます。 詳細については、「[Microsoft Intune でソフトウェア更新プログラムを使用して Windows PC を最新の状態に保つ](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)」を参照してください。
 - **Microsoft Intune Center の設定** - ポリシーで構成されたサポートの連絡先情報は、すべてコンピューターから削除されます。
-- **Windows ファイアウォールの設定** - 設定は、コンピューターのオペレーティング システムの既定にリセットされます。 詳細については、「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)」を参照してください。.
+- **Windows ファイアウォールの設定** - 設定は、コンピューターのオペレーティング システムの既定にリセットされます。 詳細については、「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)」を参照してください。
 
 
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 

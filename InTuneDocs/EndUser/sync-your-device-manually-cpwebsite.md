@@ -28,13 +28,13 @@ ms.suite: ems
 
 # デバイスを手動で同期する
 
-アプリのインストールに時間がかかりすぎる場合は、デバイスを手動で同期すると、インストールの高速化に役立つことがあります。 お使いのデバイスの種類に対応した手順に従ってください。
+アプリのインストールに時間がかかりすぎる場合は、デバイスを手動で同期すると、インストールの高速化に役立つことがあります。 以下の手順からお使いのデバイスの種類または Windows のバージョンに対応する手順を選択し、それに従ってください。 一覧にあるバージョンのみがサポートされています。
 
 * [[Windows] 10 Mobile](sync-your-device-manually-windows.md#windows-10-mobile)
 * [[Windows] 10 Desktop](sync-your-device-manually-windows.md#windows-10-desktop)
 * [Windows Phone 8.1](sync-your-device-manually-windows.md#windows-phone-8-1)
 * [iOS](sync-your-device-manually-ios.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 

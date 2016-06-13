@@ -30,7 +30,7 @@
 
 ### [ポリシーを使用したデバイスの設定と機能の管理](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 #### [iOS の設定](ios-policy-settings-in-microsoft-intune.md)
-#### [Android の設定](android-policy-settings-in-microsoft-intune.md)
+#### [Android と Samsung KNOX の設定](android-policy-settings-in-microsoft-intune.md)
 #### [Windows 8 と Windows 8.1 の設定](windows-configuration-policy-settings-in-microsoft-intune.md)
 #### [Windows Phone 8.1 の設定](windows-phone-8-1-policy-settings-in-microsoft-intune.md)
 #### [Windows 10 デスクトップおよびモバイルの設定](windows-10-policy-settings-in-microsoft-intune.md)
@@ -106,6 +106,7 @@
 ### [基幹業務アプリを MAM 向けに準備する](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)
 #### [iOS アプリをラップする](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)
 #### [Android アプリをラップする](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)
+#### [Intune で管理されていないデバイスの LOB アプリ](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)
 #### [アプリを記述する際に SDK を使用する](use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
 
@@ -120,9 +121,11 @@
 
 ## [新機能](whats-new-in-microsoft-intune.md)
 
+# [アプリの開発とカスタマイズ](/intune/develop/intune-app-sdk)
+
 # [トラブルシューティング](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 

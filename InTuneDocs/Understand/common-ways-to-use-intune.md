@@ -67,11 +67,11 @@ Intune の一括プロビジョニングと管理のソリューションは、A
 <!-- Learn more about how to plan and deploy Intune to support shared tablets. -->
 
 ## 公共の場所から Office 365 に安全にアクセスできるようにする
-従業員は、展示会場やホテルのロビーにある公共のコンピューターなど、会社が管理できないデバイスやアプリ、ブラウザーを使用しなければならない場合があります。  そのような場所から会社の電子メールにアクセスすることを従業員に許可すべきでしょうか。  Intune と Enterprise Mobility Suite を使用している場合、2 つの選択肢があります。  電子メールへのアクセスを組織で管理されているデバイスに制限する場合、答えは単純に "不可" になります。  または、多要素認証を要求し、ファイル (電子メールの添付ファイルなど) をダウンロードできないブラウザー アクセス (Outlook Web Access) のみを許可することで、信頼されていないコンピュータからの制限付きアクセスを許可することもできます。  従業員が厳密に認証されるので、信頼されていないコンピューターに誤って会社のデータを残してしまうことがなくなります。
+従業員は、展示会場やホテルのロビーにある公共のコンピューターなど、会社が管理できないデバイスやアプリ、ブラウザーを使用しなければならない場合があります。 そのような場所から会社の電子メールにアクセスすることを従業員に許可すべきでしょうか。 Intune と Enterprise Mobility Suite を使用している場合、 <!--you have choices. The--> 電子メールへのアクセスを組織で管理されているデバイスに制限するには、答えは単純に "不可" になります。  <!-- Alternatively, you can choose to allow limited access to these untrusted computers by requiring multi-factor authentication and only allowing browser access (Outlook Web Access) in a mode where files cannot be downloaded (e.g. email attachments).-->  従業員が厳密に認証されるので、信頼されていないコンピューターに誤って会社のデータを残してしまうことがなくなります。
 
 <!-- Learn more about how to plan and deploy Intune to support kiosks. -->
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

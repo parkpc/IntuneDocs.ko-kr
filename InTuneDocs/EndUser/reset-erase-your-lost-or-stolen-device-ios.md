@@ -15,7 +15,7 @@ ms.assetid: 70788dca-765f-47a7-9994-a286f8a88588
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -28,28 +28,27 @@ ms.suite: ems
 
 # 紛失したまたは盗難にあったデバイスをリセット (消去) する
 
-Intune に登録されている携帯電話が紛失や盗難にあった場合は、別のデバイスのポータル サイト アプリか、[ポータルサイト Web サイト](http://portal.manage.microsoft.com)を使用して、携帯電話を出荷時の状態にリセットできます。.
+Intune に登録されている携帯電話が紛失や盗難にあった場合は、別のデバイスのポータル サイト アプリか、[ポータル Web サイト](http://portal.manage.microsoft.com)を使用して、携帯電話を出荷時の既定設定にリセットできます。
 
 > [!WARNING]
-> デバイスを出荷時の状態にリセットすることで、私的な情報と仕事の情報の両方をデバイスから削除することができます。 デバイスをリセットした場合の影響については、「[What happens if you reset your device using the Company Portal (ポータル サイトを使用してデバイスをリセットした場合の影響)](what-happens-if-you-reset-your-device-using-the-company-portal-ios.md)」を参照してください。.
+> デバイスを出荷時の状態にリセットすることで、私的な情報と仕事の情報の両方をデバイスから削除することができます。 デバイスをリセットした場合の影響については、「[ポータル サイトを使用してデバイスをリセットするとどうなるか](what-happens-if-you-reset-your-device-using-the-company-portal-ios.md)」を参照してください。
 
 ポータル サイト アプリを使用してデバイスをリセットするには、次のようにします。
 
 1.  ポータル サイト アプリの **[デバイス]**で、消去するデバイスを選択します。
 
-2.  **[リセット]** &gt; **[リセット]** の順にタップします。.
+2.  **[リセット]** &gt; **[リセット]** の順にタップします。
 
 ポータル Web サイトを使用してデバイスをリセットするには、次の手順を使用するか、この[ビデオ](http://aka.ms/jhdjak)をご覧ください。
 
 1.  [ポータル Web サイト](http://portal.manage.microsoft.com)で、消去するデバイスを選択します。
 
-2.  **[リセット]** &gt; **[リセット]** の順にタップします。.
-> [!NOTE]
-> 紛失したまたは盗難にあったデバイスを自分でリセットできない場合は、IT 管理者に依頼してください。
+2.  **[リセット]** &gt; **[リセット]** の順にタップします。
+> [!NOTE] 紛失したまたは盗難にあったデバイスを自分でリセットできない場合は、IT 管理者に依頼してください。
 
 ### 関連項目
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

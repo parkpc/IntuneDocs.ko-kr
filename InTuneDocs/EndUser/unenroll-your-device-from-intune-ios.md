@@ -15,7 +15,7 @@ ms.assetid: 28914db1-3e62-45f5-9632-b0d2a808a44d
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -34,7 +34,7 @@ Intune からデバイスの登録を解除するには、これらの手順を�
 
 1.  ポータル サイト アプリの **[デバイス]**で、登録を解除するデバイスを選択します。
 
-2.  **[削除]** &gt; **[削除]** の順にタップします。.
+2.  **[削除]** &gt; **[削除]** の順にタップします。
 
 Intune からデバイスの登録を解除すると、どのようになるかを次に示します。
 
@@ -57,6 +57,6 @@ Intune からデバイスの登録を解除すると、どのようになるか�
 ### 関連項目
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune でインベントリを使用してデバイスを把握する | Microsoft Intune
+title: インベントリを使用してデバイスを把握する | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -66,8 +66,7 @@ Microsoft Intune では、Intune クライアント ソフトウェアを実行�
 |**暗号化有効**|All のいずれかのデバイス|
 
 ## Windows PC から収集される情報
-> [!IMPORTANT]
-> このセクションの情報は、Intune の Windows PC クライアント ソフトウェアを実行する Windows PC にのみ適用されます。
+> [!IMPORTANT] このセクションの情報は、Intune の Windows PC クライアント ソフトウェアを実行する Windows PC にのみ適用されます。
 
 Windows PC で収集されたインベントリを表示するには、[コンピューター インベントリ レポート](understand-microsoft-intune-operations-by-using-reports.md)を実行します。 Intune では、Windows PC から次のインベントリを収集します。
 
@@ -113,11 +112,12 @@ Windows PC で収集されたインベントリを表示するには、[コン�
 
 -   **最終更新日時**
 
-### 関連項目
-[Microsoft Intune を使用した監視とレポート](monitoring-and-reports-with-microsoft-intune.md)
+<!-- this section below belongs in the planning journey
+### See Also
+[Monitoring and reports with Microsoft Intune](monitoring-and-reports-with-microsoft-intune.md)
+-->
 
 
-
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

@@ -26,9 +26,9 @@ ms.suite: ems
 ---
 
 # ポリシーを作成してアプリを発行する
-モバイル デバイスのセキュリティ設定を制御したり、コンピューターの Windows ファイアウォールや Endpoint Protection の設定を管理したり、アプリケーションを展開したりする作業は、Intune のポリシー設定を使用して効率的に行うことができます。 詳細については、「[Microsoft Intune ポリシーを使用してデバイスの設定と機能を管理する](/Intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies)」および「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](/Intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)」を参照してください。.
+モバイル デバイスのセキュリティ設定を制御したり、コンピューターの Windows ファイアウォールや Endpoint Protection の設定を管理したり、アプリケーションを展開したりする作業は、Intune のポリシー設定を使用して効率的に行うことができます。 詳細については、「[Microsoft Intune ポリシーを使用してデバイスの設定と機能を管理する](/Intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies)」および「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](/Intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)」を参照してください。
 
-Intune で実行できるアプリのインストールには 2 種類あります。 1 つは " **必須のインストール**" です。この場合アプリは、管理対象コンピューターに自動的に展開されます。 もう 1 つは " **利用可能なインストール**" です。この場合、Intune ポータル サイトにアプリ (またはアプリへのリンク) が展開され、コンピューターとモバイル デバイスのどちらにインストールするかをユーザーが選択できます。
+Intune で実行できるアプリのインストールには 2 種類あります。 1 つは " **必須のインストール**" です。この場合アプリは、管理対象コンピューターに自動的に展開されます。 もう 1 つは "**利用可能なインストール**" です。この場合、Intune ポータル サイトにアプリ (またはアプリへのリンク) が展開され、コンピューターとモバイル デバイスのどちらにインストールするかをユーザーが選択できます。
 
 <!-- this section really isn't necessary and confuses a lot of people because most mobile device apps aren't licensed this way (and our licensing/reporting features aren't super helpful). I think it's best to avoid this during a quick start guide.
 
@@ -43,17 +43,17 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 
 ## モバイル デバイス構成ポリシーを作成して展開する
 
-1.  [Intune 管理コンソール](https://manage.microsoft.com/)を開きます。.
+1.  [Intune 管理コンソール](https://manage.microsoft.com/)を開きます。
 
-2.  左側のウィンドウで、**[ポリシー]** アイコンをクリックします。
+2.  左側のウィンドウで、**[ポリシー]** アイコンを選択します。
 
     ![admin-console-policy-workspace](./media/policy.png)
 
-3.  **[ポリシーの概要]** ページで、**[タスク]** の一覧にある **[ポリシーの追加]** をクリックします。.
+3.  **[ポリシーの概要]** ページで、**[タスク]** の一覧にある **[ポリシーの追加]** をクリックします。
 
-4.  ポリシーの作成対象とするプラットフォームをポリシーの一覧で展開し、**[全般構成]** > **[推奨設定を使用してポリシーを作成および展開する]** > **[ポリシーを作成する]** の順にクリックします。.
+4.  ポリシーの作成対象とするプラットフォームをポリシーの一覧で展開し、**[全般構成]** > **[推奨設定を使用してポリシーを作成および展開する]** > **[ポリシーを作成する]** の順に選択します。
 
-5.  **このポリシーを展開するグループを選択する**よう求められたら、利用可能なグループの一覧から **[Intune Users]** (前の手順で作成したグループ) を選択し、**[追加]** > **[OK]** の順に選択します。.
+5.  **このポリシーを展開するグループを選択する**よう求められたら、利用可能なグループの一覧から **[Intune Users]** (前の手順で作成したグループ) を選択し、**[追加]** > **[OK]** の順に選択します。
 
 ポリシーが構成ポリシーの一覧に表示され、**Intune Users** グループに展開されます。 ポリシーをダブルクリックしてその設定を表示します。
 
@@ -63,16 +63,15 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 
     ![admin-console-apps-workspace](./media/apps.png)
 
-    > [!NOTE]
-    > **Intune ソフトウェア パブリッシャー** を初めて起動するときは、アプリケーションがインストールされるため、しばらく時間がかかることがあります。
+    > [!NOTE] **Intune ソフトウェア パブリッシャー**を初めて起動するときは、アプリケーションがインストールされるため、しばらく時間がかかることがあります。
 
-2.  セキュリティの警告を確認し、**[実行]** をクリックします。.
+2.  セキュリティの警告を確認し、**[実行]** を選択します。
 
-3.  **[開始する前に]** ページで、**[次へ]** をクリックします。.
+3.  **[開始する前に]** ページで、**[次へ]** を選択します。
 
-4.  **[ソフトウェア セットアップ]** ページの **[このソフトウェアをデバイスに配布する方法]** で、**[外部リンク]** を選択します。.
+4.  **[ソフトウェア セットアップ]** ページの **[このソフトウェアをデバイスに配布する方法]** で、**[外部リンク]** を選択します。
 
-5.  **[URL の指定]** にソフトウェアの外部リンクを入力し、**[次へ]** をクリックします。 URL の先頭に **http://** が付いていることを確認してください。 Skype アプリには、ご利用のモバイル デバイス プラットフォームに該当するリンクを以下から選んで使用してください。
+5.  **[URL の指定]** にソフトウェアの外部リンクを入力し、**[次へ]** を選択します。 URL の先頭に **http://** が付いていることを確認してください。 Skype アプリには、ご利用のモバイル デバイス プラットフォームに該当するリンクを以下から選んで使用してください。
 
     -   **iOS:**   [https://itunes.apple.com/us/app/skype-for-iphone/id304878510?mt%3D8](https://itunes.apple.com/us/app/skype-for-iphone/id304878510?mt%3D8)
 
@@ -88,33 +87,33 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 
     -   **説明:** 「 **Skype 通信アプリ**
 
-    -   **カテゴリ:** このソフトウェアに最適なカテゴリを選択します (例: **コラボレーション**
+    -   **カテゴリ:** このソフトウェアに最適なカテゴリを選択します (例: **コラボレーション**)
 
     -   **このアプリをポータル サイトでおすすめアプリとして強調表示します:** モバイル デバイスのポータル サイトで、アプリを目立つように表示する場合、このオプションを選択します。
 
     -   **アイコン:** アイコンをソフトウェアに関連付けるかどうかを選択します。 オプションのアイコンの最大サイズは 250 x 250 ピクセルで、推奨されるサイズは 32 x 32 ピクセルです。
 
-7.  **[概要ページ]** で、ソフトウェア情報を確認し、**[アップロード]** をクリックします。 **[閉じる]** をクリックしてウィザードを終了します。
+7.  **[概要ページ]** で、ソフトウェア情報を確認し、**[アップロード]** をクリックします。 **[閉じる]** を選択してウィザードを終了します。
 
-8.  [Intune 管理コンソール](https://manage.microsoft.com/)で、**[アプリ]** > **[アプリ]** > **[Skype]** > **[展開の管理]** の順にクリックします。.
+8.  [Intune 管理コンソール](https://manage.microsoft.com/)で、**[アプリ]** > **[アプリ]** > **[Skype]** > **[展開の管理]** を選択します。
 
-9. **[グループの選択]** ページで、**[Intune Users]** を選択して、そのユーザー グループにソフトウェアを展開し、**[追加]** > **[次へ]** の順に選択します。.
+9. **[グループの選択]** ページで、**[Intune Users]** を選択して、そのユーザー グループにソフトウェアを展開し、**[追加]** > **[次へ]** の順に選択します。
 
 10. **[展開アクション]** ページで、各グループの **[承認]** 列から **[利用可能なインストール]** を選択します。
 
-11. **[完了]** をクリックします。.
+11. **[完了]** をクリックします。
 
 これでポータル サイトからモバイル デバイスに Skype アプリをインストールできる状態となりましたが、最初に自分が [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] ソフトウェアをコンピューターとモバイル デバイスにインストールする必要があります。
 
 
 ### 次のステップ
-これで終了です。 *Intune のクイック スタート ガイド*の手順 6. が完了しました。.
+これで終了です。 *Intune のクイック スタート ガイド*の手順 6. が完了しました。
 
 >[!div class="step-by-step"]
 
->[&larr; **ユーザーとデバイスを整理する**](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)       [**ポータル サイトをカスタマイズする** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-7.md)  
+>[&larr;**ユーザーとデバイスを整理する**](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)       [**ポータル サイトをカスタマイズする** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-7.md)  
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 

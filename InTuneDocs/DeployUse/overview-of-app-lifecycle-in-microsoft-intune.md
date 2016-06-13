@@ -29,11 +29,11 @@ ms.suite: ems
 
 Intune のアプリのライフサイクルは、アプリが追加されると開始し、削除するまで以降のフェーズに従って進行します。
 
-![アプリのライフサイクル](./media/applifecycle_nobg.png "the Intune app lifecycle")
+![アプリのライフサイクル](./media/app-lifecycle.png "the Intune app lifecycle")
 
 ## 追加
 
-アプリ展開の最初のステップは、管理するアプリの追加と、Intune への展開です。 使用できるアプリの種類はさまざまですが、基本的な手順は同じです。 Intune では、[登録されたデバイス](add-apps-for-mobile-devices-in-microsoft-intune.md)と、[Intune クライアント ソフトウェアで管理する Windows PC](add-apps-for-windows-pcs-in-microsoft-intune.md) の両方に、アプリを追加できます。.
+アプリ展開の最初のステップは、管理するアプリの追加と、Intune への展開です。 使用できるアプリの種類はさまざまですが、基本的な手順は同じです。 Intune では、[登録されたデバイス](add-apps-for-mobile-devices-in-microsoft-intune.md)と、[Intune クライアント ソフトウェアで管理する Windows PC](add-apps-for-windows-pcs-in-microsoft-intune.md) の両方に、アプリを追加できます。
 
 ## デプロイ
 
@@ -53,9 +53,9 @@ Intune では、さまざまな方法でアプリのデータを保護できま�
 
 ## インベントリから削除
 
-通常は、最終的に、展開したアプリは古くなり、削除する必要があります。 Intune では、簡単に[サービスからアプリを削除](retire-apps-using-microsoft-intune.md)できます。.
+通常は、最終的に、展開したアプリは古くなり、削除する必要があります。 Intune では、簡単に[サービスからアプリを削除](retire-apps-using-microsoft-intune.md)できます。
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

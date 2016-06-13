@@ -29,7 +29,7 @@ ms.suite: ems
 Intune アプリ ラッピング ツールまたは Intune アプリ SDK のどちらかを使って、アプリでモバイル アプリケーション管理ポリシーを使えるようにできます。 ここでは、これら 2 つの方法の内容と用途について説明します。
 
 ## Intune アプリ ラッピング ツール
-アプリ ラッピング ツールは、主として、内部基幹業務 (LOB) アプリケーションに使います。 このツールは、アプリのラッパーを作成するコマンド ライン アプリケーションです。このラッパーにより、アプリを Intune モバイル アプリケーション管理ポリシーで管理できるようになります。 このツールを使うためにソース コードは必要ありませんが、署名資格情報が必要です。  署名資格情報について詳しくは、[Intune のブログ](http://blogs.technet.com/b/microsoftintune/archive/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios.aspx)をご覧ください。 アプリ ラッピング ツールのドキュメントとしては、[Android アプリ ラッピング ツール](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)と [iOS アプリ ラッピング ツール](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)をご覧ください。.
+アプリ ラッピング ツールは、主として、内部基幹業務 (LOB) アプリケーションに使います。 このツールは、アプリのラッパーを作成するコマンド ライン アプリケーションです。このラッパーにより、アプリを Intune モバイル アプリケーション管理ポリシーで管理できるようになります。 このツールを使うためにソース コードは必要ありませんが、署名資格情報が必要です。  署名資格情報について詳しくは、[Intune のブログ](http://blogs.technet.com/b/microsoftintune/archive/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios.aspx)をご覧ください。 アプリ ラッピング ツールのドキュメントとしては、[Android アプリ ラッピング ツール](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)と [iOS アプリ ラッピング ツール](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)をご覧ください。
 
 アプリ ラッピング ツールは、アプリ ストアまたは Play ストアにあるアプリ、あるいは開発時の統合を必要とする機能をサポートしていません (次の機能比較表をご覧ください)。
 
@@ -38,13 +38,12 @@ Intune アプリ ラッピング ツールまたは Intune アプリ SDK のど�
 ## Intune アプリ SDK
 アプリ SDK は、主として、App Store または Play ストアにあるアプリを Intune で管理できるようにするお客様向けに設計されています。 ただし、どのようなアプリでも (LOB アプリでさえ)、SDK の統合を利用できます。
 
-SDK を統合するには、アプリのソース コードにアクセスする必要があります。 SDK を統合する方法について詳しくは、「[Microsoft Intune アプリ SDK](https://msdn.microsoft.com/library/mt627769.aspx)」をご覧ください。.
+SDK の詳細については、「[概要](/intune/develop/intune-app-sdk)」を参照してください。 SDK で作業を開始するには、「[Microsoft Intune アプリ SDK を使ってみる](/intune/develop/intune-app-sdk-get-started)」を参照してください。
 
 ## 機能の比較
 アプリ SDK とアプリ ラッピング ツールに対して利用できる設定を、次の表に示します。
 
-> [!NOTE]
-> アプリ ラッピング ツールは、スタンドアロンの Intune または Configuration Manager と統合した Intune で使用できます。
+> [!NOTE] アプリ ラッピング ツールは、スタンドアロンの Intune または Configuration Manager と統合した Intune で使用できます。
 
 |機能|アプリ SDK|アプリ ラッピング ツール|
 |-----------|---------------------|-----------|
@@ -74,6 +73,6 @@ SDK を統合するには、アプリのソース コードにアクセスする
 [SDK を使用してモバイル アプリケーション管理に対応する](use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

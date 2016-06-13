@@ -6,7 +6,7 @@ description:
 keywords:
 author: Nbigman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/26/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -32,11 +32,11 @@ ms.suite: ems
 
 -   [Microsoft Intune 管理コンソール](https://manage.microsoft.com/)に、コンピューターへのクライアント ソフトウェアの展開に関するアラートが何も表示されていない場合は、まず、クライアント コンピューターがインターネットに接続可能かどうかと、プロキシの構成を確認します。次に、コンピューターがサービスの URL ([ https://manage.microsoft.com](https://manage.microsoft.com/)) と通信できることを確かめてから、 クライアント ソフトウェアのインストールを再試行してください。
 
--   "クライアント ソフトウェアの展開エラー" アラートが発生した場合に、特定のユーザーに電子メールが送信されるようにすることができます。このためには、[ **管理** ] ワークスペースで通知規則を構成します。 詳しくは、「[Microsoft Intune のアラートによる通知](/intune/deploy-use/get-notified-by-microsoft-intune-alerts)」をご覧ください。.
+-   "クライアント ソフトウェアの展開エラー" アラートが発生した場合に、特定のユーザーに電子メールが送信されるようにすることができます。このためには、[ **管理** ] ワークスペースで通知規則を構成します。 詳しくは、「[Microsoft Intune のアラートによる通知](/intune/deploy-use/get-notified-by-microsoft-intune-alerts)」を参照してください。
 
 -   Intune では、クライアント ソフトウェアの展開に失敗すると、重大なアラートとして **"クライアント ソフトウェアの展開エラー"** を表示します。 これは、[Microsoft Intune 管理コンソール](https://manage.microsoft.com/)の **[システムの概要]** ページと **[アラート]** ページで確認できます。 アラートを確認する方法を次に示します。
 
-1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com/)で、**[アラート]** &gt; **[概要]** の順にクリックします。.
+1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com/)で、**[アラート]** &gt; **[概要]** の順に選択します。
 
 2.   **[アラートの概要]** ページで次の情報を確認できます。
 
@@ -44,7 +44,7 @@ ms.suite: ems
 
     -   アクティブなアラートの合計数
 
-3.   **[すべてのアラート]** をクリックすると、次の情報が **[アラート]** ページに表示されます。 重要なアラートが一番上に表示されます。
+3.  **[すべてのアラート]** を選択すると、次の情報が **[アラート]** ページに表示されます。 重要なアラートが一番上に表示されます。
 
     -   **名前** – 生成されたアラートの種類の名前。
 
@@ -72,8 +72,7 @@ ms.suite: ems
 
 この問題は、PC に重要なソフトウェア更新プログラムが適用されていない場合に発生することがあります。
 
-**解決策:** 
-「[Microsoft Intune でソフトウェア更新プログラムを使用して Windows PC を最新の状態に保つ](/intune/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune)」の説明に従って、重要な更新プログラムがインストールされるようにソフトウェア更新ポリシーを設定してください。 
+**解決方法:** 「[Microsoft Intune でソフトウェア更新プログラムを使用して Windows PC を最新の状態に保つ](/intune/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune)」の説明に従って、重要な更新プログラムがインストールされるようにソフトウェア更新ポリシーを設定してください。 
 
 
 ## policyplatform.log に記録される Microsoft Intune ポリシー関連エラー
@@ -81,12 +80,11 @@ MDM Windows デバイス以外のデバイスでは、policyplatform.log ファ�
 
 ### UAC の問題を解決するには
 
-1.  「[Microsoft Intune の管理からデータおよびデバイスを削除する](/intune/deploy-use/retire-devices-from-microsoft-intune-management)」の説明に従って、コンピューターを削除します。.
+1.  「[Microsoft Intune の管理からデータおよびデバイスを削除する](/intune/deploy-use/retire-devices-from-microsoft-intune-management)」の説明に従って、コンピューターを削除します。
 
 2.  クライアント ソフトウェアが削除されるまで、20 分間待ちます。
 
-    > [!NOTE]
-    > [プログラムと機能] からクライアントを削除しないでください。
+    > [!NOTE] [プログラムと機能] からクライアントを削除しないでください。
 
 3.  スタート メニューで「**UAC**」と入力して、[ユーザー アカウント制御の設定] を開きます。
 
@@ -108,30 +106,30 @@ MDM Windows デバイス以外のデバイスでは、policyplatform.log ファ�
 |エラー コード|問題|推奨される解決策|
 |--------------|--------------------|------------------------|
 |**0x80CF0437**|クライアント コンピューターのクロックが正しい時刻に設定されていません。|クライアント コンピューターのクロックおよびタイム ゾーンが正しく設定されていることを確認してください。|
-|**0x80240438**、 **0x80CF0438**、 **0x80CF401B**|Intune サービスに接続できません。 クライアントのプロキシ設定を確認してください。|クライアント コンピューターのプロキシの構成が Intune でサポートされていることと、クライアント コンピューターがインターネットにアクセスできることを確認してください。 サポートされるプロキシ構成について詳しくは、「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)」をご覧ください。.|
+|**0x80240438**、 **0x80CF0438**、 **0x80CF401B**|Intune サービスに接続できません。 クライアントのプロキシ設定を確認してください。|クライアント コンピューターのプロキシの構成が Intune でサポートされていることと、クライアント コンピューターがインターネットにアクセスできることを確認してください。 サポートされるプロキシ構成について詳しくは、「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)」を参照してください。|
 |**0x80CF402C**|Intune サービスに接続できません。 ネットワーク接続を確認します。|コンピューターのネットワーク接続を確認します。 ネットワーク ケーブルが接続されていること、またはワイヤレス接続がオンになっていることを確認してください。|
-|**0x80240438、0x80CF0438**|Internet Explorer とローカル システムのプロキシ設定が構成されていません。|クライアントのプロキシ設定をチェックし、クライアント コンピューターのプロキシの構成が Intune でサポートされていることと、クライアント コンピューターがインターネットにアクセス可能であることを確認してください。 サポートされるプロキシ構成について詳しくは、「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)」をご覧ください。.|
+|**0x80240438、0x80CF0438**|Internet Explorer とローカル システムのプロキシ設定が構成されていません。|クライアントのプロキシ設定をチェックし、クライアント コンピューターのプロキシの構成が Intune でサポートされていることと、クライアント コンピューターがインターネットにアクセス可能であることを確認してください。 サポートされるプロキシ構成について詳しくは、「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)」を参照してください。|
 |**0x80043001**|登録パッケージが最新ではありません。|[ **管理** ] ワークスペースを使用して、最新のクライアント ソフトウェア パッケージをダウンロードしてインストールしてください。 その方法については、トピック「[Microsoft Intune を使用して Windows PC クライアントをインストールする](/intune/deploy-use/install-the-windows-pc-client-with-microsoft-intune)」をご覧ください。|
-|**0x80043004**|サブスクリプションが存在しないか、無効になっています。|Intune のアカウントとサブスクリプションがアクティブであることを確認します。 自分のアカウントの設定を見るには、[Office 365 管理センター](http://go.microsoft.com/fwlink/?LinkId=698854%20)でアカウントにサインインしてください。.|
-|**0x80043002**|アカウントがメンテナンス モードです。|アカウントがメンテナンス モードになっている場合は、新しいクライアント コンピューターを登録することはできません。 自分のアカウントの設定を見るには、[Office 365 管理センター](http://go.microsoft.com/fwlink/?LinkId=698854%20)でアカウントにサインインしてください。.|
+|**0x80043004**|サブスクリプションが存在しないか、無効になっています。|Intune のアカウントとサブスクリプションがアクティブであることを確認します。 自分のアカウントの設定を見るには、[Office 365 管理センター](http://go.microsoft.com/fwlink/?LinkId=698854%20)でアカウントにサインインしてください。|
+|**0x80043002**|アカウントがメンテナンス モードです。|アカウントがメンテナンス モードになっている場合は、新しいクライアント コンピューターを登録することはできません。 自分のアカウントの設定を見るには、[Office 365 管理センター](http://go.microsoft.com/fwlink/?LinkId=698854%20)でアカウントにサインインしてください。|
 |**0x80043003**|アカウントが削除されています。|Intune のアカウントとサブスクリプションがアクティブであることを確認します。 自分のアカウントの設定を見るには、アカウントにサインインしてください。|
 |**0x80043005**|クライアント コンピューターがインベントリから削除されています。|数時間待ってから、コンピューターにある古いバージョンのクライアント ソフトウェアをすべて削除し、クライアント ソフトウェアをもう一度インストールしてください。 そのための指示については、前述の「**Microsoft Intune 管理コンソールからクライアントをアンインストールできなかった場合の対処**」をご覧ください。|
 |**0x80043006**|アカウントで許可されている接続クライアントの最大数に達しています。|サービスにさらにコンピューターを登録する前に、接続クライアント ライセンスを追加購入する必要があります。|
-|**0x80043007**|インストーラーと同じフォルダーに証明書ファイルが見つかりませんでした。|インストールを開始する前にすべてのファイルを抽出してください。 抽出したファイルの名前や場所を変更しないでください。すべてのファイルが同じフォルダー内にないと、インストールが失敗します。 詳しくは、「[Microsoft Intune を使用して Windows PC クライアントをインストールする](/intune/deploy-use/install-the-windows-pc-client-with-microsoft-intune)」をご覧ください。.|
+|**0x80043007**|インストーラーと同じフォルダーに証明書ファイルが見つかりませんでした。|インストールを開始する前にすべてのファイルを抽出してください。 抽出したファイルの名前や場所を変更しないでください。すべてのファイルが同じフォルダー内にないと、インストールが失敗します。 詳しくは、「[Microsoft Intune を使用して Windows PC クライアントをインストールする](/intune/deploy-use/install-the-windows-pc-client-with-microsoft-intune)」を参照してください。|
 |**0x8024D015**、 **0x00240005**、 **0x80070BC2**、 **0x80070BC9**、 **0x80CFD015**|クライアント コンピューターの再起動が保留中になっているため、ソフトウェアをインストールできません。|コンピューターを再起動してから、クライアント ソフトウェアをもう一度インストールしてください。|
-|**0x80070032**|クライアント コンピューターが、クライアント ソフトウェアのインストールに必要な前提条件を満たしていません。|必要なすべての更新プログラムがクライアント コンピューターにインストールされていることを確認してから、クライアント ソフトウェアをもう一度インストールしてください。 クライアント ソフトウェアをインストールするための前提条件の詳細については、「[Microsoft Intune に使用するネットワーク インフラストラクチャの要件](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune)」をご覧ください。.|
-|**0x80043008**|Microsoft Online Management 更新ービスを開始できませんでした。|「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」の説明に従って、サポートにお問い合わせください。.|
-|**0x80043009**|クライアント コンピューターは、既にサービスに登録されています。|サービスを再登録する前に、クライアント コンピューターを削除する必要があります。 その方法については、「[Retire devices from Intune management (Microsoft Intune の管理からデバイスを削除する)](/intune/deploy-use/retire-devices-from-microsoft-intune-management)」をご覧ください。.|
-|**0x8004300B**|クライアントで実行されている Windows のバージョンがサポートされていないため、クライアント ソフトウェア インストール パッケージを実行できません。|Intune が、クライアント コンピューターで実行されている Windows のバージョンをサポートしていません。 サポートされるオペレーティング システムの一覧は、「[Microsoft Intune に使用するネットワーク インフラストラクチャの要件](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune)」をご覧ください。.|
-|**0xAB2**|Windows インストーラーが、カスタム動作に必要な VBScript ランタイムにアクセスできませんでした。|このエラーは、ダイナミック リンク ライブラリ (DLL) に基づくカスタム動作が原因で発生します。 DLL のトラブルシューティング時に、場合によっては「 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues (Microsoft サポート技術情報 198038: パッケージと展開の問題に役立つツール)](http://go.microsoft.com/fwlink/?LinkID=234255)」に記載されているツールを使用する必要があります。.|
+|**0x80070032**|クライアント コンピューターが、クライアント ソフトウェアのインストールに必要な前提条件を満たしていません。|必要なすべての更新プログラムがクライアント コンピューターにインストールされていることを確認してから、クライアント ソフトウェアをもう一度インストールしてください。 クライアント ソフトウェアをインストールするための前提条件の詳細については、「[Microsoft Intune に使用するネットワーク インフラストラクチャの要件](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune)」を参照してください。|
+|**0x80043008**|Microsoft Online Management 更新ービスを開始できませんでした。|「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」の説明に従って、サポートにお問い合わせください。|
+|**0x80043009**|クライアント コンピューターは、既にサービスに登録されています。|サービスを再登録する前に、クライアント コンピューターを削除する必要があります。 その方法については、「[Retire devices from Intune management](/intune/deploy-use/retire-devices-from-microsoft-intune-management)」 (Microsoft Intune の管理からデバイスを削除する) を参照してください。|
+|**0x8004300B**|クライアントで実行されている Windows のバージョンがサポートされていないため、クライアント ソフトウェア インストール パッケージを実行できません。|Intune が、クライアント コンピューターで実行されている Windows のバージョンをサポートしていません。 サポートされるオペレーティング システムの一覧は、「[Microsoft Intune に使用するネットワーク インフラストラクチャの要件](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune)」を参照してください。|
+|**0xAB2**|Windows インストーラーが、カスタム動作に必要な VBScript ランタイムにアクセスできませんでした。|このエラーは、ダイナミック リンク ライブラリ (DLL) に基づくカスタム動作が原因で発生します。 DLL のトラブルシューティング時に、場合によっては「 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues (Microsoft サポート技術情報 198038: パッケージと展開の問題に役立つツール)](http://go.microsoft.com/fwlink/?LinkID=234255)」に記載されているツールを使用する必要があります。|
 |**0x8004300f**|System Center Configuration Manager クライアントが既にインストールされているため、ソフトウェアをインストールすることはできません。|Configuration Manager クライアントを削除してから、クライアント ソフトウェアをもう一度インストールしてください。|
 |**0x80043010**|Open Mobile Alliance Device Management (OMADM) が既にインストールされているため、このソフトウェアはインストールできません。|OMADM クライアントの登録を解除してから、クライアント ソフトウェアをもう一度インストールしてください。|
 インストールの問題が解決しない場合は、「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」の説明に従って、サポートにお問い合わせください。 このとき、クライアント コンピューターの登録ログ (%*programfiles*%\Microsoft\OnlineManagement\Logs\Enrollment.log と %*userprofile*%\AppData\Local\Microsoft\OnlineManagement\Logs\Enrollement.log)、および Windows Update ログ (%*windir*%\windowsupdate.log) を手元に用意してください。
 
 ### 次のステップ
-このトラブルシューティング情報を使っても問題が解決しない場合は、「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」の説明に従って Microsoft サポートにお問い合わせください。.
+このトラブルシューティング情報を使っても問題が解決しない場合は、「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」の説明に従って Microsoft サポートにお問い合わせください。
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

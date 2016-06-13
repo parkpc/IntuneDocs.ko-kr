@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune の Windows Phone 8.1 ポリシー設定 | Microsoft Intune
+title: Windows Phone 8.1 ポリシー設定 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -29,11 +29,17 @@ ms.suite: ems
 
 ## 全般構成設定
 
-Microsoft Intune **Windows Phone 全般構成ポリシー**を使用して、Windows Phone 8.1 デバイスに次の設定を構成します。
+Microsoft Intune の **Windows Phone 全般構成ポリシー (Windows Phone 8.1 以降)** を使用して、Windows Phone 8.1 デバイスに次の設定を構成します。
 
 -   **モバイル デバイスのセキュリティ設定** – デバイスのさまざまな機能を制御できる定義済みの設定の一覧から選択します。
 
 -   **準拠しているアプリと非準拠アプリ** - 社内の準拠アプリまたは非準拠アプリの一覧を指定します。 Windows Phone デバイスは、これらのアプリのインストールをブロックまたは許可することができます。
+
+### 適用性の設定
+
+|設定の名前|説明|
+|----------------|----------------------------------|
+|**Windows 10 にすべての構成を適用する**|Windows Phone 8.1 デバイスに加え、Windows 10 Mobile デバイスに、このポリシーの設定を適用できます。|
 
 ### パスワードの設定
 
@@ -54,7 +60,7 @@ Microsoft Intune **Windows Phone 全般構成ポリシー**を使用して、Win
 
 |設定の名前|説明|Windows Phone 8|Windows Phone 8。1|
 |----------------|-----------------------------------------|
-|**モバイル デバイスの暗号化を要求する**|サポートされているモバイル デバイス上のデータの暗号化を要求します。<br>Windows Phone 8 デバイスの場合、これを **[はい]**に設定する必要があります。.|○|○|
+|**モバイル デバイスの暗号化を要求する**|サポートされているモバイル デバイス上のデータの暗号化を要求します。<br>Windows Phone 8 デバイスの場合、これを **[はい]**に設定する必要があります。|○|○|
 
 ### システムの設定
 
@@ -121,8 +127,7 @@ Microsoft Intune **Windows Phone 全般構成ポリシー**を使用して、Win
 |**アプリをインポートする**|コンマ区切り値ファイルで指定したアプリの一覧をインポートします。 ファイルの形式、アプリケーション名、発行者、アプリの URL を使用します。|
 |**編集**|選択したアプリの名前、発行者、および URL を編集します。|
 |**削除**|選択したアプリを一覧から削除します。|
-> [!IMPORTANT]
-> Windows Phone 8.1 のデバイス向けに許可されているアプリの一覧を指定する場合、この一覧にポータル サイトのアプリを追加する必要があります。追加しない場合はブロックされます。
+> [!IMPORTANT] Windows Phone 8.1 デバイス向けに許可されているアプリの一覧を指定する場合、この一覧にポータル サイトのアプリを追加する必要があります。追加しない場合はブロックされます。
 
 
 ### 準拠アプリと非準拠アプリに関するリファレンス情報
@@ -134,14 +139,14 @@ Microsoft Intune **Windows Phone 全般構成ポリシー**を使用して、Win
 
 アプリのページを開き、URL をクリップボードにコピーします。 準拠アプリおよび非準拠アプリの一覧で URL として使用できるようになります。
 
-**例:** Skype アプリのストアを検索します。 **http://www.windowsphone.com/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51** という URL を使用します。.
+**例:** Skype アプリのストアを検索します。 **http://www.windowsphone.com/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51** という URL を使用します。
 
 ## カスタム ポリシー設定 
 Microsoft Intune **Windows Phone カスタム構成ポリシー**を使用して、**Windows Phone 8.1 デバイス**で各機能の制御に使用できる OMA-URI (Open Mobile Alliance Uniform Resource Identifier) 設定を展開します。 これらの設定は、多くのデバイス製造元がデバイスの機能を制御するために使用する標準の設定です。
 
-この機能は、Intune 全般構成ポリシーで構成できない Windows Phone 設定を展開できるようにするためのものです。 これらのポリシーで構成できる設定については、「[Microsoft Intune ポリシーを使用してデバイスの設定と機能を管理する](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)」を参照してください。.
+この機能は、Intune 全般構成ポリシーで構成できない Windows Phone 設定を展開できるようにするためのものです。 これらのポリシーで構成できる設定については、「[Microsoft Intune ポリシーを使用してデバイスの設定と機能を管理する](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)」を参照してください。
 
-Windows Phone デバイスの OMA-URI 設定の作成については、[Windows Phone 8.1 の MDM プロトコルのドキュメント](http://technet.microsoft.com/library/dn499787.aspx)をご覧ください。.
+Windows Phone デバイスの OMA-URI 設定の作成については、[Windows Phone 8.1 の MDM プロトコルのドキュメント](http://technet.microsoft.com/library/dn499787.aspx)をご覧ください。
 
 ### 全般設定
 
@@ -169,6 +174,6 @@ Windows Phone デバイスの OMA-URI 設定の作成については、[Windows 
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

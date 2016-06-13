@@ -15,7 +15,7 @@ ms.assetid: 58eb0e7a-1321-4c66-a281-88fb01e72c1c
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -28,16 +28,16 @@ ms.suite: ems
 
 # Intune に Mac OS X デバイスを登録する
 
-Intune に Mac OS X デバイスを登録すると、会社のネットワーク、勤務先の電子メール アドレス、および作業ファイルにアクセスできるほか、会社のアプリも取得できます。 デバイスを登録した場合の詳細については、「[ポータル サイト アプリをインストールし、Intune にデバイスを登録するとどうなるか](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)」を参照してください。.
+Intune に Mac OS X デバイスを登録すると、会社のネットワーク、勤務先の電子メール アドレス、および作業ファイルにアクセスできるほか、会社のアプリも取得できます。 デバイスを登録した場合の詳細については、「[ポータル サイト アプリをインストールし、Intune にデバイスを登録するとどうなるか](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)」を参照してください。
 
-iOS デバイスを登録しようとしている場合は、「[Intune に iOS デバイスを登録する](enroll-your-device-in-intune-ios.md)」を参照してください。.
+iOS デバイスを登録しようとしている場合は、「[Intune に iOS デバイスを登録する](enroll-your-device-in-intune-ios.md)」を参照してください。
 
 
 Mac OS X デバイスを登録するには
 
 1.  Safari ブラウザーを使用して、[ポータル Web サイト](https://portal.manage.microsoft.com)を開き、通知バーをタップします。
 
-2.  **[このデバイスは登録されていないか、ポータル サイトで特定できません]** をタップします。.
+2.  **[このデバイスは登録されていないか、ポータル サイトで特定できません]** をタップします。
 
     ![device-not-enrolled](./media/1-macosx-enroll-tap-enroll.png) 
 
@@ -45,7 +45,7 @@ Mac OS X デバイスを登録するには
 
     ![tap-install-to-enroll](./media/2-macosx-enroll--install-button.png) 
 
-4.  **[管理プロファイルのインストール]** ダイアログ ボックスで、**[インストール]** をタップします。 資格情報の入力を求めるダイアログ ボックスが表示された場合は、ユーザー名とパスワードを入力し、**[続行]**  &gt;  **[インストール]** をタップします。.
+4.  **[管理プロファイルのインストール]** ダイアログ ボックスで、**[インストール]** をタップします。 資格情報の入力を求めるダイアログ ボックスが表示された場合は、ユーザー名とパスワードを入力し、**[続行]** &gt; **[インストール]** の順にタップします。
 
     ![install-management-profile](./media/3-macosx-enroll-tap-install.png) 
 
@@ -56,6 +56,6 @@ Mac OS X デバイスを登録するには
 ### 関連項目
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

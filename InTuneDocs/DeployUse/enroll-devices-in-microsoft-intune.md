@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune にデバイスを登録する | Microsoft Intune
+title: デバイスを登録する | Microsoft Intune
 description:
 keywords:
 author: NathBarn
@@ -27,6 +27,12 @@ ms.suite: ems
 
 # 管理するデバイスを Intune に登録する
 Microsoft Intune のモバイル デバイス管理 (MDM) では、登録を使用してデバイスを管理対象にし、リソースへのアクセスを許可します。 デバイスの登録方法は、デバイスの種類、所有権、および必要な管理レベルによって決まります。 "私物のデバイスの持ち込み" (BYOD) と企業所有のデバイス (COD) を使用するシナリオでは、登録プロセスが必要です。 オンプレミスの、またはクラウドでホストされている Exchange ActiveSync を使用している組織は、登録要件のない軽い管理が可能です。 Windows PC は、Intune クライアント ソフトウェアを使用して管理することもできます。
+
+###  サポートされるデバイス プラットフォーム
+
+Intune では、次のデバイス プラットフォームを管理できます。
+
+[!INCLUDE[mdm-supported-devices](../includes/mdm-supported-devices.md)]
 
 ## デバイスの登録を可能にする  
  登録は、ユーザーが個人のデバイスで会社のリソースにアクセスできるようにし、これらのデバイスが会社のリソースを保護するポリシーに準拠していることを管理者が保証できるようにします。 これは、Intune で "私物のデバイスの持ち込み" シナリオを可能にする最善の方法です。 管理者は、Intune コンソールで登録を有効にする必要があります。これを行うには、デバイスとユーザーに割り当てるライセンスの間で信頼関係を作成しなければならないことがあります。 その後、デバイスが登録されますが、この操作は、通常はユーザーが自分の職場または学校の資格情報を入力することで行います。 これで、デバイスが Intune からポリシーを受信し、リソースへのアクセス許可を取得するようになります。
@@ -58,6 +64,6 @@ Intune クライアント ソフトウェアを使用して管理されるコン
 [Intune を使用して Windows PC を管理する](manage-windows-pcs-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO4-->
 
 

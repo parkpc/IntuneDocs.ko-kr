@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune でデバイス グループ マッピングを使用してデバイスを分類する | Microsoft Intune
+title: デバイス グループのマッピングを使用してデバイスを分類する | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -45,19 +45,19 @@ Microsoft Intune の**デバイス グループ マッピング**を使用して
 必要に応じて、どのようなカテゴリでも構成することができます。
 
 ## デバイス グループ マッピングの構成方法
-1. 使用するデバイス カテゴリごとに、Intune のデバイス グループを作成します。 グループの作成方法については、「[Use groups to manage users and devices with Microsoft Intune](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)」 (Microsoft Intune でユーザーとデバイスの管理にグループを使用する) を参照してください。.
-2. [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[管理]** をクリックします。.
-3. **[管理]** ワークスペースで、**[モバイル デバイス管理]** を展開してから、**[デバイス グループ マッピング]** をクリックします。.
+1. 使用するデバイス カテゴリごとに、Intune のデバイス グループを作成します。 グループの作成方法については、「[Microsoft Intune でユーザーとデバイスの管理にグループを使用する](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)」を参照してください。
+2. [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[管理者]** をクリックします。
+3. **[管理]** ワークスペースで、**[モバイル デバイス管理]** を展開してから、**[デバイス グループ マッピング]** をクリックします。
 4. **[デバイス グループ マッピング]** ページで、デバイス グループ マッピングを有効にします。
 5. **[追加]** をクリックして、新しいマッピング ルールを作成します。
 6. **[デバイス グループ マッピング ルールの追加]** ダイアログ ボックスで、作成するカテゴリの名前を入力し、このカテゴリをマップするデバイスのコレクションをドロップダウン リストから選択します。 選択したら、**[追加]** をクリックします。
-7. カテゴリとグループの追加が完了したら、**[保存]** をクリックします。.
+7. カテゴリとグループの追加が完了したら、**[保存]** をクリックします。
 
 これで、デバイスを登録するユーザーに対して、構成したカテゴリの一覧が表示されます。 ユーザーがカテゴリを選択して登録を完了すると、選択したカテゴリに対応するデバイス グループにデバイスが追加されます。
 
 ### 関連項目
 [Microsoft Intune でユーザーとデバイスの管理にグループを使用する](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

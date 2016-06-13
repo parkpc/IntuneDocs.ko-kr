@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune でデバイスを保護する | Microsoft Intune
+title: デバイスを保護する | Microsoft Intune
 description:
 keywords:
 author: Robstackmsft
@@ -41,9 +41,9 @@ ms.suite: ems
 Intune では、[Microsoft Passport for Work](control-microsoft-passport-settings-on-devices-with-microsoft-intune.md) を統合できます。これは Active Directory または Azure Active Directory アカウントを使った Windows 10 以降の代替サインイン方法であり、パスワード、スマート カード、または仮想スマート カードの代わりに使用されます。
 
 ## Intune クライアントで管理されている Windows PC を保護する
-Intune は引き続き、ユーザーは登録しないが、Intune コンピューター クライアント ソフトウェアで管理する Windows PC のセキュリティ ポリシーをサポートします。 これらのポリシーで Windows PC をセキュリティ保護する方法については、「[Use policies to help protect Windows PCs that run the Intune client software (Intune クライアント ソフトウェアを搭載した Windows PC の保護に有用なポリシーを使用する)](policies-to-protect-windows-pcs-in-microsoft-intune.md)」を参照してください。.
+Intune は引き続き、ユーザーは登録しないが、Intune コンピューター クライアント ソフトウェアで管理する Windows PC のセキュリティ ポリシーをサポートします。 これらのポリシーで Windows PC をセキュリティ保護する方法については、「[Use policies to help protect Windows PCs that run the Intune client software](policies-to-protect-windows-pcs-in-microsoft-intune.md)」 (Intune クライアント ソフトウェアを搭載した Windows PC の保護に有用なポリシーを使用する) を参照してください。
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

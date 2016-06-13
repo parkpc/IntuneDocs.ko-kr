@@ -27,7 +27,7 @@ ms.suite: ems
 
 
 # デバイスを手動で同期する
-アプリのインストールに時間がかかりすぎる場合は、次の手順に従って Windows デバイスを手動で同期すると、インストールの高速化に役立つことがあります。 お使いのデバイスの種類に対応した手順に従ってください。
+アプリのインストールに時間がかかりすぎる場合は、次の手順に従って Windows デバイスを手動で同期すると、インストールの高速化に役立つことがあります。 一覧にあるバージョンのみがサポートされています。 お使いのデバイスの種類に対応する、上記「この記事の内容」セクションに示されているリンクを使用してください。
 
 * [[Windows] 10 Mobile](#windows-10-mobile)
 * [[Windows] 10 Desktop](#windows-10-desktop)
@@ -37,11 +37,11 @@ ms.suite: ems
 ## [Windows] 10 Mobile
 アプリのインストールを高速化するために Windows 10 Mobile デバイスを手動で同期するには:
 
-1. **[すべてのアプリ]** > **[設定]** > **[アカウント]** の順にタップします。.
+1. **[すべてのアプリ]** > **[設定]** > **[アカウント]** の順にタップします。
 
     ![win10m-sync-1-settings-accounts](./media/win10m-sync-1-settings-accounts.png)
     
-2. **[職場のアクセス]** をタップします。.
+2. **[職場のアクセス]** をタップします。
 
     ![win10m-sync-2-work-access](./media/win10m-sync-2-work-access.png)
     
@@ -58,15 +58,15 @@ ms.suite: ems
 ## Windows 10 Desktop
 アプリのインストールを高速化するために Windows 10 Desktop デバイスを手動で同期するには:
 
-1. 次に示す **[スタート]** ボタンをクリックし、**[設定]** をクリックします。.
+1. 次に示す **[スタート]** ボタンをクリックし、**[設定]** をクリックします。
 
     ![win10pc-sync-1-start-button](./media/win10pc-sync-1-start-button.png)
     
-2. **[設定]** ページで、**[アカウント]** をクリックします。.
+2. **[設定]** ページで、**[アカウント]** をクリックします。
  
     ![win10pc-sync-2-settings-accounts](./media/win10pc-sync-2-settings-accounts.png)
     
-3. **[アカウント]** ページで、**[職場のアクセス]** をクリックします。.
+3. **[アカウント]** ページで、**[職場のアクセス]** をクリックします。
     
     ![win10pc-sync-3-work-access](./media/win10pc-sync-3-work-access.png)
     
@@ -83,7 +83,7 @@ ms.suite: ems
 ## Windows Phone 8.1
 アプリのインストールを高速化するために Windows Phone 8.1 デバイスを手動で同期するには:
 
-1. **[すべてのアプリ]** > **[設定]** > **[会社アカウント]** の順にタップします。.
+1. **[すべてのアプリ]** > **[設定]** > **[会社アカウント]** の順にタップします。
 
     ![wp81-1-sync-settings-workplace](./media/wp81-1-sync-settings-workplace.png)
     
@@ -102,6 +102,6 @@ ms.suite: ems
 [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 

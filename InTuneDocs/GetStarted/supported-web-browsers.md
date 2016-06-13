@@ -27,13 +27,12 @@ ms.suite: ems
 
 # Microsoft Intune でサポートされている Web ブラウザー
 
-Intune をセットアップする前に、このトピックと「[What to know before you start Microsoft Intune (Microsoft Intune を開始する前に理解しておくこと)](what-to-know-before-you-start-microsoft-intune.md)」に挙げられているその他の要件を確認してください。.
+Intune をセットアップする前に、このトピックと「[What to know before you start Microsoft Intune (Microsoft Intune を開始する前に理解しておくこと)](what-to-know-before-you-start-microsoft-intune.md)」に挙げられているその他の要件を確認してください。
 
 |Intune の機能 |サポートされているブラウザー|
 |---------|---------|
 |Intune 管理コンソール     |  Internet Explorer 10 以降<br /><br />Google Chrome (バージョン 42 より前のバージョン)<br /><br />Mozilla Firefox <br /><br />**注:** Edge は管理コンソールでは現在サポートされていません。                      
-|Intune アカウント ポータル     | Internet Explorer 10 以降<br /><br />Google Chrome <br /><br />Mozilla Firefox<br /><br />**注:** Office 365 管理ポータルを使用して、Intune アカウント ポータルを置き換えている場合は、以下の「Office 365 管理ポータル」でブラウザーの一覧をご確認ください。    
-|Office 365 管理ポータル     |Internet Explorer 10 以降<br /><br />Google Chrome<br /><br />Mozilla Firefox <br /><br />Microsoft Edge  |
+|Office 365 管理ポータル     |すべてのブラウザー  |
 |ポータル Web サイト     |**モバイル デバイスの場合:** サポートされている各プラットフォームに対して既定の Web ブラウザーを使用します   <br /><br />**Windows PC の場合:** Internet Explorer 10 以降または Microsoft Edge<br /><br />**Mac OS X 10.9 以降の場合:** Apple Safari    |
 
 
@@ -43,6 +42,6 @@ Intune をセットアップする前に、このトピックと「[What to know
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO4-->
 
 

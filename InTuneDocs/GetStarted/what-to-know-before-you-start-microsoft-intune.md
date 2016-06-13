@@ -26,11 +26,22 @@ ms.suite: ems
 ---
 
 # Microsoft Intune を使い始める前に
+
 ## デバイスとアプリの一般的な管理機能
-[!INCLUDE[wit_firstref](../includes/wit_firstref_md.md)] のセットアップを開始する前に、まず「[Introduction to Intune (Intune の概要)](/intune/understand-explore/introduction-to-microsoft-intune)」を参照し、このセクションで説明されている [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] の機能をよく理解してください。 有料サブスクリプションのセットアップは、Intune の機能を十分に理解したうえで開始することが大切です。 最初は評価版のサブスクリプションを使用し、後から製品版のサブスクリプションに変換することができます。 詳しくは、 [Microsoft Intune の購入方法](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/Purchasing.aspx)に関するページをご覧ください。.
+Microsoft Intune のセットアップを開始する前に、まず「[Introduction to Intune](/intune/understand-explore/introduction-to-microsoft-intune)」 (Intune の概要) を参照し、このセクションで説明されている Intune の機能をよく理解してください。 有料サブスクリプションのセットアップは、Intune の機能を十分に理解したうえで開始することが大切です。 最初は評価版のサブスクリプションを使用し、後から製品版のサブスクリプションに変換することができます。 詳細については、[Microsoft Intune の購入方法](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/Purchasing.aspx)に関するページを参照してください。
 
 ### サーバーやイントラネットを必要としない、モバイル デバイスとコンピューターの管理
-モバイル デバイスやコンピューターがドメインに参加していない場合や職場にない場合でも、これらのデバイスを管理できます。 このため、[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] は、モバイルを使用している、または、地理的に分散している従業員がいる会社に最適です。
+次のモバイル デバイスとコンピューターを管理できます。
+
+-   Apple iOS 7.1 以降
+-   Google Android 4.0 以降 (Samsung KNOX を含む)
+-   Windows Phone 8.0 以降
+-   Windows RT と Windows 8.1 RT
+-   Windows 8.1 を実行している PC
+-   Windows 10 (Home、Pro、Education、および Enterprise バージョン) を実行している PC
+-   Mac OS X 10.9 以降
+
+これらのデバイスや PC がドメインに参加していない場合や職場にない場合でも、管理することができます。 そのため、Intune は、モバイルを使用している、または、地理的に分散している従業員がいる会社に最適です。 デバイスの管理の詳細については、「[デバイスを管理する方法を選択する](/Intune/Deploy-use/choose-how-to-manage-devices)」を参照してください。
 
 ### モバイル デバイスとコンピューターの暗号化を必須にする
 暗号化をサポートするモバイル デバイスで、暗号化の使用を必須にできます。 BitLocker ドライブ暗号化をサポートするコンピューターで、BitLocker ドライブ暗号化の使用を必須にすることもできます。 暗号化が有効なモバイル デバイスまたはコンピューターが紛失または盗難にあった場合、デバイスの記憶域メディアのデータは読み取れず、盗難からデータを保護できます。
@@ -45,10 +56,10 @@ ms.suite: ems
 ユーザーは、ポータル サイトを使用して、デバイスの登録、サイト ライセンスされたソフトウェアのインストール、IT 管理者の連絡先情報の検索を実行できます。
 
 ### 多要素認証のサポート
-[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] は多要素認証をサポートするようになっています。 詳細については、「[多要素認証を使用して Windows デバイスを保護する](/intune/deploy-use/protect-windows-devices-with-multi-factor-authentication)」を参照してください。.
+Intune では多要素認証 (MFA) がサポートされます。 詳細については、「[多要素認証を使用して Windows デバイスを保護する](/intune/deploy-use/protect-windows-devices-with-multi-factor-authentication)」を参照してください。
 
 ### 複数の言語で使用可能
-Intune は、中国語 (簡体字、繁体字)、チェコ語、デンマーク語、オランダ語、英語、フィンランド語、フランス語、ドイツ語、ギリシャ語、ハンガリー語、イタリア語、日本語、韓国語、ノルウェー語、ポーランド語、ポルトガル語、ルーマニア語、ロシア語、スペイン語、スウェーデン語、トルコ語で利用できます。 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] サービスがサポートされる国のリストについては、「[世界各国/地域でのご利用の可否](https://products.office.com/en-us/business/international-availability)」を参照してください。.
+Intune は、中国語 (簡体字、繁体字)、チェコ語、デンマーク語、オランダ語、英語、フィンランド語、フランス語、ドイツ語、ギリシャ語、ハンガリー語、イタリア語、日本語、韓国語、ノルウェー語、ポーランド語、ポルトガル語、ルーマニア語、ロシア語、スペイン語、スウェーデン語、トルコ語で利用できます。 Intune サービスがサポートされる国のリストについては、「[世界各国/地域でのご利用の可否](https://products.office.com/en-us/business/international-availability)」を参照してください。
 
 ## その他の要件と機能   
 以上の一般的な機能に加え、次の機能にも注目してください。
@@ -62,6 +73,6 @@ Intune は、中国語 (簡体字、繁体字)、チェコ語、デンマーク�
 - [Microsoft Intune のドメイン名](domain-names-for-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO4-->
 
 

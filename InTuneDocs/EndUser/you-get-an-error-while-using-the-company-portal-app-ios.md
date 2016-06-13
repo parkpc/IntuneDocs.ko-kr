@@ -15,7 +15,7 @@ ms.assetid: 09cd4ed6-1ce4-4530-9753-59808f01c6d7
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -40,6 +40,6 @@ iOS デバイスでポータル サイト アプリを使用している間に�
 ### 関連項目
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

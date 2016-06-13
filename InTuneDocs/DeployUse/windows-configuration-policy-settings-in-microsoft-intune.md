@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune の Windows ポリシー設定 | Microsoft Intune
+title: Windows ポリシー設定 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -26,7 +26,13 @@ ms.suite: ems
 ---
 
 # Microsoft Intune の Windows ポリシー設定
-Microsoft Intune **Windows 全般構成ポリシー**を使用して、登録済みの Windows 8 および Windows 8.1 デバイスの設定を構成します。
+Microsoft Intune の **Windows 全般構成ポリシー (Windows 8.1 以降)** を使用して、登録済みの Windows 8 および Windows 8.1 デバイスの設定を構成します。
+
+## 適用性の設定
+
+|設定の名前|説明|
+|----------------|----------------------------------|
+|**Windows 10 にすべての構成を適用する**|Windows 8、および Windows 8.1 デバイスに加え、Windows 10 デバイスに、このポリシーの設定を適用できます。|
 
 ## セキュリティ設定
 
@@ -47,7 +53,7 @@ Microsoft Intune **Windows 全般構成ポリシー**を使用して、登録済
 
 |設定の名前|説明|Windows 8.1 および Windows RT 8.1|Windows RT|
 |----------------|----------------------------------|--------------|
-|**モバイル デバイスの暗号化を要求する**<sup>1</sup>|デバイス上のファイルを必ず暗号化するようにします。<br>Windows Phone 8 デバイスの場合、これを **[はい]**に設定する必要があります。.|○|×|
+|**モバイル デバイスの暗号化を要求する**<sup>1</sup>|デバイス上のファイルを必ず暗号化するようにします。<br>Windows Phone 8 デバイスの場合、これを **[はい]**に設定する必要があります。|○|×|
 <sup>1</sup> Windows 8.1 が実行されているデバイスの追加情報
 
 -   Windows 8.1 が実行されているデバイスで暗号化を適用するには、 [Windows の 2014 年 12 月付け MDM クライアント更新プログラム](http://support.microsoft.com/kb/3013816) を各デバイスにインストールする必要があります。
@@ -119,6 +125,6 @@ Microsoft Intune **Windows 全般構成ポリシー**を使用して、登録済
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

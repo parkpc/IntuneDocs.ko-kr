@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune の Windows PC 管理機能 | Microsoft Intune
+title: Windows PC 管理機能 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -34,7 +34,7 @@ ms.suite: ems
 
 -   **マルウェア対策。**Intune には、マルウェアから PC を保護するのに役立つ Endpoint Protection が含まれています。
 
--   **リモート アシスタンス。**ユーザーは Intune を使用して、IT サポート スタッフに連絡できます。IT サポート スタッフは、Intune に含まれているリモート デスクトップ機能を使用してサポートを提供できます。
+-   **リモート アシスタンス。**ユーザーは Intune を使用して、IT サポート スタッフに連絡できます。IT サポート スタッフは、Intune に含まれているリモート デスクトップ機能を使用してサポートを提供できます (TeamViewer ソフトウェアが必要)。
 
 -   **ソフトウェア ライセンス管理。**使用可能なソフトウェア ライセンスの数と、そのうちの使用中のライセンスの数を追跡します。
 -   **アプリの展開。**管理対象の PC にソフトウェアを展開します。 クライアント ソフトウェアを使用して PC を管理するときは、一部のアプリ管理機能が利用できません。
@@ -46,11 +46,13 @@ Intune では、次の Windows バージョンを実行する PC を管理でき
 
 -   **Windows Vista** - Business、Enterprise、および Ultimate バージョン
 
--   **Windows 7** - Professional、Enterprise、および Ultimate バージョン (サービス パックなし、または SP1)
+-   **Windows 7** - Pro、Enterprise、および Ultimate バージョン (Service Pack なし、または SP1)
 
--   **Windows 8** - Professional および Enterprise バージョン
+-   **Windows 8** - Pro および Enterprise バージョン
 
--   **Windows 8.1** - Professional および Enterprise バージョン
+-   **Windows 8.1** - Pro および Enterprise バージョン
+
+- **Windows 10** - Home、Pro、Education、および Enterprise バージョン
 
 
 ## ハードウェアに最低限必要な条件
@@ -72,9 +74,9 @@ Intune では、次の Windows バージョンを実行する PC を管理でき
 |互換性のないクライアント ソフトウェアを削除する|Intune PC クライアント ソフトウェアをインストールする前に、その PC から次のクライアント ソフトウェアをアンインストールする必要があります。<br /><br />-   Configuration Manager のすべてのバージョン<br />-   Microsoft Systems Management Server (SMS) のすべてのバージョン|
 
 ### 関連項目
-[Microsoft Intune のモバイル デバイス管理機能](/intune/understand/mobile-device-management-capabilties-in-microsoft-intune.md)
+[Microsoft Intune のモバイル デバイス管理機能](./mobile-device-management-capabilities-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 

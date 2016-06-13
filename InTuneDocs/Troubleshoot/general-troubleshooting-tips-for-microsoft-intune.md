@@ -6,7 +6,7 @@ description:
 keywords:
 author: nbigman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/26/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -29,7 +29,7 @@ ms.suite: ems
 Microsoft Intune を展開した後、構成やクライアントに問題が発生する可能性があります。 以下のリソースは、問題の原因を特定し、問題を解決するのに役立ちます。
 
 > [!NOTE]
-> サポート リクエストを作成したり、既存のリクエストを確認したりするには、[ここ](https://portal.office.com/admin/default.aspx)をクリックして Office 365 管理センターに移動します。 サポート オプションについて詳しくは、「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」をご覧ください。.
+> サポート リクエストを作成したり、既存のリクエストを確認したりするには、[Office 365 管理センターにアクセスしてしてください](https://portal.office.com/admin/default.aspx)。 サポート オプションの詳細については、「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」を参照してください。
 ## 問題の定義
 
 -   どのように動作しますか?
@@ -46,6 +46,8 @@ Microsoft Intune を展開した後、構成やクライアントに問題が発
 
 -   ユーザーに認証の問題が発生する可能性はありますか?  可能性がある場合、ユーザーが Azure Active Directory を使用する他のサービスにログインできるかどうかを確認してください。 また、ユーザーが別のデバイスからログインできるかどうかも確認してください。
 
+-   サービスの状態を確認しましたか? Intune のサービス正常性は、[Office 365 管理ポータル](https://portal.office.com/Admin/Default.aspx)で監視できます。 左側のウィンドウで **[サービス正常性]** を選択します。 
+
 ## 利用可能なデータの収集
 
 -   デバイスのログ。 デバイスのログを収集する方法については、以下をご覧ください。
@@ -54,7 +56,7 @@ Microsoft Intune を展開した後、構成やクライアントに問題が発
   - [IT 管理者に Android の登録に関するエラーを送信する](/intune/enduser/send-enrollment-errors-to-your-it-administrator-android)
   - [IT 管理者に iOS の登録に関するエラーを送信する](/intune/enduser/send-errors-to-your-it-admin-ios.md)
 
--   管理コンソール データ。たとえば、ポリシー実装の問題の場合は、「[Microsoft Intune でユーザーとデバイスの管理にグループを使用する](/indune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)」に記載された説明に従って、目的のポリシーとその状態を調べる必要があります。.
+-   管理コンソール データ。たとえば、ポリシー実装の問題の場合は、「[Microsoft Intune でユーザーとデバイスの管理にグループを使用する](/indune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)」に記載された説明に従って、目的のポリシーとその状態を調べる必要があります。
 
 ## ソリューションの調査
 
@@ -64,7 +66,7 @@ Microsoft Intune を展開した後、構成やクライアントに問題が発
 
 -   サポートを依頼できます。 お客様が問題を特定し、利用可能なデータを収集するなら、Intune のサポートが問題の解決を支援しやすくなります。
 
-    サポート リクエストを作成するには[ここ](https://portal.office.com/admin/default.aspx)をクリックして Office 365 管理センターに移動します。 サポート オプションについて詳しくは、「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」をご覧ください。.
+    サポート リクエストを作成するには、[Office 365 管理センターにアクセスしてください](https://portal.office.com/admin/default.aspx)。 サポート オプションの詳細については、「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」を参照してください。
 
 ## コミュニティのリソース
 以下のコミュニティ リソースには、その他の有用な情報があります。
@@ -77,10 +79,10 @@ Microsoft Intune を展開した後、構成やクライアントに問題が発
 
 -   [Intune フォーラム](https://social.technet.microsoft.com/Forums/home?category=microsoftintune&filter=alltypes&sort=lastpostdesc)
 
-## 次のステップ
-以下のトピックには、特定の問題に関するトラブルシューティングのヘルプが含まれています。 この情報を使っても問題が解決しない場合は、「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」の説明に従って Microsoft サポートにお問い合わせください。.
+### 次のステップ
+以下のトピックには、特定の問題に関するトラブルシューティングのヘルプが含まれています。 この情報を使っても問題が解決しない場合は、「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」の説明に従って Microsoft サポートにお問い合わせください。
 
-[Microsoft Intune におけるエンドポイント保護のトラブルシューティング](troubleshoot-endpoint-protection-in-microsoft-intune.md)
+[Troubleshoot Endpoint Protection in Microsoft Intune](troubleshoot-endpoint-protection-in-microsoft-intune.md)
 
 [Microsoft Intune での会社のリソースへのアクセスに関する問題のトラブルシューティング](troubleshoot-company-resource-access-problems-with-microsoft-intune.md)
 
@@ -93,9 +95,8 @@ Microsoft Intune を展開した後、構成やクライアントに問題が発
 [Microsoft Intune でのクライアント セットアップのトラブルシューティング](troubleshoot-client-setup-in-microsoft-intune.md)
 
 [Microsoft Intune でのソフトウェア更新のトラブルシューティング](troubleshoot-software-updates-in-microsoft-intune.md)
-g
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO4-->
 
 

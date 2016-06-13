@@ -28,41 +28,7 @@ ms.suite: ems
 
 # ポータル サイト アプリをインストールし、Intune にデバイスを登録するとどうなるか
 
-ポータル サイト アプリをインストールしてデバイスを登録するとどうなるかを確認するには、お使いのデバイスに対応するリンクを選択してください。
-
-- [Windows 10](#windows-10)
-- [Windows 8.1 および Windows RT](#windows-8-1-and-windows-rt)
-- [Windows Phone 8.1 および Windows Phone 8](#windows-phone-8-1-and-windows-phone-8)
-- [Windows 7 および Vista](#windows-7-and-vista)
-
-## Windows 10
-ポータル サイト アプリをインストールし、このアプリを使用して Windows 10 Enterprise デバイスまたは Professional Intune デバイスを Intune に登録すると、ポータル サイト アプリを使用して次のことができるようになります。
-
--   会社のネットワークにアクセスし、電子メールや仕事用のファイルにアクセスする
-
--   ポータル サイトから会社のアプリを取得する
-
--   会社用の電子メール アカウントを自動的に構成する
-
--   携帯電話の紛失や盗難にあった場合、電話を工場出荷時設定にリセットする
-
-登録の手順については、「[Enroll your Windows device in Intune (Intune に Windows デバイスを登録する)](enroll-your-device-in-intune-windows.md)」を参照してください。 IT 管理者が対象のデバイスで確認できるものの詳細については、[デバイスを Intune に登録した場合に IT 管理者が確認できるもの](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)に関するページを参照してください。.
-
-コンピューターを追加した場合:
-
--   コンピューターにソフトウェアがインストールされ、IT 管理者がそのコンピューターを管理できるようになり、アプリケーションやサポート情報などの会社のリソースを入手できるようになります。 IT 管理者はこのソフトウェアを自動的に更新できます。
-
--   Intune Endpoint Protection がコンピューターにインストールされることがあります。 これは、ウイルスとマルウェアを確認するソフトウェアです。
-
--   IT 管理者は、ユーザーが個人的にインストールしたソフトウェアを含め、コンピューターにインストールされているすべてのソフトウェアのインベントリを確認できます。
-
--   使用条件への同意が必要になる場合があります。
-
--   IT 管理者は、ユーザー コンピューターのハード ドライブにあるデータを収集または削除することができます。 IT 管理者は、ハード ドライブ全体を削除することもできます。
-
--   IT 管理者は、コンピューターにアプリケーションと更新プログラムをインストールすることができます。
-
--   IT 管理者は、コンピューターにポリシーを施行することができます。 たとえば、コンピューターにパスワードまたは PIN を設定することが必須になり、パスワードの入力を何度も間違えると、コンピューターがロックされたり、コンピューターのハード ドライブからすべてのデータが削除されたりする可能性があります。
+ポータル サイト アプリをインストールしてデバイスを登録するとどうなるかを確認するには、お使いのデバイスに対応する上記の「この記事の内容」セクションに示されているリンクを使用します。 Windows 10 デバイスについては、[こちらのページ](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)を参照してください。
 
 ## Windows 8.1 および Windows RT
 ポータル サイト アプリをインストールし、このアプリを使用して Windows 8.1 Enterprise または Professional のデバイス、あるいは Windows RT デバイスを Intune に登録すると、ポータル サイト アプリを使用して次のことができるようになります。
@@ -75,7 +41,7 @@ ms.suite: ems
 
 -   携帯電話の紛失や盗難にあった場合、電話を工場出荷時設定にリセットする
 
-登録の手順については、「[Enroll your Windows device in Intune (Intune に Windows デバイスを登録する)](enroll-your-device-in-intune-windows.md)」を参照してください。 IT 管理者が対象のデバイスで確認できるものの詳細については、[デバイスを Intune に登録した場合に IT 管理者が確認できるもの](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)に関するページを参照してください。.
+登録の手順については、「[Enroll your Windows device in Intune (Intune に Windows デバイスを登録する)](enroll-your-device-in-intune-windows.md)」を参照してください。 IT 管理者が対象のデバイスで確認できるものの詳細については、「[デバイスを Intune に登録した場合に IT 管理者が確認できるもの](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)」を参照してください。
 
 コンピューターを追加した場合:
 
@@ -104,7 +70,7 @@ ms.suite: ems
 
 -   携帯電話の紛失や盗難にあった場合、電話を工場出荷時設定にリセットする
 
-登録の手順については、「[Enroll your Windows device in Intune (Intune に Windows デバイスを登録する)](enroll-your-device-in-intune-windows.md)」を参照してください。 IT 管理者が対象のデバイスで確認できるものの詳細については、[デバイスを Intune に登録した場合に IT 管理者が確認できるもの](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)に関するページを参照してください。.
+登録の手順については、「[Enroll your Windows device in Intune (Intune に Windows デバイスを登録する)](enroll-your-device-in-intune-windows.md)」を参照してください。 IT 管理者が対象のデバイスで確認できるものの詳細については、「[デバイスを Intune に登録した場合に IT 管理者が確認できるもの](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)」を参照してください。
 
 Windows Phone デバイスを追加すると、そのデバイスにアクセスする許可が IT 管理者に付与されます。 IT 管理者は次のような操作を実行できます。
 
@@ -141,7 +107,7 @@ Windows Phone デバイスを追加すると、そのデバイスにアクセス
 
 -   携帯電話の紛失や盗難にあった場合、電話を工場出荷時設定にリセットする
 
-IT 管理者が対象のデバイスで確認できるものの詳細については、[デバイスを Intune に登録した場合に IT 管理者が確認できるもの](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)に関するページを参照してください。.
+IT 管理者が対象のデバイスで確認できるものの詳細については、「[デバイスを Intune に登録した場合に IT 管理者が確認できるもの](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)」を参照してください。
 
 コンピューターを追加した場合:
 
@@ -163,6 +129,6 @@ IT 管理者が対象のデバイスで確認できるものの詳細につい�
 [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune のモバイル デバイス管理機能 | Microsoft Intune
+title: モバイル デバイス管理機能 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -66,12 +66,13 @@ Microsoft Intune では、サービスにデバイスを*登録*することに�
 
 |機能|説明|詳細情報|
 |--------------|-----------|--------------------|
-|インベントリとレポート|管理対象のデバイスと使用しているソフトウェアの詳細が記載されています。<br /><br />さまざまな方法 (デバイス プラットフォームや、デバイスが会社の基準に準拠しているかどうかなど) でこれらのレポートをフィルター選択できます。|[Understand Microsoft Intune operations by using reports](/intune/understand-explore/understand-microsoft-intune-operations-by-using-reports)|
+|インベントリとレポート|管理対象のデバイスと使用しているソフトウェアの詳細が記載されています。|[Microsoft Intune でインベントリを使用してデバイスを把握する](./deploy-use/understand-your-devices-with-inventory-in-microsoft-intune)|
+
 
 ### 関連項目
-[Microsoft Intune の Windows PC 管理機能](/intune/understand-explore/windows-pc-management-capabilities-in-microsoft-intune)
+[Microsoft Intune の Windows PC 管理機能](./windows-pc-management-capabilities-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

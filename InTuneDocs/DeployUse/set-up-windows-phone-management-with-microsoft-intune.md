@@ -29,10 +29,9 @@ ms.suite: ems
 # Microsoft Intune を使用して Windows Phone と Windows 10 Mobile の管理をセットアップする
 Microsoft Intune で Windows 10 Mobile または Windows Phone デバイスを管理するには、デバイスが Intune と通信できる必要があります。 これを簡略化する方法として、DNS レコードを作成できます。そうすると、ユーザーはサーバー アドレスを入力する必要がなくなります。 次の手順では、ユーザーの登録を簡略化する方法について説明します。  
 
-ほとんどのシナリオでは、ユーザーは Windows ストアからポータル サイト アプリをインストールできます。 また、Windows Phone 8.0 デバイスを管理する場合や、Windows Phone デバイスにポータル サイトを展開する必要がある場合は、ポータル サイト アプリをダウンロードして署名する必要があります。 「[Windows Phone 8.0 の管理をセットアップする](set-up-windows-phone-8.0-management-with-microsoft-intune.md)」を参照してください。.
+ほとんどのシナリオでは、ユーザーは Windows ストアからポータル サイト アプリをインストールできます。 また、Windows Phone 8.0 デバイスを管理する場合や、Windows Phone デバイスにポータル サイトを展開する必要がある場合は、ポータル サイト アプリをダウンロードして署名する必要があります。 「[Windows Phone 8.0 の管理をセットアップする](set-up-windows-phone-8.0-management-with-microsoft-intune.md)」を参照してください。
 
-1.  **Intune をセットアップする**
-    **Microsoft Intune** を[モバイル デバイス管理機関に設定](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)して、MDM の設定を行うことにより、モバイル デバイス管理を準備します (この作業をまだ行っていない場合)。
+1.  **Intune をセットアップする** **Microsoft Intune** を[モバイル デバイス管理機関に設定](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)して、MDM の設定を行うことにより、モバイル デバイス管理を準備します (この作業をまだ行っていない場合)。
 
 2.  **登録サーバーのアドレスの DNS エイリアスを設定する** (オプション)
 
@@ -51,17 +50,17 @@ Microsoft Intune で Windows 10 Mobile または Windows Phone デバイスを�
 
       **EnterpriseRegistration.windows.net** – 職場または学校のアカウントを使用して Azure Active Directory に登録される Windows 8.1 および Windows 10 Mobile デバイスをサポートします。
 
-    2.  [Intune 管理コンソール](http://manage.microsoft.com)で、**[管理]** &gt; **[モバイル デバイス管理]** &gt; **[Windows Phone]** の順にクリックします。.
+    2.  [Intune 管理コンソール](http://manage.microsoft.com)で、**[管理]** &gt; **[モバイル デバイス管理]** &gt; **[Windows Phone]** の順にクリックします。
 
       ![[Windows 用モバイル デバイス管理のセットアップ] ダイアログ ボックス](../media/windows-device-enrollment.png)
 
-    3.  **[検証済みドメイン名の指定]** ボックスに会社の Web サイトの検証済みドメインの URL を入力し、**[自動検出のテスト]** をクリックします。.
+    3.  **[検証済みドメイン名の指定]** ボックスに会社の Web サイトの検証済みドメインの URL を入力し、**[自動検出のテスト]** をクリックします。
 
 
 
-デバイスにポータル サイトを展開する場合を除き、追加の作業は必要ありません。  管理コンソールでの手順 2.、3.、および 4. は、無視してかまいません。
+デバイスにポータル サイトを展開する場合を除き、追加の作業は必要ありません。  管理コンソールでの手順 2. および 3. は、無視してかまいません。
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

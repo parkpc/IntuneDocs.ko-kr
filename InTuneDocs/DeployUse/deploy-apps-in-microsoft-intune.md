@@ -1,5 +1,5 @@
 ---
-title: Microsoft Intune でアプリを展開する | Microsoft Intune
+title: アプリを展開する | Microsoft Intune
 ms.custom: na
 ms.reviewer: na
 ms.service: microsoft-intune
@@ -9,7 +9,7 @@ ms.topic: article
 ms.assetid: 3b42019e-73da-4538-a496-212f11d5bf9b
 author: robstackmsft
 ---
-# Microsoft Intune でアプリを展開する
+# Deploy apps in Microsoft Intune (Microsoft Intune でアプリを展開する)
 
 このトピックの情報を使用して、Microsoft Intune アプリを展開できます。
 
@@ -19,9 +19,9 @@ author: robstackmsft
 
 ### アプリを展開するには
 
-1. [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[アプリ]**  &gt;  **[アプリ]** をクリックし、管理するアプリの一覧を表示します。
+1. [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[アプリ]** &gt; **[アプリ]** の順にクリックし、管理するアプリの一覧を表示します。
 
-2.  展開するアプリを選択し、**[展開の管理]** をクリックします。.
+2.  展開するアプリを選択し、**[展開の管理]** をクリックします。
 
 3.  *[&lt;アプリ名&gt;]* ダイアログ ボックスで、最初に **[グループの選択]** ページで、アプリを展開するユーザー グループまたはデバイス グループを選択します。
 
@@ -39,7 +39,7 @@ author: robstackmsft
     [モバイル アプリケーション管理ポリシーに対応する Microsoft アプリを確認してください。](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)
 
 6. 展開するアプリに Intune VPN プロファイルとの互換性がある場合、**[VPN プロファイル]** ページが表示されます。 このページで、展開した VPN プロファイルに iOS アプリを関連付けることができます。 VPN 接続は、アプリを起動するときに自動的に開きます。 VPN プロファイルを使用できるようにするには、**アプリごとの VPN** プロファイル設定を有効にする必要があります。
- プロファイルとアプリの関連付けのサポートなど、VPN プロファイルを構成する方法の詳細については、「[Microsoft Intune での VPN プロファイルを使用したユーザー作業への接続](vpn-connections-in-microsoft-intune.md)」を参照してください。.
+ プロファイルとアプリの関連付けのサポートなど、VPN プロファイルを構成する方法の詳細については、「[Microsoft Intune での VPN プロファイルを使用したユーザー作業への接続](vpn-connections-in-microsoft-intune.md)」を参照してください。
 
 ## 例
 
@@ -52,9 +52,9 @@ author: robstackmsft
 
 ## 次のステップ
 
-アプリケーションを展開した後、その進行状況を監視できます。 詳細については、「[Microsoft Intune でアプリを展開する](monitor-apps-in-microsoft-intune.md)」を参照してください。.
+アプリケーションを展開した後、その進行状況を監視できます。 詳細については、「[Monitor apps in Microsoft Intune](monitor-apps-in-microsoft-intune.md)」 (Microsoft Intune でアプリを監視する) を参照してください。
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

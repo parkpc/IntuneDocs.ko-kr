@@ -49,25 +49,25 @@ iOS アプリの複数のライセンスを購入するには、[Apple Volume Pu
 
 ## Apple VPP トークンを取得およびアップロードするには
 
-1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[管理者]** &gt; **[iOS および Mac OS X]** &gt;  **[Volume Purchase Program]** をクリックします。.
+1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[管理者]** &gt; **[iOS および Mac OS X]** &gt; **[Volume Purchase Program]** をクリックします。
 
 2.  もしまだであれば、**[Apple VPP アカウント]** リンクをクリックし、Volume Purchase Program for Business にサインアップします。 サインアップして、アカウントの Apple VPP トークンをダウンロードします。
 
-3.  Intune コンソールの **[Apple Volume Purchase Program (VPP) の管理]** ページで、**[VPP トークンのアップロード]** をクリックします。.
+3.  Intune コンソールの **[Apple Volume Purchase Program (VPP) の管理]** ページで、**[VPP トークンのアップロード]** をクリックします。
 
-4.  **[VPP トークンのアップロード]** ダイアログ ボックスで、VPP トークンの名前と Apple ID を入力または貼り付けて、**[アップロード]** をクリックします。.
+4.  **[VPP トークンのアップロード]** ダイアログ ボックスで、VPP トークンの名前と Apple ID を入力または貼り付けて、**[アップロード]** をクリックします。
 
-5.  警告ダイアログ ボックスで、後で異なる VPP アカウントに変更できないことを理解していることを示すチェック ボックスを選択して、**[はい]** をクリックします。.
+5.  警告ダイアログ ボックスで、後で異なる VPP アカウントに変更できないことを理解していることを示すチェック ボックスを選択して、**[はい]** をクリックします。
 
 **[Volume Purchase Program]** ページに、Apple VPP トークンに関する情報として、最終更新時刻や有効期限、Intune との最終同期時刻などが表示されます。
 
-**[今すぐ同期]** をクリックすれば、いつでも、Apple が保持しているデータと Intune を同期することができます。.
+**[今すぐ同期]** をクリックすれば、いつでも、Apple が保持しているデータと Intune を同期することができます。
 
-## ボリューム購入アプリをアップロードして展開するには
+## ボリューム購入アプリを展開するには
 
-1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[アプリ]** &gt; **[管理されているソフトウェア]** &gt; **[ボリューム購入されたアプリ]** をクリックします。.
+1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[アプリ]** &gt; **[管理されているソフトウェア]** &gt; **[ボリューム購入されたアプリ]** をクリックします。 この一覧には、Apple VPP サービスから同期されたアプリがすべて表示されます。
 
-2.  トピック「[Microsoft Intune でモバイル デバイスのアプリを追加する](add-apps-for-mobile-devices-in-microsoft-intune.md)」の指示に従って、アプリのアップロード、作成、展開を実行します。
+2.  展開するアプリを選択し、**[展開の管理]** をクリックし、「[Deploy apps in Microsoft Intune](deploy-apps-in-microsoft-intune.md)」 (Microsoft Intune でアプリを展開する) トピックの手順に従って、アプリのアップロード、作成、展開を完了します。
 
 アプリを **[必須]** インストールとしてデプロイすると、アプリをインストールする各ユーザーによってライセンスが使用されます。
 
@@ -75,22 +75,20 @@ iOS アプリの複数のライセンスを購入するには、[Apple Volume Pu
 
 対象となるデバイスを持つユーザーが初めて VPP アプリをインストールしようとすると、Apple Volume Purchase Program に参加するように求められます。 アプリのインストールを実行する前に、このプログラムに参加する必要があります。
 
-> [!TIP]
-> **[VPP 使用条件の状態]** 列を見ると、アプリが展開された各ユーザーの同意状態が分かります。
+> [!TIP] **[VPP 使用条件の状態]** 列を見ると、アプリが展開された各ユーザーの同意状態がわかります。
 
 ライセンスが 1 つもない場合、展開は失敗します。
 
 ## Apple VPP アプリを監視するには
 どの VPP アプリが展開されているか、ライセンスがいくつ使われているかを監視するには、**[アプリ]** ワークスペースで、**[管理されているソフトウェア]** &gt; **[ボリューム購入されたアプリ]** ノードを使います。
 
-> [!TIP]
-> また、アプリの **[フィルター]** を使って、各アプリのインストールの状態を調べることもできます。
+> [!TIP] アプリの **[フィルター]** を使って、各アプリのインストールの状態を調べることもできます。
 
 ### 関連項目
-[Microsoft Intune でモバイル デバイスのアプリを追加する](add-apps-for-mobile-devices-in-microsoft-intune.md)
+[Deploy apps in Microsoft Intune (Microsoft Intune でアプリを展開する)](deploy-apps-in-microsoft-intune.md)
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO4-->
 
 

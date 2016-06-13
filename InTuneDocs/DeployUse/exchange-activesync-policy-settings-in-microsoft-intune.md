@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune の Exchange ActiveSync ポリシー設定 | Microsoft Intune
+title: Exchange ActiveSync ポリシー設定 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -47,7 +47,7 @@ Microsoft Intune **Exchange ActiveSync** ポリシーを使用して、Exchange 
 
 |設定の名前|説明|
 |----------------|
-|**モバイル デバイスの暗号化を要求する**<sup>1</sup>|サポートされている場合にデバイス上のデータの暗号化を要求します。<br>Windows Phone 8 デバイスの場合、これを **[はい]** に設定する必要があります。.<br /><br />iOS デバイスでの暗号化を有効にするには、**[モバイル デバイスのロック解除にパスワードを必要とする]** 設定を有効にします。.|
+|**モバイル デバイスの暗号化を要求する**<sup>1</sup>|サポートされている場合にデバイス上のデータの暗号化を要求します。<br>Windows Phone 8 デバイスの場合、これを **[はい]**に設定する必要があります。<br /><br />iOS デバイスでの暗号化を有効にするには、 **[モバイル デバイスのロック解除にパスワードを必要とする]**設定を有効にします。|
 |**メモリ カードの暗号化を必要とする**|(サポートされているデバイス上で) SD カードなどの外部ストレージに保存されたデータの暗号化を要求します。
 <sup>1</sup> Windows 8.1 が実行されているデバイスの追加情報
 
@@ -86,6 +86,6 @@ Microsoft Intune **Exchange ActiveSync** ポリシーを使用して、Exchange 
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

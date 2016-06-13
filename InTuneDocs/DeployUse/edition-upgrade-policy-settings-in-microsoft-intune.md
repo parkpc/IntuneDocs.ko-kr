@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune のエディションのアップグレード ポリシー設定 | Microsoft Intune
+title: Windows エディションのアップグレード ポリシー設定 | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -44,11 +44,11 @@ Microsoft Intune の**エディションのアップグレード ポリシー**�
 |**説明**|必要に応じて、Intune コンソールでの識別に役立つポリシーの説明を入力します。
 |**アップグレード後のエディション**|対象とするデバイスのアップグレード後の Windows 10 Desktop、Windows 10 Holographic、または Windows 10 Mobile のバージョンをドロップダウン リストから選びます。
 |**プロダクト キー**|Microsoft から取得した、対象とするすべての Windows 10 デスクトップ デバイスをアップグレードするために使用できるプロダクト キーを指定します。<br>プロダクト キーを含むポリシーを作成した後でプロダクト キーを編集することはできません。 これは、セキュリティ上の理由からキーが隠されるためです。 プロダクト キーを変更するには、キー全体を再入力する必要があります。
-|**ライセンス ファイル**|**[参照]** をクリックし、Microsoft から取得した、対象とするデバイスのアップグレード後の Windows Holographic エディション用のライセンス情報を含むライセンス ファイルを選択します。
+|**ライセンス ファイル**|**[参照]** をクリックし、Microsoft から取得した、対象とするデバイスのアップグレード後の Windows Holographic、または Windows 10 Mobile エディション用のライセンス情報を含むライセンス ファイルを選択します。
 
 ### 関連項目
 [Microsoft Intune ポリシーを使用してデバイスの設定と機能を管理する](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 

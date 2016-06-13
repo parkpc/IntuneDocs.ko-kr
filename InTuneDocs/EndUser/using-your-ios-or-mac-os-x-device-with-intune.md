@@ -15,7 +15,7 @@ ms.assetid: 3d648819-b866-412b-bd19-ac4505eb5eaf
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -43,6 +43,7 @@ ms.suite: ems
 このセクションの情報は、iOS デバイスを Intune に登録した後に行える操作で役立ちます。
 
 - [デバイスで管理対象アプリを使用する](use-managed-apps-on-your-device-ios.md)</br>
+- [パスコードを設定または変更する](set-or-change-your-passcode-ios.md)</br>
 - [紛失したまたは盗難にあったデバイスをリセット (消去) する](reset-erase-your-lost-or-stolen-device-ios.md)</br>
 - [Microsoft による使用状況データの収集を無効にする](turn-off-microsoft-usage-data-collection-ios.md)</br>
 - [Intune からデバイスの登録を解除する](unenroll-your-device-from-intune-ios.md)</br>
@@ -65,6 +66,6 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO4-->
 
 

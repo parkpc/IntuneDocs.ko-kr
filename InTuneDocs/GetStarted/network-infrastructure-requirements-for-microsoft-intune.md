@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Microsoft Intune に使用するネットワーク インフラストラクチャの要件
-Microsoft Intune をセットアップする前に、このトピックと「[What to know before you start Microsoft Intune (Microsoft Intune を開始する前に理解しておくこと)](what-to-know-before-you-start-microsoft-intune.md)」に挙げられているその他の要件を確認してください。.
+Microsoft Intune をセットアップする前に、このトピックと「[What to know before you start Microsoft Intune](what-to-know-before-you-start-microsoft-intune.md)」 (Microsoft Intune を開始する前に理解しておくこと) に挙げられているその他の要件を確認してください。
 
 このトピックでは、ネットワーク インフラストラクチャが、管理しているデバイスと Intune サブスクリプションの管理に使用しているデバイスと、クラウドベース サービスに使用するインターネット上の Web サイトの間の通信を可能にするための要件を示します。
 
@@ -169,20 +169,10 @@ Microsoft Intune をセットアップする前に、このトピックと「[Wh
 また、コンテンツをキャッシュするプロキシ サーバーを使用して、Intune クライアントが使用する[ネットワーク帯域幅を減らす](network-bandwidth-use.md)ことができます。
 
 
-
-## Service to Service Connector の要件
-Service to Service Connector は、クラウドベースの Exchange のみをサポートします。また、内部設置型インフラストラクチャの要件はありません。
-
-このコネクタを使用するには、次の要件があります。
-
--   Exchange Server 2013 テナントがある Office 365 サブスクリプションを持っています。 テナントが Exchange Server 2013 であれば、コネクタは、その同じ環境内の Exchange Server 2010 をサポートします。
-
--   On-Premises Connector のインストールに使用するユーザー アカウントは、Intune のテナント管理者であり、Exchange Server 2013 を使用するライセンスを持つ Exchange テナントの管理者である必要があります。
-
 ### 関連項目
 [Microsoft Intune を使い始める前に](what-to-know-before-you-start-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

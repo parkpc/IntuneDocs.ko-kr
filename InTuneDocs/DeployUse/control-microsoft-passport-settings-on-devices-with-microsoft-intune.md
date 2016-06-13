@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Microsoft Intune を使ってデバイスで Microsoft Passport の設定を制御する | Microsoft Intune
+title: デバイスで Microsoft Passport の設定を制御する | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -34,11 +34,11 @@ Intune は、2 つの方法で Passport for Work と統合できます。
 
 -   Intune ポリシーを使って、ユーザーがログインに使用できるジェスチャと使用できないジェスチャを制御できます。
 
--   Passport for Work のキー格納プロバイダー (KSP) に認証証明書を格納できます。 詳細については、「[Secure resource access with certificate profiles in Microsoft Intune (Microsoft Intune の証明書プロファイルでリソースへのアクセスを保護する)](secure-resource-access-with-certificate-profiles.md)」を参照してください。.
+-   Passport for Work のキー格納プロバイダー (KSP) に認証証明書を格納できます。 詳細については、「[Secure resource access with certificate profiles in Microsoft Intune ](secure-resource-access-with-certificate-profiles.md)」 (Microsoft Intune の証明書プロファイルでリソースへのアクセスを保護する) を参照してください。
 
 ## Passport for Work ポリシーを作成するには
 
-1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[管理]**  &gt;  **[モバイル デバイス管理]**  &gt;  **[Windows]**  &gt;  **[Passport for Work]** をクリックして、次の [Passport for Work] ページを開きます。
+1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[管理]** &gt; **[モバイル デバイス管理]** &gt; **[Windows]** &gt; **[Passport for Work]** をクリックして、次の [Passport for Work] ページを開きます。
 
     ![[Passport for Work] ページ](../media/passport.png)
 
@@ -47,7 +47,7 @@ Intune は、2 つの方法で Passport for Work と統合できます。
     - **登録デバイスで Passport for Work を有効にする** - すべての Windows 10 デバイスで Passport for Work 設定を構成する場合は、この設定を選択します。
     - **未構成** - Intune で Passport for Work 設定を制御しない場合は、この設定を選択します。 Windows 10 デバイス上の既存の Passport for Work 設定が変更されることはありません。 画面上の他のすべての設定が無効になります。
 3.  **[登録デバイスで Passport for Work を有効にする]** を選択した場合は、すべての登録済みの Windows 10 デバイスと Windows 10 モバイル デバイスに適用される必須設定を構成します。
-3.  操作が完了したら、**[保存]** をクリックします。.
+3.  操作が完了したら、**[保存]** をクリックします。
 
 ## Passport for Work: PIN 設定
 
@@ -57,8 +57,7 @@ Intune は、2 つの方法で Passport for Work と統合できます。
     - **許可** - ユーザーは PIN で文字を使用できますが、使用は必須ではありません。
     - **必須** -ユーザーは PIN に文字を 1 文字以上含める必要があります。 たとえば、一般的なのは、少なくとも 1 つの大文字と 1 つの特殊文字の使用を要求する方法です。
     - **使用不可** (既定) - ユーザーは、これらの文字を PIN で使用することができません (これは、この設定を構成していない場合の動作でもあります)。
-    > [!TIP]
-    > 特殊文字には次のものが含まれます。**! " # $ % &amp; ' ( ) &#42; + , - . / : ; &lt; = &gt; ? @ [ \ ] ^ _ &#96; { &#124; } ~**.
+    > [!TIP]特殊文字には次のものが含まれます。**! " # $ % &amp; ' ( ) &#42; + , - . / : ; &lt; = &gt; ? @ [ \ ] ^ _ &#96; { &#124; } ~**
 - **PIN の有効期間 (日)** - その期間が経過したらエンドユーザーが PIN を変更する必要がある有効期間を指定することをお勧めします。 既定は 41 日です。 
 - **PIN の履歴を保存** - この設定を使用すると、以前に使用した PIN の再利用を制限できます。 既定では過去 5 回の PIN を再利用することはできません。
 
@@ -80,6 +79,6 @@ Microsoft Passport について詳しくは、Windows 10 ドキュメントの[�
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 
