@@ -29,10 +29,10 @@ ms.suite: ems
 
 Intune のデバイスのライフ サイクルは、最初に行われるデバイスの登録に始まり、その後いくつかのステップを遷移し、やがてデバイスが不要になると終了します。
 
-![デバイスのライフサイクル](./media/devicelifecycle_nobg.png "the Intune device lifecycle")
+![デバイスのライフサイクル](./media/device-lifecycle.png "the Intune device lifecycle")
 
 ## 登録
-今日のモバイル デバイス管理 (MDM) 戦略では、さまざまな携帯電話、タブレット、PC (iOS、Android、Windows、Mac OS X) を扱っています。 デバイスを管理できる必要がある場合 (一般には企業所有デバイスの場合)、最初の手順として[デバイスの登録をセットアップ](enroll-devices-in-microsoft-intune.md)します。 Windows PC については、Intune (MDM) を使用して登録するか、または [Intune クライアント ソフトウェアをインストールする](manage-windows-pcs-with-microsoft-intune.md)ことで、管理することもできます。.
+今日のモバイル デバイス管理 (MDM) 戦略では、さまざまな携帯電話、タブレット、PC (iOS、Android、Windows、Mac OS X) を扱っています。 デバイスを管理できる必要がある場合 (一般には企業所有デバイスの場合)、最初の手順として[デバイスの登録をセットアップ](enroll-devices-in-microsoft-intune.md)します。 Windows PC については、Intune (MDM) を使用して登録するか、または [Intune クライアント ソフトウェアをインストールする](manage-windows-pcs-with-microsoft-intune.md)ことで、管理することもできます。
 
 ## 構成
 デバイスを登録することは、最初の手順にすぎません。 Intune で用意されているあらゆるサービスを利用し、デバイスがセキュリティで保護され企業の標準に準拠するように保証するには、管理対象のデバイスの動作のほぼすべての特徴を構成するためのさまざまな**ポリシー**から選択することができます。 たとえば、会社のデータが格納されているデバイスに対してユーザーはパスワードを使用する必要がありますか。 パスワードを設定できます。 企業 Wifi を備えていますか。 自動的に構成することができます。 使用できる構成オプションの種類を次に示します。
@@ -51,6 +51,6 @@ Intune のデバイスのライフ サイクルは、最初に行われるデバ
 デバイスを紛失したか盗まれたとき、デバイスの交換が必要なとき、またはユーザーが別の職場に移動になったとき、通常はデバイスを[インベントリから削除またはワイプ](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)します。 それを行うには、デバイスをリセットする、デバイスを管理から削除する、またはデバイス上の企業データをワイプするなど、さまざまな方法があります。
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 
