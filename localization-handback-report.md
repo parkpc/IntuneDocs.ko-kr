@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [InTuneDocs\Troubleshoot\troubleshoot-software-updates-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c22ddd554928b394e14742b8ba7d583d390d1c44/InTuneDocs/Troubleshoot/troubleshoot-software-updates-in-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#81bd50adf4911b71fd0ca9c02cd25b385eed7f321147)
 
 ## Item Details
+##### <a name='81bd50adf4911b71fd0ca9c02cd25b385eed7f321147'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-software-updates-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c22ddd554928b394e14742b8ba7d583d390d1c44/InTuneDocs/Troubleshoot/troubleshoot-software-updates-in-microsoft-intune.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\Troubleshoot\troubleshoot-software-updates-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/5561fd7edf7978ea85d1a95a4546e6028f101422/InTuneDocs/Troubleshoot/troubleshoot-software-updates-in-microsoft-intune.md)
+* Handoff File: [troubleshoot-software-updates-in-microsoft-intune.199be702423a42962a235744dec39a4cff032e5a.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/85d001239ce5ad593209dfb68f41f64fd23f0e1a/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/troubleshoot-software-updates-in-microsoft-intune.199be702423a42962a235744dec39a4cff032e5a.ja-jp.xlf)
+* Handoff Datetime: 2016-06-01 17:22:37
+* Handoff Reason: Include
+* Archive File: [troubleshoot-software-updates-in-microsoft-intune.199be702423a42962a235744dec39a4cff032e5a.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e7dffecc274f7ea830b60a451f0c64865f064100/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/troubleshoot-software-updates-in-microsoft-intune.199be702423a42962a235744dec39a4cff032e5a.ja-jp.xlf)
+* Archive Datetime: 2016-06-02 02:38:18
+* Handback File: [troubleshoot-software-updates-in-microsoft-intune.199be702423a42962a235744dec39a4cff032e5a.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/d2b0af0141a7cae0abb02965f7ea7b61cb715d76/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/troubleshoot-software-updates-in-microsoft-intune.199be702423a42962a235744dec39a4cff032e5a.ja-jp.xlf)
+* Handback Datetime: 2016-06-14 23:29:45
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
