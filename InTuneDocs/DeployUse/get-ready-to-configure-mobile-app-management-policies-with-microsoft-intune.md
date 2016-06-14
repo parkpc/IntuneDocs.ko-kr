@@ -27,9 +27,19 @@ ms.suite: ems
 
 # Microsoft Intune でのモバイル アプリ管理ポリシーの作成および展開
 このトピックでは、Azure ポータルでモバイル アプリ管理ポリシー (MAM) を作成する前に必要な作業を説明します。
-現在 **Intune 管理コンソール**を使用してデバイスを管理している場合は、Intune に登録済みのデバイスのアプリをサポートする MAM ポリシーを [Intune 管理コンソール](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)を使用して作成できます。.
+
+Azure ポータルは MAM ポリシーを作成するための新しい管理コンソールです。このポータルを使用して、MAM ポリシーを作成することをお勧めします。 Azure ポータルでは、次の MAM シナリオをサポートします。
+- Intune に登録されたデバイス
+- サードパーティの MDM ソリューションで管理されるデバイス
+- MDM ソリューション (BYOD) で管理されないデバイス
+
+初めて Azure ポータルを使用する場合は、「[Azure portal for Microsoft Intune MAM policies (Microsoft Intune MAM ポリシーの Azure ポータル)](azure-portal-for-microsoft-intune-mam-policies.md)」トピックで概要を確認してください。
+
+デバイスの管理に **Intune 管理コンソール**を使用している場合、**Intune 管理コンソール**を使用して Intune に登録したデバイスのアプリをサポートする MAM ポリシーを作成できますが、Intune に登録されているデバイスでも Azure ポータルを使用することをお勧めします。 Intune 管理コンソールを使用して MAM ポリシーを作成する手順については、[ここ](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)を参照してください。
+
 >[!IMPORTANT]
-> Intune 管理コンソールでは、MAM ポリシー設定の一部が表示されない可能性があります。 Azure ポータルは MAM ポリシーを作成するための新しい管理コンソールです。
+> Intune 管理コンソールでは、MAM ポリシー設定の一部が表示されない可能性があります。 Intune 管理コンソールと Azure ポータルの両方で MAM ポリシーを作成した場合、Azure ポータルのポリシーがアプリに適用され、ユーザーに展開されます。
+
 
 ##  サポートされているプラットフォーム
 - iOS 8.1 以降
@@ -37,28 +47,31 @@ ms.suite: ems
 - Android 4 以降
 
 ##  サポートされているアプリ
-サポートされているアプリの完全な一覧については、Microsoft Intune アプリケーション パートナー ページの [Microsoft Intune モバイル アプリケーション ギャラリー](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)を参照してください。
-アプリをクリックし、サポートされるシナリオ、プラットフォーム、アプリのマルチ ID 対応を確認してください。
+* **Microsoft アプリ:** これらのアプリには Intune アプリ SDK が組み込まれているので、MAM ポリシーを適用する前に必要な処理はありません。
+サポートされている Microsoft アプリの完全な一覧については、Microsoft Intune アプリケーション パートナー ページの [Microsoft Intune モバイル アプリケーション ギャラリー](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)を参照してください。 アプリをクリックし、サポートされるシナリオ、プラットフォーム、アプリのマルチ ID 対応を確認してください。
+* 社内で構築した**基幹業務アプリ:** MAM ポリシーを適用する前に、Intune アプリ SDK を含めるようにアプリを準備する必要があります。
+
+  * Intune で管理されているデバイスについては、「[Decide how to prepare apps for MAM](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)」 (MAM 用にアプリを準備する方法を決める) を参照してください。
+  * 従業員が所有するデバイスなど管理対象ではないデバイスや、サードパーティのモバイル デバイス管理ソリューションで管理されているデバイスの場合は、「[Microsoft Intune に登録されていないデバイスの基幹業務アプリとデータを保護する](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)」を参照してください。
 
 MAM ポリシーを構成する**前提条件**として、以下のものが必要です。
 
 -   **Microsoft Intune サブスクリプション**。    アプリに MAM ポリシーを使用するには、エンドユーザーに [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] ライセンスが必要です。
 
--   **モバイル デバイス管理機関**を **Intune** または **Configuration Manager** に設定する必要があります。どちらに設定するかは、デバイスの管理に Intune のみを使用するのか、それとも Intune と統合された Configuration Manager を使用するのかによります。 O365 の組み込みモバイル デバイス管理を使用している場合は、Intune サブスクリプションを購入して、[モバイル デバイス管理機関を Intune に設定する](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)必要があります。.
 -   **Office 365 (O365)** サブスクリプション。これは、以下で必要となります。
   - 複数の ID をサポートするアプリに MAM ポリシーを適用する。
   - SharePoint Online および Exchange Online 作業アカウントを作成する。 Exchange On-Premises と SharePoint On-Premises はサポートされていません。
+-    **Skype for Business Online** で**先進認証を有効にします**。 Microsoft Connect にログインし、[このフォーム](https://connect.microsoft.com/office/Survey/NominationSurvey.aspx?SurveyID=17299&ProgramID=8715)に入力して、先進認証プログラムに登録されるようにします。
 
 
 - ユーザーを作成するための **Azure Active Directory (Azure AD)**。 エンドユーザーがアプリを起動して作業用の資格情報を入力すると、Azure AD がユーザーを認証します。
 
-    > [!NOTE]
-    > [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] コンソールを使用してユーザーを設定する場合、今後、MAM ポリシー構成は Azure ポータルに移行していき、このポータルを使用するには、Office 365 ポータルを使用して Azure AD ユーザー グループを設定する必要があることにご注意ください。
+    > [!NOTE][!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] コンソールを使用してユーザーを設定する場合、今後、MAM ポリシー構成は Azure ポータルに移行していき、このポータルを使用するには、Office 365 ポータルを使用して Azure AD ユーザー グループを設定する必要があることにご注意ください。
 
 
 ## ユーザーの作成と Microsoft Intune ライセンスの割り当て
 
-1. Intune サブスクリプションが必要です。デバイスを管理するために現在 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] を使用している場合、[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] サブスクリプションを既に所有しています。  EMS ライセンスを購入している場合も、[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] サブスクリプションを所有しています。 MAM 機能を調べるために [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] を試してみる場合は、試用アカウントを[ここ](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/)から取得できます。.
+1. Intune サブスクリプションが必要です。デバイスを管理するために現在 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] を使用している場合、[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] サブスクリプションを既に所有しています。  EMS ライセンスを購入している場合も、[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] サブスクリプションを所有しています。 MAM 機能を調べるために [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] を試してみる場合は、試用アカウントを[ここ](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/)から取得できます。
 
     自分が [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] サブスクリプションを所有しているかどうかを確認するには、課金情報のページをご覧ください。  サブスクリプションの下で、[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] が "**Active**" になっているはずです。
 
@@ -87,16 +100,16 @@ MAM ポリシーを構成する**前提条件**として、以下のものが必
 
 ## ユーザーへの共同作成者ロールの割り当て
 
-**全体管理者** には Azure ポータルへのアクセス権があります。  その他の管理ユーザーもポリシーを構成して他のモバイル アプリ管理タスクを実行できるようにする場合は、次に示す方法で、ユーザーに **共同作成者ロール** を割り当てることができます。
+**全体管理者** には [Azure ポータル](https://portal.azure.com)へのアクセス権があります。  その他の管理ユーザーもポリシーを構成して他のモバイル アプリ管理タスクを実行できるようにする場合は、次に示す方法で、ユーザーに **共同作成者ロール** を割り当てることができます。
 
 
-1.  **[設定]** ブレードの **[リソース管理]** セクションで、**[ユーザー]** をクリックします。.
+1.  **[設定]** ブレードの **[リソース管理]** セクションで、**[ユーザー]** をクリックします。
 
     ![Azure ポータルの [ユーザー] ブレードのスクリーンショット](../media/AppManagement/AzurePortal_MAM_AddUsers.png)
 
 2.  **[追加]** をクリックして **[アクセスの追加]** ブレードを開きます。
 
-3.  **[ロールの選択]**、**[共同作成者ロール]** の順にクリックします。.
+3.   **[ロールの選択]**、 **[共同作成者ロール]**の順にクリックします。
 
     ![Azure ポータルの [ロールの選択] ブレードのスクリーンショット](../media/AppManagement/AzurePortal_MAM_AddRole.png)
 
@@ -104,13 +117,12 @@ MAM ポリシーを構成する**前提条件**として、以下のものが必
 
     ![Azure ポータルの [ユーザーの追加] ブレードのスクリーンショット](../media/AppManagement/AzurePortal_MAM_AddusertoRole.png)
 
-    > [!IMPORTANT]
-    > [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] ライセンスが割り当てられていないユーザーを選んだ場合、そのユーザーはポータルにアクセスできません。
+    > [!IMPORTANT][!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] ライセンスが割り当てられていないユーザーを選んだ場合、そのユーザーはポータルにアクセスできません。
 
 ## 次のステップ
 [Microsoft Intune でのモバイル アプリ管理ポリシーの作成および展開](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 

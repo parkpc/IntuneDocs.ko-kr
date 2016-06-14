@@ -15,7 +15,7 @@ ms.assetid: a2467c02-aac5-41c8-b788-cbda830941ef
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -98,11 +98,11 @@ ms.suite: ems
 
 -   デバイスがローミング モード中の自動ファイル同期を有効または無効にする。 自動ファイル同期が許可されている場合、ローミング料金がかかる可能性があります。
 
-デバイスを登録する方法の手順については、「[Enroll your iOS device in Intune (Intune に iOS デバイスを登録する)](enroll-your-device-in-intune-ios.md)」または「[Enroll your Mac OS X device in Intune (Intune に Mac OS X デバイスを登録する)](enroll-your-device-in-intune-mac-os-x.md)」を参照してください。.
+デバイスを登録する方法の手順については、「[Intune に iOS デバイスを登録する](enroll-your-device-in-intune-ios.md)」または「[Intune に Mac OS X デバイスを登録する](enroll-your-device-in-intune-mac-os-x.md)」を参照してください。
 
 ### 関連項目
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 
