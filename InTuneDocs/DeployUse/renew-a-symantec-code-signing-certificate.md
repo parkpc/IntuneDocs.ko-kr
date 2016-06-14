@@ -59,7 +59,7 @@ ms.suite: ems
 
 2.  [Intune 管理コンソール](https://admin.manage.microsoft.com) (https://admin.manage.microsoft.com) を開き、**[管理者]** &gt; **[モバイル デバイス管理]** &gt; **[Windows Phone]** の順に進み、**[署名済みアプリのアップロード]** をクリックします。.
 
-3.  新しく署名したポータル サイトをアップロードします。 You’ll need the newly signed SSP.xap and the new .PFX file you received from Symantec or the Application enrollment token that wを created with this new .PFX file.
+3.  新しく署名したポータル サイトをアップロードします。 新しく署名した SSP.xap と、Symantec から送信された新しい .PFX ファイルまたはこの新しい .PFX ファイルを使用して作成されたアプリケーション登録トークンが必要になります。
 
 4.  アップロードが完了したら、 **[ソフトウェア]**  ワークスペースで古いバージョンのポータル サイトを削除します。
 
