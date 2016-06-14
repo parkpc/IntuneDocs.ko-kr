@@ -4221,14 +4221,14 @@
 
 ##### <a name='566a226c19825990c6a34bffbbd9d1cd6a242ddb226'></a> Source: [InTuneDocs\DeployUse\renew-a-symantec-code-signing-certificate.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/renew-a-symantec-code-signing-certificate.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\DeployUse\renew-a-symantec-code-signing-certificate.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/4d39a040399090b0d431556a0d19de6e0ea68806/InTuneDocs/DeployUse/renew-a-symantec-code-signing-certificate.md)
+* Target File: [InTuneDocs\DeployUse\renew-a-symantec-code-signing-certificate.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/1252df7d67da2fd90770c2b417c0f4c356bbd98f/InTuneDocs/DeployUse/renew-a-symantec-code-signing-certificate.md)
 * Handoff File: [renew-a-symantec-code-signing-certificate.766f5519e37d8349b3f71ed0408a992ecdb90d5e.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/f96d9533afbded96610753021f837ad73a186d92/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/renew-a-symantec-code-signing-certificate.766f5519e37d8349b3f71ed0408a992ecdb90d5e.ja-jp.xlf)
 * Handoff Datetime: 2016-05-01 17:39:51
 * Handoff Reason: Include
 * Archive File: [renew-a-symantec-code-signing-certificate.766f5519e37d8349b3f71ed0408a992ecdb90d5e.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/5187a147c8ee08f069c82a54c2478f66fa5eb97a/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/renew-a-symantec-code-signing-certificate.766f5519e37d8349b3f71ed0408a992ecdb90d5e.ja-jp.xlf)
 * Archive Datetime: 2016-05-08 11:37:33
-* Handback File: [renew-a-symantec-code-signing-certificate.766f5519e37d8349b3f71ed0408a992ecdb90d5e.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/c585b9217af0c834ddf1560f3e3c6a45f02dcd6f/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/renew-a-symantec-code-signing-certificate.766f5519e37d8349b3f71ed0408a992ecdb90d5e.ja-jp.xlf)
-* Handback Datetime: 2016-05-27 00:21:43
+* Handback File: [renew-a-symantec-code-signing-certificate.766f5519e37d8349b3f71ed0408a992ecdb90d5e.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/1cf7c581def5b942fd72aa1d98a2ea8721d3dee8/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/renew-a-symantec-code-signing-certificate.766f5519e37d8349b3f71ed0408a992ecdb90d5e.ja-jp.xlf)
+* Handback Datetime: 2016-06-14 02:41:07
 * [Back to Top](#report-top)
 
 ##### <a name='7fc97e21fa7e57d8585c421ac12ff0d3c4b366a0227'></a> Source: [InTuneDocs\DeployUse\resolve-gpo-and-microsoft-intune-policy-conflicts.md](https://github.com/Microsoft/IntuneDocs-pr/blob/211543b75e2bcda85cd74ab34c254d70f036eebd/InTuneDocs/DeployUse/resolve-gpo-and-microsoft-intune-policy-conflicts.md)
