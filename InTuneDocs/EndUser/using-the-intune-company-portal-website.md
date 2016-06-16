@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/03/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: a26d9e3c-8f58-4494-9571-fc88ba91852e
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mamoriss
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -42,7 +42,7 @@ ms.suite: ems
 
 -   [デバイスの手動同期による、低速アプリ インストールの高速化](sync-your-device-manually-cpwebsite.md)
 
--   IT 管理者の連絡先情報の検索 (IT 管理者が構成している場合)
+-   IT 管理者の連絡先情報の検索 (IT 管理者が構成している場合)。 その情報が見つからない場合は、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)に記載されていないかご確認ください。
 
 -   会社または学校のポリシーに準拠しているかどうかを含む、デバイスの詳細の表示
 
@@ -55,6 +55,6 @@ ms.suite: ems
 - [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

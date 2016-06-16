@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/08/2016
 ms.topic: get-started-article
 ms.prod:
 ms.service: microsoft-intune
@@ -27,52 +27,26 @@ ms.suite: ems
 
 # Microsoft Intune を使い始める前に
 
-## デバイスとアプリの一般的な管理機能
-Microsoft Intune のセットアップを開始する前に、まず「[Introduction to Intune](/intune/understand-explore/introduction-to-microsoft-intune)」 (Intune の概要) を参照し、このセクションで説明されている Intune の機能をよく理解してください。 有料サブスクリプションのセットアップは、Intune の機能を十分に理解したうえで開始することが大切です。 最初は評価版のサブスクリプションを使用し、後から製品版のサブスクリプションに変換することができます。 詳細については、[Microsoft Intune の購入方法](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/Purchasing.aspx)に関するページを参照してください。
+Microsoft Intune のセットアップを開始する前に、次の要件を確認します。
 
-### サーバーやイントラネットを必要としない、モバイル デバイスとコンピューターの管理
-次のモバイル デバイスとコンピューターを管理できます。
-
--   Apple iOS 7.1 以降
--   Google Android 4.0 以降 (Samsung KNOX を含む)
--   Windows Phone 8.0 以降
--   Windows RT と Windows 8.1 RT
--   Windows 8.1 を実行している PC
--   Windows 10 (Home、Pro、Education、および Enterprise バージョン) を実行している PC
--   Mac OS X 10.9 以降
-
-これらのデバイスや PC がドメインに参加していない場合や職場にない場合でも、管理することができます。 そのため、Intune は、モバイルを使用している、または、地理的に分散している従業員がいる会社に最適です。 デバイスの管理の詳細については、「[デバイスを管理する方法を選択する](/Intune/Deploy-use/choose-how-to-manage-devices)」を参照してください。
-
-### モバイル デバイスとコンピューターの暗号化を必須にする
-暗号化をサポートするモバイル デバイスで、暗号化の使用を必須にできます。 BitLocker ドライブ暗号化をサポートするコンピューターで、BitLocker ドライブ暗号化の使用を必須にすることもできます。 暗号化が有効なモバイル デバイスまたはコンピューターが紛失または盗難にあった場合、デバイスの記憶域メディアのデータは読み取れず、盗難からデータを保護できます。
-
-### ハードウェアとソフトウェアのインベントリとレポートの生成
-会社で使用しているハードウェアとソフトウェアの情報を収集し、ハードウェアのアップグレード周期を計画したり、管理対象のデバイスに不要なソフトウェアがインストールされているかどうかを特定したりできます。
-
-### モバイル デバイスとコンピューターの監視
-モバイル デバイスまたはコンピューターに問題があるときに通知するアラートを作成したり、アラートで電子メール通知をトリガーして適切な担当者に問題を知らせたりできます。
-
-### IT 用 "セルフサービス" モデルの提供
-ユーザーは、ポータル サイトを使用して、デバイスの登録、サイト ライセンスされたソフトウェアのインストール、IT 管理者の連絡先情報の検索を実行できます。
-
-### 多要素認証のサポート
-Intune では多要素認証 (MFA) がサポートされます。 詳細については、「[多要素認証を使用して Windows デバイスを保護する](/intune/deploy-use/protect-windows-devices-with-multi-factor-authentication)」を参照してください。
-
-### 複数の言語で使用可能
-Intune は、中国語 (簡体字、繁体字)、チェコ語、デンマーク語、オランダ語、英語、フィンランド語、フランス語、ドイツ語、ギリシャ語、ハンガリー語、イタリア語、日本語、韓国語、ノルウェー語、ポーランド語、ポルトガル語、ルーマニア語、ロシア語、スペイン語、スウェーデン語、トルコ語で利用できます。 Intune サービスがサポートされる国のリストについては、「[世界各国/地域でのご利用の可否](https://products.office.com/en-us/business/international-availability)」を参照してください。
-
-## その他の要件と機能   
-以上の一般的な機能に加え、次の機能にも注目してください。
-
-- [Intune でサポートされている Web ブラウザー](supported-web-browsers.md)</br>
-- [Microsoft Intune に使用するネットワーク インフラストラクチャの要件](network-infrastructure-requirements-for-microsoft-intune.md)</br>
-- [Microsoft Intune の管理者アカウント、Web サイト、アクセス許可](administrative-accounts-websites-perms.md)</br>
-- [Microsoft Intune ポータル サイト](microsoft-intune-company-portal.md)</br>
-- [Microsoft クラウド サービスおよび製品と Intune の統合](integration-with-cloud-services.md)</br>
-- [Intune のネットワーク帯域幅の使用](network-bandwidth-use.md)</br>
+- [サポートされるモバイル デバイスとコンピューター](supported-mobile-devices-and-computers.md)
+- [Intune でサポートされている Web ブラウザー](supported-web-browsers.md)
+- [Microsoft Intune に使用するネットワーク インフラストラクチャの要件](network-infrastructure-requirements-for-microsoft-intune.md)
+- [Microsoft Intune の管理者アカウント、Web サイト、アクセス許可](administrative-accounts-websites-perms.md)
+- [Microsoft Intune ポータル サイト](microsoft-intune-company-portal.md)
+- [Microsoft クラウド サービスおよび製品と Intune の統合](integration-with-cloud-services.md)
+- [Intune のネットワーク帯域幅の使用](network-bandwidth-use.md)
 - [Microsoft Intune のドメイン名](domain-names-for-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO4-->
+Intune を使用する前に、「[Intune のモバイル デバイス管理機能](/intune/get-started/mobile-device-management-capabilities-in-microsoft-intune)」を確認することをお勧めします。 最初は評価版のサブスクリプションを使用し、後から製品版のサブスクリプションに変換することができます。 詳細については、[Microsoft Intune の購入方法](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/Purchasing.aspx)に関するページを参照してください。
+
+
+
+
+
+
+
+<!--HONumber=Jun16_HO2-->
 
 

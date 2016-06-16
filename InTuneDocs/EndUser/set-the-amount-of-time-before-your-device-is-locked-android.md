@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/10/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 5f365c7d-5889-4072-a994-613ce3c26ce4
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -34,12 +34,14 @@ Android デバイスに保存されているデータのセキュリティを高
 
 2.  パスワードのタイムアウト値を指定します。
 
-3.  お使いのデバイスが Intune に登録されていることを「[Intune にデバイスを登録する](enroll-your-device-in-Intune-android.md)」の手順に従って確認します。.
+3.  お使いのデバイスが Intune に登録されていることを「[Intune にデバイスを登録する](enroll-your-device-in-Intune-android.md)」の手順に従って確認します。
+
+サポートが必要で、IT 管理者の連絡先情報が見つからない場合、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)に記載されていないかご確認ください。
 
 ### 関連項目
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 
