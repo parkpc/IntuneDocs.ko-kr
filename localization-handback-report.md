@@ -1,39 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [InTuneDocs\DeployUse\android-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e/InTuneDocs/DeployUse/android-mam-policy-settings.md) | InSyncHandedBackSuccess | [Details](#dcc1af47b789dc62a9cda877ea991af991950c8214)
- [InTuneDocs\DeployUse\azure-portal-for-microsoft-intune-mam-policies.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e/InTuneDocs/DeployUse/azure-portal-for-microsoft-intune-mam-policies.md) | InSyncHandedBackSuccess | [Details](#519bde55966d88f516553d509af60e34a6af62a916)
 
 ## Item Details
-##### <a name='dcc1af47b789dc62a9cda877ea991af991950c8214'></a> Source: [InTuneDocs\DeployUse\android-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e/InTuneDocs/DeployUse/android-mam-policy-settings.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\DeployUse\android-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/92c156235b7c8192f4cdf2bf3053b2764aaf3801/InTuneDocs/DeployUse/android-mam-policy-settings.md)
-* Handoff File: [android-mam-policy-settings.b4b77111e882cd82d74b84ec7f641f5b62ca8428.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/7e5052f863fb1620024933866c580e818da0d8ba/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/android-mam-policy-settings.b4b77111e882cd82d74b84ec7f641f5b62ca8428.ja-jp.xlf)
-* Handoff Datetime: 2016-06-09 16:52:48
-* Handoff Reason: Include
-* Archive File: [android-mam-policy-settings.b4b77111e882cd82d74b84ec7f641f5b62ca8428.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/4b89d57f6c9444f95a3d4eb2bbb4cdced575dd72/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/android-mam-policy-settings.b4b77111e882cd82d74b84ec7f641f5b62ca8428.ja-jp.xlf)
-* Archive Datetime: 2016-06-16 01:41:35
-* Handback File: [android-mam-policy-settings.b4b77111e882cd82d74b84ec7f641f5b62ca8428.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/7d52a506dd9dddf5a5070c4510b3af2d5ddba2d8/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/android-mam-policy-settings.b4b77111e882cd82d74b84ec7f641f5b62ca8428.ja-jp.xlf)
-* Handback Datetime: 2016-06-16 03:22:01
-* [Back to Top](#report-top)
-
-##### <a name='519bde55966d88f516553d509af60e34a6af62a916'></a> Source: [InTuneDocs\DeployUse\azure-portal-for-microsoft-intune-mam-policies.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e/InTuneDocs/DeployUse/azure-portal-for-microsoft-intune-mam-policies.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\DeployUse\azure-portal-for-microsoft-intune-mam-policies.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/92c156235b7c8192f4cdf2bf3053b2764aaf3801/InTuneDocs/DeployUse/azure-portal-for-microsoft-intune-mam-policies.md)
-* Handoff File: [azure-portal-for-microsoft-intune-mam-policies.d79360cf342fc6271d499db2e776b3adc200e795.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/7e5052f863fb1620024933866c580e818da0d8ba/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/azure-portal-for-microsoft-intune-mam-policies.d79360cf342fc6271d499db2e776b3adc200e795.ja-jp.xlf)
-* Handoff Datetime: 2016-06-09 16:52:48
-* Handoff Reason: Include
-* Archive File: [azure-portal-for-microsoft-intune-mam-policies.d79360cf342fc6271d499db2e776b3adc200e795.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/4b89d57f6c9444f95a3d4eb2bbb4cdced575dd72/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/azure-portal-for-microsoft-intune-mam-policies.d79360cf342fc6271d499db2e776b3adc200e795.ja-jp.xlf)
-* Archive Datetime: 2016-06-16 01:41:35
-* Handback File: [azure-portal-for-microsoft-intune-mam-policies.d79360cf342fc6271d499db2e776b3adc200e795.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/7d52a506dd9dddf5a5070c4510b3af2d5ddba2d8/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/azure-portal-for-microsoft-intune-mam-policies.d79360cf342fc6271d499db2e776b3adc200e795.ja-jp.xlf)
-* Handback Datetime: 2016-06-16 03:22:01
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
