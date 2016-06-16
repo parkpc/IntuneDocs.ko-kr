@@ -18,7 +18,7 @@ ms.assetid: 5c46e188-87eb-4ce2-b184-24809e8bf783
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -56,6 +56,6 @@ Microsoft Office アプリのようなアプリには、アプリ SDK が組み�
 データ移動を制限するだけでなく、デバイスをなくしたり、盗難に遭ったりした場合、あるいは、ユーザーが退職した場合、[会社のデータを選択消去](wipe-managed-company-app-data-with-microsoft-intune.md)し、個人データだけを残すことができます。
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

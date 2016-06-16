@@ -18,7 +18,7 @@ ms.assetid: a55071f5-101e-4829-908d-07d3414011fc
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -126,6 +126,6 @@ Windows 8 以降用の**メール** アプリケーション ([!INCLUDE[wit_next
 [Skype for Business Online へのアクセスを制限する](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

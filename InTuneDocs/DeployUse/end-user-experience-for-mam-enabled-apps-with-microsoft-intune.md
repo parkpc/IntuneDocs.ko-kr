@@ -18,7 +18,7 @@ ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: andcerat
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -162,6 +162,6 @@ RMS 共有アプリを使用して Intune により管理されているその�
 [Microsoft Intune でのモバイル アプリ管理ポリシーの作成および展開](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 
