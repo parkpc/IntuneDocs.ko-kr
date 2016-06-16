@@ -18,7 +18,7 @@ ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: joglocke
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -167,6 +167,6 @@ iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 중
 [MAM을 사용한 앱에 대한 최종 사용자 환경](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

@@ -1,13 +1,27 @@
 ---
+# required metadata
+
 title: 앱 배포 | Microsoft Intune
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 3b42019e-73da-4538-a496-212f11d5bf9b
+description:
+keywords:
 author: robstackmsft
+manager: jeffgilb
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service: microsoft-intune
+ms.technology:
+ms.assetid: 3b42019e-73da-4538-a496-212f11d5bf9b
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: mghadial
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
 ---
 # Microsoft Intune에서 앱 배포
 
@@ -55,6 +69,6 @@ iOS 장치에 **필요한** 앱을 배포한 경우 사용자는 앱을 설치�
 앱을 배포한 후에 진행 상태를 모니터링하려고 합니다. 자세한 내용은 [Monitor apps in Microsoft Intune](monitor-apps-in-microsoft-intune.md)(Microsoft Intune에서 앱 모니터링) 항목을 참조하세요.
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

@@ -18,7 +18,7 @@ ms.assetid: 5c46e188-87eb-4ce2-b184-24809e8bf783
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -56,6 +56,6 @@ Microsoft Office 앱 등의 앱에는 앱 SDK가 기본 제공됩니다. 지원�
 데이터 이동을 제한하는 것 외에도 장치를 분실하거나 도난당한 경우 또는 사용자가 회사에서 더 이상 근무하지 않는 경우 [회사 데이터를 선택적으로 지울](wipe-managed-company-app-data-with-microsoft-intune.md) 수 있으며 개인 데이터만 내부에 남길 수 있습니다.
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 
