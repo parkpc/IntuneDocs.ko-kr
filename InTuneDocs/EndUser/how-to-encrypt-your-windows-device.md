@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/30/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 7d9645a9-6058-4112-aa31-8cdbccdc5463
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -26,28 +26,19 @@ ms.suite: ems
 ---
 
 # Windows デバイスを暗号化する方法
-再接続するには、次の手順に従ってデバイスを暗号化する必要があります。
 
-## オプション 1 – Microsoft アカウントを追加する
+会社や学校のデータを保護するために、IT 管理者が Windows デバイスの暗号化を要求することがあります。 所有している Windows Phone を登録しているとき、暗号化が要求された場合、デバイスは自動的に暗号化されます。
 
-1.  **PC 設定** アプリを検索して、開始します。
+デスクトップ デバイスの場合、以下の指示に従い、暗号化します。 
 
-2.  **[アカウント]**  &gt;  **[お使いのアカウント]** をクリックし、**[Microsoft アカウントに関連付ける]** をクリックします。.
+1.  **BitLocker の管理**アプリを検索して起動します。
 
-3.  表示される指示に従います。
+2.  **[BitLocker をオンにする]** をクリックし、表示される指示に従って、各ドライブを暗号化します。
 
-4.  お使いのデバイスが Intune に登録されていることを[仕事で使用するためのデバイスの登録に関するページ](http://go.microsoft.com/fwlink/?LinkId=519071)の手順に従って確認します。.
-
-## オプション 2 – BitLocker を有効にする:
-
-1.  **BitLocker の管理** アプリを検索して、開始します。
-
-2.  **[BitLocker をオンにする]**をクリックし、表示される指示に従って、各ドライブを暗号化します。
-
-3.  お使いのデバイスが Intune に登録されていることを[仕事で使用するためのデバイスの登録に関するページ](http://go.microsoft.com/fwlink/?LinkId=519071)の手順に従って確認します。.
+サポートが必要な場合は、 IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

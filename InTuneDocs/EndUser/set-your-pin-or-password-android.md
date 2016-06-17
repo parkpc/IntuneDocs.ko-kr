@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: b29ac1bb-ef57-4ef1-9ea5-191ee8694e58
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -30,17 +30,16 @@ ms.suite: ems
 
 Intune を使用して職場または学校のデータにアクセスしている場合、IT 管理者から Android デバイスに PIN またはパスワードを設定するよう求められることがあります。 PIN またはパスワードを設定するように求めるメッセージが表示された場合は、次の手順に従います。
 
-1.  **[設定]** &gt; **[セキュリティ]** &gt; **[画面のロック]** &gt; **[パスワード]** の順にタップします。.
+1.  **[設定]** &gt; **[セキュリティ]** &gt; **[画面のロック]** &gt; **[パスワード]** の順にタップします。
 
 2.  新しいパスワードを選択し、確認します。
 
-3.  「[Microsoft Intune にデバイスを登録する](enroll-your-device-in-Intune-android.md)」に書かれている手順に従って、お使いのデバイスが Microsoft Intune に登録されていることを確認します。.
 
-4.  **[取得]** &gt; **[インストール]** の順にタップします。.
+サポートが必要な場合は、 IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
 
 ### 関連項目
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 9081b1d8-50e8-4bc2-ba37-766421364213
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -33,7 +33,7 @@ Android デバイスが Intune に登録されておらず、電話に通常イ�
 
 この問題を解決し、必要な証明書を取得するには:
 
-1.  ブラウザーで、この [Digicert 証明書ページ](https://www.digicert.com/digicert-root-certificates.htm)に移動します。.
+1.  ブラウザーで、この [Digicert 証明書ページ](https://www.digicert.com/digicert-root-certificates.htm)に移動します。
 
 2.  Baltimore CyberTrust Root 証明書を検索してダウンロードします (https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt)。
 
@@ -41,7 +41,7 @@ Android デバイスが Intune に登録されておらず、電話に通常イ�
 
 4.  **[証明書の名前指定]** ダイアログで、既定の証明書名を受け入れます。
 
-5. **[認証情報の使用]** が **[VPN とアプリ]** に設定されていることを確認し、**[OK]** をタップします。.
+5. **[認証情報の使用]** が **[VPN とアプリ]** に設定されていることを確認し、**[OK]** をタップします。
 
     ![andr-cert-install-add-cert-name](./media/andr-cert_install-2-add_cert_name.png)
 
@@ -49,6 +49,8 @@ Android デバイスが Intune に登録されておらず、電話に通常イ�
 
 7. 会社のポータル アプリをもう一度開きます。 これで、会社のポータル アプリにサインインできるようになりました。 サポートが必要な場合は、IT 管理者に問い合わせてください。
 
-<!--HONumber=May16_HO1-->
+サポートが必要な場合は、 IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
+
+<!--HONumber=Jun16_HO2-->
 
 

@@ -18,7 +18,7 @@ ms.assetid: d3182a85-328b-45b4-bf7a-9f6249984641
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mamoriss
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -36,16 +36,18 @@ ms.suite: ems
 
 1.  [ポータル サイト Web サイト](http://portal.manage.microsoft.com)を開き、名前を変更するデバイスをタップします。
 
-2.  **[リセット]** をタップします。.
+2.  **[リセット]** をタップします。
 
     ![reset-device](./media//iwp-1-tap-reset-passcode.png)
 
 これでデバイスがリセットされました。
 
+サポートが必要な場合は、 IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
+
 ### 関連項目
 [Intune ポータル サイト Web サイトの使用](using-the-intune-company-portal-website.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

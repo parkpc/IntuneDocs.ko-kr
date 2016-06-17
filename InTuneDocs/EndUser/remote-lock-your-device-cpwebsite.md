@@ -60,11 +60,11 @@ PC (Windows 8.1) | サポートされていません
 
     再試行できない場合は、IT 管理者に問い合わせてください。 デバイスが見つかった場合は、パスコードを入力するだけでリモート ロックしたデバイスのロックを解除できます。
 
-サポートが必要で、IT 管理者の連絡先情報が見つからない場合、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)に記載されていないかご確認ください。
+サポートが必要な場合は、 IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
 
 ### 関連項目
 [Intune ポータル サイト Web サイトの使用](using-the-intune-company-portal-website.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

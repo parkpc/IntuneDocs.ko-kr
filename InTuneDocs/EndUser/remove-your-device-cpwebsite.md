@@ -18,7 +18,7 @@ ms.assetid: e240419a-a836-4be3-8fd9-39a4ec890226
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mamoriss
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -36,15 +36,17 @@ ms.suite: ems
 
 1.  [ポータル サイト Web サイト](http://portal.manage.microsoft.com)を開き、名前を変更するデバイスをタップします。
 
-2.  **[削除]** をタップします。.
+2.  **[削除]** をタップします。
 
     ![remove-device](./media/iwp-1-tap-reset-passcode.png)
 
 これでデバイスが削除されました。
 
+サポートが必要な場合は、 IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
+
 ### 関連項目
 [Intune ポータル サイト Web サイトの使用](using-the-intune-company-portal-website.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

@@ -42,7 +42,7 @@ ms.suite: ems
 
 -   [デバイスの手動同期による、低速アプリ インストールの高速化](sync-your-device-manually-cpwebsite.md)
 
--   IT 管理者の連絡先情報の検索 (IT 管理者が構成している場合)。 その情報が見つからない場合は、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)に記載されていないかご確認ください。
+-   IT 管理者の連絡先情報の検索 (IT 管理者が構成している場合)。 
 
 -   会社または学校のポリシーに準拠しているかどうかを含む、デバイスの詳細の表示
 
@@ -55,6 +55,6 @@ ms.suite: ems
 - [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 
