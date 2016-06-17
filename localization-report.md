@@ -2046,14 +2046,14 @@
 
 ##### <a name='892ca1e2260372487e94350cd919fddde897160c56'></a> Source: [InTuneDocs\DeployUse\intune-on-premises-exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6951ccdb0e37489217ef939f0cbf6fc1133a6d3c/InTuneDocs/DeployUse/intune-on-premises-exchange-connector.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\DeployUse\intune-on-premises-exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/e3c6f6a3b8ca366a93d9a48ca33232433351e6b0/InTuneDocs/DeployUse/intune-on-premises-exchange-connector.md)
+* Target File: [InTuneDocs\DeployUse\intune-on-premises-exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/238efdff375f5dc1c6e60e9e724f217bea05faf6/InTuneDocs/DeployUse/intune-on-premises-exchange-connector.md)
 * Handoff File: [intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/4c85c86418756844b31f65394b74954cad737b8b/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf)
 * Handoff Datetime: 2016-05-01 17:46:57
 * Handoff Reason: Include
 * Archive File: [intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/58112704e09728f0a1a9af62e25e8f312563b82d/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf)
 * Archive Datetime: 2016-05-08 17:50:55
-* Handback File: [intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/a09c67a7435b50648a17db73e28527d35e69eb91/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf)
-* Handback Datetime: 2016-06-14 02:41:51
+* Handback File: [intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/3a912da5908b569b1b75ba9fd9bbb583b2f549c6/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf)
+* Handback Datetime: 2016-06-17 00:58:40
 * [Back to Top](#report-top)
 
 ##### <a name='6cfc532cba2f53034c4c3ef0c2df3d6c1e6e784157'></a> Source: [InTuneDocs\DeployUse\intune-service-to-service-exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6951ccdb0e37489217ef939f0cbf6fc1133a6d3c/InTuneDocs/DeployUse/intune-service-to-service-exchange-connector.md)
@@ -2078,9 +2078,9 @@
 * Archive Datetime: 2016-06-16 01:42:44
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\DeployUse\ios-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/e3c6f6a3b8ca366a93d9a48ca33232433351e6b0/InTuneDocs/DeployUse/ios-compliance-policy-settings-in-microsoft-intune.md)
-* Current Handback File: [ios-compliance-policy-settings-in-microsoft-intune.db013c1c1889068db19096dff5552dba4f910541.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/a09c67a7435b50648a17db73e28527d35e69eb91/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/ios-compliance-policy-settings-in-microsoft-intune.db013c1c1889068db19096dff5552dba4f910541.ko-kr.xlf)
-* Current Handback Datetime: 2016-06-14 02:41:51
+* Current Target File: [InTuneDocs\DeployUse\ios-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/238efdff375f5dc1c6e60e9e724f217bea05faf6/InTuneDocs/DeployUse/ios-compliance-policy-settings-in-microsoft-intune.md)
+* Current Handback File: [ios-compliance-policy-settings-in-microsoft-intune.db013c1c1889068db19096dff5552dba4f910541.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/3a912da5908b569b1b75ba9fd9bbb583b2f549c6/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/ios-compliance-policy-settings-in-microsoft-intune.db013c1c1889068db19096dff5552dba4f910541.ko-kr.xlf)
+* Current Handback Datetime: 2016-06-17 00:58:40
 * [Back to Top](#report-top)
 
 ##### <a name='c0016056e2176290d75e91c1cab827ce2e6b340c59'></a> Source: [InTuneDocs\DeployUse\ios-device-enrollment-program-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/928b79530ac278f78356f8d1ef9f267077634b5b/InTuneDocs/DeployUse/ios-device-enrollment-program-in-microsoft-intune.md)

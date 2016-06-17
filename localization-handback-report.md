@@ -1,11 +1,42 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [InTuneDocs\DeployUse\intune-on-premises-exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6951ccdb0e37489217ef939f0cbf6fc1133a6d3c/InTuneDocs/DeployUse/intune-on-premises-exchange-connector.md) | InSyncHandedBackSuccess | [Details](#892ca1e2260372487e94350cd919fddde897160c56)
+ [InTuneDocs\DeployUse\ios-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e/InTuneDocs/DeployUse/ios-compliance-policy-settings-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#fdfd6bb78e266c51dede79db433ffff648ae574958)
 
 ## Item Details
+##### <a name='892ca1e2260372487e94350cd919fddde897160c56'></a> Source: [InTuneDocs\DeployUse\intune-on-premises-exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6951ccdb0e37489217ef939f0cbf6fc1133a6d3c/InTuneDocs/DeployUse/intune-on-premises-exchange-connector.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\intune-on-premises-exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/238efdff375f5dc1c6e60e9e724f217bea05faf6/InTuneDocs/DeployUse/intune-on-premises-exchange-connector.md)
+* Handoff File: [intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/4c85c86418756844b31f65394b74954cad737b8b/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf)
+* Handoff Datetime: 2016-05-01 17:46:57
+* Handoff Reason: Include
+* Archive File: [intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/58112704e09728f0a1a9af62e25e8f312563b82d/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf)
+* Archive Datetime: 2016-05-08 17:50:55
+* Handback File: [intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/3a912da5908b569b1b75ba9fd9bbb583b2f549c6/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/intune-on-premises-exchange-connector.8505a4e68d2c8d348c8258dc9fbba15e1d9bc6c4.ko-kr.xlf)
+* Handback Datetime: 2016-06-17 00:58:40
+* [Back to Top](#report-top)
+
+##### <a name='fdfd6bb78e266c51dede79db433ffff648ae574958'></a> Source: [InTuneDocs\DeployUse\ios-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e/InTuneDocs/DeployUse/ios-compliance-policy-settings-in-microsoft-intune.md)
+* Status: OutofSyncHandedBackSuccess
+* Target File: 
+* Handoff File: [ios-compliance-policy-settings-in-microsoft-intune.db013c1c1889068db19096dff5552dba4f910541.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/eb9fecd807738b969f43f856a82eead07c240bbd/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/ios-compliance-policy-settings-in-microsoft-intune.db013c1c1889068db19096dff5552dba4f910541.ko-kr.xlf)
+* Handoff Datetime: 2016-06-09 16:55:06
+* Handoff Reason: Include
+* Archive File: [ios-compliance-policy-settings-in-microsoft-intune.db013c1c1889068db19096dff5552dba4f910541.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/9dcf1b43830b52d7f60bc7d5cb781a1ef8301ffc/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/ios-compliance-policy-settings-in-microsoft-intune.db013c1c1889068db19096dff5552dba4f910541.ko-kr.xlf)
+* Archive Datetime: 2016-06-16 01:42:44
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\DeployUse\ios-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/238efdff375f5dc1c6e60e9e724f217bea05faf6/InTuneDocs/DeployUse/ios-compliance-policy-settings-in-microsoft-intune.md)
+* Current Handback File: [ios-compliance-policy-settings-in-microsoft-intune.db013c1c1889068db19096dff5552dba4f910541.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/3a912da5908b569b1b75ba9fd9bbb583b2f549c6/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/ios-compliance-policy-settings-in-microsoft-intune.db013c1c1889068db19096dff5552dba4f910541.ko-kr.xlf)
+* Current Handback Datetime: 2016-06-17 00:58:40
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
