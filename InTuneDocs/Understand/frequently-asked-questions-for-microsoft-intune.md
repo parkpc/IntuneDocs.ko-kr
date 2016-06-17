@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Intune についてよく寄せられる質問
-ここでは、Intune に関してよく寄せられる質問に回答します。 この記事で質問に対する回答が見つからない場合は[お知らせください](https://microsoftintune.uservoice.com/)。.
+ここでは、Intune に関してよく寄せられる質問に回答します。 この記事で質問に対する回答が見つからない場合は[お知らせください](https://microsoftintune.uservoice.com/)。
 
 ## 一般的な問題
 
@@ -40,13 +40,13 @@ ms.suite: ems
 
 -   **Intune には、モバイル デバイス用のリモート アシスタンス機能はありますか?**
 
-    いいえ、ありません。 [Bomgar](http://www.bomgar.com/)、[TeamViewer](https://www.teamviewer.com/) などのサード パーティ製アプリの利用をお勧めします。
+    いいえ、ありません。 [Bomgar](http://www.bomgar.com/)<!---and [TeamViewer](https://www.teamviewer.com/)---> などのサード パーティ製アプリの利用をお勧めします。
 
 ## アカウント
 
 -   **Intune の評価を開始し、試用のために新しいテナントを作成した場合、同じテナントを使用して Office 365 を試用版に追加することはできますか?**
 
-    はい。 既存の Intune のテナントまたはサブスクリプション (*globaladmin@&lt;company&gt;.onmicrosoft.com* など) から全体管理者アカウントでサインインするだけです。.
+    はい。 既存の Intune のテナントまたはサブスクリプション (*globaladmin@&lt;company&gt;.onmicrosoft.com* など) から全体管理者アカウントでサインインするだけです。
 
 -   **試用版のサブスクリプション期間中に Intune を MDM 機関として設定した場合でも、Intune の使用を止めて他社のサービスに切り替えることはできますか?**
 
@@ -62,15 +62,15 @@ ms.suite: ems
 
 -   **ユーザーがデバイスの登録方法を学べる場所はありますか?**
 
-    「[End-user Intune enrollment instructions for IT administrators](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a)」 (IT 管理者向けエンドユーザーの Intune 登録手順) の情報を利用またはカスタマイズできます。.
+    「[End-user Intune enrollment instructions for IT administrators](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a)」 (IT 管理者向けエンドユーザーの Intune 登録手順) の情報を利用またはカスタマイズできます。
 
 -   **デバイスの登録に関する問題を解決するにはどうすればよいですか?**
 
-    登録に関する一般的な問題を解決する方法については、「[Intune のデバイス登録に関するトラブルシューティング](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)」を参照してください。.
+    登録に関する一般的な問題を解決する方法については、「[Intune のデバイス登録に関するトラブルシューティング](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)」を参照してください。
 
 -   **ユーザーのところで登録に関する問題が発生した場合に、登録ログを収集するにはどうすればよいですか?**
 
-    [こちらの手順](http://www.microsoft.com/en-us/download/46391)に従ってください。.
+     [こちらの手順](http://www.microsoft.com/en-us/download/46391)に従ってください。
 
 ## モバイル デバイス管理
 
@@ -78,15 +78,15 @@ ms.suite: ems
 
     -   **デバイスが脱獄されているかどうかを Intune で検出することはできますか?**
 
-        一部のオペレーティング システムでは可能です。 脱獄されたデバイスの管理方法の詳細については、「[デバイス コンプライアンス ポリシーの作成](/intune/deploy-use/create-a-device-compliance-policy-in-microsoft-intune.md)」を参照してください。.
+        一部のオペレーティング システムでは可能です。 脱獄されたデバイスの管理方法の詳細については、「[デバイス コンプライアンス ポリシーの作成](/intune/deploy-use/create-a-device-compliance-policy-in-microsoft-intune.md)」を参照してください。
 
     -   **デバイスから会社のデータを選択的にワイプすることはできますか?**
 
-        はい。 選択的ワイプの詳細については、「[Help protect your data with remote wipe, remote lock, or passcode reset](/intune/deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune.md)」 (リモート ワイプ、リモート ロック、パスコードのリセットを使用したデータの保護) を参照してください。.
+        はい。 選択的ワイプの詳細については、「[Help protect your data with remote wipe, remote lock, or passcode reset](/intune/deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune.md)」 (リモート ワイプ、リモート ロック、パスコードのリセットを使用したデータの保護) を参照してください。
 
     -   **モバイル デバイスのブラウザーから特定の Web サイトへのアクセスを Intune でブロックする方法はありますか?**
 
-        どのプラットフォームのネイティブ ブラウザーでもブロックできません。 ただし、iOS デバイスと Android デバイスに Intune で管理される Web ブラウザーを展開している場合は、URL の許可またはブロックが可能です。 詳細については、「[Managed Browser ポリシーを使用したインターネット アクセスの管理](/intune/Deploy-Use/Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md)」を参照してください。.
+        どのプラットフォームのネイティブ ブラウザーでもブロックできません。 ただし、iOS デバイスと Android デバイスに Intune で管理される Web ブラウザーを展開している場合は、URL の許可またはブロックが可能です。 詳細については、「[Managed Browser ポリシーを使用したインターネット アクセスの管理](/intune/Deploy-Use/Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md)」を参照してください。
 
     -   **ユーザーがアプリをアンインストールできないようにすることは可能ですか?**
 
@@ -104,10 +104,7 @@ ms.suite: ems
 
         特定の状況においては、MDM 機関を切り替えることができます。 これを行うには、「[Microsoft Intune のサポートを受ける方法](/intune/Troubleshoot/How-to-get-support-for-Microsoft-Intune.md)」の説明に従って、サポートにお問い合わせください。 以下の表では、どのような場合に変更が可能かを示しています。 MDM 機関を変更した場合、デバイスの再登録が必要になります。
 
-        ||**変更先:** Intune!**変更先:** O365|**変更先:** Configuration Manager と Intune|
-        |**変更元:** Intune| |はい&#42;|はい|
-        |**変更元:** O365||はい&#42;||はい|
-        |**変更元:** Configuration Manager と Intune|はい|はい| |
+        ||**変更先:** Intune!**変更先:** O365|**変更先:** Configuration Manager と Intune| |**変更元:** Intune| |はい&#42;|はい| |**変更元:** O365||はい&#42;||はい| |**変更元:** Configuration Manager と Intune|はい|はい| |
         
         &#42;O365 と Intune の MDM 機関は共存できるため、モバイル デバイスを再登録する必要はありません。
 
@@ -143,8 +140,7 @@ ms.suite: ems
     **Intune ユーザー用の AET の作成方法を教えてください。**
   管理者が Symantec 証明書の .pfx ファイルをアップロードすると、Intune によって AET が自動的に作成され、登録済み Windows Phone に展開されます。 Intune 管理者が Windows Phone SDK の AET Generator ツールを使用する必要はありません。
 
-      > [!IMPORTANT]
-        > Intune では、手動の AET の作成と帯域外での展開をサポートしていません。
+      > [!IMPORTANT] Intune では、手動の AET の作成と帯域外での展開をサポートしていません。
 
     **Symantec 証明書の要件を減らすためにどのような変更がありましたか。**
        2014 年 11 月リリースの Intune では、会社が Symantec 証明書を持っていないシナリオが考慮されるようになりました。
@@ -277,11 +273,11 @@ ms.suite: ems
 
 -   **推奨アプリを追加するにはどのようにすればよいですか?**
 
-    Intune では、推奨アプリのことを "おすすめアプリ" と呼んでいます。「[Deploy apps in Microsoft Intune](/Intune/Deploy-Use/deploy-apps-in-microsoft-intune.md)」 (Microsoft Intune でアプリを展開する) を参照してください。.
+    Intune では、推奨アプリのことを "おすすめアプリ" と呼んでいます。「[Deploy apps in Microsoft Intune (Microsoft Intune でアプリを展開する)](/Intune/Deploy-Use/deploy-apps-in-microsoft-intune.md)」を参照してください。
 
 -   **アプリを展開するために、クラウドの記憶域を追加することはできますか?**
 
-    はい。 詳細については、「[アプリの展開](/Intune/Deploy-Use/deploy-apps.md)」で、*クラウド記憶域の要件に関するセクション*を参照してください。.
+    はい。 詳細については、「[アプリの展開](/Intune/Deploy-Use/deploy-apps.md)」で、*クラウド記憶域の要件に関するセクション*を参照してください。
 
 ## セキュリティ
 
@@ -291,7 +287,7 @@ ms.suite: ems
 
 -   **BitLocker を使用して Windows 8 タブレットを暗号化する場合、ユーザーが連続して複数回ログオンに失敗したときに、デバイスのフル ワイプを強制的に実行することはできますか?**
 
-    Intune を含め、どのモバイル デバイス管理サービスにも、Windows 8.1/RT デバイスでフル ワイプを実行するオプションはありません。 これらのデバイスに対して Intune では、選択的ワイプを提供しています。 Intune でのワイプ/選択的ワイプの詳細については、「[Microsoft Intune でアプリとデータを保護する](/intune/Deploy-Use/protect-apps-and-data-with-microsoft-intune.md)」を参照してください。.
+    Intune を含め、どのモバイル デバイス管理サービスにも、Windows 8.1/RT デバイスでフル ワイプを実行するオプションはありません。 これらのデバイスに対して Intune では、選択的ワイプを提供しています。 Intune でのワイプ/選択的ワイプの詳細については、「[Microsoft Intune でアプリとデータを保護する](/intune/Deploy-Use/protect-apps-and-data-with-microsoft-intune.md)」を参照してください。
 
 ## [ポータル サイト]
 
@@ -307,7 +303,7 @@ ms.suite: ems
 
 -   **デバイスに対して選択的ワイプを行うことはできますか?**
 
-    Intune と共に System Center 2012 R2 以降の Configuration Manager を使用している場合は、会社のデータを削除する選択的ワイプを行うことができます。 詳細については、「[Microsoft Intune でアプリとデータを保護する](/intune/Deploy-Use/protect-apps-and-data-with-microsoft-intune.md)」を参照してください。.
+    Intune と共に System Center 2012 R2 以降の Configuration Manager を使用している場合は、会社のデータを削除する選択的ワイプを行うことができます。 詳細については、「[Microsoft Intune でアプリとデータを保護する](/intune/Deploy-Use/protect-apps-and-data-with-microsoft-intune.md)」を参照してください。
 
 -   **Configuration Manager と Intune を併用している場合も、Intune の管理ポータルを使用することはできますか?**
 
@@ -315,6 +311,6 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 
