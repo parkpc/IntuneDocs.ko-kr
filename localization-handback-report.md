@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [InTuneDocs\Understand\frequently-asked-questions-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/530bf3234001946776593ae0257ea72a06c8612f/InTuneDocs/Understand/frequently-asked-questions-for-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#2b146d33d60b7cab2b05fc43a6318fc2c477d6211154)
 
 ## Item Details
+##### <a name='2b146d33d60b7cab2b05fc43a6318fc2c477d6211154'></a> Source: [InTuneDocs\Understand\frequently-asked-questions-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/530bf3234001946776593ae0257ea72a06c8612f/InTuneDocs/Understand/frequently-asked-questions-for-microsoft-intune.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\Understand\frequently-asked-questions-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/cbbab959bd47709f4343b206d0cf6ced9f9f7846/InTuneDocs/Understand/frequently-asked-questions-for-microsoft-intune.md)
+* Handoff File: [frequently-asked-questions-for-microsoft-intune.3e1096e9061205bd7bdfeac61d91a29f96165a61.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/20074192c5b2d356cc5946004744eacbc7f3e8f8/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/frequently-asked-questions-for-microsoft-intune.3e1096e9061205bd7bdfeac61d91a29f96165a61.ja-jp.xlf)
+* Handoff Datetime: 2016-06-08 22:37:21
+* Handoff Reason: Include
+* Archive File: [frequently-asked-questions-for-microsoft-intune.3e1096e9061205bd7bdfeac61d91a29f96165a61.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/46ee18eef695293f68dcccf085fe572ac005f43f/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/frequently-asked-questions-for-microsoft-intune.3e1096e9061205bd7bdfeac61d91a29f96165a61.ja-jp.xlf)
+* Archive Datetime: 2016-06-09 02:12:39
+* Handback File: [frequently-asked-questions-for-microsoft-intune.3e1096e9061205bd7bdfeac61d91a29f96165a61.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/bb4a9b1527c96f7a038af974056d0582c2a0f421/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/frequently-asked-questions-for-microsoft-intune.3e1096e9061205bd7bdfeac61d91a29f96165a61.ja-jp.xlf)
+* Handback Datetime: 2016-06-17 09:39:15
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
