@@ -41,11 +41,11 @@ Windows 장치를 분실하거나 도난당한 경우 공장 기본 설정으로
 3.  **초기화** &gt; **초기화**를 탭합니다.
 
 > [!NOTE]
-> 분실하거나 도난당한 장치를 다시 설정할 수 없는 경우에는 IT 부서에 다시 설정을 요청하세요. IT 관리자의 연락처 정보를 찾을 수 없는 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+> 분실하거나 도난당한 장치를 다시 설정할 수 없는 경우에는 IT 부서에 다시 설정을 요청하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 ### 참고 항목
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

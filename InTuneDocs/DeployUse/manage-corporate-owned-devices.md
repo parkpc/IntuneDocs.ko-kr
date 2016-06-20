@@ -83,7 +83,6 @@ Apple 장치 등록 프로그램입니다. 관리자가 정책을 만들고, DEP
 
 ### USB-SA
 USB로 연결된 설치 도우미 등록입니다. 관리자가 Intune 정책을 만들어 Apple Configurator로 내보냅니다. USB로 연결된 장치는 Intune 정책을 사용하여 준비됩니다. 관리자가 각 장치를 직접 등록해야 합니다. 사용자가 장치를 받아 설치 도우미를 실행하여 해당 장치를 등록합니다. 이 방법은 **iOS 감독** 모드를 지원하며, 이 모드에서는 다음을 사용할 수 있습니다.
-  - 잠긴 등록
   - 조건부 액세스
   - 탈옥 검색
   - 모바일 응용 프로그램 관리
@@ -112,6 +111,6 @@ USB로 연결된 설치 도우미 등록입니다. 관리자가 Intune 정책을
 ([표로 돌아가기](#overview-of corporate-owned-device-enrollment-methods)) ([표로 돌아가기](#overview-of corporate-owned-device-enrollment-methods))
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO3-->
 
 

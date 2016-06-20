@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -34,15 +34,12 @@ IT 관리자는 회사 또는 학교 데이터에 액세스하는 데 Intune을 
 
 2.  새 암호를 선택하고 확인합니다.
 
-3.  [Microsoft Intune에서 장치 등록](enroll-your-device-in-Intune-android.md)의 지침에 따라 Microsoft Intune에 장치가 등록되었는지 확인합니다.
 
-4.  **가져오기** &gt; **설치**를 탭합니다.
-
-도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

@@ -48,9 +48,11 @@ ms.suite: ems
 
 Intune에서 장치를 등록하여 회사 또는 학교 데이터 및 리소스에 액세스하려면 [Intune에서 장치 등록](enroll-your-device-in-Intune-android.md)을 참조하세요.
 
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

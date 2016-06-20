@@ -47,7 +47,7 @@ ms.assetid: c002bcb2-ae37-478d-acf3-2bf51faae490
     > [!NOTE] Windows 스토어에 액세스할 수 없는 경우 IT 관리자에게 문의하세요.
 
 
-도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 장치에서 수행할 수 있는 다른 작업에 대해 알아보려면 소유하고 있는 장치 유형에 해당하는 링크를 사용하세요.
 
@@ -57,6 +57,6 @@ ms.assetid: c002bcb2-ae37-478d-acf3-2bf51faae490
 
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

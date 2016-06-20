@@ -34,11 +34,11 @@ Intune에 iOS 또는 Mac OS X 장치를 등록하는 동안 장치를 식별하�
 2. **계속**을 탭합니다.
 3. Intune에서 장치가 등록되었음을 확인할 수 있도록 장치 일련 번호의 마지막 4자를 입력합니다. 일련 번호를 찾으려면 [How do I find the serial number on my device?](how-do-i-find-the-serial-number-on-my-device-ios.md)(장치에서 일련 번호를 찾으려면 어떻게 하나요?)를 참조하세요.
 
-도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 ### 참고 항목
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

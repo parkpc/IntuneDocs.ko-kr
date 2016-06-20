@@ -44,8 +44,8 @@ PIN 또는 암호를 설정하는 방법이나 장치에서 수행할 수 있는
 - [iOS 장치 암호 설정 또는 변경](set-or-change-your-passcode-ios.md)
 - [Windows 장치 암호 설정 또는 변경](set-or-change-your-password-windows.md)
 
-요구 사항을 준수하도록 암호를 설정하는 방법을 확인하는 데 문제가 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보를 찾을 수 없는 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+요구 사항을 준수하도록 암호를 설정하는 방법을 확인하는 데 문제가 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

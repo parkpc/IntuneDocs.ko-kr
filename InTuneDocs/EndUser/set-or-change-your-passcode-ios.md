@@ -46,11 +46,11 @@ IT 관리자가 암호 요구 사항을 두 개 이상 설정할 수 있습니�
 2. **암호 변경**을 탭하고 이전 암호를 입력합니다.
 3. IT 관리자의 요구 사항을 충족하는 새 암호를 입력한 후 확인을 위해 해당 암호를 다시 입력합니다.
 
-도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 ### 참고 항목
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 
