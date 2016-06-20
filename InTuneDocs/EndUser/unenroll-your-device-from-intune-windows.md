@@ -18,7 +18,7 @@ ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -28,7 +28,7 @@ ms.suite: ems
 
 # Intune에서 장치 등록 취소
 
-Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows 장치를 사용하지 않으며, 회사나 학교 메일, 앱 또는 기타 리소스에 액세스할 필요가 없는 경우 장치 등록을 취소해야 합니다. Intune에서 장치 등록을 취소하면 이러한 리소스에 더 이상 액세스할 수 없습니다. 장치의 등록을 취소할 때 발생하는 작업에 대한 자세한 내용은 [Intune에서 장치 등록을 취소하면 어떤 일이 생기나요?](what-happens-if-you-unenroll-your-device-from-intune-windows.md) 항목을 참조하세요.
+Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows 장치를 사용하지 않으며, 회사나 학교 메일, 앱 또는 기타 리소스에 액세스할 필요가 없는 경우 장치 등록을 취소해야 합니다. Intune에서 장치 등록을 취소하면 이러한 리소스에 더 이상 액세스할 수 없습니다. 장치의 등록을 취소할 때 발생하는 상황에 대한 자세한 내용은 [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-windows.md)를 참조하세요.
 
 장치의 등록을 취소하려면 위의 "이 문서의 내용" 섹션에 표시된 링크 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
 
@@ -66,9 +66,11 @@ Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows �
 
 4.  **계정 삭제** 대화 상자에서 **삭제**를 탭합니다.
 
+도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+
 ### 참고 항목
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO1-->
 
 
