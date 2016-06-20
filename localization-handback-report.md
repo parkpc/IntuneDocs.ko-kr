@@ -1,39 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [InTuneDocs\EndUser\unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md) | InSyncHandedBackSuccess | [Details](#abcb7dbe4f3423fcba108a7ea0c4b2efa295c970442)
- [InTuneDocs\EndUser\unenroll-your-device-from-intune-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-windows.md) | InSyncHandedBackSuccess | [Details](#c323aed2b4fbac831ae4919c8145b7253eb97ace444)
 
 ## Item Details
-##### <a name='abcb7dbe4f3423fcba108a7ea0c4b2efa295c970442'></a> Source: [InTuneDocs\EndUser\unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/2b9c7a5f7b8503c11e12ef08095bc0325a88ac9f/InTuneDocs/EndUser/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
-* Handoff File: [unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/eb9fecd807738b969f43f856a82eead07c240bbd/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf)
-* Handoff Datetime: 2016-06-09 16:55:06
-* Handoff Reason: Include
-* Archive File: [unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/9dcf1b43830b52d7f60bc7d5cb781a1ef8301ffc/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf)
-* Archive Datetime: 2016-06-16 01:42:44
-* Handback File: [unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/309053394ef1af6d9a52b5af116b739de96a56c5/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf)
-* Handback Datetime: 2016-06-20 16:47:31
-* [Back to Top](#report-top)
-
-##### <a name='c323aed2b4fbac831ae4919c8145b7253eb97ace444'></a> Source: [InTuneDocs\EndUser\unenroll-your-device-from-intune-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-windows.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\unenroll-your-device-from-intune-windows.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/2b9c7a5f7b8503c11e12ef08095bc0325a88ac9f/InTuneDocs/EndUser/unenroll-your-device-from-intune-windows.md)
-* Handoff File: [unenroll-your-device-from-intune-windows.2b7d277506d650d5e05550fd71d47144236ab57c.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/eb9fecd807738b969f43f856a82eead07c240bbd/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/unenroll-your-device-from-intune-windows.2b7d277506d650d5e05550fd71d47144236ab57c.ko-kr.xlf)
-* Handoff Datetime: 2016-06-09 16:55:06
-* Handoff Reason: Include
-* Archive File: [unenroll-your-device-from-intune-windows.2b7d277506d650d5e05550fd71d47144236ab57c.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/9dcf1b43830b52d7f60bc7d5cb781a1ef8301ffc/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/unenroll-your-device-from-intune-windows.2b7d277506d650d5e05550fd71d47144236ab57c.ko-kr.xlf)
-* Archive Datetime: 2016-06-16 01:42:44
-* Handback File: [unenroll-your-device-from-intune-windows.2b7d277506d650d5e05550fd71d47144236ab57c.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/309053394ef1af6d9a52b5af116b739de96a56c5/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/unenroll-your-device-from-intune-windows.2b7d277506d650d5e05550fd71d47144236ab57c.ko-kr.xlf)
-* Handback Datetime: 2016-06-20 16:47:31
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
