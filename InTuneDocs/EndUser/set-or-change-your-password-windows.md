@@ -48,11 +48,11 @@ IT 관리자가 암호 요구 사항을 두 개 이상 설정할 수 있습니�
 4. **새 암호** 필드에 새 암호를 입력한 후 **암호 확인** 필드에 새 암호를 다시 입력합니다.
 4. **완료**를 탭합니다.
 
-도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 ### 참고 항목
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

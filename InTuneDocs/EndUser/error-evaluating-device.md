@@ -31,10 +31,10 @@ ms.suite: ems
 
 이 문제를 해결 하려면 몇 분정도 기다린 다음 눌러 **규정 준수 확인**.
 
-문제가 지속 되 면 IT 관리자에 게 문의 합니다. IT 관리자의 연락처 정보를 찾을 수 없는 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+문제가 지속 되 면 IT 관리자에 게 문의 합니다. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

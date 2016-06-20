@@ -42,7 +42,7 @@ ms.suite: ems
 
 -   [느린 앱 설치 속도를 높이기 위해 장치를 수동으로 동기화](sync-your-device-manually-cpwebsite.md)
 
--   IT 관리자가 연락처 정보를 구성한 경우 IT 관리자의 연락처 정보 찾기. 찾는 데 문제가 있는 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+-   IT 관리자가 연락처 정보를 구성한 경우 IT 관리자의 연락처 정보 찾기. 
 
 -   회사 또는 학교의 정책을 준수할지 여부를 포함한 장치에 대한 세부 정보를 참조하세요.
 
@@ -55,6 +55,6 @@ ms.suite: ems
 - [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

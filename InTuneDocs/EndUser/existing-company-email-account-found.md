@@ -36,10 +36,10 @@ ms.suite: ems
 
 3.  장치에 자동으로 적용 될 새 전자 메일 설정에 대해 잠시 기다립니다.
 
-잠시 후 새 메일 설정이 표시되지 않으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보를 찾을 수 없는 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+잠시 후 새 메일 설정이 표시되지 않으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 
