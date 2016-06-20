@@ -17,13 +17,13 @@ ms.assetid: 4ae137ae-34e5-4a45-950c-983de831270f
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer: kmyrup
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
 ---
 # SCEP 인증서 인프라 구성
-이 항목은 인증서 프로필을 만들고 배포하기 위해 필요한 인프라를 설명합니다.
+이 항목에서는 인증서 프로필을 만들고 배포하기 위해 필요한 인프라를 설명합니다.
 
 ### 온-프레미스 인프라
 
@@ -32,7 +32,7 @@ ms.suite: ems
 -  **인증 기관**(CA): Windows Server 2008 R2 이상에서 실행되는 엔터프라이즈 CA(인증 기관)입니다. 독립 실행형 CA는 지원되지 않습니다. 인증 기관을 설정하는 방법에 대한 지침은 [인증 기관 설치](http://technet.microsoft.com/library/jj125375.aspx)를 참조하세요.
     CA에서 Windows Server 2008 R2를 실행하는 경우에는 [KB2483564의 핫픽스를 설치](http://support.microsoft.com/kb/2483564/)해야 합니다.
 I
--  **NDES 서버**: Windows Server 2012 R2 이상을 실행하는 서버에 NDES(네트워크 장치 등록 서비스)를 설치해야 합니다. 엔터프라이즈 CA를 실행하는 서버에 NDES가 실행되는 경우 Intune는 사용을 지원하지 않습니다. 네트워크 장치 등록 서비스를 호스트하도록 Windows Server 2012 R2를 구성하는 방법에 대한 지침은 [네트워크 장치 등록 서비스 지침](http://technet.microsoft.com/library/hh831498.aspx) 항목을 참조하세요. NDES 서버는 CA를 호스트하는 도메인에 가입해야 하며 CA와 동일한 서버에 있지 않아야 합니다. 별도의 포리스트, 격리된 네트워크 또는 내부 도메인에 NDES 서버를 배포하는 방법에 대한 자세한 내용은 [네트워크 장치 등록 서비스와 함께 정책 모듈 사용](https://technet.microsoft.com/en-us/library/dn473016.aspx) 항목에서 찾아볼 수 있습니다.
+-  **NDES 서버**: Windows Server 2012 R2 이상을 실행하는 서버에 NDES(네트워크 장치 등록 서비스)를 설치해야 합니다. 엔터프라이즈 CA를 실행하는 서버에 NDES가 실행되는 경우 Intune는 사용을 지원하지 않습니다. 네트워크 장치 등록 서비스를 호스트하도록 Windows Server 2012 R2를 구성하는 방법에 대한 지침은 [네트워크 장치 등록 서비스 지침](http://technet.microsoft.com/library/hh831498.aspx)을 참조하세요. NDES 서버는 CA를 호스트하는 도메인에 가입해야 하며 CA와 동일한 서버에 있지 않아야 합니다. 별도의 포리스트, 격리된 네트워크 또는 내부 도메인에 NDES 서버를 배포하는 방법에 대한 자세한 내용은 [네트워크 장치 등록 서비스와 함께 정책 모듈 사용](https://technet.microsoft.com/en-us/library/dn473016.aspx) 항목에서 찾아볼 수 있습니다.
 
 -  **Microsoft Intune 인증서 커넥터**: 관리 콘솔을 사용하여 **인증서 커넥터** 설치 관리자(**ndesconnectorssetup.exe**)를 다운로드합니다. 그러면 인증서 커넥터를 설치할 컴퓨터에서 **ndesconnectorssetup.exe** 를 실행할 수 있습니다.
 -  **웹 응용 프로그램 프록시 서버**(선택 사항): Windows Server 2012 R2 이상을 WAP(웹 응용 프로그램 프록시) 서버로 실행하는 서버를 사용할 수 있습니다. 이 구성의 특징은 다음과 같습니다.
@@ -42,7 +42,7 @@ I
  > [!NOTE]           
 > -    WAP를 호스팅하는 서버에는 네트워크 장치 등록 서비스에서 사용하는 긴 URL을 지원할 수 있도록 하는 [업데이트를 설치](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx) 해야 합니다. 이 업데이트는 [2014년 12월 업데이트 롤업](http://support.microsoft.com/kb/3013769)에 포함되어 있으며, [KB3011135](http://support.microsoft.com/kb/3011135)에서 개별적으로 다운로드할 수도 있습니다.
 >-  또한 WAP를 호스트하는 서버에는 NDES 서버에서 사용되는 SSL 인증서를 신뢰할 뿐만 아니라 외부 클라이언트에 게시된 이름과 일치하는 SSL 인증서가 있어야 합니다. 이러한 인증서를 통해 WAP 서버는 클라이언트와의 SSL 연결을 종료하고 NDES 서버로의 새 SSL 연결을 생성할 수 있습니다.
-WAP용 인증서에 대한 자세한 내용은 **웹 응용 프로그램 프록시를 사용한 응용 프로그램 게시 계획** 의 [인증서 계획](https://technet.microsoft.com/library/dn383650.aspx)섹션을 참조하세요. WAP 서버에 대한 일반 정보는 [웹 응용 프로그램 프록시 작업](http://technet.microsoft.com/library/dn584113.aspx) 항목을 참조하세요.
+WAP용 인증서에 대한 자세한 내용은 **웹 응용 프로그램 프록시를 사용한 응용 프로그램 게시 계획** 의 [인증서 계획](https://technet.microsoft.com/library/dn383650.aspx)섹션을 참조하세요. WAP 서버에 대한 일반 정보는 [웹 응용 프로그램 프록시 작업](http://technet.microsoft.com/library/dn584113.aspx)을 참조하세요.
 
 ### 네트워크 요구 사항
 
@@ -303,7 +303,7 @@ NDES 서버에서 인증서 커넥터 다운로드, 설치 및 구성
 
 1.  [Intune 관리 콘솔](https://manage.microsoft.com)을 열고 **관리자** &gt; **인증서 커넥터**를 클릭합니다.
 
-2.  **온 프레미스 인증서 커넥터 구성**을 클릭합니다.
+2.  **온-프레미스 인증서 커넥터 구성**을 클릭합니다.
 
 3.  **인증서 커넥터 사용**을 선택하고 **확인**을 클릭합니다.
 
@@ -346,6 +346,6 @@ NDES 서버에서 인증서 커넥터 다운로드, 설치 및 구성
 이제 [인증서 프로필 구성](Configure-Intune-certificate-profiles.md)에 설명된 대로 인증서 프로필을 구성할 준비가 되었습니다.
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

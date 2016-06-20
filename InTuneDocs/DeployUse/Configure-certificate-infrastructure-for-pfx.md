@@ -16,7 +16,7 @@ ms.assetid: 2c543a02-44a5-4964-8000-a45e3bf2cc69
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer: vinaybha
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -51,7 +51,7 @@ ms.suite: ems
  > [!NOTE]           
 > -    WAP를 호스팅하는 서버에는 네트워크 장치 등록 서비스에서 사용하는 긴 URL을 지원할 수 있도록 하는 [업데이트를 설치](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx) 해야 합니다. 이 업데이트는 [2014년 12월 업데이트 롤업](http://support.microsoft.com/kb/3013769)에 포함되어 있으며, [KB3011135](http://support.microsoft.com/kb/3011135)에서 개별적으로 다운로드할 수도 있습니다.
 >-  또한 WAP를 호스트하는 서버에는 NDES 서버에서 사용되는 SSL 인증서를 신뢰할 뿐만 아니라 외부 클라이언트에 게시된 이름과 일치하는 SSL 인증서가 있어야 합니다. 이러한 인증서를 통해 WAP 서버는 클라이언트와의 SSL 연결을 종료하고 NDES 서버로의 새 SSL 연결을 생성할 수 있습니다.
-WAP용 인증서에 대한 자세한 내용은 **웹 응용 프로그램 프록시를 사용한 응용 프로그램 게시 계획** 의 [인증서 계획](https://technet.microsoft.com/library/dn383650.aspx)섹션을 참조하세요. WAP 서버에 대한 일반 정보는 [웹 응용 프로그램 프록시 작업](http://technet.microsoft.com/library/dn584113.aspx) 항목을 참조하세요.
+WAP용 인증서에 대한 자세한 내용은 **웹 응용 프로그램 프록시를 사용한 응용 프로그램 게시 계획** 의 [인증서 계획](https://technet.microsoft.com/library/dn383650.aspx)섹션을 참조하세요. WAP 서버에 대한 일반 정보는 [웹 응용 프로그램 프록시 작업](http://technet.microsoft.com/library/dn584113.aspx)을 참조하세요.
 
 
 ### 인증서 및 템플릿
@@ -105,7 +105,7 @@ WAP용 인증서에 대한 자세한 내용은 **웹 응용 프로그램 프록�
 
 5.  CA 컴퓨터에서 Intune 인증서 커넥터를 호스트하는 컴퓨터에 등록 권한이 있는지 확인하여 .PFX 프로필을 만드는 데 사용된 템플릿에 액세스할 수 있도록 합니다. CA 컴퓨터 속성의 **보안** 탭에서 권한을 설정합니다.
 
-### 작업 4 - Intune 인증서 커넥터 사용, 설치 및 구성
+### 작업 2 - Intune 인증서 커넥터 사용, 설치 및 구성
 이 작업에서는 다음을 수행합니다.
 
 인증서 커넥터 다운로드, 설치 및 구성
@@ -114,7 +114,7 @@ WAP용 인증서에 대한 자세한 내용은 **웹 응용 프로그램 프록�
 
 1.  [Intune 관리 콘솔](https://manage.microsoft.com)을 열고 **관리자** &gt; **인증서 커넥터**를 클릭합니다.
 
-2.  **온 프레미스 인증서 커넥터 구성**을 클릭합니다.
+2.  **온-프레미스 인증서 커넥터 구성**을 클릭합니다.
 
 3.  **인증서 커넥터 사용**을 선택하고 **확인**을 클릭합니다.
 
@@ -158,6 +158,6 @@ WAP용 인증서에 대한 자세한 내용은 **웹 응용 프로그램 프록�
 이제 [인증서 프로필 구성](Configure-Intune-certificate-profiles.md)에 설명된 대로 인증서 프로필을 구성할 준비가 되었습니다.
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/03/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: a26d9e3c-8f58-4494-9571-fc88ba91852e
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mamoriss
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -42,7 +42,7 @@ ms.suite: ems
 
 -   [느린 앱 설치 속도를 높이기 위해 장치를 수동으로 동기화](sync-your-device-manually-cpwebsite.md)
 
--   IT 관리자가 연락처 정보를 구성한 경우 IT 관리자의 연락처 정보 찾기
+-   IT 관리자가 연락처 정보를 구성한 경우 IT 관리자의 연락처 정보 찾기. 찾는 데 문제가 있는 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
 
 -   회사 또는 학교의 정책을 준수할지 여부를 포함한 장치에 대한 세부 정보를 참조하세요.
 
@@ -52,9 +52,9 @@ ms.suite: ems
 
 - [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 - [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
-- [Intune에서 Android 장치 사용](using-your-windows-device-with-intune.md)
+- [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

@@ -18,7 +18,7 @@ ms.assetid: d22f5aea-7be4-419b-b51b-a522ca037b69
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -60,9 +60,11 @@ Android 장치를 추가할 경우 장치에 액세스할 수 있는 권한을 I
 
     -   회사 앱 인벤토리 업데이트(이러한 업데이트에는 개인 정보가 포함되어 있지 않음)를 보냅니다.
 
+문의 사항이 있는 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 
