@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/03/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -15,10 +15,10 @@ ms.assetid: 3d648819-b866-412b-bd19-ac4505eb5eaf
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: esmich
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -43,6 +43,7 @@ ms.suite: ems
 이 섹션의 정보는 Intune에 iOS 장치가 등록된 후 수행할 수 있는 작업에 도움이 됩니다.
 
 - [장치에서 관리되는 앱 사용](use-managed-apps-on-your-device-ios.md)</br>
+- [암호 설정 또는 변경](set-or-change-your-passcode-ios.md)</br>
 - [분실하거나 도난당한 장치 재설정(지우기)](reset-erase-your-lost-or-stolen-device-ios.md)</br>
 - [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-ios.md)</br>
 - [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-ios.md)</br>
@@ -65,6 +66,6 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

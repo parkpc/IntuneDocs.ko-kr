@@ -18,7 +18,7 @@ ms.assetid: 0de5f03a-c288-423b-b9ea-493a39eb715a
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -42,6 +42,7 @@ ms.suite: ems
 이 섹션의 정보는 Intune에 Windows 장치가 등록된 후 수행할 수 있는 작업에 도움이 됩니다.
 
 - [장치 암호화](encrypt-your-device-windows.md)</br>
+- [암호 설정 또는 변경](set-or-change-your-password-windows.md)</br>
 - [분실하거나 도난당한 장치 재설정(지우기)](reset-erase-your-lost-or-stolen-device-windows.md)</br>
 - [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-windows.md)</br>
 - [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-windows.md)</br>
@@ -54,7 +55,7 @@ ms.suite: ems
 이 섹션의 정보는 Intune에 Windows 장치가 등록된 경우 발생할 수 있는 문제를 해결하는 데 도움이 됩니다.
 
 - [장치에 필요한 최소 운영 체제 버전이 없는 경우](device-doesnt-have-the-required-minimum-operating-system-version-windows.md)</br>
-- [장치가 최대 운영 체제 버전에 부합되지 않는 경우](device-doesnt-comply with-maximum-operating-system-version-windows.md)</br>
+- [장치가 최대 운영 체제 버전에 부합되지 않는 경우](device-doesnt-comply-with-maximum-operating-system-version-windows.md)</br>
 - [장치에서 BitLocker가 사용되지 않는 경우](device-doesnt-have-bitlocker-enabled-windows.md)</br>
 - [장치에서 맬웨어 방지 소프트웨어가 사용되지 않는 경우](device-doesnt-have-antimalware-software-enabled-windows.md)</br>
 - [장치에서 보안 부팅이 사용되지 않는 경우](device-doesnt-have-secure-boot-enabled-windows.md)</br>
@@ -63,6 +64,6 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

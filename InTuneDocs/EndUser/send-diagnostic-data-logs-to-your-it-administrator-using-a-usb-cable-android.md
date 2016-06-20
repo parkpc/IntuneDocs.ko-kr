@@ -18,7 +18,7 @@ ms.assetid: c46775c2-9d2a-4a88-89f0-4104a462b898
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -34,13 +34,15 @@ ms.suite: ems
 
 2.  USB 케이블을 사용하여 Android 장치를 컴퓨터에 연결합니다.
 
-3.  컴퓨터에서 전화 이름을 가진 디렉터리를 찾습니다. 해당 디렉터리에서 &lt;Android 장치&gt;\Phone\Android\data\com.microsoft.windowsintune.companyportal\files\를 찾습니다.
+3.  컴퓨터에서 전화 이름을 가진 디렉터리를 찾습니다. 해당 디렉터리에서 &lt;Android 장치&gt;\Phone\Android\data\com.microsoft.windowsintune.companyportal\files를 찾습니다.\.
 
 4.  모든 파일을 메일에 첨부하여 IT 관리자에게 보냅니다.
+
+IT 관리자의 연락처 정보를 찾을 수 없는 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
 
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

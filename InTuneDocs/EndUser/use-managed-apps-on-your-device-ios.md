@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/11/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 3232c5c1-cb9f-45ca-806f-7e74eeb3533e
 ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: maxles
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -39,7 +39,7 @@ ms.suite: ems
 ### 관리되는 앱을 가져오려면 어떻게 하나요?
 관리되는 앱을 가져오는 방법에는 몇 가지가 있습니다.
 
--   장치가 Microsoft Intune에 등록된 경우 회사 포털 앱 또는 회사 포털 웹 사이트에서 앱을 설치하거나, IT 관리자가 장치에 설치할 수 있습니다. 등록에 대해 알아보려면 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md) 섹션을 참조하세요.
+-   장치가 Microsoft Intune에 등록된 경우 회사 포털 앱 또는 회사 포털 웹 사이트에서 앱을 설치하거나, IT 관리자가 장치에 설치할 수 있습니다. 등록에 대해 알아보려면 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md)을 참조하세요.
 
 -   앱 스토어에서 앱을 설치하고 Intune으로 관리되는 회사 사용자 계정을 사용하여 로그인합니다.
 
@@ -76,11 +76,11 @@ IT 부서에서 관리할 수 있는 몇 가지 일반적인 앱은 다음과 �
 
 -   Microsoft Word, Excel, PowerPoint
 
-장치에서 관리되는 앱에 대한 자세한 내용은 IT 관리자에게 문의하세요.
+장치에서 관리되는 앱에 대한 자세한 내용은 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보를 찾을 수 없는 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
 
 ### 참고 항목
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

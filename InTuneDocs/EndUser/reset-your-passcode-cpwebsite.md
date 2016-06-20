@@ -18,7 +18,7 @@ ms.assetid: 4fa3255b-9d1e-42d5-bd8b-70963dcf2d86
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mamoriss
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -62,9 +62,11 @@ Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [�
 
     암호가 재설정되었는지 확인하는 알림을 보려면 회사 포털 웹 사이트의 오른쪽 맨 위에 있는 알림 플래그를 클릭합니다.
 
+도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+
 ### 참고 항목
 [Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO1-->
 
 

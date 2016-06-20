@@ -15,10 +15,10 @@ ms.assetid: a2467c02-aac5-41c8-b788-cbda830941ef
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: esmich
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -98,11 +98,13 @@ Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하�
 
 -   장치가 로밍 모드에 있는 동안 자동 파일 동기화를 사용하거나 사용하지 않도록 설정합니다. 자동 파일 동기화가 허용되는 경우 로밍 요금이 청구될 수 있습니다.
 
-장치를 등록하는 방법은 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md)을 참조하세요..
+장치를 등록하는 방법은 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md)을 참조하세요.
+
+문의 사항이 있는 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
 
 ### 참고 항목
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

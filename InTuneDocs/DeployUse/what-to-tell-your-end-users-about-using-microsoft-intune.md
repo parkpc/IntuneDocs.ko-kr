@@ -34,6 +34,8 @@ ms.suite: ems
 - Intune에서 다양한 작업을 수행하기 위해 사용자가 따르는 단계를 이해합니다.
 - Intune을 사용하는 동안 발생한 문제를 해결하고 작업을 완료하도록 사용자를 돕습니다.
 
+[회사 포털을 사용자 지정](/Intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-7)하는 경우 사용자가 도움이 필요하면 지원을 받을 수 있도록 IT 관리자의 연락처 정보를 반드시 포함하세요.
+
 
 ## 최종 사용자가 일반적인 작업에 대한 정보를 찾을 수 있는 위치
 
@@ -61,9 +63,9 @@ ms.suite: ems
 
 ## 최종 사용자가 회사 포털 앱 메시지를 이해할 수 있도록 지원
 
-회사 포털을 사용하면서 발생하는 문제를 해결하는 데 도움을 주려면 [list of messages users might see in the Company Portal](/Intune/Plan-Design/help-end-users-understand-company-portal-app-messages)(회사 포털에서 사용자가 볼 수 있는 메시지 목록)을 검토합니다..
+회사 포털을 사용하면서 발생하는 문제를 해결하는 데 도움을 주려면 [list of messages users might see in the Company Portal](/Intune/Plan-Design/help-end-users-understand-company-portal-app-messages)(회사 포털에서 사용자가 볼 수 있는 메시지 목록)을 검토합니다.
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

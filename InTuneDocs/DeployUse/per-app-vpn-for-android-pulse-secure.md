@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: [Pulse Secure를 사용한 Android용 앱별 VPN | Microsoft Intune]
+title: Pulse Secure를 사용한 Android용 앱별 VPN | Microsoft Intune
 description:
 keywords:
-author: [nbigman]
-manager: [jeffgilb]
+author: nbigman
+manager: jeffgilb
 ms.date: 05/08/2016
 ms.topic: article
 ms.prod:
@@ -18,7 +18,7 @@ ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: [ALIAS]
+#ms.reviewer: chrisbal
 #ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -35,10 +35,10 @@ Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만들 수 �
 2. **Android**를 확장하여 새 정책에 대한 템플릿을 선택한 후 **VPN 프로필(Android 4 이상)**을 선택합니다.
 
 3. 템플릿에서 **연결 형식**으로 **Pulse Secure**를 선택합니다.
-4. 완료하고 VPN 프로필을 저장합니다. VPN 프로필에 대한 자세한 내용은 [VPN 프로필](Help%20users%20connect%20to%20their%20work%20using%20VPN%20profiles%20with%20Microsoft%20Intune.md) 항목을 참조하세요.
+4. 완료하고 VPN 프로필을 저장합니다. VPN 프로필에 대한 자세한 내용은 [VPN 프로필](Help%20users%20connect%20to%20their%20work%20using%20VPN%20profiles%20with%20Microsoft%20Intune.md)을 참조하세요.
 
 > [!NOTE]
-다음 단계에서 사용할 수 있도록 VPN 프로필 이름을 기록해두세요. 예를 들면 **MyAppVpnProfile**입니다.
+다음 단계에서 사용할 수 있도록 VPN 프로필 이름을 기록해 두세요. 예를 들면 **MyAppVpnProfile**입니다.
    
 ### 2단계: 사용자 지정 구성 정책 만들기
     
@@ -55,7 +55,7 @@ Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만들 수 �
 #### 앱 목록을 블랙리스트 또는 허용 목록으로 설정(옵션)
 앱 목록이 VPN 연결을 사용하지 *못하게* **블랙리스트** 값을 사용하여 지정할 수 있습니다.  다른 모든 앱은 VPN을 통해 연결됩니다.
 
-또는, *오직* 지정한 앱에서만 VPN 연결을 사용할 수 있도록 **허용 목록** 값을 사용하여 지정할 수 있습니다.
+또는 *오직* 지정한 앱에서만 VPN 연결을 사용할 수 있도록 **허용 목록** 값을 사용하여 지정할 수 있습니다.
  
 
 1.  OMA-URI 설정에서 **추가**를 클릭합니다.
@@ -82,6 +82,6 @@ Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만들 수 �
 
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

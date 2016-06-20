@@ -18,7 +18,7 @@ ms.assetid: 98034875-cd3a-4367-a8d7-c5d4a438d496
 ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -34,10 +34,10 @@ ms.suite: ems
 
 2.  암호 제한 시간 값을 지정합니다.
 
-3.  [업무에 사용할 장치 등록](http://go.microsoft.com/fwlink/?LinkId=519071) 섹션의 지침에 따라 Intune에 장치가 등록되었는지 확인합니다.
+3.  [업무에 사용할 장치 등록](http://go.microsoft.com/fwlink/?LinkId=519071)의 지침에 따라 Intune에 장치가 등록되었는지 확인합니다.
 
+도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
 
-
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

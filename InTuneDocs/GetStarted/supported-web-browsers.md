@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/06/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Microsoft Intune 지원 웹 브라우저
 
-Intune을 설정하기 전에, 이 항목과 [What to know before you start](what-to-know-before-you-start-microsoft-intune.md)(시작하기 전에 알아두어야 할 사항) 항목에 나열된 요구 사항을 검토합니다.
+Intune을 설정하기 전에 이 항목과 [시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)에 나열된 요구 사항을 검토합니다.
 
 |Intune 기능 |지원되는 브라우저|
 |---------|---------|
@@ -42,6 +42,6 @@ Intune을 설정하기 전에, 이 항목과 [What to know before you start](wha
 
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

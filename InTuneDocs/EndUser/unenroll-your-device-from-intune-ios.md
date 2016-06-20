@@ -18,7 +18,7 @@ ms.assetid: 28914db1-3e62-45f5-9632-b0d2a808a44d
 ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: esmich
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -54,9 +54,11 @@ Intune에서 장치를 등록 취소하면 다음과 같은 일이 발생합니�
 
 -   메일용으로만 구성된 장치는 회사 포털 앱이나 웹 사이트에 더 이상 나타나지 않습니다.
 
+도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+
 ### 참고 항목
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

@@ -18,7 +18,7 @@ ms.assetid: 35a34ef8-efbb-4edf-88eb-a03c1b27a026
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mamoriss
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -34,15 +34,17 @@ ms.suite: ems
 
 1.  [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 열고 이름을 바꾸려는 장치를 탭합니다.
 
-2.  **이름 바꾸기**를 탭합니다..
+2.  **이름 바꾸기**를 탭합니다.
 
     ![rename-device](./media/iwp-1-tap-reset-passcode.png)
 
 3.  현재 장치 이름이 나타나는 상자에서 장치의 새 이름을 입력한 후 **이름 바꾸기** 단추를 탭합니다. 이제 장치가 새 이름으로 나타납니다.
 
+도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+
 ### 참고 항목
 [Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

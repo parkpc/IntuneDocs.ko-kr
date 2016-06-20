@@ -18,7 +18,7 @@ ms.assetid: ed4a9f15-72fb-4171-84cb-63d2f1a6d04c
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisbal
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -30,15 +30,17 @@ ms.suite: ems
 
 회사 리소스에 연결할 수 있도록 IT 관리자가 VPN 응용 프로그램을 구성한 경우에는 VPN 앱을 설치해야 한다는 알림이 Android 장치에 표시됩니다. VPN 앱을 설치하려면 다음 단계를 수행합니다.
 
-1.  알림 서랍을 내리고 **이 필수 앱을 설치하려면 탭하세요.**를 탭합니다..
+1.  알림 서랍을 내리고 **필수 앱을 설치하려면 탭하세요.**를 탭합니다.
 
 2.  **Play 스토어**에서 **설치**를 클릭하고 화면의 메시지에 따라 앱을 설치합니다.
 
 3.  **회사 VPN 프로필 설치**를 탭한 다음 화면의 메시지에 따라 설치에 동의하고 앱을 활성화합니다.
 
+도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

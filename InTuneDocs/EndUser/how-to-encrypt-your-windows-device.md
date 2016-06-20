@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/30/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 7d9645a9-6058-4112-aa31-8cdbccdc5463
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -26,28 +26,19 @@ ms.suite: ems
 ---
 
 # Windows 장치를 암호화하는 방법
-회사에 다시 연결하려면 다음 지침에 따라 장치를 암호화해야 합니다.
 
-## 옵션 1 – Microsoft 계정 추가
+회사 또는 학교 데이터를 보호하려면 IT 관리자가 Windows 장치를 암호화해야 할 수도 있습니다. Windows Phone이 있고 이를 등록한 경우 암호화가 필요하면 장치가 자동으로 암호화됩니다.
 
-1.  **PC 설정** 앱을 검색한 다음 시작합니다.
-
-2.  **계정** &gt; **계정**을 클릭하고 **Microsoft 계정**에 연결을 클릭합니다..
-
-3.  표시된 지침을 따릅니다.
-
-4.  [업무에 사용할 장치 등록](http://go.microsoft.com/fwlink/?LinkId=519071)의 지침에 따라 Intune에 장치가 등록되었는지 확인합니다..
-
-## 옵션 2 – BitLocker 사용:
+데스크톱 장치가 있는 경우 아래의 지침을 따라 장치를 암호화합니다. 
 
 1.  **BitLocker 관리** 앱을 검색한 다음 시작합니다.
 
 2.  **BitLocker 켜기**를 클릭하고 표시되는 지침에 따라 각 드라이브를 암호화합니다.
 
-3.  [업무에 사용할 장치 등록](http://go.microsoft.com/fwlink/?LinkId=519071)의 지침에 따라 Intune에 장치가 등록되었는지 확인합니다..
+도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

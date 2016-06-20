@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Intune에 대한 질문과 대답
-이 문서는 Intune에 대한 몇 가지 자주 묻는 질문에 대답합니다. 여기에서 질문에 대한 답변을 찾을 수 없는 경우 [알려 주세요](https://microsoftintune.uservoice.com/)..
+이 문서는 Intune에 대한 몇 가지 자주 묻는 질문에 대답합니다. 여기에서 질문에 대한 답변을 찾을 수 없는 경우 [알려 주세요](https://microsoftintune.uservoice.com/).
 
 ## 일반적인 문제
 
@@ -40,13 +40,13 @@ ms.suite: ems
 
 -   **모바일 장치용 Intune에 원격 지원 기능이 있나요?**
 
-    없습니다. [Bomgar](http://www.bomgar.com/) 및 [TeamViewer](https://www.teamviewer.com/)와 같은 타사 앱이 유용할 수 있습니다.
+    없습니다. [Bomgar](http://www.bomgar.com/) <!---and [TeamViewer](https://www.teamviewer.com/)--->와 같은 타사 앱이 유용할 수 있습니다.
 
 ## 계정
 
 -   **Intune의 평가를 시작하고 평가판에 대해 새 테넌트를 만드는 경우 동일한 테넌트를 사용하여 평가에 Office 365를 추가할 수 있나요?**
 
-    예. globaladmin@&lt;company&gt;.onmicrosoft.com과 같은 기존 Intune 테넌트/구독의 전역 관리자를 사용하여 로그인하세요..
+    예. *globaladmin@&lt;company&gt;.onmicrosoft.com*과 같은 기존 Intune 테넌트/구독의 전역 관리자를 사용하여 로그인하세요.
 
 -   **평가판 구독 중에 Intune에 MDM 기관을 할당하는 경우 중간에 다른 회사의 서비스로 전환하는 것이 어려운가요?**
 
@@ -62,15 +62,15 @@ ms.suite: ems
 
 -   **사용자는 어디에서 장치 등록 방법을 익힐 수 있나요?**
 
-    [IT 관리자에 대한 최종 사용자 Intune 등록 지침](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a)의 정보를 사용하거나 사용자 지정할 수 있습니다..
+    [IT 관리자에 대한 최종 사용자 Intune 등록 지침](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a)의 정보를 사용하거나 사용자 지정할 수 있습니다.
 
 -   **장치 등록 문제를 해결하려면 어떻게 해야 하나요?**
 
-    일반적인 등록 문제를 해결하는 방법은 [Intune에서 장치 등록 문제 해결](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)에 제공됩니다..
+    일반적인 등록 문제를 해결하는 방법은 [Intune에서 장치 등록 문제 해결](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)에서 제공됩니다.
 
 -   **사용자에게 등록 문제가 발생하는 경우 등록 로그를 수집하려면 어떻게 해야 하나요?**
 
-    [이 지침](http://www.microsoft.com/en-us/download/46391)을 따르세요..
+     [이 지침](http://www.microsoft.com/en-us/download/46391)을 따르세요.
 
 ## 모바일 장치 관리
 
@@ -78,15 +78,15 @@ ms.suite: ems
 
     -   **장치가 무단 해제되었는지 여부를 Intune에서 알 수 있나요?**
 
-        일부 운영 체제의 경우는 알 수 있습니다. 무단 해제된 장치를 관리하는 방법에 대한 자세한 내용은 [장치 준수 정책 만들기](/intune/deploy-use/create-a-device-compliance-policy-in-microsoft-intune.md)를 참조하세요..
+        일부 운영 체제의 경우는 알 수 있습니다. 무단 해제된 장치를 관리하는 방법에 대한 자세한 내용은 [장치 준수 정책 만들기](/intune/deploy-use/create-a-device-compliance-policy-in-microsoft-intune.md)를 참조하세요.
 
     -   **장치에서 회사 데이터를 선택적으로 초기화할 수 있나요?**
 
-        예. 선택적 초기화에 대한 자세한 내용은 [원격 초기화, 원격 잠금 또는 암호 재설정으로 데이터 보호 지원](/intune/deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune.md)을 참조하세요..
+        예. 선택적 초기화에 대한 자세한 내용은 [원격 초기화, 원격 잠금 또는 암호 재설정으로 데이터 보호 지원](/intune/deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune.md)을 참조하세요.
 
     -   **Intune을 통해 모바일 장치 브라우저의 특정 웹 사이트를 차단하는 방법이 있나요?**
 
-        플랫폼의 기본 브라우저에는 없습니다. 그러나 iOS 및 Android 장치에서 관리되는 Intune을 배포할 때 URL을 차단하거나 허용할 수 있습니다. 자세한 내용은 [Managed Browser 정책을 사용하여 인터넷 액세스 관리](/intune/Deploy-Use/Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md)를 참조하세요..
+        플랫폼의 기본 브라우저에는 없습니다. 그러나 iOS 및 Android 장치에서 관리되는 Intune을 배포할 때 URL을 차단하거나 허용할 수 있습니다. 자세한 내용은 [Managed Browser 정책을 사용하여 인터넷 액세스 관리](/intune/Deploy-Use/Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md)를 참조하세요.
 
     -   **사용자의 앱 제거를 제한할 수 있나요?**
 
@@ -104,10 +104,7 @@ ms.suite: ems
 
         상황에 따라 MDM 기관을 전환할 수 있습니다. 이렇게 하려면 [Microsoft Intune에 대한 지원을 받는 방법](/intune/Troubleshoot/How-to-get-support-for-Microsoft-Intune.md)에 설명된 대로 고객 지원에 문의하세요. 아래 표에 가능한 변경 내용이 나와 있습니다. MDM 기관을 변경하려면 장치를 다시 등록해야 합니다.
 
-        ||**대상:** Intune!**대상:** O365|**대상:** Configuration Manager(Intune 포함)
-        |**시작:** Intune| |예&#42;|예|
-        |**시작:** O365||예&#42;||예|
-        |**시작:** Configuration Manager(Intune 포함)|예|예| |
+        ||**대상:** Intune!**대상:** O365|**대상:** Configuration Manager(Intune 포함)| |**시작:** Intune| |예&#42;|예| |**시작:** O365||예&#42;||예| |**시작:** Configuration Manager(Intune 포함)|예|예| |
         
         &#42;O365 및 Intune MDM 기관은 공존할 수 있으므로 모바일 장치를 다시 등록할 필요가 없습니다.
 
@@ -143,8 +140,7 @@ ms.suite: ems
     **Intune 사용자용 AET를 만드는 방법은 무엇입니까?**
   관리자가 해당 Symantec 인증서에 필요한 .pfx 파일을 업로드하면 Intune에서 AET를 자동으로 만들어 등록된 Windows Phone에 배포합니다. 따라서 Intune 관리자가 Windows Phone SDK에서 AET 생성기 도구를 사용할 필요가 없습니다.
 
-      > [!IMPORTANT]
-        > Intune은 AET의 수동 생성과 대역 외 배포를 지원하지 않습니다.
+      > [!IMPORTANT] Intune은 AET의 수동 생성과 대역 외 배포를 지원하지 않습니다.
 
     **Symantec 인증서에 대한 요구 사항을 줄이기 위해 변경된 점은 무엇입니까?**
        2014년 11월 릴리스의 Intune은 회사에 Symantec 인증서가 없는 경우의 시나리오를 허용하도록 변경되었습니다.
@@ -277,11 +273,11 @@ ms.suite: ems
 
 -   **권장 앱을 추가하려면 어떻게 해야 하나요?**
 
-    Intune에서는 이러한 앱을 "추천 앱"이라고 하며 이러한 앱은 [Microsoft Intune에서 앱 배포](/Intune/Deploy-Use/deploy-apps-in-microsoft-intune.md)에 설명되어 있습니다..
+    Intune에서는 이러한 앱을 "추천 앱"이라고 하며 이러한 앱은 [Microsoft Intune에서 앱 배포](/Intune/Deploy-Use/deploy-apps-in-microsoft-intune.md)에 설명되어 있습니다.
 
 -   **배포하려는 앱에 대한 추가 클라우드 저장소를 얻을 수 있나요?**
 
-    예. 클라우드 저장소 요구 사항 섹션의 [앱 배포](/Intune/Deploy-Use/deploy-apps.md)에서 이 내용을 확인할 수 있습니다..
+    예. *클라우드 저장소 요구 사항* 섹션의 [앱 배포](/Intune/Deploy-Use/deploy-apps.md)에서 이 내용을 확인할 수 있습니다.
 
 ## 보안
 
@@ -291,7 +287,7 @@ ms.suite: ems
 
 -   **BitLocker를 사용하여 Windows 8 태블릿을 암호화하는 경우 사용자가 연속적으로 여러 번 로그온에 실패하면 전체 장치 초기화를 적용할 수 있나요?**
 
-    Windows RT 8.1/RT 장치에 Intune을 비롯한 모바일 장치 관리 서비스에 대한 전체 초기화 옵션은 없습니다. Intune은 이러한 장치에 대해 선택적 초기화 기능을 제공합니다. Intune에서 초기화/선택적 초기화에 대한 자세한 내용은 [Microsoft Intune을 사용하여 앱 및 데이터 보호](/intune/Deploy-Use/protect-apps-and-data-with-microsoft-intune.md)를 참조하세요..
+    Windows RT 8.1/RT 장치에 Intune을 비롯한 모바일 장치 관리 서비스에 대한 전체 초기화 옵션은 없습니다. Intune은 이러한 장치에 대해 선택적 초기화 기능을 제공합니다. Intune에서 초기화/선택적 초기화에 대한 자세한 내용은 [Microsoft Intune을 사용하여 앱 및 데이터 보호](/intune/Deploy-Use/protect-apps-and-data-with-microsoft-intune.md)를 참조하세요.
 
 ## 회사 포털
 
@@ -307,7 +303,7 @@ ms.suite: ems
 
 -   **장치에서 선택적 초기화를 수행할 수 있나요?**
 
-    Intune에서 System Center 2012 R2 Configuration Manager 이상을 사용하는 경우 회사 데이터를 제거하는 선택적 초기화를 수행할 수 있습니다. 자세한 내용은 [Microsoft Intune을 사용하여 앱 및 데이터 보호](/intune/Deploy-Use/protect-apps-and-data-with-microsoft-intune.md)를 참조하세요..
+    Intune에서 System Center 2012 R2 Configuration Manager 이상을 사용하는 경우 회사 데이터를 제거하는 선택적 초기화를 수행할 수 있습니다. 자세한 내용은 [Microsoft Intune을 사용하여 앱 및 데이터 보호](/intune/Deploy-Use/protect-apps-and-data-with-microsoft-intune.md)를 참조하세요.
 
 -   **Intune과 함께 Configuration Manager를 사용하는 경우 Intune 관리 포털을 계속 사용할 수 있나요?**
 
@@ -315,6 +311,6 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

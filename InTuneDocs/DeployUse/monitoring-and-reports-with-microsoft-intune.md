@@ -18,7 +18,7 @@ ms.assetid: 0f7dc155-cb8e-477b-ba02-2623194a9575
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: pbala
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -33,10 +33,10 @@ IT 관리자는 조직 내에 있는 장치의 상태를 모니터링하려고 �
 
 -   **[경고](get-notified-by-microsoft-intune-alerts.md)**는 Intune에서 관리하는 장치의 상태를 모니터링할 수 있도록 합니다(Endpoint Protection 상태 및 경고(맬웨어 경고용), 디스크 공간 또는 네트워크 연결의 부족과 관련된 경고 포함).
 
--   Intune에서 관리하는 장치 및 컴퓨터는 속성과 설치된 소프트웨어에 대한 자세한 정보를 반환합니다.  Intune에서는 이러한 데이터를 검사하고 제공하는 도구를 제공합니다. 자세한 내용은 [Microsoft Intune에서 인벤토리를 사용하는 장치 이해](understand-your-devices-with-inventory-in-microsoft-intune.md)를 참조하세요..
+-   Intune에서 관리하는 장치 및 컴퓨터는 속성과 설치된 소프트웨어에 대한 자세한 정보를 반환합니다.  Intune에서는 이러한 데이터를 검사하고 제공하는 도구를 제공합니다. 자세한 내용은 [Microsoft Intune에서 인벤토리를 사용하는 장치 이해](understand-your-devices-with-inventory-in-microsoft-intune.md)를 참조하세요.
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

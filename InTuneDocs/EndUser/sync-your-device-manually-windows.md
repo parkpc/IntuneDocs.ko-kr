@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/18/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 443c6de7-5187-4dc4-b844-6085a0c659bd
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -27,7 +27,7 @@ ms.suite: ems
 
 
 # 수동으로 장치 동기화
-앱 설치가 너무 오래 걸리면, 다음 지침을 사용하여 Windows 장치를 수동으로 동기화합니다. 이렇게 하면 설치 속도를 높이는 데 도움이 될 수 있습니다. 사용하는 장치 유형에 해당하는 지침을 사용하세요.
+앱 설치가 너무 오래 걸리면, 다음 지침을 사용하여 Windows 장치를 수동으로 동기화합니다. 이렇게 하면 설치 속도를 높이는 데 도움이 될 수 있습니다. 나열된 버전만 지원됩니다. 위의 "이 문서의 내용" 섹션에 표시된 링크 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
 
 * [Windows 10 Mobile](#windows-10-mobile)
 * [Windows 10 Desktop](#windows-10-desktop)
@@ -37,11 +37,11 @@ ms.suite: ems
 ## Windows 10 Mobile
 느린 앱 설치 속도를 높이기 위해 Windows 10 모바일 장치를 수동으로 동기화하려면:
 
-1. **모든 앱** > **설정** > **계정**으로 이동합니다..
+1. **모든 앱** > **설정** > **계정**으로 이동합니다.
 
     ![win10m-sync-1-settings-accounts](./media/win10m-sync-1-settings-accounts.png)
     
-2. **회사 액세스**를 탭합니다..
+2. **회사 액세스**를 탭합니다.
 
     ![win10m-sync-2-work-access](./media/win10m-sync-2-work-access.png)
     
@@ -58,15 +58,15 @@ ms.suite: ems
 ## Windows 10 Desktop
 느린 앱 설치 속도를 높이기 위해 Windows 10 Desktop 모바일 장치를 수동으로 동기화하려면:
 
-1. 아래와 같이 **시작** 단추를 선택한 다음 **설정**을 선택합니다..
+1. 아래와 같이 **시작** 단추를 선택한 다음 **설정**을 선택합니다.
 
     ![win10pc-sync-1-start-button](./media/win10pc-sync-1-start-button.png)
     
-2. **설정** 페이지에서 **계정**을 선택합니다..
+2. **설정** 페이지에서 **계정**을 선택합니다.
  
     ![win10pc-sync-2-settings-accounts](./media/win10pc-sync-2-settings-accounts.png)
     
-3. **계정** 페이지에서 **회사 액세스**를 선택합니다..
+3. **계정** 페이지에서 **회사 액세스**를 선택합니다.
     
     ![win10pc-sync-3-work-access](./media/win10pc-sync-3-work-access.png)
     
@@ -83,7 +83,7 @@ ms.suite: ems
 ## Windows Phone 8.1
 느린 앱 설치 속도를 높이기 위해 Windows Phone 8.1 장치를 수동으로 동기화하려면:
 
-1. **모든 앱** > **설정** > **회사**로 이동합니다..
+1. **모든 앱** > **설정** > **회사**로 이동합니다.
 
     ![wp81-1-sync-settings-workplace](./media/wp81-1-sync-settings-workplace.png)
     
@@ -102,6 +102,6 @@ ms.suite: ems
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

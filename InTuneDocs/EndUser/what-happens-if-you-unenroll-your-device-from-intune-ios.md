@@ -15,10 +15,10 @@ ms.assetid: c6a97c74-c35c-4977-b925-6efe01e31d3c
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: esmich
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -44,11 +44,13 @@ Intune에서 iOS 장치 등록을 취소하면:
 
 -   장치에서 회사 전자 메일 프로필이 제거됩니다.
 
-등록을 취소하는 방법에 대한 지침은 [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-ios.md)를 참조하세요..
+등록을 취소하는 방법에 대한 지침은 [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-ios.md)를 참조하세요.
+
+문의 사항이 있는 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
 
 ### 참고 항목
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

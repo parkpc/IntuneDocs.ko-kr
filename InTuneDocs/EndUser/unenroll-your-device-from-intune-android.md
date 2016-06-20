@@ -18,7 +18,7 @@ ms.assetid: f40aab26-7613-48cc-a74e-de83df9465a4
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -28,7 +28,7 @@ ms.suite: ems
 
 # Intune에서 장치 등록 취소
 
-Intune에서 Android 장치 등록을 취소하면 장치에서 회사 리소스에 더 이상 액세스할 수 없습니다.  등록을 취소할 때 발생되는 작업에 대한 자세한 내용은 [Intune에서 장치 등록을 취소하면 어떤 일이 생기나요?](what-happens-if-you-unenroll-your-device-from-intune-android.md)를 참조하세요..
+Intune에서 Android 장치 등록을 취소하면 장치에서 회사 리소스에 더 이상 액세스할 수 없습니다.  등록을 취소할 때 발생하는 상황에 대한 자세한 내용은 [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-android.md)를 참조하세요.
 
 Intune에서 장치 등록을 취소하고 회사 포털 앱을 제거하려면 다음 단계를 따르거나 이 [동영상](http://aka.ms/gyq2du)을 시청하세요.
 
@@ -46,10 +46,11 @@ Intune에서 장치 등록을 취소하고 회사 포털 앱을 제거하려면 
 
     ![android-company-portal-unenroll-warning](./media/andr-3-warning-about-remove.png)
 
+도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
 
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

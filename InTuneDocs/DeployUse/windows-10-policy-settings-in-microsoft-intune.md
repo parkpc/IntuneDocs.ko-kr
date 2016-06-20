@@ -18,7 +18,7 @@ ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: heenamac
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -216,13 +216,13 @@ Windows 사용자 지정 URI 정책을 사용하려면 모든 장치를 Intune�
 |**​자동 업데이트 허용**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Device/Update/AllowAutoUpdate<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** - **5**(기본값: **1**)|
 |**설치 날짜 예약**<br>(모바일에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Device/Update/ScheduledInstallDay<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** - 매일(기본값)<br>**1** - 일요일<br>**2** - 월요일<br>**3** - 화요일<br>**4** - 수요일<br>**5** - 목요일<br>**6** - 금요일<br>**7** - 토요일|
 |**설치 시간 예약**<br>(데스크톱 및 모바일)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Update/ScheduledInstallTime<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** - **23**시간(**0**은 자정)(기본값: **3**)|
-|**DeviceLock/AllowIdleReturnWithoutPassword**<br>(모바일에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/DeviceLock/AllowIdleReturnWithoutPassword<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** - 사용자는 암호 유예 기간 타이머를 설정할 수 없으며, 값은 “매번”으로 설정됩니다.<br>**1** -사용자가 암호 유예 기간 타이머를 설정할 수 있습니다(기본값).|
-|**WiFi/AllowWiFi**<br>(모바일에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/WiFi/AllowWiFi<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – **Wi-Fi 연결 사용**을 허용하지 않습니다.<br>**1** - **Wi-Fi 연결 사용**을 허용합니다(기본값).|
+|**DeviceLock/AllowIdleReturnWithoutPassword**<br>(모바일에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/DeviceLock/AllowIdleReturnWithoutPassword<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** - 사용자는 암호 유예 기간 타이머를 설정할 수 없으며, 값은 “매번”으로 설정됩니다.<br>**1** - 사용자가 암호 유예 기간 타이머를 설정할 수 있습니다(기본값).|
+|**WiFi/AllowWiFi**<br>(모바일에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/WiFi/AllowWiFi<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – **Wi-Fi 연결 사용**을 허용하지 않습니다.<br>**1** - **Wi-Fi 연결 사용을 허용합니다**(기본값).|
 |**WiFi/AllowInternetSharing**<br>(데스크톱 및 모바일)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/WiFi/AllowInternetSharing<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 인터넷 공유를 허용하지 않습니다.<br>**1** - 인터넷 공유를 허용합니다(기본값).|
 |**WiFi/AllowAutoConnectToWiFiSenseHotspots**<br>(데스크톱 및 모바일)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/WiFi/AllowAutoConnectToWiFiSenseHotspots<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용되지 않음<br>**1** - 허용됨(기본값)|
 |**WiFi/AllowManualWiFiConfiguration**<br>(모바일에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/WiFi/AllowManualWiFiConfiguration<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 프로비전된 MDM 외부의 Wi-Fi 연결이 허용되지 않습니다.<br>**1** – 이미 프로비전된 MDM을 초과하는 새 네트워크 SSID의 추가를 허용합니다(기본값).|
 |**System/AllowLocation**<br>(데스크톱 및 모바일)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/System/AllowLocation<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용되지 않음<br>**1** - 허용됨(기본값)|
-|**System/AllowTelemetry**<br>(데스크톱 및 모바일)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/System/AllowTelemetry<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용되지 않음(기업 전용 설정)<br>**1** – 제한됨<br>**2** -전체(기본값)<br>**3** - 전체 및 진단 정보|
+|**System/AllowTelemetry**<br>(데스크톱 및 모바일)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/System/AllowTelemetry<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용되지 않음(기업 전용 설정)<br>**1** – 제한됨<br>**2** - 전체(기본값)<br>**3** - 전체 및 진단 정보|
 |**System/AllowExperimentation**<br>(데스크톱 및 모바일)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/System/AllowExperimentation<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용되지 않음<br>**1** - 설정만(기본값)<br>**2** - 설정 및 실험|
 |**Security/AntiTheftMode**<br>(모바일에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Security/AntiTheftMode<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** - 도난 방지 모드를 허용하지 않음<br>**1** - 사용자 기본 설정(기본값)|
 |**Connectivity/AllowUSBConnection**<br>(모바일에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Connectivity/AllowUSBConnection<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용되지 않음<br>**1** - 허용됨(기본값)|
@@ -297,8 +297,8 @@ Windows 사용자 지정 URI 정책을 사용하려면 모든 장치를 Intune�
 |**AllowUserUIAccess**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Defender/AllowUserUIAccess<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용되지 않음<br>**1** - 허용됨(기본값)|
 |**ScanParameter**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Defender/ScanParameter<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**1** - 빠른 검색(기본값)<br>**2** - 전체 검색|
 |**ScheduleScanDay**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Defender/ScheduleScanDay<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** - 매일(기본값)<br>**1** - 월요일<br>**2** - 화요일<br>**3** - 수요일<br>**4** - 목요일<br>**5** - 금요일<br>**6** - 토요일<br>**7** - 일요일<br>**8** – 예약된 검색 없음|
-|**ScheduleScanTime**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Defender/ScheduleScanTime<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** - 12:00 am<br>**60** ~ 1:00 am<br>**120** ~ 2:00 am(기본값)<br>**180** ~ 3:00 am<br>**240** ~ 4:00 am<br>**300** ~ 5:00 am<br>**360** ~ 6:00 am<br>**420** ~ 7:00 am<br>**480** ~ 8:00 am<br>**540** ~ 9:00 am<br>**600** ~ 10:00 am<br>**660** ~ 11:00 am<br>**720** ~ 12:00 pm<br>**780** ~ 1:00 pm<br>**840** ~ 2:00 pm<br>**900** ~ 3:00 pm<br>**960** ~ 4:00 pm<br>**1020** ~ 5:00 pm<br>**1080** ~ 6:00 pm<br>**1140** ~ 7:00 pm<br>**1200** ~ 8:00 pm<br>**1260** ~ 9:00 pm<br>**1320** ~ 10:00 pm<br>**1381** – 유지 관리 기간|
-|**ScheduleQuickScanTime**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Defender/ScheduleQuickScanTime<br>**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** - 12:00 am<br>**60** ~ 1:00 am<br>**120** ~ 2:00 am(기본값)<br>**180** ~ 3:00 am<br>**240** ~ 4:00 am<br>**300** ~ 5:00 am<br>**360** ~ 6:00 am<br>**420** ~ 7:00 am<br>**480** ~ 8:00 am<br>**540** ~ 9:00 am<br>**600** ~ 10:00 am<br>**660** ~ 11:00 am<br>**720** ~ 12:00 pm<br>**780** ~ 1:00 pm<br>**840** ~ 2:00 pm<br>**900** ~ 3:00 pm<br>**960** ~ 4:00 pm<br>**1020** ~ 5:00 pm<br>**1080** ~ 6:00 pm<br>**1140** ~ 7:00 pm<br>**1200** ~ 8:00 pm<br>**1260** ~ 9:00 pm<br>**1320** ~ 10:00 pm<br>**1380** ~ 11:00 pm|
+|**ScheduleScanTime**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Defender/ScheduleScanTime<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** - 12:00 am<br>**60** ~ 1:00 am<br>**120** – 2:00 am(기본값)<br>**180** ~ 3:00 am<br>**240** ~ 4:00 am<br>**300** ~ 5:00 am<br>**360** ~ 6:00 am<br>**420** ~ 7:00 am<br>**480** ~ 8:00 am<br>**540** ~ 9:00 am<br>**600** ~ 10:00 am<br>**660** ~ 11:00 am<br>**720** ~ 12:00 pm<br>**780** ~ 1:00 pm<br>**840** ~ 2:00 pm<br>**900** ~ 3:00 pm<br>**960** ~ 4:00 pm<br>**1020** ~ 5:00 pm<br>**1080** ~ 6:00 pm<br>**1140** ~ 7:00 pm<br>**1200** ~ 8:00 pm<br>**1260** ~ 9:00 pm<br>**1320** ~ 10:00 pm<br>**1381** – 유지 관리 기간|
+|**ScheduleQuickScanTime**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Defender/ScheduleQuickScanTime<br>**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** - 12:00 am<br>**60** ~ 1:00 am<br>**120** – 2:00 am(기본값)<br>**180** ~ 3:00 am<br>**240** ~ 4:00 am<br>**300** ~ 5:00 am<br>**360** ~ 6:00 am<br>**420** ~ 7:00 am<br>**480** ~ 8:00 am<br>**540** ~ 9:00 am<br>**600** ~ 10:00 am<br>**660** ~ 11:00 am<br>**720** ~ 12:00 pm<br>**780** ~ 1:00 pm<br>**840** ~ 2:00 pm<br>**900** ~ 3:00 pm<br>**960** ~ 4:00 pm<br>**1020** ~ 5:00 pm<br>**1080** ~ 6:00 pm<br>**1140** ~ 7:00 pm<br>**1200** ~ 8:00 pm<br>**1260** ~ 9:00 pm<br>**1320** ~ 10:00 pm<br>**1380** ~ 11:00 pm|
 |**AVGCPULoadFactor**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Defender/AVGCPULoadFactor<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:0** - **100**(기본값: **50**)|
 |**AllowArchiveScanning**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Defender/AllowArchiveScanning<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용되지 않음<br>**1** - 허용됨(기본값)|
 |**AllowEmailScanning**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Defender/AllowEmailScanning<br /><br />**데이터 형식:** 정수<br>**허용되는 값:**<br>**0** – 허용되지 않음(기본값)<br>**1** – 허용됨|
@@ -332,6 +332,6 @@ Windows 사용자 지정 URI 정책을 사용하려면 모든 장치를 Intune�
 
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

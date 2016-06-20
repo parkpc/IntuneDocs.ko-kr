@@ -18,7 +18,7 @@ ms.assetid: 47e03edb-0c57-4e25-8e89-4a1069267b8c
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -28,7 +28,7 @@ ms.suite: ems
 
 # Intune에서 장치 등록을 취소하면 어떻게 되나요?
 
-장치에서 회사 포털 앱을 제거하면, Intune에서 장치 등록이 취소됩니다. 어떻게 되는지에 대한 추가적인 정보를 보려면 사용하는 장치 유형과 일치하는 링크를 사용합니다.
+장치에서 회사 포털 앱을 제거하면, Intune에서 장치 등록이 취소됩니다. 발생하는 상황에 대한 추가적인 정보를 보려면 위의 "이 문서의 내용" 섹션에 표시된 링크 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
 
 - [Windows 10 mobile, 8.1, Windows 8, Windows 7, Vista](#windows-10-mobile--8-1,-windows-8,-windows-7,-vista)
 - [Windows 10, Windows 8.1 또는 Windows Phone 8](#windows-10--windows-8-1-or-windows-phone-8)
@@ -43,8 +43,7 @@ ms.suite: ems
 
 -   Intune Endpoint Protection 소프트웨어가 컴퓨터에서 제거됩니다. 컴퓨터에 다른 바이러스 방지 소프트웨어가 설치되어 있지만 사용되지 않도록 설정된 경우, Intune Endpoint Protection을 제거하면 이 응용 프로그램이 다시 사용되도록 설정될 수 있습니다. 회사 포털에서 컴퓨터를 제거한 후 해당 컴퓨터를 확인해야 합니다.
 
-    > [!IMPORTANT]
-    > ´Ù¸¥ ¹ÙÀÌ·¯½º ¹æÁö ¼ÒÇÁÆ®¿þ¾î°¡ ´Ù½Ã »ç¿ëµÇµµ·Ï ¼³Á¤µÇÁö ¾Ê°Å³ª ´Ù¸¥ ¹ÙÀÌ·¯½º ¹æÁö ¼ÒÇÁÆ®¿þ¾î°¡ ¼³Ä¡µÇ¾î ÀÖÁö ¾ÊÀº °æ¿ì ÄÄÇ»ÅÍ´Â ¹ÙÀÌ·¯½º ¹× ¸È¿þ¾î °ø°Ý¿¡ Ãë¾àÇØÁú ¼ö ÀÖ½À´Ï´Ù.
+    > [!IMPORTANT] 다른 바이러스 방지 소프트웨어가 다시 사용하도록 설정되지 않거나 설치되지 않은 경우 컴퓨터는 바이러스 및 맬웨어 공격에 취약해질 수 있습니다.
 
 -   장치를 추가할 때 장치에서 변경된 모든 설정(예: 카메라 사용 안 함)이 더 이상 적용되지 않습니다.
 
@@ -93,10 +92,11 @@ Windows RT ÀåÄ¡¸¦ Á¦°ÅÇÏ¸é ´ÙÀ½°ú °°Àº »óÈ²ÀÌ ¹ß
 
 -   장치를 추가할 때 장치에서 변경된 모든 설정(예: 카메라 사용 안 함 또는 특정 암호 길이 요구)이 더 이상 적용되지 않습니다.
 
+문의 사항이 있는 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
 
 ### 참고 항목
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

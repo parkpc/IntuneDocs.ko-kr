@@ -18,7 +18,7 @@ ms.assetid: e240419a-a836-4be3-8fd9-39a4ec890226
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mamoriss
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -36,15 +36,17 @@ Intune 및 IT 관리자가 장치를 더 이상 관리하지 않도록 하려면
 
 1.  [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 열고 이름을 바꾸려는 장치를 탭합니다.
 
-2.  **제거**를 탭합니다..
+2.  **제거**를 탭합니다.
 
     ![remove-device](./media/iwp-1-tap-reset-passcode.png)
 
 이제 장치가 제거되었습니다.
 
+도움이 필요한 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+
 ### 참고 항목
 [Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 
