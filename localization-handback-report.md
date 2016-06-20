@@ -1,11 +1,29 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [InTuneDocs\EndUser\unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md) | OutofSyncHandedBackSuccess | [Details](#abcb7dbe4f3423fcba108a7ea0c4b2efa295c970442)
 
 ## Item Details
+##### <a name='abcb7dbe4f3423fcba108a7ea0c4b2efa295c970442'></a> Source: [InTuneDocs\EndUser\unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
+* Status: OutofSyncHandedBackSuccess
+* Target File: 
+* Handoff File: [unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/eb9fecd807738b969f43f856a82eead07c240bbd/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf)
+* Handoff Datetime: 2016-06-09 16:55:06
+* Handoff Reason: Include
+* Archive File: [unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/9dcf1b43830b52d7f60bc7d5cb781a1ef8301ffc/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf)
+* Archive Datetime: 2016-06-16 01:42:44
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\EndUser\unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/af21efc1d7733da27b37a7c8e8ca198c6f265f66/InTuneDocs/EndUser/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
+* Current Handback File: [unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/6fe38361ee2d44e3920ae638ad1e3ab5b5a68d29/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf)
+* Current Handback Datetime: 2016-06-20 16:12:16
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
