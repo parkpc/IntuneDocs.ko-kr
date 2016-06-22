@@ -18,7 +18,7 @@ ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -40,7 +40,7 @@ Intune의 조건부 액세스를 사용하여 회사 메일 및 O365 서비스�
 ![장치에서 서비스에 대한 액세스가 허용 또는 차단되는지 여부를 결정하는 데 사용되는 결정 지점을 보여 주는 다이어그램](./media/ConditionalAccess4.png)
 
 ## 조건부 액세스를 구성하는 방법
-조건부 액세스를 사용하여 Microsoft **Exchange 온-프레미스**, **Exchange Online**, **Exchange Online Dedicated**, **SharePoint Online** 및 **비즈니스용 Skype Online**에 대한 액세스를 관리합니다..
+조건부 액세스를 사용하여 Microsoft **Exchange 온-프레미스**, **Exchange Online**, **Exchange Online Dedicated**, **SharePoint Online** 및 **비즈니스용 Skype Online**에 대한 액세스를 관리합니다.
 
 조건부 액세스를 설정하려면 장치 규정 준수 정책 및 조건부 액세스 정책을 구성합니다.
 
@@ -69,6 +69,6 @@ Intune의 조건부 액세스를 사용하여 회사 메일 및 O365 서비스�
   - [비즈니스용 Skype Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

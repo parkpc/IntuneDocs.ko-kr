@@ -6,7 +6,7 @@ description:
 keywords:
 author: robstackmsft
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/14/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 09bae0b9-4f79-4658-8ca1-a71ab992c1b2
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: heenamac
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -50,17 +50,17 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 
 ## 구성 정책 만들기
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **정책** &gt; **구성 정책** &gt; **추가**를 클릭합니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **정책** &gt; **구성 정책** &gt; **추가**를 선택합니다.
 
 2.  원하는 정책을 선택합니다. 해당 정책에 권장되는 설정을 사용하거나(사용 가능한 경우. 나중에 이러한 설정을 변경할 수 있음) 원하는 설정으로 사용자 지정 정책을 만들 수 있습니다.
 
     > [!TIP] 올바른 정책을 선택하는 데 도움이 필요하면 [Microsoft Intune 정책 참조](microsoft-intune-policy-reference.md) 항목을 참조하세요.
 
-3.  준비가 되면 **정책 만들기**를 클릭합니다.
+3.  준비가 되면 **정책 만들기**를 선택합니다.
 
 4.   **정책 만들기** 화면에서 정책의 이름과 설명(옵션)을 구성합니다.
 
-5.  필요한 정책 설정을 구성하고 **정책 저장**을 클릭합니다.
+5.  필요한 정책 설정을 구성하고 **정책 저장**을 선택합니다.
 
     어떤 정책 설정이든 도움이 필요하면 다음 목록에서 정책 유형을 선택 합니다.
 
@@ -73,10 +73,10 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
     - [Windows 버전 업그레이드에 대한 설정](edition-upgrade-policy-settings-in-microsoft-intune.md)
     - [Mac OS X 장치의 설정](mac-os-x-policy-settings-in-microsoft-intune.md)
     - [Exchange ActiveSync에 대한 설정](exchange-activesync-policy-settings-in-microsoft-intune.md)
-    - [사용 약관 정책에 대한 설정](terms-and-condition-policy-settings-in-microsoft-intune.md)
+    - [계약조건 정책에 대한 설정](terms-and-condition-policy-settings-in-microsoft-intune.md)
     - [모바일 장치에 대한 일반 설정(레거시)](mobile-device-security-policy-settings-in-microsoft-intune.md)
 
-4.  확인 대화 상자에서 정책을 지금 배포하려면 **예** 를 클릭하고, 지금 배포하지 않고 정책을 만들려면 **아니요** 를 클릭합니다.
+4.  확인 대화 상자에서 정책을 지금 배포하려면 **예** 를 선택하고, 지금 배포하지 않고 정책을 만들려면 **아니요** 를 선택합니다.
 
 **정책** 작업 영역에서 각 정책 유형 섹션을 검색하여 새 정책을 보고 편집할 수 있습니다.
 
@@ -89,35 +89,26 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 
 ## 구성 정책 배포
 
-1.   **정책** 작업 영역에서 배포할 정책을 선택하고 **배포 관리**를 클릭합니다.
+1.  **정책** 작업 영역에서 배포할 정책을 선택한 다음 **배포 관리**를 선택합니다.
 
 2.   **배포 관리** 대화 상자에서
 
-    -   **정책을 배포하려면** - 정책을 배포하려는 그룹을 하나 이상 선택한 후 **추가** &gt; **확인**을 클릭합니다.
+    -   **정책을 배포하려면** - 정책을 배포하려는 그룹을 하나 이상 선택하고 **추가** &gt; **확인**을 선택합니다.
 
-    -   **정책을 배포하지 않고 대화 상자를 닫으려면** - **취소**를 클릭합니다.
+    -   **정책을 배포하지 않고 대화 상자를 닫으려면** - **취소**를 선택합니다.
 
 배포한 정책을 선택하면 정책 목록 아래쪽에서 배포에 대한 추가 정보를 볼 수 있습니다.
 
 ## 정책 관리
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **정책**을 클릭하여 관리하려는 정책을 찾아서 선택합니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **정책**을 선택하여 관리하려는 정책을 찾아서 선택합니다.
 
 2.  다음 작업 중 하나를 선택합니다.
 
 - **편집** - 선택한 정책의 속성을 열어 변경합니다.
 - **삭제** - 선택한 정책을 삭제합니다.<br>정책을 삭제한 경우 배포된 모든 그룹에서 해당 정책이 삭제됩니다.
-- **배포 관리** - 정책을 배포할 그룹을 선택하고 **추가**를 클릭합니다.
+- **배포 관리** - 정책을 배포할 그룹을 선택하고 **추가**를 선택합니다.
 
-## Intune 정책에 대한 작업
-
-### 장치의 정책을 최신 상태로 되도록 새로 고치려면(Intune 클라이언트 소프트웨어를 실행하는 Windows PC에만 적용)
-
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **그룹**을 클릭한 후 장치 그룹을 선택합니다.
-
-2.  정책을 새로 고칠 장치를 선택한 후 **원격 작업** &gt; **정책 새로 고침**을 클릭합니다.
-
-3.  Intune 관리 콘솔의 오른쪽 아래에서 **원격 작업**을 클릭하여 작업 상태를 확인합니다.
 
 ## Intune 정책에 대한 질문과 대답
 
@@ -187,25 +178,7 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI 정책 페이로�
         - 필수 암호 유형
         - 암호 만료(일)
         - 암호 기록 기억
-        - 장치를 초기화하기 전까지 허용되는 로그인 반복 오류 횟수
-        - 암호를 요구하기 전까지 비활성 시간(분)
-        - 필수 암호 유형 - 최소 문자 집합 수
-        - 카메라 허용
-        - 모바일 장치 암호화 필요
-        - 이동식 저장소 허용
-        - 웹 브라우저 허용
-        - 앱 스토어 허용
-        - 화면 캡처 허용
-        - 지리적 위치 허용
-        - Microsoft 계정 허용
-        - 복사 및 붙여넣기 허용
-        - Wi-Fi 테더링 허용
-        - 무료 Wi-Fi 핫스팟에 자동 연결 허용
-        - Wi-Fi 핫스팟 보고 허용
-        - 공장 재설정 허용
-        - Bluetooth 허용
-        - NFC 허용
-        - Wi-Fi 허용
+        - 장치를 초기화하기 전까지 허용되는 로그인 반복 오류 횟수 - 암호를 요구하기 전까지의 비활성 시간(분) - 필수 암호 유형 – 최소 문자 집합 수 - 카메라 허용 - 모바일 장치 암호화 필요 - 이동식 저장소 허용 - 웹 브라우저 허용 - 앱 스토어 허용 - 화면 캡처 허용 - 지리적 위치 허용 - Microsoft 계정 허용 - 복사 및 붙여넣기 허용 - Wi-Fi 테더링 허용 - 무료 Wi-Fi 핫스팟에 자동 연결 허용 - Wi-Fi 핫스팟 보고 허용 - 공장 기본 설정으로 복원 허용 - Bluetooth 허용 - NFC 허용 - Wi-Fi 허용
     
     - **iOS** - 다음을 제외한 모든 설정이 제거됩니다.
         - 음성 로밍 허용
@@ -220,9 +193,16 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI 정책 페이로�
 - **Windows 방화벽 설정** - 설정이 컴퓨터 운영 체제의 기본값으로 다시 설정됩니다. 자세한 내용은 [Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md) 항목을 참조하세요.
 
 
+### 장치의 정책을 최신 상태로 되도록 새로 고치려면(Intune 클라이언트 소프트웨어를 실행하는 Windows PC에만 적용) 어떻게 하나요?
+
+1.  장치 그룹에서 정책을 새로 고칠 장치를 선택한 후 **원격 작업** &gt; **정책 새로 고침**을 선택합니다.
+2.  Intune 관리 콘솔의 오른쪽 아래에서 **원격 작업**을 선택하여 작업 상태를 확인합니다.
+
+### 문제 해결 정책 도움말은 어디서 찾을 수 있나요?
+
+[Microsoft Intune의 문제 해결 정책](/troubleshoot/troubleshoot-policies-in-microsoft-intune.md)을 참조하세요.
 
 
-
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

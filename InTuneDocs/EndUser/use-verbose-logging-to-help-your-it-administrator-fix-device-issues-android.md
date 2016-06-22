@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -32,9 +32,11 @@ Android 장치가 Intune에 등록되어 있으면 **자세한 정보 로깅** �
 
 **자세한 정보 로깅** 기능을 켜거나 끄려면 회사 또는 학교 자격 증명을 사용하여 회사 포털 앱에 로그인하고, **설정**을 탭한 다음 **자세한 정보 로깅** 설정의 옆에 있는 켜기/끄기 단추를 탭합니다.
 
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

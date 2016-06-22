@@ -18,7 +18,7 @@ ms.assetid: 454eab79-b620-42c9-b8e6-fada6e719fcd
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -35,7 +35,7 @@ ms.suite: ems
 
 이를 위해 다음 설정으로 Exchange Online에 대한 조건부 액세스 정책을 구성합니다.
 
--   **조건부 액세스 정책 사용**을 선택합니다..
+-   **조건부 액세스 정책 사용**을 선택합니다.
 
 - 최신 인증을 사용하여 앱에서 액세스를 허용할 플랫폼을 선택합니다.
 - Exchange ActiveSync 앱의 경우 **Microsoft Intune에서 지원하는 플랫폼에서 비준수 장치 차단** 및 **Microsoft Intune에서 지원하지 않는 플랫폼에서 모든 다른 장치 차단**을 선택합니다.
@@ -70,7 +70,7 @@ ms.suite: ems
 ## Android 장치는 Exchange 온-프레미스에 액세스할 수 없습니다.
 ### 시나리오 요구 사항
 - 모든 Android 장치는 Exchange 액세스가 차단됩니다.
-- 지원되는 다른 모든 장치를 다음에서 관리하는 동안에는 Exchange에 액세스할 수 있습니다. [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)].
+- 지원되는 다른 모든 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 관리하는 동안에는 Exchange에 액세스할 수 있습니다.
 
 이를 위해 다음 설정으로 Exchange 온-프레미스에 대한 조건부 액세스 정책을 구성합니다.
 
@@ -86,6 +86,6 @@ ms.suite: ems
 ![장치 액세스 흐름](./media/ConditionalAccess8-4.png)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

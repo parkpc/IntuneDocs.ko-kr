@@ -1,12 +1,12 @@
 ---
 # required metadata
 
-title: Microsoft Intune을 사용한 Windows Phone 8.0 관리 설정 | Microsoft Intune
+title: Windows Phone 8.0 관리 설정 | Microsoft Intune
 description:
 keywords:
 author: NathBarn
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/09/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 61e9b6c3-8795-49b0-8ab2-a9a05ee3ea1f
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -28,6 +28,8 @@ ms.suite: ems
 # Windows Phone 8.0에 대한 장치 관리 설정
 
 Windows Phone 8.0의 경우 Intune 회사 포털 앱을 설치하여 장치 관리를 수행하려면 Symantec 인증서가 있어야 합니다. 또한 인증서는 LOB(기간 업무) 앱에 서명하는 데 필요합니다. 다음 항목은 Windows Phone 8.0에만 해당합니다. Windows 10 Mobile을 비롯하여 Windows Phone 8.1 이상을 관리하려면 [Set up Windows Phone enrollment](set-up-windows-phone-management-with-microsoft-intune.md)(Windows Phone 등록 설정) 항목을 참조하세요.
+
+> [!IMPORTANT] 2016년 9월부터 Windows 8.0 및 Windows Phone 8.0용 회사 포털 앱을 더 이상 다운로드할 수 없습니다.
 
 -   **Windows Phone 8** - 인증서 필요
 -   **Windows Phone 8.1 및 Windows 10 Mobile**에는 다음의 경우에만 인증서가 필요합니다.
@@ -184,6 +186,6 @@ Windows Phone 스토어에서 설치하지 않고 Intune을 사용해 회사 포
     > -   테스트용 로드 앱을 설치해야 하고 Windows Phone 8.0 장치에서 ssp.xap를 등록 및 수신해야 하는 경우 새로운 ssp.xap 소프트웨어 배포를 만들어 **제거** 작업을 통해 배포합니다. Windows Phone 8.0 장치에서는 강제 설치를 지원하지 않거나 앱을 제거하면 배포를 무시하고, Windows Phone 8.1 장치에서는 제거 작업을 지원하여 ssp.xap를 제거합니다.
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

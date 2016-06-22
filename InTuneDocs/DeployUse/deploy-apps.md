@@ -18,7 +18,7 @@ ms.assetid: ad5ea85c-aa2e-4110-a184-172cd0b8f270
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mghadial
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -44,7 +44,7 @@ Microsoft Intune 소프트웨어 게시자를 사용하려면 먼저 [Microsoft 
 
 -   추가 저장소를 구매하려면 활성 유료 구독이 있어야 합니다.
 
--   Microsoft Online Service의 대금 청구 관리자나 전역 관리자만 Intune 계정 포털을 통해 추가 저장소를 구매할 수 있습니다. 이러한 관리자를 추가, 삭제 또는 관리하려면 전역 관리자로 Intune 계정 포털에 로그인해야 합니다.
+-   Microsoft Online Service의 대금 청구 관리자나 전역 관리자만 Office 365 관리 포털을 통해 추가 저장소를 구매할 수 있습니다. 이러한 관리자를 추가, 삭제 또는 관리하려면 전역 관리자로 Office 365 관리 포털에 로그인해야 합니다.
 
 -   기업 계약을 통해 Intune 또는 Microsoft Intune 추가 기능을 구매한 볼륨 라이선싱 고객의 경우 가격 정보를 알아보거나 추가 저장소를 구매하려면 Microsoft 계정 관리자나 Microsoft 파트너에게 문의하세요.
 
@@ -105,6 +105,6 @@ Microsoft Intune 소프트웨어 게시자를 사용하려면 먼저 [Microsoft 
 
 [Microsoft Intune에서 앱 배포](deploy-apps-in-microsoft-intune.md) 방법을 알아봅니다.
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

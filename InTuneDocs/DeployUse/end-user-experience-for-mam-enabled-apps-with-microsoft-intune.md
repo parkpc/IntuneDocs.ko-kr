@@ -18,7 +18,7 @@ ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: andcerat
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -48,12 +48,11 @@ MAM(모바일 응용 프로그램 관리) 정책은 앱이 회사 컨텍스트�
 
     ![Pin을 입력하도록 요청하는 OneDrive 앱의 스크린 샷](../media/AppManagement/iOS_AppPINPrompt.png)
 
-5.  PIN을 설정하고 확인하면 **비즈니스용 OneDrive**의 파일에 액세스할 수 있습니다..
+5.  PIN을 설정하고 확인하면 **비즈니스용 OneDrive**의 파일에 액세스할 수 있습니다.
 
     ![기존 파일의 목록으로 열린 파일 위치를 보여 주는 스크린 샷](../media/AppManagement/iOS_OneDriveSuccess.png)
 
-    > [!NOTE]
-    > 배포된 정책을 변경하는 경우 다음에 앱을 열 때 변경 내용이 적용됩니다.
+    > [!NOTE] 배포된 정책을 변경하는 경우 다음에 앱을 열 때 변경 내용이 적용됩니다.
 
 ##  Android 장치의 OneDrive 액세스
 
@@ -106,13 +105,13 @@ MAM(모바일 응용 프로그램 관리) 정책은 앱이 회사 컨텍스트�
 
     ![Word 문서에서 입력된 문장의 스크린 샷](../media/AppManagement/iOS_WordCreateCompanyDoc.PNG)
 
-5.  회사 위치에 저장한 문서를 엽니다.  텍스트를 복사하고 개인**Facebook** 계정을 연 다음 복사한 텍스트를 붙여넣으려고 합니다.  새 Facebook 게시물에 콘텐츠를 붙여넣을 수 없습니다. 붙여넣기 옵션이 회색으로 표시되지는 않지만 **붙여넣기**를 누를 때 아무 작업도 수행되지 않습니다..
+5.  회사 위치에 저장한 문서를 엽니다.  텍스트를 복사하고 개인**Facebook** 계정을 연 다음 복사한 텍스트를 붙여넣으려고 합니다.  새 Facebook 게시물에 콘텐츠를 붙여넣을 수 없습니다. 붙여넣기 옵션이 회색으로 표시되지는 않지만 **붙여넣기**를 누를 때 아무 작업도 수행되지 않습니다.
 
     ![잘라내기, 복사 및 붙여넣기 선택 항목을 보여 주는 스크린 샷](../media/AppManagement/iOS_WordCopyCompany.png)
 
     ![Facebook 게시물에 붙여 넣지 않은 데이터를 보여 주는 스크린 샷](../media/AppManagement/iOS_FacebookPasteCompany.png)
 
-6.  이제 2단계와 3단계를 반복하여 다른 새 문서를 만들고, 선택한 문장을 입력한 다음 회사에 저장하는 대신 **OneDrive - 개인**과 같은 개인 위치에 저장합니다..
+6.  이제 2단계와 3단계를 반복하여 다른 새 문서를 만들고, 선택한 문장을 입력한 다음 회사에 저장하는 대신 **OneDrive - 개인**과 같은 개인 위치에 저장합니다.
 
     ![복사하려고 선택한 문장이 있는 잘라내기, 복사 및 붙여넣기 선택 항목의 스크린 샷](../media/AppManagement/iOS_WordCopyPersonal.png)
 
@@ -134,27 +133,35 @@ MAM 정책을 배포하기 전에 장치에 기존의 여러 사용자 계정이
 
 여러 사용자 계정이 처리되는 방법을 더 깊게 이해하려면 아래 예제 시나리오를 참고합니다.
 
-사용자 A는 **회사 X** 및 **회사 Y**에서 일합니다. 사용자 A는 각 회사에 회사 계정을 보유하고 둘 다 Intune를 사용하여 MAM 정책을 배포합니다. **회사 X**는 **회사 Y** **보다 먼저** MAM 정책을 배포합니다. **회사 X**와 연결된 계정은 MAM 정책을 가져오지만 회사 Y와 관련된 계정이 아닙니다. 회사 Y와 관련된 사용자 계정이 MAM 정책에 의해 관리되기를 바란다면 회사 X와 관련된 사용자 계정을 제거해야 합니다.
+사용자 A는 **회사 X** 및 **회사 Y**에서 일합니다. 사용자 A는 각 회사에 회사 계정을 보유하고 둘 다 Intune를 사용하여 MAM 정책을 배포합니다. **회사 X**는 **회사 Y**보다 **먼저** MAM 정책을 배포합니다. **회사 X**와 연결된 계정은 MAM 정책을 가져오지만 회사 Y와 관련된 계정이 아닙니다. 회사 Y와 관련된 사용자 계정이 MAM 정책에 의해 관리되기를 바란다면 회사 X와 관련된 사용자 계정을 제거해야 합니다.
 ### 두 번째 계정 추가
 #### iOS
-iOS 장치를 사용하는 경우 동일한 장치에 두 번째 회사 계정을 추가하려고 하면 차단 메시지가 표시될 수 있습니다.  또한 기존 계정을 제거하고 새 계정을 추가하는 옵션이 표시됩니다. **예**를 클릭하면 이 작업을 수행할 수 있습니다..
+iOS 장치를 사용하는 경우 동일한 장치에 두 번째 회사 계정을 추가하려고 하면 차단 메시지가 표시될 수 있습니다.  또한 기존 계정을 제거하고 새 계정을 추가하는 옵션이 표시됩니다. **예**를 클릭하면 이 작업을 수행할 수 있습니다.
 
 ![메시지 및 예 및 아니요 옵션을 차단하는 대화 상자의 스크린 샷](../media/AppManagement/iOS_SwitchUser.PNG)
 ####  Android
-Android 장치를 사용하는 경우 기존 계정을 제거하고 새 계정을 추가하는 지침이 포함된 차단 메시지가 표시될 수 있습니다.  Android 장치에서 기존 계정을 제거하려면 **설정 &gt; 일반 &gt; 응용 프로그램 관리자 &gt; 회사 포털로 이동한 다음 "데이터 지우기"를 선택**합니다..
+Android 장치를 사용하는 경우 기존 계정을 제거하고 새 계정을 추가하는 지침이 포함된 차단 메시지가 표시될 수 있습니다.  Android 장치에서 기존 계정을 제거하려면 **설정 &gt;일반 &gt; 응용 프로그램 관리자 &gt; 회사 포털로 이동한 다음 "데이터 지우기"를 선택**합니다.
 
 ![오류 메시지 및 계정을 제거하는 지침의 스크린 샷](../media/AppManagement/Android_SwitchUser.png)
 
 ##  Rights Management 공유 앱을 사용하여 미디어 파일 보기
-Android 장치에서 회사 AV, PDF 및 이미지 파일을 보려면 [Microsoft Rights Management(RMS) 공유 앱](https://play.google.com/store/apps/details?id=com.microsoft.ipviewer)을 사용합니다..
+Android 장치에서 회사 AV, PDF 및 이미지 파일을 보려면 [Microsoft Rights Management(RMS) 공유 앱](https://play.google.com/store/apps/details?id=com.microsoft.ipviewer)을 사용합니다.
 
 Google Play 스토어에서 이 응앱을 다운로드합니다.  앱이 장치에 설치되면 앱을 실행하고 회사 자격 증명으로 인증합니다. 이제 다른 정책에서 관리하는 앱에서 보호되지 않거나 보호된 파일을 볼 수 있습니다.
+
+**Intune에 등록하지 않은 Android 장치**
+
+Intune에서 관리하는 다른 앱에서 파일을 보기 위해 RMS 공유 앱을 사용하려면 먼저 RMS 앱을 시작한 다음 회사 계정으로 인증합니다.  로그인한 상태에서 **RMS 라이선스가 없는 경우에 한해** 다음과 같은 메시지가 표시됩니다.
+
+**인증 성공 - 이제 회사 파일을 볼 수 있지만 사용자가 파일을 보호할 수 있는 권한을 갖도록 조직이 설정되지 않습니다. 자세한 내용은 IT 관리자에게 문의하세요.**
+
+이 메시지가 나타나도 RMS 공유 앱을 사용하여 회사 파일을 볼 수는 있습니다. Intune에서 관리하는 다른 앱에서 회사 파일을 열고 볼 수는 있으며 MAM 정책이 계속 적용됩니다.  이 메시지의 의미는 RMS 공유 앱의 추가 보호 기능을 추가할 수 없다는 것입니다.  보호 기능을 파일에 추가하려면 RMS 라이선스가 있어야 합니다. RMS 파일 보호 기능에 대한 자세한 내용을 확인하려면 [장치에서 파일 보호](https://docs.microsoft.com/en-us/rights-management/rms-client/sharing-app-protect-in-place) 및 [메일로 공유하는 파일 보호](https://docs.microsoft.com/en-us/rights-management/rms-client/sharing-app-protect-by-email)를 참조하세요.
 
 
 ### 참고 항목
 [Microsoft Intune으로 모바일 앱 관리 정책 만들기 및 배포](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

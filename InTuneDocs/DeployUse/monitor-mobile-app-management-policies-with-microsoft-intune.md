@@ -18,7 +18,7 @@ ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: joglocke
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Microsoft Intune으로 모바일 앱 관리 정책 모니터링
-MAM 정책을 구성하고 사용자에게 적용한 후에 Azure 포털에서 준수 상태를 모니터링할 수 있습니다. Azure 포털은 정책, 규정 준수 상태 및 최종 사용자에게 발생할 수 있는 문제의 영향을 받는 사용자에 대한 정보를 포함하고 있습니다.
+MAM 정책을 구성하고 사용자에게 적용한 후에 [Azure 포털](https://portal.azure.com)에서 준수 상태를 모니터링할 수 있습니다. Azure 포털은 정책, 규정 준수 상태 및 최종 사용자에게 발생할 수 있는 문제의 영향을 받는 사용자에 대한 정보를 포함하고 있습니다.
 ## 요약 보기
 **Intune 모바일 응용 프로그램 관리** 블레이드에서 아래 설명과 같은 준수 상태에 대한 요약을 볼 수 있습니다.
 
@@ -39,7 +39,7 @@ MAM 정책을 구성하고 사용자에게 적용한 후에 Azure 포털에서 �
 
 -   **정책 없음:** 정책과 연결된 앱을 사용하지만 정책의 대상이 아닌 사용자 수입니다.  정책에 이러한 사용자를 추가하는 것이 좋습니다.
 
-- **플래그가 지정된 사용자:** 문제가 발생하는 사용자 수입니다. 현재 무단 해제된 장치를 가진 사용자만이 **플래그가 지정된 사용자**로 표시됩니다..
+- **플래그가 지정된 사용자:** 문제가 발생하는 사용자 수입니다. 현재 탈옥된 장치를 가진 사용자만이 **플래그가 지정된 사용자**로 표시됩니다.
 
 
 ## 상세 보기
@@ -77,6 +77,6 @@ MAM 정책을 구성하고 사용자에게 적용한 후에 Azure 포털에서 �
 [MAM을 사용한 앱에 대한 최종 사용자 환경](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

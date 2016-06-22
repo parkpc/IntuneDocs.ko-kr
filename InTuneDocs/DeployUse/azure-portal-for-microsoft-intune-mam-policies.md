@@ -18,7 +18,7 @@ ms.assetid: 7d6dae94-a833-40b7-9016-14ea234bb33c
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: joglocke
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -30,13 +30,13 @@ ms.suite: ems
 **Azure 포털**을 사용하면 모바일 앱 관리 정책을 만들고 관리할 수 있습니다.
 
 Azure 포털은 다음의 경우 MAM 정책을 만들도록 지원합니다.
-- 장치에서 실행되는 앱을 **Intune에서 등록 및 관리**.
+- 장치에서 실행되는 앱 중에서 **Intune에서 등록하고 관리하는** 앱.
 - 장치에서 실행되는 앱을 모든 MDM 솔루션에 **등록하지 않음**.
-- 장치에서 실행되는 앱을 **타사 MDM 솔루션에 등록**..
+- 장치에서 실행되는 앱 중에서 **타사 MDM 솔루션에 등록된 앱**.
 
-현재 **Intune 관리 콘솔**을 사용하여 장치를 관리하는 경우 [Intune 관리 콘솔](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 Intune에 등록된 장치의 앱을 지원하는 MAM 정책을 만들 수 있습니다..
+현재 **Intune 관리 콘솔**을 사용하여 장치를 관리하는 경우 [Intune 관리 콘솔](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 Intune에 등록된 장치의 앱을 지원하는 MAM 정책을 만들 수 있습니다.
 >[!IMPORTANT]
-> Intune 관리 콘솔에서 모든 MAM 정책 설정이 나타나지 않을 수 있습니다. Azure 포털은 MAM 정책을 만들기 위한 새 관리 콘솔입니다.
+> Intune 관리 콘솔에서 모든 MAM 정책 설정이 나타나지 않을 수 있습니다. Azure 포털은 MAM 정책을 만들 수 있는 새로운 관리 콘솔입니다. Intune 관리 콘솔과 Azure 포털 모두에서 MAM 정책을 만드는 경우 Azure 포털의 정책이 앱에 적용되며 사용자에게 배포됩니다.
 
 ## Azure 포털에 로그인하고 시작 페이지를 사용자 지정합니다.
 
@@ -48,9 +48,9 @@ Azure 포털은 다음의 경우 MAM 정책을 만들도록 지원합니다.
 
     ![Azure 포털 대시보드의 스크린 샷](../media/AppManagement/AzurePortal_MAMStartboard_NoMAM.png)
 
-3.  **찾아보기** 메뉴에서 강조 표시된 Intune을 사용하여 찾아보기 메뉴의 **Intune**.![스크린 샷을 찾습니다.](../media/AppManagement/AzurePortal_MAM_Browse_Intune.png)
+3.  **찾아보기** 메뉴에서 **Intune**을 찾습니다.![Intune이 강조 표시된 찾아보기 메뉴의 스크린샷](../media/AppManagement/AzurePortal_MAM_Browse_Intune.png)
 
-4.  **Intune > Intune 모바일 응용 프로그램 관리 > 설정**을 클릭합니다..
+4.  **Intune > Intune 모바일 응용 프로그램 관리 > 설정**을 클릭합니다.
 
     ![Intune 모바일 응용 프로그램 관리 블레이드의 스크린 샷](../media/AppManagement/AzurePortal_MAM_Mainblade.png)
 
@@ -64,6 +64,6 @@ Azure 포털은 다음의 경우 MAM 정책을 만들도록 지원합니다.
 [모바일 앱 관리 정책 구성 준비](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

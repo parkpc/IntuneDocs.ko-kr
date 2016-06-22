@@ -18,7 +18,7 @@ ms.assetid: 0775107a-6662-41c8-9404-be14bbb599f3
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -30,7 +30,7 @@ ms.suite: ems
 회사 데이터를 보호하려면 회사 앱 및 데이터에 액세스하는 데 사용되는 장치가 PIN 사용과 같은 특정 규칙을 준수하여 장치 및 장치에 저장된 데이터의 암호화에 액세스하는지 확인해야 합니다. 이러한 규칙의 집합은 준수 정책이라고 합니다.
 
 ## 준수 정책은 어떻게 사용해야 합니까?
-조건부 액세스 정책으로 준수 정책을 사용하여 준수 정책 규칙을 준수하는 장치에 대한 액세스를 제한할 수 있습니다. 두 정책을 함께 사용할 수 있는 방법을 이해하려면 [전자 메일 및 O365 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 참조하세요.
+규정 준수 정책을 조건부 액세스 정책과 함께 사용하여 규정 준수 정책 규칙을 준수하는 장치만 메일과 기타 서비스에 액세스할 수 있도록 허용할 수 있습니다. 두 정책을 함께 사용할 수 있는 방법을 이해하려면 [전자 메일 및 O365 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 참조하세요.
 
 또한 준수 정책을 조건부 액세스와 독립적으로 사용할 수 있습니다. 독립적으로 사용하는 경우 대상 장치는 평가되고 준수 상태와 함께 보고됩니다. 예를 들어 암호화되지 않는 장치의 수 또는 탈옥 또는 루팅된 장치에 대해 보고할 수 있습니다. 그러나 독립적으로 사용하는 경우 회사 리소스에 대한 액세스 제한이 없습니다.
 
@@ -67,6 +67,6 @@ ms.suite: ems
 [전자 메일 및 O365 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

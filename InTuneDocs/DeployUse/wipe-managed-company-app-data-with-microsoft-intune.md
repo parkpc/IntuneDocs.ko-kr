@@ -18,7 +18,7 @@ ms.assetid: 2742e1d5-d2d5-42cd-b719-665dd6e0a0e9
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: joglocke
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -40,7 +40,7 @@ ms.suite: ems
 
     ![요약 타일과 Intune 모바일 응용 프로그램 관리 블레이의 스크린 샷](../media/AppManagement/AzurePortal_MAM_WipeRequests.png)
 
-2.  **새 초기화 요청**을 선택합니다..
+2.  **새 초기화 요청**을 선택합니다.
 
     ![새 초기화 요청 블레이드의 스크린샷](../media/AppManagement/AzurePortal_MAM_NewWipeRequest.png)
 
@@ -58,7 +58,7 @@ ms.suite: ems
 
 1.  **Intune 모바일 응용 프로그램 관리** 블레이드에서 **초기화 요청** 타일을 선택하여 **초기화 요청** 블레이드를 엽니다.
 
-2.  **초기화 요청** 블레이드에서 사용자별로 그룹화된 요청 목록을 확인할 수 있습니다.  시스템에서는 장치에서 실행 중인 각각의 보호된 앱에 대해 초기화 요청을 생성하므로 한 사용자에 대해 여러 요청이 표시될 수 있습니다.  상태를 통해 초기화 요청이 여전히 **보류 중**인지, **실패**했는지 아니면 **성공**했는지 확인할 수 있습니다..
+2.  **초기화 요청** 블레이드에서 사용자별로 그룹화된 요청 목록을 확인할 수 있습니다.  시스템에서는 장치에서 실행 중인 각각의 보호된 앱에 대해 초기화 요청을 생성하므로 한 사용자에 대해 여러 요청이 표시될 수 있습니다.  상태를 통해 초기화 요청이 여전히 **보류 중**인지, **실패**했는지 아니면 **성공**했는지 확인할 수 있습니다.
 
 ### 참고 항목
 [모바일 앱 관리 정책을 사용하여 앱 데이터 보호 ](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
@@ -66,6 +66,6 @@ ms.suite: ems
 [Azure 포털 사용](azure-portal-for-microsoft-intune-mam-policies.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

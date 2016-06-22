@@ -1,25 +1,25 @@
 ---
 # required metadata
 
-title: [등록되지 않은 장치의 LOB(기간 업무) 앱 및 데이터 보호 | Microsoft Intune]
+title: 등록되지 않은 장치의 LOB(기간 업무) 앱 및 데이터 보호 | Microsoft Intune
 description:
 keywords:
-author: [karthikaraman]
-manager: [jeffgilb]
+author: karthikaraman
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: [00219467-a62e-43b6-954b-3084f54c45ba]
+ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 
 # optional metadata
 
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: [joglocke]
-#ms.suite: ems
+ms.reviewer: joglocke
+ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
 
@@ -52,6 +52,11 @@ LOB(기간 업무) 앱을 MAM 정책과 연결하려면 다음 단계를 사용�
 
 ## 3단계: MAM 정책 적용
 앱 메타데이터를 서비스에 업로드하면 앱이 앱 목록에 표시됩니다.  이제 [새 정책 또는 기존 정책을 만들어](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md) 2단계에서 추가한 LOB(기간 업무) 앱에 적용할 수 있습니다.
+
+>[!IMPORTANT]
+>래핑된 앱을 사용할 사용자에게는 MAM 정책을 지정해야 합니다.  이 정책이 배포되지 않은 사용자는 래핑된 앱을 사용할 수 없습니다.
+
+
   ![새로운 LOB(기간 업무) 앱이 표시된 대상 앱 목록 블레이드의 스크린샷](../media/mam-azure-portal-lob-on-targeted-app-list.png)
 ## 4단계: 앱 배포
 다음과 같은 방법으로 최종 사용자에게 앱을 배포할 수 있습니다.
@@ -75,6 +80,6 @@ LOB(기간 업무) 앱을 MAM 정책과 연결하려면 다음 단계를 사용�
   그러면 기간 업무 앱 목록 및 MAM 정책의 대상 앱 목록에서 앱이 제거됩니다.
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

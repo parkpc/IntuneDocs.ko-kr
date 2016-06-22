@@ -2,6 +2,7 @@
 
 # [시작](what-to-know-before-you-start-microsoft-intune.md)
 ## [시작 전에 알아야 할 사항](what-to-know-before-you-start-microsoft-intune.md)
+### [지원되는 모바일 장치 및 컴퓨터](supported-mobile-devices-and-computers.md)
 ### [지원되는 웹 브라우저](supported-web-browsers.md)
 ### [네트워크 인프라 요구 사항](network-infrastructure-requirements-for-microsoft-intune.md)
 ### [관리자 계정, 웹 사이트 및 권한](administrative-accounts-websites-perms.md)
@@ -21,25 +22,23 @@
 ### [모바일 장치 등록 및 앱 설치](start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
 ### [구성 후 작업](post-configuration-tasks.md)
 
-<!--
-## [Choose how to manage devices](choose-how-to-manage-devices.md)
-### [Mobile device management capabilities](mobile-device-management-capabilities-in-microsoft-intune.md)
-### [Windows PC management capabilities](windows-pc-management-capabilities-in-microsoft-intune.md)
--->
+## [장치를 관리하는 방법 선택](choose-how-to-manage-devices.md)
+### [모바일 장치 관리 기능](mobile-device-management-capabilities-in-microsoft-intune.md)
+### [Windows PC 관리 기능](windows-pc-management-capabilities-in-microsoft-intune.md)
 
 ## [Intune 배포용 출시 단계](rollout-phases-for-microsoft-intune-deployment.md)
 ### [프로젝트 범위](project-scope.md)
 ### [개념 증명](proof-of-concept.md)
 ### [파일럿](pilot.md)
-### [엔터프라이즈 출시](enterprise-rollout.md)
+### [전사적 출시](enterprise-rollout.md)
 ### [운영 및 유지 관리](operations-and-maintenance.md)
-
 
 <!-- # [Plan and Design](/intune/plan-design/ways-to-do-enterprise-mobility) -->
 # [배포 및 사용](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
+# [앱 개발 및 사용자 지정](/intune/develop/intune-app-sdk)
 # [문제 해결](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

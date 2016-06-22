@@ -18,7 +18,7 @@ ms.assetid: 5336dac0-a2cc-4cd4-8511-67e4f95bd700
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -29,7 +29,7 @@ ms.suite: ems
 이 항목에서는 호환되는 것으로 간주하기 위해 따라야 하는 규정 준수 정책을 만드는 데 사용할 수 있는 단계를 간략히 설명합니다.
 
 ##  1단계: 새 정책 추가
-  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **준수 정책** &gt; **추가**를 선택합니다..
+  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **준수 정책** &gt; **추가**를 선택합니다.
 
   ![Intune 관리 콘솔의 페이지 맨 위에 있는 메뉴에서 추가 옵션을 보여주는 규정 준수 정책 페이지의 스크린 샷](./media/intune-sa-3a-add-compliance-policy.png)
 
@@ -41,7 +41,7 @@ ms.suite: ems
 ![정책 만들기 페이지에서 일반 탭의 스크린 샷 ](./media/intune-sa-3b-create-policy.png)
 
 ##  3단계: 정책 저장
-작업이 끝나면 **정책 저장**을 선택합니다..
+작업이 끝나면 **정책 저장**을 선택합니다.
 
 정책을 저장한 후에 바로 배포하는 옵션이 있고 나중에 배포하도록 선택할 수도 있습니다. 새 정책이 **정책** 작업 영역의 **준수 정책** 노드에 표시됩니다.
 
@@ -64,7 +64,7 @@ ms.suite: ems
 |장치가 유휴 상태에서 되돌아오는 경우 암호 필요| 사용할 수 없음| 사용할 수 없음|Windows 10 Mobile|
 |모바일 장치 암호화 필요|해당 없음|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|Windows Phone 8 이상<br> Windows 8.1|
 |정상으로 보고되는 장치 필요| 사용할 수 없음| 사용할 수 없음|Windows <br>Windows 10 Mobile|
-|장치를 무단 해제하거나 루팅하면 안 됩니다.|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|사용할 수 없음|
+|장치는 탈옥 또는 루팅되지 않아야 함|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|사용할 수 없음|
 |전자 메일 계정은 Intune을 통해 관리해야 함|iOS 6 이상|사용할 수 없음| 사용할 수 없음|
 |Intune으로 관리해야 하는 전자 메일 프로필 선택|iOS 6 이상|사용할 수 없음| 사용할 수 없음|
 |필요한 최소 OS|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상| Windows Phone 8 이상<br>Windows 8.1|
@@ -84,6 +84,6 @@ ms.suite: ems
 [장치 규정 준수 정책 소개](introduction-to-device-compliance-policies-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 
