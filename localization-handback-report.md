@@ -1,39 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [InTuneDocs\DeployUse\resolve-gpo-and-microsoft-intune-policy-conflicts.md](https://github.com/Microsoft/IntuneDocs-pr/blob/211543b75e2bcda85cd74ab34c254d70f036eebd/InTuneDocs/DeployUse/resolve-gpo-and-microsoft-intune-policy-conflicts.md) | InSyncHandedBackSuccess | [Details](#7fc97e21fa7e57d8585c421ac12ff0d3c4b366a0227)
- [InTuneDocs\EndUser\turn-off-microsoft-usage-data-collection-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/turn-off-microsoft-usage-data-collection-ios.md) | InSyncHandedBackSuccess | [Details](#99e60934ecd280b5dd38ebe65f5a60fee576f77f440)
 
 ## Item Details
-##### <a name='7fc97e21fa7e57d8585c421ac12ff0d3c4b366a0227'></a> Source: [InTuneDocs\DeployUse\resolve-gpo-and-microsoft-intune-policy-conflicts.md](https://github.com/Microsoft/IntuneDocs-pr/blob/211543b75e2bcda85cd74ab34c254d70f036eebd/InTuneDocs/DeployUse/resolve-gpo-and-microsoft-intune-policy-conflicts.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\DeployUse\resolve-gpo-and-microsoft-intune-policy-conflicts.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/208fdf10711473911bb2e4225bf46ebe23453a2b/InTuneDocs/DeployUse/resolve-gpo-and-microsoft-intune-policy-conflicts.md)
-* Handoff File: [resolve-gpo-and-microsoft-intune-policy-conflicts.a6d767acf99faf07019ee7cdf9bc261ca71f4587.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/50fbed12218c4c8b8bc887bf3f8d0c2d2fde1db3/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/resolve-gpo-and-microsoft-intune-policy-conflicts.a6d767acf99faf07019ee7cdf9bc261ca71f4587.ja-jp.xlf)
-* Handoff Datetime: 2016-06-13 22:40:12
-* Handoff Reason: Include
-* Archive File: [resolve-gpo-and-microsoft-intune-policy-conflicts.a6d767acf99faf07019ee7cdf9bc261ca71f4587.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/4b89d57f6c9444f95a3d4eb2bbb4cdced575dd72/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/resolve-gpo-and-microsoft-intune-policy-conflicts.a6d767acf99faf07019ee7cdf9bc261ca71f4587.ja-jp.xlf)
-* Archive Datetime: 2016-06-16 01:41:35
-* Handback File: [resolve-gpo-and-microsoft-intune-policy-conflicts.a6d767acf99faf07019ee7cdf9bc261ca71f4587.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/64f4086ef3388f66c058e6bbe0762430301105c7/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/resolve-gpo-and-microsoft-intune-policy-conflicts.a6d767acf99faf07019ee7cdf9bc261ca71f4587.ja-jp.xlf)
-* Handback Datetime: 2016-06-22 17:43:15
-* [Back to Top](#report-top)
-
-##### <a name='99e60934ecd280b5dd38ebe65f5a60fee576f77f440'></a> Source: [InTuneDocs\EndUser\turn-off-microsoft-usage-data-collection-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/turn-off-microsoft-usage-data-collection-ios.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\turn-off-microsoft-usage-data-collection-ios.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/208fdf10711473911bb2e4225bf46ebe23453a2b/InTuneDocs/EndUser/turn-off-microsoft-usage-data-collection-ios.md)
-* Handoff File: [turn-off-microsoft-usage-data-collection-ios.0922ed8f41c84fc955099c51f212aff85941e277.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/7e5052f863fb1620024933866c580e818da0d8ba/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/turn-off-microsoft-usage-data-collection-ios.0922ed8f41c84fc955099c51f212aff85941e277.ja-jp.xlf)
-* Handoff Datetime: 2016-06-09 16:52:48
-* Handoff Reason: Include
-* Archive File: [turn-off-microsoft-usage-data-collection-ios.0922ed8f41c84fc955099c51f212aff85941e277.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/4b89d57f6c9444f95a3d4eb2bbb4cdced575dd72/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/turn-off-microsoft-usage-data-collection-ios.0922ed8f41c84fc955099c51f212aff85941e277.ja-jp.xlf)
-* Archive Datetime: 2016-06-16 01:41:35
-* Handback File: [turn-off-microsoft-usage-data-collection-ios.0922ed8f41c84fc955099c51f212aff85941e277.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/64f4086ef3388f66c058e6bbe0762430301105c7/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/turn-off-microsoft-usage-data-collection-ios.0922ed8f41c84fc955099c51f212aff85941e277.ja-jp.xlf)
-* Handback Datetime: 2016-06-22 17:43:15
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
