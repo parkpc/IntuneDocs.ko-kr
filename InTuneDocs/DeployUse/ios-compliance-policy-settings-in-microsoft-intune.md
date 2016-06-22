@@ -90,7 +90,7 @@ ms.suite: ems
      **선택**을 선택하여 Intune 전자 메일 프로필을 지정합니다. 장치에 전자 메일 프로필이 있어야 합니다.
 
      전자 메일 프로필에 대한 자세한 내용은 [Microsoft Intune에서 전자 메일 프로필을 사용하여 회사 메일에
-      대한 액세스 구성](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)을 참조하세요..
+     대한 액세스 구성](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)을 참조하세요..
 
 ## 장치 상태 설정
 
