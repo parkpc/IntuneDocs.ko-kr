@@ -1,29 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [InTuneDocs\GetStarted\mobile-device-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/601543dee6ce628e129561c95edf7e7363924cd5/InTuneDocs/GetStarted/mobile-device-management-capabilities-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#e1657b557998b81c96b1277c9b361ed63b2ef669518)
 
 ## Item Details
-##### <a name='e1657b557998b81c96b1277c9b361ed63b2ef669518'></a> Source: [InTuneDocs\GetStarted\mobile-device-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/601543dee6ce628e129561c95edf7e7363924cd5/InTuneDocs/GetStarted/mobile-device-management-capabilities-in-microsoft-intune.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
-* Handoff File: [mobile-device-management-capabilities-in-microsoft-intune.a25495f5edd7d0f4c06d5073e0c4e94c5f4b99cc.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/0bc93a169c9247784353c5760188114b3c5c6867/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/mobile-device-management-capabilities-in-microsoft-intune.a25495f5edd7d0f4c06d5073e0c4e94c5f4b99cc.ja-jp.xlf)
-* Handoff Datetime: 2016-06-22 00:58:55
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\GetStarted\mobile-device-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/b90ea60e20feed304e5f35fb651c616f131412e6/InTuneDocs/GetStarted/mobile-device-management-capabilities-in-microsoft-intune.md)
-* Current Handback File: [mobile-device-management-capabilities-in-microsoft-intune.a25495f5edd7d0f4c06d5073e0c4e94c5f4b99cc.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/105aa4de4dedc8f515a3afd5c8af261fb2104532/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/mobile-device-management-capabilities-in-microsoft-intune.a25495f5edd7d0f4c06d5073e0c4e94c5f4b99cc.ja-jp.xlf)
-* Current Handback Datetime: 2016-06-22 20:25:22
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
