@@ -4,7 +4,7 @@
 title: 사용자 및 장치 그룹 계획 | Microsoft Intune
 description:
 keywords:
-author: SanchuSa
+author: nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
@@ -40,7 +40,7 @@ Intune의 그룹은 장치 및 사용자 관리에 뛰어난 유연성을 제공
 
 Intune 관리 콘솔에 있는 그룹 노드의 기본 보기는 다음과 같습니다.
 
-![Intune 콘솔에 있는 그룹 노드에 대한 기본 보기의 스크린샷](/intune/media/Group-planning/Intune_Planning_Groups_Default_small.png)
+![Intune 콘솔에 있는 그룹 노드에 대한 기본 보기의 스크린샷](/intune/media/Intune_Planning_Groups_Default_small.png)
 
 정책이 그룹에 배포되므로 그룹 계층 구조는 디자인 시 주요 고려 사항 중 하나입니다. 또한 그룹을 만든 후에는 그룹의 부모 그룹을 변경할 수 없으므로 Intune 서비스 사용을 시작하는 순간부터 그룹의 디자인이 중요하다는 것을 알아야 합니다. 여기서는 조직의 요구에 따라 그룹 계층 구조를 디자인하기 위한 몇 가지 권장 방법을 설명합니다.
 
@@ -92,7 +92,7 @@ Intune 관리 콘솔에 있는 그룹 노드의 기본 보기는 다음과 같�
 
     * **노트북 사용자** 그룹은 **승인된 사용자** 보안 그룹의 구성원입니다.
 
-    * Intune에서 **승인된 사용자** 그룹의 구성원이 포함된 동적 구성원 쿼리를 사용하는 그룹을 만듭니다. 그 결과 Intune 사용자 그룹에 **Pat**이 포함됩니다..
+    * Intune에서 **승인된 사용자** 그룹의 구성원이 포함된 동적 구성원 쿼리를 사용하는 그룹을 만듭니다. 그 결과 Intune 사용자 그룹에 **Pat**이 포함됩니다.
 
 > [!TIP]
 > 그룹을 만들 때 정책을 적용하는 방법을 생각해야 합니다. 예를 들어 조직에 장치 운영 체제 관련 정책 및 다른 역할 또는 Active Directory에 이미 정의된 조직 단위와 관련된 정책이 있을 수 있습니다. iOS, Android 및 Windows 전용 장치 그룹과 함께 각 조직 역할에 대한 사용자 그룹이 있으면 유용할 수 있습니다.
@@ -131,22 +131,22 @@ Intune은 편집하거나 삭제할 수 없는 9개의 기본 제공 그룹을 �
 
 BYOD 또는 혼합의 경우에 로컬 개인 정보 보호 규정을 침해하지 않는 정책을 계획해야 합니다. 자신의 장치를 가져오는 모든 사용자에 대한 부모 그룹을 만듭니다. 그런 다음 이 그룹을 사용하여 이 범주의 모든 사용자에 해당하는 정책을 적용할 수 있습니다.
 
-![BYOD 상위 그룹 만들기 스크린샷](/intune/media/Group-planning/Intune_Planning_Groups_BYOD_small.png)
+![BYOD 상위 그룹 만들기 스크린샷](/intune/media/Intune_Planning_Groups_BYOD_small.png)
 
 마찬가지로 조직의 CO 사용자에 대한 그룹을 만들 수 있습니다.
 
-![BYOD 및 CO에 대한 형제 사용자 그룹의 스크린샷](/intune/media/Group-planning/Intune_Planning_Groups_BYOD_Hierachy_View_small.png)
+![BYOD 및 CO에 대한 형제 사용자 그룹의 스크린샷](/intune/media/Intune_Planning_Groups_BYOD_Hierachy_View_small.png)
 
 <!---START HERE--->
 
 ### 지역에 대한 그룹
 조직에 특정 지역에 대한 정책이 필요한 경우 지리적 영역에 따라 그룹을 만들 수 있습니다. AD(Active Directory)에서 이미 만든 지역 그룹을 기반으로 하고 이를 Azure AD에 동기화할 수 있습니다. 또한 Azure AD에서 직접 만들 수도 있습니다.
 
-이러한 스크린샷은 온-프레미스 AD에서 동기화된 그룹에 따라 Intune 그룹을 만드는 방법을 보여 줍니다. 이 예제에서는 **미국 사용자 그룹**이라는 AD 보안 그룹이 있다고 가정합니다..
+이러한 스크린샷은 온-프레미스 AD에서 동기화된 그룹에 따라 Intune 그룹을 만드는 방법을 보여 줍니다. 이 예제에서는 **미국 사용자 그룹**이라는 AD 보안 그룹이 있다고 가정합니다.
 
 1. 먼저 일반 정보를 제공합니다.
 
-    ![그룹 편집 영역의 스크린샷](/intune/media/PlanDesign/Group-planning/Intune_Planning_Groups_AD_General_small.png)
+![그룹 편집 영역의 스크린샷](/intune/media/Intune_Planning_Groups_AD_General_small.png)
 
 구성원 자격 조건에서 AD에서 동기화된 **미국 사용자 그룹**을 구성원 자격 규칙에 사용할 보안 그룹으로 선택합니다.
 
@@ -158,8 +158,7 @@ BYOD 또는 혼합의 경우에 로컬 개인 정보 보호 규정을 침해하�
 
 이 예제에서는 중동 및 아시아 그룹인 MEA도 만들었습니다.
 
-> [!NOTE]
-> 그룹 구성원 자격이 보안 그룹 구성원 자격에 따라 채워지지 않는 경우 해당 구성원에게 Intune 라이선스를 할당했는지 확인합니다.
+> [!NOTE] 그룹 구성원 자격이 보안 그룹 구성원 자격에 따라 채워지지 않는 경우 해당 구성원에게 Intune 라이선스를 할당했는지 확인합니다.
 
 ### 특정 하드웨어에 대한 그룹
 조직이 특정 하드웨어 유형에 적용되는 정책을 요구하는 경우 이 요구 사항을 기반으로 그룹을 만들 수 있습니다. 온-프레미스 AD에서 이미 만든 특정 그룹의 기준 광고를 바탕으로 하고 Azure AD에 동기화할 수 있습니다. 또한 Azure AD에서 직접 만들 수도 있습니다. 이 예제에서는 **미국 사용자 그룹**을 **노트북 사용자** 그룹의 부모로 사용합니다.
@@ -168,15 +167,14 @@ BYOD 또는 혼합의 경우에 로컬 개인 정보 보호 규정을 침해하�
 
 이제 그룹 계층 구조가 아래와 같이 표시됩니다. Intune 그룹 **노트북 사용자** 내에 구성원이 있습니다. 이제 이 그룹에 적용된 모든 정책이 미국 지역의 BYOD 노트북 사용자에게 적용됩니다.
 
-![노트북 사용자 그룹의 표시](/intune/media/Group-planning/Intune_Planning_Groups_Laptop_Hierarchy_small.png)
+![노트북 사용자 그룹의 표시](/intune/media/Intune_Planning_Groups_Laptop_Hierarchy_small.png)
 
 ### 특정 운영 체제에 대한 그룹
 조직이 Android, iOS 또는 Windows와 같은 특정 운영 체제에 적용되는 정책을 요구하는 경우 이 요구 사항을 기반으로 그룹을 만들 수 있습니다. 앞의 예와 같이 온-프레미스 AD에서 이미 만든 OS 고유 그룹의 기준 광고를 바탕으로 하고 Azure AD에 동기화할 수 있습니다. 또한 Azure AD에서 직접 만들 수도 있습니다.
 
-앞의 예에 나오는 같은 예제를 따라 사용자를 기반으로 그룹을 만들 수 있습니다. <!--devices?--> 특정 OS 플랫폼 사용
+이전 예제에 나오는 같은 방법을 따라 특정 OS 플랫폼을 사용하는 <!--devices?--> 사용자를 기반으로 그룹을 만들 수 있습니다.
 
-> [!NOTE]
-> 사용자가 여러 모바일 플랫폼/운영 체제를 사용하며 사용자를 Android 사용자, iOS 사용자 또는 Windows 사용자로 분류하는 자동화된 방식이 없는 경우 장치 수준에서 정책을 적용하는 것이 좋습니다. 이렇게 하면 OS 관련 정책을 적용할 때 유연성이 커집니다.
+> [!NOTE] 사용자가 여러 모바일 플랫폼/운영 체제를 사용하며 사용자를 Android 사용자, iOS 사용자 또는 Windows 사용자로 분류하는 자동화된 방식이 없는 경우 장치 수준에서 정책을 적용하는 것이 좋습니다. 이렇게 하면 OS 관련 정책을 적용할 때 유연성이 커집니다.
 >
 > 장치의 OS에 따라 동적으로 그룹을 프로비전할 수 없습니다. 이 작업을 수행할 때는 AD 또는 AAD 보안 그룹을 사용합니다.
 
@@ -208,8 +206,7 @@ BYOD 또는 혼합의 경우에 로컬 개인 정보 보호 규정을 침해하�
 ## 그룹 계층 구조 및 명명 규칙
 정책 관리가 용이하도록 각 정책의 이름을 용도, 플랫폼 및 적용되는 범위에 따라 지정하는 것이 좋습니다. 이 명명 표준은 정책 적용의 준비 과정에서 만든 그룹 구조를 따라야 합니다.
 
-예를 들어 미국 지역 수준에서 모든 회사, Android, 모바일 장치에 적용되는 Android 정책의 경우 정책 이름을 다음과 같이 지정할 수 있습니다.
-**CO_US_Mob_Android_General**.
+예를 들어 미국 지역 수준에서 모든 회사, Android, 모바일 장치에 적용되는 Android 정책의 경우 정책 이름을 **CO_US_Mob_Android_General**로 지정할 수 있습니다.
 
 ![Android에 대한 정책 만들기](/intune/media/Intune_planning_policy_android_small.png)
 
@@ -221,6 +218,6 @@ BYOD 또는 혼합의 경우에 로컬 개인 정보 보호 규정을 침해하�
 [그룹 만들기](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO3-->
 
 

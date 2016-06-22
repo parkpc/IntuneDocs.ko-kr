@@ -79,17 +79,16 @@ ms.suite: ems
 
 -   대상 통신 및 교육을 필요로 할 수 있는 그룹을 식별합니다.
 
--   전자 메일 통신 사용자 지정, 인트라넷 사이트 업데이트
-    통신/리소스를 업데이트하기 위해 현재 소유자를 식별합니다.
+-   메일 통신을 사용자 지정하고, 인트라넷 사이트를 업데이트합니다. 통신/리소스 업데이트의 지속적인 소유자를 식별합니다.
 
 -   사용할 교육 메서드를 간단히 설명합니다.
 
 -   시작 검사 목록 및 사용자를 위한 등록 가이드를 만듭니다.
     이러한 사용자 설명서를 출발점으로 사용합니다.
-    -  [Intune에서 Windows 장치 등록](/intune/enduser/enroll-your-device-in-intune-windows]
-    -  [Intune에서 Android 장치 등록](/intune/enduser/enroll-your-device-in-intune-android]
-    -  [Intune에서 iOS 장치 등록](/intune/enduser/enroll-your-device-in-intune-ios]
-    -  [Intune에서 Mac OS X 장치 등록](/intune/enduser/enroll-your-device-in-intune-mac-os-x]
+    -  [Intune에서 Windows 장치 등록](/intune/enduser/enroll-your-device-in-intune-windows)
+    -  [Intune에서 Android 장치 등록](/intune/enduser/enroll-your-device-in-intune-android)
+    -  [Intune에서 iOS 장치 등록](/intune/enduser/enroll-your-device-in-intune-ios)
+    -  [Intune에서 Mac OS X 장치 등록](/intune/enduser/enroll-your-device-in-intune-mac-os-x)
 
 -   필요에 따라 교육 자료를 업데이트하기 위한 프로세스를 정의합니다.
 
@@ -114,6 +113,6 @@ ms.suite: ems
 [운영 및 유지 관리](operations-and-maintenance.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO3-->
 
 

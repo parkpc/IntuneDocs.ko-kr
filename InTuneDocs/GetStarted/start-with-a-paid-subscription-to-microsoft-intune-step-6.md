@@ -53,7 +53,7 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 
 4.  정책 목록에서 정책을 만들 플랫폼을 확장한 후 **일반 구성** > **권장 설정으로 정책 만들기 및 배포** > **정책 만들기**를 선택합니다.
 
-5.  **이 정책을 배포할 그룹을 선택합니다.**라는 메시지가 표시되면 사용 가능한 그룹 목록에서 **Intune 사용자**(이전 단계에서 만든 그룹)를 선택하고 **추가** > **확인**을 선택합니다.
+5.  **이 정책을 배포할 그룹을 선택합니다.**라는 메시지가 표시되면 사용 가능한 그룹 목록에서 그룹을 선택하고 **추가** > **확인**을 선택합니다.
 
 정책이 **Intune 사용자** 그룹에 배포되며 구성 정책 목록에 표시됩니다. 해당 설정을 보려면 정책을 두 번 클릭합니다.
 
@@ -114,6 +114,6 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 >[&larr; **사용자 및 장치 구성**](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)       [**회사 포털 사용자 지정** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-7.md)  
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO3-->
 
 
