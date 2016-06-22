@@ -18,7 +18,7 @@ ms.assetid: e76af5b7-e933-442c-a9d3-3b42c5f5868b
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: owenyen
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -26,30 +26,30 @@ ms.suite: ems
 ---
 
 # グループ ポリシー オブジェクト (GPO) と Microsoft Intune ポリシーの競合を解決する
-Intune では、管理対象のコンピューターの設定を管理するためにポリシーを使用しています。 たとえば、ポリシーを使用して、コンピューターの Windows ファイアウォールに関する設定を制御できます。 多くの Intune 設定は、Windows グループ ポリシーで構成する設定と似ています。 ただし、この 2 つの設定が互いに競合することがあります。
+Intune は、管理対象の Windows PC の設定を管理するためにポリシーを使用します。 たとえば、ポリシーを使用して、PC の Windows ファイアウォールに関する設定を制御できます。 多くの Intune 設定は、Windows グループ ポリシーで構成する設定と似ています。 ただし、この 2 つの設定が互いに競合することがあります。
 
-競合が発生した場合、コンピューターがドメインにログオンできない場合を除き、ドメインレベルのグループ ポリシーの方が Intune ポリシーよりも優先されます。 ドメインにログオンできない場合は、Intune ポリシーがクライアント コンピューターに適用されます。
+競合が発生した場合、PC がドメインにログオンできない場合を除き、ドメインレベルのグループ ポリシーの方が Intune ポリシーより優先されます。 ドメインにログオンできない場合は、Intune ポリシーがクライアント PC に適用されます。
 
 ## グループ ポリシーを使用する場合の操作
 適用するポリシーがグループ ポリシーの管理対象かどうかを確認してください。 競合を回避するために、次の方法の 1 つまたは複数を採用することができます。
 
--   グループ ポリシー設定が適用されない Active Directory 組織単位 (OU) にコンピューターを移動してから、Intune クライアントをインストールします。 また、Intune に登録されているコンピューターを含む OU にグループ ポリシー設定を適用しない場合は、その OU へのグループ ポリシーの継承をブロックすることもできます。
+-   グループ ポリシー設定が適用されない Active Directory 組織単位 (OU) に PC を移動してから、Intune クライアントをインストールします。 また、Intune に登録されている PC を含む OU にグループ ポリシー設定を適用しない場合は、その OU へのグループ ポリシーの継承をブロックすることもできます。
 
--   WMI フィルターを使用するか、セキュリティ フィルターを使用して、Intune で管理されていないコンピューターにのみ GPO を制限します。 この操作方法の詳細と例については、以下の「[既存の GPO をフィルターして Intune ポリシーとの競合を回避する方法](resolve-gpo-and-microsoft-intune-policy-conflicts.md#BKMK_Filter)」を参照してください。
+-   セキュリティ グループ フィルターを使用して、Intune で管理されていない PC のみに GPO を制限します。 
 
 -   Intune ポリシーと競合するグループ ポリシー オブジェクトを無効にするか削除します。
 
 Active Directory と Windows グループ ポリシーの詳細については、Windows Server のマニュアルを参照してください。
 
 ## 既存の GPO をフィルターして Intune ポリシーとの競合を回避する方法
-Intune ポリシーと設定が競合するグループ ポリシー オブジェクト (GPO) を見つけたら、次のいずれかのフィルター方法を使用して、Intune で管理しないコンピューターのみにこれらの GPO が適用されるようにします。
+Intune ポリシーと設定が競合するグループ ポリシー オブジェクト (GPO) を見つけたら、セキュリティ グループ フィルターを使用して、Intune で管理しない PC のみにこれらの GPO が適用されるようにします。
 
-### WMI フィルターを使用する方法
-WMI フィルターは、クエリーの条件を満たすコンピューターにのみ、GPO を適用します。 WMI フィルターを適用するには、Intune サービスにコンピューターを登録する前に、エンタープライズ内のすべてのコンピューターに WMI クラスのインスタンスを展開します。
+<!--- ### Use WMI filters
+WMI filters selectively apply GPOs to computers that satisfy the conditions of a query. To apply a WMI filter, deploy a WMI class instance to all PCs in the enterprise before you enroll any PCs in the Intune service.
 
-#### WMI フィルターを GPO に適用するには
+#### To apply WMI filters to a GPO
 
-1.  まず、管理オブジェクト ファイルを作成します。このためには、次のコードをコピーしてテキスト ファイルに貼り付け、**WIT.mof** という名前を付けて適切な場所に保存します。 このファイルには、Intune サービスに登録するコンピューターに展開される、WMI クラスのインスタンスが含まれています。
+1.  Create a management object file by copying and pasting the following into a text file, and then saving it to a convenient location as **WIT.mof**. The file contains the WMI class instance that you deploy to PCs that you want to enroll in the Intune service.
 
     ```
     //Beginning of MOF file.
@@ -79,38 +79,38 @@ WMI フィルターは、クエリーの条件を満たすコンピューター�
     };
     ```
 
-2.  スタートアップ スクリプトかグループ ポリシーを使用して、ファイルを展開します。 以下は、スタートアップ スクリプトを使用する場合の展開コマンドです。 Intune サービスにクライアント コンピューターを登録する前に、WMI クラスのインスタンスを展開する必要があります。
+2.  Use either a startup script or Group Policy to deploy the file. The following is the deployment command for the startup script. The WMI class instance must be deployed before you enroll client PCs in the Intune service.
 
-    **C:/Windows/System32/Wbem/MOFCOMP &lt;MOF ファイルのパス&gt;\wit.mof**
+    **C:/Windows/System32/Wbem/MOFCOMP &lt;path to MOF file&gt;\wit.mof**
 
-3.  次のコマンドのいずれかを実行して、WMI フィルターを作成します。フィルター処理された GPO を、Intune で管理するコンピューターに適用するか、Intune で管理しないコンピューターに適用するかによって、実行するコマンドが異なります。
+3.  Run either of the following commands to create the WMI filters, depending on whether the GPO you want to filter applies to PCs that are managed by using Intune or to PCs that are not managed by using Intune.
 
-    -   Intune で管理しないコンピューターに GPO を適用する場合は、次のコマンドを使用します。
+    -   For GPOs that apply to PCs that are not managed by using Intune, use the following:
 
         ```
         Namespace:root\WindowsIntune
         Query:  SELECT WindowsIntunePolicyEnabled FROM WindowsIntune_ManagedNode WHERE WindowsIntunePolicyEnabled=0
         ```
 
-    -   Intune で管理するコンピューターに GPO を適用する場合は、次のコマンドを使用します。
+    -   For GPOs that apply to PCs that are managed by Intune, use the following:
 
         ```
         Namespace:root\WindowsIntune
         Query:  SELECT WindowsIntunePolicyEnabled FROM WindowsIntune_ManagedNode WHERE WindowsIntunePolicyEnabled=1
         ```
 
-4.  グループ ポリシー管理コンソールで GPO を編集して、前の手順で作成した WMI フィルターを適用するように設定します。
+4.  Edit the GPO in the Group Policy Management console to apply the WMI filter that you created in the previous step.
 
-    -   Intune で管理されているコンピューターだけに GPO を適用する場合は、**WindowsIntunePolicyEnabled=1** のフィルターを適用します。.
+    -   For GPOs that should apply only to PCs that you want to manage by using Intune, apply the filter **WindowsIntunePolicyEnabled=1**.
 
-    -   Intune で管理されていないコンピューターだけに GPO を適用する場合は、**WindowsIntunePolicyEnabled=0** のフィルターを適用します。.
+    -   For GPOs that should apply only to PCs that you do not want to manage by using Intune, apply the filter **WindowsIntunePolicyEnabled=0**.
 
-グループ ポリシーで WMI フィルターを適用する方法については、ブログの投稿「 [Security Filtering, WMI Filtering, and Item-level Targeting in Group Policy Preferences (グループ ポリシー基本設定のセキュリティ フィルター処理、WMI フィルター処理、項目レベルでのターゲット設定)](http://go.microsoft.com/fwlink/?LinkId=177883)」を参照してください。.
+For more information about how to apply WMI filters in Group Policy, see the blog post [Security Filtering, WMI Filtering, and Item-level Targeting in Group Policy Preferences](http://go.microsoft.com/fwlink/?LinkId=177883). --->
 
-### セキュリティ グループ フィルターの使用
-グループ ポリシーを使用すると、グループ ポリシー管理コンソールで、選択した GPO の **[セキュリティ フィルター処理]** に指定されているセキュリティ グループのみに GPO を適用できます。 既定では、GPO は **[認証されたユーザー]** に適用されます。.
 
--   **[Active Directory ユーザーとコンピューター]** スナップインで、Intune で管理しないコンピューターとユーザー アカウントを含む新しいセキュリティ グループを作成します。 このグループに "**Not In Microsoft Intune**" などの名前を設定できます。.
+グループ ポリシーを使用すると、グループ ポリシー管理コンソールで、選択した GPO の **[セキュリティ フィルター処理]** に指定されているセキュリティ グループのみに GPO を適用できます。 既定では、GPO は **[認証されたユーザー]**に適用されます。
+
+-   **[Active Directory ユーザーとコンピューター]** スナップインで、Intune で管理しないコンピューターとユーザー アカウントを含む新しいセキュリティ グループを作成します。 このグループに **Not In Microsoft Intune** などの名前を設定できます。
 
 -   グループ ポリシー管理コンソールで、選択した GPO の **[委任]** タブを開き、新しいセキュリティ グループを右クリックして、適切な**読み取り**アクセス許可と**グループ ポリシーの適用**アクセス許可をセキュリティ グループ内のユーザーとコンピューターの両方に委任できます。 (**グループ ポリシーの適用** アクセス許可は **[詳細設定]** ダイアログ ボックスで使用できます)。
 
@@ -122,6 +122,6 @@ WMI フィルターは、クエリーの条件を満たすコンピューター�
 [Microsoft Intune を使用して Windows PC を管理する](manage-windows-pcs-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

@@ -18,7 +18,7 @@ ms.assetid: 1dafc28a-7f8b-4fe0-8619-f977c93d1140
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mghadial
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -46,28 +46,29 @@ iOS アプリの複数のライセンスを購入するには、[Apple Volume Pu
 * 既定では、Intune は 1 日に 2 回、Apple VPP サービスと同期します。 ただし、いつでも手動で同期することができます。
 * Intune に VPP トークンをインポートした後、同じトークンを他のデバイス管理ソリューションにインポートすることはできません。 これを行うと、ライセンスの割り当てとユーザー レコードが失われる恐れがあります。
 * Intune で iOS VPP の使用を開始する前に、他の MDM ベンダーで作成された既存の VPP ユーザー アカウントを削除してください。 Intune は、セキュリティ対策として、そのようなユーザー アカウントを Intune と同期しません。 Intune は、Intune によって作成された Apple VPP サービスからのデータのみを同期します。 
+* Device Enrollment Protocol (DEP) を使って登録されたデバイスに iOS VPP アプリを展開することはできません。
 
 ## Apple VPP トークンを取得およびアップロードするには
 
-1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[管理者]** &gt; **[iOS および Mac OS X]** &gt; **[Volume Purchase Program]** をクリックします。
+1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[管理者]** &gt; **[iOS および Mac OS X]**、**[Volume Purchase Program]** の順に選択します。
 
-2.  もしまだであれば、**[Apple VPP アカウント]** リンクをクリックし、Volume Purchase Program for Business にサインアップします。 サインアップして、アカウントの Apple VPP トークンをダウンロードします。
+2.  もしまだであれば、**[Apple VPP アカウント]** リンクを選択して、Volume Purchase Program for Business にサインアップします。 サインアップして、アカウントの Apple VPP トークンをダウンロードします。
 
-3.  Intune コンソールの **[Apple Volume Purchase Program (VPP) の管理]** ページで、**[VPP トークンのアップロード]** をクリックします。
+3.  Intune コンソールの **[Apple Volume Purchase Program (VPP) の管理]** ページで、**[VPP トークンのアップロード]** を選択します。
 
-4.  **[VPP トークンのアップロード]** ダイアログ ボックスで、VPP トークンの名前と Apple ID を入力または貼り付けて、**[アップロード]** をクリックします。
+4.  **[VPP トークンのアップロード]** ダイアログ ボックスで、VPP トークンの名前と Apple ID を入力または貼り付けて、**[アップロード]** を選択します。
 
-5.  警告ダイアログ ボックスで、後で異なる VPP アカウントに変更できないことを理解していることを示すチェック ボックスを選択して、**[はい]** をクリックします。
+5.  警告ダイアログ ボックスで、後で異なる VPP アカウントに変更できないことを理解していることを示すチェック ボックスをオンにして、**[はい]** を選択します。
 
 **[Volume Purchase Program]** ページに、Apple VPP トークンに関する情報として、最終更新時刻や有効期限、Intune との最終同期時刻などが表示されます。
 
-**[今すぐ同期]** をクリックすれば、いつでも、Apple が保持しているデータと Intune を同期することができます。
+**[今すぐ同期]** を選択すると、いつでも、Apple が保持しているデータと Intune を同期することができます。
 
 ## ボリューム購入アプリを展開するには
 
-1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[アプリ]** &gt; **[管理されているソフトウェア]** &gt; **[ボリューム購入されたアプリ]** をクリックします。 この一覧には、Apple VPP サービスから同期されたアプリがすべて表示されます。
+1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[アプリ]**、**[管理されているソフトウェア]** &gt; **[ボリューム購入されたアプリ]** の順に選択します。 この一覧には、Apple VPP サービスから同期されたアプリがすべて表示されます。
 
-2.  展開するアプリを選択し、**[展開の管理]** をクリックし、「[Deploy apps in Microsoft Intune](deploy-apps-in-microsoft-intune.md)」 (Microsoft Intune でアプリを展開する) トピックの手順に従って、アプリのアップロード、作成、展開を完了します。
+2.  展開するアプリを選択し、**[展開の管理]** を選択して、「[Microsoft Intune でアプリを展開する](deploy-apps-in-microsoft-intune.md)」トピックの手順に従って、アプリのアップロード、作成、展開を完了します。
 
 アプリを **[必須]** インストールとしてデプロイすると、アプリをインストールする各ユーザーによってライセンスが使用されます。
 
@@ -89,6 +90,6 @@ iOS アプリの複数のライセンスを購入するには、[Apple Volume Pu
 
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 
