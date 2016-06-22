@@ -1,12 +1,12 @@
 ---
 # required metadata
 
-title: Microsoft Intune を使用して Windows Phone 8.0 の管理をセットアップする | Microsoft Intune
+title: Windows Phone 8.0 の管理をセットアップする | Microsoft Intune
 description:
 keywords:
 author: NathBarn
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/09/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 61e9b6c3-8795-49b0-8ab2-a9a05ee3ea1f
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -28,6 +28,8 @@ ms.suite: ems
 # Windows Phone 8.0 のデバイス管理のセットアップ
 
 Windows Phone 8.0 では、Intune ポータル サイト アプリのインストールとデバイスの管理の許可に Symantec 証明書が必要です。 基幹業務アプリに署名するための証明書も必要です。 次のトピックは、Windows Phone 8.0 のみに該当します。 Windows 10 Mobile を含む Windows Phone 8.1 以降を管理するには、「[Windows Phone の登録をセットアップする](set-up-windows-phone-management-with-microsoft-intune.md)」を参照してください。
+
+> [!IMPORTANT] 2016年 9 月以降、Windows 8.0 および Windows Phone 8.0 のポータル サイト アプリはダウンロードできなくなります。
 
 -   **Windows Phone 8** -証明書が必要
 -   **Windows Phone 8.1 および Windows 10 Mobile** では、次の場合にのみ証明書が必要です。
@@ -184,6 +186,6 @@ Windows Phone ストアからインストールしなくても、Intune を使�
     > -   サイドロードされたアプリをインストールする必要があり、Windows Phone 8.0 デバイスで ssp.xap を登録し、受信する場合は、新しいソフトウェア展開の ssp.xap を作成し、[ **アンインストール** ] 操作で展開します。 Windows Phone 8.0 デバイスは、アプリの強制インストールまたは強制アンインストールをサポートしていないため、この展開は無視されます。 Windows Phone 8.1 デバイスはアンインストール操作をサポートしているので、ssp.xap は削除されます。
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

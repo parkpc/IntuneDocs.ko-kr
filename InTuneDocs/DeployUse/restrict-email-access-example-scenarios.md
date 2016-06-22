@@ -18,7 +18,7 @@ ms.assetid: 454eab79-b620-42c9-b8e6-fada6e719fcd
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -35,7 +35,7 @@ ms.suite: ems
 
 これらを実現するためには、次の設定で Exchange Online の条件付きアクセス ポリシーを構成します。
 
--   **[条件付きアクセス ポリシーを有効にする]** をオンにします。.
+-   **[条件付きアクセス ポリシーを有効にする]** をオンにします。
 
 - 先進認証を使用したアプリからのアクセスを許可するプラットフォームを選択します。
 - Exchange ActiveSync アプリの場合は、**[Microsoft Intune がサポートするプラットフォームの非準拠デバイスをブロックします]** と **[Microsoft Intune がサポートしていないプラットフォームにあるその他のデバイスをすべてブロックします]** をオンにします。
@@ -70,7 +70,7 @@ ms.suite: ems
 ## Android デバイスは Exchange On-premises にアクセスできない
 ### シナリオの要件
 - すべての Android デバイスに対して Exchange へのアクセスをブロックする必要があります。
-- その他すべてのサポートされるデバイスは、Intune で管理されている限り Exchange にアクセスできます。 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)].
+- その他すべてのサポートされるデバイスは、[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] で管理されている限り Exchange にアクセスできます。
 
 これらを実現するためには、次の設定で Exchange On-premises の条件付きアクセス ポリシーを構成します。
 
@@ -86,6 +86,6 @@ ms.suite: ems
 ![デバイス アクセス フロー](./media/ConditionalAccess8-4.png)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

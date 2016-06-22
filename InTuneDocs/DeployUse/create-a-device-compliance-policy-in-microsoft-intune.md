@@ -18,7 +18,7 @@ ms.assetid: 5336dac0-a2cc-4cd4-8511-67e4f95bd700
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -29,7 +29,7 @@ ms.suite: ems
 このトピックでは、デバイスが準拠しているとみなされるために従う必要があるコンプライアンス ポリシーを作成するために使用できる手順について説明します。
 
 ##  手順 1: 新しいポリシーを追加する
-  [Microsoft Intune の管理コンソール](https://manage.microsoft.com)で、**[ポリシー]** &gt; **[コンプライアンス ポリシー]** &gt; **[追加]** を選びます。.
+  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[ポリシー]** &gt; **[コンプライアンス ポリシー]** &gt; **[追加]** の順に選択します。
 
   ![上部の [追加] メニューを示している Intune 管理コンソールのコンプライアンス ポリシー ページ](./media/intune-sa-3a-add-compliance-policy.png)
 
@@ -41,7 +41,7 @@ ms.suite: ems
 ![[ポリシーの作成] ページの [全般] タブのスクリーン ショット ](./media/intune-sa-3b-create-policy.png)
 
 ##  手順 3: ポリシーを保存する
-終了したら、**[ポリシーの保存]** を選びます。.
+終了したら、**[ポリシーの保存]** を選びます。
 
 ポリシーは、保存した後、すぐ展開できますが、後で展開することもできます。 **[ポリシー]** ワークスペースの **[コンプライアンス ポリシー]** ノードに新しいポリシーが表示されます。
 
@@ -84,6 +84,6 @@ ms.suite: ems
 [デバイス コンプライアンス ポリシーの概要](introduction-to-device-compliance-policies-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

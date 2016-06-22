@@ -29,9 +29,11 @@ ms.suite: ems
 # Microsoft による使用状況データの収集を無効にする
 Microsoft では、Microsoft の製品やサービスの向上を目的として、ポータル サイト アプリの信頼性やパフォーマンス、および使用方法に関する匿名データを自動的に収集します。 Android デバイスでのこのようなデータの収集は、ポータル サイト アプリの **[使用状況データ]** 設定を使用して無効にすることができます。 IT 管理者は、このデータの収集を制御することはできません。また、この設定の選択を変更することもできません。
 
+サポートが必要な場合は、 IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
+
 ### 関連項目
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

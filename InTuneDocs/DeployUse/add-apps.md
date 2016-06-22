@@ -18,7 +18,7 @@ ms.assetid: 2b770f4f-6d36-41e4-b535-514b46e29aaa
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mghadial
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -84,7 +84,7 @@ App Store から無料で利用できる iOS アプリを管理および展開�
 > [!TIP] [[モバイル デバイス管理機関の設定]](get-ready-to-enroll-devices-in-microsoft-intune.md) を Intune に設定すると、モバイル デバイス用のオプションを使用できるようになります。
 
 ## ユニバーサル Windows プラットフォーム (UWP) アプリのサポート
-Windows 10 デバイスで基幹業務アプリをインストールする場合、サイドローディング キーは不要です。 ただし、レジストリ キー **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Appx\AllowAllTrustedApps** は、サイドローディングを有効にするため、値は **1** である必要があります。
+Windows 10 PC で基幹業務アプリをインストールする場合、サイドローディング キーは不要です。 ただし、レジストリ キー **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Appx\AllowAllTrustedApps** は、サイドローディングを有効にするため、値は **1** である必要があります。
 
 このレジストリ キーが構成されていない場合は、アプリをデバイスに初めて展開する際に、Intune によってこの値が自動的に **1** に設定されます。 この値を **0** に設定した場合、Intune は値を自動的に変更することができず、基幹業務アプリの展開は失敗します。
 
@@ -96,6 +96,6 @@ Windows 10 Mobile デバイス上では、Symantec 以外のコード署名証�
 
 次に、アプリを展開する前に、Intune コンソールでアプリを追加する必要があります。 [登録されたデバイス](add-apps-for-mobile-devices-in-microsoft-intune.md)と [Intune クライアント ソフトウェアで管理する Windows PC](add-apps-for-windows-pcs-in-microsoft-intune.md) にアプリを追加できます。
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

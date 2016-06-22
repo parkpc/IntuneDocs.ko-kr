@@ -18,7 +18,7 @@ ms.assetid: 0775107a-6662-41c8-9404-be14bbb599f3
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -30,7 +30,7 @@ ms.suite: ems
 会社のデータを保護するため、会社のアプリやデータにアクセスするために使用するデバイスが、デバイスにアクセスする場合の PIN の使用や、デバイスに格納されるデータの暗号化などの特定のルールに準拠していることを確認する必要があります。 このような一連のルールは、コンプライアンス ポリシーと呼ばれます。
 
 ## コンプライアンス ポリシーの使用方法
-コンプライアンス ポリシーは、コンプライアンス ポリシー ルールに準拠しているデバイスへのアクセスを制限する条件付きアクセス ポリシーと一緒に使用できます。 2 つのポリシーを組み合わせて使用する方法については、「[restrict access to email and O365 services (電子メールと O365 サービスへのアクセスの制限)](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)」の記事を参照してください。
+コンプライアンス ポリシーは、コンプライアンス ポリシー ルールに準拠しているデバイスにのみ電子メールや他のサービスへのアクセスを許可する条件付きアクセス ポリシーと一緒に使用できます。 2 つのポリシーを組み合わせて使用する方法については、「[restrict access to email and O365 services (電子メールと O365 サービスへのアクセスの制限)](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)」の記事を参照してください。
 
 また、条件付きアクセスと独立してコンプライアンス ポリシーを使用することもできます。 単独で使用した場合、対象のデバイスが評価され、コンプライアンス ステータスを含めて報告されます。 たとえば、暗号化されていないデバイスの数、脱獄またはルート化されたデバイスに関するレポートを必要とすることがあります。 ただし、単独で使用した場合、会社のリソースへのアクセス制限が設定されません。
 
@@ -67,6 +67,6 @@ ms.suite: ems
 [Restrict access to email and O365 services (電子メールと O365 サービスへのアクセスの制限)](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

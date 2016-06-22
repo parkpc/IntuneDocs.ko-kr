@@ -2,6 +2,7 @@
 
 # [作業の開始](what-to-know-before-you-start-microsoft-intune.md)
 ## [事前に確認が必要な事項](what-to-know-before-you-start-microsoft-intune.md)
+### [サポートされるモバイル デバイスとコンピューター](supported-mobile-devices-and-computers.md)
 ### [サポートされている Web ブラウザー](supported-web-browsers.md)
 ### [ネットワーク インフラストラクチャの要件](network-infrastructure-requirements-for-microsoft-intune.md)
 ### [管理アカウント、Web サイト、アクセス許可](administrative-accounts-websites-perms.md)
@@ -38,6 +39,6 @@
 # [トラブルシューティング](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

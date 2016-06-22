@@ -26,10 +26,10 @@ ms.suite: ems
 ---
 
 # Intune のライセンスを管理する
-Intune サービスにサインインして使用したり、デバイスを管理対象に登録したりするためには、ユーザーが Intune サブスクリプションのライセンスを所有している必要があります。 ライセンスを所有しているユーザーは、[!INCLUDE[wit_firstref](../includes/wit_firstref_md.md)] ユーザー グループのメンバーとなります。 このグループには、サブスクリプションを使用するライセンスを保有しているすべてのユーザーが含まれています。 **各ユーザー ライセンスでは、最大で 5 つのデバイスの登録がサポートされます。**.
+Intune サービスにサインインして使用したり、デバイスを管理対象に登録したりするためには、先に [Office 365 ポータル](http://go.microsoft.com/fwlink/p/?LinkId=698854)内からユーザーに Intune サブスクリプションのライセンスを割り当てる必要があります。 ライセンスを割り当てられたユーザーの名前は、Intune 管理コンソールに表示されます。 ユーザーは最大 5 つのデバイスを登録できます。
 
 ## Intune のライセンスを割り当てる方法
-オンプレミスの Active Directory から同期しているユーザー アカウントや、アカウント ポータルを使用してクラウド サービスのサブスクリプションに手動で追加されたユーザー アカウントには、Intune のライセンスが自動的に割り当てられません。 代わりに、後で Intune テナント管理者がアカウント ポータルでユーザー アカウントを編集して、ユーザーにライセンスを割り当てる必要があります。
+オンプレミスの Active Directory から同期しているユーザー アカウントや、[Office 365 ポータル](http://go.microsoft.com/fwlink/p/?LinkId=698854)を使用してクラウド サービスのサブスクリプションに手動で追加されたユーザー アカウントには、Intune のライセンスが自動的に割り当てられません。 代わりに、後で Intune テナント管理者が Office 365 ポータルでユーザー アカウントを編集して、ユーザーにライセンスを割り当てる必要があります。
 
 サブスクリプションに関連付けられている他のクラウド サービスと Azure AD を共有している場合、これらのサービスに追加されたユーザーにもアクセスできます。 この各ユーザーには、管理者がライセンスを割り当てるまで、[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] のライセンスは付与されません。
 
@@ -38,16 +38,16 @@ Intune サービスにサインインして使用したり、デバイスを管�
 
 ## Intune のユーザー ライセンスを割り当てる
 
-**[!INCLUDE[wit_icp_2](../includes/wit_icp_2_md.md)]**を使用して、手動でクラウドベースのユーザーを追加し、クラウドベースのユーザー アカウントと、オンプレミスの Active Directory から Azure AD に同期されているアカウントの両方にライセンスを割り当てます。
+[Office 365 ポータル](http://go.microsoft.com/fwlink/p/?LinkId=698854)を使用して、手動でクラウドベースのユーザーを追加し、クラウドベースのユーザー アカウントと、オンプレミスの Active Directory から Azure AD に同期されているアカウントの両方にライセンスを割り当てます。
 
-1.  テナント管理者の資格情報を使用して、Intune アカウント ポータルにサインインします。
+1.  テナント管理者の資格情報を使用して [Office 365 ポータル](http://go.microsoft.com/fwlink/p/?LinkId=698854)にサインインした後、**[ユーザー]** > **[すべてのユーザー]** の順に選択します。
 
-2.  Intune のユーザー ライセンスを割り当てるユーザー アカウントを選択し、そのユーザー アカウントのプロパティの **[Microsoft Intune]** チェック ボックスをオンにします。
+2.  Intune のユーザー ライセンスを割り当てるユーザー アカウントを選択し、そのユーザー アカウントのプロパティで **[Microsoft Intune]** を選択します。
 
-3.  これで、ユーザー アカウントが Microsoft Intune ユーザー グループに追加され、サービスを使用し、デバイスを管理対象に登録する権限がユーザーに付与されます。
+3.  ユーザー アカウントが、サービスを使用してデバイスを管理に登録するために必要なアクセス許可を持つようになります。
 
 ### PowerShell を使用して、EMS ユーザー ライセンスを選択的に管理する
-Microsoft の Enterprise Mobility Suite (EMS) を使用している組織には、EMS パッケージの Azure Active Directory Premium または Intune サービスのみが必要なユーザーがいる場合があります。 [Azure Active Directory PowerShell コマンドレット](https://msdn.microsoft.com/library/jj151815.aspx)を使用して、いずれかのサービスまたはサービスのサブセットを割り当てることができます。. 
+Microsoft の Enterprise Mobility Suite (EMS) を使用している組織には、EMS パッケージの Azure Active Directory Premium または Intune サービスのみが必要なユーザーがいる場合があります。 [Azure Active Directory PowerShell コマンドレット](https://msdn.microsoft.com/library/jj151815.aspx)を使用して、いずれかのサービスまたはサービスのサブセットを割り当てることができます。 
 
 EMS サービスのユーザー ライセンスを選択的に割り当てるには、[Azure Active Directory Module for Windows PowerShell](https://msdn.microsoft.com/library/jj151815.aspx#bkmk_installmodule) がインストールされているコンピューターで管理者として PowerShell を開きます。 PowerShell は、ローカル コンピューターまたは ADFS サーバーにインストールできます。
 
@@ -57,8 +57,7 @@ EMS サービスのユーザー ライセンスを選択的に割り当てるに
 
 次のコマンドを実行すると、Intune サービス プランを除外できます。 同じメソッドを使用して、セキュリティ グループ全体に展開することや、より詳細なフィルターを使用することができます。 
 
-**例 1**
-コマンド ラインで、新しいユーザーを作成し、ライセンスに含まれる Intune を有効にせずに EMS ライセンスを割り当てます。
+**例 1** コマンド ラインで、新しいユーザーを作成し、ライセンスに含まれる Intune を有効にせずに EMS ライセンスを割り当てます。
 
     Connect-MsolService 
         
@@ -72,8 +71,7 @@ EMS サービスのユーザー ライセンスを選択的に割り当てるに
 
     (Get-MsolUser -UserPrincipalName "user@<TenantName>.onmicrosoft.com").Licenses.ServiceStatus
 
-**例 2**
-ライセンスが既に割り当てられているユーザーに対して、EMS ライセンスに含まれる Intune を無効にします。
+**例 2** ライセンスが既に割り当てられているユーザーに対して、EMS ライセンスに含まれる Intune を無効にします。
 
     Connect-MsolService 
     
@@ -89,12 +87,12 @@ EMS サービスのユーザー ライセンスを選択的に割り当てるに
 ![PoSH-AddLic-Verify](./media/posh-addlic-verify.png)
 
 ### 次のステップ
-これで終了です。 *Intune のクイック スタート ガイド*の手順 4. が完了しました。.
+これで終了です。 *Intune のクイック スタート ガイド*の手順 4 が完了しました。
 >[!div class="step-by-step"]
 
->[&larr; **Intune にユーザーを同期する**](.\start-with-a-paid-subscription-to-microsoft-intune-step-2.md)     [**ユーザーとデバイスを整理する** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)  
+>[&larr; **Intune にユーザーを同期する**](.\start-with-a-paid-subscription-to-microsoft-intune-step-2.md)     [**ユーザーとデバイスを整理する**&rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)  
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

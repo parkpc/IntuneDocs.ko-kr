@@ -18,7 +18,7 @@ ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -40,7 +40,7 @@ Intune の条件付きアクセスを使用して、会社の電子メールお�
 ![図は、デバイスがサービスへのアクセスを許可されているか、またはブロックされているかを決定するために使用する判断ポイントを示しています。](./media/ConditionalAccess4.png)
 
 ## 条件付きアクセスを構成する方法
-条件付きアクセスを使用して管理できるのは、Microsoft **Exchange On-premises**、**Exchange Online**、**Exchange Online Dedicated**、**SharePoint Online**、および **Skype for Business Online** です。.
+条件付きアクセスを使用して管理できるのは、Microsoft **Exchange On-premises**、**Exchange Online**、**Exchange Online Dedicated**、**SharePoint Online**、および **Skype for Business Online** です。
 
 条件付きアクセスを設定するには、デバイスのコンプライアンス ポリシーと条件付きアクセス ポリシーを構成します。
 
@@ -69,6 +69,6 @@ Intune の条件付きアクセスを使用して、会社の電子メールお�
   - [Skype for Business Online の条件付きアクセス ポリシーを作成する](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

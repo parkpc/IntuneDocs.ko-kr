@@ -18,7 +18,7 @@ ms.assetid: ad5ea85c-aa2e-4110-a184-172cd0b8f270
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mghadial
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -44,7 +44,7 @@ Intune 用のクラウドの記憶域を追加購入するときは、次の規�
 
 -   記憶域を追加購入するには、有効な有料サブスクリプション契約が必要です。
 
--   Microsoft Online Service の課金管理者と全体管理者だけが、Intune のアカウント ポータルを使って記憶域を追加購入できます。 これらの管理者を追加、削除、管理するには、全体管理者が Intune アカウント ポータルにサインインする必要があります。
+-   Microsoft Online Service の課金管理者と全体管理者だけが、Office 365 管理ポータルを使って記憶域を追加購入できます。 これらの管理者を追加、削除、管理するには、全体管理者が Office 365 管理ポータルにサインインする必要があります。
 
 -   ボリューム ライセンス契約をご利用で、Intune または Microsoft Intune アドオンを Enterprise Agreement でご購入いただいているお客様の場合は、価格体系および記憶域の追加購入方法について、Microsoft の担当者または Microsoft パートナーにお問い合わせください。
 
@@ -105,6 +105,6 @@ Intune 用のクラウドの記憶域を追加購入するときは、次の規�
 
 [Microsoft Intune でアプリを展開する](deploy-apps-in-microsoft-intune.md)方法を知る
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

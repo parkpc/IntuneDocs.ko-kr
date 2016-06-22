@@ -1,25 +1,25 @@
 ---
 # required metadata
 
-title: [登録されていないデバイスの基幹業務アプリとデータを保護する | Microsoft Intune]
+title: 登録されていないデバイスの基幹業務アプリとデータを保護する | Microsoft Intune
 description:
 keywords:
-author: [karthikaraman]
-manager: [jeffgilb]
+author: karthikaraman
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: [00219467-a62e-43b6-954b-3084f54c45ba]
+ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 
 # optional metadata
 
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: [joglocke]
-#ms.suite: ems
+ms.reviewer: joglocke
+ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
 
@@ -52,6 +52,11 @@ MAM ポリシーと基幹業務アプリを関連付けるには、次の手順�
 
 ## 手順 3: MAM ポリシーを適用する
 サービスにアプリのメタデータがアップロードされると、アプリはアプリ一覧に表示されます。  [新しいポリシーまたは既存のポリシーを作成し](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)、手順 2. で追加した基幹業務アプリに適用できます。
+
+>[!IMPORTANT]
+>ラップされたアプリを使用するユーザーに対して、MAM ポリシーを指定する必要があります。  このポリシーを展開されていないユーザーは、アプリを使用できません。
+
+
   ![新しい基幹業務アプリが示された [対象アプリ] 一覧が示されたブレードのスクリーンショット](../media/mam-azure-portal-lob-on-targeted-app-list.png)
 ## 手順 4: アプリを配布する
 アプリはエンドユーザーに、次の方法で配布できます。
@@ -75,6 +80,6 @@ MAM ポリシーと基幹業務アプリを関連付けるには、次の手順�
   これによって、基幹業務アプリの一覧と MAM ポリシーの対象アプリ一覧からアプリは削除されます。
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

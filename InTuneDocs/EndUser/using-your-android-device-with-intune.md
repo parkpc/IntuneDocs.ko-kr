@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 06/03/2016
+ms.date: 06/14/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -32,43 +32,43 @@ ms.suite: ems
 
 ## ポータル サイト アプリのインストールと Intune の登録
 
-このセクションの情報は、ポータル サイトのインストールと iOS デバイスのデバイス登録に役立ちます。
+このセクションの情報は、ポータル サイトのインストールと Android デバイスのデバイス登録に役立ちます。
 
-- [Intune にデバイスを登録する](enroll-your-device-in-Intune-android.md)</br>
+- [Intune にデバイスを登録する](enroll-your-device-in-Intune-android.md)
 - [ポータル サイト アプリをインストールし、Intune にデバイスを登録するとどうなるか](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 
 ## Intune にデバイスを登録する際に実行できること
 
-このセクションの情報は、iOS デバイスを Intune に登録した後に行える操作で役立ちます。
+このセクションの情報は、Android デバイスを Intune に登録した後に行える操作で役立ちます。
 
-- [デバイスで管理対象アプリを使用する](use-managed-apps-on-your-device-android.md)</br>
-- [デバイスを暗号化する](encrypt-your-device-android.md)</br>
-- [PIN またはパスワードを設定する](set-your-pin-or-password-android.md)</br>
-- [会社の仮想プライベート ネットワーク (VPN) をインストールする](install-your-companys-virtual-private-network-VPN-android.md)</br>
-- [デバイスがロックされるまでの時間を設定する](set-the-amount-of-time-before-your-device-is-locked-android.md)</br>
-- [紛失したまたは盗難にあったデバイスをリセット (消去) する](reset-erase-your-lost-or-stolen-device-android.md)</br>
-- [Microsoft による使用状況データの収集を無効にする](turn-off-microsoft-usage-data-collection-android.md)</br>
-- [Intune からデバイスの登録を解除する](unenroll-your-device-from-intune-android.md)</br>
-- [利用規約を拒否した場合にデバイスの登録を解除する](unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)</br>
-- [Intune からデバイスの登録を解除するとどうなるか](what-happens-if-you-unenroll-your-device-from-intune-android.md)</br>
+- [デバイスで管理対象アプリを使用する](use-managed-apps-on-your-device-android.md)
+- [デバイスを暗号化する](encrypt-your-device-android.md)
+- [PIN またはパスワードを設定する](set-your-pin-or-password-android.md)
+- [会社の仮想プライベート ネットワーク (VPN) をインストールする](install-your-companys-virtual-private-network-VPN-android.md)
+- [デバイスがロックされるまでの時間を設定する](set-the-amount-of-time-before-your-device-is-locked-android.md)
+- [紛失したまたは盗難にあったデバイスをリセット (消去) する](reset-erase-your-lost-or-stolen-device-android.md)
+- [Microsoft による使用状況データの収集を無効にする](turn-off-microsoft-usage-data-collection-android.md)
+- [Intune からデバイスの登録を解除する](unenroll-your-device-from-intune-android.md)
+- [利用規約を拒否した場合にデバイスの登録を解除する](unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
+- [Intune からデバイスの登録を解除するとどうなるか](what-happens-if-you-unenroll-your-device-from-intune-android.md)
 - [ポータル サイト アプリを使用して Android デバイスをリセットするとどうなるか](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
 
 ## ご利用のデバイスでの問題の解決
 
-このセクションの情報は、iOS デバイスを Intune に登録した場合に発生する可能性がある問題を解決するのに役立ちます。
+このセクションの情報は、Android デバイスを Intune に登録した場合に発生する可能性がある問題を解決するのに役立ちます。
 
-- [IT 管理者がデバイスの問題を解決するのに役立つ、詳細なログ記録を使用する](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)</br>
-- [電子メールを使用して診断データのログを IT 管理者に送信する](send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md)</br>
-- [USB ケーブルを使用して診断データのログを IT 管理者に送信する](send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android.md)</br>
-- [IT 管理者に登録に関するエラーを送信する](send-enrollment-errors-to-your-it-administrator-android.md)</br>
-- [デバイスに最低限必要なバージョンのオペレーティング システムがインストールされていない](device-doesnt-have-the-required-minimum-operating-system-version-android.md)</br>
-- [デバイスが最新のオペレーティング システムのバージョンに準拠していない](device-doesnt-comply-with-maximum-operating-system-version-android.md)</br>
-- [デバイスが root 化され、接続できない](your-device-is-rooted-and-you-cant-connect-android.md)</br>
-- [デバイスに必要な証明書がない](your-device-is-missing-a-required-certificate-android.md)</br>
-
-
+- [IT 管理者がデバイスの問題を解決するのに役立つ、詳細なログ記録を使用する](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
+- [電子メールを使用して診断データのログを IT 管理者に送信する](send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md)
+- [USB ケーブルを使用して診断データのログを IT 管理者に送信する](send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android.md)
+- [IT 管理者に登録に関するエラーを送信する](send-enrollment-errors-to-your-it-administrator-android.md)
+- [デバイスに最低限必要なバージョンのオペレーティング システムがインストールされていない](device-doesnt-have-the-required-minimum-operating-system-version-android.md)
+- [デバイスが最新のオペレーティング システムのバージョンに準拠していない](device-doesnt-comply-with-maximum-operating-system-version-android.md)
+- [デバイスが root 化され、接続できない](your-device-is-rooted-and-you-cant-connect-android.md)
+- [デバイスに必要な証明書がない](your-device-is-missing-a-required-certificate-android.md)
 
 
-<!--HONumber=Jun16_HO1-->
+
+
+<!--HONumber=Jun16_HO2-->
 
 

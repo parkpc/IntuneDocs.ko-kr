@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -32,9 +32,11 @@ Android デバイスが Intune に登録されたら、**[詳細ログ記録]** 
 
 **[詳細ログ記録]** をオンまたはオフにするには、職場または学校の資格情報を使用して会社のポータル アプリにサインインし、**[設定]** をタップし、**[詳細ログ記録]** 設定の隣にあるオン/オフ ボタンをタップします。
 
+サポートが必要な場合は、 IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
+
 ### 関連項目
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

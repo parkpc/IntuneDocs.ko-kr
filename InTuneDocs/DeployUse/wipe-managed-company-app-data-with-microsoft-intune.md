@@ -18,7 +18,7 @@ ms.assetid: 2742e1d5-d2d5-42cd-b719-665dd6e0a0e9
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: joglocke
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -40,7 +40,7 @@ ms.suite: ems
 
     ![[Intune モバイル アプリケーション管理] ブレードと [概要] タイルのスクリーンショット](../media/AppManagement/AzurePortal_MAM_WipeRequests.png)
 
-2.  **[新しいワイプ要求]** を選択します。.
+2.  **[新しいワイプ要求]** を選択します。
 
     ![[新しいワイプ要求] ブレードのスクリーンショット](../media/AppManagement/AzurePortal_MAM_NewWipeRequest.png)
 
@@ -58,7 +58,7 @@ ms.suite: ems
 
 1.  **[Intune モバイル アプリケーション管理]** ブレードで、**[ワイプ要求]** タイルを選択して **[ワイプ要求]** ブレードを開きます。
 
-2.   **[ワイプ要求]** ブレードでは、要求をユーザー別にグループ化して一覧表示できます。  ワイプ要求はデバイスで実行されている保護アプリごとに作成されるため、1 ユーザーに対する要求が複数ある場合があります。  状態は、ワイプ要求が **[保留中]**、**[失敗]**、または **[成功]** のいずれかであることを示します。.
+2.   **[ワイプ要求]** ブレードでは、要求をユーザー別にグループ化して一覧表示できます。  ワイプ要求はデバイスで実行されている保護アプリごとに作成されるため、1 ユーザーに対する要求が複数ある場合があります。  状態は、ワイプ要求が **[保留中]**、 **[失敗]**、または **[成功]**のいずれかであることを示します。
 
 ### 関連項目
 [モバイル アプリケーション管理ポリシーを使用してデータを保護する ](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
@@ -66,6 +66,6 @@ ms.suite: ems
 [Azure ポータルの使用](azure-portal-for-microsoft-intune-mam-policies.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 
