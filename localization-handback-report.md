@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [InTuneDocs\DeployUse\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6d435c2c9773040d6870aea274d3879c00461457/InTuneDocs/DeployUse/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#f4e8fd298de6b92a994e67be5d9fb59cb5bd136f31)
 
 ## Item Details
+##### <a name='f4e8fd298de6b92a994e67be5d9fb59cb5bd136f31'></a> Source: [InTuneDocs\DeployUse\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6d435c2c9773040d6870aea274d3879c00461457/InTuneDocs/DeployUse/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/9944a7b293403071151e76e4a4a65596b0d3162e/InTuneDocs/DeployUse/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)
+* Handoff File: [decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.0b8a5fca6a4b115e0247c86132e68528ae2848e6.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/59dffd0bfd1d03b28e00a0cc2231e550a7be3e1d/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.0b8a5fca6a4b115e0247c86132e68528ae2848e6.ja-jp.xlf)
+* Handoff Datetime: 2016-05-13 16:14:34
+* Handoff Reason: Include
+* Archive File: [decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.0b8a5fca6a4b115e0247c86132e68528ae2848e6.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e7dffecc274f7ea830b60a451f0c64865f064100/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.0b8a5fca6a4b115e0247c86132e68528ae2848e6.ja-jp.xlf)
+* Archive Datetime: 2016-06-02 02:38:18
+* Handback File: [decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.0b8a5fca6a4b115e0247c86132e68528ae2848e6.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/2c57548688a395a47270e615287090cc76faff52/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.0b8a5fca6a4b115e0247c86132e68528ae2848e6.ja-jp.xlf)
+* Handback Datetime: 2016-06-23 17:34:01
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
