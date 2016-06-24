@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: ed10a62c-b026-4ad3-ac41-641933522df2
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: maxles
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -39,7 +39,7 @@ ms.suite: ems
 ## 管理対象アプリを取得する方法
 管理対象アプリはいくつかの方法で取得できます。
 
--   デバイスが Microsoft Intune に登録されるときに、会社のポータル アプリまたは会社のポータル Web サイトからアプリをインストールするか、または IT 管理者がアプリをデバイスにインストールする場合があります。 登録については、「[Intune にデバイスを登録する](enroll-your-device-in-Intune-android.md)」をご覧ください。.
+-   デバイスが Microsoft Intune に登録されるときに、会社のポータル アプリまたは会社のポータル Web サイトからアプリをインストールするか、または IT 管理者がアプリをデバイスにインストールする場合があります。 登録については、「[Intune にデバイスを登録する](enroll-your-device-in-Intune-android.md)」をご覧ください。
 
 -   Play ストアからアプリをインストールし、Intune で管理されている会社のユーザー アカウントでサインインします。
 
@@ -66,22 +66,22 @@ ms.suite: ems
 
 IT 部門が管理する可能性のある一般的なアプリを以下にいくつか示します。
 
--   管理されている web ブラウザー
+-   Intune Managed Browser
 
--   管理されているイメージ ビューアー
+-   Intune Image Viewer
 
--   管理対象の PDF ビューアー
+-   Intune PDF Viewer
 
--   マネージ AV プレーヤー
+-   Intune AV Player
 
 -   Microsoft Word、Excel、PowerPoint
 
-デバイスの管理対象アプリの詳細については、IT 管理者にお問い合わせください。
+デバイスの管理対象アプリの詳細については、IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
 
 
 ### 関連項目
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

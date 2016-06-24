@@ -18,7 +18,7 @@ ms.assetid: 0321062d-1363-4ac3-81d4-5405f3b79481
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -44,9 +44,11 @@ Intune から Android デバイスの登録を解除すると次のようにな�
 
 登録を解除する手順については、「[Intune の会社のポータル アプリを使用してデバイスの登録を解除する](unenroll-your-device-from-intune-android.md)」を参照してください。
 
+ご質問がございましたら、IT 管理者に問い合わせてください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
+
 ### 関連項目
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

@@ -15,10 +15,10 @@ ms.assetid: c6a97c74-c35c-4977-b925-6efe01e31d3c
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: esmich
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -44,11 +44,13 @@ Intune から iOS デバイスの登録を解除すると次のようになり�
 
 -   会社の電子メールのプロファイルはデバイスから削除されます。
 
-登録を解除する手順については、「[Intune からデバイスの登録を解除する](unenroll-your-device-from-intune-ios.md)」を参照してください。.
+登録を解除する手順については、「[Intune からデバイスの登録を解除する](unenroll-your-device-from-intune-ios.md)」を参照してください。
+
+ご質問がございましたら、IT 管理者に問い合わせてください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
 
 ### 関連項目
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

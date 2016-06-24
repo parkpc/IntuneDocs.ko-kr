@@ -18,7 +18,7 @@ ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: heenamac
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -31,7 +31,7 @@ ms.suite: ems
 
 ## 全般構成ポリシーの設定
 
-Windows 10 用の Microsoft Intune **全般構成ポリシー**を使用して、登録済みの Windows 10 デスクトップおよび Windows 10 Mobile デバイスの全般設定を構成します。
+Windows 10 用の Microsoft Intune **全般構成ポリシー**を使用して、登録済みの Windows 10 デスクトップと Windows 10 Mobile デバイスの全般設定を構成します。 Intune クライアント ソフトウェアを使用して Windows 10 PC を管理するときは、このポリシーを使用できません。
 
 
 ### パスワード
@@ -332,6 +332,6 @@ Windows のカスタム URI ポリシーを使用する場合は、すべての�
 
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: d22f5aea-7be4-419b-b51b-a522ca037b69
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -38,7 +38,7 @@ ms.suite: ems
 
 -   携帯電話の紛失や盗難にあった場合、電話を工場出荷時設定にリセットする
 
-Android デバイスを追加すると、そのデバイスにアクセスする許可が IT 管理者に付与されます。 IT 管理者は次のような操作を実行できます。
+Android デバイスを登録すると、そのデバイスにアクセスする許可が IT 管理者に付与されます。 IT 管理者は次のような操作を実行できます。
 
 -   デバイスを製造元の既定設定にリセットする。 この操作は、デバイスの紛失時または盗難時に役立ちます。
 
@@ -60,9 +60,11 @@ Android デバイスを追加すると、そのデバイスにアクセスする
 
     -   会社のアプリのインベントリの更新情報を送信する (この更新情報に個人情報は含まれません)。
 
+ご質問がございましたら、IT 管理者に問い合わせてください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
+
 ### 関連項目
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

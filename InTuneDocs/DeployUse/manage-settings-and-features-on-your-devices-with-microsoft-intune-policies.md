@@ -200,9 +200,9 @@ Intune は Apple 構成ファイルのペイロードまたはカスタム OMA-U
 
 ### ポリシーのトラブルシューティングのヘルプはどこにありますか?
 
-「[Microsoft Intune のポリシーのトラブルシューティング](/troubleshoot/troubleshoot-policies-in-microsoft-intune.md)」を参照してください。
+「[Microsoft Intune のポリシーのトラブルシューティング](../Troubleshoot/troubleshoot-policies-in-microsoft-intune)」をご覧ください。
 
 
-<!--HONumber=Jun16_HO2-->
+<!--HONumber=Jun16_HO3-->
 
 

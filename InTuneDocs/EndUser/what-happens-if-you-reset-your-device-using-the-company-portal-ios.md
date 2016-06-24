@@ -18,7 +18,7 @@ ms.assetid: db99c3eb-4813-4c8b-8e32-958e983b7f0f
 ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: esmich
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -42,9 +42,11 @@ ms.suite: ems
 
 -   会社の電子メール アカウントは削除され、保存されなかった電子メールは削除されます。
 
+ご質問がございましたら、IT 管理者に問い合わせてください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
+
 ### 関連項目
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

@@ -18,7 +18,7 @@ ms.assetid: a2467c02-aac5-41c8-b788-cbda830941ef
 ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: esmich
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -100,9 +100,11 @@ ms.suite: ems
 
 デバイスを登録する方法の手順については、「[Intune に iOS デバイスを登録する](enroll-your-device-in-intune-ios.md)」または「[Intune に Mac OS X デバイスを登録する](enroll-your-device-in-intune-mac-os-x.md)」を参照してください。
 
+ご質問がございましたら、IT 管理者に問い合わせてください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
+
 ### 関連項目
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

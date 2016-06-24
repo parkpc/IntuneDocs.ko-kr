@@ -18,7 +18,7 @@ ms.assetid: 47e03edb-0c57-4e25-8e89-4a1069267b8c
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -28,7 +28,7 @@ ms.suite: ems
 
 # Intune からデバイスの登録を解除するとどうなるか
 
-デバイスからポータル サイト アプリをアンインストールすると、Intune からそのデバイスの登録が解除されます。 登録を解除した場合の詳細については、お使いのデバイスの種類に対応する、上記「この記事の内容」セクションに示されているリンクを使用してください。
+登録を解除した場合の詳細については、お使いのデバイスの種類に対応する、上記「この記事の内容」セクションに示されているリンクを使用してください。
 
 - [Windows 10、Windows 8.1、Windows 8、Windows 7、Vista](#windows-10-mobile--8-1,-windows-8,-windows-7,-vista)
 - [Windows 10 Mobile、Windows Phone 8.1 または Windows Phone 8](#windows-10--windows-8-1-or-windows-phone-8)
@@ -92,10 +92,11 @@ Windows RT デバイスを削除すると、次のような結果になります
 
 -   追加時にデバイスで変更した設定がある場合 (カメラを無効にする、特定のパスワードの長さを必須にするなど)、その設定は適用されなくなります。
 
+ご質問がございましたら、IT 管理者に問い合わせてください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
 
 ### 関連項目
 [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

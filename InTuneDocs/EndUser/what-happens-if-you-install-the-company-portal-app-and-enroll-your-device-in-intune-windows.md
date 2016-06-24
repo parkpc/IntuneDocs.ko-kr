@@ -18,7 +18,7 @@ ms.assetid: d65e3452-5bbf-4d26-a06e-401ddcc47f39
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -125,10 +125,12 @@ IT 管理者が対象のデバイスで確認できるものの詳細につい�
 
 -   IT 管理者は、コンピューターにポリシーを施行することができます。 たとえば、コンピューターにパスワードまたは PIN を設定することが必須になり、パスワードの入力を何度も間違えると、コンピューターがロックされたり、コンピューターのハード ドライブからすべてのデータが削除されたりする可能性があります。
 
+ご質問がございましたら、IT 管理者に問い合わせてください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
+
 ### 関連項目
 [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 
