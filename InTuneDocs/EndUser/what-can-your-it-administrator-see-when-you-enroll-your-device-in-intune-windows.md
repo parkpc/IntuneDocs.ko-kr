@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/26/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 12655728-a1af-4d89-97bc-925fe36c0dc4
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -62,9 +62,12 @@ Windows デバイスを Intune に登録すると、対象のデバイスの管�
 
 -   製造元
 
+
+ご質問がございましたら、IT 管理者に問い合わせてください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
+
 ### 関連項目
 [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 
