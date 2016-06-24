@@ -21,7 +21,7 @@ ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
     <section id="hero-content">
       <h1>Microsoft Intune のドキュメント</h1>
       <h2>モバイル デバイスとモバイル アプリケーションを管理するサービスである Microsoft Intune を展開および管理する方法について説明します。</h2>
-      <h3>Configuration Manager で Intune を管理している場合は、 <a href="https://technet.microsoft.com/en-us/library/mt627883.aspx" target="_blank">Configuration Manager のドキュメントを参照してください &rarr;</a></h3>
+      <h3>Configuration Manager で Intune を管理している場合は、 <a href="http://go.microsoft.com/fwlink/?LinkId=816854" target="_blank">Configuration Manager のドキュメントを参照してください &rarr;</a></h3>
     </section>
     <section id="featured" class="container">
       <h2 class="section-heading"><span class="icon icon-warning"></span> おすすめコンテンツ</h2>
@@ -280,6 +280,6 @@ ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
 </article>
 
 
-<!--HONumber=Jun16_HO2-->
+<!--HONumber=Jun16_HO4-->
 
 
