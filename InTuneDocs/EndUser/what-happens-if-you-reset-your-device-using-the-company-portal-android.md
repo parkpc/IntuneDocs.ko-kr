@@ -36,11 +36,11 @@ ms.suite: ems
 - 메일, VPN 및 WiFi
 - 특정 설정을 적용하는 IT 관리자의 기능
 
-문의 사항이 있는 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

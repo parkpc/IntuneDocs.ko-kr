@@ -125,12 +125,12 @@ IT 관리자가 내 장치에서 무엇을 볼 수 있는지 알아보려면 [�
 
 -   IT 관리자가 컴퓨터에 정책을 강제 적용할 수 있습니다. 예를 들어 컴퓨터의 암호나 PIN을 설정하도록 요구할 수 있습니다. 암호나 PIN을 설정할 경우 잘못된 암호로 너무 많이 시도하면 컴퓨터가 잠기거나 컴퓨터 하드 드라이브에서 모든 데이터가 삭제될 수 있습니다.
 
-문의 사항이 있는 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 ### 참고 항목
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

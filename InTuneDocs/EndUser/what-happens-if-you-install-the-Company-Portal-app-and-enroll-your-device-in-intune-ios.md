@@ -100,11 +100,11 @@ Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하�
 
 장치를 등록하는 방법은 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md)을 참조하세요.
 
-문의 사항이 있는 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 ### 참고 항목
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

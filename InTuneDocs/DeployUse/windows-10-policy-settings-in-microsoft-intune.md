@@ -31,7 +31,7 @@ ms.suite: ems
 
 ## 일반 구성 정책 설정
 
-Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록된 Windows 10 Desktop 및 Windows 10 Mobile 장치에 대한 일반 설정을 구성합니다.
+Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록된 Windows 10 Desktop 및 Windows 10 Mobile 장치에 대한 일반 설정을 구성합니다. 이 정책은 Intune 클라이언트 소프트웨어로 Windows 10 PC를 관리하는 경우에는 사용할 수 없습니다.
 
 
 ### 암호
@@ -332,6 +332,6 @@ Windows 사용자 지정 URI 정책을 사용하려면 모든 장치를 Intune�
 
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

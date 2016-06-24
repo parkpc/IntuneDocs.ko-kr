@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 05/11/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -66,22 +66,22 @@ IT 관리자가 앱에서 관리할 수 있고, 장치에서 회사 데이터 �
 
 IT 부서에서 관리할 수 있는 몇 가지 일반적인 앱은 다음과 같습니다.
 
--   관리 되는 웹 브라우저
+-   Intune Managed Browser
 
--   관리 되는 이미지 뷰어
+-   Intune 이미지 뷰어
 
--   관리 되는 PDF 뷰어
+-   Intune PDF 뷰어
 
--   관리 되는 AV 플레이어
+-   Intune AV 플레이어
 
 -   Microsoft Word, Excel, PowerPoint
 
-장치에서 관리되는 앱에 대한 자세한 내용은 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보를 찾을 수 없는 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+장치에서 관리되는 앱에 대한 자세한 내용은 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

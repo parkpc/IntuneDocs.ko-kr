@@ -28,7 +28,7 @@ ms.suite: ems
 
 # Intune에서 장치 등록을 취소하면 어떻게 되나요?
 
-장치에서 회사 포털 앱을 제거하면, Intune에서 장치 등록이 취소됩니다. 발생하는 상황에 대한 추가적인 정보를 보려면 위의 "이 문서의 내용" 섹션에 표시된 링크 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
+발생하는 상황에 대한 추가적인 정보를 보려면 위의 "이 문서의 내용" 섹션에 표시된 링크 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
 
 - [Windows 10 mobile, 8.1, Windows 8, Windows 7, Vista](#windows-10-mobile--8-1,-windows-8,-windows-7,-vista)
 - [Windows 10, Windows 8.1 또는 Windows Phone 8](#windows-10--windows-8-1-or-windows-phone-8)
@@ -92,11 +92,11 @@ Windows RT ÀåÄ¡¸¦ Á¦°ÅÇÏ¸é ´ÙÀ½°ú °°Àº »óÈ²ÀÌ ¹ß
 
 -   장치를 추가할 때 장치에서 변경된 모든 설정(예: 카메라 사용 안 함 또는 특정 암호 길이 요구)이 더 이상 적용되지 않습니다.
 
-문의 사항이 있는 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 ### 참고 항목
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -38,7 +38,7 @@ Intune에서 회사 포털 앱을 설치하고 Android 장치를 등록하면, �
 
 -   분실하거나 도난당한 경우 전화를 공장 설정으로 다시 설정
 
-Android 장치를 추가할 경우 장치에 액세스할 수 있는 권한을 IT 관리자에게 부여하는 것입니다. IT 관리자는 다음과 같은 작업을 수행할 수 있습니다.
+Android 장치를 등록할 경우 장치에 액세스할 수 있는 권한을 IT 관리자에게 부여하는 것입니다. IT 관리자는 다음과 같은 작업을 수행할 수 있습니다.
 
 -   사용자 장치를 장치 제조업체의 기본 설정으로 리셋합니다. 장치를 분실하거나 도난당한 경우 유용한 조치입니다.
 
@@ -60,11 +60,11 @@ Android 장치를 추가할 경우 장치에 액세스할 수 있는 권한을 I
 
     -   회사 앱 인벤토리 업데이트(이러한 업데이트에는 개인 정보가 포함되어 있지 않음)를 보냅니다.
 
-문의 사항이 있는 경우 IT 관리자의 연락처 정보를 찾을 수 없으면 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 연락처 정보가 있는지 확인하세요.
+의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -28,7 +28,7 @@ ms.suite: ems
 
 # 메일을 사용하여 IT 관리자에게 진단 데이터 로그 보내기
 
-학교 또는 회사 앱으로 작업을 하거나 회사 포털 앱에 있을 때 Android 장치에 오류가 표시되면 IT 관리자가 오류를 파악하고 해결하는 데 도움이 되도록 진단 데이터 로그를 보낼 수 있습니다. 로그에 IT 관리자가 문제를 더 쉽게 파악할 수 있도록 해주게 될 모든 세부 정보를 포함하려면 자세한 정보 로깅 기능을 켜세요.
+학교 또는 회사 앱으로 작업을 하거나 회사 포털 앱에 있을 때 Android 장치에 오류가 표시되면 IT 관리자가 오류를 파악하고 해결하는 데 도움이 되도록 진단 데이터 로그를 보낼 수 있습니다. 로그에 IT 관리자가 문제를 더 쉽게 파악할 수 있도록 해주게 될 모든 세부 정보를 포함하려면 자세한 정보 로깅 기능을 켜세요. [자세한 정보 로깅](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)에 대해 자세히 알아볼 수 있습니다.
 
 자세한 로깅을 설정하려면:
 
@@ -54,6 +54,6 @@ ms.suite: ems
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 
