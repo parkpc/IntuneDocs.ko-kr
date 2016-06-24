@@ -200,9 +200,9 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI 정책 페이로�
 
 ### 문제 해결 정책 도움말은 어디서 찾을 수 있나요?
 
-[Microsoft Intune의 문제 해결 정책](/troubleshoot/troubleshoot-policies-in-microsoft-intune.md)을 참조하세요.
+[Microsoft Intune의 문제 해결 정책](../Troubleshoot/troubleshoot-policies-in-microsoft-intune)을 참조하세요.
 
 
-<!--HONumber=Jun16_HO2-->
+<!--HONumber=Jun16_HO3-->
 
 
