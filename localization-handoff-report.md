@@ -6,22 +6,22 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [InTuneDocs\DeployUse\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3f79de38ce7fc9a5434033ee45ddf43f22517356/InTuneDocs/DeployUse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#f1b9216c673039f8600e07508b255e12cc30bf3f29)
+ [InTuneDocs\EndUser\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5cdae8e292cffd9e4c74a6eda9cec23fcba25179/InTuneDocs/EndUser/you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md) | OutofSyncHandedBackSuccess | [Details](#f976240484b79d08f273ac79a79fb911aae06c7a474)
 
 ## Item Details
-##### <a name='f1b9216c673039f8600e07508b255e12cc30bf3f29'></a> Source: [InTuneDocs\DeployUse\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3f79de38ce7fc9a5434033ee45ddf43f22517356/InTuneDocs/DeployUse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
+##### <a name='f976240484b79d08f273ac79a79fb911aae06c7a474'></a> Source: [InTuneDocs\EndUser\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5cdae8e292cffd9e4c74a6eda9cec23fcba25179/InTuneDocs/EndUser/you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [create-and-deploy-mobile-app-management-policies-with-microsoft-intune.1c3f40f45ddd82bb184d6dd9988ff7087c19b9e3.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ccb504453f1930e701f29bf2553e4b70443cb624/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.1c3f40f45ddd82bb184d6dd9988ff7087c19b9e3.ja-jp.xlf)
-* Handoff Datetime: 2016-06-24 14:45:37
+* Handoff File: [you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.6eac219c556cfc7ae7341602a5988dc71415dcee.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/aa0178d2e2cfb67886ffa6e569c3569e22501b09/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.6eac219c556cfc7ae7341602a5988dc71415dcee.ja-jp.xlf)
+* Handoff Datetime: 2016-06-24 16:57:26
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\DeployUse\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/fe1cf2aa3c0be8daab4a185d048501937a2be591/InTuneDocs/DeployUse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
-* Current Handback File: [create-and-deploy-mobile-app-management-policies-with-microsoft-intune.1c3f40f45ddd82bb184d6dd9988ff7087c19b9e3.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/ae33d0d04b4fd06c8d8895112422bba3deef9f91/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.1c3f40f45ddd82bb184d6dd9988ff7087c19b9e3.ja-jp.xlf)
-* Current Handback Datetime: 2016-06-16 02:53:58
+* Current Target File: [InTuneDocs\EndUser\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/1ffd8c18ab886319c760312e6178d6e3676c8483/InTuneDocs/EndUser/you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md)
+* Current Handback File: [you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.6eac219c556cfc7ae7341602a5988dc71415dcee.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/954fcc4d1b540a827a0ac4f2f1e751e25e85d54e/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.6eac219c556cfc7ae7341602a5988dc71415dcee.ja-jp.xlf)
+* Current Handback Datetime: 2016-06-24 14:25:36
 * [Back to Top](#report-top)
 
 
