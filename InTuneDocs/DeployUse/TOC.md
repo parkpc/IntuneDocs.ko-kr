@@ -30,7 +30,7 @@
 
 ### [정책을 통해 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 #### [iOS 설정](ios-policy-settings-in-microsoft-intune.md)
-#### [Android 설정](android-policy-settings-in-microsoft-intune.md)
+#### [Android 및 Samsung KNOX 설정](android-policy-settings-in-microsoft-intune.md)
 #### [Windows 8 및 Windows 8.1 설정](windows-configuration-policy-settings-in-microsoft-intune.md)
 #### [Windows Phone 8.1 설정](windows-phone-8-1-policy-settings-in-microsoft-intune.md)
 #### [Windows 10 Desktop 및 Mobile 설정](windows-10-policy-settings-in-microsoft-intune.md)
@@ -106,6 +106,7 @@
 ### [MAM용 LOB(기간 업무) 준비](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)
 #### [iOS 앱 줄 바꿈](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)
 #### [Android 앱 줄 바꿈](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)
+#### [Intune에서 관리하지 않는 장치에 있는 LOB 앱](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)
 #### [앱 작성 시 SDK 사용](use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
 
@@ -120,9 +121,11 @@
 
 ## [새로운 기능](whats-new-in-microsoft-intune.md)
 
+# [앱 개발 및 사용자 지정](/intune/develop/intune-app-sdk)
+
 # [문제 해결](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 
