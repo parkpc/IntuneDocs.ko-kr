@@ -21,7 +21,7 @@ ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
     <section id="hero-content">
       <h1>Microsoft Intune 문서</h1>
       <h2>Microsoft Intune, 모바일 장치 및 응용 프로그램 관리 서비스를 배포하고 관리하는 방법을 알아보세요.</h2>
-      <h3>Configuration Manager로 Intune을 관리하나요? <a href="https://technet.microsoft.com/en-us/library/mt627883.aspx" target="_blank">Configuration Manager 문서 보기 &rarr;</a></h3>
+      <h3>Configuration Manager로 Intune을 관리하나요? <a href="http://go.microsoft.com/fwlink/?LinkId=816854" target="_blank">Configuration Manager 문서 보기 &rarr;</a></h3>
     </section>
     <section id="featured" class="container">
       <h2 class="section-heading"><span class="icon icon-warning"></span> 주요 콘텐츠</h2>
@@ -280,6 +280,6 @@ ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
 </article>
 
 
-<!--HONumber=Jun16_HO2-->
+<!--HONumber=Jun16_HO4-->
 
 
