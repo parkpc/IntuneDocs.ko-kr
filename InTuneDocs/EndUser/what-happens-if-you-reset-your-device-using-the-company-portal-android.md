@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 회사 포털을 사용하여 장치를 재설정하면 어떻게 되나요? | Microsoft Intune
-description:
-keywords:
+title: "회사 포털을 사용하여 장치를 재설정하면 어떻게 되나요? | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 05/25/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 5d4e31a2-7bda-4d62-a0ba-c31e77ecea03
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: arnab
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: 565ada54c6267d38764f3e1049b5569da1f796cd
+
 
 ---
 
@@ -41,6 +35,7 @@ ms.suite: ems
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

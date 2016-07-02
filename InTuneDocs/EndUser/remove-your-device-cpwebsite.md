@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 회사 포털에서 장치 제거 | Microsoft Intune
-description:
-keywords:
+title: "회사 포털에서 장치 제거 | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: e240419a-a836-4be3-8fd9-39a4ec890226
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mamoriss
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: 9f63869b6c4f3a082da7587921870004c6ffc5e1
+
 
 ---
 
@@ -47,6 +41,7 @@ Intune 및 IT 관리자가 장치를 더 이상 관리하지 않도록 하려면
 ### 참고 항목
 [Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
