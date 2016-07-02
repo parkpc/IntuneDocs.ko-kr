@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 개념 증명 | Microsoft Intune
-description:
-keywords:
+title: "개념 증명 | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: f3c97380-23ca-40da-acbc-78108507cad7
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
+ms.openlocfilehash: 4c01b7cec6474153fcea465fc050ac419ca2eec5
+
 
 ---
 
@@ -42,7 +36,7 @@ ms.suite: ems
 -   이러한 시나리오의 유효성 검사를 완료하기 위해 테스트 환경에 어떤 리소스가 있어야 하나요?
 
 ## 중점 영역 목표
-여기 명시된 출시 단계의 중점 영역 활동에 대한 지침은 이 섹션을 검토하세요.
+여기에 명시된 출시 단계의 중점 영역 활동에 대한 지침은 이 섹션을 검토하세요.
 
 ### 계획
 PoC 인프라를 배포하기 전에 유효성을 검사해야 하는 시나리오와 이 유효성 검사를 완료하는 데 필요한 항목을 알고 있어야 합니다.
@@ -83,6 +77,7 @@ PoC 인프라를 배포하기 전에 유효성을 검사해야 하는 시나리�
 [파일럿](pilot.md)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 
