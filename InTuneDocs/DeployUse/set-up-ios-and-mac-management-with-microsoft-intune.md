@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: iOS 및 Mac 관리 설정 | Microsoft Intune
-description:
-keywords:
+title: "iOS 및 Mac 관리 설정 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: dc451224-1372-4b84-b641-cfa67cb3849b
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: bb44d53c87bec1b6892bf49a65f3df684199ed08
+ms.openlocfilehash: 9766b6e64259d809b04e6f6004c25ed88ad72659
+
 
 ---
 
@@ -55,6 +49,7 @@ Intune을 사용하여 iOS 장치를 관리할 수 있으려면 장치가 Intune
 [Microsoft Intune에 장치를 등록하도록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 
