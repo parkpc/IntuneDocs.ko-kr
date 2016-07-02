@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 운영 및 유지 관리 | Microsoft Intune
-description:
-keywords:
+title: "운영 및 유지 관리 | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: f46fb18e-228c-4a2d-92e7-20734e9bdae3
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
+ms.openlocfilehash: a26de5f97800d8cac0c52c87014c75402460fee4
+
 
 ---
 
@@ -45,7 +39,7 @@ Intune은 새로운 특징과 기능으로 자주 업데이트됩니다. 이러�
 -   업데이트 인식의 담당자는 누구입니까?
 
 ## 중점 영역 목표
-여기 명시된 출시 단계의 중점 영역 활동에 대한 지침은 이 섹션을 검토하세요.
+여기에 명시된 출시 단계의 중점 영역 활동에 대한 지침은 이 섹션을 검토하세요.
 
 ### 계획
 장기적인 성공과 지속적인 채택에 대한 롤아웃이 설정되어 있는지 확인합니다.
@@ -85,6 +79,7 @@ Intune 콘솔에 대해 경고 및 사용자 또는 장치 문제를 모니터�
     **완화:** 기술 지원 팀이 일반적인 문제를 빨리 해결할 수 있는 문제 해결 콘텐츠를 준비하도록 합니다.
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 
