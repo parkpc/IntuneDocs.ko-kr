@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Windows PC에 앱 추가 | Microsoft Intune
-description:
-keywords:
+title: "Windows PC에 앱 추가 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: bc8c8be9-7f4f-4891-9224-55fc40703f0b
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: owenyen
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 024ba0e2c63a42c121bd27302e8926bddac5566b
+ms.openlocfilehash: 7da75576bf5296da6fbf35fb3c35c5d0d45c511d
+
 
 ---
 
@@ -38,7 +32,8 @@ ms.suite: ems
 
 1.  [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에서 **앱** &gt; **앱 추가**를 선택하여 Intune 소프트웨어 게시자를 시작합니다.
 
-    > [!TIP] 게시자를 시작하기 전에 Intune 사용자 이름과 암호를 입력해야 할 수도 있습니다.
+    > [!TIP]
+    > 게시자를 시작하기 전에 Intune 사용자 이름과 암호를 입력해야 할 수도 있습니다.
 
 
 
@@ -94,6 +89,7 @@ ms.suite: ems
 
 앱을 만들면 다음 단계는 배포입니다. 자세한 내용은 [Microsoft Intune에서 앱 배포](deploy-apps.md)를 참조하세요.
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
