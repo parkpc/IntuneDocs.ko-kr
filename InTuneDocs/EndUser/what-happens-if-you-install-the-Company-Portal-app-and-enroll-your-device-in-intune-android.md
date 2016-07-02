@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요? | Microsoft Intune
-description:
-keywords:
+title: "Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요? | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: d22f5aea-7be4-419b-b51b-a522ca037b69
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: arnab
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
+ms.openlocfilehash: e2f5849a63dceabb42b910b50f0257bc823a251a
+
 
 ---
 
@@ -65,6 +59,7 @@ Android 장치를 등록할 경우 장치에 액세스할 수 있는 권한을 I
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

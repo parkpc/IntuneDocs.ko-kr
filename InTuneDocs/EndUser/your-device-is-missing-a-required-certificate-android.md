@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 장치에 필요한 인증서가 없습니다. | Microsoft Intune
-description:
-keywords:
+title: "장치에 필요한 인증서가 없습니다. | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 9081b1d8-50e8-4bc2-ba37-766421364213
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: arnab
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
+ms.openlocfilehash: 6e887d226228d073dc136b50ba9320ada996a6cd
+
 
 ---
 
@@ -51,6 +45,7 @@ Android 장치가 Intune에 등록되어 있지 않고 휴대폰에 보통 설�
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

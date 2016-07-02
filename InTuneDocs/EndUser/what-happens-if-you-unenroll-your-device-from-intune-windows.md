@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Intune에서 장치 등록을 취소하면 어떻게 되나요? | Microsoft Intune
-description:
-keywords:
+title: "Intune에서 장치 등록을 취소하면 어떻게 되나요? | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 47e03edb-0c57-4e25-8e89-4a1069267b8c
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: priyar
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 1244d931d1bd3db012fbcfe0bd055d1fd4f2d88a
+ms.openlocfilehash: f0108b884439aac9661c9f36f85b47d80209d155
+
 
 ---
 
@@ -43,7 +37,8 @@ ms.suite: ems
 
 -   Intune Endpoint Protection 소프트웨어가 컴퓨터에서 제거됩니다. 컴퓨터에 다른 바이러스 방지 소프트웨어가 설치되어 있지만 사용되지 않도록 설정된 경우, Intune Endpoint Protection을 제거하면 이 응용 프로그램이 다시 사용되도록 설정될 수 있습니다. 회사 포털에서 컴퓨터를 제거한 후 해당 컴퓨터를 확인해야 합니다.
 
-    > [!IMPORTANT] 다른 바이러스 방지 소프트웨어가 다시 사용하도록 설정되지 않거나 설치되지 않은 경우 컴퓨터는 바이러스 및 맬웨어 공격에 취약해질 수 있습니다.
+    > [!IMPORTANT]
+    > ´Ù¸¥ ¹ÙÀÌ·¯½º ¹æÁö ¼ÒÇÁÆ®¿þ¾î°¡ ´Ù½Ã »ç¿ëµÇµµ·Ï ¼³Á¤µÇÁö ¾Ê°Å³ª ´Ù¸¥ ¹ÙÀÌ·¯½º ¹æÁö ¼ÒÇÁÆ®¿þ¾î°¡ ¼³Ä¡µÇ¾î ÀÖÁö ¾ÊÀº °æ¿ì ÄÄÇ»ÅÍ´Â ¹ÙÀÌ·¯½º ¹× ¸È¿þ¾î °ø°Ý¿¡ Ãë¾àÇØÁú ¼ö ÀÖ½À´Ï´Ù.
 
 -   장치를 추가할 때 장치에서 변경된 모든 설정(예: 카메라 사용 안 함)이 더 이상 적용되지 않습니다.
 
@@ -97,6 +92,7 @@ Windows RT ÀåÄ¡¸¦ Á¦°ÅÇÏ¸é ´ÙÀ½°ú °°Àº »óÈ²ÀÌ ¹ß
 ### 참고 항목
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
