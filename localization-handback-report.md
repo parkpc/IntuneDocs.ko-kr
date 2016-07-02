@@ -1,26 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [InTuneDocs\includes\accessibility13_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility13_md.md) | InSyncHandedBackSuccess | [Details](#dc9a83c3b47b21b3a38bfa737ad97aa992eb11a6562)
 
 ## Item Details
-##### <a name='dc9a83c3b47b21b3a38bfa737ad97aa992eb11a6562'></a> Source: [InTuneDocs\includes\accessibility13_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility13_md.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\accessibility13_md.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/32c4f33a236b3d80451be54e6a24b5af66a85fec/InTuneDocs/includes/accessibility13_md.md)
-* Handoff File: [accessibility13_md.025e9b83f13876a5f0164107f593dfa8f171c7c1.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ad350bfc44149c7f3734c5278a170db4f7875ccb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility13_md.025e9b83f13876a5f0164107f593dfa8f171c7c1.ja-jp.xlf)
-* Handoff Datetime: 2016-06-27 11:07:38
-* Handoff Reason: Include
-* Archive File: [accessibility13_md.025e9b83f13876a5f0164107f593dfa8f171c7c1.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e1f263cfef16260636626d8d3838abc25d232a5e/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/accessibility13_md.025e9b83f13876a5f0164107f593dfa8f171c7c1.ja-jp.xlf)
-* Archive Datetime: 2016-07-02 01:15:58
-* Handback File: [accessibility13_md.025e9b83f13876a5f0164107f593dfa8f171c7c1.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/8efcf9c09aa2b74cd185d587fd7966b33d4e172f/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/accessibility13_md.025e9b83f13876a5f0164107f593dfa8f171c7c1.ja-jp.xlf)
-* Handback Datetime: 2016-07-02 14:18:28
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
