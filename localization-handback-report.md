@@ -1,11 +1,39 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [InTuneDocs\EndUser\send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0bb435b87c937ea118a0794c8332b9a8f268d36e/InTuneDocs/EndUser/send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md) | InSyncHandedBackSuccess | [Details](#57646f103fb0520295729a89a30692c657896e55427)
+ [InTuneDocs\includes\wps_2.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/wps_2.md) | InSyncHandedBackSuccess | [Details](#e9096a16bdd11b30f840ceba6f1cb16bd4cf25e8652)
 
 ## Item Details
+##### <a name='57646f103fb0520295729a89a30692c657896e55427'></a> Source: [InTuneDocs\EndUser\send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0bb435b87c937ea118a0794c8332b9a8f268d36e/InTuneDocs/EndUser/send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\EndUser\send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c6bddc450751ec8873165f9aafc063e3825ff47b/InTuneDocs/EndUser/send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md)
+* Handoff File: [send-diagnostic-data-logs-to-your-it-administrator-using-email-android.facd80080a29c81748b351e04fd01c9c263644f8.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ad350bfc44149c7f3734c5278a170db4f7875ccb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/send-diagnostic-data-logs-to-your-it-administrator-using-email-android.facd80080a29c81748b351e04fd01c9c263644f8.ja-jp.xlf)
+* Handoff Datetime: 2016-06-27 11:07:38
+* Handoff Reason: Include
+* Archive File: [send-diagnostic-data-logs-to-your-it-administrator-using-email-android.facd80080a29c81748b351e04fd01c9c263644f8.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e1f263cfef16260636626d8d3838abc25d232a5e/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/send-diagnostic-data-logs-to-your-it-administrator-using-email-android.facd80080a29c81748b351e04fd01c9c263644f8.ja-jp.xlf)
+* Archive Datetime: 2016-07-02 01:15:58
+* Handback File: [send-diagnostic-data-logs-to-your-it-administrator-using-email-android.facd80080a29c81748b351e04fd01c9c263644f8.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/c7a413f2fc3d436e622367efeb1f69d7d0971000/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/send-diagnostic-data-logs-to-your-it-administrator-using-email-android.facd80080a29c81748b351e04fd01c9c263644f8.ja-jp.xlf)
+* Handback Datetime: 2016-07-04 07:44:57
+* [Back to Top](#report-top)
+
+##### <a name='e9096a16bdd11b30f840ceba6f1cb16bd4cf25e8652'></a> Source: [InTuneDocs\includes\wps_2.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/wps_2.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\includes\wps_2.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/c6bddc450751ec8873165f9aafc063e3825ff47b/InTuneDocs/includes/wps_2.md)
+* Handoff File: [wps_2.6979ec64567d37b48d8ee5dd3d4b8823a31080d6.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ad350bfc44149c7f3734c5278a170db4f7875ccb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/wps_2.6979ec64567d37b48d8ee5dd3d4b8823a31080d6.ja-jp.xlf)
+* Handoff Datetime: 2016-06-27 11:07:38
+* Handoff Reason: Include
+* Archive File: [wps_2.6979ec64567d37b48d8ee5dd3d4b8823a31080d6.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e1f263cfef16260636626d8d3838abc25d232a5e/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/wps_2.6979ec64567d37b48d8ee5dd3d4b8823a31080d6.ja-jp.xlf)
+* Archive Datetime: 2016-07-02 01:15:58
+* Handback File: [wps_2.6979ec64567d37b48d8ee5dd3d4b8823a31080d6.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/c7a413f2fc3d436e622367efeb1f69d7d0971000/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/wps_2.6979ec64567d37b48d8ee5dd3d4b8823a31080d6.ja-jp.xlf)
+* Handback Datetime: 2016-07-04 07:44:57
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
