@@ -1,11 +1,39 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [InTuneDocs\EndUser\enroll-your-device-in-intune-mac-os-x.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/enroll-your-device-in-intune-mac-os-x.md) | InSyncHandedBackSuccess | [Details](#b85d2ac62ca313f0740c68ff6d85918ff7bcd55a293)
+ [InTuneDocs\Understand\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5cd5425af051a5221518c603ef2bc99797f950ad/InTuneDocs/Understand/TOC.md) | InSyncHandedBackSuccess | [Details](#8e24b2f0d978fe59c1fab350230026c58171fa2b1254)
 
 ## Item Details
+##### <a name='b85d2ac62ca313f0740c68ff6d85918ff7bcd55a293'></a> Source: [InTuneDocs\EndUser\enroll-your-device-in-intune-mac-os-x.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/enroll-your-device-in-intune-mac-os-x.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\EndUser\enroll-your-device-in-intune-mac-os-x.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/b7d9be4440b6707036353ba2bf30ec3800d7d714/InTuneDocs/EndUser/enroll-your-device-in-intune-mac-os-x.md)
+* Handoff File: [enroll-your-device-in-intune-mac-os-x.4f13bd894e063db711302a6090fb7a631d192418.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/d93ebcde64baa64bada07fc3dd2e69de2f24e4a7/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/enroll-your-device-in-intune-mac-os-x.4f13bd894e063db711302a6090fb7a631d192418.ko-kr.xlf)
+* Handoff Datetime: 2016-06-27 11:14:36
+* Handoff Reason: Include
+* Archive File: [enroll-your-device-in-intune-mac-os-x.4f13bd894e063db711302a6090fb7a631d192418.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/4f451ac2cb98bdd689884ddb801f57e4aa7b9fac/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/enroll-your-device-in-intune-mac-os-x.4f13bd894e063db711302a6090fb7a631d192418.ko-kr.xlf)
+* Archive Datetime: 2016-07-02 01:19:20
+* Handback File: [enroll-your-device-in-intune-mac-os-x.4f13bd894e063db711302a6090fb7a631d192418.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/4b6b9e8956810bb6ae655c6bcd32c369f12cc2f3/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/enroll-your-device-in-intune-mac-os-x.4f13bd894e063db711302a6090fb7a631d192418.ko-kr.xlf)
+* Handback Datetime: 2016-07-04 07:45:54
+* [Back to Top](#report-top)
+
+##### <a name='8e24b2f0d978fe59c1fab350230026c58171fa2b1254'></a> Source: [InTuneDocs\Understand\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5cd5425af051a5221518c603ef2bc99797f950ad/InTuneDocs/Understand/TOC.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\Understand\TOC.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/b7d9be4440b6707036353ba2bf30ec3800d7d714/InTuneDocs/Understand/TOC.md)
+* Handoff File: [TOC.25973e7413a716a995daf5d2adc1c6c01a873f3f.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/fabe0efcc4c6b5f7cc780ff3d23f0fe48fed9d93/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/TOC.25973e7413a716a995daf5d2adc1c6c01a873f3f.ko-kr.xlf)
+* Handoff Datetime: 2016-06-20 18:59:34
+* Handoff Reason: Include
+* Archive File: [TOC.25973e7413a716a995daf5d2adc1c6c01a873f3f.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/4f451ac2cb98bdd689884ddb801f57e4aa7b9fac/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/TOC.25973e7413a716a995daf5d2adc1c6c01a873f3f.ko-kr.xlf)
+* Archive Datetime: 2016-07-02 01:19:20
+* Handback File: [TOC.25973e7413a716a995daf5d2adc1c6c01a873f3f.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/4b6b9e8956810bb6ae655c6bcd32c369f12cc2f3/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/TOC.25973e7413a716a995daf5d2adc1c6c01a873f3f.ko-kr.xlf)
+* Handback Datetime: 2016-07-04 07:45:54
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
