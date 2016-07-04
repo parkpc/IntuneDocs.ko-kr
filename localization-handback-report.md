@@ -1,39 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [InTuneDocs\EndUser\unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md) | InSyncHandedBackSuccess | [Details](#abcb7dbe4f3423fcba108a7ea0c4b2efa295c970442)
- [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e8f9d974947835d5ec5a356bea6b4261960277ef/InTuneDocs/index.md) | InSyncHandedBackSuccess | [Details](#b6e3e5189a1567dd5b13017d275ff4bd548e5fa1654)
 
 ## Item Details
-##### <a name='abcb7dbe4f3423fcba108a7ea0c4b2efa295c970442'></a> Source: [InTuneDocs\EndUser\unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/dd67a8879c0c91f9315aed60b0b086a44177266f/InTuneDocs/EndUser/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
-* Handoff File: [unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/d93ebcde64baa64bada07fc3dd2e69de2f24e4a7/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf)
-* Handoff Datetime: 2016-06-27 11:14:36
-* Handoff Reason: Include
-* Archive File: [unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/4f451ac2cb98bdd689884ddb801f57e4aa7b9fac/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf)
-* Archive Datetime: 2016-07-02 01:19:20
-* Handback File: [unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/89bdc340abdd9bd47a398508650864b1234fab85/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ko-kr.xlf)
-* Handback Datetime: 2016-07-04 08:48:33
-* [Back to Top](#report-top)
-
-##### <a name='b6e3e5189a1567dd5b13017d275ff4bd548e5fa1654'></a> Source: [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e8f9d974947835d5ec5a356bea6b4261960277ef/InTuneDocs/index.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/dd67a8879c0c91f9315aed60b0b086a44177266f/InTuneDocs/index.md)
-* Handoff File: [index.404579aeff405d27d9820f60e5e015fb7352d33a.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/d93ebcde64baa64bada07fc3dd2e69de2f24e4a7/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/index.404579aeff405d27d9820f60e5e015fb7352d33a.ko-kr.xlf)
-* Handoff Datetime: 2016-06-27 11:14:36
-* Handoff Reason: Include
-* Archive File: [index.404579aeff405d27d9820f60e5e015fb7352d33a.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/4f451ac2cb98bdd689884ddb801f57e4aa7b9fac/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/index.404579aeff405d27d9820f60e5e015fb7352d33a.ko-kr.xlf)
-* Archive Datetime: 2016-07-02 01:19:20
-* Handback File: [index.404579aeff405d27d9820f60e5e015fb7352d33a.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/89bdc340abdd9bd47a398508650864b1234fab85/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/index.404579aeff405d27d9820f60e5e015fb7352d33a.ko-kr.xlf)
-* Handback Datetime: 2016-07-04 08:48:33
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
