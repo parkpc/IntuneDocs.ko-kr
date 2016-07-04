@@ -19,9 +19,9 @@
 <!-- # [Plan and Design](/intune/plan-design/ways-to-do-enterprise-mobility) -->
 # [배포 및 사용](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
 # [앱 개발 및 사용자 지정](/intune/develop/intune-app-sdk)
-# [문제 해결](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
+# [문제 해결](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO3-->
 
 
