@@ -880,9 +880,6 @@
   "3632964cc8b6ff303cd4f2f83a7df871bebdb1e2": [
     "InTuneDocs\\EndUser\\media\\iwp-1-tap-reset-passcode.png"
   ],
-  "adee1773d15d6a2f4bded3c47c1462dbec904e6d": [
-    "InTuneDocs\\EndUser\\media\\iwp-1-tap-reset-passcode.png"
-  ],
   "99f6577885256f450a034a7ca9bece4511e3c753": [
     "InTuneDocs\\EndUser\\media\\iwp-2-sign-out.png"
   ],
@@ -2178,9 +2175,6 @@
     "InTuneDocs\\DeployUse\\media\\app-lifecycle.png"
   ],
   "b0c8f6406b62e93d7452847c928898ea15dcd928": [
-    "InTuneDocs\\DeployUse\\media\\device-lifecycle.png"
-  ],
-  "2dbdf59f110ba01706fc5bea4a35dad3523c1587": [
     "InTuneDocs\\DeployUse\\media\\device-lifecycle.png"
   ],
   "5b3551ac48c41f27c2f2e59467a03eb527bffb46": [
