@@ -1,41 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [InTuneDocs\media\mam-azure-portal-add-lob-app-action.png](https://github.com/Microsoft/IntuneDocs-pr/blob/4b8d9f3034bf96ee6854524d12409ac1c6eaaa67/InTuneDocs/media/mam-azure-portal-add-lob-app-action.png) | InSyncHandedBackSuccess | [Details](#5513455b163d840375c2808ca7f51e5a8d7e77e9953)
- [InTuneDocs\media\mam-azure-portal-app-reporting-select-user.png](https://github.com/Microsoft/IntuneDocs-pr/blob/e1595e5365146d0285abd24156b43869da8fba28/InTuneDocs/media/mam-azure-portal-app-reporting-select-user.png) | InSyncHandedBackSuccess | [Details](#5522836a146b306aa18c04ef52fac97e2f41c4c7956)
 
 ## Item Details
-##### <a name='5513455b163d840375c2808ca7f51e5a8d7e77e9953'></a> Source: [InTuneDocs\media\mam-azure-portal-add-lob-app-action.png](https://github.com/Microsoft/IntuneDocs-pr/blob/4b8d9f3034bf96ee6854524d12409ac1c6eaaa67/InTuneDocs/media/mam-azure-portal-add-lob-app-action.png)
-* Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\media\mam-azure-portal-add-lob-app-action.png](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/4746321397ad3b9c0111ec70a9a65816b47adb20/InTuneDocs/media/mam-azure-portal-add-lob-app-action.png)
-* Handoff File: [5513455b163d840375c2808ca7f51e5a8d7e77e9.png](https://github.com/Microsoft/EM.handoff/blob/d64047c8fee0fb32e4d2d6fb7d44c6fb6917c4a6/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/5513455b163d840375c2808ca7f51e5a8d7e77e9.png)
-* Handoff Datetime: 2016-05-18 02:20:13
-* Handoff Reason: IsDependency
-* Dependency From: InTuneDocs\DeployUse\protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [5513455b163d840375c2808ca7f51e5a8d7e77e9.png](https://github.com/Microsoft/EM.handback/blob/f4cefdf923f35522f76d4708b248865cd229ca19/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/5513455b163d840375c2808ca7f51e5a8d7e77e9.png)
-* Handback Datetime: 2016-07-05 03:55:31
-* [Back to Top](#report-top)
-
-##### <a name='5522836a146b306aa18c04ef52fac97e2f41c4c7956'></a> Source: [InTuneDocs\media\mam-azure-portal-app-reporting-select-user.png](https://github.com/Microsoft/IntuneDocs-pr/blob/e1595e5365146d0285abd24156b43869da8fba28/InTuneDocs/media/mam-azure-portal-app-reporting-select-user.png)
-* Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\media\mam-azure-portal-app-reporting-select-user.png](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/4746321397ad3b9c0111ec70a9a65816b47adb20/InTuneDocs/media/mam-azure-portal-app-reporting-select-user.png)
-* Handoff File: [5522836a146b306aa18c04ef52fac97e2f41c4c7.png](https://github.com/Microsoft/EM.handoff/blob/3e1abec5328a9bbf86dfb3e67bab224250cdca69/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/5522836a146b306aa18c04ef52fac97e2f41c4c7.png)
-* Handoff Datetime: 2016-07-01 18:38:43
-* Handoff Reason: IsDependency
-* Dependency From: InTuneDocs\DeployUse\monitor-mobile-app-management-policies-with-microsoft-intune.md
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [5522836a146b306aa18c04ef52fac97e2f41c4c7.png](https://github.com/Microsoft/EM.handback/blob/f4cefdf923f35522f76d4708b248865cd229ca19/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/5522836a146b306aa18c04ef52fac97e2f41c4c7.png)
-* Handback Datetime: 2016-07-05 03:55:31
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
