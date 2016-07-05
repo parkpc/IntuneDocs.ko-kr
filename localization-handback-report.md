@@ -1,63 +1,76 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 4
+ Total Files | 5
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [InTuneDocs\EndUser\device-doesnt-have-the-required-minimum-operating-system-version-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0bb435b87c937ea118a0794c8332b9a8f268d36e/InTuneDocs/EndUser/device-doesnt-have-the-required-minimum-operating-system-version-android.md) | InSyncHandedBackSuccess | [Details](#620078cdd6a6d918153ab5a9813a14406c11acb4284)
- [InTuneDocs\EndUser\existing-company-email-account-found.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/existing-company-email-account-found.md) | InSyncHandedBackSuccess | [Details](#02a07a6017ed2bb569dd9d3756f84b7b8078f630301)
- [InTuneDocs\EndUser\unenroll-your-device-from-intune-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-ios.md) | InSyncHandedBackSuccess | [Details](#4dbb4d5d7151a6a579e00c2c4034a811f2357774443)
- [InTuneDocs\EndUser\Wait-while-your-device-is-being-evaluated.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/Wait-while-your-device-is-being-evaluated.md) | InSyncHandedBackSuccess | [Details](#90891c2d0e5e8ae75e888dc4c26a056493bf594c452)
+ [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-ios.md) | InSyncHandedBackSuccess | [Details](#7c6e3e0f008f084a63288eec66f7161a1edb9ffe422)
+ [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-windows.md) | InSyncHandedBackSuccess | [Details](#2b2790826e46e6af43f3bdeeede6dc834845a83b423)
+ [InTuneDocs\EndUser\unenroll-your-device-from-intune-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-android.md) | InSyncHandedBackSuccess | [Details](#db9755013320f11bd58fa94275274ad6ba2b5e9a441)
+ [InTuneDocs\EndUser\unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md) | InSyncHandedBackSuccess | [Details](#abcb7dbe4f3423fcba108a7ea0c4b2efa295c970442)
+ [InTuneDocs\EndUser\using-the-intune-company-portal-website.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/using-the-intune-company-portal-website.md) | InSyncHandedBackSuccess | [Details](#79e8d7da83997dc9c89b95097ca50493af1f9f6b448)
 
 ## Item Details
-##### <a name='620078cdd6a6d918153ab5a9813a14406c11acb4284'></a> Source: [InTuneDocs\EndUser\device-doesnt-have-the-required-minimum-operating-system-version-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0bb435b87c937ea118a0794c8332b9a8f268d36e/InTuneDocs/EndUser/device-doesnt-have-the-required-minimum-operating-system-version-android.md)
+##### <a name='7c6e3e0f008f084a63288eec66f7161a1edb9ffe422'></a> Source: [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-ios.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\device-doesnt-have-the-required-minimum-operating-system-version-android.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/6f38d7db1d2283d9399b9342633564cd2a69dc34/InTuneDocs/EndUser/device-doesnt-have-the-required-minimum-operating-system-version-android.md)
-* Handoff File: [device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ad350bfc44149c7f3734c5278a170db4f7875ccb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ja-jp.xlf)
+* Target File: [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-ios.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/b0b4c4608cb6f59a16b5fb7bb828fa98340fdbe3/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-ios.md)
+* Handoff File: [reset-erase-your-lost-or-stolen-device-ios.83a7d457b3370aeeea969000242a32db70152754.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ad350bfc44149c7f3734c5278a170db4f7875ccb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/reset-erase-your-lost-or-stolen-device-ios.83a7d457b3370aeeea969000242a32db70152754.ja-jp.xlf)
 * Handoff Datetime: 2016-06-27 11:07:38
 * Handoff Reason: Include
-* Archive File: [device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e1f263cfef16260636626d8d3838abc25d232a5e/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ja-jp.xlf)
+* Archive File: [reset-erase-your-lost-or-stolen-device-ios.83a7d457b3370aeeea969000242a32db70152754.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e1f263cfef16260636626d8d3838abc25d232a5e/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/reset-erase-your-lost-or-stolen-device-ios.83a7d457b3370aeeea969000242a32db70152754.ja-jp.xlf)
 * Archive Datetime: 2016-07-02 01:15:58
-* Handback File: [device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/a729a85200309e2d839b3288a4c7bc40924c5365/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ja-jp.xlf)
-* Handback Datetime: 2016-07-05 00:27:01
+* Handback File: [reset-erase-your-lost-or-stolen-device-ios.83a7d457b3370aeeea969000242a32db70152754.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/61f9748b7e6faada9f35f354db3a4e4f66d3da05/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/reset-erase-your-lost-or-stolen-device-ios.83a7d457b3370aeeea969000242a32db70152754.ja-jp.xlf)
+* Handback Datetime: 2016-07-05 00:39:11
 * [Back to Top](#report-top)
 
-##### <a name='02a07a6017ed2bb569dd9d3756f84b7b8078f630301'></a> Source: [InTuneDocs\EndUser\existing-company-email-account-found.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/existing-company-email-account-found.md)
+##### <a name='2b2790826e46e6af43f3bdeeede6dc834845a83b423'></a> Source: [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-windows.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\existing-company-email-account-found.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/6f38d7db1d2283d9399b9342633564cd2a69dc34/InTuneDocs/EndUser/existing-company-email-account-found.md)
-* Handoff File: [existing-company-email-account-found.bf9b7520c48b0092dfc2f2e0ba99222431650aaa.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ad350bfc44149c7f3734c5278a170db4f7875ccb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/existing-company-email-account-found.bf9b7520c48b0092dfc2f2e0ba99222431650aaa.ja-jp.xlf)
+* Target File: [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-windows.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/b0b4c4608cb6f59a16b5fb7bb828fa98340fdbe3/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-windows.md)
+* Handoff File: [reset-erase-your-lost-or-stolen-device-windows.0ffe9f7bae1ed753bb08ade370c0d9276c4b3006.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ad350bfc44149c7f3734c5278a170db4f7875ccb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/reset-erase-your-lost-or-stolen-device-windows.0ffe9f7bae1ed753bb08ade370c0d9276c4b3006.ja-jp.xlf)
 * Handoff Datetime: 2016-06-27 11:07:38
 * Handoff Reason: Include
-* Archive File: [existing-company-email-account-found.bf9b7520c48b0092dfc2f2e0ba99222431650aaa.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e1f263cfef16260636626d8d3838abc25d232a5e/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/existing-company-email-account-found.bf9b7520c48b0092dfc2f2e0ba99222431650aaa.ja-jp.xlf)
+* Archive File: [reset-erase-your-lost-or-stolen-device-windows.0ffe9f7bae1ed753bb08ade370c0d9276c4b3006.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e1f263cfef16260636626d8d3838abc25d232a5e/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/reset-erase-your-lost-or-stolen-device-windows.0ffe9f7bae1ed753bb08ade370c0d9276c4b3006.ja-jp.xlf)
 * Archive Datetime: 2016-07-02 01:15:58
-* Handback File: [existing-company-email-account-found.bf9b7520c48b0092dfc2f2e0ba99222431650aaa.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/a729a85200309e2d839b3288a4c7bc40924c5365/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/existing-company-email-account-found.bf9b7520c48b0092dfc2f2e0ba99222431650aaa.ja-jp.xlf)
-* Handback Datetime: 2016-07-05 00:27:01
+* Handback File: [reset-erase-your-lost-or-stolen-device-windows.0ffe9f7bae1ed753bb08ade370c0d9276c4b3006.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/61f9748b7e6faada9f35f354db3a4e4f66d3da05/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/reset-erase-your-lost-or-stolen-device-windows.0ffe9f7bae1ed753bb08ade370c0d9276c4b3006.ja-jp.xlf)
+* Handback Datetime: 2016-07-05 00:39:11
 * [Back to Top](#report-top)
 
-##### <a name='4dbb4d5d7151a6a579e00c2c4034a811f2357774443'></a> Source: [InTuneDocs\EndUser\unenroll-your-device-from-intune-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-ios.md)
+##### <a name='db9755013320f11bd58fa94275274ad6ba2b5e9a441'></a> Source: [InTuneDocs\EndUser\unenroll-your-device-from-intune-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-android.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\unenroll-your-device-from-intune-ios.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/6f38d7db1d2283d9399b9342633564cd2a69dc34/InTuneDocs/EndUser/unenroll-your-device-from-intune-ios.md)
-* Handoff File: [unenroll-your-device-from-intune-ios.975627e3759c6257de952c908bd51d5d9452b36e.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ad350bfc44149c7f3734c5278a170db4f7875ccb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/unenroll-your-device-from-intune-ios.975627e3759c6257de952c908bd51d5d9452b36e.ja-jp.xlf)
+* Target File: [InTuneDocs\EndUser\unenroll-your-device-from-intune-android.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/b0b4c4608cb6f59a16b5fb7bb828fa98340fdbe3/InTuneDocs/EndUser/unenroll-your-device-from-intune-android.md)
+* Handoff File: [unenroll-your-device-from-intune-android.d3191455ef0df8021e56a45e1d0c38fbcc8939d7.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ad350bfc44149c7f3734c5278a170db4f7875ccb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/unenroll-your-device-from-intune-android.d3191455ef0df8021e56a45e1d0c38fbcc8939d7.ja-jp.xlf)
 * Handoff Datetime: 2016-06-27 11:07:38
 * Handoff Reason: Include
-* Archive File: [unenroll-your-device-from-intune-ios.975627e3759c6257de952c908bd51d5d9452b36e.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e1f263cfef16260636626d8d3838abc25d232a5e/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/unenroll-your-device-from-intune-ios.975627e3759c6257de952c908bd51d5d9452b36e.ja-jp.xlf)
+* Archive File: [unenroll-your-device-from-intune-android.d3191455ef0df8021e56a45e1d0c38fbcc8939d7.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e1f263cfef16260636626d8d3838abc25d232a5e/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/unenroll-your-device-from-intune-android.d3191455ef0df8021e56a45e1d0c38fbcc8939d7.ja-jp.xlf)
 * Archive Datetime: 2016-07-02 01:15:58
-* Handback File: [unenroll-your-device-from-intune-ios.975627e3759c6257de952c908bd51d5d9452b36e.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/a729a85200309e2d839b3288a4c7bc40924c5365/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/unenroll-your-device-from-intune-ios.975627e3759c6257de952c908bd51d5d9452b36e.ja-jp.xlf)
-* Handback Datetime: 2016-07-05 00:27:01
+* Handback File: [unenroll-your-device-from-intune-android.d3191455ef0df8021e56a45e1d0c38fbcc8939d7.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/61f9748b7e6faada9f35f354db3a4e4f66d3da05/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/unenroll-your-device-from-intune-android.d3191455ef0df8021e56a45e1d0c38fbcc8939d7.ja-jp.xlf)
+* Handback Datetime: 2016-07-05 00:39:11
 * [Back to Top](#report-top)
 
-##### <a name='90891c2d0e5e8ae75e888dc4c26a056493bf594c452'></a> Source: [InTuneDocs\EndUser\Wait-while-your-device-is-being-evaluated.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/Wait-while-your-device-is-being-evaluated.md)
+##### <a name='abcb7dbe4f3423fcba108a7ea0c4b2efa295c970442'></a> Source: [InTuneDocs\EndUser\unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\Wait-while-your-device-is-being-evaluated.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/6f38d7db1d2283d9399b9342633564cd2a69dc34/InTuneDocs/EndUser/Wait-while-your-device-is-being-evaluated.md)
-* Handoff File: [Wait-while-your-device-is-being-evaluated.256931439606b64cb6e17b86442feff2d3be301d.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ad350bfc44149c7f3734c5278a170db4f7875ccb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/Wait-while-your-device-is-being-evaluated.256931439606b64cb6e17b86442feff2d3be301d.ja-jp.xlf)
+* Target File: [InTuneDocs\EndUser\unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/b0b4c4608cb6f59a16b5fb7bb828fa98340fdbe3/InTuneDocs/EndUser/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
+* Handoff File: [unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ad350bfc44149c7f3734c5278a170db4f7875ccb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ja-jp.xlf)
 * Handoff Datetime: 2016-06-27 11:07:38
 * Handoff Reason: Include
-* Archive File: [Wait-while-your-device-is-being-evaluated.256931439606b64cb6e17b86442feff2d3be301d.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e1f263cfef16260636626d8d3838abc25d232a5e/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/Wait-while-your-device-is-being-evaluated.256931439606b64cb6e17b86442feff2d3be301d.ja-jp.xlf)
+* Archive File: [unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e1f263cfef16260636626d8d3838abc25d232a5e/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ja-jp.xlf)
 * Archive Datetime: 2016-07-02 01:15:58
-* Handback File: [Wait-while-your-device-is-being-evaluated.256931439606b64cb6e17b86442feff2d3be301d.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/a729a85200309e2d839b3288a4c7bc40924c5365/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/Wait-while-your-device-is-being-evaluated.256931439606b64cb6e17b86442feff2d3be301d.ja-jp.xlf)
-* Handback Datetime: 2016-07-05 00:27:01
+* Handback File: [unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/61f9748b7e6faada9f35f354db3a4e4f66d3da05/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.3919b7cb3f0af7568dcebc39c1bf582000a1d5d1.ja-jp.xlf)
+* Handback Datetime: 2016-07-05 00:39:11
+* [Back to Top](#report-top)
+
+##### <a name='79e8d7da83997dc9c89b95097ca50493af1f9f6b448'></a> Source: [InTuneDocs\EndUser\using-the-intune-company-portal-website.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/using-the-intune-company-portal-website.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\EndUser\using-the-intune-company-portal-website.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/b0b4c4608cb6f59a16b5fb7bb828fa98340fdbe3/InTuneDocs/EndUser/using-the-intune-company-portal-website.md)
+* Handoff File: [using-the-intune-company-portal-website.b45d670e30421325a9f360ba3073969a2d6dfff8.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ad350bfc44149c7f3734c5278a170db4f7875ccb/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/using-the-intune-company-portal-website.b45d670e30421325a9f360ba3073969a2d6dfff8.ja-jp.xlf)
+* Handoff Datetime: 2016-06-27 11:07:38
+* Handoff Reason: Include
+* Archive File: [using-the-intune-company-portal-website.b45d670e30421325a9f360ba3073969a2d6dfff8.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/e1f263cfef16260636626d8d3838abc25d232a5e/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/archive/using-the-intune-company-portal-website.b45d670e30421325a9f360ba3073969a2d6dfff8.ja-jp.xlf)
+* Archive Datetime: 2016-07-02 01:15:58
+* Handback File: [using-the-intune-company-portal-website.b45d670e30421325a9f360ba3073969a2d6dfff8.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/61f9748b7e6faada9f35f354db3a4e4f66d3da05/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/using-the-intune-company-portal-website.b45d670e30421325a9f360ba3073969a2d6dfff8.ja-jp.xlf)
+* Handback Datetime: 2016-07-05 00:39:11
 * [Back to Top](#report-top)
 
 
