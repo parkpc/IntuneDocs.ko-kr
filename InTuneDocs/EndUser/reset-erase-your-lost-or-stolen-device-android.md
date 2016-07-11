@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 분실하거나 도난당한 장치 재설정(지우기) | Microsoft Intune
-description:
-keywords:
+title: "분실하거나 도난당한 장치 재설정(지우기) | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 8bb47a5c-f66d-491b-b909-e6a8844f773a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: arnab
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
+ms.openlocfilehash: 63799f8242db4618ea7b71af9608e30b98a8a27a
+
 
 ---
 
@@ -32,7 +26,8 @@ Android 휴대폰을 분실하거나 도난당한 경우 회사 포털 앱 또�
 
 장치를 초기화할 때 발생하는 상황에 대한 자세한 내용은 [회사 포털을 사용하여 장치를 초기화하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)를 참조하세요.
 
-> [!WARNING] 장치를 초기화하면 개인 정보와 회사 또는 학교 정보가 장치에서 모두 제거됩니다.
+> [!WARNING] 
+> 장치를 초기화하면 개인 정보와 회사 또는 학교 정보가 장치에서 모두 제거됩니다.
 
 1.  브라우저에서 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 열고 회사 또는 학교 계정에 로그인합니다.
 
@@ -47,6 +42,7 @@ Android 휴대폰을 분실하거나 도난당한 경우 회사 포털 앱 또�
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

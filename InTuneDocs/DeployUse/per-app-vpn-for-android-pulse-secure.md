@@ -1,27 +1,18 @@
 ---
-# required metadata
-
-title: Pulse Secure를 사용한 Android용 앱별 VPN | Microsoft Intune
-description:
-keywords:
+title: "Pulse Secure를 사용한 Android용 앱별 VPN | Microsoft Intune"
+description: 
+keywords: 
 author: nbigman
 manager: jeffgilb
 ms.date: 05/08/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
+ms.sourcegitcommit: 40e5602a4675bd92a85001827fb43426c41ed1e3
+ms.openlocfilehash: fc58e71a9b2279200dee2630aab7dbab727ea128
 
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-#ms.reviewer: chrisbal
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
 
 ---
 
@@ -35,7 +26,7 @@ Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만들 수 �
 2. **Android**를 확장하여 새 정책에 대한 템플릿을 선택한 후 **VPN 프로필(Android 4 이상)**을 선택합니다.
 
 3. 템플릿에서 **연결 형식**으로 **Pulse Secure**를 선택합니다.
-4. 완료하고 VPN 프로필을 저장합니다. VPN 프로필에 대한 자세한 내용은 [VPN 프로필](Help%20users%20connect%20to%20their%20work%20using%20VPN%20profiles%20with%20Microsoft%20Intune.md)을 참조하세요.
+4. 완료하고 VPN 프로필을 저장합니다. VPN 프로필에 대한 자세한 내용은 [VPN 연결](vpn-connections-in-microsoft-intune.md)을 참조하세요.
 
 > [!NOTE]
 다음 단계에서 사용할 수 있도록 VPN 프로필 이름을 기록해 두세요. 예를 들면 **MyAppVpnProfile**입니다.
@@ -82,6 +73,7 @@ Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만들 수 �
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

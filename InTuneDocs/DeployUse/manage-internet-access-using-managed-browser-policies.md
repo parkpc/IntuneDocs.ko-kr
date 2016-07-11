@@ -1,38 +1,30 @@
 ---
-# required metadata
-
-title: 관리 브라우저 정책을 사용하여 인터넷 액세스 관리 | Microsoft Intune
-description:
-keywords:
+title: "관리 브라우저 정책을 사용하여 인터넷 액세스 관리 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: dc946303-e09b-4d73-8bf4-87742299bc54
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 2df44199ecd904dcfb6774a942244338c1384186
+ms.openlocfilehash: c4462af584d54225084159dfa35f5e1d07c36397
+
 
 ---
 
 # Microsoft Intune에서 관리 브라우저 정책을 사용하여 인터넷 액세스 관리
 관리 브라우저는 Microsoft Intune을 사용하여 조직에서 배포할 수 있는 웹 브라우징 응용 프로그램입니다. 관리 브라우저 정책은 관리 브라우저의 사용자가 방문할 수 있는 웹 사이트를 제한하는 허용 목록 또는 차단 목록을 구성합니다.
 
-이 앱은 관리 앱이므로 잘라내기, 복사 및 붙여넣기 제어, 화면 캡처 방지, 사용자가 클릭하는 콘텐츠에 대한 링크를 다른 관리 앱에서만 열리게 하는 기능 등과 같은 모바일 응용 프로그램 관리 정책을 앱에 적용할 수 있습니다. 자세한 내용은 [Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 구성 및 배포](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)를 참조하세요..
+이 앱은 관리 앱이므로 잘라내기, 복사 및 붙여넣기 제어, 화면 캡처 방지, 사용자가 클릭하는 콘텐츠에 대한 링크를 다른 관리 앱에서만 열리게 하는 기능 등과 같은 모바일 응용 프로그램 관리 정책을 앱에 적용할 수 있습니다. 자세한 내용은 [Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 구성 및 배포](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)를 참조하세요.
 
 > [!IMPORTANT]
->사용자가 앱 스토어에서 Managed Browser를 설치하며 브라우저가 Intune에서 관리되지 않는 경우 다음 동작이 적용됩니다.
-iOS – Managed Browser 앱을 기본 웹 브라우저로 사용할 수 있지만 일부 기능이 제공되지 않으며 다른 Intune 관리 앱의 데이터에 액세스할 수 없습니다.
+>사용자가 앱 스토어에서 Managed Browser를 설치하며 브라우저가 Intune에서 관리되지 않는 경우 다음 동작이 적용됩니다. iOS – Managed Browser 앱을 기본 웹 브라우저로 사용할 수 있지만 일부 기능이 제공되지 않으며 다른 Intune 관리 앱의 데이터에 액세스할 수 없습니다.
 Android – Managed Browser 앱을 사용할 수 없습니다.
 사용자가 iOS 9보다 이전 버전이 있는 iOS 장치에 Managed Browser를 직접 설치하는 경우에는 만든 정책에 의해 관리되지 않습니다. 브라우저가 Intune을 통해 관리되게 하려면 앱을 관리 앱으로 배포하기 전에 제거해야 합니다. iOS 9 이상에서 사용자가 Managed Browser를 직접 설치하는 경우 정책에 의해 관리될 수 있도록 허용하라는 메시지가 표시됩니다.
 
@@ -42,11 +34,11 @@ Android – Managed Browser 앱을 사용할 수 없습니다.
 
 -   iOS 7.1 이상을 실행하는 장치
 
-Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)에서 웹 콘텐츠 열기를 지원합니다..
+Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)에서 웹 콘텐츠 열기를 지원합니다.
 
 ## 관리 브라우저 정책 만들기
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 클릭합니다..
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 클릭합니다.
 
 2.  다음 **소프트웨어** 정책 유형 중 하나를 구성합니다.
 
@@ -64,7 +56,7 @@ Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https
     |**설명**|관리 브라우저 정책의 개요에 대한 설명과 찾을 때 도움이 되는 기타 관련 정보를 제공합니다.|
     |**사용하도록 설정하면 허용 목록 또는 차단 목록을 사용하여 관리 브라우저에서 열 수 있는 URL을 제한할 수 있습니다.**|다음 옵션 중 하나를 선택합니다.<br /><br />**Managed Browser가 아래 나열된 URL만 열 수 있도록 허용** – Managed Browser에서 열 수 있는 URL 목록을 지정합니다.<br /><br />**Managed Browser가 아래에 나열된 URL을 열지 못하도록 차단** – Managed Browser에서 열 수 있는 URL 목록을 지정합니다. **참고:** 동일한 Managed Browser 정책에 허용 URL과 차단 URL을 함께 포함할 수 없습니다.<br />지정할 수 있는 URL에 대한 자세한 내용은 이 항목의 **허용 및 차단 URL에 대한 URL 형식**을 참조하세요.|
 
-4.  작업이 끝나면 **정책 저장**을 클릭합니다..
+4.  작업이 끝나면 **정책 저장**을 클릭합니다.
 
 새 정책이 **정책** 작업 영역의 **구성 정책** 노드에 표시됩니다.
 
@@ -76,7 +68,7 @@ Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https
 
 **모바일 앱 관리** 페이지에서 정책을 앱과 연결하기 위한 관리 브라우저 정책이 확실히 선택되도록 앱을 배포합니다.
 
-앱을 배포하는 방법에 대한 자세한 내용은 [Microsoft Intune에서 앱 배포](deploy-apps-in-microsoft-intune.md)를 참조하세요..
+앱을 배포하는 방법에 대한 자세한 내용은 [Microsoft Intune에서 앱 배포](deploy-apps-in-microsoft-intune.md)를 참조하세요.
 
 ## 관리 브라우저에 대한 보안 및 개인 정보
 
@@ -108,7 +100,7 @@ Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Brows
 
     -   https의 경우 포트 443
 
-    포트 번호에 대한 와일드 카드 사용은 지원되지 않습니다. 예: **http://www.contoso.com:*;** and **http://www.contoso.com: /*;**
+    포트 번호에 대한 와일드 카드 사용은 지원되지 않습니다. 예: **http&colon;//www&period;contoso&period;com:*;** 및 **http&colon;//www&period;contoso&period;com: /*;**
 
 -   다음 표를 사용하여 URL을 지정할 때 사용할 수 있는 패턴에 대해 알아볼 수 있습니다.
 
@@ -157,6 +149,7 @@ Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Brows
 -   장치가 관리 브라우저 정책을 이미 받았는데 두 번째 정책이 충돌하는 설정을 가지고 배포되는 경우 원래 설정은 해당 장치에 유지됩니다. **정책** 작업 영역의 **정책 충돌** 노드를 사용하여 충돌을 볼 수 있습니다.
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

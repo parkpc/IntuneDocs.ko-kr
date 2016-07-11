@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 앱 사용 중지 | Microsoft Intune
-description:
-keywords:
+title: "앱 사용 중지 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 6fbf0805-1144-4e08-bafd-4f181d932bf2
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
+ms.openlocfilehash: 4857e2ff34175ee6daa64e6f95a59faaaaa3b322
+
 
 ---
 
@@ -31,9 +25,9 @@ ms.suite: ems
 
 ## 앱 제거
 
-1.  [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에서 **앱** &gt; **앱**을 선택합니다..
+1.  [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에서 **앱** &gt; **앱**을 선택합니다.
 
-2.  이전에 배포했으며 제거하려는 앱을 선택하고 **배포 관리**를 선택합니다..
+2.  이전에 배포했으며 제거하려는 앱을 선택하고 **배포 관리**를 선택합니다.
 
 3.  **배포 작업** 페이지의 **승인** 열에서 **제거** 를 선택합니다.
 
@@ -43,6 +37,7 @@ ms.suite: ems
 [Microsoft Intune에서 앱 추가](add-apps.md)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

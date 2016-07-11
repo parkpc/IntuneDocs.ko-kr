@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Intune에서 Android 장치 사용 | Microsoft Intune
-description:
-keywords:
+title: "Intune에서 Android 장치 사용 | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 06/14/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: arnab
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 24573d04c319e359b810b6fdf607b44db19306e9
+ms.openlocfilehash: 4622897f5e32514ad80b5000732cf6835224160a
+
 
 ---
 
@@ -52,6 +46,7 @@ ms.suite: ems
 - [사용 약관을 거부한 경우 장치 등록 취소](unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
 - [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-android.md)
 - [회사 포털 앱을 사용하여 Android 장치를 초기화하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
+<!--- - [What is the Rights Management sharing app?](what-is-the-rms-sharing-app-android.md) --->
 
 ## 장치 문제 해결
 
@@ -65,10 +60,16 @@ ms.suite: ems
 - [장치가 최대 운영 체제 버전에 부합되지 않는 경우](device-doesnt-comply-with-maximum-operating-system-version-android.md)
 - [장치가 루팅되었으며 연결할 수 없는 경우](your-device-is-rooted-and-you-cant-connect-android.md)
 - [장치에 필요한 인증서가 없습니다.](your-device-is-missing-a-required-certificate-android.md)
+- [알 수 없는 소스를 해제하라는 메시지가 표시되는 경우](you-are-asked-to-turn-off-unknown-sources-android.md)
+- [USB 디버깅 옵션을 해제하라는 메시지가 표시되는 경우](you-are-asked-to-turn-off-usb-debugging-android.md)
+- [장치의 보안 위협 검색을 설정하라는 메시지가 표시되는 경우](you-are-asked-to-turn-on-scan-device-for-security-threats-android.md)
+- [장치가 최소 보안 패치를 충족하지 않는 경우](your-device-does-not-meet-the-minimum-security-patch-android.md)
 
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+
+<!--HONumber=Jun16_HO5-->
 
 

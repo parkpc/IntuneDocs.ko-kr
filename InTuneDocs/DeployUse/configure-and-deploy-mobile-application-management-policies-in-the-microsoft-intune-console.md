@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 구성 및 배포 | Microsoft Intune
-description:
-keywords:
+title: "Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 구성 및 배포 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: b4fb33a8-a2fa-4353-bd89-5bda48b68e83
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: joglocke
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
+ms.openlocfilehash: a140a2f634397440b35786e7afb3165dccc7d93e
+
 
 ---
 
@@ -34,7 +28,8 @@ Microsoft Intune의 모바일 응용 프로그램 관리 정책을 사용하여 
 
 -   iOS 7 이상을 실행하는 장치
 
-> [!TIP] 모바일 응용 프로그램 관리 정책에서는 Intune으로 등록된 장치를 지원합니다.
+> [!TIP]
+> 모바일 응용 프로그램 관리 정책에서는 Intune으로 등록된 장치를 지원합니다.
 >
 > Intune에서 관리되지 않는 장치의 앱 관리 정책을 만드는 방법에 대한 정보를 찾으려는 경우 [Protect app data using mobile app management policies with Microsoft Intune](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)(Microsoft Intune으로 모바일 앱 관리 정책을 사용하여 앱 데이터 보호) 항목을 참조하세요.
 
@@ -46,9 +41,9 @@ Microsoft Intune의 모바일 응용 프로그램 관리 정책을 사용하여 
 
 -   **'래핑된' 앱 사용** - **Microsoft Intune 앱 래핑 도구**를 사용하여 앱 SDK를 포함하도록 다시 패키지된 앱입니다. 이 도구는 일반적으로 사내에서 작성된 회사 앱을 처리하는 데 사용되며, 앱 스토어에서 다운로드한 앱을 처리하는 데 사용할 수는 없습니다. [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 iOS 앱 준비](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) 및 [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 Android 앱 준비](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) 항목을 참조하세요.
 
-- **Intune 앱 SDK를 통합하는 고유한 앱 작성** - Intune 앱 SDK를 사용하면 앱을 작성하는 동안 앱 관리 기능을 앱에 통합할 수 있습니다. 자세한 내용은 [Intune 앱 SDK 개요](/develop/intune-app-sdk)를 참조하세요.
+- **Intune 앱 SDK를 통합하는 고유한 앱 작성** - Intune 앱 SDK를 사용하면 앱을 작성하는 동안 앱 관리 기능을 앱에 통합할 수 있습니다. 자세한 내용은 [Intune 앱 SDK 개요](/intune/develop/intune-app-sdk)를 참조하세요.
 
-앱 래핑 도구와 Intune 앱 SDK 중에서 무엇을 선택할지에 대한 도움말은 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](/deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune)을 참조하세요.
+앱 래핑 도구와 Intune 앱 SDK 중에서 무엇을 선택할지에 대한 도움말은 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)을 참조하세요.
 
 iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 지원합니다. 즉, Intune은 회사 계정 또는 앱의 데이터에만 관리 설정을 적용합니다.
 
@@ -60,7 +55,8 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 �
 
 -   사용한 회사 계정은 Intune으로 장치를 등록하는 데 사용한 계정과 같아야 합니다.
 
-> [!TIP] 구성 관리자에서 Intune을 사용하는 경우 [Configuration Manager에서 모바일 응용 프로그램 관리 정책을 사용하여 앱을 제어하는 방법](https://technet.microsoft.com/library/mt131414.aspx) 항목을 참조하세요.
+> [!TIP]
+> 구성 관리자에서 Intune을 사용하는 경우 [Configuration Manager에서 모바일 응용 프로그램 관리 정책을 사용하여 앱을 제어하는 방법](https://technet.microsoft.com/library/mt131414.aspx) 항목을 참조하세요.
 
 ## 모바일 응용 프로그램 관리 정책을 사용하여 앱 만들기 및 배포
 
@@ -152,7 +148,8 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 �
 
 자세한 내용은 [Microsoft Intune에서 앱 배포](deploy-apps.md) 항목을 참조하세요.
 
-> [!IMPORTANT] iOS 7.1 이전 운영 체제를 실행하는 장치의 경우에는 앱을 제거해도 연결된 정책이 제거되지 않습니다.
+> [!IMPORTANT]
+> iOS 7.1 이전 운영 체제를 실행하는 장치의 경우에는 앱을 제거해도 연결된 정책이 제거되지 않습니다.
 >
 > Intune에서 장치 등록을 취소해도 정책은 앱에서 제거되지 않으며, 정책이 적용되었던 앱은 제거했다가 다시 설치해도 정책 설정이 그대로 유지됩니다.
 
@@ -163,7 +160,8 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 �
 
 그러나 iOS 9 이상을 실행하는 장치의 경우 Intune에서는 기존 앱 관리를 수행할 권한을 제공할 것인지를 사용자에게 묻는 메시지를 자동으로 표시합니다. 사용자가 권한 제공에 동의하면 앱은 Intune에서 관리되며, 해당 앱과 연결한 모바일 응용 프로그램 관리 정책도 적용됩니다.
 
-> [!TIP] 장치가 감독 모드인 경우 Intune에서는 사용자에게 권한을 요청하지 않고 기존 앱을 관리합니다.
+> [!TIP]
+> 장치가 감독 모드인 경우 Intune에서는 사용자에게 권한을 요청하지 않고 기존 앱을 관리합니다.
 
 ## **5단계:** 앱 배포를 모니터링합니다.
 모바일 응용 프로그램 관리 정책과 연결된 앱을 만들고 배포한 후에는 다음 절차에 따라 앱을 모니터링하고 정책 충돌을 해결합니다.
@@ -198,6 +196,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 �
 -   장치에 아직 배포된 정책이 없는 상태에서 충돌하는 두 설정이 배포되면 장치에서 기본 제공되는 설정이 사용됩니다.
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

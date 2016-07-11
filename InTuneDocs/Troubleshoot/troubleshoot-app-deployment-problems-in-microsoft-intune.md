@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: 앱 배포 문제 해결 | Microsoft Intune
-description:
-keywords:
+title: "앱 배포 문제 해결 | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/26/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 28ac298e-fb73-4c1c-b3fd-8336639e05e6
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mghadial
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 327c3aaf42aaf7f97e2b78d5ae38584bc13773e1
+ms.openlocfilehash: dc782a54983e4db39a029a15183834a925d0e00c
+
 
 ---
 
@@ -37,13 +30,13 @@ ms.suite: ems
 
 1.  사용자의 계정이 [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에 존재하는지 또는 사용되지 않도록 설정되었는지 확인합니다.
 
-2.  [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에서 이 계정에 프로비저닝되어 있는지 확인합니다..
+2.  [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에서 이 계정에 프로비저닝되어 있는지 확인합니다.
 
-3.  [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에서 올바른 사용자 이름 및 암호를 사용하여 Intune에 로그인하고 있는 지와 사용자 이름이 **joe@domain.com**형식인지 확인합니다..
+3.  [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에서 올바른 사용자 이름 및 암호를 사용하여 Intune에 로그인하고 있는지와 사용자 이름이 **joe@domain.com**형식인지 확인합니다.
 
 ### IT 담당자 정보가 회사 포털에 없는 경우
 
-1.  Intune 관리 콘솔에서 **관리** &gt; **회사 콘솔**을 클릭합니다..
+1.  Intune 관리 콘솔에서 **관리** &gt; **회사 포털**을 선택합니다.
 
 2.  **IT 담당자** 세부 사항을 설정합니다.
 
@@ -63,7 +56,7 @@ ms.suite: ems
 
 4.  iOS 앱 다운로드 진행률 표시줄은 완료되었지만 앱이 설치되지 않은 경우 관리자가 제공한 앱 파일에 문제가 있을 수 있습니다.
 
-### iOS 앱으로 연결되는 링크를 클릭하면 iTunes App Store의 이전 위치로 이동하는 경우
+### iOS 앱 링크를 클릭하여 iTunes App Store의 이전 위치로 이동하는 경우
 
 1.  현재 iTunes App Store 세션은 이전 앱 페이지에서 열립니다.
 
@@ -87,13 +80,13 @@ ms.suite: ems
 
 ### 오류: 게시자가 없습니다.
 ** 기타 소프트웨어 계약 추가**를 사용하여 타사 사용권 계약을 추가합니다. **기타 소프트웨어 사용권 계약** 페이지에서 게시자 추가를 시도합니다. 이 페이지에는 기존 게시자 목록이 사전순으로 제공됩니다.
-누락된 게시자를 입력했지만 **게시자가 없습니다.**라는 오류가 나타납니다.. 
+누락된 게시자를 입력했지만 **게시자가 없습니다.**라는 오류가 나타납니다. 
 
 이것은 설계된 사항입니다. Intune은 많이 사용되는 소프트웨어 제목에 대해서만 라이선스 추적을 제공합니다. 라이선싱 작업에서 선택이 가능해지려면 Intune에 별도의 소프트웨어 계정 보고가 적어도 4개 필요합니다.
 
 ### 관리되는 앱이 설치 상태를 보고하지 않는 경우
 
-2014년 11월 Microsoft Intune 서비스 업데이트 이전의 관리되는 앱 설치에 대해 설치 상태가 수집되지 않은 경우입니다. 이 서비스 업데이트 이전에 관리되는 앱을 설치한 장치의 경우 적절한 배포 작업(예: **사용 가능한 설치**)을 통해 각 관련 앱 배포를 업데이트합니다. °¢ ÀåÄ¡°¡ »ç¿ë °¡´ÉÇÑ ¾ÛÀ» ÀÚµ¿À¸·Î È®ÀÎÇÏ´Â µµÁß¿¡ ¾ÛÀ» ¾÷µ¥ÀÌÆ®ÇÕ´Ï´Ù. 자세한 내용은 [Microsoft Intune을 사용하여 앱 업데이트](/intune/deploy-use/update-apps-using-microsoft-intune)를 참조하세요..
+2014년 11월 Microsoft Intune 서비스 업데이트 이전의 관리되는 앱 설치에 대해 설치 상태가 수집되지 않은 경우입니다. 이 서비스 업데이트 이전에 관리되는 앱을 설치한 장치의 경우 적절한 배포 작업(예: **사용 가능한 설치**)을 통해 각 관련 앱 배포를 업데이트합니다. °¢ ÀåÄ¡°¡ »ç¿ë °¡´ÉÇÑ ¾ÛÀ» ÀÚµ¿À¸·Î È®ÀÎÇÏ´Â µµÁß¿¡ ¾ÛÀ» ¾÷µ¥ÀÌÆ®ÇÕ´Ï´Ù. 자세한 내용은 [Microsoft Intune을 사용하여 앱 업데이트](/intune/deploy-use/update-apps-using-microsoft-intune)를 참조하세요.
 
 ## <a name="BKMK_SoftDistErrorCodes"></a>앱 배포 오류 코드
 다음 테이블에는 Intune 앱을 배포하는 동안 발생할 수 있는 일반적인 오류, 가능한 원인 및 문제 해결에 도움을 줄만한 해결 방법이 나와 있습니다.
@@ -104,11 +97,13 @@ ms.suite: ems
 |0x80073CF0|패키지를 열 수 없습니다.|°¡´ÉÇÑ ¿øÀÎ:<br /><br />-   패키지가 서명되지 않았습니다.<br />-   게시자 이름이 인증서 서명 주체와 일치하지 않습니다.<br /><br />ÀÚ¼¼ÇÑ ³»¿ëÀº AppxPackagingOM ÀÌº¥Æ® ·Î±×¸¦ È®ÀÎÇÏ½Ê½Ã¿À.|
 |0x80073CF3|패키지 업데이트, 종속성 또는 충돌 유효성 검사에 실패했습니다.|°¡´ÉÇÑ ¿øÀÎ:<br /><br />-   들어오는 패키지가 설치된 패키지와 충돌합니다.<br />-   지정된 패키지 종속성을 찾을 수 없습니다.<br />-   패키지가 올바른 프로세서 아키텍처를 지원하지 않습니다.<br /><br />ÀÚ¼¼ÇÑ ³»¿ëÀº AppXDeployment-Server ÀÌº¥Æ® ·Î±×¸¦ È®ÀÎÇÏ½Ê½Ã¿À.|
 |0x80073CFB|제공된 패키지가 이미 설치되었으며, 패키지를 다시 설치하는 것이 차단되었습니다.|설치하는 패키지가 이미 설치된 패키지와 동일하지 않은 경우 이 오류를 수신할 수 있습니다. µðÁöÅÐ ¼­¸íµµ ÆÐÅ°ÁöÀÇ ÀÏºÎ¿¡ Æ÷ÇÔµÇ¾ú´ÂÁö È®ÀÎÇÏ½Ê½Ã¿À. ÆÐÅ°Áö¸¦ ´Ù½Ã ÀÛ¼ºÇÏ°Å³ª ´Ù½Ã ¼­¸íÇÏ´Â °æ¿ì ÆÐÅ°Áö´Â ÀÌÀü¿¡ ¼³Ä¡µÈ ÆÐÅ°Áö¿Í ºñÆ® Ãø¸é¿¡¼­ µ¿ÀÏÇÏÁö ¾Ê°Ô µË´Ï´Ù. ÀÌ ¿À·ù¸¦ ¼öÁ¤ÇÒ ¼ö ÀÖ´Â µÎ °¡Áö °¡´ÉÇÑ ¿É¼ÇÀº ´ÙÀ½°ú °°½À´Ï´Ù.<br /><br />-   앱의 버전 번호를 증가한 다음 패키지를 다시 빌드하고 다시 서명합니다.<br />-   새 패키지를 설치하기 전에 시스템의 모든 사용자에 대한 이전 패키지를 제거합니다.|
+|0x87D1041C|응용 프로그램을 설치했으나 응용 프로그램이 검색되지 않습니다.|- 사용자가 회사 포털에서 앱을 설치한 다음 장치에서 직접 제거했습니다. 회사 포털에서 앱을 다시 설치합니다.<br /><br />- Intune에서 인식된 기간 업무 앱의 버전 번호와 장치에 설치된 버전이 일치하지 않을 수 있습니다. Intune 버전이 올바른지 확인하고 앱을 다시 설치하세요.|
 
 ### 다음 단계
-문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라, Microsoft 지원에 문의하세요..
+문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO3-->
 
 

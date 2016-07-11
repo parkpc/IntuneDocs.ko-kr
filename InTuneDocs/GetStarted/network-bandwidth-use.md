@@ -1,33 +1,27 @@
 ---
-# required metadata
-
-title: Intune 네트워크 대역폭 사용 | Microsoft Intune
-description:
-keywords:
+title: "Intune 네트워크 대역폭 사용 | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 0f737d48-24bc-44cd-aadd-f0a1d59f6893
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
+ms.openlocfilehash: e104dc52a8a9bdda4b2edb2939d8c7c36e8ecc12
+
 
 ---
 
 # Intune 네트워크 대역폭 사용
 
-[!INCLUDE[wit_firstref](../includes/wit_firstref_md.md)]을 설정하기 전에, 이 항목과 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)에 나열된 요구 사항을 검토합니다..
+[!INCLUDE[wit_firstref](../includes/wit_firstref_md.md)]을 설정하기 전에, 이 항목과 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md) 항목에 나열된 요구 사항을 검토합니다.
 
 다음 섹션의 정보를 참조하여 [!INCLUDE[wit_firstref](../includes/wit_firstref_md.md)] 클라이언트의 네트워크 트래픽에 대한 계획을 세울 수 있습니다.
 
@@ -83,15 +77,16 @@ BITS 및 Windows 컴퓨터에 대한 자세한 내용은 TechNet 라이브러리
 
 -   [!INCLUDE[winblue_client_2](../includes/winblue_client_2_md.md)]
 
-BranchCache를 사용하려면 클라이언트 컴퓨터에서 BranchCache를 사용하도록 설정한 후 **분산 캐시 모드**에 대해 구성해야 합니다..
+BranchCache를 사용하려면 클라이언트 컴퓨터에서 BranchCache를 사용하도록 설정한 후 **분산 캐시 모드**에 대해 구성해야 합니다.
 
 기본적으로, BranchCache 및 분산 캐시 모드는 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 클라이언트를 설치할 때 컴퓨터에서 사용되도록 설정됩니다. 그러나 클라이언트의 기존 그룹 정책에서 BranchCache를 사용하지 않도록 설정하는 경우 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 해당 정책을 재정의하지 않으므로 BranchCache는 해당 컴퓨터에서 계속 사용되지 않도록 설정됩니다.
 
-BranchCache를 사용하는 경우 조직에서 그룹 정책 및 [!INCLUDE[wit_firstref](../includes/wit_firstref_md.md)] 방화벽 정책을 관리하는 다른 관리자와 협의하여 BranchCache 또는 방화벽 예외를 사용하지 않도록 설정하는 정책을 배포하지 않아야 합니다. BranchCache에 대한 자세한 내용은 [BranchCache 개요](http://technet.microsoft.com/library/hh831696.aspx)를 참조하십시오..
+BranchCache를 사용하는 경우 조직에서 그룹 정책 및 [!INCLUDE[wit_firstref](../includes/wit_firstref_md.md)] 방화벽 정책을 관리하는 다른 관리자와 협의하여 BranchCache 또는 방화벽 예외를 사용하지 않도록 설정하는 정책을 배포하지 않아야 합니다. BranchCache에 대한 자세한 내용은 [BranchCache 개요](http://technet.microsoft.com/library/hh831696.aspx)를 참조하세요.
 
 ### 참고 항목
 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

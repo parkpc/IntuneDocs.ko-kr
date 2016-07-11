@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정 | Microsoft Intune
-description:
-keywords:
+title: "Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정 | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
+ms.openlocfilehash: 986d864a3169fa3b094241a3522e3f25b7bfe349
+
 
 ---
 
@@ -29,7 +22,7 @@ ms.suite: ems
 Intune 앱 래핑 도구 또는 Intune 앱 SDK를 사용하여 앱에서 모바일 응용 프로그램 관리 정책을 사용할 수 있게 할 수 있습니다. 이 정보를 사용하여 이러한 두 가지 방법 및 사용 시기에 대해 알아보세요.
 
 ## Intune 앱 래핑 도구
-앱 래핑 도구는 내부 LOB(기간 업무) 앱에 주로 사용됩니다. 이 도구는 앱을 둘러싸는 래퍼를 만들어 앱이 Intune 모바일 응용 프로그램 관리 정책에 의해 관리될 수 있게 하는 명령줄 응용 프로그램입니다. 도구를 사용하기 위해 소스 코드가 필요하지는 않지만 서명 자격 증명이 필요합니다.  서명 자격 증명에 대한 자세한 내용은 [Intune 블로그](http://blogs.technet.com/b/microsoftintune/archive/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios.aspx)를 참조하세요. 앱 래핑 도구 설명서는 [Android App Wrapping Tool](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)(앱 래핑 도구) 및 [iOS App Wrapping Tool](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)(iOS 앱 래핑 도구) 항목을 참조하세요.
+앱 래핑 도구는 내부 LOB(기간 업무) 앱에 주로 사용됩니다. 이 도구는 앱을 둘러싸는 래퍼를 만들어 앱이 Intune 모바일 응용 프로그램 관리 정책에 의해 관리될 수 있게 하는 명령줄 응용 프로그램입니다. 도구를 사용하기 위해 소스 코드가 필요하지는 않지만 서명 자격 증명이 필요합니다.  서명 자격 증명에 대한 자세한 내용은 [Intune 블로그](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/)를 참조하세요. 앱 래핑 도구 설명서는 [Android App Wrapping Tool](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)(앱 래핑 도구) 및 [iOS App Wrapping Tool](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)(iOS 앱 래핑 도구) 항목을 참조하세요.
 
 앱 래핑 도구는 개발 시간 통합이 필요한 기능이나 앱 스토어 또는 Play 스토어의 앱을 지원하지 않습니다(다음 기능 비교 표 참조).
 
@@ -43,7 +36,8 @@ SDK에 대해 자세히 알아보려면 [개요](/intune/develop/intune-app-sdk)
 ## 기능 비교
 이 표에는 앱 SDK 및 앱 래핑 도구에 사용할 수 있는 설정이 나와 있습니다.
 
-> [!NOTE] 앱 래핑 도구는 Intune 독립 실행형 또는 Configuration Manager가 포함된 Intune과 함께 사용할 수 있습니다.
+> [!NOTE]
+> 앱 래핑 도구는 Intune 독립 실행형 또는 Configuration Manager가 포함된 Intune과 함께 사용할 수 있습니다.
 
 |기능|앱 SDK|앱 래핑 도구|
 |-----------|---------------------|-----------|
@@ -73,6 +67,7 @@ SDK에 대해 자세히 알아보려면 [개요](/intune/develop/intune-app-sdk)
 [SDK를 사용하여 모바일 응용 프로그램 관리에 앱을 사용하도록 설정](use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

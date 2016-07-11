@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 정책을 사용하여 장치의 설정 및 기능 관리 | Microsoft Intune
-description:
-keywords:
+title: "정책을 사용하여 장치의 설정 및 기능 관리 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 06/14/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 09bae0b9-4f79-4658-8ca1-a71ab992c1b2
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: heenamac
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
+ms.openlocfilehash: ab570d551189ec71b54081229b93d7b4ce8d58d5
+
 
 ---
 
@@ -54,7 +48,8 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 
 2.  원하는 정책을 선택합니다. 해당 정책에 권장되는 설정을 사용하거나(사용 가능한 경우. 나중에 이러한 설정을 변경할 수 있음) 원하는 설정으로 사용자 지정 정책을 만들 수 있습니다.
 
-    > [!TIP] 올바른 정책을 선택하는 데 도움이 필요하면 [Microsoft Intune 정책 참조](microsoft-intune-policy-reference.md) 항목을 참조하세요.
+    > [!TIP]
+    > 올바른 정책을 선택하는 데 도움이 필요하면 [ Microsoft Intune 정책 참조](microsoft-intune-policy-reference.md) 항목을 참조하세요.
 
 3.  준비가 되면 **정책 만들기**를 선택합니다.
 
@@ -73,7 +68,7 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
     - [Windows 버전 업그레이드에 대한 설정](edition-upgrade-policy-settings-in-microsoft-intune.md)
     - [Mac OS X 장치의 설정](mac-os-x-policy-settings-in-microsoft-intune.md)
     - [Exchange ActiveSync에 대한 설정](exchange-activesync-policy-settings-in-microsoft-intune.md)
-    - [계약조건 정책에 대한 설정](terms-and-condition-policy-settings-in-microsoft-intune.md)
+    - [사용 약관 정책에 대한 설정](terms-and-condition-policy-settings-in-microsoft-intune.md)
     - [모바일 장치에 대한 일반 설정(레거시)](mobile-device-security-policy-settings-in-microsoft-intune.md)
 
 4.  확인 대화 상자에서 정책을 지금 배포하려면 **예** 를 선택하고, 지금 배포하지 않고 정책을 만들려면 **아니요** 를 선택합니다.
@@ -119,7 +114,7 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 
 이 경우 장치는 아래와 같이 다음에 예약된 Intune 서비스 체크 인 시에 정책을 수신하게 됩니다.
 
-- iOS - 6시간마다
+- iOS 및 Mac OS X - 6시간마다
 - Android - 8시간마다
 - Windows Phone - 8시간마다
 - 등록된 Windows RT 장치 - 24시간마다
@@ -127,10 +122,10 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 
 장치를 방금 등록한 경우에는 다음과 같이 체크 인 빈도가 더 높아집니다.
 
-- iOS - 6시간 동안 15분마다/그 이후에는 6시간마다
+- iOS 및 Mac OS X - 6시간 동안 15분마다/그 이후에는 6시간마다
 - Android - 15분 동안 3분마다/그 이후 2시간 동안은 15분마다/그 이후에는 8시간마다
 - Windows Phone - 15분 동안 5분마다/그 이후 2시간 동안은 15분마다/그 이후에는 8시간마다
-- 장치로 등록된 Windows PC - 30분 동안 3분마다/그 이후에는 24시간마다
+- 장치로 등록된 Windows PC - 30분 동안 3분마다/그 이후에는 8시간마다
 
 사용자는 언제든지 회사 포털 앱을 시작하여 장치를 동기화해 즉시 정책을 확인할 수도 있습니다.
 
@@ -149,7 +144,7 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 
 -   다른 준수 정책의 동일 설정과 대조하여 평가하는 경우 더 제한적인 준수 정책 설정이 적용됩니다.
 
--   다른 구성 정책의 동일 설정과 대조하여 평가하는 경우 가장 제한적인 구성 정책 설정이 적용됩니다.
+-   구성 정책 설정이 다른 구성 정책의 설정과 충돌하는 경우 이 충돌이 Intune 콘솔에 표시됩니다. 이러한 충돌은 수동으로 해결해야 합니다.
 
 ### MAM(모바일 응용 프로그램 관리) 정책이 서로 충돌하는 경우 앱에 적용되는 정책
 다시 설정 전까지의 PIN 입력 시도와 같이 숫자 입력 필드에 대한 설정을 제외하면, 충돌하는 값은 모바일 응용 프로그램 관리 정책에서 사용 가능한 가장 제한적인 설정으로 지정됩니다.  숫자 입력 필드의 경우 권장 설정 옵션을 사용하여 콘솔에서 MAM 정책을 만드는 경우의 값과 동일하게 설정됩니다.
@@ -178,7 +173,25 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI 정책 페이로�
         - 필수 암호 유형
         - 암호 만료(일)
         - 암호 기록 기억
-        - 장치를 초기화하기 전까지 허용되는 로그인 반복 오류 횟수 - 암호를 요구하기 전까지의 비활성 시간(분) - 필수 암호 유형 – 최소 문자 집합 수 - 카메라 허용 - 모바일 장치 암호화 필요 - 이동식 저장소 허용 - 웹 브라우저 허용 - 앱 스토어 허용 - 화면 캡처 허용 - 지리적 위치 허용 - Microsoft 계정 허용 - 복사 및 붙여넣기 허용 - Wi-Fi 테더링 허용 - 무료 Wi-Fi 핫스팟에 자동 연결 허용 - Wi-Fi 핫스팟 보고 허용 - 공장 기본 설정으로 복원 허용 - Bluetooth 허용 - NFC 허용 - Wi-Fi 허용
+        - 장치를 초기화하기 전까지 허용되는 로그인 반복 오류 횟수
+        - 암호를 요구하기 전까지 비활성 시간(분)
+        - 필수 암호 유형 - 최소 문자 집합 수
+        - 카메라 허용
+        - 모바일 장치 암호화 필요
+        - 이동식 저장소 허용
+        - 웹 브라우저 허용
+        - 앱 스토어 허용
+        - 화면 캡처 허용
+        - 지리적 위치 허용
+        - Microsoft 계정 허용
+        - 복사 및 붙여넣기 허용
+        - Wi-Fi 테더링 허용
+        - 무료 Wi-Fi 핫스팟에 자동 연결 허용
+        - Wi-Fi 핫스팟 보고 허용
+        - 공장 재설정 허용
+        - Bluetooth 허용
+        - NFC 허용
+        - Wi-Fi 허용
     
     - **iOS** - 다음을 제외한 모든 설정이 제거됩니다.
         - 음성 로밍 허용
@@ -200,9 +213,10 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI 정책 페이로�
 
 ### 문제 해결 정책 도움말은 어디서 찾을 수 있나요?
 
-[Microsoft Intune의 문제 해결 정책](../Troubleshoot/troubleshoot-policies-in-microsoft-intune)을 참조하세요.
+[Microsoft Intune의 문제 해결 정책](/intune/troubleshoot/troubleshoot-policies-in-microsoft-intune)을 참조하세요.
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 
