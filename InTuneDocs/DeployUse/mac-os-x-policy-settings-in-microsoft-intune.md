@@ -121,6 +121,6 @@ Microsoft Intune の **Mac OS X カスタム構成ポリシー**を使用して�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 

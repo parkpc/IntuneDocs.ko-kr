@@ -54,8 +54,10 @@ Dynamics CRM ポリシーに使用する 2 つのグループの種類を指定�
 ### 手順 2. コンプライアンス ポリシーを構成し、展開する
 コンプライアンス ポリシーを[作成](create-a-device-compliance-policy-in-microsoft-intune.md)し、ポリシーによって影響を受けるすべてのデバイスに[展開](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)します。 これは、対象グループ内のユーザーによって使用されるすべてのデバイスです。
 
+> [!NOTE]
 > [!NOTE] コンプライアンス ポリシーは Microsoft Intune グループに展開されますが、条件付きアクセス ポリシーは、Azure Active Directory セキュリティ グループを対象とします。
 
+> [!IMPORTANT]
 > [!IMPORTANT] コンプライアンス ポリシーを展開していない場合は、デバイスがポリシーに準拠しているものと見なされます。
 
 準備ができたら、手順 3 に進みます。
@@ -94,6 +96,6 @@ Dynamics CRM ポリシーに使用する 2 つのグループの種類を指定�
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 

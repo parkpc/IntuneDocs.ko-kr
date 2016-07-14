@@ -91,6 +91,6 @@ ms.openlocfilehash: 74ff3209d00dee0b5ddd14e107b5544b364d08f7
 -   削除されたデバイス登録マネージャー アカウントと登録済みデバイスの関係は残りますが、追加のデバイスは登録できません
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 

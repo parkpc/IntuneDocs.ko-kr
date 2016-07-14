@@ -46,6 +46,7 @@ ms.openlocfilehash: 9b557c272c9d740792560a392d52efff6a7deed1
 
     ![既存のファイルを一覧表示しているファイルの場所のスクリーンショット](../media/AppManagement/iOS_OneDriveSuccess.png)
 
+    > [!NOTE]
     > [!NOTE] 展開済みのポリシーを変更すると、次回アプリを開いたときにその変更が適用されます。
 
 ##  Android デバイスでの OneDrive へのアクセス
@@ -169,6 +170,6 @@ RMS 共有アプリを使用して Intune により管理されているその�
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 
