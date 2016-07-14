@@ -94,6 +94,6 @@ Intune Viewer アプリを使用する代わりに、Android 用の新しい Rig
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO1-->
 
 
