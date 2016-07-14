@@ -68,9 +68,11 @@ ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
 ### 2단계: 준수 정책 구성 및 배포
 정책의 영향을 받을 모든 장치에 규정 준수 정책을 [만들고](create-a-device-compliance-policy-in-microsoft-intune.md) [배포](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)합니다. **대상 그룹**에서 사용자가 사용하는 모든 장치가 됩니다.
 
+> [!NOTE]
 > [!NOTE]규정 준수 정책을 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 그룹에 배포하는 동안 Azure Active Directory 보안 그룹을 조건부 액세스 정책의 대상으로 합니다.
 
 
+> [!IMPORTANT]
 > [!IMPORTANT] 규정 준수 정책을 배포하지 않은 경우 장치는 준수하는 것으로 간주됩니다.
 
 준비가 되었으면 **3단계**를 계속합니다.
@@ -113,6 +115,6 @@ ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
