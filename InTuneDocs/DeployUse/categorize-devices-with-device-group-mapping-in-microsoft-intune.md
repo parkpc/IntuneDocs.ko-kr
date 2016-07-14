@@ -52,6 +52,6 @@ ms.openlocfilehash: 55f811153bf37048a4fcdfc6da301a5f181700c3
 [Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
