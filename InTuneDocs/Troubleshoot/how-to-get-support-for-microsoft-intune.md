@@ -34,6 +34,7 @@ Intune 관련 문제를 자체적으로 해결하려는 경우 [Microsoft Intune
 
     -   기타 모든 Intune 문제에 대해서는 **모바일 장치 관리**를 선택합니다. 이 옵션은 Office 365 MDM 및 System Center Configuration Manager with Intune에도 적용됩니다.
 
+    > [!NOTE]
     > [!NOTE] 목록의 맨 아래에 있는 **자세히**를 클릭하여 모든 범주를 표시해야 할 수도 있습니다.
 
 3.  **문제 식별** 페이지에서 도움이 필요한 **기능** 및 **증상**을 선택합니다. **문제 요약** 및 **문제 세부 정보**를 제공하라는 메시지가 표시됩니다.
@@ -51,7 +52,8 @@ Intune 관련 문제를 자체적으로 해결하려는 경우 [Microsoft Intune
 서비스 요청을 추적하려면 [Office 365 관리 센터](https://portal.office.com/admin/default.aspx)로 이동합니다. **서비스 요청 만들기** 목록 맨 아래에서 **모든 지원 티켓 보기**를 클릭합니다. 기본적으로 열린 상태에 있는 모든 서비스 요청이 표시됩니다. 예를 들어 닫힌 요청이 표시되도록 표시되는 서비스 요청을 변경하려면 위쪽 탐색 모음에 있는 필터 아이콘을 클릭하고 선호하는 보기를 선택합니다.
 
 > [!NOTE]
-> **Microsoft System Center Configuration Manager** 또는 **Microsoft System Center Endpoint Protection을 사용하는 경우**: Configuration Manager 또는 Endpoint Protection 관련 기술 지원이 필요하면 파트너에 문의하거나 [Microsoft System Center Configuration Manager 및 System Center Endpoint Protection 솔루션 센터](http://www.microsoft.com/en-us/server-cloud/products/system-center-2012-r2/resources.aspx)를 방문하여 다양한 자가 진단 자료를 확인하거나 온라인 또는 전화를 통해 지원 요청을 제출하는 옵션을 사용할 수 있습니다.
+> [!NOTE]
+**Microsoft System Center Configuration Manager** 또는 **Microsoft System Center Endpoint Protection을 사용하는 경우**: Configuration Manager 또는 Endpoint Protection 관련 기술 지원이 필요하면 파트너에 문의하거나 [Microsoft System Center Configuration Manager 및 System Center Endpoint Protection 솔루션 센터](http://www.microsoft.com/en-us/server-cloud/products/system-center-2012-r2/resources.aspx)를 방문하여 다양한 자가 진단 자료를 확인하거나 온라인 또는 전화를 통해 지원 요청을 제출하는 옵션을 사용할 수 있습니다.
 >
 > System Center Configuration Manager 또는 System Center Endpoint Protection에 대한 기술 지원은 유료로 제공되며, 기존 라이선스 또는 프리미어 지원 계약이 있는 경우에는 지원 요금이 차감됩니다.
 
@@ -138,6 +140,6 @@ Microsoft 지원의 역할은 다음과 같습니다.
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO1-->
 
 
