@@ -72,6 +72,6 @@ Intune への移行に関してさらに支援が必要な場合は、 問題な
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
