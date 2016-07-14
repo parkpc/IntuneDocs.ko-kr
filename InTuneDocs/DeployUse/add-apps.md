@@ -74,6 +74,7 @@ Intune을 사용하여 기간 업무 UWP(유니버설 Windows 플랫폼) 앱을 
 외부 링크를 기반으로 하는 앱은 Intune 클라우드 저장소 공간에 저장되지 않습니다.
 ### **앱 스토어에서 관리되는 iOS 앱**
 앱 스토어에서 무료 iOS 앱을 관리하고 배포할 수 있습니다. 또한 [모바일 응용 프로그램 관리 정책](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 [호환되는 앱](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)과 연결하고 관리자 콘솔에서 관련 상태를 검토할 수 있습니다.<br /><br />관리되는 iOS 앱은 Intune 클라우드 저장소 공간에 저장되지 않습니다.
+> [!TIP]
 > [!TIP] Intune에 [모바일 장치 관리 기관을 설정](get-ready-to-enroll-devices-in-microsoft-intune.md)할 때까지 모바일 장치에 대한 옵션을 사용할 수 없습니다.
 
 ## Intune 소프트웨어 게시자
@@ -117,6 +118,6 @@ Windows 10 Mobile 장치에서 비Symantec 코드 서명 인증서를 사용하�
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 

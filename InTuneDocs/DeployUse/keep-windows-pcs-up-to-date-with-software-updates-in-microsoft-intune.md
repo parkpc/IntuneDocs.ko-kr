@@ -253,6 +253,6 @@ Intune에 타사 업데이트가 업로드되면 **모든 업데이트** 창의 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
