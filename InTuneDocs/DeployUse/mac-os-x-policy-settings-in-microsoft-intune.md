@@ -121,6 +121,6 @@ Microsoft Intune **Mac OS X 사용자 지정 구성 정책**을 사용하면 [Ap
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
