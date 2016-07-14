@@ -69,6 +69,6 @@ Intune 보고서는 조직의 소프트웨어, 하드웨어 및 소프트웨어 
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 
