@@ -94,6 +94,6 @@ Intune 뷰어 앱을 사용하는 대신 새로운 Android용 Microsoft Rights M
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO1-->
 
 
