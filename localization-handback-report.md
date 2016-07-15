@@ -1,11 +1,29 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [InTuneDocs\EndUser\unenroll-your-device-from-intune-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ea35d0222f33a0babb8bdc4fb30f0f5a405214a2/InTuneDocs/EndUser/unenroll-your-device-from-intune-windows.md) | OutofSyncHandedBackSuccess | [Details](#339315e380a6735c5de4c8938fc0d74d79ed61f7444)
 
 ## Item Details
+##### <a name='339315e380a6735c5de4c8938fc0d74d79ed61f7444'></a> Source: [InTuneDocs\EndUser\unenroll-your-device-from-intune-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ea35d0222f33a0babb8bdc4fb30f0f5a405214a2/InTuneDocs/EndUser/unenroll-your-device-from-intune-windows.md)
+* Status: OutofSyncHandedBackSuccess
+* Target File: 
+* Handoff File: [unenroll-your-device-from-intune-windows.2b7d277506d650d5e05550fd71d47144236ab57c.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/ed7cc5aed7a99b1939b0e9509311d4911deac50f/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/unenroll-your-device-from-intune-windows.2b7d277506d650d5e05550fd71d47144236ab57c.ja-jp.xlf)
+* Handoff Datetime: 2016-07-13 21:45:28
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [InTuneDocs\EndUser\unenroll-your-device-from-intune-windows.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/d9cb6859db0dbc0cbe91ec3b7580e197d28618ff/InTuneDocs/EndUser/unenroll-your-device-from-intune-windows.md)
+* Current Handback File: [unenroll-your-device-from-intune-windows.2b7d277506d650d5e05550fd71d47144236ab57c.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/cd59b6e3b124c51f7b9aa11259dda74e5760725b/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/unenroll-your-device-from-intune-windows.2b7d277506d650d5e05550fd71d47144236ab57c.ja-jp.xlf)
+* Current Handback Datetime: 2016-07-15 02:18:40
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
