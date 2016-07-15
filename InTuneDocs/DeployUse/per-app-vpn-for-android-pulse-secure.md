@@ -74,6 +74,6 @@ VPN プロファイル名は、次の手順で使用するためメモしてお�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
