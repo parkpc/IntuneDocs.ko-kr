@@ -74,6 +74,6 @@ Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만들 수 �
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
