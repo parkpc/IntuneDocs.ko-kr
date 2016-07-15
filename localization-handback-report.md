@@ -1,11 +1,39 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [InTuneDocs\DeployUse\Custom-configurations-for-VPN-profiles.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d5c48a4cead6250864f5b10444d99d062441bd99/InTuneDocs/DeployUse/Custom-configurations-for-VPN-profiles.md) | InSyncHandedBackSuccess | [Details](#7e7c50552b5a61804e759a7ec5443029d4bd458428)
+ [InTuneDocs\includes\accessibility11-f.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-f.md) | InSyncHandedBackSuccess | [Details](#f7b4ab09cc4894e1a807b7f80c08d35e62593731555)
 
 ## Item Details
+##### <a name='7e7c50552b5a61804e759a7ec5443029d4bd458428'></a> Source: [InTuneDocs\DeployUse\Custom-configurations-for-VPN-profiles.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d5c48a4cead6250864f5b10444d99d062441bd99/InTuneDocs/DeployUse/Custom-configurations-for-VPN-profiles.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\Custom-configurations-for-VPN-profiles.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/b43b7e81c3c9ff136c76ed54e86e7e27ae711519/InTuneDocs/DeployUse/Custom-configurations-for-VPN-profiles.md)
+* Handoff File: [Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/d93ebcde64baa64bada07fc3dd2e69de2f24e4a7/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf)
+* Handoff Datetime: 2016-06-27 11:14:36
+* Handoff Reason: Include
+* Archive File: [Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/4f451ac2cb98bdd689884ddb801f57e4aa7b9fac/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf)
+* Archive Datetime: 2016-07-02 01:19:20
+* Handback File: [Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/6068fe8fd52e4373d217850e3651b1c4472ca595/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf)
+* Handback Datetime: 2016-07-15 02:20:36
+* [Back to Top](#report-top)
+
+##### <a name='f7b4ab09cc4894e1a807b7f80c08d35e62593731555'></a> Source: [InTuneDocs\includes\accessibility11-f.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-f.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\includes\accessibility11-f.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/b43b7e81c3c9ff136c76ed54e86e7e27ae711519/InTuneDocs/includes/accessibility11-f.md)
+* Handoff File: [accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/d93ebcde64baa64bada07fc3dd2e69de2f24e4a7/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf)
+* Handoff Datetime: 2016-06-27 11:14:36
+* Handoff Reason: Include
+* Archive File: [accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/4f451ac2cb98bdd689884ddb801f57e4aa7b9fac/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf)
+* Archive Datetime: 2016-07-02 01:19:20
+* Handback File: [accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/6068fe8fd52e4373d217850e3651b1c4472ca595/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf)
+* Handback Datetime: 2016-07-15 02:20:36
+* [Back to Top](#report-top)
+
 
 ## Error Details
 

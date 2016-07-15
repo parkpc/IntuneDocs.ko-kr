@@ -1684,14 +1684,14 @@
 
 ##### <a name='7e7c50552b5a61804e759a7ec5443029d4bd458428'></a> Source: [InTuneDocs\DeployUse\Custom-configurations-for-VPN-profiles.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d5c48a4cead6250864f5b10444d99d062441bd99/InTuneDocs/DeployUse/Custom-configurations-for-VPN-profiles.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\DeployUse\Custom-configurations-for-VPN-profiles.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/1affec4163adf2a70566ff8a73b3231dbf387db6/InTuneDocs/DeployUse/Custom-configurations-for-VPN-profiles.md)
+* Target File: [InTuneDocs\DeployUse\Custom-configurations-for-VPN-profiles.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/b43b7e81c3c9ff136c76ed54e86e7e27ae711519/InTuneDocs/DeployUse/Custom-configurations-for-VPN-profiles.md)
 * Handoff File: [Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/d93ebcde64baa64bada07fc3dd2e69de2f24e4a7/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf)
 * Handoff Datetime: 2016-06-27 11:14:36
 * Handoff Reason: Include
 * Archive File: [Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/4f451ac2cb98bdd689884ddb801f57e4aa7b9fac/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf)
 * Archive Datetime: 2016-07-02 01:19:20
-* Handback File: [Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/8450f6b08b42ba35cd392b904d0011d64ccc1330/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf)
-* Handback Datetime: 2016-07-11 17:16:42
+* Handback File: [Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/6068fe8fd52e4373d217850e3651b1c4472ca595/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ko-kr.xlf)
+* Handback Datetime: 2016-07-15 02:20:36
 * [Back to Top](#report-top)
 
 ##### <a name='5865b5a7bd2b8b7b08e40e1e7e53cfd17851d5fb29'></a> Source: [InTuneDocs\DeployUse\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/359f76daa35a14e4107a9e03c6a1b1f4d1215777/InTuneDocs/DeployUse/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)
@@ -8765,14 +8765,14 @@
 
 ##### <a name='f7b4ab09cc4894e1a807b7f80c08d35e62593731555'></a> Source: [InTuneDocs\includes\accessibility11-f.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-f.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\accessibility11-f.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/1affec4163adf2a70566ff8a73b3231dbf387db6/InTuneDocs/includes/accessibility11-f.md)
+* Target File: [InTuneDocs\includes\accessibility11-f.md](https://github.com/Microsoft/IntuneDocs-pr.ko-kr/blob/b43b7e81c3c9ff136c76ed54e86e7e27ae711519/InTuneDocs/includes/accessibility11-f.md)
 * Handoff File: [accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/d93ebcde64baa64bada07fc3dd2e69de2f24e4a7/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf)
 * Handoff Datetime: 2016-06-27 11:14:36
 * Handoff Reason: Include
 * Archive File: [accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/4f451ac2cb98bdd689884ddb801f57e4aa7b9fac/ol-handoff/Microsoft/IntuneDocs-pr.ko-kr/master/archive/accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf)
 * Archive Datetime: 2016-07-02 01:19:20
-* Handback File: [accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/8450f6b08b42ba35cd392b904d0011d64ccc1330/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf)
-* Handback Datetime: 2016-07-11 17:16:42
+* Handback File: [accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/6068fe8fd52e4373d217850e3651b1c4472ca595/ol-handback/Microsoft/IntuneDocs-pr.ko-kr/master/accessibility11-f.350226d85cb3ce00a3fa4c209377948ce58f916f.ko-kr.xlf)
+* Handback Datetime: 2016-07-15 02:20:36
 * [Back to Top](#report-top)
 
 ##### <a name='6722b74ba9ab0dcb5a0fb74121f4c2c53b44a9f3556'></a> Source: [InTuneDocs\includes\accessibility11-f_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-f_md.md)
