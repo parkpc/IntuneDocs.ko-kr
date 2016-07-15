@@ -65,6 +65,6 @@ Intune을 시작하기 전에 다음이 필요합니다.
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
