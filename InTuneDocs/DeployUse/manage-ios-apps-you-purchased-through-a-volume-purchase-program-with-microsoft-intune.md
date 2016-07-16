@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 대량 구매 프로그램을 통해 구입한 iOS 앱 관리 | Microsoft Intune
-description:
-keywords:
+title: "대량 구매 프로그램을 통해 구입한 iOS 앱 관리 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 1dafc28a-7f8b-4fe0-8619-f977c93d1140
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mghadial
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ccb494f64426e6c2f21a59d8f52b84afe534d721
+ms.openlocfilehash: 65ceaa5a8f6604463463820545a9d108839c00c1
+
 
 ---
 
@@ -76,20 +70,23 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 
 적합한 장치를 가진 사용자가 VPP 앱을 처음 설치하려고 하면 Apple 대량 구매 프로그램에 가입하라는 메시지가 표시됩니다. 가입해야만 앱 설치가 진행됩니다.
 
-> [!TIP] **VPP 사용 약관 상태** 열에서 앱이 배포된 각 사용자의 수락 상태를 확인합니다.
+> [!TIP]
+> **VPP 사용 약관 상태** 열에서 앱이 배포된 각 사용자에 대한 승인 상태를 확인합니다.
 
 사용 가능한 추가 라이선스가 없으면 배포에 실패합니다.
 
 ## Apple VPP 앱을 모니터하려면
 **관리 소프트웨어** &gt; **대량 구매 앱** 노드의 **앱** 작업 영역에서 배포된 VPP 앱과 사용한 라이선스 수를 모니터링할 수 있습니다.
 
-> [!TIP] 앱 **필터**를 사용하여 각 앱 설치의 상태를 검사할 수도 있습니다.
+> [!TIP]
+> 앱 **필터**를 사용하여 각 앱 설치의 상태를 검사할 수도 있습니다.
 
 ### 참고 항목
 [Microsoft Intune에서 앱 배포](deploy-apps-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

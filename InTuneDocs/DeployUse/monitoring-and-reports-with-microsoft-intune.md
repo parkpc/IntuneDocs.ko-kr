@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 모니터링 및 보고서 | Microsoft Intune
-description:
-keywords:
+title: "모니터링 및 보고서 | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 0f7dc155-cb8e-477b-ba02-2623194a9575
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: pbala
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
+ms.openlocfilehash: ffbcc48e909887647a2c1b7f7c40bde5682cddea
+
 
 ---
 
@@ -31,12 +25,13 @@ IT 관리자는 조직 내에 있는 장치의 상태를 모니터링하려고 �
 -   **[보고서](understand-microsoft-intune-operations-by-using-reports.md)**는 Intune에서 관리하는 장치의 상태를 모니터링할 수 있도록 합니다(소프트웨어 업데이트 상태, 설치된 소프트웨어, 인증서 준수 포함). 
      이러한 보고서를 사용하면 장치 및 컴퓨터에서 수집한 하드웨어 및 소프트웨어 인벤토리를 조사할 수도 있습니다.
 
--   **[경고](get-notified-by-microsoft-intune-alerts.md)**는 Intune에서 관리하는 장치의 상태를 모니터링할 수 있도록 합니다(Endpoint Protection 상태 및 경고(맬웨어 경고용), 디스크 공간 또는 네트워크 연결의 부족과 관련된 경고 포함).
+-   **[경고](get-notified-by-alerts.md)**는 Intune에서 관리하는 장치의 상태를 모니터링할 수 있도록 합니다(Endpoint Protection 상태 및 경고(맬웨어 경고용), 디스크 공간 또는 네트워크 연결의 부족과 관련된 경고 포함).
 
 -   Intune에서 관리하는 장치 및 컴퓨터는 속성과 설치된 소프트웨어에 대한 자세한 정보를 반환합니다.  Intune에서는 이러한 데이터를 검사하고 제공하는 도구를 제공합니다. 자세한 내용은 [Microsoft Intune에서 인벤토리를 사용하는 장치 이해](understand-your-devices-with-inventory-in-microsoft-intune.md)를 참조하세요.
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

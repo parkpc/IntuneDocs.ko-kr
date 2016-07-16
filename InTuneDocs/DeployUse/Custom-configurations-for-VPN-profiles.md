@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: VPN 프로필에 대한 사용자 지정 구성 | Microsoft Intune
-description:
-keywords:
+title: "VPN 프로필에 대한 사용자 지정 구성 | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 4c0bd439-3b58-420b-9a9a-282886986786
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d5c48a4cead6250864f5b10444d99d062441bd99
+ms.openlocfilehash: 7e7c50552b5a61804e759a7ec5443029d4bd4584
+
 
 ---
 
@@ -50,7 +44,8 @@ ms.suite: ems
 
 배포한 정책을 선택하면 정책 목록 아래쪽에서 배포에 대한 추가 정보를 볼 수 있습니다.
 
-##사용자 지정 VPN 프로필 구성에 대한 URI 설정의 예, 다음은 Contoso라는 가상의 회사에서 VPN에 대한 사용자 지정 구성을 만들기 위한 URI 값에 대한 예제 항목입니다. 각 항목에 대한 데이터 형식과 같은 자세한 정보는 [VPNv2 CSP](https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776.aspx)를 참조하세요.
+##사용자 지정 VPN 프로필 구성에 대한 URI 설정의 예
+다음은 Contoso라는 가상의 회사에서 VPN에 대한 사용자 지정 구성을 만드는한 URI 값에 대한 예제 항목입니다. 각 항목에 대한 데이터 형식과 같은 자세한 정보는 [VPNv2 CSP](https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776.aspx)를 참조하세요.
 
 네이티브 Contoso VPN(IKEv2): ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Servers
 
@@ -116,6 +111,7 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 (Microsoft Intune에서 VPN 연결)[vpn-connections-in-microsoft-intune.md]
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

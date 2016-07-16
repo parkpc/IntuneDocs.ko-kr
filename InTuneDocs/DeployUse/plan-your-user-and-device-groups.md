@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 사용자 및 장치 그룹 계획 | Microsoft Intune
-description:
-keywords:
+title: "사용자 및 장치 그룹 계획 | Microsoft Intune"
+description: 
+keywords: 
 author: nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: f11bb256-1094-4f7e-b826-1314c57f3356
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 82ab2dbfada6c0745195da149d5f0dc1948ceb92
+ms.openlocfilehash: e89d8384532b994d810649fc07c698237e2f3cec
+
 
 ---
 
@@ -158,7 +152,8 @@ BYOD 또는 혼합의 경우에 로컬 개인 정보 보호 규정을 침해하�
 
 이 예제에서는 중동 및 아시아 그룹인 MEA도 만들었습니다.
 
-> [!NOTE] 그룹 구성원 자격이 보안 그룹 구성원 자격에 따라 채워지지 않는 경우 해당 구성원에게 Intune 라이선스를 할당했는지 확인합니다.
+> [!NOTE]
+> 그룹 구성원 자격이 보안 그룹 구성원 자격에 따라 채워지지 않는 경우 해당 구성원에게 Intune 라이선스를 할당했는지 확인합니다.
 
 ### 특정 하드웨어에 대한 그룹
 조직이 특정 하드웨어 유형에 적용되는 정책을 요구하는 경우 이 요구 사항을 기반으로 그룹을 만들 수 있습니다. 온-프레미스 AD에서 이미 만든 특정 그룹의 기준 광고를 바탕으로 하고 Azure AD에 동기화할 수 있습니다. 또한 Azure AD에서 직접 만들 수도 있습니다. 이 예제에서는 **미국 사용자 그룹**을 **노트북 사용자** 그룹의 부모로 사용합니다.
@@ -174,7 +169,8 @@ BYOD 또는 혼합의 경우에 로컬 개인 정보 보호 규정을 침해하�
 
 이전 예제에 나오는 같은 방법을 따라 특정 OS 플랫폼을 사용하는 <!--devices?--> 사용자를 기반으로 그룹을 만들 수 있습니다.
 
-> [!NOTE] 사용자가 여러 모바일 플랫폼/운영 체제를 사용하며 사용자를 Android 사용자, iOS 사용자 또는 Windows 사용자로 분류하는 자동화된 방식이 없는 경우 장치 수준에서 정책을 적용하는 것이 좋습니다. 이렇게 하면 OS 관련 정책을 적용할 때 유연성이 커집니다.
+> [!NOTE]
+> 사용자가 여러 모바일 플랫폼/운영 체제를 사용하며 사용자를 Android 사용자, iOS 사용자 또는 Windows 사용자로 분류하는 자동화된 방식이 없는 경우 장치 수준에서 정책을 적용하는 것이 좋습니다. 이렇게 하면 OS 관련 정책을 적용할 때 유연성이 커집니다.
 >
 > 장치의 OS에 따라 동적으로 그룹을 프로비전할 수 없습니다. 이 작업을 수행할 때는 AD 또는 AAD 보안 그룹을 사용합니다.
 
@@ -218,6 +214,7 @@ BYOD 또는 혼합의 경우에 로컬 개인 정보 보호 규정을 침해하�
 [그룹 만들기](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

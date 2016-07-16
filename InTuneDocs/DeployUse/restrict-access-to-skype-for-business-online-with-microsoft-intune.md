@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: 비즈니스용 Skype Online에 대한 액세스 제한 | Microsoft Intune
-description:
-keywords:
+title: "비즈니스용 Skype Online에 대한 액세스 제한 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisgre
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 5cbf748ffee8fbb53f7e64a5499f06d5bd89c415
+ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
+
 
 ---
 
@@ -39,7 +32,7 @@ ms.suite: ems
 비즈니스용 Skype Online에 대한 조건부 액세스 정책을 구성하기 **전에** 다음을 수행해야 합니다.
 - **비즈니스용 Skype Online 구독**이 있고 비즈니스용 Skype Online 라이선스를 사용자에게 할당해야 합니다.
 - **Enterprise Mobility Suite** 또는 **Azure Active Directory Premium**에 대한 구독이 있어야 합니다.
--   비즈니스용 Skype Online에 대해 **최신 인증을 사용 하도록 설정**합니다. Microsoft Connect에 로그인하고 최신 인증 프로그램에 등록되도록 [이 양식](https://connect.microsoft.com/office/Survey/NominationSurvey.aspx?SurveyID=17299&ProgramID=8715)을 작성합니다.
+-   비즈니스용 Skype Online에 대해 [최신 인증을 사용하도록 설정](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune)합니다. 
 -  모든 최종 사용자가 **비즈니스용 Skype Online**을 사용 중이어야 합니다. 비즈니스용 Skype Online과 비즈니스용 Skype 온-프레미스를 함께 배포한 경우 최종 사용자에게 조건부 액세스 정책이 적용되지 않습니다.
 
     비즈니스용 Skype Online에 액세스해야 하는 장치는 다음과 같아야 합니다.
@@ -75,9 +68,11 @@ ms.suite: ems
 ### 2단계: 준수 정책 구성 및 배포
 정책의 영향을 받을 모든 장치에 규정 준수 정책을 [만들고](create-a-device-compliance-policy-in-microsoft-intune.md) [배포](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)합니다. **대상 그룹**에서 사용자가 사용하는 모든 장치가 됩니다.
 
+> [!NOTE]
 > [!NOTE]규정 준수 정책을 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 그룹에 배포하는 동안 Azure Active Directory 보안 그룹을 조건부 액세스 정책의 대상으로 합니다.
 
 
+> [!IMPORTANT]
 > [!IMPORTANT] 규정 준수 정책을 배포하지 않은 경우 장치는 준수하는 것으로 간주됩니다.
 
 준비가 되었으면 **3단계**를 계속합니다.
@@ -119,6 +114,7 @@ ms.suite: ems
 * **AAD에 등록되어 있고 규정을 준수하는 장치** – 이러한 장치는 비즈니스용 Skype Online에 액세스할 수 있습니다.
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jul16_HO2-->
 
 

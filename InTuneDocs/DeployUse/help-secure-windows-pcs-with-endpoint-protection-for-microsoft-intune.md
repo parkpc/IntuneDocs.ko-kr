@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Windows PC용 Endpoint Protection | Microsoft Intune
-description:
-keywords:
+title: "Windows PC용 Endpoint Protection | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
-manager: jeffgilb
+manager: muhosabe
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 002241bf-6cd0-4c75-a4f0-891ac7e6721a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 9b96e6c49ec9122961588156d77bf94cdbccd787
+ms.openlocfilehash: b1b1cc90672903ac0336151373272b5e20e56165
+
 
 ---
 
@@ -52,7 +46,8 @@ IT 관리자의 최우선 업무 중 하나는 맬웨어와 바이러스로부�
 
     -   타사 끝점 보호 응용 프로그램을 수동으로 제거합니다.
 
-> [!NOTE] Intune은 타사 끝점 보호 응용 프로그램을 자동으로 제거하지 않습니다.
+> [!NOTE]
+> Intune은 타사 끝점 보호 응용 프로그램을 자동으로 제거하지 않습니다.
 
 ## Microsoft Intune Endpoint Protection 구성 방법
 다음 단계를 사용하여 Microsoft Intune용 Endpoint Protection을 구성할 수 있습니다.
@@ -162,7 +157,8 @@ Intune 콘솔의 오른쪽 아래 모서리에 있는 **원격 작업** 링크�
   - **속성 보기** – 선택한 맬웨어에 대한 추가 정보가 포함된 페이지를 엽니다.
   - **이 맬웨어에 대한 자세한 정보** – 맬웨어에 대한 추가 정보가 포함된 Microsoft 맬웨어 보호 센터의 항목을 엽니다.
 
-> [!IMPORTANT] **보호** 작업 영역은 클라이언트를 설치하고 하나 이상의 컴퓨터 클라이언트를 관리하게 될 때까지 관리자 콘솔에 표시되지 않습니다.
+> [!IMPORTANT]
+> **보호** 작업 영역은 클라이언트를 설치하고 하나 이상의 컴퓨터 클라이언트를 관리하게 될 때까지 관리자 콘솔에 표시되지 않습니다.
 
   ![Endpoint Protection 모니터링](./media/pol-sa-ep-monitor.png)
 
@@ -181,7 +177,7 @@ Intune은 Intune 클라이언트와 함께 설치된 원격 관리 PC에서 Endp
 1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **그룹** > **개요** > **모든 장치** > **모든 컴퓨터**로 이동하여 대상으로 지정할 컴퓨터를 선택합니다.
 
 2. **원격 작업** 드롭다운 목록을 클릭한 후 작업을 선택합니다. 원격 컴퓨터에서 실행할 작업입니다.
-![원격 맬웨어 검색 실행](../media/ep_sa_malwarescan.png)
+
 
 
 
@@ -192,6 +188,7 @@ Intune은 Intune 클라이언트와 함께 설치된 원격 관리 PC에서 Endp
 [Windows PC를 보호하는 정책](policies-to-protect-windows-pcs-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO5-->
 
 

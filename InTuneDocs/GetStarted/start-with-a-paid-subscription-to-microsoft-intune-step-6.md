@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 정책 만들기 및 앱 게시 | Microsoft Intune
-description:
-keywords:
+title: "정책 만들기 및 앱 게시 | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: e0d8e98f-7dd8-4cbf-887c-a9af63ffe970
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 2847c9af38ae0ddddc8d76d548ae7abddc63e4c1
+ms.openlocfilehash: b3b65a1fd1e426bf566f39382321a29e913f102c
+
 
 ---
 
@@ -63,7 +57,8 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 
     ![admin-console-apps-workspace](./media/apps.png)
 
-    > [!NOTE] **Intune 소프트웨어 게시자**를 처음으로 시작할 때에는 응용 프로그램이 설치되는 동안 짧은 지연이 발생합니다.
+    > [!NOTE]
+    > **Intune 소프트웨어 게시자** 를 처음으로 시작할 때에는 응용 프로그램이 설치되는 동안 짧은 지연이 발생합니다.
 
 2.  보안 경고를 검토하고 **실행**을 선택합니다.
 
@@ -114,6 +109,7 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 >[&larr; **사용자 및 장치 구성**](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)       [**회사 포털 사용자 지정** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-7.md)  
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

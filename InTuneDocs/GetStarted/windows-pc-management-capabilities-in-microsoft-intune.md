@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Windows PC 관리 기능 | Microsoft Intune
-description:
-keywords:
+title: "Windows PC 관리 기능 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 77fa5c66-a87c-47df-964c-800eea509b33
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: owenyen
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 665e4a1aa7ee22db91b47660a179384f7c3e4393
+ms.openlocfilehash: 9e7a2f5cb2afdeca737c0c8b1b91418352ad5539
+
 
 ---
 
@@ -39,6 +33,8 @@ ms.suite: ems
 -   **소프트웨어 라이선스 관리** - 사용 가능한 소프트웨어 라이선스 수와 사용 가능한 라이선스 중 현재 사용 중인 라이선스 수를 추적합니다.
 -   **앱 배포** - 관리하는 PC에 소프트웨어를 배포합니다. 일부 앱 관리 기능은 클라이언트 소프트웨어를 사용하여 PC를 관리하면 사용할 수 없습니다.
 
+
+Intune에서는 최대 7,000대의 Windows 장치에서 PC 클라이언트 소프트웨어 설치하도록 지원합니다.
 
 ## 운영 체제 요구 사항
 Intune은 다음 Windows 버전(x86 및 x64)을 실행하는 PC를 관리할 수 있습니다.
@@ -77,6 +73,7 @@ Intune은 다음 Windows 버전(x86 및 x64)을 실행하는 PC를 관리할 수
 [Microsoft Intune의 모바일 장치 관리 기능](./mobile-device-management-capabilities-in-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

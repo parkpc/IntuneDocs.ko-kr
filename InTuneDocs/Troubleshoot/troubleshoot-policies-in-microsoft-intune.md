@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: 정책 문제 해결 | Microsoft Intune
-description:
-keywords:
+title: "정책 문제 해결 | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 05/26/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 99fb6db6-21c5-46cd-980d-50f063ab8ab8
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: ac3417781df0a5b092a70620aa7343849b1e8c82
+ms.openlocfilehash: 3ac6b06b7eb85503786b4d8b0b9bd2a30d2a15e6
+
 
 ---
 
@@ -53,12 +46,13 @@ Intune 관리 콘솔에서 모든 장치에는 **장치 속성**아래에 정책
 
 ![Intune 장치 정책](../media/Intune-Device-Policy-v.2.jpg)
 
+> [!NOTE]
 > [!NOTE] 제한 수준이 다른 두 정책을 같은 장치나 사용자에 적용하면 보다 제한적인 정책이 실제로 적용됩니다.
 
 ## 정책 새로 고침 및 업데이트 간격
 정책은 일정한 간격마다 새로 고쳐지고 업데이트됩니다. 일반적으로 변경 후 15분 내에 정책이 장치에 등록되어야 합니다. 일정한 정책 새로 고침 간격에 대한 자세한 내용은 다음과 같습니다.
 
--   **MDM에 등록된 Windows 장치**: 장치에서 현지 시간으로 오전 3시에 예약된 작업에 의해 트리거되며 매일 발생합니다.
+-   **MDM에 대해 등록된 Windows 장치**: 정책은 Windows 8.1 및 Windows 10 장치의 경우 8시간마다 업데이트되고, Windows RT 장치의 경우 24시간마다 업데이트됩니다.
 
 -   **Windows Phone**: 정책이 8시간마다 업데이트됩니다. 회사 포털의 **설정**에서 새로 고침을 통해 강제로 적용할 수 있습니다.
 
@@ -75,6 +69,7 @@ Intune 관리 콘솔에서 모든 장치에는 **장치 속성**아래에 정책
 
 2.  클라이언트 소프트웨어가 제거될 때까지 20분 정도 기다립니다.
 
+    > [!NOTE]
     > [!NOTE] 프로그램 및 기능에서 클라이언트를 제거하지 마세요.
 
 3.  시작 메뉴에서 **UAC**를 입력하여 사용자 계정 컨트롤 설정을 엽니다.
@@ -116,6 +111,7 @@ Android MDM에서는 다른 플랫폼에서 허용하는 것처럼 서비스가 
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
 
 
-<!--HONumber=May16_HO4-->
+
+<!--HONumber=Jul16_HO2-->
 
 

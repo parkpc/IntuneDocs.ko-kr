@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: 경고 관리 | Microsoft Intune
-description:
-keywords:
+title: "경고 관리 | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 74dc4ce4-21da-4f40-a07f-3eea34561eee
-
-# optional metadata
-
 ROBOTS: noindex,nofollow
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
+ms.openlocfilehash: bfea7213f67b55807045bfd8b29fdb083b841a56
+
 
 ---
 
@@ -61,7 +56,7 @@ Intune 관리 콘솔의 **경고** 작업 영역을 사용하여 조직의 전�
 
 #### 게시판 경고 보기 및 관리 하려면
 
-1.  Intune 관리 콘솔에서 **시스템 개요**를 클릭합니다..
+1.  Intune 관리 콘솔에서 **시스템 개요**를 클릭합니다.
 
 2.  중요 서비스 공지가 있는 경우 **게시판** 영역에 표시됩니다.
 
@@ -72,7 +67,7 @@ Intune 관리 콘솔의 **경고** 작업 영역을 사용하여 조직의 전�
 
 #### 구독 상태를 보려면
 
-1.  Intune 관리 콘솔에서 **시스템 개요**를 클릭합니다..
+1.  Intune 관리 콘솔에서 **시스템 개요**를 클릭합니다.
 
 2.  **시스템 상태 영역**에서 다양한 Microsoft Intune 구성 요소의 상태를 살펴볼 수 있습니다. 수 있는 링크를 포함 하는 많은 항목에 대 한 자세한 내용은 드릴 다운 합니다. 예를 들어 **Endpoint Protection**에서 인스턴스 수를 선택하면 검색된 맬웨어 목록과 함께 **Endpoint Protection** 작업 영역이 표시됩니다. 장치의 수를 선택하면 맬웨어가 검색된 장치의 목록과 함께 **그룹** 작업 영역이 표시됩니다.
 
@@ -91,27 +86,28 @@ Intune 경고는 다음과 같은 이벤트 중 하나가 발생할 때까지 �
 
 1.  Intune 관리 콘솔에서 다음 중 하나를 수행합니다.
 
-    1.  **경고 목록에서 경고를 종결하려면** – **경고 &gt; 모든 경고**를 클릭합니다. 경고를 선택한 후 **경고 종결**을 클릭합니다..
+    1.  **경고 목록에서 경고를 종결하려면** – **경고 &gt; 모든 경고**를 클릭합니다. 경고를 선택한 후 **경고 종결**을 클릭합니다.
 
-    2.  **특정 장치에 대한 경고를 종결하려면** – **그룹 &gt; 모든 장치**를 클릭합니다. 장치를 선택하고 **속성 보기**를 클릭합니다. 그런 다음 **경고** 탭에서 경고를 선택한 후 **경고 종결**을 클릭합니다..
+    2.  **특정 장치에 대한 경고를 종결하려면** – **그룹 &gt; 모든 장치**를 클릭합니다. 장치를 선택하고 **속성 보기**를 클릭합니다. 그런 다음 **경고** 탭에서 경고를 선택한 후 **경고 종결**을 클릭합니다.
 
     3.  **게시판 경고를 종결하려면** – **시스템 개요**를 클릭합니다. 게시판 경고 옆의 회색 **X**를 클릭합니다.
 
 #### 보고 종결된 된 경고 다시 활성화
 
-1.  Intune 관리 콘솔에서 **경고 &gt; 모든 경고**를 클릭합니다..
+1.  Intune 관리 콘솔에서 **경고 &gt; 모든 경고**를 클릭합니다.
 
-2.  **필터** 목록에서 **종결**을 클릭합니다..
+2.  **필터** 목록에서 **종결**을 클릭합니다.
 
     이름 및 경고에 대 한 추가 정보가 관리 목록 창에 나타납니다. 선택한 경고에 대 한 정보가 미리 보기 창에 나타납니다.
 
-3.  선택한 경고를 다시 활성화하려면 **경고 다시 활성화**를 선택합니다..
+3.  선택한 경고를 다시 활성화하려면 **경고 다시 활성화**를 클릭합니다.
 
 ### 참고 항목
-[Microsoft Intune 경고 알림 받기](get-notified-by-microsoft-intune-alerts.md)
+[Microsoft Intune 경고 알림 받기](get-notified-by-alerts.md)
 
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

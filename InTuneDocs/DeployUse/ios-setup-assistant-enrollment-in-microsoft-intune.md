@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Intune을 사용한 iOS 장치용 설정 도우미 등록 | Microsoft Intune
-description:
-keywords:
+title: "Microsoft Intune을 사용한 iOS 장치용 설정 도우미 등록 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 46e5b027-4280-4809-b45f-651a6ab6d0cd
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: dagerrit
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f3637e79e7b6f93820e775932653c41879f369fe
+ms.openlocfilehash: b9cb10ccb26d4f61d63fb2dc6c18be48cc0a3182
+
 
 ---
 
@@ -67,6 +61,9 @@ Apple 구성기를 사용하면 iOS 장치를 초기화하여 장치의 새 사�
             -   **사용자 선호도 없음** – 장치에 사용자 정보가 없습니다. 로컬 사용자 데이터에 액세스하지 않고도 작업을 수행하는 장치에 대해 이 정보를 사용합니다. 사용자 정보를 요구하는 앱은 비활성화되거나 작동하지 않습니다.
 
         -   **장치 그룹 사전 할당** – 이 프로필이 배포된 모든 장치는 처음에 이 그룹에 속합니다. 등록 후 장치를 다시 할당할 수 있습니다.
+
+        >[!Important]
+        >그룹 할당이 Intune에서 Azure Active Directory로 이동됩니다. [자세한 정보](http://go.microsoft.com/fwlink/?LinkID=787064)
 
           -  **장치 등록 프로그램** - Apple DEP(장치 등록 프로그램)는 설정 도우미 등록과 함께 사용할 수 없습니다. 토글이 **꺼짐**으로 설정되었는지 확인합니다.
 
@@ -155,6 +152,7 @@ Apple 구성기를 사용하면 iOS 장치를 초기화하여 장치의 새 사�
 [장치 등록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jul16_HO1-->
 
 

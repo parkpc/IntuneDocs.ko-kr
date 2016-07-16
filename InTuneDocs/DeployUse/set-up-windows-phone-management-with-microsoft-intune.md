@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Intune을 사용한 Windows 10 Mobile 및 Windows Phone 관리 설정 | Microsoft Intune
-description:
-keywords:
+title: "Microsoft Intune을 사용한 Windows 10 Mobile 및 Windows Phone 관리 설정 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: f5615051-2dd1-453b-9872-d3fdcefb2cb8
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c5d1b53f09ce2f475cd934e36ddb19d019737431
+ms.openlocfilehash: e67a5be851b68d87a4cdda871824cf0ecb14579e
+
 
 ---
 
@@ -61,6 +55,7 @@ Microsoft Intune을 사용하여 Windows 10 Mobile 또는 Windows Phone 장치�
 회사 포털을 장치에 배포하지 않는다면 추가 작업이 필요하지 않습니다.  관리 콘솔에서 2단계 및 3단계는 무시해도 됩니다.
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

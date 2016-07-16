@@ -1,43 +1,47 @@
 ---
-# required metadata
-
-title: 장치 등록 문제 해결| Microsoft Intune
-description:
-keywords:
+title: "장치 등록 문제 해결| Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 05/26/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: damionw
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d12a31eb0727f7ca0c460049ac6fffb314daf70e
+ms.openlocfilehash: 62668c607bc3064cf8148fd7929b3c1268b721d7
+
 
 ---
 
 # Intune에서 장치 등록 문제 해결
 
-여기에서는 몇 가지 장치 등록 문제와 이 문제를 해결하는 방법을 제공합니다.
-
-> [!NOTE]
-> 관리되는 장치 사용자는 여러분이 검토할 등록 및 진단 로그를 수집할 수 있습니다. 로그 수집에 대한 지침은 다음과 같이 제공됩니다.
->- [USB 케이블을 사용하여 IT 관리자에게 Android 진단 데이터 로그 보내기](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android)
->- [메일을 사용하여 IT 관리자에게 Android 진단 데이터 로그 보내기](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-email-android)
->- [IT 관리자에게 Android 등록 오류 보내기](/intune/enduser/send-enrollment-errors-to-your-it-administrator-android)
->- [IT 관리자에게 iOS 등록 오류 보내기](/intune/enduser/send-errors-to-your-it-admin-ios)
+이 항목에서는 장치 등록 문제 해결을 위한 제안 사항을 제공합니다. 이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
 
 
-이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
+## 초기 문제 해결 단계
+
+문제 해결을 시작하기 전에 등록이 설정되도록 Intune을 올바르게 구성했는지 확인하세요. 다음에서 이러한 구성 요구 사항에 대해 자세히 읽어볼 수 있습니다.
+
+-   [Microsoft Intune에 장치를 등록하도록 준비](/intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune)
+-   [iOS 및 Mac 관리 설정](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
+-   [Microsoft Intune을 사용한 Windows Phone 및 Windows 10 Mobile 관리 설정](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)
+-   [Windows 장치 관리 설정](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
+
+
+관리되는 장치 사용자는 여러분이 검토할 등록 및 진단 로그를 수집할 수 있습니다. 로그 수집에 대한 지침은 다음과 같이 제공됩니다.
+
+- [USB 케이블을 사용하여 IT 관리자에게 Android 진단 데이터 로그 보내기](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android)
+- [메일을 사용하여 IT 관리자에게 Android 진단 데이터 로그 보내기](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-email-android)
+- [IT 관리자에게 Android 등록 오류 보내기](/intune/enduser/send-enrollment-errors-to-your-it-administrator-android)
+- [IT 관리자에게 iOS 등록 오류 보내기](/intune/enduser/send-errors-to-your-it-admin-ios)
+
+
 
 ## 일반적인 등록 문제
 이러한 문제는 모든 장치 플랫폼에서 발생할 수 있습니다.
@@ -103,7 +107,8 @@ ms.suite: ems
 
 1.  MDM 기관이 사용 중인 Intune 서비스 버전, 즉 Intune, O365 MDM 또는 System Center Configuration Manager with Intune에 대해 적절히 설정되었는지 확인합니다. Intune의 경우, MDM 기관은 **관리** &gt; **모바일 장치 관리**에 설정되어 있습니다. Intune의 Configuration Manager의 경우, Intune 커넥터를 구성할 때 설정하고, O365에서는 **모바일 장치** 설정입니다.
 
-    > [!NOTE] MDM 기관을 설정한 후에는 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 지원 팀에 연락해야만 변경할 수 있습니다.
+    > [!NOTE]
+    > MDM 기관을 설정한 후에는 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 지원 팀에 연락해야만 변경할 수 있습니다.
 
 2.  해당 UPN이 계정 포털에서 Active Directory 정보와 일치하는지 확인하여 사용자의 자격 증명이 Azure Active Directory와 올바른 동기화했는지 확인합니다.
     UPN은 Active Directory 정보와 일치하지 않으면
@@ -255,8 +260,7 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 
 |오류 코드|가능한 문제|권장되는 해결 방법|
 |--------------|--------------------|----------------------------------------|
-|0x80CF0437 |클라이언트 컴퓨터의 시계가 올바른 시간으로 설정되어 있지 않습니다.|클라이언트 컴퓨터의 시계 및 표준 시간대가 올바른 시간 및 표준 시간대로 설정되어 있는지 확인합니다.
-|
+|0x80CF0437 |클라이언트 컴퓨터의 시계가 올바른 시간으로 설정되어 있지 않습니다.|클라이언트 컴퓨터의 시계 및 표준 시간대가 올바른 시간 및 표준 시간대로 설정되어 있는지 확인합니다.|
 |0x80240438, 0x80CF0438, 0x80CF402C|Intune 서비스에 연결할 수 없습니다. 클라이언트 프록시 설정을 확인합니다.|클라이언트 컴퓨터의 프록시 구성을 Intune에서 지원하는지 그리고 클라이언트 컴퓨터가 인터넷에 연결되어 있는지 확인합니다.|
 |0x80240438, 0x80CF0438|Internet Explorer 및 로컬 시스템의 프록시 설정이 구성되어 있지 않습니다.|Intune 서비스에 연결할 수 없습니다. 클라이언트 프록시 설정을 확인하고 클라이언트 컴퓨터의 프록시 구성이 Intune에서 지원되는 지와 클라이언트 컴퓨터에서 인터넷에 연결할 수 있는지 확인하세요.|
 |0x80043001, 0x80CF3001, 0x80043004, 0x80CF3004|등록 패키지가 오래되었습니다.|관리 작업 영역에서 최신 클라이언트 소프트웨어 패키지를 다운로드하여 설치합니다.|
@@ -280,6 +284,7 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jul16_HO1-->
 
 

@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: 회사 포털 앱을 사용하는 동안 오류가 발생하는 경우 | Microsoft Intune
-description:
-keywords:
+title: "회사 포털 앱을 사용하는 동안 오류가 발생하는 경우 | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 05/04/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 09cd4ed6-1ce4-4530-9753-59808f01c6d7
-
-# optional metadata
-
-ROBOTS:
-#audience:
-#ms.devlang:
+ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 98ba0968653ceaf13ab5422468040f8e2ce50422
+ms.openlocfilehash: 9f377cf9293c9697a59c736b07a82bca09728e14
+
 
 ---
 
@@ -40,6 +35,7 @@ iOS 장치에서 회사 포털 앱을 사용할 때 오류가 표시되면 IT �
 ### 참고 항목
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

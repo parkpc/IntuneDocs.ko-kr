@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Exchange에서 관리하는 모바일 장치 초기화 | Microsoft Intune
-description:
-keywords:
+title: "Exchange에서 관리하는 모바일 장치 초기화 | Microsoft Intune"
+description: 
+keywords: 
 author: nathbarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: e116b620-1e12-4b5c-9905-2f7acf2ae530
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
+ms.openlocfilehash: 47e4533b6f97ff711c2efbeb6102f497af615871
+
 
 ---
 
@@ -36,6 +30,7 @@ Microsoft Intune을 사용하면 Intune Exchange Connector를 통해 EAS(Exchang
 |선택적 초기화/정책|정책 적용이 제거되지만 설정은 변경되지 않음|정책 적용이 제거되지만 설정은 변경되지 않음|정책 적용이 제거되지만 설정은 변경되지 않음|정책 적용이 제거되지만 설정은 변경되지 않음|정책 적용이 제거되지만 설정은 변경되지 않음|
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

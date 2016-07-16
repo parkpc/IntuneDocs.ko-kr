@@ -1,31 +1,24 @@
 ---
-# required metadata
-
-title: 메일 및 O365 서비스 액세스 제한 | Microsoft Intune
-description:
-keywords:
+title: "메일 및 O365 서비스 액세스 제한 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/16/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisgre
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: f770bdc312879d1c833e8861494ecd2204ea603a
+ms.openlocfilehash: ebce26b0e09bb5282475cb1a39c8070a5d5b44aa
+
 
 ---
 
-# Microsoft Intune을 사용한 메일 및 O365 서비스 액세스 제한
+# Microsoft Intune을 사용한 메일, O365 및 기타 서비스에 대한 액세스 제한
 Intune의 조건부 액세스를 사용하여 회사 메일 및 O365 서비스에 대한 액세스를 제한할 수 있습니다. Intune의 조건부 액세스 기능을 사용하면 회사 메일 및 O365 서비스에 대한 액세스가 설정한 규칙을 준수하는 장치로 제한되도록 할 수 있습니다.
 ## 조건부 액세스는 어떻게 작동합니까?
 규정 준수 정책 설정은 장치의 규정 준수를 평가하는 데 사용됩니다. 조건부 액세스 정책은 평가를 사용하여 특정 서비스에 대한 액세스를 제한 또는 허용합니다. 조건부 액세스 정책을 규정 준수 정책과 함께 사용할 경우 준수 장치만 서비스에 액세스할 수 있습니다.
@@ -37,7 +30,7 @@ Intune의 조건부 액세스를 사용하여 회사 메일 및 O365 서비스�
 
 조건부 액세스의 일반적인 흐름:
 
-![장치에서 서비스에 대한 액세스가 허용 또는 차단되는지 여부를 결정하는 데 사용되는 결정 지점을 보여 주는 다이어그램](./media/ConditionalAccess4.png)
+![장치에서 서비스에 대한 액세스가 허용 또는 차단되는지 여부를 결정하는 데 사용되는 결정 지점을 보여 주는 다이어그램](../media/ConditionalAccess4.png)
 
 ## 조건부 액세스를 구성하는 방법
 조건부 액세스를 사용하여 Microsoft **Exchange 온-프레미스**, **Exchange Online**, **Exchange Online Dedicated**, **SharePoint Online** 및 **비즈니스용 Skype Online**에 대한 액세스를 관리합니다.
@@ -67,8 +60,10 @@ Intune의 조건부 액세스를 사용하여 회사 메일 및 O365 서비스�
   - [레거시 Exchange Online Dedicated에 대해 조건부 액세스 정책 만들기](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
   - [SharePoint Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
   - [비즈니스용 Skype Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
+  - [Dynamics CRM Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

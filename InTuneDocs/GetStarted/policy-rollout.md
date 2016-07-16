@@ -1,34 +1,28 @@
 ---
-# required metadata
-
-title: 정책 출시 | Microsoft Intune
-description:
-keywords:
+title: "정책 출시 | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 390d5adf-86d2-4e23-ba93-1e61e6b1028b
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
+ms.openlocfilehash: 8935fbc42d7b406a5bcdbfc4353209b4447ae413
+
 
 ---
 
 # 정책 출시
 이 항목에서는 Microsoft Intune에서 정책의 단계적 출시에 대한 특정한 권장 사항을 제공합니다. 이 방법은 새 Intune 배포에 적용하는 첫 번째 정책 또는 기존 배포에 추가하는 정책에 적용됩니다.
 
-출시 단계에 대한 일반 정보는 [Microsoft Intune 배포에 대한 출시 단계](rollout-phases-for-microsoft-intune-deployment.md)를 참조하세요..
+출시 단계에 대한 일반 정보는 [Microsoft Intune 배포에 대한 출시 단계](rollout-phases-for-microsoft-intune-deployment.md)를 참조하세요.
 
 ### 정책 출시 단계
 정책 출시 단계는 다음과 같습니다.
@@ -61,9 +55,9 @@ Intune 정책 배포의 범위를 정의합니다.
 ## 개념 증명
 개념 증명 단계에서는 테스트 목적으로 엄격하게 구성된 장치 및 사용자의 실험 환경에서 정책 배포를 테스트 합니다.
 
--   지원 센터가 이 단계에 참여하여 테스트 및 프로덕션 배포에서 발생할 수 있는 문제를 알아봅니다. 문제 해결 정보는 [Microsoft Intune에서 정책 문제 해결](/intune/troubleshoot/troubleshoot-policies-in-microsoft-intune)에서 사용할 수 있습니다..
+-   지원 센터가 이 단계에 참여하여 테스트 및 프로덕션 배포에서 발생할 수 있는 문제를 알아봅니다. 문제 해결 정보는 [Microsoft Intune에서 정책 문제 해결](/intune/troubleshoot/troubleshoot-policies-in-microsoft-intune)에서 사용할 수 있습니다.
 
--   프로세스의 이 시점에서는 파일럿 및 프로덕션 사용자에 대한 의사소통 계획을 개발해야 합니다. 이 계획은 최소한 변화할 장치 동작과 시기, 변화에 대한 비즈니스 목적, 사용자 또는 IT 담당 직원에게 문제가 발생한 경우 해야 할 일, 직접 진단 정보 및 기술 지원 팀에 문의하는 방법을 포함해야 합니다.
+-   이 시점에서는 프로세스에서 파일럿 및 프로덕션 사용자에 대한 통신 계획을 개발해야 합니다. 이 계획은 최소한 변화할 장치 동작과 시기, 변화에 대한 비즈니스 목적, 사용자 또는 IT 담당 직원에게 문제가 발생한 경우 해야 할 일, 직접 진단 정보 및 기술 지원 팀에 문의하는 방법을 포함해야 합니다.
 
 ## 파일럿
 파일럿 중에 작은 그룹의 테스트 사용자 및 장치에 정책을 배포합니다. Intune에서 파일럿 실행 정책에 대한 특정 고려 사항이 있습니다.
@@ -102,6 +96,7 @@ Intune 정책 배포의 범위를 정의합니다.
 [Microsoft Intune의 정책 문제 해결](/intune/troubleshoot/troubleshoot-policies-in-microsoft-intune)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

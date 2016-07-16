@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 앱 및 데이터 보호 | Microsoft Intune
-description:
-keywords:
+title: "앱 및 데이터 보호 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 5c46e188-87eb-4ce2-b184-24809e8bf783
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisgre
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
+ms.openlocfilehash: 9445b4b171eb2102d73cf0e866e85b535274eee2
+
 
 ---
 
@@ -56,6 +50,7 @@ Microsoft Office 앱 등의 앱에는 앱 SDK가 기본 제공됩니다. 지원�
 데이터 이동을 제한하는 것 외에도 장치를 분실하거나 도난당한 경우 또는 사용자가 회사에서 더 이상 근무하지 않는 경우 [회사 데이터를 선택적으로 지울](wipe-managed-company-app-data-with-microsoft-intune.md) 수 있으며 개인 데이터만 내부에 남길 수 있습니다.
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Mac OS X 정책 설정 | Microsoft Intune
-description:
-keywords:
+title: "Mac OS X 정책 설정 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 98b2f19b-bee8-42d7-a215-a716d56a25a3
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
+ms.openlocfilehash: bbbb666fdc34a82d247d760d156d48c5ac72374c
+
 
 ---
 
@@ -67,7 +60,8 @@ Microsoft Intune **Mac OS X 일반 구성 정책**을 사용하여 다음 설정
 |**앱 가져오기**|지정한 앱 목록을 쉼표로 구분된 값 파일로 가져옵니다. 파일의 형식, 앱 이름, 게시자, 앱 번들 ID를 사용합니다.|
 |**편집**|선택한 앱의 이름, 게시자 및 앱 번들 ID를 편집할 수 있습니다.|
 |**삭제**|목록에서 선택한 앱을 삭제합니다.|
-> [!TIP] Intune 보고서에 대한 자세한 내용은 [보고서를 사용하는 Microsoft Intune 작업 이해](understand-microsoft-intune-operations-by-using-reports.md) 항목을 참조하세요.
+> [!TIP]
+> Intune 보고서에 대한 자세한 내용은 [보고서를 사용하는 Microsoft Intune 작업 이해](understand-microsoft-intune-operations-by-using-reports.md) 항목을 참조하세요.
 
 > [!IMPORTANT]
 > Mac OS X 장치가 절전 모드이면 정책과 프로필을 전달하거나 인벤토리에 추가할 수 없습니다. 따라서 다음 번에 장치를 절전 모드에서 해제할 때까지 Intune 콘솔에 **오류가 있는 정책 설정** 상태가 일시적으로 표시될 수도 있습니다.
@@ -105,7 +99,7 @@ Microsoft Intune **Mac OS X 사용자 지정 구성 정책**을 사용하면 [Ap
 |설정 이름|세부 정보|
     |----------------|--------------------|
     |**사용자 지정 구성 프로필 이름(사용자에게 표시됨)**|장치 및 Intune 정책 보고서에 표시될 정책 이름을 제공합니다.|
-    |**구성 프로필 파일**|**가져오기**를 클릭한 다음 Apple Configurator를 사용하여 만든 구성 프로필을 탐색합니다. **팁:** 구성 프로필 만들기에 대한 도움말은 이 항목의 [구성 프로필 파일을 만드는 방법](#BKMK_Prof)을 참조하세요.|
+    |**구성 프로필 파일**|**가져오기**를 클릭한 다음 Apple Configurator를 사용하여 만든 구성 프로필을 탐색합니다. **팁:** 구성 프로필 만들기에 대한 도움말은 이 항목의 **구성 프로필 파일을 만드는 방법**을 참조하세요.|
     |**구성 프로필 세부 정보**|가져온 구성 프로필에 대한 XML 코드를 표시합니다.|
 
 
@@ -126,6 +120,7 @@ Microsoft Intune **Mac OS X 사용자 지정 구성 정책**을 사용하면 [Ap
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jul16_HO2-->
 
 

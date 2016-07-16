@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: 보고서를 사용하여 작업 이해 | Microsoft Intune
-description:
-keywords:
+title: "보고서를 사용하여 작업 이해 | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/21/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 857309c2-61c9-4c22-becf-4839fedeaece
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: pbala
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 617f1cd42de49f0c8675bd450591a390af674e73
+ms.openlocfilehash: b8af36cef1bcb9077d0ab611a14fb88c0f458ece
+
 
 ---
 
@@ -45,6 +38,7 @@ Intune 보고서는 조직의 소프트웨어, 하드웨어 및 소프트웨어 
 |**비규격 앱 보고서**|규격 및 비규격 앱 목록에 있는 앱을 설치한 사용자에 대한 정보를 표시합니다. 이 보고서를 사용하여 회사 및 앱 정책을 준수하지 않는 사용자와 장치를 찾을 수 있습니다.|
 |**인증서 규정 준수 보고서**|SCEP 또는 PKCS #12(.PFX)를 통해 사용자와 장치에 발급된 인증서를 표시합니다. 이 보고서를 사용하여 발급, 만료, 해지된 인증서를 찾을 수 있습니다.|
 |**장치 기록 보고서**|사용 중지, 초기화 및 삭제 작업의 기록 로그를 표시합니다. 이 보고서를 사용하여 이전에 장치에 대해 작업을 시작한 사람을 확인합니다.|
+|**상태 증명 보고서**|모바일 장치의 상태를 표시합니다.|
 |**Mac OS X 하드웨어 보고서**|선택한 그룹에 등록된 모든 Mac OS X 장치의 하드웨어 정보를 표시합니다. 이러한 장치에서 수집된 하드웨어 인벤토리에 대한 자세한 내용은 [Microsoft Intune에서 인벤토리를 사용하는 장치 이해](understand-your-devices-with-inventory-in-microsoft-intune.md)를 참조하세요.|
 |**Mac OS X 소프트웨어 보고서**|선택한 그룹의 모든 Mac OS X 장치에 설치된 소프트웨어를 표시합니다. 보고서에는 소프트웨어 이름(번들 ID), 짧은 버전(또는 친숙한) 이름, 버전 및 소프트웨어가 설치된 장치 수가 표시됩니다.|
 
@@ -74,6 +68,7 @@ Intune 보고서는 조직의 소프트웨어, 하드웨어 및 소프트웨어 
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jul16_HO2-->
 
 

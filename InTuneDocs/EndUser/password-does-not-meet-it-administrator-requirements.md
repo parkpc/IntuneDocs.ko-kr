@@ -1,28 +1,19 @@
 ---
-# required metadata
-
-title: 암호가 IT 관리자 요구 사항을 충족하지 않음 | Microsoft Intune
-description:
-keywords:
+title: "암호가 IT 관리자 요구 사항을 충족하지 않음 | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 05/26/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: efb3c261-1f6c-4d39-bfa4-18661f8c59c7
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: cf6a7a005aaf703f2dfc20b89236056dff84e137
 
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-#ms.reviewer: chrisgre
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
 
 ---
 
@@ -46,6 +37,7 @@ PIN 또는 암호를 설정하는 방법이나 장치에서 수행할 수 있는
 
 요구 사항을 준수하도록 암호를 설정하는 방법을 확인하는 데 문제가 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

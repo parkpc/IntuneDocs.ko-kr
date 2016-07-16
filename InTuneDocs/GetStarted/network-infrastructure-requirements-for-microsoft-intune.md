@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 네트워크 인프라 요구 사항 | Microsoft Intune
-description:
-keywords:
+title: "네트워크 인프라 요구 사항 | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 074de65b-84a5-4a01-a824-18ffd838eab0
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c5d1b53f09ce2f475cd934e36ddb19d019737431
+ms.openlocfilehash: b551aca6994780591dabe042420d5f23d98b218b
+
 
 ---
 
@@ -173,6 +167,7 @@ Microsoft Intune을 설정하기 전에, 이 항목과 [Microsoft Intune을 시�
 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

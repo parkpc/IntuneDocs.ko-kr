@@ -1,27 +1,19 @@
 ---
-# required metadata
-
-title: Office 365 관리 포털이 병합된 계정 포털 | Microsoft Intune
-description:
-keywords:
+title: "Office 365 관리 포털이 병합된 계정 포털 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 05/26/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 80f7d796-ad0e-4a50-a6e2-cdc52e7eb57e
+translationtype: Human Translation
+ms.sourcegitcommit: 928b79530ac278f78356f8d1ef9f267077634b5b
+ms.openlocfilehash: 505e446125c938a9a978eb2908cfa0873ed66fcc
 
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-#ms.reviewer: [ALIAS]
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
 
 ---
 
@@ -38,6 +30,7 @@ ms.assetid: 80f7d796-ad0e-4a50-a6e2-cdc52e7eb57e
 [Microsoft Intune 블로그](https://blogs.technet.microsoft.com/microsoftintune/2015/09/01/intune-and-ems-subscriptions-now-available-in-the-office-365-portal/)에 액세스하거나 기존 자격 증명을 사용하여 새로운 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx)(https://portal.office.com/Admin/Default.aspx)에 직접 로그인해 이러한 이동에 대해 자세히 알아보세요.
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

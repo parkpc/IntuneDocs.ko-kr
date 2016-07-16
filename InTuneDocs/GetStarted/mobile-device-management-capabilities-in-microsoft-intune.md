@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 모바일 장치 관리 기능 | Microsoft Intune
-description:
-keywords:
+title: "모바일 장치 관리 기능 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: f23b3ee7-78da-4e53-9fc2-78e58401bcf9
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
+ms.openlocfilehash: 0f460165f251acf95f4af36afa39409d3eb21162
+
 
 ---
 # Microsoft Intune의 모바일 장치 관리 기능
@@ -66,13 +60,14 @@ Microsoft Intune에서 다양한 장치를 서비스에 *등록*하여 관리할
 
 |기능|세부 정보|추가 정보|
 |--------------|-----------|--------------------|
-|인벤토리 및 보고|관리하는 장치와 사용 중인 소프트웨어에 대한 정보를 찾아보세요.|[Microsoft Intune에서 인벤토리를 사용하는 장치 이해](./deploy-use/understand-your-devices-with-inventory-in-microsoft-intune)|
+|인벤토리 및 보고|관리하는 장치와 사용 중인 소프트웨어에 대한 정보를 찾아보세요.|[Microsoft Intune에서 인벤토리를 사용하는 장치 이해](/intune/deploy-use/understand-your-devices-with-inventory-in-microsoft-intune)|
 
 
 ### 참고 항목
-[Microsoft Intune의 Windows PC 관리 기능](./windows-pc-management-capabilities-in-microsoft-intune.md)
+[Microsoft Intune의 Windows PC 관리 기능](windows-pc-management-capabilities-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

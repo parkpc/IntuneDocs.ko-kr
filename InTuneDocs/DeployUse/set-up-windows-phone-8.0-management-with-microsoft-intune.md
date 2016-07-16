@@ -1,47 +1,43 @@
 ---
-# required metadata
-
-title: Windows Phone 8.0 관리 설정 | Microsoft Intune
-description:
-keywords:
+title: "Windows Phone 8.0 관리 설정 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 06/09/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 61e9b6c3-8795-49b0-8ab2-a9a05ee3ea1f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: priyar
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: eed5855f3e27460146703ddf40fd935229a974e5
+ms.openlocfilehash: 02f9b7c7abe2daf942299015bfdfb052755ec2de
+
 
 ---
 
 # Windows Phone 8.0에 대한 장치 관리 설정
 
-Windows Phone 8.0의 경우 Intune 회사 포털 앱을 설치하여 장치 관리를 수행하려면 Symantec 인증서가 있어야 합니다. 또한 인증서는 LOB(기간 업무) 앱에 서명하는 데 필요합니다. 다음 항목은 Windows Phone 8.0에만 해당합니다. Windows 10 Mobile을 비롯하여 Windows Phone 8.1 이상을 관리하려면 [Set up Windows Phone enrollment](set-up-windows-phone-management-with-microsoft-intune.md)(Windows Phone 등록 설정) 항목을 참조하세요.
+Windows Phone 8.0의 경우 Intune 회사 포털 앱을 설치하여 장치 관리를 수행하려면 Symantec 인증서가 있어야 합니다. 또한 인증서는 기간 업무 앱에 서명하는 데 필요합니다. 다음 항목은 Windows Phone 8.0에만 해당합니다. Windows 10 Mobile을 비롯하여 Windows Phone 8.1 이상을 관리하려면 [Set up Windows Phone enrollment](set-up-windows-phone-management-with-microsoft-intune.md)(Windows Phone 등록 설정) 항목을 참조하세요.
 
-> [!IMPORTANT] 2016년 9월부터 Windows 8.0 및 Windows Phone 8.0용 회사 포털 앱을 더 이상 다운로드할 수 없습니다.
+> [!IMPORTANT]
+> 2016년 9월부터 Windows 8.0 및 Windows Phone 8.0용 회사 포털 앱을 더 이상 다운로드할 수 없습니다.
 
 -   **Windows Phone 8** - 인증서 필요
 -   **Windows Phone 8.1 및 Windows 10 Mobile**에는 다음의 경우에만 인증서가 필요합니다.
 
     -   Intune을 사용하여 회사 포털 앱을 배포하려고 합니다.
 
-    -   LOB(기간 업무)(즉, '테스트용으로 로드된') 앱을 배포합니다.
+    -   기간 업무(즉, '테스트용으로 로드된') 앱을 배포합니다.
 
 
 ![인증서 요구 사항 다이어그램](../media/wpcertreqs.png)
 
-  > [!IMPORTANT] 특정 Windows 및 Windows Phone 모바일 장치를 관리하는 데 사용되는 Symantec 인증서는 [주기적으로 갱신해야](renew-a-symantec-code-signing-certificate.md) 합니다.
+  > [!IMPORTANT]
+  > 특정 Windows 및 Windows Phone 모바일 장치를 관리하는 데 사용되는 Symantec 인증서는 [주기적으로 갱신해야](renew-a-symantec-code-signing-certificate.md) 합니다.
 
 Window Phone 모바일 장치 관리에 대한 설치 요구 사항은 장치를 관리하려는 방법에 따라 다릅니다.  회사의 DNS 등록에 두 개의 CNAME를 설정하면 보다 쉽게 등록을 사용할 수 있습니다. 사용자가 저장소에서 회사 포털 앱을 다운로드하려는 경우에 DNS 설정이 구성되었다면 회사 포털을 설정하고 사용자에게 등록 방법을 알려주기만 하면 됩니다.  Windows Phone 8.0 또는 회사 포털을 배포하려는 Windows Phone 8.1의 경우 Symntec 인증서를 사용해 앱에 코드 서명해야 합니다.
 
@@ -70,13 +66,13 @@ Window Phone 모바일 장치 관리에 대한 설치 요구 사항은 장치를
 
     ![Windows Phone 모바일 장치 관리 설정 대화 상자](../media/windows-phone-enrollment.png)
 
-3.  **앱 서명을 지원하기 위한 인증서 관리** [Windows Phone 스토어에 액세스하지 않거나 LOB(기간 업무) 앱이 필요한 Windows Phone 8.0 및 Windows Phone 8.1의 경우 필수입니다.]
+3.  **앱 서명을 지원하기 위한 인증서 관리** [Windows Phone 스토어에 액세스하지 않거나 기간 업무 앱이 필요한 Windows Phone 8.0 및 Windows Phone 8.1의 경우 필수입니다.]
 
     Windows Phone 8.0용 회사 포털 앱을 지원하고 Windows Phone 8.1에 회사 앱을 배포하려면 **Symantec Enterprise 모바일 코드 서명 인증서**를 가져와야 합니다. Windows Phone 장치에서는 Symantec 인증서만 신뢰하기 때문에 사용자가 고유의 인증 기관에서 발급한 인증서는 사용할 수 없습니다. 이 인증서는 다음을 위해 필요합니다.
 
     -   등록 및 휴대폰 관리를 목적으로 [!INCLUDE[winphone8_client_1](../includes/winphone8_client_1_md.md)]에 배포하기 위해 회사 포털 앱에 서명
 
-    -   [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 회사 LOB(기간 업무) 앱을 Windows Phone에 배포할 수 있도록 해당 앱에 서명
+    -   [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 회사 기간 업무 앱을 Windows Phone에 배포할 수 있도록 해당 앱에 서명
 
     아래 단계에 따라 필요한 인증서를 가져오고 회사 포털 앱에 서명할 수 있습니다. Windows Phone 개발자 센터 계정이 필요하며 Symantec 인증서를 구입해야 합니다.
 
@@ -186,6 +182,7 @@ Windows Phone 스토어에서 설치하지 않고 Intune을 사용해 회사 포
     > -   테스트용 로드 앱을 설치해야 하고 Windows Phone 8.0 장치에서 ssp.xap를 등록 및 수신해야 하는 경우 새로운 ssp.xap 소프트웨어 배포를 만들어 **제거** 작업을 통해 배포합니다. Windows Phone 8.0 장치에서는 강제 설치를 지원하지 않거나 앱을 제거하면 배포를 무시하고, Windows Phone 8.1 장치에서는 제거 작업을 지원하여 ssp.xap를 제거합니다.
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

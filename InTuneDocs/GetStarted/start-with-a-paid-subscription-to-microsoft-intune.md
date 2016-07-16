@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Intune 빠른 시작 가이드 | Microsoft Intune
-description:
-keywords:
+title: "Intune 빠른 시작 가이드 | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ed26d65b98a0ae1bbc4fbac682fb53fddd50b4e5
+ms.openlocfilehash: ca0ca74357b59d9cc6fbf4ec7eb237dff972c411
+
 
 ---
 
@@ -41,7 +35,7 @@ ms.suite: ems
 -   프로덕션용 Intune 기능 사용자 지정
 
 >[!TIP]
->적합한 요금제로 Microsoft Intune용 라이선스를 150개 이상 구매하면 Microsoft 전문가가 참여하는 서비스인 "FastTrack 센터 혜택"을 사용하여 Intune 사용 준비가 완료된 환경을 구현할 수 있습니다. [Microsoft Intune 서비스 혜택 설명](https://technet.microsoft.com/library/mt228265.aspx)을 참조하세요..
+>적합한 요금제로 Microsoft Intune용 라이선스를 150개 이상 구매하면 Microsoft 전문가가 참여하는 서비스인 "FastTrack 센터 혜택"을 사용하여 Intune 사용 준비가 완료된 환경을 구현할 수 있습니다. [Microsoft Intune 서비스 혜택 설명](https://technet.microsoft.com/library/mt228265.aspx)을 참조하세요.
 
 
 ## 시작하기 전에
@@ -55,7 +49,7 @@ ms.suite: ems
 관련 준비가 완료되면 Intune 유료 구독 사용을 시작하는 경우 다음 항목이 필요합니다.
 
 ### Silverlight 사용 웹 브라우저가 설치된 장치
-이 항목은 장치, 앱, 정책을 관리하는 Intune 관리 콘솔에 액세스하기 위해 필요합니다. 모바일 장치에서 회사 포털 앱에 액세스하지 않을 때 웹 기반 회사 포털에 액세스하기 위해 웹 브라우저도 필요합니다. 쉽게 하려면, Intune 관리에 사용하는 브라우저에서 "개인 정보 보호 모드" 설정을 사용할 수 있습니다. 예를 들어 Internet Explorer에서 **도구** &gt; **InPrivate 브라우징**을 클릭하면 됩니다.).
+이 항목은 장치, 앱, 정책을 관리하는 Intune 관리 콘솔에 액세스하기 위해 필요합니다. 모바일 장치에서 회사 포털 앱에 액세스하지 않을 때 웹 기반 회사 포털에 액세스하기 위해 웹 브라우저도 필요합니다. 쉽게 하려면, Intune 관리에 사용하는 브라우저에서 "개인 정보 보호 모드" 설정을 사용할 수 있습니다. 예를 들어 Internet Explorer에서 **도구** &gt; **InPrivate 브라우징**을 클릭하면 됩니다.
 
 >[!TIP]
 >이 요구 사항으로 인해, Microsoft Edge 브라우저는 Intune 관리 콘솔에 대한 액세스가 지원되지 않습니다.
@@ -67,11 +61,11 @@ Intune을 통해 iOS 또는 Windows Phone 장치를 관리하려는 경우에는
 - 스토어에서 회사 포털 앱을 설치하는 **Windows Phone 8.1** 사용자의 경우 인증서가 필요하지 않습니다. 하지만, Intune을 사용하여 회사 포털 앱을 Windows Phone 8.1 장치로 배포하려는 경우 또는 **Windows Phone 8.0**을 사용하는 경우에는 [Symantec 코드 서명 인증서](https://products.websecurity.symantec.com/orders/enrollment/microsoftCert.do)가 필요합니다.
 
 >[!NOTE]
->이 빠른 시작 가이드에서는 사용자가 Windows Phone 8.1 이상의 장치에서 스토어의 회사 포털 앱을 다운로드한다고 가정합니다. Windows Phone 8.0 지원에 대한 자세한 내용은 [Microsoft Intune을 사용한 Windows Phone 8.0 관리 설정](/Intune/deploy-use/set-up-windows-phone-8.0-management-with-microsoft-intune)을 참조하세요..
+>이 빠른 시작 가이드에서는 사용자가 Windows Phone 8.1 이상의 장치에서 스토어의 회사 포털 앱을 다운로드한다고 가정합니다. Windows Phone 8.0 지원에 대한 자세한 내용은 [Microsoft Intune을 사용한 Windows Phone 8.0 관리 설정](/Intune/deploy-use/set-up-windows-phone-8.0-management-with-microsoft-intune)을 참조하세요.
 
-- Windows PC를 장치로 등록하거나 [Microsoft Intune용 Windows PC 클라이언트를 설치](/intune/deploy-use/install-the-windows-pc-client-with-microsoft-intune)하는 경우에는 **Windows PC** 또는 **Windows RT 장치**에 대한 인증서 요구 사항이 없습니다..
+- Windows PC를 장치로 등록하거나 [Microsoft Intune용 Windows PC 클라이언트를 설치](/intune/deploy-use/install-the-windows-pc-client-with-microsoft-intune)하는 경우에는 **Windows PC** 또는 **Windows RT 장치**에 대한 인증서 요구 사항이 없습니다.
 
-- **iOS** 또는 **Mac OS X** 장치의 경우, [Microsoft Intune을 사용한 iOS 및 Mac 관리 설정](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune) 3단계에 설명된 대로 Apple의 Apple Push Notification Service 인증서를 요청해야 합니다..
+- **iOS** 또는 **Mac OS X** 장치의 경우, [Microsoft Intune을 사용한 iOS 및 Mac 관리 설정](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune) 3단계에 설명된 대로 Apple의 Apple Push Notification Service 인증서를 요청해야 합니다.
 
 ### 다음 단계
 Intune 빠른 시작 가이드를 시작할 시간입니다.
@@ -80,6 +74,7 @@ Intune 빠른 시작 가이드를 시작할 시간입니다.
 [**Intune에 로그인** &rarr;](start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

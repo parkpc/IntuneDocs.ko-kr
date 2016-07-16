@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 장치 준수 정책 | Microsoft Intune
-description:
-keywords:
+title: "장치 준수 정책 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 0775107a-6662-41c8-9404-be14bbb599f3
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisgre
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e9e069a2887b812b30c620634a8e0d093093b460
+ms.openlocfilehash: c443bb51ba05161c5088475e528e6ada28c105a5
+
 
 ---
 
@@ -67,6 +61,7 @@ ms.suite: ems
 [전자 메일 및 O365 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

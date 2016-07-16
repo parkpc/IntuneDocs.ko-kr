@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: 회사 리소스에 대한 액세스 허용 | Microsoft Intune
-description:
-keywords:
+title: "회사 리소스에 대한 액세스 허용 | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 3dd8dd4e-e165-4d0c-97b7-b3e86ebab909
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
+ms.openlocfilehash: 556b9ea5ac5edcc1126dbcc6310ab7dfa917cb56
+
 
 ---
 
@@ -51,7 +44,7 @@ Microsoft Intune Wi-Fi, VPN 및 전자 메일 프로필은 함께 작동하여 �
 |---------------------|---------------------------|---|-------|------------|
 |아니요|예|예|아니요|예|
 > [!NOTE]
-> [이 Intune 팀 블로그 게시물](http://blogs.technet.com/b/microsoftintune/archive/2015/02/23/using-oma-uri-to-create-custom-wi-fi-profiles-for-windows-phone-8-1.aspx)에서는 OMA-URI를 사용하여 Windows Phone 8.1 Wi-Fi 프로필을 구성하는 방법에 대한 자세한 내용을 제공합니다.
+> [이 Intune 팀 블로그 게시물](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/19/using-oma-uri-to-create-custom-wi-fi-profiles-for-windows-phone-8-1/)에서는 OMA-URI를 사용하여 Windows Phone 8.1 Wi-Fi 프로필을 구성하는 방법에 대한 자세한 내용을 제공합니다.
 
 ## [인증서 프로필](secure-resource-access-with-certificate-profiles.md) 및 지원되는 플랫폼
 무선 네트워크 및 VPN 연결을 포함하여 회사 리소스에 안전하게 액세스할 수 있습니다.
@@ -61,6 +54,7 @@ Microsoft Intune Wi-Fi, VPN 및 전자 메일 프로필은 함께 작동하여 �
 |예|예|예|예|예|
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO2-->
 
 

@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: 모바일 앱 관리 정책 구성 준비 | Microsoft Intune
-description:
-keywords:
+title: "모바일 앱 관리 정책 구성 준비 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: joglocke
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 6a989482e9c3c35c1f377e0b32bf04beb89e60a3
+ms.openlocfilehash: da4020eb71432f9bccb52909272d027da64ee47c
+
 
 ---
 
@@ -37,6 +30,8 @@ Azure 포털을 처음 사용하는 경우 대략적인 개요를 파악하려�
 
 현재 **Intune 관리 콘솔**을 사용하여 장치를 관리하는 경우 **Intune 관리 콘솔**을 사용하여 Intune에 등록된 장치의 앱을 지원하는 MAM 정책 사용을 만들 수 있지만, Intune에 등록된 장치에도 Azure 포털을 사용하는 것이 좋습니다. Intune 관리 콘솔을 사용하여 MAM 정책을 만드는 방법에 대한 자세한 내용은 [여기](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)를 참조하세요.
 
+Intune 관리 콘솔에서 만든 MAM 정책은 Azure 포털에 가져올 수 없습니다.  Azure 포털에서 MAM 정책을 다시 만들어야 합니다.
+
 >[!IMPORTANT]
 > Intune 관리 콘솔에서 모든 MAM 정책 설정이 나타나지 않을 수 있습니다. Intune 관리 콘솔과 Azure 포털 둘 다에서 MAM 정책을 만들 경우 Azure 포털의 정책이 앱에 적용되며 사용자에게 배포됩니다.
 
@@ -50,10 +45,10 @@ Windows 장치는 현재 지원되지 않습니다.
 ##  지원되는 앱
 * **Microsoft 앱:** 이러한 앱은 Intune 앱 SDK가 기본 제공되며 MAM 정책을 적용하기 전에 추가 처리가 필요하지 않습니다.
 지원되는 Microsoft 앱의 전체 목록을 보려면 Microsoft Intune 응용 프로그램 파트너 페이지의 [Microsoft Intune 모바일 응용 프로그램 갤러리](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)로 이동합니다. 앱을 클릭하여 지원되는 시나리오, 플랫폼 및 앱에서 다중 ID를 지원하는지 여부를 확인합니다.
-* 사내에서 빌드된 **LOB(기간 업무) 앱:** MAM 정책을 적용하려면 먼저 Intune 앱 SDK를 포함하도록 앱을 준비해야 합니다.
+* 사내에서 빌드된 **기간 업무 앱:** MAM 정책을 적용하려면 먼저 Intune 앱 SDK를 포함하도록 앱을 준비해야 합니다.
 
   * Intune에서 관리하는 장치의 경우 [Decide how to prepare apps for MAM](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)(MAM용 앱을 준비하는 방법 결정) 항목을 참조하세요.
-  * 직원 소유 장치와 같이 관리되지 않는 장치 또는 타사 모바일 장치 관리 솔루션으로 관리되는 장치의 경우 [Protect line of business apps and data on devices not enrolled in Intune](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)(Intune에 등록되지 않은 장치의 LOB(기간 업무) 앱 및 데이터 보호) 항목을 참조하세요.
+  * 직원 소유 장치와 같이 관리되지 않는 장치 또는 타사 모바일 장치 관리 솔루션으로 관리되는 장치의 경우 [Protect line of business apps and data on devices not enrolled in Intune](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)(Intune에 등록되지 않은 장치의 기간 업무 앱 및 데이터 보호) 항목을 참조하세요.
 
 MAM 정책을 구성하기 **전에** 다음이 필요합니다.
 
@@ -62,7 +57,7 @@ MAM 정책을 구성하기 **전에** 다음이 필요합니다.
 -   **Office 365(O365)** 구독은 다음에 필요합니다.
   - 다중 ID 지원을 사용하여 앱에 MAM 정책 적용하기.
   - SharePoint Online 및 Exchange Online 작업 계정 만들기. Exchange 온-프레미스 및 SharePoint 온-프레미스는 지원되지 않습니다.
--    **비즈니스용 Skype Online**에 대해 **최신 인증을 사용하도록 설정**합니다. Microsoft Connect에 로그인하고 최신 인증 프로그램에 등록되도록 [이 양식](https://connect.microsoft.com/office/Survey/NominationSurvey.aspx?SurveyID=17299&ProgramID=8715)을 작성합니다.
+-    **비즈니스용 Skype Online**에 대해 [최신 인증을 사용하도록 설정](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx.md)합니다.
 
 
 - 사용자를 만들기 위한 **Azure AD(Azure Active Directory)**. Azure AD는 최종 사용자가 앱을 시작하고 작업 자격 증명을 입력할 때 사용자를 인증합니다.
@@ -124,6 +119,7 @@ MAM 정책을 구성하기 **전에** 다음이 필요합니다.
 [Microsoft Intune으로 모바일 앱 관리 정책 만들기 및 배포](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

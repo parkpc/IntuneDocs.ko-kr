@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Intune에서 규정 준수 정책 배포 및 모니터링 | Microsoft Intune
-description:
-keywords:
+title: "Microsoft Intune에서 규정 준수 정책 배포 및 모니터링 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: d8f246d4-0d86-4c8b-a1bf-9977985506d8
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisgre
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
+ms.openlocfilehash: 52da5cf6d14a5fc3ff3db6bdb07823d3bf373466
+
 
 ---
 
@@ -76,6 +70,7 @@ ms.suite: ems
 [Intune에서 장치 규정 준수 정책 소개](introduction-to-device-compliance-policies-in-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

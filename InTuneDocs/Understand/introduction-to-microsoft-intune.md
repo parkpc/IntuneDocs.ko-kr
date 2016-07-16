@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Intune 소개 | Microsoft Intune
-description:
-keywords:
+title: "Microsoft Intune 소개 | Microsoft Intune"
+description: 
+keywords: 
 author: Lindavr
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 1bdcfa71aab0918fba1f59bd0782fc63eef6994e
+ms.openlocfilehash: da9db0b3961cbbd53fc2b7aa7704fa31c8c78718
+
 
 ---
 
@@ -58,6 +52,7 @@ Intune에서 제공하는 기본 도구 중 일부는 다음과 같습니다.
 * intune의 [기술 요구 사항 및 기능](/intune/get-started/what-to-know-before-you-start-microsoft-intune)에 대해 자세히 알아보기
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

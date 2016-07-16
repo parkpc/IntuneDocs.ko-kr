@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 최종 사용자가 회사 포털 앱 메시지를 이해할 수 있도록 지원 | Microsoft Intune
-description:
-keywords:
+title: "최종 사용자가 회사 포털 앱 메시지를 이해할 수 있도록 지원 | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 3df993aa-48c5-4799-b68d-c85fe4f7b02c
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 79617dd41e51402a73759da792f581028095a2f5
+ms.openlocfilehash: 40f2ead80326a451dfd59a4969191009dc35deef
+
 
 ---
 
@@ -45,7 +39,7 @@ ms.suite: ems
 > [!NOTE]
 > **회사 포털 앱에서 통화를 하거나 전화 통화를 관리하지 못합니다!** 메시지 텍스트는 Google에서 제어하므로 변경할 수 없습니다.
 
-**하드웨어 페이지**를 표시하려면 **그룹** > **모든 모바일 장치** > **장치**로 이동합니다. 사용자의 장치를 선택하고 **속성 보기** > **하드웨어**로 이동합니다..
+**하드웨어 페이지**를 표시하려면 **그룹** > **모든 모바일 장치** > **장치**로 이동합니다. 사용자의 장치를 선택하고 **속성 보기** > **하드웨어**로 이동합니다.
 
 ### 사용자가 액세스를 허용 또는 거부하는 경우 발생되는 작업
 사용자가 액세스를 허용하는 경우 장치의 전화 번호와 IMEI가 관리 콘솔의 하드웨어 페이지에 표시됩니다.
@@ -55,7 +49,7 @@ ms.suite: ems
 사용자가 액세스를 허용하지만 나중에 거부하는 경우 등록 후 다음에 사용자가 회사 포털 앱에 로그인할 때 메시지가 표시됩니다.</br></br>사용자가 나중에 액세스를 허용할 경우 **설정** > **앱** > **회사 포털** > **사용 권한** > **휴대폰**으로 이동한 다음 사용 권한을 설정합니다.
 
 ### 사용자에게 자세한 내용을 보내는 위치
-[회사 포털 앱에 로그인](/Intune/EndUser/sign-in-to-the-company-portal-app-android)
+[Intune에서 Android 장치 등록](/Intune/EndUser/enroll-your-device-in-intune-android) 5단계
 
 ## 회사 포털에서 장치의 사진, 미디어 및 파일에 액세스하도록 허용하시겠습니까?
 
@@ -80,9 +74,10 @@ ms.suite: ems
 
 
 ### 참고 항목
-[Intune 사용 방법에 대해 최종 사용자에게 알릴 내용](/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune.md)
+[Intune 사용 방법에 대해 최종 사용자에게 알릴 내용](/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO1-->
 
 

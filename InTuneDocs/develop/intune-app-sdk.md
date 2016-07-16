@@ -1,33 +1,26 @@
 ---
-# required metadata
-
-title: Intune 앱 SDK의 이점 | Microsoft Intune
-description:
-keywords:
+title: "Intune 앱 SDK의 이점 | Microsoft Intune"
+description: 
+keywords: 
 author: Msmbaldwin
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: cd9f05e7-26e6-45e0-8d38-67d8232b1cae
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: b7f62c5ee18d8f69fa174f09a1c46b6925c7517c
+ms.openlocfilehash: 3abf566831348de11f718370d6267e3ff4355bfb
+
 
 ---
 
 # Intune 앱 SDK 개요
-Intune 앱 SDK는 iOS 및 Android 플랫폼 둘 다에 사용할 수 있으며 Microsoft Intune을 통해 모바일 앱 관리 기능을 사용할 수 있게 합니다. 또한 개발자에게 요구되는 코드 변경량을 줄이려고 합니다. 앱의 동작을 변경하지 않고 대부분의 SDK 기능을 사용하도록 설정할 수 있습니다. 최종 사용자 및 IT 관리자 환경을 개선하기 위해 API를 활용하여 앱 참여를 요구하는 기능에 대한 앱 동작을 사용자 지정할 수 있습니다. 
-앱을 사용하도록 설정하면 IT 관리자가 Intune 관리 앱에 정책을 배포하고 이러한 기능을 활용하여 회사 데이터를 보호할 수 있습니다.
+Intune 앱 SDK는 iOS 및 Android 플랫폼 둘 다에 사용할 수 있으며 Microsoft Intune을 통해 모바일 앱 관리 기능을 사용할 수 있게 합니다. 또한 개발자에게 요구되는 코드 변경량을 줄이려고 합니다. 앱의 동작을 변경하지 않고 대부분의 SDK 기능을 사용하도록 설정할 수 있습니다. 최종 사용자 및 IT 관리자 환경을 개선하기 위해 API를 활용하여 앱 참여를 요구하는 기능에 대한 앱 동작을 사용자 지정할 수 있습니다. 앱을 사용하도록 설정하면 IT 관리자가 Intune 관리 앱에 정책을 배포하고 이러한 기능을 활용하여 회사 데이터를 보호할 수 있습니다.
 
 ## 일반 기능
 
@@ -77,6 +70,7 @@ Microsoft Intune 앱 SDK에는 "미리 보기" 상태인 여러 기능이 포함
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

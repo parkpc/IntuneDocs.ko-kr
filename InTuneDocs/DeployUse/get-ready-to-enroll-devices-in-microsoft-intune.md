@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 장치를 등록하도록 준비 | Microsoft Intune
-description:
-keywords:
+title: "장치를 등록하도록 준비 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 71077d9f86a53cc66536928e4799fa4b1a51cdf0
+ms.openlocfilehash: 86d3b7894eca70454fa82393c4d06eab5a99246f
+
 
 ---
 
@@ -48,7 +42,8 @@ MDM 기관은 일련의 장치를 관리할 권한을 가진 관리 서비스를
 
 Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장치 등록, 앱 설치, IT 부서 지원 정보 찾기 등의 일반적인 작업을 수행할 수 있습니다.
 
-> [!TIP] 회사 포털을 사용자 지정할 때는 구성이 회사 포털 웹 사이트 및 회사 포털 앱에 모두 적용됩니다.
+> [!TIP]
+> 회사 포털을 사용자 지정할 때는 구성이 회사 포털 웹 사이트 및 회사 포털 앱에 모두 적용됩니다.
 
 회사 포털을 사용자 지정하면 최종 사용자에게 친숙하고 유용한 환경을 제공하는 데 도움이 됩니다. 그렇게 하려면 [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에 테넌트 또는 서비스 관리자로 로그인하고, **관리** &gt; **회사 포털**을 선택하여 회사 포털 설정을 구성합니다.
 
@@ -113,6 +108,7 @@ MDM 기관을 설정한 후 조직에서 지원하려는 운영 체제에 대한
  - 장치 및 대상 정책 등록을 돕도록 [IMEI 번호를 사용하여 회사 소유 장치 지정](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

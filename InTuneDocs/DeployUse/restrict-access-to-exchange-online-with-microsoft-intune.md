@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Exchange Online 및 새 Exchange Online Dedicated에 대한 메일 액세스 제한 | Microsoft Intune
-description:
-keywords:
+title: "Exchange Online 및 새 Exchange Online Dedicated에 대한 메일 액세스 제한 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/16/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisgre
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5a445f06d6c2328f7689468ca4d68a969af1e825
+ms.openlocfilehash: 87663f2677a006e5db525f8897fea4bf05cb5912
+
 
 ---
 
@@ -30,7 +24,7 @@ ms.suite: ems
 Exchange Online Dedicated 환경이 있고 신규 또는 기존 구성 상태인지를 확인해야 하는 경우 계정 관리자에게 문의하세요.
 
 Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액세스를 제어하려면 Intune에서 Exchange Online에 대한 조건부 액세스를 구성합니다.
-조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [전자 메일 및 O365 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 읽어보세요.
+조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [메일, O365 및 기타 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 읽어보세요.
 
 >[!IMPORTANT]
 >앱에서 최신 인증을 사용한 PC 및 Windows 10 Mobile 장치에 대한 조건부 액세스는 현재 일부 Intune 고객에게만 제공됩니다. 이러한 기능을 이미 사용 중인 경우 어떠한 조치도 취할 필요가 없습니다. 계속 사용할 수 있습니다.
@@ -43,7 +37,8 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 
 -  [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]을 Microsoft Exchange Online에 연결하며 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 콘솔을 통해 장치 정보를 관리할 수 있도록 하는 **Microsoft Intune 서비스 간 커넥터**(선택 사항)를 구성하는 것이 좋습니다. 커넥터는 준수 정책 또는 조건부 액세스 정책을 사용하려는 경우 필요가 없지만 조건부 액세스의 영향을 평가하는 보고서를 실행하려는 경우에는 필요합니다.
 
-   > [!NOTE] Exchange Online과 Exchange 온-프레미스에 대해 모두 조건부 액세스를 사용하려는 경우에는 서비스 간 커넥터를 구성하지 마세요.
+   > [!NOTE]
+   > Exchange Online과 Exchange 온-프레미스에 대해 모두 조건부 액세스를 사용하려는 경우에는 서비스 간 커넥터를 구성하지 마세요.
 
    커넥터를 구성하는 방법에 대한 지침은 [Intune 서비스 간 커넥터](intune-service-to-service-exchange-connector.md)를 참조하세요.
 
@@ -75,9 +70,23 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 - iOS 7.1 이상
 - Windows Phone 8.1 이상
 
- **최신 인증**을 사용하는 경우 Microsoft Office 클라이언트에서 ADAL(Active Directory Authentication Library) 기반 로그인이 가능합니다.
+**최신 인증**을 사용하는 경우 Microsoft Office 클라이언트에서 ADAL(Active Directory Authentication Library) 기반 로그인이 가능합니다.
 
-> -   ADAL 기반 인증을 사용하면 Office 클라이언트가 브라우저 기반 인증(수동 인증이라고도 함)을 수행할 수 있게 됩니다.  사용자는 인증 시 로그인 웹 페이지로 이동됩니다. 이 새 로그인 방법을 통해 **다단계 인증** 및 **인증서 기반 인증**과 같은 향상된 보안 기능을 사용할 수 있습니다. 이 [문서](https://support.office.com/en-US/article/How-modern-authentication-works-for-Office-2013-and-Office-2016-client-apps-e4c45989-4b1a-462e-a81b-2a13191cf517)에는 최신 인증 방식이 자세히 설명되어 있습니다.
+-   ADAL 기반 인증을 사용하면 Office 클라이언트가 브라우저 기반 인증(수동 인증이라고도 함)을 수행할 수 있게 됩니다.  사용자는 인증 시 로그인 웹 페이지로 이동됩니다. 이 새 로그인 방법을 통해 **다단계 인증** 및 **인증서 기반 인증**과 같은 향상된 보안 기능을 사용할 수 있습니다.
+이 [문서](https://support.office.com/en-US/article/How-modern-authentication-works-for-Office-2013-and-Office-2016-client-apps-e4c45989-4b1a-462e-a81b-2a13191cf517)에는 최신 인증의 작동 방식이 자세히 나와 있습니다.
+최신 인증 이외의 인증 프로토콜을 차단하도록 ADFS 클레임 규칙을 설정해야 합니다. 자세한 지침은 시나리오 3 - [브라우저 기반 응용 프로그램을 제외한 모든 O365 액세스 차단](https://technet.microsoft.com/library/dn592182.aspx)에서 제공됩니다.
+
+**iOS** 및 **Android** 장치의 브라우저에서 액세스할 때 Exchange Online에서 **OWA(Outlook Web Access)**에 대한 액세스를 제한할 수 있습니다.  규격 장치의 지원되는 브라우저에서만 액세스할 수 있습니다.
+
+* Safari(iOS)
+* Chrome(Android)
+* 관리되는 브라우저(iOS 및 Android)
+
+**지원되지 않는 브라우저는 차단됩니다**.
+
+iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙을 통해 차단해야 합니다.
+
+
 
 
 다음 플랫폼의 기본 제공 **Exchange ActiveSync 전자 메일 클라이언트**에서 Exchange 전자 메일에 대한 액세스를 제한할 수 있습니다.
@@ -111,7 +120,8 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 조건부 액세스 정책을 가져올 사용자 그룹에 규정 준수 정책을 [만들고](create-a-device-compliance-policy-in-microsoft-intune.md) [배포](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)해야 합니다.
 
 
-> [!IMPORTANT] 규정 준수 정책을 배포하지 않은 경우 장치는 준수하는 것으로 간주되며 Exchange에 액세스할 수 있습니다.
+> [!IMPORTANT]
+> 규정 준수 정책을 배포하지 않은 경우 장치는 준수하는 것으로 간주되며 Exchange에 액세스할 수 있습니다.
 
 ### 2단계: 조건부 액세스 정책의 영향 평가
 **모바일 장치 인벤토리 보고서**를 사용하여 조건부 액세스 정책을 구성한 후 Exchange 액세스가 차단될 수 있는 장치를 식별할 수 있습니다.
@@ -135,7 +145,8 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 
 -   **Exchange ActiveSync ID** – iOS 및 Android 장치는 Azure Active Directory의 장치 등록 레코드와 연결된 해당 Exchange ActiveSync ID를 가지고 있어야 합니다. 사용자가 격리 메일에서 **메일 활성화** 링크를 선택하면 이 연결이 이루어집니다.
 
-    > [!NOTE] Windows Phone 장치는 항상 이 열에 값을 표시합니다.
+    > [!NOTE]
+    > Windows Phone 장치는 항상 이 열에 값을 표시합니다.
 
 대상 그룹의 일부인 장치는 열 값이 다음 테이블에 나열된 값과 일치하지 않으면 Exchange 액세스가 차단됩니다.
 
@@ -165,11 +176,12 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 ### 4단계: 조건부 액세스 정책 구성
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** > **조건부 액세스** > **Exchange Online 정책**을 선택합니다.
-![Exchange Online 조건부 액세스 정책 페이지의 스크린샷](../media/IntuneSA5dExchangeOnlinePolicy.png)
+![Exchange Online 조건부 액세스 정책 페이지의 스크린샷](../media/mdm-ca-exo-policy-configuration.png)
 
 2.   **Exchange Online 정책** 페이지에서 **Exchange Online에 대한 조건적 액세스 정책을 사용**을 선택합니다.
 
-    > [!NOTE] 규정 준수 정책을 배포하지 않은 경우 장치는 준수하는 것으로 간주됩니다.
+    > [!NOTE]
+    > 규정 준수 정책을 배포하지 않은 경우 장치는 준수하는 것으로 간주됩니다.
     >
     > 규정 준수 상태에 관계없이, 정책의 대상으로 지정된 모든 사용자는 자신의 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록해야 합니다.
 
@@ -178,6 +190,11 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
     -   **모든 플랫폼**
 
         이 경우 **Exchange Online**에 액세스하는 데 사용되는 모든 장치가 Intune에 등록되고 정책을 준수해야 합니다.  **최신 인증**을 사용하는 클라이언트 응용 프로그램에는 조건부 액세스 정책이 적용되며, 플랫폼이 현재 Intune에서 지원되지 않는 경우 **Exchange Online** 액세스가 차단됩니다.
+
+        **모든 플랫폼** 옵션을 선택하면 클라이언트 응용 프로그램에서 보고하는 플랫폼에 관계없이, Azure Active Directory에서 인증된 모든 요청에 이 정책이 적용됩니다.  다음을 제외한 모든 플랫폼이 규격 상태로 등록되어야 합니다.
+        *   Windows 장치는 규격 상태로 등록되어야 하며 온-프레미스 Active Directory를 통해 도메인에 연결되어야 합니다.
+        * 지원되지 않는 플랫폼(예: Mac OS).  그러나 이러한 플랫폼에서 제공하는 최신 인증을 사용하는 앱은 여전히 차단됩니다.
+
         >[!TIP]
            PC에 대한 조건부 액세스를 아직 사용하지 않는 경우 이 옵션이 표시되지 않습니다.  대신 **특정 플랫폼**을 사용합니다. PC에 대한 조건부 액세스는 현재 일부 Intune 고객에게만 제공됩니다.   알려진 문제에 대한 자세한 정보와 이 기능에 액세스하는 방법은 [Microsoft Connect 사이트](http://go.microsoft.com/fwlink/?LinkId=761472)에서 확인할 수 있습니다.
 
@@ -185,12 +202,30 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 
          지정한 장치 플랫폼에서 **최신 인증**을 사용하는 모든 클라이언트 앱에 조건부 액세스 정책이 적용됩니다.
 
-4.  **Exchange ActiveSync 앱** 아래에서 비준수 장치가 Exchange Online에 액세스하는 것을 차단하도록 선택할 수 있습니다. 또한 장치가 지원되는 플랫폼에서 실행 중이지 않을 때 액세스를 허용 또는 차단할지 여부도 선택할 수 있습니다. 지원되는 플랫폼에는 Android, iOS, Windows 및 Windows Phone이 포함됩니다.
+4. **OWA(Outlook Web Access)**에서 지원되는 브라우저[예: Safari(iOS) 및 Chrome(Android)]를 통한 Exchange Online 액세스만 허용하도록 선택할 수 있습니다. 다른 브라우저에서의 액세스는 차단됩니다. Outlook의 응용 프로그램 액세스에 대해 선택한 동일한 플랫폼 제한이 여기에도 적용됩니다.
 
+  **Android** 장치에서 브라우저 액세스를 사용하도록 설정해야 합니다.  이를 수행하려면 최종 사용자가 등록된 장치에서 "브라우저 액세스 사용" 옵션을 다음과 같이 사용하도록 설정해야 합니다.
+  1.    **회사 포털 앱**을 시작합니다.
+  2.    세 개의 점(...) 또는 하드웨어 메뉴 단추에서 **설정** 페이지로 이동합니다.
+  3.    **브라우저 액세스 사용** 단추를 누릅니다.
+  4.    Chrome 브라우저에서 Office 365에서 로그아웃하고 Chrome을 다시 시작합니다.
 
-5.  **대상 그룹**아래에서 정책을 적용할 사용자의 Active Directory 보안 그룹을 선택합니다. 모든 사용자 또는 선택한 사용자 그룹 목록을 대상으로 지정할 수 있습니다.
+  **iOS 및 Android** 플랫폼에서 서비스에 액세스하는 데 사용되는 장치를 식별할 수 있도록 하기 위해 Azure Active Directory에서 장치에 대해 TLS(전송 계층 보안) 인증서를 발급합니다.  장치는 아래 스크린샷과 같이 최종 사용자에게 인증서를 선택하라는 메시지와 함께 인증서를 표시합니다. 최종 사용자는 브라우저를 계속 사용하려면 먼저 이 인증서를 선택해야 합니다.
+
+  **iOS**
+
+  ![ipad의 인증서 확인 스크린샷](../media/mdm-browser-ca-ios-cert-prompt.png)
+
+  **Android**
+
+  ![Android 장치의 인증서 확인 스크린샷](../media/mdm-browser-ca-android-cert-prompt.png)
+
+5.  **Exchange ActiveSync 앱** 아래에서 비준수 장치가 Exchange Online에 액세스하는 것을 차단하도록 선택할 수 있습니다. 또한 장치가 지원되는 플랫폼에서 실행 중이지 않을 때 액세스를 허용 또는 차단할지 여부도 선택할 수 있습니다. 지원되는 플랫폼에는 Android, iOS, Windows 및 Windows Phone이 포함됩니다.
+
+6.  **대상 그룹**아래에서 정책을 적용할 사용자의 Active Directory 보안 그룹을 선택합니다. 모든 사용자 또는 선택한 사용자 그룹 목록을 대상으로 지정할 수 있습니다.
 ![대상 및 제외된 그룹 옵션을 보여 주는 Exchange Online 조건부 액세스 정책 페이지의 스크린샷](../media/IntuneSA5eTargetedExemptedGroups.PNG)
-    > [!NOTE] **대상이 지정된 그룹**에 포함된 사용자의 경우 Exchange 규칙 및 정책 대신 Intune 정책이 적용됩니다.
+    > [!NOTE]
+    > **대상이 지정된 그룹**에 포함된 사용자의 경우 Exchange 규칙 및 정책 대신 Intune 정책이 적용됩니다.
     >
     > Exchange는 Exchange 허용, 차단, 격리 규칙만 적용하며 다음과 같은 경우 Exchange 정책이 적용됩니다.
     >
@@ -224,6 +259,7 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 [비즈니스용 Skype Online에 대한 액세스 제한](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
