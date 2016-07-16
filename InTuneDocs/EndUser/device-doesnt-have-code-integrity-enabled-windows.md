@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: 84892bbc-f888-417b-bbeb-978cc7e10028
 ms.reviewer: chrisbal
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
 ms.openlocfilehash: 793a3eb17aaa5e04c27a31302d93bfc46ff71cac
 
@@ -35,6 +36,6 @@ PC を使用している場合は、IT 管理者に問い合わせるか、「[�
 [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+<!--HONumber=Jul16_HO1-->
 
 

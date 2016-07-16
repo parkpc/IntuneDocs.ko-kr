@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: 36250832-c6fd-4e8d-b681-de735023ebc3
 ms.reviewer: priyar
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
 ms.openlocfilehash: 543f0acd6fb3691ba31e9da6fec49b3f30f67613
 
@@ -67,6 +68,6 @@ Windows 10 Mobile または Windows 10 デスクトップ デバイスを登録�
 
 
 
-<!--HONumber=Jun16_HO2-->
+<!--HONumber=Jul16_HO1-->
 
 

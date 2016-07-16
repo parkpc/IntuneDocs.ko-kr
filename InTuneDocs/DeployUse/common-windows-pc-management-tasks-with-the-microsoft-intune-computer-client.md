@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: eb912c73-54d2-4d78-ac34-3cbe825804c7
 ms.reviewer: owenyen
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: 530bf3234001946776593ae0257ea72a06c8612f
 ms.openlocfilehash: 222b9aac19993f184ff68800a00f8d9df8b36237
 
@@ -52,7 +53,7 @@ Microsoft Intune Center は、管理されているすべてコンピュータ�
 ポリシーを使用して、管理対象コンピューターが Microsoft やサード パーティのソフトウェアの更新プログラムをチェックしたり、ダウンロードするときに使用する設定を構成します。 詳細については、「[Microsoft Intune でソフトウェア更新プログラムを使用して Windows PC を最新の状態に保つ](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)」を参照してください。
 
 ### Endpoint Protection 設定の管理
-ポリシーを使用して、Endpoint Protection の設定を構成し、管理対象コンピューターに展開します。 これには、スキャンのスケジュール、マルウェアを検出したときの操作などが含まれます。 詳細については、「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)」をご覧ください。
+ポリシーを使用して、Endpoint Protection の設定を構成し、管理対象コンピューターに展開します。 これには、スキャンのスケジュール、マルウェアを検出したときの操作などが含まれます。 詳細については、「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)」を参照してください。
 
 ## ハードウェアとソフトウェアのインベントリを表示する
 Intune は、管理されたコンピューターのハードウェアおよびソフトウェアに関する詳細情報を収集します。 以下の手順を参照して、次の項目を作成する方法を確認してください:
@@ -132,7 +133,8 @@ Intune は、管理されたコンピューターのハードウェアおよび�
 
 -   コンピューターがどのように構成されているかによって異なりますが、Windows Server Update Services、Windows Update、または Microsoft Update を使用して、引き続き更新プログラムを受信できます。
 
-    > [!IMPORTANT] クライアント ソフトウェアがグループ ポリシー オブジェクト (GPO) を使用してインストールされている場合、ソフトウェアが再インストールされることを防ぐため、クライアント ソフトウェアを削除する前に、グループ ポリシー オブジェクト (GPO) を削除する必要があります。
+    > [!IMPORTANT]
+    > クライアント ソフトウェアがグループ ポリシー オブジェクト (GPO) を使用してインストールされている場合、ソフトウェアが再インストールされることを防ぐため、クライアント ソフトウェアを削除する前に、グループ ポリシー オブジェクト (GPO) を削除する必要があります。
 
     クライアントのアンインストールに失敗する場合は、「[Endpoint Protection に関するトラブルシューティング](/intune/troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune)」で詳細を確認してください。
 
@@ -155,7 +157,8 @@ Intune は、管理されたコンピューターのハードウェアおよび�
 
     -   コンピューターを新しいユーザーに関連付けるには、 **[すべてのユーザー]** の一覧からユーザーを選択します。 選択したユーザーのデータが正しいことを確認して、**[OK]** を選択します。
 
-> [!TIP] エンド ユーザーが各自のコンピューターに関連付けをするのを抑制する場合は、**Microsoft Intune エージェントの設定**ポリシーの **[ユーザーによる各自のコンピューターへの関連付けを制限する]** オプションを有効にします。
+> [!TIP]
+> エンド ユーザーが各自のコンピューターに関連付けをするのを抑制する場合は、**Microsoft Intune エージェントの設定**ポリシーの **[ユーザーによる各自のコンピューターへの関連付けを制限する]** オプションを有効にします。
 
 <!--- ## Request and provide remote assistance to Windows PCs that use the Intune client software
 
@@ -211,6 +214,6 @@ While in a remote assistance session, you can use all available TeamViewer comma
 From the **Actions** menu of the **TeamViewer** window, choose **End Session**.--->
 
 
-<!--HONumber=Jun16_HO2-->
+<!--HONumber=Jul16_HO1-->
 
 

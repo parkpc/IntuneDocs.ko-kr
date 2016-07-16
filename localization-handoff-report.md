@@ -6,22 +6,22 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [InTuneDocs\Troubleshoot\troubleshoot-device-enrollment-in-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d12a31eb0727f7ca0c460049ac6fffb314daf70e/InTuneDocs/Troubleshoot/troubleshoot-device-enrollment-in-intune.md) | OutofSyncHandedBackSuccess | [Details](#62668c607bc3064cf8148fd7929b3c1268b721d71159)
+ [InTuneDocs\GetStarted\domain-names-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/027cd378596923c4db60a8e6fffee6d378db70f4/InTuneDocs/GetStarted/domain-names-for-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#b903514c747b0803a875f4910b85f823e60af8a5496)
 
 ## Item Details
-##### <a name='62668c607bc3064cf8148fd7929b3c1268b721d71159'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-device-enrollment-in-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d12a31eb0727f7ca0c460049ac6fffb314daf70e/InTuneDocs/Troubleshoot/troubleshoot-device-enrollment-in-intune.md)
+##### <a name='b903514c747b0803a875f4910b85f823e60af8a5496'></a> Source: [InTuneDocs\GetStarted\domain-names-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/027cd378596923c4db60a8e6fffee6d378db70f4/InTuneDocs/GetStarted/domain-names-for-microsoft-intune.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [troubleshoot-device-enrollment-in-intune.c0e4168b7349c261afccdc2a1f32f87d98e44395.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/650ebe46e5b836c582406bc8a8128f15db8db8c3/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/troubleshoot-device-enrollment-in-intune.c0e4168b7349c261afccdc2a1f32f87d98e44395.ja-jp.xlf)
-* Handoff Datetime: 2016-07-01 22:17:28
+* Handoff File: [domain-names-for-microsoft-intune.833377949cd1fba68aa1070015f9e8204d7c5407.ja-jp.xlf](https://github.com/Microsoft/EM.handoff/blob/42fee111285aa0ab9c61a70aa91c4e672d46d092/ol-handoff/Microsoft/IntuneDocs-pr.ja-jp/master/domain-names-for-microsoft-intune.833377949cd1fba68aa1070015f9e8204d7c5407.ja-jp.xlf)
+* Handoff Datetime: 2016-07-15 01:44:54
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\Troubleshoot\troubleshoot-device-enrollment-in-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/1ffd8c18ab886319c760312e6178d6e3676c8483/InTuneDocs/Troubleshoot/troubleshoot-device-enrollment-in-intune.md)
-* Current Handback File: [troubleshoot-device-enrollment-in-intune.c0e4168b7349c261afccdc2a1f32f87d98e44395.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/954fcc4d1b540a827a0ac4f2f1e751e25e85d54e/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/troubleshoot-device-enrollment-in-intune.c0e4168b7349c261afccdc2a1f32f87d98e44395.ja-jp.xlf)
-* Current Handback Datetime: 2016-06-24 14:25:36
+* Current Target File: [InTuneDocs\GetStarted\domain-names-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ja-jp/blob/846509a6bdcb7815001ddfe499fffe47f6203549/InTuneDocs/GetStarted/domain-names-for-microsoft-intune.md)
+* Current Handback File: [domain-names-for-microsoft-intune.833377949cd1fba68aa1070015f9e8204d7c5407.ja-jp.xlf](https://github.com/Microsoft/EM.handback/blob/b939e0bc8b43a32ce89ebef1511430c71007b952/ol-handback/Microsoft/IntuneDocs-pr.ja-jp/master/domain-names-for-microsoft-intune.833377949cd1fba68aa1070015f9e8204d7c5407.ja-jp.xlf)
+* Current Handback Datetime: 2016-07-14 07:46:23
 * [Back to Top](#report-top)
 
 
