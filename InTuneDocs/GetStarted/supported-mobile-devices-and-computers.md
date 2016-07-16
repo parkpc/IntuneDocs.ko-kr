@@ -33,6 +33,6 @@ Microsoft Intune을 설정하기 전에 이 항목과 [Microsoft Intune을 시�
 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
