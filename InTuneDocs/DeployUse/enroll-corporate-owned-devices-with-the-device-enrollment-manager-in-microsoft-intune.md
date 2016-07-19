@@ -91,6 +91,6 @@ ms.openlocfilehash: 74ff3209d00dee0b5ddd14e107b5544b364d08f7
 -   등록된 장치에 대한 삭제된 장치 등록 관리자 계정의 관계는 유지되지만 추가 장치를 등록할 수는 없습니다.
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 

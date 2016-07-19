@@ -420,10 +420,10 @@ DCR(디자인 변경 요청) 또는 버그 신고를 포함하여 일반적인 M
 
 >[!div class="step-by-step"]
 
->[&larr; **Intune의 새로운 기능**](whats-new-in-microsoft-intune.md)    
+>[&larr; **[!div class="step-by-step"]**](whats-new-in-microsoft-intune.md)    
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 

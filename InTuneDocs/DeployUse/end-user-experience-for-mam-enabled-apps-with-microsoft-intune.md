@@ -46,6 +46,7 @@ MAM(모바일 응용 프로그램 관리) 정책은 앱이 회사 컨텍스트�
 
     ![기존 파일의 목록으로 열린 파일 위치를 보여 주는 스크린 샷](../media/AppManagement/iOS_OneDriveSuccess.png)
 
+    > [!NOTE]
     > [!NOTE] 배포된 정책을 변경하는 경우 다음에 앱을 열 때 변경 내용이 적용됩니다.
 
 ##  Android 장치의 OneDrive 액세스
@@ -169,6 +170,6 @@ Intune에서 관리하는 다른 앱에서 파일을 보기 위해 RMS 공유 �
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 
