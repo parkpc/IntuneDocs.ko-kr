@@ -71,6 +71,6 @@ Microsoft Intune アプリ SDK には、プレビュー段階の機能がいく�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

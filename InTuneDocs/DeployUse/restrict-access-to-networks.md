@@ -3,16 +3,18 @@ title: "Cisco ISE でネットワークへのアクセスを制限する | Micro
 description: "Cisco ISE で制御されている WiFi および VPN にアクセスする前に、デバイスが登録されポリシーに準拠するように、Intune で Cisco ISE を使用します。"
 keywords: 
 author: nbigman
-manager: jeffgilb
+manager: Arob98
 ms.date: 06/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
+ms.reviewer: muhosabe
+ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
-ms.openlocfilehash: 78945498a951e7b897164ae6f33c4e87d521ca5b
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: 9e90971a9997e65e98a8c55b24fb70a42da93702
 
 
 ---
@@ -52,8 +54,8 @@ Intune を Cisco ISE と統合すると、Intune のデバイス登録と準拠�
     d. 証明書を選択し、**[エクスポート]** を選択します。  
 
 
-> [!IMPORTANT]
-> 証明書の有効期限が切れた場合、新しい証明書をエクスポートしてインポートする必要があるため、証明書の有効期限を確認します。
+    > [!IMPORTANT]
+    > 証明書の有効期限が切れた場合、新しい証明書をエクスポートしてインポートする必要があるため、証明書の有効期限を確認します。
 
     
 
@@ -126,10 +128,10 @@ Intune を Cisco ISE と統合すると、Intune のデバイス登録と準拠�
 
 ユーザーが登録を選択すると、Intune の登録プロセスにリダイレクトされます。 次のトピックでは、Intune のユーザー登録エクスペリエンスについて説明します。
 
-- [Intune に Android デバイスを登録する](/intune/end-user/enroll-your-device-in-Intune-android)</br>
-- [Intune に iOS デバイスを登録する](/intune/end-user/enroll-your-device-in-intune-ios)</br>
-- [Intune に Mac OS X デバイスを登録する](/intune/end-user/enroll-your-device-in-intune-mac-os-x)</br>
-- [Intune に Windows デバイスを登録する](/intune/end-user/enroll-your-device-in-intune-windows)</br> 
+- [Intune に Android デバイスを登録する](/intune/enduser/enroll-your-device-in-Intune-android)</br>
+- [Intune に iOS デバイスを登録する](/intune/enduser/enroll-your-device-in-intune-ios)</br>
+- [Intune に Mac OS X デバイスを登録する](/intune/enduser/enroll-your-device-in-intune-mac-os-x)</br>
+- [Intune に Windows デバイスを登録する](/intune/enduser/enroll-your-device-in-intune-windows)</br> 
 
 また、ユーザー エクスペリエンスのためにカスタマイズされたガイダンスを作成できる、[ダウンロード可能な一連の登録手順](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a)もあります。
 
@@ -141,6 +143,6 @@ Intune を Cisco ISE と統合すると、Intune のデバイス登録と準拠�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 
