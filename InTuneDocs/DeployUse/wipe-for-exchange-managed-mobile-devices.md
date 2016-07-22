@@ -31,6 +31,6 @@ Microsoft Intune을 사용하면 Intune Exchange Connector를 통해 EAS(Exchang
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

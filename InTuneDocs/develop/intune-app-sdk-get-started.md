@@ -79,6 +79,6 @@ iOS 또는 Android Intune 앱 SDK를 지원(Intune 앱 SDK를 통합)하는 데 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

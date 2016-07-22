@@ -45,6 +45,6 @@ Intune 콘솔을 통해 정책 설정을 적용할 수 있습니다. [Microsoft 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

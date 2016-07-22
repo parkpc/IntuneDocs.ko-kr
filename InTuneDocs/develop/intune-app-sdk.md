@@ -71,6 +71,6 @@ Microsoft Intune 앱 SDK에는 "미리 보기" 상태인 여러 기능이 포함
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -3,15 +3,17 @@ title: "장치의 보안 위협에 검색을 설정하라는 메시지가 표시
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/16/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b3e5994c-d215-4c72-8915-349bd0b2504d
-ms.sourcegitcommit: b76c04545b9b26a0e2470b95a3f5ac0a81b07817
-ms.openlocfilehash: 67a03172d94e95914129c8677ba94451c28350e4
+ROBOTS: noindex,nofollow
+translationtype: Human Translation
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 7825a1db1349c822f1c4a5d86ec9912adb62205d
 
 
 ---
@@ -29,6 +31,6 @@ IT 관리자는 Android 장치에서 회사 데이터 보호하기 위해 이 �
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -3,8 +3,8 @@ title: "등록된 장치에 앱 추가 | Microsoft Intune"
 description: "앱을 배포하려면 먼저 Intune에 추가해야 합니다. 그런 후에는 이러한 앱을 배포하고 관리할 수 있는 Intune 콘솔에서 사용할 수는 있습니다."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: f5b1f1ae-f177-450a-9af9-936a02d052e3
 ms.reviewer: mghadial
 ms.suite: ems
-ms.sourcegitcommit: 5140c4943be630ea8e48f80f7e6b590d223beac1
-ms.openlocfilehash: 795843f012434e1a50cd6abab05b6af2c811cf3e
+translationtype: Human Translation
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 6d21db0557b43574a03070804af97ef4d13c2e1b
 
 
 ---
@@ -103,6 +104,6 @@ ms.openlocfilehash: 795843f012434e1a50cd6abab05b6af2c811cf3e
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

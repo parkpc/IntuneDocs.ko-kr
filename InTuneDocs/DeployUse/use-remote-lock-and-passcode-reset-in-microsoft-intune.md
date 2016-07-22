@@ -72,6 +72,6 @@ Microsoft Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

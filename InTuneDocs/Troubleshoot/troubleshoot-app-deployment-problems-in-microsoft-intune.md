@@ -1,6 +1,6 @@
 ---
 title: "앱 배포 문제 해결 | Microsoft Intune"
-description: 
+description: "이 항목은 Microsoft Intune에서 앱 배포 문제를 해결하는 데 도움을 줍니다."
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 28ac298e-fb73-4c1c-b3fd-8336639e05e6
 ms.reviewer: mghadial
 ms.suite: ems
-ms.sourcegitcommit: 327c3aaf42aaf7f97e2b78d5ae38584bc13773e1
-ms.openlocfilehash: dc782a54983e4db39a029a15183834a925d0e00c
+translationtype: Human Translation
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: 2aef2df385cd17a0f261789c735282f4985cb442
 
 
 ---
@@ -104,6 +105,6 @@ ms.openlocfilehash: dc782a54983e4db39a029a15183834a925d0e00c
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO3-->
 
 
