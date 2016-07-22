@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Exchange 온-프레미스 및 레거시 Exchange Online Dedicated에 대한 메일 액세스 제한 | Microsoft Intune
-description:
-keywords:
+title: "Exchange 온-프레미스 및 레거시 Exchange Online Dedicated에 대한 메일 액세스 제한 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: a55071f5-101e-4829-908d-07d3414011fc
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisgre
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
+ms.openlocfilehash: 6bc85a0291fa62069ba6a0f63fdd9306db3c4195
+
 
 ---
 
@@ -75,7 +69,8 @@ Exchange 온-프레미스 또는 레거시 Exchange Online Dedicated 환경에 �
 -   iOS의 기본 메일 앱
 
 -   Android 4 이상의 기본 메일 앱
-> [!NOTE] Android 및 iOS용 Microsoft Outlook 앱은 지원되지 않습니다.
+> [!NOTE]
+> Android 및 iOS용 Microsoft Outlook 앱은 지원되지 않습니다.
 
 ## PC 지원
 
@@ -104,7 +99,8 @@ Windows 8 이상에 설치된 **메일** 응용 프로그램([!INCLUDE[wit_nextr
 >메일에 대한 액세스 권한을 부여하기 전에 먼저 모든 장치를 차단할 의도라면, 차단 액세스 권한이나 격리 규칙을 선택합니다. 기본 규칙이 모든 장치 유형에 적용되므로 플랫폼 제외로 구성했는데 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 에서 지원하지 않는 장치 유형도 영향을 받습니다.
 
   - **사용자 알림:** Exchange에서 보내는 알림 전자 메일 외에도 Intune은 장치를 차단 해제하는 단계를 포함하는 전자 메일을 보냅니다. 기본 메시지를 필요에 맞게 사용자 지정하도록 편집할 수 있습니다. 관리 지침이 포함된 Intune 알림 전자 메일은 사용자의 Exchange 사서함에 배달되므로, 사용자가 전자 메일 메시지를 받기 전에 해당 사용자의 장치가 차단된 경우 차단 해제된 장치 또는 다른 방법을 사용하여 Exchange에 액세스하여 메시지를 볼 수 있습니다. 이것은 특히 **기본 규칙**이 차단 또는 격리로 설정된 경우 유용합니다.  이러한 경우 최종 사용자는 앱 스토어로 가서 Microsoft 회사 포털 앱을 다운로드하고 장치를 등록해야 합니다. 이것은 iOS, Windows 및 삼성 KNOX 장치에 적용할 수 있습니다.  삼성 KNOX를 실행하지 않는 장치를 사용하는 경우 격리 메일을 대체 메일 계정에 보내어 최종 사용자가 이것을 차단된 자신의 장치에 복사하여 등록 및 규정 준수 프로세스를 완료해야 합니다.|
-  > [!NOTE] Exchange가 알림 메일을 보낼 수 있게 하려면 알림 메일을 보내는 데 사용할 계정을 지정해야 합니다.
+  > [!NOTE]
+  > Exchange가 알림 전자 메일을 보낼 수 있도록 하려면 알림 전자 메일을 보내는 데 사용할 계정을 지정해야 합니다.
   >
   > 자세한 내용은 [configure Exchange on-premises connector for on-premises or hosted Exchange](intune-on-premises-exchange-connector.md)(온-프레미스 또는 Hosted Exchange용 Exchange 온-프레미스 커넥터 구성) 항목을 참조하세요.
 
@@ -126,6 +122,7 @@ Windows 8 이상에 설치된 **메일** 응용 프로그램([!INCLUDE[wit_nextr
 [비즈니스용 Skype Online에 대한 액세스 제한](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

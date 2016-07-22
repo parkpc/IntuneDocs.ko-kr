@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: iOS MAM 정책 설정 | Microsoft Intune
-description:
-keywords:
+title: "iOS MAM 정책 설정 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 673ff872-943c-4076-931c-0be90363aea9
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: andcerat
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5a445f06d6c2328f7689468ca4d68a969af1e825
+ms.openlocfilehash: b3df4b35dbe2710157b88a4e7fdba9734f8b998b
+
 
 ---
 
@@ -83,7 +77,7 @@ ms.suite: ems
   이 설정을 사용하도록 설정할 경우 최종 사용자가 PIN을 설정하고 해당 장치에 액세스할 때 사용해야 합니다.  PIN이 없으면 앱이 시작되지 않으며 "회사 요구에 맞게 이 응용 프로그램에 액세스하려면 먼저 장치 PIN을 사용할 수 있도록 해야 합니다."라는 메시지와 함께 PIN을 설정하라는 메시지가 최종 사용자에게 표시됩니다.
 
   **기본값 - 암호화 옵션이 선택되지 않았습니다.**
-- **ContactSyncDisabled:** **예**를 선택하여 연락처 정보를 장치의 기본 주소 주소록 앱으로 동기화하지 않도록 방지합니다. **아니요**를 선택한 경우 앱은 장치에 있는 기본 주소 주소록 앱에 연락처 정보를 저장합니다.
+- **연락처 동기화 사용 안 함:**  **예**를 선택하여 연락처 정보가 장치의 기본 주소록 앱에 동기화 되는 것을 방지합니다. **아니요**를 선택한 경우 앱은 장치에 있는 기본 주소 주소록 앱에 연락처 정보를 저장합니다.
 
   회사 데이터를 제거하는 선택적 초기화를 수행하는 경우 앱에서 네이티브 주소록에 직접 동기화된 연락처가 제거됩니다. 기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. 현재 **Microsoft Outlook** 앱에만 적용됩니다.
 
@@ -117,6 +111,7 @@ iOS 장치에서 PIN 번호 대신 지문을 통해 사용자의 신원을 확�
   **기본값 = 90일**
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

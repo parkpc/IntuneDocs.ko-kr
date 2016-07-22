@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 장치 보호 | Microsoft Intune
-description:
-keywords:
+title: "장치 보호 | Microsoft Intune"
+description: 
+keywords: 
 author: Robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 71e0cbf3-2bfb-412e-8a12-8503df08b4cf
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mghadial
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c52448ab454a764be922319fb930a85a86c3996e
+ms.openlocfilehash: c8f833593e6a4606b0dd56373d4dc016c7ea0924
+
 
 ---
 
@@ -47,6 +41,7 @@ Intune에서는 Active Directory 또는 Azure Active Directory 계정을 사용�
 Intune에서는 등록하지 않았지만 Intune 컴퓨터 클라이언트 소프트웨어로 관리되는 Windows PC에 대한 보안 정책을 계속해서 지원합니다. 이러한 정책을 사용하여 어떻게 Windows PC를 보호할 수 있는지 알아보려면 [Use policies to help protect Windows PCs that run the Intune client software](policies-to-protect-windows-pcs-in-microsoft-intune.md)(Intune 클라이언트 소프트웨어를 실행하는 Windows PC를 보호하는 데 도움이 되는 정책 사용)를 참조하세요.
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

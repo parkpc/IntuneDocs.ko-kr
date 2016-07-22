@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: PSK를 사용한 Wi-Fi | Microsoft Intune
+title: "PSK를 사용한 Wi-Fi | Microsoft Intune"
 description: 
-keywords:
+keywords: 
 author: nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: 
+ms.reviewer: karanda
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 066baae17da1fd399f4f7d10784719e3dc46f235
+ms.openlocfilehash: 632adf3dccf40dd2b361d170f501a851bf0fda38
+
 
 
 ---
@@ -188,13 +182,13 @@ EAP 기반 Wi-Fi 프로필에 대한 XML 코드 예제는 다음과 같습니다
 
 ## 정책 배포
 
-1.  **정책** 작업 영역에서 배포할 정책을 선택하고 **배포 관리**를 클릭합니다..
+1.   **정책** 작업 영역에서 배포할 정책을 선택하고 **배포 관리**를 클릭합니다.
 
 2.   **배포 관리** 대화 상자에서
 
-    -   **정책을 배포하려면** - 정책을 배포하려는 그룹을 하나 이상 선택하고 **추가** &gt; **확인**을 클릭합니다..
+    -   **정책을 배포하려면** - 정책을 배포하려는 그룹을 하나 이상 선택한 후 **추가** &gt; **확인**을 클릭합니다.
 
-    -   **정책을 배포하지 않고 대화 상자를 닫으려면** - **취소**를 클릭합니다..
+    -   **정책을 배포하지 않고 대화 상자를 닫으려면** - **취소**를 클릭합니다.
 
 배포한 정책을 선택하면 정책 목록 아래쪽에서 배포에 대한 추가 정보를 볼 수 있습니다.
 
@@ -202,6 +196,7 @@ EAP 기반 Wi-Fi 프로필에 대한 XML 코드 예제는 다음과 같습니다
 [Microsoft Intune에서 Wi-Fi 연결](wi-fi-connections-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

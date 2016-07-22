@@ -1,27 +1,19 @@
 ---
-# required metadata
-
-title: 유료 Microsoft Intune 또는 Enterprise Mobility 구독에는 특정 소프트웨어를 다운로드할 수 있는 라이선스가 포함되어 있을 수 있음 | Microsoft Intune
-description:
-keywords:
+title: "유료 Microsoft Intune 또는 Enterprise Mobility 구독에는 특정 소프트웨어를 다운로드할 수 있는 라이선스가 포함되어 있을 수 있음 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 06/08/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
+translationtype: Human Translation
+ms.sourcegitcommit: 4b4371fd7c505db75e18505160de88456fceece2
+ms.openlocfilehash: de8d822c9df7aa0235a998a64b412afd6fc48bd5
 
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-#ms.reviewer: amyro
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
 
 ---
 
@@ -47,6 +39,7 @@ ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
 그 밖에 평가판에 등록한 경우에는 [TechNet Evaluation Center](https://www.microsoft.com/evalcenter/try)에서 이러한 평가판 버전을 얻을 수 있습니다.
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

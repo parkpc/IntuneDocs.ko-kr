@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Intune을 사용한 iOS 장치용 Apple DEP 관리 | Microsoft Intune
-description:
-keywords:
+title: "Microsoft Intune을 사용한 iOS 장치용 Apple DEP 관리 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: dagerrit
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 1b942c7e09e59de59e3e406b84a21a712c0e973a
+ms.openlocfilehash: cd763f9fa0b08cc7b822eccbd043a5b9cd355d0f
+
 
 ---
 
@@ -59,6 +53,12 @@ Apple DEP(장치 등록 프로그램)로 회사 소유의 iOS 장치를 관리�
       - **사용자 선호도 확인**: 초기 설치 작업을 진행할 때 장치에 사용자 정보를 등록해야 합니다. 그러면 해당 사용자로 회사 데이터와 메일에 액세스하도록 허용할 수 있습니다.  사용자에게 속해 있으며 회사 포털을 사용해야 하는(즉, 앱을 설치해야 하는) DEP 관리 장치에 대한 **사용자 선호도**를 구성해야 합니다.
       - **사용자 선호도 없음**: 장치에 사용자 정보를 등록하지 않습니다. 로컬 사용자 데이터에 액세스하지 않고도 작업을 수행하는 장치에 대해 이 정보를 사용합니다. 기간 업무 앱을 설치하는 데 사용하는 회사 포털 앱 등 사용자 정보가 필요한 앱은 작동하지 않습니다.
 
+    **다음 그룹에 장치를 할당**할 수도 있습니다. **선택...**을 클릭하여 그룹을 선택합니다.
+
+    >[!Important]
+    >그룹 할당이 Intune에서 Azure Active Directory로 이동됩니다. [자세한 정보](#changes-to-intune-group-assignments)
+
+
     그다음으로, **이 정책에 대한 장치 등록 프로그램 설정을 구성합니다.**를 사용하도록 설정하여 DEP를 지원합니다.
 
       ![설정 도우미 창](../media/pol-sa-corp-enroll.png)
@@ -78,8 +78,16 @@ Apple DEP(장치 등록 프로그램)로 회사 소유의 iOS 장치를 관리�
         - **위치 서비스** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미에서 서비스를 사용할지 묻는 메시지를 표시합니다.
         - **복원** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미에서 iCloud 백업을 사용할지 묻는 메시지를 표시합니다.
         - **Apple ID** - Intune을 통해 설치한 앱을 비롯하여 iOS 앱 스토어 앱을 다운로드하려면 Apple ID가 필요합니다. 이 설정을 지정하면 Intune에서 ID 없이 앱을 설치하려고 할 때 iOS가 사용자에게 Apple ID를 묻습니다.
-        - **사용 약관** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미가 사용자에게 Apple의 약관에 동의하라는 메시지를 표시합니다. - **Touch ID** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미가 이 서비스를 사용할지 묻는 메시지를 표시합니다. - **Apple Pay** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미가 이 서비스를 사용할지 묻는 메시지를 표시합니다. - **확대/축소** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미가 이 서비스를 사용할지 묻는 메시지를 표시합니다. - **Siri** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미가 이 서비스를 사용할지 묻는 메시지를 표시합니다. - **Apple에 진단 데이터 보내기** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미가 이 서비스를 사용할지 묻는 메시지를 표시합니다. -  **추가 Apple Configurator 관리를 사용하도록 설정** - 파일을 iTunes와 동기화하지 않도록 하거나 Apple Configurator를 통해 관리 작업을 하지 못하게 하려면 **허용 안 함**으로 설정합니다. 이 설정을 사용하여 인증서 유무와 관계없이 수동 배포를 허용하는 것보다, **허용 안 함**으로 설정하고 Apple Configurator에서 모든 추가 구성을 내보낸 다음, Intune을 통해 사용자 지정 iOS 구성 프로필 형태로 배포하는 것이 좋습니다.
-        - **허용 안 함** - USB를 통해 장치가 통신할 수 없음(연결을 비활성화함) - **허용** - 모든 PC 또는 Mac을 대상으로 장치가 USB 연결을 통해 통신할 수 있음 - **인증서 필요** - 등록 프로필에 가져온 인증서를 사용하여 Mac과 연결할 수 있음
+        - **사용 약관** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미가 Apple의 약관에 동의하라는 메시지를 표시합니다.
+        - **Touch ID** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미가 이 서비스를 사용할지 묻는 메시지를 표시합니다.
+        - **Apple Pay** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미가 이 서비스를 사용할지 묻는 메시지를 표시합니다.
+        - **확대/축소** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미가 이 서비스를 사용할지 묻는 메시지를 표시합니다.
+        - **Siri** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미가 이 서비스를 사용할지 묻는 메시지를 표시합니다.
+        - **Apple에 진단 데이터 보내기** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미가 이 서비스를 사용할지 묻는 메시지를 표시합니다.
+     -  **추가 Apple Configurator 관리를 사용하도록 설정** - 파일을 iTunes와 동기화하지 않도록 하거나 Apple Configurator를 통해 관리 작업을 하지 못하게 하려면 **허용 안 함**으로 설정합니다. 이 설정을 사용하여 인증서 유무와 관계없이 수동 배포를 허용하는 것보다, **허용 안 함**으로 설정하고 Apple Configurator에서 모든 추가 구성을 내보낸 다음, Intune을 통해 사용자 지정 iOS 구성 프로필 형태로 배포하는 것이 좋습니다.
+        - **허용 안 함** - USB를 통해 장치가 통신할 수 없음(연결을 비활성화함)
+        - **허용** - 모든 PC 또는 Mac을 대상으로 장치가 USB 연결을 통해 통신할 수 있음
+        - **인증서 필요** - 등록 프로필에 가져온 인증서를 사용하여 Mac과 연결할 수 있음
 
 6.  **관리할 DEP 장치 할당** [장치 등록 프로그램 포털](https://deploy.apple.com)(https://deploy.apple.com)로 이동하고 회사 Apple ID로 로그인합니다. **배포 프로그램** &gt; **장치 등록 프로그램** &gt; **장치 관리**로 이동합니다. **장치 선택** 방법을 지정하고, 장치 정보를 제공한 다음 장치 **일련번호**, **주문 번호** 또는 **CSV 파일 업로드**에 따라 세부 정보를 지정합니다. 그런 다음 **서버에 할당**을 선택하고 Microsoft Intune에 대해 지정된 &lt;ServerName&gt;을 선택한 다음 **확인**을 클릭합니다.
 
@@ -91,12 +99,15 @@ Apple DEP(장치 등록 프로그램)로 회사 소유의 iOS 장치를 관리�
 
 8.  **사용자에게 장치 배포** 이제 회사 소유 장치를 사용자에게 배포할 수 있습니다. IOS 장치를 설정하는 경우에 Intune에 관리용으로 등록됩니다.
 
+## Intune 그룹 할당 변경
 
+9월부터 장치 그룹 관리가 Azure Active Directory로 이동됩니다. Azure Active Directory 그룹으로 전환된 후에는 그룹 할당이 **회사 등록 프로필** 옵션에 나타나지 않습니다. 이 변경은 몇 달에 걸쳐 진행될 예정이므로 당장 변경 내용이 확인되지 않을 수 있습니다. 자세한 내용은 곧 발표될 예정입니다.
 
 ### 참고 항목
 [장치 등록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jul16_HO1-->
 
 

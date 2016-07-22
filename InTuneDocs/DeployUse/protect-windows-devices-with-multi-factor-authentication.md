@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 다단계 인증으로 Windows 장치 보호 | Microsoft Intune
-description:
-keywords:
+title: "다단계 인증으로 Windows 장치 보호 | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 9b4f197d-bc10-4bee-91c9-19bcc8287d36
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: vinaybha
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 2023d7bc1d35b423a216ece195cdca9a6a542446
+ms.openlocfilehash: 15e546b93c2a3aff551efa36ac80ff212ada5812
+
 
 ---
 
@@ -40,7 +34,8 @@ Microsoft Intune에서는 회사 리소스를 보호할 수 있는 MFA(Multi-Fac
 #### Intune이 있는 MFA
 조직에 ADFS(Active Directory Federation Services)가 있는 Active Directory 도메인이 포함된 온-프레미스 IT 인프라가 있는 경우 페더레이션 서버에서 MFA를 구성한 다음 MFA를 Intune 등록에 사용하도록 설정할 수 있습니다. Intune에서 MFA를 구성하면 등록하는 동안 사용자를 한 번 인증하도록 설정한 후 MFA 프로세스를 매번 반복하지 않고 회사 리소스에 액세스할 수 있습니다.
 
->[!NOTE] MFA는 ADFS 서버에서 사용자 또는 그룹 단위별로 필요할 수 있습니다.  
+>[!NOTE]
+>MFA는 ADFS 서버에서 사용자 또는 그룹 단위별로 필요할 수 있습니다.  
 
 #### Intune이 없는 MFA
 페더레이션 서버에서 MFA를 구성하지만 Intune에서 등록하는 데 MFA를 사용하지 않을 경우 사용자는 장치 등록뿐만 아니라 회사 리소스에 액세스할 때마다 MFA를 사용해야 합니다.
@@ -60,6 +55,7 @@ ADFS에서 MFA를 사용하도록 설정하는 방법에 대한 자세한 내용
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 일반적인 문제 해결 팁 | Microsoft Intune
-description:
-keywords:
+title: "일반적인 문제 해결 팁 | Microsoft Intune"
+description: 
+keywords: 
 author: nbigman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/26/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: c86a4e4a-6b9f-4835-a3d3-61a3f5f4c1ec
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 79617dd41e51402a73759da792f581028095a2f5
+ms.openlocfilehash: 6b2d1d5eecb543e45fca5fbb8aa1854c88ec4f9c
+
 
 ---
 
@@ -29,7 +23,7 @@ ms.suite: ems
 Microsoft Intune을 배포한 후에 구성이나 클라이언트에서 문제가 발생할 수 있습니다. 아래 리소스를 참조하면 문제의 원인을 파악하여 문제를 해결할 수 있습니다.
 
 > [!NOTE]
-> 지원 요청을 만들거나 기존 요청을 보려면 [여기](https://portal.office.com/admin/default.aspx)를 클릭하여 Office 365 관리 센터를 방문합니다. 지원 옵션에 대한 자세한 내용은 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하세요..
+> 지원 요청을 만들거나 기존 요청을 보려면 [Office 365 관리 센터를 방문](https://portal.office.com/admin/default.aspx)합니다. 지원 옵션에 대한 자세한 내용은 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하세요.
 ## 문제 정의
 
 -   동작은 무엇인가요?
@@ -46,15 +40,17 @@ Microsoft Intune을 배포한 후에 구성이나 클라이언트에서 문제�
 
 -   사용자에게 인증 문제가 발생할 수 있나요? 가능성이 있는 경우 사용자가 Azure Active Directory를 사용하는 다른 서비스에 로그인할 수 있는지 확인합니다. 또한 사용자가 다른 장치에서 로그인할 수 있는지 확인합니다.
 
+-   서비스 상태를 확인했나요? 또한 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx)에서 Intune 서비스 상태를 모니터링할 수 있습니다. 왼쪽 창에서 **서비스 상태**를 선택합니다.
+
 ## 사용 가능한 데이터 수집
 
 -   장치 로그. 장치 로그를 수집하는 방법에 대해 알아봅니다.
   - [USB 케이블을 사용하여 IT 관리자에게 Android 진단 데이터 로그 보내기](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android)
   - [메일을 사용하여 IT 관리자에게 Android 진단 데이터 로그 보내기](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-email-android)
   - [IT 관리자에게 Android 등록 오류 보내기](/intune/enduser/send-enrollment-errors-to-your-it-administrator-android)
-  - [IT 관리자에게 iOS 등록 오류 보내기](/intune/enduser/send-errors-to-your-it-admin-ios.md)
+  - [IT 관리자에게 iOS 등록 오류 보내기](/intune/enduser/send-errors-to-your-it-admin-ios)
 
--   관리 콘솔 데이터. 예를 들어 정책 구현 문제의 경우 [Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리](/indune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)에 설명된 대로 의도한 정책 및 해당 정책의 상태를 검사해야 합니다..
+-   관리 콘솔 데이터. 예를 들어 정책 구현 문제의 경우 [Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리](/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)에 설명된 대로 의도한 정책 및 해당 정책의 상태를 검사해야 합니다.
 
 ## 솔루션 연구
 
@@ -64,7 +60,7 @@ Microsoft Intune을 배포한 후에 구성이나 클라이언트에서 문제�
 
 -   지원 요청을 시작할 수 있습니다. 문제를 정의하고 사용할 수 있는 데이터를 수집한 경우 Intune 지원에서 보다 효율적으로 문제 해결을 지원할 수 있습니다.
 
-    지원 요청을 만들려면 [여기](https://portal.office.com/admin/default.aspx)를 클릭하여 Office 365 관리 센터를 방문합니다. 지원 옵션에 대한 자세한 내용은 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하세요..
+    지원 요청을 만들려면 [Office 365 관리 센터를 방문](https://portal.office.com/admin/default.aspx)합니다. 지원 옵션에 대한 자세한 내용은 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하세요.
 
 ## 커뮤니티 리소스
 이러한 커뮤니티 리소스에서 기타 유용한 정보를 찾을 수 있습니다.
@@ -77,8 +73,8 @@ Microsoft Intune을 배포한 후에 구성이나 클라이언트에서 문제�
 
 -   [Intune 포럼](https://social.technet.microsoft.com/Forums/home?category=microsoftintune&filter=alltypes&sort=lastpostdesc)
 
-## 다음 단계
-아래 나열된 항목에는 특정 문제에 대한 문제 해결 도움말이 있습니다. 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)에 설명된 대로 Microsoft 지원에 문의하세요..
+### 다음 단계
+아래 나열된 항목에는 특정 문제에 대한 문제 해결 도움말이 있습니다. 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)에 설명된 대로 Microsoft 지원에 문의하세요.
 
 [Troubleshoot Endpoint Protection in Microsoft Intune](troubleshoot-endpoint-protection-in-microsoft-intune.md)
 
@@ -93,9 +89,9 @@ Microsoft Intune을 배포한 후에 구성이나 클라이언트에서 문제�
 [Microsoft Intune에서 클라이언트 설정 문제 해결](troubleshoot-client-setup-in-microsoft-intune.md)
 
 [Microsoft Intune에서 소프트웨어 업데이트 문제 해결](troubleshoot-software-updates-in-microsoft-intune.md)
-g
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO1-->
 
 

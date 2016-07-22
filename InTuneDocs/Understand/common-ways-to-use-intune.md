@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Intune을 사용하는 일반적인 방법 | Microsoft Intune
-description:
-keywords:
+title: "Intune을 사용하는 일반적인 방법 | Microsoft Intune"
+description: 
+keywords: 
 author: jeffgilb
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 1f37d4ff-b5a7-4a89-8884-a6184908b09c
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 9cb6894cefad1da14332f9994fdf45fe2d1e9b9c
+ms.openlocfilehash: c854893f457a60a7424010cdf69a91cb8476e167
+
 
 ---
 
@@ -34,7 +28,7 @@ ms.suite: ems
 ## 온-프레미스 전자 메일 및 데이터를 보호하여 모바일 장치에서 안전하게 액세스할 수 있도록 합니다.
 대부분의 엔터프라이즈 이동성 전략은 인터넷에서 모바일 장치를 사용하는 직원이 전자 메일에 대한 보안 액세스를 사용하는 계획으로 시작됩니다. 대부분의 조직에는 해당 회사 네트워크에서 호스팅되는 온-프레미스 데이터 및 Microsoft Exchange와 같은 응용 프로그램 서버가 있습니다. Intune 및 EMS(Enterprise Mobility Suite)는 회사 네트워크의 에지에 다른 게이트웨이 컴퓨터를 배포하지 않고 Intune을 사용하여 장치를 등록할 때까지 어떤 모바일 앱도 전자 메일에 액세스할 수 없도록 하는 Exchange 서버에 고유하고 통합된 조건부 액세스를 제공합니다.
 
-전자 메일 이외에도 Intune에서는 비즈니스 앱 서버의 줄과 같은 온-프레미스 데이터에 대한 보안 액세스가 필요한 모바일 앱에 대한 액세스를 지원합니다.  일반적으로 Microsoft Azure AD 응용 프로그램 프록시와 같은 경계에서 표준 VPN 게이트웨이 또는 프록시와 결합된 액세스 제어에 Intune 관리 인증서를 사용하여 수행합니다.  이러한 경우에 회사 데이터에 액세스하는 유일한 방법은 관리에 장치를 등록하는 것입니다.  일단 등록하면 관리 시스템은 회사 데이터에 액세스하는 장치가 정책과 호환되도록 합니다.  또한 소비자 앱 또는 서비스에 회사 데이터를 전달할 수 없도록 비즈니스 앱의 줄 내에서 액세스하는 데이터를 포함하도록 Intune의 앱 래핑 도구를 사용할 수 있습니다.
+전자 메일 이외에도 Intune에서는 기간 업무 앱 서버의 줄과 같은 온-프레미스 데이터에 대한 보안 액세스가 필요한 모바일 앱에 대한 액세스를 지원합니다.  일반적으로 Microsoft Azure AD 응용 프로그램 프록시와 같은 경계에서 표준 VPN 게이트웨이 또는 프록시와 결합된 액세스 제어에 Intune 관리 인증서를 사용하여 수행합니다.  이러한 경우에 회사 데이터에 액세스하는 유일한 방법은 관리에 장치를 등록하는 것입니다.  일단 등록하면 관리 시스템은 회사 데이터에 액세스하는 장치가 정책과 호환되도록 합니다.  또한 소비자 앱 또는 서비스에 회사 데이터를 전달할 수 없도록 기간 업무 앱 내에서 액세스하는 데이터를 포함하도록 Intune의 앱 래핑 도구를 사용할 수 있습니다.
 
 <!-- Learn more about how to plan and deploy Intune to help secure on-premises email and data. -->
 
@@ -62,7 +56,7 @@ Intune은 Apple 장치 등록 프로그램 및 Samsung KNOX 모바일 보안 플
 <!-- Learn more about how to plan and deploy Intune to support corporate owned devices. -->
 
 ## 작업자에게 사용이 제한된 공유 태블릿을 발급합니다.
-작업자는 모바일 기술을 점점 더 많이 사용하고 있습니다.  예를 들어 이제 공유 태블릿은 소매 대리점 직원에게 일상적입니다.  판매를 처리하거나 즉시 인벤토리를 확인하는 경우 태블릿은 고객 상호 작용에 큰 도움이 됩니다.  이 경우에 사용자 경험의 단순함이 중요합니다.  따라서 태블릿은 일반적으로 직원이 상호 작용할 수 있는 유일한 것이 단일 LOB(기간 업무) 앱인 경우와 같이 사용이 제한된 모드에서 직원에게 전달됩니다.  Intune을 사용하면 이 사용이 제한된 모드에서 실행되도록 구성할 수 있는 이러한 공유 태블릿을 대량으로 프로비전, 보안 및 중앙에서 관리할 수 있습니다.
+작업자는 모바일 기술을 점점 더 많이 사용하고 있습니다.  예를 들어 이제 공유 태블릿은 소매 대리점 직원에게 일상적입니다.  판매를 처리하거나 즉시 인벤토리를 확인하는 경우 태블릿은 고객 상호 작용에 큰 도움이 됩니다.  이 경우에 사용자 경험의 단순함이 중요합니다.  따라서 태블릿은 일반적으로 직원이 상호 작용할 수 있는 유일한 것이 단일 기간 업무 앱인 경우와 같이 사용이 제한된 모드에서 직원에게 전달됩니다.  Intune을 사용하면 이 사용이 제한된 모드에서 실행되도록 구성할 수 있는 이러한 공유 태블릿을 대량으로 프로비전, 보안 및 중앙에서 관리할 수 있습니다.
 
 <!-- Learn more about how to plan and deploy Intune to support shared tablets. -->
 
@@ -72,6 +66,7 @@ Intune은 Apple 장치 등록 프로그램 및 Samsung KNOX 모바일 보안 플
 <!-- Learn more about how to plan and deploy Intune to support kiosks. -->
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

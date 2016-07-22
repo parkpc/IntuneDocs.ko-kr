@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 장치를 관리하는 방법 선택 | Microsoft Intune
-description:
-keywords:
+title: "장치를 관리하는 방법 선택 | Microsoft Intune"
+description: 
+keywords: 
 author: jeffgilb
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 770aad50-fd7a-4cf1-a793-f95fe47fc3f8
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
+ms.openlocfilehash: c9b34408e4af34dafc700d016304a6d29c2e8585
+
 
 ---
 
@@ -75,16 +69,17 @@ iOS, Android 및 Windows Phone을 비롯한 모바일 장치 운영 체제의 �
 ## Exchange ActiveSync 관리
 또한 Exchange ActiveSync를 사용하여 장치를 관리할 수 있습니다. 그러려면 온-프레미스 커넥터를 설치하거나 기본 제공 서비스 간 커넥터를 사용하여 Exchange Server에 연결해야 합니다.
 
-온-프레미스 커넥터를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항에 대한 자세한 내용은 [온-프레미스 커넥터의 요구 사항](../deploy-use/intune-on-premises-exchange-connector#requirements-for-the-on-premises-connector) 섹션을 참조하세요.
+온-프레미스 커넥터를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항에 대한 자세한 내용은 [온-프레미스 커넥터의 요구 사항](/intune/deploy-use/intune-on-premises-exchange-connector#requirements-for-the-on-premises-connect) 섹션을 참조하세요.
 
-Exchange와 함께 온-프레미스 커넥터 또는 서비스 간 커넥터를 사용하는 방법에 대한 자세한 내용은 [Exchange ActiveSync와 Microsoft Intune을 사용한 모바일 장치 관리](../deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune) 항목을 참조하세요.
+Exchange와 함께 온-프레미스 커넥터 또는 서비스 간 커넥터를 사용하는 방법에 대한 자세한 내용은 [Exchange ActiveSync와 Microsoft Intune을 사용한 모바일 장치 관리](/intune/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune) 항목을 참조하세요.
 
 
 
 ## 다음 단계
-지금까지 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]을 사용하여 장치를 등록하는 경우 사용할 수 있는 기능 중 몇 가지를 살펴봤습니다. 이제, [장치를 등록](../deploy-use/enroll-devices-in-microsoft-intune)해야 합니다. 장치를 등록한 후에 이 항목에서 설명한 기능을 모두 활용할 수 있습니다. <!--lindavr: There's a logical flaw in our "get to know/get started" content. You can take the path in this topic or you can take the path in the What to know before your get started topic. And they don't cover the same ground. -->
+지금까지 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]을 사용하여 장치를 등록하는 경우 사용할 수 있는 기능 중 몇 가지를 살펴봤습니다. 이제, [장치를 등록](/intune/deploy-use/enroll-devices-in-microsoft-intune)해야 합니다. 장치를 등록한 후에 이 항목에서 설명한 기능을 모두 활용할 수 있습니다. <!--lindavr: There's a logical flaw in our "get to know/get started" content. You can take the path in this topic or you can take the path in the What to know before your get started topic. And they don't cover the same ground. -->
 
 
-<!--HONumber=May16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

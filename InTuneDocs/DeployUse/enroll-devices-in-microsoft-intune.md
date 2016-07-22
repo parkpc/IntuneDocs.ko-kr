@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 장치 등록 | Microsoft Intune
-description:
-keywords:
+title: "장치 등록 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: damionw
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 69cf07aa0747448e0ef3384b5b5132e0e76aed45
+ms.openlocfilehash: 930cbc806d8fd1185cf33fd64d866b88ec9a6a04
+
 
 ---
 
@@ -33,6 +27,73 @@ Microsoft Intune MDM(모바일 장치 관리)에서는 등록을 사용하여 �
 Intune은 다음 장치 플랫폼을 관리할 수 있습니다.
 
 [!INCLUDE[mdm-supported-devices](../includes/mdm-supported-devices.md)]
+
+## 장치 등록 방법 개요
+
+다음 표에서는 회사 소유 장치의 등록 방법 및 그 이점에 대해 보여 줍니다.
+
+**iOS 등록 방법**
+
+| **메서드** |  **[초기화](#Wipe)** | **[선호도](#Affinity)**   |   **[Locked](#Locked)** |
+|:---:|:---:|:---:|:---:|
+|**[BYOD](#BYOD)** | 아니요|    예 |   아니요 |
+|**[DEM](#DEM)**|   아니요 |아니요 |아니요  |
+|**[DEP](#DEP)**|   예 |   옵션 |   옵션|
+|**[USB-SA](#USB-SA)**| 예 |   옵션 |   아니요|
+|**[USB-Direct](#USB-Direct)**| 아니요 |    아니요  | 아니요|
+
+**Windows 및 Android 등록 방법**
+
+| **메서드** |  **[초기화](#Wipe)** | **[선호도](#Affinity)**   |   **[Locked](#Locked)** |
+|:---:|:---:|:---:|:---:|
+|**[BYOD](#BYOD)** | 아니요|    예 |   아니요 |
+|**[DEM](#DEM)**|   아니요 |아니요 |아니요  |
+
+**회사 소유 장치의 등록 방법**
+
+### BYOD
+“Bring Your Own Device.” 사용자가 회사 포털 앱을 설치하고 장치를 등록합니다. 회사 포털에 장치를 등록하면 장치가 작업 공간에 연결됩니다. 회사 포털에 iOS 장치를 등록하려면 Apple ID가 필요합니다. BYOD의 경우 회사 소유 장치에 대한 추가 구성이 필요하지 않습니다. [장치 관리를 설정](get-ready-to-enroll-devices-in-microsoft-intune.md#set-up-device-management)하는 단계를 참조하세요. ([표로 돌아가기](#overview-of-corporate-owned-device-enrollment-methods))
+
+### DEM
+장치 등록 관리자입니다. 관리자가 회사 소유의 장치를 관리하기 위한 DEM 계정을 만듭니다. 그러면 DEM이 회사 포털을 설치하고 사용자가 지정되지 않은 여러 장치를 등록할 수 있습니다. [DEM](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)에 대해 자세히 알아보세요. ([표로 돌아가기](#overview-of-corporate-owned-device-enrollment-methods))
+
+### DEP
+Apple 장치 등록 프로그램입니다. 관리자가 정책을 만들고, DEP를 사용하여 구매하고 관리하는 회사 소유의 iOS 장치에 이를 "무선으로" 배포합니다. 사용자가 iOS 설치 도우미를 실행하는 경우 장치가 등록됩니다. 이 방법은 **iOS 감독** 모드를 지원하며, 이 모드에서는 다음을 사용할 수 있습니다.
+  - 잠긴 등록
+  - 조건부 액세스
+  - 탈옥 검색
+  - 모바일 응용 프로그램 관리
+
+[DEP](ios-device-enrollment-program-in-microsoft-intune.md)에 대해 자세히 알아보세요. ([표로 돌아가기](#overview-of-corporate-owned-device-enrollment-methods))
+
+### USB-SA
+USB로 연결된 설치 도우미 등록입니다. 관리자가 Intune 정책을 만들어 Apple Configurator로 내보냅니다. USB로 연결된 회사 소유의 장치는 Intune 정책을 사용하여 준비됩니다. 관리자가 각 장치를 직접 등록해야 합니다. 사용자가 장치를 받아 설치 도우미를 실행하여 해당 장치를 등록합니다. 이 방법은 **iOS 감독** 모드를 지원하며, 이 모드에서는 다음을 사용할 수 있습니다.
+  - 조건부 액세스
+  - 탈옥 검색
+  - 모바일 응용 프로그램 관리
+
+[Apple Configurator를 사용하여 설치 도우미를 등록](ios-setup-assistant-enrollment-in-microsoft-intune.md)하는 방법에 대해 자세히 알아보세요. ([표로 돌아가기](#overview-of-corporate-owned-device-enrollment-methods))
+
+### USB-Direct
+직접 등록입니다. 관리자가 Intune 정책을 만들어 Apple Configurator로 내보냅니다. USB로 연결된 회사 소유의 장치를 초기화하지 않고 직접 등록합니다. 관리자가 각 장치를 직접 등록해야 합니다. 장치는 사용자가 지정되지 않은 장치로 관리됩니다. 장치는 잠기거나 감독되지 않으며, 조건부 액세스, 탈옥 검색, 모바일 응용 프로그램 관리를 지원할 수 없습니다. [Apple Configurator를 사용하여 직접 등록](ios-direct-enrollment-in-microsoft-intune.md)하는 방법에 대해 자세히 알아보세요. ([표로 돌아가기](#overview-of-corporate-owned-device-enrollment-methods))
+
+**회사 소유 모바일 장치의 동작**
+
+### 초기화
+장치를 등록할 때 초기화해야 하는지 여부를 지정하며, 장치에서 모든 데이터를 제거하고 원래 상태로 되돌립니다.
+([표로 돌아가기](#overview-of-corporate-owned-device-enrollment-methods))
+
+### 선호도
+등록 방법이 장치를 특정 사용자와 연결하는 "사용자 선호도"를 지원하는지 여부를 지정합니다. "옵션" 장치는 사용자 선호도를 사용하거나 사용하지 않고 등록할 수 있습니다. 사용자 선호도는 다음을 지원하는 데 필요합니다.
+  - MAM(모바일 응용 프로그램 관리) 앱
+  - 메일 및 회사 데이터에 대한 조건부 액세스
+  - 회사 포털 앱
+
+([표로 돌아가기](#overview-of-corporate-owned-device-enrollment-methods))
+
+### 잠금
+사용자가 Intune 정책을 제거하는 것(사실상 관리에서 장치를 제거하는 동작)을 방지하기 위해 장치를 잠글 수 있는지 여부를 지정합니다. iOS 장치의 경우 장치를 잠그려면 감독 모드여야 합니다.
+([표로 돌아가기](#overview-of-corporate-owned-device-enrollment-methods)) ([표로 돌아가기](#overview-of-corporate-owned-device-enrollment-methods))
 
 ## 장치 등록 사용  
  등록을 통해 사용자는 개인 장치에서 회사 리소스에 액세스할 수 있고 관리자는 해당 장치가 회사 리소스를 보호하는 정책을 준수하는지 확인할 수 있습니다. Intune으로 "BYOD(Bring your own device)" 시나리오를 사용하는 가장 좋은 방법입니다. 관리자는 Intune 콘솔에서 등록을 사용해야 하며 이 때 장치와 트러스트 관계를 만들고 사용자에게 라이선스를 할당해야 합니다. 그런 다음 일반적으로 사용자가 회사 또는 학교 자격 증명을 입력하여 장치를 등록합니다. 그런 다음 장치는 Intune에서 정책을 가져오고 리소스에 대한 액세스 권한을 얻습니다.
@@ -64,6 +125,7 @@ Intune 클라이언트 소프트웨어로 관리된 컴퓨터는 선택적으로
 [Intune을 사용하여 Windows PC 관리](manage-windows-pcs-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO5-->
 
 

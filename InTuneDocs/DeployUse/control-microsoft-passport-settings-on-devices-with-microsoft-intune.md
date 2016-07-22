@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 장치의 Microsoft Passport 설정 제어 | Microsoft Intune
-description:
-keywords:
+title: "장치의 Microsoft Passport 설정 제어 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 42e21b802fb605c98f688485c3b77703b3950e94
+ms.openlocfilehash: bdf7dfda3814ad6c6c00f5c133027175a95fb5e2
+
 
 ---
 
@@ -57,7 +51,8 @@ Intune는 다음 두 가지 방법으로 Passport for Work에 통합됩니다.
     - **허용** - 사용자는 해당 PIN에 문자 형식을 사용할 수 있지만 필수는 아닙니다.
     - **필수** - 사용자는 PIN에 하나 이상의 문자 형식을 포함해야 합니다. 예를 들어, 일반적으로 하나 이상의 대문자 및 특수 문자가 필요합니다.
     - **허용되지 않음**(기본값) - 사용자는 해당 PIN에 다음과 같은 문자를 사용하지 않아야 합니다(설정이 구성되지 않은 경우에도 이 동작 수행).
-    > [!TIP] 특수 문자에는 다음이 포함됩니다. **! " # $ % &amp; ' ( ) &#42; + , - . / : ; &lt; = &gt; ? @ [ \ ] ^ _ &#96; { &#124; } ~**.
+    > [!TIP]
+    > 특수 문자에는 다음이 포함됩니다. **! " # $ % &amp; ' ( ) &#42; + , - . / : ; &lt; = &gt; ? @ [ \ ] ^ _ &#96; { &#124; } ~**
 - **PIN 만료(일)** - 최종 사용자가 변경해야 하는 기간 이후에 PIN에 대한 만료 기간을 지정하는 것이 좋습니다. 기본값은 41일입니다. 
 - **PIN 기록 기억** - 이전에 사용한 PIN의 재사용을 제한하려면 이 설정을 사용합니다. 기본적으로 마지막으로 사용한 5개 PIN을 다시 사용할 수 없습니다.
 
@@ -79,6 +74,7 @@ Microsoft Passport에 대한 자세한 내용은 Windows 10 설명서의 [가이
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

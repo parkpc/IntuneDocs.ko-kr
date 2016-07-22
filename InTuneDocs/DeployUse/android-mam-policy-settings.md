@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Android MAM 정책 설정 | Microsoft Intune
-description:
-keywords:
+title: "Android MAM 정책 설정 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 5dbb702a-1df5-4637-95c9-77a5f0b1a0e3
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: andcerat
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5a445f06d6c2328f7689468ca4d68a969af1e825
+ms.openlocfilehash: 3f43dc871dc0b0a81a6d0b05376a1254957fc35b
+
 
 ---
 
@@ -65,11 +59,12 @@ ms.suite: ems
 
     **기본값 = 예**
 - **앱 데이터 암호화:** **예**를 선택하여 암호화를 설정합니다. 이 설정을 사용하는 경우 모바일 앱 관리 정책과 연결된 앱의 경우에는 Microsoft에서 암호화 기능을 제공합니다. 데이터는 파일 I/O를 작업하는 동안 동기적으로 암호화됩니다. 장치 저장소의 콘텐츠는 항상 암호화됩니다.
-  >[!NOTE] 이 암호화 방법은 FIPS 140-2의 인증을 받지 않았습니다.
+  >[!NOTE]
+  >이 암호화 방법은 FIPS 140-2의 인증을 받지 않았습니다.
 
   **기본값 = 예**
 
-- **ContactSyncDisabled:** **예**를 선택하여 연락처 정보를 장치의 기본 주소 주소록 앱으로 동기화하지 않도록 방지합니다. **아니요**를 선택한 경우 앱은 장치에 있는 기본 주소 주소록 앱에 연락처 정보를 저장합니다.<br/>회사 데이터를 제거하는 선택적 초기화를 수행하는 경우 앱에서 네이티브 주소록에 직접 동기화된 연락처가 제거됩니다. 기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. 현재 **Microsoft Outlook** 앱에만 적용됩니다.
+- **연락처 동기화 사용 안 함:** **예**를 선택하여 연락처 정보를 장치의 기본 주소 주소록 앱으로 동기화하지 않도록 방지합니다. **아니요**를 선택한 경우 앱은 장치에 있는 기본 주소 주소록 앱에 연락처 정보를 저장합니다.<br/>회사 데이터를 제거하는 선택적 초기화를 수행하는 경우 앱에서 네이티브 주소록에 직접 동기화된 연락처가 제거됩니다. 기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. 현재 **Microsoft Outlook** 앱에만 적용됩니다.
 
   **기본값 = 예**
 
@@ -100,6 +95,7 @@ ms.suite: ems
 - **화면 캡처 및 Android Assistant 차단(Android 6 Marshmallow 이상):** 이 앱을 사용하는 경우 **예**를 선택하여 화면 캡처 및 장치의 **Android Assistant** 기능을 차단합니다.
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

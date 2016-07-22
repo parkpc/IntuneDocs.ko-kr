@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 일반적인 Windows PC 관리 작업 | Microsoft Intune
-description:
-keywords:
+title: "일반적인 Windows PC 관리 작업 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: eb912c73-54d2-4d78-ac34-3cbe825804c7
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: owenyen
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 530bf3234001946776593ae0257ea72a06c8612f
+ms.openlocfilehash: 222b9aac19993f184ff68800a00f8d9df8b36237
+
 
 ---
 
@@ -139,7 +133,8 @@ Intune에서는 관리 컴퓨터의 하드웨어 및 소프트웨어에 대한 �
 
 -   구성 방법에 따라 사용 중지된 컴퓨터도 Windows Server Update Services, Windows 업데이트 또는 Microsoft 업데이트를 사용하여 업데이트를 계속 수신할 수 있습니다.
 
-    > [!IMPORTANT] GPO(그룹 정책 개체)를 사용하여 클라이언트 소프트웨어를 설치한 경우 해당 클라이언트 소프트웨어를 제거하려면 먼저 해당 GPO(그룹 정책 개체)를 제거해야 소프트웨어가 다시 설치되는 것을 방지할 수 있습니다.
+    > [!IMPORTANT]
+    > GPO(그룹 정책 개체)를 사용하여 클라이언트 소프트웨어를 설치한 경우 해당 클라이언트 소프트웨어를 제거하려면 먼저 해당 GPO(그룹 정책 개체)를 제거해야 소프트웨어가 다시 설치되는 것을 방지할 수 있습니다.
 
     클라이언트를 제거하지 못한 경우 자세한 내용은 [Endpoint Protection 문제 해결](/intune/troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune)을 참조하세요.
 
@@ -162,7 +157,8 @@ Intune에서는 관리 컴퓨터의 하드웨어 및 소프트웨어에 대한 �
 
     -   새 사용자와 컴퓨터를 연결하려면 **모든 사용자** 목록에서 사용자를 선택합니다. 사용자 데이터가 올바른지 확인한 후 **확인**을 선택합니다.
 
-> [!TIP] 최종 사용자가 컴퓨터에 자신을 연결하는 기능을 제한하려면 **Microsoft Intune 에이전트 설정** 정책에서 **사용자와 컴퓨터를 연결하는 기능 제한** 옵션을 사용하도록 설정합니다.
+> [!TIP]
+> 최종 사용자가 컴퓨터에 자신을 연결하는 기능을 제한하려면 **Microsoft Intune 에이전트 설정** 정책에서 **사용자와 컴퓨터를 연결하는 기능 제한** 옵션을 사용하도록 설정합니다.
 
 <!--- ## Request and provide remote assistance to Windows PCs that use the Intune client software
 
@@ -217,6 +213,7 @@ While in a remote assistance session, you can use all available TeamViewer comma
 
 From the **Actions** menu of the **TeamViewer** window, choose **End Session**.--->
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

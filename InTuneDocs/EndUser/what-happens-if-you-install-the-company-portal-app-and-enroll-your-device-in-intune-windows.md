@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요? | Microsoft Intune
-description:
-keywords:
+title: "Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요? | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: d65e3452-5bbf-4d26-a06e-401ddcc47f39
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: priyar
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: e2da1f39d0cfe05bb0ea1c149c91e5ff82312c01
+
 
 ---
 
@@ -131,6 +125,7 @@ IT 관리자가 내 장치에서 무엇을 볼 수 있는지 알아보려면 [�
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

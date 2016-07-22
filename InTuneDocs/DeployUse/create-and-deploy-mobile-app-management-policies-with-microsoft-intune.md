@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: MAM 정책 만들기 및 배포 | Microsoft Intune
-description:
-keywords:
+title: "MAM 정책 만들기 및 배포 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: joglocke
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 3f79de38ce7fc9a5434033ee45ddf43f22517356
+ms.openlocfilehash: f1b9216c673039f8600e07508b255e12cc30bf3f
+
 
 ---
 
@@ -34,6 +27,8 @@ MAM(모바일 앱 관리) 정책은 Intune에서 관리하거나 관리하지 �
 - MDM 솔루션(BYOD)에서 관리되지 않는 장치
 
 현재 **Intune 관리 콘솔**을 사용하여 장치를 관리하는 경우 [Intune 관리 콘솔](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 Intune에 등록된 장치의 앱을 지원하는 MAM 정책을 만들 수 있습니다.
+Intune 관리 콘솔에서 만든 MAM 정책은 Azure 포털에 가져올 수 없습니다.  Azure 포털에서 MAM 정책을 다시 만들어야 합니다.
+
 >[!IMPORTANT]
 > Intune 관리 콘솔에서 모든 MAM 정책 설정이 나타나지 않을 수 있습니다. Azure 포털은 MAM 정책을 만들기 위한 새 관리 콘솔입니다. Intune 관리 콘솔과 Azure 포털 둘 다에서 MAM 정책을 만들 경우 Azure 포털의 정책이 앱에 적용되며 사용자에게 배포됩니다.
 
@@ -49,7 +44,8 @@ MAM 정책을 만들기 전에 [필수 구성 요소 및 지원](get-ready-to-co
 
     ![Intune 모바일 응용 프로그램 관리 블레이드의 스크린 샷](../media/AppManagement/AzurePortal_MAM_Mainblade.png)
 
-    > [!TIP] 처음으로 Azure 포털을 사용하는 경우 먼저 [Azure portal for Microsoft Intune MAM policies](azure-portal-for-microsoft-intune-mam-policies.md)(Microsoft Intune MAM 정책용 Azure 포털) 항목을 읽어 포털에 대해 알아보세요.
+    > [!TIP]
+    > 처음으로 Azure 포털을 사용하는 경우 먼저 [Microsoft Intune MAM 정책용 Azure 포털](azure-portal-for-microsoft-intune-mam-policies.md)을 읽어 포털을 참고합니다.
 
 2.  **설정** 블레이드에서 **앱 정책**을 선택합니다.   **앱 정책** 블레이드가 열리며, 여기서 새 정책을 만들고 기존 정책을 편집합니다.
 
@@ -65,7 +61,8 @@ MAM 정책을 만들기 전에 [필수 구성 요소 및 지원](get-ready-to-co
 
 5.  **앱**을 선택하여 **앱 블레이드**를 열면 사용할 수 있는 앱 목록이 표시됩니다. 만들고 있는 정책과 연결할 앱을 목록에서 하나 이상 선택할 수 있습니다. 앱을 선택한 후 **앱** 블레이드 맨 아래에 있는 **선택** 단추를 선택하여 선택 내용을 저장합니다.
 
-    > [!IMPORTANT] 정책을 만들려면 앱을 하나 이상 선택해야 합니다.
+    > [!IMPORTANT]
+    > 정책을 만들려면 앱을 하나 이상 선택해야 합니다.
 
 6.  **정책 추가 블레이드**에서 **필요한 설정 구성** 을 선택하여 정책 설정 블레이드를 엽니다.
 
@@ -108,7 +105,8 @@ MAM 정책을 만들기 전에 [필수 구성 요소 및 지원](get-ready-to-co
 
 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 라이선스가 할당된 사용자만 정책에 의해 영향을 받습니다.  선택한 보안 그룹에서 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 라이선스가 할당되지 않은 사용자는 영향을 받지 않습니다.
 
-Configuration Manager와 함께 Intune을 사용하여 iOS 및 Android 장치를 관리하는 경우 선택한 그룹에 바로 포함된 사용자에만 정책이 적용됩니다.  선택한 그룹 내에 중첩된 자식 그룹의 멤버는 영향을 받지 않습니다.
+>[!IMPORTANT]
+> Configuration Manager와 함께 Intune을 사용하여 iOS 및 Android 장치를 관리하는 경우 선택한 그룹에 바로 포함된 사용자에만 정책이 적용됩니다.  선택한 그룹 내에 중첩된 자식 그룹의 멤버는 영향을 받지 않습니다.
 
 최종 사용자는 앱 스토어 또는 Google Play에서 앱을 다운로드할 수 있습니다. 장치에서 MAM으로 회사 데이터를 보호하는 방법의 자세한 연습은 [MAM를 사용하는 앱이 있는 최종 사용자 환경](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md) 항목을 참조하세요.
 
@@ -167,6 +165,7 @@ iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 중
 [MAM을 사용한 앱에 대한 최종 사용자 환경](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

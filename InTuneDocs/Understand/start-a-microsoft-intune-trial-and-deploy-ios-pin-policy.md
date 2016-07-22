@@ -1,32 +1,26 @@
 ---
-# required metadata
-
-title: Microsoft Intune 평가판 시작 및 iOS PIN 정책 배포 | Microsoft Intune
-description:
-keywords:
+title: "Microsoft Intune 평가판 시작 및 iOS PIN 정책 배포 | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 06cb9a73-0f17-44b3-b334-86c98020316e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 7f3985b10ac9612c8c1efc4756eb25cdcf29b023
+ms.openlocfilehash: 6787d0c35621b2bc94bfe376dfd1669e9dfe46db
+
 
 ---
 
 # Microsoft Intune 평가판 시작 및 iOS PIN 정책 배포
-이 단계별 지침은 Intune 평가판을 설정하고 iOS 장치에 대한 PIN 정책을 구성하는 데 도움이 됩니다. 시도할 수 있는 다른 일반적인 Intune 평가 작업 목록은 [일반적인 Microsoft Intune 평가 작업](common-microsoft-intune-evaluation-tasks.md)을 참조하세요..
+이 단계별 지침은 Intune 평가판을 설정하고 iOS 장치에 대한 PIN 정책을 구성하는 데 도움이 됩니다. 시도할 수 있는 다른 일반적인 Intune 평가 작업 목록은 [일반적인 Microsoft Intune 평가 작업](common-microsoft-intune-evaluation-tasks.md)을 참조하세요.
 
 
 
@@ -42,11 +36,11 @@ ms.suite: ems
 > [!NOTE]
 > Intune 구독을 이미 보유한 경우 이 섹션을 건너뛰고 다음 섹션으로 이동합니다.
 
-1.  Windows PC에서 **Internet Explorer**(IE)를 마우스 오른쪽 단추로 클릭하고 **InPrivate 브라우징**을 선택합니다..
+1.  Windows PC에서 **Internet Explorer**(IE)를 마우스 오른쪽 단추로 클릭하고 **InPrivate 브라우징**을 선택합니다.
 
     ![InPrivate 브라우징을 시작합니다.](../media/30-day-trial-walkthrus/30day-start-trial-1-InPrivate.png)
 
-2.  [Intune 등록 포털](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1)로 이동한 다음 요청된 정보를 제공하고 **다음**을 클릭합니다..
+2.  [Intune 등록 포털](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1)로 이동한 다음 요청된 정보를 제공하고 **다음**을 클릭합니다.
 
     ![계정을 등록합니다.](../media/30-day-trial-walkthrus/30day-start-trial-2-abt-you.png)
 
@@ -58,7 +52,7 @@ ms.suite: ems
 
     ![세부 정보의 유효성을 검사합니다.](../media/30-day-trial-walkthrus/30day-start-trial-4-textme.png)
 
-5.  화면에 표시되는 정보를 저장하고 **사용할 준비가 되었습니다.**를 클릭합니다..
+5.  화면에 표시되는 정보를 저장하고 **사용할 준비가 되었습니다.**를 클릭합니다.
 
     ![준비 완료](../media/30-day-trial-walkthrus/30day-start-trial-5-ReadyToGo.png)
 
@@ -80,11 +74,11 @@ ms.suite: ems
 
     3.  **다음에 로그인할 때 이 사용자가 암호를 변경하도록 설정** 확인란의 선택을 취소합니다.
 
-    4.  **만들기**를 클릭합니다..
+    4.  **만들기**를 클릭합니다.
 
     ![새 사용자 계정 만들기](../media/30-day-trial-walkthrus/30day-crt-user-8-add-user-info.png)
 
-4.  사용자 만들기 확인 페이지에서 **닫기**를 클릭합니다..
+4.  사용자 만들기 확인 페이지에서 **닫기**를 클릭합니다.
 
     ![사용자 만들기 확인 페이지](../media/30-day-trial-walkthrus/30day-crt-user-9-close-confirm.png)
 
@@ -106,11 +100,11 @@ ms.suite: ems
 
 2.  iOS 장치를 등록할 수 있도록 설정합니다. 이 프로세스는 APNs(Apple Push Notification Service)와 Intune 구독 간에 신뢰할 수 있는 인증서를 설정합니다.
 
-    1.  **iOS 및 Mac OS X 플랫폼 사용**을 클릭합니다..
+    1.  **iOS 및 Mac OS X 플랫폼 사용**을 클릭합니다.
 
         ![Enable iOS 및 Mac OS X 등록 사용](../media/30-day-trial-walkthrus/30day-cfg-pol-13-enbl-ios-plat.png)
 
-    2.  **APNs 인증서 요청 다운로드**를 클릭합니다..
+    2.  **APNs 인증서 요청 다운로드**를 클릭합니다.
 
         ![APNs 인증서 다운로드](../media/30-day-trial-walkthrus/30day-cfg-pol-14-dwnld-cert-reqst.png)
 
@@ -126,19 +120,19 @@ ms.suite: ems
 
         ![APC(Apple Push Certificate) 포털에 로그인합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-17-id-passw-signin.png)
 
-    6.  **인증서 만들기**를 클릭합니다..
+    6.  **인증서 만들기**를 클릭합니다.
 
         ![APNs 인증서를 만듭니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-18-create-cert.png)
 
-    7.  Apple의 사용 약관을 읽고 확인란을 선택한 다음 **동의함**을 클릭합니다..
+    7.  Apple의 사용 약관을 읽고 확인란을 선택한 다음 **동의함**을 클릭합니다.
 
         ![약관에 동의합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-19-TOU.png)
 
-    8.  **찾아보기**를 클릭합니다..
+    8.  **찾아보기**를 클릭합니다.
 
         ![인증서를 저장한 위치로 이동합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-20-browse.png)
 
-    9. 이전에 저장한 CSR 파일을 선택하고 **열기**를 클릭합니다..
+    9. 이전에 저장한 CSR 파일을 선택하고 **열기**를 클릭합니다.
 
         ![인증서를 엽니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-21-CSRfile-open.png)
 
@@ -146,43 +140,43 @@ ms.suite: ems
 
         ![인증서를 업로드합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-22-upld-reqst.png)
 
-    11. JSON 파일을 다운로드하라는 메시지가 표시되면 **다른 이름으로 저장**을 클릭합니다..
+    11. JSON 파일을 다운로드하라는 메시지가 표시되면 **다른 이름으로 저장**을 클릭합니다.
 
         ![JSON 파일을 저장합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-23-json-saveas.png)
 
-    12. JSON 파일의 위치를 지정하고 **저장**을 클릭합니다..
+    12. JSON 파일의 위치를 지정하고 **저장**을 클릭합니다.
 
         ![JSON 파일을 저장할 위치를 지정합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-24-json-save-loc.png)
 
-        페이지가 몇 초 후에 자동으로 리디렉션되지 않을 경우 **취소**를 클릭합니다..
+        페이지가 몇 초 후에 자동으로 리디렉션되지 않을 경우 **취소**를 클릭합니다.
 
         ![페이지가 리디렉션되지 않으면 취소합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-25-json-pg-cancel.png)
 
-    13. 새로 만든 인증서 파일을 가져오려면 **다운로드**를 클릭합니다..
+    13. 새로 만든 인증서 파일을 검색하려면 **다운로드**를 클릭합니다.
 
         ![인증서를 다운로드합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-26-dwnld-retrv-cert.png)
 
-    14. PEM 파일을 다운로드하라는 메시지가 표시되면 **다른 이름으로 저장**을 클릭합니다..
+    14. PEM 파일을 다운로드하라는 메시지가 표시되면 **다른 이름으로 저장**을 클릭합니다.
 
         ![PEM 파일을 다운로드합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-27-pem-saveas.png)
 
-    15. PEM 파일의 위치를 지정하고 **저장**을 클릭합니다..
+    15. PEM 파일의 위치를 지정하고 **저장**을 클릭합니다.
 
         ![PEM 파일을 저장합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-28-pem-save-loc.png)
 
-    16. Intune 관리 콘솔 탭으로 돌아간 다음 **APNs 인증서 업로드**를 클릭합니다..
+    16. Intune 관리 콘솔 탭으로 돌아간 다음 **APNs 인증서 업로드**를 클릭합니다.
 
         ![APNs 인증서를 업로드합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-29-upld-cert.png)
 
-    17. Apple ID를 입력하고 **찾아보기**를 클릭합니다..
+    17. Apple ID를 입력하고 **찾아보기**를 클릭합니다.
 
         ![Apple ID를 입력 합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-30-app-id-browse.png)
 
-    18. 방금 저장한 PEM 파일을 선택하고 **열기**를 클릭합니다..
+    18. 방금 저장한 PEM 파일을 선택하고 **열기**를 클릭합니다.
 
         ![PEM 파일을 엽니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-31-sel-pem-open.png)
 
-    19. **업로드**를 클릭합니다..
+    19. **업로드**를 클릭합니다.
 
         ![PEM 파일을 업로드합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-32-pem-upload.png)
 
@@ -192,37 +186,37 @@ ms.suite: ems
 
 3.  정책 대상 지정을 위한 테스트 사용자 그룹을 만듭니다.
 
-    1.  왼쪽 창에서 **그룹**을 클릭합니다..
+    1.  왼쪽 창에서 **그룹**을 클릭합니다.
 
         ![그룹을 엽니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-34-clk-groups.png)
 
-    2.  오른쪽 맨 끝에 있는 **그룹 만들기**를 클릭합니다..
+    2.  맨 오른쪽에 있는 **그룹 만들기**를 클릭합니다.
 
         ![그룹 만들기](../media/30-day-trial-walkthrus/30day-cfg-pol-35-crt-group.png)
 
-    3.  그룹 이름을 제공하고 **모든 사용자**를 부모 그룹으로 선택한 후 **다음**을 클릭합니다..
+    3.  그룹 이름을 제공하고 **모든 사용자**를 부모 그룹으로 선택한 후 **다음**을 클릭합니다.
 
         ![모든 사용자를 부모 그룹으로 선택합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-36-name-group.png)
 
-    4.  **다음으로 그룹 멤버 자격 시작** 필드에서 **부모 그룹의 모든 사용자**를 선택하고 **마침**을 클릭합니다..
+    4.  **다음으로 그룹 멤버 자격 시작** 필드에서 **부모 그룹의 모든 사용자**를 선택하고 **마침**을 클릭합니다.
 
         ![부모 그룹으로 그룹 멤버 자격을 시작합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-37-all-users-group.png)
 
 4.  iOS PIN 정책을 만들고 대상을 테스트 사용자 그룹으로 지정합니다.
 
-    1.  왼쪽 창에서 **정책**을 클릭합니다..
+    1.  왼쪽 창에서 **정책**을 클릭합니다.
 
         ![정책 작업 영역을 엽니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-38-clk-policy.png)
 
-    2.  오른쪽 맨 끝에 있는 **정책 추가**를 클릭합니다..
+    2.  맨 오른쪽에 있는 **정책 추가**를 클릭합니다.
 
         ![정책을 추가합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-39-add-policy.png)
 
-    3.  iOS 노드를 확장하고 **일반 구성** 행을 선택한 다음 **정책 만들기**를 클릭합니다..
+    3.  iOS 노드를 확장하고 **일반 구성** 행을 선택한 다음 **정책 만들기**를 클릭합니다.
 
         ![iOS 일반 구성 정책 만들기](../media/30-day-trial-walkthrus/30day-cfg-pol-40-gen_cfg_pol.png)
 
-    4.  정책의 이름을 입력하고 **모바일 장치의 잠금을 해제하는 데 암호 필요** 옵션을 설정한 다음 **최소 암호 길이**를 **4**로 설정합니다..
+    4.  정책의 이름을 입력하고 **모바일 장치의 잠금을 해제하는 데 암호 필요** 옵션을 설정한 다음 **최소 암호 길이**를 **4**로 설정합니다.
 
         ![암호 설정을 구성합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-41-name-policy.png)
 
@@ -230,7 +224,7 @@ ms.suite: ems
 
         ![정책을 배포합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-42-yes-deploy-pol.png)
 
-    6.  이전에 만든 사용자 그룹을 클릭한 다음 **추가**, **확인**을 차례로 클릭합니다..
+    6.  이전에 만든 사용자 그룹을 클릭한 다음 **추가**, **확인**을 차례로 클릭합니다.
 
         ![정책에 대한 그룹을 선택합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-43-add-pol-to-grp.png)
 
@@ -244,7 +238,7 @@ ms.suite: ems
 
     ![회사 포털을 설치합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-45-cportal-installed.png)
 
-2.  테스트 사용자 계정 이름 및 암호를 입력하고 **로그인**을 탭합니다..
+2.  테스트 사용자 계정 이름 및 암호를 입력하고 **로그인**을 탭합니다.
 
     ![자격 증명을 제공합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-46-cportal-signin.png)
 
@@ -252,19 +246,19 @@ ms.suite: ems
 
     ![등록을 시작합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-47-tap-enroll.jpg)
 
-4.  **프로필 설치** 화면에서 **설치**를 탭합니다..
+4.  **프로필 설치** 화면에서 **설치**를 탭합니다.
 
     ![프로필을 설치합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-48-profile-install-1.jpg)
 
-5.  **프로필 설치** 대화 상자에서 **설치**를 탭합니다..
+5.  **프로필 설치** 대화 상자에서 **설치**를 탭합니다.
 
     ![프로필 설치를 계속합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-49-profile-install-2.jpg)
 
-6.  **경고** 화면에서 **설치**를 탭합니다..
+6.  **경고** 화면에서 **설치**를 탭합니다.
 
     ![경고 메시지를 수락합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-50-warning-install-3.png)
 
-7.  **원격 관리** 대화 상자에서 **신뢰**를 탭합니다..
+7.  **원격 관리** 대화 상자에서 **신뢰**를 탭합니다.
 
     ![원격 관리를 신뢰합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-51-remt-mgmt-trust.jpg)
 
@@ -276,11 +270,11 @@ ms.suite: ems
 
     ![확인을 탭하고 회사 포털 앱을 닫습니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-53-devc-enrolled-ok.png)
 
-10. 암호를 구성하라는 메시지가 표시되면 **계속**을 탭합니다..
+10. 암호를 구성하라는 메시지가 표시되면 **계속**을 탭합니다.
 
     ![암호를 구성하라는 메시지를 수락합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-54-passcode-req-cont.png)
 
-11. 암호를 입력하고 **계속**을 탭한 다음 암호를 다시 입력하고 **저장**을 탭합니다..
+11. 암호를 입력하고 **계속**을 탭한 다음 암호를 다시 입력하고 **저장**을 탭합니다.
 
     ![암호를 제공 합니다.](../media/30-day-trial-walkthrus/30day-cfg-pol-55-passcode-enter.jpg)
 
@@ -290,6 +284,7 @@ ms.suite: ems
 [Intune 평가 가이드](get-started-with-a-30-day-trial-of-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

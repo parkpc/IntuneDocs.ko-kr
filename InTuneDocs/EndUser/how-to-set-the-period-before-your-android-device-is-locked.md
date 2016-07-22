@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Android 장치가 잠기기까지의 기간을 설정하는 방법 | Microsoft Intune
-description:
-keywords:
+title: "Android 장치가 잠기기까지의 기간을 설정하는 방법 | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 98034875-cd3a-4367-a8d7-c5d4a438d496
-
-# optional metadata
-
-ROBOTS:
-#audience:
-#ms.devlang:
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: 00fca8673ff1b52535fb6c06a02b38b7879f204f
+
 
 ---
 
@@ -38,6 +33,7 @@ ms.suite: ems
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

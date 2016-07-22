@@ -1,32 +1,26 @@
 ---
-# required metadata
-
-title: 응용 프로그램 출시 | Microsoft Intune
-description:
-keywords:
+title: "응용 프로그램 출시 | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 0fc32ed3-bcf4-472a-80e7-eb20986f78fa
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
+ms.openlocfilehash: 4a237942b4bc1e411cf55bc34c7b86d2249c526e
+
 
 ---
 
 # 응용 프로그램 출시
-이 항목에서는 Microsoft Intune에서 앱의 단계적 출시에 대한 특정한 권장 사항을 제공합니다. 출시 단계에 대한 일반 정보는 [Microsoft Intune 배포에 대한 출시 단계](rollout-phases-for-microsoft-intune-deployment.md)를 참조하세요..
+이 항목에서는 Microsoft Intune에서 앱의 단계적 출시에 대한 특정한 권장 사항을 제공합니다. 출시 단계에 대한 일반 정보는 [Microsoft Intune 배포에 대한 출시 단계](rollout-phases-for-microsoft-intune-deployment.md)를 참조하세요.
 
 ### 앱 출시 단계
 앱 출시 단계는 다음과 같습니다.
@@ -37,7 +31,7 @@ ms.suite: ems
 
 -   파일럿
 
--   엔터프라이즈 출시
+-   전사적 출시
 
 -   운영 및 유지 관리
 
@@ -48,18 +42,21 @@ ms.suite: ems
 
 -   사용자 및 해당 장치(사용할 수 있는 모든 운영 체제)에 대한 앱의 적합성을 확인합니다.
 
--   [Microsoft Intune을 사용하여 앱 추가](/intune/deploy-use/add-apps)에 설명된 대로 선택한 앱에 대한 설치 관리자가 Intune 앱 배포에서 지원되는지 확인합니다..
+-   [Microsoft Intune을 사용하여 앱 추가](/intune/deploy-use/add-apps)에 설명된 대로 선택한 앱에 대한 설치 관리자가 Intune 앱 배포에서 지원되는지 확인합니다.
 
--   앱 배포 필수 구성 요소가 설치되어 있는지 확인합니다. <!---, as described in [Plan for app deployment in Microsoft Intune](plan-for-app-deployment-in-microsoft-intune.md--->).
+-   앱 배포 필수 구성 요소가 설치되어 있는지 확인합니다. <!---, as described in [Plan for app deployment in Microsoft Intune](plan-for-app-deployment-in-microsoft-intune.md--->)을 입력합니다.
 
 -   앱 형식이 Intune에서 지원되는지 확인합니다.
 
--   앱을 업로드할 수 있는 충분한 클라우드 저장소 공간이 있는지 확인합니다. [Microsoft Intune을 사용하여 앱 추가](/intune/deploy-use/add-apps)에서 추가 저장소 구매를 위한 지침을 제공합니다..
+-   앱을 업로드할 수 있는 충분한 클라우드 저장소 공간이 있는지 확인합니다. [Microsoft Intune을 사용하여 앱 추가](/intune/deploy-use/add-apps)에서 추가 저장소 구매를 위한 지침을 제공합니다.
+
+> [!NOTE]           
+> 이 [모바일 앱용 템플릿 계획](https://gallery.technet.microsoft.com/Mobile-app-planning-18689d59)을 다운로드하여 롤아웃 프로세스를 지원할 수 있습니다.
 
 ## 개념 증명
 개념 증명 단계에서는 테스트 목적으로 엄격하게 구성된 장치 및 사용자의 실험 환경에서 앱 배포를 테스트 합니다.
 
--   지원 센터가 이 단계에 참여하여 테스트 및 프로덕션 배포에서 발생할 수 있는 문제를 알아봅니다. 문제 해결 정보는 [Microsoft Intune에서 앱 배포 문제 해결](/intune/troubleshoot/troubleshoot-app-deployment-problems-in-microsoft-intune)에서 지원합니다..
+-   지원 센터가 이 단계에 참여하여 테스트 및 프로덕션 배포에서 발생할 수 있는 문제를 알아봅니다. 문제 해결 정보는 [Microsoft Intune에서 앱 배포 문제 해결](/intune/troubleshoot/troubleshoot-app-deployment-problems-in-microsoft-intune)에서 지원합니다.
 
 -   이 시점에서는 프로세스에서 파일럿 및 프로덕션 사용자에 대한 통신 계획을 개발해야 합니다. 이 계획은 최소한 배포되는 앱, 사용자가 앱을 사용하는 방법 및 시기, 배포하는 비즈니스 용도 및 자가 진단 정보와 지원 센터에 연락하는 방법 등 문제 발생 시 수행할 작업을 포함해야 합니다.
 
@@ -97,6 +94,7 @@ ms.suite: ems
 [Microsoft Intune에서 앱 배포 문제 해결](/intune/troubleshoot/troubleshoot-app-deployment-problems-in-microsoft-intune)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,38 +1,31 @@
 ---
-# required metadata
-
-title: 장치 수명 주기 개요 | Microsoft Intune
-description:
-keywords:
+title: "MDM 수명 주기 개요 | Microsoft Intune"
+description: "Intune에서 등록부터 구성 및 최종 사용 중지에 이르는 수명 주기 동안 장치를 관리하는 데 어떤 도움을 주는지 알아봅니다."
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: f6051fa7-133f-4712-86a5-e5f5bc5ab3c7
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 5140c4943be630ea8e48f80f7e6b590d223beac1
+ms.openlocfilehash: 751025aa71ef41564100ea57ac0d1fe60619e214
+
 
 ---
 
 # 모바일 장치 관리(MDM) 수명 주기 개요
 
-Intune 장치 수명 주기는 처음 장치 등록에서 시작하여 장치가 더 이상 필요 없게 될 때 종결할 때까지 여러 단계를 거칩니다.
+관리하는 모든 장치에는 *수명 주기*가 있습니다. Intune은 등록부터 더 이상 필요하지 않아 장치 사용을 중지할 때까지의 수명 주기를 관리하는 데 도움을 줄 수 있습니다.
 
-![장치 수명 주기](./media/devicelifecycle_nobg.png "the Intune device lifecycle")
+![장치 수명 주기](./media/device-lifecycle.png "the Intune device lifecycle")
 
 ## 등록
-오늘날의 MDM(모바일 장치 관리) 전략은 다양한 휴대폰, 태블릿 및 PC(iOS, Android, Windows 및 Mac OS X)에 적용됩니다. 회사 소유 장치에 대한 일반적인 경우처럼 장치를 관리할 수 있어야 하는 경우, 첫 단계는 [장치 등록을 설정](enroll-devices-in-microsoft-intune.md)하는 것입니다. Windows PC를 Intune(MDM)에 등록하거나 [Intune 클라이언트 소프트웨어를 설치](manage-windows-pcs-with-microsoft-intune.md)하여 관리할 수도 있습니다..
+오늘날의 MDM(모바일 장치 관리) 전략은 다양한 휴대폰, 태블릿 및 PC(iOS, Android, Windows 및 Mac OS X)에 적용됩니다. 회사 소유 장치에 대한 일반적인 경우처럼 장치를 관리할 수 있어야 하는 경우, 첫 단계는 [장치 등록을 설정](enroll-devices-in-microsoft-intune.md)하는 것입니다. Windows PC를 Intune(MDM)에 등록하거나 [Intune 클라이언트 소프트웨어를 설치](manage-windows-pcs-with-microsoft-intune.md)하여 관리할 수도 있습니다.
 
 ## 구성
 장치 등록은 첫 단계에 불과합니다. Intune이 제공하는 모든 기능을 이용하고 장치가 안전하고 회사 표준을
@@ -52,6 +45,7 @@ Intune 장치 수명 주기는 처음 장치 등록에서 시작하여 장치가
 장치를 분실 또는 도난 당한 경우 , 장치를 바꾸어야 하는 경우 또는 사용자가 다른 위치로 이동한 경우 일반적으로 장치를 [사용 중지 또는 초기화](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)해야 합니다. 장치 초기화, 관리에서 장치 제거 또는 장치의 회사 데이터 초기화 등 이 작업을 수행할 수 있는 다양한 방법이 있습니다.
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO2-->
 
 

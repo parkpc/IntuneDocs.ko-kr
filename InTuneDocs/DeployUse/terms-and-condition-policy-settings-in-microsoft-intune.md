@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Intune의 사용 약관 정책 설정 | Microsoft Intune
-description:
-keywords:
+title: "Microsoft Intune의 사용 약관 정책 설정 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 6edf0ac1-4f46-4543-a9e5-f484ac37e9a5
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
+ms.openlocfilehash: 8079ca5abcedbe024fb6347e02c7cf61ae541a30
+
 
 ---
 
@@ -32,7 +26,7 @@ ms.suite: ems
 
 ## 사용 약관 정책을 만들기
 
-1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다..
+1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다.
 
     ![사용 약관 정책 스크린샷](./media/pol-sa-terms-conditions.png)
 
@@ -54,17 +48,17 @@ ms.suite: ems
 
 ## 사용 약관 정책 배포
 
-1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다..
+1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다.
 
-2.  **사용 약관 정책** 목록에서 배포할 정책을 선택하고 **배포 관리**를 클릭합니다..
+2.  **사용 약관 정책** 목록에서 배포할 정책을 선택하고 **배포 관리**를 클릭합니다.
 
-3.  **배포 관리** 대화 상자에서 정책을 배포할 사용자 그룹을 선택하고 **확인**을 클릭합니다..
+3.  **배포 관리** 대화 상자에서 정책을 배포할 사용자 그룹을 선택하고 **확인**을 클릭합니다.
 
     대상 사용자가 회사 포털에 액세스하면 배포한 사용 약관이 Intune에 표시됩니다. 사용자는 해당 약관에 동의해야 회사 리소스에 액세스할 수 있습니다.
 
 ## 사용 약관 정책 모니터링
 
-1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다..
+1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다.
 
 2.  **새 보고서 만들기** 창에서 **보고서 보기**를 클릭합니다. 배포한 사용 약관에 동의한 사용자의 세부 정보를 보여 주는 보고서가 열립니다.
 
@@ -73,9 +67,9 @@ ms.suite: ems
 
 ## 여러 버전의 사용 약관을 사용하는 방법
 
-1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다..
+1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다.
 
-2.  편집할 사용 약관 정책을 선택하고 **편집**을 클릭합니다..
+2.  편집할 사용 약관 정책을 선택하고 **편집**을 클릭합니다.
 
 3.  **사용 약관 편집** 페이지에서 필요한 사항을 편집한 다음 모든 사용자가 이 새 버전의 사용 약관에 동의해야 하는지, 아니면 신규 사용자에게만 새 버전을 표시할지를 지정합니다.
 
@@ -85,6 +79,7 @@ ms.suite: ems
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 회사 포털 사용자 지정 | Microsoft Intune
-description:
-keywords:
+title: "회사 포털 사용자 지정 | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: eb4a9f01-f857-4563-ab6f-5d0d7dfa659d
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ed26d65b98a0ae1bbc4fbac682fb53fddd50b4e5
+ms.openlocfilehash: 45f574a975c94338c4543c0cdbc3aef549030601
+
 
 ---
 
@@ -32,7 +26,7 @@ ms.suite: ems
 > [!TIP]
 > 회사 포털을 사용자 지정할 때는 구성이 회사 포털 웹 사이트 및 회사 포털 앱에 모두 적용됩니다.
 
-회사 포털을 사용자 지정하면 최종 사용자에게 친숙하고 유용한 환경을 제공하는 데 도움이 됩니다. 그렇게 하려면, [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에 테넌트 또는 서비스 관리자로 로그인하고, **관리** &gt; **회사 포털**을 선택하여 회사 포털 설정을 구성합니다.
+회사 포털을 사용자 지정하면 최종 사용자에게 친숙하고 유용한 환경을 제공하는 데 도움이 됩니다. 그렇게 하려면 [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에 테넌트 또는 서비스 관리자로 로그인하고, **관리** &gt; **회사 포털**을 선택하여 회사 포털 설정을 구성합니다.
 
 ![admin-console-admin-workspace-comp-portal-settings](./media/companyportal.png)
 
@@ -44,7 +38,7 @@ ms.suite: ems
     |회사 이름|40|이 이름은 회사 포털의 제목으로 표시됩니다.|
     |IT 부서 연락처 이름|40|이 이름은 **IT 담당자** 페이지에 표시됩니다.|
     |IT 부서 전화 번호|20|이 연락처 번호는 **IT 담당자** 페이지에 표시됩니다.|
-    |IT 부서 전자 메일 주소|40|이 연락처 주소는 **IT 담당자** 페이지에 표시됩니다. 유효한 메일 주소를 **alias@domainname.com** 형식으로 입력해야 합니다..|
+    |IT 부서 전자 메일 주소|40|이 연락처 주소는 **IT 담당자** 페이지에 표시됩니다. 유효한 메일 주소를 **alias@domainname.com** 형식으로 입력해야 합니다.|
     |추가 정보|120|**IT 담당자** 페이지에 표시됩니다.|
     |회사 개인정보취급방침 URL|79|사용자가 회사 포털에서 개인정보취급방침 링크를 클릭할 때 표시되는 회사 개인정보취급방침을 지정할 수 있습니다. https://www.contoso.com 형식의 올바른 URL을 입력해야 합니다.|
 
@@ -69,12 +63,13 @@ ms.suite: ems
 변경 내용을 저장한 후 관리 콘솔의 **회사 포털** 페이지 맨 아래에 제공된 링크를 사용하여 회사 포털 웹 사이트를 확인할 수 있습니다. 이러한 링크는 변경할 수 없습니다. 사용자가 로그인하면 이러한 링크가 회사 포털에 구독을 표시합니다.
 
 ### 다음 단계
-축하합니다. Intune 빠른 시작 가이드의 7단계를 완료했습니다..
+축하합니다. *Intune 빠른 시작 가이드*의 7단계를 완료했습니다.
 >[!div class="step-by-step"]
 
->[&larr; **정책 및 앱 만들기**](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md)       [**장치 등록** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-8.md)  
+>[&larr;**정책 및 앱 만들기**](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md)       [**장치 등록** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-8.md)  
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

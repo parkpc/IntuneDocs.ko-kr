@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: iOS 장치 직접 등록 | Microsoft Intune
-description:
-keywords:
+title: "iOS 장치 직접 등록 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: a692b90c-72ae-47d1-ba9c-67a2e2576cc2
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: dagerrit
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 1b942c7e09e59de59e3e406b84a21a712c0e973a
+ms.openlocfilehash: 8fea0f7f87972bc643bbb20348095e05f701287e
+
 
 ---
 
@@ -46,6 +40,8 @@ Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http://go.micros
 
         -   **장치 그룹 사전 할당** – 이 프로필이 배포된 모든 장치는 처음에 이 그룹에 속합니다. 등록 후 장치를 다시 할당할 수 있습니다.
 
+        >[!Important]
+        >그룹 할당이 Intune에서 Azure Active Directory로 이동됩니다. [자세한 정보](http://go.microsoft.com/fwlink/?LinkID=787064)
     3.  **프로필 저장**을 선택하여 프로필을 추가합니다.
 
 5.  **iOS 장치에 배포하기 위해 프로필을 .mobileconfig 형태로 내보내기** 만든 장치 프로필을 선택합니다. **내보내기...** 선택 . **프로필 다운로드**를 선택하고 다운로드한 .mobileconfig 파일을 저장합니다.
@@ -89,6 +85,7 @@ Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http://go.micros
 [장치 등록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jul16_HO1-->
 
 

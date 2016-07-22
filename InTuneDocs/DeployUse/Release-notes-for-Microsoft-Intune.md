@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Intune에 대한 릴리스 정보 | Microsoft Intune
-description:
-keywords:
+title: "Microsoft Intune에 대한 릴리스 정보 | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: db9479b2-582d-4a1a-9fbc-fbfc6c680e6f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
+ms.openlocfilehash: 1906f14568484ebbf23ac7c4350964fb2d5d508f
+
 
 ---
 
@@ -63,9 +57,9 @@ Microsoft에서는 삼성과 수정 또는 추가 해결 방법에 대해 긴밀
 
 **해결 방법:** 인증된 프록시 서버를 사용해야 하는 네트워크에 등록해야 하는 Windows 8.1 장치의 경우 장치를 등록하기 전에 프록시 서버의 자격 증명을 구성하고 저장합니다. Windows 8.1 장치에서 자격 증명을 구성하고 저장하려면 다음을 수행합니다.
 
-1.  Windows 8.1 장치에서 **Internet Explorer**를 엽니다..
+1.  Windows 8.1 장치에서 **Internet Explorer**를 엽니다.
 
-2.  프록시 서버 자격 증명을 입력하라는 메시지가 나타나면 자격 증명을 입력한 후 **내 자격 증명 기억** 옵션을 선택합니다..
+2.  프록시 서버 자격 증명을 입력하라는 메시지가 나타나면 자격 증명을 입력한 후 **내 자격 증명 기억**옵션을 선택합니다.
 
 3.  장치를 등록합니다.
 
@@ -78,7 +72,7 @@ Microsoft에서는 삼성과 수정 또는 추가 해결 방법에 대해 긴밀
 ## Android용 Microsoft Intune 앱 래핑 도구에는 제거 기능이 기본 제공되지 않습니다.
 **문제:** **Android용 Microsoft 앱 래핑 도구**에는 도구를 제거하기 위한 기능이 기본 제공되지 않습니다.
 
-**해결 방법:** 도구를 설치한 위치를 탐색하고 디렉터리를 삭제합니다. 기본 설치 위치는 **C:\Program Files (x86)\Microsoft Intune Mobile Application Management\Android\App Wrapping Tool**입니다. 앱 래핑 도구에 대한 자세한 내용은 [앱 래핑 도구에서 관리를 위해 Android 앱 준비](/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)를 참조하세요..
+**해결 방법:** 도구를 설치한 위치를 탐색하고 디렉터리를 삭제합니다. 기본 설치 위치는 **C:\Program Files (x86)\Microsoft Intune Mobile Application Management\Android\App Wrapping Tool**입니다. 앱 래핑 도구에 대한 자세한 내용은 [앱 래핑 도구를 사용하여 관리용 Android 앱 준비](/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)를 참조하세요.
 
 ## Windows 8 또는 Windows 8.1을 실행하는 컴퓨터에서 원격 지원을 사용할 수 없음
 **문제:** 이 릴리스의 경우 Windows 8 또는 Windows 8.1을 실행하는 컴퓨터에서 원격 지원 기능을 사용할 수 없습니다.
@@ -96,6 +90,7 @@ Azure Preview 포털은 새 플랫폼을 기반으로 하여 작성되었으며 
 Intune 관리 콘솔 및 최종 사용자에 연결하는 모바일 환경에서는 Azure Preview 포털에서 지원하는 모든 언어 외에 덴마크어, 그리스어, 핀란드어, 노르웨이어 및 루마니아어를 지원합니다.
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

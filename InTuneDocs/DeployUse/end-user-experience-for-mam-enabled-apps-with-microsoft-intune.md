@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: MAM을 사용한 앱에 대한 최종 사용자 환경 | Microsoft Intune
-description:
-keywords:
+title: "MAM을 사용한 앱에 대한 최종 사용자 환경 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: andcerat
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 3f797e3ef4a7e2d1b27ce6b1ed6e5322343c6cff
+ms.openlocfilehash: 9b557c272c9d740792560a392d52efff6a7deed1
+
 
 ---
 
@@ -41,6 +34,7 @@ MAM(모바일 응용 프로그램 관리) 정책은 앱이 회사 컨텍스트�
     ![O365 로그인 페이지의 스크린 샷](../media/AppManagement/iOS_O365SignInPage.png)
 
 3.  Azure AD에서 자격 증명을 성공적으로 인증하면 MAM 정책이 적용되며, **OneDrive** 앱을 다시 시작하라는 메시지가 표시됩니다.
+  >[참고!] Intune에서 등록되지 않은 장치에서만 다시 시작 필요 대화 상자가 표시됩니다.
 
     ![다시 시작이 필요한 대화 상자의 스크린 샷](../media/AppManagement/iOS_AppRestartforMAM.png)
 
@@ -52,6 +46,7 @@ MAM(모바일 응용 프로그램 관리) 정책은 앱이 회사 컨텍스트�
 
     ![기존 파일의 목록으로 열린 파일 위치를 보여 주는 스크린 샷](../media/AppManagement/iOS_OneDriveSuccess.png)
 
+    > [!NOTE]
     > [!NOTE] 배포된 정책을 변경하는 경우 다음에 앱을 열 때 변경 내용이 적용됩니다.
 
 ##  Android 장치의 OneDrive 액세스
@@ -79,7 +74,7 @@ MAM(모바일 응용 프로그램 관리) 정책은 앱이 회사 컨텍스트�
 
     ![회사 포털 앱의 스크린 샷](../media/AppManagement/Android_CompanyPortalInstall.png)
 
-5.  설치를 완료한 후 **동의함** 을 클릭하여 약관에 동의합니다.
+5.  설치를 완료한 후 **동의함**을 선택하여 약관에 동의합니다.
 
 6.  **OneDrive** 앱이 자동으로 시작됩니다.
 
@@ -136,7 +131,7 @@ MAM 정책을 배포하기 전에 장치에 기존의 여러 사용자 계정이
 사용자 A는 **회사 X** 및 **회사 Y**에서 일합니다. 사용자 A는 각 회사에 회사 계정을 보유하고 둘 다 Intune를 사용하여 MAM 정책을 배포합니다. **회사 X**는 **회사 Y**보다 **먼저** MAM 정책을 배포합니다. **회사 X**와 연결된 계정은 MAM 정책을 가져오지만 회사 Y와 관련된 계정이 아닙니다. 회사 Y와 관련된 사용자 계정이 MAM 정책에 의해 관리되기를 바란다면 회사 X와 관련된 사용자 계정을 제거해야 합니다.
 ### 두 번째 계정 추가
 #### iOS
-iOS 장치를 사용하는 경우 동일한 장치에 두 번째 회사 계정을 추가하려고 하면 차단 메시지가 표시될 수 있습니다.  또한 기존 계정을 제거하고 새 계정을 추가하는 옵션이 표시됩니다. **예**를 클릭하면 이 작업을 수행할 수 있습니다.
+iOS 장치를 사용하는 경우 동일한 장치에 두 번째 회사 계정을 추가하려고 하면 차단 메시지가 표시될 수 있습니다.  또한 기존 계정을 제거하고 새 계정을 추가하는 옵션이 표시됩니다. 이 작업을 위해 **예**를 선택합니다.
 
 ![메시지 및 예 및 아니요 옵션을 차단하는 대화 상자의 스크린 샷](../media/AppManagement/iOS_SwitchUser.PNG)
 ####  Android
@@ -149,6 +144,18 @@ Android 장치에서 회사 AV, PDF 및 이미지 파일을 보려면 [Microsoft
 
 Google Play 스토어에서 이 응앱을 다운로드합니다.  앱이 장치에 설치되면 앱을 실행하고 회사 자격 증명으로 인증합니다. 이제 다른 정책에서 관리하는 앱에서 보호되지 않거나 보호된 파일을 볼 수 있습니다.
 
+다음 파일 형식이 지원됩니다.
+
+* **오디오:** AAC LC, HE-AACv1(AAC+), HE-AACv2(향상된 AAC+), AAC ELD(향상된 낮은 지연 AAC), AMR-NB, AMR-WB, FLAC, MP3, MIDI, Vorbis, PCM/WAVE.
+* **비디오:** H.263, H.264 AVC, MPEG-4 SP, VP8.
+* **이미지:** jpg, pjpg, png, ppng, bmp, pbmp, gif, pgif, jpeg, pjpeg.
+* PDF, PPDF
+
+------------
+|**pfile**|**텍스트**|
+|----|----|
+|Pfile은 암호화된 콘텐츠 및 RMS 라이선스를 캡슐화하고 모든 파일 형식을 보호하기 위해 사용할 수 있는 보호된 파일에 대한 일반적인 "래퍼" 형식입니다.|XML, CSV 등을 포함하는 텍스트 파일은 보호되는 경우에도 앱에서 열어서 볼 수 있습니다. 파일 형식: txt, ptxt, csv, pcsv, log, plog, xml, pxml|
+---------------
 **Intune에 등록하지 않은 Android 장치**
 
 Intune에서 관리하는 다른 앱에서 파일을 보기 위해 RMS 공유 앱을 사용하려면 먼저 RMS 앱을 시작한 다음 회사 계정으로 인증합니다.  로그인한 상태에서 **RMS 라이선스가 없는 경우에 한해** 다음과 같은 메시지가 표시됩니다.
@@ -162,6 +169,7 @@ Intune에서 관리하는 다른 앱에서 파일을 보기 위해 RMS 공유 �
 [Microsoft Intune으로 모바일 앱 관리 정책 만들기 및 배포](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jul16_HO2-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 장치 및 앱 수명 주기에 대한 개요 | Microsoft Intune
-description:
-keywords:
+title: "장치 및 앱 수명 주기에 대한 개요 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 38e08253-14a0-4cc4-87be-7b110c12a523
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 8d83f8ea2fa116ca6f1dbf96370c837ca6581d0b
+ms.openlocfilehash: d1912736361a9fa74a8827be367227336ee800eb
+
 
 ---
 
@@ -36,6 +30,7 @@ ms.suite: ems
 마찬가지로 작업하는 앱은 Intune에 앱 추가에서 더 이상 필요 없을 때 제거할 때까지 모든 단계를 포함하는 고유 [앱 수명 주기](overview-of-app-lifecycle-in-microsoft-intune.md)를 가지고 있습니다.
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

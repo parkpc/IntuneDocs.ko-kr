@@ -1,27 +1,19 @@
 ---
-# required metadata
-
-title: Lookout for Work를 설치하라는 메시지가 표시됨 | Microsoft Intune
-description:
-keywords:
+title: "Lookout for Work를 설치하라는 메시지가 표시됨 | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 05/27/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 0d357dc0-3e14-43d0-9874-6886ebc847fc
+translationtype: Human Translation
+ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
+ms.openlocfilehash: 1d47c043092eef7fcad56926bfdd44e259460053
 
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-#ms.reviewer: jeffgilb
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
 
 ---
 
@@ -41,6 +33,7 @@ Lookout for Work는 위험 및 보안 위협을 확인하여 장치의 보안을
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

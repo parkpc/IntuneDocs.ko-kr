@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Intune으로 마이그레이션 | Microsoft Intune
-description:
-keywords:
+title: "Intune으로 마이그레이션 | Microsoft Intune"
+description: 
+keywords: 
 author: jeffgilb
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 88936b8a-7453-4410-b6db-29f636ba3e72
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
+ms.openlocfilehash: 20394c243b9355cd3f4e30f170dfd00d10e1153f
+
 
 ---
 
@@ -34,7 +27,7 @@ ms.suite: ems
 
 ## 사용자에게 알림
 
-Intune 파일럿 배포가 요구 사항을 만족하는 것으로 확인된 후 예상되는 사용자 장치의 Intune으로 마이그레이션에 관하여 사용자에게 알립니다. 전자 메일 주소, [지침](http://www.microsoft.com/en-us/download/details.aspx?id=46398) 및 [포스터](https://gallery.technet.microsoft.com/Intune-End-User-Enrollment-3a0c9b0c?WT.mc_id=Blog_Intune_General_PCIT)는 기대치를 설정하고 사용자가 회사 리소스 및 응용 프로그램에 대해 중단되지 않는 연결을 유지하기 위해 실행해야 하는 단계에 관한 등록 정보를 제공하는 데 도움이 될 수 있습니다. 지원 팀이 마이그레이션 프로세스에서 사용자를 도울 준비가 되어 있는지 확인합니다.
+Intune 파일럿 배포가 요구 사항을 만족하는 것으로 확인된 후 예상되는 사용자 장치의 Intune으로 마이그레이션에 관하여 사용자에게 알립니다. 메일 주소, 지침 및 [포스터](https://gallery.technet.microsoft.com/Intune-End-User-Enrollment-3a0c9b0c?WT.mc_id=Blog_Intune_General_PCIT)는 기대치를 설정하고 사용자가 회사 리소스 및 응용 프로그램에 대해 중단되지 않는 연결을 유지하기 위해 실행해야 하는 단계에 관한 등록 정보를 제공하는 데 도움이 될 수 있습니다. 지원 팀이 마이그레이션 프로세스에서 사용자를 도울 준비가 되어 있는지 확인합니다.
 
 ## 기존 엔터프라이즈 이동성 관리 솔루션 수정
 
@@ -75,9 +68,10 @@ Intune으로 마이그레이션에 대해 추가적인 도움이 필요합니까
 
 ## 이 가이드의 다운로드 가능한 복사본 가져오기
 
-이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Migrating-to-Intune-ea439387)를 방문하세요..
+이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Migrating-to-Intune-ea439387)를 방문하세요.
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO2-->
 
 

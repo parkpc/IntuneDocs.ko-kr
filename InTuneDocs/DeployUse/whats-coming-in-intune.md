@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 향후 예정 사항 | Microsoft Intune
-description:
-keywords:
+title: "향후 예정 사항 | Microsoft Intune"
+description: 
+keywords: 
 author: Lindavr
 manager: jeffgilb
 ms.date: 06/10/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: f49650f4-31fa-406c-a4da-d8c9a4a8384d
-
-# optional metadata
-
-ROBOTS: noindex,nofollow
-#audience:
-#ms.devlang:
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: b203f51171d38f2b0fc2b46e556679322701d29b
+ms.openlocfilehash: 77d2e74dcb032ff52808998c56de7d6b8847ebbe
+
 
 ---
 
@@ -99,6 +93,7 @@ Intune 뷰어 앱을 사용하는 대신 새로운 Android용 Microsoft Rights M
 최근 개발 작업에 대한 자세한 내용은 [What’s New in Microsoft Intune](whats-new-in-microsoft-intune.md)(Microsoft Intune의 새로운 기능)을 참조하세요.
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jul16_HO1-->
 
 

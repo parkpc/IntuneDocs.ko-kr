@@ -1,33 +1,28 @@
 ---
-# required metadata
-
-title: iOS용 Microsoft Intune 앱 SDK 개발자 가이드 | Microsoft Intune
-description:
-keywords:
+title: "iOS용 Microsoft Intune 앱 SDK 개발자 가이드 | Microsoft Intune"
+description: 
+keywords: 
 author: Msmbaldwin
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: b7f62c5ee18d8f69fa174f09a1c46b6925c7517c
+ms.openlocfilehash: 820ec2da0554f0af383895482241be7d1c0cf305
+
 
 ---
 
 # iOS용 Microsoft Intune 앱 SDK 개발자 가이드
 
-> [!NOTE] 먼저 지원되는 각 플랫폼에서 통합을 준비하는 방법을 설명하는 [Intune 앱 SDK 시작 가이드](intune-app-sdk-get-started.md)를 읽어보는 것이 좋습니다.* 
+> [!NOTE]
+> 먼저 지원되는 각 플랫폼에서 통합을 준비하는 방법을 설명하는 [Intune 앱 SDK 시작 가이드](intune-app-sdk-get-started.md)를 읽어보는 것이 좋습니다.* 
 
 iOS용 Microsoft Intune 앱 SDK를 사용하면 iOS 앱에 Intune MAM(모바일 앱 관리)을 통합할 수 있습니다. MAM 사용이 가능한 응용 프로그램은 Intune 앱 SDK와 통합된 응용 프로그램으로, IT 관리자가 앱을 적극적으로 관리할 때 모바일 앱에 정책을 배포할 수 있게 해줍니다.
 
@@ -232,7 +227,8 @@ Microsoft Intune을 사용하여 MAM 사용이 가능한 앱을 테스트하기 
 
 * (Xcode 내부 또는 외부에서) 앱을 시작합니다. PIN이 예상대로 작동하는지 확인합니다.
 
-> [!NOTE] 이제 "설정 -> Your-App-Name > 테스트 정책 사용"을 통해 설정을 사용하도록 설정하고 전환할 수 있습니다.
+> [!NOTE]
+> 이제 "설정 -> Your-App-Name > 테스트 정책 사용"을 통해 설정을 사용하도록 설정하고 전환할 수 있습니다.
 
 # 권장되는 iOS 모범 사례
 
@@ -244,6 +240,7 @@ Xcode에서 `libIntuneMAM.a`를 찾는 데 문제가 있는 경우 링커 검색
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

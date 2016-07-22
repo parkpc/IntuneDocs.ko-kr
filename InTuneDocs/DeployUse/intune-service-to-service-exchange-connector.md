@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 호스팅된 Exchange용 Microsoft Intune Exchange Connector 구성 | Microsoft Intune
-description:
-keywords:
+title: "호스팅된 Exchange용 Microsoft Intune Exchange Connector 구성 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 05fa5dc9-9bad-4557-987a-9b8ce4edebb0
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 6951ccdb0e37489217ef939f0cbf6fc1133a6d3c
+ms.openlocfilehash: 6cfc532cba2f53034c4c3ef0c2df3d6c1e6e7841
+
 
 ---
 
@@ -54,21 +48,22 @@ ms.suite: ems
 
 1. Exchange 관리자 권한 및 [위의](#exchange-cmdlet-requirements) cmdlet에 대한 권한을 가진 사용자 계정으로 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 엽니다. Microsoft Intune은 현재 로그인된 사용자의 전자 메일 주소를 사용하여 연결을 설정합니다.
 
-2.  작업 영역 바로 가기 창에서 **ADMIN**을 선택한 다음 **모바일 장치 관리** > **Microsoft Exchange** > **Exchange 연결 설정**으로 이동합니다..
+2.  작업 영역 바로 가기 창에서 **관리**를 선택한 다음 **모바일 장치 관리** > **Microsoft Exchange** > **Exchange 연결 설정**으로 이동합니다.
 ![서비스 간 커넥터 설정 페이지](../media/intunesa5cservicetoserviceconnector.png)
 
-3.  **Exchange 연결 설정** 페이지에서 **서비스 간 커넥터 설정**을 선택합니다..
+3.  **Exchange 연결 설정** 페이지에서 **서비스 간 커넥터 설정**을 선택합니다.
 
 
 서비스 간 커넥터에서 자동으로 Hosted Exchange 환경을 구성하고 해당 환경과 동기화합니다.
 
 ## Exchange 연결 확인
 
-Exchange Connector를 구성했으면 Intune 관리자 콘솔에서 **ADMIN** 작업 영역을 선택하고 **모바일 장치 관리** > **Microsoft Exchange**로 이동하고 제공한 세부 정보가 **Exchange 연결 정보**에 나타나는지 확인합니다..
+Exchange Connector를 구성했으면 Intune 관리자 콘솔에서 **관리** 작업 영역을 선택하고 **모바일 장치 관리** > **Microsoft Exchange**로 이동하고 제공한 세부 정보가 **Exchange 연결 정보**에 나타나는지 확인합니다.
 
 마지막으로 성공한 동기화 시도의 시간과 날짜를 확인할 수도 있습니다.
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

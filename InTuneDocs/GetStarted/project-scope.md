@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 프로젝트 범위 | Microsoft Intune
-description:
-keywords:
+title: "프로젝트 범위 | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 71488dad-2f78-478c-a505-5cb9410eec07
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 9218b1f58032c07eddf84f04a667e2c56b5463ed
+ms.openlocfilehash: cf9b8bf9a07e4d5a29637fe52a0bfb6e0191478e
+
 
 ---
 
@@ -58,13 +52,21 @@ ms.suite: ems
 -   이 프로젝트 자금을 지원하고 핵심 메시징을 구축하는 지원 책임자는 누구인가요?
 
 ## 중점 영역 목표
-여기 명시된 출시 단계의 중점 영역 활동에 대한 지침은 이 섹션을 검토하세요.
+여기에 명시된 출시 단계의 중점 영역 활동에 대한 지침은 이 섹션을 검토하세요.
 
 ### 계획
 
 범위 단계에서 작업의 대부분은 계획 및 준비를 중심으로 수행됩니다. 프로젝트의 범위를 지정할 때 기술 및 조직 문제는 물론, 현재 사용자가 작업하는 방식, 필요한 동작 변경을 모두 고려합니다. 최종 목표의 "큰 그림"을 염두에 두고 시작한 다음 진행되는 후속 단계에서 보다 작은 목표를 세웁니다.
 
-### 지원 센터
+
+ > [!NOTE]
+ > 
+ > 이러한 템플릿은 프로젝트 범위에서 작업할 때 유용할 수 있습니다.
+ > > - [Intune 또는 Configuration Manager 의사 결정 템플릿이 있는 Intune](https://gallery.technet.microsoft.com/Intune-or-Intune-with-900e8a78)
+ > - [모바일 앱에 대한 템플릿 계획](https://gallery.technet.microsoft.com/Mobile-app-planning-18689d59)
+>- [일반 장치 관리 계획 템플릿](https://gallery.technet.microsoft.com/General-device-management-334c3792)
+
+### 기술 지원 팀
 지식 근로자가 생산적인 Intune 환경을 활용할 수 있으려면 지원 센터가 잘 마련되어 있어야 합니다. 프로젝트 범위를 지정한 대로, 각 단계에서 지원 센터가 어떻게 역할을 수행할지와 실행에 필요한 리소스와 지원 센터에서 최종 사용자를 지원할 준비가 되도록 하는 데 필요한 리소스를 고려합니다.
 
 ### 인식
@@ -110,6 +112,7 @@ ms.suite: ems
 [개념 증명](proof-of-concept.md)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

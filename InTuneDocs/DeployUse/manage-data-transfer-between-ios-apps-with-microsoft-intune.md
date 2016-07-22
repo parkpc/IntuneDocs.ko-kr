@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: iOS 앱 간의 데이터 전송 관리 | Microsoft Intune
-description:
-keywords:
+title: "iOS 앱 간의 데이터 전송 관리 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 3a4515c1-b325-4ac1-9f0a-45ac27e00681
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 002ebec14a089754849024916590b787431c7efe
+ms.openlocfilehash: fce0081fc1ecb92acf539a2d69f0493fb30ee418
+
 
 ---
 
@@ -51,9 +44,9 @@ MAM(모바일 앱 관리) 정책을 **관리에서 열기** 기능과 함께 사
 이 구성은 타사 MDM 솔루션으로 관리되는 장치에 필요합니다. 아래에 설명된 절차는 UPN 설정 및 결과로 생성되는 최종 사용자 환경을 구현하는 방법에 대한 일반적인 흐름입니다.
 
 
-1.  iOS 플랫폼에 대한 모바일 앱 관리 정책을 구성합니다. 회사 요구 사항에 따라 정책 설정을 구성하고 이 정책이 있어야 하는 앱을 선택합니다.
+1.  Azure 포털에서 iOS 플랫폼에 대한 [모바일 앱 관리 정책을 구성](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)합니다. 회사 요구 사항에 따라 정책 설정을 구성하고 이 정책이 있어야 하는 앱을 선택합니다.
 
-2.  3단계 및 4단계에서 설명한 설정을 사용하여 타사 MDM 솔루션을 통해 관리할 앱 및 전자 메일 프로필을 배포합니다.
+2.  3단계 및 4단계에서 설명한 설정을 사용하여 **타사 MDM 솔루션을 통해** 관리할 앱 및 메일 프로필을 배포합니다.
 
 3.  다음과 같은 앱 구성 설정으로 앱을 배포합니다. key=IntuneMAMUPN, Value=<username@company.com> [example: ‘IntuneMAMUPN’, ‘jondoe@microsoft.com’]
 
@@ -80,6 +73,7 @@ MAM(모바일 앱 관리) 정책을 **관리에서 열기** 기능과 함께 사
 [Microsoft Intune에서 모바일 앱 관리 정책을 사용하여 앱 데이터 보호](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO2-->
 
 

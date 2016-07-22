@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Intune으로 모바일 앱 관리 정책 모니터링 | Microsoft Intune
-description:
-keywords:
+title: "Microsoft Intune으로 모바일 앱 관리 정책 모니터링 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: joglocke
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
+ms.openlocfilehash: 99b50bd040bbbdfa3ad7937d7703700526c9c4d5
+
 
 ---
 
@@ -77,6 +71,7 @@ MAM 정책을 구성하고 사용자에게 적용한 후에 [Azure 포털](https
 [MAM을 사용한 앱에 대한 최종 사용자 환경](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 관리자 역할에 대한 콘솔 보기 사용자 지정 | Microsoft Intune
-description:
-keywords:
+title: "관리자 역할에 대한 콘솔 보기 사용자 지정 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: e0783eaa-67dc-410e-9e80-4d3aa72f36d8
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
+ms.openlocfilehash: 52a77e50b3dde24ba270766d4472bdd6176cc415
+
 
 ---
 
@@ -30,9 +24,9 @@ Microsoft Intune 관리 콘솔 보기를 필터링하여 관리자만 해당 역
 
 ## 사용자 지정 보기를 만드는 방법
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리** &gt; **서비스 관리자**를 선택합니다..
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리**&gt; **서비스 관리자**를 선택합니다.
 
-2.  서비스 관리자의 목록에서 명칭을 변경할 사용자를 선택한 다음 **액세스 관리**를 선택합니다..
+2.  서비스 관리자의 목록에서 명칭을 변경할 사용자를 선택한 다음 **액세스 관리**를 선택합니다.
 
 3.   **액세스 관리** 대화 상자에서 선택한 사용자에게 제공할 액세스 수준을 선택합니다. 다음 중 하나를 선택할 수 있습니다.
 
@@ -44,7 +38,7 @@ Microsoft Intune 관리 콘솔 보기를 필터링하여 관리자만 해당 역
 
     **기술 지원팀-그룹 노드**는 관리자가 다음과 같은 작업에서 확인하고 수행하는 내용을 제한합니다.
 
-    -   사용자 및 장치 목록을 확인합니다. 관리자는 필터를 사용하여 보기를 수정할 수 없습니다. 그러나 그룹 필터링을 사용하여 관리자가 볼 수 있는 내용을 수정할 수 있습니다. 자세한 내용은 [Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)를 참조하세요..
+    -   사용자 및 장치 목록을 확인합니다. 관리자는 필터를 사용하여 보기를 수정할 수 없습니다. 그러나 그룹 필터링을 사용하여 관리자가 볼 수 있는 내용을 수정할 수 있습니다. 자세한 내용은 [Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)를 참조하세요.
 
     -   사용자 및 장치 목록을 인쇄합니다.
 
@@ -73,6 +67,7 @@ Microsoft Intune 관리 콘솔 보기를 필터링하여 관리자만 해당 역
 다음에 구성한 관리자가 Intune 관리 콘솔을 여는 경우 지정된 액세스 수준이 부여됩니다.
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

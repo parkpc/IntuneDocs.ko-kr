@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 평가판 모바일 장치 등록 | Microsoft Intune
-description:
-keywords:
+title: "평가판 모바일 장치 등록 | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 47806f69-303d-41d9-9b0e-9b9445ea24ac
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 9755499575118feecf33780ee29a70525f95508e
+ms.openlocfilehash: f26b64015f483eb5b6a6efbaa6fe6730dde7dac9
+
 
 ---
 
@@ -38,11 +32,11 @@ Intune을 사용하여 모바일 장치 관리를 설정하려면 먼저 모바�
 
     관리하려는 장치 플랫폼에 대해 모바일 장치 관리를 사용하도록 설정합니다. 플랫폼에 따라 각기 다른 요구 사항을 충족해야 합니다.
 
-    -   **iOS 및 Mac OS X**: [Microsoft Intune을 사용한 iOS 및 Mac 관리 설정](/Intune/Deploy-Use/set-up-ios-and-mac-management-with-microsoft-intune)을 참조하세요..
+    -   **iOS 및 Mac OS X**: [Microsoft Intune을 사용한 iOS 및 Mac 관리 설정](/Intune/Deploy-Use/set-up-ios-and-mac-management-with-microsoft-intune)을 참조하세요.
 
     -   **Android**: Android 모바일 장치에서는 사용자가 Google Play에서 제공되는 회사 포털 앱을 사용하여 등록할 수 있습니다. Intune에서는 추가 구성을 수행할 필요가 없습니다.
 
-    -   **Windows Phone**: [Microsoft Intune을 사용한 Windows Phone 관리 설정](/Intune/Deploy-Use/set-up-windows-phone-management-with-microsoft-intune)을 참조하세요..
+    -   **Windows Phone**: [Microsoft Intune을 사용한 Windows Phone 관리 설정](/Intune/Deploy-Use/set-up-windows-phone-management-with-microsoft-intune)을 참조하세요.
 
 ## 테스트 장치 등록
 
@@ -62,18 +56,19 @@ App Store에서 Microsoft Corporation의 **Microsoft Intune 회사 포털** 앱�
 
 
 ## 이전에 배포된 앱 설치
-모바일 장치에서 회사 포털을 열고 **앱**을 선택한 후 **Microsoft Skype**를 설치합니다..
+모바일 장치에서 회사 포털을 열고 **앱**을 선택한 후 **Microsoft Skype**를 설치합니다.
 
-Intune을 사용하는 모바일 장치 관리에 대한 자세한 내용은 [Microsoft Intune에 장치를 등록하도록 준비](/Intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune)를 참조하세요..
+Intune을 사용하는 모바일 장치 관리에 대한 자세한 내용은 [Microsoft Intune에 장치를 등록하도록 준비](/Intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune)를 참조하세요.
 
 ### 다음 단계
-축하합니다. Microsoft Intune 평가판 연습의 5단계를 완료했습니다.
+축하합니다. *Microsoft Intune 평가판* 연습의 5단계를 완료했습니다.
 
 >[!div class="step-by-step"]
 
 >[&larr; **정책 만들기**](.\get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md)     [**옵션 및 추가 기능** &rarr;](.\get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)  
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

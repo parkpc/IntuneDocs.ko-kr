@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Intune 평가판 가이드 | Microsoft Intune
-description:
-keywords:
+title: "Intune 평가판 가이드 | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 619a1d11-3d22-4635-8f70-770eba3e1712
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 4af13629986e7cef814104f3d1f298eb2be240ac
+ms.openlocfilehash: 26ecc3dfe8816da9f30829901d929af53b1bedc0
+
 
 ---
 
@@ -30,16 +23,16 @@ ms.suite: ems
 
 이 항목에서는 Intune 평가판을 실행하는 기본적인 방법과 Intune의 특징과 기능을 평가할 수 있는 서비스의 개요를 알아봅니다.
 
-5분 분량의 짧은 이 데모 비디오를 통해 Microsoft Intune 무료 평가판으로 장치 관리를 시작하는 것이 얼마나 쉬운지 알아보십시오.
+5분 분량의 짧은 다음 데모 비디오를 통해 Microsoft Intune 무료 평가판으로 장치 관리를 시작하는 것이 얼마나 쉬운지 알아보세요. 비디오 첫 부분에서는 “사용이 중지된” 포트에 대해 언급됩니다. 다른 포털을 사용하더라도 적용되는 단계는 같습니다. [여기](https://docs.microsoft.com/intune/deploy-use/account-portal-merged-with-Office-365)에서 이 포털에 대해 자세히 알아볼 수 있습니다.
 
 <iframe width="675" height="480" src="https://www.youtube.com/embed/ltcZvm4VOFU" frameborder="0" allowfullscreen></iframe>
 
 ## 시작하기 전에
 Intune을 시작하기 전에 다음이 필요합니다.
 
--   Silverlight 지원 웹 브라우저가 포함된 장치. 이 장치를 사용하여 Intune 사용자 계정을 만들고(**Office 365 관리 센터**) 장치, 그룹 및 정책을 관리(**Intune 관리 콘솔**)할 웹 사이트에 액세스할 수 있습니다.).
+-   Silverlight 지원 웹 브라우저가 포함된 장치. 이 장치를 사용하여 Intune 사용자 계정을 만들고(**Office 365 관리 센터**) 장치, 그룹 및 정책을 관리(**Intune 관리 콘솔**)할 웹 사이트에 액세스할 수 있습니다.
 
--   Intune 사용자가 회사 포털을 사용하여 자신의 장치를 등록 및 관리하는 방법을 테스트하는 데 사용할 추가 장치(웹 브라우저 포함). 사용자가 앱을 찾고 설치하는 방법과 관리자에게 도움을 요청하는 방법도 테스트할 것입니다. 추가 장치가 없다면 Intune 관리에 사용하는 브라우저에서 "개인 정보 모드" 설정을 사용할 수 있습니다. 예를 들어 Internet Explorer에서 **도구** &gt; **InPrivate 브라우징**을 선택하면 됩니다.).
+-   Intune 사용자가 회사 포털을 사용하여 자신의 장치를 등록 및 관리하는 방법을 테스트하는 데 사용할 추가 장치(웹 브라우저 포함). 사용자가 앱을 찾고 설치하는 방법과 관리자에게 도움을 요청하는 방법도 테스트할 것입니다. 추가 장치가 없다면 Intune 관리에 사용하는 브라우저에서 "개인 정보 모드" 설정을 사용할 수 있습니다. 예를 들어 Internet Explorer에서 **도구**&gt;**InPrivate 브라우징**을 선택하면 됩니다.
 
 -   기존 Microsoft Online Services 계정이 있는 경우 이 계정의 관리자 자격 증명이 필요합니다. 이러한 계정이 없거나 이 Intune 테넌트를 평가용으로만 사용하려는 경우에는 테넌트 관리자 자격 증명이 필요하지 않습니다.
 
@@ -47,9 +40,9 @@ Intune을 시작하기 전에 다음이 필요합니다.
 
     |플랫폼|인증서 요구 사항|추가 정보|
     |------------|----------------------------|--------------------|
-    |Windows Phone 8.1 및 Windows Phone 8 |스토어에서 회사 포털 앱을 설치하는 Windows 8.1 사용자의 경우 인증서가 필요하지 않습니다. Intune을 사용하여 회사 포털 앱을 Windows Phone 8.1 장치로 배포하려는 경우 또는 Windows Phone 8.0을 사용하는 경우에는 Symantec 인증서가 필요합니다.|이 지침에서는 사용자가 Windows Phone 8.1 이상 장치에서 스토어의 회사 포털 앱을 다운로드한다고 가정합니다. Windows Phone 8.0 지원에 대한 자세한 내용은 [Microsoft Intune을 사용한 Windows Phone 관리 설정](/Intune/DeployUse/set-up-windows-phone-management-with-microsoft-intune)을 참조하세요..|
-    |Windows 10, Windows RT 8.1, Windows RT 또는 Windows 8.1 장치|Windows RT 및 Windows 장치 등록을 위한 인증서 요구 사항은 없습니다.|[Microsoft Intune을 사용하여 Windows PC 클라이언트 설치](/Intune/DeployUse/install-the-windows-pc-client-with-microsoft-intune).|
-    |iOS 7.1 이상|APNs(Apple Push Notification service) 인증서를 가져옵니다.|[Microsoft Intune을 사용하여 iOS 및 Mac 관리 설정](/Intune/DeployUse/set-up-ios-and-mac-management-with-microsoft-intune)에 설명된 대로 Apple에서 Apple Push Notification Service 인증서를 요청합니다..|
+    |Windows Phone 8.1 및 Windows Phone 8 |스토어에서 회사 포털 앱을 설치하는 Windows 8.1 사용자의 경우 인증서가 필요하지 않습니다. Intune을 사용하여 회사 포털 앱을 Windows Phone 8.1 장치로 배포하려는 경우 또는 Windows Phone 8.0을 사용하는 경우에는 Symantec 인증서가 필요합니다.|이 지침에서는 사용자가 Windows Phone 8.1 이상 장치에서 스토어의 회사 포털 앱을 다운로드한다고 가정합니다. Windows Phone 8.0 지원에 대한 자세한 내용은 [Microsoft Intune을 사용한 Windows Phone 관리 설정](/Intune/Deploy-Use/set-up-windows-phone-management-with-microsoft-intune)을 참조하세요.|
+    |Windows 10, Windows RT 8.1, Windows RT 또는 Windows 8.1 장치|Windows RT 및 Windows 장치 등록을 위한 인증서 요구 사항은 없습니다.|[Microsoft Intune을 사용하여 Windows PC 클라이언트 설치](/Intune/Deploy-Use/install-the-windows-pc-client-with-microsoft-intune)|
+    |iOS 7.1 이상|APNs(Apple Push Notification service) 인증서를 가져옵니다.|[Microsoft Intune을 사용하여 iOS 및 Mac 관리 설정](/Intune/Deploy-Use/set-up-ios-and-mac-management-with-microsoft-intune)에 설명된 대로 Apple에서 Apple Push Notification Service 인증서를 요청합니다.|
 
 ## Intune의 30일 평가판을 완료하기 위한 단계
 - [1단계: 30일 평가판에 로그인 또는 등록](get-started-with-a-30-day-trial-of-microsoft-intune-step-1.md). Intune에 로그인하거나 등록하기 전에 기존 계정을 사용하여 로그인하거나 Microsoft Intune의 30일 평가판에만 사용할 임시 계정을 만들 것인지 여부를 고려해야 합니다.
@@ -71,6 +64,7 @@ Intune을 시작하기 전에 다음이 필요합니다.
 [Intune 빠른 시작 가이드](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO2-->
 
 

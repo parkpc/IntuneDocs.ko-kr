@@ -1,34 +1,28 @@
 ---
-# required metadata
-
-title: Windows PC에 대한 방화벽 정책 | Microsoft Intune
-description:
-keywords:
+title: "Windows PC에 대한 방화벽 정책 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 9549c072-ac3d-4d14-a931-a2eda8846217
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
+ms.openlocfilehash: 9f338efe3ef40da3db40c12d1a18c4122e65dc5d
+
 
 ---
 
 # Microsoft Intune에서 Windows 방화벽 정책을 사용하여 Windows PC 보호
 Microsoft Intune에서는 다양한 방법의 Intune 클라이언트로 관리하는 Windows PC를 보호할 수 있습니다. 이러한 방법 중 하나가 PC에 대한 Windows 방화벽 설정을 구성할 수 있도록 하는 정책을 사용하는 것입니다.
 
-컴퓨터에 Intune Windows PC 클라이언트를 아직 설치하지 않은 경우 [Microsoft Intune을 사용하여 Windows PC 클라이언트 설치](install-the-windows-pc-client-with-microsoft-intune.md)를 참조하세요..
+컴퓨터에 Intune Windows PC 클라이언트를 아직 설치하지 않은 경우 [Microsoft Intune을 사용하여 Windows PC 클라이언트 설치](install-the-windows-pc-client-with-microsoft-intune.md)를 참조하세요.
 
 다음 섹션의 정보를 참조하여 Windows PC에 대해 Windows 방화벽 정책을 쉽게 구성, 배포 및 모니터링할 수 있습니다.
 
@@ -36,7 +30,7 @@ Microsoft Intune에서는 다양한 방법의 Intune 클라이언트로 관리�
 Windows 방화벽 정책을 통해 관리 PC의 Windows 방화벽을 제어하는 설정을 만들고 배포할 수 있습니다. Windows 방화벽에 대한 사용자 지정 예외는 관리할 수 없으며 이러한 설정은 타사 방화벽에 영향을 주지 않습니다.
 
 > [!NOTE]
-> Microsoft Intune 정책 및 그룹 정책이 PC의 동일한 설정을 관리하도록 구성된 경우 그룹 정책 설정이 Microsoft Intune 정책을 재정의합니다. Intune 정책과 그룹 정책 간의 충돌을 방지하는 방법에 대한 정보는 [GPO 및 Microsoft Intune 정책 충돌 해결](resolve-gpo-and-microsoft-intune-policy-conflicts.md)을 참조하세요..
+> Microsoft Intune 정책 및 그룹 정책이 PC의 동일한 설정을 관리하도록 구성된 경우 그룹 정책 설정이 Microsoft Intune 정책을 재정의합니다. Intune 정책과 그룹 정책 간의 충돌을 방지하는 방법에 대한 정보는 [GPO 및 Microsoft Intune 정책 충돌 해결](resolve-gpo-and-microsoft-intune-policy-conflicts.md)을 참조하세요.
 >
 > Windows Vista를 실행하는 컴퓨터에 Windows 방화벽 설정을 배포하려는 경우 먼저 이러한 컴퓨터에 [핫픽스 KB971800](http://support2.microsoft.com/kb/971800) 을 설치해야 합니다.
 
@@ -48,9 +42,9 @@ Windows 방화벽 정책을 통해 관리 PC의 Windows 방화벽을 제어하�
 
 ## Windows 방화벽 정책 구성
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **정책** &gt; **정책 추가**를 선택합니다..
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **정책** &gt; **정책 추가**를 선택합니다.
 
-2.  **Windows 방화벽 설정** 정책을 구성하고 배포합니다. 권장 설정을 사용하거나 설정을 사용자 지정할 수 있습니다. 정책을 만들고 배포하는 방법에 대한 자세한 정보가 필요한 경우 [Microsoft Intune 컴퓨터 클라이언트를 사용한 일반 Windows PC 관리 작업](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)을 참조하세요..
+2.  **Windows 방화벽 설정** 정책을 구성하고 배포합니다. 권장 설정을 사용하거나 설정을 사용자 지정할 수 있습니다. 정책을 만들고 배포하는 방법에 대한 자세한 정보가 필요한 경우 [Microsoft Intune 컴퓨터 클라이언트를 사용한 일반 Windows PC 관리 작업](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)을 참조하세요.
 
     다음 섹션에서는 정책에서 구성할 수 있는 값과 정책을 사용자 지정하지 않은 경우 사용되는 기본값을 나열합니다.
 
@@ -73,7 +67,7 @@ Windows 방화벽 정책을 배포한 후 **정책** 작업 영역의 **모든 �
 
 ### Windows 방화벽이 새 프로그램을 차단할 때 사용자에게 알림
 
-이러한 정책 설정은 관리 컴퓨터가 도메인(예: 작업 공간), 개인 (신뢰할 수 있는) 네트워크(예: 홈 네트워크) 또는 신뢰할 수 없는 공용 네트워크(예: 커피숍)에 연결된 경우 Windows 방화벽에서 들어오는 네트워크 트래픽을 차단할 때 PC의 사용자에게 알릴지 여부를 구성합니다. 이러한 각 설정의 기본값은 **예**입니다..
+이러한 정책 설정은 관리 컴퓨터가 도메인(예: 작업 공간), 개인 (신뢰할 수 있는) 네트워크(예: 홈 네트워크) 또는 신뢰할 수 없는 공용 네트워크(예: 커피숍)에 연결된 경우 Windows 방화벽에서 들어오는 네트워크 트래픽을 차단할 때 PC의 사용자에게 알릴지 여부를 구성합니다. 이러한 각 설정의 기본값은 **예**입니다.
 
 
 ### 미리 정의된 예외
@@ -124,6 +118,7 @@ Windows 방화벽 정책을 배포한 후 **정책** 작업 영역의 **모든 �
 [Windows PC를 보호하는 정책](policies-to-protect-windows-pcs-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 
