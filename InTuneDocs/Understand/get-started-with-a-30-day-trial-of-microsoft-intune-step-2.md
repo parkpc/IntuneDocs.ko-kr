@@ -1,9 +1,9 @@
 ---
-title: "Microsoft Intune의 30일 평가판에 사용자 추가 | Microsoft Intune"
-description: 
+title: "Intune의 30일 평가판에 사용자 추가 | Microsoft Intune"
+description: "Intune 무료 30일 평가판을 등록할 때 사용자를 개별적으로 또는 일괄적으로 추가하는 방법"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 9e40999b-46f7-447b-8974-72af82bec7ef
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6cb729533107d511fa0cc863ec6ab842e7624982
-ms.openlocfilehash: 15e641f4f5f60c4a3eb3a7b09cab8cb9ef788cba
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 5a5ebe474580b98a3696bbd970c889837283b6f0
 
 
 ---
@@ -79,6 +79,6 @@ Intune에 여러 사용자를 일괄 추가하려면 **사용자 일괄 추가**
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

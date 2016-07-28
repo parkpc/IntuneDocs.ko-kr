@@ -1,6 +1,6 @@
 ---
 title: "Android MAM 정책 설정 | Microsoft Intune"
-description: 
+description: "이 항목에서는 Android 장치용 모바일 앱 관리 정책 설정에 대해 설명합니다."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 5dbb702a-1df5-4637-95c9-77a5f0b1a0e3
 ms.reviewer: andcerat
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5a445f06d6c2328f7689468ca4d68a969af1e825
-ms.openlocfilehash: 3f43dc871dc0b0a81a6d0b05376a1254957fc35b
+ms.sourcegitcommit: 359f76daa35a14e4107a9e03c6a1b1f4d1215777
+ms.openlocfilehash: bbb2d56753d47e68aeba1e5f17188f1f7a740c6e
 
 
 ---
@@ -96,6 +96,6 @@ ms.openlocfilehash: 3f43dc871dc0b0a81a6d0b05376a1254957fc35b
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

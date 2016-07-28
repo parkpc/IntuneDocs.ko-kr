@@ -1,6 +1,6 @@
 ---
 title: "MAM을 사용한 앱에 대한 최종 사용자 환경 | Microsoft Intune"
-description: 
+description: "이 항목에서는 모바일 앱 관리 정책을 통해 앱이 관리될 때 예상되는 결과를 설명합니다."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
 ms.reviewer: andcerat
 ms.suite: ems
-ms.sourcegitcommit: 3f797e3ef4a7e2d1b27ce6b1ed6e5322343c6cff
-ms.openlocfilehash: 9b557c272c9d740792560a392d52efff6a7deed1
+translationtype: Human Translation
+ms.sourcegitcommit: 359f76daa35a14e4107a9e03c6a1b1f4d1215777
+ms.openlocfilehash: e43dea5630975165ea7468836a8b0328f0656030
 
 
 ---
@@ -46,7 +47,8 @@ MAM(모바일 응용 프로그램 관리) 정책은 앱이 회사 컨텍스트�
 
     ![기존 파일의 목록으로 열린 파일 위치를 보여 주는 스크린 샷](../media/AppManagement/iOS_OneDriveSuccess.png)
 
-    > [!NOTE] 배포된 정책을 변경하는 경우 다음에 앱을 열 때 변경 내용이 적용됩니다.
+    > [!NOTE]
+    > 배포된 정책을 변경하는 경우 다음에 앱을 열 때 변경 내용이 적용됩니다.
 
 ##  Android 장치의 OneDrive 액세스
 
@@ -169,6 +171,6 @@ Intune에서 관리하는 다른 앱에서 파일을 보기 위해 RMS 공유 �
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO3-->
 
 

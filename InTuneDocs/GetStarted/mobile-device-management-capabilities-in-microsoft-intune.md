@@ -1,10 +1,10 @@
 ---
 title: "모바일 장치 관리 기능 | Microsoft Intune"
-description: 
+description: "이 항목을 읽고 Intune이 서비스에 등록하는 모바일 장치를 관리하는 데 어떤 도움을 줄 수 있는지 확인하세요."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: f23b3ee7-78da-4e53-9fc2-78e58401bcf9
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
-ms.openlocfilehash: 0f460165f251acf95f4af36afa39409d3eb21162
+ms.sourcegitcommit: 23054b2f02d11ca19cd0902ebc1e6fdcf499d1f1
+ms.openlocfilehash: 8f44256fe249c60df8e910858516a25463c8e875
 
 
 ---
@@ -42,7 +42,8 @@ Microsoft Intune에서 다양한 장치를 서비스에 *등록*하여 관리할
 |앱 배포 및 관리|설치 파일 및 앱 스토어를 통한 앱 배포, 자세한 앱 상태 모니터링, 앱 제거 등 수명 주기 동안 모바일 앱을 관리할 수 있는 다양한 도구를 제공합니다.|[Microsoft Intune에서 앱 배포](/intune/deploy-use/deploy-apps)|
 |규격 및 비규격 앱|규격 앱(사용자가 설치 가능) 및 비규격 앱(사용자가 설치 불가능) 목록을 지정할 수 있습니다.|[Microsoft Intune의 iOS 정책 설정](/intune/deploy-use/ios-policy-settings-in-microsoft-intune)|
 |모바일 응용 프로그램 관리|Intune을 사용하여 관리하는 장치뿐만 아니라 Intune으로 관리하지 않는 장치에 대해서도 모바일 응용 프로그램 관리를 사용하여 앱에 대한 제한을 구성합니다. 이렇게 하면 복사 및 붙여넣기, 데이터의 외부 백업, 앱 간 데이터 전송과 같은 작업을 제한하여 회사 데이터 보안을 강화할 수 있습니다.|[구성 하 고 Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 배포](/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console)<br><br>[Microsoft Intune으로 모바일 앱 관리 정책 만들기 및 배포](/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)<br /><br />[Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 iOS 앱 준비](/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)<br /><br />[Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 Android 앱 준비](/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)|
-|모바일 앱 구성|모바일 앱 구성 정책을 사용하여 사용자가 앱을 실행할 때 필요할 수 있는 iOS 앱에 대한 설정을 제공할 수 있습니다. 예를 들어 앱에서 사용자가 로그온 정보의 포트 번호를 지정하도록 요구할 수 있습니다. 이렇게 하면 앱 구성을 능률화하고 고객 지원 팀 호출 횟수를 줄이는 데 도움이 될 수 있습니다.|[Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성](/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)|
+|iOS 모바일 앱 구성|모바일 앱 구성 정책을 사용하여 사용자가 앱을 실행할 때 필요할 수 있는 iOS 앱에 대한 설정을 제공할 수 있습니다. 예를 들어 앱에서 사용자가 로그온 정보의 포트 번호를 지정하도록 요구할 수 있습니다. 이렇게 하면 앱 구성을 능률화하고 고객 지원 팀 호출 횟수를 줄이는 데 도움이 될 수 있습니다.|[Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성](/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)|
+|iOS 모바일 앱 프로비전 프로필|Intune은 곧 만료되는 iOS 앱에 프로비전 프로필을 미리 배포하기 위한 도구를 제공합니다.|[iOS 프로비전 프로필 정책을 사용하여 모바일 앱이 만료되지 않도록 방지](/intune/deploy-use/ios-mobile-app-provisioning-profiles)|
 |관리되는 브라우저|사용자에게 관리되는 브라우저를 배포한 후에 방문할 수 있는 웹 사이트를 제어하도록 관리되는 브라우저 정책을 구성할 수 있습니다. 또한 관리되는 브라우저에 모바일 응용 프로그램 관리 정책을 적용할 수도 있습니다.|[Microsoft Intune에서 관리 브라우저 정책을 사용하여 인터넷 액세스 관리](/intune/deploy-use/manage-internet-access-using-managed-browser-policies)|
 |Microsoft Passport|Intune에서는 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 Windows 10의 대체 로그인 방법인 Microsoft Passport for Work와 통합할 수 있습니다.|[Microsoft Intune으로 장치의 Microsoft Passport 설정 제어](/intune/deploy-use/control-microsoft-passport-settings-on-devices-with-microsoft-intune)|
 
@@ -68,6 +69,6 @@ Microsoft Intune에서 다양한 장치를 서비스에 *등록*하여 관리할
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,26 +1,27 @@
 ---
-title: "회사 포털을 사용하여 장치를 재설정하면 어떻게 되나요? | Microsoft Intune"
+title: "회사 포털을 사용하여 Windows 장치를 다시 설정하면 어떻게 되나요? | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1ee6e275-d1ec-4da3-bbef-d5da2c61a02a
+ROBOTS: noindex,nofollow
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 39e810466d3a98789f0f1338f68d2be80d757d39
-ms.openlocfilehash: 9ff73d6e2066b0fb3d2e8ca9d7732d4685e258fd
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 29fab114e2b5b9b3a7c8e050af6f37287a715026
 
 
 ---
 
 
-# 회사 포털을 사용하여 장치를 재설정하면 어떻게 되나요?
+# 회사 포털을 사용하여 Windows 장치를 다시 설정하면 어떻게 되나요?
 
 회사 포털 앱 또는 [회사 포털 웹 사이트](reset-your-device-cpwebsite.md)를 사용하여 Windows 장치를 다시 설정하면 장치가 출하 시 설정으로 다시 설정되고 모든 앱, 설정 및 개인 데이터를 포함한 데이터가 삭제됩니다. 장치에 발생하는 상황은 다음 표에 설명된 것과 같이 장치의 종류와 장치 사용 방법에 따라 달라집니다. 분실 또는 도난 장치를 초기화하는 방법에 대한 자세한 내용은 [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-lost-or-stolen-device-windows.md)을 참조하세요.
 
@@ -36,6 +37,6 @@ ms.openlocfilehash: 9ff73d6e2066b0fb3d2e8ca9d7732d4685e258fd
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

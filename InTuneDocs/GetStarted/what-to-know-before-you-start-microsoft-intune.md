@@ -1,9 +1,9 @@
 ---
 title: "Microsoft Intune을 시작하기 전에 알아두어야 할 사항 | Microsoft Intune"
-description: 
+description: "Intune 필수 구성 요소 및 요구 사항에 대한 링크가 있는 페이지"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/08/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 09caaa76d08f99b0d455d291fbd4002289f2f11c
-ms.openlocfilehash: fe2ebc32005d04e92b93fd817981aa2a632c2288
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 77de74a7847557893c5489492ef049b324b2f137
 
 
 ---
@@ -30,7 +30,7 @@ Microsoft Intune의 설정을 시작하기 전에 다음 요구 사항을 각각
 - [Microsoft Intune 회사 포털](microsoft-intune-company-portal.md)
 - [Microsoft 클라우드 서비스 및 제품과 Intune 통합](integration-with-cloud-services.md)
 - [Intune 네트워크 대역폭 사용](network-bandwidth-use.md)
-- [Microsoft Intune을 사용하여 사용자 지정 도메인 관리](domain-names-for-microsoft-intune.md)
+- [Microsoft Intune의 사용자 지정 도메인 이름](domain-names-for-microsoft-intune.md)
 
 
 Intune을 사용하기 전에 [Intune 모바일 장치 관리 기능](/intune/get-started/mobile-device-management-capabilities-in-microsoft-intune)을 검토할 수도 있습니다. 평가판 구독으로 시작하면, 나중에 정식 구독으로 전환할 수 있습니다. [Microsoft Intune을 구입하는 방법](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/Purchasing.aspx)을 참조하세요.
@@ -42,6 +42,6 @@ Intune을 사용하기 전에 [Intune 모바일 장치 관리 기능](/intune/ge
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

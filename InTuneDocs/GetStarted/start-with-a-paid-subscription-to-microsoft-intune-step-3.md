@@ -1,9 +1,9 @@
 ---
 title: "Active Directory를 동기화하고 Intune에 사용자 추가 | Microsoft Intune"
-description: 
+description: "Azure AD와 온-프레미스 사용자를 동기화하고 Intune 구독에 대한 관리자 권한을 부여하는 방법을 설명합니다."
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 6e9ec662-465b-4ed4-94c1-cff0fe18f126
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ed26d65b98a0ae1bbc4fbac682fb53fddd50b4e5
-ms.openlocfilehash: 70a2d32de67f0a69bbc29ca68a1c831c9cf38796
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 8aeb23b709b50ccb8ad29868b4bc5ab96faf950f
 
 
 ---
@@ -48,6 +48,6 @@ Intune 구독에 사용자를 추가한 후에는 몇 개의 사용자 계정에
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

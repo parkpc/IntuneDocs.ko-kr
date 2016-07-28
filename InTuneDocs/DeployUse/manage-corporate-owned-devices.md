@@ -1,10 +1,10 @@
 ---
 title: "회사 소유 장치 관리 | Microsoft Intune"
-description: 
+description: "회사 소유 장치(COD)를 장치, 구입 방법 및 조직의 필요에 따라 다양한 방법으로 관리할 수 있습니다."
 keywords: 
 author: NathBarn
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 2b60bbff-25e6-489b-9621-c71b4275fa06
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 69cf07aa0747448e0ef3384b5b5132e0e76aed45
-ms.openlocfilehash: e07053b9b26afacc03e45f2cb104eda6088a1e05
+ms.sourcegitcommit: 26ac7d52c0ad3e37e517b60d448a94849c0f4b30
+ms.openlocfilehash: 6cf620a96b39540c8b7ca618936af1367971bb8f
 
 
 ---
@@ -32,13 +32,27 @@ ms.openlocfilehash: e07053b9b26afacc03e45f2cb104eda6088a1e05
 
 [장치 등록 관리자로 회사 소유 장치 등록](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)
 
-## IMEI(International Mobile Equipment Identity)
-고유 국제 모바일 장비 ID(IMEI) 번호는 많은 모바일 장치 제조업체에 대 한 일반적인 장치 속성입니다. Intune 관리자는 회사 소유 장치에 대 한 IMEI 번호를 가져올 수 있습니다. 장치가 Intune에서 관리하게 되면 회사 소유 장치로 태그를 지정하고 해당 정책의 대상으로 지정할 수 있습니다
+## 회사 소유 Windows 10 데스크톱 등록
+
+조직에 AADP(Azure Active Directory Premium) 또는 EMS(Enterprise ManaActivegement Suite)가 있는 경우 [엔터프라이즈용 Windows 10을 등록](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview)할 수 있습니다. 그러면 사용자가 회사 또는 학교 계정을 추가할 때 "회사 소유"로 자동 태깅됩니다.
+
+## 회사 소유의 장치 식별
+
+회사 소유의 장치 목록의 **소유권** 아래에 **회사**로 나열됩니다. 다음과 같은 방법으로 장치를 회사 소유로 식별할 수 있습니다.
+
+ - [DEM(장치 등록 관리자)를 사용하여 등록](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)
+ - Apple의 [DEP(장치 등록 프로그램)](ios-device-enrollment-program-in-microsoft-intune.md) 또는 [Apple Configurator](ios-setup-assistant-enrollment-in-microsoft-intune.md)로 등록
+ - [IMEI 번호를 사용하여 장치 미리 선언](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)
+ - [Windows 10 장치의 Azure Active Directory/Enterprise Management Suite 등록](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview)
+
+### IMEI(International Mobile Equipment Identity)
+
+고유 국제 모바일 장비 ID(IMEI) 번호는 많은 모바일 장치 제조업체에 대 한 일반적인 장치 속성입니다. Intune 관리자는 회사 소유 장치에 대 한 IMEI 번호를 가져올 수 있습니다. 장치가 Intune에서 관리되면 회사 소유 장치로 태그가 지정됩니다.
 
 [IMEI(International Mobile Equipment Identity) 번호로 회사 소유의 장치 지정](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

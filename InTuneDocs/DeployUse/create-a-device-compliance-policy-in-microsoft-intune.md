@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Intune에서 장치 규정 준수 정책 만들기 | Microsoft Intune"
-description: 
+title: "장치 규정 준수 정책 만들기 | Microsoft Intune"
+description: "규정 준수 정책을 만들어 회사 데이터에 액세스하는 데 사용하는 모바일 장치 및 PC 보안을 유지합니다."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 5336dac0-a2cc-4cd4-8511-67e4f95bd700
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
-ms.openlocfilehash: f4f036fc1b6fe2394e05907e2d14289c9fba3426
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 67d9b0e0231b8165500f6995d5c058fb5c3f2df1
 
 
 ---
@@ -32,12 +32,20 @@ ms.openlocfilehash: f4f036fc1b6fe2394e05907e2d14289c9fba3426
   -   암호 및 암호화와 같은 시스템 보안 설정
   -   Windows 장치 상태 증명 서비스에서 장치를 무단 해제 또는 정상으로 보고하는지 여부와 같은 장치 상태 설정
   -   필요한 최소 OS 버전 또는 허용된 최대 OS 버전과 같은 장치 속성 설정
-![정책 만들기 페이지에서 일반 탭의 스크린 샷 ](./media/intune-sa-3b-create-policy.png)
+![정책 만들기 페이지의 일반 탭 ](./media/intune-sa-3b-create-policy.png)
+
 
 ##  3단계: 정책 저장
 작업이 끝나면 **정책 저장**을 선택합니다.
 
 정책을 저장한 후에 바로 배포하는 옵션이 있고 나중에 배포하도록 선택할 수도 있습니다. 새 정책이 **정책** 작업 영역의 **준수 정책** 노드에 표시됩니다.
+
+##  4단계: 준수 상태 유효 기간 설정
+장치가 규정을 준수하지 않는 것으로 간주되기까지 장치를 체크 인해야 하는 시간을 지정하려면 준수 정책 설정으로 이동한 후 시간을 업데이트합니다.  기본값은 30일로 설정되어 있습니다.
+
+![정책 메뉴 모음의 준수 정책 설정 옵션](../media/mdm-compliance-policy-settings.png)
+
+![준수 정책 대화 상자](../media/mdm-ca-compliance-status-validity-period.png)
 
 ## 지원되는 정책 설정
 다음 테이블에서는 규정 준수 정책 설정 및 해당 사항이 지원되는 플랫폼을 나열합니다.
@@ -79,6 +87,6 @@ ms.openlocfilehash: f4f036fc1b6fe2394e05907e2d14289c9fba3426
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Intune 평가판 가이드 | Microsoft Intune"
-description: 
+description: "Intune 무료 30일 평가판을 설치하는 방법에 대한 소개 및 필수 구성 요소"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -12,13 +12,14 @@ ms.technology:
 ms.assetid: 619a1d11-3d22-4635-8f70-770eba3e1712
 ms.reviewer: jeffgilb
 ms.suite: ems
-ms.sourcegitcommit: 4af13629986e7cef814104f3d1f298eb2be240ac
-ms.openlocfilehash: 26ecc3dfe8816da9f30829901d929af53b1bedc0
+translationtype: Human Translation
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 813b4babc78ae29d213f7c783b6afb3e368c52bd
 
 
 ---
 
-# Intune 평가판 가이드
+# Intune 평가 가이드
 모바일 장치와 컴퓨터를 관리할 수 있는 Intune의 무료 30일 평가판을 설치하는 과정은 빠르고 간단합니다. 평가판에서 몇 가지 간단한 단계만 거치면 최대 100명의 사용자와 장치를 추가하고, 그룹을 설정하고, 규정 준수 정책을 구성하고, 모바일 장치 및 컴퓨터를 등록하고 관리할 수 있습니다.
 
 이 항목에서는 Intune 평가판을 실행하는 기본적인 방법과 Intune의 특징과 기능을 평가할 수 있는 서비스의 개요를 알아봅니다.
@@ -65,6 +66,6 @@ Intune을 시작하기 전에 다음이 필요합니다.
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,10 +1,10 @@
 ---
 title: "장치의 Microsoft Passport 설정 제어 | Microsoft Intune"
-description: 
+description: "Intune이 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 **Microsoft Passport for Work**와 통합하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 42e21b802fb605c98f688485c3b77703b3950e94
-ms.openlocfilehash: bdf7dfda3814ad6c6c00f5c133027175a95fb5e2
+ms.sourcegitcommit: ada366e91806c6f443ac4548af99c587ac218ec9
+ms.openlocfilehash: 934ae78edf4de2003d62179fa38269d97e6d7ef6
 
 
 ---
@@ -23,6 +23,9 @@ ms.openlocfilehash: bdf7dfda3814ad6c6c00f5c133027175a95fb5e2
 Microsoft Intune에서는 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 **Microsoft Passport for Work**와 통합할 수 있습니다.
 
 Passport를 사용하면 암호 대신 **사용자 제스처**를 사용하여 로그인할 수 있습니다. 사용자 제스처는 단순 PIN, 생체 인식 인증(예: Windows Hello) 또는 외부 장치(예: 지문 판독기)일 수 있습니다.
+
+>[!TIP]
+>현재 Microsoft Passport for Work는 비즈니스용 Windows Hello라고 합니다. Intune 콘솔은 이후 업데이트에서는 이 변경 내용을 반영하도록 업데이트됩니다.
 
 Intune는 다음 두 가지 방법으로 Passport for Work에 통합됩니다.
 
@@ -75,6 +78,6 @@ Microsoft Passport에 대한 자세한 내용은 Windows 10 설명서의 [가이
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

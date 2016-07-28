@@ -1,10 +1,10 @@
 ---
 title: "Wi-Fi 연결 | Microsoft Intune"
-description: 
+description: "VPN 프로필을 사용하여 조직의 사용자 및 장치에 VPN 설정을 배포합니다."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: Arob98
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 0b1b86ed-2e80-474d-8437-17dd4bc07b55
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 910ccd7c91593114ddf57c842c0bf9c9ffa54fdc
-ms.openlocfilehash: 1282ec1214a2c499166299a0a13b0bd3bfc7f3b2
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: 3a59d69be920012b3faa6ea5420b4a96d9c63f46
 
 
 ---
@@ -166,6 +166,6 @@ Windows에서는 **netsh wlan** 유틸리티를 사용하여 기존 Wi-Fi 프로
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

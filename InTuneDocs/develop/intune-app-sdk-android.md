@@ -13,8 +13,8 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2915cca314b489bbcb590d01b03a0b38134fa619
-ms.openlocfilehash: d2e4b6903d86b79edd9c758b2ce51733831e785a
+ms.sourcegitcommit: 51f7734e2acced469ec3520d74a8079dac8223f2
+ms.openlocfilehash: bcb62e9c99c1f5a5b53ada688ef39a59674dea04
 
 
 ---
@@ -220,7 +220,7 @@ MAM 진입점 중 하나에서 파생한 후에는 작업 시작을 위해 일�
 
 # 백업 데이터 보호 
 
-Android Marshmallow(API 23) 현재, Android에는 앱이 데이터를 백업하는 두 가지 방법이 있습니다. 이러한 옵션을 앱에서 사용할 수 있으며 여러 단계를 거쳐 MAM 데이터 보호가 적절하게 적용되도록 해야 합니다. 아래 표를 검토하면 올바른 데이터 보호 동작에 필요한 적절한 작업에 대해 빠르게 개요를 살펴볼 수 있습니다.  또한 Android 백업에 대한 자세한 내용은 [Android 개발자 데이터 백업 가이드](http://developer.android.com/guide/topics/data/backup.html.). 
+Android Marshmallow(API 23) 현재, Android에는 앱이 데이터를 백업하는 두 가지 방법이 있습니다. 이러한 옵션을 앱에서 사용할 수 있으며 여러 단계를 거쳐 MAM 데이터 보호가 적절하게 적용되도록 해야 합니다. 아래 표를 검토하면 올바른 데이터 보호 동작에 필요한 적절한 작업에 대해 빠르게 개요를 살펴볼 수 있습니다.  또한 Android 백업에 대한 자세한 내용은 [Android 개발자 데이터 백업 가이드](http://developer.android.com/guide/topics/data/backup.html)에서 확인할 수 있습니다. 
 
 ## 자동 전체 백업
 
@@ -365,6 +365,6 @@ Intune SDK는 Android API에서 제공되는 계약을 유지하지만, 정책 �
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

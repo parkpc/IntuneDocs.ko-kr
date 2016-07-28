@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Intune에서 규정 준수 정책 배포 및 모니터링 | Microsoft Intune"
-description: 
+title: "준수 정책 배포 및 모니터링 | Microsoft Intune"
+description: "이 항목의 단계별 지침을 사용하여 장치 준수 정책을 배포 및 모니터링합니다."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: d8f246d4-0d86-4c8b-a1bf-9977985506d8
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
-ms.openlocfilehash: 52da5cf6d14a5fc3ff3db6bdb07823d3bf373466
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 42d326dbe937724141213dacc133aefe5020a61d
 
 
 ---
@@ -31,7 +31,8 @@ ms.openlocfilehash: 52da5cf6d14a5fc3ff3db6bdb07823d3bf373466
 
 **정책** 작업 영역의 **개요** 페이지에 있는 상태 요약 및 경고는 주의가 필요한 정책 문제를 식별합니다. 또한 상태 요약은 **대시보드** 작업 영역에 표시됩니다.
 
-> [!IMPORTANT]규정 준수 정책을 배포하지 않은 상태에서 Exchange 조건부 액세스 정책을 사용하도록 설정하면 대상으로 지정된 모든 장치에 액세스가 허용됩니다.
+> [!IMPORTANT]
+> 규정 준수 정책을 배포하지 않은 상태에서 Exchange 조건부 액세스 정책을 사용하도록 설정하면 대상으로 지정된 모든 장치에 액세스가 허용됩니다.
 
 ## Intune 정책 충돌을 해결하는 방법
 정책 충돌은 장치에 여러 Intune 정책을 적용하는 동안 발생할 수 있습니다. 정책 설정이 겹치면 Intune에서는 다음 규칙을 사용하여 충돌을 해결합니다.
@@ -71,6 +72,6 @@ ms.openlocfilehash: 52da5cf6d14a5fc3ff3db6bdb07823d3bf373466
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

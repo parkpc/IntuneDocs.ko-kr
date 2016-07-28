@@ -1,10 +1,10 @@
 ---
 title: "앱 배포 | Microsoft Intune"
-description: 
+description: "이 항목에서는 Intune을 사용하여 앱을 배포하기 전에 이해해야 하는 개념을 설명합니다."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: ad5ea85c-aa2e-4110-a184-172cd0b8f270
 ms.reviewer: mghadial
 ms.suite: ems
-ms.sourcegitcommit: e6b995118e66fd146a68b49ce4decdcbd1fe3572
-ms.openlocfilehash: a68cb85602bd585539147c7d7d38c0d906f2b1f7
+translationtype: Human Translation
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 84f19cd198a2367abb0267071bd73ce8ac6d7d05
 
 
 ---
@@ -29,7 +30,7 @@ ms.openlocfilehash: a68cb85602bd585539147c7d7d38c0d906f2b1f7
 -   **필수 설치** – 최종 사용자 개입 없이 앱이 장치에 설치됩니다.
 
     > [!TIP]
-    > [!TIP] 감독 모드로 설정되지 않은 iOS 장치 및 모든 Android 장치의 경우 사용자가 앱을 허용해야 앱이 설치됩니다.
+    > 감독 모드로 설정되지 않은 iOS 장치 및 모든 Android 장치의 경우 사용자가 앱을 허용해야 앱이 설치됩니다.
     > 
     >  필수 설치로 배포한 앱을 최종 사용자가 제거하는 경우 Intune은 일반적으로 7일마다 발생하는 다음번 인벤토리 주기 이후에 해당 앱을 자동으로 다시 설치합니다.
 
@@ -54,7 +55,7 @@ ms.openlocfilehash: a68cb85602bd585539147c7d7d38c0d906f2b1f7
 |앱 스토어에서 관리되는 iOS 앱(사용자 그룹에 배포)|예|예|예|예|
 |앱 스토어에서 관리되는 iOS 앱(장치 그룹에 배포)|예|아니요|예|예|
 > [!TIP]
-> [!TIP] 앱을 배포할 때 사용자 및 장치 그룹을 둘 다 선택하는 경우 앱을 **사용 가능한 설치**로만 배포할 수 있습니다.
+> 앱을 배포할 때 사용자 및 장치 그룹을 둘 다 선택하는 경우 앱을 **사용 가능한 설치**로만 배포할 수 있습니다.
 
 ## 배포 충돌
 배포 작업이 동일한 두 개의 배포가 장치에서 수신되면 다음 규칙이 적용됩니다.
@@ -72,6 +73,6 @@ ms.openlocfilehash: a68cb85602bd585539147c7d7d38c0d906f2b1f7
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

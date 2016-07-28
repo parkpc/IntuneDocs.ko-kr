@@ -1,20 +1,20 @@
 ---
-title: "호스팅된 Exchange용 Microsoft Intune Exchange Connector 구성 | Microsoft Intune"
-description: 
+title: "Hosted Exchange용 Exchange 커넥터 | Microsoft Intune"
+description: "Intune을 Office 365 Exchange 서비스에 연결하여 Exchange ActiveSync MDM(모바일 장치 관리)을 지원합니다."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 05fa5dc9-9bad-4557-987a-9b8ce4edebb0
-ms.reviewer: jeffgilb
+ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6951ccdb0e37489217ef939f0cbf6fc1133a6d3c
-ms.openlocfilehash: 6cfc532cba2f53034c4c3ef0c2df3d6c1e6e7841
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: 63697222f024169d9450b9f4fea8c666353e72cc
 
 
 ---
@@ -58,12 +58,12 @@ ms.openlocfilehash: 6cfc532cba2f53034c4c3ef0c2df3d6c1e6e7841
 
 ## Exchange 연결 확인
 
-Exchange Connector를 구성했으면 Intune 관리자 콘솔에서 **관리** 작업 영역을 선택하고 **모바일 장치 관리** > **Microsoft Exchange**로 이동하고 제공한 세부 정보가 **Exchange 연결 정보**에 나타나는지 확인합니다.
+Exchange Connector를 구성했으면 [Microsoft Intune 관리자 콘솔](http://manage.microsoft.com)에서 **관리**로 이동한 후 **모바일 장치 관리** > **Microsoft Exchange**로 이동하고 제공한 세부 정보가 **Exchange 연결 정보**에 나타나는지 확인합니다.
 
 마지막으로 성공한 동기화 시도의 시간과 날짜를 확인할 수도 있습니다.
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

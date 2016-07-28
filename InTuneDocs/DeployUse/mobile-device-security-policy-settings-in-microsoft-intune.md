@@ -1,20 +1,20 @@
 ---
 title: "모바일 장치 보안 정책 설정 | Microsoft Intune"
-description: 
+description: "Intune을 사용하여 조직의 관리되는 장치에 배포할 수 있는 다양한 설정을 구성할 수 있습니다."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/12/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e5ab3b76-08af-4893-b294-fb6627fdc4c6
-ms.reviewer: jeffgilb
+ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 42e21b802fb605c98f688485c3b77703b3950e94
-ms.openlocfilehash: 8b7dac0bef8505567a9d0485fe6e952a3f6aa305
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 41813b383003311e68f2a7fb50d42638434649f7
 
 
 ---
@@ -212,6 +212,6 @@ Windows 8.1을 실행하는 장치에 대한 추가 정보
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

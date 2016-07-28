@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Intune으로 모바일 앱 관리 정책 모니터링 | Microsoft Intune"
-description: 
+title: "Microsoft Intune으로 MAM 정책 모니터링 | Microsoft Intune"
+description: "해당 정책이 있는 사용자 수를 확인하고 드릴다운하여 자세한 내용을 확인하세요."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/06/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
-ms.openlocfilehash: 99b50bd040bbbdfa3ad7937d7703700526c9c4d5
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 1efbecc33e33e5e4864bcc2417ebed1e8a5b5826
 
 
 ---
@@ -49,6 +49,9 @@ MAM 정책을 구성하고 사용자에게 적용한 후에 [Azure 포털](https
 
   **선택하지 않은 상태**: 정책이 사용자에게 정책이 배포되었지만 그 후 회사 컨텍스트에서 앱이 사용되지 않았다는 것을 나타냅니다.
 
+>[!NOTE]
+> 검색한 사용자에게 배포된 MAM 정책이 없으면 해당 사용자가 앱 정책의 대상이 아니라는 메시지가 표시됩니다.
+
 사용자에 대한 보고를 확인하려면 다음 단계를 수행합니다.
 
 **1단계:** 사용자를 선택하려면 요약 타일을 클릭하거나 아래와 같이 **설정** 블레이드에서 **사용자별 앱 보고** 옵션을 선택합니다.
@@ -72,6 +75,6 @@ MAM 정책을 구성하고 사용자에게 적용한 후에 [Azure 포털](https
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

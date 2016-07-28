@@ -1,9 +1,9 @@
 ---
-title: "Intune에서 Windows 10 Mobile 또는 Windows 10 Desktop 장치 등록 | Microsoft Intune"
-description: 
+title: "Intune에서 Windows 10 장치 등록 | Microsoft Intune"
+description: "Intune에서 Windows 10 모바일 또는 데스크톱 장치를 등록하는 방법을 설명합니다."
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/11/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 36250832-c6fd-4e8d-b681-de735023ebc3
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
-ms.openlocfilehash: 543f0acd6fb3691ba31e9da6fec49b3f30f67613
+ms.sourcegitcommit: 018d8936fe9158ebd85920cac978844e6949fb64
+ms.openlocfilehash: fff0a6205e7f9b02886a28c1266cf756ff0fc597
 
 
 ---
@@ -68,6 +68,6 @@ Windows 10 Mobile 또는 Windows 10 Desktop 장치를 등록하려면:
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -3,18 +3,19 @@ title: "USB 케이블을 사용하여 IT 관리자에게 진단 데이터 로그
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c46775c2-9d2a-4a88-89f0-4104a462b898
+ROBOTS: noindex,nofollow
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 7ad4f4b726f093a14663fc5c4dbadf5603965075
+ms.sourcegitcommit: f1fd60348f5e18344a2ce63311cef7a551f355d3
+ms.openlocfilehash: b1bec5b968c0fa3a86e08801d9802ba443cf01d6
 
 
 ---
@@ -22,7 +23,7 @@ ms.openlocfilehash: 7ad4f4b726f093a14663fc5c4dbadf5603965075
 
 # USB 케이블을 사용하여 IT 관리자에게 진단 데이터 로그 보내기
 
-모바일 장치 대신 컴퓨터를 사용하는 경우 IT 관리자가 문제를 파악하고 수정할 수 있도록 모바일 장치에서 데이터 로그를 보내려면 다음 절차를 사용하세요.
+IT 관리자에게 데이터 로그를 전송하여 문제 해결에 대한 도움을 받으려면 모바일 장치에서 로그를 전송하는 대신 컴퓨터와 USB 케이블을 사용하여 로그를 전송할 수 있습니다. 방법은 다음과 같습니다.
 
 1.  시작하기 전에 IT 관리자의 메일 주소가 있는지 확인합니다. 일반적으로 회사 포털 앱 또는 회사 포털 웹 사이트에 있습니다.
 
@@ -38,6 +39,6 @@ ms.openlocfilehash: 7ad4f4b726f093a14663fc5c4dbadf5603965075
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

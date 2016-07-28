@@ -1,10 +1,10 @@
 ---
-title: "앱 배포 | Microsoft Intune"
-description: 
+title: "앱 배포 방법 | Microsoft Intune"
+description: "이 항목의 정보를 사용하여 Microsoft Intune으로 앱을 배포할 수 있습니다."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,17 +13,17 @@ ms.assetid: 3b42019e-73da-4538-a496-212f11d5bf9b
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c95a776e79cf3e1c7009d6e27f8f50482434d298
-ms.openlocfilehash: 46562ed3463c4a23a511eb5c7f28a0b11e84f421
+ms.sourcegitcommit: 5ef1d2d69acfeea9670324f580d33b191001ffa9
+ms.openlocfilehash: 8ab2517a11ecb6ae5395814472dfbb3e83da132b
 
 ---
 # Microsoft Intune에서 앱 배포
 
-이 항목의 정보를 사용하여 Microsoft Intune 앱을 배포할 수 있습니다.
+이 항목의 정보를 사용하여 Microsoft Intune으로 앱을 배포할 수 있습니다.
 
 
 ## 앱 배포
-이 절차에서는 선택한 장치 또는 사용자에 대해 앱을 배포합니다.
+이 절차에서는 선택한 장치 또는 사용자 그룹에 대해 앱을 배포합니다.
 
 ### 앱을 배포하려면
 
@@ -52,11 +52,11 @@ ms.openlocfilehash: 46562ed3463c4a23a511eb5c7f28a0b11e84f421
 ## 예제
 
 이 예제에서는 iOS 장치에 **사용 가능**한 앱을 배포했습니다.
-앱은 사용자가 앱을 설치할 수 있는 사용자 장치의 회사 포털에 표시됩니다. 예를 들어 왼쪽 스크린샷에서는 iOS용 Bing 앱이 **외부 링크** 설치 유형을 사용하여 배포되었고, 사용자 지정 아이콘이 사용되었으며, **회사 포털에서 이 항목을 추천 앱 및 하이라이트로 표시합니다.** 옵션이 선택되었습니다.
-    ![iOS 사용 가능한 앱](./media/available-install-on-iOS.png)
+앱은 사용자가 앱을 설치할 수 있는 사용자 장치의 회사 포털에 표시됩니다. 예를 들어 왼쪽 스크린샷에서는 iOS용 Bing 앱이 **외부 링크** 설치 유형을 사용하여 배포되었고, 사용자 지정 아이콘이 사용되었으며, **회사 포털에서 이 항목을 추천 앱 및 하이라이트로 표시합니다.** 옵션이 선택되었습니다.  
+![iOS 사용 가능한 앱](./media/available-install-on-iOS.png)
 
-iOS 장치에 **필요한** 앱을 배포한 경우 사용자는 앱을 설치할 준비가 되었다는 알림을 받게 됩니다. 예를 들어 왼쪽 스크린샷에서는 **앱 스토어에서 관리되는 iOS 앱** 설치 유형을 사용하여 iOS용 작업 폴더 앱을 배포한 상태입니다.
-    ![iOS 필수 앱](./media/iOS-Required-install.PNG)
+iOS 장치에 **필요한** 앱을 배포한 경우 사용자는 앱을 설치할 준비가 되었다는 알림을 받게 됩니다. 예를 들어 왼쪽 스크린샷에서는 **앱 스토어에서 관리되는 iOS 앱** 설치 유형을 사용하여 iOS용 작업 폴더 앱을 배포한 상태입니다.  
+![iOS 필수 앱](./media/iOS-Required-install.PNG)
 
 ## 다음 단계
 
@@ -64,6 +64,6 @@ iOS 장치에 **필요한** 앱을 배포한 경우 사용자는 앱을 설치�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

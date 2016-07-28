@@ -1,9 +1,9 @@
 ---
-title: "Intune 평가판 구독에 대한 다른 옵션 및 추가 기능 | Microsoft Intune"
-description: 
+title: "Intune 평가판에 대한 다른 옵션 및 추가 기능 | Microsoft Intune"
+description: "경고, 알림 및 보고서와 Intune 무료 30일 평가판에 등록할 때 알아두어야 할 일반적인 일반 Intune 기능에 대해 설명합니다."
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 170cd959-d35b-4129-ae60-117d7e881bc9
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
-ms.openlocfilehash: 0574891a021d43f54ef78ded20d6cf19c18eb25b
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 30ed78b967d8669999f59046d610eca6c78260a1
 
 
 ---
@@ -58,6 +58,6 @@ Intune에 최근에 추가된 기능에 대해 자세히 알아보려면 [Micros
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

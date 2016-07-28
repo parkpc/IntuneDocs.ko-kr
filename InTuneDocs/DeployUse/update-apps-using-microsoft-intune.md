@@ -1,10 +1,10 @@
 ---
 title: "앱 업데이트 | Microsoft Intune"
-description: 
+description: "이 항목의 정보를 토대로 새 버전이 필요할 때 앱을 업데이트할 수 있는 방법을 파악할 수 있습니다."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/12/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: beee6933-876a-4be0-b395-4c24cfbd519b
 ms.reviewer: mghadial
 ms.suite: ems
-ms.sourcegitcommit: 0581d1476fba5bedcdd4446df20f8f92b151f41b
-ms.openlocfilehash: 9e5b8f4a467e8e58cc2f8fa495b5f008eee7e35b
+translationtype: Human Translation
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: bb077902e33d6ab18dea33a6ab2d1ff9a70ce937
 
 
 ---
@@ -23,6 +24,16 @@ Microsoft Intune은 앱 업데이트를 관리하는 데 유용합니다. 이 �
 
 ## 앱을 업데이트하는 방법
 배포한 새 앱 버전이 출시되면 Intune에서 최신 버전의 앱을 업데이트하고 배포할 수 있습니다. 배포를 최신 버전의 동일한 앱으로 바꿀 수 있습니다(동일한 식별자 사용). 앱 업데이트를 사용하여 다른 앱 패키지로 배포를 업데이트할 수 없습니다.
+
+### 앱 식별자
+앱 식별자는 앱을 고유하게 식별하는 속성입니다. 동일한 식별자를 가진 앱의 여러 복사본을 설치할 수 없습니다. 예를 들면 다음과 같습니다.
+
+- **iOS** - 번들 ID(예: com.microsoft.excel)
+- **Android** - 패키지 ID(예: com.microsoft.excel)
+- **Windows Phone** - (xap 설치 관리자) 제품 ID(GUID) 사용
+- **Windows** - (appx/appxbundle) 패키지의 전체 이름 사용
+
+
 
 > [!IMPORTANT]
 > **필수 설치** 배포 작업을 수행하여 앱을 배포했다가 나중에 배포 작업을 **사용 가능한 설치**로 변경하면 배포를 변경하기 전에 앱을 설치했던 장치에 앱의 업데이트가 자동으로 설치되지 않습니다. 이 문제를 해결하려면 다음을 수행할 수 있습니다.
@@ -49,6 +60,6 @@ Microsoft Intune은 앱 업데이트를 관리하는 데 유용합니다. 이 �
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

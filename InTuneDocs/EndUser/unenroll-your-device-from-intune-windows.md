@@ -1,9 +1,9 @@
 ---
-title: "Intune에서 장치 등록 취소 | Microsoft Intune"
-description: 
+title: "Intune에서 Windows 장치 등록 취소 | Microsoft Intune"
+description: "Intune에서 Windows 장치 등록을 취소하는 방법을 설명합니다."
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,14 +13,14 @@ ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: c323aed2b4fbac831ae4919c8145b7253eb97ace
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: e510d9800fde2f1f10c583da273dc28739044009
 
 
 ---
 
 
-# Intune에서 장치 등록 취소
+# Intune에서 Windows 장치 등록 취소
 
 Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows 장치를 사용하지 않으며, 회사나 학교 메일, 앱 또는 기타 리소스에 액세스할 필요가 없는 경우 장치 등록을 취소해야 합니다. Intune에서 장치 등록을 취소하면 이러한 리소스에 더 이상 액세스할 수 없습니다. 장치의 등록을 취소할 때 발생하는 상황에 대한 자세한 내용은 [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-windows.md)를 참조하세요.
 
@@ -66,6 +66,6 @@ Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows �
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

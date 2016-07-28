@@ -1,10 +1,10 @@
 ---
 title: "지원을 받는 방법 | Microsoft Intune"
-description: 
+description: "유료 및 평가판 구독 둘 다에 대해 온라인과 전화 지원이 제공됩니다."
 keywords: 
 author: Nbigman
 manager: jeffgilb
-ms.date: 05/26/2016
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 4682b6b6-c9ef-483e-a6de-b8830cb98b63
 ms.reviewer: jeffgilb
 ms.suite: ems
-ms.sourcegitcommit: 632115d1010217f927e20a7e9532311d48f2b106
-ms.openlocfilehash: a6cb77b441c7c44f33c0353232409f8d7b2daa6a
+translationtype: Human Translation
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: c464f0ff5d36e2bc4fb03ae8cfa6ac38580f9213
 
 
 ---
@@ -26,34 +27,33 @@ ms.openlocfilehash: a6cb77b441c7c44f33c0353232409f8d7b2daa6a
 Intune 관련 문제를 자체적으로 해결하려는 경우 [Microsoft Intune에 대한 일반적인 문제 해결 팁](general-troubleshooting-tips-for-microsoft-intune.md) 또는 이 항목의 **참고 항목** 섹션에 나열된 특정 문제에 대한 문제 해결 항목을 참조하세요.
 ## 온라인 서비스 요청 만들기
 
-1.  Intune에 로그인한 다음 [Office 365 관리 센터](https://portal.office.com/Support/SupportEntry.aspx)를 방문합니다.
+1.  Intune 자격 증명을 사용하여 [Office 365 관리 센터](https://portal.office.com/admin/default.aspx#Overview_SupportPage_AltUSupportPage)에 로그인합니다.
 
-2.  **서비스 요청 만들기** 제목 아래에서 티켓을 열려는 문제의 범주를 선택합니다.
+2.  **서비스 요청 만들기** 아래에서 티켓을 열려는 문제의 범주를 선택합니다.
 
-    -   대금 청구 및 라이선스 문제에 대해서는 **대금 청구 및 제품 정보**를 선택합니다.
+    -   대금 청구, 라이선스 및 계정 문제에 대해서는 **대금 청구 및 제품 정보**를 선택합니다.
 
-    -   기타 모든 Intune 문제에 대해서는 **모바일 장치 관리**를 선택합니다. 이 옵션은 Office 365 MDM 및 System Center Configuration Manager with Intune에도 적용됩니다.
+    -   기타 모든 Intune 문제에 대해서는 **모바일 장치 관리**를 선택합니다.
 
     > [!NOTE]
-    > [!NOTE] 목록의 맨 아래에 있는 **자세히**를 클릭하여 모든 범주를 표시해야 할 수도 있습니다.
+    > 목록의 맨 아래에 있는 **자세히**를 선택하여 모든 범주를 표시해야 할 수도 있습니다.
 
 3.  **문제 식별** 페이지에서 도움이 필요한 **기능** 및 **증상**을 선택합니다. **문제 요약** 및 **문제 세부 정보**를 제공하라는 메시지가 표시됩니다.
 
-4.  **제안 사항 검토** 페이지에서는 혼자 문제를 해결하는 데 도움이 되는 콘텐츠에 대한 링크를 찾을 수 있습니다.  문제를 해결할 수 없는 경우 페이지의 맨 아래에 있는 **예**를 클릭하여 서비스 요청을 제출할 수 있습니다.
+4.  **제안 사항 검토** 페이지에서는 혼자 문제를 해결하는 데 도움이 되는 콘텐츠에 대한 링크를 찾을 수 있습니다.  문제를 해결할 수 없는 경우 페이지의 맨 아래에 있는 **예, 계속합니다.**를 선택하여 서비스 요청을 제출할 수 있습니다.
 
-5.  **세부 정보 추가** 페이지에서 필요한 정보를 제공합니다. **파일 첨부**를 클릭하여 스크린샷이나 기타 문서를 첨부할 수 있습니다.
+5.  **세부 정보 추가** 페이지에서 필요한 정보를 제공합니다. **파일 첨부**를 선택하여 스크린샷이나 기타 문서를 첨부할 수 있습니다.
 
-6.  **확인 및 제출** 페이지에서, 연락처 정보를 제공하고, 요청을 검토하고 **요청 제출**을 클릭합니다. 요청을 제출하면 서비스 요청 목록이 표시됩니다.
+6.  **확인 및 제출** 페이지에서, 연락처 정보를 제공하고, 요청을 검토하고 **요청 제출**을 선택합니다. 요청을 제출하면 서비스 요청 목록이 표시됩니다.
 
 ## 전화 지원
 국가/지역별 지원 전화 번호, 지원 시간 및 각 지역의 지원 언어 목록은 [Microsoft Intune의 담당자 전화 지원](contact-assisted-phone-support-for-microsoft-intune.md)을 참조하세요.
 
 ## 서비스 요청 추적
-서비스 요청을 추적하려면 [Office 365 관리 센터](https://portal.office.com/admin/default.aspx)로 이동합니다. **서비스 요청 만들기** 목록 맨 아래에서 **모든 지원 티켓 보기**를 클릭합니다. 기본적으로 열린 상태에 있는 모든 서비스 요청이 표시됩니다. 예를 들어 닫힌 요청이 표시되도록 표시되는 서비스 요청을 변경하려면 위쪽 탐색 모음에 있는 필터 아이콘을 클릭하고 선호하는 보기를 선택합니다.
+서비스 요청을 추적하려면 [Office 365 관리 센터](https://portal.office.com/admin/default.aspx)로 이동합니다. **서비스 요청 만들기** 목록 맨 아래에서 **모든 지원 티켓 보기**를 선택합니다. 기본적으로 열린 상태에 있는 모든 서비스 요청이 표시됩니다. 예를 들어 닫힌 요청이 표시되도록 표시되는 서비스 요청을 변경하려면 위쪽 탐색 모음에 있는 필터 아이콘을 선택하고 선호하는 보기를 선택합니다.
 
 > [!NOTE]
-> [!NOTE]
-**Microsoft System Center Configuration Manager** 또는 **Microsoft System Center Endpoint Protection을 사용하는 경우**: Configuration Manager 또는 Endpoint Protection 관련 기술 지원이 필요하면 파트너에 문의하거나 [Microsoft System Center Configuration Manager 및 System Center Endpoint Protection 솔루션 센터](http://www.microsoft.com/en-us/server-cloud/products/system-center-2012-r2/resources.aspx)를 방문하여 다양한 자가 진단 자료를 확인하거나 온라인 또는 전화를 통해 지원 요청을 제출하는 옵션을 사용할 수 있습니다.
+> **Microsoft System Center Configuration Manager** 또는 **Microsoft System Center Endpoint Protection을 사용하는 경우:** Configuration Manager 또는 Endpoint Protection 관련 기술 지원이 필요하면 파트너에 문의하거나 [Microsoft System Center Configuration Manager 및 System Center Endpoint Protection 솔루션 센터](http://www.microsoft.com/en-us/server-cloud/products/system-center-2012-r2/resources.aspx)를 방문하여 다양한 자가 진단 자료를 확인하거나 온라인 또는 전화를 통해 지원 요청을 여는 옵션을 사용할 수 있습니다.
 >
 > System Center Configuration Manager 또는 System Center Endpoint Protection에 대한 기술 지원은 유료로 제공되며, 기존 라이선스 또는 프리미어 지원 계약이 있는 경우에는 지원 요금이 차감됩니다.
 
@@ -140,6 +140,6 @@ Microsoft 지원의 역할은 다음과 같습니다.
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,26 +1,27 @@
 ---
-title: "수동으로 장치 동기화 | Microsoft Intune"
+title: "수동으로 Windows 장치 동기화 | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/18/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 443c6de7-5187-4dc4-b844-6085a0c659bd
+ROBOTS: noindex,nofollow
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: fbe46abe0b13e8972a5e9fa09566dff0c09b9939
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 17b0583403c3e23c62a5bd60b9c8217b0621fa80
 
 
 ---
 
 
-# 수동으로 장치 동기화
+# 수동으로 Windows 장치 동기화
 앱 설치가 너무 오래 걸리면, 다음 지침을 사용하여 Windows 장치를 수동으로 동기화합니다. 이렇게 하면 설치 속도를 높이는 데 도움이 될 수 있습니다. 나열된 버전만 지원됩니다. 위의 "이 문서의 내용" 섹션에 표시된 링크 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
 
 * [Windows 10 Mobile](#windows-10-mobile)
@@ -98,6 +99,6 @@ ms.openlocfilehash: fbe46abe0b13e8972a5e9fa09566dff0c09b9939
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

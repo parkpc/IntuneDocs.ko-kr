@@ -1,9 +1,9 @@
 ---
 title: "Microsoft Intune 지원 웹 브라우저 | Microsoft Intune"
-description: 
+description: "Intune에서 지원하는 웹 브라우저"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/06/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 6f4ff11d-dc81-481a-bcd9-d8cdab32f876
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2847c9af38ae0ddddc8d76d548ae7abddc63e4c1
-ms.openlocfilehash: 2524ff0c6139029b162fd58ed209e2d1c284df76
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 1c7c0fbedb45e1086bcab66d4e2bab88eac6d29e
 
 
 ---
@@ -37,6 +37,6 @@ Intune을 설정하기 전에 이 항목과 [시작하기 전에 알아두어야
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

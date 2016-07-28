@@ -1,24 +1,27 @@
 ---
 title: "Mac OS X 정책 설정 | Microsoft Intune"
-description: 
+description: "Intune은 Mac OS X 장치에서 구성할 수 있는 기본 제공 일반 설정의 범위를 제공합니다. 또한 Intune에서 사용할 수 없는 사용자 지정 설정을 만들려면 Apple Configurator 도구를 사용할 수 있습니다."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 98b2f19b-bee8-42d7-a215-a716d56a25a3
-ms.reviewer: jeffgilb
+ms.reviewer: heenamac
 ms.suite: ems
-ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
-ms.openlocfilehash: bbbb666fdc34a82d247d760d156d48c5ac72374c
+translationtype: Human Translation
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 90eee9515696f049194515fb6bed280564d0f923
 
 
 ---
 
 # Microsoft Intune의 Mac OS X 구성 정책 설정
+
+Intune은 Mac OS X 장치에서 구성할 수 있는 기본 제공 일반 설정의 범위를 제공합니다. 또한 Intune에서 사용할 수 없는 사용자 지정 설정을 만들려면 Apple Configurator 도구를 사용할 수 있습니다.
 
 ## 일반 구성 정책 설정
 
@@ -121,6 +124,6 @@ Microsoft Intune **Mac OS X 사용자 지정 구성 정책**을 사용하면 [Ap
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

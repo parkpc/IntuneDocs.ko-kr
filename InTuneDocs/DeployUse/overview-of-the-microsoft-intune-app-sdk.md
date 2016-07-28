@@ -13,8 +13,8 @@ ms.assetid: ef1751bb-3a2f-4662-a922-38c076869eb3
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: 8a9dfe8224b4e0e441691043eaffea73c456b3ec
+ms.sourcegitcommit: 206f7c927cce0b66cf554f60342f3f0b1ca43105
+ms.openlocfilehash: d40687127841754f3994b8ad55e839e08bb8dd33
 
 
 ---
@@ -47,7 +47,7 @@ IT 관리자는 Intune 관리 앱 내에서 링크를 열 때 Managed Browser를
 IT 관리자는 Intune 관리 앱을 시작할 때 PIN 정책을 적용할 수 있습니다. 이 정책은 Microsoft Intune에 장치를 등록한 최종 사용자가 앱을 시작하는 개인과 동일한지 확인하는 데 도움이 됩니다. 최종 사용자가 해당 PIN을 구성할 때 Intune 앱 SDK는 Azure Active Directory를 사용하여 장치 등록 자격 증명과 최종 사용자의 자격 증명을 비교합니다. 
 
 ## 사용자가 앱을 시작하기 전에 자격 증명을 입력하도록 요구
-IT 관리자는 사용자가 Intune 관리 앱을 시작하기 전에 자격 증명을 입력하도록 요구할 수 있습니다. Intune 앱 SDK는 Azure Active Directory를 사용하여 입력된 자격 증명이 후속 로그인에 다시 사용되는 Single Sign-On 환경을 제공합니다. ID 관리 솔루션 [Azure Active Directory와 페더레이션](https://msdn.microsoft.com/en-us/library/azure/jj679342.aspx)의 인증도 지원됩니다. 
+IT 관리자는 사용자가 Intune 관리 앱을 시작하기 전에 자격 증명을 입력하도록 요구할 수 있습니다. Intune 앱 SDK는 Azure Active Directory를 사용하여 입력된 자격 증명이 후속 로그인에 다시 사용되는 Single Sign-On 환경을 제공합니다. ID 관리 솔루션 [Azure Active Directory와 페더레이션](/active-directory/active-directory-aadconnect-federation-compatibility)의 인증도 지원됩니다. 
 
 ## 장치 상태 및 규정 준수 확인
 IT 관리자는 최종 사용자가 Intune 관리 앱에 액세스하기 전에 장치 상태 및 회사 정책 준수를 확인할 수 있습니다. iOS 플랫폼에서 이 정책은 장치가 무단 해제되었는지 확인합니다. Android 플랫폼에서 이 정책은 장치가 루팅되었는지 확인합니다.  
@@ -56,6 +56,6 @@ IT 관리자는 최종 사용자가 Intune 관리 앱에 액세스하기 전에 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

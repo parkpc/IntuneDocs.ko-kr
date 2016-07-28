@@ -3,22 +3,24 @@ title: "알 수 없는 소스를 해제하라는 메시지가 표시되는 경�
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 06/16/2016
+manager: arob98
+ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c7a10998-9aa6-4bc0-8405-27a30c61bca7
-ms.sourcegitcommit: b76c04545b9b26a0e2470b95a3f5ac0a81b07817
-ms.openlocfilehash: 7ea8494dacb3f9ccf3077c654801979bab9b096b
+ROBOTS: noindex,nofollow
+translationtype: Human Translation
+ms.sourcegitcommit: eeb9888d803a53c2f17d88cdb3f010cf14c9b18d
+ms.openlocfilehash: 0a4bf23b547a4f02db663049b84e77365509aeaf
 
 
 ---
 
 # 알 수 없는 소스를 해제하라는 메시지가 표시되는 경우
 
-"알 수 없는 소스에서의 설치를 금지해야 합니다." 메시지가 표시되면 **설정** > **보안**으로 이동한 후 **알 수 없는 소스**를 해제해야 합니다. 
+"알 수 없는 소스에서 설치를 하지 않도록 설정해야 합니다." 메시지가 표시되면 **설정** > **보안**(일부 장치에서는 **화면 및 보안 잠금**일 수 있음)으로 이동한 후 **알 수 없는 소스**를 해제해야 합니다. 
 
 IT 관리자는 Android 장치에서 회사 데이터 보호하기 위해 이 설정을 해제해야 합니다. **알 수 없는 소스**가 켜져 있으면 알 수 없는 소스에서 앱을 설치할 수 있으므로 보안 위험이 발생할 수 있습니다.
 
@@ -31,6 +33,6 @@ IT 관리자는 Android 장치에서 회사 데이터 보호하기 위해 이 �
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

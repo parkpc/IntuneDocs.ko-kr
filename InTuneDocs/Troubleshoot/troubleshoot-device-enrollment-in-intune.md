@@ -1,6 +1,6 @@
 ---
 title: "장치 등록 문제 해결| Microsoft Intune"
-description: 
+description: "장치 등록 문제 해결을 위한 제안 사항"
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d12a31eb0727f7ca0c460049ac6fffb314daf70e
-ms.openlocfilehash: 62668c607bc3064cf8148fd7929b3c1268b721d7
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: 4c728b4fbb68d64d4e06845eca08b1b2d8d1a92a
 
 
 ---
@@ -160,8 +160,29 @@ ms.openlocfilehash: 62668c607bc3064cf8148fd7929b3c1268b721d7
 
 2.  장치가 아직 다른 MDM 공급자에게 등록하지 않았는지 또는 아직 관리 프로필을 설치하지 않았는지 확인합니다.
 
-
 4.  Android용 Chrome이 기본 브라우저이고 쿠키가 사용할 수 있도록 설정되어 있는지 확인합니다.
+
+### Android 인증서 문제
+
+**문제**: 장치에서 다음과 같은 메시지가 표시됩니다. *필요한 인증서가 장치에 없으므로 로그인할 수 없습니다.*
+
+**해결 방법**: 
+
+- [다음 지침](/intune/enduser/your-device-is-missing-a-required-certificate-android#your-device-is-missing-a-certificate-required-by-your-it-administrator)을 수행하여 누락된 인증서를 검색할 수 있습니다.
+- 인증서를 검색할 수 없는 경우 ADFS 서버에서 중간 인증서가 누락된 것일 수 있습니다. 중간 인증서는 Android에서 서버를 신뢰하는 데 필요합니다. 
+
+다음과 같이 ADFS 서버 또는 프록시의 중간 저장소에 인증서를 가져올 수 있습니다.
+
+1.  ADFS 서버에서 **Microsoft Management Console**을 시작하고 **컴퓨터 계정**에 대한 인증서 스냅인을 추가합니다. 
+5.  ADFS 서비스가 사용하는 인증서를 찾은 후 해당 부모 인증서를 확인합니다.
+6.  부모 인증서를 복사한 후 **컴퓨터\중간 인증 기관 \인증서** 아래에 붙여넣습니다.
+7.  ADFS, ADFS 암호 해독 및 ADFS 서명 인증서를 복사하고 ADFS 서비스에 대한 개인 저장소에 붙여넣습니다.
+8.  ADFS 서버를 다시 시작합니다.
+
+이제 사용자는 Android 장치에서 회사 포털에 로그인할 수 있습니다.
+
+
+
 ## iOS 문제
 ### 프로필 설치 실패
 **문제:** iOS 장치에서 **프로필 설치 실패** 오류가 사용자에게 표시됩니다.
@@ -285,6 +306,6 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

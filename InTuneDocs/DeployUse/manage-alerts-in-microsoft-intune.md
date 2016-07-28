@@ -1,10 +1,10 @@
 ---
 title: "경고 관리 | Microsoft Intune"
-description: 
+description: "경고 작업 영역에서는 조직 내 장치의 전반적인 상태를 평가할 수 있습니다."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: Arob98
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
-ms.openlocfilehash: bfea7213f67b55807045bfd8b29fdb083b841a56
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: 47667501cf8235ed59e3915ec8f745381a37ab35
 
 
 ---
@@ -108,6 +108,6 @@ Intune 경고는 다음과 같은 이벤트 중 하나가 발생할 때까지 �
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

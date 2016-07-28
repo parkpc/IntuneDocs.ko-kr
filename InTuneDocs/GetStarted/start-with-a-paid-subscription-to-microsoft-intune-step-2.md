@@ -1,9 +1,9 @@
 ---
 title: "사용자 지정 도메인 이름 구성 | Microsoft Intune"
-description: 
+description: "Intune 구독에 대한 사용자 지정 도메인 이름을 추가하는 프로세스를 설명합니다."
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 2382f36f-13d8-4a32-81ad-6cfa604889c3
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ed26d65b98a0ae1bbc4fbac682fb53fddd50b4e5
-ms.openlocfilehash: a202f06fef0bc8b7eec730728ec10e5fbf234902
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: f18afc5487fe20ba4a13d938dad78fa6087128d7
 
 
 ---
@@ -40,6 +40,6 @@ Microsoft의 클라우드 기반 서비스에 가입한 경우 해당 서비스�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

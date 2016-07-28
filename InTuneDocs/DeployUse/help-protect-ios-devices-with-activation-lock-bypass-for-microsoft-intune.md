@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Intune의 활성화 잠금 무시를 사용하여 iOS 장치 보호 | Microsoft Intune
-description:
-keywords:
+title: "장치에서 iOS 활성화 잠금 관리 | Microsoft Intune"
+description: "Microsoft Intune에서는 iOS 7.1 이상 장치용 나의 iPhone 찾기(Find My iPhone) 앱의 기능인 iOS 활성화 잠금을 관리할 수 있습니다."
+keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: bb49e926-15c4-4f01-b6eb-cee6f7ee1984
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: joglocke
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c1850e89830de61ccdeb81cb6ee9cc0f0c1d237a
+ms.openlocfilehash: 724186bdff1ae40e956c1f1c49476d80c7e1d657
+
 
 ---
 
@@ -49,7 +43,7 @@ Microsoft Intune에서는 iOS 7.1 이상 장치용 나의 iPhone 찾기(Find My 
 > iOS 장치에 대해 감독 모드를 사용하면 Apple Configurator Tool을 통해 장치를 잠가 특정 업무용으로 기능을 제한할 수 있습니다. 감독 모드는 대개 회사가 소유한 장치에서만 사용됩니다.
 
 ## Intune을 통해 활성화 잠금을 관리하는 방법
-Intune에서는 iOS 7.1 이상을 실행하는 감독된/감독되지 않은 장치의 활성화 잠금 상태를 요청할 수 있습니다. 감독된 장치의 경우 Intune은 활성화 잠금 무시 코드를 검색하여 장치에 직접 제공할 수 있습니다. 장치를 초기화한 경우에는 코드를 사용자 이름으로 사용하고 암호는 비워 두는 방식으로 장치에 직접 액세스할 수 있습니다.
+Intune에서는 iOS 7.1 이상을 실행하는 감독된/감독되지 않은 장치의 활성화 잠금 상태를 요청할 수 있습니다. 감독된 장치의 경우에만 Intune은 활성화 잠금 무시 코드를 검색하여 장치에 직접 제공할 수 있습니다. 장치를 초기화한 경우에는 코드를 사용자 이름으로 사용하고 암호는 비워 두는 방식으로 장치에 직접 액세스할 수 있습니다.
 
 **이러한 방식의 업무상 이점은 다음과 같습니다**.
 
@@ -59,11 +53,11 @@ Intune에서는 iOS 7.1 이상을 실행하는 감독된/감독되지 않은 장
 
 ## Intune 관리 콘솔에서 활성화 잠금 무시를 사용하는 방법
 > [!IMPORTANT]
-> 장치에서 활성화 잠금을 무시하도록 설정한 후 나의 iPhone 찾기 앱을 열면 새 활성화 잠금이 자동으로 적용됩니다. 따라서 **이 절차를 수행하려면 장치를 실제로 보유해야 합니다**..
+> 장치에서 활성화 잠금을 무시하도록 설정한 후 나의 iPhone 찾기 앱을 열면 새 활성화 잠금이 자동으로 적용됩니다. 따라서 **이 절차를 수행하려면 장치를 실제로 보유해야 합니다**.
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **그룹** &gt; **모든 장치** &gt; **회사가 소유한 모든 장치**를 선택합니다..
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **그룹** &gt; **모든 장치** &gt; **회사가 소유한 모든 장치**를 선택합니다.
 
-2.  활성화 잠금을 무시할 장치를 선택합니다. **활성화 잠금 무시**를 선택합니다..
+2.  활성화 잠금을 무시할 장치를 선택합니다. **활성화 잠금 무시**를 선택합니다.
 
 3.  경고 메시지를 읽습니다. **예**를 선택하여 작업을 계속 진행합니다.
 
@@ -88,11 +82,16 @@ Intune에서는 iOS 7.1 이상을 실행하는 감독된/감독되지 않은 장
 
     **회사가 소유한 모든 장치** 노드에서 선택하는 장치에 대해 활성화 잠금이 사용하도록 설정되어 있는 경우에는 무시 코드도 확인할 수 있습니다. 이 코드를 사용하면 활성화 잠금 무시를 수동으로 실행할 수 있습니다.
 
+    > [!IMPORTANT]
+    >Intune은 7일 간격으로 장치의 인벤토리에 대해 활성화 잠금을 해제합니다. 이로 인해 Intune 콘솔에서 장치가 활성화 잠금 상태로 즉시 표시되지 않을 수 있습니다.
+
+
 ### 참고 항목
 [장치 사용 중지](retire-devices-from-microsoft-intune-management.md)
 [원격 잠금 또는 암호 재설정으로 장치 보호 지원](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO3-->
 
 

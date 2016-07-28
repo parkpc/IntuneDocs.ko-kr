@@ -1,10 +1,10 @@
 ---
-title: "Android 및 Samsung KNOX 구성 정책 설정 | Microsoft Intune"
-description: 
+title: "Android 및 Samsung KNOX 정책 설정 | Microsoft Intune"
+description: "Intune으로 관리하는 Android 장치에서 설정 및 기능을 제어하는 정책을 만듭니다."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,13 +13,15 @@ ms.assetid: 71cc39cf-e726-40fd-8d08-78776e099a4b
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 62beaec31a0cdc3c28fd3eed820a6771e42ef3e7
-ms.openlocfilehash: f4c0eccb0cd30daaba97e8f34eea69e3d0e8e0ad
+ms.sourcegitcommit: c1850e89830de61ccdeb81cb6ee9cc0f0c1d237a
+ms.openlocfilehash: e983f4ac4e396a30db19e5a0d487ac0f9c25ff14
 
 
 ---
 
 # Microsoft Intune의 Android 및 Samsung KNOX 정책 설정
+
+Intune은 Android 장치에서 구성할 수 있는 기본 제공 일반 설정의 범위를 제공합니다. 또한, Intune에서 사용할 수 없는 사용자 지정 설정을 만들기 위해 OMA-URI 값을 지정할 수 있습니다.
 
 ## 일반 구성 정책
 
@@ -254,6 +256,6 @@ Intune에서는 Android 장치에 대한 Wi-Fi 프로필을 지원하지만, 이
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Microsoft Intune에 대한 릴리스 정보 | Microsoft Intune"
-description: 
+description: "Intune 릴리스 정보"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: db9479b2-582d-4a1a-9fbc-fbfc6c680e6f
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: 1906f14568484ebbf23ac7c4350964fb2d5d508f
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: b7643ccb64185adb1eb4326a19d56814d8667462
 
 
 ---
@@ -91,6 +91,6 @@ Intune 관리 콘솔 및 최종 사용자에 연결하는 모바일 환경에서
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

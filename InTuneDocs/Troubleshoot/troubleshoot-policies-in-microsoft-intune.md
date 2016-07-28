@@ -1,6 +1,6 @@
 ---
 title: "정책 문제 해결 | Microsoft Intune"
-description: 
+description: "정책 구성 문제를 해결합니다."
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 99fb6db6-21c5-46cd-980d-50f063ab8ab8
 ms.reviewer: jeffgilb
 ms.suite: ems
-ms.sourcegitcommit: ac3417781df0a5b092a70620aa7343849b1e8c82
-ms.openlocfilehash: 3ac6b06b7eb85503786b4d8b0b9bd2a30d2a15e6
+translationtype: Human Translation
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: 64518fc58a97c0d5060d909b60df565c19498389
 
 
 ---
@@ -47,7 +48,7 @@ Intune 관리 콘솔에서 모든 장치에는 **장치 속성**아래에 정책
 ![Intune 장치 정책](../media/Intune-Device-Policy-v.2.jpg)
 
 > [!NOTE]
-> [!NOTE] 제한 수준이 다른 두 정책을 같은 장치나 사용자에 적용하면 보다 제한적인 정책이 실제로 적용됩니다.
+> 제한 수준이 다른 두 정책을 같은 장치나 사용자에 적용하면 보다 제한적인 정책이 실제로 적용됩니다.
 
 ## 정책 새로 고침 및 업데이트 간격
 정책은 일정한 간격마다 새로 고쳐지고 업데이트됩니다. 일반적으로 변경 후 15분 내에 정책이 장치에 등록되어야 합니다. 일정한 정책 새로 고침 간격에 대한 자세한 내용은 다음과 같습니다.
@@ -70,7 +71,7 @@ Intune 관리 콘솔에서 모든 장치에는 **장치 속성**아래에 정책
 2.  클라이언트 소프트웨어가 제거될 때까지 20분 정도 기다립니다.
 
     > [!NOTE]
-    > [!NOTE] 프로그램 및 기능에서 클라이언트를 제거하지 마세요.
+    > 프로그램 및 기능에서 클라이언트를 제거하지 마세요.
 
 3.  시작 메뉴에서 **UAC**를 입력하여 사용자 계정 컨트롤 설정을 엽니다.
 
@@ -112,6 +113,6 @@ Android MDM에서는 다른 플랫폼에서 허용하는 것처럼 서비스가 
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

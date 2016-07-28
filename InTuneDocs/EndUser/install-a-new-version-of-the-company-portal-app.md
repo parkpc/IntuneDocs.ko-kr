@@ -3,37 +3,44 @@ title: "새 버전의 회사 포털 앱 설치 | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/30/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
 ms.technology: 
 ms.assetid: c002bcb2-ae37-478d-acf3-2bf51faae490
+ROBOTS: noindex,nofollow
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 29d409f272800e0c5ccaf71494b5e98d1edaae4e
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 529d8020ffda5ffe32542b670a75fd0faa5d6ffe
 
 
 ---
 
 # 새 버전의 회사 포털 앱 설치
 
-사용 중인 버전의 회사 포털이 더 이상 지원되지 않거나 사용 가능한 새 버전의 회사 포털이 있는 경우 다음 절차에 따라 장치를 업데이트하십시오.
+사용 중인 회사 포털 버전이 더 이상 지원되지 않거나 사용 가능한 새 버전의 회사 포털이 있는 경우 회사 포털 앱을 최신 버전으로 업데이트해야 합니다. 아래에서 사용하는 장치 유형에 해당하는 절차를 사용하세요.
 
-## Android 장치를 업데이트하려면
+## Android 장치에서 회사 포털 앱을 업데이트하려면
 
 새 버전의 회사 포털을 사용할 수 있는 경우 Play 스토어에서 알려 줍니다. 회사 포털 앱 자체에서는 메시지가 표시되지 않습니다. 알림의 지침에 따라 장치를 업데이트합니다.
 
-## iOS 장치를 업데이트하려면
+## iOS 장치에서 회사 포털 앱을 업데이트하려면
 
-새 버전의 회사 포털을 사용할 수 있는 경우 Apple AppStore에서 알려줍니다. 알림의 지침에 따라 장치를 업데이트합니다.
+새 버전의 회사 포털 앱을 사용할 수 있는 경우 앱 스토어에서 알려 줍니다. 
 
-## Windows 장치를 업데이트하려면
+회사 포털 앱을 업데이트하려면
+
+1. 앱 스토어를 열고 **intune**을 검색합니다.
+
+2. 앱을 찾으면 앱 이름 오른쪽에 있는 **업데이트** 단추를 누릅니다.
+
+## iOS 장치에서 회사 포털 앱을 업데이트하려면
 
 1.  Windows 스토어로 이동하여 **회사 포털**을 검색합니다.
 
-2.  설치 지시를 따릅니다.
+2.  설치 단계를 수행합니다.
 
     > [!NOTE]
     > Windows 스토어에 액세스할 수 없는 경우 IT 관리자에게 문의하세요.
@@ -50,6 +57,6 @@ ms.openlocfilehash: 29d409f272800e0c5ccaf71494b5e98d1edaae4e
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

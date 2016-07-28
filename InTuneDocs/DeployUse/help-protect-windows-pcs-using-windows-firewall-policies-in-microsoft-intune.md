@@ -1,20 +1,20 @@
 ---
 title: "Windows PC에 대한 방화벽 정책 | Microsoft Intune"
-description: 
+description: "Intune에서는 다양한 방법의 Intune 클라이언트로 관리하는 PC를 보호할 수 있습니다. 이러한 방법 중 하나가 Windows 방화벽 설정을 구성하는 것입니다."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9549c072-ac3d-4d14-a931-a2eda8846217
-ms.reviewer: jeffgilb
+ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: 9f338efe3ef40da3db40c12d1a18c4122e65dc5d
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 826bdcd4db11b0eca94a250d6cb95f76e22569bf
 
 
 ---
@@ -119,6 +119,6 @@ Windows 방화벽 정책을 배포한 후 **정책** 작업 영역의 **모든 �
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

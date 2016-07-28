@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 앱 수명 주기 개요 | Microsoft Intune
-description:
-keywords:
+title: "앱 수명 주기 개요 | Microsoft Intune"
+description: "Microsort Intune에서 관리되는 앱의 추가부터 최종 사용 중지까지 수명 주기에 대해 알아봅니다."
+keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/13/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 60347012-bc3f-4b9a-a4f4-6d3c5021a6e6
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mghadial
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 86d9de9992003ffd163291035174c8d1e822929a
+
 
 ---
 
@@ -29,11 +23,11 @@ ms.suite: ems
 
 Intune 앱의 수명 주기는 앱이 추가될 때 시작하며 제거할 때까지 추가 단계를 진행해 나갑니다.
 
-![앱 수명 주기](./media/applifecycle_nobg.png "the Intune app lifecycle")
+![앱 수명 주기](./media/app-lifecycle.png "the Intune app lifecycle")
 
 ## 추가
 
-앱 배포의 첫 단계는 관리할 앱을 추가하고 Intune에 배포하는 것입니다. 작업할 수 있는 다양한 앱이 있지만 기본 절차는 동일합니다. Intune을 사용하여 [등록된 장치](add-apps-for-mobile-devices-in-microsoft-intune.md) 및 [Intune 클라이언트 소프트웨어를 사용하여 관리하는 Windows PC](add-apps-for-windows-pcs-in-microsoft-intune.md)에 대한 앱을 모두 추가할 수 있습니다..
+앱 배포의 첫 단계는 관리할 앱을 추가하고 Intune에 배포하는 것입니다. 작업할 수 있는 다양한 앱이 있지만 기본 절차는 동일합니다. Intune을 사용하여 [등록된 장치](add-apps-for-mobile-devices-in-microsoft-intune.md) 및 [Intune 클라이언트 소프트웨어를 사용하여 관리하는 Windows PC](add-apps-for-windows-pcs-in-microsoft-intune.md)에 대한 앱을 모두 추가할 수 있습니다.
 
 ## 배포:
 
@@ -53,9 +47,10 @@ Intune은 앱의 데이터를 보호하는 데 도움이 되는 많은 방법을
 
 ## 사용 중지
 
-결국 배포한 앱이 만료되어 제거해야 할 가능성이 높습니다. Intune으로 쉽게 [앱 서비스 사용 중지](retire-apps-using-microsoft-intune.md).
+결국 배포한 앱이 만료되어 제거해야 할 가능성이 높습니다. Intune을 사용하면 [서비스에서 앱을 쉽게 사용 중지](retire-apps-using-microsoft-intune.md)할 수 있습니다.
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO3-->
 
 

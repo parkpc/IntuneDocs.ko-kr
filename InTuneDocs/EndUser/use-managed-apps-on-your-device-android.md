@@ -1,26 +1,27 @@
 ---
-title: "장치에서 관리되는 앱 사용 | Microsoft Intune"
+title: "Android 장치에서 관리되는 앱 사용 | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ed10a62c-b026-4ad3-ac41-641933522df2
+ROBOTS: noindex,nofollow
 ms.reviewer: maxles
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
-ms.openlocfilehash: 5a25d845113ef6a3cb402923ef451fab63138979
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 84dc834c28ab75c4091d7665e8492ec40ede95f9
 
 
 ---
 
 
-# 장치에서 관리되는 앱 사용
+# Android 장치에서 관리되는 앱 사용
 
 관리되는 앱은 해당 앱에서 액세스할 수 있는 회사 데이터를 보호하기 위해 IT 관리자가 구성할 수 있는 앱입니다. Android 장치의 관리되는 앱에서 회사 데이터에 액세스할 경우 앱이 예상과 약간 다르게 작동하는 것을 확인할 수 있습니다. 예를 들어 보호된 회사 데이터를 복사하고 붙여넣을 수 없거나, 해당 데이터를 특정 위치에 저장할 수 없습니다.
 
@@ -77,6 +78,6 @@ IT 부서에서 관리할 수 있는 몇 가지 일반적인 앱은 다음과 �
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

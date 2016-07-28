@@ -1,10 +1,10 @@
 ---
 title: "SharePoint Online에 대한 액세스 제한 | Microsoft Intune"
-description: 
+description: "조건부 액세스로 SharePoint Online의 회사 데이터를 보호하고 액세스를 제어합니다."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 06/16/2016
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5a445f06d6c2328f7689468ca4d68a969af1e825
-ms.openlocfilehash: f8fcb01629c68e9c04b0e0319b937178859877ec
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 334eb869ddbc67767a6e9ed6711bd9135ceb558b
 
 
 ---
@@ -25,6 +25,8 @@ ms.openlocfilehash: f8fcb01629c68e9c04b0e0319b937178859877ec
 - 장치를 준수로 간주하기 위해 장치가 준수해야 하는 장치 규정 준수 정책
 - 장치에서 서비스에 액세스하기 위해 충족해야 하는 조건을 지정하는 조건부 액세스 정책
 조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [메일 및 O365 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 항목을 읽어보세요.
+
+준수 및 조건부 액세스 정책은 사용자에게 배포됩니다. 사용자가 서비스에 액세스하는 데 사용하는 모든 장치는 정책을 준수하는지 확인됩니다.
 
 사용자가 자신의 장치에 있는 OneDrive와 같은 지원되는 앱을 사용하여 파일에 연결하려고 하면 다음 평가 작업이 수행됩니다.
 
@@ -55,6 +57,10 @@ SharePoint Online에 대한 조건부 액세스 정책을 구성하기 **전에*
 
 -   장치가 규정을 준수하지 않으면 사용자가 문제에 관한 정보와 이를 해결하는 방법을 확인할 수 있는 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 회사 포털 웹 사이트로 이동하는 메시지가 표시됩니다.
 
+**모든 SharePoint 사이트에서 조건부 액세스가 적용되며 외부 공유는 차단됩니다.**
+
+>[!NOTE]
+>SharePoint Online에 대해 조건부 액세스를 사용하도록 설정하는 경우 [Remove-SPOTenantSyncClientRestriction](https://technet.microsoft.com/en-us/library/dn917451.aspx) 항목에 설명된 대로 목록의 도메인을 사용하지 않도록 설정하는 것이 좋습니다.  
 ## 모바일 장치에 대한 지원
 - iOS 7.1 이상
 - Android 4.0 이상, Samsung Knox Standard 4.0 이상
@@ -183,6 +189,6 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

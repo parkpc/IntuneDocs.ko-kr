@@ -1,9 +1,9 @@
 ---
-title: "Microsoft 클라우드 서비스 및 제품과 Intune 통합 | Microsoft Intune"
-description: 
+title: "Microsoft 클라우드 서비스와 Intune 통합 | Microsoft Intune"
+description: "Microsoft 클라우드 서비스/제품과 기타 Microsoft 제품과 Intune 통합"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 49675811-08a3-408f-810b-89552ff404bd
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: e58b295bf89e200c7c986902c9b4408d23e67c64
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: e20293f431e0a9ff385f82276d25e71d460230de
 
 
 ---
@@ -42,6 +42,6 @@ TechNet Library에서 [Azure AD 관리](http://technet.microsoft.com/library/hh9
 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,9 +1,9 @@
 ---
 title: "보고서를 사용하여 작업 이해 | Microsoft Intune"
-description: 
+description: "조직의 소프트웨어, 하드웨어 및 소프트웨어 라이선스에 대한 보고서를 만들어 관리합니다."
 keywords: 
 author: Nbigman
-manager: jeffgilb
+manager: Arob98
 ms.date: 06/21/2016
 ms.topic: article
 ms.prod: 
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 857309c2-61c9-4c22-becf-4839fedeaece
 ms.reviewer: pbala
 ms.suite: ems
-ms.sourcegitcommit: 617f1cd42de49f0c8675bd450591a390af674e73
-ms.openlocfilehash: b8af36cef1bcb9077d0ab611a14fb88c0f458ece
+translationtype: Human Translation
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: 10908e3bb8e235659db572667bd10820adf0be52
 
 
 ---
@@ -69,6 +70,6 @@ Intune 보고서는 조직의 소프트웨어, 하드웨어 및 소프트웨어 
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

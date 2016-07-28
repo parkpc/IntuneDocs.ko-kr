@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Intune을 사용한 iOS 장치용 Apple DEP 관리 | Microsoft Intune"
-description: 
+title: "iOS 장치용 Apple DEP 관리 | Microsoft Intune"
+description: "“무선으로” DEP(장치 등록 프로그램)를 통해 구매한 iOS 장치를 등록하는 등록 프로필을 배포하여 Apple 장치를 관리할 수 있습니다."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1b942c7e09e59de59e3e406b84a21a712c0e973a
-ms.openlocfilehash: cd763f9fa0b08cc7b822eccbd043a5b9cd355d0f
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: c63badfcbc736476f17b39e09ef189eb4d2c08ef
 
 
 ---
@@ -55,9 +55,7 @@ Apple DEP(장치 등록 프로그램)로 회사 소유의 iOS 장치를 관리�
 
     **다음 그룹에 장치를 할당**할 수도 있습니다. **선택...**을 클릭하여 그룹을 선택합니다.
 
-    >[!Important]
-    >그룹 할당이 Intune에서 Azure Active Directory로 이동됩니다. [자세한 정보](#changes-to-intune-group-assignments)
-
+    [!INCLUDE[groups deprecated](../includes/group-deprecation.md)]
 
     그다음으로, **이 정책에 대한 장치 등록 프로그램 설정을 구성합니다.**를 사용하도록 설정하여 DEP를 지원합니다.
 
@@ -101,13 +99,13 @@ Apple DEP(장치 등록 프로그램)로 회사 소유의 iOS 장치를 관리�
 
 ## Intune 그룹 할당 변경
 
-9월부터 장치 그룹 관리가 Azure Active Directory로 이동됩니다. Azure Active Directory 그룹으로 전환된 후에는 그룹 할당이 **회사 등록 프로필** 옵션에 나타나지 않습니다. 이 변경은 몇 달에 걸쳐 진행될 예정이므로 당장 변경 내용이 확인되지 않을 수 있습니다. 자세한 내용은 곧 발표될 예정입니다.
+9월부터 장치 그룹 관리가 Azure Active Directory로 이동됩니다. Azure Active Directory 그룹으로 전환된 후에는 그룹 할당이 **회사 등록 프로필** 옵션에 나타나지 않습니다. 이 변경은 몇 달에 걸쳐 진행될 예정이므로 당장 변경 내용이 확인되지 않을 수 있습니다. 회사 등록 프로필 이름에 따라 Azure Active Directory에서 새 동적 장치 그룹 할당을 정의할 수 있습니다. 새 동적 장치 그룹 할당을 정의하면 장치 그룹에 미리 할당된 장치가 정책과 앱이 배포된 상태에서 그룹에 자동으로 등록됩니다. [Azure Active Directory 그룹에 대한 자세한 정보](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/)
 
 ### 참고 항목
 [장치 등록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

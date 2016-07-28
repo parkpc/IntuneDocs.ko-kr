@@ -1,10 +1,10 @@
 ---
 title: "모니터링 및 보고서 | Microsoft Intune"
-description: 
+description: "모니터링 및 보고서를 사용하여 조직 내에 있는 장치의 상태를 모니터링합니다."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: Arob98
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 0f7dc155-cb8e-477b-ba02-2623194a9575
 ms.reviewer: pbala
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
-ms.openlocfilehash: ffbcc48e909887647a2c1b7f7c40bde5682cddea
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: 8b6bb42ecdeb5a35b1a91310e31300754d40ef09
 
 
 ---
@@ -32,6 +32,6 @@ IT 관리자는 조직 내에 있는 장치의 상태를 모니터링하려고 �
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,26 +1,26 @@
 ---
-title: "Microsoft Intune으로 관리되는 모바일 장치의 Exchange 액세스 규칙 | Microsoft Intune"
-description: 
+title: "모바일 장치의 Exchange 액세스 규칙 | Microsoft Intune"
+description: "MOM(모바일 장치 관리)에 대한 Exchange ActiveSync 액세스 규칙은 해당 장치가 Exchange에 대해 가져야 하는 액세스 수준을 결정합니다."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 208b9f45-02d9-413a-b86a-8bad9b5008fa
-ms.reviewer: jeffgilb
+ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: ef0b9901e340aec8b2b516f0180133e37833bf37
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: f69c086333e359f7d1bf202a8d13667779bd3c86
 
 
 ---
 
 # 모바일 장치의 Exchange 액세스 규칙
-모바일 장치에 대한 Exchange 액세스 규칙이 Exchange해야 하는 장치에 대한 액세스 수준을 결정합니다. 이러한 설정은 Microsoft Intune에 등록되지 않은 모바일 장치를 포함하는 모든 모바일 장치에 적용됩니다. 먼저 **기본 규칙** 을 정의할 수 있습니다. 기본 규칙은 사용자 지정 규칙이 적용되지 않은 모든 모바일 장치에 적용됩니다. 다음 표에는 Exchange ActiveSync에서 관리하는 액세스 수준이 정리되어 있습니다.
+모바일 장치에 대한 Exchange ActiveSync 액세스 규칙은 해당 장치가 Exchange ActiveSync에 대해 가져야 하는 액세스 수준을 결정합니다. 이러한 설정은 Microsoft Intune에 등록되지 않은 모바일 장치를 포함하는 모든 모바일 장치에 적용됩니다. 먼저 **기본 규칙** 을 정의할 수 있습니다. 기본 규칙은 사용자 지정 규칙이 적용되지 않은 모든 모바일 장치에 적용됩니다. 다음 표에는 Exchange ActiveSync에서 관리하는 액세스 수준이 정리되어 있습니다.
 
 |액세스 수준|설명|
 |----------------|---------------|
@@ -53,6 +53,6 @@ ms.openlocfilehash: ef0b9901e340aec8b2b516f0180133e37833bf37
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,9 +1,9 @@
 ---
 title: "정책 만들기 및 앱 게시 | Microsoft Intune"
-description: 
+description: "정책을 만들고 Intune 구독에 대한 앱 예제를 게시하는 방법을 설명합니다."
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: e0d8e98f-7dd8-4cbf-887c-a9af63ffe970
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2847c9af38ae0ddddc8d76d548ae7abddc63e4c1
-ms.openlocfilehash: b3b65a1fd1e426bf566f39382321a29e913f102c
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: d079452cb41ca8b37c292d75a606eb72ba5304df
 
 
 ---
@@ -23,11 +23,6 @@ ms.openlocfilehash: b3b65a1fd1e426bf566f39382321a29e913f102c
 Intune 정책은 모바일 장치에 대한 보안 설정을 제어하고, 컴퓨터에 대한 Windows 방화벽 및 Endpoint Protection 설정을 유지하고, 응용 프로그램을 배포하는 데 사용할 수 있는 설정을 제공합니다. [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](/Intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) 및 [Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](/Intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune) 항목에서 자세한 내용을 알아볼 수 있습니다.
 
 Intune을 사용하여 두 가지 유형의 앱 설치를 수행할 수 있습니다. 그 중 첫 번째는 관리 컴퓨터에 앱을 자동으로 배포하는 **필수 설치**입니다. 다른 하나는 사용자가 앱을 컴퓨터에 설치할지 아니면 모바일 장치에 설치할지를 선택할 수 있도록 해당 앱 또는 앱의 링크를 Intune 회사 포털에 배포하는 **사용 가능한 설치**입니다.
-
-<!-- this section really isn't necessary and confuses a lot of people because most mobile device apps aren't licensed this way (and our licensing/reporting features aren't super helpful). I think it's best to avoid this during a quick start guide.
-
-Before using Intune to deploy apps, make sure that you have the appropriate licenses to publish, distribute, and use the app. The Licenses workspace lets you add and manage license agreement information for apps or software purchased through Microsoft Volume Licensing agreements, and for Microsoft or non-Microsoft software that was purchased by other means. You can then create license reports that display managed license usage information throughout your company to stay informed of license usage activity.
--->
 
 아래 단계에서는 모바일 장치 구성 정책과 Windows PC 방화벽 정책을 설정하고, 모바일 장치를 등록한 후 장치에 대해 사용 가능한 설치로 Skype를 구성합니다.
 
@@ -46,6 +41,10 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 3.  **정책 개요** 페이지의 **작업** 목록에서 **정책 추가**를 선택합니다.
 
 4.  정책 목록에서 정책을 만들 플랫폼을 확장한 후 **일반 구성** > **권장 설정으로 정책 만들기 및 배포** > **정책 만들기**를 선택합니다.
+
+> [!NOTE]
+> 선택할 수 있는 다양한 옵션이 있으므로 장치 구성 정책에 대한 권장 설정은 없습니다. 사용자 지정 장치 구성 정책을 만들어야 합니다.
+
 
 5.  **이 정책을 배포할 그룹을 선택합니다.**라는 메시지가 표시되면 사용 가능한 그룹 목록에서 그룹을 선택하고 **추가** > **확인**을 선택합니다.
 
@@ -110,6 +109,6 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

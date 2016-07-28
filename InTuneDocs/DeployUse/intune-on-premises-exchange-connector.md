@@ -1,19 +1,20 @@
 ---
-title: "On-Premises Exchange용 Microsoft Intune Exchange Connector 설치 | Microsoft Intune"
-description: 
+title: "온-프레미스 EAS용 Exchange 커넥터 | Microsoft Intune"
+description: "커넥터 도구를 사용하여 Intune 관리 콘솔과 Exchange ActiveSync MDM용 온-프레미스 Exchange Server 간 통신을 사용하도록 설정합니다."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 41ff4212-a6f5-4374-8731-631f7560cff1
-ms.reviewer: jeffgilb
+ms.reviewer: muhosabe
 ms.suite: ems
-ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
-ms.openlocfilehash: 45f815ea379007b75316552d34f5bd8669b2ccef
+translationtype: Human Translation
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: 233aae987467a574c34aa06168a3c6d59eab663c
 
 
 ---
@@ -36,7 +37,6 @@ Microsoft Intune을 사용하여 모바일 장치의 사서함을 호스팅하�
 |추가 소프트웨어|커넥터를 호스트하는 컴퓨터에 Microsoft .NET Framework 4 및 Windows PowerShell 2.0 전체 설치를 설치해야 합니다.|
 |네트워크|커넥터를 설치하는 컴퓨터는 Exchange 서버를 호스팅하는 도메인과 트러스트 관계에 있는 도메인에 있어야 합니다.<br /><br />이 컴퓨터에서는 포트 80 및 443을 사용하여 방화벽 및 프록시 서버를 통해 Intune 서비스에 액세스할 수 있도록 구성해야 합니다. Intune에서 사용되는 도메인은 manage.microsoft.com, &#42;manage.microsoft.com, &#42;.manage.microsoft.com 등입니다.|
 |호스팅된 Exchange 구성 및 실행|자세한 내용은 [Exchange Server 2016](https://technet.microsoft.com/library/mt170645.aspx)을 참조하세요. |
-|Intune으로 모바일 장치 관리 기관 설정|[Intune으로 모바일 장치 기관 설정](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)|
 
 ### Exchange cmdlet 요구 사항
 
@@ -58,16 +58,14 @@ Intune Exchange Connector에서 사용되는 Active Directory 사용자 계정�
 
 ## On-Premises Exchange Connector 소프트웨어 설치 패키지 다운로드
 
-1. On-Premises Exchange Connector에 대해 지원되는 운영 체제에서 Exchange Server를 사용하는 라이선스로 Exchange 테넌트에서 관리자인 사용자 계정으로 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com) (http://manage.microsoft.com) 을 엽니다.
+1. 온-프레미스 Exchange Connector에 대해 지원되는 Windows Server 운영 체제에서 Exchange Server를 사용하는 라이선스로 Exchange 테넌트에서 관리자인 사용자 계정으로 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)(http://manage.microsoft.com)을 엽니다.
 ![Exchange 연결 설정 열기](../media/ExchangeConnector.gif)
 
-2.  작업 영역 바로 가기 창에서 **ADMIN**을 선택합니다.
+2.  작업 영역 바로 가기 창에서 **관리**를 선택한 다음 **모바일 장치 관리** > **Microsoft Exchange**를 선택한 후 **Exchange 연결 설정**을 선택합니다.
 
-3.  탐색 창의 **모바일 장치 관리**에서 **Microsoft Exchange**를 확장하고 **Exchange 연결 설정**을 선택합니다.
+3.  **Exchange 연결 설정** 페이지에서 **On-Premises Connector 다운로드**를 선택합니다.
 
-4.  **Exchange 연결 설정** 페이지에서 **On-Premises Connector 다운로드**를 선택합니다.
-
-5.  On-Premises Exchange Connector는 열거나 저장할 수 있는 압축(.zip) 폴더에 포함되어 있습니다. **파일 다운로드** 대화 상자에서 **저장**을 선택하여 이 압축(ZIP) 폴더를 안전한 위치에 저장합니다.
+4.  On-Premises Exchange Connector는 열거나 저장할 수 있는 압축(.zip) 폴더에 포함되어 있습니다. **파일 다운로드** 대화 상자에서 **저장**을 선택하여 이 압축(ZIP) 폴더를 안전한 위치에 저장합니다.
 
 > [!IMPORTANT]
 > On-Premises Exchange Connector 폴더 내의 파일의 이름을 변경하거나 이동하지 마십시오. 폴더의 내용을 이동하거나 이름을 바꾸면 설치가 중단됩니다.
@@ -133,6 +131,6 @@ Exchange Connector를 성공적으로 구성한 후 연결 상태 및 마지막�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

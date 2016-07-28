@@ -24,6 +24,7 @@
 #### [Exchange 액세스 규칙](exchange-access-rules-for-mobile-devices.md)
 ### [PC 관리](manage-windows-pcs-with-microsoft-intune.md)
 #### [PC 클라이언트 설치](install-the-windows-pc-client-with-microsoft-intune.md)
+#### [일반 PC 관리 작업](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
 #### [PC 정책 충돌 해결](resolve-gpo-and-microsoft-intune-policy-conflicts.md)
 
 ## [장치 구성](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
@@ -49,7 +50,7 @@
 ### [그룹을 사용하여 사용자 및 장치 관리](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
 ### [그룹에 장치 매핑](categorize-devices-with-device-group-mapping-in-microsoft-intune.md)
 ### [인벤토리를 사용하는 장치 이해](understand-your-devices-with-inventory-in-microsoft-intune.md)
-### [일반 PC 관리 작업](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
+
 
 ## [장치 보호](protect-your-devices-with-microsoft-intune.md)
 ### [원격 잠금 및 암호 재설정](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
@@ -76,6 +77,7 @@
 ## [앱 구성](update-apps-using-microsoft-intune.md)
 ### [앱 업데이트 ](update-apps-using-microsoft-intune.md)
 ### [iOS 앱 구성 정책](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)
+### [iOS 모바일 앱 프로비전 프로필](ios-mobile-app-provisioning-profiles.md)
 ### [인터넷 액세스 관리](manage-internet-access-using-managed-browser-policies.md)
 
 
@@ -133,6 +135,6 @@
 # [문제 해결](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

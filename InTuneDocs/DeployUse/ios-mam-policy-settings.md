@@ -1,10 +1,10 @@
 ---
 title: "iOS MAM 정책 설정 | Microsoft Intune"
-description: 
+description: "이 항목에서는 iOS 장치용 모바일 앱 관리 정책 설정에 대해 설명합니다."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 673ff872-943c-4076-931c-0be90363aea9
 ms.reviewer: andcerat
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5a445f06d6c2328f7689468ca4d68a969af1e825
-ms.openlocfilehash: b3df4b35dbe2710157b88a4e7fdba9734f8b998b
+ms.sourcegitcommit: 09bf7d1343580f7688671bf94d83f40f0a3405c5
+ms.openlocfilehash: e0db92b6ecf7a552589ea805f6507ca59e6554b1
 
 
 ---
@@ -38,7 +38,9 @@ ms.openlocfilehash: b3df4b35dbe2710157b88a4e7fdba9734f8b998b
 
   또한 이 옵션을 **정책 관리 앱** 또는 **안 함**으로 설정하는 경우 스포트라이트 검색을 통해 앱 내의 데이터를 검색할 수 있는 iOS 9 기능이 차단됩니다.
 
-  **기본값 = 정책 관리 앱**
+  **이 설정은 모바일 장치에서 다음에서 열기 기능의 사용을 제어하지 않습니다. 다음에서 열기를 관리하려면 [여기](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)**를 참조하세요.
+
+  **기본값 = 정책으로 관리되는 앱**
 
 - **앱이 다른 앱에서 데이터 수신 허용:** 정책 관리 앱에 데이터를 전송할 수 있도록 허용된 앱을 지정합니다.
   -  **정책 관리 앱**: 다른 정책으로 관리된 앱에서만 데이터를 전송하도록 허용합니다.
@@ -112,6 +114,6 @@ iOS 장치에서 PIN 번호 대신 지문을 통해 사용자의 신원을 확�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

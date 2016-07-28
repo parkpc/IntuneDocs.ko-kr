@@ -1,9 +1,9 @@
 ---
 title: "Intune을 사용하는 일반적인 방법 | Microsoft Intune"
-description: 
+description: "사용자가 Intune에서 수행하려는 가장 일반적인 작업 중 6개 나열"
 keywords: 
 author: jeffgilb
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 1f37d4ff-b5a7-4a89-8884-a6184908b09c
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9cb6894cefad1da14332f9994fdf45fe2d1e9b9c
-ms.openlocfilehash: c854893f457a60a7424010cdf69a91cb8476e167
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 3defa4b8f78e854532d32c66a17f0ed18d36cec7
 
 
 ---
@@ -23,7 +23,8 @@ ms.openlocfilehash: c854893f457a60a7424010cdf69a91cb8476e167
 
 이 구현 작업을 시작하기 전에 비즈니스 목표와 관련하여 회사의 엔터프라이즈 이동성 이해 관계자와 제휴하는 것이 중요합니다.  엔터프라이즈 이동성을 새롭게 시작하거나 다른 제품에서 마이그레이션할지가 중요합니다.  엔터프라이즈 이동성과 관련하여 요구 사항은 동적으로 진화하고 이러한 요구를 처리하는 Microsoft의 접근 방식은 시장에서 다른 솔루션과 다른 경우가 있습니다.  비즈니스 목표와 관련하여 제휴하는 가장 좋은 방법은 직원, 파트너 및 IT에 사용하려는 시나리오의 측면에서 수행하려는 작업을 표현하는 것입니다.  아래에서는 Intune에 따른 가장 일반적인 6가지 시나리오 및 각 항목을 계획하고 배포하는 방법에 대한 자세한 정보의 링크를 간단히 소개합니다.
 
->[!NOTE] Microsoft IT에서 Intune을 사용하여 회사 데이터 보안을 유지하면서 Microsoft 직원이 모바일 장치에서 회사 리소스에 액세스할 수 있는 방법이 궁금한가요? [이 기술 사례 연구를 참고하여](https://www.microsoft.com/itshowcase/Article/Content/588) Microsoft IT에서 Intune 및 다른 서비스를 사용하여 ID, 장치, 앱 및 데이터를 관리하는 방법을 자세히 확인할 수 있습니다.  
+>[!NOTE]
+>Microsoft IT에서 Intune을 사용하여 회사 데이터 보안을 유지하면서 Microsoft 직원이 모바일 장치에서 회사 리소스에 액세스할 수 있는 방법이 궁금한가요? [이 기술 사례 연구를 참고하여](https://www.microsoft.com/itshowcase/Article/Content/588) Microsoft IT에서 Intune 및 다른 서비스를 사용하여 ID, 장치, 앱 및 데이터를 관리하는 방법을 자세히 확인할 수 있습니다.  
 
 ## 온-프레미스 전자 메일 및 데이터를 보호하여 모바일 장치에서 안전하게 액세스할 수 있도록 합니다.
 대부분의 엔터프라이즈 이동성 전략은 인터넷에서 모바일 장치를 사용하는 직원이 전자 메일에 대한 보안 액세스를 사용하는 계획으로 시작됩니다. 대부분의 조직에는 해당 회사 네트워크에서 호스팅되는 온-프레미스 데이터 및 Microsoft Exchange와 같은 응용 프로그램 서버가 있습니다. Intune 및 EMS(Enterprise Mobility Suite)는 회사 네트워크의 에지에 다른 게이트웨이 컴퓨터를 배포하지 않고 Intune을 사용하여 장치를 등록할 때까지 어떤 모바일 앱도 전자 메일에 액세스할 수 없도록 하는 Exchange 서버에 고유하고 통합된 조건부 액세스를 제공합니다.
@@ -67,6 +68,6 @@ Intune은 Apple 장치 등록 프로그램 및 Samsung KNOX 모바일 보안 플
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

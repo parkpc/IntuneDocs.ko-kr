@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Intune을 사용한 iOS 장치용 설정 도우미 등록 | Microsoft Intune"
-description: 
+title: "설정 도우미를 사용하여 iOS 장치 등록 | Microsoft Intune"
+description: "Apple Configurator 도구를 사용하여 회사 소유의 iOS 장치를 공장 초기화 장치에 등록하고 설정 도우미를 실행할 수 있도록 준비합니다."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 46e5b027-4280-4809-b45f-651a6ab6d0cd
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f3637e79e7b6f93820e775932653c41879f369fe
-ms.openlocfilehash: b9cb10ccb26d4f61d63fb2dc6c18be48cc0a3182
+ms.sourcegitcommit: 26ac7d52c0ad3e37e517b60d448a94849c0f4b30
+ms.openlocfilehash: f36217aa5e691ea22c891c08d1d5b886726f0a9a
 
 
 ---
@@ -27,6 +27,7 @@ Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http://go.micros
 Apple 구성기를 사용하면 iOS 장치를 초기화하여 장치의 새 사용자가 설정할 수 있도록 준비할 수 있습니다.  이 방법을 사용하려면 iOS 장치를 Mac 컴퓨터에 USB로 연결하여 회사 등록을 설정해야 하며 사용자가 Apple Configurator 2.0을 사용하고 있는 것으로 간주됩니다. 대부분의 시나리오는 Intune 회사 포털 앱을 활성화하기 위해 iOS 장치에 적용되는 정책에 *사용자 선호도*를 포함해야 합니다.
 
 **필수 구성 요소**
+* [APN 인증서를 설치하여](set-up-ios-and-mac-management-with-microsoft-intune.md) iOS 등록 사용
 * IOS 장치에 대한 실제 액세스 - 암호 보호 없이 장치가 구성되지 않아야 함(공장 기본 설정)
 * 장치 일련 번호 - [iOS 일련 번호를 가져오는 방법](https://support.apple.com/en-us/HT204308)
 * USB 연결 케이블
@@ -36,8 +37,6 @@ Apple 구성기를 사용하면 iOS 장치를 초기화하여 장치의 새 사�
 1.  **모바일 장치 그룹 만들기**(선택 사항) 비즈니스에서 장치 관리를 위해 모바일 장치 그룹이 필요한 경우 해당 그룹을 만듭니다. [Microsoft Intune에서 그룹을 사용하여 사용자 및 장치를 관리할 수 있습니다](use-groups-to-manage-users-and-devices-with-microsoft-intune.md).
 
 2.  **장치에 대한 프로필 만들기** 장치 등록 프로필은 장치 그룹에 적용되는 설정을 정의합니다. 등록된 iOS 장치에 대한 장치 등록 프로필을 아직 만들지 않은 경우 Apple Configurator를 사용하여 만듭니다.
-
-    ###### 프로필을 만들려면
 
     1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **회사 소유 장치**로 이동한 후 **추가...**를 선택합니다.
 
@@ -62,8 +61,7 @@ Apple 구성기를 사용하면 iOS 장치를 초기화하여 장치의 새 사�
 
         -   **장치 그룹 사전 할당** – 이 프로필이 배포된 모든 장치는 처음에 이 그룹에 속합니다. 등록 후 장치를 다시 할당할 수 있습니다.
 
-        >[!Important]
-        >그룹 할당이 Intune에서 Azure Active Directory로 이동됩니다. [자세한 정보](http://go.microsoft.com/fwlink/?LinkID=787064)
+            [!INCLUDE[groups deprecated](../includes/group-deprecation.md)]
 
           -  **장치 등록 프로그램** - Apple DEP(장치 등록 프로그램)는 설정 도우미 등록과 함께 사용할 수 없습니다. 토글이 **꺼짐**으로 설정되었는지 확인합니다.
 
@@ -153,6 +151,6 @@ Apple 구성기를 사용하면 iOS 장치를 초기화하여 장치의 새 사�
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

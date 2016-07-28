@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 앱 래핑 도구를 사용하여 관리하도록 iOS 앱 준비 | Microsoft Intune
-description:
-keywords:
-author: Staciebarker
+title: "앱 줄 바꿈 도구를 사용하여 iOS 앱 줄 바꿈 | Microsoft Intune"
+description: "이 항목의 정보를 사용하여 앱 자체의 코드를 수정하지 않고 iOS 앱을 줄 바꿈하는 방법에 대해 알아봅니다. 모바일 앱 관리 정책을 적용할 수 있도록 앱을 준비합니다."
+keywords: 
+author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/11/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: matgates
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 754c026832b980d3a1cd406e9ab3146585b87b46
+
 
 ---
 
@@ -30,14 +24,14 @@ ms.suite: ems
 
 이 도구는 앱 주위에 '래퍼'를 만드는 Mac OS 명령줄 응용 프로그램입니다. 앱을 처리한 후에는 구성하는 [모바일 응용 프로그램 관리 정책](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 앱의 기능을 변경할 수 있습니다.
 
-이 도구를 다운로드하려면 [iOS용 Microsoft Intune 앱 래핑 도구](http://www.microsoft.com/en-us/download/details.aspx?id=45218)를 참조하세요..
+이 도구를 다운로드하려면 [iOS용 Microsoft Intune 앱 줄 바꿈 도구](http://www.microsoft.com/en-us/download/details.aspx?id=45218)를 참조하세요.
 
 ## 1단계 앱 래핑 도구 사용을 위한 필수 구성 요소 준비
 
 |요구 사항|추가 정보|
 |---------------|--------------------------------|
 |지원되는 운영 체제 및 도구 집합|앱 래핑 도구는 Xcode 도구 집합 버전 5 이상이 설치된 OS X 10.8.5 이상의 Mac 컴퓨터에서 실행해야 합니다.|
-|인증서 및 프로비저닝 프로필 서명|Apple 서명 인증서 및 프로비저닝 프로필이 있어야 합니다. [Apple 개발자 설명서](https://developer.apple.com/)를 참조하세요..|
+|인증서 및 프로비저닝 프로필 서명|Apple 서명 인증서 및 프로비저닝 프로필이 있어야 합니다. [Apple 개발자 설명서](https://developer.apple.com/)를 참조하세요.|
 |앱 래핑 도구를 사용하여 앱 처리|사용자의 회사나 ISV(Independent Software Vendor)에서 개발 및 서명한 앱이어야 합니다. 이 도구를 사용하여 Apple 스토어의 앱을 처리할 수는 없습니다. iOS 7.0 이상용으로 작성된 앱이어야 합니다. 또한 PIE(Position Independent Executable) 형식의 앱이어야 합니다. PIE 형식에 대한 자세한 내용은 Apple 개발자 설명서를 참조하세요. 마지막으로, 앱의 확장명이 **.app**, 또는 **.ipa** 형식이어야 합니다.|
 |래핑 도구에서 처리할 수 없는 앱|암호화된 앱, 서명되지 않은 앱 및 확장된 파일 특성을 가진 앱입니다.|
 |ADAL(Azure Active Directory 라이브러리)을 사용하는 앱|앱에서 ADAL을 사용하는 경우 앱은 ADAL 버전 1.0.2 이상을 포함하고 있어야 하며 개발자는 Intune 모바일 응용 프로그램 관리 리소스에 대한 액세스 권한을 앱에 부여해야 합니다.<br /><br />ADAL 사용 방법에 관한 자세한 내용은 이 문서의 [Azure Active Directory 라이브러리를 사용하는 앱에 대한 정보](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md#information-for-apps-that-use-the-azure-active-directory-library)를 참조하세요.|
@@ -47,7 +41,7 @@ ms.suite: ems
 
 1.  [Microsoft 다운로드 센터](https://www.microsoft.com/download/details.aspx?id=45218)의 **iOS용 Microsoft Intune 앱 래핑 도구** 페이지에서 앱 래핑 도구용 설치 파일을 Mac 컴퓨터에 다운로드합니다.
 
-2.  Mac 컴퓨터에서 설치 파일 **Microsoft Intune App Wrapping Tool for iOS.dmg**를 두 번 클릭합니다..
+2.  Mac 컴퓨터에서 설치 파일 **Microsoft Intune App Wrapping Tool for iOS.dmg**를 두 번 클릭합니다.
 
 3.  **동의** 를 선택하여 EULA(최종 사용자 사용권 계약)에 동의합니다. Mac 컴퓨터에서 설치 관리자가 탑재되어 표시됩니다.
 
@@ -59,7 +53,7 @@ ms.suite: ems
 
 1.  Mac 컴퓨터에서 터미널 창을 열고 파일을 저장한 폴더로 이동합니다. 실행 파일은 패키지 내에 있으므로 다음과 같이 명령을 실행해야 합니다.
 ```
-    ./IntuneMAMPackager.app/Contents/MacOS/IntuneMAMPackager –i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> –p /<path to provisioning profile> –c <SHA1 hash of the certificate> -a <client ID of input app> -r <reply URI of input app> -v true
+    ./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager –i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> –p /<path to provisioning profile> –c <SHA1 hash of the certificate> -a <client ID of input app> -r <reply URI of input app> -v true
 ```
     > [!NOTE]
     > Some parameters are optional as shown in the table below.
@@ -126,7 +120,7 @@ ms.suite: ems
 
 1.  앱을 실행하여 문제를 재현합니다.
 
-2.  [배포된 iOS 앱 디버깅](https://developer.apple.com/library/ios/qa/qa1747/_index.html)과 관련한 Apple의 지침에 따라 콘솔 출력을 수집합니다..
+2.  [배포된 iOS 앱 디버깅](https://developer.apple.com/library/ios/qa/qa1747/_index.html)과 관련한 Apple의 지침에 따라 콘솔 출력을 수집합니다.
 
 3.  콘솔에 다음 스크립트를 입력하여 앱 제한 출력에 대해 저장된 로그를 필터링합니다.
 
@@ -149,7 +143,7 @@ ADAL을 사용하는 앱은 다음 조건을 충족해야 합니다.
 
 -   1.0.2 이상의 ADAL 버전이 통합되어 있어야 합니다.
 
--   개발자는 [ADAL을 사용하는 앱에 대해 수행할 단계](#steps-to-follow-for-apps-that-use-adal)에 설명된 대로 Intune 모바일 응용 프로그램 관리 리소스에 대한 액세스 권한을 앱에 부여해야 합니다..
+-   개발자는 [ADAL을 사용하는 앱에 대해 수행할 단계](#steps-to-follow-for-apps-that-use-adal)에 설명된 대로 Intune 모바일 응용 프로그램 관리 리소스에 대한 액세스 권한을 앱에 부여해야 합니다.
 
 ### 가져와야 하는 식별자 개요
 앱의 두 고유 식별자를 가져오려면 Azure 관리 포털을 통해 ADAL을 사용하는 앱을 등록해야 합니다.
@@ -170,9 +164,9 @@ ADAL을 사용하는 앱은 다음 조건을 충족해야 합니다.
 
     2.  Azure Active Directory에서 **기존 LOB 응용 프로그램 등록** 을 클릭합니다.
 
-    3.  구성 섹션에서 **다른 응용 프로그램의 웹 API에 대한 액세스 구성**을 선택합니다..
+    3.  구성 섹션에서 **다른 응용 프로그램의 웹 API에 대한 액세스 구성**을 선택합니다.
 
-    4.  **다른 응용 프로그램에 대한 사용 권한** 섹션의 첫 번째 드롭다운 목록에서 **Intune 모바일 응용 프로그램 관리**를 선택합니다..
+    4.  **다른 응용 프로그램에 대한 사용 권한** 섹션의 첫 번째 드롭다운 목록에서 **Intune 모바일 응용 프로그램 관리**를 선택합니다.
 
         이제 앱 래핑 도구에서 앱의 클라이언트 ID를 사용할 수 있습니다. 앱의 클라이언트 ID는 [가져와야 하는 ID 개요](#overview-of-identifiers-you-need-to-get) 섹션에 설명된 대로 Azure Active Directory 관리 포털에서 찾을 수 있습니다.
 
@@ -199,7 +193,7 @@ ADAL을 사용하는 앱은 다음 조건을 충족해야 합니다.
 -   클라이언트 응용 프로그램의 클라이언트 ID 및 리디렉션 URI를 제공하면 이중 로그인 시도가 차단됩니다. AAD 대시보드에서 게시된 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] MAM 리소스 ID에 액세스하려면 이 클라이언트 ID를 등록해야 합니다. 이렇게 하지 않으면 앱을 실행할 때 로그인이 실패합니다.
 
 ## 앱 자격 설정
-앱을 래핑하기 전에 **자격**을 부여하여 앱이 일반적으로 수행할 수 있는 작업을 초과하는 추가적인 권한 및 기능을 제공할 수 있습니다.  **자격 파일**은 앱 내에서 특정 권한(예: 공유 키 집합에 대한 액세스 권한)을 지정하는 코드 서명 동안 사용됩니다. **기능**이라는 특정 앱 서비스는 앱 개발 동안 Xcode 내에서 사용하도록 설정됩니다. 이렇게 사용하도록 설정되면 기능이 자격 파일에 반영됩니다. 자격 및 기능에 대한 자세한 내용은 iOS 개발자 라이브러리의 [기능 추가](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)를 참조하세요. 지원되는 전체 기능 목록이 필요하면 [지원되는 기능](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html)을 참조하세요..
+앱을 래핑하기 전에 **자격**을 부여하여 앱이 일반적으로 수행할 수 있는 작업을 초과하는 추가적인 권한 및 기능을 제공할 수 있습니다.  **자격 파일**은 앱 내에서 특정 권한(예: 공유 키 집합에 대한 액세스 권한)을 지정하는 코드 서명 동안 사용됩니다. **기능**이라는 특정 앱 서비스는 앱 개발 동안 Xcode 내에서 사용하도록 설정됩니다. 이렇게 사용하도록 설정되면 기능이 자격 파일에 반영됩니다. 자격 및 기능에 대한 자세한 내용은 iOS 개발자 라이브러리의 [기능 추가](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)를 참조하세요. 지원되는 전체 기능 목록이 필요하면 [지원되는 기능](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html)을 참조하세요.
 
 ### IOS용 앱 래핑 도구에 지원되는 기능
 
@@ -211,7 +205,7 @@ ADAL을 사용하는 앱은 다음 조건을 충족해야 합니다.
 |앱에서 바로 구매|앱에서 바로 구매 기능에서는 스토어에 연결하여 사용자의 지불을 안전하게 처리할 수 있도록 하여 스토어를 앱에 바로 포함합니다. 앱에서 바로 구매 기능을 사용하여 향상된 기능이나 앱에서 사용할 수 있는 추가적인 콘텐츠에 대한 지불을 회수할 수 있습니다.||
 |키 집합 공유|키 집합 공유 기능을 사용하면 자신의 앱이 팀에서 개발한 다른 앱과 키 집합에 있는 암호를 공유할 수 있습니다.|키 집합 공유 기능을 사용할 때에는 역방향 DNS 표기법을 사용합니다.<br /><br />*com.companyName.KeychainGroup*|
 |Personal VPN(개인 VPN)|앱이 네트워크 확장 프레임워크를 사용하여 사용자 지정 시스템 VPN 구성을 만들고 제어할 수 있도록 하려면 개인 VPN을 사용합니다.||
-|푸시 알림|APNs(Apple 푸시 알림 서비스)를 사용하면 포그라운드에서 실행되지 않고 있는 앱이 사용자에 대한 정보를 보유하고 있다고 사용자에게 알릴 수 있습니다.|푸시 알림이 작동하도록 하려면 앱별 프로비저닝 프로필을 사용해야 합니다.<br /><br />[Apple 개발자 설명서](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)의 절차를 따릅니다..|
+|푸시 알림|APNs(Apple 푸시 알림 서비스)를 사용하면 포그라운드에서 실행되지 않고 있는 앱이 사용자에 대한 정보를 보유하고 있다고 사용자에게 알릴 수 있습니다.|푸시 알림이 작동하도록 하려면 앱별 프로비저닝 프로필을 사용해야 합니다.<br /><br />[Apple 개발자 설명서](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)의 절차를 따릅니다.|
 |Wireless Accessory Configuration(무선 액세서리 구성)|무선 액세서리 구성 기능을 사용하면 프로젝트에 외부 액세서리 프레임워크가 추가되고 앱이 MFi Wi-Fi 액세서리를 구성할 수 있게 됩니다.||
 
 ### 자격을 사용하도록 설정하는 절차
@@ -230,7 +224,7 @@ ADAL을 사용하는 앱은 다음 조건을 충족해야 합니다.
 
     1.  Apple Developer Member Center에 로그인합니다.
 
-    2.  앱용 프로비저닝 프로필을 만듭니다. 자세한 지침은 [iOS용 Intune 앱 래핑 도구에 대한 필수 구성 요소를 가져오는 방법](http://blogs.technet.com/b/microsoftintune/archive/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios.aspx)을 참조하세요..
+    2.  앱용 프로비저닝 프로필을 만듭니다. 자세한 지침은 [iOS용 Intune 앱 줄 바꿈 도구에 대한 필수 구성 요소를 가져오는 방법](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/)을 참조하세요.
 
     3.  프로비저닝 프로필에서 앱에 있는 것과 동일한 자격을 사용하도록 설정합니다. 앱을 개발하는 동안 지정한 것과 동일한 ID를 제공해야 합니다.
 
@@ -271,7 +265,7 @@ iOS용 앱 래핑 도구에 자격 오류가 표시되는 경우 다음의 문�
 이 명령은 자격 파일에 없는 앱에서 사용할 수 있는 기능을 모두 제거합니다. 앱에서 사용 중인 기능을 제거하면 앱이 중단될 수 있습니다. 누락된 기능을 제거할 수 있는 위치의 예로 기본적으로 모든 기능을 갖춘 공급업체에서 만든 앱이 있는 경우입니다.
 
 ```
-./IntuneMAMPackager.app/Contents/MacOS/IntuneMAMPackager –i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> –p /<path to provisioning profile> –c <SHA1 hash of the certificate> -e
+./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager –i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> –p /<path to provisioning profile> –c <SHA1 hash of the certificate> -e
 ```
 
 ## 앱 래핑 도구의 보안 및 개인 정보
@@ -297,6 +291,7 @@ iOS용 앱 래핑 도구에 자격 오류가 표시되는 경우 다음의 문�
 - [SDK를 사용하여 모바일 응용 프로그램 관리에 앱을 사용하도록 설정](use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO3-->
 
 

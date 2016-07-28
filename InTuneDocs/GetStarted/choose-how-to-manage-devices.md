@@ -13,8 +13,8 @@ ms.assetid: 770aad50-fd7a-4cf1-a793-f95fe47fc3f8
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
-ms.openlocfilehash: c9b34408e4af34dafc700d016304a6d29c2e8585
+ms.sourcegitcommit: 4a7c6d8f4e47f050888e9fcf5edfa586c4a24065
+ms.openlocfilehash: 502a08c1bf49057220917d929a8ffe0b98d3de2a
 
 
 ---
@@ -69,7 +69,7 @@ iOS, Android 및 Windows Phone을 비롯한 모바일 장치 운영 체제의 �
 ## Exchange ActiveSync 관리
 또한 Exchange ActiveSync를 사용하여 장치를 관리할 수 있습니다. 그러려면 온-프레미스 커넥터를 설치하거나 기본 제공 서비스 간 커넥터를 사용하여 Exchange Server에 연결해야 합니다.
 
-온-프레미스 커넥터를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항에 대한 자세한 내용은 [온-프레미스 커넥터의 요구 사항](/intune/deploy-use/intune-on-premises-exchange-connector#requirements-for-the-on-premises-connect) 섹션을 참조하세요.
+온-프레미스 커넥터를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항에 대한 자세한 내용은 [온-프레미스 커넥터의 요구 사항](/intune/deploy-use/intune-on-premises-exchange-connector#requirements-for-the-on-premises-connector) 섹션을 참조하세요.
 
 Exchange와 함께 온-프레미스 커넥터 또는 서비스 간 커넥터를 사용하는 방법에 대한 자세한 내용은 [Exchange ActiveSync와 Microsoft Intune을 사용한 모바일 장치 관리](/intune/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune) 항목을 참조하세요.
 
@@ -80,6 +80,6 @@ Exchange와 함께 온-프레미스 커넥터 또는 서비스 간 커넥터를 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

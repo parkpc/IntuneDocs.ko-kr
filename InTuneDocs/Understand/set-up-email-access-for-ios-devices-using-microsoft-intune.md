@@ -1,9 +1,9 @@
 ---
-title: "Microsoft Intune을 사용하여 iOS 장치에 대한 메일 액세스 설정 | Microsoft Intune"
-description: 
+title: "iOS 장치에 대한 전자 메일 액세스 설정 | Microsoft Intune"
+description: "Intune을 사용하여 iOS 장치에 대한 전자 메일 액세스 설정"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 3853673d-290a-400f-8e45-d55e39d42acd
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7f3985b10ac9612c8c1efc4756eb25cdcf29b023
-ms.openlocfilehash: 5b746cee0806fb44b1fd847efb9791d525673133
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 3b6bb8602ddc7a1f75a0c21ffc4fb6327673d38d
 
 
 ---
@@ -40,7 +40,7 @@ Intune으로 장치를 등록하는 경우 사용자가 회사 메일에 액세�
 이 연습에서는 평가판 구독과 함께 제공되는 호스팅된 Exchange Server를 사용합니다.
 1. Intune 콘솔에서 **정책**을 클릭하고 **정책 추가**를 클릭합니다.
 ![<add-policy>](./media/Email-Walkthrough/Email-Walkthrough-1.png)
-2. **새 정책 만들기** 대화 상자에서 **iOS**를 확장하고 **메일 프로필**을 선택한 후 **정책 만들기**를 클릭합니다.
+2. **새 정책 만들기** 대화 상자에서 **iOS**를 확장하고 **메일 프로필**을 선택한 후 **정책 만들기**를 클릭합니다.  
 ![<ios-email-profile-policy>](./media/Email-Walkthrough/Email-Walkthrough-2.png)
 3. 정책 만들기 페이지에서 정책에 대한 이름(예: **iOS email profile - user-password**) 및 설명을 입력합니다. 서로 다른 장치 유형 및 다른 인증 방법에 대해 여러 전자 메일 프로필이 있을 수 있으므로 어떤 것에 해당하는 프로필인지를 보여 주는 이름을 사용할 수 있습니다.
 4. Exchange 호스트 이름을 입력합니다. Azure에서 호스팅되는 Exchange Server를 사용하고 있으므로 호스트 이름에 대해 단순히 **outlook.office365.com**
@@ -51,21 +51,23 @@ Intune으로 장치를 등록하는 경우 사용자가 회사 메일에 액세�
 8. **정책 저장**을 클릭합니다.
 9. 이제 정책을 배포할지 묻는 대화 상자가 나타납니다. **예**를 클릭합니다.
 ![<deploy-policy-now-dialog>](./media/Email-Walkthrough/Email-Walkthrough-4.png)
-10. 다음에 표시되는 창에서 메일 프로필을 배포할 사용자 그룹을 선택하고 **추가**, **확인**을 차례로 클릭합니다.
-![<finish-add-policy>](./media/Email-Walkthrough/Email-Walkthrough-5.png)**확인**을 클릭하면 1~2분 이내에 정책이 등록된 장치로 적용되기 시작합니다.
+10. 다음에 표시되는 창에서 메일 프로필을 배포할 사용자 그룹을 선택하고 **추가**, **확인**을 차례로 클릭합니다.  
+![<finish-add-policy>](./media/Email-Walkthrough/Email-Walkthrough-5.png)  
+**확인**을 클릭하면 1-2분 안에 정책이 등록된 장치로 적용되기 시작합니다.
 
 ## 프로필 성공적으로 적용되었는지 확인하는 단계
 
 프로필이 적용되었는지 확인하려면 전자 메일 프로필을 배포한 장치 중 하나에 액세스해야 합니다.
 1. iOS 장치에서 메일 앱을 엽니다.
-앱에 사용자의 전자 메일 사용자 이름 및 암호를 묻는 메시지가 나타납니다.
+앱에 사용자의 전자 메일 사용자 이름 및 암호를 묻는 메시지가 나타납니다.  
 ![<verify-policy-add-password>](./media/Email-Walkthrough/Email-Walkthrough-6.png)
 2. 사용자의 Exchange 메일 계정에 대한 사용자 이름 및 암호를 입력하고 **확인**을 탭합니다.
  Exchange 계정에 대한 메일 앱이 열리고 전자 메일이 장치에 대해 동기화되기 시작합니다.
 ![<exchange-account-opens>](./media/Email-Walkthrough/Email-Walkthrough-7.png)
 3. 메일 앱의 계정 설정에서 계정 이름이 전자 메일 프로필에 입력된 것과 동일하고(예를 들어 **Contoso Mail**) 동기화 설정이 올바르게 설정되었는지 확인합니다.
 ![<check-account-settings>](./media/Email-Walkthrough/Email-Walkthrough-8.png)
-![<check-email-account-name>](./media/Email-Walkthrough/Email-Walkthrough-9.png) 메일 프로필이 장치에 자동으로 적용되지 않는 것으로 나타나는 경우 장치에서 회사 포털 앱을 사용하여 정책을 수동으로 적용할 수 있습니다.
+![<check-email-account-name>](./media/Email-Walkthrough/Email-Walkthrough-9.png)  
+  전자 메일 프로필이 장치에 자동으로 적용되지 않는 것으로 나타나는 경우 장치에서 회사 포털 앱을 사용하여 정책을 수동으로 적용할 수 있습니다.
 1. 회사 포털 앱을 엽니다.
 2. **내 장치**를 탭합니다.
 3. 장치의 이름을 탭합니다.
@@ -78,6 +80,6 @@ Intune으로 장치를 등록하는 경우 사용자가 회사 메일에 액세�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

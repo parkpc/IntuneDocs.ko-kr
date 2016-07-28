@@ -1,21 +1,20 @@
 ---
-title: "Microsoft Intune에서 회사 소유의 iOS 장치 등록 | Microsoft Intune"
-description: 
+title: "회사 소유의 iOS 장치 등록 | Microsoft Intune"
+description: "Apple DEP(장치 등록 프로그램) 또는 Apple Configurator를 사용하여 회사 소유 iOS 장치 등록"
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 2d3ca4ab-f20c-4d56-9413-f8ef19cf0722
-ROBOTS: noindex,nofollow
-ms.reviewer: jeffgilb
+ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: 48359b44bec9ac3e1c9510debc01d2cf8abf6d2b
+ms.sourcegitcommit: 8a124eb41789053451e0c709188430b1e043d435
+ms.openlocfilehash: 872be93241c84a8334e4415f00b1383da7b15a61
 
 
 ---
@@ -25,12 +24,42 @@ Microsoft Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http:/
 
 세 가지 방법으로 회사에 등록된 iOS 장치를 등록할 수 있습니다.
 
--   **설치 도우미 등록** – 장치를 공장 기본 설정으로 복원하고 장치의 새 사용자가 설치하도록 준비합니다. 이 메서드는 관리자가 iOS 장치를 Apple Configurator를 실행하는 Mac 컴퓨터에 USB로 연결하도록 하여 등록을 미리 구성합니다. 그러면 설정 도우미 프로세스를 실행하는 사용자에게 장치를 전달하며 회사 또는 학교 자격 증명을 사용하여 장치를 구성하고 등록 프로세스를 완료하게 됩니다. [Apple Configurator 및 설정 도우미를 사용하여 iOS 장치 등록](ios-setup-assistant-enrollment-in-microsoft-intune.md)
+-   **Apple Configurator** - 회사 등록 프로필을 내보낸 후 해당 모바일 장치를 Apple Configurator를 실행하는 Mac에 연결하여 iOS 장치를 등록할 수 있습니다. Apple Configurator는 다음 두 가지 방식의 등록을 지원합니다.
 
--   **직접 등록** – 장치를 준비하는 동안 사용할 수 있도록 Apple Configurator 규격 파일을 만듭니다. 등록된 장치 설정이 공장 기본값으로 복원되지 않았으나 사용자 정보가 없습니다. 이 메서드는 관리자가 iOS 장치를 Apple Configurator를 실행하는 Mac 컴퓨터에 USB로 연결하도록 하여 장치를 등록합니다. [Apple Configurator 직접 등록을 사용하여 iOS 장치 등록](ios-direct-enrollment-in-microsoft-intune.md)
+    - **설치 도우미 등록** – 장치를 공장 기본 설정으로 복원하고 장치의 새 사용자가 설치하도록 준비합니다. 이 메서드는 관리자가 iOS 장치를 Apple Configurator를 실행하는 Mac 컴퓨터에 USB로 연결하도록 하여 등록을 미리 구성합니다. 그러면 설정 도우미 프로세스를 실행하는 사용자에게 장치를 전달하며 회사 또는 학교 자격 증명을 사용하여 장치를 구성하고 등록 프로세스를 완료하게 됩니다. [Apple Configurator 및 설정 도우미를 사용하여 iOS 장치 등록](ios-setup-assistant-enrollment-in-microsoft-intune.md)
+
+    - **직접 등록** – 장치를 준비하는 동안 사용할 수 있도록 Apple Configurator 규격 파일을 만듭니다. 등록된 장치 설정이 공장 기본값으로 복원되지 않았으나 사용자 정보가 없습니다. 이 메서드는 관리자가 iOS 장치를 Apple Configurator를 실행하는 Mac 컴퓨터에 USB로 연결하도록 하여 장치를 등록합니다. [Apple Configurator 직접 등록을 사용하여 iOS 장치 등록](ios-direct-enrollment-in-microsoft-intune.md)
 
 -   **DEP(장치 등록 프로그램)** – Apple의 장치 등록 프로그램을 통해 구매한 장치에 “무선으로” 등록 프로필을 배포합니다. 사용자가 장치에서 설정 도우미를 실행하는 경우 장치는 Intune에 등록됩니다.  DEP를 통해 등록된 장치는 사용자가 등록을 취소할 수 없습니다. [장치 등록 프로그램 iOS 장치 등록](ios-device-enrollment-program-in-microsoft-intune.md)
 
+## 회사 포털을 사용하는 iOS 회사 소유 장치에 대한 사용자 선호도
+
+사용자 선호도로 구성한 장치에서 회사 포털 앱을 설치하고 실행하여 앱을 다운로드하고 장치를 관리할 수 있습니다. 장치를 받은 사용자는 몇 가지 추가 단계를 완료하여 설정 도우미를 완료하고 회사 포털 앱을 설치해야 합니다.
+
+사용자 선호도를 사용하여 회사 소유의 iOS 장치를 등록하는 방법
+1. 사용자가 장치를 켜면 설정 도우미를 완료하라는 메시지가 표시됩니다. 설정하는 동안 자격 증명을 묻는 메시지가 표시됩니다. Intune에서 구독과 연결된 자격 증명(즉, 고유 이름 또는 UPN)을 사용해야 합니다.
+
+2. 설정하는 동안 Apple ID를 묻는 메시지가 표시됩니다. 장치에서 회사 포털을 설치할 수 있도록 Apple ID를 제공해야 합니다. 또한 iOS 설정 메뉴에서 설정을 완료한 후에 Apple ID를 제공할 수도 있습니다.
+
+3. 설정을 완료한 후 iOS 장치에서 앱 스토어의 회사 포털 앱(예: 회사 포털 앱)을 설치해야 합니다.
+
+4. 이제 장치를 설정할 때 사용된 UPN을 사용하여 회사 포털에 로그인할 수 있습니다.
+
+5. 로그인한 후에는 장치를 등록하라는 메시지가 표시됩니다. 첫 번째 단계는 장치를 식별하는 것입니다. 앱에서 이미 회사에 등록되어 최종 사용자의 Intune 계정에 할당된 iOS 장치 목록을 표시합니다. 일치하는 장치를 선택합니다.
+
+  이 장치가 아직 회사에 등록되지 않은 경우 "새 장치"를 선택하여 표준 등록 흐름에 따라 계속 진행합니다.
+
+6. 다음 화면에서 새 장치의 일련 번호를 확인해야 합니다. "일련 번호 확인" 링크를 탭하여 설정 앱을 시작해서 일련 번호를 확인할 수 있습니다. 그런 다음 회사 포털 앱에 일련 번호의 마지막 4자리를 입력해야 합니다.
+
+  이 단계에서는 장치가 Intune에 등록된 회사 장치인지 확인합니다. 장치의 일련 번호와 일치하지 않으면 잘못된 장치를 선택한 것입니다. 이전 화면으로 돌아가서 다른 장치를 선택합니다.
+
+7. 일련 번호를 확인한 후 회사 포털 앱에서 회사 포털 웹 사이트로 리디렉션하여 등록을 마친 후 앱으로 돌아가라는 메시지를 표시합니다.
+
+8. 이제 등록이 완료됩니다. 이제 기능의 전체 집합으로 이 장치를 사용할 수 있습니다.
+
+### 사용자 선호도가 없는, 회사에서 소유하는 관리 장치 정보
+
+사용자 선호도 없음으로 구성된 장치에서는 회사 포털을 지원하지 않으므로 앱을 설치하지 않아야 합니다. 회사 포털은 회사 자격 증명을 갖고 있으며 개인 설정된 회사 리소스(예: 메일)에 대한 액세스 권한이 필요한 사용자를 위해 설계되었습니다. 사용자 선호도 없음으로 등록된 장치의 경우에는 전용 사용자가 로그인할 필요가 없습니다. 키오스크, POS(Point of Sale) 또는 공유 유틸리티 장치는 사용자 선호도 없음으로 등록된 장치에 대한 일반적인 사용 사례입니다. 사용자 선호도가 필요한 경우 장치를 등록하기 전에 장치의 등록 프로필에서 사용자 선호도가 선택되어 있어야 합니다. 장치에 대한 선호도 상태를 변경하려면 장치를 사용 중지한 후 다시 등록해야 합니다.
 
 
 
@@ -39,6 +68,6 @@ Microsoft Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http:/
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

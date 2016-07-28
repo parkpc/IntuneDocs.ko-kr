@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Intune의 도메인 이름 | Microsoft Intune"
-description: 
+description: "Intune에 대한 도메인 이름 추가"
 keywords: 
 author: andredm7
 manager: swadhwa
@@ -13,15 +13,15 @@ ms.assetid: c3c136f0-330d-432a-a91f-16f7dd097e55
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3d99669f90fe7ebec7854b7a800b09b0685c314e
-ms.openlocfilehash: aaede1500f28c6eb8c2a21924d7c3b7f633eca26
+ms.sourcegitcommit: 32723f5b2c92073dda43a0b1f36a48ded0e13ba3
+ms.openlocfilehash: 2adbe1e4a92af5302550a8b78069bc49d725dbc3
 
 
 ---
 
 
 
-# Microsoft Intune을 사용하여 사용자 지정 도메인 관리
+# Microsoft Intune의 사용자 지정 도메인 이름
 
 사용자 지정 도메인을 추가 및 확인하는 단계는 [Azure Active Directory에서도 수행](https://azure.microsoft.com/en-us/documentation/articles/active-directory-add-domain/)할 수 있습니다.
 
@@ -37,15 +37,11 @@ ms.openlocfilehash: aaede1500f28c6eb8c2a21924d7c3b7f633eca26
 2. 탐색 창에서 **설정** &gt; **도메인**을 선택합니다.
 3. **도메인 추가**를 선택하고 사용자 지정 도메인 이름을 입력합니다.
 4. **도메인 확인** 대화 상자가 열리고 DNS 호스팅 공급자에서 TXT 레코드를 만들기 위한 값이 표시됩니다.
-    > [!TIP]
-    > GoDaddy 도메인을 사용하는 경우 Office 365 관리 포털은 사용자를 GoDaddy의 로그인 페이지로 리디렉션합니다. 자격 증명을 입력하고 도메인 변경 권한 계약에 동의하면 TXT 레코드가 자동으로 만들어집니다.
-    > 
-    > 또는 이 단계에서 제공된 값에 따라 [GoDaddy 도메인을 사용할 때 TXT 레코드를 수동으로 만들 수도 있습니다](https://support.office.com/en-us/article/Create-DNS-records-at-GoDaddy-for-Office-365-f40a9185-b6d5-4a80-bb31-aa3bb0cab48a?ui=en-US&rs=en-US&ad=US).
+    - **GoDaddy 사용자**: Office 365 관리 포털은 사용자를 GoDaddy의 로그인 페이지로 리디렉션합니다. 자격 증명을 입력하고 도메인 변경 권한 계약에 동의하면 TXT 레코드가 자동으로 만들어집니다. 또는 [TXT 레코드를 만들](https://support.office.com/en-us/article/Create-DNS-records-at-GoDaddy-for-Office-365-f40a9185-b6d5-4a80-bb31-aa3bb0cab48a?ui=en-US&rs=en-US&ad=US) 수도 있습니다.
+    - **Register.com 사용자**: [단계별 지침](https://support.office.com/en-us/article/Create-DNS-records-at-Register-com-for-Office-365-55bd8c38-3316-48ae-a368-4959b2c1684e?ui=en-US&rs=en-US&ad=US#BKMK_verify)에 따라 TXT 레코드를 만듭니다.
 
-    > [!NOTE]
-    > Register.com 도메인을 사용하는 경우 [단계별 지침](https://support.office.com/en-us/article/Create-DNS-records-at-Register-com-for-Office-365-55bd8c38-3316-48ae-a368-4959b2c1684e?ui=en-US&rs=en-US&ad=US#BKMK_verify)에 따라 이 단계에서 제공된 값을 사용해서 TXT 레코드를 만들어야 합니다.
-
-5. DNS 호스팅 공급자를 변경하는 동안 [Windows 장치 등록](https://docs.microsoft.com/en-us/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)을 위한 DNS 별칭(CNAME)을 만들어야 합니다.
+    > [!TIP] 
+    > DNS 호스팅 공급자를 변경하는 동안 [Windows 장치 등록](/Intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)을 위한 DNS 별칭(CNAME)을 만들어야 합니다.
 
 하이브리드 클라우드 시나리오에서 사용자 지정 도메인 이름을 추가하고, 조직이 해당 이름을 소유하는지 확인한 후에는 온-프레미스 Active Directory에서 사용자 계정 관리를 계속 관리하고 Azure AD와 동기화할 수 있습니다.
 
@@ -60,10 +56,10 @@ ms.openlocfilehash: aaede1500f28c6eb8c2a21924d7c3b7f633eca26
 
 [Office 365의 초기 onmicrosoft.com 도메인 정보](https://support.office.com/en-us/article/About-your-initial-onmicrosoft-com-domain-in-Office-365-B9FC3018-8844-43F3-8DB1-1B3A8E9CFD5A?ui=en-US&rs=en-US&ad=US)
 
-[Microsoft Intune 사용을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)
+[Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

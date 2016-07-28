@@ -1,9 +1,9 @@
 ---
 title: "장치 암호화 | Microsoft Intune"
-description: 
+description: "Android 장치를 암호화하는 방법을 설명합니다."
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/07/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 39bcea03cad061e5b84e073cc5affcdd14fc6015
-ms.openlocfilehash: 22e9071171d2dc63562e94cabe2abdec3b2bd85e
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: a69d4c3432867e3b4a808d71645d6a976a9f1c2e
 
 
 ---
@@ -40,7 +40,7 @@ ms.openlocfilehash: 22e9071171d2dc63562e94cabe2abdec3b2bd85e
 
 **수행할 작업**: 장치에서 PIN 또는 암호를 설정했는지 확인합니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) Microsoft Android 팀(wintunedroidfbk@microsoft.com)으로 전자 메일을 보내세요.
 
 ### 참고 항목
 [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
@@ -48,6 +48,6 @@ ms.openlocfilehash: 22e9071171d2dc63562e94cabe2abdec3b2bd85e
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

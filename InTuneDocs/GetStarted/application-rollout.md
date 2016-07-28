@@ -1,6 +1,6 @@
 ---
 title: "응용 프로그램 출시 | Microsoft Intune"
-description: 
+description: "Microsoft Intune에서 앱의 단계적 출시를 수행하기 위한 권장 사항"
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 0fc32ed3-bcf4-472a-80e7-eb20986f78fa
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
-ms.openlocfilehash: 4a237942b4bc1e411cf55bc34c7b86d2249c526e
+ms.sourcegitcommit: 2427768c0ca73d20140462946ba2984b7999d864
+ms.openlocfilehash: d72247936a0dec8e2e00d107c0d52c1568a92c03
 
 
 ---
@@ -44,7 +44,7 @@ ms.openlocfilehash: 4a237942b4bc1e411cf55bc34c7b86d2249c526e
 
 -   [Microsoft Intune을 사용하여 앱 추가](/intune/deploy-use/add-apps)에 설명된 대로 선택한 앱에 대한 설치 관리자가 Intune 앱 배포에서 지원되는지 확인합니다.
 
--   앱 배포 필수 구성 요소가 설치되어 있는지 확인합니다. <!---, as described in [Plan for app deployment in Microsoft Intune](plan-for-app-deployment-in-microsoft-intune.md--->)을 입력합니다.
+-   앱 배포 필수 구성 요소가 설치되어 있는지 확인합니다. <!---, as described in [Plan for app deployment in Microsoft Intune](plan-for-app-deployment-in-microsoft-intune.md).--->
 
 -   앱 형식이 Intune에서 지원되는지 확인합니다.
 
@@ -95,6 +95,6 @@ ms.openlocfilehash: 4a237942b4bc1e411cf55bc34c7b86d2249c526e
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

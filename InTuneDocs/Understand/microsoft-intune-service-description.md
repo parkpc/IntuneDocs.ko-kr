@@ -1,6 +1,6 @@
 ---
 title: "서비스 설명 | Microsoft Intune"
-description: 
+description: "Intune은 Windows PC와 iOS, Mac OS X, Android 및 Windows 모바일 장치를 관리하는 데 유용한 클라우드 기반 서비스입니다."
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 40fa5a2e-6c0f-4150-9740-d5ddc0cdbda0
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4794a22b3bdd1f28e6951b81e8379dc208fffc89
-ms.openlocfilehash: 6cab0bacd9157323e342662609de8c9f20550d78
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: 98a5013ef42732e6a1a541e128986bedbb004611
 
 
 ---
@@ -34,7 +34,7 @@ Microsoft는 적합한 계획의 적합한 서비스에 대해 Intune 온보딩 
 
 -   [Microsoft Intune의 모바일 장치 관리 기능](/intune/get-started/mobile-device-management-capabilities-in-microsoft-intune)
 
--   [Configuration Manager의 모바일 장치에 대한 일반 설정](https://technet.microsoft.com/en-us/library/dn376523.aspx)
+-   [Configuration Manager의 모바일 장치에 대한 일반 설정](https://technet.microsoft.com/library/dn376523.aspx)
 
 System Center 2012 R2 Configuration Manager에 대한 자세한 내용은 [System Center 2012 Configuration Manager에 대한 문서 라이브러리](https://technet.microsoft.com/library/gg682041.aspx)를 참조하세요.
 
@@ -45,9 +45,10 @@ Intune은 온라인 서비스이므로, Microsoft에서 정기적으로 업데�
 
 Intune 서비스의 변경 내용에 대한 자세한 내용은 [Microsoft Intune의 새로운 기능](/intune/deploy-use/Whats-new-in-microsoft-intune.md)을 참조하세요. [Microsoft Intune 블로그](http://blogs.technet.com/b/microsoftintune/)에서도 서비스 변경 사항에 대해 설명하고 Intune을 최대한 사용할 수 있도록 유용한 팁을 제공합니다.
 
-중요 서비스 업데이트는 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx) 메시지 센터에서도 알려줍니다. 제공된 [Office 365 관리자 모바일 앱](https://support.office.com/en-us/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)을 설치한 경우 모바일 장치에서 알림을 받을 수 있습니다.
+중요 서비스 업데이트는 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx) 메시지 센터에서도 알려줍니다. 제공된 [Office 365 관리자 모바일 앱](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)을 설치한 경우 모바일 장치에서 알림을 받을 수 있습니다.
 
-> [!NOTE] 또한 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx)에서 Intune 서비스 상태를 모니터링할 수 있습니다. 왼쪽 창에서 **서비스 상태**를 선택합니다.  
+> [!NOTE]
+> 또한 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx)에서 Intune 서비스 상태를 모니터링할 수 있습니다. 왼쪽 창에서 **서비스 상태**를 선택합니다.  
 
 다음은 Microsoft가 Intune 서비스에 관하여 제공하는 알림 유형입니다.
 -   서비스 변경을 계획하도록 돕기 위해 변경 사항의 영향에 따라 서비스 업그레이드 전 최소 30-90일에 알립니다. 이러한 알림은 게시판 경고와 같은 제품 간 통신 채널을 사용하여 수행됩니다. 이러한 변경 사항은 다음을 포함할 수 있습니다.
@@ -82,6 +83,6 @@ Intune 서비스의 변경 내용에 대한 자세한 내용은 [Microsoft Intun
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

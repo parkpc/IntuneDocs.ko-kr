@@ -1,6 +1,6 @@
 ---
 title: "Dynamics CRM Online에 대한 메일 액세스 제한 | Microsoft Intune"
-description: 
+description: "조건부 액세스로 Dynamics CRM Online을 보호하고 액세스를 제어합니다."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
-ms.sourcegitcommit: 89e522a99687fc9b6e82db9f721858d17afdce6a
-ms.openlocfilehash: 8f90f99d621d7edebcb7a4c67e0774da59098df7
+translationtype: Human Translation
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: cbcf2c8d923524b8a1993140fbec0234740075ae
 
 
 ---
@@ -54,9 +55,11 @@ Dynamics CRM 정책에 사용할 두 가지 그룹 유형을 지정할 수 있�
 ### 2단계: 준수 정책 구성 및 배포
 정책의 영향을 받을 모든 장치에 규정 준수 정책을 [만들고](create-a-device-compliance-policy-in-microsoft-intune.md) [배포](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)합니다. 대상 그룹에서 사용자가 사용하는 모든 장치가 됩니다.
 
-> [!NOTE] 규정 준수 정책을 Microsoft Intune 그룹에 배포하는 동안 Azure Active Directory 보안 그룹을 조건부 액세스 정책의 대상으로 합니다.
+> [!NOTE]
+> 규정 준수 정책을 Microsoft Intune 그룹에 배포하는 동안 Azure Active Directory 보안 그룹을 조건부 액세스 정책의 대상으로 합니다.
 
-> [!IMPORTANT] 규정 준수 정책을 배포하지 않은 경우 장치는 준수하는 것으로 간주됩니다.
+> [!IMPORTANT]
+> 규정 준수 정책을 배포하지 않은 경우 장치는 준수하는 것으로 간주됩니다.
 
 준비가 되었으면 3단계를 계속합니다.
 ### 3단계: Dynamics CRM 정책 구성
@@ -94,6 +97,6 @@ Dynamics CRM 정책에 사용할 두 가지 그룹 유형을 지정할 수 있�
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO3-->
 
 

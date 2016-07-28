@@ -1,9 +1,9 @@
 ---
 title: "Intune에서 iOS 또는 Mac OS X 장치 사용 | Microsoft Intune"
-description: 
+description: "Intune에서 장치가 등록될 때 iOS 또는 Mac OS X 모바일 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/03/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 24573d04c319e359b810b6fdf607b44db19306e9
-ms.openlocfilehash: bf298bace896a666d1f2992f2921ebf5a15f05f7
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 6c3d8b3a64d98357b7aac2a9f000ca33125c1858
 
 
 ---
@@ -50,7 +50,7 @@ ms.openlocfilehash: bf298bace896a666d1f2992f2921ebf5a15f05f7
 
 이 섹션의 정보는 Intune에 iOS 장치가 등록된 경우 발생할 수 있는 문제를 해결하는 데 도움이 됩니다.
 
-- [손상된 iOS 장치를 다시 연결하는 방법](how-to-reconnect-a-compromised-ios-device)
+- [손상된 iOS 장치를 다시 연결하는 방법](how-to-reconnect-a-compromised-ios-device.md)
 - [IT 관리자에게 오류 보내기](send-errors-to-your-it-admin-ios.md)
 - [회사 포털 앱을 사용하는 동안 오류가 발생하는 경우](you-get-an-error-while-using-the-company-portal-app-ios.md)
 - [Intune에서 장치를 등록하는 동안 오류가 발생하는 경우](you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md)
@@ -63,6 +63,6 @@ ms.openlocfilehash: bf298bace896a666d1f2992f2921ebf5a15f05f7
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

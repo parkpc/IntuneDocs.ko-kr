@@ -1,27 +1,27 @@
 ---
-title: "Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요? | Microsoft Intune"
+title: "Intune에서 회사 포털 앱을 설치하고 iOS 또는 Mac OS X 장치를 등록하면 어떻게 되나요? | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 7/7/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a2467c02-aac5-41c8-b788-cbda830941ef
-ROBOTS: 
+ROBOTS: noindex,nofollow
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: a83edd3ed51bddafd6f057ed9ae2bb0958c88fe4
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: f07eaf82a3bd8fc7fb47032642b30850fcbbb30d
 
 
 ---
 
 
-# Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?
+# Intune에서 회사 포털 앱을 설치하고 iOS 또는 Mac OS X 장치를 등록하면 어떻게 되나요?
 
 Intune에서 회사 포털 앱을 설치하고 iOS 또는 Mac OS X 장치를 등록하면, 다음과 같은 용도로 회사 포털 앱을 사용할 수 있습니다.
 
@@ -29,9 +29,9 @@ Intune에서 회사 포털 앱을 설치하고 iOS 또는 Mac OS X 장치를 등
 
 -   회사 포털에서 회사 앱 가져오기
 
--   회사 메일 계정을 자동으로 구성
+-   분실하거나 도난당한 경우 전화를 공장 설정으로 원격 초기화
 
--   분실하거나 도난당한 경우 전화를 공장 설정으로 다시 설정
+-   회사 메일 계정을 자동으로 구성
 
 Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하는 데 도움이 되도록 장치를 관리할 수 있는 권한을 IT 관리자에게 부여하는 것입니다.
 
@@ -64,8 +64,6 @@ Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하�
 -   Owner
 
 -   장치 이름
-
--   제조업체
 
 장치가 등록되면 IT 관리자가 다음 작업을 수행할 수 있습니다.
 
@@ -101,6 +99,6 @@ Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하�
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

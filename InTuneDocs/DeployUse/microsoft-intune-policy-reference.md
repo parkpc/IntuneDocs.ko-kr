@@ -1,27 +1,27 @@
 ---
-title: "Microsoft Intune 정책 참조 | Microsoft Intune"
-description: 
+title: "구성 정책 참조 | Microsoft Intune"
+description: "장치를 관리하는 데 사용해야 하는 Microsoft Intune 정책을 결정할 수 있도록 이 항목의 정보를 사용합니다."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d27f2739-9791-4aae-a9db-01a4e59ccfe5
-ms.reviewer: jeffgilb
+ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: 3d9e03a3c89af72caeaa9c9c47426f331adb0fca
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: cce19141ef25a8cca785d6ae80d1fe03ab352a8e
 
 
 ---
 
 # Microsoft Intune 정책 참조
 
-장치를 관리하는 데 사용해야 하는 Microsoft Intune 정책을 결정할 수 있도록 이 항목의 정보를 사용합니다.
+장치를 관리하는 데 사용해야 하는 Microsoft Intune 구성 정책을 결정할 수 있도록 이 항목의 정보를 사용합니다.
 
 > [!TIP]
 > 정책을 사용하는 방법에 대한 자세한 내용은 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md) 항목을 참조하세요.
@@ -47,11 +47,14 @@ ms.openlocfilehash: 3d9e03a3c89af72caeaa9c9c47426f331adb0fca
 |**사용자 지정 구성(iOS 7.1 이상)**|Apple Configurator 도구를 사용하여 만든 구성 프로필을 iOS 장치에 배포합니다. 필요한 설정을 구성 정책에서 사용할 수 없는 경우에 유용합니다.<br /><br />자세한 내용은 [Microsoft Intune의 iOS 정책 설정](ios-policy-settings-in-microsoft-intune.md)을 참조하세요.|
 |**메일 프로필(iOS 7.1 이상)**|관리되는 장치에서 Exchange ActiveSync 메일 설정을 만들고 배포하고 모니터링합니다. 그러면 사용자가 설정할 필요 없이 개인 장치에서 회사 메일에 액세스할 수 있습니다.<br /><br />자세한 내용은 [Microsoft Intune에서 메일 프로필을 사용하여 회사 메일에 대한 액세스 구성](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)을 참조하세요.|
 |**일반 구성(iOS 7.1 이상)**|모바일 장치 보안 및 기능 설정을 구성합니다.<br />-   호환 또는 호환되지 않는 앱을 지정하고 사용되는 경우를 보고합니다.<br />장치를 잠가 특정 기능만 작동하도록 하는(예: 장치에서 하나의 앱만 실행되도록 하거나 볼륨 단추를 사용할 수 없도록 설정함) 키오스크 모드를 구성합니다.<br /><br />자세한 내용은 [Microsoft Intune의 iOS 정책 설정](ios-policy-settings-in-microsoft-intune.md)을 참조하세요.|
+|**모바일 앱 구성 정책(iOS 7.1 이상)**|모바일 앱 구성 정책을 사용하여 사용자가 iOS 앱을 실행할 때 필요할 수 있는 설정을 자동으로 제공할 수 있습니다.<br /><br />자세한 내용은 [Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)을 참조하세요.|
+|**모바일 프로비전 프로필 정책(iOS 7.1 이상)**|Apple iOS 기간 업무(LOB) 모바일 앱은 프로비전 프로필을 포함하고 인증서로 코드에 서명하여 빌드됩니다. 앱이 iOS 장치에서 실행되면 iOS는 iOS 앱의 무결성을 확인하고 프로비전 프로필에 정의된 정책을 적용합니다.<br><br>일반적으로 앱에 서명하기 위해 사용하는 엔터프라이즈 서명 인증서는 3년 동안 유지됩니다. 그러나 프로비전 프로필은 1년 후에 만료됩니다. 이 정책을 사용하면 인증서가 여전히 유효한 동안 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필 정책을 미리 배포할 수 있습니다.<br><br>자세한 내용은 [iOS 프로비전 프로필 정책을 사용하여 모바일 앱이 만료되지 않도록 방지](ios-mobile-app-provisioning-profiles.md)를 참조하세요.|
+|**PKCS #12(.PFX) 인증서 프로필(iOS 7.1 이상)**|장치 인증서 요청용으로 PFX 설정을 만들어 배포하려면 이 프로필을 사용합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|
 |**SCEP 인증서 프로필(iOS 7.1 이상)**|모바일 장치 인증에 사용하는 신뢰할 수 있는 모바일 장치 인증서와 함께 사용할 수 있는 단순 인증서 등록 프로토콜 인증서를 구성하여 Wi-Fi 및 VPN 프로필을 통해 구성된 네트워크 리소스에 대한 액세스를 허용합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|
 |**신뢰할 수 있는 인증서 프로필(iOS 7.1 이상)**|모바일 장치 인증에 사용할 수 있는 신뢰할 수 있는 모바일 장치 인증서를 구성하여 Wi-Fi 및 VPN 프로필을 통해 구성된 네트워크 리소스에 대한 액세스를 허용합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|
 |**VPN 프로필(iOS 7.1 이상)**|사용자가 모바일 장치에서 회사 네트워크에 안전하게 액세스할 수 있도록 해주는 설정을 구성하고 배포합니다. 이러한 설정을 배포하여 최종 사용자가 회사에 연결하는 데 필요한 노력을 최소화할 수 있습니다.<br /><br />자세한 내용은 [Microsoft Intune.md에서 VPN 연결](vpn-connections-in-microsoft-intune.md)를 참조하세요.|
 |**Wi-Fi 프로필(iOS 7.1 이상)**|무선 네트워크 설정을 구성하고 조직의 사용자에게 배포합니다. 이러한 설정을 배포하여 최종 사용자가 무선 네트워크에 연결하는 데 필요한 노력을 최소화할 수 있습니다.<br /><br />자세한 내용은 [Microsoft Intune에서 Wi-Fi 연결](wi-fi-connections-in-microsoft-intune.md)를 참조하세요.|
-|**모바일 앱 구성 정책(iOS 7.1 이상)**|모바일 앱 구성 정책을 사용하여 사용자가 iOS 앱을 실행할 때 필요할 수 있는 설정을 자동으로 제공할 수 있습니다.<br /><br />자세한 내용은 [Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)을 참조하세요.|
+
 
 ## Mac OS X 구성 정책
 
@@ -80,8 +83,10 @@ Windows Phone 및 등록된 Windows 장치에만 적용됩니다.
 |**PKCS #12(.PFX) 인증서 프로필(Windows 10 Desktop 및 Mobile 이상)**|장치 인증서 요청용으로 PFX 설정을 만들어 배포하려면 이 프로필을 사용합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|
 |**SCEP 인증서 프로필(Windows 8.1 이상)**<br /><br />**SCEP 인증서 프로필(Windows Phone 8.1 이상)**|모바일 장치 인증에 사용하는 신뢰할 수 있는 모바일 장치 인증서와 함께 사용할 수 있는 단순 인증서 등록 프로토콜 인증서를 구성하여 Wi-Fi 및 VPN 프로필을 통해 구성된 네트워크 리소스에 대한 액세스를 허용합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|
 |**신뢰할 수 있는 인증서 프로필(Windows 8.1 이상)**<br /><br />**신뢰할 수 있는 인증서 프로필(Windows Phone 8.1 이상)**|모바일 장치 인증에 사용할 수 있는 신뢰할 수 있는 모바일 장치 인증서를 구성하여 Wi-Fi 및 VPN 프로필을 통해 구성된 네트워크 리소스에 대한 액세스를 허용합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|
-|**VPN 프로필(Windows 10 Desktop 및 Mobile 이상)**<br /><br />**VPN 프로필(Windows 8.1 이상)**<br /><br />**VPN 프로필(Windows Phone 8.1 이상)**|사용자가 모바일 장치에서 회사 네트워크에 안전하게 액세스할 수 있도록 해주는 설정을 구성하고 배포합니다. 이러한 설정을 배포하여 최종 사용자가 회사에 연결하는 데 필요한 노력을 최소화할 수 있습니다.<br /><br />자세한 내용은 [Microsoft Intune.md에서 VPN 연결](vpn-connections-in-microsoft-intune.md)를 참조하세요.|
+|**VPN 프로필(Windows 10 Desktop 및 Mobile 이상)**<br /><br />**VPN 프로필(Windows 8.1 이상)**<br /><br />**VPN 프로필(Windows Phone 8.1 이상)**|사용자가 모바일 장치에서 회사 네트워크에 안전하게 액세스할 수 있도록 해주는 설정을 구성하고 배포합니다. 이러한 설정을 배포하여 최종 사용자가 회사에 연결하는 데 필요한 노력을 최소화할 수 있습니다.<br /><br />자세한 내용은 [Microsoft Intune에서 VPN 연결](vpn-connections-in-microsoft-intune.md)을 참조하세요.|
 |**Wi-Fi 가져오기**|이전에 파일로 내보낸 Windows Wi-Fi 구성을 가져와서 배포합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 Wi-Fi 연결](wi-fi-connections-in-microsoft-intune.md)를 참조하세요.|
+|**Windows 정보 보호**<br>(이전의 엔터프라이즈 데이터 보호)|기업에서 직원 소유 장치가 증가하면서 전자 메일, 소셜 미디어 및 공용 클라우드처럼 기업의 관리 영역을 벗어나는 앱 및 서비스를 통해 실수로 데이터가 유출될 위험이 높아지고 있습니다. 예를 들어 직원이 자신의 개인 전자 메일 계정에서 최신 엔지니어링 사진을 전송하거나, 제품 정보를 복사한 후 트윗에 붙여넣거나, 진행 중인 판매 보고서를 해당 공용 클라우드 저장소에 저장하는 경우가 있습니다.<br><br>Windows 정보 보호는 직원 환경을 방해하지 않으면서 이러한 잠재적인 데이터 유출로부터 보호하는 데 도움이 됩니다. 또한 작업 환경이나 기타 앱을 변경하지 않고도 엔터프라이즈 앱 및 데이터가 회사 소유 장치 및 직원이 회사에 가져오는 개인 장치에서 실수로 누출되지 않도록 보호하는 데도 유용합니다.<br><br>이 Intune 정책은 Windows 정보 보호, 엔터프라이즈 네트워크 위치, 보호 수준 및 암호화 설정으로 보호되는 앱 목록을 관리합니다.<br><br>자세한 내용은 [Windows 정보 보호를 사용하여 엔터프라이즈 데이터 보호](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-edp)를 참조하세요.|
+
 
 ## 소프트웨어 정책
 
@@ -129,7 +134,6 @@ Windows Phone 및 등록된 Windows 장치에만 적용됩니다.
 
 
 
-
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Intune의 Exchange ActiveSync 정책 설정 | Microsoft Intune
-description:
-keywords:
+title: "Exchange ActiveSync 정책 설정 | Microsoft Intune"
+description: "Intune Exchange ActiveSync 정책을 사용하여 Exchange ActiveSync에 의해 관리되는 장치에서 특징과 기능을 제어할 수 있도록 해주는 설정을 구성할 수 있습니다."
+keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: e9cbb826-b155-4df6-abf3-60c6f05b2783
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: heenamac
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 7cdb34c469d2932deb10deec592a899b9848226a
+
 
 ---
 
@@ -47,11 +41,11 @@ Microsoft Intune **Exchange ActiveSync** 정책을 사용하여 Exchange ActiveS
 
 |설정 이름|세부 정보|
 |----------------|
-|**모바일 장치 암호화 필요**<sup>1</sup>|지원되는 경우 암호화해야 하는 장치의 데이터가 필요합니다.<br>Windows Phone 8 장치의 경우 이 옵션을 **예**로 설정해야 합니다..<br /><br />iOS 장치에서 암호화를 사용하도록 설정하려면 **모바일 장치를 잠금 해제하기 위해 암호 필요**설정을 사용하도록 설정합니다..|
+|**모바일 장치 암호화 필요**<sup>1</sup>|지원되는 경우 암호화해야 하는 장치의 데이터가 필요합니다.<br>Windows Phone 8 장치의 경우 이 옵션을 **예**로 설정해야 합니다.<br /><br />iOS 장치에서 암호화를 사용하도록 설정하려면 **모바일 장치를 잠금 해제하기 위해 암호 필요**설정을 사용하도록 설정합니다.|
 |**메모리 카드 암호화 필요**|(지원되는 장치에서) 암호화될 SD 카드와 같은 외부 저장소에 저장된 데이터가 필요합니다.
 <sup>1</sup> Windows 8.1을 실행하는 장치에 대한 추가 정보
 
--   Windows 8.1을 실행하는 장치에 암호화를 적용하려면 각 장치에 [Windows용 December 2014 MDM 클라이언트 업데이트](http://support.microsoft.com/kb/3013816)를 설치해야 합니다.
+-   Windows 8.1을 실행하는 장치에 암호화를 적용하려면 각 장치에 [Windows용 December 2014 MDM 클라이언트 업데이트](http://support.microsoft.com/kb/3013816) 를 설치해야 합니다.
 
 -   Windows 8.1 장치에 대해 이 설정을 사용하도록 설정하려면 장치의 모든 사용자가 Microsoft 계정을 가지고 있어야 합니다.
 
@@ -86,6 +80,7 @@ Microsoft Intune **Exchange ActiveSync** 정책을 사용하여 Exchange ActiveS
 
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO3-->
 
 

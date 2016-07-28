@@ -1,10 +1,10 @@
 ---
 title: "Windows 팀 구성 정책 설정 | Microsoft Intune"
-description: 
+description: "Microsoft Intune **Windows 10 Team 일반 구성 정책**을 사용하여 Microsoft Surface Hub와 같은 등록된 Windows 10 Team 장치에 대한 설정을 구성합니다."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 38194ef3-e26e-4682-958d-14b395fccba1
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 42e21b802fb605c98f688485c3b77703b3950e94
-ms.openlocfilehash: b08d52289b94429b1328a7470469a7efdf4d46a7
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: b70c935fb5c4525fddf7e36e8421ba14e3c15026
 
 
 ---
@@ -39,6 +39,6 @@ Microsoft Intune **Windows 10 Team 일반 구성 정책**을 사용하여 Micros
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

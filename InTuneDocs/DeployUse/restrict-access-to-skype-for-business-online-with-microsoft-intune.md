@@ -1,10 +1,10 @@
 ---
 title: "비즈니스용 Skype Online에 대한 액세스 제한 | Microsoft Intune"
-description: 
+description: "조건부 액세스로 비즈니스용 Skype Online을 보호하고 액세스를 제어합니다."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 ms.reviewer: chrisgre
 ms.suite: ems
-ms.sourcegitcommit: 5cbf748ffee8fbb53f7e64a5499f06d5bd89c415
-ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
+translationtype: Human Translation
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 693feee133a594032c0edc69f03f65681bacfb81
 
 
 ---
@@ -32,7 +33,7 @@ ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
 비즈니스용 Skype Online에 대한 조건부 액세스 정책을 구성하기 **전에** 다음을 수행해야 합니다.
 - **비즈니스용 Skype Online 구독**이 있고 비즈니스용 Skype Online 라이선스를 사용자에게 할당해야 합니다.
 - **Enterprise Mobility Suite** 또는 **Azure Active Directory Premium**에 대한 구독이 있어야 합니다.
--   비즈니스용 Skype Online에 대해 [최신 인증을 사용하도록 설정](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune)합니다. 
+-   비즈니스용 Skype Online에 대해 [최신 인증을 사용하도록 설정](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune)합니다.
 -  모든 최종 사용자가 **비즈니스용 Skype Online**을 사용 중이어야 합니다. 비즈니스용 Skype Online과 비즈니스용 Skype 온-프레미스를 함께 배포한 경우 최종 사용자에게 조건부 액세스 정책이 적용되지 않습니다.
 
     비즈니스용 Skype Online에 액세스해야 하는 장치는 다음과 같아야 합니다.
@@ -69,11 +70,11 @@ ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
 정책의 영향을 받을 모든 장치에 규정 준수 정책을 [만들고](create-a-device-compliance-policy-in-microsoft-intune.md) [배포](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)합니다. **대상 그룹**에서 사용자가 사용하는 모든 장치가 됩니다.
 
 > [!NOTE]
-> [!NOTE]규정 준수 정책을 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 그룹에 배포하는 동안 Azure Active Directory 보안 그룹을 조건부 액세스 정책의 대상으로 합니다.
+> 규정 준수 정책을 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 그룹에 배포하는 동안 Azure Active Directory 보안 그룹을 조건부 액세스 정책의 대상으로 합니다.
 
 
 > [!IMPORTANT]
-> [!IMPORTANT] 규정 준수 정책을 배포하지 않은 경우 장치는 준수하는 것으로 간주됩니다.
+> 규정 준수 정책을 배포하지 않은 경우 장치는 준수하는 것으로 간주됩니다.
 
 준비가 되었으면 **3단계**를 계속합니다.
 
@@ -115,6 +116,6 @@ ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

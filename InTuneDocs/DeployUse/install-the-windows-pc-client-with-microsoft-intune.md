@@ -1,20 +1,20 @@
 ---
-title: "Microsoft Intune을 사용하여 Windows PC 클라이언트 설치 | Microsoft Intune"
-description: 
+title: "Windows PC 클라이언트 설치 | Microsoft Intune"
+description: "이 가이드를 사용하여 Microsoft Intune 클라이언트 소프트웨어에서 관리되는 Windows PC를 얻을 수 있습니다."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
-ms.reviewer: jeffgilb
+ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1bdcfa71aab0918fba1f59bd0782fc63eef6994e
-ms.openlocfilehash: 723bef398338946e085e9d04d57a85b433ebc1c8
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: 3cb693eff7545fe4de8e5c082cfa3ab088c005db
 
 
 ---
@@ -35,8 +35,6 @@ Intune 클라이언트 소프트웨어를 설치하기 전에 [GPO 및 Microsoft
 -   [클라이언트 소프트웨어를 수동으로 배포하려면](#to-manually-deploy-the-client-software)
 
 -   [그룹 정책을 사용하여 클라이언트 소프트웨어를 자동으로 배포하려면](#to-automatically-deploy-the-client-software-by-using-group-policy)
-
--   [컴퓨터를 직접 등록하는 방법](#how-users-can-self-enroll-their-computers)
 
 -   [이미지의 일부로 Microsoft Intune 클라이언트 소프트웨어 설치](#install-the-microsoft-intune-client-software-as-part-of-an-image)
 
@@ -81,28 +79,6 @@ Intune 클라이언트 소프트웨어를 설치하기 전에 [GPO 및 Microsoft
 3.  그룹 정책을 사용하여 네트워크의 컴퓨터에 소프트웨어를 배포합니다.
 
     그룹 정책을 사용하여 소프트웨어를 자동으로 배포하는 방법에 대한 자세한 내용은 Windows Server 문서를 참조하십시오.
-
-### 컴퓨터를 직접 등록하는 방법
-Intune 회사 포털을 통해 사용자는 각 컴퓨터를 자체 등록 할 수 있습니다. 등록된 각 컴퓨터는 클라이언트 소프트웨어를 설치하는 데 사용되는 사용자 계정에 연결됩니다.
-
-> [!NOTE]
-> -   클라이언트 소프트웨어를 설치하려면 사용자가 컴퓨터의 관리자여야 합니다.
-> -   직접 등록하려면 클라이언트 컴퓨터에 Internet Explorer가 설치되어 있어야 합니다.
-> -   사용자가 컴퓨터를 직접 등록할 때마다 Intune 라이선스가 사용됩니다.
-> -   컴퓨터를 직접 등록할 때에는 회사 또는 학교 계정을 사용해야 합니다. Microsoft 계정으로는 컴퓨터를 직접 등록할 수 없습니다.
-> -   클라이언트 소프트웨어가 이미 컴퓨터에 설치되어 있는 경우에는 오류가 발생합니다.
-
-### 컴퓨터(최종 사용자에 대한 정보)를 직접 등록하려면
-
-1.  등록하려는 컴퓨터에서 회사 포털에 로그온합니다.
-
-2.   **장치 추가**를 클릭합니다.
-
-3.   **소프트웨어 다운로드** 를 클릭한 후 **실행**을 클릭합니다.
-
-4.  **다음**을 클릭하여 Microsoft Intune 설치 마법사를 시작합니다.
-
-5.  설치 마법사가 완료되면 **마침**을 클릭합니다.
 
 ### 이미지의 일부로 Microsoft Intune 클라이언트 소프트웨어 설치
 다음 예제 절차를 기본 절차로 사용하여 운영 체제 이미지의 일부로 Intune 클라이언트 소프트웨어를 컴퓨터에 배포할 수 있습니다.
@@ -158,10 +134,11 @@ Windows 설치 프로그램 완료 시 대상 컴퓨터가 다시 시작되면 *
 
 
 ### 참고 항목
-[Microsoft Intune을 사용하여 Windows PC 관리](manage-windows-pcs-with-microsoft-intune.md)
+[Microsoft Intune으로 Windows PC 관리](manage-windows-pcs-with-microsoft-intune.md)
+[클라이언트 설정 문제 해결](../troubleshoot/troubleshoot-client-setup-in-microsoft-intune)
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

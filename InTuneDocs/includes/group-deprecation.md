@@ -1,11 +1,7 @@
-> [!NOTE]
-> 8월부터 장치 그룹 관리가 Azure Active Directory로 이동됩니다. **Azure Active Directory 그룹으로 전환된 후에는 그룹 할당이 회사 등록 프로필 옵션에 나타나지 않습니다.** 몇 개월간에 걸쳐 변경이 진행되기 때문에 아직 콘솔에서 변경 사항을 볼 수 없을 것입니다.
-
-> **회사 등록 프로필**은 Apple의 장치 등록 프로그램 또는 Apple Configurator 도구를 통해 iOS 장치를 등록하는 데 필요합니다.
-
->회사 등록 프로필 이름에 따라 Azure Active Directory에서 새 동적 장치 그룹 할당을 정의할 수 있습니다. 새 동적 장치 그룹 할당을 정의하면 장치 그룹에 미리 할당된 장치가 정책과 앱이 배포된 상태에서 그룹에 자동으로 등록됩니다. 자세한 내용은 곧 발표될 예정입니다.
+>[!Important]
+>그룹 할당이 Intune에서 Azure Active Directory로 이동됩니다. 이 업데이트가 있는 Intune 계정에는 **다음 그룹에 장치 할당** 옵션이 표시되지 않습니다. [자세한 정보](../deploy-use/ios-device-enrollment-program-in-microsoft-intune#changes-to-intune-group-assignments)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

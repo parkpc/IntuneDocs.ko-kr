@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 회사 리소스 액세스 문제 해결 | Microsoft Intune
-description:
-keywords:
+title: "회사 리소스 액세스 문제 해결 | Microsoft Intune"
+description: "이 항목의 오류 및 상태 코드는 리소스 액세스 문제를 해결하는 데 도움이 됩니다."
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 40622ced-6029-4abf-873e-b51d2b51934c
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: 9a4dce9d7b963e03ceeeba35ba1e529384f42d06
+
 
 ---
 
@@ -374,9 +368,10 @@ Microsoft Intune 작업이 오류 코드를 반환하는 경우, 문제 해결�
 |-2016346011|0x87D10065|지정된 SyncML 명령이 수행 중이지만 아직 완료되지 않았습니다.|
 
 ### 다음 단계
-문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라, Microsoft 지원에 문의하세요..
+문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO3-->
 
 

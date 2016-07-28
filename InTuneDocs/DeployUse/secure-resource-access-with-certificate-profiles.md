@@ -1,10 +1,10 @@
 ---
-title: "인증서 프로필을 사용하여 회사 리소스에 대한 액세스 사용 | Microsoft Intune"
-description: 
+title: "리소스 액세스에 대한 인증서 프로필 | Microsoft Intune"
+description: "각 사용자 장치에 설치된 인증서를 사용하여 VPN, Wi-Fi 및 전자 메일 액세스를 보호합니다."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: Arob98
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 8cbb8499-611d-4217-a7b4-e9b864785dd0
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 79617dd41e51402a73759da792f581028095a2f5
-ms.openlocfilehash: 1d2e6676714daba76a9b54553b4ad1af23a0f880
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: c8158b6a54347f6bec1008142eed44daca8946d0
 
 
 ---
@@ -47,7 +47,7 @@ VPN, Wi-Fi 또는 메일 프로필을 통해 회사 리소스에 액세스할 �
 > -    엔터프라이즈 인증 기관이 없는 경우 새로 만들어야 합니다.
 >- 장치 플랫폼에 따라 SCEP(Simplified Certificate Enrollment Protocol) 프로필을 사용하기로 결정한 경우 NDES(네트워크 장치 등록 서비스) 서버도 구성해야 합니다.
 >-  SCEP 프로필을 사용하든, 아니면 .PFX 프로필을 사용하든 간에 Microsoft Intune 인증서 커넥터를 다운로드하고 구성해야 합니다.
-> 이러한 모든 내용의 구성은 [인증서 인프라 구성](configure-certificate-infrastructure.md) 항목에서 설명합니다.
+> 이러한 모든 항목의 구성은 [SCE 인증서 인프라 구성](configure-certificate-infrastructure-for-scep.md) 및 [PFX 인증서 인프라 구성](configure-certificate-infrastructure-for-pfx.md)에 나와 있습니다.
 
 ### 다음 단계
 - [SCEP 인증서 인프라 구성](configure-certificate-infrastructure-for-scep.md)
@@ -56,6 +56,6 @@ VPN, Wi-Fi 또는 메일 프로필을 통해 회사 리소스에 액세스할 �
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

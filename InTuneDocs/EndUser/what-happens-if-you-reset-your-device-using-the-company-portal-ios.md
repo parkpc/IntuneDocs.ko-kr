@@ -1,27 +1,27 @@
 ---
-title: "회사 포털을 사용하여 장치를 재설정하면 어떻게 되나요? | Microsoft Intune"
+title: "회사 포털을 사용하여 iOS 장치를 다시 설정하면 어떻게 되나요? | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: db99c3eb-4813-4c8b-8e32-958e983b7f0f
-ROBOTS: 
+ROBOTS: noindex,nofollow
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: a9512738cd48438d85c7a98b0d533fbe6e6b8ba2
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 6f7ad227a4b129ae75891813da8795ac7b257e3d
 
 
 ---
 
 
-# 회사 포털을 사용하여 장치를 재설정하면 어떻게 되나요?
+# 회사 포털을 사용하여 iOS 장치를 다시 설정하면 어떻게 되나요?
 
 회사 포털을 사용하여 iPhone 또는 iPad를 초기화하면 몇 가지 개인 데이터를 비롯하여 장치의 일부 앱과 설정이 삭제될 수 있습니다. 각 장치에 발생하는 상황은 다음 목록에 설명된 것과 같이 장치 사용 방법에 따라 달라집니다.
 
@@ -43,6 +43,6 @@ ms.openlocfilehash: a9512738cd48438d85c7a98b0d533fbe6e6b8ba2
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

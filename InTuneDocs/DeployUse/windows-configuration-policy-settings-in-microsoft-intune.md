@@ -1,32 +1,32 @@
 ---
-# required metadata
-
-title: Microsoft Intune의 Windows 정책 설정 | Microsoft Intune
-description:
-keywords:
+title: "Windows 정책 설정 | Microsoft Intune"
+description: "Intune Windows 일반 구성 정책(Windows 8.1 이상)을 사용하여 등록된 Windows 8.1 및 Windows 8 장치에 대한 설정을 구성합니다."
+keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 6982a2bc-aafa-475a-9236-4840b709e5a1
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: a70b81e490a5c55d9ce11bd8dbdfc42ab364273c
+
 
 ---
 
 # Microsoft Intune의 Windows 정책 설정
-Microsoft Intune **Windows 일반 구성 정책**을 사용하여 등록된 Windows 8 및 Windows 8.1 장치에 대한 설정 구성:
+Microsoft Intune **Windows 일반 구성 정책(Windows 8.1 이상)**을 사용하여 등록된 Windows 8.1 및 Windows 8 장치에 대한 다음 설정을 구성합니다.
+
+## 적용 가능성 설정
+
+|설정 이름|세부 정보|
+|----------------|----------------------------------|
+|**모든 구성을 Windows 10에 적용**|이 정책의 설정을 Windows 8 및 Windows 8.1 장치 외에도 Windows 10 장치에 적용할 수 있습니다.|
 
 ## 보안 설정
 
@@ -47,7 +47,7 @@ Microsoft Intune **Windows 일반 구성 정책**을 사용하여 등록된 Wind
 
 |설정 이름|세부 정보|Windows 8.1 및 Windows RT 8.1|Windows RT|
 |----------------|----------------------------------|--------------|
-|**모바일 장치 암호화 필요**<sup>1</sup>|장치의 파일을 암호화해야 합니다.<br>Windows Phone 8 장치의 경우 이 옵션을 **예**로 설정해야 합니다..|예|아니요|
+|**모바일 장치 암호화 필요**<sup>1</sup>|장치의 파일을 암호화해야 합니다.<br>Windows Phone 8 장치의 경우 이 옵션을 **예**로 설정해야 합니다.|예|아니요|
 <sup>1</sup> Windows 8.1을 실행하는 장치에 대한 추가 정보
 
 -   Windows 8.1을 실행하는 장치에 암호화를 적용하려면 각 장치에 [Windows용 December 2014 MDM 클라이언트 업데이트](http://support.microsoft.com/kb/3013816) 를 설치해야 합니다.
@@ -119,6 +119,7 @@ Microsoft Intune **Windows 일반 구성 정책**을 사용하여 등록된 Wind
 
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO3-->
 
 

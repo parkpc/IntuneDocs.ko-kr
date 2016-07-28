@@ -1,6 +1,6 @@
 ---
 title: "MAM 정책 만들기 및 배포 | Microsoft Intune"
-description: 
+description: "이 항목의 단계별 지침에 따라 모바일 앱 관리 정책을 만들고 배포합니다."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
-ms.sourcegitcommit: 3f79de38ce7fc9a5434033ee45ddf43f22517356
-ms.openlocfilehash: f1b9216c673039f8600e07508b255e12cc30bf3f
+translationtype: Human Translation
+ms.sourcegitcommit: 3c3fe3f55b625754eac44d245d7c5065514af25c
+ms.openlocfilehash: 4eb126a89249e796944786bfe0274366fc8982c4
 
 
 ---
@@ -26,10 +27,12 @@ MAM(모바일 앱 관리) 정책은 Intune에서 관리하거나 관리하지 �
 - 타사 MDM 솔루션에서 관리되는 장치
 - MDM 솔루션(BYOD)에서 관리되지 않는 장치
 
-현재 **Intune 관리 콘솔**을 사용하여 장치를 관리하는 경우 [Intune 관리 콘솔](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 Intune에 등록된 장치의 앱을 지원하는 MAM 정책을 만들 수 있습니다.
+>[!IMPORTANT]
+
+> 현재 **Intune 관리 콘솔**을 사용하여 장치를 관리하는 경우 [Intune 관리 콘솔](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 Intune에 등록된 장치의 앱을 지원하는 MAM 정책을 만들 수 있습니다.
 Intune 관리 콘솔에서 만든 MAM 정책은 Azure 포털에 가져올 수 없습니다.  Azure 포털에서 MAM 정책을 다시 만들어야 합니다.
 
->[!IMPORTANT]
+
 > Intune 관리 콘솔에서 모든 MAM 정책 설정이 나타나지 않을 수 있습니다. Azure 포털은 MAM 정책을 만들기 위한 새 관리 콘솔입니다. Intune 관리 콘솔과 Azure 포털 둘 다에서 MAM 정책을 만들 경우 Azure 포털의 정책이 앱에 적용되며 사용자에게 배포됩니다.
 
 Android 및 iOS 플랫폼에 지원되는 정책 설정의 목록을 보려면 다음 중 하나를 선택합니다.
@@ -47,7 +50,7 @@ MAM 정책을 만들기 전에 [필수 구성 요소 및 지원](get-ready-to-co
     > [!TIP]
     > 처음으로 Azure 포털을 사용하는 경우 먼저 [Microsoft Intune MAM 정책용 Azure 포털](azure-portal-for-microsoft-intune-mam-policies.md)을 읽어 포털을 참고합니다.
 
-2.  **설정** 블레이드에서 **앱 정책**을 선택합니다.   **앱 정책** 블레이드가 열리며, 여기서 새 정책을 만들고 기존 정책을 편집합니다.
+2.  **설정** 블레이드에서 **앱 정책**을 선택합니다.  **앱 정책** 블레이드가 열리며, 여기서 새 정책을 만들고 기존 정책을 편집합니다.
 
     ![기존 정책 목록을 보여 주는 앱 정책 블레이드의 스크린 샷](../media/AppManagement/AzurePortal_MAM_AppPolicy.png)
 
@@ -155,8 +158,8 @@ MAM 정책을 만들기 전에 [필수 구성 요소 및 지원](get-ready-to-co
 iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 중 하나를 선택합니다.
 
 > [!div class="op_single_selector"]
-  - [iOS 정책](ios-mam-policy-settings.md)
-  - [Android 정책](android-mam-policy-settings.md)
+- [iOS 정책](ios-mam-policy-settings.md)
+- [Android 정책](android-mam-policy-settings.md)
 
 ## 다음 단계
 [규정 준수 및 사용자 상태 모니터링](monitor-mobile-app-management-policies-with-microsoft-intune.md)
@@ -166,6 +169,6 @@ iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 중
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

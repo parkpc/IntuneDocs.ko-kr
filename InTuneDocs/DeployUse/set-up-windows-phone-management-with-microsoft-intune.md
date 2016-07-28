@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Intune을 사용한 Windows 10 Mobile 및 Windows Phone 관리 설정 | Microsoft Intune"
-description: 
+description: "Microsoft Intune으로 Windows 10 Mobile 또는 Windows Phone 장치에 대한 MDM(모바일 장치 관리)을 사용하도록 설정합니다."
 keywords: 
 author: NathBarn
 manager: jeffgilb
@@ -10,11 +10,11 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: f5615051-2dd1-453b-9872-d3fdcefb2cb8
-ms.reviewer: jeffgilb
+ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c5d1b53f09ce2f475cd934e36ddb19d019737431
-ms.openlocfilehash: e67a5be851b68d87a4cdda871824cf0ecb14579e
+ms.sourcegitcommit: 5f336cf52cbecd93cb7b2850560327e6024302e0
+ms.openlocfilehash: d1bba612d9f613dde33f71790e2c3b2d6b33fe88
 
 
 ---
@@ -29,7 +29,7 @@ Microsoft Intune을 사용하여 Windows 10 Mobile 또는 Windows Phone 장치�
 
 2.  **등록 서버 주소에 대한 DNS 별칭 설정** (선택 사항)
 
-    DNS 별칭(CNAME 레코드 유형)을 만들면 사용자가 자신의 장치를 쉽게 등록할 수 있습니다. DNS 별칭을 만들지 않은 경우 사용자는
+    DNS 별칭(CNAME 레코드 유형)을 만들면 사용자가 자신의 장치를 쉽게 등록할 수 있습니다. CNAME DNS 항목은 Windows 장치 등록에서 선택 사항이지만 Windows 장치 등록 프로세스 동안 작업을 더욱 쉽게 수행하기 위해서는 필요할 때 레코드를 하나 이상 만드는 것이 좋습니다. CNAME 레코드가 없는 경우 MDM 서버 이름을 수동으로 입력하라는 메시지가 나타납니다.
 
   1.  회사의 도메인에 대한 **CNAME** DNS 리소스 레코드를 만들어야 합니다. 예를 들어, 회사의 웹 사이트가 contoso.com인 경우 DNS에 EnterpriseEnrollment.contoso.com을 manage.microsoft.com으로 리디렉션하는 CNAME을 만들어야 합니다. 확인된 도메인이 둘 이상 있는 경우 각 도메인에 대해 CNAME 레코드를 만듭니다. CNAME 리소스 레코드에는 다음 정보가 포함되어야 합니다.
 
@@ -56,6 +56,6 @@ Microsoft Intune을 사용하여 Windows 10 Mobile 또는 Windows Phone 장치�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

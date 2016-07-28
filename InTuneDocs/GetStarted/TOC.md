@@ -9,7 +9,7 @@
 ### [회사 포털](microsoft-intune-company-portal.md)
 ### [Microsoft 클라우드 서비스 및 제품과 통합](integration-with-cloud-services.md)
 ### [네트워크 대역폭 사용량](network-bandwidth-use.md)
-### [도메인 이름](domain-names-for-microsoft-intune.md)
+### [사용자 지정 도메인 이름](domain-names-for-microsoft-intune.md)
 
 ## [Intune 빠른 시작 가이드](start-with-a-paid-subscription-to-microsoft-intune.md)
 ### [Intune에 로그인](start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
@@ -39,6 +39,6 @@
 # [문제 해결](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO3-->
 
 

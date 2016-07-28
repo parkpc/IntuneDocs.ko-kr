@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: SDK를 사용하여 모바일 응용 프로그램 관리에 앱을 사용하도록 설정 | Microsoft Intune
-description:
-keywords:
-author: Staciebarker
+title: "SDK를 사용하여 MAM에 앱을 사용하도록 설정 | Microsoft Intune"
+description: 
+keywords: 
+author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 26b00081-7c05-4969-ace1-0585e44d5cd2
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: addf6791cbd72f9fe9806fd799d36ac198f6df74
+
 
 ---
 
@@ -38,13 +32,13 @@ Microsoft Intune 앱 SDK를 사용하여 Intune에서 iOS 또는 Android 모바�
 
 SDK를 사용하려면 앱의 소스 코드에 액세스해야 하지만 앱의 동작을 변경하지 않고도 대부분의 SDK 기능을 사용하도록 설정할 수 있습니다.
 
-SDK 개요는 [개요](https://msdn.microsoft.com/en-us/library/mt627767.aspx) 페이지를 참조하세요. Intune 앱 SDK 사용을 시작하려면 [Microsoft Intune 앱 SDK 시작](https://msdn.microsoft.com/library/mt627766.aspx)을 참조하세요..
+SDK 개요는 [개요](/intune/develop/intune-app-sdk) 페이지를 참조하세요. Intune 앱 SDK 사용을 시작하려면 [Microsoft Intune 앱 SDK 시작](/intune/develop/intune-app-sdk-get-started)을 참조하세요.
 
 ### 참고 항목
 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

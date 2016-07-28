@@ -1,26 +1,27 @@
 ---
-title: "수동으로 장치 동기화 | Microsoft Intune"
+title: "수동으로 iOS 장치 동기화 | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/06/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 2780101b-f703-4b78-9d33-f68490b9382d
+ROBOTS: noindex,nofollow
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 3cb6b8236afc227df9df34848cb81bcbe82a612e
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: bec18af35f3907299bfcbbae9c0e1998a3ce2507
 
 
 ---
 
 
-# 수동으로 장치 동기화
+# 수동으로 iOS 장치 동기화
 
 앱 설치가 너무 오래 걸리면, 다음 지침을 사용하여 iOS 장치를 수동으로 동기화합니다. 이렇게 하면 설치 속도를 높이는 데 도움이 될 수 있습니다. 동기화 기능은 iOS에만 적용되고 Mac OS X에는 적용되지 않습니다.
 
@@ -42,6 +43,6 @@ ms.openlocfilehash: 3cb6b8236afc227df9df34848cb81bcbe82a612e
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

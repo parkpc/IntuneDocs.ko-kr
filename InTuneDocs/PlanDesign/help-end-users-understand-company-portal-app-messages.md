@@ -1,9 +1,9 @@
 ---
-title: "최종 사용자가 회사 포털 앱 메시지를 이해할 수 있도록 지원 | Microsoft Intune"
-description: 
+title: "사용자가 볼 수도 있는 회사 포털 앱 메시지 | Microsoft Intune"
+description: "Intune 최종 사용자가 볼 수 있는 회사 포털 앱 메시지"
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 3df993aa-48c5-4799-b68d-c85fe4f7b02c
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 79617dd41e51402a73759da792f581028095a2f5
-ms.openlocfilehash: 40f2ead80326a451dfd59a4969191009dc35deef
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 5e0b2943da5572c672f9374e0f878b84f79f0a15
 
 
 ---
@@ -78,6 +78,6 @@ ms.openlocfilehash: 40f2ead80326a451dfd59a4969191009dc35deef
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 
