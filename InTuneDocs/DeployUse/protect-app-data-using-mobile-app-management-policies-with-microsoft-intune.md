@@ -3,7 +3,7 @@ title: "MAM ポリシーを使用してアプリ データを保護する | Micr
 description: "このトピックでは、モバイル アプリ管理ポリシーが、会社データの保護、データ損失の防止、および個人用情報と作業情報の個別管理に役立つ仕組みについて説明します。"
 keywords: 
 author: karthikaraman
-manager: jeffgilb
+manager: arob98
 ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ce0bc5d1256e96e04e5d59420baed2117cb4854d
-ms.openlocfilehash: 0ba8e40b06452002f33b09b37e399c62da54c352
+ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
+ms.openlocfilehash: b4cc44885683be0f6ef414b630571f3216248876
 
 
 ---
@@ -133,6 +133,6 @@ MAM ポリシーに関連付けられているアプリの使用方法と、複�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

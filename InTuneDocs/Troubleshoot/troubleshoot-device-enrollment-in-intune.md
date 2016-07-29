@@ -3,7 +3,7 @@ title: "デバイス登録に関するトラブルシューティング | Micros
 description: "デバイス登録で問題が発生した場合の解決方法の推奨事項。"
 keywords: 
 author: Nbigman
-manager: jeffgilb
+manager: angrobe
 ms.date: 05/26/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 4c728b4fbb68d64d4e06845eca08b1b2d8d1a92a
+ms.sourcegitcommit: 9915b275101e287498217c4f35e1c0e56d2425c2
+ms.openlocfilehash: e10ef68d97127b848a7d624ba40d219ffed3d06d
 
 
 ---
@@ -144,7 +144,7 @@ ms.openlocfilehash: 4c728b4fbb68d64d4e06845eca08b1b2d8d1a92a
 **解決方法:** [Office 365 管理センター](https://portal.office.com/)で、会社名から特殊文字を削除した後、会社情報を保存します。
 
 ### 確認済みドメインが複数ある場合にデバイスへのログインまたはデバイスの登録ができない
-**問題:** ADFS に 2 番目の確認済みドメインを追加すると、2 番目のドメインのユーザー プリンシパル名 (UPN) サフィックスを持つユーザーがポータルにログインできなくなる場合や、デバイスを登録できなくなる場合があります。 
+**問題:** ADFS に 2 番目の確認済みドメインを追加すると、2 番目のドメインのユーザー プリンシパル名 (UPN) サフィックスを持つユーザーがポータルにログインできなくなる場合や、デバイスを登録できなくなる場合があります。
 
 
 **解決方法:** AD FS 2.0 によるシングル サインオン (SSO) を利用している Microsoft Office 365 ユーザーが、組織内にユーザーの UPN サフィックス用のトップ レベル ドメイン (@contoso.com、@fabrikam.com など) を複数持っている場合、各サフィックスに対して別々の AD FS 2.0 フェデレーション サービス インスタンスを展開する必要があります。  現在は [AD FS 2.0 用ロールアップ](http://support.microsoft.com/kb/2607496)が用意されており、これを **SupportMultipleDomain** スイッチと組み合わせて使用することで、AD FS 2.0 サーバーを追加しなくても、このような状況に対応することができます。 詳細については、[このブログ](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/)を参照してください。
@@ -166,14 +166,14 @@ ms.openlocfilehash: 4c728b4fbb68d64d4e06845eca08b1b2d8d1a92a
 
 **問題**: ユーザーが自分のデバイスで、*「You cannot sign in because your device is missing a required certificate.」* (デバイスに必要な証明書がないためにサインインすることはできません。) というメッセージを受信します。
 
-**解決方法**: 
+**解決方法**:
 
 - ユーザーは、[この手順](/intune/enduser/your-device-is-missing-a-required-certificate-android#your-device-is-missing-a-certificate-required-by-your-it-administrator)に従って、欠落している証明書を取得できる場合があります。
-- ユーザーが証明書を取得できない場合は、ADFS サーバーの中間証明書が欠落している可能性があります。 Android では、サーバーを信頼するために中間証明書が必要です。 
+- ユーザーが証明書を取得できない場合は、ADFS サーバーの中間証明書が欠落している可能性があります。 Android では、サーバーを信頼するために中間証明書が必要です。
 
 次のように、ADFS サーバーまたはプロキシで証明書を中間ストア内にインポートできます。
 
-1.  ADFS サーバーで、**Microsoft 管理コンソール**を起動し、**コンピューター アカウント**に証明書スナップインを追加します。 
+1.  ADFS サーバーで、**Microsoft 管理コンソール**を起動し、**コンピューター アカウント**に証明書スナップインを追加します。
 5.  ADFS サービスが使用している証明書を検索し、その親証明書を表示します。
 6.  親証明書をコピーして、**Computer\Intermediate Certification Authorities\Certificates** に貼り付けます。
 7.  ADFS、ADFS 復号化、および ADFS 署名証明書をコピーして、ADFS サービスの個人用ストアに貼り付けます。
@@ -200,34 +200,34 @@ ms.openlocfilehash: 4c728b4fbb68d64d4e06845eca08b1b2d8d1a92a
 ### Intune と System Center Configuration Manager を使用するときに、登録済みの iOS デバイスがコンソールに表示されない
 **問題:** ユーザーが iOS デバイスを登録しても、そのデバイスが Configuration Manager 管理コンソールに表示されません。 そのデバイスでは、登録済みであることが示されません。 次の原因が考えられます。
 
-- あるアカウントで Intune コネクタを登録した後で、それを別のアカウントに登録した可能性があります。 
+- あるアカウントで Intune コネクタを登録した後で、それを別のアカウントに登録した可能性があります。
 - あるアカウントで MDM 証明書をダウンロードした後で、それを別のアカウントで使用した可能性があります。
 
 
 **解決方法:** 次の手順を実行します。
 
-1. Windows Intune コネクタ内で、iOS を無効にします。 
+1. Windows Intune コネクタ内で、iOS を無効にします。
     1. Intune サブスクリプションを右クリックし、**[プロパティ]** を選択します。
     1. [iOS] タブで、[iOS の登録を有効にする] をオフにします。
 
 
 
 1. SQL で、CAS DB に対して次の手順を実行します。
-  
-    1. SC_ClientComponent_Property を更新し、Value2 を '%APNS%' のような名前に設定します。 
-    1. MDMPolicy で、PolicyType = 7 の部分を削除します。 
+
+    1. SC_ClientComponent_Property を更新し、Value2 を '%APNS%' のような名前に設定します。
+    1. MDMPolicy で、PolicyType = 7 の部分を削除します。
     1. MDMPolicyAssignment で、PolicyType = 7 の部分を削除します。
-    1. SC_ClientComponent_Property を更新し、Value2 を '%APNS%' のような名前に設定します。 
-    1. MDMPolicy で、PolicyType = 11 の部分を削除します。 
-    1. MDMPolicyAssignment で、PolicyType = 11 の部分を削除します。 
+    1. SC_ClientComponent_Property を更新し、Value2 を '%APNS%' のような名前に設定します。
+    1. MDMPolicy で、PolicyType = 11 の部分を削除します。
+    1. MDMPolicyAssignment で、PolicyType = 11 の部分を削除します。
     1. Drs_Signals を削除します。
-1. SMS Executive サービスを再起動するか、CM サーバーを再起動します。 
+1. SMS Executive サービスを再起動するか、CM サーバーを再起動します。
 
 
 
 1. 新しい APN 証明書を取得し、アップロードします。Configuration Manager の左側のウィンドウで Intune サブスクリプションを右クリックします。 **[APNs 証明書要求の作成]** を選択して、指示に従います。
 ## System Center Configuration Manager と Intune を使用しているときの問題
-### モバイル デバイスが表示されない 
+### モバイル デバイスが表示されない
 **問題:** モバイル デバイスを Configuration Manager に正常に登録した後に、モバイル デバイス コレクションに表示されませんが、デバイスには管理プロファイルがあり、CSS ゲートウェイには表示されます。
 
 **解決方法:** 問題の原因として、ドメインに参加していないデバイスを削除するカスタム プロセスがあるか、ユーザーがサブスクリプションからデバイスを削除した可能性があります。 Configuration Manager コンソールで、デバイスを削除したプロセスまたはユーザー アカウントを確認するには、次の手順を実行します。
@@ -256,22 +256,22 @@ iOS 登録エラーの一覧は、デバイスのユーザー ドキュメント
 
 ### コンピューターは既にサービスに登録されています - エラー hr 0x8007064c
 **問題:** **"The machine is already enrolled"** (コンピューターは既にサービスに登録されています) というエラーが発生し、登録に失敗します。 登録ログにはエラー **hr 0x8007064c** が記録されます。
-  
+
 これは、そのコンピューターが以前に登録されているか、コンピューターの複製イメージが登録されていることが原因である可能性があります。 前のアカウントのアカウント証明書が、そのコンピューターにまだ存在しています。
 
 
 
-**解決策:** 
+**解決策:**
 
-1. **[スタート]** メニューで、**[ファイル名を指定して実行]** を選択し、 -> 「**MMC**」と入力します。 
+1. **[スタート]** メニューで、**[ファイル名を指定して実行]** を選択し、 -> 「**MMC**」と入力します。
 1. **[ファイル]**  ->  **[スナップインの追加と削除]** の順にクリックします。
 1. **[証明書]** をダブルクリックし、**[コンピューター アカウント]**、**[次へ]**、**[ローカル コンピューター]** の順に選択します。
-1. **[証明書 (ローカル コンピューター)]** をダブルクリックして、**[個人証明書]** を選択します。 
+1. **[証明書 (ローカル コンピューター)]** をダブルクリックして、**[個人証明書]** を選択します。
 1. Sc_Online_Issuing によって発行された Intune 証明書を探し、もし見つかった場合は削除します。
 1. レジストリ キー ** HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OnlineManagement regkey** が存在する場合は削除し、サブ キーもすべて削除します。
-1. 再登録を試みます。 
-1. それでもコンピューターを登録できない場合は、キー **KEY_CLASSES_ROOT\Installer\Products\6985F0077D3EEB44AB6849B5D7913E95** を探して、存在する場合は削除してください。 
-1. 再登録を試みます。 
+1. 再登録を試みます。
+1. それでもコンピューターを登録できない場合は、キー **KEY_CLASSES_ROOT\Installer\Products\6985F0077D3EEB44AB6849B5D7913E95** を探して、存在する場合は削除してください。
+1. 再登録を試みます。
 
     > [!IMPORTANT]
     > このセクションの作業には、レジストリを変更する手順が含まれます。 ただし、レジストリを正しく変更していない場合、重大な問題が発生する可能性があります。 そのため、手順は確認の上、注意して行ってください。 さらに安全を考慮して、レジストリのバックアップをとってから変更を行ってください。 バックアップがあれば、問題が生じた場合でもレジストリを復元できます。
@@ -306,6 +306,6 @@ iOS 登録エラーの一覧は、デバイスのユーザー ドキュメント
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

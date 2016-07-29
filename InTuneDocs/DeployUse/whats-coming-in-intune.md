@@ -3,7 +3,7 @@ title: "今後予定されている機能 | Microsoft Intune"
 description: 
 keywords: 
 author: Lindavr
-manager: jeffgilb
+manager: angrobe
 ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 35ee5d0c8898c95898c0527a623cf13c454387f2
-ms.openlocfilehash: 831cec6cd0e02a94c1a3f67d4adf5a5dcbb01449
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: 9b536372623632b609433c49991a8bdc70e6da49
 
 
 ---
@@ -79,7 +79,7 @@ Microsoft は、Android 用ポータル サイトに対する更新を 8 月に�
 パフォーマンスと拡張性を高めるために、iOS のポータル サイト アプリの [デバイス] ウィンドウには今後、デバイス登録マネージャー (DEM) のデバイスの一部が表示されなくなります。 アプリを実行しているローカル デバイスのみが、ポータル サイト アプリ経由で登録されている場合にだけ表示されます。 DEM ユーザーはローカル デバイスに対する操作を実行できますが、他の登録デバイスのリモート管理を実行できるのは、Intune 管理コンソールからのみとなります。  また、Apple Device Enrollment Program または Apple Configurator ツールでの DEM アカウントの使用は廃止されます。 共有 iOS デバイスに関しては、どちらの登録手段も既にユーザーレスの登録がサポートされています。 共有デバイスのユーザーレスの登録が利用できない場合のみ DEM アカウントを使用してください。
 <!---TFS 1233681--->
 ### 登録済み Android デバイスへのサイドロード アプリのインストールの制限
-Android 用 Intune ポータル サイト アプリを使用してデバイスを Intune に登録している場合を除き、Android デバイスは、ポータル サイト Web サイトを通じてアプリケーションをインストールすることができなくなります。 
+Android 用 Intune ポータル サイト アプリを使用してデバイスを Intune に登録している場合を除き、Android デバイスは、ポータル サイト Web サイトを通じてアプリケーションをインストールすることができなくなります。
 <!---TFS 1299082--->
 
 ## 廃止予定のサービス
@@ -113,6 +113,6 @@ Intune Viewer アプリを使用する代わりに、Android 用の新しい Rig
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

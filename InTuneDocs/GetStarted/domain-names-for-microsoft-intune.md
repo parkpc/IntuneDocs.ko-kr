@@ -13,8 +13,8 @@ ms.assetid: c3c136f0-330d-432a-a91f-16f7dd097e55
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 32723f5b2c92073dda43a0b1f36a48ded0e13ba3
-ms.openlocfilehash: 2adbe1e4a92af5302550a8b78069bc49d725dbc3
+ms.sourcegitcommit: 3eb096fea4569be24cf1ea42088705f0d5da38a4
+ms.openlocfilehash: 176da99a198b0a8167ac5d7992a751f2c965f0ac
 
 
 ---
@@ -23,8 +23,6 @@ ms.openlocfilehash: 2adbe1e4a92af5302550a8b78069bc49d725dbc3
 
 # Microsoft Intune でのカスタム ドメイン名
 
-カスタム ドメインを追加し、確認する手順は、[Azure Active Directory でも実行できます](https://azure.microsoft.com/en-us/documentation/articles/active-directory-add-domain/)。
-
 組織が Intune などの Microsoft のクラウド ベース サービスにサインアップすると、**yourdomain.onmicrosoft.com** のように Azure Active Directory でホストされる最初のドメイン名が付与されます。 この例で、**yourdomain** はサインアップ時に選択したドメイン名、**onmicrosoft.com** はサブスクリプションに追加するアカウントに割り当てられるサフィックスです。
 
 この最初のドメイン名を変更または削除することはできません。 ただし、Intune で使用するカスタム ドメイン名を追加、確認、または削除することはできます。カスタム ドメインがあると、ビジネス アイデンティティを維持するために役立ちます。
@@ -32,16 +30,19 @@ ms.openlocfilehash: 2adbe1e4a92af5302550a8b78069bc49d725dbc3
 ## カスタム ドメインを追加して確認するには 
 
 1. [Office 365 管理ポータル](https://portal.office.com/Admin/Default.aspx)を開き、管理者アカウントにサインインします。
-    > [!IMPORTANT]
-    > Microsoft Intune ユーザー、グループ、ドメインを管理する場所の詳細については、「    [Intune アカウント ポータルは、Office 365 管理ポータルに統合されています](https://docs.microsoft.com/en-us/intune/deploy-use/account-portal-merged-with-Office-365)」というお知らせを参照してください。
+
 2. ナビゲーション ウィンドウの **[設定]** &gt; **[ドメイン]** を選択します。
+
 3. **[ドメインの追加]** を選択し、カスタム ドメイン名を入力します。
+
 4. **[ドメインの確認]** ダイアログ ボックスが開き、DNS ホスティング プロバイダーに TXT レコードを作成する値が表示されます。
     - **GoDaddy ユーザー**: Office 365 管理ポータルから GoDaddy のログイン ページにリダイレクトされます。 資格情報を入力し、ドメインの変更アクセス許可に同意すると、TXT レコードが自動的に作成されます。 または [TXT レコードを作成](https://support.office.com/en-us/article/Create-DNS-records-at-GoDaddy-for-Office-365-f40a9185-b6d5-4a80-bb31-aa3bb0cab48a?ui=en-US&rs=en-US&ad=US)できます。
     - **Register.com ユーザー**: この[ステップ バイ ステップの指示](https://support.office.com/en-us/article/Create-DNS-records-at-Register-com-for-Office-365-55bd8c38-3316-48ae-a368-4959b2c1684e?ui=en-US&rs=en-US&ad=US#BKMK_verify)に従って、TXT レコードを作成します。
 
     > [!TIP] 
     > 必ず [Windows デバイス登録](/Intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)用に DNS エイリアス (CNAME) を作成し、さらに DNS ホスティング プロバイダーでも変更します。
+
+カスタム ドメインを追加し、確認する手順は、[Azure Active Directory でも実行できます](https://azure.microsoft.com/en-us/documentation/articles/active-directory-add-domain/)。
 
 ハイブリッド クラウド シナリオでは、カスタム ドメイン名を追加し、組織がドメインを所有していることを確認した後は、オンプレミス Active Directory でユーザー アカウントの管理を継続し、Azure AD と同期することができます。
 
@@ -60,6 +61,6 @@ ms.openlocfilehash: 2adbe1e4a92af5302550a8b78069bc49d725dbc3
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 
