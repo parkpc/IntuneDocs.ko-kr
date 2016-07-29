@@ -1,19 +1,20 @@
 ---
-title: "社内の Exchange 用の Microsoft Intune Exchange Connector のインストール |Microsoft Intune"
-description: 
+title: "社内 EAS 用の Exchange Connector | Microsoft Intune"
+description: "Connector ツールを使用して、Exchange ActiveSync MDM 用に、Intune 管理コンソールと社内の Exchange Server 間の通信を有効にする。"
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 41ff4212-a6f5-4374-8731-631f7560cff1
-ms.reviewer: jeffgilb
+ms.reviewer: muhosabe
 ms.suite: ems
-ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
-ms.openlocfilehash: 45f815ea379007b75316552d34f5bd8669b2ccef
+translationtype: Human Translation
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: 233aae987467a574c34aa06168a3c6d59eab663c
 
 
 ---
@@ -34,9 +35,8 @@ On-Premises Exchange Connector をインストールするコンピューター�
 |ハードウェア|Connector をインストールするコンピューターには、1.6 GHz の CPU と 2 GB の RAM と 10 GB の空きディスク容量の最小ハードウェアが必要です。|
 |Active Directory の同期|いずれかの Connector を使用して Intune を Exchange Server に接続するには、[Active Directory の同期をセットアップ](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3)して、ローカル ユーザーとセキュリティ グループが Azure Active Directory のインスタンスと同期されるようにする必要があります。|
 |その他のソフトウェア|Connector をホストするコンピューターに、Microsoft .NET Framework 4 および Windows PowerShell 2.0 の完全インストールがインストールされている必要があります。|
-|Network (ネットワーク)|コネクタをインストールするコンピューターは、Exchange Server をホストするドメインと信頼関係があるドメインに参加している必要があります。<br /><br />コンピューターは、ポート 80 と 443 でファイアウォールとプロキシ サーバー経由で Intune サービスにアクセスできるように構成する必要があります。 Intune によって使用されるドメインには、manage.microsoft.com、& #42;manage.microsoft.com、および & #42;manage.microsoft.com が含まれます。|
+|Network (ネットワーク)|コネクタをインストールするコンピューターは、Exchange Server をホストするドメインと信頼関係があるドメインに参加している必要があります。<br /><br />コンピューターは、ポート 80 と 443 でファイアウォールとプロキシ サーバー経由で Intune サービスにアクセスできるように構成する必要があります。 Intune によって使用されるドメインには、manage.microsoft.com、&#42;manage.microsoft.com、および &#42;manage.microsoft.com が含まれます。|
 |ホスト型 Exchange が構成済みで実行中である|詳細については、「[Exchange Server 2016](https://technet.microsoft.com/library/mt170645.aspx)」を参照してください。 |
-|モバイル デバイス管理機関を Intune に設定します|[モバイル デバイス機関を Intune に設定します](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)|
 
 ### Exchange コマンドレットの要件
 
@@ -58,16 +58,14 @@ Intune Exchange Connector が使用する Active Directory ユーザー アカ�
 
 ## On-Premises Exchange Connector ソフトウェア インストール パッケージのダウンロード
 
-1. On-Premises Exchange Connector のサポートされているオペレーティング システムで、Exchange Server を使用するライセンスを持つ Exchange テナント内の管理者であるユーザー アカウントを使用して、[Microsoft Intune 管理コンソール](http://manage.microsoft.com) (http://manage.microsoft.com) を開きます。
+1. On-Premises Exchange Connector のサポートされている Windows Server オペレーティング システムで、Exchange Server を使用するライセンスを持つ Exchange テナント内の管理者であるユーザー アカウントを使用して、[Microsoft Intune 管理コンソール](http://manage.microsoft.com) (http://manage.microsoft.com) を開きます。
 ![Exchange 接続のセットアップを開く](../media/ExchangeConnector.gif)
 
-2.  ワークスペースのショートカット ウィンドウで、**[管理]** を選びます。
+2.  ワークスペースのショートカット ウィンドウで **[管理]** を選択し、**[モバイル デバイス管理]** > **[Microsoft Exchange]****[Exchange 接続のセットアップ]** の順に選択します。
 
-3.  ナビゲーション ウィンドウの **[モバイル デバイス管理]** で、**[Microsoft Exchange]** を展開し、**[Exchange 接続のセットアップ]** を選択します。
+3.  **[Exchange 接続のセットアップ]** ページで **[On-Premises Connector のダウンロード]** を選びます。
 
-4.  **[Exchange 接続のセットアップ]** ページで **[On-Premises Connector のダウンロード]** を選びます。
-
-5.  On-Premises Exchange Connector は、開いたり保存したりできる圧縮 (zip 形式) フォルダーに含まれています。 **[ファイルのダウンロード]** ダイアログ ボックスで **[保存]** を選んで、圧縮フォルダーを安全な場所に保存します。
+4.  On-Premises Exchange Connector は、開いたり保存したりできる圧縮 (zip 形式) フォルダーに含まれています。 **[ファイルのダウンロード]** ダイアログ ボックスで **[保存]** を選んで、圧縮フォルダーを安全な場所に保存します。
 
 > [!IMPORTANT]
 > On-Premises Exchange Connector フォルダー内のファイルの名前を変更したり、移動しないでください。 フォルダーの内容を移動したり、名前を変更したりすると、インストールが中断します。
@@ -133,6 +131,6 @@ Exchange Connector を正常に構成したら、接続のステータスと前�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

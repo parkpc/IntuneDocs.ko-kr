@@ -1,6 +1,6 @@
 ---
 title: "ポリシーのトラブルシューティング | Microsoft Intune"
-description: 
+description: "ポリシー構成に関する問題のトラブルシューティングを行います。"
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 99fb6db6-21c5-46cd-980d-50f063ab8ab8
 ms.reviewer: jeffgilb
 ms.suite: ems
-ms.sourcegitcommit: ac3417781df0a5b092a70620aa7343849b1e8c82
-ms.openlocfilehash: 3ac6b06b7eb85503786b4d8b0b9bd2a30d2a15e6
+translationtype: Human Translation
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: 64518fc58a97c0d5060d909b60df565c19498389
 
 
 ---
@@ -47,7 +48,7 @@ Intune の管理コンソールでは、すべてのデバイスの **[デバイ
 ![Intune のデバイス ポリシー](../media/Intune-Device-Policy-v.2.jpg)
 
 > [!NOTE]
-> [!NOTE] 制限レベルが異なる 2 つのポリシーを同じデバイスまたはユーザーに適用すると、より厳しい方のポリシーが実際に適用されます。
+> 制限レベルが異なる 2 つのポリシーを同じデバイスまたはユーザーに適用すると、より厳しい方のポリシーが実際に適用されます。
 
 ## ポリシーの更新と更新間隔
 ポリシーは定期的に更新されることに注意してください。 通常、ポリシーは変更を行ってから 15 分以内にデバイスで登録する必要があります。 定期的なポリシー更新の間隔の詳細は、次のとおりです。
@@ -70,7 +71,7 @@ MDM Windows デバイス以外のデバイスでは、policyplatform.log ファ�
 2.  クライアント ソフトウェアが削除されるまで、20 分間待ちます。
 
     > [!NOTE]
-    > [!NOTE] [プログラムと機能] からクライアントを削除しないでください。
+    > [プログラムと機能] からクライアントを削除しないでください。
 
 3.  スタート メニューで「**UAC**」と入力して、[ユーザー アカウント制御の設定] を開きます。
 
@@ -112,6 +113,6 @@ Android の MDM は、その他のプラットフォームのように、サー�
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

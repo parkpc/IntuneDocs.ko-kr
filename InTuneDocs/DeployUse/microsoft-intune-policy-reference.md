@@ -1,27 +1,27 @@
 ---
-title: "Microsoft Intune ポリシー リファレンス | Microsoft Intune"
-description: 
+title: "構成ポリシー リファレンス | Microsoft Intune"
+description: "このトピックの情報は、デバイスの管理に使用する必要がある Microsoft Intune ポリシーを判断するのに役立ちます。"
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d27f2739-9791-4aae-a9db-01a4e59ccfe5
-ms.reviewer: jeffgilb
+ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: 3d9e03a3c89af72caeaa9c9c47426f331adb0fca
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: cce19141ef25a8cca785d6ae80d1fe03ab352a8e
 
 
 ---
 
 # Microsoft Intune ポリシー リファレンス
 
-このトピックの情報は、デバイスの管理に使用する必要がある Microsoft Intune ポリシーを判断するのに役立ちます。
+このトピックの情報は、デバイスの管理に使用する必要がある Microsoft Intune 構成ポリシーを判断するのに役立ちます。
 
 > [!TIP]
 > ポリシーの使用方法の詳細については、「[Microsoft Intune ポリシーを使用してデバイスの設定と機能を管理する](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)」を参照してください。
@@ -47,11 +47,14 @@ ms.openlocfilehash: 3d9e03a3c89af72caeaa9c9c47426f331adb0fca
 |**カスタム構成 (iOS 7.1 以降)**|Apple Configurator ツールを使用して作成した構成プロファイルを iOS デバイスに展開します。 これは、必要な設定が構成ポリシーで使用できない場合に役立ちます。<br /><br />詳細については、「[Microsoft Intune の iOS ポリシー設定](ios-policy-settings-in-microsoft-intune.md)」を参照してください。|
 |**電子メール プロファイル (iOS 7.1 以降)**|管理対象デバイスで Exchange ActiveSync 電子メール設定を作成、展開、および監視します。 これにより、ユーザー側で特別な設定を行わなくても、各自が個人用端末で会社の電子メールにアクセスできます。<br /><br />詳細については、「[Microsoft Intune で電子メール プロファイルを使用して会社の電子メールへのアクセスを構成にする](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)」を参照してください。|
 |**全般構成 (iOS 7.1 以降)**|モバイル デバイスのセキュリティと機能の設定を構成します。<br />-   準拠アプリまたは非準拠アプリを指定し、それらのアプリが使用された場合にレポートします。<br />特定の機能のみが動作するようにデバイスをロックするキオスク モードを構成して、たとえば、デバイスでアプリを 1 つだけ実行できるようにしたり、音量ボタンを無効にしたりします。<br /><br />詳細については、「[Microsoft Intune の iOS ポリシー設定](ios-policy-settings-in-microsoft-intune.md)」を参照してください。|
+|**モバイル アプリ構成ポリシー (iOS 7.1 以降)**|モバイル アプリ構成ポリシーを使用すると、ユーザーが iOS アプリを実行している場合に必要となる可能性のある設定を自動的に提供できます。<br /><br />詳細については、「[Microsoft Intune のモバイル アプリ構成ポリシーを使用した iOS アプリの構成](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)」を参照してください。|
+|**モバイル プロビジョニング プロファイル ポリシー (iOS 7.1 以降)**|Apple iOS 基幹業務モバイル アプリは、プロビジョニング プロファイルを含み、証明書で署名されたコードと共に構築されます。 iOS デバイスでアプリを実行すると、iOS により iOS アプリの整合性の確認と、プロビジョニング プロファイルで定義されたポリシーの施行が行われます。<br><br>アプリの署名に使用するエンタープライズ署名証明書は、通常 3 年間は継続します。 ただし、プロビジョニング プロファイルは 1 年後に期限が切れます。 このポリシーは、証明書はまだ有効だがアプリの有効期限が近づいているデバイスに新しいプロビジョニング プロファイルのポリシーを事前に展開するために使用します。<br><br>詳細については、「[iOS モバイル プロビジョニング プロファイルのポリシーを使用して、アプリが期限切れにならないようにする](ios-mobile-app-provisioning-profiles.md)」を参照してください。|
+|**PKCS #12 (.PFX) 証明書プロファイル (iOS 7.1 以降)**|このプロファイルは、デバイス証明書要求のための PFX 設定を作成して展開する場合に使用します。<br /><br />詳細については、「[Microsoft Intune の証明書プロファイルでリソースへのアクセスを保護する](secure-resource-access-with-certificate-profiles.md)」を参照してください。|
 |**SCEP 証明書プロファイル (iOS 7.1 以降)**|Simple Certificate Enrollment Protocol 証明書を構成します。これを信頼できるモバイル デバイスの証明書と共に使用してモバイル デバイスを認証して、モバイル デバイスが Wi-Fi プロファイルおよび VPN プロファイルによって構成されたネットワーク リソースにアクセスできるようにします。<br /><br />詳細については、「[Microsoft Intune の証明書プロファイルでリソースへのアクセスを保護する](secure-resource-access-with-certificate-profiles.md)」を参照してください。|
 |**信頼できる証明書プロファイル (iOS 7.1 以降)**|信頼できるモバイル デバイスの証明書を構成します。これを使用してモバイル デバイスを認証して、モバイル デバイスが Wi-Fi プロファイルおよび VPN プロファイルによって構成されたネットワーク リソースにアクセスできるようにします。<br /><br />詳細については、「[Microsoft Intune の証明書プロファイルでリソースへのアクセスを保護する](secure-resource-access-with-certificate-profiles.md)」を参照してください。|
 |**VPN プロファイル (iOS 7.1 以降)**|ユーザーがモバイル デバイスから企業ネットワークにアクセスする際にセキュリティ保護を提供する設定を構成および展開します。 これらの設定を展開して、業務に接続するために必要なエンド ユーザーの作業を最小化します。<br /><br />詳細については、「[Microsoft Intune での VPN 接続](vpn-connections-in-microsoft-intune.md)」を参照してください。|
 |**Wi-Fi プロファイル (iOS 7.1 以降)**|ワイヤレス ネットワーク設定を構成して組織のユーザーに展開します。 これらの設定を展開すれば、ワイヤレス ネットワークに接続するために必要なエンド ユーザーの作業を最小限に抑えられます。<br /><br />詳細については、「[Microsoft Intune での Wi-Fi 接続](wi-fi-connections-in-microsoft-intune.md)」を参照してください。|
-|**モバイル アプリ構成ポリシー (iOS 7.1 以降)**|モバイル アプリ構成ポリシーを使用すると、ユーザーが iOS アプリを実行している場合に必要となる可能性のある設定を自動的に提供できます。<br /><br />詳細については、「[Microsoft Intune のモバイル アプリ構成ポリシーを使用した iOS アプリの構成](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)」を参照してください。|
+
 
 ## Mac OS X 構成ポリシー
 
@@ -82,6 +85,8 @@ Windows Phone と登録されている Windows デバイスのみに適用され
 |**信頼できる証明書プロファイル (Windows 8.1 以降)**<br /><br />**信頼できる証明書プロファイル (Windows Phone 8.1 以降)**|信頼できるモバイル デバイスの証明書を構成します。これを使用してモバイル デバイスを認証して、モバイル デバイスが Wi-Fi プロファイルおよび VPN プロファイルによって構成されたネットワーク リソースにアクセスできるようにします。<br /><br />詳細については、「[Microsoft Intune の証明書プロファイルでリソースへのアクセスを保護する](secure-resource-access-with-certificate-profiles.md)」を参照してください。|
 |**VPN プロファイル (Windows 10 デスクトップおよび Windows 10 Mobile 以降)**<br /><br />**VPN プロファイル (Windows 8.1 以降)**<br /><br />**VPN プロファイル (Windows Phone 8.1 以降)**|ユーザーがモバイル デバイスから企業ネットワークにアクセスする際にセキュリティ保護を提供する設定を構成および展開します。 これらの設定を展開して、業務に接続するために必要なエンド ユーザーの作業を最小化します。<br /><br />詳細については、「[Microsoft Intune での VPN 接続](vpn-connections-in-microsoft-intune.md)」を参照してください。|
 |**Wi-Fi インポート**|以前にファイルにエクスポートした Windows Wi-Fi の構成をインポートして展開します。<br /><br />詳細については、「[Microsoft Intune での Wi-Fi 接続](wi-fi-connections-in-microsoft-intune.md)」を参照してください。|
+|**Windows 情報保護**<br>(旧エンタープライズ データ保護)|企業内に従業員所有デバイスが増加するのに従い、企業のコントロールが届かない電子メール、ソーシャル メディア、パブリック クラウドなどのアプリやサービスを介して偶発的にデータが漏えいするリスクも増大しています。 たとえば、従業員が個人用の電子メール アカウントから最新のエンジニアリング画像を送信したり、製品情報をコピーしてツイートに貼り付けたり、作成中の営業レポートをパブリック クラウドの記憶域に保存したりするときなどです。<br><br>Windows 情報保護は、この潜在的なデータ漏えいの防止に役立ちます。それ以外の場合は従業員のエクスペリエンスを妨げることはありません。 また、企業が所有するデバイスと従業員が作業のために持ち込む個人用デバイスでもエンタープライズ アプリとデータを偶発的なデータ漏えいから保護します。既存の環境や他のアプリを変更する必要はありません。<br><br>この Intune ポリシーは、Windows 情報保護によって保護されているアプリ、エンタープライズ ネットワークの場所、保護レベル、および暗号化設定の一覧を管理します。<br><br>詳細については、「[Protect your enterprise data using Windows Information Protection (Windows 情報保護を使用してエンタープライズ データを保護する)](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-edp)」を参照してください。|
+
 
 ## ソフトウェア ポリシー
 
@@ -129,7 +134,6 @@ Windows Phone と登録されている Windows デバイスのみに適用され
 
 
 
-
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

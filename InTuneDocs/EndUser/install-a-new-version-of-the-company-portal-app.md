@@ -3,33 +3,40 @@ title: "新しいバージョンのポータル サイト アプリをインス�
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/30/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
 ms.technology: 
 ms.assetid: c002bcb2-ae37-478d-acf3-2bf51faae490
+ROBOTS: noindex,nofollow
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 29d409f272800e0c5ccaf71494b5e98d1edaae4e
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 529d8020ffda5ffe32542b670a75fd0faa5d6ffe
 
 
 ---
 
 # 新しいバージョンのポータル サイトをインストールする
 
-お使いのバージョンのポータル サイトがサポートされなくなった場合、または新しいバージョンのポータル サイトを使用できる場合、次の手順でデバイスを更新します。
+お使いのバージョンのポータル サイトがサポートされなくなった場合、または新しいバージョンのポータル サイトを使用できる場合、ポータル サイト アプリを新しいバージョンに更新する必要があります。 使用するデバイスの種類に対応する手順に従ってください。
 
-## Android デバイスを更新するには
+## Android デバイスでポータル サイト アプリを更新するには
 
 新しいバージョンのポータル サイトを使用できる場合、Play ストアからアラートが送信されます。 ポータル サイト アプリ内にはプロンプトは表示されません。 アラートの指示に従ってデバイスを更新してください。
 
-## iOS デバイスを更新するには
+## iOS デバイスでポータル サイト アプリを更新するには
 
-新しいバージョンのポータル サイトを使用できる場合、Apple AppStore からアラートが送信されます。 アラートの指示に従ってデバイスを更新してください。
+新しいバージョンのポータル サイト アプリが利用可能になると、App Store からアラートが送信されます。 
 
-## Windows デバイスを更新するには
+ポータル サイト アプリを更新するには、以下の手順に従います。
+
+1. App Store を開いて、**Intune** を探します。
+
+2. アプリが見つかったら、アプリ名の右側にある **[アップデート]** ボタンをタップします。
+
+## Windows デバイスでポータル サイト アプリを更新するには
 
 1.  Windows ストアにアクセスし、**[ポータル サイト]** を検索します。
 
@@ -50,6 +57,6 @@ ms.openlocfilehash: 29d409f272800e0c5ccaf71494b5e98d1edaae4e
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

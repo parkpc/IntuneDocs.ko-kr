@@ -1,6 +1,6 @@
 ---
 title: "Azure ポータルの MAM ポリシー対応 | Microsoft Intune"
-description: 
+description: "Azure ポータルを使用してモバイル アプリ管理ポリシーを作成します。 ここで作成したポリシーは、Intune に登録されているデバイスにも未登録のデバイスにも適用できます。"
 keywords: 
 author: karthikaraman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 7d6dae94-a833-40b7-9016-14ea234bb33c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
-ms.openlocfilehash: 519bde55966d88f516553d509af60e34a6af62a9
+ms.sourcegitcommit: 359f76daa35a14e4107a9e03c6a1b1f4d1215777
+ms.openlocfilehash: c466a854474c1c5ba3270f848caa51edcd5b6856
 
 
 ---
@@ -28,8 +28,10 @@ Azure ポータルでは、次の MAM ポリシーの作成をサポートして
 - どの MDM ソリューションにも**登録していない**デバイスで実行中のアプリ
 - **サード パーティの MDM ソリューションに登録済み**のデバイスで実行中のアプリ
 
-現在 **Intune 管理コンソール**を使用してデバイスを管理している場合は、Intune に登録済みのデバイスのアプリをサポートする MAM ポリシーを [Intune 管理コンソール](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)を使用して作成できます。
 >[!IMPORTANT]
+
+> 現在 Intune 管理コンソールを使用してデバイスを管理している場合は、Intune に登録済みのデバイスのアプリをサポートする MAM ポリシーを [Intune 管理コンソール](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)を使用して作成できます。
+
 > Intune 管理コンソールでは、MAM ポリシー設定の一部が表示されない可能性があります。 Azure ポータルは MAM ポリシーを作成するための新しい管理コンソールです。Intune 管理コンソールと Azure ポータルの両方で MAM ポリシーを作成した場合、Azure ポータルのポリシーがアプリに適用され、ユーザーに展開されます。
 
 ## Azure ポータルにログインし、スタート ページをカスタマイズする
@@ -59,6 +61,6 @@ Azure ポータルでは、次の MAM ポリシーの作成をサポートして
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

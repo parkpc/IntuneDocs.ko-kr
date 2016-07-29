@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Intune を使用して Windows 10 Mobile と Windows Phone の管理をセットアップする | Microsoft Intune"
-description: 
+description: "Microsoft Intune を使用して Windows 10 Mobile または Windows Phone デバイスのモバイル デバイス管理 (MDM) を有効にします。"
 keywords: 
 author: NathBarn
 manager: jeffgilb
@@ -10,11 +10,11 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: f5615051-2dd1-453b-9872-d3fdcefb2cb8
-ms.reviewer: jeffgilb
+ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c5d1b53f09ce2f475cd934e36ddb19d019737431
-ms.openlocfilehash: e67a5be851b68d87a4cdda871824cf0ecb14579e
+ms.sourcegitcommit: 5f336cf52cbecd93cb7b2850560327e6024302e0
+ms.openlocfilehash: d1bba612d9f613dde33f71790e2c3b2d6b33fe88
 
 
 ---
@@ -29,7 +29,7 @@ Microsoft Intune で Windows 10 Mobile または Windows Phone デバイスを�
 
 2.  **登録サーバーのアドレスの DNS エイリアスを設定する** (オプション)
 
-    DNS エイリアス (CNAME レコード タイプ) を作成すると、ユーザーがデバイスを簡単に登録できるようになります。 DNS エイリアスを作成しない場合は、ユーザーは次の操作を実行する必要があります。
+    DNS エイリアス (CNAME レコード タイプ) を作成すると、ユーザーがデバイスを簡単に登録できるようになります。 CNAME DNS エントリは Windows デバイス登録では省略可能ですが、Windows デバイスの登録プロセス中にわかりやすくするために、必要なときは 1 つまたは複数のレコードを作成することをお勧めします。 CNAME レコードが検出されない場合は、MDM サーバー名を手動で入力するように求められます。
 
   1.  会社のドメインの **CNAME** DNS リソース レコードを作成します。 たとえば、会社の Web サイトが contoso.com の場合、EnterpriseEnrollment.contoso.com を manage.microsoft.com にリダイレクトする CNAME を DNS に作成します。 検証済みドメインが複数ある場合、ドメインごとに CNAME レコードを作成します。CNAME リソース レコードには次の情報を含める必要があります。
 
@@ -56,6 +56,6 @@ Microsoft Intune で Windows 10 Mobile または Windows Phone デバイスを�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,10 +1,10 @@
 ---
-title: "Volume Purchase Program で購入した iOS アプリを管理する | Microsoft Intune"
-description: 
+title: "ボリューム購入 iOS アプリを管理する | Microsoft Intune"
+description: "Intune は、アプリ ストアからライセンス情報をインポートし、使用したライセンスの数を追跡し、所有しているより多くのアプリをインストールできないようにすることで、Apple からボリューム購入したアプリを管理するために使用します。"
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,16 +13,16 @@ ms.assetid: 1dafc28a-7f8b-4fe0-8619-f977c93d1140
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ccb494f64426e6c2f21a59d8f52b84afe534d721
-ms.openlocfilehash: 65ceaa5a8f6604463463820545a9d108839c00c1
+ms.sourcegitcommit: c1850e89830de61ccdeb81cb6ee9cc0f0c1d237a
+ms.openlocfilehash: 6e179ce99dbda518dbefcaab6f502cc24498d7a3
 
 
 ---
 
 # Volume Purchase Program で購入した iOS アプリを Microsoft Intune を使って管理する
-一部のアプリ ストアでは、社内で実行するアプリの複数のライセンスを購入できます。 これは、購入したアプリの複数コピーを追跡する管理オーバーヘッドを削減するのに役立ちます。
+iOS アプリ ストアでは、社内で実行するアプリの複数のライセンスを購入できます。 これは、購入したアプリの複数コピーを追跡する管理オーバーヘッドを削減するのに役立ちます。
 
-Microsoft Intune では、このようなプログラムを通じて購入したアプリを管理するために、アプリ ストアからライセンス情報をインポートし、使用したライセンスの数を追跡し、所有しているより多くのアプリをインストールできないようにします。
+Microsoft Intune では、このプログラムを通じて購入したアプリを管理するために、アプリ ストアからライセンス情報をインポートし、使用したライセンスの数を追跡し、所有しているより多くのアプリをインストールできないようにします。
 
 > [!Important]
 > 現在、Intune は、デバイスではなくユーザーに iOS VPP アプリ ライセンスを割り当てます。 そのため、エンド ユーザーは、アプリをインストールするために Apple ID パスワードを入力する必要があります。
@@ -87,6 +87,6 @@ iOS アプリの複数のライセンスを購入するには、[Apple Volume Pu
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,10 +1,10 @@
 ---
 title: "SharePoint Online へのアクセスを制限する | Microsoft Intune"
-description: 
+description: "条件付きアクセスで SharePoint Online の会社データへのアクセスを保護および制御します。"
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 06/16/2016
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5a445f06d6c2328f7689468ca4d68a969af1e825
-ms.openlocfilehash: f8fcb01629c68e9c04b0e0319b937178859877ec
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 334eb869ddbc67767a6e9ed6711bd9135ceb558b
 
 
 ---
@@ -25,6 +25,8 @@ ms.openlocfilehash: f8fcb01629c68e9c04b0e0319b937178859877ec
 - デバイス コンプライアンス ポリシー。準拠したデバイスと見なされるには、このポリシーに準拠している必要があります。
 - 条件付きアクセス ポリシー。デバイスがサービスにアクセスするために満たす必要のある条件を指定します。
 条件付きアクセスの動作の詳細については、[電子メール、O365、およびその他のサービスへのアクセスを制限する](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)に関するトピックをご覧ください。
+
+コンプライアンスと条件付きアクセス ポリシーはユーザーに対して展開されます。 サービスへのアクセスにユーザーが使用するすべてのデバイスは、ポリシーによってコンプライアンスがチェックされます。
 
 ユーザーが、デバイスで OneDrive などのサポートされているアプリを使用してファイルに接続しようとすると、次の評価が行われます。
 
@@ -55,6 +57,10 @@ SharePoint Online の条件付きアクセス ポリシーを構成する**前�
 
 -   デバイスがポリシーに準拠していない場合は、ユーザーを [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] ポータル サイト Web サイトに導くメッセージが表示されます。このポータルで、問題とその修復方法に関する情報を確認することができます。
 
+**条件付きアクセスはすべての SharePoint サイトに適用され、外部共有がブロックされる**
+
+>[!NOTE]
+>SharePoint Online で条件付きアクセスを有効にする場合は、[Remove-SPOTenantSyncClientRestriction](https://technet.microsoft.com/en-us/library/dn917451.aspx) のトピックの説明に従って、一覧にあるドメインを無効にすることをお勧めします。  
 ## モバイル デバイスのサポート
 - iOS 7.1 以降
 - Android 4.0 以降、Samsung Knox Standard 4.0 以降
@@ -183,6 +189,6 @@ SharePoint Online ポリシーには、次の 2 つのグループの種類を�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

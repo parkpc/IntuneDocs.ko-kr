@@ -1,9 +1,9 @@
 ---
 title: "Intune に Android デバイスを登録する | Microsoft Intune"
-description: 
+description: "Intune に Android デバイスを登録する方法について説明します"
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/14/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
-ms.openlocfilehash: 76cc1a43e09039285be76858155ef22f7b41cf9b
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: d979334c792ba604fe142c62b17f1af4f9e69db7
 
 
 ---
@@ -115,13 +115,14 @@ Intune にデバイスを登録している最中にエラーが表示された�
 
 会社のアプリをインストールするには、最初に **[設定]** &gt; **[セキュリティ]** を選び、**[不明なソース]** をオンにします。 アプリをインストールする前にこのオプションをオンにしない場合、次のメッセージが表示されます。[インストールがブロックされました。 セキュリティ上の理由から、デバイスは不明のソースから取得したアプリのインストールをブロックするように設定されています。] エラー ダイアログの **[設定]** をタップすると、**[不明なソース]** オプションを表示できます。
 
-サポートが必要な場合は、 IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
+サポートが必要な場合は、 IT 管理者に問い合わせるか (連絡先情報については[会社のポータル Web サイト](http://portal.manage.microsoft.com)をご確認ください)、または Microsoft Android チーム (wintunedroidfbk@microsoft.com) にご連絡ください。
+
 
 ### 関連項目
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

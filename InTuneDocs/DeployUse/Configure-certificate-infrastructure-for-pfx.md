@@ -1,30 +1,26 @@
 ---
-title: PFX の証明書インフラストラクチャを構成する | Microsoft Intune
-description:
-keywords:
+title: "PFX の証明書インフラストラクチャを構成する | Microsoft Intune"
+description: ".PFX 証明書プロファイルを作成および展開します。"
+keywords: 
 author: nbigman
-manager: jeffgilb
+manager: Arob98
 ms.date: 05/16/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 2c543a02-44a5-4964-8000-a45e3bf2cc69
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: 
+ms.reviewer: vinaybha
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: f654dba31198115851feeeec90f04b8ad767e549
+
 
 
 ---
 # 証明書インフラストラクチャを構成する
-このトピックでは、証明書プロファイルを作成して展開するために必要なものについて説明します。
+このトピックでは、.PFX 証明書プロファイルを作成して展開するために必要なものについて説明します。
 
 組織で証明書ベースの認証を行うには、エンタープライズ証明機関が必要です。
 
@@ -51,7 +47,7 @@ ms.suite: ems
  > [!NOTE]           
 > -    WAP をホストするサーバーは、ネットワーク デバイス登録サービスで使用される長い URL のサポートを有効にする [更新プログラムをインストールする](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx) 必要があります。 この更新プログラムは、 [2014 年 12 月の更新プログラムのロールアップ](http://support.microsoft.com/kb/3013769)に含まれます。または、 [KB3011135](http://support.microsoft.com/kb/3011135)から個別に入手できます。
 >-  また、WAP をホストするサーバーが、外部クライアントに公開される名前と一致する SSL 証明書を持ち、NDES サーバーで使用される SSL 証明書を信頼する必要があります。 これらの証明書を使用すると、WAP サーバーはクライアントからの SSL 接続を終了し、NDES サーバーへの新しい SSL 接続を作成できます。
-WAP の証明書については、「[内部アプリケーションの公開のために Web アプリケーション プロキシをインストールおよび構成する](https://technet.microsoft.com/library/dn383650.aspx)」の**証明書の計画**に関するセクションを参照してください。 WAP サーバーの一般的な情報については、「[Web アプリケーション プロキシの使用](http://technet.microsoft.com/library/dn584113.aspx)」を参照してください。|
+    WAP の証明書については、「[内部アプリケーションの公開のために Web アプリケーション プロキシをインストールおよび構成する](https://technet.microsoft.com/library/dn383650.aspx)」の**証明書の計画**に関するセクションを参照してください。 WAP サーバーの一般的な情報については、「[Web アプリケーション プロキシの使用](http://technet.microsoft.com/library/dn584113.aspx)」を参照してください。|
 
 
 ### 証明書とテンプレート
@@ -82,12 +78,14 @@ WAP の証明書については、「[内部アプリケーションの公開の
 
     -   [ **拡張** ] タブで、[ **アプリケーション ポリシーの説明** ] に [ **クライアント認証**] が含まれることを確認します。
 
-        > [!IMPORTANT] iOS および Mac OS X の証明書テンプレートの場合、**[拡張]** タブで、**[キー使用法]** を編集し、**[署名は発行元の証明である]** がオンになっていないことを確認します。
+        > [!IMPORTANT]
+        > iOS および Mac OS X の証明書テンプレートの場合、**[拡張]** タブで、**[キー使用法]** を編集し、**[署名は発行元の証明である]** がオンになっていないことを確認します。
 
 
 3.  [ **一般** ] タブでテンプレートの [ **有効期間** ] を確認します。 既定では、Intune はテンプレートで構成されている値を使用します。 ただし、要求元が異なる値を指定できるように CA を構成できます。異なる値は、Intune 管理者コンソールから設定できます。 常にテンプレートの値を使用する場合は、この手順の残りの部分をスキップします。
 
-    > [!IMPORTANT] iOS および Mac OS X プラットフォームは、他の構成に関係なく、常にテンプレートで設定される値を使用します。
+    > [!IMPORTANT]
+    > iOS および Mac OS X プラットフォームは、他の構成に関係なく、常にテンプレートで設定される値を使用します。
 
     要求元が有効期間を指定できるように CA を構成するには、CA で次のコマンド実行します。
 
@@ -105,7 +103,7 @@ WAP の証明書については、「[内部アプリケーションの公開の
 
 5.  CA コンピューターで、Intune 証明書コネクタをホストするコンピューターが、.PFX プロファイルの作成で使用するテンプレートにアクセスできるように、登録アクセス許可を持つことを確認します。 CA コンピューター プロパティの **[セキュリティ]** タブでそのアクセス許可を設定します。
 
-### タスク 4 - Intune 証明書コネクタを有効にし、インストールし、構成する
+### タスク 2 - Intune 証明書コネクタを有効にし、インストールし、構成する
 このタスクでは次のことを行います。
 
 証明書コネクタをダウンロードし、インストールして、構成する
@@ -134,7 +132,8 @@ WAP の証明書については、「[内部アプリケーションの公開の
 
 4.  ウィザードが完了した後、ウィザードを閉じる前に、[ **証明書コネクタの UI を起動**] をクリックします。
 
-    > [!TIP] 証明書コネクタの UI を起動する前にウィザードを閉じた場合は、次のコマンドを実行して再び開くことができます。
+    > [!TIP]
+    > 証明書コネクタの UI を起動する前にウィザードを閉じた場合は、次のコマンドを実行して再び開くことができます。
     >
     > **&lt;install_Path&gt;\NDESConnectorUI\NDESConnectorUI.exe**
 
@@ -158,6 +157,7 @@ WAP の証明書については、「[内部アプリケーションの公開の
 これで、「[Configure certificate profiles](Configure-Intune-certificate-profiles.md)」 (証明書プロファイルを構成する) の説明に従って証明書プロファイルを構成する準備が整いました。
 
 
-<!--HONumber=May16_HO4-->
+
+<!--HONumber=Jul16_HO3-->
 
 

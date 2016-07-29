@@ -1,27 +1,27 @@
 ---
-title: "デバイスで管理対象アプリを使用する | Microsoft Intune"
+title: "iOS デバイスで管理対象アプリを使用する | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/11/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 3232c5c1-cb9f-45ca-806f-7e74eeb3533e
-ROBOTS: 
+ROBOTS: noindex,nofollow
 ms.reviewer: maxles
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 39e810466d3a98789f0f1338f68d2be80d757d39
-ms.openlocfilehash: 8feb4b293a021efd1f4cd26c43be76355d947143
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 8a219cd10bbfe1dd01003e732c8e9bf11c29b0f5
 
 
 ---
 
 
-# デバイスで管理対象アプリを使用する
+# iOS デバイスで管理対象アプリを使用する
 
 管理対象アプリとは、そのアプリでアクセス可能な会社のデータを保護できるよう IT 管理者が構成可能なアプリです。 管理対象アプリ内の会社のデータに iOS デバイスでアクセスする場合、アプリの動作が予期したものとは少し異なる場合があります。 たとえば、保護された会社のデータをコピーして貼り付けできない、またはそのデータを特定の場所に保存できない場合があります。
 
@@ -66,6 +66,6 @@ ms.openlocfilehash: 8feb4b293a021efd1f4cd26c43be76355d947143
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

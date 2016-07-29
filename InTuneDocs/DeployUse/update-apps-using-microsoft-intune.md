@@ -1,10 +1,10 @@
 ---
 title: "アプリを更新する | Microsoft Intune"
-description: 
+description: "新しいバージョンが必要な場合は、このトピックに含まれるアプリを更新する方法を参照してください。"
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/12/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: beee6933-876a-4be0-b395-4c24cfbd519b
 ms.reviewer: mghadial
 ms.suite: ems
-ms.sourcegitcommit: 0581d1476fba5bedcdd4446df20f8f92b151f41b
-ms.openlocfilehash: 9e5b8f4a467e8e58cc2f8fa495b5f008eee7e35b
+translationtype: Human Translation
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: bb077902e33d6ab18dea33a6ab2d1ff9a70ce937
 
 
 ---
@@ -23,6 +24,16 @@ Microsoft Intune は、アプリの更新プログラムを管理するのに役
 
 ## アプリを更新する方法
 展開しているアプリの新しいバージョンがリリースされるときに、Intune によって、新しいバージョンのアプリケーションを更新し、展開することができます。 展開のみを同じアプリの新しいバージョン (同じ識別子を使用) に置き換えることができます。 アプリの更新プログラムを使用して、別のアプリ パッケージで展開を更新することはできません。
+
+### アプリ識別子
+アプリ識別子は、アプリを一意に識別するプロパティです。 同じ識別子を持つアプリの複数のコピーをインストールすることはできません。 例:
+
+- **iOS** - バンドル ID (例: com.microsoft.excel)
+- **Android** - パッケージ ID (例: com.microsoft.excel)
+- **Windows Phone** - (xap インストーラー) 製品 ID (GUID) を使用
+- **Windows** - (appx/appxbundle) パッケージの完全名を使用
+
+
 
 > [!IMPORTANT]
 > [ **必須のインストール** ] の展開アクションでアプリを展開し、その後、展開アクションを [ **利用可能なインストール**] に変更した場合、アプリの更新プログラムは、展開を変更する前にアプリをインストールしたデバイスに自動的にインストールされません。 この問題を解決するには、次のことを行います。
@@ -49,6 +60,6 @@ Microsoft Intune は、アプリの更新プログラムを管理するのに役
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO3-->
 
 

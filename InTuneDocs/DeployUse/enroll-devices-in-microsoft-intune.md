@@ -1,10 +1,10 @@
 ---
 title: "デバイスを登録する | Microsoft Intune"
-description: 
+description: "Microsoft Intune のモバイル デバイス管理 (MDM) では、登録を使用してデバイスを管理対象にし、リソースへのアクセスを許可します。"
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 69cf07aa0747448e0ef3384b5b5132e0e76aed45
-ms.openlocfilehash: 930cbc806d8fd1185cf33fd64d866b88ec9a6a04
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: d128b9c9f0c9eda70abed058afeb665377047f66
 
 
 ---
@@ -34,7 +34,7 @@ Intune では、次のデバイス プラットフォームを管理できます
 
 **iOS の登録方法**
 
-| **方法** |  **[ワイプ](#Wipe)** | **[アフィニティ](#Affinity)**   |   **[Locked](#Locked)** |
+| **方法** |  **[ワイプ](#Wipe)** | **[アフィニティ](#Affinity)**   |   **[Locked](#Lock)** |
 |:---:|:---:|:---:|:---:|
 |**[BYOD](#BYOD)** | ×|    ○ |   × |
 |**[DEM](#DEM)**|   × |× |×  |
@@ -44,7 +44,7 @@ Intune では、次のデバイス プラットフォームを管理できます
 
 **Windows と Android の登録方法**
 
-| **方法** |  **[ワイプ](#Wipe)** | **[アフィニティ](#Affinity)**   |   **[Locked](#Locked)** |
+| **方法** |  **[ワイプ](#Wipe)** | **[アフィニティ](#Affinity)**   |   **[Locked](#Lock)** |
 |:---:|:---:|:---:|:---:|
 |**[BYOD](#BYOD)** | ×|    ○ |   × |
 |**[DEM](#DEM)**|   × |× |×  |
@@ -52,10 +52,10 @@ Intune では、次のデバイス プラットフォームを管理できます
 **企業所有デバイスの登録方法**
 
 ### BYOD
-"Bring Your Own Device"。 ユーザーがポータル サイト アプリをインストールし、自分のデバイスを登録します。 デバイスをポータル サイトに登録すると、デバイスが社内参加されます。 iOS デバイスをポータル サイトに登録するには、Apple ID が必要です。 BYOD の場合、企業所有デバイスに追加の構成は必要ありません。 「[デバイス管理のセットアップ](get-ready-to-enroll-devices-in-microsoft-intune.md#set-up-device-management)」手順を参照してください ([表に戻る](#overview-of-corporate-owned-device-enrollment-methods))。
+"Bring Your Own Device"。 ユーザーがポータル サイト アプリをインストールし、自分のデバイスを登録します。 デバイスをポータル サイトに登録すると、デバイスが社内参加されます。 iOS デバイスをポータル サイトに登録するには、Apple ID が必要です。 BYOD の場合、企業所有デバイスに追加の構成は必要ありません。 「[デバイス管理のセットアップ](get-ready-to-enroll-devices-in-microsoft-intune.md#set-up-device-management)」手順を参照してください ([表に戻る](#overview-of-device-enrollment-methods))
 
 ### DEM
-デバイス登録マネージャー。 管理者は、企業所有のデバイスを管理する DEM アカウントを作成します。 作成後は、マネージャーがポータル サイトをインストールし、多数のユーザーがいないデバイスを登録できます。 DEM の詳細については[ここ](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)を参照してください。 ([表に戻る](#overview-of-corporate-owned-device-enrollment-methods))。
+デバイス登録マネージャー。 管理者は、企業所有のデバイスを管理する DEM アカウントを作成します。 作成後は、マネージャーがポータル サイトをインストールし、多数のユーザーがいないデバイスを登録できます。 DEM の詳細については[ここ](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)を参照してください。 ([表に戻る](#overview-of-device-enrollment-methods))
 
 ### DEP
 Apple Device Enrollment Program。 管理者がポリシーを作成し、DEP で管理する購入済みの企業所有 iOS デバイスに "無線で" ポリシーを展開します。 デバイスは、ユーザーが iOS のセットアップ アシスタントを実行するときに登録されます。 この方法は、**iOS 監督下**モードをサポートしているので、以下が有効になります。
@@ -64,7 +64,7 @@ Apple Device Enrollment Program。 管理者がポリシーを作成し、DEP �
   - 脱獄の検出
   - モバイル アプリケーション管理
 
-DEP の詳細については[ここ](ios-device-enrollment-program-in-microsoft-intune.md)を参照してください。 ([表に戻る](#overview-of-corporate-owned-device-enrollment-methods))。
+DEP の詳細については[ここ](ios-device-enrollment-program-in-microsoft-intune.md)を参照してください。 ([表に戻る](#overview-of-device-enrollment-methods))
 
 ### USB-SA
 USB 接続のセットアップ アシスタント登録。 管理者が Intune ポリシーを作成し、Apple Configurator にエクスポートします。 USB で接続された企業所有デバイスは、Intune ポリシーで準備されます。 管理者は手動で各デバイスを登録する必要があります。 ユーザーはデバイスを受け取り、セットアップ アシスタントを実行してデバイスを登録します。 この方法は、**iOS 監督下**モードをサポートしているので、以下が有効になります。
@@ -72,16 +72,16 @@ USB 接続のセットアップ アシスタント登録。 管理者が Intune 
   - 脱獄の検出
   - モバイル アプリケーション管理
 
-Apple Configurator を使用したセットアップ アシスタントの登録については、[ここ](ios-setup-assistant-enrollment-in-microsoft-intune.md)を参照してください。 ([表に戻る](#overview-of-corporate-owned-device-enrollment-methods))。
+Apple Configurator を使用したセットアップ アシスタントの登録については、[ここ](ios-setup-assistant-enrollment-in-microsoft-intune.md)を参照してください。 ([表に戻る](#overview-of-device-enrollment-methods))
 
 ### USB-Direct
-直接登録。 管理者が Intune ポリシーを作成し、Apple Configurator にエクスポートします。 USB で接続された企業所有デバイスは、工場出荷時のリセットを実行せずに、直接登録されます。 管理者は手動で各デバイスを登録する必要があります。 デバイスはユーザーがいないデバイスとして管理されます。 これらのデバイスはロックされず、監督下に置かれません。条件付きアクセス、脱獄の検出、モバイル アプリケーション管理はサポートできません。 Apple Configurator を使用した直接登録については、[ここ](ios-direct-enrollment-in-microsoft-intune.md)を参照してください。 ([表に戻る](#overview-of-corporate-owned-device-enrollment-methods))。
+直接登録。 管理者が Intune ポリシーを作成し、Apple Configurator にエクスポートします。 USB で接続された企業所有デバイスは、工場出荷時のリセットを実行せずに、直接登録されます。 管理者は手動で各デバイスを登録する必要があります。 デバイスはユーザーがいないデバイスとして管理されます。 これらのデバイスはロックされず、監督下に置かれません。条件付きアクセス、脱獄の検出、モバイル アプリケーション管理はサポートできません。 Apple Configurator を使用した直接登録については、[ここ](ios-direct-enrollment-in-microsoft-intune.md)を参照してください。 ([表に戻る](#overview-of-device-enrollment-methods))
 
 **企業所有のモバイル デバイスの動作**
 
 ### ワイプ
 デバイスを登録する場合、工場出荷時のリセットを実行してデバイスからすべてのデータを削除し、初期状態に戻す必要があるかどうかを指定します。
-([表に戻る](#overview-of-corporate-owned-device-enrollment-methods))。
+[デバイスを削除する](retire-devices-from-microsoft-intune-management.md) ([表に戻る](#overview-of-device-enrollment-methods))
 
 ### アフィニティ
 デバイスを特定のユーザーと接続する "ユーザー アフィニティ" をサポートする登録方法かどうかを指定します。 "任意" デバイスは、ユーザー アフィニティの有無にかかわらず登録できます。 以下をサポートするには、ユーザー アフィニティが必要です。
@@ -89,11 +89,11 @@ Apple Configurator を使用したセットアップ アシスタントの登録
   - 電子メールと会社データへの条件付きアクセス
   - ポータル サイト アプリ
 
-([表に戻る](#overview-of-corporate-owned-device-enrollment-methods))。
+[ユーザー アフィニティ](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#enrollment-of-company-owned-ios-devices-with-user-affinity) ([表に戻る](#overview-of-device-enrollment-methods))
 
 ### ロック
 ユーザーが Intune ポリシーを削除して、実質的にデバイスが管理対象から外れないように、デバイスをロックするかどうかを指定します。 iOS デバイスの場合、デバイスをロックするには、監督下モードにする必要があります。
-([表に戻る](#overview-of-corporate-owned-device-enrollment-methods)) ([表に戻る](#overview-of-corporate-owned-device-enrollment-methods))
+([表に戻る](#overview-of-device-enrollment-methods))
 
 ## デバイスの登録を可能にする  
  登録は、ユーザーが個人のデバイスで会社のリソースにアクセスできるようにし、これらのデバイスが会社のリソースを保護するポリシーに準拠していることを管理者が保証できるようにします。 これは、Intune で "私物のデバイスの持ち込み" シナリオを可能にする最善の方法です。 管理者は、Intune コンソールで登録を有効にする必要があります。これを行うには、デバイスとユーザーに割り当てるライセンスの間で信頼関係を作成しなければならないことがあります。 その後、デバイスが登録されますが、この操作は、通常はユーザーが自分の職場または学校の資格情報を入力することで行います。 これで、デバイスが Intune からポリシーを受信し、リソースへのアクセス許可を取得するようになります。
@@ -107,8 +107,6 @@ Apple Configurator を使用したセットアップ アシスタントの登録
 
 ## Exchange ActiveSync および Intune を使用したモバイル デバイス管理
 登録されていないが Exchange ActiveSync (EAS) に接続するモバイル デバイスは、EAS MDM ポリシーを使用して Intune で管理できます。 Intune は、Exchange Connector を使用して、オンプレミスのまたはクラウドでホストされている EA と通信します。
-
-
 
 [Exchange ActiveSync および Intune を使用したモバイル デバイス管理](mobile-device-management-with-exchange-activesync-and-microsoft-intune.md)
 
@@ -126,6 +124,6 @@ Intune クライアント ソフトウェアを使用して管理されるコン
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

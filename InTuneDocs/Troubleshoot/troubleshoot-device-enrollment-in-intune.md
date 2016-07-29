@@ -1,6 +1,6 @@
 ---
 title: "デバイス登録に関するトラブルシューティング | Microsoft Intune"
-description: 
+description: "デバイス登録で問題が発生した場合の解決方法の推奨事項。"
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d12a31eb0727f7ca0c460049ac6fffb314daf70e
-ms.openlocfilehash: 62668c607bc3064cf8148fd7929b3c1268b721d7
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: 4c728b4fbb68d64d4e06845eca08b1b2d8d1a92a
 
 
 ---
@@ -160,8 +160,29 @@ ms.openlocfilehash: 62668c607bc3064cf8148fd7929b3c1268b721d7
 
 2.  デバイスが別の MDM プロバイダーに登録されていないこと、また管理プロファイルがインストールされていないことを確認します。
 
-
 4.  Android 用の Chrome が既定のブラウザーであり、Cookie が有効であることを確認します。
+
+### Android 証明書に関する問題
+
+**問題**: ユーザーが自分のデバイスで、*「You cannot sign in because your device is missing a required certificate.」* (デバイスに必要な証明書がないためにサインインすることはできません。) というメッセージを受信します。
+
+**解決方法**: 
+
+- ユーザーは、[この手順](/intune/enduser/your-device-is-missing-a-required-certificate-android#your-device-is-missing-a-certificate-required-by-your-it-administrator)に従って、欠落している証明書を取得できる場合があります。
+- ユーザーが証明書を取得できない場合は、ADFS サーバーの中間証明書が欠落している可能性があります。 Android では、サーバーを信頼するために中間証明書が必要です。 
+
+次のように、ADFS サーバーまたはプロキシで証明書を中間ストア内にインポートできます。
+
+1.  ADFS サーバーで、**Microsoft 管理コンソール**を起動し、**コンピューター アカウント**に証明書スナップインを追加します。 
+5.  ADFS サービスが使用している証明書を検索し、その親証明書を表示します。
+6.  親証明書をコピーして、**Computer\Intermediate Certification Authorities\Certificates** に貼り付けます。
+7.  ADFS、ADFS 復号化、および ADFS 署名証明書をコピーして、ADFS サービスの個人用ストアに貼り付けます。
+8.  ADFS サーバーを再起動します。
+
+これで、Android デバイスでポータル サイトにサインインできるようになります。
+
+
+
 ## iOS の問題
 ### プロファイルのインストールに失敗しました
 **問題:** iOS デバイスで **"プロファイルのインストールに失敗しました"** というエラーがユーザーに表示されます。
@@ -285,6 +306,6 @@ iOS 登録エラーの一覧は、デバイスのユーザー ドキュメント
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

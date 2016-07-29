@@ -1,10 +1,10 @@
 ---
 title: "Skype for Business Online へのアクセスを制限する | Microsoft Intune"
-description: 
+description: "条件付きアクセスで Skype for Business Online へのアクセスを保護および制御します。"
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 ms.reviewer: chrisgre
 ms.suite: ems
-ms.sourcegitcommit: 5cbf748ffee8fbb53f7e64a5499f06d5bd89c415
-ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
+translationtype: Human Translation
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 693feee133a594032c0edc69f03f65681bacfb81
 
 
 ---
@@ -32,7 +33,7 @@ ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
 Skype for Business Online の条件付きアクセス ポリシーを構成する**前に**、次のことを行う必要があります。
 - **Skype for Business Online サブスクリプション**を取得し、Skype for Business Online のライセンスをユーザーに割り当てます。
 - **Enterprise Mobility Suite** または **Azure Active Directory Premium** のサブスクリプションを取得します。
--   Skype for Business Online で[先進認証を有効](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune)にします。 
+-   Skype for Business Online で[先進認証を有効](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune)にします。
 -  すべてのエンド ユーザーが **Skype for Business Online** を使用している必要があります。 展開に Skype for Business Online とオンプレミスの Skype for Business の両方が含まれる場合は、エンド ユーザーに条件付きアクセス ポリシーが適用されません。
 
     Skype for Business Online にアクセスするデバイスは、次の条件を満たしている必要があります。
@@ -68,10 +69,12 @@ Skype for Business ポリシーに対して使用する 2 つのグループの�
 ### 手順 2. コンプライアンス ポリシーを構成し、展開する
 コンプライアンス ポリシーを[作成](create-a-device-compliance-policy-in-microsoft-intune.md)し、ポリシーによって影響を受けるすべてのデバイスに[展開](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)します。 これは、**対象グループ**内のユーザーによって使用されるすべてのデバイスです。
 
-> [!NOTE] コンプライアンス ポリシーは [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] グループに展開されますが、条件付きアクセス ポリシーは、Azure Active Directory セキュリティ グループを対象とします。
+> [!NOTE]
+> コンプライアンス ポリシーは [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] グループに展開されますが、条件付きアクセス ポリシーは、Azure Active Directory セキュリティ グループを対象とします。
 
 
-> [!IMPORTANT] コンプライアンス ポリシーを展開していない場合は、デバイスがポリシーに準拠しているものと見なされます。
+> [!IMPORTANT]
+> コンプライアンス ポリシーを展開していない場合は、デバイスがポリシーに準拠しているものと見なされます。
 
 準備ができたら、 **手順 3**に進みます。
 
@@ -113,6 +116,6 @@ Skype for Business ポリシーに対して使用する 2 つのグループの�
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO3-->
 
 

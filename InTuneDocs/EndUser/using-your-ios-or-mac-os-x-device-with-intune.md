@@ -1,9 +1,9 @@
 ---
 title: "iOS デバイスまたは Mac OS X デバイスを Intune で使用する | Microsoft Intune"
-description: 
+description: "iOS や Mac OS X モバイル デバイスが Intune で登録されている場合に、デバイスで実行できるタスクへのリンクの一覧"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/03/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 24573d04c319e359b810b6fdf607b44db19306e9
-ms.openlocfilehash: bf298bace896a666d1f2992f2921ebf5a15f05f7
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 6c3d8b3a64d98357b7aac2a9f000ca33125c1858
 
 
 ---
@@ -50,7 +50,7 @@ ms.openlocfilehash: bf298bace896a666d1f2992f2921ebf5a15f05f7
 
 このセクションの情報は、iOS デバイスを Intune に登録した場合に発生する可能性がある問題を解決するのに役立ちます。
 
-- [セキュリティを侵害された iOS デバイスを再接続する方法](how-to-reconnect-a-compromised-ios-device)
+- [セキュリティを侵害された iOS デバイスを再接続する方法](how-to-reconnect-a-compromised-ios-device.md)
 - [IT 管理者にエラーを送信する](send-errors-to-your-it-admin-ios.md)
 - [会社のポータル アプリの使用中にエラーが発生する](you-get-an-error-while-using-the-company-portal-app-ios.md)
 - [Intune にデバイスを登録している最中にエラーが表示される](you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md)
@@ -63,6 +63,6 @@ ms.openlocfilehash: bf298bace896a666d1f2992f2921ebf5a15f05f7
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

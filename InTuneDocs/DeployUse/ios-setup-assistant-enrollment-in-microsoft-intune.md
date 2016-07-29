@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Intune での iOS デバイスのセットアップ アシスタントを使用した登録 | Microsoft Intune"
-description: 
+title: "セットアップ アシスタントを使用した iOS デバイスの登録 | Microsoft Intune"
+description: "Apple Configurator ツールを使用して企業所有の iOS デバイスを登録し、デバイスを工場出荷時設定に戻して、セットアップ アシスタントを実行するために準備します。"
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 46e5b027-4280-4809-b45f-651a6ab6d0cd
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f3637e79e7b6f93820e775932653c41879f369fe
-ms.openlocfilehash: b9cb10ccb26d4f61d63fb2dc6c18be48cc0a3182
+ms.sourcegitcommit: 26ac7d52c0ad3e37e517b60d448a94849c0f4b30
+ms.openlocfilehash: f36217aa5e691ea22c891c08d1d5b886726f0a9a
 
 
 ---
@@ -27,6 +27,7 @@ Intune は、Mac コンピューターで実行される [Apple Configurator](ht
 Apple Configurator を使用して、iOS デバイスを工場出荷時の設定に戻し、デバイスの新しいユーザーによるセットアップ用に準備できます。  この方法では、iOS デバイスを Mac コンピューターに USB 接続して、会社の登録をセットアップする必要があります。この方法では、Apple Configurator 2.0 の使用を想定しています。 ほとんどのシナリオでは、Intune ポータル サイト アプリを有効にするために、iOS デバイスに適用されるポリシーに*ユーザー アフィニティ*が含まれている必要があります。
 
 **必要条件**
+* APNs 証明書をインストールして [iOS の登録](set-up-ios-and-mac-management-with-microsoft-intune.md)を有効にする
 * iOS デバイスへの物理アクセス - デバイスがパスワードで保護されない未構成 (工場出荷時設定) 状態である必要があります。
 * デバイスのシリアル番号 - [iOS シリアル番号を取得する方法](https://support.apple.com/en-us/HT204308)
 * USB 接続ケーブル
@@ -36,8 +37,6 @@ Apple Configurator を使用して、iOS デバイスを工場出荷時の設定
 1.  **モバイル デバイス グループを作成する** (オプション) ビジネスでデバイスの管理にモバイル デバイス グループが必要な場合は、これらのグループを作成します。 [Microsoft Intune でユーザーとデバイスの管理にグループを使用します](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)。
 
 2.  **デバイスのプロファイルを作成する** デバイス登録プロファイルで、デバイスのグループに適用する設定を定義します。 まだ定義していない場合は、Apple Configurator を使用して、iOS デバイス用のデバイス登録プロファイルを作成してください。
-
-    ###### プロファイルを作成するには
 
     1.  [Microsoft Intune 管理コンソール](http://manage.microsoft.com)で **[ポリシー]** &gt; **[会社が所有しているデバイス]** の順に進み、**[追加]** を選択します。
 
@@ -62,8 +61,7 @@ Apple Configurator を使用して、iOS デバイスを工場出荷時の設定
 
         -   **デバイス グループの事前割り当て** - このプロファイルに展開されているすべてのデバイスが最初にこのグループに割り当てられます。 登録後にデバイスの再割り当てができます。
 
-        >[!Important]
-        >グループの割り当てが Intune から Azure Active Directory に移動します。 [詳細情報](http://go.microsoft.com/fwlink/?LinkID=787064)
+            [!INCLUDE[groups deprecated](../includes/group-deprecation.md)]
 
           -  **Device Enrollment Program** - セットアップ アシスタントの登録では、Apple Device Enrollment Program (DEP) を使用できません。 このトグル ボタンが**オフ**に設定されていることを確認してください。
 
@@ -153,6 +151,6 @@ Apple Configurator を使用して、iOS デバイスを工場出荷時の設定
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,10 +1,10 @@
 ---
 title: "インベントリを使用してデバイスを把握する | Microsoft Intune"
-description: 
+description: "Intune を使用して、管理するデバイスのハードウェアに関する情報を表示します。"
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 312911fe-b963-4949-9911-ae425e0590b2
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 42e21b802fb605c98f688485c3b77703b3950e94
-ms.openlocfilehash: 55b99e326e4f22aee62b207eb2e976a8d52e70c3
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 669e096735ae7123123873dad8982abf2c4c38d6
 
 
 ---
@@ -114,6 +114,6 @@ Windows PC で収集されたインベントリを表示するには、[コン�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

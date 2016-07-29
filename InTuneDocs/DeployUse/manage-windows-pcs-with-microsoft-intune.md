@@ -1,5 +1,5 @@
 ---
-title: "Intune を使用して Windows PC を管理する | Microsoft Intune"
+title: "Intune PC クライアントを使用して Windows PC を管理する | Microsoft Intune"
 description: 
 keywords: 
 author: nathbarn
@@ -13,21 +13,23 @@ ms.assetid: 3b8d22fe-c318-4796-b760-44f1ccf34312
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0335b80afa8e330263baad054f0e902f019f75bb
-ms.openlocfilehash: 92f4ddde3336fd4cf07c701596f5ebe4c0aeb49f
+ms.sourcegitcommit: e09381bbcf073baa67a431546059272e629b5423
+ms.openlocfilehash: d22714f7b6eda1632892785568463fc5bafce8d0
 
 
 ---
 
-# Microsoft Intune を使用して Windows PC を管理する
-Intune を使用すると、デバイスを登録するだけでなく、Intune Windows PC クライアント ソフトウェアを使用して、サポートされるオペレーティング システムを実行する Windows PC も管理できます。 コンピューター クライアントを実行するためのハードウェアとソフトウェアの要件は最小限に抑えられており、基本的には、Windows 7 以降を実行できるすべてのシステムがサポートされます。  また、クライアント ソフトウェアは、(任意のドメイン内の) ドメインに参加しているコンピューターとドメインに参加していないコンピューターのどちらにも簡単にインストールできます。
+# Intune PC クライアント ソフトウェアを使用して Windows PC を管理する
+[モバイル デバイスとして Windows PC を登録する](set-up-windows-device-management-with-microsoft-intune.md)代わりに、Intune クライアント ソフトウェアをインストールして Windows PC を管理することができます。 
 
 Intune では、Windows Server における Active Directory ドメイン サービス (AD DS) グループ ポリシー オブジェクト (GPO) と似た方法でポリシーを使用して Windows PC を管理します。 Active Directory ドメインに参加しているコンピューターを Intune で管理する場合は、[Intune のポリシーが組織で設定されているどの GPO とも競合しないようにしてください](resolve-gpo-and-microsoft-intune-policy-conflicts.md)。
 
-> [!NOTE]
-> スタンドアロン サービスとしての Microsoft Intune は、コンピューターを管理するために以下の機能を提供します。 Windows 8.1 を実行しているデバイスは、Intune クライアントを使用して管理できるほか、モバイル デバイスとして登録することもできます。 以下は、Intune クライアントを実行するコンピューターに適用される情報です。
+Intune クライアンでは、ソフトウェアの更新、Windows ファイアウォール、および Endpoint Protection を管理することで [PC の保護に役立つポリシー](policies-to-protect-windows-pcs-in-microsoft-intune.md)がサポートされますが、Intune クライアントで管理される PC を他の Intune ポリシーの対象とすることはできません。
 
-## Intune PC 管理の要件
+> [!NOTE]
+> Windows 8.1 を実行しているデバイスは、Intune クライアントを使用して管理できるほか、モバイル デバイスとして登録することもできます。 以下は、Intune クライアントを実行するコンピューターに適用される情報です。 Intune PC クライアントとモバイル デバイス管理用の Windows デバイス登録の両方のインストールはサポートされません。
+
+## Intune PC クライアント管理の要件
 
 **ハードウェア**: 次に、Intune クライアントをインストールするハードウェアの最小要件を示します。
 
@@ -41,20 +43,19 @@ Intune では、Windows Server における Active Directory ドメイン サー
 
 |要件|説明|
 |---------------|--------------------|
-|管理者のアクセス許可|クライアント ソフトウェアをインストールするアカウントは、その PC のローカル管理者のアクセス許可を持っている必要があります。|
+|オペレーティング システム | Windows 7.0 以降を実行している Windows デバイスであること。 |
+|管理者のアクセス許可|クライアント ソフトウェアをインストールするアカウントは、そのデバイスのローカル管理者のアクセス許可を持っている必要があります。|
 |Windows インストーラー 3.1|PC には Windows インストーラー 3.1 以降がインストールされている必要があります。<br /><br />PC で Windows インストーラーのバージョンを確認するには<br /><br />-   PC で、**%windir%\System32\msiexec.exe** を右クリックし、**[プロパティ]** をクリックします。<br /><br />最新バージョンの Windows インストーラーは、Microsoft Developer Network Web サイトの「 [Windows Installer Redistributables (Windows インストーラー再頒布可能パッケージ)](http://go.microsoft.com/fwlink/?LinkID=234258) 」からダウンロードできます。|
 |互換性のないクライアント ソフトウェアを削除する|Intune クライアント ソフトウェアをインストールする前に、その PC から Configuration Manager または System Management Server クライアント ソフトウェアをアンインストールする必要があります。|
 
 ## Intune コンピューター クライアントのインストール
-Intune で Windows PC を管理する最初の手順は、クライアントのインストールです。 PC が Intune サービスによる管理に登録されていれば、次のいずれかの方法でクライアント ソフトウェアをインストールできます。
+Intune クライアント ソフトウェアは、次の方法のいずれかでインストールできます。
 
--   [Microsoft Intune クライアント ソフトウェアを手動で展開](install-the-windows-pc-client-with-microsoft-intune.md#to-manually-deploy-the-client-software)できます。 この種類の展開では、管理者は Intune クライアント ソフトウェアをダウンロードし、手動で各 PC にインストールします。
+-   [Microsoft Intune クライアント ソフトウェアを手動で展開します](install-the-windows-pc-client-with-microsoft-intune.md#to-manually-deploy-the-client-software)。 この種類の展開では、管理者は Intune クライアント ソフトウェアをダウンロードし、手動で各 PC にインストールします。
 
-    Intune クライアント ソフトウェアをダウンロードするには、Intune 管理コンソールを開いて、[クライアント ソフトウェアのダウンロード] 領域でクライアント ソフトウェア パッケージをダウンロードします。 クライアント ソフトウェアのインストール後、コンピューターを管理するために必要な追加のソフトウェアが Intune によって自動的にインストールされます。
+  Intune クライアント ソフトウェアをダウンロードするには、[Intune 管理コンソール](https://manage.microsoft.com)を開いて、**[管理]**  >  **[クライアント ソフトウェアのダウンロード]** の順に選択し、**[クライアント ソフトウェア のダウンロード]** をクリックします。
 
 -   Intune クライアントを手動でインストールする場合にダウンロードするのと同じファイルを使用して、[ドメインに参加しているコンピューターに Active Directory GPO を使ってクライアントを展開できます](install-the-windows-pc-client-with-microsoft-intune.md#to-automatically-deploy-the-client-software-by-using-group-policy)。
-
--   [エンド ユーザーは、Intune ポータル サイトで自分の各コンピューターを自己登録できます](install-the-windows-pc-client-with-microsoft-intune.md#how-users-can-self-enroll-their-computers)。 登録されたコンピューターは、Intune クライアント ソフトウェアをインストールするときに使用したユーザー アカウントに自動的に関連付けられます。
 
 -   Intune クライアント ソフトウェアを、[オペレーティング システム展開](install-the-windows-pc-client-with-microsoft-intune.md#install-the-microsoft-intune-client-software-as-part-of-an-image)の一部としてコンピューターに展開することもできます。
 
@@ -85,6 +86,6 @@ Intune のクライアント エージェントは通常、ユーザー操作や
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

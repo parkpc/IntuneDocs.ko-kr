@@ -1,28 +1,19 @@
 ---
-# required metadata
-
-title: Intune にデバイスを登録する | Microsoft Intune
-description:
-keywords:
+title: "Intune にデバイスを登録する | Microsoft Intune"
+description: "Intune にさまざまなデバイスを登録する方法についての手順へのリンクを提供します"
+keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 06/06/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: b51dbdd6-aaa3-48dd-a47f-9d01a4ca37f6
+translationtype: Human Translation
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 4b4ba4c57b8675ad1fde256ce07904af93fd8cd7
 
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-#ms.reviewer: [ALIAS]
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
 
 ---
 
@@ -42,6 +33,7 @@ ms.assetid: b51dbdd6-aaa3-48dd-a47f-9d01a4ca37f6
 - [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)</br>
 - [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jul16_HO3-->
 
 

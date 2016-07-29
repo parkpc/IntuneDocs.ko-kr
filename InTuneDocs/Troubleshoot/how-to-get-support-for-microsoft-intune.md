@@ -1,10 +1,10 @@
 ---
 title: "サポートを受ける方法 | Microsoft Intune"
-description: 
+description: "有料サブスクリプションとトライアル サブスクリプションについて、オンラインと電話によるサポートを利用できます。"
 keywords: 
 author: Nbigman
 manager: jeffgilb
-ms.date: 05/26/2016
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 4682b6b6-c9ef-483e-a6de-b8830cb98b63
 ms.reviewer: jeffgilb
 ms.suite: ems
-ms.sourcegitcommit: 632115d1010217f927e20a7e9532311d48f2b106
-ms.openlocfilehash: a6cb77b441c7c44f33c0353232409f8d7b2daa6a
+translationtype: Human Translation
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: c464f0ff5d36e2bc4fb03ae8cfa6ac38580f9213
 
 
 ---
@@ -26,34 +27,33 @@ ms.openlocfilehash: a6cb77b441c7c44f33c0353232409f8d7b2daa6a
 Intune のセルフ ヘルプについては、「[Microsoft Intune の一般的なトラブルシューティングのヒント](general-troubleshooting-tips-for-microsoft-intune.md)」、またはこのトピックの「**関連項目**」に記載されている特定の問題に関するトラブルシューティングのトピックを参照してください。
 ## オンライン サービス リクエストの作成
 
-1.  Intune にサインインし、[Office 365 管理センター](https://portal.office.com/Support/SupportEntry.aspx)にアクセスします。
+1.  Intune 資格情報を使用して [Office 365 管理センター](https://portal.office.com/admin/default.aspx#Overview_SupportPage_AltUSupportPage)にサインインします。
 
-2.  見出しの **[サービス要求の作成]** で、チケットをオープンする問題のカテゴリを選択します。
+2.  [サービス要求の作成]** でチケットをオープンする問題のカテゴリを選択します。
 
-    -   請求とライセンスの問題については、**[請求と製品に関する情報]** を選択します。
+    -   請求、ライセンス、アカウントの問題については、**[請求と製品に関する情報]** を選択します。
 
-    -   その他の Intune に関する問題については、**[モバイル デバイス管理]** を選択します。 このオプションは、Office 365 MDM の場合と、System Center Configuration Manager と Intune を併用する場合も対象です。
+    -   その他の Intune に関する問題については、**[モバイル デバイス管理]** を選択します。
 
     > [!NOTE]
-    > [!NOTE]すべてのカテゴリを表示するには、一覧の一番下にある **[詳細]** をクリックします。
+    > すべてのカテゴリを表示するには、一覧の一番下にある **[詳細]** を選択します。
 
 3.  **[問題の特定]** ページで、ヘルプが必要な **[機能]** と **[現象]** を選択します。 **[問題の概要]** と **[問題の詳細]** を入力するように求められます。
 
-4.  **[提案の確認]** ページには、問題を自力で解決するために役立つコンテンツのリンクが表示されます。  問題を解決できない場合は、一番下にある **[はい、続行します]** をクリックしてサービス リクエストを送信します。
+4.  **[提案の確認]** ページには、問題を自力で解決するために役立つコンテンツのリンクが表示されます。  問題を解決できない場合は、一番下にある **[はい、続行します]** を選択してサービス リクエストを送信します。
 
-5.  **[詳細の追加]** ページで、指定された情報を入力します。 **[ファイルの添付]** をクリックして、スクリーンショットや他のドキュメントを添付できます。
+5.  **[詳細の追加]** ページで、指定された情報を入力します。 **[ファイルの添付]** を選択して、スクリーンショットや他のドキュメントを添付できます。
 
-6.  **[確認して送信]** ページで、連絡先情報を入力し、リクエストを確認し、**[要求の送信]** をクリックします。 リクエストが送信されると、サービス リクエストの一覧が表示されます。
+6.  **[確認して送信]** ページで、連絡先情報を入力し、リクエストを確認し、**[要求の送信]** を選択します。 リクエストが送信されると、サービス リクエストの一覧が表示されます。
 
 ## 電話でのサポート
 国および地域別のサポート電話番号、サポート時間、各地域でのサポート言語の一覧については、「[Microsoft Intune のサポートの電話番号](contact-assisted-phone-support-for-microsoft-intune.md)」を参照してください。
 
 ## サービス リクエストの追跡
-リクエストを追跡するには、[Office 365 管理センター](https://portal.office.com/admin/default.aspx)にアクセスします。 **[サービス要求の作成]** 一覧の下部にある **[すべてのサポート チケットの表示]** をクリックします。 既定では、未解決状態のすべてのサービス リクエストが表示されます。 解決済みのリクエストを表示するなど、表示されるサービス リクエストを変更するには、上部のナビゲーションにあるフィルター アイコンをクリックし、目的のビューを選択します。
+リクエストを追跡するには、[Office 365 管理センター](https://portal.office.com/admin/default.aspx)にアクセスします。 **[サービス要求の作成]** 一覧の下部にある **[すべてのサポート チケットの表示]** を選択します。 既定では、未解決状態のすべてのサービス リクエストが表示されます。 解決済みのリクエストを表示するなど、表示されるサービス リクエストを変更するには、上部のナビゲーションにあるフィルター アイコンを選択し、目的のビューを選択します。
 
 > [!NOTE]
-> [!NOTE]
-**Microsoft System Center Configuration Manager** または **Microsoft System Center Endpoint Protection** を使用している場合: Configuration Manager または Endpoint Protection のテクニカル サポートについては、パートナーに問い合わせるか、[Microsoft System Center Configuration Manager/System Center Endpoint Protection Solution Center](http://www.microsoft.com/en-us/server-cloud/products/system-center-2012-r2/resources.aspx) にアクセスしてください。このサイトには豊富なセルフヘルプ資料が掲載されており、オンラインまたは電話でサポート リクエストを開始することもできます。
+> **Microsoft System Center Configuration Manager** または **Microsoft System Center Endpoint Protection** を使用している場合: Configuration Manager または Endpoint Protection のテクニカル サポートについては、パートナーに問い合わせるか、[Microsoft System Center Configuration Manager/System Center Endpoint Protection Solution Center](http://www.microsoft.com/en-us/server-cloud/products/system-center-2012-r2/resources.aspx) にアクセスしてください。このサイトには豊富なセルフヘルプ資料が掲載されており、オンラインまたは電話でサポート リクエストを開始することもできます。
 >
 > System Center Configuration Manager または System Center Endpoint Protection のテクニカル サポートは有料です。または既存のライセンスまたは Premire サポート契約の利用分としてカウントされます。
 
@@ -140,6 +140,6 @@ Microsoft サポートには次の役割があります。
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

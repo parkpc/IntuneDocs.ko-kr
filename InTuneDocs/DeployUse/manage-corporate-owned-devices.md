@@ -1,10 +1,10 @@
 ---
 title: "企業所有のデバイスの管理 | Microsoft Intune"
-description: 
+description: "企業所有のデバイス (COD) を、デバイスや購入方法、組織のニーズに応じて多様な方法で管理対象にする。"
 keywords: 
 author: NathBarn
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 2b60bbff-25e6-489b-9621-c71b4275fa06
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 69cf07aa0747448e0ef3384b5b5132e0e76aed45
-ms.openlocfilehash: e07053b9b26afacc03e45f2cb104eda6088a1e05
+ms.sourcegitcommit: 26ac7d52c0ad3e37e517b60d448a94849c0f4b30
+ms.openlocfilehash: 6cf620a96b39540c8b7ca618936af1367971bb8f
 
 
 ---
@@ -32,13 +32,27 @@ ms.openlocfilehash: e07053b9b26afacc03e45f2cb104eda6088a1e05
 
 [デバイス登録マネージャーを使った企業所有のデバイスの登録](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)
 
-## International Mobile Equipment Identity (IMEI)
-一意の IMEI (国際移動体装置識別番号) は、多くのモバイル デバイス製造元が採用している共通のデバイス プロパティです。 Intune 管理者は、会社が所有するデバイスの IMEI をインポートできます。 デバイスが Intune の管理対象になると、企業所有のデバイスというタグを付け、適切なポリシーの対象にすることができます。
+## 企業所有の Windows 10 デスクトップの登録
+
+組織で Azure Active Directory Premium (AADP) または Enterprise Management Suite (EMS) を所有している場合は、[エンタープライズ向け Windows 10 を登録](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview)でき、ユーザーが職場または学校アカウントを追加するときに、これらは自動的に "企業所有" としてタグ付けされます。
+
+## デバイスの企業所有としての識別
+
+企業所有のデバイスは、デバイス一覧の **[Ownership] (所有権)** で **[Corporate] (会社)** として一覧表示されます。 企業所有のデバイスは次の方法で識別できます。
+
+ - [デバイス登録マネージャー (DEM) を使用した登録](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)
+ - Apple の [デバイス登録プログラム (DEP)](ios-device-enrollment-program-in-microsoft-intune.md) または [Apple Configurator](ios-setup-assistant-enrollment-in-microsoft-intune.md) を使用した登録
+ - [IMEI 番号を使用したデバイスの事前宣言](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)
+ - [Windows 10 デバイスの Azure Active Directory/Enterprise Management Suite 登録](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview)
+
+### International Mobile Equipment Identity (IMEI)
+
+一意の IMEI (国際移動体装置識別番号) は、多くのモバイル デバイス製造元が採用している共通のデバイス プロパティです。 Intune 管理者は、会社が所有するデバイスの IMEI をインポートできます。 デバイスが Intune の管理対象になると、企業所有のデバイスとしてタグ付けされます。
 
 [IMEI (国際移動体装置識別番号) を使って企業所有のデバイスを指定する](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

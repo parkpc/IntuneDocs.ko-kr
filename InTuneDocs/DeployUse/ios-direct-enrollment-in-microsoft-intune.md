@@ -1,10 +1,10 @@
 ---
 title: "iOS デバイスの直接登録 | Microsoft Intune"
-description: 
+description: "Apple Configurator ツールを使用して、企業所有の iOS デバイスを Mac コンピューターに USB で接続し、定義済みのポリシーで直接登録する。"
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,18 +13,16 @@ ms.assetid: a692b90c-72ae-47d1-ba9c-67a2e2576cc2
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1b942c7e09e59de59e3e406b84a21a712c0e973a
-ms.openlocfilehash: 8fea0f7f87972bc643bbb20348095e05f701287e
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: 2d2db078bbbce5945bf536a845cd8e4fa8f62c7e
 
 
 ---
 
 # Apple Configurator を使用した iOS デバイスの直接登録
-Intune は、Mac コンピューターで実行される [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) ツールを使用した、企業所有の iOS デバイスの登録をサポートします。 このプロセスはデバイスを工場出荷時の設定に戻さず、定義済みのポリシーでデバイスを登録します。 この方法は、**ユーザー アフィニティなし**になっているデバイス向けであり、iOS デバイスを Mac コンピューターに USB 接続して、会社の登録をセットアップする必要があります。 会社のポータル アプリは、直接登録されているデバイスではサポートされていません。 このガイドでは、Mac コンピューターで Apple Configurator 2.0 を使用していることを想定しています。
+Intune は、Mac コンピューターで実行される [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) ツールを使用した、企業所有の iOS デバイスの登録をサポートします。 このプロセスはデバイスを工場出荷時の設定に戻さず、定義済みのポリシーでデバイスを登録します。 この方法は、**ユーザー アフィニティなし**になっているデバイス向けであり、iOS デバイスを Mac コンピューターに USB 接続して、会社の登録をセットアップする必要があります。 iOS デバイスを直接登録する場合は、デバイスのシリアル番号を取得しなくてもデバイスを登録することができます。 登録時に Intune がデバイス名をキャプチャする前に、デバイスを識別するための名前を指定することもできます。 会社のポータル アプリは、直接登録されているデバイスではサポートされていません。 このガイドでは、Mac コンピューターで Apple Configurator 2.0 を使用していることを想定しています。
 
 1.  **デバイスのプロファイルを作成する** デバイス登録プロファイルで、デバイスに適用する設定を定義します。 まだ定義していない場合は、Apple Configurator を使用して、iOS デバイス用のデバイス登録プロファイルを作成してください。
-
-    #### プロファイルを作成するには
 
     1.  [Microsoft Intune 管理コンソール](http://manage.microsoft.com)で、**[ポリシー]** &gt; **[業務用デバイスの登録]** の順に選択し、**[追加]** をクリックします。
 
@@ -40,8 +38,8 @@ Intune は、Mac コンピューターで実行される [Apple Configurator](ht
 
         -   **デバイス グループの事前割り当て** - このプロファイルに展開されているすべてのデバイスが最初にこのグループに割り当てられます。 登録後にデバイスの再割り当てができます。
 
-        >[!Important]
-        >グループの割り当てが Intune から Azure Active Directory に移動します。 [詳細](http://go.microsoft.com/fwlink/?LinkID=787064)
+            [!INCLUDE[groups deprecated](../includes/group-deprecation.md)]
+
     3.  **[プロファイルの保存]** を選択してプロファイルを追加します。
 
 5.  **iOS デバイスに展開するプロファイルを .mobileconfig としてエクスポートする** 作成したデバイス プロファイルを選択します。 タスク バーの **[エクスポート…]**  をクリックします。 **[プロファイルのダウンロード]** を選択し、ダウンロードした .mobileconfig ファイルを保存します。
@@ -61,8 +59,6 @@ Intune は、Mac コンピューターで実行される [Apple Configurator](ht
 
 8.  **プロファイルをインストールする** iOS デバイスにプロファイルをインストールする準備ができました。 デバイスでセットアップ アシスタントが既に完了し、使用する準備ができている必要があります。  登録のためにアプリの展開が必要な場合は、アプリの展開時に Apple ID で App Store にサインインする必要があるため、デバイスに Apple ID が設定されている必要があります。
 
-    ###### 監視対象外の iOS デバイス用プロファイルの受け入れの完了
-
     1.  iOS デバイスのロックを解除します。
 
     2.  **[管理プロファイル]** の **[プロファイルのインストール]** ダイアログ ボックスで、**[インストール]** をタップします。
@@ -81,11 +77,7 @@ Intune は、Mac コンピューターで実行される [Apple Configurator](ht
 10. **デバイスを配布する** これで、iOS デバイスが Intune に登録され、管理対象になりました。
 
 
-### 関連項目
-[デバイスの登録の準備](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
-
-
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

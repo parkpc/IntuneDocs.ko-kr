@@ -1,26 +1,27 @@
 ---
-title: "ポータル サイトを使用してデバイスをリセットするとどうなるか | Microsoft Intune"
+title: "ポータル サイトを使用して Windows デバイスをリセットするとどうなるか | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1ee6e275-d1ec-4da3-bbef-d5da2c61a02a
+ROBOTS: noindex,nofollow
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 39e810466d3a98789f0f1338f68d2be80d757d39
-ms.openlocfilehash: 9ff73d6e2066b0fb3d2e8ca9d7732d4685e258fd
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 29fab114e2b5b9b3a7c8e050af6f37287a715026
 
 
 ---
 
 
-# ポータル サイトを使用してデバイスをリセットするとどうなるか
+# ポータル サイトを使用して Windows デバイスをリセットするとどうなりますか。
 
 ポータル サイト アプリや[ポータル サイト Web サイト](reset-your-device-cpwebsite.md)を使用して Windows デバイスをリセットすると、デバイスが工場出荷時設定にリセットされ、アプリケーション、設定、お客様の個人データを含むデータがすべて削除されます。 次の表に示すように、各デバイスでの操作結果は、デバイスの種類とその使用方法によって異なります。 紛失または盗難にあったデバイスをリセットする方法の手順については、「[紛失したまたは盗難にあったデバイスをリセット (消去) する](reset-erase-your-lost-or-stolen-device-windows.md)」を参照してください。
 
@@ -36,6 +37,6 @@ ms.openlocfilehash: 9ff73d6e2066b0fb3d2e8ca9d7732d4685e258fd
 [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

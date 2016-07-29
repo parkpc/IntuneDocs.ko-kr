@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Intune でサポートされている Web ブラウザー | Microsoft Intune
-description:
-keywords:
+title: "Microsoft Intune でサポートされている Web ブラウザー | Microsoft Intune"
+description: "Intune でサポートされている Web ブラウザー"
+keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 05/06/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 6f4ff11d-dc81-481a-bcd9-d8cdab32f876
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 1c7c0fbedb45e1086bcab66d4e2bab88eac6d29e
+
 
 ---
 
@@ -31,8 +25,8 @@ Intune をセットアップする前に、このトピックと「[What to know
 
 |Intune の機能 |サポートされているブラウザー|
 |---------|---------|
-|Intune 管理コンソール     |  Internet Explorer 10 以降<br /><br />Google Chrome (バージョン 42 より前のバージョン)<br /><br />Mozilla Firefox <br /><br />**注:** Edge は管理コンソールでは現在サポートされていません。                      
-|Office 365 管理ポータル     |すべてのブラウザー  |
+|Intune 管理コンソール     |  Internet Explorer 10 以降<br /><br />Google Chrome (バージョン 42 より前のバージョン)<br /><br />Mozilla Firefox <br /><br />**注:** Microsoft Edge とモバイル ブラウザーでは管理コンソールはサポートされていません。                      
+|Office 365 管理ポータル     |モバイル ブラウザーと管理対象ブラウザーを含むすべてのブラウザー  |
 |ポータル Web サイト     |**モバイル デバイスの場合:** サポートされている各プラットフォームに対して既定の Web ブラウザーを使用します   <br /><br />**Windows PC の場合:** Internet Explorer 10 以降または Microsoft Edge<br /><br />**Mac OS X 10.9 以降の場合:** Apple Safari    |
 
 
@@ -42,6 +36,7 @@ Intune をセットアップする前に、このトピックと「[What to know
 
 
 
-<!--HONumber=May16_HO4-->
+
+<!--HONumber=Jul16_HO3-->
 
 

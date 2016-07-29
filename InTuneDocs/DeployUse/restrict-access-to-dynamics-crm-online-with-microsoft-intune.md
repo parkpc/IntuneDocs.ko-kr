@@ -1,6 +1,6 @@
 ---
 title: "Dynamics CRM Online への電子メール アクセスを制限する | Microsoft Intune"
-description: 
+description: "条件付きアクセスで Dynamics CRM Online  へのアクセスを保護および制御します。"
 keywords: 
 author: karthikaraman
 manager: jeffgilb
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
-ms.sourcegitcommit: 89e522a99687fc9b6e82db9f721858d17afdce6a
-ms.openlocfilehash: 8f90f99d621d7edebcb7a4c67e0774da59098df7
+translationtype: Human Translation
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: cbcf2c8d923524b8a1993140fbec0234740075ae
 
 
 ---
@@ -55,10 +56,10 @@ Dynamics CRM ポリシーに使用する 2 つのグループの種類を指定�
 コンプライアンス ポリシーを[作成](create-a-device-compliance-policy-in-microsoft-intune.md)し、ポリシーによって影響を受けるすべてのデバイスに[展開](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)します。 これは、対象グループ内のユーザーによって使用されるすべてのデバイスです。
 
 > [!NOTE]
-> [!NOTE] コンプライアンス ポリシーは Microsoft Intune グループに展開されますが、条件付きアクセス ポリシーは、Azure Active Directory セキュリティ グループを対象とします。
+> コンプライアンス ポリシーは Microsoft Intune グループに展開されますが、条件付きアクセス ポリシーは、Azure Active Directory セキュリティ グループを対象とします。
 
 > [!IMPORTANT]
-> [!IMPORTANT] コンプライアンス ポリシーを展開していない場合は、デバイスがポリシーに準拠しているものと見なされます。
+> コンプライアンス ポリシーを展開していない場合は、デバイスがポリシーに準拠しているものと見なされます。
 
 準備ができたら、手順 3 に進みます。
 ### 手順 3: Dynamics CRM ポリシーを構成する
@@ -96,6 +97,6 @@ Dynamics CRM ポリシーに使用する 2 つのグループの種類を指定�
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

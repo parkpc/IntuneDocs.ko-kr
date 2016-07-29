@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: アプリ ラッピング ツールで管理するために iOS アプリを準備する | Microsoft Intune
-description:
-keywords:
-author: Staciebarker
+title: "アプリ ラッピング ツールで iOS アプリをラップする |Microsoft Intune"
+description: "このトピックの情報を使用して、アプリ自体のコードを変更することなく、iOS アプリをラップする方法について説明します。 モバイル アプリ管理ポリシーを適用できるように、アプリを準備します。"
+keywords: 
+author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/11/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: matgates
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 754c026832b980d3a1cd406e9ab3146585b87b46
+
 
 ---
 
@@ -30,14 +24,14 @@ ms.suite: ems
 
 このツールはアプリを囲むように "ラッパー" を作成する Mac OS コマンド ライン アプリケーションです。 アプリが処理されたら、ユーザーが構成する[モバイル アプリケーション管理ポリシー](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)を利用してアプリの機能を変更できます。
 
-このツールをダウンロードするには、「[iOS 用 Microsoft Intune アプリ ラッピング ツール](http://www.microsoft.com/en-us/download/details.aspx?id=45218)」を参照してください。.
+このツールをダウンロードするには、「[iOS 用 Microsoft Intune アプリ ラッピング ツール](http://www.microsoft.com/en-us/download/details.aspx?id=45218)」を参照してください。
 
 ## 手順 1: アプリ ラッピング ツールを使用するための前提条件を満たす
 
 |要件|詳細情報|
 |---------------|--------------------------------|
 |サポートされるオペレーティング システムとツールセット|このアプリ ラッピング ツールは XCode ツールセットのバージョン 5 以降がインストールされている OS X 10.8.5 以降を実行している Mac コンピューターで実行する必要があります。|
-|署名証明書とプロビジョニング プロファイル|Apple 署名証明書とプロビジョニング プロファイルを持っている必要があります。 [Apple 開発者ドキュメント](https://developer.apple.com/)を参照してください。.|
+|署名証明書とプロビジョニング プロファイル|Apple 署名証明書とプロビジョニング プロファイルを持っている必要があります。 [Apple 開発者ドキュメント](https://developer.apple.com/)を参照してください。|
 |App Wrapping Tool でアプリを処理する|アプリはあなたの会社または独立系ソフトウェア ベンダー (ISV) が開発し、署名したものでなければなりません。 このツールを使用し、Apple ストアのアプリを処理することはできません。 アプリは iOS 7.0 以降向けとして記述されている必要があります。 また、アプリは PIE (Position Independent Executable/位置独立実行) 形式にする必要があります。 PIE 形式に関する詳細については、Apple 開発者ドキュメントを参照してください。 最後に、アプリの拡張子形式は **.app** または **.ipa** にする必要があります。|
 |ラッピング ツールで処理できないアプリ|暗号化されたアプリ、署名のないアプリ、および拡張ファイル属性があるアプリ。|
 |Azure Active Directory Library (ADAL) を使用するアプリ|アプリで ADAL を使用している場合、アプリには 1.0.2 以上のバージョンの ADAL を組み込む必要があります。また、開発者は、Intune モバイル アプリケーション管理リソースに対するアクセス権をアプリに付与する必要があります。<br /><br />ADAL の使用方法の詳細については、この記事内の「[Azure Active Directory Library を使用するアプリの情報](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md#information-for-apps-that-use-the-azure-active-directory-library)」を参照してください。|
@@ -47,7 +41,7 @@ ms.suite: ems
 
 1.  **Microsoft ダウンロード センター**の「[iOS 用 Microsoft Intune アプリ ラッピング ツール](https://www.microsoft.com/download/details.aspx?id=45218)」ページから、アプリ ラッピング ツールのインストール ファイルを Mac コンピューターにダウンロードします。
 
-2.  Mac コンピューターで、インストール ファイル [Microsoft Intune App Wrapping Tool for iOS.dmg**] をダブルクリックします。.
+2.  Mac コンピューターで、インストール ファイル [**Microsoft Intune App Wrapping Tool for iOS.dmg**] をダブルクリックします。
 
 3.  **[同意]** を選択し、使用許諾契約書 (EULA) を受諾します。 インストーラーがマウントされ、Mac コンピューターに表示されます。
 
@@ -59,7 +53,7 @@ ms.suite: ems
 
 1.  Mac コンピューターで、ターミナル ウィンドウを開き、ファイルを保存したフォルダーに移動します。 実行可能ファイルはパッケージ内にあるため、コマンドを次のように実行する必要があります。
 ```
-    ./IntuneMAMPackager.app/Contents/MacOS/IntuneMAMPackager –i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> –p /<path to provisioning profile> –c <SHA1 hash of the certificate> -a <client ID of input app> -r <reply URI of input app> -v true
+    ./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager –i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> –p /<path to provisioning profile> –c <SHA1 hash of the certificate> -a <client ID of input app> -r <reply URI of input app> -v true
 ```
     > [!NOTE]
     > Some parameters are optional as shown in the table below.
@@ -126,7 +120,7 @@ ms.suite: ems
 
 1.  アプリケを実行し、問題を再現します。
 
-2.  「[展開された iOS アプリのデバッグ](https://developer.apple.com/library/ios/qa/qa1747/_index.html)」にある Apple の指示に従い、コンソール出力を集めます。.
+2.  「 [展開された iOS アプリのデバッグ](https://developer.apple.com/library/ios/qa/qa1747/_index.html)」にある Apple の指示に従い、コンソール出力を集めます。
 
 3.  次のスクリプトをコンソールに入力し、アプリ制限出力の保存ログをフィルター処理します。
 
@@ -149,7 +143,7 @@ ADAL を使用するアプリの場合、次を満たす必要があります。
 
 -   アプリは 1.0.2 以上のバージョンの ADAL を組み込む必要があります。
 
--   開発者は、Intune モバイル アプリケーション管理リソースに対するアクセス権をアプリに付与する必要があります (「[ADAL を使用するアプリの場合の手順](#steps-to-follow-for-apps-that-use-adal)」を参照してください)。.
+-   開発者は、Intune モバイル アプリケーション管理リソースに対するアクセス権をアプリに付与する必要があります (「[ADAL を使用するアプリの場合の手順](#steps-to-follow-for-apps-that-use-adal)」を参照してください)。
 
 ### 取得する必要がある識別子の概要
 ADAL を使用するアプリは Azure 管理ポータル経由で登録し、アプリの 2 つの一意の識別子を取得する必要があります。
@@ -170,9 +164,9 @@ ADAL を使用するアプリは Azure 管理ポータル経由で登録し、�
 
     2.  Azure Active Directory で [ **既存の LOB アプリケーションの登録** ] をクリックします。
 
-    3.  構成セクションで、[**他のアプリケーションの Web API へのアクセスの構成**] を選択します。.
+    3.  構成セクションで、[ **他のアプリケーションの Web API へのアクセスの構成**] を選択します。
 
-    4.  [**他のアプリケーションへのアクセス許可**] セクションの最初のドロップダウン リストから [**Intune モバイル アプリケーション管理**] を選択します。.
+    4.  [**他のアプリケーションへのアクセス許可**] セクションの最初のドロップダウン リストから [**Intune モバイル アプリケーション管理**] を選択します。
 
         これで、アプリ ラッピング ツールでアプリのクライアント ID を使用できるようになります。 アプリのクライアント ID は Azure Active Directory の管理ポータルに表示されます (「[取得する必要がある識別子の概要](#overview-of-identifiers-you-need-to-get)」セクションを参照してください)。
 
@@ -199,7 +193,7 @@ ADAL を使用するアプリは Azure 管理ポータル経由で登録し、�
 -   クライアント アプリケーションのクライアント ID とリダイレクト URI を提供する場合、ダブル ログイン プロンプトは回避されます。 AAD ダッシュ ボードで、公開された [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] MAM リソース ID にアクセスする他に、このクライアント ID を登録する必要があります。 登録しない場合、アプリの実行時にログインに失敗します。
 
 ## アプリ権利の設定
-アプリをラップする前に、アプリに**権利**を付与して、通常のアプリよりも多くのアクセス許可と機能を与えることができます。  **権利ファイル**は、アプリ内に特殊なアクセス許可 (たとえば、共有キーチェーンへのアクセスなど) を指定するコード署名で使用されます。 アプリの開発中に、Xcode 内で特定のアプリケーション サービス (**機能**と呼ばれます) が有効になります。 機能が有効になると、権利ファイルに反映されます。 権利と機能の詳細については、iOS 権利および機能の詳細については、iOS 開発者ライブラリの「[Adding Capabilities (機能の追加)](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)」を参照してください。 サポートされる機能の一覧については、「[Supported capabilities (サポートされる機能)](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html)」を参照してください。.
+アプリをラップする前に、アプリに**権利**を付与して、通常のアプリよりも多くのアクセス許可と機能を与えることができます。  **権利ファイル**は、アプリ内に特殊なアクセス許可 (たとえば、共有キーチェーンへのアクセスなど) を指定するコード署名で使用されます。 アプリの開発中に、Xcode 内で特定のアプリケーション サービス (**機能**と呼ばれます) が有効になります。 機能が有効になると、権利ファイルに反映されます。 権利と機能の詳細については、iOS 権利および機能の詳細については、iOS 開発者ライブラリの「[Adding Capabilities (機能の追加)](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)」を参照してください。 サポートされる機能の一覧については、「[Supported capabilities (サポートされる機能)](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html)」を参照してください。
 
 ### iOS 用アプリ ラッピング ツールでサポートされる機能
 
@@ -211,7 +205,7 @@ ADAL を使用するアプリは Azure 管理ポータル経由で登録し、�
 |アプリ内購入|アプリ内購入は、ストアへの接続を有効にしてアプリにストアを直接組み込み、ユーザーから支払いを安全に処理します。 アプリ内購入を使用すると、強化された機能で支払いを収集し、アプリから追加のコンテンツを使用できるようになります。||
 |キーチェーンの共有|キーチェーンの共有を有効にすると、同じチームで開発されたアプリ間でキーチェーン内のパスワードを共有できるようになります。|キーチェーンの共有を使用する場合は、次のように逆引き DNS 表記を使用します。<br /><br />*com.companyName.KeychainGroup*|
 |個人の VPN|個人の VPN を有効にすると、アプリでネットワーク拡張機能フレームワークを使用して、カスタム システム VPN 構成を作成および制御できるようになります。||
-|プッシュ通知|Apple Push Notification サービス (APNs) を使用すると、フォアグラウンドで実行されていないアプリでも、ユーザーに対する情報がある場合にユーザーに通知できます。|プッシュ通知を使用するには、アプリ固有のプロビジョニング プロファイルを使用する必要があります。<br /><br />[Apple 開発者ドキュメント](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)の手順を実行してください。.|
+|プッシュ通知|Apple Push Notification サービス (APNs) を使用すると、フォアグラウンドで実行されていないアプリでも、ユーザーに対する情報がある場合にユーザーに通知できます。|プッシュ通知を使用するには、アプリ固有のプロビジョニング プロファイルを使用する必要があります。<br /><br />[Apple 開発者ドキュメント](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)の手順を実行してください。|
 |ワイヤレス アクセサリの構成|ワイヤレス アクセサリの構成を有効にすると、外部アクセサリ フレームワークをプロジェクトに追加し、アプリで MFi Wi-Fi アクセサリを構成できるようになります。||
 
 ### 権利を有効にする手順
@@ -230,7 +224,7 @@ ADAL を使用するアプリは Azure 管理ポータル経由で登録し、�
 
     1.  Apple Developer Member Center にログインします。
 
-    2.  アプリのプロビジョニング プロファイルを作成します。 手順については、「[iOS 用 Intune アプリ ラッピング ツールの前提条件を取得する方法](http://blogs.technet.com/b/microsoftintune/archive/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios.aspx)」を参照してください。.
+    2.  アプリのプロビジョニング プロファイルを作成します。 手順については、「[iOS 用 Intune アプリ ラッピング ツールの前提条件を取得する方法](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/)」を参照してください。
 
     3.  プロビジョニング プロファイルで、アプリ内と同じ権利を有効にします。 アプリの開発時に指定したものと同じ ID を指定する必要があります。
 
@@ -271,7 +265,7 @@ iOS 用アプリ ラッピング ツールで権利のエラーが表示され�
 このコマンドは、権利ファイルに含まれていないアプリで有効になっているすべての機能を削除します。 アプリが使用している権利を削除すると、アプリは損なわれます。 欠落している機能を削除する例とは、既定ですべての機能を備えているベンダー製のアプリがある場合です。
 
 ```
-./IntuneMAMPackager.app/Contents/MacOS/IntuneMAMPackager –i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> –p /<path to provisioning profile> –c <SHA1 hash of the certificate> -e
+./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager –i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> –p /<path to provisioning profile> –c <SHA1 hash of the certificate> -e
 ```
 
 ## アプリ ラッピング ツールのセキュリティとプライバシー
@@ -297,6 +291,7 @@ iOS 用アプリ ラッピング ツールで権利のエラーが表示され�
 - [Use the SDK to enable apps for mobile application management (アプリでモバイル アプリケーション管理を実行できるよう SDK を使用する)](use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO3-->
 
 

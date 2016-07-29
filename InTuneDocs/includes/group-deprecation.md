@@ -1,11 +1,7 @@
-> [!NOTE]
-> 8 月から、デバイス グループの管理は Azure Active Directory に移行されます。 **Azure Active Directory グループに切り替えた後は、グループの割り当ては企業の登録プロファイルのオプションに表示されません。** 変更は数か月かけて行われるので、変更がコンソールに表示されていない可能性があります。
-
-> **会社の登録プロファイル**は、Apple のデバイス登録プログラムまたは Apple Configurator ツールを使用して iOS デバイスを登録するために必要です。
-
->新しい動的なデバイス グループの割り当ては、会社の登録プロファイルの名前に基づいて Azure Active Directory で定義できます。 このプロセスにより、デバイス グループに事前に割り当てられているデバイスが、ポリシーおよびデプロイされたアプリと共にグループに自動的に登録されることが保証されます。 詳細な情報は間もなく公開されます。
+>[!Important]
+>グループの割り当てが Intune から Azure Active Directory に移動します。 この更新により Intune アカウントでは **[Assign devices to the following group] (デバイスを次のグループに割り当てる)** オプションが表示されなくなります。 [詳細情報](../deploy-use/ios-device-enrollment-program-in-microsoft-intune#changes-to-intune-group-assignments)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

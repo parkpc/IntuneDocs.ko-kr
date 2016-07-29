@@ -1,25 +1,27 @@
 ---
-title: "デバイスに最低限必要なバージョンのオペレーティング システムがインストールされていない | Microsoft Intune"
+title: "Android デバイスに最低限必要なバージョンのオペレーティング システムがインストールされていない | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 3ef43ff5-8d6b-4be1-baa4-6fb6a7f3c312
+ROBOTS: noindex,nofollow
 ms.reviewer: chrisgre
 ms.suite: ems
-ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
-ms.openlocfilehash: 620078cdd6a6d918153ab5a9813a14406c11acb4
+translationtype: Human Translation
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: bb629c3349ae201d5420249a62c5315ec11fc7dd
 
 
 ---
 
 
-# デバイスに最低限必要なバージョンのオペレーティング システムがインストールされていない
+# Android デバイスに最低限必要なバージョンのオペレーティング システムがインストールされていない
 
 お使いの Android デバイスは、IT 部門が要求しているオペレーティング システムのバージョンの最小要件を満たしていません。 デバイスを更新するには、**[設定]** &gt; **[端末情報]** をタップしてオペレーティング システムの現在のバージョンをチェックしてから、**[設定]** をタップして更新オプションを検索し、入手可能な更新があるかどうかをチェックします。
 
@@ -29,6 +31,6 @@ ms.openlocfilehash: 620078cdd6a6d918153ab5a9813a14406c11acb4
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

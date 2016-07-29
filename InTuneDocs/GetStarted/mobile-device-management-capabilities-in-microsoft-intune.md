@@ -1,10 +1,10 @@
 ---
 title: "モバイル デバイス管理機能 | Microsoft Intune"
-description: 
+description: "このトピックを読んで、サービスに登録したモバイル デバイスの管理に Intune がどれぐらい役立つかご確認ください。"
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: f23b3ee7-78da-4e53-9fc2-78e58401bcf9
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
-ms.openlocfilehash: 0f460165f251acf95f4af36afa39409d3eb21162
+ms.sourcegitcommit: 23054b2f02d11ca19cd0902ebc1e6fdcf499d1f1
+ms.openlocfilehash: 8f44256fe249c60df8e910858516a25463c8e875
 
 
 ---
@@ -42,7 +42,8 @@ Microsoft Intune では、サービスにデバイスを*登録*することに�
 |アプリの展開と管理|インストール ファイルと App Store からのアプリの展開、アプリの状態の詳細な監視、アプリの削除など、モバイル アプリのライフ サイクルを通じて管理に役立つさまざまなツールを提供します。|[Deploy apps in Microsoft Intune (Microsoft Intune でアプリを展開する)](/intune/deploy-use/deploy-apps)|
 |準拠アプリと非準拠アプリ|準拠アプリ (ユーザーによるインストールが許可されるアプリ) と非準拠アプリ (ユーザーによるインストールが許可されないアプリ) の一覧を指定できます。|[Microsoft Intune の iOS ポリシー設定](/intune/deploy-use/ios-policy-settings-in-microsoft-intune)|
 |モバイル アプリケーション管理|Intune で管理するデバイスと、Intune で管理されていないデバイスの両方について、モバイル アプリケーション管理を使用してアプリの制限を構成します。 コピー/貼り付け、データの外部バックアップ、アプリ間でのデータ転送などの操作を制限することにより、会社のデータのセキュリティを強化することができます。|[Microsoft Intune コンソールでモバイル アプリケーション管理ポリシーを構成して展開する](/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console)<br><br>[Microsoft Intune でのモバイル アプリ管理ポリシーの作成および展開](/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)<br /><br />[Microsoft Intune アプリ ラッピング ツールでモバイル アプリケーション管理のために iOS アプリを準備する](/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)<br /><br />[Microsoft Intune アプリ ラッピング ツールでモバイル アプリケーション管理のために Android アプリを準備する](/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)|
-|モバイル アプリ構成|モバイル アプリ構成ポリシーを使用して、ユーザーがアプリを実行するときに必要となる可能性がある設定を iOS アプリに指定できます。 たとえば、アプリによってはユーザーがログオン情報のポート番号を指定しなければなりません。 これは、アプリの構成を簡素化し、ヘルプ デスク コールの数を減らすのに役立ちます。|[Microsoft Intune でのモバイル アプリ構成ポリシーを使用した iOS アプリの構成](/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)|
+|iOS モバイル アプリの構成|モバイル アプリ構成ポリシーを使用して、ユーザーがアプリを実行するときに必要となる可能性がある設定を iOS アプリに指定できます。 たとえば、アプリによってはユーザーがログオン情報のポート番号を指定しなければなりません。 これは、アプリの構成を簡素化し、ヘルプ デスク コールの数を減らすのに役立ちます。|[Microsoft Intune でのモバイル アプリ構成ポリシーを使用した iOS アプリの構成](/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)|
+|iOS モバイル アプリ プロビジョニング プロファイル|Intune では、有効期限が近づいている iOS アプリにプロビジョニング プロファイルを事前に展開するツールを提供します。|[iOS モバイル プロビジョニング プロファイルのポリシーを使用して、アプリが期限切れにならないようにする](/intune/deploy-use/ios-mobile-app-provisioning-profiles)|
 |管理対象ブラウザー|管理対象ブラウザーをユーザーに展開すると、アクセスできる Web サイトを制御するための管理対象ブラウザー ポリシーを構成できます。 さらに、モバイル アプリケーション管理ポリシーを管理対象ブラウザーに適用することもできます。|[Microsoft Intune と Managed Browser のポリシーを使用したインターネット アクセスの管理](/intune/deploy-use/manage-internet-access-using-managed-browser-policies)|
 |Microsoft Passport|Intune では、Microsoft Passport for Work を統合できます。これは Active Directory または Azure Active Directory アカウントを使った Windows 10 への代替サインイン方法であり、パスワード、スマート カード、または仮想スマート カードの代わりに使用されます。|[Microsoft Intune を使ってデバイスで Microsoft Passport の設定を制御する](/intune/deploy-use/control-microsoft-passport-settings-on-devices-with-microsoft-intune)|
 
@@ -68,6 +69,6 @@ Microsoft Intune では、サービスにデバイスを*登録*することに�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,9 +1,9 @@
 ---
-title: "Intune からデバイスの登録を解除する | Microsoft Intune"
-description: 
+title: "Intune から Windows デバイスを登録解除する | Microsoft Intune"
+description: "Intune から Windows デバイスの登録を解除する方法について説明します"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,14 +13,14 @@ ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: c323aed2b4fbac831ae4919c8145b7253eb97ace
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: e510d9800fde2f1f10c583da273dc28739044009
 
 
 ---
 
 
-# Intune からデバイスの登録を解除する
+# Intune から Windows デバイスを登録解除する
 
 現在 Intune に登録されている Windows デバイスを職場や学校で使用する必要がなくなった場合、または職場や学校の電子メール、アプリ、その他のリソースにアクセスする必要がなくなった場合には、デバイスの登録を解除する必要があります。 Intune からデバイスの登録を解除した後は、これらのリソースにアクセスできなくなります。 デバイスを登録解除した場合の詳細については、「[Intune からデバイスの登録を解除するとどうなるか](what-happens-if-you-unenroll-your-device-from-intune-windows.md)」を参照してください。
 
@@ -66,6 +66,6 @@ ms.openlocfilehash: c323aed2b4fbac831ae4919c8145b7253eb97ace
 [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

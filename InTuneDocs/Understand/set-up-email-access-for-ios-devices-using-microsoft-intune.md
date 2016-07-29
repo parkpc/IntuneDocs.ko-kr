@@ -1,9 +1,9 @@
 ---
-title: "Microsoft Intune を使って iOS デバイスに電子メール アクセスをセットアップする | Microsoft Intune"
-description: 
+title: "iOS デバイスに電子メール アクセスをセットアップする | Microsoft Intune"
+description: "Intune を使用して iOS デバイスに電子メール アクセスをセットアップする"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 3853673d-290a-400f-8e45-d55e39d42acd
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7f3985b10ac9612c8c1efc4756eb25cdcf29b023
-ms.openlocfilehash: 5b746cee0806fb44b1fd847efb9791d525673133
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 3b6bb8602ddc7a1f75a0c21ffc4fb6327673d38d
 
 
 ---
@@ -40,7 +40,7 @@ ms.openlocfilehash: 5b746cee0806fb44b1fd847efb9791d525673133
 このチュートリアルでは、試用版サブスクリプションに付属しているホスト型 Exchange サーバーを使用します。
 1. Intune コンソールで、**[ポリシー]** をクリックし、**[ポリシーの追加]** をクリックします。
 ![<add-policy>](./media/Email-Walkthrough/Email-Walkthrough-1.png)
-2. **[新しいポリシーの作成]** ダイアログ ボックスで、**[iOS]** を展開し、**[電子メール プロファイル]** を選択して、**[ポリシーを作成する]** をクリックします。
+2. **[新しいポリシーの作成]** ダイアログ ボックスで、**[iOS]** を展開し、**[電子メール プロファイル]** を選択して、**[ポリシーを作成する]** をクリックします。  
 ![<ios-email-profile-policy>](./media/Email-Walkthrough/Email-Walkthrough-2.png)
 3. [ポリシーを作成する] ページで、ポリシーの名前 (**iOS email profile - user-password** など) および説明を入力します。 デバイスの種類や認証方法が異なる複数の電子メール プロファイルを作成できます。そのため、わかりやすいプロファイル名を付けることをお勧めします。
 4. Exchange のホスト名を入力します。 ここでは、Azure でホストされている Exchange サーバーを使用しているため、次のようにホスト名を入力します: **outlook.office365.com**
@@ -51,21 +51,23 @@ ms.openlocfilehash: 5b746cee0806fb44b1fd847efb9791d525673133
 8. **[ポリシーの保存]** をクリックします。
 9. ポリシーをすぐに展開するかどうかを確認するダイアログ ボックスが表示されます。 **[はい]** をクリックします。
 ![<deploy-policy-now-dialog>](./media/Email-Walkthrough/Email-Walkthrough-4.png)
-10. 次に表示されるウィンドウで、電子メール プロファイルの展開先となるユーザー グループを選択し、**[追加]**、**[OK]** の順にクリックします。
-![<finish-add-policy>](./media/Email-Walkthrough/Email-Walkthrough-5.png)**[OK]** をクリックすると、ポリシーが 1、2 分で登録済みデバイスに適用されます。
+10. 次に表示されるウィンドウで、電子メール プロファイルの展開先となるユーザー グループを選択し、**[追加]**、**[OK]** の順にクリックします。  
+![<finish-add-policy>](./media/Email-Walkthrough/Email-Walkthrough-5.png)  
+**[OK]** をクリックすると、ポリシーが 1、2 分で登録済みデバイスに適用されます。
 
 ## プロファイルが正常に適用されていることを確認する手順
 
 プロファイルが適用されていることを確認するには、電子メール プロファイルを展開したデバイスのいずれかにアクセスする必要があります。
 1. iOS デバイスで、メール アプリを開きます。
-ユーザーの電子メールのユーザー名とパスワードの入力を求められます。
+ユーザーの電子メールのユーザー名とパスワードの入力を求められます。  
 ![<verify-policy-add-password>](./media/Email-Walkthrough/Email-Walkthrough-6.png)
 2. ユーザーの Exchange 電子メール アカウントのユーザー名とパスワードを入力し、**[OK]** をタップします。
  メール アプリが開き、Exchange アカウントが表示され、デバイスへの電子メールの同期が開始されます。
 ![<exchange-account-opens>](./media/Email-Walkthrough/Email-Walkthrough-7.png)
 3. メール アプリのアカウント設定で、アカウント名が電子メール プロファイルで指定したもの (たとえば、**Contoso Mail**) と同じかどうかと、同期の設定が正しいことを確認します。
 ![<check-account-settings>](./media/Email-Walkthrough/Email-Walkthrough-8.png)
-![<check-email-account-name>](./media/Email-Walkthrough/Email-Walkthrough-9.png) 電子メール プロファイルがデバイスに自動的に適用されていない場合は、デバイスでポータル サイト アプリを使用して、ポリシーを手動で適用できます。
+![<check-email-account-name>](./media/Email-Walkthrough/Email-Walkthrough-9.png)  
+  電子メール プロファイルがデバイスに自動的に適用されていない場合は、デバイスでポータル サイト アプリを使用して、ポリシーを手動で適用できます。
 1. ポータル サイト アプリを開きます。
 2. **[デバイス]** をタップします。
 3. デバイスの名前をタップします。
@@ -78,6 +80,6 @@ ms.openlocfilehash: 5b746cee0806fb44b1fd847efb9791d525673133
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

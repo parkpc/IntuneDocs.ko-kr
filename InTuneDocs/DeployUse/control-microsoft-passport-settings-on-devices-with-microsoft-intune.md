@@ -1,10 +1,10 @@
 ---
 title: "デバイスで Microsoft Passport の設定を制御する | Microsoft Intune"
-description: 
+description: "Active Directory や Azure Active Directory アカウントを使った代替サインイン方法であり、パスワード、スマート カード、または仮想スマート カードに置き換わる **Microsoft Passport for Work** と Intune を統合する方法について説明します。"
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 42e21b802fb605c98f688485c3b77703b3950e94
-ms.openlocfilehash: bdf7dfda3814ad6c6c00f5c133027175a95fb5e2
+ms.sourcegitcommit: ada366e91806c6f443ac4548af99c587ac218ec9
+ms.openlocfilehash: 934ae78edf4de2003d62179fa38269d97e6d7ef6
 
 
 ---
@@ -23,6 +23,9 @@ ms.openlocfilehash: bdf7dfda3814ad6c6c00f5c133027175a95fb5e2
 Microsoft Intune により、**Microsoft Passport for Work** を統合できます。これは Active Directory や Azure Active Directory アカウントを使った代替サインイン方法であり、パスワード、スマート カード、または仮想スマート カードに置き換わります。
 
 Passport を使用すると、パスワードの代わりに**ユーザー ジェスチャ**を使用してログインできます。 ユーザー ジェスチャには、単純な暗証番号 (PIN)、Windows Hello などの生体認証、または指紋リーダーなどの外部のデバイスがあります。
+
+>[!TIP]
+>Microsoft Passport for Work は Windows Hello for Business と呼ばれるようになりました。 Intune コンソールは、今後の更新プログラムでは、この変更を反映するように更新されます。
 
 Intune は、2 つの方法で Passport for Work と統合できます。
 
@@ -75,6 +78,6 @@ Microsoft Passport について詳しくは、Windows 10 ドキュメントの[�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

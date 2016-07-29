@@ -1,10 +1,10 @@
 ---
-title: "アプリを展開する | Microsoft Intune"
-description: 
+title: "アプリを展開する方法 | Microsoft Intune"
+description: "このトピックの情報を使用して、Microsoft Intune でアプリを展開できます。"
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,17 +13,17 @@ ms.assetid: 3b42019e-73da-4538-a496-212f11d5bf9b
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c95a776e79cf3e1c7009d6e27f8f50482434d298
-ms.openlocfilehash: 46562ed3463c4a23a511eb5c7f28a0b11e84f421
+ms.sourcegitcommit: 5ef1d2d69acfeea9670324f580d33b191001ffa9
+ms.openlocfilehash: 8ab2517a11ecb6ae5395814472dfbb3e83da132b
 
 ---
 # Deploy apps in Microsoft Intune (Microsoft Intune でアプリを展開する)
 
-このトピックの情報を使用して、Microsoft Intune アプリを展開できます。
+このトピックの情報を使用して、Microsoft Intune でアプリを展開できます。
 
 
 ## アプリを展開する
-この手順では、選択したデバイスまたはユーザーにアプリを展開します。
+この手順では、選択したデバイスまたはユーザーのグループにアプリを展開します。
 
 ### アプリを展開するには
 
@@ -52,11 +52,11 @@ ms.openlocfilehash: 46562ed3463c4a23a511eb5c7f28a0b11e84f421
 ## 例
 
 この例では、アプリを **[使用可能]** として iOS デバイスに展開します。
-ユーザー デバイスのポータル サイトにアプリが表示され、そこからインストールできるようになります。 たとえば、このスクリーンショットでは、種類が **[外部リンク]** のインストールで Bing for iOS アプリが展開され、カスタム アイコンが付けられ、**[このアプリをポータル サイトでおすすめアプリとして強調表示します]** オプションが選択されています。
-    ![iOS の使用可能アプリ](./media/available-install-on-iOS.png)
+ユーザー デバイスのポータル サイトにアプリが表示され、そこからインストールできるようになります。 たとえば、このスクリーンショットでは、種類が **[外部リンク]** のインストールで Bing for iOS アプリが展開され、カスタム アイコンが付けられ、**[このアプリをポータル サイトでおすすめアプリとして強調表示します]** オプションが選択されています。  
+![iOS の使用可能アプリ](./media/available-install-on-iOS.png)
 
-アプリを **[必須]** として iOS デバイスに展開した場合は、アプリがインストール可能になったことを知らせる通知がユーザーに届きます。 たとえば、このスクリーンショットでは、種類が **[アプリ ストアの管理されている iOS アプリ]** のインストールで Work Folders for iOS アプリが展開されました。
-    ![iOS の必須アプリ](./media/iOS-Required-install.PNG)
+アプリを **[必須]** として iOS デバイスに展開した場合は、アプリがインストール可能になったことを知らせる通知がユーザーに届きます。 たとえば、このスクリーンショットでは、種類が **[アプリ ストアの管理されている iOS アプリ]** のインストールで Work Folders for iOS アプリが展開されました。  
+![iOS の必須アプリ](./media/iOS-Required-install.PNG)
 
 ## 次のステップ
 
@@ -64,6 +64,6 @@ ms.openlocfilehash: 46562ed3463c4a23a511eb5c7f28a0b11e84f421
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

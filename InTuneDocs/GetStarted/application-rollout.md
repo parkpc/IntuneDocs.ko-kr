@@ -1,6 +1,6 @@
 ---
 title: "アプリケーションのロールアウト | Microsoft Intune"
-description: 
+description: "Microsoft Intune でアプリを段階的にロールアウトする場合の推奨事項。"
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 0fc32ed3-bcf4-472a-80e7-eb20986f78fa
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
-ms.openlocfilehash: 4a237942b4bc1e411cf55bc34c7b86d2249c526e
+ms.sourcegitcommit: 2427768c0ca73d20140462946ba2984b7999d864
+ms.openlocfilehash: d72247936a0dec8e2e00d107c0d52c1568a92c03
 
 
 ---
@@ -44,7 +44,7 @@ ms.openlocfilehash: 4a237942b4bc1e411cf55bc34c7b86d2249c526e
 
 -   「[Microsoft Intune でアプリを追加する](/intune/deploy-use/add-apps)」の説明に従い、選択したアプリのインストーラーが Intune のアプリの配布でサポートされていることを確認します。
 
--   アプリ配布の前提条件がインストールされていることを確認します。 <!---, as described in [Plan for app deployment in Microsoft Intune](plan-for-app-deployment-in-microsoft-intune.md--->) を入力します。
+-   アプリ配布の前提条件がインストールされていることを確認します。 <!---, as described in [Plan for app deployment in Microsoft Intune](plan-for-app-deployment-in-microsoft-intune.md).--->
 
 -   Intune でアプリの種類がサポートされていることを確認します。
 
@@ -95,6 +95,6 @@ ms.openlocfilehash: 4a237942b4bc1e411cf55bc34c7b86d2249c526e
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

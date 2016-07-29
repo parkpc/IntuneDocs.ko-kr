@@ -1,6 +1,6 @@
 ---
-title: "Exchange Online と新しい Exchange Online Dedicated への電子メール アクセスを制限する | Microsoft Intune"
-description: 
+title: "Exchange Online への電子メール アクセスを制限する | Microsoft Intune"
+description: "条件付きアクセスで Exchange Online の会社電子メールへのアクセスを保護および制御します。"
 keywords: 
 author: karthikaraman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5a445f06d6c2328f7689468ca4d68a969af1e825
-ms.openlocfilehash: 87663f2677a006e5db525f8897fea4bf05cb5912
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: cc9f9578aecc63557cb5bc64288344a8145ff80b
 
 
 ---
@@ -260,6 +260,6 @@ PC が Office デスクトップ アプリケーションを実行して **Excha
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,10 +1,10 @@
 ---
 title: "iOS MAM ポリシーの設定 | Microsoft Intune"
-description: 
+description: "このトピックでは、iOS デバイス用のモバイル アプリ管理ポリシーの設定について説明します。"
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 673ff872-943c-4076-931c-0be90363aea9
 ms.reviewer: andcerat
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5a445f06d6c2328f7689468ca4d68a969af1e825
-ms.openlocfilehash: b3df4b35dbe2710157b88a4e7fdba9734f8b998b
+ms.sourcegitcommit: 09bf7d1343580f7688671bf94d83f40f0a3405c5
+ms.openlocfilehash: e0db92b6ecf7a552589ea805f6507ca59e6554b1
 
 
 ---
@@ -37,6 +37,8 @@ ms.openlocfilehash: b3df4b35dbe2710157b88a4e7fdba9734f8b998b
   - **なし**: 他のポリシーで管理されているアプリを含め、アプリへのデータ転送を許可しません。
 
   さらに、このオプションを **[ポリシーで管理されているアプリ]** または **[なし]** に設定すると、Spotlight 検索を使用してアプリ内のデータを検索できる iOS 9 の機能がブロックされます。
+
+  **この設定でモバイル デバイスの "開く" 機能の使用を制御することはできません。"開く" 機能を管理するには、[こちら](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)**を参照してください。
 
   **既定値 = ポリシーで管理されているアプリ**
 
@@ -112,6 +114,6 @@ iOS デバイスでは、数字による PIN の代わりに、iOS デバイス�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

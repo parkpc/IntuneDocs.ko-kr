@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: デバイスを保護する | Microsoft Intune
-description:
-keywords:
+title: "デバイスを保護する | Microsoft Intune"
+description: "不正アクセスなどの脅威からのデバイス保護に Intune が役立つ方法のいくつかについて説明します。"
+keywords: 
 author: Robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/13/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 71e0cbf3-2bfb-412e-8a12-8503df08b4cf
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mghadial
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 53201c36e7a210c1c62d3ed3183093ed8e63dc53
+
 
 ---
 
@@ -40,10 +34,14 @@ ms.suite: ems
 ## Windows デバイスで Microsoft Passport の設定を制御する
 Intune では、[Microsoft Passport for Work](control-microsoft-passport-settings-on-devices-with-microsoft-intune.md) を統合できます。これは Active Directory または Azure Active Directory アカウントを使った Windows 10 以降の代替サインイン方法であり、パスワード、スマート カード、または仮想スマート カードの代わりに使用されます。
 
+## iOS デバイスのアクティブ化ロックをバイパスする
+アクティブ化ロックは、デバイスを消去または再アクティブ化する前に、Apple ID とパスワードの入力を要求することでユーザー デバイスを保護するのに役立つ機能です。 ただし、これが問題につながる場合があります。たとえば、ユーザーがロックを解除しないまま会社を退職した場合です。 [iOS のアクティベーション ロックのバイパス](help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md)は、監視下 iOS デバイスのロックを解除して、デバイスを再割り当てしたり、消去したりできるようにする機能です。
+
 ## Intune クライアントで管理されている Windows PC を保護する
-Intune は引き続き、ユーザーは登録しないが、Intune コンピューター クライアント ソフトウェアで管理する Windows PC のセキュリティ ポリシーをサポートします。 これらのポリシーで Windows PC をセキュリティ保護する方法については、「[Use policies to help protect Windows PCs that run the Intune client software](policies-to-protect-windows-pcs-in-microsoft-intune.md)」 (Intune クライアント ソフトウェアを搭載した Windows PC の保護に有用なポリシーを使用する) を参照してください。
+Intune は引き続き、ユーザーは登録しないが、Intune コンピューター クライアント ソフトウェアで管理する Windows PC のセキュリティ ポリシーをサポートします。 これらのポリシーで Windows PC をセキュリティ保護する方法については、「[Use policies to help protect Windows PCs that run the Intune client software (Intune クライアント ソフトウェアを搭載した Windows PC の保護に有用なポリシーを使用する)](policies-to-protect-windows-pcs-in-microsoft-intune.md)」を参照してください。
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jul16_HO3-->
 
 

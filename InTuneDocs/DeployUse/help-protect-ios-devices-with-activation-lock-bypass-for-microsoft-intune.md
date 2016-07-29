@@ -1,20 +1,20 @@
 ---
-title: "アクティブ化ロックのバイパスを使用して iOS デバイスを保護する | Microsoft Intune"
-description: 
+title: "デバイスでの iOS アクティブ化ロックの管理 | Microsoft Intune"
+description: "Microsoft Intune では、iOS 7.1 以降向けの iPhone を探すアプリの機能である iOS のアクティブ化ロックを管理できます。"
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bb49e926-15c4-4f01-b6eb-cee6f7ee1984
-ms.reviewer: jeffgilb
+ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 496679a196dc3e84c6b16ad0d3b830c81f12631b
-ms.openlocfilehash: 7bbd761b13f110297959a036ec15cafe1396377e
+ms.sourcegitcommit: c1850e89830de61ccdeb81cb6ee9cc0f0c1d237a
+ms.openlocfilehash: 724186bdff1ae40e956c1f1c49476d80c7e1d657
 
 
 ---
@@ -82,12 +82,16 @@ Intune では、iOS 7.1 以降を実行している監視対象と監視対象�
 
     **[会社が所有しているすべてのデバイス]** ノードでデバイスを選んだ場合、そのデバイスでアクティブ化ロックが有効になっていると、バイパス コードも表示されます。 このコードを使用して、アクティブ化ロックのバイパスを手動で発行できます。
 
+    > [!IMPORTANT]
+    >Intune は、アクティブ化ロックのために 7 日おきにデバイスからインベントリを取得します。 このため、Intune コンソールで、デバイスとアクティブ化ロックのステータスがすぐに表示されない場合があります。
+
+
 ### 関連項目
 [デバイスをインベントリから削除する](retire-devices-from-microsoft-intune-management.md)
 [リモート ロックとパスコードのリセットによってデバイスを保護する](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

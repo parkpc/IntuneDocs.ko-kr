@@ -1,28 +1,26 @@
 ---
 title: "iOS および Mac の管理をセットアップする | Microsoft Intune"
-description: 
+description: "Microsoft Intune で、iPad や iPhone だけでなく Mac OS X デバイスを含む iOS デバイスのモバイル デバイス管理 (MDM) を有効にします。"
 keywords: 
 author: NathBarn
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: dc451224-1372-4b84-b641-cfa67cb3849b
-ms.reviewer: jeffgilb
+ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bb44d53c87bec1b6892bf49a65f3df684199ed08
-ms.openlocfilehash: 9766b6e64259d809b04e6f6004c25ed88ad72659
+ms.sourcegitcommit: 26ac7d52c0ad3e37e517b60d448a94849c0f4b30
+ms.openlocfilehash: f393f2f34658d9c4c341f1c961e9dd527fcec4b1
 
 
 ---
 
 # iOS および Mac のデバイス管理をセットアップする
-Microsoft Intune を使用すると、iOS および Mac OS X デバイスを登録し、iPhone、iPad、Mac のユーザーが会社の電子メールとアプリにアクセスできるようにして、BYOD ("Bring Your Own Device") を実現できます。 有効にすると、ユーザーは Intune のポータル サイト アプリをインストールでき、Intune 管理コンソールを使用して、ユーザーのデバイスをポリシーの対象にできます。
-
-Intune で iOS デバイスを管理するには、デバイスが Intune と通信できる必要があります。 Apple では、Apple Push Notification サービス (APNs) 証明書をインポートすることによって確立された Intune との信頼関係を必要としています。
+iPad、iPhone、および Mac OS X デバイスの Intune モバイルデバイス管理と、会社の電子メールおよびアプリへのアクセスの付与。 Intune で iOS および Mac デバイスを管理するには、Apple Push Notification サービス (APNs) 証明書が必要です。 証明書を Intune に追加すると、ユーザーが会社のポータル アプリをインストールして自分のデバイスを登録できます。または管理者が[企業所有の iOS デバイス管理](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)をセットアップできます。
 
 1.  **Intune をセットアップする**<br>
     **Microsoft Intune** を[モバイル デバイス管理機関に設定](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)して、MDM の設定を行うことにより、モバイル デバイス管理を準備します (この作業をまだ行っていない場合)。
@@ -50,6 +48,6 @@ Intune で iOS デバイスを管理するには、デバイスが Intune と通
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

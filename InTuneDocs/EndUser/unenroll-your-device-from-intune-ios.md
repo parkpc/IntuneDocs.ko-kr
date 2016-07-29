@@ -1,9 +1,9 @@
 ---
-title: "Intune からデバイスの登録を解除する | Microsoft Intune"
-description: 
+title: "Intune から iOS デバイスの登録を解除する | Microsoft Intune"
+description: "Intune から iOS デバイスを登録解除する方法について説明します"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -14,18 +14,21 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 4dbb4d5d7151a6a579e00c2c4034a811f2357774
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: e8572d873ca83f4fad7a1e1e01f60ece3f1319a6
 
 
 ---
 
 
-# Intune からデバイスの登録を解除する
+# Intune から iOS デバイスの登録を解除する
 
 Intune から iOS デバイスの登録を解除すると、デバイスは会社のリソースにアクセスできなくなり、Intune で管理されなくなります。
 
-Intune からデバイスの登録を解除するには、これらの手順を使用するか、この[ビデオ](http://aka.ms/kfz8j1)をご覧ください。
+Intune からデバイスの登録を解除するには、これらの手順を使用するか、このビデオをご覧ください。
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/watch?v=6UFtBrBWUUI&feature=youtu.be" frameborder="0" allowfullscreen></iframe>
+
 
 1.  ポータル サイト アプリの **[デバイス]**で、登録を解除するデバイスを選択します。
 
@@ -55,6 +58,6 @@ Intune からデバイスの登録を解除すると、どのようになるか�
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

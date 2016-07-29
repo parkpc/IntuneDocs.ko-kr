@@ -1,27 +1,27 @@
 ---
-title: "ポータル サイト アプリをインストールし、Intune にデバイスを登録するとどうなるか | Microsoft Intune"
+title: "ポータル サイト アプリをインストールし、Intune に iOS または Mac OS X デバイスを登録するとどうなるか | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 7/7/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a2467c02-aac5-41c8-b788-cbda830941ef
-ROBOTS: 
+ROBOTS: noindex,nofollow
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: a83edd3ed51bddafd6f057ed9ae2bb0958c88fe4
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: f07eaf82a3bd8fc7fb47032642b30850fcbbb30d
 
 
 ---
 
 
-# ポータル サイト アプリをインストールし、Intune にデバイスを登録するとどうなるか
+# ポータル サイト アプリをインストールし、Intune に iOS または Mac OS X デバイスを登録するとどうなりますか。
 
 ポータル サイト アプリをインストールし、iOS デバイスまたは Mac OS X デバイスを Intune に登録すると、ポータル サイト アプリを使用して次のことができるようになります。
 
@@ -29,9 +29,9 @@ ms.openlocfilehash: a83edd3ed51bddafd6f057ed9ae2bb0958c88fe4
 
 -   ポータル サイトから会社のアプリを取得する
 
--   会社用の電子メール アカウントを自動的に構成する
+-   携帯電話の紛失や盗難にあった場合、リモートで電話を工場出荷時設定にリセットする
 
--   携帯電話の紛失や盗難にあった場合、電話を工場出荷時設定にリセットする
+-   会社用の電子メール アカウントを自動的に構成する
 
 デバイスを Intune に登録すると、使用しているデバイスの管理を IT 管理者に許可することで、デバイスに保存されている会社情報を保護しやすくすることもできます。
 
@@ -64,8 +64,6 @@ ms.openlocfilehash: a83edd3ed51bddafd6f057ed9ae2bb0958c88fe4
 -   Owner
 
 -   デバイス名
-
--   製造元
 
 デバイスが登録されると、IT 管理者は次のことができるようになります。
 
@@ -101,6 +99,6 @@ ms.openlocfilehash: a83edd3ed51bddafd6f057ed9ae2bb0958c88fe4
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

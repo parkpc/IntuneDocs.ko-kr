@@ -13,8 +13,8 @@ ms.assetid: ef1751bb-3a2f-4662-a922-38c076869eb3
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: 8a9dfe8224b4e0e441691043eaffea73c456b3ec
+ms.sourcegitcommit: 206f7c927cce0b66cf554f60342f3f0b1ca43105
+ms.openlocfilehash: d40687127841754f3994b8ad55e839e08bb8dd33
 
 
 ---
@@ -47,7 +47,7 @@ IT 管理者は、Intune の管理対象アプリの中からリンクを開く�
 IT 管理者は、Intune の管理対象アプリが開始するときに暗証番号 (PIN) ポリシーを適用できます。 このポリシーによって、Microsoft Intune を使用してデバイスを登録しているエンドユーザーとアプリを起動しているユーザーが同一であることを確認できます。 エンド ユーザーが自分の暗証番号 (PIN) を構成するとき、Intune アプリ SDK は Azure Active Directory を使用して、エンド ユーザーの資格情報をデバイス登録資格情報に照らして確認します。 
 
 ## ユーザーは、アプリを起動する前に、資格情報を入力する必要があります。
-IT 管理者は、ユーザーが Intune の管理対象アプリを起動する前に、自分の資格情報を入力するように要求できます。 Intune アプリ SDK は Azure Active Directory を使用してシングル サインオン エクスペリエンスを提供します。1 回入力した資格情報が、それ以降のログインで再利用されます。 [Azure Active Directory とフェデレーション](https://msdn.microsoft.com/en-us/library/azure/jj679342.aspx)している ID 管理ソリューションの認証もサポートしています。 
+IT 管理者は、ユーザーが Intune の管理対象アプリを起動する前に、自分の資格情報を入力するように要求できます。 Intune アプリ SDK は Azure Active Directory を使用してシングル サインオン エクスペリエンスを提供します。1 回入力した資格情報が、それ以降のログインで再利用されます。 [Azure Active Directory とフェデレーション](/active-directory/active-directory-aadconnect-federation-compatibility)している ID 管理ソリューションの認証もサポートしています。 
 
 ## デバイスのヘルスとコンプライアンスの確認
 エンド ユーザーが Intune の管理対象アプリにアクセスする前に、IT 管理者は、デバイスのヘルスと企業のポリシーに対するコンプライアンスを確認できます。 iOS プラットフォームでは、このポリシーにより、デバイスが脱獄されているかどうかを確認できます。 Android プラットフォームでは、このポリシーにより、デバイスがルート化されているかどうかを確認できます。  
@@ -56,6 +56,6 @@ IT 管理者は、ユーザーが Intune の管理対象アプリを起動する
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

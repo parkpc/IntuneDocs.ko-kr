@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Intune のドメイン名 | Microsoft Intune"
-description: 
+description: "Intune のドメイン名を追加する"
 keywords: 
 author: andredm7
 manager: swadhwa
@@ -13,15 +13,15 @@ ms.assetid: c3c136f0-330d-432a-a91f-16f7dd097e55
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3d99669f90fe7ebec7854b7a800b09b0685c314e
-ms.openlocfilehash: aaede1500f28c6eb8c2a21924d7c3b7f633eca26
+ms.sourcegitcommit: 32723f5b2c92073dda43a0b1f36a48ded0e13ba3
+ms.openlocfilehash: 2adbe1e4a92af5302550a8b78069bc49d725dbc3
 
 
 ---
 
 
 
-# Microsoft Intune を使用してカスタム ドメインを管理する
+# Microsoft Intune でのカスタム ドメイン名
 
 カスタム ドメインを追加し、確認する手順は、[Azure Active Directory でも実行できます](https://azure.microsoft.com/en-us/documentation/articles/active-directory-add-domain/)。
 
@@ -37,15 +37,11 @@ ms.openlocfilehash: aaede1500f28c6eb8c2a21924d7c3b7f633eca26
 2. ナビゲーション ウィンドウの **[設定]** &gt; **[ドメイン]** を選択します。
 3. **[ドメインの追加]** を選択し、カスタム ドメイン名を入力します。
 4. **[ドメインの確認]** ダイアログ ボックスが開き、DNS ホスティング プロバイダーに TXT レコードを作成する値が表示されます。
-    > [!TIP]
-    > GoDaddy ドメインを使用している場合、Office 365 管理ポータルから GoDaddy のログイン ページにリダイレクトされます。 資格情報を入力し、ドメインの変更アクセス許可に同意すると、TXT レコードが自動的に作成されます。
-    > 
-    > また、[GoDaddy ドメインを使用している場合、この手順で確認できる値に基づいて TXT レコードを手動で作成する](https://support.office.com/en-us/article/Create-DNS-records-at-GoDaddy-for-Office-365-f40a9185-b6d5-4a80-bb31-aa3bb0cab48a?ui=en-US&rs=en-US&ad=US)こともできます。
+    - **GoDaddy ユーザー**: Office 365 管理ポータルから GoDaddy のログイン ページにリダイレクトされます。 資格情報を入力し、ドメインの変更アクセス許可に同意すると、TXT レコードが自動的に作成されます。 または [TXT レコードを作成](https://support.office.com/en-us/article/Create-DNS-records-at-GoDaddy-for-Office-365-f40a9185-b6d5-4a80-bb31-aa3bb0cab48a?ui=en-US&rs=en-US&ad=US)できます。
+    - **Register.com ユーザー**: この[ステップ バイ ステップの指示](https://support.office.com/en-us/article/Create-DNS-records-at-Register-com-for-Office-365-55bd8c38-3316-48ae-a368-4959b2c1684e?ui=en-US&rs=en-US&ad=US#BKMK_verify)に従って、TXT レコードを作成します。
 
-    > [!NOTE]
-    > Register.com ドメインを使用している場合、この手順で確認できる値に基づき、[こちらの手順](https://support.office.com/en-us/article/Create-DNS-records-at-Register-com-for-Office-365-55bd8c38-3316-48ae-a368-4959b2c1684e?ui=en-US&rs=en-US&ad=US#BKMK_verify)従って TXT レコードを作成してください。
-
-5. 必ず [Windows デバイス登録](https://docs.microsoft.com/en-us/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)用に DNS エイリアス (CNAME) を作成し、さらに DNS ホスティング プロバイダーでも変更します。
+    > [!TIP] 
+    > 必ず [Windows デバイス登録](/Intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)用に DNS エイリアス (CNAME) を作成し、さらに DNS ホスティング プロバイダーでも変更します。
 
 ハイブリッド クラウド シナリオでは、カスタム ドメイン名を追加し、組織がドメインを所有していることを確認した後は、オンプレミス Active Directory でユーザー アカウントの管理を継続し、Azure AD と同期することができます。
 
@@ -64,6 +60,6 @@ ms.openlocfilehash: aaede1500f28c6eb8c2a21924d7c3b7f633eca26
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

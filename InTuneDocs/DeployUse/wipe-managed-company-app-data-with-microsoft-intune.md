@@ -1,6 +1,6 @@
 ---
-title: "管理対象の業務用アプリのデータを Microsoft Intune でワイプする | Microsoft Intune"
-description: 
+title: "管理対象の業務用アプリのデータをワイプする | Microsoft Intune"
+description: "リモートでデバイスから会社のデータを選択的に削除する方法について説明します。"
 keywords: 
 author: karthikaraman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 2742e1d5-d2d5-42cd-b719-665dd6e0a0e9
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
-ms.openlocfilehash: ebc83611679f5128df45e4ca6b2f3b745f47061d
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 61dee41861738a72d67c875e18d6c9714a17457d
 
 
 ---
@@ -61,6 +61,6 @@ ms.openlocfilehash: ebc83611679f5128df45e4ca6b2f3b745f47061d
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

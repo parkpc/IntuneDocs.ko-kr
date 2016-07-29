@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Intune でコンプライアンス ポリシーを展開して監視する |Microsoft Intune"
-description: 
+title: "コンプライアンス ポリシーを展開して監視する | Microsoft Intune"
+description: "このトピックのステップ バイ ステップの指示は、デバイスのコンプライアンス ポリシーを展開して監視するために使用します。"
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: d8f246d4-0d86-4c8b-a1bf-9977985506d8
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
-ms.openlocfilehash: 52da5cf6d14a5fc3ff3db6bdb07823d3bf373466
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 42d326dbe937724141213dacc133aefe5020a61d
 
 
 ---
@@ -31,7 +31,8 @@ ms.openlocfilehash: 52da5cf6d14a5fc3ff3db6bdb07823d3bf373466
 
 **[ポリシー]** ワークスペースの **[概要]** ページに表示されるステータスの概要とアラートを使用すると、注意が必要なポリシーの問題を識別できます。 ステータスの概要は **[ダッシュボード]** ワークスペースにも表示されます。
 
-> [!IMPORTANT]コンプライアンス ポリシーを展開していない状態で、Exchange 条件付きアクセス ポリシーを有効にすると、すべての対象デバイスによるアクセスが許可されます。
+> [!IMPORTANT]
+> コンプライアンス ポリシーを展開していない状態で、Exchange 条件付きアクセス ポリシーを有効にすると、すべての対象デバイスによるアクセスが許可されます。
 
 ## Intune のポリシー競合の解決方法
 複数の Intune ポリシーを 1 つのデバイスに適用すると、ポリシーの競合が発生する可能性があります。 ポリシーの設定が重複した場合、Intune では次の規則を使用して競合を解決します。
@@ -71,6 +72,6 @@ ms.openlocfilehash: 52da5cf6d14a5fc3ff3db6bdb07823d3bf373466
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

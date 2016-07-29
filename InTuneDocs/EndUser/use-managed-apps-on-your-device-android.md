@@ -1,26 +1,27 @@
 ---
-title: "デバイスで管理対象アプリを使用する | Microsoft Intune"
+title: "Android デバイスで管理対象アプリを使用する | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ed10a62c-b026-4ad3-ac41-641933522df2
+ROBOTS: noindex,nofollow
 ms.reviewer: maxles
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
-ms.openlocfilehash: 5a25d845113ef6a3cb402923ef451fab63138979
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 84dc834c28ab75c4091d7665e8492ec40ede95f9
 
 
 ---
 
 
-# デバイスで管理対象アプリを使用する
+# Android デバイスで管理対象アプリを使用する
 
 管理対象アプリとは、そのアプリでアクセス可能な会社のデータを保護できるよう IT 管理者が構成可能なアプリです。 管理対象アプリ内の会社のデータに Android デバイスでアクセスする場合、アプリの動作が予期したものとは少し異なる場合があります。 たとえば、保護された会社のデータをコピーして貼り付けできない、またはそのデータを特定の場所に保存できない場合があります。
 
@@ -77,6 +78,6 @@ IT 部門が管理する可能性のある一般的なアプリを以下にい�
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

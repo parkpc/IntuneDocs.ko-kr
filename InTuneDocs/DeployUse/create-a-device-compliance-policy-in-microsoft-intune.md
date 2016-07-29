@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Intune でデバイスのコンプライアンス ポリシーを作成する |Microsoft Intune"
-description: 
+title: "デバイスのコンプライアンス ポリシーを作成する | Microsoft Intune"
+description: "会社データのアクセスに使用するモバイル デバイスや PC をセキュリティで保護するためにコンプライアンス ポリシーを作成します。"
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 5336dac0-a2cc-4cd4-8511-67e4f95bd700
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
-ms.openlocfilehash: f4f036fc1b6fe2394e05907e2d14289c9fba3426
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 67d9b0e0231b8165500f6995d5c058fb5c3f2df1
 
 
 ---
@@ -32,12 +32,20 @@ ms.openlocfilehash: f4f036fc1b6fe2394e05907e2d14289c9fba3426
   -   パスワードや暗号化などのシステムのセキュリティ設定
   -   デバイスが改造されているかどうか、Windows デバイス正常性構成証明書サービスによって正常と報告されているかどうかなどのデバイスのヘルスの設定
   -   必要な最小 OS バージョンや許可される最大 OS バージョンなどのデイバイスのプロパティの設定
-![[ポリシーの作成] ページの [全般] タブのスクリーン ショット ](./media/intune-sa-3b-create-policy.png)
+![[ポリシーの作成] ページの [全般] タブ ](./media/intune-sa-3b-create-policy.png)
+
 
 ##  手順 3: ポリシーを保存する
 終了したら、**[ポリシーの保存]** を選びます。
 
 ポリシーは、保存した後、すぐ展開できますが、後で展開することもできます。 **[ポリシー]** ワークスペースの **[コンプライアンス ポリシー]** ノードに新しいポリシーが表示されます。
+
+##  手順 4: コンプライアンス対応状態の有効期間を設定する
+デバイスがコンプライアンス対応していないと見なされる前にチェックインする必要がある時間を指定するには、コンプライアンス ポリシーの設定に移動し、この時間を更新します。  既定は、30 日間に設定されています。
+
+![ポリシーのメニュー バーのコンプライアンス ポリシー設定オプション](../media/mdm-compliance-policy-settings.png)
+
+![[コンプライアンス ポリシー] ダイアログ ボックス](../media/mdm-ca-compliance-status-validity-period.png)
 
 ## サポートされるポリシー設定
 次の表は、コンプライアンス ポリシー設定と、それらがサポートされるプラットフォームの一覧を示しています。
@@ -79,6 +87,6 @@ ms.openlocfilehash: f4f036fc1b6fe2394e05907e2d14289c9fba3426
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,6 +1,6 @@
 ---
 title: "サービスの説明 | Microsoft Intune"
-description: 
+description: "Intune は、クラウドベースのサービスであり、Windows PC に加えて、iOS、Mac OS X、Android、および Windows のモバイル デバイスを管理するのに便利です。"
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 40fa5a2e-6c0f-4150-9740-d5ddc0cdbda0
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4794a22b3bdd1f28e6951b81e8379dc208fffc89
-ms.openlocfilehash: 6cab0bacd9157323e342662609de8c9f20550d78
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: 98a5013ef42732e6a1a541e128986bedbb004611
 
 
 ---
@@ -34,7 +34,7 @@ Intune は、100 ユーザー ライセンスを含む 30 日間の無料試用�
 
 -   [Microsoft Intune のモバイル デバイス管理機能](/intune/get-started/mobile-device-management-capabilities-in-microsoft-intune)
 
--   [Configuration Manager でのモバイル デバイスの全般設定](https://technet.microsoft.com/en-us/library/dn376523.aspx)
+-   [Configuration Manager でのモバイル デバイスの全般設定](https://technet.microsoft.com/library/dn376523.aspx)
 
 System Center 2012 R2 Configuration Manager については、「[System Center 2012 Configuration Manager のドキュメント ライブラリ](https://technet.microsoft.com/library/gg682041.aspx)」を参照してください。
 
@@ -45,9 +45,10 @@ Intune はオンライン サービスであるため、Microsoft によって�
 
 Intune サービスの変更点については、「[Microsoft Intune の新機能](/intune/deploy-use/Whats-new-in-microsoft-intune.md)」を参照してください。 [Microsoft Intune ブログ](http://blogs.technet.com/b/microsoftintune/)でも、サービスの変更について取り上げており、Intune を最大限に利用するのに役立つヒントを提供しています。
 
-重要なサービスの更新情報も、[Office 365 管理ポータル](https://portal.office.com/Admin/Default.aspx)のメッセージ センターでユーザーに公開されます。 コンパニオン [Office 365 Admin Mobile アプリ](https://support.office.com/en-us/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)をインストールしている場合、モバイル デバイスで通知を受け取ることができます。
+重要なサービスの更新情報も、[Office 365 管理ポータル](https://portal.office.com/Admin/Default.aspx)のメッセージ センターでユーザーに公開されます。 コンパニオン [Office 365 Admin Mobile アプリ](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)をインストールしている場合、モバイル デバイスで通知を受け取ることができます。
 
-> [!NOTE] Intune のサービス正常性は、[Office 365 管理ポータル](https://portal.office.com/Admin/Default.aspx)で監視できます。 左側のウィンドウで **[サービス正常性]** を選択します。  
+> [!NOTE]
+> Intune のサービス正常性は、[Office 365 管理ポータル](https://portal.office.com/Admin/Default.aspx)で監視できます。 左側のウィンドウで **[サービス正常性]** を選択します。  
 
 Intune サービスに関して、Microsoft からは次のような通知が提供されます。
 -   サービスの変更に関する計画を立てられるように、サービスのアップグレードが行われる少なくとも 30 ～ 90 日前に通知します。変更が及ぼす影響の大きさによって異なります。 掲示板アラートのような、製品に組み込まれている通信チャネルを使用して通知されます。 次のような変更が含まれます。
@@ -82,6 +83,6 @@ Intune の詳細については、次のリソースを参照してください�
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

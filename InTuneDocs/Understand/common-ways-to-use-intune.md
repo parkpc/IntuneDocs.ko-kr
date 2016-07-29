@@ -1,9 +1,9 @@
 ---
 title: "Intune の一般的な使用方法 |Microsoft Intune"
-description: 
+description: "ユーザーが Intune に望む最も一般的な 6 つのタスクを一覧表示します。"
 keywords: 
 author: jeffgilb
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 1f37d4ff-b5a7-4a89-8884-a6184908b09c
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9cb6894cefad1da14332f9994fdf45fe2d1e9b9c
-ms.openlocfilehash: c854893f457a60a7424010cdf69a91cb8476e167
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 3defa4b8f78e854532d32c66a17f0ed18d36cec7
 
 
 ---
@@ -23,7 +23,8 @@ ms.openlocfilehash: c854893f457a60a7424010cdf69a91cb8476e167
 
 実装を始める前に、自社のエンタープライズ モビリティの関係者と、ビジネス目標に関する認識を合わせておくことが重要です。  これは、エンタープライズ モビリティを初めて導入する場合も、別の製品から移行する場合も同様です。  エンタープライズ モビリティ関連のニーズは動的に進化しており、これらのニーズに対応する Microsoft のアプローチが市場の他のソリューションとは異なる場合もあります。  ビジネス目標に関する認識を合わせる最善の方法は、有効にするシナリオで実現したいことを、従業員、パートナー、IT に対して明確にすることです。  以下では、Intune を使用する 6 つの一般的なシナリオについて簡単に説明します。また、各シナリオを計画および展開する方法を詳しく説明する記事のリンクも示します。
 
->[!NOTE] Microsoft IT は Intune を使用して、企業のデータを保護しながら、Microsoft の従業員が個人のモバイル デバイスで会社のリソースにアクセスすることを可能にしています。 Microsoft IT が Intune とその他のサービスをどのように使用して ID、デバイス、アプリ、およびデータを管理しているか、[こちらのテクニカル ケース スタディ](https://www.microsoft.com/itshowcase/Article/Content/588)でその方法の詳細をご確認ください。  
+>[!NOTE]
+>Microsoft IT は Intune を使用して、企業のデータを保護しながら、Microsoft の従業員が個人のモバイル デバイスで会社のリソースにアクセスすることを可能にしています。 Microsoft IT が Intune とその他のサービスをどのように使用して ID、デバイス、アプリ、およびデータを管理しているか、[こちらのテクニカル ケース スタディ](https://www.microsoft.com/itshowcase/Article/Content/588)でその方法の詳細をご確認ください。  
 
 ## モバイル デバイスで安全にアクセスできるようにオンプレミスの電子メールとデータを保護する
 ほとんどのエンタープライズ モビリティ戦略は、従業員がモバイル デバイスを使用してインターネット上の電子メールに安全にアクセスできるようにするための計画で始まります。 組織の多くは、まだ自社ネットワークでホストするオンプレミスのデータとアプリケーション サーバーを使用しています (Microsoft Exchange など)。 Intune と Enterprise Mobility Suite (EMS) が提供する Exchange Server 向けの統合された条件付きアクセス ソリューションにより、企業ネットワークに別のゲートウェイ マシンを展開することなく、Intune でデバイスを登録するまで、どのモバイル アプリからも電子メールにアクセスできないようにすることができます。
@@ -67,6 +68,6 @@ Intune の一括プロビジョニングと管理のソリューションは、A
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

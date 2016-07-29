@@ -24,6 +24,7 @@
 #### [Exchange のアクセス ルール](exchange-access-rules-for-mobile-devices.md)
 ### [PC の管理](manage-windows-pcs-with-microsoft-intune.md)
 #### [PC クライアントのインストール](install-the-windows-pc-client-with-microsoft-intune.md)
+#### [一般的な PC 管理タスク](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
 #### [PC ポリシーの競合の解決](resolve-gpo-and-microsoft-intune-policy-conflicts.md)
 
 ## [デバイスの構成](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
@@ -49,7 +50,7 @@
 ### [ユーザーとデバイスの管理にグループを使用する](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
 ### [デバイスをグループにマッピングする](categorize-devices-with-device-group-mapping-in-microsoft-intune.md)
 ### [インベントリでデバイスを把握する](understand-your-devices-with-inventory-in-microsoft-intune.md)
-### [一般的な PC 管理タスク](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
+
 
 ## [デバイスを保護する](protect-your-devices-with-microsoft-intune.md)
 ### [リモート ロックとパスコードのリセット](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
@@ -76,6 +77,7 @@
 ## [アプリの構成](update-apps-using-microsoft-intune.md)
 ### [アプリを更新する ](update-apps-using-microsoft-intune.md)
 ### [iOS アプリ構成ポリシー](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)
+### [iOS モバイル アプリ プロビジョニング プロファイル](ios-mobile-app-provisioning-profiles.md)
 ### [インターネット アクセスを管理する](manage-internet-access-using-managed-browser-policies.md)
 
 
@@ -133,6 +135,6 @@
 # [トラブルシューティング](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

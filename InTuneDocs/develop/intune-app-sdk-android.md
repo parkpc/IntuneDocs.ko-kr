@@ -13,8 +13,8 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2915cca314b489bbcb590d01b03a0b38134fa619
-ms.openlocfilehash: d2e4b6903d86b79edd9c758b2ce51733831e785a
+ms.sourcegitcommit: 51f7734e2acced469ec3520d74a8079dac8223f2
+ms.openlocfilehash: bcb62e9c99c1f5a5b53ada688ef39a59674dea04
 
 
 ---
@@ -220,7 +220,7 @@ MAM エントリ ポイントのいずれかから派生させた後、 `Package
 
 # バックアップ データの保護 
 
-Android Marshmallow (API 23) 以降、Android ではアプリのデータをバックアップする方法が 2 つになりました。 これらのオプションはアプリで使用でき、MAM データ保護が適切に適用されるようにするために、異なる手順が必要となります。 適切なデータ保護の動作に必要な、対応するアクションの概要は、次の表で確認することができます。  また、Android のバックアップの詳細については、「[Android 開発者のデータ バックアップ ガイド](http://developer.android.com/guide/topics/data/backup.html.)」も参照してください。 
+Android Marshmallow (API 23) 以降、Android ではアプリのデータをバックアップする方法が 2 つになりました。 これらのオプションはアプリで使用でき、MAM データ保護が適切に適用されるようにするために、異なる手順が必要となります。 適切なデータ保護の動作に必要な、対応するアクションの概要は、次の表で確認することができます。  また、Android のバックアップの詳細については、「[Android 開発者のデータ バックアップ ガイド](http://developer.android.com/guide/topics/data/backup.html)」も参照してください。 
 
 ## 自動完全バックアップ
 
@@ -365,6 +365,6 @@ Intune SDK は Android API によって提供されるコントラクトを維�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

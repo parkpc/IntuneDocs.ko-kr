@@ -3,18 +3,19 @@ title: "会社の仮想プライベート ネットワーク (VPN) をインス�
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 7/14/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ed4a9f15-72fb-4171-84cb-63d2f1a6d04c
+ROBOTS: noindex,nofollow
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: d4c0e05002b3d6f2785b401159c2872d93313524
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 73fee953e10336fe659e271b49d96a518b2730aa
 
 
 ---
@@ -28,7 +29,9 @@ ms.openlocfilehash: d4c0e05002b3d6f2785b401159c2872d93313524
 
 2.  **[Play ストア]** で **[インストール]** をクリックし、画面に表示される指示に従ってアプリをインストールします。
 
-3.  **[企業 VPN プロファイルをインストールしてください]** をタップして、画面に表示される指示に従って同意し、アプリをアクティブ化します。
+3.  **[企業 VPN プロファイルをインストールしてください]** をタップして、画面に表示される指示に従います。 インストール手順は、会社で使用している VPN のプロバイダーによって多少異なる場合があります。
+
+
 
 サポートが必要な場合は、 IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
 
@@ -36,6 +39,6 @@ ms.openlocfilehash: d4c0e05002b3d6f2785b401159c2872d93313524
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

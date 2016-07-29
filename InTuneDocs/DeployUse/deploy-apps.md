@@ -1,10 +1,10 @@
 ---
 title: "アプリを展開する | Microsoft Intune"
-description: 
+description: "このトピックでは、Intune を使用してアプリの展開を開始する前に理解する必要がある概念について説明します。"
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: ad5ea85c-aa2e-4110-a184-172cd0b8f270
 ms.reviewer: mghadial
 ms.suite: ems
-ms.sourcegitcommit: e6b995118e66fd146a68b49ce4decdcbd1fe3572
-ms.openlocfilehash: a68cb85602bd585539147c7d7d38c0d906f2b1f7
+translationtype: Human Translation
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 84f19cd198a2367abb0267071bd73ce8ac6d7d05
 
 
 ---
@@ -29,7 +30,7 @@ ms.openlocfilehash: a68cb85602bd585539147c7d7d38c0d906f2b1f7
 -   **必須のインストール** – エンド ユーザーの介入なしで、デバイス上にアプリがインストールされます。
 
     > [!TIP]
-    > [!TIP]監視モードになっていない iOS デバイスと、すべての Android デバイスで、ユーザーはアプリ オファーを受け入れてからインストールする必要があります。
+    > 監視モードになっていない iOS デバイスと、すべての Android デバイスで、ユーザーはアプリ オファーを受け入れてからインストールする必要があります。
     > 
     >  必須のインストールとして展開されたアプリをエンドユーザーがアンインストールした場合、Intune は、次回のインベントリ サイクル (7 日おきに実行される) でアプリを自動的に再インストールします。
 
@@ -54,7 +55,7 @@ ms.openlocfilehash: a68cb85602bd585539147c7d7d38c0d906f2b1f7
 |App Store の管理対象 iOS アプリケーション (ユーザー グループに展開)|○|○|○|○|
 |App Store の管理対象 iOS アプリケーション (デバイス グループに展開)|○|×|○|○|
 > [!TIP]
-> [!TIP]アプリを展開するときに、ユーザーとデバイス グループの両方を選択した場合、アプリは **[利用可能なインストール]** としてのみ展開できます。
+> アプリを展開するときに、ユーザーとデバイス グループの両方を選択した場合、アプリは **[利用可能なインストール]** としてのみ展開できます。
 
 ## 展開の競合
 同じ展開操作によって 2 回の展開を行うと、1 つのデバイスで受信され、次の規則が適用されます。
@@ -72,6 +73,6 @@ ms.openlocfilehash: a68cb85602bd585539147c7d7d38c0d906f2b1f7
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 
