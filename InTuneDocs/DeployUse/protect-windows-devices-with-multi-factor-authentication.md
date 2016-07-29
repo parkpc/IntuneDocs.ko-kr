@@ -3,7 +3,7 @@ title: "Windows용 Multi-Factor Authentication | Microsoft Intune"
 description: "Intune에서는 회사 리소스를 보호할 수 있는 MFA(Multi-Factor Authentication)를 통합합니다."
 keywords: 
 author: Nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
@@ -13,14 +13,14 @@ ms.assetid: 9b4f197d-bc10-4bee-91c9-19bcc8287d36
 ms.reviewer: vinaybha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: c2c1a35152dc0f9ec9464c056fed3300540bf33c
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: c1f9c60a1c79d23bab62617ed237ad982e82c39d
 
 
 ---
 
 # Protect Windows devices with multi-factor authentication
-Microsoft Intune에서는 회사 리소스를 보호할 수 있는 MFA(Multi-Factor Authentication)를 통합합니다. MFA를 사용하려면 사용자 이름 및 암호 외에도 텍스트 인증과 같은 인증 요소가 필요합니다. Intune에서는 Windows 8.1 이상, Windows Phone 8.1 또는 Windows 10 Desktop 및 Mobile 장치의 등록 중에 MFA의 사용을 지원합니다. 
+Microsoft Intune에서는 회사 리소스를 보호할 수 있는 MFA(Multi-Factor Authentication)를 통합합니다. MFA를 사용하려면 사용자 이름 및 암호 외에도 텍스트 인증과 같은 인증 요소가 필요합니다. Intune에서는 Windows 8.1 이상, Windows Phone 8.1 또는 Windows 10 Desktop 및 Mobile 장치의 등록 중에 MFA의 사용을 지원합니다.
 
 ## ADFS MFA에 대한 온-프레미스 인프라 요구 사항
 다단계 인증을 설정하려면 다음이 필요합니다.
@@ -55,7 +55,6 @@ ADFS에서 MFA를 사용하도록 설정하는 방법에 대한 자세한 내용
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

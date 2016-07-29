@@ -3,7 +3,7 @@ title: "Intune에서 Mac OS X 장치 등록 | Microsoft Intune"
 description: "Intune에서 Mac OS X 장치를 등록하는 방법을 설명합니다."
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 05/30/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 04380c2adf65f76a786da51509db24d773ac30f1
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 9e3c351591f496fbc7be3fefdc320af9caaae726
 
 
 ---
@@ -34,19 +34,19 @@ Mac OS X 장치를 등록하려면
 
 2.  **이 장치는 등록되지 않았거나 회사 포털에서 해당 장치를 식별할 수 없습니다.**를 탭합니다.
 
-    ![device-not-enrolled](./media/1-macosx-enroll-tap-enroll.png) 
+    ![device-not-enrolled](./media/1-macosx-enroll-tap-enroll.png)
 
 3.  **설치**를 탭하여 장치 등록을 시작합니다.
 
-    ![tap-install-to-enroll](./media/2-macosx-enroll--install-button.png) 
+    ![tap-install-to-enroll](./media/2-macosx-enroll--install-button.png)
 
 4.  **관리 프로필 설치** 대화 상자에서 **설치**를 탭합니다. 자격 증명을 입력하라는 대화 상자가 나타나면 사용자 이름 및 암호를 입력하고 **계속** &gt; **설치**를 탭합니다.
 
-    ![install-management-profile](./media/3-macosx-enroll-tap-install.png) 
+    ![install-management-profile](./media/3-macosx-enroll-tap-install.png)
 
     등록이 끝나면 프로필이 확인되었음을 보여 주는 관리 프로필 페이지가 표시됩니다.
 
-    ![management-profile-verified](./media/4-macosx-enroll-done.png) 
+    ![management-profile-verified](./media/4-macosx-enroll-done.png)
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
@@ -54,6 +54,7 @@ Mac OS X 장치를 등록하려면
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

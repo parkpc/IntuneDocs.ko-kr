@@ -3,7 +3,7 @@ title: "장치 준수 상태를 알 수 없음 | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 06/06/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 2adae96c0051056beae86b12dfef1234c00fff9f
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 51f07c6c8c7a361fc69ec42da7e270460489e7f7
 
 
 ---
@@ -23,12 +23,12 @@ ms.openlocfilehash: 2adae96c0051056beae86b12dfef1234c00fff9f
 
 # 장치 준수 상태를 알 수 없음
 
-장치에 "규정 준수 상태를 알 수 없음" 메시지가 표시되는 경우 이는 Intune에서 장치가 회사 정책을 준수하는지 확인하려 한다는 의미입니다. 이 검사가 수행되는 동안 메일과 같은 회사 리소스에 액세스하지 못할 수 있습니다. 따라서 회사 리소스에 액세스하려면 정책 준수 확인이 완료될 때까지 몇 분 정도 기다린 후 다시 시도합니다. 
+장치에 "규정 준수 상태를 알 수 없음" 메시지가 표시되는 경우 이는 Intune에서 장치가 회사 정책을 준수하는지 확인하려 한다는 의미입니다. 이 검사가 수행되는 동안 메일과 같은 회사 리소스에 액세스하지 못할 수 있습니다. 따라서 회사 리소스에 액세스하려면 정책 준수 확인이 완료될 때까지 몇 분 정도 기다린 후 다시 시도합니다.
 
 회사 리소스에 액세스할 수 없는 경우 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

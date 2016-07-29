@@ -3,7 +3,7 @@ title: "Windows 장치가 최대 운영 체제 버전에 부합되지 않는 경
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 06/03/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: ea835ae2b1fb44a3e5a8602b401f93d0711532fc
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 2363d1899572c749a39ab8487276f828c5407699
 
 
 ---
@@ -29,6 +29,7 @@ IT 관리자가 Windows 장치에서 허용하지 않은 운영 체제의 최대
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,8 +3,8 @@ title: "앱 줄 바꿈 도구를 사용하여 iOS 앱 줄 바꿈 | Microsoft Int
 description: "이 항목의 정보를 사용하여 앱 자체의 코드를 수정하지 않고 iOS 앱을 줄 바꿈하는 방법에 대해 알아봅니다. 모바일 앱 관리 정책을 적용할 수 있도록 앱을 준비합니다."
 keywords: 
 author: karthikaraman
-manager: jeffgilb
-ms.date: 05/11/2016
+manager: angrobe
+ms.date: 07/28/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
 ms.reviewer: matgates
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
-ms.openlocfilehash: 754c026832b980d3a1cd406e9ab3146585b87b46
+ms.sourcegitcommit: 19a5b8f8260bace2bbe3626da3df281306f53024
+ms.openlocfilehash: ebd68513da55b8bb1715d2c82636abf791cae1ff
 
 
 ---
@@ -292,6 +292,6 @@ iOS용 앱 래핑 도구에 자격 오류가 표시되는 경우 다음의 문�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

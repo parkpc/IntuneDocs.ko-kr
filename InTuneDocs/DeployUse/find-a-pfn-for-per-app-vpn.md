@@ -3,7 +3,7 @@ title: "앱별 VPN에 대한 PFN(패키지 패밀리 이름) 찾기 | Microsoft 
 description: "앱별 VPN을 구성할 수 있도록 PFN을 찾을 수 있습니다."
 keywords: 
 author: nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 74643d1d-4fd9-4cff-ac79-1a42281d2f76
 ms.reviewer: tycast
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9a049127d79098bfb8992055a0a8b20fbfafd8c9
-ms.openlocfilehash: 980611a6c1fafdbc990f30d3144766abc97e632b
+ms.sourcegitcommit: 9a124663a80bb477d0312faa0fb43e4457ba8246
+ms.openlocfilehash: 0bbb8aef7929ac09ef5f6a5a466d66b5df03e921
 
 
 ---
@@ -23,7 +23,7 @@ ms.openlocfilehash: 980611a6c1fafdbc990f30d3144766abc97e632b
 
 앱별 VPN을 구성할 수 있도록 두 가지 방법으로 PFN을 찾을 수 있습니다.
 
-## Windows 10 컴퓨터에 설치된 앱에 대한 PFN 찾기 
+## Windows 10 컴퓨터에 설치된 앱에 대한 PFN 찾기
 
 작업할 앱이 Windows 10 컴퓨터에 이미 설치되어 있는 경우 [Get-AppxPackage](https://technet.microsoft.com/library/hh856044.aspx) PowerShell cmdlet을 사용하여 PFN을 가져올 수 있습니다.
 
@@ -74,7 +74,7 @@ Get-AppxPackage 구문은 다음과 같습니다.
 4.  다른 탭에서 URL `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`를 붙여넣습니다. 여기에서 `<app id>`를 https://www.microsoft.com/en-us/store/apps에서 가져온 앱 ID 즉, 3단계에서 보았듯이 URL의 끝부분에 있는 일련의 문자로 대체합니다. OneNote를 검색하는 이 예제에서는 `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`를 붙여넣습니다.
 
 Edge에서는 원하는 정보가 표시됩니다. Internet Explorer에서는 정보를 확인하려면 **열기**를 클릭해야 합니다. PFN 값은 첫 번째 줄에 제공됩니다. 이 예제에서 결과는 다음과 같이 표시됩니다.
- 
+
 
 `{`
 `  "packageFamilyName": "Microsoft.Office.OneNote_8wekyb3d8bbwe",`
@@ -85,7 +85,6 @@ Edge에서는 원하는 정보가 표시됩니다. Internet Explorer에서는 �
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

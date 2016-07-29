@@ -3,7 +3,7 @@ title: "Intune에서 iOS 장치 등록 | Microsoft Intune"
 description: "Intune에서 iOS 장치를 등록하는 방법을 설명합니다."
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 05/18/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 3cf778aa14aab093c9f5d58bda932a35f2db5089
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 7bc57a9416023077d22323d4e88d1464304e21ea
 
 
 ---
@@ -35,53 +35,53 @@ Mac OS X 장치를 등록하려는 경우 [Intune에서 Mac OS X 장치 등록](
 
 2. **회사 액세스 설정** 페이지에서 **시작**을 탭합니다.
 
-    ![ios-enroll-comp-access-setup-begin](./media/ios-enroll-1a-comp-access-setup.png) 
+    ![ios-enroll-comp-access-setup-begin](./media/ios-enroll-1a-comp-access-setup.png)
 
 3. **왜 장치를 등록하나요?** 화면에서 장치를 등록할 때 수행할 수 있는 작업을 확인하고 **계속**을 탭합니다.
 
-    ![ios-enroll-why-enroll](./media/ios-enroll-1b-why-enroll.png) 
+    ![ios-enroll-why-enroll](./media/ios-enroll-1b-why-enroll.png)
 
 4. IT 관리자가 등록된 장치에서 볼 수 있는 사항과 볼 수 없는 사항의 목록을 검토하고 **계속**을 탭합니다.
 
-    ![ios-enroll-what-it-can-see](./media/ios-enroll-1c-we-care-privacy.png) 
+    ![ios-enroll-what-it-can-see](./media/ios-enroll-1c-we-care-privacy.png)
 
 5.  **다음 단계는?** 화면에서 등록하는 동안 발생하는 상황을 확인하고 **등록**을 탭합니다.
 
-    ![ios-enroll-what-comes-next](./media/ios-enroll-1d-what-comes-next.png) 
+    ![ios-enroll-what-comes-next](./media/ios-enroll-1d-what-comes-next.png)
 
 6.  **프로필 설치** 화면에서 **I설치**를 탭하고 메시지가 표시되면 암호를 입력합니다.
 
-    ![ios-enroll-install-profile](./media/ios-enroll-2-mgt-profile-install.png) 
-  
+    ![ios-enroll-install-profile](./media/ios-enroll-2-mgt-profile-install.png)
+
 7.  **설치**를 탭합니다.
 
     ![ios-enroll-tap-install](./media/ios-enroll-3-mgt-profile-install-2.png)    
 
 8.  **설치**를 탭하여 경고를 읽었음을 나타냅니다.
 
-    ![ios-enroll-tap-install-after-warning](./media/ios-enroll-4-warning.png) 
+    ![ios-enroll-tap-install-after-warning](./media/ios-enroll-4-warning.png)
 
 9.  **신뢰**를 탭합니다.
 
-    ![ios-enroll-tap-trust](./media/ios-enroll-5-trust.png) 
+    ![ios-enroll-tap-trust](./media/ios-enroll-5-trust.png)
 
 10.  프로필 설치를 완료했다고 표시하도록 화면이 변경되면 **완료**를 탭합니다.
 
-    ![ios-enroll-tap-done](./media/ios-enroll-6-done.png) 
+    ![ios-enroll-tap-done](./media/ios-enroll-6-done.png)
 
     화면에는 "등록 장치" 메시지가 표시됩니다.
 
 11.  회사 포털에서 페이지를 열려는지를 묻는 메시지가 표시되는 경우 **열기**를 탭합니다.
 
-    ![ios-enroll-open-comp-portal](./media/ios-enroll-7-open-cp.png) 
+    ![ios-enroll-open-comp-portal](./media/ios-enroll-7-open-cp.png)
 
 12. **회사 액세스 설정** 화면에서 **계속**을 탭합니다. IT 관리자가 암호를 설정하는 등 추가 보안 요구 사항을 설정하는 경우 준수 요구 사항을 만족하고 회사 액세스 설정 화면으로 돌아갈 때까지 화면에 나타나는 지침에 따른 다음 **계속**을 탭합니다.
 
-    ![ios-enroll-comp-access-tap-continue](./media/ios-enroll-8-comp-access-setup-compliance.png) 
+    ![ios-enroll-comp-access-tap-continue](./media/ios-enroll-8-comp-access-setup-compliance.png)
 
-13. **완료**를 탭합니다. 
+13. **완료**를 탭합니다.
 
-    ![ios-enroll-tap-done](./media/ios-enroll-9-comp-access-setup-complete.png) 
+    ![ios-enroll-tap-done](./media/ios-enroll-9-comp-access-setup-complete.png)
 
 이제 Intune에 장치를 등록했으므로 회사 포털 앱으로 다시 이동합니다.
 
@@ -91,6 +91,7 @@ Mac OS X 장치를 등록하려는 경우 [Intune에서 Mac OS X 장치 등록](
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

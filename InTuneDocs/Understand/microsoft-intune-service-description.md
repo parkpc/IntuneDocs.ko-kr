@@ -3,18 +3,18 @@ title: "서비스 설명 | Microsoft Intune"
 description: "Intune은 Windows PC와 iOS, Mac OS X, Android 및 Windows 모바일 장치를 관리하는 데 유용한 클라우드 기반 서비스입니다."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 40fa5a2e-6c0f-4150-9740-d5ddc0cdbda0
-ms.reviewer: jeffgilb
+ms.reviewer: cacamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 98a5013ef42732e6a1a541e128986bedbb004611
+ms.sourcegitcommit: 60ee39a7eeeb9068a7350ec87f60e7148ccb7826
+ms.openlocfilehash: c13366ea7f42272e6fc3d606cb8dbe0ed1c45fe4
 
 
 ---
@@ -83,6 +83,6 @@ Intune 서비스의 변경 내용에 대한 자세한 내용은 [Microsoft Intun
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,7 +3,7 @@ title: "전자 메일 프로필을 사용하여 회사 전자 메일에 액세�
 description: "모바일 장치에서 특정 전자 메일 클라이언트에 대한 전자 메일 액세스 설정을 구성하는 데 전자 메일 프로필 설정을 사용할 수 있습니다."
 keywords: 
 author: Nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/021/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 10f0cd61-e514-4e44-b13e-aeb85a8e53ae
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: c7a3ca7b0390a001624871342c9aa04802be27ff
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: 878172811c7899237b5ebf5db9a443f10fea42dd
 
 
 ---
@@ -82,7 +82,7 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
     |**동기화할 전자 메일의 일 수**|동기화할 전자 메일의 일 수 또는 **무제한**을 선택하여 사용 가능한 모든 전자 메일을 동기화합니다.|
     |**동기화 일정**(Samsung KNOX, Windows Phone 8 이상, Windows 10)|장치가 Exchange 서버의 데이터를 동기화할 일정을 선택합니다. 데이터가 도착하는 즉시 동기화하는 **메시지가 도착할 때**를 선택하거나 또는 장치의 사용자가 동기화를 시작해야 하는 **수동**을 선택할 수도 있습니다.|
     |**SSL 사용**|전자 메일을 전송하거나 수신할 때와 Exchange Server와 통신할 때 SSL(Secure Sockets Layer) 통신을 사용합니다.<br /><br />Samsung KNOX 4.0 이상을 실행하는 장치에서는 Exchange Server의 SSL 인증서를 내보낸 후 Intune에서 신뢰할 수 있는 Android 인증서 프로필로 배포해야 합니다. 다른 방법으로 Exchange 서버에 설치된 경우 Intune은 이 인증서에 액세스를 지원하지 않습니다.|
-    |**동기화할 콘텐츠 형식**|장치에 동기화할 콘텐츠 형식을 선택합니다.| 
+    |**동기화할 콘텐츠 형식**|장치에 동기화할 콘텐츠 형식을 선택합니다.|
     |**타사 응용 프로그램에서 전자 메일을 전송할 수 있도록 허용합니다** (iOS만 해당)|사용자는 이 프로필을 메일을 보내기 위한 기본 계정으로 선택하고, 타사에서는 네이티브 메일 앱의 메일을 열고 메일에 파일을 첨부할 수 있게 됩니다.|
 
     > [!IMPORTANT]
@@ -109,8 +109,6 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 
 
 
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,8 +3,8 @@ title: "엔터프라이즈 출시 | Microsoft Intune"
 description: "Intune 배포 롤아웃 단계에 대한 권장 사항입니다."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: d894708e-7071-44f5-aa3b-af5aef02fb98
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 65506ec3b4d903672e2259be567c07402ee29f31
+ms.sourcegitcommit: 0fff944e180bda99d70caafebe4ae69b6bd05b1b
+ms.openlocfilehash: aae62850d35aab6908cae2841988822911989a40
 
 
 ---
@@ -73,7 +73,9 @@ ms.openlocfilehash: 65506ec3b4d903672e2259be567c07402ee29f31
 
 -   대상 통신 및 교육을 필요로 할 수 있는 그룹을 식별합니다.
 
--   메일 통신을 사용자 지정하고, 인트라넷 사이트를 업데이트합니다. 통신/리소스 업데이트의 지속적인 소유자를 식별합니다.
+-   전자 메일 통신 사용자 지정, 인트라넷 사이트 업데이트
+
+-   통신/리소스를 업데이트하기 위해 현재 소유자를 식별합니다.
 
 -   사용할 교육 메서드를 간단히 설명합니다.
 
@@ -108,6 +110,6 @@ ms.openlocfilehash: 65506ec3b4d903672e2259be567c07402ee29f31
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

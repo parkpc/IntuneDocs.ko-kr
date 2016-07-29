@@ -3,7 +3,7 @@ title: "Intune에서 회사 포털 앱을 설치하고 iOS 또는 Mac OS X 장�
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 7/7/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: f07eaf82a3bd8fc7fb47032642b30850fcbbb30d
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 4ccd20b4024a3f824b873ab79eaa41d746d8e04b
 
 
 ---
@@ -99,6 +99,7 @@ Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하�
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

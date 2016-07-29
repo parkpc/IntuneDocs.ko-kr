@@ -3,8 +3,8 @@ title: "프로젝트 범위 | Microsoft Intune"
 description: "Intune 배포 프로젝트 범위 지정 단계에 대한 권장 사항입니다."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 71488dad-2f78-478c-a505-5cb9410eec07
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 8bd547eb70f1b933a9dee578a9f843b4cbdd7b57
+ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
+ms.openlocfilehash: 14c65bdef3c9663c81ac9ecc00b662845f3209e5
 
 
 ---
@@ -60,7 +60,7 @@ ms.openlocfilehash: 8bd547eb70f1b933a9dee578a9f843b4cbdd7b57
 
 
  > [!NOTE]
- > 
+ >
  > 이러한 템플릿은 프로젝트 범위에서 작업할 때 유용할 수 있습니다.
  > > - [Intune 또는 Configuration Manager 의사 결정 템플릿이 있는 Intune](https://gallery.technet.microsoft.com/Intune-or-Intune-with-900e8a78)
  > - [모바일 앱에 대한 템플릿 계획](https://gallery.technet.microsoft.com/Mobile-app-planning-18689d59)
@@ -113,6 +113,6 @@ ms.openlocfilehash: 8bd547eb70f1b933a9dee578a9f843b4cbdd7b57
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

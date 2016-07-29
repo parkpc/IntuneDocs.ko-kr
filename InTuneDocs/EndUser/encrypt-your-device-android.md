@@ -3,7 +3,7 @@ title: "장치 암호화 | Microsoft Intune"
 description: "Android 장치를 암호화하는 방법을 설명합니다."
 keywords: 
 author: staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 06/07/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: a69d4c3432867e3b4a808d71645d6a976a9f1c2e
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 777b87328e12b4d6b3de1b338fe802d92c1138a1
 
 
 ---
@@ -24,9 +24,9 @@ ms.openlocfilehash: a69d4c3432867e3b4a808d71645d6a976a9f1c2e
 
 회사 또는 조직에서 회사 파일, 전자 메일 또는 데이터에 액세스할 때 Android 장치를 암호화하도록 요구하는 경우 아래의 단계에 따라 장치를 암호화합니다. IT 관리자가 요구하는 경우 암호화하기 전에 PIN 또는 암호를 설정하라는 메시지가 표시될 수 있습니다.
 
-휴대폰의 등록을 취소한 경우 휴대폰이 암호화된 상태로 유지됩니다. 
+휴대폰의 등록을 취소한 경우 휴대폰이 암호화된 상태로 유지됩니다.
 
-1.  장치에 대해 화면 잠금 PIN 또는 암호가 설정되어 있는지 확인합니다. 
+1.  장치에 대해 화면 잠금 PIN 또는 암호가 설정되어 있는지 확인합니다.
 
 2.  **설정**에서 **보안** &gt; **휴대폰 암호화**를 클릭합니다.
     일부 휴대폰에서는 **저장소** &gt; **저장소 암호화** 또는 **저장소** &gt; **잠금 화면 및 보안** &gt; **기타 보안 설정**을 클릭하여 "암호화" 옵션을 찾아야 합니다.
@@ -47,7 +47,6 @@ ms.openlocfilehash: a69d4c3432867e3b4a808d71645d6a976a9f1c2e
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

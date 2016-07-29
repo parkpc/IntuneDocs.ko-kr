@@ -3,18 +3,19 @@ title: "회사 포털 정보 | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 06/01/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 523caa6b-d792-4bb6-bddb-24b2479932d8
+ROBOTS: noindex,nofollow
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
-ms.openlocfilehash: 56edeafa9221b3574ceaba269891dfb92df44408
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 609ed567e40cc35a6e36539ca58165f9193cec65
 
 
 ---
@@ -25,7 +26,7 @@ ms.openlocfilehash: 56edeafa9221b3574ceaba269891dfb92df44408
 Microsoft Intune 회사 포털을 통해 회사 또는 학교의 데이터 및 앱에 액세스할 수 있습니다. 다음과 같은 두 가지 방법으로 회사 포털을 사용할 수 있습니다.
 
 - 장치에 회사 포털 앱을 설치합니다. 일반적으로 장치의 앱 스토어로 이동하여 회사 포털 앱을 가져오지만, IT 관리자가 다른 방법을 사용하여 사용자 대신에 회사 포털 앱을 설치할 수도 있습니다.
-- IT 관리자가 설정한 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 이동합니다. 
+- IT 관리자가 설정한 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 이동합니다.
 
 회사 포털 앱과 회사 포털 웹 사이트 사이에는 몇 가지 사소한 차이점이 있지만, 대부분의 작업을 둘 다에서 동일하게 수행할 수 있습니다. 몇 가지 예는 다음과 같습니다.
 
@@ -99,10 +100,6 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 
 
 
-
-
-
-
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,8 +3,8 @@ title: "Intune에서 Android 장치 등록 | Microsoft Intune"
 description: "Intune에서 Android 장치를 등록하는 방법을 설명합니다."
 keywords: 
 author: staciebarker
-manager: arob98
-ms.date: 06/14/2016
+manager: angrobe
+ms.date: 07/26/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: d979334c792ba604fe142c62b17f1af4f9e69db7
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 8f342183590c1099661a0121c1d99c2aa3aa0ba4
 
 
 ---
@@ -44,7 +44,27 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
     ![android-company-portal-sign-in](./media/and-enroll-3-accept-terms.png)
 
-5.  Android 6.0 이상을 사용하는 경우 이 단계를 수행합니다. 그렇지 않으면 다음 단계로 진행합니다. 
+5.  회사 또는 학교 계정과 암호를 사용하여 회사 포털 앱에 로그인하고 **로그인**을 탭합니다.
+
+    ![android-company-portal-sign-in](./media/and-enroll-2-cp-sign-in.png)
+
+6.  **회사 액세스 설정** 화면에서 **시작**을 탭합니다.
+
+    ![회사 액세스 설정 화면](./media/and-enroll-4a-comp-access-setup.png)
+
+7.  **왜 장치를 등록하나요?** 화면에서 장치를 등록할 때 수행할 수 있는 작업을 확인하고 **계속**을 탭합니다.
+
+    ![왜 장치를 등록하나요 화면](./media/and-enroll-4b-why-enroll.png)
+
+8.  IT 관리자가 장치에서 볼 수 있는 사항과 볼 수 없는 사항의 목록을 검토하고 **계속**을 탭합니다.
+
+    ![개인 정보 설정](./media/and-enroll-4c-we-care-privacy.png)
+
+9.  **다음 단계는?** 화면에서 등록하는 동안 발생되는 작업을 확인하고 **등록**을 탭합니다.
+
+    ![다음 단계는 화면](./media/and-enroll-4d-what-comes-next.png)
+
+10.  Android 6.0 이상을 사용하는 경우 이 단계를 수행합니다. 그렇지 않으면 다음 단계로 진행합니다.
 
     IT 관리자가 특정 정책을 설정한 경우 다음과 같은 메시지가 표시될 수 있습니다.
     -   **회사 포털에서 통화를 하고 전화 통화를 관리하도록 허용하시겠습니까?**
@@ -62,26 +82,6 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
     이 메시지가 표시되면 **허용**을 탭합니다. **Microsoft는 결코 연락처에 액세스하지 않으므로** 허용을 탭하는 것이 안전합니다. Google이 메시지 텍스트를 제어하므로 Microsoft에서 변경할 수 없습니다. 액세스를 허용하는 경우 회사 포털 앱을 통해서만 회사 계정을 만들고, 사용하고 관리할 수 있습니다.
 
     액세스를 거부하면 다음에 **데이터 보내기**를 탭할 때 메시지가 다시 표시되지만, **다시 묻지 않음** 확인란을 탭하여 이후 메시지를 해제할 수 있습니다. 나중에 액세스를 허용할 경우 **설정** &gt; **앱** &gt; **회사 포털** &gt; **사용 권한** &gt; **저장소**로 이동한 다음 사용 권한을 설정합니다.
-
-6.  회사 또는 학교 계정과 암호를 사용하여 회사 포털 앱에 로그인하고 **로그인**을 탭합니다.
-
-    ![android-company-portal-sign-in](./media/and-enroll-2-cp-sign-in.png)
-
-7.  **회사 액세스 설정** 화면에서 **시작**을 탭합니다.
-
-    ![회사 액세스 설정 화면](./media/and-enroll-4a-comp-access-setup.png)
-
-8.  **왜 장치를 등록하나요?** 화면에서 장치를 등록할 때 수행할 수 있는 작업을 확인하고 **계속**을 탭합니다.
-
-    ![왜 장치를 등록하나요 화면](./media/and-enroll-4b-why-enroll.png)
-
-9.  IT 관리자가 장치에서 볼 수 있는 사항과 볼 수 없는 사항의 목록을 검토하고 **계속**을 탭합니다.
-
-    ![개인 정보 설정](./media/and-enroll-4c-we-care-privacy.png)
-
-10.  **다음 단계는?** 화면에서 등록하는 동안 발생되는 작업을 확인하고 **등록**을 탭합니다.
-
-    ![다음 단계는 화면](./media/and-enroll-4d-what-comes-next.png)
 
 11.  **활성화 장치 관리자** 화면에서 **활성화**를 탭합니다.
 
@@ -123,6 +123,6 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

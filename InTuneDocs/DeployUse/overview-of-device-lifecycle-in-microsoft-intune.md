@@ -3,7 +3,7 @@ title: "MDM 수명 주기 개요 | Microsoft Intune"
 description: "Intune에서 등록부터 구성 및 최종 사용 중지에 이르는 수명 주기 동안 장치를 관리하는 데 어떤 도움을 주는지 알아봅니다."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: f6051fa7-133f-4712-86a5-e5f5bc5ab3c7
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: e9bfb4e3d6f66dee58a70a0a00f6d18469d2cf1d
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 11260ad0e7dc45b7dec42fe12456ed18a484ab89
 
 
 ---
@@ -47,6 +47,6 @@ ms.openlocfilehash: e9bfb4e3d6f66dee58a70a0a00f6d18469d2cf1d
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

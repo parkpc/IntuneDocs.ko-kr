@@ -3,7 +3,7 @@ title: "장치 등록 문제 해결| Microsoft Intune"
 description: "장치 등록 문제 해결을 위한 제안 사항"
 keywords: 
 author: Nbigman
-manager: jeffgilb
+manager: angrobe
 ms.date: 05/26/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 4c728b4fbb68d64d4e06845eca08b1b2d8d1a92a
+ms.sourcegitcommit: 9915b275101e287498217c4f35e1c0e56d2425c2
+ms.openlocfilehash: e10ef68d97127b848a7d624ba40d219ffed3d06d
 
 
 ---
@@ -144,7 +144,7 @@ ms.openlocfilehash: 4c728b4fbb68d64d4e06845eca08b1b2d8d1a92a
 **해결 방법:** [Office 365 관리 센터](https://portal.office.com/)에서, 회사 이름의 특수 문자를 제거하고 회사 정보를 저장합니다.
 
 ### 확인된 도메인이 여럿이면 로그인하거나 장치를 등록할 수 없습니다.
-**문제:** ADFS에 두 번째 확인된 도메인을 추가하는 경우, UPN(사용자 계정 이름) 접미사가 두 번째 도메인인 사용자가 포털에 로그인하거나 장치를 등록할 수 없습니다. 
+**문제:** ADFS에 두 번째 확인된 도메인을 추가하는 경우, UPN(사용자 계정 이름) 접미사가 두 번째 도메인인 사용자가 포털에 로그인하거나 장치를 등록할 수 없습니다.
 
 
 **해결 방법:** AD FS 2.0을 통해 SSO(Single Sign-On)를 활용하며, 조직 내에 사용자 UPN 접미사에 대한 최상위 도메인이 여럿인(예: @contoso.com 또는 @fabrikam.com) Microsoft Office 365 고객은, 각 접미사에 대해 AD FS 2.0 페더레이션 서비스를 개별적으로 배포해야 합니다.  추가적인 AD FS 2.0 서버를 필요로 하지 않고 AD FS 서버가 이 시나리오를 지원할 수 있도록 하는, **SupportMultipleDomain** 스위치와 함께 작동하는 [AD FS 2.0 롤업](http://support.microsoft.com/kb/2607496)이 있습니다. 자세한 정보는 [이 블로그](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/)를 참조하세요.
@@ -166,14 +166,14 @@ ms.openlocfilehash: 4c728b4fbb68d64d4e06845eca08b1b2d8d1a92a
 
 **문제**: 장치에서 다음과 같은 메시지가 표시됩니다. *필요한 인증서가 장치에 없으므로 로그인할 수 없습니다.*
 
-**해결 방법**: 
+**해결 방법**:
 
 - [다음 지침](/intune/enduser/your-device-is-missing-a-required-certificate-android#your-device-is-missing-a-certificate-required-by-your-it-administrator)을 수행하여 누락된 인증서를 검색할 수 있습니다.
-- 인증서를 검색할 수 없는 경우 ADFS 서버에서 중간 인증서가 누락된 것일 수 있습니다. 중간 인증서는 Android에서 서버를 신뢰하는 데 필요합니다. 
+- 인증서를 검색할 수 없는 경우 ADFS 서버에서 중간 인증서가 누락된 것일 수 있습니다. 중간 인증서는 Android에서 서버를 신뢰하는 데 필요합니다.
 
 다음과 같이 ADFS 서버 또는 프록시의 중간 저장소에 인증서를 가져올 수 있습니다.
 
-1.  ADFS 서버에서 **Microsoft Management Console**을 시작하고 **컴퓨터 계정**에 대한 인증서 스냅인을 추가합니다. 
+1.  ADFS 서버에서 **Microsoft Management Console**을 시작하고 **컴퓨터 계정**에 대한 인증서 스냅인을 추가합니다.
 5.  ADFS 서비스가 사용하는 인증서를 찾은 후 해당 부모 인증서를 확인합니다.
 6.  부모 인증서를 복사한 후 **컴퓨터\중간 인증 기관 \인증서** 아래에 붙여넣습니다.
 7.  ADFS, ADFS 암호 해독 및 ADFS 서명 인증서를 복사하고 ADFS 서비스에 대한 개인 저장소에 붙여넣습니다.
@@ -200,34 +200,34 @@ ms.openlocfilehash: 4c728b4fbb68d64d4e06845eca08b1b2d8d1a92a
 ### Intune에서 System Center Configuration Manager를 사용하면, 등록된 iOS 장치가 콘솔에 표시되지 않습니다.
 **문제:** 사용자가 iOS 장치를 등록하지만 Configuration Manager 관리 콘솔에 나타나지 않습니다. 장치가 등록되었다는 것을 나타내지 않습니다. °¡´ÉÇÑ ¿øÀÎ:
 
-- Intune 커넥터를 하나의 계정에 등록한 다음 또 다른 계정에 등록했을 수 있습니다. 
+- Intune 커넥터를 하나의 계정에 등록한 다음 또 다른 계정에 등록했을 수 있습니다.
 - 하나의 계정으로 MDM 인증서를 다운로드하고 다른 계정에서 사용했을 수 있습니다.
 
 
 **해결 방법:** 다음 단계를 수행합니다.
 
-1. Windows Intune 커넥터 내에서 iOS를 비활성화합니다. 
+1. Windows Intune 커넥터 내에서 iOS를 비활성화합니다.
     1. Intune 구독을 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
     1. "iOS" 탭에서 "iOS 등록을 사용하도록 설정합니다." 선택을 해제합니다.
 
 
 
 1. SQL로, CAS DB에서 다음 단계를 실행합니다.
-  
-    1. update SC_ClientComponent_Property set Value2 = '' where Name like '%APNS%' 
-    1. delete from MDMPolicy where PolicyType = 7 
+
+    1. update SC_ClientComponent_Property set Value2 = '' where Name like '%APNS%'
+    1. delete from MDMPolicy where PolicyType = 7
     1. delete from MDMPolicyAssignment where PolicyType = 7
-    1. update SC_ClientComponent_Property set Value2 = '' where Name like '%APNS%' 
-    1. delete from MDMPolicy where PolicyType = 11 
-    1. delete from MDMPolicyAssignment where PolicyType = 11 
+    1. update SC_ClientComponent_Property set Value2 = '' where Name like '%APNS%'
+    1. delete from MDMPolicy where PolicyType = 11
+    1. delete from MDMPolicyAssignment where PolicyType = 11
     1. DELETE Drs_Signals
-1. SMS Executive 서비스를 다시 시작하거나 CM 서버를 다시 시작합니다. 
+1. SMS Executive 서비스를 다시 시작하거나 CM 서버를 다시 시작합니다.
 
 
 
 1. 새 APN 인증서를 가져와서 업로드합니다. Configuration Manager 왼쪽 창에서 Intune 구독을 마우스 오른쪽 단추로 클릭합니다. **APNs 인증서 요청 만들기**를 선택하고 지침에 따릅니다.
 ## System Center Configuration Manager with Intune 사용 시 문제
-### 모바일 장치가 사라집니다. 
+### 모바일 장치가 사라집니다.
 **문제:** 모바일 장치를 Configuration Manager에 성공적으로 등록한 후 모바일 장치가 모바일 장치 컬렉션에서 사라집니다. 하지만 장치에는 여전히 관리 프로필이 있고 CSS 게이트웨이에는 이 장치가 나열됩니다.
 
 **해결 방법:** 이런 일은 도메인에 가입되지 않은 장치를 제거하는 사용자 지정 프로세스가 있거나 사용자가 장치를 가입에서 더 이상 사용하지 않으면 발생할 수 있습니다. 어느 프로세스나 사용자 계정이 Configuration Manager 콘솔에서 장치를 제거했는지 확인하려면 다음 절차를 수행하세요.
@@ -256,22 +256,22 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 
 ### 컴퓨터가 이미 등록되었습니다. - 오류: hr 0x8007064c
 **문제:** **컴퓨터가 이미 등록되었습니다.**라는 오류와 함께 등록에 실패합니다. 등록 로그에 **hr 0x8007064c** 오류가 표시됩니다.
-  
+
 컴퓨터가 이전에 등록되었거나, 등록된 컴퓨터의 복제 이미지를 사용하기 때문일 수 있습니다. 이전 계정의 계정 인증서가 컴퓨터에 아직 존재합니다.
 
 
 
-**해결 방법:** 
+**해결 방법:**
 
-1. **시작** 메뉴에서 **실행** -> **MMC**로 이동합니다. 
+1. **시작** 메뉴에서 **실행** -> **MMC**로 이동합니다.
 1. **파일** -> **스냅인 추가/제거**로 이동합니다.
 1. **인증서**를 두 번 클릭하고 **컴퓨터 계정**, **다음**을 선택한 후 **로컬 컴퓨터**를 선택합니다.
-1. **인증서(로컬 컴퓨터)**를 두 번 클릭하고 **개인/인증서**를 선택합니다. 
+1. **인증서(로컬 컴퓨터)**를 두 번 클릭하고 **개인/인증서**를 선택합니다.
 1. Sc_Online_Issuing에서 발급한 Intune 인증서를 찾아서 있으면 삭제합니다.
 1. 아래 레지스트리가 있으면 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OnlineManagement regkey** 및 모든 하위 키를 삭제합니다.
-1. 재등록을 시도합니다. 
-1. 여전히 컴퓨터를 등록할 수 없는 경우에는 **KEY_CLASSES_ROOT\Installer\Products\6985F0077D3EEB44AB6849B5D7913E95** 키를 찾아서 있으면 삭제합니다. 
-1. 재등록을 시도합니다. 
+1. 재등록을 시도합니다.
+1. 여전히 컴퓨터를 등록할 수 없는 경우에는 **KEY_CLASSES_ROOT\Installer\Products\6985F0077D3EEB44AB6849B5D7913E95** 키를 찾아서 있으면 삭제합니다.
+1. 재등록을 시도합니다.
 
     > [!IMPORTANT]
     > 이 섹션, 방법, 또는 작업에는 레지스트리를 수정하는 방법이 포함됩니다. 하지만, 레지스트리를 잘못 수정하면 심각한 문제가 발생할 수 있습니다. 따라서, 단계를 신중하게 따라야 합니다. 추가적인 보호를 위해, 수정하기 전에 레지스트리를 백업하세요. 그러면 문제가 발생했을 때 레지스트리를 복원할 수 있습니다.
@@ -306,6 +306,6 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

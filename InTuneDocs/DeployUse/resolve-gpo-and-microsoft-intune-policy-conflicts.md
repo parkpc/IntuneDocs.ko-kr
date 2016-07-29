@@ -3,7 +3,7 @@ title: "GPO 및 Intune 정책 충돌 해결 | Microsoft Intune"
 description: "그룹 정책 및 Intune 구성 정책 간의 충돌을 해결하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: e76af5b7-e933-442c-a9d3-3b42c5f5868b
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: 77f7bc40471437cf69fe5553d4d82dc71a6ba405
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 70e5920679149791c4856a1db905e564dc1278bd
 
 
 ---
@@ -117,6 +117,6 @@ For more information about how to apply WMI filters in Group Policy, see the blo
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

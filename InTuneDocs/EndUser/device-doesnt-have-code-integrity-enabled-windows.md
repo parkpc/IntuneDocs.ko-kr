@@ -3,18 +3,19 @@ title: "장치에서 코드 무결성이 사용되지 않는 경우 | Microsoft 
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 05/30/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 84892bbc-f888-417b-bbeb-978cc7e10028
+ROBOTS: noindex,nofollow
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
-ms.openlocfilehash: 793a3eb17aaa5e04c27a31302d93bfc46ff71cac
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: eab8d7108e869ae78ab4470aa60584362fe3d3e2
 
 
 ---
@@ -22,11 +23,11 @@ ms.openlocfilehash: 793a3eb17aaa5e04c27a31302d93bfc46ff71cac
 
 # 장치에서 코드 무결성이 사용되지 않는 경우
 
-조직에서 장치의 드라이버 및 시스템 파일을 검사하여 안전한지 확인하는 기능인 Windows 코드 무결성을 사용하도록 요구합니다. 
+조직에서 장치의 드라이버 및 시스템 파일을 검사하여 안전한지 확인하는 기능인 Windows 코드 무결성을 사용하도록 요구합니다.
 
-Windows 코드 무결성을 사용하도록 설정하려면 보안 부팅 기능을 사용하도록 설정합니다. 그러면 코드 무결성 기능이 자동으로 켜집니다. 
+Windows 코드 무결성을 사용하도록 설정하려면 보안 부팅 기능을 사용하도록 설정합니다. 그러면 코드 무결성 기능이 자동으로 켜집니다.
 
-보안 부팅을 사용하도록 설정하는 것은 고급 작업입니다. 모바일 장치를 사용하는 경우 도움이 필요하면 IT 관리자에게 문의하세요. 
+보안 부팅을 사용하도록 설정하는 것은 고급 작업입니다. 모바일 장치를 사용하는 경우 도움이 필요하면 IT 관리자에게 문의하세요.
 
 PC를 사용하는 경우 IT 관리자에게 문의하거나, [보안 부팅 사용 안 함](https://msdn.microsoft.com/library/windows/hardware/dn898540(v=vs.85).aspx) 페이지에서 “보안 부팅을 다시 사용하도록 설정하려면” 섹션을 참조하여 직접 보안 부팅을 사용하도록 설정하세요.
 
@@ -36,6 +37,7 @@ PC를 사용하는 경우 IT 관리자에게 문의하거나, [보안 부팅 사
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Jul16_HO4-->
 
 

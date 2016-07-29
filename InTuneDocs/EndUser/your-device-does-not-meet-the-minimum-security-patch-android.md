@@ -3,15 +3,17 @@ title: "장치가 최소 보안 패치를 충족하지 않는 경우 | Microsoft
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 06/16/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b3e5994c-d215-4c72-8915-349bd0b2504d
-ms.sourcegitcommit: b76c04545b9b26a0e2470b95a3f5ac0a81b07817
-ms.openlocfilehash: a4788340b36c7d04ff1a62844aea7dba06079a2b
+ROBOTS: noindex,nofollow
+translationtype: Human Translation
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 9405fdf219a1882cbfa2326c22325545ecec5080
 
 
 ---
@@ -30,7 +32,7 @@ ms.openlocfilehash: a4788340b36c7d04ff1a62844aea7dba06079a2b
 
 **필수 보안 패치를 설치하려면**
 
-- Samsung Knox 이외의 장치: **설정** > **정보** > **소프트웨어 업데이트**로 이동합니다. 
+- Samsung Knox 이외의 장치: **설정** > **정보** > **소프트웨어 업데이트**로 이동합니다.
 
 - Samsung Knox 장치: **설정** > **시스템 업데이트** > **새 시스템 업데이트 확인**으로 이동합니다.
 
@@ -41,6 +43,6 @@ ms.openlocfilehash: a4788340b36c7d04ff1a62844aea7dba06079a2b
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO4-->
 
 

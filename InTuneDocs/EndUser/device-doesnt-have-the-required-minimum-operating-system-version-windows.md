@@ -3,18 +3,19 @@ title: "장치에 필요한 최소 운영 체제 버전이 없는 경우 | Micro
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 05/30/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 2df6fca5-9731-4ea0-a8ee-45b648caa5b4
+ROBOTS: noindex,nofollow
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
-ms.openlocfilehash: 12e559f51419da6c3edfa7af1d8b0f09c99e4caa
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: e0b66e5ca858511da3d415bba19b5fa3622dc97e
 
 
 ---
@@ -37,6 +38,7 @@ Windows 10 및 Windows 8.1의 버전을 확인하려면 **Windows** 바로 가�
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Jul16_HO4-->
 
 

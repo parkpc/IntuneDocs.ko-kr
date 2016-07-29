@@ -3,7 +3,7 @@ title: "장치에 필요한 인증서가 없습니다. | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 7/7/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 61dda32b55e108b340923f4ff2a86163da2971dc
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 220d877763352e62c4057494b69633356ef081c6
 
 
 ---
@@ -74,7 +74,7 @@ Android 장치가 Intune에 등록되어 있지 않고 IT 관리자에게 필요
 
     ![screenshot-internet-explorer-view-certificates-button-on-website-identification-dialog](./media/andr-missg-cert-ie-view-cert-button.png)
 
-5. **인증서** 대화 상자에서 **인증 경로** 탭을 클릭한 다음 인터넷에서 가져와야 하는 인증서를 식별합니다. 필요한 인증서의 이름은 위 스크린샷에 강조 표시된 것과 같은 위치에 있습니다. 
+5. **인증서** 대화 상자에서 **인증 경로** 탭을 클릭한 다음 인터넷에서 가져와야 하는 인증서를 식별합니다. 필요한 인증서의 이름은 위 스크린샷에 강조 표시된 것과 같은 위치에 있습니다.
 
 ### Android 모바일 장치에서 누락된 인증서를 다운로드한 후 설치합니다.
 
@@ -94,12 +94,13 @@ Android 장치가 Intune에 등록되어 있지 않고 IT 관리자에게 필요
 
 7. 회사 포털 앱을 다시 엽니다. 이제 회사 포털 앱에 로그인할 수 있습니다. 도움이 필요하면 IT 관리자에게 문의하세요.
 
-위에 표시된 것과 동일한 "인증서 없음" 메시지가 표시되고 위에 단계를 이미 진행했으면 IT 관리자가 설치에 도움을 주어야 하는 다른 인증서가 아직 있는 것일 수 있습니다. IT 관리자에게 문의하고 문제 해결 단계가 포함된 이 [링크](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune#android-certificate-issues)를 제공합니다. 
+위에 표시된 것과 동일한 "인증서 없음" 메시지가 표시되고 위에 단계를 이미 진행했으면 IT 관리자가 설치에 도움을 주어야 하는 다른 인증서가 아직 있는 것일 수 있습니다. IT 관리자에게 문의하고 문제 해결 단계가 포함된 이 [링크](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune#android-certificate-issues)를 제공합니다.
 
 ### 참고 항목
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

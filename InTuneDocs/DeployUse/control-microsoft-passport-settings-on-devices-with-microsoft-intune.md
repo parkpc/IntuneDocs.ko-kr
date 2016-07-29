@@ -3,7 +3,7 @@ title: "장치의 Microsoft Passport 설정 제어 | Microsoft Intune"
 description: "Intune이 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 **Microsoft Passport for Work**와 통합하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ada366e91806c6f443ac4548af99c587ac218ec9
-ms.openlocfilehash: 934ae78edf4de2003d62179fa38269d97e6d7ef6
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 9f75306e1448bd474bd90b1836393962c0e08522
 
 
 ---
@@ -78,6 +78,6 @@ Microsoft Passport에 대한 자세한 내용은 Windows 10 설명서의 [가이
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

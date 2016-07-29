@@ -3,7 +3,7 @@ title: "Windows 10 정책 설정 | Microsoft Intune"
 description: "이 항목에 나열된 정책 설정을 사용하면 등록된 Windows 10 Desktop 및 Windows 10 Mobile 장치의 기본 제공 및 사용자 지정 설정을 구성하는 데 도움이 됩니다."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 01356d08257cf381d1a981f749702800c173de33
-ms.openlocfilehash: 08336c56f4e099c8cd0a0152364824455cae0f03
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: bb08ea54b24e0395972ce29ae05ff2b7b6ee4220
 
 
 ---
@@ -332,6 +332,6 @@ Windows 사용자 지정 URI 정책을 사용하려면 모든 장치를 Intune�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 
