@@ -3,8 +3,8 @@ title: "Microsoft Intune の展開のロールアウト フェーズ |Microsoft 
 description: "技術的な展開の一般的なフェーズには、プロジェクト スコープ、概念実証、パイロット、全社的なロールアウト、および実行状態があります。"
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 9fe7eec1-2a6f-404e-8614-977527a7a15b
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: c20f96481916d5e9468eade65d8aa0c1133646ef
+ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
+ms.openlocfilehash: fda1e32c2b1be260c1d2c1b26f2415105d3fc10a
 
 
 ---
@@ -26,11 +26,11 @@ ms.openlocfilehash: c20f96481916d5e9468eade65d8aa0c1133646ef
 -   [プロジェクト スコープ](project-scope.md): 目標、スケジュール、成功指標の概要をまとめ、組織の準備状況を示す主要な要素を定義し、プロジェクト チームを編成します。そして、各フェーズを経て、組織全体に Microsoft Intune を展開するために必要な最初の準備を始めます。
      > [!NOTE]           
        プロジェクト スコープでの作業時に、次のテンプレートが役立つ場合があります。
-        
+
     >- [Intune または Configuration Manager を使用した Intune の意思決定に関するテンプレート](https://gallery.technet.microsoft.com/Intune-or-Intune-with-900e8a78)
     >- [モバイル アプリ向けの計画に関するテンプレート](https://gallery.technet.microsoft.com/Mobile-app-planning-18689d59)
     >- [一般的なデバイス管理の計画に関するテンプレート](https://gallery.technet.microsoft.com/General-device-management-334c3792)
-    
+
 
 -   [概念実証](proof-of-concept.md): 技術的な展開とネットワーク アーキテクチャをテストし、展開が会社の要件を満たす能力を判断します。 このフェーズには、特定の技術的シナリオを研修するように設計された単純なトポロジが含まれます。  
 
@@ -62,6 +62,6 @@ These topics will help you plan for the rollout of new policies and apps:
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

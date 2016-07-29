@@ -3,7 +3,7 @@ title: "デバイスでコードの整合性が有効ではない | Microsoft In
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 05/30/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 391035d0ba51e95eb3206a864cfcf375a98170f8
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: eab8d7108e869ae78ab4470aa60584362fe3d3e2
 
 
 ---
@@ -23,11 +23,11 @@ ms.openlocfilehash: 391035d0ba51e95eb3206a864cfcf375a98170f8
 
 # デバイスでコードの整合性が有効ではない
 
-所属組織が Windows コードの整合性を有効にしておくことを要求しています。これは、デバイス上のドライバーとシステム ファイルをチェックして、それらが安全であることを確認する機能です。 
+所属組織が Windows コードの整合性を有効にしておくことを要求しています。これは、デバイス上のドライバーとシステム ファイルをチェックして、それらが安全であることを確認する機能です。
 
-Windows コードの整合性を有効にするには、セキュア ブート機能を有効にします。 コードの整合性機能が自動的に有効になります。 
+Windows コードの整合性を有効にするには、セキュア ブート機能を有効にします。 コードの整合性機能が自動的に有効になります。
 
-セキュア ブートの有効化は高度なタスクです。 モバイル デバイスを使用している場合は、IT 管理者に問い合わせてください。 
+セキュア ブートの有効化は高度なタスクです。 モバイル デバイスを使用している場合は、IT 管理者に問い合わせてください。
 
 PC を使用している場合は、IT 管理者に問い合わせるか、「[セキュア ブートの無効化](https://msdn.microsoft.com/library/windows/hardware/dn898540(v=vs.85).aspx)」ページの「セキュア ブートを再有効化するには」セクションを参照して、自分でセキュア ブートを有効にしてみます。
 
@@ -37,6 +37,7 @@ PC を使用している場合は、IT 管理者に問い合わせるか、「[�
 [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

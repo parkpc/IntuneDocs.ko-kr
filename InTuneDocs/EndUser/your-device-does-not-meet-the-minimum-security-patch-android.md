@@ -3,15 +3,17 @@ title: "デバイスが最小限のセキュリティ パッチを満たして�
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 06/16/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b3e5994c-d215-4c72-8915-349bd0b2504d
-ms.sourcegitcommit: b76c04545b9b26a0e2470b95a3f5ac0a81b07817
-ms.openlocfilehash: a4788340b36c7d04ff1a62844aea7dba06079a2b
+ROBOTS: noindex,nofollow
+translationtype: Human Translation
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 9405fdf219a1882cbfa2326c22325545ecec5080
 
 
 ---
@@ -30,7 +32,7 @@ ms.openlocfilehash: a4788340b36c7d04ff1a62844aea7dba06079a2b
 
 **必要なセキュリティ パッチをインストールするには:**
 
-- Samsung Knox 以外のデバイス: **[Settings]** > **[About]** > **[Software updates]** に移動します。 
+- Samsung Knox 以外のデバイス: **[Settings]** > **[About]** > **[Software updates]** に移動します。
 
 - Samsung Knox デバイス: **[Settings]** > **[System updates]** > **[Check for new system update]** に移動します。
 
@@ -41,6 +43,6 @@ ms.openlocfilehash: a4788340b36c7d04ff1a62844aea7dba06079a2b
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

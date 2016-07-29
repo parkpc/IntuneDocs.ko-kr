@@ -3,18 +3,19 @@ title: "電子メールを使用して診断データのログを IT 管理者�
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 85c868e7-8d63-480c-9770-4e99614a5c94
+ROBOTS: noindex,nofollow
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
-ms.openlocfilehash: 57646f103fb0520295729a89a30692c657896e55
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 00e23b0094ee03c2a54bf6d12295e9f38781373f
 
 
 ---
@@ -30,13 +31,13 @@ ms.openlocfilehash: 57646f103fb0520295729a89a30692c657896e55
 
 2.  **[メニュー]** &gt;  **[設定]** の順にタップします。
 
-    > [!NOTE] 
+    > [!NOTE]
     > **メニュー**は、ご使用の Android デバイスの種類によって、ソフトウェア ボタンの場合も、ハードウェア ボタンの場合もあります。
 
 3.  **[診断データ]** の **[データを送信]** をタップします。
 
     > [!NOTE]
-    > **Android 6.0 以降のデバイスのみを使用している場合:** **[データを送信]** をタップすると、**[デバイス上の写真、メディア、およびファイルへのアクセスを会社のポータルに許可しますか?]** というメッセージが表示されます。 
+    > **Android 6.0 以降のデバイスのみを使用している場合:** **[データを送信]** をタップすると、**[デバイス上の写真、メディア、およびファイルへのアクセスを会社のポータルに許可しますか?]** というメッセージが表示されます。
 
     **Microsoft がデバイス上の写真、メディア、またはファイルにアクセスすることはないため**、このメッセージは誤解を招く恐れがあります。 Google がメッセージ テキストを制御しているため、Microsoft では変更できません。  アクセスを許可する場合、デバイスの SD カードへのデータ ログの書き込みをデバイスに許可しているに過ぎません。これにより、USB ケーブルを使用してログを移動できます。
 
@@ -49,6 +50,7 @@ ms.openlocfilehash: 57646f103fb0520295729a89a30692c657896e55
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Jul16_HO4-->
 
 

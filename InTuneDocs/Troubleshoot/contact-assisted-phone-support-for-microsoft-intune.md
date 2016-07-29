@@ -3,7 +3,7 @@ title: "サポートの電話番号 | Microsoft Intune"
 description: 
 keywords: 
 author: Nbigman
-manager: jeffgilb
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 01c096eb-088b-4d2b-a1fa-dce6cdb12294
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: cc64e51499908d08823429871cda91dfb0078b1e
-ms.openlocfilehash: de00d31ab32916f29a111c93b39a578f82524f80
+ms.sourcegitcommit: 9915b275101e287498217c4f35e1c0e56d2425c2
+ms.openlocfilehash: 54e6c08d30ee9b5d1b9ae45bf998c64cbf6a1e44
 
 
 ---
@@ -50,7 +50,7 @@ ms.openlocfilehash: de00d31ab32916f29a111c93b39a578f82524f80
 |フィンランド|24 x 7|月曜日 ～ 金曜日<br /><br />09:00 ～ 17:00 EET (UTC + 2 時間)|フィンランド語&#42;、英語|08009 8462|0972519630|
 |フランス|24 x 7|月曜日 ～ 金曜日<br /><br />9:00 から 17:00 CET (UTC + 1 時間)|フランス語&#42;、英語|0805540594|0157324297||
 |ドイツ|24 x 7|月曜日 ～ 金曜日<br /><br />9:00 から 17:00 CET (UTC + 1 時間)|ドイツ語&#42;、英語|0800 5892332|069380789508||
-|ギリシャ|24 x 7|月曜日 ～ 金曜日<br /><br />09:00 ～ 17:00 EET (UTC + 2 時間)|ギリシャ語& #42;、英語|0080044142831||
+|ギリシャ|24 x 7|月曜日 ～ 金曜日<br /><br />09:00 ～ 17:00 EET (UTC + 2 時間)|ギリシャ語&#42;、英語|0080044142831||
 |グアテマラ|24 x 7|月曜日 ～ 金曜日<br /><br />09:00 ～ 17:00 CST (UTC - 6 時間)|スペイン語&#42;、英語|1-800-300-0069<br /><br />手順 1. オプション 4 を選択します (特殊なアクセスの場合)<br /><br />手順 2. コード 7007 を入力します||
 |香港特別行政区|24 x 7|月曜日 ～ 金曜日<br /><br />09:00 ～ 18:00 HKT (UTC + 8 時間)|広東語&#42;、標準中国語&#42;、英語||30713055|
 |ハンガリー|24 x 7|月曜日 ～ 金曜日<br /><br />9:00 から 17:00 CET (UTC + 1 時間)|ハンガリー語&#42;、英語|36 80 983 899|36 1 778 9292|
@@ -117,7 +117,6 @@ ms.openlocfilehash: de00d31ab32916f29a111c93b39a578f82524f80
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

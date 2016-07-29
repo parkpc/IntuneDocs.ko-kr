@@ -3,18 +3,19 @@ title: "デバイスがロックされるまでの時間を設定する | Micros
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5f365c7d-5889-4072-a994-613ce3c26ce4
+ROBOTS: noindex,nofollow
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
-ms.openlocfilehash: 898d840c00d2ebdc06bb0f8f54d886c1573b79e5
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: df24ef5c0562d04c1f9aaf08c5905e4928b6c4fa
 
 
 ---
@@ -23,7 +24,7 @@ ms.openlocfilehash: 898d840c00d2ebdc06bb0f8f54d886c1573b79e5
 # デバイスがロックされるまでの時間を設定する
 
 Android デバイスに保存されているデータのセキュリティを高めるために、IT 管理者は、指定した時間にわたってアイドル状態であるとデバイスが自動的にロックされるようにするポリシーを設定できます。 デバイスがロックするまでの時間を設定するには、次の手順に従います。
- 
+
 1.  デバイスで、**[設定]** から、**[セキュリティ]** &gt; **[自動的にロック]** (一部のデバイスでは **[後でデバイスをロック]** として表示されます) の順にクリックします。
 
 2.  パスワードのタイムアウト値を指定します。
@@ -35,6 +36,6 @@ Android デバイスに保存されているデータのセキュリティを高
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO4-->
 
 

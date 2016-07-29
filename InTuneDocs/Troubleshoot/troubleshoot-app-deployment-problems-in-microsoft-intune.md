@@ -3,7 +3,7 @@ title: "アプリ展開に関する問題のトラブルシューティング | 
 description: "このトピックは、Microsoft Intune でのアプリの展開の問題を解決するために役立ちます。"
 keywords: 
 author: Nbigman
-manager: jeffgilb
+manager: angrobe
 ms.date: 05/26/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 28ac298e-fb73-4c1c-b3fd-8336639e05e6
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 2aef2df385cd17a0f261789c735282f4985cb442
+ms.sourcegitcommit: 9915b275101e287498217c4f35e1c0e56d2425c2
+ms.openlocfilehash: 46cb56da1623e0de9103ce3fa60465d5d367c974
 
 
 ---
@@ -81,7 +81,7 @@ ms.openlocfilehash: 2aef2df385cd17a0f261789c735282f4985cb442
 
 ### エラー: 発行元は存在しません
 **[その他のソフトウェア契約の追加]** を使用して、サード パーティのライセンス契約を追加するとします。 **[その他のソフトウェア ライセンス契約]** ページで、発行元を追加します。 このページには、既存の発行元がアルファベット順に一覧表示されています。
-一覧にない発行元を入力すると、"**発行元は存在しません**" というエラーが返されます。 
+一覧にない発行元を入力すると、"**発行元は存在しません**" というエラーが返されます。
 
 これは仕様です。 Intune で追跡できるのは、一般的なソフトウェア タイトルのライセンスのみです。 Intune では、少なくとも 4 個の別々のアカウントがそのソフトウェアを報告するまで、ライセンス ワークロードの選択肢としてそのソフトウェアは表示されません。
 
@@ -105,6 +105,6 @@ ms.openlocfilehash: 2aef2df385cd17a0f261789c735282f4985cb442
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

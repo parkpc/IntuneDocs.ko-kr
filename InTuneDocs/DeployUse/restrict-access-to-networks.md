@@ -3,7 +3,7 @@ title: "Cisco ISE でネットワークへのアクセスを制限する | Micro
 description: "Cisco ISE で制御されている WiFi および VPN にアクセスする前に、デバイスが登録されポリシーに準拠するように、Intune で Cisco ISE を使用します。"
 keywords: 
 author: nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 06/24/2016
 ms.topic: article
 ms.prod: 
@@ -13,42 +13,42 @@ ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: 9e90971a9997e65e98a8c55b24fb70a42da93702
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: c516cffe416559d1d239010605227eda76c32c1b
 
 
 ---
 
 # Microsoft Intune で Cisco ISE を使用する
-Intune を Cisco ISE と統合すると、Intune のデバイス登録と準拠の状態を使用して、ISE 環境内でネットワーク ポリシーを作成することができます。 これらのポリシーは、会社のネットワークへのアクセスが、Intune で管理され Intune ポリシーに準拠しているデバイスに制限されるように処理することができます。 
+Intune を Cisco ISE と統合すると、Intune のデバイス登録と準拠の状態を使用して、ISE 環境内でネットワーク ポリシーを作成することができます。 これらのポリシーは、会社のネットワークへのアクセスが、Intune で管理され Intune ポリシーに準拠しているデバイスに制限されるように処理することができます。
 
 ## 構成
 
-この統合を有効にするために、Intune テナントでセットアップを行う必要はありません。 テナントにアクセスするには、Cisco ISE サーバーにアクセス許可を付与する必要があります。これが完了すると、残りのセットアップが Cisco ISE サーバーで行われます。 この記事では、Intune テナントにアクセスする権限を持つ ISE サーバーを提供する手順について説明します。 
+この統合を有効にするために、Intune テナントでセットアップを行う必要はありません。 テナントにアクセスするには、Cisco ISE サーバーにアクセス許可を付与する必要があります。これが完了すると、残りのセットアップが Cisco ISE サーバーで行われます。 この記事では、Intune テナントにアクセスする権限を持つ ISE サーバーを提供する手順について説明します。
 
 ### 手順 1: 証明書を管理する
-1. Azure Active Directory (AAD) コンソールで、証明書をエクスポートします。 
+1. Azure Active Directory (AAD) コンソールで、証明書をエクスポートします。
 
     #### Internet Explorer 11
-        
+
     a. 管理者として Internet Explorer を実行して、AAD コンソールにログインします。
-  
+
     b. アドレス バーでロック アイコンを選択して、**[証明書の表示]** を選択します。
-    
+
     c. 証明書のプロパティの **[詳細]** タブで、**[ファイルにコピー]** を選択します。
 
-    d. **証明書のエクスポート ウィザードの** [ようこそ] ページで、**[次へ]** を選択します。 
+    d. **証明書のエクスポート ウィザードの** [ようこそ] ページで、**[次へ]** を選択します。
 
     e. **[エクスポート ファイル形式]** ページで、既定値の **[DER encoded binary X.509 (.CER)]** のままにして、**[次へ]** を選択します。  
 
     f. **[エクスポートするファイル]** ページで、**[参照]** をクリックして、ファイルを保存する場所を選択し、ファイル名を指定します。 エクスポートするファイルを選択するのと似ていますが、実際にエクスポートする証明書が保存されるファイルに名前を付けます。 **[次へ]** &gt; **[完了]** を選択します。
 
     #### Safari
-    
+
     a. AAD コンソールにログインします。
 
     b. ロック アイコン &gt; **[詳細]** をクリックします。
-    
+
     c. **[証明書の表示]** &gt; **[詳細]** を選択します。
 
     d. 証明書を選択し、**[エクスポート]** を選択します。  
@@ -57,7 +57,7 @@ Intune を Cisco ISE と統合すると、Intune のデバイス登録と準拠�
     > [!IMPORTANT]
     > 証明書の有効期限が切れた場合、新しい証明書をエクスポートしてインポートする必要があるため、証明書の有効期限を確認します。
 
-    
+
 
 2. ISE コンソール内から、Intune 証明書 (エクスポートしたファイル) を **[信頼できる証明書]** にインポートします。
 3. ISE コンソールで、**[管理]** > **[証明書]** > **[システム証明書]** に移動します。
@@ -76,7 +76,7 @@ Intune を Cisco ISE と統合すると、Intune のデバイス登録と準拠�
 6. Microsoft Graph と Microsoft Intune API へのアクセス許可を持つアプリを指定します。
     1. Microsoft Graph の場合は、次のように選択します
         - **アプリケーションのアクセス許可**: ディレクトリ データの読み取り
-        - **委任されたアクセス許可**: 
+        - **委任されたアクセス許可**:
             - ユーザーのデータへの常時アクセス
           - ユーザーのサインイン
    2. Microsoft Intune API では、**[アプリケーションのアクセス許可]** で、**[Intune からデバイスの状態とコンプライアンスを所得する]** を選択します。
@@ -90,8 +90,8 @@ Intune を Cisco ISE と統合すると、Intune のデバイス登録と準拠�
 |クライアント ID でコードを更新する|クライアント ID|
 
 
-### 手順 3: ISE 設定を構成する 
-2. ISE 管理コンソールで、次の設定値を指定します。 
+### 手順 3: ISE 設定を構成する
+2. ISE 管理コンソールで、次の設定値を指定します。
   - **サーバーの種類**: Mobile Device Manager
   - **認証の種類**: OAuth – クライアントの資格情報
   - **自動検出**: はい
@@ -112,12 +112,12 @@ Intune を Cisco ISE と統合すると、Intune のデバイス登録と準拠�
 |serialNumber|デバイスのシリアル番号。 iOS デバイスにのみ適用されます。|
 |imei|IMEI (15 桁の 10 進数: 14 桁とチェック ディジット) または IMEISV (16 桁) には、デバイスの製造元、モデル、およびシリアル番号の情報が含まれています。 IMEI/SV の構造は、3GPP TS 23.003 で指定されます。 SIM カードのあるデバイスのみに適用されます。)|
 |udid|一意のデバイス ID。iOS デバイスに固有の一連の 40 文字です。|
-|meid|モバイル デバイス ID。CDMA モバイル ステーション装置の物理パーツを識別するグローバル一意識別番号です。 番号形式は、3GPP2 report S. R0048 で定義されていますが、実際は、16 進数の IMEI として表示されることがあります。 MEID は 56 ビット長 (14 桁の 16 進数) です。 8 ビットの地域コード (RR)、24 ビットの製造元コード、24 ビットの製造元によって割り当てられたシリアル番号を含む、3 つのフィールドで構成されます。| 
+|meid|モバイル デバイス ID。CDMA モバイル ステーション装置の物理パーツを識別するグローバル一意識別番号です。 番号形式は、3GPP2 report S. R0048 で定義されていますが、実際は、16 進数の IMEI として表示されることがあります。 MEID は 56 ビット長 (14 桁の 16 進数) です。 8 ビットの地域コード (RR)、24 ビットの製造元コード、24 ビットの製造元によって割り当てられたシリアル番号を含む、3 つのフィールドで構成されます。|
 |osVersion| デバイスのオペレーティング システムのバージョン。
 |対象となるのは、モデル|デバイス モデル。
 |manufacturer|デバイスの製造元。
 |azureDeviceId| Azure Active Directory に社内参加した後のデバイス ID。 参加していないデバイスは、空の guid になります。|
-|lastContactTimeUtc|デバイスが Intune の管理サービスで最後に確認された日付と時刻。 
+|lastContactTimeUtc|デバイスが Intune の管理サービスで最後に確認された日付と時刻。
 
 
 ## ユーザー側の表示と操作
@@ -131,7 +131,7 @@ Intune を Cisco ISE と統合すると、Intune のデバイス登録と準拠�
 - [Intune に Android デバイスを登録する](/intune/enduser/enroll-your-device-in-Intune-android)</br>
 - [Intune に iOS デバイスを登録する](/intune/enduser/enroll-your-device-in-intune-ios)</br>
 - [Intune に Mac OS X デバイスを登録する](/intune/enduser/enroll-your-device-in-intune-mac-os-x)</br>
-- [Intune に Windows デバイスを登録する](/intune/enduser/enroll-your-device-in-intune-windows)</br> 
+- [Intune に Windows デバイスを登録する](/intune/enduser/enroll-your-device-in-intune-windows)</br>
 
 また、ユーザー エクスペリエンスのためにカスタマイズされたガイダンスを作成できる、[ダウンロード可能な一連の登録手順](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a)もあります。
 
@@ -142,7 +142,6 @@ Intune を Cisco ISE と統合すると、Intune のデバイス登録と準拠�
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

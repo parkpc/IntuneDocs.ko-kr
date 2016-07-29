@@ -3,16 +3,17 @@ title: "パスコードを設定または変更する | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 5/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c4801a78-580e-4e3d-beca-0b09b9b2437c
+ROBOTS: noindex,nofollow
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 19f06b1fc58584b42af7740384c9a927a20d0b6e
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 791d9e4d5817acfa8b11b1f5ed570df5e38718d7
 
 
 ---
@@ -21,7 +22,7 @@ ms.openlocfilehash: 19f06b1fc58584b42af7740384c9a927a20d0b6e
 
 Windows デバイスが、IT 管理者のパスワード ポリシーに準拠していない場合、問題の簡単な説明と、パスワード要件を満たすために実行する必要のある事柄が説明されたメッセージが表示されます。
 
-IT 管理者は、パスワードの要件を 1 つ以上設定できます。 たとえば、パスワードの文字数を指定したり、数字と文字を混在させる必要があることなどを指定できます。要件は 1 つ以上設定される可能性もあるため、これらの手順では、パスワードの設定および変更方法のみを説明します。 可能性のある要件の組み合わせをすべて網羅しているわけではありません。 
+IT 管理者は、パスワードの要件を 1 つ以上設定できます。 たとえば、パスワードの文字数を指定したり、数字と文字を混在させる必要があることなどを指定できます。要件は 1 つ以上設定される可能性もあるため、これらの手順では、パスワードの設定および変更方法のみを説明します。 可能性のある要件の組み合わせをすべて網羅しているわけではありません。
 
 すべてのパスワード要件を満たすようパスワードを設定できない場合は、IT 管理者に支援を要請してください。
 
@@ -29,7 +30,7 @@ IT 管理者は、パスワードの要件を 1 つ以上設定できます。 �
 
 1. **ホーム**画面で、**[設定]** をタップし、**[ロック画面]** を選択します。
 2. **[パスワード]** まで下にスクロールし、**[パスワード]** バーを **[オン]** にスライドします。
-3. **[新しいパスワード]** フィールドに新しいパスワードを入力し、**[パスワードの確認入力]** フィールドにそれを再入力します。 
+3. **[新しいパスワード]** フィールドに新しいパスワードを入力し、**[パスワードの確認入力]** フィールドにそれを再入力します。
 4. **[完了]** をタップします。
 
 ## Windows Phone 8 または 8.1 のパスワードを変更するには:
@@ -46,6 +47,7 @@ IT 管理者は、パスワードの要件を 1 つ以上設定できます。 �
 [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Jul16_HO4-->
 
 
