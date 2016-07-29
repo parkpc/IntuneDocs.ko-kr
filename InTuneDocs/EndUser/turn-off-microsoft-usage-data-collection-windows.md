@@ -3,7 +3,7 @@ title: "Microsoft による Windows の使用状況データの収集を無効�
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb9888d803a53c2f17d88cdb3f010cf14c9b18d
-ms.openlocfilehash: 69bdd678de55c033c89ba8f4d3a6c75ff14c2e25
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: e539e95a92a9076ea3bab5df65c33cafcf2536d7
 
 
 ---
@@ -23,7 +23,7 @@ ms.openlocfilehash: 69bdd678de55c033c89ba8f4d3a6c75ff14c2e25
 
 # Microsoft による使用状況データの収集を無効にする
 
-Microsoft では、Microsoft の製品やサービスの向上を目的として、ポータル サイト アプリの信頼性やパフォーマンス、および使用方法に関する匿名データを自動的に収集します。 
+Microsoft では、Microsoft の製品やサービスの向上を目的として、ポータル サイト アプリの信頼性やパフォーマンス、および使用方法に関する匿名データを自動的に収集します。
 
 Windows デバイスでのこのようなデータの収集は、ポータル サイト アプリの **[使用状況データ]** 設定を使用して無効にすることができます。 IT 管理者は、このデータの収集を制御することはできません。また、この設定の選択を変更することもできません。
 
@@ -33,6 +33,7 @@ Windows デバイスでのこのようなデータの収集は、ポータル �
 [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

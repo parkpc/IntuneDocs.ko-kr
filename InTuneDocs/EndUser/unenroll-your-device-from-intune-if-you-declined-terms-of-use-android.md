@@ -3,7 +3,7 @@ title: "利用規約を拒否した場合に Intune からデバイスの登録�
 description: "使用条件を拒否し、ポータル サイト アプリにサインインできない場合に、Android デバイスを Intune から登録解除する方法について説明します"
 keywords: 
 author: staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 4278f000-0258-4de5-93a1-195b48e5061e
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 06e2fa597e9e4143d17e817daee7eeac8eb46bf7
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 82cc94eb37b11251343706d60a45fb78458cab7e
 
 
 ---
@@ -45,6 +45,7 @@ Intune からデバイスの登録を解除し、会社のポータル アプリ
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

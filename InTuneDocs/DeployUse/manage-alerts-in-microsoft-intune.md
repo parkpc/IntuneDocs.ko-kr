@@ -3,19 +3,19 @@ title: "アラートを管理する | Microsoft Intune"
 description: "[アラート] ワークスペースを使って、組織にあるデバイスの全体的なヘルスを評価する。"
 keywords: 
 author: Nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 74dc4ce4-21da-4f40-a07f-3eea34561eee
-ROBOTS: noindex,nofollow
-ms.reviewer: jeffgilb
+ROBOTS: NOINDEX,NOFOLLOW
+ms.reviewer: pbala
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: 47667501cf8235ed59e3915ec8f745381a37ab35
+ms.sourcegitcommit: 9a124663a80bb477d0312faa0fb43e4457ba8246
+ms.openlocfilehash: 54dd8c6bae6c02e7dde3582b439d106261bc490b
 
 
 ---
@@ -33,12 +33,12 @@ Intune 管理コンソールで **[アラート]** ワークスペースを使�
 
         > [!NOTE]
         > 場合によっては、**[アラートの種類の概要]** 一覧に、同じ種類のアラートが複数表示されることがあります。
-        > 
+        >
         > たとえば、"論理ディスクの空き領域" という種類のアラートのインスタンスが、次のように 2 つ表示される場合があります。
-        > 
+        >
         > -   論理ディスクの空き領域 (3)
         > -   論理ディスクの空き領域 (2)
-        > 
+        >
         > これは、異なるオペレーティング システムを実行しているデバイスで、同じ種類のアラートが生成された場合に起こります。 上の例では、"論理ディスクの空き領域" の最初のインスタンス "論理ディスクの空き領域 (3)" が Windows® 7 を実行しているコンピューターで生成され、 2 番目のインスタンスが Windows Vista® を実行しているコンピューターで生成された可能性があります。
 
     -   **すべてのアクティブなアラートを表示するには**、**[アラート] &gt; [すべてのアラート]** の順にクリックします。 **[アラート]** ページに、以下の列を含む、すべてのアクティブなアラートの一覧が表示されます。
@@ -107,7 +107,6 @@ Intune のアラートは、次のいずれかのイベントが発生するま�
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,7 +3,7 @@ title: "デバイスに必要な証明書がない | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 7/7/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 61dda32b55e108b340923f4ff2a86163da2971dc
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 220d877763352e62c4057494b69633356ef081c6
 
 
 ---
@@ -74,7 +74,7 @@ Android デバイスが Intune に登録されておらず、IT 管理者が必�
 
     ![screenshot-internet-explorer-view-certificates-button-on-website-identification-dialog](./media/andr-missg-cert-ie-view-cert-button.png)
 
-5. **[証明書]** ダイアログで **[Certification path]** (証明パス) タブをクリックして、インターネットから取得する必要がある証明書を特定します。 必要な証明書の名前は、上記の例のスクリーン ショットで強調表示されている場所と同じ位置にあります。 
+5. **[証明書]** ダイアログで **[Certification path]** (証明パス) タブをクリックして、インターネットから取得する必要がある証明書を特定します。 必要な証明書の名前は、上記の例のスクリーン ショットで強調表示されている場所と同じ位置にあります。
 
 ### Android モバイル デバイスで欠落している証明書をダウンロードしてインストールする
 
@@ -94,12 +94,13 @@ Android デバイスが Intune に登録されておらず、IT 管理者が必�
 
 7. 会社のポータル アプリをもう一度開きます。 これで、会社のポータル アプリにサインインできるようになりました。 サポートが必要な場合は、IT 管理者に問い合わせてください。
 
-上に示されたのと同じ「証明書が見つかりません」というメッセージが表示され、かつ上述の手順を実行済みの場合は、インストールするために IT 管理者によるサポートが必要な証明書がまだある可能性が高いことを意味します。 IT 管理者に連絡し、問題の解決に役立つ手順が含まれるこの[リンク](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune#android-certificate-issues)を渡してください。 
+上に示されたのと同じ「証明書が見つかりません」というメッセージが表示され、かつ上述の手順を実行済みの場合は、インストールするために IT 管理者によるサポートが必要な証明書がまだある可能性が高いことを意味します。 IT 管理者に連絡し、問題の解決に役立つ手順が含まれるこの[リンク](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune#android-certificate-issues)を渡してください。
 
 ### 関連項目
 [Windows デバイスを Intune で使用する](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

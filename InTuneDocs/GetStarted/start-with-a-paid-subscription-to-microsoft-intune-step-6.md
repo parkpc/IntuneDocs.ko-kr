@@ -3,7 +3,7 @@ title: "ポリシーを作成してアプリを発行する | Microsoft Intune"
 description: "ポリシーを作成し、Intune サブスクリプションのサンプル アプリを発行する方法を説明します"
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: e0d8e98f-7dd8-4cbf-887c-a9af63ffe970
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: d079452cb41ca8b37c292d75a606eb72ba5304df
+ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
+ms.openlocfilehash: 539df37b239f61ab31e5994db00b46a9d5b6310c
 
 
 ---
@@ -109,6 +109,6 @@ Intune で実行できるアプリのインストールには 2 種類ありま�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

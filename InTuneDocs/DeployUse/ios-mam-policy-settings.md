@@ -3,7 +3,7 @@ title: "iOS MAM ポリシーの設定 | Microsoft Intune"
 description: "このトピックでは、iOS デバイス用のモバイル アプリ管理ポリシーの設定について説明します。"
 keywords: 
 author: karthikaraman
-manager: jeffgilb
+manager: arob98
 ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 673ff872-943c-4076-931c-0be90363aea9
 ms.reviewer: andcerat
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 09bf7d1343580f7688671bf94d83f40f0a3405c5
-ms.openlocfilehash: e0db92b6ecf7a552589ea805f6507ca59e6554b1
+ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
+ms.openlocfilehash: 5f13b6b9df7218734e8b015e5ddb3f6ab2698cac
 
 
 ---
@@ -114,6 +114,6 @@ iOS デバイスでは、数字による PIN の代わりに、iOS デバイス�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

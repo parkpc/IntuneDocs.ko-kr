@@ -3,7 +3,7 @@ title: "デバイス グループのマッピングを使用してデバイス�
 description: "Microsoft Intune のデバイス グループ マッピングを使用して、ユーザー定義のカテゴリにデバイスをグループ化することで、それらのデバイスの管理が容易になります。"
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/11/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 8b8c06a3-6b6c-4cf1-8646-b24fa9b1a39e
 ms.reviewer: sumitp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: c721df29fd71963feb151af71eea9ee7ebc2d3e4
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 3eda87026f46ed911c83b874f7ef9362f0705492
 
 
 ---
@@ -53,6 +53,6 @@ Microsoft Intune の**デバイス グループ マッピング**を使用して
 [Microsoft Intune でユーザーとデバイスの管理にグループを使用する](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

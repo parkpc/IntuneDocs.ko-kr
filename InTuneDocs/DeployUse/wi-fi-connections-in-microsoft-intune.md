@@ -3,7 +3,7 @@ title: "Wi-Fi 接続 | Microsoft Intune"
 description: "組織内のユーザーとデバイスに VPN 設定を展開するには、VPN プロファイルを使用します。"
 keywords: 
 author: Nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 0b1b86ed-2e80-474d-8437-17dd4bc07b55
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: 3a59d69be920012b3faa6ea5420b4a96d9c63f46
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: 271d2be675ab808365cd6869c69d386058f76ae8
 
 
 ---
@@ -125,8 +125,8 @@ Windows では、**netsh wlan** ユーティリティを使用して、既存の
 
 2.  **[Windows]** &gt; **[Wi-Fi インポート (Windows 8.1 以降)]** の種類のポリシーを構成します。
 
-    このポリシーは、Windows 8.1 および Windows 10 デスクトップおよびモバイル デバイスに適用できます。 
-    
+    このポリシーは、Windows 8.1 および Windows 10 デスクトップおよびモバイル デバイスに適用できます。
+
     *カスタム*の Windows Wi-Fi インポート ポリシーのみを作成して展開できます。 推奨設定はありません。
 
 3.  以下の Windows Wi-Fi インポート ポリシーの一般的な値を指定します。
@@ -166,6 +166,6 @@ Windows では、**netsh wlan** ユーティリティを使用して、既存の
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

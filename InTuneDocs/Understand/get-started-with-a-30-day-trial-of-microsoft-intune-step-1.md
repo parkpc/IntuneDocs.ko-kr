@@ -3,7 +3,7 @@ title: "Microsoft Intune の 30 日間評価版にサインアップする | Mic
 description: "Intune の無料の 30 日間評価版にサインアップする方法、およびサインアップする前の考慮事項"
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: dad88d43-0054-4be6-9e5d-ada5a957dd6c
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 1ea97c93f7094572fa5fb6eb34e039369e91334b
+ms.sourcegitcommit: 60ee39a7eeeb9068a7350ec87f60e7148ccb7826
+ms.openlocfilehash: 5c36bac82389453d83504564cf26beb1027feefe
 
 
 ---
@@ -61,6 +61,6 @@ Intune にサインアップまたはサインインするには、あらかじ�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,7 +3,7 @@ title: "デバイスを暗号化する |Microsoft Intune"
 description: "Android デバイスを暗号化する方法について説明します"
 keywords: 
 author: staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 06/07/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: a69d4c3432867e3b4a808d71645d6a976a9f1c2e
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 777b87328e12b4d6b3de1b338fe802d92c1138a1
 
 
 ---
@@ -24,9 +24,9 @@ ms.openlocfilehash: a69d4c3432867e3b4a808d71645d6a976a9f1c2e
 
 勤務先の会社や組織で、社内のファイルや電子メール、データにアクセスする Android デバイスの暗号化が義務付けられている場合、以下の手順に従ってお使いのデバイスを暗号化してください。 IT 管理者が要求する場合、暗号化の前に PIN またはパスワードを設定するように求められることがあります。
 
-電話の登録を解除しても、暗号化は維持されます。 
+電話の登録を解除しても、暗号化は維持されます。
 
-1.  デバイスの画面ロック PIN またはパスワードが設定されていることを確認します。 
+1.  デバイスの画面ロック PIN またはパスワードが設定されていることを確認します。
 
 2.  **[設定]** から **[セキュリティ]** &gt; **[電話の暗号化]** の順にクリックします。
     (電話によっては、"暗号か" オプションを表示するには、**[ストレージ]** &gt; **[ストレージの暗号化]** または **[ストレージ]** &gt; **[画面のロックとセキュリティ]** &gt; **[他のセキュリティ設定]** の順にクリックする必要があります。)
@@ -47,7 +47,6 @@ ms.openlocfilehash: a69d4c3432867e3b4a808d71645d6a976a9f1c2e
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

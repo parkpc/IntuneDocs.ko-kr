@@ -3,7 +3,7 @@ title: "Intune に Mac OS X デバイスを登録する | Microsoft Intune"
 description: "Intune に Mac OS X デバイスを登録する方法について説明します"
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 05/30/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 04380c2adf65f76a786da51509db24d773ac30f1
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 9e3c351591f496fbc7be3fefdc320af9caaae726
 
 
 ---
@@ -34,19 +34,19 @@ Mac OS X デバイスを登録するには
 
 2.  **[このデバイスは登録されていないか、ポータル サイトで特定できません]** をタップします。
 
-    ![device-not-enrolled](./media/1-macosx-enroll-tap-enroll.png) 
+    ![device-not-enrolled](./media/1-macosx-enroll-tap-enroll.png)
 
 3.  **[インストール]** をタップして、デバイスの登録を開始します。
 
-    ![tap-install-to-enroll](./media/2-macosx-enroll--install-button.png) 
+    ![tap-install-to-enroll](./media/2-macosx-enroll--install-button.png)
 
 4.  **[管理プロファイルのインストール]** ダイアログ ボックスで、**[インストール]** をタップします。 資格情報の入力を求めるダイアログ ボックスが表示された場合は、ユーザー名とパスワードを入力し、**[続行]** &gt; **[インストール]** の順にタップします。
 
-    ![install-management-profile](./media/3-macosx-enroll-tap-install.png) 
+    ![install-management-profile](./media/3-macosx-enroll-tap-install.png)
 
     登録が完了すると、プロファイルが検証されたことを示す管理プロファイル ページが表示されます。
 
-    ![management-profile-verified](./media/4-macosx-enroll-done.png) 
+    ![management-profile-verified](./media/4-macosx-enroll-done.png)
 
 サポートが必要な場合は、 IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
 
@@ -54,6 +54,7 @@ Mac OS X デバイスを登録するには
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

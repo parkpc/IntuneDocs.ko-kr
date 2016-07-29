@@ -3,7 +3,7 @@ title: "Windows デバイスを手動で同期する | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 05/18/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 17b0583403c3e23c62a5bd60b9c8217b0621fa80
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 7ec8496317f354b5a2f0c3a214f457612c3105de
 
 
 ---
@@ -35,19 +35,19 @@ ms.openlocfilehash: 17b0583403c3e23c62a5bd60b9c8217b0621fa80
 1. **[すべてのアプリ]** > **[設定]** > **[アカウント]** の順にタップします。
 
     ![win10m-sync-1-settings-accounts](./media/win10m-sync-1-settings-accounts.png)
-    
+
 2. **[職場のアクセス]** をタップします。
 
     ![win10m-sync-2-work-access](./media/win10m-sync-2-work-access.png)
-    
+
 3. **[デバイス管理に登録する]** で、次に示すように会社名をタップします。
 
     ![win10m-sync-3-tap-comp-name](./media/win10m-sync-3-tap-comp-name.png)
-    
+
 4. **[同期]** アイコンをタップします。
 
     ![win10m-sync-4-tap-sync](./media/win10m-sync-4-tap-sync.png)
-    
+
     画面の上部に、"アカウントを同期中" というメッセージが表示されます。 同期が完了するまで、[同期] ボタンは灰色表示になります。
 
 ## Windows 10 Desktop
@@ -56,23 +56,23 @@ ms.openlocfilehash: 17b0583403c3e23c62a5bd60b9c8217b0621fa80
 1. 次に示す **[スタート]** ボタンをクリックし、**[設定]** をクリックします。
 
     ![win10pc-sync-1-start-button](./media/win10pc-sync-1-start-button.png)
-    
+
 2. **[設定]** ページで、**[アカウント]** をクリックします。
- 
+
     ![win10pc-sync-2-settings-accounts](./media/win10pc-sync-2-settings-accounts.png)
-    
+
 3. **[アカウント]** ページで、**[職場のアクセス]** をクリックします。
-    
+
     ![win10pc-sync-3-work-access](./media/win10pc-sync-3-work-access.png)
-    
+
 4. **[デバイス管理に登録する]** セクションで、会社の名前をクリックします (次の図で青色の枠で示された部分)。
-    
+
     ![win10pc-sync-4-tap-com-name](./media/win10pc-sync-4-tap-com-name.png)
-   
+
 5. **[同期]** ボタンをクリックします。
-    
+
     ![win10pc-sync-5-tap-sync](./media/win10pc-sync-5-tap-sync.png)
-   
+
    同期が完了するまで、このボタンは灰色表示になります。
 
 ## Windows Phone 8.1
@@ -81,15 +81,15 @@ ms.openlocfilehash: 17b0583403c3e23c62a5bd60b9c8217b0621fa80
 1. **[すべてのアプリ]** > **[設定]** > **[会社アカウント]** の順にタップします。
 
     ![wp81-1-sync-settings-workplace](./media/wp81-1-sync-settings-workplace.png)
-    
+
 2. 会社の名前をタップします (次の図で青色の枠で示された部分)。
 
     ![wp81-2-sync-tap-compname](./media/wp81-2-sync-tap-compname.png)
-   
+
 3. **[同期]** アイコンをタップします。
 
     ![wp81-3-sync-tap-sync-button](./media/wp81-3-sync-tap-sync-button.png)
-    
+
    デバイスで同期が完了するまでの間、画面の上部に、"アカウントを同期中" というメッセージが表示されます。
 
 サポートが必要な場合は、 IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
@@ -99,6 +99,6 @@ ms.openlocfilehash: 17b0583403c3e23c62a5bd60b9c8217b0621fa80
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

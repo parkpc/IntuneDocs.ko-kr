@@ -3,7 +3,7 @@ title: "アプリごとの VPN のパッケージ ファミリ名 (PFN) を検�
 description: "アプリごとの VPN を構成できるように PFN を検索する。"
 keywords: 
 author: nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 74643d1d-4fd9-4cff-ac79-1a42281d2f76
 ms.reviewer: tycast
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9a049127d79098bfb8992055a0a8b20fbfafd8c9
-ms.openlocfilehash: 980611a6c1fafdbc990f30d3144766abc97e632b
+ms.sourcegitcommit: 9a124663a80bb477d0312faa0fb43e4457ba8246
+ms.openlocfilehash: 0bbb8aef7929ac09ef5f6a5a466d66b5df03e921
 
 
 ---
@@ -23,7 +23,7 @@ ms.openlocfilehash: 980611a6c1fafdbc990f30d3144766abc97e632b
 
 アプリごとの VPN を構成できるように PFN を検索する方法は 2 つあります。
 
-## Windows 10 コンピューターにインストールされているアプリの PFN を検索する 
+## Windows 10 コンピューターにインストールされているアプリの PFN を検索する
 
 使用しているアプリが既に Windows 10 コンピューターにインストールされている場合、[Get-AppxPackage](https://technet.microsoft.com/library/hh856044.aspx) PowerShell コマンドレットを使用して PFN を取得できます。
 
@@ -74,7 +74,7 @@ OneNote について取得される情報の例を次に示します。
 4.  別のタブに URL `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata` を貼り付け、`<app id>` の部分を、https://www.microsoft.com/en-us/store/apps から取得したアプリ ID (手順 3 の URL の末尾にある一連の文字) で置き換えます。 この例の OneNote の場合、`https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata` を貼り付けます。
 
 Edge に目的の情報が表示されます。Internet Explorer で **[開く]** をクリックして情報を確認します。 PFN 値は最初の行に表示されます。 この例の結果は次のようになります。
- 
+
 
 `{`
 `  "packageFamilyName": "Microsoft.Office.OneNote_8wekyb3d8bbwe",`
@@ -85,7 +85,6 @@ Edge に目的の情報が表示されます。Internet Explorer で **[開く]*
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

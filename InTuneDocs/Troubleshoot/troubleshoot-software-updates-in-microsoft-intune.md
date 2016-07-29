@@ -3,7 +3,7 @@ title: "ソフトウェアの更新に関するトラブルシューティング
 description: "Microsoft Intune でのソフトウェア更新に関する問題を解決します。"
 keywords: 
 author: Nbigman
-manager: jeffgilb
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: d17b70f4-17b4-4d89-88fd-70fa4f34fbea
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: b5e561b17f385d828fbd34658e4c30ac62ab0ea3
+ms.sourcegitcommit: 9915b275101e287498217c4f35e1c0e56d2425c2
+ms.openlocfilehash: 1615f564891ddf720dc42b18a599921572fb2157
 
 
 ---
@@ -244,7 +244,7 @@ Microsoft Intune のソフトウェア更新の問題を解決するには、こ
 **問題**: Microsoft Intune クライアントで次の症状が 1 つ以上発生する場合があります。
 - 突然、Microsoft 管理コンソールに報告しなくなる。  
 - CPU 使用率が高くなる。
-- Intune ポータルからアプリケーションをインストールするときに、インストールの処理速度が遅くなる。 
+- Intune ポータルからアプリケーションをインストールするときに、インストールの処理速度が遅くなる。
 - Microsoft Intune Center で次のエラーが発生する。*"このコンピューターを更新中にエラーが発生しました。エラーが見つかりました: コード 0x800705b4*。
 - Intune 管理コンソールの [グループ] の [すべてのデバイス] の下にあるステータス フィールドに、次のメッセージが表示される。*"このコンピューターにインストールされているエージェントでエラーが発生しました。このコンピューターの情報は、正確でないか最新のものでない可能性があります*。
 
@@ -254,7 +254,7 @@ Microsoft Intune のソフトウェア更新の問題を解決するには、こ
 1. [Intune 管理コンソール](https://manage.microsoft.com)にログオンします。
 2. **[更新プログラム]** > **[All Updates]** (すべての更新プログラム) の順に選択します。
 3. 上部のツールバーのフィルター機能を使用して、置き換えられた更新プログラムのみを表示します。
-4. 影響を受けているクライアントにインストールされている Windows 7 またはアプリケーション (Microsoft Office など) に適用される置き換えられた更新プログラムをすべて拒否します。 
+4. 影響を受けているクライアントにインストールされている Windows 7 またはアプリケーション (Microsoft Office など) に適用される置き換えられた更新プログラムをすべて拒否します。
 5. 影響を受けているクライアントを再起動します。
 
 さらに、Windows 7 を実行している場合は、次の更新プログラムがインストールされていることを確認します。[3050265 Windows Update Client for Windows 7: June 2015](https://support.microsoft.com/kb/3050265)
@@ -264,7 +264,6 @@ Microsoft Intune のソフトウェア更新の問題を解決するには、こ
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

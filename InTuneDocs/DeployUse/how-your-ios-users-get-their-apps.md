@@ -3,7 +3,7 @@ title: "iOS ユーザーがアプリを入手する方法 | Microsoft Intune"
 description: "エンド ユーザーが iOS アプリを使用できるようにするための方法"
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 7e3135c1-df26-48c9-aa4c-cdab6168897a
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: cce64fef4a7e6d81024794ab3f535e907e501bd8
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: 5468914de3444a709068b4d3d143d3b2828616eb
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: cce64fef4a7e6d81024794ab3f535e907e501bd8
 
 # iOS ユーザーがアプリを入手する方法
 
-Microsoft Intune を通して配布したアプリをエンド ユーザーがどこでどのように取得するかについて説明します。 
+Microsoft Intune を通して配布したアプリをエンド ユーザーがどこでどのように取得するかについて説明します。
 
 **必要なアプリ** - 管理者によって必要とされるアプリおよび必要最小限のユーザー操作でデバイスにインストールされるアプリです (プラットフォームによって異なる)。
 
@@ -37,6 +37,7 @@ Microsoft Intune を通して配布したアプリをエンド ユーザーが�
 [Windows ユーザーがアプリを入手する方法](how-your-windows-users-get-their-apps.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,7 +3,7 @@ title: "ユーザーとデバイス グループを計画する | Microsoft Intu
 description: "組織のニーズを満たすグループを計画します。"
 keywords: 
 author: nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: f11bb256-1094-4f7e-b826-1314c57f3356
 ms.reviewer: lpatha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: 73909ebf2226b4fa50ad39b095a7cc1d73460c65
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: bb3e96ad4276819ad46ab2a5e1a8deb931bd421a
 
 
 ---
@@ -215,6 +215,6 @@ Android、iOS、Windows などの特定のオペレーティング システム�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

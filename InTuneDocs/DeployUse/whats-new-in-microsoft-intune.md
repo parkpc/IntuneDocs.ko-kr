@@ -3,7 +3,7 @@ title: "新機能 | Microsoft Intune"
 description: "Microsoft Intune の今月の新機能と過去のリリースの情報について説明します"
 keywords: 
 author: Lindavr
-manager: jeffgilb
+manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b8bff8951c8ced7656f007787d614fd277401fd0
-ms.openlocfilehash: 35612b07cf18d8038af51cdfac5146b9e8a876fc
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: ef0210d7ca2d44608c5baa8f48ef56a2b9b5ce3a
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: 35612b07cf18d8038af51cdfac5146b9e8a876fc
 # Microsoft Intune の新機能
 Microsoft Intune の今回のリリースの新機能について説明します。 また、過去のリリースに関する情報だけでなく、準備する必要がある今後の変更についても説明します。
 
-Intune に関して以下の機能が現在開発されています。 これらのすべての機能は、最終的にハイブリッド環境 (Configuration Manager と Intune の共存環境) でサポートされるようになります。 最新のハイブリッド機能の詳細については、[ハイブリッド環境の新機能に関するページ](https://technet.microsoft.com/en-US/library/mt718155(TechNet.10).aspx)を参照してください。
+これらのすべての機能は、最終的にハイブリッド環境 (Configuration Manager と Intune の共存環境) でサポートされるようになります。 最新のハイブリッド機能の詳細については、[ハイブリッド環境の新機能に関するページ](https://technet.microsoft.com/en-US/library/mt718155(TechNet.10).aspx)を参照してください。
 
 
 ## 2016 年 7 月
@@ -147,6 +147,6 @@ Intune notification rules define who an email alert will be sent to from Intune.
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

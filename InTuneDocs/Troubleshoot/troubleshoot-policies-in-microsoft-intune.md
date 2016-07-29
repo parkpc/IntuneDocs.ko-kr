@@ -3,7 +3,7 @@ title: "ポリシーのトラブルシューティング | Microsoft Intune"
 description: "ポリシー構成に関する問題のトラブルシューティングを行います。"
 keywords: 
 author: Nbigman
-manager: jeffgilb
+manager: angrobe
 ms.date: 05/26/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 99fb6db6-21c5-46cd-980d-50f063ab8ab8
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 64518fc58a97c0d5060d909b60df565c19498389
+ms.sourcegitcommit: 9915b275101e287498217c4f35e1c0e56d2425c2
+ms.openlocfilehash: 06468bd7d6cdcf84da269c8132b37240ef1f2197
 
 
 ---
@@ -113,6 +113,6 @@ Android の MDM は、その他のプラットフォームのように、サー�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

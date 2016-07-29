@@ -3,8 +3,8 @@ title: "概念実証 | Microsoft Intune"
 description: "Intune の展開の概念実証フェーズの推奨事項。"
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: f3c97380-23ca-40da-acbc-78108507cad7
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 57f6d51a3f1e05a7edd260b0923d099510114a9f
+ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
+ms.openlocfilehash: bffd46199873f01e2c03fe8b30cdfb3c425a07ee
 
 
 ---
@@ -78,6 +78,6 @@ PoC インフラストラクチャを展開する前に、検証が必要なシ�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

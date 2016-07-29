@@ -3,7 +3,7 @@ title: "Windows 10 ポリシー設定 | Microsoft Intune"
 description: "このトピックのポリシー設定の一覧を、登録済みの Windows 10 デスクトップおよび Windows 10 Mobile デバイスの組込み設定およびユーザー設定構成に役立ててください。"
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 01356d08257cf381d1a981f749702800c173de33
-ms.openlocfilehash: 08336c56f4e099c8cd0a0152364824455cae0f03
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: bb08ea54b24e0395972ce29ae05ff2b7b6ee4220
 
 
 ---
@@ -332,6 +332,6 @@ Windows のカスタム URI ポリシーを使用する場合は、すべての�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

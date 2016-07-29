@@ -3,7 +3,7 @@ title: "ビジネス向け Windows ストアのアプリの管理 | Microsoft In
 description: "Intune コンソールからボリューム購入したアプリを管理および展開する場合に、Microsoft Intune をビジネス向け Windows ストアに接続する"
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 8e38d47d-0c5e-40ce-b379-29d3657f5c28
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1850e89830de61ccdeb81cb6ee9cc0f0c1d237a
-ms.openlocfilehash: fb553cfd5e22a22b0ab18d3c1a8301a3966e2806
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 07079b6566bec45593bb9ae49272aa7154a7174d
 
 
 ---
@@ -77,6 +77,6 @@ Intune コンソールで同期を有効にする前に、以下の手順に従�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

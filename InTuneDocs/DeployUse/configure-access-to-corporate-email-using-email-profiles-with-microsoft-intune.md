@@ -3,7 +3,7 @@ title: "電子メール プロファイルを使用して会社の電子メー�
 description: "電子メール プロファイル設定は、モバイル デバイスの特定の電子メール クライアント用の電子メール アクセス設定を構成するために使用できます。"
 keywords: 
 author: Nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/021/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 10f0cd61-e514-4e44-b13e-aeb85a8e53ae
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: c7a3ca7b0390a001624871342c9aa04802be27ff
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: 878172811c7899237b5ebf5db9a443f10fea42dd
 
 
 ---
@@ -82,7 +82,7 @@ Intune で証明書プロファイルを作成および使用する方法の詳�
     |**同期する電子メールの日数**|同期する電子メールの日数を選択します。利用可能なすべての電子メールを同期する場合は **[無制限]** を選択します。|
     |**同期スケジュール** (Samsung KNOX、Windows Phone 8 以降、Windows 10)|デバイスが Exchange サーバーからデータを同期するスケジュールを選択します。 **[メッセージが到着したとき]** を選択すると、電子メールが届いたらすぐにデータが同期されます。**[手動]** を選択した場合は、デバイスのユーザーが同期を開始する必要があります。|
     |**SSL の使用**|電子メールの送受信および Exchange サーバーとの通信に、SSL (Secure Sockets Layer) 通信を使用します。<br /><br />Samsung KNOX 4.0 以降を実行しているデバイスの場合、Exchange Server の SSL 証明書をエクスポートし、Intune で Android の信頼された証明書プロファイルとして展開する必要があります。 他の方法で Exchange Server にインストールされた場合、Intune はこの証明書へのアクセスをサポートしていません。|
-    |**同期するコンテンツの種類**|デバイスに同期するコンテンツの種類を選択します。| 
+    |**同期するコンテンツの種類**|デバイスに同期するコンテンツの種類を選択します。|
     |**サード パーティ製アプリケーションからの電子メールの送信を許可する** (iOS のみ)|電子メールを送信するための既定のアカウントとしてこのプロファイルを選択することをユーザーに許可し、(たとえば、ファイルを電子メールに添付する目的で) ネイティブの電子メール アプリで電子メールを開くことをサードパーティ製アプリに許可します。|
 
     > [!IMPORTANT]
@@ -109,8 +109,6 @@ Intune で証明書プロファイルを作成および使用する方法の詳�
 
 
 
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 
