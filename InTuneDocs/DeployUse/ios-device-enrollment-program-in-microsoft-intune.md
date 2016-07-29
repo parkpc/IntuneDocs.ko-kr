@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Intune を使用した iOS デバイスの Apple DEP 管理 | Microsoft Intune"
-description: 
+title: "iOS デバイスの Apple DEP 管理 | Microsoft Intune"
+description: "Apple デバイスを管理するために、iOS Device Enrollment Program (DEP) を通じて購入した iOS デバイスを登録する登録プロファイルを &quot;無線&quot; で展開します。"
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1b942c7e09e59de59e3e406b84a21a712c0e973a
-ms.openlocfilehash: cd763f9fa0b08cc7b822eccbd043a5b9cd355d0f
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: c63badfcbc736476f17b39e09ef189eb4d2c08ef
 
 
 ---
@@ -55,9 +55,7 @@ DEP に企業所有の iOS デバイスを登録するには、Apple の DEP ト
 
     **デバイスを次のグループに割り当てる**こともできます。 **[選択...]** をクリックすると、グループが選択されます。
 
-    >[!Important]
-    >グループの割り当てが Intune から Azure Active Directory に移動します。 [詳細情報](#changes-to-intune-group-assignments)
-
+    [!INCLUDE[groups deprecated](../includes/group-deprecation.md)]
 
     次に、**[このポリシーのデバイス登録プログラムの設定を構成します]** を有効にして DEP をサポートします。
 
@@ -101,13 +99,13 @@ DEP に企業所有の iOS デバイスを登録するには、Apple の DEP ト
 
 ## Intune グループ割り当ての変更
 
-9 月から、デバイス グループの管理は Azure Active Directory に移行されます。 Azure Active Directory グループに切り替えた後は、グループの割り当ては**企業の登録プロファイル**のオプションに表示されません。 この変更は数か月間にわたりロールアウトされるため、変更はすぐに表示されないことがあります。 詳細な情報は間もなく公開されます。
+9 月から、デバイス グループの管理は Azure Active Directory に移行されます。 Azure Active Directory グループに切り替えた後は、グループの割り当ては**企業の登録プロファイル**のオプションに表示されません。 この変更は数か月間にわたりロールアウトされるため、変更はすぐに表示されないことがあります。 新しい動的なデバイス グループの割り当ては、会社の登録プロファイルの名前に基づいて Azure Active Directory で定義できます。 このプロセスにより、デバイス グループに事前に割り当てられているデバイスが、ポリシーおよびデプロイされたアプリと共にグループに自動的に登録されることが保証されます。 [Azure Active Directory グループの詳細についてはこちらを参照してください。](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/)
 
 ### 関連項目
 [デバイスの登録の準備](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Intune でのモバイル アプリ管理ポリシーの監視 | Microsoft Intune"
-description: 
+title: "Microsoft Intune での MAM ポリシーの監視 | Microsoft Intune"
+description: "ポリシーを持つユーザー数を確認し、詳細を調べるためにドリルダウンします。"
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/06/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
-ms.openlocfilehash: 99b50bd040bbbdfa3ad7937d7703700526c9c4d5
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 1efbecc33e33e5e4864bcc2417ebed1e8a5b5826
 
 
 ---
@@ -49,6 +49,9 @@ MAM ポリシーを構成してユーザーに適用した後は、[Azure ポー
 
   **[チェックインされていません]**: ポリシーはユーザーに展開されましたが、それ以降にアプリが作業コンテキストで使用されていないことを意味します。
 
+>[!NOTE]
+> 検索したユーザーに MAM ポリシーが展開されていない場合は、そのユーザーがいずれのアプリ ポリシーの対象でもないことを知らせるメッセージが表示されます。
+
 ユーザーのレポートを表示するには次のようにします。
 
 **手順 1:** ユーザーを選択するには、[概要] タイルをクリックするか、次に示すように **[設定]** ブレードで **[ユーザーによるアプリ レポート]** オプションを選択します。
@@ -72,6 +75,6 @@ MAM ポリシーを構成してユーザーに適用した後は、[Azure ポー
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

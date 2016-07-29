@@ -1,10 +1,10 @@
 ---
 title: "アプリとデータの保護 | Microsoft Intune"
 description: 
-keywords: 
+keywords: "このトピックでは、さまざまな Intune の機能と、会社のアプリとデータを保護するために使用可能な機能について説明します。"
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 5c46e188-87eb-4ce2-b184-24809e8bf783
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
-ms.openlocfilehash: 9445b4b171eb2102d73cf0e866e85b535274eee2
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: c4ee5b25bd737c357e58db6420e69beabf66a74d
 
 
 ---
@@ -39,7 +39,9 @@ Intune は、複数のテクノロジ層を介して会社のデータを保護�
 - PIN/パスコードまたは会社の資格情報を要求し、アプリのアクセスをセキュリティで保護します。
 - Web リンクはすべて Intune Managed Browser 内で開きます。
 
-これらの一連のルールは[モバイル アプリ管理 (MAM) ポリシー](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)と呼ばれています。  MAM ポリシーは、場合によっては自分で管理できないデバイスで実行されているアプリに適用できます。  Intune に登録されているデバイス、他のサード パーティー MDM により登録され、管理されているデバイス、社員所有のデバイスなど、場合によっては自分で管理できないデバイスに MAM ポリシーを適用し、会社のデータを保護できます。
+これらの一連のルールは[モバイル アプリ管理 (MAM) ポリシー](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)と呼ばれています。  MAM ポリシーは、場合によっては自分で管理できないデバイスで実行されているアプリに適用できます。  
+
+**Intune に登録されている**デバイスや、**他のサード パーティー MDM により登録され、管理されている**デバイス、社員所有のデバイスなどの **MDM ソリューションに登録されていない**デバイスに MAM ポリシーを適用し、会社のデータを保護できます。
 
 アプリと MAM ポリシーを関連付けるには、アプリに Microsoft Intune App ソフトウェア開発キット (SDK) を組み込むか、アプリでアプリ ラッピング ツールを使用する必要があります。
 
@@ -51,6 +53,6 @@ Microsoft Office アプリのようなアプリには、アプリ SDK が組み�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

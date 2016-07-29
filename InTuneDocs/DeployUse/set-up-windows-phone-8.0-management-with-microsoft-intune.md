@@ -1,6 +1,6 @@
 ---
 title: "Windows Phone 8.0 の管理をセットアップする | Microsoft Intune"
-description: 
+description: "Microsoft Intune を使用して Windows Phone 8.0 デバイスのモバイル デバイス管理 (MDM) を有効にします。"
 keywords: 
 author: NathBarn
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 61e9b6c3-8795-49b0-8ab2-a9a05ee3ea1f
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eed5855f3e27460146703ddf40fd935229a974e5
-ms.openlocfilehash: 02f9b7c7abe2daf942299015bfdfb052755ec2de
+ms.sourcegitcommit: 5f336cf52cbecd93cb7b2850560327e6024302e0
+ms.openlocfilehash: 9f0c2493c5e852419b037eacd3bf2ce798fecd0a
 
 
 ---
@@ -183,6 +183,6 @@ Windows Phone ストアからインストールしなくても、Intune を使�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

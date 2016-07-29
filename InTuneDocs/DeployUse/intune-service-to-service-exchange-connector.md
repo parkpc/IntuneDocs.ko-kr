@@ -1,20 +1,20 @@
 ---
-title: "ホスト型 Exchange 用の Microsoft Intune Exchange Connector の構成 |Microsoft Intune"
-description: 
+title: "ホスト型 Exchange 用の Exchange Connector | Microsoft Intune"
+description: "Exchange ActiveSync モバイル デバイス管理 (MDM) をサポートするために、Intune を Office 365 Exchange サービスに接続する。"
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 05fa5dc9-9bad-4557-987a-9b8ce4edebb0
-ms.reviewer: jeffgilb
+ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6951ccdb0e37489217ef939f0cbf6fc1133a6d3c
-ms.openlocfilehash: 6cfc532cba2f53034c4c3ef0c2df3d6c1e6e7841
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: 63697222f024169d9450b9f4fea8c666353e72cc
 
 
 ---
@@ -58,12 +58,12 @@ Service to Service Connector は自動的に構成され、ホスト型 Exchange
 
 ## Exchange 接続の確認
 
-Exchange Connector の構成が正常に完了したら、Intune 管理コンソールで、**[管理]** ワークスペースを選択し、**[モバイル デバイス管理]** > **[Microsoft Exchange]** に進んで、**[Exchange の接続情報]** に表示される設定内容の詳細を確認します。
+Exchange Connector の構成が正常に完了したら、[Microsoft Intune 管理コンソール](http://manage.microsoft.com)で、**[管理]** を選択し、**[モバイル デバイス管理]** > **[Microsoft Exchange]** に進んで、**[Exchange の接続情報]** に表示される設定内容の詳細を確認します。
 
 また、前回いつ同期が完了したかも確認することができます。
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

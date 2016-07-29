@@ -1,10 +1,10 @@
 ---
-title: "電子メール プロファイルを使用して会社の電子メールへのアクセスを構成する | Microsoft Intune"
-description: 
+title: "電子メール プロファイルを使用して会社の電子メールにアクセスする | Microsoft Intune"
+description: "電子メール プロファイル設定は、モバイル デバイスの特定の電子メール クライアント用の電子メール アクセス設定を構成するために使用できます。"
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 05/05/2016
+manager: Arob98
+ms.date: 07/021/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 10f0cd61-e514-4e44-b13e-aeb85a8e53ae
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8a3df01e9c02af7c43cdadc6d202bc6d74a000da
-ms.openlocfilehash: d0fa235b7b25fe71a4e3b4b0bf68cd2db31b1f18
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: c7a3ca7b0390a001624871342c9aa04802be27ff
 
 
 ---
@@ -24,7 +24,7 @@ ms.openlocfilehash: d0fa235b7b25fe71a4e3b4b0bf68cd2db31b1f18
 
 追加のデータ損失防止 (DLP) が必要な場合は、[[条件付きアクセス]](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) を選択して、ネイティブ電子メール クライアントを含む任意の電子メール クライアントのユーザーのメールボックスへのアクセスを制御します。
 
-電子メール プロファイル設定は、モバイル デバイスの特定の電子メール クライアント用の電子メール アクセス設定を構成するために使用できます。   ほとんどのモバイル プラットフォームには、オペレーティング システムに付属の*ネイティブ*電子メール クライアントが含まれています。  サポートされるプラットフォームであれば、設定を行わなくても、個人のデバイスで社内の電子メールにアクセスできるように Microsoft Intune でネイティブ電子メール クライアントを構成できます。  
+電子メール プロファイル設定は、モバイル デバイスの特定の電子メール クライアント用の電子メール アクセス設定を構成するために使用できます。 ほとんどのモバイル プラットフォームには、オペレーティング システムに付属の*ネイティブ*電子メール クライアントが含まれています。  サポートされるプラットフォームであれば、設定を行わなくても、個人のデバイスで社内の電子メールにアクセスできるように Microsoft Intune でネイティブ電子メール クライアントを構成できます。  
 
 IT 管理者やユーザーは、Android または iOS 向け Microsoft Outlook などの代替電子メール クライアントをインストールすることもできます。  これらの電子メール クライアントは電子メール プロファイルに対応していない場合があり、Microsoft Intune の電子メール プロファイルを使用して構成することはできません。  
 
@@ -111,6 +111,6 @@ Intune で証明書プロファイルを作成および使用する方法の詳�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

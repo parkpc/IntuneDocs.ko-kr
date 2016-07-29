@@ -4,7 +4,7 @@ description: "Microsoft Intune の今月の新機能と過去のリリースの�
 keywords: 
 author: Lindavr
 manager: jeffgilb
-ms.date: 06/16/2016
+ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 79617dd41e51402a73759da792f581028095a2f5
-ms.openlocfilehash: 65e53ad6a74fbf0e9249c367f517ab52ea0efa80
+ms.sourcegitcommit: b8bff8951c8ced7656f007787d614fd277401fd0
+ms.openlocfilehash: 35612b07cf18d8038af51cdfac5146b9e8a876fc
 
 
 ---
@@ -22,92 +22,124 @@ ms.openlocfilehash: 65e53ad6a74fbf0e9249c367f517ab52ea0efa80
 # Microsoft Intune の新機能
 Microsoft Intune の今回のリリースの新機能について説明します。 また、過去のリリースに関する情報だけでなく、準備する必要がある今後の変更についても説明します。
 
-今回のリリースの新機能を次に示します。 Windows Defender ポリシー設定の更新を除き、すべての新機能は、ハイブリッド環境 (Configuration Manager と Intune) でもサポートされます。 最新のハイブリッド機能の詳細については、[ハイブリッド環境の新機能に関するページ](https://technet.microsoft.com/en-US/library/mt718155(TechNet.10).aspx)を参照してください。
+Intune に関して以下の機能が現在開発されています。 これらのすべての機能は、最終的にハイブリッド環境 (Configuration Manager と Intune の共存環境) でサポートされるようになります。 最新のハイブリッド機能の詳細については、[ハイブリッド環境の新機能に関するページ](https://technet.microsoft.com/en-US/library/mt718155(TechNet.10).aspx)を参照してください。
 
-## 2016 年 6 月
-### Intune のサービス正常性
-Intune のサービス正常性に関する情報は他の Microsoft サービスと共に中央の場所に移動されました。 そのため、この情報は Office 365 管理ポータルの [サービス正常性] で参照できるようになりました。 詳細については、[このブログ投稿](https://blogs.technet.microsoft.com/enterprisemobility/2016/04/28/intune-service-health-is-now-available-in-the-office-365-portal/)を参照してください。
 
+## 2016 年 7 月
 ## アプリ管理
-- **Windows 10 の強化されたエンタープライズ データ ポリシー構成のエクスペリエンス。** Windows 10 のエンタープライズ データ保護ポリシー構成のエクスペリエンスが、アプリ規則の作成、ネットワーク境界の定義の指定、その他のエンタープライズ データ保護の設定などにおいて強化されました。 詳細については、「[Create an enterprise data protection (EDP) policy using Microsoft Intune](https://technet.microsoft.com/itpro/windows/keep-secure/create-edp-policy-using-intune)」(Microsoft Intune を使用してエンタープライズ データ保護 (EDP) ポリシーを作成する) を参照してください。
+### アプリのプロビジョニング プロファイルの更新エクスペリエンスを向上
+Apple iOS 基幹業務モバイル アプリは、プロビジョニング プロファイルを含み、証明書で署名されたコードと共に構築されます。 iOS デバイスでアプリを実行すると、iOS により iOS アプリの整合性の確認と、プロビジョニング プロファイルで定義されたポリシーの施行が行われます。
 
+アプリの署名に使用するエンタープライズ署名証明書は、通常 3 年間は継続します。 ただし、プロビジョニング プロファイルは 1 年後に期限が切れます。 この更新により、証明書がまだ有効である期間中、Intune には、有効期限が近づいているアプリを持つデバイスに新しいプロビジョニング プロファイルのポリシーを事前に展開するツールが用意されます。 詳細については、「[Use iOS mobile provisioning profile policies to keep your line of business apps up to date (基幹業務アプリケーションを常に最新の状態に保つために iOS モバイル プロビジョニング プロファイル ポリシーを使用する)](/intune/deploy-use/ios-mobile-app-provisioning-profiles)」を参照してください。
+<!--- TFS 1280247--->
+### Intune アプリ用の Xamarin SDK の提供開始
+Intune アプリ SDK Xamarin コンポーネントを使用すると、Xamarin でビルドされたモバイル iOS および Android アプリで Intune のモバイル アプリ管理機能を有効にすることができます。 [Xamarin ストア](https://components.xamarin.com/view/Microsoft.Intune.MAM)または、[Microsoft Intune の Github ページ](https://github.com/msintuneappsdk)でコンポーネントを見つけることができます。
+<!--- TFS 1061478 --->
 
 ## デバイス管理
-- **望ましくない可能性があるアプリから保護するための Windows Defender ポリシー設定。** **望ましくない可能性があるアプリケーションの検出**という名前の新しい Windows Defender 設定が、Windows 10 Desktop と Mobile の全般構成ポリシーに追加されました。 この設定を使えば、Windows Defender によって望ましくない可能性があると判断されたソフトウェアの実行から、登録済みの Windows デスクトップ コンピューターを保護することができます。 このようなアプリケーションの実行からコンピューターを保護したり、望ましくない可能性があるアプリケーションがいつインストールされたのかを監査モードでレポートしたりできます。 詳細については、「[Microsoft Intune の Windows 10 ポリシー設定](https://docs.microsoft.com/en-us/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)」を参照してください。
-<!---TFS 1244478--->
+### デバイス登録数上限の増加
+Intune は、構成可能なデバイスの最大登録数をユーザーごとに 5 から 15 デバイスまで増加しました。
+<!---TFS 1289896 --->
 
-## 条件付きアクセス
-- **Intune の Cisco ISE ネットワーク アクセス制御ポリシー。**  Cisco Identity Service Engine (ISE) 2.1 と Microsoft Intune の両方を使用する場合、ISE でネットワーク アクセス制御ポリシーを設定できます。
 
-    このポリシーを使用すると、WiFi または VPN でネットワークに接続するデバイスは、アクセスが許可される前に、次の条件を満たすことが必要になります。
-
-    * Intune で管理されていること
-    * 展開されているすべての Intune コンプライアンス ポリシーに準拠していること
-
- 準拠していないデバイスのエンド ユーザーは、アクセスを取得するために、デバイスを登録することと、コンプライアンス関連の問題を修正することを求められます。
-- **ブラウザーの条件付きアクセス。** [Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md) と [SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md) 用の条件付きアクセス ポリシーを設定すると、管理下にあって、かつ条件を満たした iOS デバイスと Android デバイス上のサポートされる Web ブラウザーに、Exchange Online と SharePoint Online へのアクセスを限定することができます。 Outlook Web Access (OWA) や SharePoint サイトにエンド ユーザーが iOS または Android デバイスでサインインしようとすると、そのデバイスを Intune に登録するよう求めるメッセージが表示されます。また条件を満たしていないことが問題になっている場合は、その問題を解消してから、サインインを試行するように求められます。
-<!---TFS 1175844--->
-
-- **Dynamics CRM Online では、条件付きアクセスをサポートしています。** [Dynamics CRM Online](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md) 用の条件付きアクセス ポリシーを設定すると、管理下にあって、かつ条件を満たした iOS デバイスと Android デバイスに、Dynamics CRM Online へのアクセスを限定することができます。 Dynamics CRM モバイル アプリにエンド ユーザーが iOS または Android でサインインしようとすると、Intune に登録するよう求めるメッセージが表示されます。また条件を満たしていないことが問題になっている場合は、その問題を修正してから、サインインを試行するように求められます。
-<!---TFS1295358--->
 
 ## ポータル サイトの更新
+### ポータル Web サイト
+- **Windows デバイス登録時のエンドユーザー エクスペリエンスの向上**<br/>
+条件付きアクセスを使用している場合の、ポータル サイト Web サイトで Windows 8.1、Windows 10 デスクトップ、および Windows 10 Mobile の登録手順が明確化されました。 今後は、「デバイス登録」および「社内参加」の手順が個別に表示されます。そのため、社内参加 (WPJ) の失敗後にデバイスの状態を確認し プロセスを完了することが簡単になります。 この手順の分離により、IT 管理者のトラブルシューティングのプロセスも簡略化されることが見込まれます。 これまで、エンド ユーザーが登録しようとして、WPJ を除くすべての登録が成功した場合、登録されたデバイスがデバイス一覧に表示されないため識別できず、ユーザーの混乱の原因となっていました。
 
-### Android 用ポータル サイト アプリ
+### Android
+- **Android 用ポータル サイト アプリ**<br/>
+Android エンド ユーザーに自分のデバイスに必要な証明書がないことを示すエラー メッセージが表示される場合、[How to resolve this] (この問題解決する方法) ボタンをタップすると、欠落している証明書をインストールするための[手順](/intune/enduser/your-device-is-missing-a-required-certificate-android#your-device-is-missing-a-certificate-required-by-your-it-administrator)を取得できます。 ユーザーが手順を完了しても、追加の「証明書が見つかりません」というエラー メッセージが表示される場合は、IT 管理者に連絡し、この[リンク](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune#android-certificate-issues)を提供することが求められます。このリンクには、証明書の問題を解決するために IT 管理者が使用できる手順が含まれています。
 
-- IT 管理者が新しい [不明なソースからのアプリのインストールをデバイスが禁止することを必須にする (Android 4.0 以上)] ポリシーを適用すると、Android 4.0 以降のデバイスを使用するエンド ユーザーには、"不明なソースからのインストールを無効にする必要があります" というメッセージが表示されます。 ユーザーは、**[設定]** > **[セキュリティ]** を選択し、**[不明なソース]** を無効にする必要があります。 ユーザーは、コンプライアンス メッセージのリンクをクリックして、メッセージと、設定を無効にする必要がある理由に関する詳細[情報](/Intune/EndUser/you-are-asked-to-turn-off-unknown-sources-android)を確認できます。
+- **登録済みデバイスへのサイド ロード アプリのインストールの制限**<br/>
+Android 用 Intune ポータル サイト アプリを使用してデバイスを Intune に登録している場合を除き、Android デバイスは、ポータル サイト Web サイトを通じてアプリケーションをインストールすることができなくなります。
+<!---TFS 1299082--->
 
-- IT 管理者が新しい [セキュリティ上の脅威に対してデバイスがアプリのスキャンを有効にすることを必須にする (Android 4.0 以上)] ポリシーを適用すると、Android 4.0 以降のデバイスを使用するエンド ユーザーには、"端末をスキャンしてセキュリティ上の脅威を確認" というメッセージが表示されます。 ユーザーは、**[設定]** > **[Google]** > **[セキュリティ]** を選択し、**[端末をスキャンしてセキュリティ上の脅威を確認]** をオンにする必要があります。 ユーザーは、コンプライアンス メッセージのリンクをクリックして、メッセージと、設定を有効にする必要がある理由に関する詳細[情報](/Intune/EndUser/you-are-asked-to-turn-on-scan-device-for-security-threats-android)を確認できます。
+### iOS
+- **iOS ポータル サイト アプリのデバイス登録マネージャー アカウントへの変更**<br/>
+パフォーマンスと拡張性を高めるために、Intune において、iOS のポータル サイト アプリの [**デバイス**] ウィンドウには今後、デバイス登録マネージャー (DEM) のデバイスの一部が表示されなくなります。 アプリを実行しているローカル デバイスのみ、ポータル サイト アプリ経由で登録されている場合にだけ表示されます。
 
-- IT 管理者が新しい [USB デバッグの無効化を必須にする (Android 4.2 以上)] ポリシーを適用すると、Android 4.2 以降のデバイスを使用するエンド ユーザーには、"USB デバッグを無効にする必要があります" というメッセージが表示されます。 ユーザーは、**[設定]** > **[開発者オプション]** を選択し、**[USB デバッグ]** を無効にする必要があります。 ユーザーは、コンプライアンス メッセージのリンクをクリックして、メッセージと、設定を無効にする必要がある理由に関する詳細[情報](/Intune/EndUser/you-are-asked-to-turn-off-usb-debugging-android)を確認できます。
+    ローカル デバイスに対する操作は DEM で実行できますが、他の登録デバイスのリモート管理は、Intune 管理コンソールから実行する必要があります。 また、Apple Device Enrollment Program または Apple Configurator ツールでの DEM アカウントの使用は廃止されます。 共有 iOS デバイスに関しては、どちらの登録手段も既にユーザーレスの登録がサポートされています。
 
-- IT 管理者が新しい [最低限の Android セキュリティ パッチ レベル (Android 6.0 以上)] ポリシーを適用すると、Android 6.0 以降のデバイスを使用するエンド ユーザーには、"このデバイスは Android の最小セキュリティ パッチ レベルを満たしていません" というメッセージが表示されます。 ユーザーは必要なセキュリティ パッチをインストールする必要があります。 ユーザーは、コンプライアンス メッセージのリンクをクリックして、必要なセキュリティ パッチをインストールする方法と、現在インストールされているセキュリティ パッチに関する[情報](/Intune/EndUser/you-are-asked-to-turn-on-scan-device-for-security-threats-android)を確認できます。
+    共有デバイスのユーザーレスの登録が利用できない場合のみ DEM アカウントを使用してください。 詳細については、「[Microsoft Intune のデバイス登録マネージャーを使用した企業所有のデバイスの登録](https://docs.microsoft.com/en-us/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)」を参照してください。
+<!---TFS 1233681--->
 
-### iOS ポータル サイト アプリ
-
-- エンド ユーザーが基幹業務アプリをインストールするときの操作性が向上しています。 アプリのインストールに時間がかかる場合、ユーザーがデバイスを手動で同期させることによって、強制的に同期処理を再開することができます。 エンド ユーザー向けの手順については、「[デバイスを手動で同期する](/Intune/EndUser/sync-your-device-manually-ios)」を参照してください。
-
-- iOS 向けの Microsoft Intune ポータル サイト アプリが更新され、iOS Version 8.0 以降をサポートするようになりました。 この更新は、デバイスで iOS Version 8.0 以降が実行されている場合にのみ、エンド ユーザーがポータル サイト アプリをインストールして Intune に新しいデバイスを登録できることを意味します。 サポートされていないバージョンの iOS が実行されているデバイスを登録済みの場合、ユーザーはそのデバイス上のポータル サイト アプリを引き続き使用できます。
-
+## Windows 機能の名前の変更
+- [Microsoft Passport for Windows](/intune/deploy-use/control-microsoft-passport-settings-on-devices-with-microsoft-intune) は **Windows Hello for Business** と呼ばれるようになりました。
+- [エンタープライズ データ保護](https://technet.microsoft.com/itpro/windows/keep-secure/create-edp-policy-using-intune)は **Windows Information Protection** と呼ばれるようになりました。
 
 ## 今後の更新情報
+### Intune グループから Azure Active Directory グループへの移行 (2016年 8 月以降)
+Intune は、Azure Active Directory (AAD) のセキュリティ グループを使用する、新しいグループ管理エクスペリエンスを作成しています。 これらの Azure AD ベースのセキュリティ グループは、ユーザーとデバイスの両方を含めることができ、新しい Azure ベースの Intune 管理ポータルの導入時に、すべてのグループの管理、ポリシーの展開、およびプロファイルの展開に使用されます。
+
+この新しいエクスペリエンスによって、以下のことが実現します。
+- サービス間でグループを複製する必要から解放されます。
+- 新しい Azure Active Directory Premium (AADP) グループ機能の一部を利用できます。
+- PowerShell および Graph を使用して拡張機能を提供します。
+- エンタープライズ モビリティ管理で、グループ管理のエクスペリエンスが統合されます。
+
+セキュリティ グループへの移行を有効にするため、現在の管理コンソールのエクスペリエンスにいくつかの変更が施されます。 これらの変更と、Azure AD セキュリティ グループの使用は、Intune のドキュメントに記録されます。
+
+Intune の新規のお客様には、現在のテナントに表示される前に、セキュリティ グループの変更の一部が表示されます。
+
+グループ管理の変更に加えて、次の機能が廃止される予定です。
+- 新規グループ作成時のメンバーまたはグループの除外
+- **グループ化を解除されたユーザー**と**グループ化を解除されたデバイス**のグループ
+- サービス管理者の役割での**グループの管理**
+- 通知ルールに対するカスタム グループベースの警告
+- レポート内のグループのピボット
+
+これら機能廃止を緩和する方法の詳細については、8 月にリリースされます。
+
+### Android 用ポータル サイトへの '通知' の追加
+Microsoft は、Android 用ポータル サイトに対する更新を 8 月にリリースし、ホームページ上に新しい**通知**アイコンを導入します。 このアイコンをタップすると、**通知**ページにアクセスし、デバイスのコンプライアンス非対応、登録の更新、および登録のアクティブ化などのポータル サイト アプリで注意が必要なすべての項目をエンド ユーザーに表示します。 iOS 用ポータル サイト アプリも使用している場合は、通知エクスペリエンスがすでに表示されます。 **通知**ページの導入に伴い、デバイスがすでに登録されている限り、Android 用ポータル サイトを起動または再開するたびに**会社アクセスのセットアップ**ページが表示されることはなくなります。 Microsoft は、多くのお客様がエンドユーザー ガイダンスを作成していることを把握しており、ガイダンスとスクリーンショットの更新が必要になる場合に事前に通知くださることに感謝いたします。 ドキュメントに今後のエクスペリエンスの変更を反映し、更新してください。 最新のスクリーンショットは、 https://aka.ms/androidcpupdate でご確認いただけます。  
+
+
 
 ### クラウドのロードマップ
 [クラウド プラットフォームのロードマップ](http://www.microsoft.com/en-us/server-cloud/roadmap/Indevelopment.aspx?TabIndex=0&dropValue=Intune)では、Intune の今後の開発に関する情報を入手できます。
 
 ### 廃止予定のサービス
-- **Intune Viewer アプリ。** 新しい RMS 共有アプリのリリースに伴い、2016 年 8 月以降、次の Intune Viewer アプリを削除する予定です。
+- **iOS ポータル サイト アプリのサポートの変更**<br/>
+7 月には、iOS 用 Microsoft Intune ポータル サイト アプリのすべてのユーザーが、アプリの最新バージョンを使用するように要求されます。 新しいユーザーは最新バージョンのみをダウンロードでき、現在のユーザーは最新バージョンへの更新を求められます。 最新バージョンを使用するには iOS 8.0 以降が必要であり、デバイスで以前の iOS バージョンを実行している場合は、デバイスを iOS 8.0 以降に更新したうえでポータル サイト アプリを最新バージョンに更新するまで、ポータル サイトを使用できず、登録することもできません。 iOS 8.0 以前のバージョンを実行している登録済みのデバイスは、引き続き管理対象であり、Intune 管理コンソールに表示されます。  
+
+- **iOS Managed Browser の最小バージョンの 8.0 への更新**<br/>
+8 月、Intune は iOS 8.0 以降を実行するデバイスのみをサポートする、iOS 用の最新の Microsoft Intune Managed Browser アプリをリリースします。 iOS 7.1 デバイスでは、既存の Managed Browser アプリを使用することができますが、新しい Managed Browser の機能にアクセスしてフル活用できるように、ユーザーに iOS 8.0 以降に更新することをお勧めしてください。  
+<!---TFS 1313253--->
+
+- **Windows 8 および Windows Phone 8 用のポータル サイト アプリは、2016 年 9 月以降非推奨になります** <br/>
+Microsoft Intune は、2016 年 9 月以降、Windows Phone 8 および Windows 8 プラットフォーム用 Microsoft Intune ポータル サイト アプリのサポートを終了します。 デバイスを Windows 8.1 および Windows Phone 8.1 に更新し、対応する Windows 8.1 および Windows Phone 8.1 のポータル サイト アプリを使用して、更新したデバイスへのアプリの配布を続行します。
+<!---TFS 1255391--->
+
+- **Intune Viewer アプリ** <br/>
+新しい RMS 共有アプリのリリースに伴い、2016 年 8 月以降、次の Intune Viewer アプリを削除する予定です。
     - Intune AV Viewer
     - Intune PDF Viewer
     - Google Play の Android 用 Intune Image Viewer
 
-  Intune Viewer アプリを使用する代わりに、Android 用の新しい Rights Management アプリ (RMS 共有) を使用することをお勧めします。そうすることで、3 つのアプリを個別にではなく、1 つのアプリを展開して、Android デバイス上の企業ファイルを安全に表示することができます。
+  Intune Viewer アプリを使用する代わりに、[Android 用の新しい Rights Management アプリ (RMS 共有) ](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)を使用することをお勧めします。そうすることで、3 つのアプリを個別にではなく、1 つのアプリを展開して、Android デバイス上の企業ファイルを安全に表示することができます。 Intune Viewer アプリがサポートされなくなると、Google ストアから削除され、その後使用することができなくなります。
 
-- **カスタム グループを対象とした通知規則の廃止。**
-Intune の通知規則では、Intune からの電子メール アラートの送信先が定義されます。 現時点では、作成した Intune デバイス グループ内のデバイスのすべてのユーザーに電子メールを送信するように通知規則を構成することができます。 2016 年 6 月 1 日頃以降、ユーザーが作成したグループを対象とすることはできなくなります。
+<!--- - **Custom Group Targeting of Notification Rules Removal.**<br/>
+Intune notification rules define who an email alert will be sent to from Intune. Currently, you can configure notification rules to send emails to all users of devices in an Intune device group that you created. From around June 1st 2016 moving forward, targeting user-created groups will no longer be supported.
 
-    現在、Microsoft Intune 管理コンソールから作成したグループを通知規則の対象とするには、以下の手順を実行します。
+    Today, to target a notification rule to a group you created from the Microsoft Intune administration console, you would take the following steps:
 
-    **[管理者]** ワークスペースで、**[通知規則]** > **[新しい規則の作成]** の順にクリックします。
+    In the **Admin** workspace, click **Notification Rules** > **Create New Rule**
 
-    通知規則の作成ウィザードの手順 2. で、規則の対象とするデバイス グループを選択します。 この "デバイス グループの選択" の手順は Intune コンソールから削除されます。
+    In step two of the Create Notification Rule Wizard, select the device groups which the rule will target. This step, “select device groups”, is being removed from the Intune Console.
 
-    この変更に向けた準備は次のように予定されています。
-    - 2016 年 8 月に、新しいテナントでは通知規則の作成ウィザードの手順 2 が表示されなくなります。 既存のテナントは影響を受けません。
-    - 2016 年 9 月頃に、既存の一部のテナントではウィザードの "デバイス グループの選択" が表示されなくなります。
-    - 2016 年 11 月頃には、すべてのテナントでウィザードの "デバイス グループの選択" が表示されなくなる予定です。
+    The preliminary timeline for this change is as follows:
+    - In August, 2016, new tenants will not see step two of the Create Notification Rule Wizard. Exiting tenants are unaffected.
+    - Around September, 2016, some existing tenants will not see the “select device groups” in the wizard.
+    - Around November, 2016, we expect that all tenants will not see the “select device groups” in the wizard.
 
-
-- **iOS ポータル サイト アプリのサポートの変更**。 7 月には、iOS 用 Microsoft Intune ポータル サイト アプリのすべてのユーザーが、アプリの最新バージョンを使用するように要求されます。 新しいユーザーは最新バージョンのみをダウンロードでき、現在のユーザーは最新バージョンへの更新を求められます。 最新バージョンを使用するには iOS 8.0 以降が必要であり、デバイスで以前の iOS バージョンを実行している場合は、デバイスを iOS 8.0 以降に更新したうえでポータル サイト アプリを最新バージョンに更新するまで、ポータル サイトを使用できず、登録することもできません。 iOS 8.0 以前のバージョンを実行している登録済みのデバイスは、引き続き管理対象であり、Intune 管理コンソールに表示されます。
-
-
+--->
 
 
 
 ## 以前の Intune のリリース
 過去 6 か月間に公開された Intune のリリースについては、「[以前の Intune のリリース](previous-intune-releases.md)」の記事をご覧ください。
-
-
 
 ### 関連項目
 * [Microsoft Intune のブログ](http://go.microsoft.com/fwlink/?LinkID=273882)
@@ -115,6 +147,6 @@ Intune の通知規則では、Intune からの電子メール アラートの�
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

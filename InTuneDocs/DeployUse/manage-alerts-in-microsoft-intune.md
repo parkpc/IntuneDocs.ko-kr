@@ -1,10 +1,10 @@
 ---
 title: "アラートを管理する | Microsoft Intune"
-description: 
+description: "[アラート] ワークスペースを使って、組織にあるデバイスの全体的なヘルスを評価する。"
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: Arob98
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
-ms.openlocfilehash: bfea7213f67b55807045bfd8b29fdb083b841a56
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: 47667501cf8235ed59e3915ec8f745381a37ab35
 
 
 ---
@@ -108,6 +108,6 @@ Intune のアラートは、次のいずれかのイベントが発生するま�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

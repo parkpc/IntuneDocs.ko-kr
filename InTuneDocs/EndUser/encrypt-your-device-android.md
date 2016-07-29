@@ -1,9 +1,9 @@
 ---
 title: "デバイスを暗号化する |Microsoft Intune"
-description: 
+description: "Android デバイスを暗号化する方法について説明します"
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/07/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 39bcea03cad061e5b84e073cc5affcdd14fc6015
-ms.openlocfilehash: 22e9071171d2dc63562e94cabe2abdec3b2bd85e
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: a69d4c3432867e3b4a808d71645d6a976a9f1c2e
 
 
 ---
@@ -40,7 +40,7 @@ ms.openlocfilehash: 22e9071171d2dc63562e94cabe2abdec3b2bd85e
 
 **対処方法**: デバイスで PIN やパスワードが設定されていることを確認します。
 
-サポートが必要な場合は、 IT 管理者にお問い合わせください。 連絡先情報については、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください。
+サポートが必要な場合は、 IT 管理者に問い合わせるか (連絡先情報については[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください)、または Microsoft Android チーム (wintunedroidfbk@microsoft.com) にご連絡ください。
 
 ### 関連項目
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
@@ -48,6 +48,6 @@ ms.openlocfilehash: 22e9071171d2dc63562e94cabe2abdec3b2bd85e
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

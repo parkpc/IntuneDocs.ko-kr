@@ -1,26 +1,27 @@
 ---
-title: "デバイスを手動で同期する | Microsoft Intune"
+title: "Windows デバイスを手動で同期する | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/18/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 443c6de7-5187-4dc4-b844-6085a0c659bd
+ROBOTS: noindex,nofollow
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: fbe46abe0b13e8972a5e9fa09566dff0c09b9939
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 17b0583403c3e23c62a5bd60b9c8217b0621fa80
 
 
 ---
 
 
-# デバイスを手動で同期する
+# Windows デバイスを手動で同期する
 アプリのインストールに時間がかかりすぎる場合は、次の手順に従って Windows デバイスを手動で同期すると、インストールの高速化に役立つことがあります。 一覧にあるバージョンのみがサポートされています。 お使いのデバイスの種類に対応する、上記「この記事の内容」セクションに示されているリンクを使用してください。
 
 * [[Windows] 10 Mobile](#windows-10-mobile)
@@ -98,6 +99,6 @@ ms.openlocfilehash: fbe46abe0b13e8972a5e9fa09566dff0c09b9939
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

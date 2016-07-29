@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: ポリシーを作成してアプリを発行する | Microsoft Intune
-description:
-keywords:
+title: "ポリシーを作成してアプリを発行する | Microsoft Intune"
+description: "ポリシーを作成し、Intune サブスクリプションのサンプル アプリを発行する方法を説明します"
+keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: e0d8e98f-7dd8-4cbf-887c-a9af63ffe970
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: d079452cb41ca8b37c292d75a606eb72ba5304df
+
 
 ---
 
@@ -29,11 +23,6 @@ ms.suite: ems
 モバイル デバイスのセキュリティ設定を制御したり、コンピューターの Windows ファイアウォールや Endpoint Protection の設定を管理したり、アプリケーションを展開したりする作業は、Intune のポリシー設定を使用して効率的に行うことができます。 詳細については、「[Microsoft Intune ポリシーを使用してデバイスの設定と機能を管理する](/Intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies)」および「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](/Intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)」を参照してください。
 
 Intune で実行できるアプリのインストールには 2 種類あります。 1 つは " **必須のインストール**" です。この場合アプリは、管理対象コンピューターに自動的に展開されます。 もう 1 つは "**利用可能なインストール**" です。この場合、Intune ポータル サイトにアプリ (またはアプリへのリンク) が展開され、コンピューターとモバイル デバイスのどちらにインストールするかをユーザーが選択できます。
-
-<!-- this section really isn't necessary and confuses a lot of people because most mobile device apps aren't licensed this way (and our licensing/reporting features aren't super helpful). I think it's best to avoid this during a quick start guide.
-
-Before using Intune to deploy apps, make sure that you have the appropriate licenses to publish, distribute, and use the app. The Licenses workspace lets you add and manage license agreement information for apps or software purchased through Microsoft Volume Licensing agreements, and for Microsoft or non-Microsoft software that was purchased by other means. You can then create license reports that display managed license usage information throughout your company to stay informed of license usage activity.
--->
 
 次の手順では、モバイル デバイスの構成ポリシーと PC の Windows ファイアウォール ポリシーを設定し、登録済みのモバイル デバイスに対する "利用可能なインストール" として Skype を構成できます。
 
@@ -53,7 +42,11 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 
 4.  ポリシーの作成対象とするプラットフォームをポリシーの一覧で展開し、**[全般構成]** > **[推奨設定を使用してポリシーを作成および展開する]** > **[ポリシーを作成する]** の順に選択します。
 
-5.  **このポリシーを展開するグループを選択する**よう求められたら、利用可能なグループの一覧から **[Intune Users]** (前の手順で作成したグループ) を選択し、**[追加]** > **[OK]** の順に選択します。
+> [!NOTE]
+> 選択できる多くのオプションがあるため、デバイスの構成ポリシーの推奨される設定はありません。 カスタムのデバイス構成ポリシーを作成する必要があります。
+
+
+5.  **どのグループにポリシーを展開するか選択**するように求められたら、選択可能なグループのリストから 1 つのグループを選び、**[追加]** > **[OK]** の順に選択します。
 
 ポリシーが構成ポリシーの一覧に表示され、**Intune Users** グループに展開されます。 ポリシーをダブルクリックしてその設定を表示します。
 
@@ -63,7 +56,8 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 
     ![admin-console-apps-workspace](./media/apps.png)
 
-    > [!NOTE] **Intune ソフトウェア パブリッシャー**を初めて起動するときは、アプリケーションがインストールされるため、しばらく時間がかかることがあります。
+    > [!NOTE]
+    > **Intune ソフトウェア パブリッシャー** を初めて起動するときは、アプリケーションがインストールされるため、しばらく時間がかかることがあります。
 
 2.  セキュリティの警告を確認し、**[実行]** を選択します。
 
@@ -114,6 +108,7 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 >[&larr;**ユーザーとデバイスを整理する**](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)       [**ポータル サイトをカスタマイズする** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-7.md)  
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jul16_HO3-->
 
 

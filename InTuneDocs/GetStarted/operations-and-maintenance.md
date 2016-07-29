@@ -1,6 +1,6 @@
 ---
 title: "操作とメンテナンス | Microsoft Intune"
-description: 
+description: "Intune 展開の操作とメンテナンス フェーズに関する推奨事項。"
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: f46fb18e-228c-4a2d-92e7-20734e9bdae3
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
-ms.openlocfilehash: a26de5f97800d8cac0c52c87014c75402460fee4
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: bb56739542eaeb8b86c174f3081da3086c0f4717
 
 
 ---
@@ -80,6 +80,6 @@ Intune コンソールでアラートおよびユーザーやデバイスの問�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

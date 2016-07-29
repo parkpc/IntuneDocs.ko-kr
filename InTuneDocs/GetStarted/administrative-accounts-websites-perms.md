@@ -1,9 +1,9 @@
 ---
-title: "Microsoft Intune の管理者アカウント、Web サイト、アクセス許可 | Microsoft Intune"
-description: 
+title: "管理者アカウント、Web サイト、アクセス許可 | Microsoft Intune"
+description: "管理アカウント、アクセス許可、Web サイト"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: db3075e7-38fd-4dfe-b266-26aed10ac8ea
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: a8d9cf5d36107c54b97d2b5a5250645dc735a8da
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 88bd3f329a6b0d137f8cf02f5221263b64a33141
 
 
 ---
@@ -94,6 +94,6 @@ Intune を管理するには、以下を使用します。
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

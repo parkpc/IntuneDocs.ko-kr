@@ -9,7 +9,7 @@
 ### [[ポータル サイト]](microsoft-intune-company-portal.md)
 ### [Microsoft クラウド サービスおよび製品との統合](integration-with-cloud-services.md)
 ### [ネットワーク帯域幅の使用量](network-bandwidth-use.md)
-### [ドメイン名](domain-names-for-microsoft-intune.md)
+### [カスタム ドメイン名](domain-names-for-microsoft-intune.md)
 
 ## [Intune のクイック スタート ガイド](start-with-a-paid-subscription-to-microsoft-intune.md)
 ### [Intune にサインインする](start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
@@ -39,6 +39,6 @@
 # [トラブルシューティング](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO3-->
 
 
