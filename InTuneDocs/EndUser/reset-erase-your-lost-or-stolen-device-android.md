@@ -3,8 +3,8 @@ title: "紛失したまたは盗難にあった Android デバイスをリセッ
 description: 
 keywords: 
 author: staciebarker
-manager: arob98
-ms.date: 05/31/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 9797eb4b7b18527d13fc1f0a9cbcc900d76dc54f
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: d9f31b48fb1b44a0bdf07a6eee3fe5b19f7bf610
 
 
 ---
@@ -27,12 +27,12 @@ Intune に登録されている携帯電話が紛失や盗難にあった場合�
 
 デバイスをリセットした場合の影響については、「[ポータル サイトを使用してデバイスをリセットするとどうなるか](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)」をご覧ください。
 
-> [!WARNING] 
+> [!WARNING]
 > デバイスを出荷時の状態にリセットすることで、私的な情報と仕事や学校の情報の両方をデバイスから削除することができます。
 
 ## 会社のポータル アプリからデバイスをリセットするには
 
-1.  ブラウザーで、[会社のポータル Web サイト](http://portal.manage.microsoft.com)を開き、職場や学校のアカウントにサインインします。
+1.  登録済みの別のデバイスから、会社のポータル アプリを開き、お使いの会社や学校のアカウントを使用してサインインします。
 
 2.  **[デバイス]** をタップして、紛失または盗難にあったデバイスの名前を選びます。
 
@@ -42,7 +42,7 @@ Intune に登録されている携帯電話が紛失や盗難にあった場合�
 
 次の手順を使用するか、このビデオをご覧いただけます。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=K-Vi7lNfaMk&feature=youtu.be" frameborder="0" allowfullscreen></iframe> 
+<iframe width="675" height="379" src="https://www.youtube.com/embed/6e73o7f8gxE" frameborder="0" allowfullscreen></iframe>
 
 1.  ブラウザーで、[会社のポータル Web サイト](http://portal.manage.microsoft.com)を開き、職場のアカウントにサインインします。
 
@@ -57,7 +57,6 @@ Intune に登録されている携帯電話が紛失や盗難にあった場合�
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

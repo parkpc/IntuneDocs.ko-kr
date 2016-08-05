@@ -3,8 +3,8 @@ title: "USB ケーブルを使用して診断データのログを IT 管理者�
 description: 
 keywords: 
 author: staciebarker
-manager: arob98
-ms.date: 07/20/2016
+manager: angrobe
+ms.date: 07/26/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f1fd60348f5e18344a2ce63311cef7a551f355d3
-ms.openlocfilehash: b1bec5b968c0fa3a86e08801d9802ba443cf01d6
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 6cd0c267dc93d08369ecfb10939af8140b3c57e9
 
 
 ---
@@ -25,7 +25,9 @@ ms.openlocfilehash: b1bec5b968c0fa3a86e08801d9802ba443cf01d6
 
 問題について問い合わせるために IT 管理者にデータのログを送信する場合は、モバイル デバイスからログを送信する代わりに、コンピューターと USB ケーブルを使用してログを送信できます。 次に手順を示します。
 
-1.  開始する前に、IT 管理者の電子メール アドレスがわかっていることを確認します。 通常は、ポータル サイト Web サイトか、またはポータル サイト アプリに表示されます。
+1.  エラー画面で、**[情報の送信]** をタップします。 ログを送信する方法を確認するメッセージが表示されたら、デバイスにファイルを保存するオプションを選択します。
+
+2.  開始する前に IT 管理者の電子メール アドレスを確認してください。通常は、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)またはポータル サイト アプリに表示されます。
 
 2.  USB ケーブルを使用して、Android デバイスをコンピューターに接続します。
 
@@ -39,6 +41,7 @@ ms.openlocfilehash: b1bec5b968c0fa3a86e08801d9802ba443cf01d6
 [Android デバイスを Intune で使用する](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

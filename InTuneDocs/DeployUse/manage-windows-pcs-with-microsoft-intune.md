@@ -1,26 +1,26 @@
 ---
-title: "Intune PC クライアントを使用して Windows PC を管理する | Microsoft Intune"
-description: 
+title: "Intune クライアントを使用して Windows PC を管理する | Microsoft Intune"
+description: "Intune クライアント ソフトウェアをインストールして Windows PC を管理します。"
 keywords: 
 author: nathbarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 3b8d22fe-c318-4796-b760-44f1ccf34312
-ms.reviewer: jeffgilb
+ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e09381bbcf073baa67a431546059272e629b5423
-ms.openlocfilehash: d22714f7b6eda1632892785568463fc5bafce8d0
+ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
+ms.openlocfilehash: b01354b62507b9843b53cc4b2c8c1e82a6c422e5
 
 
 ---
 
 # Intune PC クライアント ソフトウェアを使用して Windows PC を管理する
-[モバイル デバイスとして Windows PC を登録する](set-up-windows-device-management-with-microsoft-intune.md)代わりに、Intune クライアント ソフトウェアをインストールして Windows PC を管理することができます。 
+[モバイル デバイスとして Windows PC を登録する](set-up-windows-device-management-with-microsoft-intune.md)代わりに、Intune クライアント ソフトウェアをインストールして Windows PC を管理することができます。
 
 Intune では、Windows Server における Active Directory ドメイン サービス (AD DS) グループ ポリシー オブジェクト (GPO) と似た方法でポリシーを使用して Windows PC を管理します。 Active Directory ドメインに参加しているコンピューターを Intune で管理する場合は、[Intune のポリシーが組織で設定されているどの GPO とも競合しないようにしてください](resolve-gpo-and-microsoft-intune-policy-conflicts.md)。
 
@@ -86,6 +86,6 @@ Intune のクライアント エージェントは通常、ユーザー操作や
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

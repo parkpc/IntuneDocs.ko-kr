@@ -3,8 +3,8 @@ title: "Azure ポータルの MAM ポリシー対応 | Microsoft Intune"
 description: "Azure ポータルを使用してモバイル アプリ管理ポリシーを作成します。 ここで作成したポリシーは、Intune に登録されているデバイスにも未登録のデバイスにも適用できます。"
 keywords: 
 author: karthikaraman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 7d6dae94-a833-40b7-9016-14ea234bb33c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 359f76daa35a14e4107a9e03c6a1b1f4d1215777
-ms.openlocfilehash: c466a854474c1c5ba3270f848caa51edcd5b6856
+ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
+ms.openlocfilehash: 22aea1a9a2ff55ae7a8a115fae31b1358305a4a5
 
 
 ---
@@ -40,13 +40,13 @@ Azure ポータルでは、次の MAM ポリシーの作成をサポートして
 
     ![Azure ポータルのログイン ページのスクリーンショット](../media/AppManagement/AzurePortal_MAMSigninPage.png)
 
-2.  正常にサインインすると、**ダッシュボード**が開きます。 **ダッシュボード** ページには、既定のタイルのセットが用意されています。これらのタイルを削除したり新しいタイルを追加したりして、ページをカスタマイズできます。
+2.  正常にサインインすると、**ダッシュボード**が開きます。 **ダッシュボード** ページはカスタマイズできます。
 
     ![Azure ポータルのダッシュボードのスクリーンショット](../media/AppManagement/AzurePortal_MAMStartboard_NoMAM.png)
 
 3.  **[参照]** メニューで、**[Intune]** を探します。![[Intune] が強調表示されている [参照] メニューのスクリーンショット](../media/AppManagement/AzurePortal_MAM_Browse_Intune.png)
 
-4.  **[Intune]、[Intune モバイル アプリケーション管理]、[設定]** の順にクリックします。
+4.  **[Intune]、[Intune モバイル アプリケーション管理]、[設定]** の順に選択します。
 
     ![[Intune モバイル アプリケーション管理] ブレードのスクリーンショット](../media/AppManagement/AzurePortal_MAM_Mainblade.png)
 
@@ -61,6 +61,6 @@ Azure ポータルでは、次の MAM ポリシーの作成をサポートして
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,8 +3,8 @@ title: "SCEP の証明書インフラストラクチャを構成する | Microso
 description: "SCEP 証明書プロファイルを作成および展開するためのインフラストラクチャ。"
 keywords: 
 author: nbigman
-manager: Arob98
-ms.date: 05/16/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 4ae137ae-34e5-4a45-950c-983de831270f
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: e7d6bc1e06217237a79c547c9b449c1fc16aeed4
+ms.sourcegitcommit: 5b9d201200d2b18553778ba2234831854658c6c2
+ms.openlocfilehash: 1f8e692e1938822342fda399df3832d2749de7c3
 
 ---
 # SCEP の証明書インフラストラクチャを構成する
@@ -44,6 +44,8 @@ I
 インターネットから境界ネットワークまでを範囲として、インターネット上のあらゆるホスト/IP アドレスから NDES サーバーへの送信にポート 443 を割り当てます。
 
 境界ネットワークから信頼されたネットワークまでを範囲として、ドメイン参加 NDES サーバーのドメイン アクセスに必要なすべてのポートとプロトコルを割り当てます。 NDES サーバーは、証明書サーバー、DNS サーバー、構成マネージャー サーバー、ドメイン コントローラーへのアクセス許可を必要とします。
+
+NDES サーバーは、[Azure AD アプリケーション プロキシ](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-publish/)、[Web アクセス プロキシ](https://technet.microsoft.com/en-us/library/dn584107.aspx)、サード パーティ製のプロキシなどのプロキシを通じて公開することをお勧めします。
 
 
 ### <a name="BKMK_CertsAndTemplates"></a>証明書とテンプレート
@@ -347,6 +349,6 @@ NDES サーバーで証明書コネクタをダウンロードし、インスト
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

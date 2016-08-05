@@ -3,7 +3,7 @@ title: "PSK を使用した Wi-Fi |Microsoft Intune"
 description: "カスタム構成を使用して、事前共有キーを使用した Wi-Fi プロファイルを作成します。"
 keywords: 
 author: nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: afdd0c3569c0c294a9bef47755de2d9e77e7507d
+ms.sourcegitcommit: 8fe47a5843414fbe4add7f77df63c0d6466273cd
+ms.openlocfilehash: f15fce6890d6e5850d12115a97bf7331ce515508
 
 
 
@@ -40,12 +40,15 @@ Intune の**カスタム構成**を使用して、事前共有キーを使用し
 
    c.   **データ型**: "String(XML)" に設定
 
-   d.   **OMA-URI**: ./Vendor/MSFT/Wi-Fi /Profile/<SSID>/Settings
+   d.   **OMA-URI**: 
+        
+- **Android の場合**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
+- **Windows の場合**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
 
 注: 先頭にピリオドを必ず入力してください。
 
 SSID は、作成しているポリシーの SSID です。 例:
-`./Vendor/MSFT/Wi-Fi/Profile/Hotspot-1/Settings`
+`./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`
 
   e.    値フィールド: ここに XML コードを貼り付けます。 次に例を示します。 それぞれの値は、ネットワーク設定に適したものにする必要があります。 一部のポインターのコードについては、コメント セクションをご覧ください。
 
@@ -197,6 +200,6 @@ SSID は、作成しているポリシーの SSID です。 例:
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

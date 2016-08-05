@@ -3,7 +3,7 @@ title: "管理者の役割用のコンソール ビューをカスタマイズ�
 description: "このトピックは、Intune 管理コンソール ビューをフィルター処理して、管理者がそれぞれの役割に応じて必要な項目のみが表示されるように設定するときに役立ちます。"
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: e0783eaa-67dc-410e-9e80-4d3aa72f36d8
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: 132648f4c4d13983b169fa8497deae9787fe6db5
+ms.sourcegitcommit: 217655d3c33ac88672f0739302f182cf6a6ae335
+ms.openlocfilehash: dc9bb2992d3e3ed8134cfa2146295e16edf4e459
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: 132648f4c4d13983b169fa8497deae9787fe6db5
 # 管理者の役割に応じて Intune コンソール ビューをカスタマイズする
 Microsoft Intune 管理コンソール ビューをフィルター処理して、管理者がそれぞれの役割に応じて確認する必要がある項目のみが表示されるように設定できます。 たとえば、管理コンソールのオペレーターにのみ、マルウェア定義の更新やデバイスのパスコードのリセットを許可できます。 これは、特定のユーザーに割り当てる事前設定された**指定**を使用することで行います。 これらのユーザーが管理コンソールにアクセスすると、そのユーザーに対する指定に応じて、特定のアイテムだけが表示されます。
 
-## カスタム ビューを作成する方法
+## カスタム ビューを作成するには
 
 1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com)で、**[管理]** &gt; **[サービス管理者]** をクリックします。
 
@@ -68,6 +68,6 @@ Microsoft Intune 管理コンソール ビューをフィルター処理して�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

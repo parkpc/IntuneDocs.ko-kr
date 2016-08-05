@@ -3,18 +3,19 @@ title: "ポータル サイト Web サイトからデバイスをリセットす
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d3182a85-328b-45b4-bf7a-9f6249984641
+ROBOTS: noindex,nofollow
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: dcde651a95a7f1affaf5489c2664d96a7f5e9e8f
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 8f65861373339a50cfc7dd6756baf3e091409044
 
 
 ---
@@ -24,7 +25,7 @@ ms.openlocfilehash: dcde651a95a7f1affaf5489c2664d96a7f5e9e8f
 
 デバイスが紛失した、または盗難にあった場合は、データへの不正なアクセスを防ぐため、デバイスを出荷時の状態にリセットすることができます。 [ポータル サイト Web サイト](http://portal.manage.microsoft.com)を使用してデバイスをリモートでリセットすることができます。 ポータル サイト Web サイトは、Intune に登録したコンピューターとデバイスを管理し、ポータル サイト アプリを使用する場合とほぼ同じタスクを実行できる Web ページです。
 
-デバイスをリセットすると、そのデバイスはポータル サイトに表示されなくなり、出荷時の状態に戻ります。 
+デバイスをリセットすると、そのデバイスはポータル サイトに表示されなくなり、出荷時の状態に戻ります。
 
 デバイスをリセットするには:
 
@@ -32,7 +33,9 @@ ms.openlocfilehash: dcde651a95a7f1affaf5489c2664d96a7f5e9e8f
 
 2.  **[リセット]** をタップします。
 
-    ![reset-device](./media//iwp-1-tap-reset-passcode.png)
+    ![reset-device-option-on-company-portal-website](./media//iwp-screen-with-all-options.png)
+
+3. デバイスを出荷時の状態に戻そうとしていることを示す警告メッセージを確認した後、**[リセット]** をタップしてデバイスをリセットします。
 
 これでデバイスがリセットされました。
 
@@ -43,6 +46,6 @@ ms.openlocfilehash: dcde651a95a7f1affaf5489c2664d96a7f5e9e8f
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,8 +3,8 @@ title: "検出された既存の会社の電子メール アカウント | Micro
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: cca55c987b42894547977d94bd549342b4ca4bd8
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 05a0f33fa62d3f614437a54441dcb796c51c0f91
 
 
 ---
@@ -27,7 +27,7 @@ ms.openlocfilehash: cca55c987b42894547977d94bd549342b4ca4bd8
 
     たとえば、iOS デバイスで、**[設定]** &gt; **[メール、連絡先、カレンダー]** をタップします。 クリックして、作業の電子メール アカウントを選択して **削除**です。
 
-2.  タップして、デバイスでは、ポータル サイト アプリを開く **コンプライアンスの確認**です。
+2.  お使いのデバイスで会社のポータル アプリを開いて、**[ポリシー準拠状況の確認]** をタップします。
 
 3.  新しい電子メール設定が自動的に、デバイスに適用するには、短時間待機します。
 
@@ -35,7 +35,6 @@ ms.openlocfilehash: cca55c987b42894547977d94bd549342b4ca4bd8
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

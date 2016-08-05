@@ -3,18 +3,19 @@ title: "ポータル サイト Web サイトからデバイスのパスコード
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4fa3255b-9d1e-42d5-bd8b-70963dcf2d86
+ROBOTS: noindex,nofollow
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 31023a2d51d4dd4cb854c1fa077f5a9910232bb4
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 4fab2d71b7cf2557b73810e5f05b82fb9ba1c36b
 
 
 ---
@@ -24,7 +25,7 @@ ms.openlocfilehash: 31023a2d51d4dd4cb854c1fa077f5a9910232bb4
 
 Intune に登録したデバイスの PIN またはパスワードを紛失した場合は、[ポータル サイト web サイト](http://portal.manage.microsoft.com)からリセットすることができます。 ポータル サイト Web サイトは、Intune に登録したコンピューターとデバイスを管理し、ポータル サイト アプリを使用する場合とほぼ同じタスクを実行できる Web ページです。
 
-> [!NOTE] 
+> [!NOTE]
 > IT 管理者の Intune の構成によっては、ポータル サイト Web サイトに [パスコードのリセット] ボタンが表示されない場合があります。 Windows 8.1 と Windows RT のデバイスでは、パスコードのリセットがサポートされていません。
 
 パスコードをリセットするには:
@@ -33,7 +34,7 @@ Intune に登録したデバイスの PIN またはパスワードを紛失し�
 
 2.  **[パスコードのリセット]** をタップします。
 
-    ![tap-passcode-to-reset](./media/iwp-1-tap-reset-passcode.png)
+    !resetp-passcode-option-on-company-portal-website](./media/iwp-screen-with-all-options.png)
 
 3.  **[サインアウト]** をタップし、職場または学校の資格情報でサインインし直します。 サインインは 5 分以内に行う必要があります。
 
@@ -63,6 +64,7 @@ Intune に登録したデバイスの PIN またはパスワードを紛失し�
 [Intune ポータル サイト Web サイトの使用](using-the-intune-company-portal-website.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Jul16_HO4-->
 
 

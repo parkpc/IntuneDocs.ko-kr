@@ -3,7 +3,7 @@ title: "Windows エディションのアップグレード ポリシー設定 | 
 description: "Intune を使用して Windows 10 デバイスを最新バージョンに自動的にアップグレードする方法について説明します。"
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 8589866a-3f13-489b-a5cd-cee017d16d54
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: 94ce40589180ebafcacfb497bc4de9f3458f4ca3
+ms.sourcegitcommit: 2a08ace43fb61f57a9d29b119c59698bc50e7af8
+ms.openlocfilehash: 49bc54f36b281d85c9667c51fb6ddbe0d454b4d1
 
 
 ---
@@ -38,12 +38,13 @@ Microsoft Intune の**エディションのアップグレード ポリシー**�
 |**説明**|必要に応じて、Intune コンソールでの識別に役立つポリシーの説明を入力します。
 |**アップグレード後のエディション**|対象とするデバイスのアップグレード後の Windows 10 Desktop、Windows 10 Holographic、または Windows 10 Mobile のバージョンをドロップダウン リストから選びます。
 |**プロダクト キー**|Microsoft から取得した、対象とするすべての Windows 10 デスクトップ デバイスをアップグレードするために使用できるプロダクト キーを指定します。<br>プロダクト キーを含むポリシーを作成した後でプロダクト キーを編集することはできません。 これは、セキュリティ上の理由からキーが隠されるためです。 プロダクト キーを変更するには、キー全体を再入力する必要があります。
-|**ライセンス ファイル**|**[参照]** をクリックし、Microsoft から取得した、対象とするデバイスのアップグレード後の Windows Holographic、または Windows 10 Mobile エディション用のライセンス情報を含むライセンス ファイルを選択します。
+|**ライセンス ファイル**|**[参照]** を選択し、Microsoft から取得した、対象とするデバイスのアップグレード後の Windows Holographic、または Windows 10 Mobile エディション用のライセンス情報を含むライセンス ファイルを選択します。
 
 ### 関連項目
 [Microsoft Intune ポリシーを使用してデバイスの設定と機能を管理する](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

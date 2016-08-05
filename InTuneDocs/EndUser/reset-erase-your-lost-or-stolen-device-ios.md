@@ -3,8 +3,8 @@ title: "紛失したまたは盗難にあった iOS デバイスをリセット 
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 05/09/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 9ab65b409bbb2168e3457050202d6e88db0472d2
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: f6e7e40973428762995feceac109a8367813dadd
 
 
 ---
@@ -30,7 +30,7 @@ Intune に登録されている携帯電話が紛失や盗難にあった場合�
 
 ## 会社のポータル アプリを使用してデバイスをリセットするには
 
-1.  ブラウザーで、ポータル サイトを開き、職場のアカウントにサインインします。
+1.  登録済みの別のデバイスから、会社のポータル アプリを開き、お使いの会社や学校のアカウントを使用してサインインします。
 
 2.  **[デバイス]** で、紛失したまたは盗難にあったデバイスを選択します。
 
@@ -40,7 +40,7 @@ Intune に登録されている携帯電話が紛失や盗難にあった場合�
 
 次の手順を使用するか、このビデオをご覧いただけます。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=6UFtBrBWUUI&feature=youtu.be" frameborder="0" allowfullscreen></iframe>
+<iframe width="675" height="379" src="https://www.youtube.com/embed/3rrXe8XmtgU" frameborder="0" allowfullscreen></iframe>
 
 1.  [ポータル Web サイト](http://portal.manage.microsoft.com)で、消去するデバイスを選択します。
 
@@ -52,6 +52,7 @@ Intune に登録されている携帯電話が紛失や盗難にあった場合�
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,7 +3,7 @@ title: "企業所有のデバイスの管理 | Microsoft Intune"
 description: "企業所有のデバイス (COD) を、デバイスや購入方法、組織のニーズに応じて多様な方法で管理対象にする。"
 keywords: 
 author: NathBarn
-manager: jeffgilb
+manager: angrobe
 ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
@@ -13,14 +13,14 @@ ms.assetid: 2b60bbff-25e6-489b-9621-c71b4275fa06
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26ac7d52c0ad3e37e517b60d448a94849c0f4b30
-ms.openlocfilehash: 6cf620a96b39540c8b7ca618936af1367971bb8f
+ms.sourcegitcommit: ecfeb73efed4a47256275120c52de232c556adfe
+ms.openlocfilehash: 58efadf2f9fc34a31070aff93e86083583630caa
 
 
 ---
 
 # Microsoft Intune で企業所有のデバイスを登録する
-組織または企業所有のデバイス (COD) は、デバイス、購入方法、組織のニーズに応じて多様な方法で Intune の管理対象にすることができます。
+組織または企業所有のデバイス (COD) は、デバイス、購入方法、組織のニーズに応じて多様な方法で Intune の管理対象にすることができます。 また、企業所有のデバイスは、ポータル サイト アプリを "Bring Your Own Device" (BYOD) シナリオでインストールすることで登録および管理できます。
 
 ## 企業所有の iOS デバイス
 これらの登録方法は、組織がユーザーのデバイスを購入し、デバイスの管理は組織が行う "Choose Your Own Device (CYOD)" シナリオに適しています。 組織が iOS デバイスを購入した場合、登録を事前に構成し、ユーザーが初めて起動したときからデバイスを管理対象にすることができます。 Intune は、[Apple のデバイス登録プログラム (DEP)](ios-device-enrollment-program-in-microsoft-intune.md) による登録、または Mac コンピューターで実行されている Apple Configurator ツールを使用した[直接](ios-direct-enrollment-in-microsoft-intune.md)登録、または[セットアップ アシスタント](ios-setup-assistant-enrollment-in-microsoft-intune.md)による登録をサポートしています。
@@ -53,6 +53,6 @@ ms.openlocfilehash: 6cf620a96b39540c8b7ca618936af1367971bb8f
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

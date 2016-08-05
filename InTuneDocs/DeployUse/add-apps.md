@@ -3,7 +3,7 @@ title: "アプリを追加する | Microsoft Intune"
 description: "Intune でアプリの展開を開始する前に、このトピックで説明している概念について理解を深めてください。"
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,14 +13,14 @@ ms.assetid: 2b770f4f-6d36-41e4-b535-514b46e29aaa
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: 3b35e835634733f542b7ddaf2ede2ad2464721fd
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 8bc18a2f77a2ebcc4a3a2fc4d0902e745991dfae
 
 
 ---
 
 # Microsoft Intune でアプリを追加する
-Microsoft Intune でアプリの展開を開始する前に、このトピックで説明している概念について理解を深めてください。 これらの概念は、アプリの展開先として使用できるプラットフォームや、展開に必要な前提条件を理解するのに役立ちます。
+Microsoft Intune でアプリの展開を開始する前に、このトピックで説明している概念について理解を深めてください。 これらの概念は、どのプラットフォームにどのアプリを展開できるかを理解するのに役立ちます。 また、アプリを展開する前に満たす必要がある前提条件を理解するのにも役立ちます。
 
 ## 展開できるアプリの種類
 
@@ -28,28 +28,31 @@ Microsoft Intune でアプリの展開を開始する前に、このトピック
 
 |アプリの種類|説明|
 |----------------|-------|
-|**Windows インストーラー (&#42;.exe, &#42;.msi)**|この種類のアプリは、ユーザー入力なしのサイレント インストールをサポートする必要があります。 アプリのマニュアルに、サイレント インストールの実行に関連するコマンドライン オプションが記載されている必要があります (たとえば、**/q**)。<br>一般的なコマンド ライン オプションの一覧は、[こちら](https://support.microsoft.com/en-us/kb/227091)にあります。<br><br>アプリのセットアップ プログラムに必要なその他のファイルとフォルダーは、アプリのセットアップ ファイルに指定した場所から使用できるようにする必要があります。<br><br>多くの場合、Intune で Windows インストーラー (.msi) と Windows インストーラー パッチ (.msp) ファイルをインストールするために必要なコマンドライン引数はありません。 詳細については、アプリのマニュアルを確認してください。<br><br>コマンドライン引数が必要な場合は、"名前=値" の対 (例: TRANSFORMS=custom_transform.mst) の形式で入力します。|
-|**Android アプリ パッケージ (&#42;.apk ファイル)**|Android アプリを展開するには、有効な .apk パッケージ ファイルが必要です。|
-|**iOS アプリ パッケージ (&#42;.ipa ファイル)**|iOS アプリを展開するには、有効な .ipa パッケージ ファイルが必要です。<br><br>.ipa パッケージは Apple によって署名され、プロビジョニング プロファイルに示されている有効期限の期限内である必要があります。 Intune では、エンタープライズ証明書付き iOS アプリケーションを配布できます。<br>Apple のデベロッパー証明書付きアプリがすべてサポートされているわけではありません。<br><br>お客様の企業で、iOS Developer Enterprise Program に登録する必要があります。<br><br>組織のファイアウォールで、iOS の準備および認証用 Web サイトへのアクセスが許可されていることを確認してください。<br><br>アプリのマニフェスト ファイル (.plist) を展開する必要はありません。|
-|**Windows Phone アプリケーション パッケージ (&#42;.xap、.appx、.appxbundle)**|アプリを展開するには、エンタープライズ モバイル コード署名証明書が必要です。<br>詳細については、「[Microsoft Intune を使用して Windows Phone の管理をセットアップする](set-up-windows-phone-management-with-microsoft-intune.md)」を参照してください。|
-|**Windows アプリケーション パッケージ (.appx、.appxbundle)**|アプリを展開するには、エンタープライズ モバイル コード署名証明書が必要です。<br>詳細については、「[Set up Windows device management with Microsoft Intune](set-up-windows-device-management-with-microsoft-intune.md)」 (Microsoft Intune を使用して Windows デバイスの管理をセットアップする) を参照してください。|
-|**MDM を介した Windows インストーラー (&#42;.msi)**|Windows インストーラー ベースのアプリを作成して、Windows 10 を実行する登録済み (MDM 登録) PC に展開できます。<br /><br />拡張子が .msi のファイルを 1 つだけアップロードできます。<br><br>アプリの検出では、ファイルの製品コードと製品バージョンが使用されます。<br><br>アプリの既定の再起動動作が使用されます。 Intune ではこの機能を制御しません。<br><br>ユーザー単位の MSI パッケージは単一のユーザーにインストールされます。<br><br>コンピューター単位の MSI パッケージはデバイス上のすべてのユーザーにインストールされます。<br><br>デュアル モードの MSI パッケージは現在、デバイス上のすべてのユーザーに対するインストールのみが実行されます。<br><br>アプリの更新プログラムは、各バージョンの MSI 製品コードが同じである場合にサポートされます。<br>
+|**Windows インストーラー (&#42;.exe, &#42;.msi)**|この種類のアプリは、ユーザー入力なしのサイレント インストールをサポートする必要があります。 アプリのマニュアルに、サイレント インストールの実行に関連するコマンドライン オプションが記載されている必要があります (たとえば、**/q**)。 一般的なコマンドライン オプションの一覧は、「[Microsoft Windows インストーラ ツールのコマンド ライン スイッチ](https://support.microsoft.com/en-us/kb/227091)」で見つかります。<br><br>アプリのセットアップ プログラムに必要なその他のファイルとフォルダーは、アプリのセットアップ ファイルに指定した場所から使用できるようにする必要があります。<br><br>多くの場合、Windows インストーラー (.msi) と Windows インストーラー パッチ (.msp) ファイルではコマンドライン引数をインストールするために Intune は必要ありません。 詳細については、アプリのマニュアルを確認してください。<br><br>コマンドライン引数が必要な場合は、"名前=値" の対 (例: TRANSFORMS=custom_transform.mst) の形式で入力します。|
+|**Android 用アプリ パッケージ (&#42;.apk)**|Android アプリを展開するには、有効な .apk パッケージが必要です。|
+|**iOS 用アプリ パッケージ (&#42;.ipa)**|iOS アプリを展開するには、有効な .ipa パッケージ ファイルが必要です。<br><br>.ipa パッケージは Apple によって署名され、プロビジョニング プロファイルの有効期限の期限内である必要があります。 Intune では、エンタープライズ証明書付き iOS アプリケーションを配布できます。<br><br>Apple のデベロッパー証明書付きアプリがすべてサポートされているわけではありません。<br><br>お客様の企業で、iOS Developer Enterprise Program に登録する必要があります。<br><br>組織のファイアウォールで、iOS の準備および認証用 Web サイトへのアクセスが許可されていることを確認してください。<br><br>アプリのマニフェスト ファイル (.plist) を展開する必要はありません。|
+|**Windows Phone アプリケーション パッケージ (&#42;.xap、.appx、.appxbundle)**|アプリを展開するには、エンタープライズ モバイル コード署名証明書が必要です。 詳細については、「[Microsoft Intune を使用して Windows Phone の管理をセットアップする](set-up-windows-phone-management-with-microsoft-intune.md)」を参照してください。|
+|**Windows アプリケーション パッケージ (.appx、.appxbundle)**|アプリを展開するには、エンタープライズ モバイル コード署名証明書が必要です。 詳細については、「[Set up Windows device management with Microsoft Intune](set-up-windows-device-management-with-microsoft-intune.md)」 (Microsoft Intune を使用して Windows デバイスの管理をセットアップする) を参照してください。|
+|**MDM を介した Windows インストーラー (&#42;.msi)**|このアプリを使用して Windows インストーラー ベースのアプリを作成し、Windows 10 を実行する登録済み PC に展開できます。 これらの PC は、モバイル デバイス管理 (MDM) によって管理されます。<br /><br />アップロードできるのは、拡張子が .msi であるファイルを 1 つのみです。<br><br>アプリの検出では、ファイルの製品コードと製品バージョンが使用されます。<br><br>アプリの既定の再起動動作が使用されます。 Intune ではこの機能を制御しません。<br><br>ユーザー単位の MSI パッケージは単一のユーザーにインストールされます。<br><br>コンピューター単位の MSI パッケージはデバイス上のすべてのユーザーにインストールされます。<br><br>デュアル モードの MSI パッケージは現在、デバイス上のすべてのユーザーに対してのみインストールされています。<br><br>アプリの更新プログラムは、各バージョンの MSI 製品コードが同じである場合にサポートされます。<br>
 すべてのソフトウェア インストーラー アプリの種類は、クラウド ストレージ領域にアップロードされます。
 
 ### **外部リンク**
-以下の場合に使用します。
-- アプリ ストアからユーザーがアプリをダウンロードできる **URL**。
-- Web ブラウザーから実行する Web ベース アプリの**リンク**。
+次がある場合は外部リンクを使用します。
+- アプリ ストアからユーザーがアプリをダウンロードできる URL。
+- Web ブラウザーから実行する Web ベース アプリのリンク。
 
 外部リンク ベースののアプリは、Intune のクラウド記憶域には格納されません。
 ### **App Store の管理対象 iOS アプリ**
-App Store から無料で利用できる iOS アプリを管理および展開できます。 [モバイル アプリケーションの管理ポリシー](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)を[互換性のあるアプリ](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)に関連付け、その状態を管理コンソールで確認することもできます。<br /><br />管理対象の iOS アプリは、Intune のクラウド記憶域には格納されません。
+管理対象 iOS アプリを使用して App Store から無料で利用できる iOS アプリを管理および展開できます。 また、管理対象 iOS アプリを使用して[モバイル アプリケーションの管理ポリシー](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)を[互換性のあるアプリ](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)に関連付け、その状態を管理コンソールで確認することもできます。<br /><br />管理対象の iOS アプリは、Intune のクラウド記憶域には格納されません。
 
 > [!TIP]
-> [[モバイル デバイス管理機関の設定]](get-ready-to-enroll-devices-in-microsoft-intune.md) を Intune に設定すると、モバイル デバイス用のオプションを使用できるようになります。
+> [MDM 機関の設定](get-ready-to-enroll-devices-in-microsoft-intune.md)を Intune にすると、モバイル デバイス用のオプションを使用できるようになります。
 
 ## Intune ソフトウェア パブリッシャー
-Intune 管理者コンソールからアプリを追加または変更したときに、**Microsoft Intune ソフトウェア パブリッシャー**が起動します。 パブリッシャーで Intune クラウドの記憶域に保存するアプリ (コンピューター用プログラムまたはモバイル デバイス用アプリ) をアップロードするソフトウェア インストーラーの種類を選択するか、オンライン ストアまたは Web アプリケーションのリンクを選択して構成します。
+Intune 管理者コンソールからアプリを追加または変更したときに、Microsoft Intune ソフトウェア パブリッシャーが起動します。 パブリッシャーから、次のいずれかを実施するソフトウェア インストーラーの種類を選択して構成します。
+
+- Intune クラウド ストレージに格納するアプリ (コンピューター用のプログラムまたはモバイル デバイス用のアプリ) をアップロードする。
+- オンライン ストアまたは Web アプリケーションにリンクする。
 
 ソフトウェア パブリッシャーを使い始める前に、フル バージョンの [Microsoft .NET Framework 4.0](https://www.microsoft.com/download/details.aspx?id=17851) をインストールする必要があります。 ソフトウェア パブリッシャーを正常に開くには、インストール後にコンピューターの再起動が必要になることがあります。
 
@@ -58,28 +61,27 @@ Intune 管理者コンソールからアプリを追加または変更したと�
 
 **[管理]** ワークスペースの **[記憶域の使用]** ノードで、使用中の記憶域を確認できます。
 
-### クラウドの記憶域の容量の要件
+クラウドの記憶域の容量の要件は次のとおりです。
 
--   すべてのアプリのインストール ファイルは、同じフォルダーに保存する必要があります。
-
--   アップロードするすべてのファイルの最大ファイルサイズは 2 GB です。
+-   すべてのアプリのインストール ファイルは、同じフォルダーにある必要がある。
+-   アップロードするファイルの最大ファイルサイズは 2 GB。
 
 
 ## ユニバーサル Windows プラットフォーム (UWP) アプリのサポート
 Windows 10 PC で基幹業務アプリをインストールする場合、サイドローディング キーは不要です。 ただし、レジストリ キー **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Appx\AllowAllTrustedApps** は、サイドローディングを有効にするため、値は **1** である必要があります。
 
-このレジストリ キーが構成されていない場合は、アプリをデバイスに初めて展開する際に、Intune によってこの値が自動的に **1** に設定されます。 この値を **0** に設定した場合、Intune は値を自動的に変更することができず、基幹業務アプリの展開は失敗します。
+このレジストリ キーが構成されていない場合は、アプリをデバイスに初めて展開する際に、Intune によってこの値が自動的に **1** に設定されます。 この値を **0** に設定した場合、Intune は値を自動的には変更することができず、基幹業務アプリの展開は失敗します。
 
-ユニバーサル Windows プラットフォームの基幹業務アプリは、アプリが展開される各デバイス上で信頼されているコード署名証明書で署名される必要があります。 社内の PKI 基盤からの証明書を使用することも、デバイスにインストールされたサード パーティのパブリック ルート証明書からの証明書を使用することもできます。
+ユニバーサル Windows プラットフォームの基幹業務アプリは、アプリが展開される各デバイス上で信頼されているコード署名証明書で署名される必要があります。 社内の公開キー基盤 (PKI) からの証明書を使用することも、デバイスにインストールされたサード パーティのパブリック ルート証明書からの証明書を使用することもできます。
 
 Windows 10 Mobile デバイス上では、Symantec 以外のコード署名証明書を使用して、ユニバーサル **.appx** アプリに署名することができます。 **.xap** アプリの場合、また Windows 10 Mobile デバイスにインストールする Windows Phone 8.1 用にビルドされた **.appx** パッケージの場合は、Symantec コード署名証明書を使用する必要があります。
 
-## 次のステップ 
+## 次の手順
 
-次に、アプリを展開する前に、Intune コンソールでアプリを追加する必要があります。 [登録されたデバイス](add-apps-for-mobile-devices-in-microsoft-intune.md)と [Intune クライアント ソフトウェアで管理する Windows PC](add-apps-for-windows-pcs-in-microsoft-intune.md) にアプリを追加できます。
+アプリを展開する前に、Intune コンソールでアプリを追加する必要があります。 [登録されたデバイス](add-apps-for-mobile-devices-in-microsoft-intune.md)と [Intune クライアント ソフトウェアで管理する Windows PC](add-apps-for-windows-pcs-in-microsoft-intune.md) にアプリを追加できます。
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

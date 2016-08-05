@@ -1,18 +1,19 @@
 ---
 title: "リモート ロックの使用とパスコードのリセット | Microsoft Intune"
-description: 
+description: "Intune には、リモート ロック機能とパスコードのリセット機能の両方が備わっています。"
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
+ms.reviewer: chrisgre
 translationtype: Human Translation
-ms.sourcegitcommit: 6d9b79a09eef2546d78a19e061ba5cc3f24f645c
-ms.openlocfilehash: 34379881b8299a2e3f9886b14b6d83e9dfe83373
+ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
+ms.openlocfilehash: c2b4b6308569e1e67a1c3da18c12d19bdeecf08e
 
 ---
 # リモート ロックとパスコードのリセットによってデバイスを保護する
@@ -25,7 +26,7 @@ Microsoft Intune には、リモート ロック機能とパスコードのリ�
 |------------|---------------|
 |iOS|サポートされています|
 |Android|サポート|
-|[Windows] 10 Mobile|サポート|
+|Windows 10 および Windows 10 Mobile|サポート|
 |Windows Phone 8 および Windows Phone 8.1|サポートされています|
 |Windows RT 8.1 および Windows RT|デバイスの現在のユーザーが、デバイスを登録したユーザーと同じ場合にはサポートされます。|
 |Windows 8.1|デバイスの現在のユーザーが、デバイスを登録したユーザーと同じ場合にはサポートされます。|
@@ -72,6 +73,6 @@ Microsoft Intune には、リモート ロック機能とパスコードのリ�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO4-->
 
 

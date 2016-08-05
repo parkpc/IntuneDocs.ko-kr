@@ -3,8 +3,8 @@ title: "Android デバイスを Intune で使用する | Microsoft Intune"
 description: "Android モバイル デバイスが Intune で登録されている場合にデバイスで実行できるタスクへのリンクの一覧"
 keywords: 
 author: staciebarker
-manager: arob98
-ms.date: 06/14/2016
+manager: angrobe
+ms.date: 07/26/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: e0ff9b0b1c31e0037f34e223ff26c2b111c5a0aa
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 3dfe3f8a0a8538d14acddb9a7c9541bae928b6e6
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: e0ff9b0b1c31e0037f34e223ff26c2b111c5a0aa
 
 # Android デバイスを Intune で使用する
 
-職場で Microsoft Intune を使っている場合に Android デバイスで行う必要のあるタスクの手順を紹介します。
+このページには、エンドユーザーが Intune 管理対象デバイスで実行できるすべてのタスクへのリンクが掲載されています。 IT 管理者はこの情報を参照して、ユーザーがさまざまなタスクを実行するための手順を確認できます。タスクは登録関連情報、管理タスク、および準拠に関する問題の各カテゴリにグループ化されています。
 
 ## ポータル サイト アプリのインストールと Intune の登録
 
@@ -67,9 +67,6 @@ ms.openlocfilehash: e0ff9b0b1c31e0037f34e223ff26c2b111c5a0aa
 
 
 
-
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,18 +3,19 @@ title: "ポータル サイトからのデバイスの削除 | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/26/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e240419a-a836-4be3-8fd9-39a4ec890226
+ROBOTS: noindex,nofollow
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 9f63869b6c4f3a082da7587921870004c6ffc5e1
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 43ed6e3dc88ddf0668dafe1f728b6e7c5225ca2c
 
 
 ---
@@ -24,7 +25,7 @@ ms.openlocfilehash: 9f63869b6c4f3a082da7587921870004c6ffc5e1
 
 今後デバイスを Intune および IT 管理者で管理しない場合は、[ポータル サイト Web サイト](http://portal.manage.microsoft.com)から、デバイスを削除することができます。 ポータル サイト Web サイトは、Intune に登録したコンピューターとデバイスを管理し、ポータル サイト アプリを使用する場合とほぼ同じタスクを実行できる Web ページです。
 
-デバイスを削除すると、そのデバイスはポータル サイトに表示されなくなり、会社または学校のデータ、アプリ、電子メールにもアクセスできなくなる場合があります。 
+デバイスを削除すると、そのデバイスはポータル サイトに表示されなくなり、会社または学校のデータ、アプリ、電子メールにもアクセスできなくなる場合があります。
 
 デバイスを削除するには:
 
@@ -32,7 +33,9 @@ ms.openlocfilehash: 9f63869b6c4f3a082da7587921870004c6ffc5e1
 
 2.  **[削除]** をタップします。
 
-    ![remove-device](./media/iwp-1-tap-reset-passcode.png)
+    ![remove-device-option-on-company-portal-website](./media/iwp-screen-with-all-options.png)
+
+3. デバイスを削除すると何が起こるかを示す警告メッセージを確認した後、**[削除]** をタップして、ポータル サイトからデバイスを削除します。
 
 これでデバイスが削除されました。
 
@@ -42,6 +45,7 @@ ms.openlocfilehash: 9f63869b6c4f3a082da7587921870004c6ffc5e1
 [Intune ポータル サイト Web サイトの使用](using-the-intune-company-portal-website.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Jul16_HO4-->
 
 

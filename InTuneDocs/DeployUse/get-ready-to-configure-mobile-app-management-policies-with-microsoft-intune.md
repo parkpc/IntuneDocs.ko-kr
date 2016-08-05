@@ -3,8 +3,8 @@ title: "MAM ポリシーを構成する準備 | Microsoft Intune"
 description: "このトピックでは、モバイル アプリ管理ポリシーを作成するための前提条件とユーザーの設定について説明します。"
 keywords: 
 author: karthikaraman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
-ms.openlocfilehash: ca84a9ce4a1a418c1107f11dbb66cf64362a77f5
+ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
+ms.openlocfilehash: 39af738fe83ec6ea2e963d857cc233332063c80b
 
 
 ---
@@ -79,11 +79,13 @@ MAM ポリシーを構成する*前提条件*として、以下のものが必�
 
     ![Office ポータルの [アクティブなユーザー] ページ](../media/AppManagement/OfficePortal_AddUsers.png)
 
+    ![Office ポータルでユーザー ページを編集する](../media/AppManagement/OfficePortal_AssignLicenses.png)
+
 4.  ユーザーが Office ポータル、Azure AD ポータル、Azure ポータルにアクセスできるようにするには、**全体管理者ロール**をユーザーに割り当てます。
 
     ![Office ポータルのユーザーのロールを編集するページ](../media/AppManagement/OfficePortal_AddRoletoUser.png)
 
-5.  MAM ポリシーは、Azure Active Directory のユーザー グループに展開されます。 MAM ポリシー用にユーザー グループを作成するには、Office ポータルの **[グループ]** ページに移動して、"**+**" アイコンをクリックして新しいセキュリティ グループを作成します。  名前と説明を入力し、**[作成]** をクリックします。 グループを作成したら、**[メンバーの編集]** をクリックしてグループにユーザーを追加できます。 セキュリティ グループは Azure Active Directory 内に作成されます。
+5.  MAM ポリシーは、Azure Active Directory のユーザー グループに展開されます。 MAM ポリシー用にユーザー グループを作成するには、Office ポータルの **[グループ]** ページに移動して、上部のメニューの **[グループの追加] オプション**を選択して新しいセキュリティ グループを作成します。  名前と説明を入力し、**[作成]** をクリックします。 グループを作成したら、**[メンバーの編集]** をクリックしてグループにユーザーを追加できます。 セキュリティ グループは Azure Active Directory 内に作成されます。
 
     ![Office ポータルでのセキュリティ グループのページ](../media/AppManagement/OfficePortal_CreateGroups.png)
 
@@ -123,6 +125,6 @@ MAM ポリシーを構成する*前提条件*として、以下のものが必�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

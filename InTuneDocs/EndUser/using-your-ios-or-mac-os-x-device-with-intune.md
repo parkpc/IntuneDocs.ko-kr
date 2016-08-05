@@ -3,8 +3,8 @@ title: "iOS デバイスまたは Mac OS X デバイスを Intune で使用す�
 description: "iOS や Mac OS X モバイル デバイスが Intune で登録されている場合に、デバイスで実行できるタスクへのリンクの一覧"
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 06/03/2016
+manager: angrobe
+ms.date: 07/26/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,15 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 6c3d8b3a64d98357b7aac2a9f000ca33125c1858
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: c91355b77850acbb76cd028bffb231e2ba1a5174
 
 
 ---
 
 # Using your iOS or Mac OS X device with Intune
 
-職場で Microsoft Intune を使っている場合に iOS デバイスまたは Mac OS X デバイスで行う必要のあるタスクの手順を紹介します。
+このページには、エンドユーザーが Intune 管理対象デバイスで実行できるすべてのタスクへのリンクが掲載されています。 IT 管理者はこの情報を参照して、ユーザーがさまざまなタスクを実行するための手順を確認できます。タスクは登録関連情報、管理タスク、および準拠に関する問題の各カテゴリにグループ化されています。
 
 ## ポータル サイト アプリのインストールと Intune の登録
 
@@ -61,8 +61,6 @@ ms.openlocfilehash: 6c3d8b3a64d98357b7aac2a9f000ca33125c1858
 
 
 
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

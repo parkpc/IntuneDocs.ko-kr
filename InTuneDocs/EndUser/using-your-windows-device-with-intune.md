@@ -3,8 +3,8 @@ title: "Windows デバイスを Intune で使用する | Microsoft Intune"
 description: "Windows デバイスが Intune で登録されている場合にデバイスで実行できるタスクへのリンクの一覧"
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 07/20/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,15 @@ ms.assetid: 0de5f03a-c288-423b-b9ea-493a39eb715a
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 018d8936fe9158ebd85920cac978844e6949fb64
-ms.openlocfilehash: c1fe0db8967ad2c483718bdc908097967be8b459
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 85e6b4c4e507b83ba4a5f104e552e5a4f1fd68f2
 
 
 ---
 
 # Windows デバイスを Intune で使用する
 
-ここでは、職場で Microsoft Intune を使っている場合に Windows デバイスまたはコンピューターで行う必要のあるタスクの手順を紹介します。
+このページには、エンドユーザーが Intune 管理対象デバイスで実行できるすべてのタスクへのリンクが掲載されています。 IT 管理者はこの情報を参照して、ユーザーがさまざまなタスクを実行するための手順を確認できます。タスクは登録関連情報、管理タスク、および準拠に関する問題の各カテゴリにグループ化されています。
 
 ## ポータル サイト アプリのインストールと Intune の登録
 
@@ -57,8 +57,6 @@ ms.openlocfilehash: c1fe0db8967ad2c483718bdc908097967be8b459
 
 
 
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

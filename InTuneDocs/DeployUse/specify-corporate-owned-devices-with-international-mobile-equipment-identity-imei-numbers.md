@@ -1,10 +1,10 @@
 ---
-title: "IMEI (国際移動体装置識別番号) を使って企業所有のデバイスを指定する | Microsoft Intune"
-description: 
+title: "IMEI 番号を指定する | Microsoft Intune"
+description: "Microsoft Intune では、管理者は、モバイル デバイス プラットフォームの IMEI 番号をインポートして会社所有のモバイル デバイスを識別できます"
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,14 @@ ms.assetid: 1712bd39-562b-4409-9cec-155d5f4d8a39
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 590b8bc5a307e238ba41d32f98f6878daebf1185
-ms.openlocfilehash: 7df281a3e35ac563f7b82e4b13407b413f8a7e4a
+ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
+ms.openlocfilehash: 4e2092182dbda4523c19afeabc34aa0166962c40
 
 
 ---
 
 # IMEI (国際移動体装置識別番号) を使って企業所有のデバイスを指定する
-Microsoft Intune では、管理者が IMEI (International Mobile Equipment Identity: 国際移動体装置識別番号) をモバイル デバイスのプラットフォームにインポートできます。IMEI 番号は、企業所有のモバイル デバイスを識別するために役立ちます。 Intune に登録されると、インポートされた IMEI 番号を持つデバイスを、**[グループ]** > **[概要]** > **[すべてのデバイス]** > **[会社の事前登録済みデバイス]** > **[IMEI (すべてのプラットフォーム) を使用]** で確認できます。
+Microsoft Intune では、管理者が IMEI (International Mobile Equipment Identity: 国際移動体装置識別番号) をモバイル デバイスのプラットフォームにインポートできます。IMEI 番号は、企業所有のモバイル デバイスを識別するために役立ちます。 Intune に登録すると、インポートされた IMEI 番号を持つデバイスを、**[グループ]**  >  **[概要]**  >  **[すべてのデバイス]** で確認できます。 **[デバイス グループ]** の一覧で、インポートされた IMEI 番号を持つデバイスは、**[所有権]** 欄に **[会社]** と表示されます。
 
 1. [Microsoft Intune の管理コンソール](http://manage.microsoft.com)で、**[グループ]** &gt; **[すべてのデバイス]** &gt; **[会社の事前登録済みデバイス]** &gt; **[IMEI (すべてのプラットフォーム) を使用]** に移動し、**[デバイスの追加]** を選択します。 デバイスの追加方法は 2 つあります。
 
@@ -49,6 +49,6 @@ IMEI 番号を持つデバイスを登録する (通常は、ユーザーがポ�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 
