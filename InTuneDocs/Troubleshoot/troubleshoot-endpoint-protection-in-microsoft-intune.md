@@ -2,19 +2,19 @@
 title: "エンドポイント保護のトラブルシューティング | Microsoft Intune"
 description: "Microsoft Intune Endpoint Protection の使用中に生じた問題を解決します。"
 keywords: 
-author: Nbigman
-manager: jeffgilb
-ms.date: 05/26/2016
+author: nathbarn
+manager: angrobe
+ms.date: 08/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e31df2d2-bb1b-491b-9a71-04e0b18829c1
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 40d4c602064f0e16d541948ceb284dcde50e2339
+ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
+ms.openlocfilehash: 71f976fba252950fd9a8818fb27fbbb294369894
 
 
 ---
@@ -49,6 +49,6 @@ Microsoft Intune エンドポイント保護の使用中に生じた問題を解
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

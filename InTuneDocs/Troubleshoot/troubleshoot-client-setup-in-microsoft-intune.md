@@ -3,18 +3,18 @@ title: "クライアント セットアップのトラブルシューティン�
 description: "一般的なクライアント セットアップに関する問題のトラブルシューティングを行います。"
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 05/26/2016
+manager: angrobe
+ms.date: 08/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e46d292b-1d16-46db-a87f-d53eefa4d22a
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: a1f9432e8789a40ec65c64cb958414b97c548f06
+ms.sourcegitcommit: eeb0aeac2f94dfde50d9398b09c6b21c7ae40624
+ms.openlocfilehash: 3f7e5752780d7159ce3081ec7a194f4e81e4cd16
 
 
 ---
@@ -126,6 +126,6 @@ MDM Windows デバイス以外のデバイスでは、policyplatform.log ファ�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

@@ -2,19 +2,19 @@
 title: "ポリシーのトラブルシューティング | Microsoft Intune"
 description: "ポリシー構成に関する問題のトラブルシューティングを行います。"
 keywords: 
-author: Nbigman
+author: robstack
 manager: angrobe
-ms.date: 05/26/2016
+ms.date: 08/01/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 99fb6db6-21c5-46cd-980d-50f063ab8ab8
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9915b275101e287498217c4f35e1c0e56d2425c2
-ms.openlocfilehash: 06468bd7d6cdcf84da269c8132b37240ef1f2197
+ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
+ms.openlocfilehash: 98f15f304d5d372d05abfdd296ddff1ef98dd3eb
 
 
 ---
@@ -77,10 +77,6 @@ MDM Windows デバイス以外のデバイスでは、policyplatform.log ファ�
 
 4.  通知のスライダーを既定の設定に移動します。
 
-## KNOX デバイスのエラー 0x87D1FDE8
-**問題**: さまざまな Android デバイスで Samsung KNOX の Exchange Active Sync 電子メール プロファイルを作成して展開すると、デバイスの [プロパティ] &gt; [ポリシー] タブに **0x87D1FDE8** または「**修復できませんでした**」というエラーが報告される。
-
-Samsung KNOX の EAS プロファイルおよびソース ポリシーの構成を確認します。 Samsung Note 同期オプションはサポートされなくなったため、このオプションをプロファイルで選択することはできません。 デバイスには、ポリシーを処理するための十分な時間を最大 24 時間設定してください。
 
 ## アラート: アクセス ルールを Exchange に保存できませんでした
 **問題**: 管理コンソールが「 **アクセス ルールを Exchange に保存できませんでした**  」のアラートを受信する。
@@ -113,6 +109,6 @@ Android の MDM は、その他のプラットフォームのように、サー�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

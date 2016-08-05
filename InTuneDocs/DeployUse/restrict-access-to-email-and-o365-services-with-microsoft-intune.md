@@ -3,7 +3,7 @@ title: "電子メールおよび O365 サービスへのアクセスを制限す
 description: "このトピックでは、条件式を使用して、準拠デバイスのみに SharePoint Online およびその他のサービスの会社の電子メールや会社データへのアクセスを許可する方法について説明します。"
 keywords: 
 author: karthikaraman
-manager: arob98
+manager: angrobe
 ms.date: 06/16/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
-ms.openlocfilehash: bdf82d04f440d46e3d2f64259c7e39da9e5ff5ca
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: 536d34e618efdc78b3103a3b1b36f13fb784781c
 
 
 ---
@@ -65,6 +65,6 @@ Intune の条件付きアクセスを使用して、会社の電子メールお�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Jul16_HO5-->
 
 
