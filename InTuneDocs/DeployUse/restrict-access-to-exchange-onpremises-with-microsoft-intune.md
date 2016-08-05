@@ -3,7 +3,7 @@ title: "Exchange 온-프레미스로 전자 메일 액세스 제한 | Microsoft 
 description: "조건부 액세스로 Exchange 온-프레미스에서 회사 전자 메일을 보호하고 액세스를 제어합니다."
 keywords: 
 author: karthikaraman
-manager: jeffgilb
+manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: a55071f5-101e-4829-908d-07d3414011fc
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
-ms.openlocfilehash: 490a1aa091547de1d2bccb0fe8ea72e40753a0a7
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: 9a6455ded35bf77fbd5da1d4f345759836f38c7f
 
 
 ---
@@ -123,6 +123,6 @@ Windows 8 이상에 설치된 **메일** 응용 프로그램([!INCLUDE[wit_nextr
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

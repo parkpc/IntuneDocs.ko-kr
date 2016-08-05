@@ -3,7 +3,7 @@ title: "장치에서 등록되지 않은 LOB 앱 보호 | Microsoft Intune"
 description: "이 항목에서는 데이터 손실을 방지하는 데 도움이 되는 모바일 앱 관리 정책을 적용할 수 있도록 사용자 지정 LOB(기간 업무) 앱을 준비하는 방법을 설명합니다."
 keywords: 
 author: karthikaraman
-manager: jeffgilb
+manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ce0bc5d1256e96e04e5d59420baed2117cb4854d
-ms.openlocfilehash: 1df9d98f45eaf93163116e4f6a4c9d32125043c8
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: 3e09af2cd329d556a9a0a1b2fb4750856e336ab1
 
 
 ---
@@ -75,6 +75,6 @@ MAM(모바일 앱 관리) 정책을 통해 복사 및 붙여넣기와 같은 데
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

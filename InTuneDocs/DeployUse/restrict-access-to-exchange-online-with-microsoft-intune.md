@@ -3,7 +3,7 @@ title: "Exchange Online에 대한 전자 메일 액세스 제한 | Microsoft Int
 description: "조건부 액세스로 Exchange Online에서 회사 전자 메일을 보호하고 액세스를 제어합니다."
 keywords: 
 author: karthikaraman
-manager: arob98
+manager: angrobe
 ms.date: 06/16/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
-ms.openlocfilehash: 5030e74215960189bf35632bd6966b411d2e6a66
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: 5e94a6575627d295efa592522a1fa28bfcd358a6
 
 
 ---
@@ -260,6 +260,6 @@ iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Jul16_HO5-->
 
 

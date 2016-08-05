@@ -3,8 +3,8 @@ title: "MAM 정책 만들기 및 배포 | Microsoft Intune"
 description: "이 항목의 단계별 지침에 따라 모바일 앱 관리 정책을 만들고 배포합니다."
 keywords: 
 author: karthikaraman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3c3fe3f55b625754eac44d245d7c5065514af25c
-ms.openlocfilehash: 4eb126a89249e796944786bfe0274366fc8982c4
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: 1782d200ed26473414fbc40f554c84cb5d017d44
 
 
 ---
@@ -50,24 +50,20 @@ MAM 정책을 만들기 전에 [필수 구성 요소 및 지원](get-ready-to-co
     > [!TIP]
     > 처음으로 Azure 포털을 사용하는 경우 먼저 [Microsoft Intune MAM 정책용 Azure 포털](azure-portal-for-microsoft-intune-mam-policies.md)을 읽어 포털을 참고합니다.
 
-2.  **설정** 블레이드에서 **앱 정책**을 선택합니다.  **앱 정책** 블레이드가 열리며, 여기서 새 정책을 만들고 기존 정책을 편집합니다.
-
-    ![기존 정책 목록을 보여 주는 앱 정책 블레이드의 스크린 샷](../media/AppManagement/AzurePortal_MAM_AppPolicy.png)
-
-3.  **정책 추가**를 선택합니다.
+2.  **설정** 블레이드에서 **앱 정책**을 선택합니다.  **앱 정책** 블레이드가 열리며, 여기서 새 정책을 만들고 기존 정책을 편집합니다. **정책 추가**를 선택합니다.
 
     ![정책 메뉴 추가 옵션을 강조 표시한 앱 정책 블레이드의 스크린 샷 ](../media/AppManagement/AzurePortal_MAM_AddPolicy.png)
 
-4.  정책의 이름을 입력하고, 간략한 설명을 추가한 다음 플랫폼 형식을 선택하여 iOS 또는 Android에 대한 정책을 만듭니다.  각 플랫폼에 대해 여러 개의 정책을 만들 수 있습니다.
+3.  정책의 이름을 입력하고, 간략한 설명을 추가한 다음 플랫폼 형식을 선택하여 iOS 또는 Android에 대한 정책을 만듭니다.  각 플랫폼에 대해 여러 개의 정책을 만들 수 있습니다.
 
     ![정책 추가 블레이드의 스크린 샷](../media/AppManagement/AzurePortal_MAM_AddPolicy_only.png)
 
-5.  **앱**을 선택하여 **앱 블레이드**를 열면 사용할 수 있는 앱 목록이 표시됩니다. 만들고 있는 정책과 연결할 앱을 목록에서 하나 이상 선택할 수 있습니다. 앱을 선택한 후 **앱** 블레이드 맨 아래에 있는 **선택** 단추를 선택하여 선택 내용을 저장합니다.
+4.  **앱**을 선택하여 **앱 블레이드**를 열면 사용할 수 있는 앱 목록이 표시됩니다. 만들고 있는 정책과 연결할 앱을 목록에서 하나 이상 선택할 수 있습니다. 앱을 선택한 후 **앱** 블레이드 맨 아래에 있는 **선택** 단추를 선택하여 선택 내용을 저장합니다.
 
     > [!IMPORTANT]
     > 정책을 만들려면 앱을 하나 이상 선택해야 합니다.
 
-6.  **정책 추가 블레이드**에서 **필요한 설정 구성** 을 선택하여 정책 설정 블레이드를 엽니다.
+5.  **정책 추가 블레이드**에서 **필요한 설정 구성** 을 선택하여 정책 설정 블레이드를 엽니다.
 
     **데이터 재배치** 및 **액세스**라는 두 범주의 정책 설정이 있습니다.  데이터 재배치 정책은 앱 내부 및 외부로 데이터 이동에 적용할 수 있는 반면, 액세스 정책은 최종 사용자가 회사 컨텍스트에서 앱에 액세스하는 방법을 결정합니다.
     정책 설정에는 기본값이 있습니다.  이 기본값이 요구 사항을 충족하는 경우에는 변경할 필요가 없습니다.
@@ -77,11 +73,11 @@ MAM 정책을 만들기 전에 [필수 구성 요소 및 지원](get-ready-to-co
 
     ![정책 추가 블레이드와 설정 블레이드의 스크린 샷](../media/AppManagement/AzurePortal_MAM_PolicySettings.png)
 
-7.  **확인**을 선택하여 이 구성을 저장합니다.  이제 **정책 추가** 블레이드로 돌아왔습니다. **만들기**를 클릭하여 정책을 만들고 설정을 저장합니다.
+6.  **확인**을 선택하여 이 구성을 저장합니다.  이제 **정책 추가** 블레이드로 돌아왔습니다. **만들기**를 클릭하여 정책을 만들고 설정을 저장합니다.
 
     ![앱 및 설정이 구성되었음을 보여 주는 정책 추가 블레이드의 스크린 샷](../media/AppManagement/AzurePortal_MAM_CreatePolicy.png)
 
-    ![정책 추가 알림이 있는 앱 정책 블레이드의 스크린 샷 ](../media/AppManagement/AzurePortal_MAM_AddingPolicyNotification.png)
+
 
 이전 절차에서 설명한 대로 정책 만들기를 완료하면 사용자에게 배포되지 않습니다.  정책을 배포하려면 아래 설명된 단계를 따르세요.
 
@@ -169,6 +165,6 @@ iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 중
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

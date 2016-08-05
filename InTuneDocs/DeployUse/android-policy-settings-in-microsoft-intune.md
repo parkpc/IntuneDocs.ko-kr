@@ -5,7 +5,7 @@ description: "Intune으로 관리하는 Android 장치에서 설정 및 기능�
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 08/03/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 71cc39cf-e726-40fd-8d08-78776e099a4b
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6e3e81f37e677a016ac49240cc70602a568afcd5
-ms.openlocfilehash: 9385ca0e5aa9dd8fc2daf79c57b47951bcd5c0cb
+ms.sourcegitcommit: 8465ab2ead21b825141c1aa6e77c02a9b7061a66
+ms.openlocfilehash: 5e7ba0d4546c13106e32359c9578a6f0a49d6de7
 
 
 ---
@@ -197,65 +197,16 @@ Microsoft Intune **Android 사용자 지정 구성 정책**을 사용하여 Andr
     |**OMA-URI(대/소문자 구분)**|설정을 제공하려는 OMA-URI를 지정합니다.|
     |**값**|이전에 지정한 OMA-URI와 연결할 값을 지정합니다.|
 
-### 예: 미리 공유한 키를 사용하여 사용자 지정 Wi-Fi 프로필 구성
-Intune에서는 Android 장치에 대한 Wi-Fi 프로필을 지원하지만, 이 기능은 현재 구성에 미리 공유한 키 포함을 지원하지 않습니다. 이 예에서는 Android 장치에서 미리 공유한 키를 사용하여 Wi-Fi 프로필을 생성하는 Android 사용자 지정 정책을 만드는 방법에 대해 알아봅니다.
+### 예
 
-#### 미리 공유한 키를 사용하여 사용자 지정 Wi-Fi 프로필을 만들려면
-
-1.  사용자가 최신 버전의 Android용 [Intune Company Portal](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) 앱을 사용 중인지 확인합니다.
-
-2.  Android 사용자 지정 정책을 만들고 다음과 같은 설정을 추가합니다.
-
-|설정 이름|세부 정보|
-|----------------|--------------------|
-|**설정 이름**|설정에 대해 원하는 이름을 지정합니다.|
-|**설정 설명**|설정에 대한 설명을 지정합니다.|
-|**데이터 형식**|**문자열(XML)**을 선택합니다.|
-|**OMA URI**|./Vendor/MSFT/WiFi/Profile/*&lt;사용 중인 Wi-Fi 프로필&gt;*/Settings를 입력합니다.|
-
-3.  **값**에 대해 다음 XML 코드를 복사하여 붙여넣습니다.
-
-    ```
-    <!--
-    WEP Wifi Profile
-                    <Name of wifi profile> = Name of profile
-                    <SSID of wifi profile> = Plain text version of SSID. Does not need to be escaped, could be <name>Your Company's Network</name>
-                    <WEP password> = Password to connect to the network
-    -->
-    <WLANProfile
-    xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
-      <name><Name of wifi profile></name>
-      <SSIDConfig>
-        <SSID>
-          <name><SSID of wifi profile></name>
-        </SSID>
-      </SSIDConfig>
-      <connectionType>ESS</connectionType>
-      <MSM>
-        <security>
-          <authEncryption>
-            <authentication>open</authentication>
-            <encryption>WEP</encryption>
-            <useOneX>false</useOneX>
-          </authEncryption>
-          <sharedKey>
-            <keyType>networkKey</keyType>
-            <protected>false</protected>
-            <keyMaterial><WEP password></keyMaterial>
-          </sharedKey>
-          <keyIndex>0</keyIndex>
-        </security>
-      </MSM>
-    </WLANProfile>
-    ```
-
-4.  완료되면 정책을 저장하고 필요한 Android 장치에 배포합니다. 새 Wi-Fi 프로필이 장치에 대한 연결 목록에 표시됩니다.
+- [미리 공유한 키를 사용하여 Wi-Fi 프로필 만들기](pre-shared-key-wi-fi-profile.md)
+- [사용자 지정 정책을 사용하여 Android 장치용 앱별 VPN 프로필 만들기](per-app-vpn-for-android-pulse-secure.md)
 
 ### 참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

@@ -3,7 +3,7 @@ title: "Android 장치용 규정 준수 정책 설정 | Microsoft Intune"
 description: "이 항목에서는 Android 장치에 대한 장치 준수 정책 설정에 대해 설명합니다."
 keywords: 
 author: karthikaraman
-manager: arob98
+manager: angrobe
 ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 465a5f305ac191fdf761997df565423f4349ff91
-ms.openlocfilehash: ed358c07594507d3a9144e9c686b54dcbd30aede
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: f99158924b83254efedb8663b9d6175a6b6775b1
 
 
 ---
@@ -76,6 +76,6 @@ ms.openlocfilehash: ed358c07594507d3a9144e9c686b54dcbd30aede
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Jul16_HO5-->
 
 

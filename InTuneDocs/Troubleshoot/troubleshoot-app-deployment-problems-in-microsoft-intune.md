@@ -2,9 +2,9 @@
 title: "앱 배포 문제 해결 | Microsoft Intune"
 description: "이 항목은 Microsoft Intune에서 앱 배포 문제를 해결하는 데 도움을 줍니다."
 keywords: 
-author: Nbigman
-manager: jeffgilb
-ms.date: 05/26/2016
+author: robstack
+manager: angrobe
+ms.date: 08/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 28ac298e-fb73-4c1c-b3fd-8336639e05e6
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 2aef2df385cd17a0f261789c735282f4985cb442
+ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
+ms.openlocfilehash: 44af28c18980e549924139badd8f3ca439dc29b3
 
 
 ---
@@ -81,7 +81,7 @@ ms.openlocfilehash: 2aef2df385cd17a0f261789c735282f4985cb442
 
 ### 오류: 게시자가 없습니다.
 ** 기타 소프트웨어 계약 추가**를 사용하여 타사 사용권 계약을 추가합니다. **기타 소프트웨어 사용권 계약** 페이지에서 게시자 추가를 시도합니다. 이 페이지에는 기존 게시자 목록이 사전순으로 제공됩니다.
-누락된 게시자를 입력했지만 **게시자가 없습니다.**라는 오류가 나타납니다. 
+누락된 게시자를 입력했지만 **게시자가 없습니다.**라는 오류가 나타납니다.
 
 이것은 설계된 사항입니다. Intune은 많이 사용되는 소프트웨어 제목에 대해서만 라이선스 추적을 제공합니다. 라이선싱 작업에서 선택이 가능해지려면 Intune에 별도의 소프트웨어 계정 보고가 적어도 4개 필요합니다.
 
@@ -105,6 +105,6 @@ ms.openlocfilehash: 2aef2df385cd17a0f261789c735282f4985cb442
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

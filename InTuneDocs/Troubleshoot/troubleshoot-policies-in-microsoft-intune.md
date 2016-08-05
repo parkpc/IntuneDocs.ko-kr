@@ -2,19 +2,19 @@
 title: "정책 문제 해결 | Microsoft Intune"
 description: "정책 구성 문제를 해결합니다."
 keywords: 
-author: Nbigman
-manager: jeffgilb
-ms.date: 05/26/2016
+author: robstack
+manager: angrobe
+ms.date: 08/01/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 99fb6db6-21c5-46cd-980d-50f063ab8ab8
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 64518fc58a97c0d5060d909b60df565c19498389
+ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
+ms.openlocfilehash: 98f15f304d5d372d05abfdd296ddff1ef98dd3eb
 
 
 ---
@@ -77,10 +77,6 @@ Intune 관리 콘솔에서 모든 장치에는 **장치 속성**아래에 정책
 
 4.  알림 슬라이더를 기본 설정으로 이동합니다.
 
-## KNOX 장치에 대한 0x87D1FDE8 오류
-**문제**: 다양한 Android 장치에 대한 삼성 KNOX용 Exchange Active Sync 메일 프로필을 만들고 배포한 후 장치의 속성 &gt; 정책 탭에 **0x87D1FDE8** 또는 **관리 실패**라는 오류가 보고됩니다.
-
-삼성 KNOX 및 소스 정책에 대한 EAS 프로필 구성을 확인하세요. Samsung KNOX 동기화 옵션은 더 이상 지원되지 않으며, 해당 옵션은 프로필에서 선택하면 안 됩니다. 장치가 최대 24시간까지 정책을 처리하기에 충분한 시간을 갖도록 합니다.
 
 ## 경고: Exchange에 액세스 규칙 저장 실패
 **문제**: 관리 콘솔에에 **Exchange에 액세스 규칙 저장 실패**  라는 경고가 표시됩니다.
@@ -113,6 +109,6 @@ Android MDM에서는 다른 플랫폼에서 허용하는 것처럼 서비스가 
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

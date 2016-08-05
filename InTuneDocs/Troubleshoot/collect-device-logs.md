@@ -3,25 +3,25 @@ title: "장치 로그 수집 | Microsoft Intune"
 description: 
 keywords: 
 author: Nbigman
-manager: jeffgilb
+manager: angrobe
 ms.date: 06/01/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d97fb610-9d88-40e5-bb06-447eec533630
-ms.reviewer: jeffgilb
+ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ac5c66f57194a84580aa495a58e5281683aa1cca
-ms.openlocfilehash: 4fc08fcea6cea897b9ddc3d0c00f2d83069f639d
+ms.sourcegitcommit: eeb0aeac2f94dfde50d9398b09c6b21c7ae40624
+ms.openlocfilehash: fb4bc718212480b9e44dc964b432dc2e37b3e531
 
 
 ---
 
 # 장치 로그
 
-문제 해결 과정의 일환으로 사용자 장치에서 로그를 수집할 수 있습니다. 이러한 로그를 수집하기 위한 지침은 여기에 설명되어 있습니다. 일반적으로 장치에 액세스하거나, 로그를 수집하여 해당 로그를 보내달라고 사용자에게 요청할 수 있습니다. 
+문제 해결 과정의 일환으로 사용자 장치에서 로그를 수집할 수 있습니다. 이러한 로그를 수집하기 위한 지침은 여기에 설명되어 있습니다. 일반적으로 장치에 액세스하거나, 로그를 수집하여 해당 로그를 보내달라고 사용자에게 요청할 수 있습니다.
 
 ### Android 로그 위치
 Android 로그는 *<Android Device>\Phone\Android\data\com.microsoft.windowsintune.companyportal\files*에 있습니다. [Send Android diagnostic data logs to your IT administrator using email](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-email-android)(메일을 사용하여 IT 관리자에게 Android 진단 데이터 로그 보내기) 항목에 설명된 대로 사용자가 로그 파일을 메일로 보낼 수도 있습니다.
@@ -46,6 +46,6 @@ Windows 회사 포털의 경우 로그는 *%localappdata%\Packages\Microsoft.Com
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

@@ -3,7 +3,7 @@ title: "앱 줄 바꿈 도구를 사용하여 Android 앱 줄 바꿈 | Microsoft
 description: "이 항목의 정보를 사용하여 앱 자체의 코드를 수정하지 않고 Android 앱을 줄 바꿈하는 방법에 대해 알아봅니다. 모바일 앱 관리 정책을 적용할 수 있도록 앱을 준비합니다."
 keywords: 
 author: karthikaraman
-manager: arob98
+manager: angrobe
 ms.date: 07/06/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: matgates
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
-ms.openlocfilehash: 15d0877f799c89e2a8af65c416c0e914f898641f
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: 061bde9155c30bf8d7063d40478bbdf35fc7b53a
 
 
 ---
@@ -175,6 +175,6 @@ ADAL을 사용하는 앱은 다음 조건을 충족해야 합니다.
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Jul16_HO5-->
 
 

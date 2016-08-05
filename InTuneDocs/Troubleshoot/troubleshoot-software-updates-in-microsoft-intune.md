@@ -2,9 +2,9 @@
 title: "소프트웨어 업데이트 문제 해결 | Microsoft Intune"
 description: "Microsoft Intune에서 소프트웨어 업데이트 문제를 해결합니다."
 keywords: 
-author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+author: robstack
+manager: angrobe
+ms.date: 08/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: d17b70f4-17b4-4d89-88fd-70fa4f34fbea
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: b5e561b17f385d828fbd34658e4c30ac62ab0ea3
+ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
+ms.openlocfilehash: fd490bf3e745e8d0020299dc9be78bb7288edb0d
 
 
 ---
@@ -244,7 +244,7 @@ ms.openlocfilehash: b5e561b17f385d828fbd34658e4c30ac62ab0ea3
 **문제**: Microsoft Intune 클라이언트에 다음과 같은 증상이 하나 이상 나타나는 상황이 발생할 수 있습니다.
 - Microsoft 관리 콘솔에 대한 보고가 갑자기 중단됩니다.  
 - CPU 사용률이 높아집니다.
-- Intune 포털을 통해 설치하는 경우, 응용 프로그램이 느리게 설치됩니다. 
+- Intune 포털을 통해 설치하는 경우, 응용 프로그램이 느리게 설치됩니다.
 - Microsoft Intune Center에서 다음과 같은 오류가 트리거됩니다. *컴퓨터를 업데이트하는 동안 오류가 발생했습니다. 발견된 오류: 코드 0x800705b4*.
 - Intune 관리 콘솔 > 그룹 > 모든 장치 아래 상태 필드에 다음 메시지가 표시됩니다. *이 컴퓨터에 설치된 하나 이상의 에이전트에서 오류가 발생했습니다. 이 컴퓨터에 대한 정보는 정확하지 않거나 최신 상태가 아닐 수 있습니다*.
 
@@ -254,7 +254,7 @@ ms.openlocfilehash: b5e561b17f385d828fbd34658e4c30ac62ab0ea3
 1. [Intune 관리 콘솔](https://manage.microsoft.com)에 로그온합니다.
 2. **업데이트** > **모든 업데이트**를 선택합니다.
 3. 위쪽 도구 모음에서 필터 옵션을 사용하여 대체된 업데이트를 필터링합니다.
-4. Windows 7 또는 영향을 받는 클라이언트에 설치된 응용 프로그램(예: Microsoft Office)에 적용될만한 대체되는 업데이트를 모두 거부합니다. 
+4. Windows 7 또는 영향을 받는 클라이언트에 설치된 응용 프로그램(예: Microsoft Office)에 적용될만한 대체되는 업데이트를 모두 거부합니다.
 5. 영향을 받는 클라이언트를 다시 시작합니다.
 
 또한 Windows 7을 실행하는 경우, 다음 업데이트를 반드시 설치해야 합니다. [3050265 Windows Update Client for Windows 7: June 2015](https://support.microsoft.com/kb/3050265)
@@ -264,7 +264,6 @@ ms.openlocfilehash: b5e561b17f385d828fbd34658e4c30ac62ab0ea3
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

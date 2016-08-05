@@ -3,18 +3,18 @@ title: "회사 리소스 액세스 문제 해결 | Microsoft Intune"
 description: "이 항목의 오류 및 상태 코드는 리소스 액세스 문제를 해결하는 데 도움이 됩니다."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 08/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 40622ced-6029-4abf-873e-b51d2b51934c
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 9a4dce9d7b963e03ceeeba35ba1e529384f42d06
+ms.sourcegitcommit: eeb0aeac2f94dfde50d9398b09c6b21c7ae40624
+ms.openlocfilehash: 144fa2e18670805ef46cf2d3db86ec254cdfdf77
 
 
 ---
@@ -372,6 +372,6 @@ Microsoft Intune 작업이 오류 코드를 반환하는 경우, 문제 해결�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 
