@@ -5,7 +5,7 @@ description: "Intune で管理する Android デバイスの設定と機能を�
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 08/03/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 71cc39cf-e726-40fd-8d08-78776e099a4b
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6e3e81f37e677a016ac49240cc70602a568afcd5
-ms.openlocfilehash: 9385ca0e5aa9dd8fc2daf79c57b47951bcd5c0cb
+ms.sourcegitcommit: 8465ab2ead21b825141c1aa6e77c02a9b7061a66
+ms.openlocfilehash: 5e7ba0d4546c13106e32359c9578a6f0a49d6de7
 
 
 ---
@@ -197,65 +197,16 @@ Microsoft Intune **Android カスタム構成ポリシー**を使用して、And
     |**OMA-URI (大文字と小文字を区別する)**|設定対象の OMA-URI を指定します。|
     |**値**|以前に指定した OMA-URI に関連付ける値を指定します。|
 
-### 例: 事前共有キーを持つカスタム Wi-Fi プロファイルの構成
-Intune は Android デバイスの Wi-Fi プロファイルをサポートしていますが、現在のこの機能では、構成に事前共有キーを含めることはサポートされていません。 この例では、Android デバイスの事前共有キーを持つ Wi-Fi プロファイルを作成する Android カスタム ポリシーを作成する方法について学習します。
+### 例
 
-#### 事前共有キーを持つ Wi-Fi プロファイルを作成するには
-
-1.  ユーザーが最新バージョンの Android 用 [Intune ポータル サイト](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) アプリを使用していることを確認します。
-
-2.  Android カスタム ポリシーを作成し、次の設定を追加します。
-
-|設定の名前|説明|
-|----------------|--------------------|
-|**設定の名前**|設定には、任意の名前を指定します。|
-|**設定の説明**|設定の説明を指定します。|
-|**［データの種類］**|**[文字列 (XML)]** を選択します。|
-|**OMA-URI**|「./Vendor/MSFT/WiFi/Profile/*&lt;your Wi-Fi profile&gt;*/Settings」のように入力します。|
-
-3.  **[値]** に、次の XML コードをコピーして貼り付けます。
-
-    ```
-    <!--
-    WEP Wifi Profile
-                    <Name of wifi profile> = Name of profile
-                    <SSID of wifi profile> = Plain text version of SSID. Does not need to be escaped, could be <name>Your Company's Network</name>
-                    <WEP password> = Password to connect to the network
-    -->
-    <WLANProfile
-    xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
-      <name><Name of wifi profile></name>
-      <SSIDConfig>
-        <SSID>
-          <name><SSID of wifi profile></name>
-        </SSID>
-      </SSIDConfig>
-      <connectionType>ESS</connectionType>
-      <MSM>
-        <security>
-          <authEncryption>
-            <authentication>open</authentication>
-            <encryption>WEP</encryption>
-            <useOneX>false</useOneX>
-          </authEncryption>
-          <sharedKey>
-            <keyType>networkKey</keyType>
-            <protected>false</protected>
-            <keyMaterial><WEP password></keyMaterial>
-          </sharedKey>
-          <keyIndex>0</keyIndex>
-        </security>
-      </MSM>
-    </WLANProfile>
-    ```
-
-4.  操作を完了したら、ポリシーを保存し、必要な Android デバイスに展開します。 新しい Wi-Fi プロファイルは、デバイスの接続の一覧に表示されます。
+- [事前共有キーを使用した Wi-Fi プロファイルの作成](pre-shared-key-wi-fi-profile.md)
+- [カスタム ポリシーを使用して、Android デバイスにアプリごとの VPN プロファイルを作成する](per-app-vpn-for-android-pulse-secure.md)
 
 ### 関連項目
 [Microsoft Intune ポリシーを使用してデバイスの設定と機能を管理する](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 
