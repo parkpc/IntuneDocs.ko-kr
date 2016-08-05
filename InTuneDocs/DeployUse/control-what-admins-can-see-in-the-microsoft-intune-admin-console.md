@@ -3,7 +3,7 @@ title: "관리자 역할에 대한 콘솔 보기 사용자 지정 | Microsoft In
 description: "이 항목에서는 Intune 관리 콘솔 보기를 필터링하여 관리자만 해당 역할에 필요한 항목을 확인하도록 할 수 있습니다."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,16 +13,16 @@ ms.assetid: e0783eaa-67dc-410e-9e80-4d3aa72f36d8
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: 132648f4c4d13983b169fa8497deae9787fe6db5
+ms.sourcegitcommit: 217655d3c33ac88672f0739302f182cf6a6ae335
+ms.openlocfilehash: dc9bb2992d3e3ed8134cfa2146295e16edf4e459
 
 
 ---
 
 # 관리자 역할에 따라 Intune 콘솔 보기 사용자 지정
-Microsoft Intune 관리 콘솔 보기를 필터링하여 관리자만 해당 역할에서 참조해야 하는 항목을 확인하도록 할 수 있습니다. 예를 들어, 맬웨어 정의 업데이트 또는 장치에 대한 암호 재설정을 관리 콘솔 운영자에게만 허용할 수 있습니다. 특정 사용자에게 할당하는 사전 설정된 **명칭**을 사용하여 수행할 수 있습니다. 이러한 사용자가 관리 콘솔에 액세스하는 경우 자신의 명칭에 해당하는 항목만 보입니다.
+Microsoft Intune 관리 콘솔 보기를 필터링하여 관리자만 해당 역할에서 참조해야 하는 항목을 확인하도록 할 수 있습니다. 예를 들어, 맬웨어 정의 업데이트 또는 장치에 대한 암호 재설정을 관리 콘솔 운영자에게만 허용할 수 있습니다. 특정 사용자에게 할당하는 사전 설정된 **명칭**을 사용하여 수행할 수 있습니다. 이러한 사용자가 관리 콘솔에 액세스하는 경우 자신의 명칭에 해당하는 항목만 볼 수 있습니다.
 
-## 사용자 지정 보기를 만드는 방법
+## 사용자 지정 보기를 만들려면
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리**&gt; **서비스 관리자**를 선택합니다.
 
@@ -68,6 +68,6 @@ Microsoft Intune 관리 콘솔 보기를 필터링하여 관리자만 해당 역
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

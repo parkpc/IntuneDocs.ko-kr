@@ -1,6 +1,6 @@
 ---
 title: "장치 등록 | Microsoft Intune"
-description: "Microsoft Intune MDM(모바일 장치 관리)에서는 등록을 사용하여 장치를 관리하고 리소스에 대한 액세스를 허용합니다."
+description: "MDM(모바일 장치 관리)에서는 등록을 사용하여 장치를 관리하고 리소스에 대한 액세스를 허용합니다."
 keywords: 
 author: NathBarn
 manager: arob98
@@ -13,8 +13,8 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
-ms.openlocfilehash: d128b9c9f0c9eda70abed058afeb665377047f66
+ms.sourcegitcommit: 6256b1ed5edb72bf9f623555a4c6e3fddb864b32
+ms.openlocfilehash: 71f0637a1cb6fdafb590ca274fcc0f80707ed6ce
 
 
 ---
@@ -89,7 +89,7 @@ USB로 연결된 설치 도우미 등록입니다. 관리자가 Intune 정책을
   - 메일 및 회사 데이터에 대한 조건부 액세스
   - 회사 포털 앱
 
-[사용자 선호도](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#enrollment-of-company-owned-ios-devices-with-user-affinity)([테이블로 돌아가기](#overview-of-device-enrollment-methods))
+[사용자 선호도](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#user-affinity-for-ios-corporate-owned-devices-using-the-company-portal)([테이블로 돌아가기](#overview-of-device-enrollment-methods))
 
 ### 잠금
 사용자가 Intune 정책을 제거하는 것(사실상 관리에서 장치를 제거하는 동작)을 방지하기 위해 장치를 잠글 수 있는지 여부를 지정합니다. iOS 장치의 경우 장치를 잠그려면 감독 모드여야 합니다.
@@ -124,6 +124,6 @@ Intune 클라이언트 소프트웨어로 관리된 컴퓨터는 선택적으로
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

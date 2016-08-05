@@ -3,7 +3,7 @@ title: "Android 장치용 규정 준수 정책 설정 | Microsoft Intune"
 description: "이 항목에서는 Android 장치에 대한 장치 준수 정책 설정에 대해 설명합니다."
 keywords: 
 author: karthikaraman
-manager: jeffgilb
+manager: arob98
 ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 359f76daa35a14e4107a9e03c6a1b1f4d1215777
-ms.openlocfilehash: 38763f73ebb3e6d629c2e7ea43ad34514a8b3ad5
+ms.sourcegitcommit: 465a5f305ac191fdf761997df565423f4349ff91
+ms.openlocfilehash: ed358c07594507d3a9144e9c686b54dcbd30aede
 
 
 ---
@@ -56,9 +56,17 @@ ms.openlocfilehash: 38763f73ebb3e6d629c2e7ea43ad34514a8b3ad5
 ### 암호화
 - **모바일 장치 암호화 필요:** **예**로 설정하여 리소스에 연결하기 위해 장치를 암호화하도록 해야 합니다. 장치는 **모바일 장치의 잠금을 해제하는 데 암호 필요** 설정을 구성하면 암호화됩니다.
 
-## 장치 상태 설정
+## 장치 상태 및 보안 설정
 
 - **장치는 탈옥 또는 루팅되지 않아야 함:** 이 설정을 사용하도록 설정하는 경우 탈옥된 장치가 비규격 상태로 평가됩니다.
+- **장치가 알 수 없는 소스의 앱 설치를 방지해야 함(Android 4.0 이상).** **보안 > 알 수 없는 소스**를 사용하도록 설정한 장치를 차단하려면 이 설정을 사용하도록 설정하고 **예**로 설정합니다.  
+>[!IMPORTANT]
+>앱을 테스트용으로 로드하려면 **알 수 없는 소스**를 사용하도록 설정해야 합니다.  장치에서 Android 앱을 테스트용으로 로드하지 않는 경우에만 이 준수 정책을 적용해야 합니다.
+
+- **USB 디버깅을 사용하지 않도록 설정되어야 함(Android 4.2 이상)**: 이 설정은 장치에 USB 디버깅 옵션을 감지하는 기능이 사용하도록 설정되어 있는지 여부를 지정합니다.
+- **장치의 보안 위협 검색을 사용하도록 장치가 설정되어 있어야 함(Android 4.2 4.4 이상)**: 이 설정은 장치에 **앱 확인** 기능이 사용하도록 설정되어 있는지 지정합니다.
+- **최소 Android 보안 패치 수준(Android 6.0 이상)**: 최소 Android 패치 수준이 지정하려면 이 설정을 사용합니다.  적어도 이 패치 수준에 없는 장치가 비규격 장치가 됩니다. 날짜는 YYYY-MM-DD 형식으로 지정해야 합니다.
+
 
 ## 장치 속성 설정
 - **필요한 최소 OS:** 장치가 OS 최소 버전 요구 사항을 충족하지 못하면 비규격 장치로 보고됩니다.
@@ -68,6 +76,6 @@ ms.openlocfilehash: 38763f73ebb3e6d629c2e7ea43ad34514a8b3ad5
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

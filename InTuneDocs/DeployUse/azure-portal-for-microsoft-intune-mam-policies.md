@@ -3,8 +3,8 @@ title: "MAM 정책용 Azure 포털 | Microsoft Intune"
 description: "Azure 포털을 사용하여 모바일 앱 관리 정책을 만듭니다. 여기에서 만든 정책은 Intune에 등록되었거나 등록되지 않은 장치에 적용할 수 있습니다."
 keywords: 
 author: karthikaraman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 7d6dae94-a833-40b7-9016-14ea234bb33c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 359f76daa35a14e4107a9e03c6a1b1f4d1215777
-ms.openlocfilehash: c466a854474c1c5ba3270f848caa51edcd5b6856
+ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
+ms.openlocfilehash: 22aea1a9a2ff55ae7a8a115fae31b1358305a4a5
 
 
 ---
@@ -40,13 +40,13 @@ Azure 포털은 다음의 경우 MAM 정책을 만들도록 지원합니다.
 
     ![Azure 포털 로그인 페이지의 스크린 샷](../media/AppManagement/AzurePortal_MAMSigninPage.png)
 
-2.  성공적으로 로그인하면 **대시보드**가 표시됩니다. **대시보드** 페이지에는 페이지를 사용자 지정하기 위해 제거하고 새로 추가할 수 있는 기본 타일 집합이 제공됩니다.
+2.  성공적으로 로그인하면 **대시보드**가 표시됩니다. **대시보드** 페이지를 사용자 지정할 수 있습니다.
 
     ![Azure 포털 대시보드의 스크린 샷](../media/AppManagement/AzurePortal_MAMStartboard_NoMAM.png)
 
 3.  **찾아보기** 메뉴에서 **Intune**을 찾습니다.![Intune이 강조 표시된 찾아보기 메뉴의 스크린샷](../media/AppManagement/AzurePortal_MAM_Browse_Intune.png)
 
-4.  **Intune > Intune 모바일 응용 프로그램 관리 > 설정**을 클릭합니다.
+4.  **Intune > Intune 모바일 응용 프로그램 관리 > 설정**을 선택합니다.
 
     ![Intune 모바일 응용 프로그램 관리 블레이드의 스크린 샷](../media/AppManagement/AzurePortal_MAM_Mainblade.png)
 
@@ -61,6 +61,6 @@ Azure 포털은 다음의 경우 MAM 정책을 만들도록 지원합니다.
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

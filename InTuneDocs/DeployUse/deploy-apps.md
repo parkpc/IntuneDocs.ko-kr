@@ -3,7 +3,7 @@ title: "앱 배포 | Microsoft Intune"
 description: "이 항목에서는 Intune을 사용하여 앱을 배포하기 전에 이해해야 하는 개념을 설명합니다."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: ad5ea85c-aa2e-4110-a184-172cd0b8f270
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: 84f19cd198a2367abb0267071bd73ce8ac6d7d05
+ms.sourcegitcommit: c4a760b6362356a6bafa8b6acc69299647a5e0f3
+ms.openlocfilehash: 377597aabc03c020060e2851c6fc25e0c780ea51
 
 
 ---
@@ -27,14 +27,14 @@ ms.openlocfilehash: 84f19cd198a2367abb0267071bd73ce8ac6d7d05
 ## 앱 배포 작업
 앱을 배포할 때 다음과 같은 배포 작업 중 하나를 선택할 수 있습니다.
 
--   **필수 설치** – 최종 사용자 개입 없이 앱이 장치에 설치됩니다.
+-   **필수 설치** – 사용자 개입 없이 앱이 장치에 설치됩니다.
 
     > [!TIP]
     > 감독 모드로 설정되지 않은 iOS 장치 및 모든 Android 장치의 경우 사용자가 앱을 허용해야 앱이 설치됩니다.
-    > 
-    >  필수 설치로 배포한 앱을 최종 사용자가 제거하는 경우 Intune은 일반적으로 7일마다 발생하는 다음번 인벤토리 주기 이후에 해당 앱을 자동으로 다시 설치합니다.
+    >
+    >  필수 설치로 배포한 앱을 사용자가 제거하는 경우 Intune은 일반적으로 7일마다 발생하는 다음 인벤토리 주기 이후에 해당 앱을 자동으로 다시 설치합니다.
 
--   **사용 가능한 설치** – 앱이 회사 포털에 표시되고 최종 사용자가 요청하는 경우 앱을 설치할 수 있습니다.
+-   **사용 가능한 설치** – 앱이 회사 포털에 표시되고 사용자가 요청하는 경우 앱을 설치할 수 있습니다.
 
 -   **제거** - 앱이 장치에서 제거됩니다.
 
@@ -64,7 +64,7 @@ ms.openlocfilehash: 84f19cd198a2367abb0267071bd73ce8ac6d7d05
 
 -   설치 작업이 제거 작업보다 우선합니다.
 
--   장치에 필수 및 사용 가능한 설치 프로그램이 수신되면 이러한 작업이 결합됩니다(앱이 필수이고 사용 가능한 경우, 즉 최종 사용자가 필수 설치를 시작하기 전에 회사 포털에서 설치할 수 있는 경우).
+-   장치에서 필수 설치와 사용 가능한 설치를 모두 수신하면 두 작업이 결합됩니다. 즉 필수 설치가 시작되기 전에 사용자가 회사 포털에서 앱을 설치할 수 있습니다.
 
 
 ## 다음 단계
@@ -73,6 +73,6 @@ ms.openlocfilehash: 84f19cd198a2367abb0267071bd73ce8ac6d7d05
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

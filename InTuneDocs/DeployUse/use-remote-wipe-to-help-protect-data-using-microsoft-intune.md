@@ -1,20 +1,20 @@
 ---
 title: "원격 초기화를 사용하여 데이터 보호 지원 | Microsoft Intune"
-description: 
+description: "Intune에서는 중요한 회사 데이터를 제거하고 많은 회사 리소스에 대한 액세스 권한을 제거할 수 있는 선택적 초기화 및 전체 초기화 기능을 제공합니다."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8519e411-3d48-44eb-9b41-3e4fd6a93112
-ms.reviewer: jeffgilb
+ms.reviewer: lancecra
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 06f144693fe4e535b2ed423c95f5431e391f316f
-ms.openlocfilehash: 077f35afc5084b0381fd330236e45d62e1242484
+ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
+ms.openlocfilehash: c61fd1070f84f359ac6abe9ff48e51d2787c4eb4
 
 
 ---
@@ -142,6 +142,6 @@ EFS로 암호화된 콘텐츠의 선택 초기화는 Windows 8.1 및 Windows RT 
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

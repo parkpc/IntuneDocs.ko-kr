@@ -3,8 +3,8 @@ title: "MAM 정책 구성 준비 | Microsoft Intune"
 description: "이 항목에서는 모바일 앱 관리 정책을 만들기 전에 필요한 필수 구성 요소 및 사용자 설정 작업에 대해 설명합니다."
 keywords: 
 author: karthikaraman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
-ms.openlocfilehash: ca84a9ce4a1a418c1107f11dbb66cf64362a77f5
+ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
+ms.openlocfilehash: 39af738fe83ec6ea2e963d857cc233332063c80b
 
 
 ---
@@ -79,11 +79,13 @@ MAM 정책을 구성하기 *전에* 다음이 필요합니다.
 
     ![Office 포털의 활성 사용자 페이지](../media/AppManagement/OfficePortal_AddUsers.png)
 
+    ![Office 포털에서 사용자 페이지 편집](../media/AppManagement/OfficePortal_AssignLicenses.png)
+
 4.  사용자가 Office 포털, Azure AD 포털 및 Azure 포털에 액세스할 수 있게 하려면 사용자에게 **전역 관리자 역할**을 할당합니다.
 
     ![Office 포털에서 사용자 역할을 편집하기 위한 페이지](../media/AppManagement/OfficePortal_AddRoletoUser.png)
 
-5.  MAM 정책이 Azure Active Directory의 사용자 그룹에 배포됩니다. MAM 정책에 사용자 그룹을 만들려면 Office 포털의 **그룹** 페이지로 이동한 다음 **+** 아이콘을 클릭하여 새 보안 그룹을 만듭니다.  이름 및 설명을 입력하고 **만들기**를 클릭합니다. 그룹이 생성되면 **멤버 편집**을 클릭하여 그룹에 사용자를 추가할 수 있습니다. Azure Active Directory에서 보안 그룹이 생성됩니다.
+5.  MAM 정책이 Azure Active Directory의 사용자 그룹에 배포됩니다. MAM 정책에 사용자 그룹을 만들려면 Office 포털의 **그룹** 페이지로 이동한 다음 위쪽에서 **그룹 추가 옵션**을 클릭하여 새 보안 그룹을 만듭니다.  이름 및 설명을 입력하고 **만들기**를 클릭합니다. 그룹이 생성되면 **멤버 편집**을 클릭하여 그룹에 사용자를 추가할 수 있습니다. Azure Active Directory에서 보안 그룹이 생성됩니다.
 
     ![Office 포털의 보안 그룹에 대한 페이지](../media/AppManagement/OfficePortal_CreateGroups.png)
 
@@ -123,6 +125,6 @@ MAM 정책을 구성하기 *전에* 다음이 필요합니다.
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

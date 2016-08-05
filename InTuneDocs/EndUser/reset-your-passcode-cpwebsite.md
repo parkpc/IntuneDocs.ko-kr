@@ -3,8 +3,8 @@ title: "회사 포털 웹 사이트에서 장치 암호 재설정 | Microsoft In
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 20121bca1075d40d43e8bba371212d03edd06945
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 4fab2d71b7cf2557b73810e5f05b82fb9ba1c36b
 
 
 ---
@@ -25,7 +25,7 @@ ms.openlocfilehash: 20121bca1075d40d43e8bba371212d03edd06945
 
 Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 사용하여 암호를 재설정할 수 있습니다. 회사 포털 웹 사이트는 Intune에 등록한 컴퓨터 및 장치를 관리하는 데 사용할 수 있는 웹 페이지로, 회사 포털 앱을 사용할 때 수행할 수 있는 동일한 작업을 대부분 수행할 수 있습니다.
 
-> [!NOTE] 
+> [!NOTE]
 > IT 관리자가 Intune을 구성한 방법에 따라 회사 포털 웹 사이트에 암호 재설정 단추가 표시되지 않을 수도 있습니다. Windows 8.1 및 Windows RT 장치에서는 암호 재설정이 지원되지 않습니다.
 
 암호를 재설정하려면
@@ -34,7 +34,7 @@ Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [�
 
 2.  **암호 재설정**을 탭합니다.
 
-    ![tap-passcode-to-reset](./media/iwp-1-tap-reset-passcode.png)
+    !resetp-passcode-option-on-company-portal-website](./media/iwp-screen-with-all-options.png)
 
 3.  **로그아웃**을 탭하고 회사 또는 학교 자격 증명을 사용하여 다시 로그인합니다. 5분 내에 다시 로그인해야 합니다.
 
@@ -64,6 +64,7 @@ Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [�
 [Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

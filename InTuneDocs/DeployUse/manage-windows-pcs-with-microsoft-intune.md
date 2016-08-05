@@ -1,26 +1,26 @@
 ---
-title: "Intune PC 클라이언트를 사용하여 Windows PC 관리 | Microsoft Intune"
-description: 
+title: "Intune 클라이언트를 사용하여 Windows PC 관리 | Microsoft Intune"
+description: "Intune 클라이언트 소프트웨어를 설치하여 Windows PC를 관리합니다."
 keywords: 
 author: nathbarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 3b8d22fe-c318-4796-b760-44f1ccf34312
-ms.reviewer: jeffgilb
+ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e09381bbcf073baa67a431546059272e629b5423
-ms.openlocfilehash: d22714f7b6eda1632892785568463fc5bafce8d0
+ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
+ms.openlocfilehash: b01354b62507b9843b53cc4b2c8c1e82a6c422e5
 
 
 ---
 
 # Intune PC 클라이언트 소프트웨어를 사용하여 Windows PC 관리
-[Windows PC를 모바일 장치로 등록](set-up-windows-device-management-with-microsoft-intune.md)하는 대신, Intune 클라이언트 소프트웨어를 설치하여 Windows PC를 관리할 수 있습니다. 
+[Windows PC를 모바일 장치로 등록](set-up-windows-device-management-with-microsoft-intune.md)하는 대신, Intune 클라이언트 소프트웨어를 설치하여 Windows PC를 관리할 수 있습니다.
 
 Intune에서는 Windows Server AD DS(Active Directory 도메인 서비스) GPO(그룹 정책 개체)와 비슷한 방식으로 정책을 사용하여 컴퓨터를 관리합니다. Intune에서 Active Directory 도메인에 가입된 컴퓨터를 관리하려는 경우에는 조직에서 사용 중인 [GPO와 Intune 정책이 충돌하지 않는지를 확인](resolve-gpo-and-microsoft-intune-policy-conflicts.md)해야 합니다.
 
@@ -86,6 +86,6 @@ Intune 클라이언트 에이전트는 보통 백그라운드에서 자동으로
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

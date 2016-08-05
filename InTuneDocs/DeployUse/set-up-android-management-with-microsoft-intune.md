@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Intune을 사용한 Android 관리 설정 | Microsoft Intune"
+title: "Android 관리 설정 | Microsoft Intune"
 description: "Microsoft Intune으로 Android 및 KNOX 장치에 대한 MDM(모바일 장치 관리)를 사용하도록 설정합니다."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
 ms.reviewer: lacranda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f336cf52cbecd93cb7b2850560327e6024302e0
-ms.openlocfilehash: f06dd89d24dae37a9166aae2cf5c7b87b9d26f59
+ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
+ms.openlocfilehash: 147765f6e8225e8e1d9d8e64473e8b6988256b03
 
 
 ---
@@ -46,6 +46,6 @@ Android 모바일 장치에서는 사용자가 Google Play에서 제공되는 �
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

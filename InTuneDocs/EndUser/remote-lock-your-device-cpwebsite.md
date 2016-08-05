@@ -3,18 +3,19 @@ title: "회사 포털 웹 사이트에서 장치 원격 잠금 | Microsoft Intun
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: adc6af23-b22f-42e5-955a-4dffbdb8b42b
+ROBOTS: noindex,nofollow
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 7e5d48d35e8216bac2fae8e2f9a1ba82d3493acc
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 17f4b2a88fdd5976be842b22881f08e6e29e5343
 
 
 ---
@@ -42,15 +43,19 @@ PC(Windows 8.1) | 지원되지 않음
 
 2.  **원격 잠금**을 탭합니다.
 
+    ![remote-lock-option-on-company-portal-website](./media/iwp-screen-with-all-options.png)
+
+3.  해당 장치가 잠긴다고 알리는 경고 메시지를 읽은 다음 **원격 잠금**을 탭하여 회사 포털 웹 사이트에서 장치를 잠그도록 합니다.
+
     **원격 잠금**을 탭하면 "원격 잠금 보류 중" 상태가 표시됩니다.  원격 잠금에 성공하면 상태가 "원격 잠금 성공"으로 변경됩니다.
 
     원격 잠금 상태는 다음 세 위치에 표시됩니다.
 
-    * 웹 사이트의 알림 영역 
+    * 웹 사이트의 알림 영역
     * 장치의 세부 정보 페이지
     * 페이지의 내 장치 섹션에 장치 이름을 보여 주는 타일
 
-    "원격 잠금 실패" 알림이 표시되면 몇 분 정도 기다렸다가 장치 잠금을 다시 시도합니다. 다시 시도를 탭하면 "원격 잠금 보류 중"으로 상태가 다시 변경됩니다. 
+    "원격 잠금 실패" 알림이 표시되면 몇 분 정도 기다렸다가 장치 잠금을 다시 시도합니다. 다시 시도를 탭하면 "원격 잠금 보류 중"으로 상태가 다시 변경됩니다.
 
     다시 시도가 작동하지 않으면 IT 관리자에게 문의하세요. 장치를 찾아 원격 잠금을 사용한 후 잠금을 해제하려면 암호를 입력하면 됩니다.
 
@@ -60,6 +65,7 @@ PC(Windows 8.1) | 지원되지 않음
 [Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Jul16_HO4-->
 
 

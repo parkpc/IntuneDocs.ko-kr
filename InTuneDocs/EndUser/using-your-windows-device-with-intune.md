@@ -3,8 +3,8 @@ title: "Intune에서 Windows 장치 사용 | Microsoft Intune"
 description: "Intune에서 장치가 등록될 때 Windows 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록"
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 07/20/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,15 @@ ms.assetid: 0de5f03a-c288-423b-b9ea-493a39eb715a
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 018d8936fe9158ebd85920cac978844e6949fb64
-ms.openlocfilehash: c1fe0db8967ad2c483718bdc908097967be8b459
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 85e6b4c4e507b83ba4a5f104e552e5a4f1fd68f2
 
 
 ---
 
 # Intune에서 Windows 장치 사용
 
-이 문서의 단계를 통해 회사에서 Microsoft Intune을 사용 중일 때 Windows 장치 또는 컴퓨터에서 수행해야 하는 작업을 진행할 수 있습니다.
+이 페이지에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 작업에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 작업 수행을 위해 사용자가 따르는 단계를 확인합니다. 등록 관련 정보, 관리 작업 및 준수 문제와 같이 범주별로 그룹화되어 있습니다.
 
 ## 회사 포털 앱을 설치 및 Intune 등록
 
@@ -57,8 +57,6 @@ ms.openlocfilehash: c1fe0db8967ad2c483718bdc908097967be8b459
 
 
 
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

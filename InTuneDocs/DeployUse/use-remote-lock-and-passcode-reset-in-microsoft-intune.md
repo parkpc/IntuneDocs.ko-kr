@@ -1,18 +1,19 @@
 ---
 title: "원격 잠금 및 암호 재설정 사용 | Microsoft Intune"
-description: 
+description: "Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
+ms.reviewer: chrisgre
 translationtype: Human Translation
-ms.sourcegitcommit: 6d9b79a09eef2546d78a19e061ba5cc3f24f645c
-ms.openlocfilehash: 34379881b8299a2e3f9886b14b6d83e9dfe83373
+ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
+ms.openlocfilehash: c2b4b6308569e1e67a1c3da18c12d19bdeecf08e
 
 ---
 # 원격 잠금 또는 암호 재설정으로 장치 보호 지원
@@ -25,7 +26,7 @@ Microsoft Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다
 |------------|---------------|
 |iOS|지원됨|
 |Android|지원됨|
-|Windows 10 Mobile|지원됨|
+|Windows 10 및 Windows 10 Mobile|지원됨|
 |Windows Phone 8 및 Windows Phone 8.1|지원됨|
 |Windows RT 8.1 및 Windows RT|장치의 현재 사용자가 장치를 등록한 사용자인 경우 지원됨|
 |Windows 8.1|장치의 현재 사용자가 장치를 등록한 사용자인 경우 지원됨|
@@ -72,6 +73,6 @@ Microsoft Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

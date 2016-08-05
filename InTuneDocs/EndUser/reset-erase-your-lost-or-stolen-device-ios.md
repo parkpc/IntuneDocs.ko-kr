@@ -3,8 +3,8 @@ title: "분실하거나 도난당한 iOS 장치 초기화(지우기) | Microsoft
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 05/09/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 9ab65b409bbb2168e3457050202d6e88db0472d2
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: f6e7e40973428762995feceac109a8367813dadd
 
 
 ---
@@ -30,7 +30,7 @@ Intune에 등록한 휴대폰을 분실하거나 도난당한 경우에는 다�
 
 ## 회사 포털 앱을 사용하여 장치를 초기화하려면
 
-1.  브라우저에서 회사 포털을 열고 회사 계정에 로그인합니다.
+1.  등록된 다른 장치에서 회사 포털 앱을 열고 회사 또는 학교 계정을 사용하여 로그인합니다.
 
 2.  **내 장치**에서 분실 또는 도난당한 장치를 선택합니다.
 
@@ -40,7 +40,7 @@ Intune에 등록한 휴대폰을 분실하거나 도난당한 경우에는 다�
 
 다음 단계를 따르거나 이 비디오를 시청하세요.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=6UFtBrBWUUI&feature=youtu.be" frameborder="0" allowfullscreen></iframe>
+<iframe width="675" height="379" src="https://www.youtube.com/embed/3rrXe8XmtgU" frameborder="0" allowfullscreen></iframe>
 
 1.  [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에서 지우려는 장치를 선택합니다.
 
@@ -52,6 +52,7 @@ Intune에 등록한 휴대폰을 분실하거나 도난당한 경우에는 다�
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

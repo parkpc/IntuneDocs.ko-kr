@@ -3,7 +3,7 @@ title: "PSK를 사용한 Wi-Fi | Microsoft Intune"
 description: "사용자 지정 구성을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만듭니다."
 keywords: 
 author: nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: afdd0c3569c0c294a9bef47755de2d9e77e7507d
+ms.sourcegitcommit: 8fe47a5843414fbe4add7f77df63c0d6466273cd
+ms.openlocfilehash: f15fce6890d6e5850d12115a97bf7331ce515508
 
 
 
@@ -40,12 +40,15 @@ Intune의 **사용자 지정 구성**을 사용하여 미리 공유한 키로 Wi
 
    c.   **데이터 형식**: "String(XML)"으로 설정합니다.
 
-   d.   **OMA-URI**: ./Vendor/MSFT/Wi-Fi /Profile/<SSID>/Settings
+   d.   **OMA URI** 
+        
+- **Android용**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
+- **Windows용**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
 
 참고: 시작 부분에 점 문자를 포함해야 합니다.
 
 SSID는 정책을 만들고 있는 SSID입니다. 예:
-`./Vendor/MSFT/Wi-Fi/Profile/Hotspot-1/Settings`
+`./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`
 
   e.    값 필드: XML 코드를 붙여 넣을 위치입니다. 아래 예를 살펴보세요. 각 값을 네트워크 설정에 맞게 조정해야 합니다. 일부 포인터에 대해서는 코드의 주석 섹션을 참조하세요.
 
@@ -197,6 +200,6 @@ EAP 기반 Wi-Fi 프로필에 대한 XML 코드 예제는 다음과 같습니다
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

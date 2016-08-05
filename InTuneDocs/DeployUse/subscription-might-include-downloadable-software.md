@@ -1,18 +1,19 @@
 ---
-title: "유료 Microsoft Intune 또는 Enterprise Mobility 구독에는 특정 소프트웨어를 다운로드할 수 있는 라이선스가 포함되어 있을 수 있음 | Microsoft Intune"
-description: 
+title: "다운로드 가능한 소프트웨어 | Microsoft Intune"
+description: "Intune 또는 EMS 구독에서 제공되는 다운로드에 사용할 수 있는 소프트웨어를 검토합니다."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 06/08/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
 ms.technology: 
 ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
+ms.reviewer: amyro
 translationtype: Human Translation
-ms.sourcegitcommit: 4b4371fd7c505db75e18505160de88456fceece2
-ms.openlocfilehash: de8d822c9df7aa0235a998a64b412afd6fc48bd5
+ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
+ms.openlocfilehash: eb85109bdb406dc452936b8b9c366615672fe8b4
 
 
 ---
@@ -40,6 +41,6 @@ ms.openlocfilehash: de8d822c9df7aa0235a998a64b412afd6fc48bd5
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

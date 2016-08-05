@@ -1,20 +1,20 @@
 ---
-title: "Microsoft Intune에 사용할 Symantec 엔터프라이즈 코드 서명 인증서 갱신 | Microsoft Intune"
-description: 
+title: "Intune에 사용할 Symantec 엔터프라이즈 코드 서명 인증서 갱신 | Microsoft Intune"
+description: "특정 Windows 및 Windows Phone 모바일 장치를 관리하는 데 사용되는 Symantec 인증서 갱신 지침"
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c4813044-a925-4273-b0ec-e992fd55850a
-ms.reviewer: jeffgilb
+ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: 566a226c19825990c6a34bffbbd9d1cd6a242ddb
+ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
+ms.openlocfilehash: afb669f1e867b386bfb5a80bbb4a665be7b71478
 
 
 ---
@@ -66,6 +66,6 @@ ms.openlocfilehash: 566a226c19825990c6a34bffbbd9d1cd6a242ddb
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO4-->
 
 

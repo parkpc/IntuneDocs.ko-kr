@@ -1,10 +1,10 @@
 ---
 title: "장치를 관리하는 방법 선택 | Microsoft Intune"
-description: 
+description: "장치를 등록하고 관리할 수 있는 다양한 방법에 대해 알아봅니다."
 keywords: 
-author: jeffgilb
-manager: jeffgilb
-ms.date: 04/28/2016
+author: robstackmsft
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 770aad50-fd7a-4cf1-a793-f95fe47fc3f8
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4a7c6d8f4e47f050888e9fcf5edfa586c4a24065
-ms.openlocfilehash: 502a08c1bf49057220917d929a8ffe0b98d3de2a
+ms.sourcegitcommit: 76d0d9c620000864a4a554600985ba351c18d359
+ms.openlocfilehash: 067838593f7a222b5949cbfaf20744104030aee6
 
 
 ---
@@ -80,6 +80,6 @@ Exchange와 함께 온-프레미스 커넥터 또는 서비스 간 커넥터를 
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

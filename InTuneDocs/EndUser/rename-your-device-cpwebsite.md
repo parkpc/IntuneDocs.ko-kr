@@ -3,8 +3,8 @@ title: "회사 포털 웹 사이트에서 장치 이름 바꾸기 | Microsoft In
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 76c1e1be72fe14e293dbb6783814df79128b54f2
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: dc9d01cb24fbdd594c7f84b72d244d81a08d4384
 
 
 ---
@@ -31,7 +31,7 @@ ms.openlocfilehash: 76c1e1be72fe14e293dbb6783814df79128b54f2
 
 2.  **이름 바꾸기**를 탭합니다.
 
-    ![rename-device](./media/iwp-1-tap-reset-passcode.png)
+    ![rename-device-option-on-company-portal-website](./media/iwp-screen-with-all-options.png)
 
 3.  현재 장치 이름이 나타나는 상자에서 장치의 새 이름을 입력한 후 **이름 바꾸기** 단추를 탭합니다. 이제 장치가 새 이름으로 나타납니다.
 
@@ -41,6 +41,7 @@ ms.openlocfilehash: 76c1e1be72fe14e293dbb6783814df79128b54f2
 [Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

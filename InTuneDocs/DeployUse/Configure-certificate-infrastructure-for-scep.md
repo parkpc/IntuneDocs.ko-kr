@@ -3,8 +3,8 @@ title: "SCEP 인증서 인프라 구성 | Microsoft Intune"
 description: "SCEP 인증서 프로필을 만들고 배포하기 위한 인프라"
 keywords: 
 author: nbigman
-manager: Arob98
-ms.date: 05/16/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 4ae137ae-34e5-4a45-950c-983de831270f
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: e7d6bc1e06217237a79c547c9b449c1fc16aeed4
+ms.sourcegitcommit: 5b9d201200d2b18553778ba2234831854658c6c2
+ms.openlocfilehash: 1f8e692e1938822342fda399df3832d2749de7c3
 
 ---
 # SCEP 인증서 인프라 구성
@@ -44,6 +44,8 @@ I
 인터넷에서 경계 네트워크까지, NDES 서버가 연결된 인터넷에 있는 모든 호스트/IP 주소에서 포트 443을 허용해야 합니다.
 
 경계 네트워크에서 신뢰할 수 있는 네트워크까지, 도메인에 가입된 NDES 서버에서 도메인 액세스에 필요한 모든 포트 및 프로토콜을 허용해야 합니다. NDES 서버는 인증서 서버, DNS 서버, Configuration Manager 서버 및 도메인 컨트롤러에 액세스해야 합니다.
+
+[Azure AD 응용 프로그램 프록시](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-publish/), [웹 액세스 프록시](https://technet.microsoft.com/en-us/library/dn584107.aspx) 또는 타사 프록시와 같은 프록시를 통해 NDES 서버를 게시하는 것이 좋습니다.
 
 
 ### <a name="BKMK_CertsAndTemplates"></a>인증서 및 템플릿
@@ -347,6 +349,6 @@ NDES 서버에서 인증서 커넥터 다운로드, 설치 및 구성
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

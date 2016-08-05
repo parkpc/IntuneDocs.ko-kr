@@ -3,7 +3,7 @@ title: "Microsoft Intune 회사 포털 | Microsoft Intune"
 description: "Intune 회사 포털 설정"
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 4dc3d084-0394-4ee7-b7fa-a72523928627
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: b7c8cc22f744449ce83084be88cfb4547e28779b
+ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
+ms.openlocfilehash: 743be083ca9e8bed989982092f103b18f8f73582
 
 
 ---
@@ -28,7 +28,7 @@ Intune 회사 포털은 사용자에게 회사 데이터 및 앱에 대한 액�
 -   **회사 포털 앱**: [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]으로 관리하는 장치에서 사용할 수 있는 응용 프로그램입니다. [Android](/Intune/EndUser/using-your-android-device-with-intune), [iOS](/Intune/EndUser/using-your-ios-or-mac-os-x-device-with-intune) 및 [Windows](/Intune/EndUser/using-your-windows-device-with-intune)용 회사 포털 앱에 대해 자세히 알아보세요.
 
 
-- **회사 포털 웹 사이트**: [지원되는 브라우저](supported-web-browsers.md)에서 액세스할 수 있는 웹 사이트입니다. URL은 [https://portal.office.com/Admin/Default.aspx](https://portal.office.com/Admin/Default.aspx)입니다. [Intune 회사 포털 웹 사이트 사용](/Intune/EndUser/using-the-intune-company-portal-website)에서 이 웹 사이트에 대해 자세히 알아보세요.
+- **회사 포털 웹 사이트**:[지원 브라우저](supported-web-browsers.md)에서 액세스하는 웹 사이트에서는 최종 사용자가 플랫폼별 회사 포털 앱에서 수행할 수 있는 작업과 동일한 작업을 대부분 수행할 수 있습니다. URL은 [http://portal.manage.microsoft.com](http://portal.manage.microsoft.com)입니다. [Intune 회사 포털 웹 사이트 사용](/Intune/EndUser/using-the-intune-company-portal-website)에서 이 웹 사이트에 대해 자세히 알아보세요.
 
 사용자가 회사 포털에서 수행할 수 있는 몇 가지 작업은 다음과 같습니다.
 
@@ -53,6 +53,6 @@ Intune 회사 포털은 사용자에게 회사 데이터 및 앱에 대한 액�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,8 +3,8 @@ title: "Intune에서 Android 장치 사용 | Microsoft Intune"
 description: "Intune에서 장치가 등록될 때 Android 모바일 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록"
 keywords: 
 author: staciebarker
-manager: arob98
-ms.date: 06/14/2016
+manager: angrobe
+ms.date: 07/26/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: e0ff9b0b1c31e0037f34e223ff26c2b111c5a0aa
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 3dfe3f8a0a8538d14acddb9a7c9541bae928b6e6
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: e0ff9b0b1c31e0037f34e223ff26c2b111c5a0aa
 
 # Intune에서 Android 장치 사용
 
-이 문서의 단계를 통해 회사에서 Microsoft Intune을 사용 중일 때 Android 장치에서 수행해야 하는 작업을 진행할 수 있습니다.
+이 페이지에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 작업에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 작업 수행을 위해 사용자가 따르는 단계를 확인합니다. 등록 관련 정보, 관리 작업 및 준수 문제와 같이 범주별로 그룹화되어 있습니다.
 
 ## 회사 포털 앱을 설치 및 Intune 등록
 
@@ -67,9 +67,6 @@ ms.openlocfilehash: e0ff9b0b1c31e0037f34e223ff26c2b111c5a0aa
 
 
 
-
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

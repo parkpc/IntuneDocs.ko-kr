@@ -3,8 +3,8 @@ title: "인증서 프로필 구성 | Microsoft Intune"
 description: "Intune 인증서 프로필을 만드는 방법을 알아봅니다."
 keywords: 
 author: nbigman
-manager: Arob98
-ms.date: 07/21/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 679a20a1-e66f-4b6b-bd8f-896daf1f8175
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: 40ae2ce3ea4393d24770c010bf5292ca1829a7f1
+ms.sourcegitcommit: 6a7f2eeb0114f525890d1dcb61344d60a19943d1
+ms.openlocfilehash: 14419092edc77b2229cf980a74e81048941a2c28
 
 
 ---
@@ -54,7 +54,18 @@ SCEP 또는 .PFX 인증서 프로필을 만들기 전에 **신뢰할 수 있는 
 
     자세한 정보: [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 
-3.  요청한 정보를 제공하여 Android, iOS, Mac OS X, Windows 8.1 또는 Windows Phone 8.1에 신뢰할 수 있는 인증서 프로필 설정을 구성합니다. **인증서 파일**에서 발급한 CA에서 내보낸 신뢰할 수 있는 루트 CA 인증서(**.cer**)를 가져옵니다. 장치에 둘 이상의 인증서 저장소가 있는 경우 **대상 저장소** 설정은 Windows 8.1 이상을 실행하는 장치에만 적용됩니다.
+3.  요청한 정보를 제공하여 Android, iOS, Mac OS X, Windows 8.1 또는 Windows Phone 8.1에 신뢰할 수 있는 인증서 프로필 설정을 구성합니다. 
+
+    - **인증서 파일**에서 발급한 CA에서 내보낸 신뢰할 수 있는 루트 CA 인증서(**.cer**)를 가져옵니다. 장치에 둘 이상의 인증서 저장소가 있는 경우 **대상 저장소** 설정은 Windows 8.1 이상을 실행하는 장치에만 적용됩니다.
+
+    
+    - **주체 이름 형식**에서 **사용자 지정**을 선택하여 사용자 지정 주체 이름 형식을 제공합니다.  
+
+        현재 사용자 지정 형식에 지원되는 두 변수는 **CN(일반 이름)** 및 **E(메일)**입니다. 이러한 변수 및 정적 문자열의 조합을 사용하여 이 예에 표시된 것과 같은 사용자 지정 주체 이름 형식을 만들 수 있습니다.  
+
+        `CN={{UserName}},E={{EmailAddress}},OU=Mobile,O=Finance Group,L=Redmond,ST=Washington,C=US`  
+
+        이 예에서는 CN 및 E 변수 외에 조직 구성 단위, 조직, 위치, 상태 및 국가의 문자열을 사용하는 주체 이름 형식을 관리자가 만들었습니다. 지원되는 문자열 목록은 [CertStrToName 함수](https://msdn.microsoft.com/en-us/library/windows/desktop/aa377160.aspx) 항목에서 제공됩니다.  
 
 
 4.  작업이 끝나면 **정책 저장**을 클릭합니다.
@@ -83,6 +94,15 @@ SCEP 또는 .PFX 인증서 프로필을 만들기 전에 **신뢰할 수 있는 
     자세한 정보: [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 
 3.  SCEP 인증서 프로필 설정을 구성하려면 프로필 구성 페이지의 지침을 따릅니다.
+    > [!NOTE]
+    > 
+    > **주체 이름 형식**에서 **사용자 지정**을 선택하여 사용자 지정 주체 이름 형식을 제공합니다.
+    > 
+    >  현재 사용자 지정 형식에 지원되는 두 변수는 CN(일반 이름) 및 E(메일)입니다. 이러한 변수 및 정적 문자열의 조합을 사용하여 이 예에 표시된 것과 같은 사용자 지정 주체 이름 형식을 만들 수 있습니다.
+    
+    >     CN={{UserName}},E={{EmailAddress}},OU=Mobile,O=Finance Group,L=Redmond,ST=Washington,C=US
+    
+    >    이 예에서는 *CN* 및 *E* 변수 외에 조직 구성 단위, 조직, 위치, 상태 및 국가의 문자열을 사용하는 주체 이름 형식을 관리자가 만들었습니다. 지원되는 문자열 목록은 [CertStrToName 함수](https://msdn.microsoft.com/en-us/library/windows/desktop/aa377160.aspx) 항목에서 제공됩니다.
 
 4.  작업이 끝나면 **정책 저장**을 클릭합니다.
 
@@ -145,6 +165,6 @@ SCEP 또는 .PFX 인증서 프로필을 만들기 전에 **신뢰할 수 있는 
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 
