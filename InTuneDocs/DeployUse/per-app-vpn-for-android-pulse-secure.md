@@ -13,8 +13,8 @@ ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
-ms.openlocfilehash: d6d929b83b967cc4efdc84ecc3262c5c1f509351
+ms.sourcegitcommit: 52d9d2ad912de7bc775cde2c40c8de27a09ba2af
+ms.openlocfilehash: d37630d2aaf4a260acf98a57aa2d38c95711f12b
 
 
 ---
@@ -22,6 +22,11 @@ ms.openlocfilehash: d6d929b83b967cc4efdc84ecc3262c5c1f509351
 # 사용자 지정 정책을 사용하여 Android 장치용 앱별 VPN 프로필 만들기
 
 Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만들 수 있습니다. 먼저 Pulse Secure 연결 형식을 사용하는 VPN 프로필을 만든 후 해당 프로필을 특정 앱과 연결하는 사용자 지정 구성 정책을 만듭니다. 이러한 정책을 Android 장치 또는 사용자 그룹에 배포한 후 장치에서 지정된 앱 중 하나를 열면 해당 앱에 대한 VPN 연결이 열립니다.
+
+> [참고]
+> 
+> 이 프로필에서는 Pulse Secure 연결 형식만 지원됩니다.
+
 
 ### 1단계: VPN 프로필 만들기
 
@@ -76,6 +81,6 @@ Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만들 수 �
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

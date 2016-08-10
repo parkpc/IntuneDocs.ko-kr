@@ -4,7 +4,7 @@ description: "이 항목에 나열된 정책 설정을 사용하면 등록된 Wi
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/21/2016
+ms.date: 07/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: bb08ea54b24e0395972ce29ae05ff2b7b6ee4220
+ms.sourcegitcommit: 7ef205aece89667ea84b9b73e42e71fc540fa257
+ms.openlocfilehash: cbfd2da544814dc93a818a1ca5bd0496a268634b
 
 
 ---
@@ -45,14 +45,13 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록�
 |**암호 만료(일)**|장치 암호를 변경해야 하는 간격을 지정합니다.|
 |**암호 기록 기억**|최종 사용자가 이전에 사용했던 암호를 만들지 못하도록 제한할지 여부를 지정합니다.|
 |**암호 기록 기억** - **이전 암호 다시 사용 안 함**|장치에 기억될 이전에 사용된 암호의 수를 지정합니다.|
-|**그림 암호 및 PIN 허용**|그림의 간단한 제스처 또는 간단한 PIN을 사용하여 로그인할 수 있습니다.<br>(Windows 10 Desktop에만 해당)|
-|**장치가 유휴 상태에서 되돌아오는 경우 암호 필요**|사용하도록 설정된 경우, 사용자는 유휴 상태에서 장치 잠금을 해제하기 위해 암호를 입력해야 합니다.<br>(Windows 10 Mobile에만 해당)|
+|**장치가 유휴 상태에서 되돌아오는 경우 암호 필요**|설정된 경우, 사용자는 유휴 상태에서 장치 잠금을 해제하기 위해 암호를 입력해야 합니다.<br>(Windows 10 Mobile에만 해당)|
 
 ### 암호화
 
 |설정 이름|세부 정보|
 |----------------|----------------------|
-|**모바일 장치 암호화 필요**|대상 장치에서 암호화를 사용하도록 설정<br>(Windows 10 Mobile에만 해당)|
+|**모바일 장치 암호화 필요**|대상 장치에서 암호화를 설정<br>(Windows 10 Mobile에만 해당)|
 
 ### System (시스템)
 
@@ -71,14 +70,6 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록�
 |**Microsoft 계정 허용**|사용자가 Microsoft 계정을 장치와 연결하도록 허용합니다.|
 |**Microsoft가 아닌 타사 계정 수동 추가 허용**|사용자가 Microsoft 계정과 연결되지 않은 장치에 전자 메일 계정을 추가하도록 허용합니다.|
 |**Microsoft 계정에 대한 설정 동기화 허용**|Microsoft 계정과 연결된 장치 및 앱 설정이 장치 간이 동기화되도록 허용합니다.|
-
-### 전자 메일 설정
-
-|설정 이름|세부 정보|
-|----------------|----------------------|---------------------|
-|**Windows Mail 응용 프로그램에서 Microsoft 계정을 옵션으로 설정**|Windows Mail의 Microsoft 계정에 대한 요구 사항을 제거하려면 이 옵션을 구성합니다.<br>Windows 10 Desktop에만 해당|
-
-
 
 ### Microsoft Edge
 
@@ -127,7 +118,6 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록�
 |**Bluetooth 허용**|장치에서 Bluetooth 기능을 사용할 수 있도록 합니다.|
 |**Bluetooth 검색 가능 모드 허용**|Bluetooth를 사용하는 다른 장치에서 이 장치를 검색하도록 허용합니다.|
 |**Bluetooth 광고 허용**|장치에서 Bluetooth를 통해 광고를 수신할 수 있도록 허용합니다.|
-|**Bluetooth 연결 가능 모드 허용**|**중요:** 이 설정은 Windows 10에서 더 이상 지원되지 않으며 나중에 제거될 예정입니다.|
 |**휴대폰 초기화 허용**|사용자가 장치를 출하 시로 초기화할 수 있는지 여부를 제어합니다.|
 |**USB 연결 허용**|장치의 USB 연결을 통한 외부 저장 장치 액세스 가능 여부를 제어합니다.|
 |**AntiTheft 모드 허용**|Windows Antitheft 모드 사용 여부를 구성합니다.|
@@ -176,7 +166,8 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록�
 
 |설정 이름|세부 정보|
 |----------------|---------------|
-|**자동 업데이트 허용**|자동 업데이트를 허용하려면 이 설정을 사용하도록 설정합니다. 그런 후에 다음 설정 중 하나를 구성하여 업데이트 동작을 제어합니다.<br /><br />**다운로드 알림**<br /><br />**유지 관리 시 자동 설치**<br /><br />**유지 관리 시 자동 설치 및 다시 부팅**<br /><br />**예약 시간에 자동 설치 및 다시 부팅** **참고:** 이 옵션을 선택하면 다음 설정을 구성할 수 있습니다. **최종 사용자에게 알림 표시 안 함** 및 **예약된 업데이트의 설치 날짜 지정**<br>(Windows 10 Desktop에만 해당)|
+|**자동 업데이트 허용**|자동 업데이트를 허용하려면 이 설정을 사용합니다. 그런 후에 다음 설정 중 하나를 구성하여 업데이트 동작을 제어합니다.<br /><br />**다운로드 알림**<br /><br />**유지 관리 시 자동 설치**<br /><br />**유지 관리 시 자동 설치 및 다시 부팅**<br /><br />**예약 시간에 자동 설치 및 다시 부팅** **참고:** 이 옵션을 선택하면 다음 설정을 구성할 수 있습니다. **최종 사용자에게 알림 표시 안 함** 및 **예약된 업데이트의 설치 날짜 지정**<br>(Windows 10 Desktop에만 해당)|
+|**시험판 기능 허용**|Microsoft에서 Windows 10 장치에 시험판 설정 및 기능을 배포할 수 있습니다. 설정만 설치하거나, 모든 시험판 설정 및 기능을 설치할 수 있도록 선택할 수 있습니다.|
 
 ## 사용자 지정 정책 설정
 Windows 10 및 Windows 10 Mobile용 Microsoft Intune **사용자 지정 구성 정책**을 사용하여 Windows 10 및 Windows 10 Mobile 장치에서 기능을 제어하는 데 사용할 수 있는 OMA-URI(Open Mobile Alliance Uniform Resource Identifier) 설정을 배포할 수 있습니다. 이는 많은 모바일 장치 제조업체가 장치 기능을 제어하는 데 사용하는 표준 설정입니다.
@@ -250,7 +241,7 @@ Windows 사용자 지정 URI 정책을 사용하려면 모든 장치를 Intune�
 |**Security/AllowRemoveProvisioningPackage**<br>(데스크톱 및 모바일)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Security/AllowRemoveProvisioningPackage<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용되지 않음<br>**1** - 허용됨(기본값)|
 |**Security/RequireProvisioningPackageSignature**<br>(데스크톱 및 모바일)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Security/RequireProvisioningPackageSignature<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0**(기본값)<br>**1**|
 |**AboveLock/AllowActionCenterNotifications**<br>(데스크톱 및 모바일)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/AboveLock/AllowActionCenterNotifications<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용되지 않음<br>**1** - 허용됨(기본값)|
-|**TextInput/AllowIMENetworkAccess**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/TextInput/AllowIMENetworkAccess<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용하지 않음<br>개방형 확장 사전이 꺼집니다.<br>사용자는 다음 작업을 수행할 수 없습니다.<br>새 개방형 확장 사전 추가<br /><br />새 검색 통합 구성 파일 추가<br>클라우드 후보 기능 사용<br>사용자 등록 단어 보내기<br>추가 필수 구성 요소:<br>이 정책 설정을 사용하도록 설정하기 전에 추가된 개방형 확장 사전은 변환을 위해 사용되지 않습니다.<br>이 정책 설정을 사용하도록 설정하기 전에 설치된 검색 통합 구성 파일은 사용되지 않습니다.<br>**1** - 허용<br>개방형 확장 사전을 기본적으로 추가하고 사용할 수 있습니다. 또한 검색 통합 기능을 기본적으로 사용할 수 있습니다.<br>사용자는 다음 작업을 수행할 수 있습니다.<br>클라우드 후보 기능 사용<br>사용자 등록 단어 보내기|
+|**TextInput/AllowIMENetworkAccess**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/TextInput/AllowIMENetworkAccess<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용하지 않음<br>개방형 확장 사전이 꺼집니다.<br>사용자는 다음 작업을 수행할 수 없습니다.<br>새 개방형 확장 사전 추가<br /><br />새 검색 통합 구성 파일 추가<br>클라우드 후보 기능 사용<br>사용자 등록 단어 보내기<br>추가 필수 구성 요소:<br>이 정책 설정을 설정하기 전에 추가된 개방형 확장 사전은 변환을 위해 사용되지 않습니다.<br>이 정책 설정을 설정하기 전에 설치된 검색 통합 구성 파일은 사용되지 않습니다.<br>**1** - 허용<br>개방형 확장 사전을 기본적으로 추가하고 사용할 수 있습니다. 또한 검색 통합 기능을 기본적으로 사용할 수 있습니다.<br>사용자는 다음 작업을 수행할 수 있습니다.<br>클라우드 후보 기능 사용<br>사용자 등록 단어 보내기|
 |**TextInput/AllowIMELogging**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/TextInput/AllowIMELogging<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** - 변환 오류 로깅이 꺼집니다. 자동으로 조정되는 데이터 및 입력 기록 데이터가 파일에 저장되지 않습니다.<br>**1** - 변환 오류 로깅이 켜집니다. 자동으로 조정되는 데이터 및 입력 기록 데이터가 파일에 저장됩니다(기본값).|
 |**TextInput/AllowJapaneseNonPublishingStandardGlyph**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/TextInput/AllowJapaneseNonPublishingStandardGlyph<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용되지 않음<br>**1** - 허용됨(기본값)|
 |**TextInput/AllowJapaneseIVSCharacters**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/TextInput/AllowJapaneseIVSCharacters<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0** – 허용되지 않음<br>**1** - 허용됨(기본값)|
@@ -332,6 +323,6 @@ Windows 사용자 지정 URI 정책을 사용하려면 모든 장치를 Intune�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

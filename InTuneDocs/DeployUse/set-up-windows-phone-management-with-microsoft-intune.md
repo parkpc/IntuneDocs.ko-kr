@@ -1,6 +1,6 @@
 ---
 title: "Windows 10 Mobile 및 Windows Phone 관리 설정 | Microsoft Intune"
-description: "Microsoft Intune으로 Windows 10 Mobile 또는 Windows Phone 장치에 대한 MDM(모바일 장치 관리)을 사용하도록 설정합니다."
+description: "Microsoft Intune으로 Windows 10 Mobile 또는 Windows Phone 장치에 대한 MDM(모바일 장치 관리)을 설정합니다."
 keywords: 
 author: NathBarn
 manager: angrobe
@@ -13,14 +13,16 @@ ms.assetid: f5615051-2dd1-453b-9872-d3fdcefb2cb8
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: cc928e4facf592ca0f7398b374242a7a07ae193e
+ms.sourcegitcommit: 06d6c8ce97ba6a259055e94f0eba87f7c5a96531
+ms.openlocfilehash: 344f1cf4367deb12288f9c361e043d345f9846bb
 
 
 ---
 
 
 # Microsoft Intune을 사용한 Windows Phone 및 Windows 10 Mobile 관리 설정
+Windows 장치 설정에 대한 도움말은 [여기](../enduser/using-your-windows-device-with-intune.md)에서 살펴볼 수 있습니다.
+
 Microsoft Intune을 사용하여 Windows 10 Mobile 또는 Windows Phone 장치를 관리할 수 있으려면 장치가 Intune과 통신할 수 있어야 합니다. 이를 간소화하기 위해 사용자가 서버 주소를 입력하지 않아도 되도록 DNS 레코드를 만들 수 있습니다. 아래 단계에서는 사용자 등록을 간소화하는 방법을 설명합니다.  
 
 대부분의 시나리오에서 사용자는 Windows 스토어에서 회사 포털 앱을 설치할 수 있습니다. Windows Phone 8.0 장치를 관리하거나 회사 포털을 Windows Phone 장치로 배포해야 하는 경우 회사 포털 앱을 다운로드하고 서명해야 합니다. [Set up Windows Phone 8.0 management](set-up-windows-phone-8.0-management-with-microsoft-intune.md)(Windows Phone 8.0 관리 설정) 항목을 참조하세요.
@@ -50,12 +52,16 @@ Microsoft Intune을 사용하여 Windows 10 Mobile 또는 Windows Phone 장치�
 
     3.  회사 웹 사이트의 확인된 도메인 URL을 **확인된 도메인 이름 지정** 상자에 입력하고 **자동 검색 테스트**를 클릭합니다.
 
+    4.  사용자는 장치를 등록하는 방법과 장치가 관리될 때 발생하는 상황에 대해 알고 있어야 합니다.
+        - [Microsoft Intune 사용 방법에 대해 최종 사용자에게 알릴 내용](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+        - [Windows 장치용 최종 사용자 가이드](../enduser/using-your-windows-device-with-intune.md)
+
 
 
 회사 포털을 장치에 배포하지 않는다면 추가 작업이 필요하지 않습니다.  관리 콘솔에서 2단계 및 3단계는 무시해도 됩니다.
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

@@ -3,8 +3,8 @@ title: "관리 브라우저로 웹 액세스 관리 | Microsoft Intune"
 description: "관리 브라우저 응용 프로그램을 배포하여 웹 데이터의 웹 검색 및 전송을 다른 앱으로 제한합니다."
 keywords: 
 author: robstackmsft
-manager: arob98
-ms.date: 07/13/2016
+manager: angrobe
+ms.date: 08/03/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: dc946303-e09b-4d73-8bf4-87742299bc54
 ms.reviewer: maxles
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1850e89830de61ccdeb81cb6ee9cc0f0c1d237a
-ms.openlocfilehash: 882042349c19ef0b688954577eb6519d0c0ac860
+ms.sourcegitcommit: 2fcd53d335aa18701ba0b8c3c75569febbee2cd5
+ms.openlocfilehash: d07a5dde05055c54f5b89c8aa5f49203d0a22b97
 
 
 ---
@@ -22,12 +22,13 @@ ms.openlocfilehash: 882042349c19ef0b688954577eb6519d0c0ac860
 # Microsoft Intune에서 관리 브라우저 정책을 사용하여 인터넷 액세스 관리
 관리 브라우저는 Microsoft Intune을 사용하여 조직에서 배포할 수 있는 웹 브라우징 응용 프로그램입니다. 관리 브라우저 정책은 관리 브라우저의 사용자가 방문할 수 있는 웹 사이트를 제한하는 허용 목록 또는 차단 목록을 구성합니다.
 
-이 앱은 관리 앱이므로 잘라내기, 복사 및 붙여넣기 제어, 화면 캡처 방지, 사용자가 클릭하는 콘텐츠에 대한 링크를 다른 관리 앱에서만 열리게 하는 기능 등과 같은 모바일 응용 프로그램 관리 정책을 앱에 적용할 수 있습니다. 자세한 내용은 [Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 구성 및 배포](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)를 참조하세요.
+이 앱은 관리되는 앱이므로 앱에 모바일 응용 프로그램 관리 정책을 적용할 수도 있습니다. 이 정책에는 잘라내기, 복사 및 붙여넣기 제어, 화면 캡처 방지, 사용자가 선택하는 콘텐츠에 대한 링크를 다른 관리 앱에서만 열리게 하는 기능이 포함될 수 있습니다. 자세한 내용은 [Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 구성 및 배포](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)를 참조하세요.
 
 > [!IMPORTANT]
->사용자가 앱 스토어에서 Managed Browser를 설치하며 브라우저가 Intune에서 관리되지 않는 경우 다음 동작이 적용됩니다. iOS – Managed Browser 앱을 기본 웹 브라우저로 사용할 수 있지만 일부 기능이 제공되지 않으며 다른 Intune 관리 앱의 데이터에 액세스할 수 없습니다.
-Android – Managed Browser 앱을 사용할 수 없습니다.
-사용자가 iOS 9보다 이전 버전이 있는 iOS 장치에 Managed Browser를 직접 설치하는 경우에는 만든 정책에 의해 관리되지 않습니다. 브라우저가 Intune을 통해 관리되게 하려면 앱을 관리 앱으로 배포하기 전에 제거해야 합니다. iOS 9 이상에서 사용자가 Managed Browser를 직접 설치하는 경우 정책에 의해 관리될 수 있도록 허용하라는 메시지가 표시됩니다.
+>사용자가 앱 스토어에서 Managed Browser를 설치하며 브라우저가 Intune에서 관리되지 않는 경우에는 다음 동작이 적용됩니다.<br /><br />
+iOS – Managed Browser 앱을 기본 웹 브라우저로 사용할 수 있지만 일부 기능이 제공되지 않으며 다른 Intune 관리 앱의 데이터에 액세스할 수 없습니다.<br />
+Android – Managed Browser 앱을 사용할 수 없습니다.<br /><br />
+사용자가 iOS 9 이전 버전이 설치된 iOS 장치에 Managed Browser를 직접 설치하는 경우에는 관리자가 만든 정책으로 브라우저가 관리되지 않습니다. Intune에서 브라우저를 관리하려면 앱을 먼저 제거한 다음 관리되는 앱으로 브라우저를 배포해야 합니다. iOS 9 이상에서 사용자가 Managed Browser를 직접 설치하는 경우에는 정책에 의해 관리될 수 있도록 허용하라는 메시지가 표시됩니다.
 
 다음 장치 유형에 대한 관리 브라우저 정책을 만들 수 있습니다.
 
@@ -39,7 +40,7 @@ Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https
 
 ## 관리 브라우저 정책 만들기
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 클릭합니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택합니다.
 
 2.  다음 **소프트웨어** 정책 유형 중 하나를 구성합니다.
 
@@ -49,20 +50,22 @@ Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https
 
     정책을 만들고 배포하는 방법에 대한 자세한 내용은 [Microsoft Intune 정책을 사용하여 장치에 관한 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md) 항목을 참조하세요.
 
-3.  다음 테이블을 사용하여 관리 브라우저 정책 설정을 쉽게 구성할 수 있습니다.
+3.  다음을 사용하여 관리 브라우저 정책 설정을 쉽게 구성할 수 있습니다.
 
-|설정 이름|세부 정보|
-    |----------------|--------------------|
-    |**Name**|Intune 콘솔에서 쉽게 식별할 수 있도록 관리 브라우저 정책에 대한 고유한 이름을 입력합니다.|
-    |**설명**|관리 브라우저 정책의 개요에 대한 설명과 찾을 때 도움이 되는 기타 관련 정보를 제공합니다.|
-    |**사용하도록 설정하면 허용 목록 또는 차단 목록을 사용하여 관리 브라우저에서 열 수 있는 URL을 제한할 수 있습니다.**|다음 옵션 중 하나를 선택합니다.<br /><br />**Managed Browser가 아래 나열된 URL만 열 수 있도록 허용** – Managed Browser에서 열 수 있는 URL 목록을 지정합니다.<br /><br />**Managed Browser가 아래에 나열된 URL을 열지 못하도록 차단** – Managed Browser에서 열 수 있는 URL 목록을 지정합니다. **참고:** 동일한 Managed Browser 정책에 허용 URL과 차단 URL을 함께 포함할 수 없습니다.<br />지정할 수 있는 URL에 대한 자세한 내용은 이 항목의 **허용 및 차단 URL에 대한 URL 형식**을 참조하세요.|
+    - **이름**. Intune 콘솔에서 쉽게 식별할 수 있도록 관리 브라우저 정책에 대한 고유한 이름을 입력합니다.
+    - **설명**. 관리 브라우저 정책의 개요에 대한 설명과 찾을 때 도움이 되는 기타 관련 정보를 제공합니다.
+    - **설정하면 허용 목록 또는 차단 목록을 사용하여 관리 브라우저에서 열 수 있는 URL을 제한할 수 있습니다**. 다음 옵션 중 하나를 선택합니다.
+        - **관리 브라우저가 아래 나열된 URL만 열도록 허용**. Managed Browser에서 열 수 있는 URL 목록을 지정합니다.
+        - **Managed Browser가 아래 나열된 URL을 열 수 없도록 차단**. Managed Browser에서 열 수 없는 URL 목록을 지정합니다.
+**참고:** 동일한 Managed Browser 정책에 허용 URL과 차단 URL을 함께 포함할 수 없습니다.
+지정할 수 있는 URL에 대한 자세한 내용은 이 항목의 **허용 및 차단 URL에 대한 URL 형식**을 참조하세요.
 
-4.  작업이 끝나면 **정책 저장**을 클릭합니다.
+4.  작업이 끝나면 **정책 저장**을 선택합니다.
 
 새 정책이 **정책** 작업 영역의 **구성 정책** 노드에 표시됩니다.
 
 ## 관리 브라우저 앱에 대한 배포 만들기
-관리 브라우저 정책을 만든 후 관리 브라우저 앱에 대한 소프트웨어 배포를 만든 후 만든 관리 브라우저 정책과 연결할 수 있습니다.
+관리 브라우저 정책을 만든 후에 관리 브라우저 앱에 대한 소프트웨어 배포를 만들고 이를 관리 브라우저 정책과 연결할 수 있습니다.
 
 > [!IMPORTANT]
 > 관리 브라우저 정책은 다른 Intune 정책과 같은 방법으로 배포되지 않습니다. 이 유형의 정책은 관리 브라우저 소프트웨어 패키지와 연결되어야 합니다.
@@ -75,23 +78,23 @@ Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https
 
 -   iOS 장치에서 만료되거나 신뢰할 수 없는 인증서가 있는 웹 사이트를 사용자가 방문하면 해당 웹 사이트를 열 수 없습니다.
 
--   사용자가 자신의 장치에서 기본 제공 브라우저에 대해 구성하는 설정은 관리 브라우저에서 사용되지 않습니다. 관리 브라우저는 이러한 설정에 액세스할 수 없기 때문입니다.
+-   관리 브라우저에서는 사용자가 자신의 장치에서 기본 제공 브라우저에 대해 구성하는 설정을 사용하지 않습니다. 관리 브라우저는 이러한 설정에 액세스할 수 없기 때문입니다.
 
--   관리 브라우저와 연결된 모바일 응용 프로그램 관리 정책에 **액세스하려면 단순 PIN 필요** 또는 **액세스하려면 회사 자격 증명 필요** 옵션을 구성했는데 사용자가 인증 페이지의 도움말 링크를 클릭한 경우 해당 사용자는 관리 브라우저 정책의 차단 목록에 추가되었는지 여부와 상관없이 아무 인터넷 사이트나 탐색할 수 있습니다.
+-   관리 브라우저와 연결된 모바일 응용 프로그램 관리 정책에서 **액세스용 단순 PIN 필요** 또는 **액세스용 회사 자격 증명 필요** 옵션을 구성하고 사용자가 인증 페이지의 도움말 링크를 선택하는 경우에는, 관리 브라우저 정책의 차단 목록에 추가되었는지와 상관없이 모든 인터넷 사이트를 탐색할 수 있습니다.
 
 -   관리 브라우저는 직접 액세스하는 사이트에 대한 액세스만 차단할 수 있습니다. 중간 서비스(변환 서비스 등)를 사용하여 사이트에 액세스하는 경우 액세스를 차단할 수 없습니다.
 
--   인증을 허용하고 Intune 문서에 액세스할 수 있도록 하기 위해 **&#42;.microsoft.com**은 허용 또는 차단 목록 설정에서 제외되며 항상 허용됩니다.
+-   인증을 허용하고 Intune 문서에 액세스할 수 있도록 하기 위해 **&#42;.microsoft.com**은 허용 또는 차단 목록 설정에서 제외됩니다. 이 값은 항상 허용됩니다.
 
 ### 사용 데이터 해제
-Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Browser의 성능 및 사용에 대한 익명의 데이터를 자동으로 수집하지만 사용자가 장치의 **사용 현황 데이터** 설정을 사용하여 데이터 수집 기능을 끌 수 있습니다. 이 데이터의 수집은 제어할 수 없습니다.
+Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Browser의 성능 및 사용에 대한 익명의 데이터를 자동으로 수집합니다. 사용자는 장치에서 **사용 데이터** 설정을 사용하여 데이터의 수집을 해제할 수 있습니다. 이 데이터의 수집은 제어할 수 없습니다.
 
 ## 참조 정보
 
 ### 허용 및 차단 URL에 대한 URL 형식
 다음 정보를 사용하여 허용 및 차단 목록에 URL을 지정할 때 사용할 수 있는 형식 및 와일드카드에 대해 알아볼 수 있습니다.
 
--   아래와 같은 허용 패턴 목록의 규칙에 따라 와일드카드 기호 '**&#42;**'를 사용할 수 있습니다.
+-   다음과 같이 허용되는 패턴 목록의 규칙에 따라 와일드카드 기호 '**&#42;**'를 사용할 수 있습니다.
 
 -   URL을 목록에 입력할 때 모든 URL의 앞에 **http** 또는 **https** 를 덧붙여야 합니다.
 
@@ -101,7 +104,7 @@ Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Brows
 
     -   https의 경우 포트 443
 
-    포트 번호에 대한 와일드 카드 사용은 지원되지 않습니다. 예: **http&colon;//www&period;contoso&period;com:*;** 및 **http&colon;//www&period;contoso&period;com: /*;**
+    포트 번호에 대한 와일드 카드 사용은 지원되지 않습니다. 예를 들어 **http&colon;//www&period;contoso&period;com:*;** 및 **http&colon;//www&period;contoso&period;com: /*; * *은 지원되지 않습니다.
 
 -   다음 표를 사용하여 URL을 지정할 때 사용할 수 있는 패턴에 대해 알아볼 수 있습니다.
 
@@ -151,6 +154,6 @@ Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Brows
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

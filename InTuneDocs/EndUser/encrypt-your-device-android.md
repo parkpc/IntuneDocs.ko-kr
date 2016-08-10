@@ -13,8 +13,8 @@ ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
-ms.openlocfilehash: 777b87328e12b4d6b3de1b338fe802d92c1138a1
+ms.sourcegitcommit: 80ebf1a56106ad4e66d2d791ab98edae1ab11505
+ms.openlocfilehash: 9c89a70f8d9625504f6c710fe29f308dfd34530a
 
 
 ---
@@ -34,7 +34,9 @@ ms.openlocfilehash: 777b87328e12b4d6b3de1b338fe802d92c1138a1
 3.  화면의 지시를 따릅니다. 암호화가 진행되는 동안 장치가 여러 번 다시 시작될 수 있습니다.
 
 ### 문제가 있는 경우 수행할 작업
-**문제**: 장치를 이미 암호화한 경우 다음 중 하나가 발생합니다. - 암호화 단추를 사용할 수 없습니다.
+**문제**: 장치를 이미 암호화한 경우에는 다음 중 하나가 발생합니다.
+
+- 암호화 단추를 사용할 수 없습니다.
 - 여전히 암호화해야 한다는 메시지가 표시됩니다.
 - 회사 포털 앱을 사용하려고 할 때 오류가 발생합니다.
 
@@ -47,6 +49,6 @@ ms.openlocfilehash: 777b87328e12b4d6b3de1b338fe802d92c1138a1
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

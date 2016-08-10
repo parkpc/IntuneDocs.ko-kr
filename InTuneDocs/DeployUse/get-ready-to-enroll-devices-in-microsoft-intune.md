@@ -3,7 +3,7 @@ title: "장치를 등록하도록 준비 | Microsoft Intune"
 description: "MDM(모바일 장치 관리) 필수 구성 요소를 설정하고 다른 운영 체제를 등록할 준비를 완료합니다."
 keywords: 
 author: NathBarn
-manager: arob98
+manager: angrobe
 ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
@@ -13,14 +13,14 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1f6f98d582ce9a686ca02682a9066d8b2162d6ab
-ms.openlocfilehash: 24b8434993d7661e12172ac0e5fe58d1e6621558
+ms.sourcegitcommit: 9b7b8f6e5182e228458f5ea75e804a638f1e2a2b
+ms.openlocfilehash: 7e3e29113dd03ea25f102d7f71c63e5c3faefad8
 
 
 ---
 
 # Microsoft Intune에 장치를 등록하도록 준비
-Intune으로 직원이 모바일 장치([Android](set-up-android-management-with-microsoft-intune.md), [iOS 및 Mac](set-up-ios-and-mac-management-with-microsoft-intune.md), [Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md) 및 [Windows PC](set-up-windows-device-management-with-microsoft-intune.md) 포함)를 등록할 수 있도록 하려면 장치 등록을 활성화해야 합니다. 등록을 허용하려면 MDM(모바일 장치 관리) 기관을 설정하고 Intune 회사 포털을 구성하고 라이선스를 할당하고 장치 플랫폼에 대한 등록을 활성화해야 합니다.
+직원이 Intune에 모바일 장치([Android](set-up-android-management-with-microsoft-intune.md), [iOS 및 Mac](set-up-ios-and-mac-management-with-microsoft-intune.md), [Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md) 및 [Windows PC](set-up-windows-device-management-with-microsoft-intune.md) 포함)를 등록하거나 회사가 소유한 장치를 관리할 수 있게 하려면 장치 등록을 사용하도록 설정해야 합니다. 등록을 허용하려면 MDM(모바일 장치 관리) 기관을 설정하고 Intune 회사 포털을 구성하고 라이선스를 할당하고 장치 플랫폼에 대한 등록을 활성화해야 합니다.
 
 ## 모바일 장치 관리 기관 설정
 MDM 기관은 일련의 장치를 관리할 권한을 가진 관리 서비스를 정의합니다. MDM 기관에 대한 옵션에는 Intune 자체 및 Intune을 사용하는 Configuration Manager가 포함됩니다. Configuration Manager를 관리 기관으로 설정한 경우 모바일 장치 관리에 다른 서비스를 사용할 수 없습니다.
@@ -78,7 +78,7 @@ Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장�
 |필드 이름|추가 정보|
     |----------|----------------|
     |테마 색|회사 포털에 적용할 테마 색을 선택합니다.|
-    |회사 로고 포함|이 옵션을 사용하도록 설정한 경우 회사 포털에서 표시할 회사 로고를 업로드할 수 있습니다. 회사 포털 배경이 흰색인 경우에 표시되는 로고 하나와 회사 포털 배경이 직접 선택한 테마 색을 사용하는 경우에 표시되는 로고 하나, 두 개의 로고를 업로드할 수 있습니다. 각 로고는 .png 또는 .jpg 파일이어야 하며 최대 해상도가 400 x 100픽셀이고 크기가 750KB 이하여야 합니다.|
+    |회사 로고 포함|이 옵션을 설정한 경우 회사 포털에서 표시할 회사 로고를 업로드할 수 있습니다. 회사 포털 배경이 흰색인 경우에 표시되는 로고 하나와 회사 포털 배경이 직접 선택한 테마 색을 사용하는 경우에 표시되는 로고 하나, 두 개의 로고를 업로드할 수 있습니다. 각 로고는 .png 또는 .jpg 파일이어야 하며 최대 해상도가 400 x 100픽셀이고 크기가 750KB 이하여야 합니다.|
     |[!INCLUDE[win8_client_2](../includes/win8_client_2_md.md)] 회사 포털 앱의 배경 선택|이 설정은 [!INCLUDE[win8_client_2](../includes/win8_client_2_md.md)] 회사 포털 앱의 배경에만 적용됩니다.|
 
 
@@ -109,6 +109,6 @@ MDM 기관을 설정한 후 조직에서 지원하려는 운영 체제에 대한
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

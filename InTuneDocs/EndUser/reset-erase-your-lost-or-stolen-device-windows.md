@@ -3,8 +3,8 @@ title: "분실하거나 도난당한 Windows 장치 초기화(지우기) | Micro
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 08/01/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,14 @@ ROBOTS: noindex,nofollow
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f1fd60348f5e18344a2ce63311cef7a551f355d3
-ms.openlocfilehash: dec9fd3d2711513b4a99ca4bec586f72402cb619
+ms.sourcegitcommit: 80ebf1a56106ad4e66d2d791ab98edae1ab11505
+ms.openlocfilehash: 083dd1a11e291ff0d92b1bfa3ec61033f26f3d4b
 
 
 ---
 
 
-# 분실하거나 도난당한 장치 재설정(지우기)
+# 분실하거나 도난당한 장치 초기화(지우기)
 
 Intune에 등록한 휴대폰을 분실하거나 도난당한 경우에는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 사용하여 해당 휴대폰을 공장 기본 설정으로 초기화할 수 있습니다.
 
@@ -34,7 +34,7 @@ Intune에 등록한 휴대폰을 분실하거나 도난당한 경우에는 [회�
 
 2.  **내 장치**에서 분실 또는 도난당한 장치를 선택합니다.
 
-3.  **초기화** &gt; **초기화**를 탭합니다.
+3.  **초기화** 아이콘을 탭한 다음 **초기화**를 탭합니다.
 
 분실하거나 도난당한 장치를 다시 설정할 수 없는 경우에는 IT 부서에 다시 설정을 요청하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
@@ -42,6 +42,7 @@ Intune에 등록한 휴대폰을 분실하거나 도난당한 경우에는 [회�
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO1-->
 
 

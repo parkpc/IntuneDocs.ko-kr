@@ -13,8 +13,8 @@ ms.assetid: 3b8d22fe-c318-4796-b760-44f1ccf34312
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: b01354b62507b9843b53cc4b2c8c1e82a6c422e5
+ms.sourcegitcommit: aa1d6105a5be9c329c75681857a9d6e553088b65
+ms.openlocfilehash: be45b2ffb99eb75e71c0d591fc84089b83735905
 
 
 ---
@@ -27,7 +27,7 @@ Intune에서는 Windows Server AD DS(Active Directory 도메인 서비스) GPO(�
 Intune 클라이언트는 소프트웨어 업데이트, Windows 방화벽 및 Endpoint Protection을 관리하여 [PC](policies-to-protect-windows-pcs-in-microsoft-intune.md)를 보호하는 정책을 지원하지만 Intune 클라이언트로 관리되는 PC는 다른 Intune 정책의 대상이 될 수 없습니다.
 
 > [!NOTE]
-> Windows 8.1을 실행하는 장치는 Intune 클라이언트를 사용하여 관리하거나 모바일 장치로 등록할 수 있습니다. 아래 정보는 Intune 클라이언트를 실행하는 컴퓨터에 적용됩니다. 모바일 장치 관리를 위해 Intune PC 클라이언트 설치 및 Windows 장치 등록 작업을 둘 다 수행하는 것은 지원되지 않습니다.
+> Windows 8.1 이상을 실행하는 장치는 Intune 클라이언트를 사용하여 관리하거나 모바일 장치로 등록할 수 있습니다. 아래 정보는 Intune 클라이언트를 실행하는 컴퓨터에 적용됩니다. 모바일 장치 관리를 위해 Intune PC 클라이언트 설치 및 Windows 장치 등록 작업을 둘 다 수행하는 것은 지원되지 않습니다.
 
 ## Intune PC 클라이언트 관리를 위한 요구 사항
 
@@ -86,6 +86,6 @@ Intune 클라이언트 에이전트는 보통 백그라운드에서 자동으로
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

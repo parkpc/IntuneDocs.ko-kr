@@ -13,8 +13,8 @@ ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
 ms.reviewer: matgates
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 19a5b8f8260bace2bbe3626da3df281306f53024
-ms.openlocfilehash: ebd68513da55b8bb1715d2c82636abf791cae1ff
+ms.sourcegitcommit: bebf57269ae41f04a47240063cde4a4dd0bf334f
+ms.openlocfilehash: 3d9def8f906746cf6e3d014d251b94406d839067
 
 
 ---
@@ -27,12 +27,13 @@ ms.openlocfilehash: ebd68513da55b8bb1715d2c82636abf791cae1ff
 이 도구를 다운로드하려면 [iOS용 Microsoft Intune 앱 줄 바꿈 도구](http://www.microsoft.com/en-us/download/details.aspx?id=45218)를 참조하세요.
 
 ## 1단계 앱 래핑 도구 사용을 위한 필수 구성 요소 준비
+필수 조건 및 설정 방법에 대한 자세한 내용은 [이 블로그 게시물](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)을 참조하세요.
 
 |요구 사항|추가 정보|
 |---------------|--------------------------------|
 |지원되는 운영 체제 및 도구 집합|앱 래핑 도구는 Xcode 도구 집합 버전 5 이상이 설치된 OS X 10.8.5 이상의 Mac 컴퓨터에서 실행해야 합니다.|
 |인증서 및 프로비저닝 프로필 서명|Apple 서명 인증서 및 프로비저닝 프로필이 있어야 합니다. [Apple 개발자 설명서](https://developer.apple.com/)를 참조하세요.|
-|앱 래핑 도구를 사용하여 앱 처리|사용자의 회사나 ISV(Independent Software Vendor)에서 개발 및 서명한 앱이어야 합니다. 이 도구를 사용하여 Apple 스토어의 앱을 처리할 수는 없습니다. iOS 7.0 이상용으로 작성된 앱이어야 합니다. 또한 PIE(Position Independent Executable) 형식의 앱이어야 합니다. PIE 형식에 대한 자세한 내용은 Apple 개발자 설명서를 참조하세요. 마지막으로, 앱의 확장명이 **.app**, 또는 **.ipa** 형식이어야 합니다.|
+|앱 래핑 도구를 사용하여 앱 처리|사용자의 회사나 ISV(Independent Software Vendor)에서 개발 및 서명한 앱이어야 합니다. 이 도구를 사용하여 Apple 스토어의 앱을 처리할 수는 없습니다. iOS 7.1 이상용으로 작성된 앱이어야 합니다. 또한 PIE(Position Independent Executable) 형식의 앱이어야 합니다. PIE 형식에 대한 자세한 내용은 Apple 개발자 설명서를 참조하세요. 마지막으로, 앱의 확장명이 **.app**, 또는 **.ipa** 형식이어야 합니다.|
 |래핑 도구에서 처리할 수 없는 앱|암호화된 앱, 서명되지 않은 앱 및 확장된 파일 특성을 가진 앱입니다.|
 |ADAL(Azure Active Directory 라이브러리)을 사용하는 앱|앱에서 ADAL을 사용하는 경우 앱은 ADAL 버전 1.0.2 이상을 포함하고 있어야 하며 개발자는 Intune 모바일 응용 프로그램 관리 리소스에 대한 액세스 권한을 앱에 부여해야 합니다.<br /><br />ADAL 사용 방법에 관한 자세한 내용은 이 문서의 [Azure Active Directory 라이브러리를 사용하는 앱에 대한 정보](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md#information-for-apps-that-use-the-azure-active-directory-library)를 참조하세요.|
 |앱에 대한 자격 설정|앱을 래핑하려면 먼저 일반적으로 부여되는 권한 및 기능 이외에 앱에 추가적인 사용 권한 및 기능을 제공하는 자격을 설정해야 합니다. 지침은 [앱 자격 설정](#setting-app-entitlements)을 참조하세요.|
@@ -184,7 +185,7 @@ ADAL을 사용하는 앱은 다음 조건을 충족해야 합니다.
 
 -   ADAL 리소스가 없으면 ADAL 동적 라이브러리가 도구에 포함됩니다. 도구는 루트 폴더에서 이름이 **ADALiOS.bundle** 인 ADAL 라이브러리를 검색합니다.
 
--   도구는 앱 내의 ADAL 바이너리(있는 경우)를 검색하지는 않습니다. 앱이 오래된 버전에 연결되어 있는 경우 인증 정책을 사용하도록 설정되어 있으면 로그인 중에 런타임 오류가 발생할 수 있습니다.
+-   도구는 앱 내의 ADAL 바이너리(있는 경우)를 검색하지는 않습니다. 앱이 오래된 버전에 연결되어 있는 경우 인증 정책이 설정되어 있으면 로그인 중에 런타임 오류가 발생할 수 있습니다.
 
 -   [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 인증을 위해 AAD 토큰을 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] MAM 리소스 ID로 가져옵니다. 그러나 이 토큰은 토큰의 유효성을 검사하는 호출에 사용되지 않습니다. [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 에서는 앱 액세스 확인을 위해 로그인한 사용자의 UPN만 읽습니다. 다른 서비스 호출에서도 AAD 토큰은 사용되지 않습니다.
 
@@ -193,13 +194,13 @@ ADAL을 사용하는 앱은 다음 조건을 충족해야 합니다.
 -   클라이언트 응용 프로그램의 클라이언트 ID 및 리디렉션 URI를 제공하면 이중 로그인 시도가 차단됩니다. AAD 대시보드에서 게시된 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] MAM 리소스 ID에 액세스하려면 이 클라이언트 ID를 등록해야 합니다. 이렇게 하지 않으면 앱을 실행할 때 로그인이 실패합니다.
 
 ## 앱 자격 설정
-앱을 래핑하기 전에 **자격**을 부여하여 앱이 일반적으로 수행할 수 있는 작업을 초과하는 추가적인 권한 및 기능을 제공할 수 있습니다.  **자격 파일**은 앱 내에서 특정 권한(예: 공유 키 집합에 대한 액세스 권한)을 지정하는 코드 서명 동안 사용됩니다. **기능**이라는 특정 앱 서비스는 앱 개발 동안 Xcode 내에서 사용하도록 설정됩니다. 이렇게 사용하도록 설정되면 기능이 자격 파일에 반영됩니다. 자격 및 기능에 대한 자세한 내용은 iOS 개발자 라이브러리의 [기능 추가](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)를 참조하세요. 지원되는 전체 기능 목록이 필요하면 [지원되는 기능](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html)을 참조하세요.
+앱을 래핑하기 전에 **자격**을 부여하여 앱이 일반적으로 수행할 수 있는 작업을 초과하는 추가적인 권한 및 기능을 제공할 수 있습니다.  **자격 파일**은 앱 내에서 특정 권한(예: 공유 키 집합에 대한 액세스 권한)을 지정하는 코드 서명 동안 사용됩니다. **기능**이라는 특정 앱 서비스는 앱 개발 동안 Xcode 내에서 설정됩니다. 이렇게 설정되면 기능이 자격 파일에 반영됩니다. 자격 및 기능에 대한 자세한 내용은 iOS 개발자 라이브러리의 [기능 추가](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)를 참조하세요. 지원되는 전체 기능 목록이 필요하면 [지원되는 기능](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html)을 참조하세요.
 
 ### IOS용 앱 래핑 도구에 지원되는 기능
 
 |기능|설명|권장 지침|
 |--------------|---------------|------------------------|
-|앱 그룹|앱 그룹을 사용하여 여러 앱에서 공유 컨테이너에 액세스하도록 허용하고 앱들 간의 추가적인 프로세스 간 통신을 허용합니다.<br /><br />앱 그룹을 사용하도록 설정하려면 **기능** 창을 열고, **앱 그룹** 섹션에서 **ON** 스위치를 클릭합니다. 앱 그룹을 추가하거나 기존 앱 그룹을 선택할 수 있습니다.|앱 그룹을 사용할 때에는 역방향 DNS 표기법을 사용합니다.<br /><br />*group.com.companyName.AppGroup*|
+|앱 그룹|앱 그룹을 사용하여 여러 앱에서 공유 컨테이너에 액세스하도록 허용하고 앱들 간의 추가적인 프로세스 간 통신을 허용합니다.<br /><br />앱 그룹을 설정하려면 **기능** 창을 열고, **앱 그룹** 섹션에서 **ON** 스위치를 클릭합니다. 앱 그룹을 추가하거나 기존 앱 그룹을 선택할 수 있습니다.|앱 그룹을 사용할 때에는 역방향 DNS 표기법을 사용합니다.<br /><br />*group.com.companyName.AppGroup*|
 |Background Modes(백그라운드 모드)|백그라운드 모드를 사용하면 iOS이 백그라운드에서 계속 실행될 수 있습니다.||
 |데이터 보호|데이터 보호 기능을 사용하면 iOS 앱에 의해 디스크에 저장된 파일에 보안 수준이 추가됩니다. 데이터 보호 기능에서는 특정 장치에 있는 기본 제공 암호화 하드웨어를 사용하여 디스크에서 파일을 암호화된 형식으로 저장합니다. 데이터 보호를 사용하도록 앱을 프로비저닝해야 합니다.||
 |앱에서 바로 구매|앱에서 바로 구매 기능에서는 스토어에 연결하여 사용자의 지불을 안전하게 처리할 수 있도록 하여 스토어를 앱에 바로 포함합니다. 앱에서 바로 구매 기능을 사용하여 향상된 기능이나 앱에서 사용할 수 있는 추가적인 콘텐츠에 대한 지불을 회수할 수 있습니다.||
@@ -208,9 +209,9 @@ ADAL을 사용하는 앱은 다음 조건을 충족해야 합니다.
 |푸시 알림|APNs(Apple 푸시 알림 서비스)를 사용하면 포그라운드에서 실행되지 않고 있는 앱이 사용자에 대한 정보를 보유하고 있다고 사용자에게 알릴 수 있습니다.|푸시 알림이 작동하도록 하려면 앱별 프로비저닝 프로필을 사용해야 합니다.<br /><br />[Apple 개발자 설명서](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)의 절차를 따릅니다.|
 |Wireless Accessory Configuration(무선 액세서리 구성)|무선 액세서리 구성 기능을 사용하면 프로젝트에 외부 액세서리 프레임워크가 추가되고 앱이 MFi Wi-Fi 액세서리를 구성할 수 있게 됩니다.||
 
-### 자격을 사용하도록 설정하는 절차
+### 자격을 설정하는 절차
 
-1.  앱에서 기능을 사용하도록 설정합니다.
+1.  앱에서 기능을 설정합니다.
 
     1.  Xcode에서 앱의 대상으로 이동하고 **기능** 창을 클릭합니다.
 
@@ -220,13 +221,13 @@ ADAL을 사용하는 앱은 다음 조건을 충족해야 합니다.
 
     4.  래핑할 앱을 빌드하고 서명합니다.
 
-2.  프로비저닝 프로필에서 자격을 사용하도록 설정합니다.
+2.  프로비저닝 프로필에서 자격을 설정합니다.
 
     1.  Apple Developer Member Center에 로그인합니다.
 
     2.  앱용 프로비저닝 프로필을 만듭니다. 자세한 지침은 [iOS용 Intune 앱 줄 바꿈 도구에 대한 필수 구성 요소를 가져오는 방법](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/)을 참조하세요.
 
-    3.  프로비저닝 프로필에서 앱에 있는 것과 동일한 자격을 사용하도록 설정합니다. 앱을 개발하는 동안 지정한 것과 동일한 ID를 제공해야 합니다.
+    3.  프로비저닝 프로필에서 앱에 있는 것과 동일한 자격을 설정합니다. 앱을 개발하는 동안 지정한 것과 동일한 ID를 제공해야 합니다.
 
     4.  프로비저닝 프로필 마법사를 완료하고 파일을 다운로드합니다.
 
@@ -288,10 +289,10 @@ iOS용 앱 래핑 도구에 자격 오류가 표시되는 경우 다음의 문�
 ### 참고 항목
 - [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</br>
 - [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</br>
-- [SDK를 사용하여 모바일 응용 프로그램 관리에 앱을 사용하도록 설정](use-the-sdk-to-enable-apps-for-mobile-application-management.md)
+- [SDK를 사용하여 모바일 응용 프로그램 관리에 앱을 설정](use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

@@ -4,7 +4,7 @@ description: "Intune에서는 앱 스토어에서 라이선스 정보를 가져�
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/13/2016
+ms.date: 07/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 1dafc28a-7f8b-4fe0-8619-f977c93d1140
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: 8f7e77f00e6082c5b272a7ec2be835bc1ef97a28
+ms.sourcegitcommit: c64fb33893027d0000cae4cc3d9c3ed28cc38901
+ms.openlocfilehash: 5db23913601973630a4d013aae86cf26af337c4b
 
 
 ---
@@ -64,6 +64,9 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 
 2.  배포할 앱을 선택하고 **배포 관리**를 선택한 다음, [Microsoft Intune에서 앱 배포](deploy-apps-in-microsoft-intune.md) 항목의 지침에 따라 앱을 업로드하고 만들고 배포합니다.
 
+> [!TIP]
+> **필수** 배포 작업을 선택해야 합니다. 사용 가능한 설치는 현재 지원되지 않습니다.
+
 앱을 **필수** 설치로 배포하면 앱을 설치하는 각 사용자가 라이선스 하나를 사용합니다.
 
 라이선스를 회수하려면 배포 작업을 **제거**로 변경해야 합니다. 앱을 제거하면 라이선스가 회수됩니다.
@@ -87,6 +90,6 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Jul16_HO5-->
 
 

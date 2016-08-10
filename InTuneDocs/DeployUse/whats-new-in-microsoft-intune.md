@@ -13,8 +13,8 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
-ms.openlocfilehash: ef0210d7ca2d44608c5baa8f48ef56a2b9b5ce3a
+ms.sourcegitcommit: b93c6fe16e598c6f4b0d87981de8655f3de9c8d3
+ms.openlocfilehash: 051f2994c59b2886a81a50d7c72f51627064bc6a
 
 
 ---
@@ -24,16 +24,25 @@ ms.openlocfilehash: ef0210d7ca2d44608c5baa8f48ef56a2b9b5ce3a
 
 최종적으로는 이 모든 기능이 하이브리드 고객 배포(Intune과 Configuration Manager )용으로 지원될 예정입니다. 새로운 하이브리드 기능에 대한 자세한 내용은 [hybrid What’s New page](https://technet.microsoft.com/en-US/library/mt718155(TechNet.10).aspx)(하이브리드 새로운 기능 페이지)를 참조하세요.
 
+## 2016년 8월
+## 회사 포털 업데이트
+
+### Android
+- **Android 회사 포털 앱**<br/>
+Android용 Intune 회사 포털 앱에서는 모바일 장치용으로 곧 출시 예정인 Android 7.0 운영 체제에 대해 “Day 0” 지원을 제공합니다.  
+
+- **Android 7.0 장치에서 Google의 원격 암호 재설정 기능 제거**<br/>
+Android 7.0 장치에서 IT 관리자와 최종 사용자가 장치 암호를 원격으로 다시 설정할 수 없게 됩니다. Google에서 Android 7.0 장치에 대해 이 기능을 제거했기 때문입니다. Android 7.0 이전 버전에서는 IT 관리자가 원격으로 사용자의 암호를 다시 설정하고, 최종 사용자가 회사 포털 웹 사이트에서 자신의 암호를 다시 설정할 수 있었습니다.
 
 ## 2016년 7월
 ## 앱 관리
 ### 앱 프로비전 프로필 업데이트 환경 개선
-Apple iOS 기간 업무(LOB) 모바일 앱은 프로비전 프로필을 포함하고 인증서로 코드에 서명하여 빌드됩니다. 앱이 iOS 장치에서 실행되면 iOS는 iOS 앱의 무결성을 확인하고 프로비전 프로필에 정의된 정책을 적용합니다.
+Apple iOS LOB(기간 업무) 모바일 앱은 프로비전 프로필을 포함하고 인증서로 코드에 서명하여 빌드됩니다. 앱이 iOS 장치에서 실행되면 iOS는 iOS 앱의 무결성을 확인하고 프로비전 프로필에 정의된 정책을 적용합니다.
 
 일반적으로 앱에 서명하기 위해 사용하는 엔터프라이즈 서명 인증서는 3년 동안 유지됩니다. 그러나 프로비전 프로필은 1년 후에 만료됩니다. 이 업데이트를 사용하면 Intune은 인증서가 여전히 유효한 동안 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필 정책을 미리 배포하기 위한 도구를 제공합니다. 자세한 내용은 [iOS 모바일 프로비전 프로필 정책을 사용하여 LOB(기간 업무) 앱을 최신 상태로 유지](/intune/deploy-use/ios-mobile-app-provisioning-profiles)를 참조하세요.
 <!--- TFS 1280247--->
 ### Intune용 Xamarin SDK 앱을 사용할 수 있음
-Intune 앱 SDK Xamarin 구성 요소를 사용하면 Xamarin으로 빌드된 모바일 iOS 및 Android 앱에서 Intune 모바일 앱 관리 기능을 사용하도록 설정할 수 있습니다. [Xamarin 스토어](https://components.xamarin.com/view/Microsoft.Intune.MAM) 또는 [Microsoft Intune Github 페이지](https://github.com/msintuneappsdk)에서 해당 구성 요소를 찾을 수 있습니다.
+Intune 앱 SDK Xamarin 구성 요소를 사용하면 Xamarin으로 빌드된 모바일 iOS 및 Android 앱에서 Intune 모바일 앱 관리 기능을 설정할 수 있습니다. [Xamarin 스토어](https://components.xamarin.com/view/Microsoft.Intune.MAM) 또는 [Microsoft Intune Github 페이지](https://github.com/msintuneappsdk)에서 해당 구성 요소를 찾을 수 있습니다.
 <!--- TFS 1061478 --->
 
 ## 장치 관리
@@ -41,7 +50,9 @@ Intune 앱 SDK Xamarin 구성 요소를 사용하면 Xamarin으로 빌드된 모
 Intune은 사용자당 구성 가능한 최대 장치 등록 제한을 5대에서 15대로 늘립니다.
 <!---TFS 1289896 --->
 
-
+### Intune 클라이언트 소프트웨어를 실행하는 Windows PC용 TeamViewer 통합
+Intune 클라이언트를 실행하는 Windows PC용 [TeamViewer](https://www.teamviewer.com) 통합을 통해 Windows PC와 원격 지원 세션을 설정하여 최종 사용자 지원 센터 부서를 지원할 수 있습니다. 여기에는 Windows 7, 8, 8.1 및 Windows 10이 포함됩니다. 자세한 내용은 [Microsoft Intune 컴퓨터 클라이언트를 사용한 일반 Windows PC 관리 작업](intune/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client)을 참조하세요.
+<!---TFS 1284856--->
 
 ## 회사 포털 업데이트
 ### 회사 포털 웹 사이트
@@ -79,7 +90,7 @@ Intune은 AAD(Azure Active Directory) 보안 그룹을 사용하는 새로운 �
 - PowerShell 및 Graph를 사용하여 확장성을 제공합니다.
 - 엔터프라이즈 이동성 관리에서 그룹 관리 환경을 통합합니다.
 
-보안 그룹으로의 이동을 사용하도록 설정하기 위해 현재 관리 콘솔의 환경이 약간 수정될 예정입니다. 이러한 변경 내용 및 Azure AD 보안 그룹의 사용 방식은 Intune 설명서에 기록됩니다.
+보안 그룹으로의 이동을 설정하기 위해 현재 관리 콘솔의 환경이 약간 수정될 예정입니다. 이러한 변경 내용 및 Azure AD 보안 그룹의 사용 방식은 Intune 설명서에 기록됩니다.
 
 Intune을 처음 사용하는 고객은 현재 테넌트보다 먼저 일부 보안 그룹의 변경을 보게 될 것입니다.
 
@@ -93,7 +104,7 @@ Intune을 처음 사용하는 고객은 현재 테넌트보다 먼저 일부 보
 이러한 결함을 완화할 수 있는 방법에 대한 자세한 내용은 8월에 릴리스됩니다.
 
 ### Android용 회사 포털에 '알림' 추가
-8월에는 홈페이지에 새 **알림** 아이콘을 추가하는 업데이트를 Android용 회사 포털에 릴리스할 예정입니다. 이 아이콘을 누르면 호환되지 않는 장치, 등록 업데이트 및 등록 활성화와 같이 회사 포털 앱에서 주의가 필요한 모든 항목을 최종 사용자에게 표시하는 **알림** 페이지로 이동됩니다. IOS 회사 포털 앱을 사용하는 경우에는 이미 알림을 제공받았을 것입니다. **알림** 페이지가 도입되면서 장치가 등록된 동안 Android용 회사 포털을 시작하거나 다시 시작할 때마다 **회사 액세스 설정** 페이지가 항상 표시되지는 않습니다. 많은 고객 여러분이 최종 사용자 지침을 만드는 데 도움을 주신 점을 알고 있습니다. 지침/스크린 샷을 업데이트해야 할 때 미리 알려 주시는 점에 감사드립니다. 예정된 변경 내용을 환경에 반영하려면 설명서를 업데이트하세요. 업데이트된 스크린 샷을 보려면 https://aka.ms/androidcpupdate로 이동하세요.  
+9월에는 홈페이지에 새 **알림** 아이콘을 추가하는 업데이트를 Android용 회사 포털에 릴리스할 예정입니다. 이 아이콘을 누르면 호환되지 않는 장치, 등록 업데이트 및 등록 활성화와 같이 회사 포털 앱에서 주의가 필요한 모든 항목을 최종 사용자에게 표시하는 **알림** 페이지로 이동됩니다. IOS 회사 포털 앱을 사용하는 경우에는 이미 알림을 제공받았을 것입니다. **알림** 페이지가 도입되면서 장치가 등록된 동안 Android용 회사 포털을 시작하거나 다시 시작할 때마다 **회사 액세스 설정** 페이지가 항상 표시되지는 않습니다. 많은 고객 여러분이 최종 사용자 지침을 만드는 데 도움을 주신 점을 알고 있습니다. 지침/스크린샷을 업데이트해야 할 때 미리 알려 주시는 점에 감사드립니다. 예정된 변경 내용을 환경에 반영하려면 설명서를 업데이트하세요. 업데이트된 스크린샷을 보려면 https://aka.ms/androidcpupdate로 이동하세요.  
 
 
 
@@ -147,6 +158,6 @@ Intune notification rules define who an email alert will be sent to from Intune.
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

@@ -1,10 +1,10 @@
 ---
 title: "Microsoft Intune을 사용한 Windows 장치 관리 설정 | Microsoft Intune"
-description: "Microsoft Intune으로 Windows 10 장치를 비롯한 Windows Phone PC에 대한 MDM(모바일 장치 관리)을 사용하도록 설정합니다."
+description: "Microsoft Intune으로 Windows 10 장치를 비롯한 Windows Phone PC에 대한 MDM(모바일 장치 관리)을 설정합니다."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,16 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f336cf52cbecd93cb7b2850560327e6024302e0
-ms.openlocfilehash: 710e34f8f97377bf57a398f74773788df3794654
+ms.sourcegitcommit: 06d6c8ce97ba6a259055e94f0eba87f7c5a96531
+ms.openlocfilehash: fae2aa496ec38d9ddc2cb6800bed10ccb32fd154
 
 
 ---
 
 # Windows 장치 관리 설정
-Intune을 사용하면 회사 메일 및 앱에 액세스할 수 있도록 Windows PC 장치 등록에 대해 BYOD("Bring Your Own Device")를 사용하도록 설정할 수 있습니다. Azure Active Directory와 함께 사용되어 새 Windows 10 장치를 관리로 이동하는 신속하고 자동화된 방법을 제공하며 컴퓨터에 이미지로 다시 설치할 필요 없이 회사 리소스에 액세스할 수 있습니다. 사용자가 등록된 후에는 로그인할 수 있으며 Intune 관리 콘솔을 사용하여 정책, 앱 및 설정으로 대상 장치를 지정할 수 있습니다. Intune 클라이언트를 사용하여 [Microsoft Intune을 사용한 Windows Phone 관리 설정](set-up-windows-phone-management-with-microsoft-intune.md) 또는 [Intune 클라이언트 소프트웨어로 컴퓨터 관리](manage-windows-pcs-with-microsoft-intune.md)를 수행하려고 할 수도 있습니다.
+Windows 장치 설정에 대한 도움말은 [여기](../enduser/using-your-windows-device-with-intune.md)에서 살펴볼 수 있습니다.
+
+Intune을 사용하면 회사 메일 및 앱에 액세스할 수 있도록 Windows PC 장치 등록에 대해 BYOD("Bring Your Own Device")를 설정할 수 있습니다. Azure Active Directory와 함께 사용되어 새 Windows 10 장치를 관리로 이동하는 신속하고 자동화된 방법을 제공하며 컴퓨터에 이미지로 다시 설치할 필요 없이 회사 리소스에 액세스할 수 있습니다. 사용자가 등록된 후에는 로그인할 수 있으며 Intune 관리 콘솔을 사용하여 정책, 앱 및 설정으로 대상 장치를 지정할 수 있습니다. Intune 클라이언트를 사용하여 [Microsoft Intune을 사용한 Windows Phone 관리 설정](set-up-windows-phone-management-with-microsoft-intune.md) 또는 [Intune 클라이언트 소프트웨어로 컴퓨터 관리](manage-windows-pcs-with-microsoft-intune.md)를 수행하려고 할 수도 있습니다.
 
 DNS CNAME을 만들면 사용자가 서버 이름을 입력하지 않고도 Intune에서 연결 및 등록할 수 있습니다.
 
@@ -43,13 +45,18 @@ DNS CNAME을 만들면 사용자가 서버 이름을 입력하지 않고도 Intu
 
   2.  [Intune 관리 콘솔](http://manage.microsoft.com)에서 **관리** &gt; **모바일 장치 관리** &gt; **Windows**를 클릭합니다.
   ![Windows 장치 관리 대화 상자](../media/enroll-intune-winenr.png)
+
   3.  회사 웹 사이트의 확인된 도메인 URL을 **확인된 도메인 이름 지정** 상자에 입력하고 **자동 검색 테스트**를 클릭합니다.
+
+  4.  사용자는 장치를 등록하는 방법과 장치가 관리될 때 발생하는 상황에 대해 알고 있어야 합니다.
+      - [Microsoft Intune 사용 방법에 대해 최종 사용자에게 알릴 내용](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+      - [Windows 장치용 최종 사용자 가이드](../enduser/using-your-windows-device-with-intune.md)
 
 ### 참고 항목
 [Microsoft Intune에 장치를 등록하도록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

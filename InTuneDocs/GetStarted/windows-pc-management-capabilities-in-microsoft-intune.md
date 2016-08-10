@@ -4,7 +4,7 @@ description: "Intune 클라이언트 소프트웨어로 Windows PC를 관리하�
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 08/04/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 77fa5c66-a87c-47df-964c-800eea509b33
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: b2e5b04df846db1a0076da7db63a5906fbd25558
+ms.sourcegitcommit: 49a236359692a5bbccf9ee0bb263094434049a91
+ms.openlocfilehash: f5ade985900e2387b19b4ed2786f22d8a216d8d8
 
 
 ---
@@ -28,7 +28,7 @@ ms.openlocfilehash: b2e5b04df846db1a0076da7db63a5906fbd25558
 
 -   **맬웨어 방지 보호** - Intune에 포함된 Endpoint Protection을 사용하면 PC를 맬웨어로부터 보호할 수 있습니다.
 
--   **원격 지원** - Intune을 통해 IT 지원 직원에게 문의하면 해당 직원이 Intune에 포함된 원격 데스크톱 기능을 사용하여 도움을 줄 수 있습니다<!--- (requires TeamViewer software)--->.
+-   **원격 지원** - Intune을 통해 IT 지원 직원에게 문의하면 해당 직원이 Intune에 포함된 원격 데스크톱 기능을 사용하여 도움을 줄 수 있습니다(TeamViewer 소프트웨어 필요).
 
 -   **소프트웨어 라이선스 관리** - 사용 가능한 소프트웨어 라이선스 수와 사용 가능한 라이선스 중 현재 사용 중인 라이선스 수를 추적합니다.
 -   **앱 배포** - 관리하는 PC에 소프트웨어를 배포합니다. 일부 앱 관리 기능은 클라이언트 소프트웨어를 사용하여 PC를 관리하면 사용할 수 없습니다.
@@ -48,7 +48,7 @@ Intune은 다음 Windows 버전(x86 및 x64)을 실행하는 PC를 관리할 수
 
 -   **Windows 8.1** - Pro 및 Enterprise 버전
 
-- **Windows 10** - Home, Pro, Education 및 Enterprise 버전
+- **Windows 10** - Pro, Education 및 Enterprise 버전
 
 
 ## 최소 하드웨어 요구 사항
@@ -74,6 +74,6 @@ Intune은 다음 Windows 버전(x86 및 x64)을 실행하는 PC를 관리할 수
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

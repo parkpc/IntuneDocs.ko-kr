@@ -15,7 +15,8 @@
 ## [소프트웨어 업데이트 문제 해결](Troubleshoot-software-updates-in-microsoft-intune.md)
 ## [메일 프로필 문제 해결](Troubleshoot-email-profiles-in-microsoft-intune.md)
 ## [조건부 액세스 문제 해결](troubleshoot-conditional-access.md)
+## [Exchange Connector 문제 해결](troubleshoot-exchange-connector.md)
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

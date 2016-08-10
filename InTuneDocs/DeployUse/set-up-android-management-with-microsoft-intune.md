@@ -1,6 +1,6 @@
 ---
 title: "Android 관리 설정 | Microsoft Intune"
-description: "Microsoft Intune으로 Android 및 KNOX 장치에 대한 MDM(모바일 장치 관리)를 사용하도록 설정합니다."
+description: "Microsoft Intune으로 Android 및 KNOX 장치에 대한 MDM(모바일 장치 관리)를 설정합니다."
 keywords: 
 author: NathBarn
 manager: angrobe
@@ -13,14 +13,16 @@ ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
 ms.reviewer: lacranda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: 147765f6e8225e8e1d9d8e64473e8b6988256b03
+ms.sourcegitcommit: d8e524b267622f91ed0c2ed854f931299f316312
+ms.openlocfilehash: e42f49558ea9744b59693be873aa5130c7e1a0c3
 
 
 ---
 
 # Android 장치 관리 설정
-Microsoft intune에서는 플랫폼에 대한 추가 작업 없이 Android 장치에 BYOD("Bring Your Own Device")를 사용하도록 설정할 수 있습니다.
+Windows 장치 설정에 대한 도움말은 [여기](../enduser/using-your-android-device-with-intune.md)에서 살펴볼 수 있습니다.
+
+Microsoft intune에서는 플랫폼에 대한 추가 작업 없이 Android 장치에 BYOD("Bring Your Own Device")를 설정할 수 있습니다.
 
 자세한 내용을 보려면 다음 장치 플랫폼 옵션 중에서 선택합니다.
 
@@ -36,16 +38,20 @@ Android 모바일 장치에서는 사용자가 Google Play에서 제공되는 �
     모바일 장치 관리를 아직 준비하지 않은 경우 [모바일 장치 관리 기관](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
 
 2.  **Android 등록 사용**<br>
-    Intune 콘솔에서 추가적으로 구성할 필요 없이 Android 모바일 장치 등록을 사용하도록 설정할 수 있습니다.
+    Intune 콘솔에서 추가적으로 구성할 필요 없이 Android 모바일 장치 등록을 설정할 수 있습니다.
 
 3.  **사용자에게 회사 포털을 사용하여 회사 리소스에 액세스하는 방법 알려주기**<br>
     사용자는 장치를 등록하는 방법과 장치가 관리될 때 발생하는 상황에 대해 알고 있어야 합니다. [Microsoft Intune 사용 방법에 대해 최종 사용자에게 알릴 내용](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+
+4.  사용자는 장치를 등록하는 방법과 장치가 관리될 때 발생하는 상황에 대해 알고 있어야 합니다.
+        - [Microsoft Intune 사용 방법에 대해 최종 사용자에게 알릴 내용](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+        - [Windows 장치용 최종 사용자 가이드](../enduser/using-your-android-device-with-intune.md)
 
 ### 참고 항목
 [Microsoft Intune에 장치를 등록하도록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

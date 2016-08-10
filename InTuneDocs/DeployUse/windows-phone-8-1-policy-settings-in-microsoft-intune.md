@@ -4,7 +4,7 @@ description: "Intune은 Windows Phone 8.1 장치에서 구성할 수 있는 기�
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 07/30/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 83f7469c-272e-43f2-8139-b0d7bc34f43f
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: 04fca72cd426ee4718e100cb2633ca2c967b4c05
+ms.sourcegitcommit: 1648a070cc2d318df4d434955f6068cd4b42690c
+ms.openlocfilehash: 87021459424c84feed3b676364cf890f43ff32d9
 
 
 ---
@@ -109,11 +109,11 @@ Microsoft Intune **Windows Phone 일반 구성 정책(Windows Phone 8.1 이상)*
 |----------------|-----------------------------------------|
 |**복사 및 붙여넣기 허용**|장치에서 복사 및 붙여넣기 기능을 허용합니다.|아니요|예|
 
-### 규격 및 비규격 앱에 대한 설정
-**규격 &amp; 비규격 앱** 목록에서 다음 정보를 사용하여 규격 또는 비규격 앱 목록을 지정합니다.
+### 허용 및 차단된 앱에 대한 설정
+**허용된 앱 및 차단된 앱** 목록 페이지에서 다음 정보를 사용하여 허용하거나 차단할 앱 목록을 지정합니다.
 
 > [!NOTE]
-> 단일 정책에는 규격 앱 목록이나 비규격 앱 목록만 포함될 수 있습니다. 동일한 정책에 둘 다 지정할 수는 없습니다.
+> 단일 정책에는 허용된 앱 목록이나 차단된 앱 목록만 포함될 수 있습니다. 동일한 정책에 둘 다 지정할 수는 없습니다.
 
 |설정 이름|세부 정보|
 |----------------|--------------------|
@@ -127,14 +127,14 @@ Microsoft Intune **Windows Phone 일반 구성 정책(Windows Phone 8.1 이상)*
 > Windows Phone 8.1 장치용으로 사용 가능한 앱 목록을 지정하는 경우 회사 포털 앱을 이 목록에 추가해야 합니다. 그렇지 않으면 앱이 차단됩니다.
 
 
-### 규격 및 비규격 앱에 대한 참조 정보
+### 허용 및 차단된 앱에 대한 참조 정보
 
 #### 앱 스토어 URL을 지정하는 방법
-호환 및 비호환 앱 목록에 앱 URL을 지정하려면 다음 형식을 사용합니다.
+허용 및 차단된 앱 목록에 앱 URL을 지정하려면 다음 형식을 사용합니다.
 
 [Windows Phone 앱+게임 페이지](http://www.windowsphone.com/en-us/store/overview) 에서 사용하려는 앱을 검색합니다.
 
-앱 페이지를 열고 클립보드에 URL을 복사합니다. 이제 규격 또는 비규격 앱 목록의 URL로 사용할 수 있습니다.
+앱 페이지를 열고 클립보드에 URL을 복사합니다. 이제 이 URL을 허용되는 앱 또는 차단되는 앱 목록에서 URL로 사용할 수 있습니다.
 
 **예:** Skype 앱의 저장소를 검색합니다. 사용하는 URL이 **http://www.windowsphone.com/ko-kr/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51**이 됩니다.
 
@@ -172,6 +172,6 @@ Windows Phone 장치에 대한 OMA-URI 설정 만들기에 대한 도움이 필�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

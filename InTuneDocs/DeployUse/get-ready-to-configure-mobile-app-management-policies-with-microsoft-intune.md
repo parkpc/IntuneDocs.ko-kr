@@ -3,7 +3,7 @@ title: "MAM 정책 구성 준비 | Microsoft Intune"
 description: "이 항목에서는 모바일 앱 관리 정책을 만들기 전에 필요한 필수 구성 요소 및 사용자 설정 작업에 대해 설명합니다."
 keywords: 
 author: karthikaraman
-manager: arob98
+manager: angrobe
 ms.date: 07/22/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
-ms.openlocfilehash: 39af738fe83ec6ea2e963d857cc233332063c80b
+ms.sourcegitcommit: bebf57269ae41f04a47240063cde4a4dd0bf334f
+ms.openlocfilehash: aeaa64124384a71126eeca7339416b80d395d07d
 
 
 ---
@@ -58,7 +58,7 @@ MAM 정책을 구성하기 *전에* 다음이 필요합니다.
 -   Office 365 구독은 다음에 필요합니다.
   - 다중 ID 지원을 사용하여 앱에 MAM 정책 적용하기.
   - SharePoint Online 및 Exchange Online 작업 계정 만들기. Exchange 온-프레미스 및 SharePoint 온-프레미스는 지원되지 않습니다.
--   최신 인증을 위한 비즈니스용 Skype Online 설정. 자세한 내용은 [최신 인증 사용](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx.md)을 참조하세요.
+-   최신 인증을 위한 비즈니스용 Skype Online 설정. 자세한 내용은 [최신 인증 사용](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)을 참조하세요.
 
 
 - 사용자를 만들기 위한 Azure AD(Azure Active Directory). Azure AD는 사용자가 앱을 열고 회사 자격 증명을 입력하는 경우 사용자를 인증합니다.
@@ -125,6 +125,6 @@ MAM 정책을 구성하기 *전에* 다음이 필요합니다.
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

@@ -2,9 +2,9 @@
 title: "일반적인 Windows PC 관리 작업 | Microsoft Intune"
 description: "Intune PC 클라이언트 소프트웨어를 실행하는 컴퓨터를 관리하는 방법에 대해 알아보려면 이 항목의 작업을 검토합니다."
 keywords: 
-author: robstackmsft
-manager: arob98
-ms.date: 07/19/2016
+author: NathBarn
+manager: angrobe
+ms.date: 08/04/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: eb912c73-54d2-4d78-ac34-3cbe825804c7
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: c915f8ae60637dcdc64899c59cd07138c17ceef9
+ms.sourcegitcommit: 6ddb0fda0e818b09d274276076fd6310d29b99cb
+ms.openlocfilehash: 8ce6b10478927177e5d6d8de0677cf06bed00f08
 
 
 ---
@@ -36,7 +36,7 @@ Microsoft Intune Center를 통해 사용자는 다음을 수행할 수 있습니
 
 -   Microsoft Intune Endpoint Protection 관리
 
-<!--- -   Request remote assistance.--->
+-  원격 지원 요청
 
 Microsoft Intune Center는 모든 관리 컴퓨터에 설치됩니다. Intune 정책에서 다음 설정을 구성할 수 있으며 이러한 설정은 Microsoft Intune Center에 표시됩니다.
 
@@ -158,62 +158,59 @@ Intune에서는 관리 컴퓨터의 하드웨어 및 소프트웨어에 대한 �
     -   새 사용자와 컴퓨터를 연결하려면 **모든 사용자** 목록에서 사용자를 선택합니다. 사용자 데이터가 올바른지 확인한 후 **확인**을 선택합니다.
 
 > [!TIP]
-> 최종 사용자가 컴퓨터에 자신을 연결하는 기능을 제한하려면 **Microsoft Intune 에이전트 설정** 정책에서 **사용자와 컴퓨터를 연결하는 기능 제한** 옵션을 사용하도록 설정합니다.
+> 최종 사용자가 컴퓨터에 자신을 연결하는 기능을 제한하려면 **Microsoft Intune 에이전트 설정** 정책에서 **사용자와 컴퓨터를 연결하는 기능 제한** 옵션을 설정합니다.
 
-<!--- ## Request and provide remote assistance to Windows PCs that use the Intune client software
+## Intune 클라이언트 소프트웨어를 사용하는 Windows PC에 대한 원격 지원 요청 및 제공
 
-> [!IMPORTANT]
-> You might not see the options to configure TeamViewer integration for remote assistance in the Intune admin console. This capability is not currently available to all customers, but will be rolling our more widely soon.
-     
-
-Microsoft Intune can use the [TeamViewer](https://www.teamviewer.com) software to let users of PCs that run the Intune client software get remote assistance help from you. When a user requests help from the Microsoft Intune Center, you are informed by an alert, can accept the request, and then provide assistance.
-This functionality replaces the existing Windows Remote Assistance functionality in Intune.
+Microsoft Intune은 [TeamViewer](https://www.teamviewer.com) 소프트웨어를 사용하여 Intune 클라이언트 소프트웨어를 실행하는 PC의 사용자가 원격 지원을 받을 수 있게 할 수 있습니다. 사용자가 Microsoft Intune Center의 도움을 요청하는 경우 이를 안내하는 알림이 표시되므로 해당 요청을 수신한 후 지원을 제공할 수 있습니다.
+이 기능은 Intune에서 기존의 Windows 원격 지원 기능을 대체합니다.
 
 
-### Before you start
+### 시작하기 전에
 
-Before you can begin to establish and respond to remote assistance requests, you must ensure the following prerequisites are in place:
+원격 지원을 설정하고 원격 지원 요청에 응답하려면 먼저, 다음과 같은 선행 조건을 충족했는지 확인해야 합니다.
 
-- You must have [signed up for a TeamViewer account](https://login.teamviewer.com/LogOn#register) to log into the TeamViewer website.
-- Windows PCs that you want to administer must be [managed by the Windows PC client](manage-windows-pcs-with-microsoft-intune.md)
-- All Windows PC operating systems supported by Intune can be administered.
+- TeamViewer 웹 사이트에 로그인하기 위한 [TeamViewer 계정을 등록](https://login.teamviewer.com/LogOn#register)해야 합니다.
+- 관리하려는 Windows PC를 [Windows PC 클라이언트에서 관리](manage-windows-pcs-with-microsoft-intune.md)해야 합니다.
+- Intune에서 지원하는 모든 Windows PC 운영 체제를 관리할 수 있어야 합니다.
 
-### Configure the TeamViewer Connector
+### TeamViewer 커넥터 구성
 
-1. In the [Microsoft Intune administration console](https://manage.microsoft.com), choose **Admin**.
-2. In the **Admin** workspace, choose **TeamViewer**.
-3. On the **TeamViewer** page, under **TeamViewer Connector**, choose **Enable**.
-4. In the **Enable TeamViewer** dialog box, view, then **Accept** the license terms. If you don't already own a TeamViewer license, choose **Purchase a TeamViewer license**.
-5. After the TeamViewer browser window opens, sign into the site with your TeamViewer credentials.
-6. On the TeamViewer site, read, then accept the options to allow Intune to connect with TeamViewer.
-7. In the Intune console, verify that the **TeamViewer Connector** item shows as **Enabled**.
-
-
-### Open a remote assistance request (end user)
-
-1. On a client Windows PC, open the **Microsoft Intune Center**.
-2. Under **Remote Assistance**, choose **Request Remote Assistance**.
-3. After you approve the request (see below), TeamViewer opens on the client. The user must accept any messages indicating that the web browser is trying to open the TeamViewer application.
-4. The user sees a message asking if you can control their PC. They must accept this message to continue.
-5. During the remote assistance session, the user sees a window that shows them you are connected. If they close this window, the remote session ends.
-
-### Respond to a remote assistance request
-
-1. When a user submits a remote assistance request, you can view it in the **Alerts** workspace, under **Monitoring** > **Remote Assistance**. For example:
-> ![Screenshot of a remote assistance request](./media/team-viewer.png)
-
-<br>If a request goes unanswered for more than 4 hours, it is removed.
-2. To accept the request, choose **Approve request and launch Remote Assistance**.
-3. In the **A New Remote Assistance Request is Pending** dialog box, choose **Accept the remote assistance request**. If it's not already installed, TeamViewer will install any necessary apps on your computer.
-4. TeamViewer then notifies the end user that you want to take control of their PC. After the user has accepted the request, the TeamViewer windows opens, and you can control the PC. 
- 
-While in a remote assistance session, you can use all available TeamViewer commands to control the remote PC. For help with these commands, download the [Manual for remote control](http://www.teamviewer.com/en/support/documents/) from the TeamViewer website.
-
-### Close the remote assistance session
-
-From the **Actions** menu of the **TeamViewer** window, choose **End Session**.--->
+1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리자**를 선택합니다.
+2. **관리자** 작업 영역에서 **TeamViewer**를 선택합니다.
+3. **TeamViewer** 페이지의 **TeamViewer 커넥터**에서 **사용**을 선택합니다.
+4. **TeamViewer 사용** 대화 상자에서 사용 조건을 확인한 후 **동의**합니다. TeamViewer 라이선스가 아직 없는 경우 **TeamViewer 라이선스 구입**을 선택합니다.
+5. TeamViewer 브라우저 창이 열리면 TeamViewer 자격 증명을 사용하여 사이트에 로그인합니다.
+6. TeamViewer 사이트에서 옵션을 읽은 후 동의하여 Intune에서 TeamViewer에 연결하도록 합니다.
+7. Intune 콘솔에서 **TeamViewer 커넥터** 항목이 **사용**으로 표시되는지 확인합니다.
 
 
-<!--HONumber=Jul16_HO3-->
+### 원격 지원 요청 열기(최종 사용자)
+
+1. 클라이언트 Windows PC에서 **Microsoft Intune Center**를 엽니다.
+2. **원격 지원** 아래에서 **원격 지원 요청**을 선택합니다.
+3. 요청을 승인하면(아래 참조) 클라이언트에서 TeamViewer가 열립니다. 사용자는 웹 브라우저에서 TeamViewer 응용 프로그램을 열려고 한다는 사실을 나타내는 메시지에 동의해야 합니다.
+4. PC를 제어하도록 허용할지 묻는 메시지가 사용자에게 표시됩니다. 계속하려면 이 메시지에 동의해야 합니다.
+5. 원격 지원 세션 중 연결되어 있음을 보여 주는 창이 사용자에게 표시됩니다. 사용자가 이 창을 닫으면 원격 세션이 종료됩니다.
+
+### 원격 지원 요청에 응답
+
+1. 사용자가 원격 지원 요청을 제출하는 경우 **경고** 작업 영역의 **모니터링** > **원격 지원**에서 해당 요청을 확인할 수 있습니다. 예를 들면 다음과 같습니다.
+> ![원격 지원 요청 스크린샷](./media/team-viewer.png)
+
+<br>요청에 대해 4시간 이상 동안 답변하지 않으면 해당 요청이 제거됩니다.
+2. 요청을 수락하려면 **요청을 승인하고 원격 지원을 시작합니다.**를 선택합니다.
+3. **새 원격 지원 요청이 보류 중입니다.** 대화 상자에서 **원격 지원 요청 수락**을 선택합니다. 아직 설치되어 있지 않은 경우 TeamViewer가 컴퓨터에 필요한 모든 앱을 설치합니다.
+4. 그런 다음, TeamViewer가 최종 사용자에게 PC 제어를 허용하려는지 묻는 알림을 표시합니다. 사용자가 그 요청을 수락하면 TeamViewer 창이 열리며, PC를 제어할 수 있게 됩니다.
+
+원격 지원 세션에서 작업하는 동안, 사용 가능한 모든 TeamViewer 명령을 사용하여 원격 PC를 제어할 수 있습니다. 이러한 명령의 도움말을 보려면 TeamViewer 웹 사이트에서 [원격 제어 매뉴얼](http://www.teamviewer.com/en/support/documents/)을 다운로드하세요.
+
+### 원격 지원 세션 닫기
+
+**TeamViewer** 창의 **작업** 메뉴에서 **세션 끝내기**를 선택합니다.
+
+
+
+<!--HONumber=Aug16_HO1-->
 
 
