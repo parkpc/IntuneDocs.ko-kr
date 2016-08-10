@@ -20,7 +20,7 @@ ms.openlocfilehash: 42c85455dd9a99b86ed475b4d24d2c1c08cb9e49
 ---
 
 # 障碍のある方のためのアクセシビリティ
-Microsoft は、すべてのユーザーが簡単に使用できる製品とサービスの開発に取り組んでいます。 次のトピックでは、障害のある方に [!INCLUDE[wit_firstref](./includes/wit_firstref_md.md)] を快適にご利用いただくための、機能、製品、およびサービスについて説明します。
+Microsoft は、すべてのユーザーが簡単に使用できる製品とサービスの開発に取り組んでいます。 次のトピックでは、障碍のある方に [!INCLUDE[wit_firstref](./includes/wit_firstref_md.md)] を快適にご利用いただくための、機能、製品、およびサービスについて説明します。
 
 ## このセクションの内容
 「[Microsoft Intune のユーザー補助機能](accessibility-features-of-microsoft-intune.md)」では、[!INCLUDE[wit_firstref](./includes/wit_firstref_md.md)] のユーザー補助機能について説明します。
