@@ -3,7 +3,7 @@ title: "デバイスを登録する準備 | Microsoft Intune"
 description: "モバイル デバイス管理 (MDM) の前提条件の設定、およびさまざまなオペレーティング システムに登録する準備。"
 keywords: 
 author: NathBarn
-manager: arob98
+manager: angrobe
 ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
@@ -13,14 +13,14 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1f6f98d582ce9a686ca02682a9066d8b2162d6ab
-ms.openlocfilehash: 24b8434993d7661e12172ac0e5fe58d1e6621558
+ms.sourcegitcommit: 9b7b8f6e5182e228458f5ea75e804a638f1e2a2b
+ms.openlocfilehash: 7e3e29113dd03ea25f102d7f71c63e5c3faefad8
 
 
 ---
 
 # Microsoft Intune にデバイスを登録する準備
-従業員が Intune にモバイル デバイス ([Android](set-up-android-management-with-microsoft-intune.md)、[iOS、Mac](set-up-ios-and-mac-management-with-microsoft-intune.md)、[Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)、[Windows PC](set-up-windows-device-management-with-microsoft-intune.md) など) を登録できるようにするには、デバイスの登録を有効にする必要があります。 登録を許可するには、モバイル デバイス管理 (MDM) 機関を設定し、Intune ポータル サイトを構成し、ライセンスを割り当て、デバイス プラットフォームの登録を有効にする必要があります。
+従業員が Intune にモバイル デバイス ([Android](set-up-android-management-with-microsoft-intune.md)、[iOS、Mac](set-up-ios-and-mac-management-with-microsoft-intune.md)、[Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)、[Windows PC](set-up-windows-device-management-with-microsoft-intune.md) など) を登録できるようにするには、または従業員が会社所有のデバイスを管理できるようにするには、デバイスの登録を有効にする必要があります。 登録を許可するには、モバイル デバイス管理 (MDM) 機関を設定し、Intune ポータル サイトを構成し、ライセンスを割り当て、デバイス プラットフォームの登録を有効にする必要があります。
 
 ## モバイル デバイス管理機関を設定する
 MDM 機関では、一連のデバイスを管理するためのアクセス許可を持つ管理サービスを定義します。 MDM 機関のオプションには、Intune 単体で使用するか、Intune を Configuration Manager と連携させて使用する方法があります。 Configuration Manager を管理機関として設定した場合、モバイル デバイス管理のために使用できるサービスは他にありません。
@@ -109,6 +109,6 @@ MDM 機関を設定したら、組織がサポートするオペレーティン�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

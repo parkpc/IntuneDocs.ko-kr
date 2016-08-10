@@ -4,7 +4,7 @@ description: "Intune は、アプリ ストアからライセンス情報をイ�
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/13/2016
+ms.date: 07/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 1dafc28a-7f8b-4fe0-8619-f977c93d1140
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: 8f7e77f00e6082c5b272a7ec2be835bc1ef97a28
+ms.sourcegitcommit: c64fb33893027d0000cae4cc3d9c3ed28cc38901
+ms.openlocfilehash: 5db23913601973630a4d013aae86cf26af337c4b
 
 
 ---
@@ -64,6 +64,9 @@ iOS アプリの複数のライセンスを購入するには、[Apple Volume Pu
 
 2.  展開するアプリを選択し、**[展開の管理]** を選択して、「[Microsoft Intune でアプリを展開する](deploy-apps-in-microsoft-intune.md)」トピックの手順に従って、アプリのアップロード、作成、展開を完了します。
 
+> [!TIP]
+> **[必須]** の展開操作を選択する必要があります。 [Available installs] (使用可能なインストール) は現在サポートされていません。
+
 アプリを **[必須]** インストールとしてデプロイすると、アプリをインストールする各ユーザーによってライセンスが使用されます。
 
 ライセンスを再利用するには、展開アクションを **[アンインストール]** に変更する必要があります。 アプリがアンインストールされた後、ライセンスが再利用されます。
@@ -87,6 +90,6 @@ iOS アプリの複数のライセンスを購入するには、[Apple Volume Pu
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Jul16_HO5-->
 
 
