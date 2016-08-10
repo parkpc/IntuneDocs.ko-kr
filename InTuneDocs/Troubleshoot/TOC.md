@@ -15,7 +15,8 @@
 ## [ソフトウェアの更新に関するトラブルシューティング](Troubleshoot-software-updates-in-microsoft-intune.md)
 ## [電子メール プロファイルに関するトラブルシューティング](Troubleshoot-email-profiles-in-microsoft-intune.md)
 ## [条件付きアクセスに関するトラブルシューティング](troubleshoot-conditional-access.md)
+## [Exchange Connector に関するトラブルシューティング](troubleshoot-exchange-connector.md)
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

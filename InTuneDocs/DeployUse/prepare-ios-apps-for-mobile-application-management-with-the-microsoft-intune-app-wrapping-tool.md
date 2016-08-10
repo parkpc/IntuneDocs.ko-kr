@@ -13,8 +13,8 @@ ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
 ms.reviewer: matgates
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 19a5b8f8260bace2bbe3626da3df281306f53024
-ms.openlocfilehash: ebd68513da55b8bb1715d2c82636abf791cae1ff
+ms.sourcegitcommit: bebf57269ae41f04a47240063cde4a4dd0bf334f
+ms.openlocfilehash: 3d9def8f906746cf6e3d014d251b94406d839067
 
 
 ---
@@ -27,12 +27,13 @@ ms.openlocfilehash: ebd68513da55b8bb1715d2c82636abf791cae1ff
 このツールをダウンロードするには、「[iOS 用 Microsoft Intune アプリ ラッピング ツール](http://www.microsoft.com/en-us/download/details.aspx?id=45218)」を参照してください。
 
 ## 手順 1: アプリ ラッピング ツールを使用するための前提条件を満たす
+前提条件とその設定方法の詳細については、[このブログ投稿](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)をご覧ください。
 
 |要件|詳細情報|
 |---------------|--------------------------------|
 |サポートされるオペレーティング システムとツールセット|このアプリ ラッピング ツールは XCode ツールセットのバージョン 5 以降がインストールされている OS X 10.8.5 以降を実行している Mac コンピューターで実行する必要があります。|
 |署名証明書とプロビジョニング プロファイル|Apple 署名証明書とプロビジョニング プロファイルを持っている必要があります。 [Apple 開発者ドキュメント](https://developer.apple.com/)を参照してください。|
-|App Wrapping Tool でアプリを処理する|アプリはあなたの会社または独立系ソフトウェア ベンダー (ISV) が開発し、署名したものでなければなりません。 このツールを使用し、Apple ストアのアプリを処理することはできません。 アプリは iOS 7.0 以降向けとして記述されている必要があります。 また、アプリは PIE (Position Independent Executable/位置独立実行) 形式にする必要があります。 PIE 形式に関する詳細については、Apple 開発者ドキュメントを参照してください。 最後に、アプリの拡張子形式は **.app** または **.ipa** にする必要があります。|
+|App Wrapping Tool でアプリを処理する|アプリはあなたの会社または独立系ソフトウェア ベンダー (ISV) が開発し、署名したものでなければなりません。 このツールを使用し、Apple ストアのアプリを処理することはできません。 アプリは iOS 7.1 以降向けとして作成されている必要があります。 また、アプリは PIE (Position Independent Executable/位置独立実行) 形式にする必要があります。 PIE 形式に関する詳細については、Apple 開発者ドキュメントを参照してください。 最後に、アプリの拡張子形式は **.app** または **.ipa** にする必要があります。|
 |ラッピング ツールで処理できないアプリ|暗号化されたアプリ、署名のないアプリ、および拡張ファイル属性があるアプリ。|
 |Azure Active Directory Library (ADAL) を使用するアプリ|アプリで ADAL を使用している場合、アプリには 1.0.2 以上のバージョンの ADAL を組み込む必要があります。また、開発者は、Intune モバイル アプリケーション管理リソースに対するアクセス権をアプリに付与する必要があります。<br /><br />ADAL の使用方法の詳細については、この記事内の「[Azure Active Directory Library を使用するアプリの情報](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md#information-for-apps-that-use-the-azure-active-directory-library)」を参照してください。|
 |アプリの権利の設定|アプリをラップする前に、権利を設定して、通常よりも多くのアクセス許可や機能をアプリに付与しておく必要があります。 手順については、「[アプリ権限の設定](#setting-app-entitlements)」を参照してください。|
@@ -292,6 +293,6 @@ iOS 用アプリ ラッピング ツールで権利のエラーが表示され�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

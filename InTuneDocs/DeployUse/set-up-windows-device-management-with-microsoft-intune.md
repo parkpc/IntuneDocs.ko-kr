@@ -13,13 +13,15 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: 79377078bf5b4c6dad0a3dc4a07a2e84aa2563f8
+ms.sourcegitcommit: 06d6c8ce97ba6a259055e94f0eba87f7c5a96531
+ms.openlocfilehash: fae2aa496ec38d9ddc2cb6800bed10ccb32fd154
 
 
 ---
 
 # Windows デバイスの管理をセットアップする
+Windows デバイスのセットアップについては、[こちら](../enduser/using-your-windows-device-with-intune.md)をご覧ください。
+
 Intune を使用すると、Windows PC デバイスを登録し、会社の電子メールとアプリにアクセスできるようにして、BYOD ("Bring Your Own Device") を実現できます。 Azure Active Directory と共に使用すると、すばやく自動的に新しい Windows 10 デバイスを管理対象に登録し、コンピューターを再イメージ化することなく、会社のリソースにアクセスできるようになります。 登録すると、ユーザーがログインでき、Intune 管理コンソールを使用して、ユーザーのデバイスをポリシー、アプリ、および設定の対象にできます。 また、[Microsoft Intune を使用して Windows Phone の管理をセットアップする](set-up-windows-phone-management-with-microsoft-intune.md)ことや、Intune クライアントを使用して [Intune クライアント ソフトウェアを搭載したコンピューターを管理する](manage-windows-pcs-with-microsoft-intune.md)こともできます。
 
 DNS の CNAME を作成すると、ユーザーはサーバー名を入力せずに Intune に接続して登録できるようになります。
@@ -43,13 +45,18 @@ DNS の CNAME を作成すると、ユーザーはサーバー名を入力せず
 
   2.  [Intune 管理コンソール](http://manage.microsoft.com)で、**[管理]** &gt; **[モバイル デバイス管理]** &gt; **[Windows]** の順にクリックします。
   ![Windows デバイスの管理ダイアログ ボックス](../media/enroll-intune-winenr.png)
+
   3.  **[検証済みドメイン名の指定]** ボックスに会社の Web サイトの検証済みドメインの URL を入力し、**[自動検出のテスト]** をクリックします。
+
+  4.  ユーザーは自分のデバイスを登録する方法とデバイスが管理されるとどうなるかを知る必要があります。
+      - [Microsoft Intune の使用に関するエンドユーザーへの通知内容](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+      - [Windows デバイス向けエンド ユーザー ガイダンス](../enduser/using-your-windows-device-with-intune.md)
 
 ### 関連項目
 [Microsoft Intune にデバイスを登録する準備](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

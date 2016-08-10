@@ -13,13 +13,15 @@ ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
 ms.reviewer: lacranda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: 147765f6e8225e8e1d9d8e64473e8b6988256b03
+ms.sourcegitcommit: d8e524b267622f91ed0c2ed854f931299f316312
+ms.openlocfilehash: e42f49558ea9744b59693be873aa5130c7e1a0c3
 
 
 ---
 
 # Android デバイスの管理をセットアップする
+Windows デバイスのセットアップについては、[こちら](../enduser/using-your-android-device-with-intune.md)をご覧ください。
+
 Microsoft Intune を使用すると、プラットフォームに対して追加作業を行うことなく、Android デバイスの BYOD ("Bring Your Own Device") を実現できます。
 
 詳細については、次のデバイス プラットフォーム オプションから選択してください。
@@ -41,11 +43,15 @@ Android モバイル デバイスは、ユーザーが、Google Play から入�
 3.  **ポータル サイトで会社のリソースにアクセスする方法をユーザーに通知する**<br>
     ユーザーは自分のデバイスを登録する方法とデバイスが管理されるとどうなるかを知る必要があります。 [Microsoft Intune の使用に関するエンドユーザーへの通知内容](what-to-tell-your-end-users-about-using-microsoft-intune.md)
 
+4.  ユーザーは自分のデバイスを登録する方法とデバイスが管理されるとどうなるかを知る必要があります。
+        - [Microsoft Intune の使用に関するエンドユーザーへの通知内容](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+        - [Windows デバイス向けのエンド ユーザー ガイダンス](../enduser/using-your-android-device-with-intune.md)
+
 ### 関連項目
 [Microsoft Intune にデバイスを登録する準備](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

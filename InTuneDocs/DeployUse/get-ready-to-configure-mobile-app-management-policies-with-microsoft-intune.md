@@ -3,7 +3,7 @@ title: "MAM ポリシーを構成する準備 | Microsoft Intune"
 description: "このトピックでは、モバイル アプリ管理ポリシーを作成するための前提条件とユーザーの設定について説明します。"
 keywords: 
 author: karthikaraman
-manager: arob98
+manager: angrobe
 ms.date: 07/22/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
-ms.openlocfilehash: 39af738fe83ec6ea2e963d857cc233332063c80b
+ms.sourcegitcommit: bebf57269ae41f04a47240063cde4a4dd0bf334f
+ms.openlocfilehash: aeaa64124384a71126eeca7339416b80d395d07d
 
 
 ---
@@ -58,7 +58,7 @@ MAM ポリシーを構成する*前提条件*として、以下のものが必�
 -   Office 365 サブスクリプション。これは、以下で必要となります。
   - 複数の ID をサポートするアプリに MAM ポリシーを適用する。
   - SharePoint Online および Exchange Online 作業アカウントを作成する。 Exchange On-Premises と SharePoint On-Premises はサポートされていません。
--   Skype for Business Online の先進認証の設定。 詳細については、[先進認証の有効化に関するページ](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx.md)を参照してください。
+-   Skype for Business Online の先進認証の設定。 詳細については、「[Enable modern authentication](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)」 (先進認証の有効化) をご覧ください。
 
 
 - ユーザーを作成するための Azure Active Directory (Azure AD)。 Azure AD では、ユーザーがアプリを開いて作業用の資格情報を入力するときに、ユーザーを認証します。
@@ -125,6 +125,6 @@ MAM ポリシーを構成する*前提条件*として、以下のものが必�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

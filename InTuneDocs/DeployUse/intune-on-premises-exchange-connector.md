@@ -3,8 +3,8 @@ title: "社内 EAS 用の Exchange Connector | Microsoft Intune"
 description: "Connector ツールを使用して、Exchange ActiveSync MDM 用に、Intune 管理コンソールと社内の Exchange Server 間の通信を有効にする。"
 keywords: 
 author: NathBarn
-manager: arob98
-ms.date: 07/19/2016
+manager: angrobe
+ms.date: 07/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 41ff4212-a6f5-4374-8731-631f7560cff1
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
-ms.openlocfilehash: 233aae987467a574c34aa06168a3c6d59eab663c
+ms.sourcegitcommit: de3296e81c88b3ac04e3ba3f3d3ca222a59df7bd
+ms.openlocfilehash: 18614cc272323b8031c94b8e582f80aa5c06d9d3
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: 233aae987467a574c34aa06168a3c6d59eab663c
 # 社内の Exchange 用の Microsoft Intune Exchange Connector のインストール
 
 
-モバイル デバイスのメールボックスをホストする Exchange Server と Microsoft Intune の接続を設定するには、Intune 管理者コンソールで On-Premises Connector ツールをダウンロードし、構成する必要があります。
+モバイル デバイスのメールボックスをホストする Exchange Server と Microsoft Intune の接続を設定するには、Intune 管理者コンソールで On-Premises Connector ツールをダウンロードし、構成する必要があります。 Intune は、サブスクリプションごとに任意の種類の Exchange Connector 接続を 1 つだけサポートします。
 
 ## On-Premises Connector の要件
 On-Premises Exchange Connector をインストールするコンピューターの要件は次のとおりです。
@@ -30,7 +30,7 @@ On-Premises Exchange Connector をインストールするコンピューター�
 |要件|説明|
 |---------------|--------------------|
 |Operating systems|Intune は、Windows Server 2008 SP2 64 ビット、Windows Server 2008 R2、Windows Server 2012、または Windows Server 2012 R2 の任意のエディションを実行しているコンピューター上の On-Premises Exchange Connector をサポートします。<br /><br />Server Core インストールでは、コネクタはサポートされません。|
-|Microsoft Exchange のバージョン|On-Premises Connector には、Microsoft Exchange 2010 SP1 以降が必要です。|
+|Microsoft Exchange のバージョン|どの On-Premises Connector にも、Microsoft Exchange 2010 SP1 以降または従来の Exchange Online Dedicated が必要です。 Exchange Online Dedicated 環境が**新しい**構成か**従来の**構成かを確認するには、アカウント マネージャーに問い合わせてください。|
 |モバイル デバイス管理機関| [モバイル デバイス管理機関を Intune に設定します](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)。|
 |ハードウェア|Connector をインストールするコンピューターには、1.6 GHz の CPU と 2 GB の RAM と 10 GB の空きディスク容量の最小ハードウェアが必要です。|
 |Active Directory の同期|いずれかの Connector を使用して Intune を Exchange Server に接続するには、[Active Directory の同期をセットアップ](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3)して、ローカル ユーザーとセキュリティ グループが Azure Active Directory のインスタンスと同期されるようにする必要があります。|
@@ -131,6 +131,6 @@ Exchange Connector を正常に構成したら、接続のステータスと前�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

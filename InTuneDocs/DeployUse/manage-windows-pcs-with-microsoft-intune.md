@@ -13,8 +13,8 @@ ms.assetid: 3b8d22fe-c318-4796-b760-44f1ccf34312
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: b01354b62507b9843b53cc4b2c8c1e82a6c422e5
+ms.sourcegitcommit: aa1d6105a5be9c329c75681857a9d6e553088b65
+ms.openlocfilehash: be45b2ffb99eb75e71c0d591fc84089b83735905
 
 
 ---
@@ -27,7 +27,7 @@ Intune では、Windows Server における Active Directory ドメイン サー
 Intune クライアンでは、ソフトウェアの更新、Windows ファイアウォール、および Endpoint Protection を管理することで [PC の保護に役立つポリシー](policies-to-protect-windows-pcs-in-microsoft-intune.md)がサポートされますが、Intune クライアントで管理される PC を他の Intune ポリシーの対象とすることはできません。
 
 > [!NOTE]
-> Windows 8.1 を実行しているデバイスは、Intune クライアントを使用して管理できるほか、モバイル デバイスとして登録することもできます。 以下は、Intune クライアントを実行するコンピューターに適用される情報です。 Intune PC クライアントとモバイル デバイス管理用の Windows デバイス登録の両方のインストールはサポートされません。
+> Windows 8.1 以降を実行しているデバイスは、Intune クライアントを使用して管理できるほか、モバイル デバイスとして登録することもできます。 以下は、Intune クライアントを実行するコンピューターに適用される情報です。 Intune PC クライアントとモバイル デバイス管理用の Windows デバイス登録の両方のインストールはサポートされません。
 
 ## Intune PC クライアント管理の要件
 
@@ -53,7 +53,7 @@ Intune クライアント ソフトウェアは、次の方法のいずれかで
 
 -   [Microsoft Intune クライアント ソフトウェアを手動で展開します](install-the-windows-pc-client-with-microsoft-intune.md#to-manually-deploy-the-client-software)。 この種類の展開では、管理者は Intune クライアント ソフトウェアをダウンロードし、手動で各 PC にインストールします。
 
-  Intune クライアント ソフトウェアをダウンロードするには、[Intune 管理コンソール](https://manage.microsoft.com)を開いて、**[管理]**  >  **[クライアント ソフトウェアのダウンロード]** の順に選択し、**[クライアント ソフトウェア のダウンロード]** をクリックします。
+  Intune クライアント ソフトウェアをダウンロードするには、[Intune 管理コンソール](https://manage.microsoft.com)を開いて、**[管理]**  >  **[クライアント ソフトウェアのダウンロード]** の順に選択し、**[クライアント ソフトウェアのダウンロード]** をクリックします。
 
 -   Intune クライアントを手動でインストールする場合にダウンロードするのと同じファイルを使用して、[ドメインに参加しているコンピューターに Active Directory GPO を使ってクライアントを展開できます](install-the-windows-pc-client-with-microsoft-intune.md#to-automatically-deploy-the-client-software-by-using-group-policy)。
 
@@ -86,6 +86,6 @@ Intune のクライアント エージェントは通常、ユーザー操作や
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

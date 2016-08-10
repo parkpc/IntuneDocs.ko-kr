@@ -3,7 +3,7 @@ title: "Intune のライセンスを管理する | Microsoft Intune"
 description: "Intune サブスクリプションのユーザーにライセンスを割り当てる方法について説明します"
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,14 +13,14 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: c86cbb42554d388c943faa37a7c59b376fdaf287
+ms.sourcegitcommit: e9788bbb368337fab4002cd0f0bcb28c0e23e8d1
+ms.openlocfilehash: 09b52621e53f0d758ded7c3951909fb88cf67e36
 
 
 ---
 
 # Intune のライセンスを管理する
-Intune サービスにサインインして使用したり、デバイスを管理対象に登録したりするためには、先に [Office 365 ポータル](http://go.microsoft.com/fwlink/p/?LinkId=698854)を使用して、各ユーザーに Intune サブスクリプションのライセンスを割り当てる必要があります。 ライセンスを割り当てられたユーザーの名前は、Intune 管理コンソールに表示されます。 ユーザーは最大 5 つのデバイスを登録できます。
+Intune サービスにサインインして使用したり、デバイスを管理対象に登録したりするためには、先に [Office 365 ポータル](http://go.microsoft.com/fwlink/p/?LinkId=698854)を使用して、各ユーザーに Intune サブスクリプションのライセンスを割り当てる必要があります。 ライセンスを割り当てられたユーザーの名前は、Intune 管理コンソールに表示されます。 ユーザーは最大 15 個のデバイスを登録できます。
 
 Microsoft の Enterprise Mobility Suite (EMS) を使用している組織には、EMS パッケージの Azure Active Directory Premium または Intune サービスのみが必要なユーザーがいる場合があります。 [Azure Active Directory PowerShell コマンドレット](https://msdn.microsoft.com/library/jj151815.aspx)を使用して、いずれかのサービスまたはサービスのサブセットを割り当てることができます。 詳細については、「[PowerShell を使用して Intune ライセンスを管理する](start-with-a-paid-subscription-to-microsoft-intune-step-4-posh.md)」をご覧ください。
 
@@ -43,25 +43,25 @@ Microsoft の Enterprise Mobility Suite (EMS) を使用している組織には�
 3.  ユーザー アカウントが、サービスを使用してデバイスを管理に登録するために必要なアクセス許可を持つようになります。
 
 ### PowerShell を使用して、EMS ユーザー ライセンスを選択的に管理する
-Microsoft の Enterprise Mobility Suite (EMS) を使用している組織には、EMS パッケージの Azure Active Directory Premium または Intune サービスのみが必要なユーザーがいる場合があります。 [Azure Active Directory PowerShell コマンドレット](https://msdn.microsoft.com/library/jj151815.aspx)を使用して、いずれかのサービスまたはサービスのサブセットを割り当てることができます。 
+Microsoft の Enterprise Mobility Suite (EMS) を使用している組織には、EMS パッケージの Azure Active Directory Premium または Intune サービスのみが必要なユーザーがいる場合があります。 [Azure Active Directory PowerShell コマンドレット](https://msdn.microsoft.com/library/jj151815.aspx)を使用して、いずれかのサービスまたはサービスのサブセットを割り当てることができます。
 
 EMS サービスのユーザー ライセンスを選択的に割り当てるには、[Azure Active Directory Module for Windows PowerShell](https://msdn.microsoft.com/library/jj151815.aspx#bkmk_installmodule) がインストールされているコンピューターで管理者として PowerShell を開きます。 PowerShell は、ローカル コンピューターまたは ADFS サーバーにインストールできます。
 
 目的のサービス プランにのみ適用される新しいライセンス SKU 定義を作成する必要があります。 これを行うには、適用しないプランを無効にします。 たとえば、Intune ライセンスを割り当てないライセンス SKU 定義を作成できます。 利用できるサービスの一覧を確認するには、次のコマンドを入力します。
- 
-    (Get-MsolAccountSku | Where {$_.SkuPartNumber -eq "EMS"}).ServiceStatus 
 
-次のコマンドを実行すると、Intune サービス プランを除外できます。 同じメソッドを使用して、セキュリティ グループ全体に展開することや、より詳細なフィルターを使用することができます。 
+    (Get-MsolAccountSku | Where {$_.SkuPartNumber -eq "EMS"}).ServiceStatus
+
+次のコマンドを実行すると、Intune サービス プランを除外できます。 同じメソッドを使用して、セキュリティ グループ全体に展開することや、より詳細なフィルターを使用することができます。
 
 **例 1** コマンド ラインで、新しいユーザーを作成し、ライセンスに含まれる Intune を有効にせずに EMS ライセンスを割り当てます。
 
-    Connect-MsolService 
-        
+    Connect-MsolService
+
     New-MsolUser -DisplayName “Test User” -FirstName FName -LastName LName -UserPrincipalName user@<TenantName>.onmicrosoft.com –Department DName -UsageLocation US
-    
+
     $CustomEMS = New-MsolLicenseOptions -AccountSkuId "<TenantName>:EMS" -DisabledPlans INTUNE_A
-    Set-MsolUserLicense -UserPrincipalName user@<TenantName>.onmicrosoft.com -AddLicenses <TenantName>:EMS -LicenseOptions $CustomEMS 
-    
+    Set-MsolUserLicense -UserPrincipalName user@<TenantName>.onmicrosoft.com -AddLicenses <TenantName>:EMS -LicenseOptions $CustomEMS
+
 
 次のコマンドで確認します。
 
@@ -69,15 +69,15 @@ EMS サービスのユーザー ライセンスを選択的に割り当てるに
 
 **例 2** ライセンスが既に割り当てられているユーザーに対して、EMS ライセンスに含まれる Intune を無効にします。
 
-    Connect-MsolService 
-    
+    Connect-MsolService
+
     Set-MsolUserLicense -UserPrincipalName user@<TenantName>.onmicrosoft.com -RemoveLicenses IAPProdPartnerTest:EMS
-    
+
     $CustomEMS = New-MsolLicenseOptions -AccountSkuId "<TenantName>:EMS" -DisabledPlans INTUNE_A
     Set-MsolUserLicense -UserPrincipalName user@<TenantName>.onmicrosoft.com -AddLicenses <TenantName>:EMS -LicenseOptions $CustomEMS
- 
+
 次のコマンドで確認します。
- 
+
     (Get-MsolUser -UserPrincipalName "user@<TenantName>.onmicrosoft.com" .Licenses.ServiceStatus
 
 ![PoSH-AddLic-Verify](./media/posh-addlic-verify.png)
@@ -90,6 +90,6 @@ EMS サービスのユーザー ライセンスを選択的に割り当てるに
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

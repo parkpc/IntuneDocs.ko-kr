@@ -3,7 +3,7 @@ title: "デバイスを登録する | Microsoft Intune"
 description: "モバイル デバイス管理 (MDM) では、登録を使用してデバイスを管理対象にし、リソースへのアクセスを許可します。"
 keywords: 
 author: NathBarn
-manager: arob98
+manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6256b1ed5edb72bf9f623555a4c6e3fddb864b32
-ms.openlocfilehash: 71f0637a1cb6fdafb590ca274fcc0f80707ed6ce
+ms.sourcegitcommit: d8e524b267622f91ed0c2ed854f931299f316312
+ms.openlocfilehash: 15f4af1f870d619f4fd51e88d1aef91b0b45e66d
 
 
 ---
@@ -89,7 +89,7 @@ Apple Configurator を使用したセットアップ アシスタントの登録
   - 電子メールと会社データへの条件付きアクセス
   - ポータル サイト アプリ
 
-[ユーザー アフィニティ](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#user-affinity-for-ios-corporate-owned-devices-using-the-company-portal) ([表に戻る](#overview-of-device-enrollment-methods))
+[ユーザー アフィニティ](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#using-company-portal-on-dep-or-apple-configurator-enrolled-devices) ([表に戻る](#overview-of-device-enrollment-methods))
 
 ### ロック
 ユーザーが Intune ポリシーを削除して、実質的にデバイスが管理対象から外れないように、デバイスをロックするかどうかを指定します。 iOS デバイスの場合、デバイスをロックするには、監督下モードにする必要があります。
@@ -124,6 +124,6 @@ Intune クライアント ソフトウェアを使用して管理されるコン
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

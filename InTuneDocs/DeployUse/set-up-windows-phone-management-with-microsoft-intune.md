@@ -13,14 +13,16 @@ ms.assetid: f5615051-2dd1-453b-9872-d3fdcefb2cb8
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: cc928e4facf592ca0f7398b374242a7a07ae193e
+ms.sourcegitcommit: 06d6c8ce97ba6a259055e94f0eba87f7c5a96531
+ms.openlocfilehash: 344f1cf4367deb12288f9c361e043d345f9846bb
 
 
 ---
 
 
 # Microsoft Intune を使用して Windows Phone と Windows 10 Mobile の管理をセットアップする
+Windows デバイスのセットアップについては、[こちら](../enduser/using-your-windows-device-with-intune.md)をご覧ください。
+
 Microsoft Intune で Windows 10 Mobile または Windows Phone デバイスを管理するには、デバイスが Intune と通信できる必要があります。 これを簡略化する方法として、DNS レコードを作成できます。そうすると、ユーザーはサーバー アドレスを入力する必要がなくなります。 次の手順では、ユーザーの登録を簡略化する方法について説明します。  
 
 ほとんどのシナリオでは、ユーザーは Windows ストアからポータル サイト アプリをインストールできます。 また、Windows Phone 8.0 デバイスを管理する場合や、Windows Phone デバイスにポータル サイトを展開する必要がある場合は、ポータル サイト アプリをダウンロードして署名する必要があります。 「[Windows Phone 8.0 の管理をセットアップする](set-up-windows-phone-8.0-management-with-microsoft-intune.md)」を参照してください。
@@ -50,12 +52,16 @@ Microsoft Intune で Windows 10 Mobile または Windows Phone デバイスを�
 
     3.  **[検証済みドメイン名の指定]** ボックスに会社の Web サイトの検証済みドメインの URL を入力し、**[自動検出のテスト]** をクリックします。
 
+    4.  ユーザーは自分のデバイスを登録する方法とデバイスが管理されるとどうなるかを知る必要があります。
+        - [Microsoft Intune の使用に関するエンドユーザーへの通知内容](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+        - [Windows デバイス向けエンド ユーザー ガイダンス](../enduser/using-your-windows-device-with-intune.md)
+
 
 
 デバイスにポータル サイトを展開する場合を除き、追加の作業は必要ありません。  管理コンソールでの手順 2. および 3. は、無視してかまいません。
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

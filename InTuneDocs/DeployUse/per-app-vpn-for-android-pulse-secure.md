@@ -13,8 +13,8 @@ ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
-ms.openlocfilehash: d6d929b83b967cc4efdc84ecc3262c5c1f509351
+ms.sourcegitcommit: 52d9d2ad912de7bc775cde2c40c8de27a09ba2af
+ms.openlocfilehash: d37630d2aaf4a260acf98a57aa2d38c95711f12b
 
 
 ---
@@ -22,6 +22,11 @@ ms.openlocfilehash: d6d929b83b967cc4efdc84ecc3262c5c1f509351
 # カスタム ポリシーを使用して、Android デバイスにアプリごとの VPN プロファイルを作成する
 
 Intune で管理する、アプリごとの VPN プロファイルを Android デバイスに作成できます。 まず、接続の種類として Pulse Secure を使用する VPN プロファイルを作成し、そのプロファイルと特定のアプリを関連付けるカスタム構成ポリシーを作成します。 これらのポリシーを Android デバイスまたはユーザー グループに展開すると、それらのデバイス上の指定されているアプリの 1 つの起動で、そのアプリの VPN 接続が開きます。
+
+> [注意]
+> 
+> このプロファイルに対しては Pulse Secure 接続タイプのみがサポートされます。
+
 
 ### 手順 1: VPN プロファイルを作成する
 
@@ -76,6 +81,6 @@ VPN プロファイル名は、次の手順で使用するためメモしてお�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

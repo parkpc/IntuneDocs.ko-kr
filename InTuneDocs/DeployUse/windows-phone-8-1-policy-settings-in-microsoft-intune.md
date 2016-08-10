@@ -4,7 +4,7 @@ description: "Intune には、Windows Phone 8.1 デバイスで構成できる�
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 07/30/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 83f7469c-272e-43f2-8139-b0d7bc34f43f
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: 04fca72cd426ee4718e100cb2633ca2c967b4c05
+ms.sourcegitcommit: 1648a070cc2d318df4d434955f6068cd4b42690c
+ms.openlocfilehash: 87021459424c84feed3b676364cf890f43ff32d9
 
 
 ---
@@ -109,11 +109,11 @@ Microsoft Intune の **Windows Phone 全般構成ポリシー (Windows Phone 8.1
 |----------------|-----------------------------------------|
 |**コピーと貼り付けを許可する**|デバイスでコピー/貼り付け機能を使用できるようにします。|×|○|
 
-### 準拠しているアプリと非準拠アプリの設定
-**準拠しているアプリと非準拠アプリの一覧**で、次の情報を使用して、準拠しているアプリまたは非準拠アプリの一覧を指定します。&amp;
+### 許可されるアプリとブロックされるアプリの設定
+**許可されているアプリとブロックされているアプリ**の一覧で、次の情報を使用して許可またはブロックするアプリの一覧を指定します。
 
 > [!NOTE]
-> 1 つのポリシーには、準拠しているアプリの一覧のみ、または準拠していないアプリの一覧のみを指定することができます。 両方を同じポリシーに指定することはできません。
+> 1 つのポリシーでは、許可するアプリの一覧のみ、またはブロックするアプリの一覧のみを指定することができます。 両方を同じポリシーに指定することはできません。
 
 |設定の名前|説明|
 |----------------|--------------------|
@@ -127,14 +127,14 @@ Microsoft Intune の **Windows Phone 全般構成ポリシー (Windows Phone 8.1
 > Windows Phone 8.1 のデバイス向けに許可されているアプリの一覧を指定する場合、この一覧にポータル サイトのアプリを追加する必要があります。追加しない場合はブロックされます。
 
 
-### 準拠アプリと非準拠アプリに関するリファレンス情報
+### 許可されるアプリとブロックされるアプリのリファレンス情報
 
 #### アプリ ストアの URL を指定する方法
-準拠アプリと非準拠アプリの一覧でアプリの URL を指定するには、次の形式を使用します。
+許可されるアプリおよびブロックされるアプリの一覧でアプリの URL を指定するには、次の形式を使用します。
 
  [Windows Phone アプリ+ゲーム](http://www.windowsphone.com/en-us/store/overview) のページで、使用するアプリを検索します。
 
-アプリのページを開き、URL をクリップボードにコピーします。 準拠アプリおよび非準拠アプリの一覧で URL として使用できるようになります。
+アプリのページを開き、URL をクリップボードにコピーします。 許可されているアプリまたはブロックされているアプリの一覧で、これを URL として使用できます。
 
 **例:** Skype アプリのストアを検索します。 **http://www.windowsphone.com/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51** という URL を使用します。
 
@@ -172,6 +172,6 @@ Windows Phone デバイスの OMA-URI 設定の作成については、[Windows 
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

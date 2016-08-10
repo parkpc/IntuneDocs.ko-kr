@@ -4,7 +4,7 @@ description: "Intune クライアント ソフトウェアによって Windows P
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 08/04/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 77fa5c66-a87c-47df-964c-800eea509b33
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: b2e5b04df846db1a0076da7db63a5906fbd25558
+ms.sourcegitcommit: 49a236359692a5bbccf9ee0bb263094434049a91
+ms.openlocfilehash: f5ade985900e2387b19b4ed2786f22d8a216d8d8
 
 
 ---
@@ -28,7 +28,7 @@ ms.openlocfilehash: b2e5b04df846db1a0076da7db63a5906fbd25558
 
 -   **マルウェア対策。**Intune には、マルウェアから PC を保護するのに役立つ Endpoint Protection が含まれています。
 
--   **リモート アシスタンス。**ユーザーは Intune を使用して、IT サポート スタッフに連絡できます。IT サポート スタッフは、Intune に含まれているリモート デスクトップ機能を使用してサポートを提供できます<!--- (requires TeamViewer software)--->。
+-   **リモート アシスタンス。**ユーザーは Intune を使用して、IT サポート スタッフに連絡できます。IT サポート スタッフは、Intune に含まれているリモート デスクトップ機能を使用してサポートを提供できます (TeamViewer ソフトウェアが必要)。
 
 -   **ソフトウェア ライセンス管理。**使用可能なソフトウェア ライセンスの数と、そのうちの使用中のライセンスの数を追跡します。
 -   **アプリの展開。**管理対象の PC にソフトウェアを展開します。 クライアント ソフトウェアを使用して PC を管理するときは、一部のアプリ管理機能が利用できません。
@@ -48,7 +48,7 @@ Intune では、次の Windows バージョンを実行する PC を管理でき
 
 -   **Windows 8.1** - Pro および Enterprise バージョン
 
-- **Windows 10** - Home、Pro、Education、および Enterprise バージョン
+- **Windows 10** - Pro、Education、および Enterprise バージョン
 
 
 ## ハードウェアに最低限必要な条件
@@ -74,6 +74,6 @@ Intune では、次の Windows バージョンを実行する PC を管理でき
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

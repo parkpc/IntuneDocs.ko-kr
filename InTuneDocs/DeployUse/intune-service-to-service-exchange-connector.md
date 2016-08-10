@@ -1,10 +1,10 @@
 ---
-title: "ホスト型 Exchange 用の Exchange Connector | Microsoft Intune"
+title: "Exchange Online 用の Exchange Connector | Microsoft Intune"
 description: "Exchange ActiveSync モバイル デバイス管理 (MDM) をサポートするために、Intune を Office 365 Exchange サービスに接続する。"
 keywords: 
 author: NathBarn
-manager: arob98
-ms.date: 07/19/2016
+manager: angrobe
+ms.date: 07/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,24 +13,24 @@ ms.assetid: 05fa5dc9-9bad-4557-987a-9b8ce4edebb0
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
-ms.openlocfilehash: 63697222f024169d9450b9f4fea8c666353e72cc
+ms.sourcegitcommit: de3296e81c88b3ac04e3ba3f3d3ca222a59df7bd
+ms.openlocfilehash: 1aabf820170483eacc83bec5e2b275e84dc07ffd
 
 
 ---
 
 # Exchange Online 用の Intune Service to Service Connector の構成
 
-Office 365 でホストされている Microsoft Intune および Exchange Online サービスに接続するには、この情報を使用します。
+Microsoft Intune と Exchange Online サービスまたは新しい Exchange Online Dedicated サービスを接続するには、この情報を使用します。 Exchange Online Dedicated 環境が**新しい**ものか**従来の**ものかを確認するには、アカウント マネージャーに問い合わせてください。 Intune は、サブスクリプションごとに任意の種類の Exchange Connector 接続を 1 つだけサポートします。
 
 ## Service to Service Connector の要件
-**Service to Service Connector** は、ホスト型 Exchange のみをサポートします。また、社内インフラストラクチャの要件はありません。
+**Service to Service Connector** は、Exchange Online または新しい Exchange Online Dedicated のみをサポートします。また、社内インフラストラクチャの要件はありません。
 
-|要件|詳細情報|
+|要件|説明|
 |---------------|--------------------|
-|ホスト型 Exchange が構成済みで実行中である|[Exchange Online](https://technet.microsoft.com/library/jj200580.aspx) |
+|Exchange Online が構成済みで実行中である|[Exchange Online](https://technet.microsoft.com/library/jj200580.aspx) |
 |モバイル デバイス管理機関| [モバイル デバイスの管理機関を Microsoft Intune に設定します](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)|
-|Microsoft Exchange のバージョン|Exchange Server 2013 以降のテナントがある Office 365 サブスクリプションが必要です。 テナントが Exchange Server 2013 以降であれば、コネクタは、その同じ環境内の Exchange Server 2010 をサポートします。|
+|Microsoft Exchange のバージョン|Exchange Online サービスまたは新しい Exchange Online Dedicated サービス|
 |Active Directory の同期|Intune Connector を使用できるようにするには、[Active Directory の同期をセットアップ](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3)して、ローカル ユーザーとセキュリティ グループが Azure Active Directory のインスタンスと同期されるようにする必要があります。|
 
 ### Exchange コマンドレットの要件
@@ -54,7 +54,7 @@ Intune Exchange Connector が使用する Exchange Online ユーザー アカウ
 3.  **[Exchange 接続のセットアップ]** ページで **[Service To Service Connector のセットアップ]**を選びます。
 
 
-Service to Service Connector は自動的に構成され、ホスト型 Exchange 環境と同期されます。
+Service to Service Connector は自動的に構成され、Exchange Online 環境または新しい Exchange Online Dedicated 環境と同期されます。
 
 ## Exchange 接続の確認
 
@@ -64,6 +64,6 @@ Exchange Connector の構成が正常に完了したら、[Microsoft Intune 管�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

@@ -3,7 +3,7 @@ title: "企業所有の iOS デバイスの登録 | Microsoft Intune"
 description: "Apple Device Enrollment Program (DEP) または Apple Configurator を使用した企業所有の iOS デバイスの登録"
 keywords: 
 author: NathBarn
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 2d3ca4ab-f20c-4d56-9413-f8ef19cf0722
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8a124eb41789053451e0c709188430b1e043d435
-ms.openlocfilehash: 872be93241c84a8334e4415f00b1383da7b15a61
+ms.sourcegitcommit: 9b7b8f6e5182e228458f5ea75e804a638f1e2a2b
+ms.openlocfilehash: ca05e94e72269c11db24b667f1d113c794cd8b23
 
 
 ---
@@ -22,17 +22,19 @@ ms.openlocfilehash: 872be93241c84a8334e4415f00b1383da7b15a61
 # Microsoft Intune での企業所有の iOS デバイスの登録
 Microsoft Intune は、Mac コンピューターで実行される Apple Device Enrollment Program (DEP) または [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) ツールを使用した、企業所有の iOS デバイスの登録をサポートします。
 
+**前提条件:**  [Apple Push Notification サービス証明書](set-up-ios-and-mac-management-with-microsoft-intune.md)
+
 企業登録対象の iOS デバイスは次の 3 つの方法で登録することができます。
 
 -   **Apple Configurator** - 会社の登録プロファイルをエクスポートし、Apple Configurator を実行している Mac にモバイル デバイスを接続することで、iOS デバイスを登録することができます。 Apple Configurator では、2 つの形式の登録がサポートされています。
 
-    - **セットアップ アシスタントを使用した登録** – デバイスを出荷時の設定に戻し、デバイスの新しいユーザーによるセットアップ用に準備します。 この方法では、管理者は、Apple Configurator を実行している Mac コンピューターに iOS デバイスを USB 接続して、登録を事前構成する必要があります。 その後、デバイスがユーザーに渡され、ユーザーがセットアップ アシスタント プロセスを実行し、自分の職場または学校の資格情報でデバイスを構成して登録プロセスを完了します。 [Apple Configurator とセットアップ アシスタントを使用して iOS デバイスを登録する](ios-setup-assistant-enrollment-in-microsoft-intune.md)
+    - **セットアップ アシスタントを使用した登録** – デバイスを出荷時の設定に戻し、デバイスの新しいユーザーによるセットアップ用に準備します。 この方法では、管理者は、[Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) を実行している Mac コンピューターに iOS デバイスを USB 接続して、登録を事前構成する必要があります。 その後、デバイスがユーザーに渡され、ユーザーがセットアップ アシスタント プロセスを実行し、自分の職場または学校の資格情報でデバイスを構成して登録プロセスを完了します。 [Apple Configurator とセットアップ アシスタントを使用して iOS デバイスを登録する](ios-setup-assistant-enrollment-in-microsoft-intune.md)
 
-    - **直接登録** - デバイスの準備中に使用する Apple Configurator 準拠のファイルを作成します。 登録されるデバイスは出荷時の設定に戻されませんが、ユーザーの関連付け情報は含まれません。 この方法では、管理者は、Apple Configurator を実行している Mac コンピューターに iOS デバイスを USB 接続して、デバイスを登録する必要があります。 [Apple Configurator の直接登録を使用して iOS デバイスを登録する](ios-direct-enrollment-in-microsoft-intune.md)
+    - **直接登録** - デバイスの準備中に使用する Apple Configurator 準拠のファイルを作成します。 登録されるデバイスは出荷時の設定に戻されませんが、ユーザーの関連付け情報は含まれません。 この方法では、管理者は、[Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) を実行している Mac コンピューターに iOS デバイスを USB 接続して、デバイスを登録する必要があります。 [Apple Configurator の直接登録を使用して iOS デバイスを登録する](ios-direct-enrollment-in-microsoft-intune.md)
 
 -   **Device Enrollment Program (DEP)** – Apple の Device Enrollment Program を通して購入された iOS デバイスに登録プロファイルを "無線" で展開します。 ユーザーがデバイスでセットアップ アシスタントを実行すると、デバイスが Intune に登録されます。  DEP を使用して登録したデバイスの場合は、ユーザーが登録を解除することはできません。 [Device Enrollment Program の iOS デバイスを登録する](ios-device-enrollment-program-in-microsoft-intune.md)
 
-## 会社のポータルを使用する、企業所有の iOS デバイスのユーザー アフィニティ
+## DEP または Apple Configurator で登録されたデバイスでのポータル サイトの使用
 
 ユーザー アフィニティが構成されているデバイスは、会社のポータル アプリをインストールして実行することにより、アプリをダウンロードしてデバイスを管理できるようになります。 デバイスを受け取ったユーザーは、セットアップ アシスタントを完了して会社のポータル アプリをインストールするために、いくつもの追加の手順を完了する必要があります。
 
@@ -68,6 +70,6 @@ Microsoft Intune は、Mac コンピューターで実行される Apple Device 
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

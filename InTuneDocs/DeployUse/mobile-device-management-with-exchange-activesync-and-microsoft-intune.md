@@ -1,10 +1,10 @@
 ---
 title: "Exchange ActiveSync デバイス管理 | Microsoft Intune"
-description: "ユーザーが Exchange ActiveSync (EAS) 管理に登録していないモバイル デバイスを、Exchange Connector を使用して直接管理します"
+description: "Exchange Connector を使用した Exchange ActiveSync (EAS) 管理によるモバイル デバイスの管理"
 keywords: 
 author: nathbarn
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 07/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,14 @@ ms.assetid: 14f5cf53-6764-4e22-a18b-fa750b3acd41
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: f545c7db4c29690a72c5a84dfcab6f179cbe72a2
+ms.sourcegitcommit: de3296e81c88b3ac04e3ba3f3d3ca222a59df7bd
+ms.openlocfilehash: 96d8911dafe7897458297867ddfef97206fdfc9c
 
 
 ---
 
-# Exchange ActiveSync および Microsoft Intune を使用したモバイル デバイス管理
-Microsoft Intune でモバイル デバイスを直接管理するには、ユーザーがデバイスを Intune に登録する必要があります。 ユーザーが登録していないモバイル デバイスの場合、Exchange Connector を使用して Exchange ActiveSync (EAS) 管理を有効にすることができます。 オンプレミスの Exchange サーバーまたはクラウドでホストされた Microsoft Office 365 の Exchange で、デバイスを管理できます。
+# Microsoft Intune を使用した Exchange ActiveSync モバイル デバイスの管理
+Microsoft Intune でモバイル デバイスを直接管理するには、デバイスが [Intune に登録](get-ready-to-enroll-devices-in-microsoft-intune.md)されている必要があります。 別の方法として、管理者は Exchange Connector と Exchange ActiveSync (EAS) 管理を組み合わせて使用する、より限定的な管理ソリューションを有効にすることもできます。 オンプレミスの Exchange サーバーで、または Office 365 を使用した Exchange Onlineで、デバイスを管理することができます。 Intune は、サブスクリプションごとに任意の種類の Exchange Connector 接続を 1 つだけサポートします。
 
 ## モバイル デバイスの Exchange アクセス ルール ##
 
@@ -31,11 +31,12 @@ Exchange では、モバイル デバイスが EAS への接続を試みたと�
 ## Exchange Connector をインストールする
 Exchange Connector を使用すると、Intune コンソールで Exchange の展開を管理できます。 最初に、適切な Intune-to-Exchange Connector をインストールして構成する必要があります。 Exchange サーバーがオンプレミスか、クラウドにサービスとしてホストされているかに応じて、適切なオプションを選択します。
 
--   [オンプレミス Exchange 用の Intune コネクタをインストールする](intune-on-premises-exchange-connector.md)
--   [ホスト型 Exchange 用の Intune Service to Service Connector を構成する](intune-service-to-service-exchange-connector.md)
+-   [Exchange Online または新しい Exchange Online Dedicated 環境に対して Intune を構成する](intune-service-to-service-exchange-connector.md)
+-   [オンプレミスの Exchange サーバーおよび従来の Exchange Online Dedicated 環境で Intune コネクタをインストールする](intune-on-premises-exchange-connector.md)
+
 
 ## Exchange で管理されているモバイル デバイスのポリシーを適用する
-Intune コンソールから適用できるポリシー設定については、「[Microsoft Intune ポリシーを使用してデバイスの設定と機能を管理する](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)」を参照してください。 各モバイル デバイスでサポートされる Exchange ActiveSync のポリシー設定と機能の一覧については、「[Exchange ActiveSync Client Comparison Table](http://go.microsoft.com/fwlink/?LinkId=247270)」 (Exchange ActiveSync クライアントの比較表) を参照してください。
+Intune コンソールを使用すれば、[EAS ポリシー設定](exchange-activesync-policy-settings-in-microsoft-intune.md)を管理し、[会社のリソースへのアクセスを制限](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)することができます。 各モバイル デバイスでサポートされる Exchange ActiveSync のポリシー設定と機能の一覧については、「[Exchange ActiveSync Client Comparison Table](http://go.microsoft.com/fwlink/?LinkId=247270)」 (Exchange ActiveSync クライアントの比較表) を参照してください。
 
 > [!NOTE]
 > Intune を Microsoft Exchange 環境に接続すると、Intune で管理されているすべてのユーザーの EAS ポリシーは、Intune 内で特定のポリシーが定義されていない限り、Microsoft Exchange サーバーの現在の既定のポリシーにリセットされます。
@@ -45,6 +46,6 @@ Intune コンソールから適用できるポリシー設定については、�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Jul16_HO5-->
 
 
