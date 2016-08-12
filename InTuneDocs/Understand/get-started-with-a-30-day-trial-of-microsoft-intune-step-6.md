@@ -2,9 +2,9 @@
 title: "Intune 評価版のその他のオプションと機能 | Microsoft Intune"
 description: "Intune の 30 日間無料評価版にサインアップするときに知っておくべきアラート、通知、レポートと、一般的な Intune 機能についての説明"
 keywords: 
-author: Staciebarker
+author: lindavr
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 08/09/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 170cd959-d35b-4129-ae60-117d7e881bc9
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 60ee39a7eeeb9068a7350ec87f60e7148ccb7826
-ms.openlocfilehash: 34ac9e63541d93a6c4bf323de3b9e14b1d5609e5
+ms.sourcegitcommit: 51fba2b01d8978bc062c50c4388714609be0fdf0
+ms.openlocfilehash: ae624aed9ea09467c212e0bf16fef72bfef1956d
 
 
 ---
@@ -49,7 +49,7 @@ Intune に最近導入された機能の詳細については、「[Microsoft In
 
 サポート オプションについて詳しくは、「[Microsoft Intune のサポートを受ける方法](/Intune/Troubleshoot/how-to-get-support-for-microsoft-intune)」を参照するか、[Microsoft Intune フォーラム](https://social.technet.microsoft.com/Forums/en-US/home?forum=microsoftintuneprod)で Intune に関するディスカッションに参加できます。
 
-### 次の手順
+### 次のステップ
 これで終了です。 これで、*Microsoft Intune の評価*チュートリアルを修了しました。
 
 >[!div class="step-by-step"]
@@ -58,6 +58,6 @@ Intune に最近導入された機能の詳細については、「[Microsoft In
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO2-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: 7e3135c1-df26-48c9-aa4c-cdab6168897a
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
-ms.openlocfilehash: 5468914de3444a709068b4d3d143d3b2828616eb
+ms.sourcegitcommit: 6dbb6012389d8058c2d9b1c46b4ae8c2418a6130
+ms.openlocfilehash: 30ebdfa1729df81a3b4a4a90b71aadacf373bb2d
 
 
 ---
@@ -26,7 +26,7 @@ Microsoft Intune を通して配布したアプリをエンド ユーザーが�
 
 **必要なアプリ** - 管理者によって必要とされるアプリおよび必要最小限のユーザー操作でデバイスにインストールされるアプリです (プラットフォームによって異なる)。
 
-**必要なアプリ** - ポータル サイト アプリの一覧に表示されるアプリおよびユーザーが必要に応じてインストールするアプリです。
+**使用可能なアプリ** - ポータル サイト アプリの一覧に表示されるアプリおよびユーザーが必要に応じてインストールするアプリです。
 
 **管理されているアプリ** - ポリシーによって管理できる、Intune によって "ラップされた" アプリまたは Intune モバイル アプリケーション管理 (MAM) ソフトウェア開発キット (SDK) で構築されたアプリです。 これらのアプリは Intune によって管理することができます。また、これらのアプリにはアプリケーション ポリシーを適用することができます。
 
@@ -38,6 +38,6 @@ Microsoft Intune を通して配布したアプリをエンド ユーザーが�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

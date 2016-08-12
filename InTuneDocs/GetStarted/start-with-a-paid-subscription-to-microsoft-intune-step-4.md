@@ -13,14 +13,14 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e9788bbb368337fab4002cd0f0bcb28c0e23e8d1
-ms.openlocfilehash: 09b52621e53f0d758ded7c3951909fb88cf67e36
+ms.sourcegitcommit: ed64b7cb3b0658846bce1ec8a5aefe7bdc715508
+ms.openlocfilehash: 2dc3f1dca06cdd5f8547ea51ace2c0f1f291a6e0
 
 
 ---
 
 # Intune のライセンスを管理する
-Intune サービスにサインインして使用したり、デバイスを管理対象に登録したりするためには、先に [Office 365 ポータル](http://go.microsoft.com/fwlink/p/?LinkId=698854)を使用して、各ユーザーに Intune サブスクリプションのライセンスを割り当てる必要があります。 ライセンスを割り当てられたユーザーの名前は、Intune 管理コンソールに表示されます。 ユーザーは最大 15 個のデバイスを登録できます。
+Intune サービスにサインインして使用したり、デバイスを管理対象に登録したりするためには、先に [Office 365 ポータル](http://go.microsoft.com/fwlink/p/?LinkId=698854)を使用して、各ユーザーに Intune サブスクリプションのライセンスを割り当てる必要があります。 ライセンスを割り当てられたユーザーの名前は、Intune 管理コンソールに表示されます。 ユーザーは最大 5 つのデバイスを登録できます。
 
 Microsoft の Enterprise Mobility Suite (EMS) を使用している組織には、EMS パッケージの Azure Active Directory Premium または Intune サービスのみが必要なユーザーがいる場合があります。 [Azure Active Directory PowerShell コマンドレット](https://msdn.microsoft.com/library/jj151815.aspx)を使用して、いずれかのサービスまたはサービスのサブセットを割り当てることができます。 詳細については、「[PowerShell を使用して Intune ライセンスを管理する](start-with-a-paid-subscription-to-microsoft-intune-step-4-posh.md)」をご覧ください。
 
@@ -90,6 +90,6 @@ EMS サービスのユーザー ライセンスを選択的に割り当てるに
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO1-->
 
 

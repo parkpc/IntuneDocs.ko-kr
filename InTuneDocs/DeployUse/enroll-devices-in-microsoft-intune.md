@@ -13,8 +13,8 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d8e524b267622f91ed0c2ed854f931299f316312
-ms.openlocfilehash: 15f4af1f870d619f4fd51e88d1aef91b0b45e66d
+ms.sourcegitcommit: 7bea7ba4ef59c6b1400414b59456e19dc1c152fb
+ms.openlocfilehash: 41c21da7c95ef15f817aa344aa5b2d6479b65922
 
 
 ---
@@ -27,6 +27,31 @@ Microsoft Intune のモバイル デバイス管理 (MDM) では、登録を使�
 Intune では、次のデバイス プラットフォームを管理できます。
 
 [!INCLUDE[mdm-supported-devices](../includes/mdm-supported-devices.md)]
+
+## モバイル デバイス管理機関を設定する
+MDM 機関では、一連のデバイスを管理するためのアクセス許可を持つ管理サービスを定義します。 MDM 機関のオプションには、Intune 単体で使用するか、Intune を Configuration Manager と連携させて使用する方法があります。 Configuration Manager を管理機関として設定した場合、モバイル デバイス管理のために使用できるサービスは他にありません。
+
+>[!IMPORTANT]
+> モバイル デバイスの管理に Intune のみ (オンライン サービス) を使用するか、System Center Configuration Manager と Intune との統合 (オンプレミス ソフトウェア ソリューションをオンライン サービスと組み合わせて使用) を使用するのかについて、慎重に検討します。 モバイル デバイス管理機関は、設定後に変更することはできません。
+
+1.  [Microsoft Intune 管理コンソール](http://manage.microsoft.com)で、**[管理]** &gt; **[モバイル デバイス管理]** の順に選択します。
+
+2.  **[タスク]** リストで **[モバイル デバイス管理機関の設定]**をクリックします。 **[MDM 機関の設定]** ダイアログ ボックスが開きます。
+
+    ![[MDM 機関の設定] ダイアログ ボックス](../media/intune-mdm-authority.png)
+
+3.  Intune によって、Intune を MDM 機関にすることを確認するよう求められます。 チェック ボックスを選択してから、**[はい]** を選択し、Microsoft Intune を使用してモバイル デバイスを管理します。
+
+## Intune ポータル サイトを構成する
+
+ユーザーは、Intune ポータル サイトを使用して、会社のデータにアクセスしたり、デバイスの登録、アプリケーションのインストール、IT 部門からのサポート情報の検索などの一般的なタスクを実行したりできます。
+
+> [!TIP]
+> ポータル サイトをカスタマイズすると、構成がポータル サイトの Web サイトとポータル サイト アプリの両方に適用されます。
+
+ポータル サイトをカスタマイズすることで、エンド ユーザーの利便性を向上させることができます。 これを行うには、テナント管理者またはサービス管理者として [Microsoft Intune 管理コンソール](https://manage.microsoft.com)にサインインし、**[管理者]** &gt; **[ポータル サイト]** の順にクリックして、ポータル サイトの設定を構成します。
+
+![admin-console-admin-workspace-comp-portal-settings](../media/cp_sa_cpsetup.PNG)
 
 ## デバイスの登録方法の概要
 
@@ -124,6 +149,6 @@ Intune クライアント ソフトウェアを使用して管理されるコン
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 
