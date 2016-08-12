@@ -13,8 +13,8 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b93c6fe16e598c6f4b0d87981de8655f3de9c8d3
-ms.openlocfilehash: 051f2994c59b2886a81a50d7c72f51627064bc6a
+ms.sourcegitcommit: 68af4d7f0b082f14e6f9c06f8739805f9590384e
+ms.openlocfilehash: 64bd2e3c8e8da3949634a544eb2c582e889c8209
 
 
 ---
@@ -113,7 +113,7 @@ Intune을 처음 사용하는 고객은 현재 테넌트보다 먼저 일부 보
 
 ### 서비스 중단
 - **iOS 회사 포털 앱에 대한 지원의 변경 내용**<br/>
-7월에 iOS용 Microsoft Intune 회사 포털 앱의 모든 사용자는 최신 버전을 사용해야 합니다. 새 사용자는 최신 버전만 다운로드할 수 있고 현재 사용자는 최신 버전으로 업데이트해야 합니다. 최신 버전을 사용하려면 iOS 8.0 이상이 필요하므로 이전 iOS 버전을 실행하는 장치는 장치를 iOS 8.0 이상으로 업데이트한 다음 회사 포털 앱을 최신 버전으로 업데이트할 때까지 회사 포털을 사용하거나 등록할 수 없습니다. iOS 8.0 이전 버전을 실행하는 등록된 장치는 Intune 관리자 콘솔에서 계속 관리되고 표시됩니다.  
+9월에 iOS용 Microsoft Intune 회사 포털 앱의 모든 사용자는 최신 버전을 사용해야 합니다. 새 사용자는 최신 버전만 다운로드할 수 있고 현재 사용자는 최신 버전으로 업데이트해야 합니다. 최신 버전을 사용하려면 iOS 8.0 이상이 필요하므로 이전 iOS 버전을 실행하는 장치는 장치를 iOS 8.0 이상으로 업데이트한 다음 회사 포털 앱을 최신 버전으로 업데이트할 때까지 회사 포털을 사용하거나 등록할 수 없습니다. iOS 8.0 이전 버전을 실행하는 등록된 장치는 Intune 관리자 콘솔에서 계속 관리되고 표시됩니다.  
 
 - **최소 iOS 관리 브라우저 버전이 8.0으로 업데이트됨**<br/>
 8월에 Intune은 iOS 8.0 이상이 실행되는 장치만 지원하는 업데이트된 iOS용 Microsoft Intune 관리 브라우저 앱을 릴리스할 예정입니다. IOS 7.1 장치는 기존의 관리 브라우저 앱을 사용할 수 있지만 새로운 관리 브라우저 기능을 액세스하고 완전히 사용하기 위해서는 iOS 8.0 이상으로 업데이트하는 것이 좋습니다.  
@@ -158,6 +158,6 @@ Intune notification rules define who an email alert will be sent to from Intune.
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 

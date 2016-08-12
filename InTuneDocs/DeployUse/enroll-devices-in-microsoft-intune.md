@@ -13,8 +13,8 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d8e524b267622f91ed0c2ed854f931299f316312
-ms.openlocfilehash: 15f4af1f870d619f4fd51e88d1aef91b0b45e66d
+ms.sourcegitcommit: 7bea7ba4ef59c6b1400414b59456e19dc1c152fb
+ms.openlocfilehash: 41c21da7c95ef15f817aa344aa5b2d6479b65922
 
 
 ---
@@ -27,6 +27,31 @@ Microsoft Intune MDM(모바일 장치 관리)에서는 등록을 사용하여 �
 Intune은 다음 장치 플랫폼을 관리할 수 있습니다.
 
 [!INCLUDE[mdm-supported-devices](../includes/mdm-supported-devices.md)]
+
+## 모바일 장치 관리 기관 설정
+MDM 기관은 일련의 장치를 관리할 권한을 가진 관리 서비스를 정의합니다. MDM 기관에 대한 옵션에는 Intune 자체 및 Intune을 사용하는 Configuration Manager가 포함됩니다. Configuration Manager를 관리 기관으로 설정한 경우 모바일 장치 관리에 다른 서비스를 사용할 수 없습니다.
+
+>[!IMPORTANT]
+> Intune만 사용(온라인 서비스)하여 모바일 장치를 관리할지, 아니면 Intune으로 System Center Configuration Manager(온-프레미스 소프트웨어 솔루션 및 온라인 서비스 결합)를 사용하여 모바일 장치를 관리할지를 신중히 고려해야 합니다. 이런 항목을 설정한 후에는 모바일 장치 관리 기관을 변경할 수 없습니다.
+
+1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **관리** &gt; **모바일 장치 관리**를 선택합니다.
+
+2.  **작업** 목록에서 **모바일 장치 관리 기관 설정**을 클릭합니다. **MDM 기관 설정** 대화 상자가 열립니다.
+
+    ![MDM 기관 설정 대화 상자](../media/intune-mdm-authority.png)
+
+3.  Intune을 MDM 기관으로 지정할 것임을 확인하라는 요청 메시지가 표시됩니다. 이 확인란을 선택한 후 **예**를 선택하여 모바일 장치를 관리하는 데 Microsoft Intune을 사용합니다.
+
+## Intune 회사 포털 구성
+
+Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장치 등록, 앱 설치, IT 부서 지원 정보 찾기 등의 일반적인 작업을 수행할 수 있습니다.
+
+> [!TIP]
+> 회사 포털을 사용자 지정할 때는 구성이 회사 포털 웹 사이트 및 회사 포털 앱에 모두 적용됩니다.
+
+회사 포털을 사용자 지정하면 최종 사용자에게 친숙하고 유용한 환경을 제공하는 데 도움이 됩니다. 이렇게 하려면 [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에 테넌트 또는 서비스 관리자로 로그인하고, **관리** &gt; **회사 포털**을 선택하여 회사 포털 설정을 구성합니다.
+
+![admin-console-admin-workspace-comp-portal-settings](../media/cp_sa_cpsetup.PNG)
 
 ## 장치 등록 방법 개요
 
@@ -124,6 +149,6 @@ Intune 클라이언트 소프트웨어로 관리된 컴퓨터는 선택적으로
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 

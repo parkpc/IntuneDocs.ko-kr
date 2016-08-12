@@ -2,9 +2,9 @@
 title: "정책 만들기 및 사용자에게 앱 게시 | Microsoft Intune"
 description: "Intune 무료 30일 평가판을 등록할 때 정책을 만들고 앱을 게시하는 방법"
 keywords: 
-author: Staciebarker
-manager: arob98
-ms.date: 04/28/2016
+author: lindavr
+manager: angrobe
+ms.date: 08/09/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: c3a17884-442a-44f5-bc81-4589e823f65e
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 1cc190aa4103bbaa2b2273f08319c3fba9f5507e
+ms.sourcegitcommit: 51fba2b01d8978bc062c50c4388714609be0fdf0
+ms.openlocfilehash: 1a41bfd926b1dac88ca8c8cd33483955f1150e34
 
 
 ---
@@ -99,6 +99,6 @@ Intune을 사용하여 앱을 배포하기 전에 앱 게시, 배포 및 사용�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO2-->
 
 

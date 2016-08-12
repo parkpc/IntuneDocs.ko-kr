@@ -2,9 +2,9 @@
 title: "사용자 및 장치를 구성하는 그룹 만들기 | Microsoft Intune"
 description: "Intune 무료 30일 평가판을 등록할 때 장치 그룹 및 사용자 그룹을 만드는 방법"
 keywords: 
-author: Staciebarker
-manager: arob98
-ms.date: 04/28/2016
+author: lindavr
+manager: angrobe
+ms.date: 08/09/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 7162cad3-5c14-43f3-a760-833ffd7786b1
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 8045703bf7eb0f03906f44303509a4b81ae62270
+ms.sourcegitcommit: 51fba2b01d8978bc062c50c4388714609be0fdf0
+ms.openlocfilehash: 6cab173d7ef4a1d7bcea3193265e0729c93a214e
 
 
 ---
@@ -29,7 +29,7 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 2.  **그룹 이름**에 "내 평가판 장치"를 입력하고 상위 그룹 목록에서 **모든 장치**를 선택한 후 **다음**을 선택합니다.
 
-3.  **회원 기준 정의** 페이지에서 **모든 장치** 를 선택하여 그룹에 모바일 장치와 컴퓨터가 모두 포함되도록 합니다.
+3.  **회원 기준 정의** 페이지에서 **모든 장치**를 선택하여 그룹에 모바일 장치와 컴퓨터가 모두 포함되도록 합니다.
 
 4.  **직접 회원 관리 정의** 페이지에서 **다음**을 선택합니다. 이전에 만든 그룹에 모든 장치가 포함되어 있지 않으며 특정 장치를 새 그룹에 추가하려는 경우 이 단계에서 추가할 수 있습니다.
 
@@ -65,6 +65,6 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO2-->
 
 
