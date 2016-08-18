@@ -13,8 +13,8 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9b7b8f6e5182e228458f5ea75e804a638f1e2a2b
-ms.openlocfilehash: 7e3e29113dd03ea25f102d7f71c63e5c3faefad8
+ms.sourcegitcommit: 7bea7ba4ef59c6b1400414b59456e19dc1c152fb
+ms.openlocfilehash: 768dd08ad838b621f18a24747618ef1e37c5c804
 
 
 ---
@@ -55,7 +55,7 @@ MDM 機関では、一連のデバイスを管理するためのアクセス許�
 
 |フィールド名|最大長|詳細情報|
     |----------|------------------------|----------------|
-    |会社名|40|ポータル サイトのタイトルとして表示される名前です。|
+    |会社名|40|ポータル サイトのタイトルとして表示される名前です。 **注**: 英数字のみです。 このフィールドでは特殊文字を使用できません。|
     |IT 部門の担当者名|40|**[IT に連絡]** ページに表示される名前です。|
     |IT 部門の電話番号|20|**[IT に連絡]** ページに表示される連絡先の電話番号です。|
     |IT 部門の電子メール アドレス|40|**[IT に連絡]** ページに表示される連絡先の電子メール アドレスです。 **alias@domainname.com** の形式で有効な電子メール アドレスを入力する必要があります。|
@@ -109,6 +109,6 @@ MDM 機関を設定したら、組織がサポートするオペレーティン�
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 

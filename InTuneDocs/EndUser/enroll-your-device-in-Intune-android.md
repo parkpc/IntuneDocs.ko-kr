@@ -3,8 +3,8 @@ title: "Intune に Android デバイスを登録する | Microsoft Intune"
 description: "Intune に Android デバイスを登録する方法について説明します"
 keywords: 
 author: staciebarker
-manager: arob98
-ms.date: 06/14/2016
+manager: angrobe
+ms.date: 07/26/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: d979334c792ba604fe142c62b17f1af4f9e69db7
+ms.sourcegitcommit: 46479cfe3d2648eefbaefd0a831af2412b509fce
+ms.openlocfilehash: e920f133aeaf0b0a938e07b4923869318a902d57
 
 
 ---
@@ -44,7 +44,27 @@ Intune にデバイスを登録している最中にエラーが表示された�
 
     ![android-company-portal-sign-in](./media/and-enroll-3-accept-terms.png)
 
-5.  Android 6.0 以降を使用している場合は、この手順を実行します。 使用できない場合は、次の手順に進みます。 
+5.  職場または学校の電子メール アドレスとパスワードを使用してポータル サイト アプリにサインインし、**[サインイン]** をタップします。
+
+    ![android-company-portal-sign-in](./media/and-enroll-2-cp-sign-in.png)
+
+6.  **[会社アクセスのセットアップ]** 画面で、**[開始]** をタップします。
+
+    ![[会社アクセスのセットアップ] 画面](./media/and-enroll-4a-comp-access-setup.png)
+
+7.  **[デバイスを登録する理由]** 画面で、デバイスを登録すると可能になる操作についての説明を確認した後、**[続行]** をタップします。
+
+    ![[デバイスを登録する理由] 画面](./media/and-enroll-4b-why-enroll.png)
+
+8.  IT 管理者がデバイスに関して確認できる情報と確認できない情報について確認し、**[続行]** をタップします。
+
+    ![プライバシーの設定](./media/and-enroll-4c-we-care-privacy.png)
+
+9.  **[次に行うこと]** 画面で、登録中に行う内容を確認し、**[登録]** をタップします。
+
+    ![[次に行うこと] 画面](./media/and-enroll-4d-what-comes-next.png)
+
+10.  Android 6.0 以降を使用している場合は、この手順を実行します。 使用できない場合は、次の手順に進みます。
 
     IT 管理者が特定のポリシーを設定している場合は、次のメッセージが表示されることがあります。
     -   **電話での通話とその管理をポータル サイトに許可しますか?**
@@ -63,26 +83,6 @@ Intune にデバイスを登録している最中にエラーが表示された�
 
     アクセスを拒否すると、次に **[データを送信]** をタップしたときにもう一度メッセージが表示されますが、**[今後このメッセージを表示しない]** チェック ボックスをタップすると、メッセージ表示をオフにできます。 後でアクセスを許可する場合、**[設定]** &gt; **[アプリ]** &gt; **[ポータル サイト]** &gt; **[アクセス許可]** &gt; **[ストレージ]** に移動して、アクセス許可を有効にします。
 
-6.  職場または学校の電子メール アドレスとパスワードを使用してポータル サイト アプリにサインインし、**[サインイン]** をタップします。
-
-    ![android-company-portal-sign-in](./media/and-enroll-2-cp-sign-in.png)
-
-7.  **[会社アクセスのセットアップ]** 画面で、**[開始]** をタップします。
-
-    ![[会社アクセスのセットアップ] 画面](./media/and-enroll-4a-comp-access-setup.png)
-
-8.  **[デバイスを登録する理由]** 画面で、デバイスを登録すると可能になる操作についての説明を確認した後、**[続行]** をタップします。
-
-    ![[デバイスを登録する理由] 画面](./media/and-enroll-4b-why-enroll.png)
-
-9.  IT 管理者がデバイスに関して確認できる情報と確認できない情報について確認し、**[続行]** をタップします。
-
-    ![プライバシーの設定](./media/and-enroll-4c-we-care-privacy.png)
-
-10.  **[次に行うこと]** 画面で、登録中に行う内容を確認し、**[登録]** をタップします。
-
-    ![[次に行うこと] 画面](./media/and-enroll-4d-what-comes-next.png)
-
 11.  **[デバイス管理者のアクティブ化]** 画面で、**[アクティブ化]** をタップします。
 
     ![[デバイス管理者のアクティブ化] 画面](./media/and-enroll-5-activate.png)
@@ -91,17 +91,11 @@ Intune にデバイスを登録している最中にエラーが表示された�
 
     ![PIN またはパスワードを入力する](./media/and-enroll-6-PIN-native.png)
 
-13.  使用しているデバイスの種類 (ネイティブ Android または Samsung Knox) と一致する次の手順に従います。 Samsung Knox デバイスがあるかどうかを判断するには、**[設定]** &gt; **[About device]** を選びます。 "KNOX version" という文字がない場合、デバイスはネイティブ Android デバイスです。
-
-    -   ネイティブ (非 Samsung Knox) : **[証明書の名前指定]** 画面で、**[OK]** をタップして既定の証明書を受け入れます。
-
-    ![[証明書の名前指定] 画面](./media/and-enroll-7-cert-native.png)
-
-    -   Samsung Knox デバイス: プライバシー ポリシーに同意し、**[確認]** をタップします。
+13.  Samsung Knox デバイスを使用している場合は、**[Confirm]** (確認) をタップすると、デバイスが登録されていることを示すメッセージが表示されます。 ネイティブ Android デバイスを使用している場合は、デバイスが登録されていることを示す次の画面にだけ注意してください。
 
     ![Samsung KNOX プライバシー ポリシー](./media/and-enroll-7-knox-privacy-policy.png)
 
-    Intune がデバイスを登録している間、次のメッセージが画面に表示されます。
+    この画面は、デバイスが登録されていることを示します。
 
     ![デバイス登録中画面](./media/and-enroll-8-device-enrolling.png)
 
@@ -115,7 +109,7 @@ Intune にデバイスを登録している最中にエラーが表示された�
 
 会社のアプリをインストールするには、最初に **[設定]** &gt; **[セキュリティ]** を選び、**[不明なソース]** をオンにします。 アプリをインストールする前にこのオプションをオンにしない場合、次のメッセージが表示されます。[インストールがブロックされました。 セキュリティ上の理由から、デバイスは不明のソースから取得したアプリのインストールをブロックするように設定されています。] エラー ダイアログの **[設定]** をタップすると、**[不明なソース]** オプションを表示できます。
 
-サポートが必要な場合は、 IT 管理者に問い合わせるか (連絡先情報については[会社のポータル Web サイト](http://portal.manage.microsoft.com)をご確認ください)、または Microsoft Android チーム (wintunedroidfbk@microsoft.com) にご連絡ください。
+サポートが必要な場合は、 IT 管理者に問い合わせるか (連絡先情報については[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください)、または Microsoft Android チーム (wintunedroidfbk@microsoft.com) にご連絡ください。
 
 
 ### 関連項目
@@ -123,6 +117,6 @@ Intune にデバイスを登録している最中にエラーが表示された�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO2-->
 
 

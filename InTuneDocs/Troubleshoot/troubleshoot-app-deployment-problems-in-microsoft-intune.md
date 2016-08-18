@@ -2,7 +2,7 @@
 title: "アプリ展開に関する問題のトラブルシューティング | Microsoft Intune"
 description: "このトピックは、Microsoft Intune でのアプリの展開の問題を解決するために役立ちます。"
 keywords: 
-author: robstack
+author: robstackmsft
 manager: angrobe
 ms.date: 08/02/2016
 ms.topic: article
@@ -13,27 +13,22 @@ ms.assetid: 28ac298e-fb73-4c1c-b3fd-8336639e05e6
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
-ms.openlocfilehash: 44af28c18980e549924139badd8f3ca439dc29b3
+ms.sourcegitcommit: bbee6d3fec02a4d96b31a44a31218f684e0267c8
+ms.openlocfilehash: ed961a945d0b7872553f2be2917ba273709b6d35
 
 
 ---
 
 # Microsoft Intune のアプリ展開に関する問題のトラブルシューティング
-このトピックは、Microsoft Intune でのアプリの展開の問題を解決するために役立ちます。
+Intune でのアプリの展開と管理に関して問題がある場合は、ここから始めてください。 このトピックでは、発生する可能性がある一般的な問題とその解決策が示されています。
 
-この情報で問題が解決しない場合、さらに役立つ方法を探すには、「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」を参照してください。
+## アプリの展開に関する一般的な問題
 
+### ユーザーが Intune ポータル サイトにログインできない
 
-## 一般的なアプリ展開の問題
+1.  ユーザーのアカウントが存在し、[Office 365 ポータル](http://go.microsoft.com/fwlink/p/?LinkId=698854)で有効になっていることを確認します。
 
-### Microsoft Intune ポータル サイトにログインできない
-
-1.  [Office 365 ポータル](http://go.microsoft.com/fwlink/p/?LinkId=698854)に自分のアカウントが存在するかどうか、または、無効になっていないかどうかを確認します。
-
-2.  [Office 365 ポータル](http://go.microsoft.com/fwlink/p/?LinkId=698854)で、ログインに使用したアカウントが自分用に支給されたものであることを確認します。
-
-3.  [Office 365 ポータル](http://go.microsoft.com/fwlink/p/?LinkId=698854)で、Intune へのログイン用の正しい名前とパスワードを使用していること、その形式が "**joe@domain.com**" であることを確認します。
+3.  [Office 365 ポータル](http://go.microsoft.com/fwlink/p/?LinkId=698854)で、ユーザーが Intune ログイン用の正しいユーザー名を入力していること、その形式が "**joe@domain.com**" であることを確認します。 ユーザーが間違ったパスワードを入力している場合は、リセットするよう依頼します。
 
 ### ポータル サイトに、IT サポートへの問い合わせに関する情報が表示されない
 
@@ -100,11 +95,11 @@ ms.openlocfilehash: 44af28c18980e549924139badd8f3ca439dc29b3
 |0x80073CFB|指定したパッケージは既にインストールされており、パッケージの再インストールがブロックされます|既にインストールされているパッケージと同じではないパッケージをインストールしようとすると、このエラーが発生することがあります。 デジタル署名がパッケージにも含まれることを確認します。 パッケージを再ビルドまたは再署名すると、パッケージは以前にインストールしたパッケージとビット単位で同じではなくなります。 このエラーを修正するには、次のように 2 つの選択肢が考えられます。<br /><br />-   アプリのバージョン番号を増やして、パッケージの再ビルドと再署名を行います。<br />-   システムのすべてのユーザーの古いパッケージを削除してから、新しいパッケージをインストールします。|
 |0x87D1041C|アプリケーションがインストールされましたが、検出されません。|- ユーザーはポータル サイトからアプリをインストールし、その後、デバイスから直接アンインストールしました。 ポータル サイトからアプリを再インストールします。<br /><br />- Intune で認識された基幹業務アプリのバージョン番号とデバイスにインストールされているバージョンが異なる可能性があります。 Intune のバージョンが正しいことを確認し、アプリを再インストールします。|
 
-### 次の手順
+### 次のステップ
 このトラブルシューティング情報を使っても問題が解決しない場合は、「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」の説明に従って Microsoft サポートにお問い合わせください。
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 

@@ -4,7 +4,7 @@ description: "iOS や Mac OS X モバイル デバイスが Intune で登録さ�
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 07/26/2016
+ms.date: 08/10/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,18 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
-ms.openlocfilehash: c91355b77850acbb76cd028bffb231e2ba1a5174
+ms.sourcegitcommit: 5c11b33ef2986ef3a88823c34900663a7f8195ac
+ms.openlocfilehash: d40620c3b4384e178af9c84bae85bcb09b4ffeee
 
 
 ---
 
 # Using your iOS or Mac OS X device with Intune
 
-このページには、エンドユーザーが Intune 管理対象デバイスで実行できるすべてのタスクへのリンクが掲載されています。 IT 管理者はこの情報を参照して、ユーザーがさまざまなタスクを実行するための手順を確認できます。タスクは登録関連情報、管理タスク、および準拠に関する問題の各カテゴリにグループ化されています。
+この記事には、エンドユーザーが Intune 管理対象デバイスで実行できるすべてのタスクへのリンクが掲載されています。 IT 管理者はこの情報を参照して、ユーザーがさまざまなタスクを実行するための手順を確認できます。タスクはカテゴリ別にグループ化されています。 
+- ポータル サイト アプリのインストールと Intune の登録 
+- 登録後の管理タスク
+- ポリシー準拠の問題
 
 ## ポータル サイト アプリのインストールと Intune の登録
 
@@ -61,6 +64,6 @@ ms.openlocfilehash: c91355b77850acbb76cd028bffb231e2ba1a5174
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO2-->
 
 

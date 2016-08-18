@@ -2,7 +2,7 @@
 title: "ポリシーのトラブルシューティング | Microsoft Intune"
 description: "ポリシー構成に関する問題のトラブルシューティングを行います。"
 keywords: 
-author: robstack
+author: robstackmsft
 manager: angrobe
 ms.date: 08/01/2016
 ms.topic: article
@@ -13,18 +13,15 @@ ms.assetid: 99fb6db6-21c5-46cd-980d-50f063ab8ab8
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
-ms.openlocfilehash: 98f15f304d5d372d05abfdd296ddff1ef98dd3eb
+ms.sourcegitcommit: 436d0c40ef317e1d258654d2164e7a1f8c35c5e1
+ms.openlocfilehash: 6bfa9bab46248be802679e70de18ff117171a1fb
 
 
 ---
 
 # Microsoft Intune のポリシーのトラブルシューティング
 
-ここでは、Microsoft Intune のポリシーの構成から発生する可能性のある問題の一部と、その問題に対して推奨されるトラブルシューティングを示します。
-
-この情報で問題が解決しない場合、さらに役立つ方法を探すには、「[Microsoft Intune のサポートを受ける方法](how-to-get-support-for-microsoft-intune.md)」を参照してください。
-
+Intune でのポリシーの展開と管理に関して問題がある場合は、ここから始めてください。 このトピックでは、発生する可能性がある一般的な問題とその解決策が示されています。
 
 ## ポリシーがデバイスに適用されているか
 **問題:** 特定のポリシーがデバイスに適用されているかどうか、またはデバイスがポリシーに反して動作しているかどうかがわからない。
@@ -79,7 +76,7 @@ MDM Windows デバイス以外のデバイスでは、policyplatform.log ファ�
 
 
 ## アラート: アクセス ルールを Exchange に保存できませんでした
-**問題**: 管理コンソールが「 **アクセス ルールを Exchange に保存できませんでした**  」のアラートを受信する。
+**問題**: 管理コンソールが「 **アクセス ルールを Exchange に保存できませんでした** 」のアラートを受信する。
 
 管理コンソールの下の [Exchange On-Premises ポリシー] ワークスペースでポリシーを作成し、O365 を使用すると、構成されたポリシー設定が Intune によって適用されません。 アラートのポリシー ソースを確認してください。  [Exchange On-Premises ポリシー] ワークスペースで古いルールを削除します。古いルールはオンプレミスの Exchange で使用する、Intune 内のグローバルの Exchange ルールであり、O365 に関連しないためです。 次に、O365 の新しいポリシーを作成します。
 
@@ -109,6 +106,6 @@ Android の MDM は、その他のプラットフォームのように、サー�
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 

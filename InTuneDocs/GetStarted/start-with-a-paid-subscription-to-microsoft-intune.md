@@ -13,8 +13,8 @@ ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
-ms.openlocfilehash: d10bb6ce48ba000154d117b2481690a198d25e49
+ms.sourcegitcommit: 13ff2feb5918725306ebee96cdbf8e5212066ddc
+ms.openlocfilehash: c8984d37296fc79eb67b5604ab735b1be47d4e11
 
 
 ---
@@ -26,7 +26,7 @@ ms.openlocfilehash: d10bb6ce48ba000154d117b2481690a198d25e49
 >[!NOTE]
 >この記事では、スタンドアロン サービスとしての Intune のセットアップについて説明します。 または、現在コンピューターとサーバーの管理に Microsoft System Center Configuration Manager を使っている場合は、[Configuration Manager を拡張してモバイル デバイスを管理する](https://technet.microsoft.com/library/jj884158.aspx)ことができます。 そのためには、Intune と Configuration Manager をモバイル デバイス管理 (MDM) のハイブリッド デプロイメントで接続します。
 
-このクイック スタート ガイドの手順には、「[Intune の評価ガイド](/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune)」に記載されいるのと同じ手順がたくさん含まれています。 ただし、評価した後で、モバイル デバイスの管理を開始する準備ができたら、いくつかの追加要件に対応する必要があります。
+このクイック スタート ガイドには、「[Intune の評価ガイド](/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune)」に記載されいるのと同じ手順がたくさん含まれています。 ただし、評価した後で、モバイル デバイスの管理を開始する準備ができたら、いくつかの追加要件に対応する必要があります。
 
 -   オンプレミスの Active Directory アカウントと Intune および Azure Active Directory を同期します。
 
@@ -75,6 +75,6 @@ Intune のクイック スタート ガイドを使用する準備が整いま�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO2-->
 
 

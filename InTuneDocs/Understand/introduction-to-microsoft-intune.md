@@ -1,10 +1,12 @@
 ---
+experimental: true
+experiment_id: kgremban_images_080416
 title: "Microsoft Intune の概要 | Microsoft Intune"
 description: "Intune が Enterprise Mobility および Security ソリューションでどのようにしてモバイル デバイスを管理するかについて説明します。"
 keywords: 
 author: Lindavr
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 08/10/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +15,14 @@ ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 775293074158dd6cd12a70b3afcb8424ea37c5b2
-ms.openlocfilehash: dee7cc762d6301c87736a34675e5f9e46a8634fa
+ms.sourcegitcommit: f88c9f6b856f91db8c9218ab41a87bc95f45a578
+ms.openlocfilehash: efc6fed1d9e0766dd0deb24e8f5f422d1f60f568
 
 
 ---
 
 # Intune の概要
-Microsoft Intune は、Microsoft Enterprise Mobility + Security (EMS、旧称 Enterprise Mobility Suite) の "管理部門" です。 Enterprise Mobility とは、組織の情報を保護したまま、従業員がすべてのデバイスで生産性を高められるようにすることです。  
+Microsoft Intune は、Microsoft Enterprise Mobility + Security (EMS、旧称 Enterprise Mobility Suite) の "管理部門" です。 Enterprise Mobility とは、組織の情報を保護しつつ、従業員がデバイスで生産性を高められるようにすることです。  
 
 EMS は、生産性、ID、アクセス制御、管理、データ保護を含む Enterprise Mobility の完全な統合スイートです。 これにより、効果的にモビリティ ソリューションを組織に展開し、運用することができます。  
 
@@ -44,7 +46,7 @@ Intune が提供する主なツールには次のものがあります。
 
 これらのツールをさまざまに組み合わせて使用することで、上記の一般的なビジネス シナリオを可能にします。 たとえば、共有デバイスのシナリオでは、MDM を頻繁に使用します。 BYOD のシナリオは一般に MAM に依存します。 会社の電話のシナリオは両方に基づいて構築します。 ほとんどすべてのシナリオで、モバイル アプリケーションのセキュリティを利用します。
 
-このドキュメント全体で、Intune が提供するツールを使用して、ビジネス シナリオをサポートする方法を説明しています。  さらに、Office 365、Azure AD、Azure RMS、および Microsoft Mobility Suite のその他の部分とこれらのツールを使用する方法についても説明します。 これは、テクノロジの一般的な使用方法と環境で役立てる方法の大まかな概要に加えて、それらを実装する手順を知るためにも役立ちます。 テクノロジ自体は柔軟性があるため、ここで説明しているもの以外にも、あらゆる種類のシナリオに適応できます。
+このドキュメント全体で、Intune が提供するツールを使用して、ビジネス シナリオをサポートする方法を説明しています。  さらに、Office 365、Azure AD、Azure RMS、および Microsoft Mobility Suite のその他の部分とこれらのツールを使用する方法についても説明します。 テクノロジの一般的な使用方法と環境で役立てる方法の大まかな概要に加えて、それらを実装する手順も提供します。 テクノロジ自体は柔軟性があるため、ここで説明しているもの以外にも、あらゆる種類のシナリオに適応できます。
 
 ### 次のステップ
 * [Intune の一般的な使用方法](common-ways-to-use-intune.md)を読む
@@ -53,6 +55,6 @@ Intune が提供する主なツールには次のものがあります。
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO2-->
 
 

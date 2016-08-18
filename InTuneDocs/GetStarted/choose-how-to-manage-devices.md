@@ -13,8 +13,8 @@ ms.assetid: 770aad50-fd7a-4cf1-a793-f95fe47fc3f8
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 76d0d9c620000864a4a554600985ba351c18d359
-ms.openlocfilehash: 067838593f7a222b5949cbfaf20744104030aee6
+ms.sourcegitcommit: 7c244554eb4b6ae5a248b53a7b4b6171807f4bfa
+ms.openlocfilehash: e353391375ce7b54f0be479607349e5618de1c37
 
 
 ---
@@ -42,7 +42,7 @@ iOS、Android、Windows Phone などのモバイル デバイス オペレーテ
 |**説明**|Microsoft Intune を使用して登録した個人のデバイス|1 人のユーザーが使用する企業所有のデバイス|多くのユーザーによって共有されるマネージャー アカウントを使用して管理される企業所有のデバイス|多くのユーザーによって使用される企業所有のユーザーのないデバイス。|
 |**デバイスのユーザー**|Owner|割り当てられているユーザー|ユーザー固有のアカウントはありません|特定のユーザーはいない|
 |**登録するユーザー**|Owner|管理者|デバイス マネージャー|すべてのユーザー|
-|**登録解除するユーザー**|所有者または管理者|管理者|管理者|管理者|
+|**登録解除するユーザー**|所有者または管理者|プラットフォーム |管理者またはユーザー|管理者またはユーザー|
 |**リセット可能なユーザー**|所有者または管理者|管理者|管理者|管理者|
 
 <div class="alert alert-tip">
@@ -80,6 +80,6 @@ On-Premises Connector または Service to Service Connector と Exchange を併
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO2-->
 
 

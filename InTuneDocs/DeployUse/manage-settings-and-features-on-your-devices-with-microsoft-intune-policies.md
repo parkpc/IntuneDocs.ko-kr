@@ -13,8 +13,8 @@ ms.assetid: 09bae0b9-4f79-4658-8ca1-a71ab992c1b2
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: 70b980c045d8d37aa4ea5bee5858c0c728d54114
+ms.sourcegitcommit: a083684da6abe9617f8b27604450c2a3b996b7cf
+ms.openlocfilehash: eeacb3f0898f2a1375a4119e01c939dd11d43940
 
 
 ---
@@ -44,7 +44,7 @@ Intune ポリシーの一覧については、「[Microsoft Intune policy refere
 
 ## 構成ポリシーを作成する
 
-1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com/)で、**[ポリシー]**、**[構成ポリシー]** &gt; **[追加]** の順に選択します。
+1.  [Microsoft Intune 管理コンソール](https://manage.microsoft.com/)で、**[ポリシー]、** &gt; **[構成ポリシー]** &gt; **[追加]** の順に選択します。
 
 2.  作成するポリシーを選択します。ポリシーの推奨設定 (使用可能な場合。この設定は後で変更できます) を使用するか、独自の設定でカスタム ポリシーを作成するか選びます。
 
@@ -152,7 +152,7 @@ Intune ポリシーの一覧については、「[Microsoft Intune policy refere
 1 つのポリシーをアプリに展開し、このポリシーが有効になった後、2 つ目のポリシーを展開すると、2 つ目のポリシーは競合の状態になりますが、最初のポリシーは優先され、適用されたままになります。 両方を同時に適用する (優先されるポリシーがない) 場合は、両方が競合の状態になります。 競合する設定は、最も制限の厳しい値に設定されます。
 
 ### iOS カスタム ポリシーが競合するとどうなりますか。
-Intune は Apple 構成ファイルのペイロードまたはカスタム OMA-URI ポリシーを評価しません。 配信メカニズムとしてのみ機能します。
+Intune は Apple 構成ファイルのペイロードまたはカスタム Open Mobile Alliance Uniform Resource Identifier (OMA-URI) ポリシーを評価しません。 配信メカニズムとしてのみ機能します。
 
 カスタム ポリシーを展開するときは、構成した設定がコンプライアンス、構成、または他のカスタム ポリシーと競合していないことを確認してください。 設定が競合しているカスタム ポリシーの場合、設定が適用される順序はランダムになります。
 
@@ -198,7 +198,7 @@ Intune は Apple 構成ファイルのペイロードまたはカスタム OMA-U
 
 #### Intune クライアント ソフトウェアを実行している Windows PC
 
-- **Endpoint Protection 設定**: 設定は、推奨値に復元されます。 例外は、**[Microsoft Active Protection Service に参加する]** の設定だけで、既定値は **[いいえ]**です。 詳細については、「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)」を参照してください。
+- **Endpoint Protection 設定**: 設定は、推奨値に復元されます。 例外は、**[Microsoft Active Protection Service に参加する]** の設定だけで、既定値は **[いいえ]** です。 詳細については、「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)」を参照してください。
 - **ソフトウェアの更新プログラムの設定**: 設定は、オペレーティング システムの既定の状態にリセットされます。 詳細については、「[Microsoft Intune でソフトウェア更新プログラムを使用して Windows PC を最新の状態に保つ](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)」を参照してください。
 - **Microsoft Intune Center の設定**: ポリシーで構成されたサポートの連絡先情報は、すべてコンピューターから削除されます。
 - **Windows ファイアウォールの設定**: 設定は、コンピューターのオペレーティング システムの既定にリセットされます。 詳細については、「[Microsoft Intune の Endpoint Protection を使用して Windows PC を保護する](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)」を参照してください。
@@ -215,6 +215,6 @@ Intune は Apple 構成ファイルのペイロードまたはカスタム OMA-U
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

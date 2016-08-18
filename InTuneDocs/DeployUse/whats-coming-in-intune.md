@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1f941fad998c6c0e07437c8f476df55325a4741b
-ms.openlocfilehash: dd7bd41188cee812aafc8c439f703fa4abd42858
+ms.sourcegitcommit: f02d8791bbca65a4bfda69e61e9e22c8124c436b
+ms.openlocfilehash: 09fb5dac0276b4da49795539f40dbde15cd69bf5
 
 
 ---
@@ -30,7 +30,7 @@ Intune に関して以下の機能が現在開発されています。 これら
 
 ## アプリ管理
 ### iOS 9.3 で表示されないアプリと表示されるアプリ
-iOS 9.3 以降を実行するデバイスでは、iOS の一般構成ポリシーの表示されないアプリと表示されるアプリのリストを使用して次のことができます。
+iOS 9.3 以降を実行する管理されたデバイスでは、iOS の一般構成ポリシーの表示されないアプリと表示されるアプリのリストを使用して次のことができます。
 - ユーザーに対して表示されないアプリの一覧を指定します。 ユーザーはこのようなアプリを表示または起動できません。
 - ユーザーが表示および起動できるアプリの一覧を指定します。 他のアプリは表示または起動できません。
 
@@ -50,7 +50,7 @@ Samsung KNOX デバイスでは、次のいずれかを作成できるカスタ�
 ### モバイル アプリケーション管理 (MAM) ポリシーと互換性のある新しいアプリ
 [iOS](https://itunes.apple.com/app/yammer/id289559439?mt=8) および [Android](https://play.google.com/store/apps/details?id=com.yammer.v1) 向けの Yammer アプリは、デバイスが登録されていてもいなくても、[Intune バイル アプリケーション管理 (MAM) ポリシー](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)と互換性があります。
 
-MAM と互換性のある全アプリの一覧については、[Microsoft Intune アプリケーション パートナー](https://www.microsoft.com/cloud-platform/microsoft-intune-partners)のサイトをご覧ください。
+MAM と互換性のある全アプリの一覧については、[Microsoft Intune アプリケーション パートナー](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners)のサイトをご覧ください。
 <!--- TFS 1252335 & 1252336--->
 
 ## デバイス管理
@@ -114,7 +114,7 @@ Intune の通知規則では、Intune からの電子メール アラートの�
 - Intune PDF Viewer
 - Google Play の Android 用 Intune Image Viewer
 
-Intune Viewer アプリを使用する代わりに、Android 用の新しい Rights Management アプリ (RMS 共有) を使用することをお勧めします。そうすることで、3 つのアプリを個別にではなく、1 つのアプリを展開して、Android デバイス上の企業ファイルを安全に表示することができます。 RMS 共有アプリ (ドキュメントへのリンクを含む) の詳細を確認してください。
+Intune Viewer アプリを使用する代わりに、Android 用の新しい Rights Management アプリ (RMS 共有) を使用することをお勧めします。そうすることで、3 つのアプリを個別にではなく、1 つのアプリを展開して、Android デバイス上の企業ファイルを安全に表示することができます。 RMS 共有アプリの詳細については、[こちら](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)をご覧ください。
 <!--- goes in 1608 What's New--->
 
 
@@ -123,6 +123,6 @@ Intune Viewer アプリを使用する代わりに、Android 用の新しい Rig
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 

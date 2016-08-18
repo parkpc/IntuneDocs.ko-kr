@@ -3,7 +3,7 @@ title: "デバイスを保護する | Microsoft Intune"
 description: "不正アクセスなどの脅威からのデバイス保護に Intune が役立つ方法のいくつかについて説明します。"
 keywords: 
 author: Robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
@@ -13,26 +13,26 @@ ms.assetid: 71e0cbf3-2bfb-412e-8a12-8503df08b4cf
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: 53201c36e7a210c1c62d3ed3183093ed8e63dc53
+ms.sourcegitcommit: c999a852b68762002ac94269e27ecbf46c8f9999
+ms.openlocfilehash: 3318590eaedc6f0e96fb463dc016d5786eeb38fb
 
 
 ---
 
 # Microsoft Intune でデバイスを保護する
-デバイスを Intune の管理対象にしたら、無許可のアクセスやその他の脅威に対して保護されていることを確認します。 その目的に役立つ Intune の機能をいくつか示します。
+デバイスを Intune の管理対象にした後は、無許可のアクセスやその他の脅威に対して保護されていることを確認します。 その目的に役立つ Intune の機能をいくつか示します。
 
 > [!TIP]
 > このトピックでは、デバイスのセキュリティ保護に役立つ Intune の機能の一部のみを紹介します。 たとえば、Intune ポリシーを使用すれば、パスワードの構成、暗号化設定、ハードウェア機能 (Bluetooth やデバイス カメラなど) など、さまざまなセキュリティ設定をデバイスで構成できます。 これらの設定の詳細については、「[Microsoft Intune ポリシーを使用してデバイスの設定と機能を管理する](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)」をご覧ください。
 
 ## ユーザーがデバイスからロックアウトされるときにパスコードをリセットする
-モバイル デバイス上の会社のデータを保護するには、まず、デバイスを使用するためのパスコードが必要になるため、場合によっては、[パスコードをリセットする](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)か、従業員がパスコードをリセットできるようにする必要があります。そのためには、パスコードを削除するか、リモートで一時パスコードを設定します。 デバイスをなくしたか、盗難に遭った場合、[デバイスをリモート ロック](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)することもできます。
+モバイル デバイス上の会社のデータを保護する最初のステップは、デバイスの使用に対してパスコードを要求することです。 場合によっては、管理者は[パスコードをリセット](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)するか、従業員によるパスコードのリセットを支援する必要があります。そのためには、パスコードを削除するか、リモートで一時パスコードを設定します。 デバイスをなくしたか、盗難に遭った場合、[デバイスをリモート ロック](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)することもできます。
 
 ## Windows デバイスに保護層を追加する
-[多要素認証 (MFA)](protect-windows-devices-with-multi-factor-authentication.md) は、ネットワーク上の Windows デバイスと Windows Phone デバイスのユーザーを認証するより安全な方法です。  MFA を使用すると、ユーザーは、ユーザー名とパスワード以外に、電話やテキスト メッセージを使用して本人であることを証明する必要があります。
+[多要素認証 (MFA)](protect-windows-devices-with-multi-factor-authentication.md) は、ネットワーク上の Windows デバイスと Windows Phone デバイスのユーザーを認証するより安全な方法です。 MFA を使用すると、ユーザーは、ユーザー名とパスワード以外に、電話やテキスト メッセージを使用して本人であることを証明する必要があります。
 
 ## Windows デバイスで Microsoft Passport の設定を制御する
-Intune では、[Microsoft Passport for Work](control-microsoft-passport-settings-on-devices-with-microsoft-intune.md) を統合できます。これは Active Directory または Azure Active Directory アカウントを使った Windows 10 以降の代替サインイン方法であり、パスワード、スマート カード、または仮想スマート カードの代わりに使用されます。
+Intune は、[Microsoft Passport for Work](control-microsoft-passport-settings-on-devices-with-microsoft-intune.md) と統合できます。 これは、Windows 10 以降に対する代替サインイン方法です。 Microsoft Passport for Work は、Active Directory アカウントまたは Azure Active Directory アカウントを使って、パスワード、スマート カード、または仮想スマート カードを置き換えます。
 
 ## iOS デバイスのアクティブ化ロックをバイパスする
 アクティブ化ロックは、デバイスを消去または再アクティブ化する前に、Apple ID とパスワードの入力を要求することでユーザー デバイスを保護するのに役立つ機能です。 ただし、これが問題につながる場合があります。たとえば、ユーザーがロックを解除しないまま会社を退職した場合です。 [iOS のアクティベーション ロックのバイパス](help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md)は、監視下 iOS デバイスのロックを解除して、デバイスを再割り当てしたり、消去したりできるようにする機能です。
@@ -42,6 +42,6 @@ Intune は引き続き、ユーザーは登録しないが、Intune コンピュ
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO2-->
 
 
