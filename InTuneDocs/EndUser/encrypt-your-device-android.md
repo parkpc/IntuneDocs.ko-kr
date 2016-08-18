@@ -13,8 +13,8 @@ ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 80ebf1a56106ad4e66d2d791ab98edae1ab11505
-ms.openlocfilehash: 9c89a70f8d9625504f6c710fe29f308dfd34530a
+ms.sourcegitcommit: 6c6a6fed876e49888d8fda1fd93b39313387ba38
+ms.openlocfilehash: 6cb6c0b8a8f4c1b88565ce4b7a5690406b4ddf40
 
 
 ---
@@ -40,7 +40,23 @@ ms.openlocfilehash: 9c89a70f8d9625504f6c710fe29f308dfd34530a
 - 暗号化が必要であるというメッセージが引き続き表示されます。
 - ポータル サイト アプリを使用しようとすると、エラーが表示されます。
 
-**対処方法**: デバイスで PIN やパスワードが設定されていることを確認します。
+**対処方法**: 
+
+1. デバイスが課金され、接続されていることを確認します。
+
+2. デバイスで PIN やパスワードが設定されていることを確認します。
+
+3. デバイスに PIN またはパスワードを既に設定してある場合は、次の手順を試してみます。IT 管理者がデバイスのセキュリティを強化する必要がある場合があります。 Android デバイスの種類により、手順で表示されるメニュー名が若干異なることがあります。
+
+    a. **[Settings]** (設定) > **[Security]** (セキュリティ) > **[Screen lock]** (画面のロック) の順に移動します。 現在の PIN またはパスワードを確認します。
+
+    b. **[Choose screen lock]** (画面のロックの選択) 画面で、使用する画面ロックの種類を選択します。
+
+    c. **[Secure start-up]** (安全な起動) 画面で、**[Require PIN to start device]** (デバイスの起動に PIN が必要) をタップし、**[Continue]** (続行) をタップします。
+
+    d. PIN を選択し (前に入力したものと同じものを入力できます)、**[Confirm your PIN]** (PIN の確認) をタップします。
+
+    e. ポータル サイト アプリを開き、デバイスを選択して、**[Check Compliance]** (ポリシー準拠状況の確認) をタップします。
 
 サポートが必要な場合は、 IT 管理者に問い合わせるか (連絡先情報については[ポータル サイト Web サイト](http://portal.manage.microsoft.com)をご確認ください)、または Microsoft Android チーム (wintunedroidfbk@microsoft.com) にご連絡ください。
 
@@ -49,6 +65,6 @@ ms.openlocfilehash: 9c89a70f8d9625504f6c710fe29f308dfd34530a
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 

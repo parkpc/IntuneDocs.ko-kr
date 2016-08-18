@@ -13,8 +13,8 @@ ms.assetid: eb912c73-54d2-4d78-ac34-3cbe825804c7
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6ddb0fda0e818b09d274276076fd6310d29b99cb
-ms.openlocfilehash: 8ce6b10478927177e5d6d8de0677cf06bed00f08
+ms.sourcegitcommit: dcfa3af374a7e64e931508e1a8022bf8a50c71a7
+ms.openlocfilehash: 93d5718fcd9949945180434b0f89eea96e92bbc6
 
 
 ---
@@ -119,7 +119,7 @@ Intune は、管理されたコンピューターのハードウェアおよび�
 
 コンピューターを削除した場合:
 
--   コンピューターは Intune インベントリから削除され、そのコンピューターに関連付けられていたライセンスは再利用できます。
+-   コンピューターは Intune の管理とインベントリから削除され、そのコンピューターに関連付けられていたライセンスは再利用できます。 削除/ワイプを行うと、コンピューターからは Intune ソフトウェア クライアントは削除されますが、アプリまたはデータは削除されません。
 
 -   そのコンピューターの状態は、Intune コンソールに表示されなくなります。
 

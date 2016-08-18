@@ -13,15 +13,15 @@ ms.assetid: 60347012-bc3f-4b9a-a4f4-6d3c5021a6e6
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: ede28a99224b3d0bd94a4300b4b8b85815ae9591
+ms.sourcegitcommit: f3b4b01844c9ab8a5de38e9a33f595cfc87b42a0
+ms.openlocfilehash: 650c06072cdcf19cf3fd1b93454e5373772f0e14
 
 
 ---
 
 # アプリのライフサイクルの概要
 
-Intune のアプリのライフサイクルは、アプリが追加されると開始し、削除するまで以降のフェーズに従って進行します。
+Intune のアプリのライフサイクルは、アプリが追加されると開始し、アプリを削除するまで以降のフェーズに従って進行します。
 
 ![アプリのライフサイクル](./media/app-lifecycle.png "the Intune app lifecycle")
 
@@ -42,8 +42,8 @@ Intune のアプリのライフサイクルは、アプリが追加されると�
 ## 保護
 
 Intune では、さまざまな方法でアプリのデータを保護できます。 主な方法は次のとおりです。
-- [条件付きアクセス](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)では、デバイスの種類などの指定した条件に基づいて電子メールや他のサービスへのアクセスを制御したり、展開した[デバイス コンプライアンス ポリシー](introduction-to-device-compliance-policies-in-microsoft-intune.md)への準拠を制御したりできます。
-- [モバイル アプリケーション管理 (MAM)](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)は、個々のアプリと連携して、アプリが使用する会社のデータを保護します。 たとえば、管理対象外アプリと管理対象アプリの間でのデータのコピーを制限したり、脱獄またはルート化されたデバイスでのアプリの実行を禁止したりできます。
+- [条件付きアクセス](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)は、ユーザーが指定した条件に基づいてメールおよび他のサービスへのアクセスを制御します。 条件としては、デバイスの種類や、ユーザーが展開した[デバイス コンプライアンス ポリシー](introduction-to-device-compliance-policies-in-microsoft-intune.md)への準拠などがあります。
+- [モバイル アプリケーション管理 (MAM)](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md) は、個々のアプリと連携して、アプリが使用する会社のデータを保護します。 たとえば、管理対象外アプリと管理対象アプリの間でのデータのコピーを制限したり、脱獄またはルート化されたデバイスでのアプリの実行を禁止したりできます。
 
 ## インベントリから削除
 
@@ -51,6 +51,6 @@ Intune では、さまざまな方法でアプリのデータを保護できま�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO2-->
 
 

@@ -3,7 +3,7 @@ title: "GPO と Intune ポリシーの競合を解決する| Microsoft Intune"
 description: "グループ ポリシーと Intune 構成ポリシーの競合を解決する方法について説明します。"
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,23 +13,23 @@ ms.assetid: e76af5b7-e933-442c-a9d3-3b42c5f5868b
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: 77f7bc40471437cf69fe5553d4d82dc71a6ba405
+ms.sourcegitcommit: e64c4e077a3d2b75a8c246f097fcf7472d7edac6
+ms.openlocfilehash: 286f159e57820a8c8723004c167ae7296626894c
 
 
 ---
 
 # グループ ポリシー オブジェクト (GPO) と Microsoft Intune ポリシーの競合を解決する
-Intune は、管理対象の Windows PC の設定を管理するためにポリシーを使用します。 たとえば、ポリシーを使用して、PC の Windows ファイアウォールに関する設定を制御できます。 多くの Intune 設定は、Windows グループ ポリシーで構成する設定と似ています。 ただし、この 2 つの設定が互いに競合することがあります。
+Intune は、Windows PC の設定を管理するためにポリシーを使用します。 たとえば、ポリシーを使用して、PC の Windows ファイアウォールに関する設定を制御できます。 多くの Intune 設定は、Windows グループ ポリシーで構成する設定と似ています。 ただし、この 2 つの設定が互いに競合することがあります。
 
-競合が発生した場合、PC がドメインにログオンできない場合を除き、ドメインレベルのグループ ポリシーの方が Intune ポリシーより優先されます。 ドメインにログオンできない場合は、Intune ポリシーがクライアント PC に適用されます。
+競合が発生した場合、PC がドメインにサインインできない場合を除き、ドメインレベルのグループ ポリシーの方が Intune ポリシーより優先されます。 ドメインにログオンできない場合は、Intune ポリシーがクライアント PC に適用されます。
 
 ## グループ ポリシーを使用する場合の操作
-適用するポリシーがグループ ポリシーの管理対象かどうかを確認してください。 競合を回避するために、次の方法の 1 つまたは複数を採用することができます。
+適用するポリシーがグループ ポリシーの管理対象かどうかを確認してください。 競合を回避するために、次の方法の 1 つまたは複数を使用できます。
 
 -   グループ ポリシー設定が適用されない Active Directory 組織単位 (OU) に PC を移動してから、Intune クライアントをインストールします。 また、Intune に登録されている PC を含む OU にグループ ポリシー設定を適用しない場合は、その OU へのグループ ポリシーの継承をブロックすることもできます。
 
--   セキュリティ グループ フィルターを使用して、Intune で管理されていない PC のみに GPO を制限します。 
+-   セキュリティ グループ フィルターを使用して、Intune で管理されていない PC のみに GPO を制限します。
 
 -   Intune ポリシーと競合するグループ ポリシー オブジェクトを無効にするか削除します。
 
@@ -102,9 +102,9 @@ WMI filters selectively apply GPOs to computers that satisfy the conditions of a
 For more information about how to apply WMI filters in Group Policy, see the blog post [Security Filtering, WMI Filtering, and Item-level Targeting in Group Policy Preferences](http://go.microsoft.com/fwlink/?LinkId=177883). --->
 
 
-グループ ポリシーを使用すると、グループ ポリシー管理コンソールで、選択した GPO の **[セキュリティ フィルター処理]** に指定されているセキュリティ グループのみに GPO を適用できます。 既定では、GPO は **[認証されたユーザー]**に適用されます。
+GPO は、グループ ポリシー管理コンソールで、選択した GPO の **[セキュリティ フィルター処理]** に指定されているセキュリティ グループのみに適用できます。 既定では、GPO は *[認証されたユーザー]* に適用されます。
 
--   **[Active Directory ユーザーとコンピューター]** スナップインで、Intune で管理しないコンピューターとユーザー アカウントを含む新しいセキュリティ グループを作成します。 このグループに **Not In Microsoft Intune** などの名前を設定できます。
+-   **[Active Directory ユーザーとコンピューター]** スナップインで、Intune で管理しないコンピューターとユーザー アカウントを含む新しいセキュリティ グループを作成します。 このグループに *Not In Microsoft Intune* などの名前を設定します。
 
 -   グループ ポリシー管理コンソールで、選択した GPO の **[委任]** タブを開き、新しいセキュリティ グループを右クリックして、適切な**読み取り**アクセス許可と**グループ ポリシーの適用**アクセス許可をセキュリティ グループ内のユーザーとコンピューターの両方に委任できます。 (**グループ ポリシーの適用** アクセス許可は **[詳細設定]** ダイアログ ボックスで使用できます)。
 
@@ -117,6 +117,6 @@ For more information about how to apply WMI filters in Group Policy, see the blo
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO2-->
 
 
