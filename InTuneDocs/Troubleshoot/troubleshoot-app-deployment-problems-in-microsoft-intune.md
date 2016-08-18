@@ -2,7 +2,7 @@
 title: "앱 배포 문제 해결 | Microsoft Intune"
 description: "이 항목은 Microsoft Intune에서 앱 배포 문제를 해결하는 데 도움을 줍니다."
 keywords: 
-author: robstack
+author: robstackmsft
 manager: angrobe
 ms.date: 08/02/2016
 ms.topic: article
@@ -13,29 +13,24 @@ ms.assetid: 28ac298e-fb73-4c1c-b3fd-8336639e05e6
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
-ms.openlocfilehash: 44af28c18980e549924139badd8f3ca439dc29b3
+ms.sourcegitcommit: bbee6d3fec02a4d96b31a44a31218f684e0267c8
+ms.openlocfilehash: ed961a945d0b7872553f2be2917ba273709b6d35
 
 
 ---
 
 # Microsoft Intune에서 앱 배포 문제 해결
-이 항목은 Microsoft Intune에서 앱 배포 문제를 해결하는 데 도움을 줍니다.
-
-이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
-
+Intune을 사용하여 앱을 배포하고 관리하는 데 문제가 있는 경우 여기서 시작하세요. 이 항목에는 솔루션에서 함께 발생할 수 있는 몇 가지 일반적인 문제가 포함되어 있습니다.
 
 ## 일반적인 앱 배포 문제
 
-### Microsoft Intune 회사 포털에 로그인할 수 없는 경우
+### 사용자가 Intune 회사 포털에 로그인할 수 없음
 
-1.  사용자의 계정이 [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에 존재하는지 또는 사용되지 않도록 설정되었는지 확인합니다.
+1.  사용자의 계정이 존재하는지와 [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에서 사용하도록 설정되어 있는지 확인합니다.
 
-2.  [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에서 이 계정에 프로비저닝되어 있는지 확인합니다.
+3.  [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에서 사용자가 올바른 사용자 이름을 입력하여 Intune에 로그인하고 있는지와 사용자 이름이 **joe@domain.com** 형식인지 확인합니다. 사용자가 잘못된 암호를 입력한 것 같은 경우 사용자에게 암호를 재설정하도록 요청합니다.
 
-3.  [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에서 올바른 사용자 이름 및 암호를 사용하여 Intune에 로그인하고 있는지와 사용자 이름이 **joe@domain.com**형식인지 확인합니다.
-
-### IT 담당자 정보가 회사 포털에 없는 경우
+### IT 담당자 정보가 회사 포털에 없음
 
 1.  Intune 관리 콘솔에서 **관리** &gt; **회사 포털**을 선택합니다.
 
@@ -105,6 +100,6 @@ ms.openlocfilehash: 44af28c18980e549924139badd8f3ca439dc29b3
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 

@@ -1,5 +1,4 @@
 ---
-experimental: true
 experiment_id: kgremban_images_080416
 title: "Microsoft Intune 소개 | Microsoft Intune"
 description: "Intune이 어떻게 엔터프라이즈 이동성 + 보안 솔루션의 모바일 장치 관리 구성 요소가 되는지 알아봅니다."
@@ -15,8 +14,8 @@ ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f88c9f6b856f91db8c9218ab41a87bc95f45a578
-ms.openlocfilehash: efc6fed1d9e0766dd0deb24e8f5f422d1f60f568
+ms.sourcegitcommit: dbb8a8fdcc39aa91f4d2c0a671447e44daf8570d
+ms.openlocfilehash: 1b5549e4e0ad7652ed39659d7ebe7b95049dcbe6
 
 
 ---
@@ -25,8 +24,6 @@ ms.openlocfilehash: efc6fed1d9e0766dd0deb24e8f5f422d1f60f568
 Microsoft Intune은 Microsoft Enterprise Mobility + 보안(EMS, 이전의 Enterprise Mobility Suite)의 "관리 암(arm)"입니다. Enterprise Mobility는 직원이 조직의 정보 보호를 유지하면서 모든 직원 장치에서 생산성을 높일 수 있도록 하는 것입니다.  
 
 EMS는 생산성, ID, 액세스 제어, 관리 및 데이터 보호를 포함하는 Enterprise Mobility를 위한 완전한 통합 제품군입니다. 조직의 Mobility 솔루션을 배포하고 운영하는 효과적인 방법을 제공합니다.  
-
-![Enterprise Mobility 비전의 이미지](..\media\em-vision.png)
 
 Intune은 모바일 장치 및 모바일 앱을 관리하도록 지원합니다. Intune은 ID 및 액세스 제어를 위한 Azure AD(Azure Active Directory) 및 데이터 보호를 위한 Azure RMS(Azure 권한 관리)와 긴밀하게 통합됩니다.  
 
@@ -38,6 +35,8 @@ Intune에서 해결하는 일반적인 비즈니스 문제는 다음과 같습�
 * 조직에서 작업자를 위한 제한된 사용 "공유 장치"를 제공하도록 설정
 * 조직에서 보안 "BYOD(Bring Your Own Device)" 또는 개인 장치 전략을 구현하도록 설정
 * 조직이 무역 박람회 로비에서 키오스크 등을 제어하지 않는 장치 및 앱으로부터 Office 365에 액세스하는 직원을 지원하도록 설정
+
+![Enterprise Mobility 비전의 이미지](..\media\em-vision.png)
 
 Intune에서 제공하는 기본 도구는 다음과 같습니다.
 * **MDM(모바일 장치 관리)**: 해당 장치에서 프로비전, 구성, 모니터링 및 초기화와 같은 작업을 수행할 수 있도록 Intune에 장치를 등록하는 기능입니다.

@@ -13,8 +13,8 @@ ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 80ebf1a56106ad4e66d2d791ab98edae1ab11505
-ms.openlocfilehash: 9c89a70f8d9625504f6c710fe29f308dfd34530a
+ms.sourcegitcommit: 6c6a6fed876e49888d8fda1fd93b39313387ba38
+ms.openlocfilehash: 6cb6c0b8a8f4c1b88565ce4b7a5690406b4ddf40
 
 
 ---
@@ -40,7 +40,23 @@ ms.openlocfilehash: 9c89a70f8d9625504f6c710fe29f308dfd34530a
 - 여전히 암호화해야 한다는 메시지가 표시됩니다.
 - 회사 포털 앱을 사용하려고 할 때 오류가 발생합니다.
 
-**수행할 작업**: 장치에서 PIN 또는 암호를 설정했는지 확인합니다.
+**시도할 작업**: 
+
+1. 장치가 충전되었고 전원에 연결되어 있는지 확인합니다.
+
+2. 장치에서 PIN 또는 암호를 설정했는지 확인합니다.
+
+3. 장치에서 이미 PIN 또는 암호를 설정한 경우 다음 단계를 시도해 볼 수 있습니다. IT 관리자가 장치를 더 안전하게 하기 위해 이러한 단계를 요구할 수 있습니다. 표시되는 메뉴 이름은 보유한 Android 장치의 유형에 따라 단계에 있는 메뉴 이름과 약간 다를 수 있습니다.
+
+    a. **설정** > **보안** > **화면 잠금**으로 이동합니다. 현재 PIN 또는 암호를 확인합니다.
+
+    b. **화면 잠금 선택** 화면에서 사용할 화면 잠금 유형을 선택합니다.
+
+    c. **보안 시작** 화면에서 **기기 시작 시 PIN 요청**을 탭하고 **계속**을 탭합니다.
+
+    d. PIN(이전에 입력한 것과 같은 PIN을 입력할 수 있음)을 선택하고 **PIN 확인**을 탭합니다.
+
+    e. 회사 포털 앱을 열고 장치를 선택하고 **준수 확인**을 탭합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) Microsoft Android 팀(wintunedroidfbk@microsoft.com)으로 전자 메일을 보내세요.
 
@@ -49,6 +65,6 @@ ms.openlocfilehash: 9c89a70f8d9625504f6c710fe29f308dfd34530a
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 

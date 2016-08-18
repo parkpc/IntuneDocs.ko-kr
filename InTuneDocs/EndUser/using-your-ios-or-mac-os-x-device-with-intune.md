@@ -4,7 +4,7 @@ description: "Intune에서 장치가 등록될 때 iOS 또는 Mac OS X 모바일
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 07/26/2016
+ms.date: 08/10/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,18 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
-ms.openlocfilehash: c91355b77850acbb76cd028bffb231e2ba1a5174
+ms.sourcegitcommit: 5c11b33ef2986ef3a88823c34900663a7f8195ac
+ms.openlocfilehash: d40620c3b4384e178af9c84bae85bcb09b4ffeee
 
 
 ---
 
 # Using your iOS or Mac OS X device with Intune
 
-이 페이지에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 작업에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 작업 수행을 위해 사용자가 따르는 단계를 확인합니다. 등록 관련 정보, 관리 작업 및 준수 문제와 같이 범주별로 그룹화되어 있습니다.
+이 문서에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 작업에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 작업(다음과 같은 범주로 그룹화되어 있음) 수행을 위해 사용자가 따르는 단계를 확인할 수 있습니다. 
+- 회사 포털 앱 설치 및 Intune 등록 
+- 등록 후 관리 작업
+- 규정 준수 문제
 
 ## 회사 포털 앱을 설치 및 Intune 등록
 
@@ -39,7 +42,7 @@ ms.openlocfilehash: c91355b77850acbb76cd028bffb231e2ba1a5174
 
 - [장치에서 관리되는 앱 사용](use-managed-apps-on-your-device-ios.md)
 - [암호 설정 또는 변경](set-or-change-your-passcode-ios.md)
-- [분실하거나 도난당한 장치 재설정(지우기)](reset-erase-your-lost-or-stolen-device-ios.md)
+- [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-lost-or-stolen-device-ios.md)
 - [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-ios.md)
 - [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-ios.md)
 - [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-ios.md)
@@ -61,6 +64,6 @@ ms.openlocfilehash: c91355b77850acbb76cd028bffb231e2ba1a5174
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO2-->
 
 

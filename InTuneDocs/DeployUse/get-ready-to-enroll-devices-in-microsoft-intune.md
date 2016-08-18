@@ -13,8 +13,8 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9b7b8f6e5182e228458f5ea75e804a638f1e2a2b
-ms.openlocfilehash: 7e3e29113dd03ea25f102d7f71c63e5c3faefad8
+ms.sourcegitcommit: 7bea7ba4ef59c6b1400414b59456e19dc1c152fb
+ms.openlocfilehash: 768dd08ad838b621f18a24747618ef1e37c5c804
 
 
 ---
@@ -55,7 +55,7 @@ Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장�
 
 |필드 이름|최대 길이|추가 정보|
     |----------|------------------------|----------------|
-    |회사 이름|40|이 이름은 회사 포털의 제목으로 표시됩니다.|
+    |회사 이름|40|이 이름은 회사 포털의 제목으로 표시됩니다. **참고**: 영숫자 문자만 가능합니다. 이 필드는 특수 문자를 지원하지 않습니다.|
     |IT 부서 연락처 이름|40|이 이름은 **IT 담당자** 페이지에 표시됩니다.|
     |IT 부서 전화 번호|20|이 연락처 번호는 **IT 담당자** 페이지에 표시됩니다.|
     |IT 부서 전자 메일 주소|40|이 연락처 주소는 **IT 담당자** 페이지에 표시됩니다. 유효한 메일 주소를 **alias@domainname.com** 형식으로 입력해야 합니다.|
@@ -109,6 +109,6 @@ MDM 기관을 설정한 후 조직에서 지원하려는 운영 체제에 대한
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7ef205aece89667ea84b9b73e42e71fc540fa257
-ms.openlocfilehash: cbfd2da544814dc93a818a1ca5bd0496a268634b
+ms.sourcegitcommit: 0178bba517b0fc9e02ba67e6f3aba7a8a0ee445f
+ms.openlocfilehash: 9daab32361cfdf8567d03a8ea6e6438e34b61aad
 
 
 ---
@@ -32,7 +32,7 @@ ms.openlocfilehash: cbfd2da544814dc93a818a1ca5bd0496a268634b
 Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록된 Windows 10 Desktop 및 Windows 10 Mobile 장치에 대한 일반 설정을 구성합니다. 
 
 
-### 암호
+## - 암호
 
 |설정 이름|세부 정보|
 |----------------|----------------------|
@@ -47,13 +47,13 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록�
 |**암호 기록 기억** - **이전 암호 다시 사용 안 함**|장치에 기억될 이전에 사용된 암호의 수를 지정합니다.|
 |**장치가 유휴 상태에서 되돌아오는 경우 암호 필요**|설정된 경우, 사용자는 유휴 상태에서 장치 잠금을 해제하기 위해 암호를 입력해야 합니다.<br>(Windows 10 Mobile에만 해당)|
 
-### 암호화
+## - 암호화
 
 |설정 이름|세부 정보|
 |----------------|----------------------|
 |**모바일 장치 암호화 필요**|대상 장치에서 암호화를 설정<br>(Windows 10 Mobile에만 해당)|
 
-### System (시스템)
+## - 시스템
 
 |설정 이름|세부 정보|
 |----------------|----------------------|
@@ -63,7 +63,7 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록�
 |**진단 및 사용 현황 데이터를 Microsoft에 보내도록 허용**|장치에서 Microsoft로 보내는 진단 및 사용 현황 데이터의 양을 결정합니다.<br><br>**없음** - Microsoft로 데이터가 전송되는 데이터가 없습니다.<br>**기본** - 장치에서 제한된 정보만 Microsoft에 전송합니다.<br>**확장됨** - 확장된 진단 데이터를 Microsoft에 전송합니다.<br>**전체(권장됨)** - **확장됨**과 동일한 데이터 외에, 장치 상태에 대한 추가적인 데이터를 전송합니다.|
 
 
-### 계정 및 동기화
+## - 계정 및 동기화
 
 |설정 이름|세부 정보|
 |----------------|----------------------|---------------------|
@@ -71,7 +71,7 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록�
 |**Microsoft가 아닌 타사 계정 수동 추가 허용**|사용자가 Microsoft 계정과 연결되지 않은 장치에 전자 메일 계정을 추가하도록 허용합니다.|
 |**Microsoft 계정에 대한 설정 동기화 허용**|Microsoft 계정과 연결된 장치 및 앱 설정이 장치 간이 동기화되도록 허용합니다.|
 
-### Microsoft Edge
+## - Microsoft Edge
 
 |설정 이름|세부 정보|
 |----------------|----------------------|
@@ -87,7 +87,7 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록�
 |**암호 관리자 허용**|Edge 암호 관리자 기능을 사용하거나 사용하지 않습니다.|
 |**엔터프라이즈 모드 사이트 목록 위치**|엔터프라이즈 모드에서 열 웹 사이트 목록을 찾을 위치를 지정합니다. 사용자는 이 목록을 편집할 수 없습니다.<br>(Windows 10 Desktop에만 해당)|
 
-### 앱
+## - 앱
 
 |설정 이름|세부 정보|
 |----------------|----------------------|---------------------|
@@ -95,7 +95,7 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록�
 
 
 
-### 셀룰러
+## - 셀룰러
 
 |설정 이름|세부 정보|
 |----------------|----------------------|---------------------|
@@ -103,7 +103,7 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록�
 |**셀룰러에서 VPN 허용**|셀룰러 네트워크에 연결 시 장치가 VPN 연결에 액세스할 수 있을지 여부를 제어합니다.|
 |**셀룰러에서 VPN 로밍 허용**|셀룰러 네트워크에 로밍 시 장치가 VPN 연결에 액세스할 수 있을지 여부를 제어합니다.|
 
-### 하드웨어
+## - 하드웨어
 
 |설정 이름|세부 정보|
 |----------------|----------------------|
@@ -122,7 +122,7 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록�
 |**USB 연결 허용**|장치의 USB 연결을 통한 외부 저장 장치 액세스 가능 여부를 제어합니다.|
 |**AntiTheft 모드 허용**|Windows Antitheft 모드 사용 여부를 구성합니다.|
 
-### 기능
+## - 기능
 
 |설정 이름|세부 정보|
 |----------------|----------------------|---------------------|
@@ -131,7 +131,7 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록�
 |**Cortana 허용**|Cortana 음성 지원을 허용하거나 허용하지 않습니다.|
 |**알림 센터 알림 허용**|장치 잠금 화면에서 알림 센터 알림을 허용하거나 허용하지 않습니다.<br>(Windows 10 Mobile에만 해당)|
 
-### Defender
+## - Windows Defender
 
 모든 설정이 Windows 10 Desktop에만 해당됩니다.
 
@@ -162,7 +162,7 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여, 등록�
 |**검색을 실행하거나 실시간 보호를 사용할 때 제외할 프로세스**|제외 목록에 **.exe**, **.com**, 또는 **.scr** 같은 유형의 프로세스를 하나 이상 추가합니다. 이러한 프로세스는 실시간 또는 예약된 검색에 포함되지 않습니다.| 
 
 
-### 업데이트 설정
+## - 업데이트
 
 |설정 이름|세부 정보|
 |----------------|---------------|
@@ -176,14 +176,14 @@ Windows 10 및 Windows 10 Mobile용 Microsoft Intune **사용자 지정 구성 �
 
 
 
-### 사용자 지정 정책 일반 설정
+## - 일반
 
 |설정 이름|세부 정보|
     |----------------|--------------------|
     |**Name**|Intune 콘솔에서 쉽게 식별할 수 있도록 정책에 대한 고유한 이름을 입력합니다.|
     |**설명**|정책의 개요에 대한 설명과 찾을 때 도움이 되는 기타 관련 정보를 제공합니다.|
 
-### 사용자 지정 정책 OMA-URI 설정
+## - OMA-URI 설정
 
 |설정 이름|세부 정보|
     |--------|--------------------|
@@ -194,12 +194,12 @@ Windows 10 및 Windows 10 Mobile용 Microsoft Intune **사용자 지정 구성 �
     |**값**|이전에 지정한 OMA-URI와 연결할 값을 지정합니다.|
 
 
-## Windows 10 장치에 대한 사용자 지정 URI 설정
+## Windows 10 URI 설정
 이 항목에서는 Microsoft Intune **Windows 10 사용자 지정 정책**에서 Windows 10 및 Windows 10 Mobile 장치에 대해 구성할 수 있는 설정을 나열합니다.
 
 Windows 사용자 지정 URI 정책을 사용하려면 모든 장치를 Intune에 등록해야 합니다.
 
-### 정책 URI 설정
+## - 정책
 
 |정책 이름|세부 정보|
 |---------------|------------|-----------|
@@ -272,7 +272,7 @@ Windows 사용자 지정 URI 정책을 사용하려면 모든 장치를 Intune�
 |**Update/DeferUpgradePeriod**<br>(데스크톱 및 모바일)|**설명:** 최대 8개월 동안 기능 업그레이드를 연기하는 정책<br /><br />**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Update/DeferUpgradePeriod<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0**: 즉시 업데이트 적용(기본값)<br>**1**-**8**: 기능 업그레이드를 연기할 개월 수<br /><br />자세한 내용은 다음을 참조하십시오.<br>[Windows 10 서비스 소개](https://technet.microsoft.com/library/mt598226.aspx)<br>[Windows 10 배포에 대한 계획](https://technet.microsoft.com/library/mt574241.aspx)|
 |**Update/PauseDeferrals**<br>(데스크톱 및 모바일)|**설명:** CBB 컴퓨터에서 5주 동안 업데이트 및 업그레이드 수신을 중지하도록 허용합니다. 업데이트에 문제가 있는 경우에 사용해야 합니다.<br /><br />**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Update/PauseDeferrals<br /><br />**데이터 형식:** 정수<br /><br />**허용되는 값:**<br>**0**: 즉시 업데이트 적용(기본값)<br>**1**: 업데이트 및 업그레이드 일시 중지(5주 후에 만료)|
 
-### Windows Defender URI 설정
+## - Windows Defender
 
 |정책 이름|세부 정보|
 |---------------|-----------|
@@ -302,7 +302,7 @@ Windows 사용자 지정 URI 정책을 사용하려면 모든 장치를 Intune�
 |**ExcludedPaths**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Defender/ExcludedPaths<br /><br />**데이터 형식:** 문자열<br /><br />**허용되는 값:**<br /><br />*&lt;세미콜론으로 구분된 경로 목록&gt;*<br /><br />예: **c:\test;c:\test1.exe**<br /><br />**기본값:** 제외되는 경로 없음|
 |**ExcludedProcesses**<br>(데스크톱에만 해당)|**URI 전체 경로:** ./Vendor/MSFT/Policy/Config/Defender/ExcludedProcesses<br /><br />**데이터 형식:** 문자열<br /><br />**허용되는 값:**<br>*&lt;세미콜론으로 구분된 경로 목록&gt;*<br>예: **c:\test.exe;c:\test1.exe**<br>**기본값:** 제외되는 프로세스 없음|
 
-### Edge 브라우저 URI 설정
+## - Edge 브라우저
 
 |정책 이름|세부 정보|
 |---------------|------------|-----------|
@@ -323,6 +323,6 @@ Windows 사용자 지정 URI 정책을 사용하려면 모든 장치를 Intune�
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 

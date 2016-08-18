@@ -13,8 +13,8 @@ ms.assetid: 770aad50-fd7a-4cf1-a793-f95fe47fc3f8
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 76d0d9c620000864a4a554600985ba351c18d359
-ms.openlocfilehash: 067838593f7a222b5949cbfaf20744104030aee6
+ms.sourcegitcommit: 7c244554eb4b6ae5a248b53a7b4b6171807f4bfa
+ms.openlocfilehash: e353391375ce7b54f0be479607349e5618de1c37
 
 
 ---
@@ -42,7 +42,7 @@ iOS, Android 및 Windows Phone을 비롯한 모바일 장치 운영 체제의 �
 |**설명**|Microsoft Intune을 사용하여 등록하는 개인 장치|단일 사용자를 위한 회사 소유 장치|많은 사용자가 공유하는 관리자 계정을 사용하여 관리되는 회사 소유의 장치|많은 사용자가 사용하며 사용자가 지정되지 않은 회사 소유 장치|
 |**장치 사용자**|Owner|할당된 사용자|사용자 고유의 계정 없음|특정 사용자 없음|
 |**등록한 사람**|Owner|관리자|장치 관리자|모든 사용자|
-|**등록을 취소한 사람**|소유자 또는 관리자|관리자|관리자|관리자|
+|**등록을 취소한 사람**|소유자 또는 관리자|플랫폼 |관리자 또는 사용자|관리자 또는 사용자|
 |**다시 설정할 수 있는 사람**|소유자 또는 관리자|관리자|관리자|관리자|
 
 <div class="alert alert-tip">
@@ -80,6 +80,6 @@ Exchange와 함께 온-프레미스 커넥터 또는 서비스 간 커넥터를 
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO2-->
 
 

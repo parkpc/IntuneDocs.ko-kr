@@ -2,7 +2,7 @@
 title: "정책 문제 해결 | Microsoft Intune"
 description: "정책 구성 문제를 해결합니다."
 keywords: 
-author: robstack
+author: robstackmsft
 manager: angrobe
 ms.date: 08/01/2016
 ms.topic: article
@@ -13,18 +13,15 @@ ms.assetid: 99fb6db6-21c5-46cd-980d-50f063ab8ab8
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
-ms.openlocfilehash: 98f15f304d5d372d05abfdd296ddff1ef98dd3eb
+ms.sourcegitcommit: 436d0c40ef317e1d258654d2164e7a1f8c35c5e1
+ms.openlocfilehash: 6bfa9bab46248be802679e70de18ff117171a1fb
 
 
 ---
 
 # Microsoft Intune의 정책 문제 해결
 
-여기에는 Microsoft Intune 정책 구성에서 발생할 수 있는 몇 가지 문제와 이러한 문제에 대한 문제 해결 권장 사항이 있습니다.
-
-이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
-
+Intune을 사용하여 정책을 배포하고 관리하는 데 문제가 있는 경우 여기서 시작하세요. 이 항목에는 솔루션에서 함께 발생할 수 있는 몇 가지 일반적인 문제가 포함되어 있습니다.
 
 ## 정책이 장치에 적용되나요?
 **문제:** 특정 정책이 장치에 적용되는지 명확하지 않거나 장치가 정책과 달리 동작합니다.
@@ -109,6 +106,6 @@ Android MDM에서는 다른 플랫폼에서 허용하는 것처럼 서비스가 
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 

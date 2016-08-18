@@ -3,7 +3,7 @@ title: "Intune 빠른 시작 가이드 | Microsoft Intune"
 description: "Intune 구독 사용을 시작하기 위한 요구 사항 및 필수 구성 요소"
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: e7ecf24c3fa678e68603f0e3523f2694a73e145c
+ms.sourcegitcommit: 13ff2feb5918725306ebee96cdbf8e5212066ddc
+ms.openlocfilehash: c8984d37296fc79eb67b5604ab735b1be47d4e11
 
 
 ---
@@ -26,7 +26,7 @@ ms.openlocfilehash: e7ecf24c3fa678e68603f0e3523f2694a73e145c
 >[!NOTE]
 >이 문서는 Intune을 독립 실행형 서비스로 설정하는 것에 중점을 두고 있습니다. 또는 현재 Microsoft System Center Configuration Manager를 사용하여 컴퓨터와 서버를 관리하는 경우에는 [Configuration Manager를 확장하여 모바일 장치를 관리](https://technet.microsoft.com/library/jj884158.aspx)할 수 있습니다. 하이브리드 MDM(모바일 장치 관리) 배포에서 Intune을 Configuration Manager를 연결하여 이 작업을 수행할 수 있습니다.
 
-이 빠른 시작 가이드의 단계는 [Intune 평가 가이드](/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune)에 있는 단계와 동일한 단계를 많이 공유하고 있습니다. 하지만, 평가가 끝나고 모바일 장치를 관리할 준비가 되면, 몇 가지 추가적인 요구 사항을 처리해야 합니다.
+이 빠른 시작 가이드는 [Intune 평가 가이드](/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune)에 있는 단계와 같은 단계를 많이 공유하고 있습니다. 하지만, 평가가 끝나고 모바일 장치를 관리할 준비가 되면, 몇 가지 추가적인 요구 사항을 처리해야 합니다.
 
 -   온-프레미스 Active Directory 계정을 Intune 및 Azure Active Directory와 동기화합니다.
 
@@ -75,6 +75,6 @@ Intune 빠른 시작 가이드를 시작할 시간입니다.
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO2-->
 
 

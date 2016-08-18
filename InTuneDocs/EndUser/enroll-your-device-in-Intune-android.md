@@ -13,8 +13,8 @@ ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
-ms.openlocfilehash: 8f342183590c1099661a0121c1d99c2aa3aa0ba4
+ms.sourcegitcommit: 46479cfe3d2648eefbaefd0a831af2412b509fce
+ms.openlocfilehash: e920f133aeaf0b0a938e07b4923869318a902d57
 
 
 ---
@@ -91,17 +91,11 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
     ![PIN 또는 암호 입력](./media/and-enroll-6-PIN-native.png)
 
-13.  사용 중인 장치의 형식(네이티브 Android 또는 Samsung Knox)과 일치하는 다음 지침에 따릅니다. 삼성 Knox 장치가 있는지 확인하려면 **설정** &gt; **장치 정보**로 이동합니다. 여기에 나열된 "KNOX 버전"이라는 단어가 보이지 않으면 네이티브 Android 장치가 있어야 합니다.
-
-    -   네이티브 (Samsung Knox가 아닌) 장치: **인증서 이름 지정** 화면에서 **확인**을 탭하여 기본 인증서를 적용합니다.
-
-    ![인증서 지정 화면](./media/and-enroll-7-cert-native.png)
-
-    -   삼성 Knox 장치: 개인 정보 취급 방침에 동의하고 **확인**을 탭합니다.
+13.  Samsung Knox 장치를 사용하는 경우 **확인**을 탭하면 장치가 등록되고 있음을 나타내는 메시지를 확인할 수 있습니다. 기본 Android 장치를 사용하는 경우 화면 아래쪽에서 장치가 등록되고 있음을 확인할 수 있습니다.
 
     ![Samsung KNOX 개인 정보 취급 방침](./media/and-enroll-7-knox-privacy-policy.png)
 
-    Intune에서 장치를 등록하는 것처럼 화면에 다음과 같은 메시지가 표시됩니다.
+    이 화면은 장치가 등록되고 있음을 보여 줍니다.
 
     ![장치 등록 화면](./media/and-enroll-8-device-enrolling.png)
 
@@ -123,6 +117,6 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO2-->
 
 

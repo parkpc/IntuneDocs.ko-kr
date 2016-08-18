@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1f941fad998c6c0e07437c8f476df55325a4741b
-ms.openlocfilehash: dd7bd41188cee812aafc8c439f703fa4abd42858
+ms.sourcegitcommit: f02d8791bbca65a4bfda69e61e9e22c8124c436b
+ms.openlocfilehash: 09fb5dac0276b4da49795539f40dbde15cd69bf5
 
 
 ---
@@ -30,7 +30,7 @@ Intune에 대해 다음 변경 사항을 개발 중입니다. 최종적으로는
 
 ## 앱 관리
 ### iOS 9.3에 대해 숨겨진/표시된 앱
-iOS 9.3 이상을 실행하는 장치의 경우에는 iOS 일반 구성 정책에서 숨겨진/표시된 앱 목록을 사용하여 다음을 수행할 수 있습니다.
+iOS 9.3 이상을 실행하는 감독된 장치의 경우에는 iOS 일반 구성 정책에서 숨겨진/표시된 앱 목록을 사용하여 다음을 수행할 수 있습니다.
 - 사용자로부터 숨길 앱 목록을 지정합니다. 사용자는 이러한 앱을 보거나 시작할 수 없습니다.
 - 사용자가 보고 시작할 수 있는 앱 목록을 지정합니다. 다른 앱은 보거나 시작할 수 없습니다.
 
@@ -50,7 +50,7 @@ iOS 9.3 이상을 실행하는 장치의 경우에는 iOS 일반 구성 정책�
 ### MAM(모바일 응용 프로그램 관리) 정책과 호환되는 새로운 앱
 [iOS](https://itunes.apple.com/app/yammer/id289559439?mt=8) 및 [Android](https://play.google.com/store/apps/details?id=com.yammer.v1)용 Yammer 앱은 장치 등록 여부에 상관없이 [Intune MAM(모바일 응용 프로그램 관리) 정책](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)과 호환됩니다.
 
-MAM과 호환되는 앱 전체 목록은 [Microsoft Intune 응용 프로그램 파트너](https://www.microsoft.com/cloud-platform/microsoft-intune-partners) 사이트를 참조하세요.
+MAM과 호환되는 앱의 전체 목록은 [Microsoft Intune application partners](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners)(Microsoft Intune 응용 프로그램 파트너) 사이트를 참조하세요.
 <!--- TFS 1252335 & 1252336--->
 
 ## 장치 관리
@@ -114,7 +114,7 @@ Intune 알림 규칙은 Intune에서 메일 경고를 보낼 대상자를 정의
 - Intune PDF 뷰어
 - Google Play의 Android용 Intune 이미지 뷰어
 
-Intune 뷰어 앱을 사용하는 대신 새로운 Android용 Microsoft Rights Management 공유 앱(RMS 공유)을 사용하는 것이 좋습니다. 이 앱을 통해 세 개의 별도 앱이 아니라 하나의 앱을 배포하여 Android 장치에서 회사 파일을 안전하게 볼 수 있습니다. RMS 공유 앱에 대해 자세히 알아보세요(설명서 링크 사용).
+Intune 뷰어 앱을 사용하는 대신 새로운 Android용 Microsoft Rights Management 공유 앱(RMS 공유)을 사용하는 것이 좋습니다. 이 앱을 통해 세 개의 별도 앱이 아니라 하나의 앱을 배포하여 Android 장치에서 회사 파일을 안전하게 볼 수 있습니다. [RMS 공유 앱](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)에 대해 자세히 알아보세요.
 <!--- goes in 1608 What's New--->
 
 
@@ -123,6 +123,6 @@ Intune 뷰어 앱을 사용하는 대신 새로운 Android용 Microsoft Rights M
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 

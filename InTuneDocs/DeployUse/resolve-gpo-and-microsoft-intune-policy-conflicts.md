@@ -13,30 +13,30 @@ ms.assetid: e76af5b7-e933-442c-a9d3-3b42c5f5868b
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: 70e5920679149791c4856a1db905e564dc1278bd
+ms.sourcegitcommit: e64c4e077a3d2b75a8c246f097fcf7472d7edac6
+ms.openlocfilehash: 286f159e57820a8c8723004c167ae7296626894c
 
 
 ---
 
 # GPO(그룹 정책 개체) 및 Microsoft Intune 정책 충돌 해결
-Intune은 관리하는 Windows PC에서 설정을 쉽게 관리하도록 지원하는 정책을 사용합니다. 예를 들어 정책을 사용하여 PC의 Windows 방화벽에 대한 설정을 제어할 수 있습니다. 많은 Intune 설정이 Windows 그룹 정책으로 구성할 수 있는 설정과 비슷합니다. 그러나 경우에 따라 두 가지 방법이 서로 충돌할 수 있습니다.
+Intune은 Windows PC에서 설정 관리를 도와주는 정책을 사용합니다. 예를 들어 정책을 사용하여 PC의 Windows 방화벽에 대한 설정을 제어할 수 있습니다. 많은 Intune 설정이 Windows 그룹 정책으로 구성할 수 있는 설정과 비슷합니다. 그러나 경우에 따라 두 가지 방법이 서로 충돌할 수 있습니다.
 
-충돌이 발생하는 경우 PC에서 도메인에 로그온할 수 있는 한 도메인 수준 그룹 정책이 Intune 정책보다 우선합니다. 이런 경우 Intune 정책이 클라이언트 PC에 적용됩니다.
+충돌이 발생하는 경우 PC에서 도메인에 로그인할 수 있는 한 도메인 수준 그룹 정책이 Intune 정책보다 우선합니다. 이런 경우 Intune 정책이 클라이언트 PC에 적용됩니다.
 
 ## 그룹 정책을 사용하는 경우 수행해야 하는 작업
-적용하는 일부 정책이 그룹 정책으로 관리되고 있지 않은지 확인하십시오. 충돌을 방지하기 위해 다음 방법 중 하나 이상을 사용할 수 있습니다.
+적용하는 정책이 그룹 정책으로 관리되고 있지 않은지 확인합니다. 충돌을 방지하기 위해 다음 방법 중 하나 이상을 사용할 수 있습니다.
 
 -   Intune 클라이언트를 설치하기 전에 그룹 정책 설정이 적용되지 않은 Active Directory OU(조직 구성 단위)로 PC를 이동합니다. 또한 Intune에 등록되어 있으며 그룹 정책 설정을 적용하지 않을 PC가 포함된 OU에서 그룹 정책 상속을 차단할 수 있습니다.
 
--   보안 그룹 필터를 사용하여 Intune을 통해 관리되지 않는 PC에만 GPO를 적용하도록 제한할 수 있습니다. 
+-   보안 그룹 필터를 사용하여 Intune을 통해 관리되지 않는 PC에만 GPO를 적용하도록 제한할 수 있습니다.
 
 -   Intune 정책과 충돌하는 그룹 정책 개체를 사용하지 않거나 제거합니다.
 
 Active Directory 및 Windows 그룹 정책에 대해서는 Windows Server 문서를 참조하십시오.
 
 ## Intune 정책과 충돌을 피하기 위해 기존 GPO를 필터링하는 방법
-Intune 정책과 충돌하는 설정이 있는 GPO를 발견한 경우, 보안 그룹 필터를 사용하여 Intune을 통해 관리되지 않는 PC에만 해당 GPO를 적용하도록 제한할 수 있습니다.
+설정이 Intune 정책과 충돌하는 GPO를 식별한 경우, 보안 그룹 필터를 사용하여 Intune을 통해 관리되지 않는 PC에만 해당 GPO가 적용되도록 제한할 수 있습니다.
 
 <!--- ### Use WMI filters
 WMI filters selectively apply GPOs to computers that satisfy the conditions of a query. To apply a WMI filter, deploy a WMI class instance to all PCs in the enterprise before you enroll any PCs in the Intune service.
@@ -102,9 +102,9 @@ WMI filters selectively apply GPOs to computers that satisfy the conditions of a
 For more information about how to apply WMI filters in Group Policy, see the blog post [Security Filtering, WMI Filtering, and Item-level Targeting in Group Policy Preferences](http://go.microsoft.com/fwlink/?LinkId=177883). --->
 
 
-그룹 정책을 사용하여, 선택된 GPO에 대한 그룹 정책 관리 콘솔의 **보안 필터링** 영역에 지정된 보안 그룹에만 GPO를 적용할 수 있습니다. 기본적으로 GPO는 **인증된 사용자**에 적용됩니다.
+선택한 GPO에 대한 그룹 정책 관리 콘솔의 **보안 필터링** 영역에 지정된 보안 그룹에만 GPO를 적용할 수 있습니다. 기본적으로 GPO는 *인증된 사용자*에 적용됩니다.
 
--   **Active Directory 사용자 및 컴퓨터** 스냅인에서 Intune을 사용하여 관리하지 않을 컴퓨터와 사용자 계정을 포함하는 새 보안 그룹을 만듭니다. 예를 들어 이 그룹의 이름을 **Microsoft Intune에 포함되지 않음**으로 지정할 수 있습니다.
+-   **Active Directory 사용자 및 컴퓨터** 스냅인에서 Intune으로 관리하지 않으려는 컴퓨터 및 사용자 계정을 포함하는 새 보안 그룹을 만듭니다. 예를 들어 이 그룹의 이름을 *Microsoft Intune에 포함되지 않음*으로 지정할 수 있습니다.
 
 -   그룹 정책 관리 콘솔에서 선택한 GPO에 해당하는 **위임** 탭에서 새 보안 그룹을 마우스 오른쪽 단추로 클릭하여 보안 그룹의 사용자 및 컴퓨터 모두에 적절한 **읽기** 및 **그룹 정책 적용** 권한을 위임합니다. **그룹 정책 적용** 권한은 **고급** 대화 상자에서 지정할 수 있습니다.
 
@@ -117,6 +117,6 @@ For more information about how to apply WMI filters in Group Policy, see the blo
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO2-->
 
 
