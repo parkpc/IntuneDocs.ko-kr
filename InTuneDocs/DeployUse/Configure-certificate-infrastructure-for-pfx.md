@@ -3,7 +3,7 @@ title: "PFX の証明書インフラストラクチャを構成する | Microsof
 description: ".PFX 証明書プロファイルを作成および展開します。"
 keywords: 
 author: nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 05/16/2016
 ms.topic: article
 ms.prod: 
@@ -13,13 +13,13 @@ ms.assetid: 2c543a02-44a5-4964-8000-a45e3bf2cc69
 ms.reviewer: vinaybha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: f654dba31198115851feeeec90f04b8ad767e549
+ms.sourcegitcommit: f400f8b2ffd85b6328eceb74b97de1e67203ee6b
+ms.openlocfilehash: 7376713410e802ffbee6238e7242e6d8ecc204df
 
 
 
 ---
-# 証明書インフラストラクチャを構成する
+# PFX の証明書インフラストラクチャを構成する
 このトピックでは、.PFX 証明書プロファイルを作成して展開するために必要なものについて説明します。
 
 組織で証明書ベースの認証を行うには、エンタープライズ証明機関が必要です。
@@ -158,6 +158,6 @@ ms.openlocfilehash: f654dba31198115851feeeec90f04b8ad767e549
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO3-->
 
 
