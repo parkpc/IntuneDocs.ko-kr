@@ -13,8 +13,8 @@ ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
 ms.reviewer: lacranda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d8e524b267622f91ed0c2ed854f931299f316312
-ms.openlocfilehash: e42f49558ea9744b59693be873aa5130c7e1a0c3
+ms.sourcegitcommit: 08d4352ef88a266d05047d386247815f3765f552
+ms.openlocfilehash: 947a7ba62d817e6b02d8a6bb0a0d0bddf53e7d4e
 
 
 ---
@@ -44,14 +44,14 @@ Android 모바일 장치에서는 사용자가 Google Play에서 제공되는 �
     사용자는 장치를 등록하는 방법과 장치가 관리될 때 발생하는 상황에 대해 알고 있어야 합니다. [Microsoft Intune 사용 방법에 대해 최종 사용자에게 알릴 내용](what-to-tell-your-end-users-about-using-microsoft-intune.md)
 
 4.  사용자는 장치를 등록하는 방법과 장치가 관리될 때 발생하는 상황에 대해 알고 있어야 합니다.
-        - [Microsoft Intune 사용 방법에 대해 최종 사용자에게 알릴 내용](what-to-tell-your-end-users-about-using-microsoft-intune.md)
-        - [Windows 장치용 최종 사용자 가이드](../enduser/using-your-android-device-with-intune.md)
+  - [Microsoft Intune 사용 방법에 대해 최종 사용자에게 알릴 내용](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+  - [Windows 장치용 최종 사용자 가이드](../enduser/using-your-android-device-with-intune.md)
 
 ### 참고 항목
 [Microsoft Intune에 장치를 등록하도록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 
