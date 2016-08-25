@@ -13,8 +13,8 @@ ms.assetid: ab46be6c-ab73-4c99-8492-66d1dd418293
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bc5ff023b5d29ded999c7e49c5e7c2aee8a23bba
-ms.openlocfilehash: e71cc1e8e2cb0f46507ff63d962f3d477acfb72e
+ms.sourcegitcommit: 65d2c9c1f5d81dae33422bd4bf7c0e2e21bb96e4
+ms.openlocfilehash: 13b8bd8c3269be60d66c4e79551f662205afcea0
 
 
 ---
@@ -233,6 +233,77 @@ iOS 7.1 以降を実行中のデバイスで、監視モードになっている
 |**ユーザーが構成プロファイルと証明書をインストールすることを許可する**|ユーザーが構成プロファイルと証明書をインストールすることを許可します。|
 |**デバイスでメッセージ アプリを使用することを許可する**|メッセージ アプリを使用してテキスト メッセージを送信することを許可します。|
 
+### アプリの表示または非表示
+
+iOS 9.3 以降を実行する管理対象デバイスで以下を制御するには、**[Hidden and shown apps list]** (非表示アプリと表示アプリの一覧) を使用します。
+
+- ユーザーに対して表示されないアプリの一覧を指定します。 ユーザーはこのようなアプリを表示または起動できません。
+- ユーザーが表示および起動できるアプリの一覧を指定します。 他のアプリは表示または起動できません。
+
+
+#### 非表示アプリまたは表示アプリの一覧を作成する方法
+
+次の設定を指定します。
+
+|設定の名前|説明|
+|-|-|
+|**Hidden and shown apps list (非表示アプリと表示アプリの一覧)**|非表示アプリまたは表示アプリの一覧を作成する場合は、この設定を有効にします。|
+|**Hide the listed apps from users (一覧のアプリをユーザーに表示しない)**|ユーザーに表示しないアプリの一覧を作成するには、このオプションを選択します。|
+|**Show only the listed apps to users (一覧のアプリのみをユーザーに表示する)**|ユーザーに表示するアプリの一覧を作成するには、このオプションを選択します。<br>この一覧を作成すると、iOS の**設定**アプリと **Phone** アプリ (iPhone 用) を除く他のすべてのアプリが非表示になります。<br>また、ポータル サイトと、展開して Intune で管理するすべてのアプリを、一覧に追加する必要があります。|
+|**追加**|選択した一覧にアプリを追加します。<br>非表示一覧の場合、非表示にする各アプリの **[名前]**、**[発行元]**、および **[アプリ URL] または [バンドル ID]** を指定する必要があります。<br>表示一覧の場合は、**[管理対象アプリを選択します]** を選択して Intune で管理するアプリの一覧から選択するか、[ストア アプリを選択します] を選択して表示する各アプリの **[名前]**、**[発行元]**、および **[アプリ URL] または [バンドル ID]** を指定します。|
+|**アプリをインポートする**|コンマ区切り値ファイルで指定したアプリの一覧をインポートします。 ファイルの形式、アプリケーション名、発行者、アプリの URL を使用します。|
+|**編集**|選択したアプリの名前、発行者、および URL を編集します。|
+|**削除**|選択したアプリを一覧から削除します。|
+
+#### 組み込み iOS アプリのアプリ情報
+
+この一覧の情報を使用して、表示または非表示にする組み込み iOS アプリの名前、発行元、およびバンドル ID を識別します。 一覧のすべてのアプリを表示または非表示にする場合は、次のデータをコピーして拡張子 **.csv** のテキスト ファイルに貼り付けた後、**[アプリのインポート]** オプションを使用してすべてのアプリを一度にインポートできます。
+
+```
+App Store,Apple,com.apple.AppStore
+Calculator,Apple,com.apple.calculator
+Calendar,Apple,com.apple.mobilecal
+Camera,Apple,com.apple.camera
+Clock,Apple,com.apple.mobiletimer
+Compass,Apple,com.apple.compass
+Contacts,Apple,com.apple.MobileAddressBook
+FaceTime,Apple,com.apple.facetime
+Find Friends,Apple,com.apple.mobileme.fmf1
+Find iPhone,Apple,com.apple.mobileme.fmip1
+Game Center,Apple,com.apple.gamecenter
+GarageBand,Apple,com.apple.mobilegarageband
+Health,Apple,com.apple.Health
+iBooks,Apple,com.apple.iBooks
+iTunes Store,Apple,com.apple.MobileStore
+iTunes U,Apple,com.apple.itunesu
+Keynote,Apple,com.apple.Keynote
+Mail,Apple,com.apple.mobilemail
+Maps,Apple,com.apple.Maps
+Messages,Apple,com.apple.MobileSMS
+Music,Apple,com.apple.Music
+News,Apple,com.apple.news
+Notes,Apple,com.apple.mobilenotes
+Numbers,Apple,com.apple.Numbers
+Pages,Apple,com.apple.Pages
+Photo Booth,Apple,com.apple.Photo-Booth
+Photos,Apple,com.apple.mobileslideshow
+Podcasts,Apple,com.apple.podcasts
+Reminders,Apple,com.apple.reminders
+Safari,Apple,com.apple.mobilesafari
+Settings,Apple,com.apple.Preferences
+Stocks,Apple,com.apple.stocks
+Tips,Apple,com.apple.tips
+Videos,Apple,com.apple.videos
+VoiceMemos,Apple,com.apple.VoiceMemos
+Wallet,Apple,com.apple.Passbook
+Watch,Apple,com.apple.Bridge
+Weather,Apple,com.apple.weather
+
+
+```
+
+
+
 
 ## カスタム ポリシー設定
 
@@ -266,6 +337,6 @@ Microsoft Intune の **iOS カスタム ポリシー**を使用して、[Apple C
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO3-->
 
 

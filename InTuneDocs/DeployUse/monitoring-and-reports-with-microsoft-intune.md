@@ -1,9 +1,9 @@
 ---
 title: "監視とレポート | Microsoft Intune"
-description: "組織内のデバイスの状態を監視するために監視とレポートを使用します。"
+description: "組織内のデバイスの状態を監視するために Intune の監視とレポートを使用します。"
 keywords: 
 author: Nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
@@ -13,25 +13,24 @@ ms.assetid: 0f7dc155-cb8e-477b-ba02-2623194a9575
 ms.reviewer: pbala
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: 8b6bb42ecdeb5a35b1a91310e31300754d40ef09
+ms.sourcegitcommit: 79e7113b2b4d5f0d049f22b05db0a8f24e4de570
+ms.openlocfilehash: c1a810bd8c6df05ccc35efbbfd4d9cfdc8fcd614
 
 
 ---
 
 # Microsoft Intune を使用した監視とレポート
-IT 管理者は、組織内のデバイスの状態を監視する必要があります。 Microsoft Intune では、2 つの方法で、そうしたデバイスだけでなく、ソフトウェア ライセンスの状態とデバイスに影響する操作 (デバイスのワイプなど) も監視できます。
+Intune には、IT 管理者が組織のデバイスを監視する 2 つの方法が用意されています。 監視には、ソフトウェア ライセンスおよびデバイスのワイプなどのデバイスに影響する操作の状態が含まれます。
 
--   **[レポート](understand-microsoft-intune-operations-by-using-reports.md)**は、Intune によって管理されているデバイスの状態 (ソフトウェアの更新状態、インストールされているソフトウェア、証明書のコンプライアンスなど) を監視するのに役立ちます。 
-     これらのレポートでは、デバイスとコンピューターによって収集されたハードウェアとソフトウェアのインベントリを確認することもできます。
+-   **[レポート](../deploy-use/understand-microsoft-intune-operations-by-using-reports.md)**を使うと、Intune によって管理されるデバイスの状態を監視できます。 これには、ソフトウェア更新状態、インストールされているソフトウェアのインベントリ、および証明書のコンプライアンスが含まれます。
+     Intune のレポートでは、すべてのデバイスとコンピューターのハードウェア インベントリも表示できます。
 
--   **[アラート](get-notified-by-alerts.md)**は、Intune によって管理されているデバイスの正常性 (エンドポイントの保護の状態と警告、マルウェアの警告の通知、ディスク領域やネットワーク接続に関連する警告など) を監視するのに役立ちます。
+-   **[アラート](../deploy-use/get-notified-by-alerts.md)**を使うと、Intune によって管理されるデバイスのヘルスを監視できます。 これには、Endpoint Protection の状態とマルウェアの警告、および制限のあるディスク領域やネットワーク接続に関連する警告が含まれます。
 
--   Intune によって管理されているデバイスとコンピューターは、プロパティとインストールされているソフトウェアについて詳しい情報を返します。  Intune には、このデータを確認して表示するツールおよびレポートがあります。 詳細については、「[Microsoft Intune でインベントリを使用してデバイスを把握する](understand-your-devices-with-inventory-in-microsoft-intune.md)」を参照してください。
-
-
+Intune によって管理されているデバイスとコンピューターは、プロパティとインストールされているソフトウェアについて詳しい情報を返します。 Intune には、情報を確認し、表示するためのツールとレポートがあります。 詳細については、「[Microsoft Intune でインベントリを使用してデバイスを把握する](../deploy-use/understand-your-devices-with-inventory-in-microsoft-intune.md)」を参照してください。
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO3-->
 
 

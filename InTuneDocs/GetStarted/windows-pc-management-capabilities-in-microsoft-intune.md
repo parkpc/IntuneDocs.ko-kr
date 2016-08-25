@@ -13,8 +13,8 @@ ms.assetid: 77fa5c66-a87c-47df-964c-800eea509b33
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 49a236359692a5bbccf9ee0bb263094434049a91
-ms.openlocfilehash: f5ade985900e2387b19b4ed2786f22d8a216d8d8
+ms.sourcegitcommit: a6caef9e0f4d6235ecf1a89c1765d6c8e6ce1a7b
+ms.openlocfilehash: e5e3833a38434d4fe55cae554fc49f567b606ad8
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: f5ade985900e2387b19b4ed2786f22d8a216d8d8
 # Windows PC 管理機能 (Microsoft Intune PC クライアント使用)
 ほとんどのシナリオでは、デバイスを Microsoft Intune に登録します。そうすることで、Intune PC クライアントよりも多くの機能を利用できます。 ただし PC の管理には、Intune PC クライアントを使用することもできます。Intune PC クライアントでは、次の機能が利用できます。
 
--   **ソフトウェア更新プログラムの管理。**PC を最新の状態に保ち、更新プログラムを適用する時間を管理できます。
+-   **ソフトウェア更新プログラムの管理。**PC を最新の状態に保ち、更新プログラムを適用する時間を決定できます。
 
 -   **Windows ファイアウォールのポリシー。**この機能により、会社で使用する PC に、非アクティブまたは適切でない構成の Windows ファイアウォールが存在しないようにします。
 
@@ -37,7 +37,7 @@ ms.openlocfilehash: f5ade985900e2387b19b4ed2786f22d8a216d8d8
 Intune は、最大 7,000 台の Windows デバイスへの PC クライアント ソフトウェアのインストールをサポートしています。
 
 ## オペレーティング システムの要件
-Intune では、次の Windows バージョンを実行する PC を管理できます (x86 と x64 のいずれも可)。
+Intune では、次の Windows バージョンを実行する PC を管理できます (32 ビットと 64 ビットの両方)。
 
 
 -   **Windows Vista** - Business、Enterprise、および Ultimate バージョン
@@ -74,6 +74,6 @@ Intune では、次の Windows バージョンを実行する PC を管理でき
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO3-->
 
 

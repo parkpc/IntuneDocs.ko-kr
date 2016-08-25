@@ -13,15 +13,15 @@ ms.assetid: 74643d1d-4fd9-4cff-ac79-1a42281d2f76
 ms.reviewer: tycast
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
-ms.openlocfilehash: 026bb4c8bf90bbe1af93513df46f0ec21f82509b
+ms.sourcegitcommit: 3cc73e43f09709b71c78a81c73b044d92d4ef401
+ms.openlocfilehash: 77977ea32ea37a54e9d67638bb0e4c3bb6841fb3
 
 
 ---
 
 # アプリごとの VPN 構成のパッケージ ファミリー名 (PFN) を検索する
 
-アプリごとの VPN を構成できるように PFN を検索する方法は 2 つあります。
+アプリごとの VPN をセットアップできるように PFN を検索する方法は 2 つあります。
 
 ## Windows 10 コンピューターにインストールされているアプリの PFN を検索する
 
@@ -32,7 +32,8 @@ Get-AppxPackage の構文:
 ` Parameter Set: __AllParameterSets`
 ` Get-AppxPackage [[-Name] <String> ] [[-Publisher] <String> ] [-AllUsers] [-User <String> ] [ <CommonParameters>]`
 
-> 注: PFN を取得するには、状況に応じて管理者として PowerShell を実行する必要があります。
+> [!NOTE]
+PFN を取得するには、状況に応じて管理者として PowerShell を実行する必要があります。
 
 たとえば、コンピューターにインストールされているすべてのユニバーサル アプリに関する情報を取得するには、`Get-AppxPackage` を使用します。
 
@@ -69,11 +70,10 @@ OneNote について取得される情報の例を次に示します。
 
 1.  https://www.microsoft.com/en-us/store/apps に移動します。
 2.  検索バーにアプリ名を入力します。 この例では、OneNote を検索します。
-3.  アプリのリンクをクリックします。 アクセスする URL には、末尾に一連の文字があります。 この例では、次のような URL です。
-`https://www.microsoft.com/en-us/store/apps/onenote/9wzdncrfhvjl`
-4.  別のタブに URL `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata` を貼り付け、`<app id>` の部分を、https://www.microsoft.com/en-us/store/apps から取得したアプリ ID (手順 3 の URL の末尾にある一連の文字) で置き換えます。 この例の OneNote の場合、`https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata` を貼り付けます。
+3.  アプリのリンクを選びます。 URL の末尾に一連の文字があることに注意してください。 この例では、URL は `https://www.microsoft.com/en-us/store/apps/onenote/9wzdncrfhvjl` のようになります。
+4.  別のタブに URL "`https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`" を貼り付けます。 `<app id>` の部分を、https://www.microsoft.com/en-us/store/apps から取得したアプリ ID (手順 3 の URL の末尾にある一連の文字) で置き換えます。 この OneNote の例の場合、`https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata` を貼り付けます。
 
-Edge に目的の情報が表示されます。Internet Explorer で **[開く]** をクリックして情報を確認します。 PFN 値は最初の行に表示されます。 この例の結果は次のようになります。
+Microsoft Edge に目的の情報が表示されます。Internet Explorer で **[開く]** を選んで情報を確認します。 PFN 値は最初の行に表示されます。 この例の結果は次のようになります。
 
 
 `{`
@@ -85,6 +85,6 @@ Edge に目的の情報が表示されます。Internet Explorer で **[開く]*
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO3-->
 
 

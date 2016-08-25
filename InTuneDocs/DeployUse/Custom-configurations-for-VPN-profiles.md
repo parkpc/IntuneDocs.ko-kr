@@ -3,18 +3,18 @@ title: "VPN プロファイルのカスタムの構成 |Microsoft Intune"
 description: "Intune でカスタム構成を使用して VPN プロファイルを作成します。"
 keywords: 
 author: Nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4c0bd439-3b58-420b-9a9a-282886986786
-ms.reviewer: jeffgilb
+ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: b61a4c90cfed9922df151a6c1ac93e276db18623
+ms.sourcegitcommit: 374a56612b5c2a4dfd65d920307d5a4deb709b9b
+ms.openlocfilehash: e96daf7f10db82adf0f4f92412128fabbe652d51
 
 
 ---
@@ -24,25 +24,25 @@ ms.openlocfilehash: b61a4c90cfed9922df151a6c1ac93e276db18623
 ## カスタム構成を作成する
 Intune でカスタム構成を使用して VPN プロファイルを作成できます。 カスタム構成を使用するには:
 
-   1. Intune 管理コンソールで、**[ポリシー]** -> **[ポリシーの追加]** -> *<Expand platform>* -> **[カスタム構成]** -> **[ポリシーの作成]** の順に選択します。
+   1. Intune 管理コンソールで、**[ポリシー]** > **[ポリシーの追加]** > *<Expand platform>* > **[カスタム構成]** > **[ポリシーの作成]** の順に選択します。
    2. ポリシーの名前を指定します。
-   3. 各 URI 設定で、**[追加]** をクリックし、必要な情報を指定します。 次に例を示します。
+   3. 各 URI の設定で、**[追加]** を選択し、必要な情報を指定します。 次に例を示します。
 
    ![VPN プロファイルのカスタム構成ダイアログ ボックス](./media/Intune_Add_VPN_URI.png)
 
-   4.  すべての URI 設定を入力したら、**[ポリシーの保存]** をクリックした後、ポリシーを展開します。
+   4.  すべての URI 設定を入力したら、**[ポリシーの保存]** を選択した後、ポリシーを展開します。
 
 ## 構成ポリシーを展開する
 
-1.   **[ポリシー]** ワークスペースで、展開するポリシーを選択し、 **[展開の管理]**をクリックします。
+1.  **[ポリシー]** ワークスペースで、展開するポリシーを選び、**[展開の管理]** をクリックします。
 
 2.   **[展開の管理]** ダイアログ ボックスで、次の操作を実行します。
 
-    -   **ポリシーを展開するには**、ポリシーを展開する対象となる 1 つ以上のグループを選択して、**[追加]** &gt; **[OK]** をクリックします。
+    -   **ポリシーを展開するには** - ポリシーを展開する対象となる 1 つ以上のグループを選び、**[追加]** &gt; **[OK]** の順にクリックします。
 
-    -   **ポリシーを展開せずにダイアログ ボックスを閉じるには**、**[キャンセル]** をクリックします。
+    -   **ポリシーを展開せずにダイアログ ボックスを閉じるには**、**[キャンセル]** を選択します。
 
-展開済みポリシーを選択すると、ポリシー一覧の下部に展開についての詳細が表示されます。
+展開済みポリシーを選ぶと、ポリシー一覧の下部に展開についての詳細が表示されます。
 
 ##カスタム VPN プロファイル構成の URI 設定の例
 Contoso という架空の会社で VPN のカスタム構成を作成するための URI 値のエントリの例を次に示します。 各エントリのデータ型などの詳細については、「[VPNv2 CSP](https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776.aspx)」を参照してください。
@@ -83,22 +83,22 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 
 **./Vendor/MSFT/VPNv2/ContosoVPN/TrafficFilterList/1/App/Id** Microsoft.MicrosoftEdge_8wekyb3d8bbwe
 
-これらの設定の使用方法についてのご質問または設定がどのように機能するかの詳細については、次のCSP のドキュメントを参照してください。https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776(v=vs.85).aspx
+これらの設定の使用方法についてのご質問または設定がどのように機能するかの詳細については、次の構成サービス プロバイダー (CSP) のドキュメントを参照してください。https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776(v=vs.85).aspx
 
 ## PulseSecure での Android のアプリごとの VPN 用の URI 設定
-### パッケージ リスト用の カスタム URI 
+### パッケージ リスト用のカスタム URI
 -  データ型 = 文字列
--  OMA-URI = ./Vendor/MSFT/VPN/Profile/<Name>/PackageList 
+-  OMA-URI = ./Vendor/MSFT/VPN/Profile/<Name>/PackageList
 -  値 = 区切り記号で区切られたパッケージ リスト
    - 区切り記号: セミコロン (;)、コロン (:)、コンマ (,)、パイプ (|)
 
-例: 
+例:
 - com.android.chrome
 - com.android.chrome;com.android.browser
 
 ### モード用のカスタム URI (省略可能)
 - データ型 = 文字列
-- OMA-URI = ./Vendor/MSFT/VPN/Profile/NAME/Mode 
+- OMA-URI = ./Vendor/MSFT/VPN/Profile/NAME/Mode
 
 > 注
 > - カスタム プロファイルに割り当てた*名前*を使用します
@@ -112,6 +112,6 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO3-->
 
 

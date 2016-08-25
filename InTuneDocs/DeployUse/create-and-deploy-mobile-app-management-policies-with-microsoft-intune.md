@@ -13,8 +13,8 @@ ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 1782d200ed26473414fbc40f554c84cb5d017d44
+ms.sourcegitcommit: 74d9c9843fd6119095c9670a76afd26443bcc796
+ms.openlocfilehash: dab86ce2210c1f0cec81e402d730a6b996db64fc
 
 
 ---
@@ -28,12 +28,16 @@ ms.openlocfilehash: 1782d200ed26473414fbc40f554c84cb5d017d44
 - MDM ソリューション (BYOD) で管理されないデバイス
 
 >[!IMPORTANT]
+現在 **Intune 管理コンソール**を使用してデバイスを管理している場合は、次のことに注意してください。
 
-> 現在 **Intune 管理コンソール**を使用してデバイスを管理している場合は、Intune に登録済みのデバイスのアプリをサポートする MAM ポリシーを [Intune 管理コンソール](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)を使用して作成できます。
-Intune 管理コンソールで作成した MAM ポリシーを Azure ポータルにインポートすることはできません。  Azure ポータルで MAM ポリシーを作成し直す必要があります。
+> * [Intune 管理コンソール](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)を使用して Intune に登録したデバイスのアプリをサポートする MAM ポリシーを作成できます。
+> * Intune 管理コンソールで作成した MAM ポリシーを Azure ポータルにインポートすることはできません。  Azure ポータルで MAM ポリシーを作成し直す必要があります。
 
+> * Intune 管理コンソールでは、MAM ポリシー設定の一部が表示されない可能性があります。 Azure ポータルは MAM ポリシーを作成するための新しい管理コンソールです。
 
-> Intune 管理コンソールでは、MAM ポリシー設定の一部が表示されない可能性があります。 Azure ポータルは MAM ポリシーを作成するための新しい管理コンソールです。 Intune 管理コンソールと Azure ポータルの両方で MAM ポリシーを作成した場合、Azure ポータルのポリシーがアプリに適用され、ユーザーに展開されます。
+> * 管理対象アプリを展開するには、Intune 管理コンソールで MAM ポリシーを作成する必要があります。 この場合、Intune 管理コンソールと Azure ポータルの両方で MAM ポリシーを作成できます。Intune 管理コンソールはユーザーが管理対象アプリを展開できることを確認します。Azure ポータルはすべての MAM ポリシー設定を備えた新しい管理コンソールです。
+
+> * Intune 管理コンソールと Azure ポータルの両方で MAM ポリシーを作成した場合は、Azure ポータルで作成されたポリシーがアプリに適用されます。
 
 Android および iOS プラットフォームでサポートされているポリシー設定の一覧を表示するには、次のいずれかを選択します。
 
@@ -165,6 +169,6 @@ IOS と Android 用のポリシー設定の完全な一覧を表示するには�
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO3-->
 
 
