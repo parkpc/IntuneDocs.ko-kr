@@ -13,8 +13,8 @@ ms.assetid: 77fa5c66-a87c-47df-964c-800eea509b33
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 49a236359692a5bbccf9ee0bb263094434049a91
-ms.openlocfilehash: f5ade985900e2387b19b4ed2786f22d8a216d8d8
+ms.sourcegitcommit: a6caef9e0f4d6235ecf1a89c1765d6c8e6ce1a7b
+ms.openlocfilehash: e5e3833a38434d4fe55cae554fc49f567b606ad8
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: f5ade985900e2387b19b4ed2786f22d8a216d8d8
 # Windows PC 관리 기능(Microsoft Intune PC 클라이언트를 사용한)
 대부분의 시나리오에서, Microsoft Intune을 통해 장치를 등록하며, 이렇게 하면 Intune PC 클라이언트보다 훨씬 더 많은 기능이 제공됩니다. 하지만, Intune PC 클라이언트를 사용하여 PC를 관리할 수도 있으며, 다음과 같은 기능이 제공됩니다.
 
--   **소프트웨어 업데이트 관리** - PC를 최신 상태로 유지하고 업데이트 적용 시기를 관리할 수 있습니다.
+-   **소프트웨어 업데이트 관리** - PC를 최신 상태로 유지하고 업데이트 적용 시기를 결정할 수 있습니다.
 
 -   **Windows 방화벽 정책** - 이 정책을 통해 회사에서 사용하는 PC 중에 Windows 방화벽이 비활성화되거나 부적절하게 구성된 PC가 없는지를 확인할 수 있습니다.
 
@@ -37,7 +37,7 @@ ms.openlocfilehash: f5ade985900e2387b19b4ed2786f22d8a216d8d8
 Intune에서는 최대 7,000대의 Windows 장치에서 PC 클라이언트 소프트웨어 설치하도록 지원합니다.
 
 ## 운영 체제 요구 사항
-Intune은 다음 Windows 버전(x86 및 x64)을 실행하는 PC를 관리할 수 있습니다.
+Intune은 다음 Windows 버전(32비트 및 64비트)을 실행하는 PC를 관리할 수 있습니다.
 
 
 -   **Windows Vista** - Business, Enterprise 및 Ultimate 버전
@@ -74,6 +74,6 @@ Intune은 다음 Windows 버전(x86 및 x64)을 실행하는 PC를 관리할 수
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO3-->
 
 

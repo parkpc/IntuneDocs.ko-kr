@@ -13,21 +13,21 @@ ms.assetid: d8f246d4-0d86-4c8b-a1bf-9977985506d8
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 7e038f489399cce2c73eabbef265c7be4be5c895
+ms.sourcegitcommit: 711e650086d7528f26d9ba7b447ecb0185faff23
+ms.openlocfilehash: 8658df1fb9932fb2cab984a13557aad684569df5
 
 
 ---
 
 # Microsoft Intune에서 장치 규정 준수 정책 배포 및 모니터링
 ## 준수 정책 배포
-조직에서 하나 이상의 사용자 또는 장치 그룹에 [만든](create-a-device-compliance-policy-in-microsoft-intune.md) 준수 정책을 배포합니다.
+[만든](create-a-device-compliance-policy-in-microsoft-intune.md) 준수 정책을 조직에서 하나 이상의 사용자에게 배포합니다. 준수 정책을 사용자에게 배포하면 사용자 장치의 준수가 확인됩니다.
 
 1.  **정책** 작업 영역에서 배포할 정책을 선택한 다음 **배포 관리**를 선택합니다.
 ![맨 위에 있는 배포 관리 메뉴 옵션을 표시하는 규정 준수 정책 페이지의 스크린 샷](./media/intune-sa-3c-deploy-compliance-policy2.png)
 
 2.  **배포 관리** 대화 상자에서 정책을 배포하려는 그룹을 하나 이상 선택하고 **추가 > 확인**을 선택합니다.
-![관리 배포 대화 상자 스크린샷](./media/intune-sa-3d-deploy-compliance-policy3-Manage.png) 사용자 및/또는 장치에 규정 준수 정책을 배포할 수 있습니다. 이미 만들어 Intune에 동기화한 Active Directory 그룹을 사용하거나, Intune 콘솔에서 이러한 그룹을 수동으로 만듭니다. 정책을 배포하는 방법에 대해 자세히 알아보려면 [구성 정책 배포](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)를 참조하세요.
+![관리 배포 대화 상자 스크린샷](./media/intune-sa-3d-deploy-compliance-policy3-Manage.png) 사용자에게 규정 준수 정책을 배포할 수 있습니다. 이미 만들어 Intune에 동기화한 Active Directory 그룹을 사용하거나, Intune 콘솔에서 이러한 그룹을 수동으로 만듭니다. 정책을 배포하는 방법에 대해 자세히 알아보려면 [구성 정책 배포](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)를 참조하세요.
 
 **정책** 작업 영역의 **개요** 페이지에 있는 상태 요약 및 경고는 주의가 필요한 정책 문제를 식별합니다. 또한 상태 요약은 **대시보드** 작업 영역에 표시됩니다.
 
@@ -72,6 +72,6 @@ ms.openlocfilehash: 7e038f489399cce2c73eabbef265c7be4be5c895
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO3-->
 
 

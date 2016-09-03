@@ -3,18 +3,18 @@ title: "지원을 받는 방법 | Microsoft Intune"
 description: "유료 및 평가판 구독 둘 다에 대해 온라인과 전화 지원이 제공됩니다."
 keywords: 
 author: Nbigman
-manager: jeffgilb
+manager: angrobe
 ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4682b6b6-c9ef-483e-a6de-b8830cb98b63
-ms.reviewer: jeffgilb
+ms.reviewer: cacamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: c464f0ff5d36e2bc4fb03ae8cfa6ac38580f9213
+ms.sourcegitcommit: f400f8b2ffd85b6328eceb74b97de1e67203ee6b
+ms.openlocfilehash: 3342ee86179348dbff880cb5884bf2975d26b50d
 
 
 ---
@@ -25,6 +25,11 @@ ms.openlocfilehash: c464f0ff5d36e2bc4fb03ae8cfa6ac38580f9213
 이 항목에서는 서비스 요청을 열거나 다양한 언어로 전화 지원을 요청하는 방법을 알려줍니다.
 
 Intune 관련 문제를 자체적으로 해결하려는 경우 [Microsoft Intune에 대한 일반적인 문제 해결 팁](general-troubleshooting-tips-for-microsoft-intune.md) 또는 이 항목의 **참고 항목** 섹션에 나열된 특정 문제에 대한 문제 해결 항목을 참조하세요.
+
+>[!NOTE]
+>
+>프리미어 고객은 [프리미어 지원 페이지](https://support.microsoft.com/en-us/premier/contacts)에서 Intune 지원 티켓을 열 수 있습니다.
+
 ## 온라인 서비스 요청 만들기
 
 1.  Intune 자격 증명을 사용하여 [Office 365 관리 센터](https://portal.office.com/admin/default.aspx#Overview_SupportPage_AltUSupportPage)에 로그인합니다.
@@ -140,6 +145,6 @@ Microsoft 지원의 역할은 다음과 같습니다.
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO3-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: ab46be6c-ab73-4c99-8492-66d1dd418293
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bc5ff023b5d29ded999c7e49c5e7c2aee8a23bba
-ms.openlocfilehash: e71cc1e8e2cb0f46507ff63d962f3d477acfb72e
+ms.sourcegitcommit: 65d2c9c1f5d81dae33422bd4bf7c0e2e21bb96e4
+ms.openlocfilehash: 13b8bd8c3269be60d66c4e79551f662205afcea0
 
 
 ---
@@ -233,6 +233,77 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**사용자가 구성 프로필 및 인증서를 설치하도록 허용**|사용자가 구성 프로필 및 인증서를 설치하도록 허용합니다.|
 |**디바이스에서 메시지 앱 사용 허용**|메시지 앱을 사용하여 문자 메시지를 보낼 수 있습니다.|
 
+### 앱 표시 또는 숨기기
+
+**숨겨진/표시된 앱 목록**을 사용하여 iOS 9.3 이상을 실행하는 감독된 장치에서 다음을 제어합니다.
+
+- 사용자로부터 숨길 앱 목록을 지정합니다. 사용자는 이러한 앱을 보거나 시작할 수 없습니다.
+- 사용자가 보고 시작할 수 있는 앱 목록을 지정합니다. 다른 앱은 보거나 시작할 수 없습니다.
+
+
+#### 숨겨지거나 표시된 앱 목록을 만드는 방법
+
+다음 설정을 지정합니다.
+
+|설정 이름|세부 정보|
+|-|-|
+|**숨겨진/표시된 앱 목록**|숨겨지거나 표시된 앱 목록을 만들 경우 이 설정을 사용하도록 설정합니다.|
+|**사용자에게 나열된 앱 숨기기**|사용자에게 숨길 앱 목록을 만들려면 이 옵션을 선택합니다.|
+|**사용자에게 나열된 앱만 표시**|사용자에게 표시되는 앱 목록을 만들려면 이 옵션을 선택합니다.<br>이 목록 유형을 만들 경우 iOS의 **설정** 및 **전화**(iPhone용) 앱을 제외한 다른 모든 앱이 숨겨 집니다.<br>또한 회사 포털과, 이전에 배포한 앱을 목록에 추가하여 Intune으로 관리해야 합니다.|
+|**추가**|앱을 선택한 목록에 추가합니다.<br>숨겨진 목록의 경우 숨길 앱 각각에 대한 **이름**, **게시자**, 및 **앱 URL 또는 번들 ID**를 지정해야 합니다.<br>표시된 목록의 경우에는 Intune으로 관리할 앱 목록이 제공되어 선택할 수 있게 하는 **관리되는 앱을 선택**하거나, 표시할 앱 각각에 대한 **이름**, **게시자**, 및 **앱 URL 또는 번들 ID**|
+|**앱 가져오기**|지정한 앱 목록을 쉼표로 구분된 값 파일로 가져옵니다. 파일의 형식, 응용 프로그램 이름, 게시자, 앱 URL을 사용합니다.|
+|**편집**|선택한 앱의 이름, 게시자 및 URL을 편집할 수 있습니다.|
+|**삭제**|목록에서 선택한 앱을 삭제합니다.|
+
+#### 기본 제공 iOS 앱에 대한 앱 정보
+
+이 목록에 있는 정보를 사용하여 숨기거나 표시할 기본 제공 iOS 앱의 이름, 게시자 및 번들 ID를 식별합니다. 목록에서 앱을 모두 표시하거나 숨기려면 아래 데이터를 확장명이 **.csv**인 텍스트 파일로 복사한 다음 **앱 가져오기** 옵션을 사용하여 앱을 모두 동시에 가져올 수 있습니다.
+
+```
+App Store,Apple,com.apple.AppStore
+Calculator,Apple,com.apple.calculator
+Calendar,Apple,com.apple.mobilecal
+Camera,Apple,com.apple.camera
+Clock,Apple,com.apple.mobiletimer
+Compass,Apple,com.apple.compass
+Contacts,Apple,com.apple.MobileAddressBook
+FaceTime,Apple,com.apple.facetime
+Find Friends,Apple,com.apple.mobileme.fmf1
+Find iPhone,Apple,com.apple.mobileme.fmip1
+Game Center,Apple,com.apple.gamecenter
+GarageBand,Apple,com.apple.mobilegarageband
+Health,Apple,com.apple.Health
+iBooks,Apple,com.apple.iBooks
+iTunes Store,Apple,com.apple.MobileStore
+iTunes U,Apple,com.apple.itunesu
+Keynote,Apple,com.apple.Keynote
+Mail,Apple,com.apple.mobilemail
+Maps,Apple,com.apple.Maps
+Messages,Apple,com.apple.MobileSMS
+Music,Apple,com.apple.Music
+News,Apple,com.apple.news
+Notes,Apple,com.apple.mobilenotes
+Numbers,Apple,com.apple.Numbers
+Pages,Apple,com.apple.Pages
+Photo Booth,Apple,com.apple.Photo-Booth
+Photos,Apple,com.apple.mobileslideshow
+Podcasts,Apple,com.apple.podcasts
+Reminders,Apple,com.apple.reminders
+Safari,Apple,com.apple.mobilesafari
+Settings,Apple,com.apple.Preferences
+Stocks,Apple,com.apple.stocks
+Tips,Apple,com.apple.tips
+Videos,Apple,com.apple.videos
+VoiceMemos,Apple,com.apple.VoiceMemos
+Wallet,Apple,com.apple.Passbook
+Watch,Apple,com.apple.Bridge
+Weather,Apple,com.apple.weather
+
+
+```
+
+
+
 
 ## 사용자 지정 정책 설정
 
@@ -266,6 +337,6 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO3-->
 
 

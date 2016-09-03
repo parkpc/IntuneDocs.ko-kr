@@ -13,8 +13,8 @@ ms.assetid: 3dd8dd4e-e165-4d0c-97b7-b3e86ebab909
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
-ms.openlocfilehash: ae9b3be57e4008d25f5222025c057fc4211f1119
+ms.sourcegitcommit: 167db9027e69dd6419d5deec758a8a0a0b119a97
+ms.openlocfilehash: 8605a665a0033fdc9b05ba452f5bf966e76699ca
 
 
 ---
@@ -24,7 +24,7 @@ Microsoft Intune Wi-Fi, VPN 및 전자 메일 프로필은 함께 작동하여 �
 
 ## [Wi-Fi 프로필](wi-fi-connections-in-microsoft-intune.md) 및 지원되는 플랫폼
 
-사용자에게 무선 네트워크 설정을 배포합니다. 이러한 설정을 배포하여 최종 사용자가 기업 네트워크에 연결하는 데 필요한 노력을 최소화할 수 있습니다.
+사용자에게 무선 네트워크 설정을 배포합니다. 이러한 설정을 통해 사용자가 기업 네트워크에 간편하게 연결할 수 있습니다.
 #### 지원되는 플랫폼
 
 |Windows 8.1 이상|Windows Phone 8.1 이상|iOS|Android|Samsung KNOX|
@@ -32,7 +32,7 @@ Microsoft Intune Wi-Fi, VPN 및 전자 메일 프로필은 함께 작동하여 �
 |예(Windows Wi-Fi 프로필을 가져올 수 있음)|예(OMA-URI를 구성할 수 있음) |예|예|예|
 
 ## [VPN 프로필](vpn-connections-in-microsoft-intune.md) 및 지원되는 플랫폼
-가상 개인 네트워크(VPN) 설정을 사용자에 게 배포합니다. 이러한 설정을 배포하여 최종 사용자가 기업 네트워크에 있는 리소스에 연결하는 데 필요한 노력을 최소화할 수 있습니다.
+VPN(가상 사설망) 설정을 사용자에게 배포합니다. 이러한 설정을 통해 사용자가 기업 네트워크의 리소스에 간편하게 연결할 수 있습니다.
 
 |Windows 8.1 이상|Windows Phone 8.1 이상|iOS|Android|Samsung KNOX|
 |---------------------|---------------------------|---|-------|------------|
@@ -56,6 +56,6 @@ Microsoft Intune Wi-Fi, VPN 및 전자 메일 프로필은 함께 작동하여 �
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO3-->
 
 

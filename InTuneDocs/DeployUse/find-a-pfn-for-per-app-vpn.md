@@ -13,15 +13,15 @@ ms.assetid: 74643d1d-4fd9-4cff-ac79-1a42281d2f76
 ms.reviewer: tycast
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
-ms.openlocfilehash: 026bb4c8bf90bbe1af93513df46f0ec21f82509b
+ms.sourcegitcommit: 3cc73e43f09709b71c78a81c73b044d92d4ef401
+ms.openlocfilehash: 77977ea32ea37a54e9d67638bb0e4c3bb6841fb3
 
 
 ---
 
 # 앱별 VPN 구성에 대한 PFN(패키지 제품군 이름) 찾기
 
-앱별 VPN을 구성할 수 있도록 두 가지 방법으로 PFN을 찾을 수 있습니다.
+앱별 VPN을 설정할 수 있도록 두 가지 방법으로 PFN을 찾을 수 있습니다.
 
 ## Windows 10 컴퓨터에 설치된 앱에 대한 PFN 찾기
 
@@ -32,7 +32,8 @@ Get-AppxPackage 구문은 다음과 같습니다.
 ` Parameter Set: __AllParameterSets`
 ` Get-AppxPackage [[-Name] <String> ] [[-Publisher] <String> ] [-AllUsers] [-User <String> ] [ <CommonParameters>]`
 
-> 참고: PFN을 검색하려면 PowerShell을 관리자 권한으로 실행해야 할 수 있습니다.
+> [!NOTE]
+PFN을 검색하려면 PowerShell을 관리자 권한으로 실행해야 할 수 있습니다.
 
 예를 들어 컴퓨터에 설치된 모든 유니버설 앱에 대한 정보를 가져오려면 `Get-AppxPackage`를 사용합니다.
 
@@ -69,11 +70,10 @@ Get-AppxPackage 구문은 다음과 같습니다.
 
 1.  https://www.microsoft.com/en-us/store/apps로 이동합니다.
 2.  검색 표시줄에 앱의 이름을 입력합니다. 이 예제에서는 OneNote를 검색합니다.
-3.  앱에 대한 링크를 클릭합니다. 액세스하는 URL은 끝부분에 일련의 문자가 있다는 점에 유의하세요. 이 예제에서 URL은 다음과 같습니다.
-`https://www.microsoft.com/en-us/store/apps/onenote/9wzdncrfhvjl`
-4.  다른 탭에서 URL `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`를 붙여넣습니다. 여기에서 `<app id>`를 https://www.microsoft.com/en-us/store/apps에서 가져온 앱 ID 즉, 3단계에서 보았듯이 URL의 끝부분에 있는 일련의 문자로 대체합니다. OneNote를 검색하는 이 예제에서는 `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`를 붙여넣습니다.
+3.  앱에 대한 링크를 선택합니다. URL은 끝부분에 일련의 문자가 있다는 점에 유의하세요. 이 예제에서 URL은 `https://www.microsoft.com/en-us/store/apps/onenote/9wzdncrfhvjl`과 같습니다.
+4.  다른 탭에서 URL `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`를 붙여 넣습니다. 여기에서 `<app id>`를 https://www.microsoft.com/en-us/store/apps에서 가져온 앱 ID 즉, 3단계에서 보았듯이 URL의 끝부분에 있는 일련의 문자로 대체합니다. OneNote 예제에서는 `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`를 붙여넣습니다.
 
-Edge에서는 원하는 정보가 표시됩니다. Internet Explorer에서는 정보를 확인하려면 **열기**를 클릭해야 합니다. PFN 값은 첫 번째 줄에 제공됩니다. 이 예제에서 결과는 다음과 같이 표시됩니다.
+Microsoft Edge에 원하는 정보가 표시됩니다. Internet Explorer에서 **열기**를 선택하여 정보를 확인합니다. PFN 값은 첫 번째 줄에 제공됩니다. 이 예제에서 결과는 다음과 같습니다.
 
 
 `{`
@@ -85,6 +85,6 @@ Edge에서는 원하는 정보가 표시됩니다. Internet Explorer에서는 �
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO3-->
 
 

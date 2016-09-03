@@ -13,8 +13,8 @@ ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 1782d200ed26473414fbc40f554c84cb5d017d44
+ms.sourcegitcommit: 74d9c9843fd6119095c9670a76afd26443bcc796
+ms.openlocfilehash: dab86ce2210c1f0cec81e402d730a6b996db64fc
 
 
 ---
@@ -28,12 +28,16 @@ MAM(모바일 앱 관리) 정책은 Intune에서 관리하거나 관리하지 �
 - MDM 솔루션(BYOD)에서 관리되지 않는 장치
 
 >[!IMPORTANT]
+현재 **Intune 관리 콘솔**을 사용하여 장치를 관리하는 경우 다음 사항을 고려합니다.
 
-> 현재 **Intune 관리 콘솔**을 사용하여 장치를 관리하는 경우 [Intune 관리 콘솔](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 Intune에 등록된 장치의 앱을 지원하는 MAM 정책을 만들 수 있습니다.
-Intune 관리 콘솔에서 만든 MAM 정책은 Azure 포털에 가져올 수 없습니다.  Azure 포털에서 MAM 정책을 다시 만들어야 합니다.
+> * [Intune 관리 콘솔](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 Intune에 등록된 장치의 앱을 지원하는 MAM 정책을 만들 수 있습니다.
+> * Intune 관리 콘솔에서 만든 MAM 정책은 Azure 포털에 가져올 수 없습니다.  Azure 포털에서 MAM 정책을 다시 만들어야 합니다.
 
+> * Intune 관리 콘솔에서 모든 MAM 정책 설정이 나타나지 않을 수 있습니다. Azure 포털은 MAM 정책을 만들기 위한 새 관리 콘솔입니다.
 
-> Intune 관리 콘솔에서 모든 MAM 정책 설정이 나타나지 않을 수 있습니다. Azure 포털은 MAM 정책을 만들기 위한 새 관리 콘솔입니다. Intune 관리 콘솔과 Azure 포털 둘 다에서 MAM 정책을 만들 경우 Azure 포털의 정책이 앱에 적용되며 사용자에게 배포됩니다.
+> * 관리되는 앱을 배포하려면 Intune 관리 콘솔에서 MAM 정책을 만들어야 합니다. 이 경우 Intune 관리 포털과 Azure 포털 모두에서 MAM 정책을 만들 수도 있습니다. Intune 관리 콘솔에서는 사용자가 관리되는 앱을 배포할 수 있는지 확인할 수 있고, Azure 포털은 모든 MAM 정책 설정이 포함된 새로운 관리 콘솔입니다.
+
+> * Intune 관리 콘솔과 Azure 포털 둘 다에서 MAM 정책을 만들 경우 Azure 포털에서 만든 정책이 앱에 적용됩니다.
 
 Android 및 iOS 플랫폼에 지원되는 정책 설정의 목록을 보려면 다음 중 하나를 선택합니다.
 
@@ -165,6 +169,6 @@ iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 중
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO3-->
 
 

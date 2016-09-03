@@ -13,8 +13,8 @@ ms.assetid: 40262e47-1ab4-437d-8ca5-c89b5022f91f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: e1fe6b167b7d46f03472833bc1c3c19030f47bce
-ms.openlocfilehash: 38dce11fa7df302bc2dffc3a2352d516c873fedb
+ms.sourcegitcommit: f65bdbc7aa708b37a766275494e080436d9a5485
+ms.openlocfilehash: 3e5c9ed2ba374172ea27b61a34f0746f582f0ebc
 
 
 ---
@@ -25,7 +25,7 @@ ms.openlocfilehash: 38dce11fa7df302bc2dffc3a2352d516c873fedb
 ## **전용 iOS 장치는 어떻게 관리해야 하나요?**
 
   > [!div class="button"]
-  [IMEI로 태그 지정 >](/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers) [iOS DEP >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune) [ >](/intune/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune) [IMEI로 태그 지정 >](/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers)
+[iOS DEP >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune)   [iOS 설치 도우미 >](/intune/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune) [IMEI로 태그 지정 >](/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers)
 
   다음과 같은 방법으로 전용 사용자가 포함된 회사 소유 장치를 등록할 수 있습니다.
 
@@ -40,6 +40,6 @@ ms.openlocfilehash: 38dce11fa7df302bc2dffc3a2352d516c873fedb
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO3-->
 
 

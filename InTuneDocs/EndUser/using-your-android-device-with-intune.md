@@ -13,8 +13,8 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
-ms.openlocfilehash: 3dfe3f8a0a8538d14acddb9a7c9541bae928b6e6
+ms.sourcegitcommit: 11760810110ddb34e1a5371ce45206212eab0790
+ms.openlocfilehash: ba7ac081f2b8b2228b0052a1d288957bfc11267f
 
 
 ---
@@ -22,7 +22,11 @@ ms.openlocfilehash: 3dfe3f8a0a8538d14acddb9a7c9541bae928b6e6
 
 # Intune에서 Android 장치 사용
 
-이 페이지에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 작업에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 작업 수행을 위해 사용자가 따르는 단계를 확인합니다. 등록 관련 정보, 관리 작업 및 준수 문제와 같이 범주별로 그룹화되어 있습니다.
+이 문서에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 작업에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 작업(다음과 같은 범주로 그룹화되어 있음) 수행을 위해 사용자가 따르는 단계를 확인할 수 있습니다. 
+
+- 회사 포털 앱 설치 및 Intune 등록 
+- 등록 후 관리 작업
+- 규정 준수 문제
 
 ## 회사 포털 앱을 설치 및 Intune 등록
 
@@ -40,7 +44,7 @@ ms.openlocfilehash: 3dfe3f8a0a8538d14acddb9a7c9541bae928b6e6
 - [PIN 또는 암호 설정](set-your-pin-or-password-android.md)
 - [회사의 VPN(가상 사설망) 설치](install-your-companys-virtual-private-network-VPN-android.md)
 - [장치가 잠기기 전의 시간 설정](set-the-amount-of-time-before-your-device-is-locked-android.md)
-- [분실하거나 도난당한 장치 재설정(지우기)](reset-erase-your-lost-or-stolen-device-android.md)
+- [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-lost-or-stolen-device-android.md)
 - [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-android.md)
 - [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-android.md)
 - [사용 약관을 거부한 경우 장치 등록 취소](unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
@@ -67,6 +71,6 @@ ms.openlocfilehash: 3dfe3f8a0a8538d14acddb9a7c9541bae928b6e6
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO2-->
 
 

@@ -14,8 +14,8 @@ ms.assetid: 71cc39cf-e726-40fd-8d08-78776e099a4b
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8465ab2ead21b825141c1aa6e77c02a9b7061a66
-ms.openlocfilehash: 5e7ba0d4546c13106e32359c9578a6f0a49d6de7
+ms.sourcegitcommit: 65d2c9c1f5d81dae33422bd4bf7c0e2e21bb96e4
+ms.openlocfilehash: 31c91609b913034ad3aaae0950145d4db5f59a0a
 
 
 ---
@@ -201,12 +201,13 @@ Microsoft Intune **Android 사용자 지정 구성 정책**을 사용하여 Andr
 
 - [미리 공유한 키를 사용하여 Wi-Fi 프로필 만들기](pre-shared-key-wi-fi-profile.md)
 - [사용자 지정 정책을 사용하여 Android 장치용 앱별 VPN 프로필 만들기](per-app-vpn-for-android-pulse-secure.md)
+- [사용자 지정 정책을 사용하여 Samsung KNOX 장치에 대해 앱을 허용하거나 차단](custom-policy-to-allow-and-block-samsung-knox-apps.md)
 
 ### 참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO3-->
 
 

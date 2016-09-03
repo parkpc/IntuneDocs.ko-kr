@@ -13,19 +13,19 @@ ms.assetid: 6fbf0805-1144-4e08-bafd-4f181d932bf2
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: fca1e1becb36bec2310c905ea8f65263c303b2c2
+ms.sourcegitcommit: 06f5c027a73f0980c62310a24c038d8629aefd49
+ms.openlocfilehash: 81edb231be0cfd31fd39c031ef0d13240f9e7cf7
 
 
 ---
 
 # Microsoft Intune을 사용하여 앱 사용 중지
 
-앱을 사용 중지하려면 단순히 제거하면 됩니다. Intune을 사용하여 앱을 배포하고 관리하는 경우 앱을 제거하는 과정은 모바일 장치와 Windows PC에서 모두 동일합니다. 이 절차를 정상적으로 완료하려면 앱 제거가 지원되어야 합니다.
+앱을 사용 중지하려면 단순히 제거하면 됩니다. Intune을 사용하여 앱을 배포하고 관리하는 경우 앱을 제거하는 과정은 모바일 장치와 Windows PC에서 모두 동일합니다. 이 절차를 정상적으로 완료하려면 앱에서 제거 프로세스를 지원해야 합니다.
 
 ## 앱 제거
 
-1.  [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에서 **앱** &gt; **앱**을 선택합니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **앱** &gt; **앱**을 선택합니다.
 
 2.  이전에 배포했으며 제거하려는 앱을 선택하고 **배포 관리**를 선택합니다.
 
@@ -38,6 +38,6 @@ ms.openlocfilehash: fca1e1becb36bec2310c905ea8f65263c303b2c2
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO3-->
 
 

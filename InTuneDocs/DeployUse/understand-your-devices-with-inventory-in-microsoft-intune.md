@@ -4,7 +4,7 @@ description: "Intune을 사용하여 관리하는 장치의 하드웨어에 대�
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/13/2016
+ms.date: 08/17/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 312911fe-b963-4949-9911-ae425e0590b2
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: 7d11642f13dfbe554661ecc4149c3aaf3e7448c2
+ms.sourcegitcommit: df4e0bc8a818f22d6f7327f9f1348f67882e0c49
+ms.openlocfilehash: 80b157c021099513854b8ffc1fe09cd2922ee0c2
 
 
 ---
@@ -42,10 +42,10 @@ Microsoft Intune을 사용하면 Intune 클라이언트 소프트웨어를 실�
 |**Exchange ActiveSync ID**|All 장치|
 |**무단 해제되거나 루팅됨**|iOS 및 Android 장치만|
 |**고유한 장치 ID**|Exchange ActiveSync를 제외한 모든 장치|
-|**일련 번호**|iOS, Mac OS X, Android, Windows 8.1, Windows 10 장치|
-|**총 저장소 공간**|iOS, Mac OS X, Windows 8.1, Windows 10 장치|
-|**사용 가능한 저장소 공간**|iOS, Mac OS X, Windows 8.1, Windows 10 장치|
-|**전화 번호**<br>회사로 분류되는 전화는 전체 전화 번호로 식별됩니다(예: 모바일 장치 인벤토리 보고서를 실행하는 경우). BYOD 전화 번호는 마지막 4자리만 표시되고 &#42;으로 마스킹됩니다.|iOS, Android, 및 Windows Phone 장치|
+|**일련 번호**|iOS, Mac OS X, Android, Windows 8.1 및 Windows 10 장치|
+|**총 저장소 공간**|iOS, Mac OS X, Windows 8.1 및 Windows 10 장치|
+|**사용 가능한 저장소 공간**|iOS, Mac OS X, Windows 8.1 및 Windows 10 장치|
+|**전화 번호**<br>회사로 분류되는 전화는 전체 전화 번호로 식별됩니다(예: 모바일 장치 인벤토리 보고서를 실행하는 경우). BYOD 전화 번호는 &#42;으로 마스킹되고 마지막 4자리만 표시됩니다.|iOS, Android, 및 Windows Phone 장치|
 |**IMEI**|Exchange ActiveSync, iOS, Android, 및 Windows Phone 장치|
 |**MEID**<br>Mobile Equipment Identifier|iOS 장치만|
 |**Wi-Fi MAC**|Exchange ActiveSync를 제외한 모든 장치|
@@ -114,6 +114,6 @@ Windows PC에 의해 수집된 인벤토리를 보려면 [컴퓨터 인벤토리
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO3-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: 4c0bd439-3b58-420b-9a9a-282886986786
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9a124663a80bb477d0312faa0fb43e4457ba8246
-ms.openlocfilehash: ae5ac5c697195f8b45f500cfa9d0de24953f8cb0
+ms.sourcegitcommit: 374a56612b5c2a4dfd65d920307d5a4deb709b9b
+ms.openlocfilehash: e96daf7f10db82adf0f4f92412128fabbe652d51
 
 
 ---
@@ -24,23 +24,23 @@ ms.openlocfilehash: ae5ac5c697195f8b45f500cfa9d0de24953f8cb0
 ## 사용자 지정 구성 만들기
 사용자 지정 구성을 사용하여 Intune에서 VPN 프로필을 만들 수 있습니다. 사용자 지정 구성을 만들려면:
 
-   1. Intune 관리 콘솔에서 **정책** -> **정책 추가** -> *<Expand platform>* -> **사용자 지정 구성** -> **정책 만들기**를 선택합니다.
+   1. Intune 관리 콘솔에서 **정책** > **정책 추가** > *<Expand platform>* > **사용자 지정 구성** > **정책 만들기**를 선택합니다.
    2. 정책의 이름을 제공합니다.
-   3. 각 URI 설정에서 **추가**를 클릭하고 요청된 정보를 제공합니다. 아래 예를 살펴보세요.
+   3. 각 URI 설정에서 **추가**를 선택하고 요청된 정보를 제공합니다. 아래 예를 살펴보세요.
 
    ![VPN 프로필 사용자 지정 구성 대화 상자](./media/Intune_Add_VPN_URI.png)
 
-   4.  URI 설정을 모두 입력한 후에 **정책 저장**을 클릭한 다음 정책을 배포합니다.
+   4.  URI 설정을 모두 입력한 후에 **정책 저장**을 선택한 다음 정책을 배포합니다.
 
 ## 구성 정책 배포
 
-1.   **정책** 작업 영역에서 배포할 정책을 선택하고 **배포 관리**를 클릭합니다.
+1.  **정책** 작업 영역에서 배포할 정책을 선택한 다음 **배포 관리**를 클릭합니다.
 
 2.   **배포 관리** 대화 상자에서
 
-    -   **정책을 배포하려면** - 정책을 배포하려는 그룹을 하나 이상 선택한 후 **추가** &gt; **확인**을 클릭합니다.
+    -   **정책을 배포하려면** 정책을 배포하려는 그룹을 하나 이상 선택하고 **추가** &gt;**확인**을 클릭합니다.
 
-    -   **정책을 배포하지 않고 대화 상자를 닫으려면** - **취소**를 클릭합니다.
+    -   **정책을 배포하지 않고 대화 상자를 닫으려면** - **취소**를 선택합니다.
 
 배포한 정책을 선택하면 정책 목록 아래쪽에서 배포에 대한 추가 정보를 볼 수 있습니다.
 
@@ -83,7 +83,7 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 
 **./Vendor/MSFT/VPNv2/ContosoVPN/TrafficFilterList/1/App/Id** Microsoft.MicrosoftEdge_8wekyb3d8bbwe
 
-이러한 설정을 어떻게 사용해야 할지에 대한 질문 또는 사용하는 내용에 대한 자세한 내용은 고객이 CSP 설명서(https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776(v=vs.85).aspx)를 참조해야 합니다.
+이러한 설정을 어떻게 사용해야 할지에 대한 질문 또는 사용하는 내용에 대한 자세한 내용은 고객이 CSP(구성 서비스 공급자) 설명서(https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776(v=vs.85).aspx)를 참조해야 합니다.
 
 ## PulseSecure에서 Android 앱별 VPN에 대한 URI 설정
 ### 패키지 목록에 대한 사용자 지정 URI
@@ -112,6 +112,6 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO3-->
 
 
