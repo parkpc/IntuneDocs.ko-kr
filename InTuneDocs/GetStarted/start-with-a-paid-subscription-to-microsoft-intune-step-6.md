@@ -2,7 +2,7 @@
 title: "정책 만들기 및 앱 게시 | Microsoft Intune"
 description: "정책을 만들고 Intune 구독에 대한 앱 예제를 게시하는 방법을 설명합니다."
 keywords: 
-author: Staciebarker
+author: barlanmsft
 manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
@@ -13,8 +13,8 @@ ms.assetid: e0d8e98f-7dd8-4cbf-887c-a9af63ffe970
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
-ms.openlocfilehash: 539df37b239f61ab31e5994db00b46a9d5b6310c
+ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
+ms.openlocfilehash: da46c83d43f4ce4c5ae22b87638ad747a57b9e3f
 
 
 ---
@@ -109,6 +109,6 @@ Intune을 사용하여 두 가지 유형의 앱 설치를 수행할 수 있습�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

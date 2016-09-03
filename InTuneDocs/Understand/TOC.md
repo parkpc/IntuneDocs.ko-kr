@@ -8,9 +8,6 @@
 ### [모바일 장치 등록 및 앱 설치](get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md)
 ### [기타 옵션 및 추가 기능](get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)
 ### [다음 단계](get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)
-## [일반적인 Intune 평가 작업](common-microsoft-intune-evaluation-tasks.md)
-### [평가판 시작 및 iOS PIN 정책 배포](start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md)
-### [iOS 장치에 대한 메일 액세스 설정](set-up-email-access-for-ios-devices-using-microsoft-intune.md)
 ## [일반적인 시나리오](common-ways-to-use-intune.md)
 ## [빠른 시작 가이드](prevent-company-data-leaks-from-Office-365-mobile-apps.md)
 ### [Office 365 모바일 앱에서 회사 데이터 누수 방지](prevent-company-data-leaks-from-Office-365-mobile-apps.md)
@@ -25,6 +22,6 @@
 # [문제 해결](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

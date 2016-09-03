@@ -2,8 +2,8 @@
 title: "모바일 장치 등록 및 앱 설치 | Microsoft Intune"
 description: "모바일 장치를 등록하고 Intune 등록 장치에서 앱을 설치하는 방법을 설명합니다."
 keywords: 
-author: Staciebarker
-manager: arob98
+author: barlanmsft
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 5d3215e7-0a5c-44bd-afb0-aeafce98c43f
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: a3a1ef90533296dce7938d12ebe5246f9846685c
+ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
+ms.openlocfilehash: 0da8725262ba08b9345d3b7195a64faae13eaece
 
 
 ---
@@ -39,7 +39,7 @@ Intune을 사용하여 모바일 장치 관리를 설정하려면 먼저 모바�
 
     -   **Android** - [Google Play](http://go.microsoft.com/fwlink/p/?LinkId=386612)에서 사용할 수 있는 Microsoft Corporation의 **Intune 회사 포털** 앱을 설치하고 위에서 추가한 Intune 사용자 자격 증명을 사용하여 로그인합니다.
 
-    -   **iOS 및 Mac OS X** - App Store에서 사용할 수 있는 Microsoft Corporation의 **Microsoft Intune 회사 포털** 앱을 설치하고 위에서 추가한 Intune 사용자 자격 증명을 사용하여 로그인합니다. **등록된 장치** 를 확인하고 자신의 장치를 추가합니다.
+    -   **iOS 및 Mac OS X** - App Store에서 사용할 수 있는 Microsoft Corporation의 **Microsoft Intune 회사 포털** 앱을 설치하고 위에서 추가한 Intune 사용자 자격 증명을 사용하여 로그인합니다. **등록된 장치**를 확인하고 자신의 장치를 추가합니다.
 
     -   **Windows Phone 8.1** - 사용자는 Windows Phone스토어에서 사용할 수 있는 Microsoft Corporation의 **회사 포털** 앱을 설치하고 위에서 추가한 Intune 사용자 자격 증명을 사용하여 로그인합니다.  **등록된 장치**를 확인하고 자신의 장치를 추가합니다.
 
@@ -64,6 +64,6 @@ Intune을 사용하여 모바일 장치 관리를 설정하려면 먼저 모바�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

@@ -2,7 +2,7 @@
 title: "Intune 라이선스 관리 | Microsoft Intune"
 description: "Intune 구독에 대해 사용자에게 라이선스를 할당하는 방법을 설명합니다."
 keywords: 
-author: Staciebarker
+author: barlanmsft
 manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
@@ -13,8 +13,8 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ed64b7cb3b0658846bce1ec8a5aefe7bdc715508
-ms.openlocfilehash: 2dc3f1dca06cdd5f8547ea51ace2c0f1f291a6e0
+ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
+ms.openlocfilehash: 82b972d9a34d545099321fd64230aae36be7022e
 
 
 ---
@@ -90,6 +90,6 @@ EMS 서비스에 대해 사용자 라이선스를 선택적으로 할당하려�
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO4-->
 
 

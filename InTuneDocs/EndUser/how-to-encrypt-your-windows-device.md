@@ -3,19 +3,19 @@ title: "Windows 장치를 암호화하는 방법 | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 6/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 7d9645a9-6058-4112-aa31-8cdbccdc5463
-ROBOTS: noindex,nofollow
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f1fd60348f5e18344a2ce63311cef7a551f355d3
-ms.openlocfilehash: 8c3369d760444e222f65573e52e2d23ba61e1d72
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: 7418330fe3eac4936843eff38cf713cdcb6f64f4
 
 
 ---
@@ -24,7 +24,7 @@ ms.openlocfilehash: 8c3369d760444e222f65573e52e2d23ba61e1d72
 
 회사 또는 학교 데이터를 보호하려면 IT 관리자가 Windows 장치를 암호화해야 할 수도 있습니다. Windows Phone이 있고 이를 등록한 경우 암호화가 필요하면 장치가 자동으로 암호화됩니다.
 
-데스크톱 장치가 있는 경우 아래의 지침을 따라 장치를 암호화합니다. 
+데스크톱 장치가 있는 경우 아래의 지침을 따라 장치를 암호화합니다.
 
 1.  **BitLocker 관리** 앱을 검색한 다음 시작합니다.
 
@@ -34,7 +34,6 @@ ms.openlocfilehash: 8c3369d760444e222f65573e52e2d23ba61e1d72
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

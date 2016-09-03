@@ -4,7 +4,7 @@ description: "Intune을 사용하여 관리하는 등록된 장치에서 설정 
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/12/2016
+ms.date: 08/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 09bae0b9-4f79-4658-8ca1-a71ab992c1b2
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a083684da6abe9617f8b27604450c2a3b996b7cf
-ms.openlocfilehash: eeacb3f0898f2a1375a4119e01c939dd11d43940
+ms.sourcegitcommit: fa665c758460b8bbd95b237da6a22eda741b8b95
+ms.openlocfilehash: 0dc10ea029d078840a584424f7900f340189b960
 
 
 ---
@@ -132,9 +132,6 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 
 회사 포털에서 연락처 정보를 수정하는 등의 기타 변경 작업을 수행하는 경우에는 장치에 알림이 즉시 전송되지 않습니다.
 
-> [!TIP]
-> 설정을 포함하는 정책을 Android 장치에 배포하는 경우 정책을 준수하기 위해 작업을 수행하라는 메시지가 사용자에게 표시됩니다. 사용자가 이 작업을 수행하거나 장치를 다시 시작할 때까지 새 정책 설정은 적용되지 않습니다.
-
 ### 여러 정책을 같은 사용자 또는 장치에 배포하는 경우 적용되는 설정을 확인하는 방법
 둘 이상의 정책을 같은 사용자 또는 장치에 배포할 때는 개별 설정 수준에서 적용되는 설정을 평가합니다.
 
@@ -215,6 +212,6 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI(Open Mobile Allian
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO4-->
 
 

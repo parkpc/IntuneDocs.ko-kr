@@ -3,19 +3,19 @@ title: "Windows에 대한 Microsoft 사용 현황 데이터 수집 해제 | Micr
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 51f1594d-0283-41d2-b4c3-a7a4ad70b369
-ROBOTS: noindex,nofollow
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb9888d803a53c2f17d88cdb3f010cf14c9b18d
-ms.openlocfilehash: 69bdd678de55c033c89ba8f4d3a6c75ff14c2e25
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: 8313430424acc13cf093665f886fdf05da7d75c8
 
 
 ---
@@ -23,7 +23,7 @@ ms.openlocfilehash: 69bdd678de55c033c89ba8f4d3a6c75ff14c2e25
 
 # Microsoft 사용 현황 데이터 수집 해제
 
-제품 및 서비스를 개선하기 위해 Microsoft는 회사 포털의 안정성 및 성능과 사용되는 방식에 대한 익명의 데이터를 자동으로 수집합니다. 
+제품 및 서비스를 개선하기 위해 Microsoft는 회사 포털의 안정성 및 성능과 사용되는 방식에 대한 익명의 데이터를 자동으로 수집합니다.
 
 회사 포털 앱에서 **사용 현황 데이터** 설정을 사용하여 Windows 장치에서 해당 데이터의 수집을 해제할 수 있습니다. IT 관리자는 이 데이터 수집을 제어할 수 없으며, 이 설정에 대한 사용자의 선택을 변경할 수 없습니다.
 
@@ -33,6 +33,7 @@ ms.openlocfilehash: 69bdd678de55c033c89ba8f4d3a6c75ff14c2e25
 [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO4-->
 
 

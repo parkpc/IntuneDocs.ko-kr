@@ -3,8 +3,8 @@ title: "Windows 사용자가 앱을 얻는 방법 | Microsoft Intune"
 description: "최종 사용자에게 Windows 앱을 제공하기 위한 방법"
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 08/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: e471fed8-19f0-4b37-aaa2-65f28a6b4794
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 79495f03d13e41c5175c857ecbb07ed0221c5fe5
+ms.sourcegitcommit: 9f1946c02c6267a22844106e8f72555ec5e9cabb
+ms.openlocfilehash: 205821f1e6a9685b2a60f6c6d3e0ba3e9e961d85
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: 79495f03d13e41c5175c857ecbb07ed0221c5fe5
 
 # Windows 사용자가 앱을 얻는 방법
 
-이 정보를 사용하여 최종 사용자가 Microsoft Intune을 통해 배포하는 앱을 얻는 방법과 위치를 이해합니다. 
+이 정보를 사용하여 최종 사용자가 Microsoft Intune을 통해 배포하는 앱을 얻는 방법과 위치를 이해합니다.
 
 **필요한 앱** - 플랫폼에 따라 최소한의 사용자 작업으로 장치에 설치되며, 관리자에게 필요한 앱입니다.
 
@@ -38,6 +38,6 @@ ms.openlocfilehash: 79495f03d13e41c5175c857ecbb07ed0221c5fe5
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

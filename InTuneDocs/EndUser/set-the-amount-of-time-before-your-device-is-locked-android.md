@@ -3,19 +3,19 @@ title: "장치가 잠기기 전의 시간 설정 | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5f365c7d-5889-4072-a994-613ce3c26ce4
-ROBOTS: noindex,nofollow
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: fe54897fe42d07040b873d6112e34830652fdf20
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: 47513e279ca1b79b0ce5fe1d27652e1d7fb312ab
 
 
 ---
@@ -24,7 +24,7 @@ ms.openlocfilehash: fe54897fe42d07040b873d6112e34830652fdf20
 # 장치가 잠기기 전의 시간 설정
 
 Android 장치에서 데이터를 보다 안전하게 유지하기 위해 IT 관리자는 장치가 유휴 상태에서 자동으로 잠금 상태로 전환되는 기간을 설정하도록 요구하는 정책을 설정할 수 있습니다. 다음 단계에 따라 장치가 잠금 상태가 되는 기간을 설정합니다.
- 
+
 1.  장치의 **설정**에서 **보안** &gt; **자동으로 잠금**을 클릭합니다(일부 장치에서는 **다음 시간 후 전화 잠금**으로 표시됨).
 
 2.  암호 제한 시간 값을 지정합니다.
@@ -36,6 +36,6 @@ Android 장치에서 데이터를 보다 안전하게 유지하기 위해 IT 관
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

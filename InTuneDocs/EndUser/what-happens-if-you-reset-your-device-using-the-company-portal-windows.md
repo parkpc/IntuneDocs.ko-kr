@@ -10,12 +10,12 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1ee6e275-d1ec-4da3-bbef-d5da2c61a02a
-ROBOTS: noindex,nofollow
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
-ms.openlocfilehash: 33809dbb8ee297a7f88a9615d8cec128ceadc96e
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: 63e35b89d443600409eb1b9375d06b9d52b72b27
 
 
 ---
@@ -27,7 +27,7 @@ ms.openlocfilehash: 33809dbb8ee297a7f88a9615d8cec128ceadc96e
 
 |장치 구성 및 관리|장치 유형|
 |---------------------------------------|---------------|
-|IT 관리자가 모바일 장치 관리|**Windows 10, Windows Phone 8.1 및 Windows Phone 8**</br>장치가 더 이상 회사 포털에 나타나지 않으며, 회사 포털에서 장치를 제조업체의 기본 설정으로 재설정하려고 합니다. 개인 데이터, 앱 및 설정이 제거됩니다. <br /><br />**Windows 10 Mobile**: 장치를 등록 취소하는 유일한 방법은 다시 설정하는 것입니다.<br /><br />**Windows RT**<br />전자 메일 전용이 아닌 Windows RT 장치는 리셋할 수 없습니다.|
+|IT 관리자가 모바일 장치 관리|**Windows 10, Windows Phone 8.1 및 Windows Phone 8**</br>장치가 더 이상 회사 포털에 나타나지 않으며, 회사 포털에서 장치를 제조업체의 기본 설정으로 재설정하려고 합니다. °³ÀÎ µ¥ÀÌÅÍ, ¾Û ¹× ¼³Á¤ÀÌ Á¦°ÅµË´Ï´Ù. <br /><br />**Windows 10 Mobile**: 장치를 등록 취소하는 유일한 방법은 다시 설정하는 것입니다.<br /><br />**Windows RT**<br />전자 메일 전용이 아닌 Windows RT 장치는 리셋할 수 없습니다.|
 |장치가 회사 전자 메일에만 액세스할 수 있습니다.|**Windows Phone 8.1 및 Windows Phone 8**<br />장치가 더 이상 회사 포털에 나타나지 않으며, 회사 메일 계정이 삭제되고 저장하지 않은 메일이 삭제됩니다.<br /><br />**Windows RT**<br />장치가 더 이상 회사 포털에 나타나지 않으며, 회사 메일 계정이 삭제되고 저장하지 않은 메일이 삭제됩니다.<br /><br />**Windows 7 또는 Windows Vista 컴퓨터**<br />Windows 7 이전 버전을 실행하며 전자 메일 전용으로 사용되는 컴퓨터는 리셋할 수 없습니다.<br /><br />**Windows 8.1 및 Windows 8 컴퓨터**<br />장치가 더 이상 회사 포털에 나타나지 않으며, 회사 메일 계정이 삭제되고 저장하지 않은 메일이 삭제됩니다.|
 |PC 및 노트북|**Windows 8.1 및 Windows 8 컴퓨터**<br />Windows 8 또는 Windows 8.1을 실행하며 전자 메일 전용이 아닌 컴퓨터는 리셋할 수 없습니다.<br /><br />**Windows 7 또는 Windows Vista 컴퓨터**<br />Windows 7 이전 버전을 실행하는 컴퓨터는 리셋할 수 없습니다.|
 
@@ -38,6 +38,6 @@ ms.openlocfilehash: 33809dbb8ee297a7f88a9615d8cec128ceadc96e
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

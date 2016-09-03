@@ -2,7 +2,7 @@
 title: "관리자 계정, 웹 사이트 및 권한 | Microsoft Intune"
 description: "관리자 계정 권한 웹 사이트"
 keywords: 
-author: Staciebarker
+author: barlanmsft
 manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,15 +13,15 @@ ms.assetid: db3075e7-38fd-4dfe-b266-26aed10ac8ea
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
-ms.openlocfilehash: e174cb6706e7910d511d5f39836cec6b9a98403d
+ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
+ms.openlocfilehash: 017de4d0cc65c00129a45f140eebea11a61154af
 
 
 ---
 
 # Microsoft Intune의 관리자 계정, 웹 사이트 및 권한
 
-Microsoft Intune을 설정하기 전에, 이 항목과 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md) 항목에 나열된 요구 사항을 검토합니다.
+Microsoft Intune을 설정하기 전에 이 항목과 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)에 나열된 요구 사항을 검토합니다.
 
 Intune을 관리하려면 다음을 사용합니다.
 - 두 가지 유형의 관리자 계정
@@ -94,6 +94,6 @@ Intune을 관리하려면 다음을 사용합니다.
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

@@ -2,7 +2,7 @@
 title: "사용자 및 장치를 구성하는 그룹 만들기 | Microsoft Intune"
 description: "Intune 구독에 대한 사용자 및 그룹을 만드는 방법을 설명합니다."
 keywords: 
-author: Staciebarker
+author: barlanmsft
 manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
@@ -13,8 +13,8 @@ ms.assetid: 5fdf98c8-fe67-4d7a-9837-ed1234348014
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
-ms.openlocfilehash: afdff3d04fa0b6aeba44a3296147ebf207319c49
+ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
+ms.openlocfilehash: 07a2de6922f6b3f3a2b56dfc6bbe4e5f09c7d976
 
 
 ---
@@ -39,7 +39,7 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 2.  **그룹 이름**에 "내 장치"를 입력하고 상위 그룹 목록에서 **모든 장치**를 선택한 후 **다음**을 선택합니다.
 
-3.  **회원 기준 정의** 페이지에서 **모든 장치** 를 선택하여 그룹에 모바일 장치와 컴퓨터가 모두 포함되도록 합니다.
+3.  **회원 기준 정의** 페이지에서 **모든 장치**를 선택하여 그룹에 모바일 장치와 컴퓨터가 모두 포함되도록 합니다.
 
 4.  **직접 회원 관리 정의** 페이지에서 **다음**을 선택합니다. 이전에 만든 그룹에 모든 장치가 포함되어 있지 않으며 특정 장치를 새 그룹에 추가하려는 경우 이 단계에서 추가할 수 있습니다.
 
@@ -75,6 +75,6 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

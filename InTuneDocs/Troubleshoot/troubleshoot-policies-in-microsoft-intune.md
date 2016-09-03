@@ -4,7 +4,7 @@ description: "정책 구성 문제를 해결합니다."
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 08/01/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 99fb6db6-21c5-46cd-980d-50f063ab8ab8
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 436d0c40ef317e1d258654d2164e7a1f8c35c5e1
-ms.openlocfilehash: 6bfa9bab46248be802679e70de18ff117171a1fb
+ms.sourcegitcommit: 1f133d31311706365888cf33ceb4c4412deec333
+ms.openlocfilehash: a8afc681b8b12e1e760dea3f784e4beac4697242
 
 
 ---
@@ -46,17 +46,6 @@ Intune 관리 콘솔에서 모든 장치에는 **장치 속성**아래에 정책
 
 > [!NOTE]
 > 제한 수준이 다른 두 정책을 같은 장치나 사용자에 적용하면 보다 제한적인 정책이 실제로 적용됩니다.
-
-## 정책 새로 고침 및 업데이트 간격
-정책은 일정한 간격마다 새로 고쳐지고 업데이트됩니다. 일반적으로 변경 후 15분 내에 정책이 장치에 등록되어야 합니다. 일정한 정책 새로 고침 간격에 대한 자세한 내용은 다음과 같습니다.
-
--   **MDM에 대해 등록된 Windows 장치**: 정책은 Windows 8.1 및 Windows 10 장치의 경우 8시간마다 업데이트되고, Windows RT 장치의 경우 24시간마다 업데이트됩니다.
-
--   **Windows Phone**: 정책이 8시간마다 업데이트됩니다. 회사 포털의 **설정**에서 새로 고침을 통해 강제로 적용할 수 있습니다.
-
--   **iOS**: 정책이 임의 시간 간격으로 하루에 한 번 업데이트됩니다. 회사 포털을 열고 장치를 선택한 후 **동기화**를 선택하여 강제로 적용할 수도 있습니다.
-
--   **Android**: 정책이 임의 시간 간격으로 하루에 한 번 업데이트됩니다. 회사 포털을 열고 장치를 선택한 후 **동기화**를 선택하여 강제로 적용할 수도 있습니다.
 
 ## policyplatform.log의 Microsoft Intune 정책 관련 오류
 비 MDM Windows 장치의 경우 policyplatform.log 파일의 정책 오류는 장치의 Windows UAC(사용자 계정 컨트롤)에서 기본값이 아닌 설정을 사용한 결과일 수 있습니다. 기본값이 아닌 일부 UAC 설정은 Microsoft Intune 클라이언트 설치와 정책 실행에 영향을 줄 수 있습니다.
@@ -93,9 +82,6 @@ Windows Phone 및 Windows RT 장치는 MDM 또는 EAS를 통해 보안 정책을
 왼쪽 탐색 메뉴에는 맨 아래에 **보안 정책 재설정** 링크가 있습니다. 선택한 후 **정책 재설정** 단추를 선택합니다.
 Android, Windows Phone 8.1 이상 및 iOS와 같은 기타 MDM 장치의 경우 제한적인 정책을 적용할 수 있도록 사용을 중지하고 덜 서비스에 다시 등록해야 해야 합니다.
 
-## Android 장치는 최종 사용자 승인 없이 보안 정책 변경 내용을 시행하지 않습니다.
-Android MDM에서는 다른 플랫폼에서 허용하는 것처럼 서비스가 장치에서 초기 정책 변경 내용을 적용하는 것을 허용하지 않습니다. 이것은 Android 기능으로 인한 것으로서, Intune 서비스와는 관련이 없습니다. Android 장치에서는 관련 정책 변경(예: 암호, 암호화 등) 알림 창을 통해 최종 사용자에게 메시지를 표시합니다.  최종 사용자는 이 메시지에 응답해야 하며, 동의하면 정책이 적용됩니다.
-
 ## 회사 이름에 특수 문자가 포함되어 있으면 정책을 만들거나 클라이언트를 등록할 수 없습니다.
 **문제:** 정책을 만들거나 클라이언트를 등록할 수 없습니다.
 
@@ -106,6 +92,6 @@ Android MDM에서는 다른 플랫폼에서 허용하는 것처럼 서비스가 
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

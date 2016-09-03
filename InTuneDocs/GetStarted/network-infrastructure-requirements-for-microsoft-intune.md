@@ -2,7 +2,7 @@
 title: "네트워크 인프라 요구 사항 | Microsoft Intune"
 description: "Intune 방화벽, 포트, 도메인 및 프록시 서버 요구 사항"
 keywords: 
-author: Staciebarker
+author: barlanmsft
 manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
@@ -13,8 +13,8 @@ ms.assetid: 074de65b-84a5-4a01-a824-18ffd838eab0
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7bea7ba4ef59c6b1400414b59456e19dc1c152fb
-ms.openlocfilehash: 75e1c1bfbdbb14f50e7908b405619f777a674ac0
+ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
+ms.openlocfilehash: d77d33f0c849be6b9edcbe977900fd5dac6c4e2f
 
 
 ---
@@ -170,6 +170,6 @@ Microsoft Intune을 설정하기 전에, 이 항목과 [Microsoft Intune을 시�
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 
