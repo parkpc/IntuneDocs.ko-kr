@@ -13,8 +13,8 @@ ms.assetid: 40262e47-1ab4-437d-8ca5-c89b5022f91f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: f65bdbc7aa708b37a766275494e080436d9a5485
-ms.openlocfilehash: 3e5c9ed2ba374172ea27b61a34f0746f582f0ebc
+ms.sourcegitcommit: 6fc98df3df19e8858e60427f3b0bfd44c4f4b17d
+ms.openlocfilehash: dbdd2649ed565efffe50916c1dd661aac2ed38d8
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: 3e5c9ed2ba374172ea27b61a34f0746f582f0ebc
 
 이러한 일련의 질문에 답변하면 관리하는 장치에 대한 최상의 등록 방법을 결정하는 데 도움이 됩니다.
 
-## **전용 iOS 장치는 어떻게 관리해야 하나요?**
+## **회사 소유의 전용 장치를 어떻게 관리하시겠습니까?**
 
   > [!div class="button"]
 [iOS DEP >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune)   [iOS 설치 도우미 >](/intune/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune) [IMEI로 태그 지정 >](/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers)
@@ -33,13 +33,13 @@ ms.openlocfilehash: 3e5c9ed2ba374172ea27b61a34f0746f582f0ebc
 
   - **Mac의 Apple Configurator** - Apple Configurator는 Mac PC에서 실행되는 Apple 응용 프로그램입니다. USB 케이블로 iOS 장치를 Mac에 연결하여 장치에 등록 프로필을 설치할 수 있습니다. 장치를 공장 기본 설정으로 복원하여 등록할 수 있는 경우 설정 도우미 등록을 사용합니다.
 
-  - **IMEI 번호로 태그 지정** - 회사 소유 장치의 IMEI(International Mobile Equipment Identity) 번호를 가져와서 Intune에서 회사 소유 장치로 장치에 태그를 지정할 수 있습니다. 이렇게 하면 사용자가 메일, 앱, 데이터 등의 회사 리소스에 액세스하기 위해 회사 포털을 설치하여 장치를 개인 장치로 등록할 수 있습니다.
+  - **IMEI 번호로 태그 지정** - 회사 소유 장치의 IMEI(International Mobile Equipment Identity) 번호를 가져와서 Intune에서 회사 소유 장치로 장치에 태그를 지정할 수 있습니다. 이는 전용("단일 사용자") Windows 및 Android 장치를 회사 소유로 확인하는 유일한 방법입니다. Apple 장치 등록 프로그램 또는 Apple 구성기에 등록되지 않는 iOS 장치도 IMEI 숫자로 태그될 수 있습니다. 장치가 “회사”로 태그되도록 미리 선언한 후에는 장치를 사용자에게 분배할 수 있습니다. 그런 다음 사용자는 회사 포털을 설치하여 장치를 전용 장치로 등록함으로써 전자 메일, 앱, 데이터 등의 회사 리소스에 액세스할 수 있습니다.
 
   > [!div class="button"]
   [< 뒤로](choose-how-to-enroll-devices3.md)
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

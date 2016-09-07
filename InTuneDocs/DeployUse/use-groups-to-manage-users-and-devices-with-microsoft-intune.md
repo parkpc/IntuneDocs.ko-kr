@@ -13,11 +13,15 @@ ms.assetid: eb9b01ce-9b9b-4c2a-bf99-3879c0bdaba5
 ms.reviewer: lpatha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5ab9592c253238fd832f8b48372e5474fcfc5331
-ms.openlocfilehash: 96b0cd997544b2013efaca818d614c9802baaa46
+ms.sourcegitcommit: e7c680c43b8c9120755ec3c652cf7ec1cbcc3472
+ms.openlocfilehash: b13e2ff2f4822d71ef8cff9d835e32b99cb3e4ab
 
 
 ---
+# Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리
+
+이 항목에서는 Intune에서 그룹을 만드는 방법을 설명합니다. 몇 개월 후에 그룹 관리 방법이 어떻게 변경되는지에 대한 정보도 제공합니다. *현재* 그룹 관리 방법을 알아보려면 이 항목에서 [Microsoft Intune에서 그룹을 만들어서 사용자 및 장치 관리](#Create-groups-to-manage-users-and-devices-with-Microsoft-Intune)를 확인하세요.
+
 ## 그룹의 관리 경험의 향후 개선에 대한 공지
 
 엔터프라이즈 이동성 + 보안 전체에서 한 번의 그룹화 및 대상 지정 경험에 대한 사용자 피드백을 반영하여 Microsoft는 Intune 그룹을 Azure Active Directory 기반 보안 그룹으로 변환하고 있습니다. 이 변환 작업을 통해 Intune과 Azure AD(Azure Active Directory) 전체의 그룹 관리가 통합될 예정입니다. 이 새로운 환경은 서비스 간에 그룹을 복제할 필요를 없애주고 PowerShell 및 Graph를 사용하여 확장성을 제공합니다. 
@@ -72,7 +76,7 @@ ms.openlocfilehash: 96b0cd997544b2013efaca818d614c9802baaa46
 -  Azure AD에서 그룹을 만들 수 있는 권한이 없는 관리자인 경우에는 Azure AD 관리자에게 **Intune 서비스 관리자** Azure AD 역할에 권한을 추가할 것을 요청.
 
 
-# Microsoft Intune에서 그룹을 만들어서 사용자 및 장치 관리
+## Microsoft Intune에서 그룹을 만들어서 사용자 및 장치 관리
 
 이 섹션에서는 Intune 관리 콘솔에서 Intune 그룹을 만드는 방법을 설명합니다.
 
@@ -208,6 +212,6 @@ Intune 관리자 콘솔에서 서비스 관리자에 대한 필터링된 그룹 
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c329bd08aaf72ae2acaa03dcb12c911d84b46b4e
-ms.openlocfilehash: 9d624da7931c56476b476b7a9fd5711f398052c4
+ms.sourcegitcommit: a7a0f834df939432910e32e6e635a70f021b37a9
+ms.openlocfilehash: 63405b43609eda515656ad397c5c7ff4253a8167
 
 
 ---
@@ -76,7 +76,7 @@ Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장�
 |**[BYOD](#BYOD)** | 아니요|    예 |   아니요 |
 |**[DEM](#DEM)**|   아니요 |아니요 |아니요  |
 
-**회사 소유 장치의 등록 방법**
+**장치 등록 방법**
 
 ### BYOD
 “Bring Your Own Device.” 사용자가 회사 포털 앱을 설치하고 장치를 등록합니다. 회사 포털에 장치를 등록하면 장치가 작업 공간에 연결됩니다. 회사 포털에 iOS 장치를 등록하려면 Apple ID가 필요합니다. BYOD의 경우 회사 소유 장치에 대한 추가 구성이 필요하지 않습니다. [장치 관리를 설정](get-ready-to-enroll-devices-in-microsoft-intune.md#set-up-device-management)하는 단계를 참조하세요. ([테이블로 돌아가기](#overview-of-device-enrollment-methods))
@@ -151,6 +151,6 @@ Intune 클라이언트 소프트웨어로 관리된 컴퓨터는 선택적으로
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

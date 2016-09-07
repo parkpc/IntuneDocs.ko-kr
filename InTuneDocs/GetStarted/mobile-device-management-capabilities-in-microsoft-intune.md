@@ -1,10 +1,10 @@
 ---
-title: "모바일 장치 관리 기능 | Microsoft Intune"
-description: "이 항목을 읽고 Intune이 서비스에 등록하는 모바일 장치를 관리하는 데 어떤 도움을 줄 수 있는지 확인하세요."
+title: "등록된 장치 관리 기능 | Microsoft Intune"
+description: "등록된 장치를 관리하는 데 Microsoft Intune이 도움을 주는 방법을 확인하려면 이 항목을 읽어보세요."
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 08/23/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.assetid: f23b3ee7-78da-4e53-9fc2-78e58401bcf9
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2ef264e963f689bb5a47a795170e0b9915848eec
-ms.openlocfilehash: efe86b7fd56603de2b910a8ec76b6de91db3b698
+ms.sourcegitcommit: a09c5e3349945cfdcb4ae9d3aa51aa3f7024330a
+ms.openlocfilehash: eab582d30408d1a57643e30ba4965bd08f6ce847
 
 
 ---
-# Microsoft Intune의 모바일 장치 관리 기능
+# Microsoft Intune의 등록된 장치 관리 기능
 
 Microsoft Intune에서 다양한 장치를 서비스에 *등록*하여 관리할 수 있습니다. 일부 장치 유형은 사용자가 직접 등록하거나, *회사 포털* 앱을 사용하여 등록할 수 있습니다. 회사 포털에서는 앱을 검색하여 설치하고, 해당 장치가 회사 정책을 준수하는지 확인하고, IT 지원에 문의하는 등 다양한 작업을 수행할 수 있습니다.
 
@@ -70,6 +70,6 @@ Microsoft Intune에서 다양한 장치를 서비스에 *등록*하여 관리할
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

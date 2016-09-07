@@ -13,14 +13,14 @@ ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
 ms.reviewer: lacranda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 08d4352ef88a266d05047d386247815f3765f552
-ms.openlocfilehash: 947a7ba62d817e6b02d8a6bb0a0d0bddf53e7d4e
+ms.sourcegitcommit: 95b3401b66256ef44623b74e6e0b549ec1e7fc2c
+ms.openlocfilehash: 27af2b714ff51f8710f67e7445225366d2722fb7
 
 
 ---
 
 # Android 장치 관리 설정
-Windows 장치 설정에 대한 도움말은 [여기](../enduser/using-your-android-device-with-intune.md)에서 살펴볼 수 있습니다.
+Android 장치를 설정하려면 [여기](../enduser/using-your-android-device-with-intune.md)에서 도움을 얻을 수 있습니다.
 
 Microsoft intune에서는 플랫폼에 대한 추가 작업 없이 Android 장치에 BYOD("Bring Your Own Device")를 설정할 수 있습니다.
 
@@ -52,6 +52,6 @@ Android 모바일 장치에서는 사용자가 Google Play에서 제공되는 �
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

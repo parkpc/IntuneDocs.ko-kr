@@ -4,7 +4,7 @@ description: "최종 사용자와 공유할 정보에 대한 링크"
 keywords: 
 author: staciebarker
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 48914533-f138-4dc0-8b93-4cea3ac61f7b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
-ms.openlocfilehash: e904f7e7e91d86359a0fd818032833caa382edcc
+ms.sourcegitcommit: 9f1946c02c6267a22844106e8f72555ec5e9cabb
+ms.openlocfilehash: d29649c204f50aec1d1604b55bebc6018a3c7ef2
 
 
 ---
@@ -33,7 +33,9 @@ ms.openlocfilehash: e904f7e7e91d86359a0fd818032833caa382edcc
 
 ## 최종 사용자가 일반적인 작업에 대한 정보를 찾을 수 있는 위치
 
-최종 사용자가 장치에서 Intune 사용에 대한 정보를 찾을 때 다음과 같은 최종 사용자 도움말 링크를 제공합니다. 이 링크에서, 사용자는 회사 포털 앱을 설치하고, 장치를 등록하고, 관리되는 앱을 확보하고, 문제를 해결하는 등에 대한 방법을 찾게 됩니다.
+등록된 사용자가 Intune 사용과 관련하여 도움이 필요한 경우 해당 사용자에게는 일반적으로 회사 포털 웹 사이트 또는 회사 포털 앱에 문제 해결 방법 또는 작업 완료 방법의 단계를 설명한 특정 문서로 연결하는 링크가 표시됩니다. 예를 들어 Android 사용자에게 필수 인증서가 누락되었다는 메시지가 표시되면 "이 문제 해결 방법" 링크를 탭해 인증서를 얻는 방법의 단계를 설명하는 문서로 이동할 수 있습니다. 
+
+아래 링크는 IT 관리자를 위한 링크입니다. 이러한 페이지에는 회사 포털 웹 사이트 또는 앱에서 사용자에게 보내진 모든 문서에 대한 링크가 포함되어 있습니다. 링크는 회사 포털 앱 설치 및 Intune 등록, 관리되는 앱 사용 및 수동으로 장치 동기화와 같이 보유한 장치에서 사용자가 할 수 있는 작업, 문제 해결 섹션으로 나누어집니다.
 
 - [Intune에서 Android 장치 사용](/Intune/EndUser/using-your-android-device-with-intune)
 - [Using your iOS or Mac OS X device with Intune](/Intune/EndUser/using-your-ios-or-mac-os-x-device-with-intune)
@@ -59,8 +61,10 @@ ms.openlocfilehash: e904f7e7e91d86359a0fd818032833caa382edcc
 
 회사 포털을 사용하면서 발생하는 문제를 해결하는 데 도움을 주려면 [list of messages users might see in the Company Portal](/Intune/Plan-Design/help-end-users-understand-company-portal-app-messages)(회사 포털에서 사용자가 볼 수 있는 메시지 목록)을 검토합니다.
 
+이 문서에서 다루기를 원하는 다른 정보가 있다면 이 항목 하단에 있는 댓글 상자에 제안 사항을 추가해 주세요. 감사합니다.
 
 
-<!--HONumber=Jul16_HO4-->
+
+<!--HONumber=Aug16_HO4-->
 
 

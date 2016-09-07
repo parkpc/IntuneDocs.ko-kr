@@ -13,8 +13,8 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d51ab5d486e7e23d2527f9cb95f105e7916cdb27
-ms.openlocfilehash: 138d362618c9859a55988b7a2ada85e44b0e95c5
+ms.sourcegitcommit: 0d70a46d9c13aad1bc0a940836d83a99b93bb95e
+ms.openlocfilehash: a753ecfa08adcd27049c70889c50e10618ecddba
 
 
 ---
@@ -30,7 +30,7 @@ ms.openlocfilehash: 138d362618c9859a55988b7a2ada85e44b0e95c5
 <!---@Barry, I created the buckets of App management, Device management, etc but am not tied to them. Just wanted to break up and organize the feature list. If you're going to take over the Company Portal section, please talk to Stacie about how she's been organizing it. --->
 
 ### iOS 9.3에 대해 숨겨진/표시된 앱
-iOS 9.3 이상을 실행하는 장치의 경우에는 iOS 일반 구성 정책에서 숨겨진/표시된 앱 목록을 사용하여 다음을 수행할 수 있습니다.
+iOS 9.3 이상을 실행하는 감독된 장치의 경우 iOS 일반 구성 정책에서 숨겨진/표시된 앱 목록을 사용하여 다음을 수행할 수 있습니다.
 - 사용자로부터 숨길 앱 목록을 지정합니다. 사용자는 이러한 앱을 보거나 시작할 수 없습니다.
 - 사용자가 보고 시작할 수 있는 앱 목록을 지정합니다. 다른 앱은 보거나 시작할 수 없습니다.
 
@@ -102,6 +102,13 @@ Intune을 처음 사용하는 고객은 **현재 테넌트보다 먼저 일부 �
 ### Android용 회사 포털에 '알림' 추가
 9월에는 홈페이지에 새 **알림** 아이콘을 추가하는 업데이트를 Android용 회사 포털에 릴리스할 예정입니다. 이 아이콘을 누르면 호환되지 않는 장치, 등록 업데이트 및 등록 활성화와 같이 회사 포털 앱에서 주의가 필요한 모든 항목을 최종 사용자에게 표시하는 **알림** 페이지로 이동됩니다. IOS 회사 포털 앱을 사용하는 경우에는 이미 알림을 제공받았을 것입니다. **알림** 페이지가 도입되면서 장치가 등록된 동안 Android용 회사 포털을 시작하거나 다시 시작할 때마다 **회사 액세스 설정** 페이지가 항상 표시되지는 않습니다. 많은 고객 여러분이 최종 사용자 지침을 만드는 데 도움을 주신 점을 알고 있습니다. 지침/스크린샷을 업데이트해야 할 때 미리 알려 주시는 점에 감사드립니다. 예정된 변경 내용을 환경에 반영하려면 설명서를 업데이트하세요. 업데이트된 스크린샷을 보려면 https://aka.ms/androidcpupdate로 이동하세요.  
 
+### iOS 최종 사용자가 앱을 받는 방법에 대한 개선 사항
+다음 변경 내용은 9월 iOS용 회사 포털 앱의 앱 타일에 적용되어, 사용를 회사 포털 웹 사이트라는 하나의 위치에서 모든 앱에 대한 다른 보기로 가리킵니다. 현재 Apple 제한 사항은 기간 업무 및 관리되는 App Store 앱이 회사 포털 앱에 나열되는 것을 금지하므로 사용자가 자신의 앱을 모두 찾으려면 여러 보기를 방문해야 합니다.
+
+- 현재 **회사 앱** 타일은 회사 포털 웹 사이트의 모두 탭에 있는 모든 앱 목록을 가리키고 있으며, 계속해서 같은 방식으로 작동합니다. 타일 이름이 **모든 앱**으로 변경됩니다.
+- **다른 앱** 타일은 현재 Apple이 표시를 허용하는 모든 회사 포털 앱이 나열된 회사 포털 앱 내 보기를 가리키고 있습니다. 타일 이름이 **추천 앱**으로 변경되며 타일을 탭하면 사용자는 회사 포털 웹 사이트의 추천 탭으로 이동하게 됩니다.
+-  **카테고리** 타일은 앱의 범주를 나열하는 회사 포털 앱 내 보기를 현재 가리키고 있습니다. 타일 이름은 변경되지 않지만 이제 회사 포털 웹 사이트의 범주 탭을 가리키게 됩니다. 업데이트된 스크린샷은 [여기](https://gallery.technet.microsoft.com/Improvements-in-how-iOS-d1104186)에서 볼 수 있습니다.
+<!---TFS 1317133--->
 
 ### 클라우드 로드맵
 [클라우드 플랫폼 로드맵](http://www.microsoft.com/en-us/server-cloud/roadmap/Indevelopment.aspx?TabIndex=0&dropValue=Intune)에서 Intune에 대해 예정된 개발 정보를 지속적으로 받습니다.
@@ -146,6 +153,6 @@ Intune notification rules define who an email alert will be sent to from Intune.
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

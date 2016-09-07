@@ -13,15 +13,22 @@ ms.assetid: 3dbec400-5d8a-47be-b892-7745811d9de2
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7bea7ba4ef59c6b1400414b59456e19dc1c152fb
-ms.openlocfilehash: ad5e9453f8132d383f8c23886e48505769c7f44b
+ms.sourcegitcommit: cf471320f122eea7804ff6cd6cad208f8cd5a692
+ms.openlocfilehash: 29d13dcbc367c18d64f9522fa9a3b962226feebb
 
 
 ---
 
 # Intune 관리에서 장치 사용 중지
 
-장치가 회사 소유 또는 개인 소유인지 관계없이 관리 장치는 Intune 관리에서 제거되어야 하는 시점에 이릅니다. 장치 사용 중지는 비교적 간단합니다. 모바일 장치로 관리 장치에서 선택적 초기화 또는 전체 초기화를 수행할 수 있습니다. Intune 클라이언트 소프트웨어로 관리되는 PC를 사용 중지할 수도 있습니다.
+장치가 회사 소유 또는 개인 소유인지 관계없이 관리 장치는 Intune 관리에서 제거되어야 하는 시점에 이릅니다. 다양한 이유로 장치를 사용 중지해야 할 수 있습니다.
+
+-   사용자가 계획된 방법으로 퇴사(“관리된” 떠남)
+-   갑작스러운 퇴사(해고, 사퇴 등).
+-   장치 분실
+-   장치 용도 재설정(다른 사용자에게로 이관, 다른 용도로 재사용 등)
+
+모바일로 관리되는 장치를 선택적으로 초기화하거나 전체를 초기화할 수 있습니다. 또는 장치를 잠그고 암호를 재설정할 수도 있습니다. 장치를 초기화하면 사용자 구독을 확보하여 다른 장치를 추가할 수 있습니다. Intune 클라이언트 소프트웨어로 관리되는 PC를 사용 중지할 수도 있습니다.
 
 ## 장치에서 데이터 및 앱 지우기
 선택적 초기화 및 전체 초기화는 모두 정책 및 회사 포털을 제거하여 Intune 관리에서 장치를 제거하므로 장치에 회사 리소스(예: Microsoft SharePoint, 전자 메일 또는 Office 365)에 로그온하는 데 필요한 자격 증명이 더 이상 없습니다.
@@ -62,6 +69,6 @@ Intune 클라이언트 소프트웨어로 관리되는 컴퓨터는 Intune 관�
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

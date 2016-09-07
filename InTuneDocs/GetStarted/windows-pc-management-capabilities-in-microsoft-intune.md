@@ -1,10 +1,10 @@
 ---
-title: "Windows PC 관리 기능 | Microsoft Intune"
-description: "Intune 클라이언트 소프트웨어로 Windows PC를 관리하는 경우 Intune의 기능에 대해 알아봅니다."
+title: "Intune PC 소프트웨어 클라이언트 기능 | Microsoft Intune"
+description: "Intune 소프트웨어 클라이언트로 Windows PC를 관리하는 경우 Intune의 기능에 대해 알아봅니다."
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 08/04/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,14 @@ ms.assetid: 77fa5c66-a87c-47df-964c-800eea509b33
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a6caef9e0f4d6235ecf1a89c1765d6c8e6ce1a7b
-ms.openlocfilehash: e5e3833a38434d4fe55cae554fc49f567b606ad8
+ms.sourcegitcommit: 12d75bc67fd61a2e807eed2543f21b756a65a900
+ms.openlocfilehash: 3066ef98c0a1df6fc0ae455860635e7c12f82c4f
 
 
 ---
 
-# Windows PC 관리 기능(Microsoft Intune PC 클라이언트를 사용한)
-대부분의 시나리오에서, Microsoft Intune을 통해 장치를 등록하며, 이렇게 하면 Intune PC 클라이언트보다 훨씬 더 많은 기능이 제공됩니다. 하지만, Intune PC 클라이언트를 사용하여 PC를 관리할 수도 있으며, 다음과 같은 기능이 제공됩니다.
+# Intune 소프트웨어 클라이언트를 사용하는 경우 Windows PC 관리 기능)
+대부분의 시나리오에서 Microsoft Intune에 장치를 등록하면 훨씬 더 많은 기능이 제공됩니다. 그러나 Intune 소프트웨어 클라이언트를 사용하여 PC를 관리할 수도 있으며, 이 경우 다음과 같은 기능이 제공됩니다.
 
 -   **소프트웨어 업데이트 관리** - PC를 최신 상태로 유지하고 업데이트 적용 시기를 결정할 수 있습니다.
 
@@ -31,10 +31,10 @@ ms.openlocfilehash: e5e3833a38434d4fe55cae554fc49f567b606ad8
 -   **원격 지원** - Intune을 통해 IT 지원 직원에게 문의하면 해당 직원이 Intune에 포함된 원격 데스크톱 기능을 사용하여 도움을 줄 수 있습니다(TeamViewer 소프트웨어 필요).
 
 -   **소프트웨어 라이선스 관리** - 사용 가능한 소프트웨어 라이선스 수와 사용 가능한 라이선스 중 현재 사용 중인 라이선스 수를 추적합니다.
--   **앱 배포** - 관리하는 PC에 소프트웨어를 배포합니다. 일부 앱 관리 기능은 클라이언트 소프트웨어를 사용하여 PC를 관리하면 사용할 수 없습니다.
+-   **앱 배포** - 관리하는 PC에 소프트웨어를 배포합니다. 소프트웨어 클라이언트를 사용하여 PC를 관리하는 경우 일부 앱 관리 기능은 사용할 수 없습니다.
 
 
-Intune에서는 최대 7,000대의 Windows 장치에서 PC 클라이언트 소프트웨어 설치하도록 지원합니다.
+Intune에서는 소프트웨어 클라이언트를 최대 7,000대의 Windows 장치에 설치할 수 있도록 지원합니다.
 
 ## 운영 체제 요구 사항
 Intune은 다음 Windows 버전(32비트 및 64비트)을 실행하는 PC를 관리할 수 있습니다.
@@ -52,7 +52,7 @@ Intune은 다음 Windows 버전(32비트 및 64비트)을 실행하는 PC를 관
 
 
 ## 최소 하드웨어 요구 사항
-다음은 Intune PC 클라이언트를 설치하기 위한 최소 하드웨어 요구 사항입니다.
+다음은 Intune 소프트웨어 클라이언트를 설치하기 위한 하드웨어 최소 요구 사항입니다.
 
 |요구 사항|세부 정보|
 |---------------|--------------------|
@@ -61,7 +61,7 @@ Intune은 다음 Windows 버전(32비트 및 64비트)을 실행하는 PC를 관
 |디스크 공간|클라이언트 소프트웨어를 설치하려면 먼저 200MB의 사용 가능한 디스크 공간이 필요합니다.|
 
 ## 자세한 요구 사항
-다음은 Intune PC 클라이언트를 설치하기 위한 소프트웨어 요구 사항입니다.
+다음은 Intune 소프트웨어 클라이언트를 설치하기 위한 소프트웨어 요구 사항입니다.
 
 |요구 사항|세부 정보|
 |---------------|--------------------|
@@ -70,10 +70,10 @@ Intune은 다음 Windows 버전(32비트 및 64비트)을 실행하는 PC를 관
 |호환되지 않는 클라이언트 소프트웨어를 제거합니다.|Intune PC 클라이언트 소프트웨어를 설치하려면 먼저 해당 PC에서 다음 클라이언트 소프트웨어를 제거해야 합니다.<br /><br />-   Configuration Manager의 모든 버전<br />-   Microsoft SMS(Systems Management Server)의 모든 버전|
 
 ### 참고 항목
-[Microsoft Intune의 모바일 장치 관리 기능](./mobile-device-management-capabilities-in-microsoft-intune.md)
+[Microsoft Intune의 등록된 장치 관리 기능](./mobile-device-management-capabilities-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

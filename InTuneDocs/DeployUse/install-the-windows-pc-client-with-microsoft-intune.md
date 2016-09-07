@@ -1,5 +1,5 @@
 ---
-title: "Windows PC 클라이언트 설치 | Microsoft Intune"
+title: "PC 클라이언트 소프트웨어 설치 | Microsoft Intune"
 description: "이 가이드를 사용하여 Microsoft Intune 클라이언트 소프트웨어에서 관리되는 Windows PC를 얻을 수 있습니다."
 keywords: 
 author: NathBarn
@@ -13,8 +13,8 @@ ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
-ms.openlocfilehash: 3cb693eff7545fe4de8e5c082cfa3ab088c005db
+ms.sourcegitcommit: 2c162e2a885887d0aa69da2a4cec55c7737bccd1
+ms.openlocfilehash: 7e16d0057b91eece7a5aa92a0ba495eaf159caae
 
 
 ---
@@ -98,7 +98,7 @@ Intune 클라이언트 소프트웨어를 설치하기 전에 [GPO 및 Microsoft
     %systemdrive%\temp\Microsoft_Intune_Setup\Microsoft_Intune_Setup.exe /PrepareEnroll
     ```
     > [!TIP]
-    > **SetupComplete.cmd** 스크립트를 사용하여 Windows 설치 프로그램을 통해 사용자가 로그온하기 전에 시스템의 수정 사항을 적용할 수 있습니다. **/PrepareEnroll** 명령줄 인수는 Windows 설치 프로그램이 완료된 후 Intune에서 대상 컴퓨터를 자동으로 등록하도록 준비합니다.
+    >  **SetupComplete.cmd** 스크립트를 사용하여 Windows 설치 프로그램을 통해 사용자가 로그온하기 전에 시스템의 수정 사항을 적용할 수 있습니다. **/PrepareEnroll** 명령줄 인수는 Windows 설치 프로그램이 완료된 후 Intune에서 대상 컴퓨터를 자동으로 등록하도록 준비합니다.
 
 4.  참조 컴퓨터의 **%Windir%\Setup\Scripts** 폴더에 **SetupComplete.cmd**를 저장합니다.
 
@@ -139,6 +139,6 @@ Windows 설치 프로그램 완료 시 대상 컴퓨터가 다시 시작되면 *
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

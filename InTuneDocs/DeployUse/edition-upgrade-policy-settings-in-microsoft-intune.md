@@ -4,7 +4,7 @@ description: "Intune을 사용하여 Windows 10 장치를 최신 버전으로 �
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 08/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 8589866a-3f13-489b-a5cd-cee017d16d54
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2a08ace43fb61f57a9d29b119c59698bc50e7af8
-ms.openlocfilehash: 49bc54f36b281d85c9667c51fb6ddbe0d454b4d1
+ms.sourcegitcommit: 4bed62ebe07d5470414183626b34e68dd91f2d01
+ms.openlocfilehash: 17933e41a646f305f9fb765e790c0de36a5036ba
 
 
 ---
@@ -26,9 +26,9 @@ Microsoft Intune **버전 업그레이드 정책**을 사용하면 다음 Window
 
 ## 시작하기 전에
 장치를 최신 버전으로 업그레이드하기 전에 다음 중 하나가 있어야 합니다.
-* Windows 10 Desktop 버전용 정책에서 대상으로 지정하는 모든 장치에 새 버전의 Windows를 설치하는 데 유효한 제품 키
-* Windows 10 Mobile 및 Windows 10 Holographic 버전용 정책에서 대상으로 지정하는 모든 장치에 새 버전의 Windows를 설치하기 위한 라이선스 정보가 포함된 Microsoft 라이선스 파일
-* 대상으로 지정한 Windows 10 장치를 Microsoft Intune에 등록해야 합니다.
+* Windows 10 Desktop 버전용 정책에서 대상으로 지정하는 모든 장치에 새 버전의 Windows를 설치하는 데 유효한 제품 키 MAK(다중 정품 인증 키) 또는 KMS(키 관리 서버) 키 둘 중 하나를 사용할 수 있습니다.
+**또는** 정책에서 대상으로 지정하는 모든 장치에 새 Windows 버전을 설치하기 위한 라이선스 정보가 포함된 Microsoft 라이선스 파일(Windows 10 Mobile 및 Windows 10 Holographic 버전용).
+* 대상으로 지정한 Windows 10 장치를 Microsoft Intune에 등록해야 합니다. Intune PC 클라이언트 소프트웨어를 실행하는 PC에는 버전 업그레이드 정책을 사용할 수 없습니다.
 
 ## 버전 업그레이드 정책 설정
 
@@ -45,6 +45,6 @@ Microsoft Intune **버전 업그레이드 정책**을 사용하면 다음 Window
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

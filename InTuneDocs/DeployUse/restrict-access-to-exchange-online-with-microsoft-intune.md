@@ -13,8 +13,8 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 5e94a6575627d295efa592522a1fa28bfcd358a6
+ms.sourcegitcommit: e285cadd63e711ddf5d37b878d298b47bacf3333
+ms.openlocfilehash: 38273970b6bb6f576786e6a7a2aeaaa65ee07d37
 
 
 ---
@@ -29,7 +29,7 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 >[!IMPORTANT]
 >앱에서 최신 인증을 사용한 PC 및 Windows 10 Mobile 장치에 대한 조건부 액세스는 현재 일부 Intune 고객에게만 제공됩니다. 이러한 기능을 이미 사용 중인 경우 어떠한 조치도 취할 필요가 없습니다. 계속 사용할 수 있습니다.
 
->앱에서 최신 인증을 사용하여 PC 또는 Windows 10 Mobile에 대한 조건부 액세스 정책을 만들지 않았고 작업을 수행하려면 요청을 제출해야 합니다.  알려진 문제에 대한 자세한 정보와 이 기능에 액세스하는 방법은 [Microsoft Connect 사이트](http://go.microsoft.com/fwlink/?LinkId=761472)에서 확인할 수 있습니다.
+>최신 인증을 사용하여 PC 또는 앱용 Windows 10 Mobile에 대한 조건부 액세스 정책을 생성하지 않았지만 생성하려는 경우 Intune 관리 장치 또는 도메인에 가입된 Windows PC에 대한 장치 기반 조건부 액세스를 포함하는 Azure Active Directory 공개 미리 보기에 등록합니다. 자세한 내용을 확인하려면 [이 블로그 게시물](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/10/azuread-conditional-access-policies-for-ios-android-and-windows-are-in-preview/)을 읽어보세요.  
 
 조건부 액세스를 구성하기 **전에** 다음을 수행해야 합니다.
 
@@ -196,7 +196,7 @@ iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙�
         * 지원되지 않는 플랫폼(예: Mac OS).  그러나 이러한 플랫폼에서 제공하는 최신 인증을 사용하는 앱은 여전히 차단됩니다.
 
         >[!TIP]
-           PC에 대한 조건부 액세스를 아직 사용하지 않는 경우 이 옵션이 표시되지 않습니다.  대신 **특정 플랫폼**을 사용합니다. PC에 대한 조건부 액세스는 현재 일부 Intune 고객에게만 제공됩니다.   알려진 문제에 대한 자세한 정보와 이 기능에 액세스하는 방법은 [Microsoft Connect 사이트](http://go.microsoft.com/fwlink/?LinkId=761472)에서 확인할 수 있습니다.
+           PC에 대한 조건부 액세스를 아직 사용하지 않는 경우 이 옵션이 표시되지 않습니다.  대신 **특정 플랫폼**을 사용합니다. PC에 대한 조건부 액세스는 현재 일부 Intune 고객에게만 제공됩니다.   이 기능에 액세스하는 방법에 대한 자세한 내용은 [이 블로그 게시물](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/10/azuread-conditional-access-policies-for-ios-android-and-windows-are-in-preview/)에서 확인할 수 있습니다.
 
     -   **특정 플랫폼**
 
@@ -260,6 +260,6 @@ iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙�
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO3-->
 
 

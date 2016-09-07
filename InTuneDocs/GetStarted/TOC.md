@@ -23,11 +23,11 @@
 ### [구성 후 작업](post-configuration-tasks.md)
 
 ## [장치를 관리하는 방법 선택](choose-how-to-manage-devices.md)
-### [모바일 장치 관리 기능](mobile-device-management-capabilities-in-microsoft-intune.md)
-### [Windows PC 관리 기능](windows-pc-management-capabilities-in-microsoft-intune.md)
+### [등록된 장치 관리 기능](mobile-device-management-capabilities-in-microsoft-intune.md)
+### [Intune PC 소프트웨어 클라이언트 기능](windows-pc-management-capabilities-in-microsoft-intune.md)
 
 ## [Intune 배포용 출시 단계](rollout-phases-for-microsoft-intune-deployment.md)
-### [프로젝트 범위](project-scope.md)
+### [프로젝트 범위 지정](project-scope.md)
 ### [개념 증명](proof-of-concept.md)
 ### [파일럿](pilot.md)
 ### [전사적 출시](enterprise-rollout.md)
@@ -39,6 +39,6 @@
 # [문제 해결](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Intune 클라이언트를 사용하여 Windows PC 관리 | Microsoft Intune"
+title: "클라이언트 소프트웨어로 PC 관리 | Microsoft Intune"
 description: "Intune 클라이언트 소프트웨어를 설치하여 Windows PC를 관리합니다."
 keywords: 
 author: nathbarn
@@ -13,8 +13,8 @@ ms.assetid: 3b8d22fe-c318-4796-b760-44f1ccf34312
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: aa1d6105a5be9c329c75681857a9d6e553088b65
-ms.openlocfilehash: be45b2ffb99eb75e71c0d591fc84089b83735905
+ms.sourcegitcommit: cf471320f122eea7804ff6cd6cad208f8cd5a692
+ms.openlocfilehash: f264dc3740ce9b117fcc01c39792904a2dc6e7ab
 
 
 ---
@@ -24,7 +24,7 @@ ms.openlocfilehash: be45b2ffb99eb75e71c0d591fc84089b83735905
 
 Intune에서는 Windows Server AD DS(Active Directory 도메인 서비스) GPO(그룹 정책 개체)와 비슷한 방식으로 정책을 사용하여 컴퓨터를 관리합니다. Intune에서 Active Directory 도메인에 가입된 컴퓨터를 관리하려는 경우에는 조직에서 사용 중인 [GPO와 Intune 정책이 충돌하지 않는지를 확인](resolve-gpo-and-microsoft-intune-policy-conflicts.md)해야 합니다.
 
-Intune 클라이언트는 소프트웨어 업데이트, Windows 방화벽 및 Endpoint Protection을 관리하여 [PC](policies-to-protect-windows-pcs-in-microsoft-intune.md)를 보호하는 정책을 지원하지만 Intune 클라이언트로 관리되는 PC는 다른 Intune 정책의 대상이 될 수 없습니다.
+Intune 소프트웨어 클라이언트는 소프트웨어 업데이트, Windows 방화벽, Endpoint Protection을 관리함으로써 [PC를 보호하는 관리 기능](policies-to-protect-windows-pcs-in-microsoft-intune.md)을 지원하지만, Intune 클라이언트를 통해 관리되는 PC는 모바일 장치 관리에 대한 **Windows** 정책 설정을 포함한 다른 Intune 정책을 사용하여 대상으로 지정될 수 없습니다.
 
 > [!NOTE]
 > Windows 8.1 이상을 실행하는 장치는 Intune 클라이언트를 사용하여 관리하거나 모바일 장치로 등록할 수 있습니다. 아래 정보는 Intune 클라이언트를 실행하는 컴퓨터에 적용됩니다. 모바일 장치 관리를 위해 Intune PC 클라이언트 설치 및 Windows 장치 등록 작업을 둘 다 수행하는 것은 지원되지 않습니다.
@@ -51,13 +51,15 @@ Intune 클라이언트는 소프트웨어 업데이트, Windows 방화벽 및 En
 ## Intune 컴퓨터 클라이언트 설치
 다음 방법 중 하나로 Intune 클라이언트 소프트웨어를 설치할 수 있습니다.
 
--   [Microsoft Intune 클라이언트 소프트웨어를 수동으로 배포](install-the-windows-pc-client-with-microsoft-intune.md#to-manually-deploy-the-client-software). 이 유형의 배포에서는 관리자가 Intune 클라이언트 소프트웨어를 다운로드하여 각 PC에 수동으로 설치합니다.
+-  [Microsoft Intune 클라이언트 소프트웨어를 수동으로 배포](install-the-windows-pc-client-with-microsoft-intune.md#to-manually-deploy-the-client-software). 이 유형의 배포에서는 관리자가 Intune 클라이언트 소프트웨어를 다운로드하여 각 PC에 수동으로 설치합니다.
 
   Intune 클라이언트 소프트웨어를 다운로드하려면 [Intune 관리 콘솔](https://manage.microsoft.com)을 열고 **관리** > **클라이언트 소프트웨어 다운로드**를 선택한 후 **클라이언트 소프트웨어 다운로드**를 선택합니다.
 
--   Intune 클라이언트를 수동으로 설치하기 위해 다운로드한 동일 파일을 사용하여 [Active Directory GPO를 사용하는 도메인에 가입된 컴퓨터에 클라이언트를 배포](install-the-windows-pc-client-with-microsoft-intune.md#to-automatically-deploy-the-client-software-by-using-group-policy)할 수 있습니다.
+-  Intune 클라이언트 소프트웨어를 수동으로 설치하기 위해 다운로드한 같은 파일을 사용하여 [Active Directory GPO를 사용하는 도메인에 가입된 컴퓨터에 클라이언트를 배포](install-the-windows-pc-client-with-microsoft-intune.md#to-automatically-deploy-the-client-software-by-using-group-policy)합니다.
 
--   마지막으로, [운영 체제 배포](install-the-windows-pc-client-with-microsoft-intune.md#install-the-microsoft-intune-client-software-as-part-of-an-image)의 일부분으로 Intune 클라이언트 소프트웨어를 컴퓨터에 배포할 수도 있습니다.
+-  [운영 체제 배포](install-the-windows-pc-client-with-microsoft-intune.md#install-the-microsoft-intune-client-software-as-part-of-an-image)의 일부로 컴퓨터에 Intune 클라이언트 소프트웨어를 배포합니다.
+
+-  사용자에게 Intune 회사 포털 URL([https://portal.manage.microsoft.com](http://go.microsoft.com/fwlink/?LinkId=825632))이 포함된 지침을 보냅니다. 사용자가 회사 포털을 열 때 Intune 클라이언트 소프트웨어를 다운로드하고 실행하여 PC를 등록하라는 메시지가 표시됩니다.
 
 ## Intune 컴퓨터 클라이언트를 통해 컴퓨터 관리
 Intune 클라이언트를 설치하고 나면 클라이언트 소프트웨어를 통해 [응용 프로그램 관리](deploy-apps-in-microsoft-intune.md), Endpoint Protection, 하드웨어 및 소프트웨어 인벤토리, 원격 지원 요청을 통한 원격 제어, 소프트웨어 업데이트, 준수 설정 보고 등의 다양한 컴퓨터 관리 기능을 사용할 수 있습니다.
@@ -69,6 +71,8 @@ Intune 클라이언트를 설치하고 나면 클라이언트 소프트웨어를
 -   관리되는 컴퓨터에서 필수 소프트웨어 업데이트를 확인하고 다운로드하기 위한 [소프트웨어 업데이트 설정](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md) 구성
 
 -   [실시간 모니터링 및 Endpoint Protection](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md) 을 통해 잠재적 위협과 악성 소프트웨어로부터 관리되는 컴퓨터 보호
+
+![Windows PC의 정책 템플릿](../media/pc_policy_template.png)
 
 개별 컴퓨터에서 로컬로 수행되는 Intune 클라이언트 에이전트 작업 외에, 클라이언트가 설치된 Windows PC에서 Intune 관리 콘솔을 사용하여 다음과 같은 기타 [일반적인 컴퓨터 관리 작업](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md) 도 수행할 수 있습니다.
 
@@ -86,6 +90,6 @@ Intune 클라이언트 에이전트는 보통 백그라운드에서 자동으로
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO4-->
 
 
