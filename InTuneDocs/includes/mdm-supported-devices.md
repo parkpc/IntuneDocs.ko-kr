@@ -10,6 +10,6 @@
 [Intune 소프트웨어 클라이언트](/intune/deploy-use/manage-windows-pcs-with-microsoft-intune)는 Windows 7 운영 체제 이상이 실행되는 Windows PC를 관리할 수 있습니다. EMS(엔터프라이즈 관리 제품군)가 있는 고객은 [AAD(Azure Active Directory)를 사용하여 Windows 10 장치를 등록](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview)할 수도 있습니다.
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Sep16_HO1-->
 
 
