@@ -13,8 +13,8 @@ ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 281557e7b9c4b2ed1ff6122dbd574df4a2601a8c
-ms.openlocfilehash: 3d62fe870a609af982435bd3f482fcc18beecdb1
+ms.sourcegitcommit: 40194f4359d0889806e080a4855b8e1934b667f9
+ms.openlocfilehash: 9d6b7198e3c2e30898a8ec83785c7f3b777eda5f
 
 
 ---
@@ -60,7 +60,10 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 
 
 2. ISE 콘솔 내에서 Intune 인증서(내보낸 파일)를 **신뢰할 수 있는 인증서** 저장소로 가져옵니다.
+
+
 ### ISE에서 자체 서명된 인증서 가져오기 
+
 1.  ISE 콘솔에서 **관리** > **인증서** > **시스템 인증서** > **자체 서명된 인증서 생성**로 이동합니다.  
 2.       자체 서명된 인증서를 내보냅니다.
 3. 텍스트 편집기에서 내보낸 인증서를 편집합니다.
@@ -147,6 +150,6 @@ ISE 관리 콘솔에서 다음 설정 값을 제공합니다.
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO1-->
 
 

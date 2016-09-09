@@ -13,8 +13,8 @@ ms.assetid: e9cbb826-b155-4df6-abf3-60c6f05b2783
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 727d28cff074124b5401f6c2931f87df3a9d2d23
-ms.openlocfilehash: d8f7de4013c1bdf6174cd4e1d7491514b11a14a3
+ms.sourcegitcommit: 073e3df63a5de9cf92c739c1ced858e21a9ac351
+ms.openlocfilehash: 9a481e1ce7815a0411651fc724e3fc2f5d374eac
 
 
 ---
@@ -26,7 +26,7 @@ Microsoft Intune **Exchange ActiveSync** 정책을 사용하여 Exchange ActiveS
 ## 암호 설정
 
 |설정 이름|세부 정보
-|----------------|
+|----------------|---|
 |**모바일 장치의 잠금을 해제하는 데 암호 필요**|암호를 사용하여 장치를 잠가야 하는지 여부를 지정합니다.<br>(Windows RT를 실행하는 장치에는 적용되지 않음)|
 |**필수 암호 유형**|필요한 암호의 유형(예: 숫자만 또는 영숫자)을 지정합니다.|
 |**최소 암호 길이**|장치 암호에 필요한 최소 문자 수를 지정합니다.|
@@ -40,7 +40,7 @@ Microsoft Intune **Exchange ActiveSync** 정책을 사용하여 Exchange ActiveS
 ## 암호화 설정
 
 |설정 이름|세부 정보|
-|----------------|
+|----------------|---|
 |**모바일 장치 암호화 필요**<sup>1</sup>|지원되는 경우에는 암호화해야 하는 장치의 데이터가 필요합니다.<br><br>Windows Phone 8 장치의 경우 이 옵션을 **예**로 설정해야 합니다.<br /><br />iOS 장치에서 암호화를 사용하도록 설정하려면 **모바일 장치를 잠금 해제하는 데 암호 필요** 설정을 사용하도록 설정합니다.|
 |**메모리 카드 암호화 필요**|지원되는 장치에서 암호화할 SD 카드와 같은 외부 저장소에 저장된 데이터가 필요합니다.
 <sup>1</sup> Windows 8.1을 실행하는 장치에 대한 추가 정보
@@ -56,7 +56,7 @@ Microsoft Intune **Exchange ActiveSync** 정책을 사용하여 Exchange ActiveS
 ## 전자 메일 설정
 
 |설정 이름|세부 정보
-|----------------|
+|----------------|---|
 |**사용자가 전자 메일 첨부 파일을 다운로드하도록 허용**|전자 메일 첨부 파일을 장치로 다운로드할 수 있는지 여부를 지정합니다.|
 |**전자 메일 동기화 기간**|장치로 동기화될 받은 메일의 일 수를 지정합니다.
 |**Exchange ActiveSync를 완전하게 지원하지 않는 모바일 장치가 Exchange와 동기화할 수 있도록 허용**|하나 이상의 Exchange ActiveSync 설정을 지원하지 않는 장치에서 Exchange 액세스를 허용할 것인지 여부를 지정합니다.
@@ -64,13 +64,13 @@ Microsoft Intune **Exchange ActiveSync** 정책을 사용하여 Exchange ActiveS
 ## 브라우저 설정
 
 |설정 이름|세부 정보
-|----------------|-
+|----------------|---|
 |**웹 브라우저 허용**|장치에서 웹 브라우저를 사용할 수 있는지 여부를 지정합니다.<br>(Windows RT 또는 Windows Phone에 사용할 수 없음)
 
 ## 하드웨어 설정
 
 |설정 이름|세부 정보
-|----------------|
+|----------------|---|
 |**카메라 허용**|장치에서 카메라를 사용할 수 있는지 여부를 지정합니다.<br>(Windows RT 또는 Windows Phone에 사용할 수 없음)
 
 
@@ -80,6 +80,6 @@ Microsoft Intune **Exchange ActiveSync** 정책을 사용하여 Exchange ActiveS
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 
