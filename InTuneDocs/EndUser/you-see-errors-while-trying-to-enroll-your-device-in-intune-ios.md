@@ -4,7 +4,7 @@ description:
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 06/15/2016
+ms.date: 08/28/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: e8b6da8348f9c4d8ba1b85687510388cd40eac8a
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: e2493f93c08aaf7c10c47a0835de498349799e28
 
 
 ---
@@ -35,11 +35,10 @@ ms.openlocfilehash: e8b6da8348f9c4d8ba1b85687510388cd40eac8a
 |UserLicenseTypeInvalid|사용자 계정이 아직 필수 사용자 그룹의 구성원이 아니어서 모바일 장치를 등록할 수 없습니다.<br /><br />IT 관리자에게 연락하여 모바일 장치를 등록하는 동안 **UserLicenseTypeInvalid** 메시지가 수신되었으며 이 표에 있는 해결 방법을 확인하도록 알립니다.|사용자가 장치를 등록하려면 올바른 사용자 그룹의 구성원이어야 합니다. 이 메시지는 지정된 모바일 장치 관리 기관에 맞지 않는 라이선스 유형이 있음을 의미합니다. 예를 들어 Intune이 모바일 장치 관리 기관으로 지정되었는데 System Center 2012 R2 Configuration Manager 라이선스를 사용하는 경우 이 오류가 표시됩니다.<br /><br />자세한 내용은 다음을 검토하세요.<br /><br />[Microsoft Intune을 사용한 iOS 및 Mac 관리 설정](/Intune/Deploy-use/set-up-ios-and-mac-management-with-microsoft-intune) 및 [Active Directory를 동기화하고 Intune에 사용자 추가](/Intune/Get-Started/start-with-a-paid-subscription-to-microsoft-intune-step-3) 및 [사용자 및 장치 구성](/Intune/Get-Started/start-with-a-paid-subscription-to-microsoft-intune-step-5)에서 사용자 설정에 대한 정보를 검토하세요.|
 |MdmAuthorityNotDefined|IT 관리자가 회사의 모바일 장치 관리 방법을 구성해야 합니다.<br /><br />IT 관리자에게 연락하여 모바일 장치를 등록하는 동안 **MdmAuthorityNotDefined** 메시지가 수신되었으며 이 표에 있는 해결 방법을 확인하도록 알립니다.|Intune에서 모바일 장치 관리 기관이 지정되지 않았습니다.<br /><br />[Microsoft Intune 30일 평가판으로 시작하기](/Intune/Understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune)에서 "6단계: 모바일 장치 등록 및 앱 설치" 섹션의 항목 #1을 검토합니다.|
 
-### 참고 항목
-[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+
+<!--HONumber=Aug16_HO5-->
 
 

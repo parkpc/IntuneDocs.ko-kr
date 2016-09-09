@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 5f1392517a5a0a1dfcf75e464477c1671134b157
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: 552217a59b7bfd9d75f8be1ce4c401d015ba84f7
 
 
 ---
@@ -46,7 +46,7 @@ Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [�
 
     장치에서 암호 재설정이 작동하는 방식을 보려면 표를 확인하세요.
 
-    |플랫폼|Support(Áö¿ø)|
+    |플랫폼|Support|
     |------------|-----------|
     |Android|새로운 임시 영숫자 암호를 만듭니다.|
     |iOS|장치에서 암호를 제거하고 새로운 임시 암호를 만들지 않습니다. Touch ID를 사용하는 경우 암호를 재설정할 때 제거되기 때문에 장치에서 다시 설정해야 합니다.|
@@ -60,11 +60,10 @@ Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [�
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
-### 참고 항목
-[Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+
+<!--HONumber=Aug16_HO5-->
 
 

@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: ae38f4a28167eb5dcce92db94a35736d03d1e186
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: 04ffc982f7003028c276eb855ca7f89f56c45f39
 
 
 ---
@@ -25,11 +25,9 @@ ms.openlocfilehash: ae38f4a28167eb5dcce92db94a35736d03d1e186
 
 IT 관리자가 Windows 장치에서 허용하지 않은 운영 체제의 최대 버전을 설정했지만 장치가 해당 설정을 준수하지 않을 수 있습니다. 장치에 허용되는 최대 운영 체제를 확인하려면 IT 관리자에게 문의해야 합니다. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
-### 참고 항목
-[Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 35cb5187260eb7b96e09ee7feb24bad90cbb0cb3
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: 5a2a53e1fa012c2b786d5955749d1f8442a32030
 
 
 ---
@@ -31,11 +31,10 @@ ms.openlocfilehash: 35cb5187260eb7b96e09ee7feb24bad90cbb0cb3
 
 -   회사 포털 앱에 있는 동안: 장치를 흔든 다음, 진단 경고가 표시되면 **메일**을 탭합니다. 장치를 흔들어도 이 경고가 나타나지 않으면 **설정** &gt; **회사 포털**을 열고 **흔들기 제스처** 옵션이 설정되어 있는지 확인합니다.
 
-### 참고 항목
-[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+
+<!--HONumber=Aug16_HO5-->
 
 

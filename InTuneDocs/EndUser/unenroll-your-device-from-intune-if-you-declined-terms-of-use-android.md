@@ -3,8 +3,8 @@ title: "사용 약관을 거부한 경우 Intune에서 장치 등록 취소 | Mi
 description: "사용 약관을 거부하여 회사 포털 앱에 로그인할 수 없는 경우 Intune에서 Android 장치를 등록 취소하는 방법을 설명합니다."
 keywords: 
 author: staciebarker
-manager: arob98
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 4278f000-0258-4de5-93a1-195b48e5061e
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 06e2fa597e9e4143d17e817daee7eeac8eb46bf7
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: 373b349a6a43e79d83ce44a8c1670410ca17c6cf
 
 
 ---
@@ -41,10 +41,8 @@ Intune에서 장치 등록을 취소하고 회사 포털 앱을 제거하려면
 여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) Microsoft Android 팀(wintunedroidfbk@microsoft.com)으로 전자 메일을 보내세요.
 
 
-### 참고 항목
-[Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO5-->
 
 

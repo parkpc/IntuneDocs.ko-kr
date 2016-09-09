@@ -3,8 +3,8 @@ title: "장치 그룹 매핑을 사용하여 장치 분류 | Microsoft Intune"
 description: "이러한 장치를 쉽게 관리하기 위해 Microsoft Intune 장치 그룹 매핑을 사용하여 장치를 정의하는 범주에 그룹화할 수 있습니다."
 keywords: 
 author: robstackmsft
-manager: arob98
-ms.date: 07/11/2016
+manager: angrobe
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 8b8c06a3-6b6c-4cf1-8646-b24fa9b1a39e
 ms.reviewer: sumitp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: c721df29fd71963feb151af71eea9ee7ebc2d3e4
+ms.sourcegitcommit: 727d28cff074124b5401f6c2931f87df3a9d2d23
+ms.openlocfilehash: 7b1c6f0e380c03d048686462682fc1cee85b7cfa
 
 
 ---
@@ -53,6 +53,6 @@ ms.openlocfilehash: c721df29fd71963feb151af71eea9ee7ebc2d3e4
 [Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO5-->
 
 

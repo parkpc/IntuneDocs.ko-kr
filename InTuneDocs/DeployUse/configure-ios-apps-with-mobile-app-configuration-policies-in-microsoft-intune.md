@@ -4,7 +4,7 @@ description: "Intune에서 모바일 앱 구성 정책을 사용하여 사용자
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: fc6b645a-e837-4b2a-a10f-144065cbd8dd
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f8808c064589128f7daae810ffbcb3595270685d
-ms.openlocfilehash: 953bb702fde1d51303aceff6f84fa62999c5ab57
+ms.sourcegitcommit: 727d28cff074124b5401f6c2931f87df3a9d2d23
+ms.openlocfilehash: 917761ab6be2ccd94f32e7d2f12c0ed18d335d41
 
 
 ---
@@ -75,12 +75,12 @@ Intune에서는 속성 목록에서 다음과 같은 데이터 형식을 지원�
     
 - &lt;integer&gt;
 - &lt;real&gt;
-- &lt;string&gt;
+- &lt;문자열&gt;
 - &lt;array&gt;
 - &lt;dict&gt;
 - &lt;true /&gt; 또는 &lt;false /&gt;
      
-데이터 형식에 대한 자세한 내용은 iOS 개발자 라이브러리의 [속성 목록 정보](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/AboutPropertyLists/AboutPropertyLists.html) 를 참조하세요.
+데이터 형식에 대한 자세한 내용은 iOS Developer Library의 [속성 목록 정보](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/AboutPropertyLists/AboutPropertyLists.html) 를 참조하세요.
 
 또한 Intune에서는 속성 목록에서 다음과 같은 토큰 형식을 지원합니다.
 - \{\{userprincipalname\}\} - (예: **John@contoso.com**)
@@ -139,6 +139,6 @@ Intune에서는 속성 목록에서 다음과 같은 데이터 형식을 지원�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

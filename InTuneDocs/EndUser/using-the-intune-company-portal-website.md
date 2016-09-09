@@ -3,8 +3,8 @@ title: "Intune 회사 포털 웹 사이트 사용 | Microsoft Intune"
 description: "회사 포털 웹 사이트에 대해 설명하고 웹 사이트에서 수행할 수 있는 작업 단계로 연결되는 링크를 제공합니다."
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 06/03/2016
+manager: angrobe
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: a26d9e3c-8f58-4494-9571-fc88ba91852e
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 118a25b6ebb156c4ed642fee8802ef6a54582f8e
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: 558840491a701347e23697cee22c52c1218bc6af
 
 
 ---
@@ -24,19 +24,19 @@ ms.openlocfilehash: 118a25b6ebb156c4ed642fee8802ef6a54582f8e
 
 회사 포털 웹 사이트를 사용하여 다음을 수행할 수 있습니다.
 
--   [장치 암호 재설정](reset-your-passcode-cpwebsite.md)
-
 -   [장치 이름 바꾸기](rename-your-device-cpwebsite.md)
 
 -   [장치 제거](remove-your-device-cpwebsite.md)
 
 -   [장치 재설정](reset-your-device-cpwebsite.md)
 
+-   [장치 암호 재설정](reset-your-passcode-cpwebsite.md)
+
 -   [장치 원격 잠금](remote-lock-your-device-cpwebsite.md)
 
 -   [느린 앱 설치 속도를 높이기 위해 장치를 수동으로 동기화](sync-your-device-manually-cpwebsite.md)
 
--   IT 관리자가 연락처 정보를 구성한 경우 IT 관리자의 연락처 정보 찾기. 
+-   IT 관리자가 연락처 정보를 구성한 경우 IT 관리자의 연락처 정보 찾기.
 
 -   회사 또는 학교의 정책을 준수할지 여부를 포함한 장치에 대한 세부 정보를 참조하세요.
 
@@ -50,6 +50,6 @@ ms.openlocfilehash: 118a25b6ebb156c4ed642fee8802ef6a54582f8e
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO5-->
 
 

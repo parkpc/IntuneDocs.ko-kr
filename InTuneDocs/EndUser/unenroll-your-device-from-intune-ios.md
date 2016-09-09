@@ -3,8 +3,8 @@ title: "Intune에서 iOS 장치 등록 취소 | Microsoft Intune"
 description: "Intune에서 iOS 장치 등록을 취소하는 방법을 설명합니다."
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: e8572d873ca83f4fad7a1e1e01f60ece3f1319a6
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: af520ef10b50631bafdfdf4d240a8e2541f5c3d6
 
 
 ---
@@ -27,7 +27,7 @@ Intune에서 iOS 장치 등록을 취소하면 장치가 더 이상 회사 리�
 
 Intune에서 장치 등록을 취소하려면 다음 단계를 따르거나 이 비디오를 시청하세요.
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/watch?v=6UFtBrBWUUI&feature=youtu.be" frameborder="0" allowfullscreen></iframe>
+<iframe width="675" height="379" src="https://www.youtube.com/embed/6UFtBrBWUUI" frameborder="0" allowfullscreen></iframe>
 
 
 1.  회사 포털 앱의 **내 장치**아래에서 등록을 취소할 장치를 선택합니다.
@@ -54,10 +54,9 @@ Intune에서 장치를 등록 취소하면 다음과 같은 일이 발생합니�
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
-### 참고 항목
-[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO5-->
 
 

@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 0d1b9b16df643004aca7fd620f738d226a6ebb07
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: 7fe6918a3dae009e68f19e1fb005414704aee7f7
 
 
 ---
@@ -29,14 +29,12 @@ IT 관리자에게 주소가 지정된 메일이 자동으로 만들어지고, �
 
 여러 가지 방법으로 IT 관리자에게 오류와 관련하여 도움이 되는 장치 데이터 로그를 보낼 수 있습니다.
 
-[USB 케이블을 사용하여 로그 보내기](send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android.md)</br>
-[전자 메일을 사용하여 로그 보내기](send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md)
-
-### 참고 항목
-[Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
+- [USB 케이블을 사용하여 로그 보내기](send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android.md)
+- [전자 메일을 사용하여 로그 보내기](send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+
+<!--HONumber=Aug16_HO5-->
 
 
