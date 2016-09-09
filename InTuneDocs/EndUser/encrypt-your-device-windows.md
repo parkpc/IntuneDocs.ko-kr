@@ -4,7 +4,7 @@ description: "Windows 장치를 암호화하는 방법을 설명합니다."
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 06/03/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 8d022ea7-d9b6-43c4-adcd-4f6421606a7f
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
-ms.openlocfilehash: 6f7da9c3df479e8664b4425c1fec1c655fd103b4
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: f42ef4e3f5e4592ed6f3d5ec3a3c75d1599022f9
 
 
 ---
@@ -32,12 +32,10 @@ ms.openlocfilehash: 6f7da9c3df479e8664b4425c1fec1c655fd103b4
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
-### 참고 항목
-[Intune에서 Windows 장치 등록](enroll-your-device-in-intune-windows.md)</br>
-[Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
 
-<!--HONumber=Jul16_HO4-->
+
+<!--HONumber=Aug16_HO5-->
 
 

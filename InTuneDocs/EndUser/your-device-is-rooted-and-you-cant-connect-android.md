@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 472dc010232c6720873b4c2f697c853a410c72e1
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: b8bc9cca66d35147b5bb235f2e01c3867104d1ee
 
 
 ---
@@ -32,11 +32,9 @@ Android 장치가 루팅된 경우 회사 리소스 및 보안을 손상시킬 �
 - 루트 검색 소프트웨어에서 보안 위협으로 간주하는 소프트웨어를 장치 제조업체에서 장치에 설치했을 수 있습니다. 도움이 필요하면 IT 관리자에게 문의해야 합니다. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
-### 참고 항목
-[Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

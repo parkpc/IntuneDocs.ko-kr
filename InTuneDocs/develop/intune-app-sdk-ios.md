@@ -13,8 +13,8 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b7f62c5ee18d8f69fa174f09a1c46b6925c7517c
-ms.openlocfilehash: 820ec2da0554f0af383895482241be7d1c0cf305
+ms.sourcegitcommit: 63d94a83a3a5ad9520abab3ef25e8d9690c26ce7
+ms.openlocfilehash: 512ef2416e14f2a44e1c46e996c8519b5776581f
 
 
 ---
@@ -26,7 +26,7 @@ ms.openlocfilehash: 820ec2da0554f0af383895482241be7d1c0cf305
 
 iOS용 Microsoft Intune 앱 SDK를 사용하면 iOS 앱에 Intune MAM(모바일 앱 관리)을 통합할 수 있습니다. MAM 사용이 가능한 응용 프로그램은 Intune 앱 SDK와 통합된 응용 프로그램으로, IT 관리자가 앱을 적극적으로 관리할 때 모바일 앱에 정책을 배포할 수 있게 해줍니다.
 
-# SDK에 포함된 내용
+## SDK에 포함된 내용
 
 iOS용 Intune 앱 SDK에는 정적 라이브러리, 리소스 파일, API 헤더, 디버그 설정 plist 및 구성기 도구가 포함되어 있습니다. 모바일 앱은 단순히 리소스 파일을 포함하고 대부분 정책 적용을 위해 라이브러리에 정적으로 연결할 수 있습니다. 고급 Intune MAM 기능은 API를 통해 적용됩니다.
 이 가이드에서는 iOS용 Intune 앱 SDK를 통합할 때 다음을 사용하는 방법을 설명합니다.
@@ -37,13 +37,13 @@ iOS용 Intune 앱 SDK에는 정적 라이브러리, 리소스 파일, API 헤더
 
 * **헤더**: Intune 앱 SDK API를 표시합니다. API를 사용하는 경우 API가 포함된 헤더 파일을 포함해야 합니다. 
 
-# Intune 앱 SDK의 작동 방식
+## Intune 앱 SDK의 작동 방식
 
 iOS용 Intune 앱 SDK의 목적은 최소한의 코드 변경으로 iOS 응용 프로그램에 관리 기능을 추가하는 것입니다. 코드 변경량을 줄이면 모바일 응용 프로그램의 일관성 및 안정성이 증가하는 동시에 시장 출시 시간이 단축됩니다. 
 
 응용 프로그램이 정적 라이브러리에 연결되고 리소스 번들을 포함해야 합니다. MAMDebugSettings.plist 파일은 선택 사항이며, Microsoft Intune을 통해 응용 프로그램을 배포하지 않고도 응용 프로그램에 적용되는 MAM 정책을 시뮬레이트하기 위해 패키지에 포함될 수 있습니다. 또한 디버그 빌드에서는 iTunes 파일 공유를 통해 응용 프로그램의 문서 디렉터리에 MAMDebugSettings.plist 파일을 전송하여 MAMDebugSettings.plist 파일의 정책을 적용할 수 있습니다.
 
-# Intune 앱 SDK를 사용하여 앱 빌드 
+## Intune 앱 SDK를 사용하여 앱 빌드 
 
 Intune 앱 SDK를 사용하도록 설정하려면 아래 단계를 완료합니다.
 
@@ -133,7 +133,7 @@ Intune 앱 SDK를 사용하도록 설정하려면 아래 단계를 완료합니�
 
 모바일 응용 프로그램이 해당 인증에 ADAL를 사용하는 경우 이 문서의 "Azure Directory 인증 라이브러리 설정 구성" 섹션을 검토하세요.
 
-## 원격 분석 
+### 원격 분석 
 
 iOS용 Intune 앱 SDK는 기본적으로 Microsoft Intune에 전송된 사용 이벤트에 대한 원격 분석 데이터를 기록합니다.
 
@@ -155,15 +155,15 @@ Intune 앱 SDK는 해당 인증 및 조건부 시작 시나리오에 ADAL을 사
 
 2. 프로젝트 `Info.plist`의 `IntuneMAMSettings` 사전 아래에서 ADAL 호출에 사용할 `ADALRedirectUri`로 지정합니다. 앱의 리디렉션 URI 형식에 따라 `ADALRedirectScheme` 을 지정해야 할 수도 있습니다.
 
-## 사용자 확장 빌드(옵션) 
+### 사용자 확장 빌드(옵션) 
 
 확장을 빌드하는 경우 이 문서의 "Intune 앱 SDK를 사용하여 앱 빌드" 섹션에 설명된 것과 동일한 지침에 따라 모바일 앱을 빌드합니다. 또한 각 확장의 info.plist 파일을 업데이트하여 IntuneMAMSettings 사전에 ContainingAppBundleId 키를 포함 응용 프로그램의 번들 ID 값으로 추가합니다.
 
-## 사용자 프레임워크 빌드(옵션)
+### 사용자 프레임워크 빌드(옵션)
 
 Intune 앱 SDK의 최신 변경 내용에서는 모바일 앱에 포함된 응용 프로그램 프레임워크가 있는 경우 특정 링커 플래그를 사용하여 모바일 앱을 컴파일할 필요가 없습니다. 
 
-## 시작 시 이미지 파일(옵션)
+### 시작 시 이미지 파일(옵션)
 
 MAM 사용이 가능한 앱이 Microsoft Intune에서 적극적으로 관리되는 경우 Intune 앱 SDK는 앱 시작 시 시작 화면을 표시하여 앱이 관리되고 있음을 사용자에게 나타냅니다. 필요에 따라 "회사에서 관리" 시작 페이지에 표시할 이미지 파일을 추가할 수도 있습니다. 이미지에 대한 다음 지침을 따르세요.
 
@@ -179,7 +179,7 @@ MAM 사용이 가능한 앱이 Microsoft Intune에서 적극적으로 관리되�
 
 **참고**: 이 화면은 시작 시 트리거되지만 사용자가 영구적으로 해제할 수 있습니다.
 
-# Intune 앱 SDK 설정 구성
+## Intune 앱 SDK 설정 구성
 
 응용 프로그램의 `IntuneMAMSettings` 에 포함된 `info.plist` 사전을 사용하여 Intune 앱 SDK를 구성합니다. 다음은 지원되는 모든 설정 목록입니다. 
 
@@ -197,7 +197,7 @@ SplashIconFile <br>SplashIconFile~ipad  | 문자열  | Intune 시작 아이콘 �
 SplashDuration | 숫자 | 응용 프로그램 시작 시 Intune 시작 화면이 표시되는 최소 시간(초)입니다. 기본값은 1.5입니다. | 선택 사항입니다.
 ADALLogOverrideDisabled | 부울  | SDK에서 모든 ADAL 로그(있는 경우 앱에서의 ADAL 호출 포함)를 해당 로그 파일로 라우팅할지 여부를 지정합니다. 기본값은 NO입니다. 앱이 해당 ADAL 로그 콜백을 설정하려는 경우 YES로 설정합니다. | 선택 사항입니다.
 
-# Intune 앱 SDK에 대한 헤더 
+## Intune 앱 SDK에 대한 헤더 
 
 다음 헤더에는 Intune 앱 SDK의 기능을 사용하도록 설정하는 데 필요한 API 함수 호출이 포함됩니다. 
 
@@ -209,7 +209,7 @@ ADALLogOverrideDisabled | 부울  | SDK에서 모든 ADAL 로그(있는 경우 �
     IntuneMAMPolicyDelegate.h
     IntuneMAMLogger.h
 
-# Xcode에서 Intune 앱 SDK 디버그
+## Xcode에서 Intune 앱 SDK 디버그
 
 Microsoft Intune을 사용하여 MAM 사용이 가능한 앱을 테스트하기 전에 Xcode에서 `Settings.bundle` 을 사용할 수 있습니다. 그러면 Intune에 연결하지 않고도 테스트 정책을 설정할 수 있습니다. 사용하도록 설정하려면
 
@@ -230,7 +230,7 @@ Microsoft Intune을 사용하여 MAM 사용이 가능한 앱을 테스트하기 
 > [!NOTE]
 > 이제 "설정 -> Your-App-Name > 테스트 정책 사용"을 통해 설정을 사용하도록 설정하고 전환할 수 있습니다.
 
-# 권장되는 iOS 모범 사례
+## 권장되는 iOS 모범 사례
 
 다음은 iOS용으로 개발할 때 권장되는 몇 가지 모범 사례입니다.
 
@@ -241,6 +241,6 @@ Xcode에서 `libIntuneMAM.a`를 찾는 데 문제가 있는 경우 링커 검색
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO5-->
 
 

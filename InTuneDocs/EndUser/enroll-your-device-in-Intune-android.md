@@ -13,8 +13,8 @@ ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 46479cfe3d2648eefbaefd0a831af2412b509fce
-ms.openlocfilehash: e920f133aeaf0b0a938e07b4923869318a902d57
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: 6fa1e13b6b0e29144c3740f00b232807e6e4e984
 
 
 ---
@@ -112,11 +112,10 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) Microsoft Android 팀(wintunedroidfbk@microsoft.com)으로 전자 메일을 보내세요.
 
 
-### 참고 항목
-[Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO2-->
+
+<!--HONumber=Aug16_HO5-->
 
 

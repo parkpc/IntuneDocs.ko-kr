@@ -4,7 +4,7 @@ description: "Intune에서 Mac OS X 장치를 등록하는 방법을 설명합�
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 05/30/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
-ms.openlocfilehash: 9e3c351591f496fbc7be3fefdc320af9caaae726
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: 0460982186386378d5461861d9098ac3269e6fd0
 
 
 ---
@@ -50,11 +50,9 @@ Mac OS X 장치를 등록하려면
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
-### 참고 항목
-[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

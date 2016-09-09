@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: aea4ebfce23397ce93305e1ed68f71cd9d7289f9
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: 422ba36116c9a53afe6f3e0d74552231db585e35
 
 
 ---
@@ -35,11 +35,10 @@ ms.openlocfilehash: aea4ebfce23397ce93305e1ed68f71cd9d7289f9
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
-### 참고 항목
-[Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+
+<!--HONumber=Aug16_HO5-->
 
 

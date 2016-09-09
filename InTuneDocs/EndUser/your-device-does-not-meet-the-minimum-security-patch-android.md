@@ -4,7 +4,7 @@ description:
 keywords: 
 author: staciebarker
 manager: angrobe
-ms.date: 06/16/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,8 @@ ms.technology:
 ms.assetid: b3e5994c-d215-4c72-8915-349bd0b2504d
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 83fd5ebdabe092c46cb17aee5cc5c603386b1b70
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: ee858ef820cb78e05078b24fff023f29134b1dcf
 
 
 ---
@@ -38,11 +38,10 @@ ms.openlocfilehash: 83fd5ebdabe092c46cb17aee5cc5c603386b1b70
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
-### 참고 항목
-[Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+
+<!--HONumber=Aug16_HO5-->
 
 

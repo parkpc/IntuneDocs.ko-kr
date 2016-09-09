@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: bb167905334886306b0abc9241f378216fc201d7
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: 7f355511063fc4042b605f1f1980fee625009e66
 
 
 ---
@@ -33,11 +33,10 @@ PC를 사용하는 경우 IT 관리자에게 문의하거나, [보안 부팅 사
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
-### 참고 항목
-[Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+
+<!--HONumber=Aug16_HO5-->
 
 

@@ -4,15 +4,15 @@ description: "Intune에 여러 장치를 등록하는 방법에 대한 정보가
 keywords: 
 author: staciebarker
 manager: angrobe
-ms.date: 06/06/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
 ms.technology: 
 ms.assetid: b51dbdd6-aaa3-48dd-a47f-9d01a4ca37f6
 translationtype: Human Translation
-ms.sourcegitcommit: fc18b9f1caf9f0e6c6b1c8d21d95f42a0c40c507
-ms.openlocfilehash: 8d3cc70379fdba7c7e3f6c0c82bc6bfb7b534b2c
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: 5ea154c58207b1ddcce8c51c0cd039532bda4cad
 
 
 ---
@@ -23,18 +23,15 @@ ms.openlocfilehash: 8d3cc70379fdba7c7e3f6c0c82bc6bfb7b534b2c
 
 등록 지침을 보려면 다음 중에서 사용하는 장치 유형에 해당하는 링크를 사용합니다.
 
-- [Intune에서 Android 장치 등록](enroll-your-device-in-Intune-android.md)</br>
-- [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md)</br>
-- [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md)</br>
-- [Intune에서 Windows 장치 등록](enroll-your-device-in-intune-windows.md)</br>
-
-### 참고 항목
-- [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)</br>
-- [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)</br>
-- [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
+- [Intune에서 Android 장치 등록](enroll-your-device-in-Intune-android.md)
+- [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md)
+- [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md)
+- [Intune에서 Windows 장치 등록](enroll-your-device-in-intune-windows.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+
+
+<!--HONumber=Aug16_HO5-->
 
 

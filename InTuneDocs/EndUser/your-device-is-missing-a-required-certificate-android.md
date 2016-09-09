@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: e10de556babc49d4e2f1ebf6ba9c766291d58efd
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: 6740962e55b1232330c6fab43ce1250a54e3a97b
 
 
 ---
@@ -96,11 +96,10 @@ Android 장치가 Intune에 등록되어 있지 않고 IT 관리자에게 필요
 
 위에 표시된 것과 동일한 "인증서 없음" 메시지가 표시되고 위에 단계를 이미 진행했으면 IT 관리자가 설치에 도움을 주어야 하는 다른 인증서가 아직 있는 것일 수 있습니다. IT 관리자에게 문의하고 문제 해결 단계가 포함된 이 [링크](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune#android-certificate-issues)를 제공합니다.
 
-### 참고 항목
-[Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+
+<!--HONumber=Aug16_HO5-->
 
 
