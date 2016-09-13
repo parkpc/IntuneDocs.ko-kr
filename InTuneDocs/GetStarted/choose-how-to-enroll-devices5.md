@@ -13,8 +13,8 @@ ms.assetid: ed9250aa-e894-4eac-92b8-5f1a3748e255
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: a5f80058e004f119acc9a918123c897b72b71314
-ms.openlocfilehash: 026ac12f12046f59eaac6e8bedc0669bcd93fb75
+ms.sourcegitcommit: 899f50cfec9e7c20d2981c077f93e0fccf37dc2b
+ms.openlocfilehash: fea9e10de761fa1bacfb87d07ce571d40f8286bc
 
 
 ---
@@ -26,7 +26,11 @@ ms.openlocfilehash: 026ac12f12046f59eaac6e8bedc0669bcd93fb75
 ## **공유 iOS 장치는 어떻게 관리해야 하나요?**
 
   > [!div class="button"]
-  [iOS DEP 등록 >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune)<br>[iOS 직접 등록 >](/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune)<br>[DEM 등록 >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
+  [iOS DEP 등록 >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune)
+  > [!div class="button"]
+  [iOS 직접 등록 >](/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune)
+  > [!div class="button"]
+  [DEM 등록 >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
 
   - **Apple의 DEP(장치 등록 프로그램)** - DEP로 구입되고 관리되는 iOS 장치는 등록 프로필을 사용하여 대상으로 지정될 수 있습니다. 사용자가 처음으로 장치를 켤 때 장치는 DEP 프로필을 다운로드하고 프로필 DEP를 사용하여 등록됩니다.
 
@@ -39,6 +43,6 @@ ms.openlocfilehash: 026ac12f12046f59eaac6e8bedc0669bcd93fb75
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: 24b8ecbf-7336-4543-8094-32688bda0b8f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: a5f80058e004f119acc9a918123c897b72b71314
-ms.openlocfilehash: 43bbb8590738182a26efcbeead1e59eff9e5f20d
+ms.sourcegitcommit: 899f50cfec9e7c20d2981c077f93e0fccf37dc2b
+ms.openlocfilehash: fc2f95b0e780b42dbeab977c340f3b2b7c9881e5
 
 
 ---
@@ -25,7 +25,9 @@ ms.openlocfilehash: 43bbb8590738182a26efcbeead1e59eff9e5f20d
 ## **회사 소유 장치가 공유되나요, 아니면 전용 사용자에게 제공되나요?**
 
 > [!div class="button"]
-[공유 >](choose-how-to-enroll-devices4.md)<br>[전용 >](choose-how-to-enroll-devices6.md)
+[공유 >](choose-how-to-enroll-devices4.md)
+> [!div class="button"]
+[전용 >](choose-how-to-enroll-devices6.md)
 
 - **공유 회사 소유 장치** - 이러한 장치는 단일 사용자에게 발급되지 않으며 일반적으로 메일에 액세스하도록 구성되지 않습니다. 예로는 사용자가 필요에 따라 풀에서 꺼낸 다음 반환하는 키오스크 장치나 작업 지향 장치가 있습니다. 권장되는 등록 방법은 장치의 플랫폼에 따라 달라집니다.
 
@@ -36,6 +38,6 @@ ms.openlocfilehash: 43bbb8590738182a26efcbeead1e59eff9e5f20d
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 
