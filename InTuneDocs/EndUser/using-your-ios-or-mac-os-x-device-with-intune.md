@@ -14,16 +14,16 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 11760810110ddb34e1a5371ce45206212eab0790
-ms.openlocfilehash: 83564abcfcbb6597656e19031e5af1c7d7a3252d
+ms.sourcegitcommit: 20101b6c65bcab413441e16b3ac6a08a982e6a28
+ms.openlocfilehash: 3794a610996f5001e52f4d19d4cdafd849de3455
 
 
 ---
 
 # Using your iOS or Mac OS X device with Intune
 
-이 문서에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 작업에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 작업(다음과 같은 범주로 그룹화되어 있음) 수행을 위해 사용자가 따르는 단계를 확인할 수 있습니다. 
-- 회사 포털 앱 설치 및 Intune 등록 
+이 문서에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 태스크에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 태스크 수행을 위해 사용자가 따라야 하는 단계를 확인할 수 있습니다. 이러한 태스크는 다음과 같은 범주로 그룹화됩니다.
+- 회사 포털 앱을 설치 및 Intune 등록
 - 등록 후 관리 작업
 - 규정 준수 문제
 
@@ -38,7 +38,7 @@ ms.openlocfilehash: 83564abcfcbb6597656e19031e5af1c7d7a3252d
 
 ## 장치가 Intune에 등록되어 있는 경우 수행할 수 있는 작업
 
-이 섹션의 정보는 Intune에 iOS 장치가 등록된 후 수행할 수 있는 작업에 도움이 됩니다.
+이 섹션에서는 Intune에서 iOS 장치를 등록한 후에 수행할 수 있는 작업에 도움이 되는 정보를 제공합니다.
 
 - [장치에서 관리되는 앱 사용](use-managed-apps-on-your-device-ios.md)
 - [암호 설정 또는 변경](set-or-change-your-passcode-ios.md)
@@ -64,6 +64,6 @@ ms.openlocfilehash: 83564abcfcbb6597656e19031e5af1c7d7a3252d
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO5-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8fe47a5843414fbe4add7f77df63c0d6466273cd
-ms.openlocfilehash: f15fce6890d6e5850d12115a97bf7331ce515508
+ms.sourcegitcommit: bf8da72092a2380e73cfbed2a693831706b40d23
+ms.openlocfilehash: c005a1b38289580b1543e0e62cbb4cd00cb22c47
 
 
 
@@ -22,14 +22,14 @@ ms.openlocfilehash: f15fce6890d6e5850d12115a97bf7331ce515508
 # 미리 공유한 키를 사용하여 Wi-Fi 프로필 만들기
 Intune의 **사용자 지정 구성**을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만드는 방법은 다음과 같습니다. 이 항목에서는 EAP 기반 Wi-Fi 프로필을 만드는 방법에 대한 예도 포함합니다.
 
-참고:
--   아래 설명된 대로 네트워크에 연결된 컴퓨터에서 코드를 손쉽게 복사할 수 있음을 알 수 있습니다.
+> [!NOTE]
+-   아래 설명된 대로 네트워크에 연결하는 컴퓨터에서 코드를 복사하면 작업을 좀 더 쉽게 수행할 수 있습니다.
 - Android의 경우 Johnathon Biersack이 제공하는 이 [Android PSK 생성기](http://johnathonb.com/2015/05/intune-android-pre-shared-key-generator/)를 사용하는 옵션도 포함합니다.
 -   더 많은 OMA-URI 설정을 추가하여 여러 네트워크와 키를 추가할 수 있습니다.
--  iOS의 경우 Mac 스테이션에서 프로필을 구성하는 데 Apple Configurator를 사용합니다. 또는 Johnathon Biersack이 제공하는 이 [iOS PSK Mobile Config Generator](http://johnathonb.com/2015/05/intune-ios-psk-mobile-config-generator/)를 사용합니다.
+-  iOS의 경우 Mac 스테이션의 Apple Configurator를 사용하여 프로필을 설정합니다. 또는 Johnathon Biersack이 제공하는 이 [iOS PSK Mobile Config Generator](http://johnathonb.com/2015/05/intune-ios-psk-mobile-config-generator/)를 사용합니다.
 
 
-1.  Android 또는 Windows에 대해 미리 공유한 키를 사용하여 Wi-Fi 프로필을 만들거나 EAP 기반 Wi-Fi 프로필을 만들려면 정책을 만들 때 Wi-Fi 프로필보다는 해당 장치 플랫폼에 대한 **사용자 지정 구성**을 선택합니다.
+1.  Android 또는 Windows용으로 미리 공유한 키를 사용하여 Wi-Fi 프로필을 만들거나 EAP 기반 Wi-Fi 프로필을 만들려면 정책을 만들 때 Wi-Fi 프로필이 아닌 해당 장치 플랫폼용 **사용자 지정 구성**을 선택합니다.
 
 2.  이름 및 설명을 제공합니다.
 3.  새 OMA-URI 설정을 추가합니다.
@@ -40,18 +40,27 @@ Intune의 **사용자 지정 구성**을 사용하여 미리 공유한 키로 Wi
 
    c.   **데이터 형식**: "String(XML)"으로 설정합니다.
 
-   d.   **OMA URI** 
-        
-- **Android용**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
-- **Windows용**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
+   d.   **OMA URI**
 
-참고: 시작 부분에 점 문자를 포함해야 합니다.
+    - **Android용**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
+    - **Windows용**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
 
-SSID는 정책을 만들고 있는 SSID입니다. 예:
-`./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`
+    > [!NOTE]
+시작 부분에 점 문자를 포함해야 합니다.
 
-  e.    값 필드: XML 코드를 붙여 넣을 위치입니다. 아래 예를 살펴보세요. 각 값을 네트워크 설정에 맞게 조정해야 합니다. 일부 포인터에 대해서는 코드의 주석 섹션을 참조하세요.
+    SSID는 정책을 만들고 있는 SSID입니다. 예:
+    `./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`
 
+  e. **값 필드**에 XML 코드를 붙여넣습니다. 아래 예를 살펴보세요. 각 값을 네트워크 설정에 맞게 조정해야 합니다. 일부 포인터에 대해서는 코드의 주석 섹션을 참조하세요.
+4. **확인**을 선택하고 정책을 저장한 다음 배포합니다.
+
+    > [!NOTE]
+이 정책은 사용자 그룹에만 배포할 수 있습니다.
+
+다음에 각 장치가 체크인되면 정책이 적용되고 해당 장치에 Wi-Fi 프로필이 만들어집니다. 장치를 네트워크에 자동으로 연결할 수 있게 됩니다.
+## Android 또는 Windows Wi-Fi 프로필
+
+Android 또는 Windows Wi-Fi 프로필의 XML 코드 예제는 다음과 같습니다.
 
     <!--
     <Name of wifi profile> = Name of profile
@@ -173,25 +182,23 @@ EAP 기반 Wi-Fi 프로필에 대한 XML 코드 예제는 다음과 같습니다
       </MSM>
     </WLANProfile>
 
-4.  확인을 클릭한 후 정책을 저장 및 배포합니다.
-참고. 이 정책은 사용자 그룹에만 배포할 수 있습니다.
-
-다음에 각 장치가 체크인되면 정책이 적용되고 해당 장치에 Wi-Fi 프로필이 만들어집니다. 장치를 네트워크에 자동으로 연결할 수 있게 됩니다.
 ## 기존 Wi-Fi 연결에서 XML 파일 만들기
 기존 Wi-Fi 연결에서 XML 파일을 만들 수도 있습니다.
-1.     무선 네트워크에 연결되어 있거나 최근에 연결된 컴퓨터에서 C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces\{guid} 폴더를 엽니다. 적합한 것을 찾기 위해 각 프로필을 통해 검색해야 하므로 여러 무선 네트워크에 연결되지 않은 컴퓨터를 사용하는 것이 좋습니다.
+1. 무선 네트워크에 연결되어 있거나 최근에 연결된 컴퓨터에서 C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces\{guid} 폴더를 엽니다.
+
+    각 프로필을 검색하여 적합한 프로필을 찾아야 하므로 여러 무선 네트워크에 연결되지 않은 컴퓨터를 사용하는 것이 가장 좋습니다.
 3.     XML 파일을 검색하여 올바른 이름의 항목을 찾습니다.
-4.     올바른 XML 파일을 찾았으면 XML 코드를 복사하여 OMA-URI 설정 페이지의 데이터 필드에 붙여 넣습니다.
+4.     올바른 XML 파일을 찾았으면 XML 코드를 복사하여 OMA-URI 설정 페이지의 데이터 필드에 붙여넣습니다.
 
 ## 정책 배포
 
-1.   **정책** 작업 영역에서 배포할 정책을 선택하고 **배포 관리**를 클릭합니다.
+1.  **정책** 작업 영역에서 배포할 정책을 선택한 다음 **배포 관리**를 선택합니다.
 
 2.   **배포 관리** 대화 상자에서
 
-    -   **정책을 배포하려면** - 정책을 배포하려는 그룹을 하나 이상 선택한 후 **추가** &gt; **확인**을 클릭합니다.
+    -   **정책을 배포하려면** 정책을 배포하려는 그룹을 하나 이상 선택하고 **추가** &gt; **확인**을 선택합니다.
 
-    -   **정책을 배포하지 않고 대화 상자를 닫으려면** - **취소**를 클릭합니다.
+    -   **정책을 배포하지 않고 대화 상자를 닫으려면** - **취소**를 선택합니다.
 
 배포한 정책을 선택하면 정책 목록 아래쪽에서 배포에 대한 추가 정보를 볼 수 있습니다.
 
@@ -200,6 +207,6 @@ EAP 기반 Wi-Fi 프로필에 대한 XML 코드 예제는 다음과 같습니다
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

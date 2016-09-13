@@ -13,8 +13,8 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e285cadd63e711ddf5d37b878d298b47bacf3333
-ms.openlocfilehash: 38273970b6bb6f576786e6a7a2aeaaa65ee07d37
+ms.sourcegitcommit: a1d0b330b42ea920af9512552a9f3d9c875e99da
+ms.openlocfilehash: 9e2b16a2ea16417864b82f4b025053d9c87fcb14
 
 
 ---
@@ -108,6 +108,8 @@ iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙�
     PC가 정책을 준수하는 것으로 간주되려면 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 PC를 등록해야 하며 정책을 준수하도록 설정해야 합니다.
 
     도메인에 가입된 PC의 경우 Azure Active Directory에 [장치를 자동으로 등록](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-automatic-device-registration/)하도록 설정해야 합니다.
+    >[!NOTE]
+    >Intune 컴퓨터 클라이언트를 실행 중인 PC에서는 조건부 액세스가 지원되지 않습니다.
 
 -   [Office 365 최신 인증을 사용](https://support.office.com/en-US/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a)하도록 설정해야 하며 최신 Office 업데이트를 모두 설치해야 합니다.
 
@@ -260,6 +262,6 @@ iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙�
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

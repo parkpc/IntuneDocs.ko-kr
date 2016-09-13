@@ -4,17 +4,17 @@ description: "등록된 장치를 관리하는 데 Microsoft Intune이 도움을
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 08/23/2016
+ms.date: 09/01/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: f23b3ee7-78da-4e53-9fc2-78e58401bcf9
-ms.reviewer: jeffgilb
+ms.reviewer: angrobe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a09c5e3349945cfdcb4ae9d3aa51aa3f7024330a
-ms.openlocfilehash: eab582d30408d1a57643e30ba4965bd08f6ce847
+ms.sourcegitcommit: ff6bfdc079e00f8a39cc532d1f6f9049aa6a32c8
+ms.openlocfilehash: 10dfecd41e68440a4c27aa7358dbbc88b6106001
 
 
 ---
@@ -46,7 +46,8 @@ Microsoft Intune에서 다양한 장치를 서비스에 *등록*하여 관리할
 |iOS 모바일 앱 구성|모바일 앱 구성 정책을 사용하여 사용자가 앱을 실행할 때 필요할 수 있는 iOS 앱에 대한 설정을 제공할 수 있습니다. 예를 들어 앱에서 사용자가 포트 번호 또는 로그온 정보를 지정하도록 요구할 수 있습니다. 이렇게 하면 앱 구성을 능률화하고 지원 요청 횟수를 줄이는 데 도움이 될 수 있습니다.|[Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성](/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)|
 |iOS 모바일 앱 프로비전 프로필|곧 만료되는 iOS 앱에 프로비전 프로필을 배포하는 데 도움이 됩니다. |[iOS 프로비전 프로필 정책을 사용하여 모바일 앱이 만료되지 않도록 방지](/intune/deploy-use/ios-mobile-app-provisioning-profiles)|
 |관리되는 브라우저|장치 사용자가 방문할 수 있는 웹 사이트를 제어하도록 관리되는 브라우저 정책을 구성합니다. 또한 관리되는 브라우저에 모바일 응용 프로그램 관리 정책을 적용할 수도 있습니다.|[Microsoft Intune에서 관리 브라우저 정책을 사용하여 인터넷 액세스 관리](/intune/deploy-use/manage-internet-access-using-managed-browser-policies)|
-|Microsoft Passport|온- 프레미스 Active Directory 또는 Azure Active Directory를 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 Windows 10의 대체 로그인 방법인 Microsoft Passport for Work와 통합할 수 있습니다.|[Microsoft Intune으로 장치의 Microsoft Passport 설정 제어](/intune/deploy-use/control-microsoft-passport-settings-on-devices-with-microsoft-intune)|
+|비즈니스용 Windows Hello|온-프레미스 Active Directory를 사용하는 Windows 10 또는 Azure Active Directory에서 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 로그인 방법인 비즈니스용 Windows Hello를 통합할 수 있습니다.|[Microsoft Intune을 사용하는 장치에서 비즈니스용 Windows Hello 설정 제어](/intune/deploy-use/control-microsoft-passport-settings-on-devices-with-microsoft-intune)|
+|대량 구매 앱|앱 스토어에서 라이선스 정보를 가져오고, 사용한 라이선스 수를 추적하고, 소유한 라이선스보다 많은 앱을 설치하지 못하도록 차단하는 방식으로 대량 구매 프로그램을 통해 구매한 앱을 관리할 수 있습니다.|[Microsoft Intune을 사용하여 대량 구매 앱 관리](/intune/deploy-use/manage-volume-purchased-apps-in-microsoft-intune)|
 
 ## 회사 리소스 액세스
 
@@ -70,6 +71,6 @@ Microsoft Intune에서 다양한 장치를 서비스에 *등록*하여 관리할
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO1-->
 
 

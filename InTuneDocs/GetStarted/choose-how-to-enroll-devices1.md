@@ -13,8 +13,8 @@ ms.assetid: d2989e39-9b76-411b-b6fb-7209adb3bfb6
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: 08d4352ef88a266d05047d386247815f3765f552
-ms.openlocfilehash: d4fc57f50e2adf70a49f64174f85dd03709e8ce3
+ms.sourcegitcommit: a5f80058e004f119acc9a918123c897b72b71314
+ms.openlocfilehash: 7474d6fc583c2fd514cfd0b2d0dfd497b1d14480
 
 
 ---
@@ -26,7 +26,7 @@ ms.openlocfilehash: d4fc57f50e2adf70a49f64174f85dd03709e8ce3
 ## **직원들이 조직에 개인용 장치를 가져오나요(BYOD), 아니면 조직에서 장치를 제공하나요(COD)?**
 
 > [!div class="button"]
-[BYOD >](choose-how-to-enroll-devices2.md)   [COD >](choose-how-to-enroll-devices3.md)
+[BYOD >](choose-how-to-enroll-devices2.md)<br>[COD >](choose-how-to-enroll-devices3.md)
 
 - **사용자 소유 장치** - "BYOD"(Bring Your Own Device) 등록 – 사용자가 장치에 Intune 회사 포털 앱을 설치하고 메일, 회사 앱, 회사 데이터 및 지원과 같은 회사 리소스에 액세스할 수 있습니다.  
 
@@ -34,6 +34,6 @@ ms.openlocfilehash: d4fc57f50e2adf70a49f64174f85dd03709e8ce3
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO5-->
 
 

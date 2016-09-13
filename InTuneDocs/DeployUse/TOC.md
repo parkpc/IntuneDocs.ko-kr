@@ -9,8 +9,9 @@
 ## [장치 등록](enroll-devices-in-microsoft-intune.md)
 ### [Intune에서 장치 등록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
 #### [iOS 및 Mac 관리](set-up-ios-and-mac-management-with-microsoft-intune.md)
-#### [Windows 10 Mobile 및 Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)
+#### [Android 관리](set-up-android-management-with-microsoft-intune.md)
 #### [Windows 장치 관리 ](set-up-windows-device-management-with-microsoft-intune.md)
+#### [Windows 10 Mobile 및 Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)
 ### [회사 소유 장치 관리](manage-corporate-owned-devices.md)
 #### [회사 소유의 iOS 장치 등록](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)
 ##### [iOS 설치 도우미 등록](ios-setup-assistant-enrollment-in-microsoft-intune.md)
@@ -107,6 +108,7 @@
 #### [MAM 정책 만들기 및 배포](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
 #### [Android용 MAM 정책](android-mam-policy-settings.md)
 #### [iOS용 MAM 정책](ios-mam-policy-settings.md)
+#### [MAM 정책 유효성 검사](validate-mobile-application-management.md)
 #### [정책 준수 모니터링](monitor-mobile-app-management-policies-with-microsoft-intune.md)
 #### [iOS 앱 간의 데이터 전송 관리](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
 #### [최종 사용자 환경](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
@@ -135,6 +137,6 @@
 # [문제 해결](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Sep16_HO1-->
 
 
