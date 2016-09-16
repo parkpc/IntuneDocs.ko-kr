@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 005992d7d763b67db4d65aa30f19a209f82e3811
+ms.sourcegitcommit: 4386e9c545c3427060478e0fb3482074a8c1d5a0
+ms.openlocfilehash: ba1869e63d9c9e83199ecfde312129c548dd5f07
 
 
 ---
@@ -29,7 +29,7 @@ ms.openlocfilehash: 005992d7d763b67db4d65aa30f19a209f82e3811
 
 장치를 재설정하려면:
 
-1.  [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 열고 이름을 바꾸려는 장치를 탭합니다.
+1.  [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 열고 초기화하려는 장치를 탭합니다.
 
 2.  **초기화**를 탭합니다.
 
@@ -41,11 +41,10 @@ ms.openlocfilehash: 005992d7d763b67db4d65aa30f19a209f82e3811
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
-### 참고 항목
-[Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+
+<!--HONumber=Sep16_HO1-->
 
 

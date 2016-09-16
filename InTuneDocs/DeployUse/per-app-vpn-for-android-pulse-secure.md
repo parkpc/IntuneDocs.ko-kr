@@ -4,7 +4,7 @@ description: "Intune으로 관리되는 Android 장치용 앱별 VPN 프로필�
 keywords: 
 author: nbigman
 manager: angrobe
-ms.date: 07/21/2016
+ms.date: 08/28/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,17 @@ ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a2464a9d2276319f75a3da7db70c2613152bed9b
-ms.openlocfilehash: 177ed5f693b8f1ce16d96e1b3e729630d661475f
+ms.sourcegitcommit: eb2260f6bd37647d34871c9776dba3628d0aa8f6
+ms.openlocfilehash: a2af91827f3a5ebc549e7f474943f1b0cc6208dd
 
 
 ---
 
 # 사용자 지정 정책을 사용하여 Android 장치용 앱별 VPN 프로필 만들기
 
-Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만들 수 있습니다. 먼저 Pulse Secure 연결 형식을 사용하는 VPN 프로필을 만듭니다. 그런 다음 VPN 프로필을 특정 앱과 연결하는 사용자 지정 구성 정책을 만듭니다. 이 정책을 Android 장치 또는 사용자 그룹에 배포한 후 이러한 장치에서 지정된 앱 중 하나를 열면 해당 앱에 대한 VPN 연결이 열립니다.
+Intune으로 관리되는 Android 5.0 이상 장치용 앱별 VPN 프로필을 만들 수 있습니다. 먼저 Pulse Secure 연결 형식을 사용하는 VPN 프로필을 만듭니다. 그런 다음 VPN 프로필을 특정 앱과 연결하는 사용자 지정 구성 정책을 만듭니다. 
+
+Android 장치 또는 사용자 그룹에 정책을 배포한 후에 사용자가 PulseSecure VPN을 시작해야 합니다. 그러면 PulseSecure은 지정한 앱에서 생성되는 트래픽만 열린 VPN 연결을 사용하도록 허용합니다.
 
 > [!NOTE]
 >
@@ -49,8 +51,7 @@ Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만들 수 �
    6. **OMA-URI**로 **./Vendor/MSFT/VPN/Profile/*Name*/PackageList** 문자열을 지정합니다. 여기서 *Name*은 1단계에서 적어둔 VPN 프로필 이름입니다. 이 예제에서 문자열은 **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/PackageList**입니다.
    7.   **값**으로 프로필에 연결할 패키지가 세미콜론으로 구분된 목록을 만듭니다. 예를 들어 Excel 및 Google Chrome 브라우저에서 VPN 연결을 사용하려면 **com.microsoft.office.excel;com.android.chrome**과 같이 입력합니다.
 
-
-    ![Android 앱별 VPN 사용자 지정 정책의 예](..\media\android_per_app_vpn_oma_uri.png)
+![Android 앱별 VPN 사용자 지정 정책의 예](./media/android_per_app_vpn_oma_uri.png)
 
 #### 앱 목록을 블랙리스트 또는 허용 목록으로 설정(옵션)
   **블랙리스트** 값을 사용하여 VPN 연결을 사용*할 수 없는* 앱 목록을 지정할 수 있습니다. 다른 모든 앱은 VPN을 통해 연결됩니다.
@@ -76,6 +77,6 @@ Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만들 수 �
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO5-->
 
 

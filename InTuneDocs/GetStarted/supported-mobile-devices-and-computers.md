@@ -4,7 +4,7 @@ description: "Intune에서 지원하는 모바일 장치 및 컴퓨터"
 keywords: 
 author: barlanmsft
 manager: angrobe
-ms.date: 06/08/2016
+ms.date: 08/29/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,28 +13,31 @@ ms.assetid: aeeccfa4-0f14-447e-a3df-c8435c8a4bb2
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
-ms.openlocfilehash: 1bfeefc7f34eff22a3854e14db040b6d533d2e9e
+ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
+ms.openlocfilehash: e14a56fce0aa57b3744946d7dbf6641b8d98773b
 
 
 ---
 
 # 지원되는 모바일 장치 및 컴퓨터
 
-Microsoft Intune을 설정하기 전에 이 항목과 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)에 나열된 요구 사항을 검토합니다.
+Microsoft Intune을 설정하기 전에, 이 항목과 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md) 항목에 나열된 요구 사항을 검토합니다.
 
-다음과 같은 모바일 장치와 컴퓨터를 관리할 수 있습니다.
+등록한 후 다음 장치 유형을 관리할 수 있습니다.
 
 [!INCLUDE[mdm-supported-devices](../includes/mdm-supported-devices.md)]
 
-이러한 장치와 PC가 도메인에 가입되어 있지 않거나 사이트에 있지 않은 경우에도 해당 장치와 PC를 관리할 수 있습니다. 장치 관리에 대한 자세한 내용은 [장치를 관리하는 방법 선택](/Intune/get-started/choose-how-to-manage-devices)을 참조하세요.
+장치를 등록하면 [이러한 기능](/Intune/get-started/choose-how-to-manage-devices)이 제공됩니다.
 
+또는 Intune PC 클라이언트 소프트웨어로 Windows PC를 관리할 수 있습니다. Intune PC 클라이언트 소프트웨어는 Windows 7 이상을 지원합니다(Windows 10 Home 제외). 클라이언트 소프트웨어로 PC를 관리하면 [이러한 기능](/Intune/)이 제공됩니다.
+
+Enterprise Management Suite가 있는 고객은 Azure AD(Azure Active Directory)를 사용하여 Windows 10 장치를 등록할 수도 있습니다.
 
 ### 참고 항목
 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO1-->
 
 

@@ -4,7 +4,7 @@ description: "Intune을 사용하여 관리하는 장치의 하드웨어에 대�
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 08/17/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,15 @@ ms.assetid: 312911fe-b963-4949-9911-ae425e0590b2
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: df4e0bc8a818f22d6f7327f9f1348f67882e0c49
-ms.openlocfilehash: 80b157c021099513854b8ffc1fe09cd2922ee0c2
+ms.sourcegitcommit: 18ef1ca18244b202a35fc8fc23fc994105b7b47e
+ms.openlocfilehash: ff55533499494488cd4cd692c6e36fe547ade3e4
 
 
 ---
 
 # Microsoft Intune에서 인벤토리를 사용하는 장치 이해
 Microsoft Intune을 사용하면 Intune 클라이언트 소프트웨어를 실행하는 Windows PC와 등록된 장치의 인벤토리를 볼 수 있습니다.
+Intune은 대개 7일마다 관리 장치에서 인벤토리를 수집합니다. 이로 인해 최근에 수행한 장치 변경(예: 장치 이름 변경 또는 저장소 공간 확보)의 결과가 보고서에 표시될 때까지 시간이 약간 지연될 수 있습니다.
 
 ## 등록된 장치에서 무엇이 수집되나요?
 모바일 장치에 의해 수집된 인벤토리를 보려면 [모바일 장치 인벤토리 보고서](understand-microsoft-intune-operations-by-using-reports.md)를 실행합니다. Intune은 등록된 장치에서 다음 인벤토리를 수집합니다.
@@ -114,6 +115,6 @@ Windows PC에 의해 수집된 인벤토리를 보려면 [컴퓨터 인벤토리
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO5-->
 
 
