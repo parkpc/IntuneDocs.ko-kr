@@ -13,38 +13,27 @@ ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2c162e2a885887d0aa69da2a4cec55c7737bccd1
-ms.openlocfilehash: 7e16d0057b91eece7a5aa92a0ba495eaf159caae
+ms.sourcegitcommit: 16be49504b24269f9463905ab5767acbda136a0a
+ms.openlocfilehash: 8ceeca6735267ab66ab14e72570ace3dc8a9b524
 
 
 ---
 
-# Microsoft Intune을 사용하여 Windows PC 클라이언트 설치
-이 가이드를 사용하여 Microsoft Intune 클라이언트 소프트웨어에서 관리되는 Windows PC를 얻을 수 있습니다.
+# Windows PC에 Intune 소프트웨어 클라이언트 설치
+Intune 클라이언트 소프트웨어를 설치하여 Windows PC를 등록할 수 있습니다. 다음 방법을 통해 Intune 클라이언트 소프트웨어를 설치할 수 있습니다.
 
-## 시작하기 전에
-Intune 클라이언트 소프트웨어를 설치하기 전에 [GPO 및 Microsoft Intune 정책 충돌 해결](resolve-gpo-and-microsoft-intune-policy-conflicts.md) 항목을 읽어 클라이언트를 올바르게 설치하기 위해 준비해야 하는 사항을 이해하고 이 지침으로 돌아오세요.
+- 수동으로 설치
+- 그룹 정책을 사용하여 설치
+- 디스크 이미지에 포함
+- 사용자가 설치
 
-## 클라이언트 설치
-다음 단계에 따라 클라이언트를 설치하십시오.
+## Intune 클라이언트 소프트웨어 다운로드
 
--   [클라이언트 소프트웨어를 다운로드하려면](#to-download-the-client-software)
-
-그런 다음, 아래 방법 중 하나 이상을 사용하여 클라이언트를 설치하십시오.
-
--   [클라이언트 소프트웨어를 수동으로 배포하려면](#to-manually-deploy-the-client-software)
-
--   [그룹 정책을 사용하여 클라이언트 소프트웨어를 자동으로 배포하려면](#to-automatically-deploy-the-client-software-by-using-group-policy)
-
--   [이미지의 일부로 Microsoft Intune 클라이언트 소프트웨어 설치](#install-the-microsoft-intune-client-software-as-part-of-an-image)
-
-더 이상 Intune에서 컴퓨터를 관리할 필요가 없는 경우 컴퓨터를 사용 중지하여 컴퓨터에서 클라이언트 소프트웨어도 제거하는 것이 좋습니다. 자세한 내용은 [Microsoft Intune 컴퓨터 클라이언트를 사용한 일반 Windows PC 관리 작업](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)을 참조하세요.
-
-### 클라이언트 소프트웨어를 다운로드하려면
+사용자가 직접 Intune 소프트웨어를 설치하는 방법을 제외한 모든 방법에서는 소프트웨어를 배포할 수 있도록 다운로드해야 합니다.
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **관리** &gt; **클라이언트 소프트웨어 다운로드**를 클릭합니다.
 
-  ![Intune PC 클라이언트 다운로드](./media/pc-SA-client-download.png)
+  ![Intune PC 클라이언트 다운로드](../media/pc-sa-client-download.png)
 
 2.  **클라이언트 소프트웨어 다운로드** 페이지에서 **클라이언트 소프트웨어 다운로드**를 클릭하고 소프트웨어가 포함된 **Microsoft_Intune_Setup.zip** 패키지를 네트워크의 안전한 위치에 저장합니다.
 
@@ -56,14 +45,14 @@ Intune 클라이언트 소프트웨어를 설치하기 전에 [GPO 및 Microsoft
     > [!IMPORTANT]
     > 추출된 **ACCOUNTCERT** 파일의 이름을 바꾸거나 제거하지 마세요. 이름을 바꾸거나 제거하면 클라이언트 소프트웨어가 설치되지 않습니다.
 
-### 클라이언트 소프트웨어를 수동으로 배포하려면
+## 수동 배포
 
 1.  컴퓨터에서 클라이언트 소프트웨어 설치 파일이 있는 폴더로 이동한 후 **Microsoft_Intune_Setup.exe**를 실행하여 클라이언트 소프트웨어를 설치합니다.
 
     > [!NOTE]
     > 클라이언트 컴퓨터의 작업 표시줄에 있는 아이콘 위로 마우스를 가져가면 설치 상태가 표시됩니다.
 
-### 그룹 정책을 사용하여 클라이언트 소프트웨어를 자동으로 배포하려면
+## 그룹 정책을 사용하여 배포
 
 1.  **Microsoft_Intune_Setup.exe** 및 **MicrosoftIntune.accountcert** 파일이 포함된 폴더에서 다음 명령을 실행하여 32비트 및 64비트 컴퓨터용 Windows Installer 기반 설치 프로그램을 추출합니다.
 
@@ -80,7 +69,7 @@ Intune 클라이언트 소프트웨어를 설치하기 전에 [GPO 및 Microsoft
 
     그룹 정책을 사용하여 소프트웨어를 자동으로 배포하는 방법에 대한 자세한 내용은 Windows Server 문서를 참조하십시오.
 
-### 이미지의 일부로 Microsoft Intune 클라이언트 소프트웨어 설치
+## 이미지의 일부로 설치
 다음 예제 절차를 기본 절차로 사용하여 운영 체제 이미지의 일부로 Intune 클라이언트 소프트웨어를 컴퓨터에 배포할 수 있습니다.
 
 1.  클라이언트 설치 파일, **Microsoft_Intune_Setup.exe** 및 **MicrosoftIntune.accountcert**를 참조 컴퓨터의 **%Systemdrive%\Temp\Microsoft_Intune_Setup** 폴더로 복사합니다.
@@ -109,6 +98,12 @@ Windows 설치 프로그램 완료 시 대상 컴퓨터가 다시 시작되면 *
 다음 번 예약 시간에 자동 등록 작업이 실행될 경우 이 작업은 **WindowsIntuneEnrollPending** 레지스트리 값이 있는지 확인하고 Intune에서 대상 PC를 등록하려고 시도합니다. 어떠한 이유로든 등록에 실패하면 다음에 작업을 실행할 때 등록을 다시 시도합니다. 재시도는 한 달 동안 계속됩니다.
 
 성공적으로 등록되거나 한 달이 지난 후에는 Intune 자동 등록 작업인 **WindowsIntuneEnrollPending** 레지스트리 값 및 계정 인증서가 대상 컴퓨터에서 삭제됩니다.
+
+## 사용자에게 직접 등록 지시
+
+사용자는 [http://portal.manage.microsoft.com](http://portal..manage.microsoft.com)으로 이동하여 Intune 클라이언트 소프트웨어를 설치할 수 있습니다. 웹 포털에서 장치가 Windows PC임을 검색할 수 있으면 Intune 소프트웨어 클라이언트를 다운로드하여 PC를 등록하라는 메시지가 표시됩니다. 사용자는 클라이언트를 다운로드한 후 설치하여 PC를 관리 상태로 설정할 수 있습니다.
+
+![Intune 소프트웨어 클라이언트를 다운로드하라는 메시지가 표시된 Intune 포털](../media/software-client-download.png)
 
 ## 성공적인 클라이언트 배포 모니터링 및 유효성 검사
 다음 절차에 따라 성공적인 클라이언트 배포를 모니터링하고 유효성을 검사할 수 있습니다.
@@ -139,6 +134,6 @@ Windows 설치 프로그램 완료 시 대상 컴퓨터가 다시 시작되면 *
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO1-->
 
 

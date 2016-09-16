@@ -13,8 +13,8 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 11760810110ddb34e1a5371ce45206212eab0790
-ms.openlocfilehash: ba7ac081f2b8b2228b0052a1d288957bfc11267f
+ms.sourcegitcommit: 63f86f135d369d8c96903c0add1e194fd9d5ded2
+ms.openlocfilehash: e98aa19d38af47ba2d19a2a67b7a836796aded2a
 
 
 ---
@@ -22,22 +22,22 @@ ms.openlocfilehash: ba7ac081f2b8b2228b0052a1d288957bfc11267f
 
 # Intune에서 Android 장치 사용
 
-이 문서에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 작업에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 작업(다음과 같은 범주로 그룹화되어 있음) 수행을 위해 사용자가 따르는 단계를 확인할 수 있습니다. 
+이 문서에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 작업에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 태스크 수행을 위해 사용자가 진행해야 하는 단계를 확인할 수 있습니다. 이러한 태스크는 다음과 같은 범주로 그룹화됩니다.
 
-- 회사 포털 앱 설치 및 Intune 등록 
+- 회사 포털 앱을 설치 및 Intune 등록
 - 등록 후 관리 작업
 - 규정 준수 문제
 
 ## 회사 포털 앱을 설치 및 Intune 등록
 
-이 섹션의 정보는 Intune 회사 포털 설치 및 Android 장치에 대한 장치 등록에 도움이 됩니다.
+이 섹션에서는 Intune 회사 포털 설치 및 Android 장치 등록에 도움이 되는 정보를 제공합니다.
 
 - [Intune에서 장치 등록](enroll-your-device-in-Intune-android.md)
 - [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 
 ## 장치가 Intune에 등록되어 있는 경우 수행할 수 있는 작업
 
-이 섹션의 정보는 Intune에 Android 장치가 등록된 후 수행할 수 있는 작업에 도움이 됩니다.
+이 섹션에서는 Intune에서 Android 장치를 등록한 후에 수행할 수 있는 작업에 도움이 되는 정보를 제공합니다.
 
 - [장치에서 관리되는 앱 사용](use-managed-apps-on-your-device-android.md)
 - [장치 암호화](encrypt-your-device-android.md)
@@ -54,7 +54,7 @@ ms.openlocfilehash: ba7ac081f2b8b2228b0052a1d288957bfc11267f
 
 ## 장치 문제 해결
 
-이 섹션의 정보는 Intune에 Android 장치가 등록된 경우 발생할 수 있는 문제를 해결하는 데 도움이 됩니다.
+이 섹션에서는 Intune에서 Android 장치를 등록할 때 발생할 수 있는 문제를 해결하는 데 도움이 되는 정보를 제공합니다.
 
 - [자세한 정보 로깅을 사용하여 IT 관리자의 장치 문제 해결 돕기](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
 - [메일을 사용하여 IT 관리자에게 진단 데이터 로그 보내기](send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md)
@@ -71,6 +71,6 @@ ms.openlocfilehash: ba7ac081f2b8b2228b0052a1d288957bfc11267f
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO5-->
 
 
