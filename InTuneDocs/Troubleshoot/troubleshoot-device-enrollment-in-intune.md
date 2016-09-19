@@ -198,7 +198,7 @@ ms.openlocfilehash: 226376601fdd381839ca389fd012e4bc462abfd5
 4.  iOS용 Safari가 기본 브라우저이고 쿠키가 사용할 수 있도록 설정되어 있는지 확인합니다.
 
 ### Intune에서 System Center Configuration Manager를 사용하면, 등록된 iOS 장치가 콘솔에 표시되지 않습니다.
-**문제:** 사용자가 iOS 장치를 등록하지만 Configuration Manager 관리 콘솔에 나타나지 않습니다. 장치가 등록되었다는 것을 나타내지 않습니다. °¡´ÉÇÑ ¿øÀÎ:
+**문제:** 사용자가 iOS 장치를 등록하지만 Configuration Manager 관리 콘솔에 나타나지 않습니다. 장치가 등록되었다는 것을 나타내지 않습니다. 가능한 원인:
 
 - Intune 커넥터를 하나의 계정에 등록한 다음 또 다른 계정에 등록했을 수 있습니다.
 - 하나의 계정으로 MDM 인증서를 다운로드하고 다른 계정에서 사용했을 수 있습니다.
