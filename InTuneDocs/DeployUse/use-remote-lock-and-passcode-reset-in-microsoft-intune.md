@@ -12,15 +12,15 @@ ms.technology:
 ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
 ms.reviewer: chrisgre
 translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: c2b4b6308569e1e67a1c3da18c12d19bdeecf08e
+ms.sourcegitcommit: 899f50cfec9e7c20d2981c077f93e0fccf37dc2b
+ms.openlocfilehash: 0b52bd8360f11e226674aefe80a578c451c2679d
 
 ---
 # 원격 잠금 또는 암호 재설정으로 장치 보호 지원
 Microsoft Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다.
 
 ## 장치 원격 잠금
-사용자가 장치를 잃어버린 경우 장치를 원격으로 잠글 수 있습니다. 아래 표에는 여러 모바일 플랫폼에서 원격 잠금이 작동하는 방법이 정리되어 있습니다.
+사용자가 장치를 잃어버린 경우 장치를 원격으로 잠글 수 있습니다. 아래 표에는 여러 모바일 플랫폼에서 원격 잠금이 작동하는 방법이 정리되어 있습니다. 원격 잠금은 지원되지 않습니다.
 
 |플랫폼|원격 잠금|
 |------------|---------------|
@@ -31,6 +31,7 @@ Microsoft Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다
 |Windows RT 8.1 및 Windows RT|장치의 현재 사용자가 장치를 등록한 사용자인 경우 지원됨|
 |Windows 8.1|장치의 현재 사용자가 장치를 등록한 사용자인 경우 지원됨|
 
+Intune 소프트웨어 클라이언트에 등록된 Windows PC에서는 원격 잠금이 지원되지 않습니다.
 
 ### Intune 콘솔을 통해 원격으로 모바일 장치를 잠그려면
 
@@ -55,6 +56,8 @@ Microsoft Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다
 |Windows RT 8.1 및 Windows RT|지원 안 됨|
 |Windows 8.1|지원 안 됨|
 
+Intune 소프트웨어 클라이언트에 등록된 Windows PC에서는 암호 재설정이 지원되지 않습니다.
+
 ### 암호를 재설정하려면
 
 1.  [Intune 관리자 콘솔](https://manage.microsoft.com/)에서 **그룹** &gt; **모든 장치** &gt; **모든 모바일 장치**를 선택합니다.
@@ -73,6 +76,6 @@ Microsoft Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Sep16_HO2-->
 
 
