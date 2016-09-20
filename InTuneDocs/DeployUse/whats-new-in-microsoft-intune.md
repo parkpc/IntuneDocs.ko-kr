@@ -13,8 +13,8 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 500cc93b595e04cea987bda699abf94ae010443a
-ms.openlocfilehash: 1f6a4b3988dbebce23a59b4ba14c79cd28cf6882
+ms.sourcegitcommit: c636efee82331d6feac75153b872526f7af7c882
+ms.openlocfilehash: 814312b0ac6055ffff2efad2ddbdaa8664f84fde
 
 
 ---
@@ -29,6 +29,21 @@ ms.openlocfilehash: 1f6a4b3988dbebce23a59b4ba14c79cd28cf6882
 >블로그 게시물 - Microsoft Intune을 사용하여 모바일 장치를 최신 상태로 유지<br>
 >최근 iOS 장치에서 발생한 “Trident” 맬웨어 공격과 관련하여 Microsoft는 Intune을 활용해 장치를 안전한 최신 상태로 유지할 수 있는 다양한 방법을 파악할 수 있도록 새로운 블로그 게시물인 [Microsoft Intune을 사용하여 모바일 장치를 최신 상태로 유지](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/26/ensuring-mobile-devices-are-up-to-date-using-microsoft-intune/)를 게시했습니다.
 
+## 2016년 9월
+
+## 회사 포털 업데이트
+### Android
+
+**Android용 회사 포털에 “알림” 추가**
+
+홈페이지의 Android용 회사 포털에 새 알림 아이콘이 추가되었습니다. 이 아이콘을 누르면 호환되지 않는 장치, 등록 업데이트 및 등록 활성화와 같이 회사 포털 앱에서 주의가 필요한 모든 항목을 최종 사용자에게 표시하는 알림 페이지로 이동됩니다. iOS 회사 포털 앱에 이 알림 환경이 이미 있습니다. 새 알림 페이지가 있으면 장치가 등록된 동안 회사 포털을 시작하거나 다시 시작할 때마다 회사 액세스 설정 페이지가 항상 표시되지는 않습니다. 최종 사용자 지침을 만들 경우 이 변경 내용을 반영하도록 문서를 업데이트할 수 있습니다. 업데이트된 스크린샷은 [여기](https://aka.ms/androidcpupdate)에서 볼 수 있습니다.  
+<!---TFS 1095560--->
+
+### Windows
+**Windows Phone 8.1 회사 포털 앱에 추가된 사용자 의견 단추**
+
+최종 사용자는 Windows Phone 8.1 회사 포털 앱의 새 “사용자 의견 보내기” 단추를 사용하여 앱에 대한 사용자 의견을 보낼 수 있습니다. 단추를 찾으려면 회사 포털 앱 화면의 오른쪽 아래에 있는 “세 점” 메뉴를 탭한 다음 **사용자 의견 보내기**를 탭합니다. 익명으로 수집된 피드백은 Microsoft가 사용자를 위해 회사 포털 앱 환경을 개선하는 데 도움이 됩니다.
+<!---TFS 1317806--->
 
 ## 2016년 8월
 ## 앱 관리
@@ -87,6 +102,10 @@ iOS 8.0 이상이 실행되는 장치를 지원하도록 iOS용 Microsoft Intune
 <!---TFS 1313253 checked--->
 
 ## 향후 예정 사항
+
+### iOS 10 지원
+Intune은 iOS 10을 완벽하게 지원합니다. 자세한 내용은 iOS 10 공개 릴리스를 참조하세요.
+
 ### 2016년 9월부터 Intune 그룹에서 Azure Active Directory 그룹으로 전환
 Intune은 Intune에서 AAD(Azure Active Directory) 보안 그룹을 사용자 및 장치 그룹으로 사용하는 새로운 그룹 관리 환경을 만들고 있습니다. 이러한 그룹은 **새 Azure 기반 Intune 관리 포털을 도입할 때 **모든 그룹 관리, 정책 배포 및 프로필 배포에 사용됩니다.
 
@@ -158,6 +177,6 @@ Intune notification rules define who an email alert will be sent to from Intune.
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

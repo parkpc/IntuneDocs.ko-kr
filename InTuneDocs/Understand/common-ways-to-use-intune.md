@@ -4,7 +4,7 @@ description: "Intune에서 지원하는 가장 일반적인 작업 중 6개 나�
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 08/26/2016
+ms.date: 09/06/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 1f37d4ff-b5a7-4a89-8884-a6184908b09c
 ms.reviewer: robstackmsft
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2ebb8fcf348cfdc7600c37b40824f5bba37a7f36
-ms.openlocfilehash: 4614c13d98c4b05882bbeabfbbd7de83d9bea2da
+ms.sourcegitcommit: a5256d4decfcd14de2d50a32a0906b6894639010
+ms.openlocfilehash: 9cb6a1e28e36a972a14cb39c12c3a539f4425c71
 
 
 ---
@@ -31,14 +31,14 @@ ms.openlocfilehash: 4614c13d98c4b05882bbeabfbbd7de83d9bea2da
 >최근 iOS 장치에서 발생한 “Trident” 공격과 관련하여 Microsoft는 Intune을 활용해 장치를 안전한 최신 상태로 유지할 수 있는 다양한 방법을 파악할 수 있도록 새로운 블로그 게시물 [Ensuring mobile devices are up to date using Microsoft Intune](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/26/ensuring-mobile-devices-are-up-to-date-using-microsoft-intune/)(Microsoft Intune을 사용하여 모바일 장치를 최신 상태로 유지)을 게시했습니다.
 
 ## 온-프레미스 전자 메일 및 데이터를 보호하여 모바일 장치에서 안전하게 액세스할 수 있도록 합니다.
-대부분의 엔터프라이즈 이동성 전략은 인터넷에서 모바일 장치를 사용하는 직원이 전자 메일에 대한 보안 액세스를 사용하는 계획으로 시작됩니다. 대부분의 조직에는 해당 회사 네트워크에서 호스팅되는 온-프레미스 데이터 및 Microsoft Exchange와 같은 응용 프로그램 서버가 있습니다. Intune 및 EMS(Enterprise Mobility Suite)는 회사 네트워크 경계에 다른 게이트웨이 컴퓨터를 배포하지 않고도 Intune을 사용하여 장치를 등록할 때까지 어떤 모바일 앱도 메일에 액세스할 수 없도록 하는 Exchange Server에 고유하게 통합된 [조건부 액세스 솔루션](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)을 제공합니다.
+대부분의 엔터프라이즈 이동성 전략은 인터넷에서 모바일 장치를 사용하는 직원이 전자 메일에 대한 보안 액세스를 사용하는 계획으로 시작됩니다. 대부분의 조직에는 해당 회사 네트워크에서 호스팅되는 온-프레미스 데이터 및 Microsoft Exchange와 같은 응용 프로그램 서버가 있습니다. Intune 및 Microsoft EMS(Enterprise Mobility + Security)는 회사 네트워크 경계에 다른 게이트웨이 컴퓨터를 배포하지 않고도 Intune을 사용하여 장치를 등록할 때까지 어떤 모바일 앱도 메일에 액세스할 수 없도록 하는 Exchange Server에 고유하게 통합된 [조건부 액세스 솔루션](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)을 제공합니다.
 
 전자 메일 이외에도 Intune에서는 기간 업무 앱 서버의 줄과 같은 온-프레미스 데이터에 대한 보안 액세스가 필요한 모바일 앱에 대한 액세스를 지원합니다.  일반적으로 Microsoft Azure AD 응용 프로그램 프록시와 같은 경계에서 표준 VPN Gateway 또는 프록시와 결합한 Access Control에 [Intune 관리 인증서](/intune/deploy-use/secure-resource-access-with-certificate-profiles)를 사용하여 수행합니다.  이러한 경우에 회사 데이터에 액세스하는 유일한 방법은 관리에 장치를 등록하는 것입니다.  일단 등록하면 관리 시스템은 회사 데이터에 액세스하는 장치가 정책과 호환되도록 합니다.  또한 소비자 앱 또는 서비스에 회사 데이터를 전달할 수 없도록 기간 업무 앱 내에서 액세스하는 데이터를 포함하도록 Intune의 [앱 래핑 도구 및 앱 SDK](/intune/deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune)를 사용할 수 있습니다.
 
 <!-- Learn more about how to plan and deploy Intune to help secure on-premises email and data. -->
 
 ## Office 365 전자 메일 및 데이터를 보호하여 모바일 장치에서 안전하게 액세스할 수 있도록 합니다.
-Office 365(전자 메일, 문서, 인스턴트 메시지, 연락처)에서 회사 데이터를 보호하는 작업은 사용자에도 쉽고 원활합니다. Intune 및 Enterprise Mobility Suite는 사용자, 앱 또는 장치가 회사의 규정 준수 요구 사항([다단계 인증 수행](/intune/deploy-use/protect-windows-devices-with-multi-factor-authentication), Intune을 사용하여 등록, 관리되는 앱 사용, 지원되는 OS 버전, 장치 PIN, 사용자 위험 프로필 저하 등)을 충족하지 않는 경우 Office 365 데이터를 액세스할 수 없도록 하는 고유하고 통합된 조건부 액세스 솔루션을 제공합니다. 해당하는 앱 스토어의 Office 모바일 앱은 Intune을 통해 구성할 수 있는 데이터 제약 정책을 사용할 준비가 되었습니다. 이렇게 하면 IT 팀에서 관리하지 않는 앱(예: 네이티브 메일 앱) 및 저장소 위치(예: Dropbox)와 데이터를 공유하지 않도록 방지합니다.  이 기능은 모두 Office 365 및 EMS에 빌드됩니다.  이 값을 가져오기 위해 추가 인프라를 배포할 필요가 없습니다.
+Office 365(전자 메일, 문서, 인스턴트 메시지, 연락처)에서 회사 데이터를 보호하는 작업은 사용자에도 쉽고 원활합니다. Intune 및 Microsoft Enterprise Mobility + Security는 사용자, 앱 또는 장치가 회사의 규정 준수 요구 사항([다단계 인증 수행](/intune/deploy-use/protect-windows-devices-with-multi-factor-authentication), Intune을 사용하여 등록, 관리되는 앱 사용, 지원되는 OS 버전, 장치 PIN, 사용자 위험 프로필 저하 등)을 충족하지 않는 경우 Office 365 데이터를 액세스할 수 없도록 하는 고유하고 통합된 조건부 액세스 솔루션을 제공합니다. 해당하는 앱 스토어의 Office 모바일 앱은 Intune을 통해 구성할 수 있는 데이터 제약 정책을 사용할 준비가 되었습니다. 이렇게 하면 IT 팀에서 관리하지 않는 앱(예: 네이티브 메일 앱) 및 저장소 위치(예: Dropbox)와 데이터를 공유하지 않도록 방지합니다.  이 기능은 모두 Office 365 및 EMS에 빌드됩니다.  이 값을 가져오기 위해 추가 인프라를 배포할 필요가 없습니다.
 
 일반적인 Office 365 배포 방법은 장치가 회사 앱/인증서/Wi-Fi/VPN 구성을 사용하여 완전히 프로비전되어야 하는 경우 관리에 해당 장치를 등록해야 하며 이 때 회사 소유의 장치인 경우가 많습니다.  그러나 사용자가 단순히 회사 메일 및 문서에 액세스해야 하면 개인적으로 소유하는 장치인 경우가 많습니다. 이 경우 사용자는 Office 모바일 앱([데이터 제약 정책에 적용함](/intune/deploy-use/protect-apps-and-data-with-microsoft-intune))을 사용해야 하고 장치 등록을 건너뛸 수 있습니다.  어느 방법을 사용하더라도 Office 365 데이터는 정의한 정책에 의해 보호됩니다.
 
@@ -66,7 +66,7 @@ Intune은 Apple 장치 등록 프로그램 및 Samsung KNOX 모바일 보안 플
 <!-- Learn more about how to plan and deploy Intune to support shared tablets. -->
 
 ## 직원이 관리되지 않는 공용 키오스크에서 Office 365에 안전하게 액세스하도록 할 수 있습니다.
-직원이 무역 박람회 및 호텔 로비에 있는 공용 컴퓨터 등 관리할 수 없는 장치, 앱 또는 브라우저를 사용해야 하는 경우도 있습니다. 이 경우에 직원이 회사 전자 메일에 액세스할 수 있어야 하나요? Intune 및 Enterprise Mobility Suite를 사용하면 <!--you have choices. The--> [조직에서 관리하는 장치에 대한 메일 액세스를 제한해야 하므로](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) 대답은 간단히 “아니요”입니다.  <!-- Alternatively, you can choose to allow limited access to these untrusted computers by requiring multi-factor authentication and only allowing browser access (Outlook Web Access) in a mode where files cannot be downloaded (e.g. email attachments).-->  이렇게 하면 강력하게 인증된 직원이 실수로 신뢰할 수 없는 컴퓨터에 회사 데이터를 남기지 않게 됩니다.
+직원이 무역 박람회 및 호텔 로비에 있는 공용 컴퓨터 등 관리할 수 없는 장치, 앱 또는 브라우저를 사용해야 하는 경우도 있습니다. 이 경우에 직원이 회사 전자 메일에 액세스할 수 있어야 하나요? Intune 및 Microsoft Enterprise Mobility + Security를 사용하면 <!--you have choices. The--> [조직에서 관리하는 장치에 대한 메일 액세스를 제한해야 하므로](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) 대답은 간단히 “아니요”입니다.  <!-- Alternatively, you can choose to allow limited access to these untrusted computers by requiring multi-factor authentication and only allowing browser access (Outlook Web Access) in a mode where files cannot be downloaded (e.g. email attachments).-->  이렇게 하면 강력하게 인증된 직원이 실수로 신뢰할 수 없는 컴퓨터에 회사 데이터를 남기지 않게 됩니다.
 
 <!-- Learn more about how to plan and deploy Intune to support kiosks. -->
 
