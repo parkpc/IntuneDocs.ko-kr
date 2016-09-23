@@ -4,7 +4,7 @@ description: "최종 사용자와 공유할 정보에 대한 링크"
 keywords: 
 author: staciebarker
 manager: angrobe
-ms.date: 08/24/2016
+ms.date: 09/20/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 48914533-f138-4dc0-8b93-4cea3ac61f7b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9f1946c02c6267a22844106e8f72555ec5e9cabb
-ms.openlocfilehash: d29649c204f50aec1d1604b55bebc6018a3c7ef2
+ms.sourcegitcommit: e07685a26329b7374d9fe50d64bf9e4699c03180
+ms.openlocfilehash: 51b281a6799fa89ed49082acea34024a6214e835
 
 
 ---
@@ -57,14 +57,12 @@ ms.openlocfilehash: d29649c204f50aec1d1604b55bebc6018a3c7ef2
 - [iOS 사용자가 앱을 얻는 방법](how-your-ios-users-get-their-apps.md)
 - [Windows 사용자가 앱을 얻는 방법](how-your-windows-users-get-their-apps.md)
 
-## 최종 사용자가 회사 포털 앱 메시지를 이해할 수 있도록 지원
 
-회사 포털을 사용하면서 발생하는 문제를 해결하는 데 도움을 주려면 [list of messages users might see in the Company Portal](/Intune/Plan-Design/help-end-users-understand-company-portal-app-messages)(회사 포털에서 사용자가 볼 수 있는 메시지 목록)을 검토합니다.
 
 이 문서에서 다루기를 원하는 다른 정보가 있다면 이 항목 하단에 있는 댓글 상자에 제안 사항을 추가해 주세요. 감사합니다.
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO3-->
 
 
