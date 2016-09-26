@@ -13,8 +13,8 @@ ms.assetid: 679a20a1-e66f-4b6b-bd8f-896daf1f8175
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55d3bd060b5567e98ca9ee6f4c4a003ce40a0371
-ms.openlocfilehash: 370a21f559fd1f86f60aeef5cbddea05d6fea682
+ms.sourcegitcommit: 0ced62efd04803943cbbfd8cecef907409a03c0b
+ms.openlocfilehash: c51c5ae199ca2950dc0371b400727af534a70f09
 
 
 ---
@@ -41,7 +41,7 @@ SCEP(단순 인증서 등록 프로토콜) 또는 PKCS #12(.PFX) 인증서 프�
 1.  [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택합니다.
 2.  다음의 정책 유형 중 하나를 추가합니다.
     - **Android &gt; 신뢰할 수 있는 인증서 프로필(Android 4 이상)**
-    - **iOS &gt; 신뢰할 수 있는 인증서 프로필(iOS 7.1 이상)**
+    - **iOS &gt; 신뢰할 수 있는 인증서 프로필(iOS 8.0 이상)**
     - **Mac OS X &gt; 신뢰할 수 있는 인증서 프로필(Mac OS X 10.9 이상)**
     - **Windows &gt; 신뢰할 수 있는 인증서 프로필(Windows 8.1 이상)**
     - **Windows &gt; 신뢰할 수 있는 인증서 프로필(Windows Phone 8.1 이상)**
@@ -63,7 +63,7 @@ SCEP(단순 인증서 등록 프로토콜) 또는 PKCS #12(.PFX) 인증서 프�
 1.  [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택합니다.
 2.  다음의 정책 유형 중 하나를 추가합니다.
     - **Android &gt; SCEP 인증서 프로필(Android 4 이상)**
-    - **iOS &gt; SCEP 인증서 프로필(iOS 7.1 이상)**
+    - **iOS &gt; SCEP 인증서 프로필(iOS 8.0 이상)**
     - **Mac OS X &gt; SCEP 인증서 프로필(Mac OS X 10.9 이상)**
     - **Windows &gt; SCEP 인증서 프로필(Windows 8.1 이상)**
     - **Windows &gt; SCEP 인증서 프로필(Windows Phone 8.1 이상)**
@@ -92,7 +92,7 @@ SCEP(단순 인증서 등록 프로토콜) 또는 PKCS #12(.PFX) 인증서 프�
   - **Android &gt; .PFX 인증서 프로필(Android 4 이상)**
   - **Windows &gt; PKCS #12(.PFX) 인증서 프로필(Windows 10 이상)**
   - **Windows &gt; PKCS #12(.PFX) 인증서 프로필(Windows Phone 10 이상)**
-  - **iOS > PKCS #12(.PFX) 인증서 프로필(iOS 7.1 이상)**    
+  - **iOS > PKCS #12(.PFX) 인증서 프로필(iOS 8.0 이상)**    
     자세한 정보: [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 3.  정책 양식에 요청된 정보를 입력합니다.
 4.  **정책 저장**을 선택합니다.
@@ -130,6 +130,6 @@ Intune용 기타 정책을 배포하는 것과 같은 방식으로 인증서 프
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO3-->
 
 

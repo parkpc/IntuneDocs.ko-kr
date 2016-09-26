@@ -1,5 +1,5 @@
 ---
-title: "Lookout for Work를 설치하라는 메시지가 표시됨 | Microsoft Intune"
+title: "Android 장치에서 Lookout for Work를 설치하라는 메시지가 표시됨 | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
@@ -12,19 +12,18 @@ ms.technology:
 ms.assetid: 0d357dc0-3e14-43d0-9874-6886ebc847fc
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: e1f0ee69c16c48932c7ea1fefff03f6f35416865
-ms.openlocfilehash: 82f99577b674050d20362204b1032ad3992c7d9a
+ms.sourcegitcommit: 5c522c12325925c45f47bc7b521e3d8aa87454f4
+ms.openlocfilehash: d4ffed6fa0a2380ebfc5c4cf9999233635a3469f
 
 
 ---
 
 # Lookout for Work를 설치하라는 메시지가 표시됨
 
-아래 표시된 “Lookout for Work가 설치 및 활성화되지 않았습니다.”라는 메시지가 표시되는 경우 잠재적인 보안 위협을 찾아서 장치를 보호할 수 있도록 IT 관리자가 Lookout for Work 앱을 설치하도록 요청해야 합니다.
+작업에 액세스하기 전에 IT 관리자는 잠재적 보안 위협을 찾아 장치를 보호하는 데 도움을 주는 Lookout for Work 앱을 설치하도록 요구합니다.
 
-![규정 준수 문제를 해결 해야 함](./media/lookout-resolve-compliance-issues_expanded-android.png)
 
-**문제를 해결하기 위해 수행해야 할 작업:**
+**수행해야 할 작업:**
 
 1.  화면의 맨 위에서 아래로 끌어서 알림 표시줄을 연 다음 **필수 응용 프로그램 - Play 스토어에서 Lookout for Work 설치**를 탭합니다.
 
@@ -32,7 +31,7 @@ ms.openlocfilehash: 82f99577b674050d20362204b1032ad3992c7d9a
 
     Play 스토어에서 Lookout for Work 설치 페이지로 이동합니다.
 
-2.  Lookout for Work를 설치하고 **동의**를 탭하여 Lookout for Work에서 장치에 액세스할 수 있도록 허용합니다.
+2.  Lookout for Work를 설치한 다음 **동의**를 탭하여 Lookout for Work에서 장치에 액세스할 수 있도록 허용합니다.
 
     ![Lookout for Work에서 장치에 액세스할 수 있도록 동의함을 탭함](./media/lookout-accept-store-permissions-android.png)
 
@@ -40,7 +39,7 @@ ms.openlocfilehash: 82f99577b674050d20362204b1032ad3992c7d9a
 
     ![Lookout for Work를 열고 활성화를 탭함](./media/lookout-activate-button-android.png)
 
-4. **회사 계정으로 로그인**을 탭하고 회사 또는 학교 메일, 파일 및 기타 데이터에 액세스하는 데 사용하는 계정을 입력합니다.
+4. **회사 계정으로 로그인**을 탭하고 회사 또는 학교 메일 및 파일에 액세스하는 데 사용하는 계정을 입력합니다.
 
     ![회사 또는 학교 계정을 사용하여 로그인](./media/lookout-sign-in-android.png)
 
