@@ -13,14 +13,14 @@ ms.assetid: bb49e926-15c4-4f01-b6eb-cee6f7ee1984
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8d0e2b79a19dfce1541506bc1da89cb716a1d0af
-ms.openlocfilehash: c03c309e1e27a47b65a87aae8833b88680b0d8e8
+ms.sourcegitcommit: d9e08429fb6c834476fd0029d559059c5132afca
+ms.openlocfilehash: 2b44779fdac0764a3e7a18f1c365050e9800f902
 
 
 ---
 
 # Microsoft Intune의 활성화 잠금 무시를 사용하여 iOS 장치 보호
-Microsoft Intune에서는 iOS 7.1 이상 장치용 나의 iPhone 찾기(Find My iPhone) 앱의 기능인 iOS 활성화 잠금을 관리할 수 있습니다. 활성화 잠금은 사용자가 장치에서 나의 iPhone 찾기 앱을 열 때 자동으로 설정됩니다. 활성화 잠금이 설정되면 사용자의 Apple ID와 암호를 입력해야 다음 작업을 수행할 수 있습니다. 
+Microsoft Intune에서는 iOS 8.0 이상 장치용 나의 iPhone 찾기(Find My iPhone) 앱의 기능인 iOS 활성화 잠금을 관리할 수 있습니다. 활성화 잠금은 사용자가 장치에서 나의 iPhone 찾기 앱을 열 때 자동으로 설정됩니다. 활성화 잠금이 설정되면 사용자의 Apple ID와 암호를 입력해야 다음 작업을 수행할 수 있습니다. 
 
 -   나의 iPhone 찾기 끄기
 
@@ -43,7 +43,7 @@ Microsoft Intune에서는 iOS 7.1 이상 장치용 나의 iPhone 찾기(Find My 
 > iOS 장치에 대해 감독 모드를 사용하면 Apple Configurator를 통해 장치를 잠그고 특정 업무용으로 기능을 제한할 수 있습니다. 감독 모드는 대개 회사가 소유한 장치에서만 사용됩니다.
 
 ## Intune을 통해 활성화 잠금을 관리하는 방법
-Intune에서는 iOS 7.1 이상을 실행하는 감독된/감독되지 않은 장치의 활성화 잠금 상태를 요청할 수 있습니다. 감독된 장치의 경우에만 Intune은 활성화 잠금 무시 코드를 검색하여 장치에 직접 제공할 수 있습니다. 장치를 초기화한 경우에는 코드를 사용자 이름으로 사용하고 암호는 비워 두는 방식으로 장치에 직접 액세스할 수 있습니다.
+Intune에서는 iOS 8.0 이상을 실행하는 감독된/감독되지 않은 장치의 활성화 잠금 상태를 요청할 수 있습니다. 감독된 장치의 경우에만 Intune은 활성화 잠금 무시 코드를 검색하여 장치에 직접 제공할 수 있습니다. 장치를 초기화한 경우에는 코드를 사용자 이름으로 사용하고 암호는 비워 두는 방식으로 장치에 직접 액세스할 수 있습니다.
 
 **이러한 방식의 업무상 이점은 다음과 같습니다**.
 
@@ -76,7 +76,7 @@ Intune에서는 iOS 7.1 이상을 실행하는 감독된/감독되지 않은 장
 
     -   사용 안 함
 
-    iOS 7.1 이상을 실행하지 않는 장치의 경우 **활성화 잠금 상태** 상자가 비어 있습니다.
+    iOS 8.0 이상을 실행하지 않는 장치의 경우 **활성화 잠금 상태** 상자가 비어 있습니다.
 
 -   그룹 보기에서 장치를 선택하여 장치 세부 정보 창에서 활성화 잠금 상태를 확인합니다.
 
@@ -92,6 +92,6 @@ Intune에서는 iOS 7.1 이상을 실행하는 감독된/감독되지 않은 장
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Sep16_HO2-->
 
 

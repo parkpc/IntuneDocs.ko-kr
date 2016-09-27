@@ -13,8 +13,8 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 63f86f135d369d8c96903c0add1e194fd9d5ded2
-ms.openlocfilehash: e98aa19d38af47ba2d19a2a67b7a836796aded2a
+ms.sourcegitcommit: 5c522c12325925c45f47bc7b521e3d8aa87454f4
+ms.openlocfilehash: 84d1e337a8328b2b133f5e3c71c6101380cfa3ce
 
 
 ---
@@ -68,9 +68,11 @@ ms.openlocfilehash: e98aa19d38af47ba2d19a2a67b7a836796aded2a
 - [USB 디버깅 옵션을 해제하라는 메시지가 표시되는 경우](you-are-asked-to-turn-off-usb-debugging-android.md)
 - [장치의 보안 위협 검색을 설정하라는 메시지가 표시되는 경우](you-are-asked-to-turn-on-scan-device-for-security-threats-android.md)
 - [장치가 최소 보안 패치를 충족하지 않는 경우](your-device-does-not-meet-the-minimum-security-patch-android.md)
+- [Android 장치에 Lookout for Work를 설치하라는 메시지가 표시됨](you-are-prompted-to-install-lookout-for-work-android.md)
+- [Android 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](you-need-to-resolve-a-threat-found-by-lookout-for-work-android.md)
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

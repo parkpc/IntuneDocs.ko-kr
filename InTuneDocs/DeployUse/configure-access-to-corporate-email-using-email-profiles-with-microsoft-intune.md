@@ -13,8 +13,8 @@ ms.assetid: 10f0cd61-e514-4e44-b13e-aeb85a8e53ae
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d8a4fd4673560d6e2ffb4264ba8d8e56b0e5cb8d
-ms.openlocfilehash: 59b8cc2ad33521fd4575e46d78129c168da757b3
+ms.sourcegitcommit: 0ced62efd04803943cbbfd8cecef907409a03c0b
+ms.openlocfilehash: ef4041b7d9f47d9e1e1463e62274f93597fc6503
 
 
 ---
@@ -31,7 +31,7 @@ IT 관리자나 사용자가 Android 또는 iOS용 Microsoft Outlook 등 대체 
 전자 메일 프로필을 사용하여 다음 장치 유형에서 네이티브 전자 메일 클라이언트를 구성할 수 있습니다.
 -   Windows Phone 8 이상
 -   Windows 10(데스크톱용), Windows 10 Mobile 이상
--   iOS 7.1 이상
+-   iOS 8.0 이상
 -   Samsung KNOX Standard(4.0 이상)
 
 장치에서 전자 메일 계정을 설정할 수 있을 뿐만 아니라, 동기화할 수 있는 전자 메일의 수 및 장치 유형에 따라 동기화할 수 있는 콘텐츠 형식을 설정할 수 있습니다.
@@ -71,7 +71,7 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 
     -   **Samsung KNOX Standard(4.0 이상)에 대한 전자 메일 프로필**
 
-    -   **메일 프로필(iOS 7.1 이상)**
+    -   **메일 프로필(iOS 8.0 이상)**
 
     -   **메일 프로필(Windows Phone 8 이상)**
 
@@ -122,6 +122,6 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Sep16_HO3-->
 
 

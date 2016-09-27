@@ -13,8 +13,8 @@ ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bf8da72092a2380e73cfbed2a693831706b40d23
-ms.openlocfilehash: c005a1b38289580b1543e0e62cbb4cd00cb22c47
+ms.sourcegitcommit: 0ced62efd04803943cbbfd8cecef907409a03c0b
+ms.openlocfilehash: daecea644300ee1e47db9b028b72d71b3211f46d
 
 
 
@@ -55,12 +55,18 @@ Intune의 **사용자 지정 구성**을 사용하여 미리 공유한 키로 Wi
 4. **확인**을 선택하고 정책을 저장한 다음 배포합니다.
 
     > [!NOTE]
-이 정책은 사용자 그룹에만 배포할 수 있습니다.
+    > 이 정책은 사용자 그룹에만 배포할 수 있습니다.
 
 다음에 각 장치가 체크인되면 정책이 적용되고 해당 장치에 Wi-Fi 프로필이 만들어집니다. 장치를 네트워크에 자동으로 연결할 수 있게 됩니다.
 ## Android 또는 Windows Wi-Fi 프로필
 
 Android 또는 Windows Wi-Fi 프로필의 XML 코드 예제는 다음과 같습니다.
+
+> [!IMPORTANT]
+> 
+> `<protected>false</protected>`:**false**로 설정하세요. **true**로 설정하면 장치가 암호화된 암호를 요구한 다음 암호를 해독하려 할 수 있습니다. 이로 인해 연결에 실패할 수 있습니다.
+> 
+>  `<hex>53534944</hex>` `<name><SSID of wifi profile></name>`의 16진수 값으로 설정해야 합니다.
 
     <!--
     <Name of wifi profile> = Name of profile
@@ -70,6 +76,7 @@ Android 또는 Windows Wi-Fi 프로필의 XML 코드 예제는 다음과 같습�
     <Type of encryption> = Type of encryption used by the network
     <protected>false</protected> do not change this value, as true could cause device to expect an encrypted password and then try to decrypt it, which may result in a failed connection.
     <password> = Password to connect to the network
+    <hex>53534944</hex> should be set to the hexadecimal value of <name><SSID of wifi profile></name>
     -->
     <WLANProfile
     xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
@@ -207,6 +214,6 @@ EAP 기반 Wi-Fi 프로필에 대한 XML 코드 예제는 다음과 같습니다
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO3-->
 
 

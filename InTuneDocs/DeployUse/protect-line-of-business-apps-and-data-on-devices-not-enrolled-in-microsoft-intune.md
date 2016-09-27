@@ -13,8 +13,8 @@ ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 3e09af2cd329d556a9a0a1b2fb4750856e336ab1
+ms.sourcegitcommit: 45c6622624230e3486d2498b1b023f2efcdc2970
+ms.openlocfilehash: eb04f0e7b9627ad1869ef677f1b32380db868490
 
 
 ---
@@ -27,13 +27,13 @@ MAM(모바일 앱 관리) 정책을 통해 복사 및 붙여넣기와 같은 데
 ##  1단계: 앱 준비
 앱에 MAM 정책을 적용하려면 먼저 Microsoft Intune 앱 래핑 도구를 사용하여 앱을 래핑해야 합니다.  앱 래핑 도구를 설치하고 사용하기 위한 지침은 다운로드에 포함되어 있습니다.  
 >[!IMPORTANT]  
->Intune에 등록되지 않은 장치를 지원하는 이 버전의 앱 래퍼 도구는 이후 몇 주간 비공개 미리 보기로 사용할 수 있습니다. 참여하려는 경우 msintuneappsdk@microsoft.com으로 메일을 통해 자세한 내용을 보내주세요.
+>Intune에 등록되지 않은 장치를 지원하는, 이 버전의 앱 래핑 도구가 공개 미리 보기에서 제공됩니다. 공개 미리 보기에 참여하려면 [이 github 페이지](https://github.com/msintuneappsdk/intune-app-wrapper-ios-preview)(iOS용)와 [이 github 사이트](https://github.com/msintuneappsdk/intune-app-wrapper-android-preview)(Android용) 에서 도구를 다운로드할 수 있습니다.
 
 ## 2단계: 앱 추가
 
 기간 업무 앱을 MAM 정책과 연결하려면 다음 단계를 사용하여 Intune 구독/테넌트에 앱 세부 정보를 추가해야 합니다.
 
-1. [Azure 포털](https://portal.azure.com/)에서 **Intune 모바일 응용 프로그램 관리 > 설정**으로 이동하여 **기간 업무 앱**을 선택합니다.
+1. [](https://portal.azure.com/)에서 **Intune 모바일 응용 프로그램 관리 > 설정**으로 이동하여 **기간 업무 앱**을 선택합니다.
 
   ![LOB(기간 업무) 옵션이 포함된 설정 블레이드의 스크린샷](../media/mam-azure-portal-lob-on-settings.png)
 
@@ -63,7 +63,7 @@ MAM(모바일 앱 관리) 정책을 통해 복사 및 붙여넣기와 같은 데
 ##  앱 제거
 앱 목록에서 기간 업무 앱을 제거할 수 있습니다.  그러면 목록에서 앱이 제거되고 MAM 정책과의 연결이 제거되지만, 최종 사용자의 장치에서 앱이 삭제되거나 제거되지는 않습니다.  
 
-1.  [Azure 포털](https://portal.azure.com/)에서 **Intune 모바일 앱 관리 > 설정**으로 이동합니다.  **설정** 블레이드에서 **기간 업무**를 선택하여 기존 앱 목록을 엽니다.  
+1.  [Azure Portal](https://portal.azure.com/)에서 **Intune 모바일 앱 관리 > 설정**으로 이동합니다.  **설정** 블레이드에서 **기간 업무**를 선택하여 기존 앱 목록을 엽니다.  
 2.  제거하려는 앱을 선택하고, **(...) 상황에 맞는** 메뉴를 선택합니다.
 
   ![줄임표가 표시된 기간 업무 앱 블레이드의 스크린샷](../media/mam-azure-portal-lob-context-menu.png)
@@ -75,6 +75,6 @@ MAM(모바일 앱 관리) 정책을 통해 복사 및 붙여넣기와 같은 데
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

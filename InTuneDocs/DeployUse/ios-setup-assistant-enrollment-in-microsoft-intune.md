@@ -13,8 +13,8 @@ ms.assetid: 46e5b027-4280-4809-b45f-651a6ab6d0cd
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ecfeb73efed4a47256275120c52de232c556adfe
-ms.openlocfilehash: 01d87b95d2599f75161c9a95ff4cf94375eedb60
+ms.sourcegitcommit: e2daff5dae435df55c866adbf602f554500d50e0
+ms.openlocfilehash: 45aa4511945ab4763dc0dc35baefe47887e561bb
 
 
 ---
@@ -24,7 +24,7 @@ Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http://go.micros
 
 
 ## Microsoft Intune을 사용한 iOS 장치용 설정 도우미 등록
-Apple 구성기를 사용하면 iOS 장치를 초기화하여 장치의 새 사용자가 설정할 수 있도록 준비할 수 있습니다.  이 방법을 사용하려면 iOS 장치를 Mac 컴퓨터에 USB로 연결하여 회사 등록을 설정해야 하며 사용자가 Apple Configurator 2.0을 사용하고 있는 것으로 간주됩니다. 대부분의 시나리오는 Intune 회사 포털 앱을 활성화하기 위해 iOS 장치에 적용되는 정책에 *사용자 선호도*를 포함해야 합니다.
+Apple 구성기를 사용하면 iOS 장치를 초기화하여 장치의 새 사용자가 설정할 수 있도록 준비할 수 있습니다.  이 방법을 사용하려면 iOS 장치를 Mac 컴퓨터에 USB로 연결하여 회사 등록을 설정해야 하며 사용자가 Apple Configurator 2.0을 사용하고 있는 것으로 간주됩니다. 대부분의 시나리오는 Intune 회사 포털 앱을 활성화하기 위해 iOS 장치에 적용되는 정책에 **사용자 선호도**를 포함해야 합니다.
 
 **필수 구성 요소**
 * [APN 인증서를 설치하여](set-up-ios-and-mac-management-with-microsoft-intune.md) iOS 등록 사용
@@ -143,6 +143,6 @@ Apple 구성기를 사용하면 iOS 장치를 초기화하여 장치의 새 사�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Sep16_HO2-->
 
 

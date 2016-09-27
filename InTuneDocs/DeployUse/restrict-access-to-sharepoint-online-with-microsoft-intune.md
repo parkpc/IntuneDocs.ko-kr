@@ -13,8 +13,8 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a1d0b330b42ea920af9512552a9f3d9c875e99da
-ms.openlocfilehash: 2d8304964908986943c82ebed1dd7fd23b2c222e
+ms.sourcegitcommit: 4f98937d7adfc0c1584625303da3350785af8169
+ms.openlocfilehash: 84c9d355fde49fd18899a43ed0def0c801694291
 
 
 ---
@@ -62,7 +62,7 @@ SharePoint Online에 대한 조건부 액세스 정책을 구성하기 **전에*
 >[!NOTE]
 >SharePoint Online에 대해 조건부 액세스를 사용하도록 설정하는 경우 [Remove-SPOTenantSyncClientRestriction](https://technet.microsoft.com/en-us/library/dn917451.aspx) 항목에 설명된 대로 목록의 도메인을 사용하지 않도록 설정하는 것이 좋습니다.  
 ## 모바일 장치에 대한 지원
-- iOS 7.1 이상
+- iOS 8.0 이상
 - Android 4.0 이상, Samsung Knox Standard 4.0 이상
 - Windows Phone 8.1 이상
 
@@ -192,6 +192,6 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO2-->
 
 

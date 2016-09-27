@@ -4,7 +4,7 @@ description: "관리 브라우저 응용 프로그램을 배포하여 웹 데이
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 08/03/2016
+ms.date: 09/06/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: dc946303-e09b-4d73-8bf4-87742299bc54
 ms.reviewer: maxles
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2fcd53d335aa18701ba0b8c3c75569febbee2cd5
-ms.openlocfilehash: d07a5dde05055c54f5b89c8aa5f49203d0a22b97
+ms.sourcegitcommit: d9e08429fb6c834476fd0029d559059c5132afca
+ms.openlocfilehash: d4d05508e44fe0864ce6dabf0864f6ed67109a7c
 
 
 ---
@@ -34,7 +34,7 @@ Android – Managed Browser 앱을 사용할 수 없습니다.<br /><br />
 
 -   Android 4 이상을 실행하는 장치
 
--   iOS 7.1 이상을 실행하는 장치
+-   iOS 8.0 이상을 실행하는 장치
 
 Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)에서 웹 콘텐츠 열기를 지원합니다.
 
@@ -44,9 +44,9 @@ Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https
 
 2.  다음 **소프트웨어** 정책 유형 중 하나를 구성합니다.
 
-    -   **관리되는 브라우저 정책(Android 4 이상)**
+    -   **Managed Browser(Android 4 이상)**
 
-    -   **Managed Browser 정책(iOS 7.1 이상)**
+    -   **Managed Browser(iOS 8.0 이상)**
 
     정책을 만들고 배포하는 방법에 대한 자세한 내용은 [Microsoft Intune 정책을 사용하여 장치에 관한 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md) 항목을 참조하세요.
 
@@ -154,6 +154,6 @@ Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Brows
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Sep16_HO2-->
 
 

@@ -4,7 +4,7 @@ description: "Intune에서 모바일 앱 구성 정책을 사용하여 사용자
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 06/09/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: fc6b645a-e837-4b2a-a10f-144065cbd8dd
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 727d28cff074124b5401f6c2931f87df3a9d2d23
-ms.openlocfilehash: 917761ab6be2ccd94f32e7d2f12c0ed18d335d41
+ms.sourcegitcommit: d9e08429fb6c834476fd0029d559059c5132afca
+ms.openlocfilehash: 9b70517251c6225afee719c7e3380c584785251b
 
 
 ---
@@ -37,7 +37,7 @@ Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 
 사용자 및 장치에 이러한 정책을 직접 배포하지는 않으며, 대신 앱에 정책을 연결한 다음 앱을 배포합니다. 정책 설정은 앱에서 해당 설정을 확인할 때마다(일반적으로는 앱을 처음 실행할 때) 사용됩니다.
 
 > [!TIP]
-> 이 정책 유형은 현재 iOS 7.1 이상을 실행하는 장치에서만 사용 가능합니다. 지원하는 앱 설치 유형은 다음과 같습니다.
+> 이 정책 유형은 현재 iOS 8.0 이상을 실행하는 장치에서만 사용 가능합니다. 지원하는 앱 설치 유형은 다음과 같습니다.
 >
 > -   **앱 스토어에서 관리되는 iOS 앱**
 > -   **iOS용 앱 패키지**
@@ -139,6 +139,6 @@ Intune에서는 속성 목록에서 다음과 같은 데이터 형식을 지원�
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

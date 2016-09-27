@@ -13,8 +13,8 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a1d0b330b42ea920af9512552a9f3d9c875e99da
-ms.openlocfilehash: 9e2b16a2ea16417864b82f4b025053d9c87fcb14
+ms.sourcegitcommit: 4f98937d7adfc0c1584625303da3350785af8169
+ms.openlocfilehash: 2bbb17881a1e40cd6552fe4303d55bd0cb4ffcf6
 
 
 ---
@@ -67,7 +67,7 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 **Outlook** 및 기타 **최신 인증을 사용하는 앱**에서 Exchange Online 메일에 대한 액세스를 제한할 수 있습니다.
 
 - Android 4.0 이상, Samsung Knox Standard 4.0 이상
-- iOS 7.1 이상
+- iOS 8.0 이상
 - Windows Phone 8.1 이상
 
 **최신 인증**을 사용하는 경우 Microsoft Office 클라이언트에서 ADAL(Active Directory Authentication Library) 기반 로그인이 가능합니다.
@@ -93,7 +93,7 @@ iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙�
 
 - Android 4.0 이상, Samsung Knox Standard 4.0 이상
 
-- iOS 7.1 이상
+- iOS 8.0 이상
 
 - Windows Phone 8.1 이상
 
@@ -262,6 +262,6 @@ iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙�
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO2-->
 
 

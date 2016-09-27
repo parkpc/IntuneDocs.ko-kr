@@ -1,10 +1,10 @@
 ---
-title: "PC 소프트웨어의 사용권 계약 관리 | Microsoft Intune"
+title: "Intune 소프트웨어 클라이언트를 실행하는 PC의 소프트웨어 사용권 계약 관리 | Microsoft Intune"
 description: "Intune에서는 Microsoft 볼륨 라이선스 계약을 통해 구매한 소프트웨어와 다른 방법으로 구매한 소프트웨어에 대한 사용권 계약을 관리할 수 있습니다."
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 08/07/2016
+ms.date: 09/14/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: c59d8635-3f66-40f5-824a-a71c738e0341
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: cf7e9b9638c82cba7640c2be54166ef5df581673
-ms.openlocfilehash: ae4ae586c020322f792817b25f8b1b6e2ee02cfd
+ms.sourcegitcommit: f01f2715ebd5666b53de848f06300e7aa3344caf
+ms.openlocfilehash: e4febff0ede35f40fd2b0f96fab401a58fb5cb13
 
 
 ---
@@ -23,7 +23,7 @@ ms.openlocfilehash: ae4ae586c020322f792817b25f8b1b6e2ee02cfd
 Microsoft Intune을 사용하여, Microsoft 볼륨 라이선스 계약을 통해 구매한 소프트웨어에 대한 사용권 계약 정보를 추가하고 관리할 수 있습니다. 다른 방법으로 구매한 Microsoft 소프트웨어 또는 타사 소프트웨어에 대한 사용권 계약 정보도 추가하고 관리할 수 있습니다. 이 정보를 논리 그룹으로 구성할 수 있습니다.
 
 > [!IMPORTANT]
-> 이 기능은 편의를 위해서만 제공되며 정확성은 보장되지 않습니다. 따라서 Microsoft Volume License 계약 조건을 준수하는지 확인하는 데 이 기능을 사용하지 마십시오. Microsoft는 수집된 데이터를 사용자와 체결한 사용권 계약이 준수 혹은 위반되는지 확인할 목적으로 사용하지 않습니다.
+> 이 기능은 편의를 위해서만 제공되며 정확성은 보장되지 않습니다. 따라서 Microsoft Volume License 계약 조건을 준수하는지 확인하는 데 이 기능을 사용하지 마세요. Microsoft는 수집된 데이터를 사용자와 체결한 사용권 계약이 준수 혹은 위반되는지 확인할 목적으로 사용하지 않습니다.
 >
 > Intune에 추가하는 라이선스는 소프트웨어를 사용할 수 있는 사용권 계약 또는 권한에 영향을 주지 않습니다. 예를 들어 Intune에서 사용권/계약 쌍을 삭제해도 사용자와 Microsoft 간에 체결된 사용권 계약은 삭제되거나 무효화되지 않습니다.
 
@@ -180,6 +180,6 @@ Microsoft 볼륨 라이선싱 계약 외에 다른 유형의 사용권 계약을
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Sep16_HO2-->
 
 
