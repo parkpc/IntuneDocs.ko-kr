@@ -13,8 +13,8 @@ ms.assetid: 725d9e40-e70c-461a-9413-72ff1b89a938
 ms.reviewer: sandera
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 61480eb11cc8f4b6b336e48a50c2fe1b5fcd3fac
-ms.openlocfilehash: c05dfc8154cd13b74f42b4f63262613be8956d87
+ms.sourcegitcommit: c3cf5e6b32ad24d4972fd147331dda7d2d43e8c6
+ms.openlocfilehash: d4eadb73aac14a375f41c434a4303a885bfbae64
 
 
 ---
@@ -76,10 +76,10 @@ Intune을 사용하면 Lookout 같은 MTP 솔루션이 실행하는 위험 평�
 2.  [Intune에서 Lookout MTP 연결](enable-lookout-mtp-connection-in-intune.md)
 3.  [Lookout for Work 응용 프로그램 구성 및 배포](configure-and-deploy-lookout-for-work-apps.md)
 4.  [준수 정책 구성](enable-device-threat-protection-rule-in-compliance-policy.md)
-5.  [Lookout 통합 문제 해결](http://docs.microsoft.com/en-us/intune/troubleshoot/troubleshooting-lookout-integration.md)
+5.  [Lookout 통합 문제 해결](http://docs.microsoft.com/en-us/intune/troubleshoot/troubleshooting-lookout-integration)
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO3-->
 
 
