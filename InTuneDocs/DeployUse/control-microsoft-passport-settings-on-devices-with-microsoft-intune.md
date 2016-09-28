@@ -4,7 +4,7 @@ description: "Intune이 Active Directory 또는 Azure Active Directory 계정을
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 09/02/2016
+ms.date: 09/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3d212869051719b6b1f1d527ee52044420df0c14
-ms.openlocfilehash: c2c2774dd85d8ce9c056248f801220e06f17063b
+ms.sourcegitcommit: 73379311acad6f2a7054e262dea701d3e7b9ad45
+ms.openlocfilehash: 40344947d7c94c90258c967da36c09c95a54335c
 
 
 ---
@@ -29,6 +29,18 @@ Intune은 다음 두 가지 방법으로 비즈니스용 Hello에 통합됩니�
 -   Intune 정책을 사용하여 사용자가 로그인하는 데 사용할 수 있는 제스처와 사용할 수 없는 제스처를 제어할 수 있습니다.
 
 -   비즈니스용 Windows Hello KSP(키 저장소 공급자)에 인증 인증서를 저장할 수 있습니다. 자세한 정보는 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md) 항목을 참조하세요.
+
+> [!IMPORTANT]
+> Windows 10 데스크톱 및 1주년 업데이트 전의 모바일 버전에서 리소스에 인증하는 데 사용할 수 있는 두 개의 서로 다른 PIN을 설정할 수 있습니다.
+- **장치 PIN**을 장치 잠금을 해제하고 클라우드 리소스에 연결하는 데 사용할 수 있습니다.
+- **작업 PIN**은 사용자의 개인 장치(BYOD)에서 Azure AD 리소스에 액세스하는 데 사용되었습니다.
+
+>1주년 업데이트에서 이러한 두 PIN이 하나의 단일 장치 PIN에 병합되었습니다.
+이제 장치 PIN을 제어하도록 설정한 Intune 구성 정책뿐 아니라, 구성한 비즈니스용 Windows Hello 정책 둘 다 이러한 새 PIN 값으로 설정되어 있습니다.
+PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용 Windows Hello 정책이 Windows 10 Desktop 및 모바일 장치에 모두 적용됩니다.
+정책 충돌이 해결되어 있고 PIN 정책을 올바르게 적용되었는지 확인하려면 비즈니스용 Windows Hello 정책을 내 구성 정책의 설정에 맞게 업데이트한 다음, 회사 포털 앱에서 장치를 동기화하도록 사용자에게 요청합니다.
+
+
 
 ## 비즈니스용 Windows Hello 정책 만들기
 
@@ -67,6 +79,6 @@ Microsoft Passport에 대한 자세한 내용은 Windows 10 설명서의 [가이
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Sep16_HO3-->
 
 

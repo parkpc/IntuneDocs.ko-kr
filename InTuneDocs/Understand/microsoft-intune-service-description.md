@@ -4,7 +4,7 @@ description: "Intune은 Windows PC와 iOS, Mac OS X, Android 및 Windows 모바�
 keywords: 
 author: Nbigman
 manager: angrobe
-ms.date: 07/21/2016
+ms.date: 09/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,15 @@ ms.assetid: 40fa5a2e-6c0f-4150-9740-d5ddc0cdbda0
 ms.reviewer: cacamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 60ee39a7eeeb9068a7350ec87f60e7148ccb7826
-ms.openlocfilehash: c13366ea7f42272e6fc3d606cb8dbe0ed1c45fe4
+ms.sourcegitcommit: a7cced90c482498b5f5af424165f8dcf77b79b75
+ms.openlocfilehash: e3694f80d6148abbce004bb0c7143bf394b313d9
 
 
 ---
 
 # Microsoft Intune 서비스 설명
 
-Microsoft Intune은 Windows PC와 iOS, Mac OS X, Android 및 Windows 모바일 장치를 관리하는 데 도움이 되는 클라우드 기반 서비스입니다. Intune은 회사 응용 프로그램과 데이터를 보호하는 데에도 도움이 됩니다. Intune만 사용할 수도 있고, System Center 2012 R2 Configuration Manager와 통합하여 관리 기능을 확장할 수도 있습니다.
+Microsoft Intune은 Windows PC와 iOS, Mac OS X, Android 및 Windows 모바일 장치를 관리하는 데 도움이 되는 클라우드 기반 서비스입니다. Intune은 회사 응용 프로그램과 데이터를 보호하는 데에도 도움이 됩니다. Intune만 사용할 수도 있고, System Center Configuration Manager와 통합하여 관리 기능을 확장할 수도 있습니다. 
 
 Microsoft는 적합한 계획의 적합한 서비스에 대해 Intune 온보딩 혜택을 제공합니다. 등록 혜택을 이용하면 Microsoft 전문가와 원격으로 함께 작업하여 Intune 환경을 즉시 사용하도록 준비할 수 있습니다. 자세한 내용은 [Microsoft Intune 등록 혜택 설명](http://go.microsoft.com/fwlink/?LinkId=619281)을 참조하세요.
 
@@ -32,18 +32,18 @@ Microsoft는 적합한 계획의 적합한 서비스에 대해 Intune 온보딩 
 
 모바일 장치에서 구성할 수 있는 설정 목록은 다음 항목을 참조하세요.
 
--   [Microsoft Intune의 모바일 장치 관리 기능](/intune/get-started/mobile-device-management-capabilities-in-microsoft-intune)
+-   [Microsoft Intune의 등록된 장치 관리 기능](/intune/get-started/mobile-device-management-capabilities-in-microsoft-intune) 
 
--   [Configuration Manager의 모바일 장치에 대한 일반 설정](https://technet.microsoft.com/library/dn376523.aspx)
+-   [System Center Configuration Manager 및 Microsoft Intune을 지원하는 하이브리드 MDM(모바일 장치 관리)](https://technet.microsoft.com/library/mt627883.aspx) 
 
-System Center 2012 R2 Configuration Manager에 대한 자세한 내용은 [System Center 2012 Configuration Manager에 대한 문서 라이브러리](https://technet.microsoft.com/library/gg682041.aspx)를 참조하세요.
+System Center Configuration Manager에 대한 자세한 내용은 [System Center Configuration Manager에 대한 문서 라이브러리](https://technet.microsoft.com/library/mt346023.aspx)를 참조하세요.
 
 ## Intune 서비스 업데이트가 영향을 주는 방식 이해
 Intune은 온라인 서비스이므로, Microsoft에서 정기적으로 업데이트할 수 있습니다.
 
 이 항목의 정보를 사용하여 이러한 서비스 업데이트의 빈도와, 업데이트가 서비스 사용에 영향을 줄 수 있는 경우 받을 사전 알림을 이해할 수 있도록 합니다.
 
-Intune 서비스의 변경 내용에 대한 자세한 내용은 [Microsoft Intune의 새로운 기능](/intune/deploy-use/Whats-new-in-microsoft-intune.md)을 참조하세요. [Microsoft Intune 블로그](http://blogs.technet.com/b/microsoftintune/)에서도 서비스 변경 사항에 대해 설명하고 Intune을 최대한 사용할 수 있도록 유용한 팁을 제공합니다.
+Intune 서비스의 변경 내용에 대한 자세한 내용은 [Microsoft Intune의 새로운 기능](/intune/deploy-use/whats-new-in-microsoft-intune)을 참조하세요. [Microsoft Intune 블로그](http://blogs.technet.com/b/microsoftintune/)에서도 서비스 변경 사항에 대해 설명하고 Intune을 최대한 사용할 수 있도록 유용한 팁을 제공합니다. 
 
 중요 서비스 업데이트는 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx) 메시지 센터에서도 알려줍니다. 제공된 [Office 365 관리자 모바일 앱](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)을 설치한 경우 모바일 장치에서 알림을 받을 수 있습니다.
 
@@ -65,7 +65,7 @@ Intune 서비스의 변경 내용에 대한 자세한 내용은 [Microsoft Intun
 
 -   **Intune 독립 실행형 구성.** Intune의 웹 기반 관리 콘솔을 사용하여 조직의 장치를 관리할 수 있습니다. 온-프레미스 IT 인프라 없이 Intune을 사용할 수 있지만 Active Directory 도메인 서비스와 함께 Intune을 사용하는 경우 Intune에서 도메인 서비스로 관리하는 도메인 사용자 계정을 사용할 수 있습니다.
 
--   **System Center Configuration Manager 포함 Intune.** 구성 관리자 관리 콘솔을 사용하여 기업의 컴퓨터 및 모바일 장치를 관리할 수 있습니다. 이 구성을 통해 단일 콘솔인 구성 관리자 관리 콘솔에서 조직의 모든 장치를 관리할 수 있습니다. 구성 관리자는 매우 많은 수의 모바일 장치, 서버 및 컴퓨터를 지원합니다. 자세한 내용은 [System Center 2012 Configuration Manager 문서 라이브러리](https://technet.microsoft.com/library/gg682041.aspx)의 [Configuration Manager 및 Microsoft Intune에 의해 모바일 장치를 관리하는 방법](http://go.microsoft.com/fwlink/?LinkID=271118)을 참조하세요.  적합한 방식을 결정하는 데 도움이 되는 추가 정보는 [Microsoft Intune 독립 실행형 및 Configuration Manager가 있는 하이브리드 MDM(모바일 장치 관리) 중에서 선택](https://technet.microsoft.com/en-us/library/mt706478.aspx)를 참조하세요.
+-   **System Center Configuration Manager 포함 Intune.** 구성 관리자 관리 콘솔을 사용하여 기업의 컴퓨터 및 모바일 장치를 관리할 수 있습니다. 이 구성을 통해 단일 콘솔인 구성 관리자 관리 콘솔에서 조직의 모든 장치를 관리할 수 있습니다. 구성 관리자는 매우 많은 수의 모바일 장치, 서버 및 컴퓨터를 지원합니다. 자세한 내용은 [System Center Configuration Manager 및 Microsoft Intune을 지원하는 하이브리드 MDM(모바일 장치 관리)](https://technet.microsoft.com/library/mt627883.aspx)를 참조하세요.  적합한 방식을 결정하는 데 도움이 되는 추가 정보는 [Microsoft Intune 독립 실행형 및 Configuration Manager가 있는 하이브리드 MDM(모바일 장치 관리) 중에서 선택](https://technet.microsoft.com/en-us/library/mt706478.aspx)를 참조하세요. 
 
 
 ## Intune에 대해 자세히 알아보기
@@ -73,7 +73,7 @@ Intune 서비스의 변경 내용에 대한 자세한 내용은 [Microsoft Intun
 
 -   [Microsoft Intune 보안 센터](http://www.microsoft.com/en-us/server-cloud/products/intune-trust-center/)에서는 Intune의 보안, 개인 정보 보호 및 규정 준수 방침에 대한 정보를 제공하고, Intune의 몇 가지 인증에 대해 설명합니다.
 
--   [Microsoft Intune의 모바일 장치 관리 기능](/intune/understand-explore/mobile-device-management-capabilities-in-microsoft-intune)
+-   [Microsoft Intune의 등록된 장치 관리 기능](/intune/get-started/mobile-device-management-capabilities-in-microsoft-intune) 
 
 ### 참고 항목
 [Microsoft Intune](https://docs.microsoft.com/intune/)
@@ -83,6 +83,6 @@ Intune 서비스의 변경 내용에 대한 자세한 내용은 [Microsoft Intun
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Sep16_HO4-->
 
 
