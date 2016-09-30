@@ -2,9 +2,9 @@
 title: "새로운 기능 | Microsoft Intune"
 description: "이번 달의 새로운 소식과 Microsoft Intune의 이전 릴리스 확인"
 keywords: 
-author: Lindavr
+author: barlanmsft
 manager: angrobe
-ms.date: 09/13/2016
+ms.date: 09/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 03a5dd14b854fedf7e2cb5b949580960a0eab9de
-ms.openlocfilehash: 1d09e5a0adb3ecfa8f2d64f668ea7ff16bdf31fa
+ms.sourcegitcommit: 5b3256852431efb83fb2cc9fa067dd3f4a68a050
+ms.openlocfilehash: cef0a26204a22c95d2b639500246e435fcf7f9f7
 
 
 ---
@@ -72,6 +72,11 @@ Microsoft는 Android 장치에서 맬웨어, 위험한 앱 등을 감지하여 �
 홈페이지의 Android용 회사 포털에 새 알림 아이콘이 추가되었습니다. 이 아이콘을 누르면 호환되지 않는 장치, 등록 업데이트 및 등록 활성화와 같이 회사 포털 앱에서 주의가 필요한 모든 항목을 최종 사용자에게 표시하는 알림 페이지로 이동됩니다. iOS 회사 포털 앱에 이 알림 환경이 이미 있습니다. 새 알림 페이지가 있으면 장치가 등록된 동안 회사 포털을 시작하거나 다시 시작할 때마다 회사 액세스 설정 페이지가 항상 표시되지는 않습니다. 최종 사용자 지침을 만들 경우 이 변경 내용을 반영하도록 문서를 업데이트할 수 있습니다. 업데이트된 스크린샷은 [여기](https://aka.ms/androidcpupdate)에서 볼 수 있습니다.  
 <!---TFS 1095560--->
 
+**Android용 회사 포털에서 사용자 의견 제공**</br>
+Android용 회사 포털의 메뉴에 새 항목이 추가되었습니다. **도움말 및 피드백** 세 가지 작업이 표시됩니다.
+* **도움말 보기**를 사용하여 IT 부서에 회사 포털에 대한 문제를 보고할 수 있습니다. IT에서는 사용자 메일 클라이언트를 사용하여 메일을 작성하고 이 메일에 회사 포털 로그를 첨부합니다. **도움말 보기**가 **설정** 페이지의 **데이터 보내기** 기능을 대체합니다.
+* **사용자 의견 제공**을 사용하여 회사 포털 팀에 사용자 의견을 제공할 수 있습니다.
+* **앱 평가**를 사용하여 Google Play에서 회사 포털 앱 평가 또는 리뷰를 남길 수 있습니다.
 
 ### iOS
 **iOS 회사 포털 앱에 대한 지원의 변경 내용**<br/>
@@ -88,7 +93,7 @@ iOS용 회사 포털 앱의 앱 타일이 다음과 같이 변경되어 사용�
 <!---TFS 1317133--->
 
 **IT Pro이 해당 앱 요구 사항을 설정하면 iOS Managed Browser 앱을 설치하라는 메시지가 나타납니다.**<br/>
-웹 클립을 Managed Browser에서만 열 수 있도록 구성했지만 장치에 Managed Browser가 설치되어 있지 않은 경우 장치의 회사 포털 앱에서는 웹 클립을 설치하기 전에 먼저 Managed Browser를 설치하라는 메시지를 표시합니다. 
+웹 클립을 Managed Browser에서만 열 수 있도록 구성했지만 장치에 Managed Browser가 설치되어 있지 않은 경우 장치의 회사 포털 앱에서는 웹 클립을 설치하기 전에 먼저 Managed Browser를 설치하라는 메시지를 표시합니다.
 <!---TFS 1228570--->
 
 ### Windows
@@ -141,6 +146,6 @@ Exchange Online 및 SharePoint Online에 대한 액세스를 제한하여 Outloo
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Sep16_HO4-->
 
 
