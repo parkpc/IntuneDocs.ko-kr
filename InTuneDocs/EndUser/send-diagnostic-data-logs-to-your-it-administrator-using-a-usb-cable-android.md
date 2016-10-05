@@ -31,7 +31,7 @@ IT 관리자에게 데이터 로그를 전송하여 문제 해결에 대한 도�
 
 2.  USB 케이블을 사용하여 Android 장치를 컴퓨터에 연결합니다.
 
-3.  컴퓨터에서 전화 이름을 가진 디렉터리를 찾습니다. 해당 디렉터리에서 &lt;Android 장치&gt;\Phone\Android\data\com.microsoft.windowsintune.companyportal\files를 찾습니다.\.
+3.  컴퓨터에서 전화 이름을 가진 디렉터리를 찾습니다. 해당 디렉터리에서 &lt;Android 장치&gt;\Phone\Android\data\com.microsoft.windowsintune.companyportal\files를 찾습니다\.
 
 4.  모든 파일을 메일에 첨부하여 IT 관리자에게 보냅니다.
 
