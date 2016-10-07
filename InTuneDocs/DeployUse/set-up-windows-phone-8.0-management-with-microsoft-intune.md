@@ -3,8 +3,8 @@ title: "Windows Phone 8.0 관리 설정 | Microsoft Intune"
 description: "Microsoft Intune으로 Windows Phone 8.0 장치에 대한 MDM(모바일 장치 관리)을 사용하도록 설정합니다."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 06/09/2016
+manager: angrobe
+ms.date: 07/09/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 61e9b6c3-8795-49b0-8ab2-a9a05ee3ea1f
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f336cf52cbecd93cb7b2850560327e6024302e0
-ms.openlocfilehash: 9f0c2493c5e852419b037eacd3bf2ce798fecd0a
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: 1d3823392b7060b9d04996c29c68213d421ef4bd
 
 
 ---
@@ -42,7 +42,7 @@ Windows Phone 8.0의 경우 Intune 회사 포털 앱을 설치하여 장치 관�
 Window Phone 모바일 장치 관리에 대한 설치 요구 사항은 장치를 관리하려는 방법에 따라 다릅니다.  회사의 DNS 등록에 두 개의 CNAME를 설정하면 보다 쉽게 등록을 사용할 수 있습니다. 사용자가 저장소에서 회사 포털 앱을 다운로드하려는 경우에 DNS 설정이 구성되었다면 회사 포털을 설정하고 사용자에게 등록 방법을 알려주기만 하면 됩니다.  Windows Phone 8.0 또는 회사 포털을 배포하려는 Windows Phone 8.1의 경우 Symntec 인증서를 사용해 앱에 코드 서명해야 합니다.
 
 ## 설정 요구 사항을 구성하여 Windows Phone 관리 사용
-1.  **Intune 설정** 모바일 장치 관리를 아직 준비하지 않은 경우 [모바일 장치 관리 기관](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
+1.  **Intune 설정** 모바일 장치 관리를 아직 준비하지 않은 경우 [모바일 장치 관리 기관](prerequisites-for-enrollment.md#set-mobile-device-management-authority)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
 
 2.  **등록 서버 주소에 대한 DNS 별칭 설정** (선택 사항)
 
@@ -183,6 +183,6 @@ Windows Phone 스토어에서 설치하지 않고 Intune을 사용해 회사 포
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Sep16_HO4-->
 
 

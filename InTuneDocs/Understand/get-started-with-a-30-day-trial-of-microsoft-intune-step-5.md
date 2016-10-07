@@ -13,8 +13,8 @@ ms.assetid: 47806f69-303d-41d9-9b0e-9b9445ea24ac
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 51fba2b01d8978bc062c50c4388714609be0fdf0
-ms.openlocfilehash: 66dc46eb9dc1010b8c176ccfdea68b9a6e4b0618
+ms.sourcegitcommit: dc767abc733457d975b61b96e21781952f79c6f9
+ms.openlocfilehash: fb99e78261b678ef776f992d5abfd2ba0555d4da
 
 
 ---
@@ -58,7 +58,7 @@ App Store에서 Microsoft Corporation의 **Microsoft Intune 회사 포털** 앱�
 ## 이전에 배포된 앱 설치
 모바일 장치에서 회사 포털을 열고 **앱**을 선택한 후 **Microsoft Skype**를 설치합니다.
 
-Intune을 사용하는 모바일 장치 관리에 대한 자세한 내용은 [Microsoft Intune에 장치를 등록하도록 준비](/Intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune)를 참조하세요.
+Intune을 사용하는 모바일 장치 관리에 대한 자세한 내용은 [Microsoft Intune에 장치를 등록하도록 준비](/Intune/deploy-use/prerequisites-for-enrollment)를 참조하세요.
 
 ### 다음 단계
 축하합니다. *Microsoft Intune 평가판* 연습의 5단계를 완료했습니다.
@@ -69,6 +69,6 @@ Intune을 사용하는 모바일 장치 관리에 대한 자세한 내용은 [Mi
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Sep16_HO5-->
 
 

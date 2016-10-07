@@ -13,16 +13,30 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 91385bdbe4aa4252311db106c04de7d04df5109c
-ms.openlocfilehash: 5e94e4efa5a3ecb055ce416c3ee8dd21e56bad65
+ms.sourcegitcommit: 381216889519b45f989db90ac5e12b8e3adcadf1
+ms.openlocfilehash: 378a6b290ccb83de28e73b17d8f02f77504dafd5
 
 
 ---
 
 # Intune에서 모바일 장치 관리를 위한 필수 조건
-직원이 Intune에 모바일 장치([Android](set-up-android-management-with-microsoft-intune.md), [iOS 및 Mac](set-up-ios-and-mac-management-with-microsoft-intune.md), [Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md) 및 [Windows PC](set-up-windows-device-management-with-microsoft-intune.md) 포함)를 등록하거나 회사가 소유한 장치를 관리할 수 있게 하려면 장치 등록을 사용하도록 설정해야 합니다. 등록을 허용하려면 MDM(모바일 장치 관리) 기관을 설정하고 Intune 회사 포털을 구성하고 라이선스를 할당하고 장치 플랫폼에 대한 등록을 활성화해야 합니다.
+직원이 Intune에 모바일 장치를 등록할 수 있도록 하려면 다음 단계가 필요합니다. 이러한 동일한 단계는 회사 소유 장치를 관리하는 데 필요합니다.
 
-## 모바일 장치 관리 기관 설정
+|단계|세부 정보|  
+|-----------|-------------|  
+|**1단계:** [장치 등록 종속성](#step-1-device-enrollment-dependencies)|사용자 지정 도메인 이름이 구성되어 있고 네트워크 통신이 준비되었는지 확인합니다.|  
+|**2단계:** [장치 관리 기관 설정](#step-2-set-mobile-device-management-authority)|모바일 장치 관리 기관은 장치에 할당된 서비스를 정의합니다.|
+|**3단계:** [Intune 회사 포털 구성](#step-3-configure-the-intune-company-portal)|회사 포털 앱과 관련하여 사용자에게 표시되는 설정을 구성합니다.|  
+|**4단계:** [Intune 사용자 라이선스 할당](#step-4-assign-intune-user-licenses)|장치를 등록할 수 있도록 사용자에게 Intune 라이선스를 할당합니다.|
+|**5단계:** [장치 관리 설정](#step-5-set-up-device-management)|iOS 및 Windows 관리에 대해 플랫폼별 설정을 사용하도록 설정합니다. Android 장치에는 추가 구성이 필요하지 않습니다.|
+
+## 1단계: 장치 등록 종속성
+
+모바일 장치 등록을 사용하도록 설정하기 전에 다음을 수행했는지 확인합니다.
+- [필요한 네트워크 URL 및 포트 검토](../get-started/network-infrastructure-requirements-for-microsoft-intune)
+- [도메인 이름 추가 및 확인](../get-started/domain-names-for-microsoft-intune)
+
+## 2단계: 모바일 장치 관리 기관 설정
 MDM 기관은 일련의 장치를 관리할 권한을 가진 관리 서비스를 정의합니다. MDM 기관에 대한 옵션에는 Intune 자체 및 Intune을 사용하는 Configuration Manager가 포함됩니다. Configuration Manager를 관리 기관으로 설정한 경우 모바일 장치 관리에 다른 서비스를 사용할 수 없습니다.
 
 >[!IMPORTANT]
@@ -38,7 +52,7 @@ MDM 기관은 일련의 장치를 관리할 권한을 가진 관리 서비스를
 
 3.  Intune을 MDM 기관으로 지정할 것임을 확인하라는 요청 메시지가 표시됩니다. 이 확인란을 선택한 후 **예**를 선택하여 모바일 장치를 관리하는 데 Microsoft Intune을 사용합니다.
 
-## Intune 회사 포털 구성
+## 3단계: Intune 회사 포털 구성
 
 Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장치 등록, 앱 설치, IT 부서 지원 정보 찾기 등의 일반적인 작업을 수행할 수 있습니다.
 
@@ -79,14 +93,14 @@ Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장�
     |----------|----------------|
     |테마 색|회사 포털에 적용할 테마 색을 선택합니다.|
     |회사 로고 포함|이 옵션을 설정한 경우 회사 포털에서 표시할 회사 로고를 업로드할 수 있습니다. 회사 포털 배경이 흰색인 경우에 표시되는 로고 하나와 회사 포털 배경이 직접 선택한 테마 색을 사용하는 경우에 표시되는 로고 하나, 두 개의 로고를 업로드할 수 있습니다. 각 로고는 .png 또는 .jpg 파일이어야 하며 최대 해상도가 400 x 100픽셀이고 크기가 750KB 이하여야 합니다.|
-    |[!INCLUDE[win8_client_2](../includes/win8_client_2_md.md)] 회사 포털 앱의 배경 선택|이 설정은 [!INCLUDE[win8_client_2](../includes/win8_client_2_md.md)] 회사 포털 앱의 배경에만 적용됩니다.|
+    |회사 포털 앱의 배경 선택|이 설정은 회사 포털 앱의 배경에만 영향을 줍니다.|
 
 
 변경 내용을 저장한 후 관리 콘솔의 **회사 포털** 페이지 맨 아래에 제공된 링크를 사용하여 회사 포털 웹 사이트를 확인할 수 있습니다. 이러한 링크는 변경할 수 없습니다. 사용자가 로그인하면 이러한 링크가 회사 포털에 구독을 표시합니다.
 
-## Intune 사용자 라이선스 할당
+## 4단계: Intune 사용자 라이선스 할당
 
-**Office 365 관리 포털**을 사용하여 클라우드 기반 사용자를 수동으로 추가하고, 클라우드 기반 사용자 계정 및 온-프레미스 Active Directory에서 Azure AD(Azure Active Directory)로 동기화한 계정에 라이선스를 할당합니다.
+**Office 365 관리 포털**을 사용하여 클라우드 기반 사용자를 수동으로 추가하고, 클라우드 기반 사용자 계정 및 온-프레미스 Active Directory에서 Azure AD(Azure Active Directory)로 동기화한 계정에 라이선스를 할당합니다. [Azure AD와 온-프레미스 사용자를 동기화](../get-started/domain-names-for-microsoft-intune#to-synchronize-on-premises-users-with-azure-ad.md)할 수 있습니다.
 
 1.  테넌트 관리자 자격 증명을 사용하여 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx)에 로그인합니다.
 
@@ -94,7 +108,14 @@ Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장�
 
 3.  사용자 계정이 Microsoft Intune 사용자 그룹에 추가되고 그에 따라 서비스를 사용하고 장치를 관리하도록 등록할 권한이 사용자에게 부여됩니다.
 
-## 모바일 장치 설정
+### Azure AD와 온-프레미스 사용자를 동기화하려면
+
+1. 온-프레미스 Active Directory에서 사용자 지정 도메인에 대한 [UPN 접미사를 추가](https://technet.microsoft.com/en-us/library/cc772007.aspx)합니다.
+2. 가져오려는 온-프레미스 사용자에 대한 새 UPN 접미사를 설정합니다.
+3. [Azure AD Connect 동기화](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/)를 실행하여 온-프레미스 사용자를 Azure AD와 통합합니다.
+4. 사용자 계정 정보가 동기화되면 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx)을 사용하여 Microsoft Intune 라이선스를 할당할 수 있습니다.
+
+## 5단계: 장치 관리 설정
 MDM 기관을 설정한 후 조직에서 지원하려는 운영 체제에 대한 장치 관리를 설정해야 합니다. 장치 관리를 설정하는 데 필요한 단계는 운영 체제에 따라 다릅니다. 예를 들어 Android OS는 Intune 관리 콘솔에서 아무런 작업이 필요하지 않습니다. 반면에 Windows 및 iOS는 관리를 허용하려면 장치와 Intune 간의 트러스트 관계가 필요합니다.
 
 다음 플랫폼에 대해 관리를 설정합니다.
@@ -109,6 +130,6 @@ MDM 기관을 설정한 후 조직에서 지원하려는 운영 체제에 대한
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Sep16_HO4-->
 
 

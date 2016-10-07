@@ -13,8 +13,8 @@ ms.assetid: 8e38d47d-0c5e-40ce-b379-29d3657f5c28
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d40ec3b5b7c5c4ee2cfd48a95ada0dadcaa80be4
-ms.openlocfilehash: 077029a962797a18fab27c3f1f5340eae6edfe04
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: 8eee27e0c24e353143ce2014b65dc91af2c04843
 
 
 ---
@@ -28,7 +28,7 @@ ms.openlocfilehash: 077029a962797a18fab27c3f1f5340eae6edfe04
 
 ## 시작하기 전에
 비즈니스용 Windows 스토어에서 앱 동기화 및 배포를 시작하기 전에 다음 정보를 검토합니다.
-* Intune을 조직에 대한 모바일 장치 관리 기관으로 구성해야 합니다. 자세한 내용은 [Microsoft Intune에 장치를 등록하도록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)를 참조하세요.
+* Intune을 조직에 대한 모바일 장치 관리 기관으로 구성해야 합니다. 자세한 내용은 [Microsoft Intune에서 장치 등록을 위한 필수 조건](prerequisites-for-enrollment.md)을 참조하세요.
 * Windows Store for Business에서 계정을 등록해야 합니다.
 * Windows 업무용 스토어 계정을 Intune과 연결한 후 나중에 다른 계정으로 변경할 수 없습니다.
 * 스토어에서 구입한 앱을 Intune에 수동으로 추가하거나 Intune에서 삭제할 수 없습니다. 비즈니스용 Windows 스토어와만 동기화할 수 있습니다.
@@ -77,6 +77,6 @@ Intune 콘솔에서 동기화를 사용하기 전에 관리 도구로 Intune을 
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Sep16_HO4-->
 
 

@@ -13,14 +13,14 @@ ms.assetid: 2f835fd0-4e62-42f3-b7ca-ce8b7ddd40e4
 ms.reviewer: sandera
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1334500471d2aea5e8c58a3219c755bfd9953424
-ms.openlocfilehash: 4ae7d6c571f69c0cc51dc15355e50325afb88694
+ms.sourcegitcommit: ceaeba74f8671caf4125252fce02fd06752c3fe8
+ms.openlocfilehash: 2052aca24baa752bc4fad3bd7a75f8efa109e9e9
 
 
 ---
 
 # Intune 관리 콘솔에서 Lookout MTP 연결
-이 항목에서는 Intune에서 Lookout MTP를 연결하는 방법을 보여 줍니다. 이 단계를 수행하려면 이미 Lookout MTP 콘솔에서 Intune Connector를 구성한 상태여야 합니다.  아직 구성하지 않은 경우 [Lookout Mobile Threat Protection 구독 설정](set-up-your-subscription-with-lookout-mtp.md)에 설명된 단계를 진행합니다.
+이 항목에서는 Intune에서 Lookout MTP를 연결하는 방법을 보여 줍니다. 이 단계를 수행하려면 이미 Lookout 콘솔에서 Intune Connector를 구성한 상태여야 합니다.  아직 구성하지 않은 경우 [Lookout Mobile Threat Protection 구독 설정](set-up-your-subscription-with-lookout-mtp.md)에 설명된 단계를 진행합니다.
 
 Intune에서 Lookout MTP를 연결하려면 [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)의 **관리** 페이지에서 **타사 서비스 통합**을 선택합니다. **Lookout 상태**를 선택하고 토글 단추를 사용하여 **MTP와 동기화**를 설정합니다.
 
@@ -35,6 +35,6 @@ Intune에서 Lookout MTP를 연결하려면 [Microsoft Intune 관리자 콘솔](
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO4-->
 
 

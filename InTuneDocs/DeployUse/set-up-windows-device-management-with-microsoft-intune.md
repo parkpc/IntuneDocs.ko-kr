@@ -13,8 +13,8 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ebb1648ab13d31a2ba1ab17615814be8dda8a08c
-ms.openlocfilehash: 9b063c1e6b1ff5dcab16fce958ede49303284b18
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: 149508942b89b15308591e17723884add3ac78ae
 
 
 ---
@@ -32,7 +32,7 @@ Intune 관리자는 두 가지 방법으로 Windows PC 등록 및 관리를 수�
 사용자가 Intune 회사 포털 앱을 설치하고 해당 앱에서 장치를 등록하는 방식으로 사용 중인 장치를 등록하도록 할 수 있습니다. DNS CNAME을 만들면 사용자가 서버 이름을 입력하지 않고도 Intune에서 연결 및 등록할 수 있습니다.
 
 1. **Intune 설정**<br>
-모바일 장치 관리를 아직 준비하지 않은 경우 [모바일 장치 관리 기관](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
+모바일 장치 관리를 아직 준비하지 않은 경우 [모바일 장치 관리 기관](prerequisites-for-enrollment.md#set-mobile-device-management-authority)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
 
 2. **CNAME 만들기**(선택 사항)<br>등록을 쉽게 수행할 수 있도록 회사 도메인용 **CNAME** DNS 리소스 레코드를 만듭니다. CNAME DNS 항목은 선택 사항이지만 CNAME 레코드를 만들면 사용자가 더욱 쉽게 등록을 수행할 수 있습니다. 등록 CNAME 레코드가 없으면 사용자에게 MDM 서버 이름인 `https://manage.microsoft.com`을 수동으로 입력하라는 메시지가 표시됩니다.  CNAME 리소스 레코드에는 다음 정보가 포함되어야 합니다.
 
@@ -60,10 +60,10 @@ Intune 관리자는 두 가지 방법으로 Windows PC 등록 및 관리를 수�
       - [Windows 장치용 최종 사용자 가이드](../enduser/using-your-windows-device-with-intune.md)
 
 ### 참고 항목
-[Microsoft Intune에 장치를 등록하도록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
+[Microsoft Intune에서 장치 등록을 위한 필수 조건](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO4-->
 
 

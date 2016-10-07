@@ -13,8 +13,8 @@ ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e2daff5dae435df55c866adbf602f554500d50e0
-ms.openlocfilehash: e898d070eb61583ff379821c9bf24f3997ae177e
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: d06d6e7de5c2e30ae8078642184ad8cfadf15be4
 
 
 ---
@@ -102,10 +102,10 @@ Apple DEP(장치 등록 프로그램)로 회사 소유의 iOS 장치를 관리�
 11월부터 장치 그룹 관리가 Azure Active Directory로 이동됩니다. Azure Active Directory 그룹으로 전환된 후에는 그룹 할당이 **회사 등록 프로필** 옵션에 나타나지 않습니다. 이 변경은 몇 달에 걸쳐 진행될 예정이므로 당장 변경 내용이 확인되지 않을 수 있습니다. 새 포털로 이동하고 나면 회사 등록 프로필 이름에 따라 동적 장치 그룹 할당을 정의할 수 있습니다. 새 동적 장치 그룹 할당을 정의하면 장치 그룹에 미리 할당된 장치가 정책과 앱이 배포된 상태에서 그룹에 자동으로 등록됩니다. [Azure Active Directory 그룹에 대한 자세한 정보](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/)
 
 ### 참고 항목
-[장치 등록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
+[장치 등록을 위한 필수 조건](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO4-->
 
 
