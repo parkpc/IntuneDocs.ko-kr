@@ -12,8 +12,8 @@ ms.technology:
 ms.assetid: 0d357dc0-3e14-43d0-9874-6886ebc847fc
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: 5c522c12325925c45f47bc7b521e3d8aa87454f4
-ms.openlocfilehash: d4ffed6fa0a2380ebfc5c4cf9999233635a3469f
+ms.sourcegitcommit: dd08b2e454b14c82e1dd9704617b32ac86ff7790
+ms.openlocfilehash: 53a239f574c327be461663872545bda63ac4b7a5
 
 
 ---
@@ -39,9 +39,9 @@ ms.openlocfilehash: d4ffed6fa0a2380ebfc5c4cf9999233635a3469f
 
     ![Lookout for Work를 열고 활성화를 탭함](./media/lookout-activate-button-android.png)
 
-4. **회사 계정으로 로그인**을 탭하고 회사 또는 학교 메일 및 파일에 액세스하는 데 사용하는 계정을 입력합니다.
+4. **Azure Active Directory로 로그인**을 탭하고 회사 또는 학교 메일 및 파일에 액세스하는 데 사용하는 계정을 입력합니다.
 
-    ![회사 또는 학교 계정을 사용하여 로그인](./media/lookout-sign-in-android.png)
+    ![회사 또는 학교 계정을 사용하여 로그인](./media/lookout-sign-in-azure-android.png)
 
 5. 회사 또는 학교 메일 및 파일에 액세스하는 데 사용하는 계정을 선택한 다음 **계정 추가**를 탭합니다.
 
@@ -78,6 +78,6 @@ ms.openlocfilehash: d4ffed6fa0a2380ebfc5c4cf9999233635a3469f
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO4-->
 
 

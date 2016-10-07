@@ -13,8 +13,8 @@ ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 875da922b311b06fa8a1eb8ba7207108684825d5
+ms.sourcegitcommit: baf87ad746a320784252966398bd665241209935
+ms.openlocfilehash: e82452abd00cf7a06ac501ed4e16bdab423697bd
 
 
 ---
@@ -25,6 +25,8 @@ Microsoft Intune 조건부 액세스가 설정된 iOS 및 Android 장치에서 M
 * 장치에서 서비스에 액세스하기 위해 충족해야 하는 조건을 지정하는 [조건부 액세스 정책](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
 
 조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [메일 및 0365 및 기타 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 읽어보세요.
+
+[!IMPORTANT] 조건부 액세스를 배포하려면 Intune 및 Azure Active Directory Premium에 대한 구독이 있어야 합니다.  Azure Active Directory Premium에 대한 자세한 내용은 [Azure Active Directory 가격 페이지](https://azure.microsoft.com/en-us/pricing/details/active-directory/)를 참조하세요. **Enterprise Mobility Suite + Security 구독**에는 Intune 구독과 Azure Active Directory Premium 구독이 모두 포함되어 있습니다. 자세한 내용은 [Enterprise Mobility Suite pricing page](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing)(Enterprise Mobility Suite 가격 페이지)를 참조하세요.
 
 대상 사용자가 장치에서 Dynamics CRM 앱을 사용하려고 시도하는 경우 다음 평가가 발생합니다.
 
@@ -97,6 +99,6 @@ Dynamics CRM 정책에 사용할 두 가지 그룹 유형을 지정할 수 있�
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Sep16_HO5-->
 
 

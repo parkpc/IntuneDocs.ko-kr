@@ -13,8 +13,8 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 99b01f5ca5bb389fc8a9d87e956796823fee6c0d
-ms.openlocfilehash: dd5ae411cc2541566805131d0076efc15875c988
+ms.sourcegitcommit: baf87ad746a320784252966398bd665241209935
+ms.openlocfilehash: ee57650e1613030b4b22963890cf648b514e0db3
 
 
 ---
@@ -26,14 +26,12 @@ Exchange Online Dedicated 환경이 있고 신규 또는 기존 구성 상태인
 Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액세스를 제어하려면 Intune에서 Exchange Online에 대한 조건부 액세스를 구성합니다.
 조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [메일, O365 및 기타 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 읽어보세요.
 
->[!IMPORTANT]
->앱에서 최신 인증을 사용한 PC 및 Windows 10 Mobile 장치에 대한 조건부 액세스는 현재 일부 Intune 고객에게만 제공됩니다. 이러한 기능을 이미 사용 중인 경우 어떠한 조치도 취할 필요가 없습니다. 계속 사용할 수 있습니다.
-
->최신 인증을 사용하여 PC 또는 앱용 Windows 10 Mobile에 대한 조건부 액세스 정책을 생성하지 않았지만 생성하려는 경우 Intune 관리 장치 또는 도메인에 가입된 Windows PC에 대한 장치 기반 조건부 액세스를 포함하는 Azure Active Directory 공개 미리 보기에 등록합니다. 자세한 내용을 확인하려면 [이 블로그 게시물](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/10/azuread-conditional-access-policies-for-ios-android-and-windows-are-in-preview/)을 읽어보세요.  
 
 조건부 액세스를 구성하기 **전에** 다음을 수행해야 합니다.
 
 -   **Exchange Online(예: E3)을 포함하는 Office 365 구독**을 사용하고 사용자는 Exchange Online의 라이선스를 취득해야 합니다.
+
+- **Azure Active Directory Premium 구독**이 있어야 합니다. 자세한 내용은 [Azure Active Directory 가격 페이지](https://azure.microsoft.com/en-us/pricing/details/active-directory/)를 참조하세요. **Enterprise Mobility Suite + Security 구독**에는 Intune 구독과 Azure Active Directory Premium 구독이 모두 포함되어 있습니다. 자세한 내용은 [Enterprise Mobility Suite pricing page](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing)(Enterprise Mobility Suite 가격 페이지)를 참조하세요.
 
 -  [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]을 Microsoft Exchange Online에 연결하며 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 콘솔을 통해 장치 정보를 관리할 수 있도록 하는 **Microsoft Intune 서비스 간 커넥터**(선택 사항)를 구성하는 것이 좋습니다. 커넥터는 준수 정책 또는 조건부 액세스 정책을 사용하려는 경우 필요가 없지만 조건부 액세스의 영향을 평가하는 보고서를 실행하려는 경우에는 필요합니다.
 
@@ -84,9 +82,7 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 
 **지원되지 않는 브라우저는 차단됩니다**.
 
-iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙을 통해 차단해야 합니다.
-
-
+**iOS 및 Android용 OWA 앱은 최신 인증을 사용하지 않도록 수정할 수 있으며, 지원되지 않습니다.  OWA 앱에서의 액세스는 ADFS 클레임 규칙을 통해 차단되어야 합니다.**
 
 
 다음 플랫폼의 기본 제공 **Exchange ActiveSync 전자 메일 클라이언트**에서 Exchange 전자 메일에 대한 액세스를 제한할 수 있습니다.
@@ -101,14 +97,18 @@ iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙�
 
 다음 요구 사항을 충족하는 PC에 대해 Office 데스크톱 응용 프로그램을 사용하여 **Exchange Online** 및 **SharePoint Online** 에 액세스하는 PC용 조건부 액세스를 설정할 수 있습니다.
 
--   PC에서 Windows 7.0 또는 Windows 8.1을 실행해야 합니다.
+-   PC에서 Windows 7.0, Windows 8.1 또는 Windows 10을 실행해야 합니다.
 
--   PC가 도메인에 가입되어 있거나 준수 정책 규칙을 따라야 합니다.
+  >[!NOTE]
+  > Windows 10 PC에 조건부 액세스를 사용하려면 해당 PC를 Windows 10 1주년 업데이트로 업데이트해야 합니다.
 
-    PC가 정책을 준수하는 것으로 간주되려면 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 PC를 등록해야 하며 정책을 준수하도록 설정해야 합니다.
+  PC가 도메인에 가입되어 있거나 준수 정책 규칙을 따라야 합니다.
 
-    도메인에 가입된 PC의 경우 Azure Active Directory에 [장치를 자동으로 등록](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-automatic-device-registration/)하도록 설정해야 합니다.
-    >[!NOTE]
+  PC가 정책을 준수하는 것으로 간주되려면 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 PC를 등록해야 하며 정책을 준수하도록 설정해야 합니다.
+
+  도메인에 가입된 PC의 경우 Azure Active Directory에 [장치를 자동으로 등록](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-automatic-device-registration/)하도록 설정해야 합니다.
+
+  >[!NOTE]
     >Intune 컴퓨터 클라이언트를 실행 중인 PC에서는 조건부 액세스가 지원되지 않습니다.
 
 -   [Office 365 최신 인증을 사용](https://support.office.com/en-US/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a)하도록 설정해야 하며 최신 Office 업데이트를 모두 설치해야 합니다.
@@ -177,6 +177,10 @@ iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙�
 
 ### 4단계: 조건부 액세스 정책 구성
 
+>[!NOTE]
+> Azure AD 관리 콘솔에서 조건부 액세스 정책을 만들 수도 있습니다. Azure AD 관리 콘솔을 통해 다단계 인증과 같은 기타 조건부 액세스 정책뿐만 아니라 Intune 장치 조건부 액세스 정책(Azure AD에서는 **장치 기반 조건부 액세스 정책**이라고 함)을 만들 수 있습니다.  Azure AD에서 지원하는 Salesforce 및 Box와 같은 타사 엔터프라이즈 앱에 대해서도 조건부 액세스 정책을 설정할 수 있습니다. 자세한 내용은 [Azure Active Directory 연결 응용 프로그램의 액세스 제어를 위한 Azure Active Directory 장치 기반 조건부 액세스 정책을 설정하는 방법](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-policy-connected-applications/)을 참조하세요.
+
+
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** > **조건부 액세스** > **Exchange Online 정책**을 선택합니다.
 ![Exchange Online 조건부 액세스 정책 페이지의 스크린샷](../media/mdm-ca-exo-policy-configuration.png)
 
@@ -196,9 +200,6 @@ iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙�
         **모든 플랫폼** 옵션을 선택하면 클라이언트 응용 프로그램에서 보고하는 플랫폼에 관계없이, Azure Active Directory에서 인증된 모든 요청에 이 정책이 적용됩니다.  다음을 제외한 모든 플랫폼이 규격 상태로 등록되어야 합니다.
         *   Windows 장치는 규격 상태로 등록되어야 하며 온-프레미스 Active Directory를 통해 도메인에 연결되어야 합니다.
         * 지원되지 않는 플랫폼(예: Mac OS).  그러나 이러한 플랫폼에서 제공하는 최신 인증을 사용하는 앱은 여전히 차단됩니다.
-
-        >[!TIP]
-           PC에 대한 조건부 액세스를 아직 사용하지 않는 경우 이 옵션이 표시되지 않습니다.  대신 **특정 플랫폼**을 사용합니다. PC에 대한 조건부 액세스는 현재 일부 Intune 고객에게만 제공됩니다.   이 기능에 액세스하는 방법에 대한 자세한 내용은 [이 블로그 게시물](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/10/azuread-conditional-access-policies-for-ios-android-and-windows-are-in-preview/)에서 확인할 수 있습니다.
 
     -   **특정 플랫폼**
 
@@ -262,6 +263,6 @@ iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙�
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Sep16_HO5-->
 
 

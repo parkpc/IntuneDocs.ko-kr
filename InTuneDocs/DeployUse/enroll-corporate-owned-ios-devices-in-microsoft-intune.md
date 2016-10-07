@@ -13,8 +13,8 @@ ms.assetid: 2d3ca4ab-f20c-4d56-9413-f8ef19cf0722
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bee93334e7b868ef6c827fba9efc3318c8419527
-ms.openlocfilehash: b295ee11d566fbfbe84513c045f3a76dfd51cda4
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: c28b51146deb6a0a28070f72449972fd60076231
 
 
 ---
@@ -76,10 +76,10 @@ DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배�
 
 
 ### 참고 항목
-[Microsoft Intune에 장치를 등록하도록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
+[Microsoft Intune에서 장치 등록을 위한 필수 조건](gprerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Sep16_HO4-->
 
 

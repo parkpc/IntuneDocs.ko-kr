@@ -13,8 +13,8 @@ ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 27d993974d71b34b36cbd3216b83a1303689bf15
+ms.sourcegitcommit: baf87ad746a320784252966398bd665241209935
+ms.openlocfilehash: 8b68465554946c198a8b5f0fd6cf2a8466c05e40
 
 
 ---
@@ -32,7 +32,7 @@ ms.openlocfilehash: 27d993974d71b34b36cbd3216b83a1303689bf15
 
 비즈니스용 Skype Online에 대한 조건부 액세스 정책을 구성하기 **전에** 다음을 수행해야 합니다.
 - **비즈니스용 Skype Online 구독**이 있고 비즈니스용 Skype Online 라이선스를 사용자에게 할당해야 합니다.
-- **Enterprise Mobility Suite** 또는 **Azure Active Directory Premium**에 대한 구독이 있어야 합니다.
+- **Azure AD Premium 구독**이 있어야 합니다. 자세한 내용은 [Azure Active Directory 가격 페이지](https://azure.microsoft.com/en-us/pricing/details/active-directory/)를 참조하세요. **Enterprise Mobility Suite + Security 구독**에는 Intune 구독과 Azure Active Directory Premium 구독이 모두 포함되어 있습니다. 자세한 내용은 [Enterprise Mobility Suite pricing page](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing)(Enterprise Mobility Suite 가격 페이지)를 참조하세요.
 -   비즈니스용 Skype Online에 대해 [최신 인증을 사용하도록 설정](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune)합니다.
 -  모든 최종 사용자가 **비즈니스용 Skype Online**을 사용 중이어야 합니다. 비즈니스용 Skype Online과 비즈니스용 Skype 온-프레미스를 함께 배포한 경우 최종 사용자에게 조건부 액세스 정책이 적용되지 않습니다.
 
@@ -116,6 +116,6 @@ ms.openlocfilehash: 27d993974d71b34b36cbd3216b83a1303689bf15
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Sep16_HO5-->
 
 

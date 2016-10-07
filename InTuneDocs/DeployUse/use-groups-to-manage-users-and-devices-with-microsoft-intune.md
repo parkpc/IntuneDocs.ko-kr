@@ -4,7 +4,7 @@ description: "그룹 작업 영역을 사용하여 그룹을 만들고 관리합
 keywords: 
 author: Nbigman
 manager: angrobe
-ms.date: 09/13/2016
+ms.date: 09/27/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: eb9b01ce-9b9b-4c2a-bf99-3879c0bdaba5
 ms.reviewer: lpatha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8c474810f8d3c7db4784c38c45c85c83b647860b
-ms.openlocfilehash: fa0c235d3ab5f9dde04f8345e7e28fdd00603e58
+ms.sourcegitcommit: 1fbe37aa081f850224ce4ee76f66e154c6001c9c
+ms.openlocfilehash: 480a7a60b484f28b621c4c135713a65953f46f41
 
 
 ---
@@ -24,7 +24,7 @@ ms.openlocfilehash: fa0c235d3ab5f9dde04f8345e7e28fdd00603e58
 
 >[!IMPORTANT]
 >
->Intune 포털에서 그룹 작업 영역을 열었을 때 Azure AD(Azure Active Directory) 포털 링크가 보이면, Intune의 그룹 관리에 대한 *새* Azure AD 보안 그룹 접근 방식([그룹 관리 환경에 대한 향후 개선 사항 공지](#notice-of-upcoming-improvements-to-the-admin-experience-for-groups)에 설명되어 있음)을 이미 사용하고 있는 것입니다. Azure AD 포털에 대한 링크를 클릭하여 그룹을 만들고 관리합니다. Azure AD 보안 그룹을 사용하는 방법을 알아보려면 [Azure Active Directory 그룹을 사용하여 리소스에 대한 액세스 관리](https://azure.microsoft.com/en-us/documentation/articles/active-directory-manage-groups/)를 참조하세요.
+>Intune 포털에서 그룹 작업 영역을 열었을 때 Azure AD(Azure Active Directory) 포털 링크가 보이면, Intune의 그룹 관리에 대한 *새* Azure AD 보안 그룹 접근 방식([그룹 관리 환경에 대한 향후 개선 사항 공지](#notice-of-upcoming-improvements-to-the-admin-experience-for-groups)에 설명되어 있음)을 이미 사용하고 있는 것입니다. Azure AD 포털에 대한 링크를 클릭하여 그룹을 만들고 관리합니다. 
 >
 >Azure AD 포털 링크가 보이지 않으면 지금도 그룹 관리에 대한 *기존* 접근 방식(이 항목의 [Microsoft Intune에서 그룹을 만들어 사용자와 장치 관리](#Create-groups-to-manage-users-and-devices-with-Microsoft-Intune)에 설명되어 있음)을 사용하고 있는 것입니다.
 
@@ -42,7 +42,7 @@ Enterprise Mobility + Security에서 단일화된 그룹화 환경과 대상 지
 
 
 ### 언제, 어떻게 새 그룹 환경으로 마이그레이션하나요?
-지금의 Intune 고객은 충분한 시간을 두고 마이그레이션할 예정입니다. 마이그레이션에 대한 일정을 마무리하고 있으며, 몇 주 내로 이 항목을 업데이트하여 자세한 내용을 알려드리겠습니다. 마이그레이션하기 전에 공지를 하도록 하겠습니다. 마이그레이션 관련 질문이 있는 경우에는 마이그레이션 팀(<intunegrps@microsoft.com>)에 문의 하세요.
+지금의 Intune 고객은 충분한 시간을 두고 마이그레이션할 예정입니다. 마이그레이션에 대한 일정을 마무리하고 있으며, 몇 주 내로 이 항목을 업데이트하여 자세한 내용을 알려드리겠습니다. 마이그레이션하기 전에 공지를 하도록 하겠습니다. 마이그레이션 관련 질문이 있는 경우에는 마이그레이션 팀([intunegrps@microsoft.com](mailto:intunegrps@microsoft.com))에 문의 하세요. 그룹을 마이그레이션하는 방법에 대한 자세한 내용은 [그룹을 Azure Active Directory로 마이그레이션](migrating-groups-to-azure-active-directory.md)을 참조하세요.
 
 ### 기존 사용자 및 장치 그룹은 어떻게 되나요?
  Intune에서 생성한 사용자 그룹 및 장치 그룹이 Azure AD 보안 그룹으로 마이그레이션됩니다. 마이그레이션 시 배포에 사용자 및 장치 그룹을 사용 중인 경우에만 모든 사용자 그룹과 같은 기본 Intune 그룹이 마이그레이션됩니다. 일부 그룹에서는 마이그레이션이 더 복잡할 수 있습니다. 조직에서 마이그레이션 추가 단계가 필요한 경우 알려드리겠습니다.
@@ -202,6 +202,6 @@ Intune 관리 콘솔에서 서비스 관리자를 위한 필터링된 그룹 보
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO4-->
 
 

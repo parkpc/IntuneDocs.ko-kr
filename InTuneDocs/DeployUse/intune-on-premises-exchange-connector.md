@@ -13,8 +13,8 @@ ms.assetid: 41ff4212-a6f5-4374-8731-631f7560cff1
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: de3296e81c88b3ac04e3ba3f3d3ca222a59df7bd
-ms.openlocfilehash: 18614cc272323b8031c94b8e582f80aa5c06d9d3
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: 07ed8c922d53169839bba50547f56bbc979d58ac
 
 
 ---
@@ -31,7 +31,7 @@ Microsoft Intune을 사용하여 모바일 장치의 사서함을 호스팅하�
 |---------------|--------------------|
 |운영 체제|Intune은 Windows Server 2008 SP2 64비트, Windows Server 2008 R2, Windows Server 2012 또는 Windows Server 2012 R2의 모든 버전을 실행하는 컴퓨터에서 On-Premises Exchange Connector를 지원합니다.<br /><br />이 커넥터는 Server Core 설치에서 지원되지 않습니다.|
 |Microsoft Exchange 버전|On-Premises Connector를 사용하려면 Microsoft Exchange 2010 SP1 이상 또는 기존 Exchange Online Dedicated가 필요합니다. Exchange Online Dedicated 환경이 **신규**인지 아니면 **기존** 구성 상태인지 확인하려면 계정 관리자에게 문의하세요.|
-|모바일 장치 관리 기관| [Intune으로 모바일 장치 관리 기관 설정](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority).|
+|모바일 장치 관리 기관| [Intune으로 모바일 장치 관리 기관 설정](prerequisites-for-enrollment.md#set-mobile-device-management-authority).|
 |하드웨어|커넥터를 설치하는 컴퓨터에는 1.6GHz CPU, 2GB RAM 및 10GB의 사용 가능한 디스크 공간 최소 하드웨어가 필요합니다.|
 |Active Directory 동기화|커넥터를 사용하여 Exchange Server에 Intune을 연결하려면 먼저 로컬 사용자 및 보안 그룹이 Azure Active Directory의 인스턴스와 동기화되도록 [Active Directory 동기화를 설정](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3)해야 합니다.|
 |추가 소프트웨어|커넥터를 호스트하는 컴퓨터에 Microsoft .NET Framework 4 및 Windows PowerShell 2.0 전체 설치를 설치해야 합니다.|
@@ -131,6 +131,6 @@ Exchange Connector를 성공적으로 구성한 후 연결 상태 및 마지막�
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Sep16_HO4-->
 
 

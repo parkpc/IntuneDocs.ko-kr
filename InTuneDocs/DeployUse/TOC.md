@@ -2,12 +2,13 @@
 # [시작](/intune/get-started/what-to-know-before-you-start-microsoft-intune)
 <!-- # [Plan and Design](/intune/plan-design/ways-to-do-enterprise-mobility) -->
 
+# [새로운 기능](/intune/whats-new/whats-new-in-microsoft-intune)
 # [배포 및 사용](overview-of-device-and-app-lifecycles-in-microsoft-intune.md)
 ## [장치 및 앱 수명 주기에 대한 개요](overview-of-device-and-app-lifecycles-in-microsoft-intune.md)
 ### [장치 수명 주기](overview-of-device-lifecycle-in-microsoft-intune.md)
 ### [앱 수명 주기](overview-of-app-lifecycle-in-microsoft-intune.md)
 ## [장치 등록](enroll-devices-in-microsoft-intune.md)
-### [Intune에서 장치 등록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
+### [MDM을 위한 필수 조건](prerequisites-for-enrollment.md)
 #### [iOS 및 Mac 관리](set-up-ios-and-mac-management-with-microsoft-intune.md)
 #### [Android 관리](set-up-android-management-with-microsoft-intune.md)
 #### [Windows 장치 관리 ](set-up-windows-device-management-with-microsoft-intune.md)
@@ -103,7 +104,7 @@
 
 ### [네트워크에 대한 액세스 제한(Cisco ISE)](restrict-access-to-networks.md)
 ### [장치, 네트워크 및 응용 프로그램 위험에 따라 액세스 제한](restrict-access-based-on-device-network-app-risk.md)
-#### [Lookout MTP 설정](set-up-your-subscription-with-lookout-mtp.md)
+#### [Lookout 장치 위협 방지 설정](set-up-your-subscription-with-lookout-mtp.md)
 #### [Intune에서 Lookout 사용](enable-lookout-mtp-connection-in-intune.md)
 #### [Lookout for Work 앱 배포](configure-and-deploy-lookout-for-work-apps.md)
 #### [장치 위협 방지 준수 정책 사용](enable-device-threat-protection-rule-in-compliance-policy.md)
@@ -134,15 +135,11 @@
 
 ## [최종 사용자에게 알릴 내용](what-to-tell-your-end-users-about-using-microsoft-intune.md)
 
-## [Intune으로 마이그레이션](migrate-to-intune.md)
-
-## [새로운 기능](whats-new-in-microsoft-intune.md)
-
 # [앱 개발 및 사용자 지정](/intune/develop/intune-app-sdk)
 
 # [문제 해결](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO5-->
 
 

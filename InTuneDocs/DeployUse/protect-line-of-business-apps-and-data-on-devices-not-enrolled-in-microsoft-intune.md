@@ -13,21 +13,27 @@ ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 45c6622624230e3486d2498b1b023f2efcdc2970
-ms.openlocfilehash: eb04f0e7b9627ad1869ef677f1b32380db868490
+ms.sourcegitcommit: ffe11b4eb4b0f4c2ffdc831cad9deb30d7180809
+ms.openlocfilehash: 94de65185af64052226985f2c65c7b8a18e2f829
 
 
 ---
 
 # Microsoft Intune에 등록되지 않은 장치의 기간 업무 앱 및 데이터 보호
 
-MAM(모바일 앱 관리) 정책을 통해 복사 및 붙여넣기와 같은 데이터 이동을 제한하거나 사용자가 개인 위치에 회사 문서를 저장하지 못하게 하여 회사 데이터를 보호할 수 있습니다.   MAM 정책을 iOS 또는 Android 기간 업무 앱에 적용하려면 먼저 Microsoft Intune 앱 래핑 도구를 사용하여 앱을 래핑해야 합니다.  앱 래핑은 기본 응용 프로그램을 변경하지 않고도 관리 계층을 모바일 앱에 적용하는 프로세스입니다.  앱을 래핑하면 MAM 정책을 앱에 적용하고 최종 사용자에게 해당 앱을 배포할 수 있습니다.  
+MAM(모바일 앱 관리) 정책은 회사 데이터를 누수시킬 수 있는 작업을 제한하고 앱 PIN과 같은 데이터 액세스 요구 사항을 적용하여 회사 데이터를 보호하는 데 도움을 줍니다. MAM 정책을 iOS 및/또는 Android 기간 업무 앱에 적용하려면 먼저 Microsoft Intune 앱 래핑 도구를 사용하여 앱을 래핑해야 합니다.  앱 래핑은 기본 응용 프로그램을 변경하지 않고도 관리 계층을 모바일 앱에 적용하는 프로세스입니다.  앱을 래핑하면 MAM 정책을 앱에 적용하고 최종 사용자에게 해당 앱을 배포할 수 있습니다.  
 
-이 항목에서는 **관리되지 않는 직원 소유 장치** 및 **타사 MDM(모바일 장치 관리) 솔루션**으로 관리되는 장치에서 액세스하는 앱에 대해 MAM 정책을 적용하는 데 필요한 단계를 설명합니다.  **Intune에 등록된 장치**에서 실행되는 기간 업무 앱을 준비하려면 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md) 항목을 참조하세요.
+이 항목에서는 **관리되지 않는 직원 소유 장치** 및 **타사 MDM(모바일 장치 관리) 솔루션**으로 관리되는 장치에서 액세스하는 앱에 대해 MAM 정책을 적용하는 데 필요한 단계를 설명합니다.  **Intune MDM에 등록된 장치**에서 실행되는 기간 업무 앱을 준비하려면 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)을 참조하세요.
+
+
 ##  1단계: 앱 준비
-앱에 MAM 정책을 적용하려면 먼저 Microsoft Intune 앱 래핑 도구를 사용하여 앱을 래핑해야 합니다.  앱 래핑 도구를 설치하고 사용하기 위한 지침은 다운로드에 포함되어 있습니다.  
+앱에 MAM 정책을 적용하려면 먼저 Microsoft Intune 앱 래핑 도구를 사용하여 앱을 래핑해야 합니다.  앱 래핑 도구를 다운로드하고 사용하는 지침은 다음 페이지를 참조하세요.
+
+- [Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리를 위해 iOS 앱 준비](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) 
+- [Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 Android 앱 준비](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
+
 >[!IMPORTANT]  
->Intune에 등록되지 않은 장치를 지원하는, 이 버전의 앱 래핑 도구가 공개 미리 보기에서 제공됩니다. 공개 미리 보기에 참여하려면 [이 github 페이지](https://github.com/msintuneappsdk/intune-app-wrapper-ios-preview)(iOS용)와 [이 github 사이트](https://github.com/msintuneappsdk/intune-app-wrapper-android-preview)(Android용) 에서 도구를 다운로드할 수 있습니다.
+>Intune에 등록되지 않은 장치를 지원하는, 이 버전의 앱 래핑 도구는 iOS에 대해 지원되고 Android의 경우 공개 미리 보기에서 지원됩니다. 이 도구는 iOS의 경우 [이 GitHub 리포지토리](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios)에서 다운로드할 수 있으며, Android의 경우 [이 GitHub 리포지토리](https://github.com/msintuneappsdk/intune-app-wrapper-android-preview)에서 다운로드할 수 있습니다.
 
 ## 2단계: 앱 추가
 
@@ -75,6 +81,6 @@ MAM(모바일 앱 관리) 정책을 통해 복사 및 붙여넣기와 같은 데
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO4-->
 
 

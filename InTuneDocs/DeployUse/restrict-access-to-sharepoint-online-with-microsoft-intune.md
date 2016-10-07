@@ -13,8 +13,8 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4f98937d7adfc0c1584625303da3350785af8169
-ms.openlocfilehash: 84c9d355fde49fd18899a43ed0def0c801694291
+ms.sourcegitcommit: baf87ad746a320784252966398bd665241209935
+ms.openlocfilehash: ba7e7e19966ce3ad582c8a520b7c9174dba76bf5
 
 
 ---
@@ -32,14 +32,10 @@ ms.openlocfilehash: 84c9d355fde49fd18899a43ed0def0c801694291
 
 ![장치에서 SharePoint에 대한 액세스가 허용 또는 차단되는지 여부를 결정하는 결정 지점을 보여 주는 다이어그램 ](../media/ConditionalAccess8-6.png)
 
->[!IMPORTANT]
->앱에서 최신 인증을 사용한 PC 및 Windows 10 Mobile 장치에 대한 조건부 액세스는 현재 일부 Intune 고객에게만 제공됩니다. 이러한 기능을 이미 사용 중인 경우 어떠한 조치도 취할 필요가 없습니다. 계속 사용할 수 있습니다.
-
->최신 인증을 사용하여 PC 또는 앱용 Windows 10 Mobile에 대한 조건부 액세스 정책을 생성하지 않았지만 생성하려는 경우 Intune 관리 장치 또는 도메인에 가입된 Windows PC에 대한 장치 기반 조건부 액세스를 포함하는 Azure Active Directory 공개 미리 보기에 등록합니다. 자세한 내용을 확인하려면 [이 블로그 게시물](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/10/azuread-conditional-access-policies-for-ios-android-and-windows-are-in-preview/)을 읽어보세요.
 
 SharePoint Online에 대한 조건부 액세스 정책을 구성하기 **전에** 다음을 수행해야 합니다.
 - **SharePoint Online 구독**이 있어야 하며 사용자는 SharePoint Online의 라이선스를 취득해야 합니다.
-- **Enterprise Mobility Suite** 또는 **Azure Active Directory Premium**에 대한 구독이 있어야 합니다.
+- **Azure Active Directory Premium 구독**이 있어야 합니다. 자세한 내용은 [Azure Active Directory 가격 페이지](https://azure.microsoft.com/en-us/pricing/details/active-directory/)를 참조하세요. **Enterprise Mobility Suite + Security 구독**에는 Intune 구독과 Azure Active Directory Premium 구독이 모두 포함되어 있습니다. 자세한 내용은 [Enterprise Mobility Suite pricing page](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing)(Enterprise Mobility Suite 가격 페이지)를 참조하세요.
 
   필수 파일에 연결하려면 장치가 다음과 같아야 합니다.
 -   [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 **등록**되어 있거나 도메인에 가입된 PC이어야 합니다.
@@ -61,6 +57,7 @@ SharePoint Online에 대한 조건부 액세스 정책을 구성하기 **전에*
 
 >[!NOTE]
 >SharePoint Online에 대해 조건부 액세스를 사용하도록 설정하는 경우 [Remove-SPOTenantSyncClientRestriction](https://technet.microsoft.com/en-us/library/dn917451.aspx) 항목에 설명된 대로 목록의 도메인을 사용하지 않도록 설정하는 것이 좋습니다.  
+
 ## 모바일 장치에 대한 지원
 - iOS 8.0 이상
 - Android 4.0 이상, Samsung Knox Standard 4.0 이상
@@ -75,7 +72,9 @@ SharePoint Online에 대한 조건부 액세스 정책을 구성하기 **전에*
 
 ## PC 지원
 - Windows 8.1 이상(Intune에 등록된 경우)
-- Windows 7.0 또는 Windows 8.1(도메인에 가입된 경우)
+- Windows 7.0, Windows 8.1 또는 Windows 10(도메인에 가입된 경우)
+> [!NOTE]
+>Windows 10 PC에 조건부 액세스를 사용하려면 해당 PC를 Windows 10 1주년 업데이트로 업데이트해야 합니다.
 
   - 도메인에 가입된 PC의 경우 Azure Active Directory에 [자동으로 등록](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-automatic-device-registration/)하도록 설정해야 합니다.
 Intune 및 Office 365 고객의 경우에는 AAD DRS가 자동으로 활성화됩니다. ADFS 장치 등록 서비스를 이미 배포한 고객의 온-프레미스 Active Directory에는 등록된 장치가 표시되지 않습니다.
@@ -122,6 +121,10 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
 #### <a name="bkmk_spopolicy"></a>
 
+>[!NOTE]
+> Azure AD 관리 콘솔에서 조건부 액세스 정책을 만들 수도 있습니다. Azure AD 관리 콘솔을 통해 다단계 인증과 같은 기타 조건부 액세스 정책뿐만 아니라 Intune 장치 조건부 액세스 정책(Azure AD에서는 **장치 기반 조건부 액세스 정책**이라고 함)을 만들 수 있습니다.  Azure AD에서 지원하는 Salesforce 및 Box와 같은 타사 엔터프라이즈 앱에 대해서도 조건부 액세스 정책을 설정할 수 있습니다. 자세한 내용은 [Azure Active Directory 연결 응용 프로그램의 액세스 제어를 위한 Azure Active Directory 장치 기반 조건부 액세스 정책을 설정하는 방법](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-policy-connected-applications/)을 참조하세요.
+
+
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** > **조건부 액세스** > **SharePoint Online 정책**을 선택합니다.
 ![SharePoint Online 정책 페이지의 스크린샷](../media/mdm-ca-spo-policy-configuration.png)
 
@@ -136,8 +139,6 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
         **모든 플랫폼** 옵션을 선택하면 클라이언트 응용 프로그램에서 보고하는 플랫폼에 관계없이, Azure Active Directory에서 인증된 모든 요청에 이 정책이 적용됩니다.  다음을 제외한 모든 플랫폼이 규격 상태로 등록되어야 합니다.
         *   Windows 장치는 규격 상태로 등록되어야 하며 온-프레미스 Active Directory를 통해 도메인에 연결되어야 합니다.
         * 지원되지 않는 플랫폼(예: Mac).  그러나 이러한 플랫폼에서 제공하는 최신 인증을 사용하는 앱은 여전히 차단됩니다.
-        >[!TIP]
-        >PC에 대한 조건부 액세스를 아직 사용하지 않는 경우 이 옵션이 표시되지 않습니다.  대신 **특정 플랫폼**을 사용합니다. PC에 대한 조건부 액세스는 현재 일부 Intune 고객에게만 제공됩니다.   이 기능에 액세스하는 방법에 대한 자세한 내용은 [이 블로그 게시물](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/10/azuread-conditional-access-policies-for-ios-android-and-windows-are-in-preview/)에서 확인할 수 있습니다.
 
     -   **특정 플랫폼**
 
@@ -192,6 +193,6 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO5-->
 
 

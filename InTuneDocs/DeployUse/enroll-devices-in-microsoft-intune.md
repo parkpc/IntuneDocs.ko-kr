@@ -13,8 +13,8 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e6b182ebab1691c62e69cabaf4689ac7395ab31a
-ms.openlocfilehash: 0995d3ced978f5213fdb0e9905f508b64a1e5c09
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: 145d373edd65d7ba01c696c3b851692a13831dad
 
 
 ---
@@ -35,17 +35,24 @@ Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같�
 
 | **메서드** |  **초기화** |  **선호도**    |   **잠금** | **세부 정보** |
 |:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [정보](get-ready-to-enroll-devices-in-microsoft-intune.md#set-up-device-management)|
+|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [정보](prerequisites-for-enrollment.md#set-up-device-management)|
 |**[DEM](#dem)**|   아니요 |아니요 |아니요  | [정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 |**[DEP](#dep)**|   예 |   선택 사항입니다. |  선택 사항입니다.|[정보](ios-device-enrollment-program-in-microsoft-intune.md)|
 |**[USB-SA](#usb-sa)**| 예 |   선택 사항입니다. |  아니요| [정보](ios-setup-assistant-enrollment-in-microsoft-intune.md)|
 |**[USB-Direct](#usb-direct)**| 아니요 |    아니요  | 아니요|[정보](ios-direct-enrollment-in-microsoft-intune.md)|
 
-**Windows 및 Android 등록 방법**
+**Windows 등록 방법**
 
 | **메서드** |  **초기화** |  **선호도**    |   **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [정보](get-ready-to-enroll-devices-in-microsoft-intune.md#set-up-device-management)|
+|**[BYOD](#byod)** | 예|   예 |   아니요 | [정보](prerequisites-for-enrollment.md#set-up-device-management)|
+|**[DEM](#dem)**|   아니요 |아니요 |아니요  |[정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+
+**Android 등록 방법**
+
+| **메서드** |  **초기화** |  **선호도**    |   **잠금** | **세부 정보**|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [정보](prerequisites-for-enrollment.md#set-up-device-management)|
 |**[DEM](#dem)**|   아니요 |아니요 |아니요  |[정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 올바른 방법을 찾는 데 도움이 되는 질문은 [Choose how to enroll devices](/intune/get-started/choose-how-to-enroll-devices1)(장치 등록 방법 선택)를 참조하세요.
@@ -111,6 +118,6 @@ Intune은 다음 장치 플랫폼을 관리할 수 있습니다.
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Sep16_HO4-->
 
 
