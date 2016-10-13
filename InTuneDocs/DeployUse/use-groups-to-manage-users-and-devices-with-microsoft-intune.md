@@ -13,8 +13,8 @@ ms.assetid: eb9b01ce-9b9b-4c2a-bf99-3879c0bdaba5
 ms.reviewer: lpatha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1fbe37aa081f850224ce4ee76f66e154c6001c9c
-ms.openlocfilehash: 480a7a60b484f28b621c4c135713a65953f46f41
+ms.sourcegitcommit: 625d0851446c9cf54e704a62c9afe79cac263665
+ms.openlocfilehash: 27ab4a2e2f3e0273f452ef9d34cf458c9f2544b6
 
 
 ---
@@ -24,7 +24,9 @@ ms.openlocfilehash: 480a7a60b484f28b621c4c135713a65953f46f41
 
 >[!IMPORTANT]
 >
->Intune 포털에서 그룹 작업 영역을 열었을 때 Azure AD(Azure Active Directory) 포털 링크가 보이면, Intune의 그룹 관리에 대한 *새* Azure AD 보안 그룹 접근 방식([그룹 관리 환경에 대한 향후 개선 사항 공지](#notice-of-upcoming-improvements-to-the-admin-experience-for-groups)에 설명되어 있음)을 이미 사용하고 있는 것입니다. Azure AD 포털에 대한 링크를 클릭하여 그룹을 만들고 관리합니다. 
+>Intune 포털에서 그룹 작업 영역을 열었을 때 Azure AD(Azure Active Directory) 포털 링크가 보이면, Intune의 그룹 관리에 대한 *새* Azure AD 보안 그룹 접근 방식([그룹 관리 환경에 대한 향후 개선 사항 공지](#notice-of-upcoming-improvements-to-the-admin-experience-for-groups)에 설명되어 있음)을 이미 사용하고 있는 것입니다. Azure AD 포털에 대한 링크를 클릭하여 그룹을 만들고 관리합니다.
+>
+>![Azure 그룹 관리에 대한 링크의 스크린샷](../media/groups-link-azure.png) 
 >
 >Azure AD 포털 링크가 보이지 않으면 지금도 그룹 관리에 대한 *기존* 접근 방식(이 항목의 [Microsoft Intune에서 그룹을 만들어 사용자와 장치 관리](#Create-groups-to-manage-users-and-devices-with-Microsoft-Intune)에 설명되어 있음)을 사용하고 있는 것입니다.
 
@@ -202,6 +204,6 @@ Intune 관리 콘솔에서 서비스 관리자를 위한 필터링된 그룹 보
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO1-->
 
 

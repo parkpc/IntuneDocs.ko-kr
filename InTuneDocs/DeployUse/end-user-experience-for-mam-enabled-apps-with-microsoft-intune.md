@@ -13,8 +13,8 @@ ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
 ms.reviewer: andcerat
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a1a8d80ad2b0ee66101ad9e67532e806ebc4b690
-ms.openlocfilehash: 3361c9069a3258621b9349a0cf332a38c206d041
+ms.sourcegitcommit: 26c62a000470030ef0109b397261b3049d3984ed
+ms.openlocfilehash: 710e5b2a59121d6ace53bd23f125dbe398c9ddae
 
 
 ---
@@ -140,30 +140,24 @@ Android 장치를 사용하는 경우 기존 계정을 제거하고 새 계정�
 
 ![오류 메시지 및 계정을 제거하는 지침의 스크린 샷](../media/AppManagement/Android_SwitchUser.png)
 
-##  Rights Management 공유 앱을 사용하여 미디어 파일 보기
-Android 장치에서 회사 AV, PDF 및 이미지 파일을 보려면 [Microsoft Rights Management(RMS) 공유 앱](https://play.google.com/store/apps/details?id=com.microsoft.ipviewer)을 사용합니다.
+##  Azure Information Protection 앱(이전에는 Rights Management 공유 앱)으로 미디어 파일 보기
+Android 장치에서 회사 AV, PDF 및 이미지 파일을 보려면 [Azure Information Protection 앱](https://play.google.com/store/apps/details?id=com.microsoft.ipviewer)을 사용합니다.
 
-Google Play 스토어에서 이 응앱을 다운로드합니다.  앱이 장치에 설치되면 앱을 실행하고 회사 자격 증명으로 인증합니다. 이제 다른 정책에서 관리하는 앱에서 보호되지 않거나 보호된 파일을 볼 수 있습니다.
+Google Play 스토어에서 이 응앱을 다운로드합니다.  
 
 다음 파일 형식이 지원됩니다.
 
 * **오디오:** AAC LC, HE-AACv1(AAC+), HE-AACv2(향상된 AAC+), AAC ELD(향상된 낮은 지연 AAC), AMR-NB, AMR-WB, FLAC, MP3, MIDI, Vorbis, PCM/WAVE.
 * **비디오:** H.263, H.264 AVC, MPEG-4 SP, VP8.
 * **이미지:** jpg, pjpg, png, ppng, bmp, pbmp, gif, pgif, jpeg, pjpeg.
-* PDF, PPDF
+* **PDF, PPDF**
 
 ------------
 |**pfile**|**텍스트**|
 |----|----|
-|Pfile은 암호화된 콘텐츠 및 RMS 라이선스를 캡슐화하고 모든 파일 형식을 보호하기 위해 사용할 수 있는 보호된 파일에 대한 일반적인 "래퍼" 형식입니다.|XML, CSV 등을 포함하는 텍스트 파일은 보호되는 경우에도 앱에서 열어서 볼 수 있습니다. 파일 형식: txt, ptxt, csv, pcsv, log, plog, xml, pxml|
+|Pfile은 암호화된 콘텐츠와 Azure Information Protection 라이선스를 캡슐화하고 모든 파일 형식을 보호하는 데 사용할 수 있는 보호된 파일의 일반적 "래퍼" 형식입니다.|XML, CSV 등을 포함하는 텍스트 파일은 보호되는 경우에도 앱에서 열어서 볼 수 있습니다. 파일 형식: txt, ptxt, csv, pcsv, log, plog, xml, pxml|
 ---------------
-**Intune에 등록하지 않은 Android 장치**
 
-Intune에서 관리하는 다른 앱에서 파일을 보기 위해 RMS 공유 앱을 사용하려면 먼저 RMS 앱을 시작한 다음 회사 계정으로 인증합니다.  로그인한 상태에서 **RMS 라이선스가 없는 경우에 한해** 다음과 같은 메시지가 표시됩니다.
-
-**인증 성공 - 이제 회사 파일을 볼 수 있지만 사용자가 파일을 보호할 수 있는 권한을 갖도록 조직이 설정되지 않습니다. 자세한 내용은 IT 관리자에게 문의하세요.**
-
-이 메시지가 나타나도 RMS 공유 앱을 사용하여 회사 파일을 볼 수는 있습니다. Intune에서 관리하는 다른 앱에서 회사 파일을 열고 볼 수는 있으며 MAM 정책이 계속 적용됩니다.  이 메시지의 의미는 RMS 공유 앱의 추가 보호 기능을 추가할 수 없다는 것입니다.  보호 기능을 파일에 추가하려면 RMS 라이선스가 있어야 합니다. RMS 파일 보호 기능에 대한 자세한 내용을 확인하려면 [장치에서 파일 보호](https://docs.microsoft.com/en-us/rights-management/rms-client/sharing-app-protect-in-place) 및 [메일로 공유하는 파일 보호](https://docs.microsoft.com/en-us/rights-management/rms-client/sharing-app-protect-by-email)를 참조하세요.
 
 
 ### 참고 항목
@@ -171,6 +165,6 @@ Intune에서 관리하는 다른 앱에서 파일을 보기 위해 RMS 공유 �
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Oct16_HO1-->
 
 
