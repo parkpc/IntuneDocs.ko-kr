@@ -13,8 +13,8 @@ ms.assetid: 36250832-c6fd-4e8d-b681-de735023ebc3
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: fb950108f3232af8049e90af977b0f3f9f2b3576
+ms.sourcegitcommit: 9e0321b23bbbaaa16c28c23e56b5fbcaee0d3c24
+ms.openlocfilehash: 75f19a1c613b2d018e0cb89862f15aa4be2bc138
 
 
 ---
@@ -43,7 +43,7 @@ Windows 10 Mobile 또는 Windows 10 Desktop 장치를 등록하려면:
 
 ## 회사 또는 학교 액세스가 표시되는 경우 따라야 하는 절차
 
-1.  **회사 또는 학교 액세스**를 탭합니다.
+1.  **회사 또는 학교 액세스**, **연결**을 차례로 탭합니다.
 
     ![회사 또는 학교 계정 액세스 탭하기](./media/w10-enroll-rs1-connect-to-work-or-school.png)
 
@@ -106,6 +106,6 @@ Windows 10 Mobile 또는 Windows 10 Desktop 장치를 등록하려면:
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Oct16_HO1-->
 
 
