@@ -4,7 +4,7 @@ description:
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 7/7/2016
+ms.date: 09/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: b5ecb5b4c7629b04c679995b5788ee307bac79f0
+ms.sourcegitcommit: 4881d765a6a79d380ab6d3facdb55d9f0c81bf97
+ms.openlocfilehash: e6e08b1947f93fde6c9e7bff966042647386e7d0
 
 
 ---
@@ -75,7 +75,7 @@ Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하�
 
 -   사용 약관에 조건에 동의해야 합니다.
 
--   장치에서 카메라를 사용하거나 사용하지 않도록 설정합니다.
+-   중요한 회사 데이터의 사진을 찍을 수 없도록 장치에서 카메라를 사용하거나 사용하지 않도록 설정합니다.
 
 -   장치에서 웹 브라우징을 사용하거나 사용하지 않도록 설정합니다.
 
@@ -91,12 +91,10 @@ Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하�
 
 -   장치가 로밍 모드에 있는 동안 자동 파일 동기화를 사용하거나 사용하지 않도록 설정합니다. 자동 파일 동기화가 허용되는 경우 로밍 요금이 청구될 수 있습니다.
 
-장치를 등록하는 방법은 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md)을 참조하세요.
-
-의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO4-->
 
 
