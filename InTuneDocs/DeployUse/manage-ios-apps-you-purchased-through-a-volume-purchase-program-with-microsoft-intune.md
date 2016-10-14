@@ -4,7 +4,7 @@ description: "Intune에서는 앱 스토어에서 라이선스 정보를 가져�
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 09/08/2016
+ms.date: 10/01/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 1dafc28a-7f8b-4fe0-8619-f977c93d1140
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 164f9656246a46bf39e263fc3c5f16828674e1fd
-ms.openlocfilehash: a5c37c470f937c682d9138a636d1211f641da784
+ms.sourcegitcommit: 611cfb0176a922234c29642c305dd03699922c5f
+ms.openlocfilehash: 5981a2e147c89776d304226250170ec4114e35d8
 
 
 ---
@@ -26,6 +26,7 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 
 > [!Important]
 > 현재 Intune은 iOS 비즈니스용 VPP(Volume Purchase Program) 앱 라이선스를 사용자에게 할당하며 장치에 할당하지 않습니다. 이 때문에 사용자가 앱을 설치하려면 Apple ID 암호를 입력해야 합니다.
+> 교육용 Apple Volume Purchase Program은 이 릴리스에서 지원되지 않습니다.
 
 ## iOS 장치용 대량 구매 앱 관리
 [Apple 비즈니스용 VPP(Volume Purchase Program)](http://www.apple.com/business/vpp/)를 통해 iOS 앱의 라이선스를 여러 개 구매합니다. 이 경우 Apple 웹 사이트에서 Apple VPP 계정을 설정하고 Apple VPP 토큰을 Intune에 업로드해야 합니다.  그런 다음 대량 구매 정보를 Intune과 동기화하고 대량 구매 앱 사용을 추적할 수 있습니다.
@@ -89,6 +90,6 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Oct16_HO1-->
 
 
