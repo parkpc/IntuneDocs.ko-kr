@@ -13,8 +13,8 @@ ms.assetid: a23abc61-69ed-44f1-9b71-b86aefc6ba03
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e332bbf9aa8f6543950eba7e1fd734b3fb4b1edb
-ms.openlocfilehash: ca81a72fe98d454591765296445215a2b574243b
+ms.sourcegitcommit: e2daff5dae435df55c866adbf602f554500d50e0
+ms.openlocfilehash: 4ed3222f45cb438dea807b1df268f47fff660d5f
 
 
 ---
@@ -44,7 +44,7 @@ ms.openlocfilehash: ca81a72fe98d454591765296445215a2b574243b
   - 회사 포털에서 이러한 장치를 다시 설정할 수 없습니다.
   - 회사 포털 앱 또는 웹 사이트에 로컬 장치만 표시됩니다.
   - 앱 관리에 대한 사용자별 Apple ID 요구 사항으로 인해 Apple VPP(Volume Purchase Program) 앱을 사용할 수 없습니다.
-  - 또한 Apple Configurator 또는 Apple 장치 등록 프로그램(iOS 장치)으로 등록할 수도 없습니다.
+  - (iOS) Apple Configurator 또는 Apple DEP(장치 등록 프로그램)에도 등록할 수 없지만 DEP 또는 Apple Configurator에서 관리하는 장치는 사용자 선호도 없이 등록할 수 있습니다.
 
 > [!NOTE]
 > 장치 등록 관리자로 관리되는 장치에 회사 앱을 배포하려면 회사 포털 앱을 장치 등록 관리자의 사용자 계정에 **필수 설치**로 배포합니다.
@@ -95,6 +95,6 @@ ms.openlocfilehash: ca81a72fe98d454591765296445215a2b574243b
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Sep16_HO2-->
 
 
