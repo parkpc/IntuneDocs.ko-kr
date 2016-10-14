@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 0d3be16480feccacf26c11f738393df2b4c4d468
+ms.sourcegitcommit: 08f31db90f324ef5f93076c4e13bfa5328a15adc
+ms.openlocfilehash: b53e57b28cbf2de2e7820ffd38fc94ef05b994b6
 
 
 ---
@@ -32,7 +32,6 @@ iOS | 지원됨
 Windows 10 Mobile | 휴대폰에 암호가 설정된 경우에만 지원됨     
 Windows 10 Desktop | 지원되지 않음  
 Windows Phone 8.1 | 휴대폰에 암호가 설정된 경우에만 지원됨
-Windows Phone 8.0 | 지원되지 않음
 PC(Windows 8.0 이전 버전) | 지원되지 않음       
 PC(Windows 8.1) | 지원되지 않음
 
@@ -64,6 +63,6 @@ PC(Windows 8.1) | 지원되지 않음
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Oct16_HO2-->
 
 

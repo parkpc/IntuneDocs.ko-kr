@@ -4,7 +4,7 @@ description: "규정 준수 정책을 만들어 회사 데이터에 액세스하
 keywords: 
 author: karthikaraman
 manager: angrobe
-ms.date: 07/13/2016
+ms.date: 10/12/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 5336dac0-a2cc-4cd4-8511-67e4f95bd700
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 2ff0b24d0a6991c22b23da5da5c63a9bb26ccdd2
+ms.sourcegitcommit: 55fea2e479273af7ff915449c96a72aeebba85a9
+ms.openlocfilehash: 3f434fc4cb9c90e28e516620383def8d91f11138
 
 
 ---
@@ -53,24 +53,24 @@ ms.openlocfilehash: 2ff0b24d0a6991c22b23da5da5c63a9bb26ccdd2
 -------------
 |설정|iOS|Android|Windows|
 |-----|----|-----|-----|
-|모바일 장치의 잠금을 해제하는 데 암호 필요|iOS 6 이상|Android 4.0 이상 <br>Samsung KNOX Standard 4.0 이상|Windows Phone 8 이상|
-|단순 암호 허용|iOS 6 이상|지원되지 않음|Windows Phone 8 이상|
-|최소 암호 길이|iOS 6 이상| Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상| Windows Phone 8 이상<br>Windows 8.1|
-|필수 암호 유형|iOS 6 이상|사용할 수 없음|Windows Phone 8 이상 <br>Windows RT<br> Windows RT 8.1 <br>Windows 8.1|
-|최소 문자 집합 수|iOS 6 이상|사용할 수 없음|Windows Phone 8 이상 <br>Windows RT<br> Windows RT 8.1 <br>Windows 8.1|
+|모바일 장치의 잠금을 해제하는 데 암호 필요|iOS 6 이상|Android 4.0 이상 <br>Samsung KNOX Standard 4.0 이상|Windows Phone 8.1 이상|
+|단순 암호 허용|iOS 6 이상|지원되지 않음|Windows Phone 8.1 이상|
+|최소 암호 길이|iOS 6 이상| Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상| Windows Phone 8.1 이상<br>Windows 8.1|
+|필수 암호 유형|iOS 6 이상|사용할 수 없음|Windows Phone 8.1 이상 <br>Windows RT<br> Windows RT 8.1 <br>Windows 8.1|
+|최소 문자 집합 수|iOS 6 이상|사용할 수 없음|Windows Phone 8.1 이상 <br>Windows RT<br> Windows RT 8.1 <br>Windows 8.1|
 |암호 품질|사용할 수 없음|Android 4.0 이상 <br>Samsung KNOX Standard 4.0 이상|사용할 수 없음|
-|암호를 요구하기 전까지 비활성 시간(분)|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|Windows Phone 8 이상<br>Windows RT 및 Windows RT 8.1<br>Windows 8.1|
-|암호 만료(일)|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|Windows Phone 8 이상<br>Windows RT 및 Windows RT 8.1<br>Windows 8.1|
-|암호 기록 기억|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|Windows Phone 8 이상<br>Windows RT 및 Windows RT 8.1<br>Windows 8.1|
-|이전 암호 다시 사용 방지|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|Windows Phone 8 이상<br>Windows RT 및 Windows RT 8.1<br>Windows 8.1|
+|암호를 요구하기 전까지 비활성 시간(분)|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|Windows Phone 8.1 이상<br>Windows RT 및 Windows RT 8.1<br>Windows 8.1|
+|암호 만료(일)|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|Windows Phone 8.1 이상<br>Windows RT 및 Windows RT 8.1<br>Windows 8.1|
+|암호 기록 기억|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|Windows Phone 8.1 이상<br>Windows RT 및 Windows RT 8.1<br>Windows 8.1|
+|이전 암호 다시 사용 방지|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|Windows Phone 8.1 이상<br>Windows RT 및 Windows RT 8.1<br>Windows 8.1|
 |장치가 유휴 상태에서 되돌아오는 경우 암호 필요| 사용할 수 없음| 사용할 수 없음|Windows 10 Mobile|
-|모바일 장치 암호화 필요|해당 없음|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|Windows Phone 8 이상<br> Windows 8.1|
+|모바일 장치 암호화 필요|해당 없음|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|Windows Phone 8.1 이상<br> Windows 8.1|
 |정상으로 보고되는 장치 필요| 사용할 수 없음| 사용할 수 없음|Windows <br>Windows 10 Mobile|
 |장치는 탈옥 또는 루팅되지 않아야 함|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|사용할 수 없음|
 |전자 메일 계정은 Intune을 통해 관리해야 함|iOS 6 이상|사용할 수 없음| 사용할 수 없음|
 |Intune으로 관리해야 하는 전자 메일 프로필 선택|iOS 6 이상|사용할 수 없음| 사용할 수 없음|
-|필요한 최소 OS|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상| Windows Phone 8 이상<br>Windows 8.1|
-|허용된 최대 OS 버전|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|Windows Phone 8 이상<br>Windows 8.1|
+|필요한 최소 OS|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상| Windows Phone 8.1 이상<br>Windows 8.1|
+|허용된 최대 OS 버전|iOS 6 이상|Android 4.0 이상<br>Samsung KNOX Standard 4.0 이상|Windows Phone 8.1 이상<br>Windows 8.1|
 
 각 플랫폼에서 지원되는 규정 준수 설정에 대한 자세한 내용을 보려면 다음 중 하나를 선택합니다.
 > [!div class="op_single_selector"]
@@ -87,6 +87,6 @@ ms.openlocfilehash: 2ff0b24d0a6991c22b23da5da5c63a9bb26ccdd2
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Oct16_HO2-->
 
 

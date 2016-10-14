@@ -13,8 +13,8 @@ ms.assetid: 47806f69-303d-41d9-9b0e-9b9445ea24ac
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dc767abc733457d975b61b96e21781952f79c6f9
-ms.openlocfilehash: fb99e78261b678ef776f992d5abfd2ba0555d4da
+ms.sourcegitcommit: 581e880fa4308ec627f5b2c1242fb5b30b713743
+ms.openlocfilehash: 7bd5f5d8f4931133a8ef1e697b2fec4cccd07b83
 
 
 ---
@@ -49,12 +49,6 @@ App Store에서 Microsoft Corporation의 **Microsoft Intune 회사 포털** 앱�
 ### Windows Phone 8.1
 사용자는 Windows Phone스토어에서 사용할 수 있는 Microsoft Corporation의 **회사 포털** 앱을 설치하고 위에서 추가한 Intune 사용자 자격 증명을 사용하여 로그인합니다.  **등록된 장치**를 확인하고 자신의 장치를 추가합니다.
 
- ### Windows Phone 8.0
- **시스템 설정** &gt; **회사 앱**을 클릭하고 위에서 추가한 Intune 사용자 자격 증명을 사용하여 로그인합니다. 회사 포털 앱은 사용자의 휴대폰에 배포됩니다.
-
-**서버 주소**에 대한 메시지가 표시되면 “manage.microsoft.com”을 입력합니다.
-
-
 ## 이전에 배포된 앱 설치
 모바일 장치에서 회사 포털을 열고 **앱**을 선택한 후 **Microsoft Skype**를 설치합니다.
 
@@ -69,6 +63,6 @@ Intune을 사용하는 모바일 장치 관리에 대한 자세한 내용은 [Mi
 
 
 
-<!--HONumber=Sep16_HO5-->
+<!--HONumber=Oct16_HO2-->
 
 
