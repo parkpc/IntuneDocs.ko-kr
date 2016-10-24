@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 57e3175af6364e7dacbf8941f10292fc9dc58b15
+ms.sourcegitcommit: 08f31db90f324ef5f93076c4e13bfa5328a15adc
+ms.openlocfilehash: 381364e42430842032ced3b5c8c9cc8de19e8186
 
 
 ---
@@ -26,7 +26,7 @@ ms.openlocfilehash: 57e3175af6364e7dacbf8941f10292fc9dc58b15
 Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 사용하여 암호를 재설정할 수 있습니다. 회사 포털 웹 사이트는 Intune에 등록한 컴퓨터 및 장치를 관리하는 데 사용할 수 있는 웹 페이지로, 회사 포털 앱을 사용할 때 수행할 수 있는 동일한 작업을 대부분 수행할 수 있습니다.
 
 > [!NOTE]
-> IT 관리자가 Intune을 구성한 방법에 따라 회사 포털 웹 사이트에 암호 재설정 단추가 표시되지 않을 수도 있습니다. Windows 8.1 및 Windows RT 장치에서는 암호 재설정이 지원되지 않습니다.
+> IT 관리자가 Intune을 구성한 방법에 따라 회사 포털 웹 사이트에 암호 재설정 단추가 표시되지 않을 수도 있습니다. 암호 재설정은 Windows 8.1 장치에서 지원되지 않습니다.
 
 암호를 재설정하려면
 
@@ -64,6 +64,6 @@ Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [�
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Oct16_HO2-->
 
 

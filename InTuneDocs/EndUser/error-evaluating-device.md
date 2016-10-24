@@ -3,6 +3,7 @@ title: "장치를 평가하는 오류 | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: article
@@ -14,22 +15,20 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: a497a3e9372a89326f31d6eb869e38200ebe6802
+ms.sourcegitcommit: 703878a70227716213f5a25b1b5dfa99fce42ee5
+ms.openlocfilehash: 43688a00d61785ddabdfef3c45bd30a533a85fe7
 
 
 ---
 
 
 # 장치를 평가하는 오류
-장치를 하나로 비규격으로 찾을 수 있습니다. 또는이 조건에 대 한 장치를 평가 하는 동안 더 많은 회사의 정책 및 오류가 발생 했습니다.
+장치가 하나 이상의 회사 정책 규정을 준수하지 않는 것으로 나타났지만 장치를 평가하는 동안 시스템에 문제가 발생하여 현재 오류를 표시할 수 없습니다.  
 
-이 문제를 해결 하려면 몇 분정도 기다린 다음 눌러 **규정 준수 확인**.
-
-문제가 지속 되 면 IT 관리자에 게 문의 합니다. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+이 문제를 해결 하려면 몇 분정도 기다린 다음 눌러 **규정 준수 확인**. 문제가 지속 되 면 IT 관리자에 게 문의 합니다. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO2-->
 
 

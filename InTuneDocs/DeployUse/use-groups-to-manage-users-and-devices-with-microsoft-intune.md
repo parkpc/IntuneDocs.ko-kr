@@ -3,8 +3,9 @@ title: "그룹을 사용하여 사용자 및 장치 관리 | Microsoft Intune"
 description: "그룹 작업 영역을 사용하여 그룹을 만들고 관리합니다."
 keywords: 
 author: Nbigman
+ms.author: nbigman
 manager: angrobe
-ms.date: 09/27/2016
+ms.date: 10/10/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +14,8 @@ ms.assetid: eb9b01ce-9b9b-4c2a-bf99-3879c0bdaba5
 ms.reviewer: lpatha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 625d0851446c9cf54e704a62c9afe79cac263665
-ms.openlocfilehash: 27ab4a2e2f3e0273f452ef9d34cf458c9f2544b6
+ms.sourcegitcommit: d92c9ffe42b36770a32c28941de3c402aec9dd68
+ms.openlocfilehash: 896e8cf77c0898fca7838b24386db745b01f4022
 
 
 ---
@@ -36,11 +37,11 @@ ms.openlocfilehash: 27ab4a2e2f3e0273f452ef9d34cf458c9f2544b6
 Enterprise Mobility + Security에서 단일화된 그룹화 환경과 대상 지정 환경을 원한다는 사용자 의견을 받았습니다. Microsoft는 사용자 의견에 귀를 기울입니다. 그 의견을 반영하여 Intune 그룹을 곧 Azure Active Directory 기반의 보안 그룹으로 변환할 예정입니다. 이 변경 사항을 통해 Intune과 Azure AD(Azure Active Directory) 전체의 그룹 관리가 통합될 예정입니다. 새로운 환경에서는 서비스 간에 그룹을 복제할 필요가 없습니다. 또한 Windows PowerShell과 Microsoft Graph를 사용할 수 있는 옵션을 통해 확장성을 제공할 예정입니다.
 
 ### 이 작업은 현재 어떤 영향을 미치나요?
-지금은 이 변경 사항으로 인한 변동이 없습니다. 하지만 향후에는 다음과 같은 변경이 있을 것입니다.
+기존 Intune 고객은 현재 이러한 변경에 따른 영향을 받지 않습니다. 하지만 향후에는 다음과 같은 변경이 있을 것입니다.
 
--   2016년 9월부터는 월별 서비스 릴리스 후에 프로비전되는 새 계정에 Intune 사용자 그룹 대신에 Azure AD 보안 그룹이 사용됩니다.   
--   2016년 10월부터는 월별 서비스 릴리스 후에 프로비전되는 새 계정으로 Azure AD 포털에서 사용자 및 장치 기반 그룹이 모두 관리됩니다. 기존 고객에게는 영향을 주지 않습니다.
--   2016년 11월부터는 Intune 제품 팀에서 기존 고객을 새 Azure AD 기반 그룹 관리 환경으로 마이그레이션하기 시작합니다. 현재 Intune에 있는 모든 사용자 및 장치 그룹이 Azure AD 보안 그룹으로 마이그레이션됩니다. 마이그레이션은 2016년 11월부터 일괄 처리로 수행됩니다. Microsoft는 여러분의 일상 작업이 거의 영향을 받지 않고 여러분의 사용자 또한 전혀 영향을 받지 않는다고 판단할 때까지 마이그레이션을 시작하지 않을 예정입니다. 또한 계정을 마이그레이션하기 전에 공지를 하도록 하겠습니다.
+-   새 계정에서 Intune *사용자* 그룹 대신 Azure AD 보안 그룹을 사용합니다.   
+-   2016년 11월부터는 월별 서비스 릴리스 후에 프로비전되는 새 계정으로 Azure AD Portal에서 사용자 및 장치 기반 그룹이 모두 관리됩니다. 기존 고객에게는 영향을 주지 않습니다.
+-   2016년 12월부터는 Intune 제품 팀에서 기존 고객을 새 Azure AD 기반 그룹 관리 환경으로 마이그레이션하기 시작합니다. 현재 Intune에 있는 모든 사용자 및 장치 그룹이 Azure AD 보안 그룹으로 마이그레이션됩니다. Microsoft는 여러분의 일상 작업이 거의 영향을 받지 않고 여러분의 사용자 또한 전혀 영향을 받지 않는다고 판단할 때까지 마이그레이션을 시작하지 않을 예정입니다. 또한 계정을 마이그레이션하기 전에 공지를 하도록 하겠습니다.
 
 
 ### 언제, 어떻게 새 그룹 환경으로 마이그레이션하나요?
@@ -204,6 +205,6 @@ Intune 관리 콘솔에서 서비스 관리자를 위한 필터링된 그룹 보
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO2-->
 
 

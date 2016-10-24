@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: cb7510d92019f27e15ecc7d8666df3f4e09c8707
+ms.sourcegitcommit: 08f31db90f324ef5f93076c4e13bfa5328a15adc
+ms.openlocfilehash: ebd1300c490f3d69110a5f1920fd25d1dc5cb850
 
 
 ---
@@ -23,11 +23,7 @@ ms.openlocfilehash: cb7510d92019f27e15ecc7d8666df3f4e09c8707
 
 # Intune에서 Windows 장치 등록을 취소하면 어떻게 되나요?
 
-발생하는 상황에 대한 추가적인 정보를 보려면 위의 "이 문서의 내용" 섹션에 표시된 링크 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
-
-- [Windows 10 mobile, 8.1, Windows 8, Windows 7, Vista](#windows-10-mobile--8-1,-windows-8,-windows-7,-vista)
-- [Windows 10, Windows 8.1 또는 Windows Phone 8](#windows-10--windows-8-1-or-windows-phone-8)
-- [Windows 8.1을 실행하는 Windows RT 또는 Windows RT](#windows-rt-running-windows-8-1-or-windows-rt)
+"이 문서의 내용"에서 이 페이지의 오른쪽에 있는 링크를 사용하여 사용 중인 장치 유형에 대한 정보를 찾을 수 있습니다.
 
 
 ## Windows 10, Windows 8.1, Windows 8, Windows 7, Vista
@@ -55,7 +51,7 @@ ms.openlocfilehash: cb7510d92019f27e15ecc7d8666df3f4e09c8707
 
 -   장치에서 더 이상 일부 회사 리소스(예: 파일 공유 또는 내부 웹 사이트)에 액세스하지 못할 수 있습니다.
 
-## Windows 10 mobile, Windows Phone 8.1 또는 Windows Phone 8
+## Windows 10 Mobile 및 Windows Phone 8.1
 
 -   장치에서 회사 포털 앱이 제거되어 장치가 더 이상 회사 포털에 나타나지 않으며, 회사 포털 앱 또는 회사 포털 웹 사이트에서 앱을 설치할 수 없습니다.
 
@@ -66,7 +62,7 @@ ms.openlocfilehash: cb7510d92019f27e15ecc7d8666df3f4e09c8707
     > [!IMPORTANT]
     > 유일한 예외는 암호화 정책이며, 이 정책은 여전히 적용됩니다. 회사 정책에서 Windows Phone의 암호화를 요구하는 경우 휴대폰을 암호 해제하는 유일한 방법은 Windows Phone의 **설정** 메뉴를 사용하여 휴대폰을 초기화하는 것입니다.
 
-## Windows 8.1을 실행하는 Windows RT 또는 Windows RT
+## Windows 8.1을 실행하는 Windows RT
 
 -   장치에서 회사 포털 앱이 제거되어 장치가 더 이상 회사 포털에 나타나지 않으며, 회사 포털에서 앱을 설치할 수 없습니다.
 
@@ -93,6 +89,6 @@ Windows RT 장치를 제거하면 다음과 같은 상황이 발생합니다.
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO2-->
 
 

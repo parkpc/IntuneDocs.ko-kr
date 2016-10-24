@@ -12,8 +12,8 @@ ms.technology:
 ms.assetid: c4801a78-580e-4e3d-beca-0b09b9b2437c
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: 82a6a97dec78ad6e12fa5f8ccecae90a5bcc1e53
+ms.sourcegitcommit: 08f31db90f324ef5f93076c4e13bfa5328a15adc
+ms.openlocfilehash: 1b9401a01a8621ebc03102757b0c839702e48f06
 
 
 ---
@@ -26,7 +26,7 @@ IT 관리자가 암호 요구 사항을 두 개 이상 설정할 수 있습니�
 
 모든 암호 요구 사항을 충족하는 암호를 설정하는 데 문제가 있으면 IT 관리자에게 문의하여 도움을 받으세요.
 
-## Windows Phone 8 또는 8.1에서 암호를 변경하려면:
+## Windows Phone 8.1에서 암호를 변경하려면:
 
 1. **홈** 화면에서 **설정**을 탭한 후 **잠금 화면**을 선택합니다.
 2. **암호**까지 아래로 스크롤하고 **암호 변경**을 탭합니다.
@@ -34,7 +34,7 @@ IT 관리자가 암호 요구 사항을 두 개 이상 설정할 수 있습니�
 4. **새 암호** 필드에 새 암호를 입력한 후 **암호 확인** 필드에 새 암호를 다시 입력합니다.
 4. **완료**를 탭합니다.
 
-## Windows Phone 8 또는 8.1에서 암호를 설정하려면:
+## Windows Phone 8.1에서 암호를 설정하려면:
 
 1. **홈** 화면에서 **설정**을 탭한 후 **잠금 화면**을 선택합니다.
 2. **암호**까지 아래로 스크롤하고 **암호** 막대를 **켜기**로 움직입니다.
@@ -47,6 +47,6 @@ IT 관리자가 암호 요구 사항을 두 개 이상 설정할 수 있습니�
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO2-->
 
 
