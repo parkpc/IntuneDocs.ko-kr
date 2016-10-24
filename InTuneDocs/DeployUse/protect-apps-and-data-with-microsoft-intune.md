@@ -1,7 +1,7 @@
 ---
 title: "앱 및 데이터 보호 | Microsoft Intune"
-description: 
-keywords: "이 항목에서는 회사 앱 및 데이터를 보호하는 데 사용할 수 있는 다양한 Intune의 특징과 기능에 대해 설명합니다."
+description: "이 항목에서는 회사 앱 및 데이터를 보호하는 데 사용할 수 있는 다양한 Intune의 특징과 기능에 대해 설명합니다."
+keywords: 
 author: karthikaraman
 manager: angrobe
 ms.date: 07/18/2016
@@ -13,8 +13,8 @@ ms.assetid: 5c46e188-87eb-4ce2-b184-24809e8bf783
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: cf2ef1510aa9dafeddf54855123c826c9ccc2fd0
+ms.sourcegitcommit: dd7a51b5ba176c8c7b593d2d7a3e5cfabd72a1e6
+ms.openlocfilehash: 77ce4cca5f85f1847e599a6151411bfc12afbc8b
 
 
 ---
@@ -53,6 +53,6 @@ Microsoft Office 앱 등의 앱에는 앱 SDK가 기본 제공됩니다. 지원�
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Oct16_HO3-->
 
 

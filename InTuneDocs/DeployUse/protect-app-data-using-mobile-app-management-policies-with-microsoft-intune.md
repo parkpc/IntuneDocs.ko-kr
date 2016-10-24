@@ -13,8 +13,8 @@ ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 6163f2b2a1c562e5315785b8b4c486fe2347f89d
+ms.sourcegitcommit: 389daf0ed39fa2cd4b2e5d6e52cbd6809a568c9e
+ms.openlocfilehash: e751619f6d65e10099d1f8ff5a2342185181af69
 
 
 ---
@@ -122,8 +122,6 @@ MDM 솔루션에 등록되지 않은 BYOD 장치의 경우 MAM 정책을 통해 
 
 예를 들어, 최종 사용자가 회사 계정을 사용하여 OneDrive 앱을 시작하면 파일을 개인 저장소 위치로 이동할 수 없습니다. 그러나 최종 사용자가 계인 계정으로 OneDrive를 사용하는 경우 개인 OneDrive에서 제한 없이 데이터를 복사 및 이동할 수 있습니다.  
 
-MAM 정책과 연결된 앱을 사용하는 환경에 대한 자세한 설명 및 다중 ID가 있는 앱이 회사 컨텍스트에서 MAM 정책만 적용하도록 설정하는 것을 어떻게 지원하는지 알아보려면 [다중 ID가 지원되는 앱 사용](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md#using-apps-with-multi-identity-support)을 읽어보세요.
-
 모든 Office 모바일 앱이 다중 ID를 지원합니다.
 
 ##  다음 단계
@@ -133,6 +131,6 @@ MAM 정책과 연결된 앱을 사용하는 환경에 대한 자세한 설명 �
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Oct16_HO3-->
 
 
