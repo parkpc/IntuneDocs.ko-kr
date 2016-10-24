@@ -12,15 +12,15 @@ ms.technology:
 ms.assetid: 5656b3e6-e812-4264-a170-b17c9c03e4d4
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: 5c522c12325925c45f47bc7b521e3d8aa87454f4
-ms.openlocfilehash: e79c0d74dd35d7177fb3c83c587ab00e891a0d93
+ms.sourcegitcommit: 53f432e5fb63d89dc4d7494182f95aace6dd0918
+ms.openlocfilehash: 319c2378027f89809a4e28eda56bd7b062d4e5bb
 
 
 ---
 
 # Lookout for Work가 발견한 위협을 해결해야 함
 
-Lookout for Work가 장치에서 잠재적인 위협을 발견했기 때문에 메일과 업무에 다시 액세스하려면 문제를 해결해야 합니다.
+Lookout for Work가 장치에서 잠재적인 위협을 발견했기 때문에 메일과 업무에 다시 액세스하려면 문제를 해결해야 합니다. 표시되는 메시지는 다음과 비슷하게 나타납니다.
 
 ![Lookout for Work가 장치에서 위협 발견](./media/lookout-threat-found-android.png)
 
@@ -46,6 +46,6 @@ Lookout for Work가 위협으로 판단하는 앱을 설치한 경우 다음과 
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Oct16_HO2-->
 
 

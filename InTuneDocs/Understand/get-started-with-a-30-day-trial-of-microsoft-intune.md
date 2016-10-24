@@ -3,6 +3,7 @@ title: "Intune 평가판 가이드 | Microsoft Intune"
 description: "Intune 무료 30일 평가판을 설치하는 방법에 대한 소개 및 필수 구성 요소"
 keywords: 
 author: lindavr
+ms.author: lindavr
 manager: angrobe
 ms.date: 08/09/2016
 ms.topic: get-started-article
@@ -13,8 +14,8 @@ ms.assetid: 619a1d11-3d22-4635-8f70-770eba3e1712
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 51fba2b01d8978bc062c50c4388714609be0fdf0
-ms.openlocfilehash: cbf863619a385d596630ee4ff0b216a4cbbe6cb7
+ms.sourcegitcommit: 581e880fa4308ec627f5b2c1242fb5b30b713743
+ms.openlocfilehash: 3973ac11d4734b17f905e88259863d7ddb59c1f4
 
 
 ---
@@ -37,12 +38,12 @@ Intune을 시작하기 전에 다음이 필요합니다.
 
 -   기존 Microsoft Online Services 계정이 있는 경우 이 계정의 관리자 자격 증명이 필요합니다. 이러한 계정이 없거나 이 Intune 테넌트를 평가용으로만 사용하려는 경우에는 테넌트 관리자 자격 증명이 필요하지 않습니다.
 
--   Intune 평가판을 통해 iOS 또는 Windows Phone 장치를 관리하려는 경우 인증서(또는 키) 및 해당 인증서를 받을 계정이 필요합니다(아래 표 참조). Android 장치의 경우 추가 인증서가 필요하지 않습니다.
+-   Intune 평가판을 통해 iOS 또는 Windows Phone 8.1 장치를 관리하려는 경우 인증서(또는 키) 및 해당 인증서를 받을 계정이 필요합니다(아래 표 참조). Android 장치의 경우 추가 인증서가 필요하지 않습니다.
 
     |플랫폼|인증서 요구 사항|추가 정보|
     |------------|----------------------------|--------------------|
-    |Windows Phone 8.1 및 Windows Phone 8 |스토어에서 회사 포털 앱을 설치하는 Windows 8.1 사용자의 경우 인증서가 필요하지 않습니다. Intune을 사용하여 회사 포털 앱을 Windows Phone 8.1 장치로 배포하려는 경우 또는 Windows Phone 8.0을 사용하는 경우에는 Symantec 인증서가 필요합니다.|이 지침에서는 사용자가 Windows Phone 8.1 이상 장치에서 스토어의 회사 포털 앱을 다운로드한다고 가정합니다. Windows Phone 8.0 지원에 대한 자세한 내용은 [Microsoft Intune을 사용한 Windows Phone 관리 설정](/Intune/Deploy-Use/set-up-windows-phone-management-with-microsoft-intune)을 참조하세요.|
-    |Windows 10, Windows RT 8.1, Windows RT 또는 Windows 8.1 장치|Windows RT 및 Windows 장치 등록을 위한 인증서 요구 사항은 없습니다.|[Microsoft Intune을 사용하여 Windows PC 클라이언트 설치](/Intune/Deploy-Use/install-the-windows-pc-client-with-microsoft-intune)|
+    |Windows Phone 8.1 |스토어에서 회사 포털 앱을 설치하는 Windows 8.1 사용자의 경우 인증서가 필요하지 않습니다. |이 지침에서는 사용자가 Windows Phone 8.1 이상 장치에서 스토어의 회사 포털 앱을 다운로드한다고 가정합니다. |
+    |Windows 10, Windows RT 8.1 또는 Windows 8.1 장치|Windows RT 및 Windows 장치 등록을 위한 인증서 요구 사항은 없습니다.|[Microsoft Intune을 사용하여 Windows PC 클라이언트 설치](/Intune/Deploy-Use/install-the-windows-pc-client-with-microsoft-intune)|
     |iOS 7.1 이상|APNs(Apple Push Notification service) 인증서를 가져옵니다.|[Microsoft Intune을 사용하여 iOS 및 Mac 관리 설정](/Intune/Deploy-Use/set-up-ios-and-mac-management-with-microsoft-intune)에 설명된 대로 Apple에서 Apple Push Notification Service 인증서를 요청합니다.|
 
 ## Intune의 30일 평가판을 완료하기 위한 단계
@@ -66,6 +67,6 @@ Intune을 시작하기 전에 다음이 필요합니다.
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Oct16_HO2-->
 
 

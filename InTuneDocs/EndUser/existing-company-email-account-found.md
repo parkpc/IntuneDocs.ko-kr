@@ -14,14 +14,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: ce231116ad405d274546cee81dbdd0b0909b2d01
+ms.sourcegitcommit: 8eb98946c39b98d3c338b32a7d955818020ef478
+ms.openlocfilehash: f33287c51fb769505cd1fb4fcfe2bbc1e4da0ea2
 
 
 ---
 
 # 기존 회사 전자 메일 계정을 찾을 수합니다
-회사 전자 메일 계정이 이미 있습니다. 회사 전자 메일에 연결을 계속 하려면 IT 관리자에 제대로 설정 하 고 계정을 관리할 수 있도록 다음 단계를 수행 해야 합니다.
+회사 전자 메일 계정이 이미 있습니다. 회사 메일에 계속 연결하려면 IT 관리자가 계정을 제대로 설정하고 관리할 수 있도록 다음 단계를 수행하세요.
 
 1.  **설정을** 사용자의 장치에 회사 전자 메일을 이전에 설정한 연결을 제거 합니다.
 
@@ -35,6 +35,6 @@ ms.openlocfilehash: ce231116ad405d274546cee81dbdd0b0909b2d01
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Oct16_HO2-->
 
 

@@ -3,6 +3,7 @@ title: "Intune 회사 포털 앱 설치 및 로그인 | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -14,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: b23073a0bad085c8994f5e9b7c1b46e2985cd05c
+ms.sourcegitcommit: 1d133011004fa9c684f81c7adc085dc43a4a2ee4
+ms.openlocfilehash: 29bc67a9ce4120cbb9f157c8d0eefb78dce020ca
 
 
 ---
@@ -29,9 +30,9 @@ ms.openlocfilehash: b23073a0bad085c8994f5e9b7c1b46e2985cd05c
 
 2.  **Microsoft Intune 회사 포털** 앱을 다운로드합니다.
 
-    ![download-ios-comp-portal-app](./media/ios-cpinstall-1-cpinstore.png)
+    ![Intune 회사 포털 앱 다운로드](./media/ios-cpinstall-1-cpinstore.png)
 
-3.  회사 포털 앱을 열고 회사 또는 학교 메일과 암호를 입력한 다음 **로그인**을 탭합니다.
+3.  회사 포털 앱을 열고 회사 또는 학교 메일 주소와 암호를 입력한 다음 **로그인**을 탭합니다.
 
     처음으로 회사 포털 앱에 로그인하는 경우 그리고 회사 또는 학교에서 Intune을 사용하는 경우 장치를 Intune에 등록하라는 메시지가 표시됩니다. 등록하려면 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md)의 단계를 따릅니다.
 
@@ -39,7 +40,6 @@ ms.openlocfilehash: b23073a0bad085c8994f5e9b7c1b46e2985cd05c
 
 
 
-
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Oct16_HO2-->
 
 

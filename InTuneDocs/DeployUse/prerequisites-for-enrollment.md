@@ -13,8 +13,8 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 381216889519b45f989db90ac5e12b8e3adcadf1
-ms.openlocfilehash: 378a6b290ccb83de28e73b17d8f02f77504dafd5
+ms.sourcegitcommit: 77c8df8f1886786a2e772429d93b034798b22a66
+ms.openlocfilehash: 8c500a5bfd59f801d1177a681fa9d55d1aa1ee0e
 
 
 ---
@@ -29,6 +29,10 @@ ms.openlocfilehash: 378a6b290ccb83de28e73b17d8f02f77504dafd5
 |**3단계:** [Intune 회사 포털 구성](#step-3-configure-the-intune-company-portal)|회사 포털 앱과 관련하여 사용자에게 표시되는 설정을 구성합니다.|  
 |**4단계:** [Intune 사용자 라이선스 할당](#step-4-assign-intune-user-licenses)|장치를 등록할 수 있도록 사용자에게 Intune 라이선스를 할당합니다.|
 |**5단계:** [장치 관리 설정](#step-5-set-up-device-management)|iOS 및 Windows 관리에 대해 플랫폼별 설정을 사용하도록 설정합니다. Android 장치에는 추가 구성이 필요하지 않습니다.|
+
+Configuration Manager가 포함된 Intune을 찾고 있나요?
+> [!div class="button"]
+[SCCM 문서 보기 >](https://docs.microsoft.com/sccm/mdm/deploy-use/setup-hybrid-mdm)
 
 ## 1단계: 장치 등록 종속성
 
@@ -130,6 +134,6 @@ MDM 기관을 설정한 후 조직에서 지원하려는 운영 체제에 대한
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO2-->
 
 

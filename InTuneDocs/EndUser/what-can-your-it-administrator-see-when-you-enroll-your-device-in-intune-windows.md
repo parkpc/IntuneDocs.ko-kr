@@ -3,6 +3,7 @@ title: "Intune에서 내 장치를 등록하면 IT 관리자에게 무엇이 표
 description: 
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: article
@@ -14,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4881d765a6a79d380ab6d3facdb55d9f0c81bf97
-ms.openlocfilehash: 2631541ea974769308aea30d2b37a3a79c22db99
+ms.sourcegitcommit: f69d2b222e9409a79dae07fd77f29c46876f11cb
+ms.openlocfilehash: 38a8a92581a990c321c6c57bfaa5a506733eb1b4
 
 
 ---
@@ -23,7 +24,7 @@ ms.openlocfilehash: 2631541ea974769308aea30d2b37a3a79c22db99
 
 # Intune에서 내 장치를 등록하면 IT 관리자에게 무엇이 표시되나요?
 
-Intune에서 Windows 장치를 등록하는 것은 장치의 회사 정보를 보호하는 데 도움이 되도록 장치를 관리할 수 있는 권한을 IT 관리자에게 부여하는 것입니다.
+Intune에 Windows 장치를 등록하면 IT 관리자에게 장치 관리를 통해 장치에 있는 회사 정보를 보호하는 권한이 부여됩니다.
 
 **IT 부서에서 볼 수 없는 사항**
 
@@ -57,12 +58,10 @@ Intune에서 Windows 장치를 등록하는 것은 장치의 회사 정보를 �
 
 -   제조업체
 
-[추가 정보](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows)를 확인할 수 있습니다.
+자세한 내용은 [Intune에서 회사 포털 앱을 설치하고 Windows 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows)를 참조하세요.
 
 
 
-
-
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO2-->
 
 

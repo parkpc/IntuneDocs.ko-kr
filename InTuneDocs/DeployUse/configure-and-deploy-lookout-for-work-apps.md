@@ -12,8 +12,8 @@ ms.assetid: 524c4209-ad57-4d35-955e-a00d796bf858
 ms.reviewer: sandera
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 99005e15268a60cd801ef1c717088dff2f82927b
-ms.openlocfilehash: 8dce0689d5c4a0672b227eedf3ae738217eb17cf
+ms.sourcegitcommit: 4a69be67c3ef9f028c77c738de5f1fcbd59a8d33
+ms.openlocfilehash: 2c626cb0a36c38c7b5deeca0ff1e902018540634
 
 
 ---
@@ -40,7 +40,7 @@ Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵�
 
 ## iOS(Lookout 앱의 엔터프라이즈 서명된 버전)
 
-* **1단계:** 장치에 **iOS 관리**가 설치되어 있는지 확인합니다. iOS 관리에 대해 장치를 설정하는 방법에 대한 자세한 내용은 [iOS 및 Mac 장치 관리 설정](Set up iOS and Mac device management.md)을 참조하세요.
+* **1단계:** 장치에 **iOS 관리**가 설치되어 있는지 확인합니다. iOS 관리에 대해 장치를 설정하는 방법에 대한 자세한 내용은 [iOS 및 Mac 장치 관리 설정](set-up-ios-and-mac-management-with-microsoft-intune.md)을 참조하세요.
 
 * **2단계:** Lookout for Work iOS 앱을 **다시 서명**합니다. Lookout에서는 iOS App Store 외부에 Lookout for Work iOS 앱을 배포합니다. **앱을 배포하기 전에** iOS Enterprise Developer Certificate로 앱을 다시 서명해야 합니다. Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내용은 Lookout 사이트에서 [Lookout for Work iOS 앱 다시 서명 프로세스](https://personal.support.lookout.com/hc/en-us/articles/114094038714)를 참조하세요.
 
@@ -49,7 +49,7 @@ Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵�
   1.  [Azure Active Directory 관리 포털](https://manage.windowsazure.com)에 로그인하여 응용 프로그램 페이지로 이동합니다.
   2.  **Lookout for Work iOS 앱**을 **네이티브 클라이언트 응용 프로그램**으로 추가합니다.
   ![네이티브 클라이언트 앱 옵션을 보여 주는 앱 추가 대화 상자의 스크린샷](../media/mtp/aad-add-app.png)
-  
+
   3. **com.lookout.enterprise.yourcompanyname**을 IPA에 서명할 때 선택한 고객 번들 ID로 바꿉니다.
   4.  리디렉션 URI: **&lt;companyportal://code/>**를 원래 리디렉션 URI의 인코딩된 버전 뒤에 추가합니다.
   5.  **위임된 권한**을 앱에 추가합니다.

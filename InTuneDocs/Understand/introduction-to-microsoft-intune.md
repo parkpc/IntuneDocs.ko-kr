@@ -5,6 +5,7 @@ title: "Microsoft Intune 소개 | Microsoft Intune"
 description: "Intune이 어떻게 엔터프라이즈 이동성 + 보안 솔루션의 모바일 장치 관리 구성 요소가 되는지 알아봅니다."
 keywords: 
 author: Lindavr
+ms.author: lindavr
 manager: angrobe
 ms.date: 08/10/2016
 ms.topic: article
@@ -15,14 +16,14 @@ ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f88c9f6b856f91db8c9218ab41a87bc95f45a578
-ms.openlocfilehash: efc6fed1d9e0766dd0deb24e8f5f422d1f60f568
+ms.sourcegitcommit: 3318201cd77ec16f72e65275eda0e65c0dd9e05c
+ms.openlocfilehash: 256a1e7873a6603226843d2936e44c09424b8050
 
 
 ---
 
 # Intune 소개
-Microsoft Intune은 Microsoft Enterprise Mobility + 보안(EMS, 이전의 Enterprise Mobility Suite)의 "관리 암(arm)"입니다. Enterprise Mobility는 직원이 조직의 정보 보호를 유지하면서 모든 직원 장치에서 생산성을 높일 수 있도록 하는 것입니다.  
+Microsoft Intune은 Microsoft Enterprise Mobility + Security(EMS, 이전의 Enterprise Mobility Suite)의 관리 암(arm)입니다. Enterprise Mobility는 직원이 조직의 정보 보호를 유지하면서 모든 직원 장치에서 생산성을 높일 수 있도록 하는 것입니다.  
 
 EMS는 생산성, ID, 액세스 제어, 관리 및 데이터 보호를 포함하는 Enterprise Mobility를 위한 완전한 통합 제품군입니다. 조직의 Mobility 솔루션을 배포하고 운영하는 효과적인 방법을 제공합니다.  
 
@@ -55,6 +56,6 @@ Intune에서 제공하는 기본 도구는 다음과 같습니다.
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Oct16_HO2-->
 
 

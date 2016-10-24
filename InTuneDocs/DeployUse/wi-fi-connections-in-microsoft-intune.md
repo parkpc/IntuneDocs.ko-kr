@@ -3,8 +3,9 @@ title: "Wi-Fi 연결 | Microsoft Intune"
 description: "Wi-Fi 프로필을 통해 사용자의 Wi-Fi 네트워크 연결을 지원하는 방법을 설명합니다."
 keywords: 
 author: Nbigman
+ms.author: nbigman
 manager: angrobe
-ms.date: 09/01/2016
+ms.date: 10/10/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +14,8 @@ ms.assetid: 0b1b86ed-2e80-474d-8437-17dd4bc07b55
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0ced62efd04803943cbbfd8cecef907409a03c0b
-ms.openlocfilehash: beba0471f31a19dad78ddf71c07e323b18af18e8
+ms.sourcegitcommit: 27ba29f57bba1f3807c4b593ecac8c0af0851962
+ms.openlocfilehash: 7b49b7d9b6054f7d153359c1ee1b6cf5875fba32
 
 
 ---
@@ -29,7 +30,7 @@ Microsoft Intune Wi-Fi 프로필을 사용하여 무선 네트워크 설정을 �
 
 1.   **Contoso Wi-Fi** 무선 네트워크에 연결하는 데 필요한 설정이 포함된 Wi-Fi 프로필을 만듭니다.
 
-2. 프로필을 iOS 장치 사용자 그룹에 배포합니다.
+2.   프로필을 iOS 장치 사용자 그룹에 배포합니다.
 
 3.   사용자는 무선 네트워크 목록에서 새 **Contoso Wi-Fi** 네트워크를 찾아서 해당 네트워크에 쉽게 연결할 수 있습니다.
 
@@ -39,6 +40,8 @@ Microsoft Intune Wi-Fi 프로필을 사용하여 무선 네트워크 설정을 �
 다음 플랫폼에 Wi-Fi 프로필을 배포할 수 있습니다.
 
 -   Android 4.0 이상
+
+-   Android for Work   
 
 -   iOS 8.0 이상
 
@@ -52,10 +55,13 @@ Windows 8.1 또는 Windows 10 데스크톱이나 모바일을 실행하는 장�
 
     -   Wi-Fi 프로필(Android 4 이상)
 
+    -   Wi-Fi 프로필(Android for Work)
+
     -   Wi-Fi 프로필(iOS 8.0 이상)
 
     -   Wi-Fi 프로필(Mac OS X 10.9 이상)
-
+    
+    
     이 정책 유형에 대한 권장 설정은 없습니다. 사용자 지정 정책을 만들어야 합니다.
 
 3.  프로필의 이름과 설명을 제공합니다.
@@ -173,6 +179,6 @@ Windows에서는 **netsh wlan** 유틸리티를 사용하여 기존 Wi-Fi 프로
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Oct16_HO2-->
 
 

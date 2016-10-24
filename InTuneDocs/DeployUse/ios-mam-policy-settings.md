@@ -3,8 +3,9 @@ title: "iOS MAM 정책 설정 | Microsoft Intune"
 description: "이 항목에서는 iOS 장치용 모바일 앱 관리 정책 설정에 대해 설명합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
-ms.date: 07/13/2016
+ms.date: 09/30/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +14,8 @@ ms.assetid: 673ff872-943c-4076-931c-0be90363aea9
 ms.reviewer: andcerat
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: ba258bfb3140ffc79aa38ef2f46497346cdc6bfa
+ms.sourcegitcommit: 3f6e500ef942e0f0e89ffd9ddb4889384f296e16
+ms.openlocfilehash: 36d21aee42c8a4812b1ed9623be2da3e65442bff
 
 
 ---
@@ -84,6 +85,11 @@ ms.openlocfilehash: ba258bfb3140ffc79aa38ef2f46497346cdc6bfa
   회사 데이터를 제거하는 선택적 초기화를 수행하는 경우 앱에서 네이티브 주소록에 직접 동기화된 연락처가 제거됩니다. 기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. 현재 **Microsoft Outlook** 앱에만 적용됩니다.
 
   **기본값 = 예**
+  
+- **인쇄를 사용하지 않도록 설정:** MAM 정책과 연결된 앱에서 회사 데이터 인쇄를 방지하려면 **예**를 선택합니다.
+
+    **기본값 - 예**
+
 ##  iOS 액세스 정책 설정
 **정책 관리 앱** 용어는 MAM 정책을 사용하여 구성된 앱을 참조하는 데 사용됩니다.
 - **액세스용 PIN 필요:** **예**를 선택하여 정책으로 관리되는 앱을 사용하기 위해 PIN이 필요합니다. 사용자가 처음으로 회사 컨텍스트에서 앱을 실행할 때 PIN을 설정하라는 메시지가 표시됩니다.
@@ -114,6 +120,6 @@ iOS 장치에서 PIN 번호 대신 지문을 통해 사용자의 신원을 확�
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Oct16_HO2-->
 
 

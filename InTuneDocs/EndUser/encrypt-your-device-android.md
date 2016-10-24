@@ -13,8 +13,8 @@ ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
-ms.openlocfilehash: 2fff575f84512304a119508b49486d02695a06bd
+ms.sourcegitcommit: 690c94c970a97057a65f3f3d5aafa86c235c6df0
+ms.openlocfilehash: 57ede1360c2f85df24dc0245a715d420165b348a
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: 2fff575f84512304a119508b49486d02695a06bd
 
 # 장치 암호화
 
-회사 또는 조직에서 회사 파일, 전자 메일 또는 데이터에 액세스할 때 Android 장치를 암호화하도록 요구하는 경우 아래의 단계에 따라 장치를 암호화합니다. IT 관리자가 요구하는 경우 암호화하기 전에 PIN 또는 암호를 설정하라는 메시지가 표시될 수 있습니다.
+회사 또는 조직에서 회사 파일, 메일 또는 데이터에 액세스할 때 Android 장치를 암호화하도록 요구하는 경우 아래의 단계에 따라 장치를 암호화합니다. IT 관리자가 요구하는 경우 암호화하기 전에 PIN 또는 암호를 설정하라는 메시지가 표시될 수 있습니다.
 
 휴대폰의 등록을 취소한 경우 휴대폰이 암호화된 상태로 유지됩니다.
 
@@ -64,6 +64,6 @@ ms.openlocfilehash: 2fff575f84512304a119508b49486d02695a06bd
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO2-->
 
 

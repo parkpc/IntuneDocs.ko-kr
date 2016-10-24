@@ -4,7 +4,7 @@ description: "VPN 프로필을 사용하여 조직의 사용자 및 장치에 VP
 keywords: 
 author: Nbigman
 manager: angrobe
-ms.date: 09/06/2016
+ms.date: 10/10/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,20 +13,22 @@ ms.assetid: abc57093-7351-408f-9f41-a30877f96f73
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 957edcf6910dd15f15ab5020773233c6a6ba0ea7
-ms.openlocfilehash: fb5fbbe50295d3fc26f3cd4def4f40898bb6ffd2
+ms.sourcegitcommit: 27ba29f57bba1f3807c4b593ecac8c0af0851962
+ms.openlocfilehash: 026e7c918f8b2457dd1afb9a5134ad3bd6f65cd5
 
 
 ---
 
 # Microsoft Intune에서 VPN 연결
- VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전하게 원격으로 액세스할 수 있습니다. 원격 사용자는 자신의 장치가 네트워크에 실제로 연결된 것처럼 작업할 수 있습니다. 장치는 VPN 연결 프로필을 사용하여 VPN 서버와의 연결을 시작합니다. Microsoft Intune의 *VPN 프로필*을 사용하여 조직의 사용자 및 장치에 VPN 설정을 배포합니다. 이러한 설정을 배포하여 최종 사용자가 회사 네트워크에 있는 리소스에 연결하는 데 필요한 노력을 최소화할 수 있습니다.
+
+VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전하게 원격으로 액세스할 수 있습니다. 장치는 *VPN 연결 프로필*을 사용하여 VPN 서버와의 연결을 시작합니다. Microsoft Intune의 *VPN 프로필*을 사용하여 조직의 사용자 및 장치에 VPN 설정을 배포하면 네트워크에 쉽고 안전하게 연결할 수 있습니다. 
 
 예를 들어 기업 네트워크에서 파일 공유에 연결하는 데 필요한 설정을 사용하여 모든 iOS 장치를 프로비전하려고 할 수 있습니다. 회사 네트워크에 연결하는 데 필요한 설정이 포함된 VPN 프로필을 만들어 iOS 장치를 이용하는 모든 사용자에게 배포합니다. 사용자에게 이용 가능한 네트워크 목록에 대한 VPN 연결이 표시되어 최소한의 노력으로 연결할 수 있습니다.
 
 VPN 프로필을 사용하여 다음의 장치 유형을 구성할 수 있습니다.
 
 * Android 4 이상을 실행하는 장치
+* Android for Work 장치
 * iOS 8.0 이상을 실행하는 장치
 * Mac OS X 10.9 이상을 실행하는 장치
 * Windows 8.1 이상을 실행하는 등록된 장치
@@ -70,9 +72,7 @@ VPN 프로필에서는 다른 제조업체의 다양한 연결 형식과 프로�
 
 ### 인증서
 
-VPN 프로필을 만들 때 이전에 Intune에서 만든 SCEP 또는 .PFX 인증서 프로필을 선택합니다.
-
-ID 인증서라고 합니다. 사용자 장치의 연결 허용을 설정하기 위해 만든 신뢰할 수 있는 인증서 프로필(또는 루트 인증서)에 대해 인증하는 데 사용됩니다. 신뢰할 수 있는 인증서는 VPN 연결을 인증하는 컴퓨터(대개 VPN 서버)에 배포됩니다.
+VPN 프로필을 만들 때 이전에 Intune에서 만든 SCEP 또는 .PFX 인증서 프로필을 선택합니다. ID 인증서라고 합니다. 사용자 장치의 연결 허용을 설정하기 위해 만든 신뢰할 수 있는 인증서 프로필(또는 *루트 인증서*)에 대해 인증하는 데 사용됩니다. 신뢰할 수 있는 인증서는 VPN 연결을 인증하는 컴퓨터(대개 VPN 서버)에 배포됩니다.
 
 Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자세한 내용은 [인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.
 
@@ -85,6 +85,7 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** > **정책 추가**를 선택합니다.
 2. 관련 장치 종류를 확장하여 새 정책에 대한 템플릿을 선택한 다음 해당 장치에 대한 VPN 프로필을 선택합니다.
     * **VPN 프로필(Android 4 이상)**
+    * **VPN 프로필(Android for Work)**
     * **VPN 프로필(iOS 8.0 이상)**
     * **VPN 프로필(Mac OS X 10.9 이상)**
     * **VPN 프로필(Windows 8.1 이상)**
@@ -92,6 +93,9 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
     * **VPN 프로필(Windows 10 Desktop 및 Mobile 이상)**
 
  사용자 지정 VPN 프로필 정책만 만들고 배포할 수 있습니다. 권장 설정은 사용할 수 없습니다.
+
+> [!Note]
+> Android for Work 장치용 VPN 프로필에서는 장치의 업무용 프로필에 설치된 앱만 VPN 연결을 사용하도록 설정합니다.
 
 3. 다음 테이블을 사용하여 VPN 프로필 설정을 쉽게 구성할 수 있습니다.
 
@@ -192,6 +196,6 @@ iOS 8.0 이상 장치에 대해 필요 시 VPN을 구성할 수 있습니다.
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Oct16_HO2-->
 
 

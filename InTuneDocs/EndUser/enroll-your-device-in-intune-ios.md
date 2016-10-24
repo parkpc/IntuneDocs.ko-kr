@@ -3,6 +3,7 @@ title: "Intune에서 iOS 장치 등록 | Microsoft Intune"
 description: "Intune에서 iOS 장치를 등록하는 방법을 설명합니다."
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: article
@@ -14,8 +15,8 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: 3d8b33e5227ed7d13ffc0e6fb7867618c48cac6f
+ms.sourcegitcommit: 7eefcefa5e1cd0f789c77bf020c256e449099273
+ms.openlocfilehash: 577d14f29880d16046bbb703773d6362c2458c1b
 
 
 ---
@@ -23,10 +24,15 @@ ms.openlocfilehash: 3d8b33e5227ed7d13ffc0e6fb7867618c48cac6f
 
 # Intune에서 iOS 장치 등록
 
-회사 또는 학교에서 Microsoft Intune을 사용하는 경우 iOS 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 선호하는 장치를 자유롭게 사용하여 작업을 완료하는 동안 IT 부서에서 해당 회사 또는 학교 리소스를 관리하고 보안을 유지할 수 있습니다. 등록에 대해 자세히 알아보려면 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)를 참조하세요.
+회사 또는 학교에서 Microsoft Intune을 사용하는 경우 iOS 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 IT 부서에서 해당 회사 또는 학교 리소스를 관리하고 보안을 유지하여 선호하는 장치를 자유롭게 사용하여 작업을 완료할 수 있습니다. 등록에 대해 자세히 알아보려면 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)를 참조하세요.
 
 Mac OS X 장치를 등록하려는 경우 [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md)을 참조하세요.
 
+**시작하기 전에 확인할 사항**
+
+- 단계를 시작한 후 등록이 완료되었는지 확인합니다. 시작했지만 완료하지 않으면 나중에 다시 시도하는 경우 등록이 되지 않을 수 있습니다.
+- Wi-Fi가 작동 중인지 확인합니다. 그렇지 않은 경우 등록이 실패합니다.
+- 장치에서 Safari를 차단하는 경우 차단 해제합니다. 등록하려면 Safari를 사용해야 합니다.
 
 
 **iOS 장치를 등록하려면:**
@@ -71,7 +77,7 @@ Mac OS X 장치를 등록하려는 경우 [Intune에서 Mac OS X 장치 등록](
 
     화면에는 "등록 장치" 메시지가 표시됩니다.
 
-11.  회사 포털에서 페이지를 열려는지를 묻는 메시지가 표시되는 경우 **열기**를 탭합니다.
+11.  회사 포털에서 페이지를 열지 묻는 메시지가 표시되는 경우 **열기**를 탭합니다.
 
     ![ios-enroll-open-comp-portal](./media/ios-enroll-7-open-cp.png)
 
@@ -85,12 +91,11 @@ Mac OS X 장치를 등록하려는 경우 [Intune에서 Mac OS X 장치 등록](
 
 이제 Intune에 장치를 등록했으므로 회사 포털 앱으로 다시 이동합니다.
 
+
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-
-
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO2-->
 
 

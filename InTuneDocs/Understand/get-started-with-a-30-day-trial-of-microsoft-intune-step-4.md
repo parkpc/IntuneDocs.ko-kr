@@ -3,6 +3,7 @@ title: "정책 만들기 및 사용자에게 앱 게시 | Microsoft Intune"
 description: "Intune 무료 30일 평가판을 등록할 때 정책을 만들고 앱을 게시하는 방법"
 keywords: 
 author: lindavr
+ms.author: lindavr
 manager: angrobe
 ms.date: 08/09/2016
 ms.topic: get-started-article
@@ -13,8 +14,8 @@ ms.assetid: c3a17884-442a-44f5-bc81-4589e823f65e
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 51fba2b01d8978bc062c50c4388714609be0fdf0
-ms.openlocfilehash: 1a41bfd926b1dac88ca8c8cd33483955f1150e34
+ms.sourcegitcommit: 581e880fa4308ec627f5b2c1242fb5b30b713743
+ms.openlocfilehash: 0fbc8fc23ce65987e4694bce0748362d8ce10153
 
 
 ---
@@ -62,7 +63,7 @@ Intune을 사용하여 앱을 배포하기 전에 앱 게시, 배포 및 사용�
 
     -   **Android:** [https://play.google.com/store/apps/details?id=com.skype.raider](https://play.google.com/store/apps/details?id=com.skype.raider)
 
-    -   **Windows Phone 8 또는 Windows Phone 8.1:** [http://www.windowsphone.com/ko-kr/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51](http://www.windowsphone.com/en-us/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51)
+    -   **Windows Phone 8.1:** [http://www.windowsphone.com/en-us/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51](http://www.windowsphone.com/en-us/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51)
 
 6.  **소프트웨어 설명** 페이지에서 회사 포털의 소프트웨어 사용자에게 표시할 정보를 입력한 후 **다음**을 선택합니다. 다음 설정을 사용할 수 있습니다. 이 예제에서는 앱이 Skype라고 가정합니다.
 
@@ -99,6 +100,6 @@ Intune을 사용하여 앱을 배포하기 전에 앱 게시, 배포 및 사용�
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Oct16_HO2-->
 
 

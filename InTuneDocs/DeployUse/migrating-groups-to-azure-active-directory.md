@@ -3,16 +3,17 @@ title: "Azure Active Directory 그룹으로 마이그레이션 | Microsoft Intun
 description: "Intune에서 Azure AD로 그룹을 마이그레이션하는 방법"
 keywords: 
 author: nbigman
+ms.author: nbigman
 manager: angerobe
-ms.date: 09/27/2016
+ms.date: 10/10/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 03b69afa-3548-4033-9039-191528f3fd99
 translationtype: Human Translation
-ms.sourcegitcommit: d7a1da3b9e1e6ce3e2034cc5e8e1926a671276b8
-ms.openlocfilehash: f7aa05f4a569392be60522437508fdb78f56c55c
+ms.sourcegitcommit: d92c9ffe42b36770a32c28941de3c402aec9dd68
+ms.openlocfilehash: 08bcc258f64e6385ae6fa648ddb8f2b5fe68942e
 
 
 ---
@@ -21,10 +22,8 @@ ms.openlocfilehash: f7aa05f4a569392be60522437508fdb78f56c55c
     
 Enterprise Mobility + Security 전체에서 한 번의 그룹화 및 대상 지정 경험에 대한 사용자 피드백을 반영하여 Microsoft는 Intune 그룹을 Azure Active Directory 기반 보안 그룹으로 변환하고 있습니다. 이 변환 작업을 통해 Intune과 Azure AD(Azure Active Directory) 전체의 그룹 관리가 통합될 예정입니다. 이 새로운 환경은 서비스 간에 그룹을 복제할 필요를 없애주고 PowerShell 및 Graph를 사용하여 확장성을 제공합니다. 
 
-11월부터 기존 Intune 고객은 새로운 Azure AD 기반 그룹 관리 환경으로 마이그레이션됩니다. Intune 사용자 및 장치 그룹은 Azure AD 보안 그룹으로 마이그레이션됩니다. 일상적인 업무에 미치는 영향을 최소화하고 최종 사용자에게 영향을 미치지 않는다고 판단되어야 마이그레이션을 시작할 예정입니다. 또한 계정 마이그레이션 작업 전에 이에 대해 공지할 예정입니다.
-
 ### 언제, 어떻게 새 그룹 환경으로 마이그레이션하나요?
-현재 고객은 충분한 시간을 두고 마이그레이션됩니다. 마이그레이션에 대한 일정을 마무리하고 있으며, 몇 주 내로 이 항목을 업데이트하여 자세한 내용을 알려드리겠습니다. 마이그레이션되기 전에 공지를 받게 됩니다. 마이그레이션 관련 질문이 있는 경우에는 마이그레이션 팀([intunegrps@microsoft.com](mailto:intunegrps@microsoft.com))에 문의 하세요.
+현재 고객은 충분한 시간을 두고 마이그레이션됩니다. 2016 년 12 월 이후에 시작될 예정입니다. 해당 그룹은 마이그레이션되기 전에 공지를 받게 됩니다. 마이그레이션 관련 질문이 있는 경우에는 마이그레이션 팀([intunegrps@microsoft.com](mailto:intunegrps@microsoft.com))에 문의 하세요.
 
 ### 어떤 새로운 기능을 사용할 수 있나요?
 새로 도입되는 기능은 다음과 같습니다. 
@@ -116,6 +115,6 @@ Intune의 Intune 부모-자식 관계에서 그룹의 계층 구조 보기가 �
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO2-->
 
 

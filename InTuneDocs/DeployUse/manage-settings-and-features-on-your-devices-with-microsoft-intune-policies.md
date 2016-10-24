@@ -3,8 +3,9 @@ title: "정책을 사용하여 장치 설정 관리 | Microsoft Intune"
 description: "Intune을 사용하여 관리하는 등록된 장치에서 설정 및 기능을 제어하는 정책을 만들어 배포합니다."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
-ms.date: 08/24/2016
+ms.date: 10/11/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +14,8 @@ ms.assetid: 09bae0b9-4f79-4658-8ca1-a71ab992c1b2
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fa665c758460b8bbd95b237da6a22eda741b8b95
-ms.openlocfilehash: 0dc10ea029d078840a584424f7900f340189b960
+ms.sourcegitcommit: e95db6d0ccbe350984f11ce08749b700c2f5ad01
+ms.openlocfilehash: 058843a1cdd0ca4c32c7cc4d7a901e7547da633e
 
 
 ---
@@ -61,6 +62,7 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 
     - [iOS 장치용 설정](ios-policy-settings-in-microsoft-intune.md)
     - [Android 장치에 대한 설정](android-policy-settings-in-microsoft-intune.md)
+    - [Android for Work 장치에 대한 설정](android-for-work-policy-settings-in-microsoft-intune.md)
     - [Windows 8 및 Windows 8.1 장치에 대한 설정](windows-configuration-policy-settings-in-microsoft-intune.md)
     - [Windows Phone 8.1 장치에 대한 설정](windows-phone-8-1-policy-settings-in-microsoft-intune.md)
     - [Windows 10 Desktop 및 Mobile에 대한 설정](windows-10-policy-settings-in-microsoft-intune.md)
@@ -115,7 +117,6 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 - iOS 및 Mac OS X: 6시간마다
 - Android: 8시간마다
 - Windows Phone: 8시간마다
-- 등록된 Windows RT 장치: 24시간마다
 - 장치로 등록된 Windows 8.1 및 Windows 10 PC: 8시간마다
 
 장치를 방금 등록한 경우에는 다음과 같이 체크 인 빈도가 더 높아집니다.
@@ -212,6 +213,6 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI(Open Mobile Allian
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Oct16_HO2-->
 
 
