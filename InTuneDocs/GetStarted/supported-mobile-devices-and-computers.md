@@ -3,6 +3,7 @@ title: "지원되는 모바일 장치 및 컴퓨터 | Microsoft Intune"
 description: "Intune에서 지원하는 모바일 장치 및 컴퓨터"
 keywords: 
 author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: get-started-article

@@ -3,6 +3,7 @@ title: "SharePoint Online에 대한 액세스 제한 | Microsoft Intune"
 description: "조건부 액세스로 SharePoint Online의 회사 데이터를 보호하고 액세스를 제어합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/13/2016
 ms.topic: article

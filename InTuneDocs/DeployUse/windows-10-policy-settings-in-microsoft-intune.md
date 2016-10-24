@@ -3,6 +3,7 @@ title: "Windows 10 정책 설정 | Microsoft Intune"
 description: "이 항목에 나열된 정책 설정을 사용하면 등록된 Windows 10 Desktop 및 Windows 10 Mobile 장치의 기본 제공 및 사용자 지정 설정을 구성하는 데 도움이 됩니다."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 10/03/2016
 ms.topic: article

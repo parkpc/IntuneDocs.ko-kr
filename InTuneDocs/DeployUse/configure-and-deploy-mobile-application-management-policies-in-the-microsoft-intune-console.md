@@ -3,6 +3,7 @@ title: "Intune 콘솔에서 MAM 정책 구성 | Microsoft Intune"
 description: "Microsoft Intune의 모바일 응용 프로그램 관리 정책을 사용하여 배포하는 앱의 기능을 회사의 규정 준수 및 보안 정책에 맞게 수정할 수 있습니다."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 09/06/2016
 ms.topic: article

@@ -3,6 +3,7 @@ title: "온-프레미스 EAS용 Exchange 커넥터 | Microsoft Intune"
 description: "커넥터 도구를 사용하여 Intune 관리 콘솔과 Exchange ActiveSync MDM용 온-프레미스 Exchange Server 간 통신을 설정합니다."
 keywords: 
 author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 07/29/2016
 ms.topic: article

@@ -3,6 +3,7 @@ title: "MAM 정책을 사용하여 앱 데이터 보호 | Microsoft Intune"
 description: "이 항목에서는 모바일 앱 관리 정책이 회사 데이터를 보호하고, 데이터 손실을 방지하고, 개인 및 회사 정보를 별도로 유지되도록 하는 방법을 설명합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article

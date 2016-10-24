@@ -3,6 +3,7 @@ title: "앱 줄 바꿈 도구를 사용하여 iOS 앱 줄 바꿈 | Microsoft Int
 description: "이 항목의 정보를 사용하여 앱 자체의 코드를 수정하지 않고 iOS 앱을 줄 바꿈하는 방법에 대해 알아봅니다. 모바일 앱 관리 정책을 적용할 수 있도록 앱을 준비합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

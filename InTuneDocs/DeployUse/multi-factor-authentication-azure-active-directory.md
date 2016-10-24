@@ -3,6 +3,7 @@ title: "Azure AD를 사용하여 다단계 인증 | Microsoft Intune"
 description: "Azure AD에서 장치를 등록하기 위해 다단계 인증을 요구하는 방법입니다."
 keywords: 
 author: nbigman
+ms.author: nbigman
 manager: angerobe
 ms.date: 09/22/2016
 ms.topic: article

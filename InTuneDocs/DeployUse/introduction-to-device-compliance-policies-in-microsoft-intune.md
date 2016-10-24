@@ -3,6 +3,7 @@ title: "장치 준수 정책 | Microsoft Intune"
 description: "이 항목에서는 장치 준수 정책이란 무엇이며 작동 원리를 파악하는 데 필요한 개념을 설명합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article

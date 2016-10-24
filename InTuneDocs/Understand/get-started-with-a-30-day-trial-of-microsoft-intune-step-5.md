@@ -3,6 +3,7 @@ title: "평가판 모바일 장치 등록 | Microsoft Intune"
 description: "Intune 무료 30일 평가판을 등록할 때 모바일 장치를 등록하고 앱을 설치하는 방법"
 keywords: 
 author: lindavr
+ms.author: lindavr
 manager: angrobe
 ms.date: 08/09/2016
 ms.topic: get-started-article

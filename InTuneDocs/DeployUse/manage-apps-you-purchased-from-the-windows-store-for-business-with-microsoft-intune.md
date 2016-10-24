@@ -3,6 +3,7 @@ title: "비즈니스용 Windows 스토어 앱 관리 | Microsoft Intune"
 description: "Intune 콘솔에서 볼륨 구매 앱을 관리 및 배포하려는 경우 Microsoft Intune을 비즈니스용 Windows 스토어에 연결"
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 07/13/2016
 ms.topic: article

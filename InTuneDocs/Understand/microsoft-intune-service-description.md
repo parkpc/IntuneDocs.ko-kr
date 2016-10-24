@@ -3,6 +3,7 @@ title: "서비스 설명 | Microsoft Intune"
 description: "Intune은 Windows PC와 iOS, Mac OS X, Android 및 Windows 모바일 장치를 관리하는 데 유용한 클라우드 기반 서비스입니다."
 keywords: 
 author: Nbigman
+ms.author: nbigman
 manager: angrobe
 ms.date: 09/22/2016
 ms.topic: article

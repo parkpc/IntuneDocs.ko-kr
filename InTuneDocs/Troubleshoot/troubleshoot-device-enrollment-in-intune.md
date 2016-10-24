@@ -3,6 +3,7 @@ title: "장치 등록 문제 해결| Microsoft Intune"
 description: "장치 등록 문제 해결을 위한 제안 사항"
 keywords: 
 author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 08/02/2016
 ms.topic: article

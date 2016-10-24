@@ -3,6 +3,7 @@ title: "앱 및 데이터 보호 | Microsoft Intune"
 description: "이 항목에서는 회사 앱 및 데이터를 보호하는 데 사용할 수 있는 다양한 Intune의 특징과 기능에 대해 설명합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article

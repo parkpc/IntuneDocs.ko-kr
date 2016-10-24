@@ -3,6 +3,7 @@ title: "비즈니스용 Skype Online에 대한 액세스 제한 | Microsoft Intu
 description: "조건부 액세스로 비즈니스용 Skype Online을 보호하고 액세스를 제어합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article

@@ -3,6 +3,7 @@ title: "Lookout 통합 문제 해결 | Microsoft Intune"
 description: "이 항목에서는 Lookout 통합에서 흔히 발생하는 문제의 해결 방법을 설명합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 09/13/2016
 ms.topic: article

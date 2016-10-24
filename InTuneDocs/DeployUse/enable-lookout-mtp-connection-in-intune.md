@@ -3,6 +3,7 @@ title: "Intune에서 Lookout MTP를 사용하도록 설정 | Microsoft Intune"
 description: "Intune 관리 콘솔에서 Lookout Mobile Threat Protection을 사용하도록 설정합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 09/13/2016
 ms.topic: article

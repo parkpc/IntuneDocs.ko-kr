@@ -3,6 +3,7 @@ title: "PC 클라이언트 소프트웨어 설치 | Microsoft Intune"
 description: "이 가이드를 사용하여 Microsoft Intune 클라이언트 소프트웨어에서 관리되는 Windows PC를 얻을 수 있습니다."
 keywords: 
 author: NathBarn
+ms.author: nathbarn
 manager: arob98
 ms.date: 07/19/2016
 ms.topic: article

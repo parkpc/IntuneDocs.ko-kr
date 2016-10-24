@@ -3,6 +3,7 @@ title: "장치 규정 준수 정책 만들기 | Microsoft Intune"
 description: "규정 준수 정책을 만들어 회사 데이터에 액세스하는 데 사용하는 모바일 장치 및 PC 보안을 유지합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 10/12/2016
 ms.topic: article

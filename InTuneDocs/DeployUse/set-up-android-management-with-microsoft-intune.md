@@ -3,6 +3,7 @@ title: "Android 관리 설정 | Microsoft Intune"
 description: "Microsoft Intune으로 Android 및 KNOX 장치에 대한 MDM(모바일 장치 관리)를 설정합니다."
 keywords: 
 author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 07/25/2016
 ms.topic: article

@@ -3,6 +3,7 @@ title: "Cisco ISE에서 네트워크에 대한 액세스 제한 | Microsoft Intu
 description: "Cisco ISE에 의해 제어되는 WiFi 및 VPN에 액세스하기 전에 장치가 Intune에 등록되고 정책을 준수하도록 Intune에서 Cisco ISE를 사용합니다."
 keywords: 
 author: nbigman
+ms.author: nbigman
 manager: angrobe
 ms.date: 10/05/2016
 ms.topic: article

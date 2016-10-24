@@ -4,6 +4,7 @@ title:
 description: "이 항목에서는 MAM 정책이 올바르게 설정되어 있으며 정상적으로 작동하는지를 테스트하고 유효성을 검사하는 방법을 설명합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angerobe
 ms.date: 08/16/2016
 ms.topic: article

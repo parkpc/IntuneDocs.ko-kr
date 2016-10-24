@@ -6,6 +6,7 @@ title: "Intune 설명서 - MDM 설명서 | Microsoft 설명서"
 description: "Microsoft Intune 모바일 장치 및 응용 프로그램 관리에 대한 기술 문서"
 keywords: "Intune 설명서, MDM 설명서, 모바일 장치 관리 설명서, 모바일 장치 및 응용 프로그램 관리 설명서"
 author: jeffgilb
+ms.author: jeffgilb
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: hubpage

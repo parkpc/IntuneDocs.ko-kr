@@ -3,6 +3,7 @@ title: "메일 및 O365 서비스 액세스 제한 | Microsoft Intune"
 description: "이 항목에서는 SharePoint Online 및 다른 서비스에서 호환 장치만 회사 전자 메일 및 회사 데이터에 액세스하도록 하는 데 조건부 방식을 사용하는 방법을 설명합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/29/2016
 ms.topic: article

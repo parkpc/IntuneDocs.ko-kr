@@ -3,6 +3,7 @@ title: "Intune 용어 | Microsoft Intune"
 description: "Microsoft Intune의 몇 가지 용어에 대해 알아보기"
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 09/23/2016
 ms.topic: article

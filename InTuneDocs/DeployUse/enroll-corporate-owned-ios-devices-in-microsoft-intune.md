@@ -3,6 +3,7 @@ title: "회사 소유의 iOS 장치 등록 | Microsoft Intune"
 description: "Apple DEP(장치 등록 프로그램) 또는 Apple Configurator를 사용하여 회사 소유 iOS 장치 등록"
 keywords: 
 author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 09/07/2016
 ms.topic: article

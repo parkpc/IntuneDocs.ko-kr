@@ -3,6 +3,7 @@ title: "Windows Phone 8.1 정책 설정 | Microsoft Intune"
 description: "Intune은 Windows Phone 8.1 장치에서 구성할 수 있는 기본 제공 일반 설정의 범위를 제공합니다. 또한, Intune에서 사용할 수 없는 사용자 지정 설정을 만들기 위해 OMA-URI 값을 지정할 수 있습니다."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 10/11/2016
 ms.topic: article

@@ -3,6 +3,7 @@ title: "회사 리소스 액세스 문제 해결 | Microsoft Intune"
 description: "이 항목의 오류 및 상태 코드는 리소스 액세스 문제를 해결하는 데 도움이 됩니다."
 keywords: 
 author: Nbigman
+ms.author: nbigman
 manager: angrobe
 ms.date: 09/22/2016
 ms.topic: article

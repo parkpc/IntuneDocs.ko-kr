@@ -3,6 +3,7 @@ title: "Windows 버전 업그레이드 정책 설정 | Microsoft Intune"
 description: "Intune을 사용하여 Windows 10 장치를 최신 버전으로 자동 업그레이드하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 09/30/2016
 ms.topic: article

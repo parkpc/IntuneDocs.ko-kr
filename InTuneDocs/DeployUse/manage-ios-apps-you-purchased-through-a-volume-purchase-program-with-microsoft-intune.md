@@ -3,6 +3,7 @@ title: "대량 구매 iOS 앱 관리 | Microsoft Intune"
 description: "Intune에서는 앱 스토어에서 라이선스 정보를 가져오고, 사용한 라이선스 수를 추적하며, 소유한 것보다 많은 앱 복사본을 설치할 수 없도록 하여 Apple에서 구매한 앱을 관리할 수 있습니다."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 10/01/2016
 ms.topic: article

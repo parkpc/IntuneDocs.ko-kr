@@ -3,6 +3,7 @@ title: "모바일 장치 등록 및 앱 설치 | Microsoft Intune"
 description: "모바일 장치를 등록하고 Intune 등록 장치에서 앱을 설치하는 방법을 설명합니다."
 keywords: 
 author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: get-started-article

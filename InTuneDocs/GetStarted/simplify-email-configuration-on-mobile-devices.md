@@ -3,6 +3,7 @@ title: "모바일 장치에서 메일 구성 단순화 | Microsoft Intune"
 description: 
 keywords: 
 author: jeffgilb
+ms.author: jeffgilb
 manager: angrobe
 ms.date: 10/14/2016
 ms.topic: article
