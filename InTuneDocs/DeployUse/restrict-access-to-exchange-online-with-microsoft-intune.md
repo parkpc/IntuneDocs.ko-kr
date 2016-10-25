@@ -3,6 +3,7 @@ title: "Exchange Online에 대한 전자 메일 액세스 제한 | Microsoft Int
 description: "조건부 액세스로 Exchange Online에서 회사 전자 메일을 보호하고 액세스를 제어합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 09/13/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: db1d43dd647122e7ba8ebd4e6df48e3c970a3392
-ms.openlocfilehash: e840783f3c50155a6f4f8801047ed474074218f6
+ms.sourcegitcommit: af4c84d0e317f5903d22cdfead9ce0ab4fbddc8f
+ms.openlocfilehash: 602be42b75c091cb43359f30256d51eabe597008
 
 
 ---
@@ -64,7 +65,7 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 ## 모바일 장치에 대한 지원
 **Outlook** 및 기타 **최신 인증을 사용하는 앱**에서 Exchange Online 메일에 대한 액세스를 제한할 수 있습니다.
 
-- Android 4.0 이상, Samsung Knox Standard 4.0 이상
+- Android 4.0 이상, 삼성 Knox Standard 4.0 이상, Android for Work
 - iOS 8.0 이상
 - Windows Phone 8.1 이상
 
@@ -225,6 +226,9 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 
 5.  **Exchange ActiveSync 앱** 아래에서 비준수 장치가 Exchange Online에 액세스하는 것을 차단하도록 선택할 수 있습니다. 또한 장치가 지원되는 플랫폼에서 실행 중이지 않을 때 액세스를 허용 또는 차단할지 여부도 선택할 수 있습니다. 지원되는 플랫폼에는 Android, iOS, Windows 및 Windows Phone이 포함됩니다.
 
+ Exchange Active Sync 앱 **Android for Work** 장치:
+ -  **업무용 프로필**에서 **Gmail** 및 **Nine Work** 앱만 Android for Work에 대해 지원됩니다. 조건부 액세스가 Android for Work 장치에서 작동하려면 Gmail 또는 Nine Work 앱에 대한 메일 프로필을 배포하며, 이러한 앱을 **필수** 설치로 배포해야 합니다. 
+
 6.  **대상 그룹**아래에서 정책을 적용할 사용자의 Active Directory 보안 그룹을 선택합니다. 모든 사용자 또는 선택한 사용자 그룹 목록을 대상으로 지정할 수 있습니다.
 ![대상 및 제외된 그룹 옵션을 보여 주는 Exchange Online 조건부 액세스 정책 페이지의 스크린샷](../media/IntuneSA5eTargetedExemptedGroups.PNG)
     > [!NOTE]
@@ -263,6 +267,6 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 
