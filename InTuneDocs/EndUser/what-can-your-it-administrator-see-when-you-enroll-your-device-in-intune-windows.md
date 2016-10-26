@@ -2,8 +2,8 @@
 title: "Intune에서 내 장치를 등록하면 IT 관리자에게 무엇이 표시되나요? | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlan
+ms.author: barlan
 manager: angrobe
 ms.date: 10/25/2016
 ms.topic: article

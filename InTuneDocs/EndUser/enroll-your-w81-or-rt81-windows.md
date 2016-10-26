@@ -2,8 +2,8 @@
 title: "Windows 8.1 또는 Windows RT 8.1 장치 등록 | Microsoft Intune"
 description: "Intune에서 Windows 8.1 또는 Windows RT 8.1 장치를 등록하는 방법을 설명합니다."
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlan
+ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

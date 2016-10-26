@@ -5,7 +5,7 @@ keywords:
 author: karthikaraman
 ms.author: karaman
 manager: angrobe
-ms.date: 07/18/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -33,7 +33,7 @@ ms.openlocfilehash: 0abe3a79135a9b6db14502f1132da0bd1537d445
 
 비즈니스용 Skype Online에 대한 조건부 액세스 정책을 구성하기 **전에** 다음을 수행해야 합니다.
 - **비즈니스용 Skype Online 구독**이 있고 비즈니스용 Skype Online 라이선스를 사용자에게 할당해야 합니다.
-- **Enterprise Mobility + Security 또는 Azure Active Directory Premium 구독**을 사용하고 사용자는 EMS 또는 Azure AD의 라이선스를 취득해야 합니다. 자세한 내용은 [Enterprise Mobility 가격 책정 페이지](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) 또는 [Azure Active Directory 가격 책정 페이지](https://azure.microsoft.com/en-us/pricing/details/active-directory/)를 참조하세요. 
+- **Enterprise Mobility + Security 또는 Azure Active Directory Premium 구독**을 사용하고 사용자는 EMS 또는 Azure AD의 라이선스를 취득해야 합니다. 자세한 내용은 [Enterprise Mobility 가격 책정 페이지](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) 또는 [Azure Active Directory 가격 책정 페이지](https://azure.microsoft.com/en-us/pricing/details/active-directory/)를 참조하세요.
 
 -   비즈니스용 Skype Online에 대해 [최신 인증을 사용하도록 설정](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune)합니다.
 -  모든 최종 사용자가 **비즈니스용 Skype Online**을 사용 중이어야 합니다. 비즈니스용 Skype Online과 비즈니스용 Skype 온-프레미스를 함께 배포한 경우 최종 사용자에게 조건부 액세스 정책이 적용되지 않습니다.
