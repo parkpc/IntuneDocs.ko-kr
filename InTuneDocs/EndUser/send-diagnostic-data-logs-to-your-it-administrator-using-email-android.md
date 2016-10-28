@@ -2,8 +2,8 @@
 title: "메일을 사용하여 IT 관리자에게 진단 데이터 로그 보내기 | Microsoft Intune"
 description: "Android 장치에서 메일을 사용하여 데이터 로그 보내기"
 keywords: 
-author: barlan
-ms.author: barlan
+author: barlanmsft
+ms.author: barlanmsft
 manager: angrobe
 ms.date: 09/21/2016
 ms.topic: article
@@ -22,7 +22,7 @@ ms.openlocfilehash: 9dd0f089d220538a5526979a84dc165151b86f4f
 ---
 
 
-# 메일을 사용하여 IT 관리자에게 진단 데이터 로그 보내기
+# <a name="send-diagnostic-data-logs-to-your-it-admin-using-email"></a>메일을 사용하여 IT 관리자에게 진단 데이터 로그 보내기
 
 학교 또는 업무용 앱으로 작업을 하거나 회사 포털 앱에 있을 때 Android 장치에 오류가 표시되면 IT 관리자가 오류를 진단하고 해결하는 데 도움이 되도록 진단 데이터 로그를 보낼 수 있습니다. IT 관리자가 문제를 더 쉽게 파악할 수 있도록 모든 세부 정보를 로그에 포함하려면 자세한 정보 로깅 기능을 켜세요. 자세한 정보 로깅에 대한 자세한 내용은 [자세한 정보 로깅을 사용하여 IT 관리자의 장치 문제 해결 돕기](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)를 참조하세요.
 
