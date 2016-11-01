@@ -2,8 +2,8 @@
 title: "회사 리소스 액세스 문제 해결 | Microsoft Intune"
 description: "이 항목의 오류 및 상태 코드는 리소스 액세스 문제를 해결하는 데 도움이 됩니다."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 09/22/2016
 ms.topic: article
@@ -44,7 +44,7 @@ Microsoft Intune 작업이 오류 코드를 반환하는 경우, 문제 해결�
 |130(APP_CI_ENFORCEMENT_ERROR)|MSADP 라이선스 설치 실패||
 |상태 없음(APP_CI_ENFORCEMENT_UNKNOWN)|해당 없음|상태를 현재 알 수 없습니다.|
 
-## <a name="company-resource-access-(common-errors)"></a>회사 리소스 액세스(공통 오류)
+## <a name="company-resource-access-common-errors"></a>회사 리소스 액세스(공통 오류)
 
 |상태 코드|16진수 오류 코드|오류 메시지|
 |---------------|--------------------------|-----------------|

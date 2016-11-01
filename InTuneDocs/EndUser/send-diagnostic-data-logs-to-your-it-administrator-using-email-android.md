@@ -3,7 +3,7 @@ title: "메일을 사용하여 IT 관리자에게 진단 데이터 로그 보내
 description: "Android 장치에서 메일을 사용하여 데이터 로그 보내기"
 keywords: 
 author: barlanmsft
-ms.author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 09/21/2016
 ms.topic: article

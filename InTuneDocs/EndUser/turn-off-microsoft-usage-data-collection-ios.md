@@ -3,7 +3,7 @@ title: "iOS에 대한 Microsoft 사용 현황 데이터 수집 해제 | Microsof
 description: 
 keywords: 
 author: barlanmsft
-ms.author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
