@@ -13,8 +13,8 @@ ms.assetid: 2b770f4f-6d36-41e4-b535-514b46e29aaa
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 727d28cff074124b5401f6c2931f87df3a9d2d23
-ms.openlocfilehash: 93c05ecd0154bb637f421dcc5d7ee56ff8d3ab2d
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: c4b1e5d3bb8b949096f7d15ddbbf0d1540485d0d
 
 
 ---
@@ -46,7 +46,7 @@ Microsoft Intune을 사용하여 앱의 배포를 시작하기 전에 이 항목
 관리되는 iOS 앱을 사용하여 앱 스토어에서 무료 iOS 앱을 관리하고 배포할 수 있습니다. 또한 관리되는 iOS 앱을 사용하여 [모바일 응용 프로그램 관리 정책](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 [호환되는 앱](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)과 연결하고 관리자 콘솔에서 관련 상태를 검토할 수 있습니다.<br /><br />관리되는 iOS 앱은 Intune 클라우드 저장소 공간에 저장되지 않습니다.
 
 > [!TIP]
-> Intune에 [MDM 기관을 설정](get-ready-to-enroll-devices-in-microsoft-intune.md)할 때까지 모바일 장치에 대한 옵션을 사용할 수 없습니다.
+> Intune에 [MDM 기관을 설정](prerequisites-for-enrollment.md)할 때까지 모바일 장치에 대한 옵션을 사용할 수 없습니다.
 
 ## Intune 소프트웨어 게시자
 Intune 관리자 콘솔에서 앱을 추가 또는 수정할 때 Microsoft Intune 소프트웨어 게시자가 시작됩니다. 게시자에서 다음 작업을 수행할 소프트웨어 설치 관리자 유형을 선택하고 구성합니다.
@@ -82,6 +82,6 @@ Windows 10 Mobile 장치에서 비Symantec 코드 서명 인증서를 사용하�
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO4-->
 
 

@@ -4,7 +4,7 @@ description: "Intune에서 Android 장치를 등록하는 방법을 설명합니
 keywords: 
 author: staciebarker
 manager: angrobe
-ms.date: 07/26/2016
+ms.date: 09/09/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
-ms.openlocfilehash: 6fa1e13b6b0e29144c3740f00b232807e6e4e984
+ms.sourcegitcommit: 47f9654af126d0e83890f797c321100f40ae497b
+ms.openlocfilehash: 3d06e55607172d52538c7f4ec7aed843b64e3f53
 
 
 ---
@@ -71,7 +71,7 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
     ![android-company-portal-sign-in](./media/and-enroll-3a-allow-phone-access.png)
 
-    이 메시지가 표시되면 **허용**을 탭합니다. **Microsoft는 결코 전화를 걸거나 전화 통화를 관리하지 않으므로** 허용을 탭하는 것이 안전합니다. Google이 메시지 텍스트를 제어하므로 Microsoft에서 변경할 수 없습니다. 액세스를 허용하는 경우 USB 케이블을 사용하여 로그를 이동할 수 있도록 장치에서 장치의 SD 카드에 데이터 로그를 쓸 수 있게 하는 것뿐입니다.
+    이 메시지가 표시되면 **허용**을 탭합니다. **Microsoft는 결코 전화를 걸거나 전화 통화를 관리하지 않으므로** 허용을 탭하는 것이 안전합니다. Google이 메시지 텍스트를 제어하므로 Microsoft에서 변경할 수 없습니다. 액세스를 허용하면 장치를 통해 장치의 IMEI 번호를 Intune에 보내도록 허용하기만 하면 됩니다. IMEI는 모바일 장치를 고유하게 식별하는 번호로, 일련 번호와 유사합니다.
 
     액세스를 거부하면 다음에 회사 포털에 로그인할 때 메시지가 다시 표시되지만, **다시 묻지 않음** 확인란을 탭하여 이후 메시지를 해제할 수 있습니다.  사용자가 나중에 액세스를 허용할 경우 **설정** &gt; **앱** &gt; **회사 포털** &gt; **사용 권한** &gt; **전화**로 이동한 다음 사용 권한을 설정합니다.
 
@@ -81,7 +81,7 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
     이 메시지가 표시되면 **허용**을 탭합니다. **Microsoft는 결코 연락처에 액세스하지 않으므로** 허용을 탭하는 것이 안전합니다. Google이 메시지 텍스트를 제어하므로 Microsoft에서 변경할 수 없습니다. 액세스를 허용하는 경우 회사 포털 앱을 통해서만 회사 계정을 만들고, 사용하고 관리할 수 있습니다.
 
-    액세스를 거부하면 다음에 **데이터 보내기**를 탭할 때 메시지가 다시 표시되지만, **다시 묻지 않음** 확인란을 탭하여 이후 메시지를 해제할 수 있습니다. 나중에 액세스를 허용할 경우 **설정** &gt; **앱** &gt; **회사 포털** &gt; **사용 권한** &gt; **저장소**로 이동한 다음 사용 권한을 설정합니다.
+    액세스를 거부하면 다음에 회사 포털에 로그인할 때 메시지가 다시 표시되지만, **다시 묻지 않음** 확인란을 탭하여 이후 메시지를 해제할 수 있습니다.  사용자가 나중에 액세스를 허용할 경우 **설정** &gt; **앱** &gt; **회사 포털** &gt; **사용 권한** &gt; **전화**로 이동한 다음 사용 권한을 설정합니다.
 
 11.  **활성화 장치 관리자** 화면에서 **활성화**를 탭합니다.
 
@@ -116,6 +116,6 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

@@ -4,7 +4,7 @@ description:
 keywords: 
 author: staciebarker
 manager: angrobe
-ms.date: 07/26/2016
+ms.date: 09/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
-ms.openlocfilehash: c5b30aa6d4e7a1402db0ca1564326ec96bb5ab16
+ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
+ms.openlocfilehash: e88afa6d8cc2720a001e7ee138e169bd3f1c67fa
 
 
 ---
@@ -31,7 +31,7 @@ IT 관리자에게 데이터 로그를 전송하여 문제 해결에 대한 도�
 
 2.  USB 케이블을 사용하여 Android 장치를 컴퓨터에 연결합니다.
 
-3.  컴퓨터에서 전화 이름을 가진 디렉터리를 찾습니다. 해당 디렉터리에서 &lt;Android 장치&gt;\Phone\Android\data\com.microsoft.windowsintune.companyportal\files를 찾습니다.\.
+3.  컴퓨터에서 전화 이름을 가진 디렉터리를 찾습니다. 해당 디렉터리에서 &lt;Android 장치&gt;\Phone\Android\data\com.microsoft.windowsintune.companyportal\files를 찾습니다\.
 
 4.  모든 파일을 메일에 첨부하여 IT 관리자에게 보냅니다.
 
@@ -41,6 +41,6 @@ IT 관리자에게 데이터 로그를 전송하여 문제 해결에 대한 도�
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO3-->
 
 

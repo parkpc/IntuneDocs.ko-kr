@@ -13,8 +13,8 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
-ms.openlocfilehash: 564edd672052f41215294a9562101289f20128db
+ms.sourcegitcommit: f86fe2710318209a2a4373beea1590c5343cbf4c
+ms.openlocfilehash: 08e112bfae9a3655f428d53f68922fd3ff4713b4
 
 
 ---
@@ -30,7 +30,7 @@ Microsoft EMS(Microsoft Enterprise Mobility + Security)를 사용하는 조직�
 구독이 그 구독과 연결된 다른 클라우드 서비스와 Azure AD를 공유하는 경우에는, 해당 서비스에 추가된 사용자에 대한 액세스를 갖게 됩니다. 각 사용자에게 라이선스가 할당될 때까지 이러한 사용자는 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 대한 라이선스를 보유하지 못합니다.
 
 > [!TIP]
-> [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 대한 라이선스를 할당하거나 해지하는 옵션을 사용할 수 없는 경우에는 [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 사용할 때 제공되는 옵션과 같은 볼륨 라이선스 옵션이 구독에 포함되어 있는 것일 수 있습니다. 라이선스를 할당하거나 해지하는 방법에 대한 자세한 내용은 라이선스 옵션에 대한 설명서를 참조하십시오.
+> [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 대한 라이선스를 할당하거나 해지하는 옵션을 사용할 수 없는 경우에는 [Enterprise Mobility Suite + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 사용할 때 제공되는 옵션과 같은 볼륨 라이선스 옵션이 구독에 포함되어 있는 것일 수 있습니다. 라이선스를 할당하거나 해지하는 방법에 대한 자세한 내용은 라이선스 옵션에 대한 설명서를 참조하십시오.
 
 ## Intune 사용자 라이선스 할당
 
@@ -92,6 +92,6 @@ EMS 서비스에 대해 사용자 라이선스를 선택적으로 할당하려�
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO3-->
 
 

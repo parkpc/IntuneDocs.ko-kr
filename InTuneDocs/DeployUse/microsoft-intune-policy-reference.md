@@ -13,8 +13,8 @@ ms.assetid: d27f2739-9791-4aae-a9db-01a4e59ccfe5
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 06a9c78300d7ff384299957102114c69c43a1ad5
-ms.openlocfilehash: 06616ba43069cc6e81692a4c638f2bf8b072fdc1
+ms.sourcegitcommit: d9e08429fb6c834476fd0029d559059c5132afca
+ms.openlocfilehash: adf9a0603cbb1ed4183bff5110e1f3342bcf373a
 
 
 ---
@@ -44,16 +44,16 @@ ms.openlocfilehash: 06616ba43069cc6e81692a4c638f2bf8b072fdc1
 
 |정책 이름|다음을 수행하려는 경우에 사용|
 |---------------|------------------------|
-|**사용자 지정 구성(iOS 7.1 이상)**|Apple Configurator를 사용하여 만든 구성 프로필을 iOS 장치에 배포합니다. 필요한 설정을 구성 정책에서 사용할 수 없는 경우에 유용합니다.<br /><br />자세한 내용은 [Microsoft Intune의 iOS 정책 설정](ios-policy-settings-in-microsoft-intune.md)을 참조하세요.|
-|**메일 프로필(iOS 7.1 이상)**|관리 장치에서 Exchange ActiveSync 메일 설정을 만들고 배포하고 모니터링합니다. 그러면 사용자가 설정할 필요 없이 개인 장치에서 회사 메일에 액세스할 수 있습니다.<br /><br />자세한 내용은 [Microsoft Intune에서 메일 프로필을 사용하여 회사 메일에 대한 액세스 구성](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)을 참조하세요.|
-|**일반 구성(iOS 7.1 이상)**|모바일 장치 보안 및 기능 설정을 구성합니다.<br />호환 또는 호환되지 않는 앱을 지정하고 사용되는 경우를 보고합니다.<br />장치를 잠가 특정 기능만 작동하도록 하는(예: 장치에서 하나의 앱만 실행되도록 하거나 볼륨 단추를 사용할 수 없도록 설정함) 키오스크 모드를 구성합니다.<br /><br />자세한 내용은 [Microsoft Intune의 iOS 정책 설정](ios-policy-settings-in-microsoft-intune.md)을 참조하세요.|
-|**모바일 앱 구성 정책(iOS 7.1 이상)**|모바일 앱 구성 정책을 사용하여 사용자가 iOS 앱을 실행할 때 필요할 수 있는 설정을 자동으로 제공할 수 있습니다.<br /><br />자세한 내용은 [Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)을 참조하세요.|
-|**모바일 프로비전 프로필 정책(iOS 7.1 이상)**|Apple iOS 기간 업무 모바일 앱은 인증서에 포함되고 인증서로 코드 서명된 프로비전 프로필을 통해 빌드됩니다. 앱이 iOS 장치에서 실행되면 iOS는 iOS 앱의 무결성을 확인하고 프로비전 프로필에서 정의하는 정책을 적용합니다.<br><br>일반적으로 앱에 서명하기 위해 사용하는 엔터프라이즈 서명 인증서는 3년 동안 유지됩니다. 그러나 프로비전 프로필은 1년 후에 만료됩니다. 이 정책을 사용하면 인증서가 여전히 유효한 동안 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필 정책을 미리 배포할 수 있습니다.<br><br>자세한 내용은 [iOS 프로비전 프로필 정책을 사용하여 모바일 앱이 만료되지 않도록 방지](ios-mobile-app-provisioning-profiles.md)를 참조하세요.|
-|**PKCS #12(.PFX) 인증서 프로필(iOS 7.1 이상)**|장치 인증서 요청용으로 .PFX 설정을 만들어 배포하려면 이 프로필을 사용합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|
-|**SCEP 인증서 프로필(iOS 7.1 이상)**|모바일 장치 인증에 사용하는 신뢰할 수 있는 모바일 장치 인증서와 함께 사용할 수 있는 단순 인증서 등록 프로토콜 인증서를 구성하여 Wi-Fi 및 VPN 프로필을 통해 구성된 네트워크 리소스에 대한 액세스를 허용합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|
-|**신뢰할 수 있는 인증서 프로필(iOS 7.1 이상)**|모바일 장치 인증에 사용할 수 있는 신뢰할 수 있는 모바일 장치 인증서를 구성하여 Wi-Fi 및 VPN 프로필을 통해 구성된 네트워크 리소스에 대한 액세스를 허용합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|
-|**VPN 프로필(iOS 7.1 이상)**|사용자가 모바일 장치에서 회사 네트워크에 안전하게 액세스할 수 있게 해주는 설정을 구성하고 배포합니다. 이러한 설정을 배포하여 최종 사용자의 작업에 대한 연결을 간소화합니다.<br /><br />자세한 내용은 [Microsoft Intune.md에서 VPN 연결](vpn-connections-in-microsoft-intune.md)를 참조하세요.|
-|**Wi-Fi 프로필(iOS 7.1 이상)**|무선 네트워크 설정을 구성하고 조직의 사용자에게 배포합니다. 이러한 설정을 배포하여 최종 사용자의 무선 네트워크에 대한 연결을 간소화합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 Wi-Fi 연결](wi-fi-connections-in-microsoft-intune.md)를 참조하세요.|
+|**사용자 지정 구성(iOS 8.0 이상)**|Apple Configurator를 사용하여 만든 구성 프로필을 iOS 장치에 배포합니다. 필요한 설정을 구성 정책에서 사용할 수 없는 경우에 유용합니다.<br /><br />자세한 내용은 [Microsoft Intune의 iOS 정책 설정](ios-policy-settings-in-microsoft-intune.md)을 참조하세요.|
+|**메일 프로필(iOS 8.0 이상)**|관리 장치에서 Exchange ActiveSync 메일 설정을 만들고 배포하고 모니터링합니다. 그러면 사용자가 설정할 필요 없이 개인 장치에서 회사 메일에 액세스할 수 있습니다.<br /><br />자세한 내용은 [Microsoft Intune에서 메일 프로필을 사용하여 회사 메일에 대한 액세스 구성](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)을 참조하세요.|
+|**일반 구성(iOS 8.0 이상)**|모바일 장치 보안 및 기능 설정을 구성합니다.<br />호환 또는 호환되지 않는 앱을 지정하고 사용되는 경우를 보고합니다.<br />장치를 잠가 특정 기능만 작동하도록 하는(예: 장치에서 하나의 앱만 실행되도록 하거나 볼륨 단추를 사용할 수 없도록 설정함) 키오스크 모드를 구성합니다.<br /><br />자세한 내용은 [Microsoft Intune의 iOS 정책 설정](ios-policy-settings-in-microsoft-intune.md)을 참조하세요.|
+|**모바일 앱 구성 정책(iOS 8.0 이상)**|모바일 앱 구성 정책을 사용하여 사용자가 iOS 앱을 실행할 때 필요할 수 있는 설정을 자동으로 제공할 수 있습니다.<br /><br />자세한 내용은 [Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)을 참조하세요.|
+|**모바일 프로비전 프로필 정책(iOS 8.0 이상)**|Apple iOS 기간 업무 모바일 앱은 인증서에 포함되고 인증서로 코드 서명된 프로비전 프로필을 통해 빌드됩니다. 앱이 iOS 장치에서 실행되면 iOS는 iOS 앱의 무결성을 확인하고 프로비전 프로필에서 정의하는 정책을 적용합니다.<br><br>일반적으로 앱에 서명하기 위해 사용하는 엔터프라이즈 서명 인증서는 3년 동안 유지됩니다. 그러나 프로비전 프로필은 1년 후에 만료됩니다. 이 정책을 사용하면 인증서가 여전히 유효한 동안 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필 정책을 미리 배포할 수 있습니다.<br><br>자세한 내용은 [iOS 프로비전 프로필 정책을 사용하여 모바일 앱이 만료되지 않도록 방지](ios-mobile-app-provisioning-profiles.md)를 참조하세요.|
+|**PKCS #12(.PFX) 인증서 프로필(iOS 8.0 이상)**|장치 인증서 요청용으로 .PFX 설정을 만들어 배포하려면 이 프로필을 사용합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|
+|**SCEP 인증서 프로필(iOS 8.0 이상)**|모바일 장치 인증에 사용하는 신뢰할 수 있는 모바일 장치 인증서와 함께 사용할 수 있는 단순 인증서 등록 프로토콜 인증서를 구성하여 Wi-Fi 및 VPN 프로필을 통해 구성된 네트워크 리소스에 대한 액세스를 허용합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|
+|**신뢰할 수 있는 인증서 프로필(iOS 8.0 이상)**|모바일 장치 인증에 사용할 수 있는 신뢰할 수 있는 모바일 장치 인증서를 구성하여 Wi-Fi 및 VPN 프로필을 통해 구성된 네트워크 리소스에 대한 액세스를 허용합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|
+|**VPN 프로필(iOS 8.0 이상)**|사용자가 모바일 장치에서 회사 네트워크에 안전하게 액세스할 수 있게 해주는 설정을 구성하고 배포합니다. 이러한 설정을 배포하여 최종 사용자의 작업에 대한 연결을 간소화합니다.<br /><br />자세한 내용은 [Microsoft Intune.md에서 VPN 연결](vpn-connections-in-microsoft-intune.md)를 참조하세요.|
+|**Wi-Fi 프로필(iOS 8.0 이상)**|무선 네트워크 설정을 구성하고 조직의 사용자에게 배포합니다. 이러한 설정을 배포하여 최종 사용자의 무선 네트워크에 대한 연결을 간소화합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 Wi-Fi 연결](wi-fi-connections-in-microsoft-intune.md)를 참조하세요.|
 
 
 ## Mac OS X 구성 정책
@@ -92,8 +92,8 @@ Windows Phone 및 등록된 Windows 장치에만 적용됩니다.
 
 |정책 이름|다음을 수행하려는 경우에 사용|
 |---------------|------------------------|
-|**관리되는 브라우저 정책(Android 4 이상)**<br /><br />**Managed Browser 정책(iOS 7.1 이상)**|사용자가 관리되는 브라우저 앱을 사용할 때 액세스할 수 있는 웹 사이트 및 액세스할 수 없는 웹 사이트를 지정합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 Managed Browser 정책을 사용하여 인터넷 액세스 관리](manage-internet-access-using-managed-browser-policies.md)를 참조하세요.|
-|**모바일 응용 프로그램 관리 정책(Android 4 이상)**<br /><br />**모바일 응용 프로그램 관리 정책(iOS 7.1 이상)**|회사 규정 준수 및 보안 정책에 맞도록 배포하는 앱의 기능을 수정합니다. 예를 들어 제한된 앱 내에서의 잘라내기, 복사 및 붙여넣기 작업을 제한하거나, 관리되는 브라우저 내에서 모든 웹 링크를 열도록 앱을 구성할 수 있습니다.<br /><br />자세한 내용은 [Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 구성 및 배포](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)를 참조하세요.|
+|**관리되는 브라우저 정책(Android 4 이상)**<br /><br />**Managed Browser 정책(iOS 8.0 이상)**|사용자가 관리되는 브라우저 앱을 사용할 때 액세스할 수 있는 웹 사이트 및 액세스할 수 없는 웹 사이트를 지정합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 Managed Browser 정책을 사용하여 인터넷 액세스 관리](manage-internet-access-using-managed-browser-policies.md)를 참조하세요.|
+|**모바일 응용 프로그램 관리(Android 4 이상)**<br /><br />**모바일 응용 프로그램 관리 정책(iOS 8.0 이상)**|회사 규정 준수 및 보안 정책에 맞도록 배포하는 앱의 기능을 수정합니다. 예를 들어 제한된 앱 내에서의 잘라내기, 복사 및 붙여넣기 작업을 제한하거나, 관리되는 브라우저 내에서 모든 웹 링크를 열도록 앱을 구성할 수 있습니다.<br /><br />자세한 내용은 [Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 구성 및 배포](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)를 참조하세요.|
 
 ## 공용 모바일 장치 설정
 
@@ -118,6 +118,6 @@ Windows Phone 및 등록된 Windows 장치에만 적용됩니다.
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

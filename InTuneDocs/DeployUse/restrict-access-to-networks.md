@@ -4,7 +4,7 @@ description: "Cisco ISE에 의해 제어되는 WiFi 및 VPN에 액세스하기 �
 keywords: 
 author: nbigman
 manager: angrobe
-ms.date: 06/24/2016
+ms.date: 09/08/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 40194f4359d0889806e080a4855b8e1934b667f9
-ms.openlocfilehash: 9d6b7198e3c2e30898a8ec83785c7f3b777eda5f
+ms.sourcegitcommit: ecaf92b327538e3da4df268e4c67c73af262b731
+ms.openlocfilehash: fa73c5e2b4e6737377acd206807399b31df37364
 
 
 ---
@@ -27,7 +27,7 @@ Cisco ISE(ID 서비스 엔진)와 Intune을 통합하면 Intune 장치 등록 �
 이 통합을 사용하려는 경우 Intune 테넌트에서는 어떤 설정 작업도 필요하지 않습니다. Intune 테넌트에 액세스하려면 Cisco ISE 서버에 대한 권한을 제공해야 합니다. 이 작업이 완료되면 Cisco ISE 서버에서 나머지 설정 작업이 진행됩니다. 이 문서에서는 ISE 서버에 Intune 테넌트 액세스 권한을 제공하는 방법에 대해 설명합니다.
 
 ### 1단계: 인증서 관리
-1. Azure AD(Azure Active Directory) 콘솔에서 인증서를 내보냅니다.
+Azure AD(Azure Active Directory) 콘솔에서 인증서를 내보낸 다음, ISE 콘솔의 신뢰할 수 있는 인증서 저장소로 가져옵니다.
 
 #### Internet Explorer 11
 
@@ -44,6 +44,8 @@ Cisco ISE(ID 서비스 엔진)와 Intune을 통합하면 Intune 장치 등록 �
 
    f. **내보낼 파일** 페이지에서 **찾아보기**를 선택하여 파일을 저장할 위치를 선택하고 파일 이름을 제공합니다. 내보낼 파일을 선택한 것 같지만 실제로는 내보낸 인증서가 저장될 파일에 이름을 지정하게 되는 것입니다. **다음** &gt; **마침**을 선택합니다.
 
+   g. ISE 콘솔 내에서 Intune 인증서(내보낸 파일)를 **신뢰할 수 있는 인증서** 저장소로 가져옵니다.
+
 #### Safari
 
  a. Azure AD 콘솔에 로그인합니다.
@@ -52,14 +54,13 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 
    c. **인증서 보기** &gt; **세부 정보**를 선택합니다.
 
-   d. 인증서를 선택하고 **내보내기**를 선택합니다.  
+   d. 인증서를 선택하고 **내보내기**를 선택합니다. 
+
+   e. ISE 콘솔 내에서 Intune 인증서(내보낸 파일)를 **신뢰할 수 있는 인증서** 저장소로 가져옵니다.
 
 > [!IMPORTANT]
 >
 > 인증서 만료 날짜를 확인합니다. 이 날짜가 완료되면 인증서를 내보내고 새 인증서를 가져와야 하기 때문입니다.
-
-
-2. ISE 콘솔 내에서 Intune 인증서(내보낸 파일)를 **신뢰할 수 있는 인증서** 저장소로 가져옵니다.
 
 
 ### ISE에서 자체 서명된 인증서 가져오기 
@@ -97,8 +98,57 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 |OAuth 2.0 토큰 끝점|토큰 발급 URL|
 |클라이언트 ID로 코드 업데이트|클라이언트 ID|
 
+### 4단계: ISE의 자체 서명된 인증서를 Azure AD에서 만든 ISE 앱으로 업로드
+1.     Base64로 인코딩된 인증서 값과 지문을 .cer X509 공용 인증서 파일에서 가져옵니다. 이 예제에서는 PowerShell을 사용합니다.
+   
+      
+    `$cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2`
+     `$cer.Import(“mycer.cer”)`
+      `$bin = $cer.GetRawCertData()`
+      `$base64Value = [System.Convert]::ToBase64String($bin)`
+      `$bin = $cer.GetCertHash()`
+      `$base64Thumbprint = [System.Convert]::ToBase64String($bin)`
+      `$keyid = [System.Guid]::NewGuid().ToString()`
+ 
+    다음 단계에서 사용할, $base64Thumbprint 값과 $base64Value 값, $keyid 값을 저장합니다.
+2.       매니페스트 파일을 통해 인증서를 업로드합니다. [Azure 관리 포털](https://manage.windowsazure.com)에 로그인합니다.
+2.      Azure AD 스냅인에서 X.509 인증서로 구성할 응용 프로그램을 찾습니다.
+3.      응용 프로그램 매니페스트 파일을 다운로드합니다. 
+5.      빈 “KeyCredentials”: [], 속성을 다음 JSON으로 바꿉니다.  KeyCredential 복합 형식은 [Entity and complex type reference](https://msdn.microsoft.com/library/azure/ad/graph/api/entity-and-complex-type-reference#KeyCredentialType)(엔터티 및 복합 형식 참조)에 나와 있습니다.
 
-### 3단계: ISE 설정 구성
+ 
+    `“keyCredentials“: [`
+    `{`
+     `“customKeyIdentifier“: “$base64Thumbprint_from_above”,`
+     `“keyId“: “$keyid_from_above“,`
+     `“type”: “AsymmetricX509Cert”,`
+     `“usage”: “Verify”,`
+     `“value”:  “$base64Value_from_above”`
+     `}2. `
+     `], `
+ 
+예를 들면 다음과 같습니다.
+ 
+    `“keyCredentials“: [`
+    `{`
+    `“customKeyIdentifier“: “ieF43L8nkyw/PEHjWvj+PkWebXk=”,`
+    `“keyId“: “2d6d849e-3e9e-46cd-b5ed-0f9e30d078cc”,`
+    `“type”: “AsymmetricX509Cert”,`
+    `“usage”: “Verify”,`
+    `“value”: “MIICWjCCAgSgAwIBA***omitted for brevity***qoD4dmgJqZmXDfFyQ”`
+    `}`
+    `],`
+ 
+6.      변경 내용을 응용 프로그램 매니페스트 파일에 저장합니다.
+7.      편집한 응용 프로그램 매니페스트 파일을 Azure 관리 포털을 통해 업로드합니다.
+8.      선택 사항: X.509 인증서가 응용 프로그램에 있는지 확인하려면 다시 매니페스트를 다운로드하세요.
+
+>[!NOTE]
+>
+> KeyCredentials는 컬렉션이므로 롤오버 시나리오에서는 여러 X.509 인증서를 업로드하고 손상 시나리오에서는 인증서를 삭제할 수 있습니다.
+
+
+### 4단계: ISE 설정 구성
 ISE 관리 콘솔에서 다음 설정 값을 제공합니다.
   - **서버 유형**: 모바일 장치 관리자
   - **인증 유형**: OAuth - 클라이언트 자격 증명
@@ -150,6 +200,6 @@ ISE 관리 콘솔에서 다음 설정 값을 제공합니다.
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Sep16_HO3-->
 
 
