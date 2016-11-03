@@ -1,8 +1,9 @@
 ---
 title: "구성 후 작업 | Microsoft Intune"
-description: 
+description: "모바일 장치 관리 기능을 향상시키기 위한 선택적 구성 작업을 완료합니다."
 keywords: 
 author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: get-started-article
@@ -13,8 +14,8 @@ ms.assetid: 34a412cd-8240-4e06-a60e-df270a711e7b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
-ms.openlocfilehash: 2ea332e7f0739ef55fcd0174d21e67086bcc9f4f
+ms.sourcegitcommit: 0e125a283a017685c2442c34194da29466c8e67a
+ms.openlocfilehash: 81dfaeb25de75f178d8993b47aadb5d4880970c7
 
 
 ---
@@ -30,6 +31,6 @@ Intune 유료 구독에 대한 초기 구성 단계를 완료한 후에는 추�
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO3-->
 
 

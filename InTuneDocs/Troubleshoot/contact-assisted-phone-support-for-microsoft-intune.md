@@ -1,8 +1,9 @@
 ---
 title: "담당자 전화 지원 | Microsoft Intune"
-description: 
+description: "Intune 지원 전화 번호"
 keywords: 
-author: Nbigman
+author: staciebarker
+ms.author: staciebarker
 manager: angrobe
 ms.date: 08/02/2016
 ms.topic: article
@@ -13,15 +14,15 @@ ms.assetid: 01c096eb-088b-4d2b-a1fa-dce6cdb12294
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb0aeac2f94dfde50d9398b09c6b21c7ae40624
-ms.openlocfilehash: 573108e176dbac7b9bbaa0f601f6fff6e73563fb
+ms.sourcegitcommit: 3a081109cd499d3bdda75cb6c8a4dab9d9d28fab
+ms.openlocfilehash: 67eec76113deca2e3dabe74bff9cabfeb41fcbce
 
 
 ---
 
-# Microsoft Intune의 담당자 전화 지원
+# <a name="contact-assisted-phone-support-for-microsoft-intune"></a>Microsoft Intune의 담당자 전화 지원
 
-## 전화 번호와 업무 시간
+## <a name="phone-numbers-and-business-hours"></a>전화 번호와 업무 시간
 
 |국가/지역|기술 지원 시간|업무 시간|지원 되는 언어|무료 전화 번호|지역 전화 번호|
 |------------------|---------------------------|------------------|-----------------------|---------------------------|-----------------------|
@@ -61,7 +62,7 @@ ms.openlocfilehash: 573108e176dbac7b9bbaa0f601f6fff6e73563fb
 |이스라엘|연중 무휴|월요일-금요일<br /><br />09:00 – 17:00 IST(UTC +2)|영어|1809344179||
 |이탈리아|연중 무휴|월요일-금요일<br /><br />09:00 – 17:00 CET(UTC +1)|이탈리아어&#42;, 영어|800917919|0269430746|
 |일본|월요일-금요일<br /><br />09:00 – 17:30:00 JST(UTC +9)|월요일-금요일<br /><br />09:00 – 17:30:00 JST(UTC +9)|일본어|0120-996-680|357679793|
-|요르단|연중 무휴|일요일 – 목요일<br /><br />09:00 – 19:00 EEST(UTC +2)|아랍어&#42;, 영어|18 800 000<br /><br />1단계. 001 코드 입력<br /><br />2단계. 877-663-5075 ÀÔ·Â||
+|요르단|연중 무휴|일요일 – 목요일<br /><br />09:00 – 19:00 EEST(UTC +2)|아랍어&#42;, 영어|18 800 000<br /><br />1단계. 001 코드 입력<br /><br />2단계. 877-663-5075 입력||
 |카자흐스탄|연중 무휴|월요일-금요일<br /><br />09:00 – 17:00 MSK(UTC +4)|러시아어&#42;, 영어|8 (800) 555 1349||
 |케냐|연중 무휴|월요일-금요일<br /><br />09:00 – 17:00 EAT(UTC +3)|영어||+254 20 2868800<br /><br />1단계: 옵션 9 선택<br /><br />2단계: 7704 코드 입력|
 |쿠웨이트|연중 무휴|월요일-금요일<br /><br />09:00 – 17:00 AST(UTC +3)|영어||+965 2243 1071<br /><br />1단계: 영어의 경우 2 선택<br /><br />2단계: 특별 액세스의 경우 9 선택<br /><br />3단계: 7701 코드 입력|
@@ -117,6 +118,6 @@ ms.openlocfilehash: 573108e176dbac7b9bbaa0f601f6fff6e73563fb
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

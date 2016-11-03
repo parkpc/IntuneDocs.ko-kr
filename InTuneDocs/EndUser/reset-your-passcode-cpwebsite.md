@@ -3,6 +3,7 @@ title: "회사 포털 웹 사이트에서 장치 암호 재설정 | Microsoft In
 description: 
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -14,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 08f31db90f324ef5f93076c4e13bfa5328a15adc
-ms.openlocfilehash: 381364e42430842032ced3b5c8c9cc8de19e8186
+ms.sourcegitcommit: 2aea845bc00c153f070e04abb67582a5d5a726ca
+ms.openlocfilehash: 47b36616f7a8ee23d4d47b41a1db2c41c185c6f5
 
 
 ---
@@ -23,35 +24,35 @@ ms.openlocfilehash: 381364e42430842032ced3b5c8c9cc8de19e8186
 
 # 회사 포털 웹 사이트에서 장치 암호 재설정
 
-Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 사용하여 암호를 재설정할 수 있습니다. 회사 포털 웹 사이트는 Intune에 등록한 컴퓨터 및 장치를 관리하는 데 사용할 수 있는 웹 페이지로, 회사 포털 앱을 사용할 때 수행할 수 있는 동일한 작업을 대부분 수행할 수 있습니다.
+Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 사용하여 암호를 재설정할 수 있습니다. 회사 포털 웹 사이트에서 Intune에 등록한 컴퓨터 및 장치를 관리하고 회사 포털 앱을 사용할 때 수행할 수 있는 동일한 작업을 대부분 수행할 수 있습니다.
 
 > [!NOTE]
-> IT 관리자가 Intune을 구성한 방법에 따라 회사 포털 웹 사이트에 암호 재설정 단추가 표시되지 않을 수도 있습니다. 암호 재설정은 Windows 8.1 장치에서 지원되지 않습니다.
+> IT 관리자가 Intune을 구성한 방법에 따라 회사 포털 웹 사이트에 **암호 재설정** 단추가 표시되지 않을 수도 있습니다. 암호 재설정은 Windows 8.1 장치에서 지원되지 않습니다.
 
 암호를 재설정하려면
 
-1.  [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 열고 암호를 재설정하려는 장치를 탭합니다.
+1.  [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 열고 암호를 재설정하려는 장치를 선택합니다.
 
-2.  **암호 재설정**을 탭합니다.
+2.  **암호 초기화**를 선택합니다.
 
-    ![resetp-passcode-option-on-company-portal-website](./media/iwp-screen-with-all-options.png)
+    ![암호 재설정 단추가 있는 장치 세부 정보](./media/iwp-screen-with-all-options.png)
 
-3.  **로그아웃**을 탭하고 회사 또는 학교 자격 증명을 사용하여 다시 로그인합니다. 5분 내에 다시 로그인해야 합니다.
+3.  **로그아웃**을 선택하고 회사 또는 학교 자격 증명을 사용하여 다시 로그인합니다. 5분 내에 다시 로그인해야 합니다.
 
-    ![sign-out-sign-back-in](./media/iwp-2-sign-out.png)
+    ![로그아웃 단추가 있는 재설정 메시지](./media/iwp-2-sign-out.png)
 
-4.  **암호 재설정**을 탭합니다.
+4.  **암호 초기화**를 선택합니다.
 
-    ![tap-reset-passcode](./media/iwp-3-tap-reset-passcode-after-signin.png)
+    ![암호를 재설정할 때 나타나는 결과를 설명하는 메시지](./media/iwp-3-tap-reset-passcode-after-signin.png)
 
-    장치에서 암호 재설정이 작동하는 방식을 보려면 표를 확인하세요.
+    장치에서 **암호 재설정**이 작동하는 방식을 보려면 표를 확인하세요.
 
     |플랫폼|Support|
     |------------|-----------|
-    |Android|새로운 임시 영숫자 암호를 만듭니다.|
-    |iOS|장치에서 암호를 제거하고 새로운 임시 암호를 만들지 않습니다. Touch ID를 사용하는 경우 암호를 재설정할 때 제거되기 때문에 장치에서 다시 설정해야 합니다.|
-    |Windows 10(모바일 장치에만 해당)|새로운 임시 영숫자 암호를 만듭니다. Windows Hello는 지원되지 않습니다.|
-    |Windows Phone 8.1|새로운 임시 숫자 암호를 만듭니다.|
+    |Android|임시 영숫자 암호를 만듭니다.|
+    |iOS|장치에서 암호를 제거하고 임시 암호를 만들지 않습니다. Touch ID를 사용하는 경우 암호를 재설정할 때 제거되기 때문에 장치에서 다시 설정해야 합니다.|
+    |Windows 10(모바일 장치에만 해당)|임시 영숫자 암호를 만듭니다. Windows Hello는 지원되지 않습니다.|
+    |Windows Phone 8.1|임시 숫자 암호를 만듭니다.|
     장치의 잠금을 해제한 후 장치의 **설정**으로 이동하여 새 암호를 설정할 수 있습니다.
 
 5.  장치의 잠금을 해제한 후 장치의 **설정**으로 이동하여 새 암호를 설정하거나 임시 암호를 변경합니다.
@@ -62,8 +63,6 @@ Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [�
 
 
 
-
-
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Oct16_HO3-->
 
 

@@ -2,7 +2,8 @@
 title: "Android 장치가 루팅되었으며 연결할 수 없는 경우 | Microsoft Intune"
 description: 
 keywords: 
-author: staciebarker
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -14,16 +15,16 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 14180d4dd324134f3b4e0a8d0241ccb61c3207e0
+ms.sourcegitcommit: 016449720f6e77b8862fcaa232d252eefa8b20b3
+ms.openlocfilehash: 5b7586c57f3f2825edfa9ae45a3fdec9af0fe956
 
 
 ---
 
 
-# Android 장치가 루팅되었으며 연결할 수 없는 경우
+# <a name="your-android-device-is-rooted-and-you-cant-connect"></a>Android 장치가 루팅되었으며 연결할 수 없는 경우
 
-Android 장치가 루팅된 경우 회사 리소스 및 보안을 손상시킬 수 있는 특정 기능을 사용하도록 장치가 변경되었음을 의미합니다. 이 메시지가 표시되는 경우 문제가 해결될 때까지 회사 리소스에 액세스할 수 없습니다.
+Android 장치가 루팅된 경우 회사 리소스 및 보안을 손상시킬 수 있는 특정 기능을 사용하도록 장치가 변경된 것입니다. 이 메시지가 표시되는 경우 문제가 해결될 때까지 회사 리소스에 액세스할 수 없습니다.
 
 의도적으로 장치를 루팅하기 위해 어떤 작업도 수행하지 않은 경우 장치가 루팅될 수 있는 다른 이유를 확인해 보세요.
 
@@ -33,8 +34,6 @@ Android 장치가 루팅된 경우 회사 리소스 및 보안을 손상시킬 �
 
 
 
-
-
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Oct16_HO2-->
 
 

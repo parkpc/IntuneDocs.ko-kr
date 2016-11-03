@@ -2,7 +2,8 @@
 title: "기존 회사 전자 메일 계정 찾음 | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -14,14 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8eb98946c39b98d3c338b32a7d955818020ef478
-ms.openlocfilehash: f33287c51fb769505cd1fb4fcfe2bbc1e4da0ea2
+ms.sourcegitcommit: eebc35277aedabb2575b753afbaf9ea05b1555e8
+ms.openlocfilehash: 6b7123dc4ec0b7a73e6e3151ca9c66a65354f9de
 
 
 ---
 
-# 기존 회사 전자 메일 계정을 찾을 수합니다
-회사 전자 메일 계정이 이미 있습니다. 회사 메일에 계속 연결하려면 IT 관리자가 계정을 제대로 설정하고 관리할 수 있도록 다음 단계를 수행하세요.
+# <a name="existing-company-email-account-found"></a>기존 회사 전자 메일 계정을 찾을 수합니다
+
+회사 전자 메일 계정이 이미 있습니다. 회사 메일 계정에 계속 연결하려면 IT 관리자가 계정을 제대로 설정하고 관리할 수 있도록 다음 단계를 수행하세요.
 
 1.  **설정을** 사용자의 장치에 회사 전자 메일을 이전에 설정한 연결을 제거 합니다.
 
@@ -35,6 +37,6 @@ ms.openlocfilehash: f33287c51fb769505cd1fb4fcfe2bbc1e4da0ea2
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Oct16_HO3-->
 
 

@@ -11,6 +11,7 @@
 ### [MDM을 위한 필수 조건](prerequisites-for-enrollment.md)
 #### [iOS 및 Mac 관리](set-up-ios-and-mac-management-with-microsoft-intune.md)
 #### [Android 관리](set-up-android-management-with-microsoft-intune.md)
+#### [Android for Work 관리](set-up-android-for-work.md)
 #### [Windows 장치 관리 ](set-up-windows-device-management-with-microsoft-intune.md)
 #### [Windows 10 Mobile 및 Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)
 ### [회사 소유 장치 관리](manage-corporate-owned-devices.md)
@@ -34,6 +35,7 @@
 ### [정책을 통해 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 #### [iOS 설정](ios-policy-settings-in-microsoft-intune.md)
 #### [Android 및 Samsung KNOX 설정](android-policy-settings-in-microsoft-intune.md)
+#### [Android for Work 설정](android-for-work-policy-settings-in-microsoft-intune.md)
 #### [Windows 8 및 Windows 8.1 설정](windows-configuration-policy-settings-in-microsoft-intune.md)
 #### [Windows Phone 8.1 설정](windows-phone-8-1-policy-settings-in-microsoft-intune.md)
 #### [Windows 10 Desktop 및 Mobile 설정](windows-10-policy-settings-in-microsoft-intune.md)
@@ -72,6 +74,7 @@
 #### [Intune 클라이언트 PC의 사용권 계약 관리](manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md)
 ## [앱 배포](deploy-apps.md)
 ### [장치 및 PC에 앱 배포](deploy-apps-in-microsoft-intune.md)
+### [Android for Work 장치에 앱 배포](android-for-work-apps.md)
 ### [앱 모니터링](monitor-apps-in-microsoft-intune.md)
 ### [대량 구매 앱 관리](manage-volume-purchased-apps-in-microsoft-intune.md)
 #### [대량 구매 iOS 앱 관리](manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md)
@@ -80,6 +83,7 @@
 ## [앱 구성](update-apps-using-microsoft-intune.md)
 ### [앱 업데이트 ](update-apps-using-microsoft-intune.md)
 ### [iOS 앱 구성 정책](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)
+### [Android for Work 앱 구성 정책](afw-app-configuration-policy.md)
 ### [iOS 모바일 앱 프로비전 프로필](ios-mobile-app-provisioning-profiles.md)
 ### [인터넷 액세스 관리](manage-internet-access-using-managed-browser-policies.md)
 
@@ -87,12 +91,13 @@
 ## [앱 및 데이터 보호](protect-apps-and-data-with-microsoft-intune.md)
 ### [장치 준수 정책](introduction-to-device-compliance-policies-in-microsoft-intune.md)
 #### [장치 준수 정책 만들기](create-a-device-compliance-policy-in-microsoft-intune.md)
-#### [Android의 경우](android-compliance-policy-settings-in-microsoft-intune.md)
-#### [iOS의 경우](ios-compliance-policy-settings-in-microsoft-intune.md)
-#### [Windows 및 Windows Phone의 경우](windows-compliance-policy-settings-in-microsoft-intune.md)
+#### [ Android](android-compliance-policy-settings-in-microsoft-intune.md)
+#### [Android for Work](afw-compliance-policy-settings-in-microsoft-intune.md)
+#### [iOS](ios-compliance-policy-settings-in-microsoft-intune.md)
+#### [Windows 및 Windows Phone](windows-compliance-policy-settings-in-microsoft-intune.md)
 #### [장치 준수 정책 배포](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)
 
-### [메일, O365 및 기타 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
+### [장치 준수 정책에 따라 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
 
 
 #### [Exchange Online 및 새 Exchange Online Dedicated](restrict-access-to-exchange-online-with-microsoft-intune.md)
@@ -101,7 +106,9 @@
 #### [비즈니스용 Skype](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 #### [Dynamics CRM Online](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
 #### [메일 액세스 제한: 예제](restrict-email-access-example-scenarios.md)
-
+### [O365 서비스에 정책 관리 앱 액세스만 허용](allow-policy-managed-apps-access-to-o365.md)
+#### [Exchange Online](mam-ca-for-exchange-online.md)
+#### [ADAL 없는 앱 차단](block-apps-with-no-modern-authentication.md)
 ### [네트워크에 대한 액세스 제한(Cisco ISE)](restrict-access-to-networks.md)
 ### [장치, 네트워크 및 응용 프로그램 위험에 따라 액세스 제한](restrict-access-based-on-device-network-app-risk.md)
 #### [Lookout 장치 위협 방지 설정](set-up-your-subscription-with-lookout-mtp.md)
@@ -118,7 +125,7 @@
 #### [MAM 정책 유효성 검사](validate-mobile-application-management.md)
 #### [정책 준수 모니터링](monitor-mobile-app-management-policies-with-microsoft-intune.md)
 #### [iOS 앱 간의 데이터 전송 관리](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
-#### [최종 사용자 환경](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
+
 #### [MAM 정책에 대한 Intune 관리 콘솔](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)
 
 ### [MAM용 기간 업무 준비](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)
@@ -133,13 +140,16 @@
 ### [앱 사용 중지 ](retire-apps-using-microsoft-intune.md)
 ### [관리되는 업무용 앱 데이터 초기화](Wipe-managed-company-app-data-with-microsoft-intune.md)
 
-## [최종 사용자에게 알릴 내용](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+## [최종 사용자 환경 관련 리소스](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+### [관리되는 iOS 장치 복원](restore-managed-ios-devices-from-backup.md)
+### [MAM 정책이 있는 Android 앱](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
+### [MAM 정책이 있는 iOS 앱](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
 
 # [앱 개발 및 사용자 지정](/intune/develop/intune-app-sdk)
 
 # [문제 해결](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Sep16_HO5-->
+<!--HONumber=Oct16_HO3-->
 
 

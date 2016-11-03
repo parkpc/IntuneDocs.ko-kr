@@ -1,8 +1,9 @@
 ---
 title: "iOS 장치용 규정 준수 정책 설정 | Microsoft Intune"
-description: 
+description: "이 항목에서는 iOS 장치에 대한 준수 정책에 설정할 수 있는 규칙 및 설정에 대해 설명합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/28/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 4a59d24f-ed58-49b1-b874-b2d4aea3ec76
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4f98937d7adfc0c1584625303da3350785af8169
-ms.openlocfilehash: a2f98bbd34cf8b0c86531ae6ff40b1044c15d8bd
+ms.sourcegitcommit: 9a442d9472159757333a9ebe081d86eac9907cdc
+ms.openlocfilehash: 4fcfcb5a9a48dd4051c0f2652f3fb589e3ff73a8
 
 
 ---
@@ -80,6 +81,6 @@ ms.openlocfilehash: a2f98bbd34cf8b0c86531ae6ff40b1044c15d8bd
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Oct16_HO3-->
 
 

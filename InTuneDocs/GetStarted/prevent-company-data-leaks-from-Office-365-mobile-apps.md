@@ -1,11 +1,11 @@
 ---
 title: "Office 365 모바일 앱에서 회사 데이터 누수 방지 | Microsoft Intune"
-description: 
+description: "Intune을 사용하면 Office 365 모바일 앱 또는 다른 LOB(기간 업무) 앱의 회사 데이터 누수를 방지하는 데 도움이 되는 MAM(모바일 응용 프로그램 관리) 정책을 사용하여 조직의 데이터를 보호할 수 있습니다."
 keywords: 
 author: jeffgilb
 ms.author: jeffgilb
 manager: angrobe
-ms.date: 07/22/2016
+ms.date: 10/14/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 19be3de7-539c-49f5-8c46-5363b987fef9
 ms.reviewer: pchacon
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: cbb34c02e782248a5895a83fba6808f7fef0db9b
-ms.openlocfilehash: b28beb0219e1669e6cd7eacf03f3875b76cd6e27
+ms.sourcegitcommit: 84faafafb531f0f3599a2b0d81a4123c930852ec
+ms.openlocfilehash: e9ed47a6ced12f800bb5e75bc73d5404a9d5cbc0
 
 
 ---
@@ -31,7 +31,7 @@ Microsoft Intune는 Office 365 모바일 앱 또는 다른 LOB(기간 업무) �
 ## 어떻게 하나요?
 1.  [Intune MAM(모바일 응용 프로그램 관리)이 작동하는 방식](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)에 대한 기본 사항을 확인합니다.
 2.  Azure 포털에서 [MAM 정책을 만들기 전에 수행해야 할 작업](/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)을 살펴봅니다.
-3.  Intune을 사용하여 [MAM 정책을 만들고 배포](/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)합니다.
+3.  Intune을 사용하여 [MAM 정책을 만들고 배포](/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)합니다.
 
 ### 추가 정보:
 - MAM 사용 앱을 통한 [최종 사용자 환경](/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune).

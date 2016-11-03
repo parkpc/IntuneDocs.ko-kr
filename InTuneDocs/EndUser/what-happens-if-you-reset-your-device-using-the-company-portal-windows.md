@@ -3,6 +3,7 @@ title: "회사 포털을 사용하여 Windows 장치를 다시 설정하면 어�
 description: 
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: article
@@ -14,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 08f31db90f324ef5f93076c4e13bfa5328a15adc
-ms.openlocfilehash: b597e3557ec2c5661490b417e1d0459eb4e8b477
+ms.sourcegitcommit: bdb221d9c52231d31511b29cbdc69985bc0da5b2
+ms.openlocfilehash: 1cc7e4ad5abee16a0e06780b37c23903d196a018
 
 
 ---
@@ -27,16 +28,14 @@ ms.openlocfilehash: b597e3557ec2c5661490b417e1d0459eb4e8b477
 
 |장치 구성 및 관리|장치 유형|
 |---------------------------------------|---------------|
-|IT 관리자가 모바일 장치 관리|**Windows 10 및 Windows Phone 8.1**</br>장치가 더 이상 회사 포털에 나타나지 않으며, 회사 포털에서 장치를 제조업체의 기본 설정으로 재설정하려고 합니다. 개인 데이터, 앱 및 설정이 제거됩니다. <br /><br />**Windows 10 Mobile**: 장치를 등록 취소하는 유일한 방법은 다시 설정하는 것입니다.|
-|장치가 회사 전자 메일에만 액세스할 수 있습니다.|**Windows Phone 8.1**<br />장치가 더 이상 회사 포털에 나타나지 않으며, 회사 메일 계정이 삭제되고 저장하지 않은 메일이 삭제됩니다.<br /><br />**Windows 7 또는 Windows Vista 컴퓨터**<br />Windows 7 이전 버전을 실행하며 전자 메일 전용으로 사용되는 컴퓨터는 리셋할 수 없습니다.<br /><br />**Windows 8.1 및 Windows 8 컴퓨터**<br />장치가 더 이상 회사 포털에 나타나지 않으며, 회사 메일 계정이 삭제되고 저장하지 않은 메일이 삭제됩니다.|
-|PC 및 노트북|**Windows 8.1 및 Windows 8 컴퓨터**<br />Windows 8 또는 Windows 8.1을 실행하며 전자 메일 전용이 아닌 컴퓨터는 리셋할 수 없습니다.<br /><br />**Windows 7 또는 Windows Vista 컴퓨터**<br />Windows 7 이전 버전을 실행하는 컴퓨터는 리셋할 수 없습니다.|
+|IT 관리자가 모바일 장치 관리|**Windows 10 및 Windows Phone 8.1**</br>장치가 더 이상 회사 포털에 나타나지 않으며, 회사 포털에서 장치를 제조업체의 기본 설정으로 재설정하려고 합니다. 개인 데이터, 앱 및 설정이 제거됩니다. <br /><br />**Windows 10 Mobile**</br>장치를 등록 취소하는 유일한 방법은 다시 설정하는 것입니다.|
+|장치가 회사 전자 메일에만 액세스할 수 있습니다.|**Windows Phone 8.1**<br />장치가 더 이상 회사 포털에 나타나지 않으며, 회사 메일 계정 및 저장하지 않은 메일이 삭제됩니다.<br /><br />**Windows 7 또는 Windows Vista**<br />Windows 7 이전 버전을 실행하며 메일 전용으로 사용되는 컴퓨터는 원래대로 복원할 수 없습니다.<br /><br />**Windows 8.1 및 Windows 8**<br />장치가 더 이상 회사 포털에 나타나지 않으며, 회사 메일 계정 및 저장하지 않은 메일이 삭제됩니다.|
+|PC 및 노트북|**Windows 8.1 및 Windows 8**<br />Windows 8 또는 Windows 8.1을 실행하며 메일 전용이 아닌 컴퓨터는 원래대로 복원할 수 없습니다.<br /><br />**Windows 7 또는 Windows Vista**<br />Windows 7 이전 버전을 실행하는 컴퓨터는 원래대로 복원할 수 없습니다.|
 
 의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-
-
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Oct16_HO3-->
 
 

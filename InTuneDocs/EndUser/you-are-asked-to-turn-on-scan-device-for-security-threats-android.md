@@ -2,9 +2,10 @@
 title: "장치의 보안 위협에 검색을 설정하라는 메시지가 표시되는 경우 | Microsoft Intune"
 description: 
 keywords: 
-author: staciebarker
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,13 +13,13 @@ ms.technology:
 ms.assetid: b3e5994c-d215-4c72-8915-349bd0b2504d
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: fca4172091a74e5c2bdb09f273f6319c12d907ab
+ms.sourcegitcommit: 016449720f6e77b8862fcaa232d252eefa8b20b3
+ms.openlocfilehash: ad02abb58a5cf2ec1a131e3abda474da46b81f02
 
 
 ---
 
-# 장치의 보안 위협 검색을 설정하라는 메시지가 표시되는 경우
+# <a name="you-are-asked-to-turn-on-scan-device-for-security-threats"></a>장치의 보안 위협 검색을 설정하라는 메시지가 표시되는 경우
 
  "장치의 보안 위협 검색" 메시지가 표시되면 **설정** > **Google** > **보안**으로 이동한 후 **장치의 보안 위협 검색**을 켭니다.
 
@@ -28,8 +29,6 @@ IT 관리자는 Android 장치에서 회사 데이터 보호하기 위해 이 �
 
 
 
-
-
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO2-->
 
 

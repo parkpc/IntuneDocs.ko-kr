@@ -3,6 +3,7 @@ title: "Intune에서 Android 장치 사용 | Microsoft Intune"
 description: "Intune에서 장치가 등록될 때 Android 모바일 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록"
 keywords: 
 author: staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 43b43aa82aa69bea95d6d521193bd32c53e881fe
+ms.sourcegitcommit: 2a3ad9562d271ee67b49db28b0fc62caec9f3050
+ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
 
 
 ---
@@ -33,6 +34,7 @@ ms.openlocfilehash: 43b43aa82aa69bea95d6d521193bd32c53e881fe
 이 섹션에서는 Intune 회사 포털 설치 및 Android 장치 등록에 도움이 되는 정보를 제공합니다.
 
 - [Intune에서 장치 등록](enroll-your-device-in-Intune-android.md)
+- [업무용 프로필을 만들고 Intune에서 장치 등록](create-a-work-profile-and-enroll-your-device-in-intune-android.md)
 - [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 
 ## 장치가 Intune에 등록되어 있는 경우 수행할 수 있는 작업
@@ -73,6 +75,6 @@ ms.openlocfilehash: 43b43aa82aa69bea95d6d521193bd32c53e881fe
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Oct16_HO2-->
 
 

@@ -3,8 +3,9 @@ title: "VPN 연결 | Microsoft Intune"
 description: "VPN 프로필을 사용하여 조직의 사용자 및 장치에 VPN 설정을 배포합니다."
 keywords: 
 author: Nbigman
+ms.author: nbigman
 manager: angrobe
-ms.date: 10/10/2016
+ms.date: 10/14/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +14,8 @@ ms.assetid: abc57093-7351-408f-9f41-a30877f96f73
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 27ba29f57bba1f3807c4b593ecac8c0af0851962
-ms.openlocfilehash: 026e7c918f8b2457dd1afb9a5134ad3bd6f65cd5
+ms.sourcegitcommit: 7b4acce1b1861ca2c2d1432b0258ad1e95e46d2a
+ms.openlocfilehash: 188cb3890da83332431743445959bba73e7f2484
 
 
 ---
@@ -44,20 +45,20 @@ Intune에서는 다음의 연결 유형을 사용하는 VPN 프로필 만들기�
 
 
 
-연결 형식 |iOS 및 Mac OS X  |Android|Windows 8.1|Windows RT|Windows RT 8.1|Windows Phone 8.1|Windows 10 Desktop 및 Mobile |
+연결 형식 |iOS 및 Mac OS X  |Android 및 Android for Work|Windows 8.1|Windows RT 8.1|Windows Phone 8.1|Windows 10 Desktop 및 Mobile |
 ----------------|------------------|-------|-----------|----------|--------------|-----------------|----------------------|
-Cisco AnyConnect|예 |예   |아니요    |     아니요    |아니요  |아니요    | 예(OMA-URI, Mobile만)|     
-Cisco(IPsec)|예 |아니요   |아니요  |  아니요|아니요  |아니요 | 아니요|
-Citrix|예 |아니요   |아니요  |  아니요|아니요  |아니요 | 아니요|
-Pulse Secure|예  |예 |예   |아니요  |예  |예| 예|        
-F5 Edge Client|예 |예 |예 |아니요  |예  |   예 |  예|   
-Dell SonicWALL Mobile Connect|예 |예 |예 |아니요  |예 |예 |예|         
-CheckPoint Mobile VPN|예 |예 |예 |예 |예|예|예|
-Microsoft SSL(SSTP)|아니요 |아니요 |아니요 |아니요 |아니요|아니요|VPNv1 OMA-URI*|
-Microsoft 자동|아니요 |아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
-IKEv2|iOS 사용자 지정 프로필|아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
-PPTP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요 |아니요|아니요|예|
-L2TP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
+Cisco AnyConnect|예 |예   |아니요    |아니요  |아니요    | 예(OMA-URI, Mobile만)|     
+Cisco(IPsec)|예 |아니요   |아니요  |아니요  |아니요 | 아니요|
+Citrix|예 |아니요   |아니요  |아니요  |아니요 | 아니요|
+Pulse Secure|예  |예 |예   |예  |예| 예|        
+F5 Edge Client|예 |예 |예 |예  |   예 |  예|   
+Dell SonicWALL Mobile Connect|예 |예 |예 |예 |예 |예|         
+CheckPoint Mobile VPN|예 |예 |예 |예|예|예|
+Microsoft SSL(SSTP)|아니요 |아니요 |아니요 |아니요|아니요|VPNv1 OMA-URI*|
+Microsoft 자동|아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
+IKEv2|iOS 사용자 지정 프로필|아니요 |아니요 |아니요|예(OMA-URI)|예|
+PPTP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요|아니요|예|
+L2TP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요|예(OMA-URI)|예|
 
 \* Windows 10에 사용할 수 있는 추가 설정이 없습니다.
 
@@ -96,6 +97,8 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 
 > [!Note]
 > Android for Work 장치용 VPN 프로필에서는 장치의 업무용 프로필에 설치된 앱만 VPN 연결을 사용하도록 설정합니다.
+>
+> 일부 VPN 연결 유형은Android for Work 장치에 대해 앱당 VPN을 지원하고, Intune을 통해 배포된 앱에서 앱당 VPN을 사용하도록 설정할 수 있도록 합니다.  
 
 3. 다음 테이블을 사용하여 VPN 프로필 설정을 쉽게 구성할 수 있습니다.
 

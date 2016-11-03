@@ -3,8 +3,9 @@ title: "인증서 프로필 구성 | Microsoft Intune"
 description: "Intune 인증서 프로필을 만드는 방법을 알아봅니다."
 keywords: 
 author: nbigman
+ms.author: nbigman
 manager: angrobe
-ms.date: 10/10/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +14,8 @@ ms.assetid: 679a20a1-e66f-4b6b-bd8f-896daf1f8175
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 27ba29f57bba1f3807c4b593ecac8c0af0851962
-ms.openlocfilehash: 3f657e6a49fb83faddf9c139985369f27656b4bd
+ms.sourcegitcommit: 7b4acce1b1861ca2c2d1432b0258ad1e95e46d2a
+ms.openlocfilehash: d4fd80ad7819911b6bf47ccd51e62bebdec24f04
 
 
 ---
@@ -63,6 +64,11 @@ SCEP(단순 인증서 등록 프로토콜) 또는 PKCS #12(.PFX) 인증서 프�
 4.  **정책 저장**을 선택합니다.
 
 새 정책이 **정책** 작업 영역에 표시됩니다. 이제 해당 정책을 배포할 수 있습니다.
+
+> [!NOTE]
+>
+> Android 및 Android for Work 장치는 제3자가 신뢰할 수 있는 인증서를 설치했다는 알림을 표시합니다.
+    
 
 ## **태스크 3**: SCEP 또는 .PFX 인증서 프로필 만들기
 신뢰할 수 있는 CA 인증서 프로필을 만든 후에는 사용하려는 각 플랫폼용으로 SCEP 또는 .PFX 인증서 프로필을 만듭니다. SCEP 인증서 프로필을 만들 때는 같은 플랫폼용으로 신뢰할 수 있는 인증서 프로필을 지정해야 합니다. 그러면 두 인증서 프로필이 연결되기는 하지만 각 프로필을 개별적으로 배포해야 합니다.

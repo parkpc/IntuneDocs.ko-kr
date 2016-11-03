@@ -3,6 +3,7 @@ title: "Windows Phone 8.0 관리 설정 | Microsoft Intune"
 description: "Microsoft Intune으로 Windows Phone 8.0 장치에 대한 MDM(모바일 장치 관리)을 사용하도록 설정합니다."
 keywords: 
 author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 07/09/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 61e9b6c3-8795-49b0-8ab2-a9a05ee3ea1f
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
-ms.openlocfilehash: 1d3823392b7060b9d04996c29c68213d421ef4bd
+ms.sourcegitcommit: 067b46c4e537f6def75142411a6d6b60a63cd642
+ms.openlocfilehash: 32d1272d1e125c8a1a5b9f7c6291fb4acf14ea6e
 
 
 ---
@@ -24,7 +25,7 @@ ms.openlocfilehash: 1d3823392b7060b9d04996c29c68213d421ef4bd
 Windows Phone 8.0의 경우 Intune 회사 포털 앱을 설치하여 장치 관리를 수행하려면 Symantec 인증서가 있어야 합니다. 또한 인증서는 기간 업무 앱에 서명하는 데 필요합니다. 다음 항목은 Windows Phone 8.0에만 해당합니다. Windows 10 Mobile을 비롯하여 Windows Phone 8.1 이상을 관리하려면 [Set up Windows Phone enrollment](set-up-windows-phone-management-with-microsoft-intune.md)(Windows Phone 등록 설정) 항목을 참조하세요.
 
 > [!IMPORTANT]
-> 2016년 9월부터 Windows 8.0 및 Windows Phone 8.0용 회사 포털 앱을 더 이상 다운로드할 수 없습니다.
+> 2016년 9월을 기준으로 Windows Phone 8 및 Windows 8용 회사 포털 앱은 더 이상 다운로드할 수 없습니다.
 
 -   **Windows Phone 8** - 인증서 필요
 -   **Windows Phone 8.1 및 Windows 10 Mobile**에는 다음의 경우에만 인증서가 필요합니다.
@@ -183,6 +184,6 @@ Windows Phone 스토어에서 설치하지 않고 Intune을 사용해 회사 포
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO3-->
 
 
