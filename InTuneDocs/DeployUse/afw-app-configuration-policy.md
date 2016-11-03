@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 10/12/2016
+ms.date: 11/3/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -20,7 +20,10 @@ ms.openlocfilehash: a986e859e38e0936f53c57a75872dc86de3ee181
 
 ---
 
-# Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 Android for Work 앱 구성
+# <a name="configure-android-for-work-apps-with-mobile-app-configuration-policies-in-microsoft-intune"></a>Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 Android for Work 앱 구성
+
+[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
+
 Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 앱을 실행할 때 필요할 수 있는 설정을 제공할 수 있습니다. 예를 들어 사용자가 앱에서 다음 사항을 지정해야 할 수 있습니다.
 
 -   사용자 지정 포트 번호
@@ -37,7 +40,7 @@ Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 
 
 앱 구성 정책은 구성할 앱을 배포한 동일한 사용자에게 배포합니다. 앱이 실행될 때마다 정책 설정이 사용됩니다.
 
-## 모바일 앱 구성 정책 구성
+## <a name="configure-a-mobile-app-configuration-policy"></a>모바일 앱 구성 정책 구성
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **개요** &gt; **정책 추가**를 선택합니다.
 
@@ -61,7 +64,7 @@ Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 
 새 정책이 **구성 정책** 노드에 표시됩니다.
 
 
-## 앱 구성 정책 배포
+## <a name="deploy-the-app-configuration-policy"></a>앱 구성 정책 배포
 모바일 앱 구성 정책을 만든 후에는 정책 설정을 적용할 앱을 배포한 동일한 사용자에게 배포해야 합니다.
 
 정책을 배포하는 방법에 대해 자세히 알아보려면 [구성 정책 배포](/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies#deploy-a-configuration-policy)를 참조하세요.
@@ -72,10 +75,6 @@ Android for Work 장치에 앱을 배포하는 방법에 대한 자세한 내용
 
 > [!TIP]
 > 앱당 앱 구성 정책을 하나만 사용자에게 배포합니다.
-
-
-
-
 
 
 
