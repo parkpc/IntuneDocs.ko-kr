@@ -13,8 +13,8 @@ ms.assetid: 0775107a-6662-41c8-9404-be14bbb599f3
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 44443db664753b202cc3fa07f8b76894320dc55d
-ms.openlocfilehash: f3bb686dda7bdf1e9557be2b5f5e0da2fb4d27e4
+ms.sourcegitcommit: 0be23ec10b8e380d57fc8263c68f08c0287c1b93
+ms.openlocfilehash: 7a9d68de99c624ccfe4d7d741c1c8ac5c0044314
 
 
 ---
@@ -32,9 +32,9 @@ ms.openlocfilehash: f3bb686dda7bdf1e9557be2b5f5e0da2fb4d27e4
 
 다음 테이블은 정책을 조건부 액세스 정책과 함께 사용하는 경우 규정 준수 정책에서 지원하는 장치 유형 및 규정에 위반된 설정을 관리하는 방법을 나열합니다.
 
---------------
+-----------------------------
 
-|정책 설정| Windows 8.1 이상| Windows Phone 8.1 이상| iOS 6.0 이상|Android 4.0 이상<br/>Samsung KNOX Standard 4.0 이상|
+|정책 설정| Windows 8.1 이상| Windows Phone 8.1 이상| iOS 8.0 이상|Android 4.0 이상<br/>Samsung KNOX Standard 4.0 이상|
 |-----|----|----|----|----|
 |**PIN 또는 암호 구성** |재구성됨|재구성됨|재구성됨|격리됨|
 |**장치 암호화**|해당 없음|재구성됨|재구성됨(PIN 설정)|격리됨|
@@ -43,7 +43,9 @@ ms.openlocfilehash: f3bb686dda7bdf1e9557be2b5f5e0da2fb4d27e4
 |**최소 OS 버전**|격리됨|격리됨|격리됨|격리됨|
 |**최대 OS 버전**|격리됨| 격리됨| 격리됨| 격리됨|
 |**Windows 상태 증명**|Windows 10 및 Windows 10 Mobile은 격리됩니다.<br /><br />Windows 8.1에는 설정이 적용되지 않습니다.|해당 없음|해당 없음|해당 없음|
---------------
+
+------------------------------
+
 **재구성됨** = 장치 운영 체제에서 준수를 적용하도록 요구합니다. 예를 들어, 사용자는 직접 PIN을 설정해야 합니다.  설정이 비규격인 경우는 없습니다.
 
 **격리됨** = 장치 운영 체제에서 준수를 적용하도록 요구하지 않습니다. 예를 들어, Android 장치에서 사용자에게 장치를 암호화하도록 강제하지 않습니다. 장치가 호환되지 않으면 다음 작업이 수행됩니다.
@@ -62,6 +64,6 @@ ms.openlocfilehash: f3bb686dda7bdf1e9557be2b5f5e0da2fb4d27e4
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Sep16_HO2-->
 
 

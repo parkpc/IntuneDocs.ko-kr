@@ -4,7 +4,7 @@ description: "Intune 소프트웨어 클라이언트로 Windows PC를 관리하�
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 08/25/2016
+ms.date: 09/14/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,25 +13,25 @@ ms.assetid: 77fa5c66-a87c-47df-964c-800eea509b33
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 12d75bc67fd61a2e807eed2543f21b756a65a900
-ms.openlocfilehash: 3066ef98c0a1df6fc0ae455860635e7c12f82c4f
+ms.sourcegitcommit: 453323aa38eed0a01aa8d583376162734439a69c
+ms.openlocfilehash: 0d4ec8077e2521b23808fcb537c4b2389fee714a
 
 
 ---
 
-# Intune 소프트웨어 클라이언트를 사용하는 경우 Windows PC 관리 기능)
+# Intune 소프트웨어 클라이언트를 사용하는 경우 Windows PC 관리 기능
 대부분의 시나리오에서 Microsoft Intune에 장치를 등록하면 훨씬 더 많은 기능이 제공됩니다. 그러나 Intune 소프트웨어 클라이언트를 사용하여 PC를 관리할 수도 있으며, 이 경우 다음과 같은 기능이 제공됩니다.
 
--   **소프트웨어 업데이트 관리** - PC를 최신 상태로 유지하고 업데이트 적용 시기를 결정할 수 있습니다.
+-   **[소프트웨어 업데이트 관리](/intune/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune)** - PC를 최신 상태로 유지하고 업데이트 적용 시기를 결정할 수 있습니다.
 
--   **Windows 방화벽 정책** - 이 정책을 통해 회사에서 사용하는 PC 중에 Windows 방화벽이 비활성화되거나 부적절하게 구성된 PC가 없는지를 확인할 수 있습니다.
+-   **[Windows 방화벽 정책](/intune/deploy-use/help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune)** - 이 정책을 통해 회사에서 사용하는 PC 중에 Windows 방화벽이 비활성화되거나 부적절하게 구성된 PC가 없는지를 확인할 수 있습니다.
 
--   **맬웨어 방지 보호** - Intune에 포함된 Endpoint Protection을 사용하면 PC를 맬웨어로부터 보호할 수 있습니다.
+-   **[맬웨어 방지 보호](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)** - Intune에 포함된 Endpoint Protection을 사용하면 PC를 맬웨어로부터 보호할 수 있습니다.
 
--   **원격 지원** - Intune을 통해 IT 지원 직원에게 문의하면 해당 직원이 Intune에 포함된 원격 데스크톱 기능을 사용하여 도움을 줄 수 있습니다(TeamViewer 소프트웨어 필요).
+-   **[원격 지원](/intune/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client#request-and-provide-remote-assistance-to-windows-pcs-that-use-the-intune-client-software )** - Intune을 통해 IT 지원 직원에게 문의하면 해당 직원이 Intune에 포함된 원격 데스크톱 기능을 사용하여 도움을 줄 수 있습니다(TeamViewer 소프트웨어 필요).
 
--   **소프트웨어 라이선스 관리** - 사용 가능한 소프트웨어 라이선스 수와 사용 가능한 라이선스 중 현재 사용 중인 라이선스 수를 추적합니다.
--   **앱 배포** - 관리하는 PC에 소프트웨어를 배포합니다. 소프트웨어 클라이언트를 사용하여 PC를 관리하는 경우 일부 앱 관리 기능은 사용할 수 없습니다.
+-   **[소프트웨어 라이선스 관리](/intune/deploy-use/manage-license-agreements-for-windows-pc-software-in-microsoft-intune)** - 사용 가능한 소프트웨어 라이선스 수와 사용 가능한 라이선스 중 현재 사용 중인 라이선스 수를 추적합니다.
+-   **[앱 배포](/intune/deploy-use/add-apps-for-windows-pcs-in-microsoft-intune)** - 관리하는 PC에 소프트웨어를 배포합니다. 소프트웨어 클라이언트를 사용하여 PC를 관리하는 경우 일부 앱 관리 기능은 사용할 수 없습니다.
 
 
 Intune에서는 소프트웨어 클라이언트를 최대 7,000대의 Windows 장치에 설치할 수 있도록 지원합니다.
@@ -74,6 +74,6 @@ Intune은 다음 Windows 버전(32비트 및 64비트)을 실행하는 PC를 관
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO2-->
 
 

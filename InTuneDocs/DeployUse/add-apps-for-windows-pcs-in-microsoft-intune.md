@@ -1,5 +1,5 @@
 ---
-title: "Windows PC에 앱 추가 | Microsoft Intune"
+title: "Intune 소프트웨어 클라이언트를 실행하는 Windows PC에 앱 추가 | Microsoft Intune"
 description: "이 항목의 정보를 사용하여 배포하기 전에 Intune에 Windows PC용 앱을 추가하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,18 +13,18 @@ ms.assetid: bc8c8be9-7f4f-4891-9224-55fc40703f0b
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 727d28cff074124b5401f6c2931f87df3a9d2d23
-ms.openlocfilehash: 24767de9ad5a1f0ebe6f713018098a5dd692466e
+ms.sourcegitcommit: f01f2715ebd5666b53de848f06300e7aa3344caf
+ms.openlocfilehash: 33ef6a417c38ab04095afc8fb7573ea92253f229
 
 
 ---
 
-# Microsoft Intune을 사용하여 Windows PC에 앱 추가
+# Intune 소프트웨어 클라이언트를 실행하는 Windows PC에 앱 추가
 
 이 항목의 정보를 사용하여 배포하기 전에 Intune에 앱을 추가하는 방법을 알아봅니다.
 
 > [!IMPORTANT]
-> 이 항목의 정보를 참조하면 Intune PC 클라이언트 소프트웨어를 사용하여 관리하는 Windows PC에 앱을 추가할 수 있습니다. 등록된 Windows PC 및 기타 모바일 장치에 앱을 추가하려면 [Microsoft Intune에서 모바일 장치에 앱 추가](add-apps-for-mobile-devices-in-microsoft-intune.md)를 참조하세요.
+> 이 항목의 정보를 참조하면 Intune 소프트웨어 클라이언트를 사용하여 관리하는 Windows PC에 앱을 추가할 수 있습니다. 등록된 Windows PC 및 기타 모바일 장치에 앱을 추가하려면 [Microsoft Intune에서 모바일 장치에 앱 추가](add-apps-for-mobile-devices-in-microsoft-intune.md)를 참조하세요.
 
 
 ## 앱 추가
@@ -90,6 +90,6 @@ ms.openlocfilehash: 24767de9ad5a1f0ebe6f713018098a5dd692466e
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

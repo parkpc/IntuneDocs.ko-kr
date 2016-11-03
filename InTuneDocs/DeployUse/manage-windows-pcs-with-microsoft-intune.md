@@ -13,8 +13,8 @@ ms.assetid: 3b8d22fe-c318-4796-b760-44f1ccf34312
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 16be49504b24269f9463905ab5767acbda136a0a
-ms.openlocfilehash: a13c03cde29c46a78577b58f85daad30a076bf89
+ms.sourcegitcommit: a4cc8b7e34e8809eebd7fdec8ffac0599c96d309
+ms.openlocfilehash: ce27fc737fdf47903d7554eb15f24f07b3524406
 
 
 ---
@@ -43,7 +43,7 @@ Intune 소프트웨어 클라이언트는 소프트웨어 업데이트, Windows 
 
 |요구 사항|추가 정보|
 |---------------|--------------------|
-|운영 체제 | Windows 7 이상이 실행되는 Windows 장치 |
+|운영 체제 | Windows Vista 이상을 실행하는 Windows 장치 Home Edition 버전은 지원되지 않습니다.|
 |관리자 권한|클라이언트 소프트웨어를 설치하는 계정에는 해당 장치에 대한 로컬 관리자 권한이 있어야 합니다.|
 |Windows Installer 3.1|PC에 최소 Windows Installer 3.1이 설치되어 있어야 합니다.<br /><br />PC의 Windows Installer 버전을 확인하려면<br /><br />-   PC에서 **%windir%\System32\msiexec.exe**를 마우스 오른쪽 단추로 클릭한 다음 **속성**을 클릭합니다.<br /><br />Windows Installer의 최신 버전은 Microsoft Developer Network 웹 사이트의 [Windows Installer Redistributables(Windows Installer 재배포 가능 구성 요소)](http://go.microsoft.com/fwlink/?LinkID=234258) 에서 다운로드할 수 있습니다.|
 |호환되지 않는 클라이언트 소프트웨어를 제거합니다.|Intune 클라이언트 소프트웨어를 설치하기 전에 해당 PC에서 구성 관리자 또는 System Management Server 클라이언트 소프트웨어를 제거해야 합니다.|
@@ -75,6 +75,6 @@ Intune 클라이언트 에이전트는 보통 백그라운드에서 자동으로
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Sep16_HO2-->
 
 

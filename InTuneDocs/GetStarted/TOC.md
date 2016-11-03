@@ -11,6 +11,12 @@
 ### [네트워크 대역폭 사용량](network-bandwidth-use.md)
 ### [사용자 지정 도메인 이름](domain-names-for-microsoft-intune.md)
 
+## [장치를 관리하는 방법 선택](choose-how-to-manage-devices.md)
+### [등록된 장치 관리 기능](mobile-device-management-capabilities-in-microsoft-intune.md)
+### [Intune PC 소프트웨어 클라이언트 기능](windows-pc-management-capabilities-in-microsoft-intune.md)
+
+## [Intune으로 마이그레이션](migrate-to-intune.md)
+
 ## [Intune 빠른 시작 가이드](start-with-a-paid-subscription-to-microsoft-intune.md)
 ### [Intune에 로그인](start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
 ### [사용자 지정 도메인 이름 구성](start-with-a-paid-subscription-to-microsoft-intune-step-2.md)
@@ -22,10 +28,6 @@
 ### [모바일 장치 등록 및 앱 설치](start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
 ### [구성 후 작업](post-configuration-tasks.md)
 
-## [장치를 관리하는 방법 선택](choose-how-to-manage-devices.md)
-### [등록된 장치 관리 기능](mobile-device-management-capabilities-in-microsoft-intune.md)
-### [Intune PC 소프트웨어 클라이언트 기능](windows-pc-management-capabilities-in-microsoft-intune.md)
-
 ## [Intune 배포용 출시 단계](rollout-phases-for-microsoft-intune-deployment.md)
 ### [프로젝트 범위 지정](project-scope.md)
 ### [개념 증명](proof-of-concept.md)
@@ -34,11 +36,12 @@
 ### [운영 및 유지 관리](operations-and-maintenance.md)
 
 <!-- # [Plan and Design](/intune/plan-design/ways-to-do-enterprise-mobility) -->
+# [새로운 기능](/intune/whats-new/whats-new-in-microsoft-intune)
 # [배포 및 사용](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
 # [앱 개발 및 사용자 지정](/intune/develop/intune-app-sdk)
 # [문제 해결](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO5-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: f5615051-2dd1-453b-9872-d3fdcefb2cb8
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ebb1648ab13d31a2ba1ab17615814be8dda8a08c
-ms.openlocfilehash: 76aaa33832dc1b765e248f85f739a4955ca90e2d
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: d88405e913fe61cef2c297f9d50408e10674cf3f
 
 
 ---
@@ -33,7 +33,7 @@ Intune 관리자는 두 가지 방법으로 Windows 10 Mobile 및 Windows Phone 
 ## 회사 포털 앱 등록
 사용자가 Intune 회사 포털 앱을 설치하고 해당 앱에서 장치를 등록하는 방식으로 사용 중인 장치를 등록하도록 할 수 있습니다. DNS CNAME을 만들면 사용자가 서버 이름을 입력하지 않고도 Intune에서 연결 및 등록할 수 있습니다. Windows Phone 8.0 장치를 관리하거나 회사 포털을 Windows Phone 장치로 배포해야 하는 경우 회사 포털 앱을 다운로드하고 서명해야 합니다. [Set up Windows Phone 8.0 management](set-up-windows-phone-8.0-management-with-microsoft-intune.md)(Windows Phone 8.0 관리 설정) 항목을 참조하세요.
 
-1.  **Intune 설정**<br>모바일 장치 관리를 아직 준비하지 않은 경우 [모바일 장치 관리 기관](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
+1.  **Intune 설정**<br>모바일 장치 관리를 아직 준비하지 않은 경우 [모바일 장치 관리 기관](prerequisites-for-enrollment.md#set-mobile-device-management-authority)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
 
 2.  **CNAME 만들기**(선택 사항)<br>회사의 도메인에 대한 **CNAME** DNS 리소스 레코드를 만들어야 합니다. 예를 들어, 회사의 웹 사이트가 contoso.com인 경우 DNS에 EnterpriseEnrollment.contoso.com을 manage.microsoft.com으로 리디렉션하는 CNAME을 만들어야 합니다. 확인된 도메인이 둘 이상 있는 경우 각 도메인에 대해 CNAME 레코드를 만듭니다. CNAME 리소스 레코드에는 다음 정보가 포함되어야 합니다.
 
@@ -65,6 +65,6 @@ Intune 관리자는 두 가지 방법으로 Windows 10 Mobile 및 Windows Phone 
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO4-->
 
 

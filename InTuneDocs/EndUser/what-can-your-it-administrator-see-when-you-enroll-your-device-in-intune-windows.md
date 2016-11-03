@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: 48377dfbe945447c6c4141d86e134685b97db1e8
+ms.sourcegitcommit: 4881d765a6a79d380ab6d3facdb55d9f0c81bf97
+ms.openlocfilehash: 2631541ea974769308aea30d2b37a3a79c22db99
 
 
 ---
@@ -57,11 +57,12 @@ Intune에서 Windows 장치를 등록하는 것은 장치의 회사 정보를 �
 
 -   제조업체
 
-
-의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://)를 참조하세요.
-
+[추가 정보](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows)를 확인할 수 있습니다.
 
 
-<!--HONumber=Aug16_HO5-->
+
+
+
+<!--HONumber=Sep16_HO4-->
 
 
