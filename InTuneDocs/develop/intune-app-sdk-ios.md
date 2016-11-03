@@ -13,8 +13,8 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 975708b5204ab83108a9174083bb87dfeb04a063
-ms.openlocfilehash: 52ad28686fa279a7ec251d073283c3554d1c81fc
+ms.sourcegitcommit: 6b998728b3db60d10cadbcd34b5412fa76cb586f
+ms.openlocfilehash: ddc47ef5846bf448cf0de1e57b527e8ec4c562cc
 
 
 ---
@@ -415,6 +415,32 @@ SDK는 이 메서드를 호출하여 기존 토큰이 없는 경우 자격 증�
  - true가 반환되는 경우 응용 프로그램이 다시 시작 처리를 담당합니다.   
  - false가 반환되는 경우 SDK는 이 메서드가 반환된 후 응용 프로그램을 다시 시작합니다.  SDK는 사용자에게 응용 프로그램을 다시 시작해야 한다는 사실을 알리는 대화 상자를 즉시 표시합니다. 
 
+#다른 이름으로 저장 컨트롤 구현
+
+Intune을 사용하여 IT 관리자는 관리되는 앱이 데이터를 저장할 수 있는 저장소 위치를 선택할 수 있습니다. 앱은 **isSaveToAllowedForLocation** API를 사용하여 Intune 앱 SDK에서 허용된 저장소 위치를 쿼리할 수 있습니다.
+
+클라우드 저장소 또는 로컬 위치에 관리되는 데이터를 저장하기 전에 앱은 **isSaveToAllowedForLocation** API를 사용하여 IT 관리자가 해당 위치로의 데이터 저장을 허용했는지 확인해야 합니다.
+
+**isSaveToAllowedForLocation** API를 사용할 때 앱은 저장소 위치에 사용되는 UPN(사용 가능한 경우)을 제공해야 합니다.
+
+##지원되는 위치
+
+**isSaveToAllowedForLocation** API는 다음 위치를 확인하기 위한 상수를 제공합니다.
+
+* IntuneMAMSaveLocationOther 
+* IntuneMAMSaveLocationOneDriveForBusiness 
+* IntuneMAMSaveLocationSharePoint 
+* IntuneMAMSaveLocationBox 
+* IntuneMAMSaveLocationDropbox 
+* IntuneMAMSaveLocationGoogleDrive 
+* IntuneMAMSaveLocationLocalDrive 
+
+앱은 **isSaveToAllowedForLocation** API의 상수를 사용하여 데이터를 "관리되는" 위치(예: 비즈니스용 OneDrive 또는 "개인")로 저장할 수 있는지 확인해야 합니다. 또한 앱이 "관리되는" 위치 또는 “개인” 위치인지를 확인할 수 없을 때 이 API를 사용해야 합니다. 
+
+위치가 "개인" 위치로 알려진 경우 앱은 **IntuneMAMSaveLocationOther** 값을 사용해야 합니다. 
+
+앱이 로컬 장치의 위치로 데이터를 저장할 때는 **IntuneMAMSaveLocationLocalDrive** 상수를 사용해야 합니다.
+
 
 
 # Intune 앱 SDK 설정 구성
@@ -497,7 +523,7 @@ ID는 단순히 문자열로 정의됩니다. ID는 대/소문자를 구분하�
 ID는 단순히 계정(예: user@contoso.com)의 사용자 이름입니다. 개발자는 다음과 같은 다양한 수준에서 앱의 ID를 설정할 수 있습니다. 
 
 * **프로세스 ID**: 프로세스 ID는 프로세스 전반 ID를 설정하고 주로 단일 ID 응용 프로그램에 사용됩니다. 이 ID는 모든 작업, 파일 및 UI에 영향을 줍니다.
-* **UI ID**: 잘라내기/복사/붙여넣기, PIN, 인증, 데이터 공유 등 주 스레드에서 UI 작업에 적용되는 정책을 결정합니다. UI ID는 파일 작업(암호화, 백업 등)에 영향을 주지 않습니다. 
+* **UI ID**: 잘라내기/복사/붙여넣기, PIN, 인증, 데이터 공유 등 주 스레드에서 UI 작업에 적용되는 정책을 결정합니다. UI ID는 파일 작업(암호화, 백업 등)에 영향을 주지 않습니다.
 * **스레드 ID**: 스레드 ID는 현재 스레드에 적용되는 정책에 영향을 줍니다. 이 ID는 모든 작업, 파일 및 UI에 영향을 줍니다.
 
 사용자가 관리되는지와 관계없이 ID를 적절하게 설정하는 것은 앱의 책임입니다.
@@ -523,9 +549,12 @@ SDK는 로컬 파일 소유자 ID를 추적하여 적절하게 정책을 적용�
  
 앱이 공유 확장을 포함하는 경우 `IntuneMAMDataProtectionManager`의 `protectionInfoForItemProvider` 메서드를 사용하여 공유되는 항목의 소유자를 검색할 수 있습니다. 공유 항목이 파일인 경우 SDK에서 파일 소유자 설정을 처리합니다. 공유 항목이 데이터인 경우, 이 데이터가 파일에 유지되면 파일 소유자를 설정하고 이 데이터를 UI에 표시하기 전에 `setUIPolicyIdentity` API(아래에 설명됨)를 호출하는 것은 앱의 책임입니다.
  
-#다중 ID 사용
+##다중 ID 설정
  
-기본적으로 앱은 단일 ID로 간주되며 프로세스 ID는 SDK에 의해 등록된 사용자로 설정됩니다. 다중 ID 지원을 사용하려면 앱의 Info.plis 파일 내에 있는 IntuneMAMSettings 사전에 이름이 'MultiIdentity'이고 값이 'YES'인 부울 설정을 추가해야 합니다. 다중 ID가 사용하도록 설정된 경우 프로세스 ID, UI ID 및 스레드 ID는 nil로 설정되며, 이러한 ID를 적절하게 설정하는 것은 앱의 책임입니다.
+기본적으로 앱은 단일 ID로 간주되며 SDK에서 프로세스 ID를 등록된 사용자로 설정합니다. 다중 ID 지원을 사용하려면 앱의 Info.plis 파일에 있는 **IntuneMAMSettings** 사전에 'YES' 값을 가진 `MultiIdentity` 이름의 부울 설정을 추가해야 합니다. 
+
+> [!NOTE]
+> 다중 ID를 사용하도록 설정되는 경우 프로세스 ID, UI ID 및 스레드 ID는 nil로 설정됩니다. 이러한 ID를 적절하게 설정하는 것은 앱의 필수 작업입니다.
 
  
 ##ID 전환
@@ -628,6 +657,6 @@ Intune 앱 SDK의 정적 라이브러리 및 프레임워크 빌드는 모두 �
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO3-->
 
 

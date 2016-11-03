@@ -3,8 +3,9 @@ title: "전자 메일 프로필을 사용하여 회사 전자 메일에 액세�
 description: "모바일 장치에서 특정 전자 메일 클라이언트에 대한 전자 메일 액세스 설정을 구성하는 데 전자 메일 프로필 설정을 사용할 수 있습니다."
 keywords: 
 author: Nbigman
+ms.author: nbigman
 manager: angrobe
-ms.date: 10/10/2016
+ms.date: 10/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +14,8 @@ ms.assetid: 10f0cd61-e514-4e44-b13e-aeb85a8e53ae
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: befe1b3446770509c83a360c854993d4aaada09d
-ms.openlocfilehash: 1bd5d64dfff1cf1fc42247c5f89861e216da77d5
+ms.sourcegitcommit: 9f8767f191df76e8f166767c51fff357b251bbd4
+ms.openlocfilehash: f736c408f5a4ece65eeef35fb8d1be9a9b29c1b1
 
 
 ---
@@ -29,14 +30,14 @@ ms.openlocfilehash: 1bd5d64dfff1cf1fc42247c5f89861e216da77d5
 IT 관리자나 사용자가 Android 또는 iOS용 Microsoft Outlook 등 대체 전자 메일 클라이언트를 설치하도록 선택할 수도 있습니다. 이러한 전자 메일 클라이언트는 전자 메일 프로필을 지원하지 않을 수 있으며 Intune 전자 메일 프로필을 사용하여 설정할 수 없습니다.  
 
 전자 메일 프로필을 사용하여 다음 장치 유형에서 네이티브 전자 메일 클라이언트를 구성할 수 있습니다.
--   Windows Phone 8 이상
+-   Windows Phone 8.1 이상
 -   Windows 10(데스크톱용), Windows 10 Mobile 이상
 -   iOS 8.0 이상
 -   Samsung KNOX Standard(4.0 이상)
 -   Android for Work
 
 >[!NOTE]
->Intune은 Gmail 및 Nine Work 메일 앱 각각에 대해 Android for Work 메일 프로필을 하나씩 제공합니다. 이러한 앱은 Google Play 스토어에서 사용할 수 있으며 Exchange로의 연결을 지원합니다. 메일 연결을 사용하도록 설정하려면 사용자의 장치에 이러한 메일 앱 중 하나를 배포한 다음 적절한 프로필을 만들어 배포합니다. 
+>Intune은 Gmail 및 Nine Work 메일 앱 각각에 대해 Android for Work 메일 프로필을 하나씩 제공합니다. 이러한 앱은 Google Play 스토어에서 사용할 수 있으며 Exchange로의 연결을 지원합니다. 메일 연결을 사용하도록 설정하려면 사용자의 장치에 이러한 메일 앱 중 하나를 배포한 다음 적절한 프로필을 만들어 배포합니다.
 
 장치에서 전자 메일 계정을 설정할 수 있을 뿐만 아니라, 동기화할 수 있는 전자 메일의 수 및 장치 유형에 따라 동기화할 수 있는 콘텐츠 형식을 설정할 수 있습니다.
 
@@ -52,11 +53,11 @@ IT 관리자나 사용자가 Android 또는 iOS용 Microsoft Outlook 등 대체 
 
 >Samsung KNOX에서는 프로필 식별에 호스트 이름을 사용하지 않으므로 여러 호스트에서 동일한 전자 메일 주소에 사용할 전자 메일 프로필을 여러 개 만들지 않는 것이 좋습니다. 이렇게 하면 각각 덮어쓰게 됩니다.
 
->**Android for Work**: Intune 프로필은 장치의 업무용 프로필에만 적용되며 장치의 사용자 프로필에 있는 메일 프로필에는 영향을 주지 않습니다.
+>**Android for Work**: Intune 프로필은 장치의 업무용 프로필에 있는 특정 메일 앱에만 적용되며 장치의 사용자 프로필에 있는 메일 구성에는 영향을 주지 않습니다.
 
 
 ## 전자 메일 프로필 보안
-인증서를 사용하거나, 암호를 사용하는 다음 두 가지 방법 중 하나로 전자 메일 프로필을 보호할 수 있습니다.
+인증서 또는 암호를 사용하여 메일 프로필을 보호할 수 있습니다.
 
 ### 인증서
 메일 프로필을 만들 때 이전에 Intune에서 만든 인증서 프로필을 선택합니다. 이를 ID 인증서라고 부르며, 사용자 장치의 연결 허용을 설정하기 위해 신뢰할 수 있는 인증서 프로필(또는 루트 인증서)에 대해 인증하는 데 사용됩니다. 신뢰할 수 있는 인증서는 전자 메일 연결을 인증하는 컴퓨터(대개 네이티브 메일 서버)에 배포됩니다.
@@ -78,10 +79,10 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 
     -   **메일 프로필(iOS 8.0 이상)**
 
-    -   **메일 프로필(Windows Phone 8 이상)**
+    -   **메일 프로필(Windows Phone 8.1 이상)**
 
     -   **메일 프로필(Windows 10 Desktop 및 Mobile 이상)**
-    
+
     -   **메일 프로필(Android for Work - Gmail)**
 
     -   **메일 프로필(Android for Work - Nine Work)**
@@ -107,8 +108,10 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
     |**SSL 사용**|전자 메일을 전송하거나 수신할 때와 Exchange Server와 통신할 때 SSL(Secure Sockets Layer) 통신을 사용합니다. Samsung KNOX 4.0 이상을 실행하는 장치에서는 Exchange Server의 SSL 인증서를 내보낸 후 Intune에서 신뢰할 수 있는 Android 인증서 프로필로 배포해야 합니다. 다른 방법으로 Exchange Server에 설치된 경우 Intune은 이 인증서에 액세스를 지원하지 않습니다.|
     |**동기화할 콘텐츠 형식**(Android for Work Gmail을 제외한 모든 플랫폼)|장치에 동기화할 콘텐츠 형식을 선택합니다.|
     |**타사 응용 프로그램에서 전자 메일을 전송할 수 있도록 허용합니다** (iOS만 해당)|사용자는 이 프로필을 전자 메일을 보내기 위한 기본 계정으로 선택하고, 타사에서는 네이티브 전자 메일 앱의 전자 메일을 열고 전자 메일에 파일을 첨부할 수 있게 됩니다.|
-    > [!IMPORTANT]
-    > If you have deployed an email profile and then wish to change the values for **host** or **Email address**, you must delete the existing email profile and create a new one with the required values.
+
+> [!IMPORTANT]
+>
+> 전자 메일 프로필을 배포한 다음 **호스트** 또는 **전자 메일 주소** 값을 변경하려면 기존 전자 메일 프로필을 삭제하고 원하는 값을 사용하여 새 전자 메일 프로필을 만들어야 합니다.
 
 4.  작업이 끝나면 **정책 저장**을 클릭합니다.
 
@@ -127,10 +130,11 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 **정책** 작업 영역의 **개요** 페이지에 있는 상태 요약 및 경고는 주의가 필요한 정책 문제를 식별합니다. 또한 상태 요약은 대시보드 작업 영역에 표시됩니다.
 
 > [!NOTE]
-> 장치에서 전자 메일 프로필을 제거하려면 배포를 편집하고 장치가 멤버로 포함된 그룹을 모두 제거합니다.
+> - Android for Work의 경우 해당 메일 프로필 외에, Gmail 또는 Nine Work 앱도 배포해야 합니다.
+> - 장치에서 전자 메일 프로필을 제거하려면 배포를 편집하고 장치가 멤버로 포함된 그룹을 모두 제거합니다.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Oct16_HO3-->
 
 
