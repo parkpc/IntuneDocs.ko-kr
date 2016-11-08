@@ -2,8 +2,8 @@
 title: "Cisco ISE에서 네트워크에 대한 액세스 제한 | Microsoft Intune"
 description: "Cisco ISE에 의해 제어되는 WiFi 및 VPN에 액세스하기 전에 장치가 Intune에 등록되고 정책을 준수하도록 Intune에서 Cisco ISE를 사용합니다."
 keywords: 
-author: nbigman
-ms.author: nbigman
+author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 10/05/2016
 ms.topic: article
@@ -14,23 +14,23 @@ ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 625d0851446c9cf54e704a62c9afe79cac263665
-ms.openlocfilehash: 44dc8ce90537580ef30ba4b8c9f3ee2dd5e20c24
+ms.sourcegitcommit: 17b957cc2baedddfc53bfdf7b875e4ecb28b8517
+ms.openlocfilehash: a29473cb0931c01143614116ce0e99a579f35923
 
 
 ---
 
-# Microsoft intune에서 Cisco ISE 사용
+# <a name="using-cisco-ise-with-microsoft-intune"></a>Microsoft intune에서 Cisco ISE 사용
 Cisco ISE(ID 서비스 엔진)와 Intune을 통합하면 Intune 장치 등록 및 규정 준수 상태를 사용하여 ISE 환경에서 네트워크 정책을 작성할 수 있습니다. 이러한 정책을 사용하여 회사 네트워크에 대한 액세스가 Intune에서 관리되고 Intune 정책을 준수하는 장치로 제한되도록 할 수 있습니다.
 
-## 구성 단계
+## <a name="configuration-steps"></a>구성 단계
 
 이 통합을 사용하려는 경우 Intune 테넌트에서는 어떤 설정 작업도 필요하지 않습니다. Intune 테넌트에 액세스하려면 Cisco ISE 서버에 대한 권한을 제공해야 합니다. 이 작업이 완료되면 Cisco ISE 서버에서 나머지 설정 작업이 진행됩니다. 이 문서에서는 ISE 서버에 Intune 테넌트 액세스 권한을 제공하는 방법에 대해 설명합니다.
 
-### 1단계: 인증서 관리
+### <a name="step-1-manage-the-certificates"></a>1단계: 인증서 관리
 Azure AD(Azure Active Directory) 콘솔에서 인증서를 내보낸 다음, ISE 콘솔의 신뢰할 수 있는 인증서 저장소로 가져옵니다.
 
-#### Internet Explorer 11
+#### <a name="internet-explorer-11"></a>Internet Explorer 11
 
 
    a. 관리자 권한으로 Internet Explorer를 실행하고 Azure AD 콘솔에 로그인합니다.
@@ -47,7 +47,7 @@ Azure AD(Azure Active Directory) 콘솔에서 인증서를 내보낸 다음, ISE
 
    g. ISE 콘솔 내에서 Intune 인증서(내보낸 파일)를 **신뢰할 수 있는 인증서** 저장소로 가져옵니다.
 
-#### Safari
+#### <a name="safari"></a>Safari
 
  a. Azure AD 콘솔에 로그인합니다.
 
@@ -64,7 +64,7 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 > 인증서 만료 날짜를 확인합니다. 이 날짜가 완료되면 인증서를 내보내고 새 인증서를 가져와야 하기 때문입니다.
 
 
-### ISE에서 자체 서명된 인증서 가져오기 
+### <a name="obtain-a-selfsigned-cert-from-ise"></a>ISE에서 자체 서명된 인증서 가져오기 
 
 1.  ISE 콘솔에서 **관리** > **인증서** > **시스템 인증서** > **자체 서명된 인증서 생성**로 이동합니다.  
 2.       자체 서명된 인증서를 내보냅니다.
@@ -75,7 +75,7 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 모든 텍스트를 한 줄에 입력해야 합니다.
 
 
-### 2단계: Azure AD 테넌트에서 ISE용 앱 만들기
+### <a name="step-2-create-an-app-for-ise-in-your-azure-ad-tenant"></a>2단계: Azure AD 테넌트에서 ISE용 앱 만들기
 1. Azure AD 콘솔에서 **응용 프로그램** > **응용 프로그램 추가** > **조직에서 개발 중인 응용 프로그램 추가**를 선택합니다.
 2. 앱의 이름 및 URL을 제공합니다. URL은 회사 웹 사이트일 수 있습니다.
 3. 앱 매니페스트(JSON 파일)를 다운로드합니다.
@@ -99,7 +99,7 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 |OAuth 2.0 토큰 끝점|토큰 발급 URL|
 |클라이언트 ID로 코드 업데이트|클라이언트 ID|
 
-### 4단계: ISE의 자체 서명된 인증서를 Azure AD에서 만든 ISE 앱으로 업로드
+### <a name="step-4-upload-the-selfsigned-certificate-from-ise-into-the-ise-app-you-created-in-azure-ad"></a>4단계: ISE의 자체 서명된 인증서를 Azure AD에서 만든 ISE 앱으로 업로드
 1.     Base64로 인코딩된 인증서 값과 지문을 .cer X509 공용 인증서 파일에서 가져옵니다. 이 예제에서는 PowerShell을 사용합니다.
    
       
@@ -136,7 +136,7 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 > KeyCredentials는 컬렉션이므로 롤오버 시나리오에서는 여러 X.509 인증서를 업로드하고 손상 시나리오에서는 인증서를 삭제할 수 있습니다.
 
 
-### 4단계: ISE 설정 구성
+### <a name="step-4-configure-ise-settings"></a>4단계: ISE 설정 구성
 ISE 관리 콘솔에서 다음 설정 값을 제공합니다.
   - **서버 유형**: 모바일 장치 관리자
   - **인증 유형**: OAuth - 클라이언트 자격 증명
@@ -147,7 +147,7 @@ ISE 관리 콘솔에서 다음 설정 값을 제공합니다.
 
 
 
-## Intune 테넌트와 Cisco ISE 서버 간에 공유되는 정보
+## <a name="information-shared-between-your-intune-tenant-and-your-cisco-ise-server"></a>Intune 테넌트와 Cisco ISE 서버 간에 공유되는 정보
 이 표에서는 Intune 테넌트와 Intune에서 관리되는 장치용 Cisco ISE 서버 간에 공유되는 정보를 보여 줍니다.
 
 |속성|  설명|
@@ -166,7 +166,7 @@ ISE 관리 콘솔에서 다음 설정 값을 제공합니다.
 |lastContactTimeUtc|Intune 관리 서비스를 사용하여 장치를 마지막으로 체크 인한 날짜 및 시간입니다.
 
 
-## 사용자 환경
+## <a name="user-experience"></a>사용자 환경
 
 사용자가 등록 해제된 장치를 사용하여 리소스에 액세스하려고 할 경우 여기에 표시된 것과 같은 등록 메시지가 수신됩니다.
 
@@ -182,12 +182,12 @@ ISE 관리 콘솔에서 다음 설정 값을 제공합니다.
 또한 사용자 환경에 대한 사용자 지정된 지침을 만드는 데 사용할 수 있는 [다운로드 가능한 등록 지침 집합](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a)도 있습니다.
 
 
-### 참고 항목
+### <a name="see-also"></a>참고 항목
 
 [Cisco ID 서비스 엔진 관리자 가이드, 릴리스 2.1](http://www.cisco.com/c/en/us/td/docs/security/ise/2-1/admin_guide/b_ise_admin_guide_21/b_ise_admin_guide_20_chapter_01000.html#task_820C9C2A1A6647E995CA5AAB01E1CDEF)
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO1-->
 
 

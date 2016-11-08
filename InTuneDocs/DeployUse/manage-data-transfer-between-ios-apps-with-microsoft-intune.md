@@ -3,6 +3,7 @@ title: "iOS 앱 간의 데이터 전송 관리 | Microsoft Intune"
 description: "이 항목을 사용하여 iOS의 다음에서 열기 기능과 모바일 앱 관리 정책을 사용하여 앱 간의 데이터 전송을 관리하는 방법을 파악할 수 있습니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article
@@ -13,14 +14,14 @@ ms.assetid: 3a4515c1-b325-4ac1-9f0a-45ac27e00681
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 488ecb801eac2b591db87683bbe9f371879483c4
+ms.sourcegitcommit: a4f7a503417938eabb4334757dcf12a63f082fd3
+ms.openlocfilehash: 080d861e8fd2d0140ffe5d9987032213ae0e4d4c
 
 
 ---
 
-# Microsoft Intune으로 iOS 앱 간의 데이터 전송 관리
-## IOS 앱 관리
+# <a name="manage-data-transfer-between-ios-apps-with-microsoft-intune"></a>Microsoft Intune으로 iOS 앱 간의 데이터 전송 관리
+## <a name="manage-ios-apps"></a>IOS 앱 관리
 회사 데이터 보호는 파일 전송이 관리하는 앱으로만 제한되도록 하는 작업을 포함합니다.  다음과 같은 방법으로 iOS 앱을 관리할 수 있습니다.
 
 -   앱에 대한 MAM 정책을 구성하여 회사 데이터 손실을 방지하며, 앞으로 이러한 앱을 **정책 관리** 앱이라고 부릅니다.
@@ -28,7 +29,7 @@ ms.openlocfilehash: 488ecb801eac2b591db87683bbe9f371879483c4
 -   **MDM 채널**을 사용하여 앱을 배포하고 관리할 수도 있습니다.  이렇게 하려면 MDM 솔루션에 장치를 등록해야 합니다. **정책 관리된** 앱 또는 다른 관리되는 앱일 수 있습니다.
 
 iOS 장치의 **관리에서 열기** 기능은 **MDM 채널**을 통해 장치에 배포된 앱 간에만 파일 전송이 발생하도록 제한할 수 있습니다. 관리에서 열기 제한 사항은 구성 설정에서 설정되며 MDM 소프트웨어를 사용하여 배포됩니다.  사용자가 배포된 앱을 설치하면 설정한 제한 사항이 적용됩니다.
-##  iOS 앱과 함께 MAM 사용
+##  <a name="using-mam-with-ios-apps"></a>iOS 앱과 함께 MAM 사용
 MAM(모바일 앱 관리) 정책을 **관리에서 열기** 기능과 함께 사용하여 회사 데이터를 다음과 같은 방법으로 보호할 수 있습니다.
 
 -   **직원 소유 장치는 MDM 솔루션에서 관리되지 않음:** MAM 정책 설정을 **앱에서 관리되는 앱으로만 데이터 전송 허용**으로 설정할 수 있습니다. 최종 사용자가 정책 관리된 앱이 아닌 앱에서 보호된 파일을 여는 경우에는 파일을 읽을 수 없습니다.
@@ -41,7 +42,7 @@ MAM(모바일 앱 관리) 정책을 **관리에서 열기** 기능과 함께 사
 > [!IMPORTANT]
 > 사용자 UPN 설정은 타사 MDM으로 관리되는 장치에 배포된 앱에만 필요합니다.  Intune으로 관리되는 장치의 경우 이 설정이 필요하지 않습니다.
 
-## 사용자 UPN 설정 구성
+## <a name="configure-user-upn-setting"></a>사용자 UPN 설정 구성
 이 구성은 타사 MDM 솔루션으로 관리되는 장치에 필요합니다. 아래에 설명된 절차는 UPN 설정 및 결과로 생성되는 최종 사용자 환경을 구현하는 방법에 대한 일반적인 흐름입니다.
 
 
@@ -49,11 +50,11 @@ MAM(모바일 앱 관리) 정책을 **관리에서 열기** 기능과 함께 사
 
 2.  3단계 및 4단계에서 설명한 설정을 사용하여 **타사 MDM 솔루션을 통해** 관리할 앱 및 메일 프로필을 배포합니다.
 
-3.  다음과 같은 앱 구성 설정으로 앱을 배포합니다. key=IntuneMAMUPN, Value=<username@company.com> [example: ‘IntuneMAMUPN’, ‘jondoe@microsoft.com’]
+3.  다음과 같은 앱 구성 설정으로 앱을 배포합니다. key=IntuneMAMUPN, Value=<username@company.com>[예: ‘IntuneMAMUPN’, ‘jondoe@microsoft.com’]
 
 4.  등록된 장치에 다음에서 열기 관리 정책을 배포합니다.
 
-### 최종 사용자 환경의 예
+### <a name="example-end-user-experience"></a>최종 사용자 환경의 예
 
 1.  최종 사용자가 장치에 Microsoft Word 앱을 설치합니다.
 
@@ -70,11 +71,11 @@ MAM(모바일 앱 관리) 정책을 **관리에서 열기** 기능과 함께 사
 
 6.  이제 데이터 전송이 성공하고 앱의 문서에 회사 ID로 태그가 지정됩니다. 또한 데이터가 회사 컨텍스트에서 처리되고 정책 설정이 그에 따라 적용됩니다.
 
-### 참고 항목
+### <a name="see-also"></a>참고 항목
 [Microsoft Intune에서 모바일 앱 관리 정책을 사용하여 앱 데이터 보호](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Nov16_HO1-->
 
 

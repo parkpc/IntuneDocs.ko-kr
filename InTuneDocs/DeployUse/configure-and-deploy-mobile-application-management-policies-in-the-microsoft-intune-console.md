@@ -14,13 +14,13 @@ ms.assetid: b4fb33a8-a2fa-4353-bd89-5bda48b68e83
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9a442d9472159757333a9ebe081d86eac9907cdc
-ms.openlocfilehash: d7978e558c68ad3209f1503619a9113dba126028
+ms.sourcegitcommit: a4f7a503417938eabb4334757dcf12a63f082fd3
+ms.openlocfilehash: 90b5a9f78a93cde7466937d0ce9dac3d83f3ff64
 
 
 ---
 
-# 구성 하 고 Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 배포
+# <a name="configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console"></a>구성 하 고 Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 배포
 Microsoft Intune의 MAM(모바일 응용 프로그램 관리) 정책을 사용하여 배포하는 앱의 기능을 회사의 규정 준수 및 보안 정책에 맞게 수정할 수 있습니다. 예를 들어 관리되는 앱 내에서의 잘라내기/복사/붙여넣기 작업을 제한하거나 관리되는 브라우저 안에서 모든 웹 링크를 열도록 앱을 구성할 수 있습니다.
 
 모바일 응용 프로그램 관리 정책에서는 다음 장치를 지원합니다.
@@ -59,7 +59,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 > [!TIP]
 > 구성 관리자에서 Intune을 사용하는 경우 [Configuration Manager에서 모바일 응용 프로그램 관리 정책을 사용하여 앱을 제어하는 방법](https://technet.microsoft.com/library/mt131414.aspx) 항목을 참조하세요.
 
-## 모바일 응용 프로그램 관리 정책을 사용하여 앱 만들기 및 배포
+## <a name="create-and-deploy-an-app-with-a-mobile-application-management-policy"></a>모바일 응용 프로그램 관리 정책을 사용하여 앱 만들기 및 배포
 
 -   **1단계:** 정책으로 관리되는 앱으로 연결되는 링크를 얻거나 래핑된 앱을 만들거나 Intune 앱 SDK를 사용하여 MAM 사용 앱을 작성합니다.
 
@@ -71,15 +71,15 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 
 -   **5단계:** 앱 배포를 모니터링합니다.
 
-## 1단계: 정책으로 관리되는 앱으로 연결되는 링크를 얻거나 래핑된 앱을 만들거나 Intune 앱 SDK를 사용하여 MAM 사용 앱을 작성합니다.
+## <a name="step-1-get-the-link-to-a-policy-managed-app-create-a-wrapped-app-or-use-the-intune-app-sdk-to-write-a-mamenabled-app"></a>1단계: 정책으로 관리되는 앱으로 연결되는 링크를 얻거나 래핑된 앱을 만들거나 Intune 앱 SDK를 사용하여 MAM 사용 앱을 작성합니다.
 
 배포하려는 정책 관리 앱의 URL을 앱 스토어에서 찾아서 적어 둡니다. 예를 들어 iPad용 Microsoft Word 앱의 URL은 **https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8**입니다.
 
 
-## 2단계: 클라우드 저장소 공간에 앱을 게시합니다.
+## <a name="step-2-publish-the-app-to-your-cloud-storage-space"></a>2단계: 클라우드 저장소 공간에 앱을 게시합니다.
 관리되는 앱을 게시하는 절차는 정책으로 관리되는 앱을 게시하는지 아니면 iOS용 Microsoft Intune 앱 래핑 도구를 사용하여 처리한 앱을 게시하는지에 따라 달라집니다.
 
-#### 정책으로 관리되는 앱을 게시하려면
+#### <a name="to-publish-a-policy-managed-app"></a>정책으로 관리되는 앱을 게시하려면
 
 1.  클라우드 저장소 공간에 앱을 업로드할 준비가 되면 [Add apps for mobile devices in Microsoft Intune](add-apps-for-mobile-devices-in-microsoft-intune.md)(Microsoft Intune에서 모바일 장치에 앱 추가) 항목의 지침을 따릅니다.
 
@@ -93,7 +93,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 
 앱이 정상적으로 업로드되었는지 확인한 후 3단계로 계속 진행합니다.
 
-#### Microsoft Intune 앱 래핑 도구를 사용하여 처리한 앱을 게시하려면
+#### <a name="to-publish-an-app-that-was-processed-through-the-microsoft-intune-app-wrapping-tool"></a>Microsoft Intune 앱 래핑 도구를 사용하여 처리한 앱을 게시하려면
 
 1.  클라우드 저장소 공간에 앱을 업로드할 준비가 되면 [Add apps for mobile devices in Microsoft Intune](add-apps-for-mobile-devices-in-microsoft-intune.md)(Microsoft Intune에서 모바일 장치에 앱 추가) 항목의 지침을 따릅니다.
 
@@ -105,7 +105,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 
 앱이 정상적으로 업로드되었는지 확인한 후 3단계로 계속 진행합니다.
 
-## 3단계: 모바일 응용 프로그램 관리 정책을 만듭니다.
+## <a name="step-3-create-a-mobile-application-management-policy"></a>3단계: 모바일 응용 프로그램 관리 정책을 만듭니다.
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **개요** &gt; **정책 추가**를 선택합니다.
 
@@ -142,7 +142,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 
 새 정책이 **정책** 작업 영역의 **구성 정책** 노드에 표시됩니다.
 
-## 4단계: 앱을 모바일 응용 프로그램 관리 정책에 연결한 다음 배포합니다.
+## <a name="step-4-associate-the-app-with-a-mobile-application-management-policy-and-then-deploy-the-app"></a>4단계: 앱을 모바일 응용 프로그램 관리 정책에 연결한 다음 배포합니다.
 **배포 관리** 대화 상자의 **모바일 앱 관리** 페이지에서 모바일 응용 프로그램 관리 정책을 선택하여 해당 정책이 앱에 연결되었는지 확인합니다.
 
 자세한 내용은 [Microsoft Intune에서 앱 배포](deploy-apps.md) 항목을 참조하세요.
@@ -150,7 +150,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 > [!IMPORTANT]
 > Intune에서 장치 등록을 취소해도 정책은 앱에서 제거되지 않습니다. 정책이 적용되었던 앱은 제거했다가 다시 설치하더라도 정책 설정이 그대로 유지됩니다.
 
-### 앱을 장치에 이미 배포한 경우 수행할 작업
+### <a name="what-to-do-when-an-app-is-already-deployed-on-devices"></a>앱을 장치에 이미 배포한 경우 수행할 작업
 앱을 배포할 때 대상 사용자 또는 장치 중 하나에 관리되지 않는 버전의 앱이 이미 설치되어 있는 경우가 있습니다. 사용자가 앱 스토어에서 Microsoft Word를 설치한 경우 등을 예로 들 수 있습니다.
 
 이 경우에는 구성한 관리 버전을 설치할 수 있도록 사용자에게 관리되지 않는 버전을 수동으로 제거하도록 요청해야 합니다.
@@ -160,10 +160,10 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 > [!TIP]
 > 장치가 감독 모드인 경우 Intune에서는 사용자에게 권한을 요청하지 않고 기존 앱을 관리합니다.
 
-## 5단계: 앱 배포 모니터링
+## <a name="step-5-monitor-the-app-deployment"></a>5단계: 앱 배포 모니터링
 모바일 응용 프로그램 관리 정책과 연결된 앱을 만들고 배포한 후에는 다음 절차에 따라 앱을 모니터링하고 정책 충돌을 해결합니다.
 
-#### 배포 상태를 보려면
+#### <a name="to-view-the-status-of-the-deployment"></a>배포 상태를 보려면
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **그룹** &gt; **개요**를 선택합니다.
 
@@ -181,7 +181,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 
 6.  충돌이 확인되면 충돌하는 정책 설정이 같은 설정을 사용하도록 수정하거나 앱과 사용자에 대한 하나의 정책만을 배포할 수 있습니다.
 
-### 정책 충돌을 해결하는 방법
+### <a name="how-policy-conflicts-are-resolved"></a>정책 충돌을 해결하는 방법
 사용자나 장치에 대한 첫 번째 배포에서 모바일 응용 프로그램 관리 정책이 충돌하면 앱에 배포된 정책에서 충돌한 특정 설정 값이 제거됩니다. 앱이 기본으로 제공되는 충돌 값을 사용합니다.
 
 그 이후의 앱 또는 사용자에 대한 배포에서 모바일 앱 관리 정책이 충돌하는 경우에는 충돌한 특정 설정 값이 앱에 배포된 모바일 앱 관리 정책에 업데이트되지 않습니다. 앱이 해당 설정에 대해 기존 값을 사용합니다.
@@ -194,6 +194,6 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

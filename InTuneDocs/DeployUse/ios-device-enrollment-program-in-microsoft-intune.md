@@ -2,8 +2,8 @@
 title: "iOS 장치용 Apple DEP 관리 | Microsoft Intune"
 description: "“무선으로” iOS DEP(장비 등록 프로그램)를 통해 구매한 iOS 장치를 등록하는 등록 프로필을 배포하여 Apple 장치를 관리할 수 있습니다."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: staciebarker
+ms.author: stabar
 manager: arob98
 ms.date: 07/19/2016
 ms.topic: article
@@ -14,16 +14,16 @@ ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 021c02c9a148746a76309efc819b9e28a2748c4f
-ms.openlocfilehash: b608d6353db2f37eed03d34c9216726fa7cd1cb2
+ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
+ms.openlocfilehash: 1bc39e7e91b1511ffb99e92e569df0a7153cc06f
 
 
 ---
 
-# 회사 소유 장치 등록 프로그램 iOS 장치 등록
+# <a name="enroll-corporateowned-device-enrollment-program-ios-devices"></a>회사 소유 장치 등록 프로그램 iOS 장치 등록
 Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해 구매한 iOS 장치를 등록하는 등록 프로필을 배포할 수 있습니다. 등록 패키지는 장치에 대한 설정 도우미 옵션을 포함할 수 있습니다. DEP를 통해 등록된 장치는 사용자가 등록을 취소할 수 없습니다.
 
-## Microsoft Intune을 사용한 iOS 장치용 Apple DEP 관리
+## <a name="apple-dep-management-for-ios-devices-with-microsoft-intune"></a>Microsoft Intune을 사용한 iOS 장치용 Apple DEP 관리
 Apple DEP(장치 등록 프로그램)로 회사 소유의 iOS 장치를 관리하려면 조직이 Apple DEP에 가입하고 해당 프로그램을 통해 장치를 받아야 합니다. 해당 프로세스의 세부 정보는 [https://deploy.apple.com](https://deploy.apple.com)에서 제공됩니다. 이 프로그램의 이점 중 하나는 USB 케이블을 사용해서 각 장치를 컴퓨터에 연결하지 않고도 장치를 자동 설치할 수 있다는 것입니다.
 
 회사 소유의 iOS 장치를 DEP에 등록하려면 Apple의 DEP 토큰이 필요합니다. Intune에서는 이 토큰을 통해 회사에서 소유한 DEP 참가 장치에 대한 정보를 동기화할 수 있습니다. 또한 Apple에 등록 프로필을 업로드하고 이러한 프로필에 장치를 할당할 수 있습니다.
@@ -107,15 +107,15 @@ Apple DEP(장치 등록 프로그램)로 회사 소유의 iOS 장치를 관리�
 
 8.  **사용자에게 장치 배포** 이제 회사 소유 장치를 사용자에게 배포할 수 있습니다. IOS 장치를 설정하는 경우에 Intune에 관리용으로 등록됩니다.
 
-## Intune 그룹 할당 변경
+## <a name="changes-to-intune-group-assignments"></a>Intune 그룹 할당 변경
 
 11월부터 장치 그룹 관리가 Azure Active Directory로 이동됩니다. Azure Active Directory 그룹으로 전환된 후에는 그룹 할당이 **회사 등록 프로필** 옵션에 나타나지 않습니다. 이 변경은 몇 달에 걸쳐 진행될 예정이므로 당장 변경 내용이 확인되지 않을 수 있습니다. 새 포털로 이동하고 나면 회사 등록 프로필 이름에 따라 동적 장치 그룹 할당을 정의할 수 있습니다. 새 동적 장치 그룹 할당을 정의하면 장치 그룹에 미리 할당된 장치가 정책과 앱이 배포된 상태에서 그룹에 자동으로 등록됩니다. [Azure Active Directory 그룹에 대한 자세한 정보](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/)
 
-### 참고 항목
+### <a name="see-also"></a>참고 항목
 [장치 등록을 위한 필수 조건](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

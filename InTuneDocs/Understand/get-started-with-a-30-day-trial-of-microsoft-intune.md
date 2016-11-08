@@ -14,13 +14,13 @@ ms.assetid: 619a1d11-3d22-4635-8f70-770eba3e1712
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 581e880fa4308ec627f5b2c1242fb5b30b713743
-ms.openlocfilehash: 3973ac11d4734b17f905e88259863d7ddb59c1f4
+ms.sourcegitcommit: a4f7a503417938eabb4334757dcf12a63f082fd3
+ms.openlocfilehash: 559917b5b3c12534a5aa5d5eb5247d36e4ac1728
 
 
 ---
 
-# Intune 평가 가이드
+# <a name="intune-evaluation-guide"></a>Intune 평가 가이드
 모바일 장치와 컴퓨터를 관리할 수 있는 Intune의 무료 30일 평가판을 설치하는 과정은 빠르고 간단합니다. 평가판에서 몇 가지 간단한 단계만 거치면 최대 100명의 사용자와 장치를 추가하고, 그룹을 설정하고, 규정 준수 정책을 구성하고, 모바일 장치 및 컴퓨터를 등록하고 관리할 수 있습니다.
 
 이 항목에서는 Intune 평가판을 실행하는 기본적인 방법과 Intune의 특징과 기능을 평가할 수 있는 서비스의 개요를 알아봅니다.
@@ -29,7 +29,7 @@ ms.openlocfilehash: 3973ac11d4734b17f905e88259863d7ddb59c1f4
 
 <iframe width="675" height="480" src="https://www.youtube.com/embed/ltcZvm4VOFU" frameborder="0" allowfullscreen></iframe>
 
-## 시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에
 Intune을 시작하기 전에 다음이 필요합니다.
 
 -   Silverlight 지원 웹 브라우저가 포함된 장치. 이 장치를 사용하여 Intune 사용자 계정을 만들고(**Office 365 관리 센터**) 장치, 그룹 및 정책을 관리(**Intune 관리 콘솔**)할 웹 사이트에 액세스할 수 있습니다.
@@ -46,7 +46,7 @@ Intune을 시작하기 전에 다음이 필요합니다.
     |Windows 10, Windows RT 8.1 또는 Windows 8.1 장치|Windows RT 및 Windows 장치 등록을 위한 인증서 요구 사항은 없습니다.|[Microsoft Intune을 사용하여 Windows PC 클라이언트 설치](/Intune/Deploy-Use/install-the-windows-pc-client-with-microsoft-intune)|
     |iOS 7.1 이상|APNs(Apple Push Notification service) 인증서를 가져옵니다.|[Microsoft Intune을 사용하여 iOS 및 Mac 관리 설정](/Intune/Deploy-Use/set-up-ios-and-mac-management-with-microsoft-intune)에 설명된 대로 Apple에서 Apple Push Notification Service 인증서를 요청합니다.|
 
-## Intune의 30일 평가판을 완료하기 위한 단계
+## <a name="steps-to-complete-a-30day-evaluation-of-intune"></a>Intune의 30일 평가판을 완료하기 위한 단계
 - [1단계: 30일 평가판에 로그인 또는 등록](get-started-with-a-30-day-trial-of-microsoft-intune-step-1.md). Intune에 로그인하거나 등록하기 전에 기존 계정을 사용하여 로그인하거나 Microsoft Intune의 30일 평가판에만 사용할 임시 계정을 만들 것인지 여부를 고려해야 합니다.
 - [2단계: 사용자 추가](get-started-with-a-30-day-trial-of-microsoft-intune-step-2.md). 계정을 설정했으므로 이제 Intune에 개별 사용자 계정을 추가하거나 여러 사용자를 일괄 추가할 수 있습니다(이 섹션의 지침 참조). 시작하기 전에 Intune에서 관리자 계정을 처리하는 방법을 이해하는 것이 중요합니다.
 - [3단계: 사용자 및 장치를 구성하는 그룹 만들기](get-started-with-a-30-day-trial-of-microsoft-intune-step-3.md). Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할 수 있습니다. 지리적 위치, 부서, 하드웨어 특성 등의 조직 요구 사항에 맞게 그룹을 설정한 후 사용자 집합에 대한 정책 설정, 장치 집합에 대한 응용 프로그램 배포 등의 다양한 관리 작업을 수행하는 데 사용할 수 있습니다.
@@ -56,17 +56,17 @@ Intune을 시작하기 전에 다음이 필요합니다.
 - [7단계: 다음 단계](get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md). Intune 유료 구독으로 이동할 준비 및 Intune "FastTrack 센터 혜택 활용.
 
 
-### 다음 단계
+### <a name="next-steps"></a>다음 단계
 30일 평가판 구독을 시작할 때입니다.
 
 >[!div class="step-by-step"]
 [**Intune에 등록** &rarr;](.\get-started-with-a-30-day-trial-of-microsoft-intune-step-1.md)
 
-### 참고 항목
+### <a name="see-also"></a>참고 항목
 [Intune 빠른 시작 가이드](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune)
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

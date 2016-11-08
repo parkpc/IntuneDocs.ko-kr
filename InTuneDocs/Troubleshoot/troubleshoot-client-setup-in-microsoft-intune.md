@@ -2,7 +2,8 @@
 title: "클라이언트 설정 문제 해결 | Microsoft Intune"
 description: "일반적인 클라이언트 설정 문제를 해결합니다."
 keywords: 
-author: Nbigman
+author: staciebarker
+ms.author: staciebarker
 manager: angrobe
 ms.date: 08/02/2016
 ms.topic: article
@@ -13,16 +14,16 @@ ms.assetid: e46d292b-1d16-46db-a87f-d53eefa4d22a
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb0aeac2f94dfde50d9398b09c6b21c7ae40624
-ms.openlocfilehash: 3f7e5752780d7159ce3081ec7a194f4e81e4cd16
+ms.sourcegitcommit: 889a13bd50943b9cdf0f40d50b6f8ce263dde56d
+ms.openlocfilehash: e37b5da81150f89fce1ee3d57bd84de0ff7fb76f
 
 
 ---
 
-# Microsoft Intune에서 클라이언트 설정 문제 해결
+# <a name="troubleshoot-client-setup-in-microsoft-intune"></a>Microsoft Intune에서 클라이언트 설정 문제 해결
 다음 정보를 사용하여 일반적인 클라이언트 설정 문제를 해결할 수 있습니다. 이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
 
-## 클라이언트 설치 실패
+## <a name="client-installation-fails"></a>클라이언트 설치 실패
 
 -   [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에 컴퓨터에 대한 클라이언트 소프트웨어 배포 경고가 표시되지 않으면, 컴퓨터의 인터넷 연결 및 프록시 구성을 확인하고 컴퓨터가 서비스 URL([https://manage.microsoft.com](https://manage.microsoft.com/))과 통신할 수 있는지 확인합니다. 그런 다음 클라이언트 소프트웨어 설치를 다시 시도해 보세요.
 
@@ -48,15 +49,15 @@ ms.openlocfilehash: 3f7e5752780d7159ce3081ec7a194f4e81e4cd16
 
     -   **심각도** - 경고의 심각도를 나타냅니다.
 
-## 컴퓨터 등록 패키지가 다운로드되지 않음
+## <a name="computer-enrollment-package-doesnt-download"></a>컴퓨터 등록 패키지가 다운로드되지 않음
 **문제:** 컴퓨터 등록을 시도하는 동안 다음과 같은 문제가 발생합니다.
 -  등록 패키지 다운로드 실패
 -  다운로드 대화 상자가 표시되지만 시간이 초과됨
 
 **해결 방법:** 다운로드에 사용 중인 브라우저에서, 다운로드가 실행되는 동안, 다운로드가 활성화되어 있는지 확인하고, 암호화된 파일을 로컬 디스크에 저장할 수 있는지 확인합니다.
 
-## 0x80040154 오류 코드와 함께 클라이언트 설치 중단
-**문제점:**
+## <a name="client-installation-hangs-with-error-code-0x80040154"></a>0x80040154 오류 코드와 함께 클라이언트 설치 중단
+**문제:**
 
 -  등록 중단 시 클라이언트 설치
 
@@ -69,10 +70,10 @@ PC에 중요 소프트웨어 업데이트가 없는 것이 원인일 수 있습�
 **해결 방법:** [Microsoft Intune에서 소프트웨어 업데이트를 사용하여 Windows PC를 최신 상태로 유지](/intune/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune) 항목의 설명에 따라, 소프트웨어 업데이트 정책에 중요 업데이트 설치가 활성화되어 있는지 확인합니다.
 
 
-## policyplatform.log의 Microsoft Intune 정책 관련 오류
+## <a name="microsoft-intune-policyrelated-errors-in-policyplatformlog"></a>policyplatform.log의 Microsoft Intune 정책 관련 오류
 비 MDM Windows 장치의 경우 policyplatform.log 파일의 정책 오류는 장치의 Windows UAC(사용자 계정 컨트롤)에서 기본값이 아닌 설정을 사용한 결과일 수 있습니다. 기본값이 아닌 일부 UAC 설정은 Microsoft Intune 클라이언트 설치와 정책 실행에 영향을 줄 수 있습니다.
 
-### UAC 문제를 해결하려면
+### <a name="to-resolve-uac-issues"></a>UAC 문제를 해결하려면
 
 1.  [Microsoft Intune 관리에서 데이터 및 장치 사용 중지](/intune/deploy-use/retire-devices-from-microsoft-intune-management) 항목의 설명에 따라, 컴퓨터 사용을 중지합니다.
 
@@ -85,9 +86,9 @@ PC에 중요 소프트웨어 업데이트가 없는 것이 원인일 수 있습�
 
 4.  알림 슬라이더를 기본 설정으로 이동합니다.
 
-## Microsoft Intune 관리자 콘솔에서 클라이언트를 제거하지 않을 경우 수행할 작업
+## <a name="what-to-do-if-the-client-will-not-uninstall-from-the-microsoft-intune-administrator-console"></a>Microsoft Intune 관리자 콘솔에서 클라이언트를 제거하지 않을 경우 수행할 작업
 
-### Microsoft Intune 명령줄 도구를 사용하여 클라이언트 소프트웨어를 제거하려면
+### <a name="to-remove-the-client-software-by-using-the-microsoft-intune-command-line-tool"></a>Microsoft Intune 명령줄 도구를 사용하여 클라이언트 소프트웨어를 제거하려면
 
 1.  관리자 모드에서 명령 프롬프트를 엽니다.
 
@@ -95,7 +96,7 @@ PC에 중요 소프트웨어 업데이트가 없는 것이 원인일 수 있습�
 
 3.  다음 명령을 실행합니다. ``ProvisioningUtil.exe /UninstallAgents /MicrosoftIntune``
 
-## 클라이언트 설치 오류 코드
+## <a name="client-installation-error-codes"></a>클라이언트 설치 오류 코드
 다음 표에는 클라이언트 소프트웨어를 설치하지 못했을 때 **경고** 에 표시될 수 있는 오류 코드가 설명되어 있습니다. 여기에는 각 오류 코드가 나타내는 문제를 해결할 수 있는 권장 방법이 제시되어 있습니다.
 
 |오류 코드|가능한 문제|권장되는 해결 방법|
@@ -116,16 +117,16 @@ PC에 중요 소프트웨어 업데이트가 없는 것이 원인일 수 있습�
 |**0x80043008**|Microsoft Online Management Updates 서비스를 시작할 수 없습니다.|[Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md) 항목의 설명에 따라, 지원 센터에 문의하세요.|
 |**0x80043009**|클라이언트 컴퓨터가 이미 서비스에 등록되어 있습니다.|클라이언트 컴퓨터를 서비스에 다시 등록하기 전에 사용 중지해야 합니다. 지침은 [Microsoft Intune 관리에서 장치 사용 중지](/intune/deploy-use/retire-devices-from-microsoft-intune-management) 항목을 참조하세요.|
 |**0x8004300B**|클라이언트를 실행 중인 Windows 버전이 지원되지 않으므로 클라이언트 소프트웨어 설치 패키지를 실행할 수 없습니다.|Intune에서 클라이언트 컴퓨터에서 실행 중인 Windows 버전을 지원하지 않습니다. 지원되는 운영 체제 목록은 [Microsoft Intune의 네트워크 인프라 요구 사항](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune) 항목을 참조하세요.|
-|**0xAB2**|Windows Installer에서 사용자 지정 작업에 대한 VBScript 런타임에 액세스할 수 없습니다.|이 오류는 DLL(동적 연결 라이브러리)에 기반한 사용자 지정 작업으로 인해 발생합니다. DLL 문제를 해결하려면 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues(Microsoft 고객지원 기술 자료 문서 198038: 패키지 및 배포 문제에 유용한 도구)](http://go.microsoft.com/fwlink/?LinkID=234255)에 설명된 도구를 사용해야 할 수 있습니다.|
+|**0xAB2**|Windows Installer에서 사용자 지정 작업에 대한 VBScript 런타임에 액세스할 수 없습니다.|이 오류는 DLL(동적 연결 라이브러리)에 기반한 사용자 지정 작업으로 인해 발생합니다. DLL 문제를 해결하려면 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues(Microsoft 지원 기술 자료 198038: 패키지 및 배포 문제에 유용한 도구)](http://go.microsoft.com/fwlink/?LinkID=234255)에 설명된 도구를 사용해야 할 수 있습니다.|
 |**0x8004300f**|System Center Configuration Manager 클라이언트가 이미 설치되어 있어서 소프트웨어를 설치할 수 없습니다.|Configuration Manager 클라이언트를 제거한 후 클라이언트 소프트웨어 설치를 다시 시도하십시오.|
 |**0x80043010**|OMADM(Open Mobile Alliance Device Management) 클라이언트가 이미 설치되어 있어서 소프트웨어를 설치할 수 없습니다.|OMADM 클라이언트를 등록 해제한 후 클라이언트 소프트웨어 설치를 다시 시도하십시오.|
 설치 문제가 지속되면 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라, 지원 센터에 문의합니다. 지원 엔지니어가 확인할 수 있도록 클라이언트 컴퓨터 등록 로그(%*programfiles*%\Microsoft\OnlineManagement\Logs\Enrollment.log 및 %*userprofile*%\AppData\Local\Microsoft\OnlineManagement\Logs\Enrollement.log에 있음) 및 Windows 업데이트 로그(%*windir*%\windowsupdate.log)를 설정합니다.
 
-### 다음 단계
+### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Nov16_HO1-->
 
 
