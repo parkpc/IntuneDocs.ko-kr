@@ -14,8 +14,8 @@ ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eba2421fb929d21eb36c273eb6cb43a06ac03cb4
-ms.openlocfilehash: ed92874cce2877d31d83a619ec8ffb63a57cd5c3
+ms.sourcegitcommit: 738b6bedcefbfd8bf0fa7bde5b86c79293af527e
+ms.openlocfilehash: 7d239a80ed68d39b2a7179a45178ba6ae11c5423
 
 
 ---
@@ -106,7 +106,7 @@ Windows 설치 프로그램 완료 시 대상 컴퓨터가 다시 시작되면 *
 
 ## <a name="instruct-users-to-selfenroll"></a>사용자에게 직접 등록 지시
 
-사용자가 [회사 포털 웹사이트](http://portal..manage.microsoft.com)로 이동하여 Intune 클라이언트 소프트웨어를 설치할 수 있습니다. 웹 포털에서 장치가 Windows PC임을 감지할 수 있으면 Intune 소프트웨어 클라이언트를 다운로드하여 PC를 등록하라는 메시지가 표시됩니다. 소프트웨어가 다운로드되면 사용자는 소프트웨어를 설치하여 PC를 관리 상태로 설정할 수 있습니다.
+사용자가 [회사 포털 웹사이트](http://portal.manage.microsoft.com)로 이동하여 Intune 클라이언트 소프트웨어를 설치할 수 있습니다. 웹 포털에서 장치가 Windows PC임을 감지할 수 있으면 Intune 소프트웨어 클라이언트를 다운로드하여 PC를 등록하라는 메시지가 표시됩니다. 소프트웨어가 다운로드되면 사용자는 소프트웨어를 설치하여 PC를 관리 상태로 설정할 수 있습니다.
 
 ![Intune 소프트웨어 클라이언트를 다운로드하라는 메시지가 표시된 Intune 포털](../media/software-client-download.png)
 
