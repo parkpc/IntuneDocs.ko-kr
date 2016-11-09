@@ -1,6 +1,5 @@
 # [이해 및 탐색](introduction-to-microsoft-intune.md)
 ## [Intune 소개](introduction-to-microsoft-intune.md)
-## [최신 Windows 관리](modern-windows-management)
 ## [Intune 평가 가이드](get-started-with-a-30-day-trial-of-microsoft-intune.md)
 ### [30일 평가판에 로그인 또는 등록](get-started-with-a-30-day-trial-of-microsoft-intune-step-1.md)
 ### [사용자 추가](get-started-with-a-30-day-trial-of-microsoft-intune-step-2.md)
@@ -20,6 +19,6 @@
 # [문제 해결](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Oct16_HO4-->
 
 
