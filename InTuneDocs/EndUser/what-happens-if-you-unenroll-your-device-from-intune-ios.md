@@ -3,6 +3,7 @@ title: "Intune에서 iOS 장치 등록을 취소하면 어떻게 되나요? | Mi
 description: 
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -14,8 +15,16 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
 ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
 ms.openlocfilehash: 05c94004bf8a4c26ad8063f3e5dc0ba581022e0a
+||||||| merged common ancestors
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: 4fe434dd58645bb0d9bed83aebd78bbdef8c4729
+=======
+ms.sourcegitcommit: 2bc39ae41779e02882a5edf3698cb0e6976caec2
+ms.openlocfilehash: a47d3fc5c3a2063e49e9f250e15eb8d6126bb903
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
 ---
@@ -45,8 +54,12 @@ Intune에서 iOS 장치 등록을 취소하면:
 
 
 
-
-
+<<<<<<< HEAD
 <!--HONumber=Sep16_HO3-->
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO5-->
+=======
+<!--HONumber=Oct16_HO3-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 

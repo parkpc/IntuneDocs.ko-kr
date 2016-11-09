@@ -3,6 +3,7 @@ title: "회사 포털을 사용하여 iOS 장치를 다시 설정하면 어떻�
 description: 
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

@@ -3,8 +3,15 @@ title: "인증서 프로필 구성 | Microsoft Intune"
 description: "Intune 인증서 프로필을 만드는 방법을 알아봅니다."
 keywords: 
 author: nbigman
+ms.author: nbigman
 manager: angrobe
+<<<<<<< HEAD
 ms.date: 09/08/2016
+||||||| merged common ancestors
+ms.date: 07/25/2016
+=======
+ms.date: 10/25/2016
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +20,16 @@ ms.assetid: 679a20a1-e66f-4b6b-bd8f-896daf1f8175
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
 ms.sourcegitcommit: 0ced62efd04803943cbbfd8cecef907409a03c0b
 ms.openlocfilehash: c51c5ae199ca2950dc0371b400727af534a70f09
+||||||| merged common ancestors
+ms.sourcegitcommit: 8e3f7cac8eb3495aad3835ec4713d67a58383c66
+ms.openlocfilehash: 8b08f8fde6136b8eca61f6ae7a8c21635f7d452e
+=======
+ms.sourcegitcommit: 7b4acce1b1861ca2c2d1432b0258ad1e95e46d2a
+ms.openlocfilehash: d4fd80ad7819911b6bf47ccd51e62bebdec24f04
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
 ---
@@ -38,6 +53,7 @@ SCEP(단순 인증서 등록 프로토콜) 또는 PKCS #12(.PFX) 인증서 프�
 
 ### 신뢰할 수 있는 인증서 프로필을 만들려면
 
+<<<<<<< HEAD
 1.  [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택합니다.
 2.  다음의 정책 유형 중 하나를 추가합니다.
     - **Android &gt; 신뢰할 수 있는 인증서 프로필(Android 4 이상)**
@@ -45,21 +61,69 @@ SCEP(단순 인증서 등록 프로토콜) 또는 PKCS #12(.PFX) 인증서 프�
     - **Mac OS X &gt; 신뢰할 수 있는 인증서 프로필(Mac OS X 10.9 이상)**
     - **Windows &gt; 신뢰할 수 있는 인증서 프로필(Windows 8.1 이상)**
     - **Windows &gt; 신뢰할 수 있는 인증서 프로필(Windows Phone 8.1 이상)**
+||||||| merged common ancestors
+1.  [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택합니다.
+2.  다음의 정책 유형 중 하나를 추가합니다.
+    - **Android &gt; 신뢰할 수 있는 인증서 프로필(Android 4 이상)**
+    - **iOS &gt; 신뢰할 수 있는 인증서 프로필(iOS 7.1 이상)**
+    - **Mac OS X &gt; 신뢰할 수 있는 인증서 프로필(Mac OS X 10.9 이상)**
+    - **Windows &gt; 신뢰할 수 있는 인증서 프로필(Windows 8.1 이상)**
+    - **Windows &gt; 신뢰할 수 있는 인증서 프로필(Windows Phone 8.1 이상)**
+=======
+1.  [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택하고 장치 플랫폼을 선택합니다. 다음 장치에 대해 신뢰할 수 있는 인증서 프로필을 만들 수 있습니다.
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+
+-  Android 4 이상
+
+-  Android for Work
+
+-  iOS 7.1 이상
+
+-  Mac OS X 10.9 이상
+
+<<<<<<< HEAD
+3.  요청된 정보를 입력하여 Android, iOS, Mac OS X, Windows 8.1 또는 Windows Phone 8.1용으로 신뢰할 수 있는 인증서 프로필 설정을 구성합니다. 
+4.  **인증서 파일** 설정에서 발급 CA에서 내보낸 신뢰할 수 있는 루트 CA 인증서(.cer 파일)를 가져옵니다. 장치에 둘 이상의 인증서 저장소가 있는 경우 **대상 저장소** 설정은 Windows 8.1 이상을 실행하는 장치에만 적용됩니다.
+    
+||||||| merged common ancestors
+3.  요청된 정보를 입력하여 Android, iOS, Mac OS X, Windows 8.1 또는 Windows Phone 8.1용으로 신뢰할 수 있는 인증서 프로필 설정을 구성합니다.
+
+    - **인증서 파일** 설정에서 발급 CA에서 내보낸 신뢰할 수 있는 루트 CA 인증서(.cer 파일)를 가져옵니다. 장치에 둘 이상의 인증서 저장소가 있는 경우 **대상 저장소** 설정은 Windows 8.1 이상을 실행하는 장치에만 적용됩니다.
+    -  **주체 이름 형식**에서 **사용자 지정**을 선택하여 사용자 지정 주체 이름 형식을 입력합니다.  
+        현재 사용자 지정 형식에 지원되는 두 변수는 `Common Name (CN)` 및 `Email (E)`입니다. 이러한 변수 및 정적 문자열의 조합을 사용하여 다음과 같은 사용자 지정 주체 이름 형식을 만들 수 있습니다.  
+
+        `CN={{UserName}},E={{EmailAddress}},OU=Mobile,O=Finance Group,L=Redmond,ST=Washington,C=US`  
+
+        이 예에서는 관리자가 `CN` 및 `E` 변수 외에 조직 구성 단위, 조직, 위치, 상태 및 국가 값에 해당하는 문자열을 사용하는 주체 이름 형식을 만들었습니다. [CertStrToName 함수](https://msdn.microsoft.com/en-us/library/windows/desktop/aa377160.aspx)에는 지원되는 문자열이 나열됩니다.  
+=======
+-  Windows 8.1 이상
+
+-  Windows Phone 8.1 이상
+
+
+2.  **신뢰할 수 있는 인증서 프로필** 정책을 추가합니다.
 
     자세한 정보: [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 
 3.  요청된 정보를 입력하여 Android, iOS, Mac OS X, Windows 8.1 또는 Windows Phone 8.1용으로 신뢰할 수 있는 인증서 프로필 설정을 구성합니다. 
 4.  **인증서 파일** 설정에서 발급 CA에서 내보낸 신뢰할 수 있는 루트 CA 인증서(.cer 파일)를 가져옵니다. 장치에 둘 이상의 인증서 저장소가 있는 경우 **대상 저장소** 설정은 Windows 8.1 이상을 실행하는 장치에만 적용됩니다.
     
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 4.  **정책 저장**을 선택합니다.
 
 새 정책이 **정책** 작업 영역에 표시됩니다. 이제 해당 정책을 배포할 수 있습니다.
+
+> [!NOTE]
+>
+> Android 및 Android for Work 장치는 제3자가 신뢰할 수 있는 인증서를 설치했다는 알림을 표시합니다.
+    
 
 ## **태스크 3**: SCEP 또는 .PFX 인증서 프로필 만들기
 신뢰할 수 있는 CA 인증서 프로필을 만든 후에는 사용하려는 각 플랫폼용으로 SCEP 또는 .PFX 인증서 프로필을 만듭니다. SCEP 인증서 프로필을 만들 때는 같은 플랫폼용으로 신뢰할 수 있는 인증서 프로필을 지정해야 합니다. 그러면 두 인증서 프로필이 연결되기는 하지만 각 프로필을 개별적으로 배포해야 합니다.
 
 ### SCEP 인증서 프로필을 만들려면
 
+<<<<<<< HEAD
 1.  [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택합니다.
 2.  다음의 정책 유형 중 하나를 추가합니다.
     - **Android &gt; SCEP 인증서 프로필(Android 4 이상)**
@@ -67,7 +131,32 @@ SCEP(단순 인증서 등록 프로토콜) 또는 PKCS #12(.PFX) 인증서 프�
     - **Mac OS X &gt; SCEP 인증서 프로필(Mac OS X 10.9 이상)**
     - **Windows &gt; SCEP 인증서 프로필(Windows 8.1 이상)**
     - **Windows &gt; SCEP 인증서 프로필(Windows Phone 8.1 이상)**
+||||||| merged common ancestors
+1.  [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택합니다.
+2.  다음의 정책 유형 중 하나를 추가합니다.
+    - **Android &gt; SCEP 인증서 프로필(Android 4 이상)**
+    - **iOS &gt; SCEP 인증서 프로필(iOS 7.1 이상)**
+    - **Mac OS X &gt; SCEP 인증서 프로필(Mac OS X 10.9 이상)**
+    - **Windows &gt; SCEP 인증서 프로필(Windows 8.1 이상)**
+    - **Windows &gt; SCEP 인증서 프로필(Windows Phone 8.1 이상)**
+=======
+1.  [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택하고 장치 플랫폼을 선택합니다.  다음 장치에 대한 SCEP 인증서 프로필을 만들 수 있습니다.
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
+-  Android 4 이상
+
+-  Android for Work
+
+-  iOS 7.1 이상
+
+-  Mac OS X 10.9 이상
+
+-  Windows 8.1 이상
+
+-  Windows Phone 8.1 이상
+
+2.  **SCEP 인증서 프로필** 정책 추가
+    
     자세한 정보: [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 
 3.  SCEP 인증서 프로필 설정을 구성하려면 프로필 구성 페이지의 지침을 따릅니다.
@@ -87,6 +176,7 @@ SCEP(단순 인증서 등록 프로토콜) 또는 PKCS #12(.PFX) 인증서 프�
 
 ### .PFX 인증서 프로필을 만들려면
 
+<<<<<<< HEAD
 1.  [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택합니다.
 2.  다음의 정책 유형 중 하나를 추가합니다.
   - **Android &gt; .PFX 인증서 프로필(Android 4 이상)**
@@ -94,6 +184,26 @@ SCEP(단순 인증서 등록 프로토콜) 또는 PKCS #12(.PFX) 인증서 프�
   - **Windows &gt; PKCS #12(.PFX) 인증서 프로필(Windows Phone 10 이상)**
   - **iOS > PKCS #12(.PFX) 인증서 프로필(iOS 8.0 이상)**    
     자세한 정보: [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
+||||||| merged common ancestors
+1.  [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택합니다.
+2.  다음의 정책 유형 중 하나를 추가합니다.
+  - **Android &gt; .PFX 인증서 프로필(Android 4 이상)**
+  - **Windows &gt; PKCS #12(.PFX) 인증서 프로필(Windows 10 이상)**
+  - **Windows &gt; PKCS #12(.PFX) 인증서 프로필(Windows Phone 10 이상)**
+  - **iOS > PKCS #12(.PFX) 인증서 프로필(iOS 7.1 이상)**    
+    자세한 정보: [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
+=======
+1.  [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택하고 장치 플랫폼을 선택합니다. .PFX 인증서는 아래의 운영 체제에서 지원됩니다.
+  - Android 4 이상
+  - Android for Work
+  - Windows 10 이상
+  - Windows Phone 10 이상
+  - iOS 8.0 이상    
+
+    
+2.  **.PFX 인증서 프로필** 정책을 추가합니다. 
+      자세한 정보: [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 3.  정책 양식에 요청된 정보를 입력합니다.
 4.  **정책 저장**을 선택합니다.
 
@@ -130,6 +240,12 @@ Intune용 기타 정책을 배포하는 것과 같은 방식으로 인증서 프
 
 
 
+<<<<<<< HEAD
 <!--HONumber=Sep16_HO3-->
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO5-->
+=======
+<!--HONumber=Oct16_HO2-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 

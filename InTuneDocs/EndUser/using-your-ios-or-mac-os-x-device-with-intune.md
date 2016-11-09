@@ -3,6 +3,7 @@ title: "Intune에서 iOS 또는 Mac OS X 장치 사용 | Microsoft Intune"
 description: "Intune에서 장치가 등록될 때 iOS 또는 Mac OS X 모바일 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록"
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -14,8 +15,16 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
 ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
 ms.openlocfilehash: 6e84676a8ea1e149f73871ef1468c2da80fa221c
+||||||| merged common ancestors
+ms.sourcegitcommit: 20101b6c65bcab413441e16b3ac6a08a982e6a28
+ms.openlocfilehash: 3794a610996f5001e52f4d19d4cdafd849de3455
+=======
+ms.sourcegitcommit: 2a3ad9562d271ee67b49db28b0fc62caec9f3050
+ms.openlocfilehash: e894ad75fd6e86d5d93393886b37e2af87b5eefc
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
 ---
@@ -61,9 +70,17 @@ ms.openlocfilehash: 6e84676a8ea1e149f73871ef1468c2da80fa221c
 - [장치에 일련 번호를 찾으려면 어떻게 하나요?](how-do-i-find-the-serial-number-on-my-device-ios.md)
 - [장치에 필요한 최소 운영 체제 버전이 없는 경우](device-doesnt-have-the-required-minimum-operating-system-version-ios.md)
 - [장치가 최대 운영 체제 버전에 부합되지 않는 경우](device-doesnt-comply-with-the-maximum-operating-system-version-ios.md)
+- [iOS 장치에 Lookout for Work를 설치하라는 메시지가 표시됨](you-are-prompted-to-install-lookout-for-work-ios.md)
+- [iOS 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](you-need-to-resolve-a-threat-found-by-lookout-for-work-ios.md)
 
 
 
+<<<<<<< HEAD
 <!--HONumber=Sep16_HO3-->
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO5-->
+=======
+<!--HONumber=Oct16_HO2-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 

@@ -2,9 +2,16 @@
 title: "Intune에서 Windows 10 장치 등록 | Microsoft Intune"
 description: "Intune에서 Windows 10 모바일 또는 데스크톱 장치를 등록하는 방법을 설명합니다."
 keywords: 
-author: Staciebarker
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
+<<<<<<< HEAD
 ms.date: 09/19/2016
+||||||| merged common ancestors
+ms.date: 06/27/2016
+=======
+ms.date: 10/18/2016
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +20,22 @@ ms.assetid: 36250832-c6fd-4e8d-b681-de735023ebc3
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
 ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
 ms.openlocfilehash: fb950108f3232af8049e90af977b0f3f9f2b3576
+||||||| merged common ancestors
+ms.sourcegitcommit: d1df63c349685333fbebcbba527e46b1f3047f43
+ms.openlocfilehash: a34d3fb4fe45ad4dd6da3dfacc832f0e97b5bee6
+=======
+ms.sourcegitcommit: 9e0321b23bbbaaa16c28c23e56b5fbcaee0d3c24
+ms.openlocfilehash: 75f19a1c613b2d018e0cb89862f15aa4be2bc138
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
 ---
 
 
-# Intune에서 Windows 10 Mobile 또는 Windows 10 Desktop 장치 등록
+# <a name="enroll-your-windows-10-mobile-or-windows-10-desktop-device-in-intune"></a>Intune에서 Windows 10 Mobile 또는 Windows 10 Desktop 장치 등록
 
 회사 또는 학교에서 Microsoft Intune을 사용하는 경우 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 조직에서 회사 데이터 보안을 유지할 수 있습니다. 등록에 대해 자세히 알아보려면 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) 및 [IT 관리자가 장치에서 할 수 있는 일과 할 수 없는 일](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)을 참조하세요.
 
@@ -41,9 +56,9 @@ Windows 10 Mobile 또는 Windows 10 Desktop 장치를 등록하려면:
 
     ![계정](./media/w10-enroll-2-accounts-your-account.png)
 
-## 회사 또는 학교 액세스가 표시되는 경우 따라야 하는 절차
+## <a name="steps-to-follow-if-you-see-access-work-or-school"></a>회사 또는 학교 액세스가 표시되는 경우 따라야 하는 절차
 
-1.  **회사 또는 학교 액세스**를 탭합니다.
+1.  **회사 또는 학교 액세스**, **연결**을 차례로 탭합니다.
 
     ![회사 또는 학교 계정 액세스 탭하기](./media/w10-enroll-rs1-connect-to-work-or-school.png)
 
@@ -68,7 +83,7 @@ Windows 10 Mobile 또는 Windows 10 Desktop 장치를 등록하려면:
 위의 단계를 수행해도 여전히 회사 또는 학교 전자 메일 계정 및 파일에 액세스할 수 없는 경우 [회사 또는 학교 액세스가 표시되는 경우 따라야 하는 문제 해결 절차](troubleshoot-your-windows-10-device-windows.md#troubleshooting-steps-to-follow-if-you-see-access-work-or-school)의 단계를 수행합니다.
 
 
-## 내 계정이 표시되는 경우 따라야 하는 절차
+## <a name="steps-to-follow-if-you-see-your-account"></a>내 계정이 표시되는 경우 따라야 하는 절차
 
 1.  Windows **설정**으로 이동하여 **계정**을 탭합니다.
 
@@ -106,6 +121,12 @@ Windows 10 Mobile 또는 Windows 10 Desktop 장치를 등록하려면:
 
 
 
+<<<<<<< HEAD
 <!--HONumber=Sep16_HO3-->
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO5-->
+=======
+<!--HONumber=Oct16_HO1-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
