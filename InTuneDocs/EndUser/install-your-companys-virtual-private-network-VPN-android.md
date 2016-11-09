@@ -3,6 +3,7 @@ title: "회사의 VPN(가상 사설망) 설치 | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

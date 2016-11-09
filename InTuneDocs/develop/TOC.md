@@ -10,6 +10,12 @@
 # [문제 해결](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
 
 
+<<<<<<< HEAD
 <!--HONumber=Sep16_HO5-->
 
+||||||| merged common ancestors
+<!--HONumber=Jul16_HO3-->
+=======
+<!--HONumber=Oct16_HO2-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 

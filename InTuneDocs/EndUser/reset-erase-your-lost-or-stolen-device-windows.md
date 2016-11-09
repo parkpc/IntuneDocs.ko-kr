@@ -1,8 +1,9 @@
 ---
 title: "분실하거나 도난당한 Windows 장치 초기화(지우기) | Microsoft Intune"
-description: 
+description: "분실하거나 도난 당한 Windows 장치 초기화"
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -14,8 +15,16 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
 ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
 ms.openlocfilehash: c83dc6768dcd000fefedd4bae4ef87a2d69cef3b
+||||||| merged common ancestors
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: 8ac8f8a7c60c099f8fe943ba01b5fe20a376c93d
+=======
+ms.sourcegitcommit: f2283b5896541e58d7ae515cab9d4faa1e9df735
+ms.openlocfilehash: 4a206e30c1334681f82b8077da6191ef3e28e4b1
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
 ---
@@ -23,11 +32,11 @@ ms.openlocfilehash: c83dc6768dcd000fefedd4bae4ef87a2d69cef3b
 
 # 분실하거나 도난당한 장치 초기화(지우기)
 
-Intune에 등록한 휴대폰을 분실하거나 도난당한 경우에는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 사용하여 해당 휴대폰을 공장 기본 설정으로 초기화할 수 있습니다.
+Intune에 등록한 장치를 분실하거나 도난당한 경우에는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 사용하여 해당 휴대폰을 공장 기본 설정으로 초기화할 수 있습니다.
 
 
 > [!WARNING]
-> 장치를 공장 기본 설정으로 다시 설정하면 개인 정보와 작업 정보가 모두 장치에서 제거됩니다. 장치를 초기화할 때 발생하는 상황에 대한 자세한 내용은 [회사 포털을 사용하여 장치를 초기화하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-windows.md)를 참조하세요.
+> 장치를 공장 기본 설정으로 다시 설정하면 개인 정보와 작업 정보가 모두 장치에서 제거됩니다. 장치를 재설정할 때 발생되는 작업에 대한 자세한 내용은 [회사 포털을 사용하여 장치를 재설정하면 어떤 일이 생기나요?](what-happens-if-you-reset-your-device-using-the-company-portal-windows.md)를 참조하세요.
 
 
 1.  브라우저에서 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 열고 회사 계정에 로그인합니다.
@@ -40,8 +49,12 @@ Intune에 등록한 휴대폰을 분실하거나 도난당한 경우에는 [회�
 
 
 
-
-
+<<<<<<< HEAD
 <!--HONumber=Sep16_HO3-->
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO5-->
+=======
+<!--HONumber=Oct16_HO2-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
