@@ -3,7 +3,6 @@ title: "Intune에서 Windows 장치 등록 취소 | Microsoft Intune"
 description: "Intune에서 Windows 장치 등록을 취소하는 방법을 설명합니다."
 keywords: 
 author: Staciebarker
-ms.author: stabar
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: article
@@ -14,8 +13,8 @@ ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0d32aa982cf9d45da36f71be5554f31375521e35
-ms.openlocfilehash: b3dda0cda3600721db5f2ea73166652abff7a44d
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: 93374a2098447a11b164ae3fb5d7b1b3d4824806
 
 
 ---
@@ -45,11 +44,11 @@ Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows �
 
 1.  **PC 설정** &gt; **네트워크** &gt; **작업 공간**으로 이동합니다.
 
-2.  **작업 공간 연결**에서 **나가기**를 선택합니다.
+2.  **작업 공간 연결**에서 **나가기**를 탭합니다.
 
-3.  **장치 관리 설정**에서 **끄기**를 선택합니다.
+3.  **장치 관리 설정**에서 **끄기**를 탭합니다.
 
-4.  팝업 창이 열리면 **해제**를 선택합니다.
+4.  팝업 창이 열리면 **해제**를 탭합니다.
 
 ## Windows Phone 8.1 장치 등록 취소
 
@@ -65,6 +64,7 @@ Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows �
 
 
 
-<!--HONumber=Oct16_HO2-->
+
+<!--HONumber=Aug16_HO5-->
 
 

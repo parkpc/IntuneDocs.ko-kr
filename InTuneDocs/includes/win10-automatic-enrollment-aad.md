@@ -21,7 +21,7 @@
 
 5. Intune의 URL을 지정합니다.
 
-  - **MDM 등록 URL** – 기본값을 사용합니다.
+  - **MDM 등록 URL** – MDM 등록 URL로는 `https://enterpriseenrollment-s.manage.microsoft.com/EnrollmentServer/Discovery.svc`를 사용합니다.
   - **MDM 사용 약관 URL** – 기본값을 사용합니다. 장치를 등록할 때 이 URL에 사용자용 사용 약관이 표시됩니다.
   - **MDM 준수 URL** – 기본값을 사용합니다. 장치가 미준수 상태로 확인되면 이 URL과 함께 **액세스 거부** 메시지가 표시됩니다. 이 URL을 클릭하면 장치가 정책을 준수하지 않는 이유 및 장치를 다시 준수 상태로 설정하는 방법을 파악할 수 있는 페이지로 이동할 수 있습니다.
 
@@ -34,6 +34,6 @@
 7. **저장**을 선택합니다.
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Aug16_HO5-->
 
 

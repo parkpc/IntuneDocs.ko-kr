@@ -3,9 +3,8 @@ title: "모바일 장치 보안 정책 설정 | Microsoft Intune"
 description: "Intune을 사용하여 조직의 관리되는 장치에 배포할 수 있는 다양한 설정을 구성할 수 있습니다."
 keywords: 
 author: robstackmsft
-ms.author: robstack
 manager: angrobe
-ms.date: 10/11/2016
+ms.date: 07/12/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +13,8 @@ ms.assetid: e5ab3b76-08af-4893-b294-fb6627fdc4c6
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e95db6d0ccbe350984f11ce08749b700c2f5ad01
-ms.openlocfilehash: 279b2fbcbdc7bace99d99eca5bc766972dcea3b8
+ms.sourcegitcommit: 388426657c5fa96289f5e14a85e8c299e4b50037
+ms.openlocfilehash: ac19128499f078b4fe7d16713f18c78b248d38db
 
 
 
@@ -41,7 +40,6 @@ Intune 모바일 장치 보안 정책을 사용하여 조직의 관리되는 장
 
 > [!NOTE]
 > 일부 설정은 일부 장치에 적용할 수 없습니다. 구성할 수 있는 설정의 전체 목록은 아래 표를 참조하세요.
-> 2016년 10월부터 Microsoft Intune에서는 Windows 8 회사 포털 앱을 더 이상 지원하지 않습니다. 또한 Windows Phone 8 및 WinRT 플랫폼도 지원되지 않을 것입니다. 따라서 Windows Phone 8 또는 WinRT 장치를 등록하거나 업데이트할 수 없게 됩니다. 이미 등록된 Windows Phone 8, WinRT 및 Windows 8 장치는 계속 관리할 수 있습니다. 서비스 중단 없이 이러한 장치에 앱을 계속 배포하려면 Windows Phone 8 및 Windows 8 장치를 Windows 8.1 및 Windows Phone 8.1로 업데이트하고 해당하는 Windows 8.1 및 Windows Phone 8.1 회사 포털 앱을 사용하세요.
 
 ## 보안 설정
 
@@ -214,6 +212,6 @@ Windows RT를 실행하는 장치에 암호 길이 정책을 배포하면 사용
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Aug16_HO3-->
 
 

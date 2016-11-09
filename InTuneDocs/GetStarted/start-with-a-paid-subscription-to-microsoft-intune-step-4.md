@@ -3,7 +3,6 @@ title: "Intune 라이선스 관리 | Microsoft Intune"
 description: "Intune 구독에 대해 사용자에게 라이선스를 할당하는 방법을 설명합니다."
 keywords: 
 author: barlanmsft
-ms.author: barlan
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: get-started-article

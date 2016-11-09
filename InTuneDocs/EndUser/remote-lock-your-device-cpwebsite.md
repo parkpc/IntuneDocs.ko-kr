@@ -3,7 +3,6 @@ title: "회사 포털 웹 사이트에서 장치 원격 잠금 | Microsoft Intun
 description: 
 keywords: 
 author: Staciebarker
-ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -15,16 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-<<<<<<< HEAD
 ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
 ms.openlocfilehash: 0d3be16480feccacf26c11f738393df2b4c4d468
-||||||| merged common ancestors
-ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
-ms.openlocfilehash: c422d612e4d4447799d242fae91c963c922b99ce
-=======
-ms.sourcegitcommit: 08f31db90f324ef5f93076c4e13bfa5328a15adc
-ms.openlocfilehash: b53e57b28cbf2de2e7820ffd38fc94ef05b994b6
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
 ---
@@ -41,6 +32,7 @@ iOS | 지원됨
 Windows 10 Mobile | 휴대폰에 암호가 설정된 경우에만 지원됨     
 Windows 10 Desktop | 지원되지 않음  
 Windows Phone 8.1 | 휴대폰에 암호가 설정된 경우에만 지원됨
+Windows Phone 8.0 | 지원되지 않음
 PC(Windows 8.0 이전 버전) | 지원되지 않음       
 PC(Windows 8.1) | 지원되지 않음
 
@@ -72,12 +64,6 @@ PC(Windows 8.1) | 지원되지 않음
 
 
 
-<<<<<<< HEAD
 <!--HONumber=Sep16_HO3-->
-||||||| merged common ancestors
-<!--HONumber=Aug16_HO5-->
-=======
-<!--HONumber=Oct16_HO2-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 

@@ -3,7 +3,6 @@ title: "회사 포털 앱이 지원되지 않음 | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

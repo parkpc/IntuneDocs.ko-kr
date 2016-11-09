@@ -2,10 +2,9 @@
 title: "Intune에서 회사 포털 앱을 설치하고 iOS 또는 Mac OS X 장치를 등록하면 어떻게 되나요? | Microsoft Intune"
 description: 
 keywords: 
-author: barlan
-ms.author: barlan
+author: Staciebarker
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 7/7/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd54ec104a26ebae845dfe3942dac2e8d9dae4a9
-ms.openlocfilehash: fd5ad37706bc4d7f780c5059bda5305335b4ff68
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: b5ecb5b4c7629b04c679995b5788ee307bac79f0
 
 
 ---
@@ -26,13 +25,13 @@ ms.openlocfilehash: fd5ad37706bc4d7f780c5059bda5305335b4ff68
 
 Intune에서 회사 포털 앱을 설치하고 iOS 또는 Mac OS X 장치를 등록하면, 다음과 같은 용도로 회사 포털 앱을 사용할 수 있습니다.
 
--   회사 네트워크, 메일 및 작업 파일 액세스
+-   회사 네트워크, 전자 메일 및 작업 파일 액세스
 
 -   회사 포털에서 회사 앱 가져오기
 
 -   분실하거나 도난당한 경우 전화를 공장 설정으로 원격 초기화
 
--   회사 메일 계정을 자동으로 설정
+-   회사 메일 계정을 자동으로 구성
 
 Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하는 데 도움이 되도록 장치를 관리할 수 있는 권한을 IT 관리자에게 부여하는 것입니다.
 
@@ -76,7 +75,7 @@ Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하�
 
 -   사용 약관에 조건에 동의해야 합니다.
 
--   중요한 회사 데이터의 사진을 찍을 수 없도록 장치에서 카메라를 사용하거나 사용하지 않도록 설정합니다.
+-   장치에서 카메라를 사용하거나 사용하지 않도록 설정합니다.
 
 -   장치에서 웹 브라우징을 사용하거나 사용하지 않도록 설정합니다.
 
@@ -92,10 +91,12 @@ Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하�
 
 -   장치가 로밍 모드에 있는 동안 자동 파일 동기화를 사용하거나 사용하지 않도록 설정합니다. 자동 파일 동기화가 허용되는 경우 로밍 요금이 청구될 수 있습니다.
 
-의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+장치를 등록하는 방법은 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md)을 참조하세요.
+
+의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Aug16_HO5-->
 
 

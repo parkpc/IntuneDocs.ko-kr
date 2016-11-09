@@ -3,9 +3,8 @@ title: "KNOX에 대해 허용되거나 차단된 앱 | Microsoft Intune"
 description: "KNOX에 대해 허용되거나 차단되는 앱 목록을 만들 수 있도록 프로필을 사용자 지정합니다."
 keywords: 
 author: robstackmsft
-ms.author: robstack
 manager: angrobe
-ms.date: 10/10/2016
+ms.date: 08/09/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +13,8 @@ ms.assetid: bbc8e0df-7bf3-494e-8bc4-dac59a98ab41
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c7679d624ba22b2a062ef2534a642e38a5f57fde
-ms.openlocfilehash: 273627573f58e1bde4fd19c548ce87639f25ca4b
+ms.sourcegitcommit: 65d2c9c1f5d81dae33422bd4bf7c0e2e21bb96e4
+ms.openlocfilehash: 937e291f193f61329598395baa63c24d7fefa25f
 
 
 
@@ -24,7 +23,7 @@ ms.openlocfilehash: 273627573f58e1bde4fd19c548ce87639f25ca4b
 
 이 항목의 절차를 사용하여 다음 중 하나를 만들 수 있는 Microsoft Intune 사용자 지정 정책을 만듭니다.
 
-- 장치에서 실행되지 않도록 차단할 앱 목록. 이 목록에 있는 앱은 정책을 적용했을 때 이미 설치되어 있었더라도 실행이 차단됩니다.
+- 장치에서 실행되지 않도록 차단할 앱 목록. 다른 앱은 실행할 수 없습니다. 이 목록에 있는 앱은 정책을 적용했을 때 이미 설치되어 있었더라도 실행이 차단됩니다.
 - 장치 사용자가 Google Play 스토어에서 설치할 수 있도록 허용된 앱 목록. 나열된 앱만 설치할 수 있습니다. 다른 앱은 스토어에서 설치할 수 없습니다.
 
 이러한 설정은 Samsung KNOX를 실행하는 장치에서만 사용할 수 있습니다.
@@ -52,8 +51,7 @@ ms.openlocfilehash: 273627573f58e1bde4fd19c548ce87639f25ca4b
 
 4. **확인**을 클릭한 다음 **정책 저장**을 클릭합니다. 
 
->[!TIP]
-> Google Play 스토어에서 앱을 탐색하여 앱의 패키지 ID를 찾을 수 있습니다. 패키지 ID는 앱 페이지의 URL에 포함되어 있습니다. 예를 들어 Microsoft Word 앱의 패키지 ID는 **com.microsoft.office.word**입니다.
+>[팁] Google Play 스토어에서 앱을 탐색하여 앱의 패키지 ID를 찾을 수 있습니다. 패키지 ID는 앱 페이지의 URL에 포함되어 있습니다. 예를 들어 Microsoft Word 앱의 패키지 ID는 **com.microsoft.office.word**입니다.
 
 다음에 대상이 지정된 각 장치가 체크인되면 앱 설정이 적용됩니다.
 
@@ -72,6 +70,6 @@ ms.openlocfilehash: 273627573f58e1bde4fd19c548ce87639f25ca4b
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Aug16_HO3-->
 
 

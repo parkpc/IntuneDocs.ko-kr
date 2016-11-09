@@ -3,7 +3,6 @@ title: "손상된 iOS 장치를 다시 연결하는 방법 | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
-ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -15,33 +14,17 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-<<<<<<< HEAD
 ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
 ms.openlocfilehash: c47a7097d86ded8e6f38f0270352a7c432110464
-||||||| merged common ancestors
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 7a60094d13f3fc324f9a9bb80856c042c5be8e88
-=======
-ms.sourcegitcommit: 8eb98946c39b98d3c338b32a7d955818020ef478
-ms.openlocfilehash: 166c0708645d191abaaa73aa3143ca558d64ffd0
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
 ---
 
 # 손상된 iOS 장치를 다시 연결하는 방법
-IT 관리자가 사용자가 “탈옥된” 장치를 사용하고 있음을 감지했습니다. "탈옥"은 iOS에 의해 적용된 소프트웨어 제한이 제거된 것을 의미합니다. 이렇게 되면 보안을 손상시키고 회사 리소스에 위협이 될 수 있습니다. 
-
-이 경우 장치에서 회사 리소스에 더 이상 액세스할 수 없으며 IT 관리자에게 문의해야 합니다. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+IT 관리자가 사용자가 탈옥된 장치를 사용하고 있음을 감지했습니다. "탈옥"은 iOS에 의해 적용된 소프트웨어 제한이 제거되어 보안을 손상시키고 회사 리소스에 위협이 될 수 있음을 의미합니다. 이 경우 장치에서 회사 리소스에 더 이상 액세스할 수 없으며 IT 관리자에게 문의해야 합니다. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<<<<<<< HEAD
 <!--HONumber=Sep16_HO3-->
-||||||| merged common ancestors
-<!--HONumber=Aug16_HO4-->
-=======
-<!--HONumber=Oct16_HO2-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 

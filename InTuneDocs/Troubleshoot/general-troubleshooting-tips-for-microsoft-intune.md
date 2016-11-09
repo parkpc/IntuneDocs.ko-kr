@@ -2,10 +2,9 @@
 title: "일반적인 문제 해결 팁 | Microsoft Intune"
 description: "Intune 문제를 해결하는 데 도움이 되는 일반 리소스입니다."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: nbigman
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,19 +13,19 @@ ms.assetid: c86a4e4a-6b9f-4835-a3d3-61a3f5f4c1ec
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 266ee94f0c61a3f99824a0210ec6f7a205343b21
-ms.openlocfilehash: 93add0c558be2288cd4776f1976101c2eaa2a378
+ms.sourcegitcommit: ab7ccf4c72f8e8f3c67c65d99563fe6fbfdd42b9
+ms.openlocfilehash: 94c761071f4b578440297859662102b2b3080899
 
 
 ---
 
-# <a name="general-troubleshooting-tips-for-microsoft-intune"></a>Microsoft Intune에 대한 일반적인 문제 해결 팁
+# Microsoft Intune에 대한 일반적인 문제 해결 팁
 Microsoft Intune을 배포한 후에 구성이나 클라이언트에서 문제가 발생할 수 있습니다. 아래 리소스를 참조하면 문제의 원인을 파악하여 문제를 해결할 수 있습니다.
 
 > [!NOTE]
 > 지원 요청을 만들거나 기존 요청을 보려면 [Office 365 관리 센터를 방문](https://portal.office.com/admin/default.aspx)합니다. 지원 옵션에 대한 자세한 내용은 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하세요.
 
-## <a name="define-the-problem"></a>문제 정의
+## 문제 정의
 
 -   동작은 무엇인가요?
 
@@ -44,7 +43,7 @@ Microsoft Intune을 배포한 후에 구성이나 클라이언트에서 문제�
 
 -   서비스 상태를 확인했나요? 또한 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx)에서 Intune 서비스 상태를 모니터링할 수 있습니다. 왼쪽 창에서 **서비스 상태**를 선택합니다.
 
-## <a name="collect-available-data"></a>사용 가능한 데이터 수집
+## 사용 가능한 데이터 수집
 
 -   장치 로그. 장치 로그를 수집하는 방법에 대해 알아봅니다.
   - [USB 케이블을 사용하여 IT 관리자에게 Android 진단 데이터 로그 보내기](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android)
@@ -54,7 +53,7 @@ Microsoft Intune을 배포한 후에 구성이나 클라이언트에서 문제�
 
 -   관리 콘솔 데이터. 예를 들어 정책 구현 문제의 경우 [Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리](/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)에 설명된 대로 의도한 정책 및 해당 정책의 상태를 검사해야 합니다.
 
-## <a name="research-the-solution"></a>솔루션 연구
+## 솔루션 연구
 
 -   웹에서 해결 방법 검색. 예를 들어 0x80073CF0 오류가 발생하는 경우 웹에서 **technet intune 0x80073cf0**을 검색하여 이 문제를 해결하기 위한 제안 사항을 제공하는 [Microsoft Intune에서 앱 배포 문제 해결](troubleshoot-app-deployment-problems-in-microsoft-intune.md) 문서를 찾을 수 있습니다.
 
@@ -64,7 +63,7 @@ Microsoft Intune을 배포한 후에 구성이나 클라이언트에서 문제�
 
     지원 요청을 만들려면 [Office 365 관리 센터를 방문](https://portal.office.com/admin/default.aspx)합니다. 지원 옵션에 대한 자세한 내용은 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하세요.
 
-## <a name="community-resources"></a>커뮤니티 리소스
+## 커뮤니티 리소스
 이러한 커뮤니티 리소스에서 기타 유용한 정보를 찾을 수 있습니다.
 
 -   [Microsoft Intune 활용 안내서](http://social.technet.microsoft.com/wiki/contents/articles/23431.microsoft-intune-survival-guide.aspx)에는 Intune 구성, 유지 관리 및 문제 해결에 도움이 되는 다양한 리소스의 링크가 포함되어 있습니다.
@@ -75,10 +74,10 @@ Microsoft Intune을 배포한 후에 구성이나 클라이언트에서 문제�
 
 -   [Intune 포럼](https://social.technet.microsoft.com/Forums/home?category=microsoftintune&filter=alltypes&sort=lastpostdesc)
 
-### <a name="next-steps"></a>다음 단계
+### 다음 단계
 아래 나열된 항목에는 특정 문제에 대한 문제 해결 도움말이 있습니다. 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)에 설명된 대로 Microsoft 지원에 문의하세요.
 
-[Microsoft Intune에서 Endpoint Protection 문제 해결](troubleshoot-endpoint-protection-in-microsoft-intune.md)
+[Troubleshoot Endpoint Protection in Microsoft Intune](troubleshoot-endpoint-protection-in-microsoft-intune.md)
 
 [Microsoft Intune 관련 회사 리소스 액세스 문제 해결](troubleshoot-company-resource-access-problems-with-microsoft-intune.md)
 
@@ -94,6 +93,6 @@ Microsoft Intune을 배포한 후에 구성이나 클라이언트에서 문제�
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Aug16_HO3-->
 
 

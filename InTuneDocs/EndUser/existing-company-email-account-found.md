@@ -2,8 +2,7 @@
 title: "기존 회사 전자 메일 계정 찾음 | Microsoft Intune"
 description: 
 keywords: 
-author: barlanmsft
-ms.author: barlan
+author: Staciebarker
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -15,23 +14,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-<<<<<<< HEAD
 ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
 ms.openlocfilehash: ce231116ad405d274546cee81dbdd0b0909b2d01
-||||||| merged common ancestors
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 3fd4b6dbac9b3ad41ed0aedba7fecfb117193d50
-=======
-ms.sourcegitcommit: eebc35277aedabb2575b753afbaf9ea05b1555e8
-ms.openlocfilehash: 6b7123dc4ec0b7a73e6e3151ca9c66a65354f9de
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
 ---
 
-# <a name="existing-company-email-account-found"></a>기존 회사 전자 메일 계정을 찾을 수합니다
-
-회사 전자 메일 계정이 이미 있습니다. 회사 메일 계정에 계속 연결하려면 IT 관리자가 계정을 제대로 설정하고 관리할 수 있도록 다음 단계를 수행하세요.
+# 기존 회사 전자 메일 계정을 찾을 수합니다
+회사 전자 메일 계정이 이미 있습니다. 회사 전자 메일에 연결을 계속 하려면 IT 관리자에 제대로 설정 하 고 계정을 관리할 수 있도록 다음 단계를 수행 해야 합니다.
 
 1.  **설정을** 사용자의 장치에 회사 전자 메일을 이전에 설정한 연결을 제거 합니다.
 
@@ -45,12 +35,6 @@ ms.openlocfilehash: 6b7123dc4ec0b7a73e6e3151ca9c66a65354f9de
 
 
 
-<<<<<<< HEAD
 <!--HONumber=Sep16_HO3-->
-||||||| merged common ancestors
-<!--HONumber=Aug16_HO4-->
-=======
-<!--HONumber=Oct16_HO3-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 

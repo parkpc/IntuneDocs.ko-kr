@@ -3,7 +3,6 @@ title: "iOS 정책 설정 | Microsoft Intune"
 description: "Intune으로 관리하는 iOS 장치에서 설정 및 기능을 제어하는 정책을 만듭니다."
 keywords: 
 author: robstackmsft
-ms.author: robstack
 manager: angrobe
 ms.date: 09/06/2016
 ms.topic: article
@@ -383,12 +382,6 @@ Weather,Apple,com.apple.weather
 
 
 
-<<<<<<< HEAD
 <!--HONumber=Sep16_HO2-->
-||||||| merged common ancestors
-<!--HONumber=Aug16_HO5-->
-=======
-<!--HONumber=Oct16_HO3-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 

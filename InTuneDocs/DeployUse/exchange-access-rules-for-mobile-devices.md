@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "모바일 장치의 Exchange 액세스 규칙 | Microsoft Intune"
 description: "EAS를 통한 장치 연결을 허용하거나 차단할 Exchange ActiveSync 액세스 규칙"
@@ -17,45 +16,6 @@ translationtype: Human Translation
 ms.sourcegitcommit: 73c3b57ac8b896001758eb22181c865ff68c3b93
 ms.openlocfilehash: f933df0436e73a7db2cd94c9a104294591ea96c0
 
-||||||| merged common ancestors
----
-title: "모바일 장치의 Exchange 액세스 규칙 | Microsoft Intune"
-description: "EAS를 통한 장치 연결을 허용하거나 차단할 Exchange ActiveSync 액세스 규칙"
-keywords: 
-author: NathBarn
-manager: angrobe
-ms.date: 07/19/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 208b9f45-02d9-413a-b86a-8bad9b5008fa
-ms.reviewer: muhosabe
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: c49e19e8c478af252d7b59c380d5500a57b71db5
-ms.openlocfilehash: 7714a338d02afedde2ac090964e4d18d4410a80e
-
-=======
----
-title: "모바일 장치의 Exchange 액세스 규칙 | Microsoft Intune"
-description: "EAS를 통한 장치 연결을 허용하거나 차단할 Exchange ActiveSync 액세스 규칙"
-keywords: 
-author: NathBarn
-manager: angrobe
-ms.date: 07/19/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 208b9f45-02d9-413a-b86a-8bad9b5008fa
-ms.reviewer: muhosabe
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 73c3b57ac8b896001758eb22181c865ff68c3b93
-ms.openlocfilehash: f933df0436e73a7db2cd94c9a104294591ea96c0
-
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 ---
 
@@ -94,12 +54,6 @@ ms.openlocfilehash: f933df0436e73a7db2cd94c9a104294591ea96c0
 2.  **플랫폼 예외** 목록에서 **규칙 추가**를 선택하고 사용자 지정 규칙을 만듭니다. **저장**을 선택합니다.
 
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<!--HONumber=Aug16_HO1-->
-=======
-<!--HONumber=Sep16_HO1-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 <!--HONumber=Sep16_HO1-->
 
