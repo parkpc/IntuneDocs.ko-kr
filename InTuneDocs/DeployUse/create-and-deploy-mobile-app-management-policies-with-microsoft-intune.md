@@ -3,7 +3,6 @@ title: "MAM 정책 만들기 및 배포 | Microsoft Intune"
 description: "이 항목의 단계별 지침에 따라 모바일 앱 관리 정책을 만들고 배포합니다."
 keywords: 
 author: karthikaraman
-ms.author: karaman
 manager: angrobe
 ms.date: 07/22/2016
 ms.topic: article
@@ -14,8 +13,8 @@ ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 389daf0ed39fa2cd4b2e5d6e52cbd6809a568c9e
-ms.openlocfilehash: e5befdd4925f88d41c454d9c1c36eaf02fdb598d
+ms.sourcegitcommit: 74d9c9843fd6119095c9670a76afd26443bcc796
+ms.openlocfilehash: dab86ce2210c1f0cec81e402d730a6b996db64fc
 
 
 ---
@@ -112,9 +111,8 @@ MAM 정책을 만들기 전에 [필수 구성 요소 및 지원](get-ready-to-co
 >[!IMPORTANT]
 > Configuration Manager와 함께 Intune을 사용하여 iOS 및 Android 장치를 관리하는 경우 선택한 그룹에 바로 포함된 사용자에만 정책이 적용됩니다.  선택한 그룹 내에 중첩된 자식 그룹의 멤버는 영향을 받지 않습니다.
 
-최종 사용자는 앱 스토어 또는 Google Play에서 앱을 다운로드할 수 있습니다. 자세한 내용은 다음을 참조하십시오.
-* [Android 앱이 MAM 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
-* [iOS 앱이 MAM 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
+최종 사용자는 앱 스토어 또는 Google Play에서 앱을 다운로드할 수 있습니다. 장치에서 MAM으로 회사 데이터를 보호하는 방법의 자세한 연습은 [MAM를 사용하는 앱이 있는 최종 사용자 환경](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md) 항목을 참조하세요.
+
 ##  기존 정책 변경
 기존 정책을 편집할 수 있으며 대상으로 지정된 사용자에게 적용할 수 있습니다. 그러나 기존 정책을 변경하는 경우 앱에 이미 로그인한 사용자에게는 8시간 동안 변경 내용이 표시되지 않습니다.
 
@@ -167,11 +165,10 @@ iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 중
 [규정 준수 및 사용자 상태 모니터링](monitor-mobile-app-management-policies-with-microsoft-intune.md)
 
 ### 참고 항목
-* [Android 앱이 MAM 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
-* [iOS 앱이 MAM 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
+[MAM을 사용한 앱에 대한 최종 사용자 환경](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Aug16_HO3-->
 
 

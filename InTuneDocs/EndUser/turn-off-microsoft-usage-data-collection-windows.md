@@ -3,7 +3,6 @@ title: "Windows에 대한 Microsoft 사용 현황 데이터 수집 해제 | Micr
 description: 
 keywords: 
 author: Staciebarker
-ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

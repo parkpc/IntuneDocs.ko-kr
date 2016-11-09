@@ -3,7 +3,6 @@ title: "회사 포털 앱을 사용하는 동안 오류가 발생하는 경우 |
 description: 
 keywords: 
 author: Staciebarker
-ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -15,16 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-<<<<<<< HEAD
 ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
 ms.openlocfilehash: 6d8b46a20e415f03d23b58b22ecf77fe887d344c
-||||||| merged common ancestors
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: 481f9570f4c1cf30bfb7be9beef2681fa5fc84f7
-=======
-ms.sourcegitcommit: 016449720f6e77b8862fcaa232d252eefa8b20b3
-ms.openlocfilehash: d1bcda779c051e4455def755a92f47b5ec7475ea
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
 ---
@@ -38,16 +29,13 @@ iOS 장치에서 회사 포털 앱을 사용할 때 오류가 표시되면 IT �
 
 -   회사 포털 앱의 **정보** 화면에서 **진단 보고서 보내기**를 탭합니다.
 
--   회사 포털 앱에 있는 동안 장치를 흔든 다음, 진단 경고가 표시되면 **메일**을 탭합니다. 장치를 흔들어도 이 경고가 나타나지 않으면 **설정** &gt; **회사 포털**을 열고 **흔들기 제스처** 옵션이 설정되어 있는지 확인합니다.
+-   회사 포털 앱에 있을 때 장치를 흔든 다음, 진단 경고가 표시되면 **메일**을 탭합니다. 장치를 흔들어도 이 경고가 나타나지 않으면 **설정** &gt; **회사 포털**을 열고 **흔들기 제스처** 옵션이 설정되어 있는지 확인합니다.
 
 
 
-<<<<<<< HEAD
+
+
+
 <!--HONumber=Sep16_HO3-->
-||||||| merged common ancestors
-<!--HONumber=Aug16_HO5-->
-=======
-<!--HONumber=Oct16_HO2-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 

@@ -3,7 +3,6 @@ title: "Intune에서 Windows 장치 사용 | Microsoft Intune"
 description: "Intune에서 장치가 등록될 때 Windows 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록"
 keywords: 
 author: Staciebarker
-ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

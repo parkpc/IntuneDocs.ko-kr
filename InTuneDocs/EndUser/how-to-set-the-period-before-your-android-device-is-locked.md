@@ -3,7 +3,6 @@ title: "Android 장치가 잠기기까지의 기간을 설정하는 방법 | Mic
 description: 
 keywords: 
 author: Staciebarker
-ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

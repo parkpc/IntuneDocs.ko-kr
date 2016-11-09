@@ -3,7 +3,6 @@ title: "모바일 장치 등록 및 앱 설치 | Microsoft Intune"
 description: "모바일 장치를 등록하고 Intune 등록 장치에서 앱을 설치하는 방법을 설명합니다."
 keywords: 
 author: barlanmsft
-ms.author: barlan
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: get-started-article
@@ -14,8 +13,8 @@ ms.assetid: 5d3215e7-0a5c-44bd-afb0-aeafce98c43f
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3306d772b074ddcfd1bfcf7178b32f9b371321e7
-ms.openlocfilehash: f57728bb41b750f53b021bed532de18187e764a0
+ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
+ms.openlocfilehash: 182601f7e4a4bd38c70f7961188eb4af593f6107
 
 
 ---
@@ -53,7 +52,7 @@ Intune을 사용하여 모바일 장치 관리를 설정하려면 먼저 모바�
 
 등록된 모바일 장치에서 회사 포털을 열고 **앱**을 선택한 후 **Microsoft Skype**를 설치합니다.
 
-[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]을 사용하는 모바일 장치 관리에 대한 자세한 내용은 [Microsoft Intune에서 장치 등록을 위한 필수 조건](/intune/deploy-use/prerequisites-for-enrollment)을 참조하세요.
+[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]을 사용하는 모바일 장치 관리에 대한 자세한 내용은 [Microsoft Intune에 장치를 등록하도록 준비](/intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune)를 참조하세요.
 
 
 ### 다음 단계
@@ -65,6 +64,6 @@ Intune을 사용하여 모바일 장치 관리를 설정하려면 먼저 모바�
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Aug16_HO5-->
 
 

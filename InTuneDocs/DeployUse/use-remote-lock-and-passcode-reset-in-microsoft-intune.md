@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "원격 잠금 및 암호 재설정 사용 | Microsoft Intune"
 description: "Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다."
@@ -17,45 +16,6 @@ ms.sourcegitcommit: 899f50cfec9e7c20d2981c077f93e0fccf37dc2b
 ms.openlocfilehash: 0b52bd8360f11e226674aefe80a578c451c2679d
 
 ---
-||||||| merged common ancestors
----
-title: "원격 잠금 및 암호 재설정 사용 | Microsoft Intune"
-description: "Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다."
-keywords: 
-author: NathBarn
-manager: angrobe
-ms.date: 07/21/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
-ms.reviewer: chrisgre
-translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: c2b4b6308569e1e67a1c3da18c12d19bdeecf08e
-
----
-=======
----
-title: "원격 잠금 및 암호 재설정 사용 | Microsoft Intune"
-description: "Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다."
-keywords: 
-author: NathBarn
-manager: angrobe
-ms.date: 07/21/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
-ms.reviewer: chrisgre
-translationtype: Human Translation
-ms.sourcegitcommit: 899f50cfec9e7c20d2981c077f93e0fccf37dc2b
-ms.openlocfilehash: 0b52bd8360f11e226674aefe80a578c451c2679d
-
----
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 # 원격 잠금 또는 암호 재설정으로 장치 보호 지원
 Microsoft Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다.
 
@@ -115,12 +75,6 @@ Intune 소프트웨어 클라이언트에 등록된 Windows PC에서는 암호 �
 [장치 데이터 관리를 위한 Windows 선택적 초기화](http://technet.microsoft.com/library/dn486874.aspx)
 
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<!--HONumber=Jul16_HO4-->
-=======
-<!--HONumber=Sep16_HO2-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 <!--HONumber=Sep16_HO2-->
 

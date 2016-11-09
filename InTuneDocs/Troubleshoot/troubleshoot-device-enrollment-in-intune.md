@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "장치 등록 문제 해결| Microsoft Intune"
 description: "장치 등록 문제 해결을 위한 제안 사항"
@@ -17,46 +16,6 @@ translationtype: Human Translation
 ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
 ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
 
-||||||| merged common ancestors
----
-title: "장치 등록 문제 해결| Microsoft Intune"
-description: "장치 등록 문제 해결을 위한 제안 사항"
-keywords: 
-author: nathbarn
-manager: angrobe
-ms.date: 08/02/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
-ms.reviewer: damionw
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
-ms.openlocfilehash: 226376601fdd381839ca389fd012e4bc462abfd5
-
-=======
----
-title: "장치 등록 문제 해결| Microsoft Intune"
-description: "장치 등록 문제 해결을 위한 제안 사항"
-keywords: 
-author: nathbarn
-ms.author: nathbarn
-manager: angrobe
-ms.date: 08/02/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
-ms.reviewer: damionw
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
-ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
-
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 ---
 
@@ -346,12 +305,6 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
 
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<!--HONumber=Aug16_HO1-->
-=======
-<!--HONumber=Sep16_HO4-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 <!--HONumber=Sep16_HO4-->
 

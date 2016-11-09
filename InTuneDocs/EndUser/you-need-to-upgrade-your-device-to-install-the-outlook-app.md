@@ -3,7 +3,6 @@ title: "Outlook 앱을 설치하기 위해 장치를 업그레이드해야 하�
 description: 
 keywords: 
 author: staciebarker
-ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

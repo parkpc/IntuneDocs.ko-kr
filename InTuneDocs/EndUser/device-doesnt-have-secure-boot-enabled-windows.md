@@ -3,7 +3,6 @@ title: "장치에서 보안 부팅이 사용되지 않는 경우 | Microsoft Int
 description: 
 keywords: 
 author: Staciebarker
-ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
