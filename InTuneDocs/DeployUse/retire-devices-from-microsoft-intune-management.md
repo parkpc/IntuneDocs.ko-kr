@@ -2,8 +2,8 @@
 title: "장치 사용 중지 | Microsoft Intune"
 description: "Intune은 정책 및 회사 포털을 제거하여 Intune 관리에서 장치를 제거할 수 있도록 선택적 초기화 및 전체 초기화를 모두 지원합니다."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: staciebarker
+ms.author: staciebarker
 manager: angrobe
 ms.date: 07/25/2016
 ms.topic: article
