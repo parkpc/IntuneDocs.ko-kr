@@ -6,12 +6,18 @@ author: robstackmsft
 ms.author: robstack
 manager: angrobe
 <<<<<<< HEAD
+<<<<<<< HEAD
 ms.date: 09/08/2016
 ||||||| merged common ancestors
 ms.date: 06/24/2016
 =======
 ms.date: 10/05/2016
 >>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+||||||| merged common ancestors
+ms.date: 10/05/2016
+=======
+ms.date: 11/06/2016
+>>>>>>> 12550744143a4804819a881aa25136cdf07f4bcb
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -20,6 +26,7 @@ ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
 <<<<<<< HEAD
 ms.sourcegitcommit: ecaf92b327538e3da4df268e4c67c73af262b731
 ms.openlocfilehash: fa73c5e2b4e6737377acd206807399b31df37364
@@ -30,6 +37,13 @@ ms.openlocfilehash: 9d6b7198e3c2e30898a8ec83785c7f3b777eda5f
 ms.sourcegitcommit: 17b957cc2baedddfc53bfdf7b875e4ecb28b8517
 ms.openlocfilehash: a29473cb0931c01143614116ce0e99a579f35923
 >>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+||||||| merged common ancestors
+ms.sourcegitcommit: 17b957cc2baedddfc53bfdf7b875e4ecb28b8517
+ms.openlocfilehash: a29473cb0931c01143614116ce0e99a579f35923
+=======
+ms.sourcegitcommit: 1dd3fde8119b54f574265c2ca9cf62cee9e77b01
+ms.openlocfilehash: bd6307cd8ff465bbce3de124ffdb444333d12efe
+>>>>>>> 12550744143a4804819a881aa25136cdf07f4bcb
 
 
 ---
@@ -108,6 +122,7 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 1.  ISE 콘솔에서 **관리** > **인증서** > **시스템 인증서** > **자체 서명된 인증서 생성**로 이동합니다.  
 2.       자체 서명된 인증서를 내보냅니다.
 3. 텍스트 편집기에서 내보낸 인증서를 편집합니다.
+
  - Delete ** -----BEGIN CERTIFICATE-----**
  - Delete ** -----END CERTIFICATE-----**
  

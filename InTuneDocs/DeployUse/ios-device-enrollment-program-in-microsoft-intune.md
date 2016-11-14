@@ -139,11 +139,17 @@ Apple DEP(장치 등록 프로그램)로 회사 소유의 iOS 장치를 관리�
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!--HONumber=Sep16_HO2-->
 ||||||| merged common ancestors
 <!--HONumber=Aug16_HO2-->
 =======
 <!--HONumber=Nov16_HO1-->
 >>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+||||||| merged common ancestors
+<!--HONumber=Nov16_HO1-->
+=======
+<!--HONumber=Nov16_HO2-->
+>>>>>>> 12550744143a4804819a881aa25136cdf07f4bcb
 
 
