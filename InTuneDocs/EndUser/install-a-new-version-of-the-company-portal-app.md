@@ -12,8 +12,32 @@ ms.technology:
 ms.assetid: c002bcb2-ae37-478d-acf3-2bf51faae490
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
 ms.openlocfilehash: 15a685f4839cd1c4d60c1f99a6bd6d954352a60c
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: fb347fac40d201f94d1b8847ba72b0bd31dd6e23
+=========
+ms.sourcegitcommit: 849632d4b07b2e4417fd955d945fed21461edc6a
+ms.openlocfilehash: e3ccc0fda42c00ced108401c31df4106fe4049a3
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: fb347fac40d201f94d1b8847ba72b0bd31dd6e23
+=======
+ms.sourcegitcommit: 849632d4b07b2e4417fd955d945fed21461edc6a
+ms.openlocfilehash: e3ccc0fda42c00ced108401c31df4106fe4049a3
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 ---
@@ -52,6 +76,26 @@ ms.openlocfilehash: 15a685f4839cd1c4d60c1f99a6bd6d954352a60c
 
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 <!--HONumber=Sep16_HO3-->
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+<!--HONumber=Aug16_HO5-->
+=========
+<!--HONumber=Oct16_HO2-->
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO5-->
+=======
+<!--HONumber=Oct16_HO2-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 

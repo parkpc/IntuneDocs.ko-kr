@@ -4,7 +4,27 @@ description: "이 항목은 Microsoft Intune에서 앱 배포 문제를 해결�
 keywords: 
 author: robstackmsft
 manager: angrobe
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ms.date: 09/06/2016
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+ms.date: 08/02/2016
+=========
+ms.date: 09/27/2016
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+ms.date: 08/02/2016
+=======
+ms.date: 09/27/2016
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +33,32 @@ ms.assetid: 28ac298e-fb73-4c1c-b3fd-8336639e05e6
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ms.sourcegitcommit: a5256d4decfcd14de2d50a32a0906b6894639010
 ms.openlocfilehash: 552514971a64b16f88a7d83a0f7d66a0c00b61b0
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+ms.sourcegitcommit: aa96cf3a1909e3ea2187a3beb0aede3228894504
+ms.openlocfilehash: 9f4b91bd523c82665bcac54902b2e8cc9c72ef75
+=========
+ms.sourcegitcommit: 30d42bc4ee38a45895320eebd665fe8f5a0cb4ee
+ms.openlocfilehash: 0db3e6a39bd0d30231c339cb4501ce25059e4657
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+ms.sourcegitcommit: aa96cf3a1909e3ea2187a3beb0aede3228894504
+ms.openlocfilehash: 9f4b91bd523c82665bcac54902b2e8cc9c72ef75
+=======
+ms.sourcegitcommit: 30d42bc4ee38a45895320eebd665fe8f5a0cb4ee
+ms.openlocfilehash: 0db3e6a39bd0d30231c339cb4501ce25059e4657
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 ---
@@ -37,6 +81,26 @@ Intune을 사용하여 앱을 배포하고 관리하는 데 문제가 있는 경
 
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 <!--HONumber=Sep16_HO1-->
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+<!--HONumber=Aug16_HO5-->
+=========
+<!--HONumber=Sep16_HO4-->
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO5-->
+=======
+<!--HONumber=Sep16_HO4-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 

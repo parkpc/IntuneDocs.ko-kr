@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1:InTuneDocs/GetStarted/migrate-to-intune.md
+=======
+<<<<<<< HEAD:InTuneDocs/GetStarted/migrate-to-intune.md
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ---
 title: "Intune으로 마이그레이션 | Microsoft Intune"
 description: 
@@ -16,10 +22,118 @@ translationtype: Human Translation
 ms.sourcegitcommit: 317b8cc277eb8dffc1cb29739f3f78cfa3241602
 ms.openlocfilehash: c6bd34c910f56e7dfad142034ef6fd7a027cd2c4
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+---
+title: "Intune으로 마이그레이션 | Microsoft Intune"
+description: 
+keywords: 
+author: jeffgilb
+manager: jeffgilb
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 88936b8a-7453-4410-b6db-29f636ba3e72
+ms.reviewer: jeffgilb
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 317b8cc277eb8dffc1cb29739f3f78cfa3241602
+ms.openlocfilehash: c6bd34c910f56e7dfad142034ef6fd7a027cd2c4
+
+=========
+---
+title: "Intune으로 마이그레이션 | Microsoft Intune"
+description: 
+keywords: 
+author: jeffgilb
+ms.author: jeffgilb
+manager: jeffgilb
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 88936b8a-7453-4410-b6db-29f636ba3e72
+ms.reviewer: jeffgilb
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: a4f7a503417938eabb4334757dcf12a63f082fd3
+ms.openlocfilehash: 8ebe9c29f4155a2aac39b502252f3225372d374f
+
+>>>>>>>>> Temporary merge branch 2:InTuneDocs/GetStarted/migrate-to-intune.md
+=======
+||||||| merged common ancestors
+---
+title: "Intune으로 마이그레이션 | Microsoft Intune"
+description: 
+keywords: 
+author: jeffgilb
+manager: jeffgilb
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 88936b8a-7453-4410-b6db-29f636ba3e72
+ms.reviewer: jeffgilb
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 317b8cc277eb8dffc1cb29739f3f78cfa3241602
+ms.openlocfilehash: c6bd34c910f56e7dfad142034ef6fd7a027cd2c4
+
+=======
+---
+title: "Intune으로 마이그레이션 | Microsoft Intune"
+description: 
+keywords: 
+author: jeffgilb
+ms.author: jeffgilb
+manager: jeffgilb
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 88936b8a-7453-4410-b6db-29f636ba3e72
+ms.reviewer: jeffgilb
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: a4f7a503417938eabb4334757dcf12a63f082fd3
+ms.openlocfilehash: 8ebe9c29f4155a2aac39b502252f3225372d374f
+
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85:InTuneDocs/GetStarted/migrate-to-intune.md
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ---
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1:InTuneDocs/GetStarted/migrate-to-intune.md
+=======
+<<<<<<< HEAD:InTuneDocs/GetStarted/migrate-to-intune.md
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 # Intune으로 마이그레이션
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+
+# Intune으로 마이그레이션
+=========
+
+# <a name="migrate-to-intune"></a>Intune으로 마이그레이션
+>>>>>>>>> Temporary merge branch 2:InTuneDocs/GetStarted/migrate-to-intune.md
+=======
+||||||| merged common ancestors
+
+# Intune으로 마이그레이션
+=======
+
+# <a name="migrate-to-intune"></a>Intune으로 마이그레이션
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85:InTuneDocs/GetStarted/migrate-to-intune.md
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 기존 엔터프라이즈 이동성 관리 솔루션에서 Intune으로 마이그레이션은 아래의 일반적인 단계 순서를 따를 수 있습니다.
@@ -73,6 +187,12 @@ Intune으로 마이그레이션에 대해 추가적인 도움이 필요합니까
 
 
 
+<<<<<<< HEAD
 <!--HONumber=Aug16_HO1-->
+||||||| merged common ancestors
+<!--HONumber=Nov16_HO1-->
+=======
+<!--HONumber=Nov16_HO2-->
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 

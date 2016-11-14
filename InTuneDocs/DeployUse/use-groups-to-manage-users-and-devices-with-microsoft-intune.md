@@ -4,7 +4,27 @@ description: "그룹 작업 영역을 사용하여 그룹을 만들고 관리합
 keywords: 
 author: Nbigman
 manager: angrobe
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ms.date: 09/13/2016
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+ms.date: 06/20/2016
+=========
+ms.date: 10/10/2016
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+ms.date: 06/20/2016
+=======
+ms.date: 10/10/2016
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,13 +33,43 @@ ms.assetid: eb9b01ce-9b9b-4c2a-bf99-3879c0bdaba5
 ms.reviewer: lpatha
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ms.sourcegitcommit: 8c474810f8d3c7db4784c38c45c85c83b647860b
 ms.openlocfilehash: fa0c235d3ab5f9dde04f8345e7e28fdd00603e58
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+ms.sourcegitcommit: e7c680c43b8c9120755ec3c652cf7ec1cbcc3472
+ms.openlocfilehash: b13e2ff2f4822d71ef8cff9d835e32b99cb3e4ab
+=========
+ms.sourcegitcommit: d92c9ffe42b36770a32c28941de3c402aec9dd68
+ms.openlocfilehash: 896e8cf77c0898fca7838b24386db745b01f4022
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+ms.sourcegitcommit: e7c680c43b8c9120755ec3c652cf7ec1cbcc3472
+ms.openlocfilehash: b13e2ff2f4822d71ef8cff9d835e32b99cb3e4ab
+=======
+ms.sourcegitcommit: d92c9ffe42b36770a32c28941de3c402aec9dd68
+ms.openlocfilehash: 896e8cf77c0898fca7838b24386db745b01f4022
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 ---
 # Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 이 항목에서는 Intune에서 그룹을 만드는 방법을 설명합니다. 몇 개월 후에 그룹 관리 방법이 어떻게 변경되는지에 대한 정보도 제공합니다. 
 
 >[!IMPORTANT]
@@ -27,22 +77,158 @@ ms.openlocfilehash: fa0c235d3ab5f9dde04f8345e7e28fdd00603e58
 >Intune 포털에서 그룹 작업 영역을 열었을 때 Azure AD(Azure Active Directory) 포털 링크가 보이면, Intune의 그룹 관리에 대한 *새* Azure AD 보안 그룹 접근 방식([그룹 관리 환경에 대한 향후 개선 사항 공지](#notice-of-upcoming-improvements-to-the-admin-experience-for-groups)에 설명되어 있음)을 이미 사용하고 있는 것입니다. Azure AD 포털에 대한 링크를 클릭하여 그룹을 만들고 관리합니다. Azure AD 보안 그룹을 사용하는 방법을 알아보려면 [Azure Active Directory 그룹을 사용하여 리소스에 대한 액세스 관리](https://azure.microsoft.com/en-us/documentation/articles/active-directory-manage-groups/)를 참조하세요.
 >
 >Azure AD 포털 링크가 보이지 않으면 지금도 그룹 관리에 대한 *기존* 접근 방식(이 항목의 [Microsoft Intune에서 그룹을 만들어 사용자와 장치 관리](#Create-groups-to-manage-users-and-devices-with-Microsoft-Intune)에 설명되어 있음)을 사용하고 있는 것입니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+이 항목에서는 Intune에서 그룹을 만드는 방법을 설명합니다. 몇 개월 후에 그룹 관리 방법이 어떻게 변경되는지에 대한 정보도 제공합니다. *현재* 그룹 관리 방법을 알아보려면 이 항목에서 [Microsoft Intune에서 그룹을 만들어서 사용자 및 장치 관리](#Create-groups-to-manage-users-and-devices-with-Microsoft-Intune)를 확인하세요.
+=========
+이 항목에서는 Intune에서 그룹을 만드는 방법을 설명합니다. 몇 개월 후에 그룹 관리 방법이 어떻게 변경되는지에 대한 정보도 제공합니다. 
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+이 항목에서는 Intune에서 그룹을 만드는 방법을 설명합니다. 몇 개월 후에 그룹 관리 방법이 어떻게 변경되는지에 대한 정보도 제공합니다. *현재* 그룹 관리 방법을 알아보려면 이 항목에서 [Microsoft Intune에서 그룹을 만들어서 사용자 및 장치 관리](#Create-groups-to-manage-users-and-devices-with-Microsoft-Intune)를 확인하세요.
+=======
+이 항목에서는 Intune에서 그룹을 만드는 방법을 설명합니다. 몇 개월 후에 그룹 관리 방법이 어떻게 변경되는지에 대한 정보도 제공합니다. 
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+||||||||| merged common ancestors
+## 그룹의 관리 경험의 향후 개선에 대한 공지
+=========
+>[!IMPORTANT]
+>
+>Intune 포털에서 그룹 작업 영역을 열었을 때 Azure AD(Azure Active Directory) 포털 링크가 보이면, Intune의 그룹 관리에 대한 *새* Azure AD 보안 그룹 접근 방식([그룹 관리 환경에 대한 향후 개선 사항 공지](#notice-of-upcoming-improvements-to-the-admin-experience-for-groups)에 설명되어 있음)을 이미 사용하고 있는 것입니다. Azure AD 포털에 대한 링크를 클릭하여 그룹을 만들고 관리합니다.
+>
+>![Azure 그룹 관리에 대한 링크의 스크린샷](../media/groups-link-azure.png) 
+>
+>Azure AD 포털 링크가 보이지 않으면 지금도 그룹 관리에 대한 *기존* 접근 방식(이 항목의 [Microsoft Intune에서 그룹을 만들어 사용자와 장치 관리](#Create-groups-to-manage-users-and-devices-with-Microsoft-Intune)에 설명되어 있음)을 사용하고 있는 것입니다.
+>>>>>>>>> Temporary merge branch 2
+=======
+<<<<<<< HEAD
+||||||| merged common ancestors
+## 그룹의 관리 경험의 향후 개선에 대한 공지
+=======
+>[!IMPORTANT]
+>
+>Intune 포털에서 그룹 작업 영역을 열었을 때 Azure AD(Azure Active Directory) 포털 링크가 보이면, Intune의 그룹 관리에 대한 *새* Azure AD 보안 그룹 접근 방식([그룹 관리 환경에 대한 향후 개선 사항 공지](#notice-of-upcoming-improvements-to-the-admin-experience-for-groups)에 설명되어 있음)을 이미 사용하고 있는 것입니다. Azure AD 포털에 대한 링크를 클릭하여 그룹을 만들고 관리합니다.
+>
+>![Azure 그룹 관리에 대한 링크의 스크린샷](../media/groups-link-azure.png) 
+>
+>Azure AD 포털 링크가 보이지 않으면 지금도 그룹 관리에 대한 *기존* 접근 방식(이 항목의 [Microsoft Intune에서 그룹을 만들어 사용자와 장치 관리](#Create-groups-to-manage-users-and-devices-with-Microsoft-Intune)에 설명되어 있음)을 사용하고 있는 것입니다.
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
+
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
+## 그룹 관리 환경에 대한 향후 개선 사항 공지
+
+Enterprise Mobility + Security에서 단일화된 그룹화 환경과 대상 지정 환경을 원한다는 사용자 의견을 받았습니다. Microsoft는 사용자 의견에 귀를 기울입니다. 그 의견을 반영하여 Intune 그룹을 곧 Azure Active Directory 기반의 보안 그룹으로 변환할 예정입니다. 이 변경 사항을 통해 Intune과 Azure AD(Azure Active Directory) 전체의 그룹 관리가 통합될 예정입니다. 새로운 환경에서는 서비스 간에 그룹을 복제할 필요가 없습니다. 또한 Windows PowerShell과 Microsoft Graph를 사용할 수 있는 옵션을 통해 확장성을 제공할 예정입니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+엔터프라이즈 이동성 + 보안 전체에서 한 번의 그룹화 및 대상 지정 경험에 대한 사용자 피드백을 반영하여 Microsoft는 Intune 그룹을 Azure Active Directory 기반 보안 그룹으로 변환하고 있습니다. 이 변환 작업을 통해 Intune과 Azure AD(Azure Active Directory) 전체의 그룹 관리가 통합될 예정입니다. 이 새로운 환경은 서비스 간에 그룹을 복제할 필요를 없애주고 PowerShell 및 Graph를 사용하여 확장성을 제공합니다. 
+=========
 
 ## 그룹 관리 환경에 대한 향후 개선 사항 공지
 
 Enterprise Mobility + Security에서 단일화된 그룹화 환경과 대상 지정 환경을 원한다는 사용자 의견을 받았습니다. Microsoft는 사용자 의견에 귀를 기울입니다. 그 의견을 반영하여 Intune 그룹을 곧 Azure Active Directory 기반의 보안 그룹으로 변환할 예정입니다. 이 변경 사항을 통해 Intune과 Azure AD(Azure Active Directory) 전체의 그룹 관리가 통합될 예정입니다. 새로운 환경에서는 서비스 간에 그룹을 복제할 필요가 없습니다. 또한 Windows PowerShell과 Microsoft Graph를 사용할 수 있는 옵션을 통해 확장성을 제공할 예정입니다.
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+엔터프라이즈 이동성 + 보안 전체에서 한 번의 그룹화 및 대상 지정 경험에 대한 사용자 피드백을 반영하여 Microsoft는 Intune 그룹을 Azure Active Directory 기반 보안 그룹으로 변환하고 있습니다. 이 변환 작업을 통해 Intune과 Azure AD(Azure Active Directory) 전체의 그룹 관리가 통합될 예정입니다. 이 새로운 환경은 서비스 간에 그룹을 복제할 필요를 없애주고 PowerShell 및 Graph를 사용하여 확장성을 제공합니다. 
+=======
+
+## 그룹 관리 환경에 대한 향후 개선 사항 공지
+
+Enterprise Mobility + Security에서 단일화된 그룹화 환경과 대상 지정 환경을 원한다는 사용자 의견을 받았습니다. Microsoft는 사용자 의견에 귀를 기울입니다. 그 의견을 반영하여 Intune 그룹을 곧 Azure Active Directory 기반의 보안 그룹으로 변환할 예정입니다. 이 변경 사항을 통해 Intune과 Azure AD(Azure Active Directory) 전체의 그룹 관리가 통합될 예정입니다. 새로운 환경에서는 서비스 간에 그룹을 복제할 필요가 없습니다. 또한 Windows PowerShell과 Microsoft Graph를 사용할 수 있는 옵션을 통해 확장성을 제공할 예정입니다.
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ### 이 작업은 현재 어떤 영향을 미치나요?
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 지금은 이 변경 사항으로 인한 변동이 없습니다. 하지만 향후에는 다음과 같은 변경이 있을 것입니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+이러한 변경으로 인해 현재 영향을 미치는 것은 없습니다. 하지만 향후 영향에 대해 다음과 같이 말씀드릴 수 있습니다.
+=========
+기존 Intune 고객은 현재 이러한 변경에 따른 영향을 받지 않습니다. 하지만 향후에는 다음과 같은 변경이 있을 것입니다.
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+이러한 변경으로 인해 현재 영향을 미치는 것은 없습니다. 하지만 향후 영향에 대해 다음과 같이 말씀드릴 수 있습니다.
+=======
+기존 Intune 고객은 현재 이러한 변경에 따른 영향을 받지 않습니다. 하지만 향후에는 다음과 같은 변경이 있을 것입니다.
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 -   2016년 9월부터는 월별 서비스 릴리스 후에 프로비전되는 새 계정에 Intune 사용자 그룹 대신에 Azure AD 보안 그룹이 사용됩니다.   
 -   2016년 10월부터는 월별 서비스 릴리스 후에 프로비전되는 새 계정으로 Azure AD 포털에서 사용자 및 장치 기반 그룹이 모두 관리됩니다. 기존 고객에게는 영향을 주지 않습니다.
 -   2016년 11월부터는 Intune 제품 팀에서 기존 고객을 새 Azure AD 기반 그룹 관리 환경으로 마이그레이션하기 시작합니다. 현재 Intune에 있는 모든 사용자 및 장치 그룹이 Azure AD 보안 그룹으로 마이그레이션됩니다. 마이그레이션은 2016년 11월부터 일괄 처리로 수행됩니다. Microsoft는 여러분의 일상 작업이 거의 영향을 받지 않고 여러분의 사용자 또한 전혀 영향을 받지 않는다고 판단할 때까지 마이그레이션을 시작하지 않을 예정입니다. 또한 계정을 마이그레이션하기 전에 공지를 하도록 하겠습니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+-   9월부터는 월별 서비스 릴리스 후 프로비전되는 새 계정에서 Intune 사용자 그룹보다는 Azure AD 보안 그룹이 사용됩니다.   
+-   10월부터는 월별 서비스 릴리스 후 프로비전되는 새 계정으로 Azure AD 포털에서 사용자 및 장치 기반 그룹이 둘 다 관리됩니다. 기존 고객에게는 영향을 주지 않습니다
+-   11월부터는 Intune 제품 팀에서 기존 고객을 새 Azure AD 기반 그룹 관리 환경으로 마이그레이션하기 시작합니다. 현재 Intune에 있는 모든 사용자 및 장치 그룹이 Azure AD 보안 그룹으로 마이그레이션됩니다. 마이그레이션은 11월부터 일괄 처리로 수행됩니다. 일상적인 업무에 미치는 영향을 최소화하고 최종 사용자에게 영향을 미치지 않는다고 판단되어야 마이그레이션을 시작할 예정입니다. 또한 계정 마이그레이션 작업 전에 이에 대해 공지할 예정입니다.
+=========
+-   새 계정에서 Intune *사용자* 그룹 대신 Azure AD 보안 그룹을 사용합니다.   
+-   2016년 11월부터는 월별 서비스 릴리스 후에 프로비전되는 새 계정으로 Azure AD Portal에서 사용자 및 장치 기반 그룹이 모두 관리됩니다. 기존 고객에게는 영향을 주지 않습니다.
+-   2016년 12월부터는 Intune 제품 팀에서 기존 고객을 새 Azure AD 기반 그룹 관리 환경으로 마이그레이션하기 시작합니다. 현재 Intune에 있는 모든 사용자 및 장치 그룹이 Azure AD 보안 그룹으로 마이그레이션됩니다. Microsoft는 여러분의 일상 작업이 거의 영향을 받지 않고 여러분의 사용자 또한 전혀 영향을 받지 않는다고 판단할 때까지 마이그레이션을 시작하지 않을 예정입니다. 또한 계정을 마이그레이션하기 전에 공지를 하도록 하겠습니다.
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+-   9월부터는 월별 서비스 릴리스 후 프로비전되는 새 계정에서 Intune 사용자 그룹보다는 Azure AD 보안 그룹이 사용됩니다.   
+-   10월부터는 월별 서비스 릴리스 후 프로비전되는 새 계정으로 Azure AD 포털에서 사용자 및 장치 기반 그룹이 둘 다 관리됩니다. 기존 고객에게는 영향을 주지 않습니다
+-   11월부터는 Intune 제품 팀에서 기존 고객을 새 Azure AD 기반 그룹 관리 환경으로 마이그레이션하기 시작합니다. 현재 Intune에 있는 모든 사용자 및 장치 그룹이 Azure AD 보안 그룹으로 마이그레이션됩니다. 마이그레이션은 11월부터 일괄 처리로 수행됩니다. 일상적인 업무에 미치는 영향을 최소화하고 최종 사용자에게 영향을 미치지 않는다고 판단되어야 마이그레이션을 시작할 예정입니다. 또한 계정 마이그레이션 작업 전에 이에 대해 공지할 예정입니다.
+=======
+-   새 계정에서 Intune *사용자* 그룹 대신 Azure AD 보안 그룹을 사용합니다.   
+-   2016년 11월부터는 월별 서비스 릴리스 후에 프로비전되는 새 계정으로 Azure AD Portal에서 사용자 및 장치 기반 그룹이 모두 관리됩니다. 기존 고객에게는 영향을 주지 않습니다.
+-   2016년 12월부터는 Intune 제품 팀에서 기존 고객을 새 Azure AD 기반 그룹 관리 환경으로 마이그레이션하기 시작합니다. 현재 Intune에 있는 모든 사용자 및 장치 그룹이 Azure AD 보안 그룹으로 마이그레이션됩니다. Microsoft는 여러분의 일상 작업이 거의 영향을 받지 않고 여러분의 사용자 또한 전혀 영향을 받지 않는다고 판단할 때까지 마이그레이션을 시작하지 않을 예정입니다. 또한 계정을 마이그레이션하기 전에 공지를 하도록 하겠습니다.
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 ### 언제, 어떻게 새 그룹 환경으로 마이그레이션하나요?
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 지금의 Intune 고객은 충분한 시간을 두고 마이그레이션할 예정입니다. 마이그레이션에 대한 일정을 마무리하고 있으며, 몇 주 내로 이 항목을 업데이트하여 자세한 내용을 알려드리겠습니다. 마이그레이션하기 전에 공지를 하도록 하겠습니다. 마이그레이션 관련 질문이 있는 경우에는 마이그레이션 팀(<intunegrps@microsoft.com>)에 문의 하세요.
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+현재 고객은 충분한 시간을 두고 마이그레이션됩니다. 마이그레이션에 대한 일정을 마무리하고 있으며, 몇 주 내로 이 항목을 업데이트하여 자세한 내용을 알려드리겠습니다. 마이그레이션되기 전에 공지를 받게 됩니다. 마이그레이션 관련 질문이 있는 경우에는 마이그레이션 팀([intunegrps@microsoft.com](intunegrps@microsoft.com))에 문의 하세요.
+=========
+지금의 Intune 고객은 충분한 시간을 두고 마이그레이션할 예정입니다. 마이그레이션에 대한 일정을 마무리하고 있으며, 몇 주 내로 이 항목을 업데이트하여 자세한 내용을 알려드리겠습니다. 마이그레이션하기 전에 공지를 하도록 하겠습니다. 마이그레이션 관련 질문이 있는 경우에는 마이그레이션 팀([intunegrps@microsoft.com](mailto:intunegrps@microsoft.com))에 문의 하세요. 그룹을 마이그레이션하는 방법에 대한 자세한 내용은 [그룹을 Azure Active Directory로 마이그레이션](migrating-groups-to-azure-active-directory.md)을 참조하세요.
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+현재 고객은 충분한 시간을 두고 마이그레이션됩니다. 마이그레이션에 대한 일정을 마무리하고 있으며, 몇 주 내로 이 항목을 업데이트하여 자세한 내용을 알려드리겠습니다. 마이그레이션되기 전에 공지를 받게 됩니다. 마이그레이션 관련 질문이 있는 경우에는 마이그레이션 팀([intunegrps@microsoft.com](intunegrps@microsoft.com))에 문의 하세요.
+=======
+지금의 Intune 고객은 충분한 시간을 두고 마이그레이션할 예정입니다. 마이그레이션에 대한 일정을 마무리하고 있으며, 몇 주 내로 이 항목을 업데이트하여 자세한 내용을 알려드리겠습니다. 마이그레이션하기 전에 공지를 하도록 하겠습니다. 마이그레이션 관련 질문이 있는 경우에는 마이그레이션 팀([intunegrps@microsoft.com](mailto:intunegrps@microsoft.com))에 문의 하세요. 그룹을 마이그레이션하는 방법에 대한 자세한 내용은 [그룹을 Azure Active Directory로 마이그레이션](migrating-groups-to-azure-active-directory.md)을 참조하세요.
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ### 기존 사용자 및 장치 그룹은 어떻게 되나요?
  Intune에서 생성한 사용자 그룹 및 장치 그룹이 Azure AD 보안 그룹으로 마이그레이션됩니다. 마이그레이션 시 배포에 사용자 및 장치 그룹을 사용 중인 경우에만 모든 사용자 그룹과 같은 기본 Intune 그룹이 마이그레이션됩니다. 일부 그룹에서는 마이그레이션이 더 복잡할 수 있습니다. 조직에서 마이그레이션 추가 단계가 필요한 경우 알려드리겠습니다.
@@ -109,23 +295,185 @@ Microsoft Intune 관리 콘솔의 **그룹** 작업 영역에서 그룹을 만�
 
 1.  Intune 관리 콘솔에서 **그룹** &gt; **개요** &gt; **그룹 만들기**를 선택합니다.
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+2.  그룹의 이름 및 설명(선택 항목)을 입력하고, 장치 그룹을 부모 그룹으로 선택합니다. **다음**을 선택합니다.
+||||||||| merged common ancestors
+2.  그룹의 이름 및 설명(선택 항목)을 제공하고, 장치 그룹을 상위 그룹으로 선택합니다. **다음**을 선택합니다.
+
+3.  **회원 기준 정의** 페이지에서 그룹이 포함할 장치의 유형을 선택합니다. 그룹을 구성하는 추가 옵션은 선택하는 장치 유형에 따라 달라집니다.
+=========
+=======
+<<<<<<< HEAD
+2.  그룹의 이름 및 설명(선택 항목)을 입력하고, 장치 그룹을 부모 그룹으로 선택합니다. **다음**을 선택합니다.
+||||||| merged common ancestors
+2.  그룹의 이름 및 설명(선택 항목)을 제공하고, 장치 그룹을 상위 그룹으로 선택합니다. **다음**을 선택합니다.
+
+3.  **회원 기준 정의** 페이지에서 그룹이 포함할 장치의 유형을 선택합니다. 그룹을 구성하는 추가 옵션은 선택하는 장치 유형에 따라 달라집니다.
+=======
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 2.  그룹의 이름 및 설명(선택 항목)을 입력하고, 장치 그룹을 부모 그룹으로 선택합니다. **다음**을 선택합니다.
 
 3.  **회원 기준 정의** 페이지에서 그룹에 포함할 장치 유형을 선택합니다. 포함하도록 선택하는 장치 유형에 따라 그룹 구성 옵션이 더 있습니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+3.  **회원 기준 정의** 페이지에서 그룹에 포함할 장치 유형을 선택합니다. 포함하도록 선택하는 장치 유형에 따라 그룹 구성 옵션이 더 있습니다.
+||||||||| merged common ancestors
+    -   **컴퓨터:** 상위 그룹의 모든 구성원을 포함할지 여부, 포함하거나 제외할 조직 구성 단위(OU), 포함하거나 제외할 도메인을 지정합니다. 컴퓨터의 OU 및 도메인 정보는 인벤토리에서 가져옵니다.
+=========
+=======
+<<<<<<< HEAD
+3.  **회원 기준 정의** 페이지에서 그룹에 포함할 장치 유형을 선택합니다. 포함하도록 선택하는 장치 유형에 따라 그룹 구성 옵션이 더 있습니다.
+||||||| merged common ancestors
+    -   **컴퓨터:** 상위 그룹의 모든 구성원을 포함할지 여부, 포함하거나 제외할 조직 구성 단위(OU), 포함하거나 제외할 도메인을 지정합니다. 컴퓨터의 OU 및 도메인 정보는 인벤토리에서 가져옵니다.
+=======
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
     -   **컴퓨터**. 부모 그룹의 모든 구성원을 포함할지 여부, 포함하거나 제외할 조직 구성 단위, 포함하거나 제외할 도메인을 선택합니다. 인벤토리에서 컴퓨터에 대한 조직 구성 단위 및 도메인 정보를 얻을 수 있습니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+    -   **컴퓨터**. 부모 그룹의 모든 구성원을 포함할지 여부, 포함하거나 제외할 조직 구성 단위, 포함하거나 제외할 도메인을 선택합니다. 인벤토리에서 컴퓨터에 대한 조직 구성 단위 및 도메인 정보를 얻을 수 있습니다.
+||||||||| merged common ancestors
+    -   **모바일:** Intune을 통해 관리되는 모바일 장치나 Exchange ActiveSync를 통해 관리되는 모바일 장치, 또는 둘 모두를 포함하도록 지정합니다.
+=========
+=======
+<<<<<<< HEAD
+    -   **컴퓨터**. 부모 그룹의 모든 구성원을 포함할지 여부, 포함하거나 제외할 조직 구성 단위, 포함하거나 제외할 도메인을 선택합니다. 인벤토리에서 컴퓨터에 대한 조직 구성 단위 및 도메인 정보를 얻을 수 있습니다.
+||||||| merged common ancestors
+    -   **모바일:** Intune을 통해 관리되는 모바일 장치나 Exchange ActiveSync를 통해 관리되는 모바일 장치, 또는 둘 모두를 포함하도록 지정합니다.
+=======
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
     -   **모바일**. Intune을 통해 관리되는 모바일 장치를 포함할지, Exchange ActiveSync를 통해 관리되는 모바일 장치를 포함할지, 아니면 두 개를 모두 포함할지 선택합니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+    -   **모바일**. Intune을 통해 관리되는 모바일 장치를 포함할지, Exchange ActiveSync를 통해 관리되는 모바일 장치를 포함할지, 아니면 두 개를 모두 포함할지 선택합니다.
+||||||||| merged common ancestors
+    -   **모든 장치:** 이 옵션은 기준에 따른 제외 없이 모든 장치를 포함합니다.
+=========
+=======
+<<<<<<< HEAD
+    -   **모바일**. Intune을 통해 관리되는 모바일 장치를 포함할지, Exchange ActiveSync를 통해 관리되는 모바일 장치를 포함할지, 아니면 두 개를 모두 포함할지 선택합니다.
+||||||| merged common ancestors
+    -   **모든 장치:** 이 옵션은 기준에 따른 제외 없이 모든 장치를 포함합니다.
+=======
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
     -   **모든 장치**. 이 옵션은 기준에 따른 제외 없이 모든 장치를 포함합니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+    -   **모든 장치**. 이 옵션은 기준에 따른 제외 없이 모든 장치를 포함합니다.
+||||||||| merged common ancestors
+4.  **직접 회원 관리 정의** 페이지에서는 **찾아보기**를 클릭하여 지정하는 개별 장치를 포함하거나 제외합니다. 이 옵션을 사용하여 지정된 상위 그룹에 없는 장치를 선택하는 경우 이러한 장치는 상위 그룹에 자동으로 추가됩니다.
+=========
+=======
+<<<<<<< HEAD
+    -   **모든 장치**. 이 옵션은 기준에 따른 제외 없이 모든 장치를 포함합니다.
+||||||| merged common ancestors
+4.  **직접 회원 관리 정의** 페이지에서는 **찾아보기**를 클릭하여 지정하는 개별 장치를 포함하거나 제외합니다. 이 옵션을 사용하여 지정된 상위 그룹에 없는 장치를 선택하는 경우 이러한 장치는 상위 그룹에 자동으로 추가됩니다.
+=======
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 4.  **직접 회원 관리 정의** 페이지에서 **찾아보기**를 선택하여 포함하거나 제외할 각 장치를 선택합니다. 지정한 부모 그룹에 없는 장치를 선택할 경우 Intune에서 이러한 장치를 부모 그룹에 자동으로 추가합니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+4.  **직접 회원 관리 정의** 페이지에서 **찾아보기**를 선택하여 포함하거나 제외할 각 장치를 선택합니다. 지정한 부모 그룹에 없는 장치를 선택할 경우 Intune에서 이러한 장치를 부모 그룹에 자동으로 추가합니다.
+||||||||| merged common ancestors
+=========
+=======
+<<<<<<< HEAD
+4.  **직접 회원 관리 정의** 페이지에서 **찾아보기**를 선택하여 포함하거나 제외할 각 장치를 선택합니다. 지정한 부모 그룹에 없는 장치를 선택할 경우 Intune에서 이러한 장치를 부모 그룹에 자동으로 추가합니다.
+||||||| merged common ancestors
+=======
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 5.  **요약** 페이지에서 선택 내용을 검토하고 **마침**을 클릭합니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+5.  **요약** 페이지에서 선택 내용을 검토하고 **마침**을 클릭합니다.
+||||||||| merged common ancestors
+5.  **요약** 페이지에서 수행할 작업을 검토합니다. **마침**을 선택합니다.
+=========
+새로 만든 그룹은 부모 그룹 아래에 있는 **그룹** 작업 영역의 **그룹** 목록에 표시됩니다. 여기서 그룹을 편집하거나 삭제할 수도 있습니다.
+>>>>>>>>> Temporary merge branch 2
+
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+5.  **요약** 페이지에서 선택 내용을 검토하고 **마침**을 클릭합니다.
+||||||| merged common ancestors
+5.  **요약** 페이지에서 수행할 작업을 검토합니다. **마침**을 선택합니다.
+=======
+새로 만든 그룹은 부모 그룹 아래에 있는 **그룹** 작업 영역의 **그룹** 목록에 표시됩니다. 여기서 그룹을 편집하거나 삭제할 수도 있습니다.
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 새로 만든 그룹은 부모 그룹 아래에 있는 **그룹** 작업 영역의 **그룹** 목록에 표시됩니다. 여기서 그룹을 편집하거나 삭제할 수도 있습니다.
 
 ### 사용자 그룹을 만들려면
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+새로 만든 그룹은 상위 그룹 아래에 있는 **그룹** 작업 영역의 **그룹** 목록에서 찾아볼 수 있습니다. 여기에서 그룹을 편집하거나 삭제할 수도 있습니다.
+
+## 사용자 그룹 만들기
+=========
+### 사용자 그룹을 만들려면
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+새로 만든 그룹은 상위 그룹 아래에 있는 **그룹** 작업 영역의 **그룹** 목록에서 찾아볼 수 있습니다. 여기에서 그룹을 편집하거나 삭제할 수도 있습니다.
+
+## 사용자 그룹 만들기
+=======
+### 사용자 그룹을 만들려면
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 1.  Intune 관리 콘솔에서 **그룹** &gt; **개요** &gt; **그룹 만들기**를 선택합니다.
 
@@ -202,6 +550,26 @@ Intune 관리 콘솔에서 서비스 관리자를 위한 필터링된 그룹 보
 
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 <!--HONumber=Sep16_HO2-->
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+<!--HONumber=Aug16_HO4-->
+=========
+<!--HONumber=Oct16_HO2-->
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO4-->
+=======
+<!--HONumber=Oct16_HO2-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 

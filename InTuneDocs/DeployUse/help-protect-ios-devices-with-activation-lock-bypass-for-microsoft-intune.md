@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ---
 title: "장치에서 iOS 활성화 잠금 관리 | Microsoft Intune"
 description: "Microsoft Intune에서는 iOS 7.1 이상 장치용 나의 iPhone 찾기(Find My iPhone) 앱의 기능인 iOS 활성화 잠금을 관리할 수 있습니다."
@@ -16,6 +22,88 @@ translationtype: Human Translation
 ms.sourcegitcommit: d9e08429fb6c834476fd0029d559059c5132afca
 ms.openlocfilehash: 2b44779fdac0764a3e7a18f1c365050e9800f902
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+---
+title: "장치에서 iOS 활성화 잠금 관리 | Microsoft Intune"
+description: "Microsoft Intune에서는 iOS 7.1 이상 장치용 나의 iPhone 찾기(Find My iPhone) 앱의 기능인 iOS 활성화 잠금을 관리할 수 있습니다."
+keywords: 
+author: robstackmsft
+manager: angrobe
+ms.date: 07/19/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: bb49e926-15c4-4f01-b6eb-cee6f7ee1984
+ms.reviewer: joglocke
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 8d0e2b79a19dfce1541506bc1da89cb716a1d0af
+ms.openlocfilehash: c03c309e1e27a47b65a87aae8833b88680b0d8e8
+
+=========
+---
+title: "장치에서 iOS 활성화 잠금 관리 | Microsoft Intune"
+description: "Microsoft Intune에서는 iOS 7.1 이상 장치용 나의 iPhone 찾기(Find My iPhone) 앱의 기능인 iOS 활성화 잠금을 관리할 수 있습니다."
+keywords: 
+author: robstackmsft
+manager: angrobe
+ms.date: 07/19/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: bb49e926-15c4-4f01-b6eb-cee6f7ee1984
+ms.reviewer: joglocke
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: d9e08429fb6c834476fd0029d559059c5132afca
+ms.openlocfilehash: 2b44779fdac0764a3e7a18f1c365050e9800f902
+
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+---
+title: "장치에서 iOS 활성화 잠금 관리 | Microsoft Intune"
+description: "Microsoft Intune에서는 iOS 7.1 이상 장치용 나의 iPhone 찾기(Find My iPhone) 앱의 기능인 iOS 활성화 잠금을 관리할 수 있습니다."
+keywords: 
+author: robstackmsft
+manager: angrobe
+ms.date: 07/19/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: bb49e926-15c4-4f01-b6eb-cee6f7ee1984
+ms.reviewer: joglocke
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 8d0e2b79a19dfce1541506bc1da89cb716a1d0af
+ms.openlocfilehash: c03c309e1e27a47b65a87aae8833b88680b0d8e8
+
+=======
+---
+title: "장치에서 iOS 활성화 잠금 관리 | Microsoft Intune"
+description: "Microsoft Intune에서는 iOS 7.1 이상 장치용 나의 iPhone 찾기(Find My iPhone) 앱의 기능인 iOS 활성화 잠금을 관리할 수 있습니다."
+keywords: 
+author: robstackmsft
+manager: angrobe
+ms.date: 07/19/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: bb49e926-15c4-4f01-b6eb-cee6f7ee1984
+ms.reviewer: joglocke
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: d9e08429fb6c834476fd0029d559059c5132afca
+ms.openlocfilehash: 2b44779fdac0764a3e7a18f1c365050e9800f902
+
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ---
 
@@ -91,6 +179,22 @@ Intune에서는 iOS 8.0 이상을 실행하는 감독된/감독되지 않은 장
 [원격 잠금 또는 암호 재설정으로 장치 보호 지원](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+||||||||| merged common ancestors
+<!--HONumber=Aug16_HO1-->
+=========
+<!--HONumber=Sep16_HO2-->
+>>>>>>>>> Temporary merge branch 2
+=======
+<<<<<<< HEAD
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO1-->
+=======
+<!--HONumber=Sep16_HO2-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 <!--HONumber=Sep16_HO2-->
 

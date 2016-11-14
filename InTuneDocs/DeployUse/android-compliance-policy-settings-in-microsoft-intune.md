@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ---
 title: "Android 장치용 규정 준수 정책 설정 | Microsoft Intune"
 description: "이 항목에서는 Android 장치에 대한 장치 준수 정책 설정에 대해 설명합니다."
@@ -16,6 +22,90 @@ translationtype: Human Translation
 ms.sourcegitcommit: 777c0ac6ea309db81b127fb254e0c5f88444e475
 ms.openlocfilehash: cf1fde5b5ed55552e573c724b6165203033683da
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+---
+title: "Android 장치용 규정 준수 정책 설정 | Microsoft Intune"
+description: "이 항목에서는 Android 장치에 대한 장치 준수 정책 설정에 대해 설명합니다."
+keywords: 
+author: karthikaraman
+manager: angrobe
+ms.date: 07/13/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
+ms.reviewer: chrisgre
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: f99158924b83254efedb8663b9d6175a6b6775b1
+
+=========
+---
+title: "Android 장치용 규정 준수 정책 설정 | Microsoft Intune"
+description: "이 항목에서는 Android 장치에 대한 장치 준수 정책 설정에 대해 설명합니다."
+keywords: 
+author: karthikaraman
+ms.author: karaman
+manager: angrobe
+ms.date: 07/13/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
+ms.reviewer: chrisgre
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: e24de6814d9e01c64768f425e961a7822f4b27a1
+ms.openlocfilehash: 5f02618da6fb3c538ad131fe8abaf35a6be6e177
+
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+---
+title: "Android 장치용 규정 준수 정책 설정 | Microsoft Intune"
+description: "이 항목에서는 Android 장치에 대한 장치 준수 정책 설정에 대해 설명합니다."
+keywords: 
+author: karthikaraman
+manager: angrobe
+ms.date: 07/13/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
+ms.reviewer: chrisgre
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: f99158924b83254efedb8663b9d6175a6b6775b1
+
+=======
+---
+title: "Android 장치용 규정 준수 정책 설정 | Microsoft Intune"
+description: "이 항목에서는 Android 장치에 대한 장치 준수 정책 설정에 대해 설명합니다."
+keywords: 
+author: karthikaraman
+ms.author: karaman
+manager: angrobe
+ms.date: 07/13/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
+ms.reviewer: chrisgre
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: e24de6814d9e01c64768f425e961a7822f4b27a1
+ms.openlocfilehash: 5f02618da6fb3c538ad131fe8abaf35a6be6e177
+
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ---
 
@@ -65,23 +155,113 @@ ms.openlocfilehash: cf1fde5b5ed55552e573c724b6165203033683da
 
 - **USB 디버깅을 사용하지 않도록 설정되어야 함(Android 4.2 이상)**: 이 설정은 장치에 USB 디버깅 옵션을 감지하는 기능이 사용하도록 설정되어 있는지 여부를 지정합니다.
 - **장치의 보안 위협 검색을 사용하도록 장치가 설정되어 있어야 함(Android 4.2 4.4 이상)**: 이 설정은 장치에 **앱 확인** 기능이 사용하도록 설정되어 있는지 지정합니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
 - **최소 Android 보안 패치 수준(Android 6.0 이상)**: 최소 Android 패치 수준이 지정하려면 이 설정을 사용합니다.  적어도 이 패치 수준에 없는 장치가 비규격 장치가 됩니다. 날짜는 YYYY-MM-DD 형식으로 지정해야 합니다.
+- **장치 위협 보호를 사용하도록 설정해야 함**: Lookout MTP 솔루션에서 위험 평가를 규정 준수에 대한 조건으로 수행하려면 이 설정을 사용합니다. 허용되는 최대 위협 수준을 다음 중에서 선택합니다.
+||||||||| merged common ancestors
+=======
+<<<<<<< HEAD
+- **최소 Android 보안 패치 수준(Android 6.0 이상)**: 최소 Android 패치 수준이 지정하려면 이 설정을 사용합니다.  적어도 이 패치 수준에 없는 장치가 비규격 장치가 됩니다. 날짜는 YYYY-MM-DD 형식으로 지정해야 합니다.
+- **장치 위협 보호를 사용하도록 설정해야 함**: Lookout MTP 솔루션에서 위험 평가를 규정 준수에 대한 조건으로 수행하려면 이 설정을 사용합니다. 허용되는 최대 위협 수준을 다음 중에서 선택합니다.
+||||||| merged common ancestors
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
+- **최소 Android 보안 패치 수준(Android 6.0 이상)**: 최소 Android 패치 수준이 지정하려면 이 설정을 사용합니다.  적어도 이 패치 수준에 없는 장치가 비규격 장치가 됩니다. 날짜는 YYYY-MM-DD 형식으로 지정해야 합니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+=========
+- **최소 Android 보안 패치 수준(Android 6.0 이상)**: 최소 Android 패치 수준이 지정하려면 이 설정을 사용합니다. 적어도 이 패치 수준에 없는 장치가 비규격 장치가 됩니다. 날짜는 YYYY-MM-DD 형식으로 지정해야 합니다.
+=======
+=======
+- **최소 Android 보안 패치 수준(Android 6.0 이상)**: 최소 Android 패치 수준이 지정하려면 이 설정을 사용합니다. 적어도 이 패치 수준에 없는 장치가 비규격 장치가 됩니다. 날짜는 YYYY-MM-DD 형식으로 지정해야 합니다.
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 - **장치 위협 보호를 사용하도록 설정해야 함**: Lookout MTP 솔루션에서 위험 평가를 규정 준수에 대한 조건으로 수행하려면 이 설정을 사용합니다. 허용되는 최대 위협 수준을 다음 중에서 선택합니다.
 
   - **없음(보안됨)**: 가장 안전합니다. 장치에 어떤 위협도 있어서는 안 된다는 의미입니다. 수준에 관계없이 위협이 발견된 장치는 규정 비준수로 평가됩니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+  - **낮음**: 낮은 수준의 위협만 있는 경우 장치가 규정 준수로 평가됩니다. 더 높은 수준의 위협이 발생하면 장치는 규정 비준수 상태가 됩니다.
+  - **보통**: 장치에 있는 위협이 낮거나 중간 수준인 경우 장치가 규정 준수로 평가됩니다. 높은 수준의 위협이 있는 것으로 감지되면 장치가 규정 비준수로 결정됩니다.
+  - **높음**: 가장 보안이 낮습니다. 기본적으로 모든 위협 수준이 허용됩니다. 이 수준은 이 솔루션을 보고 용도로만 사용하는 경우에 유용할 수 있습니다.
+>>>>>>>>> Temporary merge branch 2
+
+<<<<<<<<< Temporary merge branch 1
+  - **없음(보안됨)**: 가장 안전합니다. 장치에 어떤 위협도 있어서는 안 된다는 의미입니다. 수준에 관계없이 위협이 발견된 장치는 규정 비준수로 평가됩니다.
+=======
+  - **낮음**: 낮은 수준의 위협만 있는 경우 장치가 규정 준수로 평가됩니다. 더 높은 수준의 위협이 발생하면 장치는 규정 비준수 상태가 됩니다.
+  - **보통**: 장치에 있는 위협이 낮거나 중간 수준인 경우 장치가 규정 준수로 평가됩니다. 높은 수준의 위협이 있는 것으로 감지되면 장치가 규정 비준수로 결정됩니다.
+  - **높음**: 가장 보안이 낮습니다. 기본적으로 모든 위협 수준이 허용됩니다. 이 수준은 이 솔루션을 보고 용도로만 사용하는 경우에 유용할 수 있습니다.
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+
+<<<<<<< HEAD
+  - **없음(보안됨)**: 가장 안전합니다. 장치에 어떤 위협도 있어서는 안 된다는 의미입니다. 수준에 관계없이 위협이 발견된 장치는 규정 비준수로 평가됩니다.
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
   - **낮음**: 낮은 수준의 위협이 있는 경우에만 장치가 규정 준수로 평가됩니다. 더 높은 수준의 위협이 발생하면 장치는 규정 비준수 상태가 됩니다.
   - **보통**: 장치에 있는 위협이 낮거나 중간 수준인 경우 장치가 규정 준수로 평가됩니다. 높은 수준의 위협이 있는 것으로 감지되면 장치가 규정 비준수로 결정됩니다.
   - **높음**: 가장 보안이 낮습니다. 기본적으로 이 옵션은 모든 위협 수준을 허용하기 때문에 이 솔루션을 보고 목적으로 사용할 경우에만 유용합니다.
 
   자세한 내용은 [규정 준수 정책에서 장치 위협 방지 규칙 활성화](enable-device-threat-protection-rule-in-compliance-policy.md)를 참조하세요.
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+=========
+  자세한 내용은 [규정 준수 정책에서 장치 위협 방지 규칙 활성화](enable-device-threat-protection-rule-in-compliance-policy.md)를 참조하세요.
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+=======
+  자세한 내용은 [규정 준수 정책에서 장치 위협 방지 규칙 활성화](enable-device-threat-protection-rule-in-compliance-policy.md)를 참조하세요.
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ## 장치 속성 설정
 - **필요한 최소 OS:** 장치가 OS 최소 버전 요구 사항을 충족하지 못하면 비규격 장치로 보고됩니다.
   업그레이드 방법에 대한 정보를 제공하는 링크가 표시됩니다. 최종 사용자는 회사 리소스에 액세스할 수 있으면 장치를 업그레이드하도록 선택할 수 있습니다.
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
 - **허용된 최대 OS 버전:** 장치가 규칙에 지정된 버전 이후의 OS를 사용하는 경우 회사 리소스에 대한 액세스가 차단되고 사용자는 IT 관리자에게 문의하라는 메시지가 표시됩니다. OS 버전 허용 규칙이 변경될 때까지 회사 리소스에 액세스하는 데 이 장치를 사용할 수 없습니다.
+||||||||| merged common ancestors
+=======
+<<<<<<< HEAD
+- **허용된 최대 OS 버전:** 장치가 규칙에 지정된 버전 이후의 OS를 사용하는 경우 회사 리소스에 대한 액세스가 차단되고 사용자는 IT 관리자에게 문의하라는 메시지가 표시됩니다. OS 버전 허용 규칙이 변경될 때까지 회사 리소스에 액세스하는 데 이 장치를 사용할 수 없습니다.
+||||||| merged common ancestors
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
+- **허용된 최대 OS 버전:** 장치가 규칙에 지정된 버전 이후의 OS를 사용하는 경우 회사 리소스에 대한 액세스가 차단되고 사용자는 IT 관리자에게 문의하라는 메시지가 표시됩니다. OS 버전 허용 규칙이 변경될 때까지 회사 리소스에 액세스하는 데 이 장치를 사용할 수 없습니다.
+<<<<<<< HEAD
 
 
+||||||| merged common ancestors
+
+=========
+- **허용된 최대 OS 버전**: 장치가 규칙에 지정된 버전 이후의 OS를 사용하는 경우 회사 리소스에 대한 액세스가 차단되고 사용자는 IT 관리자에게 문의하라는 메시지가 표시됩니다. OS 버전 허용 규칙이 변경될 때까지 회사 리소스에 액세스하는 데 이 장치를 사용할 수 없습니다.
+
+>>>>>>>>> Temporary merge branch 2
+
+
+<<<<<<<<< Temporary merge branch 1
+||||||||| merged common ancestors
+<!--HONumber=Jul16_HO5-->
+=========
+<!--HONumber=Oct16_HO3-->
+>>>>>>>>> Temporary merge branch 2
+=======
+
+=======
+- **허용된 최대 OS 버전**: 장치가 규칙에 지정된 버전 이후의 OS를 사용하는 경우 회사 리소스에 대한 액세스가 차단되고 사용자는 IT 관리자에게 문의하라는 메시지가 표시됩니다. OS 버전 허용 규칙이 변경될 때까지 회사 리소스에 액세스하는 데 이 장치를 사용할 수 없습니다.
+
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+
+
+<<<<<<< HEAD
+||||||| merged common ancestors
+<!--HONumber=Jul16_HO5-->
+=======
+<!--HONumber=Oct16_HO3-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 <!--HONumber=Sep16_HO3-->
 

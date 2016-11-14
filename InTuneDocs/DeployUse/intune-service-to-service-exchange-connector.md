@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ---
 title: "Exchange Online용 Exchange Connector | Microsoft Intune"
 description: "Intune을 Office 365 Exchange 서비스에 연결하여 Exchange ActiveSync MDM(모바일 장치 관리)을 지원합니다."
@@ -16,10 +22,118 @@ translationtype: Human Translation
 ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
 ms.openlocfilehash: a6438bb3ca21e5c46dca5ebe69266fd9bce9a4b8
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+---
+title: "Exchange Online용 Exchange Connector | Microsoft Intune"
+description: "Intune을 Office 365 Exchange 서비스에 연결하여 Exchange ActiveSync MDM(모바일 장치 관리)을 지원합니다."
+keywords: 
+author: NathBarn
+manager: angrobe
+ms.date: 07/29/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 05fa5dc9-9bad-4557-987a-9b8ce4edebb0
+ms.reviewer: muhosabe
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: de3296e81c88b3ac04e3ba3f3d3ca222a59df7bd
+ms.openlocfilehash: 1aabf820170483eacc83bec5e2b275e84dc07ffd
+
+=========
+---
+title: "Exchange Online용 Exchange Connector | Microsoft Intune"
+description: "Intune을 Office 365 Exchange 서비스에 연결하여 Exchange ActiveSync MDM(모바일 장치 관리)을 지원합니다."
+keywords: 
+author: staciebarker
+ms.author: stabar
+manager: angrobe
+ms.date: 07/29/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 05fa5dc9-9bad-4557-987a-9b8ce4edebb0
+ms.reviewer: muhosabe
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
+ms.openlocfilehash: 4cee7aa4ee650f21c2ab6f9123976b2149141812
+
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+---
+title: "Exchange Online용 Exchange Connector | Microsoft Intune"
+description: "Intune을 Office 365 Exchange 서비스에 연결하여 Exchange ActiveSync MDM(모바일 장치 관리)을 지원합니다."
+keywords: 
+author: NathBarn
+manager: angrobe
+ms.date: 07/29/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 05fa5dc9-9bad-4557-987a-9b8ce4edebb0
+ms.reviewer: muhosabe
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: de3296e81c88b3ac04e3ba3f3d3ca222a59df7bd
+ms.openlocfilehash: 1aabf820170483eacc83bec5e2b275e84dc07ffd
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
+
+=======
+---
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+title: "Exchange Online용 Exchange Connector | Microsoft Intune"
+description: "Intune을 Office 365 Exchange 서비스에 연결하여 Exchange ActiveSync MDM(모바일 장치 관리)을 지원합니다."
+keywords: 
+author: staciebarker
+ms.author: stabar
+manager: angrobe
+ms.date: 07/29/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 05fa5dc9-9bad-4557-987a-9b8ce4edebb0
+ms.reviewer: muhosabe
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
+ms.openlocfilehash: 4cee7aa4ee650f21c2ab6f9123976b2149141812
+
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 ---
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 # Exchange Online용 Intune Service-to-Service Connector 구성
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+
+# Exchange Online용 Intune Service-to-Service Connector 구성
+=========
+
+# <a name="configure-the-intune-service-to-service-connector-for-exchange-online"></a>Exchange Online용 Intune Service to Service Connector 구성
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+
+# Exchange Online용 Intune Service-to-Service Connector 구성
+=======
+
+# <a name="configure-the-intune-service-to-service-connector-for-exchange-online"></a>Exchange Online용 Intune Service to Service Connector 구성
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 이 정보를 사용하여 Microsoft Intune과 Exchange Online 또는 신규 Exchange Online Dedicated 서비스에 연결합니다. Exchange Online Dedicated 환경이 **신규** 상태인지 아니면 **기존** 상태인지 확인하려면 계정 관리자에게 문의하세요. Intune은 Exchange Connector 연결 형식에 상관없이 구독당 연결을 한 번만 지원합니다.
 
@@ -63,6 +177,22 @@ Exchange Connector를 구성했으면 [Microsoft Intune 관리자 콘솔](http:/
 마지막으로 성공한 동기화 시도의 시간과 날짜를 확인할 수도 있습니다.
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+||||||||| merged common ancestors
+<!--HONumber=Jul16_HO5-->
+=========
+<!--HONumber=Nov16_HO1-->
+>>>>>>>>> Temporary merge branch 2
+=======
+<<<<<<< HEAD
+||||||| merged common ancestors
+<!--HONumber=Jul16_HO5-->
+=======
+<!--HONumber=Nov16_HO1-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 <!--HONumber=Sep16_HO4-->
 

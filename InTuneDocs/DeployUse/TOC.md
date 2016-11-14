@@ -102,11 +102,34 @@
 #### [메일 액세스 제한: 예제](restrict-email-access-example-scenarios.md)
 
 ### [네트워크에 대한 액세스 제한(Cisco ISE)](restrict-access-to-networks.md)
+<<<<<<< HEAD
 ### [장치, 네트워크 및 응용 프로그램 위험에 따라 액세스 제한](restrict-access-based-on-device-network-app-risk.md)
 #### [Lookout MTP 설정](set-up-your-subscription-with-lookout-mtp.md)
 #### [Intune에서 Lookout 사용](enable-lookout-mtp-connection-in-intune.md)
 #### [Lookout for Work 앱 배포](configure-and-deploy-lookout-for-work-apps.md)
 #### [장치 위협 방지 준수 정책 사용](enable-device-threat-protection-rule-in-compliance-policy.md)
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+### [장치, 네트워크 및 응용 프로그램 위험에 따라 액세스 제한](restrict-access-based-on-device-network-app-risk.md)
+#### [Lookout MTP 설정](set-up-your-subscription-with-lookout-mtp.md)
+#### [Intune에서 Lookout 사용](enable-lookout-mtp-connection-in-intune.md)
+#### [Lookout for Work 앱 배포](configure-and-deploy-lookout-for-work-apps.md)
+#### [장치 위협 방지 준수 정책 사용](enable-device-threat-protection-rule-in-compliance-policy.md)
+||||||||| merged common ancestors
+=========
+### [장치, 네트워크 및 응용 프로그램 위험에 따라 액세스 제한](restrict-access-based-on-device-network-app-risk.md)
+#### [Lookout 장치 위협 방지 설정](set-up-your-subscription-with-lookout-mtp.md)
+#### [Intune에서 Lookout 사용](enable-lookout-mtp-connection-in-intune.md)
+#### [Lookout for Work 앱 배포](configure-and-deploy-lookout-for-work-apps.md)
+#### [장치 위협 방지 준수 정책 사용](enable-device-threat-protection-rule-in-compliance-policy.md)
+>>>>>>>>> Temporary merge branch 2
+=======
+### [장치, 네트워크 및 응용 프로그램 위험에 따라 액세스 제한](restrict-access-based-on-device-network-app-risk.md)
+#### [Lookout 장치 위협 방지 설정](set-up-your-subscription-with-lookout-mtp.md)
+#### [Intune에서 Lookout 사용](enable-lookout-mtp-connection-in-intune.md)
+#### [Lookout for Work 앱 배포](configure-and-deploy-lookout-for-work-apps.md)
+#### [장치 위협 방지 준수 정책 사용](enable-device-threat-protection-rule-in-compliance-policy.md)
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ### [MAM을 사용하여 앱 데이터 보호](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
 #### [MAM 정책용 Azure 포털](azure-portal-for-microsoft-intune-mam-policies.md)
@@ -143,6 +166,18 @@
 # [문제 해결](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
+<<<<<<< HEAD
 <!--HONumber=Sep16_HO2-->
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+<!--HONumber=Sep16_HO2-->
+||||||||| merged common ancestors
+<!--HONumber=Sep16_HO1-->
+=========
+<!--HONumber=Oct16_HO3-->
+>>>>>>>>> Temporary merge branch 2
+=======
+<!--HONumber=Oct16_HO3-->
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 

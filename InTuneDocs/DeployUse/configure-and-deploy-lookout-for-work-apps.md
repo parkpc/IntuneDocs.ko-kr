@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ---
 title: "Lookout for Work 앱 배포 | Microsoft Intune"
 description: "Android용 Lookout for Work 앱을 구성하고 배포합니다."
@@ -60,3 +66,201 @@ Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵�
 <!--HONumber=Sep16_HO3-->
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+=========
+---
+title: "Lookout for Work 앱 배포 | Microsoft Intune"
+description: "Android용 Lookout for Work 앱을 구성하고 배포합니다."
+author: karthikaraman
+manager: angrobe
+ms.date: 10/12/2016
+ms.topic: article
+ms.prod: 
+ms.service: 
+ms.technology: 
+ms.assetid: 524c4209-ad57-4d35-955e-a00d796bf858
+ms.reviewer: sandera
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 4a69be67c3ef9f028c77c738de5f1fcbd59a8d33
+ms.openlocfilehash: 2c626cb0a36c38c7b5deeca0ff1e902018540634
+
+
+---
+
+# Lookout for Work 앱 구성 및 배포
+이 문서에서는 Android 및 iOS 장치에서 Lookout for Work 앱을 구성하고 배포하는 방법을 설명합니다.
+
+## Android(Google Play 스토어 앱)
+
+* **1단계:**   [Microsoft Intune에서 모바일 장치용 앱 추가](https://docs.microsoft.com/en-us/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune) 항목에 설명된 대로 [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에서 Lookout for Work Android 앱을 업로드합니다.
+>[!NOTE]
+> 관리되는 브라우저가 필요한 상자는 클릭하지 마세요.
+
+![목록에서 Lookout for Work 앱을 보여 주는 Intune 관리 콘솔 앱 페이지 스크린샷](../media/mtp/lookout-app-listed-intune-console.png)
+
+* **2단계:** 사용자에게 앱을 배포합니다. 위 화면에 표시된 Lookout for Work 앱을 선택한 후 **배포 관리**를 선택합니다.
+
+  Lookout  콘솔의 등록 관리 옵션에 추가된 사용자와 동일한 사용자를 선택해야 합니다.  Lookout MTP에 사용자 그룹을 추가하는 방법에 대한 정보는 [Lookout 장치 위협 방지 구독 구성 섹션](set-up-your-subscription-with-lookout-mtp#configure-your-subscription-with-lookout-mtp)에 나온 3단계를 참조하세요.
+>[!IMPORTANT]
+> Intune 앱 배포 마법사는 Azure AD 사용자 그룹을 인식하지 못하기 때문에 Intune 사용자 그룹을 대신 사용합니다. 따라서 [이](plan-your-user-and-device-groups.md) 항목에 설명한 대로, Lookout 콘솔에 등록된 Azure AD 사용자 그룹을 기반으로 Intune 사용자 그룹을 만들어야 합니다.
+
+Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵션를 선택합니다.
+
+
+## iOS(Lookout 앱의 엔터프라이즈 서명된 버전)
+
+* **1단계:** 장치에 **iOS 관리**가 설치되어 있는지 확인합니다. iOS 관리에 대해 장치를 설정하는 방법에 대한 자세한 내용은 [iOS 및 Mac 장치 관리 설정](set-up-ios-and-mac-management-with-microsoft-intune.md)을 참조하세요.
+
+* **2단계:** Lookout for Work iOS 앱을 **다시 서명**합니다. Lookout에서는 iOS App Store 외부에 Lookout for Work iOS 앱을 배포합니다. **앱을 배포하기 전에** iOS Enterprise Developer Certificate로 앱을 다시 서명해야 합니다. Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내용은 Lookout 사이트에서 [Lookout for Work iOS 앱 다시 서명 프로세스](https://personal.support.lookout.com/hc/en-us/articles/114094038714)를 참조하세요.
+
+
+* **3단계:** 다음을 수행하여 iOS 사용자에게 Azure Active Directory 인증을 사용하도록 설정합니다.
+  1.  [Azure Active Directory 관리 포털](https://manage.windowsazure.com)에 로그인하여 응용 프로그램 페이지로 이동합니다.
+  2.  **Lookout for Work iOS 앱**을 **네이티브 클라이언트 응용 프로그램**으로 추가합니다.
+  ![네이티브 클라이언트 앱 옵션을 보여 주는 앱 추가 대화 상자의 스크린샷](../media/mtp/aad-add-app.png)
+
+  3. **com.lookout.enterprise.yourcompanyname**을 IPA에 서명할 때 선택한 고객 번들 ID로 바꿉니다.
+  4.  리디렉션 URI: **&lt;companyportal://code/>**를 원래 리디렉션 URI의 인코딩된 버전 뒤에 추가합니다.
+  5.  **위임된 권한**을 앱에 추가합니다.
+
+  자세한 내용은 [네이티브 클라이언트 응용 프로그램을 구성](https://azure.microsoft.com/en-us/documentation/articles/app-service-mobile-how-to-configure-active-directory-authentication/#optional-configure-a-native-client-application)을 참조하세요.
+
+
+* **4단계:** [Microsoft Intune에서 모바일 장치용 앱 추가](https://docs.microsoft.com/en-us/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune) 항목에 설명된 대로 다시 서명된 .ipa 파일을 업로드합니다. 최소 OS 버전을 iOS 8.0 이상으로 설정합니다.
+
+  ![앱 목록에 표시되는 Lookout for Work 앱이 포함된 Intune 관리자 콘솔의 앱 페이지 스크린샷](../media/mtp/ios-app-uploaded-intune.png)
+
+* **5단계:** [Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성](https://docs.microsoft.com/en-us/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)에 설명된 대로 관리되는 앱 구성 정책을 만듭니다.
+
+  ![iOS 8.0 이상 앱 구성 정책이 강조 표시된 새 정책 마법사의 스크린샷](../media/mtp/ios-app-config.png)
+
+* **6단계:** **사용자에게 앱을 배포하도록** Lookout for Work 앱을 선택하고 **배포 관리**를 선택합니다.
+
+  Lookout  콘솔의 등록 관리 옵션에 추가된 사용자와 동일한 사용자를 선택해야 합니다.  Lookout MTP에 사용자 그룹을 추가하는 방법에 대한 정보는 [Lookout 장치 위협 방지 구독 구성 섹션](set-up-your-subscription-with-lookout-mtp#configure-your-subscription-with-lookout-mtp)에 나온 3단계를 참조하세요.
+>[!IMPORTANT]
+> Intune 앱 배포 마법사는 Azure AD 사용자 그룹을 인식하지 못하기 때문에 Intune 사용자 그룹을 대신 사용합니다. 따라서 [이](plan-your-user-and-device-groups.md) 항목에 설명한 대로, Lookout 콘솔에 등록된 Azure AD 사용자 그룹을 기반으로 Intune 사용자 그룹을 만들어야 합니다.
+
+Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵션를 선택합니다.
+
+## 배포된 앱이 장치에서 열리면 어떻게 되나요?
+
+
+
+
+사용자가 장치에서 Lookout for Work를 열면 앱을 활성화하고 Azure Active Directory로 로그인 옵션을 선택하라는 메시지가 표시됩니다. 최종 사용자의 작업 과정에 대한 자세한 안내는 다음 항목에서 살펴볼 수 있습니다.
+
+* [Android 장치에 Lookout for Work를 설치하라는 메시지가 표시됨](http://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android)
+
+* [Android 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](http://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
+
+## 다음 단계
+* [규정 준수 정책에서 장치 위협 방지 규칙 활성화](enable-device-threat-protection-rule-in-compliance-policy.md)
+
+
+
+<!--HONumber=Oct16_HO2-->
+
+
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+=======
+---
+title: "Lookout for Work 앱 배포 | Microsoft Intune"
+description: "Android용 Lookout for Work 앱을 구성하고 배포합니다."
+author: karthikaraman
+manager: angrobe
+ms.date: 10/12/2016
+ms.topic: article
+ms.prod: 
+ms.service: 
+ms.technology: 
+ms.assetid: 524c4209-ad57-4d35-955e-a00d796bf858
+ms.reviewer: sandera
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 4a69be67c3ef9f028c77c738de5f1fcbd59a8d33
+ms.openlocfilehash: 2c626cb0a36c38c7b5deeca0ff1e902018540634
+
+
+---
+
+# Lookout for Work 앱 구성 및 배포
+이 문서에서는 Android 및 iOS 장치에서 Lookout for Work 앱을 구성하고 배포하는 방법을 설명합니다.
+
+## Android(Google Play 스토어 앱)
+
+* **1단계:**   [Microsoft Intune에서 모바일 장치용 앱 추가](https://docs.microsoft.com/en-us/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune) 항목에 설명된 대로 [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에서 Lookout for Work Android 앱을 업로드합니다.
+>[!NOTE]
+> 관리되는 브라우저가 필요한 상자는 클릭하지 마세요.
+
+![목록에서 Lookout for Work 앱을 보여 주는 Intune 관리 콘솔 앱 페이지 스크린샷](../media/mtp/lookout-app-listed-intune-console.png)
+
+* **2단계:** 사용자에게 앱을 배포합니다. 위 화면에 표시된 Lookout for Work 앱을 선택한 후 **배포 관리**를 선택합니다.
+
+  Lookout  콘솔의 등록 관리 옵션에 추가된 사용자와 동일한 사용자를 선택해야 합니다.  Lookout MTP에 사용자 그룹을 추가하는 방법에 대한 정보는 [Lookout 장치 위협 방지 구독 구성 섹션](set-up-your-subscription-with-lookout-mtp#configure-your-subscription-with-lookout-mtp)에 나온 3단계를 참조하세요.
+>[!IMPORTANT]
+> Intune 앱 배포 마법사는 Azure AD 사용자 그룹을 인식하지 못하기 때문에 Intune 사용자 그룹을 대신 사용합니다. 따라서 [이](plan-your-user-and-device-groups.md) 항목에 설명한 대로, Lookout 콘솔에 등록된 Azure AD 사용자 그룹을 기반으로 Intune 사용자 그룹을 만들어야 합니다.
+
+Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵션를 선택합니다.
+
+
+## iOS(Lookout 앱의 엔터프라이즈 서명된 버전)
+
+* **1단계:** 장치에 **iOS 관리**가 설치되어 있는지 확인합니다. iOS 관리에 대해 장치를 설정하는 방법에 대한 자세한 내용은 [iOS 및 Mac 장치 관리 설정](set-up-ios-and-mac-management-with-microsoft-intune.md)을 참조하세요.
+
+* **2단계:** Lookout for Work iOS 앱을 **다시 서명**합니다. Lookout에서는 iOS App Store 외부에 Lookout for Work iOS 앱을 배포합니다. **앱을 배포하기 전에** iOS Enterprise Developer Certificate로 앱을 다시 서명해야 합니다. Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내용은 Lookout 사이트에서 [Lookout for Work iOS 앱 다시 서명 프로세스](https://personal.support.lookout.com/hc/en-us/articles/114094038714)를 참조하세요.
+
+
+* **3단계:** 다음을 수행하여 iOS 사용자에게 Azure Active Directory 인증을 사용하도록 설정합니다.
+  1.  [Azure Active Directory 관리 포털](https://manage.windowsazure.com)에 로그인하여 응용 프로그램 페이지로 이동합니다.
+  2.  **Lookout for Work iOS 앱**을 **네이티브 클라이언트 응용 프로그램**으로 추가합니다.
+  ![네이티브 클라이언트 앱 옵션을 보여 주는 앱 추가 대화 상자의 스크린샷](../media/mtp/aad-add-app.png)
+
+  3. **com.lookout.enterprise.yourcompanyname**을 IPA에 서명할 때 선택한 고객 번들 ID로 바꿉니다.
+  4.  리디렉션 URI: **&lt;companyportal://code/>**를 원래 리디렉션 URI의 인코딩된 버전 뒤에 추가합니다.
+  5.  **위임된 권한**을 앱에 추가합니다.
+
+  자세한 내용은 [네이티브 클라이언트 응용 프로그램을 구성](https://azure.microsoft.com/en-us/documentation/articles/app-service-mobile-how-to-configure-active-directory-authentication/#optional-configure-a-native-client-application)을 참조하세요.
+
+
+* **4단계:** [Microsoft Intune에서 모바일 장치용 앱 추가](https://docs.microsoft.com/en-us/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune) 항목에 설명된 대로 다시 서명된 .ipa 파일을 업로드합니다. 최소 OS 버전을 iOS 8.0 이상으로 설정합니다.
+
+  ![앱 목록에 표시되는 Lookout for Work 앱이 포함된 Intune 관리자 콘솔의 앱 페이지 스크린샷](../media/mtp/ios-app-uploaded-intune.png)
+
+* **5단계:** [Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성](https://docs.microsoft.com/en-us/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)에 설명된 대로 관리되는 앱 구성 정책을 만듭니다.
+
+  ![iOS 8.0 이상 앱 구성 정책이 강조 표시된 새 정책 마법사의 스크린샷](../media/mtp/ios-app-config.png)
+
+* **6단계:** **사용자에게 앱을 배포하도록** Lookout for Work 앱을 선택하고 **배포 관리**를 선택합니다.
+
+  Lookout  콘솔의 등록 관리 옵션에 추가된 사용자와 동일한 사용자를 선택해야 합니다.  Lookout MTP에 사용자 그룹을 추가하는 방법에 대한 정보는 [Lookout 장치 위협 방지 구독 구성 섹션](set-up-your-subscription-with-lookout-mtp#configure-your-subscription-with-lookout-mtp)에 나온 3단계를 참조하세요.
+>[!IMPORTANT]
+> Intune 앱 배포 마법사는 Azure AD 사용자 그룹을 인식하지 못하기 때문에 Intune 사용자 그룹을 대신 사용합니다. 따라서 [이](plan-your-user-and-device-groups.md) 항목에 설명한 대로, Lookout 콘솔에 등록된 Azure AD 사용자 그룹을 기반으로 Intune 사용자 그룹을 만들어야 합니다.
+
+Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵션를 선택합니다.
+
+## 배포된 앱이 장치에서 열리면 어떻게 되나요?
+
+
+
+
+사용자가 장치에서 Lookout for Work를 열면 앱을 활성화하고 Azure Active Directory로 로그인 옵션을 선택하라는 메시지가 표시됩니다. 최종 사용자의 작업 과정에 대한 자세한 안내는 다음 항목에서 살펴볼 수 있습니다.
+
+* [Android 장치에 Lookout for Work를 설치하라는 메시지가 표시됨](http://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android)
+
+* [Android 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](http://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
+
+## 다음 단계
+* [규정 준수 정책에서 장치 위협 방지 규칙 활성화](enable-device-threat-protection-rule-in-compliance-policy.md)
+
+
+
+<!--HONumber=Oct16_HO2-->
+
+
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455

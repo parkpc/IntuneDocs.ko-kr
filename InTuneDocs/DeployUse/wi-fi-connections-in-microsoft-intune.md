@@ -13,8 +13,32 @@ ms.assetid: 0b1b86ed-2e80-474d-8437-17dd4bc07b55
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ms.sourcegitcommit: 0ced62efd04803943cbbfd8cecef907409a03c0b
 ms.openlocfilehash: beba0471f31a19dad78ddf71c07e323b18af18e8
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+ms.sourcegitcommit: 310a1160d105a80623742ce4e2dc046c670bc167
+ms.openlocfilehash: d597cd13bd2254a9303769e2f5d5519c739f0aaf
+=========
+ms.sourcegitcommit: 27ba29f57bba1f3807c4b593ecac8c0af0851962
+ms.openlocfilehash: 7b49b7d9b6054f7d153359c1ee1b6cf5875fba32
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+ms.sourcegitcommit: 310a1160d105a80623742ce4e2dc046c670bc167
+ms.openlocfilehash: d597cd13bd2254a9303769e2f5d5519c739f0aaf
+=======
+ms.sourcegitcommit: 27ba29f57bba1f3807c4b593ecac8c0af0851962
+ms.openlocfilehash: 7b49b7d9b6054f7d153359c1ee1b6cf5875fba32
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 ---
@@ -40,7 +64,31 @@ Microsoft Intune Wi-Fi 프로필을 사용하여 무선 네트워크 설정을 �
 
 -   Android 4.0 이상
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 -   iOS 8.0 이상
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+-   iOS 7.1 이상
+=========
+-   Android for Work   
+
+-   iOS 8.0 이상
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+-   iOS 7.1 이상
+=======
+-   Android for Work   
+
+-   iOS 8.0 이상
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 -   Mac OS X 10.9 이상
 
@@ -52,6 +100,26 @@ Windows 8.1 또는 Windows 10 데스크톱이나 모바일을 실행하는 장�
 
     -   Wi-Fi 프로필(Android 4 이상)
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+    -   Wi-Fi 프로필(iOS 8.0 이상)
+||||||||| merged common ancestors
+    -   Wi-Fi 프로필(iOS 7.1 이상)
+=========
+    -   Wi-Fi 프로필(Android for Work)
+>>>>>>>>> Temporary merge branch 2
+
+=======
+<<<<<<< HEAD
+    -   Wi-Fi 프로필(iOS 8.0 이상)
+||||||| merged common ancestors
+    -   Wi-Fi 프로필(iOS 7.1 이상)
+=======
+    -   Wi-Fi 프로필(Android for Work)
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
     -   Wi-Fi 프로필(iOS 8.0 이상)
 
     -   Wi-Fi 프로필(Mac OS X 10.9 이상)
@@ -173,6 +241,26 @@ Windows에서는 **netsh wlan** 유틸리티를 사용하여 기존 Wi-Fi 프로
 
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 <!--HONumber=Sep16_HO3-->
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+<!--HONumber=Sep16_HO1-->
+=========
+<!--HONumber=Oct16_HO2-->
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+<!--HONumber=Sep16_HO1-->
+=======
+<!--HONumber=Oct16_HO2-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 

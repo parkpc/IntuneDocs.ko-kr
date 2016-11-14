@@ -13,8 +13,32 @@ ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ms.sourcegitcommit: e2daff5dae435df55c866adbf602f554500d50e0
 ms.openlocfilehash: e898d070eb61583ff379821c9bf24f3997ae177e
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+ms.sourcegitcommit: 08d4352ef88a266d05047d386247815f3765f552
+ms.openlocfilehash: affcca7ea406ea8a9d60f29add4385998b0ae29d
+=========
+ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
+ms.openlocfilehash: 1bc39e7e91b1511ffb99e92e569df0a7153cc06f
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+ms.sourcegitcommit: 08d4352ef88a266d05047d386247815f3765f552
+ms.openlocfilehash: affcca7ea406ea8a9d60f29add4385998b0ae29d
+=======
+ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
+ms.openlocfilehash: 1bc39e7e91b1511ffb99e92e569df0a7153cc06f
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 ---
@@ -50,8 +74,40 @@ Apple DEP(장치 등록 프로그램)로 회사 소유의 iOS 장치를 관리�
 5.  **회사 장치 등록 정책 추가** [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **회사 장치 등록**으로 이동한 다음 **추가**를 클릭합니다.
 
     **이름** 및 **설명**을 포함한 **일반** 세부 정보를 제공하고, 프로필에 할당된 장치에 사용자 선호도가 있는지 또는 장치가 그룹에 속해 있는지를 지정합니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
       - **사용자 선호도 확인**: 초기 설치 작업을 진행할 때 장치에 사용자 정보를 등록해야 합니다. 그러면 해당 사용자로 회사 데이터와 메일에 액세스하도록 허용할 수 있습니다.  사용자에게 속해 있으며 회사 포털을 사용해야 하는(즉, 앱을 설치해야 하는) DEP 관리 장치에 대한 **사용자 선호도**를 구성해야 합니다. **참고:** 사용자 선호도를 사용하는 DEP 장치는 다단계 인증을 지원할 수 없습니다.
       - **사용자 선호도 없음**: 장치에 사용자 정보를 등록하지 않습니다. 로컬 사용자 데이터에 액세스하지 않고도 작업을 수행하는 장치에 대해 이 정보를 사용합니다. 기간 업무 앱을 설치하는 데 사용하는 회사 포털 앱 등 사용자 정보가 필요한 앱은 작동하지 않습니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+      - **사용자 선호도 확인**: 초기 설치 작업을 진행할 때 장치에 사용자 정보를 등록해야 합니다. 그러면 해당 사용자로 회사 데이터와 메일에 액세스하도록 허용할 수 있습니다.  사용자에게 속해 있으며 회사 포털을 사용해야 하는(즉, 앱을 설치해야 하는) DEP 관리 장치에 대한 **사용자 선호도**를 구성해야 합니다.
+      - **사용자 선호도 없음**: 장치에 사용자 정보를 등록하지 않습니다. 로컬 사용자 데이터에 액세스하지 않고도 작업을 수행하는 장치에 대해 이 정보를 사용합니다. 기간 업무 앱을 설치하는 데 사용하는 회사 포털 앱 등 사용자 정보가 필요한 앱은 작동하지 않습니다.
+=========
+      - **사용자 선호도 확인**: 초기 설치 작업을 진행할 때 먼저 장치에 사용자 정보를 등록해야만 해당 사용자로 회사 데이터와 메일에 액세스하도록 허용할 수 있습니다. 사용자에게 속해 있으며 회사 포털을 사용해야 하는(즉, 앱을 설치해야 하는) DEP 관리 장치에 대한 **사용자 선호도**를 설정해야 합니다.</br> **참고:** 사용자 선호도를 사용하는 DEP 장치는 다단계 인증을 지원할 수 없습니다.
+>>>>>>>>> Temporary merge branch 2
+
+      > [!NOTE]
+      > 사용자 선호도가 있는 DEP에서는 사용자 토큰을 요청하기 위해 WS-Trust 1.3 사용자 이름/혼합 끝점이 사용 가능하게 설정되어야 합니다.
+
+      - **사용자 선호도 없음**: 장치에 사용자 정보를 등록하지 않습니다. 로컬 사용자 데이터에 액세스하지 않고도 작업을 수행하는 장치에 대해 이 정보를 사용합니다. 기간 업무 앱을 설치하는 데 사용하는 회사 포털 앱 등 사용자 선호도가 필요한 앱은 작동하지 않습니다.
+=======
+||||||| merged common ancestors
+      - **사용자 선호도 확인**: 초기 설치 작업을 진행할 때 장치에 사용자 정보를 등록해야 합니다. 그러면 해당 사용자로 회사 데이터와 메일에 액세스하도록 허용할 수 있습니다.  사용자에게 속해 있으며 회사 포털을 사용해야 하는(즉, 앱을 설치해야 하는) DEP 관리 장치에 대한 **사용자 선호도**를 구성해야 합니다.
+      - **사용자 선호도 없음**: 장치에 사용자 정보를 등록하지 않습니다. 로컬 사용자 데이터에 액세스하지 않고도 작업을 수행하는 장치에 대해 이 정보를 사용합니다. 기간 업무 앱을 설치하는 데 사용하는 회사 포털 앱 등 사용자 정보가 필요한 앱은 작동하지 않습니다.
+=======
+      - **사용자 선호도 확인**: 초기 설치 작업을 진행할 때 먼저 장치에 사용자 정보를 등록해야만 해당 사용자로 회사 데이터와 메일에 액세스하도록 허용할 수 있습니다. 사용자에게 속해 있으며 회사 포털을 사용해야 하는(즉, 앱을 설치해야 하는) DEP 관리 장치에 대한 **사용자 선호도**를 설정해야 합니다.</br> **참고:** 사용자 선호도를 사용하는 DEP 장치는 다단계 인증을 지원할 수 없습니다.
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+
+      > [!NOTE]
+      > 사용자 선호도가 있는 DEP에서는 사용자 토큰을 요청하기 위해 WS-Trust 1.3 사용자 이름/혼합 끝점이 사용 가능하게 설정되어야 합니다.
+
+      - **사용자 선호도 없음**: 장치에 사용자 정보를 등록하지 않습니다. 로컬 사용자 데이터에 액세스하지 않고도 작업을 수행하는 장치에 대해 이 정보를 사용합니다. 기간 업무 앱을 설치하는 데 사용하는 회사 포털 앱 등 사용자 선호도가 필요한 앱은 작동하지 않습니다.
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
     **다음 그룹에 장치를 할당**할 수도 있습니다. **선택...**을 클릭하여 그룹을 선택합니다.
 
@@ -89,7 +145,27 @@ Apple DEP(장치 등록 프로그램)로 회사 소유의 iOS 장치를 관리�
 
 6.  **관리할 DEP 장치 할당** [장치 등록 프로그램 포털](https://deploy.apple.com)(https://deploy.apple.com)로 이동하고 회사 Apple ID로 로그인합니다. **배포 프로그램** &gt; **장치 등록 프로그램** &gt; **장치 관리**로 이동합니다. **장치 선택** 방법을 지정하고, 장치 정보를 제공한 다음 장치 **일련번호**, **주문 번호** 또는 **CSV 파일 업로드**에 따라 세부 정보를 지정합니다. 그런 다음 **서버에 할당**을 선택하고 Microsoft Intune에 대해 지정된 &lt;ServerName&gt;을 선택한 다음 **확인**을 클릭합니다.
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 7.  **DEP 관리 장치 동기화** 관리자는 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **iOS** &gt; **장치 등록 프로그램**으로 이동한 후 **지금 동기화**를 클릭합니다. 동기화 요청이 Apple에 전송됩니다. 동기화 후에 DEP 관리 장치를 보려면 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **그룹** &gt; **모든 장치** &gt; **회사에서 사전 등록한 장치** &gt; **iOS 일련 번호 기준**으로 이동합니다. **iOS 일련 번호 기준** 작업 영역에서는 장치를 켜고 설치 도우미를 실행하여 장치를 등록할 때까지 관리되는 장치 **상태**가 "연결되지 않음"으로 표시됩니다.
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+7.  **DEP 관리 장치 동기화** 관리자는 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **iOS** &gt; **장치 등록 프로그램**으로 이동한 후 **지금 동기화**를 클릭합니다. 동기화 요청이 Apple에 전송됩니다. 동기화 후에 DEP 관리 장치를 보려면 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **그룹** &gt; **모든 회사 소유 장치**로 이동합니다. **회사 소유 장치** 작업 영역에서는 장치를 켜고 설치 도우미를 실행하여 장치를 등록할 때까지 관리되는 장치 **상태**가 "연결되지 않음"으로 표시됩니다.
+=========
+7.  **DEP 관리 장치 동기화** 관리자는 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **iOS** &gt; **장치 등록 프로그램**으로 이동한 후 **지금 동기화**를 선택합니다. 동기화 요청이 Apple에 전송됩니다. 동기화 후에 DEP 관리 장치를 보려면 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **그룹** &gt; **모든 장치** &gt; **회사에서 사전 등록한 장치** &gt; **iOS 일련 번호 기준**으로 이동합니다. **iOS 일련 번호 기준** 작업 영역에서는 장치를 켜고 설치 도우미를 실행하여 장치를 등록할 때까지 관리되는 장치 **상태**가 "연결되지 않음"으로 표시됩니다.
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+7.  **DEP 관리 장치 동기화** 관리자는 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **iOS** &gt; **장치 등록 프로그램**으로 이동한 후 **지금 동기화**를 클릭합니다. 동기화 요청이 Apple에 전송됩니다. 동기화 후에 DEP 관리 장치를 보려면 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **그룹** &gt; **모든 회사 소유 장치**로 이동합니다. **회사 소유 장치** 작업 영역에서는 장치를 켜고 설치 도우미를 실행하여 장치를 등록할 때까지 관리되는 장치 **상태**가 "연결되지 않음"으로 표시됩니다.
+=======
+7.  **DEP 관리 장치 동기화** 관리자는 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **iOS** &gt; **장치 등록 프로그램**으로 이동한 후 **지금 동기화**를 선택합니다. 동기화 요청이 Apple에 전송됩니다. 동기화 후에 DEP 관리 장치를 보려면 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **그룹** &gt; **모든 장치** &gt; **회사에서 사전 등록한 장치** &gt; **iOS 일련 번호 기준**으로 이동합니다. **iOS 일련 번호 기준** 작업 영역에서는 장치를 켜고 설치 도우미를 실행하여 장치를 등록할 때까지 관리되는 장치 **상태**가 "연결되지 않음"으로 표시됩니다.
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
     허용 가능한 DEP 트래픽에 대한 Apple의 약관을 준수하려면 Intune에서는 다음과 같은 제한 사항을 적용합니다.
      -  전체 DEP 동기화는 7일마다 한 번 이상 실행할 수 없습니다. 전체 동기화 중 Intune은 Apple에서 일련 번호가 이전에 동기화되었는지 여부를 Intune에 할당한 모든 일련 번호를 새로 고칩니다. 전체 동기화를 이전 전체 동기화의 7일 이내에 시도하는 경우 Intune은 Intune에 나열되지 않은 일련 번호만 새로 고칩니다.
@@ -106,6 +182,32 @@ Apple DEP(장치 등록 프로그램)로 회사 소유의 iOS 장치를 관리�
 
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 <!--HONumber=Sep16_HO2-->
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+<!--HONumber=Aug16_HO2-->
+=========
+<!--HONumber=Nov16_HO1-->
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO2-->
+=======
+<!--HONumber=Nov16_HO1-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+||||||| merged common ancestors
+<!--HONumber=Nov16_HO1-->
+=======
+<!--HONumber=Nov16_HO2-->
+>>>>>>> 12550744143a4804819a881aa25136cdf07f4bcb
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ---
 title: "Android 사용자가 앱을 얻는 방법 | Microsoft Intune"
 description: "최종 사용자에게 Android 앱을 제공하기 위한 방법"
@@ -16,6 +22,90 @@ translationtype: Human Translation
 ms.sourcegitcommit: a3db9269bf4f93021d16d8ea23a2a13b87b43677
 ms.openlocfilehash: d3d37b9bcf8cc5833b4e11185b49902e26a625dc
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+---
+title: "Android 사용자가 앱을 얻는 방법 | Microsoft Intune"
+description: "최종 사용자에게 Android 앱을 제공하기 위한 방법"
+keywords: 
+author: Staciebarker
+manager: arob98
+ms.date: 7/7/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: f33d1684-b1b5-44f7-9aac-c6d5186a5d7c
+ms.reviewer: jeffgilb
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 43b7eb3378d9977b9d19196c91a812d9411752b9
+
+=========
+---
+title: "Android 사용자가 앱을 얻는 방법 | Microsoft Intune"
+description: "최종 사용자에게 Android 앱을 제공하기 위한 방법"
+keywords: 
+author: Staciebarker
+ms.author: stabar
+manager: angrobe
+ms.date: 7/7/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: f33d1684-b1b5-44f7-9aac-c6d5186a5d7c
+ms.reviewer: jeffgilb
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 627914b2ac877c1b5ff5bc95f7f2098ab8988250
+ms.openlocfilehash: 98e712fb852c89c1d092b87482f30ada33010a33
+
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+---
+title: "Android 사용자가 앱을 얻는 방법 | Microsoft Intune"
+description: "최종 사용자에게 Android 앱을 제공하기 위한 방법"
+keywords: 
+author: Staciebarker
+manager: arob98
+ms.date: 7/7/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: f33d1684-b1b5-44f7-9aac-c6d5186a5d7c
+ms.reviewer: jeffgilb
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 43b7eb3378d9977b9d19196c91a812d9411752b9
+
+=======
+---
+title: "Android 사용자가 앱을 얻는 방법 | Microsoft Intune"
+description: "최종 사용자에게 Android 앱을 제공하기 위한 방법"
+keywords: 
+author: Staciebarker
+ms.author: stabar
+manager: angrobe
+ms.date: 7/7/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: f33d1684-b1b5-44f7-9aac-c6d5186a5d7c
+ms.reviewer: jeffgilb
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 627914b2ac877c1b5ff5bc95f7f2098ab8988250
+ms.openlocfilehash: 98e712fb852c89c1d092b87482f30ada33010a33
+
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ---
 
@@ -51,6 +141,22 @@ ms.openlocfilehash: d3d37b9bcf8cc5833b4e11185b49902e26a625dc
 [Windows 사용자가 앱을 얻는 방법](how-your-windows-users-get-their-apps.md)
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+||||||||| merged common ancestors
+<!--HONumber=Jul16_HO3-->
+=========
+<!--HONumber=Oct16_HO2-->
+>>>>>>>>> Temporary merge branch 2
+=======
+<<<<<<< HEAD
+||||||| merged common ancestors
+<!--HONumber=Jul16_HO3-->
+=======
+<!--HONumber=Oct16_HO2-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 <!--HONumber=Sep16_HO5-->
 

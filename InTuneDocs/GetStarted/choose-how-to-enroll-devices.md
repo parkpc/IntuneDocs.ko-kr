@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ---
 title: "모바일 장치를 등록하는 방법 선택 | Microsoft Intune"
 description: "몇 가지 간단한 질문에 응답하여 Intune에서 모바일 장치를 등록 하는 방법 결정"
@@ -15,6 +21,86 @@ translationtype: Human Translation
 ms.sourcegitcommit: 899f50cfec9e7c20d2981c077f93e0fccf37dc2b
 ms.openlocfilehash: 0e516e3762dc5712a1b2d0f83016b51b15b7070f
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+---
+title: "모바일 장치를 등록하는 방법 선택 | Microsoft Intune"
+description: "몇 가지 간단한 질문에 응답하여 Intune에서 모바일 장치를 등록 하는 방법 결정"
+keywords: 
+author: NathBarn
+manager: angrobe
+ms.date: 07/25/2016
+ms.topic: article
+ms.prod: 
+ms.service: 
+ms.technology: 
+ms.assetid: cac62b64-3f8b-47ae-aa66-970c7ba15466
+ms.reviewer: dagerrit
+translationtype: Human Translation
+ms.sourcegitcommit: c671610b9c56d8b92d126d9902cce9c8c689ed63
+ms.openlocfilehash: aac4eee56ec7326b2ce466d19b580aa5f1388aea
+
+=========
+---
+title: "모바일 장치를 등록하는 방법 선택 | Microsoft Intune"
+description: "몇 가지 간단한 질문에 응답하여 Intune에서 모바일 장치를 등록 하는 방법 결정"
+keywords: 
+author: NathBarn
+ms.author: nathbarn
+manager: angrobe
+ms.date: 07/25/2016
+ms.topic: article
+ms.prod: 
+ms.service: 
+ms.technology: 
+ms.assetid: cac62b64-3f8b-47ae-aa66-970c7ba15466
+ms.reviewer: dagerrit
+translationtype: Human Translation
+ms.sourcegitcommit: 2c14071f5fb1a3604b897d6b2f81797d40bedc6d
+ms.openlocfilehash: 1fd8495811e2cbcf4761707f2d1b705e49a240c6
+
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+---
+title: "모바일 장치를 등록하는 방법 선택 | Microsoft Intune"
+description: "몇 가지 간단한 질문에 응답하여 Intune에서 모바일 장치를 등록 하는 방법 결정"
+keywords: 
+author: NathBarn
+manager: angrobe
+ms.date: 07/25/2016
+ms.topic: article
+ms.prod: 
+ms.service: 
+ms.technology: 
+ms.assetid: cac62b64-3f8b-47ae-aa66-970c7ba15466
+ms.reviewer: dagerrit
+translationtype: Human Translation
+ms.sourcegitcommit: c671610b9c56d8b92d126d9902cce9c8c689ed63
+ms.openlocfilehash: aac4eee56ec7326b2ce466d19b580aa5f1388aea
+
+=======
+---
+title: "모바일 장치를 등록하는 방법 선택 | Microsoft Intune"
+description: "몇 가지 간단한 질문에 응답하여 Intune에서 모바일 장치를 등록 하는 방법 결정"
+keywords: 
+author: NathBarn
+ms.author: nathbarn
+manager: angrobe
+ms.date: 07/25/2016
+ms.topic: article
+ms.prod: 
+ms.service: 
+ms.technology: 
+ms.assetid: cac62b64-3f8b-47ae-aa66-970c7ba15466
+ms.reviewer: dagerrit
+translationtype: Human Translation
+ms.sourcegitcommit: 2c14071f5fb1a3604b897d6b2f81797d40bedc6d
+ms.openlocfilehash: 1fd8495811e2cbcf4761707f2d1b705e49a240c6
+
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ---
 
@@ -73,6 +159,22 @@ ms.openlocfilehash: 0e516e3762dc5712a1b2d0f83016b51b15b7070f
   - **IMEI 번호로 태그 지정** - 회사 소유 장치의 IMEI(International Mobile Equipment Identity) 번호를 가져와서 Intune에서 회사 소유 장치로 장치에 태그를 지정할 수 있습니다. 이렇게 하면 사용자가 메일, 앱, 데이터 등의 회사 리소스에 액세스하기 위해 회사 포털을 설치하여 장치를 개인 장치로 등록할 수 있습니다.
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+||||||||| merged common ancestors
+<!--HONumber=Aug16_HO1-->
+=========
+<!--HONumber=Oct16_HO3-->
+>>>>>>>>> Temporary merge branch 2
+=======
+<<<<<<< HEAD
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO1-->
+=======
+<!--HONumber=Oct16_HO3-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 <!--HONumber=Sep16_HO2-->
 

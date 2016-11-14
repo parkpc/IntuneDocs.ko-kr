@@ -13,8 +13,32 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ms.sourcegitcommit: 99b01f5ca5bb389fc8a9d87e956796823fee6c0d
 ms.openlocfilehash: dd5ae411cc2541566805131d0076efc15875c988
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+ms.sourcegitcommit: a1d0b330b42ea920af9512552a9f3d9c875e99da
+ms.openlocfilehash: 9e2b16a2ea16417864b82f4b025053d9c87fcb14
+=========
+ms.sourcegitcommit: af4c84d0e317f5903d22cdfead9ce0ab4fbddc8f
+ms.openlocfilehash: 602be42b75c091cb43359f30256d51eabe597008
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+ms.sourcegitcommit: a1d0b330b42ea920af9512552a9f3d9c875e99da
+ms.openlocfilehash: 9e2b16a2ea16417864b82f4b025053d9c87fcb14
+=======
+ms.sourcegitcommit: af4c84d0e317f5903d22cdfead9ce0ab4fbddc8f
+ms.openlocfilehash: 602be42b75c091cb43359f30256d51eabe597008
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 ---
@@ -66,8 +90,36 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 ## 모바일 장치에 대한 지원
 **Outlook** 및 기타 **최신 인증을 사용하는 앱**에서 Exchange Online 메일에 대한 액세스를 제한할 수 있습니다.
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
 - Android 4.0 이상, Samsung Knox Standard 4.0 이상
 - iOS 8.0 이상
+||||||||| merged common ancestors
+=======
+<<<<<<< HEAD
+- Android 4.0 이상, Samsung Knox Standard 4.0 이상
+- iOS 8.0 이상
+||||||| merged common ancestors
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
+- Android 4.0 이상, Samsung Knox Standard 4.0 이상
+<<<<<<< HEAD
+||||||| merged common ancestors
+- iOS 7.1 이상
+=========
+- Android 4.0 이상, 삼성 Knox Standard 4.0 이상, Android for Work
+=======
+- iOS 7.1 이상
+=======
+- Android 4.0 이상, 삼성 Knox Standard 4.0 이상, Android for Work
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
+- iOS 8.0 이상
+<<<<<<< HEAD
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 - Windows Phone 8.1 이상
 
 **최신 인증**을 사용하는 경우 Microsoft Office 클라이언트에서 ADAL(Active Directory Authentication Library) 기반 로그인이 가능합니다.
@@ -262,6 +314,26 @@ iOS 및 Android용 OWA 앱은 지원되지 않습니다.  ADFS 클레임 규칙�
 
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 <!--HONumber=Sep16_HO3-->
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+<!--HONumber=Aug16_HO4-->
+=========
+<!--HONumber=Oct16_HO3-->
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO4-->
+=======
+<!--HONumber=Oct16_HO3-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 

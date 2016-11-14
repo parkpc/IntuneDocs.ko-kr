@@ -2,7 +2,15 @@
 title: "전자 메일 프로필을 사용하여 회사 전자 메일에 액세스 | Microsoft Intune"
 description: "모바일 장치에서 특정 전자 메일 클라이언트에 대한 전자 메일 액세스 설정을 구성하는 데 전자 메일 프로필 설정을 사용할 수 있습니다."
 keywords: 
+<<<<<<< HEAD
 author: Nbigman
+||||||| merged common ancestors
+author: Nbigman
+ms.author: nbigman
+=======
+author: robstackmsft
+ms.author: robstack
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
@@ -13,13 +21,48 @@ ms.assetid: 10f0cd61-e514-4e44-b13e-aeb85a8e53ae
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ms.sourcegitcommit: 0ced62efd04803943cbbfd8cecef907409a03c0b
 ms.openlocfilehash: ef4041b7d9f47d9e1e1463e62274f93597fc6503
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+ms.sourcegitcommit: d8a4fd4673560d6e2ffb4264ba8d8e56b0e5cb8d
+ms.openlocfilehash: 59b8cc2ad33521fd4575e46d78129c168da757b3
+=========
+ms.sourcegitcommit: 9f8767f191df76e8f166767c51fff357b251bbd4
+ms.openlocfilehash: f736c408f5a4ece65eeef35fb8d1be9a9b29c1b1
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+ms.sourcegitcommit: d8a4fd4673560d6e2ffb4264ba8d8e56b0e5cb8d
+ms.openlocfilehash: 59b8cc2ad33521fd4575e46d78129c168da757b3
+=======
+ms.sourcegitcommit: 9f8767f191df76e8f166767c51fff357b251bbd4
+ms.openlocfilehash: f736c408f5a4ece65eeef35fb8d1be9a9b29c1b1
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+||||||| merged common ancestors
+ms.sourcegitcommit: 9f8767f191df76e8f166767c51fff357b251bbd4
+ms.openlocfilehash: f736c408f5a4ece65eeef35fb8d1be9a9b29c1b1
+=======
+ms.sourcegitcommit: 56988f0a69e6ff281439e6e77d1814ec130c8b49
+ms.openlocfilehash: dcd8f956d1706f4bdcb2dca79e9f1ff5d5bb57b0
+>>>>>>> 12550744143a4804819a881aa25136cdf07f4bcb
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 ---
 
-# Microsoft Intune에서 메일 프로필을 사용하여 회사 메일에 대한 액세스 구성
+# <a name="configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune"></a>Microsoft Intune에서 메일 프로필을 사용하여 회사 메일에 대한 액세스 구성
+
+[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
+
 다양한 모바일 플랫폼은 운영 체제의 일부로 제공되는 네이티브 전자 메일 클라이언트를 포함합니다. 이러한 클라이언트 중 일부를 이 항목에서 설명하는 전자 메일 프로필을 사용하여 설정할 수 있습니다.
 
 모바일 장치에서 특정 전자 메일 클라이언트에 대한 전자 메일 액세스 설정을 설정하는 데 전자 메일 프로필 설정을 사용할 수 있습니다. 지원되는 플랫폼의 네이티브 전자 메일 클라이언트를 Microsoft Intune에서 설정하여 추가 설정 없이 개인 장치에서 해당 회사 전자 메일에 액세스할 수 있습니다.
@@ -50,26 +93,34 @@ IT 관리자나 사용자가 Android 또는 iOS용 Microsoft Outlook 등 대체 
 >Samsung KNOX에서는 프로필 식별에 호스트 이름을 사용하지 않으므로 여러 호스트에서 동일한 전자 메일 주소에 사용할 전자 메일 프로필을 여러 개 만들지 않는 것이 좋습니다. 이렇게 하면 각각 덮어쓰게 됩니다.
 
 
+<<<<<<< HEAD
 ## 전자 메일 프로필 보안
 인증서를 사용하거나, 암호를 사용하는 다음 두 가지 방법 중 하나로 전자 메일 프로필을 보호할 수 있습니다.
+||||||| merged common ancestors
+## 전자 메일 프로필 보안
+인증서 또는 암호를 사용하여 메일 프로필을 보호할 수 있습니다.
+=======
+## <a name="secure-email-profiles"></a>전자 메일 프로필 보안
+인증서 또는 암호를 사용하여 메일 프로필을 보호할 수 있습니다.
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
-### 인증서
+### <a name="certificates"></a>인증서
 메일 프로필을 만들 때 이전에 Intune에서 만든 인증서 프로필을 선택합니다. 이를 ID 인증서라고 부르며, 사용자 장치의 연결 허용을 설정하기 위해 신뢰할 수 있는 인증서 프로필(또는 루트 인증서)에 대해 인증하는 데 사용됩니다. 신뢰할 수 있는 인증서는 전자 메일 연결을 인증하는 컴퓨터(대개 네이티브 메일 서버)에 배포됩니다.
 
 Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자세한 내용은 [인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.
 
-### 사용자 이름 및 암호
+### <a name="user-name-and-password"></a>사용자 이름 및 암호
 사용자는 사용자 이름과 암호를 제공하여 네이티브 메일 서버에 인증합니다.
 
 전자 메일 프로필에는 암호가 포함되어 있지 않아 사용자가 전자 메일에 연결할 때 암호를 입력해야 합니다.
 
-### 전자 메일 프로필 만들기
+### <a name="create-an-email-profile"></a>전자 메일 프로필 만들기
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택합니다.
 
 2.  다음 정책 유형 중 하나를 설정합니다.
 
-    -   **Samsung KNOX Standard(4.0 이상)에 대한 전자 메일 프로필**
+    -   **Samsung KNOX Standard(4.0 이상)에 대한 메일 프로필**
 
     -   **메일 프로필(iOS 8.0 이상)**
 
@@ -87,14 +138,34 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
     |**설명**|이 프로필을 식별하는 데 도움이 되는 설명입니다.|
     |**호스트**|네이티브 전자 메일 서비스를 호스트하는 회사 서버의 호스트 이름입니다.|
     |**계정 이름**|장치에서 사용자에게 표시될 전자 메일 계정의 표시 이름입니다.|
+<<<<<<< HEAD
     |**Username**|전자 메일 계정의 사용자 이름을 가져오는 방법입니다. 온-프레미스 Exchange Server에 대한 **사용자 이름**을 선택하거나 Office 365에 대한 **사용자 계정 이름**을 선택합니다.|
     |**전자 메일 주소**|각 장치에서 사용자의 전자 메일 주소가 생성되는 방법입니다. **기본 SMTP 주소**를 선택하여 Exchange에 로그인하는 기본 SMTP 주소를 사용하거나 **사용자 계정 이름**을 사용하여 전자 메일 주소와 전체 사용자 이름을 사용합니다.|
     |**인증 방법**(Samsung KNOX 및 iOS)|전자 메일 프로필에서 사용되는 인증 방법으로 **사용자 이름 및 암호** 또는 **인증서**중 하나를 선택합니다.|
     |**클라이언트 인증을 위해 클라이언트 인증서 선택(ID 인증서)**(Samsung KNOX and iOS)|Exchange 연결을 인증하는 데 사용할 이전에 만든 클라이언트 SCEP 인증서를 선택합니다. Intune에서 인증서 프로필을 사용하는 방법에 대한 자세한 내용은 [인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요. 인증 방법이 **인증서**인 경우에만 이 옵션이 표시됩니다.|
+||||||| merged common ancestors
+    |**Username**|전자 메일 계정의 사용자 이름을 가져오는 방법입니다. 온-프레미스 Exchange Server에 대한 **사용자 이름**을 선택하거나 Office 365에 대한 **사용자 계정 이름**을 선택합니다.|
+    |**전자 메일 주소**|각 장치에서 사용자의 전자 메일 주소가 생성되는 방법입니다. **기본 SMTP 주소**를 선택하여 Exchange에 로그인하는 기본 SMTP 주소를 사용하거나 **사용자 계정 이름**을 사용하여 전자 메일 주소와 전체 사용자 이름을 사용합니다.|
+    |**인증 방법**(Android for Work, Samsung KNOX 및 iOS)|전자 메일 프로필에서 사용되는 인증 방법으로 **사용자 이름 및 암호** 또는 **인증서**중 하나를 선택합니다.|
+    |**클라이언트 인증을 위해 클라이언트 인증서 선택(ID 인증서)**(Android for Work, Samsung KNOX and iOS)|Exchange 연결을 인증하는 데 사용할 이전에 만든 클라이언트 SCEP 인증서를 선택합니다. Intune에서 인증서 프로필을 사용하는 방법에 대한 자세한 내용은 [인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요. 인증 방법이 **인증서**인 경우에만 이 옵션이 표시됩니다.|
+=======
+    |**사용자 이름**|전자 메일 계정의 사용자 이름을 가져오는 방법입니다. 온-프레미스 Exchange Server에 대한 **사용자 이름**을 선택하거나 Office 365에 대한 **사용자 계정 이름**을 선택합니다.|
+    |**메일 주소**|각 장치에서 사용자의 전자 메일 주소가 생성되는 방법입니다. **기본 SMTP 주소**를 선택하여 Exchange에 로그인하는 기본 SMTP 주소를 사용하거나 **사용자 계정 이름**을 사용하여 전자 메일 주소와 전체 사용자 이름을 사용합니다.|
+    |**인증 방법**(Android for Work, Samsung KNOX 및 iOS)|전자 메일 프로필에서 사용되는 인증 방법으로 **사용자 이름 및 암호** 또는 **인증서**중 하나를 선택합니다.|
+    |**클라이언트 인증을 위해 클라이언트 인증서 선택(ID 인증서)**(Android for Work, Samsung KNOX and iOS)|Exchange 연결을 인증하는 데 사용할 이전에 만든 클라이언트 SCEP 인증서를 선택합니다. Intune에서 인증서 프로필을 사용하는 방법에 대한 자세한 내용은 [인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요. 인증 방법이 **인증서**인 경우에만 이 옵션이 표시됩니다.|
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
     |**S/MIME 사용**(Samsung KNOX 및 iOS)|S/MIME 암호화를 사용하여 발신 전자 메일을 전송합니다.|
     |**인증서 서명**(Samsung KNOX 및 iOS)|발신 전자 메일에 서명하는 데 사용할 서명 인증서를 선택합니다. **S/MIME 사용**을 선택한 경우에만 이 옵션이 표시됩니다.|
+<<<<<<< HEAD
     |**동기화할 전자 메일의 일 수**|동기화할 전자 메일의 일 수 또는 **무제한**을 선택하여 사용 가능한 모든 전자 메일을 동기화합니다.|
     |**동기화 일정**(Samsung KNOX, Windows Phone 8 이상, Windows 10)|장치가 Exchange Server의 데이터를 동기화할 일정을 선택합니다. 데이터가 도착하는 즉시 동기화하는 **메시지가 도착할 때**를 선택하거나 또는 장치의 사용자가 동기화를 시작해야 하는 **수동**을 선택할 수도 있습니다.|
+||||||| merged common ancestors
+    |**동기화할 전자 메일의 일 수**|동기화할 전자 메일의 일 수 또는 **무제한**을 선택하여 사용 가능한 모든 전자 메일을 동기화합니다.|
+    |**동기화 일정**(Android for Work, Samsung KNOX, Windows Phone 8 이상, Windows 10)|장치가 Exchange Server의 데이터를 동기화할 일정을 선택합니다. 데이터가 도착하는 즉시 동기화하는 **메시지가 도착할 때**를 선택하거나 또는 장치의 사용자가 동기화를 시작해야 하는 **수동**을 선택할 수도 있습니다.|
+=======
+    |**동기화할 메일의 일 수**|동기화할 전자 메일의 일 수 또는 **무제한**을 선택하여 사용 가능한 모든 전자 메일을 동기화합니다.|
+    |**동기화 일정**(Android for Work, Samsung KNOX, Windows Phone 8 이상, Windows 10)|장치가 Exchange Server의 데이터를 동기화할 일정을 선택합니다. 데이터가 도착하는 즉시 동기화하는 **메시지가 도착할 때**를 선택하거나 또는 장치의 사용자가 동기화를 시작해야 하는 **수동**을 선택할 수도 있습니다.|
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
     |**SSL 사용**|전자 메일을 전송하거나 수신할 때와 Exchange Server와 통신할 때 SSL(Secure Sockets Layer) 통신을 사용합니다. Samsung KNOX 4.0 이상을 실행하는 장치에서는 Exchange Server의 SSL 인증서를 내보낸 후 Intune에서 신뢰할 수 있는 Android 인증서 프로필로 배포해야 합니다. 다른 방법으로 Exchange Server에 설치된 경우 Intune은 이 인증서에 액세스를 지원하지 않습니다.|
     |**동기화할 콘텐츠 형식**|장치에 동기화할 콘텐츠 형식을 선택합니다.|
     |**타사 응용 프로그램에서 전자 메일을 전송할 수 있도록 허용합니다** (iOS만 해당)|사용자는 이 프로필을 전자 메일을 보내기 위한 기본 계정으로 선택하고, 타사에서는 네이티브 전자 메일 앱의 전자 메일을 열고 전자 메일에 파일을 첨부할 수 있게 됩니다.|
@@ -105,7 +176,7 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 
 새 정책이 **정책** 작업 영역의 **구성 정책** 노드에 표시됩니다.
 
-## 정책 배포
+## <a name="deploy-the-policy"></a>정책 배포
 
 1.  **정책** 작업 영역에서 배포할 정책을 선택한 다음 **배포 관리**를 선택합니다.
 
@@ -122,6 +193,32 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 <!--HONumber=Sep16_HO3-->
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+<!--HONumber=Aug16_HO3-->
+=========
+<!--HONumber=Oct16_HO3-->
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO3-->
+=======
+<!--HONumber=Oct16_HO3-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+||||||| merged common ancestors
+<!--HONumber=Oct16_HO3-->
+=======
+<!--HONumber=Nov16_HO1-->
+>>>>>>> 12550744143a4804819a881aa25136cdf07f4bcb
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 

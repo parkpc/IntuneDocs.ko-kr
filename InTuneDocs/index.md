@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ---
 experimental: true
 experiment_id: lindavr-hubpage-20160925
@@ -16,6 +22,90 @@ ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
 translationtype: Human Translation
 ms.sourcegitcommit: bbab228b86bbec49bf68c7d91a05c4d0e7f37209
 ms.openlocfilehash: a478d1dce92e9bf9de2b485e613c607ebc2de88c
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+---
+asset_id: 3414479e-e548-4753-bcf7-6322b43221fd
+layout: HubPage
+title: "Intune 설명서 - MDM 설명서 | Microsoft 설명서"
+description: "Microsoft Intune 모바일 장치 및 응용 프로그램 관리에 대한 기술 문서"
+keywords: "Intune 설명서, MDM 설명서, 모바일 장치 관리 설명서, 모바일 장치 및 응용 프로그램 관리 설명서"
+author: jeffgilb
+manager: jeffgilb
+ms.date: 04/28/2016
+ms.topic: hubpage
+ms.service: microsoft-intune
+ms.suite: ems
+ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
+translationtype: Human Translation
+ms.sourcegitcommit: c200c191168a8c5ae9382d62b3a25e9cfd1db3ac
+ms.openlocfilehash: 5861856d91a439919f28fca3d0b4d797ab6cbd3f
+
+=========
+---
+experimental: true
+experiment_id: lindavr-hubpage-20160925
+asset_id: 3414479e-e548-4753-bcf7-6322b43221fd
+layout: HubPage
+title: "Intune 설명서 | Microsoft 문서"
+description: "Microsoft Intune 모바일 장치 및 응용 프로그램 관리에 대한 기술 문서"
+keywords: "intune 설명서, 앱 관리, 장치 관리, MDM 설명서, MAM 설명서"
+author: arob98
+ms.author: angrobe
+manager: angrobe
+ms.date: 10/07/2016
+ms.topic: hubpage
+ms.service: microsoft-intune
+ms.suite: ems
+ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
+translationtype: Human Translation
+ms.sourcegitcommit: 63317c16082b1fb2764bd698c97fa1d435f58dfe
+ms.openlocfilehash: 1108adb5622c3cdb7720e07a53a35957ce80cca6
+
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+---
+asset_id: 3414479e-e548-4753-bcf7-6322b43221fd
+layout: HubPage
+title: "Intune 설명서 - MDM 설명서 | Microsoft 설명서"
+description: "Microsoft Intune 모바일 장치 및 응용 프로그램 관리에 대한 기술 문서"
+keywords: "Intune 설명서, MDM 설명서, 모바일 장치 관리 설명서, 모바일 장치 및 응용 프로그램 관리 설명서"
+author: jeffgilb
+manager: jeffgilb
+ms.date: 04/28/2016
+ms.topic: hubpage
+ms.service: microsoft-intune
+ms.suite: ems
+ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
+translationtype: Human Translation
+ms.sourcegitcommit: c200c191168a8c5ae9382d62b3a25e9cfd1db3ac
+ms.openlocfilehash: 5861856d91a439919f28fca3d0b4d797ab6cbd3f
+
+=======
+---
+experimental: true
+experiment_id: lindavr-hubpage-20160925
+asset_id: 3414479e-e548-4753-bcf7-6322b43221fd
+layout: HubPage
+title: "Intune 설명서 | Microsoft 문서"
+description: "Microsoft Intune 모바일 장치 및 응용 프로그램 관리에 대한 기술 문서"
+keywords: "intune 설명서, 앱 관리, 장치 관리, MDM 설명서, MAM 설명서"
+author: arob98
+ms.author: angrobe
+manager: angrobe
+ms.date: 10/07/2016
+ms.topic: hubpage
+ms.service: microsoft-intune
+ms.suite: ems
+ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
+translationtype: Human Translation
+ms.sourcegitcommit: 63317c16082b1fb2764bd698c97fa1d435f58dfe
+ms.openlocfilehash: 1108adb5622c3cdb7720e07a53a35957ce80cca6
+
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 ---
@@ -283,6 +373,22 @@ ms.openlocfilehash: a478d1dce92e9bf9de2b485e613c607ebc2de88c
 </article>
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+||||||||| merged common ancestors
+<!--HONumber=Aug16_HO1-->
+=========
+<!--HONumber=Oct16_HO2-->
+>>>>>>>>> Temporary merge branch 2
+=======
+<<<<<<< HEAD
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO1-->
+=======
+<!--HONumber=Oct16_HO2-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 <!--HONumber=Sep16_HO4-->
 

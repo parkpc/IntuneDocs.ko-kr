@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ---
 title: "서비스 설명 | Microsoft Intune"
 description: "Intune은 Windows PC와 iOS, Mac OS X, Android 및 Windows 모바일 장치를 관리하는 데 유용한 클라우드 기반 서비스입니다."
@@ -16,6 +22,90 @@ translationtype: Human Translation
 ms.sourcegitcommit: a7cced90c482498b5f5af424165f8dcf77b79b75
 ms.openlocfilehash: e3694f80d6148abbce004bb0c7143bf394b313d9
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+---
+title: "서비스 설명 | Microsoft Intune"
+description: "Intune은 Windows PC와 iOS, Mac OS X, Android 및 Windows 모바일 장치를 관리하는 데 유용한 클라우드 기반 서비스입니다."
+keywords: 
+author: Nbigman
+manager: angrobe
+ms.date: 07/21/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 40fa5a2e-6c0f-4150-9740-d5ddc0cdbda0
+ms.reviewer: cacamp
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 60ee39a7eeeb9068a7350ec87f60e7148ccb7826
+ms.openlocfilehash: c13366ea7f42272e6fc3d606cb8dbe0ed1c45fe4
+
+=========
+---
+title: "서비스 설명 | Microsoft Intune"
+description: "Intune은 Windows PC와 iOS, Mac OS X, Android 및 Windows 모바일 장치를 관리하는 데 유용한 클라우드 기반 서비스입니다."
+keywords: 
+author: Nbigman
+ms.author: nbigman
+manager: angrobe
+ms.date: 09/22/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 40fa5a2e-6c0f-4150-9740-d5ddc0cdbda0
+ms.reviewer: cacamp
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: a7cced90c482498b5f5af424165f8dcf77b79b75
+ms.openlocfilehash: e3694f80d6148abbce004bb0c7143bf394b313d9
+
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+---
+title: "서비스 설명 | Microsoft Intune"
+description: "Intune은 Windows PC와 iOS, Mac OS X, Android 및 Windows 모바일 장치를 관리하는 데 유용한 클라우드 기반 서비스입니다."
+keywords: 
+author: Nbigman
+manager: angrobe
+ms.date: 07/21/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 40fa5a2e-6c0f-4150-9740-d5ddc0cdbda0
+ms.reviewer: cacamp
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 60ee39a7eeeb9068a7350ec87f60e7148ccb7826
+ms.openlocfilehash: c13366ea7f42272e6fc3d606cb8dbe0ed1c45fe4
+
+=======
+---
+title: "서비스 설명 | Microsoft Intune"
+description: "Intune은 Windows PC와 iOS, Mac OS X, Android 및 Windows 모바일 장치를 관리하는 데 유용한 클라우드 기반 서비스입니다."
+keywords: 
+author: Nbigman
+ms.author: nbigman
+manager: angrobe
+ms.date: 09/22/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 40fa5a2e-6c0f-4150-9740-d5ddc0cdbda0
+ms.reviewer: cacamp
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: a7cced90c482498b5f5af424165f8dcf77b79b75
+ms.openlocfilehash: e3694f80d6148abbce004bb0c7143bf394b313d9
+
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ---
 
@@ -82,6 +172,22 @@ Intune 서비스의 변경 내용에 대한 자세한 내용은 [Microsoft Intun
 [Microsoft Intune의 새로운 기능](/intune/deploy-use/whats-new-in-microsoft-intune)
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+||||||||| merged common ancestors
+<!--HONumber=Jul16_HO4-->
+=========
+<!--HONumber=Sep16_HO4-->
+>>>>>>>>> Temporary merge branch 2
+=======
+<<<<<<< HEAD
+||||||| merged common ancestors
+<!--HONumber=Jul16_HO4-->
+=======
+<!--HONumber=Sep16_HO4-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 <!--HONumber=Sep16_HO4-->
 

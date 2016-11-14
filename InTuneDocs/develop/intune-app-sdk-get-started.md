@@ -27,7 +27,13 @@ ms.openlocfilehash: 9adcf9ce1c2c6e40b3fcbb6c733585bb73a5cc01
 
 # 시작
 
+<<<<<<< HEAD
 ## Microsoft Connect 등록
+||||||| merged common ancestors
+## <a name="register-your-store-app-with-microsoft"></a>Microsoft에 스토어 앱 등록
+=======
+## Microsoft에 스토어 앱 등록
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 Intune 앱 SDK는 현재 Microsoft Connect를 통해 액세스할 수 있으며 등록이 필요합니다. 이를 위해서는 회사 메일을 사용하여 [Microsoft 계정](https://connect.microsoft.com/ConfigurationManagervnext/InvitationUse.aspx?ProgramID=8967&InvitationID=8967-YJYJ-8G6X)을 등록하세요.
 
@@ -53,8 +59,14 @@ Microsoft는 등록 메일 주소를 사용하여 등록 프로세스 수신을 
 
 iOS 모바일 앱을 사용하도록 설정하려면 다음이 필요합니다.
 
+<<<<<<< HEAD
 1. **[iOS용 Intune 앱 SDK 개발자 가이드](intune-app-sdk-ios.md)**: 이 문서에서는 Intune 앱 SDK를 사용하여 모바일 iOS 앱을 사용하도록 설정하는 과정을 단계별로 안내합니다. 이 문서는 Intune 앱 SDK 패키지의 일부로 다운로드한 문서 폴더에서 찾을 수 있습니다.
 2. **iOS용 Intune 앱 SDK**: Microsoft Intune에서 다운로드한 Intune 앱 SDK 패키지의 일부로서, 서명된 폴더 “Intune App SDK for iOS”를 찾을 수 있습니다. 이 폴더에는 iOS용 Intune 앱 SDK 콘텐츠가 모두 들어 있습니다.
+||||||| merged common ancestors
+## <a name="download-the-sdk-files"></a>SDK 파일 다운로드
+=======
+## SDK 파일 다운로드
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 Intune 앱 SDK를 사용하여 Android 모바일 앱을 사용하도록 설정하려면 다음이 필요합니다.
 
@@ -73,8 +85,84 @@ Intune 앱 SDK를 사용하여 Android 모바일 앱을 사용하도록 설정�
 
 iOS 또는 Android Intune 앱 SDK를 지원(Intune 앱 SDK를 통합)하는 데 필요한 단계를 완료한 후에는 모든 앱 관리 정책이 사용하도록 설정되어 최종 사용자 및 IT 관리자용으로 작동하는지 확인해야 합니다. 지원 앱을 테스트하려면 다음이 필요합니다.
 
+<<<<<<< HEAD
 1. **Microsoft Intune을 사용하여 MAM 지원 앱 테스트**: 이 문서에서는 Microsoft Intune을 사용하여 MAM 지원 iOS 또는 Android 앱을 테스트하는 방법을 단계별로 안내합니다. 이 문서는 Intune 앱 SDK 패키지의 일부로 다운로드한 문서 폴더에서 찾을 수 있습니다.
 2. **Microsoft Intune 계정**: Microsoft Intune을 사용하여 MAM 지원 앱을 테스트하려면 Microsoft Intune 계정이 필요합니다. MAM에 대해 iOS 또는 Android 스토어 앱을 사용하도록 설정하는 ISV는 등록 단계의 설명대로 Microsoft Intune을 사용하여 등록을 완료하면 프로모션 코드를 받습니다. 이 프로모션 코드를 사용하여 1년 연장 사용할 수 있는 Microsoft Intune 평가판에 등록할 수 있습니다. 스토어에 게시하지 않을 LOB(기간 업무) 앱을 개발 중인 경우에는 조직을 통해 Microsoft Intune에 대한 액세스 권한을 가져야 합니다. [Microsoft Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0)을 사용하여 1개월 무료 평가판에 등록할 수도 있습니다.
+||||||| merged common ancestors
+
+## <a name="enable-your-ios-or-android-mobile-app-for-mam-with-the-sdk"></a>SDK를 사용하여 MAM에 대해 iOS 또는 Android 모바일 앱 사용 설정
+
+Intune 앱 SDK를 네이티브 iOS 앱에 통합하려면 다음이 필요합니다. 
+
+* **[iOS용 Intune 앱 SDK 개발자 가이드](intune-app-sdk-ios.md)**: 이 문서에서는 Intune 앱 SDK를 사용하여 모바일 iOS 앱을 사용하도록 설정하는 과정을 단계별로 안내합니다. 
+
+
+Intune 앱 SDK를 네이티브 Android 앱에 통합하려면 다음이 필요합니다.
+
+* **[Android용 Intune 앱 SDK 개발자 가이드](intune-app-sdk-android.md)**: 이 문서에서는 Intune 앱 SDK를 사용하여 모바일 Android 앱을 사용하도록 설정하는 과정을 단계별로 안내합니다. 
+
+Intune 앱 SDK Xamarin 구성 요소 및 Intune 앱 SDK Cordova 플러그 인에 대한 설명서는 해당 GitHub 리포지토리 내에서 찾을 수 있습니다. 
+
+
+## <a name="configuring-telemetry-for-your-app"></a>앱에 대한 원격 분석 구성
+
+Microsoft Intune은 앱의 사용 통계에 대한 데이터를 수집합니다.
+
+* **iOS용 Intune 앱 SDK**: SDK는 기본적으로 사용 이벤트에 대한 SDK 원격 분석 데이터를 기록합니다. 이 데이터는 Microsoft Intune로 전송됩니다.
+
+    * 앱에서 Microsoft Intune으로 SDK 원격 분석 데이터를 보내지 않으려면 IntuneMAMSettings 사전에서 `MAMTelemetryDisabled` 속성을 "YES"로 설정하여 원격 분석 전송을 사용하지 않도록 설정해야 합니다.
+
+* **Android용 Intune 앱 SDK**: 원격 분석 데이터가 SDK를 통해 기록되지 않습니다.
+
+## <a name="test-your-mam-enabled-app-with-microsoft-intune"></a>Microsoft Intune을 사용하여 MAM 지원 앱 테스트
+
+iOS 또는 Android 앱을 Intune 앱 SDK와 통합하는 데 필요한 단계를 완료한 후에는 모든 앱 관리 정책이 사용하도록 설정되어 최종 사용자 및 IT 관리자에 대해 작동하는지 확인해야 합니다. 통합된 앱을 테스트하려면 다음이 필요합니다.
+
+<!--TODO-->
+
+* **Microsoft Intune을 사용하여 MAM 지원 앱 테스트**: 이 문서에서는 Microsoft Intune을 사용하여 MAM 지원 iOS 또는 Android 앱을 테스트하는 방법을 단계별로 안내합니다. 이 문서는 SDK의 GitHub 리포지토리에서 찾을 수 있습니다.
+
+* **Microsoft Intune 계정**: Microsoft Intune을 사용하여 MAM 지원 앱을 테스트하려면 Microsoft Intune 계정이 필요합니다. 
+    * Intune MAM에 대해 iOS 또는 Android 스토어 앱을 사용하도록 설정하는 ISV인 경우 등록 단계에 설명된 대로 Microsoft Intune을 사용하여 등록을 완료하면 프로모션 코드를 받게 됩니다. 이 프로모션 코드를 사용하여 1년 연장 사용할 수 있는 Microsoft Intune 평가판에 등록할 수 있습니다. 
+    * 스토어에 게시하지 않을 LOB(기간 업무) 앱을 개발 중인 경우에는 조직을 통해 Microsoft Intune에 대한 액세스 권한을 가져야 합니다. [Microsoft Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0)을 사용하여 1개월 무료 평가판에 등록할 수도 있습니다.
+=======
+
+## SDK를 사용하여 MAM에 대해 iOS 또는 Android 모바일 앱 사용 설정
+
+Intune 앱 SDK를 네이티브 iOS 앱에 통합하려면 다음이 필요합니다. 
+
+* **[iOS용 Intune 앱 SDK 개발자 가이드](intune-app-sdk-ios.md)**: 이 문서에서는 Intune 앱 SDK를 사용하여 모바일 iOS 앱을 사용하도록 설정하는 과정을 단계별로 안내합니다. 
+
+
+Intune 앱 SDK를 네이티브 Android 앱에 통합하려면 다음이 필요합니다.
+
+* **[Android용 Intune 앱 SDK 개발자 가이드](intune-app-sdk-android.md)**: 이 문서에서는 Intune 앱 SDK를 사용하여 모바일 Android 앱을 사용하도록 설정하는 과정을 단계별로 안내합니다. 
+
+Intune 앱 SDK Xamarin 구성 요소 및 Intune 앱 SDK Cordova 플러그 인에 대한 설명서는 해당 GitHub 리포지토리 내에서 찾을 수 있습니다. 
+
+
+## 앱에 대한 원격 분석 구성
+
+Microsoft Intune은 앱의 사용 통계에 대한 데이터를 수집합니다.
+
+* **iOS용 Intune 앱 SDK**: SDK는 기본적으로 사용 이벤트에 대한 SDK 원격 분석 데이터를 기록합니다. 이 데이터는 Microsoft Intune로 전송됩니다.
+
+    * 앱에서 Microsoft Intune으로 SDK 원격 분석 데이터를 보내지 않으려면 IntuneMAMSettings 사전에서 `MAMTelemetryDisabled` 속성을 "YES"로 설정하여 원격 분석 전송을 사용하지 않도록 설정해야 합니다.
+
+* **Android용 Intune 앱 SDK**: 원격 분석 데이터가 SDK를 통해 기록되지 않습니다.
+
+## Microsoft Intune을 사용하여 MAM 지원 앱 테스트
+
+iOS 또는 Android 앱을 Intune 앱 SDK와 통합하는 데 필요한 단계를 완료한 후에는 모든 앱 관리 정책이 사용하도록 설정되어 최종 사용자 및 IT 관리자에 대해 작동하는지 확인해야 합니다. 통합된 앱을 테스트하려면 다음이 필요합니다.
+
+<!--TODO-->
+
+* **Microsoft Intune을 사용하여 MAM 지원 앱 테스트**: 이 문서에서는 Microsoft Intune을 사용하여 MAM 지원 iOS 또는 Android 앱을 테스트하는 방법을 단계별로 안내합니다. 이 문서는 SDK의 GitHub 리포지토리에서 찾을 수 있습니다.
+
+* **Microsoft Intune 계정**: Microsoft Intune을 사용하여 MAM 지원 앱을 테스트하려면 Microsoft Intune 계정이 필요합니다. 
+    * Intune MAM에 대해 iOS 또는 Android 스토어 앱을 사용하도록 설정하는 ISV인 경우 등록 단계에 설명된 대로 Microsoft Intune을 사용하여 등록을 완료하면 프로모션 코드를 받게 됩니다. 이 프로모션 코드를 사용하여 1년 연장 사용할 수 있는 Microsoft Intune 평가판에 등록할 수 있습니다. 
+    * 스토어에 게시하지 않을 LOB(기간 업무) 앱을 개발 중인 경우에는 조직을 통해 Microsoft Intune에 대한 액세스 권한을 가져야 합니다. [Microsoft Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0)을 사용하여 1개월 무료 평가판에 등록할 수도 있습니다.
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 

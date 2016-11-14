@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ---
 title: "VPN 연결 | Microsoft Intune"
 description: "VPN 프로필을 사용하여 조직의 사용자 및 장치에 VPN 설정을 배포합니다."
@@ -16,6 +22,90 @@ translationtype: Human Translation
 ms.sourcegitcommit: 957edcf6910dd15f15ab5020773233c6a6ba0ea7
 ms.openlocfilehash: fb5fbbe50295d3fc26f3cd4def4f40898bb6ffd2
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+---
+title: "VPN 연결 | Microsoft Intune"
+description: "VPN 프로필을 사용하여 조직의 사용자 및 장치에 VPN 설정을 배포합니다."
+keywords: 
+author: Nbigman
+manager: angrobe
+ms.date: 07/21/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: abc57093-7351-408f-9f41-a30877f96f73
+ms.reviewer: karanda
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: 475c68f8812627cd58f86bb74d8c48988f53f7ed
+
+=========
+---
+title: "VPN 연결 | Microsoft Intune"
+description: "VPN 프로필을 사용하여 조직의 사용자 및 장치에 VPN 설정을 배포합니다."
+keywords: 
+author: Nbigman
+ms.author: nbigman
+manager: angrobe
+ms.date: 10/14/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: abc57093-7351-408f-9f41-a30877f96f73
+ms.reviewer: karanda
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 7b4acce1b1861ca2c2d1432b0258ad1e95e46d2a
+ms.openlocfilehash: 188cb3890da83332431743445959bba73e7f2484
+
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+---
+title: "VPN 연결 | Microsoft Intune"
+description: "VPN 프로필을 사용하여 조직의 사용자 및 장치에 VPN 설정을 배포합니다."
+keywords: 
+author: Nbigman
+manager: angrobe
+ms.date: 07/21/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: abc57093-7351-408f-9f41-a30877f96f73
+ms.reviewer: karanda
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: 475c68f8812627cd58f86bb74d8c48988f53f7ed
+
+=======
+---
+title: "VPN 연결 | Microsoft Intune"
+description: "VPN 프로필을 사용하여 조직의 사용자 및 장치에 VPN 설정을 배포합니다."
+keywords: 
+author: Nbigman
+ms.author: nbigman
+manager: angrobe
+ms.date: 10/14/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: abc57093-7351-408f-9f41-a30877f96f73
+ms.reviewer: karanda
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 7b4acce1b1861ca2c2d1432b0258ad1e95e46d2a
+ms.openlocfilehash: 188cb3890da83332431743445959bba73e7f2484
+
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ---
 
@@ -27,7 +117,29 @@ ms.openlocfilehash: fb5fbbe50295d3fc26f3cd4def4f40898bb6ffd2
 VPN 프로필을 사용하여 다음의 장치 유형을 구성할 수 있습니다.
 
 * Android 4 이상을 실행하는 장치
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
 * iOS 8.0 이상을 실행하는 장치
+||||||||| merged common ancestors
+* iOS 7.1 이상을 실행하는 장치
+=========
+* Android for Work 장치
+=======
+<<<<<<< HEAD
+* iOS 8.0 이상을 실행하는 장치
+||||||| merged common ancestors
+* iOS 7.1 이상을 실행하는 장치
+=======
+* Android for Work 장치
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
+* iOS 8.0 이상을 실행하는 장치
+<<<<<<< HEAD
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 * Mac OS X 10.9 이상을 실행하는 장치
 * Windows 8.1 이상을 실행하는 등록된 장치
 * Windows Phone 8.1 이상을 실행하는 장치
@@ -44,6 +156,12 @@ Intune에서는 다음의 연결 유형을 사용하는 VPN 프로필 만들기�
 
 연결 형식 |iOS 및 Mac OS X  |Android|Windows 8.1|Windows RT|Windows RT 8.1|Windows Phone 8.1|Windows 10 Desktop 및 Mobile |
 ----------------|------------------|-------|-----------|----------|--------------|-----------------|----------------------|
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+=======
+<<<<<<< HEAD
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 Cisco AnyConnect|예 |예   |아니요    |     아니요    |아니요  |아니요    | 예(OMA-URI, Mobile만)|     
 Cisco(IPsec)|예 |아니요   |아니요  |  아니요|아니요  |아니요 | 아니요|
 Citrix|예 |아니요   |아니요  |  아니요|아니요  |아니요 | 아니요|
@@ -56,6 +174,60 @@ Microsoft 자동|아니요 |아니요 |아니요 |아니요 |아니요|예(OMA-U
 IKEv2|iOS 사용자 지정 프로필|아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
 PPTP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요 |아니요|아니요|예|
 L2TP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
+<<<<<<< HEAD
+||||||| merged common ancestors
+||||||||| merged common ancestors
+Cisco AnyConnect|예 |예   |아니요    |     아니요    |아니요  |아니요    | 예(OMA-URI, Mobile만)|     
+Pulse Secure|예  |예 |예   |아니요  |예  |예| 예|        
+F5 Edge Client|예 |예 |예 |아니요  |예  |   예 |  예|   
+Dell SonicWALL Mobile Connect|예 |예 |예 |아니요  |예 |예 |예|         
+CheckPoint Mobile VPN|예 |예 |예 |예 |예|예|예|
+Microsoft SSL(SSTP)|아니요 |아니요 |아니요 |아니요 |아니요|아니요|VPNv1 OMA-URI*|
+Microsoft 자동|아니요 |아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
+IKEv2|iOS 사용자 지정 프로필|아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
+PPTP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요 |아니요|아니요|예|
+L2TP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
+=========
+Cisco AnyConnect|예 |예   |아니요    |아니요  |아니요    | 예(OMA-URI, Mobile만)|     
+Cisco(IPsec)|예 |아니요   |아니요  |아니요  |아니요 | 아니요|
+Citrix|예 |아니요   |아니요  |아니요  |아니요 | 아니요|
+Pulse Secure|예  |예 |예   |예  |예| 예|        
+F5 Edge Client|예 |예 |예 |예  |   예 |  예|   
+Dell SonicWALL Mobile Connect|예 |예 |예 |예 |예 |예|         
+CheckPoint Mobile VPN|예 |예 |예 |예|예|예|
+Microsoft SSL(SSTP)|아니요 |아니요 |아니요 |아니요|아니요|VPNv1 OMA-URI*|
+Microsoft 자동|아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
+IKEv2|iOS 사용자 지정 프로필|아니요 |아니요 |아니요|예(OMA-URI)|예|
+PPTP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요|아니요|예|
+L2TP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요|예(OMA-URI)|예|
+>>>>>>>>> Temporary merge branch 2
+=======
+||||||| merged common ancestors
+Cisco AnyConnect|예 |예   |아니요    |     아니요    |아니요  |아니요    | 예(OMA-URI, Mobile만)|     
+Pulse Secure|예  |예 |예   |아니요  |예  |예| 예|        
+F5 Edge Client|예 |예 |예 |아니요  |예  |   예 |  예|   
+Dell SonicWALL Mobile Connect|예 |예 |예 |아니요  |예 |예 |예|         
+CheckPoint Mobile VPN|예 |예 |예 |예 |예|예|예|
+Microsoft SSL(SSTP)|아니요 |아니요 |아니요 |아니요 |아니요|아니요|VPNv1 OMA-URI*|
+Microsoft 자동|아니요 |아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
+IKEv2|iOS 사용자 지정 프로필|아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
+PPTP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요 |아니요|아니요|예|
+L2TP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
+=======
+Cisco AnyConnect|예 |예   |아니요    |아니요  |아니요    | 예(OMA-URI, Mobile만)|     
+Cisco(IPsec)|예 |아니요   |아니요  |아니요  |아니요 | 아니요|
+Citrix|예 |아니요   |아니요  |아니요  |아니요 | 아니요|
+Pulse Secure|예  |예 |예   |예  |예| 예|        
+F5 Edge Client|예 |예 |예 |예  |   예 |  예|   
+Dell SonicWALL Mobile Connect|예 |예 |예 |예 |예 |예|         
+CheckPoint Mobile VPN|예 |예 |예 |예|예|예|
+Microsoft SSL(SSTP)|아니요 |아니요 |아니요 |아니요|아니요|VPNv1 OMA-URI*|
+Microsoft 자동|아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
+IKEv2|iOS 사용자 지정 프로필|아니요 |아니요 |아니요|예(OMA-URI)|예|
+PPTP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요|아니요|예|
+L2TP|iOS 사용자 지정 프로필|아니요 |아니요 |아니요|예(OMA-URI)|예|
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 \* Windows 10에 사용할 수 있는 추가 설정이 없습니다.
 
@@ -85,7 +257,29 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** > **정책 추가**를 선택합니다.
 2. 관련 장치 종류를 확장하여 새 정책에 대한 템플릿을 선택한 다음 해당 장치에 대한 VPN 프로필을 선택합니다.
     * **VPN 프로필(Android 4 이상)**
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
     * **VPN 프로필(iOS 8.0 이상)**
+||||||||| merged common ancestors
+    * **VPN 프로필(iOS 7.1 이상)**
+=========
+    * **VPN 프로필(Android for Work)**
+=======
+<<<<<<< HEAD
+    * **VPN 프로필(iOS 8.0 이상)**
+||||||| merged common ancestors
+    * **VPN 프로필(iOS 7.1 이상)**
+=======
+    * **VPN 프로필(Android for Work)**
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
+    * **VPN 프로필(iOS 8.0 이상)**
+<<<<<<< HEAD
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
     * **VPN 프로필(Mac OS X 10.9 이상)**
     * **VPN 프로필(Windows 8.1 이상)**
     * **VPN 프로필(Windows Phone 8.1 이상)**
@@ -191,6 +385,22 @@ iOS 8.0 이상 장치에 대해 필요 시 VPN을 구성할 수 있습니다.
 [Android Pulse Secure용 앱별 VPN](per-app-vpn-for-android-pulse-secure.md)
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+||||||||| merged common ancestors
+<!--HONumber=Jul16_HO4-->
+=========
+<!--HONumber=Oct16_HO2-->
+>>>>>>>>> Temporary merge branch 2
+=======
+<<<<<<< HEAD
+||||||| merged common ancestors
+<!--HONumber=Jul16_HO4-->
+=======
+<!--HONumber=Oct16_HO2-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+>>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 <!--HONumber=Sep16_HO1-->
 
