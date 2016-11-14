@@ -14,8 +14,8 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
-ms.openlocfilehash: 3422d47a5759e22a512cf6de8578d774ad3bb8cd
+ms.sourcegitcommit: d51f34dea3463bec83ea39cdfb79c7bedf9e3926
+ms.openlocfilehash: 0b60e7a7a921762e682185af273bb94f24441a0c
 
 
 ---
@@ -100,7 +100,7 @@ EAS MDM 정책을 사용하여 등록되지는 않았지만 EAS(Exchange ActiveS
 
  - 소프트웨어 및 하드웨어 인벤토리 보고
  - 데스크톱 응용 프로그램(예:.exe 및.msi 파일) 설치
- - 방화벽 설정
+ - 방화벽 설정 관리
 
 선택적 초기화를 사용할 수 있으나 Intune 클라이언트 소프트웨어로 관리되는 PC를 완벽하게 초기화할 수는 없습니다. Intune 소프트웨어 클라이언트로 관리되는 PC는 조건부 액세스, VPN 및 Wi-Fi 설정 또는 인증서 및 메일 구성의 배포와 같은 많은 Intune 관리 기능을 사용할 수 없습니다.
 
@@ -119,6 +119,6 @@ Intune은 다음 장치 플랫폼을 관리할 수 있습니다.
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 
