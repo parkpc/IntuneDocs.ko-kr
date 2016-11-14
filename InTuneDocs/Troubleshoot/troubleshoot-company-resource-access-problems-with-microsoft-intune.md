@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "회사 리소스 액세스 문제 해결 | Microsoft Intune"
 description: "이 항목의 오류 및 상태 코드는 리소스 액세스 문제를 해결하는 데 도움이 됩니다."
@@ -16,15 +17,63 @@ translationtype: Human Translation
 ms.sourcegitcommit: 03f7433bc46d6a24498104bed7e5f1f366aca890
 ms.openlocfilehash: 114d4107dc73b3ad905de3fe02ffb81fa2e0e954
 
+||||||| merged common ancestors
+---
+title: "회사 리소스 액세스 문제 해결 | Microsoft Intune"
+description: "이 항목의 오류 및 상태 코드는 리소스 액세스 문제를 해결하는 데 도움이 됩니다."
+keywords: 
+author: Nbigman
+manager: angrobe
+ms.date: 08/02/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 40622ced-6029-4abf-873e-b51d2b51934c
+ms.reviewer: tscott
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: eeb0aeac2f94dfde50d9398b09c6b21c7ae40624
+ms.openlocfilehash: 144fa2e18670805ef46cf2d3db86ec254cdfdf77
+
+=======
+---
+title: "회사 리소스 액세스 문제 해결 | Microsoft Intune"
+description: "이 항목의 오류 및 상태 코드는 리소스 액세스 문제를 해결하는 데 도움이 됩니다."
+keywords: 
+author: robstackmsft
+ms.author: robstack
+manager: angrobe
+ms.date: 09/22/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 40622ced-6029-4abf-873e-b51d2b51934c
+ms.reviewer: tscott
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 03f7433bc46d6a24498104bed7e5f1f366aca890
+ms.openlocfilehash: 114d4107dc73b3ad905de3fe02ffb81fa2e0e954
+
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 ---
+<<<<<<< HEAD
 
 # Microsoft Intune 관련 회사 리소스 액세스 문제 해결
+||||||| merged common ancestors
+
+# Microsoft Intune 관련 회사 리소스 액세스 문제 해결
+=======
+
+# <a name="troubleshoot-company-resource-access-problems-with-microsoft-intune"></a>Microsoft Intune 관련 회사 리소스 액세스 문제 해결
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 Microsoft Intune 작업이 오류 코드를 반환하는 경우, 문제 해결을 돕기 위해 이 항목의 오류 및 상태 코드를 사용합니다.
 
 이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
 
-## MDM 관리 Windows 장치에 대한 상태 코드
+## <a name="status-codes-for-mdm-managed-windows-devices"></a>MDM 관리 Windows 장치에 대한 상태 코드
 
 |상태 코드|오류 메시지|알아두어야 할 사항|
 |---------------|-----------------|--------------|
@@ -43,7 +92,7 @@ Microsoft Intune 작업이 오류 코드를 반환하는 경우, 문제 해결�
 |130(APP_CI_ENFORCEMENT_ERROR)|MSADP 라이선스 설치 실패||
 |상태 없음(APP_CI_ENFORCEMENT_UNKNOWN)|해당 없음|상태를 현재 알 수 없습니다.|
 
-## 회사 리소스 액세스(공통 오류)
+## <a name="company-resource-access-common-errors"></a>회사 리소스 액세스(공통 오류)
 
 |상태 코드|16진수 오류 코드|오류 메시지|
 |---------------|--------------------------|-----------------|
@@ -72,7 +121,7 @@ Microsoft Intune 작업이 오류 코드를 반환하는 경우, 문제 해결�
 |-2016341111|0x87D11389|iOS 장치가 예기치 않은 유휴 상태를 반환했습니다.|
 |-2016341112|0x87D11388|iOS 장치가 현재 사용 중입니다.|
 
-## iOS 장치가 반환한 오류
+## <a name="errors-returned-by-ios-devices"></a>iOS 장치가 반환한 오류
 
 |상태 코드|16진수 오류 코드|오류 메시지|
 |---------------|--------------------------|-----------------|
@@ -282,7 +331,7 @@ Microsoft Intune 작업이 오류 코드를 반환하는 경우, 문제 해결�
 |-2016335111|0x87D12AF9|1001:지원되지 않는 프로필 버전|
 |-2016335112|0x87D12AF8|1000:형식이 잘못된 프로필|
 
-## OMA 응답 코드
+## <a name="oma-response-codes"></a>OMA 응답 코드
 
 |상태 코드|16진수 오류 코드|오류 메시지|
 |---------------|--------------------------|-----------------|
@@ -367,10 +416,16 @@ Microsoft Intune 작업이 오류 코드를 반환하는 경우, 문제 해결�
 |-2016345912|0x87D100C8|SyncML 명령이 성공적으로 완료되었습니다.|
 |-2016346011|0x87D10065|지정된 SyncML 명령이 수행 중이지만 아직 완료되지 않았습니다.|
 
-### 다음 단계
+### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO1-->
+=======
+<!--HONumber=Sep16_HO4-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 <!--HONumber=Sep16_HO4-->
 

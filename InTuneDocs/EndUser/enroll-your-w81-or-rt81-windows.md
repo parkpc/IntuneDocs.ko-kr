@@ -2,7 +2,8 @@
 title: "Windows 8.1 또는 Windows RT 8.1 장치 등록 | Microsoft Intune"
 description: "Intune에서 Windows 8.1 또는 Windows RT 8.1 장치를 등록하는 방법을 설명합니다."
 keywords: 
-author: Staciebarker
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -13,14 +14,22 @@ ms.assetid: 28984f26-1070-4f7a-877c-669a59375c0c
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
 ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
 ms.openlocfilehash: ce39a013186942e3d5a2b355d1425edbed4fa769
+||||||| merged common ancestors
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: 9eecefaf5f56adb0959bf3ce23c7d7062ff7c9f6
+=======
+ms.sourcegitcommit: 7eefcefa5e1cd0f789c77bf020c256e449099273
+ms.openlocfilehash: 53e9313bc85c149960fa985b655a22065b55b8a0
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
 ---
 
 
-# Intune에서 Windows 8.1 또는 Windows RT 8.1 장치 등록
+# <a name="enroll-your-windows-81-or-windows-rt-81-device-in-intune"></a>Intune에서 Windows 8.1 또는 Windows RT 8.1 장치 등록
 
 회사 또는 학교에서 Microsoft Intune을 사용하는 경우 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 조직에서 회사 데이터 보안을 유지할 수 있습니다. 등록에 대해 자세히 알아보려면 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) 및 [IT 관리자가 장치에서 할 수 있는 일과 할 수 없는 일](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)을 참조하세요.
 
@@ -51,7 +60,7 @@ Windows 8.1 또는 Windows RT 8.1 장치를 등록하려면:
 
     ![enrollment-complete](./media/W81-5-enrolled-done.png)
 
-또한 사용자 및 사용자의 역할과 관련된 회사 앱을 쉽게 식별하고 가져올 수 있으므로 회사 포털 앱을 설치하는 것이 좋습니다. 회사에서 Intune을 구성한 방식에 따라 회사 포털 앱이 등록 프로세스의 일부로 설치되었을 수 있습니다. 앱이 있는지 확인하려면 앱 목록에서 **회사 포털**을 찾습니다. 앱 목록에 회사 포털이 표시되지 않으면 다음 단계를 따라 설치합니다.
+또한 사용자 및 사용자의 역할과 관련된 회사 앱을 쉽게 식별하고 가져올 수 있으므로 회사 포털 앱을 설치하는 것이 좋습니다. 회사에서 Intune을 설정한 방식에 따라 회사 포털 앱이 등록 프로세스의 일부로 설치되었을 수 있습니다. 앱이 있는지 확인하려면 앱 목록에서 **회사 포털**을 찾습니다. 앱 목록에 회사 포털이 표시되지 않으면 다음 단계를 따라 설치합니다.
 
 1.  **시작** &gt; **스토어**를 탭합니다.
 
@@ -59,13 +68,18 @@ Windows 8.1 또는 Windows RT 8.1 장치를 등록하려면:
 
 3.  결과 목록에서 **회사 포털**을 탭합니다.
 
-4.  **설치** 또는 **무료** 중 하나를 탭합니다. 표시되는 옵션은 회사에서 앱을 구성한 방법에 따라 달라집니다.
+4.  **설치** 또는 **무료** 중 하나를 탭합니다. 표시되는 옵션은 회사에서 앱을 설정한 방법에 따라 달라집니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-
+<<<<<<< HEAD
 <!--HONumber=Sep16_HO3-->
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO5-->
+=======
+<!--HONumber=Oct16_HO2-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 

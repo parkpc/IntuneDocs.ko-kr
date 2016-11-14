@@ -4,7 +4,13 @@ description: "이 항목은 Microsoft Intune에서 앱 배포 문제를 해결�
 keywords: 
 author: robstackmsft
 manager: angrobe
+<<<<<<< HEAD
 ms.date: 09/06/2016
+||||||| merged common ancestors
+ms.date: 08/02/2016
+=======
+ms.date: 09/27/2016
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +19,16 @@ ms.assetid: 28ac298e-fb73-4c1c-b3fd-8336639e05e6
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
 ms.sourcegitcommit: a5256d4decfcd14de2d50a32a0906b6894639010
 ms.openlocfilehash: 552514971a64b16f88a7d83a0f7d66a0c00b61b0
+||||||| merged common ancestors
+ms.sourcegitcommit: aa96cf3a1909e3ea2187a3beb0aede3228894504
+ms.openlocfilehash: 9f4b91bd523c82665bcac54902b2e8cc9c72ef75
+=======
+ms.sourcegitcommit: 30d42bc4ee38a45895320eebd665fe8f5a0cb4ee
+ms.openlocfilehash: 0db3e6a39bd0d30231c339cb4501ce25059e4657
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
 ---
@@ -32,11 +46,29 @@ Intune을 사용하여 앱을 배포하고 관리하는 데 문제가 있는 경
 |0x80073CFB|제공된 패키지가 이미 설치되었으며, 패키지를 다시 설치하는 것이 차단되었습니다.|설치하는 패키지가 이미 설치된 패키지와 동일하지 않은 경우 이 오류를 수신할 수 있습니다. 디지털 서명도 패키지의 일부에 포함되었는지 확인하십시오. 다시 작성하거나 다시 서명하는 패키지는 이전에 설치한 패키지와 비트가 더 이상 동일하지 않습니다. 이 오류를 수정할 수 있는 두 가지 가능한 옵션은 다음과 같습니다.<br /><br />-   앱의 버전 번호를 증가한 다음 패키지를 다시 빌드하고 다시 서명합니다.<br />-   새 패키지를 설치하기 전에 시스템의 모든 사용자에 대한 이전 패키지를 제거합니다.|
 |0x87D1041C|응용 프로그램을 설치했으나 응용 프로그램이 검색되지 않습니다.|- 앱이 Intune을 통해 정상적으로 배포된 후에 제거되었습니다(최종 사용자가 제거했을 수 있음). 사용자에게 회사 포털에서 앱을 다시 설치하도록 합니다. 다음 번에 장치를 체크 인할 때 필수 앱이 자동으로 다시 설치됩니다.|
 
+## Windows 스토어의 앱 문제 해결
+
+[Troubleshooting packaging, deployment, and query of Windows Store apps](https://msdn.microsoft.com/library/windows/desktop/hh973484.aspx)(Windows 스토어 앱 패키징, 배포 및 쿼리 문제 해결) 항목의 정보는 Intune을 사용하든, 다른 방법을 사용하든 관계없이 Windows 스토어에서 앱을 설치할 때 발생할 수 있는 일반적인 문제를 해결하는 데 도움을 줍니다.
+
+## Intune 소프트웨어 클라이언트로 관리되는 PC에 앱 배포 문제 해결
+Intune 소프트웨어 클라이언트로 관리되는 PC에 앱을 배포하는 것과 관련된 문제를 해결하려면 다음 두 개의 로그 파일을 살펴볼 수 있습니다.
+- %ProgramFiles%\Microsoft\OnlineManagement\Logs 폴더
+- %ProgramFiles%\Microsoft\OnlineManagement\Updates\ReportingEvents.log
+
+또한 Intune에 대한 지원 케이스를 열어야 할 경우 이러한 로그를 Microsoft에 보내면 유용합니다.
+
+
 ### 다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
 
 
 
+<<<<<<< HEAD
 <!--HONumber=Sep16_HO1-->
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO5-->
+=======
+<!--HONumber=Sep16_HO4-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 

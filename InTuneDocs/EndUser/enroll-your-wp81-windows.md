@@ -2,7 +2,8 @@
 title: "Intune에서 Windows Phone 8.1 장치 등록 | Microsoft Intune"
 description: "Intune에서 Windows Phone 8.1 장치를 등록하는 방법을 설명합니다."
 keywords: 
-author: Staciebarker
+author: barlan
+ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -13,8 +14,16 @@ ms.assetid: 4a120c3d-d520-4d48-ae4c-3338ca4e7bde
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
+<<<<<<< HEAD
 ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
 ms.openlocfilehash: d1c65c826a978fc5d263cfc0ed4eeee0854d0c3b
+||||||| merged common ancestors
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: 9a38443813682b29615ec79b0e0d7da4f8bd369c
+=======
+ms.sourcegitcommit: 7eefcefa5e1cd0f789c77bf020c256e449099273
+ms.openlocfilehash: 843011aca535d8416b931f43bb622bc5c01ed546
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 
 ---
@@ -80,13 +89,18 @@ Intune에 Phone 8.1 장치를 등록하려면 회사에 적용되는 지침을 �
 
 4.  회사 앱 또는 허브 설치를 묻는 메시지가 표시되면 관련 확인란을 선택했는지 확인한 다음 **완료**를 탭합니다.
 
-IT 관리자가 등록 중에 회사 포털이 설치되도록 구성한 경우에는 앱 목록에 회사 포털이 표시됩니다.
+IT 관리자가 등록 중에 회사 포털이 설치되도록 설정한 경우에는 앱 목록에 회사 포털이 표시됩니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-
+<<<<<<< HEAD
 <!--HONumber=Sep16_HO3-->
+||||||| merged common ancestors
+<!--HONumber=Aug16_HO5-->
+=======
+<!--HONumber=Oct16_HO2-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 

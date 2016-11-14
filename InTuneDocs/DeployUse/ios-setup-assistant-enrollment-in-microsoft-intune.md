@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "설정 도우미를 사용하여 iOS 장치 등록 | Microsoft Intune"
 description: "Apple Configurator 도구를 사용하여 회사 소유의 iOS 장치를 공장 초기화 장치에 등록하고 설정 도우미를 실행할 수 있도록 준비합니다."
@@ -16,6 +17,45 @@ translationtype: Human Translation
 ms.sourcegitcommit: e2daff5dae435df55c866adbf602f554500d50e0
 ms.openlocfilehash: 45aa4511945ab4763dc0dc35baefe47887e561bb
 
+||||||| merged common ancestors
+---
+title: "설정 도우미를 사용하여 iOS 장치 등록 | Microsoft Intune"
+description: "Apple Configurator 도구를 사용하여 회사 소유의 iOS 장치를 공장 초기화 장치에 등록하고 설정 도우미를 실행할 수 있도록 준비합니다."
+keywords: 
+author: NathBarn
+manager: angrobe
+ms.date: 07/20/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 46e5b027-4280-4809-b45f-651a6ab6d0cd
+ms.reviewer: dagerrit
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: ecfeb73efed4a47256275120c52de232c556adfe
+ms.openlocfilehash: 01d87b95d2599f75161c9a95ff4cf94375eedb60
+
+=======
+---
+title: "설정 도우미를 사용하여 iOS 장치 등록 | Microsoft Intune"
+description: "Apple Configurator 도구를 사용하여 회사 소유의 iOS 장치를 공장 초기화 장치에 등록하고 설정 도우미를 실행할 수 있도록 준비합니다."
+keywords: 
+author: NathBarn
+manager: angrobe
+ms.date: 07/20/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 46e5b027-4280-4809-b45f-651a6ab6d0cd
+ms.reviewer: dagerrit
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: e42c2e5db17943562ccd88ab8fe838056c67553a
+
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 ---
 
@@ -139,9 +179,23 @@ Apple 구성기를 사용하면 iOS 장치를 초기화하여 장치의 새 사�
 
 
 ### 참고 항목
+<<<<<<< HEAD
+[장치 등록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
+||||||| merged common ancestors
 [장치 등록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
+=======
+[장치 등록을 위한 필수 조건](prerequisites-for-enrollment.md)
 
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
+
+
+<<<<<<< HEAD
+||||||| merged common ancestors
+<!--HONumber=Jul16_HO4-->
+=======
+<!--HONumber=Sep16_HO4-->
+>>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
 <!--HONumber=Sep16_HO2-->
 

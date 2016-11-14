@@ -3,6 +3,7 @@ title: "앱 추가 | Microsoft Intune"
 description: "Intune을 사용하여 앱의 배포를 시작하기 전에 이 항목에서 소개하는 개념에 대해 알아보세요."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: article

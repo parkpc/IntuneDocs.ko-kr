@@ -3,8 +3,9 @@ title: "Windows 10 정책 설정 | Microsoft Intune"
 description: "이 항목에 나열된 정책 설정을 사용하면 등록된 Windows 10 Desktop 및 Windows 10 Mobile 장치의 기본 제공 및 사용자 지정 설정을 구성하는 데 도움이 됩니다."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
-ms.date: 08/31/2016
+ms.date: 10/03/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +14,8 @@ ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4ce69e8a22f1b25dac7060ff575bbd97934eff91
-ms.openlocfilehash: 712883874f022ceb3f38473839fe0d6e4c373164
+ms.sourcegitcommit: b8522406a3c73746b09616c3ec917464cf751312
+ms.openlocfilehash: 6e482beb5e2edce648ecb6f1821baa6214fa0f2f
 
 
 ---
@@ -52,8 +53,8 @@ Intune 콘솔에서 식별할 수 있도록 이 정책의 이름을 입력하고
 - **OMA-URI(대/소문자 구분)** - 설정을 제공할 OMA-URI를 지정합니다.
 - **값** - 입력한 OMA-URI와 연결할 값을 지정합니다.
 
-### 예제
-아래 스크린샷에서는 **Conectivity/AllowVPNOverCellular** 설정이 사용하도록 설정되어 있습니다. 따라서 Windows 10 장치는 셀룰러 네트워크에서 VPN 연결을 열 수 있습니다.
+### 예
+아래 스크린샷에서는 **Connectivity/AllowVPNOverCellular** 설정을 사용하도록 설정되어 있습니다. 따라서 Windows 10 장치는 셀룰러 네트워크에서 VPN 연결을 열 수 있습니다.
 
 > ![VPN 설정을 포함하는 사용자 지정 정책의 예](./media/custom-policy-example.png)
 
@@ -326,6 +327,6 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여 등록�
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO1-->
 
 
