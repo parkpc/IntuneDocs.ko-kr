@@ -2,35 +2,10 @@
 title: "Cisco ISE에서 네트워크에 대한 액세스 제한 | Microsoft Intune"
 description: "Cisco ISE에 의해 제어되는 WiFi 및 VPN에 액세스하기 전에 장치가 Intune에 등록되고 정책을 준수하도록 Intune에서 Cisco ISE를 사용합니다."
 keywords: 
-author: nbigman
+author: robstackmsft
+ms.author: robstack
 manager: angrobe
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-ms.date: 09/08/2016
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-ms.date: 06/24/2016
-=========
-ms.date: 10/05/2016
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-ms.date: 06/24/2016
-=======
-ms.date: 10/05/2016
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
-||||||| merged common ancestors
-ms.date: 10/05/2016
-=======
 ms.date: 11/06/2016
->>>>>>> 12550744143a4804819a881aa25136cdf07f4bcb
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -39,79 +14,23 @@ ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-ms.sourcegitcommit: ecaf92b327538e3da4df268e4c67c73af262b731
-ms.openlocfilehash: fa73c5e2b4e6737377acd206807399b31df37364
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-ms.sourcegitcommit: 40194f4359d0889806e080a4855b8e1934b667f9
-ms.openlocfilehash: 9d6b7198e3c2e30898a8ec83785c7f3b777eda5f
-=========
-ms.sourcegitcommit: 17b957cc2baedddfc53bfdf7b875e4ecb28b8517
-ms.openlocfilehash: a29473cb0931c01143614116ce0e99a579f35923
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-ms.sourcegitcommit: 40194f4359d0889806e080a4855b8e1934b667f9
-ms.openlocfilehash: 9d6b7198e3c2e30898a8ec83785c7f3b777eda5f
-=======
-ms.sourcegitcommit: 17b957cc2baedddfc53bfdf7b875e4ecb28b8517
-ms.openlocfilehash: a29473cb0931c01143614116ce0e99a579f35923
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
-||||||| merged common ancestors
-ms.sourcegitcommit: 17b957cc2baedddfc53bfdf7b875e4ecb28b8517
-ms.openlocfilehash: a29473cb0931c01143614116ce0e99a579f35923
-=======
 ms.sourcegitcommit: 1dd3fde8119b54f574265c2ca9cf62cee9e77b01
 ms.openlocfilehash: bd6307cd8ff465bbce3de124ffdb444333d12efe
->>>>>>> 12550744143a4804819a881aa25136cdf07f4bcb
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 ---
 
-# Microsoft intune에서 Cisco ISE 사용
+# <a name="using-cisco-ise-with-microsoft-intune"></a>Microsoft intune에서 Cisco ISE 사용
 Cisco ISE(ID 서비스 엔진)와 Intune을 통합하면 Intune 장치 등록 및 규정 준수 상태를 사용하여 ISE 환경에서 네트워크 정책을 작성할 수 있습니다. 이러한 정책을 사용하여 회사 네트워크에 대한 액세스가 Intune에서 관리되고 Intune 정책을 준수하는 장치로 제한되도록 할 수 있습니다.
 
-## 구성 단계
+## <a name="configuration-steps"></a>구성 단계
 
 이 통합을 사용하려는 경우 Intune 테넌트에서는 어떤 설정 작업도 필요하지 않습니다. Intune 테넌트에 액세스하려면 Cisco ISE 서버에 대한 권한을 제공해야 합니다. 이 작업이 완료되면 Cisco ISE 서버에서 나머지 설정 작업이 진행됩니다. 이 문서에서는 ISE 서버에 Intune 테넌트 액세스 권한을 제공하는 방법에 대해 설명합니다.
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-### 1단계: 인증서 관리
-Azure AD(Azure Active Directory) 콘솔에서 인증서를 내보낸 다음, ISE 콘솔의 신뢰할 수 있는 인증서 저장소로 가져옵니다.
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-### 1단계: 인증서 관리
-1. Azure AD(Azure Active Directory) 콘솔에서 인증서를 내보냅니다.
-=========
 ### <a name="step-1-manage-the-certificates"></a>1단계: 인증서 관리
 Azure AD(Azure Active Directory) 콘솔에서 인증서를 내보낸 다음, ISE 콘솔의 신뢰할 수 있는 인증서 저장소로 가져옵니다.
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-### 1단계: 인증서 관리
-1. Azure AD(Azure Active Directory) 콘솔에서 인증서를 내보냅니다.
-=======
-### <a name="step-1-manage-the-certificates"></a>1단계: 인증서 관리
-Azure AD(Azure Active Directory) 콘솔에서 인증서를 내보낸 다음, ISE 콘솔의 신뢰할 수 있는 인증서 저장소로 가져옵니다.
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
-#### Internet Explorer 11
+#### <a name="internet-explorer-11"></a>Internet Explorer 11
 
 
    a. 관리자 권한으로 Internet Explorer를 실행하고 Azure AD 콘솔에 로그인합니다.
@@ -126,33 +45,9 @@ Azure AD(Azure Active Directory) 콘솔에서 인증서를 내보낸 다음, ISE
 
    f. **내보낼 파일** 페이지에서 **찾아보기**를 선택하여 파일을 저장할 위치를 선택하고 파일 이름을 제공합니다. 내보낼 파일을 선택한 것 같지만 실제로는 내보낸 인증서가 저장될 파일에 이름을 지정하게 되는 것입니다. **다음** &gt; **마침**을 선택합니다.
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-   g. ISE 콘솔 내에서 Intune 인증서(내보낸 파일)를 **신뢰할 수 있는 인증서** 저장소로 가져옵니다.
-
-#### Safari
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-#### Safari
-=========
    g. ISE 콘솔 내에서 Intune 인증서(내보낸 파일)를 **신뢰할 수 있는 인증서** 저장소로 가져옵니다.
 
 #### <a name="safari"></a>Safari
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-#### Safari
-=======
-   g. ISE 콘솔 내에서 Intune 인증서(내보낸 파일)를 **신뢰할 수 있는 인증서** 저장소로 가져옵니다.
-
-#### <a name="safari"></a>Safari
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
  a. Azure AD 콘솔에 로그인합니다.
 
@@ -169,33 +64,7 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 > 인증서 만료 날짜를 확인합니다. 이 날짜가 완료되면 인증서를 내보내고 새 인증서를 가져와야 하기 때문입니다.
 
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-### ISE에서 자체 서명된 인증서 가져오기 
-||||||||| merged common ancestors
-2. ISE 콘솔 내에서 Intune 인증서(내보낸 파일)를 **신뢰할 수 있는 인증서** 저장소로 가져옵니다.
-
-
-=======
-<<<<<<< HEAD
-### ISE에서 자체 서명된 인증서 가져오기 
-||||||| merged common ancestors
-2. ISE 콘솔 내에서 Intune 인증서(내보낸 파일)를 **신뢰할 수 있는 인증서** 저장소로 가져옵니다.
-
-
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-### ISE에서 자체 서명된 인증서 가져오기 
-<<<<<<< HEAD
-||||||| merged common ancestors
-=========
 ### <a name="obtain-a-selfsigned-cert-from-ise"></a>ISE에서 자체 서명된 인증서 가져오기 
->>>>>>>>> Temporary merge branch 2
-=======
-=======
-### <a name="obtain-a-selfsigned-cert-from-ise"></a>ISE에서 자체 서명된 인증서 가져오기 
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 1.  ISE 콘솔에서 **관리** > **인증서** > **시스템 인증서** > **자체 서명된 인증서 생성**로 이동합니다.  
 2.       자체 서명된 인증서를 내보냅니다.
@@ -207,7 +76,7 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 모든 텍스트를 한 줄에 입력해야 합니다.
 
 
-### 2단계: Azure AD 테넌트에서 ISE용 앱 만들기
+### <a name="step-2-create-an-app-for-ise-in-your-azure-ad-tenant"></a>2단계: Azure AD 테넌트에서 ISE용 앱 만들기
 1. Azure AD 콘솔에서 **응용 프로그램** > **응용 프로그램 추가** > **조직에서 개발 중인 응용 프로그램 추가**를 선택합니다.
 2. 앱의 이름 및 URL을 제공합니다. URL은 회사 웹 사이트일 수 있습니다.
 3. 앱 매니페스트(JSON 파일)를 다운로드합니다.
@@ -231,65 +100,6 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 |OAuth 2.0 토큰 끝점|토큰 발급 URL|
 |클라이언트 ID로 코드 업데이트|클라이언트 ID|
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-### 4단계: ISE의 자체 서명된 인증서를 Azure AD에서 만든 ISE 앱으로 업로드
-1.     Base64로 인코딩된 인증서 값과 지문을 .cer X509 공용 인증서 파일에서 가져옵니다. 이 예제에서는 PowerShell을 사용합니다.
-   
-      
-    `$cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2`
-     `$cer.Import(“mycer.cer”)`
-      `$bin = $cer.GetRawCertData()`
-      `$base64Value = [System.Convert]::ToBase64String($bin)`
-      `$bin = $cer.GetCertHash()`
-      `$base64Thumbprint = [System.Convert]::ToBase64String($bin)`
-      `$keyid = [System.Guid]::NewGuid().ToString()`
- 
-    다음 단계에서 사용할, $base64Thumbprint 값과 $base64Value 값, $keyid 값을 저장합니다.
-2.       매니페스트 파일을 통해 인증서를 업로드합니다. [Azure 관리 포털](https://manage.windowsazure.com)에 로그인합니다.
-2.      Azure AD 스냅인에서 X.509 인증서로 구성할 응용 프로그램을 찾습니다.
-3.      응용 프로그램 매니페스트 파일을 다운로드합니다. 
-5.      빈 “KeyCredentials”: [], 속성을 다음 JSON으로 바꿉니다.  KeyCredential 복합 형식은 [Entity and complex type reference](https://msdn.microsoft.com/library/azure/ad/graph/api/entity-and-complex-type-reference#KeyCredentialType)(엔터티 및 복합 형식 참조)에 나와 있습니다.
-
- 
-    `“keyCredentials“: [`
-    `{`
-     `“customKeyIdentifier“: “$base64Thumbprint_from_above”,`
-     `“keyId“: “$keyid_from_above“,`
-     `“type”: “AsymmetricX509Cert”,`
-     `“usage”: “Verify”,`
-     `“value”:  “$base64Value_from_above”`
-     `}2. `
-     `], `
- 
-예를 들면 다음과 같습니다.
- 
-    `“keyCredentials“: [`
-    `{`
-    `“customKeyIdentifier“: “ieF43L8nkyw/PEHjWvj+PkWebXk=”,`
-    `“keyId“: “2d6d849e-3e9e-46cd-b5ed-0f9e30d078cc”,`
-    `“type”: “AsymmetricX509Cert”,`
-    `“usage”: “Verify”,`
-    `“value”: “MIICWjCCAgSgAwIBA***omitted for brevity***qoD4dmgJqZmXDfFyQ”`
-    `}`
-    `],`
- 
-6.      변경 내용을 응용 프로그램 매니페스트 파일에 저장합니다.
-7.      편집한 응용 프로그램 매니페스트 파일을 Azure 관리 포털을 통해 업로드합니다.
-8.      선택 사항: X.509 인증서가 응용 프로그램에 있는지 확인하려면 다시 매니페스트를 다운로드하세요.
-
->[!NOTE]
->
-> KeyCredentials는 컬렉션이므로 롤오버 시나리오에서는 여러 X.509 인증서를 업로드하고 손상 시나리오에서는 인증서를 삭제할 수 있습니다.
-
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-=========
 ### <a name="step-4-upload-the-selfsigned-certificate-from-ise-into-the-ise-app-you-created-in-azure-ad"></a>4단계: ISE의 자체 서명된 인증서를 Azure AD에서 만든 ISE 앱으로 업로드
 1.     Base64로 인코딩된 인증서 값과 지문을 .cer X509 공용 인증서 파일에서 가져옵니다. 이 예제에서는 PowerShell을 사용합니다.
    
@@ -326,70 +136,8 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 >
 > KeyCredentials는 컬렉션이므로 롤오버 시나리오에서는 여러 X.509 인증서를 업로드하고 손상 시나리오에서는 인증서를 삭제할 수 있습니다.
 
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-=======
-### <a name="step-4-upload-the-selfsigned-certificate-from-ise-into-the-ise-app-you-created-in-azure-ad"></a>4단계: ISE의 자체 서명된 인증서를 Azure AD에서 만든 ISE 앱으로 업로드
-1.     Base64로 인코딩된 인증서 값과 지문을 .cer X509 공용 인증서 파일에서 가져옵니다. 이 예제에서는 PowerShell을 사용합니다.
-   
-      
-      $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2    $cer.Import(“mycer.cer”)    $bin = $cer.GetRawCertData()    $base64Value = [System.Convert]::ToBase64String($bin)    $bin = $cer.GetCertHash()    $base64Thumbprint = [System.Convert]::ToBase64String($bin)    $keyid = [System.Guid]::NewGuid().ToString()
- 
-    다음 단계에서 사용할, $base64Thumbprint 값과 $base64Value 값, $keyid 값을 저장합니다.
-2.       매니페스트 파일을 통해 인증서를 업로드합니다. [Azure 관리 포털](https://manage.windowsazure.com)에 로그인합니다.
-2.      Azure AD 스냅인에서 X.509 인증서로 구성할 응용 프로그램을 찾습니다.
-3.      응용 프로그램 매니페스트 파일을 다운로드합니다. 
-5.      빈 “KeyCredentials”: [], 속성을 다음 JSON으로 바꿉니다.  KeyCredential 복합 형식은 [Entity and complex type reference](https://msdn.microsoft.com/library/azure/ad/graph/api/entity-and-complex-type-reference#KeyCredentialType)(엔터티 및 복합 형식 참조)에 나와 있습니다.
 
- 
-    “keyCredentials“: [ { “customKeyIdentifier“: “$base64Thumbprint_from_above”, “keyId“: “$keyid_from_above“, “type”: “AsymmetricX509Cert”, “usage”: “Verify”, “value”:  “$base64Value_from_above” }2. 
-     ], 
- 
-예를 들면 다음과 같습니다.
- 
-    “keyCredentials“: [
-    {
-    “customKeyIdentifier“: “ieF43L8nkyw/PEHjWvj+PkWebXk=”,
-    “keyId“: “2d6d849e-3e9e-46cd-b5ed-0f9e30d078cc”,
-    “type”: “AsymmetricX509Cert”,
-    “usage”: “Verify”,
-    “value”: “MIICWjCCAgSgAwIBA***omitted for brevity***qoD4dmgJqZmXDfFyQ”
-    }
-    ],
- 
-6.      변경 내용을 응용 프로그램 매니페스트 파일에 저장합니다.
-7.      편집한 응용 프로그램 매니페스트 파일을 Azure 관리 포털을 통해 업로드합니다.
-8.      선택 사항: X.509 인증서가 응용 프로그램에 있는지 확인하려면 다시 매니페스트를 다운로드하세요.
-
->[!NOTE]
->
-> KeyCredentials는 컬렉션이므로 롤오버 시나리오에서는 여러 X.509 인증서를 업로드하고 손상 시나리오에서는 인증서를 삭제할 수 있습니다.
-
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-### 4단계: ISE 설정 구성
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-### 3단계: ISE 설정 구성
-=========
 ### <a name="step-4-configure-ise-settings"></a>4단계: ISE 설정 구성
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-### 3단계: ISE 설정 구성
-=======
-### <a name="step-4-configure-ise-settings"></a>4단계: ISE 설정 구성
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ISE 관리 콘솔에서 다음 설정 값을 제공합니다.
   - **서버 유형**: 모바일 장치 관리자
   - **인증 유형**: OAuth - 클라이언트 자격 증명
@@ -400,7 +148,7 @@ ISE 관리 콘솔에서 다음 설정 값을 제공합니다.
 
 
 
-## Intune 테넌트와 Cisco ISE 서버 간에 공유되는 정보
+## <a name="information-shared-between-your-intune-tenant-and-your-cisco-ise-server"></a>Intune 테넌트와 Cisco ISE 서버 간에 공유되는 정보
 이 표에서는 Intune 테넌트와 Intune에서 관리되는 장치용 Cisco ISE 서버 간에 공유되는 정보를 보여 줍니다.
 
 |속성|  설명|
@@ -419,7 +167,7 @@ ISE 관리 콘솔에서 다음 설정 값을 제공합니다.
 |lastContactTimeUtc|Intune 관리 서비스를 사용하여 장치를 마지막으로 체크 인한 날짜 및 시간입니다.
 
 
-## 사용자 환경
+## <a name="user-experience"></a>사용자 환경
 
 사용자가 등록 해제된 장치를 사용하여 리소스에 액세스하려고 할 경우 여기에 표시된 것과 같은 등록 메시지가 수신됩니다.
 
@@ -435,32 +183,12 @@ ISE 관리 콘솔에서 다음 설정 값을 제공합니다.
 또한 사용자 환경에 대한 사용자 지정된 지침을 만드는 데 사용할 수 있는 [다운로드 가능한 등록 지침 집합](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a)도 있습니다.
 
 
-### 참고 항목
+### <a name="see-also"></a>참고 항목
 
 [Cisco ID 서비스 엔진 관리자 가이드, 릴리스 2.1](http://www.cisco.com/c/en/us/td/docs/security/ise/2-1/admin_guide/b_ise_admin_guide_21/b_ise_admin_guide_20_chapter_01000.html#task_820C9C2A1A6647E995CA5AAB01E1CDEF)
 
 
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-<!--HONumber=Sep16_HO3-->
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-<!--HONumber=Sep16_HO1-->
-=========
 <!--HONumber=Nov16_HO1-->
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-<!--HONumber=Sep16_HO1-->
-=======
-<!--HONumber=Nov16_HO1-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 

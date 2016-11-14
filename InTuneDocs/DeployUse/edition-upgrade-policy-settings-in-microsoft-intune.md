@@ -3,8 +3,9 @@ title: "Windows 버전 업그레이드 정책 설정 | Microsoft Intune"
 description: "Intune을 사용하여 Windows 10 장치를 최신 버전으로 자동 업그레이드하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 09/30/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +14,8 @@ ms.assetid: 8589866a-3f13-489b-a5cd-cee017d16d54
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 06a9c78300d7ff384299957102114c69c43a1ad5
-ms.openlocfilehash: 45130e3e12968d9df579a7a9d0cade0343b7c165
+ms.sourcegitcommit: f2aa531744dbd0774958e0450819e45e60a91086
+ms.openlocfilehash: 93a632f0f0b8d31149fa1d5fbe15b31d715d20a8
 
 
 ---
@@ -24,6 +25,12 @@ Microsoft Intune **버전 업그레이드 정책**을 사용하면 다음 Window
 * Windows 10 Desktop
 * Windows 10 Holographic
 * Windows 10 Mobile
+
+지원되는 업그레이드 경로는 다음과 같습니다.
+- Windows 10 Pro에서 Windows 10 Enterprise로
+- Windows 10 Home에서 Windows 10 Education으로
+- Windows 10 Mobile에서 Windows 10 Mobile Enterprise로
+- Windows 10 Holographic Pro에서 Windows 10 Holographic Enterprise로
 
 ## 시작하기 전에
 장치를 최신 버전으로 업그레이드하기 전에 다음 중 하나가 있어야 합니다.
@@ -46,6 +53,6 @@ Microsoft Intune **버전 업그레이드 정책**을 사용하면 다음 Window
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO5-->
 
 

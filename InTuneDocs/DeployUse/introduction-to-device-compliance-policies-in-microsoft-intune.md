@@ -3,6 +3,7 @@ title: "장치 준수 정책 | Microsoft Intune"
 description: "이 항목에서는 장치 준수 정책이란 무엇이며 작동 원리를 파악하는 데 필요한 개념을 설명합니다."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article
@@ -13,32 +14,8 @@ ms.assetid: 0775107a-6662-41c8-9404-be14bbb599f3
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-ms.sourcegitcommit: 0be23ec10b8e380d57fc8263c68f08c0287c1b93
-ms.openlocfilehash: 7a9d68de99c624ccfe4d7d741c1c8ac5c0044314
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-ms.sourcegitcommit: 44443db664753b202cc3fa07f8b76894320dc55d
-ms.openlocfilehash: f3bb686dda7bdf1e9557be2b5f5e0da2fb4d27e4
-=========
 ms.sourcegitcommit: 550fbbf94f46eee23e77ebf7f9177148882f28e2
 ms.openlocfilehash: a853eb4de5528b3ca219ca844a9df4f3b5ad9224
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-ms.sourcegitcommit: 44443db664753b202cc3fa07f8b76894320dc55d
-ms.openlocfilehash: f3bb686dda7bdf1e9557be2b5f5e0da2fb4d27e4
-=======
-ms.sourcegitcommit: 550fbbf94f46eee23e77ebf7f9177148882f28e2
-ms.openlocfilehash: a853eb4de5528b3ca219ca844a9df4f3b5ad9224
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 ---
@@ -53,6 +30,7 @@ ms.openlocfilehash: a853eb4de5528b3ca219ca844a9df4f3b5ad9224
 또한 준수 정책을 조건부 액세스와 독립적으로 사용할 수 있습니다. 독립적으로 사용하는 경우 대상 장치는 평가되고 준수 상태와 함께 보고됩니다. 예를 들어 암호화되지 않는 장치의 수 또는 탈옥 또는 루팅된 장치에 대해 보고할 수 있습니다. 그러나 독립적으로 사용하는 경우 회사 리소스에 대한 액세스 제한이 없습니다.
 
 사용자에게 준수 정책을 배포합니다. 준수 정책을 사용자에게 배포하면 사용자 장치의 준수가 확인됩니다.
+모바일 장치가 배포된 후 정책을 수신하기까지 걸리는 시간에 대해 알아보려면 [장치의 설정 및 기능 관리](https://docs.microsoft.com/en-us/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies#frequently-asked-questions-about-intune-policies)를 참조하세요.
 
 다음 테이블은 정책을 조건부 액세스 정책과 함께 사용하는 경우 규정 준수 정책에서 지원하는 장치 유형 및 규정에 위반된 설정을 관리하는 방법을 나열합니다.
 
@@ -88,26 +66,6 @@ ms.openlocfilehash: a853eb4de5528b3ca219ca844a9df4f3b5ad9224
 
 
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-<!--HONumber=Sep16_HO2-->
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-<!--HONumber=Sep16_HO1-->
-=========
 <!--HONumber=Sep16_HO4-->
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-<!--HONumber=Sep16_HO1-->
-=======
-<!--HONumber=Sep16_HO4-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 

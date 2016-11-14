@@ -1,49 +1,3 @@
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
----
-title: "메일 및 O365 서비스 액세스 제한 | Microsoft Intune"
-description: "이 항목에서는 SharePoint Online 및 다른 서비스에서 호환 장치만 회사 전자 메일 및 회사 데이터에 액세스하도록 하는 데 조건부 방식을 사용하는 방법을 설명합니다."
-keywords: 
-author: karthikaraman
-manager: angrobe
-ms.date: 07/29/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
-ms.reviewer: chrisgre
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 99b01f5ca5bb389fc8a9d87e956796823fee6c0d
-ms.openlocfilehash: 6e11d71265f01ae31ab3124a46aaa544ad2f453a
-
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
----
-title: "메일 및 O365 서비스 액세스 제한 | Microsoft Intune"
-description: "이 항목에서는 SharePoint Online 및 다른 서비스에서 호환 장치만 회사 전자 메일 및 회사 데이터에 액세스하도록 하는 데 조건부 방식을 사용하는 방법을 설명합니다."
-keywords: 
-author: karthikaraman
-manager: angrobe
-ms.date: 06/16/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
-ms.reviewer: chrisgre
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 536d34e618efdc78b3103a3b1b36f13fb784781c
-
-=========
 ---
 title: "메일 및 O365 서비스 액세스 제한 | Microsoft Intune"
 description: "이 항목에서는 SharePoint Online 및 다른 서비스에서 호환 장치만 회사 전자 메일 및 회사 데이터에 액세스하도록 하는 데 조건부 방식을 사용하는 방법을 설명합니다."
@@ -63,49 +17,6 @@ translationtype: Human Translation
 ms.sourcegitcommit: 99b01f5ca5bb389fc8a9d87e956796823fee6c0d
 ms.openlocfilehash: 6e11d71265f01ae31ab3124a46aaa544ad2f453a
 
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
----
-title: "메일 및 O365 서비스 액세스 제한 | Microsoft Intune"
-description: "이 항목에서는 SharePoint Online 및 다른 서비스에서 호환 장치만 회사 전자 메일 및 회사 데이터에 액세스하도록 하는 데 조건부 방식을 사용하는 방법을 설명합니다."
-keywords: 
-author: karthikaraman
-manager: angrobe
-ms.date: 06/16/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
-ms.reviewer: chrisgre
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 536d34e618efdc78b3103a3b1b36f13fb784781c
-
-=======
----
-title: "메일 및 O365 서비스 액세스 제한 | Microsoft Intune"
-description: "이 항목에서는 SharePoint Online 및 다른 서비스에서 호환 장치만 회사 전자 메일 및 회사 데이터에 액세스하도록 하는 데 조건부 방식을 사용하는 방법을 설명합니다."
-keywords: 
-author: karthikaraman
-ms.author: karaman
-manager: angrobe
-ms.date: 07/29/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
-ms.reviewer: chrisgre
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 99b01f5ca5bb389fc8a9d87e956796823fee6c0d
-ms.openlocfilehash: 6e11d71265f01ae31ab3124a46aaa544ad2f453a
-
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ---
 
@@ -154,22 +65,6 @@ Intune의 조건부 액세스를 사용하여 회사 메일 및 O365 서비스�
   - [Dynamics CRM Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
 
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-||||||||| merged common ancestors
-<!--HONumber=Jul16_HO5-->
-=========
-<!--HONumber=Sep16_HO3-->
->>>>>>>>> Temporary merge branch 2
-=======
-<<<<<<< HEAD
-||||||| merged common ancestors
-<!--HONumber=Jul16_HO5-->
-=======
-<!--HONumber=Sep16_HO3-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 <!--HONumber=Sep16_HO3-->
 

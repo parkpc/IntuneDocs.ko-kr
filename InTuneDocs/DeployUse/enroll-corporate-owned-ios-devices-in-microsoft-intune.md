@@ -1,49 +1,3 @@
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
----
-title: "회사 소유의 iOS 장치 등록 | Microsoft Intune"
-description: "Apple DEP(장치 등록 프로그램) 또는 Apple Configurator를 사용하여 회사 소유 iOS 장치 등록"
-keywords: 
-author: NathBarn
-manager: angrobe
-ms.date: 09/07/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 2d3ca4ab-f20c-4d56-9413-f8ef19cf0722
-ms.reviewer: dagerrit
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: bee93334e7b868ef6c827fba9efc3318c8419527
-ms.openlocfilehash: b295ee11d566fbfbe84513c045f3a76dfd51cda4
-
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
----
-title: "회사 소유의 iOS 장치 등록 | Microsoft Intune"
-description: "Apple DEP(장치 등록 프로그램) 또는 Apple Configurator를 사용하여 회사 소유 iOS 장치 등록"
-keywords: 
-author: NathBarn
-manager: angrobe
-ms.date: 07/19/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 2d3ca4ab-f20c-4d56-9413-f8ef19cf0722
-ms.reviewer: dagerrit
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 9b7b8f6e5182e228458f5ea75e804a638f1e2a2b
-ms.openlocfilehash: ca05e94e72269c11db24b667f1d113c794cd8b23
-
-=========
 ---
 title: "회사 소유의 iOS 장치 등록 | Microsoft Intune"
 description: "Apple DEP(장치 등록 프로그램) 또는 Apple Configurator를 사용하여 회사 소유 iOS 장치 등록"
@@ -63,268 +17,37 @@ translationtype: Human Translation
 ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
 ms.openlocfilehash: c28b51146deb6a0a28070f72449972fd60076231
 
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
----
-title: "회사 소유의 iOS 장치 등록 | Microsoft Intune"
-description: "Apple DEP(장치 등록 프로그램) 또는 Apple Configurator를 사용하여 회사 소유 iOS 장치 등록"
-keywords: 
-author: NathBarn
-manager: angrobe
-ms.date: 07/19/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 2d3ca4ab-f20c-4d56-9413-f8ef19cf0722
-ms.reviewer: dagerrit
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 9b7b8f6e5182e228458f5ea75e804a638f1e2a2b
-ms.openlocfilehash: ca05e94e72269c11db24b667f1d113c794cd8b23
-
-=======
----
-title: "회사 소유의 iOS 장치 등록 | Microsoft Intune"
-description: "Apple DEP(장치 등록 프로그램) 또는 Apple Configurator를 사용하여 회사 소유 iOS 장치 등록"
-keywords: 
-author: NathBarn
-ms.author: nathbarn
-manager: angrobe
-ms.date: 09/07/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 2d3ca4ab-f20c-4d56-9413-f8ef19cf0722
-ms.reviewer: dagerrit
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
-ms.openlocfilehash: c28b51146deb6a0a28070f72449972fd60076231
-
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ---
 
 # Microsoft Intune에서 회사 소유의 iOS 장치 등록
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 Microsoft Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) 도구 또는 Apple DEP(장치 등록 프로그램)를 통해 회사 소유의 iOS 장치를 등록하도록 지원합니다.
 
 **:** [Apple Push Notification Service 인증서](set-up-ios-and-mac-management-with-microsoft-intune.md)가 필요합니다.
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-Microsoft Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) 도구 또는 Apple DEP(장치 등록 프로그램)를 사용하여 회사 소유의 iOS 장치를 등록하도록 지원합니다.
-=========
-Microsoft Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) 도구 또는 Apple DEP(장치 등록 프로그램)를 통해 회사 소유의 iOS 장치를 등록하도록 지원합니다.
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-Microsoft Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) 도구 또는 Apple DEP(장치 등록 프로그램)를 사용하여 회사 소유의 iOS 장치를 등록하도록 지원합니다.
-=======
-Microsoft Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) 도구 또는 Apple DEP(장치 등록 프로그램)를 통해 회사 소유의 iOS 장치를 등록하도록 지원합니다.
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
 세 가지 방법 즉, Apple Configurator, DEP 또는 회사 포털을 사용하여 회사에 등록된 iOS 장치를 등록할 수 있습니다.
-||||||||| merged common ancestors
-**필수 조건:** [Apple Push Notification Service 인증서](set-up-ios-and-mac-management-with-microsoft-intune.md)
-=========
-**:** [Apple Push Notification Service 인증서](set-up-ios-and-mac-management-with-microsoft-intune.md)가 필요합니다.
->>>>>>>>> Temporary merge branch 2
 
-<<<<<<<<< Temporary merge branch 1
 ## Apple Configurator 사용
-||||||||| merged common ancestors
-세 가지 방법으로 회사에 등록된 iOS 장치를 등록할 수 있습니다.
-=========
-=======
-<<<<<<< HEAD
-세 가지 방법 즉, Apple Configurator, DEP 또는 회사 포털을 사용하여 회사에 등록된 iOS 장치를 등록할 수 있습니다.
-||||||| merged common ancestors
-**필수 조건:** [Apple Push Notification Service 인증서](set-up-ios-and-mac-management-with-microsoft-intune.md)
-=======
-**:** [Apple Push Notification Service 인증서](set-up-ios-and-mac-management-with-microsoft-intune.md)가 필요합니다.
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
 
-<<<<<<< HEAD
-## Apple Configurator 사용
-||||||| merged common ancestors
-세 가지 방법으로 회사에 등록된 iOS 장치를 등록할 수 있습니다.
-=======
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-세 가지 방법 즉, Apple Configurator, DEP 또는 회사 포털을 사용하여 회사에 등록된 iOS 장치를 등록할 수 있습니다.
-<<<<<<< HEAD
-||||||| merged common ancestors
->>>>>>>>> Temporary merge branch 2
-=======
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
 회사 등록 프로필을 내보낸 후 해당 모바일 장치를 Apple Configurator를 실행하는 Mac에 연결하여 iOS 장치를 등록할 수 있습니다. Apple Configurator는 다음 두 가지 방식의 등록을 지원합니다.
-||||||||| merged common ancestors
--   **Apple Configurator** - 회사 등록 프로필을 내보낸 후 해당 모바일 장치를 Apple Configurator를 실행하는 Mac에 연결하여 iOS 장치를 등록할 수 있습니다. Apple Configurator는 다음 두 가지 방식의 등록을 지원합니다.
-=========
-=======
-<<<<<<< HEAD
-회사 등록 프로필을 내보낸 후 해당 모바일 장치를 Apple Configurator를 실행하는 Mac에 연결하여 iOS 장치를 등록할 수 있습니다. Apple Configurator는 다음 두 가지 방식의 등록을 지원합니다.
-||||||| merged common ancestors
--   **Apple Configurator** - 회사 등록 프로필을 내보낸 후 해당 모바일 장치를 Apple Configurator를 실행하는 Mac에 연결하여 iOS 장치를 등록할 수 있습니다. Apple Configurator는 다음 두 가지 방식의 등록을 지원합니다.
-=======
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-## Apple Configurator 사용
-<<<<<<< HEAD
-||||||| merged common ancestors
->>>>>>>>> Temporary merge branch 2
-=======
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
 - **설치 도우미 등록**: 장치를 공장 기본 설정으로 복원하고 장치의 새 사용자가 설치하도록 준비합니다. 이 방법을 사용하려면 관리자가 iOS 장치를 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하여 등록을 미리 구성해야 합니다. 그러면 설치 도우미 프로세스를 실행하는 사용자에게 장치가 제공됩니다. 이 프로세스에서는 회사 또는 학교 자격 증명을 사용하여 장치를 구성하고 등록 프로세스를 완료합니다. 자세한 내용은 [Apple Configurator 및 설정 도우미를 사용하여 iOS 장치 등록](ios-setup-assistant-enrollment-in-microsoft-intune.md)을 참조하세요.
-||||||||| merged common ancestors
-    - **설치 도우미 등록** – 장치를 공장 기본 설정으로 복원하고 장치의 새 사용자가 설치하도록 준비합니다. 이 메서드는 관리자가 iOS 장치를 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하도록 하여 등록을 미리 구성합니다. 그러면 설정 도우미 프로세스를 실행하는 사용자에게 장치를 전달하며 회사 또는 학교 자격 증명을 사용하여 장치를 구성하고 등록 프로세스를 완료하게 됩니다. [Apple Configurator 및 설정 도우미를 사용하여 iOS 장치 등록](ios-setup-assistant-enrollment-in-microsoft-intune.md)
-=========
-=======
-<<<<<<< HEAD
-- **설치 도우미 등록**: 장치를 공장 기본 설정으로 복원하고 장치의 새 사용자가 설치하도록 준비합니다. 이 방법을 사용하려면 관리자가 iOS 장치를 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하여 등록을 미리 구성해야 합니다. 그러면 설치 도우미 프로세스를 실행하는 사용자에게 장치가 제공됩니다. 이 프로세스에서는 회사 또는 학교 자격 증명을 사용하여 장치를 구성하고 등록 프로세스를 완료합니다. 자세한 내용은 [Apple Configurator 및 설정 도우미를 사용하여 iOS 장치 등록](ios-setup-assistant-enrollment-in-microsoft-intune.md)을 참조하세요.
-||||||| merged common ancestors
-    - **설치 도우미 등록** – 장치를 공장 기본 설정으로 복원하고 장치의 새 사용자가 설치하도록 준비합니다. 이 메서드는 관리자가 iOS 장치를 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하도록 하여 등록을 미리 구성합니다. 그러면 설정 도우미 프로세스를 실행하는 사용자에게 장치를 전달하며 회사 또는 학교 자격 증명을 사용하여 장치를 구성하고 등록 프로세스를 완료하게 됩니다. [Apple Configurator 및 설정 도우미를 사용하여 iOS 장치 등록](ios-setup-assistant-enrollment-in-microsoft-intune.md)
-=======
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-회사 등록 프로필을 내보낸 후 해당 모바일 장치를 Apple Configurator를 실행하는 Mac에 연결하여 iOS 장치를 등록할 수 있습니다. Apple Configurator는 다음 두 가지 방식의 등록을 지원합니다.
-<<<<<<< HEAD
-||||||| merged common ancestors
->>>>>>>>> Temporary merge branch 2
-=======
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-- **직접 등록**: 장치를 준비하는 동안 사용할 수 있도록 Apple Configurator 규격 파일을 만듭니다. 등록된 장치가 공장 기본 설정으로 복원되지 않았으나 사용자 정보가 없습니다. 이 방법을 사용하려면 관리자가 iOS 장치를 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하여 장치를 등록해야 합니다. 자세한 내용은 [Apple Configurator 직접 등록을 사용하여 iOS 장치 등록](ios-direct-enrollment-in-microsoft-intune.md)을 참조하세요.
-||||||||| merged common ancestors
-    - **직접 등록** – 장치를 준비하는 동안 사용할 수 있도록 Apple Configurator 규격 파일을 만듭니다. 등록된 장치 설정이 공장 기본값으로 복원되지 않았으나 사용자 정보가 없습니다. 이 메서드는 관리자가 iOS 장치를 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하도록 하여 장치를 등록합니다. [Apple Configurator 직접 등록을 사용하여 iOS 장치 등록](ios-direct-enrollment-in-microsoft-intune.md)
-=========
-=======
-<<<<<<< HEAD
-- **직접 등록**: 장치를 준비하는 동안 사용할 수 있도록 Apple Configurator 규격 파일을 만듭니다. 등록된 장치가 공장 기본 설정으로 복원되지 않았으나 사용자 정보가 없습니다. 이 방법을 사용하려면 관리자가 iOS 장치를 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하여 장치를 등록해야 합니다. 자세한 내용은 [Apple Configurator 직접 등록을 사용하여 iOS 장치 등록](ios-direct-enrollment-in-microsoft-intune.md)을 참조하세요.
-||||||| merged common ancestors
-    - **직접 등록** – 장치를 준비하는 동안 사용할 수 있도록 Apple Configurator 규격 파일을 만듭니다. 등록된 장치 설정이 공장 기본값으로 복원되지 않았으나 사용자 정보가 없습니다. 이 메서드는 관리자가 iOS 장치를 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하도록 하여 장치를 등록합니다. [Apple Configurator 직접 등록을 사용하여 iOS 장치 등록](ios-direct-enrollment-in-microsoft-intune.md)
-=======
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-- **설치 도우미 등록**: 장치를 공장 기본 설정으로 복원하고 장치의 새 사용자가 설치하도록 준비합니다. 이 방법을 사용하려면 관리자가 iOS 장치를 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하여 등록을 미리 구성해야 합니다. 그러면 설치 도우미 프로세스를 실행하는 사용자에게 장치가 제공됩니다. 이 프로세스에서는 회사 또는 학교 자격 증명을 사용하여 장치를 구성하고 등록 프로세스를 완료합니다. 자세한 내용은 [Apple Configurator 및 설정 도우미를 사용하여 iOS 장치 등록](ios-setup-assistant-enrollment-in-microsoft-intune.md)을 참조하세요.
-<<<<<<< HEAD
-||||||| merged common ancestors
->>>>>>>>> Temporary merge branch 2
-=======
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-## DEP(장치 등록 프로그램) 사용
-DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배포합니다. 사용자가 장치에서 설정 도우미를 실행하는 경우 장치는 Intune에 등록됩니다.  DEP를 통해 등록된 장치는 사용자가 등록을 취소할 수 없습니다. 자세한 내용은 [장치 등록 프로그램 iOS 장치 등록](ios-device-enrollment-program-in-microsoft-intune.md)을 참조하세요.
-||||||||| merged common ancestors
--   **DEP(장치 등록 프로그램)** – Apple의 장치 등록 프로그램을 통해 구매한 장치에 “무선으로” 등록 프로필을 배포합니다. 사용자가 장치에서 설정 도우미를 실행하는 경우 장치는 Intune에 등록됩니다.  DEP를 통해 등록된 장치는 사용자가 등록을 취소할 수 없습니다. [장치 등록 프로그램 iOS 장치 등록](ios-device-enrollment-program-in-microsoft-intune.md)
-=========
-=======
-<<<<<<< HEAD
-## DEP(장치 등록 프로그램) 사용
-DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배포합니다. 사용자가 장치에서 설정 도우미를 실행하는 경우 장치는 Intune에 등록됩니다.  DEP를 통해 등록된 장치는 사용자가 등록을 취소할 수 없습니다. 자세한 내용은 [장치 등록 프로그램 iOS 장치 등록](ios-device-enrollment-program-in-microsoft-intune.md)을 참조하세요.
-||||||| merged common ancestors
--   **DEP(장치 등록 프로그램)** – Apple의 장치 등록 프로그램을 통해 구매한 장치에 “무선으로” 등록 프로필을 배포합니다. 사용자가 장치에서 설정 도우미를 실행하는 경우 장치는 Intune에 등록됩니다.  DEP를 통해 등록된 장치는 사용자가 등록을 취소할 수 없습니다. [장치 등록 프로그램 iOS 장치 등록](ios-device-enrollment-program-in-microsoft-intune.md)
-=======
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 - **직접 등록**: 장치를 준비하는 동안 사용할 수 있도록 Apple Configurator 규격 파일을 만듭니다. 등록된 장치가 공장 기본 설정으로 복원되지 않았으나 사용자 정보가 없습니다. 이 방법을 사용하려면 관리자가 iOS 장치를 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하여 장치를 등록해야 합니다. 자세한 내용은 [Apple Configurator 직접 등록을 사용하여 iOS 장치 등록](ios-direct-enrollment-in-microsoft-intune.md)을 참조하세요.
 
 ## DEP(장치 등록 프로그램) 사용
 DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배포합니다. 사용자가 장치에서 설정 도우미를 실행하는 경우 장치는 Intune에 등록됩니다.  DEP를 통해 등록된 장치는 사용자가 등록을 취소할 수 없습니다. 자세한 내용은 [장치 등록 프로그램 iOS 장치 등록](ios-device-enrollment-program-in-microsoft-intune.md)을 참조하세요.
-<<<<<<< HEAD
-||||||| merged common ancestors
->>>>>>>>> Temporary merge branch 2
-=======
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ## DEP 또는 Apple Configurator에 등록된 장치에서 회사 포털 사용
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-사용자 선호도로 구성한 장치에서 회사 포털 앱을 설치하고 실행하여 앱을 다운로드하고 장치를 관리할 수 있습니다. 사용자는 장치를 받은 후 몇 가지 추가 단계를 완료하여 설정 도우미를 완료하고 회사 포털 앱을 설치해야 합니다.
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-사용자 선호도로 구성한 장치에서 회사 포털 앱을 설치하고 실행하여 앱을 다운로드하고 장치를 관리할 수 있습니다. 장치를 받은 사용자는 몇 가지 추가 단계를 완료하여 설정 도우미를 완료하고 회사 포털 앱을 설치해야 합니다.
-=========
 사용자 선호도로 구성한 장치에서 회사 포털 앱을 설치하고 실행하여 앱을 다운로드하고 장치를 관리할 수 있습니다. 사용자는 장치를 받은 후 몇 가지 추가 단계를 완료하여 설정 도우미를 완료하고 회사 포털 앱을 설치해야 합니다.
 
 사용자 선호도는 다음을 지원하는 데 필요합니다.
   - MAM(모바일 응용 프로그램 관리) 앱
   - 메일 및 회사 데이터에 대한 조건부 액세스
   - 회사 포털 앱
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-사용자 선호도로 구성한 장치에서 회사 포털 앱을 설치하고 실행하여 앱을 다운로드하고 장치를 관리할 수 있습니다. 장치를 받은 사용자는 몇 가지 추가 단계를 완료하여 설정 도우미를 완료하고 회사 포털 앱을 설치해야 합니다.
-=======
-사용자 선호도로 구성한 장치에서 회사 포털 앱을 설치하고 실행하여 앱을 다운로드하고 장치를 관리할 수 있습니다. 사용자는 장치를 받은 후 몇 가지 추가 단계를 완료하여 설정 도우미를 완료하고 회사 포털 앱을 설치해야 합니다.
-
-사용자 선호도는 다음을 지원하는 데 필요합니다.
-  - MAM(모바일 응용 프로그램 관리) 앱
-  - 메일 및 회사 데이터에 대한 조건부 액세스
-  - 회사 포털 앱
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-사용자 선호도는 다음을 지원하는 데 필요합니다.
-  - MAM(모바일 응용 프로그램 관리) 앱
-  - 메일 및 회사 데이터에 대한 조건부 액세스
-  - 회사 포털 앱
 
 **사용자가 사용자 선호도를 사용하여 회사 소유의 iOS 장치를 등록하는 방법**
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-사용자 선호도를 사용하여 회사 소유의 iOS 장치를 등록하는 방법
-=========
-**사용자가 사용자 선호도를 사용하여 회사 소유의 iOS 장치를 등록하는 방법**
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-사용자 선호도를 사용하여 회사 소유의 iOS 장치를 등록하는 방법
-=======
-**사용자가 사용자 선호도를 사용하여 회사 소유의 iOS 장치를 등록하는 방법**
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 1. 사용자가 장치를 켜면 설정 도우미를 완료하라는 메시지가 표시됩니다. 설정하는 동안 자격 증명을 묻는 메시지가 표시됩니다. Intune에서 구독과 연결된 자격 증명(즉, 고유 이름 또는 UPN)을 사용해야 합니다.
 
 2. 설정하는 동안 Apple ID를 묻는 메시지가 표시됩니다. 장치에서 회사 포털을 설치할 수 있도록 Apple ID를 제공해야 합니다. 또한 iOS 설정 메뉴에서 설정을 완료한 후에 ID를 제공할 수도 있습니다.
@@ -354,50 +77,10 @@ DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배�
 
 
 ### 참고 항목
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-[Microsoft Intune에 장치를 등록하도록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
-||||||||| merged common ancestors
-=======
-<<<<<<< HEAD
-[Microsoft Intune에 장치를 등록하도록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
-||||||| merged common ancestors
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-[Microsoft Intune에 장치를 등록하도록 준비](get-ready-to-enroll-devices-in-microsoft-intune.md)
-<<<<<<< HEAD
-
-
-||||||| merged common ancestors
-
-=========
 [Microsoft Intune에서 장치 등록을 위한 필수 조건](gprerequisites-for-enrollment.md)
 
->>>>>>>>> Temporary merge branch 2
 
 
-<<<<<<<<< Temporary merge branch 1
-||||||||| merged common ancestors
-<!--HONumber=Aug16_HO1-->
-=========
 <!--HONumber=Sep16_HO4-->
->>>>>>>>> Temporary merge branch 2
-=======
-
-=======
-[Microsoft Intune에서 장치 등록을 위한 필수 조건](gprerequisites-for-enrollment.md)
-
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
-
-
-<<<<<<< HEAD
-||||||| merged common ancestors
-<!--HONumber=Aug16_HO1-->
-=======
-<!--HONumber=Sep16_HO4-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-
-<!--HONumber=Sep16_HO3-->
 
 

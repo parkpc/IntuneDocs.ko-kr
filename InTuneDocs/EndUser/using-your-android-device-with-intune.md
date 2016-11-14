@@ -3,6 +3,7 @@ title: "Intune에서 Android 장치 사용 | Microsoft Intune"
 description: "Intune에서 장치가 등록될 때 Android 모바일 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록"
 keywords: 
 author: staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -13,32 +14,8 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 43b43aa82aa69bea95d6d521193bd32c53e881fe
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-ms.sourcegitcommit: 63f86f135d369d8c96903c0add1e194fd9d5ded2
-ms.openlocfilehash: e98aa19d38af47ba2d19a2a67b7a836796aded2a
-=========
 ms.sourcegitcommit: 2a3ad9562d271ee67b49db28b0fc62caec9f3050
 ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-ms.sourcegitcommit: 63f86f135d369d8c96903c0add1e194fd9d5ded2
-ms.openlocfilehash: e98aa19d38af47ba2d19a2a67b7a836796aded2a
-=======
-ms.sourcegitcommit: 2a3ad9562d271ee67b49db28b0fc62caec9f3050
-ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 
 ---
@@ -57,6 +34,7 @@ ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
 이 섹션에서는 Intune 회사 포털 설치 및 Android 장치 등록에 도움이 되는 정보를 제공합니다.
 
 - [Intune에서 장치 등록](enroll-your-device-in-Intune-android.md)
+- [업무용 프로필을 만들고 Intune에서 장치 등록](create-a-work-profile-and-enroll-your-device-in-intune-android.md)
 - [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 
 ## 장치가 Intune에 등록되어 있는 경우 수행할 수 있는 작업
@@ -97,26 +75,6 @@ ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
 
 
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-<!--HONumber=Sep16_HO3-->
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-<!--HONumber=Aug16_HO5-->
-=========
 <!--HONumber=Oct16_HO2-->
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-<!--HONumber=Aug16_HO5-->
-=======
-<!--HONumber=Oct16_HO2-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 

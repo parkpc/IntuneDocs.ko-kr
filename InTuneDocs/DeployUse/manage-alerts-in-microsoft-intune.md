@@ -2,9 +2,10 @@
 title: "경고 관리 | Microsoft Intune"
 description: "Intune의 경고 작업 영역에서는 조직 내 장치의 전반적인 상태를 평가할 수 있습니다."
 keywords: 
-author: Nbigman
+author: karthikaraman
+ms.author: karaman
 manager: angrobe
-ms.date: 07/21/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,20 +15,20 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: pbala
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ed8b7e42bd7c6f3839cc93cc3efcdd3241e88e2a
-ms.openlocfilehash: f254c1a486305e54305392b9688c563b8be93237
+ms.sourcegitcommit: ab9ad1fb42176f2fc2babaa6fa3c91cea40b4ca5
+ms.openlocfilehash: 3bbeafbe78148d038b7673ee8c1abfd5bc6c5f87
 
 
 ---
 
-# Microsoft Intune에서 경고 관리
+# <a name="manage-alerts-in-microsoft-intune"></a>Microsoft Intune에서 경고 관리
 Intune 관리 콘솔의 **경고** 작업 영역을 사용하여 조직의 전반적인 장치 상태를 평가하고 문제를 식별할 수 있습니다.
 
-## 활성 경고 보기
+## <a name="view-active-alerts"></a>활성 경고 보기
 
 활성 경고에 대한 일반 정보 및 요약 데이터를 참조하세요.
 
-#### 활성 경고를 보려면
+#### <a name="to-view-active-alerts"></a>활성 경고를 보려면
 
 Intune 관리 콘솔에서 다음 일련의 단계 중 하나를 따르세요.
 
@@ -55,34 +56,10 @@ Intune 관리 콘솔에서 다음 일련의 단계 중 하나를 따르세요.
 
     -   **심각도**. 이 열은 경고의 심각도를 나타냅니다.
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-## 게시판 경고 보기
-게시판 경고는 중요한 서비스 공지를 제공합니다. 향후 서비스 업그레이드 또는 유지 관리 일정이나, 서비스 중단 상태에 대한 정보를 제공할 수 있습니다.
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-## 게시판 경고 보기
-게시판 경고는 중요한 서비스 알림을 제공합니다. 향후 서비스 업그레이드 또는 유지 관리 일정이나, 서비스 중단 상태에 대한 정보를 제공할 수 있습니다.
-=========
 ## <a name="view-notice-board-alerts"></a>게시판 경고 보기
 게시판 경고는 중요한 서비스 공지를 제공합니다. 향후 서비스 업그레이드 또는 유지 관리 일정이나, 서비스 중단 상태에 대한 정보를 제공할 수 있습니다.
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-## 게시판 경고 보기
-게시판 경고는 중요한 서비스 알림을 제공합니다. 향후 서비스 업그레이드 또는 유지 관리 일정이나, 서비스 중단 상태에 대한 정보를 제공할 수 있습니다.
-=======
-## <a name="view-notice-board-alerts"></a>게시판 경고 보기
-게시판 경고는 중요한 서비스 공지를 제공합니다. 향후 서비스 업그레이드 또는 유지 관리 일정이나, 서비스 중단 상태에 대한 정보를 제공할 수 있습니다.
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
-#### 게시판 경고 보기 및 관리 하려면
+#### <a name="to-view-and-manage-notice-board-alerts"></a>게시판 경고 보기 및 관리 하려면
 
 1.  Intune 관리 콘솔에서 **시스템 개요**를 선택합니다.
 
@@ -90,38 +67,10 @@ Intune 관리 콘솔에서 다음 일련의 단계 중 하나를 따르세요.
 
 3.  쉼표로 구분된 값(CSV) 또는 HTML 파일로 게시판을 내보내려는 경우 Intune 관리 콘솔에서 **경고** > **모든 경고** >    **알림**을 선택합니다. 알림을 선택하고 **목록 내보내기** 아이콘을 선택한 다음 표시되는 지침을 따릅니다.
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-## Intune 시스템 상태 검토
-**시스템 개요** 작업 영역에서 Endpoint Protection, 업데이트, 에이전트 상태, 정책 및 소프트웨어 범주에 대한 **시스템 상태** 요약을 보고 즉각적으로 주목해야 할 문제를 신속하게 식별하고 우선 순위를 정할 수 있습니다. 시스템이 중단될 때 생성되는 오류 메시지는 **서비스 상태** 요약으로 연결됩니다. **서비스 상태** 요약에는 각각의 위치에서 발생한 문제에 대한 세부 정보 및 마지막으로 상태 요약이 업데이트된 시간이 표시됩니다.
-||||||||| merged common ancestors
-=======
-<<<<<<< HEAD
-## Intune 시스템 상태 검토
-**시스템 개요** 작업 영역에서 Endpoint Protection, 업데이트, 에이전트 상태, 정책 및 소프트웨어 범주에 대한 **시스템 상태** 요약을 보고 즉각적으로 주목해야 할 문제를 신속하게 식별하고 우선 순위를 정할 수 있습니다. 시스템이 중단될 때 생성되는 오류 메시지는 **서비스 상태** 요약으로 연결됩니다. **서비스 상태** 요약에는 각각의 위치에서 발생한 문제에 대한 세부 정보 및 마지막으로 상태 요약이 업데이트된 시간이 표시됩니다.
-||||||| merged common ancestors
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-## Intune 시스템 상태 검토
-<<<<<<< HEAD
-||||||| merged common ancestors
-**시스템 개요** 작업 영역에서 Endpoint Protection, 업데이트, 에이전트 상태, 정책 및 소프트웨어 범주에 대한 **시스템 상태** 요약을 보고 즉각적으로 주목해야 할 문제를 신속하게 식별하고 우선 순위를 정할 수 있습니다. 시스템이 중단될 때 생성되는 오류 메시지는 **서비스 상태** 요약으로 연결됩니다. **서비스 상태** 요약에는 각각의 위치에서 발생한 문제에 대한 세부 정보와, 상태 요약이 마지막으로 업데이트된 시간이 표시됩니다.
-=========
 ## <a name="review-intune-system-status"></a>Intune 시스템 상태 검토
-=======
-**시스템 개요** 작업 영역에서 Endpoint Protection, 업데이트, 에이전트 상태, 정책 및 소프트웨어 범주에 대한 **시스템 상태** 요약을 보고 즉각적으로 주목해야 할 문제를 신속하게 식별하고 우선 순위를 정할 수 있습니다. 시스템이 중단될 때 생성되는 오류 메시지는 **서비스 상태** 요약으로 연결됩니다. **서비스 상태** 요약에는 각각의 위치에서 발생한 문제에 대한 세부 정보와, 상태 요약이 마지막으로 업데이트된 시간이 표시됩니다.
-=======
-## <a name="review-intune-system-status"></a>Intune 시스템 상태 검토
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 **시스템 개요** 작업 영역에서 Endpoint Protection, 업데이트, 에이전트 상태, 정책 및 소프트웨어 범주에 대한 **시스템 상태** 요약을 보고 즉각적으로 주목해야 할 문제를 신속하게 식별하고 우선 순위를 정할 수 있습니다. 시스템이 중단될 때 생성되는 오류 메시지는 **서비스 상태** 요약으로 연결됩니다. **서비스 상태** 요약에는 각각의 위치에서 발생한 문제에 대한 세부 정보 및 마지막으로 상태 요약이 업데이트된 시간이 표시됩니다.
-<<<<<<< HEAD
-||||||| merged common ancestors
->>>>>>>>> Temporary merge branch 2
-=======
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
-#### 구독 상태를 보려면
+#### <a name="to-view-the-status-of-your-subscription"></a>구독 상태를 보려면
 
 1.  Intune 관리 콘솔에서 **시스템 개요**를 선택합니다.
 
@@ -129,7 +78,7 @@ Intune 관리 콘솔에서 다음 일련의 단계 중 하나를 따르세요.
 
   다양한 항목이 연결되어 있어 자세한 정보를 볼 수 있습니다. 예를 들어 **Endpoint Protection**에서 인스턴스 수를 선택하면 검색된 맬웨어 목록과 함께 **Endpoint Protection** 작업 영역이 표시됩니다. 장치 수를 선택하면 **그룹** 작업 영역이 맬웨어가 발견된 장치 목록과 함께 표시됩니다.
 
-## 경고 종결 및 다시 활성화
+## <a name="close-and-reactivate-alerts"></a>경고 종결 및 다시 활성화
 Intune 경고는 다음과 같은 이벤트 중 하나가 발생할 때까지 활성 상태를 유지합니다.
 
 -   경고 발생의 원인이 된 문제가 해결됩니다.
@@ -140,7 +89,7 @@ Intune 경고는 다음과 같은 이벤트 중 하나가 발생할 때까지 �
 
 종결로 표시 되는 경고는 90 일이 지나면 영구적으로 삭제 됩니다.
 
-#### 수동으로 경고를 종결 하려면
+#### <a name="to-manually-close-an-alert"></a>수동으로 경고를 종결 하려면
 
 Intune 관리 콘솔에서 다음 일련의 단계 중 하나를 따르세요.
 
@@ -150,27 +99,7 @@ Intune 관리 콘솔에서 다음 일련의 단계 중 하나를 따르세요.
 
 - **게시판 경고를 종결하려면** – **시스템 개요**를 선택합니다. 게시판 경고 옆의 회색 **X**를 선택합니다.
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-#### 보고 종결된 경고 다시 활성화
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-#### 보고 종결된 된 경고 다시 활성화
-=========
 #### <a name="to-view-and-reactivate-closed-alerts"></a>보고 종결된 경고 다시 활성화
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-#### 보고 종결된 된 경고 다시 활성화
-=======
-#### <a name="to-view-and-reactivate-closed-alerts"></a>보고 종결된 경고 다시 활성화
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 1.  Intune 관리 콘솔에서 **경고** > **모든 경고**를 선택합니다.
 
@@ -180,11 +109,11 @@ Intune 관리 콘솔에서 다음 일련의 단계 중 하나를 따르세요.
 
 3.  선택한 경고를 다시 활성화하려면 **경고 다시 활성화**를 선택합니다.
 
-### 참고 항목
+### <a name="see-also"></a>참고 항목
 [Microsoft Intune 경고 알림 받기](../deploy-use/get-notified-by-alerts.md)
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

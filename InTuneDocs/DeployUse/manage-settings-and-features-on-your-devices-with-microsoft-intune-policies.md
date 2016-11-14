@@ -3,8 +3,9 @@ title: "정책을 사용하여 장치 설정 관리 | Microsoft Intune"
 description: "Intune을 사용하여 관리하는 등록된 장치에서 설정 및 기능을 제어하는 정책을 만들어 배포합니다."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
-ms.date: 08/24/2016
+ms.date: 11/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,16 +14,16 @@ ms.assetid: 09bae0b9-4f79-4658-8ca1-a71ab992c1b2
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fa665c758460b8bbd95b237da6a22eda741b8b95
-ms.openlocfilehash: 0dc10ea029d078840a584424f7900f340189b960
+ms.sourcegitcommit: 0238350139837a06a48d0bff7c53e4c39e07168c
+ms.openlocfilehash: b2cba92c4cf75412b562267aef9d6a138f25952b
 
 
 ---
 
-# Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리
+# <a name="manage-settings-and-features-on-your-devices-with-microsoft-intune-policies"></a>Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리
 Microsoft Intune *정책*은 모바일 장치 및 컴퓨터에서 기능을 제어하는 설정 그룹입니다. 권장 설정 또는 사용자 지정 설정이 포함된 템플릿을 사용하여 정책을 만든 후 장치 또는 사용자 그룹에 해당 정책을 배포할 수 있습니다.
 
-## 정책 유형
+## <a name="types-of-policies"></a>정책 유형
 
 Intune 정책은 다음과 같은 범주로 분류됩니다. 사용하는 범주는 정책을 만들고 배포하는 방법에 영향을 줍니다.
 
@@ -36,13 +37,11 @@ Intune 정책은 다음과 같은 범주로 분류됩니다. 사용하는 범주
 - **리소스 액세스 정책:** 이 정책은 함께 작동하여 사용자가 어디에 있든지 상관없이 정상적인 작업 수행에 필요한 파일 및 리소스에 쉽게 액세스하게 해 줍니다.
 자세한 내용은 [Microsoft Intune을 사용하여 회사 리소스에 대한 액세스 허용](enable-access-to-company-resources-with-microsoft-intune.md) 항목을 참조하세요.
 
+[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 
 Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](microsoft-intune-policy-reference.md) 항목을 참조하세요.
 
-
-
-
-## 구성 정책 만들기
+## <a name="create-a-configuration-policy"></a>구성 정책 만들기
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **정책** &gt; **구성 정책** &gt; **추가**를 선택합니다.
 
@@ -61,6 +60,7 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 
     - [iOS 장치용 설정](ios-policy-settings-in-microsoft-intune.md)
     - [Android 장치에 대한 설정](android-policy-settings-in-microsoft-intune.md)
+    - [Android for Work 장치에 대한 설정](android-for-work-policy-settings-in-microsoft-intune.md)
     - [Windows 8 및 Windows 8.1 장치에 대한 설정](windows-configuration-policy-settings-in-microsoft-intune.md)
     - [Windows Phone 8.1 장치에 대한 설정](windows-phone-8-1-policy-settings-in-microsoft-intune.md)
     - [Windows 10 Desktop 및 Mobile에 대한 설정](windows-10-policy-settings-in-microsoft-intune.md)
@@ -82,7 +82,7 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 > [!TIP]
 > 모든 정책 유형을 배포하지는 않습니다. 예를 들어 MAM(모바일 응용 프로그램 관리) 정책은 배포되지 않습니다. 이 정책 유형은 앱에 연결한 후에 배포합니다.
 
-## 구성 정책 배포
+## <a name="deploy-a-configuration-policy"></a>구성 정책 배포
 
 1.  **정책** 작업 영역에서 배포할 정책을 선택한 다음 **배포 관리**를 선택합니다.
 
@@ -94,7 +94,7 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 
 배포한 정책을 선택하면 정책 목록 아래쪽에서 배포에 대한 추가 정보를 볼 수 있습니다.
 
-## 정책 관리
+## <a name="manage-policies"></a>정책 관리
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **정책**을 선택하여 관리하려는 정책을 찾아서 선택합니다.
 
@@ -105,9 +105,9 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 - **배포 관리**: 정책을 배포할 그룹을 선택하고 **추가**를 선택합니다.
 
 
-## Intune 정책에 대한 질문과 대답
+## <a name="frequently-asked-questions-about-intune-policies"></a>Intune 정책에 대한 질문과 대답
 
-### 정책 또는 앱을 배포한 후 모바일 장치에서 해당 정책 또는 앱을 수신할 때까지 걸리는 시간
+### <a name="how-long-does-it-take-for-mobile-devices-to-get-a-policy-or-apps-after-they-have-been-deployed"></a>정책 또는 앱을 배포한 후 모바일 장치에서 해당 정책 또는 앱을 수신할 때까지 걸리는 시간
 정책 또는 앱을 배포하면 Intune에서는 Intune 서비스에 체크 인해야 한다는 알림을 장치에 즉시 보내기 시작합니다. 이 과정은 대개 5분 이내에 완료됩니다.
 
 첫 번째 알림을 보낸 후 장치가 정책을 수신하기 위해 체크 인하지 않으면 알림을 3번 더 보냅니다.  장치가 꺼져 있거나 네트워크에 연결되어 있지 않은 등 오프라인 상태인 경우에는 알림을 받지 못할 수 있습니다. 이 경우 장치는 아래와 같이 다음에 예약된 Intune 서비스 체크 인 시에 정책을 수신하게 됩니다.
@@ -115,7 +115,6 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 - iOS 및 Mac OS X: 6시간마다
 - Android: 8시간마다
 - Windows Phone: 8시간마다
-- 등록된 Windows RT 장치: 24시간마다
 - 장치로 등록된 Windows 8.1 및 Windows 10 PC: 8시간마다
 
 장치를 방금 등록한 경우에는 다음과 같이 체크 인 빈도가 더 높아집니다.
@@ -127,12 +126,12 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 
 사용자는 언제든지 회사 포털 앱을 열어 장치를 동기화해 즉시 정책을 확인할 수도 있습니다.
 
-### Intune에서 장치에 알림을 즉시 보내도록 하는 작업
+### <a name="what-actions-cause-intune-to-immediately-send-a-notification-to-a-device"></a>Intune에서 장치에 알림을 즉시 보내도록 하는 작업
 장치는 체크 인하라는 알림을 받거나 정기 예약 체크 인 중에 Intune에 체크 인합니다.  초기화, 잠금, 암호 재설정, 앱 배포, 프로필 배포(Wi-Fi, VPN, 메일 등) 또는 정책 배포와 같은 작업으로 장치나 사용자를 대상으로 지정하면 Intune에서는 이러한 업데이트를 받으려면 Intune 서비스에 체크 인해야 한다는 알림을 장치에 즉시 보내기 시작합니다.
 
 회사 포털에서 연락처 정보를 수정하는 등의 기타 변경 작업을 수행하는 경우에는 장치에 알림이 즉시 전송되지 않습니다.
 
-### 여러 정책을 같은 사용자 또는 장치에 배포하는 경우 적용되는 설정을 확인하는 방법
+### <a name="if-multiple-policies-are-deployed-to-the-same-user-or-device-how-do-i-know-which-settings-will-get-applied"></a>여러 정책을 같은 사용자 또는 장치에 배포하는 경우 적용되는 설정을 확인하는 방법
 둘 이상의 정책을 같은 사용자 또는 장치에 배포할 때는 개별 설정 수준에서 적용되는 설정을 평가합니다.
 
 -   준수 정책 설정은 항상 구성 정책 설정보다 우선적으로 적용됩니다.
@@ -141,22 +140,22 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 
 -   구성 정책 설정이 다른 구성 정책의 설정과 충돌하는 경우 이 충돌이 Intune 콘솔에 표시됩니다. 이러한 충돌은 수동으로 해결해야 합니다.
 
-### 모바일 응용 프로그램 관리 정책이 서로 충돌하는 경우 앱에 적용되는 정책
+### <a name="what-happens-when-mobile-application-management-policies-conflict-with-each-other-which-one-will-be-applied-to-the-app"></a>모바일 응용 프로그램 관리 정책이 서로 충돌하는 경우 앱에 적용되는 정책
 다시 설정 전까지의 PIN 입력 시도와 같이 숫자 입력 필드에 대한 설정을 제외하면, 충돌하는 값은 MAM 정책에서 사용 가능한 가장 제한적인 설정으로 지정됩니다.  숫자 입력 필드의 경우 권장 설정 옵션을 사용하여 콘솔에서 MAM 정책을 만드는 경우의 값과 동일하게 설정됩니다.
 
 두 정책 설정이 동일하면 충돌이 발생합니다.  복사/붙여넣기 설정을 제외하면 동일한 두 MAM 정책을 구성한 경우를 예로 들 수 있습니다.  이 경우 복사/붙여넣기 설정이 가장 제한적인 값으로 설정되며 나머지 설정은 구성된 대로 적용됩니다.
 
 정책 하나를 앱에 배포하여 적용한 후에 두 번째 정책을 배포하는 경우 처음 배포한 정책이 우선권을 가지게 되므로 적용된 상태로 유지되고 두 번째 정책은 충돌하는 정책으로 표시됩니다. 둘 다 동시에 적용되면 이전 정책이 없으므로 두 정책이 충돌하게 됩니다. 충돌하는 설정이 가장 제한적인 값으로 설정됩니다.
 
-### iOS 사용자 지정 정책 충돌 시의 결과
+### <a name="what-happens-when-ios-custom-policies-conflict"></a>iOS 사용자 지정 정책 충돌 시의 결과
 Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI(Open Mobile Alliance Uniform Resource Identifier) 정책 페이로드를 평가하지 않으며 전달 메커니즘으로만 작동합니다.
 
 사용자 지정 정책을 배포할 때는 구성된 설정이 준수, 구성 또는 기타 사용자 지정 정책과 충돌하지 않는지 확인해야 합니다. 설정이 충돌하는 사용자 지정 정책에서는 설정이 임의 순서에 따라 적용됩니다.
 
-### 정책이 삭제되거나 더 이상 적용할 수 없는 경우 어떻게 되나요?
+### <a name="what-happens-when-a-policy-is-deleted-or-no-longer-applicable"></a>정책이 삭제되거나 더 이상 적용할 수 없는 경우 어떻게 되나요?
 정책을 삭제하거나 정책이 배포된 그룹에서 장치를 제거하면, 정책 및 설정이 다음 목록에 따라 장치에서 제거됩니다.
 
-#### 등록된 장치
+#### <a name="enrolled-devices"></a>등록된 장치
 
 - Wi-Fi, VPN, 인증서 및 전자 메일 프로필: 이러한 프로필은 지원되는 모든 등록된 장치에서 제거됩니다.
 - 다른 모든 정책 유형:
@@ -193,7 +192,7 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI(Open Mobile Allian
         - 데이터 로밍 허용
         - 로밍하는 동안 자동 동기화 허용
 
-#### Intune 클라이언트 소프트웨어를 실행하는 Windows PC
+#### <a name="windows-pcs-running-the-intune-client-software"></a>Intune 클라이언트 소프트웨어를 실행하는 Windows PC
 
 - **Endpoint Protection 설정**: 설정이 원래 권장 값으로 복원됩니다. 유일한 예외는 기본값이 **아니요**인 **Microsoft 활성 보호 서비스에 가입** 설정입니다. 자세한 내용은 [Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md) 항목을 참조하세요.
 - **소프트웨어 업데이트 설정**: 설정이 운영 체제의 기본 상태로 다시 설정됩니다. 자세한 내용은 [Microsoft Intune에서 소프트웨어 업데이트를 사용하여 Windows PC를 최신 상태로 유지](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md) 항목을 참조하세요.
@@ -201,17 +200,17 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI(Open Mobile Allian
 - **Windows 방화벽 설정**: 설정이 컴퓨터 운영 체제의 기본값으로 다시 설정됩니다. 자세한 내용은 [Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md) 항목을 참조하세요.
 
 
-### 장치의 정책을 최신 상태로 되도록 새로 고치려면(Intune 클라이언트 소프트웨어를 실행하는 Windows PC에만 적용) 어떻게 하나요?
+### <a name="how-can-i-refresh-the-policies-on-a-device-to-ensure-that-they-are-current-applies-to-windows-pcs-running-the-intune-client-software-only"></a>장치의 정책을 최신 상태로 되도록 새로 고치려면(Intune 클라이언트 소프트웨어를 실행하는 Windows PC에만 적용) 어떻게 하나요?
 
 1.  장치 그룹에서 정책을 새로 고칠 장치를 선택한 후 **원격 작업** &gt; **정책 새로 고침**을 선택합니다.
 2.  Intune 관리 콘솔의 오른쪽 아래에서 **원격 작업**을 선택하여 작업 상태를 확인합니다.
 
-### 문제 해결 정책 도움말은 어디서 찾을 수 있나요?
+### <a name="where-can-i-find-help-troubleshooting-policies"></a>문제 해결 정책 도움말은 어디서 찾을 수 있나요?
 
 [Microsoft Intune의 문제 해결 정책](/intune/troubleshoot/troubleshoot-policies-in-microsoft-intune)을 참조하세요.
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Nov16_HO1-->
 
 

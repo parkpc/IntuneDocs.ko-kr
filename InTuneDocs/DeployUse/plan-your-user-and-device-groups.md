@@ -4,7 +4,7 @@ description: "조직의 요구에 맞게 그룹을 계획합니다."
 keywords: 
 author: sanchusa
 manager: angrobe
-ms.date: 07/21/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune

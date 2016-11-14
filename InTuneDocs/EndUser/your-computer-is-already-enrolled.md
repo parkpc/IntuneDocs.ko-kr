@@ -3,6 +3,7 @@ title: "컴퓨터가 이미 등록되어 있음 | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: article
@@ -14,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: f61840073cdb6a41c98e20bb5e1457e22f02d5bb
+ms.sourcegitcommit: 016449720f6e77b8862fcaa232d252eefa8b20b3
+ms.openlocfilehash: cf382c1c6633f8483059bc52146a66f26438e817
 
 
 ---
@@ -23,11 +24,11 @@ ms.openlocfilehash: f61840073cdb6a41c98e20bb5e1457e22f02d5bb
 
 # 컴퓨터가 이미 등록되어 있음
 
-내 컴퓨터가 이미 등록되었다는 오류가 발생하는 경우 컴퓨터가 이미 회사 포털에 추가되었지만 사용자 계정에 아직 연결되지 않았음을 의미합니다. 다음 절차에 따라 사용자 계정에 컴퓨터를 연결하고 프로세스를 완료하십시오.  
+내 컴퓨터가 이미 등록되었다는 오류가 발생하는 경우 컴퓨터가 이미 회사 포털에 추가되었지만 사용자 계정에 아직 연결되지 않은 것입니다. 다음 절차에 따라 사용자 계정에 컴퓨터를 연결하고 프로세스를 완료하세요.  
 
 컴퓨터를 연결하려면:
 
-1.  계정에 연결할 컴퓨터에서 **시작** 과 **Microsoft Intune Center**를 차례로 클릭합니다.
+1.  계정에 연결할 컴퓨터에서 **시작**과 **Microsoft Intune Center**를 차례로 선택합니다.
 
 2.  회사 포털을 엽니다.
 
@@ -39,6 +40,6 @@ ms.openlocfilehash: f61840073cdb6a41c98e20bb5e1457e22f02d5bb
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO2-->
 
 

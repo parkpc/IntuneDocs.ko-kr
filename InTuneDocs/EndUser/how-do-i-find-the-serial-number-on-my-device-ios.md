@@ -3,6 +3,7 @@ title: "장치에 일련 번호를 찾으려면 어떻게 하나요? | Microsoft
 description: 
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

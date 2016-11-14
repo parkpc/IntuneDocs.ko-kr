@@ -10,26 +10,6 @@
 # [문제 해결](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
 
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-<!--HONumber=Sep16_HO5-->
+<!--HONumber=Oct16_HO2-->
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-<!--HONumber=Jul16_HO3-->
-=========
-<!--HONumber=Oct16_HO2-->
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-<!--HONumber=Jul16_HO3-->
-=======
-<!--HONumber=Oct16_HO2-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 

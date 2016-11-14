@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 ---
 title: "Intune 소프트웨어 클라이언트를 실행하는 PC의 소프트웨어 사용권 계약 관리 | Microsoft Intune"
 description: "Intune에서는 Microsoft 볼륨 라이선스 계약을 통해 구매한 소프트웨어와 다른 방법으로 구매한 소프트웨어에 대한 사용권 계약을 관리할 수 있습니다."
@@ -22,88 +16,6 @@ translationtype: Human Translation
 ms.sourcegitcommit: f01f2715ebd5666b53de848f06300e7aa3344caf
 ms.openlocfilehash: e4febff0ede35f40fd2b0f96fab401a58fb5cb13
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
----
-title: "PC 소프트웨어의 사용권 계약 관리 | Microsoft Intune"
-description: "Intune에서는 Microsoft 볼륨 라이선스 계약을 통해 구매한 소프트웨어와 다른 방법으로 구매한 소프트웨어에 대한 사용권 계약을 관리할 수 있습니다."
-keywords: 
-author: robstackmsft
-manager: angrobe
-ms.date: 08/07/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: c59d8635-3f66-40f5-824a-a71c738e0341
-ms.reviewer: owenyen
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: cf7e9b9638c82cba7640c2be54166ef5df581673
-ms.openlocfilehash: ae4ae586c020322f792817b25f8b1b6e2ee02cfd
-
-=========
----
-title: "Intune 소프트웨어 클라이언트를 실행하는 PC의 소프트웨어 사용권 계약 관리 | Microsoft Intune"
-description: "Intune에서는 Microsoft 볼륨 라이선스 계약을 통해 구매한 소프트웨어와 다른 방법으로 구매한 소프트웨어에 대한 사용권 계약을 관리할 수 있습니다."
-keywords: 
-author: robstackmsft
-manager: angrobe
-ms.date: 09/14/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: c59d8635-3f66-40f5-824a-a71c738e0341
-ms.reviewer: owenyen
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: f01f2715ebd5666b53de848f06300e7aa3344caf
-ms.openlocfilehash: e4febff0ede35f40fd2b0f96fab401a58fb5cb13
-
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
----
-title: "PC 소프트웨어의 사용권 계약 관리 | Microsoft Intune"
-description: "Intune에서는 Microsoft 볼륨 라이선스 계약을 통해 구매한 소프트웨어와 다른 방법으로 구매한 소프트웨어에 대한 사용권 계약을 관리할 수 있습니다."
-keywords: 
-author: robstackmsft
-manager: angrobe
-ms.date: 08/07/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: c59d8635-3f66-40f5-824a-a71c738e0341
-ms.reviewer: owenyen
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: cf7e9b9638c82cba7640c2be54166ef5df581673
-ms.openlocfilehash: ae4ae586c020322f792817b25f8b1b6e2ee02cfd
-
-=======
----
-title: "Intune 소프트웨어 클라이언트를 실행하는 PC의 소프트웨어 사용권 계약 관리 | Microsoft Intune"
-description: "Intune에서는 Microsoft 볼륨 라이선스 계약을 통해 구매한 소프트웨어와 다른 방법으로 구매한 소프트웨어에 대한 사용권 계약을 관리할 수 있습니다."
-keywords: 
-author: robstackmsft
-manager: angrobe
-ms.date: 09/14/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: c59d8635-3f66-40f5-824a-a71c738e0341
-ms.reviewer: owenyen
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: f01f2715ebd5666b53de848f06300e7aa3344caf
-ms.openlocfilehash: e4febff0ede35f40fd2b0f96fab401a58fb5cb13
-
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ---
 
@@ -267,22 +179,6 @@ Microsoft 볼륨 라이선싱 계약 외에 다른 유형의 사용권 계약을
 |사용권 계약 삭제|**라이선스** 작업 영역에서 계약을 선택한 다음 **삭제**를 선택합니다. **팁:** 볼륨 라이선스 계약을 삭제한 후 라이선스 정보를 업데이트하려면 **라이선스 개요** 페이지 또는 특정 라이선스 그룹의 **일반** 탭에서 **지금 새로 고침**을 선택합니다.|
 
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-||||||||| merged common ancestors
-<!--HONumber=Aug16_HO2-->
-=========
-<!--HONumber=Sep16_HO2-->
->>>>>>>>> Temporary merge branch 2
-=======
-<<<<<<< HEAD
-||||||| merged common ancestors
-<!--HONumber=Aug16_HO2-->
-=======
-<!--HONumber=Sep16_HO2-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 <!--HONumber=Sep16_HO2-->
 

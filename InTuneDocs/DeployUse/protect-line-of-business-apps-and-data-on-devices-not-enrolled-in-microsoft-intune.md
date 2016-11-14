@@ -1,49 +1,3 @@
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
----
-title: "장치에서 등록되지 않은 LOB 앱 보호 | Microsoft Intune"
-description: "이 항목에서는 데이터 손실을 방지하는 데 도움이 되는 모바일 앱 관리 정책을 적용할 수 있도록 사용자 지정 LOB(기간 업무) 앱을 준비하는 방법을 설명합니다."
-keywords: 
-author: karthikaraman
-manager: angrobe
-ms.date: 07/18/2016
-ms.topic: article
-ms.prod: 
-ms.service: 
-ms.technology: 
-ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
-ms.reviewer: joglocke
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 45c6622624230e3486d2498b1b023f2efcdc2970
-ms.openlocfilehash: eb04f0e7b9627ad1869ef677f1b32380db868490
-
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
----
-title: "장치에서 등록되지 않은 LOB 앱 보호 | Microsoft Intune"
-description: "이 항목에서는 데이터 손실을 방지하는 데 도움이 되는 모바일 앱 관리 정책을 적용할 수 있도록 사용자 지정 LOB(기간 업무) 앱을 준비하는 방법을 설명합니다."
-keywords: 
-author: karthikaraman
-manager: angrobe
-ms.date: 07/18/2016
-ms.topic: article
-ms.prod: 
-ms.service: 
-ms.technology: 
-ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
-ms.reviewer: joglocke
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 3e09af2cd329d556a9a0a1b2fb4750856e336ab1
-
-=========
 ---
 title: "장치에서 등록되지 않은 LOB 앱 보호 | Microsoft Intune"
 description: "이 항목에서는 데이터 손실을 방지하는 데 도움이 되는 모바일 앱 관리 정책을 적용할 수 있도록 사용자 지정 LOB(기간 업무) 앱을 준비하는 방법을 설명합니다."
@@ -63,107 +17,30 @@ translationtype: Human Translation
 ms.sourcegitcommit: ffe11b4eb4b0f4c2ffdc831cad9deb30d7180809
 ms.openlocfilehash: 94de65185af64052226985f2c65c7b8a18e2f829
 
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
----
-title: "장치에서 등록되지 않은 LOB 앱 보호 | Microsoft Intune"
-description: "이 항목에서는 데이터 손실을 방지하는 데 도움이 되는 모바일 앱 관리 정책을 적용할 수 있도록 사용자 지정 LOB(기간 업무) 앱을 준비하는 방법을 설명합니다."
-keywords: 
-author: karthikaraman
-manager: angrobe
-ms.date: 07/18/2016
-ms.topic: article
-ms.prod: 
-ms.service: 
-ms.technology: 
-ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
-ms.reviewer: joglocke
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 3e09af2cd329d556a9a0a1b2fb4750856e336ab1
-
-=======
----
-title: "장치에서 등록되지 않은 LOB 앱 보호 | Microsoft Intune"
-description: "이 항목에서는 데이터 손실을 방지하는 데 도움이 되는 모바일 앱 관리 정책을 적용할 수 있도록 사용자 지정 LOB(기간 업무) 앱을 준비하는 방법을 설명합니다."
-keywords: 
-author: karthikaraman
-ms.author: karaman
-manager: angrobe
-ms.date: 07/18/2016
-ms.topic: article
-ms.prod: 
-ms.service: 
-ms.technology: 
-ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
-ms.reviewer: joglocke
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: ffe11b4eb4b0f4c2ffdc831cad9deb30d7180809
-ms.openlocfilehash: 94de65185af64052226985f2c65c7b8a18e2f829
-
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ---
 
 # Microsoft Intune에 등록되지 않은 장치의 기간 업무 앱 및 데이터 보호
 
-MAM(모바일 앱 관리) 정책을 통해 복사 및 붙여넣기와 같은 데이터 이동을 제한하거나 사용자가 개인 위치에 회사 문서를 저장하지 못하게 하여 회사 데이터를 보호할 수 있습니다.   MAM 정책을 iOS 또는 Android 기간 업무 앱에 적용하려면 먼저 Microsoft Intune 앱 래핑 도구를 사용하여 앱을 래핑해야 합니다.  앱 래핑은 기본 응용 프로그램을 변경하지 않고도 관리 계층을 모바일 앱에 적용하는 프로세스입니다.  앱을 래핑하면 MAM 정책을 앱에 적용하고 최종 사용자에게 해당 앱을 배포할 수 있습니다.  
+MAM(모바일 앱 관리) 정책은 회사 데이터를 누수시킬 수 있는 작업을 제한하고 앱 PIN과 같은 데이터 액세스 요구 사항을 적용하여 회사 데이터를 보호하는 데 도움을 줍니다. MAM 정책을 iOS 및/또는 Android 기간 업무 앱에 적용하려면 먼저 Microsoft Intune 앱 래핑 도구를 사용하여 앱을 래핑해야 합니다.  앱 래핑은 기본 응용 프로그램을 변경하지 않고도 관리 계층을 모바일 앱에 적용하는 프로세스입니다.  앱을 래핑하면 MAM 정책을 앱에 적용하고 최종 사용자에게 해당 앱을 배포할 수 있습니다.  
 
-이 항목에서는 **관리되지 않는 직원 소유 장치** 및 **타사 MDM(모바일 장치 관리) 솔루션**으로 관리되는 장치에서 액세스하는 앱에 대해 MAM 정책을 적용하는 데 필요한 단계를 설명합니다.  **Intune에 등록된 장치**에서 실행되는 기간 업무 앱을 준비하려면 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md) 항목을 참조하세요.
+이 항목에서는 **관리되지 않는 직원 소유 장치** 및 **타사 MDM(모바일 장치 관리) 솔루션**으로 관리되는 장치에서 액세스하는 앱에 대해 MAM 정책을 적용하는 데 필요한 단계를 설명합니다.  **Intune MDM에 등록된 장치**에서 실행되는 기간 업무 앱을 준비하려면 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)을 참조하세요.
+
+
 ##  1단계: 앱 준비
-앱에 MAM 정책을 적용하려면 먼저 Microsoft Intune 앱 래핑 도구를 사용하여 앱을 래핑해야 합니다.  앱 래핑 도구를 설치하고 사용하기 위한 지침은 다운로드에 포함되어 있습니다.  
+앱에 MAM 정책을 적용하려면 먼저 Microsoft Intune 앱 래핑 도구를 사용하여 앱을 래핑해야 합니다.  앱 래핑 도구를 다운로드하고 사용하는 지침은 다음 페이지를 참조하세요.
+
+- [Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리를 위해 iOS 앱 준비](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) 
+- [Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 Android 앱 준비](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
+
 >[!IMPORTANT]  
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
->Intune에 등록되지 않은 장치를 지원하는, 이 버전의 앱 래핑 도구가 공개 미리 보기에서 제공됩니다. 공개 미리 보기에 참여하려면 [이 github 페이지](https://github.com/msintuneappsdk/intune-app-wrapper-ios-preview)(iOS용)와 [이 github 사이트](https://github.com/msintuneappsdk/intune-app-wrapper-android-preview)(Android용) 에서 도구를 다운로드할 수 있습니다.
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
->Intune에 등록되지 않은 장치를 지원하는 이 버전의 앱 래퍼 도구는 이후 몇 주간 비공개 미리 보기로 사용할 수 있습니다. 참여하려는 경우 msintuneappsdk@microsoft.com으로 메일을 통해 자세한 내용을 보내주세요.
-=========
 >Intune에 등록되지 않은 장치를 지원하는, 이 버전의 앱 래핑 도구는 iOS에 대해 지원되고 Android의 경우 공개 미리 보기에서 지원됩니다. 이 도구는 iOS의 경우 [이 GitHub 리포지토리](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios)에서 다운로드할 수 있으며, Android의 경우 [이 GitHub 리포지토리](https://github.com/msintuneappsdk/intune-app-wrapper-android-preview)에서 다운로드할 수 있습니다.
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
->Intune에 등록되지 않은 장치를 지원하는 이 버전의 앱 래퍼 도구는 이후 몇 주간 비공개 미리 보기로 사용할 수 있습니다. 참여하려는 경우 msintuneappsdk@microsoft.com으로 메일을 통해 자세한 내용을 보내주세요.
-=======
->Intune에 등록되지 않은 장치를 지원하는, 이 버전의 앱 래핑 도구는 iOS에 대해 지원되고 Android의 경우 공개 미리 보기에서 지원됩니다. 이 도구는 iOS의 경우 [이 GitHub 리포지토리](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios)에서 다운로드할 수 있으며, Android의 경우 [이 GitHub 리포지토리](https://github.com/msintuneappsdk/intune-app-wrapper-android-preview)에서 다운로드할 수 있습니다.
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 ## 2단계: 앱 추가
 
 기간 업무 앱을 MAM 정책과 연결하려면 다음 단계를 사용하여 Intune 구독/테넌트에 앱 세부 정보를 추가해야 합니다.
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-1. [](https://portal.azure.com/)에서 **Intune 모바일 응용 프로그램 관리 > 설정**으로 이동하여 **기간 업무 앱**을 선택합니다.
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-1. [Azure 포털](https://portal.azure.com/)에서 **Intune 모바일 응용 프로그램 관리 > 설정**으로 이동하여 **기간 업무 앱**을 선택합니다.
-=========
 1. 에 [Azure 포털](https://portal.azure.com/)에서 **Intune 모바일 응용 프로그램 관리 > 설정**으로 이동하여 **기간 업무 앱**을 선택합니다.
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-1. [Azure 포털](https://portal.azure.com/)에서 **Intune 모바일 응용 프로그램 관리 > 설정**으로 이동하여 **기간 업무 앱**을 선택합니다.
-=======
-1. 에 [Azure 포털](https://portal.azure.com/)에서 **Intune 모바일 응용 프로그램 관리 > 설정**으로 이동하여 **기간 업무 앱**을 선택합니다.
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
   ![LOB(기간 업무) 옵션이 포함된 설정 블레이드의 스크린샷](../media/mam-azure-portal-lob-on-settings.png)
 
@@ -204,23 +81,7 @@ MAM(모바일 앱 관리) 정책을 통해 복사 및 붙여넣기와 같은 데
   그러면 기간 업무 앱 목록 및 MAM 정책의 대상 앱 목록에서 앱이 제거됩니다.
 
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-||||||||| merged common ancestors
-<!--HONumber=Jul16_HO5-->
-=========
-<!--HONumber=Sep16_HO4-->
->>>>>>>>> Temporary merge branch 2
-=======
-<<<<<<< HEAD
-||||||| merged common ancestors
-<!--HONumber=Jul16_HO5-->
-=======
-<!--HONumber=Sep16_HO4-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO4-->
 
 

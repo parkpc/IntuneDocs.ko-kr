@@ -3,6 +3,7 @@ title: "분실하거나 도난당한 iOS 장치 초기화(지우기) | Microsoft
 description: 
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

@@ -3,6 +3,7 @@ title: "PIN 또는 암호 설정 | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: article
@@ -14,15 +15,17 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: b6fe892098e382079a6259c4fe192baee501f74a
+ms.sourcegitcommit: 7f08be661936b092cfa100b2454a3f2a3dd24746
+ms.openlocfilehash: c2480f168d5ee06a8419c68d1b90bac62c2879b1
 
 
 ---
 
 # PIN 또는 암호 설정
 
-IT 관리자는 회사 또는 학교 데이터에 액세스하는 데 Intune을 사용할 때 Android 장치에서 PIN 또는 암호를 설정하도록 요구할 수 있습니다. PIN 또는 암호를 설정하라는 메시지가 나타나면 다음 단계를 따르세요.
+IT 관리자는 회사 또는 학교 데이터에 액세스하는 데 Intune을 사용할 때 Android 장치에서 PIN 또는 암호를 설정하도록 요구할 수 있습니다. 보안 강화를 위해 PIN 또는 암호를 더 길거나 더 복잡하게 지정하도록 요구하는 메시지가 표시될 수도 있습니다.  
+
+다음 단계를 사용하여 PIN 또는 암호를 설정할 수 있습니다.
 
 1.  **설정** &gt; **보안** &gt; **화면 잠금** &gt; **암호**를 탭합니다.
 
@@ -33,7 +36,6 @@ IT 관리자는 회사 또는 학교 데이터에 액세스하는 데 Intune을 
 
 
 
-
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO3-->
 
 

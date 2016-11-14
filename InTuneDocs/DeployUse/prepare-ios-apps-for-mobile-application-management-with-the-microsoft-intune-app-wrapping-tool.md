@@ -1,44 +1,3 @@
-<<<<<<< HEAD
----
-title: "앱 줄 바꿈 도구를 사용하여 iOS 앱 줄 바꿈 | Microsoft Intune"
-description: "이 항목의 정보를 사용하여 앱 자체의 코드를 수정하지 않고 iOS 앱을 줄 바꿈하는 방법에 대해 알아봅니다. 모바일 앱 관리 정책을 적용할 수 있도록 앱을 준비합니다."
-keywords: 
-author: karthikaraman
-ms.author: karaman
-manager: angrobe
-ms.date: 09/19/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
-ms.reviewer: oldang
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: c67a5042fd177a4c5bd897092e84281db0977f5e
-ms.openlocfilehash: 2c187b61b8fe25b2870d0cbc62f8352494583fc2
-
-||||||| merged common ancestors
----
-title: "앱 줄 바꿈 도구를 사용하여 iOS 앱 줄 바꿈 | Microsoft Intune"
-description: "이 항목의 정보를 사용하여 앱 자체의 코드를 수정하지 않고 iOS 앱을 줄 바꿈하는 방법에 대해 알아봅니다. 모바일 앱 관리 정책을 적용할 수 있도록 앱을 준비합니다."
-keywords: 
-author: karthikaraman
-ms.author: karaman
-manager: angrobe
-ms.date: 09/19/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
-ms.reviewer: oldang
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: c67a5042fd177a4c5bd897092e84281db0977f5e
-ms.openlocfilehash: 2c187b61b8fe25b2870d0cbc62f8352494583fc2
-
-=======
 ---
 title: "Intune 앱 래핑 도구를 사용하여 iOS 앱 래핑 | Microsoft Intune"
 description: "이 항목의 정보를 사용하여 앱 자체의 코드를 수정하지 않고 iOS 앱을 래핑하는 방법에 대해 알아봅니다. 모바일 앱 관리 정책을 적용할 수 있도록 앱을 준비합니다."
@@ -58,21 +17,10 @@ translationtype: Human Translation
 ms.sourcegitcommit: b25c7d7063ce586bb1cd960534f3e2ed57f6aec4
 ms.openlocfilehash: f70a32cf7db4d46f15cdef85e111a8857a1a0215
 
->>>>>>> 12550744143a4804819a881aa25136cdf07f4bcb
 
 ---
-<<<<<<< HEAD
-
-# Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리를 위해 iOS 앱 준비
-**iOS용 Microsoft Intune 앱 래핑 도구**를 사용하여 사내 iOS 앱의 동작을 수정하면 해당 앱 코드를 변경하지 않고도 앱 기능을 제한할 수 있습니다.
-||||||| merged common ancestors
-
-# Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리를 위해 iOS 앱 준비
-**iOS용 Microsoft Intune 앱 래핑 도구**를 사용하여 사내 iOS 앱의 동작을 수정하면 해당 앱 코드를 변경하지 않고도 앱 기능을 제한할 수 있습니다.
-=======
 
 # <a name="prepare-ios-apps-for-mobile-application-management-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리를 위해 iOS 앱 준비
->>>>>>> 12550744143a4804819a881aa25136cdf07f4bcb
 
 iOS용 Microsoft Intune 앱 래핑 도구를 사용하여 사내 iOS 앱의 동작을 변경하면 해당 앱 코드를 변경하지 않고도 앱 기능을 제한할 수 있습니다.
 

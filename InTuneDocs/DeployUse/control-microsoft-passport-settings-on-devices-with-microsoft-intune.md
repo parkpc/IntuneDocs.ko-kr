@@ -1,49 +1,3 @@
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
----
-title: "장치에서 비즈니스용 Windows Hello 설정 제어 | Microsoft Intune"
-description: "Intune이 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 비즈니스용 Windows Hello와 통합하는 방법을 알아봅니다."
-keywords: 
-author: robstackmsft
-manager: angrobe
-ms.date: 09/20/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
-ms.reviewer: jeffgilb
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 73379311acad6f2a7054e262dea701d3e7b9ad45
-ms.openlocfilehash: 40344947d7c94c90258c967da36c09c95a54335c
-
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
----
-title: "장치의 Microsoft Passport 설정 제어 | Microsoft Intune"
-description: "Intune이 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 Microsoft Passport for Work와 통합하는 방법을 알아봅니다."
-keywords: 
-author: robstackmsft
-manager: angrobe
-ms.date: 07/29/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
-ms.reviewer: jeffgilb
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 822264b7af87c0241e1d345544b8e9892f9e8c51
-ms.openlocfilehash: c05929f3c4032bf8e252f4b2087b23dfdecf846b
-
-=========
 ---
 title: "장치에서 비즈니스용 Windows Hello 설정 제어 | Microsoft Intune"
 description: "Intune이 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 비즈니스용 Windows Hello와 통합하는 방법을 알아봅니다."
@@ -63,128 +17,15 @@ translationtype: Human Translation
 ms.sourcegitcommit: 73379311acad6f2a7054e262dea701d3e7b9ad45
 ms.openlocfilehash: 40344947d7c94c90258c967da36c09c95a54335c
 
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
----
-title: "장치의 Microsoft Passport 설정 제어 | Microsoft Intune"
-description: "Intune이 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 Microsoft Passport for Work와 통합하는 방법을 알아봅니다."
-keywords: 
-author: robstackmsft
-manager: angrobe
-ms.date: 07/29/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
-ms.reviewer: jeffgilb
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 822264b7af87c0241e1d345544b8e9892f9e8c51
-ms.openlocfilehash: c05929f3c4032bf8e252f4b2087b23dfdecf846b
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
-=======
 ---
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-||||||||| merged common ancestors
-
-# Microsoft Intune으로 장치의 Microsoft Passport 설정 제어
-Microsoft Intune은 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 Microsoft Passport for Work와 통합합니다.
-=========
 
 # Microsoft Intune을 사용하는 장치에서 비즈니스용 Windows Hello 설정 제어
 Microsoft Intune은 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 비즈니스용 Windows Hello와 통합합니다.
->>>>>>>>> Temporary merge branch 2
-=======
-title: "장치에서 비즈니스용 Windows Hello 설정 제어 | Microsoft Intune"
-description: "Intune이 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 비즈니스용 Windows Hello와 통합하는 방법을 알아봅니다."
-keywords: 
-author: robstackmsft
-ms.author: robstack
-manager: angrobe
-ms.date: 09/20/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
-ms.reviewer: jeffgilb
-ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 73379311acad6f2a7054e262dea701d3e7b9ad45
-ms.openlocfilehash: 40344947d7c94c90258c967da36c09c95a54335c
 
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
-
----
-<<<<<<< HEAD
-||||||| merged common ancestors
-
-# Microsoft Intune으로 장치의 Microsoft Passport 설정 제어
-Microsoft Intune은 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 Microsoft Passport for Work와 통합합니다.
-=======
-
-# Microsoft Intune을 사용하는 장치에서 비즈니스용 Windows Hello 설정 제어
-Microsoft Intune은 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 비즈니스용 Windows Hello와 통합합니다.
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-# Microsoft Intune을 사용하는 장치에서 비즈니스용 Windows Hello 설정 제어
-Microsoft Intune은 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 비즈니스용 Windows Hello와 통합합니다.
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
-Passport를 사용하면 암호 대신 *사용자 제스처*를 사용하여 로그인할 수 있습니다. 사용자 제스처는 단순 PIN, 생체 인식 인증(예: Windows Hello) 또는 외부 장치(예: 지문 판독기)일 수 있습니다.
-=========
-비즈니스용 Hello를 사용하면 암호 대신 *사용자 제스처*를 사용하여 로그인할 수 있습니다. 사용자 제스처는 단순 PIN, 생체 인식 인증(예: Windows Hello) 또는 외부 장치(예: 지문 판독기)일 수 있습니다.
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
-Passport를 사용하면 암호 대신 *사용자 제스처*를 사용하여 로그인할 수 있습니다. 사용자 제스처는 단순 PIN, 생체 인식 인증(예: Windows Hello) 또는 외부 장치(예: 지문 판독기)일 수 있습니다.
-=======
-비즈니스용 Hello를 사용하면 암호 대신 *사용자 제스처*를 사용하여 로그인할 수 있습니다. 사용자 제스처는 단순 PIN, 생체 인식 인증(예: Windows Hello) 또는 외부 장치(예: 지문 판독기)일 수 있습니다.
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
-
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-=======
-<<<<<<< HEAD
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 비즈니스용 Hello를 사용하면 암호 대신 *사용자 제스처*를 사용하여 로그인할 수 있습니다. 사용자 제스처는 단순 PIN, 생체 인식 인증(예: Windows Hello) 또는 외부 장치(예: 지문 판독기)일 수 있습니다.
 
 Intune은 다음 두 가지 방법으로 비즈니스용 Hello에 통합됩니다.
-<<<<<<< HEAD
-||||||| merged common ancestors
-||||||||| merged common ancestors
->[!TIP]
->현재 Microsoft Passport for Work는 비즈니스용 Windows Hello라고 합니다. Intune 콘솔에서는 이 변경 내용이 아직 반영되지 않습니다.
-
-Intune는 다음 두 가지 방법으로 Passport for Work에 통합됩니다.
-=========
-Intune은 다음 두 가지 방법으로 비즈니스용 Hello에 통합됩니다.
->>>>>>>>> Temporary merge branch 2
-=======
-||||||| merged common ancestors
->[!TIP]
->현재 Microsoft Passport for Work는 비즈니스용 Windows Hello라고 합니다. Intune 콘솔에서는 이 변경 내용이 아직 반영되지 않습니다.
-
-Intune는 다음 두 가지 방법으로 Passport for Work에 통합됩니다.
-=======
-Intune은 다음 두 가지 방법으로 비즈니스용 Hello에 통합됩니다.
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 -   Intune 정책을 사용하여 사용자가 로그인하는 데 사용할 수 있는 제스처와 사용할 수 없는 제스처를 제어할 수 있습니다.
 
@@ -238,22 +79,6 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 Microsoft Passport에 대한 자세한 내용은 Windows 10 설명서의 [가이드](https://technet.microsoft.com/library/mt589441.aspx)를 참조하세요.
 
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-||||||||| merged common ancestors
-<!--HONumber=Aug16_HO1-->
-=========
-<!--HONumber=Sep16_HO3-->
->>>>>>>>> Temporary merge branch 2
-=======
-<<<<<<< HEAD
-||||||| merged common ancestors
-<!--HONumber=Aug16_HO1-->
-=======
-<!--HONumber=Sep16_HO3-->
->>>>>>> 359d4f486355df1be118d8fdb698694ae632df85
->>>>>>> 3cc2bcb16b2aaae00d16317c1b818ba25738a455
 
 <!--HONumber=Sep16_HO3-->
 

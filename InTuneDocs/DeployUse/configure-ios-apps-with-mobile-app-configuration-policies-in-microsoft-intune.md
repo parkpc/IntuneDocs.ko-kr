@@ -3,6 +3,7 @@ title: "iOS 모바일 앱 구성 정책 사용 | Microsoft Intune"
 description: "Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 iOS 앱을 실행할 때 필요할 수도 있는 설정을 제공할 수 있습니다."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

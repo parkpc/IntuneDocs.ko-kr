@@ -3,6 +3,7 @@ title: "Intune에서 Windows 장치 등록을 취소하면 어떻게 되나요? 
 description: 
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: article
@@ -14,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: cb7510d92019f27e15ecc7d8666df3f4e09c8707
+ms.sourcegitcommit: 8975e57c604565c57c86472564ab660aed560a7b
+ms.openlocfilehash: 22179d5d80d2b24e61778249367bec6845290206
 
 
 ---
@@ -23,52 +24,48 @@ ms.openlocfilehash: cb7510d92019f27e15ecc7d8666df3f4e09c8707
 
 # Intune에서 Windows 장치 등록을 취소하면 어떻게 되나요?
 
-발생하는 상황에 대한 추가적인 정보를 보려면 위의 "이 문서의 내용" 섹션에 표시된 링크 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
-
-- [Windows 10 mobile, 8.1, Windows 8, Windows 7, Vista](#windows-10-mobile--8-1,-windows-8,-windows-7,-vista)
-- [Windows 10, Windows 8.1 또는 Windows Phone 8](#windows-10--windows-8-1-or-windows-phone-8)
-- [Windows 8.1을 실행하는 Windows RT 또는 Windows RT](#windows-rt-running-windows-8-1-or-windows-rt)
+**이 문서의 내용**에서 이 페이지의 오른쪽에 있는 링크를 사용하여 사용 중인 장치 유형에 대한 정보를 찾을 수 있습니다.
 
 
-## Windows 10, Windows 8.1, Windows 8, Windows 7, Vista
+## Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
 -   장치가 더 이상 회사 포털에 나타나지 않으며 회사 포털에서 앱을 설치할 수 없습니다.
 
 -   Intune 클라이언트 소프트웨어를 설치한 경우 컴퓨터에서 제거됩니다.
 
--   Intune Endpoint Protection 소프트웨어가 컴퓨터에서 제거됩니다. 컴퓨터에 다른 바이러스 방지 소프트웨어가 설치되어 있지만 사용되지 않도록 설정된 경우, Intune Endpoint Protection을 제거하면 이 응용 프로그램이 다시 사용되도록 설정될 수 있습니다. 회사 포털에서 컴퓨터를 제거한 후 해당 컴퓨터를 확인해야 합니다.
+-   Intune Endpoint Protection 소프트웨어가 컴퓨터에서 제거됩니다. 컴퓨터에 다른 바이러스 방지 소프트웨어가 설치되어 있지만 사용되지 않도록 설정된 경우, Intune Endpoint Protection을 제거하면 이 응용 프로그램이 다시 사용되도록 설정될 수 있습니다. 회사 포털에서 컴퓨터를 제거한 후 해당 컴퓨터를 확인합니다.
 
     > [!IMPORTANT]
     > 다른 바이러스 방지 소프트웨어가 다시 사용되도록 설정되지 않거나 다른 바이러스 방지 소프트웨어가 설치되어 있지 않은 경우 컴퓨터는 바이러스 및 맬웨어 공격에 취약해질 수 있습니다.
 
 -   장치를 추가할 때 장치에서 변경된 모든 설정(예: 카메라 사용 안 함)이 더 이상 적용되지 않습니다.
 
--   컴퓨터가 Intune 서비스로부터 더 이상 자동 소프트웨어 업데이트 또는 바이러스 백신 소프트웨어 업데이트를 받지 못합니다. 그러나 컴퓨터가 구성된 방식에 따라 Windows Server Update Services, Windows 업데이트 또는 Microsoft 업데이트를 사용하여 업데이트를 계속 받을 수 있습니다.
+-   컴퓨터가 Intune 서비스로부터 더 이상 자동 소프트웨어 업데이트 또는 바이러스 백신 소프트웨어 업데이트를 받지 못합니다. 그러나 컴퓨터가 설정된 방식에 따라 Windows Server Update Services, Windows 업데이트 또는 Microsoft 업데이트를 사용하여 업데이트를 계속 받을 수 있습니다.
 
 또한 Windows 8.1의 경우
 
 -   장치에서 더 이상 회사 앱 및 회사 데이터를 사용할 수 없습니다.
 
--   Windows 메일과 같은 일부 메일 앱에서 장치에 저장된 회사 이메일에 더 이상 액세스할 수 없습니다.
+-   Windows 메일과 같은 일부 메일 앱에서 더 이상 장치에 저장된 회사 메일에 액세스할 수 없습니다.
 
 -   Wi-Fi 또는 VPN(가상 사설망)을 사용하여 회사 네트워크에 연결할 수 없습니다.
 
 -   장치에서 더 이상 일부 회사 리소스(예: 파일 공유 또는 내부 웹 사이트)에 액세스하지 못할 수 있습니다.
 
-## Windows 10 mobile, Windows Phone 8.1 또는 Windows Phone 8
+## Windows 10 Mobile 및 Windows Phone 8.1
 
--   장치에서 회사 포털 앱이 제거되어 장치가 더 이상 회사 포털에 나타나지 않으며, 회사 포털 앱 또는 회사 포털 웹 사이트에서 앱을 설치할 수 없습니다.
+-   회사 포털 앱이 장치에서 제거됩니다. 즉, 장치가 더 이상 회사 포털에 나타나지 않으며 회사 포털 앱 또는 회사 포털 웹 사이트에서 앱을 설치할 수 없습니다.
 
 -   장치에서 더 이상 회사 앱 및 회사 데이터를 사용할 수 없습니다.
 
 -   장치를 추가할 때 장치에서 변경된 모든 설정(예: 카메라 사용 안 함 또는 특정 암호 길이 요구)이 더 이상 적용되지 않습니다.
 
     > [!IMPORTANT]
-    > 유일한 예외는 암호화 정책이며, 이 정책은 여전히 적용됩니다. 회사 정책에서 Windows Phone의 암호화를 요구하는 경우 휴대폰을 암호 해제하는 유일한 방법은 Windows Phone의 **설정** 메뉴를 사용하여 휴대폰을 초기화하는 것입니다.
+    > 유일한 예외는 암호화 정책이며, 이 정책은 여전히 적용됩니다. 회사 정책에서 Windows Phone의 암호화를 요구하는 경우 휴대폰을 암호 해제하는 유일한 방법은 **설정** 메뉴를 사용하는 것입니다.
 
-## Windows 8.1을 실행하는 Windows RT 또는 Windows RT
+## Windows 8.1을 실행하는 Windows RT
 
--   장치에서 회사 포털 앱이 제거되어 장치가 더 이상 회사 포털에 나타나지 않으며, 회사 포털에서 앱을 설치할 수 없습니다.
+-   회사 포털 앱이 장치에서 제거됩니다. 즉, 장치가 더 이상 회사 포털에 나타나지 않으며 회사 포털에서 앱을 설치할 수 없습니다.
 
 -   장치에서 더 이상 회사 앱 및 회사 데이터를 사용할 수 없습니다.
 
@@ -78,11 +75,11 @@ ms.openlocfilehash: cb7510d92019f27e15ecc7d8666df3f4e09c8707
 
 -   장치에서 더 이상 일부 회사 리소스(예: 파일 공유 또는 내부 웹 사이트)에 액세스하지 못할 수 있습니다.
 
--   Windows 메일과 같은 일부 메일 앱에서 장치에 저장된 회사 이메일에 더 이상 액세스할 수 없습니다.
+-   Windows 메일과 같은 일부 메일 앱에서 더 이상 장치에 저장된 회사 메일에 액세스할 수 없습니다.
 
 Windows RT 장치를 제거하면 다음과 같은 상황이 발생합니다.
 
--   장치에서 회사 포털 앱이 제거되어 장치가 더 이상 회사 포털에 나타나지 않으며, 회사 포털에서 앱을 설치할 수 없습니다.
+-   회사 포털 앱이 장치에서 제거됩니다. 즉, 장치가 더 이상 회사 포털에 나타나지 않으며 회사 포털에서 앱을 설치할 수 없습니다.
 
 -   장치에서 더 이상 회사 앱 및 회사 데이터를 사용할 수 없습니다.
 
@@ -92,7 +89,6 @@ Windows RT 장치를 제거하면 다음과 같은 상황이 발생합니다.
 
 
 
-
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO3-->
 
 

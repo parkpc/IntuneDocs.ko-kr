@@ -2,7 +2,8 @@
 title: "iOS에 대한 Microsoft 사용 현황 데이터 수집 해제 | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -21,7 +22,7 @@ ms.openlocfilehash: 1b193a401c05ae649456e27222503ee5bd9e150f
 ---
 
 
-# Microsoft 사용 현황 데이터 수집 해제
+# <a name="turn-off-microsoft-usage-data-collection"></a>Microsoft 사용 현황 데이터 수집 해제
 
 제품 및 서비스를 개선하기 위해 Microsoft는 회사 포털의 안정성 및 성능과 사용되는 방식에 대한 익명의 데이터를 자동으로 수집합니다.
 
