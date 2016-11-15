@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 08/31/2016
+ms.date: 11/14/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -62,7 +62,6 @@ Intune에서 지원하는 장치와 PC에 대한 자세한 내용은 [지원되�
 
 
 - [Microsoft Intune을 사용한 Exchange ActiveSync 모바일 장치 관리](/intune/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune).
-
 
 
 
