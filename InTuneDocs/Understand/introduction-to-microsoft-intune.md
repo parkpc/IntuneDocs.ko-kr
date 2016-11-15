@@ -16,13 +16,13 @@ ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3318201cd77ec16f72e65275eda0e65c0dd9e05c
-ms.openlocfilehash: 256a1e7873a6603226843d2936e44c09424b8050
+ms.sourcegitcommit: b3b46c1025ad0792ed4623656c878c53bd69d6cb
+ms.openlocfilehash: f2f5d901ae3b6ffb298b56eef4ae593842b80cfb
 
 
 ---
 
-# Intune 소개
+# <a name="introduction-to-intune"></a>Intune 소개
 Microsoft Intune은 Microsoft Enterprise Mobility + Security(EMS, 이전의 Enterprise Mobility Suite)의 관리 암(arm)입니다. Enterprise Mobility는 직원이 조직의 정보 보호를 유지하면서 모든 직원 장치에서 생산성을 높일 수 있도록 하는 것입니다.  
 
 EMS는 생산성, ID, 액세스 제어, 관리 및 데이터 보호를 포함하는 Enterprise Mobility를 위한 완전한 통합 제품군입니다. 조직의 Mobility 솔루션을 배포하고 운영하는 효과적인 방법을 제공합니다.  
@@ -49,13 +49,13 @@ Intune에서 제공하는 기본 도구는 다음과 같습니다.
 
 이 설명서에서는 Intune에서 비즈니스 시나리오를 지원하기 위해 제공하는 도구를 사용하는 방법을 설명합니다.  또한 Office 365, Azure AD, Azure RMS 및 Microsoft Mobility Suite의 다른 부분과 함께 이러한 도구를 사용하는 방법을 설명합니다. 기술이 일반적으로 사용되는 방법 및 이를 구현하는 절차뿐만 아니라 사용자 환경에서 유용할 수 있는 방법의 개요를 제공합니다. 기술 자체가 매우 유연하므로 여기에서 설명하는 것 이외에도 모든 종류의 시나리오에 적용할 수 있습니다.
 
-### 다음 단계
+### <a name="next-steps"></a>다음 단계
 * [Intune을 사용하는 일반적인 방법](common-ways-to-use-intune.md)의 일부 읽기
 * [Intune의 30일 평가판으로](get-started-with-a-30-day-trial-of-microsoft-intune.md) 제품에 대해 알아보기
 * Intune의 [기술 요구 사항 및 기능](/intune/get-started/what-to-know-before-you-start-microsoft-intune)에 대해 자세히 알아보기
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO2-->
 
 
