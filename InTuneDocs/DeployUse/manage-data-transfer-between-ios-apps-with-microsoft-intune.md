@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "iOS 앱 간의 데이터 전송 관리 | Microsoft Intune"
 description: "이 항목을 사용하여 iOS의 다음에서 열기 기능과 모바일 앱 관리 정책을 사용하여 앱 간의 데이터 전송을 관리하는 방법을 파악할 수 있습니다."
@@ -17,6 +18,47 @@ translationtype: Human Translation
 ms.sourcegitcommit: a4f7a503417938eabb4334757dcf12a63f082fd3
 ms.openlocfilehash: 080d861e8fd2d0140ffe5d9987032213ae0e4d4c
 
+||||||| merged common ancestors
+---
+title: "iOS 앱 간의 데이터 전송 관리 | Microsoft Intune"
+description: "이 항목을 사용하여 iOS의 다음에서 열기 기능과 모바일 앱 관리 정책을 사용하여 앱 간의 데이터 전송을 관리하는 방법을 파악할 수 있습니다."
+keywords: 
+author: karthikaraman
+ms.author: karaman
+manager: angrobe
+ms.date: 07/18/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 3a4515c1-b325-4ac1-9f0a-45ac27e00681
+ms.reviewer: jeffgilb
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: a4f7a503417938eabb4334757dcf12a63f082fd3
+ms.openlocfilehash: 080d861e8fd2d0140ffe5d9987032213ae0e4d4c
+
+=======
+---
+title: "iOS 앱 간의 데이터 전송 관리 | Microsoft Intune"
+description: "이 항목을 사용하여 iOS의 다음에서 열기 기능과 모바일 앱 관리 정책을 사용하여 앱 간의 데이터 전송을 관리하는 방법을 파악할 수 있습니다."
+keywords: 
+author: karthikaraman
+ms.author: karaman
+manager: angrobe
+ms.date: 11/14/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 3a4515c1-b325-4ac1-9f0a-45ac27e00681
+ms.reviewer: jeffgilb
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: a4f7a503417938eabb4334757dcf12a63f082fd3
+ms.openlocfilehash: 080d861e8fd2d0140ffe5d9987032213ae0e4d4c
+
+>>>>>>> cbfbf499eccf5c2397decf9af598d6cda806b377
 
 ---
 

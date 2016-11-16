@@ -19,15 +19,15 @@ ms.openlocfilehash: c80868fdee79df62aae0aa64e378be5dcc9664ae
 
 ---
 
-# Microsoft Intune 앱 SDK 시작
+# <a name="getting-started-with-the-microsoft-intune-app-sdk"></a>Microsoft Intune 앱 SDK 시작
 
 이 시작 가이드에서는 Microsoft Intune을 통해 모바일 앱을 모바일 응용 프로그램 관리에 사용할 수 있도록 빠르게 설정하는 방법을 안내합니다. 먼저 [Intune 앱 SDK 개요](intune-app-sdk.md) 항목에 열거되어 있는 Intune 앱 SDK의 이점을 이해하는 것이 좋습니다.
 
 이 가이드에서는 Microsoft Intune을 사용하여 앱에서 모바일 앱 관리를 사용하도록 설정하는 데 필요한 주요 단계를 안내합니다. Intune 앱 SDK는 여러 플랫폼에서 유사한 시나리오를 지원하며 다양한 플랫폼에서 IT 관리자를 위한 일관된 환경을 만들기 위한 것입니다. 하지만 플랫폼의 제한으로 인해 특정 기능 지원에는 약간씩 차이가 있습니다.
 
-# 시작
+# <a name="getting-started"></a>시작
 
-## Microsoft에 스토어 앱 등록
+## <a name="register-your-store-app-with-microsoft"></a>Microsoft에 스토어 앱 등록
 
 **앱이 회사 내부용이고 공개 앱 스토어에 제공되지 않도록 할 경우**:
 
@@ -55,7 +55,7 @@ Microsoft에서 귀하의 설문지 응답에 명시된 메일 주소를 사용�
 
 
 
-## SDK 파일 다운로드
+## <a name="download-the-sdk-files"></a>SDK 파일 다운로드
 
 네이티브 iOS 및 Android용 Intune 앱 SDK는 Microsoft GitHub 계정에서 호스트됩니다. 아래 공용 리포지토리에는 iOS 및 Android용 SDK 파일이 각각 포함되어 있습니다.
 
@@ -73,7 +73,7 @@ Microsoft 리포지토리에서 분기하고 끌어오는 데 사용할 수 있�
 
 
 
-## SDK를 사용하여 MAM에 대해 iOS 또는 Android 모바일 앱 사용 설정
+## <a name="enable-your-ios-or-android-mobile-app-for-mam-with-the-sdk"></a>SDK를 사용하여 MAM에 대해 iOS 또는 Android 모바일 앱 사용 설정
 
 Intune 앱 SDK를 네이티브 iOS 앱에 통합하려면 다음이 필요합니다. 
 
@@ -87,7 +87,7 @@ Intune 앱 SDK를 네이티브 Android 앱에 통합하려면 다음이 필요�
 Intune 앱 SDK Xamarin 구성 요소 및 Intune 앱 SDK Cordova 플러그 인에 대한 설명서는 해당 GitHub 리포지토리 내에서 찾을 수 있습니다. 
 
 
-## 앱에 대한 원격 분석 구성
+## <a name="configuring-telemetry-for-your-app"></a>앱에 대한 원격 분석 구성
 
 Microsoft Intune은 앱의 사용 통계에 대한 데이터를 수집합니다.
 
@@ -97,7 +97,7 @@ Microsoft Intune은 앱의 사용 통계에 대한 데이터를 수집합니다.
 
 * **Android용 Intune 앱 SDK**: 원격 분석 데이터가 SDK를 통해 기록되지 않습니다.
 
-## Microsoft Intune을 사용하여 MAM 지원 앱 테스트
+## <a name="test-your-mam-enabled-app-with-microsoft-intune"></a>Microsoft Intune을 사용하여 MAM 지원 앱 테스트
 
 iOS 또는 Android 앱을 Intune 앱 SDK와 통합하는 데 필요한 단계를 완료한 후에는 모든 앱 관리 정책이 사용하도록 설정되어 최종 사용자 및 IT 관리자에 대해 작동하는지 확인해야 합니다. 통합된 앱을 테스트하려면 다음이 필요합니다.
 

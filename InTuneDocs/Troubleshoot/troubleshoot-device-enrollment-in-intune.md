@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "장치 등록 문제 해결| Microsoft Intune"
 description: "장치 등록 문제 해결을 위한 제안 사항"
@@ -17,20 +18,69 @@ translationtype: Human Translation
 ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
 ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
 
+||||||| merged common ancestors
+---
+title: "장치 등록 문제 해결| Microsoft Intune"
+description: "장치 등록 문제 해결을 위한 제안 사항"
+keywords: 
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
+ms.date: 08/02/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
+ms.reviewer: damionw
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
+
+=======
+---
+title: "장치 등록 문제 해결| Microsoft Intune"
+description: "장치 등록 문제 해결을 위한 제안 사항"
+keywords: 
+author: staciebarker
+ms.author: staciebarker
+manager: angrobe
+ms.date: 08/02/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
+ms.reviewer: damionw
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: d51f34dea3463bec83ea39cdfb79c7bedf9e3926
+ms.openlocfilehash: bdc462023f36d60c19dea9d67c7fb4be6d2a3043
+
+>>>>>>> cbfbf499eccf5c2397decf9af598d6cda806b377
 
 ---
+<<<<<<< HEAD
 
 # Intune에서 장치 등록 문제 해결
+||||||| merged common ancestors
+
+# Intune에서 장치 등록 문제 해결
+=======
+
+# <a name="troubleshoot-device-enrollment-in-intune"></a>Intune에서 장치 등록 문제 해결
+>>>>>>> cbfbf499eccf5c2397decf9af598d6cda806b377
 
 이 항목에서는 장치 등록 문제 해결을 위한 제안 사항을 제공합니다. 이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
 
 
-## 초기 문제 해결 단계
+## <a name="initial-troubleshooting-steps"></a>초기 문제 해결 단계
 
 문제 해결을 시작하기 전에 등록이 설정되도록 Intune을 올바르게 구성했는지 확인하세요. 다음에서 이러한 구성 요구 사항에 대해 자세히 읽어볼 수 있습니다.
 
 -   [Microsoft Intune에 장치를 등록하도록 준비](/intune/deploy-use/gprerequisites-for-enrollment.md)
--   [iOS 및 Mac 관리 설정](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
+-   [iOS 및 Mac 장치 관리 설정](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
 -   [Microsoft Intune을 사용한 Windows Phone 및 Windows 10 Mobile 관리 설정](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)
 -   [Windows 장치 관리 설정](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
 
@@ -44,15 +94,15 @@ ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
 
 
 
-## 일반적인 등록 문제
+## <a name="general-enrollment-issues"></a>일반적인 등록 문제
 이러한 문제는 모든 장치 플랫폼에서 발생할 수 있습니다.
 
-### 장치 최대값 도달
+### <a name="device-cap-reached"></a>장치 최대값 도달
 **문제:** iOS 장치에서 발생하는 **회사 포털을 일시적으로 사용할 수 없음** 오류와 같은 오류가 등록하는 동안 사용자에게 표시되고, Configuration Manager의 DMPdownloader.log에 **DeviceCapReached**라는 오류가 포함됩니다.
 
 **해결 방법:** 기본적으로 사용자는 장치를 6개 이상 등록할 수 없습니다.
 
-#### 등록된 장치 수와 및 허용된 장치 수 확인
+#### <a name="check-number-of-devices-enrolled-and-allowed"></a>등록된 장치 수와 및 허용된 장치 수 확인
 
 1.  Intune 관리 포털에서 사용자에게 5개 이하의 장치가 할당되어 있는지 확인합니다.
 
@@ -62,7 +112,7 @@ ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
 
 관리자는 Azure Active Directory 포털에서 장치를 삭제할 수 있습니다.
 
-#### Azure Active Directory 포털에서 장치를 삭제하려면
+#### <a name="to-delete-devices-in-the-azure-active-directory-portal"></a>Azure Active Directory 포털에서 장치를 삭제하려면
 
 1.  [http://aka.ms/accessaad](http://aka.ms/accessaad)로 이동하거나 [https://portal.office.com](https://portal.office.com)에서 **관리자** &gt; **Azure AD**를 선택합니다.
 
@@ -86,10 +136,10 @@ ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
 >
 > 장치 등록 관리자 그룹에 추가된 사용자 계정은 해당 특정 사용자 로그인에 대해 조건부 액세스 정책이 적용되는 경우 등록을 완료할 수 없습니다.
 
-### 회사 포털을 일시적으로 사용할 수 없음
+### <a name="company-portal-temporarily-unavailable"></a>회사 포털을 일시적으로 사용할 수 없음
 **문제:** 장치에서 **회사 포털을 일시적으로 사용할 수 없음** 오류가 사용자에게 표시됩니다.
 
-#### 회사 포털을 일시적으로 사용할 수 없음 오류 문제 해결
+#### <a name="troubleshooting-company-portal-temporarily-unavailable-error"></a>회사 포털을 일시적으로 사용할 수 없음 오류 문제 해결
 
 1.  장치에서 Intune 회사 포털 앱을 제거합니다.
 
@@ -101,10 +151,10 @@ ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
 
 5.  사용자가 성공적으로 로그인하면 iOS 장치에 Intune 회사 포털 앱을 설치하고 등록하라는 메시지가 나타납니다. Android 장치에서는 Intune 회사 포털 앱을 수동으로 설치해야 합니다. 그 다음에 다시 등록할 수 있습니다.
 
-### MDM 기관이 정의되지 않았습니다
+### <a name="mdm-authority-not-defined"></a>MDM 기관이 정의되지 않았습니다
 **문제:** 사용자에게 **MDM 기관이 정의되지 않았습니다.** 오류가 표시됩니다.
 
-#### MDM 기관이 정의되지 않았습니다 오류 문제 해결
+#### <a name="troubleshooting-mdm-authority-not-defined-error"></a>MDM 기관이 정의되지 않았습니다 오류 문제 해결
 
 1.  MDM 기관이 사용 중인 Intune 서비스 버전, 즉 Intune, O365 MDM 또는 System Center Configuration Manager with Intune에 대해 적절히 설정되었는지 확인합니다. Intune의 경우, MDM 기관은 **관리** &gt; **모바일 장치 관리**에 설정되어 있습니다. Intune의 Configuration Manager의 경우, Intune 커넥터를 구성할 때 설정하고, O365에서는 **모바일 장치** 설정입니다.
 
@@ -139,23 +189,23 @@ ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
         쿼리를 작성한 후 **!Execute(!실행)**를 선택합니다.
         결과가 반환되면 클라우드 사용자 ID를 찾습니다.  ID를 찾을 수 없으면 Intune을 사용할 라이선스가 없는 것입니다.
 
-### 회사 이름에 특수 문자가 포함되어 있으면 정책을 만들거나 장치를 등록할 수 없습니다.
+### <a name="unable-to-create-policy-or-enroll-devices-if-the-company-name-contains-special-characters"></a>회사 이름에 특수 문자가 포함되어 있으면 정책을 만들거나 장치를 등록할 수 없습니다.
 **문제:** 정책을 만들거나 장치를 등록할 수 없습니다.
 
 **해결 방법:** [Office 365 관리 센터](https://portal.office.com/)에서, 회사 이름의 특수 문자를 제거하고 회사 정보를 저장합니다.
 
-### 확인된 도메인이 여럿이면 로그인하거나 장치를 등록할 수 없습니다.
+### <a name="unable-to-log-in-or-enroll-devices-when-you-have-multiple-verified-domains"></a>확인된 도메인이 여럿이면 로그인하거나 장치를 등록할 수 없습니다.
 **문제:** ADFS에 두 번째 확인된 도메인을 추가하는 경우, UPN(사용자 계정 이름) 접미사가 두 번째 도메인인 사용자가 포털에 로그인하거나 장치를 등록할 수 없습니다.
 
 
-**해결 방법:** AD FS 2.0을 통해 SSO(Single Sign-On)를 활용하며, 조직 내에 사용자 UPN 접미사에 대한 최상위 도메인이 여럿인(예: @contoso.com 또는 @fabrikam.com) Microsoft Office 365 고객은, 각 접미사에 대해 AD FS 2.0 페더레이션 서비스를 개별적으로 배포해야 합니다.  추가적인 AD FS 2.0 서버를 필요로 하지 않고 AD FS 서버가 이 시나리오를 지원할 수 있도록 하는, **SupportMultipleDomain** 스위치와 함께 작동하는 [AD FS 2.0 롤업](http://support.microsoft.com/kb/2607496)이 있습니다. 자세한 정보는 [이 블로그](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/)를 참조하세요.
+**해결 방법:** AD FS 2.0을 통해 SSO(Single Sign-On)를 활용하며, 조직 내에 사용자 UPN 접미사에 대한 최상위 도메인이 여럿인(예: @contoso.com 또는 @fabrikam.com)) Microsoft Office 365 고객은, 각 접미사에 대해 AD FS 2.0 페더레이션 서비스를 개별적으로 배포해야 합니다.  추가적인 AD FS 2.0 서버를 필요로 하지 않고 AD FS 서버가 이 시나리오를 지원할 수 있도록 하는, **SupportMultipleDomain** 스위치와 함께 작동하는 [AD FS 2.0 롤업](http://support.microsoft.com/kb/2607496)이 있습니다. 자세한 정보는 [이 블로그](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/)를 참조하세요.
 
 
-## Android 문제
-### 프로필 설치 실패
+## <a name="android-issues"></a>Android 문제
+### <a name="profile-installation-failed"></a>프로필 설치 실패
 **문제:** Android 장치에서 **프로필 설치 실패** 오류가 사용자에게 표시됩니다.
 
-### 실패한 프로필 설치에 대한 문제 해결 절차
+### <a name="troubleshooting-steps-for-failed-profile-installation"></a>실패한 프로필 설치에 대한 문제 해결 절차
 
 1.  사용 중인 Intune 서비스 버전에 적절한 라이선스를 사용자에게 할당했는지 확인합니다.
 
@@ -163,7 +213,7 @@ ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
 
 4.  Android용 Chrome이 기본 브라우저이고 쿠키가 사용할 수 있도록 설정되어 있는지 확인합니다.
 
-### Android 인증서 문제
+### <a name="android-certificate-issues"></a>Android 인증서 문제
 
 **문제**: 장치에서 다음과 같은 메시지가 표시됩니다. *필요한 인증서가 장치에 없으므로 로그인할 수 없습니다.*
 
@@ -184,11 +234,11 @@ ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
 
 
 
-## iOS 문제
-### 프로필 설치 실패
+## <a name="ios-issues"></a>iOS 문제
+### <a name="profile-installation-failed"></a>프로필 설치 실패
 **문제:** iOS 장치에서 **프로필 설치 실패** 오류가 사용자에게 표시됩니다.
 
-### 실패한 프로필 설치에 대한 문제 해결 절차
+### <a name="troubleshooting-steps-for-failed-profile-installation"></a>실패한 프로필 설치에 대한 문제 해결 절차
 
 1.  사용 중인 Intune 서비스 버전에 적절한 라이선스를 사용자에게 할당했는지 확인합니다.
 
@@ -198,7 +248,7 @@ ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
 
 4.  iOS용 Safari가 기본 브라우저이고 쿠키가 사용할 수 있도록 설정되어 있는지 확인합니다.
 
-### Intune에서 System Center Configuration Manager를 사용하면, 등록된 iOS 장치가 콘솔에 표시되지 않습니다.
+### <a name="enrolled-ios-device-doesnt-appear-in-console-when-using-system-center-configuration-manager-with-intune"></a>Intune에서 System Center Configuration Manager를 사용하면, 등록된 iOS 장치가 콘솔에 표시되지 않습니다.
 **문제:** 사용자가 iOS 장치를 등록하지만 Configuration Manager 관리 콘솔에 나타나지 않습니다. 장치가 등록되었다는 것을 나타내지 않습니다. 가능한 원인:
 
 - Intune 커넥터를 하나의 계정에 등록한 다음 또 다른 계정에 등록했을 수 있습니다.
@@ -227,13 +277,13 @@ ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
 
 
 1. 새 APN 인증서를 가져와서 업로드합니다. Configuration Manager 왼쪽 창에서 Intune 구독을 마우스 오른쪽 단추로 클릭합니다. **APNs 인증서 요청 만들기**를 선택하고 지침에 따릅니다.
-## System Center Configuration Manager with Intune 사용 시 문제
-### 모바일 장치가 사라집니다.
+## <a name="issues-when-using-system-center-configuration-manager-with-intune"></a>System Center Configuration Manager with Intune 사용 시 문제
+### <a name="mobile-devices-disappear"></a>모바일 장치가 사라집니다.
 **문제:** 모바일 장치를 Configuration Manager에 성공적으로 등록한 후 모바일 장치가 모바일 장치 컬렉션에서 사라집니다. 하지만 장치에는 여전히 관리 프로필이 있고 CSS 게이트웨이에는 이 장치가 나열됩니다.
 
 **해결 방법:** 이런 일은 도메인에 가입되지 않은 장치를 제거하는 사용자 지정 프로세스가 있거나 사용자가 장치를 가입에서 더 이상 사용하지 않으면 발생할 수 있습니다. 어느 프로세스나 사용자 계정이 Configuration Manager 콘솔에서 장치를 제거했는지 확인하려면 다음 절차를 수행하세요.
 
-#### 장치가 제거된 방법 확인
+#### <a name="check-how-device-was-removed"></a>장치가 제거된 방법 확인
 
 1.  Configuration Manager 관리자 콘솔에서 **모니터링** &gt; **시스템 상태** &gt; **상태 메시지 쿼리**를 선택합니다.
 
@@ -250,12 +300,12 @@ ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
 
 
 
-### 기타 iOS 등록 오류
+### <a name="other-ios-enrollment-errors"></a>기타 iOS 등록 오류
 iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장치를 등록하는 동안 오류가 발생하는 경우](/intune/enduser/using-your-ios-or-mac-os-x-device-with-intune)에서 제공됩니다.
 
-## PC 문제
+## <a name="pc-issues"></a>PC 문제
 
-### 컴퓨터가 이미 등록되었습니다. - 오류: hr 0x8007064c
+### <a name="the-machine-is-already-enrolled-error-hr-0x8007064c"></a>컴퓨터가 이미 등록되었습니다. - 오류: hr 0x8007064c
 **문제:** **컴퓨터가 이미 등록되었습니다.**라는 오류와 함께 등록에 실패합니다. 등록 로그에 **hr 0x8007064c** 오류가 표시됩니다.
 
 컴퓨터가 이전에 등록되었거나, 등록된 컴퓨터의 복제 이미지를 사용하기 때문일 수 있습니다. 이전 계정의 계정 인증서가 컴퓨터에 아직 존재합니다.
@@ -278,7 +328,7 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
     > 이 섹션, 방법, 또는 작업에는 레지스트리를 수정하는 방법이 포함됩니다. 하지만, 레지스트리를 잘못 수정하면 심각한 문제가 발생할 수 있습니다. 따라서, 단계를 신중하게 따라야 합니다. 추가적인 보호를 위해, 수정하기 전에 레지스트리를 백업하세요. 그러면 문제가 발생했을 때 레지스트리를 복원할 수 있습니다.
     > 레지스트리를 백업하고 복원하는 방법에 대한 자세한 내용은 [How to back up and restore the registry in Windows](https://support.microsoft.com/en-us/kb/322756)(Windows에서 레지스트리를 백업하고 복원하는 방법)을 참조하세요.
 
-## 일반적인 등록 오류 코드
+## <a name="general-enrollment-error-codes"></a>일반적인 등록 오류 코드
 
 |오류 코드|가능한 문제|권장되는 해결 방법|
 |--------------|--------------------|----------------------------------------|
@@ -302,11 +352,11 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 
 
 
-### 다음 단계
+### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Nov16_HO2-->
 
 
