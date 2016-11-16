@@ -1,3 +1,24 @@
+<<<<<<< HEAD
+---
+experimental: true
+experiment_id: lindavr-hubpage-20160925
+asset_id: 3414479e-e548-4753-bcf7-6322b43221fd
+layout: HubPage
+title: "Intune 설명서 | Microsoft 문서"
+description: "Microsoft Intune 모바일 장치 및 응용 프로그램 관리에 대한 기술 문서"
+keywords: "intune 설명서, 앱 관리, 장치 관리, MDM 설명서, MAM 설명서"
+author: arob98
+ms.author: angrobe
+manager: angrobe
+ms.date: 10/07/2016
+ms.topic: hubpage
+ms.service: microsoft-intune
+ms.suite: ems
+ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
+translationtype: Human Translation
+ms.sourcegitcommit: 63317c16082b1fb2764bd698c97fa1d435f58dfe
+ms.openlocfilehash: 1108adb5622c3cdb7720e07a53a35957ce80cca6
+||||||| merged common ancestors
 ---
 experimental: true
 experiment_id: lindavr-hubpage-20160925
@@ -18,14 +39,45 @@ translationtype: Human Translation
 ms.sourcegitcommit: 63317c16082b1fb2764bd698c97fa1d435f58dfe
 ms.openlocfilehash: 1108adb5622c3cdb7720e07a53a35957ce80cca6
 
+=======
+---
+experimental: true
+experiment_id: lindavr-hubpage-20160925
+asset_id: 3414479e-e548-4753-bcf7-6322b43221fd
+layout: HubPage
+title: "Intune 설명서 | Microsoft 문서"
+description: "Microsoft Intune 모바일 장치 및 응용 프로그램 관리에 대한 기술 문서"
+keywords: "intune 설명서, 앱 관리, 장치 관리, MDM 설명서, MAM 설명서"
+author: arob98
+ms.author: angrobe
+manager: angrobe
+ms.date: 10/07/2016
+ms.topic: hubpage
+ms.service: microsoft-intune
+ms.suite: ems
+ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
+translationtype: Human Translation
+ms.sourcegitcommit: 315c159869303fd6a26caa35160d5ba3c7ccdc1f
+ms.openlocfilehash: db637ebb1165466493b633012ab170059678996c
+
+>>>>>>> cbfbf499eccf5c2397decf9af598d6cda806b377
+
+<<<<<<< HEAD
 
 ---
 # Intune 설명서
+||||||| merged common ancestors
+---
+# Intune 설명서
+=======
+---
+# <a name="intune-documentation"></a>Intune 설명서
+>>>>>>> cbfbf499eccf5c2397decf9af598d6cda806b377
 <article id="main">
     <section id="hero-content">
       <h1>Intune 설명서</h1>
       <h2>Microsoft Intune, 모바일 장치 및 응용 프로그램 관리 서비스를 배포하고 관리하는 방법을 알아보세요.</h2>
-      <h3>Configuration Manager가 포함된 Intune을 관리하시겠습니까? <a href="https://docs.microsoft.com/en-us/sccm/mdm/understand/hybrid-mobile-device-management" target="_blank">하이브리드 모바일 장치 관리 살펴보기 &rarr;</a></h3>
+      <h3>Configuration Manager가 포함된 Intune을 관리하시겠습니까? <a href="https://docs.microsoft.com/en-us/sccm/mdm/understand/hybrid-mobile-device-management" target="_blank">Read about hybrid mobile device management&rarr;(하이브리드 모바일 장치 관리 살펴보기)</a></h3>
     </section>
     <section id="featured" class="container">
       <h2 class="section-heading"><span class="icon icon-warning"></span> 주요 콘텐츠</h2>
@@ -263,7 +315,7 @@ ms.openlocfilehash: 1108adb5622c3cdb7720e07a53a35957ce80cca6
       <div class="resource-list row">
           <ul class="column-half">
           <li><a href="https://microsoftintune.uservoice.com/" target="_blank">Intune 기능에 대한 피드백 제공</a></li>
-          <li><a href="https://microsoftintune.uservoice.com/forums/297408-issues/category/113871-documentation" target="_blank">Intune 설명서에 대한 피드백 제공</a></li>
+          <li><a href="https://microsoftintune.uservoice.com/forums/291681-ideas/category/115707-documentation" target="_blank">설명서에 대한 피드백 제공</a></li>
           <li><a href="https://gallery.technet.microsoft.com/site/search?f%5B0%5D.Type=User&f%5B0%5D.Value=ECM%20Docs%20Team%20-%20MSFT" target="_blank">Intune 설명서 다운로드</a></li>
           </ul>
           <ul class="column-half">
@@ -278,13 +330,13 @@ ms.openlocfilehash: 1108adb5622c3cdb7720e07a53a35957ce80cca6
       <p>Intune에 대한 최신 정보</p>
       <ol class="action-list">
         <li><a href="https://blogs.technet.com/b/microsoftintune/" target="_blank" class="button-bordered button-translucent">Intune 팀 블로그</a></li>
-        <li><a href="https://twitter.com/msintune/" target="_blank" class="button-bordered button-translucent">Twitter에서 @MSIntune</a></li>
+        <li><a href="https://twitter.com/msintune/" target="_blank" class="button-bordered button-translucent">Twitter의 @MSIntune</a></li>
       </ol>
     </aside>
 </article>
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO2-->
 
 
