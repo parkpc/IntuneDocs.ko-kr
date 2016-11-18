@@ -5,22 +5,22 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 09/23/2016
+ms.date: 11/17/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
 translationtype: Human Translation
-ms.sourcegitcommit: 030db4b1520a4f06756c0feac69de352aab6f473
-ms.openlocfilehash: 1dba9553c97e9e02fd4b080915756f4f23ed8635
+ms.sourcegitcommit: 0c6c9d44e6a328b4bfb3827f54ac35b83e3c7aac
+ms.openlocfilehash: e3aec8468dab4796cdc9b4afd783219f8aeef00b
 
 
 ---
 
-# Microsoft Intune 용어
+# <a name="microsoft-intune-glossary"></a>Microsoft Intune 용어
 
-## A
+## <a name="a"></a>A
 
 |||
 |-|-|
@@ -29,12 +29,12 @@ ms.openlocfilehash: 1dba9553c97e9e02fd4b080915756f4f23ed8635
 |사용 가능한 설치|이 작업을 통해 앱을 배포하면 앱이 회사 포털에 표시되어 사용자가 [요청 시 앱을 설치](/intune/deploy-use/deploy-apps)할 수 있습니다.|
 |Azure 포털|곧 도입될 Intune용 새 콘솔입니다. 현재는 Azure Portal을 사용하여 장치에 대한 [Intune MAM 정책](/intune/deploy-use/azure-portal-for-microsoft-intune-mam-policies)을 만들 수 있습니다.|
 
-## B
+## <a name="b"></a>B
 |||
 |-|-|
 |BYOD|[Bring Your Own Device](/intune/get-started/choose-how-to-enroll-devices1)를 의미합니다. 사용자가 자신의 장치에 Intune 회사 포털 앱을 설치한 후 메일, 회사 앱, 회사 데이터 및 지원과 같은 회사 리소스에 액세스할 수 있습니다.| 
 
-## C
+## <a name="c"></a>C
 |||
 |-|-|
 |인증서 프로필|Wi-Fi, 메일 또는 VPN 프로필을 사용할 경우 이 정책 형식을 사용하여 인증서를 통해 [회사 리소스에 대한 액세스를 보호](/intune/deploy-use/secure-resource-access-with-certificate-profiles)합니다.|
@@ -46,7 +46,7 @@ ms.openlocfilehash: 1dba9553c97e9e02fd4b080915756f4f23ed8635
 |조건부 액세스|설정한 규칙을 준수하는 장치에서만 [회사 메일, Office 365 및 기타 서비스에 액세스할 수 있도록 허용](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)합니다.|
 |사용자 지정 정책|일반 구성 정책에 요구 사항을 충족하는 기본 제공 설정이 포함되지 않은 경우 [이러한 정책을 사용](/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies)합니다. 사용자 지정 정책을 사용하여 Apple Configurator 또는 OMA-URI와 같은 다른 방법으로 설정을 만들 수 있습니다.|
 
-## D
+## <a name="d"></a>D
 |||
 |-|-|
 |배포|관리하는 장치 또는 사용자에게 앱 또는 정책을 보내는 동작입니다.|
@@ -54,7 +54,7 @@ ms.openlocfilehash: 1dba9553c97e9e02fd4b080915756f4f23ed8635
 |장치 등록 관리자|조직에서는 Intune을 사용하여 단일 사용자 계정으로 많은 수의 모바일 장치를 관리할 수 있습니다. [DEM(장치 등록 관리자)](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) 계정은 장치를 최대 1,000개 등록할 수 있는 특수한 Intune 계정입니다.|
 |장치 그룹 매핑|관리자 또는 최종 사용자가 장치에 할당할 수 있는 장치의 범주(예: "개인" 또는 "영업")에 따라 [장치를 자동으로 그룹에 추가](/intune/deploy-use/categorize-devices-with-device-group-mapping-in-microsoft-intune)할 수 있게 해줍니다.|
 
-## E
+## <a name="e"></a>E
 |||
 |-|-|
 |전자 메일 프로필|이 정책을 사용하여 모바일 장치에서 특정 메일 클라이언트에 대한 [메일 액세스 설정](/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune)을 지정하여 최종 사용자가 수행해야 하는 설정의 양을 최소화할 수 있습니다.|
@@ -62,22 +62,22 @@ ms.openlocfilehash: 1dba9553c97e9e02fd4b080915756f4f23ed8635
 |최종 사용자|Intune을 사용하여 관리하는 [휴대폰 및 PC와 같은 장치의 사용자](/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune)입니다.|
 |등록|Microsoft Intune에서는 [등록](/intune/deploy-use/enroll-devices-in-microsoft-intune)을 사용하여 장치를 관리하며 리소스에 대한 액세스를 허용합니다.|
 
-## F
+## <a name="f"></a>F
 |||
 |-|-|
 |FastTrack|적격 플랜에 150개의 라이선스가 포함된 Intune 사용자에 대한 [Microsoft 서비스](https://technet.microsoft.com/library/mt228265.aspx)입니다. 이 서비스를 사용하여 Microsoft 전문가는 관리자와 협력하여 Intune을 시작 및 실행할 수 있게 합니다.|
 
-## G
+## <a name="g"></a>G
 |||
 |-|-|
 |Groups|그룹을 사용하면 [사용자 또는 장치를 논리적으로 함께 수집](/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)할 수 있습니다. 예를 들어 모든 Windows PC가 포함된 그룹을 만들 수 있습니다. 그런 다음 이러한 그룹에 앱 및 정책을 배포할 수 있습니다.|
 
-## H
+## <a name="h"></a>H
 |||
 |-|-|
 |하이브리드|[System Center Configuration Manager 콘솔을 통해](/intune/get-started/integration-with-cloud-services) Intune에 등록된 장치를 관리할 수 있는 구성입니다.|
 
-## I
+## <a name="i"></a>I
 |||
 |-|-|
 |Intune 관리 콘솔|대부분의 Intune 관리 작업에 사용하는 현재 콘솔입니다.|
@@ -85,12 +85,12 @@ ms.openlocfilehash: 1dba9553c97e9e02fd4b080915756f4f23ed8635
 |Intune 소프트웨어 게시자|[배포할 앱을 정의하고 이러한 앱을 클라우드 저장소 공간에 업로드](/intune/deploy-use/add-apps)하는 데 사용하는 도구입니다.|
 |재고|관리하는 장치의 [하드웨어 및 설치된 소프트웨어](/intune/deploy-use/understand-your-devices-with-inventory-in-microsoft-intune)를 확인하는 데 사용합니다.|
 
-## K
+## <a name="k"></a>K
 |||
 |-|-|
 |키오스크 모드|[일반 구성 정책](/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies)의 일부로 구성된 이 모드를 사용하여 장치를 잠글 수 있습니다. 예를 들어 하나의 앱만 실행될 수 있도록 소매용 장치를 구성할 수 있습니다.|
 
-## M
+## <a name="m"></a>M
 |||
 |-|-|
 |Managed Browser|Microsoft Intune을 사용하여 조직에서 배포할 수 있는 [웹 브라우징 응용 프로그램](/intune/deploy-use/manage-internet-access-using-managed-browser-policies)입니다. 관리 브라우저 정책은 관리 브라우저의 사용자가 방문할 수 있는 웹 사이트를 제한하는 허용 목록 또는 차단 목록을 구성합니다.|
@@ -100,19 +100,19 @@ ms.openlocfilehash: 1dba9553c97e9e02fd4b080915756f4f23ed8635
 |모바일 앱 프로비전 정책|배포하는 iOS 앱에 대한 [프로비전 프로필](/intune/deploy-use/ios-mobile-app-provisioning-profiles)이 만료되지 않게 하는 iOS 정책입니다.|
 |모바일 앱 구성 정책|호환되는 iOS 앱이 실행될 때 [호환되는 iOS 앱에 설정을 제공](/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)하는 데 사용되는 iOS 정책입니다(예: 회사 이름 또는 서버 주소).|
 
-## O
+## <a name="o"></a>O
 |||
 |-|-|
 |OMA-DM|Open Mobile Alliance Device Management를 의미합니다. 많은 하드웨어 제조업체에서 모바일 장치 및 PC의 기능을 제어할 수 있도록 하는 사용되는 업계 표준 장치 관리 프로토콜입니다.|
 |OMA URI|Open Mobile Alliance Uniform Resource Identifier를 의미합니다. 이러한 식별자는 OMA-DM 표준을 준수하는 개별 장치 설정을 식별합니다. 요구 사항을 충족하는 기본 제공 설정이 없는 경우 [Intune 사용자 지정 정책](/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies)에 이러한 식별자를 여러 개 사용할 수 있습니다.|
 
-## P
+## <a name="p"></a>P
 |||
 |-|-|
 |정책|Intune에서 장치로 전송되는 [정보 패키지](/intune/deploy-use/microsoft-intune-policy-reference)입니다. 예를 들어 보안 설정 또는 장치 준수 정보를 장치에 배포할 수 있습니다.|
 |암호 재설정|지원되는 장치에서 강제로 최종 사용자가 [암호를 재설정](/intune/deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune)하도록 하는 Intune 기능입니다.|
 
-## R
+## <a name="r"></a>R
 |||
 |-|-|
 |원격 잠금|장치를 소유하지 않는 경우에도 [지원되는 장치를 잠글](/intune/deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune) 수 있는 Intune 기능입니다.|
@@ -120,24 +120,26 @@ ms.openlocfilehash: 1dba9553c97e9e02fd4b080915756f4f23ed8635
 |필수 설치|이 작업을 통해 앱을 배포하면 앱이 [사용자 개입 없이](/intune/deploy-use/deploy-apps) 장치에 설치됩니다(그러나 일부 플랫폼의 경우 최종 사용자가 설치에 동의해야 할 수 있음).|
 |요구 사항|앱이 설치되기 전에 장치에서 충족되어야 하는 요구 사항을 선택할 수 있는 [앱 배포 작업](/en-us/intune/deploy-use/add-apps)입니다. 예를 들어 앱이 설치되기 전에 설치되어야 하는 iOS의 OS 버전을 지정할 수 있습니다.|
 
-## S
+## <a name="s"></a>S
 |||
 |-|-|
 |선택적 초기화|[선택적 초기화](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune)는 MAM(모바일 앱 관리) 데이터(해당하는 경우), 설정 및 메일 프로필을 비롯한 회사 데이터만 장치에서 제거합니다. 선택적 초기화는 사용자의 개인적인 데이터를 장치에 남겨둡니다.|
+|구독|Intune 테넌트에 액세스하는 데 사용되는, 직접 입력한 계약입니다.|
 
-## T
+## <a name="t"></a>T
 |||
 |-|-|
 |TeamViewer|Intune 소프트웨어 클라이언트로 관리되는 Windows PC에 [원격 지원 기능](/intune/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client#request-and-provide-remote-assistance-for-windows-pcs)을 제공하기 위해 Intune과 작동하는 타사 응용 프로그램입니다.|
+|테넌트|구독을 통해 액세스할 수 있는 Intune 서비스의 단일 인스턴스입니다.|
 |사용 조건|사용자가 회사 포털을 사용하여 등록하고 작업에 액세스하기 전에 먼저 [읽고 동의](/intune/deploy-use/terms-and-condition-policy-settings-in-microsoft-intune)해야 하는 정보를 포함한, 사용자에게 배포할 정책 형식입니다.|
 
-## V
+## <a name="v"></a>V
 |||
 |-|-|
 |대량 구매 앱|일부 앱 스토어는 회사에서 실행하려는 앱의 라이선스를 여러 개 구매하는 기능을 제공합니다. Intune에서는 앱 스토어에서 라이선스 정보를 가져오고 사용한 라이선스 수를 추적하며 소유한 것보다 많은 앱 복사본을 설치할 수 없도록 하여 [이러한 프로그램을 통해 구매](/intune/deploy-use/manage-volume-purchased-apps-in-microsoft-intune)한 앱의 관리를 지원합니다.|
 |VPN 프로필|관리하는 장치에 [VPN 설정](/intune/deploy-use/vpn-connections-in-microsoft-intune)을 배포하여 최종 사용자에게 필요한 설정을 최소화하는 정책입니다.|
 
-## W
+## <a name="w"></a>W
 |||
 |-|-|
 |Wi-Fi 프로필|사용자가 설정을 알거나 구성할 필요 없이 회사 네트워크에 연결할 수 있도록 장치에 [무선 네트워크 설정](/intune/deploy-use/wi-fi-connections-in-microsoft-intune)을 배포하는 정책입니다.
@@ -147,6 +149,6 @@ ms.openlocfilehash: 1dba9553c97e9e02fd4b080915756f4f23ed8635
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Nov16_HO3-->
 
 
