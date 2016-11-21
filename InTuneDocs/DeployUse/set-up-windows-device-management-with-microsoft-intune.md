@@ -2,9 +2,8 @@
 title: "Microsoft Intune을 사용한 Windows 장치 관리 설정 | Microsoft Intune"
 description: "Microsoft Intune으로 Windows 10 장치를 비롯한 Windows Phone PC에 대한 MDM(모바일 장치 관리)을 설정합니다."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
-manager: angrobe
+author: staciebarker
+manager: stabar
 ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
@@ -14,13 +13,13 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dfc5241376033471a232b059ac07fa4488f05514
-ms.openlocfilehash: c405408bd6a1e2b0743566e413436aefbaa7018b
+ms.sourcegitcommit: d51f34dea3463bec83ea39cdfb79c7bedf9e3926
+ms.openlocfilehash: 78137299b1c4e18fe68e1f9720a2111d1794e177
 
 
 ---
 
-# Windows 장치 관리 설정
+# <a name="set-up-windows-device-management"></a>Windows 장치 관리 설정
 
 Intune 관리자는 두 가지 방법으로 Windows PC 등록 및 관리를 수행하도록 설정할 수 있습니다.
 
@@ -29,7 +28,7 @@ Intune 관리자는 두 가지 방법으로 Windows PC 등록 및 관리를 수�
 
 [!INCLUDE[AAD-enrollment](../includes/win10-automatic-enrollment-aad.md)]
 
-## 회사 포털 앱 등록 설정
+## <a name="set-up-company-portal-app-enrollment"></a>회사 포털 앱 등록 설정
 사용자가 Intune 회사 포털 앱을 사용하여 장치를 설치하고 등록하도록 할 수 있습니다. DNS CNAME 리소스 레코드를 만들면 사용자가 서버 이름을 입력하지 않고도 Intune에서 연결 및 등록합니다.
 
 1. **Intune 설정**<br>
@@ -54,17 +53,21 @@ MDM(모바일 장치 관리)을 아직 준비하지 않은 경우 [모바일 장
 
   ![Windows 장치 관리 대화 상자](../media/enroll-intune-winenr.png)
 
-4.  **선택적 단계**<br>Windows 10에서는 **테스트용 로드 키 추가** 단계를 수행할 필요가 없습니다. **코드 서명 인증서 업로드** 단계는 Windows 스토어에서 사용할 수 없는 LOB(기간 업무) 앱을 장치에 배포하려는 경우에만 수행하면 됩니다. [자세한 정보](set-up-windows-phone-8.0-management-with-microsoft-intune.md).
+4.  **선택적 단계**<br>Windows 10에서는 **테스트용 로드 키 추가** 단계를 수행할 필요가 없습니다. **코드 서명 인증서 업로드** 단계는 Windows 스토어에서 사용할 수 없는 LOB(기간 업무) 앱을 장치에 배포하려는 경우에만 수행하면 됩니다.
 
-6.  **사용자에게 알림**<br>장치를 등록하는 방법과 장치가 관리될 때 발생하는 상황에 대한 정보를 사용자에게 제공해야 합니다.
-      - [Microsoft Intune 사용 방법에 대해 최종 사용자에게 알릴 내용](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+6.  **장치를 등록하는 방법과 장치가 관리될 때 발생하는 상황에 대한 정보를 사용자에게 제공해야 합니다.**
+
+    최종 사용자 등록 지침은 [Intune에서 Windows 장치 등록](../enduser/enroll-your-device-in-intune-windows.md)을 참조하세요.
+
+    최종 사용자 작업에 대한 자세한 내용은 다음 문서를 참조하세요.
+      - [Microsoft Intune에서 최종 사용자 환경 관련 리소스](what-to-tell-your-end-users-about-using-microsoft-intune.md)
       - [Windows 장치용 최종 사용자 가이드](../enduser/using-your-windows-device-with-intune.md)
 
-### 참고 항목
-[Microsoft Intune에서 장치 등록을 위한 필수 조건](prerequisites-for-enrollment.md)
+### <a name="see-also"></a>참고 항목
+[Microsoft Intune에서 장치 등록을 위한 필수 구성 요소](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO2-->
 
 
