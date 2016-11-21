@@ -13,8 +13,8 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d51f34dea3463bec83ea39cdfb79c7bedf9e3926
-ms.openlocfilehash: 78137299b1c4e18fe68e1f9720a2111d1794e177
+ms.sourcegitcommit: 3f28cce75626df1115283dc98547adcb97ee1cb4
+ms.openlocfilehash: 9929294dd93e7bad47e6674ccafab0c036a1f89c
 
 
 ---
@@ -34,7 +34,11 @@ Intune 관리자는 두 가지 방법으로 Windows PC 등록 및 관리를 수�
 1. **Intune 설정**<br>
 MDM(모바일 장치 관리)을 아직 준비하지 않은 경우 [모바일 장치 관리 기관](prerequisites-for-enrollment.md#set-mobile-device-management-authority)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
 
-2. **CNAME 만들기**(선택 사항)<br>등록을 쉽게 수행할 수 있도록 회사 도메인용 **CNAME** DNS 리소스 레코드를 만듭니다. CNAME DNS 항목은 선택 사항이지만 CNAME 레코드를 통해 보다 쉽게 등록할 수 있습니다. 등록 CNAME 레코드가 없으면 사용자에게 MDM 서버 이름인 `https://manage.microsoft.com`을 수동으로 입력하라는 메시지가 표시됩니다. CNAME 리소스 레코드에는 다음 정보가 포함되어야 합니다.
+2. **CNAME 만들기**(선택 사항)<br>회사의 도메인에 대한 **CNAME** DNS 리소스 레코드를 만들어야 합니다. 예를 들어, 회사의 웹 사이트가 contoso.com인 경우 DNS에 EnterpriseEnrollment.contoso.com을 enterpriseenrollment-s.manage.microsoft.com으로 리디렉션하는 CNAME을 만듭니다.
+
+    DNS에 EnterpriseEnrollment.contoso.com을 manage.microsoft.com으로 리디렉션하는 CNAME가 있다면 이 DNS의 CNAME를 EnterpriseEnrollment.contoso.com을 enterpriseenrollment-s.manage.microsoft.com으로 리디렉션하는 CNAME로 바꾸는 것이 좋습니다. manage.microsoft.com 끝점을 향후 릴리스에서 등록 시 사용하지 않기 때문에 이렇게 변경하는 것이 좋습니다.
+
+    CNAME 리소스 레코드에는 다음 정보가 포함되어야 합니다.
 
   |유형|호스트 이름|지시 대상|TTL|
   |--------|-------------|-------------|-------|
@@ -68,6 +72,6 @@ MDM(모바일 장치 관리)을 아직 준비하지 않은 경우 [모바일 장
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Nov16_HO3-->
 
 
