@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 10/31/2016
+ms.date: 11/16/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 4682b6b6-c9ef-483e-a6de-b8830cb98b63
 ms.reviewer: cacamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d332e46b27bea274a38355dfb01806160b1041ee
-ms.openlocfilehash: 44069a34c1c9c2fb05f2b250188fe45a7d419911
+ms.sourcegitcommit: 2c50c38843521dfc2c9df48305e619803f32b1e9
+ms.openlocfilehash: 8b0591195b58f5fa331d213cfe03a38aa5ffafdd
 
 
 ---
@@ -36,11 +36,12 @@ Intune을 Configuration Manager와 함께 사용할 경우 intune에 대한 지�
 2.  관리 타일을 선택합니다.
 3.  왼쪽의 **지원** 아래에서 **지원**을 선택하여 티켓을 엽니다. 다음과 같이 표시됩니다.
 
-    ![새 Intune 지원 티켓 열기](../media/suport-open-ticket.png)
+    ![새 Intune 지원 티켓 열기](../media/support-open-ticket.png)
 
     >[!NOTE]
     >
     >  라이선스가 100개 이하인 O365 계정이 있거나 있었던 고객은 다음이 표시되며 [지원 티켓을 여는 다른 방법](#alternate-method-to-open-a-support-ticket)을 참조해야 합니다.
+    >  
     > ![대체 Intune 지원](../media/alternate-support-ui.png)
 
     -   대금 청구, 라이선스 및 계정 문제에 대해서는 **대금 청구 및 제품 정보**를 선택합니다.
@@ -114,6 +115,6 @@ Intune 관련 문제를 자체적으로 해결하려는 경우 [Microsoft Intune
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

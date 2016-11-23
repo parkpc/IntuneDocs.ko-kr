@@ -2,43 +2,52 @@
 title: "Lookout for Work 앱 배포 | Microsoft Intune"
 description: "Android용 Lookout for Work 앱을 구성하고 배포합니다."
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 10/12/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 524c4209-ad57-4d35-955e-a00d796bf858
 ms.reviewer: sandera
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4a69be67c3ef9f028c77c738de5f1fcbd59a8d33
-ms.openlocfilehash: 2c626cb0a36c38c7b5deeca0ff1e902018540634
+ms.sourcegitcommit: 9bf5764d1e1bd73fd62e5033b2309fc8d5a912e4
+ms.openlocfilehash: 646bd62dcf95b37ce9154e4852612b17ab71f954
 
 
 ---
 
-# Lookout for Work 앱 구성 및 배포
+# <a name="configure-and-deploy-lookout-for-work-apps"></a>Lookout for Work 앱 구성 및 배포
 이 문서에서는 Android 및 iOS 장치에서 Lookout for Work 앱을 구성하고 배포하는 방법을 설명합니다.
 
-## Android(Google Play 스토어 앱)
+## <a name="android-google-play-store-app"></a>Android(Google Play 스토어 앱)
 
-* **1단계:**   [Microsoft Intune에서 모바일 장치용 앱 추가](https://docs.microsoft.com/en-us/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune) 항목에 설명된 대로 [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에서 Lookout for Work Android 앱을 업로드합니다.
+* **1단계**: [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에서 **앱**으로 이동하고 **앱 추가**를 선택합니다.   
+* **2단계**: 게시자의 **소프트웨어 설치** 페이지에서 **외부 링크**를 선택한 후 다음 URL을 지정합니다. https://play.google.com/store/apps/details?id=com.lookout.enterprise
 >[!NOTE]
-> 관리되는 브라우저가 필요한 상자는 클릭하지 마세요.
+>관리되는 브라우저가 필요한 상자는 클릭하지 마세요.
 
-![목록에서 Lookout for Work 앱을 보여 주는 Intune 관리 콘솔 앱 페이지 스크린샷](../media/mtp/lookout-app-listed-intune-console.png)
+* **3단계**:   **소프트웨어 설명** 페이지에서 다음 정보를 입력합니다.
+  * **게시자:** Lookout Mobile Security
+  * **이름:** Lookout for Work
+  * **설명:** Lookout은 우수한 보호 기능으로 장치를 모바일 위협으로부터 안전하게 지켜줍니다. Lookout 앱을 장치에 설치하면 앱이 위협으로부터 장치를 보호하고 위협을 발견하면 사용자는 물론, 사용자의 회사 관리자에게 알려줍니다.
+  * **범주:** 컴퓨터 관리
+* **4단계**: 완료하면 **Microsoft Intune으로 데이터를 업로드했습니다.** 메시지가 나타납니다.
 
-* **2단계:** 사용자에게 앱을 배포합니다. 위 화면에 표시된 Lookout for Work 앱을 선택한 후 **배포 관리**를 선택합니다.
+Intune 콘솔에서 **앱**을 클릭하면 목록에 Lookout for Work 앱이 보입니다. ![목록에 나타난 Lookout for work 앱을 보여주는 Intune 관리 콘솔 앱 페이지의 스크린샷](../media/mtp/lookout-app-listed-intune-console.png)
 
-  Lookout  콘솔의 등록 관리 옵션에 추가된 사용자와 동일한 사용자를 선택해야 합니다.  Lookout MTP에 사용자 그룹을 추가하는 방법에 대한 정보는 [Lookout 장치 위협 방지 구독 구성 섹션](set-up-your-subscription-with-lookout-mtp#configure-your-subscription-with-lookout-mtp)에 나온 3단계를 참조하세요.
->[!IMPORTANT]
-> Intune 앱 배포 마법사는 Azure AD 사용자 그룹을 인식하지 못하기 때문에 Intune 사용자 그룹을 대신 사용합니다. 따라서 [이](plan-your-user-and-device-groups.md) 항목에 설명한 대로, Lookout 콘솔에 등록된 Azure AD 사용자 그룹을 기반으로 Intune 사용자 그룹을 만들어야 합니다.
+* **5단계:** Lookout for Work 앱을 선택하고 **배포 관리**를 선택하여 사용자에게 앱을 배포합니다.
 
-Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵션를 선택합니다.
+  Lookout MTP 콘솔의 등록 관리 옵션에 추가한 사용자와 동일한 사용자를 선택해야 합니다.  Lookout MTP에 사용자 그룹을 추가하는 방법에 대한 정보는 [Lookout MTP 구독 구성 섹션](set-up-your-subscription-with-lookout-mtp#configure-your-subscription-with-lookout-mtp)에 나온 3단계를 참조하세요.
+  >[!IMPORTANT]
+  > Intune 앱 배포 마법사는 Azure AD 사용자 그룹을 인식하지 못하기 때문에 Intune 사용자 그룹을 대신 사용합니다. 따라서 [이](plan-your-user-and-device-groups.md) 항목에 설명한 대로, Lookout MTP 콘솔에 등록된 Azure AD 사용자 그룹을 기반으로 Intune 사용자 그룹을 만들어야 합니다.
+
+* **6단계**: Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치**를 선택합니다.
 
 
-## iOS(Lookout 앱의 엔터프라이즈 서명된 버전)
+## <a name="ios-enterprisesigned-version-of-lookout-app"></a>iOS(Lookout 앱의 엔터프라이즈 서명된 버전)
 
 * **1단계:** 장치에 **iOS 관리**가 설치되어 있는지 확인합니다. iOS 관리에 대해 장치를 설정하는 방법에 대한 자세한 내용은 [iOS 및 Mac 장치 관리 설정](set-up-ios-and-mac-management-with-microsoft-intune.md)을 참조하세요.
 
@@ -73,7 +82,7 @@ Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵�
 
 Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵션를 선택합니다.
 
-## 배포된 앱이 장치에서 열리면 어떻게 되나요?
+## <a name="what-happens-when-the-deployed-app-is-opened-on-the-device"></a>배포된 앱이 장치에서 열리면 어떻게 되나요?
 
 
 
@@ -84,11 +93,11 @@ Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵�
 
 * [Android 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](http://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
 
-## 다음 단계
+## <a name="next-steps"></a>다음 단계
 * [규정 준수 정책에서 장치 위협 방지 규칙 활성화](enable-device-threat-protection-rule-in-compliance-policy.md)
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO2-->
 
 

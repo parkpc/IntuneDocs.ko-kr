@@ -1,10 +1,11 @@
 ---
 title: "Microsoft Intune을 시작하기 전에 알아두어야 할 사항 | Microsoft Intune"
-description: "Intune 필수 구성 요소 및 요구 사항에 대한 링크가 있는 페이지"
+description: "Intune 필수 구성 요소 및 요구 사항에 대한 링크"
 keywords: 
-author: barlanmsft
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 11/10/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +14,15 @@ ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
-ms.openlocfilehash: d236a084caa3f82cb22d1f47583f1a0417e86d81
+ms.sourcegitcommit: 1ed86339103f165092776ec94b50c5a02d054236
+ms.openlocfilehash: 7a5ff0f021b487f4586ca3199c6db2cb0ada3930
 
 
 ---
 
-# Microsoft Intune을 시작하기 전에 알아두어야 할 사항
+# <a name="what-to-know-before-you-start-microsoft-intune"></a>Microsoft Intune을 시작하기 전에 알아두어야 할 사항
 
-Microsoft Intune의 설정을 시작하기 전에 다음 요구 사항을 각각 검토합니다.
+Microsoft Intune의 설정을 시작하기 전에 다음 요구 사항을 검토합니다.
 
 - [지원되는 모바일 장치 및 컴퓨터](supported-mobile-devices-and-computers.md)
 - [Intune 지원 웹 브라우저](supported-web-browsers.md)
@@ -37,6 +38,6 @@ Intune을 사용하기 전에 [Intune 모바일 장치 관리 기능](/intune/ge
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Nov16_HO2-->
 
 
