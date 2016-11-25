@@ -14,8 +14,8 @@ ms.assetid: 8519e411-3d48-44eb-9b41-3e4fd6a93112
 ms.reviewer: lancecra
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9d44a6494bed0758b9768045bd204ea0eb481636
-ms.openlocfilehash: 5900894ded0518f731ac76c3eac0332e5a3f6c4b
+ms.sourcegitcommit: e33dcb095b1a405b3c8d99ba774aee1832273eaf
+ms.openlocfilehash: df7f2683d8ae8860b7eaa0d1c37c7443830291a0
 
 
 ---
@@ -64,6 +64,25 @@ Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정�
 
 장치가 켜져 있고 연결되어 있는 경우 초기화 명령이 모든 장치 유형에서 전파되는 데 15분 미만이 걸립니다.
 
+#### <a name="to-delete-devices-in-the-azure-active-directory-portal"></a>Azure Active Directory 포털에서 장치를 삭제하려면
+
+1.  [http://aka.ms/accessaad](http://aka.ms/accessaad)로 이동하거나 [https://portal.office.com](https://portal.office.com)에서 **관리자** &gt; **Azure AD**를 선택합니다.
+
+2.  페이지의 왼쪽에 있는 링크를 사용하여 조직 ID로 로그인합니다.
+
+3.  조직 ID가 없다면 Azure 구독을 만듭니다. 유료 계정이 있는 경우 신용 카드나 결제가 필요하지 않습니다(**Register your free Azure Active Directory(무료 Azure Active Directory 등록)** 구독 링크 선택).
+
+4.  **Active Directory** 를 선택한 다음, 조직을 선택합니다.
+
+5.  **사용자** 탭을 선택합니다.
+
+6.  삭제하려는 장치의 사용자를 선택합니다.
+
+7.  **장치**를 선택합니다.
+
+8.  더 이상 사용 중이 아닌 장치나 정의가 부정확한 장치 등 장치를 적절하게 제거합니다.
+
+
 ## <a name="selective-wipe"></a>선택적 초기화
 
 **선택적 초기화**는 해당되는 MAM(모바일 앱 관리) 데이터, 설정, 메일 프로필을 비롯한 회사 데이터를 장치에서 제거합니다. 선택적 초기화는 사용자의 개인적인 데이터를 장치에 남겨둡니다. 그리고 장치가 Intune에서 제거됩니다. 다음 표에서는 제거되는 데이터와 선택적 초기화 후 장치에 남아 있는 데이터에 대한 영향을 설명합니다. (테이블은 플랫폼별로 구성됩니다.)
@@ -95,7 +114,7 @@ Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정�
 |Wi-Fi 및 VPN 프로필 설정|제거됩니다.|제거됩니다.|
 |인증서 프로필 설정|인증서가 해지되었지만 제거되지는 않았습니다.|인증서가 제거되고 해지되었습니다.|
 |관리 에이전트|장치 관리자 권한이 해지됩니다.|장치 관리자 권한이 해지됩니다.|
-|메일|Android에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다. Microsoft Exchange를 온-프레미스에서 호스트하는 경우 메일 프로필 및 캐시된 메일이 제거되지 않습니다.|
+|메일|Android에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다.|
 |Outlook|iOS에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.</br>예외: Exchange를 온-프레미스에서 호스트하는 경우 메일이 제거되지 않습니다.|iOS에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.</br>예외: Exchange를 온-프레미스에서 호스트하는 경우 메일이 제거되지 않습니다.|
 |AAD(Azure Active Directory) 가입 취소|AAD 레코드가 제거됩니다.|AAD 레코드가 제거됩니다.|
 |연락처 | 앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.|앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.
@@ -111,7 +130,7 @@ Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정�
 |메일|Windows 메일 및 첨부 파일용 메일 앱을 포함하는 EFS 지원 메일을 제거합니다.|지원 안 됨|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다.|Windows 메일 및 첨부 파일용 메일 앱을 포함하는 EFS 지원 메일을 제거합니다. Intune을 통해 프로비전된 메일 계정을 제거합니다.</br>**예외**: Microsoft Exchange를 온-프레미스에서 호스트하는 경우 메일 계정이 제거되지 않습니다.|
 |AAD(Azure Active Directory) 가입 취소|아니요.|아니요.|AAD 레코드가 제거됩니다.|해당 없음. Windows 10에서는 Azure Active Directory 가입 장치를 선택적으로 초기화할 수 없습니다.|
 
-## <a name="wipe-encryption-file-system-efsenabled-content"></a>EFS(암호화 파일 시스템) 지원 콘텐츠 초기화
+## <a name="wipe-encryption-file-system-efs-enabled-content"></a>EFS(암호화 파일 시스템) 지원 콘텐츠 초기화
 EFS로 암호화된 콘텐츠의 선택 초기화는 Windows 8.1 및 Windows RT 8.1에서 지원됩니다. 다음은 EFS 지원 콘텐츠의 선택적 초기화에 적용됩니다.
 
 -   Intune 계정과 동일한 인터넷 도메인을 사용하는 EFS로 보호되는 앱 및 데이터만 선택적으로 초기화됩니다. 자세한 내용은 [장치 데이터 관리를 위한 Windows 선택적 초기화](http://technet.microsoft.com/library/dn486874.aspx)를 참조하세요.
@@ -146,6 +165,6 @@ EFS로 암호화된 콘텐츠의 선택 초기화는 Windows 8.1 및 Windows RT 
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Nov16_HO4-->
 
 

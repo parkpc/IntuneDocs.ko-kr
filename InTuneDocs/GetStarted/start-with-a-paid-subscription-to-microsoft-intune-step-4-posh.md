@@ -2,10 +2,10 @@
 title: "PowerShell을 사용하여 Intune 라이선스 관리 | Microsoft Intune"
 description: "PowerShell을 사용하여 Intune 라이선스 관리"
 keywords: 
-author: barlanmsft
-ms.author: barlan
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 11/22/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: d2d31c80-c32c-4315-8271-1b0cf9a1f78a
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8f99159079002b9e44dd1ba328b0f2fc079770d8
-ms.openlocfilehash: 9a3e28cad00f99035b18182a33c24bcb714cca19
+ms.sourcegitcommit: 29b6e5a3d319c741482fcc2b600842e2e42b96e2
+ms.openlocfilehash: 8f0786bc821c4a93e5f1ff4bf3d693dd6d59ca8e
 
 
 ---
 
-# PowerShell을 사용하여 Intune 라이선스 관리
+# <a name="manage-intune-licenses-using-powershell"></a>PowerShell을 사용하여 Intune 라이선스 관리
 사용자가 로그인하여 Intune 서비스를 사용하거나 장치를 관리되는 상태로 등록하려면 먼저 [Intune 라이선스 관리](start-with-a-paid-subscription-to-microsoft-intune-step-4.md)에 각 사용자에게 Intune 구독에 사용할 라이선스를 할당해야 합니다. 그러나 Microsoft Enterprise Mobility + Security를 사용하는 조직에는 EMS 패키지의 Intune 서비스 또는 Azure Active Directory Premium만 필요한 사용자가 있을 수 있습니다. [Azure Active Directory PowerShell cmdlet](https://msdn.microsoft.com/library/jj151815.aspx)을 사용하여 한 가지 서비스 또는 서비스 하위 집합을 할당할 수 있습니다.
 
 EMS 서비스에 대해 사용자 라이선스를 선택적으로 할당하려면, [Windows PowerShell용 Azure Active Directory 모듈](https://msdn.microsoft.com/library/jj151815.aspx#bkmk_installmodule)이 설치된 컴퓨터에서 관리자로 PowerShell을 엽니다. PowerShell은 로컬 컴퓨터 또는 ADFS 서버에 설치할 수 있습니다.
@@ -60,7 +60,7 @@ EMS 서비스에 대해 사용자 라이선스를 선택적으로 할당하려�
 
 ![PoSH-AddLic-Verify](./media/posh-addlic-verify.png)
 
-### 다음 단계
+### <a name="next-steps"></a>다음 단계
 축하합니다. *Intune 빠른 시작 가이드*의 4단계를 완료했습니다.
 >[!div class="step-by-step"]
 
@@ -68,6 +68,6 @@ EMS 서비스에 대해 사용자 라이선스를 선택적으로 할당하려�
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 
