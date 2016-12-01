@@ -1,10 +1,11 @@
 ---
-title: "정책 만들기 및 앱 게시 | Microsoft Intune"
-description: "정책을 만들고 Intune 구독에 대한 앱 예제를 게시하는 방법을 설명합니다."
+title: "정책 및 앱 배포 | Microsoft Intune"
+description: "정책 설정을 사용하도록 설정하고 장치가 관리에 등록되면 즉시 적용되는 앱을 배포할 수 있습니다."
 keywords: 
-author: barlanmsft
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 11/22/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,94 +14,57 @@ ms.assetid: e0d8e98f-7dd8-4cbf-887c-a9af63ffe970
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
-ms.openlocfilehash: 0bf3eb60b60e8ad1c91d3010230a41ce5d863dfe
+ms.sourcegitcommit: 0d2a3e5c05180c1a3f2ee3bf91813df3b5fa7bc6
+ms.openlocfilehash: 679c49d135c9161ecae5db704a3f6c96add003dc
 
 
 ---
 
-# 정책 만들기 및 앱 게시
-Intune 정책은 모바일 장치에 대한 보안 설정을 제어하고, 컴퓨터에 대한 Windows 방화벽 및 Endpoint Protection 설정을 유지하고, 응용 프로그램을 배포하는 데 사용할 수 있는 설정을 제공합니다. [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](/Intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) 및 [Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](/Intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune) 항목에서 자세한 내용을 알아볼 수 있습니다.
+# <a name="create-policies-and-publish-apps"></a>정책 만들기 및 앱 게시
+Intune에 앱을 등록하기 전에 이러한 장치가 관리에 등록되는 즉시 배포되는 앱 및 정책 설정을 사용하도록 설정할 수 있습니다. Intune 정책은 모바일 장치에 대한 보안 설정을 제어하고, 컴퓨터에 대한 Windows 방화벽 및 Endpoint Protection 설정을 유지하고, 응용 프로그램을 배포하는 데 사용할 수 있는 설정을 제공합니다. 장치에 Intune에 등록되는 즉시 설정 및 앱을 받도록 정책을 구성하고 앱을 추가하고 이러한 앱을 배포할 수 있습니다.
 
-Intune을 사용하여 두 가지 유형의 앱 설치를 수행할 수 있습니다. 그 중 첫 번째는 관리 컴퓨터에 앱을 자동으로 배포하는 **필수 설치**입니다. 다른 하나는 사용자가 앱을 컴퓨터에 설치할지 아니면 모바일 장치에 설치할지를 선택할 수 있도록 해당 앱 또는 앱의 링크를 Intune 회사 포털에 배포하는 **사용 가능한 설치**입니다.
+정책 및 앱은 플랫폼마다 다릅니다.
 
-아래 단계에서는 모바일 장치 구성 정책과 Windows PC 방화벽 정책을 설정하고, 모바일 장치를 등록한 후 장치에 대해 사용 가능한 설치로 Skype를 구성합니다.
+## <a name="manage-device-settings"></a>장치 설정 관리
 
-> [!TIP]
-> 새 정책을 추가 및 배포하고 나면 정책을 배포한 그룹 내의 모든 사용자나 장치가 설정을 기준 정책으로 상속합니다. 나중에 정책 작업 영역에서 언제든지 이러한 정책의 세부 정보를 검토하고 편집할 수 있습니다.
+ 장치 정책 설정은 플랫폼별로 구성하고 관리합니다. 다음 플랫폼에 대한 정책을 구성할 수 있습니다.
 
+- [iOS](https://docs.microsoft.com/intune/deploy-use/ios-policy-settings-in-microsoft-intune)
+- [Android 및 Samsung KNOX Standard](https://docs.microsoft.com/intune/deploy-use/android-policy-settings-in-microsoft-intune)
+- [Android for Work](https://docs.microsoft.com/intune/deploy-use/android-for-work-policy-settings-in-microsoft-intune)
+- [Windows 10(PC 및 모바일)](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
+- [Windows 8.1](https://docs.microsoft.com/intune/deploy-use/windows-configuration-policy-settings-in-microsoft-intune)
+- [Windows Phone 8.1](https://docs.microsoft.com/intune/deploy-use/windows-phone-8-1-policy-settings-in-microsoft-intune)
+- [Windows 팀](https://docs.microsoft.com/intune/deploy-use/windows-team-configuration-policy-settings-in-microsoft-intune)
+- [Intune 소프트웨어 클라이언트를 실행하는 Windows PC](https://docs.microsoft.com/intune/deploy-use/policies-to-protect-windows-pcs-in-microsoft-intune)
 
-## 모바일 장치 구성 정책 만들기 및 배포
+[Microsoft Intune 정책을 사용하여 장치의 설정 및 기능을 관리](https://docs.microsoft.com/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies)하는 방법에 대해 자세히 알아볼 수 있습니다.
 
-1.   [Intune 관리 콘솔](https://manage.microsoft.com/)을 엽니다.
+## <a name="add-and-deploy-apps"></a>앱 추가 및 배포
 
-2.  왼쪽 창에서 **정책** 아이콘을 선택합니다.
+다음의 두 가지 방법으로 Intune에 앱을 추가한 다음 관리되는 장치에 배포할 수 있습니다.
+- **필수 설치** - 앱에서 관리되는 장치에 앱을 자동으로 설치합니다.
+- **사용 가능한 설치** - 앱이 Intune 회사 포털 앱에 표시되므로 사용자가 장치에 앱을 설치할지 여부를 선택할 수 있습니다.
 
-    ![admin-console-policy-workspace](./media/policy.png)
+### <a name="add-apps"></a>앱 추가
 
-3.  **정책 개요** 페이지의 **작업** 목록에서 **정책 추가**를 선택합니다.
+먼저 다음 방법 중 하나로 앱을 Intune에서 사용할 수 있게 만들어야 합니다.
+- [등록된 장치용 앱 추가](https://docs.microsoft.com/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune)
+- [Intune 소프트웨어 클라이언트 PC용 앱 추가](https://docs.microsoft.com/intune/deploy-use/add-apps-for-windows-pcs-in-microsoft-intune)
 
-4.  정책 목록에서 정책을 만들 플랫폼을 확장한 후 **일반 구성** > **권장 설정으로 정책 만들기 및 배포** > **정책 만들기**를 선택합니다.
+### <a name="deploy-apps"></a>앱 배포
 
-> [!NOTE]
-> 선택할 수 있는 다양한 옵션이 있으므로 장치 구성 정책에 대한 권장 설정은 없습니다. 사용자 지정 장치 구성 정책을 만들어야 합니다.
+Intune에서 앱을 사용할 수 있으므로 관리되는 장치에 앱을 배포할 수 있습니다.
+- [Deploy apps to devices](https://docs.microsoft.com/intune/deploy-use/deploy-use/deploy-apps-in-microsoft-intune)(장치에 앱 배포)
+- 대량 구매 앱 배포:
+    - [iOS - 대량 구매 프로그램](https://docs.microsoft.com/intune/deploy-use/manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune)
+    - [비즈니스용 Windows 스토어](https://docs.microsoft.com/intune/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune)
+    - [Android for Work](https://docs.microsoft.com/en-us/Intune/deploy-use/android-for-work-apps)
 
-
-5.  **이 정책을 배포할 그룹을 선택합니다.**라는 메시지가 표시되면 사용 가능한 그룹 목록에서 그룹을 선택하고 **추가** > **확인**을 선택합니다.
-
-정책이 **Intune 사용자** 그룹에 배포되며 구성 정책 목록에 표시됩니다. 해당 설정을 보려면 정책을 두 번 클릭합니다.
-
-## 모바일 장치용으로 Skype 앱 게시
-
-1.  [Intune 관리 콘솔](https://manage.microsoft.com/)에서 **앱** 아이콘을 선택한 다음 **앱** > **앱 추가**를 선택합니다. 메시지가 표시되면 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 자격 증명을 입력합니다.
-
-    ![admin-console-apps-workspace](./media/apps.png)
-
-    > [!NOTE]
-    > **Intune 소프트웨어 게시자** 를 처음으로 시작할 때에는 응용 프로그램이 설치되는 동안 짧은 지연이 발생합니다.
-
-2.  보안 경고를 검토하고 **실행**을 선택합니다.
-
-3.  **시작하기 전에** 페이지에서 **다음**을 선택합니다.
-
-4.  **소프트웨어 설치** 페이지의 **이 소프트웨어를 장치에 사용하도록 설정하는 방법 선택**에서 **외부 링크**를 선택합니다.
-
-5.  **URL 지정**에 소프트웨어의 외부 링크를 입력한 후 **다음**을 선택합니다. URL 앞에 **http://**가 추가되었는지 확인합니다. Skype 앱의 경우 사용 중인 모바일 장치 플랫폼과 일치하는 아래의 링크를 사용합니다.
-
-    -   **iOS:**   [https://itunes.apple.com/us/app/skype-for-iphone/id304878510?mt%3D8](https://itunes.apple.com/us/app/skype-for-iphone/id304878510?mt%3D8)
-
-    -   **Android:**  [https://play.google.com/store/apps/details?id=com.skype.raider](https://play.google.com/store/apps/details?id=com.skype.raider)
-
-    -   **Windows Phone 8 또는 Windows Phone 8.1:**  [http://www.windowsphone.com/en-us/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51](http://www.windowsphone.com/en-us/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51)
-
-6.  **소프트웨어 설명** 페이지에서 회사 포털의 소프트웨어 사용자에게 표시할 정보를 입력한 후 **다음**을 선택합니다. 다음 설정을 사용할 수 있습니다. 이 예제에서는 앱이 Skype라고 가정합니다.
-
-    -   **게시자:** 게시자 이름으로 “Microsoft”를 입력합니다.
-
-    -   **이름:** **Skype**를 입력합니다.
-
-    -   **설명:** **Skype 통신 앱** 등의 소프트웨어 설명을 입력합니다.
-
-    -   **범주:** 이 소프트웨어에 가장 잘 맞는 범주(예: **공동 작업**
-
-    -   **회사 포털에서 이 항목을 추천 앱 및 하이라이트로 표시합니다.** 이 옵션을 선택하면 앱이 모바일 장치의 회사 포털에서 눈에 띄게 표시됩니다.
-
-    -   **아이콘:** 아이콘을 소프트웨어와 연결할지 여부를 선택합니다. 선택적인 아이콘의 최대 크기는 250x250 픽셀이고 권장 크기는 32x32 픽셀입니다.
-
-7.  **요약** 페이지에서 소프트웨어 정보를 확인한 후 **업로드**를 선택합니다. **닫기**를 선택하여 마법사를 종료합니다.
-
-8.  [Intune 관리 콘솔](https://manage.microsoft.com/)에서 **앱** > **앱** > **Skype** > **배포 관리**를 선택합니다.
-
-9. **그룹 선택** 페이지에서 **Intune 사용자**를 선택하여 해당 사용자 그룹에 소프트웨어를 배포한 후 **추가** > **다음**을 선택합니다.
-
-10. **배포 작업** 페이지에 있는 그룹의 **승인** 열에서 **사용 가능한 설치** 를 선택합니다.
-
-11. **마침**을 선택합니다.
-
-이제 회사 포털에서 Skype 앱을 모바일 장치에 설치할 수 있지만, 그러려면 먼저 컴퓨터와 모바일 장치에 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 소프트웨어를 설치해야 합니다.
+    배포용 앱을 구성했으면 [앱을 구성](https://docs.microsoft.com/intune/deploy-use/update-apps-using-microsoft-intune)하고 [앱을 모니터링](https://docs.microsoft.com/intune/deploy-use/monitor-apps-in-microsoft-intune)할 수 있습니다.
 
 
-### 다음 단계
+### <a name="next-steps"></a>다음 단계
 축하합니다. *Intune quick start guide*(Intune 빠른 시작 가이드)의 6단계를 완료했습니다.
 
 >[!div class="step-by-step"]
@@ -109,6 +73,6 @@ Intune을 사용하여 두 가지 유형의 앱 설치를 수행할 수 있습�
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Nov16_HO4-->
 
 

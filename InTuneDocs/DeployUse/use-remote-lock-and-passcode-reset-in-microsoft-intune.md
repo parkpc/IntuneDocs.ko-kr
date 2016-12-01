@@ -13,8 +13,8 @@ ms.technology:
 ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
 ms.reviewer: chrisgre
 translationtype: Human Translation
-ms.sourcegitcommit: b76e9e16ef1fa6870783326630ae74d07ae59cbb
-ms.openlocfilehash: f69855f27ddc8ab6903c317383ef715f98590caf
+ms.sourcegitcommit: aae739b5ea8640449f180535a6d8f1550c7ae228
+ms.openlocfilehash: 8dc7f1c7eb32828854b4e2309c915f4fd0cba9a2
 
 ---
 # <a name="help-protect-your-devices-with-remote-lock-and-passcode-reset"></a>원격 잠금 또는 암호 재설정으로 장치 보호 지원
@@ -25,6 +25,7 @@ Microsoft Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다
 
 |플랫폼|원격 잠금|
 |------------|---------------|
+|macOS|지원되지 않음|
 |iOS|지원됨|
 |Android|지원됨|
 |Windows 10 및 Windows 10 Mobile|지원됨|
@@ -50,12 +51,14 @@ Intune 소프트웨어 클라이언트에 등록된 Windows PC에서는 원격 �
 
 |플랫폼|암호 재설정|
 |------------|------------------|
+|macOS|지원되지 않음|
 |iOS|장치에서 암호를 제거하도록 지원됩니다. 새로운 임시 암호를 만들지 않습니다.|
 |Android|Android 7.0 이전 버전에서 지원됩니다. 임시 암호를 만듭니다.|
 |Windows 10 Mobile|지원됨|
 |Windows Phone 8 및 Windows Phone 8.1|지원됨|
-|Windows RT 8.1 및 Windows RT|지원 안 됨|
+|Windows RT 8.1|지원 안 됨|
 |Windows 8.1|지원 안 됨|
+|Windows 10 Desktop|지원 안 됨|
 
 Intune 소프트웨어 클라이언트에 등록된 Windows PC에서는 암호 재설정이 지원되지 않습니다.
 
@@ -76,6 +79,6 @@ Intune 소프트웨어 클라이언트에 등록된 Windows PC에서는 암호 �
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 08/02/2016
+ms.date: 11/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d51f34dea3463bec83ea39cdfb79c7bedf9e3926
-ms.openlocfilehash: bdc462023f36d60c19dea9d67c7fb4be6d2a3043
+ms.sourcegitcommit: e33dcb095b1a405b3c8d99ba774aee1832273eaf
+ms.openlocfilehash: f279e79432f70214245854db42641535eaf65824
 
 
 ---
@@ -29,7 +29,7 @@ ms.openlocfilehash: bdc462023f36d60c19dea9d67c7fb4be6d2a3043
 
 문제 해결을 시작하기 전에 등록이 설정되도록 Intune을 올바르게 구성했는지 확인하세요. 다음에서 이러한 구성 요구 사항에 대해 자세히 읽어볼 수 있습니다.
 
--   [Microsoft Intune에 장치를 등록하도록 준비](/intune/deploy-use/gprerequisites-for-enrollment.md)
+-   [Microsoft Intune에 장치를 등록하도록 준비](/intune/deploy-use/prerequisites-for-enrollment.md)
 -   [iOS 및 Mac 장치 관리 설정](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
 -   [Microsoft Intune을 사용한 Windows Phone 및 Windows 10 Mobile 관리 설정](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)
 -   [Windows 장치 관리 설정](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
@@ -50,13 +50,13 @@ ms.openlocfilehash: bdc462023f36d60c19dea9d67c7fb4be6d2a3043
 ### <a name="device-cap-reached"></a>장치 최대값 도달
 **문제:** iOS 장치에서 발생하는 **회사 포털을 일시적으로 사용할 수 없음** 오류와 같은 오류가 등록하는 동안 사용자에게 표시되고, Configuration Manager의 DMPdownloader.log에 **DeviceCapReached**라는 오류가 포함됩니다.
 
-**해결 방법:** 기본적으로 사용자는 장치를 6개 이상 등록할 수 없습니다.
+**해결 방법:**
 
 #### <a name="check-number-of-devices-enrolled-and-allowed"></a>등록된 장치 수와 및 허용된 장치 수 확인
 
-1.  Intune 관리 포털에서 사용자에게 5개 이하의 장치가 할당되어 있는지 확인합니다.
+1.  Intune 관리 포털에서 사용자에게 허용되는 최대 수인 15개 이하의 장치가 할당되어 있는지 확인합니다.
 
-2.  관리\모바일 장치 관리자\등록 규칙의 Intune 관리 포털에서 장치 등록 제한이 5로 설정되어 있는지 확인합니다.
+2.  Intune 관리 포털의 관리\모바일 장치 관리자\등록 규칙 아래에서 장치 등록 제한이 15로 설정되어 있는지 확인합니다.
 
 모바일 장치 사용자는 다음 URL에서 장치를 삭제할 수 있습니다. [https://byodtestservice.azurewebsites.net/](https://byodtestservice.azurewebsites.net/).
 
@@ -89,7 +89,7 @@ ms.openlocfilehash: bdc462023f36d60c19dea9d67c7fb4be6d2a3043
 ### <a name="company-portal-temporarily-unavailable"></a>회사 포털을 일시적으로 사용할 수 없음
 **문제:** 장치에서 **회사 포털을 일시적으로 사용할 수 없음** 오류가 사용자에게 표시됩니다.
 
-#### <a name="troubleshooting-company-portal-temporarily-unavailable-error"></a>회사 포털을 일시적으로 사용할 수 없음 오류 문제 해결
+**해결 방법:**
 
 1.  장치에서 Intune 회사 포털 앱을 제거합니다.
 
@@ -104,7 +104,7 @@ ms.openlocfilehash: bdc462023f36d60c19dea9d67c7fb4be6d2a3043
 ### <a name="mdm-authority-not-defined"></a>MDM 기관이 정의되지 않았습니다
 **문제:** 사용자에게 **MDM 기관이 정의되지 않았습니다.** 오류가 표시됩니다.
 
-#### <a name="troubleshooting-mdm-authority-not-defined-error"></a>MDM 기관이 정의되지 않았습니다 오류 문제 해결
+**해결 방법:**
 
 1.  MDM 기관이 사용 중인 Intune 서비스 버전, 즉 Intune, O365 MDM 또는 System Center Configuration Manager with Intune에 대해 적절히 설정되었는지 확인합니다. Intune의 경우, MDM 기관은 **관리** &gt; **모바일 장치 관리**에 설정되어 있습니다. Intune의 Configuration Manager의 경우, Intune 커넥터를 구성할 때 설정하고, O365에서는 **모바일 장치** 설정입니다.
 
@@ -152,16 +152,65 @@ ms.openlocfilehash: bdc462023f36d60c19dea9d67c7fb4be6d2a3043
 
 
 ## <a name="android-issues"></a>Android 문제
+### <a name="devices-fail-to-check-in-with-the-intune-service-and-display-as-unhealthy-in-the-intune-admin-console"></a>장치가 Intune 서비스에 체크 인되지 않고 Intune 관리 콘솔에서 "비정상"으로 표시됨
+**문제:** Android 버전 4.4.x 및 5.x를 실행하는 일부 삼성 장치에서 Intune 서비스에 체크 인이 중지될 수 있습니다. 장치가 체크 인되지 않으면 다음과 같이 됩니다.
+
+- 장치가 Intune 서비스에서 정책, 앱 및 원격 명령을 받을 수 없습니다.
+- 관리자 콘솔에서 관리 상태가 **비정상**으로 표시됩니다.
+- 조건부 액세스 정책으로 보호되는 사용자가 회사 리소스에 액세스할 수 없게 될 수 있습니다.
+
+삼성에 따르면 일부 삼성 장치에 함께 제공되는 Samsung Smart Manager 소프트웨어는 Intune 회사 포털 및 해당 구성 요소를 비활성화할 수 있다고 합니다. 회사 포털이 비활성화된 상태이면 백그라운드에서 실행될 수 없으므로 Intune 서비스에 연결할 수 없습니다.
+
+**해결 방법 1:**
+
+사용자에게 회사 포털 앱을 수동으로 시작하도록 요청합니다. 앱이 다시 시작되면 장치가 Intune 서비스에 체크 인됩니다.
+
+> [!IMPORTANT]
+> Samsung Smart Manager가 회사 포털 앱을 다시 비활성화할 수 있으므로 회사 포털 앱을 수동으로 여는 방법은 일시적인 해결 방법입니다.
+
+**해결 방법 2:**
+
+사용자에게 Android 6.0으로 업그레이드해 보도록 요청합니다. Android 6.0 장치에서는 비활성화 문제가 발생하지 않습니다. 업데이트를 사용할 수 있는지 확인하려면 **설정** > **장치 정보** > **수동으로 업데이트 다운로드**로 이동하고 장치에 표시되는 메시지를 따릅니다.
+
+** 3:**
+
+해결 방법 2로 해결되지 않으면 사용자에게 다음 단계에 따라 Smart Manager에서 회사 포털 앱을 제외하도록 설정하라고 요청합니다.
+
+1. 장치에서 Smart Manager 앱을 시작합니다.
+
+  ![장치에서 Smart Manager 아이콘 선택](./media/smart-manager-app-icon.png)
+
+2. **배터리** 타일을 선택합니다.
+
+  ![배터리 타일 선택](./media/smart-manager-battery-tile.png)
+
+3. **앱 절전** 또는 **앱 최적화** 아래에서 **세부 정보**를 선택합니다.
+
+  ![앱 절전 또는 앱 최적화 아래에서 세부 정보 선택](./media/smart-manager-app-power-saving-detail.png)
+
+4. 앱 목록에서 **회사 포털**을 선택합니다.
+
+  ![앱 목록에서 회사 포털 선택](./media/smart-manager-company-portal.png)
+
+5. **꺼짐**을 선택합니다.
+
+  ![앱 최적화 대화 상자에서 꺼짐 선택](./media/smart-manager-app-optimization-turned-off.png)
+
+6. **앱 절전** 또는 **앱 최적화** 아래에서 회사 포털이 꺼져 있는지 확인합니다.
+
+  ![회사 포털이 꺼져 있는지 확인](./media/smart-manager-verify-comp-portal-turned-off.png)
+
+
 ### <a name="profile-installation-failed"></a>프로필 설치 실패
 **문제:** Android 장치에서 **프로필 설치 실패** 오류가 사용자에게 표시됩니다.
 
-### <a name="troubleshooting-steps-for-failed-profile-installation"></a>실패한 프로필 설치에 대한 문제 해결 절차
+**해결 방법:**
 
 1.  사용 중인 Intune 서비스 버전에 적절한 라이선스를 사용자에게 할당했는지 확인합니다.
 
 2.  장치가 아직 다른 MDM 공급자에게 등록하지 않았는지 또는 아직 관리 프로필을 설치하지 않았는지 확인합니다.
 
-4.  Android용 Chrome이 기본 브라우저이고 쿠키가 사용할 수 있도록 설정되어 있는지 확인합니다.
+3.  Android용 Chrome이 기본 브라우저이고 쿠키가 사용할 수 있도록 설정되어 있는지 확인합니다.
 
 ### <a name="android-certificate-issues"></a>Android 인증서 문제
 
@@ -255,7 +304,7 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 
 ## <a name="pc-issues"></a>PC 문제
 
-### <a name="the-machine-is-already-enrolled-error-hr-0x8007064c"></a>컴퓨터가 이미 등록되었습니다. - 오류: hr 0x8007064c
+### <a name="the-machine-is-already-enrolled---error-hr-0x8007064c"></a>컴퓨터가 이미 등록되었습니다. - 오류: hr 0x8007064c
 **문제:** **컴퓨터가 이미 등록되었습니다.**라는 오류와 함께 등록에 실패합니다. 등록 로그에 **hr 0x8007064c** 오류가 표시됩니다.
 
 컴퓨터가 이전에 등록되었거나, 등록된 컴퓨터의 복제 이미지를 사용하기 때문일 수 있습니다. 이전 계정의 계정 인증서가 컴퓨터에 아직 존재합니다.
@@ -307,6 +356,6 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Nov16_HO4-->
 
 

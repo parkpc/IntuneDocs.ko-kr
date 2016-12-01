@@ -14,60 +14,64 @@ ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
 ms.reviewer: oldang
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b25c7d7063ce586bb1cd960534f3e2ed57f6aec4
-ms.openlocfilehash: f70a32cf7db4d46f15cdef85e111a8857a1a0215
+ms.sourcegitcommit: ba4ace8106e83f3579cbaf98dcea8ef240a202a9
+ms.openlocfilehash: d150c97197e11d4a81727dca5ddd8eb1310aa193
 
 
 ---
 
 # <a name="prepare-ios-apps-for-mobile-application-management-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리를 위해 iOS 앱 준비
 
-iOS용 Microsoft Intune 앱 래핑 도구를 사용하여 사내 iOS 앱의 동작을 변경하면 해당 앱 코드를 변경하지 않고도 앱 기능을 제한할 수 있습니다.
+iOS용 Microsoft Intune 앱 래핑 도구를 사용하면 Intune 앱 자체의 코드를 변경하지 않고 해당 앱의 보호 기능을 사용하도록 설정하여 iOS 앱의 동작을 변경할 수 있습니다.
 
-이 도구는 앱 주위에 '래퍼'를 만드는 Mac OS 명령줄 응용 프로그램입니다. 앱을 처리한 후에는 설정하는 Intune [모바일 응용 프로그램 관리 정책](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 앱의 기능을 변경할 수 있습니다.
+이 도구는 앱 주위에 '래퍼'를 만드는 Mac OS 명령줄 응용 프로그램입니다. 앱을 처리한 후에는 IT 관리자가 배포한 Intune [모바일 응용 프로그램 관리 정책](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 앱의 기능을 변경할 수 있습니다.
 
-이 도구를 다운로드하려면 [Microsoft Intune App Wrapping Tool for iOS](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios)(iOS용 Microsoft Intune 앱 래핑 도구)를 참조하세요.
+이 도구를 다운로드하려면 GitHub에서 [Microsoft Intune App Wrapping Tool for iOS](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios)(iOS용 Microsoft Intune 앱 래핑 도구)를 참조하세요.
 
 
 
-## <a name="fulfill-the-prerequisites-for-using-the-app-wrapping-tool"></a>앱 래핑 도구 사용을 위한 필수 조건 준비
-필수 조건 및 이를 설정하는 방법을 자세히 알아보려면 [비즈니스용 Skype Online: 최신 인증을 사용하도록 테넌트 설정](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)을 참조하세요.
+## <a name="fulfill-the-prerequisites-for-the-app-wrapping-tool"></a>앱 래핑 도구의 필수 구성 요소 준비
+필수 구성 요소를 얻는 방법에 대해 알아보려면 [How to obtain prerequisites for the Intune App Wrapping Tool for iOS](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/)(iOS용 Intune 앱 래핑 도구에 대한 필수 구성 요소를 얻는 방법)를 참조하세요.
 
 |요구 사항|추가 정보|
 |---------------|--------------------------------|
-|지원되는 운영 체제 및 도구 집합|앱 래핑 도구는 Xcode 도구 집합 버전 5 이상이 설치된 OS X 10.8.5 이상의 macOS 컴퓨터에서 실행해야 합니다.|
-|인증서 및 프로비저닝 프로필 서명|Apple 서명 인증서 및 프로비저닝 프로필이 있어야 합니다. [Apple 개발자 설명서](https://developer.apple.com/)를 참조하세요.|
-|앱 래핑 도구를 사용하여 앱 처리|사용자의 회사나 ISV(Independent Software Vendor)에서 개발 및 서명한 앱이어야 합니다. 이 도구를 사용하여 Apple 스토어의 앱을 처리할 수는 없습니다. iOS 8.0 이상용으로 작성된 앱이어야 합니다. 또한 PIE(Position Independent Executable) 형식의 앱이어야 합니다. PIE 형식에 대한 자세한 내용은 Apple 개발자 설명서를 참조하세요. 마지막으로, 앱의 확장명이 **.app** 또는 **.ipa**여야 합니다.|
-|도구에서 처리할 수 없는 앱|암호화된 앱, 서명되지 않은 앱 및 확장된 파일 특성을 가진 앱입니다.|
+|지원되는 운영 체제 및 도구 집합 | 앱 래핑 도구는 Xcode 도구 집합 버전 5 이상이 설치된 OS X 10.8.5 이상의 macOS 컴퓨터에서 실행해야 합니다.|
+|인증서 및 프로비저닝 프로필 서명 | Apple 서명 인증서 및 프로비저닝 프로필이 있어야 합니다. [Apple 개발자 설명서](https://developer.apple.com/)를 참조하세요.|
+|앱 래핑 도구를 사용하여 앱 처리  |사용자의 회사나 ISV(Independent Software Vendor)에서 개발 및 서명한 앱이어야 합니다. 이 도구를 사용하여 Apple 스토어의 앱을 처리할 수는 없습니다. iOS 8.0 이상용으로 작성된 앱이어야 합니다. 또한 PIE(Position Independent Executable) 형식의 앱이어야 합니다. PIE 형식에 대한 자세한 내용은 Apple 개발자 설명서를 참조하세요. 마지막으로, 앱의 확장명이 **.app** 또는 **.ipa**여야 합니다.|
+|도구에서 처리할 수 없는 앱 | 암호화된 앱, 서명되지 않은 앱 및 확장된 파일 특성을 가진 앱입니다.|
 |앱에 대한 자격 설정|앱을 래핑하려면 먼저 일반적으로 부여되는 사용 권한 및 기능 이외에 앱에 추가적인 사용 권한 및 기능을 제공하는 자격을 설정해야 합니다. 지침은 [앱 자격 설정](#setting-app-entitlements)을 참조하세요.|
 
 ## <a name="install-the-app-wrapping-tool"></a>앱 래핑 도구 설치
 
-1.  [GitHub에 호스트된](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios) iOS용 Microsoft Intune 앱 래핑 도구 리포지토리에서 앱 래핑 도구에 대한 파일을 mac OS 컴퓨터에 다운로드합니다.
+1.  [GitHub](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios)에서 앱 래핑 도구용 파일을 macOS 컴퓨터로 다운로드합니다.
 
 2.  **Microsoft Intune App Wrapping Tool for iOS.dmg**를 두 번 클릭합니다. EULA(최종 사용자 사용권 계약) 창이 나타납니다. 문서를 주의하여 읽습니다.
 
 3. **동의**를 선택하여 EULA에 동의하면 패키지가 컴퓨터에 탑재됩니다.
 
-4.  IntuneMAMPackager를 열고 macOS 컴퓨터의 로컬 폴더에 파일을 저장합니다. 이제 앱 래핑 도구를 실행할 수 있습니다.
+4.  **IntuneMAMPackager** 폴더를 열고 폴더 내용을 macOS 컴퓨터에 저장합니다. 이제 앱 래핑 도구를 실행할 수 있습니다.
 
 ## <a name="run-the-app-wrapping-tool"></a>앱 래핑 도구 실행
-* 터미널을 열고 앱 래핑 도구 파일을 저장한 폴더로 이동합니다. 실행 가능한 도구의 이름은 IntuneMAMPackager이고 IntuneMAMPackager/Contents/MacOS에 위치합니다. 다음과 같이 명령을 실행합니다.
 
-    ```
+### <a name="use-terminal"></a>터미널 사용
+
+macOS 터미널 프로그램을 열고 앱 래핑 도구 파일을 저장한 폴더로 이동합니다. 실행 가능한 도구의 이름은 IntuneMAMPackager이고 IntuneMAMPackager/Contents/MacOS에 위치합니다. 다음과 같이 명령을 실행합니다.
+
+```
 ./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager -i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> -p /<path to provisioning profile> -c <SHA1 hash of the certificate> [-b [<output app build string>]] [-v] [-e] [-x /<array of extension provisioning profile paths>]
+```
 
-    ```
+> [!NOTE]
+> 아래 표에 나와 있는 것처럼 일부 매개 변수는 선택 사항입니다.
 
-    > [!NOTE]
-    > 아래 표에 나와 있는 것처럼 일부 매개 변수는 선택 사항입니다.
+**예:** 다음 예제 명령은 MyApp.ipa 앱에 대해 앱 래핑 도구를 실행합니다. 프로비저닝 프로필 및 서명 인증서의 SHA-1 해시가 지정되고 래핑된 앱에 서명하는 데 사용됩니다. 출력 앱(MyApp_Wrapped.ipa)이 생성되어 데스크탑 폴더에 저장됩니다.
 
-    **예:** 다음 예제 명령은 MyApp.ipa 앱에 대해 앱 래핑 도구를 실행합니다. 프로비저닝 프로필 및 SHA-1 해시가 지정됩니다. 처리된 앱(MyApp_Wrapped.ipa)이 생성되어 데스크톱 폴더에 저장됩니다.
+```
+./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager -i ~/Desktop/MyApp.ipa -o ~/Desktop/MyApp_Wrapped.ipa -p ~/Desktop/My_Provisioning_Profile_.mobileprovision -c 12A3BC45D67EF8901A2B3CDEF4ABC5D6E7890FAB  -v true
+```
 
-    ```
-    ./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager -i ~/Desktop/MyApp.ipa -o ~/Desktop/MyApp_Wrapped.ipa -p ~/Desktop/My_Provisioning_Profile_.mobileprovision -c 12A3BC45D67EF8901A2B3CDEF4ABC5D6E7890FAB  -v true
-    ```
-    앱 래핑 도구에는 다음 명령줄 속성을 사용할 수 있습니다.
+### <a name="command-line-parameters"></a>명령줄 매개 변수
+앱 래핑 도구에는 다음 명령줄 매개 변수를 사용할 수 있습니다.
 
 |속성|사용 방법|
 |---------------|--------------------------------|
@@ -103,20 +107,20 @@ IntuneMAMPackager/Contents/MacOS 폴더에서 텍스트 편집기 또는 Xcode�
 
 유일한 인수로써 plist와 함께 IntuneMAMPackager를 실행합니다.
 
-```
+```bash
 ./IntuneMAMPackager –f Parameters.plist
 ```
 
-* 처리가 완료되면 “응용 프로그램이 래핑되었습니다.” 메시지가 표시됩니다.
+### <a name="post-wrapping"></a>사후 래핑
 
-    오류가 발생한 경우 도움이 필요하면 [오류 메시지](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md#error-messages)를 참조하세요.
+래핑 프로세스가 완료되면 “응용 프로그램이 래핑되었습니다.” 메시지가 표시됩니다. 오류가 발생한 경우 도움이 필요하면 [오류 메시지](#error-messages-and-log-files)를 참조하세요.
 
-*   래핑된 앱은 이전에 지정한 출력 폴더에 저장됩니다. 앱을 [wit_nextref](../includes/wit_nextref_md.md)에 업로드하고 모바일 응용 프로그램 관리 정책에 연결할 수 있습니다.
+래핑된 앱은 이전에 지정한 출력 폴더에 저장됩니다. 앱을 Intune 관리 콘솔에 업로드하고 모바일 응용 프로그램 관리 정책에 연결할 수 있습니다.
 
-    > [!IMPORTANT]
-    > 래핑된 앱을 업로드할 때 이전(래핑된 또는 네이티브) 버전이 이미 Intune에 배포된 경우 이전 버전의 앱을 업데이트할 수 있습니다. 오류가 발생하면 앱을 새 앱으로 업로드하고 이전 버전을 삭제합니다.
+> [!IMPORTANT]
+> 래핑된 앱을 업로드할 때 이전(래핑된 또는 네이티브) 버전이 이미 Intune에 배포된 경우 이전 버전의 앱을 업데이트할 수 있습니다. 오류가 발생하면 앱을 새 앱으로 업로드하고 이전 버전을 삭제합니다.
 
-    이제 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 그룹에 앱을 배포할 수 있으며, 지정한 앱 제한을 사용하여 장치에서 앱이 실행됩니다.
+이제 앱을 사용자 그룹에 배포하고 앱 보호 정책을 적용할 대상으로 지정할 수 있습니다. 지정한 앱 보호 정책을 사용하여 장치에서 앱이 실행됩니다.
 
 ## <a name="error-messages-and-log-files"></a>오류 메시지 및 로그 파일
 앱 래핑 도구 관련 문제를 해결하려면 다음 정보를 사용하세요.
@@ -166,13 +170,13 @@ IntuneMAMPackager/Contents/MacOS 폴더에서 텍스트 편집기 또는 Xcode�
 
 ### <a name="certificate-provisioning-profile-and-authentication-requirements"></a>인증서, 프로비저닝 프로필 및 인증 요구 사항
 
-앱 래핑 도구에는 전체 기능을 보장하기 위해 충족해야 하는 몇 가지 요구 사항이 있습니다.
+iOS용 앱 래핑 도구에는 전체 기능을 보장하기 위해 충족해야 하는 몇 가지 요구 사항이 있습니다.
 
 |요구 사항|세부 정보|
 |---------------|-----------|
-|프로비저닝 프로필|프로비저닝 프로필을 포함하기 전에 프로필이 올바른지 확인합니다. 앱 래핑 도구에서는 iOS 앱을 처리할 때 프로비저닝 프로필이 만료되었는지 확인하지 않습니다. 만료된 프로비저닝 프로필을 지정하면 앱 래핑 도구는 만료된 프로비저닝 프로필을 그대로 포함하며, iOS 장치에서 앱 설치가 실패할 때까지 문제가 있음을 알 수 없습니다.|
-|인증서|인증서를 지정하기 전에 인증서가 유효한지 확인합니다. 도구에서는 iOS 앱을 처리할 때 인증서가 만료되었는지 확인하지 않습니다. 따라서 만료된 인증서의 해시를 제공하면 도구에서 앱을 처리하고 서명을 하기는 하지만 장치에 앱을 설치하지는 못합니다.<br /><br />패키지 응용 프로그램에 서명하기 위해 제공된 인증서가 프로비저닝 프로필에 일치하는 항목이 있는지 확인합니다. 도구에서는 래핑된 응용 프로그램에 서명하기 위해 제공된 인증서에 대해 프로비저닝 프로필에 일치하는 항목이 있는지 확인하지 않습니다.|
-|인증|암호화가 작동하려면 장치에 PIN이 있어야 합니다. 사용자는 래핑된 앱을 배포한 장치의 상태 표시줄을 터치할 때 [wit_nextref](../includes/wit_nextref_md.md)에 다시 인증해야 합니다. 래핑된 앱의 기본 정책은 *다시 시작할 때 인증*입니다. iOS는 앱을 종료했다가 다시 시작할 때 전화 통화 등의 외부 알림을 처리합니다.
+|iOS 프로비저닝 프로필|프로비저닝 프로필을 포함하기 전에 프로필이 올바른지 확인합니다. 앱 래핑 도구에서는 iOS 앱을 처리할 때 프로비저닝 프로필이 만료되었는지 확인하지 않습니다. 만료된 프로비저닝 프로필을 지정하면 앱 래핑 도구는 만료된 프로비저닝 프로필을 그대로 포함하며, iOS 장치에서 앱 설치가 실패할 때까지 문제가 있음을 알 수 없습니다.|
+|iOS 서명 인증서|서명 인증서를 지정하기 전에 인증서가 유효한지 확인합니다. 도구에서는 iOS 앱을 처리할 때 인증서가 만료되었는지 확인하지 않습니다. 따라서 만료된 인증서의 해시를 제공하면 도구에서 앱을 처리하고 서명을 하기는 하지만 장치에 앱을 설치하지는 못합니다.<br /><br />래핑된 앱에 서명하기 위해 제공된 인증서와 일치하는 항목이 프로비저닝 프로필에 있는지 확인합니다. 도구에서는 래핑된 응용 프로그램에 서명하기 위해 제공된 인증서에 대해 프로비저닝 프로필에 일치하는 항목이 있는지 확인하지 않습니다.|
+|인증|암호화가 작동하려면 장치에 PIN이 있어야 합니다. 사용자는 래핑된 앱을 배포한 장치의 상태 표시줄을 터치할 때 회사 또는 학교 계정을 사용하여 다시 로그인해야 합니다. 래핑된 앱의 기본 정책은 *다시 시작할 때 인증*입니다. iOS는 앱을 종료했다가 다시 시작할 때 전화 통화 등의 외부 알림을 처리합니다.
 
 
 ## <a name="setting-app-entitlements"></a>앱 자격 설정
@@ -195,27 +199,27 @@ IntuneMAMPackager/Contents/MacOS 폴더에서 텍스트 편집기 또는 Xcode�
 
 1.  앱에서 기능을 사용하도록 설정합니다.
 
-    1.  Xcode에서 앱의 대상으로 이동하고 **기능**을 클릭합니다.
+    a.  Xcode에서 앱의 대상으로 이동하고 **기능**을 클릭합니다.
 
-    2.  적절한 기능을 켭니다. 각 기능 및 올바른 값을 결정하는 방법에 대한 자세한 내용은 iOS 개발자 라이브러리의 [기능 추가](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)를 참조하세요.
+    b.  적절한 기능을 켭니다. 각 기능 및 올바른 값을 결정하는 방법에 대한 자세한 내용은 iOS 개발자 라이브러리의 [기능 추가](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)를 참조하세요.
 
-    3.  프로세스 중에 만든 ID를 확인합니다.
+    c.  프로세스 중에 만든 ID를 확인합니다.
 
-    4.  래핑할 앱을 빌드하고 서명합니다.
+    d.  래핑할 앱을 빌드하고 서명합니다.
 
 2.  프로비저닝 프로필에서 자격을 사용하도록 설정합니다.
 
-    1.  Apple Developer Member Center에 로그인합니다.
+    a.  Apple Developer Member Center에 로그인합니다.
 
-    2.  앱용 프로비저닝 프로필을 만듭니다. 자세한 지침은 [iOS용 Intune 앱 줄 바꿈 도구에 대한 필수 구성 요소를 가져오는 방법](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/)을 참조하세요.
+    b.  앱용 프로비저닝 프로필을 만듭니다. 자세한 지침은 [iOS용 Intune 앱 줄 바꿈 도구에 대한 필수 구성 요소를 가져오는 방법](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/)을 참조하세요.
 
-    3.  프로비저닝 프로필에서 앱에 있는 것과 동일한 자격을 설정합니다. 앱을 개발하는 동안 지정한 것과 동일한 ID를 제공해야 합니다.
+    c.  프로비저닝 프로필에서 앱에 있는 것과 동일한 자격을 설정합니다. 앱을 개발하는 동안 지정한 것과 동일한 ID를 제공해야 합니다.
 
-    4.  프로비저닝 프로필 마법사를 완료하고 파일을 다운로드합니다.
+    d.  프로비저닝 프로필 마법사를 완료하고 파일을 다운로드합니다.
 
 3.  모든 필수 구성 요소가 충족되었는지 확인한 다음 앱을 래핑합니다.
 
-### <a name="troubleshooting-common-errors-with-entitlements"></a>자격과 관련한 일반적인 오류 문제 해결
+### <a name="troubleshoot-common-errors-with-entitlements"></a>자격과 관련한 일반적인 오류 문제 해결
 iOS용 앱 래핑 도구에 자격 오류가 표시되는 경우 다음의 문제 해결 절차를 수행해 보세요.
 
 |문제|원인|해결 방법|
@@ -223,7 +227,7 @@ iOS용 앱 래핑 도구에 자격 오류가 표시되는 경우 다음의 문�
 |입력 응용 프로그램에서 생성된 자격을 구문 분석하지 못했습니다.|앱 래핑 도구가 앱에서 추출된 자격 파일을 읽을 수 없습니다. 자격 파일의 형식이 잘못되었을 수 있습니다.|앱용 자격 파일을 검사합니다. 다음 지침에서는 이 작업을 수행하는 방법을 설명합니다. 자격 파일을 검사할 때에는 잘못된 구문이 있는지 확인합니다. 파일이 XML 형식으로 되어있어야 합니다.|
 |프로비저닝 프로필에 자격이 누락되었습니다(누락된 자격이 나열됨). 이러한 자격이 있는 프로비저닝 프로필로 앱을 다시 패키징합니다.|프로비저닝 프로필에서 사용할 수 있는 자격과 앱에서 사용할 수 있는 기능 간에 일치하지 않는 사항이 있습니다. 이 불일치는 특정 기능(앱 그룹 및 키 집합 액세스 등)과 연결된 ID에도 적용됩니다.|일반적으로 앱과 동일한 기능을 사용하는 새 프로비저닝 프로필을 만들 수 있습니다. 프로필과 앱 간 ID가 일치하지 않으면 가능할 경우 앱 래핑 도구가 ID 대체하게 됩니다. 새 프로비저닝 프로필을 만든 후에도 이 오류가 여전히 발생하면 -e 매개 변수를 사용하여 앱에서 자격의 제거를 시도할 수 있습니다(앱 섹션의 "-e 매개 변수를 사용하여 앱에서 자격 제거" 참조).|
 
-### <a name="finding-the-existing-entitlements-of-a-signed-app"></a>서명된 앱의 기존 자격 찾기
+### <a name="find-the-existing-entitlements-of-a-signed-app"></a>서명된 앱의 기존 자격 찾기
 서명된 앱 및 프로비저닝 프로필의 기존 자격을 확인하려면
 
 1.  .ipa 파일을 찾고 확장명을 .zip으로 변경합니다.
@@ -254,7 +258,7 @@ iOS용 앱 래핑 도구에 자격 오류가 표시되는 경우 다음의 문�
 
 -   지정하는 서명 인증서, 프로비저닝 프로필, LOB(기간 업무) 앱은 앱 래핑 도구를 실행하는 데 사용하는 것과 같은 macOS 컴퓨터에 있어야 합니다. 파일이 UNC 경로에 있으면 macOS 컴퓨터에서 해당 파일에 액세스할 수 있는지 확인합니다. IPsec 또는 SMB 서명을 통해 경로를 보호해야 합니다.
 
-    [wit_nextref](../includes/wit_nextref_md.md) 콘솔로 가져온 래핑된 응용 프로그램은 도구를 실행하는 동일한 컴퓨터에 있어야 합니다. 파일이 UNC 경로에 있으면 [wit_nextref](../includes/wit_nextref_md.md) 콘솔을 실행하는 컴퓨터에서 해당 파일에 액세스할 수 있는지 확인합니다. IPsec 또는 SMB 서명을 통해 경로를 보호해야 합니다.
+    관리 콘솔로 가져온 래핑된 응용 프로그램은 도구를 실행하는 동일한 컴퓨터에 있어야 합니다. 파일이 UNC 경로에 있으면 관리 콘솔을 실행하는 컴퓨터에서 해당 파일에 액세스할 수 있는지 확인합니다. IPsec 또는 SMB 서명을 통해 경로를 보호해야 합니다.
 
 -   GitHub 리포지토리에서 앱 래핑 도구를 다운로드하는 환경은 IPsec 또는 SMB 서명을 통해 보호해야 합니다.
 
@@ -273,6 +277,6 @@ iOS용 앱 래핑 도구에 자격 오류가 표시되는 경우 다음의 문�
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 
