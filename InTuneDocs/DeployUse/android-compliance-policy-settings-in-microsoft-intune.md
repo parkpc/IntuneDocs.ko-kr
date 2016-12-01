@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Android 장치용 규정 준수 정책 설정 | Microsoft Intune"
 description: "이 항목에서는 Android 장치에 대한 장치 준수 정책 설정에 대해 설명합니다."
@@ -17,21 +18,71 @@ translationtype: Human Translation
 ms.sourcegitcommit: e24de6814d9e01c64768f425e961a7822f4b27a1
 ms.openlocfilehash: 5f02618da6fb3c538ad131fe8abaf35a6be6e177
 
+||||||| merged common ancestors
+---
+title: "Android 장치용 규정 준수 정책 설정 | Microsoft Intune"
+description: "이 항목에서는 Android 장치에 대한 장치 준수 정책 설정에 대해 설명합니다."
+keywords: 
+author: karthikaraman
+ms.author: karaman
+manager: angrobe
+ms.date: 07/13/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
+ms.reviewer: chrisgre
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: e24de6814d9e01c64768f425e961a7822f4b27a1
+ms.openlocfilehash: 5f02618da6fb3c538ad131fe8abaf35a6be6e177
+
+=======
+---
+title: "Android 장치용 규정 준수 정책 설정 | Microsoft Intune"
+description: "이 항목에서는 Android 장치에 대한 장치 준수 정책 설정에 대해 설명합니다."
+keywords: 
+author: karthikaraman
+ms.author: karaman
+manager: angrobe
+ms.date: 11/08/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
+ms.reviewer: chrisgre
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 8cde3ffb3be8656d5f256e16eb71ed4aaa7ceb5b
+ms.openlocfilehash: 2fd4d3c7cb92e27a01090fdec85e02db4010f859
+
+>>>>>>> 8eb792f839091c94f1906392b6dd69b3e259f43d
 
 ---
 
+<<<<<<< HEAD
 
 # Microsoft Intune에서 Android 장치용 규정 준수 정책 설정
+||||||| merged common ancestors
 
-이 항목에서 설명하는 정책 설정은 Android 4.0 이상 또는 Samsung KNOX 4.0 이상을 실행하는 장치에 적용됩니다.
+# Microsoft Intune에서 Android 장치용 규정 준수 정책 설정
+=======
+
+# <a name="compliance-policy-settings-for-android-devices-in-microsoft-intune"></a>Microsoft Intune에서 Android 장치용 규정 준수 정책 설정
+>>>>>>> 8eb792f839091c94f1906392b6dd69b3e259f43d
+
+이 항목에서 설명하는 정책 설정은 Android 4.0 이상 또는 Samsung KNOX Standard 4.0 이상을 실행하는 장치에 적용됩니다.
 
 다른 플랫폼에 대한 정보를 찾는 경우 다음 중 하나를 선택합니다.
-> [!div class="op_single_selector"]
+> [!div class = "op_single_selector"]
+- [Android for Work용 규정 준수 정책 설정](afw-compliance-policy-settings-in-microsoft-intune.md)
 - [iOS 장치용 규정 준수 정책 설정](ios-compliance-policy-settings-in-microsoft-intune.md)
-- [Windows 장치용 규정 준수 정책 설정](windows-compliance-policy-settings-in-microsoft-intune.md)
+- [Windows 장치용 준수 정책 설정](windows-compliance-policy-settings-in-microsoft-intune.md)
 
-## 시스템 보안 설정
-### 암호
+## <a name="system-security-settings"></a>시스템 보안 설정
+### <a name="password"></a>암호
 - **모바일 장치의 잠금을 해제하는 데 암호 필요**: 장치에 액세스하기 전에 사용자가 암호를 입력하도록 하려면 **예**로 설정합니다.
 
 -  **최소 암호 길이**: 사용자의 암호에 포함해야 하는 최소 자릿수 또는 문자 수를 지정합니다.
@@ -42,7 +93,7 @@ ms.openlocfilehash: 5f02618da6fb3c538ad131fe8abaf35a6be6e177
   -   **필수**
   -   **숫자 이상**
   -   **알파벳 이상**
-  -   **최소 영숫자**
+  -   **영숫자 이상**
   -   **영숫자와 기호**
 
 - **암호를 요구하기 전까지 비활성 시간(분)**: 사용자가 해당 시간 내에 자신의 암호를 다시 입력해야 하는 유휴 시간을 지정합니다.
@@ -55,10 +106,10 @@ ms.openlocfilehash: 5f02618da6fb3c538ad131fe8abaf35a6be6e177
 
 - **장치가 유휴 상태에서 되돌아오는 경우 암호 필요**: 이 설정은 **암호를 요구하기 전까지 비활성 시간(분)** 설정과 함께 사용해야 합니다. **암호를 요구하기 전까지 비활성 시간(분)** 설정에 지정된 시간 동안 비활성화 상태인 장치에 사용자가 액세스하려고 하면 암호를 입력하라는 메시지가 표시됩니다.
 
-### 암호화
+### <a name="encryption"></a>암호화
 - **모바일 장치 암호화 필요**: **예**로 설정하여 리소스에 연결하기 위해 장치를 암호화하도록 해야 합니다. **모바일 장치의 잠금을 해제하는 데 암호 필요** 설정을 선택하면 장치가 암호화됩니다.
 
-## 장치 상태 및 보안 설정
+## <a name="device-health-and-security-settings"></a>장치 상태 및 보안 설정
 
 - **장치는 탈옥 또는 루팅되지 않아야 함**: 이 설정을 사용하도록 설정하는 경우 탈옥된 장치가 비규격 상태로 평가됩니다.
 - **장치가 알 수 없는 소스의 앱 설치를 방지해야 함(Android 4.0 이상)**: **보안** > **알 수 없는 소스**를 사용하도록 설정한 장치를 차단하려면 이 설정을 사용하도록 설정하고 **예**로 설정합니다.  
@@ -77,7 +128,7 @@ ms.openlocfilehash: 5f02618da6fb3c538ad131fe8abaf35a6be6e177
 
   자세한 내용은 [규정 준수 정책에서 장치 위협 방지 규칙 활성화](enable-device-threat-protection-rule-in-compliance-policy.md)를 참조하세요.
 
-## 장치 속성 설정
+## <a name="device-property-settings"></a>장치 속성 설정
 - **필요한 최소 OS**: 장치가 OS 최소 버전 요구 사항을 충족하지 못하면 비규격 장치로 보고됩니다.
   업그레이드 방법에 대한 정보를 제공하는 링크가 표시됩니다. 사용자는 회사 리소스에 액세스할 수 있으면 장치를 업그레이드하도록 선택할 수 있습니다.
 
@@ -85,6 +136,6 @@ ms.openlocfilehash: 5f02618da6fb3c538ad131fe8abaf35a6be6e177
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO2-->
 
 
