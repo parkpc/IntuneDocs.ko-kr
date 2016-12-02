@@ -5,7 +5,7 @@ keywords:
 author: karthikaraman
 ms.author: karaman
 manager: angrobe
-ms.date: 07/13/2016
+ms.date: 11/14/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: db1d43dd647122e7ba8ebd4e6df48e3c970a3392
-ms.openlocfilehash: 76ac4c92d090ef0057bd7c9687b169cd12b901a1
+ms.sourcegitcommit: 4f6e7525ae2a125851ad402644d5fbc8767c77dc
+ms.openlocfilehash: 9bfc8886b464452f8fe35d4b740607ef3bc07a71
 
 
 ---
 
-# Microsoft Intune을 사용하여 SharePoint Online에 대한 액세스 제한
+# <a name="restrict-access-to-sharepoint-online-with-microsoft-intune"></a>Microsoft Intune을 사용하여 SharePoint Online에 대한 액세스 제한
 [!INCLUDE[wit_firstref](../includes/wit_firstref_md.md)] 조건부 액세스를 사용하여 SharePoint Online에 있는 파일에 대한 액세스를 제어합니다.
 조건부 액세스에는 두 구성 요소가 포함되어 있습니다.
 - 장치를 준수로 간주하기 위해 장치가 준수해야 하는 장치 규정 준수 정책
@@ -55,12 +55,12 @@ SharePoint Online에 대한 조건부 액세스 정책을 구성하기 **전에*
 
 -   장치가 규정을 준수하지 않으면 사용자가 문제에 관한 정보와 이를 해결하는 방법을 확인할 수 있는 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 회사 포털 웹 사이트로 이동하는 메시지가 표시됩니다.
 
-**모든 SharePoint 사이트에서 조건부 액세스가 적용되며 외부 공유는 차단됩니다.**
+**외부 공유에는 조건부 액세스가 적용되지 않습니다**. 테넌트 또는 사이트 모음에서의 외부 공유를 방지하는 방법을 알아보려면 [SharePoint Online 사용자 환경에 대한 외부 공유 관리](https://support.office.com/en-us/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)를 참조하세요.
 
 >[!NOTE]
 >SharePoint Online에 대해 조건부 액세스를 사용하도록 설정하는 경우 [Remove-SPOTenantSyncClientRestriction](https://technet.microsoft.com/en-us/library/dn917451.aspx) 항목에 설명된 대로 목록의 도메인을 사용하지 않도록 설정하는 것이 좋습니다.  
 
-## 모바일 장치에 대한 지원
+## <a name="support-for-mobile-devices"></a>모바일 장치에 대한 지원
 - iOS 8.0 이상
 - Android 4.0 이상, Samsung Knox Standard 4.0 이상
 - Windows Phone 8.1 이상
@@ -68,11 +68,11 @@ SharePoint Online에 대한 조건부 액세스 정책을 구성하기 **전에*
 **iOS** 및 **Android** 장치의 브라우저에서 액세스할 때 SharePoint Online에 대한 액세스를 제한할 수 있습니다.  규격 장치의 지원되는 브라우저에서만 액세스할 수 있습니다.
 * Safari(iOS)
 * Chrome(Android)
-* 관리되는 브라우저(iOS 및 Android)
+* 관리되는 브라우저(iOS 및 Android 5.0 이상)
 
 **지원되지 않는 브라우저는 차단됩니다**.
 
-## PC 지원
+## <a name="support-for-pcs"></a>PC 지원
 - Windows 8.1 이상(Intune에 등록된 경우)
 - Windows 7.0, Windows 8.1 또는 Windows 10(도메인에 가입된 경우)
 > [!NOTE]
@@ -92,9 +92,9 @@ Intune 및 Office 365 고객의 경우에는 AAD DRS가 자동으로 활성화�
     최신 인증을 사용하는 경우 Office 2013 Windows 클라이언트에 ADAL(Active Directory Authentication Library) 기반 로그인 기능이 제공되며, **다단계 인증** 및 **인증서 기반 인증**과 같은 더욱 효율적인 보안 기능을 사용할 수 있습니다.
 
 
-## SharePoint Online에 대한 조건부 액세스 구성
+## <a name="configure-conditional-access-for-sharepoint-online"></a>SharePoint Online에 대한 조건부 액세스 구성
 
-### 1단계: Active Directory 보안 그룹 구성
+### <a name="step-1-configure-active-directory-security-groups"></a>1단계: Active Directory 보안 그룹 구성
 시작하기 전에 조건부 액세스 정책에 대한 Azure Active Directory 보안 그룹을 구성합니다. **Office 365 관리 센터**또는 **Intune 계정 포털**에서 이러한 그룹을 구성할 수 있습니다. 이러한 그룹을 대상에 사용하거나 정책에서 사용자를 제외합니다. 사용자가 정책의 대상인 경우 해당 사용자가 사용하는 각 장치가 규정을 준수해야 리소스에 액세스할 수 있습니다.
 
 SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
@@ -105,7 +105,7 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
 사용자가 두 그룹에 모두 속한 경우에는 정책에서 제외됩니다.
 
-### 2단계: 준수 정책 구성 및 배포
+### <a name="step-2-configure-and-deploy-a-compliance-policy"></a>2단계: 준수 정책 구성 및 배포
 아직 수행하지 않은 경우 규정 준수 정책을 만들고 SharePoint Online 정책의 대상이 될 사용자에게 배포합니다.
 
 > [!NOTE]
@@ -118,7 +118,7 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
 준비가 되었으면 **3단계**를 계속합니다.
 
-### 3단계: SharePoint Online 정책 구성
+### <a name="step-3-configure-the-sharepoint-online-policy"></a>3단계: SharePoint Online 정책 구성
 다음으로 관리되고 규정을 준수하는 장치만 SharePoint Online에 액세스할 수 있도록 요구하는 정책을 구성합니다. 이 정책은 Azure Active Directory에 저장됩니다.
 
 #### <a name="bkmk_spopolicy"></a>
@@ -162,13 +162,13 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
   3.    **브라우저 액세스 사용** 단추를 누릅니다.
   4.  Chrome 브라우저에서 Office 365에서 로그아웃하고 Chrome을 다시 시작합니다.
 
-  **iOS 및 Android** 플랫폼에서 서비스에 액세스하는 데 사용되는 장치를 식별할 수 있도록 하기 위해 Azure Active Directory에서 장치에 대해 TLS(전송 계층 보안) 인증서를 발급합니다.  장치는 아래 스크린샷과 같이 최종 사용자에게 인증서를 선택하라는 메시지와 함께 인증서를 표시합니다. 최종 사용자는 브라우저를 계속 사용하려면 먼저 이 인증서를 선택해야 합니다.
-
-  **iOS**
-
-  ![ipad의 인증서 확인 스크린샷](../media/mdm-browser-ca-ios-cert-prompt.png)
+  **iOS 및 Android** 플랫폼에서 서비스에 액세스하는 데 사용되는 장치를 식별할 수 있도록 하기 위해 Azure Active Directory에서 장치에 대해 TLS(전송 계층 보안) 인증서를 발급합니다.  장치는 아래 스크린샷과 같이 최종 사용자에게 인증서를 선택하라는 메시지와 함께 인증서를 표시합니다. 최종 사용자가 이 인증서를 선택해야 브라우저를 계속 사용할 수 있습니다.
 
   **Android**
+
+  ![iPad에서 인증서 프롬프트에 대한 스크린샷](../media/mdm-browser-ca-ios-cert-prompt.png)
+
+  **OWA(Outlook Web Access)**
 
   ![Android 장치의 인증서 확인 스크린샷](../media/mdm-browser-ca-android-cert-prompt.png)
 5.  **대상 그룹**에서 **수정**을 선택하여 정책을 적용할 Azure Active Directory 보안 그룹을 선택합니다. 모든 사용자 또는 선택한 사용자 그룹을 대상으로 지정할 수 있습니다.
@@ -179,7 +179,7 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
 조건부 액세스 정책을 배포할 필요는 없으며, 즉시 적용됩니다.
 
-### 4단계: 규정 준수 및 조건부 액세스 정책 모니터링
+### <a name="step-4-monitor-the-compliance-and-conditional-access-policies"></a>4단계: 규정 준수 및 조건부 액세스 정책 모니터링
 **그룹** 작업 영역에서 장치의 상태를 볼 수 있습니다.
 
 모든 모바일 장치 그룹을 선택하고 **장치** 탭에서 다음 **필터**중 하나를 선택합니다.
@@ -190,11 +190,11 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
 -   **AAD에 등록되어 있고 규정을 준수하는 장치** – 이러한 장치 SharePoint Online에 액세스할 수 있습니다.
 
-### 참고 항목
+### <a name="see-also"></a>참고 항목
 [Microsoft Intune을 사용한 메일 및 O365 서비스 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

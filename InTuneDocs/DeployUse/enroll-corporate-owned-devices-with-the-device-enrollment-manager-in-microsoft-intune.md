@@ -2,7 +2,8 @@
 title: "장치 등록 관리자로 등록 | Microsoft Intune"
 description: "DEM(장치 등록 관리자) 계정이라는 단일 사용자 계정으로 많은 수의 공유되는 회사 소유의 모바일 장치를 관리할 수 있습니다."
 keywords: 
-author: NathBarn
+author: staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 07/12/2016
 ms.topic: article
@@ -13,15 +14,15 @@ ms.assetid: a23abc61-69ed-44f1-9b71-b86aefc6ba03
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e2daff5dae435df55c866adbf602f554500d50e0
-ms.openlocfilehash: 4ed3222f45cb438dea807b1df268f47fff660d5f
+ms.sourcegitcommit: 656c93771776fd317f2b8d91bc59125fba1eb0b9
+ms.openlocfilehash: 83b89d06793f6f3934537408fb600b3b89afd35b
 
 
 ---
 
 
-# Microsoft Intune에서 장치 등록 관리자를 사용하여 회사 소유 장치 등록
-조직에서는 Intune을 사용하여 단일 사용자 계정으로 많은 수의 모바일 장치를 관리할 수 있습니다. *DEM(장치 등록 관리자)* 계정은 1000개까지 장치를 등록할 수 있는 특수한 Intune 계정입니다. 이 계정을 통해 등록한 장치는 개인("BYOD") 장치가 아닌 공유 장치로 사용하는 것이 좋습니다. 예를 들어 "네이티브" 메일 앱은 사용할 수 없습니다.
+# <a name="enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune"></a>Microsoft Intune에서 장치 등록 관리자를 사용하여 회사 소유 장치 등록
+조직에서는 Intune을 사용하여 단일 사용자 계정으로 많은 수의 모바일 장치를 관리할 수 있습니다. *DEM(장치 등록 관리자)* 계정은 1000개까지 장치를 등록할 수 있는 특수한 Intune 계정입니다. 등록된 각 장치는 단일 라이선스를 사용합니다. 이 계정을 통해 등록한 장치는 개인("BYOD") 장치가 아닌 공유 장치로 사용하는 것이 좋습니다. 예를 들어 "네이티브" 메일 앱은 사용할 수 없습니다. DEM에 대한 라이센스는 사용자 단위가 아니라 장치 단위입니다.
 
 예를 들어 저장소 관리자나 감독자에게 장치 등록 관리자 사용자 계정을 할당하여 다음 작업을 수행하도록 할 수 있습니다.
 
@@ -50,10 +51,10 @@ ms.openlocfilehash: 4ed3222f45cb438dea807b1df268f47fff660d5f
 > 장치 등록 관리자로 관리되는 장치에 회사 앱을 배포하려면 회사 포털 앱을 장치 등록 관리자의 사용자 계정에 **필수 설치**로 배포합니다.
 > 성능 향상을 위해 DEM 장치에서 회사 포털 앱을 보면 로컬 장치만 표시됩니다. 다른 DEM 장치의 원격 관리는 Intune 관리 콘솔에서만 수행할 수 있습니다.
 
-## 장치 등록 관리자 계정 만들기
+## <a name="create-device-enrollment-manager-accounts"></a>장치 등록 관리자 계정 만들기
 장치 등록 관리자 계정은 많은 수의 회사 소유 장치를 등록할 수 있는 권한이 있는 사용자 계정입니다. Intune 콘솔의 사용자만 장치 등록 관리자가 될 수 있습니다.
 
-#### Intune에서 장치 등록 관리자 추가
+#### <a name="add-a-device-enrollment-manager-to-intune"></a>Intune에서 장치 등록 관리자 추가
 
 1.  [Microsoft Intune 계정 포털](http://go.microsoft.com/fwlink/?LinkId=698854)로 이동한 후 관리자 계정에 로그인합니다.
 
@@ -69,9 +70,9 @@ ms.openlocfilehash: 4ed3222f45cb438dea807b1df268f47fff660d5f
 
 7.  Intune 계정의 **사용자 ID**를 입력하고 **확인**을 선택합니다. 장치 등록 관리자 사용자는 Intune 관리자일 수 없습니다.
 
-8.  이제 장치 등록 관리자는 최종 사용자가 회사 포털에서 BYOD 시나리오에 이용하는 동일한 절차를 사용하여 모바일 장치를 등록할 수 있습니다.
+8.  이제 장치 등록 관리자는 최종 사용자가 회사 포털에서 BYOD 시나리오에 이용하는 동일한 절차를 사용하여 모바일 장치를 등록할 수 있습니다. 관리자 최종 사용자는 회사 포털 앱을 설치하고 최대 1000대의 장치에 DEM 자격 증명을 사용하여 장치를 등록할 수 있습니다.
 
-## Intune에서 장치 등록 관리자 삭제
+## <a name="delete-a-device-enrollment-manager-from-intune"></a>Intune에서 장치 등록 관리자 삭제
 
 1.  관리자 자격 증명을 사용하여 [Microsoft Intune 관리 포털](http://manage.microsoft.com)에 로그온합니다.
 
@@ -95,6 +96,6 @@ ms.openlocfilehash: 4ed3222f45cb438dea807b1df268f47fff660d5f
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Nov16_HO3-->
 
 
