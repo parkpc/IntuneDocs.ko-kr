@@ -14,8 +14,8 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d51f34dea3463bec83ea39cdfb79c7bedf9e3926
-ms.openlocfilehash: 0b60e7a7a921762e682185af273bb94f24441a0c
+ms.sourcegitcommit: 686321a1c19acb9a3a7e262822b11304d07adb40
+ms.openlocfilehash: 77789c04d13e12d7d0ecc5fb8959bc3396bd625f
 
 
 ---
@@ -27,14 +27,15 @@ Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같�
 
 ## <a name="overview-of-device-enrollment-methods"></a>장치 등록 방법 개요
 
-다음 표에는 Intune의 등록 방법이 각 지원 기능과 함께 나와 있습니다. 이러한 기능은 다음과 같습니다.
-- **초기화** - 장치를 공장 재설정하는 것으로 모든 데이터를 제거합니다. 자세한 내용은 [장치 사용 중지](retire-devices-from-microsoft-intune-management.md).
-- **선호도** - 사용자와 장치를 연결합니다. MAM(모바일 응용 프로그램 관리)과 회사 데이터에 대한 조건부 액세스에는 필수입니다. 자세한 내용은 [사용자 선호도](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#using-company-portal-on-dep-or-apple-configurator-enrolled-devices)를 참조하세요.
+다음 표는 Intune 등록 방법 및 각 방법에 지원되는 기능과 요구 사항을 보여 줍니다. 기능 및 요구 사항은 아래에 설명되어 있습니다.
+
+- **초기화** -장치를 등록하려면 먼저 초기화를 해야 하는지 여부를 나타냅니다. "초기화"라는 용어는 모든 데이터를 제거하는 장치의 공장 기본 설정을 의미합니다. 자세한 내용은 [장치 사용 중지](retire-devices-from-microsoft-intune-management.md).
+- **선호도** - 사용자와 장치를 연결합니다. MAM(모바일 응용 프로그램 관리)과 회사 데이터에 대한 조건부 액세스에는 필수입니다. 자세한 내용은 [사용자 선호도](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#use-the-company-portal-on-dep-enrolled-or-apple-configurator-enrolled-devices)를 참조하세요.
 - **잠금** - 사용자가 관리에서 장치를 제거하지 못하도록 합니다. iOS 장치를 잠그려면 감독 모드로 설정해야 합니다. 자세한 내용은 [원격 잠금](retire-devices-from-microsoft-intune-management.md#block-access-a-device)을 참조하세요.
 
 **iOS 등록 방법**
 
-| **방법** |  **초기화** |  **선호도**    |   **잠금** | **세부 정보** |
+| **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보** |
 |:---:|:---:|:---:|:---:|:---:|
 |**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md#set-up-device-management)|
 |**[DEM](#dem)**|   아니요 |아니요 |아니요  | [추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
@@ -44,14 +45,14 @@ Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같�
 
 **Windows 등록 방법**
 
-| **방법** |  **초기화** |  **선호도**    |   **잠금** | **세부 정보**|
+| **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |**[BYOD](#byod)** | 예|   예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md#set-up-device-management)|
 |**[DEM](#dem)**|   아니요 |아니요 |아니요  |[추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 **Android 등록 방법**
 
-| **방법** |  **초기화** |  **선호도**    |   **잠금** | **세부 정보**|
+| **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md#set-up-device-management)|
 |**[DEM](#dem)**|   아니요 |아니요 |아니요  |[추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
@@ -61,7 +62,7 @@ Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같�
 ## <a name="byod"></a>BYOD
 "Bring Your Own Device" 사용자가 회사 포털 앱을 설치하고 장치를 등록합니다. 이렇게 하면 사용자가 회사 네트워크에 연결되어 도메인 또는 Azure Active Directory에 가입할 수 있습니다. 대부분의 플랫폼에서는 많은 COD 시나리오를 위해 BYOD 등록을 사용하도록 설정해야 합니다. 자세한 내용은 [장치 등록을 위한 필수 조건](prerequisites-for-enrollment.md)을 참조하세요. ([표로 돌아가기](#overview-of-device-enrollment-methods))
 
-## <a name="corporateowned-devices"></a>회사 소유 장치
+## <a name="corporate-owned-devices"></a>회사 소유 장치
 Intune 콘솔을 사용하여 COD(회사 소유 장치)를 관리할 수 있습니다. Apple에서 제공한 도구를 통해 iOS 장치를 직접 등록할 수 있습니다. 관리자 또는 관리자 장치 등록 관리자를 사용하여 모든 장치 유형을 등록할 수 있습니다. IMEI 번호가 있는 장치도 회사 소유로 식별되고 태그가 지정되어 COD 시나리오를 사용할 수 있습니다.
 
 자세한 내용은 [회사 소유 장치 등록](manage-corporate-owned-devices.md)을 참조하세요.
@@ -78,7 +79,7 @@ Apple DEP(장치 등록 프로그램) 관리에서는 정책을 만든 후, 구�
 
 [DEP](ios-device-enrollment-program-in-microsoft-intune.md)에 대해 자세히 알아보세요. ([표로 돌아가기](#overview-of-device-enrollment-methods))
 
-### <a name="usbsa"></a>USB-SA
+### <a name="usb-sa"></a>USB-SA
 USB로 연결된 회사 소유의 장치는 Intune 정책을 사용하여 준비됩니다. 설치 도우미 등록을 위해서는 관리자가 Intune 정책을 만들어 Apple Configurator로 내보냅니다. 관리자는 각 장치를 수동으로 등록해야 합니다. 사용자가 장치를 받아 설치 도우미를 실행하여 해당 장치를 등록합니다. 이 방법은 **iOS 감독** 모드를 지원하며, 이 모드에서는 다음을 사용할 수 있습니다.
   - 조건부 액세스
   - 탈옥 검색
@@ -86,7 +87,7 @@ USB로 연결된 회사 소유의 장치는 Intune 정책을 사용하여 준비
 
 [Apple Configurator를 사용하여 설치 도우미를 등록](ios-setup-assistant-enrollment-in-microsoft-intune.md)하는 방법에 대해 자세히 알아보세요. ([표로 돌아가기](#overview-of-device-enrollment-methods))
 
-### <a name="usbdirect"></a>USB-Direct
+### <a name="usb-direct"></a>USB-Direct
 직접 등록을 위해서는 관리자가 Intune 정책을 만들어 Apple Configurator로 내보냅니다. USB로 연결된 회사 소유의 장치는 직접 등록되고 출하 시 설정으로 초기화할 필요가 없습니다. 관리자는 각 장치를 수동으로 등록해야 합니다. 장치는 사용자가 지정되지 않은 장치로 관리됩니다. 장치는 잠기거나 감독이 되지 않으며, 조건부 액세스, 탈옥 검색, 모바일 응용 프로그램 관리를 지원할 수 없습니다. [Apple Configurator를 사용하여 직접 등록](ios-direct-enrollment-in-microsoft-intune.md)하는 방법에 대해 자세히 알아보세요. ([표로 돌아가기](#overview-of-device-enrollment-methods))
 
 ## <a name="mobile-device-management-with-exchange-activesync-and-intune"></a>Exchange ActiveSync와 Intune을 사용한 모바일 장치 관리
@@ -119,6 +120,6 @@ Intune은 다음 장치 플랫폼을 관리할 수 있습니다.
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Nov16_HO5-->
 
 

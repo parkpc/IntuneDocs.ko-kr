@@ -14,8 +14,8 @@ ms.assetid: 5fdf98c8-fe67-4d7a-9837-ed1234348014
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4f8db75ed17e70dae5d3507b6af33a835c1658e9
-ms.openlocfilehash: 5195de40f35085c45ae63957da1a9058ed7d6493
+ms.sourcegitcommit: dcca68485db7e2c206077ce457081fdbf5cccea4
+ms.openlocfilehash: 92c59bd8061648cedaf31e50c5c599a96302a50f
 
 
 ---
@@ -31,7 +31,7 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 >[!IMPORTANT]
 >
->Intune 포털에서 그룹 작업 영역을 열 때 **Intune 사용자 그룹은 이제 Azure Active Directory에서 그룹으로 관리됩니다.**와 Azure Active Directory 포털에 대한 링크가 보이면 Intune의 그룹 관리에 대한 *새* Azure AD 보안 그룹 접근 방식을 이미 사용하고 있는 것입니다. 그룹을 만드는 방법을 알아보려면 [Azure Active Directory에서 그룹 관리](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-manage-groups)를 참조하세요.
+>Intune 포털에서 그룹 작업 영역을 열 때 **Intune 사용자 그룹은 이제 Azure Active Directory에서 그룹으로 관리됩니다.**와 Azure Active Directory 포털에 대한 링크가 보이면 Intune의 그룹 관리에 대한 *새* Azure AD 보안 그룹 접근 방식을 이미 사용하고 있는 것입니다. 그룹을 만드는 방법을 알아보려면 [Azure Active Directory에서 그룹 관리](https://docs.microsoft.com/azure/active-directory/active-directory-groups-create-azure-portal)를 참조하세요.
 >
 >Azure AD 포털에 대한 링크가 보이지 않으면 그룹 관리에 Intune 포털을 여전히 사용하고 있는 것입니다.
 
@@ -89,6 +89,6 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Nov16_HO5-->
 
 

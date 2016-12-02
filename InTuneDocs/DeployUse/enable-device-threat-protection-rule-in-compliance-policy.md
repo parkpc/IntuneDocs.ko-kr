@@ -3,7 +3,6 @@ title: "규정 준수 정책에서 장치 보호 규칙 활성화 | Microsoft In
 description: "장치 규정 준수 정책에서 모바일 위협 방지 규칙을 활성화합니다."
 keywords: 
 author: karthikaraman
-ms.author: karaman
 manager: angrobe
 ms.date: 09/13/2016
 ms.topic: article
@@ -14,8 +13,8 @@ ms.assetid: c951692d-6538-46c0-a9f0-d607ded189ae
 ms.reviewer: sandera
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9bf5764d1e1bd73fd62e5033b2309fc8d5a912e4
-ms.openlocfilehash: ec287d49910a72c22122f45a01850bcbd3a7d203
+ms.sourcegitcommit: 686321a1c19acb9a3a7e262822b11304d07adb40
+ms.openlocfilehash: 3e6aef013ae8764d9b031e880c333e184191feb4
 
 
 ---
@@ -57,11 +56,11 @@ Office 365 및 기타 서비스에 대한 조건부 액세스 정책을 만들 �
   * [Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
   * [Exchange 온-프레미스](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
   * [SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
-  * [비즈니스용 Skype Online](restrict-access-to-skype-for-business-online-with-microsoft-intune,md)
+  * [비즈니스용 Skype Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
   * [Dynamics CRM](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Nov16_HO5-->
 
 
