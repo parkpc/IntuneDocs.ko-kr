@@ -2,10 +2,10 @@
 title: "Intune에서 회사 포털 앱을 설치하고 Android 장치를 등록하면 어떻게 되나요? | Microsoft Intune"
 description: 
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/16/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd54ec104a26ebae845dfe3942dac2e8d9dae4a9
-ms.openlocfilehash: bf3d0db1b4322ff417e96331b29faabd046abb65
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 8843fe7854db72cf3983dc9a6ab44c1517d92b60
 
 
 ---
 
 
-# Intune에서 회사 포털 앱을 설치하고 Android 장치를 등록하면 어떻게 되나요?
+# <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-android-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 Android 장치를 등록하면 어떻게 되나요?
 
 Intune에서 회사 포털 앱을 설치하고 Android 장치를 등록하면, 다음과 같은 용도로 회사 포털 앱을 사용할 수 있습니다.
 
@@ -56,10 +56,10 @@ Android 장치를 등록할 경우 장치에 액세스할 수 있는 권한을 I
 
 -   임의의 회사 앱 인벤토리 업데이트를 보냅니다. (이러한 업데이트에는 개인 정보가 포함되지 않습니다.)
 
-도움이 필요하십니까? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) Microsoft Android 팀(wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
+도움이 필요하십니까? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) [Microsoft Android 팀](mailto:wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

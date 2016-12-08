@@ -2,10 +2,10 @@
 title: "Intune에서 회사 포털 앱을 설치하고 Windows 장치를 등록하면 어떻게 되나요? | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,18 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd54ec104a26ebae845dfe3942dac2e8d9dae4a9
-ms.openlocfilehash: 678ef01b215442e3d767a38388a579c6ee329975
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 2d56c2f23fd70ab0ca593d1ad5d60889e5855a7a
 
 
 ---
 
 
-# Intune에서 회사 포털 앱을 설치하고 Windows 장치를 등록하면 어떻게 되나요?
+# <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-windows-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 Windows 장치를 등록하면 어떻게 되나요?
 
 회사 포털 앱을 설치한 후 사용하여 Windows 또는 Windows Phone 장치를 등록할 때 IT 관리자가 회사 또는 학교 데이터를 안전하게 보호하기 위해 장치를 관리하도록 할 수 있습니다. 이 항목에서는 Windows 10 이전 장치에서 발생하는 결과를 설명합니다. Windows 10 장치의 경우 [관련 항목](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)을 참조하세요.
 
-## 등록 후 모든 Windows 장치에서 발생하는 결과
+## <a name="what-happens-to-all-windows-devices-after-enrollment"></a>등록 후 모든 Windows 장치에서 발생하는 결과
 Intune에서 Windows 또는 Windows Phone 장치를 등록하면 다음을 수행할 수 있습니다.
 
 -   회사 네트워크, 메일 및 작업 파일 액세스
@@ -53,7 +53,7 @@ Intune에서 Windows 또는 Windows Phone 장치를 등록하면 다음을 수�
 
 -   회사 관련 데이터의 사진을 찍을 수 없게 합니다.
 
-## 등록 후 모든 Windows PC에서 발생하는 결과
+## <a name="what-happens-to-all-windows-pcs-after-enrollment"></a>등록 후 모든 Windows PC에서 발생하는 결과
 
 -  IT 관리자가 컴퓨터를 관리할 수 있도록 하고, 사용자가 앱 및 지원 정보 같은 회사 리소스에 액세스할 수 있도록, 사용자의 컴퓨터에 소프트웨어가 설치됩니다. IT 관리자가 이 소프트웨어를 자동으로 업데이트할 수 있습니다.
 
@@ -63,7 +63,7 @@ Intune에서 Windows 또는 Windows Phone 장치를 등록하면 다음을 수�
 
 -  IT 관리자가 사용자 컴퓨터에 앱 및 업데이트를 설치할 수 있습니다.
 
-## 장치 등록 후 8시간마다 발생되는 작업
+## <a name="what-happens-every-eight-hours-after-device-enrollment"></a>장치 등록 후 8시간마다 발생되는 작업
 등록된 장치에서 8시간마다 다음 작업이 수행됩니다.
 
 -   IT 관리자가 사용하도록 설정한 임의의 정책 또는 앱 업데이트를 다운로드합니다.
@@ -72,10 +72,10 @@ Intune에서 Windows 또는 Windows Phone 장치를 등록하면 다음을 수�
 
 -   임의의 회사 앱 인벤토리 업데이트를 보냅니다.
 
-의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

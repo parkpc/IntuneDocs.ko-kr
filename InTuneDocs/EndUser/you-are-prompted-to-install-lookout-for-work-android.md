@@ -2,8 +2,8 @@
 title: "Android 장치에서 Lookout for Work를 설치하라는 메시지가 표시됨 | Microsoft Intune"
 description: 
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 10/17/2016
 ms.topic: article
@@ -13,13 +13,13 @@ ms.technology:
 ms.assetid: 0d357dc0-3e14-43d0-9874-6886ebc847fc
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: 2edbb8a70458290e69626d85f734d38243a2002a
-ms.openlocfilehash: f152da14c347cd41edbaf7cc8f4d16abc57bedbb
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: d55c7d4a7c77472453e6d317a22c4ad6209255a5
 
 
 ---
 
-# Lookout for Work를 설치하라는 메시지가 표시됨
+# <a name="you-are-prompted-to-install-lookout-for-work"></a>Lookout for Work를 설치하라는 메시지가 표시됨
 
 작업에 액세스하기 전에 IT 관리자는 잠재적 보안 위협을 찾아 장치를 보호하는 데 도움을 주는 Lookout for Work 앱을 설치하도록 요구합니다.
 
@@ -78,10 +78,10 @@ ms.openlocfilehash: f152da14c347cd41edbaf7cc8f4d16abc57bedbb
 
 제어할 수 없는 기술 문제로 인해 설치가 실패할 수 있습니다. 이 경우 Play 스토어에서 수동으로 Lookout for Work를 설치해 보세요. [https://play.google.com/store/apps/details?id=com.lookout.enterprise](https://play.google.com/store/apps/details?id=com.lookout.enterprise) 
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

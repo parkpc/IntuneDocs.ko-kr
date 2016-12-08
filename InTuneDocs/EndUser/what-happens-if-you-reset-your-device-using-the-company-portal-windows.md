@@ -2,10 +2,10 @@
 title: "회사 포털을 사용하여 Windows 장치를 다시 설정하면 어떻게 되나요? | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bdb221d9c52231d31511b29cbdc69985bc0da5b2
-ms.openlocfilehash: 1cc7e4ad5abee16a0e06780b37c23903d196a018
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 99b625800c31259012f337eb344facd6bad47f75
 
 
 ---
 
 
-# 회사 포털을 사용하여 Windows 장치를 다시 설정하면 어떻게 되나요?
+# <a name="what-happens-if-you-reset-your-windows-device-using-the-company-portal"></a>회사 포털을 사용하여 Windows 장치를 다시 설정하면 어떻게 되나요?
 
 회사 포털 앱 또는 [회사 포털 웹 사이트](reset-your-device-cpwebsite.md)를 사용하여 Windows 장치를 다시 설정하면 장치가 출하 시 설정으로 다시 설정되고 모든 앱, 설정 및 개인 데이터를 포함한 데이터가 삭제됩니다. 장치에 발생하는 상황은 다음 표에 설명된 것과 같이 장치의 종류와 장치 사용 방법에 따라 달라집니다. 분실 또는 도난 장치를 초기화하는 방법에 대한 자세한 내용은 [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-lost-or-stolen-device-windows.md)을 참조하세요.
 
@@ -32,10 +32,10 @@ ms.openlocfilehash: 1cc7e4ad5abee16a0e06780b37c23903d196a018
 |장치가 회사 전자 메일에만 액세스할 수 있습니다.|**Windows Phone 8.1**<br />장치가 더 이상 회사 포털에 나타나지 않으며, 회사 메일 계정 및 저장하지 않은 메일이 삭제됩니다.<br /><br />**Windows 7 또는 Windows Vista**<br />Windows 7 이전 버전을 실행하며 메일 전용으로 사용되는 컴퓨터는 원래대로 복원할 수 없습니다.<br /><br />**Windows 8.1 및 Windows 8**<br />장치가 더 이상 회사 포털에 나타나지 않으며, 회사 메일 계정 및 저장하지 않은 메일이 삭제됩니다.|
 |PC 및 노트북|**Windows 8.1 및 Windows 8**<br />Windows 8 또는 Windows 8.1을 실행하며 메일 전용이 아닌 컴퓨터는 원래대로 복원할 수 없습니다.<br /><br />**Windows 7 또는 Windows Vista**<br />Windows 7 이전 버전을 실행하는 컴퓨터는 원래대로 복원할 수 없습니다.|
 
-의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

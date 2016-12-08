@@ -2,10 +2,10 @@
 title: "Intune에서 회사 포털 앱을 설치하고 Windows 10 장치를 등록하면 어떻게 되나요? | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd54ec104a26ebae845dfe3942dac2e8d9dae4a9
-ms.openlocfilehash: 0462635a4c995866f8ad504ea724e795424b4405
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 94868431ce100a252ddfc7df5f9c2e287f0eedaf
 
 
 ---
 
 
-# Intune에서 회사 포털 앱을 설치하고 Windows 10 장치를 등록하면 어떻게 되나요?
+# <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-windows-10-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 Windows 10 장치를 등록하면 어떻게 되나요?
 
 회사 포털 앱을 설치한 다음, 앱을 사용하여 Intune에서 Windows 10 Enterprise 또는 Professional 장치를 등록할 때 회사 포털 앱을 사용하여 다음 작업을 수행할 수 있습니다.
 
@@ -52,10 +52,10 @@ ms.openlocfilehash: 0462635a4c995866f8ad504ea724e795424b4405
 
 -   IT 관리자가 컴퓨터에 정책을 강제 적용할 수 있습니다. 예를 들어 컴퓨터에서 암호나 PIN을 설정해야 할 수 있습니다. IT 관리자는 잘못된 암호를 입력할 수 있는 횟수를 제한할 수도 있고 너무 많이 시도하는 경우 장치를 잠그거나 컴퓨터의 하드 드라이브에서 모든 데이터를 삭제할 수도 있습니다.
 
-의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

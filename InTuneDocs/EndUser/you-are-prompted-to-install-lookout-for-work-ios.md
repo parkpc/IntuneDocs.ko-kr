@@ -2,7 +2,7 @@
 title: "iOS 장치에서 Lookout for Work를 설치하라는 메시지가 표시됨 | Microsoft Intune"
 description: 
 keywords: 
-author: barlan
+author: barlanmsft
 ms.author: barlan
 manager: angrobe
 ms.date: 10/17/2016
@@ -13,13 +13,13 @@ ms.technology:
 ms.assetid: 7adab655-8317-4512-ba7d-beeaa25bbf6c
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: 2edbb8a70458290e69626d85f734d38243a2002a
-ms.openlocfilehash: 03eee971fe74b73983111549338b13bf4068a85c
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 0c1fd681cd2ef9001083df16d4fb7506c47f9572
 
 
 ---
 
-# iOS 장치에 Lookout for Work를 설치하라는 메시지가 표시됨
+# <a name="you-are-prompted-to-install-lookout-for-work-on-your-ios-device"></a>iOS 장치에 Lookout for Work를 설치하라는 메시지가 표시됨
 
 작업에 액세스하기 전에 IT 관리자는 잠재적 보안 위협을 찾아 장치를 보호하는 데 도움을 주는 Lookout for Work 앱을 설치하도록 요구합니다. IT 관리자가 Lookout for Work을 설치한 방식에 따라 장치에 다른 메시지가 표시될 수 있습니다.
 
@@ -55,6 +55,6 @@ Lookout for Work에서 장치에 대한 보안 위협을 발견한 경우 문제
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 
