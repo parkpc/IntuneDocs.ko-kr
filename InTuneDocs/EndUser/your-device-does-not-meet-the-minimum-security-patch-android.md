@@ -2,7 +2,7 @@
 title: "장치가 최소 보안 패치를 충족하지 않는 경우 | Microsoft Intune"
 description: 
 keywords: 
-author: barlan
+author: barlanmsft
 ms.author: barlan
 manager: angrobe
 ms.date: 09/25/2016
@@ -13,13 +13,13 @@ ms.technology:
 ms.assetid: b3e5994c-d215-4c72-8915-349bd0b2504d
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: 016449720f6e77b8862fcaa232d252eefa8b20b3
-ms.openlocfilehash: 8569d99d7f79b0a27f31aec33f364d30499c6520
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 257eff56731f991b80443d996485286c1ce63b3b
 
 
 ---
 
-# 장치가 최소 보안 패치를 충족하지 않는 경우
+# <a name="your-device-does-not-meet-the-minimum-security-patch"></a>장치가 최소 보안 패치를 충족하지 않는 경우
 
 "최소 Android 보안 패치 수준이 구성되지 않았습니다." 메시지가 표시되면 최소 보안 패치 이상을 설치해야 합니다. IT 관리자에는 Android 장치의 회사 데이터를 보호하기 위해 이 설치를 수행해야 합니다.
 
@@ -41,6 +41,6 @@ ms.openlocfilehash: 8569d99d7f79b0a27f31aec33f364d30499c6520
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 
