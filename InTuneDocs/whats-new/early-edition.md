@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 11/30/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f287a0ad082fa20a2e84abbf8f5585117aae6f57
-ms.openlocfilehash: e604b8809bd444d9069d449a6c691a8444296623
+ms.sourcegitcommit: 6dd584397451d38be86fa0780efff435ffb9b2af
+ms.openlocfilehash: d70ebf87bc930f853741ddc0d572d2174c636dac
 
 
 ---
@@ -51,6 +51,13 @@ Azure Portal의 관리 환경에서는 이미 발표된 새 그룹화 및 대상
 ### <a name="conditional-access-for-mam-with-sharepoint-online---vso-679339--"></a>SharePoint Online에서 MAM에 대한 조건부 액세스 <!--VSO 679339-->
 Intune MAM(모바일 앱 관리) 정책에서 지원되지 않는 앱이 SharePoint Online에 액세스하지 못하도록 할 수 있습니다.  Intune 모바일 앱 관리는 Azure Portal에서 시작할 수 있습니다. SharePoint Online에 대한 옵션을 포함하는 __설정__ 블레이드의 __조건부 액세스__ 섹션을 찾아보세요. 이 기능은 나머지 서비스 릴리스와 별도로 제공됩니다.
 
+### <a name="ability-to-restrict-intune-mobile-device-enrollment"></a>Intune 모바일 장치 등록을 제한하는 기능
+Intune은 등록할 수 있는 모바일 장치 플랫폼을 제어하는 새로운 등록 제한을 추가합니다. Intune은 모바일 장치 플랫폼을 iOS, macOS, Android, Windows 및 Windows Mobile로 구분합니다. 
+* macOS 및 Windows 8.1 이상은 모바일 장치 플랫폼으로 등록하는 것이 제한될 수 있습니다. 
+* 모바일 장치 등록을 제한해도 PC 에이전트 등록은 제한되지 않습니다. 
+* iOS에 한해, 개인 소유 장치의 등록을 차단하는 한 가지 추가 옵션이 있습니다. Intune은 [이 문서](https://docs.microsoft.com/en-us/intune/deploy-use/manage-corporate-owned-devices)에 설명된 대로 IT 관리자가 회사 소유로 표시하기 위한 조치를 취하지 않은 한 모든 새 장치를 개인 소유 장치로 표시합니다.
+
+
 ## <a name="notices"></a>알림
 
 ### <a name="multi-factor-authentication-on-enrollment-moving-to-the-azure-portal---vso-750545--"></a>등록에 대한 Multi-Factor Authentication이 Azure Portal로 이동 <!--VSO 750545-->
@@ -82,6 +89,6 @@ Android용 회사 포털 앱은 Google Play 서비스를 사용하여 Microsoft 
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Nov16_HO5-->
 
 
