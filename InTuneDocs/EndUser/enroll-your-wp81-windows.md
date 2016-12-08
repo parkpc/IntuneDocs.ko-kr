@@ -2,7 +2,7 @@
 title: "Intune에서 Windows Phone 8.1 장치 등록 | Microsoft Intune"
 description: "Intune에서 Windows Phone 8.1 장치를 등록하는 방법을 설명합니다."
 keywords: 
-author: barlan
+author: barlanmsft
 ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
@@ -14,14 +14,14 @@ ms.assetid: 4a120c3d-d520-4d48-ae4c-3338ca4e7bde
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7eefcefa5e1cd0f789c77bf020c256e449099273
-ms.openlocfilehash: 843011aca535d8416b931f43bb622bc5c01ed546
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: b4569ec01a0b8c6a8ec06cb9036d7753e34b38d2
 
 
 ---
 
 
-# Intune에서 Windows Phone 8.1 장치 등록
+# <a name="enroll-your-windows-phone-81-device-in-intune"></a>Intune에서 Windows Phone 8.1 장치 등록
 
 회사 또는 학교에서 Microsoft Intune을 사용하는 경우 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 조직에서 회사 데이터 보안을 유지할 수 있습니다. 등록에 대해 자세히 알아보려면 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) 및 [IT 관리자가 장치에서 할 수 있는 일과 할 수 없는 일](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)을 참조하세요.
 
@@ -32,7 +32,7 @@ Intune에 Phone 8.1 장치를 등록하려면 회사에 적용되는 지침을 �
 
 -   [Windows Phone에서 Windows 스토어에 액세스할 수 없거나 Microsoft 계정이 없는 경우](#if-you-are-not-allowed-to-access-the-windows-store-from-your-windows-phone-or-if-you-do-not-have-a-microsoft-account)
 
-## 회사에서 Windows 스토어의 회사 포털 사용을 허용하는 경우
+## <a name="if-your-company-lets-you-use-the-company-portal-from-the-windows-store"></a>회사에서 Windows 스토어의 회사 포털 사용을 허용하는 경우
 장치에 회사 포털 앱을 설치합니다.
 
 1.  **시작** &gt; **스토어**를 탭합니다.
@@ -71,7 +71,7 @@ Intune에 Phone 8.1 장치를 등록하려면 회사에 적용되는 지침을 �
 
     ![계정이 추가된 화면](./media/WP81-enroll-4-account-added.png)
 
-## Windows Phone에서 Windows 스토어에 액세스할 수 없거나 Microsoft 계정이 없는 경우
+## <a name="if-you-are-not-allowed-to-access-the-windows-store-from-your-windows-phone-or-if-you-do-not-have-a-microsoft-account"></a>Windows Phone에서 Windows 스토어에 액세스할 수 없거나 Microsoft 계정이 없는 경우
 
 1.  **설정** &gt; **회사**를 탭합니다.
 
@@ -87,6 +87,6 @@ IT 관리자가 등록 중에 회사 포털이 설치되도록 설정한 경우�
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 
