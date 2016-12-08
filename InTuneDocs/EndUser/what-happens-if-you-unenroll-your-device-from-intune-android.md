@@ -2,10 +2,10 @@
 title: "Intune에서 Android 장치 등록을 취소하면 어떻게 되나요? | Microsoft Intune"
 description: 
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2bc39ae41779e02882a5edf3698cb0e6976caec2
-ms.openlocfilehash: 5508b359329465e6f53fa3f5b4a93918932dfd8b
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: d846b1aa3d5526f0e73cb6b3a8ca17b3cdc67db2
 
 
 ---
 
 
-# Intune에서 Android 장치 등록을 취소하면 어떻게 되나요?
+# <a name="what-happens-if-you-unenroll-your-android-device-from-intune"></a>Intune에서 Android 장치 등록을 취소하면 어떻게 되나요?
 
 Intune에서 Android 장치 등록을 취소하면:
 
@@ -40,10 +40,10 @@ Intune에서 Android 장치 등록을 취소하면:
 
 등록을 취소하는 방법에 대한 자세한 내용은 [회사 포털 앱을 사용하여 Intune에서 장치 등록 취소](unenroll-your-device-from-intune-android.md)를 참조하세요.
 
-도움이 필요하십니까? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) Microsoft Android 팀(wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
+도움이 필요하십니까? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) [Microsoft Android 팀](mailto:wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

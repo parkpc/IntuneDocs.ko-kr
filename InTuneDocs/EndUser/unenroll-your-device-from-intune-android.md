@@ -2,10 +2,10 @@
 title: "Intune에서 Android 장치 등록 취소 | Microsoft Intune"
 description: "Intune에서 Android 장치 등록을 취소하는 방법을 설명합니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,14 @@ ms.assetid: f40aab26-7613-48cc-a74e-de83df9465a4
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 891cf629725392beae1a6b8fbbb39f2bead8eb90
-ms.openlocfilehash: 17f7841daa79473b3c92cf50962b60b67224e4ee
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 350598f5fef3bcfa3b1421a70039f5af90aa56f9
 
 
 ---
 
 
-# Intune에서 Android 장치 등록 취소
+# <a name="unenroll-your-android-device-from-intune"></a>Intune에서 Android 장치 등록 취소
 
 Intune에서 Android 장치 등록을 취소하면 장치에서 회사 리소스에 더 이상 액세스할 수 없습니다.  등록을 취소할 때 발생하는 상황에 대한 자세한 내용은 [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-android.md)를 참조하세요.
 
@@ -39,14 +39,14 @@ Intune에서 장치 등록을 취소하고 회사 포털 앱을 제거하려면 
 
     ![휴지통 아이콘을 탭합니다.](./media/andr-2-tap-trashcan.png)
 
-    경고 페이지에서 **확인**을 탭하여 장치 등록을 취소합니다.
+4.  경고 페이지에서 **확인**을 탭하여 장치 등록을 취소합니다.
 
     ![장치를 제거합니다.](./media/andr-3-warning-about-remove.png)
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) Microsoft Android 팀(wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

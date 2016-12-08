@@ -2,10 +2,10 @@
 title: "Intune에서 Windows 장치 등록 취소 | Microsoft Intune"
 description: "Intune에서 Windows 장치 등록을 취소하는 방법을 설명합니다."
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,14 @@ ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0d32aa982cf9d45da36f71be5554f31375521e35
-ms.openlocfilehash: b3dda0cda3600721db5f2ea73166652abff7a44d
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: e71dece9a286ecb086197959739b0f4cb66c856d
 
 
 ---
 
 
-# Intune에서 Windows 장치 등록 취소
+# <a name="unenroll-your-windows-device-from-intune"></a>Intune에서 Windows 장치 등록 취소
 
 Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows 장치를 사용하지 않으며, 회사나 학교 메일, 앱 또는 기타 리소스에 액세스할 필요가 없는 경우 장치 등록을 취소해야 합니다. Intune에서 장치 등록을 취소하면 이러한 리소스에 더 이상 액세스할 수 없습니다. 장치의 등록을 취소할 때 발생하는 상황에 대한 자세한 내용은 [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-windows.md)를 참조하세요.
 
@@ -31,7 +31,7 @@ Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows �
 -   [Windows 8.1 컴퓨터 등록 취소](#unenroll-your-windows-8-1-computer)
 -   [Windows Phone 8.1 장치 등록 취소](#unenroll-your-windows-phone-8-1-device)
 
-## Windows 10 장치 등록 취소
+## <a name="unenroll-your-windows-10-device"></a>Windows 10 장치 등록 취소
 
 1.  앱 목록에서 **회사 포털** 앱을 탭합니다.
 
@@ -41,7 +41,7 @@ Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows �
 
 4.  **제거** &gt; **제거**를 탭합니다.
 
-## Windows 8.1 컴퓨터 등록 취소
+## <a name="unenroll-your-windows-81-computer"></a>Windows 8.1 컴퓨터 등록 취소
 
 1.  **PC 설정** &gt; **네트워크** &gt; **작업 공간**으로 이동합니다.
 
@@ -51,7 +51,7 @@ Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows �
 
 4.  팝업 창이 열리면 **해제**를 선택합니다.
 
-## Windows Phone 8.1 장치 등록 취소
+## <a name="unenroll-your-windows-phone-81-device"></a>Windows Phone 8.1 장치 등록 취소
 
 1.  **설정** &gt; **작업 공간**으로 이동합니다.
 
@@ -61,10 +61,10 @@ Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows �
 
 4.  **계정 삭제** 대화 상자에서 **삭제**를 탭합니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

@@ -2,10 +2,10 @@
 title: "Intune에서 Windows 장치 등록을 취소하면 어떻게 되나요? | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,19 +15,19 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8975e57c604565c57c86472564ab660aed560a7b
-ms.openlocfilehash: 22179d5d80d2b24e61778249367bec6845290206
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 5cf2e7e821f962d2f12813062cc30b724e2fc45a
 
 
 ---
 
 
-# Intune에서 Windows 장치 등록을 취소하면 어떻게 되나요?
+# <a name="what-happens-if-you-unenroll-your-windows-device-from-intune"></a>Intune에서 Windows 장치 등록을 취소하면 어떻게 되나요?
 
 **이 문서의 내용**에서 이 페이지의 오른쪽에 있는 링크를 사용하여 사용 중인 장치 유형에 대한 정보를 찾을 수 있습니다.
 
 
-## Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Vista
+## <a name="windows-10-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
 -   장치가 더 이상 회사 포털에 나타나지 않으며 회사 포털에서 앱을 설치할 수 없습니다.
 
@@ -52,7 +52,7 @@ ms.openlocfilehash: 22179d5d80d2b24e61778249367bec6845290206
 
 -   장치에서 더 이상 일부 회사 리소스(예: 파일 공유 또는 내부 웹 사이트)에 액세스하지 못할 수 있습니다.
 
-## Windows 10 Mobile 및 Windows Phone 8.1
+## <a name="windows-10-mobile-and-windows-phone-81"></a>Windows 10 Mobile 및 Windows Phone 8.1
 
 -   회사 포털 앱이 장치에서 제거됩니다. 즉, 장치가 더 이상 회사 포털에 나타나지 않으며 회사 포털 앱 또는 회사 포털 웹 사이트에서 앱을 설치할 수 없습니다.
 
@@ -63,7 +63,7 @@ ms.openlocfilehash: 22179d5d80d2b24e61778249367bec6845290206
     > [!IMPORTANT]
     > 유일한 예외는 암호화 정책이며, 이 정책은 여전히 적용됩니다. 회사 정책에서 Windows Phone의 암호화를 요구하는 경우 휴대폰을 암호 해제하는 유일한 방법은 **설정** 메뉴를 사용하는 것입니다.
 
-## Windows 8.1을 실행하는 Windows RT
+## <a name="windows-rt-running-windows-81"></a>Windows 8.1을 실행하는 Windows RT
 
 -   회사 포털 앱이 장치에서 제거됩니다. 즉, 장치가 더 이상 회사 포털에 나타나지 않으며 회사 포털에서 앱을 설치할 수 없습니다.
 
@@ -85,10 +85,10 @@ Windows RT 장치를 제거하면 다음과 같은 상황이 발생합니다.
 
 -   장치를 추가할 때 장치에서 변경된 모든 설정(예: 카메라 사용 안 함 또는 특정 암호 길이 요구)이 더 이상 적용되지 않습니다.
 
-의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 
