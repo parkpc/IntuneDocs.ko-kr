@@ -2,7 +2,7 @@
 title: "장치를 초기화하면 어떻게 되나요? | Microsoft Intune"
 description: 
 keywords: 
-author: barlan
+author: barlanmsft
 ms.author: barlan
 manager: angrobe
 ms.date: 10/25/2016
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0edd154f30235f1915ecabb8c4fdc067e1f553da
-ms.openlocfilehash: 4d5aa47205ec95270ed216eeff3e7839eef00321
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: d068790b167aff2bd70bf633994fac0ce1938fac
 
 
 ---
 
 
-# 장치를 초기화하면 어떻게 되나요?
+# <a name="what-happens-if-you-reset-your-device"></a>장치를 초기화하면 어떻게 되나요?
 
 장치를 초기화하면 어떻게 되는지에 대해 알아보려면 사용 중인 장치 유형과 일치하는 아래의 링크를 선택합니다.
 
@@ -32,6 +32,6 @@ ms.openlocfilehash: 4d5aa47205ec95270ed216eeff3e7839eef00321
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

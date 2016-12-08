@@ -2,8 +2,8 @@
 title: "회사 포털 웹 사이트에서 장치 재설정 | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -15,16 +15,16 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 05f54088f3b18d90368e1b408b7012d28021abfc
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: c5791e70c35446fb11971321b6b7a4178ebdfdb5
 
 
 ---
 
 
-# 회사 포털 웹 사이트에서 장치 재설정
+# <a name="reset-your-device-from-the-company-portal-website"></a>회사 포털 웹 사이트에서 장치 재설정
 
-장치를 분실하거나 도난당한 경우 데이터에 대한 무단 액세스를 방지하기 위해 장치를 공장 기본 설정으로 재설정할 수 있습니다. [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 사용하여 장치를 원격으로 재설정할 수 있습니다. 회사 포털 웹 사이트는 Intune에 등록한 컴퓨터 및 장치를 관리하는 데 사용할 수 있는 웹 페이지로, 회사 포털 앱을 사용할 때 수행할 수 있는 동일한 작업을 대부분 수행할 수 있습니다.
+장치를 분실하거나 도난당한 경우 데이터에 대한 무단 액세스를 방지하기 위해 장치를 공장 기본 설정으로 재설정할 수 있습니다. [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 사용하여 장치를 원격으로 재설정할 수 있습니다. 회사 포털 웹 사이트는 Intune에서 등록한 컴퓨터와 장치를 관리하는 데 사용할 수 있는 웹 페이지입니다. 회사 포털 앱을 사용하여 수행할 수 있는 대부분의 동일한 작업을 이 웹 사이트에서 사용할 수 있습니다.
 
 장치를 재설정하면 이 장치가 회사 포털에 더 이상 나열되지 않으며 장치가 공장 기본 설정으로 재설정됩니다.
 
@@ -40,12 +40,12 @@ ms.openlocfilehash: 05f54088f3b18d90368e1b408b7012d28021abfc
 
 이제 장치가 재설정되었습니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

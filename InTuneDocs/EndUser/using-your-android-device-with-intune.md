@@ -1,11 +1,11 @@
 ---
 title: "Intune에서 Android 장치 사용 | Microsoft Intune"
-description: "Intune에서 장치가 등록될 때 Android 모바일 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록"
+description: "Intune에서 장치가 등록될 때 최종 사용자가 Android 모바일 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록"
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,32 +14,32 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2a3ad9562d271ee67b49db28b0fc62caec9f3050
-ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 7751d5661f3fb9235820c716fdbded3dab385ec4
 
 
 ---
 
 
-# Intune에서 Android 장치 사용
+# <a name="using-your-android-device-with-intune"></a>Intune에서 Android 장치 사용
 
-이 문서에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 작업에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 태스크 수행을 위해 사용자가 진행해야 하는 단계를 확인할 수 있습니다. 이러한 태스크는 다음과 같은 범주로 그룹화됩니다.
+이 문서에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 작업에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 작업 수행을 위해 사용자가 진행해야 하는 단계를 확인할 수 있습니다. 이러한 작업은 다음과 같은 범주로 그룹화됩니다.
 
 - 회사 포털 앱을 설치 및 Intune 등록
 - 등록 후 관리 작업
 - 규정 준수 문제
 
-## 회사 포털 앱을 설치 및 Intune 등록
+## <a name="company-portal-app-installation-and-intune-enrollment"></a>회사 포털 앱을 설치 및 Intune 등록
 
-이 섹션에서는 Intune 회사 포털 설치 및 Android 장치 등록에 도움이 되는 정보를 제공합니다.
+이 섹션에서는 사용자의 Intune 회사 포털 설치 및 Android 장치 등록에 도움이 되는 정보를 제공합니다.
 
 - [Intune에서 장치 등록](enroll-your-device-in-Intune-android.md)
-- [업무용 프로필을 만들고 Intune에서 장치 등록](create-a-work-profile-and-enroll-your-device-in-intune-android.md)
+- [회사 프로필을 만들고 Intune에서 장치 등록](create-a-work-profile-and-enroll-your-device-in-intune-android.md)
 - [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 
-## 장치가 Intune에 등록되어 있는 경우 수행할 수 있는 작업
+## <a name="things-users-can-do-when-their-device-is-enrolled-in-intune"></a>장치가 Intune에 등록되어 있는 경우 사용자가 수행할 수 있는 작업
 
-이 섹션에서는 Intune에서 Android 장치를 등록한 후에 수행할 수 있는 작업에 도움이 되는 정보를 제공합니다.
+이 섹션에서는 사용자가 Intune에서 Android 장치를 등록한 후에 수행할 수 있는 작업에 도움이 되는 정보를 제공합니다.
 
 - [장치에서 관리되는 앱 사용](use-managed-apps-on-your-device-android.md)
 - [장치 암호화](encrypt-your-device-android.md)
@@ -54,9 +54,9 @@ ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
 - [회사 포털 앱을 사용하여 Android 장치를 초기화하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
 <!--- - [What is the Rights Management sharing app?](what-is-the-rms-sharing-app-android.md) --->
 
-## 장치 문제 해결
+## <a name="steps-to-fix-device-and-compliance-issues"></a>장치 및 준수 문제 해결 단계
 
-이 섹션에서는 Intune에서 Android 장치를 등록할 때 발생할 수 있는 문제를 해결하는 데 도움이 되는 정보를 제공합니다.
+이 섹션에서는 사용자가 Intune에서 Android 장치를 등록할 때 발생할 수 있는 문제를 해결하는 데 도움이 되는 정보를 제공합니다.
 
 - [자세한 정보 로깅을 사용하여 IT 관리자의 장치 문제 해결 돕기](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
 - [메일을 사용하여 IT 관리자에게 진단 데이터 로그 보내기](send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md)
@@ -65,7 +65,7 @@ ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
 - [장치에 필요한 최소 운영 체제 버전이 없는 경우](device-doesnt-have-the-required-minimum-operating-system-version-android.md)
 - [장치가 최대 운영 체제 버전에 부합되지 않는 경우](device-doesnt-comply-with-maximum-operating-system-version-android.md)
 - [장치가 루팅되었으며 연결할 수 없는 경우](your-device-is-rooted-and-you-cant-connect-android.md)
-- [장치에 필요한 인증서가 없습니다.](your-device-is-missing-a-required-certificate-android.md)
+- [장치에 필요한 인증서가 없는 경우](your-device-is-missing-a-required-certificate-android.md)
 - [알 수 없는 소스를 해제하라는 메시지가 표시되는 경우](you-are-asked-to-turn-off-unknown-sources-android.md)
 - [USB 디버깅 옵션을 해제하라는 메시지가 표시되는 경우](you-are-asked-to-turn-off-usb-debugging-android.md)
 - [장치의 보안 위협 검색을 설정하라는 메시지가 표시되는 경우](you-are-asked-to-turn-on-scan-device-for-security-threats-android.md)
@@ -75,6 +75,6 @@ ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

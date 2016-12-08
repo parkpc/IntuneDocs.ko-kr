@@ -2,8 +2,8 @@
 title: "수동으로 Windows 장치 동기화 | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 10/19/2016
 ms.topic: article
@@ -15,24 +15,24 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2d7630d71505fadc22ab135ff0c8988b314793ad
-ms.openlocfilehash: e0f18e4e1077f7843b4f8d8ea6d9e485f715bc3c
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 2fad0ea18485290a513d175fecf0a4947786e5eb
 
 
 ---
 
 
-# 수동으로 Windows 장치 동기화
+# <a name="sync-your-windows-device-manually"></a>수동으로 Windows 장치 동기화
 앱 설치가 너무 오래 걸리면, Windows 장치를 수동으로 동기화해 볼 수 있습니다. 수동으로 동기화하면 설치 속도를 향상할 수 있습니다.
 
-다음 버전만 지원됩니다. 사용하는 장치 유형에 해당하는 지침을 사용하세요.
+다음 버전만 지원됩니다. 장치가 나열되지 않으면 동기화가 지원되지 않는 것입니다. 사용하는 장치 유형에 해당하는 지침을 사용하세요.
 
 * [Windows 10 Mobile](#windows-10-mobile)
 * [Windows 10 Desktop](#windows-10-desktop)
 * [Windows Phone 8.1](#windows-phone-8-1)
 
 
-## Windows 10 Mobile
+## <a name="windows-10-mobile"></a>Windows 10 Mobile
 느린 앱 설치 속도를 높이기 위해 Windows 10 모바일 장치를 수동으로 동기화하려면:
 
 1. **모든 앱** > **설정** > **계정**으로 이동합니다.
@@ -53,7 +53,7 @@ ms.openlocfilehash: e0f18e4e1077f7843b4f8d8ea6d9e485f715bc3c
 
     “We’re synching your account(계정을 동기화 중입니다.)”라는 메시지가 화면 맨 위에 표시됩니다. **동기화** 단추는 장치 동기화를 마칠 때까지 회색으로 표시됩니다.
 
-## Windows 10 Desktop
+## <a name="windows-10-desktop"></a>Windows 10 Desktop
 Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계가 있습니다. 사용할 단계를 확인하려면 스크린샷을 확인한 후 장치에 표시되는 것과 비슷한 단계를 따릅니다. 
 
 1. **시작** 단추를 선택한 다음 **설정**을 선택합니다.
@@ -74,7 +74,7 @@ Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계�
 
     ![계정 유형으로 회사 액세스 선택](./media/win10pc-sync-3-work-access.png) 
 
-### 회사 또는 학교 액세스가 표시되는 경우 따라야 하는 절차
+### <a name="steps-to-follow-if-you-see-access-work-or-school"></a>회사 또는 학교 액세스가 표시되는 경우 따라야 하는 절차
 
 1. **계정** 페이지에서 **회사 또는 학교 액세스**를 선택합니다.
 
@@ -93,7 +93,7 @@ Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계�
 
 4. **동기화** 단추를 선택합니다. 장치가 Intune과 동기화됩니다.
 
-### 회사 액세스가 표시되는 경우 준수할 절차
+### <a name="steps-to-follow-if-you-see-work-access"></a>회사 액세스가 표시되는 경우 준수할 절차
     
 1. **계정** 페이지에서 **회사 액세스**를 선택합니다.
 
@@ -109,7 +109,7 @@ Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계�
 
    단추는 동기화가 완료될 때까지 회색으로 표시됩니다.
 
-## Windows Phone 8.1
+## <a name="windows-phone-81"></a>Windows Phone 8.1
 느린 앱 설치 속도를 높이기 위해 Windows Phone 8.1 장치를 수동으로 동기화하려면:
 
 1. **모든 앱** > **설정** > **회사**로 이동합니다.
@@ -126,10 +126,10 @@ Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계�
 
    장치 동기화를 마칠 때까지 “We’re synching your account(계정을 동기화 중입니다.)”라는 메시지가 화면 맨 위에 표시됩니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 
