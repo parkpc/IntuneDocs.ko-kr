@@ -2,10 +2,10 @@
 title: "장치 암호화 | Microsoft Intune"
 description: "Android 장치를 암호화하는 방법을 설명합니다."
 keywords: 
-author: barlan
+author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 11/7/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,14 @@ ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ff5e76e5d768b9feccb42c91c72aa71b3f724002
-ms.openlocfilehash: 4d12314ffc6126cd740012c301c39b7fb72a5bb4
+ms.sourcegitcommit: 81c0c29e1b874a7f5c7faa1c1216dbaa99ec4543
+ms.openlocfilehash: b8214506ae4609cb5316c66b854fbd572fbac94f
 
 
 ---
 
 
-# 장치 암호화
+# <a name="encrypt-your-device"></a>장치 암호화
 
 회사 또는 조직에서 회사 파일, 메일 또는 데이터에 액세스할 때 Android 장치를 암호화하도록 요구하는 경우 아래의 단계에 따라 장치를 암호화합니다. IT 관리자가 요구하는 경우 암호화하기 전에 PIN 또는 암호를 설정하라는 메시지가 표시될 수 있습니다.
 
@@ -34,7 +34,7 @@ ms.openlocfilehash: 4d12314ffc6126cd740012c301c39b7fb72a5bb4
 
 3.  화면의 지시를 따릅니다. 암호화가 진행되는 동안 장치가 여러 번 다시 시작될 수 있습니다.
 
-### 문제가 있는 경우 수행할 작업
+### <a name="what-to-do-if-you-have-issues"></a>문제가 있는 경우 수행할 작업
 **문제**: 장치를 이미 암호화한 경우에는 다음 중 하나가 발생합니다.
 
 - 암호화 단추를 사용할 수 없습니다.
@@ -57,10 +57,10 @@ ms.openlocfilehash: 4d12314ffc6126cd740012c301c39b7fb72a5bb4
 
     5. 회사 포털 앱을 열고 장치를 선택하고 **준수 확인**을 탭합니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) Microsoft Android 팀(wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) [Microsoft Android 팀](mailto:wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO2-->
 
 
