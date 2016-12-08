@@ -2,10 +2,10 @@
 title: "회사 포털 정보 | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1a1975bb10d4a35f6ab52d724405f77300c40feb
-ms.openlocfilehash: f0c50a7a028fdc17acaad4e0498aaabfb58987a8
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: adf7fc0b7ddeb7fa8361d37efd0fdd5c714a72e4
 
 
 ---
 
-# 회사 포털 정보
+# <a name="about-the-company-portal"></a>회사 포털 정보
 
-## 회사 포털이란 무엇이며 이 포털에서 어떤 작업을 할 수 있나요?
+## <a name="what-is-the-company-portal-and-what-can-you-do-with-it"></a>회사 포털이란 무엇이며 이 포털에서 어떤 작업을 할 수 있나요?
 Microsoft Intune 회사 포털을 통해 회사 또는 학교의 데이터 및 앱에 액세스할 수 있습니다. 다음과 같은 두 가지 방법으로 회사 포털을 사용할 수 있습니다.
 
 - 장치에 회사 포털 앱을 설치합니다. 일반적으로 장치의 앱 스토어로 이동하여 회사 포털 앱을 가져오지만, IT 관리자가 사용자 대신에 회사 포털 앱을 설치할 수도 있습니다.
@@ -46,7 +46,7 @@ Microsoft Intune 회사 포털을 통해 회사 또는 학교의 데이터 및 �
 - [Windows](using-your-windows-device-with-intune.md)
 - [회사 포털 웹 사이트](using-the-intune-company-portal-website.md)
 
-## 회사 포털에 컴퓨터 또는 장치를 추가하면 어떻게 되나요?
+## <a name="what-happens-when-you-add-a-computer-or-device-to-the-company-portal"></a>회사 포털에 컴퓨터 또는 장치를 추가하면 어떻게 되나요?
 회사 포털에 컴퓨터 또는 장치를 추가하면 장치에 따라 몇 가지 소프트웨어를 설치할 수도 있고 앱을 다운로드할 수도 있습니다.  그런데 회사 포털에 장치를 추가하면 IT 관리자가 장치의 회사 정보를 보호하기 위해 사용자의 장치를 관리할 수 있는 권한을 부여하는 것입니다.
 
 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 대해 알아보려면 다음 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
@@ -56,7 +56,7 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 - [iOS 및 Mac OS X](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
 - [Windows](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)
 
-## 회사 포털에 추가할 수 있는 컴퓨터 또는 장치 종류는 무엇인가요?
+## <a name="what-kind-of-computers-or-devices-can-you-add-to-the-company-portal"></a>회사 포털에 추가할 수 있는 컴퓨터 또는 장치 종류는 무엇인가요?
 
 -   iPhones, iPads 및 Mac OS X 장치
 
@@ -67,11 +67,8 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
     -   Windows 10 Desktop
     -   Windows Phone 8.1
     -   Windows 8.1
-    -   iPhones, iPads 및 Mac OS X
-    -   Android 모바일 장치
 
-
-## 회사 포털에서 컴퓨터 또는 장치를 제거할 수 있나요?
+## <a name="can-you-remove-a-computer-or-device-from-the-company-portal"></a>회사 포털에서 컴퓨터 또는 장치를 제거할 수 있나요?
 회사 포털에서 컴퓨터 또는 장치를 제거하거나 초기화할 수 있습니다. **제거** 및 **재설정** 간에 차이가 있습니다.
 
 컴퓨터 또는 장치를 *제거*하는 경우 장치를 Intune에서 등록 취소합니다. 등록 취소하면 더 이상 장치에서 회사 포털에 액세스할 수 없게 되고, 일부 회사 데이터가 장치에서 제거될 수 있습니다. 회사 포털에서 장치를 제거하는 방법을 알아보려면 다음 링크 중 하나를 선택하세요.
@@ -89,16 +86,16 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 - [Android](reset-erase-your-lost-or-stolen-device-android.md)
 - [iOS 및 Mac OS X](reset-erase-your-lost-or-stolen-device-ios.md)
 - [Windows](reset-erase-your-lost-or-stolen-device-windows.md)
-- [회사 포털 웹 사이트에서 장치 재설정](reset-your-device-cpwebsite.md)
+- [회사 포털 웹 사이트에서 장치 다시 설정](reset-your-device-cpwebsite.md)
 
-## 회사 포털에서 내 장치 중 일부가 표시되지 않습니다.
+## <a name="you-do-not-see-all-of-your-devices-in-the-company-portal"></a>회사 포털에서 내 장치 중 일부가 표시되지 않습니다.
 장치를 표시할 수 있으려면 먼저 회사 포털에 추가해야 합니다. 관리자가 지정한 대로 회사 포털로 이동하여 장치에 대한 단계를 따릅니다. 또한 회사에서 소유하고 관리하는 장치가 표시되지 않습니다.
 
-## 의문 사항이 있으면 IT 관리자에게 문의하세요.
-도움이 필요하면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+## <a name="if-you-have-questions-contact-your-it-administrator"></a>의문 사항이 있으면 IT 관리자에게 문의하세요.
+도움이 필요하면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 
