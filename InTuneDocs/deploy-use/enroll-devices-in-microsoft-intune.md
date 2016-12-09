@@ -14,16 +14,16 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 686321a1c19acb9a3a7e262822b11304d07adb40
-ms.openlocfilehash: 77789c04d13e12d7d0ecc5fb8959bc3396bd625f
+ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
+ms.openlocfilehash: a6e5148996b1010f0248f5b122246e38c3aa0464
 
 
 ---
 
 # <a name="enroll-devices-for-management-in-intune"></a>Intune에서 관리를 위해 장치 등록
-Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같은 장치를 등록할 수 있습니다. 이 항목에서는 Intune 관리에서 모바일 장치를 등록할 수 있는 다양한 방법을 설명합니다. 장치를 등록하는 방법은 장치 유형, 소유권 및 필요한 관리 수준에 따라 다릅니다. “BYOD”(Bring Your Own Device) 등록 방식에서는 개인 전화, 태블릿 또는 PC를 등록할 수 있습니다. COD(회사 소유의 장치) 등록 방식에서는 원격 초기화, 장치 공유, 장치에 대한 사용자 선호도 지정 같은 관리 시나리오가 가능합니다.
+Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같은 장치를 등록할 수 있습니다. 이 항목에서는 Intune 관리에서 모바일 장치를 등록할 수 있는 다양한 방법을 설명합니다. 장치를 등록하는 방법은 장치 유형, 소유권 및 필요한 관리 수준에 따라 다릅니다. “BYOD”(Bring Your Own Device) 등록 방식에서는 개인 전화, 태블릿 또는 PC를 등록할 수 있습니다. COD(회사 소유 장치) 등록을 사용하면 원격 초기화, 공유 장치 또는 장치에 대한 사용자 선호도 등의 관리 시나리오를 지원할 수 있습니다.
 
-[Exchange ActiveSync](#mobile-device-management-with-exchange-activesync-and-intune)를 온-프레미스나 클라우드에서 호스트하여 사용하면 등록 과정 없이 간단하게 Intune을 관리할 수 있습니다. Windows PC에서는 [Intune 클라이언트 소프트웨어](#manage-windows-pcs-with-intune)를 사용하여 관리할 수 있습니다.
+[Exchange ActiveSync](#mobile-device-management-with-exchange-activesync-and-intune)를 클라우드에서 호스트하거나 온-프레미스로 사용하는 경우 등록하지 않고 간단한 Intune 관리를 사용할 수 있습니다. [Intune 클라이언트 소프트웨어](#manage-windows-pcs-with-intune)를 사용하여 Windows PC를 관리할 수도 있습니다.
 
 ## <a name="overview-of-device-enrollment-methods"></a>장치 등록 방법 개요
 
@@ -37,24 +37,24 @@ Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같�
 
 | **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보** |
 |:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md#set-up-device-management)|
+|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md)|
 |**[DEM](#dem)**|   아니요 |아니요 |아니요  | [추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
-|**[DEP](#dep)**|   예 |   선택 사항입니다. |  선택 사항입니다.|[추가 정보](ios-device-enrollment-program-in-microsoft-intune.md)|
-|**[USB-SA](#usb-sa)**| 예 |   선택 사항입니다. |  아니요| [추가 정보](ios-setup-assistant-enrollment-in-microsoft-intune.md)|
+|**[DEP](#dep)**|   예 |   선택 사항 |  선택 사항입니다.|[추가 정보](ios-device-enrollment-program-in-microsoft-intune.md)|
+|**[USB-SA](#usb-sa)**| 예 |   선택 사항 |  아니요| [추가 정보](ios-setup-assistant-enrollment-in-microsoft-intune.md)|
 |**[USB-Direct](#usb-direct)**| 아니요 |    아니요  | 아니요|[추가 정보](ios-direct-enrollment-in-microsoft-intune.md)|
 
 **Windows 등록 방법**
 
 | **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 예|   예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md#set-up-device-management)|
+|**[BYOD](#byod)** | 예|   예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md)|
 |**[DEM](#dem)**|   아니요 |아니요 |아니요  |[추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 **Android 등록 방법**
 
 | **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md#set-up-device-management)|
+|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md)|
 |**[DEM](#dem)**|   아니요 |아니요 |아니요  |[추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 올바른 방법을 찾는 데 도움이 되는 질문은 [장치 등록 방법 선택](/intune/get-started/choose-how-to-enroll-devices1)를 참조하세요.
@@ -120,6 +120,6 @@ Intune은 다음 장치 플랫폼을 관리할 수 있습니다.
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

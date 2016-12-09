@@ -2,7 +2,8 @@
 title: "조건부 액세스 문제 해결 | Microsoft Intune"
 description: "사용자가 Intune 조건부 액세스를 통해 리소스에 액세스하지 못할 때 수행할 작업입니다."
 keywords: 
-author: karaman
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 10/24/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 433fc32c-ca9c-4bad-9616-852c72faf996
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
-ms.openlocfilehash: d819e2e25e00791793add519694fc34a251178db
+ms.sourcegitcommit: 001bacbfc6a61a1c6b8f75c8e7ca55e311a1fa71
+ms.openlocfilehash: 7d52b3bb05a00b0da5e0845380f8431044b1c121
 
 
 ---
@@ -79,7 +80,7 @@ Azure 관리 포털 및 장치 인벤토리 보고서에서 각 장치에 대해
 - Exchange Connector 로그에서 sendemail 작업과 오류를 확인하세요. 검색할 명령의 예로 알림 계정에서 사용자 메일로 SendEmail이 있습니다.
 - Exchange Connector에서 장치를 차단하기 전에 활성화 메일이 전송됩니다. 장치가 오프라인이면 활성화 메일을 받지 못할 수도 있습니다. 장치 메일 클라이언트에 폴링 대신 푸시를 사용하는 메일 검색이 있는지 확인합니다. 폴링을 사용하면 사용자가 메일을 놓칠 수도 있습니다. 폴링으로 전환하여 장치가 메일을 받는지 확인하세요.
 
-## <a name="noncompliant-device-not-blocked"></a>비규격 장치가 차단되지 않음
+## <a name="non-compliant-device-not-blocked"></a>비규격 장치가 차단되지 않음
 
 규격이 아니지만 계속 액세스 권한이 있는 장치가 있는 경우 다음 단계를 수행합니다.
 
@@ -158,6 +159,6 @@ Exchange Connector 로그에서 **Get next 명령**의 예외를 확인하고 �
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

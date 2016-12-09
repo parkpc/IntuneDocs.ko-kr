@@ -2,8 +2,8 @@
 title: "MAM 정책을 사용하여 앱 데이터 보호 | Microsoft Intune"
 description: "이 항목에서는 모바일 응용 프로그램 관리 정책이 회사 데이터를 보호하고, 데이터 손실을 방지하고, 개인 및 회사 정보를 별도로 유지되도록 하는 방법을 설명합니다."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 11/14/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 87c1f90f41ec72ff74c23bfa270efade31890fc0
+ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
+ms.openlocfilehash: 66a5814ba34f9fd15460512b0a6d40566ec33401
 
 
 ---
@@ -130,6 +130,6 @@ MDM 솔루션에 등록되지 않은 BYOD 장치의 경우 MAM 정책을 통해 
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

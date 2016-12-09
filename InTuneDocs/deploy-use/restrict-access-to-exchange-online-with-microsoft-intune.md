@@ -2,8 +2,8 @@
 title: "Exchange Online에 대한 전자 메일 액세스 제한 | Microsoft Intune"
 description: "조건부 액세스로 Exchange Online에서 회사 전자 메일을 보호하고 액세스를 제어합니다."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 11/22/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 07f18c0011624f760f4d1db05cf954551dee3a85
-ms.openlocfilehash: d63f62011acaad154790b88f710eb4eda4fb261b
+ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
+ms.openlocfilehash: 7ef78fb253ca88d63a550d5c54448103e6790574
 
 
 ---
@@ -77,7 +77,7 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 이 [문서](https://support.office.com/en-US/article/How-modern-authentication-works-for-Office-2013-and-Office-2016-client-apps-e4c45989-4b1a-462e-a81b-2a13191cf517)에는 최신 인증의 작동 방식이 자세히 나와 있습니다.
 최신 인증 이외의 인증 프로토콜을 차단하도록 ADFS 클레임 규칙을 설정해야 합니다. 자세한 지침은 시나리오 3 - [브라우저 기반 응용 프로그램을 제외한 모든 O365 액세스 차단](https://technet.microsoft.com/library/dn592182.aspx)에서 제공됩니다.
 
-**iOS** 및 **Android** 장치의 브라우저에서 액세스할 때 Exchange Online에서 **OWA(Outlook Web Access)**에 대한 액세스를 제한할 수 있습니다.  규격 장치의 지원되는 브라우저에서만 액세스할 수 있습니다.
+**iOS** 및 **Android** 장치의 브라우저에서 액세스할 때 Exchange Online에서 **OWA(Outlook Web Access)**에 대한 액세스를 제한할 수 있습니다.  호환 장치의 지원되는 브라우저에서만 액세스할 수 있습니다.
 
 * Safari(iOS)
 * Chrome(Android)
@@ -208,15 +208,15 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 
          지정한 장치 플랫폼에서 **최신 인증**을 사용하는 모든 클라이언트 앱에 조건부 액세스 정책이 적용됩니다.
 
-4. **OWA(Outlook Web Access)**에서 지원되는 브라우저[예: Safari(iOS) 및 Chrome(Android)]를 통한 Exchange Online 액세스만 허용하도록 선택할 수 있습니다. 다른 브라우저에서의 액세스는 차단됩니다. Outlook의 응용 프로그램 액세스에 대해 선택한 동일한 플랫폼 제한이 여기에도 적용됩니다.
+4. **OWA(Outlook Web Access)**에서 지원되는 브라우저[예: Safari(iOS) 및 Chrome(Android)]를 통한 Exchange Online 액세스만 허용하도록 선택할 수 있습니다. 다른 브라우저에서의 액세스는 차단됩니다. Outlook에의 응용 프로그램 액세스에 대해 선택한 것과 동일한 플랫폼 제한 사항이 여기에도 적용됩니다.
 
-  **Android** 장치에서 브라우저 액세스를 사용하도록 설정해야 합니다.  이를 수행하려면 최종 사용자가 등록된 장치에서 "브라우저 액세스 사용" 옵션을 다음과 같이 사용하도록 설정해야 합니다.
+  **Android** 장치에서는, 사용자가 브라우저 액세스를 사용하도록 설정해야 합니다.  이를 위해서 최종 사용자가 등록된 장치에서 다음과 같이 "브라우저 액세스 사용" 옵션을 사용하도록 설정해야 합니다.
   1.    **회사 포털 앱**을 시작합니다.
   2.    세 개의 점(...) 또는 하드웨어 메뉴 단추에서 **설정** 페이지로 이동합니다.
   3.    **브라우저 액세스 사용** 단추를 누릅니다.
-  4.    Chrome 브라우저에서 Office 365에서 로그아웃하고 Chrome을 다시 시작합니다.
+  4.    Chrome 브라우저에서, Office 365에서 로그아웃하고 Chrome을 다시 시작합니다.
 
-  **iOS 및 Android** 플랫폼에서 서비스에 액세스하는 데 사용되는 장치를 식별할 수 있도록 하기 위해 Azure Active Directory에서 장치에 대해 TLS(전송 계층 보안) 인증서를 발급합니다.  장치는 아래 스크린샷과 같이 최종 사용자에게 인증서를 선택하라는 메시지와 함께 인증서를 표시합니다. 최종 사용자가 이 인증서를 선택해야 브라우저를 계속 사용할 수 있습니다.
+  **iOS 및 Android** 플랫폼에서, 서비스에 액세스하는 데 사용되는 장치를 식별하기 위해 Azure Active Directory는 TLS(전송 계층 보안) 인증서를 장치에 발급합니다.  아래 스크린샷과 같이 장치에서 최종 사용자에게 인증서를 선택하라는 메시지와 함께 인증서를 표시합니다. 최종 사용자가 이 인증서를 선택해야 브라우저를 계속 사용할 수 있습니다.
 
   **Android**
 
@@ -269,6 +269,6 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 

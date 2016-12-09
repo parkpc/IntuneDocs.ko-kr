@@ -15,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 2fad0ea18485290a513d175fecf0a4947786e5eb
+ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
+ms.openlocfilehash: 9561cf77e1569a6ab0da5d9b8e90e03ce5c9e998
 
 
 ---
@@ -29,7 +29,7 @@ ms.openlocfilehash: 2fad0ea18485290a513d175fecf0a4947786e5eb
 
 * [Windows 10 Mobile](#windows-10-mobile)
 * [Windows 10 Desktop](#windows-10-desktop)
-* [Windows Phone 8.1](#windows-phone-8-1)
+* [Windows Phone 8.1](#windows-phone-81)
 
 
 ## <a name="windows-10-mobile"></a>Windows 10 Mobile
@@ -54,7 +54,7 @@ ms.openlocfilehash: 2fad0ea18485290a513d175fecf0a4947786e5eb
     “We’re synching your account(계정을 동기화 중입니다.)”라는 메시지가 화면 맨 위에 표시됩니다. **동기화** 단추는 장치 동기화를 마칠 때까지 회색으로 표시됩니다.
 
 ## <a name="windows-10-desktop"></a>Windows 10 Desktop
-Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계가 있습니다. 사용할 단계를 확인하려면 스크린샷을 확인한 후 장치에 표시되는 것과 비슷한 단계를 따릅니다. 
+Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계가 있습니다. 사용할 단계를 확인하려면 스크린샷을 확인한 후 장치에 표시되는 것과 비슷한 단계를 따릅니다.
 
 1. **시작** 단추를 선택한 다음 **설정**을 선택합니다.
 
@@ -72,7 +72,7 @@ Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계�
 
     “회사 액세스” 화면이 표시되면 [회사 액세스가 표시되는 경우 따라야 하는 절차](#steps-to-follow-if-you-see-your-account)의 단계를 수행합니다.
 
-    ![계정 유형으로 회사 액세스 선택](./media/win10pc-sync-3-work-access.png) 
+    ![계정 유형으로 회사 액세스 선택](./media/win10pc-sync-3-work-access.png)
 
 ### <a name="steps-to-follow-if-you-see-access-work-or-school"></a>회사 또는 학교 액세스가 표시되는 경우 따라야 하는 절차
 
@@ -80,9 +80,9 @@ Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계�
 
     ![회사 또는 학교 액세스 선택](./media/w10-enroll-rs1-connect-to-work-or-school.png)
 
-2. 회사 또는 학교 계정을 선택합니다. IT 관리자가 설정한 방법에 따라 아래에 표시된 예제와 같이 두 개의 계정이 표시될 수 있습니다. 한 계정 옆에는 서류 가방이 표시되고 다른 계정 옆에는 Microsoft 로고가 표시됩니다. 
+2. 회사 또는 학교 계정을 선택합니다. IT 관리자가 설정한 방법에 따라 아래에 표시된 예제와 같이 두 개의 계정이 표시될 수 있습니다. 한 계정 옆에는 서류 가방이 표시되고 다른 계정 옆에는 Microsoft 로고가 표시됩니다.
 
-    - 서류 가방이 있는 계정이 있으면 해당 계정을 선택하고 **정보** 단추를 찾습니다. 
+    - 서류 가방이 있는 계정이 있으면 해당 계정을 선택하고 **정보** 단추를 찾습니다.
     - Microsoft 로고가 있는 계정만 보이면 해당 계정을 선택하고 아래에 있는 **정보** 단추를 찾습니다.
 
     ![서류 가방 또는 Microsoft 로고 옆에 있는 계정 이름 선택](./media/win10pc-rs1-sync-info-button.png)
@@ -94,7 +94,7 @@ Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계�
 4. **동기화** 단추를 선택합니다. 장치가 Intune과 동기화됩니다.
 
 ### <a name="steps-to-follow-if-you-see-work-access"></a>회사 액세스가 표시되는 경우 준수할 절차
-    
+
 1. **계정** 페이지에서 **회사 액세스**를 선택합니다.
 
     ![계정 유형으로 회사 액세스 선택](./media/win10pc-sync-3-work-access.png)
@@ -130,6 +130,6 @@ Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계�
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

@@ -2,8 +2,8 @@
 title: "Dynamics CRM Online에 대한 액세스 제한 | Microsoft Intune"
 description: "조건부 액세스로 Dynamics CRM Online을 보호하고 액세스를 제어합니다."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 10/25/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 8dba2883b3261017bc66a409c5261f4422890015
+ms.sourcegitcommit: dae04661289c79798c2f37272a0f941d30335ea5
+ms.openlocfilehash: 2f4ba24ca6c56cee684931519937525fcde1c211
 
 
 ---
@@ -27,7 +27,8 @@ Microsoft Intune 조건부 액세스를 사용하여 iOS 및 Android 장치에�
 
 조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [메일 및 0365 및 기타 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 읽어보세요.
 
-> [!IMPORTANT] 조건부 액세스를 배포하려면 Intune 및 Azure Active Directory Premium에 대한 구독이 있어야 하고, 사용자는 두 제품의 라이선스를 취득해야 합니다. **EMS(Enterprise Mobility + Security) 구독**에는 Intune 구독과 Azure Active Directory Premium 구독이 모두 포함되어 있습니다. 자세한 내용은 [Enterprise Mobility 가격 책정 페이지](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing)를 참조하세요. EMS 구독이 없는 경우에는 Azure Active Directory Premium에 대한 구독을 가져올 수 있습니다. [Azure Active Directory 가격 책정 페이지](https://azure.microsoft.com/en-us/pricing/details/active-directory/)를 참조하세요.
+> [!IMPORTANT]
+> 조건부 액세스를 배포하려면 Intune 및 Azure Active Directory Premium에 대한 구독이 있어야 하고, 사용자는 두 제품의 라이선스를 취득해야 합니다. **EMS(Enterprise Mobility + Security) 구독**에는 Intune 구독과 Azure Active Directory Premium 구독이 모두 포함되어 있습니다. 자세한 내용은 [Enterprise Mobility 가격 책정 페이지](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing)를 참조하세요. EMS 구독이 없는 경우에는 Azure Active Directory Premium에 대한 구독을 가져올 수 있습니다. [Azure Active Directory 가격 책정 페이지](https://azure.microsoft.com/en-us/pricing/details/active-directory/)를 참조하세요.
 
 대상 사용자가 장치에서 Dynamics CRM 앱을 사용하려고 시도하는 경우 다음 평가가 발생합니다.
 
@@ -100,6 +101,6 @@ Dynamics CRM 정책에 사용할 두 가지 그룹 유형을 지정할 수 있�
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 

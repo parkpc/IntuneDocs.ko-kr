@@ -1,8 +1,8 @@
 ---
 title: "Lookout for Work 앱 배포 | Microsoft Intune"
 description: "Android용 Lookout for Work 앱을 구성하고 배포합니다."
-author: karthikaraman
-ms.author: karaman
+author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 10/12/2016
 ms.topic: article
@@ -13,8 +13,8 @@ ms.assetid: 524c4209-ad57-4d35-955e-a00d796bf858
 ms.reviewer: sandera
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9bf5764d1e1bd73fd62e5033b2309fc8d5a912e4
-ms.openlocfilehash: 646bd62dcf95b37ce9154e4852612b17ab71f954
+ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
+ms.openlocfilehash: 720fe241e7f1205dbad4b64af5cf7f16a80db23e
 
 
 ---
@@ -40,14 +40,15 @@ Intune 콘솔에서 **앱**을 클릭하면 목록에 Lookout for Work 앱이 �
 
 * **5단계:** Lookout for Work 앱을 선택하고 **배포 관리**를 선택하여 사용자에게 앱을 배포합니다.
 
-  Lookout MTP 콘솔의 등록 관리 옵션에 추가한 사용자와 동일한 사용자를 선택해야 합니다.  Lookout MTP에 사용자 그룹을 추가하는 방법에 대한 정보는 [Lookout MTP 구독 구성 섹션](set-up-your-subscription-with-lookout-mtp#configure-your-subscription-with-lookout-mtp)에 나온 3단계를 참조하세요.
+  Lookout MTP 콘솔의 등록 관리 옵션에 추가한 사용자와 동일한 사용자를 선택해야 합니다.  Lookout MTP에 사용자 그룹을 추가하는 방법에 대한 정보는 [Lookout MTP 구독 구성 섹션](set-up-your-subscription-with-lookout-mtp.md#configure-your-subscription-with-lookout-device-threat-protection)에 나온 3단계를 참조하세요.
+
   >[!IMPORTANT]
   > Intune 앱 배포 마법사는 Azure AD 사용자 그룹을 인식하지 못하기 때문에 Intune 사용자 그룹을 대신 사용합니다. 따라서 [이](plan-your-user-and-device-groups.md) 항목에 설명한 대로, Lookout MTP 콘솔에 등록된 Azure AD 사용자 그룹을 기반으로 Intune 사용자 그룹을 만들어야 합니다.
 
 * **6단계**: Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치**를 선택합니다.
 
 
-## <a name="ios-enterprisesigned-version-of-lookout-app"></a>iOS(Lookout 앱의 엔터프라이즈 서명된 버전)
+## <a name="ios-enterprise-signed-version-of-lookout-app"></a>iOS(Lookout 앱의 엔터프라이즈 서명된 버전)
 
 * **1단계:** 장치에 **iOS 관리**가 설치되어 있는지 확인합니다. iOS 관리에 대해 장치를 설정하는 방법에 대한 자세한 내용은 [iOS 및 Mac 장치 관리 설정](set-up-ios-and-mac-management-with-microsoft-intune.md)을 참조하세요.
 
@@ -76,7 +77,8 @@ Intune 콘솔에서 **앱**을 클릭하면 목록에 Lookout for Work 앱이 �
 
 * **6단계:** **사용자에게 앱을 배포하도록** Lookout for Work 앱을 선택하고 **배포 관리**를 선택합니다.
 
-  Lookout  콘솔의 등록 관리 옵션에 추가된 사용자와 동일한 사용자를 선택해야 합니다.  Lookout MTP에 사용자 그룹을 추가하는 방법에 대한 정보는 [Lookout 장치 위협 방지 구독 구성 섹션](set-up-your-subscription-with-lookout-mtp#configure-your-subscription-with-lookout-mtp)에 나온 3단계를 참조하세요.
+  Lookout  콘솔의 등록 관리 옵션에 추가된 사용자와 동일한 사용자를 선택해야 합니다.  Lookout MTP에 사용자 그룹을 추가하는 방법에 대한 정보는 [Lookout 장치 위협 방지 구독 구성 섹션](set-up-your-subscription-with-lookout-mtp.md#configure-your-subscription-with-lookout-device-threat-protection)에 나온 3단계를 참조하세요.
+
 >[!IMPORTANT]
 > Intune 앱 배포 마법사는 Azure AD 사용자 그룹을 인식하지 못하기 때문에 Intune 사용자 그룹을 대신 사용합니다. 따라서 [이](plan-your-user-and-device-groups.md) 항목에 설명한 대로, Lookout 콘솔에 등록된 Azure AD 사용자 그룹을 기반으로 Intune 사용자 그룹을 만들어야 합니다.
 
@@ -98,6 +100,6 @@ Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵�
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

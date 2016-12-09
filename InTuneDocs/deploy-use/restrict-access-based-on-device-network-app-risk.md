@@ -2,8 +2,8 @@
 title: "장치 위협 방지를 사용하여 액세스 제한 | Microsoft Intune"
 description: "장치, 네트워크 및 응용 프로그램 위험에 따라 회사 리소스에 대한 액세스를 제한합니다."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 09/13/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: 725d9e40-e70c-461a-9413-72ff1b89a938
 ms.reviewer: sandera
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d4cd3d28a9e4c80fb6a2e17856f6dc9230429e70
-ms.openlocfilehash: cbd223560810ee1b97966b8bf8da7206cc2a7955
+ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
+ms.openlocfilehash: d529bd1c2a281c06f70593e73b71d09962a3c714
 
 
 ---
@@ -91,6 +91,6 @@ Lookout에서 지원하는 플랫폼 및 언어에 대한 자세한 내용은 �
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

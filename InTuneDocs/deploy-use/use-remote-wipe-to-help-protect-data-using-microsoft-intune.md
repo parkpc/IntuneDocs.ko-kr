@@ -14,8 +14,8 @@ ms.assetid: 8519e411-3d48-44eb-9b41-3e4fd6a93112
 ms.reviewer: lancecra
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e33dcb095b1a405b3c8d99ba774aee1832273eaf
-ms.openlocfilehash: df7f2683d8ae8860b7eaa0d1c37c7443830291a0
+ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
+ms.openlocfilehash: cbfdb0e5db6862fcf046f42b85b8c9aabbba8721
 
 
 ---
@@ -24,7 +24,7 @@ ms.openlocfilehash: df7f2683d8ae8860b7eaa0d1c37c7443830291a0
 Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정하거나 잃어버린 장치에 있는 앱과 데이터를 초기화할 수 있습니다. 이를 위해, Intune은 선택적 초기화 및 전체 초기화 기능을 제공합니다. 또한 사용자가 Intune에 등록된 개인적으로 소유한 장치의 Intune 회사 포털 앱에서 원격 장치 초기화 명령을 실행할 수 있습니다.
 
   > [!NOTE]
-  > 이 항목에서는 Intune 모바일 장치 관리에서 관리 장치를 초기화하는 방법만 설명합니다. [Azure 포털](https://portal.azure.com)을 사용하여 [앱에서 회사 데이터를 초기화](wipe-managed-company-app-data-with-microsoft-intune.md)할 수도 있습니다. [Intune 클라이언트 소프트웨어로 관리되는 컴퓨터를 사용 중지](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client#retire-a-computer.md)할 수도 있습니다.
+  > 이 항목에서는 Intune 모바일 장치 관리에서 관리 장치를 초기화하는 방법만 설명합니다. [Azure 포털](https://portal.azure.com)을 사용하여 [앱에서 회사 데이터를 초기화](wipe-managed-company-app-data-with-microsoft-intune.md)할 수도 있습니다. [Intune 클라이언트 소프트웨어로 관리되는 컴퓨터를 사용 중지](retire-a-windows-pc-with-microsoft-intune.md)할 수도 있습니다.
 
 ## <a name="full-wipe"></a>전체 초기화
 
@@ -165,6 +165,6 @@ EFS로 암호화된 콘텐츠의 선택 초기화는 Windows 8.1 및 Windows RT 
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 

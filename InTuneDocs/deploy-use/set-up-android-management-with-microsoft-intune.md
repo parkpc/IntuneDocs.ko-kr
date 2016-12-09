@@ -14,8 +14,8 @@ ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
 ms.reviewer: lacranda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d51f34dea3463bec83ea39cdfb79c7bedf9e3926
-ms.openlocfilehash: 504b8334485217ab00d42080e1fab8728e7b62c4
+ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
+ms.openlocfilehash: f1e019d66858357987ee34e8a5144fb6a3511400
 
 
 ---
@@ -24,7 +24,7 @@ ms.openlocfilehash: 504b8334485217ab00d42080e1fab8728e7b62c4
 Intune 관리자는 회사 포털에서 Samsung Knox Standard 장치를 포함한 Android 장치를 관리하도록 설정할 수 있습니다. 그러면 사용자가 Google Play에서 제공되는 회사 포털 앱을 사용하여 장치를 등록할 수 있습니다.
 
 1.  **Intune 설정**<br>
-    모바일 장치 관리를 아직 준비하지 않은 경우 [모바일 장치 관리 기관](prerequisites-for-enrollment.md#set-mobile-device-management-authority)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
+    모바일 장치 관리를 아직 준비하지 않은 경우 [모바일 장치 관리 기관](prerequisites-for-enrollment.md#step-2-set-mdm-authority)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
 
 2.  **Android 등록 사용**<br>
     Intune 콘솔에서 추가적으로 구성할 필요 없이 Android 모바일 장치 등록을 설정할 수 있습니다.
@@ -42,6 +42,6 @@ Intune 관리자는 회사 포털에서 Samsung Knox Standard 장치를 포함�
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

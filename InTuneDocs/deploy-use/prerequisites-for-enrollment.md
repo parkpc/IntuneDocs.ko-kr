@@ -14,8 +14,8 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 391612c35a7665073ca8a5c629169e5be967ab59
+ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
+ms.openlocfilehash: 270e6015e629c048b01b218793640888706d118e
 
 
 ---
@@ -40,8 +40,8 @@ Configuration Manager가 포함된 Intune을 찾고 있나요?
 ## <a name="step-1-enable-connections"></a>1단계: 연결 사용
 
 모바일 장치 등록을 사용하도록 설정하기 전에 다음을 수행했는지 확인합니다.
-- [필요한 네트워크 URL 및 포트 검토](../get-started/network-infrastructure-requirements-for-microsoft-intune)
-- [도메인 이름 추가 및 확인](../get-started/domain-names-for-microsoft-intune)
+- [필요한 네트워크 URL 및 포트 검토](../get-started/network-infrastructure-requirements-for-microsoft-intune.md)
+- [도메인 이름 추가 및 확인](../get-started/domain-names-for-microsoft-intune.md)
 
 ## <a name="step-2-set-mdm-authority"></a>2단계: MDM 기관 설정
 MDM 기관은 일련의 장치를 관리할 권한을 가진 관리 서비스를 정의합니다. MDM 기관에 대한 옵션에는 Intune 자체 및 Intune을 사용하는 Configuration Manager가 포함됩니다. Configuration Manager를 관리 기관으로 설정한 경우 모바일 장치 관리에 다른 서비스를 사용할 수 없습니다.
@@ -111,7 +111,7 @@ Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장�
 
 ## <a name="step-5-assign-user-licenses"></a>5단계: 사용자 라이선스 할당
 
-**Office 365 관리 포털**을 사용하여 클라우드 기반 사용자를 수동으로 추가하고, 클라우드 기반 사용자 계정 및 온-프레미스 Active Directory에서 Azure AD(Azure Active Directory)로 동기화한 계정에 라이선스를 할당합니다. [Azure AD와 온-프레미스 사용자를 동기화](../get-started/domain-names-for-microsoft-intune#to-synchronize-on-premises-users-with-azure-ad.md)할 수 있습니다.
+**Office 365 관리 포털**을 사용하여 클라우드 기반 사용자를 수동으로 추가하고, 클라우드 기반 사용자 계정 및 온-프레미스 Active Directory에서 Azure AD(Azure Active Directory)로 동기화한 계정에 라이선스를 할당합니다. [Azure AD와 온-프레미스 사용자를 동기화](../get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3.md#how-to-sync-on-premises-users-with-azure-ad)할 수 있습니다.
 
 1.  테넌트 관리자 자격 증명을 사용하여 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx)에 로그인합니다.
 
@@ -136,7 +136,7 @@ MDM 기관을 설정한 후 조직에서 지원하려는 운영 체제에 대한
 - [Windows PC 및 노트북](set-up-windows-device-management-with-microsoft-intune.md)
 - [Windows 10 Mobile 및 Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)
 
-[회사 소유 장치 등록](manage-corporate-owned-devices)을 사용하도록 설정할 수도 있습니다.
+[회사 소유 장치 등록](manage-corporate-owned-devices.md)을 사용하도록 설정할 수도 있습니다.
 
 ## <a name="step-7-next-steps"></a>7단계: 다음 단계
 
@@ -149,6 +149,6 @@ MDM 기관을 설정한 후 조직에서 지원하려는 운영 체제에 대한
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

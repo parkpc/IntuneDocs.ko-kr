@@ -2,8 +2,8 @@
 title: "등록되지 않은 장치에서 LOB 앱 보호 | Microsoft Intune"
 description: "이 항목에서는 데이터 손실을 방지하는 데 도움이 되는 모바일 응용 프로그램 관리 정책을 적용할 수 있도록 사용자 지정 LOB(기간 업무) 앱을 준비하는 방법을 설명합니다."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: mtillman
+ms.author: mtillman
 manager: angrobe
 ms.date: 11/14/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 3bce8989944985c36a3d233fbb05d2f3f135b7e7
+ms.sourcegitcommit: d6ff74f0b46baf384dbdedf13ad75538dd33a089
+ms.openlocfilehash: bc1efb1e0c62e6bd52658690db95901c70403d4d
 
 
 ---
@@ -29,9 +29,9 @@ MAM(모바일 응용 프로그램 관리) 정책은 회사 데이터를 누수�
 
 ##  <a name="step-1-prepare-the-app"></a>1단계: 앱 준비
 
-MAM 정책을 앱에 적용하려면 먼저 [iOS](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) 및 [Android](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)용 Microsoft Intune 앱 줄 바꿈 도구를 사용하여 앱을 줄 바꿈하거나, [Intune 앱 SDK](/../develop/intune-app-sdk)를 사용하여 Intune 앱 보호 기능을 수동으로 통합합니다.
+MAM 정책을 앱에 적용하려면 먼저 [iOS](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) 및 [Android](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)용 Microsoft Intune 앱 줄 바꿈 도구를 사용하여 앱을 줄 바꿈하거나, [Intune 앱 SDK](../develop/intune-app-sdk.md)를 사용하여 Intune 앱 보호 기능을 수동으로 통합합니다.
 
-앱 줄 바꿈 도구와 SDK의 사용에 대한 자세한 내용은 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune)을 참조하세요.
+앱 줄 바꿈 도구와 SDK의 사용에 대한 자세한 내용은 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)을 참조하세요.
 
 ## <a name="step-2-add-the-app"></a>2단계: 앱 추가
 
@@ -81,6 +81,6 @@ LOB(기간 업무) 앱을 MAM 정책과 연결하려면 다음 단계를 사용�
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

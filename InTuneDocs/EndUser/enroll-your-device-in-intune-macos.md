@@ -15,8 +15,8 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 162d176c5f272f5f19ba18cdd07fe815ac1bcce7
-ms.openlocfilehash: fc0efceb8a0c3e1323f7d94625bc5f618d35bfd6
+ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
+ms.openlocfilehash: 650e9b0700971e626e4062c312111ef60e74badc
 
 
 ---
@@ -46,7 +46,7 @@ ms.openlocfilehash: fc0efceb8a0c3e1323f7d94625bc5f618d35bfd6
  ![이 장치 macOS 등록](./media/macOS_enroll_003_enroll_popup.png)
 
   > [!NOTE]
-  > 장치가 조직의 리소스에 액세스해도 안전한지 확인하기 위해 Intune에서 컴퓨터에 액세스해야 합니다. [Intune에서 장치를 등록하면 어떻게 되는지](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios) 알아보세요.
+  > 장치가 조직의 리소스에 액세스해도 안전한지 확인하기 위해 Intune에서 컴퓨터에 액세스해야 합니다. [Intune에서 장치를 등록하면 어떻게 되는지](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md) 알아보세요.
 
 6. __시스템 환경설정__이 열리고 __"관리 프로필"을 설치할까요?__ 메시지가 표시됩니다. __설치__를 클릭하여 진행하거나 __프로필 표시__를 클릭하여 자세한 내용을 확인합니다.
 
@@ -64,6 +64,6 @@ ms.openlocfilehash: fc0efceb8a0c3e1323f7d94625bc5f618d35bfd6
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 
