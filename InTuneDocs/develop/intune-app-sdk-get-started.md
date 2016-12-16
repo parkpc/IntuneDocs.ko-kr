@@ -1,20 +1,21 @@
 ---
-title: "Microsoft Intune 앱 SDK 시작 | Microsoft Intune"
+title: "Microsoft Intune 앱 SDK 시작 | Microsoft 문서"
 description: 
 keywords: 
-author: Msmbaldwin
-manager: jeffgilb
-ms.date: 09/08/2016
+author: mtillman
+manager: angrobe
+ms.author: oydang
+ms.date: 12/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
-ms.reviewer: jeffgilb
+ms.reviewer: oydang
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8bc2f6e8dcf9d0ac3e7fccec792c86ff1fd4131c
-ms.openlocfilehash: 15be877edbdeb827a4318af226ea8cde8c8e46f4
+ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
+ms.openlocfilehash: 7372cdd1c1001d621ba8374284e814951f55ef93
 
 
 ---
@@ -82,10 +83,18 @@ Intune 앱 SDK를 네이티브 Android 앱에 통합하려면 다음이 필요�
 
 * **[Android용 Intune 앱 SDK 개발자 가이드](intune-app-sdk-android.md)**: 이 문서에서는 Intune 앱 SDK를 사용하여 모바일 Android 앱을 사용하도록 설정하는 과정을 단계별로 안내합니다.
 
-Intune 앱 SDK Xamarin 구성 요소 및 Intune 앱 SDK Cordova 플러그 인에 대한 설명서는 해당 GitHub 리포지토리 내에서 찾을 수 있습니다.
+Intune 앱 SDK Cordova 플러그 인을 사용하여 Cordova 앱을 빌드하려면 다음이 필요합니다.
+
+* **[Intune 앱 SDK Cordova 플러그 인 가이드](intune-app-sdk-cordova.md)**: 이 문서를 사용하면 Intune 모바일 앱 관리용 Cordova를 사용하여 iOS 및 Android 앱을 빌드할 수 있습니다.
+
+Intune 앱 SDK Xamarin 구성 요소를 사용하여 Xamarin 앱을 빌드하려면 다음이 필요 합니다.
+
+* **[Intune 앱 SDK Xamarin 플러그 인 가이드](intune-app-sdk-xamarin.md)**: 이 문서를 사용하면 Intune 모바일 앱 관리용 Cordova를 사용하여 iOS 및 Android 앱을 빌드할 수 있습니다.
 
 
-## <a name="set-up-telemetry-for-your-app"></a>앱에 원격 분석 설정
+
+
+## <a name="configure-telemetry-for-your-app"></a>앱에 대한 원격 분석 구성
 
 Microsoft Intune은 앱의 사용 통계에 대한 데이터를 수집합니다.
 
@@ -95,7 +104,7 @@ Microsoft Intune은 앱의 사용 통계에 대한 데이터를 수집합니다.
 
 * **Android용 Intune 앱 SDK**: 원격 분석 데이터가 SDK를 통해 기록되지 않습니다.
 
-## <a name="test-your-mamenabled-app-with-microsoft-intune"></a>Microsoft Intune을 사용하여 MAM 지원 앱 테스트
+## <a name="test-your-mam-enabled-app-with-microsoft-intune"></a>Microsoft Intune을 사용하여 MAM 지원 앱 테스트
 
 iOS 또는 Android 앱을 Intune 앱 SDK와 통합하는 데 필요한 단계를 완료한 후에는 모든 앱 관리 정책이 사용하도록 설정되어 사용자 및 IT 관리자에 대해 작동하는지 확인해야 합니다. 통합된 앱을 테스트하려면 다음이 필요합니다.
 
@@ -109,6 +118,6 @@ iOS 또는 Android 앱을 Intune 앱 SDK와 통합하는 데 필요한 단계를
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Dec16_HO2-->
 
 

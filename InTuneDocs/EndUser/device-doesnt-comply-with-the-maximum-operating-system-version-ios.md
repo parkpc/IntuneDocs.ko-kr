@@ -1,11 +1,11 @@
 ---
-title: "iOS 장치가 최대 운영 체제 버전에 부합되지 않는 경우 | Microsoft Intune"
+title: "사용 중인 장치가 최대 운영 체제 버전에 부합되지 않는 경우 | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/08/2016
+ms.date: 12/06/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,19 +15,21 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 994fbd726b5173ce18e284c94a658189f100a9b0
-ms.openlocfilehash: 99c41c884d1e6e4e0d1ba6d2edb0d902551ea21a
+ms.sourcegitcommit: 308706452538ea6d87546d72ca4478b227ced0d6
+ms.openlocfilehash: 928845c6e0bc21ae678fd6ba31c3bd0bbde5d338
 
 
 ---
 
 
-# iOS 장치가 최신 운영 체제 버전 설정에 부합되지 않는 경우
+# <a name="your-devices-operating-system-version-isnt-yet-supported"></a>사용 중인 장치의 운영 체제 버전이 아직 지원되지 않는 경우
 
-iOS 장치가 사용할 수 있는 최신 운영 체제 버전에 대한 IT 관리자의 정책을 준수하지 않습니다. IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+모바일 기술이 빠른 속도로 개발됨에 따라, 사용 중인 장치의 운영 체제 버전을 IT 관리자가 아직 테스트하지 못했을 수도 있습니다. 즉, 최신 버전의 iOS는 회사의 일부 다른 도구와 연동되지 않을 수도 있습니다.
+
+이 문제를 해결하려면 IT 관리자에게 문의해야 합니다. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

@@ -1,9 +1,9 @@
 ---
-title: "Lookout 통합 문제 해결 | Microsoft Intune"
+title: "Lookout 통합 문제 해결 | Microsoft 문서"
 description: "이 항목에서는 Lookout 통합에서 흔히 발생하는 문제의 해결 방법을 설명합니다."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 09/13/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: bbe0b5f4-b8bc-49f3-85a9-51fb2f226fca
 ms.reviewer: sandera
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9bf5764d1e1bd73fd62e5033b2309fc8d5a912e4
-ms.openlocfilehash: aa29f702803d657f783ff0dfc6ea66981484c569
+ms.sourcegitcommit: d6ff74f0b46baf384dbdedf13ad75538dd33a089
+ms.openlocfilehash: 416f200bdb72bae98897cb8d279dbdb767757da9
 
 
 ---
@@ -39,7 +39,7 @@ Azure AD 전역 관리자가 초기 Lookout 설정을 수락하지 않은 경우
 
 ![로그인 오류를 보여 주는 Lookout 로그인 화면의 스크린샷](../media/mtp/lookout-mtp-consent-not-accepted-error.png)
 
-이 문제를 해결하려면 전역 관리자가 https://aad.lookout.com/les?action=consent에 로그인하여 설치 초기화 확인 메시지를 수락해야 합니다. 자세한 정보는 [Lookout MTP 구독 설정](set-up-your-subscription-with-lookout-mtp.md) 항목에서 확인할 수 있습니다.
+이 문제를 해결하려면 전역 관리자가 https://aad.lookout.com/les?action=consent에 로그인하여 설치 초기화 확인 메시지를 수락해야 합니다. 자세한 정보는 [Lookout MTP 구독 설정](../deploy-use/set-up-your-subscription-with-lookout-mtp.md) 항목에서 확인할 수 있습니다.
 
 ## <a name="troubleshoot-device-status-issues"></a>장치 상태 문제 해결
 
@@ -90,6 +90,6 @@ Lookout MTP 콘솔의 **장치** 모듈에서 **삭제**를 선택할 수도 있
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

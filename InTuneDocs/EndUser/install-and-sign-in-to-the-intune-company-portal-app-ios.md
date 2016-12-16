@@ -2,10 +2,10 @@
 title: "Intune 회사 포털 앱 설치 및 로그인 | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1d133011004fa9c684f81c7adc085dc43a4a2ee4
-ms.openlocfilehash: 29bc67a9ce4120cbb9f157c8d0eefb78dce020ca
+ms.sourcegitcommit: 2f92ce22c9e6a87bccc7ab17144d0d52ff6cfc7b
+ms.openlocfilehash: ebb2a164e631388d073d11440eb6072ae4d90468
 
 
 ---
 
 
-# Intune 회사 포털 앱 설치 및 로그인
+# <a name="install-and-sign-in-to-the-intune-company-portal-app"></a>Intune 회사 포털 앱 설치 및 로그인
 
 회사 포털은 회사 또는 학교 앱, 메일 및 네트워크에 대한 액세스 권한을 제공하기 위해 iOS 장치에 설치하는 앱입니다.  액세스 권한을 받으려면 먼저 회사 포털 앱을 설치한 다음, 앱을 사용하여 Microsoft Intune에서 장치를 등록해야 합니다. 자세한 내용은 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)를 참조하세요.
 
@@ -34,12 +34,12 @@ ms.openlocfilehash: 29bc67a9ce4120cbb9f157c8d0eefb78dce020ca
 
 3.  회사 포털 앱을 열고 회사 또는 학교 메일 주소와 암호를 입력한 다음 **로그인**을 탭합니다.
 
-    처음으로 회사 포털 앱에 로그인하는 경우 그리고 회사 또는 학교에서 Intune을 사용하는 경우 장치를 Intune에 등록하라는 메시지가 표시됩니다. 등록하려면 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md)의 단계를 따릅니다.
+    처음으로 회사 포털 앱에 로그인하는 경우 그리고 회사 또는 학교에서 Intune을 사용하는 경우 장치를 Intune에 등록하라는 메시지가 표시됩니다. 등록하려면 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 macOS 장치 등록](enroll-your-device-in-intune-macos.md)의 단계를 따릅니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

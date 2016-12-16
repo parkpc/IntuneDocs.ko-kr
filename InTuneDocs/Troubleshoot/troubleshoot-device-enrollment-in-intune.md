@@ -14,8 +14,8 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e33dcb095b1a405b3c8d99ba774aee1832273eaf
-ms.openlocfilehash: f279e79432f70214245854db42641535eaf65824
+ms.sourcegitcommit: 998c24744776e0b04c9201ab44dfcdf66537d523
+ms.openlocfilehash: 9c5963f1413e1cd9f119186f47f46c7f7f16720d
 
 
 ---
@@ -86,7 +86,7 @@ ms.openlocfilehash: f279e79432f70214245854db42641535eaf65824
 >
 > 장치 등록 관리자 그룹에 추가된 사용자 계정은 해당 특정 사용자 로그인에 대해 조건부 액세스 정책이 적용되는 경우 등록을 완료할 수 없습니다.
 
-### <a name="company-portal-temporarily-unavailable"></a>회사 포털을 일시적으로 사용할 수 없음
+### <a name="company-portal-emporarily-unavailable"></a>회사 포털을 일시적으로 사용할 수 없음
 **문제:** 장치에서 **회사 포털을 일시적으로 사용할 수 없음** 오류가 사용자에게 표시됩니다.
 
 **해결 방법:**
@@ -214,23 +214,40 @@ ms.openlocfilehash: f279e79432f70214245854db42641535eaf65824
 
 ### <a name="android-certificate-issues"></a>Android 인증서 문제
 
-**문제**: 장치에서 다음과 같은 메시지가 표시됩니다. *필요한 인증서가 장치에 없으므로 로그인할 수 없습니다.*
+**문제**: 장치에서 *필요한 인증서가 장치에 없으므로 로그인할 수 없습니다.*라는 메시지가 표시됩니다.
 
-**해결 방법**:
+**해결 방법 1**:
 
-- [다음 지침](/intune/enduser/your-device-is-missing-a-required-certificate-android#your-device-is-missing-a-certificate-required-by-your-it-administrator)을 수행하여 누락된 인증서를 검색할 수 있습니다.
-- 인증서를 검색할 수 없는 경우 ADFS 서버에서 중간 인증서가 누락된 것일 수 있습니다. 중간 인증서는 Android에서 서버를 신뢰하는 데 필요합니다.
+사용자에게 [장치에 필요한 인증서가 없는 경우](/intune/enduser/your-device-is-missing-a-required-certificate-android#your-device-is-missing-a-certificate-required-by-your-it-administrator)의 지침을 따르도록 합니다. 사용자가 해당 지침을 따른 후에도 오류가 계속 표시되면 해결 방법 2를 시도해 봅니다.
 
-다음과 같이 ADFS 서버 또는 프록시의 중간 저장소에 인증서를 가져올 수 있습니다.
+**해결 방법 2**:
 
-1.  ADFS 서버에서 **Microsoft Management Console**을 시작하고 **컴퓨터 계정**에 대한 인증서 스냅인을 추가합니다.
-5.  ADFS 서비스가 사용하는 인증서를 찾은 후 해당 부모 인증서를 확인합니다.
-6.  부모 인증서를 복사한 후 **컴퓨터\중간 인증 기관 \인증서** 아래에 붙여넣습니다.
-7.  ADFS, ADFS 암호 해독 및 ADFS 서명 인증서를 복사하고 ADFS 서비스에 대한 개인 저장소에 붙여넣습니다.
-8.  ADFS 서버를 다시 시작합니다.
+사용자가 회사 자격 증명을 입력하여 페더레이션 로그인 환경으로 리디렉션된 후에도 인증서가 없다는 오류가 계속 표시되는 경우에는 AD FS(Active Directory Federation Services) 서버의 중간 인증서가 없는 것일 수 있습니다.
 
+Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/library/cc783349.aspx)에 중간 인증서가 포함되어야 하는데, 현재 기본 AD FS 서버 또는 AD FS 프록시 서버 설치에서는 SSL 클라이언트 Hello에 대한 SSL 서버 Hello 응답에 AD FS 서비스의 SSL 인증서만 전송하기 때문에 인증서 오류가 발생합니다.
+
+이 문제를 해결하려면 다음과 같이 인증서를 AD FS 서버 또는 프록시의 컴퓨터 개인 인증서로 가져옵니다.
+
+1.  AD FS 및 프록시 서버에서 **시작** 단추를 마우스 오른쪽 단추로 클릭하고 **실행**을 입력한 다음 **certlm.msc**를 입력하여 로컬 컴퓨터의 인증서 관리 콘솔을 시작합니다.
+2.  **개인**을 확장하고 **인증서**를 선택합니다.
+3.  AD FS 서비스 통신용 인증서(공개 서명된 인증서)를 찾은 다음 두 번 클릭하여 해당 속성을 확인합니다.
+4.  **인증 경로** 탭을 선택하여 해당 인증서의 상위 인증서를 확인합니다.
+5.  각 상위 인증서에서 **인증서 보기**를 선택합니다.
+6.  **세부 정보** 탭을 선택하고 **파일에 복사...**를 선택합니다.
+7.  마법사의 메시지에 따라 인증서의 공개 키를 원하는 파일 위치에 내보내거나 저장합니다.
+8.  **인증서**를 마우스 오른쪽 단추로 클릭하고 **모든 태스크** > **가져오기**를 선택한 후에 마법사의 메시지에 따라 인증서를 가져오는 방법으로 3단계에서 내보냈던 상위 인증서를 로컬 컴퓨터\개인\인증서로 가져옵니다.
+9.  AD FS 서버를 다시 시작합니다.
+10. 모든 AD FS 및 프록시 서버에서 위의 단계를 반복합니다.
 이제 사용자는 Android 장치에서 회사 포털에 로그인할 수 있습니다.
 
+**인증서가 제대로 설치되었는지 유효성을 검사하려면**:
+
+아래 단계에서는 인증서가 올바르게 설치되었는지 유효성을 검사하는 데 사용할 수 있는 여러 방법과 도구 중 하나를 설명합니다.
+
+1. [무료 Digicert 도구](ttps://www.digicert.com/help/)로 이동합니다.
+2. AD FS 서버의 정규화된 도메인 이름(예: sts.contoso.com)을 입력하고 **CHECK SERVER**(서버 확인)를 선택합니다.
+
+서버 인증서가 올바르게 설치되어 있으면 결과의 모든 항목에 확인 표시가 나타납니다. 위에서 설명한 문제가 있는 경우에는 보고서의 "Certificate Name Matches"(인증서 이름 일치) 및 "SSL Certificate is correctly Installed"(SSL 인증서가 올바르게 설치됨) 섹션에 빨간색 X가 표시됩니다.
 
 
 ## <a name="ios-issues"></a>iOS 문제
@@ -356,6 +373,6 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 

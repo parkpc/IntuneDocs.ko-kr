@@ -9,14 +9,14 @@ keywords: "intune 설명서, 앱 관리, 장치 관리, MDM 설명서, MAM 설�
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 10/07/2016
+ms.date: 12/7/2016
 ms.topic: hubpage
 ms.service: microsoft-intune
 ms.suite: ems
 ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
 translationtype: Human Translation
-ms.sourcegitcommit: 315c159869303fd6a26caa35160d5ba3c7ccdc1f
-ms.openlocfilehash: db637ebb1165466493b633012ab170059678996c
+ms.sourcegitcommit: b921a15ca5fd24d9ddbf54789c42a0740b72d7f6
+ms.openlocfilehash: 61855f89dd2aa70bf9b6d7be72acae90e5463b7d
 
 
 ---
@@ -24,16 +24,16 @@ ms.openlocfilehash: db637ebb1165466493b633012ab170059678996c
 <article id="main">
     <section id="hero-content">
       <h1>Intune 설명서</h1>
-      <h2>Microsoft Intune, 모바일 장치 및 응용 프로그램 관리 서비스를 배포하고 관리하는 방법을 알아보세요.</h2>
-      <h3>Configuration Manager가 포함된 Intune을 관리하시겠습니까? <a href="https://docs.microsoft.com/en-us/sccm/mdm/understand/hybrid-mobile-device-management" target="_blank">Read about hybrid mobile device management&rarr;(하이브리드 모바일 장치 관리 살펴보기)</a></h3>
+      <h2>클라우드에서 모바일 장치/앱과 PC를 관리할 수 있습니다. </h2>
+      <h3>Configuration Manager가 포함된 Intune을 관리하시겠습니까? <a href="https://docs.microsoft.com/en-us/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management" target="_blank">Read about hybrid mobile device management&rarr;(하이브리드 모바일 장치 관리 살펴보기)</a></h3>
     </section>
     <section id="featured" class="container">
       <h2 class="section-heading"><span class="icon icon-warning"></span> 주요 콘텐츠</h2>
       <div class="features row">
         <ul class="column column-half">
-          <li><a href="/intune/whats-new/whats-new-in-microsoft-intune">새로운 기능</a></li>
+          <li><a href="http://fasttrack.microsoft.com/ems">150개 이상의 라이선스? FastTrack 혜택 이용</a></li>
           <li><a href="/intune/understand-explore/common-ways-to-use-intune">Intune을 사용하는 일반적인 방법</a></li>
-          <li><a href="/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune">앱 데이터 보호</a></li>
+          <li><a href="/intune-azure/introduction/what-is-microsoft-intune">Azure Portal 미리 보기의 Intune</a></li>
         </ul>
         <ul class="column column-half">
           <li><a href="/intune/deploy-use/restrict-access-based-on-device-network-app-risk">회사 리소스에 대한 액세스 보호</a></li>
@@ -285,6 +285,6 @@ ms.openlocfilehash: db637ebb1165466493b633012ab170059678996c
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO1-->
 
 

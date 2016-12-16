@@ -1,6 +1,6 @@
 ---
-title: "Intune에서 iOS 또는 Mac OS X 장치 사용 | Microsoft Intune"
-description: "Intune에서 장치가 등록될 때 iOS 또는 Mac OS X 모바일 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록"
+title: "Intune에서 iOS 또는 macOS 장치 사용 | Microsoft Intune"
+description: "Intune에서 iOS 또는 macOS 모바일 장치를 등록할 때 해당 장치에서 수행할 수 있는 태스크로 연결되는 링크 목록"
 keywords: 
 author: barlanmsft
 ms.author: barlan
@@ -15,13 +15,13 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: bc031fe080cd17b3436388f59ecc83df53a16a32
+ms.sourcegitcommit: 2f92ce22c9e6a87bccc7ab17144d0d52ff6cfc7b
+ms.openlocfilehash: e10c0eb3000bcf3a98a0cab891c40d32fe06d335
 
 
 ---
 
-# <a name="using-your-ios-or-mac-os-x-device-with-intune"></a>Using your iOS or Mac OS X device with Intune
+# <a name="using-your-ios-or-macos-device-with-intune"></a>Intune에서 iOS 또는 macOS 장치 사용
 
 이 문서에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 태스크에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 태스크 수행을 위해 사용자가 따라야 하는 단계를 확인할 수 있습니다. 이러한 태스크는 다음과 같은 범주로 그룹화됩니다.
 - 회사 포털 앱을 설치 및 Intune 등록
@@ -34,7 +34,7 @@ ms.openlocfilehash: bc031fe080cd17b3436388f59ecc83df53a16a32
 
 - [Intune 회사 포털 앱 설치 및 로그인](install-and-sign-in-to-the-intune-company-portal-app-ios.md)
 - [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md)
-- [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md)
+- [Intune에서 macOS 장치 등록](enroll-your-device-in-intune-macos.md)
 - [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md)
 
 ## <a name="things-users-can-do-when-their-device-is-enrolled-in-intune"></a>장치가 Intune에 등록되어 있는 경우 사용자가 수행할 수 있는 작업
@@ -67,6 +67,6 @@ ms.openlocfilehash: bc031fe080cd17b3436388f59ecc83df53a16a32
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

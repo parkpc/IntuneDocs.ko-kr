@@ -2,10 +2,10 @@
 title: "iOS 장치에서 관리되는 앱 사용 | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: maxles
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0d32aa982cf9d45da36f71be5554f31375521e35
-ms.openlocfilehash: 509a0fda9355cc77a2f7690771dbe086c0cc59fc
+ms.sourcegitcommit: 2f92ce22c9e6a87bccc7ab17144d0d52ff6cfc7b
+ms.openlocfilehash: 340c160b2741856c91e7136fa60318c83b1ea8bb
 
 
 ---
 
 
-# iOS 장치에서 관리되는 앱 사용
+# <a name="use-managed-apps-on-your-ios-device"></a>iOS 장치에서 관리되는 앱 사용
 
 관리되는 앱은 해당 앱에서 액세스할 수 있는 회사 데이터를 보호하기 위해 IT 관리자가 설정할 수 있는 앱입니다. iOS 장치의 관리되는 앱에서 회사 데이터에 액세스할 경우 앱이 예상과 약간 다르게 작동하는 것을 확인할 수 있습니다. 예를 들어 보호된 회사 데이터를 복사하고 붙여넣을 수 없거나, 해당 데이터를 특정 위치에 저장할 수 없습니다.
 
@@ -32,14 +32,14 @@ ms.openlocfilehash: 509a0fda9355cc77a2f7690771dbe086c0cc59fc
 
 ![managed-apps-message-ios](./media/managed-apps-message.png)
 
-### 관리되는 앱을 가져오려면 어떻게 하나요?
+### <a name="how-do-i-get-managed-apps"></a>관리되는 앱을 가져오려면 어떻게 하나요?
 관리되는 앱을 가져오는 방법에는 몇 가지가 있습니다.
 
--   장치가 Microsoft Intune에 등록된 경우 회사 포털 앱 또는 회사 포털 웹 사이트에서 앱을 설치하거나, IT 관리자가 장치에 설치할 수 있습니다. 등록에 대해 알아보려면 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 Mac OS X 장치 등록](enroll-your-device-in-intune-mac-os-x.md)을 참조하세요.
+-   장치가 Microsoft Intune에 등록된 경우 회사 포털 앱 또는 회사 포털 웹 사이트에서 앱을 설치하거나, IT 관리자가 장치에 설치할 수 있습니다. 등록에 대해 알아보려면 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 macOS 장치 등록](enroll-your-device-in-intune-macos.md)을 참조하세요.
 
 -   앱 스토어에서 앱을 설치하고 Intune으로 관리되는 회사 사용자 계정을 사용하여 로그인합니다.
 
-### IT 관리자가 앱에서 무엇을 관리할 수 있나요?
+### <a name="what-can-my-it-admin-manage-in-an-app"></a>IT 관리자가 앱에서 무엇을 관리할 수 있나요?
 IT 관리자가 앱에서 관리할 수 있고, 장치에서 회사 데이터 조작에 영향을 줄 수 있는 옵션의 몇 가지 예는 다음과 같습니다.
 
 -   특정 웹사이트에 대 한 액세스
@@ -61,10 +61,10 @@ IT 관리자가 앱에서 관리할 수 있고, 장치에서 회사 데이터 �
 -   데이터 암호화 요구 사항
 
 
-장치에서 관리되는 앱에 대한 자세한 내용은 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+장치에서 관리되는 앱에 대한 자세한 내용은 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

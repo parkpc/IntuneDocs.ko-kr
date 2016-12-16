@@ -1,21 +1,21 @@
 ---
-title: "iOS용 Microsoft Intune 앱 SDK 개발자 가이드 | Microsoft Intune"
+title: "iOS용 Microsoft Intune 앱 SDK 개발자 가이드 | Microsoft 문서"
 description: 
 keywords: 
-author: Msmbaldwin
+author: mtillman
 manager: angrobe
-ms.author: oydang
-ms.date: 09/08/2016
+ms.author: mtillman
+ms.date: 12/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
-ms.reviewer: jeffgilb
+ms.reviewer: oydang
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 01b927178ad5fb1019781863e243133861887148
-ms.openlocfilehash: eb14be40a94513a21dbd24a62e42afb7a3e57381
+ms.sourcegitcommit: b55147e2be338bd46661695134fd0f0de105bb72
+ms.openlocfilehash: b8a723fce088c1d61bddb5f2479da59a4b5c3771
 
 
 ---
@@ -32,6 +32,8 @@ iOS용 Microsoft Intune 앱 SDK를 사용하면 iOS 앱에 MAM(모바일 앱 관
 * Xcode 도구 집합 버전 5 이상이 설치된 OS X 10.8.5 이상의 Mac OS 컴퓨터에서 실행해야 합니다.
 
 * [iOS용 Intune 앱 SDK 사용 조건](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/blob/master/Microsoft%20License%20Terms%20Intune%20App%20SDK%20for%20iOS%20.pdf)을 확인하세요. 기록을 위해 사용 조건의 사본을 인쇄하여 보관. IOS용 Intune 앱 SDK를 다운로드하여 이러한 사용 조건에 동의합니다.  동의하지 않는 경우 소프트웨어를 사용하지 마세요.
+
+* [GitHub](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios)에서 iOS용 Intune 앱 SDK 파일을 다운로드합니다.
 
 ## <a name="whats-in-the-sdk"></a>SDK에 포함된 내용
 
@@ -322,9 +324,9 @@ Azure Active Directory를 통해 사용자를 로그인하지 않는 앱은 API�
 
 이 API가 호출되고 나면 앱이 정상적으로 계속 작동할 수 있습니다. 등록에 성공하면 SDK가 사용자에게 앱을 다시 시작해야 한다고 알립니다.
 
-## <a name="debug-information"></a>디버그 정보
+## <a name="status-result-and-debug-notifications"></a>상태, 결과 및 디버그 알림
 
-앱은 Intune MAM 서비스에 대한 다음 요청과 관련한 디버그 알림을 수신할 수 있습니다.
+앱은 Intune MAM 서비스에 대한 다음 요청과 관련한 상태, 결과 및 디버그 알림을 수신할 수 있습니다.
 
  - 등록 요청
  - 정책 업데이트 요청
@@ -365,7 +367,7 @@ Azure Active Directory를 통해 사용자를 로그인하지 않는 앱은 API�
 
 이 개체는 반환될 수 있는 특정 상태 코드와 함께 Headers/IntuneMAMEnrollmentStatus.h에 정의됩니다.
 
-이러한 알림을 기반으로 해야 하는 앱의 비즈니스 논리는 없다는 점에 유의해야 합니다. 요점은 앱이 디버깅 또는 모니터링 목적으로 이 정보를 원격 분석 서비스로 보낼 수 있다는 것입니다.
+
 
 
 ## <a name="sample-code"></a>예제 코드
@@ -637,7 +639,7 @@ SDK는 백그라운드에서 주기적으로 다음 작업을 수행합니다.
 
 ## <a name="submit-your-app-to-the-app-store"></a>앱 스토어에 앱 제출
 
-Intune 앱 SDK의 정적 라이브러리 빌드와 프레임워크 빌드는 둘 다 범용 이진 파일입니다. 따라서 모든 장치와 시뮬레이터 아키텍처에 대한 코드가 있습니다. Apple은 앱에 시뮬레이터 코드가 있는 경우 앱 스토어에 제출된 앱을 거부합니다. 장치 전용 빌드의 정적 라이브러리에 대해 컴파일할 때 링커에서 시뮬레이터 코드를 자동으로 제거합니다.
+Intune 앱 SDK의 정적 라이브러리 빌드와 프레임워크 빌드는 둘 다 범용 이진 파일입니다. 따라서 모든 장치와 시뮬레이터 아키텍처에 대한 코드가 있습니다. Apple은 앱에 시뮬레이터 코드가 있는 경우 앱 스토어에 제출된 앱을 거부합니다. 장치 전용 빌드의 정적 라이브러리에 대해 컴파일할 때 링커에서 시뮬레이터 코드를 자동으로 제거합니다. 앱 스토어에 앱을 업로드하기 전에 모든 시뮬레이터 코드를 제거하려면 다음 단계를 수행합니다.
 
 1. 데스크톱에 `IntuneMAM.framework`가 있는지 확인합니다.
 
@@ -654,6 +656,6 @@ Intune 앱 SDK의 정적 라이브러리 빌드와 프레임워크 빌드는 둘
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Intune에서 회사 포털 앱을 설치하고 iOS 또는 Mac OS X 장치를 등록하면 어떻게 되나요? | Microsoft Intune"
+title: "Intune에서 회사 포털 앱을 설치하고 iOS 또는 macOS 장치를 등록하면 어떻게 되나요? | Microsoft Intune"
 description: 
 keywords: 
 author: barlanmsft
@@ -15,16 +15,16 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 737effbcd9d7e70186d874c3aefd8afaab05fca8
+ms.sourcegitcommit: e007f666d2c179dd1dc4bcdd1265cecf8b9e5358
+ms.openlocfilehash: 4d169a5d9f27037378df6f2e3b1997ebbc9e8ab7
 
 
 ---
 
 
-# <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-ios-or-mac-os-x-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 iOS 또는 Mac OS X 장치를 등록하면 어떻게 되나요?
+# <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-ios-or-macos-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 iOS 또는 macOS 장치를 등록하면 어떻게 되나요?
 
-Intune에서 회사 포털 앱을 설치하고 iOS 또는 Mac OS X 장치를 등록하면, 다음과 같은 용도로 회사 포털 앱을 사용할 수 있습니다.
+Intune에서 회사 포털 앱을 설치하고 iOS 또는 macOS 장치를 등록하면, 다음과 같은 용도로 회사 포털 앱을 사용할 수 있습니다.
 
 -   회사 네트워크, 메일 및 작업 파일 액세스
 
@@ -96,6 +96,6 @@ Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하�
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO1-->
 
 

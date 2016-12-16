@@ -1,21 +1,21 @@
 ---
-title: "Microsoft Intune 앱 SDK Xamarin 구성 요소 | Microsoft Intune"
+title: "Microsoft Intune 앱 SDK Xamarin 구성 요소 | Microsoft 문서"
 description: 
 keywords: sdk, Xamarin, intune
-author: oydang
-manager: karthikaraman
-ms.author: oydang
+author: mtillman
+manager: angrobe
+ms.author: mtillman
 ms.date: 11/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
-ms.reviewer: karthikaraman
+ms.reviewer: oydang
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: af7df3fcf50c3508d495522341bb287c638f40a3
-ms.openlocfilehash: 2ea1763881a7d10ae8bc21c98754d2767b2fc954
+ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
+ms.openlocfilehash: 74607fc704234e6ac85eae3bf55c186000c6e68a
 
 
 ---
@@ -83,7 +83,7 @@ ms.openlocfilehash: 2ea1763881a7d10ae8bc21c98754d2767b2fc954
 
       ```
 
-2.  구성 요소가 추가되고 초기화되었으면 앱 SDK를 iOS 모바일 앱에 빌드하는 데 필요한 일반적인 단계를 따를 수 있습니다. [iOS용 Intune 앱 SDK 개발자 가이드](intune-app-sdk-ios)에서 네이티브 iOS 앱을 사용 설정하기 위한 전체 설명서를 찾을 수 있습니다.
+2.  구성 요소가 추가되고 초기화되었으면 앱 SDK를 iOS 모바일 앱에 빌드하는 데 필요한 일반적인 단계를 따를 수 있습니다. [iOS용 Intune 앱 SDK 개발자 가이드](intune-app-sdk-ios.md)에서 네이티브 iOS 앱을 사용 설정하기 위한 전체 설명서를 찾을 수 있습니다.
 3. **중요**: Xamarin 기반 iOS 앱에서만 수정할 사항이 여러 가지 있습니다. 예를 들어 keychain 그룹을 사용 설정하는 경우에는 구성 요소에 포함시킨 Xamarin 샘플 앱을 포함시키기 위해 다음을 추가해야 합니다. 다음은 Keychain Access 그룹에 있어야 하는 그룹의 예입니다.
 
       ```xml
@@ -102,10 +102,10 @@ ms.openlocfilehash: 2ea1763881a7d10ae8bc21c98754d2767b2fc954
       </plist>
       ```
 
-Xamarin 기반의 iOS 앱에 구성 요소를 빌드하는 데 필요한 단계를 완료했습니다. Xcode를 사용하여 프로젝트를 빌드하는 경우에는 `Intune App SDK Settings.bundle`을 사용할 수 있습니다. 이렇게 하면 테스트와 디비깅을 위해 프로젝트를 빌드할 Intune 정책 설정을 켜고 끌 수 있습니다. 이 번들을 이용하려면 [iOS용 Intune 앱 SDK 개발자 가이드](intune-app-sdk-ios)에 나오는 단계를 따르고 [Xcode에서 디버깅](intune-app-sdk-ios#debug-information)에 나오는 섹션을 읽어보세요.
+Xamarin 기반의 iOS 앱에 구성 요소를 빌드하는 데 필요한 단계를 완료했습니다. Xcode를 사용하여 프로젝트를 빌드하는 경우에는 `Intune App SDK Settings.bundle`을 사용할 수 있습니다. 이렇게 하면 테스트와 디비깅을 위해 프로젝트를 빌드할 Intune 정책 설정을 켜고 끌 수 있습니다. 이 번들을 이용하려면 [iOS용 Intune 앱 SDK 개발자 가이드](intune-app-sdk-ios.md)에 나오는 단계를 따르고 [Xcode에서 디버깅](intune-app-sdk-ios.md#status-result-and-debug-notifications)에 나오는 섹션을 읽어보세요.
 
 ## <a name="enabling-mam-in-your-android-mobile-app"></a>Android 모바일 앱에서 MAM 사용 설정
-UI 프레임워크를 사용하지 않는 Xamarin 기반 Android 앱의 경우에는 [Android용 Intune 앱 SDK 개발자 가이드]를 읽고 따를 필요가 없습니다. Xamarin 기반 Android 앱의 경우에는 클래스, 메서드 및 활동을 가이드에 포함된 [표](intune-app-sdk-android#replace-classes-methods-and-activities-with-their-mam-equivalent-required)에 따라 MAM의 그것들로 대체해야 합니다. 앱에서 `android.app.Application` 클래스를 정의하지 않는 경우에는 클래스를 새로 만들고 `MAMApplication`에서 상속해야 합니다.
+UI 프레임워크를 사용하지 않는 Xamarin 기반 Android 앱의 경우에는 [Android용 Intune 앱 SDK 개발자 가이드]를 읽고 따를 필요가 없습니다. Xamarin 기반 Android 앱의 경우에는 클래스, 메서드 및 활동을 가이드에 포함된 [표](intune-app-sdk-android.md#replace-classes-methods-and-activities-with-their-mam-equivalent-required)에 따라 MAM의 그것들로 대체해야 합니다. 앱에서 `android.app.Application` 클래스를 정의하지 않는 경우에는 클래스를 새로 만들고 `MAMApplication`에서 상속해야 합니다.
 
 Xamarin Forms 및 기타 UI 프레임워크의 경우에는 `MAM.Remapper`라는 도구를 제공합니다. 이 도구는 클래스 대체를 수행합니다. 그러나 다음 단계를 수행해야 합니다.
 
@@ -125,6 +125,6 @@ Xamarin Forms 및 기타 UI 프레임워크의 경우에는 `MAM.Remapper`라는
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 

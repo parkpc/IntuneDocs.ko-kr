@@ -1,11 +1,11 @@
 ---
-title: "회사 포털 정보 | Microsoft Intune"
+title: "회사 포털이란 무엇입니까? | Microsoft Intune"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 12/06/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: adf7fc0b7ddeb7fa8361d37efd0fdd5c714a72e4
+ms.sourcegitcommit: 3891d0389df3526ea328fc2952e3d181b1e766c0
+ms.openlocfilehash: a0424ada754a210fb34acd49cf47d1c457ed86af
 
 
 ---
@@ -41,8 +41,8 @@ Microsoft Intune 회사 포털을 통해 회사 또는 학교의 데이터 및 �
 장치에서 회사 포털 앱을 사용하여 수행할 수 있는 작업과 회사 포털 웹 사이트를 사용하여 수행할 수 있는 작업을 비교하여 보려면 다음 링크 중 하나를 선택하세요.
 
 > [!div class="op_single_selector"]
-- [Android](using-your-android-device-with-intune.md)
-- [iOS 및 Mac OS X](using-your-ios-or-mac-os-x-device-with-intune.md)
+- [OWA(Outlook Web Access)](using-your-android-device-with-intune.md)
+- [iOS 및 macOS](using-your-ios-or-mac-os-x-device-with-intune.md)
 - [Windows](using-your-windows-device-with-intune.md)
 - [회사 포털 웹 사이트](using-the-intune-company-portal-website.md)
 
@@ -52,13 +52,13 @@ Microsoft Intune 회사 포털을 통해 회사 또는 학교의 데이터 및 �
 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 대해 알아보려면 다음 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
 
 > [!div class="op_single_selector"]
-- [Android](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
-- [iOS 및 Mac OS X](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
+- [OWA(Outlook Web Access)](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
+- [iOS 및 macOS](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
 - [Windows](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)
 
 ## <a name="what-kind-of-computers-or-devices-can-you-add-to-the-company-portal"></a>회사 포털에 추가할 수 있는 컴퓨터 또는 장치 종류는 무엇인가요?
 
--   iPhones, iPads 및 Mac OS X 장치
+-   iPhone, iPad 및 macOS 장치
 
 -   Android 모바일 장치
 
@@ -74,8 +74,8 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 컴퓨터 또는 장치를 *제거*하는 경우 장치를 Intune에서 등록 취소합니다. 등록 취소하면 더 이상 장치에서 회사 포털에 액세스할 수 없게 되고, 일부 회사 데이터가 장치에서 제거될 수 있습니다. 회사 포털에서 장치를 제거하는 방법을 알아보려면 다음 링크 중 하나를 선택하세요.
 
 > [!div class="op_single_selector"]
-- [Android](unenroll-your-device-from-intune-android.md)
-- [iOS 및 Mac OS X](unenroll-your-device-from-intune-ios.md)
+- [OWA(Outlook Web Access)](unenroll-your-device-from-intune-android.md)
+- [iOS 및 macOS](unenroll-your-device-from-intune-ios.md)
 - [Windows](unenroll-your-device-from-intune-windows.md)
 
 컴퓨터 또는 장치를 *초기화*하면 회사 포털에서 컴퓨터 또는 장치를 제조업체의 기본 설정으로 초기화합니다. 장치를 초기화하면 장치에서 모든 회사 및 개인 데이터가 제거됩니다! 장치를 잃어버린 경우 회사 포털 웹 사이트에서 원격으로 장치를 초기화할 수도 있습니다.
@@ -83,8 +83,8 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 장치를 초기화하는 방법을 알아보려면 다음 링크 중 하나를 선택하세요.
 
 > [!div class="op_single_selector"]
-- [Android](reset-erase-your-lost-or-stolen-device-android.md)
-- [iOS 및 Mac OS X](reset-erase-your-lost-or-stolen-device-ios.md)
+- [OWA(Outlook Web Access)](reset-erase-your-lost-or-stolen-device-android.md)
+- [iOS 및 macOS](reset-erase-your-lost-or-stolen-device-ios.md)
 - [Windows](reset-erase-your-lost-or-stolen-device-windows.md)
 - [회사 포털 웹 사이트에서 장치 다시 설정](reset-your-device-cpwebsite.md)
 
@@ -96,6 +96,6 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO1-->
 
 

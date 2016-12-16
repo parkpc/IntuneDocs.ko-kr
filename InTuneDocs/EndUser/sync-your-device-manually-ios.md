@@ -15,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: a08a9865463edcea2308df33fb40635d9466091f
+ms.sourcegitcommit: e007f666d2c179dd1dc4bcdd1265cecf8b9e5358
+ms.openlocfilehash: 8a8f3416f22cb5ce11fe0951f126d8ce36a248bd
 
 
 ---
@@ -24,7 +24,7 @@ ms.openlocfilehash: a08a9865463edcea2308df33fb40635d9466091f
 
 # <a name="sync-your-ios-device-manually"></a>수동으로 iOS 장치 동기화
 
-앱 설치에 시간이 너무 오래 걸리면, 장치를 수동으로 동기화해 볼 수 있습니다. 수동으로 동기화하면 설치 속도를 향상할 수 있습니다. 동기화 기능은 iOS에만 적용되고 Mac OS X에는 적용되지 않습니다.
+앱 설치에 시간이 너무 오래 걸리면, 장치를 수동으로 동기화해 볼 수 있습니다. 수동으로 동기화하면 설치 속도를 향상할 수 있습니다. 동기화 기능은 iOS에만 적용되고 macOS에는 적용되지 않습니다.
 
 1. iOS 회사 포털 앱을 엽니다.
 
@@ -42,6 +42,6 @@ ms.openlocfilehash: a08a9865463edcea2308df33fb40635d9466091f
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO1-->
 
 
