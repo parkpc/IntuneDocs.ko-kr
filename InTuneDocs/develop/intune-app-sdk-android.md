@@ -1,11 +1,11 @@
 ---
 title: "Android용 Microsoft Intune 앱 SDK 개발자 가이드 | Microsoft 문서"
-description: 
+description: "Android용 Microsoft Intune 앱 SDK를 사용하면 Android 앱에 Intune MAM(모바일 앱 관리)을 통합할 수 있습니다."
 keywords: SDK
 author: mtillman
 manager: angrobe
 ms.author: mtillman
-ms.date: 12/07/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: oydang
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 613e293d9bd853d6de7cdc0d753cc8473afc180b
-ms.openlocfilehash: 7d6ac9de7dbfee4336121be69a38600448af2b68
+ms.sourcegitcommit: b068da7685792757825a4bc0d555e28ee0168cb1
+ms.openlocfilehash: ddfd4e8a23f1a7e20230c188ac8203a11e48c4a6
 
 
 ---
@@ -755,6 +755,6 @@ Intune SDK는 Android API에서 제공되는 계약을 유지하지만, 정책 �
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 
