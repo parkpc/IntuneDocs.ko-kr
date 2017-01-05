@@ -1,5 +1,5 @@
 Microsoft Intune 관리자 콘솔
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jan17_HO1-->
 
 

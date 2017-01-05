@@ -23,6 +23,6 @@ EMS(Enterprise Management + Security)가 있는 고객은 [AAD(Azure Active Dire
  
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Jan17_HO1-->
 
 
