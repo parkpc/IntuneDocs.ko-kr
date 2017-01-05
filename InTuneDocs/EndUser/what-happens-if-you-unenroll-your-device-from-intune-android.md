@@ -1,5 +1,5 @@
 ---
-title: "Intune에서 Android 장치 등록을 취소하면 어떻게 되나요? | Microsoft Intune"
+title: "Intune에서 Android 장치 등록을 취소하면 어떻게 되나요? | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
@@ -15,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: d846b1aa3d5526f0e73cb6b3a8ca17b3cdc67db2
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 3cbc2b085ec8ad04e00527fda0665c905314aaea
 
 
 ---
@@ -44,6 +44,6 @@ Intune에서 Android 장치 등록을 취소하면:
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

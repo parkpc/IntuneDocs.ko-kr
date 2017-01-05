@@ -1,11 +1,11 @@
 ---
-title: "Intune에서 iOS 장치 등록을 취소하면 어떻게 되나요? | Microsoft Intune"
+title: "Intune에서 iOS 장치 등록을 취소하면 어떻게 되나요? | Microsoft 문서"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2bc39ae41779e02882a5edf3698cb0e6976caec2
-ms.openlocfilehash: a47d3fc5c3a2063e49e9f250e15eb8d6126bb903
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: a88b89114db0f9d76c783bf99ff55e4eb4107865
 
 
 ---
 
 
-# Intune에서 iOS 장치 등록을 취소하면 어떻게 되나요?
+# <a name="what-happens-if-you-unenroll-your-ios-device-from-intune"></a>Intune에서 iOS 장치 등록을 취소하면 어떻게 되나요?
 
 Intune에서 iOS 장치 등록을 취소하면:
 
@@ -42,10 +42,10 @@ Intune에서 iOS 장치 등록을 취소하면:
 
 등록을 취소하는 방법에 대한 지침은 [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-ios.md)를 참조하세요.
 
-의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Dec16_HO2-->
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Intune에서 회사 포털 앱을 설치하고 Windows 10 장치를 등록하면 어떻게 되나요? | Microsoft Intune"
+title: "Intune에서 회사 포털 앱을 설치하고 Windows 10 장치를 등록하면 어떻게 되나요? | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
@@ -15,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 94868431ce100a252ddfc7df5f9c2e287f0eedaf
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 1f872d245144727406d926b0c9401827939470f1
 
 
 ---
@@ -56,6 +56,6 @@ ms.openlocfilehash: 94868431ce100a252ddfc7df5f9c2e287f0eedaf
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

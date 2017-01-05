@@ -1,11 +1,11 @@
 ---
-title: "회사 포털을 사용하여 Android 장치를 초기화하면 어떻게 되나요? | Microsoft Intune"
+title: "회사 포털을 사용하여 Android 장치를 초기화하면 어떻게 되나요? | Microsoft 문서"
 description: 
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3f531adc042677d12c64e2efb4f8e3401e4b5bd4
-ms.openlocfilehash: ff0dca484b7e7a75dcaff69c86985510ee17277e
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: a696858380fe15efd4e40db9f2b4c6b5157051bc
 
 
 ---
 
 
-# 회사 포털을 사용하여 Android 장치를 초기화하면 어떻게 되나요?
+# <a name="what-happens-if-you-reset-your-android-device-using-the-company-portal"></a>회사 포털을 사용하여 Android 장치를 초기화하면 어떻게 되나요?
 
 회사 포털을 사용하여 Android 장치를 초기화하면 장치의 모든 앱, 설정 및 개인 데이터가 삭제됩니다. 그 결과 장치가 공장 기본 설정으로 다시 설정됩니다.
 
@@ -32,10 +32,10 @@ ms.openlocfilehash: ff0dca484b7e7a75dcaff69c86985510ee17277e
 - 메일, VPN 및 Wi-Fi
 - 특정 설정을 적용하는 IT 관리자의 기능
 
-의문 사항이 있으면 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Dec16_HO2-->
 
 
