@@ -20,6 +20,9 @@ ms.openlocfilehash: 4133c64d283682f0be37cd6ac69164ef872a5026
 ---
 
 # <a name="evaluate-mobile-device-management-in-microsoft-intune"></a>Microsoft의 모바일 장치 관리 평가
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 이 평가 가이드에서는 Intune에서 모바일 장치 관리가 작동하는 방식을 보여 줍니다. 다음을 수행합니다.
 - Intune에서 관리할 장치를 등록합니다.
 - 사용자 및 장치를 구성할 그룹을 만듭니다.

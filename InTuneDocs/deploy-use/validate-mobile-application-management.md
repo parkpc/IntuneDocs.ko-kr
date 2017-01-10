@@ -21,6 +21,8 @@ ms.openlocfilehash: 080d8f4fd4b6e1b53df860f4319b1c199d504c06
 
 # <a name="validating-your-mobile-application-management-setup"></a>모바일 응용 프로그램 관리 설정 유효성 검사
 
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 이 항목에서는 MAM(모바일 응용 프로그램 관리)을 설정한 후에 문제를 확인하는 방법에 대한 정보를 제공합니다. 이 지침은 Azure Portal의 MAM 정책에 적용됩니다.
 
 ### <a name="checking-for-symptoms"></a>증상 확인

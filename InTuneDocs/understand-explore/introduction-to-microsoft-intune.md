@@ -21,6 +21,9 @@ ms.openlocfilehash: e373fe71f54472bca538ba4a14beff39d090e23d
 ---
 
 # <a name="what-is-intune"></a>Intune이란?
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune은 직원이 회사 데이터를 보호하면서 생산성을 높일 수 있도록 하는 클라우드 기반 엔터프라이즈 이동성 관리(EMM) 서비스입니다. Intune을 사용하면 다음과 같은 작업을 수행할 수 있습니다.
 * 직원이 회사 데이터에 액세스하는 데 사용하는 모바일 장치를 관리합니다.
 * 직원이 사용하는 모바일 앱을 관리합니다.
