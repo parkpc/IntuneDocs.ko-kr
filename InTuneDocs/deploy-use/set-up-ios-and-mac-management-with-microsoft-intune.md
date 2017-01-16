@@ -1,5 +1,5 @@
 ---
-title: "iOS 및 Mac 관리 설정 | Microsoft Intune"
+title: "iOS 및 Mac 관리 설정 | Microsoft 문서"
 description: "Microsoft Intune으로 Mac OS X 장치뿐만 아니라 iPad 및 iPhone을 포함하는 iOS 장치의 MDM(모바일 장치 관리)도 수행합니다."
 keywords: 
 author: staciebarker
@@ -14,13 +14,16 @@ ms.assetid: dc451224-1372-4b84-b641-cfa67cb3849b
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
-ms.openlocfilehash: 641d2db2bfb49ce6c4f88d823188a714e61f683c
+ms.sourcegitcommit: d2ed7b2e713f5efd4161eb8015ab43c8f97a017b
+ms.openlocfilehash: 594b6b66a4c756155e958815b926674e63f07bb5
 
 
 ---
 
 # <a name="set-up-ios-and-mac-device-management"></a>iOS 및 Mac 관리 설정
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune은 iPad, iPhone 및 Mac OS X 장치의 MDM(모바일 장치 관리)을 가능하게 하고, 사용자가 회사 메일 및 앱에 액세스할 수 있게 해줍니다. APN(Apple 푸시 알림) 서비스 인증서는 Intune에서 iOS 및 Mac 장치를 관리하는 데 필요합니다. 인증서가 Intune에 추가되면 사용자가 회사 포털 앱을 설치하여 장치를 등록할 수도 있고 관리자가 [회사 소유의 iOS 장치 관리](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)를 설정할 수도 있습니다.
 
 1.  **Intune 설정**<br>
@@ -48,7 +51,7 @@ Intune은 iPad, iPhone 및 Mac OS X 장치의 MDM(모바일 장치 관리)을 �
 
     최종 사용자의 다른 작업에 대한 정보는 다음 문서를 참조하세요.
     - [Microsoft Intune에서 최종 사용자 환경 관련 리소스](what-to-tell-your-end-users-about-using-microsoft-intune.md)
-    - [iOS 및 Mac 장치용 최종 사용자 가이드](../enduser/using-your-ios-or-mac-os-x-device-with-intune.md)
+    - [iOS 및 Mac 장치용 최종 사용자 가이드](../enduser/using-your-ios-or-macOS-device-with-intune.md)
 
 회사 또는 조직에서 사용자를 위한 iOS 장치를 구입한 경우 해당 장치도 관리를 위해 [회사 소유의 iOS 장치](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)로 등록할 수 있습니다.
 
@@ -57,6 +60,6 @@ Intune은 iPad, iPhone 및 Mac OS X 장치의 MDM(모바일 장치 관리)을 �
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

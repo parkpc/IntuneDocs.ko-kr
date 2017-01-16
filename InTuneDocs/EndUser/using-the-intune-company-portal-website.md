@@ -1,5 +1,5 @@
 ---
-title: "Intune 회사 포털 웹 사이트 사용 | Microsoft Intune"
+title: "Intune 회사 포털 웹 사이트 사용 | Microsoft 문서"
 description: "회사 포털 웹 사이트에 대해 설명하고 최종 사용자가 웹 사이트에서 수행할 수 있는 작업 단계로 연결되는 링크를 제공합니다."
 keywords: 
 author: barlanmsft
@@ -11,11 +11,13 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a26d9e3c-8f58-4494-9571-fc88ba91852e
+searchScope:
+- Company Portal
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e007f666d2c179dd1dc4bcdd1265cecf8b9e5358
-ms.openlocfilehash: 695a419ea05b6d3ff93cfe45eae3d80012f44568
+ms.sourcegitcommit: d2ed7b2e713f5efd4161eb8015ab43c8f97a017b
+ms.openlocfilehash: d10cc421dc6fe422b7a2c26b4902997c8c6b2e61
 
 
 ---
@@ -46,11 +48,11 @@ ms.openlocfilehash: 695a419ea05b6d3ff93cfe45eae3d80012f44568
 최종 사용자가 장치에 설치하는 **회사 포털 앱**을 사용하여 수행할 수 있는 대부분의 동일한 작업을 **회사 포털 웹 사이트**에서 수행할 수 있습니다. 최종 사용자가 장치에서 수행할 수 있는 모든 작업에 대한 링크는 다음 페이지를 참조하세요.
 
 - [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
-- [Intune에서 iOS 또는 macOS 장치 사용](using-your-ios-or-mac-os-x-device-with-intune.md)
+- [Intune에서 iOS 또는 macOS 장치 사용](using-your-ios-or-macOS-device-with-intune.md)
 - [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Jan17_HO1-->
 
 

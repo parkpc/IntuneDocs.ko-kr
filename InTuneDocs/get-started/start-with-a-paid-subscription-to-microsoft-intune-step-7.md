@@ -1,11 +1,11 @@
 ---
-title: "회사 포털 사용자 지정 | Microsoft Intune"
+title: "회사 포털 사용자 지정 | Microsoft 문서"
 description: "Intune 회사 포털을 사용하면 장치 등록, 앱 설치, IT 부서 정보 찾기 등과 같은 일반적인 작업 수행할 수 있습니다."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 12/13/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,18 +14,21 @@ ms.assetid: eb4a9f01-f857-4563-ab6f-5d0d7dfa659d
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 04cccd410417dca4477c0d6cd61b0940dda8c389
+ms.sourcegitcommit: 77f1af3a07e5a5758227c81010ce853906803b08
+ms.openlocfilehash: f103a919d0708c2925cb6af4cf7231ed05029e46
 
 
 ---
 
 # <a name="customize-the-company-portal"></a>회사 포털 사용자 지정
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장치 등록, 앱 설치, IT 부서 지원 정보 찾기 등의 일반적인 작업을 수행할 수 있습니다.
 
 Intune 회사 포털은 사용자에게 회사 데이터 및 앱에 대한 액세스를 제공합니다. 회사 포털은 두 가지 형태로 사용할 수 있습니다.
 
--   **회사 포털 앱**: Intune으로 관리하는 장치에서 사용할 수 있는 응용 프로그램입니다. [Android](/Intune/EndUser/using-your-android-device-with-intune), [iOS](/Intune/EndUser/using-your-ios-or-mac-os-x-device-with-intune) 및 [Windows](/Intune/EndUser/using-your-windows-device-with-intune)용 회사 포털 앱에 대해 자세히 알아보세요.
+-   **회사 포털 앱**: Intune으로 관리하는 장치에서 사용할 수 있는 응용 프로그램입니다. [Android](/Intune/EndUser/using-your-android-device-with-intune), [iOS](/Intune/EndUser/using-your-iOS-or-macOS-device-with-intune) 및 [Windows](/Intune/EndUser/using-your-windows-device-with-intune)용 회사 포털 앱에 대해 자세히 알아보세요.
 
 
 - **회사 포털 웹 사이트**: 최종 사용자가 회사 포털 앱에서 지원하는 대부분의 작업을 수행할 수 있는 웹 사이트입니다. Intune 회사 포털 URL은 [http://portal.manage.microsoft.com](http://portal.manage.microsoft.com)입니다. [Intune 회사 포털 웹 사이트 사용](/Intune/EndUser/using-the-intune-company-portal-website)에서 이 웹 사이트에 대해 자세히 알아보세요.
@@ -42,11 +45,6 @@ Intune 회사 포털은 사용자에게 회사 데이터 및 앱에 대한 액�
 -   원격으로 장치 잠그기
 -   조직에서 배포한 소프트웨어 다운로드
 -   IT 부서에 지원 문의
-
-> [!NOTE]
-> 특정 국가에서는 회사 포털 앱을 아직 사용할 수 없습니다.
-> __iOS__: iOS용 회사 포털 앱은 Apple iOS App Store의 [모든 사용 가능 지역](https://go.microsoft.com/fwlink/?linkid=831284)에 게시됩니다.
-> __Android__: Android용 회사 포털 앱은 현재 중국에서 사용할 수 없습니다. 이러한 국가의 경우 대안으로 [Android 버전의 회사 포털 앱을 테스트용으로 로드](https://www.microsoft.com/en-us/download/details.aspx?id=49140)할 수 있습니다.  
 
 ## <a name="customize-company-portal-settings"></a>회사 포털 설정 사용자 지정
 회사 포털을 사용자 지정하면 최종 사용자에게 친숙하고 유용한 환경을 제공하는 데 도움이 됩니다. [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에 테넌트 또는 서비스 관리자로 로그인하고, **관리** &gt; **회사 포털**을 선택하여 회사 포털 설정을 구성합니다.
@@ -91,6 +89,6 @@ Intune 회사 포털은 사용자에게 회사 데이터 및 앱에 대한 액�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
