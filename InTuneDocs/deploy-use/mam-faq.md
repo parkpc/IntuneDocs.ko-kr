@@ -86,15 +86,17 @@
 
   2. **암호화되는 대상은 무엇인가요?** IT 관리자의 앱 보호 정책에 따라 "회사"로 표시된 데이터만 암호화됩니다. 데이터는 비즈니스 위치에서 시작될 경우 "회사" 데이터로 간주됩니다. Office 앱의 경우 Intune은 전자 메일(Exchange) 또는 클라우드 저장소(비즈니스용 OneDrive 계정이 있는 OneDrive 앱)를 비즈니스 위치로 간주합니다. Intune 앱 래핑 도구에서 지원되는 기간 업무 앱의 경우 모든 앱 데이터가 "회사" 데이터로 간주됩니다.
 
-**Intune에서는 어떻게 원격으로 데이터를 초기화하나요?** Intune에서는 전체 초기화 및 선택적 초기화의 두 가지 다른 방법으로 앱 데이터를 초기화할 수 있습니다. 원격 초기화에 대한 자세한 내용은 [Microsoft Intune을 사용하여 원격 초기화 또는 선택적 초기화로 데이터 보호 지원](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)을 참조하세요.
+**Intune에서는 어떻게 원격으로 데이터를 초기화하나요?** Intune에서는 전체 장치 초기화, MDM에 대한 선택적 초기화 및 MAM 선택적 초기화라는 세 가지 방법으로 앱 데이터를 초기화할 수 있습니다. MDM의 원격 초기화에 대한 자세한 내용은 [Microsoft Intune을 사용하여 원격 초기화 또는 선택적 초기화로 데이터 보호 지원](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)을 참조하세요. MAM를 사용한 선택적 초기화에 대한 자세한 내용은 [Microsoft Intune을 사용하여 관리되는 업무용 앱 데이터 초기화](wipe-managed-company-app-data-with-microsoft-intune.md)를 참조하세요.
 
   1. **전체 초기화란?** [전체 초기화](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md#full-wipe)는 장치를 출하 시 기본 설정으로 복원하여 **장치**에서 모든 사용자 데이터 및 설정을 제거합니다. 그리고 장치가 Intune에서 제거됩니다.
   >[!NOTE]
   > 전체 초기화는 Intune MDM(모바일 장치 관리)에 등록된 장치에서만 수행할 수 있습니다.
 
-  2. **선택적 초기화란?** 선택적 초기화에 대한 자세한 내용은 [Microsoft Intune을 사용하여 전체 또는 선택적 초기화를 통해 데이터 보호 지원](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md#selective-wipe)을 참조하세요.
+  2. **MDM에 대한 선택적 초기화란?** 선택적 초기화에 대한 자세한 내용은 [Microsoft Intune을 사용하여 전체 또는 선택적 초기화를 통해 데이터 보호 지원](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md#selective-wipe)을 참조하세요.
 
-  3. **선택적 초기화는 얼마나 빠르게 수행되나요?** 선택적 초기화가 시작된 상태로 앱을 사용하면 Intune 앱 SDK는 Intune MAM 서비스에서 선택적 초기화 요청을 30분 간격으로 확인합니다. 또한 사용자가 앱을 처음 시작하고 회사 또는 학교 계정으로 로그인할 때에도 선택적 초기화를 확인합니다.
+  3. **MAM에 대한 선택적 초기화란?** MAM에 대한 선택적 초기화는 단순히 앱에서 업무용 앱 데이터를 제거합니다. 이 요청은 Intune Azure Portal 포털에서 시작됩니다. 초기화 요청을 시작하는 방법을 알아보려면 [Microsoft Intune을 사용하여 관리되는 업무용 앱 데이터 초기화](wipe-managed-company-app-data-with-microsoft-intune.md)를 참조하세요.
+
+  4. **MAM에 대한 선택적 초기화는 얼마나 빠르게 수행되나요?** 선택적 초기화가 시작된 상태로 앱을 사용하면 Intune 앱 SDK는 Intune MAM 서비스에서 선택적 초기화 요청을 30분 간격으로 확인합니다. 또한 사용자가 앱을 처음 시작하고 회사 또는 학교 계정으로 로그인할 때에도 선택적 초기화를 확인합니다.
 
 **온-프레미스 서비스가 Intune 보호 앱에 작동하지 않는 이유는 무엇인가요?** Intune 앱 보호 기능은 응용 프로그램과 Intune 앱 SDK에서 일관되게 작동하기 위해 사용자의 ID에 의존합니다. 이를 보장하는 유일한 방법은 최신 인증뿐입니다. 앱이 온-프레미스 구성에 작동하는데도 일관되거나 보장되지 않는 시나리오가 있습니다.
 
@@ -110,6 +112,6 @@
 **데이터 전송 정책이 "관리되는 앱만" 또는 "앱 없음"으로 설정된 경우에도 iOS 공유 확장을 사용하여 관리되지 않는 앱에서 회사 또는 학교 데이터를 열 수 있습니다. 데이터가 유출되지는 않나요?** Intune 앱 보호 정책은 장치를 관리하지 않고는 iOS 공유 확장을 제어할 수 없습니다. 따라서 Intune은 _**"회사" 데이터를 앱 외부에서 공유하기 전에 먼저 암호화합니다**_. 관리되는 앱 외부에서 "회사" 파일을 열려고 시도하여 이를 확인할 수 있습니다. 파일이 암호화되어야 하며, 관리되는 앱 외부에서 파일을 열 수 없어야 합니다.
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO2-->
 
 

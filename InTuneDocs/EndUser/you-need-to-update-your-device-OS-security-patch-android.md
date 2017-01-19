@@ -5,16 +5,18 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/04/2017
+ms.date: 01/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b3e5994c-d215-4c72-8915-349bd0b2504d
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: f6fe6f76a700137914ef9cea7ce02753882e2fa3
-ms.openlocfilehash: 8893b397f5a29568ab5d4238e56d7e9806633e30
+ms.sourcegitcommit: 440d0e75c9373d5de44897b8a997da6c24de4e3c
+ms.openlocfilehash: ca6f6453d2b6ba28152c44e1b66700608c07c97a
 
 
 ---
@@ -27,18 +29,20 @@ Samsung 장치를 사용하는 경우 **설정** > **디바이스 정보**로 �
 
 [!INCLUDE[wit_nextref](../includes/end-user-os-update-guidance.md)]
 
-## <a name="if-you-have-a-samsung-knox-device"></a>Samsung KNOX 장치를 사용하는 경우
+## <a name="for-most-android-devices-non-samsung-knox"></a>대부분의 Android 장치(Samsung Knox가 아닌 장치)
+
+**설정** > **정보** > **소프트웨어 업데이트**로 이동합니다. 업데이트를 설치하면 장치에 올바른 보안 패치가 설치됩니다.
+
+## <a name="for-samsung-knox-android-devices"></a>Samsung Knox Android 장치
 
 **설정** > **시스템 업데이트** > **새 시스템 업데이트 확인**으로 이동합니다. 업데이트를 설치하면 Samsung KNOX 장치에 올바른 보안 패치가 설치됩니다.
 
-## <a name="if-you-do-not-have-a-samsung-knox-device"></a>Samsung KNOX 장치를 사용하지 않는 경우
 
-**설정** > **정보** > **소프트웨어 업데이트**로 이동합니다. 업데이트를 설치하면 장치에 올바른 보안 패치가 설치됩니다. 
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO2-->
 
 

@@ -5,7 +5,7 @@
   - Mac OS X 10.9 이상
 
 ### <a name="windows"></a>Windows
-  - Windows 10(Home, Pro, Education 및 Enterprise 버전)을 실행하는 PC
+  - Windows 10(Pro, Education 및 Enterprise 버전)을 실행하는 PC
   - Windows Phone 8.1 이상
   - Windows 8.1 RT
   - Windows 8.1을 실행하는 PC
@@ -23,6 +23,6 @@ EMS(Enterprise Management + Security)가 있는 고객은 [AAD(Azure Active Dire
  
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO2-->
 
 
