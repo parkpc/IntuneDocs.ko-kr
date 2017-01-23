@@ -1,5 +1,5 @@
 ---
-title: "Intune에서 Android 장치 사용 | Microsoft Intune"
+title: "Intune에서 Android 장치 사용 | Microsoft 문서"
 description: "Intune에서 장치가 등록될 때 최종 사용자가 Android 모바일 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록"
 keywords: 
 author: barlanmsft
@@ -14,8 +14,8 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 7751d5661f3fb9235820c716fdbded3dab385ec4
+ms.sourcegitcommit: b264ea53e727f706bc635ed9c738ad605e1ac750
+ms.openlocfilehash: a88b0eafdf72f00b5c28d0347010eeee3c9effc4
 
 
 ---
@@ -59,13 +59,13 @@ ms.openlocfilehash: 7751d5661f3fb9235820c716fdbded3dab385ec4
 이 섹션에서는 사용자가 Intune에서 Android 장치를 등록할 때 발생할 수 있는 문제를 해결하는 데 도움이 되는 정보를 제공합니다.
 
 - [자세한 정보 로깅을 사용하여 IT 관리자의 장치 문제 해결 돕기](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
-- [메일을 사용하여 IT 관리자에게 진단 데이터 로그 보내기](send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md)
-- [USB 케이블을 사용하여 IT 관리자에게 진단 데이터 로그 보내기](send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android.md)
-- [IT 관리자에게 등록 오류 보내기](send-enrollment-errors-to-your-it-administrator-android.md)
-- [장치에 필요한 최소 운영 체제 버전이 없는 경우](device-doesnt-have-the-required-minimum-operating-system-version-android.md)
-- [장치가 최대 운영 체제 버전에 부합되지 않는 경우](device-doesnt-comply-with-maximum-operating-system-version-android.md)
+- [메일을 사용하여 IT 관리자에게 로그 보내기](send-logs-to-your-it-admin-by-email-android.md)
+- [USB 케이블을 사용하여 IT 관리자에게 로그 보내기](send-logs-to-your-it-admin-using-cable-android.md)
+- [IT 관리자에게 등록 오류 보내기](send-enrollment-errors-to-your-it-admin-android.md)
+- [장치에 필요한 최소 운영 체제 버전이 없는 경우](you-need-to-update-your-android-device.md)
+- [장치가 최대 운영 체제 버전에 부합되지 않는 경우](your-android-version-isnt-yet-supported.md)
 - [장치가 루팅되었으며 연결할 수 없는 경우](your-device-is-rooted-and-you-cant-connect-android.md)
-- [장치에 필요한 인증서가 없는 경우](your-device-is-missing-a-required-certificate-android.md)
+- [장치에 필요한 인증서가 없는 경우](your-device-is-missing-a-required-certificate-landing-android.md)
 - [알 수 없는 소스를 해제하라는 메시지가 표시되는 경우](you-are-asked-to-turn-off-unknown-sources-android.md)
 - [USB 디버깅 옵션을 해제하라는 메시지가 표시되는 경우](you-are-asked-to-turn-off-usb-debugging-android.md)
 - [장치의 보안 위협 검색을 설정하라는 메시지가 표시되는 경우](you-are-asked-to-turn-on-scan-device-for-security-threats-android.md)
@@ -75,6 +75,6 @@ ms.openlocfilehash: 7751d5661f3fb9235820c716fdbded3dab385ec4
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Jan17_HO1-->
 
 

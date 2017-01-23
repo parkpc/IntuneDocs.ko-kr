@@ -1,11 +1,11 @@
 ---
-title: "등록된 장치에 앱 추가 | Microsoft Intune"
+title: "등록된 장치용 앱 추가 | Microsoft 문서"
 description: "앱을 배포하려면 먼저 Intune에 추가해야 합니다. 그런 후에는 이러한 앱을 배포하고 관리할 수 있는 Intune 콘솔에서 사용할 수는 있습니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/28/2016
+ms.date: 01/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,15 @@ ms.assetid: f5b1f1ae-f177-450a-9af9-936a02d052e3
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 00facaf07d8cb5ad7f1827eee9b0efb3547cec95
+ms.sourcegitcommit: 18f200ca30cfcd4c9fb00519c149f48e9b9fa8cb
+ms.openlocfilehash: b566b13f8c93c8a6bddccdbc0da5eb508907dac2
 
 
 ---
 
 # <a name="add-apps-for-enrolled-devices-to-intune"></a>Intune에 등록된 장치용 앱 추가
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 앱을 배포하거나 관리하려면 먼저 Microsoft Intune에 추가해야 합니다. 이 항목에서는 등록된 장치용 앱을 추가하는 방법을 보여 줍니다.
 
@@ -57,6 +59,9 @@ Intune 소프트웨어 게시자를 사용하여 앱 속성을 구성한 다음 
         예를 들어 iTunes 스토어의 Microsoft Word 앱을 장치에 배포하려는 경우 페이지는 다음과 같습니다.
 
         ![Intune 소프트웨어 게시자](./media/publisher-for-mobile.png)
+
+> [!NOTE]
+> 스토어에서 앱을 추가하고 배포하는 경우 앱을 설치할 수 있도록 최종 사용자에게 해당 스토어의 계정이 있어야 합니다.
 
 3.  **소프트웨어 설명** 페이지에서 다음 항목을 구성합니다.
 
@@ -100,6 +105,6 @@ Intune 소프트웨어 게시자를 사용하여 앱 속성을 구성한 다음 
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Jan17_HO2-->
 
 

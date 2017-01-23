@@ -7,21 +7,20 @@
 ### [기타 옵션 및 추가 기능](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)
 ### [유료 구독으로 전환](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)
 ## [일반적인 시나리오](understand-explore/common-ways-to-use-intune.md)
-## [용어 설명](understand-explore/intune-glossary.md)
+
 
 # [시작](get-started/get-started.md)
-## [빠른 시작 가이드](get-started/start-with-a-paid-subscription-to-microsoft-intune.md)
+## [Intune 설정](get-started/start-with-a-paid-subscription-to-microsoft-intune.md)
 ### [전제 조건](get-started/what-to-know-before-you-start-microsoft-intune.md)
-#### [지원되는 장치 및 브라우저](get-started/supported-mobile-devices-and-computers.md)
-#### [네트워크 대역폭 사용량](get-started/network-bandwidth-use.md)
+#### [네트워크 사용량](get-started/network-bandwidth-use.md)
 ### [Intune에 로그인](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
-### [도메인 이름 구성](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-2.md)
+### [도메인 구성](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-2.md)
 ### [사용자 추가](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3.md)
-### [Intune 라이선스 관리](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4.md)
+### [라이선스 관리](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4.md)
 ### [사용자 및 장치 구성](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-5.md)
 ### [정책 및 앱 배포](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-6.md)
 ### [회사 포털 사용자 지정](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-7.md)
-### [모바일 장치 등록](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
+### [장치 등록](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
 ### [구성 후 작업](get-started/post-configuration-tasks.md)
 ## [Intune으로 마이그레이션](get-started/migrate-to-intune.md)
 ## 다음 단계
@@ -30,14 +29,23 @@
 ### [사용자에게 모바일 앱 게시](get-started/publish-mobile-apps-to-users.md)
 ### [모바일 장치에서 메일 구성 단순화](get-started/simplify-email-configuration-on-mobile-devices.md)
 ### [맬웨어 위협으로부터 Windows PC 보호](get-started/protect-pcs-against-malware-threats.md)
-## [Intune 배포 단계](get-started/rollout-phases-for-microsoft-intune-deployment.md)
-### [프로젝트 범위](get-started/project-scope.md)
-### [개념 증명](get-started/proof-of-concept.md)
-### [파일럿](get-started/pilot.md)
-### [전사적 출시](get-started/enterprise-rollout.md)
-### [운영 및 유지 관리](get-started/operations-and-maintenance.md)
+
+# [계획 및 디자인](plan-design/introduction.md)
+## [섹션 1: 배포 목적, 목표 및 과제 확인](plan-design/section-1-determine-deployment-goals-objectives-challenges.md)
+## [섹션 2: 사용 사례 시나리오 확인](plan-design/section-2-identify-use-case-scenarios.md)
+## [섹션 3: 사용 사례 시나리오 요구 사항 확인](plan-design/section-3-determine-use-case-requirements.md)
+## [섹션 4: 출시 계획 개발](plan-design/section-4-develop-a-rollout-plan.md)
+## [섹션 5: 통신 계획 개발](plan-design/section-5-develop-a-rollout-communication-plan.md)
+## [섹션 6: 지원 계획 개발](plan-design/section-6-develop-a-support-plan.md)
+## [섹션 7: Intune 설계 만들기](plan-design/section-7-create-an-intune-design.md)
+## [섹션 8: Intune 구현](plan-design/section-8-onboarding-process.md)
+## [섹션 9: 테스트 및 유효성 검사](plan-design/section-9-test-and-validation.md)
+## [추가 리소스](plan-design/additional-resources.md)
 
 # [새로운 기능](whats-new/whats-new-in-microsoft-intune.md)
+## [새로운 기능](whats-new/whats-new-in-microsoft-intune.md)
+## [Azure Tools의 새로운 기능](/intune-azure/introduction/whats-new?toc=%2fintune%2ftoc.json)
+## [새로운 기능 - 아카이브](whats-new/whats-new-archive.md)
 
 # 배포 및 사용
 ## [장치 및 앱 수명 주기에 대한 개요](deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune.md)
@@ -135,20 +143,20 @@
 #### [Windows 및 Windows Phone](deploy-use/windows-compliance-policy-settings-in-microsoft-intune.md)
 #### [장치 준수 정책 배포](deploy-use/deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)
 
-### [장치 준수 정책에 따라 액세스 제한](deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
+### [장치 준수 정책에 따라 액세스 보호](deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
 
 #### [Exchange Online 및 새 Exchange Online Dedicated](deploy-use/restrict-access-to-exchange-online-with-microsoft-intune.md)
 #### [Exchange 온-프레미스 및 레거시 Exchange Online Dedicated](deploy-use/restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
 #### [SharePoint Online](deploy-use/restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 #### [비즈니스용 Skype Online](deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 #### [Dynamics CRM Online](deploy-use/restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
-#### [메일 액세스 제한: 예제](deploy-use/restrict-email-access-example-scenarios.md)
+#### [메일 액세스 보호: 예제](deploy-use/restrict-email-access-example-scenarios.md)
 ### [O365 서비스에 정책 관리 앱 액세스만 허용](deploy-use/allow-policy-managed-apps-access-to-o365.md)
 #### [MAM CA가 있는 앱](deploy-use/use-apps-with-mam-ca.md)
 #### [Exchange Online](deploy-use/mam-ca-for-exchange-online.md)
 #### [ADAL 없는 앱 차단](deploy-use/block-apps-with-no-modern-authentication.md)
-### [네트워크에 대한 액세스 제한(Cisco ISE)](deploy-use/restrict-access-to-networks.md)
-### [장치, 네트워크 및 응용 프로그램 위험에 따라 액세스 제한](deploy-use/restrict-access-based-on-device-network-app-risk.md)
+### [네트워크에 대한 액세스 보호(Cisco ISE)](deploy-use/restrict-access-to-networks.md)
+### [장치, 네트워크 및 응용 프로그램 위험에 따라 액세스 보호](deploy-use/restrict-access-based-on-device-network-app-risk.md)
 #### [Lookout 장치 위협 방지 설정](deploy-use/set-up-your-subscription-with-lookout-mtp.md)
 #### [Intune에서 Lookout 사용](deploy-use/enable-lookout-mtp-connection-in-intune.md)
 #### [Lookout for Work 앱 배포](deploy-use/configure-and-deploy-lookout-for-work-apps.md)
@@ -172,6 +180,7 @@
 #### [Intune에서 관리하지 않는 장치에 있는 LOB 앱](deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)
 #### [앱 작성 시 SDK 사용](deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
+### [MAM 및 앱 보호 FAQ](deploy-use/mam-faq.md)
 
 ## 앱 및 데이터 사용 중지
 ### [전체 또는 선택적 초기화 사용](deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)
@@ -208,7 +217,9 @@
 
 ## [Lookout 통합 문제 해결](troubleshoot/troubleshooting-lookout-integration.md)
 
+# [용어 설명](understand-explore/intune-glossary.md)
 
-<!--HONumber=Dec16_HO2-->
+
+<!--HONumber=Jan17_HO2-->
 
 

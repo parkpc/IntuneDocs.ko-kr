@@ -1,5 +1,5 @@
 ---
-title: "Intune 라이선스 관리 | Microsoft Intune"
+title: "Intune 라이선스 관리 | Microsoft 문서"
 description: "Intune 구독에 대해 사용자에게 라이선스 할당"
 keywords: 
 author: nathbarn
@@ -14,13 +14,16 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: f0f9d60a27afa580aaba8a3c24fff6325ae53f08
+ms.sourcegitcommit: d05c9d7a78474c19e142bca94e232289fbfba1d9
+ms.openlocfilehash: 1d0bb386cab923f3d1b45a0c6b64296fd2291460
 
 
 ---
 
 # <a name="manage-intune-licenses"></a>Intune 라이선스 관리
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 사용자가 로그인하여 Intune 서비스를 사용하거나 장치를 관리 대상으로 등록할 수 있게 하려면 먼저 [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)을 사용하여 각각의 사용자에게 Intune 구독에 대한 라이선스를 할당해야 합니다.
 
 Microsoft EMS(Microsoft Enterprise Mobility + Security)를 사용하는 조직에는 EMS 패키지의 Intune 서비스 또는 Azure Active Directory Premium만 필요한 사용자가 있을 수 있습니다. [Azure Active Directory PowerShell cmdlet](https://msdn.microsoft.com/library/jj151815.aspx)을 사용하여 한 가지 서비스 또는 서비스 하위 집합을 할당할 수 있습니다. 자세한 내용은 [PowerShell을 사용하여 Intune 라이선스 관리](start-with-a-paid-subscription-to-microsoft-intune-step-4-posh.md)를 참조합니다.
@@ -94,6 +97,6 @@ EMS 서비스에 대해 사용자 라이선스를 선택적으로 할당하려�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

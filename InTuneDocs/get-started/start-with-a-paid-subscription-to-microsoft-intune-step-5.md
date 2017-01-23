@@ -1,5 +1,5 @@
 ---
-title: "사용자 및 장치를 구성하는 그룹 만들기 | Microsoft Intune"
+title: "사용자 및 장치를 구성하는 그룹 만들기 | Microsoft 문서"
 description: "Intune 구독에 대한 사용자 및 그룹 만들기"
 keywords: 
 author: nathbarn
@@ -14,14 +14,17 @@ ms.assetid: 5fdf98c8-fe67-4d7a-9837-ed1234348014
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 85b2e7c50f4ea1e07bd1474e3902cebcbccc1467
+ms.sourcegitcommit: d05c9d7a78474c19e142bca94e232289fbfba1d9
+ms.openlocfilehash: 446156265047994f0a15890d7699991d032c0bd5
 
 
 ---
 
 
 # <a name="create-groups-to-organize-users-and-devices"></a>사용자 및 장치를 구성하는 그룹 만들기
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할 수 있습니다. 지리적 위치, 부서, 하드웨어 특성 등의 조직 요구 사항에 맞게 그룹을 설정한 후 사용자 집합에 대한 정책 배포, 장치 집합에 대한 응용 프로그램 배포 등의 다양한 관리 작업을 수행하는 데 사용할 수 있습니다.
 
 ## <a name="group-management-moving-to-azure-ad"></a>그룹 관리가 Azure AD로 이동
@@ -68,7 +71,7 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 2.  **그룹 이름**에 "Intune 사용자"를 입력하고 상위 그룹 목록에서 **모든 사용자**를 선택한 후 **다음**을 선택합니다.
 
-3.   **멤버 자격 기준 정의** 페이지에서 **다음으로 그룹 멤버 자격 시작** 을 **부모 그룹의 모든 사용자**로 설정합니다.
+3.  **멤버 자격 기준 정의** 페이지에서 **다음으로 그룹 멤버 자격 시작** 을 **부모 그룹의 모든 사용자**로 설정합니다.
 
 4.  **다음 보안 그룹의 구성원 제외** 옆에 있는 **찾아보기**를 선택한 다음 **회사 관리자**를 선택합니다. 이 예외를 통해 테넌트 관리자라고도 하는 회사 관리자 계정에 영향을 주지 않고 Intune 사용자 그룹을 관리할 수 있습니다.
 
@@ -84,6 +87,6 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

@@ -1,5 +1,5 @@
 ---
-title: "사용자 추가 및 권한 부여 | Microsoft Intune"
+title: "사용자 추가 및 권한 부여 | Microsoft 문서"
 description: "Azure AD와 온-프레미스 사용자를 동기화하고 Intune 구독에 대한 관리자 권한 부여"
 keywords: 
 author: nathbarn
@@ -14,13 +14,15 @@ ms.assetid: 6e9ec662-465b-4ed4-94c1-cff0fe18f126
 ms.reviewer: angrobe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 18d31a306549bae6dd44ab78d1dd08649ee71158
+ms.sourcegitcommit: d05c9d7a78474c19e142bca94e232289fbfba1d9
+ms.openlocfilehash: 02b6dd389c94d2b31bd96b2095ae48b685084370
 
 
 ---
 
 # <a name="add-users-and-give-administrative-permission-to-intune"></a>Intune에 사용자를 추가하고 관리 권한 부여
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 관리자는 사용자를 직접 추가할 수도 있고 온-프레미스 Active Directory에서 사용자를 동기화할 수도 있습니다. 추가된 사용자는 장치를 등록하고 회사 리소스에 액세스할 수 있습니다. *테넌트 관리자*, *서비스 관리자*, *장치 등록 관리자 권한* 등의 추가 권한을 사용자에게 제공할 수도 있습니다.
 
@@ -101,6 +103,6 @@ Office 365 포털에 액세스하려면 계정의 로그인 상태가 **허용**
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

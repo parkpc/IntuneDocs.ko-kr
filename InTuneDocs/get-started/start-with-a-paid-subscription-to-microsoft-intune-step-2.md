@@ -1,5 +1,5 @@
 ---
-title: "사용자 지정 도메인 이름 구성 | Microsoft Intune"
+title: "사용자 지정 도메인 이름 구성 | Microsoft 문서"
 description: "Intune 구독에 대한 사용자 지정 도메인 이름 추가"
 keywords: 
 author: nathbarn
@@ -14,14 +14,17 @@ ms.assetid: 2382f36f-13d8-4a32-81ad-6cfa604889c3
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 26b019b2b4c079daa89d15c783be0abf2b61dfee
+ms.sourcegitcommit: d05c9d7a78474c19e142bca94e232289fbfba1d9
+ms.openlocfilehash: e51746bbd114476e394c44f813fb8cb329879172
 
 
 ---
 
 
 # <a name="configure-a-custom-domain-name"></a>사용자 지정 도메인 이름 구성
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 
 조직에서 Intune과 같은 Microsoft의 클라우드 기반 서비스에 등록하면 Azure AD(Active Directory)에 호스트된 초기 도메인 이름(예: **yourdomain.onmicrosoft.com**)이 제공됩니다. 이 예제에서 **yourdomain**는 등록할 때 선택한 도메인 이름이고, **onmicrosoft.com**은 구독에 추가하는 계정에 할당되는 접미사입니다. 조직이 사용자 지정 도메인을 소유한 경우 정기가입 시 지정한 도메인 이름 대신 해당 도메인을 사용하도록 Intune의 인스턴스를 구성할 수 있습니다.
 
@@ -59,6 +62,6 @@ Microsoft의 클라우드 기반 서비스에 가입한 경우 해당 서비스�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 
