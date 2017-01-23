@@ -1,11 +1,11 @@
 ---
-title: "Cisco ISE에서 네트워크에 대한 액세스 제한 | Microsoft Intune"
+title: "Cisco ISE에서 네트워크에 대한 액세스 보호 | Microsoft 문서"
 description: "Cisco ISE에 의해 제어되는 WiFi 및 VPN에 액세스하기 전에 장치가 Intune에 등록되고 정책을 준수하도록 Intune에서 Cisco ISE를 사용합니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/06/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,16 @@ ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1dd3fde8119b54f574265c2ca9cf62cee9e77b01
-ms.openlocfilehash: bd6307cd8ff465bbce3de124ffdb444333d12efe
+ms.sourcegitcommit: 9f34d54710f0ec662eecec85f7fa041061132a0d
+ms.openlocfilehash: 8ef24e4d413662012f091c1be318d1d274e16439
 
 
 ---
 
 # <a name="using-cisco-ise-with-microsoft-intune"></a>Microsoft intune에서 Cisco ISE 사용
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Cisco ISE(ID 서비스 엔진)와 Intune을 통합하면 Intune 장치 등록 및 규정 준수 상태를 사용하여 ISE 환경에서 네트워크 정책을 작성할 수 있습니다. 이러한 정책을 사용하여 회사 네트워크에 대한 액세스가 Intune에서 관리되고 Intune 정책을 준수하는 장치로 제한되도록 할 수 있습니다.
 
 ## <a name="configuration-steps"></a>구성 단계
@@ -64,7 +67,7 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 > 인증서 만료 날짜를 확인합니다. 이 날짜가 완료되면 인증서를 내보내고 새 인증서를 가져와야 하기 때문입니다.
 
 
-### <a name="obtain-a-selfsigned-cert-from-ise"></a>ISE에서 자체 서명된 인증서 가져오기 
+### <a name="obtain-a-self-signed-cert-from-ise"></a>ISE에서 자체 서명된 인증서 가져오기 
 
 1.  ISE 콘솔에서 **관리** > **인증서** > **시스템 인증서** > **자체 서명된 인증서 생성**로 이동합니다.  
 2.       자체 서명된 인증서를 내보냅니다.
@@ -100,7 +103,7 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 |OAuth 2.0 토큰 끝점|토큰 발급 URL|
 |클라이언트 ID로 코드 업데이트|클라이언트 ID|
 
-### <a name="step-4-upload-the-selfsigned-certificate-from-ise-into-the-ise-app-you-created-in-azure-ad"></a>4단계: ISE의 자체 서명된 인증서를 Azure AD에서 만든 ISE 앱으로 업로드
+### <a name="step-4-upload-the-self-signed-certificate-from-ise-into-the-ise-app-you-created-in-azure-ad"></a>4단계: ISE의 자체 서명된 인증서를 Azure AD에서 만든 ISE 앱으로 업로드
 1.     Base64로 인코딩된 인증서 값과 지문을 .cer X509 공용 인증서 파일에서 가져옵니다. 이 예제에서는 PowerShell을 사용합니다.
    
       
@@ -189,6 +192,6 @@ ISE 관리 콘솔에서 다음 설정 값을 제공합니다.
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Jan17_HO1-->
 
 

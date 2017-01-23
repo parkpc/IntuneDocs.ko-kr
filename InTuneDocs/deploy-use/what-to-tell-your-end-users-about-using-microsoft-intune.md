@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Intune에서 최종 사용자 환경 관련 리소스 | Microsoft Intune"
+title: "Microsoft Intune에서 최종 사용자 환경 관련 리소스 | Microsoft 문서"
 description: "Intune을 성공적으로 배포하기 위해 정보를 최종 사용자와 공유합니다."
 keywords: "최종 사용자, 사용자, 통신"
 author: barlanmsft
@@ -14,13 +14,15 @@ ms.assetid: 48914533-f138-4dc0-8b93-4cea3ac61f7b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 83436b7d8e554eef0cf48d0f07999f06bf811bbc
+ms.sourcegitcommit: 77f1af3a07e5a5758227c81010ce853906803b08
+ms.openlocfilehash: a822559a55ee495065eca7eef5ec645cf4522e4b
 
 
 ---
 
 # <a name="resources-about-the-end-user-experience-with-microsoft-intune"></a>Microsoft Intune에서 최종 사용자 환경 관련 리소스
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 다음 링크 및 정보를 사용하여 Intune에서 다양한 작업을 수행하기 위해 최종 사용자가 따르는 단계를 이해합니다.
 
@@ -35,7 +37,7 @@ ms.openlocfilehash: 83436b7d8e554eef0cf48d0f07999f06bf811bbc
 회사 포털 웹 사이트 또는 앱에서 사용자에게 전송되는 단계를 보려면 다음 링크를 사용하세요. 링크는 회사 포털 앱 설치 및 Intune 등록, 보유한 장치에서 사용자가 수행할 수 있는 일반 작업 및 문제 해결 섹션으로 나뉩니다.
 
 - [Intune에서 Android 장치 사용](/Intune/EndUser/using-your-android-device-with-intune)
-- [Intune에서 iOS 또는 macOS 장치 사용](/Intune/EndUser/using-your-ios-or-mac-os-x-device-with-intune)
+- [Intune에서 iOS 또는 macOS 장치 사용](/Intune/EndUser/using-your-iOS-or-macOS-device-with-intune)
 - [Intune에서 Windows 장치 사용](/Intune/EndUser/using-your-windows-device-with-intune)
 - [Intune 회사 포털 웹 사이트 사용](/Intune/EndUser/using-the-intune-company-portal-website)
 
@@ -50,6 +52,6 @@ ms.openlocfilehash: 83436b7d8e554eef0cf48d0f07999f06bf811bbc
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Jan17_HO1-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "비즈니스용 Skype Online에 대한 액세스 제한 | Microsoft Intune"
+title: "비즈니스용 Skype Online에 대한 액세스 보호 | Microsoft 문서"
 description: "조건부 액세스를 사용하여 비즈니스용 Skype Online을 보호하고 액세스를 제어하는 방법을 설명합니다."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,18 +14,21 @@ ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 04fcdceb593051a32b715cb39b53cc328f167d09
+ms.sourcegitcommit: 9f34d54710f0ec662eecec85f7fa041061132a0d
+ms.openlocfilehash: 37915fcfc0f10e65aa65d400422d72adc63513fa
 
 
 ---
 
-# <a name="restrict-access-to-skype-for-business-online-with-microsoft-intune"></a>Microsoft Intune을 사용하여 비즈니스용 Skype Online에 대한 액세스 제한
+# <a name="protect-access-to-skype-for-business-online-with-microsoft-intune"></a>Microsoft Intune을 사용하여 비즈니스용 Skype Online에 대한 액세스 보호
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 **비즈니스용 Skype Online**에 대한 조건부 액세스 정책을 사용하여 비즈니스용 Skype Online에 대한 액세스를 제어할 수 있습니다.
 조건부 액세스에는 두 구성 요소가 포함되어 있습니다.
 - 장치가 규격으로 간주되기 위해 준수해야 하는 정책인 장치 준수 정책.
 - 장치가 서비스에 액세스하기 위해 충족해야 하는 조건을 지정하는 조건부 액세스 정책.
-조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [전자 메일 및 O365 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 읽어보세요.
+조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [메일 및 O365 서비스에 대한 액세스 보호](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 읽어보세요.
 
 대상 사용자가 장치에서 비즈니스용 Skype Online을 사용하는 경우 다음과 같은 평가 작업이 수행됩니다.
 
@@ -117,6 +120,6 @@ ms.openlocfilehash: 04fcdceb593051a32b715cb39b53cc328f167d09
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

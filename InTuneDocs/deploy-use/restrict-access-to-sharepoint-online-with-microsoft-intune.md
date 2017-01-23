@@ -1,11 +1,11 @@
 ---
-title: "SharePoint Online에 대한 액세스 제한 | Microsoft Intune"
+title: "SharePoint Online에 대한 액세스 보호 | Microsoft 문서"
 description: "조건부 액세스를 사용하여 SharePoint Online의 회사 데이터를 보호하고 해당 데이터에 대한 액세스를 제어하는 방법을 설명합니다."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,18 +14,21 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 550b6999b5a4bde91f5fe03f441517c230f576bd
+ms.sourcegitcommit: 9f34d54710f0ec662eecec85f7fa041061132a0d
+ms.openlocfilehash: 2efac12d3564932ebcb3cbe4165fbc7ad4595172
 
 
 ---
 
-# <a name="restrict-access-to-sharepoint-online-with-microsoft-intune"></a>Microsoft Intune을 사용하여 SharePoint Online에 대한 액세스 제한
+# <a name="protect-access-to-sharepoint-online-with-microsoft-intune"></a>Microsoft Intune을 사용하여 SharePoint Online에 대한 액세스 보호
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 [!INCLUDE[wit_firstref](../includes/wit_firstref_md.md)] 조건부 액세스를 사용하여 SharePoint Online에 있는 파일에 대한 액세스를 제어합니다.
 조건부 액세스에는 두 구성 요소가 포함되어 있습니다.
 - 장치가 규격으로 간주되기 위해 준수해야 하는 정책인 장치 준수 정책.
 - 장치가 서비스에 액세스하기 위해 충족해야 하는 조건을 지정하는 조건부 액세스 정책.
-조건부 액세스의 작동 방식에 대한 자세한 내용을 확인하려면 [전자 메일, O365 및 기타 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 항목을 읽어보세요.
+조건부 액세스의 작동 방식에 대한 자세한 내용을 확인하려면 [메일, O365 및 기타 서비스에 대한 액세스 보호](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 항목을 읽어보세요.
 
 준수 및 조건부 액세스 정책은 사용자에게 배포합니다. 이를 통해 사용자가 서비스에 액세스하는 데 사용하는 모든 장치의 정책 준수 여부를 확인합니다.
 
@@ -66,7 +69,7 @@ Azure Active Directory에 저장되는 장치 상태는 지정한 조건에 따�
 - Android 4.0 이상, Samsung Knox Standard 4.0 이상
 - Windows Phone 8.1 이상
 
-**iOS** 및 **Android** 장치가 브라우저에서 액세스하는 경우 SharePoint Online 액세스를 제한할 수 있습니다. 규격 장치의 지원되는 브라우저에서만 액세스가 허용됩니다.
+**iOS** 및 **Android** 장치가 브라우저에서 액세스하는 경우 SharePoint Online 액세스를 보호할 수 있습니다. 규격 장치의 지원되는 브라우저에서만 액세스가 허용됩니다.
 * Safari(iOS)
 * Chrome(Android)
 * Intune Managed Browser(iOS 및 Android 5.0 이상)
@@ -192,10 +195,10 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 -   **AAD 및 규격에 등록된 장치**. 이러한 장치는 SharePoint Online에 액세스할 수 있습니다.
 
 ### <a name="see-also"></a>참고 항목
-[Microsoft Intune을 사용한 메일 및 O365 서비스 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
+[Microsoft Intune을 사용한 메일 및 O365 서비스 액세스 보호](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

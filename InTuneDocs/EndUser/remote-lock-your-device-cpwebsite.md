@@ -1,43 +1,43 @@
 ---
-title: "회사 포털 웹 사이트에서 장치 원격 잠금 | Microsoft Intune"
+title: "회사 포털 웹 사이트에서 장치 원격 잠금 | Microsoft 문서"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: adc6af23-b22f-42e5-955a-4dffbdb8b42b
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 08f31db90f324ef5f93076c4e13bfa5328a15adc
-ms.openlocfilehash: b53e57b28cbf2de2e7820ffd38fc94ef05b994b6
+ms.sourcegitcommit: a1e346047fb029689c0c9c68073b89b9bac20530
+ms.openlocfilehash: fad219ca06ceb62e8bad0b3dbd30b330d90ac977
 
 
 ---
 
+# <a name="remotely-lock-your-device-from-the-company-portal-website"></a>회사 포털 웹 사이트에서 장치 원격 잠금
 
-# 회사 포털 웹 사이트에서 장치 원격 잠금
+사고가 발생하여 경우에 따라 장치를 찾지 못할 수도 있습니다. 장치를 분실하거나 도난당한 경우 가장 먼저 드는 걱정은 장치의 위치에 상관없이 누군가가 장치에 있던 정보를 사용할 수 있다는 점입니다.
 
-장치를 분실하거나 도난당한 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)의 원격 잠금 옵션을 사용하여 장치를 잠글 수 있습니다. 원격 잠금은 다음과 같은 장치 유형에서 작동합니다.
+[!INCLUDE[wit_nextref](../includes/end-user-password-guidance.md)]
 
-플랫폼  |지원 세부 정보  
----------|---------
-Android | 지원됨       
-iOS | 지원됨
-Windows 10 Mobile | 휴대폰에 암호가 설정된 경우에만 지원됨     
-Windows 10 Desktop | 지원되지 않음  
-Windows Phone 8.1 | 휴대폰에 암호가 설정된 경우에만 지원됨
-PC(Windows 8.0 이전 버전) | 지원되지 않음       
-PC(Windows 8.1) | 지원되지 않음
+안전 유지를 위해 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)의 원격 잠금 옵션을 사용하여 장치를 잠글 수 있습니다. 원격 잠금은 다음 장치에 적용됩니다.
 
-</br>
-원격 잠금을 사용하여 장치를 잠그려면:
+* Android
+* iOS
+* macOS
+* Windows 10 Mobile(장치에 암호가 이미 설정된 경우)
+* Windows Phone 8.1(장치에 암호가 이미 설정된 경우)
+
+## <a name="to-use-remote-lock-to-lock-your-device"></a>원격 잠금을 사용하여 장치를 잠그려면
 
 1.  [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에서 잠그려는 장치의 이름을 탭합니다.
 
@@ -45,25 +45,25 @@ PC(Windows 8.1) | 지원되지 않음
 
     ![remote-lock-option-on-company-portal-website](./media/iwp-screen-with-all-options.png)
 
-3.  해당 장치가 잠긴다고 알리는 경고 메시지를 읽은 다음 **원격 잠금**을 탭하여 회사 포털 웹 사이트에서 장치를 잠그도록 합니다.
+3.  장치를 잠그려고 한다는 알림이 표시됩니다. **원격 잠금**을 탭하면 회사 포털 웹 사이트에서 장치 잠금을 시도합니다.
 
-    **원격 잠금**을 탭하면 "원격 잠금 보류 중" 상태가 표시됩니다.  원격 잠금에 성공하면 상태가 "원격 잠금 성공"으로 변경됩니다.
+    **원격 잠금**을 탭하고 나면 "원격 잠금 보류 중" 메시지가 표시됩니다.  원격 잠금에 성공하면 상태가 "원격 잠금 성공"으로 변경됩니다.
 
     원격 잠금 상태는 다음 세 위치에 표시됩니다.
 
     * 웹 사이트의 알림 영역
-    * 장치의 세부 정보 페이지
-    * 페이지의 내 장치 섹션에 장치 이름을 보여 주는 타일
+    * 장치의 **세부 정보** 페이지
+    * 페이지의 **내 장치** 섹션에 장치 이름을 보여 주는 타일
 
-    "원격 잠금 실패" 알림이 표시되면 몇 분 정도 기다렸다가 장치 잠금을 다시 시도합니다. 다시 시도를 탭하면 "원격 잠금 보류 중"으로 상태가 다시 변경됩니다.
+> [!Note]
+> "원격 잠금 실패" 알림이 표시되면 몇 분 정도 기다렸다가 장치 잠금을 다시 시도합니다. 다시 시도하면 상태가 다시 “원격 보류 중”으로 변경됩니다. 다시 시도해도 소용이 없으면 IT 관리자에게 문의해야 합니다.
 
-    다시 시도가 작동하지 않으면 IT 관리자에게 문의하세요. 장치를 찾아 원격 잠금을 사용한 후 잠금을 해제하려면 암호를 입력하면 됩니다.
+장치를 찾아 원격 잠금을 사용한 후 잠금을 해제하려면 암호를 입력하면 됩니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
-<!--HONumber=Oct16_HO2-->
+
+<!--HONumber=Jan17_HO1-->
 
 

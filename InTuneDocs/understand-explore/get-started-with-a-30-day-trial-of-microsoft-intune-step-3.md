@@ -1,5 +1,5 @@
 ---
-title: "사용자 및 장치를 구성하는 그룹 만들기 | Microsoft Intune"
+title: "무료 평가판에서 사용자 및 장치를 구성하는 그룹 만들기 | Microsoft 문서"
 description: "Microsoft Intune 무료 30일 평가판을 등록할 때 장치 그룹 및 사용자 그룹을 만드는 방법"
 keywords: 
 author: lindavr
@@ -13,13 +13,16 @@ ms.technology:
 ms.assetid: 7162cad3-5c14-43f3-a760-833ffd7786b1
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: ab451a1213923ecd27dfc0b8ca353041e70435ed
+ms.sourcegitcommit: 89e190e6a3e514c0f38b33409cde2abea0776885
+ms.openlocfilehash: 0cdf5bf8f9fad1f44dbb0ef11de71aea55949d89
 
 
 ---
 
 # <a name="create-groups-to-organize-evaluation-subscription-users-and-devices"></a>평가판 구독 사용자 및 장치를 구성하는 그룹 만들기
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할 수 있습니다. 지리적 위치, 부서, 하드웨어 특성 등의 조직 요구 사항에 맞게 그룹을 설정한 후 사용자 집합에 대한 정책 설정, 장치 집합에 대한 응용 프로그램 배포 등의 다양한 관리 작업을 수행하는 데 사용할 수 있습니다.
 
 ## <a name="create-a-device-group"></a>장치 그룹 만들기
@@ -44,7 +47,7 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 2.  **그룹 이름**에 "내 평가판 사용자"를 입력하고 상위 그룹 목록에서 **모든 사용자**를 선택한 후 **다음**을 선택합니다.
 
-3.   **멤버 자격 기준 정의** 페이지에서 **다음으로 그룹 멤버 자격 시작** 을 **부모 그룹의 모든 사용자**로 설정합니다.
+3.  **멤버 자격 기준 정의** 페이지에서 **다음으로 그룹 멤버 자격 시작** 을 **부모 그룹의 모든 사용자**로 설정합니다.
 
 4.  **다음 보안 그룹의 구성원 제외** 옆에 있는 **찾아보기**를 선택한 다음 **회사 관리자**를 선택합니다. 이 예외를 통해 회사 관리자 계정(또는 테넌트 관리자)에 영향을 주지 않고 내 평가판 사용자 그룹을 관리할 수 있습니다.
 
@@ -61,6 +64,6 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Jan17_HO1-->
 
 

@@ -1,22 +1,24 @@
 ---
-title: "회사 포털이란 무엇입니까? | Microsoft Intune"
+title: "회사 포털이란 무엇입니까? | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/06/2016
+ms.date: 01/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 523caa6b-d792-4bb6-bddb-24b2479932d8
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3891d0389df3526ea328fc2952e3d181b1e766c0
-ms.openlocfilehash: a0424ada754a210fb34acd49cf47d1c457ed86af
+ms.sourcegitcommit: d2ed7b2e713f5efd4161eb8015ab43c8f97a017b
+ms.openlocfilehash: fa9c3fd2c995615e9aa9a16f3bd834b0c145b6d0
 
 
 ---
@@ -24,7 +26,7 @@ ms.openlocfilehash: a0424ada754a210fb34acd49cf47d1c457ed86af
 # <a name="about-the-company-portal"></a>회사 포털 정보
 
 ## <a name="what-is-the-company-portal-and-what-can-you-do-with-it"></a>회사 포털이란 무엇이며 이 포털에서 어떤 작업을 할 수 있나요?
-Microsoft Intune 회사 포털을 통해 회사 또는 학교의 데이터 및 앱에 액세스할 수 있습니다. 다음과 같은 두 가지 방법으로 회사 포털을 사용할 수 있습니다.
+회사 포털을 통해 회사 또는 학교의 데이터 및 앱에 액세스할 수 있습니다. 다음과 같은 두 가지 방법으로 회사 포털을 사용할 수 있습니다.
 
 - 장치에 회사 포털 앱을 설치합니다. 일반적으로 장치의 앱 스토어로 이동하여 회사 포털 앱을 가져오지만, IT 관리자가 사용자 대신에 회사 포털 앱을 설치할 수도 있습니다.
 - IT 관리자가 설정한 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 이동합니다.
@@ -41,10 +43,10 @@ Microsoft Intune 회사 포털을 통해 회사 또는 학교의 데이터 및 �
 장치에서 회사 포털 앱을 사용하여 수행할 수 있는 작업과 회사 포털 웹 사이트를 사용하여 수행할 수 있는 작업을 비교하여 보려면 다음 링크 중 하나를 선택하세요.
 
 > [!div class="op_single_selector"]
-- [OWA(Outlook Web Access)](using-your-android-device-with-intune.md)
-- [iOS 및 macOS](using-your-ios-or-mac-os-x-device-with-intune.md)
-- [Windows](using-your-windows-device-with-intune.md)
-- [회사 포털 웹 사이트](using-the-intune-company-portal-website.md)
+- [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
+- [Intune에서 iOS 및 macOS 장치 사용](using-your-ios-or-macOS-device-with-intune.md)
+- [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
+- [회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
 
 ## <a name="what-happens-when-you-add-a-computer-or-device-to-the-company-portal"></a>회사 포털에 컴퓨터 또는 장치를 추가하면 어떻게 되나요?
 회사 포털에 컴퓨터 또는 장치를 추가하면 장치에 따라 몇 가지 소프트웨어를 설치할 수도 있고 앱을 다운로드할 수도 있습니다.  그런데 회사 포털에 장치를 추가하면 IT 관리자가 장치의 회사 정보를 보호하기 위해 사용자의 장치를 관리할 수 있는 권한을 부여하는 것입니다.
@@ -58,9 +60,9 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 
 ## <a name="what-kind-of-computers-or-devices-can-you-add-to-the-company-portal"></a>회사 포털에 추가할 수 있는 컴퓨터 또는 장치 종류는 무엇인가요?
 
--   iPhone, iPad 및 macOS 장치
+-   iOS(iPhone, iPad) 및 macOS(iMac, MacBook)를 사용하는 Apple 장치
 
--   Android 모바일 장치
+-   Android 장치
 
 -   Windows 장치
     -   Windows 10 Mobile
@@ -96,6 +98,6 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Jan17_HO1-->
 
 

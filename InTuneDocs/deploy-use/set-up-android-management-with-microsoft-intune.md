@@ -1,11 +1,11 @@
 ---
-title: "Android 관리 설정 | Microsoft Intune"
+title: "Android 관리 설정 | Microsoft 문서"
 description: "Microsoft Intune으로 Android 및 KNOX Standard 장치에 대한 MDM(모바일 장치 관리)을 사용하도록 설정합니다."
 keywords: 
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 01/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,16 @@ ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
 ms.reviewer: lacranda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
-ms.openlocfilehash: f1e019d66858357987ee34e8a5144fb6a3511400
+ms.sourcegitcommit: 26ddc03985ab8a4959a1d2c9a47e77f042ab9310
+ms.openlocfilehash: 6b74c09c37970429d3eaa571db655854d592a2fe
 
 
 ---
 
 # <a name="set-up-android-device-management"></a>Android 장치 관리 설정
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune 관리자는 회사 포털에서 Samsung Knox Standard 장치를 포함한 Android 장치를 관리하도록 설정할 수 있습니다. 그러면 사용자가 Google Play에서 제공되는 회사 포털 앱을 사용하여 장치를 등록할 수 있습니다.
 
 1.  **Intune 설정**<br>
@@ -37,11 +40,28 @@ Intune 관리자는 회사 포털에서 Samsung Knox Standard 장치를 포함�
   - [Microsoft Intune에서 최종 사용자 환경 관련 리소스](what-to-tell-your-end-users-about-using-microsoft-intune.md)
   - [Android 장치용 최종 사용자 가이드](../enduser/using-your-android-device-with-intune.md)
 
+중국에는 Google Play 스토어를 사용할 수 없으므로 Android 장치 사용자는 중국 앱 마켓플레이스에서 제공되는 회사 포털을 다운로드해야 합니다. Android용 회사 포털 앱은 다음 스토어에서 다운로드할 수 있습니다.
+* [Baidu](https://go.microsoft.com/fwlink/?linkid=836946)
+* [Huawei](https://go.microsoft.com/fwlink/?linkid=836948)
+* [Tencent](https://go.microsoft.com/fwlink/?linkid=836949)
+* [Wandoujia](https://go.microsoft.com/fwlink/?linkid=836950)
+* [Xiaomi](https://go.microsoft.com/fwlink/?linkid=836947)
+
+Android 용 회사 포털 앱은 Google Play 서비스를 사용하여 Microsoft Intune 서비스와 통신합니다. 중국에서는 Google Play 서비스가 아직 제공되지 않으므로 다음 작업을 수행하면 완료까지 최대 8시간 걸릴 수 있습니다. 
+
+|Intune 관리 콘솔| Android용 Intune 회사 포털 앱 |Intune 회사 포털 웹 사이트|   
+|---|---|---|
+|전체 초기화| 원격 장치 제거| 장치(로컬 및 원격) 제거|
+|선택적 초기화| 장치 다시 설정| 장치 재설정|
+|신규 또는 업데이트된 앱 배포| 사용 가능한 LOB(기간 업무) 앱 설치| 장치 암호 재설정|
+|원격 잠금|||
+|암호 재설정|||
+
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune에서 장치 등록을 위한 필수 조건](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

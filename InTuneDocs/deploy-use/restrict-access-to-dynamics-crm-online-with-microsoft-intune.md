@@ -1,11 +1,11 @@
 ---
-title: "Dynamics CRM Online에 대한 액세스 제한 | Microsoft Intune"
+title: "Dynamics CRM Online에 대한 액세스 보호 | Microsoft 문서"
 description: "조건부 액세스로 Dynamics CRM Online을 보호하고 액세스를 제어합니다."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,18 +14,21 @@ ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dae04661289c79798c2f37272a0f941d30335ea5
-ms.openlocfilehash: 2f4ba24ca6c56cee684931519937525fcde1c211
+ms.sourcegitcommit: 9f34d54710f0ec662eecec85f7fa041061132a0d
+ms.openlocfilehash: 0049da7a47070e42cf0f377da5a99d3222d9ed82
 
 
 ---
 
-# <a name="restrict-access-to-dynamics-crm-online-with-intune"></a>Intune을 사용하여 Dynamics CRM Online에 대한 액세스 제한
+# <a name="protect-access-to-dynamics-crm-online-with-intune"></a>Intune을 사용하여 Dynamics CRM Online에 대한 액세스 보호
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune 조건부 액세스를 사용하여 iOS 및 Android 장치에서 Microsoft Dynamics CRM Online에 대한 액세스를 제어할 수 있습니다.  Intune 조건부 액세스에는 두 구성 요소가 포함되어 있습니다.
 * [장치 준수 정책](introduction-to-device-compliance-policies-in-microsoft-intune.md) - 장치가 규격으로 간주되기 위해 준수해야 하는 정책입니다.
 * [조건부 액세스 정책](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) - 여기서 장치가 서비스에 액세스하기 위해 충족해야 하는 조건을 지정합니다.
 
-조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [메일 및 0365 및 기타 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 읽어보세요.
+조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [메일 및 0365 및 기타 서비스에 대한 액세스 보호](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 읽어보세요.
 
 > [!IMPORTANT]
 > 조건부 액세스를 배포하려면 Intune 및 Azure Active Directory Premium에 대한 구독이 있어야 하고, 사용자는 두 제품의 라이선스를 취득해야 합니다. **EMS(Enterprise Mobility + Security) 구독**에는 Intune 구독과 Azure Active Directory Premium 구독이 모두 포함되어 있습니다. 자세한 내용은 [Enterprise Mobility 가격 책정 페이지](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing)를 참조하세요. EMS 구독이 없는 경우에는 Azure Active Directory Premium에 대한 구독을 가져올 수 있습니다. [Azure Active Directory 가격 책정 페이지](https://azure.microsoft.com/en-us/pricing/details/active-directory/)를 참조하세요.
@@ -92,15 +95,15 @@ Dynamics CRM 정책에 사용할 두 가지 그룹 유형을 지정할 수 있�
 * **AAD 및 규격에 등록된 장치**. 이러한 장치는 Dynamics CRM에 액세스할 수 있습니다.
 
 ##  <a name="next-steps"></a>다음 단계
-* [Exchange Online에 액세스 제한](restrict-access-to-exchange-online-with-microsoft-intune.md)
+* [Exchange Online에 액세스 보호](restrict-access-to-exchange-online-with-microsoft-intune.md)
 
-* [Exchange 온-프레미스에 대한 액세스 제한](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
-* [SharePoint Online에 대한 액세스 제한](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
+* [Exchange 온-프레미스에 대한 액세스 보호](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
+* [SharePoint Online에 대한 액세스 보호](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 
-* [비즈니스용 Skype Online에 대한 액세스 제한](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
+* [비즈니스용 Skype Online에 대한 액세스 보호](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
