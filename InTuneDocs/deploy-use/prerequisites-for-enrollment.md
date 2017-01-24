@@ -1,5 +1,5 @@
 ---
-title: "모바일 장치 등록을 위한 필수 조건 | Microsoft Intune"
+title: "모바일 장치 등록을 위한 필수 조건 | Microsoft 문서"
 description: "MDM(모바일 장치 관리) 필수 구성 요소를 설정하고 다른 운영 체제를 등록할 준비를 완료합니다."
 keywords: 
 author: staciebarker
@@ -14,13 +14,16 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
-ms.openlocfilehash: 270e6015e629c048b01b218793640888706d118e
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 2b7fe00a2f3b289958aa77df5eaffd35de7c8c97
 
 
 ---
 
 # <a name="prerequisites-for-mobile-device-management-in-intune"></a>Intune에서 모바일 장치 관리를 위한 필수 조건
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 직원이 Intune에 모바일 장치를 등록할 수 있도록 하려면 다음 단계가 필요합니다. 이러한 동일한 단계는 회사 소유 장치를 관리하는 데 필요합니다.
 
 |단계|세부 정보|  

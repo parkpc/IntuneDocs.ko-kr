@@ -1,5 +1,5 @@
 ---
-title: "IMEI 번호 지정 | Microsoft Intune"
+title: "IMEI 번호 지정 | Microsoft 문서"
 description: "Microsoft Intune에서는 관리자가 회사 소유의 모바일 장치를 식별하는 데 도움이 되는 모바일 장치 플랫폼용 IMEI 번호를 가져올 수 있습니다."
 keywords: 
 author: staciebarker
@@ -14,13 +14,16 @@ ms.assetid: 1712bd39-562b-4409-9cec-155d5f4d8a39
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 656c93771776fd317f2b8d91bc59125fba1eb0b9
-ms.openlocfilehash: 8b19cb740ed34b479fa8c4f5e2c1d13f13cda1f4
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 588674c38a5e54f6b762ac044457110a361e6969
 
 
 ---
 
 # <a name="specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers"></a>IMEI(International Mobile Equipment Identity) 번호로 회사 소유의 장치 지정
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune에서는 관리자가 회사 소유의 모바일 장치를 식별하는 데 도움이 되는 IMEI 번호가 있는 모바일 장치 플랫폼에 대해 IMEI(International Mobile Equipment Identity) 번호를 가져올 수 있습니다. Intune에서 장치를 등록한 후에 **그룹** > **개요** > **모든 장치**에서 가져온 IMEI 번호를 갖는 장치가 표시될 수 있습니다. **장치 그룹** 목록에는 가져온 IMEI 번호를 가진 장치가 **소유권** 열에 **회사**로 표시됩니다.
 
 1. [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **그룹** &gt; **모든 장치** &gt; **회사에서 사전 등록한 모든 장치** &gt; **IMEI(모든 플랫폼) 기준**을 선택한 후 **장치 추가...**를 선택합니다. 두 가지 방법으로 장치를 추가할 수 있습니다.
@@ -50,6 +53,6 @@ IMEI 번호가 있는 장치가 Intune에서 등록되면, 일반적으로 사�
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Dec16_HO2-->
 
 

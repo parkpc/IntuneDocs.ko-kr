@@ -1,5 +1,5 @@
 ---
-title: "온-프레미스 EAS용 Exchange Connector | Microsoft Intune"
+title: "온-프레미스 EAS용 Exchange Connector | Microsoft 문서"
 description: "커넥터 도구를 사용하여 Intune 관리 콘솔과 Exchange ActiveSync MDM용 온-프레미스 Exchange Server 간 통신을 설정합니다."
 keywords: 
 author: andredm7
@@ -14,13 +14,15 @@ ms.assetid: 41ff4212-a6f5-4374-8731-631f7560cff1
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d50a5751a5afd987196336e9443dc5a429a283fd
-ms.openlocfilehash: 58c5ab6b506695fb5b0f7556dc1deac39580f59b
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 1b74d19762a81313325eac27cab50a144a569620
 
 
 ---
 
 # <a name="install-the-intune-on-premises-exchange-connector"></a>Intune 온-프레미스 Exchange Connector 설치
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 
 Microsoft Intune을 사용하여 모바일 장치의 사서함을 호스트하는 Exchange Server와 통신하도록 연결을 설정하려면 Intune 관리 콘솔에서 온-프레미스 Exchange Connector를 다운로드하여 구성해야 합니다. Intune은 Exchange Connector 연결 형식에 상관없이 구독당 연결을 한 번만 지원합니다.
@@ -96,7 +98,7 @@ Intune 온-프레미스 Exchange Connector를 설치하려면 다음 단계를 �
     3. **POP 외부 서버** 값을 찾습니다.
 
     4. **프록시 서버**를 선택하여 Hosted Exchange Server의 프록시 서버 설정을 지정합니다.
-        1.  **모바일 장치 정보를 동기화는 경우 프록시 서버 사용**을 선택합니다.
+        1. **모바일 장치 정보를 동기화는 경우 프록시 서버 사용**을 선택합니다.
 
         2. 서버에 액세스하는 데 사용할 **프록시 서버 이름** 및 **포트 번호** 를 입력합니다.
 

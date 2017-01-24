@@ -1,5 +1,5 @@
 ---
-title: "Intune 평가판에 대한 다른 옵션 및 추가 기능 | Microsoft Intune"
+title: "Intune 평가판에 대한 기타 옵션 및 추가 기능 | Microsoft 문서"
 description: "경고, 알림 및 보고서와 Intune 무료 30일 평가판에 등록할 때 알아두어야 할 일반적인 일반 Intune 기능에 대해 설명합니다."
 keywords: 
 author: lindavr
@@ -13,13 +13,15 @@ ms.technology:
 ms.assetid: 170cd959-d35b-4129-ae60-117d7e881bc9
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 21b0cba6cf1d0cd7048cd0abee3a21dd9d74eadd
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 361348939341b580a9abc576938522d166125183
 
 
 ---
 
 # <a name="other-options-and-extras-for-intune-evaluation-subscriptions"></a>Intune 평가판 구독에 대한 다른 옵션 및 추가 기능
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 ## <a name="alerts-notifications-and-reports"></a>경고, 알림 및 보고서
 Intune 관리 콘솔에서 **경고**는 조직 내 관리 장치의 전반적인 상태를 빠르게 평가하는 데 사용됩니다. 경고를 구성 및 사용자 지정하여 조직에 필요한 정보만 표시 및 보고되도록 구성할 수 있습니다. 경고의 사용 여부를 설정하고, 심각도를 구성하고, 디스플레이 임계값을 사용하여 경고가 표시되기 전에 경고 이벤트를 트리거해야 하는 빈도를 결정하고, 특정 경고 유형과 관련된 설정을 구성할 수 있습니다.
@@ -56,6 +58,6 @@ Intune에 최근에 추가된 기능에 대해 자세히 알아보려면 [Micros
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

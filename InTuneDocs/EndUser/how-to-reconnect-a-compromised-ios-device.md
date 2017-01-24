@@ -1,33 +1,36 @@
 ---
-title: "손상된 iOS 장치를 다시 연결하는 방법 | Microsoft Intune"
+title: "손상된 iOS 장치를 다시 연결하는 방법 | Microsoft 문서"
 description: 
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 12/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 09e97df0-d032-48ff-ab8a-8c2c4ec29897
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8eb98946c39b98d3c338b32a7d955818020ef478
-ms.openlocfilehash: 166c0708645d191abaaa73aa3143ca558d64ffd0
+ms.sourcegitcommit: 38edb26334cdfdee0ab66465c4bed21d6e8d14c1
+ms.openlocfilehash: 7506063b56231feea1b2f6b22b157171896e25ab
 
 
 ---
 
-# 손상된 iOS 장치를 다시 연결하는 방법
-IT 관리자가 사용자가 “탈옥된” 장치를 사용하고 있음을 감지했습니다. "탈옥"은 iOS에 의해 적용된 소프트웨어 제한이 제거된 것을 의미합니다. 이렇게 되면 보안을 손상시키고 회사 리소스에 위협이 될 수 있습니다. 
+# <a name="how-to-reconnect-a-compromised-ios-device"></a>손상된 iOS 장치를 다시 연결하는 방법
 
-이 경우 장치에서 회사 리소스에 더 이상 액세스할 수 없으며 IT 관리자에게 문의해야 합니다. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+IT 관리자가 사용자가 탈옥된 장치를 사용하고 있음을 감지했습니다. "무단 해제"는 장치가 특정 파일에 무제한 액세스할 수 있도록 변경되어 보안을 손상시키고 회사 리소스에 위협이 될 수 있음을 의미합니다.
+
+이 경우 장치에서 회사 리소스에 더 이상 액세스할 수 없으며 IT 관리자에게 문의해야 합니다. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

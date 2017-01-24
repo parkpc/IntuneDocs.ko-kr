@@ -1,5 +1,5 @@
 ---
-title: "Intune 앱 래핑 도구를 사용하여 iOS 앱 래핑 | Microsoft Intune"
+title: "Intune 앱 래핑 도구를 사용하여 iOS 앱 래핑 | Microsoft 문서"
 description: "이 항목의 정보를 사용하여 앱 자체의 코드를 수정하지 않고 iOS 앱을 래핑하는 방법에 대해 알아봅니다. 모바일 앱 관리 정책을 적용할 수 있도록 앱을 준비합니다."
 keywords: 
 author: mtillman
@@ -14,34 +14,157 @@ ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
 ms.reviewer: oldang
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ee7e0491c0635c45cbc0377a5de01d5eba851132
-ms.openlocfilehash: 0eee40c3c3c6bdfc3da2e715ef7b46e8408ba319
+ms.sourcegitcommit: b0abdd44716f8fe0ff8298fa8f6b9f4197964cb9
+ms.openlocfilehash: 06f0f7c436eef63a63182196d4d124b2d928a083
 
 
 ---
 
 # <a name="prepare-ios-apps-for-mobile-application-management-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리를 위해 iOS 앱 준비
 
-iOS용 Microsoft Intune 앱 래핑 도구를 사용하면 Intune 앱 자체의 코드를 변경하지 않고 해당 앱의 보호 기능을 사용하도록 설정하여 iOS 앱의 동작을 변경할 수 있습니다.
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-이 도구는 앱 주위에 '래퍼'를 만드는 Mac OS 명령줄 응용 프로그램입니다. 앱을 처리한 후에는 IT 관리자가 배포한 Intune [모바일 응용 프로그램 관리 정책](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 앱의 기능을 변경할 수 있습니다.
+iOS용 Microsoft Intune 앱 래핑 도구를 사용하면 앱 자체의 코드를 변경하지 않고 사내 iOS 앱에 대한 Intune 앱 보호 정책을 사용하도록 설정할 수 있습니다.
+
+이 도구는 앱 주위에 '래퍼'를 만드는 Mac OS 명령줄 응용 프로그램입니다. 앱이 처리된 후 해당 앱에 [앱 보호 정책](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 배포하여 앱의 기능을 변경할 수 있습니다.
 
 이 도구를 다운로드하려면 GitHub에서 [Microsoft Intune App Wrapping Tool for iOS](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios)(iOS용 Microsoft Intune 앱 래핑 도구)를 참조하세요.
 
 
 
-## <a name="fulfill-the-prerequisites-for-the-app-wrapping-tool"></a>앱 래핑 도구의 필수 구성 요소 준비
-필수 구성 요소를 얻는 방법에 대해 알아보려면 [How to obtain prerequisites for the Intune App Wrapping Tool for iOS](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/)(iOS용 Intune 앱 래핑 도구에 대한 필수 구성 요소를 얻는 방법)를 참조하세요.
+## <a name="general-prerequisites-for-the-app-wrapping-tool"></a>앱 래핑 도구의 일반 필수 조건
 
-|요구 사항|추가 정보|
-|---------------|--------------------------------|
-|지원되는 운영 체제 및 도구 집합 | 앱 래핑 도구는 Xcode 도구 집합 버전 5 이상이 설치된 OS X 10.8.5 이상의 macOS 컴퓨터에서 실행해야 합니다.|
-|인증서 및 프로비저닝 프로필 서명 | Apple 서명 인증서 및 프로비저닝 프로필이 있어야 합니다. [Apple 개발자 설명서](https://developer.apple.com/)를 참조하세요.|
-|앱 래핑 도구를 사용하여 앱 처리  |사용자의 회사나 ISV(Independent Software Vendor)에서 개발 및 서명한 앱이어야 합니다. 이 도구를 사용하여 Apple 스토어의 앱을 처리할 수는 없습니다. iOS 8.0 이상용으로 작성된 앱이어야 합니다. 또한 PIE(Position Independent Executable) 형식의 앱이어야 합니다. PIE 형식에 대한 자세한 내용은 Apple 개발자 설명서를 참조하세요. 마지막으로, 앱의 확장명이 **.app** 또는 **.ipa**여야 합니다.|
-|도구에서 처리할 수 없는 앱 | 암호화된 앱, 서명되지 않은 앱 및 확장된 파일 특성을 가진 앱입니다.|
-|앱에 대한 자격 설정|앱을 래핑하려면 먼저 일반적으로 부여되는 사용 권한 및 기능 이외에 앱에 추가적인 사용 권한 및 기능을 제공하는 자격을 설정해야 합니다. 지침은 [앱 자격 설정](#setting-app-entitlements)을 참조하세요.|
+앱 래핑 도구를 실행하려면 먼저 몇 가지 일반적인 필수 조건을 충족해야 합니다.
 
-## <a name="install-the-app-wrapping-tool"></a>앱 래핑 도구 설치
+* GitHub에서 [iOS용 Microsoft Intune 앱 래핑 도구](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios)를 다운로드합니다.
+
+* Xcode 도구 집합 버전 5 이상이 설치된 OS X 10.8.5 이상의 macOS 컴퓨터에서 실행해야 합니다.
+
+* 회사나 ISV(Independent Software Vendor)에서 개발하고 서명한 입력 iOS 앱이어야 합니다.
+
+  * 입력 앱 파일의 확장명은 **.ipa** 또는 **.app**이어야 합니다.
+
+  * 입력 앱은 iOS 8.0 이상에 대해 컴파일되어야 합니다.
+
+  * 입력 앱은 암호화할 수 없습니다.
+
+  * 입력 앱은 확장 파일 특성을 포함할 수 없습니다.
+
+  * Intune 앱 래핑 도구에서 처리되기 전에 입력 앱에 권리 유형이 설정되어 있어야 합니다. [권리 유형](https://developer.apple.com/library/content/documentation/Miscellaneous/Reference/EntitlementKeyReference/Chapters/AboutEntitlements.html)을 통해 일반적으로 부여되는 권한 및 기능 이외에 앱에 추가적인 사용 권한 및 기능을 제공할 수 있습니다. 지침은 [앱 자격 설정](#setting-app-entitlements)을 참조하세요.
+
+## <a name="apple-developer-prerequisites-for-the-app-wrapping-tool"></a>앱 래핑 도구의 Apple Developer 필수 조건
+
+
+조직의 사용자에게 독점적으로 래핑된 앱을 배포하려면 [Apple Developer Enterprise Program](https://developer.apple.com/programs/enterprise/)의 계정과 Apple Developer 계정에 연결된 앱 서명을 위한 몇 가지 엔터티가 필요합니다.
+
+조직의 사용자에게 내부적으로 iOS 앱을 배포하는 방법에 대한 자세한 내용은 공식 설명서인 [Distributing Apple Developer Enterprise Program Apps](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/DistributingEnterpriseProgramApps/DistributingEnterpriseProgramApps.html#//apple_ref/doc/uid/TP40012582-CH33-SW1)(Apple Developer Enterprise Program 앱 배포)를 참조하세요.
+
+Intune에서 래핑된 앱을 배포하려면 다음과 같은 항목이 필요합니다.
+
+* Apple Developer Enterprise Program의 개발자 계정
+
+* 유효한 팀 ID로 인증서에 서명하는 내부 및 임시 배포
+
+  * Intune 앱 래핑 도구의 매개 변수로서 서명 인증서의 SHA1 해시가 필요합니다.
+
+
+* 내부 배포 프로비전 프로필
+
+### <a name="steps-to-create-an-apple-developer-enterprise-account"></a>Apple Developer Enterprise 계정을 만드는 단계
+1. [Apple Developer Enterprise Program 사이트](https://developer.apple.com/programs/enterprise/)로 이동합니다.
+
+2. 페이지의 오른쪽 위에서 **Enroll**(등록)을 클릭합니다.
+
+3. 등록해야 할 작업의 검사 목록을 읽습니다. 페이지의 맨 아래에서 **Start Your Enrollment**(등록 시작)를 클릭합니다.
+
+4. 조직의 Apple ID로 **로그인**합니다. Apple ID가 없으면 **Create Apple ID**(Apple ID 만들기)를 클릭합니다.
+
+5. **Entity Type**(엔터티 형식)을 선택하고 **Continue**(계속)를 클릭합니다.
+
+6. 조직의 정보로 양식을 작성합니다. 
+              **Continue(계속)**를 클릭합니다. 이제, Apple에서 사용자에게 연락하여 조직을 등록할 권한이 있는지 확인합니다.
+
+8. 확인 후 **Agree to License**(라이선스에 동의)를 클릭합니다.
+
+9. 라이선스에 동의한 후 **프로그램을 구매하고 활성화**하여 완료합니다.
+
+10. 팀 에이전트(조직을 대신하여 Apple Developer Enterprise Program에 참가하는 사람)인 경우 먼저 팀 구성원을 초대하고 역할을 할당하여 팀을 구성합니다. 팀을 관리하는 방법을 알아보려면 [Managing Your Developer Account Team](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/ManagingYourTeam/ManagingYourTeam.html#//apple_ref/doc/uid/TP40012582-CH16-SW1)(개발자 계정 팀 관리)에 대한 Apple 설명서를 참조하세요.
+
+### <a name="steps-to-create-an-apple-signing-certificate"></a>Apple 서명 인증서를 만드는 단계
+
+1. [Apple Developer 포털](https://developer.apple.com/)로 이동합니다.
+
+2. 페이지의 오른쪽 위에서 **Account**(계정)를 클릭합니다.
+
+3. 조직 Apple ID를 사용하여 **로그인**합니다.
+
+4. **Certificates, IDs & Profiles**(인증서, ID 및 프로필)를 클릭합니다.
+
+  ![Apple Developer 포털](../media/app-wrapper/iOS-signing-cert-1.png)
+
+5. 설치가 완료되면 ![오른쪽 위 모서리에 있는 Apple Developer 포털 더하기 기호를 클릭하여](../media/app-wrapper/iOS-signing-cert-2.png) iOS 인증서를 추가합니다.
+
+6. **Production**(프로덕션)에서 **In-House and Ad Hoc**(사내 및 임시) 인증서를 만들도록 선택합니다.
+
+  ![내부 및 임시 인증서 선택](../media/app-wrapper/iOS-signing-cert-3.png)
+
+7. 페이지의 맨 아래에서 **Next**(다음)를 클릭합니다.
+
+8. macOS 컴퓨터에서 Keychain Access 응용 프로그램을 사용하여 **CSR(인증서 서명 요청)**을 만드는 방법에 대한 지침을 읽어봅니다.
+
+  ![CSR을 만들기 위한 지침 읽기](../media/app-wrapper/iOS-signing-cert-4.png)
+
+9. 위의 지침을 따라 인증서 서명 요청을 만듭니다. macOS 컴퓨터에서 **Keychain Access** 응용 프로그램을 실행합니다.
+
+10. 화면 맨 위에 있는 macOS 메뉴에서 **Keychain Access > Certificate Assistant > Request a Certificate From a Certificate Authority**(Keychain Access > Certificate Assistant > 인증 기관에서 인증서 요청)로 이동합니다.  
+
+  ![Keychain Access의 인증 기관에서 인증서 요청](../media/app-wrapper/iOS-signing-cert-5.png)
+
+11. CSR 파일을 만드는 방법에 대한 위의 Apple Developer 사이트 지침을 따릅니다. macOS 컴퓨터에 CSR 파일을 저장합니다.
+
+  ![Keychain Access의 인증 기관에서 인증서 요청](../media/app-wrapper/iOS-signing-cert-6.png)
+
+12. Apple Developer 사이트로 돌아갑니다. 
+              **Continue(계속)**를 클릭합니다. 그런 다음 CSR 파일을 업로드합니다.
+
+13. Apple에서 서명 인증서를 생성합니다. 다운로드하여 macOS 컴퓨터에서 기억하기 쉬운 위치에 저장합니다.
+
+  ![서명 인증서 다운로드](../media/app-wrapper/iOS-signing-cert-7.png)
+
+14. 방금 다운로드한 인증서 파일을 두 번 클릭하여 키 집합에 인증서를 추가합니다.
+
+15. **Keychain Access**를 다시 엽니다. Keychain Access 창의 오른쪽 위 검색 창에 **"iPhone"**을 검색하여 인증서를 찾습니다. 항목을 마우스 오른쪽 단추로 클릭하여 메뉴를 표시하고 **Get Info**(정보 가져오기)를 클릭합니다.
+
+  ![키 집합에 인증서 추가](../media/app-wrapper/iOS-signing-cert-8.png)
+
+16. 정보 창이 나타납니다. 맨 아래로 스크롤하여 **Fingerprints**(지문) 레이블 아래를 확인합니다. **SHA1** 문자열을 복사하여 앱 래핑 도구의 매개 변수로 사용합니다.
+
+  ![키 집합에 인증서 추가](../media/app-wrapper/iOS-signing-cert-9.png)
+
+
+
+### <a name="steps-to-create-an-in-house-distribution-provisioning-profile"></a>내부 배포 프로비전 프로필을 만드는 단계
+
+1. [Apple Developer 계정 포털](https://developer.apple.com/account/)로 돌아가 조직의 Apple ID로 **로그인**합니다.
+
+2. **Certificates, IDs & Profiles**(인증서, ID 및 프로필)를 클릭합니다.
+
+3. 설치가 완료되면 ![오른쪽 위 모서리에 있는 Apple Developer 포털 더하기 기호를 클릭하여](../media/app-wrapper/iOS-signing-cert-2.png) iOS 프로비전 프로필을 추가합니다.
+
+4. **Distribution**(배포)에서 **In House**(사내) 프로비전 프로필을 만들도록 선택합니다.
+
+  ![사내 프로비전 프로필 선택](../media/app-wrapper/iOS-provisioning-profile-1.png)
+
+5. 
+              **Continue(계속)**를 클릭합니다. 이전에 생성된 서명 인증서를 프로비전 프로필에 연결해야 합니다.
+
+6. macOS 컴퓨터로 프로필(확장명 .mobileprovision)을 다운로드는 단계를 따릅니다.
+
+7. 기억하기 쉬운 위치에 파일을 저장합니다. 이 파일은 앱 래핑 도구를 사용하는 동안 -p 매개 변수에 사용됩니다.
+
+
+
+## <a name="download-the-app-wrapping-tool"></a>앱 래핑 도구 다운로드
 
 1.  [GitHub](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios)에서 앱 래핑 도구용 파일을 macOS 컴퓨터로 다운로드합니다.
 

@@ -1,57 +1,40 @@
 ---
-title: "수동으로 Windows 장치 동기화 | Microsoft Intune"
+title: "수동으로 Windows 장치 동기화 | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/19/2016
+ms.date: 12/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 443c6de7-5187-4dc4-b844-6085a0c659bd
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
-ms.openlocfilehash: 9561cf77e1569a6ab0da5d9b8e90e03ce5c9e998
+ms.sourcegitcommit: 9dd9a601f2e13a16157a43c28e77db6a6efd1619
+ms.openlocfilehash: 5584ec2d387830dcdcf6b06631996a0bade76014
 
 
 ---
 
-
 # <a name="sync-your-windows-device-manually"></a>수동으로 Windows 장치 동기화
-앱 설치가 너무 오래 걸리면, Windows 장치를 수동으로 동기화해 볼 수 있습니다. 수동으로 동기화하면 설치 속도를 향상할 수 있습니다.
 
-다음 버전만 지원됩니다. 장치가 나열되지 않으면 동기화가 지원되지 않는 것입니다. 사용하는 장치 유형에 해당하는 지침을 사용하세요.
+때로 Windows 장치에 앱을 설치하는 것은 생각보다 시간이 오래 걸릴 수 있습니다. 이 경우에 Windows 장치를 수동으로 동기화할 수 있습니다. 동기화하면 설치 속도가 빨라집니다.
 
-* [Windows 10 Mobile](#windows-10-mobile)
-* [Windows 10 Desktop](#windows-10-desktop)
-* [Windows Phone 8.1](#windows-phone-81)
+> [!Note] 
+> 속도가 느리거나 동시에 콘텐츠를 다운로드하는 장치가 많은 네트워크에 있는 경우 앱 설치 시간이 조금 걸릴 수 있습니다.
 
+다음 버전의 Windows는 수동으로 동기화할 수 있습니다. 장치가 서로 다른 버전의 Windows를 사용하는 경우 수동 동기화를 시작할 수 없습니다.
 
-## <a name="windows-10-mobile"></a>Windows 10 Mobile
-느린 앱 설치 속도를 높이기 위해 Windows 10 모바일 장치를 수동으로 동기화하려면:
-
-1. **모든 앱** > **설정** > **계정**으로 이동합니다.
-
-    ![설정 화면에서 계정 선택](./media/win10m-sync-1-settings-accounts.png)
-
-2. **회사 액세스**를 선택합니다.
-
-    ![계정 유형으로 회사 액세스 선택](./media/win10m-sync-2-work-access.png)
-
-3. **장치 관리에 등록**에서 회사 이름을 탭합니다.
-
-    ![장치 관리에 대한 회사 이름 선택](./media/win10m-sync-3-tap-comp-name.png)
-
-4. **동기화** 아이콘을 선택합니다.
-
-    ![동기화 아이콘 선택](./media/win10m-sync-4-tap-sync.png)
-
-    “We’re synching your account(계정을 동기화 중입니다.)”라는 메시지가 화면 맨 위에 표시됩니다. **동기화** 단추는 장치 동기화를 마칠 때까지 회색으로 표시됩니다.
+* [Windows 10 데스크톱 동기화](#windows-10-desktop)
+* [Windows 10 Mobile 동기화](#windows-10-mobile)
+* [Windows Phone 8.1 동기화](#windows-phone-81)
 
 ## <a name="windows-10-desktop"></a>Windows 10 Desktop
 Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계가 있습니다. 사용할 단계를 확인하려면 스크린샷을 확인한 후 장치에 표시되는 것과 비슷한 단계를 따릅니다.
@@ -109,6 +92,27 @@ Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계�
 
    단추는 동기화가 완료될 때까지 회색으로 표시됩니다.
 
+   ## <a name="windows-10-mobile"></a>Windows 10 Mobile
+   느린 앱 설치 속도를 높이기 위해 Windows 10 모바일 장치를 수동으로 동기화하려면:
+
+   1. **모든 앱** > **설정** > **계정**으로 이동합니다.
+
+       ![설정 화면에서 계정 선택](./media/win10m-sync-1-settings-accounts.png)
+
+   2. **회사 액세스**를 선택합니다.
+
+       ![계정 유형으로 회사 액세스 선택](./media/win10m-sync-2-work-access.png)
+
+   3. **장치 관리에 등록**에서 회사 이름을 탭합니다.
+
+       ![장치 관리에 대한 회사 이름 선택](./media/win10m-sync-3-tap-comp-name.png)
+
+   4. **동기화** 아이콘을 선택합니다.
+
+       ![동기화 아이콘 선택](./media/win10m-sync-4-tap-sync.png)
+
+       “We’re synching your account(계정을 동기화 중입니다.)”라는 메시지가 화면 맨 위에 표시됩니다. **동기화** 단추는 장치 동기화를 마칠 때까지 회색으로 표시됩니다.
+
 ## <a name="windows-phone-81"></a>Windows Phone 8.1
 느린 앱 설치 속도를 높이기 위해 Windows Phone 8.1 장치를 수동으로 동기화하려면:
 
@@ -130,6 +134,6 @@ Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

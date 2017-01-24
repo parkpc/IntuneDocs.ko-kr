@@ -1,5 +1,5 @@
 ---
-title: "장치 준수 정책 | Microsoft Intune"
+title: "장치 준수 정책 | Microsoft 문서"
 description: "이 항목에서는 장치 준수 정책의 개념과 작동 원리를 설명합니다."
 keywords: 
 author: andredm7
@@ -14,13 +14,16 @@ ms.assetid: 0775107a-6662-41c8-9404-be14bbb599f3
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: b41307f620284315e4c71b0d0292b229753876ad
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 7b91e52d72704b6beb79a1b35bb1a24ebb340a4b
 
 
 ---
 
 # <a name="device-compliance-policies-in-microsoft-intune"></a>Microsoft Intune의 장치 준수 정책
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 ## <a name="what-is-a-compliance-policy"></a>준수 정책이란?
 회사 데이터를 보호하는 데 도움이 되려면 회사 앱 및 데이터에 액세스하는 데 사용되는 장치가 특정 규칙을 준수하는지 확인해야 합니다. 이러한 규칙에는 장치에 액세스하는 데 PIN을 사용하고 장치에 저장된 데이터를 암호화하는 규칙이 포함됩니다. 이러한 규칙의 집합을 준수 정책이라고 합니다.
 

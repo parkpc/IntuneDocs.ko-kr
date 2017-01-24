@@ -1,5 +1,5 @@
 ---
-title: "정책을 사용하여 장치 설정 관리 | Microsoft Intune"
+title: "정책을 사용하여 장치 설정 관리 | Microsoft 문서"
 description: "Intune을 사용하여 관리하는 등록된 장치에서 설정 및 기능을 제어하는 정책을 만들어 배포합니다."
 keywords: 
 author: robstackmsft
@@ -14,13 +14,16 @@ ms.assetid: 09bae0b9-4f79-4658-8ca1-a71ab992c1b2
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0238350139837a06a48d0bff7c53e4c39e07168c
-ms.openlocfilehash: b2cba92c4cf75412b562267aef9d6a138f25952b
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: f153e3a58f9655bd1e36094f292098c9f55742b6
 
 
 ---
 
 # <a name="manage-settings-and-features-on-your-devices-with-microsoft-intune-policies"></a>Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune *정책*은 모바일 장치 및 컴퓨터에서 기능을 제어하는 설정 그룹입니다. 권장 설정 또는 사용자 지정 설정이 포함된 템플릿을 사용하여 정책을 만든 후 장치 또는 사용자 그룹에 해당 정책을 배포할 수 있습니다.
 
 ## <a name="types-of-policies"></a>정책 유형
@@ -86,7 +89,7 @@ Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](mic
 
 1.  **정책** 작업 영역에서 배포할 정책을 선택한 다음 **배포 관리**를 선택합니다.
 
-2.   **배포 관리** 대화 상자에서
+2.  **배포 관리** 대화 상자에서
 
     -   정책을 배포하려면 정책을 배포하려는 그룹을 하나 이상 선택하고 **추가** &gt; **확인**을 선택합니다.
 
@@ -211,6 +214,6 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI(Open Mobile Allian
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

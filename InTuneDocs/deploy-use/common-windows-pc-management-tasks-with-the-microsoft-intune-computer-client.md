@@ -1,11 +1,11 @@
 ---
-title: "일반적인 Windows PC 관리 작업 | Microsoft Intune"
+title: "일반적인 Windows PC 관리 작업 | Microsoft 문서"
 description: "Intune 소프트웨어 클라이언트를 실행하는 Windows PC를 관리할 수 있는 방법을 알아봅니다."
 keywords: 
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 08/04/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,14 @@ ms.assetid: eb912c73-54d2-4d78-ac34-3cbe825804c7
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 94cb6278e0df458ee3696cc0c8e1018822c44cd8
+ms.sourcegitcommit: 10dd2caa9ce1b96424f55e373e904a778390eb15
+ms.openlocfilehash: 2fc2d7e57267f82897dac8a0cc222c2b7009d14d
 
 
 ---
 
 # <a name="common-windows-pc-management-tasks-with-the-intune-software-client"></a>Intune 소프트웨어 클라이언트를 사용하는 일반 Windows PC 관리 태스크
-Intune 소프트웨어 클라이언트를 실행하는 PC를 관리하기 위해 수행할 수 있는 작업 목록을 검토합니다. 컴퓨터에 클라이언트를 아직 설치하지 않은 경우에는 [Intune 소프트웨어 클라이언트 설치](install-the-windows-pc-client-with-microsoft-intune.md)를 참조하세요.
+이 항목에서는 Intune 소프트웨어 클라이언트를 설치하여 PC로 관리하는 데스크톱을 관리하기 위해 수행할 수 있는 작업을 나열합니다. 그러나 PC를 모바일 장치로 관리하는 작업은 다루지 않습니다. PC에 클라이언트를 아직 설치하지 않은 경우에는 [Intune 소프트웨어 클라이언트 설치](install-the-windows-pc-client-with-microsoft-intune.md)를 참조하세요.
 
 
 - [정책을 사용하여 PC 관리 간소화](use-policies-to-simplify-windows-pc-management.md) - Intune의 **컴퓨터 관리** 정책을 설명하고 Microsoft Intune Center에 대한 설정을 나열합니다.
@@ -30,7 +30,7 @@ Intune 소프트웨어 클라이언트를 실행하는 PC를 관리하기 위해
 
 - [Windows PC 사용 중지](retire-a-windows-pc-with-microsoft-intune.md) - Windows PC를 사용 중지하기 위한 단계를 나열하고 PC를 사용 중지할 경우 발생하는 사항을 설명합니다.
 
-- [Windows PC에 대한 사용자-장치 연결 관리](manage-user-device-linking-for-windows-pcs-with-microsoft-intune.md) - 사용자에게 소프트웨어를 배포하기 전에 사용자를 컴퓨터에 연결해야 하는 경우 및 방법을 설명합니다.
+- [Windows PC에 대한 사용자-장치 연결 관리](manage-user-device-linking-for-windows-pcs-with-microsoft-intune.md) - 사용자에게 소프트웨어를 배포하기 전에 사용자를 PC에 연결해야 하는 경우 및 방법을 설명합니다.
 
 - [Windows PC 원격 지원 요청 및 제공](request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune.md) - Intune PC 사용자가 원격 지원을 받는 방법을 설명하고 필수 구성 요소 및 TeamViewer 설치를 설명합니다.
 
@@ -38,6 +38,6 @@ Intune 소프트웨어 클라이언트를 실행하는 PC를 관리하기 위해
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO3-->
 
 

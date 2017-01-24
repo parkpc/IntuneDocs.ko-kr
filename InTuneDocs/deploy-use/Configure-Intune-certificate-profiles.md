@@ -1,5 +1,5 @@
 ---
-title: "인증서 프로필 구성 | Microsoft Intune"
+title: "인증서 프로필 구성 | Microsoft 문서"
 description: "Intune 인증서 프로필을 만드는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -14,13 +14,16 @@ ms.assetid: 679a20a1-e66f-4b6b-bd8f-896daf1f8175
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: bafb86b1e388163c07110559e2a51bbe0dadc5ed
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: f5b5bc13a834cb5071ebf875f3c5512c564efe93
 
 
 ---
 
 # <a name="configure-intune-certificate-profiles"></a>Intune 인증서 프로필 구성
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 [SCEP 인증서 인프라 구성](configure-certificate-infrastructure-for-scep.md) 또는 [PFX 인증서 인프라 구성](configure-certificate-infrastructure-for-pfx.md)에 설명한 대로 인프라 및 인증서를 구성한 후에는 인증서 프로필을 만들 수 있습니다. 프로세스는 다음과 같습니다.
 
 - **태스크 1**: 신뢰할 수 있는 루트 CA 인증서 내보내기
@@ -141,7 +144,7 @@ SCEP(단순 인증서 등록 프로토콜) 또는 PKCS #12(.PFX) 인증서 프�
 Intune용 기타 정책을 배포하는 것과 같은 방식으로 인증서 프로필을 배포합니다.
 
 1.  **정책** 작업 영역에서 배포할 정책을 선택한 다음 **배포 관리**를 선택합니다.
-2.   **배포 관리** 대화 상자에서
+2.  **배포 관리** 대화 상자에서
     -   **정책을 배포하려면** 정책을 배포할 그룹을 하나 이상 선택하고 **추가** &gt; **확인**을 선택합니다.
     -   **정책을 배포하지 않고 대화 상자를 닫으려면** **취소**를 선택합니다.
 
@@ -157,6 +160,6 @@ Intune용 기타 정책을 배포하는 것과 같은 방식으로 인증서 프
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

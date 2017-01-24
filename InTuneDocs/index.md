@@ -9,14 +9,14 @@ keywords: "intune 설명서, 앱 관리, 장치 관리, MDM 설명서, MAM 설�
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 12/7/2016
+ms.date: 12/20/2016
 ms.topic: hubpage
 ms.service: microsoft-intune
 ms.suite: ems
 ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
 translationtype: Human Translation
-ms.sourcegitcommit: b921a15ca5fd24d9ddbf54789c42a0740b72d7f6
-ms.openlocfilehash: 61855f89dd2aa70bf9b6d7be72acae90e5463b7d
+ms.sourcegitcommit: d63d670f12f27511671b9015ad53a93f1a784c40
+ms.openlocfilehash: eda6352368a3593d56ce8879501e2ebf4fda41f9
 
 
 ---
@@ -37,8 +37,8 @@ ms.openlocfilehash: 61855f89dd2aa70bf9b6d7be72acae90e5463b7d
         </ul>
         <ul class="column column-half">
           <li><a href="/intune/deploy-use/restrict-access-based-on-device-network-app-risk">회사 리소스에 대한 액세스 보호</a></li>
-          <li><a href="/intune/develop/intune-app-sdk-ios">iOS용 Microsoft Intune 앱 SDK 개발자 가이드</a></li>
-          <li><a href="/intune/develop/intune-app-sdk-android">Android용 Microsoft Intune 앱 SDK 개발자 가이드</a></li>
+          <li><a href="https://graph.microsoft.io/en-us/docs/api-reference/beta/intune_graph_overview">Microsoft Graph에서 Intune 사용</a></li>
+          <li><a href="/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune">Microsoft Intune에서 최종 사용자 환경 관련 리소스</a></li>
         </ul>
       </div>
     </section>
@@ -61,13 +61,13 @@ ms.openlocfilehash: 61855f89dd2aa70bf9b6d7be72acae90e5463b7d
               <ul class="row">
                 <li class="column-third">
                   <a href="/intune/understand-explore/introduction-to-microsoft-intune">
-                    <h3>Intune 소개</h3>
+                    <h3>Intune이란?</h3>
                     <p>모바일 장치(iOS 장치, Android 장치, Windows phone)와 Windows PC에서 Intune으로 어떻게 장치, 앱 및 데이터를 관리하는지 알아보세요.</p>
                   </a>
                 </li>
                 <li class="column-third">
                   <a href="/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune">
-                    <h3>Intune 평가 가이드</h3>
+                    <h3>Intune이 적합한가요?</h3>
                     <p>평가판 가이드의 절차에 따라, 사용자와 장치를 최대 100개 추가하여 평가판을 설치해 보세요.</p>
                   </a>
                 </li>
@@ -94,21 +94,21 @@ ms.openlocfilehash: 61855f89dd2aa70bf9b6d7be72acae90e5463b7d
             <section class="journey-step-elements content">
               <ul class="row">
                 <li class="column-third">
-                  <a href="/intune/get-started/what-to-know-before-you-start-microsoft-intune">
-                    <h3>시작 전에 알아야 할 사항</h3>
-                    <p>모든 Intune 배포의 기본 요구 사항을 빠르게 숙지하세요.</p>
-                  </a>
-                </li>
-                <li class="column-third">
                   <a href="/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune">
-                    <h3>Intune 빠른 시작 가이드</h3>
-                    <p>30일 평가판 가이드를 바탕으로 한 이 항목에서는 Azure Active Directory 동기화와 도메인, DNS에 대한 고려 사항과 기타 Intune 사용자 지정에 대해 안내해 줍니다.</p>
+                    <h3>시작 가이드</h3>
+            <p>30일 평가판 가이드를 바탕으로 한 이 항목에서는 Azure Active Directory 동기화와 도메인, DNS에 대한 고려 사항과 기타 Intune 사용자 지정에 대해 안내해 줍니다.</p>
                   </a>
                 </li>
                 <li class="column-third">
-                  <a href="/intune/get-started/rollout-phases-for-microsoft-intune-deployment">
-                    <h3>출시 단계</h3>
-                    <p>Intune 목표, 아키텍처, 파일럿, 프로덕션 출시 계획을 정의하세요.</p>
+                  <a href="/intune/get-started/prevent-company-data-leaks-from-office-365-mobile-apps">
+                    <h3>Office 365 모바일 앱에서 회사 데이터 누수 방지</h3>
+                    <p>회사 데이터 누출을 방지하는 데 도움이 되는 앱 보호 정책을 사용하여 조직의 데이터를 보호하세요.</p>
+                  </a>
+                </li>
+                <li class="column-third">
+                  <a href="/intune/get-started/simplify-email-configuration-on-mobile-devices">
+                    <h3>모바일 장치에서 메일 구성 단순화</h3>
+                    <p>Intune 서비스에서 관리되는 Windows, iOS 및 Android 모바일 장치에 메일(VPN 및 Wi-Fi) 프로필을 배포하여 회사의 작업 시간과 리소스를 절약하세요.</p>
                   </a>
                 </li>
               </ul>
@@ -155,8 +155,8 @@ ms.openlocfilehash: 61855f89dd2aa70bf9b6d7be72acae90e5463b7d
                 </li>
                 <li class="column-third">
                   <a href="/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune">
-                    <h3>전자 메일 및 O365 서비스에 대한 액세스 제한</h3>
-                    <p>Intune의 조건부 액세스 기능을 사용하여 회사 메일 및 Office 365 서비스에 대한 액세스를 제한하세요.</p>
+                    <h3>메일 및 O365 서비스에 대한 액세스 보호</h3>
+                    <p>Intune의 조건부 액세스 기능을 사용하여 회사 메일 및 Office 365 서비스에 대한 액세스를 보호하세요.</p>
                   </a>
                 </li>
                 <li class="column-third">
@@ -285,6 +285,6 @@ ms.openlocfilehash: 61855f89dd2aa70bf9b6d7be72acae90e5463b7d
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Dec16_HO3-->
 
 

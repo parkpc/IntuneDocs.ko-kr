@@ -1,11 +1,11 @@
 ---
-title: "장치 보호 | Microsoft Intune"
+title: "장치 보호 | Microsoft 문서"
 description: "Intune이 무단 액세스 및 기타 위협으로부터 장치를 보호하는 데 어떤 도움을 줄 수 있는지 알아봅니다."
 keywords: 
 author: Robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 09/01/2016
+ms.date: 12/27/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,15 @@ ms.assetid: 71e0cbf3-2bfb-412e-8a12-8503df08b4cf
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
-ms.openlocfilehash: 235db7eb1036bfccd074fd83b4b59e75529a5e34
+ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
+ms.openlocfilehash: 47263a7b0e4255cfa3fe830c969ce6116447ae9f
 
 
 ---
 
 # <a name="protect-devices-with-microsoft-intune"></a>Microsoft Intune으로 장치 보호
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune에서는 관리하는 장치와 해당 장치에 저장된 데이터를 보호하는 데 사용 가능한 모든 기능 집합을 제공합니다. 이 항목에서 이러한 기능과 관련된 기본 사항을 파악하고 자세한 정보를 확인하는 방법을 알아보세요.
 
@@ -63,6 +65,6 @@ Intune에서는 등록하지 않았지만 Intune 컴퓨터 클라이언트 소�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO5-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "앱 프로비전 프로필 | Microsoft Intune"
+title: "앱 프로비전 프로필 | Microsoft 문서"
 description: "Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필 정책을 미리 배포하기 위한 도구를 제공합니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 12/27/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,15 @@ ms.assetid: 86fbe736-7bdb-4f5e-ae21-13c91eb2462c
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 409433dbe5ca777b33b21a2655e15cde8003b4a2
-ms.openlocfilehash: d67b26b23e65d4a144c1efda1494de1df94cc33c
+ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
+ms.openlocfilehash: db76786da0428b0e064f2091089653244d90ee2a
 
 
 ---
 
 # <a name="use-ios-mobile-provisioning-profile-policies-to-prevent-your-apps-from-expiring"></a>iOS 프로비전 프로필 정책을 사용하여 모바일 앱이 만료되지 않도록 방지
 
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 iPhone 및 iPad에 배포된 Apple iOS LOB(기간 업무) 앱은 포함된 프로비전 프로필과 인증서로 서명된 코드로 빌드됩니다. 앱이 실행되면 iOS는 iOS 앱의 무결성을 확인하고 프로비전 프로필에 정의된 정책을 적용합니다. 다음 유효성 검사가 수행됩니다.
 
@@ -53,6 +54,6 @@ iPhone 및 iPad에 배포된 Apple iOS LOB(기간 업무) 앱은 포함된 프�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO5-->
 
 

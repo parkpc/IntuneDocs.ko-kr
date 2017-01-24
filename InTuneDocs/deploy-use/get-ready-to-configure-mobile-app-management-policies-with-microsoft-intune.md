@@ -1,9 +1,9 @@
 ---
-title: "MAM 정책의 필수 구성 요소 | Microsoft Intune"
+title: "MAM 정책의 필수 조건 | Microsoft 문서"
 description: "이 항목에서는 모바일 앱 관리 정책을 만들기 전에 사용자를 설정하기 위한 필수 구성 요소에 대해 설명합니다."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 11/29/2016
 ms.topic: article
@@ -14,13 +14,16 @@ ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: ac820146d81fb121a60f7029f6a52a0056d6ab0a
+ms.sourcegitcommit: 9e208608d50c9b5f7fe66743de0d3c7e741dbfbd
+ms.openlocfilehash: cb525deb240668c0f0f14b19f39eb1226e338629
 
 
 ---
 
 # <a name="get-ready-to-configure-mobile-app-management-policies-on-the-azure-portal"></a>Azure Portal에서 모바일 앱 관리 정책 구성 준비
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 이 항목에서는 Azure Portal에서 MAM(모바일 앱 관리) 정책을 만들기 **전**에 완료해야 하는 필수 조건 및 단계에 대해 설명합니다.
 
 Intune MAM 정책으로 회사 데이터를 보호하는 방법을 이해하려면 [모바일 앱 관리 정책을 사용하여 앱 및 데이터 보호](protect-apps-and-data-with-microsoft-intune.md)를 참조하세요.
@@ -121,6 +124,6 @@ Intune 관리 콘솔을 사용하여 MAM 정책을 만드는 방법에 대한 �
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

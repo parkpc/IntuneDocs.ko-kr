@@ -1,5 +1,5 @@
 ---
-title: "Windows 10 Mobile 및 Windows Phone 관리 설정 | Microsoft Intune"
+title: "Windows 10 Mobile 및 Windows Phone 관리 설정 | Microsoft 문서"
 description: "Microsoft Intune으로 Windows 10 Mobile 또는 Windows Phone 장치에 대한 MDM(모바일 장치 관리)을 설정합니다."
 keywords: 
 author: staciebarker
@@ -13,14 +13,16 @@ ms.assetid: f5615051-2dd1-453b-9872-d3fdcefb2cb8
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
-ms.openlocfilehash: 3141d4b2ad1a21e2ac5ba7b6cafb74f567d07f7a
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: d58b2d57ec99add7bbc372584f0ecc430830530a
 
 
 ---
 
 
 # <a name="set-up-windows-phone-and-windows-10-mobile-management-with-microsoft-intune"></a>Microsoft Intune을 사용한 Windows Phone 및 Windows 10 Mobile 관리 설정
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Intune 관리자는 두 가지 방법으로 Windows 10 Mobile 및 Windows Phone 장치 등록 및 관리를 수행하도록 설정할 수 있습니다.
 

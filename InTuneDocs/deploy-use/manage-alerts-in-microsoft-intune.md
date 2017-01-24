@@ -1,5 +1,5 @@
 ---
-title: "경고 관리 | Microsoft Intune"
+title: "경고 관리 | Microsoft 문서"
 description: "Intune의 경고 작업 영역에서는 조직 내 장치의 전반적인 상태를 평가할 수 있습니다."
 keywords: 
 author: arob98
@@ -15,13 +15,16 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: pbala
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: b84a6e353103f35ad62fb95052c44581dd439963
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 67a7e25c8365970eb108b2529692a6f67c5de054
 
 
 ---
 
 # <a name="manage-alerts-in-microsoft-intune"></a>Microsoft Intune에서 경고 관리
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune 관리 콘솔의 **경고** 작업 영역을 사용하여 조직의 전반적인 장치 상태를 평가하고 문제를 식별할 수 있습니다.
 
 ## <a name="view-active-alerts"></a>활성 경고 보기

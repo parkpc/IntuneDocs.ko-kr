@@ -1,5 +1,5 @@
 ---
-title: "iOS 사용자가 앱을 얻는 방법 | Microsoft Intune"
+title: "iOS 사용자가 앱을 얻는 방법 | Microsoft 문서"
 description: "최종 사용자에게 iOS 앱을 제공하기 위한 방법"
 keywords: 
 author: barlanmsft
@@ -14,14 +14,16 @@ ms.assetid: 7e3135c1-df26-48c9-aa4c-cdab6168897a
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 3ba0a5cda91164761c4576df935c54390bc78f8c
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: dbc5f1b106df17aa8875997330dbfbb04a81f82f
 
 
 ---
 
 
 # <a name="how-your-ios-users-get-their-apps"></a>iOS 사용자가 앱을 얻는 방법
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 이 정보를 사용하여 최종 사용자가 Microsoft Intune을 통해 배포하는 앱을 얻는 방법과 위치를 이해합니다.
 
@@ -55,6 +57,6 @@ Apple 제한에 따라 기간 업무 앱과 관리되는 App Store 앱을 회사
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

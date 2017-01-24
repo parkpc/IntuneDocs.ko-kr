@@ -1,5 +1,5 @@
 ---
-title: "장치 규정 준수 정책 만들기 | Microsoft Intune"
+title: "장치 준수 정책 만들기 | Microsoft 문서"
 description: "규정 준수 정책을 만들어 회사 데이터에 액세스하는 데 사용하는 모바일 장치 및 PC 보안을 유지합니다."
 keywords: 
 author: andredm7
@@ -14,13 +14,16 @@ ms.assetid: 5336dac0-a2cc-4cd4-8511-67e4f95bd700
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: b21fcbf10659e072d8eb73703dfdd6695ac9a9b0
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 21875001129da8f5ca01869fa69960f18ae28c56
 
 
 ---
 
 # <a name="create-a-device-compliance-policy-in-microsoft-intune"></a>Microsoft Intune에서 장치 규정 준수 정책 만들기
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 이 항목에서는 호환되는 것으로 간주하기 위해 따라야 하는 규정 준수 정책을 만드는 데 사용할 수 있는 단계를 간략히 설명합니다.
 
 ##  <a name="step-1-add-a-new-policy"></a>1단계: 새 정책 추가
@@ -28,7 +31,7 @@ ms.openlocfilehash: b21fcbf10659e072d8eb73703dfdd6695ac9a9b0
 
   ![Intune 관리 콘솔의 페이지 맨 위에 있는 메뉴에서 추가 옵션을 보여주는 규정 준수 정책 페이지의 스크린 샷](./media/intune-sa-3a-add-compliance-policy.png)
 
-##  <a name="step-2-configure-settings"></a>2단계: 설정 구성
+##  <a name="step-2--configure-settings"></a>2단계: 설정 구성
 **정책 만들기** 페이지에서 필요한 설정을 사용합니다.
   -   암호 및 암호화와 같은 시스템 보안 설정
   -   Windows 장치 상태 증명 서비스에서 장치를 무단 해제 또는 정상으로 보고하는지 여부와 같은 장치 상태 설정

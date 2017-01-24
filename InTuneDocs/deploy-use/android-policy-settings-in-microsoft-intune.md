@@ -1,12 +1,12 @@
 ---
 
-title: "Android 및 Samsung KNOX Standard 정책 설정 | Microsoft Intune"
+title: "Android 및 Samsung KNOX Standard 정책 설정 | Microsoft 문서"
 description: "Intune으로 관리하는 Android 장치에서 설정 및 기능을 제어하는 정책을 만듭니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/02/2016
+ms.date: 12/14/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,15 @@ ms.assetid: 71cc39cf-e726-40fd-8d08-78776e099a4b
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 08ec9963bf00d81f080c0cf4f26e23a3104763ea
+ms.sourcegitcommit: a90e5bc6ed9c4c7447f6ed673f9b75db99257c04
+ms.openlocfilehash: 3f7236989ec2d444601aba4a594175a289e2fc77
 
 
 ---
 
 # <a name="android-and-samsung-knox-standard-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 Android 및 Samsung KNOX Standard 정책 설정
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Intune은 Android 장치에서 구성할 수 있는 기본 제공 일반 설정의 범위를 제공합니다. 또한, Intune에서 사용할 수 없는 사용자 지정 설정을 만들기 위해 OMA-URI(Open Mobile Alliance Uniform Resource Identifier) 값을 지정할 수 있습니다.
 
@@ -144,6 +146,8 @@ Intune **Android 일반 구성 정책**을 사용하여 다음 설정을 구성�
 |**편집**|선택한 앱의 이름, 게시자 및 URL을 편집할 수 있습니다.|
 |**삭제**|목록에서 선택한 앱을 삭제합니다.|
 
+규격 및 비규격 앱 설정이 포함된 정책을 사용자 그룹에 배포해야 합니다.
+
 ### <a name="kiosk-mode-settings"></a>키오스크 모드 설정
 다음과 같이 **Samsung KNOX Standard 장치** 설정을 지정합니다.
 
@@ -156,7 +160,7 @@ Intune **Android 일반 구성 정책**을 사용하여 다음 설정을 구성�
 ### <a name="reference-information-for-compliant-and-noncompliant-apps"></a>규격 및 비규격 앱에 대한 참조 정보
 
 #### <a name="monitor-compliant-and-noncompliant-apps"></a>규격 및 비규격 앱 모니터링
- **비규격 앱 보고서** 를 사용하여 허용 및 차단된 앱의 규정 준수 여부를 확인할 수 있습니다.
+**비규격 앱 보고서** 를 사용하여 허용 및 차단된 앱의 규정 준수 여부를 확인할 수 있습니다.
 
 ###### <a name="to-run-the-noncompliant-apps-report"></a>비규격 앱 보고서를 실행하려면
 
@@ -177,9 +181,7 @@ Intune **Android 일반 구성 정책**을 사용하여 다음 설정을 구성�
 Microsoft Intune **Android 사용자 지정 구성 정책**을 사용하여 Android 장치에서 기능을 제어하는 데 사용할 수 있는 OMA-URI 설정을 배포합니다. 이는 많은 모바일 장치 제조업체가 장치 기능을 제어하는 데 사용하는 표준 설정입니다.
 
 이 기능은 Intune 정책을 사용하여 구성할 수 없는 Android 설정을 배포할 수 있도록 하기 위한 것입니다.
-
-> [!NOTE]
-> 현재 Android 사용자 지정 정책은 미리 공유한 키를 포함하고 있는 Android 장치에 대 한 Wi-Fi 설정의 구성만 지원합니다.
+Intune은 현재 제한된 수의 Android 사용자 지정 정책을 지원합니다. 이 항목의 예제를 참조하여 구성할 수 있는 정책이 무엇인지 알아보세요.
 
 ### <a name="general-settings"></a>일반 설정
 
@@ -209,6 +211,6 @@ Microsoft Intune **Android 사용자 지정 구성 정책**을 사용하여 Andr
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

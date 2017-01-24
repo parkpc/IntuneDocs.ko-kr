@@ -1,5 +1,5 @@
 ---
-title: "KNOX에 대해 허용되거나 차단된 앱 | Microsoft Intune"
+title: "KNOX에 대해 허용되거나 차단된 앱 | Microsoft 문서"
 description: "KNOX에 대해 허용되거나 차단되는 앱 목록을 만들 수 있도록 프로필을 사용자 지정합니다."
 keywords: 
 author: robstackmsft
@@ -14,13 +14,15 @@ ms.assetid: bbc8e0df-7bf3-494e-8bc4-dac59a98ab41
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 9fa2de1d7e36f53415e28a7c963232eecb9bc5ca
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: be3cfc0120caf6e702139b829fc6ee1fa9bf9a1e
 
 
 
 ---
 # <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices"></a>사용자 지정 정책을 사용하여 Samsung KNOX Standard 장치에 대해 앱을 허용하거나 차단
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 이 항목의 절차를 사용하여 다음 중 하나를 만들 수 있는 Microsoft Intune 사용자 지정 정책을 만듭니다.
 
@@ -60,7 +62,7 @@ ms.openlocfilehash: 9fa2de1d7e36f53415e28a7c963232eecb9bc5ca
 
 ## <a name="deploy-the-policy"></a>정책 배포
 
-1.   **정책** 작업 영역에서 배포할 정책을 선택하고 **배포 관리**를 클릭합니다.
+1.  **정책** 작업 영역에서 배포할 정책을 선택하고 **배포 관리**를 클릭합니다.
 
 2.  **배포 관리** 대화 상자에서 정책을 배포하려는 그룹을 하나 이상 선택하고 **추가** &gt; **확인**을 클릭합니다.
 
@@ -72,6 +74,6 @@ ms.openlocfilehash: 9fa2de1d7e36f53415e28a7c963232eecb9bc5ca
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

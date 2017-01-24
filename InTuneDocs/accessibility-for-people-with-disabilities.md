@@ -1,12 +1,12 @@
 ---
-title: "장애가 있는 사용자를 위한 내게 필요한 옵션 | Microsoft Intune"
+title: "장애가 있는 사용자를 위한 접근성 | Microsoft 문서"
 description: "Microsoft 제품에 대한 내게 필요한 옵션 정보를 살펴보세요."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/05/2016
-ms.topic: article
+ms.date: 12/30/2016
+ms.topic: reference
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
@@ -14,8 +14,8 @@ ms.assetid: 3a503548-434c-410a-a419-7eadd7e7fb99
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b99c90bfafd65e87e258e1e0ac01691e83581659
-ms.openlocfilehash: d33c84316669b08e3c9fa592fba03b84123856c2
+ms.sourcegitcommit: 6276d6dfe06cf6f8e17d05a6b13f7530faac3fed
+ms.openlocfilehash: 06b3463d135fbdee5af89b6b596be63b9fa82551
 
 
 ---
@@ -30,6 +30,6 @@ Microsoft는 모든 사용자가 보다 편리하게 사용할 수 있는 제품
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Dec16_HO5-->
 
 

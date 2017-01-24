@@ -1,5 +1,5 @@
 ---
-title: "장치 암호화 | Microsoft Intune"
+title: "장치 암호화 | Microsoft 문서"
 description: "Android 장치를 암호화하는 방법을 설명합니다."
 keywords: 
 author: barlanmsft
@@ -11,11 +11,13 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
+searchScope:
+- Company Portal
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 81c0c29e1b874a7f5c7faa1c1216dbaa99ec4543
-ms.openlocfilehash: b8214506ae4609cb5316c66b854fbd572fbac94f
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 54439c96b75efd60e2068207eb1602e669504831
 
 
 ---
@@ -61,6 +63,6 @@ ms.openlocfilehash: b8214506ae4609cb5316c66b854fbd572fbac94f
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

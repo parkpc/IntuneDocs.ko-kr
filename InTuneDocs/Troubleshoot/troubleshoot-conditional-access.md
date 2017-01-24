@@ -1,5 +1,5 @@
 ---
-title: "조건부 액세스 문제 해결 | Microsoft Intune"
+title: "조건부 액세스 문제 해결 | Microsoft 문서"
 description: "사용자가 Intune 조건부 액세스를 통해 리소스에 액세스하지 못할 때 수행할 작업입니다."
 keywords: 
 author: andredm7
@@ -14,13 +14,15 @@ ms.assetid: 433fc32c-ca9c-4bad-9616-852c72faf996
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 001bacbfc6a61a1c6b8f75c8e7ca55e311a1fa71
-ms.openlocfilehash: 7d52b3bb05a00b0da5e0845380f8431044b1c121
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: d4b935ba28edc1b41afb46b0aa7d0ee586de2a1c
 
 
 ---
 
 # <a name="troubleshoot-conditional-access"></a>조건부 액세스 문제 해결
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 일반적으로 사용자는 메일 또는 SharePoint에 액세스하려고 하고 등록하라는 메시지가 표시됩니다. 그런 후에는 회사 포털로 연결됩니다.
 

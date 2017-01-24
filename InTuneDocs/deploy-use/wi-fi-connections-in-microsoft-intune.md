@@ -1,5 +1,5 @@
 ---
-title: "Wi-Fi 연결 | Microsoft Intune"
+title: "Wi-Fi 연결 | Microsoft 문서"
 description: "Wi-Fi 프로필을 통해 사용자의 Wi-Fi 네트워크 연결을 지원하는 방법을 설명합니다."
 keywords: 
 author: robstackmsft
@@ -14,13 +14,15 @@ ms.assetid: 0b1b86ed-2e80-474d-8437-17dd4bc07b55
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: df3f5bd6f44b9de8c4f24a82c7f4e000f08aac5a
-ms.openlocfilehash: c90ede1f10ca8f01e01cf2ac4aed7afb8641f02f
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 985b3d14091f1adff15ae08dd95800640363d2f2
 
 
 ---
 
 # <a name="configure-devices-to-connect-to-your-corporate-wi-fi-networks"></a>회사 Wi-Fi 네트워크에 연결하도록 장치 구성
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune Wi-Fi 프로필을 사용하여 무선 네트워크 설정을 조직의 사용자와 장치에 배포합니다. Wi-Fi 프로필을 배포하면 사용자가 Wi-Fi를 직접 구성하지 않고도 회사 Wi-Fi에 액세스할 수 있습니다.
 
@@ -138,7 +140,7 @@ Windows에서는 **netsh wlan** 유틸리티를 사용하여 기존 Wi-Fi 프로
 
 1.  **정책** 작업 영역에서 배포할 정책을 선택한 다음 **배포 관리**를 선택합니다.
 
-2.   **배포 관리** 대화 상자에서
+2.  **배포 관리** 대화 상자에서
 
     -   **정책을 배포하려면**: 정책을 배포하려는 그룹을 하나 이상 선택합니다. **추가** &gt; **확인**을 선택합니다.
 
@@ -158,7 +160,7 @@ Windows에서는 **netsh wlan** 유틸리티를 사용하여 기존 Wi-Fi 프로
 |**EAP 종류**|보안 무선 연결을 인증하는 데 사용되는 EAP(확장할 수 있는 인증 프로토콜) 유형을 선택합니다.<br /><br />-   **EAP-TLS**<br />-   **PEAP**<br />-   **EAP-TTLS**|**WPA-엔터프라이즈/WPA2-엔터프라이즈** 보안 유형을 선택한 경우|
 |**서버 유효성 검사를 위한 루트 인증서 선택**|**선택**을 선택한 다음 연결을 인증하는 데 사용되는 신뢰할 수 있는 루트 인증서 프로필을 선택합니다. 신뢰할 수 있는 루트 인증서 프로필을 만드는 방법에 대한 자세한 내용은 [인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|**EAP 유형**을 선택한 경우|
 |**인증 방법**|연결에 사용되는 인증 방법을 선택합니다.<br /><br />-   **인증서** - 클라이언트 인증서를 지정하려는 경우<br />-   **사용자 이름 및 암호** - 다른 인증 방법을 지정하려는 경우|-   **EAP 종류**가 **PEAP** 또는 **EAP-TTLS**인 경우|
-|**인증을 위해 EAP 이외의 방법 선택(내부 ID)**|연결을 인증할 방법을 선택합니다.<br /><br />-   **없음**<br />-   **암호화되지 않은 암호(PAP)**<br />-   **CHAP(Challenge Handshake 인증 프로토콜)**<br />-   **MS-CHAP(Microsoft CHAP)**<br />-   **MS-CHAP v2(Microsoft CHAP 버전 2)**<br /><br />사용 가능한 옵션은 선택한 EAP 유형에 따라 달라집니다.| **인증 방법** 이 **사용자 이름 및 암호**인 경우|
+|**인증을 위해 EAP 이외의 방법 선택(내부 ID)**|연결을 인증할 방법을 선택합니다.<br /><br />-   **없음**<br />-   **암호화되지 않은 암호(PAP)**<br />-   **CHAP(Challenge Handshake 인증 프로토콜)**<br />-   **MS-CHAP(Microsoft CHAP)**<br />-   **MS-CHAP v2(Microsoft CHAP 버전 2)**<br /><br />사용 가능한 옵션은 선택한 EAP 유형에 따라 달라집니다.|**인증 방법** 이 **사용자 이름 및 암호**인 경우|
 |**ID 개인 정보 사용(외부 ID)**|EAP ID 요청에 대한 응답으로 전송되는 텍스트를 지정합니다. 이 텍스트에는 원하는 값을 사용할 수 있습니다. 인증하는 동안 이 익명 ID가 처음에 전송됩니다. 그런 다음 실제 ID가 보안 터널에서 전송 됩니다.|**EAP 유형**이 **PEAP** 또는 **EAP-TTLS**인 경우|
 |**클라이언트 인증을 위해 클라이언트 인증서 선택(ID 인증서)**|**선택**을 선택한 다음 연결을 인증하는 데 사용되는 SCEP 인증서 프로필을 선택합니다. SCEP 인증서 프로필을 만드는 방법에 대한 자세한 내용은 [인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|보안 유형이 **WPA-엔터프라이즈/WPA2-엔터프라이즈**이며 임의의 **EAP 유형**을 선택한 경우|
 
@@ -181,6 +183,6 @@ Windows에서는 **netsh wlan** 유틸리티를 사용하여 기존 Wi-Fi 프로
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 

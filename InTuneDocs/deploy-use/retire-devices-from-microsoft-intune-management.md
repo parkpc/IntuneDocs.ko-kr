@@ -1,11 +1,11 @@
 ---
-title: "장치 사용 중지 | Microsoft Intune"
+title: "장치 사용 중지 | Microsoft 문서"
 description: "Intune은 정책 및 회사 포털을 제거하여 Intune 관리에서 장치를 제거할 수 있도록 선택적 초기화 및 전체 초기화를 모두 지원합니다."
 keywords: 
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 12/30/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,21 @@ ms.assetid: 3dbec400-5d8a-47be-b892-7745811d9de2
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8f3a8e42688bf830e3050cf387ccb15a1af811fa
-ms.openlocfilehash: e7f861adc757b4037c5d0ef97c361a57948386bf
+ms.sourcegitcommit: 464e6d73765a75aaefb3eca95281bf54b4cc7a2d
+ms.openlocfilehash: 2bb4eb56bea4f640fa304c03b0f86b78625fe6a7
 
 
 ---
 
 # <a name="retire-devices-from-intune-management"></a>Intune 관리에서 장치 사용 중지
 
-장치가 회사 소유 또는 개인 소유인지 관계없이 결과적으로 관리되는 장치는 Intune 관리에서 제거되어야 합니다. 다양한 이유로 장치를 사용 중지해야 할 수 있습니다.
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+장치가 회사 소유 또는 개인 소유인지 관계없이 결과적으로 관리되는 장치는 Intune 관리에서 제거되어야 합니다. 
+
+장치가 일정 기간 동안 Intune 서비스에 연결하지 않은 경우에도 장치는 사용자 개입 없이 Intune에서 제거되지 않습니다. 
+
+다양한 이유로 장치를 사용 중지해야 할 수 있습니다.
 
 -   사용자가 계획된 방법으로 퇴사(“관리된” 떠남)
 -   갑작스러운 퇴사(해고, 사퇴 등).
@@ -70,6 +76,6 @@ Intune 클라이언트 소프트웨어로 관리되는 컴퓨터는 Intune 관�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO5-->
 
 

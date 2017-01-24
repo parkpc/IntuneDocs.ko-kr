@@ -1,11 +1,11 @@
 ---
-title: "MAM 정책이 있는 iOS 앱 | Microsoft Intune"
+title: "MAM 정책이 있는 iOS 앱 | Microsoft 문서"
 description: "이 항목에서는 모바일 앱 관리 정책을 통해 iOS 앱이 관리될 때 예상되는 결과를 설명합니다."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 10/18/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,21 +14,26 @@ ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
 ms.reviewer: andcerat
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 3aa6728036ff66ea489176063af2d136bef4c7cc
+ms.sourcegitcommit: b068da7685792757825a4bc0d555e28ee0168cb1
+ms.openlocfilehash: f5a26d3d5ed060571892d91637dc12cae08f1a69
 
 
 ---
 
 # <a name="what-to-expect-when-your-ios-app-is-managed-by-mam-policies"></a>iOS 앱이 MAM 정책으로 관리될 때 예상되는 상황
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
  이 항목에서는 MAM(모바일 액세스 관리) 정책이 있는 앱의 사용자 환경에 대해 설명합니다. MAM 정책은 사용자가 회사 계정을 사용하여 앱에 액세스하거나 회사의 OneDrive 비즈니스 위치에 저장된 파일에 액세스하는 경우처럼 앱이 업무용으로 사용될 때만 적용됩니다.
 
 ##  <a name="access-apps"></a>앱 액세스
 
-장치가 **Intune에 등록되지 않은** 경우 사용자가 앱을 처음 사용할 때 앱을 다시 시작하라는 메시지가 표시됩니다.  MAM 정책을 앱에 적용할 수 있도록 앱을 다시 시작해야 합니다. 아래의 Skype 앱 스크린샷에 이러한 다시 시작 요청이 나와 있습니다.
+장치가 **Intune에 등록되지 않은** 경우 사용자가 앱을 처음 사용할 때 앱을 다시 시작하라는 메시지가 표시됩니다.  MAM 정책을 앱에 적용할 수 있도록 앱을 다시 시작해야 합니다. 
+
+<!--- The following screenshot from the Skype app illustrates this restart request: --->
 
 
-![PIN 프롬프트를 보여 주는 iOS 장치의 스크린샷](../media/appmanagement/iOS_AppPINPrompt.png)
+<!---  ![Screenshot of the iOS device showing PIN prompt](../media/appmanagement/iOS_AppPINPrompt.png) --->
 
 **Intune에서 관리를 위해 등록**된 장치의 경우 사용자에게 앱이 현재 관리되고 있다는 메시지가 표시됩니다.
 
@@ -68,6 +73,6 @@ iOS 장치를 사용하는 경우 해당 장치에 두 번째 회사 계정을 �
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

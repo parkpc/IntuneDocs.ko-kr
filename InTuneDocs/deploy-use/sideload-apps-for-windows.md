@@ -1,5 +1,5 @@
 ---
-title: "Windows 및 Windows Phone용 앱을 테스트용으로 로드 | Microsoft Intune"
+title: "Windows 및 Windows Phone용 앱을 테스트용으로 로드 | Microsoft 문서"
 description: "Intune을 사용하여 LOB(기간 업무) 앱을 배포할 수 있도록 앱에 서명하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -11,12 +11,14 @@ ms.service:
 ms.technology: 
 ms.assetid: e44f1756-52e1-4ed5-bf7d-0e80363a8674
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 938e3a1914f379d115bf24ebd7d990f6e1d319a9
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 2e8220f850e3b38a24aa4c48bcc3a59088251c24
 
 
 ---
 # <a name="sign-line-of-business-apps-so-they-can-be-deployed-to-windows-devices-with-intune"></a>Intune으로 Windows 장치에 기간 업무 앱을 배포할 수 있도록 앱에 서명
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Intune 관리자는 회사 포털 앱을 비롯한 LOB(기간 업무) 앱을 Windows 및 Windows 10 Mobile 장치에 배포할 수 있습니다. Windows 10 및 Windows 10 Mobile 장치에 .appx 또는 .xap 앱을 배포하거나 Windows 8.1 또는 Windows Phone 8.1 장치에 LOB 앱을 배포하려면 **Symantec Enterprise 모바일 코드 서명 인증서**를 얻어야 합니다. 해당 Windows 장치에서 이러한 앱용으로 Symantec 인증서만 신뢰할 수 있습니다. Windows 10 앱 및 "유니버설" 앱에는 사용자 고유의 인증 기관을 사용할 수 있습니다. 이 인증서는 다음을 위해 필요합니다.
 
@@ -46,7 +48,7 @@ Intune 관리자는 회사 포털 앱을 비롯한 LOB(기간 업무) 앱을 Win
 
     ![서명 인증서 내보내기](./media/wit-walk-cert2.gif)
 
-     **인증서 내보내기 마법사**페이지에서 **예, 개인 키를 내보냅니다.** 를 클릭하고 **다음**을 클릭합니다. **개인 정보 교환 –PKCS #12(.PFX)** 를 선택하고 **가능하면 인증 경로에 있는 인증서 모두 포함**을 선택합니다. 마법사를 완료합니다. 자세한 내용은 [개인 키와 함께 인증서 내보내기](http://go.microsoft.com/fwlink/?LinkID=203031)를 참조하세요.
+    **인증서 내보내기 마법사**페이지에서 **예, 개인 키를 내보냅니다.** 를 클릭하고 **다음**을 클릭합니다. **개인 정보 교환 –PKCS #12(.PFX)** 를 선택하고 **가능하면 인증 경로에 있는 인증서 모두 포함**을 선택합니다. 마법사를 완료합니다. 자세한 내용은 [개인 키와 함께 인증서 내보내기](http://go.microsoft.com/fwlink/?LinkID=203031)를 참조하세요.
 
 6.  **앱을 Intune에 업로드**<br>
     서명한 앱 파일 및 코드 서명 인증서를 업로드하여 최종 사용자가 앱을 사용할 수 있도록 합니다.

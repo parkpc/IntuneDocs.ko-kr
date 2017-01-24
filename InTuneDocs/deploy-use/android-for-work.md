@@ -1,5 +1,5 @@
 ---
-title: "Android for Work 정보 | Microsoft Intune"
+title: "Android for Work 정보 | Microsoft 문서"
 description: "Intune에서는 사용자가 업무용 Android 장치를 사용할 때 추가 관리 기능과 개인 정보를 제공하기 위해 Android for Work을 관리합니다."
 keywords: 
 author: nathbarn
@@ -11,13 +11,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: aa0002d9-f5a0-466e-98ac-3970cb77e3a2
 translationtype: Human Translation
-ms.sourcegitcommit: 83914246bde673b188ca3f7d9cf50b4d0de2edd4
-ms.openlocfilehash: 127db326fc96625c719b8136964bae014a904b3d
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: e9a99868e7bd4c3aa45de4d221f28c1d2f3efb74
 
 
 ---
 
 # <a name="manage-android-for-work-devices-with-intune"></a>Intune에서 Android for Work 장치 관리
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Android for Work은 일련의 Android 장치 기능 및 서비스입니다. 이러한 기능과 서비스는 사용자가 업무용 Android 장치를 사용할 때 추가 관리 기능과 개인 정보를 제공합니다. Intune을 통해 앱과 회사 리소스를 Android for Work 장치에 배포하여 회사 및 개인 정보가 구분되도록 할 수 있습니다. 성공적으로 배포된 경우 앱과 앱이 액세스하는 데이터는 장치의 Android for Work 환경 내에서만 유지됩니다.
 
@@ -87,6 +89,6 @@ Intune에서 장치가 사용 중지되고 회사 프로필이 삭제될 경우 
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

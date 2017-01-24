@@ -1,5 +1,5 @@
 ---
-title: "Windows 10 정책 설정 | Microsoft Intune"
+title: "Windows 10 정책 설정 | Microsoft 문서"
 description: "이 항목에 나열된 정책 설정을 사용하면 등록된 Windows 10 Desktop 및 Windows 10 Mobile 장치의 기본 제공 및 사용자 지정 설정을 구성하는 데 도움이 됩니다."
 keywords: 
 author: robstackmsft
@@ -14,13 +14,15 @@ ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 8c970a4d1362def67e17da656b5e12e5bab2667b
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 5a1a861096bdfae461b6ad05e424f770796279a2
 
 
 ---
 
 # <a name="intune-policy-settings-for-windows-10-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 장치용 Intune 정책 설정
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 Windows 10 장치 관리에 사용할 수 있는 Intune 정책 설정을 파악하는 데 도움이 되는 정보를 제공합니다. 등록된 Windows 10 Desktop 및 Windows 10 Mobile 장치의 기본 제공 설정과 사용자 지정 설정을 구성하려면 이 항목의 내용과 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)에 나와 있는 절차를 함께 확인하세요. [Intune PC 클라이언트 소프트웨어](/intune/get-started/windows-pc-management-capabilities-in-microsoft-intune)를 실행 중인 PC에서는 이러한 정책을 사용할 수 없습니다.
 
@@ -298,7 +300,7 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여 등록�
 |**클라이언트 UI 액세스 허용**|Windows Defender 사용자 인터페이스를 사용자에게 숨길지 여부를 제어합니다.<br>이 설정이 변경되면 다음 번 사용자 PC를 다시 시작할 때 적용됩니다.|
 |**매일 빠른 검색 예약**|매일 발생하는 빠른 검색을 사용자가 선택한 시간으로 예약하도록 허용합니다.|
 |**시스템 검색 예약**|정기적으로 발생하는 전체 또는 빠른 시스템 검색을 사용자가 선택한 날짜와 시간으로 예약하도록 허용합니다.|
-|**검색하는 동안 CPU 사용 제한**|검색에 사용하도록 허용하는 CPU 양을 제한하도록 허용합니다(**1**에서 **100**까지).|
+|**검색하는 동안 CPU 사용 제한**|검사에 사용할 수 있는 CPU의 양을 **1**에서 **100** 사이로 제한할 수 있습니다.|
 |**보관 파일 검색**|Defender가 Zip 또는 Cab 파일로 보관된 파일을 검색하도록 허용합니다.|
 |**메일 메시지 검색**|Defender가 전자 메일 메시지가 장치에 도착하면 검색하도록 허용합니다.|
 |**이동식 드라이브 검색**|Defender가 USB 스틱 같은 이동식 드라이브를 검색하도록 허용합니다.|

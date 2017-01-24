@@ -1,5 +1,5 @@
 ---
-title: "비즈니스용 Windows 스토어 앱 관리 | Microsoft Intune"
+title: "비즈니스용 Windows 스토어 앱 관리 | Microsoft 문서"
 description: "Intune 콘솔에서 볼륨 구매 앱을 관리 및 배포하려는 경우 Microsoft Intune을 비즈니스용 Windows 스토어에 연결"
 keywords: 
 author: robstackmsft
@@ -14,13 +14,16 @@ ms.assetid: 8e38d47d-0c5e-40ce-b379-29d3657f5c28
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 37044da4c7a58749c7b3423b1872b07d1673603d
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 1e0cb157182415e25cd5829e244e47b2bd5b539b
 
 
 ---
 
 # <a name="manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune"></a>Microsoft Intune을 사용하여 비즈니스용 Windows 스토어에서 구입한 앱 관리
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 [비즈니스용 Windows 스토어](https://www.microsoft.com/business-store)는 개별적으로 또는 대량으로 조직에 대한 앱을 찾고 구입할 수 있는 위치를 제공합니다. 저장소를 Microsoft Intune에 연결하여 Intune 콘솔에서 대용량 구입 앱을 관리할 수 있습니다. 예를 들면 다음과 같습니다.
 * Intune을 사용하여 저장소에서 구입한 앱 목록을 동기화할 수 있습니다.
 * 동기화되는 앱은 Intune 관리 콘솔에 나타나고 다른 앱처럼 배포할 수 있습니다.
@@ -80,6 +83,6 @@ Intune 콘솔에서 동기화를 사용하기 전에 관리 도구로 Intune을 
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

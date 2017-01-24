@@ -1,5 +1,5 @@
 ---
-title: "최신 인증이 없는 앱 차단 | Microsoft Intune"
+title: "최신 인증이 없는 앱 차단 | Microsoft 문서"
 description: 
 keywords: 
 author: andredm7
@@ -14,13 +14,16 @@ ms.assetid: 098b652c-01e0-45d1-a731-620b0d3dc7c1
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 5c95cd8510faa437a33ac25d6602a2bcc57c05d5
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 0e1fa2341c0f74492a0ef80d0054922052bbe561
 
 
 ---
 
 # <a name="block-apps-that-do-not-use-modern-authentication-adal"></a>최신 인증(ADAL)을 사용하지 않는 앱 차단
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 MAM 정책(MAM CA)을 사용하는 앱 조건부 액세스의 경우 OAuth2가 구현된 [최신 인증](https://support.office.com/en-US/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a)을 사용하는 응용 프로그램에서 사용됩니다. 최신 Office 모바일 및 데스크톱 응용 프로그램은 최신 인증을 사용하지만 기본 인증 및 양식 기반 인증과 같은 다른 인증 방법을 사용하는 타사 앱이나 이전 Office 앱도 있습니다.
 
 이러한 앱에 대한 액세스를 차단하려면 다음을 권장합니다.

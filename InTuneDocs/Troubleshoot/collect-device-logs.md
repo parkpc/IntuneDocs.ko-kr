@@ -1,11 +1,11 @@
 ---
-title: "장치 로그 수집 | Microsoft Intune"
+title: "장치 로그 수집 | Microsoft 문서"
 description: "관리되는 장치에서 로그를 수집하는 방법을 알아봅니다."
 keywords: 
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 11/07/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,15 @@ ms.assetid: d97fb610-9d88-40e5-bb06-447eec533630
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0c05b4e16f7b0a87215a0cd20f7d559cd8497296
-ms.openlocfilehash: 0f175b1eb2d80a68c8b7864d21f5a9e585de458b
+ms.sourcegitcommit: b068da7685792757825a4bc0d555e28ee0168cb1
+ms.openlocfilehash: 7009cf7626008124e4c8a71198e21ae6def93581
 
 
 ---
 
 # <a name="device-logs"></a>장치 로그
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 문제 해결 과정의 일환으로 사용자 장치에서 로그를 수집할 수 있습니다. 이러한 로그를 수집하기 위한 지침은 여기에 설명되어 있습니다. 일반적으로 장치에 액세스하여 이러한 로그를 가져오거나, 사용자에게 로그를 수집하여 보내달라고 요청할 수 있습니다.
 
@@ -57,6 +59,6 @@ Windows 회사 포털의 경우 로그는 *%localappdata%\Packages\Microsoft.Com
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO3-->
 
 

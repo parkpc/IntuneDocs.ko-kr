@@ -1,28 +1,30 @@
 ---
-title: "Android 장치에서 관리되는 앱 사용 | Microsoft Intune"
+title: "Android 장치에서 관리되는 앱 사용 | Microsoft 문서"
 description: 
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/28/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ed10a62c-b026-4ad3-ac41-641933522df2
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: maxles
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0d32aa982cf9d45da36f71be5554f31375521e35
-ms.openlocfilehash: 9f98871b6054e0277cb2c041776fc05e8a6aefe3
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: ca37b4bf393d03e61bed93fa8e7d83efe3922412
 
 
 ---
 
 
-# Android 장치에서 관리되는 앱 사용
+# <a name="use-managed-apps-on-your-android-device"></a>Android 장치에서 관리되는 앱 사용
 
 관리되는 앱은 해당 앱에서 액세스할 수 있는 회사 데이터를 보호하기 위해 IT 관리자가 설정할 수 있는 앱입니다. Android 장치의 관리되는 앱에서 회사 데이터에 액세스할 경우 앱이 예상과 약간 다르게 작동하는 것을 확인할 수 있습니다. 예를 들어 보호된 회사 데이터를 복사하고 붙여넣을 수 없거나, 해당 데이터를 특정 위치에 저장할 수 없습니다.
 
@@ -32,14 +34,14 @@ ms.openlocfilehash: 9f98871b6054e0277cb2c041776fc05e8a6aefe3
 
 ![open-managed-apps-message](./media/managed-apps-message.png)
 
-## 관리되는 앱을 가져오려면 어떻게 하나요?
+## <a name="how-do-i-get-managed-apps"></a>관리되는 앱을 가져오려면 어떻게 하나요?
 관리되는 앱을 가져오는 방법에는 몇 가지가 있습니다.
 
 -   장치가 Microsoft Intune에 등록된 경우 회사 포털 앱 또는 회사 포털 웹 사이트에서 앱을 설치하거나, IT 관리자가 장치에 설치할 수 있습니다. 등록에 대해 자세히 알아보려면 [Intune에서 장치 등록](enroll-your-device-in-Intune-android.md)을 참조하세요.
 
 -   Play 스토어에서 앱을 설치하고 Intune으로 관리되는 회사 사용자 계정을 사용하여 로그인합니다.
 
-## IT 관리자가 앱에서 무엇을 관리할 수 있나요?
+## <a name="what-can-my-it-admin-manage-in-an-app"></a>IT 관리자가 앱에서 무엇을 관리할 수 있나요?
 IT 관리자가 앱에서 관리할 수 있고, 장치에서 회사 데이터 조작에 영향을 줄 수 있는 옵션의 몇 가지 예는 다음과 같습니다.
 
 -   특정 웹사이트에 대 한 액세스
@@ -72,10 +74,10 @@ IT 부서에서 관리할 수 있는 몇 가지 일반적인 앱은 다음과 �
 
 -   Microsoft Word, Excel 및 PowerPoint
 
-장치에서 관리되는 앱에 대한 자세한 내용은 IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+장치에서 관리되는 앱에 대한 자세한 내용은 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

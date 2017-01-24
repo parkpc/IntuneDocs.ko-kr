@@ -1,5 +1,5 @@
 ---
-title: "MAM CA가 있는 앱 사용 | Microsoft Intune"
+title: "MAM CA가 있는 앱 사용 | Microsoft 문서"
 description: "O365 서비스에 액세스할 수 있는 앱을 제어하도록 MAM CA에서 지원하는 방식을 이해합니다."
 keywords: 
 author: andredm7
@@ -14,12 +14,15 @@ ms.assetid: 71dcf9bc-bfd1-4e06-b7ad-14b33a2288d0
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 317d101c34854fdf4913adcf53bdef614599deb7
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 22746475bf50f8e4775c81e6833428c7f2ef9eba
 
 
 ---
 # <a name="what-to-expect-when-using-an-app-with-mam-ca"></a>MAM CA가 적용된 앱을 사용할 경우 어떤가요?
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 MAM CA는 장치에 존재해야 하는 Broker 앱을 통해 승인된 응용 프로그램 ID를 확인합니다.
 *  **iOS**에서는 **Azure Authenticator 앱**이 Broker 앱입니다.
 * **Android**에서는 **Intune 회사 포털 앱**이 Broker 앱입니다. 

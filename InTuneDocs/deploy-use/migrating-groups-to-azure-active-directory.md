@@ -1,120 +1,103 @@
 ---
-title: "Azure Active Directory 그룹으로 마이그레이션 | Microsoft Intune"
+title: "Azure Active Directory 그룹으로 마이그레이션 | Microsoft 문서"
 description: "Intune에서 Azure AD로 그룹을 마이그레이션하는 방법"
 keywords: 
-author: Mtillman
-ms.author: mtillman
+author: robstackmsft
+ms.author: robstack
 manager: angerobe
-ms.date: 10/10/2016
+ms.date: 12/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 03b69afa-3548-4033-9039-191528f3fd99
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: e14bbadc4293b7b963197b35704a7170e4fc29e8
+ms.sourcegitcommit: dd4c8f1d810338912b4926be8419ccf9a52ae722
+ms.openlocfilehash: 8d3900da91c89700b97d8774f893d82d3a74ea83
 
 
 ---
 
-## <a name="the-new-admin-experience-for-groups"></a>새로운 그룹 관리 환경
-    
-Enterprise Mobility + Security 전체에서 한 번의 그룹화 및 대상 지정 경험에 대한 사용자 피드백을 반영하여 Microsoft는 Intune 그룹을 Azure Active Directory 기반 보안 그룹으로 변환하고 있습니다. 이 변환 작업을 통해 Intune과 Azure AD(Azure Active Directory) 전체의 그룹 관리가 통합될 예정입니다. 이 새로운 환경은 서비스 간에 그룹을 복제할 필요를 없애주고 PowerShell 및 Graph를 사용하여 확장성을 제공합니다. 
+# <a name="a-new-way-of-using-groups-in-intune"></a>Intune에서 그룹을 사용하는 새로운 방법
 
-### <a name="how-and-when-will-i-migrate-to-the-new-groups-experience"></a>언제, 어떻게 새 그룹 환경으로 마이그레이션하나요?
-현재 고객은 충분한 시간을 두고 마이그레이션됩니다. 2016 년 12 월 이후에 시작될 예정입니다. 해당 그룹은 마이그레이션되기 전에 공지를 받게 됩니다. 마이그레이션 관련 질문이 있는 경우에는 마이그레이션 팀([intunegrps@microsoft.com](mailto:intunegrps@microsoft.com))에 문의하세요.
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-### <a name="what-new-features-will-be-available-to-me"></a>어떤 새로운 기능을 사용할 수 있나요?
-새로 도입되는 기능은 다음과 같습니다. 
- 
--    모든 배포 형식에 대해 Intune에서 Azure AD 보안 그룹이 지원됩니다. 
--    Azure AD 보안 그룹에서 사용자와 함께 장치 그룹화를 지원합니다.
--    Azure AD 보안 그룹에서 Intune 장치 특성을 사용하여 동적 그룹을 지원합니다. 예를 들어 iOS와 같은 플랫폼을 기반으로 하는 장치를 동적으로 그룹화할 수 있게 됩니다. 이러한 방식으로 새 iOS 장치가 조직에 등록되면 iOS 동적 장치 그룹에 자동으로 추가됩니다.
--    Azure AD와 Intune 전체에서 그룹 관리에 대한 관리자 환경이 공유됩니다.
-- *Intune 서비스 관리자 역할*이 Azure AD에 추가되어 Intune 서비스 관리자가 Azure AD에서 그룹 관리 작업을 수행할 수 있습니다.
+Microsoft는 피드백을 경청하여 Microsoft Intune에서 그룹을 사용하는 방법을 약간 변경하고 있습니다.
+현재 Intune 그룹의 모든 고객을 Azure Active Directory 보안 그룹으로 마이그레이션하고 있습니다.
 
- 
-### <a name="what-intune-functionality-wont-be-available"></a>사용할 수 없게 되는 Intune 기능은 무엇인가요?
-그룹 경험이 개선되긴 하지만 마이그레이션 후 제공되지 않는 일부 Intune 기능이 있습니다.
+이점은 이제 모든 Enterprise Mobility + Security 및 Azure AD 앱에 걸쳐 동일한 그룹 환경을 사용할 수 있다는 것입니다. 또한 PowerShell 및 Graph API를 사용하여 새 기능을 확장하고 사용자 지정할 수 있습니다.
 
-#### <a name="group-management-functionality"></a>그룹 관리 기능
+Azure AD 보안 그룹은 사용자와 장치 모두에 대한 모든 유형의 Intune 배포를 지원합니다. 또한 제공하는 특성에 따라 자동으로 업데이트되는 Azure AD 동적 그룹을 사용할 수 있습니다. 예를 들어 iOS 9를 실행하는 장치 그룹을 만들 수 있습니다. iOS 9를 실행하는 새 장치가 등록될 때마다 동적 그룹에 자동으로 추가됩니다.
 
--   새 그룹을 만들 때 구성원 또는 그룹을 제외할 수 없습니다. 그러나 Azure AD 동적 그룹을 사용하면 고급 규칙을 만들 수 있는 특성으로 조건에 따라 멤버를 제외할 수 있습니다. 예를 들어 보안 그룹에 Sales 부서에 속한 모든 사람을 포함하되 직함에 "Assistant"라는 단어가 포함된 사람은 제외하는 고급 규칙을 만들 수 있습니다. 이 고급 규칙은 `(user.department -eq "Sales") -and -not (user.jobTitle -contains "Assistant")`입니다. 자세한 내용은 [특성을 사용하여 고급 규칙 만들기](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/)를 참조하세요.
--   **그룹화되지 않은 사용자** 및 **그룹화되지 않은 장치** 그룹에 대한 지원이 제공되지 않습니다. 이 그룹들은 마이그레이션되지 않습니다.
+## <a name="when-is-this-happening"></a>언제 마이그레이션이 진행되나요?
 
-#### <a name="group-dependent-functionality"></a>그룹 종속 기능
+마이그레이션 프로세스는 지금 현재 진행 중입니다. 사용자는 마이그레이션되기 전에 알림을 받게 됩니다.
+이미 마이그레이션된 경우 클래식 Intune 콘솔에서 그룹에 액세스하려고 할 때 다음과 유사한 메시지가 표시됩니다.
 
--   서비스 관리자 역할에 **그룹 관리** 권한이 없게 됩니다.
--   Exchange ActiveSync 장치를 그룹화할 수 없습니다.  **모든 EAS 관리 장치** 그룹이 그룹에서 보고서 보기로 변환됩니다.
--  보고서에서 그룹으로 피벗하는 기능을 사용할 수 없습니다.
--  사용자 지정 그룹을 알림 규칙의 대상으로 지정하는 기능을 사용할 수 없습니다.
+![그룹이 마이그레이션되었음을 표시하는 메시지](http://i.imgur.com/72KRaXj.png)
 
-### <a name="what-should-i-do-to-prepare-for-this-change"></a>이러한 변경에 대해 준비하려면 어떻게 해야 하나요?
- 이러한 전환을 용이하게 할 수 있도록 다음 작업을 권장합니다.
- 
-- 마이그레이션 전에 원치 않거나 필요하지 않은 Intune 그룹 정리.
-- 그룹에서 제외 사용을 평가하고 제외를 사용할 필요가 없도록 또는 고급 규칙을 사용하여 같은 목적을 달성할 수 있도록 그룹을 다시 설계하는 방법을 고려.
--  Azure AD에서 그룹을 만들 수 있는 권한이 없는 관리자인 경우에는 Azure AD 관리자에게 **Intune 서비스 관리자** Azure AD 역할에 권한을 추가할 것을 요청.
+## <a name="what-wont-be-available"></a>어떤 항목을 사용할 수 없게 되나요?
 
-또한 다음과 같이 Azure AD 보안 그룹에 대해 자세히 알아볼 수 있습니다.
--  개요는 [Azure Active Directory 그룹을 사용하여 리소스에 대한 액세스 관리](https://azure.microsoft.com/en-us/documentation/articles/active-directory-manage-groups/)를 참조하세요.
--  Azure AD 그룹을 만들고 관리하는 방법에 대한 자세한 내용은 [Azure Active Directory에서 그룹 관리](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-manage-groups/)를 참조하세요.
--  보안 그룹에 대한 고급 규칙과 관련한 자세한 내용은 [특성을 사용하여 고급 규칙 만들기](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/)를 참조하세요.
+Intune 그룹의 몇 가지 기존 기능을 Azure AD에서 사용할 수 없습니다.
 
-> [!NOTE]
-Azure AD 보안 그룹 설명서에서는 장치에 대한 그룹을 만드는 내용은 설명하지 않는다는 점을 알 수 있을 것입니다. 해당 기능은 Intune 그룹 마이그레이션이 시작되기 전에 Azure AD에서 사용하도록 설정됩니다.
+- **그룹화되지 않은 사용자** 및 **그룹화되지 않은 장치** Intune 그룹을 마이그레이션할 수 없습니다.
+- 현재 Intune 콘솔에 존재하는 그룹에서 **특정 구성원을 제외하는** 옵션이 Azure 포털에 존재하지 않습니다. 그러나 이 동작을 복제하는 고급 규칙과 함께 Azure AD 보안 그룹을 사용할 수 있습니다. 예를 들어 Sales 부서에 속한 모든 사람을 보안 그룹에 포함하되 직함에 "Assistant"라는 단어가 포함된 사람은 제외하는 고급 규칙을 만들 수 있습니다. 이 고급 규칙은 `(user.department -eq "Sales") -and -not (user.jobTitle -contains "Assistant")`입니다.
+- Intune 콘솔에 기본 제공되는 **모든 Exchange ActiveSync 관리 장치** 그룹은 Azure AD로 마이그레이션되지 않습니다. 그러나 Azure 포털에서 EAS 관리 장치에 대한 정보에 여전히 액세스할 수 있습니다.
+- 클래식 Intune 콘솔의 그룹으로 보고서를 필터링할 수 없습니다.
+<!--- - Custom group targeting of notification rules will not be available. ROB I took this out as I couldn't replicate the behavior. --->
 
-## <a name="migration-details"></a>마이그레이션 세부 정보
-다음은 Intune 그룹을 Azure AD 보안 그룹으로 마이그레이션하는 방법에 대한 세부 정보입니다.
+## <a name="how-to-get-ready"></a>준비하는 방법
 
-### <a name="migration-of-existing-groups"></a>기존 그룹 마이그레이션
+- 다음 Azure AD 항목을 읽고 Azure AD 보안 그룹 및 보안 그룹의 작동 방법을 자세히 알아봅니다.
+    -  [Azure Active Directory 그룹을 사용하여 리소스에 대한 액세스 관리](https://azure.microsoft.com/en-us/documentation/articles/active-directory-manage-groups/)
+    -  [Azure Active Directory에서 그룹 관리](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-manage-groups/)
+    -  [특성을 사용하여 고급 규칙 만들기](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/)
+- 마이그레이션하기 전에 더 이상 사용하지 못하는 모든 Intune 그룹을 제거하는 것이 좋습니다.
+-  그룹을 만드는 데 필요한 모든 관리자가 **Intune 서비스 관리자** Azure AD 역할에 추가되어 있는지 확인합니다. Azure AD 서비스 관리자 역할에는 **관리 그룹** 권한이 없습니다.
+-  **특정 구성원을 제외하는** 옵션과 함께 그룹을 사용하는 경우 제외가 필요하지 않도록 이러한 그룹을 다시 설계할 수 있는지 여부나 Azure AD 쿼리의 고급 규칙을 사용하여 동일한 결과를 얻을 수 있는지 여부를 고려합니다.
 
-| 마이그레이션되는 Intune 그룹...|...마이그레이션된 Azure AD 보안 그룹|
+
+## <a name="what-happens-to-intune-groups"></a>Intune 그룹에 미치는 영향
+
+| Intune의 그룹|Azure AD의 그룹|
 |-----------------------------------------------------------------------|-------------------------------------------------------------|
-|Intune 정책에서 대상으로 하는 정적 사용자 그룹|동일한 사용자를 포함하는 정적 Azure AD 보안 그룹|
-|Intune 정책에서 대상으로 하는 동적 사용자 그룹|Azure AD 보안 그룹 계층 구조가 있는 정적 Azure AD 보안 그룹|
-|Intune 정책에서 대상으로 하는 정적 장치 그룹|장치가 포함된 정적 Azure AD 보안 그룹|
-|Intune 정책에서 대상으로 하는 장치 특성이 있는 동적 장치 그룹|장치 특성이 있는 동적 Azure AD 보안 그룹|
-|포함 조건이 있는 그룹|그룹 + 포함 조건이 Intune에서 허용한 정적/동적 멤버를 포함하는 별도의 정적 Azure AD 보안 그룹|
-|제외 조건이 있는 그룹|이러한 그룹은 마이그레이션되지 않습니다. Azure AD에서 정적 그룹을 만드는 동안 제외 조건은 지원되지 않습니다. 제외 조건은 Azure AD에서 동적 그룹을 만들 때 사용할 수 있습니다.|
-|Intune 정책에서 사용하는 기본 그룹 **모든 사용자**, **그룹화되지 않은 사용자**, **모든 장치**, **그룹화되지 않은 장치**, **모든 컴퓨터**, **모든 모바일 장치**, **모든 MDM 관리 장치** 및 **모든 EAS 관리 장치**  |Azure AD 보안 그룹. 사용되지 않는 기본 그룹은 고객이 필요한 경우 동적 그룹을 사용하여 만들어야 합니다.|
+|정적 사용자 그룹|정적 Azure AD 보안 그룹|
+|동적 사용자 그룹|Azure AD 보안 그룹 계층 구조가 있는 정적 Azure AD 보안 그룹|
+|정적 장치 그룹|정적 Azure AD 보안 그룹|
+|동적 장치 그룹|동적 Azure AD 보안 그룹|
+|포함 조건이 있는 그룹|Intune의 포함 조건에서 모든 정적 또는 동적 구성원을 포함하는 정적 Azure AD 보안 그룹|
+|제외 조건이 있는 그룹|마이그레이션되지 않음|
+|기본 제공 그룹인 **모든 사용자**, **그룹화되지 않은 사용자**, **모든 장치**, **그룹화되지 않은 장치**, **모든 컴퓨터**, **모든 모바일 장치**, **모든 MDM 관리 장치** 및 **모든 EAS 관리 장치**|Azure AD 보안 그룹.|
 
-### <a name="changes-in-hierarchical-views"></a>계층 구조 보기의 변경 내용
-Intune의 Intune 부모-자식 관계에서 그룹의 계층 구조 보기가 상위 집합-하위 집합 관계였지만, Azure AD에서는 그렇지 않습니다. 자식은 부모에게 없는 멤버를 가질 수 있습니다. 또한 그룹은 Azure AD에서 본질적으로 순환될 수 있습니다. 즉, 부모 그룹이 자식 그룹의 자식일 수 있습니다.
+Intune에서 모든 그룹은 부모 그룹을 포함해야 합니다. 그룹에는 해당 부모 그룹의 구성원만 포함될 수 있습니다. Azure AD에서 자식 그룹은 부모 그룹에 없는 구성원을 포함할 수 있습니다.
 
-### <a name="attribute-conversion-during-migration"></a>마이그레이션 중 특성 변환
 특성은 그룹을 정의하는 데 사용될 수 있는 장치 속성입니다. 이 표에는 이러한 조건이 Azure AD 보안 그룹으로 마이그레이션되는 방법이 설명되어 있습니다.
 
-| Intune 특성|Azure AD 특성|
+| Intune의 특성|Azure AD의 특성|
 |-----------------------------------------------------------------------|-------------------------------------------------------------|
-|장치 그룹에 대한 OU(조직 구성 단위) 특성|동적 그룹에 대한 OU 특성. 특성 값은 보기 위한 테넌트 구성 요소 중 하나로 추가하여 각 테넌트와 관련된 관리자에게 제공됩니다.|
-|장치 그룹에 대한 도메인 이름 특성|동적 그룹에 대한 도메인 이름 특성. 특성 값은 보기 위한 테넌트 구성 요소 중 하나로 추가하여 각 테넌트와 관련된 관리자에게 제공됩니다.|
+|장치 그룹에 대한 OU(조직 구성 단위) 특성|동적 그룹에 대한 OU 특성.|
+|장치 그룹에 대한 도메인 이름 특성|동적 그룹에 대한 도메인 이름 특성.|
 |사용자 그룹에 대한 특성으로서의 보안 그룹|그룹은 Azure AD 동적 쿼리에서 특성일 수 없습니다. 동적 그룹은 사용자 관련 특성 또는 장치별 특성만 포함할 수 있습니다.|
 |사용자 그룹에 대한 관리자 특성|동적 그룹의 *관리자* 특성에 대한 고급 규칙|
 |부모 사용자 그룹의 모든 사용자|해당 그룹을 멤버로 포함하는 정적 그룹|
 |부모 장치 그룹의 모든 모바일 장치|해당 그룹을 멤버로 포함하는 정적 그룹|
-|Microsoft Intune 직접 관리를 통해 관리하는 모든 모바일 장치|동적 그룹에 대한 값으로 'MDM'을 포함하는 관리 유형 특성|
-|EAS에서 관리하는 모든 모바일 장치|Azure AD에서 EAS 장치는 그룹화할 수 없습니다. **모든 EAS 관리 장치** 그룹이 그룹에서 보고서 보기로 변환됩니다.|
+|Intune에서 관리하는 모든 모바일 장치|동적 그룹에 대한 값으로 'MDM'을 포함하는 관리 유형 특성|
 |정적 그룹 내의 중첩 그룹 |정적 그룹 내의 중첩 그룹|
 |동적 그룹 내의 중첩 그룹|중첩 수준이 하나인 동적 그룹|
 
+## <a name="what-happens-to-policies-and-apps-youve-already-deployed"></a>이미 배포된 정책 및 앱에 미치는 영향
 
-## <a name="migration-of-policies"></a>정책 마이그레이션
-그룹 마이그레이션이 수행되는 동안 Intune 콘솔에서 정책 관리를 계속합니다. Intune 콘솔에는 그룹을 관리하는 Azure 관리 콘솔에 연결되는 링크가 있습니다. 정책은 이전 Intune 그룹과 병렬 구조를 이루는 마이그레이션된 Azure AD 보안 그룹에 계속 배포됩니다.
+정책 및 앱은 이전과 마찬가지로 그룹에 계속 배포됩니다. 그러나 이제 클래식 Intune 콘솔 대신 Azure Portal에서 이러한 그룹을 관리할 수 있습니다.
 
-모든 Intune 기능이 Azure 관리 포털로 마이그레이션되면(대략 2017년 1분기) Azure 관리 포털에서 정책 및 그룹을 관리하게 됩니다.
 
+## <a name="how-to-get-more-information"></a>자세한 정보를 얻는 방법
+
+[intunegrps@microsoft.com ](mailto:intunegrps@microsoft.com)의 마이그레이션 팀에 문의하세요.  
      
-### <a name="see-also"></a>참고 항목
-[Azure Active Directory 그룹을 사용하여 리소스에 대한 액세스 관리](https://azure.microsoft.com/en-us/documentation/articles/active-directory-manage-groups/)
-
-[Azure Active Directory에서 그룹 관리](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-manage-groups/)
-
-[특성을 사용하여 고급 규칙 만들기](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/)
 
 
 
-<!--HONumber=Nov16_HO1-->
+
+<!--HONumber=Dec16_HO4-->
 
 

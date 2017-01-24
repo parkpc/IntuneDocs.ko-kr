@@ -1,5 +1,5 @@
 ---
-title: "리소스 액세스에 대한 인증서 프로필 | Microsoft Intune"
+title: "리소스 액세스에 대한 인증서 프로필 | Microsoft 문서"
 description: "각 사용자 장치에 설치된 인증서를 사용하여 VPN, Wi-Fi 및 전자 메일 액세스를 보호합니다."
 keywords: 
 author: robstackmsft
@@ -14,13 +14,16 @@ ms.assetid: 8cbb8499-611d-4217-a7b4-e9b864785dd0
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 35d08100b4332cc63667a401143c17972225a908
-ms.openlocfilehash: b64260fd44e5c3fd0fb80e0dab4d75bd5c4eb305
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 9cf53cb240ba14317fbb680ad4f4c40c8320506d
 
 
 ---
 
 # <a name="secure-resource-access-with-certificate-profiles-in-microsoft-intune"></a>Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 VPN, Wi-Fi 또는 전자 메일 프로필을 통해 사용자에게 회사 리소스 액세스 권한을 부여하는 경우 각 사용자 장치에 설치된 인증서를 사용하여 액세스 보안을 유지할 수 있습니다. 이 서비스의 작동 방식은 다음과 같습니다.
 
 1. [SCEP용 인증서 인프라 구성](configure-certificate-infrastructure-for-scep.md) 및 [PFX용 인증서 인프라 구성](configure-certificate-infrastructure-for-pfx.md)에 설명된 대로 올바른 인증서 인프라가 준비되어 있는지 확인합니다.
@@ -44,7 +47,7 @@ VPN, Wi-Fi 또는 전자 메일 프로필을 통해 사용자에게 회사 리�
 
   다음 플랫폼을 실행하는 장치에 대해 **SCEP 인증서 프로필**을 사용합니다.
     -   Mac OS X 10.9 이상
-    -   Windows Phone 8.1 
+    -   Windows Phone 8.1
 
 각 플랫폼에 대해 별도 프로필을 만들어야 합니다. 프로필을 만들 때 이미 만들어 놓은 **신뢰할 수 있는 루트 인증서 프로필**과 연결합니다.
 
@@ -61,6 +64,6 @@ VPN, Wi-Fi 또는 전자 메일 프로필을 통해 사용자에게 회사 리�
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 

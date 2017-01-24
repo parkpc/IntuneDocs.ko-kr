@@ -1,5 +1,5 @@
 ---
-title: "준수 정책 배포 및 모니터링 | Microsoft Intune"
+title: "준수 정책 배포 및 모니터링 | Microsoft 문서"
 description: "이 항목의 단계별 지침을 사용하여 장치 준수 정책을 배포 및 모니터링합니다."
 keywords: 
 author: andredm7
@@ -14,13 +14,16 @@ ms.assetid: d8f246d4-0d86-4c8b-a1bf-9977985506d8
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: c5c7ed25942a2f7c570bd81aa1e6c08483c0417b
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 59c107b9431d4e2925b13d09ab3e01a25c8351fa
 
 
 ---
 
 # <a name="deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune"></a>Microsoft Intune에서 장치 규정 준수 정책 배포 및 모니터링
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 ## <a name="deploy-a-compliance-policy"></a>준수 정책 배포
 [만든](create-a-device-compliance-policy-in-microsoft-intune.md) 준수 정책을 조직에서 하나 이상의 사용자에게 배포합니다. 준수 정책을 사용자에게 배포하면 사용자 장치의 준수가 확인됩니다.
 

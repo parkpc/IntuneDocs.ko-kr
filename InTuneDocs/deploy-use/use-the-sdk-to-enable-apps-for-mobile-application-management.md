@@ -1,26 +1,29 @@
 ---
-title: "SDK를 사용하여 MAM에 앱을 사용하도록 설정 | Microsoft Intune"
+title: "SDK를 사용하여 MAM에 앱을 사용하도록 설정 | Microsoft 문서"
 description: "이 항목에서는 Intune 앱 SDK를 사용해야 하는 이유를 간략하게 설명합니다."
 keywords: 
 author: mtillman
 ms.author: mtillman
 manager: angrobe
-ms.date: 08/24/2016
+ms.date: 12/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 26b00081-7c05-4969-ace1-0585e44d5cd2
-ms.reviewer: jeffgilb
+ms.reviewer: oydang
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ee7e0491c0635c45cbc0377a5de01d5eba851132
-ms.openlocfilehash: 0a0a9271d32531e4727c7aa20f456f7d3ba53d13
+ms.sourcegitcommit: f46f13e9dbf03fa2b3e2ec7339cad927ea0b38e0
+ms.openlocfilehash: 7b35b461cf261f837007ebd532ea8dfc1cabfc17
 
 
 ---
 
 # <a name="use-the-sdk-to-enable-apps-for-mobile-application-management"></a>SDK를 사용하여 모바일 응용 프로그램 관리에 앱을 사용하도록 설정
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune 앱 SDK를 사용하여 Intune에서 iOS 또는 Android 앱의 특정 기능을 사용할 수 있도록 합니다. 앱을 사용하도록 설정한 후 앱에 정책을 배포할 수 있습니다. 이러한 정책은 해당 기능을 사용하여 회사 데이터를 보호합니다. SDK를 사용하여 구현할 수 있는 보호 유형의 예는 다음과 같습니다.
 
 -   사용자가 회사 문서를 클라우드에 복사할 수 없도록 차단합니다.
@@ -40,6 +43,6 @@ SDK 개요는 [개요](/intune/develop/intune-app-sdk) 페이지를 참조하세
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

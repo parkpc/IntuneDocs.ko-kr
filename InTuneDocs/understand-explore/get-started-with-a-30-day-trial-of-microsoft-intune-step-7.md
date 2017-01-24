@@ -1,5 +1,5 @@
 ---
-title: "유료 구독으로 전환 | Microsoft Intune"
+title: "유료 구독으로 전환 | Microsoft 문서"
 description: "Intune 무료 30일 평가판을 설치한 후 구독 및 라이선스에 대해 알아야 할 사항"
 keywords: 
 author: lindavr
@@ -13,13 +13,16 @@ ms.technology:
 ms.assetid: cad9ae15-26e5-418d-8ce5-c2dafc2071f0
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: a2b037e0c066422d53d71ffd401deb3e48a2ba7f
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: f121ff01a3eee20473637626128239c4d883e826
 
 
 ---
 
 # <a name="ways-to-subscribe-to-microsoft-intune"></a>Microsoft Intune에 가입하는 방법
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 적합한 요금제로 Microsoft Intune용 라이선스를 150개 이상 구매하면 Microsoft 전문가가 참여하는 서비스인 "FastTrack 센터 혜택"을 사용하여 Intune 사용 준비가 완료된 환경을 구현할 수 있습니다. [EMS(Enterprise Mobility + Security)에 대한 FastTrack 센터 혜택](https://docs.microsoft.com/enterprise-mobility/Solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems)을 참조하세요.
 
 다음과 같은 방법으로 Intune 무료 평가판을 유료 구독으로 변환할 수 있습니다.
@@ -34,6 +37,6 @@ ms.openlocfilehash: a2b037e0c066422d53d71ffd401deb3e48a2ba7f
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

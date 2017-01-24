@@ -1,24 +1,26 @@
 ---
-title: "Intune 용어 | Microsoft Intune"
+title: "Intune 용어 | Microsoft 문서"
 description: "Microsoft Intune의 몇 가지 용어에 대해 알아보기"
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
 ms.date: 11/17/2016
-ms.topic: article
+ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
 translationtype: Human Translation
-ms.sourcegitcommit: 0c6c9d44e6a328b4bfb3827f54ac35b83e3c7aac
-ms.openlocfilehash: e3aec8468dab4796cdc9b4afd783219f8aeef00b
+ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
+ms.openlocfilehash: b9a51cb2123bc9b6e73c0bf72ef5393252e8d37d
 
 
 ---
 
 # <a name="microsoft-intune-glossary"></a>Microsoft Intune 용어
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 ## <a name="a"></a>A
 
@@ -32,7 +34,7 @@ ms.openlocfilehash: e3aec8468dab4796cdc9b4afd783219f8aeef00b
 ## <a name="b"></a>B
 |||
 |-|-|
-|BYOD|[Bring Your Own Device](/intune/get-started/choose-how-to-enroll-devices1)를 의미합니다. 사용자가 자신의 장치에 Intune 회사 포털 앱을 설치한 후 메일, 회사 앱, 회사 데이터 및 지원과 같은 회사 리소스에 액세스할 수 있습니다.| 
+|BYOD|[Bring Your Own Device](/intune/get-started/choose-how-to-enroll-devices1)를 의미합니다. 사용자가 자신의 장치에 Intune 회사 포털 앱을 설치한 후 메일, 회사 앱, 회사 데이터 및 지원과 같은 회사 리소스에 액세스할 수 있습니다.|
 
 ## <a name="c"></a>C
 |||
@@ -95,7 +97,7 @@ ms.openlocfilehash: e3aec8468dab4796cdc9b4afd783219f8aeef00b
 |-|-|
 |Managed Browser|Microsoft Intune을 사용하여 조직에서 배포할 수 있는 [웹 브라우징 응용 프로그램](/intune/deploy-use/manage-internet-access-using-managed-browser-policies)입니다. 관리 브라우저 정책은 관리 브라우저의 사용자가 방문할 수 있는 웹 사이트를 제한하는 허용 목록 또는 차단 목록을 구성합니다.|
 |모바일 응용 프로그램 관리|[MAM(모바일 응용 프로그램 관리)](/intune/deploy-use/overview-of-app-lifecycle-in-microsoft-intune)을 사용하여 사용자를 위해 모바일 앱을 게시, 푸시, 구성, 보호, 모니터링 및 업데이트할 수 있습니다.
-|모바일 장치 관리|[MDM(모바일 장치 관리)](/intune/deploy-use/overview-of-device-lifecycle-in-microsoft-intune)을 사용하여 해당 장치에서 프로비전, 구성, 모니터링 및 필요한 작업을 수행할 수 있도록 Intune에 장치를 등록할 수 있습니다. 
+|모바일 장치 관리|[MDM(모바일 장치 관리)](/intune/deploy-use/overview-of-device-lifecycle-in-microsoft-intune)을 사용하여 해당 장치에서 프로비전, 구성, 모니터링 및 필요한 작업을 수행할 수 있도록 Intune에 장치를 등록할 수 있습니다.
 |MDM 기관|[MDM 기관](/intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune)은 일련의 장치를 관리할 권한을 가진 관리 서비스를 정의합니다. MDM 기관에 대한 옵션에는 Intune 자체 및 Intune을 사용하는 Configuration Manager가 포함됩니다.|
 |모바일 앱 프로비전 정책|배포하는 iOS 앱에 대한 [프로비전 프로필](/intune/deploy-use/ios-mobile-app-provisioning-profiles)이 만료되지 않게 하는 iOS 정책입니다.|
 |모바일 앱 구성 정책|호환되는 iOS 앱이 실행될 때 [호환되는 iOS 앱에 설정을 제공](/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)하는 데 사용되는 iOS 정책입니다(예: 회사 이름 또는 서버 주소).|
@@ -146,9 +148,6 @@ ms.openlocfilehash: e3aec8468dab4796cdc9b4afd783219f8aeef00b
 
 
 
-
-
-
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Dec16_HO3-->
 
 

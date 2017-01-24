@@ -1,5 +1,5 @@
 ---
-title: "클라이언트 설정 문제 해결 | Microsoft Intune"
+title: "클라이언트 설정 문제 해결 | Microsoft 문서"
 description: "일반적인 클라이언트 설정 문제를 해결합니다."
 keywords: 
 author: staciebarker
@@ -14,20 +14,23 @@ ms.assetid: e46d292b-1d16-46db-a87f-d53eefa4d22a
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 889a13bd50943b9cdf0f40d50b6f8ce263dde56d
-ms.openlocfilehash: e37b5da81150f89fce1ee3d57bd84de0ff7fb76f
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 2d5c7d4800e1140efb502c47151ea8cc87548acd
 
 
 ---
 
 # <a name="troubleshoot-client-setup-in-microsoft-intune"></a>Microsoft Intune에서 클라이언트 설정 문제 해결
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 다음 정보를 사용하여 일반적인 클라이언트 설정 문제를 해결할 수 있습니다. 이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
 
 ## <a name="client-installation-fails"></a>클라이언트 설치 실패
 
 -   [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에 컴퓨터에 대한 클라이언트 소프트웨어 배포 경고가 표시되지 않으면, 컴퓨터의 인터넷 연결 및 프록시 구성을 확인하고 컴퓨터가 서비스 URL([https://manage.microsoft.com](https://manage.microsoft.com/))과 통신할 수 있는지 확인합니다. 그런 다음 클라이언트 소프트웨어 설치를 다시 시도해 보세요.
 
--    **관리** 작업 영역에서 알림 규칙을 구성하면 클라이언트 소프트웨어 배포 실패 경고가 발생할 때 선택한 수신자에게 전자 메일을 보낼 수 있습니다. 자세한 내용은 [Microsoft Intune 경고 알림 받기](/intune/deploy-use/get-notified-by-alerts)항목을 참조하세요.
+-   **관리** 작업 영역에서 알림 규칙을 구성하면 클라이언트 소프트웨어 배포 실패 경고가 발생할 때 선택한 수신자에게 전자 메일을 보낼 수 있습니다. 자세한 내용은 [Microsoft Intune 경고 알림 받기](/intune/deploy-use/get-notified-by-alerts)항목을 참조하세요.
 
 -   클라이언트 소프트웨어 배포에 실패하면 Intune에 **클라이언트 소프트웨어 배포 실패**라는 중요한 경고가 표시됩니다. 이 경고는 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)의 **시스템 개요** 페이지 및 **경고** 페이지에 표시됩니다. 경고를 확인하는 방법:
 
@@ -70,7 +73,7 @@ PC에 중요 소프트웨어 업데이트가 없는 것이 원인일 수 있습�
 **해결 방법:** [Microsoft Intune에서 소프트웨어 업데이트를 사용하여 Windows PC를 최신 상태로 유지](/intune/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune) 항목의 설명에 따라, 소프트웨어 업데이트 정책에 중요 업데이트 설치가 활성화되어 있는지 확인합니다.
 
 
-## <a name="microsoft-intune-policyrelated-errors-in-policyplatformlog"></a>policyplatform.log의 Microsoft Intune 정책 관련 오류
+## <a name="microsoft-intune-policy-related-errors-in-policyplatformlog"></a>policyplatform.log의 Microsoft Intune 정책 관련 오류
 비 MDM Windows 장치의 경우 policyplatform.log 파일의 정책 오류는 장치의 Windows UAC(사용자 계정 컨트롤)에서 기본값이 아닌 설정을 사용한 결과일 수 있습니다. 기본값이 아닌 일부 UAC 설정은 Microsoft Intune 클라이언트 설치와 정책 실행에 영향을 줄 수 있습니다.
 
 ### <a name="to-resolve-uac-issues"></a>UAC 문제를 해결하려면
@@ -127,6 +130,6 @@ PC에 중요 소프트웨어 업데이트가 없는 것이 원인일 수 있습�
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

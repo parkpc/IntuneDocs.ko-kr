@@ -1,5 +1,5 @@
 ---
-title: "정책 및 앱 배포 | Microsoft Intune"
+title: "정책 및 앱 배포 | Microsoft 문서"
 description: "정책 설정을 사용하도록 설정하고 장치가 관리에 등록되면 즉시 적용되는 앱을 배포할 수 있습니다."
 keywords: 
 author: nathbarn
@@ -14,13 +14,16 @@ ms.assetid: e0d8e98f-7dd8-4cbf-887c-a9af63ffe970
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 56f7d1578ba6b193c6547686675e0fd4fde5f378
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 9f75020a6d8a3e2aeb278fb99f54516253abf3dd
 
 
 ---
 
 # <a name="create-policies-and-publish-apps"></a>정책 만들기 및 앱 게시
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune에 앱을 등록하기 전에 이러한 장치가 관리에 등록되는 즉시 배포되는 앱 및 정책 설정을 사용하도록 설정할 수 있습니다. Intune 정책은 모바일 장치에 대한 보안 설정을 제어하고, 컴퓨터에 대한 Windows 방화벽 및 Endpoint Protection 설정을 유지하고, 응용 프로그램을 배포하는 데 사용할 수 있는 설정을 제공합니다. 장치에 Intune에 등록되는 즉시 설정 및 앱을 받도록 정책을 구성하고 앱을 추가하고 이러한 앱을 배포할 수 있습니다.
 
 정책 및 앱은 플랫폼마다 다릅니다.

@@ -1,11 +1,11 @@
 ---
-title: "Windows PC 원격 지원 요청 및 제공 | Microsoft Intune"
-description: "Windows PC에 대한 원격 지원을 제공하고 PC를 원격으로 시작하기 위한 최종 사용자 및 IT 관리자 단계를 설명합니다."
+title: "Windows PC 원격 지원 요청 및 제공 | Microsoft 문서"
+description: "PC로 관리되는 Windows 데스크톱에 대한 원격 지원을 제공하고 PC를 원격으로 시작하기 위한 최종 사용자 및 IT 관리자 단계를 설명합니다."
 keywords: 
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 08/04/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,17 @@ ms.assetid: c2654491-5144-408a-a45a-644eb91ac1bb
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: ab954204fffa6ad67a4a0d0f5e2e521c795eae31
+ms.sourcegitcommit: 10dd2caa9ce1b96424f55e373e904a778390eb15
+ms.openlocfilehash: 628875c2f874c824761befd9886d7f7987c045df
 
 
 ---
 
 # <a name="request-and-provide-remote-assistance-for-windows-pcs"></a>Windows PC 원격 지원 요청 및 제공
 
-Microsoft Intune은 [TeamViewer](https://www.teamviewer.com) 소프트웨어(별매)를 사용하여 Intune 소프트웨어 클라이언트를 실행하는 사용자에게 원격 지원을 제공하도록 지원할 수 있습니다. 사용자가 Microsoft Intune Center의 도움을 요청하는 경우 이를 안내하는 알림이 표시되므로 해당 요청을 수신한 후 지원을 제공할 수 있습니다. 이 기능은 Intune에서 기존의 Windows 원격 지원 기능을 대체합니다.
+이 항목의 정보는 Intune 소프트웨어 클라이언트를 사용하여 PC를 관리하는 Windows 데스크톱에만 적용됩니다.
+
+Intune은 [TeamViewer](https://www.teamviewer.com) 소프트웨어(별매)를 사용하여 Intune 소프트웨어 클라이언트를 실행하는 사용자에게 원격 지원을 제공하도록 지원할 수 있습니다. 사용자가 Microsoft Intune Center의 도움을 요청하는 경우 이를 안내하는 알림이 표시되므로 해당 요청을 수신한 후 지원을 제공할 수 있습니다. 이 기능은 Intune에서 기존의 Windows 원격 지원 기능을 대체합니다.
 
 
 ## <a name="before-you-start"></a>시작하기 전에
@@ -30,7 +32,7 @@ Microsoft Intune은 [TeamViewer](https://www.teamviewer.com) 소프트웨어(별
 원격 지원을 설정하고 원격 지원 요청에 응답하려면 먼저, 다음과 같은 선행 조건을 충족했는지 확인합니다.
 
 - TeamViewer 웹 사이트에 로그인하기 위한 [TeamViewer 계정을 등록](https://login.teamviewer.com/LogOn#register)해야 합니다.
-- 관리하려는 Windows PC를 [Windows PC 클라이언트에서 관리](manage-windows-pcs-with-microsoft-intune.md)해야 합니다.
+- 관리하려는 Windows PC를 [Windows 소프트웨어 클라이언트에서 관리](manage-windows-pcs-with-microsoft-intune.md)해야 합니다.
 - Intune에서 지원하는 모든 Windows PC 운영 체제를 관리할 수 있어야 합니다.
 
 ## <a name="configure-the-teamviewer-connector"></a>TeamViewer 커넥터 구성
@@ -59,7 +61,7 @@ Microsoft Intune은 [TeamViewer](https://www.teamviewer.com) 소프트웨어(별
 
 <br>요청에 대해 4시간 이상 동안 답변하지 않으면 해당 요청이 제거됩니다.
 2. 요청을 수락하려면 **요청을 승인하고 원격 지원을 시작합니다.**를 선택합니다.
-3. **새 원격 지원 요청이 보류 중입니다.** 대화 상자에서 **원격 지원 요청 수락**을 선택합니다. 아직 설치되어 있지 않은 경우 TeamViewer가 컴퓨터에 필요한 모든 앱을 설치합니다.
+3. **새 원격 지원 요청이 보류 중입니다.** 대화 상자에서 **원격 지원 요청 수락**을 선택합니다. 아직 설치되어 있지 않은 경우 TeamViewer가 PC에 필요한 모든 앱을 설치합니다.
 4. 그런 다음, TeamViewer가 최종 사용자에게 PC 제어를 허용하려는지 묻는 알림을 표시합니다. 사용자가 그 요청을 수락하면 TeamViewer 창이 열리며, PC를 제어할 수 있게 됩니다.
 
 원격 지원 세션에서 작업하는 동안, 사용 가능한 모든 TeamViewer 명령을 사용하여 원격 PC를 제어할 수 있습니다. 이러한 명령의 도움말을 보려면 TeamViewer 웹 사이트에서 [원격 제어 매뉴얼](http://www.teamviewer.com/en/support/documents/)을 다운로드하세요.
@@ -71,19 +73,19 @@ Microsoft Intune은 [TeamViewer](https://www.teamviewer.com) 소프트웨어(별
 ## <a name="remotely-restart-a-windows-pc"></a>원격으로 Windows PC 다시 시작
 사용자의 문제 해결을 도와줄 때 사용자의 PC를 원격으로 다시 시작해야 하는 경우가 종종 있을 수 있습니다. Windows PC를 원격으로 다시 시작하려면 다음 단계를 사용합니다.
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **그룹** &gt; **모든 장치**(또는 다시 시작하려는 컴퓨터가 포함된 다른 그룹)를 선택합니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **그룹** &gt; **모든 장치**(또는 다시 시작하려는 PC가 포함된 다른 그룹)를 선택합니다.
 
-2.  컴퓨터를 하나 이상 선택한 후 **원격 작업** &gt; **컴퓨터 다시 시작**을 선택합니다.
+2.  PC를 하나 이상 선택한 다음 **원격 작업** &gt; **컴퓨터 다시 시작**을 선택합니다.
 
 3.  작업 상태를 확인하려면 페이지의 오른쪽 아래 모서리에 있는 **원격 작업**을 선택합니다.
 
-4.   **작업 상태** 대화 상자에서 현재 원격 작업, 작업 상태, 장치 이름 및 보고된 모든 오류를 검토할 수 있습니다.
+4.  **작업 상태** 대화 상자에서 현재 원격 작업, 작업 상태, 장치 이름 및 보고된 모든 오류를 검토할 수 있습니다.
 
 ### <a name="see-also"></a>참고 항목
 
 [Intune 소프트웨어 클라이언트를 사용하는 일반 Windows PC 관리 작업](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO3-->
 
 

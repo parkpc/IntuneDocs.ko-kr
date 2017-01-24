@@ -1,5 +1,5 @@
 ---
-title: "지원을 받는 방법 | Microsoft Intune"
+title: "지원을 받는 방법 | Microsoft 문서"
 description: "유료 및 평가판 구독 둘 다에 대해 온라인과 전화 지원이 제공됩니다."
 keywords: 
 author: staciebarker
@@ -14,13 +14,15 @@ ms.assetid: 4682b6b6-c9ef-483e-a6de-b8830cb98b63
 ms.reviewer: cacamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c97ecfbb7b8ec7d76bead6a553df402f24296307
-ms.openlocfilehash: 9e976973b6230b985a6e9ae4331f452bc43e1a9a
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 1a83bd41e4dc3aaa2e98b78b918b0cfe4c74dfe3
 
 
 ---
 
 # <a name="how-to-get-admin-support-for-microsoft-intune"></a>Microsoft Intune에 대한 관리 지원을 받는 방법
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Microsoft는 Microsoft Intune에 대한 세계적인 기술 지원, 판매 전 지원, 대금 청구 및 구독 지원을 제공합니다. 유료 및 평가판 구독 둘 다에 대해 온라인과 전화 지원이 제공됩니다. 온라인 기술 지원은 영어와 일본어로 제공됩니다. 전화 지원과 온라인 대금 청구 지원은 추가 언어로 제공됩니다.
 
@@ -114,6 +116,6 @@ Intune 관련 문제를 자체적으로 해결하려는 경우 [Microsoft Intune
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

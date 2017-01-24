@@ -1,12 +1,12 @@
 ---
-title: "데이터 암호화를 사용하여 회사 데이터 보호 | Microsoft Intune"
+title: "데이터 암호화를 사용하여 회사 데이터 보호 | Microsoft 문서"
 description: "이 가이드에서는 모바일 앱에 대한 정책에 따라 암호 및 데이터 암호화를 강제로 사용하여 데이터 손실로부터 회사를 보호하는 데 유용합니다."
 keywords: "암호화, PIN, 데이터"
 author: arob98
 ms.author: angrobe
 manager: angrobe
 ms.date: 11/22/2016
-ms.topic: article
+ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
@@ -14,13 +14,16 @@ ms.assetid: b1e84ef8-a260-4e3d-aaf1-8b3facfecafa
 ms.reviewer: pchacon
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4ee5f39ac31c2a35770b88c937f138f9c0b525b6
-ms.openlocfilehash: b907803b2170a09e076712e018987821dfb3caef
+ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
+ms.openlocfilehash: 11ed6b14bc940940e6fa22f6760420e690ac364f
 
 
 ---
 
 # <a name="quick-start-guide-protect-company-data-with-data-encryption"></a>빠른 시작 가이드: 데이터 암호화를 사용하여 회사 데이터 보호
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune은 다음을 비롯한 다양한 방법으로 Office 모바일 앱의 데이터 손실을 방지하는 데 도움을 줄 수 있습니다.
 - iOS 및 Android에서 제공하는 가장 높은 수준의 장치 암호화를 사용하여 회사 데이터 암호화
 - 개인 정보 또는 법적 요구 사항으로 인해 모바일 장치 관리 솔루션에 등록할 수 없는 iOS 및 Android 장치에서.
@@ -50,6 +53,6 @@ Microsoft Intune을 사용하면 전체 모바일 장치 관리에 iOS 또는 An
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO3-->
 
 

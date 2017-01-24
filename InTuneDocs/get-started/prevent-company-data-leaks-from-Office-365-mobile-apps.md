@@ -1,12 +1,12 @@
 ---
-title: "Office 365 모바일 앱에서 회사 데이터 누수 방지 | Microsoft Intune"
+title: "Office 365 모바일 앱에서 회사 데이터 누수 방지 | Microsoft 문서"
 description: "Intune을 사용하면 Office 365 모바일 앱 또는 다른 LOB(기간 업무) 앱의 회사 데이터 누수를 방지하는 데 도움이 되는 MAM(모바일 응용 프로그램 관리) 정책을 사용하여 조직의 데이터를 보호할 수 있습니다."
 keywords: 
 author: jeffgilb
 ms.author: jeffgilb
 manager: angrobe
 ms.date: 11/22/2016
-ms.topic: article
+ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
@@ -14,13 +14,16 @@ ms.assetid: 19be3de7-539c-49f5-8c46-5363b987fef9
 ms.reviewer: pchacon
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4ee5f39ac31c2a35770b88c937f138f9c0b525b6
-ms.openlocfilehash: bf3976b0ffbcc74f860c904f0e5829a5a02b6a3e
+ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
+ms.openlocfilehash: 0288ecd940d650304d83b7dd5803a56f69b936f7
 
 
 ---
 
 # <a name="quick-start-guide-prevent-company-data-leaks-from-office-365-mobile-apps"></a>빠른 시작 가이드: Office 365 모바일 앱에서 회사 데이터 누수 방지
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune는 Office 365 모바일 앱 또는 다른 LOB(기간 업무) 앱의 회사 데이터 누수를 방지하는 데 도움이 되는 MAM(모바일 응용 프로그램 관리) 정책을 사용하여 조직의 데이터를 보호할 수 있습니다. Intune MAM 정책은 최종 사용자가 Intune MDM(모바일 장치 관리)에 장치를 등록하지 않고도 사용할 수 있습니다. 따라서 BYOD iOS 또는 Android 모바일 장치를 Microsoft MDM 솔루션(Intune, Configuration Manager 또는 EAS)에 등록하지 않으려는 사용자가 있거나, 최종 사용자 장치를 관리하지 않고 회사 데이터를 보호하려고 하거나, 이미 Microsoft MDM이 아닌 솔루션을 사용 중인 경우에는 Intune을 사용하여 회사의 데이터 보안을 강화할 수 있습니다.   
 
 ## <a name="is-this-quick-start-guide-right-for-me"></a>이 빠른 시작 가이드는 내게 적합한가요?
@@ -45,6 +48,6 @@ Microsoft Intune는 Office 365 모바일 앱 또는 다른 LOB(기간 업무) �
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO3-->
 
 

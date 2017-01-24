@@ -1,11 +1,11 @@
 ---
-title: "iOS 정책 설정 | Microsoft Intune"
+title: "iOS 정책 설정 | Microsoft 문서"
 description: "Intune으로 관리하는 iOS 장치에서 설정 및 기능을 제어하는 정책을 만듭니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/06/2016
+ms.date: 12/27/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,15 @@ ms.assetid: ab46be6c-ab73-4c99-8492-66d1dd418293
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: dfde68e4ef889ba881ff2fa93b226f879d01cbc8
+ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
+ms.openlocfilehash: 05d47e6cf5c7b380ac981d06a3938f38b27a430b
 
 
 ---
 
 # <a name="ios-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 iOS 정책 설정
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Intune은 iOS 장치에서 구성할 수 있는 기본 제공 일반 설정의 범위를 제공합니다. 또한 Intune에서 사용할 수 없는 사용자 지정 설정을 만들려면 Apple Configurator 도구를 사용할 수 있습니다.
 
@@ -78,12 +80,12 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |----------------|-------|
 |**iCloud에 백업 허용**|사용자가 장치를 iCloud에 백업할 수 있습니다.|
 |**iCloud와 문서 동기화 허용**|iCloud 저장소 공간에 대한 문서 및 키 값 동기화를 허용합니다.|
-|**iCloud와 사진 스트림 동기화 허용**|장치의 사진을 iCloud에 동기화할 수 있습니다.|
+|**iCloud와 사진 스트림 동기화 허용**|iCloud에 대한 사진 동기화를 허용하는 장치에서 **내 사진 스트림**을 지원할 수 있으며 모든 사용자 장치에서 사용 가능합니다.|
 |**암호화된 백업 필요**|모든 장치 백업을 암호화해야 합니다.|
 |**관리되는 앱에서 데이터를 iCloud와 동기화하도록 허용**|Intune을 사용하여 관리하는 앱에서 데이터를 사용자의 iCloud 계정과 동기화하도록 허용합니다.|
 |**다른 디바이스에서 작업을 계속하도록 핸드오프 허용**|사용자가 다른 iOS에서 iOS 장치 또는 Mac OS X 장치에서 시작하는 작업을 계속할 수 있습니다.|
-|**iCloud 사진 공유 허용**|iOS 공유 사진 스트림 기능을 사용할 수 있습니다.|
-|**iCloud 사진 보관함 허용**|사용자가 iCloud에 사진을 저장할 수 있습니다. 사용하지 않도록 설정하는 경우 iCloud에 이미 저장한 모든 사진이 제거됩니다.|
+|**iCloud 사진 공유 허용**|장치에서 **iCloud 사진 공유**를 사용하지 않으려면 **아니요**로 설정합니다.|
+|**iCloud 사진 보관함 허용**|**아니요**로 설정하면 사용자가 클라우드에 사진과 비디오를 저장할 수 있는 iCloud 사진 보관함을 사용할 수 없게 됩니다.   **아니요**로 설정되면 iCloud 사진 라이브러리에서 장치로 완전히 다운로드되지 않은 모든 사진이 장치에서 제거됩니다.|
 
 ### <a name="application-settings-for-the-browser"></a>브라우저에 대한 응용 프로그램 설정
 모든 설정이 iOS 8.0 이상에 적용됩니다.
@@ -173,6 +175,8 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**편집**|선택한 앱의 이름, 게시자 및 URL을 편집합니다.|
 |**삭제**|목록에서 선택한 앱을 삭제합니다.|
 
+규격 및 비규격 앱 설정이 포함된 정책을 사용자 그룹에 배포해야 합니다.
+
 ### <a name="kiosk-mode-settings"></a>키오스크 모드 설정
 
 |설정 이름|세부 정보|
@@ -202,7 +206,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 
 ### <a name="reference-information-for-compliant-and-noncompliant-apps"></a>규격 및 비규격 앱에 대한 참조 정보
 
- **비규격 앱 보고서** 를 사용하여 허용 및 차단된 앱의 규정 준수 여부를 확인할 수 있습니다.
+**비규격 앱 보고서** 를 사용하여 허용 및 차단된 앱의 규정 준수 여부를 확인할 수 있습니다.
 
 ##### <a name="to-run-the-noncompliant-apps-report"></a>비규격 앱 보고서를 실행하려면
 
@@ -383,6 +387,6 @@ Weather,Apple,com.apple.weather
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO5-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "iOS 장치용 규정 준수 정책 설정 | Microsoft Intune"
+title: "iOS 장치용 준수 정책 설정 | Microsoft 문서"
 description: "이 항목에서는 iOS 장치에 대한 준수 정책에 설정할 수 있는 규칙 및 설정에 대해 설명합니다."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,16 @@ ms.assetid: 4a59d24f-ed58-49b1-b874-b2d4aea3ec76
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d6ff74f0b46baf384dbdedf13ad75538dd33a089
-ms.openlocfilehash: 0ee697472a7cb553d78aef9977381197149c3177
+ms.sourcegitcommit: b068da7685792757825a4bc0d555e28ee0168cb1
+ms.openlocfilehash: f09ad4f705d152b25918ca477b97cf7b1df7bfc8
 
 
 ---
 
 
 # <a name="compliance-policy-settings-for-ios-devices-in-microsoft-intune"></a>Microsoft Intune에서 iOS 장치용 규정 준수 정책 설정
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 이 항목에서 설명하는 정책 설정은 iOS 8.0 이상을 실행하는 장치에 적용됩니다.
 
@@ -82,6 +84,6 @@ ms.openlocfilehash: 0ee697472a7cb553d78aef9977381197149c3177
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

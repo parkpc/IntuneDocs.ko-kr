@@ -1,5 +1,5 @@
 ---
-title: "장치 등록 사용 | Microsoft Intune"
+title: "장치 등록 사용 | Microsoft 문서"
 description: "MDM 기관을 설정하고 iOS, Windows, Android 및 Mac 장치에 대한 등록을 사용하도록 설정합니다."
 keywords: 
 author: nathbarn
@@ -14,13 +14,16 @@ ms.assetid: 5d3215e7-0a5c-44bd-afb0-aeafce98c43f
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 031cf995da4fa46b244b65a6b1c51b6a1aa00d9f
-ms.openlocfilehash: 8c3076b26844669f9927478b5847f88f2265c6c9
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 654c5b65a9fde6742f3682b1fd5ba6c056d0d45b
 
 
 ---
 
 # <a name="enroll-mobile-devices-and-install-an-app"></a>모바일 장치 등록 및 앱 설치
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune을 사용하여 모바일 장치 관리를 설정하려면 먼저 *모바일 장치 관리 기관*을 설정하여 계정과 연결된 장치를 관리할 수 있는 서비스를 식별해야 합니다. 이 지침에서는 System Center Configuration Manager 대신 Intune 서비스를 사용한다고 가정합니다. MDM 기관이 설정되면 장치 플랫폼에 대한 관리를 사용하도록 설정하고 회사 포털 앱을 사용하여 장치를 등록할 수 있습니다.
 
 ## <a name="enable-device-enrollment"></a>장치 등록 사용
@@ -66,6 +69,6 @@ iOS, Mac 및 Android for Work 장치에 대해 등록을 사용하도록 설정�
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

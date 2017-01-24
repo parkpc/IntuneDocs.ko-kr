@@ -1,5 +1,5 @@
 ---
-title: "MAM 정책이 있는 Android 앱 | Microsoft Intune"
+title: "MAM 정책이 있는 Android 앱 | Microsoft 문서"
 description: "이 항목에서는 모바일 앱 관리 정책을 통해 앱이 관리될 때 예상되는 결과를 설명합니다."
 keywords: 
 author: NathBarn
@@ -14,13 +14,16 @@ ms.assetid: 53c8e2ad-f627-425b-9adc-39ca69dbb460
 ms.reviewer: andcerat
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 945c9f48846fc37358c44b83990feed1f3694966
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: aeacfddb3ed42938dd9443e2734222c977436430
 
 
 ---
 
 # <a name="what-to-expect-when-your-android-app-is-managed-by-mam-policies"></a>Android 앱이 MAM 정책으로 관리될 때 예상되는 상황
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 이 항목에서는 MAM(모바일 응용 프로그램 관리) 정책이 있는 앱의 사용자 환경에 대해 설명합니다. MAM 정책은 사용자가 회사 계정을 사용하여 앱에 액세스하거나 회사의 OneDrive 비즈니스 위치에 저장된 파일에 액세스하는 경우처럼 앱이 업무용으로 사용될 때만 적용됩니다.
 ##  <a name="access-apps"></a>앱 액세스
 

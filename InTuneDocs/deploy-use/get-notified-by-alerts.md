@@ -1,5 +1,5 @@
 ---
-title: "경고 알림 받기 | Microsoft Intune"
+title: "경고 알림 받기 | Microsoft 문서"
 description: "경고 기능이 Microsoft Intune에서 일어나는 소식을 사용자에게 계속 제공하는 방법을 알아봅니다."
 keywords: 
 author: arob98
@@ -14,13 +14,16 @@ ms.assetid: 396ea714-0433-4bd5-a934-8d0b477f28e4
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 27aed0126b8aac032f334c712108b23482ef70d7
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: efad781dca4a759335b67126026bf4fed127380e
 
 
 ---
 
 # <a name="get-notified-by-microsoft-intune-alerts"></a>Microsoft Intune 경고 알림 받기
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 경고는 Microsoft Intune에서 일어나는 소식을 계속 받을 수 있는 방법입니다.
 
 예를 들어 다음과 같은 일이 발생하면 경고를 받을 수 있습니다.

@@ -1,5 +1,5 @@
 ---
-title: "Intune에서 Windows 장치 등록 취소 | Microsoft Intune"
+title: "Intune에서 Windows 장치 등록 취소 | Microsoft 문서"
 description: "Intune에서 Windows 장치 등록을 취소하는 방법을 설명합니다."
 keywords: 
 author: barlanmsft
@@ -11,11 +11,13 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
+searchScope:
+- Company Portal
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: e71dece9a286ecb086197959739b0f4cb66c856d
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 7d06eabf07039b14a5d24617d94a968bc2e85f22
 
 
 ---
@@ -65,6 +67,6 @@ Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows �
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

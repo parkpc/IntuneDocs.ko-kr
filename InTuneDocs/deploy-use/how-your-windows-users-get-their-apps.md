@@ -1,5 +1,5 @@
 ---
-title: "Windows 사용자가 앱을 얻는 방법 | Microsoft Intune"
+title: "Windows 사용자가 앱을 얻는 방법 | Microsoft 문서"
 description: "사용자에게 Windows 앱을 제공하기 위한 방법"
 keywords: 
 author: barlanmsft
@@ -14,14 +14,16 @@ ms.assetid: e471fed8-19f0-4b37-aaa2-65f28a6b4794
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: e9c6add00356cbea0e86a1a5597813ba9b2811c4
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 6e295c5df6ec52d3c106fe934d05f10dbc2a3e1f
 
 
 ---
 
 
 # <a name="how-your-windows-users-get-their-apps"></a>Windows 사용자가 앱을 얻는 방법
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 이 정보를 사용하여 사용자가 Microsoft Intune을 통해 배포하는 앱을 얻는 방법과 위치를 이해합니다.
 

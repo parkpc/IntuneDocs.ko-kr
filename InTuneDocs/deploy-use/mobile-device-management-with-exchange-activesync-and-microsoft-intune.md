@@ -1,5 +1,5 @@
 ---
-title: "Exchange ActiveSync 장치 관리 | Microsoft Intune"
+title: "Exchange ActiveSync 장치 관리 | Microsoft 문서"
 description: "Exchange Connector를 사용한 EAS(Exchange ActiveSync) 관리를 통해 모바일 장치 관리"
 keywords: 
 author: staciebarker
@@ -14,13 +14,16 @@ ms.assetid: 14f5cf53-6764-4e22-a18b-fa750b3acd41
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 1b26e1298cf0b65f99219338b7ba59987e70c3ab
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 4d1fc1af29dbd42c639afe079020d35a92360eb3
 
 
 ---
 
 # <a name="exchange-activesync-mobile-device-management-with-microsoft-intune"></a>Microsoft Intune을 사용한 Exchange ActiveSync 모바일 장치 관리
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune에서 모바일 장치를 직접 관리하도록 하려면 장치가 [Intune에 등록](prerequisites-for-enrollment.md)되어 있어야 합니다. 또는 관리자가 EAS(Exchange ActiveSync) 관리를 Exchange Connector와 같이 사용하는 좀 더 제한적인 관리 솔루션을 사용하도록 설정할 수 있습니다. 장치는 Office 365를 사용하는 온-프레미스 Exchange 서버 또는 Exchange Online을 사용하여 관리할 수 있습니다. Intune은 Exchange Connector 연결 형식에 상관없이 구독당 연결을 한 번만 지원합니다.
 
 ## <a name="exchange-access-rules-for-mobile-devices"></a>모바일 장치의 Exchange 액세스 규칙 ##
@@ -47,6 +50,6 @@ Intune 콘솔을 사용하여 [EAS 정책 설정](exchange-activesync-policy-set
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

@@ -1,5 +1,5 @@
 ---
-title: "회사 리소스에 대한 액세스 허용 | Microsoft Intune"
+title: "회사 리소스에 대한 액세스 허용 | Microsoft 문서"
 description: "Wi-Fi, VPN 및 전자 메일 프로필은 함께 작동하여 사용자에게 필요한 파일 및 리소스에 쉽게 액세스할 수 있게 해줍니다."
 keywords: 
 author: robstackmsft
@@ -14,13 +14,16 @@ ms.assetid: 3dd8dd4e-e165-4d0c-97b7-b3e86ebab909
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: f91c3530599b75093f536fd85eaf21d0b4e86e50
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: bda32f27216c7b65bd02334bae2882e840e7a99d
 
 
 ---
 
 # <a name="enable-access-to-company-resources-with-microsoft-intune"></a>Microsoft Intune을 사용하여 회사 리소스에 대한 액세스 허용
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune Wi-Fi, VPN 및 전자 메일 프로필은 함께 작동하여 사용자가 어디에 있든지 상관없이 정상적인 작업 수행에 필요한 파일 및 리소스에 쉽게 액세스하게 해 줍니다. 인증서 프로필은 해당 액세스를 보호하도록 도움을 줍니다.
 
 ## <a name="wi-fi-profileswi-fi-connections-in-microsoft-intunemd-and-supported-platforms"></a>[Wi-Fi 프로필](wi-fi-connections-in-microsoft-intune.md) 및 지원되는 플랫폼
@@ -57,6 +60,6 @@ VPN(가상 사설망) 설정을 사용자에게 배포합니다. 이러한 설�
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

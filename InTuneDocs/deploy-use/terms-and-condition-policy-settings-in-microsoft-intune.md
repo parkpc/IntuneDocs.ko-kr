@@ -1,5 +1,5 @@
 ---
-title: "사용 약관 정책 설정 | Microsoft Intune"
+title: "사용 약관 정책 설정 | Microsoft 문서"
 description: "회사 포털 등록, 회사 포털의 작업 리소스 액세스 및 회사 포털 사용 시의 장치와 사용자에 대한 영향을 설명하기 위해 사용자 그룹에 Intune 사용 약관을 배포할 수 있습니다."
 keywords: 
 author: staciebarker
@@ -14,13 +14,16 @@ ms.assetid: 6edf0ac1-4f46-4543-a9e5-f484ac37e9a5
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: cba0d6d781d3050f4dd8aabd661d677ae849eff1
-ms.openlocfilehash: bc9a7b837ab4dcd402aeec572b819d56070eba82
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: a6d5f19b1d5f5bac3cd5e6d8bc445d765d703de0
 
 
 ---
 
 # <a name="terms-and-condition-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 사용 약관 정책 설정
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 사용자 그룹에 Intune 사용 약관을 배포하여 등록, 작업 리소스 액세스, 회사 포털 앱이 장치와 사용자에 미치는 영향을 설명할 수 있습니다. 사용자는 먼저 사용 약관에 동의해야 회사 포털을 사용하여 작업 등록 및 액세스를 수행할 수 있습니다.
 
 각기 다른 사용 약관을 포함하는 여러 정책을 만들어 배포할 수 있습니다. 또한 같은 버전의 사용 약관을 여러 언어로 생성한 다음 적합한 그룹에 배포할 수도 있습니다.
@@ -81,6 +84,6 @@ ms.openlocfilehash: bc9a7b837ab4dcd402aeec572b819d56070eba82
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

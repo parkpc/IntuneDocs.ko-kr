@@ -1,9 +1,10 @@
 ---
 
-title: "PC 클라이언트 소프트웨어 설치 | Microsoft Intune"
+title: "PC 클라이언트 소프트웨어 설치 | Microsoft 문서"
 description: "이 가이드를 사용하여 Microsoft Intune 클라이언트 소프트웨어에서 관리되는 Windows PC를 얻을 수 있습니다."
 keywords: 
 author: staciebarker
+ms.author: stabar
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +14,8 @@ ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 103e7065d1e2c3281f8f04808ee2546d3c7e2b53
-ms.openlocfilehash: 32af8a615453b8c72e704f40dcdf0de6fbf10907
+ms.sourcegitcommit: 928e4e8097b9cd326e0863a45b183226a7eae056
+ms.openlocfilehash: c9a29b6bf9af97f05730251a37b313a662c27a35
 
 
 ---
@@ -138,6 +139,6 @@ Windows 설치 프로그램 완료 시 대상 컴퓨터가 다시 시작되면 *
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

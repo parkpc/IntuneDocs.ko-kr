@@ -1,11 +1,11 @@
 ---
-title: "Windows용 Multi-Factor Authentication | Microsoft Intune"
+title: "Windows용 다단계 인증 | Microsoft 문서"
 description: "Intune에서는 회사 리소스를 보호할 수 있는 MFA(Multi-Factor Authentication)를 통합합니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 09/15/2016
+ms.date: 12/27/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,22 @@ ms.assetid: 9b4f197d-bc10-4bee-91c9-19bcc8287d36
 ms.reviewer: vinaybha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 1bfd17f9fcc73049254bc77351eae48da874fb4c
+ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
+ms.openlocfilehash: cc60ffb2cd7a1d0cad141712ba7e2341954b1f02
 
 
 ---
 
 # <a name="protect-windows-devices-with-multi-factor-authentication"></a>Protect Windows devices with multi-factor authentication
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune에서는 회사 리소스를 보호할 수 있는 MFA(Multi-Factor Authentication)를 통합합니다. MFA를 사용하려면 사용자 이름 및 암호 외에도 텍스트 인증과 같은 인증 요소가 필요합니다. Intune에서는 Windows 8.1 이상, Windows Phone 8.1 또는 Windows 10 Desktop 및 Mobile 장치의 등록 중에 MFA의 사용을 지원합니다.
+
+>[!NOTE]
+>
+>MFA는 ADFS 서버에서 사용자 또는 그룹 단위별로 필요할 수 있습니다.  
+
 
 ## <a name="on-premises-infrastructure-requirements-for-adfs-mfa"></a>ADFS MFA에 대한 온-프레미스 인프라 요구 사항
 다단계 인증을 설정하려면 다음이 필요합니다.
@@ -40,6 +48,7 @@ Microsoft Intune에서는 회사 리소스를 보호할 수 있는 MFA(Multi-Fac
 조직에 ADFS(Active Directory Federation Services)가 있는 Active Directory 도메인이 포함된 온-프레미스 IT 인프라가 있는 경우 페더레이션 서버에서 MFA를 설정한 다음 MFA를 Intune 등록에 사용하도록 설정할 수 있습니다. Intune에서 MFA를 구성하면 등록하는 동안 사용자를 한 번 인증하도록 설정한 후 MFA 프로세스를 매번 반복하지 않고 회사 리소스를 사용할 수 있습니다.
 
 >[!NOTE]
+>
 >MFA는 ADFS 서버에서 사용자 또는 그룹 단위별로 필요할 수 있습니다.  
 
 #### <a name="mfa-without-intune"></a>Intune이 없는 MFA
@@ -60,6 +69,6 @@ ADFS에서 MFA를 사용하도록 설정하는 방법에 대한 자세한 내용
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO5-->
 
 

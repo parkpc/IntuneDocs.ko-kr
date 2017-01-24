@@ -1,9 +1,9 @@
 ---
-title: "MAM 정책을 사용하여 앱 데이터 보호 | Microsoft Intune"
+title: "MAM 정책을 사용하여 앱 데이터 보호 | Microsoft 문서"
 description: "이 항목에서는 모바일 응용 프로그램 관리 정책이 회사 데이터를 보호하고, 데이터 손실을 방지하고, 개인 및 회사 정보를 별도로 유지되도록 하는 방법을 설명합니다."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 11/14/2016
 ms.topic: article
@@ -14,13 +14,15 @@ ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 66a5814ba34f9fd15460512b0a6d40566ec33401
+ms.sourcegitcommit: 9e208608d50c9b5f7fe66743de0d3c7e741dbfbd
+ms.openlocfilehash: c2293306e847148ff7413be3e9eeafb8349e33fe
 
 
 ---
 
 # <a name="protect-app-data-using-mobile-application-management-policies-with-microsoft-intune"></a>Microsoft Intune을 통해 모바일 응용 프로그램 관리 정책을 사용하여 앱 데이터 보호
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 ## <a name="how-you-can-protect-app-data"></a>앱 데이터를 보호하는 방법
 직원은 개인 및 회사 작업 둘 다에 모바일 장치를 사용합니다. 직원의 생산성을 유지하는 동시에 의도했거나 의도하지 않은 데이터 손실을 방지하려고 합니다.  또한 관리하지 않는 장치를 사용하여 직원이 액세스하는 회사 데이터를 보호하기를 원합니다.
@@ -130,6 +132,6 @@ MDM 솔루션에 등록되지 않은 BYOD 장치의 경우 MAM 정책을 통해 
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

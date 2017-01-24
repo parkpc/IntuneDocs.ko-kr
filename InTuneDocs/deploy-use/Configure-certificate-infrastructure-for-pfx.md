@@ -1,5 +1,5 @@
 ---
-title: "PFX 인증서 인프라 구성 | Microsoft Intune"
+title: "PFX 인증서 인프라 구성 | Microsoft 문서"
 description: ".PFX 인증서 프로필을 만들고 배포합니다."
 keywords: 
 author: robstackmsft
@@ -14,13 +14,16 @@ ms.assetid: 2c543a02-44a5-4964-8000-a45e3bf2cc69
 ms.reviewer: vinaybha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7d1f37a2ba2e634fb75058d33eaaccf3aa5845b0
-ms.openlocfilehash: 8fc1cc718fd0edae8b8ec4a0a8dc25487eafda2b
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 12773352970deeacf30b1336a4e560e08b400ee3
 
 
 
 ---
 # <a name="configure-certificate-infrastructure"></a>인증서 인프라 구성
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 이 항목은 .PFX 인증서 프로필을 만들고 배포하기 위해 필요한 것을 설명합니다.
 
 조직에서 인증서 기반 인증을 수행하려면 엔터프라이즈 인증 기관이 필요합니다.
@@ -31,7 +34,7 @@ ms.openlocfilehash: 8fc1cc718fd0edae8b8ec4a0a8dc25487eafda2b
 
 -  인증 기관과 통신할 수 있는 컴퓨터에서 실행되는 Intune 인증서 커넥터입니다.
 
-## <a name="onpremises-infrastructure-description"></a>온-프레미스 인프라 설명
+## <a name="on-premises-infrastructure-description"></a>온-프레미스 인프라 설명
 
 
 -    **Active Directory 도메인**: 웹 응용 프로그램 프록시 서버를 제외하고 이 섹션에 나열된 모든 서버는 Active Directory 도메인에 가입되어 있어야 합니다.
@@ -65,7 +68,7 @@ ms.openlocfilehash: 8fc1cc718fd0edae8b8ec4a0a8dc25487eafda2b
 - **태스크 1** - 인증 기관에서 인증서 템플릿 구성
 - **태스크 2** - Intune 인증서 커넥터 사용, 설치 및 구성
 
-### <a name="task-1-configure-certificate-templates-on-the-certification-authority"></a>작업 1 - 인증 기관에서 인증서 템플릿 구성
+### <a name="task-1---configure-certificate-templates-on-the-certification-authority"></a>작업 1 - 인증 기관에서 인증서 템플릿 구성
 이 태스크에서는 인증서 템플릿을 게시합니다.
 
 ##### <a name="to-configure-the-certification-authority"></a>인증 기관을 구성하려면
@@ -104,7 +107,7 @@ ms.openlocfilehash: 8fc1cc718fd0edae8b8ec4a0a8dc25487eafda2b
 
 4.  CA 컴퓨터에서 Intune 인증서 커넥터를 호스트하는 컴퓨터에 등록 권한이 있는지 확인합니다. 이 권한이 있어야 해당 컴퓨터가 .PFX 프로필을 만드는 데 사용된 템플릿에 액세스할 수 있습니다. CA 컴퓨터 속성의 **보안** 탭에서 권한을 설정합니다.
 
-### <a name="task-2-enable-install-and-configure-the-intune-certificate-connector"></a>작업 2 - Intune 인증서 커넥터 사용, 설치 및 구성
+### <a name="task-2---enable-install-and-configure-the-intune-certificate-connector"></a>작업 2 - Intune 인증서 커넥터 사용, 설치 및 구성
 이 작업에서는 다음을 수행합니다.
 
 인증서 커넥터 다운로드, 설치 및 구성
@@ -156,6 +159,6 @@ ms.openlocfilehash: 8fc1cc718fd0edae8b8ec4a0a8dc25487eafda2b
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Dec16_HO2-->
 
 

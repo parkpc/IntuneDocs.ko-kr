@@ -1,5 +1,5 @@
 ---
-title: "모바일 장치의 Exchange 액세스 규칙 | Microsoft Intune"
+title: "모바일 장치의 Exchange 액세스 규칙 | Microsoft 문서"
 description: "EAS를 통한 장치 연결을 허용하거나 차단할 Exchange ActiveSync 액세스 규칙"
 keywords: 
 author: staciebarker
@@ -14,13 +14,16 @@ ms.assetid: 208b9f45-02d9-413a-b86a-8bad9b5008fa
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: e11263115088005123562b2afae1804528d0d5d5
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: fa8f4b1df83e37ab20d5b4a045ba535758368835
 
 
 ---
 
 # <a name="exchange-access-rules-for-mobile-devices"></a>모바일 장치의 Exchange 액세스 규칙
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 모바일 장치에 대한 Exchange 액세스 규칙은 해당 장치가 Exchange ActiveSync에 대해 가져야 하는 액세스 수준을 결정합니다. 이러한 설정은 Microsoft Intune에 등록되지 않은 모바일 장치를 포함하는 모든 모바일 장치에 적용됩니다. 먼저 **기본 규칙**을 정의할 수 있습니다. 기본 규칙은 사용자 지정 규칙이 적용되지 않은 모든 모바일 장치에 적용됩니다.
 
 다음 표에는 Exchange ActiveSync에서 관리하는 액세스 수준이 정리되어 있습니다.
@@ -56,6 +59,6 @@ ms.openlocfilehash: e11263115088005123562b2afae1804528d0d5d5
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "Intune 콘솔에서 MAM 정책 구성 | Microsoft Intune"
+title: "Intune 콘솔에서 MAM 정책 구성 | Microsoft 문서"
 description: "Microsoft Intune의 모바일 응용 프로그램 관리 정책을 사용하여 배포하는 앱의 기능을 회사의 규정 준수 및 보안 정책에 맞게 수정할 수 있습니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 09/06/2016
+ms.date: 12/27/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,16 @@ ms.assetid: b4fb33a8-a2fa-4353-bd89-5bda48b68e83
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a4f7a503417938eabb4334757dcf12a63f082fd3
-ms.openlocfilehash: 90b5a9f78a93cde7466937d0ce9dac3d83f3ff64
+ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
+ms.openlocfilehash: f7504657f5fb2d73242f25f2f059c8c4e7ab1547
 
 
 ---
 
 # <a name="configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console"></a>구성 하 고 Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 배포
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune의 MAM(모바일 응용 프로그램 관리) 정책을 사용하여 배포하는 앱의 기능을 회사의 규정 준수 및 보안 정책에 맞게 수정할 수 있습니다. 예를 들어 관리되는 앱 내에서의 잘라내기/복사/붙여넣기 작업을 제한하거나 관리되는 브라우저 안에서 모든 웹 링크를 열도록 앱을 구성할 수 있습니다.
 
 모바일 응용 프로그램 관리 정책에서는 다음 장치를 지원합니다.
@@ -71,7 +74,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 
 -   **5단계:** 앱 배포를 모니터링합니다.
 
-## <a name="step-1-get-the-link-to-a-policy-managed-app-create-a-wrapped-app-or-use-the-intune-app-sdk-to-write-a-mamenabled-app"></a>1단계: 정책으로 관리되는 앱으로 연결되는 링크를 얻거나 래핑된 앱을 만들거나 Intune 앱 SDK를 사용하여 MAM 사용 앱을 작성합니다.
+## <a name="step-1-get-the-link-to-a-policy-managed-app-create-a-wrapped-app-or-use-the-intune-app-sdk-to-write-a-mam-enabled-app"></a>1단계: 정책으로 관리되는 앱으로 연결되는 링크를 얻거나 래핑된 앱을 만들거나 Intune 앱 SDK를 사용하여 MAM 사용 앱을 작성합니다.
 
 배포하려는 정책 관리 앱의 URL을 앱 스토어에서 찾아서 적어 둡니다. 예를 들어 iPad용 Microsoft Word 앱의 URL은 **https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8**입니다.
 
@@ -194,6 +197,6 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO5-->
 
 

@@ -1,9 +1,9 @@
 ---
-title: "MAM 정책 만들기 및 배포 | Microsoft Intune"
+title: "MAM 정책 만들기 및 배포 | Microsoft 문서"
 description: "이 항목의 단계별 지침에 따라 모바일 앱 관리 정책을 만들고 배포합니다."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 11/14/2016
 ms.topic: article
@@ -14,13 +14,16 @@ ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 05b898ffdd0b76eb04d344adb3cfb20ec15aeb52
+ms.sourcegitcommit: 9e208608d50c9b5f7fe66743de0d3c7e741dbfbd
+ms.openlocfilehash: 3e077bfa8a03526b9472b4e9fdd4a75da22c28c8
 
 
 ---
 
 # <a name="create-and-deploy-mobile-app-management-policies-with-microsoft-intune"></a>Microsoft Intune으로 모바일 앱 관리 정책 만들기 및 배포
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 MAM(모바일 앱 관리) 정책은 Intune에서 관리하거나 관리하지 않을 수 있는 장치에서 실행되는 앱에 적용할 수 있습니다. MAM 정책이 작동하는 방법 및 Intune MAM 정책에서 지원하는 시나리오의 자세한 설명은 [모바일 앱 관리 정책을 사용하여 앱 데이터 보호](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md) 항목을 참고합니다.
 
 이 항목에서는 **Azure Portal**에서 MAM 정책을 만드는 과정을 설명합니다. Azure Portal은 MAM 정책을 만들 수 있는 새로운 관리 콘솔입니다. 이 포털을 사용하여 MAM 정책을 만드는 것이 좋습니다. Azure Portal에서는 다음 MAM 시나리오를 지원합니다.
@@ -173,6 +176,6 @@ iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 중
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

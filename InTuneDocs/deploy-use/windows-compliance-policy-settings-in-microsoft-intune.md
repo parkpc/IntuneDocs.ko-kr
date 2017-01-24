@@ -1,11 +1,11 @@
 ---
-title: "Windows 장치용 규정 준수 정책 설정 | Microsoft Intune"
+title: "Windows 장치용 준수 정책 설정 | Microsoft 문서"
 description: "이 항목에서는 Windows 장치의 준수 정책에 대해 구성할 수 있는 규칙 및 설정을 살펴보았습니다."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,15 @@ ms.assetid: f996842c-e9a4-4819-acb4-ee66e8fb35b8
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d6ff74f0b46baf384dbdedf13ad75538dd33a089
-ms.openlocfilehash: e079fea47a10296067fe82fc05d82f0a863ae7bd
+ms.sourcegitcommit: b068da7685792757825a4bc0d555e28ee0168cb1
+ms.openlocfilehash: a7edd3d23a28f3496b22efdc3b17fb25b40399b6
 
 
 ---
 
 # <a name="compliance-policy-settings-for-windows-devices-in-microsoft-intune"></a>Microsoft Intune에서 Windows 장치용 규정 준수 정책 설정
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 이 항목에서 설명하는 정책 설정은Windows 운영 체제에서 실행하는 장치에 적용됩니다. 다음 섹션에서는 지원되는 Windows 버전에 대해 설명합니다.
 
@@ -151,6 +153,6 @@ ms.openlocfilehash: e079fea47a10296067fe82fc05d82f0a863ae7bd
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

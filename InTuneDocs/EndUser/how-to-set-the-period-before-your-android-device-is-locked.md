@@ -1,30 +1,32 @@
 ---
-title: "Android 장치가 잠기기까지의 기간을 설정하는 방법 | Microsoft Intune"
+title: "Android 장치가 잠기기까지의 기간을 설정하는 방법 | Microsoft 문서"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 98034875-cd3a-4367-a8d7-c5d4a438d496
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 6fd49127321b665c4c23eafc0dabab6787307881
+ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
+ms.openlocfilehash: 5df88351d84da28c93d010b8484601b7dbcdaf7e
 
 
 ---
 
-# Android 장치가 잠기기까지의 기간을 설정하는 방법
+# <a name="how-to-set-the-period-before-your-android-device-is-locked"></a>Android 장치가 잠기기까지의 기간을 설정하는 방법
 회사에 다시 연결하려면 사용 중인 장치 유형에 대한 단계에 따라 장치의 암호 제한 시간을 설정해야 합니다.
 
-## 네이티브(비 Samsung KNOX) 장치
+## <a name="native-non-samsung-knox-device"></a>네이티브(비 Samsung KNOX) 장치
 
 1.  장치의 **설정**에서 **보안** &gt; **자동으로 잠금**을 누릅니다(일부 장치에서는 **다음 시간 후 전화 잠금**으로 표시됨).
 
@@ -32,7 +34,7 @@ ms.openlocfilehash: 6fd49127321b665c4c23eafc0dabab6787307881
 
 2.  암호 제한 시간 값을 선택합니다.
 
-## Samsung KNOX 장치
+## <a name="samsung-knox-device"></a>Samsung KNOX 장치
 
 1.  장치의 **설정**에서 **잠금 화면 및 보안** &gt; **자동으로 잠금**을 누릅니다.
 
@@ -40,10 +42,10 @@ ms.openlocfilehash: 6fd49127321b665c4c23eafc0dabab6787307881
 
 2.  암호 제한 시간 값을 선택합니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Dec16_HO3-->
 
 

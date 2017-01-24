@@ -1,5 +1,5 @@
 ---
-title: "원격 초기화를 사용하여 데이터 보호 지원 | Microsoft Intune"
+title: "원격 초기화를 사용하여 데이터 보호 지원 | Microsoft 문서"
 description: "Intune에서는 중요한 회사 데이터를 제거하고 많은 회사 리소스에 대한 액세스 권한을 제거할 수 있는 선택적 초기화 및 전체 초기화 기능을 제공합니다."
 keywords: 
 author: staciebarker
@@ -14,13 +14,16 @@ ms.assetid: 8519e411-3d48-44eb-9b41-3e4fd6a93112
 ms.reviewer: lancecra
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
-ms.openlocfilehash: cbfdb0e5db6862fcf046f42b85b8c9aabbba8721
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 8131d130e843db37e99b05ab17cd1b8ba23c7c57
 
 
 ---
 
 # <a name="help-protect-your-data-with-full-or-selective-wipe-using-microsoft-intune"></a>Microsoft Intune을 사용하여 전체 또는 선택적 초기화를 통해 데이터 보호 지원
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정하거나 잃어버린 장치에 있는 앱과 데이터를 초기화할 수 있습니다. 이를 위해, Intune은 선택적 초기화 및 전체 초기화 기능을 제공합니다. 또한 사용자가 Intune에 등록된 개인적으로 소유한 장치의 Intune 회사 포털 앱에서 원격 장치 초기화 명령을 실행할 수 있습니다.
 
   > [!NOTE]
