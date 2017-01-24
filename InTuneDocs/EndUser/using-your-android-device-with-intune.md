@@ -11,11 +11,13 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
+searchScope:
+- Company Portal
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b264ea53e727f706bc635ed9c738ad605e1ac750
-ms.openlocfilehash: a88b0eafdf72f00b5c28d0347010eeee3c9effc4
+ms.sourcegitcommit: bb949c9a83fdde630dd2023765d32e98c43a1c20
+ms.openlocfilehash: 22a5cab46a6ca8cf2d350ba9844328a3dea13766
 
 
 ---
@@ -66,15 +68,15 @@ ms.openlocfilehash: a88b0eafdf72f00b5c28d0347010eeee3c9effc4
 - [장치가 최대 운영 체제 버전에 부합되지 않는 경우](your-android-version-isnt-yet-supported.md)
 - [장치가 루팅되었으며 연결할 수 없는 경우](your-device-is-rooted-and-you-cant-connect-android.md)
 - [장치에 필요한 인증서가 없는 경우](your-device-is-missing-a-required-certificate-landing-android.md)
-- [알 수 없는 소스를 해제하라는 메시지가 표시되는 경우](you-are-asked-to-turn-off-unknown-sources-android.md)
-- [USB 디버깅 옵션을 해제하라는 메시지가 표시되는 경우](you-are-asked-to-turn-off-usb-debugging-android.md)
-- [장치의 보안 위협 검색을 설정하라는 메시지가 표시되는 경우](you-are-asked-to-turn-on-scan-device-for-security-threats-android.md)
+- [출처를 알 수 없는 앱 옵션을 꺼야 함](you-need-to-turn-off-unknown-sources-android.md)
+- [USB 디버깅 옵션을 해제해야 함](you-need-to-turn-off-usb-debugging-android.md)
+- [보안 위협 검색 옵션을 켜야 함](you-need-to-turn-on-scanning-for-security-threats-android.md)
 - [장치가 최소 보안 패치를 충족하지 않는 경우](your-device-does-not-meet-the-minimum-security-patch-android.md)
 - [Android 장치에 Lookout for Work를 설치하라는 메시지가 표시됨](you-are-prompted-to-install-lookout-for-work-android.md)
 - [Android 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](you-need-to-resolve-a-threat-found-by-lookout-for-work-android.md)
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO2-->
 
 

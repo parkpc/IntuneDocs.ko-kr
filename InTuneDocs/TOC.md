@@ -42,7 +42,7 @@
 ## [섹션 9: 테스트 및 유효성 검사](plan-design/section-9-test-and-validation.md)
 ## [추가 리소스](plan-design/additional-resources.md)
 
-# [새로운 기능](whats-new/whats-new-in-microsoft-intune.md)
+# 새로운 기능
 ## [새로운 기능](whats-new/whats-new-in-microsoft-intune.md)
 ## [Azure Tools의 새로운 기능](/intune-azure/introduction/whats-new?toc=%2fintune%2ftoc.json)
 ## [새로운 기능 - 아카이브](whats-new/whats-new-archive.md)
@@ -73,6 +73,7 @@
 #### [PC 클라이언트 설치](deploy-use/install-the-windows-pc-client-with-microsoft-intune.md)
 #### [일반 PC 관리 작업](deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
 #### [PC 정책 충돌 해결](deploy-use/resolve-gpo-and-microsoft-intune-policy-conflicts.md)
+### [Android for Work 관리](deploy-use/android-for-work.md)
 
 ## 장치 구성
 ### [정책을 사용하여 장치의 설정 및 기능 관리](deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
@@ -98,6 +99,7 @@
 #### [Intune의 VPN 연결](deploy-use/vpn-connections-in-microsoft-intune.md)
 #### [Intune의 메일 프로필](deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)
 ### [그룹을 사용하여 사용자 및 장치 관리](deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
+#### [Azure로 그룹 마이그레이션](deploy-use/migrating-groups-to-azure-active-directory.md)
 ### [그룹에 장치 매핑](deploy-use/categorize-devices-with-device-group-mapping-in-microsoft-intune.md)
 ### [인벤토리를 사용하는 장치 이해](deploy-use/understand-your-devices-with-inventory-in-microsoft-intune.md)
 
@@ -156,11 +158,11 @@
 #### [Exchange Online](deploy-use/mam-ca-for-exchange-online.md)
 #### [ADAL 없는 앱 차단](deploy-use/block-apps-with-no-modern-authentication.md)
 ### [네트워크에 대한 액세스 보호(Cisco ISE)](deploy-use/restrict-access-to-networks.md)
-### [장치, 네트워크 및 응용 프로그램 위험에 따라 액세스 보호](deploy-use/restrict-access-based-on-device-network-app-risk.md)
-#### [Lookout 장치 위협 방지 설정](deploy-use/set-up-your-subscription-with-lookout-mtp.md)
-#### [Intune에서 Lookout 사용](deploy-use/enable-lookout-mtp-connection-in-intune.md)
-#### [Lookout for Work 앱 배포](deploy-use/configure-and-deploy-lookout-for-work-apps.md)
-#### [장치 위협 방지 준수 정책 사용](deploy-use/enable-device-threat-protection-rule-in-compliance-policy.md)
+### [장치, 네트워크 및 응용 프로그램 위험에 따라 액세스 보호](deploy-use/device-threat-protection.md)
+#### [Lookout 장치 위협 방지 설정](deploy-use/device-threat-protection-subscription-setup.md)
+#### [Intune에서 Lookout 사용](deploy-use/device-threat-protection-enable.md)
+#### [Lookout for Work 앱 배포](deploy-use/device-threat-protection-apps.md)
+#### [장치 위협 방지 준수 정책 사용](deploy-use/device-threat-protection-policy.md)
 
 ### [MAM을 사용하여 앱 데이터 보호](deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
 #### [MAM 정책용 Azure 포털](deploy-use/azure-portal-for-microsoft-intune-mam-policies.md)
@@ -220,6 +222,6 @@
 # [용어 설명](understand-explore/intune-glossary.md)
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Jan17_HO3-->
 
 

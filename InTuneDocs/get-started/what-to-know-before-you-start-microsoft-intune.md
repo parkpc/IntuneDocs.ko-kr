@@ -14,8 +14,8 @@ ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: angrobe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a567d55141c4510a5c81861df1522f118104de61
-ms.openlocfilehash: 900b3a9bcc9ce58cd165b14592c850b50739a33a
+ms.sourcegitcommit: e2810513646828cc5da734f3af9cc8d81e0c03fc
+ms.openlocfilehash: 444d08d1a5e709572efbc2f639cef037453b9c0e
 
 
 ---
@@ -43,7 +43,7 @@ Intune 장치 관리에서 제공하는 [기능](mobile-device-management-capabi
 
 ### <a name="windows-pc-software-client"></a>Windows PC 소프트웨어 클라이언트
 
-Windows PC에서는 대체 등록 방법으로 [Intune 소프트웨어 클라이언트](/intune/deploy-use/manage-windows-pcs-with-microsoft-intune)를 배포하고 설치할 수 있습니다. Intune 소프트웨어 클라이언트를 사용하면 Windows 7 이상 버전을 실행하는 PC를 관리할 수 있습니다. 클라이언트 소프트웨어를 사용하여 PC를 관리하면 [다음 기능](windows-pc-management-capabilities-in-microsoft-intune.md)을 수행할 수 있습니다.
+Windows PC에서는 대체 등록 방법으로 [Intune 소프트웨어 클라이언트](/intune/deploy-use/manage-windows-pcs-with-microsoft-intune)를 배포하고 설치할 수 있습니다. Intune 소프트웨어 클라이언트를 사용하면 Windows 7 이상 버전(Windows 10 Home Edition은 제외)을 실행하는 PC를 관리할 수 있습니다. 클라이언트 소프트웨어를 사용하여 PC를 관리하면 [다음 기능](windows-pc-management-capabilities-in-microsoft-intune.md)을 수행할 수 있습니다.
 
 ### <a name="exchange-activesync-management"></a>Exchange ActiveSync 관리
 
