@@ -94,6 +94,6 @@ Azure의 Intune 미리 보기에 대한 새로운 기능은 [여기](https://doc
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

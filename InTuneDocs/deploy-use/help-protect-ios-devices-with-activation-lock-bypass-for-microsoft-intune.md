@@ -96,6 +96,6 @@ Intune에서는 iOS 8.0 이상을 실행하는 감독된 장치의 활성화 잠
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

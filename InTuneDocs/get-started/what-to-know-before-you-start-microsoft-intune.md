@@ -74,6 +74,6 @@ Intune 콘솔에서 [Exchange ActiveSync 장치](/intune/deploy-use/mobile-devic
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

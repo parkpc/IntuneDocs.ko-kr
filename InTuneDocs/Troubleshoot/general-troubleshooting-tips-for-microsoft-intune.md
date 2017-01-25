@@ -97,6 +97,6 @@ Microsoft Intune을 배포한 후에 구성이나 클라이언트 장치에서 �
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

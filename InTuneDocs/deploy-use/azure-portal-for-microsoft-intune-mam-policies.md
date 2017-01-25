@@ -66,6 +66,6 @@ Azure Portal은 MAM(모바일 앱 관리) 정책을 만들고 관리하는 데 �
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

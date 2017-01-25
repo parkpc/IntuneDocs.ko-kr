@@ -105,6 +105,6 @@ Intune 소프트웨어 게시자를 사용하여 앱 속성을 구성한 다음 
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

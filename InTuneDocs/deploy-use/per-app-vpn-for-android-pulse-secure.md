@@ -80,6 +80,6 @@ Android 장치 또는 사용자 그룹에 정책을 배포한 후에 사용자�
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

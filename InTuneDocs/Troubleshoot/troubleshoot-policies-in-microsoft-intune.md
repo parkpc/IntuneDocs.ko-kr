@@ -101,6 +101,6 @@ Intune 소프트웨어 클라이언트로 관리되는 Windows PC의 경우 poli
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

@@ -170,6 +170,6 @@ Intune 알림 규칙은 Intune에서 메일 경고를 보낼 대상자를 정의
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 
