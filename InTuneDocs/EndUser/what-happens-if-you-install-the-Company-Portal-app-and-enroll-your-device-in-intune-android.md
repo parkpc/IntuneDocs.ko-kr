@@ -1,11 +1,11 @@
 ---
-title: "Intune에서 회사 포털 앱을 설치하고 Android 장치를 등록하면 어떻게 되나요? | Microsoft 문서"
+title: "Android용 회사 포털 앱 설치 | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,8 +17,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: d0e244659f8a78504ffa2a0b8a6579c829e3642b
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: f80c6e7089519860e822f974753ac9dc0356e055
 
 
 ---
@@ -50,7 +50,7 @@ Android 장치를 등록할 경우 장치에 액세스할 수 있는 권한을 I
 
 -   장치를 분실하거나 도난당하는 경우 데이터를 보호할 수 있도록 장치의 모든 데이터를 암호화해야 합니다.
 
-회사 포털에 장치를 추가한 후 대략 8시간마다
+회사 포털에 장치를 추가한 후 대략&8;시간마다
 
 -   IT 관리자가 사용하도록 설정한 임의의 정책 또는 앱 업데이트를 다운로드합니다.
 
@@ -62,6 +62,6 @@ Android 장치를 등록할 경우 장치에 액세스할 수 있는 권한을 I
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

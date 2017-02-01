@@ -1,5 +1,5 @@
 ---
-title: "회사 포털 웹 사이트에서 장치 원격 잠금 | Microsoft 문서"
+title: "회사 포털에서 장치 잠금 | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
@@ -17,8 +17,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a1e346047fb029689c0c9c68073b89b9bac20530
-ms.openlocfilehash: fad219ca06ceb62e8bad0b3dbd30b330d90ac977
+ms.sourcegitcommit: 3bda44c401ae7cf5dd796486d2d1a6332828bed1
+ms.openlocfilehash: a888592c4bf4f71cba44cebadb5cf90d2cc9aef6
 
 
 ---
@@ -64,6 +64,6 @@ ms.openlocfilehash: fad219ca06ceb62e8bad0b3dbd30b330d90ac977
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO4-->
 
 

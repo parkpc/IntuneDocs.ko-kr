@@ -1,11 +1,11 @@
 ---
-title: "회사 프로필을 만들고 Intune에서 장치 등록 | Microsoft 문서"
+title: "회사 프로필을 사용하여 장치 등록 | Microsoft 문서"
 description: "Android 장치를 암호화하는 방법을 설명합니다."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/12/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,8 +16,8 @@ searchScope:
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
-ms.openlocfilehash: d4e3d60115bf5e2f41a40cd3746c9678cfb915bd
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: 179f0ba2a70637f91856037e132eeeea9a57c68c
 
 
 ---
@@ -71,7 +71,7 @@ Android 장치를 등록하면 회사 메일, 앱 및 기타 업무용 데이터
 
     "장치 등록 중."이라는 메시지가 간단하게 표시됩니다.
 
-11. **회사 액세스 설정** 화면에서 모든 항목 설치가 완료되었음을 보여 주면 **계속**을 탭합니다. 
+11. **회사 액세스 설정** 화면에서 모든 항목 설치가 완료되었음을 보여 주면 **계속**을 탭합니다.
 
     ![회사 액세스 설정에 업무용 프로필 및 등록이 완료되었음이 표시됨](./media/andr-afw-company-access-setup-green-checks.png)
 
@@ -87,8 +87,6 @@ Android 장치를 등록하면 회사 메일, 앱 및 기타 업무용 데이터
 
 
 
-
-
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 

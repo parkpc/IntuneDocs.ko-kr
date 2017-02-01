@@ -1,11 +1,11 @@
 ---
-title: "Android for Work용 준수 정책 설정 | Microsoft 문서"
+title: "Android for Work용 준수 설정 | Microsoft 문서"
 description: "이 항목에서는 Android for Work와 호환되는 Android 장치에 대한 장치 준수 정책 설정에 대해 설명합니다."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 11/13/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 2b53e7a410d0ce268ce395c08161095af42857b7
+ms.sourcegitcommit: 1afe7093b80bb5fe3ea873cb065c8ca2673160e8
+ms.openlocfilehash: a36427c6fe00c4ad105e615dd96342f7ab31863a
 
 
 ---
@@ -87,6 +87,6 @@ ms.openlocfilehash: 2b53e7a410d0ce268ce395c08161095af42857b7
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

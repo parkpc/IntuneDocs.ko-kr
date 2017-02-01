@@ -1,11 +1,11 @@
 ---
-title: "회사 포털 웹 사이트를 사용하여 수동으로 장치 동기화 | Microsoft 문서"
+title: "회사 포털 웹 사이트와 장치 동기화 | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/05/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,14 +17,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: fbbe9233ae2e07209356a0cec14d085f742e6436
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: 1dded693cb60bacb9c0a445bb26c818dde778a7a
 
 
 ---
 
 
-# <a name="use-the-company-portal-website-to-sync-your-device"></a>회사 포털 웹 사이트를 통해 장치 동기화
+# <a name="sync-your-device-with-the-company-portal-website"></a>회사 포털 웹 사이트와 장치 동기화
 
 앱을 설치하거나 기타 몇 가지 태스크를 수행할 때 일반적인 경우보다 시간이 더 오래 걸릴 수 있습니다. 시간이 너무 오래 걸린다면 수행하려는 작업의 속도를 높이기 위해 장치를 수동으로 동기화해 볼 수 있습니다.
 
@@ -38,6 +38,6 @@ ms.openlocfilehash: fbbe9233ae2e07209356a0cec14d085f742e6436
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

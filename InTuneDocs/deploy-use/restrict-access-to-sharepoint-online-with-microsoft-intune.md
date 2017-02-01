@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Online에 대한 액세스 보호 | Microsoft 문서"
+title: "SharePoint Online 보호 | Microsoft 문서"
 description: "조건부 액세스를 사용하여 SharePoint Online의 회사 데이터를 보호하고 해당 데이터에 대한 액세스를 제어하는 방법을 설명합니다."
 keywords: 
 author: andredm7
@@ -14,8 +14,8 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9f34d54710f0ec662eecec85f7fa041061132a0d
-ms.openlocfilehash: 2efac12d3564932ebcb3cbe4165fbc7ad4595172
+ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
+ms.openlocfilehash: fad731fe01ba4782b64e8a5af97bd536ae9478d3
 
 
 ---
@@ -199,6 +199,6 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO4-->
 
 

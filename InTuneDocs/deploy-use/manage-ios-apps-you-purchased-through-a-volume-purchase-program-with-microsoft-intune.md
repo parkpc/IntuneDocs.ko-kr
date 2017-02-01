@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/15/2016
+ms.date: 01/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 1dafc28a-7f8b-4fe0-8619-f977c93d1140
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1f4bffd4aad8915034b3e6f4f962aed4d5ccd731
-ms.openlocfilehash: 29ed9bea92b23998899fcf57502a9982377c3eb6
+ms.sourcegitcommit: 56ef80138d0790933ae216bb02101c3f408311c7
+ms.openlocfilehash: 5bea5a9f1a69193543fa3c5e8997a6527721d3ef
 
 
 ---
@@ -41,11 +41,11 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 * 각 조직은 하나의 VPP 계정 및 토큰만 사용할 수 있습니다.
 * Apple VPP 계정을 Intune에 연결한 후에는 나중에 다른 계정을 연결할 수 없습니다. 따라서 사용하는 계정의 세부 정보를 둘 이상의 사용자가 보유하는 것이 매우 중요합니다.
 * 이전에 VPP 토큰을 다른 제품에 사용한 경우 Intune에 사용할 토큰을 새로 생성해야 합니다.
-* 각 토큰은 1년 동안 유효합니다.
+* 각 토큰은&1;년 동안 유효합니다.
 * 기본적으로 Intune에서는 하루에 두 번 Apple VPP 서비스와 동기화합니다. 언제든지 수동 동기화를 시작할 수 있습니다.
 * VPP 토큰을 Intune으로 가져온 후 같은 토큰을 다른 장치 관리 솔루션으로 가져오지 마세요. 가져오면 라이선스 할당과 사용자 레코드가 손실될 수 있습니다.
 * Intune과 함께 iOS VPP를 사용하기 전에 다른 MDM(모바일 장치 관리) 공급업체를 사용하여 만든 기존 VPP 사용자 계정을 제거합니다. Intune은 보안 조치로 해당 사용자 계정을 Intune에 동기화하지 않습니다. Intune은 Intune에서 만든 Apple VPP 서비스의 데이터만 동기화합니다.
-* DEP(장치 등록 프로토콜)를 사용하여 등록한 장치에는 iOS VPP 앱을 배포할 수 없습니다.
+* 장치에 대한 사용자 선호도가 구성된 경우 DEP(장치 등록 프로토콜)를 사용하여 등록된 사용자 장치에만 iOS VPP 앱을 배포할 수 있습니다.
 
 ## <a name="to-get-and-upload-an-apple-vpp-token"></a>Apple VPP 토큰을 가져와 업로드하려면
 
@@ -94,6 +94,6 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO3-->
 
 

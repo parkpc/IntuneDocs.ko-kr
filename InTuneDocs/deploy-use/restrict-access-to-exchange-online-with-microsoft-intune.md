@@ -1,5 +1,5 @@
 ---
-title: "Exchange Online에 대한 메일 액세스 보호 | Microsoft 문서"
+title: "Exchange Online에 대한 메일 보호 | Microsoft 문서"
 description: "조건부 액세스로 Exchange Online에서 회사 전자 메일을 보호하고 액세스를 제어합니다."
 keywords: 
 author: andredm7
@@ -14,8 +14,8 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9f34d54710f0ec662eecec85f7fa041061132a0d
-ms.openlocfilehash: 6078684e3f8e5821f057b890eac5caf388206a82
+ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
+ms.openlocfilehash: 185f6fd051946ab118490717ecfb7250521fb764
 
 
 ---
@@ -252,9 +252,9 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 
 -   사용자가 전자 메일 계정을 만들고 나면 장치가 즉시 차단됩니다.
 
--   차단된 사용자가 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하고 미준수 문제를 해결하는 경우 2분 내에 메일 액세스 차단이 해제됩니다.
+-   차단된 사용자가 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하고 미준수 문제를 해결하는 경우&2;분 내에 메일 액세스 차단이 해제됩니다.
 
--   사용자가 장치 등록을 취소하면 약 6시간 후에 메일이 차단됩니다.
+-   사용자가 장치 등록을 취소하면 약&6;시간 후에 메일이 차단됩니다.
 
 **장치 액세스를 보호하는 조건부 액세스 정책을 구성하는 방법에 대한 몇 가지 시나리오 예를 보려면 **메일 액세스 보호 예제 시나리오[를 참조하세요](restrict-email-access-example-scenarios.md).
 
@@ -272,6 +272,6 @@ Exchange Online 또는 새 Exchange Online Dedicated 환경에 대한 메일 액
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO4-->
 
 

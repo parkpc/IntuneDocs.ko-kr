@@ -1,5 +1,5 @@
 ---
-title: "Exchange 온-프레미스로 메일 액세스 보호 | Microsoft 문서"
+title: "Exchange 온-프레미스에 대한 메일 보호 | Microsoft 문서"
 description: "조건부 액세스로 Exchange 온-프레미스에서 회사 전자 메일을 보호하고 액세스를 제어합니다."
 keywords: 
 author: andredm7
@@ -14,8 +14,8 @@ ms.assetid: a55071f5-101e-4829-908d-07d3414011fc
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d05c9d7a78474c19e142bca94e232289fbfba1d9
-ms.openlocfilehash: 24d000f650cafffc0c998ef80ba52bd06b56afe2
+ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
+ms.openlocfilehash: 590a5df066c69e2369d0b586d52def1abd64a379
 
 
 ---
@@ -121,11 +121,11 @@ Exchange 온-프레미스 또는 레거시 Exchange Online Dedicated 환경에 �
 
 -   조건부 액세스 정책은 배포하지 않아도 즉시 적용됩니다.
 
--   사용자가 Exchange ActiveSync 프로필을 설정한 후에 장치가 차단되기까지 1~3시간이 걸릴 수 있습니다([!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 관리되지 않는 경우).
+-   사용자가 Exchange ActiveSync 프로필을 설정한 후에 장치가 차단되기까지&1;~3시간이 걸릴 수 있습니다([!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 관리되지 않는 경우).
 
--   그런 다음 차단된 사용자가 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하거나 미준수 상태를 재구성하면 2분 내에 메일 액세스 차단이 해제됩니다.
+-   그런 다음 차단된 사용자가 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하거나 미준수 상태를 재구성하면&2;분 내에 메일 액세스 차단이 해제됩니다.
 
--   사용자가 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 등록을 취소하면 장치가 차단되기까지 1~3시간이 걸릴 수 있습니다.
+-   사용자가 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 등록을 취소하면 장치가 차단되기까지&1;~3시간이 걸릴 수 있습니다.
 
 **장치 액세스를 보호하는 조건부 액세스 정책을 구성하는 방법에 대한 몇 가지 시나리오 예를 보려면 [메일 액세스 보호 예제 시나리오](restrict-email-access-example-scenarios.md)를 참조하세요.**
 
@@ -136,6 +136,6 @@ Exchange 온-프레미스 또는 레거시 Exchange Online Dedicated 환경에 �
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

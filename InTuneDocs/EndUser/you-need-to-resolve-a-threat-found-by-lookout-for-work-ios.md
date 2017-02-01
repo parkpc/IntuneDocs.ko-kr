@@ -1,11 +1,11 @@
 ---
-title: "iOS 장치에서 Lookout for Work가 발견한 위협을 해결해야 함 | Microsoft 문서"
+title: "iOS에서 Lookout for Work가 발견한 위협 해결 | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/17/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,15 @@ searchScope:
 - Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
-ms.openlocfilehash: 9e958dc7421ac9373d80268db654c87c61ab3729
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: 0e47c60c8cbbd635427916b84690959d2c69ce31
 
 
 ---
 
 # <a name="you-need-to-resolve-a-threat-found-by-lookout-for-work"></a>Lookout for Work가 발견한 위협을 해결해야 함
 
-Lookout for Work가 장치에서 잠재적인 위협을 발견했기 때문에 회사 또는 학교 메일, 앱 및 파일에 다시 액세스하려면 문제를 해결해야 합니다. 다음과 비슷한 메시지가 표시됩니다. 
+Lookout for Work가 장치에서 잠재적인 위협을 발견했기 때문에 회사 또는 학교 메일, 앱 및 파일에 다시 액세스하려면 문제를 해결해야 합니다. 다음과 비슷한 메시지가 표시됩니다.
 
 ![Lookout from Work의 호환되지 않음 메시지](./media/ios-lfw-noncompliant-in-ssp.png)
 
@@ -51,8 +51,6 @@ Lookout for Work가 위협으로 판단하는 앱을 설치한 경우 다음과 
 
 
 
-
-
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 

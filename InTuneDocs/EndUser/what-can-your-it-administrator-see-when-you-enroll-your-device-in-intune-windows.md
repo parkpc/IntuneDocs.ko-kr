@@ -1,11 +1,11 @@
 ---
-title: "Intune에서 내 장치를 등록하면 IT 관리자에게 무엇이 표시되나요? | Microsoft 문서"
+title: "Intune에서 장치를 등록하면 IT 관리자에게 무엇이 표시되나요? | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,14 +17,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: c3c4fc47e953a562def6e1334502760fc08390ac
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: e810d66c46eafe2acd505c1a28054f7e97ff9f4a
 
 
 ---
 
 
-# <a name="what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune"></a>Intune에서 내 장치를 등록하면 IT 관리자에게 무엇이 표시되나요?
+# <a name="what-can-your-it-admin-see-when-you-enroll-a-device-in-intune"></a>Intune에서 장치를 등록하면 IT 관리자에게 무엇이 표시되나요?
 
 Intune에 Windows 장치를 등록하면 IT 관리자에게 장치 관리를 통해 장치에 있는 회사 정보를 보호하는 권한이 부여됩니다.
 
@@ -64,6 +64,6 @@ Intune에 Windows 장치를 등록하면 IT 관리자에게 장치 관리를 통
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

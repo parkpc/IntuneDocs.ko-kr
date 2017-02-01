@@ -1,11 +1,11 @@
 ---
-title: Unenroll your device from Intune if you declined "Terms of Use" | Microsoft Docs
+title: Unenroll your device if you declined "Terms of Use" | Microsoft Docs
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,14 +16,14 @@ searchScope:
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1d91847166f0e2da22a322ac1a1483266b46d8ed
-ms.openlocfilehash: e8dbf10fcc649bd71ac33bd07d1d79f825a91f73
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: 68049a61bd14a8713a3b5561a45b7ee09fd0729c
 
 
 ---
 
 
-# <a name="unenroll-your-device-from-intune-if-you-declined-terms-of-use"></a>“사용 약관”을 거부한 경우 Intune에서 장치 등록 취소
+# <a name="unenroll-your-device-if-you-declined-terms-of-use"></a>"사용 약관"을 거부한 경우 장치 등록 취소
 
 Android 장치 등록을 취소하는 가장 좋은 방법은 사용 약관에 동의하고, 회사 포털 앱에 로그인한 다음, [이 지침](unenroll-your-device-from-intune-android.md)을 사용하여 등록을 해제하는 것입니다. 하지만, 회사 포털 앱에 로그인을 시도하는 동안 사용 약관을 거부하면, 다음 시도 시 회사 포털 앱에 로그인이 금지되므로, 이 "해결 방법" 지침을 사용하여 장치의 등록을 해제합니다.
 
@@ -45,6 +45,6 @@ Intune에서 장치 등록을 취소하고 회사 포털 앱을 제거하려면
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 

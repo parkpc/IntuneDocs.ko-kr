@@ -1,11 +1,11 @@
 ---
-title: "회사 포털 앱을 사용하는 동안 오류가 발생하는 경우 | Microsoft 문서"
+title: "회사 포털 앱에서 오류가 발생하는 경우 | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/27/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,8 +17,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1bf478eae73bb7385369e4d5cde26b937831e665
-ms.openlocfilehash: e4c91d96c11847dac28142993d9825c42d9f2b31
+ms.sourcegitcommit: 3bda44c401ae7cf5dd796486d2d1a6332828bed1
+ms.openlocfilehash: 34ad0d3c65230d4d296027e8431f1087c59f289a
 
 
 ---
@@ -38,6 +38,6 @@ iOS 장치에서 회사 포털 앱을 사용할 때 오류가 표시되면 오�
 
 
 
-<!--HONumber=Dec16_HO5-->
+<!--HONumber=Jan17_HO4-->
 
 

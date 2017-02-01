@@ -1,3 +1,25 @@
+---
+title: "MAM 및 앱 보호에 대한 질문과 대답"
+description: "이 문서에서는 Intune MAM(모바일 응용 프로그램 관리) 및 Intune 앱 보호에 대한 일부 질문과 대답을 제공합니다."
+keywords: 
+author: oydang
+ms.author: oydang
+manager: mtillman
+ms.date: 01/20/2017
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 149def73-9d08-494b-97b7-4ba1572f0623
+ms.reviewer: oydang
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: 474bb04d743290ff78aa0772595b744be46ae1af
+ms.openlocfilehash: b6b2d066b773e91003884a8735b6663ebf125aa3
+
+
+---
+
 # <a name="frequently-asked-questions-about-mam-and-app-protection"></a>MAM 및 앱 보호에 대한 질문과 대답
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -111,7 +133,15 @@
 
 **데이터 전송 정책이 "관리되는 앱만" 또는 "앱 없음"으로 설정된 경우에도 iOS 공유 확장을 사용하여 관리되지 않는 앱에서 회사 또는 학교 데이터를 열 수 있습니다. 데이터가 유출되지는 않나요?** Intune 앱 보호 정책은 장치를 관리하지 않고는 iOS 공유 확장을 제어할 수 없습니다. 따라서 Intune은 _**"회사" 데이터를 앱 외부에서 공유하기 전에 먼저 암호화합니다**_. 관리되는 앱 외부에서 "회사" 파일을 열려고 시도하여 이를 확인할 수 있습니다. 파일이 암호화되어야 하며, 관리되는 앱 외부에서 파일을 열 수 없어야 합니다.
 
+### <a name="see-also"></a>참고 항목
+- [Microsoft Intune의 Android 모바일 앱 관리 정책 설정](android-mam-policy-settings.md)
+- [iOS 모바일 앱 관리 정책 설정](ios-mam-policy-settings.md)
+- [모바일 응용 프로그램 관리 설정 유효성 검사](validate-mobile-application-management.md)
+- [Microsoft Intune을 사용하여 모바일 앱 관리 정책 구성 준비](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
+- [Microsoft Intune에 대한 관리 지원을 받는 방법](../troubleshoot/how-to-get-support-for-microsoft-intune.md)
 
-<!--HONumber=Jan17_HO2-->
+
+
+<!--HONumber=Jan17_HO4-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "새 버전의 회사 포털 앱 설치 | Microsoft 문서"
+title: "회사 포털 앱을 업데이트하는 방법 | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ searchScope:
 - Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
-ms.openlocfilehash: 82679d4d9ef017dd29429b83a039f3edbfb7911d
+ms.sourcegitcommit: 3bda44c401ae7cf5dd796486d2d1a6332828bed1
+ms.openlocfilehash: 2e05e3af45628930eadec0ac97736b0354412aec
 
 
 ---
 
-# <a name="install-a-new-version-of-the-company-portal-app"></a>새 버전의 회사 포털 앱 설치
+# <a name="how-to-update-the-company-portal-app"></a>회사 포털 앱을 업데이트하는 방법
 
 사용 중인 회사 포털 앱 버전이 더 이상 지원되지 않거나 사용 가능한 새 버전의 회사 포털 앱이 있는 경우 최신 버전으로 업데이트해야 합니다. 사용하는 장치 유형에 해당하는 절차를 사용하세요.
 
@@ -53,6 +53,6 @@ ms.openlocfilehash: 82679d4d9ef017dd29429b83a039f3edbfb7911d
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 

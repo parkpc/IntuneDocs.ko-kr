@@ -1,11 +1,11 @@
 ---
-title: "Android 장치가 잠기기까지의 기간을 설정하는 방법 | Microsoft 문서"
+title: "화면이 잠기기까지 걸리는 기간 설정 | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,13 +17,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
-ms.openlocfilehash: 5df88351d84da28c93d010b8484601b7dbcdaf7e
+ms.sourcegitcommit: 3bda44c401ae7cf5dd796486d2d1a6332828bed1
+ms.openlocfilehash: be3307165b420ef0fe9c143a3a55f88285a344da
 
 
 ---
 
-# <a name="how-to-set-the-period-before-your-android-device-is-locked"></a>Android 장치가 잠기기까지의 기간을 설정하는 방법
+# <a name="how-to-set-the-amount-of-time-before-your-android-device-locks-its-screen"></a>Android 장치에서 화면이 잠기기까지 걸리는 기간을 설정하는 방법
+
 회사에 다시 연결하려면 사용 중인 장치 유형에 대한 단계에 따라 장치의 암호 제한 시간을 설정해야 합니다.
 
 ## <a name="native-non-samsung-knox-device"></a>네이티브(비 Samsung KNOX) 장치
@@ -46,6 +47,6 @@ ms.openlocfilehash: 5df88351d84da28c93d010b8484601b7dbcdaf7e
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 

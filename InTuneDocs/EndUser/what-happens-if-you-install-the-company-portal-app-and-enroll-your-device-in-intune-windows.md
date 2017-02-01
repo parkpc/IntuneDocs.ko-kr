@@ -1,11 +1,11 @@
 ---
-title: "Intune에서 회사 포털 앱을 설치하고 Windows 장치를 등록하면 어떻게 되나요? | Microsoft 문서"
+title: "Windows용 회사 포털 앱 설치 | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,8 +17,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: ae372c141ffd98d280715c454057284c4bd3d6e9
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: 7a4b5acea4a4bdce32c42ca33f81778965ee1abb
 
 
 ---
@@ -65,8 +65,8 @@ Intune에서 Windows 또는 Windows Phone 장치를 등록하면 다음을 수�
 
 -  IT 관리자가 사용자 컴퓨터에 앱 및 업데이트를 설치할 수 있습니다.
 
-## <a name="what-happens-every-eight-hours-after-device-enrollment"></a>장치 등록 후 8시간마다 발생되는 작업
-등록된 장치에서 8시간마다 다음 작업이 수행됩니다.
+## <a name="what-happens-every-eight-hours-after-device-enrollment"></a>장치 등록 후&8;시간마다 발생되는 작업
+등록된 장치에서&8;시간마다 다음 작업이 수행됩니다.
 
 -   IT 관리자가 사용하도록 설정한 임의의 정책 또는 앱 업데이트를 다운로드합니다.
 
@@ -78,6 +78,6 @@ Intune에서 Windows 또는 Windows Phone 장치를 등록하면 다음을 수�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "암호가 IT 관리자 요구 사항을 충족하지 않음 | Microsoft 문서"
+title: "암호가 IT 관리자의 요구 사항을 충족하지 않음 | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/20/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ searchScope:
 - Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 14ac49d73648244f71eff90b71272b60a07cd37e
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: 395c9bdc8aad13123b6a22b6edac0b8714323f2f
 
 
 ---
 
-# <a name="password-does-not-meet-it-administrator-requirements"></a>암호가 IT 관리자 요구 사항을 충족하지 않음
+# <a name="your-password-does-not-meet-your-it-admins-requirements"></a>암호가 IT 관리자의 요구 사항을 충족하지 않음
 
 회사 또는 학교 리소스에 액세스하는 데 사용하는 암호가 IT 관리자가 설정한 요구 사항을 하나 이상 충족하지 않습니다. 이 문제를 해결하려면 장치에 표시되는 지침을 따릅니다. 문제에 대한 설명은 아래에 나와 있습니다.
 
@@ -51,6 +51,6 @@ PIN 또는 암호 문제 설명:
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 
