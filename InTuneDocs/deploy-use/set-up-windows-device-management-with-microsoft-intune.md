@@ -4,7 +4,7 @@ description: "Microsoft Intune으로 Windows 10 장치를 비롯한 Windows Phon
 keywords: 
 author: staciebarker
 manager: stabar
-ms.date: 11/29/2016
+ms.date: 01/26/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 31d58d9973cca4023186731a5411c9c9e830e32a
-ms.openlocfilehash: e24251a066349e23beb94b75a66c5710ba7e41f1
+ms.sourcegitcommit: 526830839aa801a7ac78aeb4baaa790d6bb5da5c
+ms.openlocfilehash: f4f3b89cf066bcc98d043f66d4d40fd9d9ca3fd5
 
 
 ---
@@ -37,7 +37,9 @@ Intune 관리자는 두 가지 방법으로 Windows PC 등록 및 관리를 수�
 1. **Intune 설정**<br>
 MDM(모바일 장치 관리)을 아직 준비하지 않은 경우 [모바일 장치 관리 기관](prerequisites-for-enrollment.md#step-2-set-mdm-authority)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
 
-2. **CNAME 만들기**(선택 사항)<br>회사의 도메인에 대한 **CNAME** DNS 리소스 레코드를 만들어야 합니다. 예를 들어, 회사의 웹 사이트가 contoso.com인 경우 DNS에 EnterpriseEnrollment.contoso.com을 enterpriseenrollment.manage.microsoft.com으로 리디렉션하는 CNAME을 만듭니다.
+2. **CNAME 만들기**(선택 사항)<br>회사의 도메인에 대한 **CNAME** DNS 리소스 레코드를 만들어야 합니다. 예를 들어, 회사의 웹 사이트가 contoso.com인 경우 DNS에 EnterpriseEnrollment.contoso.com을 enterpriseenrollment-s.manage.microsoft.com으로 리디렉션하는 CNAME을 만듭니다.
+
+    CNAME DNS 항목은 선택 사항이지만 CNAME 레코드를 통해 보다 쉽게 등록할 수 있습니다. 등록 CNAME 레코드가 없으면 사용자에게 MDM 서버 이름인 https://enrollment.manage.microsoft.com을 수동으로 입력하라는 메시지가 표시됩니다. 
 
     DNS에 EnterpriseEnrollment.contoso.com을 manage.microsoft.com으로 리디렉션하는 CNAME가 있다면 이 DNS의 CNAME를 EnterpriseEnrollment.contoso.com을 enterpriseenrollment-s.manage.microsoft.com으로 리디렉션하는 CNAME로 바꾸는 것이 좋습니다. manage.microsoft.com 끝점을 향후 릴리스에서 등록 시 사용하지 않기 때문에 이렇게 변경하는 것이 좋습니다.
 
@@ -58,9 +60,7 @@ MDM(모바일 장치 관리)을 아직 준비하지 않은 경우 [모바일 장
 
 3.  **CNAME 확인**<br>[Intune 관리 콘솔](http://manage.microsoft.com)에서 **관리** &gt; **모바일 장치 관리** &gt; **Windows**를 선택합니다. 회사 웹 사이트의 확인된 도메인 URL을 **확인된 도메인 이름 지정** 상자에 입력하고 **자동 검색 테스트**를 선택합니다.
 
-4.  **선택적 단계**<br>Windows 10에서는 **테스트용 로드 키 추가** 단계를 수행할 필요가 없습니다. **코드 서명 인증서 업로드** 단계는 Windows 스토어에서 사용할 수 없는 LOB(기간 업무) 앱을 장치에 배포하려는 경우에만 수행하면 됩니다.
-
-6.  **장치를 등록하는 방법과 장치가 관리될 때 발생하는 상황에 대한 정보를 사용자에게 제공해야 합니다.**
+4.  **장치를 등록하는 방법과 장치가 관리될 때 발생하는 상황에 대한 정보를 사용자에게 제공해야 합니다.**
 
     최종 사용자 등록 지침은 [Intune에서 Windows 장치 등록](https://docs.microsoft.com/intune/enduser/enroll-your-device-in-intune-windows)을 참조하세요.
 
@@ -72,6 +72,6 @@ MDM(모바일 장치 관리)을 아직 준비하지 않은 경우 [모바일 장
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 

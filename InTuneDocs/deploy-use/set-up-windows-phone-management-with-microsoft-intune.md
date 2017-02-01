@@ -13,8 +13,8 @@ ms.assetid: f5615051-2dd1-453b-9872-d3fdcefb2cb8
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: d58b2d57ec99add7bbc372584f0ecc430830530a
+ms.sourcegitcommit: 526830839aa801a7ac78aeb4baaa790d6bb5da5c
+ms.openlocfilehash: ac22478c1de2421e1a7345aca92510fbda73f7e8
 
 
 ---
@@ -39,7 +39,7 @@ Intune 관리자는 두 가지 방법으로 Windows 10 Mobile 및 Windows Phone 
 
 2.  **CNAME 만들기**(선택 사항)<br>회사의 도메인에 대한 **CNAME** DNS 리소스 레코드를 만들어야 합니다. 예를 들어, 회사의 웹 사이트가 contoso.com인 경우 DNS에 EnterpriseEnrollment.contoso.com을 enterpriseenrollment-s.manage.microsoft.com으로 리디렉션하는 CNAME을 만듭니다.
 
-    CNAME DNS 항목은 선택 사항이지만 CNAME 레코드를 통해 보다 쉽게 등록할 수 있습니다. 등록 CNAME 레코드가 없으면 사용자에게 MDM 서버 이름인 https://manage.microsoft.com을 수동으로 입력하라는 메시지가 표시됩니다.
+    CNAME DNS 항목은 선택 사항이지만 CNAME 레코드를 통해 보다 쉽게 등록할 수 있습니다. 등록 CNAME 레코드가 없으면 사용자에게 MDM 서버 이름인 https://enrollment.manage.microsoft.com을 수동으로 입력하라는 메시지가 표시됩니다.
 
     DNS에 EnterpriseEnrollment.contoso.com을 manage.microsoft.com으로 리디렉션하는 CNAME가 있다면 이 DNS의 CNAME를 EnterpriseEnrollment.contoso.com을 enterpriseenrollment-s.manage.microsoft.com으로 리디렉션하는 CNAME로 바꾸는 것이 좋습니다. manage.microsoft.com 끝점을 향후 릴리스에서 등록 시 사용하지 않기 때문에 이렇게 변경하는 것이 좋습니다.
 
@@ -62,9 +62,7 @@ Intune 관리자는 두 가지 방법으로 Windows 10 Mobile 및 Windows Phone 
 
     ![Windows 대화 상자에 대한 모바일 장치 관리 설정](../media/windows-phone-enrollment.png)
 
-4.  **선택적 단계**<br>Windows 10에서는 **테스트용 로드 키 추가** 단계를 수행할 필요가 없습니다. **코드 서명 인증서 업로드** 단계는 Windows 스토어에서 사용할 수 없는 LOB(기간 업무) 앱을 장치에 배포하려는 경우에만 수행하면 됩니다.
-
-5.  **회사 리소스를 이용할 수 있도록 사용자에게 장치를 등록하는 방법 설명**
+4.  **회사 리소스를 이용할 수 있도록 사용자에게 장치를 등록하는 방법 설명**
 
     최종 사용자 등록 지침은 [Intune에서 Windows 장치 등록](../enduser/enroll-your-device-in-intune-windows.md)을 참조하세요. 사용자에게 [Intune에서 내 장치를 등록하면 IT 관리자에게 무엇이 표시되나요?](../enduser/what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)를 참조하도록 알려주어도 됩니다.
 
@@ -76,6 +74,6 @@ Intune 관리자는 두 가지 방법으로 Windows 10 Mobile 및 Windows Phone 
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 
