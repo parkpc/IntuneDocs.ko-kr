@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,14 +17,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 501b2c5990acce9bc2f8c5efd1efc07fbee1606f
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: 352e76d4a2e1d0c9f92fce196d6e699b3cf6e333
 
 
 ---
 
 
-# <a name="use-verbose-logging-to-help-your-it-admin-fix-device-issues"></a>자세한 정보 로깅을 사용하여 IT 관리자가 장치 문제를 해결하도록 돕기
+# <a name="help-your-it-admin-fix-device-issues-with-verbose-logging"></a>자세한 정보 로깅을 사용하여 IT 관리자의 장치 문제 해결 돕기
 
 Android 장치가 Intune에 등록되어 있으면 *자세한 정보 로깅* 설정을 사용하여 회사 포털 앱 및 Intune 관리 앱이 장치에서 발생하는 일에 대한 자세한 로그를 기록하도록 할 수 있습니다. 이러한 로그는 회사 포털이나 Intune에서 관리하는 앱을 사용하고 있을 때 발생할 수 있는 문제를 IT 관리자가 수정하는 데 도움이 됩니다. 자세한 정보 로깅 기능은 장치에서 기본적으로 설정되어 있으며, IT 관리자에게 보내지는 로그에는 보내는 사람의 메일 주소가 포함됩니다.
 
@@ -34,6 +34,6 @@ Android 장치가 Intune에 등록되어 있으면 *자세한 정보 로깅* 설
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

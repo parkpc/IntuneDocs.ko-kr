@@ -1,5 +1,5 @@
 ---
-title: "Dynamics CRM Online에 대한 액세스 보호 | Microsoft 문서"
+title: "Dynamics CRM Online 보호 | Microsoft 문서"
 description: "조건부 액세스로 Dynamics CRM Online을 보호하고 액세스를 제어합니다."
 keywords: 
 author: andredm7
@@ -14,8 +14,8 @@ ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9f34d54710f0ec662eecec85f7fa041061132a0d
-ms.openlocfilehash: 0049da7a47070e42cf0f377da5a99d3222d9ed82
+ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
+ms.openlocfilehash: 827c7cd1b6b3ef98a681eef26bb7742228fca5e9
 
 
 ---
@@ -104,6 +104,6 @@ Dynamics CRM 정책에 사용할 두 가지 그룹 유형을 지정할 수 있�
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO4-->
 
 

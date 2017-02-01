@@ -1,6 +1,6 @@
 ---
 
-title: "Android 및 Samsung KNOX Standard 정책 설정 | Microsoft 문서"
+title: "Android 및 Samsung KNOX 정책 설정 | Microsoft 문서"
 description: "Intune으로 관리하는 Android 장치에서 설정 및 기능을 제어하는 정책을 만듭니다."
 keywords: 
 author: robstackmsft
@@ -15,8 +15,8 @@ ms.assetid: 71cc39cf-e726-40fd-8d08-78776e099a4b
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a90e5bc6ed9c4c7447f6ed673f9b75db99257c04
-ms.openlocfilehash: 3f7236989ec2d444601aba4a594175a289e2fc77
+ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
+ms.openlocfilehash: 2da96c2ffb6cc826494972ab8c88ce62981eeae6
 
 
 ---
@@ -211,6 +211,6 @@ Intune은 현재 제한된 수의 Android 사용자 지정 정책을 지원합�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

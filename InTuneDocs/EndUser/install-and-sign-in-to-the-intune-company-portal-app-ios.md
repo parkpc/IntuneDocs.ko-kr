@@ -1,11 +1,11 @@
 ---
-title: "Intune 회사 포털 앱 설치 및 로그인 | Microsoft 문서"
+title: "회사 포털 앱 설치 및 로그인 | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,14 +17,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
-ms.openlocfilehash: fa7527d3dad71fada2abd0aeb8e2dd0f76b983b3
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: cf110d8758e8ab589acbceabb5df733b29068b0f
 
 
 ---
 
 
-# <a name="install-and-sign-in-to-the-intune-company-portal-app"></a>Intune 회사 포털 앱 설치 및 로그인
+# <a name="install-and-sign-in-to-the-company-portal-app"></a>회사 포털 앱 설치 및 로그인
 
 회사 포털은 회사 또는 학교 앱, 메일 및 네트워크에 대한 액세스 권한을 제공하기 위해 iOS 장치에 설치하는 앱입니다.  액세스 권한을 받으려면 먼저 회사 포털 앱을 설치한 다음, 앱을 사용하여 Microsoft Intune에서 장치를 등록해야 합니다. 자세한 내용은 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)를 참조하세요.
 
@@ -42,6 +42,6 @@ ms.openlocfilehash: fa7527d3dad71fada2abd0aeb8e2dd0f76b983b3
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 

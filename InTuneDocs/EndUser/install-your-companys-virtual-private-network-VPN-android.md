@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,14 +17,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
-ms.openlocfilehash: 0df9d0bd3281fac683a5b5b27b320fd17e0f32b6
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: 009b86dd581b01464b72bdbd0107d08ee6645f03
 
 
 ---
 
 
-# <a name="install-your-companys-virtual-private-network-vpn"></a>회사의 VPN(가상 사설망) 설치
+# <a name="how-to-install-your-companys-virtual-private-network-vpn"></a>회사의 VPN(가상 사설망)을 설치하는 방법
 
 회사 리소스에 연결할 수 있도록 IT 관리자가 VPN 응용 프로그램을 구성한 경우에는 VPN 앱을 설치해야 한다는 알림이 Android 장치에 표시됩니다. VPN 앱을 설치하려면 다음 단계를 수행합니다.
 
@@ -39,8 +39,6 @@ ms.openlocfilehash: 0df9d0bd3281fac683a5b5b27b320fd17e0f32b6
 
 
 
-
-
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 

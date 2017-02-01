@@ -1,5 +1,5 @@
 ---
-title: "메일에 대한 액세스 보호 예제 시나리오 | Microsoft 문서"
+title: "메일 시나리오 보호 | Microsoft 문서"
 description: "몇 가지 예제 시나리오와 이러한 시나리오를 조건부 액세스로 구현할 수 있는 방법입니다."
 keywords: 
 author: andredm7
@@ -14,8 +14,8 @@ ms.assetid: 454eab79-b620-42c9-b8e6-fada6e719fcd
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9f34d54710f0ec662eecec85f7fa041061132a0d
-ms.openlocfilehash: eca68c053185dbd5e7f89a426d3bed44cc09acf1
+ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
+ms.openlocfilehash: c02961aa984f8041394639a872bf4cfcdfc0be91
 
 
 ---
@@ -84,6 +84,6 @@ ms.openlocfilehash: eca68c053185dbd5e7f89a426d3bed44cc09acf1
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO4-->
 
 

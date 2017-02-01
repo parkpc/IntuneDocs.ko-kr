@@ -1,11 +1,11 @@
 ---
-title: "Android 장치용 준수 정책 설정 | Microsoft 문서"
+title: "Android용 준수 정책 설정 | Microsoft 문서"
 description: "이 항목에서는 Android 장치에 대한 장치 준수 정책 설정에 대해 설명합니다."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 11/08/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 1c4721172d36f4f9b2b149f0da96e65bc65d9484
+ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
+ms.openlocfilehash: 90484c98e58203696e0acbfebd71eeb36b274969
 
 
 ---
@@ -89,6 +89,6 @@ ms.openlocfilehash: 1c4721172d36f4f9b2b149f0da96e65bc65d9484
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 
