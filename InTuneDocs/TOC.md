@@ -106,7 +106,7 @@
 
 ## [장치 보호](deploy-use/protect-your-devices-with-microsoft-intune.md)
 ### [원격 잠금 및 암호 재설정](deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
-### [MFA를 통한 Windows 장치 보호](deploy-use/protect-windows-devices-with-multi-factor-authentication.md)
+### [MFA를 통한 Windows 장치 보호](deploy-use/multi-factor-authentication-azure-active-directory.md)
 ### [비즈니스용 Windows Hello 설정 제어](deploy-use/control-microsoft-passport-settings-on-devices-with-microsoft-intune.md)
 ### [iOS에서 활성화 잠금 무시](deploy-use/help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md)
 ### [Windows PC를 보호하는 정책](deploy-use/policies-to-protect-windows-pcs-in-microsoft-intune.md)
