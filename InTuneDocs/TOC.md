@@ -42,8 +42,8 @@
 ## [섹션 9: 테스트 및 유효성 검사](plan-design/section-9-test-and-validation.md)
 ## [추가 리소스](plan-design/additional-resources.md)
 
-# 새로운 기능
-## [새로운 기능](whats-new/whats-new-in-microsoft-intune.md)
+# [새로운 기능](whats-new/whats-new-in-microsoft-intune.md)
+## [앱 UI의 새로운 기능](whats-new/whats-new-in-intune-app-ui.md)
 ## [Azure Tools의 새로운 기능](/intune-azure/introduction/whats-new?toc=%2fintune%2ftoc.json)
 ## [새로운 기능 - 아카이브](whats-new/whats-new-archive.md)
 
@@ -159,9 +159,9 @@
 #### [ADAL 없는 앱 차단](deploy-use/block-apps-with-no-modern-authentication.md)
 ### [네트워크에 대한 액세스 보호(Cisco ISE)](deploy-use/restrict-access-to-networks.md)
 ### [장치, 네트워크 및 응용 프로그램 위험에 따라 액세스 보호](deploy-use/device-threat-protection.md)
-#### [Lookout 장치 위협 방지 설정](deploy-use/device-threat-protection-subscription-setup.md)
-#### [Intune에서 Lookout 사용](deploy-use/device-threat-protection-enable.md)
-#### [Lookout for Work 앱 배포](deploy-use/device-threat-protection-apps.md)
+#### [장치 위협 방지 설정](deploy-use/device-threat-protection-subscription-setup.md)
+#### [장치 위협 방지 사용](deploy-use/device-threat-protection-enable.md)
+#### [장치 위협 방지 앱 배포](deploy-use/device-threat-protection-apps.md)
 #### [장치 위협 방지 준수 정책 사용](deploy-use/device-threat-protection-policy.md)
 
 ### [MAM을 사용하여 앱 데이터 보호](deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
@@ -217,11 +217,11 @@
 
 ## [모바일 앱 관리 문제 해결](troubleshoot/troubleshoot-mam.md)
 
-## [Lookout 통합 문제 해결](troubleshoot/troubleshooting-lookout-integration.md)
+## [장치 위협 방지 문제 해결](troubleshoot/device-threat-protection-troubleshooting.md)
 
 # [용어 설명](understand-explore/intune-glossary.md)
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Jan17_HO5-->
 
 
