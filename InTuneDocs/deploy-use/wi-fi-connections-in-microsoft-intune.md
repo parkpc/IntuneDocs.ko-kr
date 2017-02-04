@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 10/10/2016
+ms.date: 02/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -50,8 +50,6 @@ Microsoft Intune Wi-Fi 프로필을 사용하여 무선 네트워크 설정을 �
 -   Mac OS X 10.9 이상
 
 Windows 8.1 또는 Windows 10 데스크톱이나 모바일 운영 체제를 실행하는 장치의 경우에는 이전에 파일로 내보낸 Wi-Fi 구성 프로필을 가져올 수 있습니다. 자세한 내용은 [Windows 장치용 Wi-Fi 구성 프로필 내보내기 또는 가져오기](#export-or-import-a-wi-fi-configuration-profile-for-windows-devices)를 참조하세요.
-
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택합니다.
 

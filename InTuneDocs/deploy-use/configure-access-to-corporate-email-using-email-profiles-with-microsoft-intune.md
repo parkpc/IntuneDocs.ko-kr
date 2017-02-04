@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/10/2016
+ms.date: 02/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -23,8 +23,6 @@ ms.openlocfilehash: 519d3f475e158391b08ab4e51f9410b7bdefcd4c
 # <a name="configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune"></a>Microsoft Intune에서 메일 프로필을 사용하여 회사 메일에 대한 액세스 구성
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
-
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 
 다양한 모바일 플랫폼은 운영 체제의 일부로 제공되는 네이티브 전자 메일 클라이언트를 포함합니다. 이러한 클라이언트 중 일부를 이 항목에서 설명하는 전자 메일 프로필을 사용하여 설정할 수 있습니다.
 
