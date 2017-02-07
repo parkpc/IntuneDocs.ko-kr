@@ -2,8 +2,8 @@
 title: "장치 위협 방지를 사용하여 액세스 보호 | Microsoft 문서"
 description: "장치, 네트워크 및 응용 프로그램 위험에 따라 회사 리소스에 대한 액세스를 보호합니다."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 01/03/2017
 ms.topic: article
