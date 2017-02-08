@@ -148,6 +148,6 @@ Microsoft가 Intune을 개선하는 방법에 대한 피드백이 있나요? Mic
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO2-->
 
 
