@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/3/2016
+ms.date: 02/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: fc6b645a-e837-4b2a-a10f-144065cbd8dd
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 008c0d20312e90f3897c3da8ae2226e3e2595225
-ms.openlocfilehash: 6cb6b4b989d88289c5dffb693f98198ba6439aae
+ms.sourcegitcommit: 31e28514ab4bdb0f5af261a1f7c87633ca0bd4a6
+ms.openlocfilehash: 58671d037c7f62e5fdaa56657737a4470c90bdb7
 
 
 ---
@@ -29,18 +29,16 @@ ms.openlocfilehash: 6cb6b4b989d88289c5dffb693f98198ba6439aae
 Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 앱을 실행할 때 필요할 수 있는 설정을 제공할 수 있습니다. 예를 들어 사용자가 앱에서 다음 사항을 지정해야 할 수 있습니다.
 
 -   사용자 지정 포트 번호
-
 -   언어 설정
-
 -   회사 로고와 같은 브랜딩 설정
 
-사용자가 이러한 설정을 잘못 입력하면 기술 지원팀의 부담이 증가하며 새 앱 도입이 지연됩니다.
+사용자가 설정을 잘못 입력하면 기술 지원팀의 부담이 증가하며 새 앱 도입이 지연됩니다.
 
-모바일 앱 구성 정책을 사용하는 경우 사용자가 앱을 실행하기 전에 이러한 설정을 사용자에게 배포할 수 있으므로 이와 같은 문제를 방지할 수 있습니다. 배포한 설정은 자동으로 제공되므로 사용자가 아무런 작업을 수행하지 않아도 됩니다.
+사용자가 앱을 실행하기 전에 모바일 앱 구성 정책을 통해 이러한 설정을 장치에 배포할 수 있습니다. 배포한 설정은 자동으로 제공되므로 사용자가 아무런 작업을 수행할 필요가 없습니다.
 
-앱 구성 정책을 활용하려면 앱 개발자는 앱을 만들 때 엔터프라이즈 앱 구성을 공개했어야 합니다. 예를 들어 Google Chrome에서는 기본 책갈피, 허용되거나 거부된 사이트 등을 설정할 수 있게 하는 설정을 공개합니다. 이러한 설정이 지원되는지 확인하고 정책에서 지정하는 방법을 확인하려면 앱 개발자에게 문의하세요.
+앱 구성 정책을 활용하려면 앱 개발자가 앱을 만들 때 엔터프라이즈 앱 구성을 공개했어야 합니다. 예를 들어 Google Chrome에서는 기본 책갈피, 허용되거나 거부된 사이트 등을 설정할 수 있게 하는 설정을 공개합니다. 이러한 설정이 지원되는지 확인하고 정책에서 지정하는 방법을 확인하려면 앱 개발자에게 문의하세요.
 
-앱 구성 정책은 구성할 앱을 배포한 동일한 사용자에게 배포합니다. 앱이 실행될 때마다 정책 설정이 사용됩니다.
+앱 구성 정책은 구성할 앱을 배포한 동일한 사용자에게 배포합니다. 앱 설정은 앱이 실행될 때 적용됩니다.
 
 ## <a name="configure-a-mobile-app-configuration-policy"></a>모바일 앱 구성 정책 구성
 
@@ -80,6 +78,6 @@ Android for Work 장치에 앱을 배포하는 방법에 대한 자세한 내용
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO1-->
 
 
