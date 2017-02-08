@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/12/2017
+ms.date: 01/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: cacampbell
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2fdf4086ccf4b4f256596b7d0f7192b70a4efd2a
-ms.openlocfilehash: a2f3eab11f208c0260dc4dbc245801416dc36633
+ms.sourcegitcommit: 3ab53e40f4b7ea67733127f445005ecb77a404f7
+ms.openlocfilehash: 37031eed6efa48ff52ec37a942fa77af414f78fe
 
 
 ---
@@ -39,8 +39,7 @@ You can block apps that are not supported by Intune mobile app management (MAM) 
 ### <a name="android-711-support---694397--"></a>Android 7.1.1 지원<!--694397-->
 Intune은 이제 Android 7.1.1을 완벽하게 지원하고 관리합니다.
 
-### <a name="resolve-issue-where-ios-devices-are-inactive-or-the-admin-console-cannot-communicate-with-them"></a>iOS 장치가 비활성 상태이거나, 관리 콘솔에서 통신할 수 없는 경우 문제 해결
-
+### <a name="resolve-issue-where-ios-devices-are-inactive-or-the-admin-console-cannot-communicate-with-them---unknown--"></a>iOS 장치가 비활성 상태이거나, 관리 콘솔에서 통신할 수 없는 경우 문제 해결 <!--unknown-->
 사용자 장치에서 Intune과의 연결이 끊기는 경우 회사 리소스에 대한 액세스 권한을 다시 얻도록 새로운 문제 해결 단계를 제공할 수 있습니다. [장치가 비활성 상태이거나, 관리 콘솔에서 통신할 수 없음](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune#devices-are-inactive-or-the-admin-console-cannot-communicate-with-them)을 참조하세요.
 
 ## <a name="notices"></a>알림
@@ -55,6 +54,9 @@ Links inside of the Company Portal app for iOS, including those to documentation
 
 ### <a name="improving-mobile-app-management-support-for-selective-wipe---581242--"></a>선택적 초기화에 대한 모바일 앱 관리 지원 향상 <!--581242-->
 "앱 데이터를 초기화하기 전의 오프라인 간격" 정책으로 인해 데이터가 자동으로 제거되는 경우 회사 또는 학교 데이터에 다시 액세스하는 방법에 대한 추가 지침이 최종 사용자에게 제공됩니다.<!--, or the removal of the Intune Company Portal on Android.-->
+
+### <a name="modernizing-the-company-portal-website---753980--"></a>회사 포털 웹 사이트 현대화 <!--753980-->
+2월부터 회사 포털 웹 사이트는 관리 장치가 없는 사용자를 대상으로 하는 앱을 지원합니다. 이 웹 사이트는 새로운 대비 색 구성표, 동적 일러스트레이션, 기술 지원팀 연락처 세부 정보 및 기존 관리 장치에 대한 정보를 포함하는 "햄버거 메뉴" ![회사 포털 웹 사이트 햄버거 메뉴](../media/CP_hamburger_menu.png)를 사용하여 다른 Microsoft 제품 및 서비스에 맞춥니다. 방문 페이지는 추천 및 최근에 업데이트된 앱에 대한 슬라이드를 포함하여 사용자가 사용할 수 있는 앱을 강조하도록 재조정됩니다. [What's new in the Company Portal UI](https://docs.microsoft.com/intune/whats-new/whats-new-in-intune-app-ui#January_2017)(회사 포털 UI의 새로운 기능) 페이지에서 사용 가능한 이전 및 이후 이미지를 찾을 수 있습니다.
 
 ### <a name="new-documentation-for-app-protection-policies---583398--"></a>앱 보호 정책에 대한 새 설명서<!--583398-->
 iOS 및 Android 앱에서 Intune 앱 래핑 도구 또는 Intune 앱 SDK를 사용하여 앱 보호 정책(MAM 정책이라고도 함)을 사용하도록 설정하려는 관리자 및 앱 개발자를 위한 설명서를 업데이트했습니다.
@@ -90,6 +92,7 @@ Azure의 Intune 미리 보기에 대한 새로운 기능은 [여기](https://doc
 * [Microsoft Intune 블로그](http://go.microsoft.com/fwlink/?LinkID=273882)
 * [클라우드 플랫폼 로드맵](http://www.microsoft.com/en-us/server-cloud/roadmap/Indevelopment.aspx?TabIndex=0&dropValue=Intune)
 * [Azure Tools의 새로운 기능](https://docs.microsoft.com/intune-azure/introduction/whats-new)
+* [What's new in the Company Portal UI](https://docs.microsoft.com/intune/whats-new/whats-new-in-company-portal-ui)(회사 포털 UI의 새로운 기능)
 * [새로운 기능 - 아카이브](whats-new-archive.md)
 
 
