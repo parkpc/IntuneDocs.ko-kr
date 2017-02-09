@@ -2,8 +2,8 @@
 title: "Exchange ActiveSync 장치 관리 | Microsoft 문서"
 description: "Exchange Connector를 사용한 EAS(Exchange ActiveSync) 관리를 통해 모바일 장치 관리"
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 07/29/2016
 ms.topic: article

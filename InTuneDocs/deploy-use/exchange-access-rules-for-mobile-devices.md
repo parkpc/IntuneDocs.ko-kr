@@ -2,8 +2,8 @@
 title: "모바일 장치의 Exchange 액세스 규칙 | Microsoft 문서"
 description: "EAS를 통한 장치 연결을 허용하거나 차단할 Exchange ActiveSync 액세스 규칙"
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
