@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
 searchScope:
 - Company Portal
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
@@ -29,9 +30,9 @@ Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows �
 
 장치의 등록을 취소하려면 위의 "이 문서의 내용" 섹션에 표시된 링크 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
 
--   [Windows 10 장치 등록 취소](#unenroll-your-windows-10-device)
--   [Windows 8.1 컴퓨터 등록 취소](#unenroll-your-windows-8-1-computer)
--   [Windows Phone 8.1 장치 등록 취소](#unenroll-your-windows-phone-8-1-device)
+-    [Windows 10 장치 등록 취소](#unenroll-your-windows-10-device)
+-    [Windows 8.1 컴퓨터 등록 취소](#unenroll-your-windows-8-1-computer)
+-    [Windows Phone 8.1 장치 등록 취소](#unenroll-your-windows-phone-8-1-device)
 
 ## <a name="unenroll-your-windows-10-device"></a>Windows 10 장치 등록 취소
 

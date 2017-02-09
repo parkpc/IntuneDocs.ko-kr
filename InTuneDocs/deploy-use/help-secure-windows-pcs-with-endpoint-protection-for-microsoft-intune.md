@@ -2,10 +2,10 @@
 title: "Windows PC용 Endpoint Protection | Microsoft 문서"
 description: "맬웨어 위협으로부터 실시간 보호를 제공하는 Endpoint Protection으로 관리 컴퓨터를 보호합니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: arob98
-ms.date: 07/25/2016
+ms.date: 01/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
