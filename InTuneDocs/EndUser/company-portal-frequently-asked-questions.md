@@ -1,103 +1,13 @@
 ---
-title: "회사 포털이란 무엇입니까? | Microsoft 문서"
-description: 
-keywords: 
-author: barlanmsft
-ms.author: barlan
-manager: angrobe
-ms.date: 01/04/2017
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 523caa6b-d792-4bb6-bddb-24b2479932d8
-searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
-ms.reviewer: jeffgilb
-ms.suite: ems
+redirect_url: https://docs.microsoft.com/intune/enduser/use-managed-devices-to-get-your-work-done
 translationtype: Human Translation
-ms.sourcegitcommit: d2ed7b2e713f5efd4161eb8015ab43c8f97a017b
-ms.openlocfilehash: fa9c3fd2c995615e9aa9a16f3bd834b0c145b6d0
-
+ms.sourcegitcommit: 68c7a23dc8769330c14f74e6aebb07eeb188a991
+ms.openlocfilehash: b4ac7e15106983a6fb7ade089da57b4f28fa9375
 
 ---
 
-# <a name="about-the-company-portal"></a>회사 포털 정보
-
-## <a name="what-is-the-company-portal-and-what-can-you-do-with-it"></a>회사 포털이란 무엇이며 이 포털에서 어떤 작업을 할 수 있나요?
-회사 포털을 통해 회사 또는 학교의 데이터 및 앱에 액세스할 수 있습니다. 다음과 같은 두 가지 방법으로 회사 포털을 사용할 수 있습니다.
-
-- 장치에 회사 포털 앱을 설치합니다. 일반적으로 장치의 앱 스토어로 이동하여 회사 포털 앱을 가져오지만, IT 관리자가 사용자 대신에 회사 포털 앱을 설치할 수도 있습니다.
-- IT 관리자가 설정한 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 이동합니다.
-
-회사 포털 앱과 회사 포털 웹 사이트 사이에는 몇 가지 사소한 차이점이 있지만, 둘 다에서 대부분의 동일한 작업을 수행할 수 있습니다. 다음은 수행할 수 있는 몇 가지 작업입니다.
-
-- 장치 등록
-- 장치의 상태 확인
-- 회사 또는 학교에서 사용할 수 있도록 설정한 앱 다운로드
-- 장치 이름 바꾸기
-- PIN 또는 암호 재설정
-- IT 부서에 지원 문의
-
-장치에서 회사 포털 앱을 사용하여 수행할 수 있는 작업과 회사 포털 웹 사이트를 사용하여 수행할 수 있는 작업을 비교하여 보려면 다음 링크 중 하나를 선택하세요.
-
-> [!div class="op_single_selector"]
-- [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
-- [Intune에서 iOS 및 macOS 장치 사용](using-your-ios-or-macOS-device-with-intune.md)
-- [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
-- [회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
-
-## <a name="what-happens-when-you-add-a-computer-or-device-to-the-company-portal"></a>회사 포털에 컴퓨터 또는 장치를 추가하면 어떻게 되나요?
-회사 포털에 컴퓨터 또는 장치를 추가하면 장치에 따라 몇 가지 소프트웨어를 설치할 수도 있고 앱을 다운로드할 수도 있습니다.  그런데 회사 포털에 장치를 추가하면 IT 관리자가 장치의 회사 정보를 보호하기 위해 사용자의 장치를 관리할 수 있는 권한을 부여하는 것입니다.
-
-IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 대해 알아보려면 다음 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
-
-> [!div class="op_single_selector"]
-- [OWA(Outlook Web Access)](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
-- [iOS 및 macOS](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
-- [Windows](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)
-
-## <a name="what-kind-of-computers-or-devices-can-you-add-to-the-company-portal"></a>회사 포털에 추가할 수 있는 컴퓨터 또는 장치 종류는 무엇인가요?
-
--   iOS(iPhone, iPad) 및 macOS(iMac, MacBook)를 사용하는 Apple 장치
-
--   Android 장치
-
--   Windows 장치
-    -   Windows 10 Mobile
-    -   Windows 10 Desktop
-    -   Windows Phone 8.1
-    -   Windows 8.1
-
-## <a name="can-you-remove-a-computer-or-device-from-the-company-portal"></a>회사 포털에서 컴퓨터 또는 장치를 제거할 수 있나요?
-회사 포털에서 컴퓨터 또는 장치를 제거하거나 초기화할 수 있습니다. **제거** 및 **재설정** 간에 차이가 있습니다.
-
-컴퓨터 또는 장치를 *제거*하는 경우 장치를 Intune에서 등록 취소합니다. 등록 취소하면 더 이상 장치에서 회사 포털에 액세스할 수 없게 되고, 일부 회사 데이터가 장치에서 제거될 수 있습니다. 회사 포털에서 장치를 제거하는 방법을 알아보려면 다음 링크 중 하나를 선택하세요.
-
-> [!div class="op_single_selector"]
-- [OWA(Outlook Web Access)](unenroll-your-device-from-intune-android.md)
-- [iOS 및 macOS](unenroll-your-device-from-intune-ios.md)
-- [Windows](unenroll-your-device-from-intune-windows.md)
-
-컴퓨터 또는 장치를 *초기화*하면 회사 포털에서 컴퓨터 또는 장치를 제조업체의 기본 설정으로 초기화합니다. 장치를 초기화하면 장치에서 모든 회사 및 개인 데이터가 제거됩니다! 장치를 잃어버린 경우 회사 포털 웹 사이트에서 원격으로 장치를 초기화할 수도 있습니다.
-
-장치를 초기화하는 방법을 알아보려면 다음 링크 중 하나를 선택하세요.
-
-> [!div class="op_single_selector"]
-- [OWA(Outlook Web Access)](reset-erase-your-lost-or-stolen-device-android.md)
-- [iOS 및 macOS](reset-erase-your-lost-or-stolen-device-ios.md)
-- [Windows](reset-erase-your-lost-or-stolen-device-windows.md)
-- [회사 포털 웹 사이트에서 장치 다시 설정](reset-your-device-cpwebsite.md)
-
-## <a name="you-do-not-see-all-of-your-devices-in-the-company-portal"></a>회사 포털에서 내 장치 중 일부가 표시되지 않습니다.
-장치를 표시할 수 있으려면 먼저 회사 포털에 추가해야 합니다. 관리자가 지정한 대로 회사 포털로 이동하여 장치에 대한 단계를 따릅니다. 또한 회사에서 소유하고 관리하는 장치가 표시되지 않습니다.
-
-## <a name="if-you-have-questions-contact-your-it-administrator"></a>의문 사항이 있으면 IT 관리자에게 문의하세요.
-도움이 필요하면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
-
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Feb17_HO2-->
 
 
