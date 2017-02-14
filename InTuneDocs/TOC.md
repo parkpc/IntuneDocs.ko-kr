@@ -11,7 +11,8 @@
 
 # [시작](get-started/get-started.md)
 ## [Intune 설정](get-started/start-with-a-paid-subscription-to-microsoft-intune.md)
-### [전제 조건](get-started/what-to-know-before-you-start-microsoft-intune.md)
+### [필수 조건]
+#### [지원되는 장치](get-started/what-to-know-before-you-start-microsoft-intune.md)
 #### [네트워크 사용량](get-started/network-bandwidth-use.md)
 ### [Intune에 로그인](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
 ### [도메인 구성](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-2.md)
@@ -57,7 +58,6 @@
 #### [Android 관리](deploy-use/set-up-android-management-with-microsoft-intune.md)
 #### [Android for Work 관리](deploy-use/set-up-android-for-work.md)
 #### [Windows 장치 관리](deploy-use/set-up-windows-device-management-with-microsoft-intune.md)
-#### [Windows 10 Mobile 및 Windows Phone](deploy-use/set-up-windows-phone-management-with-microsoft-intune.md)
 ### [회사 소유 장치 관리](deploy-use/manage-corporate-owned-devices.md)
 #### [회사 소유의 iOS 장치 등록](deploy-use/enroll-corporate-owned-ios-devices-in-microsoft-intune.md)
 ##### [설정 도우미 등록](deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune.md)
@@ -222,6 +222,6 @@
 # [용어 설명](understand-explore/intune-glossary.md)
 
 
-<!--HONumber=Jan17_HO5-->
+<!--HONumber=Feb17_HO2-->
 
 
