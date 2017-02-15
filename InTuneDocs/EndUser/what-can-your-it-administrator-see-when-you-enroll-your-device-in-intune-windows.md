@@ -30,35 +30,35 @@ Intune에 Windows 장치를 등록하면 IT 관리자에게 장치 관리를 통
 
 **IT 부서에서 볼 수 없는 사항**
 
--   통화 및 웹 기록
+- 통화 및 웹 기록
 
--   위치
+-    위치
 
--   전자 메일 및 문자 메시지
+- 전자 메일 및 문자 메시지
 
--   연락처
+- 연락처
 
--   암호
+-    암호
 
--   일정
+- 일정
 
--   카메라 롤
+- 카메라 롤
 
 **IT 부서에서 볼 수 있는 사항**
 
--   모델
+- 모델
 
--   일련 번호
+- 일련 번호
 
--   운영 체제
+- 운영 체제
 
--   앱 이름
+- 앱 이름
 
--   Owner
+- Owner
 
--   장치 이름
+- 장치 이름
 
--   제조업체
+- 제조업체
 
 자세한 내용은 [Intune에서 회사 포털 앱을 설치하고 Windows 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)를 참조하세요.
 
