@@ -4,6 +4,7 @@
 <!---(introduction/get-started.md) --->
 ### [무료 평가판 등록](introduction/sign-up-free-trial-microsoft-intune.md)
 ## [새로운 기능](introduction/whats-new.md)
+## [알려진 문제](introduction/known-issues-in-the-intune-preview.md)
 <!--- ## [Get support](introduction/get-support.md)
 ## [Related resources](introduction/related-resources.md)
 
@@ -37,13 +38,12 @@
 #### [Apple Configurator 일련 번호 추가](enroll-devices/add-apple-configurator-serial-numbers.md)
 #### [장치 등록 프로그램을 사용하여 iOS 장치 등록](enroll-devices/enroll-ios-devices-using-device-enrollment-program.md)
 ### [장치 등록 관리자를 사용하여 장치 등록](enroll-devices/enroll-devices-using-device-enrollment-manager.md)
-### Windows 장치 등록
-#### [Windows Phone 및 Windows 10 모바일 장치 등록](enroll-devices/enroll-windows-mobile-devices.md)
-#### [Windows PC를 모바일 장치로 등록](enroll-devices/enroll-windows-pcs-as-mobile-devices.md)
+### [macOS 장치 등록](enroll-devices/enroll-macos-devices.md)
+### [Windows 장치 등록](enroll-devices/enroll-window-devices.md)
 ### 모바일 장치 관리
 #### [사용 약관 만들기](enroll-devices/create-terms-and-conditions.md)
 #### [등록 제한 설정](enroll-devices/set-enrollment-restrictions.md)
-#### [장치 그룹 매핑](enroll-devices/how-to-use-device-group-mapping.md)
+#### [그룹에 장치 매핑](enroll-devices/how-to-use-device-group-mapping.md)
 #### [회사 식별자 추가](enroll-devices/add-corporate-identifiers.md)
 #### [비즈니스용 Windows Hello 사용](enroll-devices/how-to-use-windows-hello.md)
 <!--- ## [Troubleshoot](enroll-devices/troubleshooting.md) --->
@@ -81,14 +81,14 @@
 ### [앱 할당](manage-apps/deploy-apps.md)
 ### [앱 모니터링](manage-apps/monitor-apps.md)
 ### [앱 구성 정책 사용](manage-apps/app-configuration-policies.md)
-<!--- ### [Selectively wipe apps](manage-apps/app-selective-wipe.md)--->
+### [선택적으로 앱 지우기](manage-apps/app-selective-wipe.md)
 <!---Is this specific to app protection policy or more general app management?--->
 ### [대량 구매 앱 작업](manage-apps/volume-purchased-apps.md)
 #### [iOS VPP 앱](manage-apps/ios-vpp-apps.md)
 #### [비즈니스용 Windows 스토어 앱](manage-apps/wsfb-apps.md)
 ### [회사 포털 앱 구성](manage-apps/company-portal-app.md)
 ## 앱 보호 정책을 사용하는 방법
-### [앱 보호 정책 만들기 및 배포](manage-apps/app-protection-policies.md)
+### [앱 보호 정책 만들기 및 할당](manage-apps/app-protection-policies.md)
 #### [Android 설정](manage-apps/android-app-protection-policy-settings.md)
 #### [iOS 설정](manage-apps/ios-app-protection-policy-settings.md)
 ### [앱 보호 정책 유효성 검사](manage-apps/validate-app-protection-policies.md)
@@ -187,6 +187,6 @@
 ## [Intune Graph API](https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview)
 
 
-<!--HONumber=Jan17_HO3-->
+<!--HONumber=Feb17_HO2-->
 
 
