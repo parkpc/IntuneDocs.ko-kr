@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/11/2017
+ms.date: 02/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 45dad14a-d412-488d-bb1e-ad990ea503df
 ROBOTS: noindex,nofollow
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0e4d08c4fd66bb1ae3fe683db503915725bc3134
-ms.openlocfilehash: 5f09c46e7dcd5aabc603838ce60a1e8e7fed694e
+ms.sourcegitcommit: 6bc3afe58d5e0f1f12c8b6c6fc62e37d01cd5132
+ms.openlocfilehash: cab9833a1e1b92c156a2eb77411436289c70ad71
 
 
 ---
@@ -25,6 +25,54 @@ ms.openlocfilehash: 5f09c46e7dcd5aabc603838ce60a1e8e7fed694e
 이 페이지는 [Microsoft Intune의 새로운 기능](whats-new-in-microsoft-intune.md)에서 제공된 공지 사항이 포함되어 있는 목록입니다.
 
 [!INCLUDE[wit_nextref](../includes/whats-new-last-six-months.md)]
+
+## <a name="july-2016"></a>2016년 7월
+
+### <a name="app-management"></a>앱 관리
+
+__앱 프로비전 프로필 업데이트 환경 개선__ Apple iOS LOB(기간 업무) 모바일 앱은 프로비전 프로필을 포함하고 인증서로 코드에 서명하여 빌드됩니다. 앱이 iOS 장치에서 실행되면 iOS는 iOS 앱의 무결성을 확인하고 프로비전 프로필에 정의된 정책을 적용합니다.
+
+일반적으로 앱에 서명하기 위해 사용하는 엔터프라이즈 서명 인증서는 3년 동안 유지됩니다. 그러나 프로비전 프로필은 1년 후에 만료됩니다. 이 업데이트를 사용하면 Intune은 인증서가 여전히 유효한 동안 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필 정책을 미리 배포하기 위한 도구를 제공합니다. 자세한 내용은 [iOS 모바일 프로비전 프로필 정책을 사용하여 LOB(기간 업무) 앱을 최신 상태로 유지](/intune/deploy-use/ios-mobile-app-provisioning-profiles)를 참조하세요.
+<!--- TFS 1280247--->
+
+__Intune용 Xamarin SDK 앱을 사용할 수 있음__ Intune 앱 SDK Xamarin 구성 요소를 사용하면 Xamarin으로 빌드된 모바일 iOS 및 Android 앱에서 Intune 모바일 앱 관리 기능을 설정할 수 있습니다. [Xamarin 스토어](https://components.xamarin.com/view/Microsoft.Intune.MAM) 또는 [Microsoft Intune Github 페이지](https://github.com/msintuneappsdk)에서 해당 구성 요소를 찾을 수 있습니다.
+<!--- TFS 1061478 --->
+
+### <a name="device-management"></a>장치 관리
+__증가된 장치 등록 제한__ Intune은 사용자당 구성 가능한 최대 장치 등록 제한을 5대에서 15대로 늘립니다.
+<!---TFS 1289896 --->
+
+__Intune 클라이언트 소프트웨어를 실행하는 Windows PC용 TeamViewer 통합__
+Intune 클라이언트를 실행하는 Windows PC용 [TeamViewer](https://www.teamviewer.com) 통합을 통해 Windows PC와 원격 지원 세션을 설정하여 최종 사용자 지원 센터 부서를 지원할 수 있습니다. 여기에는 Windows 7, 8, 8.1 및 Windows 10이 포함됩니다. 자세한 내용은 [Microsoft Intune 컴퓨터 클라이언트를 사용한 일반 Windows PC 관리 작업](/intune/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client) 항목을 참조하세요.
+<!---TFS 1284856--->
+
+### <a name="company-portal-updates"></a>회사 포털 업데이트
+
+__회사 포털 웹 사이트__
+- **Windows 장치를 등록할 때 향상된 최종 사용자 환경**<br/>
+조건부 액세스를 사용하는 경우 회사 포털 웹 사이트에서 Windows 8.1, Windows 10 Desktop 및 Windows 10 Mobile 등록 단계가 명확해졌습니다. 이제 "장치 등록" 및 "작업 공간 연결" 단계가 별도로 표시되므로, WPJ(작업 공간 연결) 오류가 발생한 경우 장치의 상태를 더욱 쉽게 확인하고 프로세스를 완료할 수 있습니다. 또한 별도의 단계를 통해 IT 관리자의 문제 해결 프로세스를 간소화할 수 있을 것으로 예상됩니다. 이전에는 최종 사용자가 등록하려고 할 때 WPJ를 제외한 모든 등록 단계가 정상적으로 수행되면, 등록된 장치가 사용자의 장치 목록에 나타나지 않아 혼동을 줄 수 있었습니다.
+
+__Android__
+- **Android 회사 포털 앱**<br/>
+Android 최종 사용자에게 장치에 필수 인증서가 없다는 오류 메시지가 표시되면 "이 문제를 해결하는 방법" 단추를 눌러 누락된 인증서를 설치하기 위한 [단계](/intune/enduser/your-device-is-missing-a-required-certificate-android#your-device-is-missing-a-certificate-required-by-your-it-administrator)를 진행할 수 있습니다. 이러한 단계를 완료해도 "누락된 인증서" 오류 메시지가 추가로 표시될 경우 IT 관리자에게 문의하여 IT 관리자가 인증서 문제를 해결하는 데 사용할 수 있는 단계가 포함된 [링크](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune#android-certificate-issues)를 제공해야 합니다.
+
+- **테스트용으로 앱 설치를 등록된 장치로 제한**<br/>
+장치가 Android용 Intune 회사 포털 앱을 사용하여 Intune에 등록되어 있지 않으면 더 이상 Android 장치에 회사 포털 웹 사이트를 통해 응용 프로그램을 설치할 수 없습니다.
+<!---TFS 1299082--->
+
+__iOS__
+- **iOS 회사 포털 앱의 장치 등록 관리자 계정의 변경 내용**<br/>
+성능과 확장성을 개선하기 위해, Intune은 iOS 회사 포털 앱의 **내 장치** 창에 더 이상 모든 장치 등록 관리자(DEM)를 표시하지 않을 예정입니다. 앱을 실행하는 로컬 장치가 회사 포털 앱을 통해 등록된 경우에만 표시합니다.
+
+DEM 사용자는 로컬 장치에서 작업을 수행할 수 있지만 다른 등록된 장치의 원격 관리는 Intune 관리 콘솔에서만 수행할 수 있습니다. 또한 Intune은 Apple 장비 등록 프로그램 또는 Apple Configurator 도구에서 DEM 계정 사용을 더 이상 지원하지 않습니다. 두 등록 방법은 모두 공유 iOS 장치에 대한 사용자가 지정되지 않은 등록을 이미 지원합니다.
+
+공유 장치에 대한 사용자가 지정되지 않은 등록을 사용할 수 없는 경우만 DEM 계정을 사용합니다. 자세한 내용은 [Microsoft Intune에서 장치 등록 관리자를 사용하여 회사 소유의 장치 등록](https://docs.microsoft.com/en-us/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)을 참조하세요.
+<!---TFS 1233681--->
+
+### <a name="change-of-names-for-windows-features"></a>Windows 기능의 이름 변경
+- 이제 [Microsoft Passport for Windows](/intune/deploy-use/control-microsoft-passport-settings-on-devices-with-microsoft-intune)를 **비즈니스용 Windows Hello**라고 합니다.
+- [엔터프라이즈 데이터 보호](https://technet.microsoft.com/itpro/windows/keep-secure/create-edp-policy-using-intune)를 **Windows 정보 보호**라고 합니다.
+
 
 ## <a name="june-2016"></a>2016년 6월
 ### <a name="intune-service-health"></a>Intune 서비스 상태
@@ -116,7 +164,7 @@ Intune 알림 규칙은 Intune에서 메일 경고를 보낼 대상자를 정의
 
     **관리자** 작업 영역에서 **알림 규칙** > **새 규칙 만들기**를 클릭합니다.
 
-    알림 규칙 만들기 마법사의 2단계에서 규칙의 대상이 되는 장치 그룹을 선택합니다. 이 단계 즉, “장치 그룹 선택”은 Intune 콘솔에서 제거됩니다.
+    알림 규칙 만들기 마법사의&2;단계에서 규칙의 대상이 되는 장치 그룹을 선택합니다. 이 단계 즉, “장치 그룹 선택”은 Intune 콘솔에서 제거됩니다.
 
     이러한 변경을 준비하기 위한 타임라인은 다음과 같습니다.
     - 2016년 6월에는 새 테넌트에 알림 규칙 만들기 마법사의 2단계가 표시되지 않습니다. 기존 테넌트는 영향을 받지 않습니다.
@@ -170,6 +218,6 @@ Intune 알림 규칙은 Intune에서 메일 경고를 보낼 대상자를 정의
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO3-->
 
 
