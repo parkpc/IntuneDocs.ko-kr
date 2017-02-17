@@ -4,7 +4,7 @@ description: "Microsoft Intune으로 Windows Phone 8.0 장치에 대한 MDM(모�
 keywords: 
 author: NathBarn
 manager: angrobe
-ms.date: 10/21/2016
+ms.date: 02/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
