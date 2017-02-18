@@ -5,15 +5,16 @@ keywords:
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 01/23/2016
+ms.date: 02/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b2fdcea9-9ad7-4d73-88e2-854b7a774bb2
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 00994a92eb555827d17ad633ffcf765804365621
-ms.openlocfilehash: b419a07ef13d386fc08aa7fd5605fbb0bea79348
+ms.sourcegitcommit: 31e28514ab4bdb0f5af261a1f7c87633ca0bd4a6
+ms.openlocfilehash: 24ab39a92d69e92e1c202005fcd783018c4d4621
 
 
 ---
@@ -21,8 +22,6 @@ ms.openlocfilehash: b419a07ef13d386fc08aa7fd5605fbb0bea79348
 # <a name="enable-enrollment-of-android-for-work-devices"></a>Android for Work 장치 등록 사용
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
-
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 
 Android for Work 장치 관리를 사용하도록 설정하려면 Intune에 Android for Work 바인딩을 추가해야 합니다. Android for Work를 지원하지만 이전에 정규 Android 장치로 등록된 장치를 등록하려면 먼저 장치를 등록 취소한 후에 다시 등록해야 합니다.
 
@@ -54,7 +53,7 @@ Android for Work 바인딩 및 설정을 구성한 후 다음을 수행할 수 �
 
 ## <a name="unbinding-your-android-for-work-administrative-account"></a>Android for Work 관리 계정 바인딩 해제
 
-Android for Work 등록 및 관리를 해제할 수 있습니다. **바인딩 해제**를 클릭하면 등록된 모든 Android for Work 장치가 등록에서 제거되고 Android for Work 계정과 Intune 간 관계가 제거됩니다.
+Android for Work 등록 및 관리를 해제할 수 있습니다. Intune 관리 콘솔에서 **바인딩 해제**를 클릭하면 등록된 모든 Android for Work 장치가 등록에서 제거되고 Android for Work 계정과 Intune 간 관계가 제거됩니다.
 
 ### <a name="how-to-unbind-an-android-for-work-account"></a>Android for Work 계정을 바인딩 해제하는 방법
 
@@ -66,6 +65,6 @@ Android for Work 등록 및 관리를 해제할 수 있습니다. **바인딩 �
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO1-->
 
 

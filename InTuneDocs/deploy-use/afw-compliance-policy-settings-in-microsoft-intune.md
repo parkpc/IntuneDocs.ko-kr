@@ -5,7 +5,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 02/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
 ms.reviewer: chrisbal
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 1afe7093b80bb5fe3ea873cb065c8ca2673160e8
-ms.openlocfilehash: a36427c6fe00c4ad105e615dd96342f7ab31863a
+ms.sourcegitcommit: 31e28514ab4bdb0f5af261a1f7c87633ca0bd4a6
+ms.openlocfilehash: 1b84b7137bd01b695d20bea67d77c694f2533b4e
 
 
 ---
@@ -24,8 +25,6 @@ ms.openlocfilehash: a36427c6fe00c4ad105e615dd96342f7ab31863a
 # <a name="compliance-policy-settings-for-android-for-work-devices-in-microsoft-intune"></a>Microsoft Intune에서 Android for Work용 규정 준수 정책 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
-
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 
 이 항목에서 설명하는 정책 설정은 Android for Work 장치에 적용됩니다.
 
@@ -69,8 +68,8 @@ ms.openlocfilehash: a36427c6fe00c4ad105e615dd96342f7ab31863a
 
 - **USB 디버깅은 사용하지 않도록 설정되어야 함**: USB 디버깅은 Android for Work 장치에서 이미 사용하지 않도록 설정되었으므로 이 설정을 구성하지 않아도 됩니다.
 
-- **최소 Android 보안 패치 수준**: 최소 Android 패치 수준이 지정하려면 이 설정을 사용합니다.  적어도 이 패치 수준에 없는 장치가 비규격 장치가 됩니다. 날짜는 YYYY-MM-DD 형식으로 지정해야 합니다.
-- **장치 위협 보호를 사용하도록 설정해야 함**: Lookout MTP 솔루션에서 위험 평가를 규정 준수에 대한 조건으로 수행하려면 이 설정을 사용합니다. 허용되는 최대 위협 수준을 다음 중에서 선택합니다.
+- **최소 Android 보안 패치 수준**: 최소 Android 패치 수준을 지정하려면 이 설정을 사용합니다.  적어도 이 패치 수준에 없는 장치가 비규격 장치가 됩니다. 날짜는 YYYY-MM-DD 형식으로 지정해야 합니다.
+- **장치 위협 방지를 사용하도록 설정해야 함**: 장치 위협 방지 솔루션에서 위험 평가를 준수에 대한 조건으로 수행하려면 이 설정을 사용합니다. 허용되는 최대 위협 수준을 다음 중에서 선택합니다.
 
   - **없음(보안됨)**: 가장 안전합니다. 장치에 어떤 위협도 있어서는 안 된다는 의미입니다. 수준에 관계없이 위협이 발견된 장치는 규정 비준수로 평가됩니다.
   - **낮음**: 낮은 수준의 위협이 있는 경우에만 장치가 규정 준수로 평가됩니다. 더 높은 수준의 위협이 발생하면 장치는 규정 비준수 상태가 됩니다.
@@ -80,13 +79,13 @@ ms.openlocfilehash: a36427c6fe00c4ad105e615dd96342f7ab31863a
   자세한 내용은 [규정 준수 정책에서 장치 위협 방지 규칙 활성화](enable-device-threat-protection-rule-in-compliance-policy.md)를 참조하세요.
 
 ## <a name="device-property-settings"></a>장치 속성 설정
-- **필요한 최소 OS:** 장치가 OS 최소 버전 요구 사항을 충족하지 못하면 비규격 장치로 보고됩니다.
+- **필요한 최소 OS:** 장치가 최소 OS(운영 체제) 버전 요구 사항을 충족하지 못하면 비규격 장치로 보고됩니다.
   업그레이드 방법에 대한 정보를 제공하는 링크가 표시됩니다. 최종 사용자는 회사 리소스에 액세스할 수 있으면 장치를 업그레이드하도록 선택할 수 있습니다.
 
-- **허용된 최대 OS 버전:** 장치가 규칙에 지정된 버전 이후의 OS를 사용하는 경우 회사 리소스에 대한 액세스가 차단되고 사용자는 IT 관리자에게 문의하라는 메시지가 표시됩니다. OS 버전 허용 규칙이 변경될 때까지 회사 리소스에 액세스하는 데 이 장치를 사용할 수 없습니다.
+- **허용된 최대 OS 버전:** 장치가 규칙에 지정된 버전 이후의 OS(운영 체제) 버전을 사용하는 경우 회사 리소스에 대한 액세스가 차단되고 IT 관리자에게 문의하라는 메시지가 사용자에게 표시됩니다. 운영 체제 버전 허용 규칙이 변경될 때까지 회사 리소스에 액세스하는 데 이 장치를 사용할 수 없습니다.
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO1-->
 
 

@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 01/04/17
+ms.date: 01/29/17
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: a23abc61-69ed-44f1-9b71-b86aefc6ba03
 ms.reviewer: dagerrit
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b06bb501e71bae5225d451d9ee460213eee183de
-ms.openlocfilehash: 058212ff935f085d569b37298f146623d217ddbe
+ms.sourcegitcommit: adb2fd27d7f2b3f0ef4dce6b26fcb20d74b69a00
+ms.openlocfilehash: f099fdf942795b128fe46f9bd1d82432d89f6f75
 
 
 ---
@@ -25,9 +26,12 @@ ms.openlocfilehash: 058212ff935f085d569b37298f146623d217ddbe
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-조직에서는 Intune을 사용하여 단일 사용자 계정으로 많은 수의 모바일 장치를 관리할 수 있습니다. *DEM(장치 등록 관리자)* 계정은 1000개까지 장치를 등록할 수 있는 특수한 사용자 계정입니다. 특수 DEM 기능을 부여할 DEM 계정에 기존 사용자를 추가합니다. 등록된 각 장치는 단일 라이선스를 사용합니다. 이 계정을 통해 등록한 장치는 개인("BYOD") 장치가 아닌 공유 장치로 사용하는 것이 좋습니다.  
+조직에서는 Intune을 사용하여 단일 사용자 계정으로 많은 수의 모바일 장치를 관리할 수 있습니다. *DEM(장치 등록 관리자)* 계정은 1000개까지 장치를 등록할 수 있는 특수한 사용자 계정입니다. 특수 DEM 기능을 부여할 DEM 계정에 기존 사용자를 추가합니다. 등록된 각 장치는 단일 라이선스를 사용합니다. 이 계정을 통해 등록한 장치는 개인("BYOD") 장치가 아닌, 사용자 선호도가 없는 공유 장치로 사용하는 것이 좋습니다.  
 
 장치 등록 관리자로 추가하려면 Azure 포털에 사용자가 존재해야 합니다. 보안 최적화를 위해 DEM 사용자는 Intune 관리자여서도 안 됩니다.
+
+>[!NOTE]
+>DEM 등록 방법을 [Apple Configurator 설정 도우미](ios-setup-assistant-enrollment-in-microsoft-intune.md), [직접 등록](ios-direct-enrollment-in-microsoft-intune.md) 또는 [DEP 등록 방법](ios-device-enrollment-program-in-microsoft-intune.md)과 함께 사용할 수 없습니다. 
 
 ## <a name="example-of-a-device-enrollment-manager-scenario"></a>장치 등록 관리자 시나리오의 예
 
@@ -105,6 +109,6 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Feb17_HO1-->
 
 

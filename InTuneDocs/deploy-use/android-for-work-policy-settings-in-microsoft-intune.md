@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/09/2016
+ms.date: 02/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,9 +14,10 @@ ms.technology:
 ms.assetid: 35a53076-74d6-486d-b201-e0da2e170008
 ms.reviewer: chrisbal
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 6c5ea937e5f6e0c8d20c72e086de1faa17d0ad34
+ms.sourcegitcommit: 31e28514ab4bdb0f5af261a1f7c87633ca0bd4a6
+ms.openlocfilehash: b95f7dbf37a159a62894ae27d1fdb731ede5570c
 
 
 ---
@@ -25,9 +26,7 @@ ms.openlocfilehash: 6c5ea937e5f6e0c8d20c72e086de1faa17d0ad34
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
-
-Intune은 Android for Work 장치에서 구성할 수 있는 기본 제공 일반 설정의 범위를 제공합니다.
+Intune은 [Android for Work 장치](android-for-work.md)에서 구성할 수 있는 기본 제공 일반 설정의 범위를 제공합니다.
 
 ## <a name="general-configuration-policy"></a>일반 구성 정책
 
@@ -60,8 +59,6 @@ Intune **Android for Work 일반 구성 정책**을 사용하여 Android for Wor
 |**회사 및 개인 프로필 간의 데이터 공유 허용**|업무용 프로필에 있는 앱에서 사용자 개인 프로필의 앱과 데이터를 공유할 수 있습니다. 다음 중에서 선택합니다.<br><br>- **경계를 넘는 공유 금지**<br>- **회사 프로필의 앱에서 개인 프로필의 공유 요청을 처리할 수 있음**<br>- **공유 시 제한 없음**|
 |**장치가 잠겼을 때 회사 프로필 알림 숨김**<br>(Android 6 이상)|장치가 잠겨 있는 경우 업무용 프로필에서 알림을 표시할지 여부를 제어합니다.|
 |**기본 앱 사용 권한 정책 설정**<br>(Android 6 이상)|업무용 프로필에 있는 모든 앱에 대한 기본 사용 권한 정책을 설정합니다.|
-
-
 
 
 ## <a name="custom-policy-settings"></a>사용자 지정 정책 설정
@@ -97,6 +94,6 @@ Intune은 현재 제한된 수의 Android 사용자 지정 정책을 지원합�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO1-->
 
 

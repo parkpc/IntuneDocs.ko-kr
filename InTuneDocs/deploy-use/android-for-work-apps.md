@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/6/2016
+ms.date: 02/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: cd0bbd90-d3fe-4efc-83fd-d1f3f86800d4
 ms.reviewer: chrisbal
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: c3a46f9a8e66a1d7de8878105f5752b17a3857b7
+ms.sourcegitcommit: 31e28514ab4bdb0f5af261a1f7c87633ca0bd4a6
+ms.openlocfilehash: e67ec317b22e18d0be8bca449b9382f74935d6e8
 
 
 ---
@@ -24,10 +25,9 @@ ms.openlocfilehash: c3a46f9a8e66a1d7de8878105f5752b17a3857b7
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
-
 표준 Android 장치에 배포하던 방식과 다른 방법으로 Android for Work 장치에 앱을 배포합니다. Android for Work에 대해 설치하는 모든 앱은 Google Play for Work 스토어에서 받습니다. 스토어에 로그인하고 원하는 앱을 찾아본 다음 승인합니다.
 그러면 Intune 콘솔의 **대량 구매 앱** 노드에 나타납니다. 여기에서 다른 앱을 배포하는 방식과 동일하게 앱 배포를 관리할 수 있습니다.
+
 또한 고유한 LOB(기간 업무) 앱을 만든 경우 배포할 수 있습니다. 이렇게 하려면 Google Play 스토어의 개인 영역에 앱을 게시할 수 있는 Google Developer 계정에 가입한 다음 Intune과 동기화해야 합니다.
 
 ## <a name="before-you-start"></a>시작하기 전에
@@ -40,9 +40,9 @@ ms.openlocfilehash: c3a46f9a8e66a1d7de8878105f5752b17a3857b7
 1. [Google Play for Work 스토어](https://play.google.com/work)로 이동합니다. Intune과 Android for Work 간 연결을 구성하는 데 사용한 동일한 계정으로 로그인합니다.
 2. Intune을 사용하여 배포할 앱에 대한 스토어를 검색합니다.
 3. 선택한 앱 페이지에서 **승인**을 선택합니다. 이 예제에서는 Microsoft Excel 앱을 선택했습니다.<br>
-  ![앱 승인 예제](/intune/deploy-use/media/approve.png)
+  ![앱 승인 예제](media/approve.png)
 4. 앱 창이 열리면서 앱에서 다양한 작업을 수행할 수 있는 권한을 부여하라는 메시지가 표시됩니다. 계속하려면 **승인**을 선택해야 합니다.<br>
-  ![앱 사용 권한 승인 예제](/intune/deploy-use/media/approve-app-permissions.png)
+  ![앱 사용 권한 승인 예제](media/approve-app-permissions.png)
 5. 잠시 후 앱이 승인되고 IT 관리 콘솔에서 사용할 수 있음을 알리는 확인 메시지가 표시됩니다.
 
 ## <a name="publish-then-synchronize-a-line-of-business-app-from-the-google-play-for-work-store"></a>Google Play for Work 스토어에서 LOB(기간 업무) 앱 게시 후 동기화
@@ -51,7 +51,7 @@ ms.openlocfilehash: c3a46f9a8e66a1d7de8878105f5752b17a3857b7
 2. Intune과 Android for Work 간 연결을 구성하는 데 사용한 동일한 계정으로 로그인합니다. 처음으로 로그인하는 경우 Google Developer 프로그램 구성원이 되도록 등록하고 요금을 지불해야 합니다.
 3. 콘솔에서 **새 응용 프로그램 추가**를 선택합니다.
 4. Google Play 스토어에 앱을 게시한 것과 동일한 방법으로 앱에 대한 정보를 업로드하고 제공합니다. 하지만 아래와 같이 **Only make this application available to my organization (<*organization name*>)(이 응용 프로그램을 내 조직만 사용)** 설정을 선택해야 합니다.<br>
-  ![내 조직에서만 앱 사용 가능 옵션](/intune/deploy-use/media/restrict.png)<br>
+  ![내 조직에서만 앱 사용 가능 옵션](media/restrict.png)<br>
 이렇게 하면 앱은 해당 조직에서만 사용할 수 있고 공개 Google Play 스토어에서 사용할 수 없게 됩니다.
 Android 앱 업로드 및 게시하는 방법에 대한 자세한 내용은 [Google Developer Console Help](https://support.google.com/googleplay/android-developer/answer/113469)(Google Developer 콘솔 도움말)를 참조하세요.
 5. 앱을 게시한 후에는 [Google Play for Work 스토어](https://play.google.com/work)로 이동합니다. Intune과 Android for Work 간 연결을 구성하는 데 사용한 동일한 계정으로 로그인합니다.
@@ -71,6 +71,6 @@ Android 앱 업로드 및 게시하는 방법에 대한 자세한 내용은 [Goo
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO1-->
 
 

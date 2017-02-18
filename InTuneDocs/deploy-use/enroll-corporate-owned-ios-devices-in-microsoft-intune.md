@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 09/07/2016
+ms.date: 01/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 2d3ca4ab-f20c-4d56-9413-f8ef19cf0722
 ms.reviewer: dagerrit
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: fdaeddae669a5b519973117b9adf676b43ce1aa1
+ms.sourcegitcommit: adb2fd27d7f2b3f0ef4dce6b26fcb20d74b69a00
+ms.openlocfilehash: 03f5da3a819768ff8221257f091a000f18f00fb4
 
 
 ---
@@ -26,9 +27,18 @@ ms.openlocfilehash: fdaeddae669a5b519973117b9adf676b43ce1aa1
 
 Microsoft Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) 도구 또는 Apple DEP(장치 등록 프로그램)를 통해 회사 소유의 iOS 장치를 등록하도록 지원합니다.
 
-**:** [Apple Push Notification Service 인증서](set-up-ios-and-mac-management-with-microsoft-intune.md)가 필요합니다.
+**필수 조건:** [Apple Push Notification Service 인증서](set-up-ios-and-mac-management-with-microsoft-intune.md)
 
-세 가지 방법 즉, Apple Configurator, DEP 또는 회사 포털을 사용하여 회사에 등록된 iOS 장치를 등록할 수 있습니다.
+세 가지 방법 중 하나를 사용하여 회사에 등록된 iOS 장치를 등록할 수 있습니다.
+
+- Apple Configurator에서 설치 도우미 또는 직접 등록 사용
+- 장치 등록 프로그램
+- 회사 포털 앱
+
+>[!NOTE]
+>Apple Configurator 및 장치 등록 프로그램 등록 방법을 [장치 등록 관리자](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md) 방법과 함께 사용할 수 없습니다.
+
+기본적으로 모든 iOS 장치는 Intune에서 등록할 수 있습니다. 개인 또는 회사 소유의 장치 등록을 차단하려면 관리자 자격 증명을 사용하여 [Microsoft Intune 관리 포털](http://manage.microsoft.com)에 로그인합니다. **관리** > **모바일 장치 관리** > **등록 규칙**을 선택한 다음 해당 옵션을 선택 취소합니다.
 
 ## <a name="use-apple-configurator"></a>Apple Configurator 사용
 
@@ -47,8 +57,8 @@ DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배�
 
 사용자 선호도는 다음을 지원하는 데 필요합니다.
   - MAM(모바일 응용 프로그램 관리) 앱
-  - 메일 및 회사 데이터에 대한 조건부 액세스
-  - 회사 포털 앱
+  -    메일 및 회사 데이터에 대한 조건부 액세스
+  -    회사 포털 앱
 
 **사용자가 사용자 선호도를 사용하여 회사 소유의 iOS 장치를 등록하는 방법**
 1. 사용자가 장치를 켜면 설정 도우미를 완료하라는 메시지가 표시됩니다. 설정하는 동안 자격 증명을 묻는 메시지가 표시됩니다. Intune에서 구독과 연결된 자격 증명(즉, 고유 이름 또는 UPN)을 사용해야 합니다.
@@ -63,7 +73,7 @@ DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배�
 
   이 장치가 아직 회사에 등록되지 않은 경우 **새 장치**를 선택하여 표준 등록 흐름에 따라 계속 진행해야 합니다.
 
-6. 다음 화면에서 새 장치의 일련 번호를 확인해야 합니다. **일련 번호 확인** 링크를 탭하여 설정 앱을 시작해서 일련 번호를 확인할 수 있습니다. 그런 다음 회사 포털 앱에 일련 번호의 마지막 4자리를 입력해야 합니다.
+6. 다음 화면에서 새 장치의 일련 번호를 확인해야 합니다. **일련 번호 확인** 링크를 탭하여 설정 앱을 시작해서 일련 번호를 확인할 수 있습니다. 그런 다음 회사 포털 앱에 일련 번호의 마지막&4;자리를 입력해야 합니다.
 
   이 단계에서는 장치가 Intune에 등록된 회사 장치인지 확인합니다. 장치의 일련 번호와 일치하지 않으면 잘못된 장치를 선택한 것입니다. 이전 화면으로 돌아가서 다른 장치를 선택해야 합니다.
 
@@ -84,6 +94,6 @@ DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO1-->
 
 
