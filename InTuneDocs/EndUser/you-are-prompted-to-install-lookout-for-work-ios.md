@@ -14,6 +14,7 @@ ms.assetid: 7adab655-8317-4512-ba7d-beeaa25bbf6c
 searchScope:
 - Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
+ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
 ms.openlocfilehash: 15c820d4b25b8deb3ab17601a4835c57e5ede780
@@ -27,7 +28,7 @@ ms.openlocfilehash: 15c820d4b25b8deb3ab17601a4835c57e5ede780
 
 **수행해야 할 작업:**
 
-1.  다음과 같은 메시지가 표시되면 **설치**를 탭하여 Lookout for Work이 장치에 설치되도록 합니다.
+1.    다음과 같은 메시지가 표시되면 **설치**를 탭하여 Lookout for Work이 장치에 설치되도록 합니다.
 
     ![설치를 탭하여 Lookout for Work 설치](./media/ios-lfw-install-app-request.png)
 

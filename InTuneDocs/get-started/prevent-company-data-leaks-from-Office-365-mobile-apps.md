@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 19be3de7-539c-49f5-8c46-5363b987fef9
 ms.reviewer: pchacon
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
 ms.openlocfilehash: 0288ecd940d650304d83b7dd5803a56f69b936f7
@@ -32,9 +33,9 @@ Microsoft Intune는 Office 365 모바일 앱 또는 다른 LOB(기간 업무) �
 그렇다면 Microsoft Intune을 사용하여 iOS 및 Android에 Office 365 모바일 앱에 대한 MAM 정책을 설정할 수 있습니다. 잘라내기/복사/붙여넣기를 제한하고, ‘다른 이름으로 저장’을 방지하고, PIN 요구 사항을 설정하고, MAM으로 보호되는 데이터를 원격으로 초기화할 수 있는 기능 등이 여기에 포함됩니다.  이렇게 하면 사용자가 MDM 솔루션에 장치를 등록할 필요 없이 Office 모바일 앱을 사용하여 최고의 최종 사용자 환경을 유지하면서 회사 데이터가 보호됩니다.
 
 ## <a name="how-do-i-do-it"></a>어떻게 하나요?
-1.  [Intune MAM(모바일 응용 프로그램 관리)이 작동하는 방식](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)에 대한 기본 사항을 확인합니다.
-2.  Azure 포털에서 [MAM 정책을 만들기 전에 수행해야 할 작업](/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)을 살펴봅니다.
-3.  Intune을 사용하여 [MAM 정책을 만들고 배포](/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)합니다.
+1.    [Intune MAM(모바일 응용 프로그램 관리)이 작동하는 방식](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)에 대한 기본 사항을 확인합니다.
+2.    Azure 포털에서 [MAM 정책을 만들기 전에 수행해야 할 작업](/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)을 살펴봅니다.
+3.    Intune을 사용하여 [MAM 정책을 만들고 배포](/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)합니다.
 
 ### <a name="additional-information"></a>추가 정보:
 - MAM 사용 앱을 통한 [최종 사용자 환경](/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune).

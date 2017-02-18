@@ -16,6 +16,7 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
 ms.openlocfilehash: 8e10aa7c1db7490a462032e1bf86c7509b7b0e18
@@ -42,13 +43,13 @@ Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하�
 
 -   통화 및 웹 기록
 
--   위치
+-    위치
 
 -   전자 메일 및 문자 메시지
 
 -   연락처
 
--   암호
+-    암호
 
 -   일정
 

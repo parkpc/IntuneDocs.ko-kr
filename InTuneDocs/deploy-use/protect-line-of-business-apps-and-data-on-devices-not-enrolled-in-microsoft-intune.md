@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 ms.reviewer: joglocke
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: 1d3efa5d35e346ea668c71ba8b46ba21b11c39e7
@@ -46,7 +47,7 @@ LOB(기간 업무) 앱을 MAM 정책과 연결하려면 다음 단계를 사용�
 2. **기간 업무 앱** 블레이드에서 **사용자 지정 앱 추가**를 선택합니다.
 
   ![맨 위에 사용자 지정 앱 추가 단추가 있는 기간 업무 앱 블레이드의 스크린샷](../media/mam-azure-portal-add-lob-app-action.png)
-3.  앱 이름, 번들 식별자(앱 식별자 필드에) 및 플랫폼(iOS 또는 Android)을 지정합니다.
+3.    앱 이름, 번들 식별자(앱 식별자 필드에) 및 플랫폼(iOS 또는 Android)을 지정합니다.
 
   ![사용자 지정 앱 추가 블레이드의 스크린샷](../media/mam-azure-portal-add-app-details.png)
 
@@ -71,11 +72,11 @@ LOB(기간 업무) 앱을 MAM 정책과 연결하려면 다음 단계를 사용�
 ##  <a name="remove-apps"></a>앱 제거
 앱 목록에서 기간 업무 앱을 제거할 수 있습니다. 그러면 목록에서 앱이 제거되고 MAM 정책과의 연결이 제거되지만, 사용자의 장치에서 앱이 삭제되거나 제거되지는 않습니다.  
 
-1.  [Azure Portal](https://portal.azure.com/)에서 **Intune 모바일 앱 관리** > **설정**으로 이동합니다. **설정** 블레이드에서 **기간 업무**를 선택하여 기존 앱 목록을 엽니다.  
-2.  제거하려는 앱을 선택하고, **(...) 상황에 맞는** 메뉴를 선택합니다.
+1.    [Azure Portal](https://portal.azure.com/)에서 **Intune 모바일 앱 관리** > **설정**으로 이동합니다. **설정** 블레이드에서 **기간 업무**를 선택하여 기존 앱 목록을 엽니다.  
+2.    제거하려는 앱을 선택하고, **(...) 상황에 맞는** 메뉴를 선택합니다.
 
   ![줄임표가 표시된 기간 업무 앱 블레이드의 스크린샷](../media/mam-azure-portal-lob-context-menu.png)
-3.  **응용 프로그램 삭제**를 선택하여 앱을 삭제합니다.
+3.    **응용 프로그램 삭제**를 선택하여 앱을 삭제합니다.
 
   ![응용 프로그램 삭제 옵션이 표시된 기간 업무 앱 블레이드의 스크린샷](../media/mam-azure-portal-delete-app.png)
 

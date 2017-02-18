@@ -12,6 +12,7 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 47806f69-303d-41d9-9b0e-9b9445ea24ac
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
 ms.openlocfilehash: 4133c64d283682f0be37cd6ac69164ef872a5026
@@ -78,13 +79,13 @@ System Center Configuration Manager와 함께 Intune을 사용하여 모바일 �
 
 1. **인증서 서명 요청 가져오기**<br/>
 관리자 계정으로 Intune에 로그온한 후 **관리** > **모바일 장치 관리** > **iOS 및 Mac OS X** > **APNs 인증서 업로드**로 이동하여 **APNs 인증서 요청 다운로드**를 클릭합니다. 인증서 서명 요청(.csr) 파일을 로컬로 저장합니다. .csr 파일은 APC(Apple Push Certificate) 포털에서 트러스터 관계 인증서를 요청하는 데 사용됩니다. <!--- screen shot--->
-2.  **Apple Push Notification Service 인증서 가져오기**<BR/>
+2.    **Apple Push Notification Service 인증서 가져오기**<BR/>
 [Apple Push Certificates 포털](https://idmsa.apple.com/IDMSWebAuth/login?appIdKey=3fbfc9ad8dfedeb78be1d37f6458e72adc3160d1ad5b323a9e5c5eb2f8e7e3e2&rv=2)로 이동한 다음 회사 Apple ID로 로그인하여 .csr 파일을 사용해서 APNs 인증서를 만듭니다. **Apple Push Certificate Portal에서 업로드**를 선택하면 APNs에 사용할 수 없는 .json 파일을 수신하게 됩니다. 다운로드를 완료하고 타사 서버용 인증서를 위한 Apple Push Certificates Portal로 돌아가 **다운로드**를 선택합니다.
 
  APNs(.pem) 인증서를 다운로드하고 파일을 로컬로 저장합니다. 나중에 APNs 인증서를 갱신하기 위해 이 Apple ID를 사용해야 합니다.
-3.  **Intune에 APNs 인증서 추가**<BR/>
+3.    **Intune에 APNs 인증서 추가**<BR/>
 Microsoft Intune 관리 콘솔에서 **관리** > **모바일 장치 관리** > **iOS 및 Mac OS X** > **APNs 인증서 업로드**로 이동하여 **APNs 인증서 업로드**를 선택합니다. 인증서(.pem) 파일로 이동한 후 **열기**를 선택하고 Apple ID를 입력합니다. APNs 인증서가 있으면 Intune에서 등록된 모바일 장치에 정책을 푸시하여 iOS 장치를 등록하고 관리할 수 있습니다.
-4.  **회사 리소스를 이용할 수 있도록 사용자에게 장치를 등록하는 방법 설명**<br/>
+4.    **회사 리소스를 이용할 수 있도록 사용자에게 장치를 등록하는 방법 설명**<br/>
 최종 사용자 등록 지침은 [Intune에서 iOS 장치 등록](https://docs.microsoft.com/en-us/Intune/enduser/enroll-your-device-in-intune-ios) 및 [Intune에서 Mac OS X 장치 등록](https://docs.microsoft.com/en-us/Intune/enduser/enroll-your-device-in-intune-mac-os-x)을 참조하세요. 예상되는 작업 내용과 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목을 등록 과정 중에 알려줍니다.
 
 

@@ -14,6 +14,7 @@ ms.assetid: 0d357dc0-3e14-43d0-9874-6886ebc847fc
 searchScope:
 - Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
+ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
 ms.openlocfilehash: 356de226dce12a1e079b0f58214d9bc590f3a71d
@@ -30,13 +31,13 @@ ms.openlocfilehash: 356de226dce12a1e079b0f58214d9bc590f3a71d
 
 **수행해야 할 작업:**
 
-1.  화면의 맨 위에서 아래로 끌어서 알림 표시줄을 연 다음 **필수 응용 프로그램 - Play 스토어에서 Lookout for Work 설치**를 탭합니다.
+1.    화면의 맨 위에서 아래로 끌어서 알림 표시줄을 연 다음 **필수 응용 프로그램 - Play 스토어에서 Lookout for Work 설치**를 탭합니다.
 
     ![Lookout for Work를 설치하라는 메시지가 표시됨](./media/lookout-required-app-install-android.png)
 
     Play 스토어에서 Lookout for Work 설치 페이지로 이동합니다.
 
-2.  Lookout for Work를 설치한 다음 **동의**를 탭하여 Lookout for Work에서 장치에 액세스할 수 있도록 허용합니다.
+2.    Lookout for Work를 설치한 다음 **동의**를 탭하여 Lookout for Work에서 장치에 액세스할 수 있도록 허용합니다.
 
     ![Lookout for Work에서 장치에 액세스할 수 있도록 동의함을 탭함](./media/lookout-accept-store-permissions-android.png)
 

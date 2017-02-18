@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 ms.reviewer: chrisbal
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b268bb16b7fc7e38021441bb16517e754b5e395f
 ms.openlocfilehash: 4a52d714d47a0b3af56be6eb5096fffae160e435
@@ -52,7 +53,7 @@ Android 장치 또는 사용자 그룹에 정책을 배포한 후에 사용자�
    4. 설정 이름을 입력합니다.
    5. **데이터 형식**으로 **문자열**을 지정합니다.
    6. **OMA-URI**로 **./Vendor/MSFT/VPN/Profile/*Name*/PackageList** 문자열을 지정합니다. 여기서 *Name*은 1단계에서 적어둔 VPN 프로필 이름입니다. 이 예제에서 문자열은 **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/PackageList**입니다.
-   7.   **값**으로 프로필에 연결할 패키지가 세미콜론으로 구분된 목록을 만듭니다. 예를 들어 Excel 및 Google Chrome 브라우저에서 VPN 연결을 사용하려면 **com.microsoft.office.excel;com.android.chrome**과 같이 입력합니다.
+   7.    **값**으로 프로필에 연결할 패키지가 세미콜론으로 구분된 목록을 만듭니다. 예를 들어 Excel 및 Google Chrome 브라우저에서 VPN 연결을 사용하려면 **com.microsoft.office.excel;com.android.chrome**과 같이 입력합니다.
 
 ![Android 앱별 VPN 사용자 지정 정책의 예](./media/android_per_app_vpn_oma_uri.png)
 

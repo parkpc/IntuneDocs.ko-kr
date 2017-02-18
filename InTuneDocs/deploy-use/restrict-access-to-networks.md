@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
 ms.reviewer: muhosabe
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 9f34d54710f0ec662eecec85f7fa041061132a0d
 ms.openlocfilehash: 8ef24e4d413662012f091c1be318d1d274e16439
@@ -154,7 +155,7 @@ ISE 관리 콘솔에서 다음 설정 값을 제공합니다.
 ## <a name="information-shared-between-your-intune-tenant-and-your-cisco-ise-server"></a>Intune 테넌트와 Cisco ISE 서버 간에 공유되는 정보
 이 표에서는 Intune 테넌트와 Intune에서 관리되는 장치용 Cisco ISE 서버 간에 공유되는 정보를 보여 줍니다.
 
-|속성|  설명|
+|속성|    설명|
 |---------------|------------------------------------------------------------|
 |complianceState|장치가 규정을 준수하는지 준수하지 않는지 여부를 나타내는 True 또는 false 문자열입니다.|
 |isManaged|클라이언트가 Intune에 의해 관리되는지 여부를 나타내는 True 또는 false 문자열입니다.|

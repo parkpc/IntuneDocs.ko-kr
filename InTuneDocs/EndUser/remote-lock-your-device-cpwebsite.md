@@ -16,6 +16,7 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 3bda44c401ae7cf5dd796486d2d1a6332828bed1
 ms.openlocfilehash: a888592c4bf4f71cba44cebadb5cf90d2cc9aef6
@@ -39,13 +40,13 @@ ms.openlocfilehash: a888592c4bf4f71cba44cebadb5cf90d2cc9aef6
 
 ## <a name="to-use-remote-lock-to-lock-your-device"></a>원격 잠금을 사용하여 장치를 잠그려면
 
-1.  [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에서 잠그려는 장치의 이름을 탭합니다.
+1.    [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에서 잠그려는 장치의 이름을 탭합니다.
 
-2.  **원격 잠금**을 탭합니다.
+2.    **원격 잠금**을 탭합니다.
 
     ![remote-lock-option-on-company-portal-website](./media/iwp-screen-with-all-options.png)
 
-3.  장치를 잠그려고 한다는 알림이 표시됩니다. **원격 잠금**을 탭하면 회사 포털 웹 사이트에서 장치 잠금을 시도합니다.
+3.    장치를 잠그려고 한다는 알림이 표시됩니다. **원격 잠금**을 탭하면 회사 포털 웹 사이트에서 장치 잠금을 시도합니다.
 
     **원격 잠금**을 탭하고 나면 "원격 잠금 보류 중" 메시지가 표시됩니다.  원격 잠금에 성공하면 상태가 "원격 잠금 성공"으로 변경됩니다.
 

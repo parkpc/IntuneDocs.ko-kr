@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
 ms.openlocfilehash: fad731fe01ba4782b64e8a5af97bd536ae9478d3
@@ -143,7 +144,7 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
         이 경우 **SharePoint Online**에 액세스하는 데 사용되는 모든 장치가 Intune에 등록되고 정책을 준수해야 합니다. **최신 인증**을 사용하는 모든 클라이언트 응용 프로그램에는 조건부 액세스 정책이 적용됩니다. 플랫폼이 현재 Intune에서 지원되지 않는 경우 **SharePoint Online**에 대한 액세스는 차단됩니다.
 
         **모든 플랫폼** 옵션을 선택하면 클라이언트 응용 프로그램에서 보고하는 플랫폼에 관계없이, Azure Active Directory가 모든 인증 요청에 이 정책을 적용합니다. 다음을 제외한 모든 플랫폼은 등록되어 있어야 하며 정책을 준수해야 합니다.
-        *   Windows 장치: 등록되어 있고 정책을 준수해야 하거나, 온-프레미스 Active Directory를 통해 도메인에 가입되어 있거나, 두 조건을 모두 충족해야 합니다.
+        *    Windows 장치: 등록되어 있고 정책을 준수해야 하거나, 온-프레미스 Active Directory를 통해 도메인에 가입되어 있거나, 두 조건을 모두 충족해야 합니다.
         * 지원되지 않는 플랫폼(예: Mac). 그러나 이러한 플랫폼에서 제공하는 최신 인증을 사용하는 앱은 계속 차단됩니다.
 
     -   **특정 플랫폼**

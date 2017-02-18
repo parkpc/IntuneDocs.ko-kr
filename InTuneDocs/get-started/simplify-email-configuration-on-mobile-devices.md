@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 1696c715-1e9a-401e-a530-77904fd189ad
 ms.reviewer: pchacon
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
 ms.openlocfilehash: bf25dd15aa9074692017d94bb94285b4c8e77ca8
@@ -34,8 +35,8 @@ Intune에서 관리되는 모바일 장치만 회사 메일에 액세스하도�
 메일 프로필을 구성하고 나면 Intune 조건부 액세스 정책을 사용하여 회사 메일 및 Office 365 서비스에 대한 액세스 권한을 쉽게 제한할 수 있습니다. 이 정책을 사용하면 회사 메일 및 Office 365 서비스에 대한 액세스가 Intune에서 설정한 규칙을 준수하는 장치로 제한할 수 있습니다.
 
 ## <a name="how-do-i-do-it"></a>어떻게 하나요?
-1.  Windows, iOS 및 Android 장치에 [최종 사용자 메일 프로필을 자동으로 구성](/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune)합니다.
-2.  조건부 액세스 정책을 사용하여 [회사 메일에 대한 액세스를 제어](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)합니다.
+1.    Windows, iOS 및 Android 장치에 [최종 사용자 메일 프로필을 자동으로 구성](/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune)합니다.
+2.    조건부 액세스 정책을 사용하여 [회사 메일에 대한 액세스를 제어](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)합니다.
 
 
 ### <a name="additional-information"></a>추가 정보:

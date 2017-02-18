@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 725d9e40-e70c-461a-9413-72ff1b89a938
 ms.reviewer: sandera
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 931f222898a224c2f646ad203f12676c39b78946
 ms.openlocfilehash: aaa0965c2bd4d4093da0c57eaa2e3bd05eb6779a
@@ -97,11 +98,11 @@ Intune에 등록한 경우 다음과 같은 플랫폼에서 Lookout이 지원됩
 
 ## <a name="next-steps"></a>다음 단계
 이 솔루션을 구현하기 위해 수행해야 하는 주요 단계는 다음과 같습니다.
-1.  [장치 위협 방지에 대해 구독 설정](device-threat-protection-subscription-setup.md)
-2.  [Intune에서 장치 위협 방지 연결을 사용하도록 설정](device-threat-protection-enable.md)
+1.    [장치 위협 방지에 대해 구독 설정](device-threat-protection-subscription-setup.md)
+2.    [Intune에서 장치 위협 방지 연결을 사용하도록 설정](device-threat-protection-enable.md)
 3.  [장치 위협 방지 앱 구성 및 배포](device-threat-protection-apps.md)
-4.  [장치 위협 방지 준수 정책 구성](device-threat-protection-policy.md)
-5.  [장치 위협 보호 통합 문제 해결](http://docs.microsoft.com/intune/troubleshoot/device-threat-protection-troubleshooting)
+4.    [장치 위협 방지 준수 정책 구성](device-threat-protection-policy.md)
+5.    [장치 위협 보호 통합 문제 해결](http://docs.microsoft.com/intune/troubleshoot/device-threat-protection-troubleshooting)
 
 
 

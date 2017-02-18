@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: bbc8e0df-7bf3-494e-8bc4-dac59a98ab41
 ms.reviewer: chrisbal
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: be3cfc0120caf6e702139b829fc6ee1fa9bf9a1e
@@ -40,9 +41,9 @@ ms.openlocfilehash: be3cfc0120caf6e702139b829fc6ee1fa9bf9a1e
     
     - **설정 이름.** **PreventStartPackages**를 입력합니다.
     - **설정 설명.** ‘실행이 차단된 앱 목록’과 같이 설명을 선택적으로 입력합니다.
-    -   **데이터 형식.** 드롭다운 목록에서 **문자열**을 선택합니다.
-    -   **OMA-URI.** **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**를 입력합니다.
-    -   **값.** 허용할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|**를 사용할 수 있습니다. (예: package1, package2;)
+    -     **데이터 형식.** 드롭다운 목록에서 **문자열**을 선택합니다.
+    -     **OMA-URI.** **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**를 입력합니다.
+    -     **값.** 허용할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|**를 사용할 수 있습니다. (예: package1, package2;)
 
     사용자가 다른 앱을 모두 제외하는 반면 Google Play 스토어에서 설치할 수 있도록 허용된 앱 목록의 경우
 
