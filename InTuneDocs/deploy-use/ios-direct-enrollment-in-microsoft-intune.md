@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: arob98
-ms.date: 07/19/2016
+ms.date: 01/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: a692b90c-72ae-47d1-ba9c-67a2e2576cc2
 ms.reviewer: dagerrit
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 1daefaabe8877ced9b090f7316e525829e8c673d
+ms.sourcegitcommit: 521a37044d6721fe905db7740329688ba2c24b35
+ms.openlocfilehash: f75c4a6412d34923ec45524d765d3eb270f15e13
 
 
 ---
@@ -27,6 +28,9 @@ ms.openlocfilehash: 1daefaabe8877ced9b090f7316e525829e8c673d
 Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) 도구를 사용하여 회사 소유의 iOS 장치를 등록하도록 지원합니다. 이 프로세스는 장치를 초기화하지 않고 미리 정의된 정책을 사용하여 장치를 등록합니다. 이 방법은 **사용자 선호도 없음**이 지정된 장치용이며, iOS 장치를 Mac 컴퓨터에 USB로 연결하여 회사 등록을 설정해야 합니다.
 
 iOS 장치를 직접 등록하는 경우 장치의 일련 번호를 몰라도 장치를 등록할 수 있습니다. 또한 등록 중에 Intune에서 장치 이름을 확인하기 전에 식별을 위해 장치에 이름을 지정할 수도 있습니다. 직접 등록된 장치의 경우 회사 포털 앱이 지원되지 않습니다. 이 설명서는 Mac 컴퓨터에서 Apple Configurator 2.0을 사용하고 있다고 가정합니다.
+
+>[!NOTE]
+>이 등록 방법을 [장치 등록 관리자](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md) 방법과 함께 사용할 수 없습니다.
 
 1.  등록된 iOS 장치에 대한 장치 등록 프로필을 아직 만들지 않은 경우 Apple Configurator를 통해 만듭니다. 장치 등록 프로필은 장치에 적용되는 설정을 정의합니다.
 
@@ -58,7 +62,7 @@ iOS 장치를 직접 등록하는 경우 장치의 일련 번호를 몰라도 �
 
 6.  다운로드한 .mobileconfig 파일을 Mac 컴퓨터에 복사하여 파일을 전송합니다.
     > [!NOTE]
-    > 등록 프로필 URL은 내보낸 날부터 2주 동안 유효합니다. 2주 후에 설정 도우미를 사용하여 등록할 새 등록 프로필 URL을 내보내야 합니다.
+    > 등록 프로필 URL은 내보낸 날부터&2;주 동안 유효합니다. 2주 후에 설정 도우미를 사용하여 등록할 새 등록 프로필 URL을 내보내야 합니다.
 
 7.  Apple Configurator를 사용하여 장치를 준비합니다. iOS 장치는 Mac 컴퓨터에 연결되고 모바일 장치 관리를 위해 등록됩니다.
 
@@ -90,6 +94,6 @@ iOS 장치를 직접 등록하는 경우 장치의 일련 번호를 몰라도 �
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO5-->
 
 

@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 1712bd39-562b-4409-9cec-155d5f4d8a39
 ms.reviewer: dagerrit
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 588674c38a5e54f6b762ac044457110a361e6969
+ms.sourcegitcommit: fbc9e94d3fc5dc7e69f5d59ca1d52493b2beefc3
+ms.openlocfilehash: 5fa3c62553403dfafd182a691f611ba12a2d729c
 
 
 ---
@@ -51,8 +52,11 @@ Microsoft Intune에서는 관리자가 회사 소유의 모바일 장치를 식�
 
 IMEI 번호가 있는 장치가 Intune에서 등록되면, 일반적으로 사용자가 회사 포털 앱을 설치하고 등록 프로세스를 완료할 때 장치에 회사 소유로 태그가 지정되며 **IMEI 장치** 그룹에 등록된 것으로 표시됩니다.
 
+>[!NOTE] 
+> 곧 조직이 새 Azure 포털로 마이그레이션되면 이 기능이 변경됩니다. 기존 Intune 관리자 콘솔에서 관리자는 업로드된 CSV의 연결된 세부 정보를 수락하고 개별 하드웨어 식별자의 기존 세부 정보를 덮어쓸 수 있습니다. 새 Azure 포털에서는 모든 하드웨어 식별자의 세부 정보를 자동으로 덮어쓰거나 기존 식별자의 세부 정보를 모두 무시할 수 있습니다.
 
 
-<!--HONumber=Dec16_HO2-->
+
+<!--HONumber=Feb17_HO1-->
 
 

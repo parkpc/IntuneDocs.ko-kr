@@ -1,11 +1,11 @@
 ---
-title: "장치 암호화 | Microsoft 문서"
-description: "Android 장치를 암호화하는 방법을 설명합니다."
+title: "암호화를 사용하여 Android 장치를 보호하는 방법 | Microsoft 문서"
+description: "Android 장치 보호"
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/7/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,19 +13,24 @@ ms.technology:
 ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
 searchScope:
 - Company Portal
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 54439c96b75efd60e2068207eb1602e669504831
+ms.sourcegitcommit: 5ca9814992edd0a18d48145243a4be524dbb4f23
+ms.openlocfilehash: 727b99f9ca2f0322eb1fee5fec29cd71dc901e01
 
 
 ---
 
 
-# <a name="encrypt-your-device"></a>장치 암호화
+# <a name="how-to-protect-your-android-device-using-encryption"></a>암호화를 사용하여 Android 장치를 보호하는 방법
 
-회사 또는 조직에서 회사 파일, 메일 또는 데이터에 액세스할 때 Android 장치를 암호화하도록 요구하는 경우 아래의 단계에 따라 장치를 암호화합니다. IT 관리자가 요구하는 경우 암호화하기 전에 PIN 또는 암호를 설정하라는 메시지가 표시될 수 있습니다.
+장치를 암호화하면 장치의 정보를 보호 코드의 계층에 래핑하여 권한이 없는 사용자가 해당 정보에 액세스하는 것을 방지합니다. 정보 보안을 보장하기 위한 단계로서, 조직에서는 회사 파일, 메일 또는 데이터에 액세스하기 전에 Android 장치를 암호화할 것을 요구합니다.
+
+> [!Note]
+> IT 관리자가 요구하는 경우 암호화하기 전에 PIN 또는 암호를 설정하라는 메시지가 표시될 수 있습니다.
 
 휴대폰의 등록을 취소한 경우 휴대폰이 암호화된 상태로 유지됩니다.
 
@@ -63,6 +68,6 @@ ms.openlocfilehash: 54439c96b75efd60e2068207eb1602e669504831
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO5-->
 
 

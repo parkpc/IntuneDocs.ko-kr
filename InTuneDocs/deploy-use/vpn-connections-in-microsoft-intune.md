@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/20/2016
+ms.date: 02/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: abc57093-7351-408f-9f41-a30877f96f73
 ms.reviewer: karanda
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 0ba06e1d698e051ba72e9f88a654d37041c57cf1
-ms.openlocfilehash: cd9785889ca8b2a78a49ea2b04284d32b3fa8a65
+ms.sourcegitcommit: 0154e3bfeac0457de57257045e3e7ce833325bce
+ms.openlocfilehash: a462bcfa107bf1a37ea4e84bc3d88d0dd81f9fc8
 
 
 ---
@@ -40,20 +41,16 @@ VPN 프로필을 사용하여 다음의 장치 유형을 구성할 수 있습니
 
 VPN 프로필 구성 옵션은 선택하는 장치 유형에 따라 다릅니다.
 
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
-
 ## <a name="vpn-connection-types"></a>VPN 연결 형식
 
 Intune에서는 다음의 연결 유형을 사용하는 VPN 프로필 만들기를 지원합니다.
-
-
 
 
 연결 형식 |iOS 및 Mac OS X  |Android 및 Android for Work|Windows 8.1|Windows RT 8.1|Windows Phone 8.1|Windows 10 Desktop 및 Mobile |
 ----------------|------------------|-------|-----------|----------|--------------|-----------------|----------------------|
 Cisco AnyConnect|예 |예   |아니요    |아니요  |아니요    | 예(OMA-URI, Mobile만)|     
 Cisco(IPsec)|예 |예   |아니요  |아니요  |아니요 | 아니요|
-Citrix|예 |아니요   |아니요  |아니요  |아니요 | 아니요|
+Citrix|예 |예(Android에만 해당)   |아니요  |아니요  |아니요 | 아니요|
 Pulse Secure|예  |예 |예   |예  |예| 예|        
 F5 Edge Client|예 |예 |예 |예  |   예 |  예|   
 Dell SonicWALL Mobile Connect|예 |예 |예 |예 |예 |예|         
@@ -198,8 +195,6 @@ iOS 8.0 이상 장치에 대해 필요 시 VPN을 구성할 수 있습니다.
 
 
 
-
-
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Feb17_HO1-->
 
 
