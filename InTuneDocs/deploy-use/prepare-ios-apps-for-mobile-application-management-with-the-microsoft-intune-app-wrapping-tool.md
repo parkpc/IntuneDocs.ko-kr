@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
 ms.reviewer: oldang
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b0abdd44716f8fe0ff8298fa8f6b9f4197964cb9
-ms.openlocfilehash: 06f0f7c436eef63a63182196d4d124b2d928a083
+ms.sourcegitcommit: ee3a0b80f7e534262fbcc8d897e069cff1e35727
+ms.openlocfilehash: a68ffc7be5bcaf55a789ab96035a3f23be0b8b3a
 
 
 ---
@@ -108,6 +109,9 @@ Intune에서 래핑된 앱을 배포하려면 다음과 같은 항목이 필요�
 
   ![내부 및 임시 인증서 선택](../media/app-wrapper/iOS-signing-cert-3.png)
 
+>[!NOTE]
+>앱을 배포하지 않고 내부적으로 테스트만 하려는 경우 프로덕션 인증서 대신 iOS 앱 개발 인증서를 사용할 수 있습니다. 개발 인증서를 사용하는 경우 모바일 프로비전 프로필이 앱을 설치할 장치를 참조하는지 확인합니다.
+
 7. 페이지의 맨 아래에서 **Next**(다음)를 클릭합니다.
 
 8. macOS 컴퓨터에서 Keychain Access 응용 프로그램을 사용하여 **CSR(인증서 서명 요청)**을 만드는 방법에 대한 지침을 읽어봅니다.
@@ -133,11 +137,12 @@ Intune에서 래핑된 앱을 배포하려면 다음과 같은 항목이 필요�
 
 14. 방금 다운로드한 인증서 파일을 두 번 클릭하여 키 집합에 인증서를 추가합니다.
 
-15. **Keychain Access**를 다시 엽니다. Keychain Access 창의 오른쪽 위 검색 창에 **"iPhone"**을 검색하여 인증서를 찾습니다. 항목을 마우스 오른쪽 단추로 클릭하여 메뉴를 표시하고 **Get Info**(정보 가져오기)를 클릭합니다.
+15. **Keychain Access**를 다시 엽니다. 오른쪽 위 검색 창에서 해당 이름을 검색하여 인증서를 찾습니다. 항목을 마우스 오른쪽 단추로 클릭하여 메뉴를 표시하고 **Get Info**(정보 가져오기)를 클릭합니다. 예제 화면에서는 프로덕션 인증서 대신 개발 인증서를 사용합니다.
+
 
   ![키 집합에 인증서 추가](../media/app-wrapper/iOS-signing-cert-8.png)
 
-16. 정보 창이 나타납니다. 맨 아래로 스크롤하여 **Fingerprints**(지문) 레이블 아래를 확인합니다. **SHA1** 문자열을 복사하여 앱 래핑 도구의 매개 변수로 사용합니다.
+16. 정보 창이 나타납니다. 맨 아래로 스크롤하여 **Fingerprints**(지문) 레이블 아래를 확인합니다. **SHA1** 문자열(흐리게 표시됨)을 복사하여 앱 래핑 도구의 "-c"에 대한 인수로 사용합니다.
 
   ![키 집합에 인증서 추가](../media/app-wrapper/iOS-signing-cert-9.png)
 
@@ -400,6 +405,6 @@ iOS용 앱 래핑 도구에 자격 오류가 표시되는 경우 다음의 문�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

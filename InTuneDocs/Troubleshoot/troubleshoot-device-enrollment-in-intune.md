@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 01/10/17
+ms.date: 01/24/17
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 151e71f719b459a4f2c9612035201908d2610980
-ms.openlocfilehash: f6cbca6207b0e253077682bbf213a916b20c5247
+ms.sourcegitcommit: 785e7514c6c6109cfec61a47ae2fc7183c7c2330
+ms.openlocfilehash: 91c6a040f8fd3990c8d48087ac7397db8360f666
 
 
 ---
@@ -31,10 +32,10 @@ ms.openlocfilehash: f6cbca6207b0e253077682bbf213a916b20c5247
 
 문제 해결을 시작하기 전에 등록이 설정되도록 Intune을 올바르게 구성했는지 확인하세요. 다음에서 이러한 구성 요구 사항에 대해 자세히 읽어볼 수 있습니다.
 
--   [Microsoft Intune에 장치를 등록하도록 준비](/intune/deploy-use/prerequisites-for-enrollment)
--   [iOS 및 Mac 장치 관리 설정](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
--   [Microsoft Intune을 사용한 Windows Phone 및 Windows 10 Mobile 관리 설정](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)
--   [Windows 장치 관리 설정](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
+-    [Microsoft Intune에 장치를 등록하도록 준비](/intune/deploy-use/prerequisites-for-enrollment)
+-    [iOS 및 Mac 장치 관리 설정](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
+-    [Microsoft Intune을 사용한 Windows Phone 및 Windows 10 Mobile 관리 설정](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)
+-    [Windows 장치 관리 설정](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
 
 
 관리되는 장치 사용자는 여러분이 검토할 등록 및 진단 로그를 수집할 수 있습니다. 로그 수집에 대한 지침은 다음과 같이 제공됩니다.
@@ -117,7 +118,7 @@ ms.openlocfilehash: f6cbca6207b0e253077682bbf213a916b20c5247
 
     2.  일치하지 않는 사용자를 **Intune 계정 포털** 사용자 목록에서 삭제합니다.
 
-    3.  Azure 서비스에서 잘못된 데이터를 제거할 수 있도록 1시간 가량 기다립니다.
+    3.  Azure 서비스에서 잘못된 데이터를 제거할 수 있도록&1;시간 가량 기다립니다.
 
     4.  DirSync를 다시 설정하고 이제 사용자가 제대로 동기화되었는지 확인합니다.
 
@@ -227,16 +228,16 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
 이 문제를 해결하려면 다음과 같이 인증서를 AD FS 서버 또는 프록시의 컴퓨터 개인 인증서로 가져옵니다.
 
-1.  AD FS 및 프록시 서버에서 **시작** 단추를 마우스 오른쪽 단추로 클릭하고 **실행**을 입력한 다음 **certlm.msc**를 입력하여 로컬 컴퓨터의 인증서 관리 콘솔을 시작합니다.
-2.  **개인**을 확장하고 **인증서**를 선택합니다.
-3.  AD FS 서비스 통신용 인증서(공개 서명된 인증서)를 찾은 다음 두 번 클릭하여 해당 속성을 확인합니다.
-4.  **인증 경로** 탭을 선택하여 해당 인증서의 상위 인증서를 확인합니다.
-5.  각 상위 인증서에서 **인증서 보기**를 선택합니다.
-6.  **세부 정보** 탭을 선택하고 **파일에 복사...**를 선택합니다.
-7.  마법사의 메시지에 따라 인증서의 공개 키를 원하는 파일 위치에 내보내거나 저장합니다.
-8.  **인증서**를 마우스 오른쪽 단추로 클릭하고 **모든 태스크** > **가져오기**를 선택한 후에 마법사의 메시지에 따라 인증서를 가져오는 방법으로 3단계에서 내보냈던 상위 인증서를 로컬 컴퓨터\개인\인증서로 가져옵니다.
-9.  AD FS 서버를 다시 시작합니다.
-10. 모든 AD FS 및 프록시 서버에서 위의 단계를 반복합니다.
+1.    AD FS 및 프록시 서버에서 **시작** 단추를 마우스 오른쪽 단추로 클릭하고 **실행**을 입력한 다음 **certlm.msc**를 입력하여 로컬 컴퓨터의 인증서 관리 콘솔을 시작합니다.
+2.    **개인**을 확장하고 **인증서**를 선택합니다.
+3.    AD FS 서비스 통신용 인증서(공개 서명된 인증서)를 찾은 다음 두 번 클릭하여 해당 속성을 확인합니다.
+4.    **인증 경로** 탭을 선택하여 해당 인증서의 상위 인증서를 확인합니다.
+5.    각 상위 인증서에서 **인증서 보기**를 선택합니다.
+6.    **세부 정보** 탭을 선택하고 **파일에 복사...**를 선택합니다.
+7.    마법사의 메시지에 따라 인증서의 공개 키를 원하는 파일 위치에 내보내거나 저장합니다.
+8.    **인증서**를 마우스 오른쪽 단추로 클릭하고 **모든 태스크** > **가져오기**를 선택한 후에 마법사의 메시지에 따라 인증서를 가져오는 방법으로 3단계에서 내보냈던 상위 인증서를 로컬 컴퓨터\개인\인증서로 가져옵니다.
+9.    AD FS 서버를 다시 시작합니다.
+10.    모든 AD FS 및 프록시 서버에서 위의 단계를 반복합니다.
 이제 사용자는 Android 장치에서 회사 포털에 로그인할 수 있습니다.
 
 **인증서가 제대로 설치되었는지 유효성을 검사하려면**:
@@ -294,32 +295,20 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 ### <a name="enrolled-ios-device-doesnt-appear-in-console-when-using-system-center-configuration-manager-with-intune"></a>Intune에서 System Center Configuration Manager를 사용하면, 등록된 iOS 장치가 콘솔에 표시되지 않습니다.
 **문제:** 사용자가 iOS 장치를 등록하지만 Configuration Manager 관리 콘솔에 나타나지 않습니다. 장치가 등록되었다는 것을 나타내지 않습니다. 가능한 원인:
 
-- Intune 커넥터를 하나의 계정에 등록한 다음 또 다른 계정에 등록했을 수 있습니다.
+- Configuration Manager 사이트의 Microsoft Intune 커넥터가 Intune 서비스와 통신하지 못합니다.
+- Data Discovery Manager(ddm) 구성 요소 또는 상태 관리자(statmgr) 구성 요소가 Intune 서비스의 메시지를 처리하지 못합니다.
 - 하나의 계정으로 MDM 인증서를 다운로드하고 다른 계정에서 사용했을 수 있습니다.
 
 
-**해결 방법:** 다음 단계를 수행합니다.
+**해결 방법:** 다음 로그 파일에서 가능한 오류를 확인하세요.
 
-1. Windows Intune 커넥터 내에서 iOS를 비활성화합니다.
-    1. Intune 구독을 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
-    1. "iOS" 탭에서 "iOS 등록을 사용하도록 설정합니다." 선택을 해제합니다.
+- dmpdownloader.log
+- ddm.log
+- statmgr.log
 
-
-
-1. SQL로, CAS DB에서 다음 단계를 실행합니다.
-
-    1. update SC_ClientComponent_Property set Value2 = '' where Name like '%APNS%'
-    1. delete from MDMPolicy where PolicyType = 7
-    1. delete from MDMPolicyAssignment where PolicyType = 7
-    1. update SC_ClientComponent_Property set Value2 = '' where Name like '%APNS%'
-    1. delete from MDMPolicy where PolicyType = 11
-    1. delete from MDMPolicyAssignment where PolicyType = 11
-    1. DELETE Drs_Signals
-1. SMS Executive 서비스를 다시 시작하거나 CM 서버를 다시 시작합니다.
+이러한 로그 파일에서 어떤 내용을 찾을지 보여 주는 예가 곧 추가될 예정입니다.
 
 
-
-1. 새 APN 인증서를 가져와서 업로드합니다. Configuration Manager 왼쪽 창에서 Intune 구독을 마우스 오른쪽 단추로 클릭합니다. **APNs 인증서 요청 만들기**를 선택하고 지침에 따릅니다.
 ## <a name="issues-when-using-system-center-configuration-manager-with-intune"></a>System Center Configuration Manager with Intune 사용 시 문제
 ### <a name="mobile-devices-disappear"></a>모바일 장치가 사라집니다.
 **문제:** 모바일 장치를 Configuration Manager에 성공적으로 등록한 후 모바일 장치가 모바일 장치 컬렉션에서 사라집니다. 하지만 장치에는 여전히 관리 프로필이 있고 CSS 게이트웨이에는 이 장치가 나열됩니다.
@@ -389,7 +378,7 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 |0x80043008, 0x80CF3008|Microsoft Online Management Updates 서비스를 시작하지 못했습니다.|[Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의합니다.|
 |0x80043009, 0x80CF3009|클라이언트 컴퓨터가 이미 서비스에 등록되어 있습니다.|클라이언트 컴퓨터를 서비스에 다시 등록하기 전에 사용 중지해야 합니다.|
 |0x8004300B, 0x80CF300B|클라이언트를 실행 중인 Windows 버전이 지원되지 않으므로 클라이언트 소프트웨어 설치 패키지를 실행할 수 없습니다.|Intune에서 클라이언트 컴퓨터에서 실행 중인 Windows 버전을 지원하지 않습니다.|
-|0xAB2|Windows Installer에서 사용자 지정 작업에 대한 VBScript 런타임에 액세스할 수 없습니다.|이 오류는 DLL(동적 연결 라이브러리)에 기반한 사용자 지정 작업으로 인해 발생합니다. DLL 문제를 해결하려면 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues(Microsoft 지원 기술 자료 198038: 패키지 및 배포 문제에 유용한 도구)](https://support.microsoft.com/en-us/kb/198038)에 설명된 도구를 사용해야 할 수 있습니다.|
+|0xAB2|Windows Installer에서 사용자 지정 작업에 대한 VBScript 런타임에 액세스할 수 없습니다.|이 오류는 DLL(동적 연결 라이브러리)에 기반한 사용자 지정 작업으로 인해 발생합니다. DLL 문제를 해결하려면 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues(Microsoft 지원 기술 자료&19803;8: 패키지 및 배포 문제에 유용한 도구)](https://support.microsoft.com/en-us/kb/198038)에 설명된 도구를 사용해야 할 수 있습니다.|
 |0x80cf0440|서비스 끝점에 대한 연결이 종료되었습니다.|평가판 또는 유료 계정 일시 중단되었습니다. 새 평가판 또는 유료 계정을 만들고 다시 등록합니다.|
 
 
@@ -400,6 +389,6 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: a8e38e29-f5e3-4a71-a170-d3b1a06e37c6
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: fa33bd3833f7f7198eed3f4f486c27bae3ba47d7
-ms.openlocfilehash: 5f05aa4a27be14a05663aa9de82af63291699403
+ms.sourcegitcommit: 70be873367edccdefd724b6aa6959eb67b377bdd
+ms.openlocfilehash: 92dedcd165ffec47f6c5b818533fce08ed04b1a0
 
 
 ---
@@ -95,7 +96,7 @@ ms.openlocfilehash: 5f05aa4a27be14a05663aa9de82af63291699403
 | **솔루션 영역** | **현재 환경** | **설명** |
 |:---:|:---:|:---:|
 | **ID** | Azure AD, Azure AD Connect, 페더레이션되지 않음, MFA 없음 | 연말까지 MFA를 사용할 수 있도록 프로젝트 준비 |                 
-| **메일 환경** | Exchange 온-프레미스, Exchange Online | 현재 Exchange 온-프레미스에서 Exchange Online으로 마이그레이션 중입니다. 사서함의 75%가 마이그레이션되었습니다. Intune 파일럿이 시작되기 전에 나머지 25%가 마이그레이션됩니다. |                
+| **메일 환경** | Exchange 온-프레미스, Exchange Online | 현재 Exchange 온-프레미스에서 Exchange Online으로 마이그레이션 중입니다. 사서함의&75;%가 마이그레이션되었습니다. Intune 파일럿이 시작되기 전에 나머지 25%가 마이그레이션됩니다. |                
 | **SharePoint** | SharePoint 온-프레미스 | SharePoint Online으로 이동할 계획 없음 |  
 | **현재 MDM** | Exchange ActiveSync |  |
 | **인증서 솔루션** | Microsoft Server 2012 R2, AD 인증서 서비스 | 웹 사이트 서버에 PKI만 사용 |
@@ -411,6 +412,6 @@ Intune은 여러 가지 방법으로 사용자 또는 장치에 대한 앱 배�
 
 
 
-<!--HONumber=Dec16_HO5-->
+<!--HONumber=Jan17_HO3-->
 
 

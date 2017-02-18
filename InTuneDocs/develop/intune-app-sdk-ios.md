@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: oydang
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b068da7685792757825a4bc0d555e28ee0168cb1
-ms.openlocfilehash: cb80d531a28eaccbd26bc53df3e13ad233522dcf
+ms.sourcegitcommit: 3fdbf7f561f526b68972c6f66d1b72b56f7fa8ad
+ms.openlocfilehash: 5aa384197036adf0c373a08c3750f453812c9fba
 
 
 ---
@@ -119,12 +120,13 @@ Intune 앱 SDK를 사용하려면 다음이 단계를 따르세요.
 6. 각 프로젝트 대상에서 **기능**을 클릭하고 **키 집합 공유** 스위치를 사용하도록 설정하여 키 집합 공유를 사용하도록 설정합니다(아직 설정되지 않은 경우). 다음 단계를 진행하려면 키 집합 공유가 필요합니다.
 
     > [!NOTE]
-    > 프로비저닝 프로필이 새로운 키 집합 공유 값을 지원해야 합니다. 키 집합 액세스 그룹이 와일드카드 문자를 지원해야 합니다. 이를 확인하려면 텍스트 편집기에서 .mobileprovision 파일을 열고 **keychain-access-groups**를 검색한 다음 와일드카드가 있는지 확인합니다. 예를 들어     ```xml
+    > 프로비저닝 프로필이 새로운 키 집합 공유 값을 지원해야 합니다. 키 집합 액세스 그룹이 와일드카드 문자를 지원해야 합니다. 이를 확인하려면 텍스트 편집기에서 .mobileprovision 파일을 열고 **keychain-access-groups**를 검색한 다음 와일드카드가 있는지 확인합니다. 예를 들면 다음과 같습니다.
+    ```xml
     <key>keychain-access-groups</key>
     <array>
     <string>YOURBUNDLESEEDID.*</string>
     </array>
-    ```를 구성할 수 있습니다.
+    ```
 
 7. 키 집합 공유를 사용하도록 설정한 후 다음 단계에 따라 Intune 앱 SDK 데이터를 저장할 별도의 액세스 그룹을 만듭니다. UI를 사용하거나 자격 파일을 사용하여 키 집합 액세스 그룹을 만들 수 있습니다.
 
@@ -150,7 +152,7 @@ Intune 앱 SDK를 사용하려면 다음이 단계를 따르세요.
 
 9. iOS 9 이상용으로 개발되는 모바일 앱의 경우 앱이 `UIApplication canOpenURL`에 전달하는 각 프로토콜을 앱 Info.plist 파일의 `LSApplicationQueriesSchemes` 배열에 포함합니다. 또한 나열된 각 프로토콜에 대해 새 프로토콜을 추가하고 앞에 `-intunemam`을 추가합니다. 또한 `http-intunemam`, `https-intunemam`및 `ms-outlook-intunemam` 을 배열에 포함해야 합니다.
 
-10. 앱의 자격에 앱 그룹이 정의되어 있으면 이러한 그룹을 `AppGroupIdentitifiers` 키 아래의 IntuneMAMSettings 사전에 문자열 배열로 추가합니다.
+10. 앱의 자격에 앱 그룹이 정의되어 있으면 이러한 그룹을 `AppGroupIdentifiers` 키 아래의 IntuneMAMSettings 사전에 문자열 배열로 추가합니다.
 
 11. 모바일 응용 프로그램을 ADAL(Azure Directory 인증 라이브러리)에 연결합니다. Objective C용 ADAL 라이브러리는 [GitHub에서 사용할 수 있습니다](https://github.com/AzureAD/azure-activedirectory-library-for-objc).
 
@@ -509,7 +511,7 @@ ID는 단순히 문자열로 정의됩니다. ID는 대/소문자를 구분하�
 
 ### <a name="identity-overview"></a>ID 개요
 
-ID는 계정의 사용자 이름일 뿐입니다. 예를 들어 user@contoso.com). 개발자는 다음 수준에서 앱의 ID를 설정할 수 있습니다.
+ID는 계정의 사용자 이름입니다(예: user@contoso.com)). 개발자는 다음 수준에서 앱의 ID를 설정할 수 있습니다.
 
 * **프로세스 ID**: 프로세스 전반 ID를 설정하고 주로 단일 ID 응용 프로그램에 사용됩니다. 이 ID는 모든 작업, 파일 및 UI에 영향을 줍니다.
 * **UI ID**: 잘라내기/복사/붙여넣기, PIN, 인증, 데이터 공유 등 주 스레드에서 UI 작업에 적용되는 정책을 결정합니다. UI ID는 파일 작업(암호화, 백업 등)에 영향을 주지 않습니다.
@@ -604,6 +606,12 @@ Microsoft Intune을 사용하여 MAM 지원 앱을 수동으로 테스트하기 
 
 ## <a name="faq"></a>FAQ
 
+
+**네이티브 Swift 또는 Objective-C와 Swift의 상호 운용성을 통해 모든 API의 주소를 지정할 수 있나요?**
+
+Intune 앱 SDK API는 Objective-C 전용이며 네이티브 Swift를 지원하지 않습니다.  
+
+
 **내 앱의 모든 사용자를 MAM 서비스에 등록해야 하나요?**
 
 아니요. 실제로 회사 또는 학교 계정만 Intune 앱 SDK에 등록하면 됩니다. 계정이 회사 또는 학교 컨텍스트에서 사용되는지를 결정하는 것은 앱의 책임입니다.   
@@ -618,7 +626,7 @@ Microsoft Intune을 사용하여 MAM 지원 앱을 수동으로 테스트하기 
 
 SDK는 이전에 실패한 모든 등록을 24시간 간격으로 자동으로 다시 시도합니다. SDK는 사용자의 조직에서 사용자가 응용 프로그램에 로그인한 후 MAM을 사용하도록 설정한 경우 사용자가 등록되고 정책을 수신하도록 하기 위해 이렇게 합니다.
 
-SDK는 사용자가 응용 프로그램을 등록했음을 감지하면 다시 시도를 중지합니다. 특정 시점에 1명의 사용자만 응용 프로그램을 등록할 수 있기 때문입니다. 사용자가 등록 취소된 경우 다시 시도는 같은 24시간 간격으로 다시 시작됩니다.
+SDK는 사용자가 응용 프로그램을 등록했음을 감지하면 다시 시도를 중지합니다. 특정 시점에&1;명의 사용자만 응용 프로그램을 등록할 수 있기 때문입니다. 사용자가 등록 취소된 경우 다시 시도는 같은 24시간 간격으로 다시 시작됩니다.
 
 **사용자를 등록 취소해야 하는 이유는 무엇인가요?**
 
@@ -636,6 +644,8 @@ SDK는 백그라운드에서 주기적으로 다음 작업을 수행합니다.
 **앱을 등록 취소할 수 있는 다른 방법이 있나요?**
 
 예, IT 관리자는 응용 프로그램에는 선택적 초기화 명령을 보낼 수 있습니다. 그러면 사용자가 등록 취소되고 사용자의 데이터가 초기화됩니다. SDK는 이 시나리오를 자동으로 처리하고 등록 취소 대리자 메서드를 통해 알림을 보냅니다.
+
+
 
 ## <a name="submit-your-app-to-the-app-store"></a>앱 스토어에 앱 제출
 
@@ -656,6 +666,6 @@ Intune 앱 SDK의 정적 라이브러리 빌드와 프레임워크 빌드는 둘
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO3-->
 
 

@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 12/15/2016
+ms.date: 02/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: d97fb610-9d88-40e5-bb06-447eec533630
 ms.reviewer: esmich
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b068da7685792757825a4bc0d555e28ee0168cb1
-ms.openlocfilehash: 7009cf7626008124e4c8a71198e21ae6def93581
+ms.sourcegitcommit: 211b996263aae7a42f8370eb343c7e759ef87790
+ms.openlocfilehash: 5aae8edd2b851eb94156e82bc9b6e604644cb900
 
 
 ---
@@ -35,7 +36,7 @@ Android 로그는 *<Android Device>\Phone\Android\data\com.microsoft.windowsintu
 
 - [자세한 정보 로깅을 사용하여 IT 관리자가 장치 문제를 해결하도록 돕기](/intune/enduser/use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android): 사용자가 자세한 정보 로깅을 켜고 모든 데이터 로그를 자동으로 보내는 방법을 설명합니다. 기본적으로 자세한 정보 로깅은 켜져 있습니다.
 
-- [메일을 사용하여 IT 관리자에게 Android 진단 데이터 로그 보내기](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-email-android)
+- [메일을 사용하여 IT 관리자에게 Android 진단 데이터 로그 보내기](/intune/enduser/send-logs-to-your-it-admin-by-email-android)
 
 - [USB 케이블을 사용하여 IT 관리자에게 진단 데이터 로그 보내기](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android)
 
@@ -59,6 +60,6 @@ Windows 회사 포털의 경우 로그는 *%localappdata%\Packages\Microsoft.Com
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Feb17_HO2-->
 
 
