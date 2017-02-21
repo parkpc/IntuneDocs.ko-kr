@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/19/2016
+ms.date: 02/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,11 +13,13 @@ ms.technology:
 ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 searchScope:
 - Company Portal
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 3da636b15807623bb60895870e6d43cd2e0aa01c
-ms.openlocfilehash: 4e28ce37559d209672dd4180eebfb07ffddd60c6
+ms.sourcegitcommit: 9530eb45bf027c66c4a36e4cea1ec05c5f15a6e5
+ms.openlocfilehash: b1de425a00e3c4200f71c8bf03661e4d0aca45c7
 
 
 ---
@@ -25,9 +27,11 @@ ms.openlocfilehash: 4e28ce37559d209672dd4180eebfb07ffddd60c6
 
 # <a name="enroll-your-android-device-in-intune"></a>Intune에서 Android 장치 등록
 
-회사 또는 학교에서 Microsoft Intune을 사용하는 경우 Android 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 IT 부서에서 해당 회사 또는 학교 리소스를 관리하고 보안을 유지하여 선호하는 장치를 자유롭게 사용하여 작업을 완료할 수 있습니다. 등록에 대해 자세히 알아보려면 [회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md)를 참조하세요.
+회사 또는 학교에서 Microsoft Intune을 사용하는 경우 Android 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 IT 부서에서 해당 회사 또는 학교 리소스를 관리하고 보안을 유지하여 선호하는 장치를 자유롭게 사용하여 작업을 완료할 수 있습니다. 등록에 대해 자세히 알아보려면 [회사 포털 앱을 설치하고 장치를 등록하면 어떤 일이 생기나요?](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md)를 참조하세요.
 
-이러한 등록 지침은 Samsung KNOX Android 장치와 "네이티브"(Samsung Knox가 아닌) Android 장치에 대한 것입니다. Samsung KNOX 장치가 있는지 확인하려면 **설정** > **장치 정보**로 이동합니다. 여기에 나열된 "KNOX 버전"이라는 단어가 보이지 않으면 네이티브 Android 장치가 있어야 합니다.
+<iframe src="https://channel9.msdn.com/Series/IntuneEnrollment/Android-Enrollment/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+
+이러한 등록 지침은 Samsung KNOX Android 장치와 네이티브 Android 장치에 대한 것입니다. Samsung KNOX는 특정 Samsung 장치에서 네이티브 Android가 제공하지 않는 추가 보호를 제공하기 위해 사용하는 보안 유형입니다. Samsung KNOX 장치가 있는지 확인하려면 **설정** > **장치 정보**로 이동합니다. 여기에 나열된 "KNOX 버전"이라는 단어가 보이지 않으면 네이티브 Android 장치가 있어야 합니다.
 
 등록하기 전이나 이후에 장치 사용 방법을 가장 잘 설명하는 범주를 선택하라는 메시지가 표시될 수도 있습니다. IT 관리자는 이 범주를 사용하여 액세스할 수 있는 앱을 확인합니다.
 
@@ -70,7 +74,7 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 10.  Android 6.0 이상을 사용하는 경우 이 단계를 수행합니다. 그렇지 않으면 다음 단계로 진행합니다.
 
     IT 관리자가 특정 정책을 설정한 경우 다음과 같은 메시지가 표시될 수 있습니다.
-    -   **회사 포털에서 통화를 하고 전화 통화를 관리하도록 허용하시나요?**
+    -    **회사 포털에서 통화를 하고 전화 통화를 관리하도록 허용하시나요?**
 
         ![android-company-portal-sign-in](./media/and-enroll-3a-allow-phone-access.png)
 
@@ -78,7 +82,7 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
     액세스를 거부하면 다음에 회사 포털에 로그인할 때 메시지가 다시 표시되지만, **다시 묻지 않음** 상자를 탭하여 이후 메시지를 해제할 수 있습니다. 사용자가 나중에 액세스를 허용할 경우 **설정** &gt; **앱** &gt; **회사 포털** &gt; **사용 권한** &gt; **전화**로 이동한 다음 사용 권한을 설정합니다.
 
-    -   **회사 포털에 연락처에 대한 액세스를 허용하시나요?**
+    -    **회사 포털에 연락처에 대한 액세스를 허용하시나요?**
 
         ![android-company-portal-sign-in](./media/and-enroll-3b-allow-contacts-access.png)
 
@@ -116,6 +120,6 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Feb17_HO2-->
 
 

@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 11/02/2016
+ms.date: 02/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 8519e411-3d48-44eb-9b41-3e4fd6a93112
 ms.reviewer: lancecra
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 8131d130e843db37e99b05ab17cd1b8ba23c7c57
+ms.sourcegitcommit: 7da3108cbc3185cd40c1ca9b52545bbd4e46b21f
+ms.openlocfilehash: 043b5ccb611600bdf18ce93fccfa853f3994a860
 
 
 ---
@@ -117,10 +118,14 @@ Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정�
 |Wi-Fi 및 VPN 프로필 설정|제거됩니다.|제거됩니다.|
 |인증서 프로필 설정|인증서가 해지되었지만 제거되지는 않았습니다.|인증서가 제거되고 해지되었습니다.|
 |관리 에이전트|장치 관리자 권한이 해지됩니다.|장치 관리자 권한이 해지됩니다.|
-|메일|Android에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다.|
-|Outlook|iOS에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.</br>예외: Exchange를 온-프레미스에서 호스트하는 경우 메일이 제거되지 않습니다.|iOS에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.</br>예외: Exchange를 온-프레미스에서 호스트하는 경우 메일이 제거되지 않습니다.|
+|전자 메일|해당 없음 Outlook 항목을 참조하세요.|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다.|
+|Outlook|Android용 Microsoft Outlook 앱에서 받은 메일은 제거되지만 Outlook이 MAM 정책에 의해 보호되는 경우에만 제거됩니다. 그렇지 않으면 등록 취소 시 Outlook이 초기화되지 않습니다.</br>예외: Exchange를 온-프레미스에서 호스트하는 경우 메일이 제거되지 않습니다.|Android용 Microsoft Outlook 앱에서 받은 메일은 제거되지만 Outlook이 MAM 정책에 의해 보호되는 경우에만 제거됩니다. 그렇지 않으면 등록 취소 시 Outlook이 초기화되지 않습니다.</br>예외: Exchange를 온-프레미스에서 호스트하는 경우 메일이 제거되지 않습니다.|
 |AAD(Azure Active Directory) 가입 취소|AAD 레코드가 제거됩니다.|AAD 레코드가 제거됩니다.|
 |연락처 | 앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.|앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.
+
+**Android for Work**
+
+Android for Work 장치에서 선택적 초기화를 수행하면 해당 장치의 회사 프로필에서 모든 데이터, 앱 및 설정이 제거됩니다. 이 경우 Intune을 사용한 관리에서 장치 사용이 중지됩니다. 전체 초기화는 Android for Work에 지원되지 않습니다.
 
 **Windows**
 
@@ -168,6 +173,6 @@ EFS로 암호화된 콘텐츠의 선택 초기화는 Windows 8.1 및 Windows RT 
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO2-->
 
 

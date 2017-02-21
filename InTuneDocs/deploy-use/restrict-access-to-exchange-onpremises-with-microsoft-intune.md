@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: a55071f5-101e-4829-908d-07d3414011fc
 ms.reviewer: chrisgre
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
-ms.openlocfilehash: 590a5df066c69e2369d0b586d52def1abd64a379
+ms.sourcegitcommit: 53d2c0d5b2157869804837ae2fa08b1cce429982
+ms.openlocfilehash: e3b404526d8e662fd8ae285c144b1d6f5cf22bf3
 
 
 ---
@@ -24,18 +25,19 @@ ms.openlocfilehash: 590a5df066c69e2369d0b586d52def1abd64a379
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
+Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exchange 온-프레미스에 조건부 액세스 제어 메일 액세스를 구성할 수 있습니다.
+조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [메일 및 O365 서비스에 대한 액세스 보호](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 읽어보세요.
+
 > [!NOTE]
 > Exchange Online Dedicated 환경이 있고 신규 또는 기존 구성 상태인지를 확인해야 하는 경우 계정 관리자에게 문의하세요.
 
+## <a name="before-you-begin"></a>시작하기 전에
 
-Exchange 온-프레미스 또는 레거시 Exchange Online Dedicated 환경에 대한 메일 액세스를 제어하기 위해 Microsoft Intune을 사용하여 Exchange 온-프레미스에 대한 조건부 액세스를 구성할 수 있습니다.
-조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [메일 및 O365 서비스에 대한 액세스 보호](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 읽어보세요.
-
-조건부 액세스를 구성하기 **전에** 다음을 확인합니다.
+다음 사항을 확인해야 합니다.
 
 -   Exchange 버전은 **Exchange 2010 이상**이어야 합니다. Exchange Server CAS(클라이언트 액세스 서버) 배열이 지원됩니다.
 
--   [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]를 Exchange 온-프레미스에 연결하는 **온-프레미스 Exchange Connector**를 사용해야 합니다. 이렇게 하면 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 콘솔을 통해 장치를 관리할 수 있습니다. 커넥터에 대한 자세한 내용은 [Intune on-premises Exchange connector](intune-on-premises-exchange-connector.md)(Intune 온-프레미스 Exchange Connector) 항목을 참조하세요.
+-   [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]를 Exchange 온-프레미스에 연결하는 [Intune 온-프레미스 Exchange Connector](intune-on-premises-exchange-connector.md)를 사용해야 합니다. 이렇게 하면 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 콘솔을 통해 장치를 관리할 수 있습니다.
 
     -   Intune 콘솔에서 사용할 수 있는 온-프레미스 Exchange Connector는 Intune 테넌트에 고유하며 다른 테넌트에 사용할 수 없습니다. 또한 테넌트용 Exchange Connector가 **한 대의 컴퓨터**에만 설치되어 있는지 확인하는 것이 좋습니다.
 
@@ -47,6 +49,8 @@ Exchange 온-프레미스 또는 레거시 Exchange Online Dedicated 환경에 �
 
 -   인증서 기반 인증 또는 사용자 자격 증명 항목으로 **Exchange ActiveSync**를 구성해야 합니다.
 
+### <a name="device-compliance-requirements"></a>장치 정책 준수 요구 사항
+
 조건부 액세스 정책을 구성하고 사용자를 대상으로 지정한 경우 사용자가 자신의 메일에 연결하기 전에 사용하는 **장치**는 다음과 같아야 합니다.
 
 -  도메인에 가입된 PC 또는 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 **등록**된 PC이어야 합니다.
@@ -57,11 +61,13 @@ Exchange 온-프레미스 또는 레거시 Exchange Online Dedicated 환경에 �
 
 -   해당 장치에 배포된 모든 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] **준수 정책을 준수해야 합니다**.
 
+### <a name="how-conditional-access-works-with-exchange-on-premises"></a>Exchange 온-프레미스 조건부 액세스의 작동 방식
+
 다음 다이어그램은 Exchange 온-프레미스 환경에 대한 조건부 액세스 정책에서 장치를 허용할지 또는 차단할지를 평가하기 위해 사용하는 흐름을 보여 줍니다.
 
 ![장치가 Exchange 온-프레미스에 대한 액세스를 허용하거나 차단할지를 결정하는 결정 지점을 보여 주는 다이어그램](../media/ConditionalAccess8-2.png)
 
-조건부 액세스 정책이 충족되지 않으면 사용자가 로그인할 때 다음 메시지 중 하나가 표시됩니다.
+조건부 액세스 정책이 충족되지 않는 경우 장치가 차단되고 10분 후 사용자에게 다음 격리 메시지(로그인 시) 중 하나가 제공됩니다.
 
 - 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하지 않았거나 Azure Active Directory에 등록하지 않은 경우, 회사 포털 앱을 설치하고 장치를 등록하며 메일을 활성화하는 방법에 대한 지침이 포함된 메시지가 표시됩니다. 이 프로세스는 또한 장치의 Exchange ActiveSync ID를 Azure Active Directory의 장치 레코드와 연결합니다.
 
@@ -136,6 +142,6 @@ Exchange 온-프레미스 또는 레거시 Exchange Online Dedicated 환경에 �
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO2-->
 
 

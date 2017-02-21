@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 0f737d48-24bc-44cd-aadd-f0a1d59f6893
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e13a9c426e07ebb2443bd403d1a5c7274afd387e
-ms.openlocfilehash: 213e2e43635dd64cd64c850d74f7fd05f649bd64
+ms.sourcegitcommit: 0f5972171349325eeb750e552481cbcf903fdf95
+ms.openlocfilehash: 9f1cd7ea3e92ac2e3a1b828e8185961060a7c619
 
 
 ---
@@ -23,6 +24,8 @@ ms.openlocfilehash: 213e2e43635dd64cd64c850d74f7fd05f649bd64
 # <a name="intune-network-bandwidth-use"></a>Intune 네트워크 대역폭 사용
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+이 지침은 기업에서 장치 관리를 담당하는 시스템 관리자용으로 작성되었습니다. 모바일 장치에서 Intune을 사용하는 방법에 대한 도움말은 [Intune 회사 포털에 대한 질문과 대답](https://docs.microsoft.com/intune/enduser/company-portal-frequently-asked-questions)을 참조하세요.
 
 Microsoft Intune을 설정하기 전에 이 항목과 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)에 나열된 요구 사항을 검토합니다.
 
@@ -43,7 +46,7 @@ Microsoft Intune을 설정하기 전에 이 항목과 [Microsoft Intune을 시�
 |정책 에이전트|3 MB|**한 번**<br /><br />이 콘텐츠 유형에 대한 업데이트가 있는 경우 추가로 다운로드할 수 있습니다.|
 |Microsoft Easy Assist 에이전트를 통한 원격 지원|6 MB|**한 번**<br /><br />이 콘텐츠 유형에 대한 업데이트가 있는 경우 추가로 다운로드할 수 있습니다.|
 |클라이언트의 일별 작업|6 MB|**매일**<br /><br />Intune 클라이언트는 Intune 서비스와 정기적으로 통신하여 업데이트 및 정책을 확인하고 클라이언트의 상태를 서비스에 보고합니다.|
-|Endpoint Protection 맬웨어 정의 업데이트|상황에 따라 다름<br /><br />일반적으로 40KB -2MB|**매일**<br /><br />하루에 최대 3번|
+|Endpoint Protection 맬웨어 정의 업데이트|상황에 따라 다름<br /><br />일반적으로 40KB -2MB|**매일**<br /><br />하루에 최대&3;번|
 |Endpoint Protection 엔진 업데이트|5 MB|**매월**|
 |소프트웨어 업데이트|상황에 따라 다름<br /><br />크기는 배포하는 업데이트에 따라 달라집니다.|**매월**<br /><br />일반적으로 소프트웨어 업데이트는 매월 두 번째 화요일에 배포됩니다.<br /><br />새로 등록되거나 배포된 컴퓨터는 이전에 배포된 업데이트의 전체 집합을 다운로드하는 동안 네트워크 대역폭을 추가로 사용할 수 있습니다.|
 |서비스 팩|상황에 따라 다름<br /><br />크기는 배포하는 각 서비스 팩에 따라 달라집니다.|**상황에 따라 다름**<br /><br />서비스 팩을 배포하는 시기에 따라 달라집니다.|
@@ -231,6 +234,6 @@ Intune은 Intune 소프트웨어를 실행하는 서버와 같은 온-프레미�
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Feb17_HO2-->
 
 

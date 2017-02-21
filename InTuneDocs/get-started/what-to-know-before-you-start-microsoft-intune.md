@@ -1,11 +1,11 @@
 ---
-title: "필수 조건 | Microsoft 문서"
-description: "Intune 필수 구성 요소 및 요구 사항에 대한 링크"
+title: "지원되는 장치 - Microsoft Intune | Microsoft Docs"
+description: "Intune 장치 관리용으로 지원되는 장치 플랫폼 및 브라우저를 나열합니다."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 01/10/2017
+ms.date: 02/07/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,16 +13,19 @@ ms.technology:
 ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: angrobe
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e2810513646828cc5da734f3af9cc8d81e0c03fc
-ms.openlocfilehash: 444d08d1a5e709572efbc2f639cef037453b9c0e
+ms.sourcegitcommit: b3732d0c6461f9fb8462ae5584055204d597aae0
+ms.openlocfilehash: 0af4f49713a65900079d69a09f20d210797c935c
 
 
 ---
 
-# <a name="prerequisites-to-getting-started-with-intune"></a>Intune을 시작하기 위한 필수 구성 요소
+# <a name="supported-devices-and-browsers"></a>지원되는 장치 및 브라우저
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+이 문서는 기업에서 장치 관리를 담당하는 시스템 관리자용으로 작성되었습니다. 휴대폰에서 Intune을 설치하는 방법에 대한 도움말은 [관리되는 장치를 사용하여 작업 완료](https://docs.microsoft.com/intune/enduser/company-portal-frequently-asked-questions)를 참조하세요.
 
 Microsoft Intune의 설정을 시작하기 전에 다음 요구 사항을 검토합니다.
 
@@ -74,6 +77,6 @@ Intune 콘솔에서 [Exchange ActiveSync 장치](/intune/deploy-use/mobile-devic
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO2-->
 
 

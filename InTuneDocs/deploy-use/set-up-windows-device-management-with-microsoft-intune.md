@@ -1,10 +1,10 @@
 ---
 title: "Microsoft Intune을 사용한 Windows 장치 관리 설정 | Microsoft 문서"
-description: "Microsoft Intune으로 Windows 10 장치를 비롯한 Windows Phone PC에 대한 MDM(모바일 장치 관리)을 설정합니다."
+description: "Microsoft Intune으로 Windows 장치에 대한 MDM(모바일 장치 관리)을 사용하도록 설정합니다."
 keywords: 
 author: staciebarker
 manager: stabar
-ms.date: 01/26/2016
+ms.date: 02/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 526830839aa801a7ac78aeb4baaa790d6bb5da5c
-ms.openlocfilehash: f4f3b89cf066bcc98d043f66d4d40fd9d9ca3fd5
+ms.sourcegitcommit: 45c32cf08e4d6fd570af287ed64411edc9d9b394
+ms.openlocfilehash: e020ac2a4f600a94e7409e04c4c48f0c405c56cf
 
 
 ---
@@ -23,23 +23,29 @@ ms.openlocfilehash: f4f3b89cf066bcc98d043f66d4d40fd9d9ca3fd5
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-Intune 관리자는 두 가지 방법으로 Windows PC 등록 및 관리를 수행하도록 설정할 수 있습니다.
+다음 방법 중 하나를 사용하여 Windows 장치에 대한 등록을 설정할 수 있습니다.
 
-- **[Azure Active Directory에 자동으로 등록](#azure-active-directory-enrollment)** - Windows 10 및 Windows 10 Mobile 사용자가 장치에 회사 또는 학교 계정을 추가하여 장치를 등록합니다.
+- **[Azure Active Directory Premium에 Windows 10 및 Windows 10 Mobile 자동 등록](#set-up-windows-10-and-windows-10-mobile-automatic-enrollment-with-azure-active-directory-premium)** 
+ -  이 방법은 Windows 10 및 Windows 10 Mobile 장치에만 적용됩니다.
+ -  이 방법을 사용하려면 Azure Active Directory Premium이 있어야 합니다. 그렇지 않은 경우 Windows 8.1 및 Windows Phone 8.1에 대한 등록 방법을 사용하세요.
+ -  자동 등록을 사용하도록 설정하지 않은 경우 Windows 8.1 및 Windows Phone 8.1에 대한 등록 방법을 사용합니다.
 
-- **[회사 포털 등록](#set-up-company-portal-app-enrollment)** - Windows 8.1 이상 장치의 경우 사용자는 회사 포털 앱을 다운로드 및 설치한 다음 앱에서 회사 또는 학교 계정 자격 증명을 입력하여 장치를 등록합니다.
+
+- **[CNAME을 구성하여 Windows 8.1 및 Windows Phone 8.1 등록](#set-up-windows-8--1-and-windows-phone-8--1-enrollment-by-configuring-cname)** 
+ - Windows 8.1 및 Windows Phone 8.1 장치를 등록하려면 이 방법을 사용해야 합니다.
 
 [!INCLUDE[AAD-enrollment](../includes/win10-automatic-enrollment-aad.md)]
 
-## <a name="set-up-company-portal-app-enrollment"></a>회사 포털 앱 등록 설정
-사용자가 Intune 회사 포털 앱을 사용하여 장치를 설치하고 등록하도록 할 수 있습니다. DNS CNAME 리소스 레코드를 만들면 사용자가 서버 이름을 입력하지 않고도 Intune에서 연결 및 등록합니다.
+## <a name="set-up-windows-81-and-windows-phone-81-enrollment-by-configuring-cname"></a>CNAME을 구성하여 Windows 8.1 및 Windows Phone 8.1 등록 설정
+사용자가 Intune 회사 포털을 사용하여 장치를 설치하고 등록하도록 할 수 있습니다. DNS CNAME 리소스 레코드를 만들면 사용자가 서버 이름을 입력하지 않고도 Intune에서 연결 및 등록합니다.
 
 1. **Intune 설정**<br>
 MDM(모바일 장치 관리)을 아직 준비하지 않은 경우 [모바일 장치 관리 기관](prerequisites-for-enrollment.md#step-2-set-mdm-authority)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
 
-2. **CNAME 만들기**(선택 사항)<br>회사의 도메인에 대한 **CNAME** DNS 리소스 레코드를 만들어야 합니다. 예를 들어, 회사의 웹 사이트가 contoso.com인 경우 DNS에 EnterpriseEnrollment.contoso.com을 enterpriseenrollment-s.manage.microsoft.com으로 리디렉션하는 CNAME을 만듭니다.
+2. **CNAME 만들기**(선택 사항)<br>
+회사의 도메인에 대한 **CNAME** DNS 리소스 레코드를 만들어야 합니다. 예를 들어, 회사의 웹 사이트가 contoso.com인 경우 DNS에 EnterpriseEnrollment.contoso.com을 enterpriseenrollment-s.manage.microsoft.com으로 리디렉션하는 CNAME을 만듭니다.
 
-    CNAME DNS 항목은 선택 사항이지만 CNAME 레코드를 통해 보다 쉽게 등록할 수 있습니다. 등록 CNAME 레코드가 없으면 사용자에게 MDM 서버 이름인 https://enrollment.manage.microsoft.com을 수동으로 입력하라는 메시지가 표시됩니다. 
+    CNAME DNS 항목을 만드는 것은 선택 사항이지만 CNAME 레코드를 사용하면 사용자가 보다 쉽게 등록할 수 있습니다. 등록 CNAME 레코드가 없으면 사용자에게 MDM 서버 이름인 enrollment.manage.microsoft.com을 수동으로 입력하라는 메시지가 표시됩니다.    
 
     DNS에 EnterpriseEnrollment.contoso.com을 manage.microsoft.com으로 리디렉션하는 CNAME가 있다면 이 DNS의 CNAME를 EnterpriseEnrollment.contoso.com을 enterpriseenrollment-s.manage.microsoft.com으로 리디렉션하는 CNAME로 바꾸는 것이 좋습니다. manage.microsoft.com 끝점을 향후 릴리스에서 등록 시 사용하지 않기 때문에 이렇게 변경하는 것이 좋습니다.
 
@@ -72,6 +78,6 @@ MDM(모바일 장치 관리)을 아직 준비하지 않은 경우 [모바일 장
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO2-->
 
 

@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/03/2017
+ms.date: 02/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 10f0cd61-e514-4e44-b13e-aeb85a8e53ae
 ms.reviewer: karanda
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 519d3f475e158391b08ab4e51f9410b7bdefcd4c
+ms.sourcegitcommit: 3ee87c8f6104b06c8a9492566ff160540624f17e
+ms.openlocfilehash: 8f35cf70d0c97afc88eba38b1eaff5e2e38425d0
 
 
 ---
@@ -33,11 +34,11 @@ ms.openlocfilehash: 519d3f475e158391b08ab4e51f9410b7bdefcd4c
 IT 관리자나 사용자가 Android 또는 iOS용 Microsoft Outlook 등 대체 전자 메일 클라이언트를 설치하도록 선택할 수도 있습니다. 이러한 전자 메일 클라이언트는 전자 메일 프로필을 지원하지 않을 수 있으며 Intune 전자 메일 프로필을 사용하여 설정할 수 없습니다.  
 
 전자 메일 프로필을 사용하여 다음 장치 유형에서 네이티브 전자 메일 클라이언트를 구성할 수 있습니다.
--   Windows Phone 8.1 이상
--   Windows 10(데스크톱용), Windows 10 Mobile 이상
--   iOS 8.0 이상
--   Samsung KNOX Standard(4.0 이상)
--   Android for Work
+-    Windows Phone 8.1 이상
+-    Windows 10(데스크톱용), Windows 10 Mobile 이상
+-    iOS 8.0 이상
+-    Samsung KNOX Standard(4.0 이상)
+-    Android for Work
 
 >[!NOTE]
 >Intune은 Gmail 및 Nine Work 메일 앱 각각에 대해 Android for Work 메일 프로필을 하나씩 제공합니다. 이러한 앱은 Google Play 스토어에서 사용할 수 있으며 Exchange로의 연결을 지원합니다. 메일 연결을 사용하도록 설정하려면 사용자의 장치에 이러한 메일 앱 중 하나를 배포한 다음 적절한 프로필을 만들어 배포합니다.
@@ -88,7 +89,7 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 
     -   **메일 프로필(Android for Work - Gmail)**
 
-    -   **메일 프로필(Android for Work - Nine Work)**
+    -    **메일 프로필(Android for Work - Nine Work)**
 
     사용자 지정 전자 메일 프로필 정책만 만들고 배포할 수 있습니다. 권장 설정은 사용할 수 없습니다.
 
@@ -134,10 +135,10 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 
 > [!NOTE]
 > - Android for Work의 경우 해당 메일 프로필 외에, Gmail 또는 Nine Work 앱도 배포해야 합니다.
-> - 장치에서 전자 메일 프로필을 제거하려면 배포를 편집하고 장치가 멤버로 포함된 그룹을 모두 제거합니다.
+> - 장치에서 전자 메일 프로필을 제거하려면 배포를 편집하고 장치가 멤버로 포함된 그룹을 모두 제거합니다. 메일 프로필이 장치에 있는 유일한 메일 프로필인 경우 이 방식으로 메일 프로필을 제거할 수 없습니다.
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO2-->
 
 

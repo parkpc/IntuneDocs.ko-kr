@@ -1,5 +1,5 @@
 ---
-title: Unenroll your device if you declined "Terms of Use" | Microsoft Docs
+title: "&quot;사용 약관&quot;을 거부한 경우 장치 등록 취소 | Microsoft Docs"
 description: 
 keywords: 
 author: barlanmsft
@@ -13,11 +13,13 @@ ms.technology:
 ms.assetid: 4278f000-0258-4de5-93a1-195b48e5061e
 searchScope:
 - Company Portal
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
-ms.openlocfilehash: 68049a61bd14a8713a3b5561a45b7ee09fd0729c
+ms.sourcegitcommit: 9530eb45bf027c66c4a36e4cea1ec05c5f15a6e5
+ms.openlocfilehash: 73dfec1fe1a0a027aa560de62b6bd7ed7732faa0
 
 
 ---
@@ -45,6 +47,6 @@ Intune에서 장치 등록을 취소하고 회사 포털 앱을 제거하려면
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO2-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "Azure AD를 사용하여 다단계 인증 | Microsoft 문서"
+title: "Intune 장치 등록에 대한 다단계 인증 | Microsoft 문서"
 description: "Azure AD에서 장치를 등록하기 위해 다단계 인증을 요구하는 방법입니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angerobe
-ms.date: 12/12/2016
+ms.date: 02/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,26 +13,31 @@ ms.technology:
 ms.assetid: 47abdabd-dcd6-48d8-aade-3f3eefb92ee1
 ROBOTS: 
 translationtype: Human Translation
-ms.sourcegitcommit: 85462d6cb5e3dc6ce8e94fe8fd1bc1c1c2b6e4f3
-ms.openlocfilehash: 6e20eca60886781ae884107a224245639c5f107c
+ms.sourcegitcommit: 30ed470200a830caa3c31be284f27e4b2347a71a
+ms.openlocfilehash: fa14ab5d4297a31d80b48611708e8a78d7513b8d
 
 
 ---
 
-# <a name="multi-factor-authentication-for-microsoft-intune"></a>Microsoft Intune의 다단계 인증
+# <a name="multi-factor-authentication-for-intune-device-enrollments"></a>Intune 장치 등록에 대한 다단계 인증
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-Intune은 장치 등록을 위해 Azure AD MFA(다단계 인증)을 통합하여 회사 리소스를 보호할 수 있게 합니다. MFA를 사용하려면 사용자 이름 및 암호 외에도 텍스트 인증과 같은 인증 요소가 필요합니다. iOS, Android, Windows 8.1 이상 또는 Windows Phone 8.1 이상의 장치에서 지원됩니다.
+Intune은 장치 등록을 위해 Azure AD MFA(다단계 인증)을 통합하여 회사 리소스를 보호할 수 있게 합니다.
+
+MFA는 다음과 같은 확인 방법을 두 가지 이상 요구하는 방식으로 작동합니다. 
+
+- 사용자가 알고 있는 항목(대개 암호 또는 PIN)
+- 사용자가 가지고 있는 항목(휴대폰처럼 쉽게 복제할 수 없으며 신뢰할 수 있는 장치)
+- 사용자의 특징(생체 인식)
+
+MFA는 iOS, Android, Windows 8.1 이상 또는 Windows Phone 8.1 이상의 장치에서 지원됩니다.
 
 > [!NOTE]
->
-> Intune의 MFA를 위한 새로운 환경입니다. 고객이 마이그레이션되는 이전 환경은 [다단계 인증을 통한 Windows 장치 보호](protect-windows-devices-with-multi-factor-authentication.md)에 설명되어 있습니다.
->
 > Configuration Manager의 이전 버전(릴리스 1610 이전)에서는 Configuration Manager 관리자 콘솔에서 MFA 설정을 계속 볼 수 있습니다. Configuration Manager 관리자 콘솔은 더 이상 작동하지 않으므로 MFA를 구성하려 하지 마세요. 이 항목에 설명된 대로 MFA를 구성합니다.
 
-### <a name="configuring-intune-to-require-multi-factor-authentication-at-device-enrollment"></a>장치 등록 단계에서 다단계 인증을 요구하도록 Intune 구성
-장치 등록 시 MFA를 요구하려면 다음 단계를 수행합니다.
+### <a name="configure-intune-to-require-multi-factor-authentication-at-device-enrollment"></a>장치 등록 단계에서 다단계 인증을 요구하도록 Intune 구성
+장치를 등록하라 때 MFA를 요구하려면 다음 단계를 따르세요.
 
 1. 관리자 자격 증명으로 [Microsoft Azure 포털](https://manage.windowsazure.com)에 로그인합니다.
 2. 테넌트를 선택합니다.
@@ -54,6 +59,6 @@ Intune은 장치 등록을 위해 Azure AD MFA(다단계 인증)을 통합하여
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Feb17_HO1-->
 
 

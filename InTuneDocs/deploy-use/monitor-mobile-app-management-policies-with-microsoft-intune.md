@@ -5,7 +5,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 02/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,14 @@ ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fe44466fbcef67d02b16d3d2d335f657251451d3
-ms.openlocfilehash: e60d707833ee276971000411e50564f39b41b207
+ms.sourcegitcommit: 22c30f51bf83219053f97310ed1830ad9e01acd8
+ms.openlocfilehash: bd270cd4b04894d4824487d36ea4f0c1929dd568
 
 
 ---
 
 # <a name="monitor-mobile-app-management-policies-with-microsoft-intune"></a>Microsoft Intune으로 모바일 앱 관리 정책 모니터링
-[Azure 포털](https://portal.azure.com)의 Intune 앱 보호 블레이드에서 사용자에게 적용한 MAM(모바일 앱 관리) 정책의 준수 상태를 모니터링할 수 있습니다. MAM 정책, 준수 상태 및 사용자에게 발생할 수 있는 문제의 영향을 받는 사용자에 대한 정보를 확인할 수 있습니다.
+사용자에게 적용한 MAM(모바일 앱 관리) 정책의 준수 상태를 모니터링할 수 있습니다. MAM 정책, 준수 상태 및 사용자에게 발생할 수 있는 문제의 영향을 받는 사용자에 대한 정보를 확인할 수 있습니다.
 
 다음 세 가지 방법으로 규정 준수 상태를 모니터링할 수 있습니다.
 
@@ -36,7 +36,7 @@ ms.openlocfilehash: e60d707833ee276971000411e50564f39b41b207
 요약 보기를 열려면 아래 세 가지 단계를 따르세요.
 
 1. [Azure Portal](https://portal.azure.com)로 이동한 다음 자격 증명을 입력합니다.
-2. **추가 서비스**를 선택하고, "Intune"을 입력합니다.
+2. **추가 서비스**를 선택하고 필터 텍스트 상자에 **Intune**을 입력합니다.
 3. **Intune 앱 보호**를 선택합니다.
 
 **Intune 모바일 응용 프로그램 관리** 블레이드에서 준수 상태에 대한 요약을 볼 수 있습니다.
@@ -89,13 +89,11 @@ ms.openlocfilehash: e60d707833ee276971000411e50564f39b41b207
 
 상세 보기에서 동일한 보고서와 추가 보고서를 통하여 MAM 정책 준수 상태를 확인할 수 있습니다.
 
-![스크린샷 4](../media/MAM-reporting-7.png)
+![스크린샷&4;](../media/MAM-reporting-7.png)
 
 -   **앱 보호 사용자 보고서:** 위 상세 보기 섹션의 **사용자 상태** 보고서에서 찾을 수 있는 정보와 동일한 내용에 대해 간략하게 설명합니다.
 
 -   **앱 보호 응용 앱 보고서:** 보고서를 생성하기 전에 관리자가 선택할 수 있는 두 개의 서로 다른 응용 프로그램 보호 상태를 제공합니다. 보호되거나 보호되지 않은 상태일 수 있습니다.
-
-    ![스크린샷 1](../media/MAM-reporting-1.png)
 
     -   관리되는 MAM 작업(보호됨)에 대한 사용자 상태: 이 보고서에서는 사용자 단위로 관리되는 각 MAM 앱의 작업에 대해 간략하게 설명합니다.
 
@@ -107,7 +105,28 @@ ms.openlocfilehash: e60d707833ee276971000411e50564f39b41b207
 
         -   모든 앱이 체크 인되었으나 MAM 정책을 가져오지 않음
 
-![스크린샷 2](../media/MAM-reporting-4.png)
+![스크린샷&2;](../media/MAM-reporting-4.png)
+
+## <a name="table-grouping"></a>테이블 그룹화
+
+**앱 보호 사용자 보고서**에 데이터가 표시되면 다음을 기준으로 데이터를 집계할 수 있습니다.
+
+- **유효성 검사 결과:** 데이터가 앱 보호 상태(실패, 경고 또는 성공)별로 그룹화되어 표시됩니다.
+- **앱 이름:** 데이터가 실패, 경고 또는 성공 상태의 앱(실제 앱 이름)별로 그룹화되어 표시됩니다.
+
+## <a name="export-app-protection-activities-to-csv"></a>CSV로 앱 보호 활동 내보내기
+
+모든 앱 보호 정책 활동을 단일 .csv 파일로 내보낼 수 있습니다. 이를 통해 사용자로부터 보고된 모든 앱 보호 상태를 분석할 수 있습니다.
+
+앱 보호 보고서를 생성하려면 다음 단계를 수행합니다.
+
+1. Intune 모바일 응용 프로그램 관리 블레이드에서 앱 보호 보고서를 선택합니다.
+
+    ![스크린샷&6;](../media/app-protection-report-csv-2.png)
+
+2. 예를 선택하여 보고서를 저장한 다음 다른 이름으로 저장을 선택하고 보고서를 저장할 폴더를 선택합니다.
+
+    ![스크린샷&7;](../media/app-protection-report-csv-1.png)
 
 ## <a name="see-also"></a>참고 항목
 [iOS 앱 간의 데이터 전송 관리](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
@@ -117,6 +136,6 @@ ms.openlocfilehash: e60d707833ee276971000411e50564f39b41b207
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO2-->
 
 

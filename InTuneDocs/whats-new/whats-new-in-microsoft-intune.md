@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/26/2017
+ms.date: 02/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: cacampbell
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3ab53e40f4b7ea67733127f445005ecb77a404f7
-ms.openlocfilehash: 37031eed6efa48ff52ec37a942fa77af414f78fe
+ms.sourcegitcommit: 053cf0a1b5d06496397b36cbd1a7ebdce420fed3
+ms.openlocfilehash: 5158d58c32066ea720335a878fef87451542c195
 
 
 ---
@@ -55,8 +55,11 @@ Links inside of the Company Portal app for iOS, including those to documentation
 ### <a name="improving-mobile-app-management-support-for-selective-wipe---581242--"></a>선택적 초기화에 대한 모바일 앱 관리 지원 향상 <!--581242-->
 "앱 데이터를 초기화하기 전의 오프라인 간격" 정책으로 인해 데이터가 자동으로 제거되는 경우 회사 또는 학교 데이터에 다시 액세스하는 방법에 대한 추가 지침이 최종 사용자에게 제공됩니다.<!--, or the removal of the Intune Company Portal on Android.-->
 
+### <a name="company-portal-for-ios-links-open-inside-the-app---665954--"></a>iOS용 회사 포털 링크가 앱 내에서 열림<!--665954-->
+설명서 및 앱에 대한 링크를 포함하여 iOS용 회사 포털 앱 내의 링크는 Safari의 앱 내 보기를 사용하여 회사 포털 앱에서 직접 열립니다. 이 업데이트는&1;월에 서비스 업데이트에서 별도로 제공됩니다.
+
 ### <a name="modernizing-the-company-portal-website---753980--"></a>회사 포털 웹 사이트 현대화 <!--753980-->
-2월부터 회사 포털 웹 사이트는 관리 장치가 없는 사용자를 대상으로 하는 앱을 지원합니다. 이 웹 사이트는 새로운 대비 색 구성표, 동적 일러스트레이션, 기술 지원팀 연락처 세부 정보 및 기존 관리 장치에 대한 정보를 포함하는 "햄버거 메뉴" ![회사 포털 웹 사이트 햄버거 메뉴](../media/CP_hamburger_menu.png)를 사용하여 다른 Microsoft 제품 및 서비스에 맞춥니다. 방문 페이지는 추천 및 최근에 업데이트된 앱에 대한 슬라이드를 포함하여 사용자가 사용할 수 있는 앱을 강조하도록 재조정됩니다. [What's new in the Company Portal UI](https://docs.microsoft.com/intune/whats-new/whats-new-in-intune-app-ui#January_2017)(회사 포털 UI의 새로운 기능) 페이지에서 사용 가능한 이전 및 이후 이미지를 찾을 수 있습니다.
+2월부터 회사 포털 웹 사이트는 관리 장치가 없는 사용자를 대상으로 하는 앱을 지원합니다. 이 웹 사이트는 새로운 대비 색 구성표, 동적 일러스트레이션, 기술 지원팀 연락처 세부 정보 및 기존 관리 장치에 대한 정보를 포함하는 "햄버거 메뉴" ![회사 포털 웹 사이트 햄버거 메뉴](./media/CP_hamburger_menu.png)를 사용하여 다른 Microsoft 제품 및 서비스에 맞춥니다. 방문 페이지는 추천 및 최근에 업데이트된 앱에 대한 슬라이드를 포함하여 사용자가 사용할 수 있는 앱을 강조하도록 재조정됩니다. [Intune 앱 UI의 새로운 기능](https://docs.microsoft.com/intune/whats-new/whats-new-in-intune-app-ui#January_2017) 페이지에서 사용 가능한 이전 및 이후 이미지를 찾을 수 있습니다.
 
 ### <a name="new-documentation-for-app-protection-policies---583398--"></a>앱 보호 정책에 대한 새 설명서<!--583398-->
 iOS 및 Android 앱에서 Intune 앱 래핑 도구 또는 Intune 앱 SDK를 사용하여 앱 보호 정책(MAM 정책이라고도 함)을 사용하도록 설정하려는 관리자 및 앱 개발자를 위한 설명서를 업데이트했습니다.
@@ -75,6 +78,9 @@ iOS 및 Android 앱에서 Intune 앱 래핑 도구 또는 Intune 앱 SDK를 사�
 
 <!--### Progress bar when launching the Company Portal on iOS <!--665978
 The Company Portal for iOS is introducing a progress bar on the launch screen to provide the user with information about the loading processes that occur. There will be a phased rollout of the progress bar to replace the spinner. This means that some of your users will see the new progress bar while others will continue to see the spinner.-->
+
+### <a name="progress-bar-when-launching-the-company-portal-on-ios---665978--"></a>iOS에서 회사 포털을 시작할 경우의 진행률 표시줄 <!--665978-->
+iOS용 회사 포털은 수행되는 로드 프로세스에 대한 정보를 사용자에게 제공하는 시작 화면의 진행률 표시줄을 도입하기로 했습니다. 진행률 표시줄이 단계적으로 회전자를 바꿀 예정입니다. 즉, 일부 사용자에게는 새로운 진행률 표시줄이 표시되지만 다른 사용자에게는 계속 회전자가 표시됩니다.
 
 ## <a name="whats-new-in-the-public-preview-of-the-intune-admin-experience-on-azure---736542--"></a>Azure의 Intune 관리 환경 공개 미리 보기의 새로운 기능<!--736542-->
 
@@ -97,6 +103,6 @@ Azure의 Intune 미리 보기에 대한 새로운 기능은 [여기](https://doc
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO1-->
 
 

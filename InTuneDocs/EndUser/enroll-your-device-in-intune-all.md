@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 02/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,16 +13,18 @@ ms.technology:
 ms.assetid: b51dbdd6-aaa3-48dd-a47f-9d01a4ca37f6
 searchScope:
 - Company Portal
+ROBOTS: NOINDEX,NOFOLLOW
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 50ec5fa3b7286d2da53af849bfaa4bcb27e388a5
+ms.sourcegitcommit: 9530eb45bf027c66c4a36e4cea1ec05c5f15a6e5
+ms.openlocfilehash: d51bef2220ebf199df6f54e307e2f021faa83d33
 
 
 ---
 
 # <a name="enroll-your-device-in-intune"></a>Intune에서 장치 등록
 
-회사 또는 학교에서 Microsoft Intune을 사용하는 경우 Windows 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 조직에서 회사 데이터 보안을 유지할 수 있습니다. 등록에 관해 그리고 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 대해 자세히 알아보려면 이 항목의 맨 아래에 있는 링크를 확인해 보세요.
+회사 또는 학교에서 Microsoft Intune을 사용하는 경우 장치를 등록하여 회사 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 조직에서 회사 데이터 보안을 유지할 수 있습니다. 등록에 관해 그리고 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 대해 자세히 알아보려면 이 항목의 맨 아래에 있는 링크를 확인해 보세요.
 
 등록 지침을 보려면 다음 중에서 사용하는 장치 유형에 해당하는 링크를 사용합니다.
 
@@ -33,6 +35,6 @@ ms.openlocfilehash: 50ec5fa3b7286d2da53af849bfaa4bcb27e388a5
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO2-->
 
 

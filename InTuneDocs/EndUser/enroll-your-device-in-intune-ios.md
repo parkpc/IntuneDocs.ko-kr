@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 02/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,12 +13,13 @@ ms.technology:
 ms.assetid: 6eeec7aa-1b07-4ce3-894c-13e09b89bdd4
 searchScope:
 - Company Portal
-ROBOTS: 
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 58295c0e27c6c74a1efb9771e0fe8fb917c6cca6
+ms.sourcegitcommit: 9530eb45bf027c66c4a36e4cea1ec05c5f15a6e5
+ms.openlocfilehash: c7fa06ea443523c51a79c33af7e8094d7a7777c5
 
 
 ---
@@ -26,9 +27,12 @@ ms.openlocfilehash: 58295c0e27c6c74a1efb9771e0fe8fb917c6cca6
 
 # <a name="enroll-your-ios-device-in-intune"></a>Intune에서 iOS 장치 등록
 
-회사 또는 학교에서 Microsoft Intune을 사용하는 경우 iOS 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 IT 부서에서 해당 회사 또는 학교 리소스를 관리하고 보안을 유지하여 선호하는 장치를 자유롭게 사용하여 작업을 완료할 수 있습니다. 등록에 대해 자세히 알아보려면 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)를 참조하세요.
+회사 또는 학교에서 Microsoft Intune을 사용하는 경우 iOS 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 IT 부서에서 해당 회사 또는 학교 리소스를 관리하고 보안을 유지하여 선호하는 장치를 자유롭게 사용하여 작업을 완료할 수 있습니다. 등록에 대해 자세히 알아보려면 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떤 일이 생기나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
 
-macOS 장치를 등록하려는 경우 [Intune에서 macOS 장치 등록](enroll-your-device-in-intune-macos.md)을 참조하세요.
+<iframe src="https://channel9.msdn.com/Series/IntuneEnrollment/iOS-Enrollment/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+
+> [!NOTE]
+> 실제로 MacBook Pro 또는 iMac 같은 macOS 장치를 등록하려면 [대신 이 지침을 따르세요](enroll-your-device-in-intune-macos.md).
 
 **시작하기 전에:**
 
@@ -55,7 +59,7 @@ macOS 장치를 등록하려는 경우 [Intune에서 macOS 장치 등록](enroll
 
 5.  **다음 단계는?** 화면에서 등록하는 동안 발생하는 상황을 확인하고 **등록**을 탭합니다.
 
-    ![ios-enroll-what-comes-next](./media/ios-enroll-1d-what-comes-next.png)
+     ![ios-enroll-what-comes-next](./media/ios-enroll-1d-what-comes-next.png)
 
 6.  **프로필 설치** 화면에서 **I설치**를 탭하고 메시지가 표시되면 암호를 입력합니다.
 
@@ -67,15 +71,15 @@ macOS 장치를 등록하려는 경우 [Intune에서 macOS 장치 등록](enroll
 
 8.  **설치**를 탭하여 경고를 읽었음을 나타냅니다.
 
-    ![ios-enroll-tap-install-after-warning](./media/ios-enroll-4-warning.png)
+       ![ios-enroll-tap-install-after-warning](./media/ios-enroll-4-warning.png)
 
 9.  **신뢰**를 탭합니다.
 
-    ![ios-enroll-tap-trust](./media/ios-enroll-5-trust.png)
+       ![ios-enroll-tap-trust](./media/ios-enroll-5-trust.png)
 
 10.  프로필 설치를 완료했다고 표시하도록 화면이 변경되면 **완료**를 탭합니다.
 
-    ![ios-enroll-tap-done](./media/ios-enroll-6-done.png)
+     ![ios-enroll-tap-done](./media/ios-enroll-6-done.png)
 
     화면에는 "등록 장치" 메시지가 표시됩니다.
 
@@ -93,11 +97,10 @@ macOS 장치를 등록하려는 경우 [Intune에서 macOS 장치 등록](enroll
 
 이제 Intune에 장치를 등록했으므로 회사 포털 앱으로 다시 이동합니다.
 
-
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO2-->
 
 
