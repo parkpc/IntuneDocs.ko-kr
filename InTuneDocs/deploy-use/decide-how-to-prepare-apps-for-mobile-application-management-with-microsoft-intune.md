@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: oldang
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b15f56f6e771faeb924668aa68140ab89a174b8d
-ms.openlocfilehash: c9bba34d2252e6b9dff295724f9c935c558aa179
+ms.sourcegitcommit: 06e0a74dd2c0b861497062f2d659c5eb08126fca
+ms.openlocfilehash: 6ec9f6136cf23b9015da125817bfeb86ecfbfca6
 
 
 ---
@@ -55,7 +56,7 @@ Intune에 등록되지 않은 장치의 MAM용 앱 래핑 도구에 대한 자�
 ## <a name="intune-app-sdk"></a>Intune 앱 SDK
 앱 SDK는 주로 Apple 앱 스토어 및/또는 Google Play 스토어에 앱이 있으며 Intune으로 앱을 관리할 수 있기를 원하는 고객을 위해 설계되었습니다. 그러나 기간 업무 앱을 비롯한 모든 앱은 SDK 통합을 활용할 수 있습니다.
 
-SDK에 대해 자세히 알아보려면 [개요](/intune/develop/intune-app-sdk) 항목을 참조하세요. SDK 사용을 시작하려면 [Microsoft Intune 앱 SDK 시작](/intune/develop/intune-app-sdk-get-started) 항목을 참조하세요.
+SDK에 대해 자세히 알아보려면 [개요](../develop/intune-app-sdk.md) 항목을 참조하세요. SDK 사용을 시작하려면 [Microsoft Intune 앱 SDK 시작](../develop/intune-app-sdk-get-started.md) 항목을 참조하세요.
 
 ### <a name="reasons-to-use-the-sdk"></a>SDK를 사용하는 이유
 * 앱에 기본 제공 데이터 보호 기능이 없습니다.
@@ -69,8 +70,8 @@ SDK에 대해 자세히 알아보려면 [개요](/intune/develop/intune-app-sdk)
 
 |**Intune 앱 SDK** |**Xamarin** |**Cordova**
 |------|----|----|
-|**Android**|예 – [Intune 앱 SDK Xamarin 구성 요소](/../develop/intune-app-sdk-xamarin) 사용|예 – [Intune 앱 SDK Cordova 플러그인](/../develop/intune-app-sdk-cordova) 사용|
-|**OWA(Outlook Web Access)**| 예 – [Intune 앱 SDK Xamarin 구성 요소](/../develop/intune-app-sdk-xamarin) 사용|예 – [Intune 앱 SDK Cordova 플러그인](/../develop/intune-app-sdk-cordova) 사용|
+|**Android**|예 – [Intune 앱 SDK Xamarin 구성 요소](../develop/intune-app-sdk-xamarin.md) 사용|예 – [Intune 앱 SDK Cordova 플러그인](../develop/intune-app-sdk-cordova.md) 사용|
+|**OWA(Outlook Web Access)**| 예 – [Intune 앱 SDK Xamarin 구성 요소](../develop/intune-app-sdk-xamarin.md) 사용|예 – [Intune 앱 SDK Cordova 플러그인](../develop/intune-app-sdk-cordova.md) 사용|
 
 ## <a name="feature-comparison"></a>기능 비교
 이 표에는 앱 SDK 및 앱 래핑 도구에 사용할 수 있는 설정이 나와 있습니다.
