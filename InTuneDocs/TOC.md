@@ -6,6 +6,7 @@
 ### [정책 만들기 및 앱 게시](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md)
 ### [기타 옵션 및 추가 기능](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)
 ### [유료 구독으로 전환](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)
+## [MAM 및 앱 보호 FAQ](understand-explore/mam-faq.md)
 ## [일반적인 시나리오](understand-explore/common-ways-to-use-intune.md)
 
 
@@ -78,6 +79,7 @@
 ## 장치 구성
 ### [정책을 사용하여 장치의 설정 및 기능 관리](deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 #### [iOS 설정](deploy-use/ios-policy-settings-in-microsoft-intune.md)
+#### [관리되는 iOS 장치 복원](deploy-use/restore-managed-ios-devices-from-backup.md)
 #### [Android 및 Samsung KNOX 설정](deploy-use/android-policy-settings-in-microsoft-intune.md)
 ##### [사용자 지정 정책을 사용하여 미리 공유한 키로 Wi-Fi 프로필 만들기](deploy-use/pre-shared-key-wi-fi-profile.md)
 ##### [사용자 지정 정책을 사용하여 Android 장치용 앱별 VPN 프로필 만들기](deploy-use/per-app-vpn-for-android-pulse-secure.md)
@@ -106,7 +108,7 @@
 
 ## [장치 보호](deploy-use/protect-your-devices-with-microsoft-intune.md)
 ### [원격 잠금 및 암호 재설정](deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
-### [MFA를 통한 Windows 장치 보호](deploy-use/multi-factor-authentication-azure-active-directory.md)
+### [Multi-Factor Authentication으로 장치 보호](deploy-use/multi-factor-authentication-azure-active-directory.md)
 ### [비즈니스용 Windows Hello 설정 제어](deploy-use/control-microsoft-passport-settings-on-devices-with-microsoft-intune.md)
 ### [iOS에서 활성화 잠금 무시](deploy-use/help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md)
 ### [Windows PC를 보호하는 정책](deploy-use/policies-to-protect-windows-pcs-in-microsoft-intune.md)
@@ -139,7 +141,7 @@
 ## [앱 및 데이터 보호](deploy-use/protect-apps-and-data-with-microsoft-intune.md)
 ### [장치 준수 정책](deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune.md)
 #### [장치 준수 정책 만들기](deploy-use/create-a-device-compliance-policy-in-microsoft-intune.md)
-#### [Android](deploy-use/android-compliance-policy-settings-in-microsoft-intune.md)
+#### [OWA(Outlook Web Access)](deploy-use/android-compliance-policy-settings-in-microsoft-intune.md)
 #### [Android for Work](deploy-use/afw-compliance-policy-settings-in-microsoft-intune.md)
 #### [iOS](deploy-use/ios-compliance-policy-settings-in-microsoft-intune.md)
 #### [Windows 및 Windows Phone](deploy-use/windows-compliance-policy-settings-in-microsoft-intune.md)
@@ -165,13 +167,14 @@
 #### [장치 위협 방지 준수 정책 사용](deploy-use/device-threat-protection-policy.md)
 
 ### [MAM을 사용하여 앱 데이터 보호](deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
-#### [MAM 정책용 Azure 포털](deploy-use/azure-portal-for-microsoft-intune-mam-policies.md)
-#### [MAM 정책 구성 준비](deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
-#### [MAM 정책 만들기 및 배포](deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
-#### [Android용 MAM 정책](deploy-use/android-mam-policy-settings.md)
-#### [iOS용 MAM 정책](deploy-use/ios-mam-policy-settings.md)
-#### [MAM 정책 유효성 검사](deploy-use/validate-mobile-application-management.md)
-#### [정책 준수 모니터링](deploy-use/monitor-mobile-app-management-policies-with-microsoft-intune.md)
+#### [앱 보호 정책용 Azure 포털](deploy-use/azure-portal-for-microsoft-intune-mam-policies.md)
+#### [앱 보호 정책 구성 준비](deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
+#### [앱 보호 정책 만들기 및 배포](deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
+#### [Android용 앱 보호 정책](deploy-use/android-mam-policy-settings.md)
+#### [iOS용 앱 보호 정책](deploy-use/ios-mam-policy-settings.md)
+#### [앱 보호 정책 유효성 검사](deploy-use/validate-mobile-application-management.md)
+#### [앱 보호 정책 준수 모니터링](deploy-use/monitor-mobile-app-management-policies-with-microsoft-intune.md)
+
 #### [iOS 앱 간의 데이터 전송 관리](deploy-use/manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
 
 #### [MAM 정책에 대한 Intune 관리 콘솔](deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)
@@ -182,17 +185,16 @@
 #### [Intune에서 관리하지 않는 장치에 있는 LOB 앱](deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)
 #### [앱 작성 시 SDK 사용](deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
-### [MAM 및 앱 보호 FAQ](deploy-use/mam-faq.md)
 
 ## 앱 및 데이터 사용 중지
 ### [전체 또는 선택적 초기화 사용](deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)
 ### [앱 사용 중지](deploy-use/retire-apps-using-microsoft-intune.md)
 ### [관리되는 업무용 앱 데이터 초기화](deploy-use/Wipe-managed-company-app-data-with-microsoft-intune.md)
 
-## [최종 사용자 환경 관련 리소스](deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune.md)
-### [관리되는 iOS 장치 복원](deploy-use/restore-managed-ios-devices-from-backup.md)
-### [MAM 정책이 있는 Android 앱](deploy-use/user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
-### [MAM 정책이 있는 iOS 앱](deploy-use/user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
+## [Intune에 대한 최종 사용자 교육 방법](deploy-use/how-to-educate-your-end-users-about-microsoft-intune.md)
+### [Android 사용자가 앱을 얻는 방법](deploy-use/how-your-android-users-get-their-apps.md)
+### [iOS 사용자가 앱을 얻는 방법](deploy-use/how-your-ios-users-get-their-apps.md)
+### [Windows 사용자가 앱을 얻는 방법](deploy-use/how-your-windows-users-get-their-apps.md)
 
 # 앱 개발 및 사용자 지정
 ## [Microsoft Intune 앱 SDK 개요](develop/intune-app-sdk.md)
@@ -222,6 +224,6 @@
 # [용어 설명](understand-explore/intune-glossary.md)
 
 
-<!--HONumber=Feb17_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 

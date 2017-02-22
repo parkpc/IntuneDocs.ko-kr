@@ -15,8 +15,8 @@ ms.service: microsoft-intune
 ms.suite: ems
 ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
 translationtype: Human Translation
-ms.sourcegitcommit: d63d670f12f27511671b9015ad53a93f1a784c40
-ms.openlocfilehash: eda6352368a3593d56ce8879501e2ebf4fda41f9
+ms.sourcegitcommit: 8c4351761b1e4047a0e997cdfabe3deb35b31e54
+ms.openlocfilehash: 9d35de896e21abd8b7e0026e915745aa6dbcb80f
 
 
 ---
@@ -25,10 +25,10 @@ ms.openlocfilehash: eda6352368a3593d56ce8879501e2ebf4fda41f9
     <section id="hero-content">
       <h1>Intune 설명서</h1>
       <h2>클라우드에서 모바일 장치/앱과 PC를 관리할 수 있습니다. </h2>
-      <h3>Configuration Manager가 포함된 Intune을 관리하시겠습니까? <a href="https://docs.microsoft.com/en-us/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management" target="_blank">Read about hybrid mobile device management&rarr;(하이브리드 모바일 장치 관리 살펴보기)</a></h3>
+      <h3>Configuration Manager가 포함된 Intune을 관리하시겠습니까? <a href="https://docs.microsoft.com/en-us/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management" target="_blank">하이브리드 모바일 장치 관리 살펴보기 &rarr;</a></h3>
     </section>
     <section id="featured" class="container">
-      <h2 class="section-heading"><span class="icon icon-warning"></span> 주요 콘텐츠</h2>
+      <h2 class="section-heading"><span class="icon icon-warning"></span> 추천 콘텐츠</h2>
       <div class="features row">
         <ul class="column column-half">
           <li><a href="http://fasttrack.microsoft.com/ems">150개 이상의 라이선스? FastTrack 혜택 이용</a></li>
@@ -37,7 +37,7 @@ ms.openlocfilehash: eda6352368a3593d56ce8879501e2ebf4fda41f9
         </ul>
         <ul class="column column-half">
           <li><a href="/intune/deploy-use/restrict-access-based-on-device-network-app-risk">회사 리소스에 대한 액세스 보호</a></li>
-          <li><a href="https://graph.microsoft.io/en-us/docs/api-reference/beta/intune_graph_overview">Microsoft Graph에서 Intune 사용</a></li>
+          <li><a href="https://graph.microsoft.io/en-us/docs/api-reference/beta/intune_graph_overview">Working with Intune in Microsoft Graph</a>(Microsoft Graph에서 Intune 사용)</li>
           <li><a href="/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune">Microsoft Intune에서 최종 사용자 환경 관련 리소스</a></li>
         </ul>
       </div>
@@ -140,7 +140,7 @@ ms.openlocfilehash: eda6352368a3593d56ce8879501e2ebf4fda41f9
                   </a>
                 </li>
                 <li class="column-third">
-                  <a href="/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune">
+                  <a href="/intune/deploy-use/how-to-educate-your-end-users-about-microsoft-intune">
                     <h3>최종 사용자에게 알릴 내용</h3>
                     <p>최종 사용자가 장치에서 Intune을 사용하고자 할 때 필요한 단계를 파악하여 그 정보를 최종 사용자와 공유함으로써 최종 사용자가 스스로 작업을 완료할 수 있도록 지원하세요.</p>
                   </a>
@@ -285,6 +285,6 @@ ms.openlocfilehash: eda6352368a3593d56ce8879501e2ebf4fda41f9
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Feb17_HO3-->
 
 
