@@ -5,7 +5,7 @@ description: "이 가이드를 사용하여 Microsoft Intune 클라이언트 소
 keywords: 
 author: staciebarker
 ms.author: stabar
-ms.date: 01/24/2016
+ms.date: 02/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 39f7de3a94b813cbd7b353cd319ecc54fcbf8694
-ms.openlocfilehash: 4b1b466c62ac1c8e03bc6cebd5e214649160185f
+ms.sourcegitcommit: 2e7062169ceb855f03a13d1afb4b4de41af593ac
+ms.openlocfilehash: 9606d8f79166e6b38f02aefd4afc52f2a47c1362
 
 
 ---
@@ -23,14 +24,11 @@ ms.openlocfilehash: 4b1b466c62ac1c8e03bc6cebd5e214649160185f
 # <a name="install-the-intune-software-client-on-windows-pcs"></a>Windows PC에 Intune 소프트웨어 클라이언트 설치
 Intune 클라이언트 소프트웨어를 설치하여 Windows PC를 등록할 수 있습니다. Intune 클라이언트 소프트웨어는 다음 방법으로 설치할 수 있습니다.
 
-- IT 관리자가 설치:
-  - 수동 설치
-  - 그룹 정책을 사용하여 설치
-  - 설치는 디스크 이미지에 포함되어 있습니다.
+- IT 관리자가 수동 설치, 그룹 정책, 디스크 이미지에 포함된 설치 등의 방법 중 하나 사용
 
-- 최종 사용자가 소프트웨어 클라이언트 수동 설치
+- 최종 사용자가 클라이언트 소프트웨어 수동 설치
 
-IT 관리자가 사용자에게 배포하거나 최종 사용자가 다운로드하는 Intune 소프트웨어 클라이언트에는 PC를 Intune 관리에 등록하는 데 필요한 최소 소프트웨어가 포함되어 있습니다. PC가 등록되면 Intune 소프트웨어 클라이언트는 PC 관리에 필요한 전체 클라이언트 소프트웨어를 다운로드합니다.
+Intune 클라이언트 소프트웨어에는 PC를 Intune 관리에 등록하는 데 필요한 최소 소프트웨어가 포함됩니다. PC가 등록되면 Intune 클라이언트 소프트웨어는 PC 관리에 필요한 전체 클라이언트 소프트웨어를 다운로드합니다.
 
 이 일련의 다운로드는 네트워크 대역폭에 미치는 영향을 줄이고 처음에 PC를 Intune에 등록하는 데 필요한 시간을 최소화합니다. 또한 두 번째 다운로드가 완료된 후 클라이언트에서 최신 소프트웨어를 사용할 수 있도록 해줍니다.
 
@@ -44,8 +42,7 @@ IT 관리자가 사용자에게 배포하거나 최종 사용자가 다운로드
 
 2.  **클라이언트 소프트웨어 다운로드** 페이지에서 **클라이언트 소프트웨어 다운로드**를 클릭합니다. 그런 다음 소프트웨어가 포함된 **Microsoft_Intune_Setup.zip** 패키지를 네트워크의 안전한 위치에 저장합니다.
 
-    > [!NOTE]
-    > Intune 클라이언트 소프트웨어 설치 패키지에는 사용자 계정에 대한 고유한 특정 정보가 포함되어 있으며, 이 정보는 포함된 인증서를 통해 사용할 수 있습니다. 권한이 없는 사용자가 설치 패키지에 대한 액세스 권한을 얻는 경우 포함된 인증서에 표시된 계정에 컴퓨터를 등록하고 회사 리소스에 대한 액세스 권한을 얻을 수 있습니다.
+Intune 클라이언트 소프트웨어 설치 패키지에는 사용자 계정에 대한 고유한 특정 정보가 포함되어 있으며, 이 정보는 포함된 인증서를 통해 사용할 수 있습니다. 권한이 없는 사용자가 설치 패키지에 대한 액세스 권한을 얻는 경우 포함된 인증서에 표시된 계정에 PC를 등록하고 회사 리소스에 대한 액세스 권한을 얻을 수 있습니다.
 
 3.  설치 패키지의 콘텐츠를 네트워크의 안전한 위치로 추출합니다.
 
@@ -54,10 +51,10 @@ IT 관리자가 사용자에게 배포하거나 최종 사용자가 다운로드
 
 ## <a name="deploy-the-client-software-manually"></a>클라이언트 소프트웨어 수동 배포
 
-소프트웨어 클라이언트를 설치할 컴퓨터에서, 클라이언트 소프트웨어 설치 파일이 위치한 폴더로 이동합니다. 그런 다음 **Microsoft_Intune_Setup.exe**를 실행하여 클라이언트 소프트웨어를 설치합니다.
+클라이언트 소프트웨어를 설치할 컴퓨터에서 클라이언트 소프트웨어 설치 파일이 있는 폴더로 이동합니다. 그런 다음 **Microsoft_Intune_Setup.exe**를 실행하여 클라이언트 소프트웨어를 설치합니다.
 
 > [!NOTE]
-> 클라이언트 컴퓨터의 작업 표시줄에 있는 아이콘 위로 마우스를 가져가면 설치 상태가 표시됩니다.
+> 클라이언트 PC의 작업 표시줄에 있는 아이콘 위로 마우스를 가져가면 설치 상태가 표시됩니다.
 
 ## <a name="deploy-the-client-software-by-using-group-policy"></a>그룹 정책을 사용하여 클라이언트 소프트웨어 배포
 
@@ -108,11 +105,56 @@ IT 관리자가 사용자에게 배포하거나 최종 사용자가 다운로드
 
 ## <a name="instruct-users-to-self-enroll"></a>사용자에게 직접 등록 지시
 
-사용자가 [회사 포털 웹사이트](http://portal.manage.microsoft.com)로 이동하여 Intune 클라이언트 소프트웨어를 설치할 수 있습니다. 웹 포털에서 장치가 Windows PC임을 감지할 수 있으면 Intune 소프트웨어 클라이언트를 다운로드하여 PC를 등록하라는 메시지가 표시됩니다. 소프트웨어가 다운로드되면 사용자는 소프트웨어를 설치하여 PC를 관리 상태로 설정할 수 있습니다.
+사용자가 [회사 포털 웹사이트](http://portal.manage.microsoft.com)로 이동하여 Intune 클라이언트 소프트웨어를 설치합니다. 웹 포털에서 사용자에게 표시되는 정확한 정보는 계정의 MDM 기관, 사용자 PC의 OS 플랫폼/버전에 따라 다를 수 있습니다. 
 
-웹 포털에서 사용자에게 표시되는 정확한 정보는 계정의 MDM 기관, 사용자 PC의 플랫폼 및 버전에 따라 다를 수 있습니다.
+사용자가 Intune 라이선스를 할당받지 않은 경우나 조직의 MDM 기관이 Intune으로 설정되지 않은 경우 등록하는 옵션이 표시되지 않습니다.
 
-![Intune 소프트웨어 클라이언트를 다운로드하라는 메시지가 표시된 Intune 포털](../media/software-client-download.png)
+사용자에게 Intune 라이선스가 할당되고 조직의 MDM 기관이 Intune으로 설정된 경우에는 다음이 표시됩니다.
+
+- Windows 7 또는 Windows 8 PC 사용자에게는 조직에 고유한 PC 클라이언트 소프트웨어를 다운로드하고 설치하여 Intune에 등록하는 옵션만 표시됩니다.
+
+- Windows 10 또는 Windows 8.1 PC 사용자에게는 두 가지 등록 옵션이 표시됩니다.
+
+  -  **PC를 모바일 장치로 등록**: 사용자가 **등록하는 방법 알아보기** 단추를 선택하면 PC를 모바일 장치로 등록하는 방법에 대한 지침이 표시됩니다. MDM 등록이 선호되는 기본 등록 옵션이므로 이 단추는 눈에 잘 띄게 표시됩니다. 그러나 MDM 옵션은 클라이언트 소프트웨어 설치만 설명하는 이 항목과는 관련이 없습니다.
+  - **Intune 클라이언트 소프트웨어를 사용하여 PC 등록**: 사용자에게 **Click here to download it**(다운로드하려면 여기 클릭) 링크를 선택하여 클라이언트 소프트웨어 설치로 이동하도록 안내해야 합니다.
+
+다음 표에 옵션이 요약되어 있습니다.
+
+  ![플랫폼별 기본 등록 옵션](../media/default-enrollment-options-table.png)
+
+다음 스크린샷에서는 사용자가 소프트웨어 클라이언트를 사용하여 장치를 등록할 때 무엇이 표시되는지를 보여 줍니다.
+
+먼저 장치를 확인하거나 등록하라는 메시지가 표시됩니다.
+
+  ![확인 식별 또는 등록](../media/identify-device-or-enroll.png)
+
+사용자가 PC 클라이언트 소프트웨어를 설치할 수 있도록 사용자에게 **Click here to download it**(다운로드하려면 여기 클릭) 링크를 선택하여 PC 클라이언트 소프트웨어를 다운로드하고 설치 과정을 진행하도록 안내해야 합니다. **등록하는 방법 알아보기** 단추를 누르는 경우 이러한 소프트웨어 클라이언트 지침과는 관련이 없는 MDM 등록을 사용한 등록 방법에 대한 설명서가 표시됩니다.
+
+  ![다운로드하려면 여기 클릭 링크 선택](../media/enroll-your-windows-device.png)
+
+사용자가 이 링크를 클릭하면 **소프트웨어 다운로드** 단추가 표시되며, 이 단추를 선택하여 PC 클라이언트 소프트웨어 설치를 시작할 수 있습니다.
+
+  ![소프트웨어 다운로드 단추 선택](../media/download-pc-client-software.png)
+
+그런 다음 회사 자격 증명을 사용하여 로그인하라는 메시지가 표시됩니다.
+
+  ![자격 증명으로 로그인](../media/sign-in-to-intune.png)
+
+설치의 [시작] 페이지가 표시됩니다.
+
+  ![PC 클라이언트 설치의 시작 페이지](../media/welcome-to-pc-agent-install-wizard.png)
+
+**다음**을 선택하면 설치가 시작됩니다.
+
+  ![PC 클라이언트 설치의 시작 페이지](../media/welcome-to-pc-agent-install-wizard.png)
+
+설치가 완료되면 **마침**을 선택합니다.
+
+  ![PC 클라이언트 설치 완료](../media/completed-the-setup-wizard.png)
+
+사용자가 Intune PC 클라이언트 소프트웨어를 사용하여 이미 등록한 PC를 모바일 장치로 등록하려고 하면 다음과 같은 오류 화면이 표시됩니다.
+
+  ![PC가 이미 등록된 경우 표시되는 화면](../media/page-shown-if-pc-already-enrolled.png)
 
 ## <a name="monitor-and-validate-successful-client-deployment"></a>성공적인 클라이언트 배포 모니터링 및 유효성 검사
 다음 절차에 따라 성공적인 클라이언트 배포를 모니터링하고 유효성을 검사할 수 있습니다.
@@ -143,6 +185,6 @@ IT 관리자가 사용자에게 배포하거나 최종 사용자가 다운로드
 
 
 
-<!--HONumber=Feb17_HO1-->
+<!--HONumber=Feb17_HO3-->
 
 
