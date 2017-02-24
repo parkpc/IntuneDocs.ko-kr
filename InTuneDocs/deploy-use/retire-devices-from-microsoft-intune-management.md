@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 12/30/2016
+ms.date: 02/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 3dbec400-5d8a-47be-b892-7745811d9de2
 ms.reviewer: chrisgre
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 464e6d73765a75aaefb3eca95281bf54b4cc7a2d
-ms.openlocfilehash: 2bb4eb56bea4f640fa304c03b0f86b78625fe6a7
+ms.sourcegitcommit: 00e9dfd165a449182c5b937372db7085c981c68f
+ms.openlocfilehash: cca12024ba12cff5cdb8c515f7719a7592ba97ea
 
 
 ---
@@ -24,16 +25,16 @@ ms.openlocfilehash: 2bb4eb56bea4f640fa304c03b0f86b78625fe6a7
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-장치가 회사 소유 또는 개인 소유인지 관계없이 결과적으로 관리되는 장치는 Intune 관리에서 제거되어야 합니다. 
+장치가 회사 소유 또는 개인 소유인지 관계없이 결과적으로 관리되는 장치는 Intune 관리에서 제거되어야 합니다.
 
-장치가 일정 기간 동안 Intune 서비스에 연결하지 않은 경우에도 장치는 사용자 개입 없이 Intune에서 제거되지 않습니다. 
+장치가 일정 기간 동안 Intune 서비스에 연결하지 않은 경우에도 장치는 사용자 개입 없이 Intune에서 제거되지 않습니다.
 
 다양한 이유로 장치를 사용 중지해야 할 수 있습니다.
 
--   사용자가 계획된 방법으로 퇴사(“관리된” 떠남)
--   갑작스러운 퇴사(해고, 사퇴 등).
--   장치 분실
--   장치 용도 변경(다른 사용자에게 이관, 다른 용도로 재사용 등)
+-    사용자가 계획된 방법으로 퇴사(“관리된” 떠남)
+-    갑작스러운 퇴사(해고, 사퇴 등).
+-    장치 분실
+-    장치 용도 변경(다른 사용자에게 이관, 다른 용도로 재사용 등)
 
 모바일 장치로 관리되는 장치를 선택적으로 초기화하거나 전체를 초기화할 수 있습니다. 또는 장치를 잠그고 암호를 재설정할 수도 있습니다. 장치를 초기화하면 사용자 구독을 확보하여 다른 장치를 추가할 수 있습니다. Intune 클라이언트 소프트웨어로 관리되는 PC를 사용 중지할 수도 있습니다.
 
@@ -43,6 +44,9 @@ ms.openlocfilehash: 2bb4eb56bea4f640fa304c03b0f86b78625fe6a7
 [선택적 초기화](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md#selective-wipe)는 자신의 장치를 Intune에 등록한 직원이 수행하면 좋은 작업입니다. 이 경우 장치의 개인 정보는 그대로 보존되기 때문입니다. 회사 데이터만 제거됩니다.
 
 용도를 변경해야 하는 장치의 경우 [전체 초기화](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md#full-wipe)를 사용할 수도 있습니다. 이렇게 하면 장치가 공장 기본 설정으로 재설정됩니다.
+
+### <a name="removing-user-licenses-and-managed-devices"></a>사용자 라이선스 및 관리되는 장치 제거
+사용자 라이선스를 제거하는 경우 해당 사용자의 등록된 장치는 등록이 중단됩니다. 사용자의 Intune 라이선스를 제거하기 전에 선택적 초기화를 사용하여 관리되는 장치에서 회사 데이터를 제거하는 것이 좋습니다. 사용자 라이선스를 제거하면 장치를 원격 작업의 대상으로 지정할 수 없습니다.
 
 ## <a name="to-delete-devices-in-the-azure-active-directory-portal"></a>Azure Active Directory 포털에서 장치를 삭제하려면
 
@@ -58,7 +62,7 @@ ms.openlocfilehash: 2bb4eb56bea4f640fa304c03b0f86b78625fe6a7
 
 7.  **장치**를 선택합니다.
 
-8.  적합한 장치를 선택하고 **장치 삭제**를 선택합니다. 장치는 다음번에 Active Directory와 동기화될 때 삭제됩니다. 이 과정은 대개 4시간 이내에 진행됩니다. 동기화 후 장치는 관리에서 제거됩니다. 그러면 이 사용자에 대한 장치 제한에서 장치 하나가 제거됩니다.
+8.  적합한 장치를 선택하고 **장치 삭제**를 선택합니다. 장치는 다음번에 Active Directory와 동기화될 때 삭제됩니다. 이 과정은 대개&4;시간 이내에 진행됩니다. 동기화 후 장치는 관리에서 제거됩니다. 그러면 이 사용자에 대한 장치 제한에서 장치 하나가 제거됩니다.
 
 ## <a name="retire-managed-computers"></a>관리되는 컴퓨터 사용 중지
 Intune 클라이언트 소프트웨어로 관리되는 컴퓨터는 Intune 관리 콘솔의 관리에서 제거될 수 있습니다. 이렇게 제거할 경우 컴퓨터에서 클라이언트 소프트웨어도 제거되고 Intune 정책이 삭제됩니다. [Intune 클라이언트 소프트웨어로 관리되는 컴퓨터 사용 중지](retire-a-windows-pc-with-microsoft-intune.md)에 대한 정보를 참조하세요.
@@ -76,6 +80,6 @@ Intune 클라이언트 소프트웨어로 관리되는 컴퓨터는 Intune 관�
 
 
 
-<!--HONumber=Dec16_HO5-->
+<!--HONumber=Feb17_HO2-->
 
 

@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 02/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 0f3ce07a-b718-42a9-bace-f99a8b8abd94
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d05c9d7a78474c19e142bca94e232289fbfba1d9
-ms.openlocfilehash: 029ef5aedc8177c13fa1ac89cb00b961a04e88d5
+ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
+ms.openlocfilehash: af147a50f533e4be948261898b60c4d522a9e4eb
 
 
 ---
@@ -24,6 +25,8 @@ ms.openlocfilehash: 029ef5aedc8177c13fa1ac89cb00b961a04e88d5
 # <a name="sign-up-or-sign-in-to-intune"></a>Intune에 등록 또는 로그인
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+이 항목에서는 시스템 관리자가 Intune 계정을 등록하는 방법을 알려줍니다.
 
 Intune에 등록하거나 로그인하려면, 조직에 Microsoft Online Services 회사 또는 학교 계정이 이미 있는지 또는 Microsoft와 기업 계약 또는 그에 상응하는 볼륨 라이선싱 계약이 있는지 확인해야 합니다. Microsoft와 볼륨 라이선스 계약을 체결하거나 Office 365 같은 그 밖의 Microsoft 클라우드 서비스를 구독하면 회사 또는 학교 계정이 제공됩니다.
 
@@ -53,6 +56,6 @@ Intune에 등록하거나 로그인하려면, 조직에 Microsoft Online Service
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 

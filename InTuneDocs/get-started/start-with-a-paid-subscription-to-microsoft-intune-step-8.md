@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 02/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,16 +13,19 @@ ms.technology:
 ms.assetid: 5d3215e7-0a5c-44bd-afb0-aeafce98c43f
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 654c5b65a9fde6742f3682b1fd5ba6c056d0d45b
+ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
+ms.openlocfilehash: c4ef429722f5e33092473641839b59de3bee1c1c
 
 
 ---
 
-# <a name="enroll-mobile-devices-and-install-an-app"></a>모바일 장치 등록 및 앱 설치
+# <a name="enable-enrollment-for-mobile-devices"></a>모바일 장치에 대한 등록 사용
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+이 항목에서는 Intune 관리자가 모바일 장치 등록을 사용하도록 설정하는 방법을 설명합니다. 휴대폰에서 Intune을 사용하는 방법에 대한 도움말은 [using managed devices to get work done](https://docs.microsoft.com/intune/enduser/company-portal-frequently-asked-questions)(관리되는 장치를 사용하여 작업 완료)을 참조하세요. 
 
 Intune을 사용하여 모바일 장치 관리를 설정하려면 먼저 *모바일 장치 관리 기관*을 설정하여 계정과 연결된 장치를 관리할 수 있는 서비스를 식별해야 합니다. 이 지침에서는 System Center Configuration Manager 대신 Intune 서비스를 사용한다고 가정합니다. MDM 기관이 설정되면 장치 플랫폼에 대한 관리를 사용하도록 설정하고 회사 포털 앱을 사용하여 장치를 등록할 수 있습니다.
 
@@ -46,7 +49,7 @@ iOS, Mac 및 Android for Work 장치에 대해 등록을 사용하도록 설정�
 
 관리하려는 장치 플랫폼에 대해 장치 등록을 사용하도록 설정합니다. 플랫폼에 따라 각기 다른 요구 사항을 충족해야 합니다.
 
--  [iOS 및 macOS](https://docs.microsoft.com/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune.md)
+-  [iOS 및 macOS](https://docs.microsoft.com/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
 -  [Windows PC](https://docs.microsoft.com/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
 -  [Windows 10 Mobile 및 Windows Phone](https://docs.microsoft.com/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)
 - [Android for Work](https://docs.microsoft.com/intune/deploy-use/set-up-android-for-work)
@@ -69,6 +72,6 @@ iOS, Mac 및 Android for Work 장치에 대해 등록을 사용하도록 설정�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 

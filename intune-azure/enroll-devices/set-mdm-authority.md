@@ -1,5 +1,5 @@
 ---
-title: "모바일 장치 관리 기관 설정 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "모바일 장치 관리 기관 설정 | Intune Azure 미리 보기 | Microsoft 문서"
 description: "Intune Azure 미리 보기: Intune에서 모바일 장치 관리 기관을 설정하는 방법을 알아봅니다. "
 keywords: 
 author: staciebarker
@@ -14,12 +14,12 @@ ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 990062ecf03a117dad74eb71e3f40abb79f22be6
-ms.openlocfilehash: 3c0de501c172484f036aa2d812f0c40fcfa1d93f
+ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
+ms.openlocfilehash: 72a162175e278faa236add5698d65233fa851c7b
 
 ---
 
-# <a name="set-the-mobile-device-management-authority"></a>모바일 장치 관리 기관을 설정합니다. 
+# <a name="set-the-mobile-device-management-authority"></a>모바일 장치 관리 기관 설정 
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -29,14 +29,14 @@ ms.openlocfilehash: 3c0de501c172484f036aa2d812f0c40fcfa1d93f
 
 - **Intune 하이브리드** - Intune 클라우드 솔루션과 System Center Configuration Manager의 통합입니다. Configuration Manager 콘솔을 사용하여 Intune을 구성합니다.
 
-- **Office 365용 모바일 장치 관리 ** - Office 365과 Intune 클라우드 솔루션의 통합입니다. Office 365 관리 센터에서 Intune을 구성합니다. Intune 독립 실행형에서 제공되는 기능 중 일부를 포함합니다.
+- **Office 365용 모바일 장치 관리 ** - Office 365와 Intune 클라우드 솔루션의 통합입니다. Office 365 관리 센터에서 Intune을 구성합니다. Intune 독립 실행형에서 제공되는 기능 중 일부를 포함합니다.
 
 >[!IMPORTANT]
 >모바일 장치 관리 기관을 설정한 후 이를 변경하려면 [Microsoft 지원](https://docs.microsoft.com/intune/troubleshoot/how-to-get-support-for-microsoft-intune)에 문의해야 하므로 신중하게 선택해야 합니다.
 
-**모바일 장치 관리 기관을 설정하려면**
+**모바일 장치 관리 기관을 설정하려면:**
 
-1. Azure Portal에서 **추가 서비스**를 선택하고 텍스트 상자에 **Intune**을 입력한 다음 **기타** > **Intune**을 선택합니다.
+1. Azure Portal에서 **More Services**(추가 서비스) > **모니터링 + 관리** > **Intune**을 선택합니다.
 
 2. Intune 블레이드에서 **장치 등록**을 선택한 다음 **개요**를 선택합니다.
 
@@ -44,6 +44,6 @@ ms.openlocfilehash: 3c0de501c172484f036aa2d812f0c40fcfa1d93f
 
 
 
-<!--HONumber=Feb17_HO1-->
+<!--HONumber=Feb17_HO3-->
 
 

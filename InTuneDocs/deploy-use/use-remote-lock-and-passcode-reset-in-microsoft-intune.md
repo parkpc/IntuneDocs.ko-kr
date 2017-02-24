@@ -2,19 +2,20 @@
 title: "원격 잠금 및 암호 재설정 | Microsoft 문서"
 description: "Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: NathBarn
+ms.author: NathBarn
 manager: angrobe
-ms.date: 01/06/17
+ms.date: 02/16/17
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
 ms.reviewer: chrisgre
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d05c9d7a78474c19e142bca94e232289fbfba1d9
-ms.openlocfilehash: b3504cc1aab8bbe553581d822af63363668a8ef7
+ms.sourcegitcommit: 87589903acd3c2e7c45d62c619571a1273e7fb76
+ms.openlocfilehash: 8de91a0e0640b9c0fb281686d4ecd4983134d4af
 
 ---
 # <a name="help-protect-your-devices-with-remote-lock-and-passcode-reset"></a>원격 잠금 또는 암호 재설정으로 장치 보호 지원
@@ -24,7 +25,7 @@ ms.openlocfilehash: b3504cc1aab8bbe553581d822af63363668a8ef7
 Microsoft Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다.
 
 ## <a name="lock-a-device-remotely"></a>장치 원격 잠금
-사용자가 장치를 잃어버린 경우 장치를 원격으로 잠글 수 있습니다. 원격 잠금을 사용하려면 먼저 장치에 PIN 또는 암호가 설정되어 있어야 합니다. 
+사용자가 장치를 잃어버린 경우 장치를 원격으로 잠글 수 있습니다. 원격 잠금을 사용하려면 먼저 장치에 PIN 또는 암호가 설정되어 있어야 합니다.
 
 아래 표에는 여러 모바일 플랫폼에서 원격 잠금이 작동하는 방법이 정리되어 있습니다.
 
@@ -33,7 +34,8 @@ Microsoft Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다
 |macOS|지원되지 않음|
 |iOS|지원됨|
 |Android|지원됨|
-|Windows 10 및 Windows 10 Mobile|지원됨|
+|Windows 10(Mobile)|지원됨|
+|Windows 10(Desktop)|지원되지 않음|
 |Windows Phone 8 및 Windows Phone 8.1|지원됨|
 |Windows RT 8.1 및 Windows RT|장치의 현재 사용자가 장치를 등록한 사용자인 경우 지원됨|
 |Windows 8.1|장치의 현재 사용자가 장치를 등록한 사용자인 경우 지원됨|
@@ -84,6 +86,6 @@ Intune 소프트웨어 클라이언트에 등록된 Windows PC에서는 암호 �
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO3-->
 
 

@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 02/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 6e9ec662-465b-4ed4-94c1-cff0fe18f126
 ms.reviewer: angrobe
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d05c9d7a78474c19e142bca94e232289fbfba1d9
-ms.openlocfilehash: 02b6dd389c94d2b31bd96b2095ae48b685084370
+ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
+ms.openlocfilehash: b1f16df329c01aeb45885f3981e2d9d7ef854e8b
 
 
 ---
@@ -23,6 +24,8 @@ ms.openlocfilehash: 02b6dd389c94d2b31bd96b2095ae48b685084370
 # <a name="add-users-and-give-administrative-permission-to-intune"></a>Intune에 사용자를 추가하고 관리 권한 부여
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+이 항목에서는 관리자가 Intune에 사용자를 추가하는 방법과 Intune 서비스에서 사용할 수 있는 관리 권한을 알려줍니다.
 
 관리자는 사용자를 직접 추가할 수도 있고 온-프레미스 Active Directory에서 사용자를 동기화할 수도 있습니다. 추가된 사용자는 장치를 등록하고 회사 리소스에 액세스할 수 있습니다. *테넌트 관리자*, *서비스 관리자*, *장치 등록 관리자 권한* 등의 추가 권한을 사용자에게 제공할 수도 있습니다.
 
@@ -35,7 +38,7 @@ ms.openlocfilehash: 02b6dd389c94d2b31bd96b2095ae48b685084370
   - [장치 등록 관리자](#device-enrollment-managers)
 
 ## <a name="add-users-to-intune"></a>Intune에 사용자 추가
-[Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)을 통해 Intune 구독에 사용자를 수동으로 추가할 수 있으며, 이러한 사용자에게는 Intune 라이선스가 자동으로 할당되지 않습니다. 대신, 나중에 Intune 테넌트 관리자가 Office 365 포털에서 사용자에게 라이선스를 할당하도록 사용자 계정을 편집해야 합니다. 관련 지침은 [Office 365 포털에 개별적으로 또는 대량으로 사용자 추가](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)를 참조하세요.
+[Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)을 통해 Intune 구독에 사용자를 수동으로 추가할 수 있지만, 이러한 사용자에게는 Intune 라이선스가 자동으로 할당되지 않습니다. 대신, 나중에 Intune 테넌트 관리자가 Office 365 포털에서 사용자에게 라이선스를 할당하도록 사용자 계정을 편집해야 합니다. 관련 지침은 [Office 365 포털에 개별적으로 또는 대량으로 사용자 추가](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)를 참조하세요.
 
 ### <a name="sync-active-directory-and-add-users-to-intune"></a>Active Directory를 동기화하고 Intune에 사용자 추가
 온-프레미스 Active Directory에서 Microsoft Azure AD(Azure Active Directory)로 Intune 사용자를 포함한 사용자 계정을 가져오도록 디렉터리 동기화를 구성할 수 있습니다. 온-프레미스 Active Directory 서비스를 모든 Azure Active Directory 기반 서비스와 연결하면 사용자 ID를 훨씬 간편하게 관리할 수 있습니다. 사용자에게 친숙하고 간편한 인증 환경을 제공하도록 Single Sign-On 기능을 구성할 수도 있습니다. 같은 [Azure AD 테넌트](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)를 여러 서비스와 연결하면 이전에 동기화했던 사용자 계정을 모든 클라우드 기반 서비스에 사용할 수 있습니다.
@@ -95,7 +98,7 @@ Office 365 포털에 액세스하려면 계정의 로그인 상태가 **허용**
 
 ### <a name="device-enrollment-managers"></a>장치 등록 관리자
 
-장치 등록 관리자는 사용자가 없는 장치를 여러 개 등록할 수 있는 추가 권한이 있는 표준 사용자 계정입니다. 기본적으로 각 Intune 사용자는 최대 15개의 장치를 등록할 수 있습니다. 관리자는 특정 사용자 계정에 장치 등록 관리자 권한을 제공할 수 있습니다. 해당 계정은 많은 회사 소유 장치를 등록할 수 있습니다. 이러한 기능은 일시적으로 사용자에게 장치를 할당하거나, 사용자와 장치 간 연결이 필요하지 않은 키오스크 모드로 작업할 때 유용합니다. 자세한 내용은 [장치 등록 관리자](https://docs.microsoft.com/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)를 참조하세요.
+장치 등록 관리자는 사용자가 없는 장치를 여러 개 등록할 수 있는 추가 권한이 있는 표준 사용자 계정입니다. 기본적으로 각 Intune 사용자는 최대&15;개의 장치를 등록할 수 있습니다. 관리자는 특정 사용자 계정에 장치 등록 관리자 권한을 제공할 수 있습니다. 해당 계정은 많은 회사 소유 장치를 등록할 수 있습니다. 이러한 기능은 일시적으로 사용자에게 장치를 할당하거나, 사용자와 장치 간 연결이 필요하지 않은 키오스크 모드로 작업할 때 유용합니다. 자세한 내용은 [장치 등록 관리자](https://docs.microsoft.com/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)를 참조하세요.
 
 >[!div class="step-by-step"]
 
@@ -103,6 +106,6 @@ Office 365 포털에 액세스하려면 계정의 로그인 상태가 **허용**
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 
