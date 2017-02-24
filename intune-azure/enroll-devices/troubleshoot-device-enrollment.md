@@ -1,11 +1,12 @@
 ---
-title: "장치 등록 문제 해결 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "장치 등록 문제 해결"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 장치 등록 문제를 해결하는 방법을 알아봅니다."
 keywords: 
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 01/010/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +14,10 @@ ms.technology:
 ms.assetid: c324c74e-e225-40ad-88b7-72a6d9ea09b5
 ms.reviewer: damionw
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 151e71f719b459a4f2c9612035201908d2610980
-ms.openlocfilehash: 78f0ff9a1b7bdaf30721d8702c36ff0e613b109e
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 9fff350240e4313994056bc5aebf82e204ab3c62
 
 
 ---
@@ -46,7 +48,7 @@ ms.openlocfilehash: 78f0ff9a1b7bdaf30721d8702c36ff0e613b109e
 
 #### <a name="check-number-of-devices-enrolled-and-allowed"></a>등록된 장치 수와 및 허용된 장치 수 확인
 
-Azure Portal의 Intune 블레이드에서 **장치 등록** > **등록 제한**으로 이동하여 사용자에게 할당된 장치가 허용되는 최대 장치 수(15개) 이하인지 확인합니다.
+Azure Portal에서 **More Services**(추가 서비스) > **모니터링 + 관리** > **Intune**을 선택합니다. Azure Portal의 Intune 블레이드에서 **장치 등록** > **등록 제한**으로 이동하여 사용자에게 할당된 장치가 허용되는 최대 장치 수(15개) 이하인지 확인합니다.
 
 <!--- Mobile device users can delete devices at the following URL: [https://byodtestservice.azurewebsites.net/](https://byodtestservice.azurewebsites.net/). --->
 
@@ -218,16 +220,16 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
 이 문제를 해결하려면 다음과 같이 인증서를 AD FS 서버 또는 프록시의 컴퓨터 개인 인증서로 가져옵니다.
 
-1.  AD FS 및 프록시 서버에서 **시작** 단추를 마우스 오른쪽 단추로 클릭하고 **실행**을 입력한 다음 **certlm.msc**를 입력하여 로컬 컴퓨터의 인증서 관리 콘솔을 시작합니다.
-2.  **개인**을 확장하고 **인증서**를 선택합니다.
-3.  AD FS 서비스 통신용 인증서(공개 서명된 인증서)를 찾은 다음 두 번 클릭하여 해당 속성을 확인합니다.
-4.  **인증 경로** 탭을 선택하여 해당 인증서의 상위 인증서를 확인합니다.
-5.  각 상위 인증서에서 **인증서 보기**를 선택합니다.
-6.  **세부 정보** 탭을 선택하고 **파일에 복사...**를 선택합니다.
-7.  마법사의 메시지에 따라 인증서의 공개 키를 원하는 파일 위치에 내보내거나 저장합니다.
-8.  **인증서**를 마우스 오른쪽 단추로 클릭하고 **모든 태스크** > **가져오기**를 선택한 후에 마법사의 메시지에 따라 인증서를 가져오는 방법으로 3단계에서 내보냈던 상위 인증서를 로컬 컴퓨터\개인\인증서로 가져옵니다.
-9.  AD FS 서버를 다시 시작합니다.
-10. 모든 AD FS 및 프록시 서버에서 위의 단계를 반복합니다.
+1.    AD FS 및 프록시 서버에서 **시작** 단추를 마우스 오른쪽 단추로 클릭하고 **실행**을 입력한 다음 **certlm.msc**를 입력하여 로컬 컴퓨터의 인증서 관리 콘솔을 시작합니다.
+2.    **개인**을 확장하고 **인증서**를 선택합니다.
+3.    AD FS 서비스 통신용 인증서(공개 서명된 인증서)를 찾은 다음 두 번 클릭하여 해당 속성을 확인합니다.
+4.    **인증 경로** 탭을 선택하여 해당 인증서의 상위 인증서를 확인합니다.
+5.    각 상위 인증서에서 **인증서 보기**를 선택합니다.
+6.    **세부 정보** 탭을 선택하고 **파일에 복사...**를 선택합니다.
+7.    마법사의 메시지에 따라 인증서의 공개 키를 원하는 파일 위치에 내보내거나 저장합니다.
+8.    **인증서**를 마우스 오른쪽 단추로 클릭하고 **모든 태스크** > **가져오기**를 선택한 후에 마법사의 메시지에 따라 인증서를 가져오는 방법으로 3단계에서 내보냈던 상위 인증서를 로컬 컴퓨터\개인\인증서로 가져옵니다.
+9.    AD FS 서버를 다시 시작합니다.
+10.    모든 AD FS 및 프록시 서버에서 위의 단계를 반복합니다.
 이제 사용자는 Android 장치에서 회사 포털에 로그인할 수 있습니다.
 
 **인증서가 제대로 설치되었는지 유효성을 검사하려면**:
@@ -389,6 +391,6 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
 
 
-<!--HONumber=Feb17_HO1-->
+<!--HONumber=Feb17_HO3-->
 
 

@@ -16,9 +16,10 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jieyan
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 81ee6143d53ca08f03dfd3555b118f77319ccf2d
-ms.openlocfilehash: e72a61b2250c2d048392e025655b81dbc8297176
+ms.sourcegitcommit: aca401cab49230d2bcb9171cf532b52ce5219798
+ms.openlocfilehash: b6e9a357b79b0069e5fadf5aa280dae5b4787212
 
 
 ---
@@ -28,7 +29,7 @@ ms.openlocfilehash: e72a61b2250c2d048392e025655b81dbc8297176
 
 Microsoft Intune에 장치를 등록하면 Windows 10 장치를 사용하여 메일, 파일 및 기타 리소스를 포함한 조직의 보안 데이터에 액세스할 수 있습니다. Windows 10 데스크톱 및 Windows 10 모바일 장치의 경우도 마찬가지입니다. 장치를 등록하면 사용자와 조직 모두 이러한 액세스를 보호하고 작업 데이터를 개인 데이터와 별도로 보호할 수 있습니다.
 
-자세히 알고 싶으세요? [Intune에서 장치를 등록](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)하면 어떻게 되는지 그리고 그것이 [장치의 정보](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)에 어떤 영향을 주는지 알아보세요.
+자세히 알고 싶으세요? [Intune에서 장치를 등록](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)하면 어떻게 되는지 그리고 그것이 [장치의 정보](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)에 어떤 영향을 주는지 알아보세요.
 
 ## <a name="windows-10-desktop-devices"></a>Windows 10 데스크톱 장치
 1.    __시작__으로 이동합니다.
@@ -56,6 +57,6 @@ Microsoft Intune에 장치를 등록하면 Windows 10 장치를 사용하여 메
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 

@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 88936b8a-7453-4410-b6db-29f636ba3e72
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d92b8b03c1c71898a15b1d1f0a1ee5e1f288dc2e
-ms.openlocfilehash: 759e5b7d04ccbbfb338d182bad03e0b0218cdeca
+ms.sourcegitcommit: 6b99854e17e00a0dd0f91fa82fd1b79d1dfe5663
+ms.openlocfilehash: 43ac18d298901f24c8d6352537b285bf0108f667
 
 
 ---
@@ -46,7 +47,7 @@ Intune에 등록하기 전에 기존 엔터프라이즈 이동성 관리 솔루�
 
 ## <a name="enrolling-devices-in-intune"></a>Intune에 장치 등록
 
-마이그레이션을 예약한 사용자는 회사 리소스, 전자 메일 및 응용 프로그램에 대한 액세스를 다시 획득하거나 액세스 상실을 방지하기 위해 즉시 Intune에 등록해야 합니다. 조건부 액세스를 구성했는데 사용자가 Intune에 등록하기 전에 메일에 연결하려고 하는 경우에는 해당 사용자의 액세스가 차단되며 등록 메일이 전송됩니다. 이 메일은 사용자에게 장치를 Intune에 등록하도록 안내합니다.  또는 사용자가 Intune 회사 포털 앱 또는 Windows 8.1 및 Windows 10 Mobile의 경우 운영 체제를 통해 고유하게 Intune에 등록할 수 있습니다. 플랫폼별 등록 단계에 대한 추가 지침은 [Microsoft Intune 사용에 관하여 최종 사용자에게 알릴 사항](/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune)을 참조하세요.
+마이그레이션을 예약한 사용자는 회사 리소스, 전자 메일 및 응용 프로그램에 대한 액세스를 다시 획득하거나 액세스 상실을 방지하기 위해 즉시 Intune에 등록해야 합니다. 조건부 액세스를 구성했는데 사용자가 Intune에 등록하기 전에 메일에 연결하려고 하는 경우에는 해당 사용자의 액세스가 차단되며 등록 메일이 전송됩니다. 이 메일은 사용자에게 장치를 Intune에 등록하도록 안내합니다.  또는 사용자가 Intune 회사 포털 앱 또는 Windows 8.1 및 Windows 10 Mobile의 경우 운영 체제를 통해 고유하게 Intune에 등록할 수 있습니다. 플랫폼별 등록 단계에 대한 추가 지침은 [Microsoft Intune 사용에 관하여 최종 사용자에게 알릴 사항](/intune/deploy-use/how-to-educate-your-end-users-about-microsoft-intune)을 참조하세요.
 
 ## <a name="configure-intune-conditional-access-optional"></a>Intune 조건부 액세스 구성(선택 사항)
 
@@ -75,6 +76,6 @@ Intune으로 마이그레이션에 대해 추가적인 도움이 필요합니까
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Feb17_HO3-->
 
 

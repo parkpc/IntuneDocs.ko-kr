@@ -14,8 +14,8 @@ ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 53862e49c922b75b414fd5aceec3bba2b10299a6
-ms.openlocfilehash: a7c1a2b7ec1719a47c36e1fe09d1deccd0eed1b1
+ms.sourcegitcommit: 6f687a1db84b49bc173d2067ab95598b4485daa8
+ms.openlocfilehash: ab94439d9fd5300d61c5991434d41f7fdca693d2
 
 
 ---
@@ -78,7 +78,7 @@ ms.openlocfilehash: a7c1a2b7ec1719a47c36e1fe09d1deccd0eed1b1
 
 6. **사용자에게 앱을 배포하려면** Lookout for Work 앱을 선택하고 **배포 관리**를 선택합니다.
 
-  Lookout  콘솔의 등록 관리 옵션에 추가된 사용자와 동일한 사용자를 선택해야 합니다.  Lookout MTP에 사용자 그룹을 추가하는 방법에 대한 정보는 [Lookout 장치 위협 방지 구독 구성 섹션](configure-and-deploy-lookout-for-work-apps.md)에 나온 3단계를 참조하세요.
+  Lookout  콘솔의 등록 관리 옵션에 추가된 사용자와 동일한 사용자를 선택해야 합니다.  Lookout MTP에 사용자 그룹을 추가하는 방법에 대한 정보는 [Lookout 장치 위협 방지 구독 구성 섹션](https://docs.microsoft.com/sccm/protect/deploy-use/configure-and-deploy-lookout-for-work-apps)에 나온 3단계를 참조하세요.
 
   >[!IMPORTANT]
   > Intune 앱 배포 마법사는 Azure AD 사용자 그룹을 인식하지 못하기 때문에 Intune 사용자 그룹을 대신 사용합니다. 따라서 [이](plan-your-user-and-device-groups.md) 항목에 설명한 대로, Lookout 콘솔에 등록된 Azure AD 사용자 그룹을 기반으로 Intune 사용자 그룹을 만들어야 합니다.
@@ -94,10 +94,10 @@ ms.openlocfilehash: a7c1a2b7ec1719a47c36e1fe09d1deccd0eed1b1
 * [Lookout for Work가 Android 장치에서 발견한 위협을 해결해야 함](http://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
 
 ## <a name="next-steps"></a>다음 단계
-* [준수 정책에서 장치 위협 방지 규칙 사용](enable-device-threat-protection-rule-in-compliance-policy.md)
+* [준수 정책에서 장치 위협 방지 규칙 사용](https://docs.microsoft.com/sccm/protect/deploy-use/enable-device-threat-protection-rule-compliance-policy)
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Feb17_HO4-->
 
 

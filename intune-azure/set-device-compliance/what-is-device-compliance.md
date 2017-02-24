@@ -1,5 +1,6 @@
 ---
-title: "장치 준수 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "장치 정책 준수"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 이 항목에서는 Microsoft Intune의 장치 준수에 대해 알아봅니다."
 keywords: 
 author: andredm7
@@ -13,9 +14,10 @@ ms.technology:
 ms.assetid: a916fa0d-890d-4efb-941c-7c3c05f8fe7c
 ms.reviewer: muhosabe
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 7693d49e2f0fa6e4aa40b6bb71433a7eaab8dd15
-ms.openlocfilehash: a4254503e4e6b86079f862966dee2727934f1ee6
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: b245dac28f88e7eab70dfa9d759b15e155f8a7df
 
 
 ---
@@ -88,6 +90,6 @@ Conditional access--->
 
 
 
-<!--HONumber=Feb17_HO1-->
+<!--HONumber=Feb17_HO3-->
 
 

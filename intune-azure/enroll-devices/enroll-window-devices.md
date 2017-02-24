@@ -1,5 +1,6 @@
 ---
-title: "Windows 장치 등록 | Intune Azure 미리 보기 | Microsoft 문서"
+title: "Windows 장치 등록"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Windows 장치에 대한 Intune MDM(모바일 장치 관리)을 사용하도록 설정합니다."
 keywords: 
 author: staciebarker
@@ -12,9 +13,10 @@ ms.technology:
 ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: a4103a4cef393df585b9b9daa92ab63dd7805e9e
-ms.openlocfilehash: a55118e60750616f8b058846148364cbeccb5784
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 7262093700dab3a7befd5b82ac9f8ee3dde22dcf
 
 
 ---

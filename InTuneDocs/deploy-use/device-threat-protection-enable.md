@@ -15,8 +15,8 @@ ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 53862e49c922b75b414fd5aceec3bba2b10299a6
-ms.openlocfilehash: 1297522d0f7b52ebe14eb7b938f3458e7308ae27
+ms.sourcegitcommit: 6f687a1db84b49bc173d2067ab95598b4485daa8
+ms.openlocfilehash: 618819ff8dded925bc4745160dde8c9e75694faf
 
 
 ---
@@ -34,14 +34,14 @@ Intune에서 Lookout MTP를 연결하려면 [Microsoft Intune 관리자 콘솔](
 >[!IMPORTANT]
 > 규정 준수 정책 규칙을 만들고 조건부 액세스를 구성하기 전에 Lookout for Work 앱을 구성**해야 합니다**. 이렇게 하면 앱이 최종 사용자가 설치할 수 있는 상태로 준비되어 최종 사용자가 메일과 기타 회사 리소스에 액세스할 수 있게 됩니다.
 
-이렇게 하면 Intune 관리자 콘솔에서 Lookout 및 Intune 통합 설정이 완료됩니다.  그다음으로는, 이 솔루션을 구현하기 위해 [Lookout for Work 앱](configure-and-deploy-lookout-for-work-apps.md)을 배포하고 [규정 준수](enable-device-threat-protection-rule-in-compliance-policy.md) 정책을 설정하기 위한 몇 가지 단계를 진행하게 됩니다.
+이렇게 하면 Intune 관리자 콘솔에서 Lookout 및 Intune 통합 설정이 완료됩니다.  그다음으로는, 이 솔루션을 구현하기 위해 [Lookout for Work 앱](https://docs.microsoft.com/intune/deploy-use/device-threat-protection-apps)을 배포하고 [규정 준수](https://docs.microsoft.com/intune/deploy-use/device-threat-protection-policy) 정책을 설정하기 위한 몇 가지 단계를 진행하게 됩니다.
 
 
 ## <a name="next-steps"></a>다음 단계
-[Lookout for Work 앱 구성](configure-and-deploy-lookout-for-work-apps.md)
+[Lookout for Work 앱 구성](https://docs.microsoft.com/intune/deploy-use/device-threat-protection-apps)
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Feb17_HO4-->
 
 

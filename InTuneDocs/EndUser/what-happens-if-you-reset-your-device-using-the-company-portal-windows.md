@@ -18,8 +18,8 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
-ms.openlocfilehash: b48d3559f776de529c95666d4d4f762c8fbc82d2
+ms.sourcegitcommit: 42e6b4d44dffa457f009e8402d5c429aa55932d6
+ms.openlocfilehash: 74983ab11e1c1763bd5394af483b93b74b715f89
 
 
 ---
@@ -27,7 +27,7 @@ ms.openlocfilehash: b48d3559f776de529c95666d4d4f762c8fbc82d2
 
 # <a name="what-happens-if-you-reset-your-windows-device-using-the-company-portal"></a>회사 포털을 사용하여 Windows 장치를 다시 설정하면 어떻게 되나요?
 
-회사 포털 앱 또는 [회사 포털 웹 사이트](reset-your-device-cpwebsite.md)를 사용하여 Windows 장치를 다시 설정하면 장치가 출하 시 설정으로 다시 설정되고 모든 앱, 설정 및 개인 데이터를 포함한 데이터가 삭제됩니다. 장치에 발생하는 상황은 다음 표에 설명된 것과 같이 장치의 종류와 장치 사용 방법에 따라 달라집니다. 분실 또는 도난 장치를 초기화하는 방법에 대한 자세한 내용은 [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-lost-or-stolen-device-windows.md)을 참조하세요.
+회사 포털 앱 또는 [회사 포털 웹 사이트](reset-erase-your-device-cpwebsite.md)를 사용하여 Windows 장치를 다시 설정하면 장치가 출하 시 설정으로 다시 설정되고 모든 앱, 설정 및 개인 데이터를 포함한 데이터가 삭제됩니다. 장치에 발생하는 상황은 다음 표에 설명된 것과 같이 장치의 종류와 장치 사용 방법에 따라 달라집니다. 분실 또는 도난 장치를 초기화하는 방법에 대한 자세한 내용은 [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-device-cpwebsite.md)을 참조하세요.
 
 |장치 구성 및 관리|장치 유형|
 |---------------------------------------|---------------|
@@ -39,6 +39,6 @@ ms.openlocfilehash: b48d3559f776de529c95666d4d4f762c8fbc82d2
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO4-->
 
 

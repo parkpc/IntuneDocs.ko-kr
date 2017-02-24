@@ -1,5 +1,6 @@
 ---
-title: "Microsoft Intune에서 장치 프로필 문제 해결 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Microsoft Intune에서 장치 프로필 문제 해결"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 이 항목을 사용하여 Intune 장치 프로필 관련 문제를 해결할 수 있습니다."
 keywords: 
 author: robstackmsft
@@ -13,9 +14,10 @@ ms.technology:
 ms.assetid: 
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 132c0b308031a57277c20cedd5b4ad37bfdf92e6
-ms.openlocfilehash: fe2a694d7b6135b4e8f7aaf1c863bc1685e93ea6
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 962eb30ada84355c1aceacbf8f487b0f5b3cf1f2
 
 
 ---
@@ -499,6 +501,6 @@ Android, Windows Phone 8.1 이상 및 iOS와 같은 기타 MDM 장치의 경우 
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)의 설명에 따라 Microsoft 지원에 문의하세요.
 
 
-<!--HONumber=Feb17_HO1-->
+<!--HONumber=Feb17_HO3-->
 
 

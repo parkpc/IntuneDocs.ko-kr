@@ -16,13 +16,13 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
-ms.openlocfilehash: 60b88dfed5afbb808aa056e93f2069d14efe8254
+ms.sourcegitcommit: 0e6b7ae1794ff0857dfb203eb3c67d7ba494bd8e
+ms.openlocfilehash: 329d34e7a6ad83512e98dce85e1effe9c54a1bce
 
 
 ---
-
 
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-windows-10-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 Windows 10 장치를 등록하면 어떻게 되나요?
 
@@ -36,7 +36,7 @@ ms.openlocfilehash: 60b88dfed5afbb808aa056e93f2069d14efe8254
 
 -   분실하거나 도난당한 경우 전화를 공장 설정으로 다시 설정
 
-등록 단계에 대해서는 [Intune에서 Windows 10 Mobile 또는 Windows 10 Desktop 장치 등록](enroll-your-w10-phone-or-w10-pc-windows.md)을 참조하세요. IT 관리자가 내 장치에서 무엇을 볼 수 있는지 알아보려면 [내가 Intune에서 장치를 등록하면 IT 관리자에게 무엇이 표시되나요?](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)를 참조하세요.
+등록 단계에 대해서는 [Intune에서 Windows 10 Mobile 또는 Windows 10 Desktop 장치 등록](enroll-your-w10-phone-or-w10-pc-windows.md)을 참조하세요. IT 관리자가 내 장치에서 무엇을 볼 수 있는지 알아보려면 [내가 Intune에서 장치를 등록하면 IT 관리자에게 무엇이 표시되나요?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)를 참조하세요.
 
 컴퓨터를 추가하는 경우
 
@@ -58,6 +58,6 @@ ms.openlocfilehash: 60b88dfed5afbb808aa056e93f2069d14efe8254
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO3-->
 
 

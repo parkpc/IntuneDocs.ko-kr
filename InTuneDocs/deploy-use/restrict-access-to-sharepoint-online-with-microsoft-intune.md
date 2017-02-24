@@ -15,8 +15,8 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
-ms.openlocfilehash: fad731fe01ba4782b64e8a5af97bd536ae9478d3
+ms.sourcegitcommit: c4077c41da897e570e5d29702ba0e776c7deee6b
+ms.openlocfilehash: c72d4525a41e7b1498232526c6e05cc4b7bef978
 
 
 ---
@@ -155,8 +155,6 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
      -   **장치가 도메인에 가입되어 있거나 규정을 준수해야 합니다.** PC가 도메인에 가입되어 있거나 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 설정된 정책을 준수해야 하도록 지정하려는 경우 이 옵션을 선택합니다. PC가 이러한 요구 사항을 하나라도 충족하지 않을 경우 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 장치를 등록하라는 메시지가 표시됩니다.
 
-     -   **장치가 도메인에 가입되어 있어야 합니다.** 즉, Exchange Online에 액세스하려면 PC가 도메인에 가입되어 있어야 하는 경우 이 옵션을 선택합니다. PC가 도메인에 가입되지 않은 경우 메일 액세스가 차단되고 IT 관리자에게 문의하라는 메시지가 표시됩니다.
-
      -   **장치가 규정을 준수해야 합니다.** PC가 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록되어 있고 규정을 준수해야 하는 경우 이 옵션을 선택합니다. PC가 등록되지 않은 경우 등록 방법에 대한 지침이 포함된 메시지가 표시됩니다.
 
 4.   SharePoint Online 및 비즈니스용 OneDrive에 대한 **브라우저 액세스**에서, 지원되는 브라우저인 Safari(iOS) 및 Chrome(Android)을 통해서만 Exchange Online에 대한 액세스를 허용하도록 선택할 수 있습니다. 다른 브라우저에서의 액세스는 차단됩니다. OneDrive에 대한 응용 프로그램 액세스에 선택한 것과 동일한 플랫폼 제한 사항이 여기에도 적용됩니다.
@@ -200,6 +198,6 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO3-->
 
 
