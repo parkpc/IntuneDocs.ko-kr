@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/27/2016
+ms.date: 02/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 2b770f4f-6d36-41e4-b535-514b46e29aaa
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 27e6a4d59c0cc00ac9dd154605518d9c937e5fc6
+ms.sourcegitcommit: f7998da5566f9b963807b613a47d35b629620f96
+ms.openlocfilehash: 9e8b9e1c935dd771c3e37bea5a552fba2374bf68
 
 
 ---
@@ -63,7 +64,7 @@ Intune 관리자 콘솔에서 앱을 추가 또는 수정할 때 Microsoft Intun
 ## <a name="cloud-storage-space"></a>클라우드 저장소 공간
 소프트웨어 설치 관리자 설치 유형(예: 기간 업무 앱)을 사용하여 만든 모든 앱은 패키징된 후 Microsoft Intune 클라우드 저장소로 업로드됩니다. Intune의 평가판 구독에는 관리 앱 및 업데이트를 저장하는 데 사용되는 클라우드 기반의 2GB 저장소가 포함됩니다. 전체 구독에는 20GB의 저장소 공간이 포함됩니다.
 
-**관리자** 작업 영역의 **저장소 사용** 노드에서 사용 중인 공간 크기를 확인할 수 있습니다.
+**관리자** 작업 영역의 **저장소 사용** 노드에서 사용 중인 공간 크기를 확인할 수 있습니다. 원래 구매 방법을 사용하여 Intune용 저장소를 추가로 구입할 수 있습니다.  청구서 또는 신용 카드로 지불한 경우 [구독 관리 포털](https://portal.office.com/adminportal/home?switchtomodern=true#/subscriptions)을 참조하세요.  그 외의 경우에는 파트너나 영업 사원에게 문의하세요.
 
 클라우드 저장소 공간에 대한 요구 사항은 다음과 같습니다.
 
@@ -96,6 +97,6 @@ Windows 10 유니버설 appxbundle 패키지를 Intune에 추가할 때는 앱�
 
 
 
-<!--HONumber=Dec16_HO5-->
+<!--HONumber=Feb17_HO2-->
 
 

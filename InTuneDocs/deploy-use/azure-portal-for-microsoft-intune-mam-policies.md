@@ -13,18 +13,19 @@ ms.technology:
 ms.assetid: 7d6dae94-a833-40b7-9016-14ea234bb33c
 ms.reviewer: joglocke
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: fe44466fbcef67d02b16d3d2d335f657251451d3
-ms.openlocfilehash: fa8d839da1cf0b2d207edc0b28de8a714ba0df02
+ms.sourcegitcommit: e2503c44f434e67f45064f28d1e921eb5accb0b6
+ms.openlocfilehash: 2707e3fae32e73aa17696886f493932e903ffc10
 
 
 ---
 
-# <a name="azure-portal-for-microsoft-intune-mam-policies"></a>Microsoft Intune MAM 정책용 Azure 포털
+# <a name="azure-portal-for-intune-app-protection-policies"></a>Intune 앱 보호 정책용 Azure Portal
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-Azure Portal은 MAM(모바일 앱 관리) 정책을 만들고 관리하는 데 사용됩니다.
+Azure Portal은 다음에 대한 앱 보호 정책을 만들고 관리하는 데 사용됩니다.
 
 - 장치에서 실행되는 앱 중에서 **Intune에서 등록하고 관리하는** 앱
 
@@ -32,9 +33,9 @@ Azure Portal은 MAM(모바일 앱 관리) 정책을 만들고 관리하는 데 �
 - 장치에서 실행되는 앱 중에서 **타사 MDM 솔루션에 등록된 앱**.
 
 >[!IMPORTANT]
-> Azure Portal은 MAM 정책을 만들 수 있는 새로운 관리 콘솔이지만 MDM 시나리오에서 [Intune 관리 콘솔](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 Intune에 등록된 장치의 앱을 지원하는 MAM 정책을 만들 수도 있습니다.
+> Azure Portal은 앱 보호 정책을 만들 수 있는 새로운 관리 콘솔이지만 MDM 시나리오에서 [Intune 관리 콘솔](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 Intune에 등록된 장치의 앱을 지원하는 앱 보호 정책을 만들 수도 있습니다.
 
-> Intune 관리 콘솔에서 사용할 수 있는 MAM 정책 설정이 일부 나타나지 않을 수도 있습니다. 또한 Intune 관리 콘솔과 Azure 포털 둘 다에서 MAM 정책을 만들 경우 Azure 포털에서 만든 정책이 Intune 관리 콘솔에서 만든 정책을 재정의합니다. 이 시나리오에서는 Azure 포털 MAM 정책이 앱에 적용되어 사용자에게 배포됩니다.
+> Intune 관리 콘솔에서 사용할 수 있는 앱 보호 정책 설정이 일부 나타나지 않을 수도 있습니다. 또한 Intune 관리 콘솔과 Azure Portal 둘 다에서 앱 보호 정책을 만들 경우 Azure Portal에서 만든 정책이 Intune 관리 콘솔에서 만든 정책을 재정의합니다. 이 시나리오에서는 Azure Portal 앱 보호 정책을 앱에 적용하여 사용자에게 배포합시다.
 
 
 ## <a name="sign-in-to-the-azure-portal-and-customize-your-start-page"></a>Azure 포털에 로그인하고 시작 페이지를 사용자 지정합니다.
@@ -47,11 +48,11 @@ Azure Portal은 MAM(모바일 앱 관리) 정책을 만들고 관리하는 데 �
 
     ![Azure 포털 대시보드의 스크린 샷](../media/AppManagement/AzurePortal_MAMStartboard_NoMAM.png)
 
-3.  **찾아보기** 메뉴에서 **Intune**을 찾습니다.
+3.  왼쪽 메뉴에서 **More services**(추가 서비스)를 선택한 다음 텍스트 상자 필터에 **Intune**을 입력합니다.
 
     ![Intune이 강조 표시된 찾아보기 메뉴의 스크린샷](../media/AppManagement/MAM-Azure-Portal-1.png)
 
-4.  **Intune** > **Intune 모바일 응용 프로그램 관리** > **설정**을 선택합니다.
+4.  **Intune App Protection**(Intune 앱 보호) > **Intune 모바일 응용 프로그램 관리** > **모든 설정**을 선택합니다.
 
     ![Intune 모바일 응용 프로그램 관리 블레이드의 스크린 샷](../media/AppManagement/MAM-Azure-Portal-2.png)
 
@@ -62,10 +63,10 @@ Azure Portal은 MAM(모바일 앱 관리) 정책을 만들고 관리하는 데 �
     ![고정된 Intune 타일이 있는 대시보드의 스크린 샷](../media/AppManagement/AzurePortal_MAM_Startboard_withMAM.png)
 
 ## <a name="next-steps"></a>다음 단계
-[모바일 앱 관리 정책 구성 준비](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
+[앱 보호 정책 구성 준비](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO3-->
 
 

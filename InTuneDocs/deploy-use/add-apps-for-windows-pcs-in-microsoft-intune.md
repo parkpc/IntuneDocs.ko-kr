@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/27/2016
+ms.date: 02/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: bc8c8be9-7f4f-4891-9224-55fc40703f0b
 ms.reviewer: owenyen
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: da23e1df3dcda7f90fd592b5a6f5a587c63815f1
+ms.sourcegitcommit: 547330c05b7fbdd2981e49320c913d8109563384
+ms.openlocfilehash: f8f1359ff08b67261b23a694a4f6bbbeca24fa2a
 
 
 ---
@@ -26,6 +27,8 @@ ms.openlocfilehash: da23e1df3dcda7f90fd592b5a6f5a587c63815f1
 
 > [!IMPORTANT]
 > 이 항목의 정보를 참조하면 Intune 소프트웨어 클라이언트를 사용하여 관리하는 Windows PC에 앱을 추가할 수 있습니다. 등록된 Windows PC 및 기타 모바일 장치에 앱을 추가하려면 [Microsoft Intune에서 모바일 장치에 앱 추가](add-apps-for-mobile-devices-in-microsoft-intune.md)를 참조하세요.
+
+PC에 앱을 설치하려면 앱이 사용자 조작 없이 자동으로 설치될 수 있어야 합니다. 그렇지 않은 경우 설치가 실패합니다.
 
 
 ## <a name="add-the-app"></a>앱 추가
@@ -40,7 +43,7 @@ ms.openlocfilehash: da23e1df3dcda7f90fd592b5a6f5a587c63815f1
 
     - **소프트웨어 설치 관리자 파일 형식 선택**. 배포할 소프트웨어의 유형을 나타냅니다. Windows PC의 경우 **Windows Installer**를 선택합니다.
     - **소프트웨어 설치 파일의 위치 지정**. 설치 파일의 위치를 입력하거나 **찾아보기**를 선택하여 목록에서 위치를 선택합니다.
-    - **동일한 폴더의 추가 파일 및 하위 폴더 포함**. Windows Installer를 사용하는 일부 소프트웨어의 경우 지원 파일이 필요합니다. 이러한 파일은 일반적으로 설치 파일과 같은 폴더 내에 있습니다. 이러한 지원 파일도 배포하려는 경우 이 옵션을 선택합니다.
+    - **동일한 폴더의 추가 파일 및 하위 폴더 포함**. Windows Installer를 사용하는 일부 소프트웨어의 경우 지원 파일이 필요합니다. 이러한 파일은 설치 파일과 같은 폴더 내에 있어야 합니다. 이러한 지원 파일도 배포하려는 경우 이 옵션을 선택합니다.
 
     예를 들어 Application.msi라는 앱을 Intune에 게시하려는 경우 페이지는 다음과 같은 모습으로 나타납니다. ![게시자의 소프트웨어 설정 페이지](./media/publisher-for-pc.png)
 
@@ -73,7 +76,11 @@ ms.openlocfilehash: da23e1df3dcda7f90fd592b5a6f5a587c63815f1
 
     구성된 규칙을 충족하는 앱은 설치되지 않습니다.
 
-6.  **Windows Installer** 파일 형식(.msi 및 .exe)에 한해 **명령줄 인수** 페이지에서 설치 관리자에 대해 선택적인 명령줄 인수를 제공할지 여부를 선택합니다. 예를 들어 일부 설치 관리자의 경우 사용자 작업 없이 자동으로 설치하기 위한 **/q** 인수를 지원할 수 있습니다.
+6.  **Windows Installer** 파일 형식(.msi 및 .exe)에 한해 **명령줄 인수** 페이지에서 설치 관리자에 대해 선택적인 명령줄 인수를 제공할지 여부를 선택합니다.
+    다음 매개 변수는 Intune에서 자동으로 추가합니다.
+    - .exe 파일의 경우 **/install**이 추가됩니다.
+    - .msi 파일의 경우 **/quiet**가 추가됩니다.
+    이러한 옵션은 앱 패키지를 만든 사람이 이 패키지에 대해 기능을 사용하도록 설정한 경우에만 사용할 수 있습니다.
 
 7.  **Windows Installer** 파일 형식(.exe만 해당)에 한해 **반환 코드** 페이지에서 관리되는 Windows PC에 앱을 설치할 때 Intune에서 해석하는 새 오류 코드를 추가할 수 있습니다.
 
@@ -89,8 +96,10 @@ ms.openlocfilehash: da23e1df3dcda7f90fd592b5a6f5a587c63815f1
 
 앱을 만들면 다음 단계는 배포입니다. 자세한 내용은 [Microsoft Intune에서 앱 배포](deploy-apps.md)를 참조하세요.
 
+Windows PC에 소프트웨어를 배포하기 위한 팁과 요령에 대해 자세히 알아보려면 [Support Tip: Best Practices for Intune Software Distribution to PC’s](https://blogs.technet.microsoft.com/intunesupport/2016/06/13/support-tip-best-practices-for-intune-software-distribution-to-pcs/)(지원 팁: PC에 Intune 소프트웨어 배포를 위한 모범 사례) 블로그 게시물을 참조하세요.
 
 
-<!--HONumber=Dec16_HO5-->
+
+<!--HONumber=Feb17_HO3-->
 
 
