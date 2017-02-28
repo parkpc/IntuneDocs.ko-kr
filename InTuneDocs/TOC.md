@@ -156,7 +156,7 @@
 #### [Dynamics CRM Online](deploy-use/restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
 #### [메일 액세스 보호: 예제](deploy-use/restrict-email-access-example-scenarios.md)
 ### [O365 서비스에 정책 관리 앱 액세스만 허용](deploy-use/allow-policy-managed-apps-access-to-o365.md)
-#### [MAM CA가 있는 앱](deploy-use/use-apps-with-mam-ca.md)
+#### [앱 기반 CA로 앱 사용](deploy-use/use-apps-with-mam-ca.md)
 #### [Exchange Online](deploy-use/mam-ca-for-exchange-online.md)
 #### [ADAL 없는 앱 차단](deploy-use/block-apps-with-no-modern-authentication.md)
 ### [네트워크에 대한 액세스 보호(Cisco ISE)](deploy-use/restrict-access-to-networks.md)
@@ -224,6 +224,6 @@
 # [용어 설명](understand-explore/intune-glossary.md)
 
 
-<!--HONumber=Feb17_HO3-->
+<!--HONumber=Feb17_HO4-->
 
 
