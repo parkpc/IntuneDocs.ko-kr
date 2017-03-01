@@ -206,6 +206,7 @@
 
 # [문제 해결](troubleshoot/general-troubleshooting-tips-for-microsoft-intune.md)
 ## [지원을 받는 방법](troubleshoot/how-to-get-support-for-microsoft-intune.md)
+## [보고서를 사용하여 Intune 모니터링](deploy-use/understand-microsoft-intune-operations-by-using-reports.md)
 ## [Endpoint Protection 문제 해결](troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune.md)
 ## [회사 리소스 액세스 문제 해결](troubleshoot/troubleshoot-company-resource-access-problems-with-microsoft-intune.md)
 ## [앱 배포 문제 해결](troubleshoot/troubleshoot-app-deployment-problems-in-microsoft-intune.md)
@@ -222,8 +223,3 @@
 ## [장치 위협 방지 문제 해결](troubleshoot/device-threat-protection-troubleshooting.md)
 
 # [용어 설명](understand-explore/intune-glossary.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

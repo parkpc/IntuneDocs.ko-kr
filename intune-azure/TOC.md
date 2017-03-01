@@ -5,7 +5,9 @@
 ### [무료 평가판 등록](introduction/sign-up-free-trial-microsoft-intune.md)
 ## [새로운 기능](introduction/whats-new.md)
 ## [알려진 문제](introduction/known-issues-in-the-intune-preview.md)
-<!--- ## [Get support](introduction/get-support.md)
+## [지원 받기](introduction/how-to-get-support-for-microsoft-intune.md)
+<!--- 
+
 ## [Related resources](introduction/related-resources.md)
 
 ## [Get started](plan-and-design/get-started.md) --->
@@ -185,8 +187,3 @@
 ### [Android용 앱 래핑 도구](/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool?toc=%2fintune-azure%2ftoc.json)
 ## [Intune 앱 SDK](/intune/develop/intune-app-sdk?toc=%2fintune-azure%2ftoc.json)
 ## [Intune Graph API](https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview)
-
-
-<!--HONumber=Feb17_HO3-->
-
-
