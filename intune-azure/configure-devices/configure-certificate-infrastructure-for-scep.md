@@ -1,5 +1,6 @@
 ---
-title: "SCEP에 대한 인증서 인프라 구성 | Intune Azure 미리 보기 | Microsoft 문서"
+title: "SCEP 인증서 인프라 구성"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune SCEP 인증서 프로필을 만들고 배포하기 전에 인프라를 구성하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: d567d85f-e4ee-458e-bef7-6e275467efce
 ms.reviewer: kmyrup
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 86f493e0ffd2a96ac4cfdfe6d8719f56532ed77c
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 8f713769e0b8a13e91e6d9991e4e7415e1da22a2
+ms.lasthandoff: 02/18/2017
 
 ---
 # <a name="configure-certificate-infrastructure-for-scep-in-microsoft-intune"></a>Microsoft Intune의 SCEP에 대한 인증서 인프라 구성
