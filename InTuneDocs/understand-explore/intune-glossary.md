@@ -11,9 +11,11 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
-ms.openlocfilehash: b9a51cb2123bc9b6e73c0bf72ef5393252e8d37d
+ms.sourcegitcommit: 6b99854e17e00a0dd0f91fa82fd1b79d1dfe5663
+ms.openlocfilehash: ea5407c284f5408774ee5934ad6151bccfd7e6d1
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -61,7 +63,7 @@ ms.openlocfilehash: b9a51cb2123bc9b6e73c0bf72ef5393252e8d37d
 |-|-|
 |전자 메일 프로필|이 정책을 사용하여 모바일 장치에서 특정 메일 클라이언트에 대한 [메일 액세스 설정](/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune)을 지정하여 최종 사용자가 수행해야 하는 설정의 양을 최소화할 수 있습니다.|
 |EMS|Microsoft Enterprise Mobility + Security(이전의 Enterprise Mobility Suite)는 사용자가 [필요한 앱 및 콘텐츠에 액세스](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)할 수 있도록 하면서 회사 데이터를 계속 보호해 줍니다.|
-|최종 사용자|Intune을 사용하여 관리하는 [휴대폰 및 PC와 같은 장치의 사용자](/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune)입니다.|
+|최종 사용자|Intune을 사용하여 관리되는 [휴대폰 및 PC와 같은 장치의 사용자](/intune/deploy-use/how-to-educate-your-end-users-about-microsoft-intune)입니다.|
 |등록|Microsoft Intune에서는 [등록](/intune/deploy-use/enroll-devices-in-microsoft-intune)을 사용하여 장치를 관리하며 리소스에 대한 액세스를 허용합니다.|
 
 ## <a name="f"></a>F
@@ -145,9 +147,4 @@ ms.openlocfilehash: b9a51cb2123bc9b6e73c0bf72ef5393252e8d37d
 |||
 |-|-|
 |Wi-Fi 프로필|사용자가 설정을 알거나 구성할 필요 없이 회사 네트워크에 연결할 수 있도록 장치에 [무선 네트워크 설정](/intune/deploy-use/wi-fi-connections-in-microsoft-intune)을 배포하는 정책입니다.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

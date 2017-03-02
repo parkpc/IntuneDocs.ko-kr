@@ -1,5 +1,6 @@
 ---
-title: "장치 준수를 모니터링하는 방법 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "장치 준수를 모니터링하는 방법"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 장치 준수를 모니터링하는 방법을 알아봅니다."
 keywords: 
 author: andredm7
@@ -13,9 +14,11 @@ ms.technology:
 ms.assetid: 0790934b-48b9-435b-a8aa-e83ed5b73191
 ms.reviewer: muhosabe
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 7693d49e2f0fa6e4aa40b6bb71433a7eaab8dd15
-ms.openlocfilehash: eb27002f449b3bbebb2a9b4ed780350c71eda881
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: d59d94aafa71a9891a6746902339255ea7a9ad15
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -44,9 +47,4 @@ ms.openlocfilehash: eb27002f449b3bbebb2a9b4ed780350c71eda881
 - 설정이 적용되는 플랫폼
 
 각 설정을 드릴다운하여 이러한 설정이 사용된 프로필 및 설정의 구성된 값에 대한 세부 정보를 확인할 수 있습니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

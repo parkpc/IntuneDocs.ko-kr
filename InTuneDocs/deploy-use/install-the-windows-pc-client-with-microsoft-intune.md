@@ -5,7 +5,7 @@ description: "이 가이드를 사용하여 Microsoft Intune 클라이언트 소
 keywords: 
 author: staciebarker
 ms.author: stabar
-ms.date: 02/14/2017
+ms.date: 02/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 2e7062169ceb855f03a13d1afb4b4de41af593ac
-ms.openlocfilehash: 9606d8f79166e6b38f02aefd4afc52f2a47c1362
+ms.sourcegitcommit: e7beff3bf4579d9fb79f0c3f2fb8fbf9bb1ea160
+ms.openlocfilehash: e7e199bd1820299e7c0ea4f9adc3f5e62bffab97
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -178,13 +179,85 @@ Intune 클라이언트 소프트웨어 설치 패키지에는 사용자 계정�
     > [!TIP]
     > 보고서의 모든 열 제목을 클릭하여 해당 열의 콘텐츠별로 목록을 정렬합니다.
 
+## <a name="uninstall-the-windows-client-software"></a>Windows 클라이언트 소프트웨어 제거
+
+Windows 클라이언트 소프트웨어 등록을 취소하는 방법에는 다음 두 가지가 있습니다.
+
+- Intune 관리 콘솔에서(권장 방법)
+- 클라이언트의 명령 프롬프트에서
+
+### <a name="unenroll-by-using-the-intune-admin-console"></a>Intune 관리 콘솔을 사용하여 등록 취소
+
+Intune 관리 콘솔을 사용하여 소프트웨어 클라이언트 등록을 취소하려면 **그룹** > **모든 컴퓨터** > **장치**로 이동합니다. 클라이언트를 마우스 오른쪽 단추로 클릭하고 **사용 중지/초기화**를 선택합니다.
+
+### <a name="unenroll-by-using-a-command-prompt-on-the-client"></a>클라이언트에서 명령 프롬프트를 사용하여 등록 취소
+
+관리자 권한 명령 프롬프트를 사용하여 다음 명령 중 하나를 실행합니다.
+
+**방법 1**:
+
+    ```
+    "C:\Program Files\Microsoft\OnlineManagement\Common\ProvisioningUtil.exe" /UninstallAgents /MicrosoftIntune
+    ```
+
+**방법 2** 이러한 에이전트 중 일부는 모든 Windows SKU에 설치되지 않습니다.
+
+    ```
+    wmic product where name="Microsoft Endpoint Protection Management Components" call uninstall<br>
+    wmic product where name="Microsoft Intune Notification Service" call uninstall<br>
+    wmic product where name="System Center 2012 - Operations Manager Agent" call uninstall<br>
+    wmic product where name="Microsoft Online Management Policy Agent" call uninstall<br>
+    wmic product where name="Microsoft Policy Platform" call uninstall<br>
+    wmic product where name="Microsoft Security Client" call uninstall<br>
+    wmic product where name="Microsoft Online Management Client" call uninstall<br>
+    wmic product where name="Microsoft Online Management Client Service" call uninstall<br>
+    wmic product where name="Microsoft Easy Assist v2" call uninstall<br>
+    wmic product where name="Microsoft Intune Monitoring Agent" call uninstall<br>
+    wmic product where name="Windows Intune Endpoint Protection Agent" call uninstall<br>
+    wmic product where name="Windows Firewall Configuration Provider" call uninstall<br>
+    wmic product where name="Microsoft Intune Center" call uninstall<br>
+    wmic product where name="Microsoft Online Management Update Manager" call uninstall<br>
+    wmic product where name="Microsoft Online Management Agent Installer" call uninstall<br>
+    wmic product where name="Microsoft Intune" call uninstall<br>
+    wmic product where name="Windows Endpoint Protection Management Components" call uninstall<br>
+    wmic product where name="Windows Intune Notification Service" call uninstall<br>
+    wmic product where name="System Center 2012 - Operations Manager Agent" call uninstall<br>
+    wmic product where name="Windows Online Management Policy Agent" call uninstall<br>
+    wmic product where name="Windows Policy Platform" call uninstall<br>
+    wmic product where name="Windows Security Client" call uninstall<br>
+    wmic product where name="Windows Online Management Client" call uninstall<br>
+    wmic product where name="Windows Online Management Client Service" call uninstall<br>
+    wmic product where name="Windows Easy Assist v2" call uninstall<br>
+    wmic product where name="Windows Intune Monitoring Agent" call uninstall<br>
+    wmic product where name="Windows Intune Endpoint Protection Agent" call uninstall<br>
+    wmic product where name="Windows Firewall Configuration Provider" call uninstall<br>
+    wmic product where name="Windows Intune Center" call uninstall<br>
+    wmic product where name="Windows Online Management Update Manager" call uninstall<br>
+    wmic product where name="Windows Online Management Agent Installer" call uninstall<br>
+    wmic product where name="Windows Intune" call uninstall
+    ```
+
+> [!TIP]
+> 클라이언트 등록을 취소하면 영향을 받는 클라이언트에 대한 부실 서버 쪽 레코드가 남게 됩니다. 등록 취소 프로세스는 비동기이며, 제거할 에이전트가 9개 있으므로 완료하는 데 최대 30분이 걸릴 수 있습니다.
+
+### <a name="check-the-unenrollment-status"></a>등록 취소 상태 확인
+
+"%ProgramFiles%\Microsoft\OnlineManagement"를 검사하고 다음 디렉터리만 왼쪽에 표시되는지 확인합니다.
+
+- AgentInstaller
+- 로그
+- 업데이트
+- 공용 
+
+### <a name="remove-the-onlinemanagement-folder"></a>OnlineManagement 폴더 제거
+
+등록 취소 프로세스는 OnlineManagement 폴더를 제거하지 않습니다. 제거 후 30분 정도 기다린 후 이 명령을 실행합니다. 너무 빨리 실행하면 제거가 알 수 없는 상태로 남을 수 있습니다. 폴더를 제거하려면 관리자 권한 프롬프트를 시작하고 다음을 실행합니다.
+
+    ```
+    "rd /s /q %ProgramFiles%\Microsoft\OnlineManagement".
+    ```
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune으로 Windows PC 관리](manage-windows-pcs-with-microsoft-intune.md)
 [클라이언트 설정 문제 해결](../troubleshoot/troubleshoot-client-setup-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

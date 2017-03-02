@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/15/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 9deaed87-fb4b-4689-ba88-067bc61686d7
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 938129f210d1a4a6b4719deb63d1dc47dad21b29
-ms.openlocfilehash: e36ecf949bf9a604c29de2f21a3761125eb60f7f
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: e48ef79726c542da210e167707c4ca044a7cdd51
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="how-to-monitor-device-profiles-with-intune-azure-preview"></a>Intune Azure 미리 보기를 사용하여 장치 프로필을 모니터링하는 방법
+# <a name="how-to-monitor-device-profiles-in-microsoft-intune"></a>Microsoft Intune에서 장치 프로필을 모니터링하는 방법
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -34,9 +35,4 @@ ms.openlocfilehash: e36ecf949bf9a604c29de2f21a3761125eb60f7f
 2. 프로필 목록 블레이드에서 관리할 프로필을 선택하고 다음 중 하나를 수행합니다.
     - <*프로필 이름*> **보고서** 블레이드에서 **개요**를 선택하여 프로필과 해당 할당에 대한 기본 정보를 확인합니다.
     - <*프로필 이름*> **보고서** 블레이드에서 **보고서**를 선택하여 프로필과 해당 할당에 대한 자세한 정보를 확인합니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

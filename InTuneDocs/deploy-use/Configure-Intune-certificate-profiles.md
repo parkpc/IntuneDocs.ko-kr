@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 679a20a1-e66f-4b6b-bd8f-896daf1f8175
 ms.reviewer: kmyrup
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: f5b5bc13a834cb5071ebf875f3c5512c564efe93
+ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
+ms.openlocfilehash: 70fba8f983efb245afc3fb19fa38287d1a84b1f4
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -157,9 +159,4 @@ Intune용 기타 정책을 배포하는 것과 같은 방식으로 인증서 프
 -  [메일 프로필을 사용하여 회사 메일에 대한 액세스 구성](configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md)
 -  [Microsoft Intune에서 Wi-Fi 연결](wi-fi-connections-in-microsoft-intune.md)
 -  [Microsoft Intune에서 VPN 연결](vpn-connections-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

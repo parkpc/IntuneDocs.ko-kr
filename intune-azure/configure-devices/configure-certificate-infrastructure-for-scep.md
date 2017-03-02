@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/19/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,12 @@ ms.assetid: d567d85f-e4ee-458e-bef7-6e275467efce
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4a02b320498b3094db1e07ed3d1dab82e4d9effa
-ms.openlocfilehash: e3df68aee2a1584063f77429c828b0fd31103920
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 86f493e0ffd2a96ac4cfdfe6d8719f56532ed77c
+ms.lasthandoff: 02/16/2017
 
 ---
-# <a name="configure-certificate-infrastructure-for-scep-in-intune-azure-preview"></a>Intune Azure 미리 보기에서 SCEP에 대한 인증서 인프라 구성
+# <a name="configure-certificate-infrastructure-for-scep-in-microsoft-intune"></a>Microsoft Intune의 SCEP에 대한 인증서 인프라 구성
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
 이 항목에서는 SCEP 인증서 프로필을 만들고 배포하기 위해 필요한 인프라를 설명합니다.
@@ -348,9 +349,4 @@ NDES 서버에서 인증서 커넥터 다운로드, 설치 및 구성
 
 ## <a name="next-steps"></a>다음 단계
 이제 [인증서 프로필 구성](how-to-configure-certificates.md)에 설명된 대로 인증서 프로필을 구성할 준비가 되었습니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

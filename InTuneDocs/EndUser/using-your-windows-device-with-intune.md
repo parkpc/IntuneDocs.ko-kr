@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 02/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,54 +16,33 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 8611566f5f5d33b7f0937fabd15892353953df77
-ms.openlocfilehash: a3433e1976063513ee836189738ff02d85d40044
+ms.sourcegitcommit: 2cb089cc9b6e76e13b2f5da65efb3452aa5274af
+ms.openlocfilehash: e3993c97475b699da90a0634bdb3ac1ba4f5a28c
+ms.lasthandoff: 02/24/2017
 
 
 ---
 
 # <a name="using-your-windows-device-with-intune"></a>Intune에서 Windows 장치 사용
 
-이 문서에는 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 태스크에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 태스크 수행을 위해 사용자가 따라야 하는 단계를 확인할 수 있습니다. 이러한 태스크는 다음과 같은 범주로 그룹화됩니다.
-- 회사 포털 앱을 설치 및 Intune 등록
-- 등록 후 관리 작업
-- 규정 준수 문제
+편리한 업무를 위해 Intune에서 다양한 작업을 수행할 수 있습니다. 다음은 회사에서 요청될 수 있는 가장 일반적인 작업 목록입니다.
 
-## <a name="company-portal-app-installation-and-intune-enrollment"></a>회사 포털 앱을 설치 및 Intune 등록
-
-이 섹션에서는 사용자의 Intune 회사 포털 설치 및 Windows 장치 등록에 도움이 되는 정보를 제공합니다.
+## <a name="enrolling-into-intune-and-installing-the-company-portal"></a>Intune에 등록하고 회사 포털 설치
 
 - [Intune에서 Windows 장치 등록](enroll-your-device-in-intune-windows.md)
 - [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
-- [Intune에서 장치를 등록하면 IT 관리자에게 무엇이 표시되나요?](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)
+- [Intune에서 장치를 등록하면 회사에 어떤 정보가 표시되나요?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
+- [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-device-cpwebsite.md)
 
-## <a name="things-users-can-do-when-their-device-is-enrolled-in-intune"></a>장치가 Intune에 등록되어 있는 경우 사용자가 수행할 수 있는 작업
-
-이 섹션에서는 사용자가 Intune에서 Windows 장치를 등록한 후에 수행할 수 있는 작업에 도움이 되는 정보를 제공합니다.
+## <a name="things-you-can-do-when-your-device-is-enrolled-in-intune"></a>장치가 Intune에 등록되어 있는 경우 수행할 수 있는 작업
 
 - [장치 암호화](encrypt-your-device-windows.md)
 - [암호 설정 또는 변경](set-or-change-your-password-windows.md)
-- [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-lost-or-stolen-device-windows.md)
 - [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-windows.md)
 - [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-windows.md)
 - [회사 포털을 사용하여 장치를 재설정하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-windows.md)
 - [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-windows.md)
 - [수동으로 장치 동기화](sync-your-device-manually-windows.md)
-
-## <a name="steps-to-fix-device-and-compliance-issues"></a>장치 및 준수 문제 해결 단계
-
-이 섹션에서는 사용자가 Intune에서 Windows 장치를 등록할 때 발생할 수 있는 문제를 해결하는 데 도움이 되는 정보를 제공합니다.
-
-- [장치에 필요한 최소 운영 체제 버전이 없는 경우](you-need-to-update-your-windows-device.md)
-- [장치가 최대 운영 체제 버전에 부합되지 않는 경우](your-windows-version-isnt-yet-supported.md)
-- [장치에서 BitLocker가 사용되지 않는 경우](you-need-to-enable-windows-encryption.md)
-- [장치에서 맬웨어 방지 프로그램이 사용되지 않는 경우](your-device-needs-antimalware-software.md)
-- [장치에서 보안 부팅이 사용되지 않는 경우](you-need-to-enable-secure-boot-windows.md)
-- [장치에서 코드 무결성이 사용되지 않는 경우](you-need-to-enable-code-integrity.md)
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

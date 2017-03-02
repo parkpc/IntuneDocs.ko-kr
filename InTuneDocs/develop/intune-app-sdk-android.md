@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: oydang
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b068da7685792757825a4bc0d555e28ee0168cb1
-ms.openlocfilehash: ddfd4e8a23f1a7e20230c188ac8203a11e48c4a6
+ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
+ms.openlocfilehash: 178fbaeb1d3235a81cb4da49b7a955f6999c49a2
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -350,7 +352,7 @@ Android는 앱의 대상 API에 관계없이 Android Marshmallow 장치의 앱�
 
 ####### <a name="full-backup-according-to-a-configuration-file"></a>구성 파일에 따라 전체 백업
 
-매니페스트의 `com.microsoft.intune.mam.FullBackupContent` 메타데이터 태그 아래에 리소스를 제공합니다.      `<meta-data android:name="com.microsoft.intune.mam.FullBackupContent" android:resource="@xml/my_scheme" />`
+매니페스트의 `com.microsoft.intune.mam.FullBackupContent` 메타데이터 태그 아래에 리소스를 제공합니다.     `<meta-data android:name="com.microsoft.intune.mam.FullBackupContent" android:resource="@xml/my_scheme" />`
 
 `<application>` 태그에 `android:fullBackupContent="@xml/my_scheme"` 특성을 추가합니다. 여기서 `my_scheme`은 앱의 XML 리소스입니다.
 
@@ -677,7 +679,7 @@ public final class MAMDataProtectionManager {
      * @param input
      *            Input stream to get information on. Either this input
  *            stream must have been returned by a previous call to
-     *            protect OR input.markSupported() must return true.
+      *            protect OR input.markSupported() must return true.
  *            Otherwise it will be impossible to get protection info
  *            without advancing the stream position. The stream must be
  *            positioned at the beginning of the protected data.
@@ -752,9 +754,4 @@ Intune SDK는 Android API에서 제공되는 계약을 유지하지만, 정책 �
 * 파생된 함수는 상위 클래스 버전을 통해 호출해야 합니다.
 
 * API를 모호한 방식으로 사용해서는 안 됩니다. 예를 들어 `requestCode` 확인 없이 `Activity.startActivityForResult/onActivityResult`를 사용하면 비정상적인 동작이 발생합니다.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

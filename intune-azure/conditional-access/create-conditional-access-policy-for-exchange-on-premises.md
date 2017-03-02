@@ -1,5 +1,6 @@
 ---
-title: "Exchange 온-프레미스 조건부 액세스 정책 | Intune Azure 미리 보기 | Microsoft 문서"
+title: "Exchange 온-프레미스 조건부 액세스 정책"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune에서 Exchange 온-프레미스 조건부 액세스 및 기존 Exchange Online Dedicated를 구성하는 방법"
 keywords: 
 author: andredm7
@@ -12,9 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 581f9be824ea883fd0208abc3b2ecc09174cb911
-ms.openlocfilehash: a80d6a19948291cc80e42ad5a9a2f016effb2f37
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: a9edd882e2cf0fb7abf50002e9f1e8dfd5634fe1
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -96,9 +99,4 @@ Windows 8.1 이상에 설치된 **메일** 응용 프로그램(Intune에 등록�
   - 액세스를 차단하도록 설정하면 모든 장치에서 초기에 Exchange 온-프레미스에 대한 액세스가 즉시 차단됩니다.  **그룹 포함됨**의 사용자에게 속한 장치는 Intune에 등록되고 준수하는 것으로 평가되는 경우 액세스 권한이 부여됩니다. Samsung KNOX Standard를 실행하지 않는 Android 장치는 이 설정을 지원하지 않으므로 항상 차단됩니다.
 10. **장치 플랫폼 예외** 아래에서 **추가**를 선택하여 플랫폼을 지정합니다. **관리되지 않는 장치 액세스** 설정이 **차단됨**으로 설정된 경우 등록 및 호환되는 장치는 차단에 대한 플랫폼 예외가 있는 경우에도 허용됩니다. **확인**을 선택하여 설정을 저장합니다.
 11. **온-프레미스** 블레이드에서 **저장**을 클릭하여 조건부 액세스 정책을 저장합니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

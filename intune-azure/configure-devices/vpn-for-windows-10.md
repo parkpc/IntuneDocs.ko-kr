@@ -1,5 +1,6 @@
 ---
-title: "Windows 10 장치에 대한 Intune VPN 설정 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Windows 10 장치에 대한 Intune VPN 설정"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Windows 10 장치에서 VPN 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 495e4ed6-b2ef-47cc-a110-13fa9b5f85a6
 ms.reviewer: karanda
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 7f09fa9bb8a9817aaad40c6452cff2a866a926d9
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 87004408ddcb07571507f68d5b9925b7e475282a
+ms.lasthandoff: 02/18/2017
 
 
 ---

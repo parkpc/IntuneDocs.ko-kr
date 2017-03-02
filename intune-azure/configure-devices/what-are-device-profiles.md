@@ -1,5 +1,6 @@
 ---
-title: "Microsoft Intune에서 장치 프로필이란? | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Microsoft Intune에서 장치 프로필이란?"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune 장치 프로필과 이를 통해 회사에서 장치를 관리 및 보호하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 
 ms.reviewer: 
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: a5f6ad4dd5339b31a6a1fd549a3b29b0ff258a5b
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: eb48265e4655117976c9847b1f5bee712f0c2e3c
+ms.lasthandoff: 02/18/2017
 
 
 ---

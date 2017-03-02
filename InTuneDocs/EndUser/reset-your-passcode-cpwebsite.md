@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 02/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,8 +18,9 @@ ms.reviewer: mamoriss
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
-ms.openlocfilehash: a8ce59755a74199eda6865feda68c0613d10c2a7
+ms.sourcegitcommit: f293901d3865f0b10ed876e83b151cf59a046cba
+ms.openlocfilehash: 68725bb63ae2750e89a03c16027f8b4fd9111255
+ms.lasthandoff: 02/24/2017
 
 
 ---
@@ -33,21 +34,26 @@ Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [�
 
 암호를 재설정하려면
 
-1.  [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 열고 암호를 재설정하려는 장치를 선택합니다.
+1.    [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에서 __메뉴__ 단추 ![세 개의 가로 막대가 병렬로 누적된 메뉴 단추의 작은 이미지](/Intune/whats-new/media/CP_hamburger_menu.png)를 탭한 다음 __내 장치__를 선택합니다.
 
-2.  **암호 초기화**를 선택합니다.
+2. __내 장치__ 페이지에서 암호를 다시 설정할 장치의 이름을 선택합니다.
 
-    ![암호 재설정 단추가 있는 장치 세부 정보](./media/iwp-screen-with-all-options.png)
+  ![목록에 없는 장치를 등록하거나 식별되지 않은 장치를 식별하라는 배너 프롬프트 위에 몇 개의 식별되지 않은 장치가 표시된 내 장치 페이지의 스크린샷](./media/macOS_enroll_002_tap_here_banner.png)
 
-3.  **로그아웃**을 선택하고 회사 또는 학교 자격 증명을 사용하여 다시 로그인합니다. 5분 내에 다시 로그인해야 합니다.
+3.    장치가 팝업 창에서 열립니다. **암호 다시 설정** 단추를 선택합니다.
 
-    ![로그아웃 단추가 있는 재설정 메시지](./media/iwp-2-sign-out.png)
+    ![이름 바꾸기, 제거, 장치 다시 설정, 암호 다시 설정, 원격 잠금 등 회사 포털 웹 사이트에서 선택한 장치에 대한 모든 옵션 ](./media/iwp-screen-with-all-options.png)
 
-4.  **암호 초기화**를 선택합니다.
+4.  암호를 다시 설정할 것인지 확인하고 그 후에 장치에서 로그아웃됨을 확인하는 배너가 표시됩니다. 다시 로그인하기 전에 5분 정도 기다려야 합니다.
 
-    ![암호를 재설정할 때 나타나는 결과를 설명하는 메시지](./media/iwp-3-tap-reset-passcode-after-signin.png)
+  ![장치 암호 다시 설정 및 사용자가 로그아웃되는 방식에 대한 경고가 포함된 암호 다시 설정 배너 사용자 입력 단추는 로그아웃 및 취소입니다.](./media/iwp-reset-passcode-popup.png)
 
-    장치에서 **암호 재설정**이 작동하는 방식을 보려면 표를 확인하세요.
+4.  **로그아웃**을 선택하면 장치에서 암호가 제거됨을 알려주는 최종 메시지를 받게 됩니다. 장치를 갖고 있지 않으면 장치에 대한 물리적 액세스 권한이 있는 누구든지 대부분의 정보(개인 또는 회사)에 액세스할 수 있으므로 암호를 제거하지 마세요.
+
+  ![장치 암호 다시 설정 및 암호가 장치에서 제거되는 방식에 대한 경고가 포함된 두 번째 암호 다시 설정 배너 또한 장치 설정으로 이동하여 새 암호를 설정하는 방법을 알려줍니다.](./media/iwp-reset-passcode-2nd-popup.png)
+
+
+장치마다 다른 유형의 암호가 있으므로 아래 표에서 암호 다시 설정이 특정 장치에 미치는 영향을 확인할 수 있습니다. 
 
     |장치 유형|다시 설정하는 경우 어떻게 되나요?|
     |------------|-----------|
@@ -61,9 +67,4 @@ Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [�
     암호가 재설정되었는지 확인하는 알림을 보려면 회사 포털 웹 사이트의 오른쪽 맨 위에 있는 알림 플래그를 클릭합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

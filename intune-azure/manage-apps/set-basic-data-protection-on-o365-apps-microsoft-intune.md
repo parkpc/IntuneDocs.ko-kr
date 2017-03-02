@@ -1,5 +1,6 @@
 ---
-title: "Office 365 앱에서 기본 데이터 관리 설정 - Intune Azure 미리 보기 | Microsoft 문서"
+title: "Office 365 앱에서 기본 데이터 관리 설정 - Intune Azure 미리 보기"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Office 365 앱 관리 마법사에 대한 보충 설명서입니다."
 keywords: 
 author: lindavr
@@ -14,9 +15,11 @@ ms.assetid: 852612ac-f146-4372-a900-3f6fdebd05ad
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: ayesham
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4c45b7fc8a520d869f21717fea36e27b242cf39
-ms.openlocfilehash: 7cff88f0365cff1de133fdafdce2bd45b36d551e
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: e3924cb3409ab03f8070376c2248a2791a1e713d
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -130,9 +133,4 @@ Android에서 Intune MAM 정책과 연결된 앱의 경우 데이터는 파일 I
 
 ## <a name="next-steps"></a>다음 단계
 [앱 보호 정책](https://docs.microsoft.com/intune-azure/manage-apps/what-is-app-protection-policy)에 대해 자세히 알아봅니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

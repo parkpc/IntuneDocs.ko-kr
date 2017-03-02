@@ -1,5 +1,6 @@
 ---
-title: "30일 무료 평가판 등록 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "30일 무료 평가판 등록"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Azure에서 Intune에 등록하는 방법입니다."
 keywords: 
 author: lindavr
@@ -12,9 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 195931c0-8208-43bd-b0af-b1f8e469a32c
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: cd98141b4b377f0013607f2a2ebb93a93cd7f0ce
-ms.openlocfilehash: ce69e7efbee286839a1bf3440db692bd237b0e06
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 29b33341b136c8e8d76b666f94a9f620212944c5
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -144,9 +147,4 @@ Intune에서 Azure Active Directory 사용자 계정을 사용하는 방법을 �
 - [다단계 인증 요구 사항](https://docs.microsoft.com/en-us/active-directory/active-directory-hybrid-identity-design-considerations-multifactor-auth-requirements)
 
 [System Center Configuration Manager와 함께 Intune](https://docs.microsoft.com/en-us/sccm/mdm/understand/hybrid-mobile-device-management)를 사용하는 방법에 대해 자세히 알아보기
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

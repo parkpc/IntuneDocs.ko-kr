@@ -16,9 +16,11 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 30695011befb8c590bbd90656843e38638759443
-ms.openlocfilehash: 148660008fbe0eeea3ee9f7d9490443f60abbf0c
+ms.sourcegitcommit: 4b5f0129d6824a51c36662a1cc7ef4e8a2de9e20
+ms.openlocfilehash: a35fa4ed88f1cb0e0e4e96b26bb76c009a25e436
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -41,9 +43,4 @@ ms.openlocfilehash: 148660008fbe0eeea3ee9f7d9490443f60abbf0c
 로드 중인 막대가 화면에 나타나며 동기화를 마칠 때까지 표시됩니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

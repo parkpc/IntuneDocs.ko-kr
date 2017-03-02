@@ -12,9 +12,11 @@ ms.technology:
 ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 115eae8e2d733397eb4b0f025789ca7d0522a845
-ms.openlocfilehash: 5dc90c1e1ddba91fe8bbb4530eb09bca0c9e3ac9
+ms.sourcegitcommit: 6b99854e17e00a0dd0f91fa82fd1b79d1dfe5663
+ms.openlocfilehash: 6277f82483eb8fb7f5a4e4a832a909490ba0050c
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -45,7 +47,9 @@ MDM(모바일 장치 관리)을 아직 준비하지 않은 경우 [모바일 장
 2. **CNAME 만들기**(선택 사항)<br>
 회사의 도메인에 대한 **CNAME** DNS 리소스 레코드를 만들어야 합니다. 예를 들어, 회사의 웹 사이트가 contoso.com인 경우 DNS에 EnterpriseEnrollment.contoso.com을 enterpriseenrollment-s.manage.microsoft.com으로 리디렉션하는 CNAME을 만듭니다.
 
-    CNAME DNS 항목을 만드는 것은 선택 사항이지만 CNAME 레코드를 사용하면 사용자가 보다 쉽게 등록할 수 있습니다. 등록 CNAME 레코드가 없으면 사용자에게 MDM 서버 이름인 enrollment.manage.microsoft.com을 수동으로 입력하라는 메시지가 표시됩니다.    
+
+    CNAME DNS 항목은 선택 사항이지만 CNAME 레코드를 통해 보다 쉽게 등록할 수 있습니다. 등록 CNAME 레코드가 없으면 사용자에게 MDM 서버 이름인 https://enrollment.manage.microsoft.com을 수동으로 입력하라는 메시지가 표시됩니다.
+
 
     CNAME 리소스 레코드에는 다음 정보가 포함되어야 합니다.
 
@@ -70,12 +74,9 @@ MDM(모바일 장치 관리)을 아직 준비하지 않은 경우 [모바일 장
 
     최종 사용자 작업에 대한 자세한 내용은 [Microsoft Intune에서 최종 사용자 환경 관련 리소스](https://docs.microsoft.com/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune)를 참조하세요.
 
+최종 사용자 작업에 대한 자세한 내용은       - [Microsoft Intune에서 최종 사용자 환경 관련 리소스](how-to-educate-your-end-users-about-microsoft-intune.md)
+      - [Windows 장치에 대한 최종 사용자 지침](../enduser/using-your-windows-device-with-intune.md) 문서를 참조하세요.
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune에서 장치 등록을 위한 필수 구성 요소](prerequisites-for-enrollment.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

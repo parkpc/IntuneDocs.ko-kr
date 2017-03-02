@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/15/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 938129f210d1a4a6b4719deb63d1dc47dad21b29
-ms.openlocfilehash: 331299dc1e5cae4b789ce43400dc9daaa4fb5351
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: aeed271699656addce8f2bd8cde2a69ab8ede8f9
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="use-an-intune-custom-profile-to-create-a-per-app-vpn-profile-for-android-devices-in-intune-azure-preview"></a>Intune Azure 미리 보기에서 Intune 사용자 지정 프로필을 사용하여 Android 장치에 대한 앱별 VPN 프로필을 만듭니다.
+# <a name="use-a-microsoft-intune-custom-profile-to-create-a-per-app-vpn-profile-for-android-devices"></a>Microsoft Intune 사용자 지정 프로필을 사용하여 Android 장치에 대한 앱별 VPN 프로필 만들기
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -81,9 +82,4 @@ Android 장치 또는 사용자 그룹에 정책을 배포한 후에 사용자�
 ## <a name="step-3-assign-both-policies"></a>3단계: 두 정책 모두 할당
 
 [장치 프로필을 할당하는 방법](how-to-assign-device-profiles.md)의 지침을 사용하여 필요한 사용자 또는 장치에 두 프로필을 모두 할당합니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

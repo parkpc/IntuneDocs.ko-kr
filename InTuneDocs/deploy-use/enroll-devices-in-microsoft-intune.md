@@ -2,10 +2,10 @@
 title: "장치 등록 | Microsoft 문서"
 description: "MDM(모바일 장치 관리)에서는 등록을 사용하여 장치를 관리하고 리소스에 대한 액세스를 허용합니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 01/26/2017
+ms.date: 02/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 39f7de3a94b813cbd7b353cd319ecc54fcbf8694
-ms.openlocfilehash: 483fd327be25a1cb08e5295d72a27987ab018062
+ms.sourcegitcommit: 2ed76d2905042f299022f1625ce7215c6834ad3f
+ms.openlocfilehash: d1b24b745fe1e860e42fa23647976aadea1953cd
+ms.lasthandoff: 02/21/2017
 
 
 ---
@@ -37,7 +38,7 @@ Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같�
 
 - **초기화** -장치를 등록하려면 먼저 초기화를 해야 하는지 여부를 나타냅니다. "초기화"라는 용어는 모든 데이터를 제거하는 장치의 공장 기본 설정을 의미합니다. 자세한 내용은 [장치 사용 중지](retire-devices-from-microsoft-intune-management.md).
 - **선호도** - 사용자와 장치를 연결합니다. MAM(모바일 응용 프로그램 관리)과 회사 데이터에 대한 조건부 액세스에는 필수입니다. 자세한 내용은 [사용자 선호도](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#use-the-company-portal-on-dep-enrolled-or-apple-configurator-enrolled-devices)를 참조하세요.
-- **잠금** - 사용자가 관리에서 장치 등록을 취소할 수 없는지를 나타냅니다. 사용자는 회사 포털 앱을 사용하여 모든 플랫폼에서 장치 등록을 취소할 수 있습니다. 등록을 취소하기 위해 네이티브 운영 체제 메뉴를 사용할 수 없습니다. 
+- **잠금** - 사용자가 네이티브 운영 체제 메뉴를 사용하여 장치 등록을 취소할 수 없는지 여부를 나타냅니다. 사용자는 회사 포털 앱을 사용하여 모든 플랫폼에서 장치 등록을 취소할 수 있습니다. 
 
 **iOS 등록 방법**
 
@@ -130,9 +131,4 @@ Intune은 다음 장치 플랫폼을 관리할 수 있습니다.
 - [장치 등록을 위한 필수 조건](prerequisites-for-enrollment.md)
 - [회사 소유 장치 관리](manage-corporate-owned-devices.md)
 - [지원되는 모바일 장치 및 컴퓨터](../get-started/supported-mobile-devices-and-computers.md)
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

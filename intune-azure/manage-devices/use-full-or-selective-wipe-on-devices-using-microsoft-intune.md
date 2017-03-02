@@ -1,5 +1,6 @@
 ---
-title: "Intune을 사용하여 장치에서 전체 또는 선택적 초기화 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Intune을 사용하여 장치에서 전체 또는 선택적 초기화"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 장치에서 회사 데이터의 선택적 초기화를 수행하거나, 전체 초기화를 수행하여 공장 기본 설정으로 복원하는 방법을 알아봅니다."
 keywords: 
 author: staciebarker
@@ -12,9 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 990062ecf03a117dad74eb71e3f40abb79f22be6
-ms.openlocfilehash: 9188f4bb4ea526227ccd9f2029fc9b44cbd4a334
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 22e188e81f2bc278045bb0988642b1b68372d6af
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -122,9 +125,4 @@ Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정�
 3.  장치 이름이 표시된 블레이드에서 **회사 데이터 제거**를 선택한 다음 **예**를 선택하여 초기화를 확인합니다.
 
 장치가 켜져 있고 연결되어 있는 경우 초기화 명령이 모든 장치 유형에서 전파되는 데 15분 미만이 걸립니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

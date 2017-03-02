@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,12 +14,13 @@ ms.assetid: dc349e22-9e1c-42ba-9e70-fb2ef980ef7a
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 424fae862592c1ab5b4221fb5ad40a52c39f6760
-ms.openlocfilehash: 145f27e44d57e0f5ff7bbed76e14db713dd75286
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 638ad0d87c19c9e40e96b42d18e5c4342f40a156
+ms.lasthandoff: 02/16/2017
 
 ---
 
-# <a name="how-to-assign-apps-to-groups"></a>그룹에 앱을 할당하는 방법
+# <a name="how-to-assign-apps-to-groups-with-microsoft-intune"></a>Microsoft intune을 사용하여 그룹에 앱을 할당하는 방법
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -62,9 +63,4 @@ Intune에서 관리되는지 여부에 상관없이 장치에 앱을 할당할 �
 이제 선택한 그룹에 앱이 할당됩니다.
 
 앱 할당을 모니터링하는 데 유용한 정보는 [앱을 모니터링하는 방법](monitor-apps.md)을 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

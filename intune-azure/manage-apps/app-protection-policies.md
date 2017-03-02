@@ -1,5 +1,6 @@
 ---
-title: "앱 보호 정책 만들기 및 배포 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "앱 보호 정책 만들기 및 배포"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune 앱 보호 정책을 통해 관리하는 앱에서 사용되는 회사 데이터를 보호하는 방법을 알아봅니다."
 keywords: 
 author: NathBarn
@@ -13,9 +14,11 @@ ms.technology:
 ms.assetid: f31b2964-e932-4cee-95c4-8d5506966c85
 ms.reviewer: joglocke
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 424fae862592c1ab5b4221fb5ad40a52c39f6760
-ms.openlocfilehash: 5112c6641577f3faefb85650dd06bd1634542019
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 607598812a414843f1f33a00670a6a85b6687878
+ms.lasthandoff: 02/18/2017
 
 ---
 
@@ -122,9 +125,4 @@ iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 중
 ### <a name="see-also"></a>참고 항목
 * [Android 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](app-protection-enabled-android-apps.md)
 * [iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](app-protection-enabled-ios-apps.md)
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

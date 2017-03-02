@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 68100ea5-7d9b-4c0b-8df7-b9a24b2442c8
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5ab494a3dd1e1bdea9703ab314574b192c5208ee
-ms.openlocfilehash: 113572430f0ef82c9a6fa533e3d6fc17b86119cb
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 13648aa35057201ac7420e2f1d334aee206605fe
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="custom-settings-for-macos-devices-in-intune-azure-preview"></a>Intune Azure 미리 보기의 macOS 장치에 대한 사용자 지정 설정
+# <a name="custom-settings-for-macos-devices-in-microsoft-intune"></a>Microsoft Intune의 macOS 장치에 대한 사용자 지정 설정
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -37,9 +38,4 @@ ms.openlocfilehash: 113572430f0ef82c9a6fa533e3d6fc17b86119cb
 Apple Configurator 도구에서 내보내는 설정이 macOS 사용자 지정 정책을 배포하는 장치에 있는 macOS의 버전과 호환되는지 확인합니다. 호환되지 않는 설정을 해결하는 방법에 대한 정보를 보려면 [Apple 개발자](https://developer.apple.com/) 웹 사이트에서 **구성 프로필 참조** 및 **모바일 장치 관리 프로토콜 참조**를 검색하세요.
 
 가져온 파일은 블레이드의 **파일 내용** 영역에 표시됩니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

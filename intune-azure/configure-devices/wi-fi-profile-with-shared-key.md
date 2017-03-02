@@ -1,5 +1,6 @@
 ---
-title: "미리 공유한 키를 사용하여 Wi-Fi 프로필 만들기 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "미리 공유한 키를 사용하여 Wi-Fi 프로필 만들기"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune 사용자 지정 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만듭니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
 ms.reviewer: karanda
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 009fa0f9ab097d57389f96d2d86a88b0811fef4e
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 174e919a2980ca2cf0e97cc41f5b048183a9d4a7
+ms.lasthandoff: 02/18/2017
 
 
 

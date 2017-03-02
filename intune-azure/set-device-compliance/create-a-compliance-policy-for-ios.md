@@ -1,5 +1,6 @@
 ---
-title: "iOS에 대한 준수 정책을 만드는 방법 | Intune Azure 미리 보기 | Microsoft 문서"
+title: "iOS에 대한 준수 정책을 만드는 방법"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: iOS 장치에 대한 준수 정책을 만드는 방법을 알아봅니다."
 keywords: 
 author: andredm7
@@ -13,9 +14,11 @@ ms.technology:
 ms.assetid: 3cfb8222-d05b-49e3-ae6f-36ce1a16c61d
 ms.reviewer: muhosabe
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 7693d49e2f0fa6e4aa40b6bb71433a7eaab8dd15
-ms.openlocfilehash: 334b22bedd0d08bb2294984b2ce5255029857700
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: c2ace3061e175a6eefd864bdda176651cc09a5b1
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -120,9 +123,4 @@ iOS 장치의 경우 이 설정은 암호에 포함해야 하는 특수 문자(�
 <!--- ## Next steps
 
 [How to monitor device compliance](monitor-device-compliance.md)--->
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

@@ -1,5 +1,6 @@
 ---
-title: "온-프레미스 EAS용 Exchange Connector | Intune Azure 미리 보기 | Microsoft Docs"
+title: "온-프레미스 EAS용 Exchange Connector"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Exchange ActiveSync MDM - Connector 도구를 사용하여 Intune 관리 콘솔과 온-프레미스 Exchange Server 간 통신을 설정합니다."
 keywords: 
 author: andredm7
@@ -13,9 +14,11 @@ ms.technology:
 ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 2871136fc15f945fe5b757a6e4364d3980832e37
-ms.openlocfilehash: 92e4a15630c70ac80dd07684baafbbd15cd2f38c
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: d112f453302361ac95eb2c44d7440a72d212cc4a
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -133,9 +136,4 @@ Exchange Connector를 성공적으로 구성한 후 연결 상태 및 마지막�
 
 ## <a name="next-steps"></a>다음 단계
 [Exchange 온-프레미스에 대해 조건부 액세스 정책 만들기](create-conditional-access-policy-for-exchange-on-premises.md)
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

@@ -16,9 +16,11 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 9dd9a601f2e13a16157a43c28e77db6a6efd1619
-ms.openlocfilehash: 5584ec2d387830dcdcf6b06631996a0bade76014
+ms.sourcegitcommit: 4b5f0129d6824a51c36662a1cc7ef4e8a2de9e20
+ms.openlocfilehash: ff5a4313337c89da00cb87e0f4dd6c8dcc233361
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -27,7 +29,7 @@ ms.openlocfilehash: 5584ec2d387830dcdcf6b06631996a0bade76014
 
 때로 Windows 장치에 앱을 설치하는 것은 생각보다 시간이 오래 걸릴 수 있습니다. 이 경우에 Windows 장치를 수동으로 동기화할 수 있습니다. 동기화하면 설치 속도가 빨라집니다.
 
-> [!Note] 
+> [!Note]
 > 속도가 느리거나 동시에 콘텐츠를 다운로드하는 장치가 많은 네트워크에 있는 경우 앱 설치 시간이 조금 걸릴 수 있습니다.
 
 다음 버전의 Windows는 수동으로 동기화할 수 있습니다. 장치가 서로 다른 버전의 Windows를 사용하는 경우 수동 동기화를 시작할 수 없습니다.
@@ -131,9 +133,4 @@ Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계�
    장치 동기화를 마칠 때까지 “We’re synching your account(계정을 동기화 중입니다.)”라는 메시지가 화면 맨 위에 표시됩니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

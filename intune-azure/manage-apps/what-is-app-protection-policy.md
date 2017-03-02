@@ -1,5 +1,6 @@
 ---
-title: "앱 보호 정책이란? | Intune Azure 미리 보기 | Microsoft Docs"
+title: "앱 보호 정책이란?"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 이 항목에서는 Microsoft Intune 앱 보호 정책을 사용하여 회사 데이터를 보호하는 방법을 알아봅니다."
 keywords: 
 author: NathBarn
@@ -13,9 +14,11 @@ ms.technology:
 ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 424fae862592c1ab5b4221fb5ad40a52c39f6760
-ms.openlocfilehash: 34f5f17e581e8e146fccce6534202939d1418135
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: cb3342812a8b77f0b2ee8e2cdd1532ba6dfc651b
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -134,9 +137,4 @@ MDM 솔루션에 등록되지 않은 BYOD 장치의 경우 앱 보호 정책을 
 ##  <a name="next-steps"></a>다음 단계
 
 [Microsoft Intune으로 앱 보호 정책을 만들고 배포하는 방법](app-protection-policies.md)
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

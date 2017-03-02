@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/08/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: d98aceff-eb35-4e3e-8e40-5f300e7335cc
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 89afae81076d563f4ebba289f8fa82eaea6ab234
-ms.openlocfilehash: 6c6ac8112a6b6413df635607a24d0d06466c0b88
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 908169c47d9eaa583c775c8ed06acea233040e50
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="how-to-create-device-configuration-profiles"></a>장치 구성 프로필을 만드는 방법 
+# <a name="how-to-create-device-configuration-profiles-in-microsoft-intune"></a>Microsoft Intune에서 장치 구성 프로필을 만드는 방법
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -55,9 +56,4 @@ ms.openlocfilehash: 6c6ac8112a6b6413df635607a24d0d06466c0b88
 
 ### <a name="next-steps"></a>다음 단계
 장치 프로필을 할당하는 방법에 대한 자세한 내용은 [Microsoft Intune을 사용하여 장치 프로필을 할당하는 방법](/intune-azure/configure-devices/how-to-assign-device-profiles)을 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

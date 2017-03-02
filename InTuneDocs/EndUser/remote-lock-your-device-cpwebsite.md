@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/03/2017
+ms.date: 02/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,8 +18,9 @@ ms.reviewer: mamoriss
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 3bda44c401ae7cf5dd796486d2d1a6332828bed1
-ms.openlocfilehash: a888592c4bf4f71cba44cebadb5cf90d2cc9aef6
+ms.sourcegitcommit: 7f2bd282056b035b6f7008db4159d1e2f44953a5
+ms.openlocfilehash: 424d3deedbec2ba28d6c92d0ccd1cb8dc26845b4
+ms.lasthandoff: 02/24/2017
 
 
 ---
@@ -40,15 +41,21 @@ ms.openlocfilehash: a888592c4bf4f71cba44cebadb5cf90d2cc9aef6
 
 ## <a name="to-use-remote-lock-to-lock-your-device"></a>원격 잠금을 사용하여 장치를 잠그려면
 
-1.    [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에서 잠그려는 장치의 이름을 탭합니다.
+1.    [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에서 __메뉴__ 단추 ![세 개의 가로 막대가 병렬로 누적된 메뉴 단추의 작은 이미지](/Intune/whats-new/media/CP_hamburger_menu.png)를 탭한 다음 __내 장치__를 선택합니다.
 
-2.    **원격 잠금**을 탭합니다.
+  ![화면 왼쪽에 홈, 모든 앱, 내 장치, 기술 지원팀 및 로그 아웃 단추가 포함된 확장된 측면 메뉴가 있는 회사 포털 웹 사이트의 이미지](/media/iwp-expanded-sidebar.png)
 
-    ![remote-lock-option-on-company-portal-website](./media/iwp-screen-with-all-options.png)
+2. __내 장치__ 페이지에서 잠그려는 장치의 이름을 선택합니다.
 
-3.    장치를 잠그려고 한다는 알림이 표시됩니다. **원격 잠금**을 탭하면 회사 포털 웹 사이트에서 장치 잠금을 시도합니다.
+  ![목록에 없는 장치를 등록하거나 식별되지 않은 장치를 식별하라는 배너 프롬프트 위에 몇 개의 식별되지 않은 장치가 표시된 내 장치 페이지의 스크린샷](./media/macOS_enroll_002_tap_here_banner.png)
 
-    **원격 잠금**을 탭하고 나면 "원격 잠금 보류 중" 메시지가 표시됩니다.  원격 잠금에 성공하면 상태가 "원격 잠금 성공"으로 변경됩니다.
+3.    장치가 팝업 창에서 열립니다. **원격 잠금** 단추를 탭합니다.
+
+    ![이름 바꾸기, 제거, 장치 다시 설정, 암호 다시 설정, 원격 잠금 등 회사 포털 웹 사이트에서 선택한 장치에 대한 모든 옵션 ](./media/iwp-screen-with-all-options.png)
+
+4.    장치를 잠그려고 한다는 알림이 표시됩니다. **원격 잠금**을 탭하면 회사 포털 웹 사이트에서 장치 잠금을 시도합니다.
+
+    **원격 잠금**을 선택하면 "원격 잠금 보류 중" 메시지가 표시됩니다.  원격 잠금에 성공하면 상태가 "원격 잠금 성공"으로 변경됩니다.
 
     원격 잠금 상태는 다음 세 위치에 표시됩니다.
 
@@ -62,9 +69,4 @@ ms.openlocfilehash: a888592c4bf4f71cba44cebadb5cf90d2cc9aef6
 장치를 찾아 원격 잠금을 사용한 후 잠금을 해제하려면 암호를 입력하면 됩니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

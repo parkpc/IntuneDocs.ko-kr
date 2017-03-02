@@ -2,10 +2,10 @@
 title: "회사 소유의 iOS 장치 등록 | Microsoft 문서"
 description: "Apple DEP(장치 등록 프로그램) 또는 Apple Configurator를 사용하여 회사 소유 iOS 장치 등록"
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 01/29/2017
+ms.date: 02/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: adb2fd27d7f2b3f0ef4dce6b26fcb20d74b69a00
-ms.openlocfilehash: 03f5da3a819768ff8221257f091a000f18f00fb4
+ms.sourcegitcommit: 2ed76d2905042f299022f1625ce7215c6834ad3f
+ms.openlocfilehash: 7fcb910dfc566cdf7112a48558cda375ea1c39a8
+ms.lasthandoff: 02/21/2017
 
 
 ---
@@ -49,7 +50,7 @@ Microsoft Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http:/
 - **직접 등록**: 장치를 준비하는 동안 사용할 수 있도록 Apple Configurator 규격 파일을 만듭니다. 등록된 장치가 공장 기본 설정으로 복원되지 않았으나 사용자 정보가 없습니다. 이 방법을 사용하려면 관리자가 iOS 장치를 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하여 장치를 등록해야 합니다. 자세한 내용은 [Apple Configurator 직접 등록을 사용하여 iOS 장치 등록](ios-direct-enrollment-in-microsoft-intune.md)을 참조하세요.
 
 ## <a name="use-the-device-enrollment-program-dep"></a>DEP(장치 등록 프로그램) 사용
-DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배포합니다. 사용자가 장치에서 설정 도우미를 실행하는 경우 장치는 Intune에 등록됩니다.  DEP를 통해 등록된 장치는 사용자가 등록을 취소할 수 없습니다. 자세한 내용은 [장치 등록 프로그램 iOS 장치 등록](ios-device-enrollment-program-in-microsoft-intune.md)을 참조하세요.
+DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배포합니다. 사용자가 장치에서 설정 도우미를 실행하는 경우 장치는 Intune에 등록됩니다. 자세한 내용은 [장치 등록 프로그램 iOS 장치 등록](ios-device-enrollment-program-in-microsoft-intune.md)을 참조하세요.
 
 ## <a name="use-the-company-portal-on-dep-enrolled-or-apple-configurator-enrolled-devices"></a>DEP 또는 Apple Configurator에 등록된 장치에서 회사 포털 사용
 
@@ -91,9 +92,4 @@ DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배�
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune에서 장치 등록을 위한 필수 구성 요소](prerequisites-for-enrollment.md)
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 02/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,11 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: bb949c9a83fdde630dd2023765d32e98c43a1c20
-ms.openlocfilehash: 22a5cab46a6ca8cf2d350ba9844328a3dea13766
+ms.sourcegitcommit: 76001bd12e5f665eb1a5a0f0fe5442f0a6fedb8c
+ms.openlocfilehash: d653d3eb1d71d30e2bf1104b1d55bfbcf2725c13
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -26,23 +28,15 @@ ms.openlocfilehash: 22a5cab46a6ca8cf2d350ba9844328a3dea13766
 
 # <a name="using-your-android-device-with-intune"></a>Intune에서 Android 장치 사용
 
-이 문서에는 최종 사용자가 Intune 관리 장치에서 수행할 수 있는 모든 작업에 대한 링크가 포함되어 있습니다. IT 관리자는 이 정보를 참조하여 다양한 작업 수행을 위해 사용자가 진행해야 하는 단계를 확인할 수 있습니다. 이러한 작업은 다음과 같은 범주로 그룹화됩니다.
+편리한 업무를 위해 Intune에서 다양한 작업을 수행할 수 있습니다. 다음은 회사에서 요청될 수 있는 가장 일반적인 작업 목록입니다.
 
-- 회사 포털 앱을 설치 및 Intune 등록
-- 등록 후 관리 작업
-- 규정 준수 문제
-
-## <a name="company-portal-app-installation-and-intune-enrollment"></a>회사 포털 앱을 설치 및 Intune 등록
-
-이 섹션에서는 사용자의 Intune 회사 포털 설치 및 Android 장치 등록에 도움이 되는 정보를 제공합니다.
+## <a name="enrolling-into-intune-and-installing-the-company-portal"></a>Intune에 등록하고 회사 포털 설치
 
 - [Intune에서 장치 등록](enroll-your-device-in-Intune-android.md)
 - [회사 프로필을 만들고 Intune에서 장치 등록](create-a-work-profile-and-enroll-your-device-in-intune-android.md)
 - [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 
-## <a name="things-users-can-do-when-their-device-is-enrolled-in-intune"></a>장치가 Intune에 등록되어 있는 경우 사용자가 수행할 수 있는 작업
-
-이 섹션에서는 사용자가 Intune에서 Android 장치를 등록한 후에 수행할 수 있는 작업에 도움이 되는 정보를 제공합니다.
+## <a name="things-you-can-do-when-your-device-is-enrolled-in-intune"></a>장치가 Intune에 등록되어 있는 경우 수행할 수 있는 작업
 
 - [장치에서 관리되는 앱 사용](use-managed-apps-on-your-device-android.md)
 - [장치 암호화](encrypt-your-device-android.md)
@@ -56,28 +50,4 @@ ms.openlocfilehash: 22a5cab46a6ca8cf2d350ba9844328a3dea13766
 - [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-android.md)
 - [회사 포털 앱을 사용하여 Android 장치를 초기화하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
 <!--- - [What is the Rights Management sharing app?](what-is-the-rms-sharing-app-android.md) --->
-
-## <a name="steps-to-fix-device-and-compliance-issues"></a>장치 및 준수 문제 해결 단계
-
-이 섹션에서는 사용자가 Intune에서 Android 장치를 등록할 때 발생할 수 있는 문제를 해결하는 데 도움이 되는 정보를 제공합니다.
-
-- [자세한 정보 로깅을 사용하여 IT 관리자의 장치 문제 해결 돕기](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
-- [메일을 사용하여 IT 관리자에게 로그 보내기](send-logs-to-your-it-admin-by-email-android.md)
-- [USB 케이블을 사용하여 IT 관리자에게 로그 보내기](send-logs-to-your-it-admin-using-cable-android.md)
-- [IT 관리자에게 등록 오류 보내기](send-enrollment-errors-to-your-it-admin-android.md)
-- [장치에 필요한 최소 운영 체제 버전이 없는 경우](you-need-to-update-your-android-device.md)
-- [장치가 최대 운영 체제 버전에 부합되지 않는 경우](your-android-version-isnt-yet-supported.md)
-- [장치가 루팅되었으며 연결할 수 없는 경우](your-device-is-rooted-and-you-cant-connect-android.md)
-- [장치에 필요한 인증서가 없는 경우](your-device-is-missing-a-required-certificate-landing-android.md)
-- [출처를 알 수 없는 앱 옵션을 꺼야 함](you-need-to-turn-off-unknown-sources-android.md)
-- [USB 디버깅 옵션을 해제해야 함](you-need-to-turn-off-usb-debugging-android.md)
-- [보안 위협 검색 옵션을 켜야 함](you-need-to-turn-on-scanning-for-security-threats-android.md)
-- [장치가 최소 보안 패치를 충족하지 않는 경우](your-device-does-not-meet-the-minimum-security-patch-android.md)
-- [Android 장치에 Lookout for Work를 설치하라는 메시지가 표시됨](you-are-prompted-to-install-lookout-for-work-android.md)
-- [Android 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](you-need-to-resolve-a-threat-found-by-lookout-for-work-android.md)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

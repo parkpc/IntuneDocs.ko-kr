@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 02/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,30 +16,34 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 32bde9552e79d91dd967050b96cec62146367f9b
+ms.sourcegitcommit: 580ca62628981016c444b2992e792ecc4a5da442
+ms.openlocfilehash: 7afe4eca15c395806bcc800bc261d5e6b7ba5f0c
+ms.lasthandoff: 02/18/2017
 
 
 ---
 
 # <a name="enroll-your-windows-10-device-in-intune"></a>Intune에서 Windows 10 장치 등록
 
-1.  Windows **설정**으로 이동하여 **계정**을 탭합니다.
+1.  **시작 메뉴**로 이동한 다음 **설정** 단추를 선택하여 Windows **설정** 앱을 엽니다. 검색 표시줄에서 "설정"을 검색할 수도 있습니다.
+
+2. **계정**을 선택합니다.
 
     ![설정 및 계정으로 이동](./media/W10-enroll-1-settings-accounts.png)
 
-2.  **계정**을 탭합니다.
+3. **계정**을 선택합니다.
 
-    ![계정 탭하기](./media/W10-enroll-2-accounts-your-account.png)
+    ![계정 선택](./media/W10-enroll-2-accounts-your-account.png)
 
-3.  **회사 또는 학교 계정 추가**를 탭합니다.
+4. **회사 또는 학교 계정 추가**를 선택합니다.
 
-    ![회사 또는 학교 계정 추가 탭하기](./media/w10-enroll-3-add-work-school-acct.png)
+    ![회사 또는 학교 계정 추가 선택](./media/w10-enroll-3-add-work-school-acct.png)
 
-4.  회사 또는 학교 자격 증명으로 로그인합니다.
+5. 회사 또는 학교 자격 증명으로 로그인합니다.
 
-    ![sign-in](./media/W10-enroll-4-sign-in.png)
+    ![로그인](./media/W10-enroll-4-sign-in.png)
 
 회사 또는 학교 메일, 파일 또는 기타 데이터에 여전히 액세스할 수 없나요? [사용자 계정으로 문제 해결](troubleshoot-your-windows-10-device-windows.md#troubleshooting-steps-to-follow-if-you-see-your-account)을 시도하여 액세스 문제를 해결해 보세요. 여전히 작동하지 않으면 IT 관리자에게 연락하여 도움을 요청하세요.
 
@@ -47,16 +51,11 @@ IT 관리자에게서 쉽게 도움을 받는 방법은 회사 포털 앱에서 
 
 앱 목록에 회사 포털이 표시되지 않으면 다음 단계를 따라 설치합니다.
 
-1.  **시작** &gt; **스토어**를 탭합니다.
+1. **시작** > **저장소**를 선택합니다.
 
-2.  **검색**을 탭하고 **회사 포털**을 입력합니다.
+2. **검색**을 선택하고 **회사 포털**을 입력합니다.
 
-3.  결과 목록에서 **회사 포털** &gt; **설치**를 탭합니다.
+3. 결과 목록에서 **회사 포털** > **설치**를 선택합니다.
 
-4.  **설치** 또는 **무료** 중 하나를 탭합니다. 이 두 옵션 간에는 아무 차이가 없습니다. 표시되는 옵션은 조직이 회사 포털 앱을 어떻게 설정했는지에 따라 달라집니다.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
+4. **설치** 또는 **무료** 중 하나를 선택합니다. 이 두 옵션 간에는 아무 차이가 없습니다. 표시되는 옵션은 조직이 회사 포털 앱을 어떻게 설정했는지에 따라 달라집니다.
 

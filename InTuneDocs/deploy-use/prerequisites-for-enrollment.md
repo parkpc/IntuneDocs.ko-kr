@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 02/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 2b7fe00a2f3b289958aa77df5eaffd35de7c8c97
+ms.sourcegitcommit: e7beff3bf4579d9fb79f0c3f2fb8fbf9bb1ea160
+ms.openlocfilehash: fc97e1266c2e859104b21f3bf4ff24f33123f66a
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -51,8 +52,7 @@ Configuration Manager가 포함된 Intune을 찾고 있나요?
 MDM 기관은 일련의 장치를 관리할 권한을 가진 관리 서비스를 정의합니다. MDM 기관에 대한 옵션에는 Intune 자체 및 Intune을 사용하는 Configuration Manager가 포함됩니다. Configuration Manager를 관리 기관으로 설정한 경우 모바일 장치 관리에 다른 서비스를 사용할 수 없습니다.
 
 >[!IMPORTANT]
-> Intune만 사용(온라인 서비스)하여 모바일 장치를 관리할지, 아니면 Intune으로 System Center Configuration Manager(온-프레미스 소프트웨어 솔루션 및 온라인 서비스 결합)를 사용하여 모바일 장치를 관리할지를 신중히 고려해야 합니다. 이런 항목을 설정한 후에는 모바일 장치 관리 기관을 변경할 수 없습니다.
-
+> Intune만 사용(온라인 서비스)하여 모바일 장치를 관리할지, 아니면 Intune으로 System Center Configuration Manager(온-프레미스 소프트웨어 솔루션 및 온라인 서비스 결합)를 사용하여 모바일 장치를 관리할지를 신중히 고려해야 합니다. 모바일 장치 관리 기관을 설정한 후에는 Microsoft 지원 담당자의 도움 없이 변경할 수 없습니다. 자세한 내용은 [잘못된 MDM 기관 설정을 선택한 경우 수행할 작업](#what-to-do-if-you-choose-the-wrong-mdm-authority-setting)을 참조하세요.
 
 
 1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **관리** &gt; **모바일 장치 관리**를 선택합니다.
@@ -151,8 +151,63 @@ MDM 기관을 설정한 후 조직에서 지원하려는 운영 체제에 대한
 - 관리되는 장치에 [앱 추가](add-apps.md) 및 [앱 배포](deploy-apps.md)
 - [장치 준수 정책 만들기](introduction-to-device-compliance-policies-in-microsoft-intune.md) 및 [규정 준수를 기반으로 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
 
+## <a name="what-to-do-if-you-choose-the-wrong-mdm-authority-setting"></a>잘못된 MDM 기관 설정을 선택한 경우 수행할 작업
 
+잘못된 MDM 기관 설정을 선택했으며 변경해야 하는 경우 Microsoft 지원에 문의해야 합니다. 직접 설정을 변경할 수는 없습니다. Microsoft 지원에 문의하기 전에, Microsoft 지원에서 설정을 변경하기 위해 제공해야 하는 정보를 설명하는 다음 정보를 검토합니다.
 
-<!--HONumber=Dec16_HO2-->
+MDM 기관을 다시 설정할 수 있는 세 가지 가능한 방법이 있습니다. 지원 요청에서 상황에 맞는 방법을 선택해야 합니다. 요청하는 시나리오가 목록에 없는 경우 Microsoft 지원에 문의하세요.
 
+Microsoft 지원에서 다음 정보를 확인하도록 요청합니다.
+
+- 테넌트 ID: 서비스에 로그인하는 데 사용되는 도메인(예: intune.onmicrosoft.com)
+- 변경하려는 MDM 기관
+- 아래 나열된 대로 완료한 필수 조건 단계 확인
+
+공존성을 사용하는 경우 Intune 및 Office 365 검사 목록을 둘 다 확인해야 합니다.
+
+### <a name="reset-mdm-authority-from-intune-to-configuration-manager"></a>MDM 기관을 Intune에서 Configuration Manager로 다시 설정
+
+MDM 기관을 다시 설정하려면 Microsoft 지원에 문의하기 전에 다음 단계를 완료합니다.
+
+- Intune 관리 콘솔에서 모든 장치를 사용 중지합니다. 장치 자체에서 장치를 사용 중지하지 마세요. 
+- Service To Service Connector를 삭제(**관리** > **모바일 장치 관리** > **Microsoft Exchange**)하거나, Exchange Connector를 설정한 경우 사용하지 않도록 설정합니다. 
+- **관리** > **장치 등록 관리자**에서 장치 등록 관리자 역할을 제거합니다.
+- **관리** > **모바일 장치 관리** > **장치 그룹 매핑**에서 장치 그룹 매핑을 끕니다.
+- **관리** > **모바일 장치 관리** > **Windows** > **테스트용 로드 키**에서 테스트용 로드 키를 삭제합니다.
+- **관리** > **모바일 장치 관리** > **iOS** 페이지에서 iOS APNs 인증서를 삭제합니다.
+- **관리** > **모바일 장치 관리** > **iOS** 페이지에서 iOS DEP 토큰을 삭제합니다.
+- **정책** > **구성 정책**에서 MDM 장치에 대한 정책을 모두 삭제합니다.
+- **앱** > **관리 소프트웨어**에서 MDM 장치에 대해 게시된 모든 응용 프로그램을 삭제합니다.
+
+### <a name="reset-mdm-authority-from-configuration-manager-to-intune"></a>MDM 기관을 Configuration Manager에서 Intune으로 다시 설정
+
+MDM 기관을 다시 설정하려면 Microsoft 지원에 문의하기 전에 다음 단계를 완료합니다.
+
+- Configuration Manager 콘솔에서 모바일 장치로 관리되는 모든 장치를 사용 중지합니다. 장치 자체에서 장치를 사용 중지하지 마세요. 
+- Intune 사용자 그룹에서 모든 사용자를 제거합니다. Intune 구독에서 빈 사용자 컬렉션을 가리키거나 대상 컬렉션에서 모든 사용자를 제거합니다.  CloudUserSync.log에서 사용자가 제거되었는지 확인합니다. 
+- APNs 인증서를 삭제할 iOS 플랫폼의 선택을 취소합니다.
+- MDM 장치에 대해 게시된 모든 응용 프로그램을 삭제합니다.
+- MDM 장치에 대한 정책을 모두 삭제합니다. 
+- Configuration Manager 콘솔에서 Windows Intune 커넥터를 제거합니다(R2 SP1 이전에만 적용).
+- 구독을 마우스 오른쪽 단추로 클릭하고 **삭제**를 선택하여 Intune 구독을 제거합니다.
+- SMS Executive 서비스를 다시 시작합니다.
+- 프로세스가 완료된 후 Configuration Manager 라이선스가 제거되었는지 확인할 수 있도록 몇 개의 예제 사용자를 제공합니다.
+
+### <a name="reset-mdm-authority-from-office-365-to-configuration-manager"></a>MDM 기관을 Office 365에서 Configuration Manager로 다시 설정
+
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
+2. **보안 정책** 탭을 선택한 다음 **장치 관리**를 선택합니다. 
+3. **선택적 지우기**를 선택하여 모든 장치를 사용 중지합니다. 장치 자체에서 장치를 사용 중지하지 마세요. 선택적 지우기가 사용되지 않는 경우에는 추가 작업이 필요하지 않습니다.
+4. **보안 정책** 탭을 선택한 다음 **장치 보안 정책**을 선택합니다. 
+5. 기존의 모든 정책에 대해 **삭제**를 선택합니다. 정책이 보류 중 상태이면 추가 작업이 필요하지 않습니다.
+
+>[!NOTE]
+>iOS APsN 인증서는 삭제할 수 없으며 계정에 연결된 상태로 유지됩니다. 
+
+### <a name="next-steps-for-mdm-authority-resets"></a>MDM 기관 다시 설정을 위한 다음 단계
+
+Microsoft 지원에서 적용 가능한 검사 목록의 항목을 확인한 후 MDM 기관을 다시 설정하는 데 영업일 기준 최대&3;일이 걸릴 수 있지만 일반적으로&1;일 내에 다시 설정됩니다. 
+
+>[!IMPORTANT]
+>Microsoft 지원에서 다시 설정이 완료된 것을 확인할 때까지 구독을 구성하지 마세요. 중간에 구성하면 손상되거나 Intune 서비스를 사용하지 못할 수 있습니다. 
 

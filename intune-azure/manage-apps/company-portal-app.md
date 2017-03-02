@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,12 +14,13 @@ ms.assetid: dec6f258-ee1b-4824-bf66-29053051a1ae
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 990062ecf03a117dad74eb71e3f40abb79f22be6
-ms.openlocfilehash: f27eacc8a8282c9216f8983db32dc5e4e8bc7006
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 142b57f48c2950f6eecc228decfa06ce44c76319
+ms.lasthandoff: 02/16/2017
 
 ---
 
-# <a name="how-to-configure-the-company-portal-app"></a>회사 포털 앱을 구성하는 방법
+# <a name="how-to-configure-the-microsoft-intune-company-portal-app"></a>Microsoft Intune 회사 포털 앱을 구성하는 방법
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -64,9 +65,4 @@ Microsoft Intune 회사 포털에서 사용자는 회사 데이터에 액세스�
 |**회사 로고 표시**|이 옵션을 설정한 경우 회사 포털에서 표시할 회사 로고를 업로드할 수 있습니다. 회사 포털 배경이 흰색인 경우에 표시되는 로고 하나와 회사 포털 배경이 직접 선택한 테마 색을 사용하는 경우에 표시되는 로고 하나, 두 개의 로고를 업로드할 수 있습니다. 각 로고는 .png 또는 .jpg 파일 형식이어야 하며 최대 해상도가 400 x 100픽셀이고 크기가 750KB 이하여야 합니다.<br>업로드된 로고 옆에 입력한 회사 이름을 표시할 수도 있습니다.|
 
 변경 내용을 저장한 후 **Intune 웹 포털에서 설정을 미리 봅니다.**를 선택하여 구성의 모양을 확인할 수 있습니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

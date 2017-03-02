@@ -1,11 +1,12 @@
 ---
-title: "iOS 장치에 대한 Intune 사용자 지정 설정 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "iOS 장치에 대한 Intune 사용자 지정 설정"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: iOS 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +14,16 @@ ms.technology:
 ms.assetid: 6da8caa8-65c2-4f47-842f-9570dcb1ac22
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 5ab494a3dd1e1bdea9703ab314574b192c5208ee
-ms.openlocfilehash: cfccdbf34437c5ab23cefba5307c53c60573ddb0
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: d8e6d0d641dd55c79442f68e7e97d21efcdad7fa
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="intune-custom-settings-for-ios-devices-in-intune-azure-preview"></a>Intune Azure 미리 보기의 iOS 장치에 대한 Intune 사용자 지정 설정
+# <a name="microsoft-intune-custom-settings-for-ios-devices"></a>iOS 장치에 대한 Microsoft Intune 사용자 지정 설정
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -37,9 +40,4 @@ ms.openlocfilehash: cfccdbf34437c5ab23cefba5307c53c60573ddb0
 Apple Configurator 도구에서 내보내는 설정이 iOS 사용자 지정 정책을 배포하는 장치에 있는 iOS의 버전과 호환되는지 확인합니다. 호환되지 않는 설정을 해결하는 방법에 대한 정보를 보려면 [Apple 개발자](https://developer.apple.com/) 웹 사이트에서 **구성 프로필 참조** 및 **모바일 장치 관리 프로토콜 참조**를 검색하세요.
 
 가져온 파일은 블레이드의 **파일 내용** 영역에 표시됩니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

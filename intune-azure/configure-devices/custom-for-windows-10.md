@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 7bcea136-7260-4042-b21b-c7dab86b380d
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0da8c0fe399f76f43439cc66eaecd12bb454f9a6
-ms.openlocfilehash: 05856480f8bb76e561f2b459d4ab800f9909a40a
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: bc740d9e43e2937757075bf84735fe611433f6f0
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="custom-device-settings-for-windows-10-devices-in-intune-azure-preview"></a>Intune Azure 미리 보기의 Windows 10 장치에 대한 사용자 지정 장치 설정
+# <a name="custom-device-settings-for-windows-10-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 장치에 대한 사용자 지정 장치 설정
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -167,9 +168,4 @@ ms.openlocfilehash: 05856480f8bb76e561f2b459d4ab800f9909a40a
 |**암호 저장 허용**<br>./Vendor/MSFT/Policy/Config/Browser/AllowPasswordManager|Desktop 및 Mobile<br />**데이터 형식:** 정수<br />**값:**<br>**0** – 암호 관리자 사용 안 함 <br>**1** – 암호 관리자 사용(기본값)|
 |**자동 채우기 허용**<br>./Vendor/MSFT/Policy/Config/Browser/AllowAutofill|Desktop에만 해당<br />**데이터 형식:** 정수<br />**값:** **0** – 사용 안 함(기본값), **1** – 사용|
 |**엔터프라이즈 사이트 목록 구성**<br>./Vendor/MSFT/Policy/Config/Browser/EnterpriseModeSiteList|Desktop에만 해당<br />**데이터 형식:** 문자열<br />**값:<br>**0** – 구성되지 않음<br>**1** – 구성되어 있는 경우 IE의 엔터프라이즈 모드 사이트 목록 사용(기본값)<br>**2** – 엔터프라이즈 사이트 목록의 위치 지정|
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

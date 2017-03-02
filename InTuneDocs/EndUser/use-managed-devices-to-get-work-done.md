@@ -1,11 +1,11 @@
 ---
-title: "관리되는 장치를 사용하여 작업 완료 | Microsoft Docs"
-description: "회사 포털 앱에 대해 자세히 알아보기."
+title: "관리되는 장치를 사용하여 작업 완료 | Microsoft 문서"
+description: "Intune에서 장치를 관리에 등록한다는 것이 무엇을 의미하는지 이해합니다."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/08/2017
+ms.date: 02/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,20 +14,26 @@ ms.assetid: 523caa6b-d792-4bb6-bddb-24b2479932d8
 searchScope:
 - Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
-ms.reviewer: jeffgilb
+ms.reviewer: robstack
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 68c7a23dc8769330c14f74e6aebb07eeb188a991
-ms.openlocfilehash: 1ca19828902585bf6011713ab214619b7f8c12c5
+ms.sourcegitcommit: d05b3200d145aa535216dc81c62cc73b022528f2
+ms.openlocfilehash: ae364b9e77876612be4eb6d68b8b57a5d3be9db2
+ms.lasthandoff: 02/24/2017
 
 
 ---
 
-# <a name="using-managed-devices-to-get-work-done"></a>관리되는 장치를 사용하여 작업 완료
+# <a name="use-managed-devices-to-get-work-done"></a>관리되는 장치를 사용하여 작업 완료
 Microsoft Intune은 조직에서 장치(예: 스마트폰, 태블릿 및 PC), 앱 및 기타 회사 리소스(예: 메일)를 관리하는 데 사용할 수 있는 일종의 소프트웨어입니다. 이를 통해 회사 정보의 보안을 유지하면서 직원이 거의 모든 장치에서 어디서나 자신의 작업 정보에 액세스하도록 할 수 있습니다.
 
 Intune을 사용하여 관리하도록 장치를 등록하면 IT 부서에서 해당 회사 또는 학교 리소스를 관리하고 장치를 보다 안전하게 유지하면서 선호하는 장치를 자유롭게 사용하여 작업을 완료할 수 있습니다. 이렇게 하는 기본 방법은 회사 포털을 통해 관리에 장치를 등록하는 것입니다.
 
+## <a name="what-information-can-my-company-see-when-i-enroll-my-device-in-intune"></a>Intune에서 장치를 등록하면 회사에 어떤 정보가 표시되나요?
+회사의 IT 부서는 회사와 관련된 정보만 볼 수 있고 개인 정보는 볼 수 없습니다. 회사에서 사용하기 위해 개인 장치를 등록하는 경우 특히 이 점을 아는 것이 중요합니다. [사용자 도움말의 다음 문서에 볼 수 있는 사항과 볼 수 없는 사항](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)이 분류되어 있습니다.
+
+## <a name="how-do-i-get-the-company-portal"></a>회사 포털을 사용하려면 어떻게 하나요?
 다음과 같은 두 가지 방법으로 회사 포털을 사용할 수 있습니다.
 
 - 장치에 회사 포털 앱을 설치합니다. 일반적으로 장치의 앱 스토어로 이동하여 회사 포털 앱을 가져오지만, IT 관리자가 사용자 대신에 회사 포털 앱을 설치할 수도 있습니다.
@@ -57,7 +63,7 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 
 - [Android용 회사 포털 앱 설치](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 - [iOS 및 macOS용 회사 포털 앱 설치](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
-- [Windows용 회사 포털 앱 설치](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)
+- [Windows용 회사 포털 앱 설치](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
 
 ## <a name="what-kind-of-computers-or-devices-can-you-add-to-the-company-portal"></a>회사 포털에 추가할 수 있는 컴퓨터 또는 장치 종류는 무엇인가요?
 -   iOS(iPhone, iPad 등) 및 macOS(MacBook, iMac 등)를 사용하는 Apple 장치
@@ -71,7 +77,7 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 ## <a name="can-you-remove-a-computer-or-device-from-the-company-portal"></a>회사 포털에서 컴퓨터 또는 장치를 제거할 수 있나요?
 회사 포털에서 컴퓨터 또는 장치를 제거하거나 초기화할 수 있습니다. **제거** 및 **재설정** 간에 차이가 있습니다.
 
-컴퓨터 또는 장치를 *제거*하는 경우 장치를 Intune에서 등록 취소합니다. 등록 취소하면 더 이상 장치에서 회사 포털에 액세스할 수 없게 되고, 일부 회사 데이터가 장치에서 제거될 수 있습니다. 회사 포털에서 장치를 제거하는 방법을 알아보려면 다음 링크 중 하나를 선택하세요.
+회사 포털에서 컴퓨터 또는 장치를 *제거*하면 Intune에서 장치 등록이 취소됩니다. 등록 취소하면 더 이상 장치에서 회사 포털에 액세스할 수 없게 되고, 일부 회사 데이터가 장치에서 제거될 수 있습니다. 회사 포털에서 장치를 제거하는 방법을 알아보려면 다음 링크 중 하나를 선택하세요.
 
 - [Android 장치 등록 취소](unenroll-your-device-from-intune-android.md)
 - [iOS 또는 macOS 장치 등록 취소](unenroll-your-device-from-intune-ios.md)
@@ -79,21 +85,19 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 
 컴퓨터 또는 장치를 *초기화*하면 회사 포털에서 컴퓨터 또는 장치를 제조업체의 기본 설정으로 초기화합니다. 장치를 초기화하면 장치에서 모든 회사 및 개인 데이터가 제거됩니다! 장치를 잃어버린 경우 회사 포털 웹 사이트에서 원격으로 장치를 초기화할 수도 있습니다.
 
-장치를 초기화하는 방법을 알아보려면 다음 링크 중 하나를 선택하세요.
+다음 위치에서 장치를 다시 설정하는 방법을 확인할 수 있습니다.
 
-- [Android 장치 다시 설정(지우기)](reset-erase-your-lost-or-stolen-device-android.md)
-- [iOS 또는 macOS 장치 다시 설정(지우기)](reset-erase-your-lost-or-stolen-device-ios.md)
-- [Windows 장치 다시 설정](reset-erase-your-lost-or-stolen-device-windows.md)
-- [회사 포털 웹 사이트에서 장치 다시 설정](reset-your-device-cpwebsite.md)
+- [회사 포털 웹 사이트에서 장치 다시 설정(지우기)](reset-erase-your-device-cpwebsite.md)
 
 ## <a name="what-if-i-cant-see-my-device-in-the-company-portal"></a>회사 포털에 장치가 보이지 않으면 어떻게 해야 하나요?
 장치를 표시할 수 있으려면 먼저 회사 포털에 추가해야 합니다. 관리자가 권장한 회사 포털로 이동하여 장치에 대한 단계를 따릅니다. 또한 회사에서 소유하고 관리하는 장치가 표시되지 않습니다.
 
-## <a name="if-you-have-questions-contact-your-it-admin"></a>의문 사항이 있으면 IT 관리자에게 문의하세요.
-도움이 필요하면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+## <a name="where-else-can-i-go-for-help"></a>다른 어디서 도움을 받을 수 있나요?
+먼저 문제를 직접 해결할 수 있는지 확인하는 것이 좋습니다. Intune이 지원하는 각 플랫폼에서 발생할 수 있는 문제 해결을 위해 시도할 수 있는 방법 목록이 제공됩니다.
 
+- [Android 장치의 일반적인 문제 해결](troubleshoot-your-device-android.md)
+- [iOS 장치의 일반적인 문제 해결](troubleshoot-your-device-ios.md)
+- [Windows 장치의 일반적인 문제 해결](troubleshoot-your-device-windows.md)
 
-
-<!--HONumber=Feb17_HO2-->
-
+아래에 의견을 게시하여 도움을 요청할 수 있지만 조직마다 요구 사항이 다르므로 질문에 대답할 수 없는 경우도 있습니다. IT 관리자에게 도움을 요청하는 것이 가장 빠르고 가장 관련성이 높은 응답을 받을 가능성이 큽니다. 해당 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에서 확인할 수 있습니다.
 

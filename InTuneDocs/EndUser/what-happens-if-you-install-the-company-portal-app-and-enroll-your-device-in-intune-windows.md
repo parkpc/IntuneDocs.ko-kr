@@ -18,8 +18,9 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
-ms.openlocfilehash: 7a4b5acea4a4bdce32c42ca33f81778965ee1abb
+ms.sourcegitcommit: 0e6b7ae1794ff0857dfb203eb3c67d7ba494bd8e
+ms.openlocfilehash: bde2ccc0c170a85e926357d54fcf4ffe6ee50fd9
+ms.lasthandoff: 02/21/2017
 
 
 ---
@@ -34,7 +35,7 @@ Intune에서 Windows 또는 Windows Phone 장치를 등록하면 다음을 수�
 
 -   회사 네트워크, 메일 및 작업 파일 액세스
 
--   회사 포털 웹 사이트에서 회사 앱을 다운로드합니다. (Windows 7 및 Windows Vista에서는 회사 포털 웹 사이트에서만 회사 앱을 다운로드할 수 있습니다.)
+-   회사 포털 웹 사이트에서 회사 앱을 다운로드합니다. __참고__: Windows 7 및 Windows Vista의 경우 회사 포털 웹 사이트에서만 회사 앱을 다운로드할 수 있습니다.
 
 -   회사 또는 학교 메일 계정을 자동으로 설정
 
@@ -67,6 +68,7 @@ Intune에서 Windows 또는 Windows Phone 장치를 등록하면 다음을 수�
 -  IT 관리자가 사용자 컴퓨터에 앱 및 업데이트를 설치할 수 있습니다.
 
 ## <a name="what-happens-every-eight-hours-after-device-enrollment"></a>장치 등록 후&8;시간마다 발생되는 작업
+
 등록된 장치에서&8;시간마다 다음 작업이 수행됩니다.
 
 -   IT 관리자가 사용하도록 설정한 임의의 정책 또는 앱 업데이트를 다운로드합니다.
@@ -76,9 +78,4 @@ Intune에서 Windows 또는 Windows Phone 장치를 등록하면 다음을 수�
 -   임의의 회사 앱 인벤토리 업데이트를 보냅니다.
 
 의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

@@ -1,11 +1,11 @@
 ---
-title: "장치 보호 | Microsoft 문서"
+title: "Microsoft Intune으로 장치 보호 | Microsoft 문서"
 description: "Intune이 무단 액세스 및 기타 위협으로부터 장치를 보호하는 데 어떤 도움을 줄 수 있는지 알아봅니다."
 keywords: 
 author: Robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/27/2016
+ms.date: 02/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 71e0cbf3-2bfb-412e-8a12-8503df08b4cf
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 47263a7b0e4255cfa3fe830c969ce6116447ae9f
+ms.sourcegitcommit: 10191f27ae7efd097ea6e74b557776f8be8fe6e6
+ms.openlocfilehash: 042c5673c48bb19aacd624028260267670f9846e
+ms.lasthandoff: 02/21/2017
 
 
 ---
@@ -45,10 +47,10 @@ Intune에서는 지정한 규칙을 준수하지 않는 장치를 평가하고 �
 ### <a name="protect-apps-and-the-data-they-use"></a>앱 및 앱에서 사용하는 데이터 보호
 Intune에서는 앱과 해당 데이터를 보호하는 데 사용할 수 있는 다양한 기능을 제공합니다. 예를 들어 MAM(모바일 응용 프로그램 관리) 정책을 적용하면 보호된 앱에서 데이터 백업을 차단하고, 다른 앱으로의 복사/붙여넣기를 제한하고, 앱 액세스 시 PIN을 요구하는 등의 기능을 설정할 수 있습니다. 앱 보호에 대한 자세한 내용은 [Microsoft Intune으로 앱 및 데이터 보호](protect-apps-and-data-with-microsoft-intune.md)를 참조하세요.
 
-## <a name="further-capabilities-for-windows-devices"></a>Windows 장치용 추가 기능
+### <a name="add-an-additional-layer-of-protection-to-devices"></a>장치에 추가 보호 계층 추가
+[MFA(다단계 인증)](multi-factor-authentication-azure-active-directory.md)는 네트워크에서 장치 사용자를 인증하는 더욱 안전한 방식입니다.  MFA를 사용하는 경우에는 사용자가 사용자 이름과 암호 외에 전화 통화나 문자 메시지를 통해 신원을 확인해야 합니다.
 
-### <a name="add-an-additional-layer-of-protection-to-windows-devices"></a>Windows 장치에 대한 추가 보호 계층 추가
-[MFA(다단계 인증)](protect-windows-devices-with-multi-factor-authentication.md)는 네트워크에서 Windows 및 Windows Phone 장치의 사용자를 인증하는 더욱 안전한 방식입니다.  MFA를 사용하는 경우에는 사용자가 사용자 이름과 암호 외에 전화 통화나 문자 메시지를 통해 신원을 확인해야 합니다.
+## <a name="further-capabilities-for-windows-devices"></a>Windows 장치용 추가 기능
 
 ### <a name="control-windows-hello-for-business-settings-on-windows-devices"></a>Windows 장치에서 비즈니스용 Windows Hello 설정 제어
 Active Directory를 사용하는 Windows 10 이상 버전 또는 Azure Active Directory 계정에서 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 로그인 방법인 [비즈니스용 Windows Hello](control-microsoft-passport-settings-on-devices-with-microsoft-intune.md)(이전 명칭 Microsoft Passport)와 Intune을 통합할 수 있습니다.
@@ -62,9 +64,4 @@ Active Directory를 사용하는 Windows 10 이상 버전 또는 Azure Active Di
 
 ## <a name="protect-windows-pcs-managed-with-the-intune-client"></a>Intune 클라이언트로 관리하는 Windows PC 보호
 Intune에서는 등록하지 않았지만 Intune 컴퓨터 클라이언트 소프트웨어로 관리되는 Windows PC에 대한 보안 정책을 계속해서 지원합니다. 이러한 정책을 사용하여 어떻게 Windows PC를 보호할 수 있는지 알아보려면 [Use policies to help protect Windows PCs that run the Intune client software](policies-to-protect-windows-pcs-in-microsoft-intune.md)(Intune 클라이언트 소프트웨어를 실행하는 Windows PC를 보호하는 데 도움이 되는 정책 사용)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

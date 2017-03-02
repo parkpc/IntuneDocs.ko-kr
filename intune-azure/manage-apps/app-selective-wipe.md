@@ -1,5 +1,6 @@
 ---
-title: "앱에서 회사 데이터만 초기화하는 방법 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "앱에서 회사 데이터만 초기화하는 방법"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Microsoft Intune을 사용하여 앱을 선택적으로 초기화하는 방법을 알아봅니다."
 keywords: 
 author: andredm7
@@ -13,9 +14,11 @@ ms.technology:
 ms.assetid: 42605e6e-5b84-44ff-b86e-346ea123b53e
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 44aefa68761236b946f5ab1db678ecc4aa81e92b
-ms.openlocfilehash: ab2f9d065a1c4b0e0a016ff6195742cd09965191
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 0d5385583265800ccfbb7d57e3dd325d6c8283e7
+ms.lasthandoff: 02/18/2017
 
 ---
 
@@ -81,8 +84,3 @@ ms.openlocfilehash: ab2f9d065a1c4b0e0a016ff6195742cd09965191
 [앱 보호 정책이란?](what-is-app-protection-policy.md)
 
 [앱 관리란?](what-is-app-management.md)
-
-
-<!--HONumber=Feb17_HO2-->
-
-

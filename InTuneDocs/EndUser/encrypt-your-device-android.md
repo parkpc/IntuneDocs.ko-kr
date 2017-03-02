@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 02/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,8 +18,9 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 5ca9814992edd0a18d48145243a4be524dbb4f23
-ms.openlocfilehash: 727b99f9ca2f0322eb1fee5fec29cd71dc901e01
+ms.sourcegitcommit: 879f8faa37309edae9d1cbb0456d372ff27b8b98
+ms.openlocfilehash: a36c7dca0274b465315493261f03ab362c09383a
+ms.lasthandoff: 02/23/2017
 
 
 ---
@@ -40,6 +41,9 @@ ms.openlocfilehash: 727b99f9ca2f0322eb1fee5fec29cd71dc901e01
     일부 휴대폰에서는 **저장소** &gt; **저장소 암호화** 또는 **저장소** &gt; **잠금 화면 및 보안** &gt; **기타 보안 설정**을 선택하여 "암호화" 옵션을 찾아야 합니다.
 
 3.  화면의 지시를 따릅니다. 암호화가 진행되는 동안 장치가 여러 번 다시 시작될 수 있습니다.
+
+> [!Note]
+> 특정 Android 장치는 암호화할 수 없습니다. 자세한 내용은 [여기](your-device-appears-encrypted-but-cp-says-otherwise-android.md)를 참조하세요.
 
 ### <a name="what-to-do-if-you-have-issues"></a>문제가 있는 경우 수행할 작업
 **문제**: 장치를 이미 암호화한 경우에는 다음 중 하나가 발생합니다.
@@ -64,10 +68,6 @@ ms.openlocfilehash: 727b99f9ca2f0322eb1fee5fec29cd71dc901e01
 
     5. 회사 포털 앱을 열고 장치를 선택하고 **준수 확인**을 탭합니다.
 
+
 여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) [Microsoft Android 팀](mailto:wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
-
-
-
-<!--HONumber=Jan17_HO5-->
-
 

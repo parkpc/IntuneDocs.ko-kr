@@ -1,5 +1,6 @@
 ---
-title: "Microsoft Intune 미리 보기의 알려진 문제 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Microsoft Intune 미리 보기의 알려진 문제"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 미리 보기의 알려진 문제를 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,9 +14,11 @@ ms.technology:
 ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: 
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: f479b4236243fd05630229520633a09c451e6e1e
-ms.openlocfilehash: c1f79db598651b6a8a1c2a34627a901eff6a0beb
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: ee4422f462270b6466f11721aa7dc8cb2d432f7d
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -35,9 +38,4 @@ Intune에 추가할 새로운 기능을 요청하려면 [Uservoice](https://micr
 ## <a name="administration-and-accounts"></a>관리 및 계정
 
 - 전역 관리자(테넌트 관리자라고도 함)는 별도의 Intune 또는 EMS(Enterprise Mobility Suite) 라이선스 없이 일상적인 관리 작업을 계속 수행할 수 있습니다. 그러나 전역 관리자가 자신의 장치나 회사 장치 등록 또는 Intune 회사 포털 사용 등의 서비스를 사용하려는 경우 다른 사용자와 마찬가지로 Intune 또는 EMS 라이선스가 필요합니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 
