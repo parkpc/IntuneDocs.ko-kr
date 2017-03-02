@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 01/29/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,9 @@ ms.assetid: 6d384cd0-b662-41e7-94f5-0c96790ab20a
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: adb2fd27d7f2b3f0ef4dce6b26fcb20d74b69a00
-ms.openlocfilehash: 8c6c92e6e7bd375063f2f19308fe19f6e44962ac
+ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
+ms.openlocfilehash: 888e7b7af7dcca4154f67a1de781eb7908d9a187
+ms.lasthandoff: 02/15/2017
 
 
 ---
@@ -54,7 +55,7 @@ iOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료�
 
 장치 등록 프로필은 장치 그룹에 적용되는 설정을 정의합니다. 다음 단계는 Apple Configurator를 사용하여 등록된 iOS 장치에 대한 장치 등록 프로필을 만드는 방법을 보여 줍니다.
 
-1. Azure Portal에서 **추가 서비스**를 선택하고 텍스트 상자에 **Intune**을 입력한 다음 **기타** > **Intune**을 선택합니다.
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
 2. Intune 블레이드에서 **장치 등록**을 선택한 다음 **Apple 등록**을 선택합니다.
 
@@ -78,11 +79,13 @@ Apple Configurator 프로필을 만든 후에는 프로필에 장치 일련 번�
 
 ### <a name="assign-serial-numbers-to-apple-configurator-profiles"></a>Apple Configurator 프로필에 일련 번호 할당
 
-1. **Apple Configurator 등록 프로필** 블레이드에서 일련 번호를 할당할 프로필을 선택합니다.
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
-2. 프로필에 대해 명명된 블레이드에서 **일련 번호** > **할당**을 선택합니다.
+2. **Apple Configurator 등록 프로필** 블레이드에서 일련 번호를 할당할 프로필을 선택합니다.
 
-3. 프로필에 할당할 일련 번호를 선택한 다음 **할당** 단추를 선택합니다.
+3. 프로필에 대해 명명된 블레이드에서 **일련 번호** > **할당**을 선택합니다.
+
+4. 프로필에 할당할 일련 번호를 선택한 다음 **할당** 단추를 선택합니다.
 
 ## <a name="export-the-profile-to-ios-devices"></a>iOS 장치로 프로필 내보내기
 
@@ -90,11 +93,13 @@ Apple Configurator 프로필을 만든 후에는 프로필에 장치 일련 번�
 
 ### <a name="export-a-profile-using-setup-assistant-enrollment"></a>설정 도우미 등록을 사용하여 프로필 내보내기
 
-1. **Apple Configurator 등록 프로필** 블레이드에서 내보낼 프로필을 선택합니다.
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
-2. 프로필에 대한 블레이드에서 **프로필 내보내기**를 선택합니다.
+2. **Apple Configurator 등록 프로필** 블레이드에서 내보낼 프로필을 선택합니다.
 
-3. iOS 장치를 연결한 상태에서 [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)에 프로필 URL을 복사합니다. iOS 장치에서 사용하는 Intune 프로필을 정의하기 위해 나중에 Apple Configurator에서 업로드합니다.
+3. 프로필에 대한 블레이드에서 **프로필 내보내기**를 선택합니다.
+
+4. iOS 장치를 연결한 상태에서 [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)에 프로필 URL을 복사합니다. iOS 장치에서 사용하는 Intune 프로필을 정의하기 위해 나중에 Apple Configurator에서 업로드합니다.
 
   Apple Configurator 2를 지원하려면 2.0 프로필 URL을 편집해야 합니다. 그렇게 하려면 이 코드를 바꿉니다.
     ```
@@ -108,7 +113,7 @@ Apple Configurator 프로필을 만든 후에는 프로필에 장치 일련 번�
 
    다음 절차에서는 Apple Configurator를 사용하여 Apple DEP 서비스에 이 프로필 URL을 업로드하여 iOS 장치에서 사용하는 Intune 프로필을 정의합니다.
 
-4. Apple Configurator를 사용하여 Apple DEP 서비스에 이 프로필 URL을 업로드하여 iOS 장치에서 사용하는 Intune 프로필을 정의합니다.
+5. Apple Configurator를 사용하여 Apple DEP 서비스에 이 프로필 URL을 업로드하여 iOS 장치에서 사용하는 Intune 프로필을 정의합니다.
 
 
     1.  Mac 컴퓨터에서 **Apple Configurator 2**를 엽니다. 메뉴 모음에서 **Apple Configurator 2**를 선택한 후 **기본 설정**을 선택합니다.
@@ -139,7 +144,7 @@ Apple Configurator 프로필을 만든 후에는 프로필에 장치 일련 번�
 
     10. iOS 장치 준비가 완료되면 USB 케이블을 분리합니다.  
 
-8.  **장치 배포**.
+6.  **장치 배포**.
     이제 장치를 회사에 등록할 준비가 되었습니다. 장치를 끈 다음 사용자에게 배포합니다. 사용자가 장치를 켜면 설정 도우미가 시작됩니다.
 
 ## <a name="how-users-install-and-use-the-company-portal-on-their-devices"></a>사용자가 자신의 장치에서 회사 포털을 설치 및 사용하는 방법
@@ -165,9 +170,4 @@ Apple Configurator 프로필을 만든 후에는 프로필에 장치 일련 번�
 7. 일련 번호를 확인한 후 회사 포털 앱에서 회사 포털 웹 사이트로 리디렉션하여 등록을 마칩니다. 그런 다음 웹 사이트에서 앱으로 돌아가라는 메시지를 표시합니다.
 
 이제 등록이 완료되었으며 기능의 전체 집합으로 이 장치를 사용할 수 있습니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

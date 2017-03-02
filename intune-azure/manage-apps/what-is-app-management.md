@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 02/15/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 424fae862592c1ab5b4221fb5ad40a52c39f6760
-ms.openlocfilehash: 33bc87d16834cb2950cc7c66ad4887dddb12e811
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: d3be47257556e8bfa331cebf68baa43524690d1a
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="what-is-app-management"></a>앱 관리란?
+# <a name="what-is-microsoft-intune-app-management"></a>Microsoft Intune 앱 관리란?
 
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
@@ -97,9 +98,4 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
     - [비즈니스용 Windows 스토어 대량 구매 앱](wsfb-apps.md)
 - **회사 포털 브랜딩** - 회사 포털을 사용자 지정하여 회사 브랜딩을 제공할 수 있습니다. 
     - [회사 포털 구성](company-portal-app.md)
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

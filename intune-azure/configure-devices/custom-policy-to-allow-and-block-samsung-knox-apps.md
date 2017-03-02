@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/18/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c2b49fb985290b2806e172543f95db21727c113e
-ms.openlocfilehash: 581283b1918efb941409c7f58d99682fa2894ce5
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: f5267d2e06f1cd7ec471fd1782bfd965843d1c7e
+ms.lasthandoff: 02/16/2017
 
 
 
 ---
-# <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices-in-intune-azure-preview"></a>Intune Azure 미리 보기에서 사용자 지정 정책을 사용하여 Samsung KNOX Standard 장치에 대해 앱을 허용하거나 차단
+# <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices-in-microsoft-intune"></a>Microsoft Intune에서 사용자 지정 정책을 사용하여 Samsung KNOX Standard 장치에 대해 앱 허용 및 차단
 [!INCLUDE[azure_preview](../includes/azure_preview.md)] 이 항목의 절차를 사용하여 다음 중 하나를 만들 수 있는 Microsoft Intune 사용자 지정 정책을 만듭니다.
 
 - 장치에서 실행이 차단된 앱 목록입니다. 이 목록에 있는 앱은 정책을 적용했을 때 이미 설치되어 있었더라도 실행이 차단됩니다.
@@ -45,9 +46,9 @@ ms.openlocfilehash: 581283b1918efb941409c7f58d99682fa2894ce5
 
 - **이름** - **PreventStartPackages**를 입력합니다.
 - **설명** - ‘실행이 차단된 앱 목록’과 같이 설명을 선택적으로 입력합니다.
--   **데이터 형식** - 드롭다운 목록에서 **문자열**을 선택합니다.
--   **OMA-URI** - **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**를 입력합니다.
--   **값** - 허용할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|**를 사용할 수 있습니다. (예: package1, package2;)
+-     **데이터 형식** - 드롭다운 목록에서 **문자열**을 선택합니다.
+-     **OMA-URI** - **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**를 입력합니다.
+-     **값** - 허용할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|**를 사용할 수 있습니다. (예: package1, package2;)
 
 ### <a name="for-a-list-of-apps-that-users-are-allowed-to-install-from-the-google-play-store-while-excluding-all-other-apps"></a>사용자가 다른 앱을 모두 제외하는 반면 Google Play 스토어에서 설치할 수 있도록 허용된 앱 목록의 경우
 - **이름** - **AllowInstallPackages**를 입력합니다.
@@ -65,9 +66,4 @@ ms.openlocfilehash: 581283b1918efb941409c7f58d99682fa2894ce5
 
 
 <!---## Assign the custom profile--->
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

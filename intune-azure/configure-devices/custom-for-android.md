@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 494b3892-916e-4b40-9b67-61adec889bdf
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5ab494a3dd1e1bdea9703ab314574b192c5208ee
-ms.openlocfilehash: 3a80a69a27b540b66fb96e098c0b0f66a0854297
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 6a49a87984a465c6a656ad40122d0e64b23599fc
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="custom-settings-for-android-devices-in-intune-azure-preview"></a>Intune Azure 미리 보기의 Android 장치에 대한 사용자 지정 설정
+# <a name="custom-settings-for-android-devices-in-microsoft-intune"></a>Microsoft Intune의 Android 장치에 대한 사용자 지정 설정
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -39,9 +40,4 @@ Microsoft Intune Android **사용자 지정** 프로필을 사용하여 Android 
     - **OMA-URI** - 설정을 제공하려는 OMA-URI를 지정합니다.
     - **값** - 입력한 OMA-URI와 연결할 값을 입력합니다.
 4. 완료되면 **확인**을 클릭한 다음 필요에 따라 설정을 계속 추가합니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

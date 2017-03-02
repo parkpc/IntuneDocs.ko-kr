@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 89229a5e-3421-4221-a62f-fa800620cc0d
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ac907e4cb63e4175dafc4c50239d3e0cbe581ad9
-ms.openlocfilehash: 1790878c1d1b4ad8381e6c3a3689542877ec6d26
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 85224b2758eeb1f9c7745b9f18f250a7d1292e0f
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="intune-wi-fi-settings-for-ios-devices-in-intune-azure-preview"></a>Intune Azure 미리 보기의 iOS 장치에 대한 Intune Wi-Fi 설정
+# <a name="wi-fi-settings-for-ios-devices-in-microsoft-intune"></a>Microsoft Intune의 iOS 장치에 대한 Wi-Fi 설정
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -78,9 +79,4 @@ ms.openlocfilehash: 1790878c1d1b4ad8381e6c3a3689542877ec6d26
 |--------------|-------------|----------|
 |**클라이언트 인증에 사용할 클라이언트 인증서(ID 인증서)**|연결을 인증하는 데 사용되는 SCEP 또는 PKCS 인증서 프로필을 선택합니다.|EAP 유형이 **EAP-TLS**인 경우|
 |**인증 방법**|연결에 대한 인증 방법을 선택합니다.<br>- **인증서** - 서버에 제공되는 ID 인증서인 SCEP 또는 PKCS 클라이언트 인증서를 선택하려는 경우<br><br>- **사용자 이름 및 암호** - 다른 인증 방법을 지정하려는 경우 <br><br>**사용자 이름 및 암호**를 선택한 경우<br><br>-  **EAP 이외의 방법(내부 ID)**을 구성한 후 연결을 인증할 방법으로 다음 중 하나를 선택합니다.<br>- **없음**<br>- **암호화되지 않은 암호(PAP)**<br>- **CHAP(Challenge Handshake 인증 프로토콜)**<br>- **MS-CHAP(Microsoft CHAP)**<br>- **MS-CHAP v2(Microsoft CHAP 버전 2)**<br>사용 가능한 옵션은 선택한 EAP 종류에 따라 달라집니다.<br><br>**및**<br><br>- **ID 개인 정보(외부 ID)** - EAP ID 요청에 대한 응답으로 전송되는 텍스트를 지정하려는 경우 이 텍스트에는 원하는 값을 사용할 수 있습니다. 인증하는 동안 이 익명 ID가 먼저 전송된 다음 실제 ID가 보안 채널을 통해 전송됩니다.|EAP 유형이 **EAP-TTLS** 또는 *인 경우
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

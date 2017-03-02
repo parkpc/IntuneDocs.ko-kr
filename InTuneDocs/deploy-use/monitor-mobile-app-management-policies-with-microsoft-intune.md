@@ -13,15 +13,17 @@ ms.technology:
 ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
 ms.reviewer: joglocke
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 22c30f51bf83219053f97310ed1830ad9e01acd8
-ms.openlocfilehash: bd270cd4b04894d4824487d36ea4f0c1929dd568
+ms.sourcegitcommit: fbb41a8cf6fada76b72213b8cb04fdc0428515e9
+ms.openlocfilehash: 96c25307c4060a8872ba4f6de47992c4d9f9dd85
+ms.lasthandoff: 02/14/2017
 
 
 ---
 
-# <a name="monitor-mobile-app-management-policies-with-microsoft-intune"></a>Microsoft Intune으로 모바일 앱 관리 정책 모니터링
-사용자에게 적용한 MAM(모바일 앱 관리) 정책의 준수 상태를 모니터링할 수 있습니다. MAM 정책, 준수 상태 및 사용자에게 발생할 수 있는 문제의 영향을 받는 사용자에 대한 정보를 확인할 수 있습니다.
+# <a name="monitor-app-protection-policies-with-microsoft-intune"></a>Microsoft Intune을 사용하여 앱 보호 정책 모니터링
+사용자에게 적용한 앱 보호 정책의 준수 상태를 모니터링할 수 있습니다. 앱 보호 정책, 준수 상태 및 사용자에게 발생할 수 있는 문제의 영향을 받는 사용자에 대한 정보를 확인할 수 있습니다.
 
 다음 세 가지 방법으로 규정 준수 상태를 모니터링할 수 있습니다.
 
@@ -59,7 +61,7 @@ ms.openlocfilehash: bd270cd4b04894d4824487d36ea4f0c1929dd568
 단일 사용자를 검색하고 해당 사용자에 대한 준수 상태를 확인할 수 있습니다. **앱 보고** 블레이드는 선택한 사용자에 대한 다음 정보를 표시합니다.
 - 사용자 계정에 연결된 장치
 
-- 장치에 대한 MAM 정책이 있는 앱
+- 장치에서 앱 보호 정책을 사용하는 앱
 
 - 상태:
 
@@ -68,7 +70,7 @@ ms.openlocfilehash: bd270cd4b04894d4824487d36ea4f0c1929dd568
   - **체크 인 안 됨**: 정책이 사용자에게 정책이 배포되었지만 그 후 회사 컨텍스트에서 앱이 사용되지 않았습니다.
 
 >[!NOTE]
-> 검색한 사용자에게 배포된 MAM 정책이 없으면 해당 사용자가 MAM 정책의 대상이 아니라는 메시지가 표시됩니다.
+> 검색한 사용자에게 배포된 앱 보호 정책이 없으면 해당 사용자가 앱 보호 정책의 대상이 아니라는 메시지가 표시됩니다.
 
 사용자에 대한 보고를 확인하려면 다음 단계를 수행합니다.
 
@@ -87,7 +89,7 @@ ms.openlocfilehash: bd270cd4b04894d4824487d36ea4f0c1929dd568
 
 ## <a name="reporting-view"></a>보고 보기
 
-상세 보기에서 동일한 보고서와 추가 보고서를 통하여 MAM 정책 준수 상태를 확인할 수 있습니다.
+상세 보기에서 동일한 보고서와 추가 보고서를 통하여 앱 보호 정책 준수 상태를 확인할 수 있습니다.
 
 ![스크린샷&4;](../media/MAM-reporting-7.png)
 
@@ -97,13 +99,13 @@ ms.openlocfilehash: bd270cd4b04894d4824487d36ea4f0c1929dd568
 
     -   관리되는 MAM 작업(보호됨)에 대한 사용자 상태: 이 보고서에서는 사용자 단위로 관리되는 각 MAM 앱의 작업에 대해 간략하게 설명합니다.
 
-        -   각 사용자에 대해 MAM 정책에서 대상으로 지정한 모든 앱이 표시되며, MAM 정책에서 체크 인할 때의 각 앱 상태와 MAM 정책에서 대상이 지정되었지만 앱이 체크 인되지 않은 앱의 상태가 구분되어 나타납니다.
+        -   각 사용자에 대해 앱 보호 정책에서 대상으로 지정한 모든 앱이 표시되며, 앱 보호 정책에서 체크 인할 때의 각 앱 상태와 앱 보호 정책에서 대상이 지정되었지만 앱이 체크 인되지 않은 앱의 상태가 구분되어 나타납니다.
 <br></br>
     -   관리되지 않는 MAM 작업(보호되지 않음)에 대한 사용자 상태: 이 보고서에서는 사용자 단위로 현재 관리되지 않는 MAM 지원 앱 작업에 대해 간략하게 설명합니다. 다음과 같은 이유로 이러한 경우가 발생할 수 있습니다.
 
-        -   해당 앱을 한 명의 사용자가 사용하거나, 현재 MAM 정책에서 대상으로 지정되지 않은 앱에서 사용
+        -   해당 앱을 한 명의 사용자가 사용하거나, 현재 앱 보호 정책에서 대상으로 지정되지 않은 앱에서 사용합니다.
 
-        -   모든 앱이 체크 인되었으나 MAM 정책을 가져오지 않음
+        -   모든 앱이 체크 인되었으나 앱 보호 정책을 가져오지 않습니다.
 
 ![스크린샷&2;](../media/MAM-reporting-4.png)
 
@@ -131,11 +133,6 @@ ms.openlocfilehash: bd270cd4b04894d4824487d36ea4f0c1929dd568
 ## <a name="see-also"></a>참고 항목
 [iOS 앱 간의 데이터 전송 관리](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
 
-* [Android 앱이 MAM 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
-* [iOS 앱이 MAM 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO2-->
-
+* [Android 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
+* [iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
 

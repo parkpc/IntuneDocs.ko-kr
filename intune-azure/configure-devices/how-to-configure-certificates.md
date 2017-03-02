@@ -1,11 +1,12 @@
 ---
-title: "Intune을 사용하여 인증서를 구성하는 방법 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Intune을 사용하여 인증서를 구성하는 방법"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune을 사용하여 Wi-Fi, VPN 및 기타 연결의 보안을 유지하는 데 도움이 되는 인증서를 만들고 할당하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/03/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +14,16 @@ ms.technology:
 ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 3f05e0018fb202ab5774e935c3f59855e4aa2e75
-ms.openlocfilehash: a0183f2a170ed458b19c7688b20ee5ba5c2c696e
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 364534ad788466f8b268b4091decee5326b94163
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="how-to-configure-certificates-with-intune-azure-preview"></a>Intune Azure 미리 보기를 사용하여 인증서를 구성하는 방법
+# <a name="how-to-configure-certificates-in-microsoft-intune"></a>Microsoft Intune에서 인증서를 구성하는 방법
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -42,8 +45,8 @@ VPN, Wi-Fi 또는 메일 프로필을 통해 사용자에게 회사 리소스 �
 
     다음 플랫폼에서는 SCEP 인증서 프로필만 사용할 수 있습니다.
 
--   macOS 10.9 이상
--   Windows Phone 8.1 이상
+-     macOS 10.9 이상
+-     Windows Phone 8.1 이상
 
 각 장치 플랫폼에 대해 별도 프로필을 만들어야 합니다. 프로필을 만들 때 이미 만들어 놓은 신뢰할 수 있는 루트 인증서 프로필과 연결합니다.
 
@@ -196,9 +199,4 @@ Azure Portal에서 **장치 구성** 워크로드를 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 장치 프로필을 할당하는 방법에 대한 일반적인 내용은 [장치 프로필을 할당하는 방법](how-to-assign-device-profiles.md)을 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

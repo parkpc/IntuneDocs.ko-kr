@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/08/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 484bd9b0-fbf1-4f4f-940c-6b12fa07e228
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3ee87c8f6104b06c8a9492566ff160540624f17e
-ms.openlocfilehash: 79faa771a9af0761703ca3e72b937fab1a83a81f
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 66c189ed45b8b5226e36ef4769c0872c428646bb
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="how-to-configure-email-settings"></a>메일 설정을 구성하는 방법 
+# <a name="how-to-configure-email-settings-in-microsoft-intune"></a>Microsoft Intune에서 메일 설정을 구성하는 방법
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -85,9 +86,4 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 - **Windows**: 호스트 이름 및 메일 주소를 기반으로 기존에 중복된 메일 프로필이 검색됩니다. Intune은 사용자가 만든 기존 전자 메일 프로필을 덮어씁니다.
 - **Android**: 메일 주소를 기반으로 중복된 기존 메일 프로필이 검색되고 Intune 프로필으로 덮어씁니다.
 Android에서는 프로필 식별에 호스트 이름을 사용하지 않으므로 여러 호스트에서 동일한 메일 주소에 사용할 메일 프로필을 여러 개 만들지 않는 것이 좋습니다. 이렇게 하면 각각 덮어쓰게 됩니다.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

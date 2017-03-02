@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 01/26/2017
+ms.date: 02/15/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,9 @@ ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 10cf9980468eff912557747c31994747c17a3ab4
-ms.openlocfilehash: 01bf32ef874385019ea4b0fb0ce278554459287d
+ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
+ms.openlocfilehash: a92daf02c6fb2405c1255ff4ff8988f669dd76ce
+ms.lasthandoff: 02/15/2017
 
 
 ---
@@ -43,33 +44,33 @@ Exchange ActiveSync를 클라우드에서 호스트하거나 온-프레미스로
 
 **iOS 등록 방법**
 
-| **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보** |
+| **방법** |    **초기화가 필요하세요?** |    **선호도**    |    **잠금** | **세부 정보** |
 |:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |   아니요 | 자세한 내용은 곧 제공 예정|
-|**[DEM](#dem)**|   아니요 |아니요 |아니요  | [추가 정보](enroll-ios-devices-using-device-enrollment-program.md)|
-|**[DEP](#dep)**|   예 |   선택 사항 |  선택 사항입니다.|[추가 정보](enroll-ios-devices-using-device-enrollment-program.md)|
-|**[USB-SA](#usb-sa)**| 예 |   선택 사항 |  아니요| [추가 정보](enroll-ios-devices-with-apple-configurator-and-setup-assistant.md)|
-|**[USB-Direct](#usb-direct)**| 아니요 |    아니요  | 아니요|[추가 정보](enroll-ios-devices-with-apple-configurator-and-direct-enrollment.md)|
+|**[BYOD](#byod)** | 아니요|    예 |    아니요 | 자세한 내용은 곧 제공 예정|
+|**[DEM](#dem)**|    아니요 |아니요 |아니요    | [추가 정보](enroll-ios-devices-using-device-enrollment-program.md)|
+|**[DEP](#dep)**|    예 |    선택 사항 |    선택 사항입니다.|[추가 정보](enroll-ios-devices-using-device-enrollment-program.md)|
+|**[USB-SA](#usb-sa)**|    예 |    선택 사항 |    아니요| [추가 정보](enroll-ios-devices-with-apple-configurator-and-setup-assistant.md)|
+|**[USB-Direct](#usb-direct)**|    아니요 |    아니요    | 아니요|[추가 정보](enroll-ios-devices-with-apple-configurator-and-direct-enrollment.md)|
 
 
 
 **Windows 등록 방법**
 
-| **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보**|
+| **방법** |    **초기화가 필요하세요?** |    **선호도**    |    **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 예|   예 |   아니요 | 자세한 내용은 곧 제공 예정|
-|**[DEM](#dem)**|   아니요 |아니요 |아니요  |[추가 정보](enroll-devices-using-device-enrollment-manager.md)|
+|**[BYOD](#byod)** | 예|    예 |    아니요 | 자세한 내용은 곧 제공 예정|
+|**[DEM](#dem)**|    아니요 |아니요 |아니요    |[추가 정보](enroll-devices-using-device-enrollment-manager.md)|
 
 **Android 등록 방법**
 
-| **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보**|
+| **방법** |    **초기화가 필요하세요?** |    **선호도**    |    **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |   아니요 | 자세한 내용은 곧 제공 예정|
-|**[DEM](#dem)**|   아니요 |아니요 |아니요  |[추가 정보](enroll-ios-devices-using-device-enrollment-program.md)|
+|**[BYOD](#byod)** | 아니요|    예 |    아니요 | 자세한 내용은 곧 제공 예정|
+|**[DEM](#dem)**|    아니요 |아니요 |아니요    |[추가 정보](enroll-ios-devices-using-device-enrollment-program.md)|
 
 
 ## <a name="byod"></a>BYOD
-"Bring Your Own Device" 사용자가 회사 포털 앱을 설치하고 장치를 등록합니다. 이렇게 하면 사용자가 회사 네트워크에 연결되어 도메인 또는 Azure Active Directory에 가입할 수 있습니다. 대부분의 플랫폼에서는 많은 COD 시나리오를 위해 BYOD 등록을 사용하도록 설정해야 합니다.
+"Bring Your Own Device" 사용자가 회사 포털 앱을 설치하고 장치를 등록합니다. 이렇게 하면 사용자가 회사 네트워크에 연결되어 도메인 또는 Azure Active Directory에 가입할 수 있습니다. 대부분의 플랫폼에서는 많은 COD 시나리오를 위해 BYOD 등록을 사용하도록 설정해야 합니다. 개인적으로 소유한 iOS 및 Android 장치 등록을 차단할 수 있습니다. 지침에 대해서는 [장치 유형 제한 설정](https://docs.microsoft.com/intune-azure/enroll-devices/set-enrollment-restrictions#set-device-type-restrictions)을 참조하세요.
 
 ## <a name="corporate-owned-devices"></a>회사 소유 장치
 Azure Portal을 사용하여 COD(회사 소유 장치)를 관리할 수 있습니다. Apple에서 제공한 도구를 통해 iOS 장치를 직접 등록할 수 있습니다. 관리자 또는 관리자 장치 등록 관리자를 사용하여 모든 장치 유형을 등록할 수 있습니다. COD 시나리오를 사용할 수 있도록 IMEI 번호가 있는 장치도 식별하고 회사 소유로 태그를 지정할 수 있습니다.
@@ -80,8 +81,8 @@ Azure Portal을 사용하여 COD(회사 소유 장치)를 관리할 수 있습�
 ### <a name="dep"></a>DEP
 Apple DEP(장치 등록 프로그램) 관리에서는 정책을 만든 후, 구입한 iOS 장치 중에서 DEP로 관리하는 장치에 "무선으로" 정책을 배포할 수 있습니다. 사용자가 처음으로 장치를 켜고 iOS 설치 도우미를 실행하면 장치가 등록됩니다. 이 방법은 **iOS 감독** 모드를 지원하며, 이 모드에서는 다음을 사용할 수 있습니다.
 
-  - 잠긴 등록
-  - 키오스크 모드와 다른 고급 구성 및 제한 사항
+  -    잠긴 등록
+  -    키오스크 모드와 다른 고급 구성 및 제한 사항
 
 iOS 등록에 대한 자세한 내용은 다음을 참조하세요.
 
@@ -91,8 +92,8 @@ iOS 등록에 대한 자세한 내용은 다음을 참조하세요.
 
 ### <a name="usb-sa"></a>USB-SA
 설정 도우미 및 Apple Configurator IT 관리자는 USB 통해 Apple Configurator를 사용하여 등록할 각 회사 소유 장치를 [설정 도우미]를 통해 수동으로 준비합니다. IT 관리자는 등록 프로필을 만들어 Apple Configurator로 내보냅니다. 사용자가 장치를 받으면 [설정 도우미]를 실행하여 장치를 등록하라는 메시지가 표시됩니다. 이 방법은 **iOS 감독** 모드를 지원하며, 이 모드에서는 다음을 사용할 수 있습니다.
-  - 잠긴 등록
-  - 키오스크 모드와 다른 고급 구성 및 제한 사항
+  -    잠긴 등록
+  -    키오스크 모드와 다른 고급 구성 및 제한 사항
 
 iOS 등록에 대한 자세한 내용은 다음을 참조하세요.
 
@@ -127,9 +128,4 @@ EAS MDM 정책을 사용하여 등록되지는 않았지만 EAS(Exchange ActiveS
 ## <a name="mobile-device-cleanup-after-mdm-certificate-expiration"></a>MDM 인증서 만료 후 모바일 장치 정리
 
 MDM 인증서는 모바일 장치가 Intune 서비스와 통신할 때 자동으로 갱신됩니다. 모바일 장치(PC가 아님)가 초기화된 경우 또는 일정 기간 동안 Intune 서비스와 통신하지 못한 경우에는 MDM 인증서가 갱신되지 않습니다. MDM 인증서가 만료되고 180일 후 Azure Portal에서 장치가 제거됩니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

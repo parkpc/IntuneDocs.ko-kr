@@ -14,8 +14,9 @@ ms.assetid: 7e5c79c5-2883-4841-9be6-74cba16ee447
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 65a6b2e22359bdcb9b0c15a84c6b3586dafe4d6c
-ms.openlocfilehash: c740dedebdc4afd909a8c38447f698c2724de5a1
+ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
+ms.openlocfilehash: b2c79e92f6378825bdaac03d2d9be699bdaca95b
+ms.lasthandoff: 02/15/2017
 
 ---
 
@@ -31,7 +32,7 @@ Apple DEP(장치 등록 프로그램)로 회사 소유의 iOS 장치를 관리�
 > 이 지침은 Intune 관리 콘솔에서 Azure Portal로 마이그레이션한 경우에만 적용됩니다. 마이그레이션 기간 동안 Intune 관리 콘솔에서 Apple DEP 토큰을 삭제한 경우에는 DEP 토큰이 Intune 계정으로 복원될 수도 있습니다. 이 경우 Azure Portal에서 DEP 토큰을 삭제하면 됩니다. 
 
 **Apple DEP 인증서를 가져오려면**</br>
-Azure Portal에서 **추가 서비스**를 선택하고 텍스트 상자에 **Intune**을 입력한 다음 **기타** > **Intune**을 선택합니다. Intune 블레이드에서 **장치 등록** > **Apple DEP 인증서**를 선택한 후 Azure Portal에서 번호가 매겨진 단계(아래 참조)를 따릅니다.
+Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다. Intune 블레이드에서 **장치 등록** > **Apple DEP 인증서**를 선택한 후 Azure Portal에서 번호가 매겨진 단계(아래 참조)를 따릅니다.
 
 **1단계. Apple DEP 토큰을 만드는 데 필요한 Intune 공개 키 인증서를 다운로드합니다.**<br>
 **공개 키 다운로드**를 선택하여 암호화 키(.pem) 파일을 다운로드하고 로컬로 저장합니다. .pem 파일은 Apple 장치 등록 프로그램 포털에서 트러스트 관계 인증서를 요청하는 데 사용됩니다.
@@ -53,9 +54,4 @@ Azure Portal에서 **추가 서비스**를 선택하고 텍스트 상자에 **In
 
 **4단계. 업로드할 Apple DEP 토큰으로 이동합니다. Intune에서 DEP 계정과 자동으로 동기화합니다.**<br>
 인증서(.pem) 파일로 이동한 후 **열기**를 선택하고 **업로드**를 선택합니다. Push Certificate가 있으면 Intune에서 등록된 모바일 장치에 정책을 푸시하여 iOS 장치를 등록하고 관리할 수 있습니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

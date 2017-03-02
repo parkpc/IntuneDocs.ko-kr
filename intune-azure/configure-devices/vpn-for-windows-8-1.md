@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/22/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: aff935508551b45ee0a69f907506b0703290fddf
-ms.openlocfilehash: 31a7779537062a63fac1fb512a7cf4b9033368f7
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 21ed25c1c0afd2c3fa45c15d4aa40d9c8d57b35a
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="vpn-settings-for-windows-81-devices-in-intune-azure-preview"></a>Intune Azure 미리 보기의 Windows 8.1 장치에 대한 VPN 설정
+# <a name="vpn-settings-for-windows-81-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows 8.1 장치에 대한 VPN 설정
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -93,9 +94,4 @@ ms.openlocfilehash: 31a7779537062a63fac1fb512a7cf4b9033368f7
     - **주소** - 프록시 서버 주소를 IP 주소로 입력합니다.
     - **포트 번호** - 프록시 서버와 연결된 포트 번호를 입력합니다.
 - **로컬 주소에 프록시 사용 안 함** - VPN 서버에 연결을 위한 프록시 서버가 필요한 경우 지정하는 로컬 주소에 대해 프록시 서버를 사용하지 않으려면 이 옵션을 선택합니다. 자세한 내용은 Windows Server 설명서를 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

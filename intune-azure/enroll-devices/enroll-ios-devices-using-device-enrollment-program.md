@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 02/03/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,9 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: adb2fd27d7f2b3f0ef4dce6b26fcb20d74b69a00
-ms.openlocfilehash: 2986e659d384eaa67b64af1ce3ae48a1ac81a600
+ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
+ms.openlocfilehash: da6d377c94ce5db7bbfa1cb3fc165581d649a1fb
+ms.lasthandoff: 02/15/2017
 
 
 ---
@@ -50,7 +51,7 @@ iOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료�
 
 장치 등록 프로필은 장치 그룹에 적용되는 설정을 정의합니다. 다음 단계는 DEP를 사용하여 등록된 iOS 장치에 대한 장치 등록 프로필을 만드는 방법을 보여 줍니다.
 
-1. Azure Portal에서 **추가 서비스**를 선택하고 텍스트 상자에 **Intune**을 입력한 다음 **기타** > **Intune**을 선택합니다.
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
 2. Intune 블레이드에서 **장치 등록**을 선택한 다음 **Apple 등록**을 선택합니다.
 
@@ -110,17 +111,19 @@ iOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료�
 
 ## <a name="synchronize-dep-managed-devices"></a>DEP 관리 장치 동기화
 
-1. Azure Portal의 Intune 블레이드에서 **장치 등록**을 선택한 다음 **Apple 등록**을 선택합니다.
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
-2. **APPLE DEP(장치 등록 프로그램) 설정 관리** 아래에서 **DEP 일련 번호**를 선택합니다.
+2. Azure Portal의 Intune 블레이드에서 **장치 등록**을 선택한 다음 **Apple 등록**을 선택합니다.
+
+3. **APPLE DEP(장치 등록 프로그램) 설정 관리** 아래에서 **DEP 일련 번호**를 선택합니다.
 
 4. **Apple DEP 일련 번호** 블레이드에서 **동기화**를 선택합니다.
 
 5. **동기화** 블레이드에서 **동기화 요청**을 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
 
     허용 가능한 DEP 트래픽에 대한 Apple의 약관을 준수하려면 Intune에서는 다음과 같은 제한 사항을 적용합니다.
-     -  전체 DEP 동기화는&7;일마다 한 번 이상 실행할 수 없습니다. 전체 동기화 중 Intune은 Apple에서 일련 번호가 이전에 동기화되었는지 여부를 Intune에 할당한 모든 일련 번호를 새로 고칩니다. 전체 동기화를 이전 전체 동기화의&7;일 이내에 시도하는 경우 Intune은 Intune에 나열되지 않은 일련 번호만 새로 고칩니다.
-     -  모든 동기화 요청은 완료하는 데 10분이 주어집니다. 이 시간 동안 또는 요청이 성공될 때까지 **동기화** 단추는 비활성화됩니다.
+     -    전체 DEP 동기화는&7;일마다 한 번 이상 실행할 수 없습니다. 전체 동기화 중 Intune은 Apple에서 일련 번호가 이전에 동기화되었는지 여부를 Intune에 할당한 모든 일련 번호를 새로 고칩니다. 전체 동기화를 이전 전체 동기화의&7;일 이내에 시도하는 경우 Intune은 Intune에 나열되지 않은 일련 번호만 새로 고칩니다.
+     -    모든 동기화 요청은 완료하는 데 10분이 주어집니다. 이 시간 동안 또는 요청이 성공될 때까지 **동기화** 단추는 비활성화됩니다.
 
 >[!NOTE]
 >**Apple DEP 일련 번호** 블레이드에서 프로필에 DEP 일련 번호를 할당할 수도 있습니다.
@@ -153,9 +156,4 @@ iOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료�
 7. 일련 번호를 확인한 후 회사 포털 앱에서 회사 포털 웹 사이트로 리디렉션하여 등록을 마칩니다. 그런 다음 웹 사이트에서 앱으로 돌아가라는 메시지를 표시합니다.
 
 이제 등록이 완료되었으며 기능의 전체 집합으로 이 장치를 사용할 수 있습니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

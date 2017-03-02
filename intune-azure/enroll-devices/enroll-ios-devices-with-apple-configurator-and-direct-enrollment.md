@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 01/29/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,9 @@ ms.assetid: e6c0a430-1851-4108-812a-87e0fc2623b5
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 521a37044d6721fe905db7740329688ba2c24b35
-ms.openlocfilehash: f6770556e6ee4e6a6fa1173c8c65c7e54d159016
+ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
+ms.openlocfilehash: 642ecb716a4325d736be6fc392f39162e903d835
+ms.lasthandoff: 02/15/2017
 
 
 ---
@@ -53,7 +54,7 @@ iOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료�
 
 장치 등록 프로필은 장치 그룹에 적용되는 설정을 정의합니다. 다음 단계는 Apple Configurator를 사용하여 등록된 iOS 장치에 대한 장치 등록 프로필을 만드는 방법을 보여 줍니다.
 
-1. Azure Portal에서 **추가 서비스**를 선택하고 텍스트 상자에 **Intune**을 입력한 다음 **기타** > **Intune**을 선택합니다.
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
 2. Intune 블레이드에서 **장치 등록**을 선택한 다음 **Apple 등록**을 선택합니다.
 
@@ -98,9 +99,4 @@ iOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료�
 4. iOS 장치에서 **설정**을 열고 **일반** > **장치 관리** > **관리 프로필**로 이동합니다. 프로필 설치가 나열되는지 확인하고 iOS 정책 제한 및 설치된 앱을 확인합니다. 정책 제한 및 앱이 장치에 표시되는 데 최대 10분 정도 걸릴 수 있습니다.
 
 5. 장치를 배포합니다. 이제 iOS 장치가 Intune에 등록되고 관리됩니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

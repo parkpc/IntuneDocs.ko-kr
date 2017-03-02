@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/08/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 1447c123-ea33-4ea0-aab4-69577cdb8d00
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6cd3069a63bd657d1c9f5e33b96db39a3b3f98d2
-ms.openlocfilehash: 23322313bfedb089f2665f53795996a26efe40e0
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 61bb77b24314aca234e20df42c2eaa975dfcee8d
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="vpn-settings-for-ios-devices-in-intune-azure-preview"></a>Intune Azure 미리 보기의 iOS 장치에 대한 VPN 설정
+# <a name="vpn-settings-for-ios-devices-in-microsoft-intune"></a>Microsoft Intune의 iOS 장치에 대한 VPN 설정
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -77,9 +78,4 @@ ms.openlocfilehash: 23322313bfedb089f2665f53795996a26efe40e0
 - **자동 구성 스크립트** - 파일을 사용하여 프록시 서버를 구성합니다. 구성 파일이 포함된 **프록시 서버 URL**(예: **http://proxy.contoso.com**)을 입력합니다.
 - **주소** - 프록시 서버 주소를 IP 주소로 입력합니다.
 - **포트 번호** - 프록시 서버와 연결된 포트 번호를 입력합니다.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

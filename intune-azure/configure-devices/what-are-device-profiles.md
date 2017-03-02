@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/03/2017
+ms.date: 02/15/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,18 +14,18 @@ ms.assetid:
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 89afae81076d563f4ebba289f8fa82eaea6ab234
-ms.openlocfilehash: 0e126c067b5c212ae5bfe1cf69e01128a00b1c8e
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: a5f6ad4dd5339b31a6a1fd549a3b29b0ff258a5b
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="what-are-device-profiles"></a>장치 프로필이란?
-<!--- This topic doesn't really answer the topic title: What are device profiles?" It needs to answer that question, then it can go on to discuss what profiles are in Intune and how to use them. Linda--->
+# <a name="what-are-microsoft-intune-device-profiles"></a>Microsoft Intune 장치 프로필이란?
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
-Microsoft Intune **장치 구성** 워크로드를 사용하여 관리하는 모든 장치의 설정 및 기능을 관리할 수 있습니다.
+Microsoft Intune **장치 구성** 워크로드를 사용하여 관리하는 모든 장치의 설정 및 기능을 관리할 수 있습니다. 대부분 이 워크로드를 사용하여 장치 프로필을 만들 수 있습니다. 장치 프로필을 통해 관리하는 장치에서 광범위한 기능을 관리하고 제어할 수 있습니다.
 
 이 워크로드를 열면 다음 옵션이 표시됩니다.
 
@@ -60,10 +60,6 @@ VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전
 이 프로필 유형을 사용하여 장치에 할당하고 Wi-Fi, VPN 및 메일 프로필을 인증하는 데 사용할 수 있는 신뢰할 수 있는 SCEP 및 PKCS 인증서를 구성할 수 있습니다.
 자세한 내용은 [인증서를 구성하는 방법](how-to-configure-certificates.md)을 참조하세요. 지원: Android, iOS, Windows Phone 8.1, Windows 8.1 및 Windows 10
 
-## <a name="education"></a>교육
-교육 환경에서 iOS 장치를 사용하여 올바른 인증서를 지정하도록 도와줍니다.
-자세한 내용은 [iOS 장치에 대한 Intune 교육 설정을 구성하는 방법](education-settings-for-ios.md)을 참조하세요. 지원: iOS만 해당
-
 ## <a name="edition-upgrade"></a>버전 업그레이드
 이 프로필 유형을 사용하면 일부 버전의 Windows 10을 실행하는 장치를 새 버전으로 자동으로 업그레이드할 수 있습니다. 자세한 내용은 [Windows 10 버전 업그레이드를 구성하는 방법](how-to-configure-windows-10-edition-upgrade.md)을 참조하세요. 지원: Windows 10만 해당
 
@@ -74,9 +70,4 @@ Windows 정보 보호는 직원 환경을 방해하지 않으면서 데이터 �
 ## <a name="custom"></a>사용자 지정
 사용자 지정 설정을 사용하면 Intune에 기본 제공되지 않는 장치 설정을 할당할 수 있습니다. 예를 들어 Android 장치에서 해당 장치를 구성하는 OMA-URI 값을 지정할 수 있습니다. IOS 장치의 경우 Apple Configurator에서 만든 구성 파일을 가져올 수 있습니다.
 자세한 내용은 [사용자 지정 설정을 구성하는 방법](how-to-configure-custom-settings.md)을 참조하세요. 지원: Android, iOS, macOS 및 Windows Phone 8.1
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

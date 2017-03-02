@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/10/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 67e3481f9cf01bd1b298cfb26f25d1a3205e0f29
-ms.openlocfilehash: 0c22d8a85d90139b3ac17c54668890d5b4c0afe6
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: c6293e9c669266203705a8fe06c323869dc7881f
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="how-to-configure-device-restriction-settings-in-intune-azure-preview"></a>Intune Azure 미리 보기에서 장치 제한 설정을 구성하는 방법
+# <a name="how-to-configure-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune에서 장치 제한 설정을 구성하는 방법
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -62,10 +63,5 @@ ms.openlocfilehash: 0c22d8a85d90139b3ac17c54668890d5b4c0afe6
 이 개략적인 예에서는 Android 장치에서 기본 제공 카메라 앱의 사용을 차단하는 장치 제한 정책을 만듭니다.
 
 ![Android 장치에서 카메라를 사용하지 않도록 설정하는 방법](./media/disable-android-camera.png)
-
-
-
-
-<!--HONumber=Feb17_HO1-->
 
 

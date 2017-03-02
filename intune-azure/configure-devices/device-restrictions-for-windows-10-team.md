@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 677c41a2-5344-4c52-85f0-809dce3a5d5b
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e6e0540acd5488077ae5217f8862e3bc5462ed71
-ms.openlocfilehash: 342681922944fd1ea4be6aa4ddcb0725f6cfd42b
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: ab9c879763ce1ed02a52a57e66fdc06fa970c2a4
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="windows-10-team-device-restriction-settings-in-intune-azure-preview"></a>Intune Azure 미리 보기의 Windows 10 Team 장치 제한 설정
+# <a name="windows-10-team-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 Team 장치 제한 설정
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -33,9 +34,4 @@ ms.openlocfilehash: 342681922944fd1ea4be6aa4ddcb0725f6cfd42b
 - **시작 화면 배경 이미지 URL** - 지정한 URL에서 Windows 10 Team 장치의 **시작** 화면에 사용자 지정 배경을 표시하려면 이 설정을 사용하도록 설정합니다.<br>이미지는 PNG 형식이어야 하며 URL은 **https://**로 시작되어야 합니다.
 - **업데이트 유지 관리 창** - 장치를 업데이트할 수 있는 기간을 구성합니다. 시작 시간 및 지속 기간(1-5시간)을 구성할 수 있습니다.
 - **Azure Operational Insights** - Microsoft Operations Manager 제품군에 포함되어 있는 Azure Operational Insights는 Windows 10 Team 장치에서 로그 파일 데이터를 수집, 저장 및 분석합니다.<br>Azure Operational insights에 연결하려면 **작업 영역 ID** 및 **작업 영역 키**를 지정해야 합니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

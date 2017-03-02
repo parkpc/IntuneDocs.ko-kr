@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 01/29/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,9 @@ ms.assetid: 7196b33e-d303-4415-ad0b-2ecdb14230fd
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 521a37044d6721fe905db7740329688ba2c24b35
-ms.openlocfilehash: 1ab58388f3d126d5d831c65ad3342ec87fb77b91
+ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
+ms.openlocfilehash: 78eca605a277c1e0fc750900ece028d8f2c7c5b2
+ms.lasthandoff: 02/15/2017
 
 ---
 
@@ -66,7 +67,7 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
 ## <a name="add-a-device-enrollment-manager"></a>장치 등록 관리자 추가
 
-1.  Azure Portal에서 **추가 서비스**를 선택하고 텍스트 상자에 **Intune**을 입력한 다음 **기타** > **Intune**을 선택합니다.
+1.  Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
 2.  Intune 블레이드에서 **장치 등록**을 선택한 다음 **장치 등록 관리자**를 선택합니다.
 
@@ -88,18 +89,17 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
 **장치 등록 관리자를 제거하려면**
 
-1. Intune 블레이드에서 **장치 등록**을 선택한 다음 **장치 등록 관리자**를 선택합니다.
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
-2. **장치 등록 관리자** 블레이드에서 DEM 사용자를 마우스 오른쪽 단추로 클릭하고 **제거**를 선택합니다.
+2. Intune 블레이드에서 **장치 등록**을 선택한 다음 **장치 등록 관리자**를 선택합니다.
+
+3. **장치 등록 관리자** 블레이드에서 DEM 사용자를 마우스 오른쪽 단추로 클릭하고 **제거**를 선택합니다.
 
 ## <a name="view-the-properties-of-a-device-enrollment-manager"></a>장치 등록 관리자의 속성 보기
 
-1. Intune 블레이드에서 **장치 등록**을 선택한 다음 **장치 등록 관리자**를 선택합니다.
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
-2. **장치 등록 관리자** 블레이드에서 DEM 사용자를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
+2. Intune 블레이드에서 **장치 등록**을 선택한 다음 **장치 등록 관리자**를 선택합니다.
 
-
-
-<!--HONumber=Feb17_HO1-->
-
+3. **장치 등록 관리자** 블레이드에서 DEM 사용자를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 

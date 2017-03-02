@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,36 +14,37 @@ ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d87cbc82b55c4c7615decf8d37d59e2194de9922
-ms.openlocfilehash: b46d445ce1da103308559939a5bfd8e5e38d46d3
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 009fa0f9ab097d57389f96d2d86a88b0811fef4e
+ms.lasthandoff: 02/16/2017
 
 
 
 ---
-# <a name="use-an-intune-custom-device-profile-to-create-a-wi-fi-profile-with-a-pre-shared-key-in-intune-azure-preview"></a>Intune Azure 미리 보기에서 Intune 사용자 지정 장치 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만듭니다.
+# <a name="use-a-microsoft-intune-custom-device-profile-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>Microsoft Intune 사용자 지정 장치 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필 만들기
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
 Intune의 **사용자 지정 장치 프로필**을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만드는 방법은 다음과 같습니다. 이 항목에서는 EAP 기반 Wi-Fi 프로필을 만드는 방법에 대한 예도 포함합니다.
 
 > [!NOTE]
--   아래 설명된 대로 네트워크에 연결하는 컴퓨터에서 코드를 복사하면 작업을 좀 더 쉽게 수행할 수 있습니다.
+-    아래 설명된 대로 네트워크에 연결하는 컴퓨터에서 코드를 복사하면 작업을 좀 더 쉽게 수행할 수 있습니다.
 - Android의 경우 Johnathon Biersack이 제공하는 이 [Android PSK 생성기](http://johnathonb.com/2015/05/intune-android-pre-shared-key-generator/)를 사용하는 옵션도 포함합니다.
--   더 많은 OMA-URI 설정을 추가하여 여러 네트워크와 키를 추가할 수 있습니다.
+-    더 많은 OMA-URI 설정을 추가하여 여러 네트워크와 키를 추가할 수 있습니다.
 -  iOS의 경우 Mac 스테이션의 Apple Configurator를 사용하여 프로필을 설정합니다. 또는 Johnathon Biersack이 제공하는 이 [iOS PSK Mobile Config Generator](http://johnathonb.com/2015/05/intune-ios-psk-mobile-config-generator/)를 사용합니다.
 
 
-1.  Android 또는 Windows용으로 미리 공유한 키를 사용하여 Wi-Fi 프로필을 만들거나 EAP 기반 Wi-Fi 프로필을 만들려면 장치 프로필을 만들 때 해당 장치 플랫폼에 대해 Wi-Fi 프로필 대신 **사용자 지정**을 선택합니다.
+1.    Android 또는 Windows용으로 미리 공유한 키를 사용하여 Wi-Fi 프로필을 만들거나 EAP 기반 Wi-Fi 프로필을 만들려면 장치 프로필을 만들 때 해당 장치 플랫폼에 대해 Wi-Fi 프로필 대신 **사용자 지정**을 선택합니다.
 
-2.  이름 및 설명을 제공합니다.
-3.  새 OMA-URI 설정을 추가합니다.
+2.    이름 및 설명을 제공합니다.
+3.    새 OMA-URI 설정을 추가합니다.
 
-   a.   이 Wi-Fi 네트워크 설정에 대한 이름을 입력합니다.
+   a.    이 Wi-Fi 네트워크 설정에 대한 이름을 입력합니다.
 
-   b.   OMA-URI 설정에 대한 설명을 입력하거나 비워 둡니다.
+   b.    OMA-URI 설정에 대한 설명을 입력하거나 비워 둡니다.
 
-   c.   **데이터 형식**: **문자열**로 설정합니다.
+   c.    **데이터 형식**: **문자열**로 설정합니다.
 
-   d.   **OMA URI**
+   d.    **OMA URI**
 
     - **Android용**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
     - **Windows용**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
@@ -204,9 +205,4 @@ EAP 기반 Wi-Fi 프로필에 대한 XML 코드 예제는 다음과 같습니다
     각 프로필을 검색하여 적합한 프로필을 찾아야 하므로 여러 무선 네트워크에 연결되지 않은 컴퓨터를 사용하는 것이 가장 좋습니다.
 3.     XML 파일을 검색하여 올바른 이름의 항목을 찾습니다.
 4.     올바른 XML 파일을 찾았으면 XML 코드를 복사하여 OMA-URI 설정 페이지의 데이터 필드에 붙여넣습니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

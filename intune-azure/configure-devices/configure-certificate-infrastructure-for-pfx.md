@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/03/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: e189ebd1-6ca1-4365-9d5d-fab313b7e979
 ms.reviewer: vinaybha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3f05e0018fb202ab5774e935c3f59855e4aa2e75
-ms.openlocfilehash: 74f2cc7221e737371d7db97ec25d872578df273d
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 6f08dc63a9afaa5e92b188883d160d0b76f3631f
+ms.lasthandoff: 02/16/2017
 
 
 
 ---
-# <a name="configure-your-intune-certificate-infrastructure-for-pkcs"></a>PKCS에 대한 Intune 인증서 인프라 구성
+# <a name="configure-your-microsoft-intune-certificate-infrastructure-for-pkcs"></a>PKCS에 대한 Microsoft Intune 인증서 인프라 구성
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
 이 항목에서는 Intune을 사용하여 PKCS 인증서 프로필을 만들고 배포하기 위해 필요한 사항을 설명합니다.
@@ -157,9 +158,4 @@ PKCS 인증서 프로필을 사용하려면 엔터프라이즈 인증 기관 외
 
 ### <a name="next-steps"></a>다음 단계
 이제 [Microsoft Intune을 사용하여 인증서를 구성하는 방법](how-to-configure-certificates.md)에 설명된 대로 인증서 프로필을 설정할 준비가 되었습니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

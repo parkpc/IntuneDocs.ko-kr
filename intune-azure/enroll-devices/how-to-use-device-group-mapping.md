@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/08/2016
+ms.date: 02/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,9 @@ ms.technology:
 ms.assetid: 7b668c37-40b9-4c69-8334-5d8344e78c24
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1609ed2f127fe9d7d1f1c3b3e923bd12f1088200
-ms.openlocfilehash: 41b3cfb8006a7390094d01b4f0fdc38417e858be
+ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
+ms.openlocfilehash: 57dce5b23b9c8cd878a9ce746e6459a69f1270ff
+ms.lasthandoff: 02/15/2017
 
 
 ---
@@ -41,7 +42,7 @@ ms.openlocfilehash: 41b3cfb8006a7390094d01b4f0fdc38417e858be
 ## <a name="how-to-configure-device-categories"></a>장치 범주를 구성하는 방법
 
 ### <a name="step-1---create-device-categories-in-the-intune-blade-of-the-azure-portal"></a>1단계 - Azure Portal의 Intune 블레이드에서 장치 범주 만들기
-1. Azure 포털에 로그인합니다.
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **장치 등록**을 선택합니다.
 3. **등록** 블레이드에서 **장치 범주**를 선택합니다.
@@ -61,17 +62,20 @@ ms.openlocfilehash: 41b3cfb8006a7390094d01b4f0fdc38417e858be
 장치 그룹을 구성하고 사용자가 해당 장치를 등록한 후에는 구성한 범주의 목록으로 표시됩니다. 범주를 선택하고 등록을 완료한 후에 이 장치는 선택한 범주에 해당하는 Active Directory 보안 그룹에 추가됩니다.
 
 ### <a name="how-to-view-the-categories-of-devices-you-manage"></a>관리하는 장치의 범주를 확인하는 방법
-1.    Azure Portal의 Intune 블레이드에서 **장치 및 그룹**을 선택합니다.
 
-2.    **관리** 아래에서 **모든 장치**를 클릭합니다.
+1.    Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
-3.    장치 목록에서 **범주** 열을 확인합니다.
+2. Azure Portal의 Intune 블레이드에서 **장치 및 그룹**을 선택합니다.
+
+3.    **관리** 아래에서 **모든 장치**를 클릭합니다.
+
+4.    장치 목록에서 **범주** 열을 확인합니다.
 
 **범주** 열이 표시되지 않으면 **열**을 클릭하고 목록에서 **범주**를 선택한 다음 **적용**을 클릭합니다.
 
 ### <a name="to-change-the-category-of-a-device"></a>장치의 범주를 변경하려면
 
-1. Azure 포털에 로그인합니다.
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **장치 및 그룹**을 선택합니다.
 4. **장치 및 그룹** 블레이드에서 **관리** > **모든 장치**를 선택합니다.
@@ -85,10 +89,5 @@ ms.openlocfilehash: 41b3cfb8006a7390094d01b4f0fdc38417e858be
 
 - 범주를 삭제하면 해당 범주에 할당된 모든 장치의 범주 이름이 **할당되지 않음**으로 표시됩니다.
 
-
-
-
-
-<!--HONumber=Feb17_HO2-->
 
 

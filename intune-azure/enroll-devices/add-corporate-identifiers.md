@@ -3,9 +3,9 @@ title: "Intune에 IMEI 식별자 추가 | Intune Azure 미리 보기 | Microsoft
 description: "Intune Azure 미리 보기: Microsoft Intune에 회사 식별자(IMEI 번호)을 추가하는 방법을 알아봅니다. "
 keywords: 
 author: staciebarker
-ms.author: stabark
+ms.author: stabar
 manager: angrobe
-ms.date: 11/30/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,9 @@ ms.assetid: 566ed16d-8030-42ee-bac9-5f8252a83012
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 990062ecf03a117dad74eb71e3f40abb79f22be6
-ms.openlocfilehash: e134a6e3ff143dacce1d70ef0ab44ade0722ed57
+ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
+ms.openlocfilehash: 8667f063de65fd5fa86149ac124b236a432eecef
+ms.lasthandoff: 02/15/2017
 
 ---
 
@@ -34,7 +35,7 @@ ms.openlocfilehash: e134a6e3ff143dacce1d70ef0ab44ade0722ed57
 
 **회사 식별자의 .csv 목록을 추가하려면**
 
-1. Azure Portal에서 **추가 서비스**를 선택하고 텍스트 상자에 **Intune**을 입력한 다음 **기타** > **Intune**을 선택합니다.
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
 2. Intune 블레이드에서 **장치 등록**을 선택한 다음 **회사 장치 식별자**를 선택합니다.
 
@@ -44,12 +45,9 @@ ms.openlocfilehash: e134a6e3ff143dacce1d70ef0ab44ade0722ed57
 
 **회사 식별자의 .csv 목록을 삭제하려면**
 
-1. Intune 블레이드에서 **장치 등록**을 선택한 다음 **회사 장치 식별자**를 선택합니다.
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
-2. **삭제**를 선택합니다.
+2. Intune 블레이드에서 **장치 등록**을 선택한 다음 **회사 장치 식별자**를 선택합니다.
 
-
-
-<!--HONumber=Feb17_HO1-->
-
+3. **삭제**를 선택합니다.
 

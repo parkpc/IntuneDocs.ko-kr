@@ -14,13 +14,14 @@ ms.assetid: d203a70d-37df-4195-85f7-ad5ef14ac2a1
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6cd3069a63bd657d1c9f5e33b96db39a3b3f98d2
-ms.openlocfilehash: 6f7bcfaec34c4916f7c916210b00440062b83694
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 758573964627b1d5e4f98ea3729df696bf96bf1c
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="vpn-settings-for-macos-devices-in-intune-azure-preview"></a>Intune Azure 미리 보기의 macOS 장치에 대한 VPN 설정
+# <a name="vpn-settings-for-macos-devices-in-microsoft-intune"></a>Microsoft Intune의 macOS 장치에 대한 VPN 설정
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -57,9 +58,4 @@ ms.openlocfilehash: 6f7bcfaec34c4916f7c916210b00440062b83694
 - **자동 구성 스크립트** - 파일을 사용하여 프록시 서버를 구성합니다. 구성 파일이 포함된 **프록시 서버 URL**(예: **http://proxy.contoso.com**)을 입력합니다.
 - **주소** - 프록시 서버 주소를 IP 주소로 입력합니다.
 - **포트 번호** - 프록시 서버와 연결된 포트 번호를 입력합니다.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

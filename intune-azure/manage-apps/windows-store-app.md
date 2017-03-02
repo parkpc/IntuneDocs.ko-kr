@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/11/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,12 +14,13 @@ ms.assetid: 07241b6d-86d8-4abb-83a2-3fc5feae5788
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 01e5bfeb98aee9314fa04679cc27c8aba0e18fb0
-ms.openlocfilehash: ee0079d7b1098c2c9a2a679c46336e2fb8e09585
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 80fe042dbdc909d1c81098567b1a87d8b089cc19
+ms.lasthandoff: 02/16/2017
 
 ---
 
-# <a name="how-to-add-windows-store-apps-to-intune"></a>Intune에 Windows 스토어 앱을 추가하는 방법
+# <a name="how-to-add-windows-store-apps-to-microsoft-intune"></a>Microsoft Intune에 Windows 스토어 앱을 추가하는 방법
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -47,8 +48,3 @@ ms.openlocfilehash: ee0079d7b1098c2c9a2a679c46336e2fb8e09585
 8. 작업을 마치면 **앱 추가** 블레이드에서 **저장**을 선택합니다.
 
 만든 앱이 앱 목록에 표시됩니다. 이 목록에서 선택한 그룹에 앱을 할당할 수 있습니다. 도움말은 [그룹에 앱을 할당하는 방법](/intune-azure/manage-apps/deploy-apps)을 참조하세요.
-
-
-<!--HONumber=Feb17_HO1-->
-
-

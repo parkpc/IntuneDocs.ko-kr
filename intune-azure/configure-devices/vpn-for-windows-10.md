@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/22/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 495e4ed6-b2ef-47cc-a110-13fa9b5f85a6
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: aff935508551b45ee0a69f907506b0703290fddf
-ms.openlocfilehash: 1d0459bc414ce43258aff6fdc2e9313784440f52
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 7f09fa9bb8a9817aaad40c6452cff2a866a926d9
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="vpn-settings-for-windows-10-devices-in-intune-azure-preview"></a>Intune Azure 미리 보기의 Windows 10 장치에 대한 VPN 설정
+# <a name="vpn-settings-for-windows-10-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 장치에 대한 VPN 설정
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -116,9 +117,4 @@ ms.openlocfilehash: 1d0459bc414ce43258aff6fdc2e9313784440f52
     - **주소** - 프록시 서버 주소를 IP 주소로 입력합니다.
     - **포트 번호** - 프록시 서버와 연결된 포트 번호를 입력합니다.
 - **로컬 주소에 프록시 사용 안 함** - VPN 서버에 연결을 위한 프록시 서버가 필요한 경우 지정하는 로컬 주소에 대해 프록시 서버를 사용하지 않으려면 이 옵션을 선택합니다. 자세한 내용은 Windows Server 설명서를 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

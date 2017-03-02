@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 10/19/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 9f0fa6af-3669-439a-bd0d-75d8b1a0b135
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f16c9dfb41cb2cfe07ce473a131dac767dee9c74
-ms.openlocfilehash: 255a5e8c8b430e15aba989e1ce805f7d627f0e0c
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 186630903a606842406ff1d76115c1fa7d1c962e
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="email-profile-settings-for-ios-devices-in-intune-azure-preview"></a>Intune Azure 미리 보기의 iOS 장치에 대한 메일 프로필 설정
+# <a name="email-profile-settings-for-ios-devices-in-microsoft-intune"></a>Microsoft Intune의 iOS 장치에 대한 메일 프로필 설정
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -39,9 +40,4 @@ ms.openlocfilehash: 255a5e8c8b430e15aba989e1ce805f7d627f0e0c
 - **다른 메일 계정으로 메시지를 이동할 수 있음** - 사용자가 자신의 장치에 구성한 여러 계정 간에 메일 메시지를 이동할 수 있도록 허용합니다.
 - **타사 응용 프로그램에서 메일을 전송할 수 있음** - 사용자는 이 프로필을 메일을 보내기 위한 기본 계정으로 선택하고, 타사에서는 네이티브 메일 앱의 메일을 열고 메일에 파일을 첨부할 수 있게 됩니다.
 - **최근 사용된 메일 주소 동기화** - 이 기능을 통해 사용자는 장치에서 최근에 사용한 메일 주소 목록을 서버와 동기화할 수 있습니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

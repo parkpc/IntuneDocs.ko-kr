@@ -14,8 +14,9 @@ ms.assetid: 541be8b8-8668-41be-afce-3f3e08c12191
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 990062ecf03a117dad74eb71e3f40abb79f22be6
-ms.openlocfilehash: a7249e96e737cc844e742a78d8a34899a428f52b
+ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
+ms.openlocfilehash: 56e78f2c80c860c4cdf1c79bf94d7575d5cd9674
+ms.lasthandoff: 02/15/2017
 
 
 ---
@@ -49,7 +50,7 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 
 ## <a name="create-a-windows-hello-for-business-policy"></a>비즈니스용 Windows Hello 정책 만들기
 
-1.  Azure Portal에서 **추가 서비스**를 선택하고 텍스트 상자에 **Intune**을 입력한 다음 **기타** > **Intune**을 선택합니다.
+1.  Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
 2.  Intune 블레이드에서 **장치 등록**을 선택한 다음 **관리** > **비즈니스용 Windows Hello**를 선택합니다.
 
@@ -96,9 +97,4 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 
 ## <a name="further-information"></a>추가 정보
 Microsoft Passport에 대한 자세한 내용은 Windows 10 설명서의 [가이드](https://technet.microsoft.com/library/mt589441.aspx)를 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

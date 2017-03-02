@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 12/13/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,9 @@ ms.assetid: e6c0a430-1851-4108-812a-87e0fc2623b5
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 990062ecf03a117dad74eb71e3f40abb79f22be6
-ms.openlocfilehash: c228601451b33238d0f6929987dcdec3a5e56e8d
+ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
+ms.openlocfilehash: a08274fd4b2d3105b28f46a6d35257b3664f7510
+ms.lasthandoff: 02/15/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.openlocfilehash: c228601451b33238d0f6929987dcdec3a5e56e8d
 
 ## <a name="user-owned-ios-devices-byod"></a>사용자 소유 iOS 장치(BYOD)
 
-사용자가 자신의 개인 BYOD(bring your own device) 장치를 등록하려는 경우 사용 가능한 등록 방법은 앱 스토어에서 iOS용 회사 포털 앱을 다운로드하고 앱의 등록 지침을 따르는 방법밖에 없습니다. 등록한 후에는 회사 네트워크에 연결하고, 도메인 또는 Azure Active Directory에 가입하고, 회사 리소스에 액세스할 수 있습니다.
+사용자가 자신의 개인 BYOD(bring your own device) 장치를 등록하려는 경우 사용 가능한 등록 방법은 앱 스토어에서 iOS용 회사 포털 앱을 다운로드하고 앱의 등록 지침을 따르는 방법밖에 없습니다. 등록한 후에는 회사 네트워크에 연결하고, 도메인 또는 Azure Active Directory에 가입하고, 회사 리소스에 액세스할 수 있습니다. 개인적으로 소유한 iOS 장치 등록을 차단할 수 있습니다. 지침에 대해서는 [장치 유형 제한 설정](https://docs.microsoft.com/intune-azure/enroll-devices/set-enrollment-restrictions#set-device-type-restrictions)을 참조하세요.
 
 ## <a name="apple-configurator"></a>Apple Configurator
 
@@ -48,9 +49,4 @@ DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배�
 
 ## <a name="use-the-device-enrollment-manager-dem"></a>DEM(장치 등록 관리자) 사용
 장치 등록 관리자는 최대 1000개의 장치를 등록하고 관리할 수 있는 사용자 계정 유형입니다. DEM 계정에 기존 사용자를 추가하여 이들에게 이러한 기능을 제공합니다. DEM 사용자가 등록한 각 장치에서는 단일 Intune 라이선스를 사용합니다. 자세한 내용은 [장치 등록 관리자를 사용하여 장치 등록](enroll-devices-using-device-enrollment-manager.md)을 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 
