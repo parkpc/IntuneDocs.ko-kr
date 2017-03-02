@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 01/24/17
+ms.date: 03/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 785e7514c6c6109cfec61a47ae2fc7183c7c2330
 ms.openlocfilehash: 91c6a040f8fd3990c8d48087ac7397db8360f666
+ms.lasthandoff: 01/25/2017
 
 
 ---
@@ -261,7 +262,7 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
 **해결 방법:** 최종 사용자에게 다음 해결 방법을 공유하여 회사 리소스에 대한 액세스 권한을 다시 얻도록 지원합니다.
 
-사용자는 iOS 회사 포털 앱을 시작하는 경우 장치와 Intune과의 연결이 끊겼는지 알 수 있습니다. 연결이 끊겼다고 감지되면 다시 연결하기 위해 Intune과 동기화를 자동으로 시도하며 사용자에게 **동기화하는 중...**이라는 인라인 알림이 표시됩니다. 
+사용자는 iOS 회사 포털 앱을 시작하는 경우 장치와 Intune과의 연결이 끊겼는지 알 수 있습니다. 연결이 끊겼다고 감지되면 다시 연결하기 위해 Intune과 동기화를 자동으로 시도하며 사용자에게 **동기화하는 중...**이라는 인라인 알림이 표시됩니다.
 
   ![동기화하는 중 알림](./media/ios_cp_app_trying_to_sync_notification.png)
 
@@ -269,11 +270,11 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
   ![동기화 성공 알림](./media/ios_cp_app_sync_successful_notification.png)
 
-동기화에 실패할 경우 iOS 회사 포털 앱에 **동기화할 수 없음** 인라인 알림이 표시됩니다. 
+동기화에 실패할 경우 iOS 회사 포털 앱에 **동기화할 수 없음** 인라인 알림이 표시됩니다.
 
   ![동기화할 수 없음 알림](./media/ios_cp_app_unable_to_sync_notification.png)
 
-이 문제를 해결하려면 사용자는 **동기화할 수 없음** 알림 오른쪽에 있는 **설정** 단추를 선택해야 합니다. 설정 단추를 통해 사용자는 회사 액세스 설정 흐름 화면으로 이동하며, 여기에서 프롬프트에 따라 장치를 등록할 수 있습니다. 
+이 문제를 해결하려면 사용자는 **동기화할 수 없음** 알림 오른쪽에 있는 **설정** 단추를 선택해야 합니다. 설정 단추를 통해 사용자는 회사 액세스 설정 흐름 화면으로 이동하며, 여기에서 프롬프트에 따라 장치를 등록할 수 있습니다.
 
   ![회사 액세스 설정 화면](./media/ios_cp_app_company_access_setup.png)
 
@@ -386,9 +387,4 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 
 ### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 
