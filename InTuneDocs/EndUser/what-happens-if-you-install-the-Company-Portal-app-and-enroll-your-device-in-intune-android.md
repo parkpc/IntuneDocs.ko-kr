@@ -20,10 +20,10 @@ ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
 ms.openlocfilehash: f80c6e7089519860e822f974753ac9dc0356e055
+ms.lasthandoff: 01/24/2017
 
 
 ---
-
 
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-android-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 Android 장치를 등록하면 어떻게 되나요?
 
@@ -60,9 +60,4 @@ Android 장치를 등록할 경우 장치에 액세스할 수 있는 권한을 I
 -   임의의 회사 앱 인벤토리 업데이트를 보냅니다. (이러한 업데이트에는 개인 정보가 포함되지 않습니다.)
 
 도움이 필요하십니까? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) [Microsoft Android 팀](mailto:wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 
