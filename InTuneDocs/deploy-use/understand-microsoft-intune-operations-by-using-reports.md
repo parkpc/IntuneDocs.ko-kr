@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 02/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: pbala
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 3400a49feaca9ef34bcffcc176bc496310d4c357
+ms.sourcegitcommit: cc1a3c8c3e2f25ee154db964de2601510e32f1ea
+ms.openlocfilehash: 41354f0eee051bd9c691a27830264f6c95502fa5
+ms.lasthandoff: 02/28/2017
 
 
 
@@ -70,11 +71,5 @@ Intune 보고서는 조직의 소프트웨어, 하드웨어 및 소프트웨어 
 |**로드**|**새 보고서 만들기** 페이지에서 **로드**를 선택하여 이전에 저장된 보고서 매개 변수 집합을 검색합니다.|
 |**삭제**|**보고서** 작업 영역에서 원하는 보고서 유형을 선택하고 **로드**를 선택합니다. 그런 다음 보고서 목록에서 보고서 옆에 있는 삭제(x) 아이콘을 선택합니다.|
 
-### <a name="see-also"></a>참고 항목
-[Microsoft Intune을 사용한 모니터링 및 보고서](monitoring-and-reports-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
 
 

@@ -18,9 +18,9 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 76001bd12e5f665eb1a5a0f0fe5442f0a6fedb8c
-ms.openlocfilehash: d653d3eb1d71d30e2bf1104b1d55bfbcf2725c13
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 57a067684ccada3df4faa15e6bf009b39caf5c94
+ms.openlocfilehash: 5732f52474a8b2b61426e349647f88f4f142d2e2
+ms.lasthandoff: 03/02/2017
 
 
 ---
@@ -43,7 +43,8 @@ ms.lasthandoff: 02/18/2017
 - [PIN 또는 암호 설정](set-your-pin-or-password-android.md)
 - [회사의 VPN(가상 사설망) 설치](install-your-companys-virtual-private-network-VPN-android.md)
 - [장치가 잠기기 전의 시간 설정](set-the-amount-of-time-before-your-device-is-locked-android.md)
-- [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-lost-or-stolen-device-android.md)
+<!--- [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-android.md)-->
+- [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-device-cpwebsite.md)
 - [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-android.md)
 - [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-android.md)
 - [사용 약관을 거부한 경우 장치 등록 취소](unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)

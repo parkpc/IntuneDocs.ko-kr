@@ -18,9 +18,9 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 4b5f0129d6824a51c36662a1cc7ef4e8a2de9e20
-ms.openlocfilehash: 0c594c7a22a86ab576c9bdb191ed02f13cdcc19c
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 57a067684ccada3df4faa15e6bf009b39caf5c94
+ms.openlocfilehash: 598ecac4aafaff5715e311dcfc058c1d2661bd3e
+ms.lasthandoff: 03/02/2017
 
 
 ---
@@ -40,7 +40,8 @@ ms.lasthandoff: 02/18/2017
 
 - [장치에서 관리되는 앱 사용](use-managed-apps-on-your-device-ios.md)
 - [암호 설정 또는 변경](set-or-change-your-passcode-ios.md)
-- [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-lost-or-stolen-device-ios.md)
+<!--- [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-ios.md) -->
+- [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-device-cpwebsite.md)
 - [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-ios.md)
 - [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-ios.md)
 - [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-ios.md)

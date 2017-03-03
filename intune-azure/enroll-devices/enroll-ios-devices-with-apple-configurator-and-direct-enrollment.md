@@ -16,9 +16,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: d335572ae2bc5ce74532de281658d06903f995ee
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: b464a07e701797d39b7f9f50d1854a9a2682ac8e
+ms.openlocfilehash: 3208e964f2676ebcc1e54e29f039c4965c20238f
+ms.lasthandoff: 03/01/2017
 
 
 ---
@@ -44,7 +44,7 @@ iOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료�
 - [도메인 구성](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-2)
 - [MDM 기관 설정](set-mdm-authority.md)
 - [그룹 만들기](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-5)
-- [회사 포털 구성](/intune-azure/manage-apps/company-portal-app.md)
+- [회사 포털 구성](/intune-azure/manage-apps/company-portal-app)
 - [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에서 사용자 라이선스 할당
 - [Apple MDM Push Certificate 가져오기](get-an-apple-mdm-push-certificate.md)
 - iOS 장치에 대한 실제 액세스 확인
