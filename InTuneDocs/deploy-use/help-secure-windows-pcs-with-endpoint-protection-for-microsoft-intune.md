@@ -4,7 +4,7 @@ description: "맬웨어 위협으로부터 실시간 보호를 제공하는 Endp
 keywords: 
 author: nathbarn
 ms.author: nathbarn
-manager: arob98
+manager: angrobe
 ms.date: 01/31/2017
 ms.topic: article
 ms.prod: 
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: 6e2658cdfcd0b78a254c375fe39b67f7ef9afad6
+ms.lasthandoff: 12/10/2016
 
 
 ---
@@ -192,9 +193,4 @@ Intune은 Intune 클라이언트가 설치된 원격 관리 PC에서 Endpoint Pr
 
 ### <a name="see-also"></a>참고 항목
 [Windows PC를 보호하는 정책](policies-to-protect-windows-pcs-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

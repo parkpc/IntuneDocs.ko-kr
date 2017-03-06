@@ -4,7 +4,7 @@ description: "Apple Configurator 도구를 사용하여 회사 소유의 iOS 장
 keywords: 
 author: staciebarker
 ms.author: stabar
-manager: arob98
+manager: angrobe
 ms.date: 01/29/2017
 ms.topic: article
 ms.prod: 
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 521a37044d6721fe905db7740329688ba2c24b35
 ms.openlocfilehash: f75c4a6412d34923ec45524d765d3eb270f15e13
+ms.lasthandoff: 01/31/2017
 
 
 ---
@@ -91,9 +92,4 @@ iOS 장치를 직접 등록하는 경우 장치의 일련 번호를 몰라도 �
 9.  iOS 장치에서 **설정**을 열고 **일반** &gt; **장치 관리** &gt; **관리 프로필**로 이동합니다. 프로필 설치가 나열되는지 확인하고 iOS 정책 제한 및 설치된 앱을 확인합니다. 정책 제한 및 앱이 장치에 표시되는 데 최대 10분 정도 걸릴 수 있습니다.
 
 10.  장치를 배포합니다. 이제 iOS 장치가 Intune에 등록되고 관리됩니다.
-
-
-
-<!--HONumber=Jan17_HO5-->
-
 

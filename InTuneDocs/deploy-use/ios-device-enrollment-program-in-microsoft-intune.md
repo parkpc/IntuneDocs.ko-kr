@@ -4,7 +4,7 @@ description: "“무선으로” iOS DEP(장비 등록 프로그램)를 통해 �
 keywords: 
 author: staciebarker
 ms.author: stabar
-manager: arob98
+manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
