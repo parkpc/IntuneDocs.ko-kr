@@ -2,8 +2,8 @@
 title: "Windows PC에 대한 사용자-장치 연결 관리 | Microsoft 문서"
 description: "Intune에서 관리되는 Windows PC에 사용자를 연결하는 방법을 알아봅니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 10dd2caa9ce1b96424f55e373e904a778390eb15
 ms.openlocfilehash: 3a20dc18a72518ba9e01552cd1283170972b4bbb
+ms.lasthandoff: 12/16/2016
 
 
 ---
@@ -48,8 +49,3 @@ ms.openlocfilehash: 3a20dc18a72518ba9e01552cd1283170972b4bbb
 ### <a name="see-also"></a>참고 항목
 
 [Intune 소프트웨어 클라이언트를 사용하는 일반 Windows PC 관리 작업](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
-
-
-<!--HONumber=Dec16_HO3-->
-
-

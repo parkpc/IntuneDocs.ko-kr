@@ -2,7 +2,8 @@
 title: "Windows 10 Mobile 및 Windows Phone 관리 설정 | Microsoft 문서"
 description: "Microsoft Intune으로 Windows 10 Mobile 또는 Windows Phone 장치에 대한 MDM(모바일 장치 관리)을 설정합니다."
 keywords: 
-author: staciebarker
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/08/2017
 ms.topic: article

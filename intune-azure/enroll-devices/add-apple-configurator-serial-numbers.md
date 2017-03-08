@@ -3,8 +3,8 @@ title: "Apple Configurator 일련 번호 추가"
 titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Apple Configurator를 사용하여 회사 소유 iOS 장치에 일련 번호를 추가하는 방법을 알아봅니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article

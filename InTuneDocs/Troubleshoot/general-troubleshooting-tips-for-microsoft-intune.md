@@ -2,7 +2,8 @@
 title: "일반적인 문제 해결 팁 | Microsoft 문서"
 description: "Intune 문제를 해결하는 데 도움이 되는 일반 리소스입니다."
 keywords: 
-author: staciebarker
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 12/08/2016
 ms.topic: article
@@ -16,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: d05c9d7a78474c19e142bca94e232289fbfba1d9
 ms.openlocfilehash: ef6c482a45a7c759cec1062b129d2644562d0da2
+ms.lasthandoff: 01/25/2017
 
 
 ---
@@ -94,9 +96,4 @@ Microsoft Intune을 배포한 후에 구성이나 클라이언트 장치에서 �
 [Microsoft Intune에서 클라이언트 설정 문제 해결](troubleshoot-client-setup-in-microsoft-intune.md)
 
 [Microsoft Intune에서 소프트웨어 업데이트 문제 해결](troubleshoot-software-updates-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

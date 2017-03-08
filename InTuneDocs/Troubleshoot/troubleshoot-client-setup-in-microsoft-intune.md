@@ -2,8 +2,8 @@
 title: "클라이언트 설정 문제 해결 | Microsoft 문서"
 description: "일반적인 클라이언트 설정 문제를 해결합니다."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/22/2017
 ms.topic: article

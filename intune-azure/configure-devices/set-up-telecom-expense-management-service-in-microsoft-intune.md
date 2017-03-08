@@ -3,8 +3,8 @@ title: "Telecom Expense Management 서비스 설정"
 titleSuffix: Intune Azure preview
 description: "Intune Azure Preview: Intune과 통합되도록 Saaswedo Telecom Expense Management 서비스를 구성합니다."
 keywords: Saaswedo
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/16/2017
 ms.topic: article

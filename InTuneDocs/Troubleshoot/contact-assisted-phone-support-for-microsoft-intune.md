@@ -2,8 +2,8 @@
 title: "담당자 전화 지원 | Microsoft 문서"
 description: "다음은 Microsoft Intune 지원 전화 번호입니다."
 keywords: "업무 시간"
-author: staciebarker
-ms.author: staciebarker
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: d05c9d7a78474c19e142bca94e232289fbfba1d9
 ms.openlocfilehash: d5460d5e68fcc5346c2e0b745ea694c6875b5480
+ms.lasthandoff: 01/25/2017
 
 
 ---
@@ -118,9 +119,4 @@ ms.openlocfilehash: d5460d5e68fcc5346c2e0b745ea694c6875b5480
 |우루과이|연중 무휴|월요일-금요일<br /><br />09:00 – 17:00 UYST(UTC -2)|스페인어&#42;, 영어|000-411-002-7131||
 |베네수엘라|연중 무휴|월요일-금요일<br /><br />09:00 – 17:00 VET(UTC -4:30)|스페인어&#42;, 영어|0-800-100-8763||
 &#42; 전화 통역이 지원됩니다.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

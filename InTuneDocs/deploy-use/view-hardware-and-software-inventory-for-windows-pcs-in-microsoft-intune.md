@@ -2,8 +2,8 @@
 title: "Windows PC에 대한 하드웨어 및 소프트웨어 인벤토리 보기 | Microsoft 문서"
 description: "Intune 소프트웨어 클라이언트를 사용하여 PC로 관리하는 Windows 데스크톱에 대한 하드웨어 및 소프트웨어 정보를 확인하는 방법입니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 10dd2caa9ce1b96424f55e373e904a778390eb15
 ms.openlocfilehash: 8425cee511cdd54e051a93a10a941142c33df893
+ms.lasthandoff: 12/16/2016
 
 
 ---
@@ -66,8 +67,3 @@ Intune은 Intune 소프트웨어 클라이언트를 사용하여 PC로 관리하
 ### <a name="see-also"></a>참고 항목
 
 [Intune 소프트웨어 클라이언트를 사용하는 일반 Windows PC 관리 작업](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
-
-
-<!--HONumber=Dec16_HO3-->
-
-

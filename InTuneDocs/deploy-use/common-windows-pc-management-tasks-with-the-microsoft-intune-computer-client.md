@@ -2,8 +2,8 @@
 title: "일반적인 Windows PC 관리 작업 | Microsoft 문서"
 description: "Intune 소프트웨어 클라이언트를 실행하는 Windows PC를 관리할 수 있는 방법을 알아봅니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 10dd2caa9ce1b96424f55e373e904a778390eb15
 ms.openlocfilehash: 2fc2d7e57267f82897dac8a0cc222c2b7009d14d
+ms.lasthandoff: 12/16/2016
 
 
 ---
@@ -35,10 +36,5 @@ ms.openlocfilehash: 2fc2d7e57267f82897dac8a0cc222c2b7009d14d
 
 - [Windows PC 원격 지원 요청 및 제공](request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune.md) - Intune PC 사용자가 원격 지원을 받는 방법을 설명하고 필수 구성 요소 및 TeamViewer 설치를 설명합니다.
 
-
-
-
-
-<!--HONumber=Dec16_HO3-->
 
 

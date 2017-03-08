@@ -3,8 +3,8 @@ title: "Intune에tj 등록 제한 설정"
 titleSuffix: Intune Azure preview
 description: "Intune Azure Preview: 플랫폼별로 등록을 제한하고 Intune에서 장치 등록 제한을 설정합니다. "
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article

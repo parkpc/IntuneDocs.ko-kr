@@ -3,8 +3,8 @@ title: "모바일 장치 관리 기관 설정"
 titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune에서 모바일 장치 관리 기관을 설정하는 방법을 알아봅니다. "
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 01/06/2016
 ms.topic: article
@@ -18,6 +18,7 @@ ms.custom: intune-azure
 translationtype: Human Translation
 ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
 ms.openlocfilehash: 9d7a1a934188f0a40553d3c6b8b567ba8f6af034
+ms.lasthandoff: 02/18/2017
 
 ---
 
@@ -43,9 +44,4 @@ ms.openlocfilehash: 9d7a1a934188f0a40553d3c6b8b567ba8f6af034
 2. Intune 블레이드에서 **장치 등록**을 선택한 다음 **개요**를 선택합니다.
 
 3. **장치 관리 시작** 블레이드에서 **MDM 기관을 Intune으로 설정**을 선택합니다. MDM 기관을 Intune으로 설정했음을 나타내는 메시지가 표시됩니다.
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

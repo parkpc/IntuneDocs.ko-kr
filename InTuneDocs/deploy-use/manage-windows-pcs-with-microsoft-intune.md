@@ -2,8 +2,8 @@
 title: "클라이언트 소프트웨어로 PC 관리 | Microsoft 문서"
 description: "Intune 클라이언트 소프트웨어를 설치하여 Windows PC를 관리합니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/09/2017
 ms.topic: article

@@ -2,8 +2,8 @@
 title: "장치 로그 수집 | Microsoft 문서"
 description: "관리되는 장치에서 로그를 수집하는 방법을 알아봅니다."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 02/07/2017
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 211b996263aae7a42f8370eb343c7e759ef87790
 ms.openlocfilehash: 5aae8edd2b851eb94156e82bc9b6e604644cb900
+ms.lasthandoff: 02/08/2017
 
 
 ---
@@ -57,9 +58,4 @@ Windows Phone 회사 포털 앱에서는 사용자는 줄임표(**...**)를 선�
 ### <a name="windows"></a>Windows
 
 Windows 회사 포털의 경우 로그는 *%localappdata%\Packages\Microsoft.CompanyPortal_8wekyb3d8bbwe\LocalState*에 있습니다.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

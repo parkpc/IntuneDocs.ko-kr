@@ -2,8 +2,8 @@
 title: "장치 등록 문제 해결| Microsoft 문서"
 description: "장치 등록 문제 해결을 위한 제안 사항"
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 03/01/2017
 ms.topic: article

@@ -2,8 +2,8 @@
 title: "회사 소유 장치 관리 | Microsoft 문서"
 description: "회사 소유의 장치는 장치 유형, 장치 구매 방법, 조직의 요구 사항에 따라 다양한 방법으로 등록합니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 01/29/2017
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 521a37044d6721fe905db7740329688ba2c24b35
 ms.openlocfilehash: ae077d80e05b33d625285d796917f4f6c153ca3f
+ms.lasthandoff: 01/31/2017
 
 
 ---
@@ -65,9 +66,4 @@ Intune은 다음 조건 중 하나가 충족되면 장치를 "회사"로 인식�
  - 장치가 [Azure Active Directory 또는 Enterprise Mobility Suite에 Windows 10 Enterprise 장치](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview)로 등록되어 있습니다(Windows 10만 해당).
 
 장치가 회사로 태그 지정되면 관리자 콘솔의 해당 장치 레코드에서 **소유권** 열에 **회사**로 표시됩니다. 
-
-
-
-<!--HONumber=Jan17_HO5-->
-
 

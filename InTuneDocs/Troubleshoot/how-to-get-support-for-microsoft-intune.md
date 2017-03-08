@@ -2,8 +2,8 @@
 title: "지원을 받는 방법 | Microsoft 문서"
 description: "유료 및 평가판 구독 둘 다에 대해 온라인과 전화 지원이 제공됩니다."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 01/27/2016
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 526830839aa801a7ac78aeb4baaa790d6bb5da5c
 ms.openlocfilehash: 8f43dc529b2da2c97500c03056ba7908bb8ab0fa
+ms.lasthandoff: 02/08/2017
 
 
 ---
@@ -146,9 +147,4 @@ Microsoft가 Intune을 개선하는 방법에 대한 피드백이 있나요? Mic
 지원 엔지니어가 추가 문제 해결을 위해 지원 인시던트를 추가로 열도록 요청하는 경우 모든 사람에게 제일 득이 되기 때문임을 이해하시기 바랍니다. Microsoft가 최고의 지원 서비스를 제공하는 데 협력하고 이해해 주셔서 감사합니다.
 
 인시던트 및 심각도 수준별 가격은 [전문 지원 옵션](https://support.microsoft.com/gp/offerprophone)을 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

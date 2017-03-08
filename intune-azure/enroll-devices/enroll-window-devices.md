@@ -3,8 +3,8 @@ title: "Windows 장치 등록"
 titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Windows 장치에 대한 Intune MDM(모바일 장치 관리)을 사용하도록 설정합니다."
 keywords: 
-author: staciebarker
-manager: stabar
+author: nathbarn
+manager: nathbarn
 ms.date: 02/15/17
 ms.topic: article
 ms.prod: 
@@ -17,6 +17,7 @@ ms.custom: intune-azure
 translationtype: Human Translation
 ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
 ms.openlocfilehash: 7262093700dab3a7befd5b82ac9f8ee3dde22dcf
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -84,9 +85,4 @@ ms.openlocfilehash: 7262093700dab3a7befd5b82ac9f8ee3dde22dcf
     최종 사용자 작업에 대한 자세한 내용은 [Microsoft Intune에서 최종 사용자 환경 관련 리소스](https://docs.microsoft.com/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune)를 참조하세요.
 
 회사 포털을 장치에 배포하지 않는다면 추가 작업이 필요하지 않습니다.  관리 콘솔에서 2단계 및 3단계는 무시해도 됩니다.
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

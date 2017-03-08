@@ -2,8 +2,8 @@
 title: "설정 도우미를 사용하여 iOS 장치 등록 | Microsoft 문서"
 description: "Apple Configurator 도구를 통해 회사 소유의 iOS 장치를 공장 설정으로 초기화하고 설정 도우미를 실행할 수 있도록 준비하여 해당 장치를 등록합니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/13/2017
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: a2e840797c06322b9efc59438e0675e57b7cdb24
 ms.openlocfilehash: facae5f49b52760dcea0653bd261e16e13e11bbf
+ms.lasthandoff: 02/14/2017
 
 
 ---
@@ -186,9 +187,4 @@ iOS 장치는 Mac 컴퓨터에 연결되고 모바일 장치 관리를 위해 �
 
 ### <a name="see-also"></a>참고 항목
 [장치 등록을 위한 필수 구성 요소](prerequisites-for-enrollment.md)
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

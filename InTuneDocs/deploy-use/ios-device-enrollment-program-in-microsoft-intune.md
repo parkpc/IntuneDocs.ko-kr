@@ -2,8 +2,8 @@
 title: "iOS 장치용 Apple DEP 관리 | Microsoft 문서"
 description: "“무선으로” iOS DEP(장비 등록 프로그램)를 통해 구매한 iOS 장치를 등록하는 등록 프로필을 배포하여 Apple 장치를 관리할 수 있습니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article

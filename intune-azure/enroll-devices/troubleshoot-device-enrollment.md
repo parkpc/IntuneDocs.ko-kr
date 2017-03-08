@@ -3,8 +3,8 @@ title: "장치 등록 문제 해결"
 titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 장치 등록 문제를 해결하는 방법을 알아봅니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article
@@ -18,6 +18,7 @@ ms.custom: intune-azure
 translationtype: Human Translation
 ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
 ms.openlocfilehash: 9fff350240e4313994056bc5aebf82e204ab3c62
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -388,9 +389,4 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
 ### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](https://docs.microsoft.com/intune/troubleshoot/how-to-get-support-for-microsoft-intune)의 설명에 따라 Microsoft 지원에 문의하세요.
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

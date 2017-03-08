@@ -2,8 +2,8 @@
 title: "Windows PC 원격 지원 요청 및 제공 | Microsoft 문서"
 description: "PC로 관리되는 Windows 데스크톱에 대한 원격 지원을 제공하고 PC를 원격으로 시작하기 위한 최종 사용자 및 IT 관리자 단계를 설명합니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 10dd2caa9ce1b96424f55e373e904a778390eb15
 ms.openlocfilehash: 628875c2f874c824761befd9886d7f7987c045df
+ms.lasthandoff: 12/16/2016
 
 
 ---
@@ -85,8 +86,3 @@ Intune은 [TeamViewer](https://www.teamviewer.com) 소프트웨어(별매)를 �
 ### <a name="see-also"></a>참고 항목
 
 [Intune 소프트웨어 클라이언트를 사용하는 일반 Windows PC 관리 작업](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
-
-
-<!--HONumber=Dec16_HO3-->
-
-

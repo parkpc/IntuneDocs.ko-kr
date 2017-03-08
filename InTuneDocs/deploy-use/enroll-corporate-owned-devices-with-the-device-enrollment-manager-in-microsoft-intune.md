@@ -2,8 +2,8 @@
 title: "장치 등록 관리자로 등록 | Microsoft 문서"
 description: "DEM(장치 등록 관리자) 계정이라는 단일 사용자 계정으로 많은 수의 공유되는 회사 소유의 모바일 장치를 관리할 수 있습니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 01/29/17
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: adb2fd27d7f2b3f0ef4dce6b26fcb20d74b69a00
 ms.openlocfilehash: f099fdf942795b128fe46f9bd1d82432d89f6f75
+ms.lasthandoff: 02/04/2017
 
 
 ---
@@ -106,9 +107,4 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
 -   삭제된 장치 등록 관리자 계정 자격 증명으로는 여전히 장치를 초기화하거나 사용 중지할 수 없습니다.
 
 -   등록된 장치에 대한 삭제된 장치 등록 관리자 계정의 관계는 유지되지만 추가 장치를 등록할 수는 없습니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

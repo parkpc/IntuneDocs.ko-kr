@@ -2,8 +2,8 @@
 title: "iOS 및 Mac 관리 설정 | Microsoft 문서"
 description: "Microsoft Intune으로 Mac OS X 장치뿐만 아니라 iPad 및 iPhone을 포함하는 iOS 장치의 MDM(모바일 장치 관리)도 수행합니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 11/17/2016
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: afca2af0b07b939adc66c8804f04a1125e12001b
 ms.openlocfilehash: 9c71a83f9514187753360fa9c2085584d1b76711
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -58,9 +59,4 @@ Intune은 iPad, iPhone 및 macOS 장치의 MDM(모바일 장치 관리)을 가�
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune 등록을 위한 필수 구성 요소](prerequisites-for-enrollment.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

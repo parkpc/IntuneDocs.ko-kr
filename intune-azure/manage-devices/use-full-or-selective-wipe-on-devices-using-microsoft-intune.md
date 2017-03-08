@@ -3,8 +3,8 @@ title: "Intune을 사용하여 장치에서 전체 또는 선택적 초기화"
 titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 장치에서 회사 데이터의 선택적 초기화를 수행하거나, 전체 초기화를 수행하여 공장 기본 설정으로 복원하는 방법을 알아봅니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 12/07/2016
 ms.topic: article

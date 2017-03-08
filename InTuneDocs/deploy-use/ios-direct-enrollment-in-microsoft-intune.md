@@ -2,8 +2,8 @@
 title: "iOS 장치 직접 등록 | Microsoft 문서"
 description: "Apple Configurator 도구를 사용하여 회사 소유의 iOS 장치를 USB로 Mac 컴퓨터에 연결해 미리 정의된 정책에 직접 등록합니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 01/29/2017
 ms.topic: article

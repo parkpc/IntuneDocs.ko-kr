@@ -2,8 +2,8 @@
 title: "장치 사용 중지 | Microsoft 문서"
 description: "Intune은 정책 및 회사 포털을 제거하여 Intune 관리에서 장치를 제거할 수 있도록 선택적 초기화 및 전체 초기화를 모두 지원합니다."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/13/2017
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 00e9dfd165a449182c5b937372db7085c981c68f
 ms.openlocfilehash: cca12024ba12cff5cdb8c515f7719a7592ba97ea
+ms.lasthandoff: 02/14/2017
 
 
 ---
@@ -77,9 +78,4 @@ Intune 클라이언트 소프트웨어로 관리되는 컴퓨터는 Intune 관�
 
 ### <a name="see-also"></a>참고 항목
 [전체 또는 선택적 초기화를 통해 데이터 보호 지원](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

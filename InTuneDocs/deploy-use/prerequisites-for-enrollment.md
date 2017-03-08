@@ -2,8 +2,8 @@
 title: "모바일 장치 등록을 위한 필수 조건 | Microsoft 문서"
 description: "MDM(모바일 장치 관리) 필수 구성 요소를 설정하고 다른 운영 체제를 등록할 준비를 완료합니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/21/2017
 ms.topic: article
