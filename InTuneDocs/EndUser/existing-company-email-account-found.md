@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 74c51f7b-7bd8-45cf-99bd-02d1972267cb
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: a1e346047fb029689c0c9c68073b89b9bac20530
 ms.openlocfilehash: 27bb2c0834d07225756ea9133e557a930290dcf5
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -37,9 +38,4 @@ ms.openlocfilehash: 27bb2c0834d07225756ea9133e557a930290dcf5
 3.  장치에 자동으로 적용 될 새 전자 메일 설정에 대해 잠시 기다립니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

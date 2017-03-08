@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4278f000-0258-4de5-93a1-195b48e5061e
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 9530eb45bf027c66c4a36e4cea1ec05c5f15a6e5
 ms.openlocfilehash: 73dfec1fe1a0a027aa560de62b6bd7ed7732faa0
+ms.lasthandoff: 02/09/2017
 
 
 ---
@@ -44,9 +45,4 @@ Intune에서 장치 등록을 취소하고 회사 포털 앱을 제거하려면
     이제 회사 포털 앱을 제거할 수 있습니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) [Microsoft Android 팀](mailto:wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

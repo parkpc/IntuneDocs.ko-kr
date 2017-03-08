@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 03/07/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 0f5972171349325eeb750e552481cbcf903fdf95
 ms.openlocfilehash: 9f1cd7ea3e92ac2e3a1b828e8185961060a7c619
+ms.lasthandoff: 02/10/2017
 
 
 ---
@@ -228,12 +229,8 @@ Intune은 Intune 소프트웨어를 실행하는 서버와 같은 온-프레미�
 |조건부 액세스 통신|443|204.79.197.200|
 |설명서, 도움말 및 지원:</br></br>*.livemeeting.com<br>\*.microsoftonline.com<br>\*.social.technet.microsoft.com<br>blogs.technet.com<br>go.microsoft.com<br>onlinehelp.microsoft.com<br>www.microsoft.com|80|||
 
+
 >[!div class="step-by-step"]
 
 >[&larr;**필수 조건**](what-to-know-before-you-start-microsoft-intune.md)[**구독**     &rarr;](start-with-a-paid-subscription-to-microsoft-intune-step-1.md)  
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

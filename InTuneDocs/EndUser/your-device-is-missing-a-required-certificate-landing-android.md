@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9081b1d8-50e8-4bc2-ba37-766421364213
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 207297601634f390051a6345b96bf09e1d031747
 ms.openlocfilehash: 6b37cede797f965b82c067b274517277d8597939
+ms.lasthandoff: 01/12/2017
 
 ---
 
@@ -41,9 +42,4 @@ Android 장치가 Intune에 등록되어 있지 않고 IT 관리자에게 필요
 이 작업이 제대로 진행되지 않을 경우 IT 관리자는 [추가 보안을 위해 두 번째 인증서를 설치하도록 요구](your-device-is-missing-an-IT-required-certificate-android.md)할 수 있습니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

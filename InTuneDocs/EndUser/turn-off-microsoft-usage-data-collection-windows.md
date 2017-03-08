@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 51f1594d-0283-41d2-b4c3-a7a4ad70b369
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 3bda44c401ae7cf5dd796486d2d1a6332828bed1
 ms.openlocfilehash: fc48199acad7a65bd4a06b5a51f6f5b851997edb
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -32,9 +33,4 @@ Microsoft는 제품 및 서비스에 대한 특정 데이터를 자동으로 수
 Windows 장치에서 사용 현황 데이터의 수집을 해제하려는 경우 회사 포털 앱에서 **사용 현황 데이터** 설정을 찾습니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

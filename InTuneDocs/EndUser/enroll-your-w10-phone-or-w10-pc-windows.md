@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 36250832-c6fd-4e8d-b681-de735023ebc3
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: jieyan
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: aca401cab49230d2bcb9171cf532b52ce5219798
 ms.openlocfilehash: b6e9a357b79b0069e5fadf5aa280dae5b4787212
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -54,9 +55,4 @@ Microsoft Intune에 장치를 등록하면 Windows 10 장치를 사용하여 메
 4.    버전이 __1607__인 경우에는 [이 단계](enroll-your-w10-device-access-work-or-school.md)를 계속 진행합니다. 버전이 __1511 이하__인 경우 [이 단계](enroll-your-w10-device-your-account.md)를 계속 진행합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: 7d06eabf07039b14a5d24617d94a968bc2e85f22
+ms.lasthandoff: 12/10/2016
 
 
 ---
@@ -66,9 +67,4 @@ Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows �
 4.  **계정 삭제** 대화 상자에서 **삭제**를 탭합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

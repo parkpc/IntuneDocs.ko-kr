@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 7d9645a9-6058-4112-aa31-8cdbccdc5463
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
 ms.openlocfilehash: a3cf36eae0342d2047910d1a7ca0da2acb7d2ae6
+ms.lasthandoff: 12/21/2016
 
 
 ---
@@ -35,9 +36,4 @@ ms.openlocfilehash: a3cf36eae0342d2047910d1a7ca0da2acb7d2ae6
 2.  **BitLocker 켜기**를 클릭하고 표시되는 지침에 따라 각 드라이브를 암호화합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

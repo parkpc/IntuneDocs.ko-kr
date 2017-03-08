@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 85c868e7-8d63-480c-9770-4e99614a5c94
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 1bf478eae73bb7385369e4d5cde26b937831e665
 ms.openlocfilehash: 5ce680b35ff2a931b13e0395d7bb550f534d2b29
+ms.lasthandoff: 12/30/2016
 
 
 ---
@@ -44,9 +45,4 @@ Android 장치에서 회사 포털 앱을 사용할 때 오류가 표시되면 �
 3.  **도움말** 아래에서 **도움 받기**를 누릅니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

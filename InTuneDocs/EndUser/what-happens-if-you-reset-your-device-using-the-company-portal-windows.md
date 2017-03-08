@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1ee6e275-d1ec-4da3-bbef-d5da2c61a02a
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 42e6b4d44dffa457f009e8402d5c429aa55932d6
 ms.openlocfilehash: 74983ab11e1c1763bd5394af483b93b74b715f89
+ms.lasthandoff: 02/24/2017
 
 
 ---
@@ -36,9 +37,4 @@ ms.openlocfilehash: 74983ab11e1c1763bd5394af483b93b74b715f89
 |PC 및 노트북|**Windows 8.1 및 Windows 8**<br />Windows 8 또는 Windows 8.1을 실행하며 메일 전용이 아닌 컴퓨터는 원래대로 복원할 수 없습니다.<br /><br />**Windows 7 또는 Windows Vista**<br />Windows 7 이전 버전을 실행하는 컴퓨터는 원래대로 복원할 수 없습니다.|
 
 의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO4-->
-
 

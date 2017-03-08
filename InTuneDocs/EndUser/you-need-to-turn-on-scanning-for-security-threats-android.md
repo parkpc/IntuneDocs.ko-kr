@@ -12,12 +12,13 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b3e5994c-d215-4c72-8915-349bd0b2504d
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 3bda44c401ae7cf5dd796486d2d1a6332828bed1
 ms.openlocfilehash: 04e27d9c0752ac5b5d29bdbdb3033e989a3945f9
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -29,9 +30,4 @@ Android 장치에서 다양한 작업을 수행할 수 있는 앱을 다운로�
 이 검색 기능을 설정하려면 **설정** > **Google** > **보안**으로 이동한 후 **기기에 보안 위협이 있는지 검색**을 켜면 됩니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

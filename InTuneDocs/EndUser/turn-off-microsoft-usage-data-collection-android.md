@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: df53feab-4f5e-46ae-b1e8-9adb048711e5
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
 ms.openlocfilehash: b2554e66150f8b6d61f184bf739750c482b3058e
+ms.lasthandoff: 12/21/2016
 
 
 ---
@@ -31,9 +32,4 @@ Microsoft는 제품 및 서비스에 대한 특정 데이터를 자동으로 수
 Android 장치에서 해당 데이터의 수집을 해제하려는 경우 회사 포털 앱에서 **사용 현황 데이터** 설정을 엽니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

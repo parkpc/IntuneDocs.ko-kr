@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 28914db1-3e62-45f5-9632-b0d2a808a44d
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: eb41be0b4096c2b2ee5711204b34e8c3bb13e25b
+ms.lasthandoff: 12/10/2016
 
 
 ---
@@ -57,9 +58,4 @@ Intune에서 장치를 등록 취소하면 다음과 같은 일이 발생합니�
 -   메일용으로만 구성된 장치는 회사 포털 앱이나 웹 사이트에 더 이상 나타나지 않습니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

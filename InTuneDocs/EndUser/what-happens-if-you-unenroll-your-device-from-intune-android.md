@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0321062d-1363-4ac3-81d4-5405f3b79481
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
 ms.openlocfilehash: 16d970e13bfac29460bab885188f45df1202a4d9
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -44,9 +45,4 @@ Intune에서 Android 장치 등록을 취소하면:
 등록을 취소하는 방법에 대한 자세한 내용은 [회사 포털 앱을 사용하여 Intune에서 장치 등록 취소](unenroll-your-device-from-intune-android.md)를 참조하세요.
 
 도움이 필요하십니까? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) [Microsoft Android 팀](mailto:wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

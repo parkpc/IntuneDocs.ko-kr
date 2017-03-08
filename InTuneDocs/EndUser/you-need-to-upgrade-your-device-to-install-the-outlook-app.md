@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ccb7451e-5ffc-4604-b28e-8322cc64c58c
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: vadona
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 1bf478eae73bb7385369e4d5cde26b937831e665
 ms.openlocfilehash: 8ef336e58c7b1d995d314202b5530d2f6b2ff138
+ms.lasthandoff: 12/30/2016
 
 
 ---
@@ -37,9 +38,4 @@ Outlook을 다운로드하여 설치하려는 경우 Outlook이 설치되는 대
 **설정** > **일반** > **소프트웨어 업데이트**를 탭합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

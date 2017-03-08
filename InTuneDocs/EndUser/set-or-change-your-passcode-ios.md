@@ -12,12 +12,13 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 365f72a6-564d-4cbd-8f0a-70ec80b6e253
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: fc22acb9f0c08491852592f41dc60bef0fcf0928
 ms.openlocfilehash: 9e616d6368a40e3ae06303cf3556b5e0760fb477
+ms.lasthandoff: 12/21/2016
 
 
 ---
@@ -44,9 +45,4 @@ IT 관리자가 암호 요구 사항을 두 개 이상 설정할 수 있습니�
 3. IT 관리자의 요구 사항을 충족하는 새 암호를 입력한 후 확인을 위해 해당 암호를 다시 입력합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4ab630b6-47ff-443b-a2a5-be23388bcea7
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
 ms.openlocfilehash: b81465ae9ae22cea347a3e052b70ac3b2be465c5
+ms.lasthandoff: 12/21/2016
 
 
 ---
@@ -58,9 +59,4 @@ ms.openlocfilehash: b81465ae9ae22cea347a3e052b70ac3b2be465c5
 - 회사 또는 학교 계정이 표시되지 않으면 **연결**을 탭하고 회사 또는 학교 자격 증명을 사용하여 로그인합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

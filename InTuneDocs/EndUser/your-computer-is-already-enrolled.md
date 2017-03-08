@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8d3a40f5-99e9-48dc-9706-f7a3a23e5704
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: 05460d23dce69be00f5f440be07a0b3c08d27280
+ms.lasthandoff: 12/10/2016
 
 
 ---
@@ -39,9 +40,4 @@ ms.openlocfilehash: 05460d23dce69be00f5f440be07a0b3c08d27280
 장치를 등록 취소하려는 경우 [Android](unenroll-your-device-from-intune-android.md), [iOS](unenroll-your-device-from-intune-ios.md) 또는 [Windows](unenroll-your-device-from-intune-windows.md) 중에서 보유하고 있는 장치 유형에 대한 지침을 사용하세요.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

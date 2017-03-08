@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a2467c02-aac5-41c8-b788-cbda830941ef
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 0e6b7ae1794ff0857dfb203eb3c67d7ba494bd8e
 ms.openlocfilehash: d593b00ee3fd30adec6c36c3939c895647e8dada
+ms.lasthandoff: 02/21/2017
 
 
 ---
@@ -66,9 +67,4 @@ Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하�
 -   장치가 로밍 모드에 있는 동안 자동 파일 동기화를 사용하거나 사용하지 않도록 설정합니다. 자동 파일 동기화가 허용되는 경우 로밍 요금이 청구될 수 있습니다.
 
 의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

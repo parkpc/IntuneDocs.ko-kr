@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 33ffff16-0280-43bf-87b3-74ddf4439bfa
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 5ca9814992edd0a18d48145243a4be524dbb4f23
 ms.openlocfilehash: 2384889d377713757b6172a12d608b32a1756978
+ms.lasthandoff: 01/31/2017
 
 
 ---
@@ -86,9 +87,4 @@ Android 장치를 등록하면 회사 메일, 앱 및 기타 업무용 데이터
     ![Play Store for Work 앱 페이지](./media/andr-afw-tap-work-play-store-icon.png)
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO5-->
-
 

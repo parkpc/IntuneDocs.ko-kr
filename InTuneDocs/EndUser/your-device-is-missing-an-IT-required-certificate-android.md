@@ -12,13 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: f0ba4cbb-ef0a-4335-86bf-f1d006867fa2
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: d6fcfac7c8bd469f5163ec9b4017ae8c3d486428
 ms.openlocfilehash: 88770ba06718a767f8229e1b5aa4d543c87bc852
+ms.lasthandoff: 01/05/2017
 
 ---
 
@@ -70,9 +72,4 @@ ms.openlocfilehash: 88770ba06718a767f8229e1b5aa4d543c87bc852
 7. 회사 포털 앱을 다시 엽니다. 이제 회사 포털 앱에 로그인할 수 있습니다. 도움이 필요하면 IT 관리자에게 문의하세요.
 
 앞서 표시된 것과 동일한 "인증서 없음" 메시지가 표시되고 해당 절차를 이미 진행했으면 IT 관리자가 설치에 도움을 주어야 하는 다른 인증서가 아직 있는 것일 수 있습니다. IT 관리자에게 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 제공되는 연락처 정보를 사용하는 방법을 문의하세요.
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

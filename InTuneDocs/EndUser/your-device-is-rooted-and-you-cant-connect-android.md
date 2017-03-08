@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9786b71a-d2ff-4d95-a2d9-47ece0aec8ca
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 3bebc6cb1d44e99f8337a057eadfae676904ea3d
 ms.openlocfilehash: 27b57f7f8723a1271442b4ed18e219660959b0a8
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -37,9 +38,4 @@ Android 장치가 "루팅"되었다는 것은 일반적으로는 제공되지 �
 - 루트 검색 소프트웨어에서 보안 위협으로 간주하는 소프트웨어를 장치 제조업체에서 장치에 설치했을 수 있습니다. 이 경우에는 IT 관리자에게 지원을 요청해야 합니다. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 장치를 직접 루팅한 경우에는 해당 프로세스를 역방향으로 수행하여 장치를 루팅되지 않은 상태로 복원해야 합니다.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

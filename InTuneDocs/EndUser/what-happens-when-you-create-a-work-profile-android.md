@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b217da11-2cd7-49ab-a91f-2f6d7784c6b6
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
 ms.openlocfilehash: 215e630141aa2739a2fe73926476db965c42922a
+ms.lasthandoff: 12/21/2016
 
 
 ---
@@ -47,9 +48,4 @@ ms.openlocfilehash: 215e630141aa2739a2fe73926476db965c42922a
 업무용 프로필을 만드는 단계는 [업무용 프로필을 만들어 장치 등록](create-a-work-profile-and-enroll-your-device-in-intune-android.md)을 참조하세요.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

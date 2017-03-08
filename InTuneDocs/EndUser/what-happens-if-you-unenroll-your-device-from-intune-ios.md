@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c6a97c74-c35c-4977-b925-6efe01e31d3c
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: esmich, elocholi
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 9b2eba939bccf5b1296e21868fdf3af93297b42c
 ms.openlocfilehash: e8065b2964e8995a58a2aa3e6322fb235f0829af
+ms.lasthandoff: 02/04/2017
 
 
 ---
@@ -46,9 +47,4 @@ Intune에서 iOS 또는 macOS 장치 등록을 취소하면:
 등록을 취소하는 방법에 대한 지침은 [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-ios.md)를 참조하세요.
 
 의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

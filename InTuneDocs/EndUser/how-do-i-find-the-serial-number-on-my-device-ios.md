@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e6c4fedc-47b6-44b1-8c59-2fb81417f978
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
 ms.openlocfilehash: 613bbe5da9a7f9dcbcb1af1a0b1c00b7aaa88efe
+ms.lasthandoff: 12/21/2016
 
 
 ---
@@ -33,9 +34,4 @@ ms.openlocfilehash: 613bbe5da9a7f9dcbcb1af1a0b1c00b7aaa88efe
 3. __정보__를 탭한 다음 __일련 번호__로 스크롤합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

@@ -12,12 +12,13 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: f250f455-898d-46fe-93ac-2b3aec6a0b71
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 604bdec9cfbb982b75fc9b54dda6a572d2b11802
 ms.openlocfilehash: 47b9b0e882c277f5ad3200ab6eb8999ea000a696
+ms.lasthandoff: 01/12/2017
 
 
 ---
@@ -31,9 +32,4 @@ USB 디버깅을 해제하려면 **설정** > **개발자 옵션**으로 이동�
 **USB 디버깅**을 해제한 후에는 몇 분 정도 기다려야 Android 장치를 사용하여 평소처럼 회사 또는 학교 데이터에 액세스할 수 있습니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

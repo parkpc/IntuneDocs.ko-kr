@@ -4,7 +4,7 @@ description: "이 항목에서는 관리자가 관리하는 엔터프라이즈 �
 keywords: 
 author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 03/07/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,6 +14,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
 ms.openlocfilehash: 9dc65b442a165609963cb5625009a723cbcb55dd
+ms.lasthandoff: 12/16/2016
 
 
 ---
@@ -28,9 +29,4 @@ ms.openlocfilehash: 9dc65b442a165609963cb5625009a723cbcb55dd
 - [Intune 빠른 시작 가이드](start-with-a-paid-subscription-to-microsoft-intune.md) - 평가판 구독을 테스트에서 엔터프라이즈 관리로 전환하거나 조직의 새 구독을 설정하기 위한 단계별 지침
 - [Intune으로 마이그레이션](migrate-to-intune.md) - 현재 엔터프라이즈 이동성 관리 솔루션에서 Intune으로 마이그레이션하기 위한 지침
 - [Intune의 다음 단계](prevent-company-data-leaks-from-Office-365-mobile-apps.md) - 일반적인 Intune 작업에 대한 개요 및 다음 단계
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

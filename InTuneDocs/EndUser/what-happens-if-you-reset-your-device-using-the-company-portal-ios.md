@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: db99c3eb-4813-4c8b-8e32-958e983b7f0f
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
 ms.openlocfilehash: 0306dea937b2b58bce06032d5f5bbe1e744902b8
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -42,9 +43,4 @@ ms.openlocfilehash: 0306dea937b2b58bce06032d5f5bbe1e744902b8
 -   회사 전자 메일 계정이 삭제되고 저장되지 않은 전자 메일도 삭제됩니다.
 
 의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

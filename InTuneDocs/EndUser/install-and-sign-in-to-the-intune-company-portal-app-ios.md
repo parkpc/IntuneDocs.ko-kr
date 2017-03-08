@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8dfe66b4-f585-4862-87fa-7dbb4487549c
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
 ms.openlocfilehash: cf110d8758e8ab589acbceabb5df733b29068b0f
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -40,9 +41,4 @@ ms.openlocfilehash: cf110d8758e8ab589acbceabb5df733b29068b0f
     처음으로 회사 포털 앱에 로그인하는 경우 그리고 회사 또는 학교에서 Intune을 사용하는 경우 장치를 Intune에 등록하라는 메시지가 표시됩니다. 등록하려면 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 macOS 장치 등록](enroll-your-device-in-intune-macos.md)의 단계를 따릅니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

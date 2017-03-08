@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ed10a62c-b026-4ad3-ac41-641933522df2
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: ca37b4bf393d03e61bed93fa8e7d83efe3922412
+ms.lasthandoff: 12/10/2016
 
 
 ---
@@ -76,9 +77,4 @@ IT 부서에서 관리할 수 있는 몇 가지 일반적인 앱은 다음과 �
 -   Microsoft Word, Excel 및 PowerPoint
 
 장치에서 관리되는 앱에 대한 자세한 내용은 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 
