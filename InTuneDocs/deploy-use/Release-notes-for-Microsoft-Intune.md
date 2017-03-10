@@ -2,10 +2,10 @@
 title: "Microsoft Intune에 대한 릴리스 정보 | Microsoft 문서"
 description: "Intune 릴리스 정보"
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 09/08/2016
+ms.date: 03/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: fd300a5dfe6d6976491988453ec69e99668889fb
+ms.sourcegitcommit: f0e027d1c63435084c434c591fed7bb71b5c07f2
+ms.openlocfilehash: 8369cc039ac1c4c24b29927a96360cd872f8e9bc
+ms.lasthandoff: 03/08/2017
 
 
 ---
@@ -27,21 +28,21 @@ ms.openlocfilehash: fd300a5dfe6d6976491988453ec69e99668889fb
 
 Microsoft Intune은 최신 버전의 Windows에 도구, 보고서 및 업그레이드 라이선스를 제공하는 클라우드 기반의 통합 클라이언트 관리 솔루션입니다. 또한 컴퓨터를 최신 상태로 안전하게 유지할 수 있도록 지원합니다. 또한 Intune을 사용하여 Exchange ActiveSync를 통하거나 직접 Intune을 통해 네트워크의 모바일 장치를 관리할 수 있습니다. 다음 릴리스 정보에서는 Microsoft Intune의 중요 정보 및 알려진 문제에 대해 설명합니다.
 
+<!-- 3-6-17: customer asked if this is still current; Stacie asked Chris Baldwin about it. Chris said it's a Samsung issue, but that he hasn't heard any reports about it for months, so he suggested that I share that with the customer and remove this item from the release notes. I'm only going to comment it out in case it resurfaces.
+## Android users can’t send email when conditional access for Exchange Online is implemented
 
-## <a name="android-users-cant-send-email-when-conditional-access-for-exchange-online-is-implemented"></a>Android 사용자는 Exchange Online에 대한 조건부 액세스가 구현된 경우 전자 메일을 보낼 수 없습니다.
+**Issue:** Users running Samsung Android 5.1.1 and later on their devices can't send email when conditional access for Exchange Online has been set up. Samsung acknowledges that the issue is in its built-in email client in Android 5.1.1 and later, and is investigating a fix.
 
-**문제:** 장치에 삼성 Android 5.1.1 이상을 실행하는 사용자는 Exchange Online에 대한 조건부 액세스가 설정된 경우 메일을 보낼 수 없습니다. 삼성에서는 Android 5.1.1 이상에 기본 제공된 메일 클라이언트에 문제가 있음을 알고 있으며 해결 방법을 모색 중입니다.
+**Workaround 1:** Advise users to use the Outlook app for Android.
 
-**해결 방법 1:** 사용자는 Android용 Outlook 앱을 사용하는 것이 좋습니다.
+**Workaround 2:** To let affected users send email, you can follow these steps:
 
-**해결 방법 2:** 영향을 받는 사용자가 메일을 보낼 수 있도록 다음 단계를 수행합니다.
+1. Put each affected user in a security group in the “exempted groups” section of the conditional access policy for Exchange Online.
+2. Let the user temporarily sync email on the built-in email client.
+3. Remove the affected user from the exempted group, and confirm that the user can now send email.
 
-1. 영향을 받은 각 사용자를 Exchange Online에 대한 조건부 액세스 정책에서 "제외된 그룹" 섹션의 보안 그룹에 배치합니다.
-2. 사용자가 기본 제공된 메일 클라이언트에서 메일을 일시적으로 동기화하도록 합니다.
-3. 제외된 그룹에서 영향을 받는 사용자를 제거하고 사용자가 메일을 보낼 수 있는지 확인합니다.
-
-Microsoft에서는 삼성과 수정 또는 추가 해결 방법에 대해 긴밀히 협력하고 있습니다.
-
+Microsoft will continue to work closely with Samsung on a fix or additional workarounds.
+-->
 
 
 ## <a name="changing-resource-access-profiles-between-groups-for-ios-and-android-might-fail"></a>iOS 및 Android 그룹 간에 리소스 액세스 프로필을 변경하면 오류가 발생할 수 있음
@@ -92,9 +93,4 @@ Microsoft에서는 삼성과 수정 또는 추가 해결 방법에 대해 긴밀
 Azure Portal은 중국어(간체), 중국어(번체), 체코어, 네덜란드어, 영어, 독일어, 헝가리어, 이탈리아어, 일본어, 포르투갈어(브라질), 포르투갈어(포르투갈), 러시아어, 스페인어, 영어, 프랑스어, 한국어, 폴란드어, 스웨덴어, 터키어를 지원합니다.
 
 Intune 관리 콘솔 및 사용자에 연결하는 모바일 환경에서는 Azure Portal에서 지원하는 모든 언어 외에 덴마크어, 그리스어, 핀란드어, 노르웨이어 및 루마니아어를 지원합니다.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

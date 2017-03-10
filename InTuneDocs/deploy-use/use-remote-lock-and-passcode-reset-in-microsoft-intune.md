@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 02/16/17
+ms.date: 03/06/17
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,9 @@ ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
 ms.reviewer: chrisgre
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 87589903acd3c2e7c45d62c619571a1273e7fb76
-ms.openlocfilehash: 8de91a0e0640b9c0fb281686d4ecd4983134d4af
+ms.sourcegitcommit: 665d3347636d5ec0c698ffb93b768028c9d59ce3
+ms.openlocfilehash: b918c9843bdc6cfbbfd9c2da9d698b255487152c
+ms.lasthandoff: 03/07/2017
 
 ---
 # <a name="help-protect-your-devices-with-remote-lock-and-passcode-reset"></a>원격 잠금 또는 암호 재설정으로 장치 보호 지원
@@ -34,6 +35,7 @@ Microsoft Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다
 |macOS|지원되지 않음|
 |iOS|지원됨|
 |Android|지원됨|
+|Android for Work|지원됨|
 |Windows 10(Mobile)|지원됨|
 |Windows 10(Desktop)|지원되지 않음|
 |Windows Phone 8 및 Windows Phone 8.1|지원됨|
@@ -61,6 +63,7 @@ Intune 소프트웨어 클라이언트에 등록된 Windows PC에서는 원격 �
 |macOS|지원되지 않음|
 |iOS|장치에서 암호를 제거하도록 지원됩니다. 새로운 임시 암호를 만들지 않습니다.|
 |Android|Android 7.0 이전 버전에서 지원됩니다. 임시 암호를 만듭니다.|
+|Android for Work|지원되지 않음|
 |Windows 10 Mobile|지원됨|
 |Windows Phone 8 및 Windows Phone 8.1|지원됨|
 |Windows RT 8.1|지원 안 됨|
@@ -83,9 +86,4 @@ Intune 소프트웨어 클라이언트에 등록된 Windows PC에서는 암호 �
 
 ### <a name="see-also"></a>참고 항목
 [장치 사용 중지](retire-devices-from-microsoft-intune-management.md) 및 [장치 데이터 관리를 위한 Windows 선택적 초기화](http://technet.microsoft.com/library/dn486874.aspx)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

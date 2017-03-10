@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d98d9bbe-98fa-48a9-8808-110435eac9e4
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 385565bd1ce05c9402a52cdd6eeb93f58caaf72a
-ms.openlocfilehash: e14f60637daa89607f015da81eea45801bc39a78
+ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
+ms.openlocfilehash: a183035e8fdc91c8d6db2e0a64ba4edb3ac19c5b
+ms.lasthandoff: 03/08/2017
 
 
 ---
@@ -34,9 +35,4 @@ ms.openlocfilehash: e14f60637daa89607f015da81eea45801bc39a78
 2. **준수 확인**을 탭합니다.
 
 분실하거나 도난당한 장치를 다시 설정할 수 없는 경우에는 IT 관리자에게 다시 설정을 요청하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

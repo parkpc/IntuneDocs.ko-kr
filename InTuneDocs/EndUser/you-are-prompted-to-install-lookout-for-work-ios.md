@@ -12,12 +12,13 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 7adab655-8317-4512-ba7d-beeaa25bbf6c
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
-ms.openlocfilehash: 15c820d4b25b8deb3ab17601a4835c57e5ede780
+ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
+ms.openlocfilehash: 6157cef87c5cdad6d0e293946321fa8bdf18e61a
+ms.lasthandoff: 03/08/2017
 
 
 ---
@@ -54,9 +55,4 @@ Lookout for Work에서 장치에 대한 보안 위협을 발견한 경우 문제
 **설치가 작동하지 않는 경우**
 
 제어할 수 없는 기술 문제로 인해 설치가 실패할 수 있습니다. 이 경우 IT 관리자에게 문의합니다. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

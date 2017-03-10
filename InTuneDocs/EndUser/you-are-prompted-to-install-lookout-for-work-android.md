@@ -12,12 +12,13 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0d357dc0-3e14-43d0-9874-6886ebc847fc
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
-ms.openlocfilehash: 356de226dce12a1e079b0f58214d9bc590f3a71d
+ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
+ms.openlocfilehash: bea23fe261cdcb09c7f6699e3a2ee3fcb8f32aba
+ms.lasthandoff: 03/08/2017
 
 
 ---
@@ -82,9 +83,4 @@ ms.openlocfilehash: 356de226dce12a1e079b0f58214d9bc590f3a71d
 제어할 수 없는 기술 문제로 인해 설치가 실패할 수 있습니다. 이 경우 Play 스토어에서 수동으로 Lookout for Work를 설치해 보세요. [https://play.google.com/store/apps/details?id=com.lookout.enterprise](https://play.google.com/store/apps/details?id=com.lookout.enterprise)
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 
