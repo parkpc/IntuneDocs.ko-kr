@@ -14,6 +14,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: 2e8220f850e3b38a24aa4c48bcc3a59088251c24
+ms.lasthandoff: 12/10/2016
 
 
 ---
@@ -142,9 +143,4 @@ Windows 및 Windows Phone 모바일 앱을 배포하는 데 사용되는 Symante
 4.  업로드가 완료되면 **소프트웨어**  작업 영역에서 이전 회사 포털 버전을 제거합니다.
 
 5.  새 인증서를 사용하여 모든 신규 및 업데이트된 엔터프라이즈 기간 업무 앱에 서명합니다. 기존 응용 프로그램에 다시 서명하고 다시 배포할 필요가 없습니다.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 
