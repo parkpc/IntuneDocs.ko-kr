@@ -1,5 +1,6 @@
 ---
-title: "Intune을 사용하여 장치 관리 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Intune으로 장치 관리"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune을 사용하여 관리하는 장치를 보고 여러 작업을 수행하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -12,10 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 5ed437eca48375def0e4da9715693325845f53a9
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: d5d7b87f58604b93ba3b65d5d264a0a5e3743d45
+ms.lasthandoff: 02/18/2017
 
 
 ---

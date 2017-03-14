@@ -1,5 +1,6 @@
 ---
-title: "Android용 앱별 VPN 프로필 - Pulse Secure | Intune Azure 미리 보기 | Microsoft 문서"
+title: "Android용 앱별 VPN 프로필 - Pulse Secure"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만드는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: aeed271699656addce8f2bd8cde2a69ab8ede8f9
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 0cf638348df2f01d70c0765a4932abc3eb801f23
+ms.lasthandoff: 02/18/2017
 
 
 ---

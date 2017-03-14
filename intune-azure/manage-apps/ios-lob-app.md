@@ -1,5 +1,6 @@
 ---
-title: "Intune에 iOS LOB(기간 업무) 앱을 추가하는 방법 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Intune에 iOS LOB 앱을 추가하는 방법"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune에 iOS LOB(기간 업무) 앱을 추가하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 099101e8-4b22-40ac-ba19-82ba5c71944c
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 6d41adabfab178daa7f6fce3d86bc8216bf4ab29
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 141207ac61aade0816a66eb6e672596416bc0906
+ms.lasthandoff: 02/18/2017
 
 ---
 

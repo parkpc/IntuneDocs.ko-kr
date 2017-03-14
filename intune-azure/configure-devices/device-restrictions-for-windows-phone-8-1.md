@@ -1,5 +1,6 @@
 ---
-title: "Windows Phone 8.1에 대한 Intune 장치 제한 설정 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Windows Phone 8.1에 대한 Intune 장치 제한 설정"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Windows Phone 8.1 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: c2d42714-49ca-43b3-b080-2e67a4268198
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 32bc9adb88803385c26894e8a70513a4adc55b27
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 175401f05b10e7c8fdece996403832490e102a98
+ms.lasthandoff: 02/18/2017
 
 
 ---

@@ -1,5 +1,6 @@
 ---
-title: "Android에 대한 Intune 장치 제한 설정 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Android에 대한 Intune 장치 제한 설정"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Android 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 6bdf714a-5d93-485c-8b52-513635c60cb6
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: a003b2b16e05c2d071bb7dbaaf564e24d0cf5823
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: fafc2b14d3060f79b92bb9d18aabda6b08737881
+ms.lasthandoff: 02/18/2017
 
 
 ---

@@ -1,5 +1,6 @@
 ---
-title: "iOS 앱 간의 데이터 전송 관리 | Intune Azure 미리 보기 | Microsoft 문서"
+title: "iOS 앱 간의 데이터 전송 관리 | Intune Azure 미리 보기"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 이 항목을 사용하여 iOS의 다음에서 열기 기능과 모바일 앱 관리 정책을 사용하여 앱 간의 데이터 전송을 관리하는 방법을 파악할 수 있습니다."
 keywords: 
 author: NathBarn
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: d10b2d64-8c72-4e9b-bd06-ab9d9486ba5e
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: c09c0b5d76a3035b2af82fe32d4b6c6e35d06baf
-ms.openlocfilehash: 4ad494b42313e064a2d5ecc8056e19a522cfe051
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 2b589f98ef77329ca495c894054acd7cd6c2812e
+ms.lasthandoff: 02/18/2017
 
 
 ---

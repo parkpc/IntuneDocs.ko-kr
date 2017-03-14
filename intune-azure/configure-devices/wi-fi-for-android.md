@@ -1,5 +1,6 @@
 ---
-title: "Android 장치에 대한 Intune Wi-Fi 설정 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Android 장치에 대한 Intune Wi-Fi 설정"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Android 장치에서 Wi-Fi 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 103e17a4-2993-4359-b340-73e2acf4cf7d
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: e4d42dd165d6a485e9b5691ef9ed9f420d82d3dc
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: b274dd2b6e7e6c2c0bd8b6315b5924b72611ab40
+ms.lasthandoff: 02/18/2017
 
 
 ---

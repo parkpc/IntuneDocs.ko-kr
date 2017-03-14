@@ -1,9 +1,10 @@
 ---
-title: "Microsoft Intune 장치 등록이란 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Microsoft Intune 장치 등록이란?"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 장치 iOS, Android 및 Windows 장치에 대한 등록을 알아봅니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: get-started-article
@@ -11,12 +12,12 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
-ms.reviewer: 
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
-ms.openlocfilehash: a92daf02c6fb2405c1255ff4ff8988f669dd76ce
-ms.lasthandoff: 02/15/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 900883ea9e38342cced195f97693447fafd0e73f
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -26,7 +27,7 @@ ms.lasthandoff: 02/15/2017
 
 이 항목에서는 등록에 대해 설명하고 Intune 관리에서 모바일 장치를 등록하는 다양한 방법을 열거합니다.
 
-Intune에서 Windows PC를 비롯한 장치를 등록하여 이러한 장치를 관리할 수 있습니다. Intune 설명서에서는 이 기능을 MDM(모바일 장치 관리)이라고 합니다. 장치가 PC가 아니라 모바일 장치로 등록된 경우 Intune 서비스와 통신하는 사용하는 MDM 인증서를 발급합니다. 
+Intune에서 Windows PC를 비롯한 장치를 등록하여 이러한 장치를 관리할 수 있습니다. Intune 설명서에서는 이 기능을 MDM(모바일 장치 관리)이라고 합니다. 장치가 PC가 아니라 모바일 장치로 등록된 경우 Intune 서비스와 통신하는 사용하는 MDM 인증서를 발급합니다.
 
 장치를 등록하는 방법은 장치 유형, 소유권 및 필요한 관리 수준에 따라 다릅니다. BYOD("Bring Your Own Device") 등록을 사용하면 사용자가 개인 휴대폰, 태블릿 또는 PC를 등록할 수 있습니다. COD(회사 소유 장치) 등록을 사용하면 자동 등록, 공유 장치 또는 사전 승인된 등록 요구 사항과 같은 관리 시나리오를 사용할 수 있습니다.
 
@@ -76,7 +77,7 @@ Exchange ActiveSync를 클라우드에서 호스트하거나 온-프레미스로
 Azure Portal을 사용하여 COD(회사 소유 장치)를 관리할 수 있습니다. Apple에서 제공한 도구를 통해 iOS 장치를 직접 등록할 수 있습니다. 관리자 또는 관리자 장치 등록 관리자를 사용하여 모든 장치 유형을 등록할 수 있습니다. COD 시나리오를 사용할 수 있도록 IMEI 번호가 있는 장치도 식별하고 회사 소유로 태그를 지정할 수 있습니다.
 
 ### <a name="dem"></a>DEM
-장치 등록 관리자는 회사 소유 장치를 여러 개 등록하여 관리할 수 있는 특수 사용자 계정입니다. 관리자는 회사 포털을 설치하고 사용자가 없는 많은 장치를 등록할 수 있습니다. [DEM](enroll-devices-using-device-enrollment-manager.md)에 대해 자세히 알아보세요. ([표로 돌아가기](#overview-of-device-enrollment-methods))
+DEM(장치 등록 관리자)은 회사 소유 장치를 여러 개 등록하여 관리할 수 있는 특수 사용자 계정입니다. 관리자는 회사 포털을 설치하고 사용자가 없는 많은 장치를 등록할 수 있습니다. [DEM](enroll-devices-using-device-enrollment-manager.md)에 대해 자세히 알아보세요. ([표로 돌아가기](#overview-of-device-enrollment-methods))
 
 ### <a name="dep"></a>DEP
 Apple DEP(장치 등록 프로그램) 관리에서는 정책을 만든 후, 구입한 iOS 장치 중에서 DEP로 관리하는 장치에 "무선으로" 정책을 배포할 수 있습니다. 사용자가 처음으로 장치를 켜고 iOS 설치 도우미를 실행하면 장치가 등록됩니다. 이 방법은 **iOS 감독** 모드를 지원하며, 이 모드에서는 다음을 사용할 수 있습니다.
@@ -87,7 +88,7 @@ Apple DEP(장치 등록 프로그램) 관리에서는 정책을 만든 후, 구�
 iOS 등록에 대한 자세한 내용은 다음을 참조하세요.
 
 - [iOS 장치를 등록하는 방법 선택](choose-ios-enrollment-method.md)
-- [장치 등록 프로그램을 사용하여 iOS 장치 등록](enroll-ios-devices-using-device-enrollment-program.md) 
+- [장치 등록 프로그램을 사용하여 iOS 장치 등록](enroll-ios-devices-using-device-enrollment-program.md)
 - [위의 표로 돌아가기](#overview-of-device-enrollment-methods)
 
 ### <a name="usb-sa"></a>USB-SA
@@ -98,10 +99,10 @@ iOS 등록에 대한 자세한 내용은 다음을 참조하세요.
 iOS 등록에 대한 자세한 내용은 다음을 참조하세요.
 
 - [iOS 장치를 등록하는 방법 결정](choose-ios-enrollment-method.md)
-- [Configurator 및 설정 도우미를 사용하여 iOS 장치 등록](enroll-ios-devices-with-apple-configurator-and-setup-assistant.md) 
+- [Configurator 및 설정 도우미를 사용하여 iOS 장치 등록](enroll-ios-devices-with-apple-configurator-and-setup-assistant.md)
 
 ### <a name="usb-direct"></a>USB-Direct
-직접 등록의 경우 관리자가 등록 정책을 만들고 Apple Configurator로 내보내어 각 장치를 수동으로 등록해야 합니다. USB로 연결된 회사 소유의 장치는 직접 등록되고 출하 시 설정으로 초기화할 필요가 없습니다. 장치는 사용자가 지정되지 않은 장치로 관리됩니다. 장치는 잠기거나 감독이 되지 않으며, 조건부 액세스, 탈옥 검색, 모바일 응용 프로그램 관리를 지원할 수 없습니다. 
+직접 등록의 경우 관리자가 등록 정책을 만들고 Apple Configurator로 내보내어 각 장치를 수동으로 등록해야 합니다. USB로 연결된 회사 소유의 장치는 직접 등록되고 출하 시 설정으로 초기화할 필요가 없습니다. 장치는 사용자가 지정되지 않은 장치로 관리됩니다. 장치는 잠기거나 감독이 되지 않으며, 조건부 액세스, 탈옥 검색, 모바일 응용 프로그램 관리를 지원할 수 없습니다.
 
 iOS 등록에 대한 자세한 내용은 다음을 참조하세요.
 

@@ -1,5 +1,6 @@
 ---
-title: "macOS 장치에 대한 Intune 사용자 지정 설정 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "macOS 장치에 대한 Intune 사용자 지정 설정"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: macOS 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 68100ea5-7d9b-4c0b-8df7-b9a24b2442c8
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 13648aa35057201ac7420e2f1d334aee206605fe
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 84902bb0e7ea67b388debd8bd7992d396d981a7b
+ms.lasthandoff: 02/18/2017
 
 
 ---

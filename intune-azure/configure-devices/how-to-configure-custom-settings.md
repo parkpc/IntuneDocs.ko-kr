@@ -1,5 +1,6 @@
 ---
-title: "Intune 사용자 지정 장치 설정을 구성하는 방법 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Intune 사용자 지정 장치 설정을 구성하는 방법"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune을 사용하는 관리하는 iOS 장치에서 사용자 지정 설정을 구성하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: d9da3f1c2ccade5391e2e874336802602a016700
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: c8c8fc2c56f30557482cc1e4fa5d2d9b5da20050
+ms.lasthandoff: 02/18/2017
 
 
 ---

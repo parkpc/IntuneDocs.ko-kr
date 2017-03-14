@@ -1,9 +1,10 @@
 ---
-title: "Intune에서 iOS 장치를 등록하는 방법 선택 | Intune Azure 미리 보기 | Microsoft 문서"
+title: "Intune에서 iOS 장치를 등록하는 방법 선택"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Microsoft Intune에서 iOS 장치 등록을 설정하는 방법을 알아봅니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: e6c0a430-1851-4108-812a-87e0fc2623b5
 ms.reviewer: damionw
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
-ms.openlocfilehash: a08274fd4b2d3105b28f46a6d35257b3664f7510
-ms.lasthandoff: 02/15/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 748f5b6e18b7bc6d9e9d3e6635ac2c3e7eb11a67
+ms.lasthandoff: 02/18/2017
 
 
 ---

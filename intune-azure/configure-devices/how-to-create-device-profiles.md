@@ -1,5 +1,6 @@
 ---
-title: "Intune 장치 구성 프로필 만들기 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Intune 장치 구성 프로필 만들기 | Intune Azure 미리 보기"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune 장치 구성 프로필을 만드는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: d98aceff-eb35-4e3e-8e40-5f300e7335cc
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 908169c47d9eaa583c775c8ed06acea233040e50
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: cc9ef6777f06aca5ef93154c38e12520ab9ed348
+ms.lasthandoff: 02/18/2017
 
 
 ---

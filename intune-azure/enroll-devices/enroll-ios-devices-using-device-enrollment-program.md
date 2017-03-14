@@ -1,9 +1,10 @@
 ---
-title: "iOS 장치 등록 - 장치 등록 프로그램 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "iOS 장치 등록 - 장치 등록 프로그램"
+titleSuffix: Intune Azure preview
 description: "Intune Azure preview: DEP(장치 등록 프로그램)를 사용하여 회사 소유 iOS 장치를 등록하는 방법을 알아봅니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
-ms.openlocfilehash: da6d377c94ce5db7bbfa1cb3fc165581d649a1fb
-ms.lasthandoff: 02/15/2017
+ms.sourcegitcommit: 3e1898441b7576c07793e8b70f3c3f09f1cac534
+ms.openlocfilehash: ddeaeb2d532635802c615d09b4625dee0a824919
+ms.lasthandoff: 02/23/2017
 
 
 ---
@@ -63,7 +65,7 @@ iOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료�
 
 6. **사용자 선호도**에서 이 프로필을 가진 장치가 사용자 선호도를 사용하여 등록되는지 사용하지 않고 등록되는지 선택합니다.
 
- - **사용자 선호도를 사용하여 등록** - 초기 설치 작업을 진행할 때 장치에 사용자 정보를 등록해야 합니다. 그러면 회사 데이터와 메일에 액세스하도록 허용할 수 있습니다. 사용자에게 속하고 앱 설치 같은 서비스에 회사 포털을 사용해야 하는 DEP 관리 장치에 대한 사용자 선호도를 선택합니다. MFA(다단계 인증)는 사용자 선호도가 있는 DEP 장치에 등록하는 동안 작동하지 않습니다. 등록 후 MFA는 이러한 장치에서 예상대로 작동합니다.
+ - **사용자 선호도를 사용하여 등록** - 초기 설치 작업을 진행할 때 장치에 사용자 정보를 등록해야 합니다. 그러면 회사 데이터와 메일에 액세스하도록 허용할 수 있습니다. 사용자에게 속하고 앱 설치 같은 서비스에 회사 포털을 사용해야 하는 DEP 관리 장치에 대한 사용자 선호도를 선택합니다. MFA(다단계 인증)는 사용자 선호도가 있는 DEP 장치에 등록하는 동안 작동하지 않습니다. 등록 후 MFA는 이러한 장치에서 예상대로 작동합니다. DEP 장치에서는 처음 로그인할 때 자신의 암호를 변경해야 하는 새 사용자에게 등록 중에 메시지를 표시할 수 없습니다. 또한 암호가 만료된 사용자는 DEP 등록 중에 암호를 다시 설정하라는 메시지가 표시되지 않으며, 다른 장치에서 암호를 다시 설정해야 합니다.
 
     >[!NOTE]
     >사용자 선호도가 있는 DEP에서는 사용자 토큰을 요청하기 위해 WS-Trust 1.3 사용자 이름/혼합 끝점이 사용 가능하게 설정되어야 합니다.
@@ -101,11 +103,11 @@ iOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료�
 
 ## <a name="assign-apple-dep-serial-numbers-to-your-mdm-server"></a>MDM 서버에 Apple DEP 일련 번호 할당
 
-1. [장치 등록 프로그램 포털](https://deploy.apple.com)(https://deploy.apple.com)로 이동한 다음 회사 Apple ID로 로그인합니다. 
+1. [장치 등록 프로그램 포털](https://deploy.apple.com)(https://deploy.apple.com)로 이동한 다음 회사 Apple ID로 로그인합니다.
 
-2. **배포 프로그램** &gt; **장치 등록 프로그램** &gt; **장치 관리**로 이동합니다. 
+2. **배포 프로그램** &gt; **장치 등록 프로그램** &gt; **장치 관리**로 이동합니다.
 
-3. **장치 선택**방법을 지정하고, 장치 정보를 제공한 다음, 장치 **일련번호**, **주문 번호**또는 **CSV 파일 업로드**에 따라 세부 정보를 지정합니다. 
+3. **장치 선택**방법을 지정하고, 장치 정보를 제공한 다음, 장치 **일련번호**, **주문 번호**또는 **CSV 파일 업로드**에 따라 세부 정보를 지정합니다.
 
 4. **서버에 할당**을 선택하고 Microsoft Intune에 대해 지정된 &lt;ServerName&gt;을 선택한 다음 **확인**을 선택합니다.
 
@@ -137,7 +139,7 @@ iOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료�
 
 사용자 선호도로 구성한 장치에서 회사 포털 앱을 설치하고 실행하여 앱을 다운로드하고 장치를 관리할 수 있습니다. 사용자는 장치를 받은 후 아래 설명된 추가 단계를 완료하여 설정 도우미를 완료하고 회사 포털 앱을 설치해야 합니다.
 
-### <a name="how-users-enroll-corporate-owned-ios-devices-with-user-affinity"></a>사용자가 사용자 선호도를 사용하여 회사 소유의 iOS 장치를 등록하는 방법 
+### <a name="how-users-enroll-corporate-owned-ios-devices-with-user-affinity"></a>사용자가 사용자 선호도를 사용하여 회사 소유의 iOS 장치를 등록하는 방법
 
 1. 사용자가 장치를 켜면 설정 도우미를 완료하라는 메시지가 표시됩니다. 설정하는 동안 자격 증명을 묻는 메시지가 표시됩니다. Intune에서 구독과 연결된 자격 증명(즉, 고유 이름 또는 UPN)을 사용해야 합니다.
 

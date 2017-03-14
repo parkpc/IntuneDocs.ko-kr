@@ -1,5 +1,6 @@
 ---
-title: "Windows 10 장치에 대한 Intune 사용자 지정 설정 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Windows 10 장치에 대한 Intune 사용자 지정 설정"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Windows 10 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 7bcea136-7260-4042-b21b-c7dab86b380d
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: bc740d9e43e2937757075bf84735fe611433f6f0
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 647415914fb0f44807eff7baf7a56ea3a382f027
+ms.lasthandoff: 02/18/2017
 
 
 ---

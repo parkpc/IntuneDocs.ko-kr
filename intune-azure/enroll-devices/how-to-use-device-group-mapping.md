@@ -1,5 +1,6 @@
 ---
-title: "Intune에서 장치 범주를 사용하는 방법 | Intune Azure 미리 보기 | Microsoft 문서"
+title: "Intune에서 장치 범주를 사용하는 방법"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune에서 장치를 등록할 때 사용자가 선택할 수 장치 범주를 사용하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -12,10 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 7b668c37-40b9-4c69-8334-5d8344e78c24
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
-ms.openlocfilehash: 57dce5b23b9c8cd878a9ce746e6459a69f1270ff
-ms.lasthandoff: 02/15/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: c635ced382074f7f45254fb219b58f54b56abb8e
+ms.lasthandoff: 02/18/2017
 
 
 ---

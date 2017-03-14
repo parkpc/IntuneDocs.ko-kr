@@ -1,11 +1,12 @@
 ---
-title: "Intune VPN 설정을 구성하는 방법 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Intune VPN 설정을 구성하는 방법"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune을 사용하는 관리하는 iOS 장치에서 VPN 연결을 구성하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: karanda
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: ff05d9ed7bae2742de8dbbe908f2c92d2459a7f4
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 2d93edb688dbf296137a133f0b7ae065fc1cc89d
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -33,8 +35,8 @@ VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전
 
 다음의 연결 유형을 사용하여 VPN 프로필을 만들 수 있습니다.
 
-|||
-|-|-|
+||||||||
+|-|-|-|-|-|-|-|
 |연결 유형|Android|iOS|macOS|Windows Phone 8.1|Windows 8.1|Windows 10|
 |Pulse Secure|예|예|예|예|예|예|
 |Cisco(IPsec)|아니요|예|아니요|아니요|아니요|아니요|

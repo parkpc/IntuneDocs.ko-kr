@@ -1,5 +1,6 @@
 ---
-title: "Android 장치에 대한 Intune 메일 설정 | Intune Azure 미리 보기 | Microsoft Docs"
+title: "Android 장치에 대한 Intune 메일 설정"
+titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Android 장치에서 메일 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 4d3458cc-fcaa-4648-b13f-bf1f0616c1c5
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 29a4346a04470192553ad2d4f0962a2a21d637ec
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 4a97af7fdf52e0e3055932f307223cb32e75c001
+ms.lasthandoff: 02/18/2017
 
 
 ---
