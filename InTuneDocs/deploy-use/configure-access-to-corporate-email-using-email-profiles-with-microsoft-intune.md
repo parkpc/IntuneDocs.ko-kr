@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/08/2017
+ms.date: 02/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 3ee87c8f6104b06c8a9492566ff160540624f17e
-ms.openlocfilehash: 8f35cf70d0c97afc88eba38b1eaff5e2e38425d0
+ms.sourcegitcommit: 51f9d7bad6a1411ff68fa94c62421e2c0a43ab5a
+ms.openlocfilehash: d60b9afdf7fe9f78dd5cc4693259b8667fb17299
+ms.lasthandoff: 02/25/2017
 
 
 ---
@@ -41,7 +42,7 @@ IT 관리자나 사용자가 Android 또는 iOS용 Microsoft Outlook 등 대체 
 -    Android for Work
 
 >[!NOTE]
->Intune은 Gmail 및 Nine Work 메일 앱 각각에 대해 Android for Work 메일 프로필을 하나씩 제공합니다. 이러한 앱은 Google Play 스토어에서 사용할 수 있으며 Exchange로의 연결을 지원합니다. 메일 연결을 사용하도록 설정하려면 사용자의 장치에 이러한 메일 앱 중 하나를 배포한 다음 적절한 프로필을 만들어 배포합니다.
+>Intune은 Gmail 및 Nine Work 메일 앱 각각에 대해 Android for Work 메일 프로필을 하나씩 제공합니다. 이러한 앱은 Google Play 스토어에서 사용할 수 있으며 Exchange로의 연결을 지원합니다. 메일 연결을 사용하도록 설정하려면 사용자의 장치에 이러한 메일 앱 중 하나를 배포한 다음 적절한 프로필을 만들어 배포합니다. Nine Work 등의 메일 앱은 무료가 아닐 수도 있습니다. 앱의 라이선스 정보를 검토하거나, 질문이 있으면 앱 회사에 문의하세요.
 
 장치에서 전자 메일 계정을 설정할 수 있을 뿐만 아니라, 동기화할 수 있는 전자 메일의 수 및 장치 유형에 따라 동기화할 수 있는 콘텐츠 형식을 설정할 수 있습니다.
 
@@ -105,7 +106,7 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
     |**메일 주소**|각 장치에서 사용자의 전자 메일 주소가 생성되는 방법입니다. **기본 SMTP 주소**를 선택하여 Exchange에 로그인하는 기본 SMTP 주소를 사용하거나 **사용자 계정 이름**을 사용하여 전자 메일 주소와 전체 사용자 이름을 사용합니다.|
     |**인증 방법**(Android for Work, Samsung KNOX 및 iOS)|전자 메일 프로필에서 사용되는 인증 방법으로 **사용자 이름 및 암호** 또는 **인증서**중 하나를 선택합니다.|
     |**클라이언트 인증을 위해 클라이언트 인증서 선택(ID 인증서)**(Android for Work, Samsung KNOX and iOS)|Exchange 연결을 인증하는 데 사용할 이전에 만든 클라이언트 SCEP 인증서를 선택합니다. Intune에서 인증서 프로필을 사용하는 방법에 대한 자세한 내용은 [인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요. 인증 방법이 **인증서**인 경우에만 이 옵션이 표시됩니다.|
-    |**S/MIME 사용**(Samsung KNOX 및 iOS)|S/MIME 암호화를 사용하여 발신 전자 메일을 전송합니다.|
+    |**S/MIME 사용**(Samsung KNOX 및 iOS)|S/MIME 서명을 사용하여 보내는 메일을 전송합니다.|
     |**인증서 서명**(Samsung KNOX 및 iOS)|발신 전자 메일에 서명하는 데 사용할 서명 인증서를 선택합니다. **S/MIME 사용**을 선택한 경우에만 이 옵션이 표시됩니다.|
     |**동기화할 메일의 일 수**|동기화할 전자 메일의 일 수 또는 **무제한**을 선택하여 사용 가능한 모든 전자 메일을 동기화합니다.|
     |**동기화 일정**(Android for Work, Samsung KNOX, Windows Phone 8 이상, Windows 10)|장치가 Exchange Server의 데이터를 동기화할 일정을 선택합니다. 데이터가 도착하는 즉시 동기화하는 **메시지가 도착할 때**를 선택하거나 또는 장치의 사용자가 동기화를 시작해야 하는 **수동**을 선택할 수도 있습니다.|
@@ -136,9 +137,4 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 > [!NOTE]
 > - Android for Work의 경우 해당 메일 프로필 외에, Gmail 또는 Nine Work 앱도 배포해야 합니다.
 > - 장치에서 전자 메일 프로필을 제거하려면 배포를 편집하고 장치가 멤버로 포함된 그룹을 모두 제거합니다. 메일 프로필이 장치에 있는 유일한 메일 프로필인 경우 이 방식으로 메일 프로필을 제거할 수 없습니다.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

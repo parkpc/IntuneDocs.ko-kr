@@ -15,8 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: fbb41a8cf6fada76b72213b8cb04fdc0428515e9
-ms.openlocfilehash: 2ab3769ff878cf8b6223e4f46244f16eab8743a0
+ms.sourcegitcommit: e55cf608c2e5157feeb40ba20d3988b5b35064db
+ms.openlocfilehash: 22ea926719efc788c53861bc91f78d24631d54c1
+ms.lasthandoff: 02/25/2017
 
 
 ---
@@ -44,9 +45,7 @@ OneDrive 또는 Outlook과 같이 앱 기반 CA에서 지원되는 앱에 처음
 * **iOS 장치**: Azure Authenticator 앱을 열고 계정을 왼쪽으로 살짝 민 다음 등록 취소를 선택합니다.  
 * **Android 장치**: 회사 포털 앱을 제거하거나 **시스템 설정**에서 계정을 제거합니다.
 
-
-
-## <a name="app-based-ca-with-conditional-access-based-on-device-compliance"></a>장치 규정 준수를 기반으로 하는 조건부 액세스 정책이 포함된 앱 기반 CA  
+## <a name="app-based-ca-with-device-based-ca"></a>앱 기반 CA 및 장치 기반 CA  
 
 [장치 규정 준수를 기반으로 하는 조건부 액세스](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)(**장치 CA**)를 [Intune 관리자 콘솔](https://manage.microsoft.com) 또는 [Azure AD Premium 관리 콘솔](https://manage.windowsazure.com)에 구성할 수 있습니다. 장치 CA를 사용하려면 사용자는 Intune 장치 규정 준수 정책을 준수하는 Intune 관리 장치 또는 도메인에 가입된 PC를 통해서만 Exchange Online에 연결해야 합니다.  사용자가 앱 기반 CA와 장치 CA 정책 모두를 대상으로 하는 보안 그룹 하나 이상에 속해 있는 경우 사용자는 두 가지 요구 사항 중 하나를 충족해야 합니다.
 * 서비스에 액세스하는 데 사용되는 앱이 
@@ -63,9 +62,4 @@ OneDrive 또는 Outlook과 같이 앱 기반 CA에서 지원되는 앱에 처음
 ### <a name="see-also"></a>참고 항목
 
 [앱 보호 정책을 사용하여 앱 데이터 보호](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

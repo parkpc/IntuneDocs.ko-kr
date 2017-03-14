@@ -2,10 +2,10 @@
 title: "IMEI 번호 지정 | Microsoft 문서"
 description: "Microsoft Intune에서는 관리자가 회사 소유의 모바일 장치를 식별하는 데 도움이 되는 모바일 장치 플랫폼용 IMEI 번호를 가져올 수 있습니다."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: NathBarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 02/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: fbc9e94d3fc5dc7e69f5d59ca1d52493b2beefc3
-ms.openlocfilehash: 5fa3c62553403dfafd182a691f611ba12a2d729c
+ms.sourcegitcommit: 51f9d7bad6a1411ff68fa94c62421e2c0a43ab5a
+ms.openlocfilehash: 97bedfdd2d756ae79350496f54076c16ada64def
+ms.lasthandoff: 02/25/2017
 
 
 ---
@@ -50,13 +51,11 @@ Microsoft Intune에서는 관리자가 회사 소유의 모바일 장치를 식�
 3.  **장치 검토** 창에서 가져온 장치 IMEI 번호를 확인할 수 있습니다. 가져오는 IMEI 번호에 대한 **세부 정보**를 덮어쓸지 여부를 결정할 수도 있습니다. 현재 세부 정보를 유지하려면 **덮어쓰기** 상자의 선택을 취소할 수 있습니다. **마침**을 선택하여 IMEI 번호를 가져옵니다.
 4.  가져온 IMEI 번호 및 설명이 **By IMEI (All platforms)(IMEI 기준(모든 플랫폼))** 목록에 추가됩니다.
 
+> [!IMPORTANT]
+> Android 장치에 대한 IMEI 번호를 가져오는 경우 일부 Android 장치에는 여러 IMEI 번호가 있을 수 있다는 것에 유의하세요. IMEI 번호를 가져오지만 장치에서 Intune에 보고한 IMEI가 아닌 경우 장치는 회사 소유 장치가 아니라 개인 장치로 분류됩니다.
+
 IMEI 번호가 있는 장치가 Intune에서 등록되면, 일반적으로 사용자가 회사 포털 앱을 설치하고 등록 프로세스를 완료할 때 장치에 회사 소유로 태그가 지정되며 **IMEI 장치** 그룹에 등록된 것으로 표시됩니다.
 
->[!NOTE] 
+>[!NOTE]
 > 곧 조직이 새 Azure 포털로 마이그레이션되면 이 기능이 변경됩니다. 기존 Intune 관리자 콘솔에서 관리자는 업로드된 CSV의 연결된 세부 정보를 수락하고 개별 하드웨어 식별자의 기존 세부 정보를 덮어쓸 수 있습니다. 새 Azure 포털에서는 모든 하드웨어 식별자의 세부 정보를 자동으로 덮어쓰거나 기존 식별자의 세부 정보를 모두 무시할 수 있습니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

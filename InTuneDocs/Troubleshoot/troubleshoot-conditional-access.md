@@ -15,8 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
-ms.openlocfilehash: 66a8f72e2560352c2e4f422b41c7e54b4ae124e6
+ms.sourcegitcommit: 7ac6041fb33f95e5b0c53b81c2af9aef42767a38
+ms.openlocfilehash: 115a27512930fa995a2781afc8a94c1d7f97958e
+ms.lasthandoff: 03/02/2017
 
 
 ---
@@ -55,7 +56,7 @@ Azure 관리 포털 및 장치 인벤토리 보고서에서 각 장치에 대해
      -   사용자가 만든 기존 메일 프로필에서는 Intune 관리자가 만든 프로필 배포가 차단됩니다. iOS 사용자는 일반적으로 메일 프로필을 만든 후에 등록을 하므로 이것은 일반적인 문제입니다. 회사 포털에서는 수동으로 구성된 메일 프로필 때문에 규정에 맞지 않음을 사용자에게 알리며, 프로필을 제거하라는 메시지를 표시합니다. 사용자는 Intune 프로필을 배포할 수 있도록 메일 프로필을 제거해야 합니다. 이 문제를 방지하려면 메일 프로필을 설치하지 않은 상태에서 등록을 하고 Intune의 프로필 배포를 허용할 것을 지시합니다.
      -     iOS 장치가 규정 준수 확인 상태로 국한되어 사용자가 다른 체크 인을 시작하지 못할 수도 있습니다. 회사 포털을 다시 시작하면 이 문제가 해결될 수도 있으며, 준수 상태는 Intune에서 장치 상태를 반영합니다. 장치 동기화를 통해 모든 데이터가 수집되면 규정 준수 확인이 빨라져 평균&0;.5초가 걸리지 않게 됩니다.
 
-        일반적으로 장치가 이 상태로 유지되는 이유는 서비스 연결에 문제가 발생하거나 동기화가 오래 걸리기 때문입니다.  장치를 다시 시작했어도 다른 네트워크 구성(셀룰러, Wi-Fi, VPN)에서 문제가 지속되면, SSP가 장치에서 최신 상태인지 확인한 후 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)에 설명된 대로 Microsoft 지원 서비스에 문의하세요.
+        일반적으로 장치가 이 상태로 유지되는 이유는 서비스 연결에 문제가 발생하거나 동기화가 오래 걸리기 때문입니다.  장치를 다시 시작해도 다른 네트워크 구성(셀룰러, Wi-Fi, VPN)에서 문제가 지속되면, SSP가 장치에서 최신 상태인지 확인한 후 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)에 설명된 대로 Microsoft 지원 서비스에 문의하세요.
 
 ## <a name="policy-issues"></a>정책 문제
 
@@ -159,9 +160,4 @@ Exchange Connector 로그에서 **Get next 명령**의 예외를 확인하고 �
 
 ### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

@@ -5,21 +5,22 @@ keywords: Mac OS X, macOS, OS X
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/21/2016
+ms.date: 02/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 58eb0e7a-1321-4c66-a281-88fb01e72c1c
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
-ms.reviewer: esmich
+- User help
+ROBOTS: 
+ms.reviewer: mamoriss
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 9530eb45bf027c66c4a36e4cea1ec05c5f15a6e5
-ms.openlocfilehash: 60879acf553934d246c662060e3d57ec50c51658
+ms.sourcegitcommit: e2a507ff6f803cf022536824ca2f12f6d6a64d75
+ms.openlocfilehash: 4b532299070bdb8ddf0e9de1e6b598e8dcd8ffb3
+ms.lasthandoff: 02/24/2017
 
 
 ---
@@ -36,37 +37,36 @@ ms.openlocfilehash: 60879acf553934d246c662060e3d57ec50c51658
 
   [!INCLUDE[wit_nextref](../includes/end-user-password-guidance.md)]
 
-3. 로그인하면 사용 가능한 __앱__, __내 장치__ 및 IT 직원의 사용 가능한 __연락처 정보__가 표시됩니다. 페이지 위쪽에 다음과 같은 알림이 표시됩니다. **이 장치가 등록되지 않았거나 회사 포털 앱이 이 장치를 식별할 수 없습니다. <u>여기를 탭</u>하여 다른 장치를 선택합니다.** __여기를 탭하세요__를 클릭합니다.
+3. 로그인하면 사용 가능한 __홈__, __앱__ 및 __범주__ 탭이 표시됩니다. 이 페이지에는 설치할 수 있는 앱이 표시됩니다. 아직 등록된 장치가 없는 경우 **앱을 표시할 수 없습니다.**라는 알림이 표시됩니다. __내 장치__를 선택하여 계속 진행할 수 있습니다.
 
- ![회사 포털 macOS 시작 페이지](./media/macOS_enroll_001_landing_page.png)
+ ![웹 포털에 앱을 설치할 수 없다고 표시되고 그 아래에 내 장치 단추가 있는 웹 포털 방문 페이지의 스크린샷](./media/macOS_enroll_001_landing_page.png)
 
-4. 팝업 창에 __이 장치를 식별 또는 등록__하는 이유를 간단히 설명하는 메시지가 표시됩니다. 내용을 검토한 다음 __등록__을 클릭합니다.
+4. __내 장치__ 페이지에 등록된 장치 목록이나 단순히 배너가 표시됩니다. 장치가 이미 등록되어 있는지 또는 macOS가 있는지 여부에 따라 달라집니다. 나열되지 않는 장치를 등록하려면 __장치가 나열되면 여기를 탭하여 식별합니다. 여기를 탭하여 나열되지 않는 장치를 등록할 수도 있습니다.__라는 배너를 선택합니다.
 
- ![이 장치 macOS 식별 또는 등록](./media/macOS_enroll_002_IDenroll_popup.png)
+  ![목록에 없는 장치를 등록하거나 식별되지 않은 장치를 식별하라는 배너 프롬프트 위에 몇 개의 식별되지 않은 장치가 표시된 내 장치 페이지의 스크린샷](./media/macOS_enroll_002_tap_here_banner.png)
 
-5. 두 번째 팝업 창에 __이 장치를 등록__하면 어떻게 되는지 간단히 설명하는 메시지가 표시됩니다. 내용은 검토한 다음 __설치__를 클릭하여 진행합니다.
+5. 팝업 창에 __이 장치를 식별 또는 등록__하는 이유를 간단히 설명하는 메시지가 표시됩니다. 내용을 검토한 다음 __등록__을 클릭합니다.
 
- ![이 장치 macOS 등록](./media/macOS_enroll_003_enroll_popup.png)
+ ![이 장치 macOS 식별 또는 등록](./media/macOS_enroll_003_IDenroll_popup.png)
+
+6. 두 번째 팝업 창에 __이 장치를 등록__하면 어떻게 되는지 간단히 설명하는 메시지가 표시됩니다. 내용은 검토한 다음 __설치__를 클릭하여 진행합니다.
+
+ ![이 장치 macOS 등록](./media/macOS_enroll_004_enroll_popup.png)
 
   > [!NOTE]
   > 장치가 조직의 리소스에 액세스해도 안전한지 확인하기 위해 Intune에서 컴퓨터에 액세스해야 합니다. [Intune에서 장치를 등록하면 어떻게 되는지](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md) 알아보세요.
 
-6. __시스템 환경설정__이 열리고 __"관리 프로필"을 설치할까요?__ 메시지가 표시됩니다. __설치__를 클릭하여 진행하거나 __프로필 표시__를 클릭하여 자세한 내용을 확인합니다.
+7. __시스템 환경설정__이 열리고 __"관리 프로필"을 설치할까요?__ 메시지가 표시됩니다. __설치__를 클릭하여 진행하거나 __프로필 표시__를 클릭하여 자세한 내용을 확인합니다.
 
- ![관리 프로필 설치](./media/macOS_enroll_004_sysprefs_mgmt_profile.png)
+ ![관리 프로필 설치](./media/macOS_enroll_005_sysprefs_mgmt_profile.png)
 
-7. macOS 팝업 창이 표시됩니다. 컴퓨터의 __사용자 이름__과 __암호__를 입력한 다음 __확인__을 클릭하여 변경하도록 확인합니다. 그러면 관리 프로필이 Mac에 설치됩니다.
+8. macOS 팝업 창이 표시됩니다. 컴퓨터의 __사용자 이름__과 __암호__를 입력한 다음 __확인__을 클릭하여 변경하도록 확인합니다. 그러면 관리 프로필이 Mac에 설치됩니다.
 
- ![macOS 프로필 설치 팝업](./media/macOS_enroll_005_sysprefs_admin_login.png)
+ ![macOS 프로필 설치 팝업](./media/macOS_enroll_006_sysprefs_admin_login.png)
 
-8. Mac에서 프로필에 대한 자세한 정보가 포함된 메시지나 __설치__할지 여부를 묻는 메시지가 추가로 표시될 수 있습니다. __계속__ 및 __설치__를 클릭하여 진행합니다. 설치가 완료되면 __장치 프로필__ 목록에서 새로 설치된 __관리 프로필__을 볼 수 있습니다.
+9. Mac에서 프로필에 대한 자세한 정보가 포함된 메시지나 __설치__할지 여부를 묻는 메시지가 추가로 표시될 수 있습니다. __계속__ 및 __설치__를 클릭하여 진행합니다. 설치가 완료되면 __장치 프로필__ 목록에서 새로 설치된 __관리 프로필__을 볼 수 있습니다.
 
- ![macOS 프로필 설치됨](./media/macOS_enroll_006_sysprefs_installed_profile.png)
+ ![macOS 프로필 설치됨](./media/macOS_enroll_007_sysprefs_installed_profile.png)
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에서 찾을 수 있습니다.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 
