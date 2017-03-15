@@ -193,12 +193,10 @@
 ### [관리되는 업무용 앱 데이터 초기화](deploy-use/Wipe-managed-company-app-data-with-microsoft-intune.md)
 
 ## [Intune에 대한 최종 사용자 교육 방법](deploy-use/how-to-educate-your-end-users-about-microsoft-intune.md)
-### [Intune에서 Android 장치 사용](EndUser/using-your-android-device-with-intune.md)
-#### [Android 사용자가 앱을 얻는 방법](deploy-use/how-your-android-users-get-their-apps.md)
-### [Intune에서 iOS 장치 사용](EndUser/using-your-iOS-or-macos-device-with-intune.md)
-#### [iOS 사용자가 앱을 얻는 방법](deploy-use/how-your-ios-users-get-their-apps.md)
-### [Intune에서 Windows 장치 사용](EndUser/using-your-windows-device-with-intune.md)
-#### [Windows 사용자가 앱을 얻는 방법](deploy-use/how-your-windows-users-get-their-apps.md)
+### [회사 포털 메시지 최종 사용자 보기](deploy-use/help-end-users-understand-company-portal-app-messages.md)
+### [Android 사용자가 앱을 얻는 방법](deploy-use/how-your-android-users-get-their-apps.md)
+### [iOS 사용자가 앱을 얻는 방법](deploy-use/how-your-ios-users-get-their-apps.md)
+### [Windows 사용자가 앱을 얻는 방법](deploy-use/how-your-windows-users-get-their-apps.md)
 
 # 앱 개발 및 사용자 지정
 ## [Microsoft Intune 앱 SDK 개요](develop/intune-app-sdk.md)
