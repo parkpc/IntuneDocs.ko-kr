@@ -6,7 +6,7 @@
 ## [새로운 기능](introduction/whats-new.md)
 ## [알려진 문제](introduction/known-issues-in-the-intune-preview.md)
 ## [지원 받기](introduction/how-to-get-support-for-microsoft-intune.md)
-<!--- 
+<!---
 
 ## [Related resources](introduction/related-resources.md)
 
@@ -138,6 +138,7 @@
 #### [Windows 8.1 및 Windows 10](configure-devices/wi-fi-import-for-windows-8-1.md)
 
 ### [Windows 10 버전 업그레이드 설정 구성](configure-devices/how-to-configure-windows-10-edition-upgrade.md)
+### [비즈니스용 Window 업데이트 설정 구성](configure-devices/how-to-configure-windows-update-for-business.md)
 ### [인증서 구성](configure-devices/how-to-configure-certificates.md)
 #### [SCEP](configure-devices/configure-certificate-infrastructure-for-scep.md)
 #### [PKCS](configure-devices/configure-certificate-infrastructure-for-pfx.md)
