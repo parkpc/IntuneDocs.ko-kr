@@ -15,9 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 7ac6041fb33f95e5b0c53b81c2af9aef42767a38
-ms.openlocfilehash: 115a27512930fa995a2781afc8a94c1d7f97958e
-ms.lasthandoff: 03/02/2017
+ms.sourcegitcommit: 9894fdb696f4e010e176efc47068827bddaf7d4e
+ms.openlocfilehash: 8c84703828db3c5da2aa88fa3dc16329f3a4a1e1
+ms.lasthandoff: 03/04/2017
 
 
 ---
@@ -57,6 +57,13 @@ Azure 관리 포털 및 장치 인벤토리 보고서에서 각 장치에 대해
      -     iOS 장치가 규정 준수 확인 상태로 국한되어 사용자가 다른 체크 인을 시작하지 못할 수도 있습니다. 회사 포털을 다시 시작하면 이 문제가 해결될 수도 있으며, 준수 상태는 Intune에서 장치 상태를 반영합니다. 장치 동기화를 통해 모든 데이터가 수집되면 규정 준수 확인이 빨라져 평균&0;.5초가 걸리지 않게 됩니다.
 
         일반적으로 장치가 이 상태로 유지되는 이유는 서비스 연결에 문제가 발생하거나 동기화가 오래 걸리기 때문입니다.  장치를 다시 시작해도 다른 네트워크 구성(셀룰러, Wi-Fi, VPN)에서 문제가 지속되면, SSP가 장치에서 최신 상태인지 확인한 후 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)에 설명된 대로 Microsoft 지원 서비스에 문의하세요.
+
+ - Android 장치:
+     - 어떤 Android 장치는 암호화된 것처럼 보이지만 회사 포털 앱에서 암호화되지 않은 것으로 인식됩니다. 
+    
+        -    이 상태에 있는 장치는 사용자가 안전한 시작 암호를 설정해야 합니다. 회사 포털 앱에서 사용자에게 장치의 시작 암호를 설정하라는 내용의 장치 알림을 표시합니다. 장치 알림을 탭하고 기존 PIN 또는 암호를 확인한 후에 **안전한 시작** 화면에서 **기기 시작 시 PIN 요청** 옵션을 선택합니다. 그런 다음 회사 포털 앱에서 그 장치의 **준수 확인** 단추를 탭합니다. 이제 장치가 암호화된 것으로 감지됩니다.
+    
+        -     일부 장치 제조업체에서는 사용자가 설정한 비밀 PIN이 아닌 기본 PIN을 사용하여 장치를 암호화합니다. 악의적인 사용자가 물리적으로 장치에 액세스할 수 있게 되었을 때 장치에 있는 데이터가 위험해질 수 있기 때문에 기본 PIN을 사용하는 암호화 방법은 Intune에서 보안이 약한 것으로 인식됩니다. 이 문제가 우려될 경우는 [앱 보호 정책](https://docs.microsoft.com/en-us/intune/deploy-use/azure-portal-for-microsoft-intune-mam-policies)을 사용합니다.
 
 ## <a name="policy-issues"></a>정책 문제
 
