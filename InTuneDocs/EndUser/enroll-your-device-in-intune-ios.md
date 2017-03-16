@@ -5,21 +5,22 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/08/2017
+ms.date: 03/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6eeec7aa-1b07-4ce3-894c-13e09b89bdd4
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 9530eb45bf027c66c4a36e4cea1ec05c5f15a6e5
-ms.openlocfilehash: c7fa06ea443523c51a79c33af7e8094d7a7777c5
+ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
+ms.openlocfilehash: cfa3fe7bafeeb2f63b1277d573b52a0681a8ade8
+ms.lasthandoff: 03/08/2017
 
 
 ---
@@ -97,10 +98,8 @@ ms.openlocfilehash: c7fa06ea443523c51a79c33af7e8094d7a7777c5
 
 이제 Intune에 장치를 등록했으므로 회사 포털 앱으로 다시 이동합니다.
 
+> [!Note]
+> 조직에서 TEM(Telecom Expense Management) 소프트웨어를 사용하는 경우 몇 가지 추가 단계를 완료해야 장치가 완전히 등록됩니다. 자세한 내용은 [여기](enroll-your-device-with-telecom-expense-management-ios.md)를 참조하세요.
+
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

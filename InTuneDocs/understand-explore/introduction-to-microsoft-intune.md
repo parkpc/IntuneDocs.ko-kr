@@ -5,7 +5,7 @@ keywords: "Intune이란"
 author: Lindavr
 ms.author: lindavr
 manager: angrobe
-ms.date: 11/15/2016
+ms.date: 03/7/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: pmay
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d0057f1e3d2ead729c2143587571fa4b16a3dd2f
-ms.openlocfilehash: 9b4eed086853c0feeb8266a8087a275f2b70e40f
+ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
+ms.openlocfilehash: ee1f41384df083d6479804ba05c0252d9ba12e1b
+ms.lasthandoff: 03/08/2017
 
 
 ---
@@ -31,7 +32,7 @@ Intune은 직원이 회사 데이터를 보호하면서 생산성을 높일 수 
 * 직원이 회사 정보에 액세스하여 이를 공유하는 방법을 제어할 수 있게 하여 회사 정보를 보호합니다.
 * 장치와 앱이 회사 보안 요구 사항을 준수하는지 확인합니다.
 
-Intune은 ID 및 액세스 제어를 위한 Azure AD(Azure Active Directory) 및 데이터 보호를 위한 Azure RMS(Azure Rights Management)와 긴밀하게 통합됩니다. 이것은 Microsoft EMS(Enterprise Mobility + Security)의 *관리 암(arm)*이며, Office 365는 Microsoft의 이동성 솔루션의 *생산성 암(arm)*입니다.  
+Intune은 ID 및 액세스 제어를 위한 Azure AD(Azure Active Directory) 및 데이터 보호를 위한 Azure Information Protection과 긴밀하게 통합됩니다. 이것은 Microsoft EMS(Enterprise Mobility + Security)의 *관리 암(arm)*이며, Office 365는 Microsoft의 이동성 솔루션의 *생산성 암(arm)*입니다.  
 
 Office 365 및 EMS를 함께 사용하여 조직의 정보를 보호하면서 직원이 사용하는 모든 장치에서 생산성을 높일 수 있습니다. EMS와 함께 사용하는 Office 365는 생산성, ID, 액세스 제어, 관리 및 데이터 보호를 모두 포함하는 엔터프라이즈 이동성을 위한 완전한 통합 제품군입니다. 조직의 Mobility 솔루션을 배포하고 운영하는 효과적인 방법을 제공합니다.
 
@@ -114,9 +115,4 @@ Intune이 모바일 앱 보안을 제공하는 한 가지 방법은 **앱 보호
 * [Intune을 사용하는 일반적인 방법](common-ways-to-use-intune.md)의 일부 읽기
 * [Intune의 30일 평가판으로](get-started-with-a-30-day-trial-of-microsoft-intune.md) 제품에 대해 알아보기
 * Intune의 [기술 요구 사항 및 기능](/intune/get-started/what-to-know-before-you-start-microsoft-intune)에 대해 자세히 알아보기
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

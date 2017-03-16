@@ -15,9 +15,9 @@ ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 526830839aa801a7ac78aeb4baaa790d6bb5da5c
-ms.openlocfilehash: 8f43dc529b2da2c97500c03056ba7908bb8ab0fa
-ms.lasthandoff: 02/08/2017
+ms.sourcegitcommit: 5726934501b3d6b243de94951cf0c57cbd79a811
+ms.openlocfilehash: ccc0502c81cb16d2ca13e5d6a702c0ff863b83e4
+ms.lasthandoff: 03/09/2017
 
 
 ---
@@ -42,15 +42,13 @@ Microsoft 기술 전문가에게 질문하거나 토론을 시작하세요. Micr
 
 ### <a name="microsoft-intune-uservoice-product-feedback-site"></a>Microsoft Intune UserVoice 제품 피드백 사이트
 
-Microsoft가 Intune을 개선하는 방법에 대한 피드백이 있나요? Microsoft Intune [UserVoice](https://microsoftintune.uservoice.com/forums/291681-ideas) 피드백 사이트에 아이디어를 게시하여 알려주세요. 다른 사용자가 UserVoice에 추가한 아이디어에 대해 투표할 수도 있습니다. 
+Microsoft가 Intune을 개선하는 방법에 대한 피드백이 있나요? Microsoft Intune [UserVoice](https://microsoftintune.uservoice.com/forums/291681-ideas) 피드백 사이트에 아이디어를 게시하여 알려주세요. 다른 사용자가 UserVoice에 추가한 아이디어에 대해 투표할 수도 있습니다.
 
 ![Microsoft Intune UserVoice 피드백 페이지](./media/intune-uservoice-feedback-page.png)
 
-## <a name="create-an-online-support-ticket"></a>온라인 지원 티켓 만들기
+## <a name="create-a-support-ticket"></a>지원 티켓 만들기
 
-자가 진단 리소스를 사용하여 답변을 찾을 수 없는 경우 온라인 지원 티켓을 만들 수 있습니다.
-
-더 효율적으로 지원받을 수 있도록 **각 지원 티켓을 단일 문제로 제한**하세요. 그 이유는 다음과 같습니다.
+자가 진단 리소스를 사용하여 답변을 찾을 수 없는 경우 온라인 지원 티켓을 만들 수 있습니다. 더 효율적으로 지원받을 수 있도록 **각 지원 티켓을 단일 문제로 제한**하세요. 그 이유는 다음과 같습니다.
 
 - 지원을 제공하는 지원 엔지니어가 특정 영역을 전문으로 하는 경우가 많으며 문제 해결을 도와줄 관련 전문가를 찾기가 더 쉬워집니다.
 - 엔지니어링 팀이 대부분의 인시던트가 발생되는 제품 영역을 우선해서 처리할 수 있습니다.
@@ -58,12 +56,15 @@ Microsoft가 Intune을 개선하는 방법에 대한 피드백이 있나요? Mic
 
 지원 티켓을 만들기 전에 [지원 인시던트 정의](#definition-of-a-support-incident)를 검토하세요.
 
-**온라인 지원 티켓을 만들려면**:
+### <a name="steps-to-create-an-online-support-ticket"></a>온라인 지원 티켓을 만드는 단계
 
 1.  Intune 자격 증명을 사용하여 [Office 365 관리 센터](https://portal.office.com)에 로그인합니다.
+
+    프리미어 지원 고객은 대신 [프리미어 지원 페이지](https://support.microsoft.com/en-us/premier/contacts)에서 Intune 지원 티켓을 열어야 합니다.
+
     >[!NOTE]
     >
-    >프리미어 지원 고객은 [프리미어 지원 페이지](https://support.microsoft.com/en-us/premier/contacts)에서 Intune 지원 티켓을 열 수 있습니다.
+    >프리미어 지원 고객은 [프리미어 지원 페이지](https://support.microsoft.com/en-us/premier/contacts)에서 Intune 지원 티켓을 열어야 합니다.
 
 2.  **관리** 타일을 선택합니다.
 3.  왼쪽의 **지원** 아래에서 **지원**을 선택하여 티켓을 엽니다.
@@ -84,9 +85,9 @@ Microsoft가 Intune을 개선하는 방법에 대한 피드백이 있나요? Mic
 
 3.  지침에 따라 요청을 엽니다.
 
-### <a name="create-a-support-ticket-with-alternate-methods"></a>대체 방법을 사용하여 지원 티켓 만들기
+### <a name="steps-to-create-a-support-ticket-with-alternate-methods"></a>대체 방법을 사용하여 지원 티켓을 만드는 단계
 
-지원 페이지가 다음과 같이 표시되는 경우 이 절차를 따르세요.
+Office 365 관리 센터의 지원 페이지가 다음과 같이 표시되는 경우 이 절차를 따르세요.
 
 ![대체 Intune 지원](../media/alternate-support-ui.png)
 
@@ -102,30 +103,30 @@ Microsoft가 Intune을 개선하는 방법에 대한 피드백이 있나요? Mic
 국가/지역별 지원 전화 번호, 지원 시간 및 각 지역의 지원 언어 목록은 [Microsoft Intune의 담당자 전화 지원](contact-assisted-phone-support-for-microsoft-intune.md)을 참조하세요.
 
 ## <a name="track-your-support-requests"></a>사용자의 지원 요청을 추적합니다.
-1.  Intune 자격 증명을 사용하여 [Office 365 관리 센터](https://portal.office.com)에 로그인합니다.
+1.  Intune 관리자 자격 증명을 사용하여 [Office 365 관리 센터](https://portal.office.com)에 로그인합니다.
 2.  **관리** 타일을 선택합니다.
 3.  왼쪽의 **지원** 아래에서 **서비스 요청**을 선택합니다. 그런 다음 요청을 검토할 수 있습니다.
 
-지원 요청에 대한 첫 번째 응답은 문제의 심각도에 따라 다릅니다. 가장 심각한 문제의 경우 전문가 고객에 대한 첫 번째 응답 시간은&2;시간 이내입니다. 프리미어 지원 고객의 경우 지원 계약에 따라 응답이 달라집니다. 사례는 다음과 같습니다.
+지원 요청에 대한 첫 번째 응답은 문제의 심각도에 따라 다릅니다. 가장 심각한 문제의 경우 전문가 고객에 대한 첫 번째 응답 시간은&2;시간 이내입니다. 프리미어 지원 고객의 경우 지원 계약에 따라 응답이 달라집니다. **가장 심각한** 사례:
 
 - 하나 이상의 서비스에 액세스할 수 없거나 사용할 수 없습니다.
 - 프로덕션, 운영 또는 배포 마감일이 심각하게 영향을 받거나 프로덕션 또는 수익성에 심각한 영향을 미치게 됩니다.
 - 여러 사용자 또는 서비스가 영향을 받습니다.
 
-약간 심각한 문제의 경우 전문가 고객에 대한 첫 번째 응답 시간은&4;시간 이내입니다. 프리미어 지원 고객의 경우 지원 계약에 따라 응답이 달라집니다.  사례는 다음과 같습니다.
+약간 심각한 문제의 경우 전문가 고객에 대한 첫 번째 응답 시간은&4;시간 이내입니다. 프리미어 지원 고객의 경우 지원 계약에 따라 응답이 달라집니다. **약간 심각한** 사례:
 
 - 서비스를 사용할 수 있지만 작동하지 않으며 정상 상태가 아닙니다.
 - 이 상황은 업무에 어느 정도 영향을 주며 업무 시간 중 처리할 수 있습니다.
 - 단일 사용자, 고객 또는 서비스가 부분적으로 영향을 받습니다.
 
-기타 문제의 경우 전문가 고객에 대한 첫 번째 응답 시간은&8;시간 이내입니다. 프리미어 지원 고객의 경우 지원 계약에 따라 응답이 달라집니다.  사례는 다음과 같습니다.
+기타 문제의 경우 전문가 고객에 대한 첫 번째 응답 시간은&8;시간 이내입니다. 프리미어 지원 고객의 경우 지원 계약에 따라 응답이 달라집니다. 별로 심각하지 않은 사례:
 
 - 이 상황은 업무에 최소한의 영향을 줍니다.
 - 이 상황은 중요하지만 고객의 현재 서비스 또는 생산성에 그다지 직접적인 영향을 미치지 않습니다.
 - 단일 사용자가 부분적인 업무 중단을 겪지만 적절한 해결 방법이 있습니다.
 
 > [!NOTE]
-> **Microsoft System Center Configuration Manager** 또는 **Microsoft System Center Endpoint Protection을 사용하는 경우:** Configuration Manager 또는 Endpoint Protection 관련 기술 지원이 필요하면 파트너에 문의하거나 [Microsoft System Center Configuration Manager 및 System Center Endpoint Protection 솔루션 센터](http://www.microsoft.com/en-us/server-cloud/products/system-center-2012-r2/resources.aspx)를 방문하여 다양한 자가 진단 자료를 확인할 수 있습니다. 또한 온라인 또는 전화를 통해 지원 요청을 여는 옵션이 제공됩니다.
+> **Microsoft System Center Configuration Manager** 또는 **Microsoft System Center Endpoint Protection을 사용하는 경우:** Configuration Manager 또는 Endpoint Protection 관련 기술 지원이 필요하면 파트너에 문의하거나 [Microsoft System Center Configuration](https://docs.microsoft.com/sccm/) 및 [Endpoint Protection](https://technet.microsoft.com/en-us/library/hh508836.aspx) 설명서 페이지를 방문하여 다양한 자가 진단 자료를 확인할 수 있습니다. 또한 온라인 또는 전화를 통해 지원 요청을 여는 옵션이 제공됩니다.
 >
 > System Center Configuration Manager 또는 System Center Endpoint Protection에 대한 기술 지원은 유료로 제공되며, 기존 라이선스 또는 프리미어 지원 계약이 있는 경우에는 지원 요금이 차감됩니다.
 

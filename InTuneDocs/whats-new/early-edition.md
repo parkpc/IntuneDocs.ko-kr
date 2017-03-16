@@ -2,10 +2,10 @@
 title: "초기 버전 | Microsoft 문서"
 description: 
 keywords: 
-author: barlanmsft
-ms.author: barlan
+author: mtillman
+ms.author: mtillman
 manager: angrobe
-ms.date: 02/13/2017
+ms.date: 03/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,15 +16,15 @@ ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d0b3a883bb307fb06cb8d16500798086f328314a
-ms.openlocfilehash: eeebf8b6b3bc5c7c35386eb20c96097af1f6769c
-ms.lasthandoff: 02/14/2017
+ms.sourcegitcommit: 0936051b5c33a2e98f275ef7a3a32be2e8f5a8b0
+ms.openlocfilehash: 0ba6695b595849f72eb44d8e6f095e8b1aae39eb
+ms.lasthandoff: 03/10/2017
 
 
 ---
 
 
-# <a name="the-early-edition-for-microsoft-intune---february-2017"></a>Microsoft Intune 초기 버전 - 2017년 2월
+# <a name="the-early-edition-for-microsoft-intune---march-2017"></a>Microsoft Intune 초기 버전 - 2017년 3월
 
 **초기 버전**에서는 Microsoft Intune의 향후 릴리스에서 도입될 기능의 목록을 제공합니다. 이 정보는 NDA 하에 매우 제한적으로 제공되며, 변경될 수 있습니다. 여기 나열된 일부 기능은 마감일을 맞추지 못할 위험이 있으며 다음 릴리스까지 지연될 수 있습니다. 다른 기능은 고객용 준비 상태를 확인하기 위해, 파일럿(플라이팅) 테스트 중 입니다. 질문이나 궁금한 내용이 있으면 Intune/PM 담당자에게 연락하세요.
 
@@ -35,38 +35,33 @@ ms.lasthandoff: 02/14/2017
 
 ## <a name="new-capabilities"></a>새로운 기능
 
-### <a name="modernizing-the-company-portal-website---753980--"></a>회사 포털 웹 사이트 현대화 <!--753980-->
-2월부터 회사 포털 웹 사이트의 디자인이 새로운 대비 색 구성표, 동적 일러스트레이션, 기술 지원팀 연락처 세부 정보 및 기존 관리 장치에 대한 정보를 포함하는 "햄버거 메뉴" ![이제 회사 포털 웹 사이트 왼쪽 상단에 추가되는 햄버거 메뉴의 작은 이미지](./media/CP_hamburger_menu.png)를 사용하여 다른 Microsoft 제품 및 서비스에 맞춥니다. 방문 페이지는 추천 및 최근에 업데이트된 앱에 대한 슬라이드를 포함하여 사용자가 사용할 수 있는 앱을 강조하도록 재조정됩니다. [UI 업데이트 페이지](https://docs.microsoft.com/intune/whats-new/whats-new-in-intune-app-ui)에서 이전 및 이후 이미지를 찾을 수 있습니다.
+### <a name="new-user-experience-for-the-company-portal-app-for-android---621622--"></a>Android용 회사 포털 앱의 새 사용자 환경 <!--621622-->
 
-### <a name="new-guided-experience-for-windows-10-company-portal---713927--"></a>Windows 10 회사 포털에 대한 새로운 단계별 환경 <!--713927-->
-3월부터 Windows 10용 회사 포털에 식별되거나 등록되지 않은 장치에 대한 단계별 Intune 연습 환경이 포함됩니다. 새 환경에서는 사용자의 Windows 10 빌드에 맞게 사용자 지정된 단계별 지침을 제공합니다. 이를 통해 사용자는 AAD 등록(조건부 액세스 식별 기능에 필요) 및 MDM 등록(장치 관리 기능에 필요)을 수행할 수 있습니다. 단계별 환경은 회사 포털 홈에서 액세스할 수 있으며 선택 사항입니다. 사용자는 등록을 완료하지 않은 경우에도 앱을 계속 사용할 수 있지만 기능이 제한될 수 있습니다.
+Android용 회사 포털 앱이 최신 모양과 느낌 및 더 나은 사용자 경험을 위해 사용자 인터페이스를 업데이트할 예정입니다. 중요한 업데이트는 다음과 같습니다.
 
-###
+- 색: 회사 포털 탭 머리글이 IT 관리자가 정의한 브랜드 색으로 지정됩니다.
+- 앱: **앱** 탭에서 **추천 앱** 및 **모든 앱** 단추가 업데이트됩니다.
+- 검색: **앱** 탭에서 **검색** 단추가 부동 작업 단추입니다.
+- 앱 탐색: 보다 쉽게 탐색할 수 있도록 **모든 앱** 보기에 탭으로 구분된 **추천**, **전체** 및 **범주** 보기가 표시됩니다.
+- 지원: 가독성 향상을 위해 **내 장치** 및 **IT 담당자** 탭이 업데이트됩니다.
+
+이러한 변경 사항에 대한 자세한 내용은 [앱 UI 업데이트 페이지](whats-new-in-intune-app-ui.md]에서 확인할 수 있습니다.
 
 ## <a name="notices"></a>알림
 
-### <a name="group-migration-will-not-require-any-updates-to-groups-or-policies-for-ios-devices---898837--"></a>iOS 장치의 그룹 또는 정책에 대한 업데이트에는 그룹 마이그레이션이 필요 없음 <!--898837-->
-회사 장치 등록 프로필에서 미리 할당된 모든 Intune 장치 그룹마다, Azure Active Directory 장치 그룹으로 마이그레이션하는 동안 회사 장치 등록 프로필 이름을 기반으로 AAD에 동적인 장치 그룹이 생성됩니다. 그러면 장치가 등록될 때 자동으로 그룹화되어 원래 Intune 그룹과 동일한 정책 및 앱을 받습니다.
+### <a name="improved-support-for-android-users-based-in-china---720444--"></a>중국에 거주하는 Android 사용자에 대한 지원 향상 <!--720444-->
 
-테넌트가 그룹화 및 타기팅을 위한 마이그레이션 프로세스에 들어가고 나면, Intune은 회사 장치 등록 프로필을 통해 타기팅된 Intune 그룹에 맞는 동적 AAD 그룹을 자동으로 생성합니다. Intune 관리자가 타기팅된 Intune 그룹을 삭제해도 해당되는 동적 AAD 그룹은 삭제되지 않습니다. 그룹의 구성원과 동적 쿼리는 지워지지만, 그룹 자체는 IT 관리자가 AAD 포털을 통해 제거할 때까지 남습니다.
+중국에는 Google Play 스토어를 사용할 수 없으므로 Android 장치 사용자는 중국 마켓플레이스에서 앱을 다운로드해야 합니다. 회사 포털은 중국의 Android 사용자가 현지 앱 스토어에서 회사 포털 및 Outlook 앱을 다운로드하도록 리디렉션하여 이 워크플로를 지원합니다. 이는 모바일 장치 관리 및 모바일 응용 프로그램 관리에 대한 조건부 액세스 정책이 설정된 경우 사용자 환경을 개선합니다. Android용 회사 포털 및 Outlook 앱은 다음과 같은 중국 앱 스토어에서 사용할 수 있습니다. 
 
-마찬가지로 IT 관리자가 회사 장치 등록 프로필을 통해 타기팅되는 Intune 그룹이 무엇인지 변경할 경우, Intune에서는 새 프로필 할당을 반영한 새 동적 그룹을 생성하지만 이전 할당에 대해 생성된 동적 그룹을 제거하지는 않습니다t.
+- [Baidu](https://go.microsoft.com/fwlink/?linkid=836946)
+- [Xiaomi](https://go.microsoft.com/fwlink/?linkid=836947)
+- [Tencent](https://go.microsoft.com/fwlink/?linkid=836949)
+- [Huawei](https://go.microsoft.com/fwlink/?linkid=836948)
+- [Wandoujia](https://go.microsoft.com/fwlink/?linkid=836950)
 
-### <a name="new-mdm-server-address-for-windows-devices---893007--"></a>Windows 장치의 새 MDM 서버 주소 <!--893007-->
-Windows 및 Windows Phone 사용자가 MDM 서버 주소 입력 메시지가 표시되었을 때 __manage.microsoft.com__을 입력할 경우 장치 등록이 실패합니다. MDM 서버 주소가 __manage.microsoft.com__에서 __enrollment.manage.microsoft.com__으로 변경됩니다. 사용자에게 Windows 또는 Windows Phone 장치를 등록하는 동안 MDM 서버 주소를 입력하라는 메시지가 표시되면 __enrollment.manage.microsoft.com__을 사용하라고 알리세요. 이 업데이트에 따라 __EnterpriseEnrollment.contoso.com__을 __manage.microsoft.com__으로 리디렉션하는 DNS CNAME은 모두 __EnterpriseEnrollment.contoso.com__에서 __EnterpriseEnrollment-s.manage.microsoft.com__으로 리디렉션하는 DNS CNAME으로 바꿔야 합니다. 이 변경에 대한 자세한 내용을 보려면 [aka.ms/intuneenrollsvrchange](https://aka.ms/intuneenrollsvrchange)를 방문하세요.
+### <a name="apple-to-require-updates-for-application-transport-security---748318--"></a>Apple의 Application Transport Security 업데이트 요구 <!--748318-->
 
-### <a name="new-user-experience-for-the-company-portal-app-for-android---621622--"></a>Android용 회사 포털 앱의 새 사용자 환경 <!--621622-->
-3월부터, Android용 회사 포털 앱이 [material design guidelines](https://material.io/guidelines/material-design/introduction.html)(재료 디자인 지침)에 따라 모양과 느낌이 더욱 세련되어집니다. 이러한 향상된 사용자 환경에는 다음이 포함됩니다.
-
-* __색__: 탭 헤더에 사용자 지정 색상표에 따라 색을 표시할 수 있습니다.
-* __인터페이스__: 앱 탭에서 추천 앱 및 모든 앱 단추가 업데이트되었습니다. 검색 단추는 이제 부동 작업 단추입니다.
-* __탐색__: 모든 앱은 쉽게 탐색할 수 있도록 추천, 전체 및 범주 탭으로 구분된 뷰를 표시합니다.
-* __서비스__: 내 장치 및 IT 담당자 탭 가독성을 개선했습니다.
-
-[UI 업데이트 페이지](https://docs.microsoft.com/intune/whats-new/whats-new-in-intune-app-ui)에서 이전 및 이후 이미지를 찾을 수 있습니다.
-
-### <a name="associate-multiple-management-tools-with-the-windows-store-for-business---926135--"></a>비즈니스용 Windows 스토어와 여러 관리 도구 연결<!--926135-->
-둘 이상의 관리 도구를 사용하여 비즈니스용 Windows 스토어 앱을 배포하는 경우, 이전에는 그 중에 하나만 비즈니스용 Windows 스토어에 연결할 수 있었습니다. 이제 Intune 및 Configuration Manager와 같은 여러 관리 도구를 스토어에 연결할 수 있습니다. 자세한 내용은 [Microsoft Intune을 사용하여 비즈니스용 Windows 스토어에서 구입한 앱 관리](https://docs.microsoft.com/en-us/intune/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune#associate-your-windows-store-for-business-account-with-intune)를 참조하세요.
+Apple에서는 2017년 봄부터 ATS(Application Transport Security)에 대한 특정 요구 사항을 적용할 것이라고 발표했습니다. ATS는 HTTPS를 통한 모든 앱 통신에서 보다 엄격한 보안을 적용하는 데 사용됩니다. 이 변경 사항은 iOS/macOS 회사 포털 앱을 사용하는 Intune 고객에게 영향을 줍니다. 자세한 내용은 [Intune 지원 블로그](https://aka.ms/compportalats)를 참조하세요.
 
 ## <a name="public-preview-of-the-new-intune-admin-experience-on-azure---736542--"></a>Azure의 새 Intune 관리 환경에 대한 공개 미리 보기<!--736542-->
 
@@ -78,41 +73,50 @@ Azure Portal의 관리 환경에서는 이미 발표된 새 그룹화 및 대상
 
 테넌트 마이그레이션 일정에 대한 질문이 있으면 [intunegrps@microsoft.com](mailto:intunegrps@microsoft.com)으로 마이그레이션 팀에 문의하세요.
 
-### <a name="february-2017"></a>2017 년 2월
+### <a name="non-managed-devices-can-access-assigned-apps---664691--"></a>관리되지 않은 장치에서 할당된 앱에 액세스 가능 <!--664691-->
 
-#### <a name="ability-to-restrict-mobile-device-enrollment---747600-795782--"></a>모바일 장치 등록을 제한하는 기능 <!--747600, 795782-->
-Intune은 등록할 수 있는 모바일 장치 플랫폼을 제어하는 새로운 등록 제한을 추가합니다. Intune은 모바일 장치 플랫폼을 iOS, macOS, Android, Windows 및 Windows Mobile로 구분합니다.
-
-* 모바일 장치 등록을 제한해도 PC 클라이언트 등록은 제한되지 않습니다.  
-* iOS 및 Android에 한해, 개인 소유 장치의 등록을 차단하는 한 가지 추가 옵션이 있습니다.
-
-Intune은 [이 문서](https://docs.microsoft.com/en-us/intune/deploy-use/manage-corporate-owned-devices)에 설명된 대로 IT 관리자가 회사 소유로 표시하기 위한 조치를 취하지 않은 한 모든 새 장치를 개인 소유 장치로 표시합니다.
-
-#### <a name="view-all-actions-on-managed-devices---677150--"></a>관리 되는 장치에 관한 모든 작업 보기<!--677150-->
-새 __장치 작업__ 보고서에는 장치의 공장 재설정과 같은 원격 작업을 수행한 사람이 누구인지 표시되며, 추가로 작업의 상태도 표시됩니다.
-
-#### <a name="non-managed-devices-can-access-assigned-apps---664691--"></a>관리되지 않은 장치에서 할당된 앱에 액세스 가능 <!--664691-->
 회사 포털 웹 사이트 디자인 변경의 일환으로, iOS 및 Android 사용자가 자기에게 할당된 앱을 관리되지 않는 장치에 "등록 없이 사용 가능"으로 설치할 수 있습니다. 사용자는 Intune 자격 증명을 사용하여 회사 포털 웹 사이트에 로그인하고 자기에게 할당된 앱의 목록을 볼 수 있습니다. "등록 없이 사용 가능" 앱의 앱 패키지는 회사 포털 웹 사이트를 통해 다운로드할 수 있습니다. 설치하려면 등록이 필요한 앱은 사용자가 앱을 설치하려 할 때 등록하라는 메시지가 표시되므로 이 변경의 영향을 받지 않습니다.
 
-#### <a name="custom-app-categories---748805--"></a>사용자 지정 앱 범주<!--748805-->
+### <a name="improvements-to-device-actions-report---677150--"></a>장치 작업 보고서의 향상된 기능 <!--677150-->
+
+성능 향상을 위해 장치 작업 보고서를 개선했습니다. 또한 아제 상태별로 보고서를 필터링 수 있습니다. 예를 들어 완료된 장치 동작만 표시하도록 보고서를 필터링할 수 있습니다.
+
+### <a name="actions-for-non-compliance---730266--"></a>비준수에 대한 작업<!--730266-->
+
+**비준수에 대한 작업**은 정책을 준수하지 않는 장치에 조치를 취할 수 있는 준수 정책의 새로운 기능입니다. 단일 또는 여러 작업을 지정할 수 있으며, 이러한 작업이 수행되어야 하는 기간을 지정할 수 있습니다. 예를 들어 장치가 메일을 통해 비준수 상태가 된 직후에 사용자에게 비준수 장치를 알리거나 조건부 액세스를 통해 3일 유예 기간이 지난 후 비준수 장치가 회사 리소스에 액세스하는 것을 못하도록 차단할 수 있습니다.
+
+### <a name="custom-app-categories---748805--"></a>사용자 지정 앱 범주<!--748805-->
+
 이제 Intune에 추가하는 앱의 범주를 만들고, 편집하고, 할당할 수 있습니다. 현재 범주는 영어로만 지정할 수 있습니다.
 [Intune에 앱을 추가하는 방법](/intune-azure/manage-apps/add-apps)을 참조하세요.
 
-#### <a name="display-device-categories---814654--"></a>장치 범주 표시 <!--814654-->
-이제 장치 목록에서 장치 범주를 열로 표시할 수 있습니다. 장치 속성 블레이드의 속성 섹션에서 범주를 편집할 수도 있습니다.
+### <a name="assign-lob-apps-to-users-with-unenrolled-devices---748823--"></a>등록 취소된 장치 사용자에게 LOB 앱 할당 <!--748823-->
 
-### <a name="january-2017"></a>2017년 1월
+장치가 Intune에 등록되었는지 여부와 상관없이 이제 저장소에서 사용자에게 LOB(기간 업무) 앱을 할당할 수 있습니다. 사용자 장치가 Intune에 등록되지 않은 경우 회사 포털 앱 대신에 회사 포털 웹 사이트로 이동하여 설치합니다.
 
-#### <a name="custom-app-categories---748805--"></a>사용자 지정 앱 범주<!--748805-->
-이제 Intune에 추가하는 앱의 범주를 만들고, 편집하고, 할당할 수 있습니다. 현재 범주는 영어로만 지정할 수 있습니다.
+### <a name="new-compliance-reports---846671--"></a>새로운 준수 보고서 <!--846671-->
 
-#### <a name="assign-line-of-business-apps-whether-or-not-devices-are-enrolled---748803--"></a>장치가 등록되었는지 여부와 상관없는 LOB(기간 업무) 앱 <!--748803-->
-장치가 Intune에 등록되었는지 여부와 상관없이 이제 저장소에서 사용자에게 LOB(기간 업무) 및 앱을 할당할 수 있습니다. 사용자 장치가 Intune에 등록되지 않은 경우 회사 포털 앱 대신에 회사 포털 웹 사이트로 이동하여 설치합니다.
+이제 준수 보고서에 회사 장치의 준수 포스처가 제공되므로 사용자에게 발생한 준수 관련 문제를 신속하게 해결할 수 있습니다. 확인할 수 있는 정보
 
-### <a name="december-2016"></a>2016년 12월
+- 장치의 전체 준수 상태
+- 개별 설정에 대한 준수 상태
+- 개별 정책에 대한 준수 상태
 
-#### <a name="telecom-expense-management-integration-in-public-preview-of-azure-portal--747605--"></a>Azure Portal의 공개 미리 보기에서 이동통신 지출 관리 통합<!--747605-->
-이제 Azure Portal 내에서 타사 TEM(이동통신 지출 관리) 서비스와의 통합 미리 보기를 시작합니다. Intune을 사용하여 국내 및 로밍 데이터 사용량을 제한할 수 있습니다. 우선 [Saaswedo](http://www.saaswedo.com)와의 통합으로 시작합니다. 평가판 테넌트에 이 기능을 사용하려면 [Microsoft 지원에 문의](https://docs.microsoft.com/intune/troubleshoot/how-to-get-support-for-microsoft-intune)하세요.
+또한 이러한 보고서에서 개별 장치로 드릴다운하여 해당 장치에 영향을 주는 특정 설정 및 정책을 볼 수 있습니다.
+
+### <a name="additional-windows-10-upgrade-paths---903672--"></a>추가 Windows 10 업그레이드 경로 <!--903672-->
+
+이제 버전 업그레이드 정책을 만들어 장치를 다음과 같은 추가 Windows 10 버전으로 업그레이드할 수 있습니다.
+
+- Windows 10 Professional
+- Windows 10 Professional KN
+- Windows 10 Professional Education
+- Windows 10 Professional Education N
+
+
+### <a name="direct-access-to-apple-enrollment-scenarios---951869--"></a>Apple 등록 시나리오에 대한 직접 액세스 <!--951869-->
+
+2017년 1월 이후에 만든 Intune 계정은 Azure Preview 포털에서 장치 등록 워크로드를 사용하여 Apple 등록 시나리오에 직접 액세스할 수 있습니다. 이전에는 클래식 Intune 포털의 링크를 통해서만 Apple 등록 미리 보기에 액세스할 수 있었습니다. 2017년 1월 이전에 만든 Intune 계정은 일회성 마이그레이션을 수행해야 Azure에서 이러한 기능을 사용할 수 있습니다. 마이그레이션 일정은 아직 공지되지 않았지만 가능한 한 빠른 시일 내에 세부 정보가 제공될 예정입니다. 기존 계정에서 미리 보기에 액세스할 수 없는 경우 평가판 계정을 만들어 새로운 경험을 테스트해 보는 것이 좋습니다.
 
 ### <a name="see-also"></a>참고 항목
 최근 개발 작업에 대한 자세한 내용은 [Microsoft Intune의 새로운 기능](whats-new-in-microsoft-intune.md)을 참조하세요.

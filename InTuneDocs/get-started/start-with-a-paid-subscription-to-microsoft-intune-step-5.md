@@ -15,8 +15,9 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
-ms.openlocfilehash: 1b14ec6330c512981025a2910dbd222fa4d7cf7f
+ms.sourcegitcommit: d8cb15d1b8c1c100f15084e43d2c3c4633fd64b5
+ms.openlocfilehash: 434eea4244931f0708eb05cfc39d0c97b4936830
+ms.lasthandoff: 03/09/2017
 
 
 ---
@@ -32,7 +33,7 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 ## <a name="group-management-moving-to-azure-ad"></a>그룹 관리가 Azure AD로 이동
 
-**2016년 11월부터** 새 계정은 Azure AD(Acitve Directory) 포털에서 사용자 및 장치 그룹을 관리합니다. 2016년 12월부터는 Intune 제품 팀에서 기존 고객을 새 Azure AD 기반 그룹 관리 환경으로 마이그레이션하기 시작합니다. 모든 사용자 및 장치 그룹은 Azure AD 보안 그룹으로 마이그레이션됩니다. Microsoft는 여러분의 일상 작업이 거의 영향을 받지 않고 여러분의 사용자 또한 전혀 영향을 받지 않는다고 판단할 때까지 마이그레이션을 시작하지 않을 예정입니다. 또한 계정을 마이그레이션하기 전에 공지를 하도록 하겠습니다.
+**2016년 11월부터** 새 계정은 Azure AD(Active Directory) 포털에서 사용자 및 장치 그룹을 관리합니다. 2016년 12월부터는 Intune 제품 팀에서 기존 고객을 새 Azure AD 기반 그룹 관리 환경으로 마이그레이션하기 시작합니다. 모든 사용자 및 장치 그룹은 Azure AD 보안 그룹으로 마이그레이션됩니다. Microsoft는 여러분의 일상 작업이 거의 영향을 받지 않고 여러분의 사용자 또한 전혀 영향을 받지 않는다고 판단할 때까지 마이그레이션을 시작하지 않을 예정입니다. 또한 계정을 마이그레이션하기 전에 공지를 하도록 하겠습니다.
 
 
 >[!IMPORTANT]
@@ -87,9 +88,4 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 >[!div class="step-by-step"]
 
 >[&larr;**Intune 라이선스 관리**](.\start-with-a-paid-subscription-to-microsoft-intune-step-4.md)       [**정책 및 앱 만들기** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md)  
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

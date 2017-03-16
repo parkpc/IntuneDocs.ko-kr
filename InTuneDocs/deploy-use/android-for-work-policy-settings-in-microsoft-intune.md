@@ -16,8 +16,9 @@ ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 31e28514ab4bdb0f5af261a1f7c87633ca0bd4a6
-ms.openlocfilehash: b95f7dbf37a159a62894ae27d1fdb731ede5570c
+ms.sourcegitcommit: 02c844a5b38023a6dfc6c4ef1de81e1416601fba
+ms.openlocfilehash: b0c3520c7c1fd29a631587fe1a69d4c411099cb4
+ms.lasthandoff: 03/07/2017
 
 
 ---
@@ -58,7 +59,7 @@ Intune **Android for Work 일반 구성 정책**을 사용하여 Android for Wor
 |----------------|-|
 |**회사 및 개인 프로필 간의 데이터 공유 허용**|업무용 프로필에 있는 앱에서 사용자 개인 프로필의 앱과 데이터를 공유할 수 있습니다. 다음 중에서 선택합니다.<br><br>- **경계를 넘는 공유 금지**<br>- **회사 프로필의 앱에서 개인 프로필의 공유 요청을 처리할 수 있음**<br>- **공유 시 제한 없음**|
 |**장치가 잠겼을 때 회사 프로필 알림 숨김**<br>(Android 6 이상)|장치가 잠겨 있는 경우 업무용 프로필에서 알림을 표시할지 여부를 제어합니다.|
-|**기본 앱 사용 권한 정책 설정**<br>(Android 6 이상)|업무용 프로필에 있는 모든 앱에 대한 기본 사용 권한 정책을 설정합니다.|
+|**기본 앱 사용 권한 정책 설정**<br>(Android 6 이상)|업무용 프로필에 있는 모든 앱에 대한 기본 사용 권한 정책을 설정합니다. Android 6부터 앱에서 요구하는 일부 권한이 런타임 시 최종 사용자에게 표시됩니다.  이 정책 설정을 통해 IT 담당자는 회사 프로필에서 사용자에게 앱에 대한 권한을 부여하라는 메시지를 표시할지 여부 및 표시 방법을 결정할 수 있습니다. <br/><br/>예를 들어 IT 담당자는 위치 액세스가 필요한 앱을 회사 프로필에 푸시할 수 있습니다.  일반적으로 사용자에게 앱에 위치 액세스 권한을 부여할지 묻는 대화 상자가 표시되며, 사용자는 이를 승인하거나 거부할 수 있습니다.  이 정책을 통해 IT 담당자는 모든 권한을 메시지 없이 자동으로 부여할지, 메시지 없이 자동으로 거부할지 또는 최종 사용자가 결정하도록 할지 결정할 수 있습니다.|
 
 
 ## <a name="custom-policy-settings"></a>사용자 지정 정책 설정
@@ -91,9 +92,4 @@ Intune은 현재 제한된 수의 Android 사용자 지정 정책을 지원합�
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

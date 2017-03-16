@@ -4,8 +4,8 @@ description: "맬웨어 위협으로부터 실시간 보호를 제공하는 Endp
 keywords: 
 author: nathbarn
 ms.author: nathbarn
-manager: angrobe
-ms.date: 01/31/2017
+manager: arob98
+ms.date: 03/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 6e2658cdfcd0b78a254c375fe39b67f7ef9afad6
-ms.lasthandoff: 12/10/2016
+ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
+ms.openlocfilehash: 7f94d420529ff365504b2bb053d034cf36d30953
+ms.lasthandoff: 03/08/2017
 
 
 ---
@@ -172,11 +172,12 @@ Intune 콘솔의 오른쪽 아래 모서리에 있는 **원격 작업** 링크�
 ### <a name="how-to-view-recent-detection-paths-for-malware-on-computers"></a>컴퓨터에서 맬웨어에 대한 최근 검색 경로를 보는 방법
 Intune은 장치에서 맬웨어의 최근 검색된 인스턴스 최대 10개에 대한 경로를 표시할 수 있습니다. **최근 검색 경로**는 기본적으로 비활성화되어 있습니다. 이 보기를 사용하려면:
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **그룹** > **모든 장치** > **맬웨어**를 선택합니다.
+1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **그룹** > **모든 장치** > **모든 컴퓨터**를 선택합니다.
+2. 최근 검색 경로를 확인할 컴퓨터를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
+3. 맨 위의 탭에서 **맬웨어**를 선택합니다.
 
-2.  열 머리글을 마우스 오른쪽 단추로 클릭합니다. 사용 가능한 열 목록이 표시됩니다.
-
-3.  목록에서 **최근 검색 경로** 확인란을 선택합니다. **최근 검색 경로** 열에 장치에서 최근에 모니터링한 맬웨어를 최대 10개 표시합니다.
+   ![맬웨어 탭을 선택하고 최근 검색 경로 확인란을 클릭한 다음](../media/malware-path-column.png)
+4. 열 머리글을 마우스 오른쪽 단추로 클릭합니다. 사용 가능한 열 목록이 표시됩니다. 목록에서 **최근 검색 경로** 확인란을 선택합니다. **최근 검색 경로** 열에 장치에서 최근에 모니터링한 맬웨어를 최대 10개 표시합니다.
 
 ## <a name="run-a-malware-scan-or-update-malware-definitions-on-a-computer"></a>컴퓨터에서 맬웨어 검색 실행 또는 맬웨어 정의 업데이트
 Intune은 Intune 클라이언트가 설치된 원격 관리 PC에서 Endpoint Protection 또는 Windows Defender를 사용하여 전체 또는 빠른 맬웨어 검색을 실행할 수 있습니다.
@@ -184,9 +185,6 @@ Intune은 Intune 클라이언트가 설치된 원격 관리 PC에서 Endpoint Pr
 1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **그룹** > **개요** > **모든 장치** > **모든 컴퓨터**로 이동하여 대상으로 지정할 컴퓨터를 선택합니다.
 
 2. **원격 작업** 드롭다운 목록을 선택한 후 원격 컴퓨터에서 실행할 작업을 선택합니다.
-
-
-
 
 ## <a name="need-more-help"></a>도움이 더 필요하신가요?
 추가적인 도움말과 지원은 [Microsoft Intune에서 Endpoint Protection 문제 해결](/intune/troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune) 항목을 참조하세요.

@@ -5,21 +5,22 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/08/2017
+ms.date: 03/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 9530eb45bf027c66c4a36e4cea1ec05c5f15a6e5
-ms.openlocfilehash: b1de425a00e3c4200f71c8bf03661e4d0aca45c7
+ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
+ms.openlocfilehash: 49a28a493abd5c0835606e4d550bf2229b7e5bac
+ms.lasthandoff: 03/08/2017
 
 
 ---
@@ -98,7 +99,7 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
     ![PIN 또는 암호 입력](./media/and-enroll-6-PIN-native.png)
 
-13.  Samsung Knox 장치를 사용하는 경우 **확인**을 탭하면 장치가 등록되고 있음을 나타내는 메시지를 확인할 수 있습니다. 기본 Android 장치를 사용하는 경우 장치가 등록되고 있음을 보여 주는 다음 화면을 확인할 수 있습니다.
+13.  Samsung KNOX 장치를 사용하는 경우 **확인**을 탭하면 장치가 등록되고 있음을 나타내는 메시지를 확인할 수 있습니다. 기본 Android 장치를 사용하는 경우 장치가 등록되고 있음을 보여 주는 다음 화면을 확인할 수 있습니다.
 
     ![Samsung KNOX 개인 정보 취급 방침](./media/and-enroll-7-knox-privacy-policy.png)
 
@@ -116,10 +117,8 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
 업무용 앱을 설치하기 전에 **설정** &gt; **보안**으로 이동하고 **알 수 없는 소스**를 설정합니다. 앱을 설치하기 전에 이 옵션을 설정하지 않으면 "설치가 차단되었습니다. 보안상의 이유로 장치가 알 수 없는 소스에서 가져온 앱의 설치를 차단하도록 설정되었습니다."라는 메시지가 표시됩니다. 오류 대화 상자에서 **설정**을 탭하여 **알 수 없는 소스** 옵션으로 이동할 수 있습니다.
 
+> [!Note]
+> 조직에서 TEM(Telecom Expense Management) 소프트웨어를 사용하는 경우 몇 가지 추가 단계를 완료해야 장치가 완전히 등록됩니다. 자세한 내용은 [여기](enroll-your-device-with-telecom-expense-management-android.md)를 참조하세요.
+
 여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) Microsoft Android 팀(wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 
