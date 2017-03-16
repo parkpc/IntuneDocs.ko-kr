@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: e9d1c64ef617a134f05c3e80c23145fd1fdc5399
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: d201715e5e744b0bf2bd37aca2867ef17133311b
+ms.openlocfilehash: 12ad8430d4a9bd6a3f91447db2422f1eb4144a24
+ms.lasthandoff: 02/24/2017
 
 
 ---
@@ -27,7 +27,7 @@ ms.lasthandoff: 02/18/2017
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
-메일 프로필 설정을 사용하여 연결하는 데 필요한 설정으로 관리하는 장치를 구성하고 회사 메일과 동기화할 수 있습니다. 이를 통해 모든 장치에서 설정을 표준화하고 올바른 메일 설정을 모르는 최종 사용자의 지원 요청을 줄일 수 있습니다.
+메일 프로필을 사용하여 연결하는 데 필요한 설정으로 관리하는 장치를 구성하고 회사 메일과 동기화할 수 있습니다. 이를 통해 모든 장치에서 설정을 표준화하고 올바른 메일 설정을 모르는 최종 사용자의 지원 요청을 줄일 수 있습니다.
 
 기본 제공 메일 클라이언트는 대부분의 플랫폼에 지원됩니다. 대부분의 타사 메일 앱은 현재 지원되지 않습니다.
 
