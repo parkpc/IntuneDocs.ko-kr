@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 0154e3bfeac0457de57257045e3e7ce833325bce
 ms.openlocfilehash: a462bcfa107bf1a37ea4e84bc3d88d0dd81f9fc8
+ms.lasthandoff: 02/03/2017
 
 
 ---
@@ -169,6 +170,7 @@ iOS 8.0 이상 장치에 대해 필요 시 VPN을 구성할 수 있습니다.
   - **연결 평가** - 세 가지 설정이 있습니다. **도메인 작업** - **필요한 경우 연결** 또는 **연결 안 함**을 선택합니다.
       b. **쉼표로 구분된 도메인 목록** - **도메인 작업**을 **필요한 경우 연결**로 선택한 경우에만 이 설정을 구성합니다.
       c. **필요한 URL 문자열 검색** - HTTP 또는 HTTPS(기본 설정) URL(예: *https://vpntestprobe.contoso.com*). 규칙에서는 이 주소에서 받은 응답이 있는지 확인합니다. 응답이 없고 **도메인 작업**이 **필요한 경우 연결**이면 VPN이 트리거됩니다.
+      
      > [!TIP]
      >
      >예를 들어 회사 네트워크의 일부 사이트에 직접 또는 VPN 회사 네트워크 연결이 필요하지만 다른 사이트에는 필요하지 않은 경우 이 작업을 사용할 수 있습니다. **DNS 검색 도메인 목록**에 *corp.contoso.com*을 나열하는 경우 **필요한 경우 연결**을 선택한 다음 해당 네트워크 내에서 VPN이 필요할 수 있는 특정 사이트(예: *sharepoint.corp.contoso.com*)를 나열할 수 있습니다. 그러면 규칙에서 *vpntestprobe.contoso.com*에 연결할 수 있는지 확인합니다. 연결할 수 없으면 sharepoint 사이트에 대해 VPN이 트리거됩니다.
@@ -192,9 +194,4 @@ iOS 8.0 이상 장치에 대해 필요 시 VPN을 구성할 수 있습니다.
 배포 후 사용자는 장치의 VPN 연결 목록에서 지정된 VPN 연결 이름을 볼 수 있습니다.
 
 **정책** 작업 영역의 **개요** 페이지에 있는 상태 요약 및 경고는 주의가 필요한 정책 문제를 식별합니다. 또한 상태 요약은 대시보드 작업 영역에 표시됩니다.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 
