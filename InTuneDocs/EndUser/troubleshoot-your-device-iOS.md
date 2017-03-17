@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/14/2017
+ms.date: 03/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: cd5d97ec4524477fe6ac08a863eaf5cc03913e50
-ms.openlocfilehash: 53062067c250434b65911c47b8c2eda052a353c3
-ms.lasthandoff: 02/21/2017
+ms.sourcegitcommit: cddeb6bf854b9ffbbc1744d5d164c8ceea34ff49
+ms.openlocfilehash: 54bb8e68ac4435d2ae687f27317445cd18c7a5db
+ms.lasthandoff: 03/10/2017
 
 
 ---
@@ -37,6 +37,7 @@ iOS 장치에서 문제 해결을 통해 해결할 수 있는 문제가 발생�
 - [장치에 일련 번호를 찾으려면 어떻게 하나요?](how-do-i-find-the-serial-number-on-my-device-ios.md)
 - [내 iOS 장치를 업데이트해야 함](you-need-to-update-your-ios-device.md)
 - [내 iOS 버전이 아직 지원되지 않음](your-ios-version-isnt-yet-supported.md)
+- [메일을 사용하여 IT 관리자에게 로그 보내기](send-logs-to-your-it-admin-by-email-iOS.md)
 - [내 iOS 장치에 Lookout for Work를 설치해야 함](you-are-prompted-to-install-lookout-for-work-ios.md)
 - [내 iOS 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](you-need-to-resolve-a-threat-found-by-lookout-for-work-ios.md)
 

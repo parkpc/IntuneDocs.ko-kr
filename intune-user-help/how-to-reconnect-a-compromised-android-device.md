@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/20/2016
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
-ms.openlocfilehash: 0909ac3e5eeefb0d137cba6b7c7c43e1cdff12dc
-ms.lasthandoff: 12/21/2016
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: a51857a6e5ffd020888af6a7c0a3b85efa91fe20
+ms.lasthandoff: 03/13/2017
 
 
 ---
@@ -29,5 +29,5 @@ ms.lasthandoff: 12/21/2016
 
 IT 관리자가 사용자가 루팅된 장치를 사용하고 있음을 감지했습니다. "루팅"은 장치가 운영 체제에 액세스할 수 있도록 변경되어 보안을 손상시키고 회사 리소스에 위협이 될 수 있음을 의미합니다. 이 경우 장치가 회사 리소스에 더 이상 액세스할 수 없습니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) [Microsoft Android 팀](mailto:wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
+여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with a rooted device&body=Describe the issue you're experiencing here.">Microsoft Android 팀</a>으로 메일을 보내세요.
 

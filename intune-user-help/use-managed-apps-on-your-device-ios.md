@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 03/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,13 +18,12 @@ ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 6da5f6a3b017a93446011f8d59e73a4ea7730196
-ms.lasthandoff: 12/10/2016
+ms.sourcegitcommit: 499ec16ffa04ec6c5d1fff829729fddc3f74a02b
+ms.openlocfilehash: ee43647190da705581eaa5a266db3712391e06f2
+ms.lasthandoff: 03/16/2017
 
 
 ---
-
 
 # <a name="use-managed-apps-on-your-ios-device"></a>iOS 장치에서 관리되는 앱 사용
 
@@ -63,7 +62,6 @@ IT 관리자가 앱에서 관리할 수 있고, 장치에서 회사 데이터 �
 -   스크린샷을 만드는 기능
 
 -   데이터 암호화 요구 사항
-
 
 장치에서 관리되는 앱에 대한 자세한 내용은 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 

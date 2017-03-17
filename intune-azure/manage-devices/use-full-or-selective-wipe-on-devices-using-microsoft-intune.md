@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 22e188e81f2bc278045bb0988642b1b68372d6af
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: 6b723069108ff2cbe85951f7d65ef803323eceb9
+ms.lasthandoff: 03/13/2017
 
 
 ---
 
-# <a name="use-full-or-selective-wipe"></a>전체 또는 선택적 초기화 사용 
+# <a name="use-full-or-selective-wipe"></a>전체 또는 선택적 초기화 사용
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -104,6 +104,10 @@ Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정�
 |Outlook|iOS에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.</br>예외: Exchange를 온-프레미스에서 호스트하는 경우 메일이 제거되지 않습니다.|iOS에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.</br>예외: Exchange를 온-프레미스에서 호스트하는 경우 메일이 제거되지 않습니다.|
 |AAD(Azure Active Directory) 가입 취소|AAD 레코드가 제거됩니다.|AAD 레코드가 제거됩니다.|
 |연락처 | 앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.|앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.
+
+**Android for Work**
+
+Android for Work 장치에서 선택적 초기화를 수행하면 해당 장치의 회사 프로필에서 모든 데이터, 앱 및 설정이 제거됩니다. 이 경우 Intune을 사용한 관리에서 장치 사용이 중지됩니다. 전체 초기화는 Android for Work에 지원되지 않습니다.
 
 **Windows**
 

@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 02/21/2017
+ms.date: 03/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 2ed76d2905042f299022f1625ce7215c6834ad3f
-ms.openlocfilehash: d1b24b745fe1e860e42fa23647976aadea1953cd
-ms.lasthandoff: 02/21/2017
+ms.sourcegitcommit: 911d2887791cf16d4290c3ac5189aa44086f4603
+ms.openlocfilehash: 8f18f9ff2c32bb24b68fa987a8aad990b911a549
+ms.lasthandoff: 03/11/2017
 
 
 ---
@@ -38,7 +38,7 @@ Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같�
 
 - **초기화** -장치를 등록하려면 먼저 초기화를 해야 하는지 여부를 나타냅니다. "초기화"라는 용어는 모든 데이터를 제거하는 장치의 공장 기본 설정을 의미합니다. 자세한 내용은 [장치 사용 중지](retire-devices-from-microsoft-intune-management.md).
 - **선호도** - 사용자와 장치를 연결합니다. MAM(모바일 응용 프로그램 관리)과 회사 데이터에 대한 조건부 액세스에는 필수입니다. 자세한 내용은 [사용자 선호도](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#use-the-company-portal-on-dep-enrolled-or-apple-configurator-enrolled-devices)를 참조하세요.
-- **잠금** - 사용자가 네이티브 운영 체제 메뉴를 사용하여 장치 등록을 취소할 수 없는지 여부를 나타냅니다. 사용자는 회사 포털 앱을 사용하여 모든 플랫폼에서 장치 등록을 취소할 수 있습니다. 
+- **잠금** - 사용자가 네이티브 운영 체제 메뉴를 사용하여 장치 등록을 취소할 수 없는지 여부를 나타냅니다. 사용자는 회사 포털 앱을 사용하여 모든 플랫폼에서 장치 등록을 취소할 수 있습니다.
 
 **iOS 등록 방법**
 
@@ -54,7 +54,7 @@ Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같�
 
 | **방법** |    **초기화가 필요하세요?** |    **선호도**    |    **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 예|    예 |    아니요 | [추가 정보](prerequisites-for-enrollment.md)|
+|**[BYOD](#byod)** | 아니요|    예 |    아니요 | [추가 정보](prerequisites-for-enrollment.md)|
 |**[DEM](#dem)**|    아니요 |아니요 |아니요    |[추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 **Android 등록 방법**
@@ -75,7 +75,7 @@ Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같�
 
 | **방법** |    **초기화가 필요하세요?** |    **선호도**    |    **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 예|    예 |    아니요 | [추가 정보](prerequisites-for-enrollment.md)|
+|**[BYOD](#byod)** | 아니요|    예 |    아니요 | [추가 정보](prerequisites-for-enrollment.md)|
 
 
 올바른 방법을 찾는 데 도움이 되는 질문은 [장치 등록 방법 선택](/intune/get-started/choose-how-to-enroll-devices1)를 참조하세요.

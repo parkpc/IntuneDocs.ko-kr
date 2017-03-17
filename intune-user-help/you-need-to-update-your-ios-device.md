@@ -1,5 +1,5 @@
 ---
-title: "장치가 비규격인 경우 | Microsoft 문서"
+title: "iOS 장치를 업데이트해야 함 | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 81f8a990-d172-47f4-91b4-cb49652accf6
+ms.assetid: ab3242d9-1063-4356-a3ac-6f0d8fe379e4
 searchScope:
 - User help
 ROBOTS: 
@@ -19,17 +19,17 @@ ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 499ec16ffa04ec6c5d1fff829729fddc3f74a02b
-ms.openlocfilehash: c111993248e900f663640cf45db4525dc7c7df95
+ms.openlocfilehash: bb9dfe52aa2c0150bd48f5c5cfad48a03748142c
 ms.lasthandoff: 03/16/2017
 
 
 ---
 
-# <a name="your-device-is-noncompliant"></a>장치가 비규격인 경우
+# <a name="your-ios-device-doesnt-have-the-required-minimum-operating-system-version"></a>iOS 장치에 필요한 최소 운영 체제 버전이 없는 경우
 
-장치가 조직의 보안 정책 중 하나 이상을 준수하지 못하지만 오류가 바로 표시되지 않을 수 있습니다.  
+[!INCLUDE[wit_nextref](includes/end-user-os-update-guidance.md)]
 
-회사 포털 앱에서 **준수 확인**을 탭합니다. 회사 포털 앱에서 장치를 비규격으로 만드는 요인을 알려 줍니다.
+**설정** > **일반** > **소프트웨어 업데이트**를 탭하여 iOS 장치를 업데이트합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 

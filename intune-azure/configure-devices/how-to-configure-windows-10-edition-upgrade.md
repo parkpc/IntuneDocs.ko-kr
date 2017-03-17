@@ -6,19 +6,19 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ae8b6528-7979-47d8-abe0-58cea1905270
-ms.reviewer: heenamac
+ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 5edcdf20d07c63a33707c31134af8adf22049929
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: deea78dcea9ade031441bf12b388a862235a8e9c
+ms.openlocfilehash: 617ca50569885431394ab630f297ba919d119522
+ms.lasthandoff: 03/15/2017
 
 
 ---
@@ -29,9 +29,10 @@ ms.lasthandoff: 02/18/2017
 
 이 항목에서는 Windows 10 버전 업그레이드 프로필을 구성하는 방법을 알아봅니다. 이 프로필을 사용하면 다음 Windows 10 버전 중 하나를 실행하는 장치를 최신 버전으로 자동으로 업그레이드할 수 있습니다.
 
-- Windows 10 Desktop
+- Windows 10 Home
 - Windows 10 Holographic
 - Windows 10 Mobile
+
 
 지원되는 업그레이드 경로는 다음과 같습니다.
 
@@ -39,6 +40,7 @@ ms.lasthandoff: 02/18/2017
 - Windows 10 Home에서 Windows 10 Education으로 업그레이드
 - Windows 10 Mobile에서 Windows 10 Mobile Enterprise로 업그레이드
 - Windows 10 Holographic Pro에서 Windows 10 Holographic Enterprise로
+
 
 ## <a name="before-you-start"></a>시작하기 전에
 장치를 최신 버전으로 업그레이드하기 전에 다음 중 하나가 있어야 합니다.

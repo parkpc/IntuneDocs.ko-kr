@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 03/33/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
-ms.openlocfilehash: af410079cf7d2ab61eb2a0285e1c410fee4e4463
-ms.lasthandoff: 03/08/2017
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: 2517ad3d019b185ce3a048b95e595c189f08821e
+ms.lasthandoff: 03/13/2017
 
 
 ---
@@ -59,5 +59,5 @@ Android 장치를 등록할 경우 장치에 액세스할 수 있는 권한을 I
 
 -   임의의 회사 앱 인벤토리 업데이트를 보냅니다. (이러한 업데이트에는 개인 정보가 포함되지 않습니다.)
 
-도움이 필요하십니까? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) [Microsoft Android 팀](mailto:wintunedroidfbk@microsoft.com)으로 메일을 보내세요.
+도움이 필요하십니까? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble installing the Company Portal app on my Android device&body=Describe the issue you're experiencing here.">Microsoft Android 팀</a>으로 메일을 보내세요.
 
