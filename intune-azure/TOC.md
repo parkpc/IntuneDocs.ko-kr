@@ -169,6 +169,8 @@
 ### [Android for Work 준수 정책 만들기](set-device-compliance/create-a-compliance-policy-for-android-for-work.md)
 ### [iOS 준수 정책 만들기](set-device-compliance/create-a-compliance-policy-for-ios.md)
 ### [Windows 준수 정책 만들기](set-device-compliance/create-a-compliance-policy-for-windows.md)
+### [비준수에 대한 작업 만들기](set-device-compliance/actions-for-noncompliance.md)
+### [장치 준수 모니터링](set-device-compliance/monitor-intune-device-compliance-policies.md)
 <!--- ### [Monitor device compliance](set-device-compliance/monitor-device-compliance.md)--->
 
 

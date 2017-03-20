@@ -120,6 +120,7 @@
 
 ## [앱 추가](deploy-use/add-apps.md)
 ### [등록된 장치용 앱 추가](deploy-use/add-apps-for-mobile-devices-in-microsoft-intune.md)
+### [Windows 앱 사이드로드](deploy-use/sideload-apps-for-windows.md)
 ### [Intune 클라이언트 PC용 앱 추가](deploy-use/add-apps-for-windows-pcs-in-microsoft-intune.md)
 #### [Intune 클라이언트 PC의 사용권 계약 관리](deploy-use/manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md)
 ## [앱 배포](deploy-use/deploy-apps.md)
@@ -136,7 +137,6 @@
 ### [Android for Work 앱 구성 정책](deploy-use/afw-app-configuration-policy.md)
 ### [iOS 모바일 앱 프로비전 프로필](deploy-use/ios-mobile-app-provisioning-profiles.md)
 ### [인터넷 액세스 관리](deploy-use/manage-internet-access-using-managed-browser-policies.md)
-### [LOB 앱을 테스트용으로 로드](deploy-use/sideload-apps-for-windows.md)
 
 ## [앱 및 데이터 보호](deploy-use/protect-apps-and-data-with-microsoft-intune.md)
 ### [장치 준수 정책](deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune.md)
