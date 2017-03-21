@@ -24,8 +24,3 @@
 *다음 Samsung Galaxy Ace 휴대폰 모델은 Intune에서 Samsung KNOX Standard 장치로 관리할 수 없습니다. SM-G313HU, SM-G313HY, SM-G313M, SM-G313MY 및 SM-G313U. 이러한 장치는 표준 Android 장치로 관리됩니다. 자세한 내용은 [Samsung KNOX 웹 사이트](https://www.samsungknox.com/en)를 참조하세요.
 
 장치 및 관리 방법의 전체 목록은 [Intune 지원 장치](https://docs.microsoft.com/intune/get-started/what-to-know-before-you-start-microsoft-intune#intune-supported-devices)를 참조하세요.
-
-
-<!--HONumber=Jan17_HO2-->
-
-

@@ -15,8 +15,9 @@ ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 1b74d19762a81313325eac27cab50a144a569620
+ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
+ms.openlocfilehash: 68dbebbd7d29514bde438b7dff3142dc45e8471d
+ms.lasthandoff: 03/21/2017
 
 
 ---
@@ -132,9 +133,4 @@ Exchange Connector를 성공적으로 구성한 후 연결 상태 및 마지막�
 
 
 마지막으로 성공한 동기화 시도의 시간과 날짜를 확인할 수도 있습니다.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 
