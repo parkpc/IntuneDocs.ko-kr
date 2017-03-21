@@ -16,6 +16,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: ca4af205f8f391089e86e0ee7787e32813d54cca
 ms.openlocfilehash: 6bd6cc3470c93f96e7c71b5d1efe6d9ffc045a7e
+ms.lasthandoff: 12/15/2016
 
 
 ---
@@ -47,7 +48,7 @@ ms.openlocfilehash: 6bd6cc3470c93f96e7c71b5d1efe6d9ffc045a7e
 ### <a name="post-sign-up-considerations"></a>등록 후 고려 사항
 평가판에 등록하는 경우 등록 과정 중에 제공한 전자 메일 주소로 계정 정보를 포함하는 전자 메일 메시지를 받게 됩니다. 이 전자 메일을 통해 평가판이 활성화된 것을 확인합니다.
 
-등록 과정을 완료하면, Office 365 관리 센터를 사용하여 사용자를 추가하고 사용자에게 라이선스를 할당하는 데 사용되는 페이지로 이동됩니다. 다음에 **클래식 Intune**(https://manage.microsoft.com)에 로그인하면 Intune 관리 콘솔로 자동으로 이동됩니다.
+등록 과정을 완료하면, Office 365 관리 센터를 사용하여 사용자를 추가하고 사용자에게 라이선스를 할당하는 데 사용되는 페이지로 이동됩니다. 다음에 **클래식 Intune** (https://manage.microsoft.com) 에 로그인하면 Intune 관리 콘솔로 자동으로 이동됩니다.
 
 평가판이 **Azure Portal**에 있는 경우 https://portal.azure.com으로 이동하여 Intune 평가판 자격 증명을 사용해 로그인합니다.
 
@@ -146,9 +147,4 @@ Intune에서 Azure Active Directory 사용자 계정을 사용하는 방법을 �
 - [다단계 인증 요구 사항](https://docs.microsoft.com/en-us/active-directory/active-directory-hybrid-identity-design-considerations-multifactor-auth-requirements)
 
 [System Center Configuration Manager와 함께 Intune](https://docs.microsoft.com/en-us/sccm/mdm/understand/hybrid-mobile-device-management)를 사용하는 방법에 대해 자세히 알아보기
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 
