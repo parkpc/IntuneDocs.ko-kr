@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: fbb41a8cf6fada76b72213b8cb04fdc0428515e9
 ms.openlocfilehash: 651899219458f799e26ed7957ccef97d7ae2af09
+ms.lasthandoff: 02/14/2017
 
 
 ---
@@ -36,8 +37,8 @@ Intune 앱 보호 정책을 사용하여 회사 데이터를 보호할 수 있�
 
 -   **타사 MDM 솔루션에 등록:** 이 범주의 장치는 일반적으로 회사에서 소유한 장치입니다.
 
-  > [!NOTE]
-  > 앱 보호 정책을 타사 모바일 응용 프로그램 관리 또는 보안 컨테이너 솔루션과 함께 사용하지 않는 것이 좋습니다.
+      > [!NOTE]
+      > 앱 보호 정책을 타사 모바일 응용 프로그램 관리 또는 보안 컨테이너 솔루션과 함께 사용하지 않는 것이 좋습니다.
 
 -   **MDM 솔루션에 등록되지 않음:** 이 범주의 장치는 일반적으로 직원이 소유한 장치로 Intune 또는 기타 MDM 솔루션에서 관리 또는 등록되지 않습니다.
 
@@ -133,9 +134,4 @@ MDM 솔루션에 등록되지 않은 BYOD 장치의 경우 앱 보호 정책을 
 - [앱 보호 정책 구성 준비](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 
 - [Microsoft Intune으로 앱 보호 정책 만들기 및 배포](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 
