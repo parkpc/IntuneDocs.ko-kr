@@ -74,7 +74,7 @@ Microsoft Intune과 Azure AD(Azure Active Directory) Premium이 원활하게 함
 2. [장치 준수 정책 만듭니다](create-a-device-compliance-policy-in-microsoft-intune.md).
 
 2.  다음 Microsoft 클라우드 서비스/제품 중 하나에 대한 조건부 액세스 정책을 만듭니다.
-> [!div class="op_single_selector"]
+
   - [Exchange Online에 대해 조건부 액세스 정책 만들기](restrict-access-to-exchange-online-with-microsoft-intune.md)
   - [Exchange 온-프레미스에 대해 조건부 액세스 정책 만들기](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
   - [새 Exchange Online Dedicated에 대해 조건부 액세스 정책 만들기](restrict-access-to-exchange-online-with-microsoft-intune.md)
