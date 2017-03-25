@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,21 +16,21 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 26991bd0c7632d04b75ecbec023d96c1045f337a
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 82585886bb053d5b6b5981f61d0337fc6feffea4
+ms.openlocfilehash: b26d66d557e084b5b328aec2222c50c2db254bf7
+ms.lasthandoff: 03/14/2017
 
 
 ---
 
-# <a name="get-an-apple-mdm-push-certificate"></a>Apple MDM 푸시 인증서 가져오기 
+# <a name="get-an-apple-mdm-push-certificate"></a>Apple MDM 푸시 인증서 가져오기
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
-Intune은 iPad, iPhone 및 Mac OS X 장치의 MDM(모바일 장치 관리)을 가능하게 하고, 사용자가 회사 메일 및 앱에 액세스할 수 있게 해줍니다. APN(Apple 푸시 알림) 서비스 인증서는 Intune에서 iOS 및 Mac 장치를 관리하는 데 필요합니다. 인증서를 Intune에 추가하면 사용자가 회사 포털 앱을 설치하여 장치를 등록할 수도 있고 관리자가 회사 소유의 iOS 장치 관리를 설정할 수도 있습니다.
+Intune은 iPad, iPhone 및 Mac 컴퓨터의 MDM(모바일 장치 관리)을 가능하게 하고, 사용자가 회사 메일 및 앱에 액세스할 수 있게 해줍니다. MDM Push Certificate는 Intune에서 iOS 및 Mac 장치를 관리하는 데 필요합니다. 인증서를 Intune에 추가하면 사용자가 회사 포털 앱을 설치하여 장치를 등록할 수도 있습니다. Apple 장비 등록 프로그램을 사용하여 회사 소유 iOS 장치 관리를 설정하거나 예를 들어 Apple Configurator를 사용하여 장치를 등록할 수 있습니다. 등록 옵션에 대한 자세한 내용은 [iOS 장치를 등록하는 방법 선택](https://docs.microsoft.com/intune-azure/enroll-devices/choose-ios-enrollment-method)을 참조하세요.
 
 ## <a name="steps-to-get-your-certificate"></a>인증서를 가져오는 단계
-Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다. Intune 블레이드에서 **장치 등록** > **Apple MDM Push Certificate**를 선택한 후 Azure Portal에서 번호가 매겨진 단계(아래 참조)를 따릅니다.
+Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다. Intune 블레이드에서 **장치 등록** > **Apple 등록** **Apple MDM Push Certificate**를 선택한 후 Azure Portal에서 번호가 매겨진 단계(아래 참조)를 따릅니다.
 
 **1단계. Apple MDM Push Certificate를 만드는 데 필요한 Intune 인증서 서명 요청을 다운로드합니다.**<br>
 **CSR 다운로드**를 선택하여 .csr 파일을 로컬로 다운로드하고 저장합니다. .csr 파일은 APC(Apple Push Certificate) 포털에서 트러스터 관계 인증서를 요청하는 데 사용됩니다.

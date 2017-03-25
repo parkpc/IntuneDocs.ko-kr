@@ -5,7 +5,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 12/28/2016
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 70be873367edccdefd724b6aa6959eb67b377bdd
-ms.openlocfilehash: 92dedcd165ffec47f6c5b818533fce08ed04b1a0
+ms.sourcegitcommit: 6df87e20011f20b99b91d88e669c67bb97ad2277
+ms.openlocfilehash: 1768b98cdcb18b5489d9a30b8c1f455f5de58418
+ms.lasthandoff: 03/13/2017
 
 
 ---
@@ -25,9 +26,9 @@ ms.openlocfilehash: 92dedcd165ffec47f6c5b818533fce08ed04b1a0
 
 [!INCLUDE[note for both-portals](../includes/note-for-both-portals.md)]
 
-가이드의 섹션은 섹션 2의 다른 항목과 함께 사용해야 합니다. 이 설계는 이 가이드의 이전 섹션을 완료하면서 수집하는 정보 및 결정할 사항에 따라 달라집니다. 이 설계 섹션에서는 클라우드에 상주하는 Microsoft 클라우드 기반 서비스인 Intune 독립 실행형에 집중합니다.
+가이드의 섹션은 섹션 2의 다른 항목과 함께 사용해야 합니다. 이 설계는 이 가이드의 이전 섹션을 완료하면서 수집하는 정보 및 결정할 사항에 따라 달라집니다. 이 설계 섹션에서는 Microsoft 클라우드 기반 서비스인 Intune 독립 실행형에 집중합니다.
 
-온-프레미스 인프라 요구 사항이 매우 적긴 하지만 여전히 설계 계획 작업을 하여 목적 및 목표에 부합되고 요구 사항을 충족하는 적절한 모바일 장치 관리 솔루션을 보유하는 것이 좋습니다.
+온-프레미스 인프라 요구 사항이 매우 적긴 하지만 설계 계획 작업을 하여 목적 및 목표에 부합되고 요구 사항을 충족하는 적절한 모바일 장치 관리 솔루션을 보유하는 것이 좋습니다.
 
 또한 구현 및 테스트 단계 도중에 설계를 변경하는 일은 일반적이며, 이러한 변경 내용 및 변경이 발생한 근거를 모두 문서화해야 합니다. 다음과 같은 영역을 살펴보겠습니다.
 
@@ -409,9 +410,4 @@ Intune은 여러 가지 방법으로 사용자 또는 장치에 대한 앱 배�
 ## <a name="next-section"></a>다음 섹션
 
 다음 섹션에서는 [Intune 구현 프로세스](section-8-onboarding-process.md)에 대한 지침을 제공합니다.
-
-
-
-<!--HONumber=Jan17_HO3-->
-
 

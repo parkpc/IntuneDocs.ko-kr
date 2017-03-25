@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: vinaybha
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 74899f8d9721ff3a6ddbdd0716fb935c937a5a55
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: ed1d6ce687666e1630ca25b08db72d6c99ef617a
+ms.lasthandoff: 03/13/2017
 
 
 
@@ -86,12 +86,12 @@ PKCS 인증서 프로필을 사용하려면 엔터프라이즈 인증 기관 외
     -   **확장** 탭에서 **응용 프로그램 정책 설명** 에 **클라이언트 인증**이 포함되어 있는지 확인합니다.
 
         > [!IMPORTANT]
-        > iOS 및 Mac OS X 인증서 템플릿의 경우 **확장** 탭에서 **키 사용**을 편집하고 **서명이 원본 증명임**이 선택되어 있지 않음을 확인합니다.
+        > iOS 및 macOS 인증서 템플릿의 경우 **확장** 탭에서 **키 사용**을 편집하고 **서명이 원본 증명임**이 선택되어 있지 않음을 확인합니다.
 
 2.  템플릿의 **일반** 탭에서 **유효 기간** 을 검토합니다. 기본적으로 Intune은 템플릿에 구성된 값을 사용합니다. 그러나 요청자가 다른 값을 지정할 수 있도록 CA를 구성할 수도 있습니다. 이와 같이 구성하면 Intune 관리자 콘솔 내에서 다른 값을 설정할 수 있습니다. 항상 템플릿의 값을 사용하려면 이 단계의 나머지 부분을 건너뜁니다.
 
     > [!IMPORTANT]
-    > iOS 및 Mac OS X 플랫폼은 다른 구성 내용에 관계없이 항상 템플릿에 설정된 값을 사용합니다.
+    > iOS 및 macOS는 다른 구성 내용에 관계없이 항상 템플릿에 설정된 값을 사용합니다.
 
     요청자가 유효 기간을 지정할 수 있도록 CA를 구성하려면 CA에서 다음 명령을 실행합니다.
 
@@ -103,7 +103,7 @@ PKCS 인증서 프로필을 사용하려면 엔터프라이즈 인증 기관 외
 
 3.  발급 CA에서 인증 기관 스냅인을 사용하여 인증서 템플릿을 게시합니다.
 
-    a.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기 ** &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
+    a.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기** &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
 
     b.  **인증서 템플릿** 폴더에서 게시된 템플릿을 확인하여 유효성을 검사합니다.
 

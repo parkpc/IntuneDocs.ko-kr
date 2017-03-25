@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/27/2016
+ms.date: 03/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 1bf478eae73bb7385369e4d5cde26b937831e665
-ms.openlocfilehash: 5ce680b35ff2a931b13e0395d7bb550f534d2b29
-ms.lasthandoff: 12/30/2016
+ms.sourcegitcommit: 499ec16ffa04ec6c5d1fff829729fddc3f74a02b
+ms.openlocfilehash: 3794f6c908dabb1946a262a7238a38537b7b06ec
+ms.lasthandoff: 03/16/2017
 
 
 ---
@@ -28,7 +28,7 @@ ms.lasthandoff: 12/30/2016
 
 # <a name="send-logs-to-your-it-admin-using-email"></a>메일을 사용하여 IT 관리자에게 로그 보내기
 
-Android 장치에서 회사 포털 앱을 사용할 때 오류가 표시되면 메일로 오류 정보를 보내 IT 관리자가 문제를 해결하도록 도울 수 있습니다. 이 정보는 장치의 _진단 로그__라고 하는 특수 문서에 유지됩니다.
+Android 장치에서 회사 포털 앱을 사용할 때 오류가 표시되면 메일로 오류 정보를 보내 IT 관리자가 문제를 해결하도록 도울 수 있습니다. 이 정보는 장치의 _진단 로그_라는 특수 문서에 저장됩니다.
 
 > [!Note]
 > IT 관리자가 문제를 더 쉽게 파악할 수 있게 하려면 _자세한 정보 로깅_ 기능을 켜야 합니다. 자세한 정보 로깅은 보고서에 모든 관련 세부 정보를 포함합니다. [여기에서 자세한 정보 로깅을 켜는](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md) 방법을 확인해 보세요.

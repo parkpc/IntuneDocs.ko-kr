@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 03/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: mamoriss
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: d2ed7b2e713f5efd4161eb8015ab43c8f97a017b
-ms.openlocfilehash: d10cc421dc6fe422b7a2c26b4902997c8c6b2e61
-ms.lasthandoff: 01/05/2017
+ms.sourcegitcommit: 499ec16ffa04ec6c5d1fff829729fddc3f74a02b
+ms.openlocfilehash: 9b5ca824612f2ad40690f14a4845e9fafc7b6fed
+ms.lasthandoff: 03/16/2017
 
 
 ---
@@ -40,7 +40,7 @@ ms.lasthandoff: 01/05/2017
 
 -   [장치 원격 잠금](remote-lock-your-device-cpwebsite.md)
 
--    [느린 앱 설치 속도를 높이기 위해 장치를 수동으로 동기화](sync-your-device-manually-cpwebsite.md)
+-    [앱을 더 신속하게 설치하도록 수동으로 장치 동기화](sync-your-device-manually-cpwebsite.md)
 
 -   IT 관리자의 연락처 정보를 구성한 경우 찾기
 

@@ -18,9 +18,9 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 2b60f327c2e48c3c933a6cff0a68df138df4dd3d
-ms.openlocfilehash: ffc912af791c4b243877f026a554cc14b614ffa0
-ms.lasthandoff: 01/05/2017
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: 3e91ccb2aae973892044f19d0d26c7f57bd5d786
+ms.lasthandoff: 03/13/2017
 
 
 ---
@@ -28,7 +28,7 @@ ms.lasthandoff: 01/05/2017
 
 # <a name="send-logs-to-your-it-admin-using-a-usb-cable"></a>USB 케이블을 사용하여 IT 관리자에게 로그 보내기
 
-Android 장치에서 회사 포털 앱을 사용할 때 오류가 발생하면 전자 메일을 통해 오류 정보를 보내 IT 관리자가 문제를 해결할 수 있습니다. 이 정보는 장치의 _진단 로그__라고 하는 특수 문서에 저장됩니다.
+Android 장치에서 회사 포털 앱을 사용할 때 오류가 표시되면 메일로 오류 정보를 보내 IT 관리자가 문제를 해결하도록 도울 수 있습니다. 이 정보는 장치의 _진단 로그_라는 특수 문서에 저장됩니다.
 
 > [!Note]
 > 시작하기 전에 IT 관리자의 메일 주소가 있는지 확인합니다. 이 주소는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 또는 회사 포털 앱에서 찾을 수 있습니다.

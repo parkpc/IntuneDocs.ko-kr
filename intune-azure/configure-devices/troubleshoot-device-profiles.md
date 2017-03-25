@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,8 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 962eb30ada84355c1aceacbf8f487b0f5b3cf1f2
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: 9bc5b328fc204a12cf7aa992f62ac00b9ddfd45d
+ms.lasthandoff: 03/13/2017
 
 
 ---
@@ -34,14 +35,14 @@ ms.openlocfilehash: 962eb30ada84355c1aceacbf8f487b0f5b3cf1f2
 
 첫 번째 알림을 보낸 후 장치가 정책을 수신하기 위해 체크 인하지 않으면 알림을&3;번 더 보냅니다.  장치가 꺼져 있거나 네트워크에 연결되어 있지 않은 등 오프라인 상태인 경우에는 알림을 받지 못할 수 있습니다. 이 경우 장치는 아래와 같이 다음에 예약된 Intune 서비스 체크 인 시에 정책을 수신하게 됩니다.
 
-- iOS 및 Mac OS X: 6시간마다
+- iOS 및 macOS: 6시간마다
 - Android: 8시간마다
 - Windows Phone: 8시간마다
 - 장치로 등록된 Windows 8.1 및 Windows 10 PC: 8시간마다
 
 장치를 방금 등록한 경우에는 다음과 같이 체크 인 빈도가 더 높아집니다.
 
-- iOS 및 Mac OS X: 6시간 동안 15분마다/그 이후에는 6시간마다
+- iOS 및 macOS: 6시간 동안 15분마다/그 이후에는 6시간마다
 - Android: 15분 동안 3분마다/그 이후 2시간 동안은 15분마다/그 이후에는 8시간마다
 - Windows Phone: 15분 동안 5분마다/그 이후 2시간 동안은 15분마다/그 이후에는 8시간마다
 - 장치로 등록된 Windows PC: 30분 동안 3분마다/그 이후에는 8시간마다
@@ -499,8 +500,3 @@ Android, Windows Phone 8.1 이상 및 iOS와 같은 기타 MDM 장치의 경우 
 
 ### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)의 설명에 따라 Microsoft 지원에 문의하세요.
-
-
-<!--HONumber=Feb17_HO3-->
-
-

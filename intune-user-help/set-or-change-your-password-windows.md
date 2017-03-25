@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/29/2016
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,16 +16,16 @@ searchScope:
 ROBOTS: 
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 635cd7c9cd6edec82fec76400b410cabce2d8c4c
-ms.lasthandoff: 12/10/2016
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: d7d9ce0e1dc17dfafe78757a4bd8e48f9f67132d
+ms.lasthandoff: 03/13/2017
 
 
 ---
 
 # <a name="make-your-device-safer-with-the-right-password"></a>올바른 암호로 장치의 안전 강화
 
-메일 및 문서와 같은 회사 리소스에 액세스하는 것은 사용자가 자신의 Windows 장치에서 매일 수행해야 하는 일입니다. 조직에서는 사용자 장치에서 이러한 작업을 안전하게 수행할 수 있기를 원합니다. 사용자가 장치에서 이러한 리소스에 안전하게 액세스하도록 하려면 암호를 사용하도록 해야 합니다.
+메일 및 문서와 같은 회사 리소스에 액세스하는 것은 사용자가 자신의 Windows 장치에서 매일 수행해야 하는 일입니다. 조직에서는 사용자 장치에서 이러한 작업을 안전하게 수행할 수 있기를 원합니다. 사용자가 장치에서 이러한 리소스에 안전하게 액세스하도록 하려면 암호를 사용하도록 해야 합니다. 이러한 암호는 예를 들어 잠금 화면에서 장치에 액세스하는 데 사용됩니다.
 
 Windows 장치가 IT 관리자의 암호 정책을 준수하지 않는 경우 문제를 간략하게 기술하고 암호가 요구 사항을 충족하도록 하기 위해 수행해야 하는 사항을 설명하는 메시지가 표시됩니다.
 

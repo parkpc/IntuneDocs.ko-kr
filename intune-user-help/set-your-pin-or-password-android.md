@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,16 +18,16 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
-ms.openlocfilehash: 95c8983428ee4770ec71f804f8dac59c427e096c
-ms.lasthandoff: 12/21/2016
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: 393a1aa0f9e917d2a124f4deaa086f0369ded4ef
+ms.lasthandoff: 03/13/2017
 
 
 ---
 
 # <a name="set-your-pin-or-password"></a>PIN 또는 암호 설정
 
-IT 관리자는 회사 또는 학교 데이터에 액세스하는 데 Intune을 사용할 때 Android 장치에서 PIN 또는 암호를 설정하도록 요구할 수 있습니다. 보안 강화를 위해 PIN 또는 암호를 더 길거나 더 복잡하게 지정하도록 요구하는 메시지가 표시될 수도 있습니다.  
+IT 관리자는 회사 또는 학교 데이터에 액세스하는 데 Intune을 사용할 때 Android 장치에서 PIN 또는 암호를 설정하도록 요구할 수 있습니다. 보안 강화를 위해 PIN 또는 암호를 더 길거나 더 복잡하게 지정하도록 요구하는 메시지가 표시될 수도 있습니다. 이러한 암호는 예를 들어 잠금 화면에서 장치에 액세스하는 데 사용됩니다.
 
 다음 단계를 사용하여 PIN 또는 암호를 설정할 수 있습니다.
 

@@ -5,7 +5,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 12/28/2016
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 874146573898e8a28de83ed599dbd4829ea8f335
-ms.openlocfilehash: fb72b74d922cef8659c34ef9d3d36e14b1a22ac1
+ms.sourcegitcommit: 6df87e20011f20b99b91d88e669c67bb97ad2277
+ms.openlocfilehash: e21b088dbb7fdcef9996e2b970bb406cab5ee0aa
+ms.lasthandoff: 03/13/2017
 
 
 ---
@@ -49,7 +50,7 @@ Intune 지원 계획이 있으면 Intune 관련 문제를 더 효과적으로 �
 
 -   [Intune 지원](https://docs.microsoft.com/intune/troubleshoot/how-to-get-support-for-microsoft-intune)에 대해 자세히 알아보세요.
 
-초기 프로덕션 출시 단계의 경우 조직에 브리지 또는 Skype 통화에 참여하는 3계층이 모두 있을 수 있습니다. 다음은 조직이 IT 지원/기술 지원팀 워크플로를 어떻게 구현할 수 있는지를 보여 주는 한 가지 예입니다.
+초기 프로덕션 출시 단계의 경우 조직에 브리지 또는 Skype 통화에 참여하는&3;계층이 모두 있을 수 있습니다. 다음은 조직이 IT 지원/기술 지원팀 워크플로를 어떻게 구현할 수 있는지를 보여 주는 한 가지 예입니다.
 
 1.  최종 사용자가 등록 문제에 대해 IT 지원/기술 지원팀 계층 1에 연락합니다.
 
@@ -95,9 +96,4 @@ Intune 배포 계획 및 파일럿 활동의 초기 단계에 IT 지원/기술 �
 ## <a name="next-section"></a>다음 섹션
 
 다음 섹션에서는 [Intune 설계](section-7-create-an-intune-design.md)에 대한 지침을 제공합니다.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

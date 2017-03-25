@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
-ms.openlocfilehash: cf110d8758e8ab589acbceabb5df733b29068b0f
-ms.lasthandoff: 01/24/2017
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: d4491a6068ebde632b8af0dfa6bee500def8e4b2
+ms.lasthandoff: 03/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 01/24/2017
 
 회사 포털은 회사 또는 학교 앱, 메일 및 네트워크에 대한 액세스 권한을 제공하기 위해 iOS 장치에 설치하는 앱입니다.  액세스 권한을 받으려면 먼저 회사 포털 앱을 설치한 다음, 앱을 사용하여 Microsoft Intune에서 장치를 등록해야 합니다. 자세한 내용은 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)를 참조하세요.
 
-1.  **앱 스토어**를 열고 **intune**을 검색합니다.
+1.  **앱 스토어**를 열고 **intune 회사 포털**을 검색합니다.
 
 2.  **Microsoft Intune 회사 포털** 앱을 다운로드합니다.
 

@@ -16,9 +16,9 @@ ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: a3e3d4968623f29e320f1fcca8243c861c7caab4
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: cddeb6bf854b9ffbbc1744d5d164c8ceea34ff49
+ms.openlocfilehash: 0c0d2f73e48864caabdec6e83c2fdf58db5a0630
+ms.lasthandoff: 03/10/2017
 
 
 ---
@@ -28,19 +28,20 @@ ms.lasthandoff: 02/18/2017
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
-이 항목에서는 장치 준수 정책을 만들기 전에 필요한 사항을 자세히 알아보고 Azure Portal에서 보고 수행할 수 있는 작업을 간략히 살펴봅니다. 장치 준수를 처음 접하는 경우 이 항목을 통해 장치 준수의 정의 및 회사에서 장치 준수를 사용할 수 있는 방법을 이해할 수 있습니다.
+이 항목에서는 다음을 알아봅니다. 
+
+- 장치 준수 정책을 만들기 시작하려면 먼저 필요한 사항
+- Intune Azure Preview 포털의 표시 내용과 기능 사항 한눈에 보기 
+
+장치 준수에 대해 잘 모르는 경우 [이 항목](https://docs.microsoft.com/intune-azure/set-device-compliance/what-is-device-compliance)을 통해 장치 준수의 정의 및 조직에서 장치 준수를 사용할 수 있는 방법을 이해할 수 있습니다.
 
 ##  <a name="pre-requisites"></a>필수 구성 요소
-
 
 -   Intune 구독
 
 -   Azure Active Directory 구독
 
-
-
 ##  <a name="supported-platforms"></a>지원되는 플랫폼:
-
 
 -   Android
 
@@ -54,8 +55,7 @@ ms.lasthandoff: 02/18/2017
 
 ##  <a name="azure-portal-workflow"></a>Azure Portal 워크플로
 
-
-Azure Portal 에서 장치 준수를 만들고 관리하는 방법에 대한 개요는 다음과 같습니다.
+Intune Azure Preview 포털에서 장치 준수를 만들고 관리하는 방법에 대한 개요는 다음과 같습니다.
 
 <!---### Overview
 

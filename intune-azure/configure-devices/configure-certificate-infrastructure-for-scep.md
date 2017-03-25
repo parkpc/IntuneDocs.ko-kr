@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 8f713769e0b8a13e91e6d9991e4e7415e1da22a2
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: ea910594195313978d6defae529a526bc0310022
+ms.lasthandoff: 03/13/2017
 
 ---
 # <a name="configure-certificate-infrastructure-for-scep-in-microsoft-intune"></a>Microsoft Intune의 SCEP에 대한 인증서 인프라 구성
@@ -54,7 +54,7 @@ ms.lasthandoff: 02/18/2017
 [Azure AD 응용 프로그램 프록시](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-publish/), [웹 액세스 프록시](https://technet.microsoft.com/en-us/library/dn584107.aspx) 또는 타사 프록시와 같은 프록시를 통해 NDES 서버를 게시하는 것이 좋습니다.
 
 
-### <a name="a-namebkmkcertsandtemplatesacertificates-and-templates"></a><a name="BKMK_CertsAndTemplates"></a>인증서 및 템플릿
+### <a name="BKMK_CertsAndTemplates"></a>인증서 및 템플릿
 
 |개체|세부 정보|
 |----------|-----------|
@@ -63,13 +63,13 @@ ms.lasthandoff: 02/18/2017
 |**서버 인증 인증서**|발급 CA 또는 공용 CA에서 이 SSL 인증서를 요청한 다음 NDES 서버의 IIS에 설치 및 바인딩합니다.|
 |**신뢰할 수 있는 루트 CA 인증서**|루트 CA 또는 루트 CA를 신뢰하는 장치에서 이 인증서를 **.cer** 파일로 내보낸 후 신뢰할 수 있는 CA 인증서 프로필을 사용하여 장치에 배포합니다.<br /><br />운영 체제 플랫폼당 하나의 신뢰할 수 있는 루트 CA 인증서를 사용하고, 새로 만드는 각 신뢰할 수 있는 루트 인증서 프로필과 연결합니다.<br /><br />필요하면 신뢰할 수 있는 루트 CA 인증서를 추가로 사용할 수 있습니다. 예를 들어, Wi-Fi 액세스 지점의 서버 인증 인증서에 서명하는 CA에 신뢰를 제공하기 위해 사용하게 될 수도 있습니다.|
 
-### <a name="a-namebkmkaccountsaaccounts"></a><a name="BKMK_Accounts"></a>계정
+### <a name="BKMK_Accounts"></a>계정
 
 |Name|세부 정보|
 |--------|-----------|
 |**NDES 서비스 계정**|NDES 서비스 계정으로 사용할 도메인 사용자 계정을 지정합니다.|
 
-## <a name="a-namebkmkconfigureinfrastructureaconfigure-your-infrastructure"></a><a name="BKMK_ConfigureInfrastructure"></a>인프라 구성
+## <a name="BKMK_ConfigureInfrastructure"></a>인프라 구성
 인증서 프로필을 구성하려면 먼저 다음 작업을 완료해야 합니다. 이러한 작업을 수행하려면 Windows Server 2012 R2 및 ADCS(Active Directory 인증서 서비스)에 대해 잘 알고 있어야 합니다.
 
 **작업 1**: NDES 서비스 계정 만들기
@@ -108,7 +108,7 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
     -   **확장** 탭에서 **응용 프로그램 정책 설명** 에 **클라이언트 인증**이 포함되어 있는지 확인합니다.
 
         > [!IMPORTANT]
-        > iOS 및 Mac OS X 인증서 템플릿의 경우 **확장** 탭에서 **키 사용**을 편집하고 **서명이 원본 증명임**이 선택되어 있지 않은지 확인합니다.
+        > iOS 및 macOS 인증서 템플릿의 경우 **확장** 탭에서 **키 사용**을 편집하고 **서명이 원본 증명임**이 선택되어 있지 않은지 확인합니다.
 
     -   On the **보안** 탭에서 NDES 서비스 계정을 추가하고 템플릿에 **등록** 권한을 부여합니다. SCEP 프로필을 만들 Intune 관리자는 SCEP 프로필을 만들 때 템플릿을 찾아볼 수 있도록 **읽기** 권한이 필요합니다.
 
@@ -118,7 +118,7 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
 3.  템플릿의 **일반** 탭에서 **유효 기간** 을 검토합니다. 기본적으로 Intune은 템플릿에 구성된 값을 사용합니다. 그러나 요청자가 다른 값을 지정할 수 있도록 CA를 구성할 수도 있습니다. 이와 같이 구성하면 Intune 관리자 콘솔 내에서 다른 값을 설정할 수 있습니다. 항상 템플릿의 값을 사용하려면 이 단계의 나머지 부분을 건너뜁니다.
 
     > [!IMPORTANT]
-    > iOS 및 Mac OS X 플랫폼은 다른 구성 내용에 관계없이 항상 템플릿에 설정된 값을 사용합니다.
+    > iOS 및 macOS는 다른 구성 내용에 관계없이 항상 템플릿에 설정된 값을 사용합니다.
 
 다음은 템플릿 구성 예제의 스크린샷입니다.
 
@@ -145,7 +145,7 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
 
 4.  발급 CA에서 인증 기관 스냅인을 사용하여 인증서 템플릿을 게시합니다.
 
-    1.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기 ** &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
+    1.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기** &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
 
     2.  **인증서 템플릿** 폴더에서 게시된 템플릿을 확인하여 유효성을 검사합니다.
 

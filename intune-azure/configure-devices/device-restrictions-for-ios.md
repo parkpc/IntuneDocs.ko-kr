@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: a062b92cba0042153ffe22b949ce8a3b7b740b3f
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: deea78dcea9ade031441bf12b388a862235a8e9c
+ms.openlocfilehash: 01e8a6968797bc2b2b0f3bb5710ee396d9094584
+ms.lasthandoff: 03/15/2017
 
 
 ---
@@ -222,7 +222,7 @@ ms.lasthandoff: 02/18/2017
 -     **iCloud 사진 라이브러리** - **아니요**로 설정하면 사용자가 클라우드에 사진과 비디오를 저장할 수 있는 iCloud 사진 보관함을 사용할 수 없게 됩니다.    **아니요**로 설정되면 iCloud 사진 라이브러리에서 장치로 완전히 다운로드되지 않은 모든 사진이 장치에서 제거됩니다.
 -     **클라우드로 관리되는 앱 동기화** - Intune을 사용하여 관리하는 앱에서 데이터를 사용자의 iCloud 계정과 동기화하도록 허용합니다.
 -     **공유 사진 스트림** - 장치에서 **iCloud 사진 공유**를 사용하지 않으려면 **아니요**로 설정합니다.
--     **활동 연속** - 사용자가 다른 iOS에서 iOS 장치 또는 Mac OS X 장치에서 시작하는 작업을 계속할 수 있습니다.
+-     **활동 연속** - 사용자가 특정 iOS 장치에서 시작한 작업을 다른 iOS 장치나 macOS 장치에서 계속할 수 있습니다.
 
 ## <a name="kiosk"></a>키오스크
 -     **활성화 잠금** - 감독된 iOS 장치에서 활성화 잠금을 설정합니다.
