@@ -41,7 +41,7 @@
 #### [장치 등록 프로그램을 사용하여 iOS 장치 등록](enroll-devices/enroll-ios-devices-using-device-enrollment-program.md)
 ### [장치 등록 관리자를 사용하여 장치 등록](enroll-devices/enroll-devices-using-device-enrollment-manager.md)
 ### [macOS 장치 등록](enroll-devices/enroll-macos-devices.md)
-### [Windows 장치 등록](enroll-devices/enroll-window-devices.md)
+### [Windows 장치 등록](enroll-devices/enroll-windows-devices.md)
 ### 모바일 장치 관리
 #### [사용 약관 만들기](enroll-devices/create-terms-and-conditions.md)
 #### [등록 제한 설정](enroll-devices/set-enrollment-restrictions.md)
@@ -108,6 +108,11 @@
 ## [Plan and design](configure-devices/plan-and-design.md) --->
 ## 방법
 ### [장치 프로필 구성](configure-devices/how-to-create-device-profiles.md)
+
+### [장치 기능 구성](configure-devices/how-to-configure-device-features.md)
+#### [iOS](configure-devices/device-features-for-ios.md)
+#### [macOS](configure-devices/device-features-for-macos.md)
+
 ### [장치 제한 구성](configure-devices/how-to-configure-device-restrictions.md)
 #### [Android](configure-devices/device-restrictions-for-android.md)
 #### [iOS](configure-devices/device-restrictions-for-ios.md)
