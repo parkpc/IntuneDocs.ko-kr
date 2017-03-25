@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 01/29/2017
+ms.date: 03/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: lacranda
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 6b99854e17e00a0dd0f91fa82fd1b79d1dfe5663
-ms.openlocfilehash: 8e2588e2bb0537877f0164bc996fa973f25ea4dd
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 86fd9d7212277f9524eb4d7f225df2c7beda1313
+ms.openlocfilehash: a5a4f11ae341480b2e674ca55a514b62831bdd60
+ms.lasthandoff: 03/21/2017
 
 
 ---
@@ -38,11 +38,11 @@ Intune 관리자는 회사 포털에서 Samsung Knox Standard 장치를 포함�
 
 3.  **회사 리소스를 이용할 수 있도록 사용자에게 장치를 등록하는 방법 설명**
 
-    최종 사용자 등록 지침은 [Intune에서 Android 장치 등록](../enduser/enroll-your-device-in-intune-android.md)을 참조하세요. 예상되는 작업 내용과 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목을 등록 과정 중에 알려줍니다.
+    최종 사용자 등록 지침은 [Intune에서 Android 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-android)을 참조하세요. 예상되는 작업 내용과 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목을 등록 과정 중에 알려줍니다.
 
     최종 사용자의 다른 작업에 대한 정보는 다음 문서를 참조하세요.
   - [Microsoft Intune에서 최종 사용자 환경 관련 리소스](how-to-educate-your-end-users-about-microsoft-intune.md)
-  - [Android 장치용 최종 사용자 가이드](../enduser/using-your-android-device-with-intune.md)
+  - [Android 장치용 최종 사용자 가이드](https://docs.microsoft.com/intune-user-help/using-your-android-device-with-intune)
 
 중국에는 Google Play 스토어를 사용할 수 없으므로 Android 장치 사용자는 중국 앱 마켓플레이스에서 제공되는 회사 포털을 다운로드해야 합니다. Android용 회사 포털 앱은 다음 스토어에서 다운로드할 수 있습니다.
 * [Baidu](https://go.microsoft.com/fwlink/?linkid=836946)

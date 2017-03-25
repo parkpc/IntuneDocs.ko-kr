@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: afca2af0b07b939adc66c8804f04a1125e12001b
-ms.openlocfilehash: 9c71a83f9514187753360fa9c2085584d1b76711
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 86fd9d7212277f9524eb4d7f225df2c7beda1313
+ms.openlocfilehash: 825acdb4452aa7fc9369be653b8afcdd4312ab23
+ms.lasthandoff: 03/21/2017
 
 
 ---
@@ -49,11 +49,11 @@ Intune은 iPad, iPhone 및 macOS 장치의 MDM(모바일 장치 관리)을 가�
 
 5.  **회사 리소스를 이용할 수 있도록 사용자에게 장치를 등록하는 방법 설명**
 
-    최종 사용자 등록 지침은 [Intune에서 iOS 장치 등록](../enduser/enroll-your-device-in-intune-ios.md) 및 [Intune에서 macOS 장치 등록](../enduser/enroll-your-device-in-intune-macos.md)을 참조하세요. 예상되는 작업 내용과 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목을 등록 과정 중에 알려줍니다.
+    최종 사용자 등록 지침은 [Intune에서 iOS 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-ios) 및 [Intune에서 macOS 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos)을 참조하세요. 예상되는 작업 내용과 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목을 등록 과정 중에 알려줍니다.
 
     최종 사용자의 다른 작업에 대한 정보는 다음 문서를 참조하세요.
     - [Microsoft Intune에서 최종 사용자 환경 관련 리소스](how-to-educate-your-end-users-about-microsoft-intune.md)
-    - [iOS 및 Mac 장치용 최종 사용자 가이드](../enduser/using-your-ios-or-macOS-device-with-intune.md)
+    - [iOS 및 Mac 장치용 최종 사용자 가이드](https://docs.microsoft.com/intune-user-help/using-your-ios-or-macOS-device-with-intune)
 
 회사 또는 조직에서 사용자를 위한 iOS 장치를 구입한 경우 해당 장치도 관리를 위해 [회사 소유의 iOS 장치](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)로 등록할 수 있습니다.
 

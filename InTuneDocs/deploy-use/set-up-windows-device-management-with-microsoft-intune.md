@@ -4,7 +4,7 @@ description: "Microsoft Intune으로 Windows 장치에 대한 MDM(모바일 장�
 keywords: 
 author: NathBarn
 manager: angrobe
-ms.date: 02/26/2017
+ms.date: 03/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,9 +14,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 255c3e47464ac7670a971881cf399e8e2bb17044
-ms.openlocfilehash: 4acbae2aba4cff21286d45cb7cb1691864c281dc
-ms.lasthandoff: 02/28/2017
+ms.sourcegitcommit: e76d66768ac58df25313e102b7f60d2bc7bbc59b
+ms.openlocfilehash: f66bc5a26f137f62defef4a83a36b22247be4ec1
+ms.lasthandoff: 03/22/2017
 
 
 ---
@@ -73,9 +73,9 @@ MDM(모바일 장치 관리)을 아직 준비하지 않은 경우 [모바일 장
 
 ### <a name="step-4-tell-your-users-how-to-enroll-their-devices-and-what-to-expect-after-theyre-brought-into-management"></a>4단계: 장치를 등록하는 방법과 장치가 관리될 때 발생하는 상황에 대한 정보를 사용자에게 제공
 
-   최종 사용자 등록 지침은 [Intune에서 Windows 장치 등록](https://docs.microsoft.com/intune/enduser/enroll-your-device-in-intune-windows)을 참조하세요.
+   최종 사용자 등록 지침은 [Intune에서 Windows 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows)을 참조하세요.
 
-   최종 사용자 작업에 대한 자세한 내용은 [Microsoft Intune에 대한 최종 사용자 교육 방법](https://docs.microsoft.com/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune) 및 [Windows 장치에 대한 최종 사용자 지침](../enduser/using-your-windows-device-with-intune.md)을 참조하세요.
+   최종 사용자 작업에 대한 자세한 내용은 [Microsoft Intune에 대한 최종 사용자 교육 방법](https://docs.microsoft.com/intune/deploy-use/how-to-educate-your-end-users-about-microsoft-intune) 및 [Windows 장치에 대한 최종 사용자 지침](https://docs.microsoft.com/intune-user-help/using-your-windows-device-with-intune)을 참조하세요.
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune에서 장치 등록을 위한 필수 구성 요소](prerequisites-for-enrollment.md)
