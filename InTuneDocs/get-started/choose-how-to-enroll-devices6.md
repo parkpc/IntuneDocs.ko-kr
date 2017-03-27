@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 02/14/2017
+ms.date: 03/27/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,6 +17,7 @@ ms.custom: intune-classic EXPIERIMENT
 translationtype: Human Translation
 ms.sourcegitcommit: b4295fbc9df88fa537f18b1280dfcc32702ccc51
 ms.openlocfilehash: 173e95ac2d0039accb3465386bf67fb3dee90723
+ms.lasthandoff: 02/17/2017
 
 
 ---
@@ -43,11 +44,6 @@ ms.openlocfilehash: 173e95ac2d0039accb3465386bf67fb3dee90723
 
   - **IMEI 번호로 태그 지정** - 회사 소유 장치의 IMEI(International Mobile Equipment Identity) 번호를 가져와서 Intune에서 회사 소유 장치로 장치에 태그를 지정할 수 있습니다. 이는 전용("단일 사용자") Windows 및 Android 장치를 회사 소유로 확인하는 유일한 방법입니다. Apple 장치 등록 프로그램 또는 Apple 구성기에 등록되지 않는 iOS 장치도 IMEI 숫자로 태그될 수 있습니다. 장치가 “회사”로 태그되도록 미리 선언한 후에는 장치를 사용자에게 분배할 수 있습니다. 그런 다음 사용자는 회사 포털을 설치하여 장치를 전용 장치로 등록함으로써 전자 메일, 앱, 데이터 등의 회사 리소스에 액세스할 수 있습니다.
 
-  > [!div class="button"]
-  [< 뒤로](choose-how-to-enroll-devices3.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
+> [!div class="button"]
+[< 뒤로](choose-how-to-enroll-devices3.md)
 
