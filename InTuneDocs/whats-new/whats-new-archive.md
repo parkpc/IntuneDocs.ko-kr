@@ -2,8 +2,8 @@
 title: "새로운 기능 아카이브 | Microsoft 문서"
 description: "Microsoft Intune에 대한 새로운 기능 공지"
 keywords: 
-author: barlanmsft
-ms.author: barlan
+author: mtillman
+ms.author: mtillman
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 43e951d763d788d94e97c35ea4c25a9c700baf1e
 ms.openlocfilehash: 1b1775507b454d45a673ca30c1674ac54b92a056
+ms.lasthandoff: 02/07/2017
 
 
 ---
@@ -28,9 +29,4 @@ ms.openlocfilehash: 1b1775507b454d45a673ca30c1674ac54b92a056
 
 ### <a name="see-also"></a>참고 항목
 최근 개발 작업에 대한 자세한 내용은 [Microsoft Intune의 새로운 기능](whats-new-in-microsoft-intune.md)을 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 
