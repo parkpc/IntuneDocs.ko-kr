@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: 4140c310bb14faf1731e3c316e1dafae5dc0f97a
+ms.lasthandoff: 12/10/2016
 
 ---
 # <a name="configure-certificate-infrastructure-for-scep"></a>SCEP 인증서 인프라 구성
@@ -53,7 +54,7 @@ I
 [Azure AD 응용 프로그램 프록시](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-publish/), [웹 액세스 프록시](https://technet.microsoft.com/en-us/library/dn584107.aspx) 또는 타사 프록시와 같은 프록시를 통해 NDES 서버를 게시하는 것이 좋습니다.
 
 
-### <a name="a-namebkmkcertsandtemplatesacertificates-and-templates"></a><a name="BKMK_CertsAndTemplates"></a>인증서 및 템플릿
+### <a name="BKMK_CertsAndTemplates"></a>인증서 및 템플릿
 
 |개체|세부 정보|
 |----------|-----------|
@@ -62,13 +63,13 @@ I
 |**서버 인증 인증서**|발급 CA 또는 공용 CA에서 이 SSL 인증서를 요청한 다음 NDES 서버의 IIS에 설치 및 바인딩합니다.|
 |**신뢰할 수 있는 루트 CA 인증서**|루트 CA 또는 루트 CA를 신뢰하는 장치에서 이 인증서를 **.cer** 파일로 내보낸 후 신뢰할 수 있는 CA 인증서 프로필을 사용하여 장치에 배포합니다.<br /><br />운영 체제 플랫폼당 하나의 신뢰할 수 있는 루트 CA 인증서를 사용하고, 새로 만드는 각 신뢰할 수 있는 루트 인증서 프로필과 연결합니다.<br /><br />필요하면 신뢰할 수 있는 루트 CA 인증서를 추가로 사용할 수 있습니다. 예를 들어, Wi-Fi 액세스 지점의 서버 인증 인증서에 서명하는 CA에 신뢰를 제공하기 위해 사용하게 될 수도 있습니다.|
 
-### <a name="a-namebkmkaccountsaaccounts"></a><a name="BKMK_Accounts"></a>계정
+### <a name="BKMK_Accounts"></a>계정
 
 |Name|세부 정보|
 |--------|-----------|
 |**NDES 서비스 계정**|NDES 서비스 계정으로 사용할 도메인 사용자 계정을 지정합니다.|
 
-## <a name="a-namebkmkconfigureinfrastructureaconfigure-your-infrastructure"></a><a name="BKMK_ConfigureInfrastructure"></a>인프라 구성
+## <a name="BKMK_ConfigureInfrastructure"></a>인프라 구성
 인증서 프로필을 구성하려면 먼저 다음 작업을 완료해야 합니다. 이러한 작업을 수행하려면 Windows Server 2012 R2 및 ADCS(Active Directory 인증서 서비스)에 대해 잘 알고 있어야 합니다.
 
 **작업 1**: NDES 서비스 계정 만들기
@@ -148,7 +149,7 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
 
 4.  발급 CA에서 인증 기관 스냅인을 사용하여 인증서 템플릿을 게시합니다.
 
-    1.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기 ** &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
+    1.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기** &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
 
     2.  **인증서 템플릿** 폴더에서 게시된 템플릿을 확인하여 유효성을 검사합니다.
 
@@ -351,9 +352,4 @@ NDES 서버에서 인증서 커넥터 다운로드, 설치 및 구성
 
 ## <a name="next-steps"></a>다음 단계
 이제 [인증서 프로필 구성](Configure-Intune-certificate-profiles.md)에 설명된 대로 인증서 프로필을 구성할 준비가 되었습니다.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

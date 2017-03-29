@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
 ms.openlocfilehash: 3982f05e4c81c26d2eb8bdab3a266597d6aab4df
+ms.lasthandoff: 12/30/2016
 
 
 ---
@@ -109,7 +110,7 @@ Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Brows
 
     -   https의 경우 포트 443
 
-    포트 번호에 대한 와일드 카드 사용은 지원되지 않습니다. 예를 들어 **http&colon;//www&period;contoso&period;com:*;** 및 **http&colon;//www&period;contoso&period;com: /*; * *은 지원되지 않습니다.
+    포트 번호에 대한 와일드 카드 사용은 지원되지 않습니다. 예를 들어 **http&colon;//www&period;contoso&period;com:*;**및**http&colon;//www&period;contoso&period;com: /*; * *은 지원되지 않습니다.
 
 -   다음 표를 사용하여 URL을 지정할 때 사용할 수 있는 패턴에 대해 알아볼 수 있습니다.
 
@@ -156,9 +157,4 @@ Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Brows
 -   장치가 처음으로 관리 브라우저 정책을 받고 있는데 두 정책이 충돌하면 해당 장치에 URL이 적용되지 않습니다. **정책** 작업 영역의 **정책 충돌** 노드를 사용하여 충돌을 볼 수 있습니다.
 
 -   장치가 관리 브라우저 정책을 이미 받았는데 두 번째 정책이 충돌하는 설정을 가지고 배포되는 경우 원래 설정은 해당 장치에 유지됩니다. **정책** 작업 영역의 **정책 충돌** 노드를 사용하여 충돌을 볼 수 있습니다.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

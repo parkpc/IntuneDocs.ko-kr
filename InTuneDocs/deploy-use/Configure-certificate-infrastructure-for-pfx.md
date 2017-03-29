@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: 12773352970deeacf30b1336a4e560e08b400ee3
+ms.lasthandoff: 12/10/2016
 
 
 
@@ -102,7 +103,7 @@ ms.openlocfilehash: 12773352970deeacf30b1336a4e560e08b400ee3
 
 3.  발급 CA에서 인증 기관 스냅인을 사용하여 인증서 템플릿을 게시합니다.
 
-    a.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기 ** &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
+    a.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기** &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
 
     b.  **인증서 템플릿** 폴더에서 게시된 템플릿을 확인하여 유효성을 검사합니다.
 
@@ -157,9 +158,4 @@ ms.openlocfilehash: 12773352970deeacf30b1336a4e560e08b400ee3
 
 ### <a name="next-steps"></a>다음 단계
 이제 [인증서 프로필 구성](Configure-Intune-certificate-profiles.md)에 설명된 대로 인증서 프로필을 설정할 준비가 되었습니다.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

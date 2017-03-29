@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
 ms.openlocfilehash: dfc76481a673dff5dd8be40659cc267a792760ec
+ms.lasthandoff: 12/30/2016
 
 
 ---
@@ -88,7 +89,7 @@ Intune에서는 속성 목록의 다음 데이터 형식을 지원합니다.
 데이터 형식에 대한 자세한 내용은 iOS 개발자 라이브러리의 [속성 목록 정보](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/AboutPropertyLists/AboutPropertyLists.html)를 참조하세요.
 
 또한 Intune은 속성 목록에서 다음과 같은 토큰 형식을 지원합니다.
-- \{\{userprincipalname\} \} -(예: ** John@contoso.com **)
+- \{\{userprincipalname\} \} -(예: **John@contoso.com**)
 - \{\{mail\}\} - (예: **John@contoso.com**)
 - \{\{partialupn\}\} - (예: **John**)
 - \{\{accountid\}\} - (예: **fc0dc142-71d8-4b12-bbea-bae2a8514c81**)
@@ -141,9 +142,4 @@ Intune에서는 속성 목록의 다음 데이터 형식을 지원합니다.
 </dict>
 
 ```
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

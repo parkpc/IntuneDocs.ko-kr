@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
 ms.openlocfilehash: 7da3ee985cb831ae1e0e5e7c5aaf861be1c3cde6
+ms.lasthandoff: 12/30/2016
 
 
 ---
@@ -49,7 +50,7 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 
 ## <a name="create-a-windows-hello-for-business-policy"></a>비즈니스용 Windows Hello 정책 만들기
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리자** &gt; **모바일 장치 관리** &gt; **Windows** &gt; **비즈니스용 Windows Hello **Windows Hello 페이지를 엽니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리자** &gt; **모바일 장치 관리** &gt; **Windows** &gt; **비즈니스용 Windows Hello**Windows Hello 페이지를 엽니다.
 
     ![비즈니스용 Windows Hello 페이지](../media/passport.png)
 
@@ -81,9 +82,4 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 
 ## <a name="further-information"></a>추가 정보
 Microsoft Passport에 대한 자세한 내용은 Windows 10 설명서의 [가이드](https://technet.microsoft.com/library/mt589441.aspx)를 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 
