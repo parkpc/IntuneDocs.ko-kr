@@ -33,6 +33,7 @@
 ### [Apple DEP 토큰 가져오기](enroll-devices/get-apple-dep-token.md)
 ### [iOS 장치를 등록하는 방법 선택](enroll-devices/choose-ios-enrollment-method.md)
 ## 방법
+### [사용자에게 라이선스 할당](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4?toc=%2fintune-azure%2ftoc.json)
 ### [Android 장치 등록](enroll-devices/enroll-android-and-knox-standard-devices.md)
 ### iOS 장치 등록
 #### [설정 도우미를 사용하여 iOS 장치 등록](enroll-devices/enroll-ios-devices-with-apple-configurator-and-setup-assistant.md)
