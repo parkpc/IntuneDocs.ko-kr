@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 02/24/2017
+ms.date: 03/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 51f9d7bad6a1411ff68fa94c62421e2c0a43ab5a
-ms.openlocfilehash: 97bedfdd2d756ae79350496f54076c16ada64def
-ms.lasthandoff: 02/25/2017
+ms.sourcegitcommit: e76d66768ac58df25313e102b7f60d2bc7bbc59b
+ms.openlocfilehash: 02743ee216ce09c74a9d0ab2455e826b36e8aa4a
+ms.lasthandoff: 03/22/2017
 
 
 ---
@@ -30,7 +30,7 @@ Microsoft Intune에서는 관리자가 회사 소유의 모바일 장치를 식�
 
 1. [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **그룹** &gt; **모든 장치** &gt; **회사에서 사전 등록한 모든 장치** &gt; **IMEI(모든 플랫폼) 기준**을 선택한 후 **장치 추가...**를 선택합니다. 두 가지 방법으로 장치를 추가할 수 있습니다.
 
-    -   **일련 번호가 포함된 .csv 파일 업로드** – 머리글 없이 두 열로 이루어진 쉼표로 구분된 값(.csv) 목록을 만들고 목록을 .csv 파일당 장치 5,000대 또는 용량 5MB로 제한합니다.
+    -   **일련 번호가 포함된 .csv 파일 업로드** – 머리글 없이 두 열로 이루어진 쉼표로 구분된 값(.csv) 목록을 만들고 목록을 .csv 파일당 장치 5,000대 또는 용량 5MB로 제한합니다. 이 세부 정보 필드는 128자로 제한됩니다.
 
         |||
         |-|-|
@@ -39,8 +39,8 @@ Microsoft Intune에서는 관리자가 회사 소유의 모바일 장치를 식�
         이.csv 파일을 텍스트 편집기에서 보면 다음과 같이 표시됩니다.
 
         ```
-        AABBBBBBCCCCCCD,PO 1234
-        AABBBBBBCCCCCCE,PO 1234
+        01 234567 890123,device details
+        02 234567 890123,device details
         ```
 
     -   **수동으로 장치 세부 정보 추가** - 최대 15개 장치에 대한 IMEI 번호와 장치 세부 정보를 입력합니다.
@@ -58,4 +58,6 @@ IMEI 번호가 있는 장치가 Intune에서 등록되면, 일반적으로 사�
 
 >[!NOTE]
 > 곧 조직이 새 Azure 포털로 마이그레이션되면 이 기능이 변경됩니다. 기존 Intune 관리자 콘솔에서 관리자는 업로드된 CSV의 연결된 세부 정보를 수락하고 개별 하드웨어 식별자의 기존 세부 정보를 덮어쓸 수 있습니다. 새 Azure 포털에서는 모든 하드웨어 식별자의 세부 정보를 자동으로 덮어쓰거나 기존 식별자의 세부 정보를 모두 무시할 수 있습니다.
+
+International Mobile Equipment Identifiers에 대한 자세한 사양은 [3GGPP TS 23.003](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=729)을 참조하세요.
 

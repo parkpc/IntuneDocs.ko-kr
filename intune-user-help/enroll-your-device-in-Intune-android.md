@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/16/2017
+ms.date: 03/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 499ec16ffa04ec6c5d1fff829729fddc3f74a02b
-ms.openlocfilehash: 464b9b60e9e8a5cb3e195bbec88d496eb4dc9ecf
-ms.lasthandoff: 03/16/2017
+ms.sourcegitcommit: 07a1f63d02e2517e4ab64305304127a40922263c
+ms.openlocfilehash: a4886c9fb780f2748aa767e426f404e03671f42e
+ms.lasthandoff: 03/20/2017
 
 
 ---
@@ -60,10 +60,10 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
     ![회사 액세스 설정 화면](./media/and-enroll-4a-comp-access-setup.png)
 
-> [!NOTE]
-> 노란색 삼각형은 이미 오류가 발생했음을 의미하지 않습니다. 이 아이콘은 등록 프로세스에서 완료해야 할 단계가 여전히 남아 있음을 나타냅니다.
+    > [!NOTE]
+    > 노란색 삼각형은 이미 오류가 발생했음을 의미하지 않습니다. 이 아이콘은 등록 프로세스에서 완료해야 할 단계가 여전히 남아 있음을 나타냅니다.
 
-7.  **왜 장치를 등록하나요?** 화면에서 장치를 등록할 때 수행할 수 있는 작업을 확인하고 **계속**을 탭합니다.
+7. **왜 장치를 등록하나요?** 화면에서 장치를 등록할 때 수행할 수 있는 작업을 확인하고 **계속**을 탭합니다.
 
     ![왜 장치를 등록하나요 화면](./media/and-enroll-4b-why-enroll.png)
 
@@ -90,13 +90,19 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
         ![android-company-portal-sign-in](./media/and-enroll-3b-allow-contacts-access.png)
 
-    이 메시지가 표시되면 **허용**을 탭합니다. **Microsoft는 결코 연락처에 액세스하지 않으므로** 허용을 탭하는 것이 안전합니다. Google이 메시지 텍스트를 제어하므로 Microsoft에서 변경할 수 없습니다. 액세스를 허용하는 경우 회사 포털 앱을 통해서만 회사 계정을 만들고, 사용하고 관리할 수 있습니다.
+        이 메시지가 표시되면 **허용**을 탭합니다. **Microsoft는 결코 연락처에 액세스하지 않으므로** 허용을 탭하는 것이 안전합니다. Google이 메시지 텍스트를 제어하므로 Microsoft에서 변경할 수 없습니다. 액세스를 허용하는 경우 회사 포털 앱을 통해서만 회사 계정을 만들고, 사용하고 관리할 수 있습니다.
 
-    액세스를 거부하면 다음에 회사 포털에 로그인할 때 메시지가 다시 표시되지만, **다시 묻지 않음** 상자를 탭하여 이후 메시지를 해제할 수 있습니다. 사용자가 나중에 액세스를 허용할 경우 **설정** &gt; **앱** &gt; **회사 포털** &gt; **사용 권한** &gt; **전화**로 이동한 다음 사용 권한을 설정합니다.
+        액세스를 거부하면 다음에 회사 포털에 로그인할 때 메시지가 다시 표시되지만, **다시 묻지 않음** 상자를 탭하여 이후 메시지를 해제할 수 있습니다. 사용자가 나중에 액세스를 허용할 경우 **설정** &gt; **앱** &gt; **회사 포털** &gt; **사용 권한** &gt; **전화**로 이동한 다음 사용 권한을 설정합니다.
 
 11.  **활성화 장치 관리자** 화면에서 **활성화**를 탭합니다.
 
     ![장치 관리자 활성화 화면](./media/and-enroll-5-activate.png)
+
+    장치 관리자 역할은 회사 포털에서 장치 관리 시 필요한 역할입니다. 이 역할을 사용하면 관리자는 화면 잠금 해제 시도 횟수와 같은 특정 항목을 보고 여러 작업을 수행할 수 있습니다.
+
+    이 작업은 보안상 수행되는 작업임을 염두에 두어야 합니다. IT 관리자는 이유 없이 사용자의 개인 정보를 침해하거나 정보를 지우지는 않지만 회사 데이터가 안전하게 유지되는지 확인하고자 합니다.
+
+    Microsoft는 이 메시지를 규제하지 않습니다. 또한 이러한 표현이 다소 극단적으로 보일 수도 있음을 알고 있습니다. 하지만 회사 포털에서 조직과 관련된 제한 사항 및 액세스 권한만 표시하는 것은 적절한 방법이 아닙니다. 모든 작업이 이 화면에서 한 번에 제공됩니다. 개별 조직의 사용 관련 질문이 있는 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)의 연락처 정보를 사용하여 IT 관리자에게 자세한 내용을 문의하세요.
 
 12.  지시에 따라 PIN이나 암호를 입력합니다. 이미 이 장치에서 암호나 PIN을 설정했다면 이 화면에 표시되지 않거나 새 PIN이나 암호를 입력할 필요가 없습니다.
 
@@ -108,21 +114,21 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
     이 화면은 장치가 등록되고 있음을 보여 줍니다.
 
-      ![장치 등록 화면](./media/and-enroll-8-device-enrolling.png)
+    ![장치 등록 화면](./media/and-enroll-8-device-enrolling.png)
 
 14. **회사 액세스 설정** 화면이 나타나면 **계속**을 탭합니다. 장치가 규정을 준수하지 않음을 나타내는 메시지가 표시되면 지침에 따라 문제를 해결하고 **계속**을 탭합니다.
 
-  ![장치가 비준수 상태이지만 등록되어 있음](./media/and-enroll-9a-noncompliant-enrolled-device.png)
+    ![장치가 비준수 상태이지만 등록되어 있음](./media/and-enroll-9a-noncompliant-enrolled-device.png)
 
-  ![해결이 필요한 장치 준수 문제가 나타남](./media/and-enroll-9b-resolve-compliance-issues.png)
+    ![해결이 필요한 장치 준수 문제가 나타남](./media/and-enroll-9b-resolve-compliance-issues.png)
 
-탭하여 문제에 대해 더 자세히 확인할 수 있습니다. 
+    탭하여 문제에 대해 더 자세히 확인할 수 있습니다.
 
-  ![장치 준수 문제 확장됨](./media/and-enroll-9c-resolve-compliance-issues-expanded.png)
+    ![장치 준수 문제 확장됨](./media/and-enroll-9c-resolve-compliance-issues-expanded.png)
 
-    ![Company access setup screen](./media/and-enroll-9d-comp-access-setup.png)  
+    ![회사 액세스 설정 화면](./media/and-enroll-9d-comp-access-setup.png)  
 
-11. **회사 액세스 설정 완료** 화면에서 **완료**를 탭합니다. 이제 장치가 등록됩니다.
+15. **회사 액세스 설정 완료** 화면에서 **완료**를 탭합니다. 이제 장치가 등록됩니다.
 
     ![회사 액세스 설정 완료 화면](./media/and-enroll-10-comp-access-setup-complete.png)
 

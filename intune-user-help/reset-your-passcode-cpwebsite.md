@@ -1,11 +1,11 @@
 ---
-title: "회사 포털 웹 사이트에서 암호를 재설정하는 방법 | Microsoft 문서"
+title: "회사 포털 웹 사이트에서 암호를 재설정하는 방법 | Microsoft Docs"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/23/2017
+ms.date: 03/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 4fa3255b-9d1e-42d5-bd8b-70963dcf2d86
 searchScope:
 - User help
 ROBOTS: 
-ms.reviewer: mamoriss
+ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: f293901d3865f0b10ed876e83b151cf59a046cba
-ms.openlocfilehash: 68725bb63ae2750e89a03c16027f8b4fd9111255
-ms.lasthandoff: 02/24/2017
+ms.sourcegitcommit: d42fa20a3bc6b6f4a74dd0872aae25cfb33067b9
+ms.openlocfilehash: 1c3b986df3e0d8a5ee54da0a91f37b445b4dd9f7
+ms.lasthandoff: 03/21/2017
 
 
 ---
@@ -48,23 +48,23 @@ Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [�
 
   ![장치 암호 다시 설정 및 사용자가 로그아웃되는 방식에 대한 경고가 포함된 암호 다시 설정 배너 사용자 입력 단추는 로그아웃 및 취소입니다.](./media/iwp-reset-passcode-popup.png)
 
-4.  **로그아웃**을 선택하면 장치에서 암호가 제거됨을 알려주는 최종 메시지를 받게 됩니다. 장치를 갖고 있지 않으면 장치에 대한 물리적 액세스 권한이 있는 누구든지 대부분의 정보(개인 또는 회사)에 액세스할 수 있으므로 암호를 제거하지 마세요.
+5.  **로그아웃**을 선택하면 장치에서 암호가 제거됨을 알려주는 최종 메시지를 받게 됩니다. 장치를 갖고 있지 않으면 장치에 대한 물리적 액세스 권한이 있는 누구든지 대부분의 정보(개인 또는 회사)에 액세스할 수 있으므로 암호를 제거하지 마세요.
 
   ![장치 암호 다시 설정 및 암호가 장치에서 제거되는 방식에 대한 경고가 포함된 두 번째 암호 다시 설정 배너 또한 장치 설정으로 이동하여 새 암호를 설정하는 방법을 알려줍니다.](./media/iwp-reset-passcode-2nd-popup.png)
 
+  장치에 따라 암호 유형이 서로 다릅니다.
 
-장치마다 다른 유형의 암호가 있으므로 아래 표에서 암호 다시 설정이 특정 장치에 미치는 영향을 확인할 수 있습니다. 
+  **Android**: 기존 암호를 제거하고 문자와 숫자를 사용하여 임시 암호를 만듭니다.
 
-    |장치 유형|다시 설정하는 경우 어떻게 되나요?|
-    |------------|-----------|
-    |Android|기존 암호를 제거하고 문자와 숫자를 사용하여 임시 암호를 만듭니다.|
-    |iOS|기존 암호를 제거하고 임시 암호를 만들지 않습니다. 장치를 열거나 구매를 위해 Touch ID 지문 스캐너를 사용하는 경우 암호를 다시 설정해야 합니다.|
-    |Windows 10 Mobile|기존 암호를 제거하고 문자와 숫자를 사용하여 임시 암호를 만듭니다. 로그인하는 데 Windows Hello의 안면 인식을 사용 중인 경우에는 이후에도 계속 지원됩니다.|
-    |Windows Phone 8.1|기존 암호를 제거하고 숫자를 사용하여 임시 암호를 만듭니다.|
+  **iOS**: 기존 암호를 제거하고 임시 암호를 만들지 않습니다. 장치를 열거나 구매를 위해 Touch ID 지문 스캐너를 사용하는 경우 암호를 다시 설정해야 합니다.
 
-    5.  장치의 잠금을 해제한 후 장치 **설정**으로 이동하여 새 암호를 설정하거나 임시 암호를 변경합니다.
+  **Windows 10 Mobile**: 기존 암호를 제거하고 문자와 숫자를 모두 사용하여 임시 암호를 만듭니다. 로그인하는 데 Windows Hello의 안면 인식을 사용 중인 경우에는 이후에도 계속 지원됩니다.
+    
+  **Windows Phone 8.1**: 기존 암호를 제거하고 숫자를 사용하여 임시 암호를 만듭니다.
 
-    암호가 재설정되었는지 확인하는 알림을 보려면 회사 포털 웹 사이트의 오른쪽 맨 위에 있는 알림 플래그를 클릭합니다.
+6.  장치의 잠금을 해제한 후 장치 **설정**으로 이동하여 새 암호를 설정하거나 임시 암호를 변경합니다.
+
+암호가 재설정되었는지 확인하는 알림을 보려면 회사 포털 웹 사이트의 오른쪽 맨 위에 있는 알림 플래그를 클릭합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 

@@ -15,8 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 53d2c0d5b2157869804837ae2fa08b1cce429982
-ms.openlocfilehash: ab4b244e733f973581216f3358fce0653609aaaa
+ms.sourcegitcommit: d42fa20a3bc6b6f4a74dd0872aae25cfb33067b9
+ms.openlocfilehash: 9a814f6df407802b8e48626ed0e3f828c52c661b
+ms.lasthandoff: 03/21/2017
 
 
 ---
@@ -59,7 +60,7 @@ Microsoft Intune을 사용하여 Exchange Online 또는 Exchange Online Dedicate
 
 ### <a name="when-the-device-is-not-compliant"></a>장치가 호환되지 않는 경우
 
-조건부 액세스 정책이 충족되지 않는 경우 장치가 즉시 격리되고, 사용자가 로그인하면 다음 격리 알림 중 하나가 표시된 메일이 제공됩니다.
+조건부 액세스 정책이 충족되지 않는 경우 장치가 즉시 격리되고, 사용자는 전자 메일을 수신하고, 로그인 시 다음 격리 알림 중 하나가 표시됩니다.
 
 - 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하지 않았거나 Azure Active Directory에 등록하지 않은 경우, 회사 포털 앱을 설치하고 장치를 등록하며 메일을 활성화하는 방법에 대한 지침이 포함된 메시지가 표시됩니다. 이 프로세스는 또한 장치의 Exchange ActiveSync ID를 Azure Active Directory의 레코드와 연결합니다.
 
@@ -258,11 +259,11 @@ Microsoft Intune을 사용하여 Exchange Online 또는 Exchange Online Dedicate
 
 -   사용자가 전자 메일 계정을 만들고 나면 장치가 즉시 차단됩니다.
 
--   차단된 사용자가 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하고 미준수 문제를 해결하는 경우&2;분 내에 메일 액세스 차단이 해제됩니다.
+-   차단된 사용자가 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하고 미준수 문제를 해결하는 경우 2분 내에 메일 액세스 차단이 해제됩니다.
 
--   사용자가 장치 등록을 취소하면 약&6;시간 후에 메일이 차단됩니다.
+-   사용자가 장치 등록을 취소하면 약 6시간 후에 메일이 차단됩니다.
 
-**장치 액세스를 보호하는 조건부 액세스 정책을 구성하는 방법에 대한 몇 가지 시나리오 예를 보려면 **메일 액세스 보호 예제 시나리오[를 참조하세요](restrict-email-access-example-scenarios.md).
+**장치 액세스를 보호하는 조건부 액세스 정책을 구성하는 방법에 대한 몇 가지 시나리오 예를 보려면**메일 액세스 보호 예제 시나리오[를 참조하세요](restrict-email-access-example-scenarios.md).
 
 ## <a name="monitor-the-compliance-and-conditional-access-policies"></a>준수 및 조건부 액세스 정책 모니터링
 
@@ -275,9 +276,4 @@ Microsoft Intune을 사용하여 Exchange Online 또는 Exchange Online Dedicate
 - [SharePoint Online에 대한 액세스 보호](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 
 - [비즈니스용 Skype Online에 대한 액세스 보호](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/14/2017
+ms.date: 03/17/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.assetid:
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b6c245d60c661c04b4c4d29c9bdcdd752254d978
-ms.openlocfilehash: 957192c744bf05cd835dfae60b6bb521b8f8b26b
-ms.lasthandoff: 03/15/2017
+ms.sourcegitcommit: 671d862c8d9a98e02f33d96cf6ceba712e740dec
+ms.openlocfilehash: 8a43e1646476696b978a7f8a3e92f920606a698b
+ms.lasthandoff: 03/17/2017
 
 
 ---
@@ -73,9 +73,10 @@ iOS 장치를 분실했거나 도난 당한 경우 분실 모드를 설정할 �
 2.    **분실 모드** 블레이드에서 분실 모드를 사용하도록 설정하고, 표시될 메시지를 입력하고, 선택적으로 연락처 전화 번호를 입력합니다.
 3.    **확인**을 클릭합니다.
 분실 모드를 사용하도록 설정하면 장치에 대한 모든 사용이 차단됩니다. 분실 모드를 사용하지 않도록 설정할 때까지 최종 사용자는 장치에 액세스할 수 없습니다. 분실 모드가 사용하도록 설정된 동안 **장치 찾기** 작업을 사용하여 장치 위치를 찾을 수 있습니다.
+손실된 모드를 사용하려면 장치가 DEP를 통해 등록되고 감독 모드 상태인 회사 소유의 iOS 장치여야 합니다.
 
 ### <a name="locate-device"></a>**장치 찾기**
-이 원격 작업을 사용하면 분실하거나 도난 당한 iOS 장치의 위치를 지도에 표시할 수 있습니다. 감독 모드인 회사 소유 iOS 장치여야 합니다. 이 작업을 사용하려면 먼저 장치가 분실 모드로 되어 있어야 합니다.
+이 원격 작업을 사용하면 분실하거나 도난 당한 iOS 장치의 위치를 지도에 표시할 수 있습니다. 장치는 DEP를 통해 등록되고 감독 모드 상태인 회사 소유의 iOS 장치여야 합니다. 이 작업을 사용하려면 먼저 장치가 분실 모드로 되어 있어야 합니다.
 1.    iOS 장치에 대한 속성 블레이드에서 **자세히** > **장치 찾기**를 선택합니다.
 2.    장치의 위치를 찾으면 **장치 찾기** 블레이드에 위치가 표시됩니다. 
     ![장치 찾기 블레이드](./media/locate-device.png)

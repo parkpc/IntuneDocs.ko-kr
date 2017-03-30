@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/27/2016
+ms.date: 03/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: f7504657f5fb2d73242f25f2f059c8c4e7ab1547
+ms.sourcegitcommit: 671d862c8d9a98e02f33d96cf6ceba712e740dec
+ms.openlocfilehash: 4a921334b0cd402dba91eab665ff1a23290c82eb
+ms.lasthandoff: 03/17/2017
 
 
 ---
@@ -139,7 +140,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
     |**액세스 시 회사 정책을 준수하는 장치 필요**|장치를 무단 해제하거나 루팅하지 않은 경우에만 앱을 사용할 수 있습니다.|
     |**액세스 요구 사항을 다시 확인할 시간(분)**|**제한 시간** 필드에 앱을 열고 나서 앱의 액세스 요구 사항을 다시 확인하기 전까지의 기간을 지정합니다.|
     |**오프라인 유예 기간**|장치가 오프라인 상태인 경우 앱의 액세스 요구 사항을 다시 확인하기 전까지의 기간을 지정합니다.|
-    |**앱 데이터 암호화**|이 설정은 이 앱과 연결된 모든 데이터를 암호화하도록 지정합니다. 여기에는 SD 카드 등 외부 위치에 저장된 데이터가 포함됩니다.<br /><br />**iOS용 암호화**<br /><br />Intune 모바일 응용 프로그램 관리 정책과 연결된 앱의 경우 데이터는 OS에서 제공하는 장치 수준 암호화를 통해 암호화된 상태로 보관됩니다. 이 설정은 IT 관리자가 설정하는 장치 PIN 정책을 통해 사용하도록 설정됩니다. PIN이 필요한 경우에는 모바일 응용 프로그램 관리 정책의 설정에 따라 데이터가 암호화됩니다. Apple 설명서에 나와 있는 것처럼 [iOS에서 사용하는 모듈은 FIPS 140-2의 인증을 받았습니다](http://support.apple.com/en-us/HT202739).<br /><br />**Android용 암호화**<br /><br />Intune 모바일 응용 프로그램 관리 정책과 연결된 앱의 경우에는 Microsoft에서 암호화 기능을 제공합니다. 데이터는 파일 I/O를 작업하는 동안 동기적으로 암호화됩니다.  장치 저장소의 콘텐츠는 항상 암호화됩니다. 이 암호화 방법은 FIPS 140-2의 인증을 받지 않았습니다.|
+    |**앱 데이터 암호화**|이 설정은 이 앱과 연결된 모든 데이터를 암호화하도록 지정합니다. 여기에는 SD 카드 등 외부 위치에 저장된 데이터가 포함됩니다.<br /><br />**iOS용 암호화**<br /><br />Intune 모바일 응용 프로그램 관리 정책과 연결된 앱의 경우 데이터는 OS에서 제공하는 장치 수준 암호화를 통해 암호화된 상태로 보관됩니다. 이 설정은 IT 관리자가 설정하는 장치 PIN 정책을 통해 사용하도록 설정됩니다. PIN이 필요한 경우에는 모바일 응용 프로그램 관리 정책의 설정에 따라 데이터가 암호화됩니다. Apple 설명서에 나와 있는 것처럼 [iOS에서 사용하는 모듈은 FIPS 140-2의 인증을 받았습니다](http://support.apple.com/en-us/HT202739).<br /><br />**Android용 암호화**<br /><br />Intune 모바일 응용 프로그램 관리 정책과 연결된 앱의 경우에는 Microsoft에서 암호화 기능을 제공합니다. 데이터는 파일 I/O를 작업하는 동안 동기적으로 암호화됩니다.  장치 저장소의 콘텐츠는 항상 암호화됩니다. 암호화 방법은 Samsung KNOX 장치용 FIPS 140-2를 준수합니다.|
     |**화면 캡처 차단** (Android 장치에만 해당)|이 설정은 누군가가 이 앱을 사용할 때 장치의 화면 캡처 기능을 차단하도록 지정합니다.|
 
 4. 작업이 끝나면 **정책 저장**을 선택합니다.
@@ -195,9 +196,4 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 -   정책이 장치에 이미 배포된 경우에는 기존 정책 설정을 덮어쓰지 않습니다.
 
 -   장치에 아직 배포된 정책이 없는 상태에서 충돌하는 두 설정이 배포되면 장치에서 기본 제공되는 설정이 사용됩니다.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

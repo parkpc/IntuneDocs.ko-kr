@@ -5,7 +5,7 @@ description: "Intune Azure 미리 보기: Windows 장치에 대한 Intune MDM(�
 keywords: 
 author: nathbarn
 manager: nathbarn
-ms.date: 03/15/17
+ms.date: 03/21/17
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: a95aca706a4996d40e268a80c7c334ebb9854df5
-ms.openlocfilehash: 6cbaf8414452f11f0aa97616bbed2cf164b49ac0
-ms.lasthandoff: 03/15/2017
+ms.sourcegitcommit: e76d66768ac58df25313e102b7f60d2bc7bbc59b
+ms.openlocfilehash: 609656c2831c09c67e911c8150d31f38faad020b
+ms.lasthandoff: 03/22/2017
 
 
 ---
@@ -33,23 +33,13 @@ ms.lasthandoff: 03/15/2017
  -  이 방법을 사용하려면 Azure Active Directory Premium이 있어야 합니다. 그렇지 않은 경우 Windows 8.1 및 Windows Phone 8.1에 대한 등록 방법을 사용하세요.
  -  자동 등록을 사용하도록 설정하지 않은 경우 Windows 8.1 및 Windows Phone 8.1에 대한 등록 방법을 사용합니다.
 
-- [**CNAME을 구성하여 Windows 8.1 및 Windows Phone 8.1 등록**](#simplify-enrollment-by-configuring-cname)
+- [**Azure AD Premium 자동 등록을 사용하지 않고 등록**](#enable-windows-enrollment-without-azure-ad-premium)
  - Windows 8.1 및 Windows Phone 8.1 장치를 등록하려면 이 방법을 사용해야 합니다.
- - Azure AD(Active Directory) Premium이 없는 경우에도 이 방법을 사용할 수 있습니다.
-
-
-## <a name="prerequisites"></a>전제 조건
-
-다음 구성 요소 중 일부가 Intune Azure 미리 보기에 아직 없는 경우 클래식 Intune 관리 콘솔에서 수행해야 합니다.
-
-- [사용자 지정 도메인 이름 구성](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-2)
-- [MDM(모바일 장치 관리) 기관](set-mdm-authority.md)을 **Microsoft Intune**으로 설정
-- [회사 포털 앱 구성](/intune-azure/manage-apps/company-portal-app.md)
-- 사용자에게 라이선스 할당
+ - Azure AD(Active Directory) Premium을 사용하지 않는 경우에는 Windows 8.1 이상 장치에 대해 이 방법을 사용할 수 있습니다.
 
 [!INCLUDE[AAD-enrollment](../includes/win10-automatic-enrollment-aad.md)]
 
-## <a name="enable-windows-workplace-enrollment"></a>Windows 작업 공간 등록 사용
+## <a name="enable-windows-enrollment-without-azure-ad-premium"></a>Azure AD Premium을 사용하지 않고 Windows 등록 사용
 
 사용자로 하여금 Azure AD Premium 자동 등록 없이도 장치를 설치 및 등록하도록 할 수 있습니다. DNS CNAME 리소스 레코드를 만들면 사용자가 서버 이름을 입력하지 않고도 Intune에서 연결 및 등록합니다.
 
@@ -79,7 +69,7 @@ ms.lasthandoff: 03/15/2017
 
     최종 사용자 등록 지침은 [Intune에서 Windows 장치 등록](https://docs.microsoft.com/intune/enduser/enroll-your-device-in-intune-windows)을 참조하세요. [IT 관리자가 내 장치에서 볼 수 있는 항목](https://docs.microsoft.com/intune/enduser/what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows)으로 사용자를 보낼 수도 있습니다.
 
-    최종 사용자 작업에 대한 자세한 내용은 [Microsoft Intune에서 최종 사용자 환경 관련 리소스](https://docs.microsoft.com/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune)를 참조하세요.
+    최종 사용자 작업에 대한 자세한 내용은 [Microsoft Intune에서 최종 사용자 환경 관련 리소스](https://docs.microsoft.com/intune/deploy-use/how-to-educate-your-end-users-about-microsoft-intune)를 참조하세요.
 
 회사 포털을 장치에 배포하지 않는다면 추가 작업이 필요하지 않습니다.  관리 콘솔에서 2단계 및 3단계는 무시해도 됩니다.
 

@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 0cf638348df2f01d70c0765a4932abc3eb801f23
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
+ms.openlocfilehash: 2c79f5f796152e930c4a952388541383ab50e595
+ms.lasthandoff: 03/17/2017
 
 
 ---
@@ -65,7 +65,7 @@ Android 장치 또는 사용자 그룹에 정책을 배포한 후에 사용자�
 3. **사용자 지정 OMA-URI 설정** 블레이드에서 **추가**를 선택합니다.
     - 설정 이름을 입력합니다.
     - **데이터 형식**으로 **문자열**을 지정합니다.
-    - **OMA-URI**로 **./Vendor/MSFT/VPN/Profile/*Name*/PackageList** 문자열을 지정합니다. 여기서 *Name*은 1단계에서 적어둔 VPN 프로필 이름입니다. 이 예제에서 문자열은 **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/PackageList**입니다.
+    - **OMA-URI**로 **./Vendor/MSFT/VPN/Profile/*Name*/PackageList**문자열을 지정합니다. 여기서*Name*은 1단계에서 적어둔 VPN 프로필 이름입니다. 이 예제에서 문자열은 **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/PackageList**입니다.
     - **값**으로 프로필에 연결할 패키지가 세미콜론으로 구분된 목록을 만듭니다. 예를 들어 Excel 및 Google Chrome 브라우저에서 VPN 연결을 사용하려면 **com.microsoft.office.excel;com.android.chrome**과 같이 입력합니다.
 
 ![Android 앱별 VPN 사용자 지정 정책의 예](./media/android_per_app_vpn_oma_uri.png)
@@ -76,7 +76,7 @@ Android 장치 또는 사용자 그룹에 정책을 배포한 후에 사용자�
   1.    **사용자 지정 OMA-URI 설정** 블레이드에서 **추가**를 선택합니다.
   2.    설정 이름을 입력합니다.
   3.    **데이터 형식**으로 **문자열**을 지정합니다.
-  4.    **OMA-URI**로 **./Vendor/MSFT/VPN/Profile/*Name*/Mode** 문자열을 사용합니다. 여기서 *Name*은 1단계에서 적어둔 VPN 프로필 이름입니다. 이 예제에서 문자열은 **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/Mode**입니다.
+  4.    **OMA-URI**로 **./Vendor/MSFT/VPN/Profile/*Name*/Mode**문자열을 사용합니다. 여기서*Name*은 1단계에서 적어둔 VPN 프로필 이름입니다. 이 예제에서 문자열은 **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/Mode**입니다.
   5.    **값**에 **블랙리스트** 또는 **허용 목록**을 입력합니다.
 
 

@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/15/2017
+ms.date: 03/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: deea78dcea9ade031441bf12b388a862235a8e9c
-ms.openlocfilehash: 01e8a6968797bc2b2b0f3bb5710ee396d9094584
-ms.lasthandoff: 03/15/2017
+ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
+ms.openlocfilehash: 881ce40cb093b1817c9c4b84c9f8ca78b19de727
+ms.lasthandoff: 03/17/2017
 
 
 ---
@@ -51,7 +51,8 @@ ms.lasthandoff: 03/15/2017
 -     **바로 가기 키(감독 모드인 경우에만)** - 바로 가기 키를 사용할 수 있습니다.
 -     **페어링된 Apple Watch에서 손목 감지** - 사용하도록 설정하는 경우 Apple Watch를 착용하고 있지 않을 때는 알림이 표시되지 않습니다.
 - **발신 AirPlay 요청에 페어링 암호 필요** - 사용자가 Airplay를 사용하여 다른 Apple 장치로 콘텐츠를 스트리림할 때 페어링 암호가 필요합니다.
-- **계정 수정(감독 모드인 경우에만)** - 사용자가 메일 구성과 같은 계정 설정을 변경할 수 있습니다.
+- **계정 수정(감독 모드인 경우에만)** - 계정이 차단되면 사용자는 iOS 설정 앱에서 새 장치 계정 만들기 및 사용자 이름 또는 암호 변경과 같은 장치별 설정을 할 수 없습니다.
+이 설정은 메일, 연락처, 일정, Facebook, Twitter와 같은 iOS 설정 앱에서 액세스할 수 있는 설정에도 적용됩니다. iOS 설정 앱(예: Microsoft Outlook 앱)에서 구성할 수 없는 계정 설정을 사용하는 앱에는 적용되지 않습니다.
 - **Apple Watch 연결(감독 모드인 경우에만)** - 장치와 Apple Watch의 페어링을 허용합니다.
 - **Bluetooth 수정(감독 모드인 경우에만)** - 최종 사용자가 장치에서 Bluetooth 설정을 변경하지 못하도록 차단합니다.
 - **교실 앱에서 원격 화면 관찰(감독 모드인 경우에만)** - 교실 앱에서 원격 장치의 화면을 관찰하도록 허용하거나 차단합니다.

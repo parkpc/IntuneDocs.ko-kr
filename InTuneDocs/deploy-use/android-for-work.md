@@ -4,7 +4,7 @@ description: "Intune에서는 사용자가 업무용 Android 장치를 사용할
 keywords: 
 author: nathbarn
 manager: angrobe
-ms.date: 02/03/2017
+ms.date: 03/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,9 +12,9 @@ ms.technology:
 ms.assetid: aa0002d9-f5a0-466e-98ac-3970cb77e3a2
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: a5c024c2139536f004799b18a0f6d1d1eb4875b2
-ms.openlocfilehash: bdacb61d1713bf24b2f33f144afa0db356e10ee0
-ms.lasthandoff: 02/23/2017
+ms.sourcegitcommit: e76d66768ac58df25313e102b7f60d2bc7bbc59b
+ms.openlocfilehash: e04ab9c14ea6e7cc38430ec6a4d478a65e23ba96
+ms.lasthandoff: 03/22/2017
 
 
 ---
@@ -41,9 +41,9 @@ Intune은 Android for Work 장치에서 구성할 수 있는 기본 제공 일�
 
 ## <a name="app-publishing-and-distribution"></a>앱 게시 및 배포
 
-Google Play for Work 서비스는 Android for Work 앱 배포 및 관리의 필수적인 부분입니다. 회사 프로필로 Android for Work 장치에 배포된 모든 앱은 Play for Work 서비스에서 제공됩니다. Play 스토어에서 앱을 관리하고 배포하려면 Intune 관리자로 Play for Work 웹 사이트에 로그인하고 Intune 테넌트용 앱을 승인합니다. 이러한 앱은 Intune 콘솔에 동기화되고, 나중에 이 콘솔에서 Intune을 통해 앱을 배포하고 관리할 수 있습니다. 조직에서 개발한 LOB(기간 업무) 앱은 Google의 Android 앱 게시 콘솔을 사용하여 Play for Work에 게시해야 합니다. 조직에 대한 액세스를 제한하려면 Android 앱 게시 콘솔에서 기간 업무 앱을 구성해야 합니다.
+Google Play for Work 서비스는 Android for Work 앱 배포 및 관리의 필수적인 부분입니다. 회사 프로필로 Android for Work 장치에 배포된 모든 앱은 Play for Work 서비스에서 제공됩니다. Play 스토어에서 앱을 관리하고 배포하려면 회사의 Google 관리용 관리자 자격 증명을 사용하여 Google Play 웹 사이트에 로그인합니다. Android for Work 배포용 앱이 장치의 회사 프로필에 표시되도록 승인할 수 있습니다. 이러한 앱은 Intune 콘솔에 동기화되고, 나중에 이 콘솔에서 Intune을 통해 앱을 배포하고 관리할 수 있습니다. 조직에서 개발한 LOB(기간 업무) 앱은 Google의 Android 앱 게시 콘솔을 사용하여 Play for Work에 게시해야 합니다. 조직에 대한 액세스를 제한하려면 Android 앱 게시 콘솔에서 기간 업무 앱을 구성해야 합니다.
 
-앱은 사용자 조작 없이, 사용자가 **알 수 없는 소스에서의 설치**를 허용할 필요 없이 설치할 수 있습니다. 선택적 앱이나 사용 가능한 앱을 찾아보고 설치하려는 경우, 사용자는 장치에서 Play 스토어를 탐색할 수 있습니다. [Android for Work용 앱 배포](https://docs.microsoft.com/intune/deploy-use/android-for-work-apps)에 대해 자세히 알아보세요.
+앱은 사용자 조작 없이, 사용자가 **알 수 없는 소스에서의 설치**를 허용할 필요 없이 설치할 수 있습니다. 선택적 앱이나 사용 가능한 앱을 찾아보고 설치하려는 경우, 사용자는 장치에서 Play for Work 스토어를 탐색할 수 있습니다. [Android for Work용 앱 배포](https://docs.microsoft.com/intune/deploy-use/android-for-work-apps)에 대해 자세히 알아보세요.
 
 ## <a name="app-configuration"></a>앱 구성
 
@@ -51,15 +51,15 @@ Android for Work은 앱 구성 값을 지원되는 앱에 배포하기 위한 �
 
 ## <a name="email-configuration"></a>메일 구성
 
-Android for Work는 iOS에서 제공되는 것과 같은 네이티브 메일 앱이나 기본 메일 프로필을 제공하지 않습니다. 대신, 앱 구성 설정을 지원하는 앱에 해당 설정을 적용하여 메일 구성을 설정할 수 있습니다. Gmail 및 Nine Work은 Android for Work 앱 구성이 포함된 구성을 지원하는 Play 스토어의 두 가지 EAS(Exchange ActiveSync) 클라이언트 앱입니다.
+Android for Work는 iOS에서 제공되는 것과 같은 기본 전자 메일 앱이나 네이티브 전자 메일 프로필 개체를 제공하지 않습니다. 대신, 앱 구성 설정을 지원하는 앱에 해당 설정을 적용하여 메일 구성을 설정할 수 있습니다. Gmail 및 Nine Work은 Android for Work 앱 구성이 포함된 구성을 지원하는 Play 스토어의 두 가지 EAS(Exchange ActiveSync) 클라이언트 앱입니다.
 
-Intune은 Gmail 및 Nine Work 앱에 대한 구성 템플릿을 제공합니다. 앱 구성 프로필을 지원하는 기타 메일 앱은 모바일 앱 구성 정책을 통해 구성할 수 있습니다.
+Intune은 작업용 앱으로 관리되는 경우 Gmail 및 Nine Work 앱에 대한 구성 템플릿을 제공합니다. 앱 구성 프로필을 지원하는 기타 메일 앱은 모바일 앱 구성 정책을 통해 구성할 수 있습니다.
 
 Android for Work 장치에 Exchange ActiveSync 조건부 액세스를 사용 중이면 Gmail 또는 Nine Work 메일 앱을 사용해야 합니다. Android용 Microsoft Outlook 앱이나 ADAL을 통해 최신 인증을 사용하는 기타 메일 앱도 지원됩니다. [회사 메일에 대한 메일 프로필](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)에 대해 자세히 알아보세요.
 
-## <a name="mobile-app-management-policies"></a>모바일 앱 관리 정책
+## <a name="app-protection-policies"></a>앱 보호 정책
 
-MAM(모바일 응용 프로그램 관리)이 사용되는 앱에 적용되는 제한 정책은 회사 프로필 및 개인 프로필에서 완벽하게 지원됩니다. Android 앱 게시 콘솔(https://play.google.com/apps/publish)에 기간 업무 앱을 게시할 수 있습니다. 이 콘솔에는 앱을 조직에 비공개로 설정하는 옵션이 포함됩니다. [Android for Work 준수 정책 설정](afw-compliance-policy-settings-in-microsoft-intune.md)에 대해 자세히 알아보세요. MAM 정책에 대한 일반 정보는 [모바일 앱 관리 정책](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)을 참조하세요.
+앱 보호 정책은 회사 프로필 및 개인 프로필에서 완전히 지원됩니다. Android 앱 게시 콘솔(https://play.google.com/apps/publish)에 기간 업무 앱을 게시할 수 있습니다. 이 콘솔에는 앱을 조직에 비공개로 설정하는 옵션이 포함됩니다. [Android for Work 준수 정책 설정](afw-compliance-policy-settings-in-microsoft-intune.md)에 대해 자세히 알아보세요. 앱 보호 정책에 대한 일반적인 내용은 [앱 정책](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)을 참조하세요.
 
 ## <a name="vpn-profiles"></a>VPN 프로필
 

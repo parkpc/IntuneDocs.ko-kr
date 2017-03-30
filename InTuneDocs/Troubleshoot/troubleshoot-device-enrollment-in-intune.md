@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 03/01/2017
+ms.date: 03/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 785e7514c6c6109cfec61a47ae2fc7183c7c2330
-ms.openlocfilehash: 91c6a040f8fd3990c8d48087ac7397db8360f666
-ms.lasthandoff: 01/25/2017
+ms.sourcegitcommit: d42fa20a3bc6b6f4a74dd0872aae25cfb33067b9
+ms.openlocfilehash: 3d4a89cd8e6e57f5a1e268dcda98cfb3c68c5587
+ms.lasthandoff: 03/21/2017
 
 
 ---
@@ -35,9 +35,9 @@ ms.lasthandoff: 01/25/2017
 
 -    [Microsoft Intune에 장치를 등록하도록 준비](/intune/deploy-use/prerequisites-for-enrollment)
 -    [iOS 및 Mac 장치 관리 설정](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
--    [Microsoft Intune을 사용한 Windows Phone 및 Windows 10 Mobile 관리 설정](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)
 -    [Windows 장치 관리 설정](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
-
+-    [Android 장치 관리 설정](/intune/deploy-use/set-up-android-management-with-microsoft-intune) - 추가 단계 불필요
+-    [Android for Work 장치 관리 설정](/intune/deploy-use/set-up-android-for-work)
 
 관리되는 장치 사용자는 여러분이 검토할 등록 및 진단 로그를 수집할 수 있습니다. 로그 수집에 대한 지침은 다음과 같이 제공됩니다.
 
@@ -119,7 +119,7 @@ ms.lasthandoff: 01/25/2017
 
     2.  일치하지 않는 사용자를 **Intune 계정 포털** 사용자 목록에서 삭제합니다.
 
-    3.  Azure 서비스에서 잘못된 데이터를 제거할 수 있도록&1;시간 가량 기다립니다.
+    3.  Azure 서비스에서 잘못된 데이터를 제거할 수 있도록 1시간 가량 기다립니다.
 
     4.  DirSync를 다시 설정하고 이제 사용자가 제대로 동기화되었는지 확인합니다.
 
@@ -149,7 +149,7 @@ ms.lasthandoff: 01/25/2017
 **문제:** ADFS에 두 번째 확인된 도메인을 추가하는 경우, UPN(사용자 계정 이름) 접미사가 두 번째 도메인인 사용자가 포털에 로그인하거나 장치를 등록할 수 없습니다.
 
 
-**해결 방법:** AD FS 2.0을 통해 SSO(Single Sign-On)를 사용하며, 조직 내에 사용자 UPN 접미사에 대한 최상위 도메인이 여럿인(예: @contoso.com 또는 @fabrikam.com)) Microsoft Office 365 고객은, 각 접미사에 대해 AD FS 2.0 페더레이션 서비스를 개별적으로 배포해야 합니다. 추가적인 AD FS 2.0 서버를 필요로 하지 않고 AD FS 서버가 이 시나리오를 지원할 수 있도록 하는, **SupportMultipleDomain** 스위치와 함께 작동하는 [AD FS 2.0 롤업](http://support.microsoft.com/kb/2607496)이 있습니다. 자세한 정보는 [이 블로그](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/)를 참조하세요.
+**해결 방법:** AD FS 2.0을 통해 SSO(Single Sign-On)를 사용하며, 조직 내에 사용자 UPN 접미사에 대한 최상위 도메인이 여러 개인(예: @contoso.com 또는 @fabrikam.com) Microsoft Office 365 고객은, 각 접미사에 대해 AD FS 2.0 페더레이션 서비스를 개별적으로 배포해야 합니다. 추가적인 AD FS 2.0 서버를 필요로 하지 않고 AD FS 서버가 이 시나리오를 지원할 수 있도록 하는, **SupportMultipleDomain** 스위치와 함께 작동하는 [AD FS 2.0 롤업](http://support.microsoft.com/kb/2607496)이 있습니다. 자세한 정보는 [이 블로그](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/)를 참조하세요.
 
 
 ## <a name="android-issues"></a>Android 문제
@@ -173,7 +173,7 @@ ms.lasthandoff: 01/25/2017
 
 사용자에게 Android 6.0으로 업그레이드해 보도록 요청합니다. Android 6.0 장치에서는 비활성화 문제가 발생하지 않습니다. 업데이트를 사용할 수 있는지 확인하려면 **설정** > **장치 정보** > **수동으로 업데이트 다운로드**로 이동하고 장치에 표시되는 메시지를 따릅니다.
 
-** 3:**
+**3:**
 
 해결 방법 2로 해결되지 않으면 사용자에게 다음 단계에 따라 Smart Manager에서 회사 포털 앱을 제외하도록 설정하라고 요청합니다.
 
@@ -280,6 +280,18 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
 등록하고 나면 장치는 정상 상태로 되돌아가고 회사 리소스에 대한 액세스 권한을 다시 얻게 됩니다.
 
+### <a name="verify-ws-trust-13-is-enabled"></a>WS-Trust 1.3이 사용하도록 설정되어 있는지 확인
+**문제** DEP(장치 등록 프로그램) iOS 장치를 등록할 수 없음
+
+사용자 선호도가 포함된 장치 등록 프로그램 장치를 등록하려면 사용자 토큰을 요청하기 위해 WS-Trust 1.3 사용자 이름/혼합 끝점을 사용하도록 설정해야 합니다. 기본적으로 Active Directory에서는 이 끝점을 사용하도록 설정합니다. Get-AdfsEndpoint PowerShell cmdlet을 사용하고 trust/13/UsernameMixed 끝점을 조회하여 사용하도록 설정된 끝점 목록을 가져옵니다. 예를 들면 다음과 같습니다.
+
+      Get-AdfsEndpoint -AddressPath “/adfs/services/trust/13/UsernameMixed”
+
+자세한 내용은 [Get-AdfsEndpoint 설명서](https://technet.microsoft.com/itpro/powershell/windows/adfs/get-adfsendpoint)를 참조하세요.
+
+자세한 내용은 [Active Directory Federation Services 보안에 대한 모범 사례](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/best-practices-securing-ad-fs)를 참조하세요. ID 페더레이션 공급자에서 WS-Trust 1.3 사용자 이름/혼합이 사용하도록 설정되어 있는지 확인 시 추가 도움이 필요한 경우에는 ADFS 또는 타사 ID 공급업체를 사용하고 있으면 Microsoft 지원에 문의하세요.
+
+
 ### <a name="profile-installation-failed"></a>프로필 설치 실패
 **문제:** iOS 장치에서 **프로필 설치 실패** 오류가 사용자에게 표시됩니다.
 
@@ -379,7 +391,7 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 |0x80043008, 0x80CF3008|Microsoft Online Management Updates 서비스를 시작하지 못했습니다.|[Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의합니다.|
 |0x80043009, 0x80CF3009|클라이언트 컴퓨터가 이미 서비스에 등록되어 있습니다.|클라이언트 컴퓨터를 서비스에 다시 등록하기 전에 사용 중지해야 합니다.|
 |0x8004300B, 0x80CF300B|클라이언트를 실행 중인 Windows 버전이 지원되지 않으므로 클라이언트 소프트웨어 설치 패키지를 실행할 수 없습니다.|Intune에서 클라이언트 컴퓨터에서 실행 중인 Windows 버전을 지원하지 않습니다.|
-|0xAB2|Windows Installer에서 사용자 지정 작업에 대한 VBScript 런타임에 액세스할 수 없습니다.|이 오류는 DLL(동적 연결 라이브러리)에 기반한 사용자 지정 작업으로 인해 발생합니다. DLL 문제를 해결하려면 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues(Microsoft 지원 기술 자료&19803;8: 패키지 및 배포 문제에 유용한 도구)](https://support.microsoft.com/en-us/kb/198038)에 설명된 도구를 사용해야 할 수 있습니다.|
+|0xAB2|Windows Installer에서 사용자 지정 작업에 대한 VBScript 런타임에 액세스할 수 없습니다.|이 오류는 DLL(동적 연결 라이브러리)에 기반한 사용자 지정 작업으로 인해 발생합니다. DLL 문제를 해결하려면 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues(Microsoft 지원 기술 자료 198038: 패키지 및 배포 문제에 유용한 도구)](https://support.microsoft.com/en-us/kb/198038)에 설명된 도구를 사용해야 할 수 있습니다.|
 |0x80cf0440|서비스 끝점에 대한 연결이 종료되었습니다.|평가판 또는 유료 계정 일시 중단되었습니다. 새 평가판 또는 유료 계정을 만들고 다시 등록합니다.|
 
 

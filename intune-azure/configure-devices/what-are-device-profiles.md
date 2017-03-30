@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/16/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: eb48265e4655117976c9847b1f5bee712f0c2e3c
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
+ms.openlocfilehash: 5383e20081285131f91418b47162e0cd5ba92c90
+ms.lasthandoff: 03/17/2017
 
 
 ---
@@ -41,8 +41,13 @@ Microsoft Intune **장치 구성** 워크로드를 사용하여 관리하는 모
 
 장치에서 다음과 같은 기능을 관리할 수 있습니다.
 
+## <a name="device-features"></a>장치 기능
+
+장치 기능을 통해 IOS 및 macOS 장치에서 AirPrint, 알림 및 공유 장치 구성과 같은 기능을 제어할 수 있습니다.
+자세한 내용은 [장치 기능 설정을 구성하는 방법](how-to-configure-device-features.md)을 참조하세요. 지원: iOS 및 macOS
+
 ## <a name="device-restrictions"></a>장치 제한 사항
-장치 제한 사항을 통해 보안, 브라우저, 하드웨어 및 데이터 공유 설정 등 다양한 범주에 걸쳐 관리하는 광범위한 설정 및 기능을 제어할 수 있습니다. 예를 들어 iOS 장치의 사용자가 장치 카메라에 액세스하지 못하도록 하는 장치 제한 프로필을 만들 수 있습니다.
+장치 제한 사항을 통해 보안, 브라우저, 하드웨어 및 데이터 공유 설정 등 다양한 범주에 걸쳐 관리하는 광범위한 장치 설정을 제어할 수 있습니다. 예를 들어 iOS 장치의 사용자가 장치 카메라에 액세스하지 못하도록 하는 장치 제한 프로필을 만들 수 있습니다.
 자세한 내용은 [장치 제한 설정을 구성하는 방법](how-to-configure-device-restrictions.md)을 참조하세요. 지원: Android, iOS, macOS, Windows 10 및 Windows 10 Team
 
 ## <a name="email"></a>전자 메일
@@ -57,6 +62,10 @@ Wi-Fi 프로필을 사용하여 무선 네트워크 설정을 조직의 사용�
 VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전하게 원격으로 액세스할 수 있습니다. 장치는 VPN 연결 프로필을 사용하여 VPN 서버와의 연결을 시작합니다. VPN 프로필을 사용하여 조직의 사용자 및 장치에 VPN 설정을 배포하면 네트워크에 쉽고 안전하게 연결할 수 있습니다.
 자세한 내용은 [VPN 설정을 구성하는 방법](how-to-configure-vpn-settings.md)을 참조하세요.
 지원: Android, iOS, macOS, Windows Phone 8.1, Windows 8.1 및 Windows 10
+
+## <a name="education"></a>교육
+Windows 시험 응시(Windows Take a Test) 앱에 대한 옵션을 구성할 수 있습니다. 이 설정을 구성할 경우 테스트가 완료될 때까지 장치에서 다른 앱을 실행할 수 없습니다.
+자세한 내용은 [교육 설정을 구성하는 방법](how-to-configure-education-settings.md)을 참조하세요.
 
 ## <a name="certificates"></a>인증서
 이 프로필 유형을 사용하여 장치에 할당하고 Wi-Fi, VPN 및 메일 프로필을 인증하는 데 사용할 수 있는 신뢰할 수 있는 SCEP 및 PKCS 인증서를 구성할 수 있습니다.
