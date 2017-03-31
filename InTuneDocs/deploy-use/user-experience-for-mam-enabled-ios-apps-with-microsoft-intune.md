@@ -2,8 +2,8 @@
 title: "앱 보호 정책을 사용하는 iOS 앱 | Microsoft Docs"
 description: "이 항목에서는 앱 보호 정책을 통해 iOS 앱이 관리될 때 예상되는 결과를 설명합니다."
 keywords: 
-author: barlanmsft
-ms.author: barlan
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 03/06/2017
 ms.topic: article
