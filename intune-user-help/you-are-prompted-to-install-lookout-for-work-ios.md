@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 03/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ searchScope:
 ROBOTS: 
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
-ms.openlocfilehash: 6157cef87c5cdad6d0e293946321fa8bdf18e61a
-ms.lasthandoff: 03/08/2017
+ms.sourcegitcommit: c66226b7fc31f91669c4f4f0693ccbd7c679189f
+ms.openlocfilehash: 62e37d42aef9a828551db1fbbcf5e3cb1b3eeec9
+ms.lasthandoff: 03/29/2017
 
 
 ---
@@ -31,24 +31,23 @@ ms.lasthandoff: 03/08/2017
 
 1.    다음과 같은 메시지가 표시되면 **설치**를 탭하여 Lookout for Work이 장치에 설치되도록 합니다.
 
-    ![설치를 탭하여 Lookout for Work 설치](./media/ios-lfw-install-app-request.png)
+  ![설치를 탭하여 Lookout for Work 설치](./media/ios-mtd-install-app-request.png)
 
 2. 다음과 같은 메시지가 나타나면 **설정**을 탭하고 **위치 서비스**를 켠 다음 **계속**을 탭합니다.
 
-    ![설정 및 위치 서비스 탭하기](./media/ios-lfw-allow-location-services.png)
+  ![설정 및 위치 서비스 탭하기](./media/ios-lfw-allow-location-services.png)
 
 3. Lookout for Work에 필요한 사용 권한을 검토하고 **계속**을 탭합니다.
 
-    ![현재 Lookout for Work에 연결되어 있음](./media/ios-lfw-permissions-lookout-needs.png)
+  ![현재 Lookout for Work에 연결되어 있음](./media/ios-lfw-permissions-lookout-needs.png)
 
 4. Lookout for Work에서 알림을 보내도록 허용할지 묻는 메시지가 표시되면 **허용**을 탭합니다.
 
-    ![설정 및 위치 서비스 탭하기](./media/ios-lfw-allow-notifications.png)
-
+  ![설정 및 위치 서비스 탭하기](./media/ios-lfw-allow-notifications.png)
 
 Lookout for Work 설치가 끝나고 장치에서 보안 위협이 발견되지 않으면 다음 화면이 표시됩니다.
 
-![Lookout for Work에서 보안 위협을 찾지 못함](./media/ios-lfw-no-threats-found.png)
+  ![Lookout for Work에서 보안 위협을 찾지 못함](./media/ios-lfw-no-threats-found.png)
 
 Lookout for Work에서 장치에 대한 보안 위협을 발견한 경우 문제 해결 방법에 대한 지침이 표시됩니다.
 

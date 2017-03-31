@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 03/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ searchScope:
 ROBOTS: 
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
-ms.openlocfilehash: b9d7c7970ddc334dd6c500105b250d516a60a6d4
-ms.lasthandoff: 03/08/2017
+ms.sourcegitcommit: c473a1f05b0a7b0ce5205598b2b9a9b86bfe6c1d
+ms.openlocfilehash: 4b51ad3fcc04d8e4b2cb6da6982f62885f466080
+ms.lasthandoff: 03/29/2017
 
 
 ---
@@ -35,7 +35,7 @@ Lookout for Work가 장치에서 잠재적인 위협을 발견했기 때문에 �
 
 등록된 장치에 바이러스 또는 다른 보안 위협이 있을 때 회사 메일이나 파일에 액세스하려고 하면 다음과 같은 메시지가 표시될 수 있습니다.
 
-![회사 포털 웹 사이트에 대한 링크가 포함된 Lookout for Work 오류 메시지](./media/lookout-go-to-device-management-portal-android.png)
+![회사 포털 웹 사이트에 대한 링크가 포함된 Lookout for Work 오류 메시지](./media/mtd-go-to-device-management-portal-android.png)
 
 **장치 관리 포털** 링크를 탭하여 문제 해결 방법 지침이 나와 있는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 이동합니다.
 

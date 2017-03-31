@@ -18,9 +18,9 @@ ms.reviewer: sumitp
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
-ms.openlocfilehash: 982588ddc808123efd107759ed15c31ced6f110e
-ms.lasthandoff: 03/08/2017
+ms.sourcegitcommit: 8da2695c4c6dc8b45559323b83a4bb77167303b7
+ms.openlocfilehash: f2f93bccd17d16f258e90268f0ddef3e3cb7a598
+ms.lasthandoff: 03/28/2017
 
 
 ---
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2017
 
 조직에서 데이터 및 음성 요금제가 허용 한도 내에서 사용되고 있는지 확인하기 위해 TEM(Telecom Expense Management)을 사용하고 있을 수 있습니다. 장치를 등록하면 해당 장치의 가장 적합한 범주를 선택하라는 메시지가 표시됩니다.
 
-  ![iOS 장치의 "가장 적합한 범주 선택" 화면의 스크린샷 회사 또는 개인 등록 선택 항목이 표시됩니다.](./media/and-enroll-11-tem-select-best-category.png)
+![iOS 장치의 "가장 적합한 범주 선택" 화면의 스크린샷 회사 또는 개인 등록 선택 항목이 표시됩니다.](./media/and-enroll-11-tem-select-best-category.png)
 
 1. 적절한 옵션을 선택하면 Google Play 스토어에서 [__Datalert__](https://play.google.com/store/apps/details?id=fr.memobox.databox) 앱을 설치하라는 알림이 제공됩니다. Datalert 앱은 조직에서 데이터 사용량을 측정하는 데 사용됩니다. 화면 오른쪽 위에 있는 __다음__ 화살표를 탭하여 계속 진행합니다.
 
