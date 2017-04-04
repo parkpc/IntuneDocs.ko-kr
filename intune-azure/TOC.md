@@ -1,5 +1,6 @@
 # 소개
 ## [Azure Portal Preview란?](introduction/what-is-microsoft-intune.md)
+## [Azure의 Intune 기능](introduction/ui-changes-in-microsoft-intune.md)
 ## 시작
 <!---(introduction/get-started.md) --->
 ### [무료 평가판 등록](introduction/sign-up-free-trial-microsoft-intune.md)
