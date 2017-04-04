@@ -154,7 +154,8 @@ Windows 및 Windows Phone 모바일 앱을 배포하는 데 사용되는 Symante
 2. 앱을 가져왔으면 **인벤토리** 페이지에서 앱을 선택합니다.  
 3. **플랫폼**으로 **Windows 10 all devices**(Windows 10 모든 장치)를 선택한 다음 적절한 **아키텍처**를 선택하고 다운로드합니다. 이 앱에는 앱 라이선스 파일이 필요 없습니다.
 ![Windows 10 모든 장치 및 아키텍처 X86 패키지 다운로드 세부 정보를 보여 주는 이미지](../media/Win10CP-all-devices.png)
-4. "Required Frameworks"(필요한 프레임워크)에 나온 모든 패키지를 다운로드합니다. x86, x64 및 ARM 아키텍처에 대해 수행해야 하므로 아래와 같이 총 9개의 패키지가 됩니다.  
+4. "Required Frameworks"(필요한 프레임워크)에 나온 모든 패키지를 다운로드합니다. x86, x64 및 ARM 아키텍처에 대해 수행해야 하므로 아래와 같이 총 9개의 패키지가 됩니다.
+
 ![다운로드할 종속성 파일의 이미지 ](../media/Win10CP-dependent-files.png)
 5. 회사 포털 앱을 Intune에 업로드하기 전에 패키지를 포함하는 폴더(예: C:&#92;Company Portal)를 다음과 같은 방법으로 만듭니다.
   1. C:\Company Portal에 회사 포털 패키지를 배치합니다. 이 위치에 Dependencies 하위 폴더도 만듭니다.  
