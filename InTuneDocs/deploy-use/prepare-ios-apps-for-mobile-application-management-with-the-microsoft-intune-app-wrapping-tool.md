@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: ee3a0b80f7e534262fbcc8d897e069cff1e35727
 ms.openlocfilehash: a68ffc7be5bcaf55a789ab96035a3f23be0b8b3a
+ms.lasthandoff: 01/14/2017
 
 
 ---
@@ -160,8 +161,7 @@ Intune에서 래핑된 앱을 배포하려면 다음과 같은 항목이 필요�
 
   ![사내 프로비전 프로필 선택](../media/app-wrapper/iOS-provisioning-profile-1.png)
 
-5. 
-              **Continue(계속)**를 클릭합니다. 이전에 생성된 서명 인증서를 프로비전 프로필에 연결해야 합니다.
+5. **Continue(계속)**를 클릭합니다. 이전에 생성된 서명 인증서를 프로비전 프로필에 연결해야 합니다.
 
 6. macOS 컴퓨터로 프로필(확장명 .mobileprovision)을 다운로드는 단계를 따릅니다.
 
@@ -402,9 +402,4 @@ iOS용 앱 래핑 도구에 자격 오류가 표시되는 경우 다음의 문�
 - [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</br>
 - [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</br>
 - [SDK를 사용하여 모바일 응용 프로그램 관리에 앱을 사용하도록 설정](use-the-sdk-to-enable-apps-for-mobile-application-management.md)
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 
