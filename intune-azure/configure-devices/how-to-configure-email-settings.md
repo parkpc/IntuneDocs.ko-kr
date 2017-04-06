@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
-ms.openlocfilehash: 786028412ca46d07e5180f469d07f9103f956033
-ms.lasthandoff: 03/17/2017
+ms.sourcegitcommit: f316b332c3f1b80b9d6af488943298fcfea13741
+ms.openlocfilehash: 70d013768c07f1782255a309b5941f05c2222912
+ms.lasthandoff: 03/30/2017
 
 
 ---
@@ -33,7 +33,8 @@ ms.lasthandoff: 03/17/2017
 
 전자 메일 프로필을 사용하여 다음 장치 유형에서 네이티브 전자 메일 클라이언트를 구성할 수 있습니다.
 
-- Android 4.0 이상
+- Android Samsung KNOX Standard 4.0 이상
+- Android for Work
 - iOS 8.0 이상
 - Windows Phone 8.1 이상
 - Windows 10(데스크톱) 및 Windows 10 Mobile

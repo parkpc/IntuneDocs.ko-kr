@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/24/2017
+ms.date: 03/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 832c7dd8016bb30a24cc1748f84e5692130cb658
-ms.openlocfilehash: a37f217d3ce3c87b9aa673a8a7fc93ad390c6a68
-ms.lasthandoff: 03/23/2017
+ms.sourcegitcommit: c473a1f05b0a7b0ce5205598b2b9a9b86bfe6c1d
+ms.openlocfilehash: f76b65ad97771d6b40c4e3bff75a19fd1f922eea
+ms.lasthandoff: 03/29/2017
 
 
 ---
@@ -53,7 +53,7 @@ IT 관리자나 사용자가 Android 또는 iOS용 Microsoft Outlook 등 대체 
 
 Samsung KNOX에서는 프로필 식별에 호스트 이름을 사용하지 않으므로 여러 호스트에서 동일한 전자 메일 주소에 사용할 전자 메일 프로필을 여러 개 만들지 않는 것이 좋습니다. 이렇게 하면 각각 덮어쓰게 됩니다.
 
-**Android for Work**<br>Intune은 Gmail 및 Nine Work 메일 앱 각각에 대해 Android for Work 메일 프로필을 하나씩 제공합니다. 이러한 앱은 Google Play 스토어에서 제공되며 장치 회사 프로필에 설치한 후 Exchange로의 연결을 지원합니다. 메일 연결을 사용하도록 설정하려면 사용자의 장치에 이러한 메일 앱 중 하나를 배포한 다음 적절한 프로필을 만들어 배포합니다. Nine Work 등의 메일 앱은 무료가 아닐 수도 있습니다. 앱의 라이선스 정보를 검토하거나, 질문이 있으면 앱 회사에 문의하세요.
+**Android for Work**<br>Intune은 Gmail 및 Nine Work 메일 앱 각각에 대해 Android for Work 메일 프로필을 하나씩 제공합니다. 이러한 앱은 Google Play 스토어에서 제공되며 장치 작업 프로필에 설치되므로 프로필이 중복될 수 없습니다. 두 앱 모두 Exchange에 대한 연결을 지원합니다. 메일 연결을 사용하도록 설정하려면 사용자의 장치에 이러한 메일 앱 중 하나를 배포한 후 적절한 메일 프로필을 만들어 배포합니다. Nine Work 등의 메일 앱은 무료가 아닐 수도 있습니다. 앱의 라이선스 정보를 검토하거나, 질문이 있으면 앱 회사에 문의하세요.
 
 ## <a name="secure-email-profiles"></a>전자 메일 프로필 보안
 인증서 또는 암호를 사용하여 메일 프로필을 보호할 수 있습니다.

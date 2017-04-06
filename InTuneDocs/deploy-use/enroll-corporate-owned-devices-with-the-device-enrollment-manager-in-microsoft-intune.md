@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: adb2fd27d7f2b3f0ef4dce6b26fcb20d74b69a00
-ms.openlocfilehash: f099fdf942795b128fe46f9bd1d82432d89f6f75
-ms.lasthandoff: 02/04/2017
+ms.sourcegitcommit: a4b6d8b0a63d707631e3f0e231b2e9b40f2609cf
+ms.openlocfilehash: 1d8109fca8170ad127f6377918d7c0313ba26d78
+ms.lasthandoff: 03/24/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 02/04/2017
 장치 등록 관리자로 추가하려면 Azure 포털에 사용자가 존재해야 합니다. 보안 최적화를 위해 DEM 사용자는 Intune 관리자여서도 안 됩니다.
 
 >[!NOTE]
->DEM 등록 방법을 [Apple Configurator 설정 도우미](ios-setup-assistant-enrollment-in-microsoft-intune.md), [직접 등록](ios-direct-enrollment-in-microsoft-intune.md) 또는 [DEP 등록 방법](ios-device-enrollment-program-in-microsoft-intune.md)과 함께 사용할 수 없습니다. 
+>DEM 등록 방법을 [Apple Configurator 설정 도우미](ios-setup-assistant-enrollment-in-microsoft-intune.md), [직접 등록](ios-direct-enrollment-in-microsoft-intune.md) 또는 [DEP 등록 방법](ios-device-enrollment-program-in-microsoft-intune.md)과 함께 사용할 수 없습니다.
 
 ## <a name="example-of-a-device-enrollment-manager-scenario"></a>장치 등록 관리자 시나리오의 예
 
@@ -42,8 +42,8 @@ Intune 콘솔의 사용자만 장치 등록 관리자가 될 수 있습니다. �
 
 DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
--   Intune에서 최대 1000개의 장치 등록
--   회사 포털에 로그인하여 회사 앱 가져오기
+-   Intune에서 최대 1,000개의 장치 등록
+-   회사 포털 앱을 사용하여 회사 앱 가져오기
 -   태블릿에 역할별 앱을 배포하여 회사 데이터에 대한 액세스 구성
 
 ## <a name="limitations-of-devices-that-are-enrolled-with-a-dem-account"></a>DEM 계정을 사용하여 등록된 장치의 제한 사항
@@ -57,9 +57,9 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
   - DEM 사용자는 회사 포털을 사용하여 장치 자체에서 DEM에 등록된 장치 등록을 해제할 수 없습니다. Intune 관리자에게는 이 기능이 있으나 DEM 사용자에게는 없습니다.
 
   - 회사 포털 앱 또는 웹 사이트에 로컬 장치만 표시됩니다.
- 
+
   - 앱 관리에 대한 사용자별 Apple ID 요구 사항으로 인해 Apple VPP(Volume Purchase Program) 앱을 사용할 수 없습니다.
- 
+
   - (iOS에만 해당)DEM을 사용하여 iOS 장치를 등록하는 경우 Apple Configurator 또는 Apple DEP(장치 등록 프로그램)를 사용하여 장치를 등록할 수 없습니다.
 
 > [!NOTE]
@@ -77,7 +77,7 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
 4.  **추가...**를 선택합니다. **장치 등록 관리자 추가** 대화 상자가 열립니다.
 
-5.  Intune 계정의 **사용자 ID**를 입력하고 **확인**을 선택합니다. 
+5.  Intune 계정의 **사용자 ID**를 입력하고 **확인**을 선택합니다.
 
     이제 DEM 사용자는 최종 사용자가 회사 포털에서 BYOD 시나리오에 이용하는 동일한 절차를 사용하여 모바일 장치를 등록할 수 있습니다. 관리자 최종 사용자는 회사 포털 앱을 설치하고 최대 1000대의 장치에 DEM 자격 증명을 사용하여 장치를 등록할 수 있습니다. 각 플랫폼에 대한 최종 사용자 등록 단계는 다음을 참조하세요.
 

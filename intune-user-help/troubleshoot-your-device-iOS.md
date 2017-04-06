@@ -18,9 +18,9 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: cd5d97ec4524477fe6ac08a863eaf5cc03913e50
-ms.openlocfilehash: 53062067c250434b65911c47b8c2eda052a353c3
-ms.lasthandoff: 02/21/2017
+ms.sourcegitcommit: 1d0284ca2b5fd935a8657e3dd73d23d45071fd50
+ms.openlocfilehash: 200c992caa36ca74bf3e4ad82a21099a4b7ada4c
+ms.lasthandoff: 03/25/2017
 
 
 ---
@@ -37,6 +37,6 @@ iOS 장치에서 문제 해결을 통해 해결할 수 있는 문제가 발생�
 - [장치에 일련 번호를 찾으려면 어떻게 하나요?](how-do-i-find-the-serial-number-on-my-device-ios.md)
 - [내 iOS 장치를 업데이트해야 함](you-need-to-update-your-ios-device.md)
 - [내 iOS 버전이 아직 지원되지 않음](your-ios-version-isnt-yet-supported.md)
-- [내 iOS 장치에 Lookout for Work를 설치해야 함](you-are-prompted-to-install-lookout-for-work-ios.md)
-- [내 iOS 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](you-need-to-resolve-a-threat-found-by-lookout-for-work-ios.md)
+- [iOS 장치에 Mobile Threat Defense 앱을 설치해야 함](you-are-prompted-to-install-mtd-ios.md)
+- [iOS 장치에서 Mobile Threat Defense 앱이 발견한 위협을 해결해야 함](you-need-to-resolve-a-threat-found-by-mtd-ios.md)
 

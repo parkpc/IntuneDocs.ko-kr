@@ -5,7 +5,7 @@ keywords:
 author: mtillman
 ms.author: mtillman
 manager: angrobe
-ms.date: 03/15/2017
+ms.date: 03/28/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6c245d60c661c04b4c4d29c9bdcdd752254d978
-ms.openlocfilehash: 2a602b351cf7f345bd56f20394943ea25f2d2060
-ms.lasthandoff: 03/15/2017
+ms.sourcegitcommit: c473a1f05b0a7b0ce5205598b2b9a9b86bfe6c1d
+ms.openlocfilehash: bddd8c0dc74835f74a71af1d900d43d84aab894c
+ms.lasthandoff: 03/29/2017
 
 
 ---
@@ -28,6 +28,17 @@ ms.lasthandoff: 03/15/2017
 > 최종적으로는 이 모든 기능이 하이브리드 고객 배포(Intune과 Configuration Manager )용으로 지원될 예정입니다. 새로운 하이브리드 기능에 대한 자세한 내용은 [hybrid What’s New page](https://docs.microsoft.com/sccm/mdm/understand/whats-new-in-hybrid-mobile-device-management)(하이브리드 새로운 기능 페이지)를 참조하세요.
 
 ## <a name="new-capabilities"></a>새로운 기능
+
+### <a name="support-for-skycure"></a>Skycure에 대한 지원
+
+이제 Microsoft Intune과 통합된 Mobile Threat Defense 솔루션인 Skycure에서 수행한 위험 평가에 따라 조건부 액세스를 사용하여 회사 리소스에 대한 모바일 장치의 액세스를 제어할 수 있습니다. 위험은 다음을 비롯하여 Skycure를 실행하는 장치에서 수집된 원격 분석에 따라 평가됩니다.
+
+- 물리적 방어
+- 네트워크 방어
+- 응용 프로그램 방어
+- 취약성 방어
+
+Intune 장치 준수 정책을 통해 사용하도록 설정된 Skycure 위험 평가에 따라 EMS 조건부 액세스 정책을 구성할 수 있습니다. 이러한 정책을 사용하여 검색된 위협에 따라 회사 리소스에 대한 비규격 장치 액세스를 허용하거나 차단할 수 있습니다. 자세한 내용은 [Skycure Mobile Threat Defense 커넥터](/intune/deploy-use/skycure-mobile-threat-defense-connector)를 참조하세요.
 
 ### <a name="new-user-experience-for-the-company-portal-app-for-android---621622--"></a>Android용 회사 포털 앱의 새 사용자 환경 <!--621622-->
 
@@ -51,6 +62,12 @@ Windows 10 회사 포털 앱을 다운로드하거나 사이드로드해야 하�
 
 
 ## <a name="notices"></a>알림
+
+### <a name="support-for-ios-103"></a>iOS 10.3에 대한 지원
+
+iOS 10.3 릴리스가 2017년 3월 27일에 iOS 사용자에게 배포되기 시작했습니다. 기존의 모든 Intune MDM 및 MAM 시나리오는 최신 버전의 Apple OS와 호환됩니다. 현재 iOS 장치 관리에 사용할 수 있는 기존의 모든 Intune 기능은 사용자가 장치 및 앱을 iOS 10.3으로 업그레이드할 때도 계속 작동할 것으로 예상합니다.
+
+현재 공유할 만한 알려진 문제는 없습니다. iOS 10.3 관련 문제가 발생하는 경우 [Intune 지원 팀](/intune/troubleshoot/contact-assisted-phone-support-for-microsoft-intune)에 연락해 주시기 바랍니다.
 
 ### <a name="improved-support-for-android-users-based-in-china---720444--"></a>중국에 거주하는 Android 사용자에 대한 지원 향상 <!--720444-->
 
@@ -82,10 +99,15 @@ Microsoft는 Microsoft Teams의 일반적인 가용성을 발표했습니다. iO
 
 새 평가판 테넌트에서는 이번 달에 Azure Portal에서 새 관리 환경의 공개 미리 보기를 표시하기 시작합니다. 미리 보기 상태에서는 기존 Intune 콘솔의 기능과 패리티가 반복적으로 제공됩니다.
 
-Azure Portal의 관리 환경에서는 이미 발표된 새 그룹화 및 대상 지정 기능을 사용합니다. 따라서 기존 테넌트가 새 그룹화 환경으로 마이그레이션될 때 사용자도 마이그레이션되어 테넌트에 새 관리 환경의 미리 보기가 표시됩니다. 그 동안 테넌트가 마이그레이션될 때까지 새 기능을 테스트하거나 살펴보려는 경우 새 Intune 평가판 계정에 등록하거나 [새 설명서](https://docs.microsoft.com/intune-azure/introduction/whats-new)를 살펴보세요.
+Azure Portal의 관리 환경에서는 이미 발표된 새 그룹화 및 대상 지정 기능을 사용합니다. 따라서 기존 테넌트가 새 그룹화 환경으로 마이그레이션될 때 사용자도 마이그레이션되어 테넌트에 새 관리 환경의 미리 보기가 표시됩니다. 그 동안 테넌트가 마이그레이션될 때까지 새 기능을 테스트하거나 살펴보려는 경우 새 Intune 평가판 계정에 등록하거나 [새 설명서](/intune-azure/introduction/whats-new)를 살펴보세요.
 
 > [!Note]
 > Azure Portal 미리 보기의 경우 이번 달 업데이트를 출시합니다. 그러나 Intune 서비스 출시 방법으로 인해 변경 사항을 곧바로 사용할 수 없을 수 있습니다.  Intune 서비스의 몇 가지 구성 요소를 순차적으로 업데이트해야 새 포털 기능을 사용할 수 있습니다. 이번 달 말에 배포되면 Azure Portal 미리 보기에서 이러한 변경 사항을 확인해 보세요. 전체 변경 사항 목록은 [Microsoft Intune Preview의 새로운 기능](/intune-azure/introduction/whats-new)을 참조하세요.
+
+### <a name="administration-roles-being-replaced-in-azure-portal"></a>Azure Portal에서 대체되는 관리 역할
+
+Intune 클래식 포털(Silverlight)에서 사용된 기존 MAM(모바일 응용 프로그램 관리) 관리 역할(참가자, 소유자 및 읽기 전용)은 Intune Azure Portal에서 새로운 RBAC(역할 기반 관리 제어)의 전체 집합으로 대체됩니다. Azure Portal로 마이그레이션한 후에 이러한 새 관리 역할에 관리자를 다시 할당해야 합니다. RBAC 및 새 역할에 대한 자세한 내용은 [Microsoft Intune에 대한 역할 기반 액세스 제어](/intune-azure/access-control/role-based-access-control)를 참조하세요.
+
 
 ## <a name="whats-coming"></a>향후 예정 사항
 

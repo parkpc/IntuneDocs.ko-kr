@@ -5,7 +5,7 @@ description: "이 가이드를 사용하여 Microsoft Intune 클라이언트 소
 keywords: 
 author: nathbarn
 ms.author: nathbarn
-ms.date: 02/22/2017
+ms.date: 03/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7beff3bf4579d9fb79f0c3f2fb8fbf9bb1ea160
-ms.openlocfilehash: e7e199bd1820299e7c0ea4f9adc3f5e62bffab97
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: 2b3041019a7fe5a1ed7421401b36a72321af6cea
+ms.openlocfilehash: 0498aebe8e06314cb6f63f3f4def7011a3badf64
+ms.lasthandoff: 03/27/2017
 
 
 ---
@@ -106,7 +106,7 @@ Intune 클라이언트 소프트웨어 설치 패키지에는 사용자 계정�
 
 ## <a name="instruct-users-to-self-enroll"></a>사용자에게 직접 등록 지시
 
-사용자가 [회사 포털 웹사이트](http://portal.manage.microsoft.com)로 이동하여 Intune 클라이언트 소프트웨어를 설치합니다. 웹 포털에서 사용자에게 표시되는 정확한 정보는 계정의 MDM 기관, 사용자 PC의 OS 플랫폼/버전에 따라 다를 수 있습니다. 
+사용자가 [회사 포털 웹사이트](http://portal.manage.microsoft.com)로 이동하여 Intune 클라이언트 소프트웨어를 설치합니다. 웹 포털에서 사용자에게 표시되는 정확한 정보는 계정의 MDM 기관, 사용자 PC의 OS 플랫폼/버전에 따라 다를 수 있습니다.
 
 사용자가 Intune 라이선스를 할당받지 않은 경우나 조직의 MDM 기관이 Intune으로 설정되지 않은 경우 등록하는 옵션이 표시되지 않습니다.
 
@@ -200,7 +200,7 @@ Intune 관리 콘솔을 사용하여 소프트웨어 클라이언트 등록을 �
     "C:\Program Files\Microsoft\OnlineManagement\Common\ProvisioningUtil.exe" /UninstallAgents /MicrosoftIntune
     ```
 
-**방법 2** 이러한 에이전트 중 일부는 모든 Windows SKU에 설치되지 않습니다.
+**방법 2**<br>이러한 모든 에이전트는 모든 Windows SKU에 설치되어 있습니다.
 
     ```
     wmic product where name="Microsoft Endpoint Protection Management Components" call uninstall<br>
@@ -247,7 +247,7 @@ Intune 관리 콘솔을 사용하여 소프트웨어 클라이언트 등록을 �
 - AgentInstaller
 - 로그
 - 업데이트
-- 공용 
+- 공용
 
 ### <a name="remove-the-onlinemanagement-folder"></a>OnlineManagement 폴더 제거
 

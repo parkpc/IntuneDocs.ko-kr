@@ -16,9 +16,9 @@ ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: cddeb6bf854b9ffbbc1744d5d164c8ceea34ff49
-ms.openlocfilehash: 7d5a1859ef1a373ce424dd4f351fc137c6052fb7
-ms.lasthandoff: 03/10/2017
+ms.sourcegitcommit: f316b332c3f1b80b9d6af488943298fcfea13741
+ms.openlocfilehash: 8cc5e12308871a3b023bed49e9647b888971f849
+ms.lasthandoff: 03/30/2017
 
 
 ---
@@ -87,6 +87,12 @@ Intune 클래식 관리 콘솔을 사용해 왔다면 다음과 같은 차이점
 <!--- -   In the Azure portal, you have the ability to specify actions and notifications that are intiated when a device is determined to be noncompliant. This ability does not exist in the Intune admin console.
 
 -   In the Azure portal, you can set a grace period to allow time for the end-user to get their device back to compliance status before they completely lose the ability to get company data on their device. This is not available in the Intune admin console.--->
+
+##  <a name="migration-from-intune-classic-console-to-intune-azure-preview-portal"></a>Intune 클래식 콘솔에서 Intune Azure Preview 포털로 마이그레이션
+
+[Intune 클래식 콘솔](https://manage.microsoft.com)에서 만든 장치 준수 정책은 새 [Intune Azure Portal](https://portal.azure.com)에 표시되지 않습니다. 그러나 해당 정책은 여전히 사용자를 대상으로 하며 Intune 클래식 콘솔을 통해 관리할 수 있습니다.
+
+Intune Azure Portal에서 새 장치 준수와 관련된 기능을 활용하려는 경우 Intune Azure Portal 자체에서 새로운 장치 준수 정책을 만들어야 합니다. Intune 클래식 포털에서도 장치 준수 정책을 할당받은 사용자에게 Intune Azure Portal의 새 장치 준수 정책을 할당하는 경우 Intune Azure Portal의 장치 준수 정책이 Intune 클래식 콘솔에서 만든 정책보다 우선합니다.
 
 ##  <a name="next-steps"></a>다음 단계
 

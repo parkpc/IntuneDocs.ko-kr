@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/28/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 185b7dd1e486155f90956ea1f6f83246636d421c
-ms.openlocfilehash: bcbf2c877aae34baa42e7a51e347489ec8669a34
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: c66226b7fc31f91669c4f4f0693ccbd7c679189f
+ms.openlocfilehash: 89a573abb8853ffdab713ce838de323abac03c37
+ms.lasthandoff: 03/29/2017
 
 
 ---
@@ -29,7 +29,8 @@ ms.lasthandoff: 02/22/2017
 Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해 구매한 iOS 장치를 등록하는 등록 프로필을 배포할 수 있습니다. 등록 패키지는 장치에 대한 설정 도우미 옵션을 포함할 수 있습니다.
 
 >[!NOTE]
->이 등록 방법을 [장치 등록 관리자](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md) 방법과 함께 사용할 수 없습니다.
+>DEP 등록은 [장치 등록 관리자](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md) 방법과 함께 사용할 수 없습니다.
+>또한 사용자가 iOS 장치를 등록(즉, 회사 포털 앱을 사용하여)한 후 해당 장치의 일련 번호를 가져오고 DEP 프로필을 할당한 경우 장치가 Intune에서 등록 취소됩니다.
 
 ## <a name="prerequisites-for-enrolling-ios-devices-by-using-apple-dep-management"></a>Apple DEP 관리를 사용하여 iOS 장치를 등록하기 위한 필수 조건
 
@@ -45,7 +46,7 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 ### <a name="get-an-encryption-key"></a>암호화 키 가져오기
 
-1. 관리 사용자는 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **iOS** &gt; **장치 등록 프로그램**으로 이동한 후 **암호화 키 다운로드**를 선택합니다. 
+1. 관리 사용자는 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **iOS** &gt; **장치 등록 프로그램**으로 이동한 후 **암호화 키 다운로드**를 선택합니다.
 
 2. 암호화 키(.pem) 파일을 로컬로 저장합니다. .pem 파일은 Apple 장치 등록 프로그램 포털에서 트러스트 관계 인증서를 요청하는 데 사용됩니다.
 
@@ -77,7 +78,7 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 2. **이름** 및 **설명**을 포함한 **일반** 세부 정보를 제공하고, 프로필에 할당된 장치에 사용자 선호도가 있는지 또는 장치가 그룹에 속해 있는지를 지정합니다.
 
-   - **사용자 선호도 확인**: 초기 설치 작업을 진행할 때 먼저 장치에 사용자 정보를 등록해야만 해당 사용자로 회사 데이터와 메일에 액세스하도록 허용할 수 있습니다. 사용자에게 속해 있으며 회사 포털을 사용해야 하는(즉, 앱을 설치해야 하는) DEP 관리 장치에 대한 **사용자 선호도**를 설정해야 합니다. MFA(다단계 인증)는 사용자 선호도가 있는 DEP 장치에 등록하는 동안 작동하지 않습니다. 등록 후 MFA는 이러한 장치에서 예상대로 작동합니다. DEP 장치에서는 처음 로그인할 때 자신의 암호를 변경해야 하는 새 사용자에게 등록 중에 메시지를 표시할 수 없습니다. 또한 암호가 만료된 사용자는 DEP 등록 중에 암호를 다시 설정하라는 메시지가 표시되지 않으며, 다른 장치에서 암호를 다시 설정해야 합니다. 
+   - **사용자 선호도 확인**: 초기 설치 작업을 진행할 때 먼저 장치에 사용자 정보를 등록해야만 해당 사용자로 회사 데이터와 메일에 액세스하도록 허용할 수 있습니다. 사용자에게 속해 있으며 회사 포털을 사용해야 하는(즉, 앱을 설치해야 하는) DEP 관리 장치에 대한 **사용자 선호도**를 설정해야 합니다. MFA(다단계 인증)는 사용자 선호도가 있는 DEP 장치에 등록하는 동안 작동하지 않습니다. 등록 후 MFA는 이러한 장치에서 예상대로 작동합니다. DEP 장치에서는 처음 로그인할 때 자신의 암호를 변경해야 하는 새 사용자에게 등록 중에 메시지를 표시할 수 없습니다. 또한 암호가 만료된 사용자는 DEP 등록 중에 암호를 다시 설정하라는 메시지가 표시되지 않으며, 다른 장치에서 암호를 다시 설정해야 합니다.
 
    > [!NOTE]
    > 사용자 선호도가 있는 DEP에서는 사용자 토큰을 요청하기 위해 WS-Trust 1.3 사용자 이름/혼합 끝점이 사용 가능하게 설정되어야 합니다.
@@ -148,17 +149,20 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
    허용 가능한 DEP 트래픽에 대한 Apple의 약관을 준수하려면 Intune에서는 다음과 같은 제한 사항을 적용합니다.
 
-   - 전체 DEP 동기화는&7;일마다 한 번 이상 실행할 수 없습니다. 전체 동기화 중 Intune은 Apple에서 일련 번호가 이전에 동기화되었는지 여부를 Intune에 할당한 모든 일련 번호를 새로 고칩니다. 전체 동기화를 이전 전체 동기화의&7;일 이내에 시도하는 경우 Intune은 Intune에 나열되지 않은 일련 번호만 새로 고칩니다.
+   - 전체 DEP 동기화는 7일마다 한 번 이상 실행할 수 없습니다. 전체 동기화 중 Intune은 Apple에서 일련 번호가 이전에 동기화되었는지 여부를 Intune에 할당한 모든 일련 번호를 새로 고칩니다. 전체 동기화를 이전 전체 동기화의 7일 이내에 시도하는 경우 Intune은 Intune에 나열되지 않은 일련 번호만 새로 고칩니다.
 
    - 모든 동기화 요청은 완료하는 데 10분이 주어집니다. 이 시간 동안 또는 요청이 성공될 때까지 **동기화** 단추는 비활성화됩니다.
 
 ### <a name="distribute-devices-to-users"></a>사용자에게 장치 배포
 
-이제 회사 소유 장치를 사용자에게 배포할 수 있습니다. IOS 장치를 설정하는 경우에 Intune에 관리용으로 등록됩니다.
+이제 회사 소유 장치를 사용자에게 배포할 수 있습니다. IOS 장치를 설정하는 경우에 Intune에 관리용으로 등록됩니다. 사용자 장치 제한은 DEP 관리 장치에 적용됩니다.
+
+>[!NOTE]
+>사용자가 DEP 장치를 등록하려고 하지만, 장치 제한을 초과한 경우 사용자에게 경고 없이 등록이 자동으로 실패합니다.
 
 ## <a name="changes-to-intune-group-assignments"></a>Intune 그룹 할당 변경
 
-2016년 12월부터 장치 그룹 관리가 Azure Active Directory로 이동됩니다. Azure Active Directory 그룹으로 전환된 후에는 그룹 할당이 회사 등록 프로필 옵션에 나타나지 않습니다. 이 변경은 몇 달에 걸쳐 진행될 예정이므로 당장 변경 내용이 확인되지 않을 수 있습니다. 새 포털로 이동하고 나면 회사 등록 프로필 이름에 따라 동적 장치 그룹 할당을 정의할 수 있습니다. 회사 장치 등록 프로필에서 미리 할당된 모든 Intune 장치 그룹마다, Azure Active Directory 장치 그룹으로 마이그레이션하는 동안 회사 장치 등록 프로필 이름을 기반으로 AAD에 동적인 장치 그룹이 생성됩니다. 새 동적 장치 그룹 할당을 정의하면 장치 그룹에 미리 할당된 장치가 정책과 앱이 배포된 상태에서 그룹에 자동으로 등록됩니다. [Azure Active Directory 그룹에 대한 자세한 정보](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/)
+2017년 4월부터 장치 그룹 관리가 Azure Active Directory로 이동됩니다. Azure Active Directory 그룹으로 전환된 후에는 그룹 할당이 회사 등록 프로필 옵션에 나타나지 않습니다. 이 변경은 몇 달에 걸쳐 진행될 예정이므로 당장 변경 내용이 확인되지 않을 수 있습니다. 새 포털로 이동하고 나면 회사 등록 프로필 이름에 따라 동적 장치 그룹 할당을 정의할 수 있습니다. 회사 장치 등록 프로필에서 미리 할당된 모든 Intune 장치 그룹마다, Azure Active Directory 장치 그룹으로 마이그레이션하는 동안 회사 장치 등록 프로필 이름을 기반으로 AAD에 동적인 장치 그룹이 생성됩니다. 새 동적 장치 그룹 할당을 정의하면 장치 그룹에 미리 할당된 장치가 정책과 앱이 배포된 상태에서 그룹에 자동으로 등록됩니다. [Azure Active Directory 그룹에 대한 자세한 정보](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/)
 
 ### <a name="see-also"></a>참고 항목
 [장치 등록을 위한 필수 구성 요소](prerequisites-for-enrollment.md)

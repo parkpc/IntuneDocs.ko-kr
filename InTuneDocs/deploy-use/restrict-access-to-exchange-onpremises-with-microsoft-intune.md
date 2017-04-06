@@ -5,7 +5,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 01/03/2017
+ms.date: 03/28/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 53d2c0d5b2157869804837ae2fa08b1cce429982
-ms.openlocfilehash: e3b404526d8e662fd8ae285c144b1d6f5cf22bf3
+ms.sourcegitcommit: f316b332c3f1b80b9d6af488943298fcfea13741
+ms.openlocfilehash: f1d8ecdf64b680940e46afc90dec79d237d80030
+ms.lasthandoff: 03/30/2017
 
 
 ---
@@ -80,11 +81,12 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
 -   iOS의 기본 메일 앱
 
 -   Exchange ActiveSync 메일 클라이언트(예: Android 4 이상의 Gmail)
-- **Android for Work 장치**의 Exchange ActiveSync 메일 클라이언트: **회사 프로필**에서 **Gmail** 및 **Nine Work** 앱만 Android for Work에 대해 지원됩니다. 조건부 액세스가 Android for Work에서 작동하려면 Gmail 또는 Nine Work 앱에 대한 메일 프로필을 배포하고, 이러한 앱을 필수 설치로 배포해야 합니다. 
+-   **Android for Work 장치**의 Exchange ActiveSync 메일 클라이언트: **회사 프로필**에서 **Gmail** 및 **Nine Work** 앱만 Android for Work에 대해 지원됩니다. 조건부 액세스가 Android for Work에서 작동하려면 Gmail 또는 Nine Work 앱에 대한 메일 프로필을 배포하고, 이러한 앱을 필수 설치로 배포해야 합니다. 
 
+<!---
 [!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
-
-> [!NOTE]
+--->
+> [!NOTE] 
 > Android 및 iOS용 Microsoft Outlook 앱은 지원되지 않습니다.
 
 ## <a name="support-for-pcs"></a>PC 지원
@@ -110,14 +112,12 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
   - **플랫폼 예외:** **규칙 추가**를 선택하여 지정한 모바일 장치 제품군 및 모델에 대한 액세스 수준을 정의하는 규칙을 구성합니다. 장치의 유형과는 상관이 없으므로 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 지원하지 않는 장치 유형도 구성할 수 있습니다.
 
   - **기본 규칙**: 다른 규칙이 적용되지 않는 장치의 경우, Exchange 액세스를 허용하거나, 차단하거나, 격리하도록 선택할 수 있습니다. 등록 및 규격 장치의 경우 액세스를 허용하도록 규칙을 설정하면 iOS, Windows 및 삼성 KNOX 장치의 경우 메일 액세스 권한이 자동으로 부여됩니다. 사용자는 메일을 가져오기 위해 어떠한 프로세스도 거칠 필요가 없습니다.
-
-        Samsung KNOX를 실행하지 않는 Android 장치를 사용하는 사용자는 메일에 액세스하기 전에 등록 및 준수를 확인하는 안내 방식 연습을 포함하는 격리 메일을 받게 됩니다. 액세스를 차단하거나 격리하는 규칙을 설정하면 모든 장치가 이미 Intune에 등록되었는지 여부와 관계없이 Exchange에 대한 액세스가 차단됩니다. 등록된 규격 장치가 이 규칙의 영향을 받는 것을 방지하려면 **기본 규칙 재정의** 상자를 선택합니다.
+      - Samsung KNOX를 실행하지 않는 Android 장치를 사용하는 사용자는 메일에 액세스하기 전에 등록 및 준수를 확인하는 안내 방식 연습을 포함하는 격리 메일을 받게 됩니다. 액세스를 차단하거나 격리하는 규칙을 설정하면 모든 장치가 이미 Intune에 등록되었는지 여부와 관계없이 Exchange에 대한 액세스가 차단됩니다. 등록된 규격 장치가 이 규칙의 영향을 받는 것을 방지하려면 **기본 규칙 재정의** 상자를 선택합니다.
 >[!TIP]
 >메일에 대한 액세스 권한을 부여하기 전에 먼저 모든 장치를 차단하려면 액세스 차단 규칙이나 격리 규칙을 선택합니다. 기본 규칙이 모든 장치 유형에 적용되므로, [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 지원되지 않는 플랫폼 예외로 구성한 장치 유형도 영향을 받습니다.
 
   - **사용자 알림**: Exchange에서 보내는 알림 메일 외에도 Intune은 장치를 차단 해제하는 단계를 포함하는 메일을 보냅니다. 기본 메시지를 필요에 맞게 사용자 지정하도록 편집할 수 있습니다. 사용자가 관리 지침이 포함된 Intune 알림 메일을 받기 전에 해당 사용자의 장치가 차단된 경우(이 메일은 사용자의 Exchange 사서함으로 배달됨) 차단 해제된 장치 또는 다른 방법을 사용하여 Exchange에 액세스하여 메시지를 볼 수 있습니다.
-
-        This is especially true when the **Default Rule** is set to block or quarantine. In this case, the user has to go to their app store, download the Microsoft Company Portal app, and enroll their device. This is applicable to iOS, Windows, and Samsung KNOX devices. For devices that don't run Samsung KNOX, you need to send the quarantine email to an alternate email account. The user has to copy the email to their blocked device to complete the enrollment and compliance process.
+      - 이것은 특히 **기본 규칙**이 차단 또는 격리로 설정된 경우 유용합니다. 이러한 경우 사용자는 앱 스토어로 가서 Microsoft 회사 포털 앱을 다운로드하고 장치를 등록해야 합니다. 이것은 iOS, Windows 및 삼성 KNOX 장치에 적용할 수 있습니다. Samsung KNOX를 실행하지 않는 장치의 경우 대체 메일 계정에 격리 메일을 보내야 합니다. 사용자가 차단된 장치에 메일을 복사하여 등록 및 준수 프로세스를 완료해야 합니다.
   > [!NOTE]
   > Exchange에서 알림 메일을 보내도록 하려면 알림 메일을 보내는 계정을 지정해야 합니다.
   >
@@ -127,11 +127,11 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
 
 -   조건부 액세스 정책은 배포하지 않아도 즉시 적용됩니다.
 
--   사용자가 Exchange ActiveSync 프로필을 설정한 후에 장치가 차단되기까지&1;~3시간이 걸릴 수 있습니다([!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 관리되지 않는 경우).
+-   사용자가 Exchange ActiveSync 프로필을 설정한 후에 장치가 차단되기까지 1~3시간이 걸릴 수 있습니다([!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 관리되지 않는 경우).
 
--   그런 다음 차단된 사용자가 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하거나 미준수 상태를 재구성하면&2;분 내에 메일 액세스 차단이 해제됩니다.
+-   그런 다음 차단된 사용자가 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하거나 미준수 상태를 재구성하면 2분 내에 메일 액세스 차단이 해제됩니다.
 
--   사용자가 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 등록을 취소하면 장치가 차단되기까지&1;~3시간이 걸릴 수 있습니다.
+-   사용자가 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 등록을 취소하면 장치가 차단되기까지 1~3시간이 걸릴 수 있습니다.
 
 **장치 액세스를 보호하는 조건부 액세스 정책을 구성하는 방법에 대한 몇 가지 시나리오 예를 보려면 [메일 액세스 보호 예제 시나리오](restrict-email-access-example-scenarios.md)를 참조하세요.**
 
@@ -139,9 +139,4 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
 -   [SharePoint Online에 대한 액세스 보호](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 
 -   [비즈니스용 Skype Online에 대한 액세스 보호](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

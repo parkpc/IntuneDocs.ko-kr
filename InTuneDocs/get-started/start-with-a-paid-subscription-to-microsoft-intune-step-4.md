@@ -1,59 +1,49 @@
 ---
-title: "Intune 라이선스 관리 | Microsoft 문서"
+title: "Intune 라이선스 할당 | Microsoft 문서"
 description: "Intune 구독에 대해 사용자에게 라이선스 할당"
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: lindavr
+ms.author: lindavr
 manager: angrobe
-ms.date: 02/14/2017
+ms.date: 03/28/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
-ms.reviewer: jeffgilb
+ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
-ms.openlocfilehash: b6ab60eff3c65244290b7141e81a7b052dd790ed
-ms.lasthandoff: 02/15/2017
+ms.sourcegitcommit: c66226b7fc31f91669c4f4f0693ccbd7c679189f
+ms.openlocfilehash: b2fc3a3dc47466313a54d2f6aef6b67dff8d7343
+ms.lasthandoff: 03/29/2017
 
 
 ---
 
-# <a name="manage-intune-licenses"></a>Intune 라이선스 관리
+# <a name="assign-intune-licenses-to-your-user-accounts"></a>사용자 계정에 Intune 라이선스 할당
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-이 항목에서는 사용자가 장치를 관리할 수 있도록 관리자가 사용자에게 Intune 라이선스를 할당하는 방법을 알려줍니다.
+수동으로 사용자를 추가하든 아니면 온-프레미스 Active Directory에서 동기화하든 상관없이 먼저 각 사용자에게 Intune 라이선스를 할당해야 사용자가 Intune에 장치를 등록할 수 있습니다.
 
-사용자가 로그인하여 Intune 서비스를 사용하거나 장치를 관리 대상으로 등록할 수 있게 하려면 먼저 [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에서 각각의 사용자에게 Intune 구독에 대한 라이선스를 할당해야 합니다.
+## <a name="assign-an-intune-license-in-the-office-365-admin-center"></a>Office 365 관리 센터에서 Intune 라이선스 할당
 
-Microsoft EMS(Microsoft Enterprise Mobility + Security)를 사용하는 조직에는 EMS 패키지의 Intune 서비스 또는 Azure Active Directory Premium만 필요한 사용자가 있을 수 있습니다. [Azure Active Directory PowerShell cmdlet](https://msdn.microsoft.com/library/jj151815.aspx)을 사용하여 한 가지 서비스 또는 서비스 집합을 할당할 수 있습니다. 자세한 내용은 [PowerShell을 사용하여 Intune 라이선스 관리](start-with-a-paid-subscription-to-microsoft-intune-step-4-posh.md)를 참조합니다.
+[Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)을 사용하여 클라우드 기반 사용자를 수동으로 추가하고, 클라우드 기반 사용자 계정 및 온-프레미스 Active Directory에서 Azure AD로 동기화한 계정에 라이선스를 할당할 수 있습니다.
 
-## <a name="how-intune-licenses-are-assigned"></a>Intune 라이선스가 할당되는 방식
-사용자 계정이 온-프레미스에 Active Directory에서 동기화되었거나 [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)을 통해 클라우드 서비스 구독에 추가된 경우에는, Intune 라이선스가 자동으로 할당되지 않습니다. 대신, 나중에 Intune 테넌트 관리자가 Office 365 포털에서 사용자에게 라이선스를 할당하도록 사용자 계정을 편집해야 합니다.
+1.  테넌트 관리자 자격 증명을 사용하여 [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에 로그인한 후 **사용자** > **활성 사용자**를 선택합니다.
 
-구독이 그 구독과 연결된 다른 클라우드 서비스와 Azure AD를 공유하는 경우에는, 해당 서비스에 추가된 사용자에 대한 액세스를 갖게 됩니다. 각 사용자에게 라이선스가 할당될 때까지 이러한 사용자는 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 대한 라이선스를 보유하지 못합니다.
+2.  Intune 사용자 라이선스를 할당할 사용자 계정을 선택한 후 **제품 라이선스** > **편집**을 선택합니다.
 
-> [!TIP]
-> [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 대한 라이선스를 할당하거나 해지하는 옵션을 사용할 수 없는 경우에는 [Enterprise Mobility Suite + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 사용할 때 제공되는 옵션과 같은 볼륨 라이선스 옵션이 구독에 포함되어 있는 것일 수 있습니다. 라이선스를 할당하거나 해지하는 방법에 대한 자세한 내용은 라이선스 옵션에 대한 설명서를 참조하십시오.
+3.  **Intune** 또는 **Enterprise Mobility + Security**를 **켬**으로 전환하고 **저장**을 선택합니다.
 
-## <a name="assign-an-intune-user-license"></a>Intune 사용자 라이선스 할당
-
-[Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)을 사용하여 클라우드 기반 사용자를 수동으로 추가하고, 클라우드 기반 사용자 계정 및 온-프레미스 Active Directory에서 Azure AD로 동기화한 계정 양쪽 모두에 대해 라이선스를 할당합니다.
-
-1.  테넌트 관리자 자격 증명을 사용하여 [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에 로그인한 후 **사용자** > **모든 사용자**를 선택합니다.
-
-2.  Intune 사용자 라이선스를 할당하고 싶은 사용자 계정을 선택하고, **Microsoft Intune** (독립 실행형) 또는 **Enterprise Mobility Suite** 중 하나를 선택합니다.
-
-3.  이제 사용자 계정은 서비스를 사용하고 장치를 관리에 등록하는 데 필요한 권한이 생겼습니다.
+4. 이제 사용자 계정은 서비스를 사용하고 장치를 관리에 등록하는 데 필요한 권한이 생겼습니다.
 
 > [!NOTE]
-> 장치를 등록한 사용자는 콘솔에 표시됩니다.
+> 사용자는 장치를 등록한 후에만 관리 콘솔에 표시됩니다. 또한 사용자 그룹을 선택하여 동시에 편집할 수 있습니다. 즉, 선택한 모든 사용자에 대한 라이선스를 추가하거나 바꾸도록 선택할 수 있습니다.
 
-### <a name="use-powershell-to-selectively-manage-ems-user-licenses"></a>PowerShell을 사용하여 EMS 사용자 라이선스를 선택적으로 관리
+## <a name="use-powershell-to-selectively-manage-ems-user-licenses"></a>PowerShell을 사용하여 EMS 사용자 라이선스를 선택적으로 관리
 Microsoft Enterprise Mobility + Security(이전 명칭 Enterprise Mobility Suite)를 사용하는 조직에는 EMS 패키지의 Intune 서비스 또는 Azure Active Directory Premium만 필요한 사용자가 있을 수 있습니다. [Azure Active Directory PowerShell cmdlet](https://msdn.microsoft.com/library/jj151815.aspx)을 사용하여 한 가지 서비스 또는 서비스 하위 집합을 할당할 수 있습니다.
 
 EMS 서비스에 대해 사용자 라이선스를 선택적으로 할당하려면, [Windows PowerShell용 Azure Active Directory 모듈](https://msdn.microsoft.com/library/jj151815.aspx#bkmk_installmodule)이 설치된 컴퓨터에서 관리자로 PowerShell을 엽니다. PowerShell은 로컬 컴퓨터 또는 ADFS 서버에 설치할 수 있습니다.

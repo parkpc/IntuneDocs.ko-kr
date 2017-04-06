@@ -15,8 +15,9 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: c09c0b5d76a3035b2af82fe32d4b6c6e35d06baf
-ms.openlocfilehash: 46b140db09163187c68385d0919edb9a58056923
+ms.sourcegitcommit: c66226b7fc31f91669c4f4f0693ccbd7c679189f
+ms.openlocfilehash: e71ebacec9d7b890b41e7650c8c50f42952c6326
+ms.lasthandoff: 03/29/2017
 
 
 ---
@@ -32,14 +33,14 @@ ms.openlocfilehash: 46b140db09163187c68385d0919edb9a58056923
 
 -   **MDM 채널**을 사용하여 앱을 배포하고 관리할 수도 있습니다.  이렇게 하려면 MDM 솔루션에 장치를 등록해야 합니다. **정책 관리된** 앱 또는 다른 관리되는 앱일 수 있습니다.
 
-iOS 장치의 **관리에서 열기** 기능은 **MDM 채널**을 통해 장치에 배포된 앱 간에만 파일 전송이 발생하도록 제한할 수 있습니다. 관리에서 열기 제한 사항은 구성 설정에서 설정되며 MDM 소프트웨어를 사용하여 배포됩니다.  사용자가 배포된 앱을 설치하면 설정한 제한 사항이 적용됩니다.
+iOS 장치의 **관리에서 열기** 기능은 **MDM 채널**을 통해 배포된 앱 간에만 파일 전송이 발생하도록 제한할 수 있습니다. 관리에서 열기 제한 사항은 구성 설정에서 지정되며 MDM 솔루션을 사용하여 배포됩니다.  사용자가 배포된 앱을 설치하면 설정한 제한 사항이 적용됩니다.
 
 ##  <a name="manage-data-transfer-between-ios-apps"></a>iOS 앱 간의 데이터 전송 관리
 앱 보호 정책을 iOS **Open in management**(열기 앱 관리) 기능과 함께 사용하여 다음과 같이 회사 데이터를 보호할 수 있습니다.
 
 -   **MDM 솔루션에서 관리되지 않는 직원 소유 장치:** [앱 보호 정책 설정](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)을 **Allow app to transfer data to only managed apps**(앱에서 관리되는 앱으로만 데이터를 전송할 수 있도록 허용)로 설정할 수 있습니다. 최종 사용자가 정책 관리된 앱이 아닌 앱에서 보호된 파일을 여는 경우에는 파일을 읽을 수 없습니다.
 
--   **Intune에서 관리되는 장치:** Intune에 등록된 장치의 경우 앱 보호 정책이 있는 앱과 Intune을 통해 배포된 다른 관리되는 iOS 앱 간의 데이터 전송은 자동으로 허용됩니다. 앱 보호 정책이 있는 앱 간에 데이터 전송을 허용하려면 **Allow app to transfer data to only managed apps**(앱에서 관리되는 앱으로만 데이터를 전송할 수 있도록 허용) 설정을 사용하도록 설정합니다. **관리에서 열기** 기능을 사용하여 Intune을 통해 배포된 앱 간의 데이터 전송을 제어할 수 있습니다.   
+-   **Intune에서 관리되는 장치:** Intune에 등록된 장치의 경우 앱 보호 정책이 있는 앱과 Intune을 통해 배포된 다른 관리되는 iOS 앱 간의 데이터 전송은 자동으로 허용됩니다. 앱 보호 정책이 있는 앱 간에 데이터 전송을 허용하려면 **앱에서 관리되는 앱으로만 데이터 전송 허용** 설정을 사용하도록 설정합니다. **관리에서 열기** 기능을 사용하여 Intune을 통해 배포된 앱 간의 데이터 전송을 제어할 수 있습니다.   
 
 -   **타사 MDM 솔루션으로 관리되는 장치:** iOS **관리에서 열기** 기능을 사용하여 관리되는 앱으로만 데이터 전송을 제한할 수 있습니다.
 타사 MDM 솔루션을 사용하여 배포하는 앱도 Intune에서 구성한 앱 보호 정책과 연결되도록 하려면 [사용자 UPN 설정 구성](#configure-user-upn-setting-for-third-party-emm) 연습에서 설명한 대로 사용자 UPN 설정을 구성해야 합니다.  사용자 UPN 설정으로 앱을 배포하면 최종 사용자가 회사 계정을 사용하여 로그인할 때 앱 보호 정책이 앱에 적용됩니다.
@@ -61,7 +62,7 @@ iOS 장치의 **관리에서 열기** 기능은 **MDM 채널**을 통해 장치�
 
       예: [‘IntuneMAMUPN’, ‘jondoe@microsoft.com’]
 
-  2.  등록된 장치에 타사 MDM 공급자를 사용하여 Open in management(열기 앱 관리) 정책을 배포합니다.
+  2.  등록된 장치에 타사 MDM 공급자를 사용하여 다음에서 열기 관리 정책을 배포합니다.
 
 
 ### <a name="example-1-admin-experience-in-third-party-mdm-console"></a>예제 1: 타사 MDM 콘솔의 관리 환경
@@ -76,9 +77,9 @@ iOS 장치의 **관리에서 열기** 기능은 **MDM 채널**을 통해 장치�
 
 |타사 MDM 공급자| 구성 키 | 값 형식 | 구성 값|
 | ------- | ---- | ---- | ---- |
-|VMware AirWatch| IntuneMAMUPN | 문자열 | {UserPrincipalName}|
-|MobileIron | IntuneMAMUPN | 문자열 | ${userUPN} **또는** ${userEmailAddress} |
-
+| VMware AirWatch | IntuneMAMUPN | 문자열 | {UserPrincipalName}|
+| MobileIron Core | IntuneMAMUPN | 문자열 | $EMAIL$ **또는** $USER_UPN$ |
+| MobileIron Cloud | IntuneMAMUPN | 문자열 | ${userUPN} **또는** ${userEmailAddress} |
 
 ### <a name="example-2-end-user-experience"></a>예제 2: 최종 사용자 환경
 
@@ -95,7 +96,7 @@ iOS 장치의 **관리에서 열기** 기능은 **MDM 채널**을 통해 장치�
 
 5.  로그인하면 앱 보호 정책 설정이 Word 앱에 적용됩니다.
 
-6.  이제 데이터 전송이 성공하고 앱의 문서에 회사 ID로 태그가 지정됩니다. 또한 데이터가 회사 컨텍스트에서 처리되고 정책 설정이 그에 따라 적용됩니다.
+6.  이제 파일이 전송되며 앱의 문서에 회사 ID로 태그가 지정됩니다. 또한 파일이 회사 컨텍스트에서 처리되고 정책 설정이 그에 따라 적용됩니다.
 
 ### <a name="validate-user-upn-setting-for-third-party-emm"></a>타사 EMM에 대한 사용자 UPN 설정 확인
 
@@ -109,9 +110,4 @@ iOS 장치의 **관리에서 열기** 기능은 **MDM 채널**을 통해 장치�
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune을 통해 앱 보호 정책을 사용하여 앱 데이터 보호](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 
