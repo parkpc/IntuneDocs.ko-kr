@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 547330c05b7fbdd2981e49320c913d8109563384
 ms.openlocfilehash: f8f1359ff08b67261b23a694a4f6bbbeca24fa2a
+ms.lasthandoff: 02/17/2017
 
 
 ---
@@ -97,9 +98,4 @@ PC에 앱을 설치하려면 앱이 사용자 조작 없이 자동으로 설치�
 앱을 만들면 다음 단계는 배포입니다. 자세한 내용은 [Microsoft Intune에서 앱 배포](deploy-apps.md)를 참조하세요.
 
 Windows PC에 소프트웨어를 배포하기 위한 팁과 요령에 대해 자세히 알아보려면 [Support Tip: Best Practices for Intune Software Distribution to PC’s](https://blogs.technet.microsoft.com/intunesupport/2016/06/13/support-tip-best-practices-for-intune-software-distribution-to-pcs/)(지원 팁: PC에 Intune 소프트웨어 배포를 위한 모범 사례) 블로그 게시물을 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 
