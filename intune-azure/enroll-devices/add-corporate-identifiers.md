@@ -16,9 +16,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: e76d66768ac58df25313e102b7f60d2bc7bbc59b
-ms.openlocfilehash: e0a853c34c6d38e8fae6f4712ba6c2b767e5d0ba
-ms.lasthandoff: 03/22/2017
+ms.sourcegitcommit: 4ebd74c77145464574a1fed878ec4dbc2eb3c271
+ms.openlocfilehash: 7bb8168c442a3340e8c185f1908acd9be15cab05
+ms.lasthandoff: 04/05/2017
 
 ---
 
@@ -27,6 +27,8 @@ ms.lasthandoff: 03/22/2017
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
 IT 관리자 역할로, IMEI(International Mobile Equipment Identity) 번호가 나열된 쉼표로 구분된 값(.csv) 파일을 만든 후 가져와서 회사 소유의 장치를 식별할 수 있습니다. 각 IMEI 번호에는 관리 용도로 목록에 지정된 세부 정보를 포함할 수 있습니다.
+
+회사 소유 iOS 장치의 일련 번호를 업로드하면 일련 번호는 회사 등록 프로필과 페어링됩니다. 그 다음에 장치를 회사 소유로 표시하려면 Apple의 DEP(장비 등록 프로그램) 또는 Apple Configurator를 사용하여 장치를 등록해야 합니다. 
 
 ## <a name="create-a-csv-file"></a>.csv 파일 만들기
 목록을 만들려면 헤더 없이 2열로 구성된 쉼표로 구분된 값(.csv) 목록을 만듭니다. 왼쪽 열에 IMEI 식별자를 추가하고 오른쪽 열에 세부 정보를 추가합니다. 세부 정보는 128자로 제한됩니다. 현재는 .csv 파일당 500개의 행으로 제한됩니다.

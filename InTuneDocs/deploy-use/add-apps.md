@@ -15,9 +15,9 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 0945fb2f67c6cc49ca8d10bb5c24f3c4a5f9b2c5
-ms.openlocfilehash: c65dc8ec22f717c5dcce51bb3c45d65bad8d8bde
-ms.lasthandoff: 02/28/2017
+ms.sourcegitcommit: a85b9f603e022b3296cb16754effd06087074a72
+ms.openlocfilehash: c294a0abaf69017b6c098a95870fc035f28d0787
+ms.lasthandoff: 04/01/2017
 
 
 ---
@@ -37,7 +37,7 @@ Microsoft Intune을 사용하여 앱의 배포를 시작하기 전에 이 항목
 |**Windows Installer(&#42;.exe, &#42;.msi)**|이런 종류의 앱은 사용자 입력 없이 자동 설치를 지원해야 합니다. 앱 설명서에는 앱을 자동으로 설치하기 위한 관련 명령줄 옵션이 있어야 합니다(예: **/q**). 일반 명령줄 옵션의 목록은 [Microsoft Windows 설치 관리자 도구에 대한 명령줄 스위치](https://support.microsoft.com/en-us/kb/227091)에서 확인할 수 있습니다.<br><br>앱의 설치 프로그램에 필요한 모든 추가 파일 및 폴더는 앱 설치 파일에 대해 사용자가 지정한 위치에서 사용할 수 있어야 합니다.<br><br>대부분의 경우 Windows Installer(.msi) 및 Windows Installer 패치(.msp) 파일에는 Intune에서 명령줄 인수를 설치할 필요가 없습니다. 앱 설명서를 확인하십시오.<br><br>명령줄 인수가 필요한 경우에는 이름=값 쌍(예: TRANSFORMS=custom_transform.mst)으로 입력해야 합니다.<br><br>이 앱 유형은 Intune 소프트웨어 클라이언트를 실행하는 PC에만 적용됩니다.|
 |**Android용 앱 패키지(&#42;.apk)**|Android 앱을 배포하려면 유효한 .apk 패키지가 있어야 합니다.|
 |**iOS용 앱 패키지(&#42;.ipa)**|iOS 앱을 배포하려면 유효한 .ipa 패키지가 있어야 합니다.<br><br>.ipa 패키지는 Apple에 의해 서명되어야 하고, 프로비전 프로필에 있는 만료 날짜가 유효해야 합니다. Intune에서는 엔터프라이즈 인증서 iOS 응용 프로그램을 배포할 수 있습니다.<br><br>일부 Apple 개발자 인증서 앱은 지원되지 않습니다.<br><br>회사가 iOS Developer Enterprise Program에 등록되어 있어야 합니다.<br><br>조직의 방화벽에서 iOS 프로비전 및 인증 웹 사이트에 대한 액세스를 허용해야 합니다.<br><br>해당 앱에서는 매니페스트 파일(.plist)을 배포할 필요가 없습니다.|
-|**Windows Phone 앱 패키지(&#42;.xap, .appx, .appxbundle)**|앱을 배포하려면 기업용 모바일 코드 서명 인증서가 필요합니다. 자세한 내용은 [Microsoft Intune을 사용한 Windows Phone 관리 설정](set-up-windows-phone-management-with-microsoft-intune.md)을 참조하세요.|
+|**Windows Phone 앱 패키지(&#42;.xap, .appx, .appxbundle)**|앱을 배포하려면 기업용 모바일 코드 서명 인증서가 필요합니다. 자세한 내용은 [Microsoft Intune을 사용한 Windows Phone 관리 설정](set-up-windows-device-management-with-microsoft-intune.md)을 참조하세요.|
 |**Windows 앱 패키지(.appx, .appxbundle)**|앱을 배포하려면 기업용 모바일 코드 서명 인증서가 필요합니다. 자세한 내용은 [Microsoft Intune을 사용한 Windows 장치 관리 설정](set-up-windows-device-management-with-microsoft-intune.md)을 참조하세요.|
 |**MDM을 사용하는 Windows Installer(&#42;.msi)**|이 앱을 사용하여 Windows Installer 기반 앱을 만들어 Windows 10을 실행하는 등록된 PC(MSM 관리)에 배포할 수 있습니다. 이러한 PC는 MDM(모바일 장치 관리)을 통해 관리됩니다.<br /><br />확장명이 .msi인 파일 하나만 업로드할 수 있습니다.<br><br>파일의 제품 코드와 제품 버전을 앱 검색에 사용합니다.<br><br>앱의 기본 다시 시작 동작이 사용됩니다. Intune에서 다시 시작을 제어하지는 않습니다.<br><br>단일 사용자에 대해 사용자별 MSI 패키지가 설치됩니다.<br><br>장치의 모든 사용자에 대해 컴퓨터별 MSI 패키지가 설치됩니다.<br><br>이중 모드 MSI 패키지는 현재 장치의 모든 사용자에 대해서만 설치됩니다.<br><br>각 버전의 MSI 제품 코드가 동일하면 앱 업데이트가 지원됩니다.<br>
 모든 소프트웨어 설치 관리자 앱 유형은 클라우드 저장소 공간에 업로드됩니다.
