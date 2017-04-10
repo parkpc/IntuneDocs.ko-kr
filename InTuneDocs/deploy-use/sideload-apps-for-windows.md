@@ -136,7 +136,7 @@ Windows 및 Windows Phone 모바일 앱을 배포하는 데 사용되는 Symante
 
 1.  기간 업무 앱의 최신 버전에 서명합니다.
 
-2.  [Intune 관리 콘솔](https://admin.manage.microsoft.com)(https://admin.manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **Windows Phone**으로 이동한 후에 **서명된 앱 업로드**를 클릭합니다.
+2.  [Intune 관리 콘솔](https://admin.manage.microsoft.com)(https://admin.manage.microsoft.com) 을 열고 **관리** &gt; **모바일 장치 관리** &gt; **Windows Phone**으로 이동한 후에 **서명된 앱 업로드**를 클릭합니다.
 
 3.  새로 서명된 회사 포털을 업로드합니다. 새로 서명된 SSP.xap와 Symantec에서 받은 새로운 .PFX 파일 또는 이러한 새 .PFX 파일로 생성한 응용 프로그램 등록 토큰이 필요합니다.
 
@@ -160,7 +160,7 @@ Windows 및 Windows Phone 모바일 앱을 배포하는 데 사용되는 Symante
 5. 회사 포털 앱을 Intune에 업로드하기 전에 패키지를 포함하는 폴더(예: C:&#92;Company Portal)를 다음과 같은 방법으로 만듭니다.
   1. C:\Company Portal에 회사 포털 패키지를 배치합니다. 이 위치에 Dependencies 하위 폴더도 만듭니다.  
   ![APPXBUN 파일과 함께 저장된 Dependencies 폴더의 이미지](../media/Win10CP-Dependencies-save.png)
-  2. Dependencies 폴더에&9;개의 종속성 패키지를 배치합니다.  
+  2. Dependencies 폴더에 9개의 종속성 패키지를 배치합니다.  
   종속성을 이 형식으로 배치하지 않는 경우 Intune은 패키지 업로드 도중에 패키지를 인식 및 업로드할 수 없습니다. 이에 따라 업로드에 실패하고 다음과 같은 오류가 표시됩니다.  
   ![이 소프트웨어 설치 관리자의 Windows 앱 종속성이 응용 프로그램 폴더에 없습니다. 이 응용 프로그램을 계속 만들고 배포할 수 있지만 누락된 Windows 앱 종속성이 제공될 때까지 실행되지 않습니다.](../media/Win10CP-error-message.png)
 6. Intune으로 돌아간 후 회사 포털 앱을 새 앱으로 업로드합니다. 원하는 대상 사용자 집합에게 필수 앱으로 배포합니다.  
