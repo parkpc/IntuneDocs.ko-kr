@@ -63,7 +63,7 @@ Intune Exchange Connector에서 사용되는 Active Directory 사용자 계정�
 
 ## <a name="download-the-on-premises-exchange-connector-software-installation-package"></a>온-프레미스 Exchange Connector 소프트웨어 설치 패키지 다운로드
 
-1. 온-프레미스 Exchange Connector에 대해 지원되는 Windows Server 운영 체제에서 Exchange Server를 사용할 라이선스를 보유하고 Exchange 테넌트의 관리자인 사용자 계정으로 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com) (http://manage.microsoft.com)을 엽니다.
+1. 온-프레미스 Exchange Connector에 대해 지원되는 Windows Server 운영 체제에서 Exchange Server를 사용할 라이선스를 보유하고 Exchange 테넌트의 관리자인 사용자 계정으로 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com) ( http://manage.microsoft.com )을 엽니다.
 ![Exchange 연결 설정 열기](../media/ExchangeConnector.gif)
 
 2.  작업 영역 바로 가기 창에서 **관리**>**모바일 장치 관리** > **Microsoft Exchange**>**Exchange 연결 설정**으로 이동합니다.
