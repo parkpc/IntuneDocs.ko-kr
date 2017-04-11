@@ -1,25 +1,27 @@
 ---
-title: "내게 필요한 옵션 기능 | Microsoft Intune"
+title: "접근성 기능 | Microsoft 문서"
 description: "장애가 있는 사용자가 더욱 쉽게 액세스할 수 있도록 하는 Intune의 기능에 알아봅니다."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
-ms.date: 08/24/2016
-ms.topic: article
+ms.date: 12/30/2016
+ms.topic: reference
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6d7ed613-be97-4973-9532-8cb5bd434a1b
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 55bdbaf5e521caa05d44bc45d4ec226dc05bf64b
-ms.openlocfilehash: 819fdb5bf4fd06a2b3b5010057cdd003e46f4758
+ms.sourcegitcommit: 9e3d509cf404c89b27f92ad54c900e927ce3878b
+ms.openlocfilehash: c1b585da0b2875f393a0cbe929f11d3a04875905
 
 
 ---
 
-# Microsoft Intune의 내게 필요한 옵션 기능
+# <a name="accessibility-features-of-microsoft-intune"></a>Microsoft Intune의 내게 필요한 옵션 기능
 Microsoft Windows의 내게 필요한 옵션 기능과 도구 외에 다음 기능을 통해서도 장애가 있는 사용자가 [!INCLUDE[wit_firstref](./includes/wit_firstref_md.md)]을 더욱 쉽게 사용할 수 있습니다.
 
 -   바로 가기 키 사용
@@ -27,7 +29,7 @@ Microsoft Windows의 내게 필요한 옵션 기능과 도구 외에 다음 기�
 > [!NOTE]
 > [!INCLUDE[accessibility6](./includes/accessibility6_md.md)]
 
-## 바로 가기 키 사용
+## <a name="using-keyboard-shortcuts"></a>바로 가기 키 사용
 
 |이러한 기능은 다음과 같습니다.|이 키보드 바로 가기 키를 사용합니다.|
 |--------------|------------------------------|
@@ -47,7 +49,6 @@ Microsoft Windows의 내게 필요한 옵션 기능과 도구 외에 다음 기�
 
 
 
-
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Dec16_HO5-->
 
 

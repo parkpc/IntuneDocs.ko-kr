@@ -1,25 +1,27 @@
----
-title: "Microsoft의 내게 필요한 옵션 제품 및 서비스 | Microsoft Intune"
-description: 
+﻿---
+title: "Microsoft의 내게 필요한 옵션 제품 및 서비스 | Microsoft 문서"
+description: "Microsoft의 내게 필요한 옵션 제품 및 서비스에 대해 설명합니다."
 keywords: 
-author: 
-manager: jeffgilb
-ms.date: 04/28/2016
-ms.topic: article
+author: robstackmsft
+ms.author: robstack
+manager: angrobe
+ms.date: 12/30/2016
+ms.topic: reference
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b23d4007-1866-42e9-b6cb-d45408562da4
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: 966677b7d9488d37d44f42ff8ef8bbac7a5d3914
+ms.sourcegitcommit: 9e3d509cf404c89b27f92ad54c900e927ce3878b
+ms.openlocfilehash: a848e92be9896016159533c0ba7291fe193a217a
 
 
 ---
 
-# Microsoft의 내게 필요한 옵션 제품 및 서비스
+# <a name="accessibility-products-and-services-from-microsoft"></a>Microsoft의 내게 필요한 옵션 제품 및 서비스
 [!INCLUDE[accessibility1](./includes/accessibility1_md.md)]
 
 -   [!INCLUDE[accessibility2](./includes/accessibility2_md.md)]
@@ -33,16 +35,16 @@ ms.openlocfilehash: 966677b7d9488d37d44f42ff8ef8bbac7a5d3914
 > [!NOTE]
 > [!INCLUDE[accessibility6](./includes/accessibility6_md.md)]
 
-## Windows의 내게 필요한 옵션 기능
+## <a name="accessibility-features-of-windows"></a>Windows의 내게 필요한 옵션 기능
 [!INCLUDE[accessibility7](./includes/accessibility7_md.md)]
 
-### 무료 단계별 자습서
+### <a name="free-step-by-step-tutorials"></a>무료 단계별 자습서
 [!INCLUDE[accessibility8](./includes/accessibility8_md.md)]
 
-### Windows용 보조 기술 제품
+### <a name="assistive-technology-products-for-windows"></a>Windows용 보조 기술 제품
 [!INCLUDE[accessibility9](./includes/accessibility9_md.md)]
 
-## 다른 형식의 설명서
+## <a name="documentation-in-alternative-formats"></a>다른 형식의 설명서
 [!INCLUDE[accessibility10](./includes/accessibility10_md.md)]
 
 [!INCLUDE[accessibility11](./includes/accessibility11_md.md)]
@@ -55,7 +57,7 @@ ms.openlocfilehash: 966677b7d9488d37d44f42ff8ef8bbac7a5d3914
 
 [!INCLUDE[accessibility12](./includes/accessibility12_md.md)]
 
-## 청각 장애인을 위한 고객 서비스
+## <a name="customer-service-for-people-with-hearing-impairments"></a>청각 장애인을 위한 고객 서비스
 [!INCLUDE[accessibility13](./includes/accessibility13_md.md)]
 
 -   [!INCLUDE[accessibility14](./includes/accessibility14_md.md)]
@@ -64,12 +66,11 @@ ms.openlocfilehash: 966677b7d9488d37d44f42ff8ef8bbac7a5d3914
 
 [!INCLUDE[accessibility16](./includes/accessibility16_md.md)]
 
-## 자세한 내용
+## <a name="for-more-information"></a>자세한 내용
 [!INCLUDE[accessibility17](./includes/accessibility17_md.md)]
 
 
 
-
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Dec16_HO5-->
 
 
