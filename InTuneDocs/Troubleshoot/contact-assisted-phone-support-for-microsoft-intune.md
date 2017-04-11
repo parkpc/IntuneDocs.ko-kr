@@ -1,11 +1,11 @@
----
-title: "담당자 전화 지원 | Microsoft Intune"
-description: "Intune 지원 전화 번호"
-keywords: 
-author: staciebarker
-ms.author: staciebarker
+﻿---
+title: "담당자 전화 지원 | Microsoft 문서"
+description: "다음은 Microsoft Intune 지원 전화 번호입니다."
+keywords: "업무 시간"
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 08/02/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,18 @@ ms.technology:
 ms.assetid: 01c096eb-088b-4d2b-a1fa-dce6cdb12294
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 3a081109cd499d3bdda75cb6c8a4dab9d9d28fab
-ms.openlocfilehash: 67eec76113deca2e3dabe74bff9cabfeb41fcbce
+ms.sourcegitcommit: d05c9d7a78474c19e142bca94e232289fbfba1d9
+ms.openlocfilehash: d5460d5e68fcc5346c2e0b745ea694c6875b5480
+ms.lasthandoff: 01/25/2017
 
 
 ---
 
 # <a name="contact-assisted-phone-support-for-microsoft-intune"></a>Microsoft Intune의 담당자 전화 지원
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 ## <a name="phone-numbers-and-business-hours"></a>전화 번호와 업무 시간
 
@@ -115,9 +119,4 @@ ms.openlocfilehash: 67eec76113deca2e3dabe74bff9cabfeb41fcbce
 |우루과이|연중 무휴|월요일-금요일<br /><br />09:00 – 17:00 UYST(UTC -2)|스페인어&#42;, 영어|000-411-002-7131||
 |베네수엘라|연중 무휴|월요일-금요일<br /><br />09:00 – 17:00 VET(UTC -4:30)|스페인어&#42;, 영어|0-800-100-8763||
 &#42; 전화 통역이 지원됩니다.
-
-
-
-<!--HONumber=Oct16_HO3-->
-
 

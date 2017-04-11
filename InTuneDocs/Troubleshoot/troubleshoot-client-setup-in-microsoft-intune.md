@@ -1,11 +1,11 @@
----
-title: "클라이언트 설정 문제 해결 | Microsoft Intune"
+﻿---
+title: "클라이언트 설정 문제 해결 | Microsoft 문서"
 description: "일반적인 클라이언트 설정 문제를 해결합니다."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 08/02/2016
+ms.date: 02/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,21 +13,26 @@ ms.technology:
 ms.assetid: e46d292b-1d16-46db-a87f-d53eefa4d22a
 ms.reviewer: tscott
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 889a13bd50943b9cdf0f40d50b6f8ce263dde56d
-ms.openlocfilehash: e37b5da81150f89fce1ee3d57bd84de0ff7fb76f
+ms.sourcegitcommit: e7beff3bf4579d9fb79f0c3f2fb8fbf9bb1ea160
+ms.openlocfilehash: 9de1c3f8c3dbb7a5e00c5384cc7321aedfa5b9b5
+ms.lasthandoff: 02/22/2017
 
 
 ---
 
 # <a name="troubleshoot-client-setup-in-microsoft-intune"></a>Microsoft Intune에서 클라이언트 설정 문제 해결
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 다음 정보를 사용하여 일반적인 클라이언트 설정 문제를 해결할 수 있습니다. 이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
 
 ## <a name="client-installation-fails"></a>클라이언트 설치 실패
 
 -   [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에 컴퓨터에 대한 클라이언트 소프트웨어 배포 경고가 표시되지 않으면, 컴퓨터의 인터넷 연결 및 프록시 구성을 확인하고 컴퓨터가 서비스 URL([https://manage.microsoft.com](https://manage.microsoft.com/))과 통신할 수 있는지 확인합니다. 그런 다음 클라이언트 소프트웨어 설치를 다시 시도해 보세요.
 
--    **관리** 작업 영역에서 알림 규칙을 구성하면 클라이언트 소프트웨어 배포 실패 경고가 발생할 때 선택한 수신자에게 전자 메일을 보낼 수 있습니다. 자세한 내용은 [Microsoft Intune 경고 알림 받기](/intune/deploy-use/get-notified-by-alerts)항목을 참조하세요.
+-   **관리** 작업 영역에서 알림 규칙을 구성하면 클라이언트 소프트웨어 배포 실패 경고가 발생할 때 선택한 수신자에게 전자 메일을 보낼 수 있습니다. 자세한 내용은 [Microsoft Intune 경고 알림 받기](/intune/deploy-use/get-notified-by-alerts)항목을 참조하세요.
 
 -   클라이언트 소프트웨어 배포에 실패하면 Intune에 **클라이언트 소프트웨어 배포 실패**라는 중요한 경고가 표시됩니다. 이 경고는 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)의 **시스템 개요** 페이지 및 **경고** 페이지에 표시됩니다. 경고를 확인하는 방법:
 
@@ -35,7 +40,7 @@ ms.openlocfilehash: e37b5da81150f89fce1ee3d57bd84de0ff7fb76f
 
 2.  **경고 개요** 페이지에서 다음 정보를 검토할 수 있습니다.
 
-    -   상위 3개 경고(날짜, 범주 또는 심각도를 기준으로 정렬 가능)
+    -   상위&3;개 경고(날짜, 범주 또는 심각도를 기준으로 정렬 가능)
 
     -   총 활성 경고 수
 
@@ -70,7 +75,7 @@ PC에 중요 소프트웨어 업데이트가 없는 것이 원인일 수 있습�
 **해결 방법:** [Microsoft Intune에서 소프트웨어 업데이트를 사용하여 Windows PC를 최신 상태로 유지](/intune/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune) 항목의 설명에 따라, 소프트웨어 업데이트 정책에 중요 업데이트 설치가 활성화되어 있는지 확인합니다.
 
 
-## <a name="microsoft-intune-policyrelated-errors-in-policyplatformlog"></a>policyplatform.log의 Microsoft Intune 정책 관련 오류
+## <a name="microsoft-intune-policy-related-errors-in-policyplatformlog"></a>policyplatform.log의 Microsoft Intune 정책 관련 오류
 비 MDM Windows 장치의 경우 policyplatform.log 파일의 정책 오류는 장치의 Windows UAC(사용자 계정 컨트롤)에서 기본값이 아닌 설정을 사용한 결과일 수 있습니다. 기본값이 아닌 일부 UAC 설정은 Microsoft Intune 클라이언트 설치와 정책 실행에 영향을 줄 수 있습니다.
 
 ### <a name="to-resolve-uac-issues"></a>UAC 문제를 해결하려면
@@ -116,17 +121,22 @@ PC에 중요 소프트웨어 업데이트가 없는 것이 원인일 수 있습�
 |**0x80070032**|클라이언트 컴퓨터에 클라이언트 소프트웨어를 설치하기 위한 필수 구성 요소가 하나 이상 없습니다.|클라이언트 컴퓨터에 필수 업데이트가 모두 설치되었는지 확인한 다음 클라이언트 소프트웨어를 다시 설치해 봅니다. 클라이언트 소프트웨어를 설치하기 위한 필수 조건에 대한 자세한 내용은 [Microsoft Intune의 네트워크 인프라 요구 사항](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune) 항목을 참조하세요.|
 |**0x80043008**|Microsoft Online Management Updates 서비스를 시작할 수 없습니다.|[Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md) 항목의 설명에 따라, 지원 센터에 문의하세요.|
 |**0x80043009**|클라이언트 컴퓨터가 이미 서비스에 등록되어 있습니다.|클라이언트 컴퓨터를 서비스에 다시 등록하기 전에 사용 중지해야 합니다. 지침은 [Microsoft Intune 관리에서 장치 사용 중지](/intune/deploy-use/retire-devices-from-microsoft-intune-management) 항목을 참조하세요.|
+|**0x8004300A**|(21단계) 컴퓨터 범위가 아니라 사용자 범위에서 설치하기 위해 GPO에 등록 패키지를 배포할 때 오류가 발생합니다. |컴퓨터 범위에서 GPSI를 통해 GPO의 대상이 올바르게 지정되었는지 확인합니다. 이 주제와 관련된 포럼 게시물을 보려면 이 [TechNet 포럼](https://social.technet.microsoft.com/Forums/en-US/bb9fa71c-c132-4954-abb0-70be8acbd925/failed-to-install-windows-intune?forum=microsoftintuneprod)을 참조하세요.|
 |**0x8004300B**|클라이언트를 실행 중인 Windows 버전이 지원되지 않으므로 클라이언트 소프트웨어 설치 패키지를 실행할 수 없습니다.|Intune에서 클라이언트 컴퓨터에서 실행 중인 Windows 버전을 지원하지 않습니다. 지원되는 운영 체제 목록은 [Microsoft Intune의 네트워크 인프라 요구 사항](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune) 항목을 참조하세요.|
-|**0xAB2**|Windows Installer에서 사용자 지정 작업에 대한 VBScript 런타임에 액세스할 수 없습니다.|이 오류는 DLL(동적 연결 라이브러리)에 기반한 사용자 지정 작업으로 인해 발생합니다. DLL 문제를 해결하려면 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues(Microsoft 지원 기술 자료 198038: 패키지 및 배포 문제에 유용한 도구)](http://go.microsoft.com/fwlink/?LinkID=234255)에 설명된 도구를 사용해야 할 수 있습니다.|
+|**0xAB2**|Windows Installer에서 사용자 지정 작업에 대한 VBScript 런타임에 액세스할 수 없습니다.|이 오류는 DLL(동적 연결 라이브러리)에 기반한 사용자 지정 작업으로 인해 발생합니다. DLL 문제를 해결하려면 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues(Microsoft 지원 기술 자료&19803;8: 패키지 및 배포 문제에 유용한 도구)](http://go.microsoft.com/fwlink/?LinkID=234255)에 설명된 도구를 사용해야 할 수 있습니다.|
 |**0x8004300f**|System Center Configuration Manager 클라이언트가 이미 설치되어 있어서 소프트웨어를 설치할 수 없습니다.|Configuration Manager 클라이언트를 제거한 후 클라이언트 소프트웨어 설치를 다시 시도하십시오.|
 |**0x80043010**|OMADM(Open Mobile Alliance Device Management) 클라이언트가 이미 설치되어 있어서 소프트웨어를 설치할 수 없습니다.|OMADM 클라이언트를 등록 해제한 후 클라이언트 소프트웨어 설치를 다시 시도하십시오.|
 설치 문제가 지속되면 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라, 지원 센터에 문의합니다. 지원 엔지니어가 확인할 수 있도록 클라이언트 컴퓨터 등록 로그(%*programfiles*%\Microsoft\OnlineManagement\Logs\Enrollment.log 및 %*userprofile*%\AppData\Local\Microsoft\OnlineManagement\Logs\Enrollement.log에 있음) 및 Windows 업데이트 로그(%*windir*%\windowsupdate.log)를 설정합니다.
 
+## <a name="what-to-do-if-endpoint-protection-is-not-uninstalled-when-you-uninstall-the-client"></a>클라이언트를 제거할 때 Endpoint Protection이 제거되지 않는 경우 수행할 작업
+
+경우에 따라 위의 명령을 실행한 후 호스트 보호(Endpoint Protection) 에이전트가 남아 있을 수 있습니다. 이런 경우 관리자 권한 명령 프롬프트에서 다음 명령을 실행합니다.
+
+    ```
+    "C:\Program Files\Managed Defender\Setup.exe" /x /q /s
+    ```
+
+
 ### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
-
-
-
-<!--HONumber=Nov16_HO1-->
-
 

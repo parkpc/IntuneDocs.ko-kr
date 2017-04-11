@@ -1,10 +1,11 @@
----
-title: "Endpoint Protection 문제 해결 | Microsoft Intune"
+﻿---
+title: "Endpoint Protection 문제 해결 | Microsoft 문서"
 description: "Microsoft Intune Endpoint Protection을 사용하는 동안 문제를 해결합니다."
 keywords: 
 author: nathbarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 08/02/2016
+ms.date: 01/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,21 +13,23 @@ ms.technology:
 ms.assetid: e31df2d2-bb1b-491b-9a71-04e0b18829c1
 ms.reviewer: tscott
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
-ms.openlocfilehash: 71f976fba252950fd9a8818fb27fbbb294369894
+ms.sourcegitcommit: a43fc6fcd33f65725d325060a513d5380baae10f
+ms.openlocfilehash: b47469c8c5d35098e2e932e5ae9c9de4f5cdafb8
 
 
 ---
 
-# Troubleshoot Endpoint Protection in Microsoft Intune
+# <a name="troubleshoot-endpoint-protection-in-microsoft-intune"></a>Troubleshoot Endpoint Protection in Microsoft Intune
 
-이 섹션의 정보를 사용하면 Microsoft Intune Endpoint Protection 사용 중 발생하는 문제를 해결하는 데 도움이 됩니다.
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+이 섹션의 정보를 사용하면 Microsoft Intune Endpoint Protection 사용 중 발생하는 문제를 해결하는 데 도움이 됩니다. [Windows Defender 문제 해결](https://technet.microsoft.com/itpro/windows/keep-secure/troubleshoot-windows-defender-in-windows-10)에 대한 정보도 검토할 수 있습니다.
 
 이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
 
-
-### Endpoint Protection 오류 메시지
+### <a name="endpoint-protection-error-messages"></a>Endpoint Protection 오류 메시지
 이 섹션에서는[Intune 관리 콘솔](https://manage.microsoft.com)의 **Endpoint Protection 상태** 창에 나타나는 다음 오류 및 경고의 잠재적 원인과 해결 방법을 설명합니다.
 
 |상태 항목|잠재적 원인|잠재적 해결 방법|
@@ -44,11 +47,11 @@ ms.openlocfilehash: 71f976fba252950fd9a8818fb27fbbb294369894
 |**빠른 검색 지연**|빠른 검색이 14일 동안 완료되지 않았습니다. 이는 빠른 검색 중에 컴퓨터를 다시 시작하여 발생할 수 있습니다.|빠른 검색이 늦어진 경우 한 번의 빠른 검색을 실행하거나 [Microsoft Intune 컴퓨터 클라이언트를 사용한 일반 Windows PC 관리 작업](/intune/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client) 항목의 정보를 사용하여 [Intune 관리 콘솔](https://manage.microsoft.com)에서 되풀이 빠른 검색을 예약할 수 있습니다.|
 |**다른 끝점 보호 응용 프로그램이 실행되고 있음**|다른 끝점 보호 응용 프로그램이 실행되고 있으며 컴퓨터가 정상 상태입니다.|기본적으로 다른 끝점 보호 응용 프로그램이 설치되어 있는데 Intune에서 해당 응용 프로그램을 감지한 경우 Endpoint Protection이 자동으로 사용되지 않도록 설정됩니다. Intune에서 다른 끝점 응용 프로그램을 감지하지 않으면, Endpoint Protection은 사용하는 상태로 유지됩니다. 자세한 내용은 [Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)을 참조하세요.|
 
-### 다음 단계
+### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Feb17_HO2-->
 
 

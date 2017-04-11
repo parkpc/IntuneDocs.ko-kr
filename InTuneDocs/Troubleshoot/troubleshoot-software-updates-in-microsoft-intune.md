@@ -1,10 +1,11 @@
----
-title: "소프트웨어 업데이트 문제 해결 | Microsoft Intune"
+﻿---
+title: "소프트웨어 업데이트 문제 해결 | Microsoft 문서"
 description: "Microsoft Intune에서 소프트웨어 업데이트 문제를 해결합니다."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
-ms.date: 08/02/2016
+ms.date: 12/27/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,19 +13,23 @@ ms.technology:
 ms.assetid: d17b70f4-17b4-4d89-88fd-70fa4f34fbea
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 906371576609152aaf61e033da5ce60744ddd255
-ms.openlocfilehash: 07e5737b75870319445f5af4d7038916b155d083
+ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
+ms.openlocfilehash: 66ec65e856c0ab70264b797bb3ef7fe4f5673b54
 
 
 ---
 
-# Microsoft Intune에서 소프트웨어 업데이트 문제 해결
+# <a name="troubleshoot-software-updates-in-microsoft-intune"></a>Microsoft Intune에서 소프트웨어 업데이트 문제 해결
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 이 섹션의 정보를 사용하면 Microsoft Intune의 소프트웨어 업데이트 문제를 해결할 수 있습니다.
 
 이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
 
-## 업데이트 에이전트 오류 코드
+## <a name="update-agent-error-codes"></a>업데이트 에이전트 오류 코드
 
 다음 표에는 Intune **업데이트 에이전트** 오류 코드가 정리되어 있습니다. 이 표에서 특정 오류 코드를 찾을 수 없는 경우 [Windows Update Agent Result Codes(Windows 업데이트 에이전트 결과 코드)](http://go.microsoft.com/fwlink/?LinkID=221542)를 참조하십시오.
 
@@ -240,7 +245,7 @@ ms.openlocfilehash: 07e5737b75870319445f5af4d7038916b155d083
 |**0x80af0005**|OMC_E_INSTALL_NOT_ALLOWED_REBOOT_REQUIRED|필요한 컴퓨터 다시 시작이 보류 중이어서 설치에 실패했습니다.|
 |**0x80af0006**|OMC_E_DOWNLOAD_CANCELLED|다운로드가 취소되었습니다.|
 
-## 다수의 대체된 업데이트를 포함하는 Windows 7 기반 컴퓨터에서 Microsoft Intune 콘솔에 대한 보고가 중지됨
+## <a name="windows-7-based-computers-with-lots-of-superseded-updates-stop-reporting-to-the-microsoft-intune-console"></a>다수의 대체된 업데이트를 포함하는 Windows 7 기반 컴퓨터에서 Microsoft Intune 콘솔에 대한 보고가 중지됨
 **문제**: Microsoft Intune 클라이언트에 다음과 같은 증상이 하나 이상 나타나는 상황이 발생할 수 있습니다.
 - Microsoft 관리 콘솔에 대한 보고가 갑자기 중단됩니다.  
 - CPU 사용률이 높아집니다.
@@ -259,11 +264,11 @@ ms.openlocfilehash: 07e5737b75870319445f5af4d7038916b155d083
 
 또한 Windows 7을 실행하는 경우, 다음 업데이트를 반드시 설치해야 합니다. [3050265 Windows Update Client for Windows 7: June 2015](https://support.microsoft.com/kb/3050265)
 
-### 다음 단계
+### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Dec16_HO5-->
 
 
