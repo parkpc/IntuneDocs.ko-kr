@@ -24,7 +24,6 @@
 ### [회사 포털 사용자 지정](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-7.md)
 ### [장치 등록](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
 ### [구성 후 작업](get-started/post-configuration-tasks.md)
-## [Intune으로 마이그레이션](get-started/migrate-to-intune.md)
 ## 다음 단계
 ### [Office 365 모바일 앱에서 회사 데이터 누수 방지](get-started/prevent-company-data-leaks-from-Office-365-mobile-apps.md)
 ### [데이터 암호화를 사용하여 회사 데이터 보호](get-started/protect-data-encryption.md)

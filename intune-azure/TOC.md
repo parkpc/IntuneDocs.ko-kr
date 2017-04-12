@@ -31,17 +31,16 @@
 ### [MDM 기관 설정](enroll-devices/set-mdm-authority.md)
 ## 계획 및 디자인
 ### [Apple MDM Push Certificate 가져오기](enroll-devices/get-an-apple-mdm-push-certificate.md)
-### [Apple DEP 토큰 가져오기](enroll-devices/get-apple-dep-token.md)
 ### [iOS 장치를 등록하는 방법 선택](enroll-devices/choose-ios-enrollment-method.md)
 ## 방법
 ### [사용자에게 라이선스 할당](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4?toc=%2fintune-azure%2ftoc.json)
 ### [Android 장치 등록](enroll-devices/enroll-android-and-knox-standard-devices.md)
 ### iOS 장치 등록
-#### [설정 도우미를 사용하여 iOS 장치 등록](enroll-devices/enroll-ios-devices-with-apple-configurator-and-setup-assistant.md)
-#### [직접 등록을 사용하여 iOS 장치 등록](enroll-devices/enroll-ios-devices-with-apple-configurator-and-direct-enrollment.md)
+#### [Apple Configurator - 설치 도우미](enroll-devices/enroll-ios-devices-with-apple-configurator-and-setup-assistant.md)
+#### [Apple Configurator - 직접 등록](enroll-devices/enroll-ios-devices-with-apple-configurator-and-direct-enrollment.md)
 #### [Apple Configurator 일련 번호 추가](enroll-devices/add-apple-configurator-serial-numbers.md)
-#### [장치 등록 프로그램을 사용하여 iOS 장치 등록](enroll-devices/enroll-ios-devices-using-device-enrollment-program.md)
-### [장치 등록 관리자를 사용하여 장치 등록](enroll-devices/enroll-devices-using-device-enrollment-manager.md)
+#### [DEP](enroll-devices/enroll-ios-devices-using-device-enrollment-program.md)
+### [장치 등록 관리자](enroll-devices/enroll-devices-using-device-enrollment-manager.md)
 ### [macOS 장치 등록](enroll-devices/enroll-macos-devices.md)
 ### [Windows 장치 등록](enroll-devices/enroll-windows-devices.md)
 ### 모바일 장치 관리
@@ -75,9 +74,7 @@
 ## [Plan and design](manage-apps/plan-and-design.md) --->
 ## 앱을 관리하는 방법
 ### [앱 추가](manage-apps/add-apps.md)
-#### [Android 기간 업무 앱](manage-apps/android-lob-app.md)
 #### [Android 스토어 앱](manage-apps/android-store-app.md)
-#### [iOS 기간 업무 앱](manage-apps/ios-lob-app.md)
 #### [iOS 스토어 앱](manage-apps/ios-store-app.md)
 #### [웹앱](manage-apps/web-app.md)
 #### [Windows Phone 8.1 스토어 앱](manage-apps/windows-phone-8-1-store-app.md)
