@@ -54,7 +54,7 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 ### <a name="get-a-device-enrollment-program-token"></a>장치 등록 프로그램 토큰 가져오기
 
-1. [장치 등록 프로그램 포털](https://deploy.apple.com)(https://deploy.apple.com)로 이동한 다음 회사 Apple ID로 로그인합니다. 나중에 DEP 토큰을 갱신하려면 이 Apple ID를 사용해야 합니다.
+1. [장치 등록 프로그램 포털](https://deploy.apple.com) (https://deploy.apple.com) 로 이동한 다음 회사 Apple ID로 로그인합니다. 나중에 DEP 토큰을 갱신하려면 이 Apple ID를 사용해야 합니다.
 
 2.  장치 등록 프로그램 포털에서 **장치 등록 프로그램** &gt; **서버 관리**로 이동한 후 **MDM 서버 추가**를 선택합니다.
 
@@ -131,7 +131,7 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 ### <a name="assign-dep-devices-for-management"></a>관리를 위해 DEP 장치 할당
 
-1. [장치 등록 프로그램 포털](https://deploy.apple.com)(https://deploy.apple.com)로 이동한 다음 회사 Apple ID로 로그인합니다.
+1. [장치 등록 프로그램 포털](https://deploy.apple.com) (https://deploy.apple.com) 로 이동한 다음 회사 Apple ID로 로그인합니다.
 
 2. **배포 프로그램** &gt; **장치 등록 프로그램** &gt; **장치 관리**로 이동합니다.
 
