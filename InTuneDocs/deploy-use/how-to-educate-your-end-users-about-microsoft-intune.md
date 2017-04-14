@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/17/2017
+ms.date: 04/10/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,16 +14,16 @@ ms.assetid: 48914533-f138-4dc0-8b93-4cea3ac61f7b
 ms.reviewer: robstack
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bb2848e42e0e842bd8049ab74904c70c582d6917
-ms.openlocfilehash: 5f01c174be566b9dd645bb058de501b02693e07e
-ms.lasthandoff: 02/23/2017
+ms.sourcegitcommit: bed28fc91271c12377f45662aa00fc9616d16fe8
+ms.openlocfilehash: 3d3f35f38a4d6f09f8fdc3e1bbc1c6ca5af6bbe7
+ms.lasthandoff: 04/11/2017
 
 
 ---
 
 # <a name="how-to-educate-your-end-users-about-microsoft-intune"></a>Microsoft Intune에 대한 최종 사용자 교육 방법
 
-Microsoft Intune을 사용하면 회사 데이터 보호를 유지하면서 직원들이 모바일 장치를 이용할 수 있습니다. [무료 평가판](/Intune/Understand/mobile-device-management-trial-guide-microsoft-intune.md)을 통한 Intune 평가, [메일 보호](/Intune/Understand/common-ways-to-use-intune#protecting-your-office-365-email-and-data-so-it-can-be-safely-accessed-by-mobile-devices.md) 및 [Intune SDK와 함께 앱 포함](/intune/develop/intune-app-sdk.md)을 비롯하여 성공적인 배포를 위한 여러 단계가 있습니다.
+Microsoft Intune을 사용하면 회사 데이터 보호를 유지하면서 직원들이 모바일 장치를 이용할 수 있습니다. [무료 평가판](/Intune/Understand/mobile-device-management-trial-guide-microsoft-intune.md)을 통한 Intune 평가, [메일 보호](https://docs.microsoft.com/intune/understand-explore/common-ways-to-use-intune#protecting-your-on-premises-email-and-data-so-it-can-be-safely-accessed-by-mobile-devices) 및 [Intune SDK와 함께 앱 포함](/intune/develop/intune-app-sdk.md)을 비롯하여 성공적인 배포를 위한 여러 단계가 있습니다.
 
 이러한 기술 중에서 회사가 장치를 관리하는 이유의 중요성을 사용자가 이해하게 하는 기술은 없습니다. 실제로 Intune을 [BYOD 솔루션](/enterprise-mobility-security/solutions/byod-design-considerations-guide.md)으로 배포하는 경우 특히 개인 정보가 침해된다고 느끼는 최종 사용자가 많습니다.
 
