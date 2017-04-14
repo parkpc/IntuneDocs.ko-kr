@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 296e7db9be18323b44cc79592c981f5d7241602f
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: e4a6aaa1a8e23dc2c58345f73ff8db86018843e1
+ms.openlocfilehash: fe12a6b890c2d5cba874e820afbe7671b754deb5
+ms.lasthandoff: 04/11/2017
 
 ---
 
@@ -34,9 +34,7 @@ Intune에서는 다음과 같은 앱 유형의 추가 및 할당을 지원합니
 
 지원되는 플랫폼은 다음과 같습니다. 각 앱 유형을 추가하는 방법에 대한 자세한 내용을 보려면 항목 중 하나를 클릭하세요.
 
-- [Android 기간 업무 앱](/intune-azure/manage-apps/android-lob-app)
 - [Android 스토어 앱](/intune-azure/manage-apps/android-store-app)
-- [iOS 기간 업무 앱](/intune-azure/manage-apps/ios-lob-app)
 - [iOS 스토어 앱](/intune-azure/manage-apps/ios-store-app)
 - [웹앱(모든 플랫폼)](/intune-azure/manage-apps/web-app)
 - [Windows Phone 8.1 스토어 앱](/intune-azure/manage-apps/windows-phone-8-1-store-app)

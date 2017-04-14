@@ -15,8 +15,9 @@ ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f807d6e4b20b98ecf622d1ebdd9db33b132a2e6a
-ms.openlocfilehash: 2e46c5612c120a24d3f8fe32decd3eb7a0d4e709
+ms.sourcegitcommit: d10906ee3fb69458738b31bb1d4252d632a9a0cf
+ms.openlocfilehash: 6014527422ea3dae4d1333965ccd9e48e8216afb
+ms.lasthandoff: 04/08/2017
 
 
 ---
@@ -91,12 +92,7 @@ ms.openlocfilehash: 2e46c5612c120a24d3f8fe32decd3eb7a0d4e709
 <br>
     -   **완화:** 프로젝트를 시작할 동기 부여를 위해서는 명확하게 정의된 목적 및 목표가 있어야 합니다. 모든 인식 및 교육 활동에 이러한 목적 및 목표를 포함하면 사용자가 조직에서 Intune을 선택한 이유를 이해할 수 있습니다.
 
-## <a name="next-section"></a>다음 섹션
+## <a name="next-steps"></a>다음 단계
 
 배포 목적, 목표 및 잠재적인 과제를 확인했으므로 이제, 다음 섹션: [사용 사례 시나리오 확인](section-2-identify-use-case-scenarios.md)을 살펴보겠습니다.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 
