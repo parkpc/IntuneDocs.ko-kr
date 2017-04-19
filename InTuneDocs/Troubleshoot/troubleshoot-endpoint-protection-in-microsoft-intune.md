@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: a43fc6fcd33f65725d325060a513d5380baae10f
 ms.openlocfilehash: b47469c8c5d35098e2e932e5ae9c9de4f5cdafb8
+ms.lasthandoff: 02/09/2017
 
 
 ---
@@ -49,9 +50,4 @@ ms.openlocfilehash: b47469c8c5d35098e2e932e5ae9c9de4f5cdafb8
 
 ### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 
