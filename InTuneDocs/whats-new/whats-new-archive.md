@@ -23,7 +23,7 @@ ms.lasthandoff: 02/07/2017
 ---
 # <a name="whats-new-archive"></a>새로운 기능 아카이브
 
-이 페이지는 [Microsoft Intune의 새로운 기능](whats-new-in-microsoft-intune.md)에서 지난&6;개월 동안 제공된 공지 사항이 포함되어 있는 누적 목록입니다.
+이 페이지는 [Microsoft Intune의 새로운 기능](whats-new-in-microsoft-intune.md)에서 지난 6개월 동안 제공된 공지 사항이 포함되어 있는 누적 목록입니다.
 
 [!INCLUDE[wit_nextref](../includes/whats-new-last-six-months.md)]
 
