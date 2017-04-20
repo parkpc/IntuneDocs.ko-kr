@@ -15,8 +15,9 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 64b59ccb29e05af0472d463f426a06509d242034
-ms.openlocfilehash: 7a13afcbfd6b37a209c2cb879a47370f9a00b937
+ms.sourcegitcommit: a85b9f603e022b3296cb16754effd06087074a72
+ms.openlocfilehash: 9759c1331a3fb5308e1dbc53564059618a8ef45c
+ms.lasthandoff: 04/01/2017
 
 
 ---
@@ -57,9 +58,10 @@ Intune 관리 콘솔에서 앱 정책을 만드는 방법에 대한 자세한 �
 ##  <a name="supported-platforms"></a>지원되는 플랫폼
 - iOS 8.1 이상
 - Android 4 이상
+- Windows 10
 
 >[!NOTE]
->Windows 장치에서는 앱 보호 정책을 지원하지 않습니다. 그러나 Windows 10 장치를 Intune에 등록할 경우 유사한 기능을 제공하는 Windows Information Protection을 사용할 수 있습니다. 자세한 내용은 [WIP(Windows Information Protection)를 사용하여 엔터프라이즈 데이터 보호](https://technet.microsoft.com/en-us/itpro/windows/keep-secure/protect-enterprise-data-using-wip)를 참조하세요.
+>버전 1703부터 등록 시나리오가 없는 MAM에서 Windows 10 장치에 대해 앱 보호 정책을 정의할 수 있습니다. 자세한 내용은 [WIP(Windows Information Protection)를 사용하여 엔터프라이즈 데이터 보호](https://technet.microsoft.com/en-us/itpro/windows/keep-secure/protect-enterprise-data-using-wip)를 참조하세요.
 
 ##  <a name="supported-apps"></a>지원되는 앱
 * **Microsoft 앱:** 이러한 앱은 Intune 앱 SDK가 기본 제공되며 앱 보호 정책을 적용하기 전에 추가 처리가 필요하지 않습니다.
@@ -106,9 +108,4 @@ Intune 관리 콘솔에서 앱 정책을 만드는 방법에 대한 자세한 �
 
 ## <a name="next-steps"></a>다음 단계
 [Microsoft Intune으로 앱 보호 정책 만들기 및 배포](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 
