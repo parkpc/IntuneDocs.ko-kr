@@ -14,9 +14,9 @@ ms.assetid: 619a1d11-3d22-4635-8f70-770eba3e1712
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ca4af205f8f391089e86e0ee7787e32813d54cca
-ms.openlocfilehash: 6bd6cc3470c93f96e7c71b5d1efe6d9ffc045a7e
-ms.lasthandoff: 12/15/2016
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 55556d781149b97af3556f3a6774b4bc5b3b76ac
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -28,7 +28,7 @@ ms.lasthandoff: 12/15/2016
 이 문서에서는 Intune 평가판에 등록하는 과정을 안내하며, 관련 평가 가이드에 따라 Intune에서 모바일 장치를 관리하는 방법을 확인할 수 있도록 일부 사용자와 함께 평가판을 준비합니다. <!---or app data when devices are not enrolled in Intune.--->
 
 >[!Note]
-> 2016년 12월부터 Microsoft Intune이 Azure Portal로 이동하고, 몇 가지 무료 평가판 등록이 Azure Portal의 Intune에 포함되며 일부는 클래식 Intune에 포함됩니다. 평가판이 Azure Portal에 있는 경우 이 문서의 단계를 완료하면 [Intune Azure 미리 보기 콘텐츠](https://docs.microsoft.com/en-us/intune-azure/introduction/what-is-microsoft-intune)를 더 유용하게 활용할 수 있습니다.
+> 2016년 12월부터 Microsoft Intune이 Azure Portal로 이동하고, 몇 가지 무료 평가판 등록이 Azure Portal의 Intune에 포함되며 일부는 클래식 Intune에 포함됩니다. 평가판이 Azure Portal에 있는 경우 이 문서의 단계를 완료하면 [Intune Azure 미리 보기 콘텐츠](https://docs.microsoft.com/intune-azure/introduction/what-is-microsoft-intune)를 더 유용하게 활용할 수 있습니다.
 
 ## <a name="assumptions"></a>가정
 이 등록 문서 및 가이드에서는 평가 목적으로만 평가판을 사용하며, 구독할 때 새 환경에서 시작하는 것으로 가정합니다.
@@ -40,7 +40,7 @@ ms.lasthandoff: 12/15/2016
 ## <a name="sign-up-for-your-trial"></a>평가판 등록
 [Intune 등록](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20) 페이지를 방문하여 평가판 구독에 등록하는 양식을 작성합니다.
 
-회사 또는 학교 계정이 있고 Intune 평가판에 이 계정을 사용하려면 대신 [이 로그인 지침](https://docs.microsoft.com/en-us/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-1)을 따르세요. 그러나 이 문서 및 해당 평가 가이드에서는 이러한 계정을 사용하지 않는 것으로 가정합니다.
+회사 또는 학교 계정이 있고 Intune 평가판에 이 계정을 사용하려면 대신 [이 로그인 지침](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-1)을 따르세요. 그러나 이 문서 및 해당 평가 가이드에서는 이러한 계정을 사용하지 않는 것으로 가정합니다.
 
 > [!TIP]
 > 대부분의 IT 작업자 및 사용자가 여러분과 다른 로캘에 있는 경우 평가판에 대해 해당 로캘을 설정하여 성능을 테스트할 수 있습니다.
@@ -55,7 +55,7 @@ ms.lasthandoff: 12/15/2016
 ## <a name="add-users"></a>사용자 추가
 Intune용 Office 365 관리 센터를 나가기 전에 평가판 계정에 일부 사용자를 추가해야 합니다.
 
-Office 365 관리 센터에서 .csv 파일을 업로드하여 사용자를 개별적 또는 일괄적으로 추가할 수 있습니다. 여기에서는 둘 다를 수행하여 평가판을 등록합니다. 그러나 프로덕션 환경에서는 Azure Active Directory 사용자 계정을 사용할 수 있을 것입니다. 이 계정에 대한 자세한 내용은 [시작 가이드](https://docs.microsoft.com/en-us/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3) 및 이 문서의 [다음 단계](#Next-steps) 섹션에서 확인할 수 있습니다.
+Office 365 관리 센터에서 .csv 파일을 업로드하여 사용자를 개별적 또는 일괄적으로 추가할 수 있습니다. 여기에서는 둘 다를 수행하여 평가판을 등록합니다. 그러나 프로덕션 환경에서는 Azure Active Directory 사용자 계정을 사용할 수 있을 것입니다. 이 계정에 대한 자세한 내용은 [시작 가이드](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3) 및 이 문서의 [다음 단계](#Next-steps) 섹션에서 확인할 수 있습니다.
 
 ### <a name="add-an-individual-user"></a>개별 사용자 추가
 1. 사용자를 추가하는 두 가지 옵션 중 하나를 선택하여 사용자를 만들 수 있는 양식을 열 수 있습니다. 별표(\*)가 있는 항목만 필요합니다.
@@ -138,13 +138,13 @@ Intune에서 Office 365 관리 센터로 돌아가려면 브라우저 주소 표
 평가 시나리오: [Microsoft의 모바일 장치 관리 평가](mobile-device-management-trial-guide-microsoft-intune.md)
 
 ### <a name="intune-azure-preview"></a>Intune Azure 미리 보기
-[Azure Portal 미리 보기의 Intune](https://docs.microsoft.com/en-us/intune-azure/introduction/what-is-microsoft-intune)에 대해 자세히 알아보세요.
+[Azure Portal 미리 보기의 Intune](https://docs.microsoft.com/intune-azure/introduction/what-is-microsoft-intune)에 대해 자세히 알아보세요.
 
 ### <a name="integration-with-other-products"></a>다른 제품과의 통합
 Intune에서 Azure Active Directory 사용자 계정을 사용하는 방법을 자세히 알아봅니다.
-- [ID 요구 사항](https://docs.microsoft.com/en-us/active-directory/active-directory-hybrid-identity-design-considerations-overview#design-considerations-overview)
-- [디렉터리 동기화 요구 사항](https://docs.microsoft.com/en-us/active-directory/active-directory-hybrid-identity-design-considerations-directory-sync-requirements)
-- [다단계 인증 요구 사항](https://docs.microsoft.com/en-us/active-directory/active-directory-hybrid-identity-design-considerations-multifactor-auth-requirements)
+- [ID 요구 사항](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-overview#design-considerations-overview)
+- [디렉터리 동기화 요구 사항](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-directory-sync-requirements)
+- [다단계 인증 요구 사항](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-multifactor-auth-requirements)
 
-[System Center Configuration Manager와 함께 Intune](https://docs.microsoft.com/en-us/sccm/mdm/understand/hybrid-mobile-device-management)를 사용하는 방법에 대해 자세히 알아보기
+[System Center Configuration Manager와 함께 Intune](https://docs.microsoft.com/sccm/mdm/understand/hybrid-mobile-device-management)를 사용하는 방법에 대해 자세히 알아보기
 

@@ -15,9 +15,9 @@ ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
-ms.openlocfilehash: 61851f7669e9a5c3a192b2eda344fcde9c4fa3e6
-ms.lasthandoff: 03/20/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 0fa045d31125ba0d67f19bb46aa2728ae9bbcc93
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -67,7 +67,7 @@ Intune 콘솔에서 [Exchange ActiveSync 장치](/intune/deploy-use/mobile-devic
 |**회사 포털 웹 사이트**     |**모바일 장치:** 지원되는 각 플랫폼의 기본 웹 브라우저를 사용합니다.   <br /><br />**Windows PC:** Internet Explorer 10 이상 또는 Microsoft Edge<br /><br />**Mac OS X 10.9 이상:** Apple Safari    |
 
 > [!Note]
-> Microsoft Edge 및 모바일 브라우저는 [Microsoft Silverlight](https://msdn.microsoft.com/en-us/library/cc838158(v=vs.95).aspx)를 지원하지 않기 때문에 관리 콘솔에 대해 지원되지 않습니다. Intune 콘솔은 일정 시간에 걸쳐 Silverlight 환경에서 이동되므로 결국 모든 Intune의 모바일 장치 및 응용 프로그램 관리 기능을 [새 Microsoft Azure 포털에서 사용할 수 있게 됩니다](https://blogs.technet.microsoft.com/enterprisemobility/2015/11/17/enhancing-managed-mobile-productivity/).
+> Microsoft Edge 및 모바일 브라우저는 [Microsoft Silverlight](https://msdn.microsoft.com/library/cc838158(v=vs.95).aspx)를 지원하지 않기 때문에 관리 콘솔에 대해 지원되지 않습니다. Intune 콘솔은 일정 시간에 걸쳐 Silverlight 환경에서 이동되므로 결국 모든 Intune의 모바일 장치 및 응용 프로그램 관리 기능을 [새 Microsoft Azure 포털에서 사용할 수 있게 됩니다](https://blogs.technet.microsoft.com/enterprisemobility/2015/11/17/enhancing-managed-mobile-productivity/).
 
 
 서비스 관리자 권한이 있는 사용자이거나 전역 관리자 역할이 있는 테넌트 관리자만이 이 포털에 로그인할 수 있습니다. 관리 콘솔에 액세스하려면 계정에 Intune을 사용할 수 있는 라이선스가 있어야 하며 계정의 로그인 상태가 **허용**이어야 합니다.

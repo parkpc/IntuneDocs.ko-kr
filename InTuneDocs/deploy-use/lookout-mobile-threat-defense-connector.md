@@ -15,9 +15,9 @@ ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d42fa20a3bc6b6f4a74dd0872aae25cfb33067b9
-ms.openlocfilehash: dfed1ece238210e8b98934d8add7dbb9b0f1c1fb
-ms.lasthandoff: 03/21/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 47645e1f133b172d059f849e2f73e59e115046c6
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -43,7 +43,7 @@ Intune의 준수 정책에는 Lookout 위험 평가를 기반으로 하는 Looko
 ## <a name="supported-platforms"></a>지원되는 플랫폼:
 Intune에 등록한 경우 다음과 같은 플랫폼에서 Lookout이 지원됩니다.
 * **Android 4.1 이상**
-* **iOS 8 이상** 플랫폼 및 언어 지원에 대한 자세한 내용은 [Lookout 웹 사이트](https://personal.support.lookout.com/hc/en-us/articles/114094140253)를 참조하세요.
+* **iOS 8 이상** 플랫폼 및 언어 지원에 대한 자세한 내용은 [Lookout 웹 사이트](https://personal.support.lookout.com/hc/articles/114094140253)를 참조하세요.
 
 ## <a name="prerequisites"></a>필수 조건:
 * Microsoft Intune 구독

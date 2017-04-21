@@ -14,18 +14,18 @@ ms.assetid: 48914533-f138-4dc0-8b93-4cea3ac61f7b
 ms.reviewer: robstack
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bed28fc91271c12377f45662aa00fc9616d16fe8
-ms.openlocfilehash: 3d3f35f38a4d6f09f8fdc3e1bbc1c6ca5af6bbe7
-ms.lasthandoff: 04/11/2017
+ms.sourcegitcommit: e0ecc775f70703574c4e1adf0f0aa204f2745b72
+ms.openlocfilehash: a0ae4d74ad99adcfab596eb0c441c845fbca3a9e
+ms.lasthandoff: 04/20/2017
 
 
 ---
 
 # <a name="how-to-educate-your-end-users-about-microsoft-intune"></a>Microsoft Intune에 대한 최종 사용자 교육 방법
 
-Microsoft Intune을 사용하면 회사 데이터 보호를 유지하면서 직원들이 모바일 장치를 이용할 수 있습니다. [무료 평가판](/Intune/Understand/mobile-device-management-trial-guide-microsoft-intune.md)을 통한 Intune 평가, [메일 보호](https://docs.microsoft.com/intune/understand-explore/common-ways-to-use-intune#protecting-your-on-premises-email-and-data-so-it-can-be-safely-accessed-by-mobile-devices) 및 [Intune SDK와 함께 앱 포함](/intune/develop/intune-app-sdk.md)을 비롯하여 성공적인 배포를 위한 여러 단계가 있습니다.
+Microsoft Intune을 사용하면 회사 데이터 보호를 유지하면서 직원들이 모바일 장치를 이용할 수 있습니다. [무료 평가판](/Intune/Understand/mobile-device-management-trial-guide-microsoft-intune)을 통한 Intune 평가, [메일 보호](https://docs.microsoft.com/intune/understand-explore/common-ways-to-use-intune#protecting-your-on-premises-email-and-data-so-it-can-be-safely-accessed-by-mobile-devices) 및 [Intune SDK와 함께 앱 포함](/intune/develop/intune-app-sdk)을 비롯하여 성공적인 배포를 위한 여러 단계가 있습니다.
 
-이러한 기술 중에서 회사가 장치를 관리하는 이유의 중요성을 사용자가 이해하게 하는 기술은 없습니다. 실제로 Intune을 [BYOD 솔루션](/enterprise-mobility-security/solutions/byod-design-considerations-guide.md)으로 배포하는 경우 특히 개인 정보가 침해된다고 느끼는 최종 사용자가 많습니다.
+이러한 기술 중에서 회사가 장치를 관리하는 이유의 중요성을 사용자가 이해하게 하는 기술은 없습니다. 실제로 Intune을 [BYOD 솔루션](/enterprise-mobility-security/solutions/byod-design-considerations-guide)으로 배포하는 경우 특히 개인 정보가 침해된다고 느끼는 최종 사용자가 많습니다.
 
 > [!Important]
 > 회사에서 장치를 관리해야 하는 이유에 대한 최종 사용자의 염려를 이해하고 사전에 해결하는 것이 성공적인 롤아웃에 중요합니다.
@@ -59,7 +59,7 @@ __최종 사용자에게 어떤 불편을 줄 수 있나요?__ 앱을 설치하�
   * [Android 사용자가 앱을 얻는 방법](how-your-android-users-get-their-apps.md)
 
 * **Android**
-  * [Intune에서 iOS 장치 사용](https://docs.microsoft.com/Intune/EndUser/using-your-ios-device-with-intune)
+  * [Intune에서 iOS 장치 사용](https://docs.microsoft.com/intune-user-help/using-your-ios-or-macos-device-with-intune)
   * [iOS 사용자가 앱을 얻는 방법](how-your-ios-users-get-their-apps.md)
 
 * **Windows**

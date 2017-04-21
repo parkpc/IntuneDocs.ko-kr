@@ -13,9 +13,9 @@ ms.technology:
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 6b99854e17e00a0dd0f91fa82fd1b79d1dfe5663
-ms.openlocfilehash: ea5407c284f5408774ee5934ad6151bccfd7e6d1
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 9e084cce8e34b0de2dce7c6b8503d5b5089c930e
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -62,7 +62,7 @@ ms.lasthandoff: 02/18/2017
 |||
 |-|-|
 |전자 메일 프로필|이 정책을 사용하여 모바일 장치에서 특정 메일 클라이언트에 대한 [메일 액세스 설정](/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune)을 지정하여 최종 사용자가 수행해야 하는 설정의 양을 최소화할 수 있습니다.|
-|EMS|Microsoft Enterprise Mobility + Security(이전의 Enterprise Mobility Suite)는 사용자가 [필요한 앱 및 콘텐츠에 액세스](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)할 수 있도록 하면서 회사 데이터를 계속 보호해 줍니다.|
+|EMS|Microsoft Enterprise Mobility + Security(이전의 Enterprise Mobility Suite)는 사용자가 [필요한 앱 및 콘텐츠에 액세스](https://www.microsoft.com/cloud-platform/enterprise-mobility)할 수 있도록 하면서 회사 데이터를 계속 보호해 줍니다.|
 |최종 사용자|Intune을 사용하여 관리되는 [휴대폰 및 PC와 같은 장치의 사용자](/intune/deploy-use/how-to-educate-your-end-users-about-microsoft-intune)입니다.|
 |등록|Microsoft Intune에서는 [등록](/intune/deploy-use/enroll-devices-in-microsoft-intune)을 사용하여 장치를 관리하며 리소스에 대한 액세스를 허용합니다.|
 
@@ -122,7 +122,7 @@ ms.lasthandoff: 02/18/2017
 |원격 잠금|장치를 소유하지 않는 경우에도 [지원되는 장치를 잠글](/intune/deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune) 수 있는 Intune 기능입니다.|
 |보고서|Intune은 관리하는 장치에 대한 정보를 제공하는 다양한 [기본 제공 보고서](/intune/deploy-use/understand-microsoft-intune-operations-by-using-reports)를 제공합니다.|
 |필수 설치|이 작업을 통해 앱을 배포하면 앱이 [사용자 개입 없이](/intune/deploy-use/deploy-apps) 장치에 설치됩니다(그러나 일부 플랫폼의 경우 최종 사용자가 설치에 동의해야 할 수 있음).|
-|요구 사항|앱이 설치되기 전에 장치에서 충족되어야 하는 요구 사항을 선택할 수 있는 [앱 배포 작업](/en-us/intune/deploy-use/add-apps)입니다. 예를 들어 앱이 설치되기 전에 설치되어야 하는 iOS의 OS 버전을 지정할 수 있습니다.|
+|요구 사항|앱이 설치되기 전에 장치에서 충족되어야 하는 요구 사항을 선택할 수 있는 [앱 배포 작업](/intune/deploy-use/add-apps)입니다. 예를 들어 앱이 설치되기 전에 설치되어야 하는 iOS의 OS 버전을 지정할 수 있습니다.|
 
 ## <a name="s"></a>S
 |||

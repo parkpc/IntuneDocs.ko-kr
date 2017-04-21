@@ -15,8 +15,9 @@ ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 53bb650bbb20d5efae0ba53f0c0bc257a19cbaae
-ms.openlocfilehash: caa197f030008da886462ca734ea3d28980aa6da
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 1dbfff2da9f11eb87315b9fdd6f6d608faef2523
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -75,12 +76,7 @@ Intune 배포 계획 및 구현 프로세스 중 유용할 수 있는 추가 Int
 
 -   [Intune 사용자 의견](http://microsoftintune.uservoice.com/)
 
--   [Microsoft Virtual Academy EMS 배포 교육](https://mva.microsoft.com/en-US/training-courses/deploying-microsoft-enterprise-mobility-suite-16408?l=wjq9vmwvD_5805996570)
+-   [Microsoft Virtual Academy EMS 배포 교육](https://mva.microsoft.com/training-courses/deploying-microsoft-enterprise-mobility-suite-16408?l=wjq9vmwvD_5805996570)
 
 -   [등록 가이드](https://gallery.technet.microsoft.com/Intune-End-User-Enrollment-3a0c9b0c?WT.mc_id=Blog_Intune_General_PCIT)
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

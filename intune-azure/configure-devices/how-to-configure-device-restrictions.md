@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 04/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
-ms.openlocfilehash: b593b2ddd756bc5bf7700eca4f2544b87008a8ab
-ms.lasthandoff: 03/17/2017
+ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
+ms.openlocfilehash: 6bc3d4586d6b734094ccf04d472a7edd229581c1
+ms.lasthandoff: 04/19/2017
 
 
 ---
@@ -55,6 +55,7 @@ ms.lasthandoff: 03/17/2017
     - [Windows 8.1](device-restrictions-for-windows-8-1.md)
     - [Windows 10 설정](device-restrictions-for-windows-10.md)
     - [Windows 10 Team 설정](device-restrictions-for-windows-10-team.md)
+    - [Android for Work 설정](device-restrictions-for-afw.md)
 8. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
 
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.

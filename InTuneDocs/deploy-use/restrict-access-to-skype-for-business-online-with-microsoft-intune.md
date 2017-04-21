@@ -15,8 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
-ms.openlocfilehash: 182ca17c53b672d70ff1b30a63c0662050db95c3
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 312a3ae8a74b0a8460f969f96bee14077c6c7161
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -37,9 +38,9 @@ ms.openlocfilehash: 182ca17c53b672d70ff1b30a63c0662050db95c3
 
 비즈니스용 Skype Online에 대한 조건부 액세스 정책을 구성하기 **전에** 다음을 수행해야 합니다.
 - **비즈니스용 Skype Online 구독**이 있어야 하며 비즈니스용 Skype Online 라이선스를 사용자에게 할당해야 합니다.
-- **Enterprise Mobility + Security(EMS) 구독** 또는 **Azure AD(Azure Active Directory) Premium 구독**이 있어야 하며 사용자가 EMS 또는 Azure AD의 라이선스를 취득하도록 해야 합니다. 자세한 내용은 [Enterprise Mobility 가격 책정](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) 또는 [Azure Active Directory 가격 책정](https://azure.microsoft.com/en-us/pricing/details/active-directory/)을 참조하세요.
+- **Enterprise Mobility + Security(EMS) 구독** 또는 **Azure AD(Azure Active Directory) Premium 구독**이 있어야 하며 사용자가 EMS 또는 Azure AD의 라이선스를 취득하도록 해야 합니다. 자세한 내용은 [Enterprise Mobility 가격 책정](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing) 또는 [Azure Active Directory 가격 책정](https://azure.microsoft.com/pricing/details/active-directory/)을 참조하세요.
 
--   비즈니스용 Skype Online에 대해 [최신 인증을 사용하도록 설정](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune)합니다.
+-   비즈니스용 Skype Online에 대해 [최신 인증을 사용하도록 설정](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune)합니다.
 -  모든 사용자가 **비즈니스용 Skype Online**을 사용하도록 해야 합니다. 비즈니스용 Skype Online과 온-프레미스 비즈니스용 Skype를 모두 배포한 경우 조건부 액세스 정책이 사용자에게 적용되지 않습니다.
 
 비즈니스용 Skype Online에 액세스해야 하는 장치는 다음과 같은 조건을 충족해야 합니다.
@@ -118,9 +119,4 @@ ms.openlocfilehash: 182ca17c53b672d70ff1b30a63c0662050db95c3
 * **규격이 아닌 장치**: 이러한 장치는 비즈니스용 Skype Online에서 차단됩니다.
 
 * **AAD 및 규격에 등록된 장치**: 이러한 장치는 비즈니스용 Skype Online에 액세스할 수 있습니다.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

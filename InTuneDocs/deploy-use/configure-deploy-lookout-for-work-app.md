@@ -14,9 +14,9 @@ ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d42fa20a3bc6b6f4a74dd0872aae25cfb33067b9
-ms.openlocfilehash: ad1133d17f8d64c79c08437b914ae28e00cae638
-ms.lasthandoff: 03/21/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: eaf30c8a59013af6359743227edc8aa6709577c5
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/21/2017
 
 1. 장치에 **iOS 관리**가 설정되어 있는지 확인합니다. iOS 관리에 대해 장치를 설정하는 방법에 대한 자세한 내용은 [iOS 및 Mac 장치 관리 설정](set-up-ios-and-mac-management-with-microsoft-intune.md)을 참조하세요.
 
-2. Lookout for Work iOS 앱을 **다시 서명**합니다. Lookout에서는 iOS App Store 외부에 Lookout for Work iOS 앱을 배포합니다. **앱을 배포하기 전에** iOS 엔터프라이즈 개발자 인증서를 사용하여 앱에 다시 서명해야 합니다. Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내용은 Lookout 사이트에서 [Lookout for Work iOS 앱 다시 서명 프로세스](https://personal.support.lookout.com/hc/en-us/articles/114094038714)를 참조하세요.
+2. Lookout for Work iOS 앱을 **다시 서명**합니다. Lookout에서는 iOS App Store 외부에 Lookout for Work iOS 앱을 배포합니다. **앱을 배포하기 전에** iOS 엔터프라이즈 개발자 인증서를 사용하여 앱에 다시 서명해야 합니다. Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내용은 Lookout 사이트에서 [Lookout for Work iOS 앱 다시 서명 프로세스](https://personal.support.lookout.com/hc/articles/114094038714)를 참조하세요.
 
 3. 다음을 수행하여 iOS 사용자에게 Azure Active Directory 인증을 사용하도록 설정합니다.
   1.  [Azure Active Directory 관리 포털](https://manage.windowsazure.com)에 로그인하여 응용 프로그램 페이지로 이동합니다.
@@ -67,13 +67,13 @@ ms.lasthandoff: 03/21/2017
   4.  원래 리디렉션 URI의 URL 인코드된 버전을 뒤에 추가하여 다른 리디렉션 URI(**&lt;companyportal://code/>**)를 추가합니다.
   5.  **위임된 권한**을 앱에 추가합니다.
 
-  자세한 내용은 [네이티브 클라이언트 응용 프로그램을 구성](https://azure.microsoft.com/en-us/documentation/articles/app-service-mobile-how-to-configure-active-directory-authentication/#optional-configure-a-native-client-application)을 참조하세요.
+  자세한 내용은 [네이티브 클라이언트 응용 프로그램을 구성](https://azure.microsoft.com/documentation/articles/app-service-mobile-how-to-configure-active-directory-authentication/#optional-configure-a-native-client-application)을 참조하세요.
 
-4. [Microsoft Intune에서 모바일 장치용 앱 추가](https://docs.microsoft.com/en-us/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune) 항목에 설명된 대로 다시 서명된 .ipa 파일을 업로드합니다. 최소 OS 버전을 iOS 8.0 이상으로 설정합니다.
+4. [Microsoft Intune에서 모바일 장치용 앱 추가](https://docs.microsoft.com/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune) 항목에 설명된 대로 다시 서명된 .ipa 파일을 업로드합니다. 최소 OS 버전을 iOS 8.0 이상으로 설정합니다.
 
   ![앱 목록에 표시되는 Lookout for Work 앱이 포함된 Intune 관리자 콘솔의 앱 페이지 스크린샷](../media/mtp/ios-app-uploaded-intune.png)
 
-5. [Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성](https://docs.microsoft.com/en-us/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune) 항목에 설명된 대로 관리되는 앱 구성 정책을 만듭니다.
+5. [Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성](https://docs.microsoft.com/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune) 항목에 설명된 대로 관리되는 앱 구성 정책을 만듭니다.
 
   ![iOS 8.0 이상 앱 구성 정책이 강조 표시된 새 정책 마법사의 스크린샷](../media/mtp/ios-app-config.png)
 

@@ -15,9 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: a85b9f603e022b3296cb16754effd06087074a72
-ms.openlocfilehash: e3c3f834a80eaf5e8b992ba41b19a1d53b89fdc3
-ms.lasthandoff: 04/01/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: f57323fe0b093f2478d71d3f01b9c0e5ee2727eb
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -125,9 +125,9 @@ Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장�
 
 ### <a name="to-synchronize-on-premises-users-with-azure-ad"></a>Azure AD와 온-프레미스 사용자를 동기화하려면
 
-1. 온-프레미스 Active Directory에서 사용자 지정 도메인에 대한 [UPN 접미사를 추가](https://technet.microsoft.com/en-us/library/cc772007.aspx)합니다.
+1. 온-프레미스 Active Directory에서 사용자 지정 도메인에 대한 [UPN 접미사를 추가](https://technet.microsoft.com/library/cc772007.aspx)합니다.
 2. 가져오려는 온-프레미스 사용자에 대한 새 UPN 접미사를 설정합니다.
-3. [Azure AD Connect 동기화](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/)를 실행하여 온-프레미스 사용자를 Azure AD와 통합합니다.
+3. [Azure AD Connect 동기화](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)를 실행하여 온-프레미스 사용자를 Azure AD와 통합합니다.
 4. 사용자 계정 정보가 동기화되면 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx)을 사용하여 Microsoft Intune 라이선스를 할당할 수 있습니다.
 
 ## <a name="step-6-enable-enrollment"></a>6단계: 등록 사용

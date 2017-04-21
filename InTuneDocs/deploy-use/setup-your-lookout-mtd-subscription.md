@@ -15,9 +15,9 @@ ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d42fa20a3bc6b6f4a74dd0872aae25cfb33067b9
-ms.openlocfilehash: 074af85385a843bd5fac9747abf0209a3ba92b9c
-ms.lasthandoff: 03/21/2017
+ms.sourcegitcommit: 66be6716df38d868e8247131b49ffb50fc48e60b
+ms.openlocfilehash: 60dbfa644a53fec3823e1182f5dec7eb97d8b5df
+ms.lasthandoff: 04/15/2017
 
 
 ---
@@ -55,12 +55,12 @@ Lookout Mobility Endpoint Security 테넌트가 Azure AD 구독과 연결되어 
 
 1. [Azure AD 관리 포털](https://manage.windowsazure.com)에 로그인한 후 구독을 선택합니다. 
   ![테넌트 이름을 보여 주는 Azure AD 페이지의 스크린샷](../media/mtp/aad_tenant_name.png)
-2. 구독 이름을 선택하면 결과로 표시되는 URL에 구독 ID가 포함됩니다.  구독 ID를 찾는 데 문제가 있으면 [Microsoft 지원 문서](https://support.office.com/en-us/article/Find-your-Office-365-tenant-ID-6891b561-a52d-4ade-9f39-b492285e2c9b?ui=en-US&rs=en-US&ad=US)ID를 찾는 방법에 대한 팁을 확인하세요. 
+2. 구독 이름을 선택하면 결과로 표시되는 URL에 구독 ID가 포함됩니다.  구독 ID를 찾는 데 문제가 있으면 [Microsoft 지원 문서](https://support.office.com/article/Find-your-Office-365-tenant-ID-6891b561-a52d-4ade-9f39-b492285e2c9b)ID를 찾는 방법에 대한 팁을 확인하세요. 
 3. Azure AD 그룹 ID를 찾습니다. Lookout 콘솔은 두 가지 수준의 액세스를 지원합니다.  
   * **모든 권한:** Azure AD 관리자는 모든 권한이 있는 사용자 그룹을 만들고, 선택적으로 제한된 권한이 있는 사용자 그룹을 만들 수 있습니다.  이러한 그룹의 사용자만 **Lookout 콘솔**에 로그인할 수 있습니다.
   * **제한된 권한:** 이 그룹의 사용자는 Lookout 콘솔의 여러 구성 및 등록 관련 모듈에 대한 액세스 권한이 없으며, Lookout 콘솔의 **보안 정책** 모듈에 대한 읽기 전용 액세스 권한을 갖습니다.  
 
-  사용 권한에 대한 자세한 내용은 Lookout 웹 사이트에서 [이 문서](https://personal.support.lookout.com/hc/en-us/articles/114094105653)를 참조하세요.
+  사용 권한에 대한 자세한 내용은 Lookout 웹 사이트에서 [이 문서](https://personal.support.lookout.com/hc/articles/114094105653)를 참조하세요.
 
   **그룹 개체 ID**는 **Azure AD 관리 콘솔**의 그룹 **속성** 페이지에 있습니다.
 
@@ -127,7 +127,7 @@ Lookout Mobility Endpoint Security 테넌트가 Azure AD 구독과 연결되어 
 ![사용자 계정이 표시된 기본 설정 페이지의 스크린샷](../media/mtp/lookout-mtp-email-notifications.png) 이제 메일 알림을 받지 않으려면 알림을 **끔**으로 설정하고 변경 내용을 저장합니다.
 
 ### <a name="configure-threat-classification"></a>위협 분류 구성
-Lookout Mobile Threat Defense는 다양한 종류의 모바일 위협을 분류합니다. [Lookout 위협 분류](http://personal.support.lookout.com/hc/en-us/articles/114094130693)에는 기본 위험 수준이 지정되어 있습니다. 이 수준은 언제든지 회사 요구 사항에 맞게 변경할 수 있습니다.
+Lookout Mobile Threat Defense는 다양한 종류의 모바일 위협을 분류합니다. [Lookout 위협 분류](http://personal.support.lookout.com/hc/articles/114094130693)에는 기본 위험 수준이 지정되어 있습니다. 이 수준은 언제든지 회사 요구 사항에 맞게 변경할 수 있습니다.
 
 ![위협 및 분류를 보여 주는 정책 페이지의 스크린샷](../media/mtp/lookout-mtp-threat-classification.png)
 
@@ -137,5 +137,5 @@ Lookout Mobile Threat Defense는 다양한 종류의 모바일 위협을 분류�
 ## <a name="watching-enrollment"></a>등록 감시
 설치가 완료되면 Lookout Mobile Threat Defense에서 지정한 등록 그룹에 해당하는 장치를 Azure AD에 폴링하기 시작합니다.  장치 모듈에서 등록된 장치에 대한 정보를 찾을 수 있습니다.  장치의 초기 상태는 보류 중으로 표시됩니다.  장치에서 Lookout for Work 앱을 설치하고 열고 활성화하면 장치 상태가 변경됩니다.  Lookout for Work 앱을 장치에 푸시하는 방법에 대한 자세한 내용은 [Lookout for Work 구성 및 배포](configure-and-deploy-lookout-for-work-apps.md) 항목을 참조하세요.
 ## <a name="next-steps"></a>다음 단계
-[Intune에서 Lookout MTP 연결 사용](enable-lookout-mtp-connection-in-intune.md)
+[Intune에서 Lookout MTP 연결 사용](https://docs.microsoft.com/intune/deploy-use/enable-lookout-mtd-connection)
 

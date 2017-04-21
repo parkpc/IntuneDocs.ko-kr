@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab5aa4e12d951d818c5afb4e1ac5e866b05733fb
-ms.openlocfilehash: 35543604ed68393e859517e32f5186247be001df
-ms.lasthandoff: 03/27/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: f30ab8799b2e049372139c7f9ee7213547736bb0
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/27/2017
 
 ## <a name="app-protection-policies-with-lob-apps"></a>LOB 앱의 앱 보호 정책
 
-또한 [Microsoft Intune 앱 SDK](https://docs.microsoft.com/intune/deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management) 또는 [IOS](https://www.microsoft.com/en-us/download/details.aspx?id=45218&751be11f-ede8-5a0c-058c-2ee190a24fa6=True) 및 [Android](https://www.microsoft.com/en-us/download/details.aspx?id=47267) 플랫폼용 Microsoft Intune 앱 래핑 도구를 활용하여 LOB(기간 업무) 앱으로 모바일 앱 보호 정책을 확장할 수도 있습니다.
+또한 [Microsoft Intune 앱 SDK](https://docs.microsoft.com/intune/deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management) 또는 [IOS](https://www.microsoft.com/download/details.aspx?id=45218&751be11f-ede8-5a0c-058c-2ee190a24fa6=True) 및 [Android](https://www.microsoft.com/download/details.aspx?id=47267) 플랫폼용 Microsoft Intune 앱 래핑 도구를 활용하여 LOB(기간 업무) 앱으로 모바일 앱 보호 정책을 확장할 수도 있습니다.
 
 ## <a name="how-do-app-protection-policies-help-during-migration"></a>앱 보호 정책이 마이그레이션하는 동안 어떻게 도움이 되나요?
 
@@ -46,9 +46,9 @@ Intune에서는 장치 수준 관리 방법이 없는 경우 회사 데이터 �
 
 ## <a name="task-list-for-app-protection-policies"></a>앱 보호 정책에 대한 작업 목록
 
--   작업 1: [모바일 앱 보호를 구성하는 방법](https://docs.microsoft.com/en-us/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)에 대해 알아봅니다.
+-   작업 1: [모바일 앱 보호를 구성하는 방법](https://docs.microsoft.com/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)에 대해 알아봅니다.
 
--   작업 2: [모바일 앱 보호 정책을 만들어 배포하는 방법](https://docs.microsoft.com/en-us/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)에 대해 알아봅니다.
+-   작업 2: [모바일 앱 보호 정책을 만들어 배포하는 방법](https://docs.microsoft.com/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)에 대해 알아봅니다.
 
 ## <a name="next-steps"></a>다음 단계 
 

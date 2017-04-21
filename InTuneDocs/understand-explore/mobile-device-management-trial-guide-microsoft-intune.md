@@ -14,9 +14,9 @@ ms.assetid: 47806f69-303d-41d9-9b0e-9b9445ea24ac
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 4133c64d283682f0be37cd6ac69164ef872a5026
-ms.lasthandoff: 01/05/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 9a988945c499c3145208b86d6832d02c28136ece
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -43,8 +43,8 @@ ms.lasthandoff: 01/05/2017
 ## <a name="whats-not-covered"></a>다루지 않는 내용
 |관심 있는 항목 |참조 문서 |
 |------------------------|----------|
-|테스트 환경이 아닌 환경에서의 MDM | [시작](https://docs.microsoft.com/en-us/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune) |
-|Intune 및 System Center Configuration Manager를 사용한 MDM | [하이브리드 모바일 장치 관리](https://docs.microsoft.com/en-us/sccm/mdm/understand/hybrid-mobile-device-management) |
+|테스트 환경이 아닌 환경에서의 MDM | [시작](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune) |
+|Intune 및 System Center Configuration Manager를 사용한 MDM | [하이브리드 모바일 장치 관리](https://docs.microsoft.com/sccm/mdm/understand/hybrid-mobile-device-management) |
 
 위 가이드는 프로덕션 환경에서 Intune을 설정하도록 도와주기 때문에 내용이 더 길고 평가 가이드보다 검토해야 하는 결정 사항이 더 많습니다.
 
@@ -61,7 +61,7 @@ Intune으로 모바일 장치를 관리하기 위해 수행해야 하는 첫 번
 
 이 평가판에서 가정한 대로 독립 실행형 Intune을 사용하거나, Intune을 EMS(Enterprise Mobility + Security)의 일부로 사용하는 경우 Intune을 모바일 장치 관리 기관으로 설정해야 합니다. 즉, 조직에서 모바일 장치를 관리하는 데 사용하는 서비스로 Intune을 지정합니다.
 
-System Center Configuration Manager와 함께 Intune을 사용하여 모바일 장치를 관리하려는 고객은 모바일 장치 관리 기관으로 Intune을 사용할지 또는 Configuration Manager를 사용할지 결정해야 합니다. 현재 한 번 설정한 후에는 변경하기가 매우 어렵기 때문에 이는 중요한 결정이지만 이 평가 가이드의 범위를 벗어납니다. Intune 또는 Configuration Manager를 MDM 기관으로 설정할 경우의 의미에 대한 자세한 내용은 [독립 실행형 Intune과 하이브리드 모바일 장치 관리 간의 선택](https://docs.microsoft.com/en-us/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management)을 참조하세요.
+System Center Configuration Manager와 함께 Intune을 사용하여 모바일 장치를 관리하려는 고객은 모바일 장치 관리 기관으로 Intune을 사용할지 또는 Configuration Manager를 사용할지 결정해야 합니다. 현재 한 번 설정한 후에는 변경하기가 매우 어렵기 때문에 이는 중요한 결정이지만 이 평가 가이드의 범위를 벗어납니다. Intune 또는 Configuration Manager를 MDM 기관으로 설정할 경우의 의미에 대한 자세한 내용은 [독립 실행형 Intune과 하이브리드 모바일 장치 관리 간의 선택](https://docs.microsoft.com/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management)을 참조하세요.
 
 평가판에서는 Intune을 MDM 기관으로 설정합니다. 이는 프로덕션 환경에 평가판을 사용하지 않는 한 프로덕션 환경에 영향을 주지 않습니다.
 
@@ -86,7 +86,7 @@ APNs(.pem) 인증서를 다운로드하고 파일을 로컬로 저장합니다. 
 3.    **Intune에 APNs 인증서 추가**<BR/>
 Microsoft Intune 관리 콘솔에서 **관리** > **모바일 장치 관리** > **iOS 및 Mac OS X** > **APNs 인증서 업로드**로 이동하여 **APNs 인증서 업로드**를 선택합니다. 인증서(.pem) 파일로 이동한 후 **열기**를 선택하고 Apple ID를 입력합니다. APNs 인증서가 있으면 Intune에서 등록된 모바일 장치에 정책을 푸시하여 iOS 장치를 등록하고 관리할 수 있습니다.
 4.    **회사 리소스를 이용할 수 있도록 사용자에게 장치를 등록하는 방법 설명**<br/>
-최종 사용자 등록 지침은 [Intune에서 iOS 장치 등록](https://docs.microsoft.com/en-us/Intune/enduser/enroll-your-device-in-intune-ios) 및 [Intune에서 Mac OS X 장치 등록](https://docs.microsoft.com/en-us/Intune/enduser/enroll-your-device-in-intune-mac-os-x)을 참조하세요. 예상되는 작업 내용과 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목을 등록 과정 중에 알려줍니다.
+최종 사용자 등록 지침은 [Intune에서 iOS 장치 등록](https://docs.microsoft.com/Intune/enduser/enroll-your-device-in-intune-ios) 및 [Intune에서 Mac OS X 장치 등록](https://docs.microsoft.com/Intune/enduser/enroll-your-device-in-intune-mac-os-x)을 참조하세요. 예상되는 작업 내용과 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목을 등록 과정 중에 알려줍니다.
 
 
 ### <a name="learn-more-about-device-enrollment"></a>장치 등록에 대한 자세한 정보

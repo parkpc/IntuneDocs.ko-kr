@@ -12,9 +12,9 @@ ms.technology:
 ms.assetid: e44f1756-52e1-4ed5-bf7d-0e80363a8674
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: deea78dcea9ade031441bf12b388a862235a8e9c
-ms.openlocfilehash: 1781600f82b37ba76fe072d3a0e6557504de3b46
-ms.lasthandoff: 03/15/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: bb0fe422999246fd40dae16299cf3154b7d7f97b
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -35,7 +35,7 @@ Intune 관리자는 회사 포털 앱을 비롯한 LOB(기간 업무) 앱을 Win
    회사 계정을 구입하기 위해 로그인할 때 사용한 회사 계정 정보를 사용하여 [Windows Phone 개발자 센터](http://go.microsoft.com/fwlink/?LinkId=268442) 에 가입합니다. 이 요청의 경우 코드 서명 인증서를 받기 전에 회사 관리자의 승인을 받아야 합니다.
 
 2. **회사 Symantec 인증서 가져오기**<br>
-  Symantec ID를 사용하여 [Symantec 웹 사이트](http://go.microsoft.com/fwlink/?LinkId=268441) 에서 인증서를 구입합니다. 인증서를 구입한 후 Windows Phone 개발 센터 계정에서 사용자가 지정한 회사 승인자에게 인증서 요청의 승인을 요청하는 전자 메일이 발송됩니다. Symantec 인증서 요구 사항에 대한 자세한 내용은 [Windows Phone에 Symantec 인증서가 필요한 이유는 무엇인가요?](https://technet.microsoft.com/en-us/library/dn764959.aspx#BKMK_Symantec)를 참조하세요. Windows 장치 등록 FAQ.
+  Symantec ID를 사용하여 [Symantec 웹 사이트](http://go.microsoft.com/fwlink/?LinkId=268441) 에서 인증서를 구입합니다. 인증서를 구입한 후 Windows Phone 개발 센터 계정에서 사용자가 지정한 회사 승인자에게 인증서 요청의 승인을 요청하는 전자 메일이 발송됩니다. Symantec 인증서 요구 사항에 대한 자세한 내용은 [Windows Phone에 Symantec 인증서가 필요한 이유는 무엇인가요?](https://technet.microsoft.com/library/dn764959.aspx#BKMK_Symantec)를 참조하세요. Windows 장치 등록 FAQ.
 
 3.  **인증서 가져오기**<br>
     요청이 승인되면 인증서 가져오기에 대한 지침이 포함된 전자 메일을 받습니다. 전자 메일의 지침에 따라 인증서를 가져옵니다.

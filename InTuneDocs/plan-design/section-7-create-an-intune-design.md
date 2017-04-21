@@ -15,9 +15,9 @@ ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 6df87e20011f20b99b91d88e669c67bb97ad2277
-ms.openlocfilehash: 1768b98cdcb18b5489d9a30b8c1f455f5de58418
-ms.lasthandoff: 03/13/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: ce51e92f9643ddc77e84e6b4c65825d397a37ddc
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -97,7 +97,7 @@ ms.lasthandoff: 03/13/2017
 | **솔루션 영역** | **현재 환경** | **설명** |
 |:---:|:---:|:---:|
 | **ID** | Azure AD, Azure AD Connect, 페더레이션되지 않음, MFA 없음 | 연말까지 MFA를 사용할 수 있도록 프로젝트 준비 |                 
-| **메일 환경** | Exchange 온-프레미스, Exchange Online | 현재 Exchange 온-프레미스에서 Exchange Online으로 마이그레이션 중입니다. 사서함의&75;%가 마이그레이션되었습니다. Intune 파일럿이 시작되기 전에 나머지 25%가 마이그레이션됩니다. |                
+| **메일 환경** | Exchange 온-프레미스, Exchange Online | 현재 Exchange 온-프레미스에서 Exchange Online으로 마이그레이션 중입니다. 사서함의 75%가 마이그레이션되었습니다. Intune 파일럿이 시작되기 전에 나머지 25%가 마이그레이션됩니다. |                
 | **SharePoint** | SharePoint 온-프레미스 | SharePoint Online으로 이동할 계획 없음 |  
 | **현재 MDM** | Exchange ActiveSync |  |
 | **인증서 솔루션** | Microsoft Server 2012 R2, AD 인증서 서비스 | 웹 사이트 서버에 PKI만 사용 |
@@ -153,7 +153,7 @@ Intune의 ID 요구 사항에 대한 자세한 내용은 아래에서 찾아볼 
 
 -   [사용자 및 장치 그룹 계획](https://docs.microsoft.com/intune/deploy-use/plan-your-user-and-device-groups)에 대해 자세히 알아보세요.
 
--   [사용자 및 장치 그룹을 만드는 방법](https://docs.microsoft.com/en-us/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)에 대해 알아보세요.
+-   [사용자 및 장치 그룹을 만드는 방법](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)에 대해 알아보세요.
 
 ### <a name="public-key-infrastructure-pki"></a>PKI(공개 키 인프라)
 
@@ -326,7 +326,7 @@ VPN 프로필을 통해 사용자가 원격 위치에서 네트워크에 안전�
 
 메일 프로필을 통해 메일 클라이언트가 연결 정보를 사용하여 자동으로 설정되고 메일 구성을 설정할 수 있습니다. Intune은 일부 장치에서 메일 프로필을 지원합니다.
 
--   [메일 프로필](https://docs.microsoft.com/en-us/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune)에 대해 자세히 알아보세요.
+-   [메일 프로필](https://docs.microsoft.com/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune)에 대해 자세히 알아보세요.
 
 다음은 메일 프로필의 설계를 문서화하는 예입니다.
 
