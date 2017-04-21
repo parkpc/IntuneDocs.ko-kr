@@ -15,9 +15,9 @@ ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: df54ac3a62b5ef21e8a32f3a282dd5299974a1b0
-ms.openlocfilehash: ae9af31263de8b0b95f98e423f8a9a59c0c66c4c
-ms.lasthandoff: 04/12/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 15229d2dff3b5e9a13bf1f9321ba09df81717052
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -70,11 +70,11 @@ Microsoft가 Intune을 개선하는 방법에 대한 피드백이 있나요? Mic
 
 1.  Intune 자격 증명을 사용하여 [Office 365 관리 센터](https://portal.office.com)에 로그인합니다.
 
-    프리미어 지원 고객은 대신 [프리미어 지원 페이지](https://support.microsoft.com/en-us/premier/contacts)에서 Intune 지원 티켓을 열어야 합니다.
+    프리미어 지원 고객은 대신 [프리미어 지원 페이지](https://support.microsoft.com/premier/contacts)에서 Intune 지원 티켓을 열어야 합니다.
 
     >[!NOTE]
     >
-    >프리미어 지원 고객은 [프리미어 지원 페이지](https://support.microsoft.com/en-us/premier/contacts)에서 Intune 지원 티켓을 열어야 합니다.
+    >프리미어 지원 고객은 [프리미어 지원 페이지](https://support.microsoft.com/premier/contacts)에서 Intune 지원 티켓을 열어야 합니다.
 
 2.  **관리** 타일을 선택합니다.
 3.  왼쪽의 **지원** 아래에서 **지원**을 선택하여 티켓을 엽니다.
@@ -136,7 +136,7 @@ Office 365 관리 센터의 지원 페이지가 다음과 같이 표시되는 �
 - 단일 사용자가 부분적인 업무 중단을 겪지만 적절한 해결 방법이 있습니다.
 
 > [!NOTE]
-> **Microsoft System Center Configuration Manager** 또는 **Microsoft System Center Endpoint Protection을 사용하는 경우:** Configuration Manager 또는 Endpoint Protection 관련 기술 지원이 필요하면 파트너에 문의하거나 [Microsoft System Center Configuration](https://docs.microsoft.com/sccm/) 및 [Endpoint Protection](https://technet.microsoft.com/en-us/library/hh508836.aspx) 설명서 페이지를 방문하여 다양한 자가 진단 자료를 확인할 수 있습니다. 또한 온라인 또는 전화를 통해 지원 요청을 여는 옵션이 제공됩니다.
+> **Microsoft System Center Configuration Manager** 또는 **Microsoft System Center Endpoint Protection을 사용하는 경우:** Configuration Manager 또는 Endpoint Protection 관련 기술 지원이 필요하면 파트너에 문의하거나 [Microsoft System Center Configuration](https://docs.microsoft.com/sccm/) 및 [Endpoint Protection](https://technet.microsoft.com/library/hh508836.aspx) 설명서 페이지를 방문하여 다양한 자가 진단 자료를 확인할 수 있습니다. 또한 온라인 또는 전화를 통해 지원 요청을 여는 옵션이 제공됩니다.
 >
 > System Center Configuration Manager 또는 System Center Endpoint Protection에 대한 기술 지원은 유료로 제공되며, 기존 라이선스 또는 프리미어 지원 계약이 있는 경우에는 지원 요금이 차감됩니다.
 
