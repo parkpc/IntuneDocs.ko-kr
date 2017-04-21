@@ -15,8 +15,9 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
-ms.openlocfilehash: c4ef429722f5e33092473641839b59de3bee1c1c
+ms.sourcegitcommit: a85b9f603e022b3296cb16754effd06087074a72
+ms.openlocfilehash: a2f8067bc169147a60db582d796631bea1ea5a8d
+ms.lasthandoff: 04/01/2017
 
 
 ---
@@ -25,7 +26,7 @@ ms.openlocfilehash: c4ef429722f5e33092473641839b59de3bee1c1c
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-이 항목에서는 Intune 관리자가 모바일 장치 등록을 사용하도록 설정하는 방법을 설명합니다. 휴대폰에서 Intune을 사용하는 방법에 대한 도움말은 [using managed devices to get work done](https://docs.microsoft.com/intune/enduser/company-portal-frequently-asked-questions)(관리되는 장치를 사용하여 작업 완료)을 참조하세요. 
+이 항목에서는 Intune 관리자가 모바일 장치 등록을 사용하도록 설정하는 방법을 설명합니다. 휴대폰에서 Intune을 사용하는 방법에 대한 도움말은 [using managed devices to get work done](https://docs.microsoft.com/intune/enduser/company-portal-frequently-asked-questions)(관리되는 장치를 사용하여 작업 완료)을 참조하세요.
 
 Intune을 사용하여 모바일 장치 관리를 설정하려면 먼저 *모바일 장치 관리 기관*을 설정하여 계정과 연결된 장치를 관리할 수 있는 서비스를 식별해야 합니다. 이 지침에서는 System Center Configuration Manager 대신 Intune 서비스를 사용한다고 가정합니다. MDM 기관이 설정되면 장치 플랫폼에 대한 관리를 사용하도록 설정하고 회사 포털 앱을 사용하여 장치를 등록할 수 있습니다.
 
@@ -49,9 +50,9 @@ iOS, Mac 및 Android for Work 장치에 대해 등록을 사용하도록 설정�
 
 관리하려는 장치 플랫폼에 대해 장치 등록을 사용하도록 설정합니다. 플랫폼에 따라 각기 다른 요구 사항을 충족해야 합니다.
 
--  [iOS 및 macOS](https://docs.microsoft.com/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
--  [Windows PC](https://docs.microsoft.com/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
--  [Windows 10 Mobile 및 Windows Phone](https://docs.microsoft.com/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)
+- [iOS 및 macOS](https://docs.microsoft.com/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
+- [Window 10 및 Windows Phone](https://docs.microsoft.com/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
+- [Window PC](https://docs.microsoft.com/intune/deploy-use/manage-windows-pcs-with-microsoft-intune)(Intune 소프트웨어 클라이언트)
 - [Android for Work](https://docs.microsoft.com/intune/deploy-use/set-up-android-for-work)
 
 등록을 사용하도록 설정하면 사용자는 회사 포털 앱을 장치로 다운로드하고 장치 등록 프로세스를 완료할 수 있습니다.
@@ -60,18 +61,12 @@ iOS, Mac 및 Android for Work 장치에 대해 등록을 사용하도록 설정�
 다음을 비롯한 다양한 [회사 소유 장치 등록](https://docs.microsoft.com/intune/deploy-use/manage-corporate-owned-devices) 시나리오를 사용하도록 설정할 수도 있습니다.
 - [Apple 장치 등록 프로그램](https://docs.microsoft.com/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune)
 - [Apple Configurator 설치 도우미 등록](https://docs.microsoft.com/intune/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune)
-- [Apple Configurator 설치 도우미 등록](https://docs.microsoft.com/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune)
+- [Apple Configurator 직접 등록](https://docs.microsoft.com/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune)
 - [장치 등록 관리자](https://docs.microsoft.com/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
 
 ### <a name="next-steps"></a>다음 단계
 축하합니다. *Intune 빠른 시작 가이드*의 마지막 단계를 완료했습니다. 초기 구성을 완료했으니, 추가적인 MDM 기능 활성화를 고려할 수 있습니다.
 
 >[!div class="step-by-step"]
-
 >[&larr; **장치 등록**](.\start-with-a-paid-subscription-to-microsoft-intune-step-8.md)     [**구성 후 작업** &rarr;](.\post-configuration-tasks.md)  
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

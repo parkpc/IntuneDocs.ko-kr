@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab5aa4e12d951d818c5afb4e1ac5e866b05733fb
-ms.openlocfilehash: b01b68b7587cb91f24285cdffafeab43296886e6
-ms.lasthandoff: 03/27/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 0fce3edb43a147491465d8a58d1a9a4f009fba55
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -42,7 +42,7 @@ Intune은 ID 및 사용자 그룹화 공급자로 AAD(Azure Active Directory)가
 
 -   [사용자 및 장치 그룹 계획](https://docs.microsoft.com/intune/deploy-use/plan-your-user-and-device-groups)에 대해 자세히 알아보세요.
 
--   [사용자 및 장치 그룹을 만드는 방법](https://docs.microsoft.com/en-us/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)에 대해 알아보세요.
+-   [사용자 및 장치 그룹을 만드는 방법](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)에 대해 알아보세요.
 
 조직이 이미 Office 365를 사용하고 있는 경우 Intune에서 동일한 Azure Active Directory 환경을 사용하는 것이 중요합니다.
 

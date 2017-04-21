@@ -15,8 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f46f13e9dbf03fa2b3e2ec7339cad927ea0b38e0
-ms.openlocfilehash: 16e4b6ddd1df9c56e36318dfd3050d1a1f627adc
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: fdd85177f21a430eb940d1f88b3bb016c56cee55
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -48,14 +49,9 @@ Intune은 여러 기술 계층을 통해 회사 데이터를 보호합니다. ID
 
 앱을 MAM 정책과 연결하려면 앱에서 Microsoft Intune 앱 SDK(소프트웨어 개발 키트)를 통합하거나 앱 줄 바꿈 도구를 사용해야 합니다.
 
-Microsoft Office 앱 등의 앱에는 Intune 앱 SDK가 기본 제공됩니다. 지원되는 앱의 전체 목록은 Microsoft Intune 응용 프로그램 파트너 페이지의 [Microsoft Intune 모바일 응용 프로그램 갤러리](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-apps)에서 확인할 수 있습니다. 앱을 선택하여 지원되는 시나리오와 플랫폼, 앱에서 다중 ID를 지원하는지 여부 등을 확인합니다.
+Microsoft Office 앱 등의 앱에는 Intune 앱 SDK가 기본 제공됩니다. 지원되는 앱의 전체 목록은 Microsoft Intune 응용 프로그램 파트너 페이지의 [Microsoft Intune 모바일 응용 프로그램 갤러리](https://www.microsoft.com/cloud-platform/microsoft-intune-apps)에서 확인할 수 있습니다. 앱을 선택하여 지원되는 시나리오와 플랫폼, 앱에서 다중 ID를 지원하는지 여부 등을 확인합니다.
 
 [사용자 지정 작성된 LOB(기간 업무) 앱](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)을 MAM 정책과 함께 사용하도록 설정할 수도 있습니다.
 
 데이터 이동을 제한하는 것 외에도 장치를 분실하거나 도난당한 경우 또는 사용자가 회사에서 더 이상 근무하지 않는 경우 [회사 데이터를 선택적으로 지울](wipe-managed-company-app-data-with-microsoft-intune.md) 수 있으며 개인 데이터만 내부에 남길 수 있습니다.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

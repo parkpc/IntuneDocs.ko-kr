@@ -15,8 +15,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 2fd7ebc53c3b033982297dbce4a091cd9336fbb1
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 65d3b454531084008bdbb01dd17f5ce34ef5890f
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -136,7 +137,7 @@ Microsoft Intune **Windows Phone 일반 구성 정책(Windows Phone 8.1 이상)*
 #### <a name="how-to-specify-urls-to-app-stores"></a>앱 스토어 URL을 지정하는 방법
 허용 및 차단된 앱 목록에 앱 URL을 지정하려면 다음 형식을 사용합니다.
 
-[Windows Phone 앱+게임 페이지](http://www.windowsphone.com/en-us/store/overview) 에서 사용하려는 앱을 검색합니다.
+[Windows Phone 앱+게임 페이지](http://www.windowsphone.com/store/overview) 에서 사용하려는 앱을 검색합니다.
 
 앱 페이지를 열고 클립보드에 URL을 복사합니다. 이제 이 URL을 허용되는 앱 또는 차단되는 앱 목록에서 URL로 사용할 수 있습니다.
 
@@ -172,9 +173,4 @@ Windows Phone 장치에 대한 OMA-URI 설정 만들기에 대한 도움이 필�
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

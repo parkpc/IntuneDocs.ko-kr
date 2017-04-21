@@ -15,9 +15,9 @@ ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
-ms.openlocfilehash: 70fba8f983efb245afc3fb19fa38287d1a84b1f4
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: acfcb5fc8bf0af2ba5fb897e9e18d61e60f11978
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -108,7 +108,7 @@ SCEP(단순 인증서 등록 프로토콜) 또는 PKCS #12(.PFX) 인증서 프�
 
     >     CN={{UserName}},E={{EmailAddress}},OU=Mobile,O=Finance Group,L=Redmond,ST=Washington,C=US
 
-    > 이 예에서는 관리자가 `CN` 및 `E` 변수 외에 조직 구성 단위, 조직, 위치, 상태 및 국가 값에 해당하는 문자열을 사용하는 주체 이름 형식을 만들었습니다. [CertStrToName 함수](https://msdn.microsoft.com/en-us/library/windows/desktop/aa377160.aspx)에는 지원되는 문자열이 나열됩니다.
+    > 이 예에서는 관리자가 `CN` 및 `E` 변수 외에 조직 구성 단위, 조직, 위치, 상태 및 국가 값에 해당하는 문자열을 사용하는 주체 이름 형식을 만들었습니다. [CertStrToName 함수](https://msdn.microsoft.com/library/windows/desktop/aa377160.aspx)에는 지원되는 문자열이 나열됩니다.
 
 4.  **정책 저장**을 선택합니다.
 

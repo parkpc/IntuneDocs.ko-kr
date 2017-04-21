@@ -14,8 +14,9 @@ ms.assetid: cad9ae15-26e5-418d-8ce5-c2dafc2071f0
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: f121ff01a3eee20473637626128239c4d883e826
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 08b5b555ed44275c428c15fe3529bd683dc8c004
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -28,16 +29,11 @@ ms.openlocfilehash: f121ff01a3eee20473637626128239c4d883e826
 
 다음과 같은 방법으로 Intune 무료 평가판을 유료 구독으로 변환할 수 있습니다.
 
--   **Intune 구독** - 사용자별로 사용이 허가됩니다. 자세한 내용은 [Microsoft Intune 구매 방법](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/Purchasing.aspx)을 참조하세요. 구매를 완료한 후 Intune을 시작하려면 [Microsoft Intune 유료 구독 시작](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune)의 단계를 수행하고 추가 구성 단계를 검토하십시오.
+-   **Intune 구독** - 사용자별로 사용이 허가됩니다. 자세한 내용은 [Microsoft Intune 구매 방법](https://www.microsoft.com/server-cloud/products/microsoft-intune/Purchasing.aspx)을 참조하세요. 구매를 완료한 후 Intune을 시작하려면 [Microsoft Intune 유료 구독 시작](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune)의 단계를 수행하고 추가 구성 단계를 검토하십시오.
 
--   **Enterprise Mobility + Security** - Intune, Azure Active Directory Premium, Azure RMS 서비스를 제공합니다. 자세한 내용은 Microsoft 계정 관리자 또는 지역 대리점에 문의하거나 [EMS 기능](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx) 및 [가격 책정](http://www.microsoft.com/en-us/server-cloud/products/enterprise-mobility-suite/Purchasing.aspx)을 참조하세요.
+-   **Enterprise Mobility + Security** - Intune, Azure Active Directory Premium, Azure RMS 서비스를 제공합니다. 자세한 내용은 Microsoft 계정 관리자 또는 지역 대리점에 문의하거나 [EMS 기능](https://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx) 및 [가격 책정](https://www.microsoft.com/server-cloud/products/enterprise-mobility-suite/Purchasing.aspx)을 참조하세요.
 
 -   **기업계약**(&gt;250명 이상 사용자) - 사용자가 250명이 넘는 조직에 가장 적합한 라이선싱 프로그램입니다. EA를 통해 온-프레미스 소프트웨어와 온라인 서비스 중에서 사용자 요구에 가장 적합한 옵션을 유연하게 선택하고, 사용되는 기술을 손쉽게 최적화할 수 있습니다. 자세한 내용은 Microsoft 계정 관리자 또는 지역 대리점에 문의하거나, [엔터프라이즈 볼륨 라이선스 사이트](http://www.microsoft.com/licensing/licensing-options/enterprise.aspx)를 참조하세요.
 
 -   **온라인 정기가입 프로그램**(사용자 &lt;250명) - [온라인 서비스 볼륨 라이선싱](http://www.microsoft.com/licensing/online-services/default.aspx) 프로그램은 사용자가 250명 미만인 조직에 맞춰 특별히 설계되었습니다. 이 프로그램을 사용하여 Intune 서비스를 구독, 관리하고 배포할 수 있습니다.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

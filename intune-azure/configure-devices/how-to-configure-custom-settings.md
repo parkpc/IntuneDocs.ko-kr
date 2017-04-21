@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/16/2017
+ms.date: 04/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
-ms.openlocfilehash: 029b5c4c011ddf3ff7dbb06c55b48ef0c18c725e
-ms.lasthandoff: 03/17/2017
+ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
+ms.openlocfilehash: dcd876e31d3b5c65d27f317aab1582da1a883646
+ms.lasthandoff: 04/19/2017
 
 
 ---
@@ -55,9 +55,9 @@ Intune에 다른 장치 프로필에서 기본 제공되고 사용 가능한 구
     - [macOS 설정](custom-for-macos.md)
     - [Windows Phone 8.1 설정](custom-for-windows-phone-8-1.md)
     - [Windows 10 설정](custom-for-windows-10.md)
+    - [Android for Work 설정](custom-android-for-work.md)
 8. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
 
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
 계속해서 이 프로필을 그룹에 할당하려면 [장치 프로필을 할당하는 방법](how-to-assign-device-profiles.md)을 참조하세요.
-
 

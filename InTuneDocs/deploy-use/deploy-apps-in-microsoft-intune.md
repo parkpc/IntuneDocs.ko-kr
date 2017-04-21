@@ -15,8 +15,9 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 32653a46d8758eac5b884f4f6f7a2e07447c1e36
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 7451b1872a848ac322db4ec485564f2ebf983f0d
+ms.lasthandoff: 04/14/2017
 
 ---
 # <a name="deploy-apps-in-microsoft-intune"></a>Microsoft Intune에서 앱 배포
@@ -48,7 +49,7 @@ ms.openlocfilehash: 32653a46d8758eac5b884f4f6f7a2e07447c1e36
 
 5. 모바일 응용 프로그램 관리 정책을 통해 배포 중인 앱을 구성할 수 있는 경우 **모바일 앱 관리** 페이지가 표시됩니다. 이 페이지에서 이 앱과 연결할 모바일 응용 프로그램 관리 정책을 선택합니다.
 
-    [모바일 앱 관리 정책과 호환되는 Microsoft 앱을 참조하세요.](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)
+    [모바일 앱 관리 정책과 호환되는 Microsoft 앱을 참조하세요.](https://www.microsoft.com/server-cloud/products/microsoft-intune/partners.aspx)
 
 6. 배포 중인 앱이 Intune VPN 프로필과 호환되는 경우 **VPN 프로필** 페이지가 표시됩니다. 이 페이지에서 배포한 VPN 프로필을 iOS 앱과 연결하도록 선택할 수 있습니다. 앱이 시작되면 VPN 연결이 자동으로 열립니다. VPN 프로필을 사용할 수 있도록 하려면, 설정된 **앱별 VPN** 프로필 설정이 있어야 합니다.
  프로필을 앱을 연결하는 방법을 비롯하여 VPN 프로필을 구성하는 방법에 대한 자세한 내용은 [Microsoft Intune에서 VPN 연결](vpn-connections-in-microsoft-intune.md)을 참조하세요.
@@ -72,9 +73,4 @@ iOS 장치에 **필요한** 앱을 배포한 경우 사용자는 앱을 설치�
 ## <a name="next-steps"></a>다음 단계
 
 앱을 배포한 후에 진행 상태를 모니터링하려고 합니다. 자세한 내용은 [Monitor apps in Microsoft Intune](monitor-apps-in-microsoft-intune.md)(Microsoft Intune에서 앱 모니터링) 항목을 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

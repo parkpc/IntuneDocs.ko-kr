@@ -15,9 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7beff3bf4579d9fb79f0c3f2fb8fbf9bb1ea160
-ms.openlocfilehash: fc97e1266c2e859104b21f3bf4ff24f33123f66a
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: f57323fe0b093f2478d71d3f01b9c0e5ee2727eb
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -125,9 +125,9 @@ Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장�
 
 ### <a name="to-synchronize-on-premises-users-with-azure-ad"></a>Azure AD와 온-프레미스 사용자를 동기화하려면
 
-1. 온-프레미스 Active Directory에서 사용자 지정 도메인에 대한 [UPN 접미사를 추가](https://technet.microsoft.com/en-us/library/cc772007.aspx)합니다.
+1. 온-프레미스 Active Directory에서 사용자 지정 도메인에 대한 [UPN 접미사를 추가](https://technet.microsoft.com/library/cc772007.aspx)합니다.
 2. 가져오려는 온-프레미스 사용자에 대한 새 UPN 접미사를 설정합니다.
-3. [Azure AD Connect 동기화](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/)를 실행하여 온-프레미스 사용자를 Azure AD와 통합합니다.
+3. [Azure AD Connect 동기화](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)를 실행하여 온-프레미스 사용자를 Azure AD와 통합합니다.
 4. 사용자 계정 정보가 동기화되면 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx)을 사용하여 Microsoft Intune 라이선스를 할당할 수 있습니다.
 
 ## <a name="step-6-enable-enrollment"></a>6단계: 등록 사용
@@ -137,8 +137,8 @@ MDM 기관을 설정한 후 조직에서 지원하려는 운영 체제에 대한
 - [iOS 및 Mac](set-up-ios-and-mac-management-with-microsoft-intune.md)
 - [Android](set-up-android-management-with-microsoft-intune.md)
 - [Android for Work](set-up-android-for-work.md)
-- [Windows PC 및 노트북](set-up-windows-device-management-with-microsoft-intune.md)
-- [Windows 10 Mobile 및 Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)
+- [Windows 10 Mobile 및 Windows Phone](set-up-windows-device-management-with-microsoft-intune.md)
+- [Windows PC 및 노트북](manage-windows-pcs-with-microsoft-intune.md)(Intune 클라이언트 소프트웨어)
 
 [회사 소유 장치 등록](manage-corporate-owned-devices.md)을 사용하도록 설정할 수도 있습니다.
 
@@ -170,7 +170,7 @@ Microsoft 지원에서 다음 정보를 확인하도록 요청합니다.
 MDM 기관을 다시 설정하려면 Microsoft 지원에 문의하기 전에 다음 단계를 완료합니다.
 
 - Intune 관리 콘솔에서 모든 장치를 사용 중지합니다. 장치 자체에서 장치를 사용 중지하지 마세요. 
-- Service To Service Connector를 삭제(**관리** > **모바일 장치 관리** > **Microsoft Exchange**)하거나, Exchange Connector를 설정한 경우 사용하지 않도록 설정합니다. 
+- Service To Service Connector를 삭제(**관리** > **모바일 장치 관리** > **Microsoft Exchange**)하거나, Exchange Connector를 설정한 경우 사용하지 않도록 설정합니다.
 - **관리** > **장치 등록 관리자**에서 장치 등록 관리자 역할을 제거합니다.
 - **관리** > **모바일 장치 관리** > **장치 그룹 매핑**에서 장치 그룹 매핑을 끕니다.
 - **관리** > **모바일 장치 관리** > **Windows** > **테스트용 로드 키**에서 테스트용 로드 키를 삭제합니다.
@@ -187,7 +187,7 @@ MDM 기관을 다시 설정하려면 Microsoft 지원에 문의하기 전에 다
 - Intune 사용자 그룹에서 모든 사용자를 제거합니다. Intune 구독에서 빈 사용자 컬렉션을 가리키거나 대상 컬렉션에서 모든 사용자를 제거합니다.  CloudUserSync.log에서 사용자가 제거되었는지 확인합니다. 
 - APNs 인증서를 삭제할 iOS 플랫폼의 선택을 취소합니다.
 - MDM 장치에 대해 게시된 모든 응용 프로그램을 삭제합니다.
-- MDM 장치에 대한 정책을 모두 삭제합니다. 
+- MDM 장치에 대한 정책을 모두 삭제합니다.
 - Configuration Manager 콘솔에서 Windows Intune 커넥터를 제거합니다(R2 SP1 이전에만 적용).
 -구독을 마우스 오른쪽 단추로 클릭하고 **삭제**를 선택하여 Intune 구독을 제거합니다.
 - SMS Executive 서비스를 다시 시작합니다.
@@ -196,18 +196,18 @@ MDM 기관을 다시 설정하려면 Microsoft 지원에 문의하기 전에 다
 ### <a name="reset-mdm-authority-from-office-365-to-configuration-manager"></a>MDM 기관을 Office 365에서 Configuration Manager로 다시 설정
 
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
-2. **보안 정책** 탭을 선택한 다음 **장치 관리**를 선택합니다. 
+2. **보안 정책** 탭을 선택한 다음 **장치 관리**를 선택합니다.
 3. **선택적 지우기**를 선택하여 모든 장치를 사용 중지합니다. 장치 자체에서 장치를 사용 중지하지 마세요. 선택적 지우기가 사용되지 않는 경우에는 추가 작업이 필요하지 않습니다.
-4. **보안 정책** 탭을 선택한 다음 **장치 보안 정책**을 선택합니다. 
+4. **보안 정책** 탭을 선택한 다음 **장치 보안 정책**을 선택합니다.
 5. 기존의 모든 정책에 대해 **삭제**를 선택합니다. 정책이 보류 중 상태이면 추가 작업이 필요하지 않습니다.
 
 >[!NOTE]
->iOS APsN 인증서는 삭제할 수 없으며 계정에 연결된 상태로 유지됩니다. 
+>iOS APsN 인증서는 삭제할 수 없으며 계정에 연결된 상태로 유지됩니다.
 
 ### <a name="next-steps-for-mdm-authority-resets"></a>MDM 기관 다시 설정을 위한 다음 단계
 
-Microsoft 지원에서 적용 가능한 검사 목록의 항목을 확인한 후 MDM 기관을 다시 설정하는 데 영업일 기준 최대 3일이 걸릴 수 있지만 일반적으로 1일 내에 다시 설정됩니다. 
+Microsoft 지원에서 적용 가능한 검사 목록의 항목을 확인한 후 MDM 기관을 다시 설정하는 데 영업일 기준 최대 3일이 걸릴 수 있지만 일반적으로 1일 내에 다시 설정됩니다.
 
 >[!IMPORTANT]
->Microsoft 지원에서 다시 설정이 완료된 것을 확인할 때까지 구독을 구성하지 마세요. 중간에 구성하면 손상되거나 Intune 서비스를 사용하지 못할 수 있습니다. 
+>Microsoft 지원에서 다시 설정이 완료된 것을 확인할 때까지 구독을 구성하지 마세요. 중간에 구성하면 손상되거나 Intune 서비스를 사용하지 못할 수 있습니다.
 

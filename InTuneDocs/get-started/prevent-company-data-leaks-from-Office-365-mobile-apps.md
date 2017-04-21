@@ -15,8 +15,9 @@ ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
-ms.openlocfilehash: 0288ecd940d650304d83b7dd5803a56f69b936f7
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 4c13eb3149ea0cc21604a5a05445cfccdc984293
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -40,15 +41,10 @@ Microsoft Intune는 Office 365 모바일 앱 또는 다른 LOB(기간 업무) �
 ### <a name="additional-information"></a>추가 정보:
 - MAM 사용 앱을 통한 [최종 사용자 환경](/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune).
 - [Intune을 사용하여 MAM을 위한 LOB 앱 준비](/intune/deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune)
-- <a href="https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners" target="_blank">Microsoft Intune 응용 프로그램 파트너 목록 &rarr;</a> MAM 사용 앱 제공.
+- <a href="https://www.microsoft.com/cloud-platform/microsoft-intune-partners" target="_blank">Microsoft Intune 응용 프로그램 파트너 목록 &rarr;</a> MAM 사용 앱 제공.
 
 ## <a name="what-should-i-do-next"></a>그다음에 어떻게 해야 하나요?
 [Microsoft MDM이 아닌 솔루션에서 Microsoft Intune으로 마이그레이션](/intune/deploy-use/migrate-to-intune)
 
 [Intune MDM에 장치 등록](/intune/deploy-use/enroll-devices-in-microsoft-intune)
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

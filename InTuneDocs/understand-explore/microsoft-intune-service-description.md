@@ -15,8 +15,9 @@ ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
-ms.openlocfilehash: 8e8257a426bd6b9a99e21e928b08c84f162d5da3
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 5975ba0219f464c8f5aa1735657ff3d1c186b991
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -29,7 +30,7 @@ Microsoft Intune은 Windows, Mac OS X, iOS, Android 또는 Windows Mobile을 실
 
 Microsoft는 적합한 계획의 적합한 서비스에 대해 Intune 온보딩 혜택을 제공합니다. 등록 혜택을 이용하면 Microsoft 전문가와 원격으로 함께 작업하여 Intune 환경을 즉시 사용하도록 준비할 수 있습니다. 등록 혜택에 대한 자세한 내용은 [Microsoft Intune 등록 혜택 설명](http://go.microsoft.com/fwlink/?LinkId=619281)을 참조하세요.
 
-100개의 사용자 라이선스를 포함하는 30일 무료 평가판으로 Intune 사용을 시작할 수 있습니다. 무료 평가판을 시작하려면 [Intune 등록 페이지로 이동하세요](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/). 조직에서 기업 계약 또는 이와 동등한 볼륨 라이선스 계약을 맺은 경우 Microsoft 담당자에게 문의하여 무료 평가판을 설정하세요.
+100개의 사용자 라이선스를 포함하는 30일 무료 평가판으로 Intune 사용을 시작할 수 있습니다. 무료 평가판을 시작하려면 [Intune 등록 페이지로 이동하세요](https://www.microsoft.com/server-cloud/products/microsoft-intune/). 조직에서 기업 계약 또는 이와 동등한 볼륨 라이선스 계약을 맺은 경우 Microsoft 담당자에게 문의하여 무료 평가판을 설정하세요.
 
 > [!NOTE]
 > 조직에 Microsoft Online Services 회사 또는 학교 계정이 있고 평가 기간이 종료된 후 프로덕션에서 이 Intune 구독을 계속 사용할 수 있는 경우, 해당 페이지에서 **로그인** 옵션을 선택하고 조직의 전역 관리자 계정을 사용하여 인증해야 합니다. 이 작업을 통해 Intune 평가판을 기존 회사 또는 학교 계정에 연결할 수 있습니다.
@@ -69,13 +70,13 @@ Intune 서비스의 변경 내용에 대한 자세한 내용은 [Microsoft Intun
 
 -**Intune 독립 실행형 구성.** Intune의 웹 기반 관리 콘솔을 사용하여 조직의 장치를 관리할 수 있습니다. 온-프레미스 IT 인프라 없이도 Intune을 사용할 수 있습니다. Active Directory Domain Services와 Intune을 함께 사용하는 경우 도메인 서비스를 관리하는 도메인 사용자 계정을 Intune과 함께 사용할 수 있습니다.
 
--**System Center Configuration Manager 포함 Intune.** 구성 관리자 관리 콘솔을 사용하여 기업의 컴퓨터 및 모바일 장치를 관리할 수 있습니다. 이 구성을 통해 단일 콘솔인 구성 관리자 관리 콘솔에서 조직의 모든 장치를 관리할 수 있습니다. 구성 관리자는 매우 많은 수의 모바일 장치, 서버 및 컴퓨터를 지원합니다. 구성 관리자에 대한 자세한 내용은 [System Center Configuration Manager 및 Microsoft Intune을 지원하는 하이브리드 MDM(모바일 장치 관리)](https://technet.microsoft.com/library/mt627883.aspx)을 참조하세요. 적합한 방식을 결정하는 데 도움이 되는 추가 정보는 [Microsoft Intune 독립 실행형 및 Configuration Manager가 있는 하이브리드 MDM(모바일 장치 관리) 중에서 선택](https://technet.microsoft.com/en-us/library/mt706478.aspx)를 참조하세요.
+-**System Center Configuration Manager 포함 Intune.** 구성 관리자 관리 콘솔을 사용하여 기업의 컴퓨터 및 모바일 장치를 관리할 수 있습니다. 이 구성을 통해 단일 콘솔인 구성 관리자 관리 콘솔에서 조직의 모든 장치를 관리할 수 있습니다. 구성 관리자는 매우 많은 수의 모바일 장치, 서버 및 컴퓨터를 지원합니다. 구성 관리자에 대한 자세한 내용은 [System Center Configuration Manager 및 Microsoft Intune을 지원하는 하이브리드 MDM(모바일 장치 관리)](https://technet.microsoft.com/library/mt627883.aspx)을 참조하세요. 적합한 방식을 결정하는 데 도움이 되는 추가 정보는 [Microsoft Intune 독립 실행형 및 Configuration Manager가 있는 하이브리드 MDM(모바일 장치 관리) 중에서 선택](https://technet.microsoft.com/library/mt706478.aspx)를 참조하세요.
 
 
 ## <a name="learn-more-about-intune"></a>Intune에 대해 자세히 알아보기
 다음이 리소스를 사용하면 Intune에 대해 자세히 알 수 있습니다.
 
-- [Microsoft Intune 보안 센터](http://www.microsoft.com/en-us/server-cloud/products/intune-trust-center/)에서는 Intune의 보안, 개인 정보 보호 및 규정 준수 방침에 대한 정보를 제공하고, Intune의 몇 가지 인증에 대해 설명합니다.
+- [Microsoft Intune 보안 센터](https://www.microsoft.com/server-cloud/products/intune-trust-center/)에서는 Intune의 보안, 개인 정보 보호 및 규정 준수 방침에 대한 정보를 제공하고, Intune의 몇 가지 인증에 대해 설명합니다.
 
 - [Microsoft Intune의 등록된 장치 관리 기능](/intune/get-started/mobile-device-management-capabilities-in-microsoft-intune)
 
@@ -84,9 +85,4 @@ Intune 서비스의 변경 내용에 대한 자세한 내용은 [Microsoft Intun
 [System Center 2012 Configuration Manager에 대한 문서 라이브러리](https://technet.microsoft.com/library/gg682041.aspx)
 
 [Microsoft Intune의 새로운 기능](/intune/deploy-use/whats-new-in-microsoft-intune)
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

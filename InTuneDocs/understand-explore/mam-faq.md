@@ -15,8 +15,9 @@ ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 7447a85e03e38aa0f536ce008bae9f3c82528cec
-ms.openlocfilehash: 1ab1645a8c25bf51fc42788364e498d18c2f15d9
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: aea41c86e1fe784d6234f4ff90e299632b2a6d5f
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.openlocfilehash: 1ab1645a8c25bf51fc42788364e498d18c2f15d9
 
 **MAM이란?** [Intune MAM(모바일 응용 프로그램 관리)](../deploy-use/overview-of-app-lifecycle-in-microsoft-intune.md)은 사용자를 위해 모바일 앱을 게시, 푸시, 구성, 보호, 모니터링 및 업데이트할 수 있는 Intune 관리 기능 제품군을 나타냅니다.
 
-**MAM 앱 보호의 이점은 무엇인가요?** MAM은 응용 프로그램 내에서 조직의 데이터를 보호합니다. 중요한 데이터를 포함하는 회사 또는 학교 관련 앱인 MAM-WE는 BYOD(Bring-your-own-device) 시나리오의 개인 장치를 비롯한 거의 모든 장치에서 관리할 수 있습니다. Microsoft Office 앱과 같은 많은 생산성 앱은 Intune MAM에서 관리할 수 있습니다. 공개적으로 사용 가능한 공식적인 [Intune 지원 앱](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-apps) 목록을 참조하세요.
+**MAM 앱 보호의 이점은 무엇인가요?** MAM은 응용 프로그램 내에서 조직의 데이터를 보호합니다. 중요한 데이터를 포함하는 회사 또는 학교 관련 앱인 MAM-WE는 BYOD(Bring-your-own-device) 시나리오의 개인 장치를 비롯한 거의 모든 장치에서 관리할 수 있습니다. Microsoft Office 앱과 같은 많은 생산성 앱은 Intune MAM에서 관리할 수 있습니다. 공개적으로 사용 가능한 공식적인 [Intune 지원 앱](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) 목록을 참조하세요.
 
 **MAM은 어떤 장치 구성을 지원하나요?** Intune MAM은 다음과 같은 두 가지 구성을 지원합니다.
   1. **Intune MDM + MAM**: 처음 실행될 때 MAM에서 지원하는 첫 번째 구성입니다. IT 관리자는 Intune MDM(모바일 장치 관리)에 등록된 장치에서 MAM 및 앱 보호 정책을 사용하여 앱을 관리할 수만 있습니다. MDM + MAM을 사용하여 앱을 관리하려면 http://manage.microsoft.com에서 Intune 독립 실행형 콘솔을 사용해야 합니다.
@@ -48,7 +49,7 @@ ms.openlocfilehash: 1ab1645a8c25bf51fc42788364e498d18c2f15d9
 
 ## <a name="apps-you-can-manage-with-app-protection-policies"></a>앱 보호 정책으로 관리할 수 있는 앱
 
-**앱 보호 정책에서 관리될 수 있는 앱은 어느 것인가요?** [Intune 앱 SDK](../develop/intune-app-sdk.md)에서 지원되거나 [Intune 앱 래핑 도구](../deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)로 래핑된 모든 앱은 Intune 앱 보호 정책을 사용하여 관리할 수 있습니다. 공개적으로 사용 가능한 공식적인 [Intune 지원 앱](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-apps) 목록을 참조하세요.
+**앱 보호 정책에서 관리될 수 있는 앱은 어느 것인가요?** [Intune 앱 SDK](../develop/intune-app-sdk.md)에서 지원되거나 [Intune 앱 래핑 도구](../deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)로 래핑된 모든 앱은 Intune 앱 보호 정책을 사용하여 관리할 수 있습니다. 공개적으로 사용 가능한 공식적인 [Intune 지원 앱](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) 목록을 참조하세요.
 
 **Intune 지원 앱에 대해 앱 보호 정책을 사용하기 위한 기본 요구 사항은 무엇인가요?**
   1. 최종 사용자는 AAD(Azure Active Directory) 계정이 있어야 합니다. Azure Active Directory에서 Intune 사용자를 만드는 방법을 알아보려면 [Intune에 사용자 추가 및 관리 권한 부여](../get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3.md)를 참조하세요.
@@ -59,18 +60,18 @@ ms.openlocfilehash: 1ab1645a8c25bf51fc42788364e498d18c2f15d9
 
   4. 최종 사용자는 자신의 AAD 계정을 사용하여 앱에 로그인해야 합니다.
 
-**[Outlook 모바일 앱](https://www.microsoft.com/en-us/outlook-com/mobile/) 사용에 대한 추가 요구 사항은 무엇인가요?**
+**[Outlook 모바일 앱](https://www.microsoft.com/outlook-com/mobile/) 사용에 대한 추가 요구 사항은 무엇인가요?**
 
   1. 최종 사용자는 장치에 Outlook 모바일 앱이 설치되어 있어야 합니다.
 
-  2. 최종 사용자는 [Office 365 Exchange Online](https://products.office.com/en-us/exchange/exchange-online) 사서함 및 라이선스가 Azure Active Directory 계정에 연결되어 있어야 합니다.
+  2. 최종 사용자는 [Office 365 Exchange Online](https://products.office.com/exchange/exchange-online) 사서함 및 라이선스가 Azure Active Directory 계정에 연결되어 있어야 합니다.
 
   >[!NOTE]
   > Outlook 모바일 앱은 현재 Microsoft Exchange Online만 지원하며 Exchange 온-프레미스 또는 Office 365 전용 Exchange는 지원하지 않습니다.
 
 **[Word, Excel 및 PowerPoint](https://products.office.com/business/office) 앱 사용에 대한 추가 요구 사항은 무엇인가요?**
 
-  1. 최종 사용자는 [Office 365 Business 또는 Enterprise](https://products.office.com/business/compare-more-office-365-for-business-plans)에 대한 라이선스가 자신의 Azure Active Directory 계정에 할당되어야 합니다. 구독에는 모바일 장치의 Office 앱 및 [비즈니스용 OneDrive](https://onedrive.live.com/about/business/)의 클라우드 저장소 계정이 포함되어야 합니다. 다음 [지침](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US)에 따라 [Office 포털](http://portal.office.com)에서 Office 365 라이선스를 할당받을 수 있습니다.
+  1. 최종 사용자는 [Office 365 Business 또는 Enterprise](https://products.office.com/business/compare-more-office-365-for-business-plans)에 대한 라이선스가 자신의 Azure Active Directory 계정에 할당되어야 합니다. 구독에는 모바일 장치의 Office 앱 및 [비즈니스용 OneDrive](https://onedrive.live.com/about/business/)의 클라우드 저장소 계정이 포함되어야 합니다. 다음 [지침](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)에 따라 [Office 포털](http://portal.office.com)에서 Office 365 라이선스를 할당받을 수 있습니다.
 
   2. 최종 사용자는 장치에 [OneDrive](https://onedrive.live.com/about/) 앱이 설치되어 있어야 하고 해당 AAD 계정으로 로그인해야 합니다.
 
@@ -140,9 +141,4 @@ ms.openlocfilehash: 1ab1645a8c25bf51fc42788364e498d18c2f15d9
 - [모바일 응용 프로그램 관리 설정 유효성 검사](../deploy-use/validate-mobile-application-management.md)
 - [Microsoft Intune을 사용하여 모바일 앱 관리 정책 구성 준비](../deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 - [Microsoft Intune에 대한 관리 지원을 받는 방법](../troubleshoot/how-to-get-support-for-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

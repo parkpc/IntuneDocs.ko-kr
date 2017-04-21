@@ -15,8 +15,9 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
-ms.openlocfilehash: 4093497553ccb7cc5f5c949f2ff0004697beb42a
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 402475d87dc1c57d34669cc9553939521adcd146
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -65,16 +66,11 @@ Intune에서 앱을 사용할 수 있으므로 관리되는 장치에 앱을 배
 - 대량 구매 앱 배포:
     - [iOS - 대량 구매 프로그램](https://docs.microsoft.com/intune/deploy-use/manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune)
     - [비즈니스용 Windows 스토어](https://docs.microsoft.com/intune/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune)
-    - [Android for Work](https://docs.microsoft.com/en-us/Intune/deploy-use/android-for-work-apps)
+    - [Android for Work](https://docs.microsoft.com/Intune/deploy-use/android-for-work-apps)
 
     배포용 앱을 구성했으면 [앱을 구성](https://docs.microsoft.com/intune/deploy-use/update-apps-using-microsoft-intune)하고 [앱을 모니터링](https://docs.microsoft.com/intune/deploy-use/monitor-apps-in-microsoft-intune)할 수 있습니다.
 
 >[!div class="step-by-step"]
 
 >[&larr; **사용자 및 장치 구성**](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)       [**회사 포털 사용자 지정** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-7.md)  
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

@@ -43,6 +43,7 @@
 ### [장치 등록 관리자](enroll-devices/enroll-devices-using-device-enrollment-manager.md)
 ### [macOS 장치 등록](enroll-devices/enroll-macos-devices.md)
 ### [Windows 장치 등록](enroll-devices/enroll-windows-devices.md)
+### [Windows 장치 대량 등록](enroll-devices/bulk-enroll-windows.md)
 ### 모바일 장치 관리
 #### [사용 약관 만들기](enroll-devices/create-terms-and-conditions.md)
 #### [등록 제한 설정](enroll-devices/set-enrollment-restrictions.md)
@@ -57,6 +58,7 @@
 <!--- ## [Plan and design](manage-devices/plan-and-design.md) --->
 ## 방법
 ### [전체 또는 선택적 초기화 사용](manage-devices/use-full-or-selective-wipe-on-devices-using-microsoft-intune.md)
+### [Android 장치 원격 제어](manage-devices/control-android-devices-with-teamviewer.md)
 <!--- ## [Troubleshoot](manage-devices/troubleshooting.md) --->
 
 # 사용자 관리
@@ -75,7 +77,9 @@
 ## 앱을 관리하는 방법
 ### [앱 추가](manage-apps/add-apps.md)
 #### [Android 스토어 앱](manage-apps/android-store-app.md)
+#### [Android LOB 앱](manage-apps/android-lob-app.md)
 #### [iOS 스토어 앱](manage-apps/ios-store-app.md)
+#### [iOS LOB 앱](manage-apps/ios-lob-app.md)
 #### [웹앱](manage-apps/web-app.md)
 #### [Windows Phone 8.1 스토어 앱](manage-apps/windows-phone-8-1-store-app.md)
 #### [Windows 스토어 앱](manage-apps/windows-store-app.md)
@@ -109,8 +113,12 @@
 ### [장치 프로필 구성](configure-devices/how-to-create-device-profiles.md)
 
 ### [장치 기능 구성](configure-devices/how-to-configure-device-features.md)
-#### [iOS](configure-devices/device-features-for-ios.md)
-#### [macOS](configure-devices/device-features-for-macos.md)
+#### [iOS 및 MacOS용 AirPrint](configure-devices/air-print-settings-for-ios-and-macos.md)
+#### [iOS 용 AirPlay](configure-devices/airplay-settings-for-ios-devices.md)
+#### [iOS용 홈 화면 레이아웃](configure-devices/home-screen-settings-for-ios.md)
+#### [iOS용 앱 알림](configure-devices/app-notification-settings-for-ios.md)
+#### [iOS용 공유 장치](configure-devices/shared-device-settings-for-ios.md)
+#### [iOS용 웹 콘텐츠 필터](configure-devices/web-content-filter-settings-for-ios.md)
 
 ### [장치 제한 구성](configure-devices/how-to-configure-device-restrictions.md)
 #### [Android](configure-devices/device-restrictions-for-android.md)
@@ -120,6 +128,7 @@
 #### [Windows Phone 8.1](configure-devices/device-restrictions-for-windows-phone-8-1.md)
 #### [Windows 10](configure-devices/device-restrictions-for-windows-10.md)
 #### [Windows 10 팀](configure-devices/device-restrictions-for-windows-10-team.md)
+#### [Android for Work](configure-devices/device-restrictions-for-afw.md)
 
 ### [메일 설정 구성](configure-devices/how-to-configure-email-settings.md)
 #### [Android](configure-devices/email-profile-settings-for-android.md)
@@ -142,6 +151,7 @@
 #### [Windows 8.1 및 Windows 10](configure-devices/wi-fi-import-for-windows-8-1.md)
 
 ### [Windows 10 버전 업그레이드 설정 구성](configure-devices/how-to-configure-windows-10-edition-upgrade.md)
+### [Windows 10 Education 설정 구성](configure-devices/how-to-configure-education-settings.md)
 ### [비즈니스용 Windows 업데이트 설정 구성](configure-devices/how-to-configure-windows-update-for-business.md)
 ### [인증서 구성](configure-devices/how-to-configure-certificates.md)
 #### [SCEP](configure-devices/configure-certificate-infrastructure-for-scep.md)
@@ -159,6 +169,7 @@
 #### [macOS](configure-devices/custom-for-macos.md)
 #### [Windows Phone 8.1](configure-devices/custom-for-windows-phone-8-1.md)
 #### [Windows 10](configure-devices/custom-for-windows-10.md)
+#### [Android for Work](configure-devices/custom-android-for-work.md)
 
 ### [장치 프로필 할당](configure-devices/how-to-assign-device-profiles.md)
 ### [장치 프로필 모니터링](configure-devices/how-to-monitor-device-profiles.md)
