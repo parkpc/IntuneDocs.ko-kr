@@ -96,7 +96,7 @@ Intune은 Skycure와의 통합을 두 가지 모드로 지원합니다.
 
 **수정 시 액세스 권한 부여됨:**
 
-![Sharepoint에 대해 수정 시 액세스 권한이 부여된 예](../media/mtp/skycure-arch-6.png)
+![SharePoint에 대해 수정 시 액세스 권한이 부여된 예](../media/mtp/skycure-arch-6.png)
 
 ## <a name="supported-platforms"></a>지원되는 플랫폼
 
