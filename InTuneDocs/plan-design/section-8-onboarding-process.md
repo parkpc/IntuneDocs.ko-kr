@@ -15,8 +15,9 @@ ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: fa33bd3833f7f7198eed3f4f486c27bae3ba47d7
-ms.openlocfilehash: 87832ec7f295c08678052d19164af9a8db051f9f
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 23d40a31c43a061e0f3b1fbb05827697ca7380ac
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -61,7 +62,7 @@ ms.openlocfilehash: 87832ec7f295c08678052d19164af9a8db051f9f
 
 앞의 요구 사항 섹션에서 확인했듯이 EMS 또는 Intune 구독이 필요합니다. 조직에 EMS(Enterprise Mobility + Security) 또는 Intune 구독이 없는 경우 EMS 또는 Intune 구매에 관심이 있으면 관련 Microsoft 계정 팀 또는 Microsoft에 문의하세요.
 
--   [Microsoft Intune을 구매하는 방법](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-pricing)에 대해 자세히 알아보세요.
+-   [Microsoft Intune을 구매하는 방법](https://www.microsoft.com/cloud-platform/microsoft-intune-pricing)에 대해 자세히 알아보세요.
 
 #### <a name="task-2-add-office-365-subscription"></a>작업 2: Office 365 구독 추가
 
@@ -115,7 +116,7 @@ Microsoft Intune은 메일, Wi-Fi 및 VPN 프로필을 지원합니다. 프로�
 
 Microsoft Intune은 웹, LOB 및 공용 저장소 앱의 배포를 지원합니다. 또한 MAM 정책과 연결함으로써 Intune SDK를 통합한 앱을 관리할 수 있습니다. 앱의 추가 및 배포는 Intune 관리 포털, 앱 작업 영역에서 완료할 수 있습니다. MAM 정책의 추가는 Intune 관리 포털, 정책 작업 영역에서 완료할 수 있습니다. 앱을 적절히 추가하고, Intune 배포 사용 사례 및 요구 사항에 따라 대상 그룹에 배포합니다.
 
--   [응용 프로그램 추가 및 배포](https://docs.microsoft.com/en-us/intune/deploy-use/deploy-apps)에 대해 자세히 알아보세요.
+-   [응용 프로그램 추가 및 배포](https://docs.microsoft.com/intune/deploy-use/deploy-apps)에 대해 자세히 알아보세요.
 
 #### <a name="task-11-add-and-deploy-compliance-policies"></a>작업 11: 준수 정책 추가 및 배포
 
@@ -141,9 +142,4 @@ Intune은 iOS, Mac OS, Android, Windows 데스크톱 및 Windows 모바일 장�
 ## <a name="next-section"></a>다음 섹션
 
 다음 섹션에서는 [Intune 배포 테스트 및 유효성 검사](section-9-test-and-validation.md)에 대한 지침을 제공합니다.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

@@ -15,8 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
-ms.openlocfilehash: 827c7cd1b6b3ef98a681eef26bb7742228fca5e9
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 6740e6f5894f6dfd7788d90cc8f445e0a63821a9
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -32,7 +33,7 @@ Microsoft Intune 조건부 액세스를 사용하여 iOS 및 Android 장치에�
 조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [메일 및 0365 및 기타 서비스에 대한 액세스 보호](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 읽어보세요.
 
 > [!IMPORTANT]
-> 조건부 액세스를 배포하려면 Intune 및 Azure Active Directory Premium에 대한 구독이 있어야 하고, 사용자는 두 제품의 라이선스를 취득해야 합니다. **EMS(Enterprise Mobility + Security) 구독**에는 Intune 구독과 Azure Active Directory Premium 구독이 모두 포함되어 있습니다. 자세한 내용은 [Enterprise Mobility 가격 책정 페이지](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing)를 참조하세요. EMS 구독이 없는 경우에는 Azure Active Directory Premium에 대한 구독을 가져올 수 있습니다. [Azure Active Directory 가격 책정 페이지](https://azure.microsoft.com/en-us/pricing/details/active-directory/)를 참조하세요.
+> 조건부 액세스를 배포하려면 Intune 및 Azure Active Directory Premium에 대한 구독이 있어야 하고, 사용자는 두 제품의 라이선스를 취득해야 합니다. **EMS(Enterprise Mobility + Security) 구독**에는 Intune 구독과 Azure Active Directory Premium 구독이 모두 포함되어 있습니다. 자세한 내용은 [Enterprise Mobility 가격 책정 페이지](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing)를 참조하세요. EMS 구독이 없는 경우에는 Azure Active Directory Premium에 대한 구독을 가져올 수 있습니다. [Azure Active Directory 가격 책정 페이지](https://azure.microsoft.com/pricing/details/active-directory/)를 참조하세요.
 
 대상 사용자가 장치에서 Dynamics CRM 앱을 사용하려고 시도하는 경우 다음 평가가 발생합니다.
 
@@ -102,9 +103,4 @@ Dynamics CRM 정책에 사용할 두 가지 그룹 유형을 지정할 수 있�
 * [SharePoint Online에 대한 액세스 보호](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 
 * [비즈니스용 Skype Online에 대한 액세스 보호](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

@@ -12,9 +12,9 @@ ms.technology:
 ms.assetid: aa0002d9-f5a0-466e-98ac-3970cb77e3a2
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e76d66768ac58df25313e102b7f60d2bc7bbc59b
-ms.openlocfilehash: e04ab9c14ea6e7cc38430ec6a4d478a65e23ba96
-ms.lasthandoff: 03/22/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: b00cb3af00d20b091b9b443fdce6d37c89d769b7
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -84,7 +84,7 @@ Android 관리에 사용할 수 있는 인증서 프로필 구성 옵션을 Andr
 Intune에서 장치가 사용 중지되고 회사 프로필이 삭제될 경우 Android for Work에서 관리하는 Wi-Fi 프로필도 제거됩니다. [Wi-Fi 프로필](wi-fi-connections-in-microsoft-intune.md)에 대해 자세히 알아보세요.
 
 ## <a name="next-steps"></a>다음 단계
-[Android for Work 등록 사용](https://docs.microsoft.com/en-us/intune/deploy-use/set-up-android-for-work)
+[Android for Work 등록 사용](https://docs.microsoft.com/intune/deploy-use/set-up-android-for-work)
 
-[Android for Work용 앱 배포](https://docs.microsoft.com/en-us/intune/deploy-use/android-for-work-apps)
+[Android for Work용 앱 배포](https://docs.microsoft.com/intune/deploy-use/android-for-work-apps)
 

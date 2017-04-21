@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/17/2017
+ms.date: 04/13/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.assetid:
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 671d862c8d9a98e02f33d96cf6ceba712e740dec
-ms.openlocfilehash: 8a43e1646476696b978a7f8a3e92f920606a698b
-ms.lasthandoff: 03/17/2017
+ms.sourcegitcommit: 24498abc504f05bd22dc7309bc22948292f9b1e6
+ms.openlocfilehash: 731d57859474276b51c0cb0b17a3354eaec17348
+ms.lasthandoff: 04/13/2017
 
 
 ---
@@ -80,6 +80,9 @@ iOS 장치를 분실했거나 도난 당한 경우 분실 모드를 설정할 �
 1.    iOS 장치에 대한 속성 블레이드에서 **자세히** > **장치 찾기**를 선택합니다.
 2.    장치의 위치를 찾으면 **장치 찾기** 블레이드에 위치가 표시됩니다. 
     ![장치 찾기 블레이드](./media/locate-device.png)
+
+>[!NOTE]
+>개인 정보 보호 차원에서 지도를 확대할 수 있는 거리가 제한됩니다.
 
 ### <a name="restart"></a>**다시 시작**
 장치가 다시 시작되도록 합니다. 장치 소유자에게 다시 시작 알림이 자동으로 제공되지 않으므로 작업이 손실될 수 있습니다.

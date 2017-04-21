@@ -16,9 +16,9 @@ ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b6c245d60c661c04b4c4d29c9bdcdd752254d978
-ms.openlocfilehash: 6932e75fd002661245baa7754824ec6cfe500a22
-ms.lasthandoff: 03/15/2017
+ms.sourcegitcommit: 15415f9f31d520d66257df3a7e134e4b1de8467c
+ms.openlocfilehash: d70b3bc82b528184b5cfb4d4cad19cb034093e94
+ms.lasthandoff: 04/07/2017
 
 
 ---
@@ -46,5 +46,5 @@ ms.lasthandoff: 03/15/2017
 - 설정을 준수하지 않는 장치 수
 - 설정이 적용되는 플랫폼
 
-각 설정을 드릴다운하여 이러한 설정이 사용된 프로필 및 설정의 구성된 값에 대한 세부 정보를 확인할 수 있습니다.
+각 설정을 드릴다운하여 이러한 설정이 사용된 프로필 및 설정의 값에 대한 세부 정보를 확인할 수 있습니다.
 

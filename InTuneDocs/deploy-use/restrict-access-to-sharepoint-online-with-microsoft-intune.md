@@ -15,8 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: c4077c41da897e570e5d29702ba0e776c7deee6b
-ms.openlocfilehash: c72d4525a41e7b1498232526c6e05cc4b7bef978
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 9e4fca9e29c8f0c2ec3ef088c3f91ad15ac11804
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -40,7 +41,7 @@ ms.openlocfilehash: c72d4525a41e7b1498232526c6e05cc4b7bef978
 
 SharePoint Online에 대한 조건부 액세스 정책을 구성하기 **전에** 다음을 수행해야 합니다.
 - **SharePoint Online 구독**이 있어야 하며 사용자는 SharePoint Online의 라이선스를 취득해야 합니다.
-- **Enterprise Mobility + Security(EMS) 구독** 또는 **Azure AD(Azure Active Directory) Premium 구독**이 있어야 하며 사용자는 EMS 또는 Azure AD의 라이선스를 취득해야 합니다. 자세한 내용은 [Enterprise Mobility 가격 책정 페이지](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) 또는 [Azure Active Directory 가격 책정 페이지](https://azure.microsoft.com/en-us/pricing/details/active-directory/)를 참조하세요.
+- **Enterprise Mobility + Security(EMS) 구독** 또는 **Azure AD(Azure Active Directory) Premium 구독**이 있어야 하며 사용자는 EMS 또는 Azure AD의 라이선스를 취득해야 합니다. 자세한 내용은 [Enterprise Mobility 가격 책정 페이지](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing) 또는 [Azure Active Directory 가격 책정 페이지](https://azure.microsoft.com/pricing/details/active-directory/)를 참조하세요.
 
 
   필수 파일에 연결하려면 장치가 다음 조건을 충족해야 합니다.
@@ -59,10 +60,10 @@ Azure Active Directory에 저장되는 장치 상태는 지정한 조건에 따�
 
 -   장치가 규정을 준수하지 않으면 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 회사 포털 웹 사이트를 안내하는 메시지가 표시됩니다. 해당 웹 사이트에서 사용자는 문제에 관한 정보와 이를 해결하는 방법을 확인할 수 있습니다.
 
-**외부 공유에는 조건부 액세스가 적용되지 않습니다**. 테넌트 또는 사이트 모음에서의 외부 공유를 방지하는 방법을 알아보려면 [SharePoint Online 환경에 대한 외부 공유 관리](https://support.office.com/en-us/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)를 참조하세요.
+**외부 공유에는 조건부 액세스가 적용되지 않습니다**. 테넌트 또는 사이트 모음에서의 외부 공유를 방지하는 방법을 알아보려면 [SharePoint Online 환경에 대한 외부 공유 관리](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85)를 참조하세요.
 
 >[!NOTE]
->SharePoint Online에 대해 조건부 액세스를 사용하도록 설정하는 경우 [Remove-SPOTenantSyncClientRestriction](https://technet.microsoft.com/en-us/library/dn917451.aspx) 항목에 설명된 대로 목록의 도메인을 사용하지 않도록 설정하는 것이 좋습니다.  
+>SharePoint Online에 대해 조건부 액세스를 사용하도록 설정하는 경우 [Remove-SPOTenantSyncClientRestriction](https://technet.microsoft.com/library/dn917451.aspx) 항목에 설명된 대로 목록의 도메인을 사용하지 않도록 설정하는 것이 좋습니다.  
 
 ## <a name="support-for-mobile-devices"></a>모바일 장치에 대한 지원
 지원되는 운영 체제는 다음과 같습니다.
@@ -84,7 +85,7 @@ Azure Active Directory에 저장되는 장치 상태는 지정한 조건에 따�
 > [!NOTE]
 >Windows 10 PC에 조건부 액세스를 사용하려면 해당 PC를 Windows 10 1주년 업데이트로 업데이트해야 합니다.
 
-  - 도메인에 가입된 PC의 경우 Azure Active Directory에 [자동으로 등록](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-automatic-device-registration/)하도록 설정해야 합니다. Intune 및 Office 365 고객의 경우에는 Azure AD Device Registration Service가 자동으로 활성화됩니다. ADFS Device Registration Service를 이미 배포한 고객의 온-프레미스 Active Directory에는 등록된 장치가 표시되지 않습니다.
+  - 도메인에 가입된 PC의 경우 Azure Active Directory에 [자동으로 등록](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-automatic-device-registration/)하도록 설정해야 합니다. Intune 및 Office 365 고객의 경우에는 Azure AD Device Registration Service가 자동으로 활성화됩니다. ADFS Device Registration Service를 이미 배포한 고객의 온-프레미스 Active Directory에는 등록된 장치가 표시되지 않습니다.
 
   - 정책이 도메인 가입을 요구하도록 설정되어 있지만 PC가 도메인에 가입되지 않은 경우 IT 관리자에게 문의하라는 메시지가 표시됩니다.
 
@@ -92,7 +93,7 @@ Azure Active Directory에 저장되는 장치 상태는 지정한 조건에 따�
   >[!NOTE]
   >Intune 컴퓨터 클라이언트를 실행 중인 PC에서는 조건부 액세스가 지원되지 않습니다.
 
-[Office 365 최신 인증을 사용](https://support.office.com/en-US/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a)하도록 설정해야 하며 최신 Office 업데이트를 모두 설치해야 합니다.
+[Office 365 최신 인증을 사용](https://support.office.com/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a)하도록 설정해야 하며 최신 Office 업데이트를 모두 설치해야 합니다.
 
 최신 인증을 사용하는 경우 Office 2013 Windows 클라이언트에 ADAL(Active Directory Authentication Library) 기반 로그인 기능이 제공되며, **다단계 인증** 및 **인증서 기반 인증**과 같은 더욱 효율적인 보안 기능을 사용할 수 있습니다.
 
@@ -129,7 +130,7 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 #### <a name="bkmk_spopolicy"></a>
 
 >[!NOTE]
-> Azure AD 관리 콘솔에서 Intune 장치용 조건부 액세스 정책을 만들 수도 있습니다. Azure AD에서는 이 정책을 **장치 기반 조건부 액세스 정책**이라고 합니다. 또한 다단계 인증 등의 다른 조건부 액세스 정책을 만들 수도 있습니다. Azure AD에서 지원하는 Salesforce, Box 등의 타사 엔터프라이즈 앱에 대한 조건부 액세스 정책을 설정할 수도 있습니다. 자세한 내용은 [Azure Active Directory 연결 응용 프로그램에 대한 액세스 제어를 위해 Azure Active Directory 장치 기반 조건부 액세스 정책을 설정하는 방법](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-policy-connected-applications/)을 참조하세요.
+> Azure AD 관리 콘솔에서 Intune 장치용 조건부 액세스 정책을 만들 수도 있습니다. Azure AD에서는 이 정책을 **장치 기반 조건부 액세스 정책**이라고 합니다. 또한 다단계 인증 등의 다른 조건부 액세스 정책을 만들 수도 있습니다. Azure AD에서 지원하는 Salesforce, Box 등의 타사 엔터프라이즈 앱에 대한 조건부 액세스 정책을 설정할 수도 있습니다. 자세한 내용은 [Azure Active Directory 연결 응용 프로그램에 대한 액세스 제어를 위해 Azure Active Directory 장치 기반 조건부 액세스 정책을 설정하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-policy-connected-applications/)을 참조하세요.
 
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** > **조건부 액세스** > **SharePoint Online 정책**을 선택합니다.
@@ -195,9 +196,4 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune을 사용한 메일 및 O365 서비스 액세스 보호](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

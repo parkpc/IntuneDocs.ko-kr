@@ -15,8 +15,9 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
-ms.openlocfilehash: af147a50f533e4be948261898b60c4d522a9e4eb
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: abeef923eb5c964ef1e306bbb2c25d0570959674
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -44,7 +45,7 @@ Intune에 등록하거나 로그인하려면, 조직에 Microsoft Online Service
 ## <a name="post-sign-up-considerations"></a>등록 후 고려 사항
 새 구독을 등록하는 경우, 등록 과정 중에 제공한 전자 메일 주소로 계정 정보를 포함하는 전자 메일 메시지를 받게 됩니다. 이 전자 메일을 통해 구독이 활성화된 것을 확인합니다.
 
-등록 과정을 완료하면, Office 365 관리 센터를 사용하여 사용자를 추가하고 사용자에게 라이선스를 할당하는 데 사용되는 페이지로 이동됩니다. 기본 onmicrosoft.com 도메인 이름을 사용하는 클라우드 기반 계정만 사용하려면, 그대로 진행하여 이 곳에서 사용자를 추가하고 라이선스를 할당할 수 있습니다. 하지만, 조직의 사용자 지정 도메인 이름을 사용하거나 온-프레미스 Active Directory의 사용자 계정 정보를 동기화하려면, 브라우저 창을 닫고 빠른 시작 가이드의 2단계로 이동합니다. [Office 365의 초기 onmicrosoft.com 도메인 정보](https://support.office.com/en-us/article/About-your-initial-onmicrosoft-com-domain-in-Office-365-B9FC3018-8844-43F3-8DB1-1B3A8E9CFD5A?ui=en-US&rs=en-US&ad=US)에서 자세한 내용을 확인할 수도 있습니다.
+등록 과정을 완료하면, Office 365 관리 센터를 사용하여 사용자를 추가하고 사용자에게 라이선스를 할당하는 데 사용되는 페이지로 이동됩니다. 기본 onmicrosoft.com 도메인 이름을 사용하는 클라우드 기반 계정만 사용하려면, 그대로 진행하여 이 곳에서 사용자를 추가하고 라이선스를 할당할 수 있습니다. 하지만, 조직의 사용자 지정 도메인 이름을 사용하거나 온-프레미스 Active Directory의 사용자 계정 정보를 동기화하려면, 브라우저 창을 닫고 빠른 시작 가이드의 2단계로 이동합니다. [Office 365의 초기 onmicrosoft.com 도메인 정보](https://support.office.com/article/About-your-initial-onmicrosoft-com-domain-in-Office-365-B9FC3018-8844-43F3-8DB1-1B3A8E9CFD5A)에서 자세한 내용을 확인할 수도 있습니다.
 
 >[!TIP]
 > 다음 번에 Intune에 로그인하면 Intune 관리 콘솔로 자동으로 이동됩니다.
@@ -53,9 +54,4 @@ Intune에 등록하거나 로그인하려면, 조직에 Microsoft Online Service
 >[!div class="step-by-step"]
 
 >[&larr; **필수 구성 요소**](.\what-to-know-before-you-start-microsoft-intune.md)     [**도메인 설정** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-2.md)  
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

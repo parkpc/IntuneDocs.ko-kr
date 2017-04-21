@@ -15,8 +15,9 @@ ms.reviewer: lpatha
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d87cbc82b55c4c7615decf8d37d59e2194de9922
-ms.openlocfilehash: 59e376202ee268a9b99c017f813a7ef870e79548
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 0325f60e83b6e339c96b38b36465f53d6ee5421b
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -89,7 +90,7 @@ Microsoft Intune 관리 콘솔의 **그룹** 작업 영역에서 그룹을 만�
     > 현재 그룹에 특정 보안 그룹 또는 관리자 그룹의 구성원이 포함되어 있는데 일부 그룹에서 구성원을 제외하는 경우 처음에 포함한 구성원이 제거됩니다. 포함한 구성원과 제외한 구성원이 모두 있는 그룹을 만들려면 포함한 구성원을 넣어 부모 그룹을 먼저 만드는 것이 좋습니다. 그런 다음 해당 부모 그룹의 자식 그룹을 만듭니다. 제외된 멤버를 새 자식 그룹에 나열합니다. 그런 다음 해당 자식 그룹을 사용하여 Intune 정책, 프로필 및 앱 배포를 관리합니다.
 
     > [!NOTE]
-    > Azure Portal에서 사용자에게서 보고를 받는 관리자를 기준으로 그룹을 만들 수 있습니다. 이 유형의 그룹은 동적이기 때문에, 직원이 Azure Active Directory에서 관리자 팀에 추가되거나 관리자 팀에서 제거되면 그에 따라 변경됩니다. 관리자 이름에 따라 Azure 그룹을 만드는 방법은 **"관리자" 그룹으로 그룹을 구성하려면** 섹션의 [특성을 사용하여 고급 규칙 만들기](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/)에 설명되어 있습니다.
+    > Azure Portal에서 사용자에게서 보고를 받는 관리자를 기준으로 그룹을 만들 수 있습니다. 이 유형의 그룹은 동적이기 때문에, 직원이 Azure Active Directory에서 관리자 팀에 추가되거나 관리자 팀에서 제거되면 그에 따라 변경됩니다. 관리자 이름에 따라 Azure 그룹을 만드는 방법은 **"관리자" 그룹으로 그룹을 구성하려면** 섹션의 [특성을 사용하여 고급 규칙 만들기](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/)에 설명되어 있습니다.
 
 4.  **직접 회원 관리 정의** 페이지에서 **찾아보기**를 선택하여 포함하거나 제외할 각 사용자를 선택합니다. 지정된 부모 그룹에 없는 사용자를 선택하는 경우 해당 장치는 부모 그룹에 자동으로 추가됩니다. 사용자를 수동으로 추가하는 옵션이 **구성원 선택** 대화 상자의 맨 아래에 있습니다. 아직 등록된 장치가 없는 사용자를 추가하려는 경우에 유용합니다.
 
@@ -151,9 +152,4 @@ Intune 관리 콘솔에서 서비스 관리자를 위한 필터링된 그룹 보
 
 > [!NOTE]
 > 제한 수준이 다른 두 정책을 같은 장치나 사용자에 적용하면 보다 제한적인 정책이 실제로 적용됩니다.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

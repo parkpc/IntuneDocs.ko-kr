@@ -15,9 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
-ms.openlocfilehash: 399c6260a98d51417a067d001c0fd42c926c1513
-ms.lasthandoff: 01/24/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: f66772dd318e97b9fef124776e80d9d9a4c7de7f
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -30,7 +30,7 @@ EMS(Enterprise Mobility + Security) 조건부 액세스를 사용하여 회사 �
 ## <a name="how-does-conditional-access-work"></a>조건부 액세스는 어떻게 작동합니까?
 규정 준수 정책 설정을 사용하여 장치의 규정 준수를 평가할 수 있습니다. 조건부 액세스 정책은 평가를 사용하여 특정 서비스에 대한 액세스를 제한 또는 허용합니다. 장치 준수 정책과 함께 조건부 액세스 정책을 사용할 경우 준수 장치만 서비스에 액세스할 수 있습니다. 준수 정책 및 조건부 액세스 정책은 사용자에게 배포됩니다. 사용자가 서비스에 액세스하는 데 사용하는 모든 장치는 정책을 준수하는지 확인됩니다.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > 이 장치를 사용하는 사용자는 장치가 규정 준수에 대해 평가되려면 규정 준수 정책이 배포되어 있어야 함을 유의하세요.
 > 사용자에게 규정 준수 정책이 배포되지 않은 경우 장치는 준수하는 것으로 간주되며 액세스 제한이 적용되지 않습니다.
 
@@ -48,7 +48,7 @@ Microsoft Intune과 Azure AD(Azure Active Directory) Premium이 원활하게 함
 
 **Azure AD Premium 라이선스**는 독립 실행형 서비스로 구매하거나 엔터프라이즈 계약의 일부로 Intune과 함께 구매할 수 있습니다. Intune을 사용하여 조건부 액세스 정책을 배포한 경우 적절한 Azure AD Premium 또는 **EMS 라이선스**를 취득했는지 확인하세요.
 
-- [Enterprise Mobility 가격 책정 페이지](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) 또는 [Azure Active Directory 가격 책정 페이지](https://azure.microsoft.com/en-us/pricing/details/active-directory/)에 대해 자세히 알아봅니다.
+- [Enterprise Mobility 가격 책정 페이지](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing) 또는 [Azure Active Directory 가격 책정 페이지](https://azure.microsoft.com/pricing/details/active-directory/)에 대해 자세히 알아봅니다.
 
 또한, 조건부 액세스 정책을 적용하려는 사용자에게 [Azure AD Premium 또는 EMS 라이선스가 할당](/Intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4.md)되었는지 확인하세요.
 

@@ -15,8 +15,9 @@ ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: dc059b2865cef32091582b0f0d2a2ced8b35e8fa
-ms.openlocfilehash: 55e4be001c3ff946b8a63291ed9227bc3d185001
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 95c12111693e00fb6f67d20464dd159aeb4bb609
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -37,14 +38,14 @@ Intune 앱 SDK는 iOS 및 Android에서 유사한 시나리오를 지원하며 �
 
 _**반드시**_ 먼저 Microsoft Intune에 앱을 등록하고 등록 조건에 동의해야 합니다. 그러면 IT 관리자는 Intune 앱 파트너로 나열될 지원 앱에 앱 보호 정책 설정을 적용할 수 있습니다.
 
-Microsoft Intune 팀에서 등록을 완료하고 확인할 때까지 Intune 관리자는 앱의 딥 링크에 앱 보호 정책을 적용할 수 없습니다. Microsoft는 앱을 [Microsoft Intune 파트너 페이지](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-apps)에도 추가할 예정입니다. 그 페이지에는 Intune 앱 보호 정책을 지원하는 앱임을 나타내는 앱 아이콘이 표시됩니다.
+Microsoft Intune 팀에서 등록을 완료하고 확인할 때까지 Intune 관리자는 앱의 딥 링크에 앱 보호 정책을 적용할 수 없습니다. Microsoft는 앱을 [Microsoft Intune 파트너 페이지](https://www.microsoft.com/cloud-platform/microsoft-intune-apps)에도 추가할 예정입니다. 그 페이지에는 Intune 앱 보호 정책을 지원하는 앱임을 나타내는 앱 아이콘이 표시됩니다.
 
 등록 프로세스를 시작하려면 [Microsoft Intune 앱 파트너 설문지](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR6oOVGFZ3pxJmwSN1N_eXwJUQUc5Mkw2UVU0VzI5WkhQOEYyMENWNDBWRS4u)를 작성하세요.
 
 Microsoft에서는 사용자의 설문지 응답에 명시된 메일 주소를 사용하여 연락한 후 등록 프로세스를 진행합니다. 또한 연락해야 할 사항이 있는 경우 등록 메일 주소를 사용하여 연락합니다.
 
 > [!NOTE]
-> Microsoft Intune 팀에서 설문지나 메일 서신을 통해 수집한 모든 정보에 [Microsoft 개인정보취급방침](https://www.microsoft.com/en-us/privacystatement/default.aspx)이 적용됩니다.
+> Microsoft Intune 팀에서 설문지나 메일 서신을 통해 수집한 모든 정보에 [Microsoft 개인정보취급방침](https://www.microsoft.com/privacystatement/default.aspx)이 적용됩니다.
 
 **등록 프로세스 진행 사항**:
 
@@ -52,7 +53,7 @@ Microsoft에서는 사용자의 설문지 응답에 명시된 메일 주소를 �
 
 2. Microsoft는 사용자로부터 필요한 모든 정보를 받은 후 서명할 수 있는 Microsoft Intune 앱 파트너 계약서를 보냅니다. 이 계약에서는 Microsoft Intune 앱 파트너가 되려는 회사가 동의해야 하는 조건을 설명합니다.
 
-3. 또한 앱이 Microsoft Intune 서비스를 사용해 등록 완료되는 경우 및 앱이 [Microsoft Intune 파트너](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-apps) 사이트에서 추천 목록에 뜨는 경우에도 알려드립니다.
+3. 또한 앱이 Microsoft Intune 서비스를 사용해 등록 완료되는 경우 및 앱이 [Microsoft Intune 파트너](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) 사이트에서 추천 목록에 뜨는 경우에도 알려드립니다.
 
 4. 마지막으로 다음 월별 Intune 서비스 업데이트에 앱의 딥 링크가 추가됩니다. 예를 들어 등록 정보가 7월에 완료되는 경우 딥 링크는 8월 중순에 지원됩니다.
 
@@ -137,9 +138,4 @@ Intune 앱 보호 정책이 앱에서 작동하는지 확인한 후 Intune 앱 �
 * **.eps** 파일을 읽을 수 있는 이미지 조작 응용 프로그램 또는 **.ai** 파일을 읽을 수 있는 Adobe 응용 프로그램
 
 * Microsoft Intune GitHub에서 [Intune 앱 배지 자산 및 지침](https://github.com/msintuneappsdk/intune-app-partner-badge)을 찾을 수 있습니다.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

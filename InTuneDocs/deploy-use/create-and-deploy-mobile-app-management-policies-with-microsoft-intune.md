@@ -15,8 +15,9 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: fbb41a8cf6fada76b72213b8cb04fdc0428515e9
-ms.openlocfilehash: f4bc5a2092585c91e224c390eaae717985055b10
+ms.sourcegitcommit: a85b9f603e022b3296cb16754effd06087074a72
+ms.openlocfilehash: 34d4dc309044336eb3e625a1ecdc50abb48d6fa3
+ms.lasthandoff: 04/01/2017
 
 
 ---
@@ -93,8 +94,6 @@ Android 및 iOS 플랫폼에 지원되는 정책 설정의 목록을 보려면 �
 
     ![앱 및 설정이 구성되었음을 보여 주는 정책 추가 블레이드의 스크린 샷](../media/AppManagement/AzurePortal_MAM_CreatePolicy.png)
 
-
-
 이전 절차에서 설명한 대로 정책 만들기를 완료하면 사용자에게 배포되지 않습니다. 정책을 배포하려면 "사용자에게 정책 배포" 섹션을 참조하세요.
 
 > [!IMPORTANT]
@@ -105,6 +104,46 @@ Android 및 iOS 플랫폼에 지원되는 정책 설정의 목록을 보려면 �
 > -   두 정책을 모두 동일한 앱에 연결합니다.
 > -   Azure 콘솔에서 만든 정책이 우선 적용되어 복사가 허용됩니다.
 > -   그러나 Intune 콘솔의 상태 및 보고서에 복사가 차단되었다고 잘못 표시됩니다.
+
+## <a name="line-of-business-lob-apps-optional"></a>LOB(기간 업무) 앱(선택 사항)
+
+Intune 1703 버전부터 새 앱 보호 정책을 만들 때 LOB 앱을 Intune에 일반적으로 추가할 수 있습니다. 따라서 완전한 앱 배포 권한 없이도 MAM SDK를 사용하여 LOB 앱에 대한 앱 보호 정책을 정의할 수 있습니다.
+
+> [!TIP] 
+> [Intune 앱 SDK](https://docs.microsoft.com/intune/develop/intune-app-sdk-get-started) 워크플로를 진행할 때에도 LOB 앱을 Intune에 추가할 수 있습니다.
+
+> [!IMPORTANT]
+> 사용자가 MAM 앱 배포 관련 권한만 있고 Intune에서 모든 앱을 배포할 수 있도록 하는 완전한 앱 배포 권한은 없는 경우, 사용자는 Intune SDK 워크플로를 진행할 수 없지만 MAM 앱 보호 정책 만들기 워크플로를 통해 LOB 앱을 추가할 수는 있습니다.
+
+### <a name="to-add-lob-apps-ios-and-android"></a>LOB 앱을 추가하려면(iOS 및 Android)
+
+1.  [정책 추가] 블레이드에서 **앱**을 선택하여 [앱] 블레이드를 엽니다.
+
+    ![MAM 정책 추가 블레이드](../media/AppManagement/mam-lob-apps-1.png)
+
+2.  **앱 더 보기**를 클릭하고 **번들 ID**(iOS)나 **패키지 ID**(Android)를 입력한 다음 [선택]을 클릭하여 LOB 앱을 추가합니다.
+
+    ![MAM 앱 더 보기 블레이드](../media/AppManagement/mam-lob-apps-2.png)
+
+### <a name="to-add-lob-apps-windows"></a>LOB 앱을 추가하려면(Windows)
+
+> [!IMPORTANT] 
+> 새 앱 보호 정책을 만들 때 플랫폼 드롭다운 목록에서 Windows 10을 선택해야 합니다.
+
+1.  [정책 추가] 블레이드에서 **허용되는 앱** 또는 **제외 앱**을 선택하여 [허용되는 앱] 또는 [제외 앱] 블레이드를 엽니다.
+
+    > [!NOTE]
+    > 
+    - **허용되는 앱**: 이 정책을 준수해야 하는 앱입니다.
+    - **제외 앱**: 이 정책에서 제외되며 회사 데이터에 제한 없이 액세스할 수 있습니다.
+<br></br>
+2. [허용되는 앱] 또는 [제외 앱] 블레이드에서 **앱 추가**를 클릭합니다. 권장 Microsoft 앱, 스토어 또는 데스크톱 앱을 추가할 수 있습니다.
+
+    a.  **권장 앱:** 관리자가 정책으로 쉽게 가져올 수 있도록 미리 채워진 앱(대부분 Office 앱) 목록입니다.
+
+    b.  **스토어 앱:** 관리자가 Windows 스토어의 모든 앱을 정책에 추가할 수 있습니다.
+
+    c.  **Windows 데스크톱 앱:** 관리자가 기존 Windows 데스크톱 앱을 정책에 추가할 수 있습니다(예: exe, dll 등).
 
 ## <a name="deploy-a-policy-to-users"></a>사용자에게 정책 배포
 
@@ -181,9 +220,4 @@ iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 중
 ### <a name="see-also"></a>참고 항목
 * [Android 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
 * [iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 
