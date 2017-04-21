@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/22/2017
+ms.date: 04/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 10c7bc5461c746ab50e83c2ffc590b89efe75e5f
-ms.openlocfilehash: ed878327650b4560a891f9acb470b31aa64fbfa6
-ms.lasthandoff: 03/13/2017
+ms.sourcegitcommit: 15415f9f31d520d66257df3a7e134e4b1de8467c
+ms.openlocfilehash: 6da1d00ce654add003a2f8e39b1a1c987d96e5a4
+ms.lasthandoff: 04/07/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/13/2017
 버전 7.0 이상의 일부 Android 장치에서는 특정 Android 플랫폼 표준과 일치하지 않는 방식으로 데이터를 암호화합니다. 이러한 장치는 기본적으로 암호화되는 것처럼 보이지만 이 방법은 Intune에서 장치에 대한 물리적 액세스 권한이 있는 악의적인 사용자로 인해 장치의 정보가 위험해질 수 있는 방법으로 인식됩니다.
 
 > [!Note]
-> Microsoft는 나열된 제조업체와 협력하여 이러한 문제를 시도 및 해결하고 이 목록을 적절하게 업데이트합니다. 
+> Microsoft는 나열된 모든 제조업체와 협력하여 이 문제를 해결하고 문제를 수정하는 대로 이 목록을 적절하게 업데이트합니다.
 
 ## <a name="an-incomplete-list-of-devices"></a>불완전한 장치 목록
 

@@ -5,7 +5,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 01/27/2016
+ms.date: 04/12/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,20 +15,23 @@ ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 5726934501b3d6b243de94951cf0c57cbd79a811
-ms.openlocfilehash: ccc0502c81cb16d2ca13e5d6a702c0ff863b83e4
-ms.lasthandoff: 03/09/2017
+ms.sourcegitcommit: df54ac3a62b5ef21e8a32f3a282dd5299974a1b0
+ms.openlocfilehash: ae9af31263de8b0b95f98e423f8a9a59c0c66c4c
+ms.lasthandoff: 04/12/2017
 
 
 ---
 
-# <a name="how-admins-get-support-for-microsoft-intune"></a>Microsoft Intune에 대한 관리 지원을 받는 방법
+# <a name="how-to-get-support-for-microsoft-intune"></a>Microsoft Intune에 대한 지원을 받는 방법
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Microsoft는 Microsoft Intune에 대한 세계적인 기술 지원, 판매 전 지원, 대금 청구 및 구독 지원을 제공합니다. 유료 및 평가판 구독 둘 다에 대해 온라인과 전화 지원이 제공됩니다. 온라인 기술 지원은 영어와 일본어로 제공됩니다. 전화 지원과 온라인 대금 청구 지원은 추가 언어로 제공됩니다.
 
 Intune을 Configuration Manager와 함께 사용할 경우 intune에 대한 지원은 무료로 제공됩니다. 프리미어 지원 고객은 절차 질문(예: Intune 기능을 구성하는 방법)에 대해 요금이 부과됩니다.
+
+>[!IMPORTANT]
+> Intune과 연동되나 Microsoft에서 만들지 않은 타사 제품(예: SaaSwedo, Cisco, Lookout)에 대한 기술 지원을 받으려면 Intune 지원 사례를 열기 전에 먼저 공급자에게 문의하여 해당 제품을 올바르게 구성했는지 확인하세요.
 
 ## <a name="find-help-without-opening-a-support-ticket"></a>지원 티켓을 열지 않고 도움말 찾기
 
@@ -39,6 +42,13 @@ Intune을 Configuration Manager와 함께 사용할 경우 intune에 대한 지�
 Microsoft 기술 전문가에게 질문하거나 토론을 시작하세요. Microsoft는 검색 가능한 [Microsoft Intune TechNet 포럼](https://social.technet.microsoft.com/Forums/home)에서 답변과 정보를 제공합니다.
 
 ![Microsoft Intune TechNet 포럼](./media/technet-forum-for-support.png)
+
+### <a name="get-started-with-the-forum"></a>포럼 시작
+
+1. 포럼 페이지에서 포럼 상자에 Microsoft Intune을 입력하고 목록에서 해당 항목을 선택합니다.<br>
+![Intune 포럼 선택 컨트롤](./media/forum-select-intune.png)
+2. 이제 선택된 포럼 목록에 Microsoft Intune이 보일 것입니다.<br>
+![포럼 컨트롤에서 Intune이 선택됨](./media/forum-selected-intune.png)
 
 ### <a name="microsoft-intune-uservoice-product-feedback-site"></a>Microsoft Intune UserVoice 제품 피드백 사이트
 
@@ -107,19 +117,19 @@ Office 365 관리 센터의 지원 페이지가 다음과 같이 표시되는 �
 2.  **관리** 타일을 선택합니다.
 3.  왼쪽의 **지원** 아래에서 **서비스 요청**을 선택합니다. 그런 다음 요청을 검토할 수 있습니다.
 
-지원 요청에 대한 첫 번째 응답은 문제의 심각도에 따라 다릅니다. 가장 심각한 문제의 경우 전문가 고객에 대한 첫 번째 응답 시간은&2;시간 이내입니다. 프리미어 지원 고객의 경우 지원 계약에 따라 응답이 달라집니다. **가장 심각한** 사례:
+지원 요청에 대한 첫 번째 응답은 문제의 심각도에 따라 다릅니다. 가장 심각한 문제의 경우 전문가 고객에 대한 첫 번째 응답 시간은 2시간 이내입니다. 프리미어 지원 고객의 경우 지원 계약에 따라 응답이 달라집니다. **가장 심각한** 사례:
 
 - 하나 이상의 서비스에 액세스할 수 없거나 사용할 수 없습니다.
 - 프로덕션, 운영 또는 배포 마감일이 심각하게 영향을 받거나 프로덕션 또는 수익성에 심각한 영향을 미치게 됩니다.
 - 여러 사용자 또는 서비스가 영향을 받습니다.
 
-약간 심각한 문제의 경우 전문가 고객에 대한 첫 번째 응답 시간은&4;시간 이내입니다. 프리미어 지원 고객의 경우 지원 계약에 따라 응답이 달라집니다. **약간 심각한** 사례:
+약간 심각한 문제의 경우 전문가 고객에 대한 첫 번째 응답 시간은 4시간 이내입니다. 프리미어 지원 고객의 경우 지원 계약에 따라 응답이 달라집니다. **약간 심각한** 사례:
 
 - 서비스를 사용할 수 있지만 작동하지 않으며 정상 상태가 아닙니다.
 - 이 상황은 업무에 어느 정도 영향을 주며 업무 시간 중 처리할 수 있습니다.
 - 단일 사용자, 고객 또는 서비스가 부분적으로 영향을 받습니다.
 
-기타 문제의 경우 전문가 고객에 대한 첫 번째 응답 시간은&8;시간 이내입니다. 프리미어 지원 고객의 경우 지원 계약에 따라 응답이 달라집니다. 별로 심각하지 않은 사례:
+기타 문제의 경우 전문가 고객에 대한 첫 번째 응답 시간은 8시간 이내입니다. 프리미어 지원 고객의 경우 지원 계약에 따라 응답이 달라집니다. 별로 심각하지 않은 사례:
 
 - 이 상황은 업무에 최소한의 영향을 줍니다.
 - 이 상황은 중요하지만 고객의 현재 서비스 또는 생산성에 그다지 직접적인 영향을 미치지 않습니다.

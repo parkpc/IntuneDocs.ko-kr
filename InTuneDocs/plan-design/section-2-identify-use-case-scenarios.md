@@ -15,8 +15,9 @@ ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f807d6e4b20b98ecf622d1ebdd9db33b132a2e6a
-ms.openlocfilehash: c834b0282b8f9b47566ab1da2125d993ba8febdf
+ms.sourcegitcommit: 3c5744e7c1290bf9016bc03dcb2db9a1bd9f43dd
+ms.openlocfilehash: 031820d505e0e9cb007e47a5397934d0e505aed4
+ms.lasthandoff: 04/10/2017
 
 
 ---
@@ -47,7 +48,7 @@ ms.openlocfilehash: c834b0282b8f9b47566ab1da2125d993ba8febdf
 
 -   키오스크
 
-다음은 사용 사례 및 하위 사용 사례 시나리오의 몇 가지 예입니다. 아래 표를 활용하여 조직의 사용 사례 및 하위 사용 사례 시나리오를 입력할 수 있습니다.
+다음은 사용 사례 및 하위 사용 사례 시나리오의 몇 가지 예입니다. 아래 표를 사용하여 조직의 사용 사례 및 하위 사용 사례 시나리오를 입력할 수 있습니다.
 
 | **사용 사례** | **하위 사용 사례** |
 |:---:|:---:|
@@ -81,12 +82,7 @@ ms.openlocfilehash: c834b0282b8f9b47566ab1da2125d993ba8febdf
 | BYOD | 정보 근로자 | 마케팅, 영업 | iOS |                                                           
 | BYOD | 임원 | 마케팅, 영업 | iOS |
 
-## <a name="next-section"></a>다음 섹션
+## <a name="next-steps"></a>다음 단계
 
 다음 섹션에서는 [각 사용 사례 시나리오에 대한 Intune 요구 사항을 확인하는 방법](section-3-determine-use-case-requirements.md)에 대한 지침을 제공합니다.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

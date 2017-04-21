@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/17/2017
+ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,9 +17,9 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1d0284ca2b5fd935a8657e3dd73d23d45071fd50
-ms.openlocfilehash: 126fce43ea91d5ec9e447d731e4e9ab5663df956
-ms.lasthandoff: 03/25/2017
+ms.sourcegitcommit: bed28fc91271c12377f45662aa00fc9616d16fe8
+ms.openlocfilehash: f46a93d42427ea41adf71403c91fa95052c0bba2
+ms.lasthandoff: 04/11/2017
 
 
 ---
@@ -41,6 +41,7 @@ Android 장치에서 발생하는 문제가 문제 해결을 통해 해결되는
 - [USB 디버깅 옵션을 해제해야 함](you-need-to-turn-off-usb-debugging-android.md)
 - [보안 위협 검색 옵션을 켜야 함](you-need-to-turn-on-scanning-for-security-threats-android.md)
 - [장치가 최소 보안 패치를 충족하지 않는 경우](you-need-to-update-your-device-OS-security-patch-android.md)
+- [장치가 암호화된 것으로 보이지만 회사 앱은 다르게 말하는 경우](your-device-appears-encrypted-but-cp-says-otherwise-android.md)
 - [Android 장치에 장치 위협 방지 앱을 설치하라는 메시지가 표시됨](you-are-prompted-to-install-mtd-android.md)
 - [Android 장치에서 장치 위협 방지 앱이 발견한 위협을 해결해야 함](you-need-to-resolve-a-threat-found-by-mtd-android.md)
 
