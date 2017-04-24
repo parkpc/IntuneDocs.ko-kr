@@ -58,13 +58,13 @@
 <!--- ## [Plan and design](manage-devices/plan-and-design.md) --->
 ## 방법
 ### [전체 또는 선택적 초기화 사용](manage-devices/use-full-or-selective-wipe-on-devices-using-microsoft-intune.md)
-### [Android 장치 원격 제어](manage-devices/control-android-devices-with-teamviewer.md)
 <!--- ## [Troubleshoot](manage-devices/troubleshooting.md) --->
 
 # 사용자 관리
 ## [사용자 관리란?](manage-users/what-is.md)
 <!--- Was What is users & group management--->
 ## [시작](manage-users/get-started-with-groups.md)
+## [사용자 지원](manage-users/help-desk.md)
 <!--- ## [Plan and design](manage-users/plan-and-design.md) --->
 
 <!--- ## [Troubleshoot](manage-users/troubleshooting.md) --->
