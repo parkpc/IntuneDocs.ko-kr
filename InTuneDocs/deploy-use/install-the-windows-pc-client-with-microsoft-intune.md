@@ -15,9 +15,9 @@ ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 2b3041019a7fe5a1ed7421401b36a72321af6cea
-ms.openlocfilehash: 0498aebe8e06314cb6f63f3f4def7011a3badf64
-ms.lasthandoff: 03/27/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 19cfb242fbd1be613b38c8aa06c12b741bc6cd74
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -106,7 +106,7 @@ Intune 클라이언트 소프트웨어 설치 패키지에는 사용자 계정�
 
 ## <a name="instruct-users-to-self-enroll"></a>사용자에게 직접 등록 지시
 
-사용자가 [회사 포털 웹사이트](http://portal.manage.microsoft.com)로 이동하여 Intune 클라이언트 소프트웨어를 설치합니다. 웹 포털에서 사용자에게 표시되는 정확한 정보는 계정의 MDM 기관, 사용자 PC의 OS 플랫폼/버전에 따라 다를 수 있습니다.
+사용자가 [회사 포털 웹사이트](https://portal.manage.microsoft.com)로 이동하여 Intune 클라이언트 소프트웨어를 설치합니다. 웹 포털에서 사용자에게 표시되는 정확한 정보는 계정의 MDM 기관, 사용자 PC의 OS 플랫폼/버전에 따라 다를 수 있습니다.
 
 사용자가 Intune 라이선스를 할당받지 않은 경우나 조직의 MDM 기관이 Intune으로 설정되지 않은 경우 등록하는 옵션이 표시되지 않습니다.
 

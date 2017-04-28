@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: 9cf53cb240ba14317fbb680ad4f4c40c8320506d
+ms.lasthandoff: 12/10/2016
 
 
 ---
@@ -36,8 +37,6 @@ VPN, Wi-Fi 또는 전자 메일 프로필을 통해 사용자에게 회사 리�
  -  Android for Work
  -  Windows 8.1 이상
  -  Windows Phone 8.1 이상
-
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 
 3. 인증서 프로필을 만들어 [Intune 인증서 프로필 구성](configure-intune-certificate-profiles.md)에 설명된 대로 VPN, Wi-Fi 및 전자 메일 액세스 인증에 사용할 인증서를 장치가 요청할 수 있게 합니다. 다음 플랫폼을 실행하는 장치에 대해 **PKCS #12(.PFX) 인증서 프로필** *또는* **SCEP 인증서 프로필**을 만들고 배포할 수 있습니다.
 
@@ -62,9 +61,4 @@ VPN, Wi-Fi 또는 전자 메일 프로필을 통해 사용자에게 회사 리�
 - [SCEP 인증서 인프라 구성](configure-certificate-infrastructure-for-scep.md)
 - [PFX 인증서 인프라 구성](configure-certificate-infrastructure-for-pfx.md)
 - [Intune 인증서 프로필 구성](configure-intune-certificate-profiles.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

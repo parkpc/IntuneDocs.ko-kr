@@ -14,9 +14,9 @@ ms.assetid: 48914533-f138-4dc0-8b93-4cea3ac61f7b
 ms.reviewer: robstack
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e0ecc775f70703574c4e1adf0f0aa204f2745b72
-ms.openlocfilehash: a0ae4d74ad99adcfab596eb0c441c845fbca3a9e
-ms.lasthandoff: 04/20/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: abba595672fa88efc022128ec8751cb27d14b089
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -50,7 +50,7 @@ __최종 사용자에게 어떤 불편을 줄 수 있나요?__ 앱을 설치하�
 
 * __개인적입니다.__ 배포와 관련 없는 지침을 제공하면 최종 사용자가 환경에 대한 배려가 없다고 느낄 수 있습니다. 이 [IT 관리자를 위한 사용자 지정 가능한, 최종 사용자 Intune 등록 템플릿](https://gallery.technet.microsoft.com/office/Intune-End-User-Enrollment-3a0c9b0c)을 사용하여 최종 사용자를 위한 고유한 등록 지침을 만들 수 있습니다.
 
-* __다른 커뮤니케이션 방법을 찾습니다.__ [다양한 학습 스타일](http://www.umassd.edu/dss/resources/facultystaff/howtoteachandaccommodate/howtoaccommodatedifferentlearningstyles/)과 마찬가지로, 사용자에게는 원하는 정보 사용 방법이 있습니다. 설명서보다 동영상을 선호하는 사용자를 위해 [다양한 장치 유형을 등록하는 방법의 동영상 버전](https://channel9.msdn.com/Series/IntuneEnrollment) 등이 Channel 9에서 제공됩니다. 이 동영상을 사용자 고유의 [SharePoint 사이트](https://support.office.com/article/Embed-a-video-from-Office-365-Video-59e19984-c34e-4be8-889b-f6fa93910581)에 직접 포함하거나, 동영상 또는 오디오 트랙의 로컬 복사본으로 다운로드할 수 있습니다.
+* __다른 커뮤니케이션 방법을 찾습니다.__ [다양한 학습 스타일](https://www.umassd.edu/dss/resources/facultystaff/howtoteachandaccommodate/howtoaccommodatedifferentlearningstyles/)과 마찬가지로, 사용자에게는 원하는 정보 사용 방법이 있습니다. 설명서보다 동영상을 선호하는 사용자를 위해 [다양한 장치 유형을 등록하는 방법의 동영상 버전](https://channel9.msdn.com/Series/IntuneEnrollment) 등이 Channel 9에서 제공됩니다. 이 동영상을 사용자 고유의 [SharePoint 사이트](https://support.office.com/article/Embed-a-video-from-Office-365-Video-59e19984-c34e-4be8-889b-f6fa93910581)에 직접 포함하거나, 동영상 또는 오디오 트랙의 로컬 복사본으로 다운로드할 수 있습니다.
 
 * __최종 사용자 경험을 파악합니다.__ 최종 사용자 경험은 회사의 생산성에 영향을 주며, 사용자 경험을 이해하면 도움을 요청할 때 문제를 더 쉽게 해결할 수 있습니다. 최종 사용자가 앱을 다운로드하는 방법을 이해하면 사용자에게 발생하는 문제를 더 쉽게 진단하고 더 빨리 문제를 해결하도록 도울 수 있습니다.
 

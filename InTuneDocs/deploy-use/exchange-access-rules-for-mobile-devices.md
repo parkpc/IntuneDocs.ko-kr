@@ -15,8 +15,9 @@ ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: fa8f4b1df83e37ab20d5b4a045ba535758368835
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 47d1437159da85b958e6e6fa91fa743d7746c5ce
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -46,7 +47,7 @@ ms.openlocfilehash: fa8f4b1df83e37ab20d5b4a045ba535758368835
 
 ## <a name="create-a-default-access-rule"></a>기본 액세스 규칙 만들기
 
-1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **Exchange ActiveSync**를 선택합니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **Exchange ActiveSync**를 선택합니다.
 
 2.  **기본 규칙** 목록에서, 규칙 또는 개인 예외에 포함되지 않는 모든 모바일 장치에 적용할 액세스 규칙을 선택합니다. **저장**을 선택합니다.
 
@@ -54,12 +55,7 @@ ms.openlocfilehash: fa8f4b1df83e37ab20d5b4a045ba535758368835
 
 ## <a name="create-a-custom-access-rule"></a>사용자 지정 액세스 규칙 만들기
 
-1. [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **Exchange ActiveSync**를 선택합니다.
+1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **Exchange ActiveSync**를 선택합니다.
 
 2.  **플랫폼 예외** 목록에서 **규칙 추가**를 선택하고 사용자 지정 규칙을 만듭니다. **저장**을 선택합니다.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

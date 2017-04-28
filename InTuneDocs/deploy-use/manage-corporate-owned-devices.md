@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 521a37044d6721fe905db7740329688ba2c24b35
-ms.openlocfilehash: ae077d80e05b33d625285d796917f4f6c153ca3f
-ms.lasthandoff: 01/31/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 8ef5f26eced99dac547be727fc96e41c11d3a0e7
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -28,7 +28,7 @@ ms.lasthandoff: 01/31/2017
 
 장치 유형, 장치 구매 방법, 조직의 요구 사항에 따라 다양한 방법으로 Intune을 통해 관리할 조직 소유 또는 회사 소유 장치를 등록할 수 있습니다. 회사 포털 앱을 설치하여 BYOD(Bring Your Own Device) 시나리오의 경우처럼 회사 소유 장치를 등록하고 관리할 수도 있습니다.
 
-기본적으로 모든 플랫폼의 장치를 Intune에서 등록할 수 있습니다. 장치 등록을 차단하려면 관리자 자격 증명을 사용하여 [Microsoft Intune 관리 포털](http://manage.microsoft.com)에 로그인합니다. **관리** > **모바일 장치 관리** > **등록 규칙**을 선택한 다음 차단할 플랫폼의 확인란을 선택 취소합니다.
+기본적으로 모든 플랫폼의 장치를 Intune에서 등록할 수 있습니다. 장치 등록을 차단하려면 관리자 자격 증명을 사용하여 [Microsoft Intune 관리 포털](https://manage.microsoft.com)에 로그인합니다. **관리** > **모바일 장치 관리** > **등록 규칙**을 선택한 다음 차단할 플랫폼의 확인란을 선택 취소합니다.
 
 ## <a name="enroll-corporate-owned-ios-devices"></a>회사 소유의 iOS 장치 등록
 

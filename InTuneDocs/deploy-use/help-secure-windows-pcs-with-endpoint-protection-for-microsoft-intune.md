@@ -15,9 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
-ms.openlocfilehash: 7f94d420529ff365504b2bb053d034cf36d30953
-ms.lasthandoff: 03/08/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 39dab717810aa5f900cbb4f4371491b05de1ecd1
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -89,7 +89,7 @@ IT 관리자의 최우선 업무 중 하나는 관리하는 컴퓨터를 맬웨�
 |**컴퓨터에서 파일 및 프로그램 활동 모니터**|컴퓨터에서 들어오는 파일과 나가는 파일 및 프로그램 활동을 모니터링하도록 설정합니다. 이 설정을 통해 Endpoint Protection은 파일 및 프로그램이 실행되기 시작할 때 모니터링하여 파일 및 프로그램이 수행하거나 영향 받는 모든 작업에 대해 경고를 보낼 수 있습니다.<br /><br />권장 값: **예**|
 |**모니터링되는 파일**|들어오는 파일만 모니터링할지, 나가는 파일만 모니터링할지 또는 모든 파일을 모니터링할지 선택할 수 있습니다.<br /><br />권장 값: **모든 파일 모니터링**|
 |**동작 모니터링 사용**|Microsoft Intune Endpoint Protection에서 클라이언트 컴퓨터의 특정한 의심스러운 활동 패턴을 확인할 수 있습니다.<br /><br />권장 값: **예**|
-|**네트워크 검사 시스템 사용**|클라이언트 컴퓨터에서 NIS(네트워크 검사 시스템)를 사용하도록 설정합니다. NIS는 [Microsoft Malware Protection Center(Microsoft 맬웨어 보호 센터)](http://go.microsoft.com/fwlink/?LinkId=234249) 에서 알려진 취약점의 서명을 사용하여 악성 네트워크 트래픽을 탐색하고 차단합니다.<br /><br />권장 값: **예**|
+|**네트워크 검사 시스템 사용**|클라이언트 컴퓨터에서 NIS(네트워크 검사 시스템)를 사용하도록 설정합니다. NIS는 [Microsoft Malware Protection Center(Microsoft 맬웨어 보호 센터)](https://go.microsoft.com/fwlink/?LinkId=234249) 에서 알려진 취약점의 서명을 사용하여 악성 네트워크 트래픽을 탐색하고 차단합니다.<br /><br />권장 값: **예**|
 
   ![Endpoint Protection의 실시간 설정](./media/pol-sa-pc-policy-realtime.png)
 

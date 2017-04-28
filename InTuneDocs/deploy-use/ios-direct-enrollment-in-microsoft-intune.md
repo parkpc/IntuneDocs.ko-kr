@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 521a37044d6721fe905db7740329688ba2c24b35
-ms.openlocfilehash: f75c4a6412d34923ec45524d765d3eb270f15e13
-ms.lasthandoff: 01/31/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: ee0320db2c4a1a977326f62fcd20597fa39aba24
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -35,7 +35,7 @@ iOS 장치를 직접 등록하는 경우 장치의 일련 번호를 몰라도 �
 
 1.  등록된 iOS 장치에 대한 장치 등록 프로필을 아직 만들지 않은 경우 Apple Configurator를 통해 만듭니다. 장치 등록 프로필은 장치에 적용되는 설정을 정의합니다.
 
-    1.  [Microsoft Intune](http://manage.microsoft.com) 관리 콘솔에서 **정책** &gt; **회사 장치 등록**으로 이동한 후 **추가**를 선택합니다.
+    1.  [Microsoft Intune](https://manage.microsoft.com) 관리 콘솔에서 **정책** &gt; **회사 장치 등록**으로 이동한 후 **추가**를 선택합니다.
 
         ![장치 등록 프로필 만들기 페이지](../media/pol-sa-corp-enroll.png)
 
@@ -63,7 +63,7 @@ iOS 장치를 직접 등록하는 경우 장치의 일련 번호를 몰라도 �
 
 6.  다운로드한 .mobileconfig 파일을 Mac 컴퓨터에 복사하여 파일을 전송합니다.
     > [!NOTE]
-    > 등록 프로필 URL은 내보낸 날부터&2;주 동안 유효합니다. 2주 후에 설정 도우미를 사용하여 등록할 새 등록 프로필 URL을 내보내야 합니다.
+    > 등록 프로필 URL은 내보낸 날부터 2주 동안 유효합니다. 2주 후에 설정 도우미를 사용하여 등록할 새 등록 프로필 URL을 내보내야 합니다.
 
 7.  Apple Configurator를 사용하여 장치를 준비합니다. iOS 장치는 Mac 컴퓨터에 연결되고 모바일 장치 관리를 위해 등록됩니다.
 

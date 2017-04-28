@@ -15,8 +15,9 @@ ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: b322f368637e39da1ab10b41dd724859fb49e1f2
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: dce7050a7439a7e24e34be3c79473d6ec3159c83
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -50,7 +51,7 @@ ms.openlocfilehash: b322f368637e39da1ab10b41dd724859fb49e1f2
 
 ## <a name="set-up-the-service-to-service-connector"></a>서비스 간 커넥터 설정
 
-1. Exchange 관리자 권한 및 [앞에서 설명한](#exchange-cmdlet-requirements) cmdlet에 대한 권한을 가진 사용자 계정으로 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 엽니다. Microsoft Intune은 현재 로그인된 사용자의 메일 주소를 사용하여 연결을 설정합니다.
+1. Exchange 관리자 권한 및 [앞에서 설명한](#exchange-cmdlet-requirements) cmdlet에 대한 권한을 가진 사용자 계정으로 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)을 엽니다. Microsoft Intune은 현재 로그인된 사용자의 메일 주소를 사용하여 연결을 설정합니다.
 
 2.  작업 영역 바로 가기 창에서 **관리**>**모바일 장치 관리** > **Microsoft Exchange** > **Exchange 연결 설정**으로 이동합니다.
 ![Service to Service Connector 설정 페이지](../media/intunesa5cservicetoserviceconnector.png)
@@ -62,12 +63,7 @@ Service to Service Connector에서 자동으로 Exchange Online 또는 신규 Ex
 
 ## <a name="validate-your-exchange-connection"></a>Exchange 연결 확인
 
-Exchange Connector를 구성한 후 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)로 이동합니다. **관리**> **모바일 장치 관리** > **Microsoft Exchange**를 선택합니다. 그런 다음 제공한 세부 정보가 **Exchange 연결 정보**에 나타나는지 확인합니다.
+Exchange Connector를 구성한 후 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)로 이동합니다. **관리**> **모바일 장치 관리** > **Microsoft Exchange**를 선택합니다. 그런 다음 제공한 세부 정보가 **Exchange 연결 정보**에 나타나는지 확인합니다.
 
 마지막으로 성공한 동기화 시도의 시간과 날짜를 확인할 수도 있습니다.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

@@ -83,10 +83,7 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
 -   Exchange ActiveSync 메일 클라이언트(예: Android 4 이상의 Gmail)
 -   **Android for Work 장치**의 Exchange ActiveSync 메일 클라이언트: **회사 프로필**에서 **Gmail** 및 **Nine Work** 앱만 Android for Work에 대해 지원됩니다. 조건부 액세스가 Android for Work에서 작동하려면 Gmail 또는 Nine Work 앱에 대한 메일 프로필을 배포하고, 이러한 앱을 필수 설치로 배포해야 합니다. 
 
-<!---
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
---->
-> [!NOTE] 
+> [!NOTE]
 > Android 및 iOS용 Microsoft Outlook 앱은 지원되지 않습니다.
 
 ## <a name="support-for-pcs"></a>PC 지원

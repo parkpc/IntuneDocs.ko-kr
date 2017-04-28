@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: f153e3a58f9655bd1e36094f292098c9f55742b6
+ms.lasthandoff: 12/10/2016
 
 
 ---
@@ -41,7 +42,6 @@ Intune 정책은 다음과 같은 범주로 분류됩니다. 사용하는 범주
 - **리소스 액세스 정책:** 이 정책은 함께 작동하여 사용자가 어디에 있든지 상관없이 정상적인 작업 수행에 필요한 파일 및 리소스에 쉽게 액세스하게 해 줍니다.
 자세한 내용은 [Microsoft Intune을 사용하여 회사 리소스에 대한 액세스 허용](enable-access-to-company-resources-with-microsoft-intune.md) 항목을 참조하세요.
 
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 
 Intune 정책의 전체 목록을 보려면 [Microsoft Intune 정책 참조](microsoft-intune-policy-reference.md) 항목을 참조하세요.
 
@@ -212,9 +212,4 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI(Open Mobile Allian
 ### <a name="where-can-i-find-help-troubleshooting-policies"></a>문제 해결 정책 도움말은 어디서 찾을 수 있나요?
 
 [Microsoft Intune의 문제 해결 정책](/intune/troubleshoot/troubleshoot-policies-in-microsoft-intune)을 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

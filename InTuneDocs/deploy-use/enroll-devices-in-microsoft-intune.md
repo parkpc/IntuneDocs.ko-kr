@@ -15,9 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 911d2887791cf16d4290c3ac5189aa44086f4603
-ms.openlocfilehash: 8f18f9ff2c32bb24b68fa987a8aad990b911a549
-ms.lasthandoff: 03/11/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 2a35387cdc2ebeb3c83fa043a8b2c6583fccdbc9
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -30,7 +30,7 @@ Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같�
 
 [Exchange ActiveSync](#mobile-device-management-with-exchange-activesync-and-intune)를 클라우드에서 호스트하거나 온-프레미스로 사용하는 경우 등록하지 않고 간단한 Intune 관리를 사용할 수 있습니다. [Intune 클라이언트 소프트웨어](#manage-windows-pcs-with-intune)를 사용하여 Windows PC를 관리할 수도 있습니다.
 
-기본적으로 모든 플랫폼의 장치를 Intune에서 등록할 수 있습니다. 장치 등록을 차단하려면 관리자 자격 증명을 사용하여 [Microsoft Intune 관리 포털](http://manage.microsoft.com)에 로그인합니다. **관리** > **모바일 장치 관리** > **등록 규칙**을 선택한 다음 차단할 플랫폼의 확인란을 선택 취소합니다.
+기본적으로 모든 플랫폼의 장치를 Intune에서 등록할 수 있습니다. 장치 등록을 차단하려면 관리자 자격 증명을 사용하여 [Microsoft Intune 관리 포털](https://manage.microsoft.com)에 로그인합니다. **관리** > **모바일 장치 관리** > **등록 규칙**을 선택한 다음 차단할 플랫폼의 확인란을 선택 취소합니다.
 
 ## <a name="overview-of-device-enrollment-methods"></a>장치 등록 방법 개요
 
