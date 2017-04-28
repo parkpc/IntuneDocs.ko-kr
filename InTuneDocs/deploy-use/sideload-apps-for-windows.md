@@ -12,9 +12,9 @@ ms.technology:
 ms.assetid: e44f1756-52e1-4ed5-bf7d-0e80363a8674
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: bb0fe422999246fd40dae16299cf3154b7d7f97b
-ms.lasthandoff: 04/14/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 44af7e7805843eeb6a2112afc89057c10c26f835
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -55,7 +55,7 @@ Intune 관리자는 회사 포털 앱을 비롯한 LOB(기간 업무) 앱을 Win
 6.  **앱을 Intune에 업로드**<br>
     서명한 앱 파일 및 코드 서명 인증서를 업로드하여 최종 사용자가 앱을 사용할 수 있도록 합니다.
 
-    1.  [Intune 관리 콘솔](http://manage.microsoft.com)에서 **관리** &gt; **Windows Phone**을 클릭합니다.
+    1.  [Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리** &gt; **Windows Phone**을 클릭합니다.
 
     2.  **서명된 앱 파일 업로드**를 클릭하고 Intune 관리자 ID로 로그인합니다.
 

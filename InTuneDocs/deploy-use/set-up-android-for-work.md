@@ -13,9 +13,9 @@ ms.technology:
 ms.assetid: b2fdcea9-9ad7-4d73-88e2-854b7a774bb2
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: a85b9f603e022b3296cb16754effd06087074a72
-ms.openlocfilehash: df1a9b21cd7114c2eebfeb114edf161c4a0e9ef3
-ms.lasthandoff: 04/01/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 660d0c69fc09c6ec8b82185b3808269ef4bb6852
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -32,7 +32,7 @@ Android for Work 장치 관리를 사용하도록 설정하려면 Intune에 Andr
 모바일 장치 관리를 아직 준비하지 않은 경우 [모바일 장치 관리 기관](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-8#enable-device-enrollment)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
 
 2. **Android for Work 바인딩 구성**<br>
-    Intune 관리자 권한으로 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **Android for Work**로 이동한 다음 **구성**을 클릭하여 Google Play의 Android for Work 웹 사이트를 엽니다. 이렇게 하면 브라우저에서 새 탭으로 열립니다.
+    Intune 관리자 권한으로 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **Android for Work**로 이동한 다음 **구성**을 클릭하여 Google Play의 Android for Work 웹 사이트를 엽니다. 이렇게 하면 브라우저에서 새 탭으로 열립니다.
 
 3. **Google에 로그인**<br>
    Google의 로그인 페이지에서 이 테넌트에 대한 모든 Android for Work 관리 작업과 연결할 Google 계정을 입력합니다. 이 계정은 조직의 IT 관리자 간에 공유되며 Play for Work 콘솔에서 앱을 관리 및 게시하는 데 사용되는 Google 계정입니다.
@@ -59,7 +59,7 @@ Android for Work 등록 및 관리를 해제할 수 있습니다. Intune 관리 
 ### <a name="how-to-unbind-an-android-for-work-account"></a>Android for Work 계정을 바인딩 해제하는 방법
 
 1. **Android for Work 바인딩에 대한 바인딩 해제**<br>
-   관리자 권한으로 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **Android for Work**로 이동하고 **바인딩 해제**를 클릭합니다.
+   관리자 권한으로 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **Android for Work**로 이동하고 **바인딩 해제**를 클릭합니다.
 
 2. **Android for Work 바인딩 삭제 동의**<br>
   바인딩을 삭제하고 Intune에서 Android for Work를 모두 등록 해제하려면 **예**를 클릭합니다.

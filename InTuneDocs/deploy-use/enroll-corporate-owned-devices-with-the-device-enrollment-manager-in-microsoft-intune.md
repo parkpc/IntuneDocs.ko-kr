@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: a4b6d8b0a63d707631e3f0e231b2e9b40f2609cf
-ms.openlocfilehash: 1d8109fca8170ad127f6377918d7c0313ba26d78
-ms.lasthandoff: 03/24/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: ea57a51f2855dea416ad4a76e657e1846ffe41f1
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -69,9 +69,9 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
 ## <a name="add-a-device-enrollment-manager"></a>장치 등록 관리자 추가
 
-1.  DEM 계정에 추가할 사용자가 이미 있는지 확인하세요. 사용자를 추가해야하는 경우 [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에 로그인하여 [Office 365 포털에 사용자를 개별적으로 또는 일괄적으로 추가](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)의 단계를 따르세요.
+1.  DEM 계정에 추가할 사용자가 이미 있는지 확인하세요. 사용자를 추가해야하는 경우 [Office 365 포털](https://go.microsoft.com/fwlink/p/?LinkId=698854)에 로그인하여 [Office 365 포털에 사용자를 개별적으로 또는 일괄적으로 추가](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)의 단계를 따르세요.
 
-2.  관리자 자격 증명을 사용하여 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에 로그인합니다.
+2.  관리자 자격 증명을 사용하여 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에 로그인합니다.
 
 3.  탐색 창에서 **관리**를 선택하고 **관리자 관리**를 선택한 후 **장치 등록 관리자**를 선택합니다. **장치 등록 관리자** 페이지가 열립니다.
 
@@ -88,7 +88,7 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
 ## <a name="delete-a-device-enrollment-manager-from-intune"></a>Intune에서 장치 등록 관리자 삭제
 
-1.  관리자 자격 증명을 사용하여 [Microsoft Intune 관리 포털](http://manage.microsoft.com)에 로그온합니다.
+1.  관리자 자격 증명을 사용하여 [Microsoft Intune 관리 포털](https://manage.microsoft.com)에 로그온합니다.
 
 2.  탐색 창에서 **관리**를 선택하고 **관리자 관리**를 선택한 후 **장치 등록 관리자**를 선택합니다. **장치 등록 관리자** 페이지가 열립니다.
 

@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: 2a1a9bb4e49e997a6f152cadcf0c7a75b553cb42
-ms.lasthandoff: 04/14/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 5c57a069fc9d2ca561954f50cbefa21b13a563d1
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -58,7 +58,7 @@ Apple Configurator를 사용하면 iOS 장치를 공장 설정으로 초기화�
 
 장치 등록 프로필은 장치 그룹에 적용되는 설정을 정의합니다.
 
-1. [Microsoft Intune](http://manage.microsoft.com) 관리 콘솔에서 **정책** &gt; **회사 장치 등록**으로 이동한 후 **추가**를 선택합니다.
+1. [Microsoft Intune](https://manage.microsoft.com) 관리 콘솔에서 **정책** &gt; **회사 장치 등록**으로 이동한 후 **추가**를 선택합니다.
 
   ![장치 등록 프로필 만들기](../media/pol-sa-corp-enroll.png)
 
@@ -85,7 +85,7 @@ Apple Configurator를 사용하면 iOS 장치를 공장 설정으로 초기화�
 
 ### <a name="add-ios-devices-to-enroll-with-setup-assistant"></a>설정 도우미를 사용하여 등록할 iOS 장치 추가
 
-1. [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **그룹** &gt; **모든 장치** &gt; **모든 회사 소유 장치** &gt; **모든 장치**로 이동한 다음 **장치 추가**를 선택합니다.
+1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **그룹** &gt; **모든 장치** &gt; **모든 회사 소유 장치** &gt; **모든 장치**로 이동한 다음 **장치 추가**를 선택합니다.
 
    두 가지 방법으로 장치를 추가할 수 있습니다.
 
@@ -128,7 +128,7 @@ Apple Configurator를 사용하면 iOS 장치를 공장 설정으로 초기화�
 
 ### <a name="export-a-profile-to-deploy-to-ios-devices"></a>iOS 장치에 배포할 프로필 내보내기
 
-1. [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **회사 장치 등록**으로 이동한 다음 모바일 장치에 배포할 장치 프로필을 선택합니다.
+1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **회사 장치 등록**으로 이동한 다음 모바일 장치에 배포할 장치 프로필을 선택합니다.
 
 2. 작업 표시줄에서 **내보내기**를 선택합니다. **프로필 URL**을 복사하고 저장합니다. iOS 장치에서 사용하는 Intune 프로필을 정의하기 위해 나중에 Apple Configurator에서 업로드합니다.
 
