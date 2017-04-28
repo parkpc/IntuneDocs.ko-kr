@@ -15,9 +15,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: a6d5f19b1d5f5bac3cd5e6d8bc445d765d703de0
-ms.lasthandoff: 12/10/2016
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 177485a0b09a2b0213a293914799a34a3bfa1136
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 12/10/2016
 
 ## <a name="create-a-terms-and-conditions-policy"></a>사용 약관 정책을 만들기
 
-1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다.
 
     ![사용 약관 정책 스크린샷](./media/pol-sa-terms-conditions.png)
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 12/10/2016
 
 ## <a name="deploy-a-terms-and-conditions-policy"></a>사용 약관 정책 배포
 
-1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다.
 
 2.  **사용 약관 정책** 목록에서 배포할 정책을 선택하고 **배포 관리**를 클릭합니다.
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 12/10/2016
 
 ## <a name="monitor-a-terms-and-conditions-policy"></a>사용 약관 정책 모니터링
 
-1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다.
 
 2.  **새 보고서 만들기** 창에서 **보고서 보기**를 클릭합니다. 배포한 사용 약관에 동의한 사용자의 세부 정보를 보여 주는 보고서가 열립니다.
 
@@ -73,7 +73,7 @@ ms.lasthandoff: 12/10/2016
 
 ## <a name="work-with-multiple-versions-of-terms-and-conditions"></a>여러 버전의 사용 약관 사용
 
-1.  [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **사용 약관**을 클릭합니다.
 
 2.  편집할 사용 약관 정책을 선택하고 **편집**을 클릭합니다.
 

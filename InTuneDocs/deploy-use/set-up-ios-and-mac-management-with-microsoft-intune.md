@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 86fd9d7212277f9524eb4d7f225df2c7beda1313
-ms.openlocfilehash: 825acdb4452aa7fc9369be653b8afcdd4312ab23
-ms.lasthandoff: 03/21/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: ef1fbee09172a89e0f83cbe905a00f3a3ef25b05
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -32,7 +32,7 @@ Intune은 iPad, iPhone 및 macOS 장치의 MDM(모바일 장치 관리)을 가�
     모바일 장치 관리를 아직 준비하지 않은 경우 [모바일 장치 관리 기관](prerequisites-for-enrollment.md#step-2-set-mdm-authority)을 **Microsoft Intune**으로 설정하고 MDM을 설정하여 관리를 준비합니다.
 
 2.  **인증서 서명 요청 가져오기**<br>
-    관리자 권한으로 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **iOS 및 Mac OS X** &gt; **APNs 인증서 업로드**로 이동하여 **APNs 인증서 요청 다운로드**를 선택합니다. 인증서 서명 요청(.csr) 파일을 로컬로 저장합니다. .csr 파일은 APC(Apple Push Certificate) 포털에서 트러스터 관계 인증서를 요청하는 데 사용됩니다.
+    관리자 권한으로 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **iOS 및 Mac OS X** &gt; **APNs 인증서 업로드**로 이동하여 **APNs 인증서 요청 다운로드**를 선택합니다. 인증서 서명 요청(.csr) 파일을 로컬로 저장합니다. .csr 파일은 APC(Apple Push Certificate) 포털에서 트러스터 관계 인증서를 요청하는 데 사용됩니다.
 
     ![APNs 인증서 업로드 대화 상자](../media/Intune-iOS-enrollment-with-apns.png)
 
@@ -45,7 +45,7 @@ Intune은 iPad, iPhone 및 macOS 장치의 MDM(모바일 장치 관리)을 가�
     > 매년 이 APN 인증서를 갱신(교체 아님)해야 합니다. 이 동일한 Apple ID를 사용하여 Apple의 Push Certificate Portal에 로그인한 다음 이 항목의 동일한 지침을 사용하여 인증서를 다운로드하여 Intune에 업로드합니다.
 
 4.  **Intune에 APNs 인증서 추가**<br>
-    [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **관리** &gt; **모바일 장치 관리** &gt; **iOS 및 Mac OS X** &gt; **APNs 인증서 업로드**로 이동하여 **APNs 인증서 업로드**를 선택합니다. 인증서(.pem) 파일로 이동한 후 **열기**를 선택하고 **Apple ID**를 입력합니다. APNs 인증서가 있으면 Intune에서 등록된 모바일 장치에 정책을 푸시하여 iOS 장치를 등록하고 관리할 수 있습니다.
+    [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리** &gt; **모바일 장치 관리** &gt; **iOS 및 Mac OS X** &gt; **APNs 인증서 업로드**로 이동하여 **APNs 인증서 업로드**를 선택합니다. 인증서(.pem) 파일로 이동한 후 **열기**를 선택하고 **Apple ID**를 입력합니다. APNs 인증서가 있으면 Intune에서 등록된 모바일 장치에 정책을 푸시하여 iOS 장치를 등록하고 관리할 수 있습니다.
 
 5.  **회사 리소스를 이용할 수 있도록 사용자에게 장치를 등록하는 방법 설명**
 

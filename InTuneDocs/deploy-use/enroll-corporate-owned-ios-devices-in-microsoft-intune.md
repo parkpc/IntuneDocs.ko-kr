@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 2ed76d2905042f299022f1625ce7215c6834ad3f
-ms.openlocfilehash: 7fcb910dfc566cdf7112a48558cda375ea1c39a8
-ms.lasthandoff: 02/21/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 44b4fbad45decde806fb5be41ea12f0d8bcf9c95
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -26,7 +26,7 @@ ms.lasthandoff: 02/21/2017
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-Microsoft Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) 도구 또는 Apple DEP(장치 등록 프로그램)를 통해 회사 소유의 iOS 장치를 등록하도록 지원합니다.
+Microsoft Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](https://go.microsoft.com/fwlink/?LinkId=518017) 도구 또는 Apple DEP(장치 등록 프로그램)를 통해 회사 소유의 iOS 장치를 등록하도록 지원합니다.
 
 **필수 조건:** [Apple Push Notification Service 인증서](set-up-ios-and-mac-management-with-microsoft-intune.md)
 
@@ -39,15 +39,15 @@ Microsoft Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](http:/
 >[!NOTE]
 >Apple Configurator 및 장치 등록 프로그램 등록 방법을 [장치 등록 관리자](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md) 방법과 함께 사용할 수 없습니다.
 
-기본적으로 모든 iOS 장치는 Intune에서 등록할 수 있습니다. 개인 또는 회사 소유의 장치 등록을 차단하려면 관리자 자격 증명을 사용하여 [Microsoft Intune 관리 포털](http://manage.microsoft.com)에 로그인합니다. **관리** > **모바일 장치 관리** > **등록 규칙**을 선택한 다음 해당 옵션을 선택 취소합니다.
+기본적으로 모든 iOS 장치는 Intune에서 등록할 수 있습니다. 개인 또는 회사 소유의 장치 등록을 차단하려면 관리자 자격 증명을 사용하여 [Microsoft Intune 관리 포털](https://manage.microsoft.com)에 로그인합니다. **관리** > **모바일 장치 관리** > **등록 규칙**을 선택한 다음 해당 옵션을 선택 취소합니다.
 
 ## <a name="use-apple-configurator"></a>Apple Configurator 사용
 
 회사 등록 프로필을 내보낸 후 해당 모바일 장치를 Apple Configurator를 실행하는 Mac에 연결하여 iOS 장치를 등록할 수 있습니다. Apple Configurator는 다음 두 가지 방식의 등록을 지원합니다.
 
-- **설치 도우미 등록**: 장치를 공장 기본 설정으로 복원하고 장치의 새 사용자가 설치하도록 준비합니다. 이 방법을 사용하려면 관리자가 iOS 장치를 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하여 등록을 미리 구성해야 합니다. 그러면 설치 도우미 프로세스를 실행하는 사용자에게 장치가 제공됩니다. 이 프로세스에서는 회사 또는 학교 자격 증명을 사용하여 장치를 구성하고 등록 프로세스를 완료합니다. 자세한 내용은 [Apple Configurator 및 설정 도우미를 사용하여 iOS 장치 등록](ios-setup-assistant-enrollment-in-microsoft-intune.md)을 참조하세요.
+- **설치 도우미 등록**: 장치를 공장 기본 설정으로 복원하고 장치의 새 사용자가 설치하도록 준비합니다. 이 방법을 사용하려면 관리자가 iOS 장치를 [Apple Configurator](https://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하여 등록을 미리 구성해야 합니다. 그러면 설치 도우미 프로세스를 실행하는 사용자에게 장치가 제공됩니다. 이 프로세스에서는 회사 또는 학교 자격 증명을 사용하여 장치를 구성하고 등록 프로세스를 완료합니다. 자세한 내용은 [Apple Configurator 및 설정 도우미를 사용하여 iOS 장치 등록](ios-setup-assistant-enrollment-in-microsoft-intune.md)을 참조하세요.
 
-- **직접 등록**: 장치를 준비하는 동안 사용할 수 있도록 Apple Configurator 규격 파일을 만듭니다. 등록된 장치가 공장 기본 설정으로 복원되지 않았으나 사용자 정보가 없습니다. 이 방법을 사용하려면 관리자가 iOS 장치를 [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하여 장치를 등록해야 합니다. 자세한 내용은 [Apple Configurator 직접 등록을 사용하여 iOS 장치 등록](ios-direct-enrollment-in-microsoft-intune.md)을 참조하세요.
+- **직접 등록**: 장치를 준비하는 동안 사용할 수 있도록 Apple Configurator 규격 파일을 만듭니다. 등록된 장치가 공장 기본 설정으로 복원되지 않았으나 사용자 정보가 없습니다. 이 방법을 사용하려면 관리자가 iOS 장치를 [Apple Configurator](https://go.microsoft.com/fwlink/?LinkId=518017)를 실행하는 Mac 컴퓨터에 USB로 연결하여 장치를 등록해야 합니다. 자세한 내용은 [Apple Configurator 직접 등록을 사용하여 iOS 장치 등록](ios-direct-enrollment-in-microsoft-intune.md)을 참조하세요.
 
 ## <a name="use-the-device-enrollment-program-dep"></a>DEP(장치 등록 프로그램) 사용
 DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배포합니다. 사용자가 장치에서 설정 도우미를 실행하는 경우 장치는 Intune에 등록됩니다. 자세한 내용은 [장치 등록 프로그램 iOS 장치 등록](ios-device-enrollment-program-in-microsoft-intune.md)을 참조하세요.
@@ -74,7 +74,7 @@ DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배�
 
   이 장치가 아직 회사에 등록되지 않은 경우 **새 장치**를 선택하여 표준 등록 흐름에 따라 계속 진행해야 합니다.
 
-6. 다음 화면에서 새 장치의 일련 번호를 확인해야 합니다. **일련 번호 확인** 링크를 탭하여 설정 앱을 시작해서 일련 번호를 확인할 수 있습니다. 그런 다음 회사 포털 앱에 일련 번호의 마지막&4;자리를 입력해야 합니다.
+6. 다음 화면에서 새 장치의 일련 번호를 확인해야 합니다. **일련 번호 확인** 링크를 탭하여 설정 앱을 시작해서 일련 번호를 확인할 수 있습니다. 그런 다음 회사 포털 앱에 일련 번호의 마지막 4자리를 입력해야 합니다.
 
   이 단계에서는 장치가 Intune에 등록된 회사 장치인지 확인합니다. 장치의 일련 번호와 일치하지 않으면 잘못된 장치를 선택한 것입니다. 이전 화면으로 돌아가서 다른 장치를 선택해야 합니다.
 

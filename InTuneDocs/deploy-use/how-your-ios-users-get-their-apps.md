@@ -15,8 +15,9 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: dbc5f1b106df17aa8875997330dbfbb04a81f82f
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 02e54d4ae2ffa860fb95725c74fdff913e88365b
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -40,13 +41,13 @@ Apple 제한에 따라 기간 업무 앱과 관리되는 App Store 앱을 회사
 
 등록된 사용자는 회사 포털 앱의 앱 화면에서 다음 타일을 탭하여 앱을 얻습니다.
 
-- **모든 앱**은 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)의 모두 탭에 있는 모든 앱 목록을 가리킵니다.
+- **모든 앱**은 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)의 모두 탭에 있는 모든 앱 목록을 가리킵니다.
 
 - **추천 앱**을 선택하면 회사 포털 웹 사이트의 추천 탭으로 이동합니다.
 
 - **범주**는 회사 포털 웹 사이트의 범주 탭을 가리킵니다.
 
- 
+
 ![iOS 회사 포털 앱 화면](./media/ios-cp-app-main-apps-screen.png)
 
 앱을 추가하고 이러한 타일에 삽입하는 방법에 대한 자세한 내용은 [Intune에 등록된 장치용 앱 추가](https://docs.microsoft.com/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune.md)를 참조하세요.
@@ -55,9 +56,4 @@ Apple 제한에 따라 기간 업무 앱과 관리되는 App Store 앱을 회사
 [Android 사용자가 앱을 얻는 방법](how-your-android-users-get-their-apps.md)
 
 [Windows 사용자가 앱을 얻는 방법](how-your-windows-users-get-their-apps.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

@@ -15,9 +15,9 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: a85b9f603e022b3296cb16754effd06087074a72
-ms.openlocfilehash: 34d4dc309044336eb3e625a1ecdc50abb48d6fa3
-ms.lasthandoff: 04/01/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 31b7ff2b9644f47107199f0f1d237847169c3143
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -57,7 +57,7 @@ Android 및 iOS 플랫폼에 지원되는 정책 설정의 목록을 보려면 �
 
 앱 보호 정책을 만들려면 다음 단계를 따르세요.
 
-1. [Azure Portal](http://portal.azure.com)로 이동한 다음 자격 증명을 입력합니다.
+1. [Azure Portal](https://portal.azure.com)로 이동한 다음 자격 증명을 입력합니다.
 
 2. **추가 서비스**를 선택하고, "Intune"을 입력합니다.
 
@@ -109,7 +109,7 @@ Android 및 iOS 플랫폼에 지원되는 정책 설정의 목록을 보려면 �
 
 Intune 1703 버전부터 새 앱 보호 정책을 만들 때 LOB 앱을 Intune에 일반적으로 추가할 수 있습니다. 따라서 완전한 앱 배포 권한 없이도 MAM SDK를 사용하여 LOB 앱에 대한 앱 보호 정책을 정의할 수 있습니다.
 
-> [!TIP] 
+> [!TIP]
 > [Intune 앱 SDK](https://docs.microsoft.com/intune/develop/intune-app-sdk-get-started) 워크플로를 진행할 때에도 LOB 앱을 Intune에 추가할 수 있습니다.
 
 > [!IMPORTANT]
@@ -127,13 +127,13 @@ Intune 1703 버전부터 새 앱 보호 정책을 만들 때 LOB 앱을 Intune�
 
 ### <a name="to-add-lob-apps-windows"></a>LOB 앱을 추가하려면(Windows)
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > 새 앱 보호 정책을 만들 때 플랫폼 드롭다운 목록에서 Windows 10을 선택해야 합니다.
 
 1.  [정책 추가] 블레이드에서 **허용되는 앱** 또는 **제외 앱**을 선택하여 [허용되는 앱] 또는 [제외 앱] 블레이드를 엽니다.
 
     > [!NOTE]
-    > 
+    >
     - **허용되는 앱**: 이 정책을 준수해야 하는 앱입니다.
     - **제외 앱**: 이 정책에서 제외되며 회사 데이터에 제한 없이 액세스할 수 있습니다.
 <br></br>

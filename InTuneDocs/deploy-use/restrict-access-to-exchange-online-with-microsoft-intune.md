@@ -78,8 +78,6 @@ Microsoft Intune을 사용하여 Exchange Online 또는 Exchange Online Dedicate
 - Android 4.0 이상, 삼성 Knox Standard 4.0 이상, Android for Work
 - iOS 8.0 이상
 
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
-
 **최신 인증**을 사용하는 경우 Microsoft Office 클라이언트에서 ADAL(Active Directory Authentication Library) 기반 로그인이 가능합니다.
 
 -   ADAL 기반 인증을 사용하면 Office 클라이언트가 브라우저 기반 인증(수동 인증이라고도 함)을 수행할 수 있게 됩니다. 인증을 위해 사용자는 로그인 웹 페이지로 이동됩니다.

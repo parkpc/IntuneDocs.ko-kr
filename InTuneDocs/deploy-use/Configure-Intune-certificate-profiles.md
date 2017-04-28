@@ -58,8 +58,6 @@ SCEP(단순 인증서 등록 프로토콜) 또는 PKCS #12(.PFX) 인증서 프�
 
 -  Windows Phone 8.1 이상
 
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
-
 2.  **신뢰할 수 있는 인증서 프로필** 정책을 추가합니다.
 
     자세한 정보: [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
