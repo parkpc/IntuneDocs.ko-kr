@@ -118,7 +118,6 @@
 #### [iOS용 홈 화면 레이아웃](configure-devices/home-screen-settings-for-ios.md)
 #### [iOS용 앱 알림](configure-devices/app-notification-settings-for-ios.md)
 #### [iOS용 공유 장치](configure-devices/shared-device-settings-for-ios.md)
-#### [iOS용 웹 콘텐츠 필터](configure-devices/web-content-filter-settings-for-ios.md)
 
 ### [장치 제한 구성](configure-devices/how-to-configure-device-restrictions.md)
 #### [Android](configure-devices/device-restrictions-for-android.md)
@@ -194,7 +193,8 @@
 ## [조건부 액세스란?](conditional-access/what-is-conditional-access.md)
 ## 방법
 ### [Exchange On-premises Connector 설치](conditional-access/install-intune-on-premises-exchange-connector.md)
-### [조건부 액세스 정책 만들기](conditional-access/create-conditional-access-policy-for-exchange-on-premises.md)
+### [만들기 및 조건부 액세스 정책을 할당 합니다.](conditional-access/create-conditional-access-policy-for-exchange-on-premises.md)
+### [조건부 액세스 규정 준수를 모니터링 합니다.](conditional-access/monitor-conditional-access-compliance-for-on-premises-exchange-and-exchange-online.md)
 
 # 액세스 제어
 ## [역할 기반 액세스 제어란?](access-control/role-based-access-control.md)
