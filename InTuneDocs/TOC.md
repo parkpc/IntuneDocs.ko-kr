@@ -12,7 +12,7 @@
 
 # [시작](get-started/get-started.md)
 ## [Intune 설정](get-started/start-with-a-paid-subscription-to-microsoft-intune.md)
-### [필수 조건]
+### 필수 구성 요소
 #### [지원되는 장치](get-started/what-to-know-before-you-start-microsoft-intune.md)
 #### [네트워크 사용량](get-started/network-bandwidth-use.md)
 ### [Intune에 로그인](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
@@ -189,10 +189,13 @@
 
 ### [MAM을 사용하여 앱 데이터 보호](deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
 #### [앱 보호 정책용 Azure 포털](deploy-use/azure-portal-for-microsoft-intune-mam-policies.md)
-#### [앱 보호 정책 구성 준비](deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
-#### [앱 보호 정책 만들기 및 배포](deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
+#### [iOS 및 Android용 앱 보호 정책 구성 준비](deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
+#### [Windows 10용 앱 보호 정책 구성 준비](deploy-use/get-ready-to-configure-app-protection-policies-for-windows-10.md)
 #### [Android용 앱 보호 정책](deploy-use/android-mam-policy-settings.md)
 #### [iOS용 앱 보호 정책](deploy-use/ios-mam-policy-settings.md)
+#### [Windows용 앱 보호 정책](deploy-use/create-windows-information-protection-policy-with-intune.md)
+#### [iOS 및 Android용 앱 보호 정책 만들기 및 배포](deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
+#### [Windows 10용 WIP 앱 보호 정책 만들기 및 배포](deploy-use/create-windows-information-protection-policy-with-intune.md)
 #### [앱 보호 정책 유효성 검사](deploy-use/validate-mobile-application-management.md)
 #### [앱 보호 정책 준수 모니터링](deploy-use/monitor-mobile-app-management-policies-with-microsoft-intune.md)
 
