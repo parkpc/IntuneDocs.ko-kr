@@ -9,9 +9,9 @@ ms.topic: hub-page
 title: "Microsoft Intune 설명서 | Microsoft 문서"
 description: "Microsoft Intune 사용 방법을 알아봅니다."
 translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: 1f8b03315c6026a60ef25b1ee6946d4186c82b08
-ms.lasthandoff: 04/14/2017
+ms.sourcegitcommit: e96413a9f1398e7f025bbc2fbd66153c1c54c504
+ms.openlocfilehash: af6af39a041582bd93bac6aad551881be4cf0291
+ms.lasthandoff: 04/24/2017
 
 ---
 <div id="main" class="v2">
@@ -451,7 +451,7 @@ ms.lasthandoff: 04/14/2017
                     <a href="#manage-plan">배포 계획</a>
                     <ul id="manage-plan" class="cardsC">
                         <li>
-                            <a href="/intune/plan-design/section-1-determine-deployment-goals-objectives-challenges">
+                            <a href="/intune/get-started/what-to-know-before-you-start-microsoft-intune">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
@@ -461,8 +461,8 @@ ms.lasthandoff: 04/14/2017
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>목적, 목표 및 과제 확인</h3>
-                                            <p>배포할 때 관리해야 하는 목적, 목표 및 과제를 살펴보세요.</p>
+                                            <h3>지원되는 장치 및 브라우저</h3>
+                                            <p>서비스에서 지원하는 장치 및 브라우저에 대한 세부 정보를 확인하세요.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -476,12 +476,12 @@ ms.lasthandoff: 04/14/2017
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage bgdAccent1">
-                                                <img src="/media/hubs/intune/intune-deployments-identify.svg" alt="" />
+                                                <img src="/media/hubs/intune/intune-deployments-plan.svg" alt="" />
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>사용 사례 시나리오 확인</h3>
-                                            <p>몇 가지 예제 사용 사례를 검토하여 배포 사용 사례 시나리오를 파악하세요. </p>
+                                            <h3>배포 계획, 디자인 및 구현 가이드</h3>
+                                            <p>배포 계획을 개발하고, 디자인을 만들고, Intune에 등록하고, 제품 출시를 수행합니다.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -489,18 +489,18 @@ ms.lasthandoff: 04/14/2017
                             </a>
                         </li>
                         <li>
-                            <a href="/intune/plan-design/section-4-develop-a-rollout-plan">
+                            <a href="/intune/plan-design/intune-mdm-migration-guide">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage bgdAccent1">
-                                                <img src="/media/hubs/intune/intune-deployments-plan.svg" alt="" />
+                                                <img src="/media/hubs/intune/intune-deployments-identify.svg" alt="" />
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>출시 계획 개발</h3>
-                                            <p>Intune 출시의 대상 그룹과 각 그룹의 출시 일정을 결정하세요.</p>
+                                            <h3>마이그레이션 가이드</h3>
+                                            <p>타사 MDM 공급자에서 Intune으로 마이그레이션하는 과정과 관련된 다양한 세부 정보를 단계적으로 안내합니다.</p>
                                         </div>
                                     </div>
                                 </div>
