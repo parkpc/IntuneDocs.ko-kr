@@ -16,16 +16,16 @@ ms.reviewer: sumitp
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
-ms.openlocfilehash: 7edbba3a86213db71e41bd0d0de6c5d285025b8b
-ms.lasthandoff: 03/17/2017
+ms.sourcegitcommit: a981b0253f56d66292ce77639faf4beba8832a9e
+ms.openlocfilehash: b0d0ad102942c65ac3988ea4659b34b397289126
+ms.lasthandoff: 04/19/2017
 
 ---
 
 # <a name="set-up-a-telecom-expense-management-service-in-intune-azure-preview"></a>Intune Azure Preview에서 Telecom Expense Management 서비스 설정
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
-Intune을 사용하면 회사 소유의 모바일 장치에서 데이터 사용으로 발생하는 통신 비용을 관리할 수 있습니다. 이 기능을 지원하기 위해 Intune에는 타사 소프트웨어 개발자인 Saaswedo의 Datalert Telecom Expense Management 솔루션이 통합되어 있습니다. Datalert는 통신 데이터 사용량을 관리하며 Intune 관리 장치에 대해 비용이 많이 들고 예기치 않은 데이터 및 로밍 초과분을 방지할 수 있도록 해주는 실시간 Telecom Expense Management 소프트웨어입니다. 
+Intune을 사용하면 회사 소유의 모바일 장치에서 데이터 사용으로 발생하는 통신 비용을 관리할 수 있습니다. 이 기능을 지원하기 위해 Intune에는 타사 소프트웨어 개발자인 Saaswedo의 Datalert Telecom Expense Management 솔루션이 통합되어 있습니다. Datalert는 통신 데이터 사용량을 관리하며 Intune 관리 장치에 대해 비용이 많이 들고 예기치 않은 데이터 및 로밍 초과분을 방지할 수 있도록 해주는 실시간 Telecom Expense Management 소프트웨어입니다.
 
 Intune은 Datalert와의 통합을 통해 정의된 임계값을 초과할 경우 자동화된 경고를 사용하여 로밍 및 국내 데이터 사용량 제한을 중앙에서 설정, 모니터링 및 적용할 수 있도록 지원합니다. 사용자가 임계값을 초과한 경우 로밍을 해제하는 등 개인 또는 최종 사용자 그룹에 여러 작업을 적용하도록 서비스를 구성할 수 있습니다. Datalert 관리 콘솔에서 데이터 사용량 및 모니터링 정보를 제공하는 보고서를 사용할 수 있습니다.
 
@@ -85,7 +85,7 @@ Intune은 현재 다음 Telecom Expense Management 공급자와 통합되어 있
 
 3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
 
-4. **장치 구성** 블레이드에서 **설정** > **Telecom Expense Management**를 선택합니다. 
+4. **장치 구성** 블레이드에서 **설정** > **Telecom Expense Management**를 선택합니다.
 
    페이지 맨 위에서 **활성** 연결 상태를 찾습니다.
 
@@ -97,7 +97,7 @@ Intune은 현재 다음 Telecom Expense Management 공급자와 통합되어 있
 
 #### <a name="define-device-categories-and-device-groups-mapped-to-the-categories"></a>장치 범주와 해당 범주에 매핑되는 장치 그룹 정의
 
-조직의 필요에 따라 두 개 이상의 장치 범주(예: 회사 및 개인)를 만들고 각 범주에 대한 동적 장치 그룹을 만들어야 합니다. 필요에 따라 조직에 맞는 범주를 추가로 만들 수 있습니다. 
+조직의 필요에 따라 두 개 이상의 장치 범주(예: 회사 및 개인)를 만들고 각 범주에 대한 동적 장치 그룹을 만들어야 합니다. 필요에 따라 조직에 맞는 범주를 추가로 만들 수 있습니다.
 
 이러한 범주는 사용자가 등록할 때 표시됩니다. 사용자가 선택하는 범주에 따라 등록된 장치는 해당하는 장치 그룹으로 이동됩니다. 장치 범주를 만드는 방법에 대한 단계는 [Map devices to groups](https://docs.microsoft.com/intune-azure/enroll-devices/how-to-use-device-group-mapping)(그룹에 장치 매핑)를 참조하세요.
 
@@ -109,7 +109,7 @@ Intune은 현재 다음 Telecom Expense Management 공급자와 통합되어 있
 
 1. Azure Portal의 **Intune** 블레이드에서 **앱 관리**를 선택합니다.
 
-2. **앱 관리** 블레이드에서 **관리** > **앱**을 선택합니다. 
+2. **앱 관리** 블레이드에서 **관리** > **앱**을 선택합니다.
 
 3. **추가**를 선택하여 앱을 추가합니다.
 
@@ -129,7 +129,7 @@ Intune은 현재 다음 Telecom Expense Management 공급자와 통합되어 있
 
 1. 이전 단계에서 만든 iOS Datalert 앱을 선택합니다.
 
-2. **앱** 블레이드에서 **관리** > **할당**으로 이동합니다. 
+2. **앱** 블레이드에서 **관리** > **할당**으로 이동합니다.
 
 3. **그룹 선택**을 선택하고 단계에 따라 회사 장치 그룹을 선택합니다.
 
@@ -137,9 +137,9 @@ Intune은 현재 다음 Telecom Expense Management 공급자와 통합되어 있
 
   ![정책 추가 블레이드의 스크린 샷](../media/tem-assign-datalert-app-to-device-group.png)
 
-### <a name="step-4-add-corporate-paid-phone-lines-to-the-datalert-console"></a>4단계: Datalert 콘솔에 회사 유료 전화 회선 추가 
+### <a name="step-4-add-corporate-paid-phone-lines-to-the-datalert-console"></a>4단계: Datalert 콘솔에 회사 유료 전화 회선 추가
 
-지금까지 Intune 및 Datalert 서비스가 서로 통신할 수 있도록 구성했습니다. 이제 Datalert 콘솔에 회사 유료 전화 회선을 추가하고 셀룰러 또는 로밍 사용량에 대한 임계값과 위반 시 작업을 정의해야 합니다. 
+지금까지 Intune 및 Datalert 서비스가 서로 통신할 수 있도록 구성했습니다. 이제 Datalert 콘솔에 회사 유료 전화 회선을 추가하고 셀룰러 또는 로밍 사용량에 대한 임계값과 위반 시 작업을 정의해야 합니다. 회사 유료 전화 회선을 Datalert 콘솔에 추가하거나, 장치를 Intune에 등록한 후 자동으로 해당 회선이 추가될 수 있습니다.
 
 이러한 항목을 설정하려면 [Datalert setup for Microsoft Intune page](http://www.datalert.fr/microsoft-intune/intune-setup)(Microsoft Intune에 대한 Datalert 설정 페이지) (http://www.datalert.fr/microsoft-intune/intune-setup)의 **설정** 탭에서 설정 마법사의 단계를 따르세요.
 
@@ -147,6 +147,11 @@ Intune은 현재 다음 Telecom Expense Management 공급자와 통합되어 있
 
 
 이제 Datalert 서비스가 활성화되어 데이터 사용량을 모니터링하고 구성된 사용량 제한을 초과한 장치에서 셀룰러 및 로밍 데이터를 해제하는 등의 작업을 시작합니다.
+
+## <a name="client-enrollment-experience"></a>클라이언트 등록 환경
+클라이언트 등록 환경에 대해서는 다음을 참조하세요.
+-    [TEM(Telecom Expense Management)에 iOS 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-with-telecom-expense-management-ios)
+-    [TEM(Telecom Expense Management)에 Android 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-with-telecom-expense-management-android)
 
 ## <a name="turning-off-the-datalert-service"></a>Datalert 서비스 해제
 

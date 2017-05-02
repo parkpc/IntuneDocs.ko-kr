@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/16/2017
+ms.date: 04/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
-ms.openlocfilehash: dd53e547a8f834eff528e79cf2506be1e6c2dc2a
-ms.lasthandoff: 03/17/2017
+ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
+ms.openlocfilehash: e1bc6388ec1927693bac676a20a18935cdbf894e
+ms.lasthandoff: 04/19/2017
 
 
 ---
@@ -44,8 +44,12 @@ ms.lasthandoff: 03/17/2017
     - **macOS**
 6. **프로필 유형** 드롭다운 목록에서 **장치 기능**을 선택합니다. 
 7. 선택한 플랫폼에 따라 구성할 수 있는 설정이 다릅니다. 각 플랫폼에 대한 자세한 설정을 보려면 다음 항목 중 하나로 이동하세요.
-    - [iOS 설정](device-features-for-ios.md)
-    - [macOS 설정](device-features-for-macos.md)
+    - [iOS 및 MacOS용 AirPrint 설정](air-print-settings-for-ios-and-macos.md)
+     - [iOS용 AirPlay 설정](airplay-settings-for-ios-devices.md)
+    - [iOS용 홈 화면 레이아웃 설정](home-screen-settings-for-ios.md)
+    - [iOS용 앱 알림 설정](app-notification-settings-for-ios.md)
+    - [iOS용 공유 장치 구성 설정](shared-device-settings-for-ios.md)
+    - [iOS 장치용 웹 콘텐츠 필터 설정](web-content-filter-settings-for-ios.md)
 
 8. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
 

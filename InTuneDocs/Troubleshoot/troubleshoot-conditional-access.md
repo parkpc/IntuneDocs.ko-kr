@@ -15,9 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 9894fdb696f4e010e176efc47068827bddaf7d4e
-ms.openlocfilehash: 8c84703828db3c5da2aa88fa3dc16329f3a4a1e1
-ms.lasthandoff: 03/04/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: cc14d6a44b3dcb6234cc77cb463098a9d2f4c5b8
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -63,7 +63,7 @@ Azure 관리 포털 및 장치 인벤토리 보고서에서 각 장치에 대해
     
         -    이 상태에 있는 장치는 사용자가 안전한 시작 암호를 설정해야 합니다. 회사 포털 앱에서 사용자에게 장치의 시작 암호를 설정하라는 내용의 장치 알림을 표시합니다. 장치 알림을 탭하고 기존 PIN 또는 암호를 확인한 후에 **안전한 시작** 화면에서 **기기 시작 시 PIN 요청** 옵션을 선택합니다. 그런 다음 회사 포털 앱에서 그 장치의 **준수 확인** 단추를 탭합니다. 이제 장치가 암호화된 것으로 감지됩니다.
     
-        -     일부 장치 제조업체에서는 사용자가 설정한 비밀 PIN이 아닌 기본 PIN을 사용하여 장치를 암호화합니다. 악의적인 사용자가 물리적으로 장치에 액세스할 수 있게 되었을 때 장치에 있는 데이터가 위험해질 수 있기 때문에 기본 PIN을 사용하는 암호화 방법은 Intune에서 보안이 약한 것으로 인식됩니다. 이 문제가 우려될 경우는 [앱 보호 정책](https://docs.microsoft.com/en-us/intune/deploy-use/azure-portal-for-microsoft-intune-mam-policies)을 사용합니다.
+        -     일부 장치 제조업체에서는 사용자가 설정한 비밀 PIN이 아닌 기본 PIN을 사용하여 장치를 암호화합니다. 악의적인 사용자가 물리적으로 장치에 액세스할 수 있게 되었을 때 장치에 있는 데이터가 위험해질 수 있기 때문에 기본 PIN을 사용하는 암호화 방법은 Intune에서 보안이 약한 것으로 인식됩니다. 이 문제가 우려될 경우는 [앱 보호 정책](https://docs.microsoft.com/intune/deploy-use/azure-portal-for-microsoft-intune-mam-policies)을 사용합니다.
 
 ## <a name="policy-issues"></a>정책 문제
 
@@ -119,7 +119,7 @@ Azure 관리 포털 및 장치 인벤토리 보고서에서 각 장치에 대해
 ### <a name="exchange-connector-logs"></a>Exchange Connector 로그
 
 #### <a name="general-log-information"></a>일반 로그 정보
-Exchange Connector 로그를 보려면 [서버 추적 뷰어 도구](https://msdn.microsoft.com/en-us/library/ms732023(v=vs.110).aspx')를 사용합니다. 이 도구를 사용하려면 Windows Server SDK를 다운로드해야 합니다.
+Exchange Connector 로그를 보려면 [서버 추적 뷰어 도구](https://msdn.microsoft.com/library/ms732023(v=vs.110).aspx')를 사용합니다. 이 도구를 사용하려면 Windows Server SDK를 다운로드해야 합니다.
 
 >[!NOTE]
 >로그는 C:\ProgramData\Microsoft\Windows Intune Exchange Connector\Logs에 있습니다. 로그는 *Connector0.log*에서 시작하여 *Connector29.log*로 끝나는 일련의 로그 파일 30개에 포함되어 있습니다. 10MB의 데이터가 누적되면 한 로그에서 다른 로그로 롤오버됩니다. 로그가 Connector29로 이동하면 다시 Connector0부터 시작되며 이전 로그 파일을 덮어씁니다.
