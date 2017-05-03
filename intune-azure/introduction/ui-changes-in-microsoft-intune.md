@@ -16,9 +16,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 6a6b64465c95a3edd6fc2e2d4ae3da80ba3367ee
-ms.openlocfilehash: 92bd41aa4acc02e67e983c68f818bd656b0b9608
-ms.lasthandoff: 04/12/2017
+ms.sourcegitcommit: 6a1dbb2c9d3810f19536fc709719767de923b519
+ms.openlocfilehash: e5067631fc17fa375a3b263f9910936300e6f8e9
+ms.lasthandoff: 04/18/2017
 
 
 ---
@@ -34,6 +34,7 @@ Intune 기능을 Azure Portal로 이동하면서 일부 작업을 더 논리적�
 |IMEI로 그룹화(모든 플랫폼)| 그룹 > 모든 장치 > 회사에서 사전 등록한 장치 > IMEI 기준(모든 플랫폼) | [장치 등록 > 회사 장치 식별자](#by-imei-all-platforms)|
 | 회사 장치 등록 프로필| 정책 > 회사 장치 등록 | [장치 등록 > Apple 등록 > 등록 프로그램 프로필](#where-did-corporate-pre-enrolled-devices-go) |
 | 회사 장치 등록 프로필 | 정책 > 회사 장치 등록 | [장치 등록 > Apple 등록 > AC 프로필](#where-did-corporate-pre-enrolled-devices-go) |
+| Android for Work | 관리자 > 모바일 장치 관리 > Android for Work | 장치 등록 > Android for Work 등록 | | 사용 약관 | 정책 > 사용 약관 | 장치 등록 > 사용 약관 |
 
 
 ## <a name="where-do-i-manage-groups"></a>그룹은 어디에서 관리하나요?

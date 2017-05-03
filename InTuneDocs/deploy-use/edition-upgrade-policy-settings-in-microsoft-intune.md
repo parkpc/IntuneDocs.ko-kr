@@ -1,22 +1,23 @@
 ---
 title: "Windows 버전 업그레이드 정책 설정 | Microsoft 문서"
-description: "Intune을 사용하여 Windows 10 장치를 최신 버전으로 자동 업그레이드하는 방법을 알아봅니다."
+description: "Intune을 사용하여 Windows 10 장치를 다른 버전으로 자동 업그레이드하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 09/30/2016
+ms.date: 04/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8589866a-3f13-489b-a5cd-cee017d16d54
-ms.reviewer: jeffgilb
+ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: ae6477866991cec4091ff2790b925b0e464375f9
+ms.sourcegitcommit: 66be6716df38d868e8247131b49ffb50fc48e60b
+ms.openlocfilehash: 81061f032ef2079695f45e54e99cbb6479252bed
+ms.lasthandoff: 04/15/2017
 
 
 ---
@@ -25,7 +26,7 @@ ms.openlocfilehash: ae6477866991cec4091ff2790b925b0e464375f9
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-Microsoft Intune **버전 업그레이드 정책**을 사용하면 다음 Windows 10 버전 중 하나를 실행하는 장치를 최신 버전으로 자동으로 업그레이드할 수 있습니다.
+Microsoft Intune **버전 업그레이드 정책**을 사용하면 다음 Windows 10 버전 중 하나를 실행하는 장치를 다른 버전으로 자동 업그레이드할 수 있습니다.
 * Windows 10 Desktop
 * Windows 10 Holographic
 * Windows 10 Mobile
@@ -54,9 +55,4 @@ Microsoft Intune **버전 업그레이드 정책**을 사용하면 다음 Window
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

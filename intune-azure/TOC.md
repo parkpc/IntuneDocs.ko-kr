@@ -94,6 +94,8 @@
 ### [회사 포털 앱 구성](manage-apps/company-portal-app.md)
 ## 앱 보호 정책을 사용하는 방법
 ### [앱 보호 정책 만들기 및 할당](manage-apps/app-protection-policies.md)
+### [WIP 앱 보호 정책 준비](manage-apps/get-ready-to-configure-app-protection-policies-for-windows-10.md)
+### [WIP 앱 보호 정책 만들기 및 할당](manage-apps/create-windows-information-protection-policy-with-intune.md)
 #### [Android 설정](manage-apps/android-app-protection-policy-settings.md)
 #### [iOS 설정](manage-apps/ios-app-protection-policy-settings.md)
 ### [앱 보호 정책 유효성 검사](manage-apps/validate-app-protection-policies.md)
@@ -151,6 +153,7 @@
 
 ### [Windows 10 버전 업그레이드 설정 구성](configure-devices/how-to-configure-windows-10-edition-upgrade.md)
 ### [Windows 10 Education 설정 구성](configure-devices/how-to-configure-education-settings.md)
+### [iOS 교육 설정 구성](configure-devices/how-to-configure-ios-edu-settings.md)
 ### [비즈니스용 Windows 업데이트 설정 구성](configure-devices/how-to-configure-windows-update-for-business.md)
 ### [인증서 구성](configure-devices/how-to-configure-certificates.md)
 #### [SCEP](configure-devices/configure-certificate-infrastructure-for-scep.md)

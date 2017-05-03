@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/27/2017
+ms.date: 04/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: c473a1f05b0a7b0ce5205598b2b9a9b86bfe6c1d
-ms.openlocfilehash: f76b65ad97771d6b40c4e3bff75a19fd1f922eea
-ms.lasthandoff: 03/29/2017
+ms.sourcegitcommit: e0ecc775f70703574c4e1adf0f0aa204f2745b72
+ms.openlocfilehash: 21eee53a4e3674dc28b01311a61dda0d71f9f7fa
+ms.lasthandoff: 04/20/2017
 
 
 ---
@@ -131,4 +131,5 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 > [!NOTE]
 > - Android for Work의 경우 해당 메일 프로필 외에, Gmail 또는 Nine Work 앱도 배포해야 합니다.
 > - 장치에서 전자 메일 프로필을 제거하려면 배포를 편집하고 장치가 멤버로 포함된 그룹을 모두 제거합니다. 메일 프로필이 장치에 있는 유일한 메일 프로필인 경우 이 방식으로 메일 프로필을 제거할 수 없습니다.
+> - 이전에 배포한 전자 메일 프로필을 변경할 경우 최종 사용자가 자신의 전자 메일 설정 재구성 승인을 요청하는 메시지가 표시될 수 있습니다.
 

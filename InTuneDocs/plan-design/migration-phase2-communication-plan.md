@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab5aa4e12d951d818c5afb4e1ac5e866b05733fb
-ms.openlocfilehash: d59ddb11ef96e90fdc47ad556c300cfa1dd53de5
-ms.lasthandoff: 03/27/2017
+ms.sourcegitcommit: 9178404c1ed0b09ac4ae21c9c3a1b8d817241ea0
+ms.openlocfilehash: 4c5e436373303d44e01a9ee8d1474334cf8655db
+ms.lasthandoff: 04/17/2017
 
 
 ---
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/27/2017
     -   [조직에서 사용할 메일 \#2 템플릿을 다운로드하세요.](https://gallery.technet.microsoft.com/Intune-migration-guide-end-a9d25eb5)
 <br></br>
 
--   **메일 \#3:** 액세스가 영향을 받기 전에 사용자에게 타임라인을 제공합니다. 사용자에게 마이그레이션의 이점 및 전략적 이유를 다시 한 번 더 알려줍니다. 메일 시기 선택에 슬라이딩 윈도우 방식을 사용하여 단계의 파이프라이닝이 일치하도록 해야 합니다. 예를 들어 6월에 \#1 메일을 1단계 사용자에게, \#2 메일을 2단계 사용자에게, \# 메일을 3단계 사용자에게 보냅니다.
+-   **메일 \#3:** 액세스가 영향을 받기 전에 사용자에게 타임라인을 제공합니다. 사용자에게 마이그레이션의 이점 및 전략적 이유를 다시 한 번 더 알려줍니다. 메일 시기 선택에 슬라이딩 윈도우 방식을 사용하여 단계의 파이프라이닝이 일치하도록 해야 합니다. 예를 들어 6월에 \#1 메일을 1단계 사용자에게, \#2 메일을 2단계 사용자에게, \#1 메일을 3단계 사용자에게 보냅니다.
 
     -   [조직에서 사용할 메일 \#3 템플릿을 다운로드하세요.](https://gallery.technet.microsoft.com/Intune-migration-guide-end-831521b5)
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 03/27/2017
 
 Intune에는 최종 사용자에게 장치 등록을 장려하기 위한 추가 템플릿 리소스가 있습니다.
 
--   모바일 OS 플랫폼별 등록 단계에 대한 추가 지침은 [Microsoft Intune에 대한 최종 사용자 교육 방법](https://docs.microsoft.com/en-us/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune)을 참조하세요.
+-   모바일 OS 플랫폼별 등록 단계에 대한 추가 지침은 [Microsoft Intune에 대한 최종 사용자 교육 방법](https://docs.microsoft.com/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune)을 참조하세요.
 
 -   사용자 지정 가능한 [IT 관리자를 위한 최종 사용자 Intune 등록 템플릿](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a)을 다운로드하세요.
 

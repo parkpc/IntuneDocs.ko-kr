@@ -5,7 +5,7 @@ keywords:
 author: mtillman
 ms.author: mtillman
 manager: angrobe
-ms.date: 04/12/2017
+ms.date: 04/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 0a39abc7f19f4c2c8074de66a9cd5df9cef78ed5
-ms.openlocfilehash: 2b6e29e7323d42b1ce3d75a46648203a7a43165c
-ms.lasthandoff: 04/13/2017
+ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
+ms.openlocfilehash: 31f984fabd2373d242e5e3399bd0c82fbaf53070
+ms.lasthandoff: 04/19/2017
 
 
 ---
@@ -59,7 +59,7 @@ Managed Browser는 앱의 Android 및 iOS 버전 모두에 대한 업데이트�
 
 ### <a name="sign-in-progress-indicator-in-android-company-portal---953374--"></a>Android 회사 포털의 로그인 진행률 표시기 <!--953374-->
 
-Android 회사 포털 앱의 업데이트에는 사용자가 앱을 시작하거나 다시 시작할 때 로그인 진행률 표시기가 표시됩니다. 표시기에서는 "연결 중..."에서부터 "로그인 중...", "보안 요구 사항을 확인하는 중..."까지 새로운 상태를 진행한 후 사용자가 앱에 액세스할 수 있도록 허용합니다. [Intune 앱 UI 페이지의 새로운 기능](whats-new-in-intune-app-ui.md)에서 Android용 회사 포털 앱의 새 화면을 볼 수 있습니다. 
+Android 회사 포털 앱의 업데이트에는 사용자가 앱을 시작하거나 다시 시작할 때 로그인 진행률 표시기가 표시됩니다. 표시기에서는 "연결 중..."에서부터 "로그인 중...", "보안 요구 사항을 확인하는 중..."까지 새로운 상태를 진행한 후 사용자가 앱에 액세스할 수 있도록 허용합니다. [Intune 앱 UI 페이지의 새로운 기능](whats-new-in-intune-app-ui.md)에서 Android용 회사 포털 앱의 새 화면을 볼 수 있습니다.
 
 
 ## <a name="notices"></a>알림
@@ -186,7 +186,7 @@ Samsung KNOX Standard를 실행하는 장치가 이제 Intune의 다중 사용�
 
 ### <a name="multi-user-support-for-windows-10-creators-update----822547---"></a>Windows 10 크리에이터 업데이트에 대한 다중 사용자 지원 <!-- 822547 -->
 
-Windows 10 크리에이터 업데이트를 실행하고 Azure Active Directory 도메인에 가입된 장치에 대한 다중 사용자 관리 지원을 추가했습니다. 따라서 여러 사용자가 AAD 자격 증명을 사용하여 장치에 로그온할 때 각 사용자는 자신의 사용자 이름에 할당된 앱과 정책을 수신합니다.
+Windows 10 크리에이터 업데이트를 실행하고 Azure Active Directory 도메인에 가입된 장치에 대한 다중 사용자 관리 지원을 추가했습니다. 따라서 여러 표준 사용자가 Azure AD 자격 증명을 사용하여 장치에 로그온할 때 각 사용자는 자신의 사용자 이름에 할당된 앱과 정책을 수신합니다. 현재 사용자가 앱 설치와 같은 셀프 서비스의 경우 회사 포털을 사용할 수 없습니다.
 
 ### <a name="fresh-start-for-windows-10-pcs---1004830---"></a>Windows 10 PC에서의 새로운 시작<!-- 1004830 -->
 
@@ -203,7 +203,7 @@ Windows 10 크리에이터 업데이트를 실행하고 Azure Active Directory �
 
 ### <a name="bulk-enroll-windows-10-devices----747607---"></a>Windows 10 장치 대량 등록 <!-- 747607 -->
 
-IT 자동화 도구를 사용하여 여러 Windows 10 장치를 Azure Active Directory 및 Intune에 연결할 수 있습니다. Azure AD 테넌트에 대한 자동 MDM 등록을 사용하도록 설정하려면 Windows 구성 디자이너를 사용하여 Azure AD 테넌트에 장치를 연결하는 프로비저닝 패키지를 만듭니다. 해당 패키지를 대량으로 등록 및 관리하려는 회사 소유 장치에 적용합니다.  패키지가 적용되면 장치가 Azure AD에 연결되고 Intune에 등록되며 Azure AD 사용자가 로그온할 수 있는 준비를 갖추게 됩니다.
+WCD(Windows 구성 디자이너)를 사용하여 Azure Active Directory 및 Intune에 대한 Windows 10 크리에이터 업데이트를 실행하는 많은 장치를 연결할 수 있습니다. Azure AD 테넌트에 대한 자동 MDM 등록을 사용하도록 설정하려면 Windows 구성 디자이너를 사용하여 Azure AD 테넌트에 장치를 연결하는 프로비전 패키지를 만들고, 이 패키지를 대량으로 등록 및 관리할 회사 소유 장치에 적용합니다. 패키지가 장치에 적용되면, 장치가 Azure AD에 연결되고 Intune에 등록되며 Azure AD 사용자가 로그온할 수 있는 준비를 갖추게 됩니다.  Azure AD 사용자는 이러한 장치에서 표준 사용자이며 할당된 정책 및 필수 앱을 수신합니다. 셀프 서비스 및 회사 포털 시나리오의 경우 이번에는 지원되지 않습니다.
 
 ### <a name="new-mam-settings-for-pin-and-managed-storage-locations----58112-736644---"></a>PIN 및 관리되는 저장소 위치에 대한 새 MAM 설정 <!-- 58112, 736644 -->
 

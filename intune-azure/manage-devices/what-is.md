@@ -15,14 +15,14 @@ ms.assetid:
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 24498abc504f05bd22dc7309bc22948292f9b1e6
-ms.openlocfilehash: 731d57859474276b51c0cb0b17a3354eaec17348
-ms.lasthandoff: 04/13/2017
+ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
+ms.openlocfilehash: 25a46754f6c7e44b3f4fef7e8eef015cf559e31f
+ms.lasthandoff: 04/19/2017
 
 
 ---
 
-# <a name="what-is-microsoft-intune-device-management"></a>Microsoft Intune 장치 관리란? 
+# <a name="what-is-microsoft-intune-device-management"></a>Microsoft Intune 장치 관리란?
 
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
@@ -38,8 +38,8 @@ ms.lasthandoff: 04/13/2017
 - **개요** - 등록한 장치 및 각 장치에서 실행하는 운영 체제에 대한 정보를 가져옵니다.
 - **관리** - **모든 장치**를 선택하면 관리하는 모든 장치 목록이 표시됩니다.
     목록에서 이러한 장치 중 하나를 선택하면 <*장치 이름*> **개요** 블레이드가 열립니다. 여기서 다음 중 하나를 선택할 수 있습니다.
-    - **개요** - 이름, 소유자, BYOD 장치인지 여부, 마지막으로 체크 인한 시간 등 장치에 대한 일반 정보를 표시합니다. 
-                
+    - **개요** - 이름, 소유자, BYOD 장치인지 여부, 마지막으로 체크 인한 시간 등 장치에 대한 일반 정보를 표시합니다.
+
     - **하드웨어** - 사용 가능한 저장 공간, 모델, 제조업체 등 장치에 대한 자세한 정보를 표시합니다.
     ![관리되는 장치 하드웨어 인벤토리](./media/hardware-inventory.png)
     - **검색된 응용 프로그램** - Intune에서 찾아서 장치에 설치한 모든 앱 목록을 표시합니다.
@@ -67,6 +67,12 @@ Intune에서 관리하는 회사 데이터만 제거합니다. 장치에서 개�
 ### <a name="bypass-activation-lock"></a>**활성화 잠금 무시**
 사용자의 Apple ID와 암호 없이 iOS 장치에서 활성화 잠금을 제거합니다. 활성화 잠금을 무시한 후 내 iPhone 앱 찾기가 시작되면 장치에서 활성화 잠금이 다시 켜집니다. 장치에 실제로 액세스할 수 있는 경우에만 활성화 잠금을 무시합니다.
 
+### <a name="fresh-start"></a>**새로 시작**
+
+크리에이터 업데이트를 실행 중인 Windows 10 PC에 설치된 앱이 제거되고 PC가 자동으로 최신 버전의 Windows로 업데이트됩니다.
+이 작업은 종종 새 PC와 함께 제공되는 미리 설치된 OEM 앱을 제거하는 데 사용할 수 있습니다. 이 장치 작업을 실행할 때 사용자 데이터를 유지할지 여부를 구성할 수 있습니다. 이 경우 앱과 설정은 제거되지만 사용자 홈 폴더의 내용은 그대로 유지됩니다.
+
+
 ### <a name="lost-mode"></a>**분실 모드**
 iOS 장치를 분실했거나 도난 당한 경우 분실 모드를 설정할 수 있습니다. 이를 통해 장치의 잠금 화면에 표시되는 메시지 및 전화 번호를 지정할 수 있습니다. 이렇게 하려면 다음을 수행합니다.
 1.    iOS 장치에 대한 속성 블레이드에서 **자세히** > **분실 모드**를 선택합니다.
@@ -78,7 +84,7 @@ iOS 장치를 분실했거나 도난 당한 경우 분실 모드를 설정할 �
 ### <a name="locate-device"></a>**장치 찾기**
 이 원격 작업을 사용하면 분실하거나 도난 당한 iOS 장치의 위치를 지도에 표시할 수 있습니다. 장치는 DEP를 통해 등록되고 감독 모드 상태인 회사 소유의 iOS 장치여야 합니다. 이 작업을 사용하려면 먼저 장치가 분실 모드로 되어 있어야 합니다.
 1.    iOS 장치에 대한 속성 블레이드에서 **자세히** > **장치 찾기**를 선택합니다.
-2.    장치의 위치를 찾으면 **장치 찾기** 블레이드에 위치가 표시됩니다. 
+2.    장치의 위치를 찾으면 **장치 찾기** 블레이드에 위치가 표시됩니다.
     ![장치 찾기 블레이드](./media/locate-device.png)
 
 >[!NOTE]
