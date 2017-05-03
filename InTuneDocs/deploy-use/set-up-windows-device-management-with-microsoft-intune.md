@@ -14,9 +14,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 66be6716df38d868e8247131b49ffb50fc48e60b
-ms.openlocfilehash: 1d9bd55a8abee4175d2e71727d7ff18274defd3d
-ms.lasthandoff: 04/15/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: f1291d6eec32ad834d33fcbfff320ce173521a25
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -62,7 +62,7 @@ CNAME 리소스 레코드에는 다음 정보가 포함되어야 합니다.
 예를 들어, 회사의 웹 사이트가 contoso.com인 경우 DNS에 EnterpriseEnrollment.contoso.com을 EnterpriseEnrollment-s.manage.microsoft.com으로 리디렉션하는 CNAME을 만듭니다. DNS 레코드 변경 내용이 전파되는 데는 최대 72시간이 걸릴 수 있습니다. DNS 레코드가 전파될 때까지 Intune의 DNS 변경 내용을 확인할 수 없습니다.
 
 **2단계: CNAME 확인**(선택 사항)<br>
-[Intune 관리 콘솔](http://manage.microsoft.com)에서 **관리** &gt; **모바일 장치 관리** &gt; **Windows**를 선택합니다. 회사 웹 사이트의 확인된 도메인 URL을 **확인된 도메인 이름 지정** 상자에 입력하고 **자동 검색 테스트**를 선택합니다.
+[Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리** &gt; **모바일 장치 관리** &gt; **Windows**를 선택합니다. 회사 웹 사이트의 확인된 도메인 URL을 **확인된 도메인 이름 지정** 상자에 입력하고 **자동 검색 테스트**를 선택합니다.
 
 ## <a name="tell-users-how-to-enroll-windows-devices"></a>사용자에게 Windows 장치를 등록하는 방법 안내
 사용자에게 Windows 장치를 등록하는 방법과 장치가 관리될 때 발생할 수 있는 상황에 대해 알려주어야 합니다.
