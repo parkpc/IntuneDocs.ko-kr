@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 04/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: e76d66768ac58df25313e102b7f60d2bc7bbc59b
-ms.openlocfilehash: b664620f424f9ef612d17beb810564dbdd68ff79
-ms.lasthandoff: 03/22/2017
+ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
+ms.openlocfilehash: b2cbabea781840df0a2a283f803dc76520590aba
+ms.lasthandoff: 04/19/2017
 
 
 ---
@@ -28,6 +28,8 @@ ms.lasthandoff: 03/22/2017
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
 Intune을 사용하면 Samsung Knox 표준 장치를 비롯하여 Android 장치를 관리할 수 있습니다. 장치 관리를 사용하려면 사용자가 Google Play에서 사용할 수 있는 Intune 회사 포털 앱을 다운로드한 다음 앱을 열고 메시지를 따라 등록하여 자신의 장치를 등록해야 합니다. Android 장치가 관리 상태에 있으면 [호환성 정책을 만들고](https://docs.microsoft.com/intune-azure/set-device-compliance/create-a-compliance-policy-for-android), [앱을 관리](https://docs.microsoft.com/intune-azure/manage-apps/what-is-app-management)하는 등의 작업을 할 수 있습니다.
+
+Samsung KNOX Standard를 실행하는 장치가 이제 Intune의 다중 사용자 관리에서 지원됩니다. 즉 최종 사용자가 Azure AD 자격 증명을 사용하여 장치에서 로그인 및 로그아웃할 수 있고 장치는 사용 여부와 관계없이 중앙에서 관리됩니다. 최종 사용자가 로그인하면 앱에 액세스할 수 있고 추가로 앱에 정책을 적용할 수 있습니다. 사용자가 로그아웃하면 모든 앱 데이터가 지워집니다.
 
 ## <a name="prerequisite"></a>필수 구성 요소
 

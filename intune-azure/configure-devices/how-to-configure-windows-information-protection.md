@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/16/2017
+ms.date: 04/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: be070e8bdb339cfea1dbc288923620c8604e9b30
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 66be6716df38d868e8247131b49ffb50fc48e60b
+ms.openlocfilehash: 84fb6c275995fc43226adbda5fc5c40344d6eb09
+ms.lasthandoff: 04/15/2017
 
 
 ---
@@ -32,6 +32,9 @@ ms.lasthandoff: 02/18/2017
 **Windows Information Protection**은 직원 환경을 방해하지 않으면서 이러한 잠재적인 데이터 유출로부터 보호하는 데 도움이 됩니다. 또한 작업 환경이나 기타 앱을 변경하지 않고도 엔터프라이즈 앱 및 데이터가 회사 소유 장치 및 직원이 회사에 가져오는 개인 장치에서 실수로 누출되지 않도록 보호하는 데도 유용합니다.
 
 이 Intune 정책은 Windows Information Protection, 엔터프라이즈 네트워크 위치, 보호 수준 및 암호화 설정으로 보호되는 앱 목록을 관리합니다.
+
+>[!NOTE]
+> Windows 10 회사 포털 앱에서 Windows 정보 보호를 사용하려면 회사 포털 앱을 Windows 정보 보호의 **예외** 모드에 추가해야 합니다. 
 
 ### <a name="next-steps"></a>다음 단계
 자세한 내용은 [Windows 정보 보호를 사용하여 엔터프라이즈 데이터 보호](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip)를 참조하세요.

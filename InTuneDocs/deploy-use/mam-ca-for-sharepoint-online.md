@@ -1,0 +1,58 @@
+---
+title: "SharePoint Online용 앱 액세스 구성"
+description: 
+keywords: 
+author: andredm7
+ms.author: andredm
+manager: angrobe
+ms.date: 10/15/2016
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: 531b09bb-ddfd-498f-8ee3-6675d2466208
+ms.reviewer: chrisgre
+ms.suite: ems
+translationtype: Human Translation
+ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
+ms.openlocfilehash: 992273f88e4bbe234f11f936d6416dbaf0d394e9
+ms.lasthandoff: 04/19/2017
+
+
+---
+
+# <a name="create-a-sharepoint-online-conditional-access-policy-to-only-allow-apps-supported-by-mam"></a>MAM에서 지원되는 앱만 허용되도록 SharePoint Online 조건부 액세스 정책 만들기
+이 항목에서는 Exchange Online에서 Intune MAM(모바일 앱 관리) 정책을 지원하는 모바일 앱만 허용하도록 조건부 액세스를 설정하는 방법에 대한 단계별 지침을 제공합니다.
+
+## <a name="configure-a-sharepoint-online-policy"></a>SharePoint Online 정책 만들기
+**1단계:** 앱 액세스 기능이 포함된 [Azure Portal](https://portal.azure.com)에 로그인합니다. Azure Portal을 처음 사용하는 경우 [MAM 정책용 Azure Portal](azure-portal-for-microsoft-intune-mam-policies.md) 항목을 읽어보세요.
+
+**2단계:** **찾아보기 > Intune > Intune 모바일 응용 프로그램 관리 블레이드 > 설정**으로 이동하여, **조건부 액세스** 섹션에서 **SharePoint Online**을 선택합니다.
+
+![조건부 액세스 섹션과 SharePoint Online 블레이드가 열리는 것을 보여 주는 설정 블레이드 스크린샷](../media/mam-ca-settings-spo.png)
+
+**3단계:** **허용된 앱** 블레이드에서 **Allow apps that support Intune app policies**(Intune 앱 정책을 지원하는 앱 허용) 옵션을 선택하여 Intune MAM 정책에서 지원하는 앱만 SharePoint Online에 액세스할 수 있도록 합니다. Intune MAM 정책에서 지원되는 앱만 허용하는 옵션을 선택하면 지원되는 앱 목록이 표시됩니다.
+
+![앱의 목록을 보여 주는 허용된 앱 블레이드의 스크린샷](../media/mam-ca-spo-allowed-apps.png)
+
+**4단계:** 사용자에게 이 정책을 적용하려면 **제한된 사용자 그룹** 블레이드를 열고 **사용자 그룹 추가**를 선택합니다. 이 정책을 받아야 하는 사용자 그룹을 하나 이상 선택하세요.
+
+![사용자 그룹 추가 옵션이 강조 표시된 제한된 사용자 그룹 블레이드의 스크린샷](../media/mam-ca-spo-restricted-groups.png)
+
+
+**5단계:** 이전 단계에서 선택한 사용자 그룹에 있는 사용자 중 일부를 이 정책에 의해 영향을 받지 않도록 할 수 있습니다. 이 경우 제외된 사용자 그룹 목록에 사용자 그룹을 추가합니다. **SharePoint Online** 블레이드에서 **제외된 사용자 그룹**을 선택합니다. **사용자 그룹 추가**를 선택하여 사용자 그룹 목록을 엽니다. 이 정책에서 제외할 그룹을 선택합니다.  
+
+## <a name="modifying-an-existing-policy"></a>기존 정책 수정
+### <a name="adding-or-deleting-user-groups"></a>사용자 그룹 추가 또는 삭제
+**제한된 사용자 그룹** 목록에서 **사용자 그룹**을 삭제하려면 제한된 사용자 그룹 블레이드를 열고 삭제할 사용자 그룹을 강조 표시한 다음 줄임표(...)를 클릭하여 삭제 옵션을 표시합니다. **삭제**를 선택하여 목록에서 사용자 그룹을 제거합니다. 동일한 절차를 사용하여 **제외된 사용자 그룹** 목록에서 사용자 그룹을 제거할 수 있습니다.
+
+
+## <a name="next-steps"></a>다음 단계
+[Exchange Online에 대한 앱 액세스 구성](mam-ca-for-exchange-online.md)
+
+[최신 인증이 없는 앱 차단](block-apps-with-no-modern-authentication.md)
+
+### <a name="see-also"></a>참고 항목
+
+[MAM 정책으로 앱 데이터 보호](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
+

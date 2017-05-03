@@ -15,8 +15,9 @@ ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f2b364b2c57adab33df2a8e6b34c1f30c02988d3
-ms.openlocfilehash: 9dbb44981c1525e6137dd8a469b1582731ee9719
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 260c328d37174c94bde37162ec011aded26a9f72
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.openlocfilehash: 9dbb44981c1525e6137dd8a469b1582731ee9719
 * Android for Work 장치
 * Windows 8.1 이상을 실행하는 등록된 장치
 * Windows Phone 8.1 이상을 실행하는 장치
-* Windows 10 데스크톱 이상을 실행하는 등록된 장치 
+* Windows 10 데스크톱 이상을 실행하는 등록된 장치
 * Windows 10 Mobile을 실행하는 장치
 
 표준 Intune VPN 정책에 사용하려는 설정이 없는 경우 이 유형의 정책이 유용할 수 있습니다.
@@ -52,7 +53,7 @@ ms.openlocfilehash: 9dbb44981c1525e6137dd8a469b1582731ee9719
 ## <a name="example-uri-settings"></a>URI 설정 예
 
 이러한 설정은 Contoso라는 가상의 회사에서 VPN에 대한 사용자 지정 구성을 만드는 데 사용할 수 있습니다.
-사용할 수 있는 모든 설정이 대한 자세한 내용은 [VPNv2 CSP](https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776.aspx)를 참조하세요.
+사용할 수 있는 모든 설정이 대한 자세한 내용은 [VPNv2 CSP](https://msdn.microsoft.com/library/windows/hardware/dn914776.aspx)를 참조하세요.
 
 기본 Contoso VPN(IKEv2): ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Servers
 
@@ -90,7 +91,7 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 
 **./Vendor/MSFT/VPNv2/ContosoVPN/TrafficFilterList/1/App/Id** Microsoft.MicrosoftEdge_8wekyb3d8bbwe
 
-이러한 설정을 어떻게 사용해야 할지에 대한 질문 또는 사용하는 내용에 대한 자세한 내용은 고객이 CSP(구성 서비스 공급자) 설명서(https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776(v=vs.85).aspx)를 참조해야 합니다.
+이러한 설정을 어떻게 사용해야 할지에 대한 질문 또는 사용하는 내용에 대한 자세한 내용은 고객이 CSP(구성 서비스 공급자) 설명서(https://msdn.microsoft.com/library/windows/hardware/dn914776(v=vs.85).aspx)를 참조해야 합니다.
 
 ## <a name="uri-settings-for-android-per-app-vpn-on-pulsesecure"></a>PulseSecure에서 Android 앱별 VPN에 대한 URI 설정
 ### <a name="custom-uri-for-package-list"></a>패키지 목록에 대한 사용자 지정 URI
@@ -116,9 +117,4 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune에서 VPN 연결](vpn-connections-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

@@ -15,9 +15,9 @@ ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 3982f05e4c81c26d2eb8bdab3a266597d6aab4df
-ms.lasthandoff: 12/30/2016
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: e45d1f0cec7d07ea7d01be0f6ec8443e6521681a
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -42,7 +42,7 @@ Android – Managed Browser 앱을 사용할 수 없습니다.<br /><br />
 
 -   iOS 8.0 이상을 실행하는 장치
 
-Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)에서 웹 콘텐츠 열기를 지원합니다.
+Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https://www.microsoft.com/server-cloud/products/microsoft-intune/partners.aspx)에서 웹 콘텐츠 열기를 지원합니다.
 
 ## <a name="create-a-managed-browser-policy"></a>관리 브라우저 정책 만들기
 
@@ -110,7 +110,7 @@ Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Brows
 
     -   https의 경우 포트 443
 
-    포트 번호에 대한 와일드 카드 사용은 지원되지 않습니다. 예를 들어 **http&colon;//www&period;contoso&period;com:*;**및**http&colon;//www&period;contoso&period;com: /*; * *은 지원되지 않습니다.
+    포트 번호에 대한 와일드 카드 사용은 지원되지 않습니다. 예를 들어 **http&colon;//www&period;contoso&period;com:*;** 및 **http&colon;//www&period;contoso&period;com: /*;**은 지원되지 않습니다.
 
 -   다음 표를 사용하여 URL을 지정할 때 사용할 수 있는 패턴에 대해 알아볼 수 있습니다.
 

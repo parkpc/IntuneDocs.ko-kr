@@ -1,12 +1,12 @@
 ---
 title: "Intune으로 Windows 10 버전 업그레이드 구성"
 titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Intune을 사용하여 관리하는 Windows 10 장치를 업그레이드하는 방법을 알아봅니다."
+description: "Intune Azure 미리 보기: Intune을 사용하여 관리하는 Windows 10 장치를 다른 버전으로 업그레이드하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/16/2017
+ms.date: 04/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
-ms.openlocfilehash: 3d0616601509b310034cdbf6e34cf185712c91d2
-ms.lasthandoff: 03/17/2017
+ms.sourcegitcommit: 66be6716df38d868e8247131b49ffb50fc48e60b
+ms.openlocfilehash: 0274a76fa7dd301ab19d1e8bc155c4ef2c79266f
+ms.lasthandoff: 04/15/2017
 
 
 ---
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/17/2017
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
-이 항목에서는 Windows 10 버전 업그레이드 프로필을 구성하는 방법을 알아봅니다. 이 프로필을 사용하면 다음 Windows 10 버전 중 하나를 실행하는 장치를 최신 버전으로 자동으로 업그레이드할 수 있습니다.
+이 항목에서는 Windows 10 버전 업그레이드 프로필을 구성하는 방법을 알아봅니다. 이 프로필을 사용하면 Windows 10 버전 중 하나를 실행하는 장치를 다른 버전으로 자동으로 업그레이드할 수 있습니다.
 
 - Windows 10 Home
 - Windows 10 Holographic

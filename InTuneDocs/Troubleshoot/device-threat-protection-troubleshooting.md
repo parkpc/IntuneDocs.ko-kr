@@ -15,8 +15,9 @@ ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
-ms.openlocfilehash: b02a5247cec36b45679a76bf3d637cf8b5c031f4
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: de2f224f203257fe539196557180f0b5da5d8373
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -36,7 +37,7 @@ Lookout MTP를 통해, 구성된 Azure AD 그룹의 사용자만 서비스에 �
 
 * 메일: enterprisesupport@lookout.com
 * [MTP 콘솔](http://aad.lookout.com)에 로그인한 다음 **지원** 모듈로 이동합니다.
-* https://enterprise.support.lookout.com/hc/en-us/requests로 이동하여 지원 요청을 수행합니다.
+* https://enterprise.support.lookout.com/hc/requests로 이동하여 지원 요청을 수행합니다.
 
 ## <a name="unable-to-sign-in"></a>로그인할 수 없음
 Azure AD 전역 관리자가 초기 Lookout 설정을 수락하지 않은 경우 다음 오류가 표시됩니다.
@@ -55,7 +56,7 @@ Azure AD 전역 관리자가 초기 Lookout 설정을 수락하지 않은 경우
 
 ### <a name="device-reported-as-pending"></a>**보류 중**으로 보고된 장치
 
-최종 사용자가 아직 Lookout for Work 앱을 열어 **활성화** 단추를 탭하지 않은 경우 장치가 **보류 중**으로 표시됩니다. Lookout for work 앱 관련 장치 활성화에 대한 자세한 내용은 [Android 장치에 Lookout for Work를 설치하라는 메시지가 표시됨](http://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android) 또는 [iOS 장치에 Lookout for Work를 설치하라는 메시지가 표시됨](https://docs.microsoft.com/en-us/intune/enduser/you-are-prompted-to-install-lookout-for-work-ios)을 참조하세요.
+최종 사용자가 아직 Lookout for Work 앱을 열어 **활성화** 단추를 탭하지 않은 경우 장치가 **보류 중**으로 표시됩니다. Lookout for work 앱 관련 장치 활성화에 대한 자세한 내용은 [Android 장치에 Lookout for Work를 설치하라는 메시지가 표시됨](http://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android) 또는 [iOS 장치에 Lookout for Work를 설치하라는 메시지가 표시됨](https://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-ios)을 참조하세요.
 
 ## <a name="device-whos-active-but-has-no-device-id"></a>활성 상태이지만 장치 ID가 없는 장치
 Lookout MTP 콘솔에서, 활성 장치에 장치 ID가 없으면 장치 사용자가 등록 그룹에 없습니다. 장치 사용자가 등록 그룹에서 제거되었거나 등록 그룹이 제거된 경우에도 장치는 이 상태가 될 수 있습니다.
@@ -83,14 +84,9 @@ Lookout MTP 콘솔에서, 활성 장치에 장치 ID가 없으면 장치 사용�
 ## <a name="compliance-remediation-workflows"></a>규정 준수 수정 워크플로
 - [Android 장치에 Lookout for Work를 설치하라는 메시지가 표시됨]( http://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android)
 - [Android 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](http://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
-- [iOS 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](https://docs.microsoft.com/en-us/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-ios)
+- [iOS 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](https://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-ios)
 
 
 ### <a name="see-also"></a>참고 항목
-[Lookout MTP 구독 설정](https://docs.microsoft.com/en-us/intune/deploy-use/set-up-your-subscription-with-lookout-mtp)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
+[Lookout MTP 구독 설정](https://docs.microsoft.com/intune/deploy-use/set-up-your-subscription-with-lookout-mtp)
 

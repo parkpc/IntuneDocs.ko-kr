@@ -1,5 +1,5 @@
 ---
-title: "Android용 회사 포털 앱 설치 | Microsoft 문서"
+title: "Android용 회사 포털 앱 설치"
 description: 
 keywords: 
 author: barlanmsft
@@ -18,9 +18,9 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
-ms.openlocfilehash: 2517ad3d019b185ce3a048b95e595c189f08821e
-ms.lasthandoff: 03/13/2017
+ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
+ms.openlocfilehash: 31e51e6fdf1bcbb17243425b69108ab433eb57c0
+ms.lasthandoff: 04/19/2017
 
 
 ---
@@ -51,7 +51,7 @@ Android 장치를 등록할 경우 장치에 액세스할 수 있는 권한을 I
 
 -   장치를 분실하거나 도난당하는 경우 데이터를 보호할 수 있도록 장치의 모든 데이터를 암호화해야 합니다.
 
-회사 포털에 장치를 추가한 후 대략&8;시간마다
+회사 포털에 장치를 추가한 후 대략 8시간마다
 
 -   IT 관리자가 사용하도록 설정한 임의의 정책 또는 앱 업데이트를 다운로드합니다.
 

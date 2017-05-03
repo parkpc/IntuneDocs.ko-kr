@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: c66226b7fc31f91669c4f4f0693ccbd7c679189f
-ms.openlocfilehash: 89a573abb8853ffdab713ce838de323abac03c37
-ms.lasthandoff: 03/29/2017
+ms.sourcegitcommit: a981b0253f56d66292ce77639faf4beba8832a9e
+ms.openlocfilehash: ab91737586103ecc6f279daf6a55eb8988ad991a
+ms.lasthandoff: 04/19/2017
 
 
 ---
@@ -162,7 +162,9 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 ## <a name="changes-to-intune-group-assignments"></a>Intune 그룹 할당 변경
 
-2017년 4월부터 장치 그룹 관리가 Azure Active Directory로 이동됩니다. Azure Active Directory 그룹으로 전환된 후에는 그룹 할당이 회사 등록 프로필 옵션에 나타나지 않습니다. 이 변경은 몇 달에 걸쳐 진행될 예정이므로 당장 변경 내용이 확인되지 않을 수 있습니다. 새 포털로 이동하고 나면 회사 등록 프로필 이름에 따라 동적 장치 그룹 할당을 정의할 수 있습니다. 회사 장치 등록 프로필에서 미리 할당된 모든 Intune 장치 그룹마다, Azure Active Directory 장치 그룹으로 마이그레이션하는 동안 회사 장치 등록 프로필 이름을 기반으로 AAD에 동적인 장치 그룹이 생성됩니다. 새 동적 장치 그룹 할당을 정의하면 장치 그룹에 미리 할당된 장치가 정책과 앱이 배포된 상태에서 그룹에 자동으로 등록됩니다. [Azure Active Directory 그룹에 대한 자세한 정보](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/)
+2017년 4월부터 장치 그룹 관리가 Azure Active Directory로 이동됩니다. Azure Active Directory 그룹으로 전환된 후에는 그룹 할당이 회사 등록 프로필 옵션에 나타나지 않습니다. 이 변경은 몇 달에 걸쳐 진행될 예정이므로 당장 변경 내용이 확인되지 않을 수 있습니다. 새 포털로 이동하고 나면 회사 등록 프로필 이름에 따라 동적 장치 그룹 할당을 정의할 수 있습니다. 회사 장치 등록 프로필에서 미리 할당된 모든 Intune 장치 그룹마다, Azure Active Directory 장치 그룹으로 마이그레이션하는 동안 회사 장치 등록 프로필 이름을 기반으로 AAD에 동적인 장치 그룹이 생성됩니다. 새 동적 장치 그룹 할당을 정의하면 장치 그룹에 미리 할당된 장치가 정책과 앱이 배포된 상태에서 그룹에 자동으로 등록됩니다. 회사 소유의 iOS 장치 등록에 미치는 영향에 대한 자세한 내용은 [회사 사전 등록 iOS 장치에 대한 자동 그룹화에 대한 변경 내용](https://blogs.technet.microsoft.com/intunesupport/2017/04/19/changes-to-automatic-grouping-for-corporate-pre-enrolled-ios-devices/)을 참조하세요.
+
+[Azure Active Directory 그룹에 대한 자세한 정보](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/)도 참조할 수 있습니다.
 
 ### <a name="see-also"></a>참고 항목
 [장치 등록을 위한 필수 구성 요소](prerequisites-for-enrollment.md)
