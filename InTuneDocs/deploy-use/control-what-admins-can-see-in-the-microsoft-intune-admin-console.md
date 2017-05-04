@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
 ms.openlocfilehash: ee35fb2c8e39af099fb061211ea1fdf767230217
+ms.lasthandoff: 12/30/2016
 
 
 ---
@@ -39,7 +40,7 @@ Microsoft Intune 관리 콘솔 보기를 필터링하여 관리자만 해당 역
     -   **읽기 전용 권한**
     -   **기술 지원팀 - 그룹 노드**
 
-    전체 액세스 및 읽기 전용 액세스는 설명이 따로 필요하지 않습니다. <!--- **Helpdesk - Groups Node** allows users to choose from one of the following designations that provide custom levels of access to the [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] admin console:--->
+    전체 액세스 및 읽기 전용 액세스는 설명이 따로 필요하지 않습니다. <!--- **Helpdesk - Groups Node** allows users to choose from one of the following designations that provide custom levels of access to the Intune admin console:--->
 
     **기술 지원팀-그룹 노드**는 관리자가 다음과 같은 작업에서 확인하고 수행하는 내용을 제한합니다.
 
@@ -70,9 +71,4 @@ Microsoft Intune 관리 콘솔 보기를 필터링하여 관리자만 해당 역
         -   암호 재설정
 
 다음에 구성한 관리자가 Intune 관리 콘솔을 여는 경우 지정된 액세스 수준이 부여됩니다.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 
