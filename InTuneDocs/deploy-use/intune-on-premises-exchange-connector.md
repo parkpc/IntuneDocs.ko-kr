@@ -15,9 +15,9 @@ ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
-ms.openlocfilehash: 68dbebbd7d29514bde438b7dff3142dc45e8471d
-ms.lasthandoff: 03/21/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: f760d567ac339bbb60240ee9f8d28cb550656a59
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -63,7 +63,7 @@ Intune Exchange Connector에서 사용되는 Active Directory 사용자 계정�
 
 ## <a name="download-the-on-premises-exchange-connector-software-installation-package"></a>온-프레미스 Exchange Connector 소프트웨어 설치 패키지 다운로드
 
-1. 온-프레미스 Exchange Connector에 대해 지원되는 Windows Server 운영 체제에서 Exchange Server를 사용할 라이선스를 보유하고 Exchange 테넌트의 관리자인 사용자 계정으로 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com) ( http://manage.microsoft.com )을 엽니다.
+1. 온-프레미스 Exchange Connector용으로 지원되는 Windows Server 운영 체제에서 Exchange 테넌트의 관리자이며 Exchange Server 사용을 위한 라이선스가 있는 사용자 계정으로 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)(https://manage.microsoft.com)을 엽니다.
 ![Exchange 연결 설정 열기](../media/ExchangeConnector.gif)
 
 2.  작업 영역 바로 가기 창에서 **관리**>**모바일 장치 관리** > **Microsoft Exchange**>**Exchange 연결 설정**으로 이동합니다.
@@ -129,7 +129,7 @@ Exchange Connector의 연결을 설정하면 Exchange Connector에서 관리되�
 
 ## <a name="validate-the-exchange-connection"></a>Exchange 연결 유효성 검사
 
-Exchange Connector를 성공적으로 구성한 후 연결 상태 및 마지막으로 성공한 동기화 시도를 볼 수 있습니다. [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **ADMIN** 작업 영역을 선택합니다. **모바일 장치 관리**에서 **Microsoft Exchange**를 선택한 후 제공한 세부 정보가 **Exchange 연결 정보**에 나타나는지 확인합니다.
+Exchange Connector를 성공적으로 구성한 후 연결 상태 및 마지막으로 성공한 동기화 시도를 볼 수 있습니다. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **ADMIN** 작업 영역을 선택합니다. **모바일 장치 관리**에서 **Microsoft Exchange**를 선택한 후 제공한 세부 정보가 **Exchange 연결 정보**에 나타나는지 확인합니다.
 
 
 마지막으로 성공한 동기화 시도의 시간과 날짜를 확인할 수도 있습니다.

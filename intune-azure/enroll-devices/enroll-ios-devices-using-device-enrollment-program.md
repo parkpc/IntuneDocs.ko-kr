@@ -16,9 +16,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 61fbc2af9a7c43d01c20f86ff26012f63ee0a3c2
-ms.openlocfilehash: c56bea46c8b505e0d357cfe90678ab149559b896
-ms.lasthandoff: 04/07/2017
+ms.sourcegitcommit: 53f1c688aad2f810d8a887435dd8d122d4f471ae
+ms.openlocfilehash: d8fa3a19915076f1a603449dd426172fbc5a613a
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -38,9 +38,8 @@ ms.lasthandoff: 04/07/2017
 2. [DEP 프로필 만들기](#create-anapple-dep-profile)
 3. [Intune 서버에 Apple DEP 일련 번호 할당](#assign-apple-dep-serial-numbers-to-your-mdm-server)
 4. [DEP 관리 장치 동기화](#synchronize-dep-managed-devices)
-5. 사용자에게 장치 배포
-
-
+5. [장치에 DEP 프로필 할당](#assign-a-dep-profile-to-devices)
+6. [사용자에게 장치 배포](#distribute-devices-to-users)
 
 ## <a name="get-the-apple-dep-certificate"></a>Apple DEP 인증서 가져오기
 회사 소유 iOS 장치를 Apple의 DEP(장비 등록 프로그램)에 등록하려면 먼저 Apple의 DEP 인증서(.p7m) 파일이 필요합니다. Intune에서는 이 토큰을 통해 회사에서 소유한 DEP 참가 장치에 대한 정보를 동기화할 수 있습니다. 또한 Apple에 등록 프로필을 업로드하고 이러한 프로필에 장치를 할당할 수 있습니다.
@@ -49,9 +48,6 @@ DEP를 사용하여 회사 소유의 iOS 장치를 관리하려면 조직이 App
 
 > [!NOTE]
 > Intune 테넌트가 Intune 클래식 콘솔에서 Azure Portal로 마이그레이션되었고 사용자가 마이그레이션 기간에 Intune 관리 콘솔에서 Apple DEP 토큰을 삭제한 경우 DEP 토큰이 Intune 계정으로 복원되었을 수 있습니다. Azure Portal에서 DEP 토큰을 다시 삭제할 수 있습니다.
-
-
-
 
 **1단계. Apple DEP 토큰을 만드는 데 필요한 Intune 공개 키 인증서를 다운로드합니다.**<br>
 1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다. Intune 블레이드에서 **장치 등록** > **Apple DEP 토큰**을 선택합니다.
@@ -118,6 +114,7 @@ DEP를 사용하여 회사 소유의 iOS 장치를 관리하려면 조직이 App
 9. 프로필 설정을 저장하려면 **등록 프로필 만들기** 블레이드에서 **만들기**를 선택합니다.
 
 ## <a name="assign-apple-dep-serial-numbers-to-your-mdm-server"></a>MDM 서버에 Apple DEP 일련 번호 할당
+Intune에서 이러한 장치를 관리할 수 있도록 Apple DEP 웹 포털에서 Intune MDM 서버에 장치 일련 번호를 할당해야 합니다.
 
 1. [장치 등록 프로그램 포털](https://deploy.apple.com)(https://deploy.apple.com)로 이동한 다음 회사 Apple ID로 로그인합니다.
 
@@ -128,6 +125,7 @@ DEP를 사용하여 회사 소유의 iOS 장치를 관리하려면 조직이 App
 4. **서버에 할당**을 선택하고 Microsoft Intune에 대해 지정된 &lt;ServerName&gt;을 선택한 다음 **확인**을 선택합니다.
 
 ## <a name="synchronize-dep-managed-devices"></a>DEP 관리 장치 동기화
+이제 Intune에 DEP 장치 관리 권한이 할당되었으므로 Intune을 DEP 서비스와 동기화하여 Intune 포털에서 관리되는 장치를 확인할 수 있습니다.
 
 1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
@@ -146,12 +144,29 @@ DEP를 사용하여 회사 소유의 iOS 장치를 관리하려면 조직이 App
 >[!NOTE]
 >**Apple DEP 일련 번호** 블레이드에서 프로필에 DEP 일련 번호를 할당할 수도 있습니다.
 
+## <a name="assign-a-dep-profile-to-devices"></a>장치에 DEP 프로필 할당
+Intune에서 관리하는 DEP 장치를 등록하려면 DEP 프로필을 할당해야 합니다.
+
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+
+2. Azure Portal의 Intune 블레이드에서 **장치 등록** > **Apple 등록**을 선택한 다음 **DEP 프로필**을 선택합니다.
+
+3. **Apple DEP 등록 프로필** 목록에서 장치에 할당할 프로필을 선택한 다음 **장치 할당**을 선택합니다.
+
+4. **할당**을 선택한 다음 이 프로필을 할당할 DEP 장치를 선택합니다. 다음 기준을 사용하여 필터링하면 DEP 사용 가능 장치를 확인할 수 있습니다.
+  - **할당되지 않음**
+  - **임의**
+  - **&lt;DEP 프로필 이름&gt;**
+
+  ![Intune 포털에서 DEP 프로필을 할당하는 데 사용되는 할당 단추의 스크린샷](media/dep-profile-assignment.png)
+
+5. 프로필을 할당할 장치를 선택합니다. 열 위쪽에 있는 확인란을 선택하면 나열된 장치를 1,000개까지 선택할 수 있습니다. 장치를 선택한 후에 **할당**을 클릭합니다. 1,000개보다 많은 장치를 등록하려면 할당 단계를 반복하여 모든 장치에 DEP 프로필을 할당합니다.
+
 ## <a name="distribute-devices-to-users"></a>사용자에게 장치 배포
 
-이제 회사 소유 장치를 사용자에게 배포할 수 있습니다. iOS 장치를 켜면 Intune에서 관리하도록 등록됩니다.
+이제 회사 소유 장치를 사용자에게 배포할 수 있습니다. iOS DEP 장치가 켜진 경우 Intune에서 관리되도록 등록됩니다. 장치가 활성화되었으며 사용 중인 경우에는 장치를 초기화할 때까지 프로필을 적용할 수 없습니다.
 
-
-## <a name="how-users-install-and-use-the-company-portal-on-their-devices"></a>사용자가 자신의 장치에서 회사 포털을 설치 및 사용하는 방법
+### <a name="how-users-install-and-use-the-company-portal-on-their-devices"></a>사용자가 자신의 장치에서 회사 포털을 설치 및 사용하는 방법
 
 사용자 선호도로 구성한 장치에서 회사 포털 앱을 설치하고 실행하여 앱을 다운로드하고 장치를 관리할 수 있습니다. 사용자는 장치를 받은 후 아래 설명된 추가 단계를 완료하여 설정 도우미를 완료하고 회사 포털 앱을 설치해야 합니다.
 
@@ -159,7 +174,7 @@ DEP를 사용하여 회사 소유의 iOS 장치를 관리하려면 조직이 App
 
 1. 사용자가 장치를 켜면 설정 도우미를 완료하라는 메시지가 표시됩니다. 설정하는 동안 자격 증명을 묻는 메시지가 표시됩니다. Intune에서 구독과 연결된 자격 증명(즉, 고유 이름 또는 UPN)을 사용해야 합니다.
 
-2. 설정하는 동안 Apple ID를 묻는 메시지가 표시됩니다. 장치에서 회사 포털을 설치할 수 있도록 Apple ID를 제공해야 합니다. 또한 iOS 설정 메뉴에서 설정을 완료한 후에 ID를 제공할 수도 있습니다.
+2. 설정하는 동안 Apple ID를 묻는 메시지가 표시됩니다. 장치에서 회사 포털을 설치할 수 있도록 Apple ID를 제공해야 합니다. 설치를 완료한 후에 iOS 설정 메뉴에서 Apple ID를 입력할 수도 있습니다.
 
 3. 설정을 완료한 후 사용자는 앱 스토어를 통해 회사 포털 앱을 설치해야 합니다.
 

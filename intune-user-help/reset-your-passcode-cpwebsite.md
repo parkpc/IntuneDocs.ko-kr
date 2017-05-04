@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/20/2017
+ms.date: 04/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: d42fa20a3bc6b6f4a74dd0872aae25cfb33067b9
-ms.openlocfilehash: 1c3b986df3e0d8a5ee54da0a91f37b445b4dd9f7
-ms.lasthandoff: 03/21/2017
+ms.sourcegitcommit: 53f1c688aad2f810d8a887435dd8d122d4f471ae
+ms.openlocfilehash: 9220eecc32ee27725454a48484608af5f4ea0e83
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -48,7 +48,7 @@ Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [�
 
   ![장치 암호 다시 설정 및 사용자가 로그아웃되는 방식에 대한 경고가 포함된 암호 다시 설정 배너 사용자 입력 단추는 로그아웃 및 취소입니다.](./media/iwp-reset-passcode-popup.png)
 
-5.  **로그아웃**을 선택하면 장치에서 암호가 제거됨을 알려주는 최종 메시지를 받게 됩니다. 장치를 갖고 있지 않으면 장치에 대한 물리적 액세스 권한이 있는 누구든지 대부분의 정보(개인 또는 회사)에 액세스할 수 있으므로 암호를 제거하지 마세요.
+5.  **로그아웃**을 선택하면 장치에서 암호가 제거됨을 알려주는 최종 메시지가 수신됩니다. 장치를 갖고 있지 않으면 장치에 대한 물리적 액세스 권한이 있는 누구든지 대부분의 정보(개인 또는 회사)에 액세스할 수 있으므로 암호를 제거하지 마세요. 
 
   ![장치 암호 다시 설정 및 암호가 장치에서 제거되는 방식에 대한 경고가 포함된 두 번째 암호 다시 설정 배너 또한 장치 설정으로 이동하여 새 암호를 설정하는 방법을 알려줍니다.](./media/iwp-reset-passcode-2nd-popup.png)
 
@@ -61,6 +61,8 @@ Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [�
   **Windows 10 Mobile**: 기존 암호를 제거하고 문자와 숫자를 모두 사용하여 임시 암호를 만듭니다. 로그인하는 데 Windows Hello의 안면 인식을 사용 중인 경우에는 이후에도 계속 지원됩니다.
     
   **Windows Phone 8.1**: 기존 암호를 제거하고 숫자를 사용하여 임시 암호를 만듭니다.
+
+  Android 및 Windows 장치의 경우 **장치 세부 정보**에 임시 암호가 표시됩니다. 
 
 6.  장치의 잠금을 해제한 후 장치 **설정**으로 이동하여 새 암호를 설정하거나 임시 암호를 변경합니다.
 

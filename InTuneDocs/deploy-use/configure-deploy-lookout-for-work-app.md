@@ -14,9 +14,9 @@ ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: eaf30c8a59013af6359743227edc8aa6709577c5
-ms.lasthandoff: 04/14/2017
+ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
+ms.openlocfilehash: 44429b8694d15006f77a9eb5206293a6bcc8090b
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +55,7 @@ ms.lasthandoff: 04/14/2017
 
 ## <a name="ios-enterprise-signed-version-of-lookout-app"></a>iOS(Lookout 앱의 엔터프라이즈 서명된 버전)
 
-1. 장치에 **iOS 관리**가 설정되어 있는지 확인합니다. iOS 관리에 대해 장치를 설정하는 방법에 대한 자세한 내용은 [iOS 및 Mac 장치 관리 설정](set-up-ios-and-mac-management-with-microsoft-intune.md)을 참조하세요.
+1. 장치에 **iOS 관리**가 설정되어 있는지 확인합니다. iOS 관리용으로 장치를 설정하는 방법에 대한 자세한 내용은 [iOS 및 Mac 장치 관리 설정](set-up-ios-and-mac-management-with-microsoft-intune.md)을 참조하세요.
 
 2. Lookout for Work iOS 앱을 **다시 서명**합니다. Lookout에서는 iOS App Store 외부에 Lookout for Work iOS 앱을 배포합니다. **앱을 배포하기 전에** iOS 엔터프라이즈 개발자 인증서를 사용하여 앱에 다시 서명해야 합니다. Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내용은 Lookout 사이트에서 [Lookout for Work iOS 앱 다시 서명 프로세스](https://personal.support.lookout.com/hc/articles/114094038714)를 참조하세요.
 
@@ -87,12 +87,11 @@ ms.lasthandoff: 04/14/2017
   Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵션를 선택합니다.
 
 ## <a name="what-happens-when-the-deployed-app-is-opened-on-the-device"></a>장치에서 배포된 앱을 열 때 수행되는 작업
+https://github.com/Microsoft/Docs/blob/master/ContributorGuide/index.md 사용자가 장치에서 Lookout for Work를 열면 앱이 활성화되고 Azure Active Directory를 사용하여 로그인 옵션을 선택하라는 메시지가 표시됩니다. 최종 사용자 흐름을 사용하는 자세한 연습은 다음 항목에서 확인할 수 있습니다.
 
-사용자가 장치에서 Lookout for Work를 열면 앱을 활성화하고 Azure Active Directory를 사용하여 로그인 옵션을 선택하라는 메시지가 표시됩니다. 최종 사용자 흐름을 사용하는 자세한 연습은 다음 항목에서 확인할 수 있습니다.
+* [Android 장치에 Lookout for Work를 설치하라는 메시지가 표시됨](https://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android)
 
-* [Android 장치에 Lookout for Work를 설치하라는 메시지가 표시됨](http://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android)
-
-* [Lookout for Work가 Android 장치에서 발견한 위협을 해결해야 함](http://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
+* [Lookout for Work가 Android 장치에서 발견한 위협을 해결해야 함](https://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
 
 ## <a name="next-steps"></a>다음 단계
 * [Intune에서 Lookout 장치 준수 정책 만들기](https://docs.microsoft.com/sccm/protect/deploy-use/enable-device-threat-protection-rule-compliance-policy)
