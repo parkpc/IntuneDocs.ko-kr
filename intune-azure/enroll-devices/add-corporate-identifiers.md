@@ -33,7 +33,7 @@ IT 관리자 역할로, IMEI(International Mobile Equipment Identity) 번호가 
 ## <a name="add-corporate-identifiers"></a>회사 식별자 추가
 목록을 만들려면 헤더 없이 2열로 구성된 쉼표로 구분된 값(.csv) 목록을 만듭니다. 왼쪽 열에 IMEI 식별자를 추가하고 오른쪽 열에 세부 정보를 추가합니다. 세부 정보는 128자로 제한되며 관리 용도로만 사용됩니다. 세부 정보는 장치에 표시되지 않습니다. 현재는 .csv 파일당 500개의 행으로 제한됩니다.
 
-**일련 번호가 포함된 .csv 파일 업로드** – 머리글 없이 두 열로 이루어진 쉼표로 구분된 값(.csv) 목록을 만들고 목록을 .csv 파일당 장치 5,000대 또는 용량 5MB로 제한합니다.
+**일련 번호가 포함된 .csv 파일 업로드** – 머리글 없이 두 열로 이루어진 쉼표로 구분된 값(.csv) 목록을 만들고 목록을 .csv 파일당 장치 5,000대 또는 용량 5MB로 제한합니다. 
 
 |||
 |-|-|
@@ -43,8 +43,8 @@ IT 관리자 역할로, IMEI(International Mobile Equipment Identity) 번호가 
 이.csv 파일을 텍스트 편집기에서 보면 다음과 같이 표시됩니다.
 
 ```
-01 234567 890123,device details
-02 234567 890123,device details
+01234567890123,device details
+02234567890123,device details
 ```
 
 
