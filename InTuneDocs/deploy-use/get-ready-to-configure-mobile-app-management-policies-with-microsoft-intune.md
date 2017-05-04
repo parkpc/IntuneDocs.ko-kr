@@ -15,9 +15,9 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: 53b86bf579af6af29fd36ce58f9cdf1e92b98abc
-ms.lasthandoff: 04/14/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 71ebb310699cf80310b33be1b665a968ac102bde
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -86,7 +86,7 @@ Intune 관리 콘솔에서 앱 정책을 만드는 방법에 대한 자세한 �
 
   - SharePoint Online 및 Exchange Online 회사 계정 만들기 Exchange 온-프레미스 및 SharePoint 온-프레미스는 지원되지 않습니다.
 
--   **최신 인증을 위한 비즈니스용 Skype Online 설정**. 자세한 내용은 [최신 인증 사용](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)을 참조하세요.
+-   **최신 인증을 위한 비즈니스용 Skype Online 설정**. 자세한 내용은 [최신 인증 사용](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)을 참조하세요.
 
 
 - 사용자를 만들기 위한 Azure AD(Azure Active Directory). Azure AD는 사용자가 앱을 열고 회사 자격 증명을 입력하는 경우 사용자를 인증합니다.
@@ -96,7 +96,7 @@ Intune 관리 콘솔에서 앱 정책을 만드는 방법에 대한 자세한 �
 
 ### <a name="create-users-and-assign-microsoft-intune-licenses"></a>사용자를 만들고 Microsoft Intune 라이선스를 할당합니다.
 
-1.  관리자 자격 증명을 사용하여 [Office 포털](http://portal.office.com)에 로그인합니다.
+1.  관리자 자격 증명을 사용하여 [Office 포털](https://portal.office.com)에 로그인합니다.
 
 2.  [Intune 평가 가이드](https://docs.microsoft.com/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune)의 **Intune의 30일 평가를 완료하기 위한 단계** 섹션에 설명된 대로 사용자를 추가한 다음 Intune 라이선스를 할당합니다. 사용자가 Office 포털, Azure AD 포털 및 Azure 포털에 액세스할 수 있게 하려면 사용자에게 **전역 관리자 역할**을 할당합니다.
 

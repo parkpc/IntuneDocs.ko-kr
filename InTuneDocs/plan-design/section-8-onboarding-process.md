@@ -15,9 +15,9 @@ ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: 23d40a31c43a061e0f3b1fbb05827697ca7380ac
-ms.lasthandoff: 04/14/2017
+ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
+ms.openlocfilehash: 307a4aec1d9b86a92bde9114fdfd45846a82a2f3
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -84,7 +84,7 @@ EMS/Intune 및 Office 365 출시 대상으로 지정될 모든 사용자에게�
 
 #### <a name="task-5-set-mobile-device-management-authority-to-intune"></a>작업 5: Intune으로 모바일 장치 관리 기관 설정
 
-Intune을 사용하여 장치를 설치하고 구성하고 관리하고 등록하려면 먼저, 장치 관리 기관을 Intune으로 설정해야 합니다. 장치 관리 기관 설정 작업은 Intune 관리 포털, 관리 작업 영역에서 완료할 수 있습니다.
+Intune을 사용하여 장치를 설치/구성/관리/등록하려면 먼저 장치 관리 기관을 Intune으로 설정해야 합니다. 장치 관리 기관 설정 작업은 Intune 관리 포털, 관리 작업 영역에서 완료할 수 있습니다.
 
 -   [장치 관리 기관을 설정하는 방법](https://docs.microsoft.com/intune/deploy-use/prerequisites-for-enrollment#step-2-set-mdm-authority)에 대해 자세히 알아보세요.
 

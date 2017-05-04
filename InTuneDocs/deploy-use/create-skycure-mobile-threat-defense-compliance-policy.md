@@ -15,9 +15,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: a2597a43e48d8cdde6c29070986528dcba473d8e
-ms.lasthandoff: 04/14/2017
+ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
+ms.openlocfilehash: c28ba63136c1037c8c8191e9a7f46fa9a4823b4e
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -56,7 +56,7 @@ Skycure Mobile Threat Defense 설정의 일부로, Skycure 콘솔에서 다양�
 
     d.  **높음**: 안전성이 가장 낮은 수준입니다. 이 수준은 모든 위협 수준을 허용하며 보고용으로만 Skycure Mobile Threat Defense를 사용합니다.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Office 365 또는 기타 서비스용으로 조건부 액세스 정책을 만드는 경우 준수 평가가 수행되며, 위협이 해결될 때까지 회사 리소스에 대한 비규격 장치의 액세스가 차단됩니다.
 
 ## <a name="span-idmonitor-device-threats-classanchorspan-idnext-steps-classanchorspan-idtoc477360344-classanchorspanspanspannext-steps"></a><span id="monitor-device-threats" class="anchor"><span id="next-steps" class="anchor"><span id="_Toc477360344" class="anchor"></span></span></span>다음 단계

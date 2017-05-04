@@ -6,7 +6,7 @@ keywords:
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 04/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 607598812a414843f1f33a00670a6a85b6687878
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 0aabb7af82bc7c9ed55eca91e615bace5e299d11
+ms.lasthandoff: 04/24/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 02/18/2017
 앱 보호 정책은 Intune에서 관리하거나 관리하지 않을 수 있는 장치에서 실행되는 앱에 적용할 수 있습니다. 앱 보호 정책의 작동 방식 및 Intune 앱 보호 정책으로 지원되는 시나리오에 대한 자세한 설명은 [Microsoft Intune 앱 보호 정책이란](what-is-app-protection-policy.md)을 참조하세요.
 
 ##  <a name="create-an-app-protection-policy"></a>앱 보호 정책 만들기
-1.  **앱 관리** 워크로드에서 **관리** > **앱 보호 정책**을 선택합니다.
+1.  **Mobile Apps** 작업에서 **관리** > **앱 보호 정책**을 선택합니다.
 
 2.  **앱 보호 정책** 블레이드가 열리며, 여기서 새 정책을 만들고 기존 정책을 편집할 수 있습니다. **정책 추가**를 선택합니다.
 

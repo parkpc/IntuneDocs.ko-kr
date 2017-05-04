@@ -15,9 +15,9 @@ ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: 924dc37b310b27fe40ece9f8019061b02cb7ac2d
-ms.lasthandoff: 04/14/2017
+ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
+ms.openlocfilehash: 88fd05cf1ccaf2c033b737ce76a3ce5d83557313
+ms.lasthandoff: 04/25/2017
 
 ---
 # <a name="configure-certificate-infrastructure-for-scep"></a>SCEP 인증서 인프라 구성
@@ -41,7 +41,7 @@ I
     -  장치가 인터넷을 통해 연결하여 인증서를 받고 갱신하는 경우 보안상 안전합니다.
 
  > [!NOTE]           
-> -    WAP를 호스팅하는 서버에는 네트워크 장치 등록 서비스에서 사용하는 긴 URL을 지원할 수 있도록 하는 [업데이트를 설치](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx) 해야 합니다. 이 업데이트는 [2014년 12월 업데이트 롤업](http://support.microsoft.com/kb/3013769)에 포함되어 있으며, [KB3011135](http://support.microsoft.com/kb/3011135)에서 개별적으로 다운로드할 수도 있습니다.
+> -    WAP를 호스팅하는 서버에는 네트워크 장치 등록 서비스에서 사용하는 긴 URL을 지원할 수 있도록 하는 [업데이트를 설치](https://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx) 해야 합니다. 이 업데이트는 [2014년 12월 업데이트 롤업](https://support.microsoft.com/kb/3013769)에 포함되어 있으며, [KB3011135](https://support.microsoft.com/kb/3011135)에서 개별적으로 다운로드할 수도 있습니다.
 >-  또한 WAP를 호스트하는 서버에는 NDES 서버에서 사용되는 SSL 인증서를 신뢰할 뿐만 아니라 외부 클라이언트에 게시된 이름과 일치하는 SSL 인증서가 있어야 합니다. 이러한 인증서를 통해 WAP 서버는 클라이언트와의 SSL 연결을 종료하고 NDES 서버로의 새 SSL 연결을 생성할 수 있습니다.
     WAP용 인증서에 대한 자세한 내용은 **웹 응용 프로그램 프록시를 사용한 응용 프로그램 게시 계획** 의 [인증서 계획](https://technet.microsoft.com/library/dn383650.aspx)섹션을 참조하세요. WAP 서버에 대한 일반 정보는 [웹 응용 프로그램 프록시 작업](http://technet.microsoft.com/library/dn584113.aspx)을 참조하세요.
 
@@ -149,7 +149,7 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
 
 4.  발급 CA에서 인증 기관 스냅인을 사용하여 인증서 템플릿을 게시합니다.
 
-    1.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기** &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
+    1.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기**  &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
 
     2.  **인증서 템플릿** 폴더에서 게시된 템플릿을 확인하여 유효성을 검사합니다.
 

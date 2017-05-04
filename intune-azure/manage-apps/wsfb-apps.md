@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 04/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: d02d7c3367e18c96cc1d72de3a3a0ef581ef63ff
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 6e410a37f91e0828d5f6b205acb4d340dae86c6d
+ms.lasthandoff: 04/24/2017
 
 ---
 
@@ -58,7 +58,7 @@ Intune 콘솔에서 동기화를 사용하기 전에 관리 도구로 Intune을 
 
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **앱 관리**를 선택합니다.
+3. **Intune** 블레이드에서 **Mobile apps**를 선택합니다.
 1. **모바일 앱** 블레이드에서 **설치** > **비즈니스용 Windows 스토어**를 선택합니다.
 2. **사용**을 클릭합니다.
 3. 아직 수행하지 않은 경우에는 링크를 클릭하여 Windows Store for Business에 등록하고 이전에 설명된 대로 계정을 연결합니다.
@@ -67,7 +67,7 @@ Intune 콘솔에서 동기화를 사용하기 전에 관리 도구로 Intune을 
 
 ## <a name="synchronize-apps"></a>앱 동기화
 
-1. **모바일 앱** 워크로드에서 **설치** > **비즈니스용 Windows 스토어**를 선택합니다.
+1. **Mobile apps** 작업에서 **설치** > **비즈니스용 Windows 스토어**를 선택합니다.
 2. **동기화**를 클릭하여 Windows 스토어에서 구입한 앱을 Intune으로 가져옵니다.
 
 ## <a name="assign-apps"></a>앱 할당

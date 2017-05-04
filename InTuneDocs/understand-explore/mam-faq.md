@@ -15,9 +15,9 @@ ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: aea41c86e1fe784d6234f4ff90e299632b2a6d5f
-ms.lasthandoff: 04/14/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 32446d9a6f9383b5449dbabf288b0eac0b483ebb
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -36,7 +36,7 @@ ms.lasthandoff: 04/14/2017
 **MAM 앱 보호의 이점은 무엇인가요?** MAM은 응용 프로그램 내에서 조직의 데이터를 보호합니다. 중요한 데이터를 포함하는 회사 또는 학교 관련 앱인 MAM-WE는 BYOD(Bring-your-own-device) 시나리오의 개인 장치를 비롯한 거의 모든 장치에서 관리할 수 있습니다. Microsoft Office 앱과 같은 많은 생산성 앱은 Intune MAM에서 관리할 수 있습니다. 공개적으로 사용 가능한 공식적인 [Intune 지원 앱](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) 목록을 참조하세요.
 
 **MAM은 어떤 장치 구성을 지원하나요?** Intune MAM은 다음과 같은 두 가지 구성을 지원합니다.
-  1. **Intune MDM + MAM**: 처음 실행될 때 MAM에서 지원하는 첫 번째 구성입니다. IT 관리자는 Intune MDM(모바일 장치 관리)에 등록된 장치에서 MAM 및 앱 보호 정책을 사용하여 앱을 관리할 수만 있습니다. MDM + MAM을 사용하여 앱을 관리하려면 http://manage.microsoft.com에서 Intune 독립 실행형 콘솔을 사용해야 합니다.
+  1. **Intune MDM + MAM**: 처음 실행될 때 MAM에서 지원하는 첫 번째 구성입니다. IT 관리자는 Intune MDM(모바일 장치 관리)에 등록된 장치에서 MAM 및 앱 보호 정책을 사용하여 앱을 관리할 수만 있습니다. MDM + MAM을 사용하여 앱을 관리하려면 https://manage.microsoft.com에서 Intune 독립 실행형 콘솔을 사용해야 합니다.
 
   2. **장치를 등록하지 않은 MAM**: 장치를 등록하지 않은 MAM 또는 MAM-WE를 통해 IT 관리자는 Intune MDM에 등록되지 않은 장치에서 MAM 및 앱 보호 정책을 사용하여 앱을 관리할 수 있습니다. 즉, 타사 EMM 공급자에 등록된 장치의 Intune으로 앱을 관리할 수 있습니다. MAM-WE를 사용하여 앱을 관리하려면 http://portal.azure.com의 Azure Portal에서 Intune 콘솔을 사용해야 합니다.
 

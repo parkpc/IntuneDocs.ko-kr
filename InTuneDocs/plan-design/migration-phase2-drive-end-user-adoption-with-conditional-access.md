@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab5aa4e12d951d818c5afb4e1ac5e866b05733fb
-ms.openlocfilehash: 26d11bc64802005bcce8cc1962d531af6ffe5cd5
-ms.lasthandoff: 03/27/2017
+ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
+ms.openlocfilehash: 12584743534a76d0b2ce92e5de6cb5f916453938
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -50,7 +50,7 @@ ms.lasthandoff: 03/27/2017
 
 -   이전 솔루션의 사용자가 조건부 액세스를 사용할 수 있게 될 때까지 해당 사용자는 관리되지 않는 장치를 사용하여 리소스에 액세스할 수 있습니다.
 
-> [!TIP] 
+> [!TIP]
 > 이는 여러 방법 중 하나입니다. 모든 단계에서 등록 지시를 받은 이후까지 모든 조건부 액세스를 지연하는 간단한 프로세스를 선택하거나 처음부터 조건부 액세스를 적용하고 모든 액세스에 대한 완전한 준수를 요구하는 엄격한 프로세스를 선택할 수 있습니다.
 
 -   [조건부 액세스](https://docs.microsoft.com/intune-azure/conditional-access/what-is-conditional-access)에 대해 자세히 알아보세요.
@@ -61,7 +61,7 @@ ms.lasthandoff: 03/27/2017
 
 -   [조건부 액세스를 구성하는 방법](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)에 대해 알아보세요.
 
-### <a name="task-2-setup-intune-conditional-access"></a>작업 2: Intune 조건부 액세스 설정
+### <a name="task-2-set-up-intune-conditional-access"></a>작업 2: Intune 조건부 액세스 설정
 
 더 자세히 알아보려면 다음 조건부 액세스 정책 유형 중 하나를 선택합니다.
 

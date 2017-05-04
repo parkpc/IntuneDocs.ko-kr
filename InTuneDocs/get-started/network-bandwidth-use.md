@@ -15,9 +15,9 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 0f5972171349325eeb750e552481cbcf903fdf95
-ms.openlocfilehash: 9f1cd7ea3e92ac2e3a1b828e8185961060a7c619
-ms.lasthandoff: 02/10/2017
+ms.sourcegitcommit: c8715f96f532ee6bacda231e1147d03226ecbb48
+ms.openlocfilehash: 5211d2222e5e8ef9328f60ed13f0146925194c5f
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -26,11 +26,7 @@ ms.lasthandoff: 02/10/2017
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-이 지침은 기업에서 장치 관리를 담당하는 시스템 관리자용으로 작성되었습니다. 모바일 장치에서 Intune을 사용하는 방법에 대한 도움말은 [Intune 회사 포털에 대한 질문과 대답](https://docs.microsoft.com/intune/enduser/company-portal-frequently-asked-questions)을 참조하세요.
-
-Microsoft Intune을 설정하기 전에 이 항목과 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](what-to-know-before-you-start-microsoft-intune.md)에 나열된 요구 사항을 검토합니다.
-
-다음 섹션의 정보를 참조하여 Microsoft Intune 클라이언트의 네트워크 트래픽에 대한 계획을 세울 수 있습니다.
+Intune 관리자는 이 문서의 지침을 참조하여 Intune 서비스의 네트워크 요구 사항을 파악할 수 있습니다. 이 문서의 정보를 참조하여 프록시 설정에 필요한 IP 주소 및 포트 설정과 대역폭 요구 사항을 파악할 수 있습니다.
 
 ## <a name="average-network-traffic"></a>평균 네트워크 트래픽
 이 표에는 각 클라이언트의 네트워크를 통해 전송되는 공통 콘텐츠의 대략적인 크기 및 주기가 정리되어 있습니다.
@@ -47,7 +43,7 @@ Microsoft Intune을 설정하기 전에 이 항목과 [Microsoft Intune을 시�
 |정책 에이전트|3 MB|**한 번**<br /><br />이 콘텐츠 유형에 대한 업데이트가 있는 경우 추가로 다운로드할 수 있습니다.|
 |Microsoft Easy Assist 에이전트를 통한 원격 지원|6 MB|**한 번**<br /><br />이 콘텐츠 유형에 대한 업데이트가 있는 경우 추가로 다운로드할 수 있습니다.|
 |클라이언트의 일별 작업|6 MB|**매일**<br /><br />Intune 클라이언트는 Intune 서비스와 정기적으로 통신하여 업데이트 및 정책을 확인하고 클라이언트의 상태를 서비스에 보고합니다.|
-|Endpoint Protection 맬웨어 정의 업데이트|상황에 따라 다름<br /><br />일반적으로 40KB -2MB|**매일**<br /><br />하루에 최대&3;번|
+|Endpoint Protection 맬웨어 정의 업데이트|상황에 따라 다름<br /><br />일반적으로 40KB -2MB|**매일**<br /><br />하루에 최대 3번|
 |Endpoint Protection 엔진 업데이트|5 MB|**매월**|
 |소프트웨어 업데이트|상황에 따라 다름<br /><br />크기는 배포하는 업데이트에 따라 달라집니다.|**매월**<br /><br />일반적으로 소프트웨어 업데이트는 매월 두 번째 화요일에 배포됩니다.<br /><br />새로 등록되거나 배포된 컴퓨터는 이전에 배포된 업데이트의 전체 집합을 다운로드하는 동안 네트워크 대역폭을 추가로 사용할 수 있습니다.|
 |서비스 팩|상황에 따라 다름<br /><br />크기는 배포하는 각 서비스 팩에 따라 달라집니다.|**상황에 따라 다름**<br /><br />서비스 팩을 배포하는 시기에 따라 달라집니다.|

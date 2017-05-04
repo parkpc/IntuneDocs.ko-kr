@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/27/2017
+ms.date: 04/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: pbala
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: cc1a3c8c3e2f25ee154db964de2601510e32f1ea
-ms.openlocfilehash: 41354f0eee051bd9c691a27830264f6c95502fa5
-ms.lasthandoff: 02/28/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: d16374606d60f3b09dc24b3c4ef4f196a739b32e
+ms.lasthandoff: 04/24/2017
 
 
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 02/28/2017
 ## <a name="using-reports"></a>보고서 사용
 Intune 보고서는 조직의 소프트웨어, 하드웨어 및 소프트웨어 라이선스에 대한 정보를 제공합니다. 보고서는 현재 요구와 향후 소비량 예측을 확인하는 데 유용할 수 있습니다. **보고서** 작업 영역에는 보고서를 만들고 관리할 수 있는 도구가 있습니다. 
 
-### <a name="report-types"></a>보고서 유형
+## <a name="report-types"></a>보고서 유형
 
 |보고서 유형|설명|
 |---------------|---------------|
@@ -49,8 +49,10 @@ Intune 보고서는 조직의 소프트웨어, 하드웨어 및 소프트웨어 
 |**상태 증명 보고서**|모바일 장치의 상태를 표시합니다.|
 |**Mac OS X 하드웨어 보고서**|선택한 그룹에 등록된 모든 Mac OS X 장치의 하드웨어 정보를 표시합니다. 이러한 장치에서 수집된 하드웨어 인벤토리에 대한 자세한 내용은 [Microsoft Intune에서 인벤토리를 사용하는 장치 이해](understand-your-devices-with-inventory-in-microsoft-intune.md)를 참조하세요.|
 |**Mac OS X 소프트웨어 보고서**|선택한 그룹의 모든 Mac OS X 장치에 설치된 소프트웨어를 표시합니다. 보고서에는 소프트웨어 이름(번들 ID), 짧은 버전(또는 친숙한) 이름, 버전 및 소프트웨어가 설치된 장치 수가 표시됩니다.|
+|**Windows Information Protection 보고서**|관리하는 장치에 대한 WIP(Windows Information Protection) 작업 관련 정보가 표시됩니다.|
+|**상태 증명 보고서**|관리하는 장치에 대해 Windows 상태 증명 서비스에서 보고한 정보가 표시됩니다.|
 
-#### <a name="to-create-a-report"></a>보고서를 만들려면
+## <a name="to-create-a-report"></a>보고서를 만들려면
 
 1.  Intune 관리 콘솔에서 **보고서**를 선택합니다. 그런 다음 위 표의 설명에 따라 생성할 보고서 유형을 선택합니다.
 

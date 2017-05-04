@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/20/2017
+ms.date: 04/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 56ef80138d0790933ae216bb02101c3f408311c7
-ms.openlocfilehash: 5bea5a9f1a69193543fa3c5e8997a6527721d3ef
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: b81228ccd1c515bfd82486475996eecf20655993
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -42,7 +43,7 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 * 각 조직은 하나의 VPP 계정 및 토큰만 사용할 수 있습니다.
 * Apple VPP 계정을 Intune에 연결한 후에는 나중에 다른 계정을 연결할 수 없습니다. 따라서 사용하는 계정의 세부 정보를 둘 이상의 사용자가 보유하는 것이 매우 중요합니다.
 * 이전에 VPP 토큰을 다른 제품에 사용한 경우 Intune에 사용할 토큰을 새로 생성해야 합니다.
-* 각 토큰은&1;년 동안 유효합니다.
+* 각 토큰은 1년 동안 유효합니다.
 * 기본적으로 Intune에서는 하루에 두 번 Apple VPP 서비스와 동기화합니다. 언제든지 수동 동기화를 시작할 수 있습니다.
 * VPP 토큰을 Intune으로 가져온 후 같은 토큰을 다른 장치 관리 솔루션으로 가져오지 마세요. 가져오면 라이선스 할당과 사용자 레코드가 손실될 수 있습니다.
 * Intune과 함께 iOS VPP를 사용하기 전에 다른 MDM(모바일 장치 관리) 공급업체를 사용하여 만든 기존 VPP 사용자 계정을 제거합니다. Intune은 보안 조치로 해당 사용자 계정을 Intune에 동기화하지 않습니다. Intune은 Intune에서 만든 Apple VPP 서비스의 데이터만 동기화합니다.
@@ -50,7 +51,7 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 
 ## <a name="to-get-and-upload-an-apple-vpp-token"></a>Apple VPP 토큰을 가져와 업로드하려면
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리 ** &gt; **iOS 및 Mac OS X** &gt; **Volume Purchase Program**을 선택합니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리**  &gt; **iOS 및 Mac OS X** &gt; **Volume Purchase Program**을 선택합니다.
 
 2.  **Apple VPP 계정** 링크를 선택합니다. 아직 비즈니스용 대량 구매 프로그램에 등록하지 않은 경우 등록합니다. 등록한 후 계정에 대한 Apple VPP 토큰을 다운로드합니다.
 
@@ -66,7 +67,7 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 
 ## <a name="to-deploy-a-volume-purchased-app"></a>대량 구매 앱 배포
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **앱** &gt; **관리 소프트웨어** &gt; **대량 구매 앱**을 선택합니다. 이 목록에는 Apple VPP 서비스를 통해 동기화된 모든 앱이 표시됩니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **앱** &gt; **앱** &gt; **대량 구매 앱**을 선택합니다. 이 목록에는 Apple VPP 서비스를 통해 동기화된 모든 앱이 표시됩니다.
 
 2.  배포할 앱을 선택하고 **배포 관리**를 선택한 다음 [Microsoft Intune에서 앱 배포](deploy-apps-in-microsoft-intune.md) 항목의 지침에 따라 앱 업로드, 만들기 및 배포를 완료합니다.
 
@@ -79,22 +80,14 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 
 적합한 장치를 가진 사용자가 VPP 앱을 처음 설치하려고 하면 Apple 대량 구매 프로그램에 가입하라는 메시지가 표시됩니다. 가입해야만 앱 설치가 진행됩니다.
 
-> [!TIP]
-> **VPP 사용 약관 상태** 열에서 앱이 배포된 각 사용자에 대한 승인 상태를 확인합니다.
-
 사용 가능한 라이선스가 더 없으면 배포에 실패합니다.
 
 ## <a name="to-monitor-apple-vpp-apps"></a>Apple VPP 앱을 모니터하려면
-**관리 소프트웨어** &gt; **대량 구매 앱** 노드의 **앱** 작업 영역에서 배포된 VPP 앱과 사용한 라이선스 수를 모니터링할 수 있습니다.
+**대량 구매 앱** 노드의 **앱** 작업 영역에서 배포된 VPP 앱과 사용한 라이선스 수를 모니터링할 수 있습니다.
 
 > [!TIP]
 > 앱 **필터**를 사용하여 각 앱 설치 상태를 검사할 수도 있습니다.
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune에서 앱 배포](deploy-apps-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Jan17_HO3-->
-
 
