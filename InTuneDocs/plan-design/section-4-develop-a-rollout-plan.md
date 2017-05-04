@@ -15,8 +15,9 @@ ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f807d6e4b20b98ecf622d1ebdd9db33b132a2e6a
-ms.openlocfilehash: 36530602813467c184b4f262719a56cedbaa2ba9
+ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
+ms.openlocfilehash: 2a970badf5ac18a05115a72dc267ee455ba4628d
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -69,7 +70,7 @@ Intune 출시에 대한 대상 그룹 및 기간을 결정했으므로 이제 �
 
 ### <a name="it-tech-fair"></a>IT 기술 박람회
 
-Intune 사용자 등록을 위한 또 다른 옵션은 IT 기술 박람회를 개최하는 것입니다. 이 이벤트에서 IT 그룹이 Intune 등록 지원 부스를 설치하면 여기에서 사용자가 Intune 등록에 대한 정보를 받고, 질문하고, 등록 프로세스에 대한 지원을 받을 수 있습니다. 이 옵션을 활용하면 특히 Intune 출시의 초기 단계에서 IT 그룹과 사용자에게 모두 유익할 수 있습니다.
+Intune 사용자 등록을 위한 또 다른 옵션은 IT 기술 박람회를 개최하는 것입니다. 이 이벤트에서 IT 그룹이 설치하는 Intune 등록 지원 부스를 통해 사용자는 Intune 등록 관련 정보를 얻고, 질문을 하고, 등록 프로세스 관련 지원을 받을 수 있습니다. 이 옵션을 활용하면 특히 Intune 출시의 초기 단계에서 IT 그룹과 사용자에게 모두 유익할 수 있습니다.
 
 다음은 대상 그룹, 타임라인 및 등록 접근 방식이 포함된 Intune 출시 계획의 예입니다.
 
@@ -91,9 +92,4 @@ Intune 사용자 등록을 위한 또 다른 옵션은 IT 기술 박람회를 �
 ## <a name="next-section"></a>다음 섹션
 
 다음 섹션에서는 [Intune 출시 통신 계획 개발](section-5-develop-a-rollout-communication-plan.md)에 대한 지침을 제공합니다.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

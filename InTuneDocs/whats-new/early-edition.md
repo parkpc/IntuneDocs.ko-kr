@@ -5,7 +5,7 @@ keywords:
 author: mtillman
 ms.author: mtillman
 manager: angrobe
-ms.date: 04/14/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
-ms.openlocfilehash: 31f984fabd2373d242e5e3399bd0c82fbaf53070
-ms.lasthandoff: 04/19/2017
+ms.sourcegitcommit: 5f172290d493717308446c4f9e2313a03ba8f3aa
+ms.openlocfilehash: d7f25657fc7cfb9298809f76f198810718e58c39
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -37,7 +37,7 @@ ms.lasthandoff: 04/19/2017
 
 ### <a name="improved-app-install-status-for-the-windows-10-company-portal-app---676495--"></a>Windows 10 회사 포털 앱에 대해 앱 설치 상태 개선 <!--676495-->
 
-Windows 10 회사 포털 앱에서는 이제 회사 포털에서 시작된 모든 최신 앱 설치에 대한 앱 설치 진행률 표시줄을 제공합니다.
+Windows 10 회사 포털 앱에서는 이제 회사 포털에서 시작된 모든 최신 앱 설치에 대한 앱 설치 진행률 표시줄을 제공합니다. [Intune 앱 UI 페이지의 새로운 기능](whats-new-in-intune-app-ui.md)에서 Windows 10용 회사 포털 앱의 새로운 상태 메시지를 확인할 수 있습니다.
 
 ### <a name="improved-status-messaging-in-the-company-portal-app-for-ios---744866--"></a>iOS용 회사 포털 앱에서 상태 메시지 개선 <!--744866-->
 

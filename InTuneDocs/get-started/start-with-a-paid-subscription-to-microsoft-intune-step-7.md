@@ -15,8 +15,9 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
-ms.openlocfilehash: 2191295407e0c1bb2c3861b8a8d168dd3697da45
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 3794981387e73176152c212854a97b4333023f5d
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -34,7 +35,7 @@ Intune 회사 포털은 사용자에게 회사 데이터 및 앱에 대한 액�
 -   **회사 포털 앱**: Intune으로 관리하는 장치에서 사용할 수 있는 응용 프로그램입니다. [Android](/Intune/EndUser/using-your-android-device-with-intune), [iOS](/Intune/EndUser/using-your-iOS-or-macOS-device-with-intune) 및 [Windows](/Intune/EndUser/using-your-windows-device-with-intune)용 회사 포털 앱에 대해 자세히 알아보세요.
 
 
-- **회사 포털 웹 사이트**: 최종 사용자가 회사 포털 앱에서 지원하는 대부분의 작업을 수행할 수 있는 웹 사이트입니다. Intune 회사 포털 URL은 [http://portal.manage.microsoft.com](http://portal.manage.microsoft.com)입니다. [Intune 회사 포털 웹 사이트 사용](/Intune/EndUser/using-the-intune-company-portal-website)에서 이 웹 사이트에 대해 자세히 알아보세요.
+- **회사 포털 웹 사이트**: 최종 사용자가 회사 포털 앱에서 지원하는 대부분의 작업을 수행할 수 있는 웹 사이트입니다. Intune 회사 포털 URL은 [https://portal.manage.microsoft.com](https://portal.manage.microsoft.com)입니다. [Intune 회사 포털 웹 사이트 사용](/Intune/EndUser/using-the-intune-company-portal-website)에서 이 웹 사이트에 대해 자세히 알아보세요.
 
 > [!TIP]
 > 회사 포털을 사용자 지정할 때는 구성이 회사 포털 웹 사이트 및 회사 포털 앱에 모두 적용됩니다.
@@ -89,9 +90,4 @@ Intune 회사 포털은 사용자에게 회사 데이터 및 앱에 대한 액�
 >[!div class="step-by-step"]
 
 >[&larr;**정책 및 앱 만들기**](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md)       [**장치 등록** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-8.md)  
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

@@ -16,8 +16,9 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 1809422e7f5a3d5aa5e2ef32e1aa7cadf00ecabb
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 330dba6b9402ef354d0925da27ee1b37ef50db00
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -42,8 +43,8 @@ ms.openlocfilehash: 1809422e7f5a3d5aa5e2ef32e1aa7cadf00ecabb
 
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **앱 관리**를 선택합니다.
-4. **앱 관리** 워크로드에서 **모니터** > **앱 보호 사용자 상태**를 선택하여 요약 보기를 표시합니다.
+3. **Intune** 블레이드에서 **Mobile apps**를 선택합니다.
+4. **Mobile apps** 작업에서 **모니터** > **앱 보호 사용자 상태**를 선택하여 요약 보기를 표시합니다.
 
 ![Intune 모바일 응용 프로그램 관리 블레이드의 요약 타일](../media/app-protection-user-status-summary.png)
 
@@ -93,7 +94,7 @@ ms.openlocfilehash: 1809422e7f5a3d5aa5e2ef32e1aa7cadf00ecabb
 
 상세 보기에서 동일한 보고서와 추가 보고서를 통하여 MAM 정책 준수 상태를 확인할 수 있습니다.
 
-![스크린샷&4;](../media/MAM-reporting-7.png)
+![스크린샷 4](../media/MAM-reporting-7.png)
 
 -   **앱 보호 사용자 보고서:** 위 상세 보기 섹션의 **사용자 상태** 보고서에서 찾을 수 있는 정보와 동일한 내용에 대해 간략하게 설명합니다.
 
@@ -109,7 +110,7 @@ ms.openlocfilehash: 1809422e7f5a3d5aa5e2ef32e1aa7cadf00ecabb
 
         -   모든 앱이 체크 인되었으나 MAM 정책을 가져오지 않음
 
-![스크린샷&2;](../media/MAM-reporting-4.png)
+![스크린샷 2](../media/MAM-reporting-4.png)
 
 ## <a name="table-grouping"></a>테이블 그룹화
 
@@ -126,20 +127,15 @@ ms.openlocfilehash: 1809422e7f5a3d5aa5e2ef32e1aa7cadf00ecabb
 
 1. Intune 모바일 응용 프로그램 관리 블레이드에서 앱 보호 보고서를 선택합니다.
 
-    ![스크린샷&6;](../media/app-protection-report-csv-2.png)
+    ![스크린샷 6](../media/app-protection-report-csv-2.png)
 
 2. 예를 선택하여 보고서를 저장한 다음 다른 이름으로 저장을 선택하고 보고서를 저장할 폴더를 선택합니다.
 
-    ![스크린샷&7;](../media/app-protection-report-csv-1.png)
+    ![스크린샷 7](../media/app-protection-report-csv-1.png)
 
 ## <a name="see-also"></a>참고 항목
 [iOS 앱 간의 데이터 전송 관리](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
 
 * [Android 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](app-protection-enabled-android-apps.md)
 * [iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](app-protection-enabled-ios-apps.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

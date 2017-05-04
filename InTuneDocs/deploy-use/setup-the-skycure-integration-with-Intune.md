@@ -1,6 +1,6 @@
 ---
 title: "Intune과 Skycure 통합 설정 | Microsoft Docs"
-description: "Microsoft Intune과 Skycure 통합을 설정합니다."
+description: "Microsoft Intune과 Skycure의 통합을 설정하는 방법을 설명합니다."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -15,14 +15,14 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e76d66768ac58df25313e102b7f60d2bc7bbc59b
-ms.openlocfilehash: 6ff56f736c289dbc9a8340ad76e044363acbfea5
-ms.lasthandoff: 03/22/2017
+ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
+ms.openlocfilehash: 18afa2b84c90e77280daf7ed9b1b8357365f7380
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="setup-the-skycure-integration-with-intune"></a>Intune과 Skycure 통합 설정
+# <a name="set-up-the-skycure-integration-with-intune"></a>Intune과 Skycure 통합 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
@@ -54,7 +54,7 @@ Skycure는 Intune과의 통합을 두 가지 모드로 지원합니다.
 
 ## <a name="to-set-up-the-read-only-integration-between-intune-and-skycure"></a>Intune과 Skycure 간의 읽기 전용 통합을 설정하려면
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Skycure 관리자 자격 증명은 Azure Active Directory에서 유효한 사용자에 속해 있는 전자 메일입니다. 이에 속해 있지 않으면 로그인에 실패합니다. Skycure는 SSO(Single Sign-On)로 해당 관리자를 인증하는 데 Azure Active Directory를 사용합니다.
 
 1.  [Skycure 관리 콘솔](https://aad.skycure.com)로 이동합니다.
@@ -75,7 +75,7 @@ Skycure는 Intune과의 통합을 두 가지 모드로 지원합니다.
 
     ![iOS 앱 완료 화면](../media/mtp/skycure-setup-3.png)
 
-> [!NOTE] 
+> [!NOTE]
 > **Skycure Android** 및 **관리** 앱에 대해 동일한 프로세스를 반복합니다.
 
 ### <a name="add-an-azure-ad-security-group-into-skycure"></a>Skycure에 Azure AD 보안 그룹 추가

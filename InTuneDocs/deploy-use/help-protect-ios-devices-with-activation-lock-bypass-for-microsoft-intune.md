@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/27/2016
+ms.date: 04/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d05c9d7a78474c19e142bca94e232289fbfba1d9
-ms.openlocfilehash: a6fa910c0a8ec1a9542e03a276dbb8d0757d75b4
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 742fac9c401c24bfc0f2500a238c41fa00c47fd3
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -47,6 +48,8 @@ Microsoft Intune에서는 iOS 8.0 이상 장치용 나의 iPhone 찾기(Find My 
 > [!TIP]
 > iOS 장치에 대해 감독 모드를 사용하면 Apple Configurator를 통해 장치를 잠그고 특정 업무용으로 기능을 제한할 수 있습니다. 감독 모드는 대개 회사가 소유한 장치에서만 사용됩니다.
 
+활성화 잠금에 대한 자세한 내용은 [여기](https://support.apple.com/en-us/HT201365)에서 확인할 수 있습니다.
+
 ## <a name="how-intune-helps-you-manage-activation-lock"></a>Intune을 통해 활성화 잠금을 관리하는 방법
 Intune에서는 iOS 8.0 이상을 실행하는 감독된 장치의 활성화 잠금 상태를 요청할 수 있습니다. 감독된 장치의 경우에만 Intune은 활성화 잠금 무시 코드를 검색하여 장치에 직접 제공할 수 있습니다. 장치를 초기화한 경우에는 사용자 이름은 비워 두고 코드를 암호로 사용하는 방식으로 장치에 직접 액세스할 수 있습니다.
 
@@ -54,7 +57,15 @@ Intune에서는 iOS 8.0 이상을 실행하는 감독된 장치의 활성화 잠
 
 -   사용자가 나의 iPhone 찾기 앱의 보안 이점을 활용할 수 있습니다.
 
--   사용자가 안심하고 장치에서 작업할 수 있게 하며, 이 장치의 용도를 다시 설정해야 하는 경우 장치를 사용 중지하거나 잠금 해제할 수 있습니다.
+-   사용자가 안심하고 장치에서 작업할 수 있게 하며, 장치의 용도를 다시 설정해야 하는 경우 장치를 사용 중지하거나 잠금 해제할 수 있습니다.
+
+## <a name="before-you-start"></a>시작하기 전에
+
+장치에서 활성화 잠금을 바이패스하려면 먼저 활성화 잠금을 사용하도록 설정해야 합니다. 이렇게 하려면 다음을 수행합니다.
+
+1. [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) 항목에 포함된 정보를 참조하여 iOS [장치 구성 정책](/intune/deploy-use/ios-policy-settings-in-microsoft-intune)을 만듭니다.
+2. 설정 페이지의 **등록** 섹션에서 **장치가 감독 모드에 있을 경우 활성화 잠금 허용** 설정을 **예**로 구성합니다.
+3. 정책을 저장한 다음 활성화 잠금 바이패스를 관리하려는 장치에 배포합니다.
 
 ## <a name="how-to-use-activation-lock-bypass-from-the-intune-admin-console"></a>Intune 관리 콘솔에서 활성화 잠금 무시를 사용하는 방법
 > [!IMPORTANT]
@@ -94,9 +105,4 @@ Intune에서는 iOS 8.0 이상을 실행하는 감독된 장치의 활성화 잠
 ### <a name="see-also"></a>참고 항목
 [장치 사용 중지](retire-devices-from-microsoft-intune-management.md)
 [원격 잠금 또는 암호 재설정으로 장치 보호 지원](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

@@ -16,9 +16,9 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 9ebfadd945916b6be8225b9e07d67100e3f91222
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: eae3a7d0771724076680ec7152b09e7364603880
+ms.lasthandoff: 04/24/2017
 
 ---
 
@@ -31,7 +31,7 @@ Microsoft Intune 회사 포털에서 사용자는 회사 데이터에 액세스�
 > [!Tip]
 > 회사 포털을 사용자 지정할 때는 구성이 회사 포털 웹 사이트 및 회사 포털 앱에 모두 적용됩니다.
 
-회사 포털을 사용자 지정하면 최종 사용자에게 친숙하고 유용한 환경을 제공하는 데 도움이 됩니다. 이렇게 하려면 **앱 관리** 워크로드에서 **설정** > **회사 포털 브랜딩**을 선택한 다음 필요한 설정을 구성합니다.
+회사 포털을 사용자 지정하면 최종 사용자에게 친숙하고 유용한 환경을 제공하는 데 도움이 됩니다. 이렇게 하려면 **Mobile Apps** 작업에서 **설정** > **회사 포털 브랜딩**을 선택한 다음 필요한 설정을 구성합니다.
 
 ## <a name="company-contact-information-and-privacy-statement"></a>회사 연락처 정보 및 개인정보취급방침
 회사 이름은 회사 포털의 제목으로 표시됩니다. 연락처 정보 및 세부 정보는 회사 포털의 **IT 담당자** 화면에서 사용자에게 표시됩니다. 개인정보취급방침은 사용자가 개인정보취급방침 링크를 클릭하면 표시됩니다.

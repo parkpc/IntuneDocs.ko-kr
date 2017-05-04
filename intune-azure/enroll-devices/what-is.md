@@ -15,9 +15,9 @@ ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 671d862c8d9a98e02f33d96cf6ceba712e740dec
-ms.openlocfilehash: 6127604afb01a9482eadc3d03b566304e2acdd21
-ms.lasthandoff: 03/17/2017
+ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
+ms.openlocfilehash: a816ee8fd2738cf244fd46a91af46d2b137a5dfb
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -27,11 +27,11 @@ ms.lasthandoff: 03/17/2017
 
 이 항목에서는 등록에 대해 설명하고 Intune 관리에서 모바일 장치를 등록하는 다양한 방법을 열거합니다.
 
-Intune에서 Windows PC를 비롯한 장치를 등록하여 이러한 장치를 관리할 수 있습니다. Intune 설명서에서는 이 기능을 MDM(모바일 장치 관리)이라고 합니다. 장치가 PC가 아니라 모바일 장치로 등록된 경우 Intune 서비스와 통신하는 사용하는 MDM 인증서를 발급합니다.
+Intune에서는 장치를 등록하여 관리할 수 있습니다. Intune 설명서에서는 이 기능을 MDM(모바일 장치 관리)이라고 합니다. Intune에서 등록하는 장치에는 MDM 인증서가 발급됩니다. 그러면 장치는 이 인증서를 사용하여 Intune 서비스와 통신합니다.
 
 장치를 등록하는 방법은 장치 유형, 소유권 및 필요한 관리 수준에 따라 다릅니다. BYOD("Bring Your Own Device") 등록을 사용하면 사용자가 개인 휴대폰, 태블릿 또는 PC를 등록할 수 있습니다. COD(회사 소유 장치) 등록을 사용하면 자동 등록, 공유 장치 또는 사전 승인된 등록 요구 사항과 같은 관리 시나리오를 사용할 수 있습니다.
 
-Exchange ActiveSync를 클라우드에서 호스트하거나 온-프레미스로 사용하는 경우 등록하지 않고 간단한 Intune 관리를 사용할 수 있습니다(자세한 내용은 곧 제공 예정). Windows PC를 모바일 장치로 관리할 수 있습니다. 이는 아래 설명된 권장 방법입니다. 또한 [Intune 클라이언트 소프트웨어](https://docs.microsoft.com/intune/deploy-use/manage-windows-pcs-with-microsoft-intune)를 사용하여 Windows PC를 PC로 관리할 수 있습니다.
+Exchange ActiveSync를 클라우드에서 호스트하거나 온-프레미스로 사용하는 경우 등록하지 않고 간단한 Intune 관리를 사용할 수 있습니다(자세한 내용은 곧 제공 예정). Windows PC를 모바일 장치로 관리할 수 있습니다. 이는 아래 설명된 권장 방법입니다.
 
 
 ## <a name="overview-of-device-enrollment-methods"></a>장치 등록 방법 개요
@@ -53,21 +53,20 @@ Exchange ActiveSync를 클라우드에서 호스트하거나 온-프레미스로
 |**[USB-SA](#usb-sa)**|    예 |    선택 사항 |    아니요| [추가 정보](enroll-ios-devices-with-apple-configurator-and-setup-assistant.md)|
 |**[USB-Direct](#usb-direct)**|    아니요 |    아니요    | 아니요|[추가 정보](enroll-ios-devices-with-apple-configurator-and-direct-enrollment.md)|
 
-
-
 **Windows 등록 방법**
 
 | **방법** |    **초기화가 필요하세요?** |    **선호도**    |    **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요 |    예 |    아니요 | 자세한 내용은 곧 제공 예정|
+|**[BYOD](#byod)** | 아니요 |    예 |    아니요 | [추가 정보](#enroll-windows-devices.md)|
 |**[DEM](#dem)**|    아니요 |아니요 |아니요    |[추가 정보](enroll-devices-using-device-enrollment-manager.md)|
 
 **Android 등록 방법**
 
 | **방법** |    **초기화가 필요하세요?** |    **선호도**    |    **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |    아니요 | 자세한 내용은 곧 제공 예정|
+|**[BYOD](#byod)** | 아니요|    예 |    아니요 | [추가 정보](#enroll-android-and-knox-standard-devices.md)|
 |**[DEM](#dem)**|    아니요 |아니요 |아니요    |[추가 정보](enroll-ios-devices-using-device-enrollment-program.md)|
+|[**Android for Work**](#android-for-work)| 아니요 | 예 | 아니요| [추가 정보](#enroll-android-and-knox-standard-devices.md) |
 
 
 ## <a name="byod"></a>BYOD
@@ -112,21 +111,11 @@ iOS 등록에 대한 자세한 내용은 다음을 참조하세요.
 ## <a name="mobile-device-management-with-exchange-activesync-and-intune"></a>Exchange ActiveSync와 Intune을 사용한 모바일 장치 관리
 EAS MDM 정책을 사용하여 등록되지는 않았지만 EAS(Exchange ActiveSync)에 연결된 모바일 장치를 Intune에서 관리할 수 있습니다. Intune에서는 Exchange 커넥터를 사용하여 EAS 및 클라우드 호스티드 온-프레미스와 통신합니다. 자세한 내용은 곧 제공 예정
 
-
-## <a name="windows-pc-management-with-intune"></a>Intune을 사용하여 Windows PC 관리  
-또한 Intune 클라이언트 소프트웨어를 사용하여 Windows PC를 관리하기 위해 Microsoft Intune을 사용할 수 있습니다. Intune 클라이언트로 관리하는 PC에서는 다음과 같은 작업이 가능합니다.
-
- - 소프트웨어 및 하드웨어 인벤토리 보고
- - 데스크톱 응용 프로그램(예:.exe 및.msi 파일) 설치
- - 방화벽 설정 관리
-
-선택적 초기화를 사용할 수 있으나 Intune 클라이언트 소프트웨어로 관리되는 PC를 완벽하게 초기화할 수는 없습니다. Intune 소프트웨어 클라이언트로 관리되는 PC는 조건부 액세스, VPN 및 Wi-Fi 설정 또는 인증서 및 메일 구성의 배포와 같은 많은 Intune 관리 기능을 사용할 수 없습니다. 자세한 내용은 곧 제공 예정
-
 ## <a name="supported-device-platforms-and-browsers"></a>지원되는 장치 플랫폼 및 브라우저
 
 [Intune 지원 장치 및 브라우저](https://docs.microsoft.com/intune/get-started/supported-mobile-devices-and-computers) 참조
 
 ## <a name="mobile-device-cleanup-after-mdm-certificate-expiration"></a>MDM 인증서 만료 후 모바일 장치 정리
 
-MDM 인증서는 모바일 장치가 Intune 서비스와 통신할 때 자동으로 갱신됩니다. 모바일 장치(PC가 아님)가 초기화된 경우 또는 일정 기간 동안 Intune 서비스와 통신하지 못한 경우에는 MDM 인증서가 갱신되지 않습니다. MDM 인증서가 만료되고 180일 후 Azure Portal에서 장치가 제거됩니다.
+MDM 인증서는 모바일 장치가 Intune 서비스와 통신할 때 자동으로 갱신됩니다. 모바일 장치가 초기화되거나 일정 기간에 Intune 서비스와 통신하지 못한 경우에는 MDM 인증서가 갱신되지 않습니다. MDM 인증서가 만료되고 180일 후 Azure Portal에서 장치가 제거됩니다.
 

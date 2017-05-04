@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 nmanager: angrobe
-ms.date: 03/15/2017
+ms.date: 04/24/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.assetid: 4a085264-232a-4af0-97f1-747496c44517
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: deea78dcea9ade031441bf12b388a862235a8e9c
-ms.openlocfilehash: 13d20cd985dbc22cd6d833fa333f31be809ffae5
-ms.lasthandoff: 03/15/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 92e07a49205ffaf287fc3aa2da6a6376b75fda4f
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -80,20 +80,26 @@ Azure Portal은 대부분의 최신 PC, Mac 및 태블릿에서 실행됩니다.
 Intune 환경의 [계획 및 디자인](/intune-azure/plan-and-design/get-started)에 도움을 주는 정보입니다.
 ### <a name="device-enrollment"></a>장치 등록
 [Intune에서 장치를 관리하는 방법](/intune-azure/enroll-devices/what-is)
-### <a name="devices"></a>장치
-[인벤토리 및 보고서를 사용하여 관리하는 장치에 대해 알아봅니다](/intune-azure/manage-devices/what-is).
-### <a name="manage-users-and-groups"></a>사용자 및 그룹 관리
-[관리하는 장치의 사용자에 대해 알아보고 리소스를 그룹으로 정렬합니다](/intune-azure/manage-users/what-is).
-### <a name="manage-apps"></a>앱 관리
-[앱을 게시하고 관리하고 구성하고 보호하는 방법](/intune-azure/manage-apps/what-is-app-management)
-### <a name="device-configuration"></a>장치 구성
-[관리하는 장치에서 설정 및 기능을 구성하는 데 사용할 수 있는 프로필을 이해합니다](/intune-azure/configure-devices/what-are-device-profiles).
 ### <a name="device-compliance"></a>장치 정책 준수
 [장치에 대한 준수 수준을 정의한 다음 호환되지 않는 장치에 대해 보고합니다](/intune-azure/set-device-compliance/what-is-device-compliance).
+### <a name="device-configuration"></a>장치 구성
+[관리하는 장치에서 설정 및 기능을 구성하는 데 사용할 수 있는 프로필을 이해합니다](/intune-azure/configure-devices/what-are-device-profiles).
+### <a name="devices"></a>장치
+[인벤토리 및 보고서를 사용하여 관리하는 장치에 대해 알아봅니다](/intune-azure/manage-devices/what-is).
+### <a name="mobile-apps"></a>모바일 앱
+[앱을 게시하고 관리하고 구성하고 보호하는 방법](/intune-azure/manage-apps/what-is-app-management)
 ### <a name="conditional-access"></a>조건부 액세스
 [지정한 조건에 따라 Exchange 서비스에 대한 액세스를 제한합니다](/intune-azure/conditional-access/what-is-conditional-access).
+### <a name="on-premises-access"></a>온-프레미스 액세스
+[Exchange ActiveSync 및 Exchange 온-프레미스에 대한 액세스를 구성하는 방법에 대해 알아봅니다](/intune/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune).
+### <a name="users"></a>Users
+[관리하는 장치의 사용자에 대해 알아보고 리소스를 그룹으로 정렬합니다](/intune-azure/manage-users/what-is).
+### <a name="groups"></a>Groups
+[Intune에서 Azure Active Directory 그룹을 사용할 수 있는 방법에 대해 알아봅니다](/intune-azure/manage-users/get-started-with-groups).
 ### <a name="intune-roles"></a>Intune 역할
 [다양한 Intune 작업을 수행할 수 있는 사람 및 해당 작업이 적용되는 사람을 제어합니다](/intune-azure/access-control/role-based-access-control). 몇 가지 일반적인 Intune 시나리오에 적용되는 기본 제공 역할을 사용하거나, 사용자 고유의 역할을 만들 수 있습니다.
+### <a name="software-updates"></a>소프트웨어 업데이트
+[Windows 10 장치용 소프트웨어 업데이트를 구성하는 방법에 대해 알아봅니다](/intune-azure/configure-devices/how-to-configure-windows-update-for-business).
 
 
 

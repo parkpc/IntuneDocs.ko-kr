@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 04/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 73360154765d53fe1f42e4e97699ad9385bfda6f
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 82af84bc3e31317023a2f8f7089431b1dbcaed52
+ms.lasthandoff: 04/24/2017
 
 ---
 
@@ -54,8 +54,8 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 앱을 실
 
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **앱 관리**를 선택합니다.
-1.  **앱 관리** 워크로드에서 **관리** > **앱 구성 정책**을 선택합니다.
+3. **Intune** 블레이드에서 **Mobile apps**를 선택합니다.
+1.  **Mobile apps** 작업에서 **관리** > **앱 구성 정책**을 선택합니다.
 
 2.  정책 목록 블레이드에서 **추가**를 선택합니다.
 
@@ -91,7 +91,7 @@ Intune에서는 속성 목록의 다음 데이터 형식을 지원합니다.
 데이터 형식에 대한 자세한 내용은 iOS 개발자 라이브러리의 [속성 목록 정보](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/AboutPropertyLists/AboutPropertyLists.html)를 참조하세요.
 
 또한 Intune은 속성 목록에서 다음과 같은 토큰 형식을 지원합니다.
-- \{\{userprincipalname\} \} -(예: ** John@contoso.com **)
+- \{\{userprincipalname\} \} -(예:  **John@contoso.com** )
 - \{\{mail\}\} - (예: **John@contoso.com**)
 - \{\{partialupn\}\} - (예: **John**)
 - \{\{accountid\}\} - (예: **fc0dc142-71d8-4b12-bbea-bae2a8514c81**)

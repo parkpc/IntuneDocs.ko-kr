@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 04/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b372d4ee505ca39a4739069e5798918ecde134ea
-ms.openlocfilehash: abf45b835d13ef5fe4acb769194542611448504e
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: a6a6992ab450a5601468c5d5e3eff112fc7ea222
+ms.lasthandoff: 04/24/2017
 
 ---
 
@@ -76,8 +76,8 @@ Intune Azure 미리 보기에서는 더 이상 Intune 그룹을 사용하여 앱
 
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **앱 관리**를 선택합니다.
-1. **앱 관리** 워크로드에서 **관리** > **앱**을 선택합니다.
+3. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
+1. **모바일 앱** 워크로드에서 **관리** > **앱**을 선택합니다.
 2. 앱 목록 블레이드에서 할당할 앱을 클릭합니다.
 3. <*앱 이름*> - **개요** 블레이드에서 **관리** > **할당**을 선택합니다.
 4. **그룹 선택**을 선택하고 **그룹 선택** 블레이드에서 앱을 할당할 Azure AD 그룹을 선택합니다.
