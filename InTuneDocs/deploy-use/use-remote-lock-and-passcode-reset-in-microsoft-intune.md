@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 03/06/17
+ms.date: 03/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,9 +14,9 @@ ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
 ms.reviewer: chrisgre
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 665d3347636d5ec0c698ffb93b768028c9d59ce3
-ms.openlocfilehash: b918c9843bdc6cfbbfd9c2da9d698b255487152c
-ms.lasthandoff: 03/07/2017
+ms.sourcegitcommit: f0a477c9eb1ed0580314e79135e377809eaab197
+ms.openlocfilehash: 9b0ae19b211373548061e2c2979620739a0bf0a0
+ms.lasthandoff: 04/17/2017
 
 ---
 # <a name="help-protect-your-devices-with-remote-lock-and-passcode-reset"></a>원격 잠금 또는 암호 재설정으로 장치 보호 지원
@@ -64,7 +64,7 @@ Intune 소프트웨어 클라이언트에 등록된 Windows PC에서는 원격 �
 |iOS|장치에서 암호를 제거하도록 지원됩니다. 새로운 임시 암호를 만들지 않습니다.|
 |Android|Android 7.0 이전 버전에서 지원됩니다. 임시 암호를 만듭니다.|
 |Android for Work|지원되지 않음|
-|Windows 10 Mobile|지원됨|
+|Windows 10 Mobile|Windows 10 크리에이터 버전 및 Azure AD에서 연결된 이후 모바일 장치에 대해 지원됩니다.|
 |Windows Phone 8 및 Windows Phone 8.1|지원됨|
 |Windows RT 8.1|지원 안 됨|
 |Windows 8.1|지원 안 됨|
