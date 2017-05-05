@@ -15,8 +15,9 @@ ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
-ms.openlocfilehash: 898975338edcd3267fd47d62d23b35e295f0d99b
+ms.sourcegitcommit: 271459e3faf886a45bcd673d2450f36a4a33a5db
+ms.openlocfilehash: 54a424677ef2df62c7a1fb18f2419f7b419112c0
+ms.lasthandoff: 04/28/2017
 
 
 ---
@@ -68,13 +69,4 @@ Microsoft Intune에서 다양한 장치를 서비스에 *등록*하여 관리할
 |기능|세부 정보|추가 정보|
 |--------------|-----------|--------------------|
 |인벤토리 및 보고|관리하는 장치와, 장치에서 사용 중인 소프트웨어에 대한 정보를 확인합니다.|[Microsoft Intune에서 인벤토리를 사용하는 장치 이해](/intune/deploy-use/understand-your-devices-with-inventory-in-microsoft-intune)|
-
-
-### <a name="see-also"></a>참고 항목
-[Microsoft Intune의 Windows PC 관리 기능](windows-pc-management-capabilities-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 
