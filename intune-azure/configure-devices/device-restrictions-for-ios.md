@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/17/2017
+ms.date: 04/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
-ms.openlocfilehash: 881ce40cb093b1817c9c4b84c9f8ca78b19de727
-ms.lasthandoff: 03/17/2017
+ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
+ms.openlocfilehash: 9e348278f62b2b9ba10f0f77c9fda214b43812a7
+ms.lasthandoff: 04/19/2017
 
 
 ---
@@ -225,6 +225,67 @@ ms.lasthandoff: 03/17/2017
 -     **공유 사진 스트림** - 장치에서 **iCloud 사진 공유**를 사용하지 않으려면 **아니요**로 설정합니다.
 -     **활동 연속** - 사용자가 특정 iOS 장치에서 시작한 작업을 다른 iOS 장치나 macOS 장치에서 계속할 수 있습니다.
 
+## <a name="autonomous-single-app-mode-supervised-only"></a>자치 단일 앱 모드(감독 모드인 경우에만)
+
+이 설정을 사용하여 iOS 장치에서 지정된 앱을 자체 단일 앱 모드로 실행하도록 구성합니다. 이 모드를 구성하고 앱이 실행되면 장치가 잠기므로 해당 앱만 실행할 수 있습니다. 이 모드의 예로 사용자가 장치에서 테스트를 수행할 수 있도록 앱을 구성하는 경우를 들 수 있습니다. 앱의 작업이 완료되거나 이 정책을 제거하면 장치가 일반 상태로 돌아옵니다.
+
+### <a name="settings"></a>설정
+
+- **앱 이름** - 이 블레이드의 앱 목록에 나타나도록 앱 이름을 입력합니다.
+- **앱 번들 ID** - 앱의 번들 ID를 입력합니다. 도움말은 이 항목의 **기본 제공 iOS 앱에 대한 번들 ID 참조**를 참조하세요.
+
+각 앱 이름과 번들 ID를 지정한 후 **추가**를 선택하여 목록에 추가합니다.
+
+- **가져오기** - 앱 이름 및 앱 관련 번들 ID 목록을 포함하는 쉼표로 구분된 값(.csv) 파일을 가져옵니다.
+- **내보내기** - 구성한 앱 이름 및 연관된 번들 ID를 쉼표로 구분된 값(.csv) 파일로 내보냅니다.
+
+### <a name="bundle-id-reference-for-built-in-ios-apps"></a>기본 제공 iOS 앱에 대한 번들 ID 참조
+
+이 목록에서는 몇 가지 일반적인 기본 제공 iOS 앱의 번들 ID를 보여줍니다. 다른 앱의 번들 ID를 찾으려면 소프트웨어 공급업체에 문의하세요.
+
+|||
+|-|-|
+|앱 이름|BundleID|
+|앱 스토어|com.apple.AppStore|
+|계산기|com.apple.calculator|
+|일정|com.apple.mobilecal|
+|카메라|com.apple.camera|
+|시계|com.apple.mobiletimer|
+|나침반|com.apple.compass|
+|연락처|com.apple.MobileAddressBook|
+|FaceTime|com.apple.facetime|
+|친구 찾기|com.apple.mobileme.fmf1|
+|나의 iPhone 찾기|com.apple.mobileme.fmip1|
+|게임 센터|com.apple.gamecenter|
+|GarageBand|com.apple.mobilegarageband|
+|상태|com.apple.Health|
+|iBooks|com.apple.iBooks|
+|iTunes Store|com.apple.MobileStore|
+|iTunes U|com.apple.itunesu|
+|키노트|com.apple.Keynote|
+|Mail|com.apple.mobilemail|
+|맵|com.apple.Maps|
+|메시지|com.apple.MobileSMS|
+|음악|com.apple.Music|
+|뉴스|com.apple.news|
+|참고|com.apple.mobilenotes|
+|숫자|com.apple.Numbers|
+|페이지|com.apple.Pages|
+|Photo Booth|com.apple.Photo-Booth|
+|사진|com.apple.mobileslideshow|
+|Podcasts|com.apple.podcasts|
+|미리 알림|com.apple.reminders|
+|Safari|com.apple.mobilesafari|
+|설정|com.apple.Preferences|
+|주식|com.apple.stocks|
+|팁|com.apple.tips|
+|동영상|com.apple.videos|
+|음성 메모|com.apple.VoiceMemos|
+|Wallet|com.apple.Passbook|
+|보기|com.apple.Bridge|
+|날씨|com.apple.weather|
+
+
 ## <a name="kiosk"></a>키오스크
 -     **활성화 잠금** - 감독된 iOS 장치에서 활성화 잠금을 설정합니다.
 -     **키오스크 모드에서 실행되는 앱** - **관리되는 앱**을 선택하여 Intune에 추가한 앱을 선택하거나 **스토어 앱**을 선택하여 스토어의 앱에 대한 URL을 지정합니다. 다른 앱은 장치에서 실행할 수 없습니다. 도움말은 이 항목의 뒷부분에 나오는 “앱 스토어에 URL을 지정하는 방법”을 참조하세요.
@@ -256,4 +317,21 @@ ms.lasthandoff: 03/17/2017
 -     **JavaScript** - Java 스크립트를 브라우저에서 실행할 수 있습니다.
 -     **사기 경고** - 브라우저에서 사기 경고를 허용합니다.
 -     **팝업** - 브라우저 팝업 차단을 사용하거나 사용하지 않도록 설정합니다.
+
+
+## <a name="domains"></a>Domains
+
+### <a name="unmarked-email-domains"></a>표시되지 않은 전자 메일 도메인
+
+**전자 메일 도메인 URL** 필드에서 하나 이상의 URL을 목록에 추가합니다. 최종 사용자가 구성한 도메인이 아닌 다른 도메인에서 전자 메일을 받으면 전자 메일은 iOS 메일 앱에서 신뢰할 수 없는 메일로 표시됩니다.
+
+
+### <a name="managed-web-domains"></a>관리되는 웹 도메인
+
+**웹 도메인 URL** 필드에서 하나 이상의 URL을 목록에 추가합니다. 지정하는 도메인에서 문서가 다운로드되면 관리되지 않는 문서로 간주됩니다. 이 설정은 Safari 브라우저를 사용하여 다운로드되는 문서에만 적용됩니다.
+
+
+### <a name="safari-password-auto-fill-domains"></a>Safari 암호 자동 채우기 도메인
+
+**도메인 URL** 필드에서 하나 이상의 URL을 목록에 추가합니다. 사용자는 이 목록에 있는 URL의 웹 암호만 저장할 수 있습니다. 이 설정은 감독 모드에서 iOS 9.3 이상 장치와 Safari 브라우저에만 적용됩니다. URL을 지정하지 않으면 모든 웹 사이트의 암호를 저장할 수 있습니다.
 

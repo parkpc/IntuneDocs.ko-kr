@@ -1,5 +1,5 @@
 ---
-title: "MAM CA가 있는 앱 사용 | Microsoft 문서"
+title: "MAM CA가 있는 앱 사용"
 description: "O365 서비스에 액세스할 수 있는 앱을 제어하도록 MAM CA에서 지원하는 방식을 이해합니다."
 keywords: 
 author: andredm7
@@ -15,9 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e55cf608c2e5157feeb40ba20d3988b5b35064db
-ms.openlocfilehash: 22ea926719efc788c53861bc91f78d24631d54c1
-ms.lasthandoff: 02/25/2017
+ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
+ms.openlocfilehash: ee407827c1c4eb7b113d29c301da0b9fa08fa86d
+ms.lasthandoff: 04/19/2017
 
 
 ---
@@ -37,6 +37,11 @@ OneDrive 또는 Outlook과 같이 앱 기반 CA에서 지원되는 앱에 처음
 * deviceOSType
 * deviceOSVersion
 * displayName
+
+> [!NOTE]
+> Android 장치:
+  * 장치에 회사 포털 앱 설치는 필수 사항이지만 최종 사용자는 앱에 로그인하지 않아도 됩니다.
+  * 장치 등록은 OneDrive 또는 Outlook 앱을 통해 수행해야 합니다.
 
 ## <a name="to-remove-a-device-from-azure-ad-registration"></a>Azure AD 등록에서 장치 제거.
 일반적으로 IT 관리자가 Azure AD 관리 콘솔을 통해 장치 등록을 제거할 수도 있고  장치 자체에서 최종 사용자가 제거할 수도 있습니다.

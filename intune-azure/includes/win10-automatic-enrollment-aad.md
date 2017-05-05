@@ -1,6 +1,6 @@
 ## <a name="enable-windows-10-automatic-enrollment"></a>Windows 10 자동 등록 사용
 
-자동 등록을 통해 사용자는 회사 또는 학교 계정을 추가하고 관리에 동의하여 회사 소유 또는 개인 Windows 10 PC 및 Intune의 Windows 10 Mobile 장치를 등록할 수 있습니다. 그 외에 사용자가 별도로 수행해야 하는 작업은 전혀 없습니다. 사용자 장치는 백그라운드에서 등록되어 Azure Active Directory에 가입됩니다. 등록된 장치는 Intune을 통해 관리됩니다.
+자동 등록을 사용하면 작업 계정을 자신의 개인 소유의 장치에 추가하거나 Azure Active Directory로 회사 소유의 장치를 연결할 때 Intune에서 Windows 10 장치를 등록할 수 있습니다. 사용자 장치는 백그라운드에서 등록되어 Azure Active Directory에 가입됩니다. 등록된 장치는 Intune을 통해 관리됩니다.
 
 **전제 조건**
 - Azure Active Directory Premium 구독([평가판 구독](http://go.microsoft.com/fwlink/?LinkID=816845))
@@ -21,19 +21,19 @@
 
   ![Azure Portal의 스크린샷](../media/auto-enroll-intune.png)
 
-4. 자동으로 등록할 사용자를 구성합니다.
+4. **MDM 사용자 범위**를 구성합니다. Microsoft Intune에서 관리해야 하는 사용자의 장치를 지정합니다. 이러한 사용자의 Windows 10 장치는 Microsoft Intune을 사용한 관리에 자동으로 등록됩니다.
 
-  ![Azure Portal의 스크린샷](../media/auto-enroll-scope.png)
-
-  다음 URL의 기본값을 사용합니다.
-  - **MDM 등록**
-  - **MDM 사용 약관**
-  - **MDM 규정 준수**
-
-5. Microsoft Intune에서 관리해야 하는 사용자의 장치를 지정합니다. 이러한 사용자의 Windows 10 장치는 Microsoft Intune을 사용한 관리에 자동으로 등록됩니다.
-
-  - **모두**
-  - **그룹**
   - **없음**
+  - **일부**
+  - **모두**
+
+   ![Azure Portal의 스크린샷](../media/auto-enroll-scope.png)
+
+5. 다음 URL의 기본값을 사용합니다.
+    - **MDM 사용 약관 URL**
+    - **MDM 검색 URL**
+    - **MDM 규정 준수 URL**
 
 6. **저장**을 선택합니다.
+
+기본적으로 2단계 인증이 서비스에 대해 활성화되어 있지 않습니다. 그러나 장치를 등록할 때 2단계 인증이 권장됩니다. 이 서비스에 대해 2단계 인증을 요구하기 전에 Azure Active Directory에서 2단계 인증 공급자를 구성하고 다단계 인증에 대한 사용자 계정을 구성해야 합니다. [Azure Multi-Factor Authentication Server 시작](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-cloud)을 참조하세요.
