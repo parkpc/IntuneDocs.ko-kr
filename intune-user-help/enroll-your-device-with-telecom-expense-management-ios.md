@@ -1,11 +1,11 @@
 ---
 title: "Intune을 사용하여 TEM(Telecom Expense Management)에 iOS 장치 등록"
-description: 
+description: "TEM(Telecom Expense Management)에 iOS 장치를 등록하는 방법에 대해 알아봅니다."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/03/2017
+ms.date: 04/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,14 @@ ms.technology:
 ms.assetid: 6d8c6372-f2ce-4558-8886-1d7c1966699c
 searchScope:
 - User help
-ROBOTS: NOINDEX,NOFOLLOW
+ROBOTS: 
 ms.reviewer: sumitp
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
-ms.openlocfilehash: 439adf2481eef00f22f809724c121dd58b5788d7
-ms.lasthandoff: 03/08/2017
+ms.sourcegitcommit: e0ecc775f70703574c4e1adf0f0aa204f2745b72
+ms.openlocfilehash: a71b8d1a100100e204eb7e90ba0ab00573ffc5c6
+ms.lasthandoff: 04/20/2017
 
 
 ---
@@ -31,19 +31,36 @@ ms.lasthandoff: 03/08/2017
 
   ![iOS 장치의 "가장 적합한 범주 선택" 화면의 스크린샷 회사 또는 개인 등록 선택 항목이 표시됩니다.](./media/ios-enroll-10-tem-select-best-category.png)
 
-1. 적절한 옵션을 선택하면 앱 스토어에서 [__Datalert__](https://itunes.apple.com/us/app/datalert/id771029268?mt=8) 앱을 설치하라는 알림이 제공됩니다. Datalert 앱은 조직에서 데이터 사용량을 측정하는 데 사용됩니다. 전화 번호와 같은 정보를 제공하고 코드를 사용하여 확인해야 합니다. .
+적절한 옵션을 선택하면 앱 스토어에서 [__Datalert__](https://itunes.apple.com/app/datalert/id771029268?mt=8) 앱을 설치하라는 알림이 제공됩니다. Datalert 앱은 조직에서 데이터 사용량을 측정하는 데 사용됩니다. 조직에서 Microsoft 회사 또는 학교 등록 옵션을 구성한 경우 회사 또는 학교 계정으로 로그인해야 합니다. 사용하도록 설정되지 않은 경우에는 전화번호와 같은 정보를 제공하고 앱에서 Datalert 서비스에 등록하는 코드를 사용하여 장치를 확인해야 합니다.
 
   ![Datalert에서 데이터 요금제를 최대한 활용할 수 있는 방법에 대한 간략한 설명을 제공한 후 다음 화면으로 이동하라는 메시지가 표시된 Datalert 앱 시작 화면의 스크린샷](./media/ios-enroll-11-tem-datalert-setup.png)
 
-2. 장치의 전화 번호를 제공합니다.
+## <a name="enroll-into-datalert-using-your-microsoft-work-or-school-account"></a>Microsoft 회사 또는 학교 계정을 사용하여 Datalert에 등록
+
+> [!NOTE]
+> 이 방법으로 등록하려면 휴대폰에 [Microsoft Authenticator](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/microsoft-authenticator-app-how-to) 앱이 설치되어 있고 활성 상태여야 합니다.
+
+1. __Microsoft 계정으로 등록__을 선택합니다.
+
+  ![Microsoft Office 365 계정 및 Intune 구독이 있는 경우에 한해 Datalert 앱의 설정 화면 상단에서 장치를 등록하는 전화번호 필드를 제공하는 해당 화면 이미지](./media/ios-enroll-11a-tem-datalert-enroll-msft-account.png)
+
+2. __"Datalert"에서 "Authenticator"를 열려고 합니다.__라는 알림이 수신됩니다. __열기__를 선택합니다.
+
+  ![Datalert 앱 요청 시 Authenticator 앱을 열라는 메시지를 사용자에게 나타내는 팝업 이미지](./media/ios-enroll-11b-tem-datalert-open-authenticator.png)
+
+3. __Microsoft 학교 또는 회사 계정__으로 로그인합니다. 잠시 동안 Datalert 설정이 진행되고 난 후 완료됩니다. 완료되면 __마침__을 탭합니다.
+
+## <a name="enroll-into-datalert-using-your-phone-number"></a>전화번호를 사용하여 Datalert에 등록
+
+1. 장치의 전화 번호를 제공합니다.
 
   ![전화 번호를 요청하는 Datalert 앱의 스크린샷](./media/ios-enroll-12-tem-datalert-phone-number.png)
 
-3. 그러면 SMS 메시지를 통해 확인 코드가 제공됩니다. 코드를 제공하고 __확인__를 탭합니다.
+2. 그러면 SMS 메시지를 통해 확인 코드가 제공됩니다. 코드를 제공하고 __확인__를 탭합니다.
 
   ![SMS 확인 코드를 요청하는 Datalert 앱의 스크린샷](./media/ios-enroll-13-tem-datalert-sms.png)
 
-4. 확인 코드를 제공하면 Datalert 설치가 완료됩니다. __마침__을 탭하면 Datalert 앱에서 데이터를 모니터링할 수 있습니다.
+3. 확인 코드를 제공하면 Datalert 설치가 완료됩니다. __마침__을 탭하면 Datalert 앱에서 데이터를 모니터링할 수 있습니다.
 
   ![오늘의 데이터 사용량을 모니터링하는 Datalert 앱의 스크린샷](./media/ios-enroll-14-tem-datalert-monitoring-active.png)
 
