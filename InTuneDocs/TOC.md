@@ -1,5 +1,6 @@
 # 이해 및 탐색
 ## [Intune 소개](understand-explore/introduction-to-microsoft-intune.md)
+## [교육에 Intune](understand-explore/introduction-to-intune-education.md)
 ## [무료 평가판 등록](understand-explore/sign-up-for-30-day-trial-microsoft-intune.md)
 ## [Intune MDM 평가](understand-explore/mobile-device-management-trial-guide-microsoft-intune.md)
 ### [사용자 및 장치를 구성하는 그룹 만들기](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-3.md)
