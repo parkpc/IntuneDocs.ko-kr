@@ -14,10 +14,11 @@ ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: a981b0253f56d66292ce77639faf4beba8832a9e
-ms.openlocfilehash: ab91737586103ecc6f279daf6a55eb8988ad991a
-ms.lasthandoff: 04/19/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: c8715f96f532ee6bacda231e1147d03226ecbb48
+ms.openlocfilehash: 81f5b33bc344cd6ed305d72178c7eb4cac315a13
+ms.contentlocale: ko-kr
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -46,7 +47,7 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 ### <a name="get-an-encryption-key"></a>암호화 키 가져오기
 
-1. 관리 사용자는 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **iOS** &gt; **장치 등록 프로그램**으로 이동한 후 **암호화 키 다운로드**를 선택합니다.
+1. 관리 사용자는 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **iOS** &gt; **장치 등록 프로그램**으로 이동한 후 **암호화 키 다운로드**를 선택합니다.
 
 2. 암호화 키(.pem) 파일을 로컬로 저장합니다. .pem 파일은 Apple 장치 등록 프로그램 포털에서 트러스트 관계 인증서를 요청하는 데 사용됩니다.
 
@@ -68,13 +69,13 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 ### <a name="add-the-dep-token-to-intune"></a>Intune에 DEP 토큰 추가
 
-1. [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **관리** &gt; **모바일 장치 관리** &gt; **iOS** &gt; **장치 등록 프로그램**으로 이동합니다.
+1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리** &gt; **모바일 장치 관리** &gt; **iOS** &gt; **장치 등록 프로그램**으로 이동합니다.
 
 2. **DEP 토큰 업로드**를 선택합니다. 인증서(.p7m) 파일을**찾아** **Apple ID**를 입력한 다음 **업로드**를 선택합니다.
 
 ### <a name="add-the-corporate-device-enrollment-policy"></a>회사 장치 등록 정책 추가
 
-1. [Microsoft Intune](http://manage.microsoft.com) 관리 콘솔에서 **정책** &gt; **회사 장치 등록**으로 이동한 후 **추가**를 선택합니다.
+1. [Microsoft Intune](https://manage.microsoft.com) 관리 콘솔에서 **정책** &gt; **회사 장치 등록**으로 이동한 후 **추가**를 선택합니다.
 
 2. **이름** 및 **설명**을 포함한 **일반** 세부 정보를 제공하고, 프로필에 할당된 장치에 사용자 선호도가 있는지 또는 장치가 그룹에 속해 있는지를 지정합니다.
 
@@ -122,7 +123,7 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 ### <a name="assign-the-profile-to-devices"></a>장치에 프로필 할당
 
-1. [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **정책** &gt; **회사 장치 등록**으로 이동한 후 **할당**을 선택합니다.
+1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **회사 장치 등록**으로 이동한 후 **할당**을 선택합니다.
 
 2. 만든 프로필을 할당할 장치를 선택합니다. **모든 장치** 또는 특정 장치를 선택한 다음 **추가**를 선택할 수 있습니다.
 
@@ -143,9 +144,9 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 이 단계에서는 장치를 Apple DEP 서비스와 동기화하고 장치를 Intune 콘솔에 표시합니다.
 
-1. 관리자 권한으로 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **iOS** &gt; **장치 등록 프로그램**으로 이동한 후 **지금 동기화**를 선택합니다. 동기화 요청이 Apple에 전송됩니다.
+1. 관리자 권한으로 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **iOS** &gt; **장치 등록 프로그램**으로 이동한 후 **지금 동기화**를 선택합니다. 동기화 요청이 Apple에 전송됩니다.
 
-2. 동기화 후에 DEP 관리 장치를 보려면 [Microsoft Intune 관리 콘솔](http://manage.microsoft.com)에서 **그룹** &gt; **모든 장치** &gt; **회사에서 사전 등록한 장치** &gt; **iOS 일련 번호 기준**으로 이동합니다. **iOS 일련 번호 기준** 작업 영역에서는 장치를 켜고 설치 도우미를 실행하여 장치를 등록할 때까지 관리되는 장치 **상태**가 "연결되지 않음"으로 표시됩니다.
+2. 동기화 후에 DEP 관리 장치를 보려면 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **그룹** &gt; **모든 장치** &gt; **회사에서 사전 등록한 장치** &gt; **iOS 일련 번호 기준**으로 이동합니다. **iOS 일련 번호 기준** 작업 영역에서는 장치를 켜고 설치 도우미를 실행하여 장치를 등록할 때까지 관리되는 장치 **상태**가 "연결되지 않음"으로 표시됩니다.
 
    허용 가능한 DEP 트래픽에 대한 Apple의 약관을 준수하려면 Intune에서는 다음과 같은 제한 사항을 적용합니다.
 
@@ -162,7 +163,11 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 ## <a name="changes-to-intune-group-assignments"></a>Intune 그룹 할당 변경
 
-2017년 4월부터 장치 그룹 관리가 Azure Active Directory로 이동됩니다. Azure Active Directory 그룹으로 전환된 후에는 그룹 할당이 회사 등록 프로필 옵션에 나타나지 않습니다. 이 변경은 몇 달에 걸쳐 진행될 예정이므로 당장 변경 내용이 확인되지 않을 수 있습니다. 새 포털로 이동하고 나면 회사 등록 프로필 이름에 따라 동적 장치 그룹 할당을 정의할 수 있습니다. 회사 장치 등록 프로필에서 미리 할당된 모든 Intune 장치 그룹마다, Azure Active Directory 장치 그룹으로 마이그레이션하는 동안 회사 장치 등록 프로필 이름을 기반으로 AAD에 동적인 장치 그룹이 생성됩니다. 새 동적 장치 그룹 할당을 정의하면 장치 그룹에 미리 할당된 장치가 정책과 앱이 배포된 상태에서 그룹에 자동으로 등록됩니다. 회사 소유의 iOS 장치 등록에 미치는 영향에 대한 자세한 내용은 [회사 사전 등록 iOS 장치에 대한 자동 그룹화에 대한 변경 내용](https://blogs.technet.microsoft.com/intunesupport/2017/04/19/changes-to-automatic-grouping-for-corporate-pre-enrolled-ios-devices/)을 참조하세요.
+2017년 4월부터 장치 그룹 관리가 Azure Active Directory로 이동됩니다. Azure Active Directory 그룹으로 전환된 후에는 그룹 할당이 회사 등록 프로필 옵션에 나타나지 않습니다. 이 변경은 몇 달에 걸쳐 진행될 예정이므로 당장 변경 내용이 확인되지 않을 수 있습니다. 새 포털로 이동하고 나면 회사 등록 프로필 이름에 따라 동적 장치 그룹 할당을 정의할 수 있습니다.
+
+마이그레이션할 때 회사 장치 등록 프로필에서 미리 할당된 모든 Intune 장치 그룹마다 회사 장치 등록 프로필 이름을 기반으로 Azure AD에 해당 동적 장치 그룹이 생성됩니다. 새 프로필 이름은 *EnrollmentProfile:&lt;연결된 프로필의 이름&gt;* 형식입니다. 새 동적 장치 그룹 할당을 정의하면 장치 그룹에 미리 할당된 장치가 정책과 앱이 배포된 상태에서 그룹에 자동으로 등록됩니다.
+
+이 자동 그룹 만들기는 그룹 마이그레이션 중에 한 번만 발생합니다. 마이그레이션 후 Intune 관리자는 Azure Portal을 사용하여 그룹을 만들어야 합니다. 회사 소유의 iOS 장치 등록에 미치는 영향에 대한 자세한 내용은 [회사 사전 등록 iOS 장치에 대한 자동 그룹화에 대한 변경 내용](https://blogs.technet.microsoft.com/intunesupport/2017/04/19/changes-to-automatic-grouping-for-corporate-pre-enrolled-ios-devices/)을 참조하세요.
 
 [Azure Active Directory 그룹에 대한 자세한 정보](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/)도 참조할 수 있습니다.
 
