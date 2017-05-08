@@ -6,7 +6,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 03/18/17
+ms.date: 03/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,10 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: e0ecc775f70703574c4e1adf0f0aa204f2745b72
-ms.openlocfilehash: 723830f686991fe13de13f75c6a5d1bc84e6920b
-ms.lasthandoff: 04/20/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: c8715f96f532ee6bacda231e1147d03226ecbb48
+ms.openlocfilehash: 4916b66e1f2eeabb42401645dbece28dad28eb19
+ms.contentlocale: ko-kr
+ms.lasthandoff: 04/26/2017
 
 ---
 # <a name="help-users-with-the-troubleshooting-portal-in-microsoft-intune"></a>Microsoft Intune의 문제 해결 포털을 통해 사용자 지원
@@ -40,8 +41,9 @@ Intune 역할에 대한 자세한 내용은 [Intune 역할](https://docs.microso
 ## <a name="access-the-troubleshooting-portal"></a>문제 해결 포털 액세스
 
 지원 센터 직원 및 Intune 관리자는 다음 두 가지 방법으로 문제 해결 포털에 액세스할 수 있습니다.
-- [Azure Portal](https:portal.azure.com)에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택한 다음 왼쪽 탐색 블레이드에서 **문제 해결**을 선택합니다. 왼쪽 탐색 블레이드에 다른 작업들도 표시되지만 사용할 수는 없습니다.
-![사용자 선택 링크가 포함된 Intune 문제 해결 워크로드의 스크린샷](media/help-desk-user.png)
+- [Azure Portal](https://portal.azure.com)에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택한 다음 왼쪽 탐색 블레이드에서 **문제 해결**을 선택합니다. 왼쪽 탐색 블레이드에 다른 작업들도 표시되지만 사용할 수는 없습니다.
+
+![사용자 선택 링크가 포함된 Intune 문제 해결 워크로드 스크린샷](media/help-desk-user.png)
 - 웹 브라우저에서 [http://aka.ms/intunetroubleshooting](http://aka.ms/intunetroubleshooting)을 엽니다. 문제 해결 포털만 표시됩니다.
 
 ## <a name="use-the-troubleshooting-portal"></a>문제 해결 포털 사용

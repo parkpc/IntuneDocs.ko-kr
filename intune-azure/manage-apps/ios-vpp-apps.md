@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/19/2017
+ms.date: 04/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: 51d45ce2-d81b-4584-8bc4-568c8c62653d
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: a981b0253f56d66292ce77639faf4beba8832a9e
-ms.openlocfilehash: 1c13d39b8b193c56439602a6e9d9a34e547aef81
-ms.lasthandoff: 04/19/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: ff43a0be6ebc124bb7e52e5be31e89985ce32166
+ms.contentlocale: ko-kr
+ms.lasthandoff: 04/24/2017
 
 ---
 
@@ -53,8 +54,8 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **앱 관리**를 선택합니다.
-1.  **앱 관리** 워크로드에서 **설치** > **iOS VPP 토큰**을 선택합니다.
+3. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
+1.  **모바일 앱** 워크로드에서 **설정** > **iOS VPP 토큰**을 선택합니다.
 2.  VPP 토큰 목록 블레이드에서 **추가**를 클릭합니다.
 3.  새 VPP 토큰 블레이드에서 다음 정보를 지정합니다.
     - **VPP 토큰 파일** - 아직 없는 경우 비즈니스 또는 교육용 대량 구매 프로그램에 등록합니다. 등록한 후 계정에 대한 Apple VPP 토큰을 다운로드하여 선택합니다.
@@ -69,7 +70,7 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 
 ## <a name="to-assign-a-volume-purchased-app"></a>대량 구매 앱을 할당하려면
 
-1. **앱 관리** 워크로드에서 **관리** > **사용이 허가된 앱**을 선택합니다.
+1. **모바일 앱** 워크로드에서 **관리** > **사용이 허가된 앱**을 선택합니다.
 2. 앱 목록 블레이드에서 할당할 앱을 선택한 다음 '**...**' > **그룹 할당**을 선택합니다.
 3. <*앱 이름*> - **할당된 그룹** 브레이드에서 **관리** > **할당된 그룹**을 선택합니다.
 4. **그룹 할당**을 선택하고 **그룹 선택** 블레이드에서 앱을 할당할 Azure AD 사용자 또는 장치 그룹을 선택합니다.
