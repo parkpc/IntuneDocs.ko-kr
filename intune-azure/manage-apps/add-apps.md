@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/12/2017
+ms.date: 04/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: a1ded457-0ecf-4f9c-a2d2-857d57f8d30a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
-ms.openlocfilehash: d85544bdfaa3a369e1d2d03e5454ff7aa2d75467
-ms.lasthandoff: 04/19/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 92fb84726846c1eb0fb44db1961a225922e9d9aa
+ms.contentlocale: ko-kr
+ms.lasthandoff: 04/24/2017
 
 ---
 
@@ -32,17 +33,18 @@ Intune을 사용하여 다음 앱 유형을 추가하고 지정할 수 있습니
 
 ![Intune에서 지원하는 앱 유형](./media/app-types.png)
 
-지원되는 플랫폼은 다음과 같습니다. 각 앱 유형을 추가하는 방법에 대한 자세한 내용을 보려면 항목 중 하나를 클릭하세요.
+지원되는 플랫폼은 다음과 같습니다.
 
-- [Android 스토어 앱](/intune-azure/manage-apps/android-store-app)
-- [Android LOB 앱](/intune-azure/manage-apps/android-lob-app)
-- [iOS 스토어 앱](/intune-azure/manage-apps/ios-store-app)
-- [iOS LOB 앱](/intune-azure/manage-apps/ios-lob-app)
-- [웹앱(모든 플랫폼)](/intune-azure/manage-apps/web-app)
-- [Windows Phone 8.1 스토어 앱](/intune-azure/manage-apps/windows-phone-8-1-store-app)
-- [Windows 스토어 앱](/intune-azure/manage-apps/windows-store-app)
+- Android 스토어 앱
+- Android LOB(기간 업무) 앱
+- iOS 스토어 앱
+- iOS LOB(기간 업무) 앱
+- 웹앱
+- Windows Phone 8.1 스토어 앱
+- Windows 스토어 앱
 
-또한 테넌트를 설정하는 경우 Intune에서 일부 Microsoft 앱이 자동으로 추가됩니다. 이러한 목록은 이 항목의 뒷부분에 표시됩니다.
+>[!TIP]
+> 기간 업무(또는 LOB) 앱은 앱 스토어에서 설치하는 것이 아니라 앱 설치 파일에서 설치하는 앱입니다. 예를 들어 iOS LOB 앱을 설치하려면 응용 프로그램 보관 파일(확장명: .ipa)을 추가합니다. 일반적으로 이러한 앱은 사내에서 작성한 앱입니다.
 
 ## <a name="before-you-start"></a>시작하기 전에
 
@@ -52,7 +54,7 @@ Intune을 사용하여 다음 앱 유형을 추가하고 지정할 수 있습니
 - 배포한 앱 또는 항목 중 일부는 기본 제공 iOS 앱에 종속될 수 있습니다. 예를 들어 iOS 스토어에서 책을 배포하는 경우 iBooks 앱은 장치에 있어야 합니다. iBooks 기본 제공 앱을 제거한 경우에는 Intune을 사용하여 복구할 수 없습니다.
 
 ## <a name="cloud-storage-space"></a>클라우드 저장소 공간
-소프트웨어 설치 관리자 설치 유형(예: 기간 업무 앱)을 사용하여 만든 모든 앱은 패키징된 후 Microsoft Intune 클라우드 저장소로 업로드됩니다. Intune의 평가판 구독에는 관리 앱 및 업데이트를 저장하는 데 사용되는 클라우드 기반의 2GB 저장소가 포함됩니다. 전체 구독에는 20GB의 저장소 공간이 포함됩니다.
+소프트웨어 설치 관리자 설치 유형(예: 기간 업무 앱)을 사용하여 만든 모든 앱은 패키징된 후 Intune 클라우드 저장소로 업로드됩니다. Intune의 평가판 구독에는 관리 앱 및 업데이트를 저장하는 데 사용되는 클라우드 기반의 2GB 저장소가 포함됩니다. 전체 구독에는 20GB의 저장소 공간이 포함됩니다.
 
 원래 구매 방법을 사용하여 Intune용 저장소를 추가로 구입할 수 있습니다.  청구서 또는 신용 카드로 지불한 경우 [구독 관리 포털](https://portal.office.com/adminportal/home?switchtomodern=true#/subscriptions)을 참조하세요.  그 외의 경우에는 파트너나 영업 사원에게 문의하세요.
 
@@ -106,3 +108,14 @@ Microsoft에서 게시된 다음 앱은 Intune에 기본 제공되며 직접 지
 |Outlook Groups|iOS|관리되는 iOS 스토어 앱|
 |PowerPoint|iOS|관리되는 iOS 스토어 앱|
 
+## <a name="next-steps"></a>다음 단계
+
+각 플랫폼용 앱을 Intune에 추가하는 방법을 알아보려면 다음 항목 중 하나를 선택합니다.
+
+- [Android 스토어 앱](/intune-azure/manage-apps/android-store-app)
+- [Android LOB 앱](/intune-azure/manage-apps/android-lob-app)
+- [iOS 스토어 앱](/intune-azure/manage-apps/ios-store-app)
+- [iOS LOB 앱](/intune-azure/manage-apps/ios-lob-app)
+- [웹앱(모든 플랫폼)](/intune-azure/manage-apps/web-app)
+- [Windows Phone 8.1 스토어 앱](/intune-azure/manage-apps/windows-phone-8-1-store-app)
+- [Windows 스토어 앱](/intune-azure/manage-apps/windows-store-app)
