@@ -15,9 +15,10 @@ ms.assetid: a6816285-8e43-4dc8-bca0-e80ec5ef01e6
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
 ms.openlocfilehash: 896a7143bc0b7ec80f69482681f4ed17d79661d4
+ms.contentlocale: ko-kr
 ms.lasthandoff: 02/18/2017
 
 
@@ -37,7 +38,7 @@ Intune에 등록되지 않은 장치의 경우 회사 포털 앱을 장치에 �
 
 앱 보호 정책은 업무용으로 앱을 사용할 때만 적용되므로 업무용인지 개인용인지에 따라 앱 동작이 달라질 수 있습니다.
 
-다중 ID를 지원하는 앱의 경우, Intune은 최종 사용자가 업무용으로 앱을 사용할 때만 앱 보호 정책을 적용합니다.  예를 들어 최종 사용자는 업무용 데이터에 액세스할 경우 PIN 프롬프트를 받습니다.  **Outlook 앱**에서는 최종 사용자가 앱을 시작할 때 PIN을 입력하라는 메시지가 표시됩니다. **OneDrive 앱**에서는 최종 사용자가 회사 계정을 입력할 때 PIN을 입력하라는 메시지가 표시됩니다.  Microsoft **Word**, **PowerPoint* 및 **Excel**의 경우에는 최종 사용자가 회사의 비즈니스용 OneDrive 위치에 저장된 문서에 액세스할 때 PIN을 입력하라는 메시지가 표시됩니다.
+다중 ID를 지원하는 앱의 경우, Intune은 최종 사용자가 업무용으로 앱을 사용할 때만 앱 보호 정책을 적용합니다.  예를 들어 최종 사용자는 업무용 데이터에 액세스할 경우 PIN 프롬프트를 받습니다.  **Outlook 앱**에서는 최종 사용자가 앱을 시작할 때 PIN을 입력하라는 메시지가 표시됩니다. **OneDrive 앱**에서는 최종 사용자가 회사 계정을 입력할 때 PIN을 입력하라는 메시지가 표시됩니다.  Microsoft **Word**, **PowerPoint* 및* *Excel**의 경우에는 최종 사용자가 회사의 비즈니스용 OneDrive 위치에 저장된 문서에 액세스할 때 PIN을 입력하라는 메시지가 표시됩니다.
 ##  <a name="managing-user-accounts-on-the-device"></a>장치에서 사용자 계정 관리
 
 Intune은 장치 당 하나의 사용자 계정에 앱 보호 정책을 배포하도록 지원합니다.
