@@ -15,10 +15,11 @@ ms.assetid: e6c0a430-1851-4108-812a-87e0fc2623b5
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 748f5b6e18b7bc6d9e9d3e6635ac2c3e7eb11a67
-ms.lasthandoff: 02/18/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 3015c5493e8b38b425309584430c372e6a4d90cf
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -35,7 +36,7 @@ ms.lasthandoff: 02/18/2017
 
 ## <a name="user-owned-ios-devices-byod"></a>사용자 소유 iOS 장치(BYOD)
 
-사용자가 자신의 개인 BYOD(bring your own device) 장치를 등록하려는 경우 사용 가능한 등록 방법은 앱 스토어에서 iOS용 회사 포털 앱을 다운로드하고 앱의 등록 지침을 따르는 방법밖에 없습니다. 등록한 후에는 회사 네트워크에 연결하고, 도메인 또는 Azure Active Directory에 가입하고, 회사 리소스에 액세스할 수 있습니다. 개인적으로 소유한 iOS 장치 등록을 차단할 수 있습니다. 지침에 대해서는 [장치 유형 제한 설정](https://docs.microsoft.com/intune-azure/enroll-devices/set-enrollment-restrictions#set-device-type-restrictions)을 참조하세요.
+사용자가 자신의 개인 BYOD(bring your own device) 장치를 등록하려는 경우 사용 가능한 등록 방법은 앱 스토어에서 iOS용 회사 포털 앱을 다운로드하고 앱의 등록 지침을 따르는 방법밖에 없습니다. 등록한 후에는 회사 네트워크에 연결하고, 도메인 또는 Azure Active Directory에 가입하고, 회사 리소스에 액세스할 수 있습니다. 개인적으로 소유한 iOS 장치 등록을 차단할 수 있습니다. 지침에 대해서는 [장치 유형 제한 설정](set-enrollment-restrictions.md#set-device-type-restrictions)을 참조하세요.
 
 ## <a name="apple-configurator"></a>Apple Configurator
 

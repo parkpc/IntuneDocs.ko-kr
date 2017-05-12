@@ -15,10 +15,11 @@ ms.assetid: f31b2964-e932-4cee-95c4-8d5506966c85
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
-ms.openlocfilehash: 0aabb7af82bc7c9ed55eca91e615bace5e299d11
-ms.lasthandoff: 04/24/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 119c7172f8175d128c3e13d37bb9ec3c91719bcf
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -26,7 +27,7 @@ ms.lasthandoff: 04/24/2017
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
-**Azure Portal 미리 보기 프로그램의 Intune 서비스에 없는 경우** 이 항목에서는 클래식 Intune 콘솔에서 [앱 보호 정책을 만드는 방법](https://docs.microsoft.com/en-us/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)을 설명합니다.
+**Azure Portal 미리 보기 프로그램의 Intune 서비스에 없는 경우** 이 항목에서는 클래식 Intune 콘솔에서 [앱 보호 정책을 만드는 방법](https://docs.microsoft.com/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)을 설명합니다.
 
 앱 보호 정책은 Intune에서 관리하거나 관리하지 않을 수 있는 장치에서 실행되는 앱에 적용할 수 있습니다. 앱 보호 정책의 작동 방식 및 Intune 앱 보호 정책으로 지원되는 시나리오에 대한 자세한 설명은 [Microsoft Intune 앱 보호 정책이란](what-is-app-protection-policy.md)을 참조하세요.
 
