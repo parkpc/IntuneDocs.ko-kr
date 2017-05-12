@@ -1,5 +1,6 @@
 # 소개
 ## [Azure Portal Preview란?](introduction/what-is-microsoft-intune.md)
+## [Intune for Education이란?](/intune/understand-explore/introduction-to-intune-education?toc=/intune/toc.json)
 ## [Azure의 Intune 기능](introduction/ui-changes-in-microsoft-intune.md)
 ## 시작
 <!---(introduction/get-started.md) --->
@@ -82,10 +83,13 @@
 #### [iOS LOB 앱](manage-apps/ios-lob-app.md)
 #### [웹앱](manage-apps/web-app.md)
 #### [Windows Phone 8.1 스토어 앱](manage-apps/windows-phone-8-1-store-app.md)
+#### [Windows Phone LOB 앱](manage-apps/windows-phone-line-of-business-app.md)
 #### [Windows 스토어 앱](manage-apps/windows-store-app.md)
+#### [Windows LOB 앱](manage-apps/windows-line-of-business-app.md)
 ### [앱 할당](manage-apps/deploy-apps.md)
 ### [앱 모니터링](manage-apps/monitor-apps.md)
-### [앱 구성 정책 사용](manage-apps/app-configuration-policies.md)
+### [앱 구성 프로필 사용](manage-apps/app-configuration-policies.md)
+### [iOS 앱 프로비전 프로필](manage-apps/ios-app-provisioning-profile.md)
 ### [선택적으로 앱 지우기](manage-apps/app-selective-wipe.md)
 <!---Is this specific to app protection policy or more general app management?--->
 ### [대량 구매 앱 작업](manage-apps/volume-purchased-apps.md)
