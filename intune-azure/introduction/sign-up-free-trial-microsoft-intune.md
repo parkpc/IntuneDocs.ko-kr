@@ -14,10 +14,11 @@ ms.technology:
 ms.assetid: 195931c0-8208-43bd-b0af-b1f8e469a32c
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 29b33341b136c8e8d76b666f94a9f620212944c5
-ms.lasthandoff: 02/18/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: eaddfc647c5e755e6b033a7970e003ce516bba04
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -38,7 +39,7 @@ You can do everything in the trial version that you can do in a subscription ver
 <!--- ## Sign up for your trial--->
 1. [Intune 등록](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20) 페이지를 방문하여 평가판 구독에 등록하는 양식을 작성합니다.
 
- <!--- If you have a work or school account and want to use that for your Intune trial, follow [these sign-in instructions](https://docs.microsoft.com/en-us/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-1) instead. However, this article assumes that you are not using such an account.---><br/> ![등록 페이지 이미지](./media/1-clicking-try.png)
+ <!--- If you have a work or school account and want to use that for your Intune trial, follow [these sign-in instructions](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-1) instead. However, this article assumes that you are not using such an account.---><br/> ![등록 페이지 이미지](./media/1-clicking-try.png)
 
  > [!TIP]
 > 대부분의 IT 작업자 및 사용자가 여러분과 다른 로캘에 있는 경우 **회사 위치는 어디입니까?** 아래에서 로캘을 선택할 수 있습니다.
@@ -56,7 +57,7 @@ Intune Azure 미리 보기에 처음으로 로그온한 경우 Azure 대시보�
 <!--- ## Add users
 Before you leave the Office 365 Admin center for Intune, you need to add some users to your trial account.
 
-In the Office 365 Admin center, you can add users individually or in bulk by uploading a .csv file. We will do both to set up your trial. However, in your production environment, you will probably want to take advantage of your Azure Active Directory user accounts, which you can learn more about in our [Getting Started guide](https://docs.microsoft.com/en-us/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3) and in the [Next steps](#Next-steps) section of this article.
+In the Office 365 Admin center, you can add users individually or in bulk by uploading a .csv file. We will do both to set up your trial. However, in your production environment, you will probably want to take advantage of your Azure Active Directory user accounts, which you can learn more about in our [Getting Started guide](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3) and in the [Next steps](#Next-steps) section of this article.
 
 ### Add an individual user
 1. Choose either of the options to add a use to open a form that allows you to create a user. Only the items starred with an asterisk (\*) are required.
@@ -142,9 +143,9 @@ Intune에서 Office 365 관리 센터로 돌아가려면 브라우저 주소 표
 
 ### <a name="integration-with-other-products"></a>다른 제품과의 통합
 Intune에서 Azure Active Directory 사용자 계정을 사용하는 방법을 자세히 알아봅니다.
-- [ID 요구 사항](https://docs.microsoft.com/en-us/active-directory/active-directory-hybrid-identity-design-considerations-overview#design-considerations-overview)
-- [디렉터리 동기화 요구 사항](https://docs.microsoft.com/en-us/active-directory/active-directory-hybrid-identity-design-considerations-directory-sync-requirements)
-- [다단계 인증 요구 사항](https://docs.microsoft.com/en-us/active-directory/active-directory-hybrid-identity-design-considerations-multifactor-auth-requirements)
+- [ID 요구 사항](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-overview#design-considerations-overview)
+- [디렉터리 동기화 요구 사항](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-directory-sync-requirements)
+- [다단계 인증 요구 사항](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-multifactor-auth-requirements)
 
-[System Center Configuration Manager와 함께 Intune](https://docs.microsoft.com/en-us/sccm/mdm/understand/hybrid-mobile-device-management)를 사용하는 방법에 대해 자세히 알아보기
+[System Center Configuration Manager와 함께 Intune](https://docs.microsoft.com/sccm/mdm/understand/hybrid-mobile-device-management)를 사용하는 방법에 대해 자세히 알아보기
 

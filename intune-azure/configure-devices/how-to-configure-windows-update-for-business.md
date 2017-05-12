@@ -13,10 +13,11 @@ ms.technology:
 ms.assetid: 08f659cf-715e-4e10-9ab2-1bac3c6f2366
 ms.reviewer: coryfe
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 911d2887791cf16d4290c3ac5189aa44086f4603
-ms.openlocfilehash: 5e2516611b933bb9c74c2b8dc973f85e1d82237f
-ms.lasthandoff: 03/11/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: e825d47860924de1350299c8998d958ed68c0418
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -54,9 +55,9 @@ Windows as a Service는 Windows 10 업데이트를 제공하는 새로운 서비
 
     ![Windows의 진단 및 사용 현황 데이터 설정](./media/telemetry-basic.png)
 
-    이 설정을 수동으로 구성할 수 있습니다. 아니면 Windows 10 이상에 대한 Intune 장치 제한 프로필을 사용할 수도 있습니다. 이렇게 하려면 **일반** > **진단 데이터 전송** 설정을 **기본** 이상으로 구성합니다. 장치 프로필에 대한 자세한 내용은 [장치 제한 설정을 구성하는 방법](/intune-azure/configure-devices/how-to-configure-device-restrictions)을 참조하세요.
+    이 설정을 수동으로 구성할 수 있습니다. 아니면 Windows 10 이상에 대한 Intune 장치 제한 프로필을 사용할 수도 있습니다. 이렇게 하려면 **일반** > **진단 데이터 전송** 설정을 **기본** 이상으로 구성합니다. 장치 프로필에 대한 자세한 내용은 [장치 제한 설정을 구성하는 방법](how-to-configure-device-restrictions.md)을 참조하세요.
 
-- 클래식 Intune 관리 콘솔에는 소프트웨어 업데이트 동작을 제어하는 설정이&4;가지 있습니다. 이 설정은 Windows 10 Desktop 및 Mobile 장치에 대한 일반 구성 정책의 일부입니다.
+- 클래식 Intune 관리 콘솔에는 소프트웨어 업데이트 동작을 제어하는 설정이 4가지 있습니다. 이 설정은 Windows 10 Desktop 및 Mobile 장치에 대한 일반 구성 정책의 일부입니다.
     - **자동 업데이트 허용**
     - **시험판 기능 허용**
     - **예약된 설치 날짜**
@@ -94,7 +95,7 @@ Windows as a Service는 Windows 10 업데이트를 제공하는 새로운 서비
     예를 들면 다음과 같습니다.  
     **서비스 분기가 CB로 설정되고 지연 기간이 30일인 경우**: 기능 업데이트 X가 Windows 업데이트에서 1월에 CB로 처음으로 공개적으로 제공된다고 가정하겠습니다. 장치는 2월, 즉 30일 이후까지 업데이트를 수신하지 않습니다.
 
-    **서비스 분기가 CBB로 설정되고 지연 기간이 30일인 경우**: 기능 업데이트 X가 Windows 업데이트에서 1월에 CB로 처음으로 공개적으로 제공된다고 가정하겠습니다. 4개월 후&4;월에 기능 업데이트 X는 CBB로 릴리스됩니다. 장치는 이 CBB 릴리스 후 30일 후에 기능 업데이트를 수신하며 5월에 업데이트됩니다.
+    **서비스 분기가 CBB로 설정되고 지연 기간이 30일인 경우**: 기능 업데이트 X가 Windows 업데이트에서 1월에 CB로 처음으로 공개적으로 제공된다고 가정하겠습니다. 4개월 후 4월에 기능 업데이트 X는 CBB로 릴리스됩니다. 장치는 이 CBB 릴리스 후 30일 후에 기능 업데이트를 수신하며 5월에 업데이트됩니다.
 
     - **배달 최적화**: 장치가 Windows 업데이트를 다운로드하는 방법을 선택합니다. 자세한 내용은 [DeliveryOptimization/DEDownloadMode](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider#deliveryoptimization-dodownloadmode)를 참조하세요.
 8. 마치면 **확인**을 클릭한 다음 **업데이트 링 만들기** 블레이드에서 **만들기**를 클릭합니다.

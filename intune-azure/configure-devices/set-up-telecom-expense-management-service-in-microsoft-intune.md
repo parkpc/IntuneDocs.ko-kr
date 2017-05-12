@@ -15,10 +15,11 @@ ms.assetid: b7bf5802-4b65-4aeb-ac99-8e639dd89c2a
 ms.reviewer: sumitp
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: a981b0253f56d66292ce77639faf4beba8832a9e
-ms.openlocfilehash: b0d0ad102942c65ac3988ea4659b34b397289126
-ms.lasthandoff: 04/19/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: e0f40d21412e261d31a0a492c260a6097d4dd007
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -99,7 +100,7 @@ Intune은 현재 다음 Telecom Expense Management 공급자와 통합되어 있
 
 조직의 필요에 따라 두 개 이상의 장치 범주(예: 회사 및 개인)를 만들고 각 범주에 대한 동적 장치 그룹을 만들어야 합니다. 필요에 따라 조직에 맞는 범주를 추가로 만들 수 있습니다.
 
-이러한 범주는 사용자가 등록할 때 표시됩니다. 사용자가 선택하는 범주에 따라 등록된 장치는 해당하는 장치 그룹으로 이동됩니다. 장치 범주를 만드는 방법에 대한 단계는 [Map devices to groups](https://docs.microsoft.com/intune-azure/enroll-devices/how-to-use-device-group-mapping)(그룹에 장치 매핑)를 참조하세요.
+이러한 범주는 사용자가 등록할 때 표시됩니다. 사용자가 선택하는 범주에 따라 등록된 장치는 해당하는 장치 그룹으로 이동됩니다. 장치 범주를 만드는 방법에 대한 단계는 [Map devices to groups](../enroll-devices/how-to-use-device-group-mapping.md)(그룹에 장치 매핑)를 참조하세요.
 
   ![정책 추가 블레이드의 스크린 샷](../media/tem-dynamic-membership-rules.png)
 

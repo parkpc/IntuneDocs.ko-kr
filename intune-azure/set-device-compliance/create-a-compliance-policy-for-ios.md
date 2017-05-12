@@ -15,10 +15,11 @@ ms.assetid: 3cfb8222-d05b-49e3-ae6f-36ce1a16c61d
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: c2ace3061e175a6eefd864bdda176651cc09a5b1
-ms.lasthandoff: 02/18/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 6fb4b81e11ae8c66341922898d9ecc4cce3a002d
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -109,7 +110,7 @@ iOS 장치의 경우 이 설정은 암호에 포함해야 하는 특수 문자(�
   - 사용자가 장치에 배포된 Intune 메일 프로필과 일치하는 메일 계정을 이미 장치에서 설정했습니다. Intune은 사용자가 프로비전한 프로필을 덮어쓸 수 없으므로 이러한 프로필을 관리할 수 없습니다. 장치의 준수 상태를 유지하려면 사용자는 기존 메일 설정을 제거해야 합니다. 그런 다음 Intune이 관리되는 메일 프로필을 설치할 수 있습니다.
 - **Intune에서 관리해야 하는 메일 프로필 선택**: **Intune에서 메일 계정을 관리해야 함** 설정을 선택할 경우 **선택**을 선택하여 Intune 메일 프로필을 지정합니다. 장치에 전자 메일 프로필이 있어야 합니다.
 
-메일 프로필에 대한 자세한 내용은 [Microsoft Intune에서 메일 프로필을 사용하여 회사 메일에 대한 액세스 구성](https://docs.microsoft.com/en-us/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune)을 참조하세요.
+메일 프로필에 대한 자세한 내용은 [Microsoft Intune에서 메일 프로필을 사용하여 회사 메일에 대한 액세스 구성](https://docs.microsoft.com/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune)을 참조하세요.
 
 ## <a name="device-health-settings"></a>장치 상태 설정
 

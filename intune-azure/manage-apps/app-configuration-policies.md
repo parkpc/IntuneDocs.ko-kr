@@ -1,12 +1,12 @@
 ---
-title: "Intune 앱 구성 정책을 사용하는 방법"
+title: "Intune 앱 구성 정책을 사용하는 방법 | Microsoft 문서"
 titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 앱 구성 정책을 사용하여 iOS 앱을 실행할 때 이 앱에 구성 데이터를 제공하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/24/2017
+ms.date: 05/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: c9163693-d748-46e0-842a-d9ba113ae5a8
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
-ms.openlocfilehash: 82af84bc3e31317023a2f8f7089431b1dbcaed52
-ms.lasthandoff: 04/24/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 847ddf08fdd7308475895af36f43c5391c9556fa
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -40,7 +41,7 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 앱을 실
 
 앱 구성 정책을 사용하는 경우 사용자가 앱을 실행하기 전에 정책에서 이러한 설정을 사용자에게 할당할 수 있으므로 이러한 문제를 방지할 수 있습니다. 배포한 설정은 자동으로 제공되므로 사용자가 아무런 작업을 수행하지 않아도 됩니다.
 
-사용자 및 장치에 이러한 정책을 직접 할당하지는 않으며, 대신 앱에 정책을 연결한 다음 앱을 배포합니다. 정책 설정은 앱에서 해당 설정을 확인할 때마다(일반적으로는 앱을 처음 실행할 때) 사용됩니다.
+사용자 및 장치에 이러한 정책을 직접 할당하지는 않으며, 대신 앱에 정책을 연결한 다음 앱을 할당합니다. 정책 설정은 앱에서 해당 설정을 확인할 때마다(일반적으로는 앱을 처음 실행할 때) 사용됩니다.
 
 > [!TIP]
 > 이 정책 유형은 현재 iOS 8.0 이상을 실행하는 장치에서만 사용 가능합니다. 지원하는 앱 설치 유형은 다음과 같습니다.
@@ -48,7 +49,7 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 앱을 실
 > -   **앱 스토어의 관리되는 iOS 앱**
 > -   **iOS용 앱 패키지**
 >
-> 앱 설치 유형에 대한 자세한 내용은 [Microsoft Intune에 앱을 추가하는 방법](/intune-azure/manage-apps/add-apps)을 참조하세요.
+> 앱 설치 유형에 대한 자세한 내용은 [Microsoft Intune에 앱을 추가하는 방법](add-apps.md)을 참조하세요.
 
 ## <a name="create-an-app-configuration-policy"></a>앱 구성 정책 만들기
 

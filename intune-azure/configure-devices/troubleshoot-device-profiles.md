@@ -1,12 +1,12 @@
 ---
-title: "Microsoft Intune에서 장치 프로필 문제 해결"
+title: "Microsoft Intune에서 장치 프로필 문제 해결 | Microsoft 문서"
 titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 이 항목을 사용하여 Intune 장치 프로필 관련 문제를 해결할 수 있습니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/13/2017
+ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid:
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
-ms.openlocfilehash: 9bc5b328fc204a12cf7aa992f62ac00b9ddfd45d
-ms.lasthandoff: 03/13/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: e2d0adc25417db96a2aeb1e57c2ef444dc96ff4d
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -30,10 +31,10 @@ ms.lasthandoff: 03/13/2017
 
 이 항목의 정보를 사용하여 Intune 장치 프로필과 관련된 일반적인 문제를 해결할 수 있습니다.
 
-## <a name="how-long-does-it-take-for-mobile-devices-to-get-a-policy-or-apps-after-they-have-been-deployed"></a>정책 또는 앱을 배포한 후 모바일 장치에서 해당 정책 또는 앱을 수신할 때까지 걸리는 시간
-정책 또는 앱을 배포하면 Intune에서는 Intune 서비스에 체크 인해야 한다는 알림을 장치에 즉시 보내기 시작합니다. 이 과정은 대개&5;분 이내에 완료됩니다.
+## <a name="how-long-does-it-take-for-mobile-devices-to-get-a-policy-or-apps-after-they-have-been-assigned"></a>정책 또는 앱을 할당한 후 모바일 장치에서 해당 정책 또는 앱을 수신할 때까지 걸리는 시간
+정책 또는 앱을 할당하면 Intune에서는 Intune 서비스에 체크 인해야 한다는 알림을 장치에 즉시 보내기 시작합니다. 이 과정은 대개 5분 이내에 완료됩니다.
 
-첫 번째 알림을 보낸 후 장치가 정책을 수신하기 위해 체크 인하지 않으면 알림을&3;번 더 보냅니다.  장치가 꺼져 있거나 네트워크에 연결되어 있지 않은 등 오프라인 상태인 경우에는 알림을 받지 못할 수 있습니다. 이 경우 장치는 아래와 같이 다음에 예약된 Intune 서비스 체크 인 시에 정책을 수신하게 됩니다.
+첫 번째 알림을 보낸 후 장치가 정책을 수신하기 위해 체크 인하지 않으면 알림을 3번 더 보냅니다.  장치가 꺼져 있거나 네트워크에 연결되어 있지 않은 등 오프라인 상태인 경우에는 알림을 받지 못할 수 있습니다. 이 경우 장치는 아래와 같이 다음에 예약된 Intune 서비스 체크 인 시에 정책을 수신하게 됩니다.
 
 - iOS 및 macOS: 6시간마다
 - Android: 8시간마다
@@ -50,12 +51,12 @@ ms.lasthandoff: 03/13/2017
 사용자는 언제든지 회사 포털 앱을 열어 장치를 동기화해 즉시 정책을 확인할 수도 있습니다.
 
 ## <a name="what-actions-cause-intune-to-immediately-send-a-notification-to-a-device"></a>Intune에서 장치에 알림을 즉시 보내도록 하는 작업
-장치는 체크 인하라는 알림을 받거나 정기 예약 체크 인 중에 Intune에 체크 인합니다.  초기화, 잠금, 암호 재설정, 앱 배포, 프로필 배포(Wi-Fi, VPN, 메일 등) 또는 정책 배포와 같은 작업으로 장치나 사용자를 대상으로 지정하면 Intune에서는 이러한 업데이트를 받으려면 Intune 서비스에 체크 인해야 한다는 알림을 장치에 즉시 보내기 시작합니다.
+장치는 체크 인하라는 알림을 받거나 정기 예약 체크 인 중에 Intune에 체크 인합니다.  초기화, 잠금, 암호 재설정, 앱 할당, 프로필 할당(Wi-Fi, VPN, 메일 등) 또는 정책 할당과 같은 작업으로 장치나 사용자를 대상으로 지정하면 Intune에서는 이러한 업데이트를 받으려면 Intune 서비스에 체크 인해야 한다는 알림을 장치에 즉시 보내기 시작합니다.
 
 회사 포털에서 연락처 정보를 수정하는 등의 기타 변경 작업을 수행하는 경우에는 장치에 알림이 즉시 전송되지 않습니다.
 
-## <a name="if-multiple-policies-are-deployed-to-the-same-user-or-device-how-do-i-know-which-settings-will-get-applied"></a>여러 정책을 같은 사용자 또는 장치에 배포하는 경우 적용되는 설정을 확인하는 방법
-둘 이상의 정책을 같은 사용자 또는 장치에 배포할 때는 개별 설정 수준에서 적용되는 설정을 평가합니다.
+## <a name="if-multiple-policies-are-assigned-to-the-same-user-or-device-how-do-i-know-which-settings-will-get-applied"></a>여러 정책을 같은 사용자 또는 장치에 할당하는 경우 적용되는 설정을 확인하는 방법
+둘 이상의 정책을 같은 사용자 또는 장치에 할당할 때는 개별 설정 수준에서 적용되는 설정을 평가합니다.
 
 -   준수 정책 설정은 항상 구성 정책 설정보다 우선적으로 적용됩니다.
 
@@ -63,25 +64,25 @@ ms.lasthandoff: 03/13/2017
 
 -   구성 정책 설정이 다른 구성 정책의 설정과 충돌하는 경우 이 충돌이 Intune 콘솔에 표시됩니다. 이러한 충돌은 수동으로 해결해야 합니다.
 
-## <a name="what-happens-when-mobile-application-management-policies-conflict-with-each-other-which-one-will-be-applied-to-the-app"></a>모바일 응용 프로그램 관리 정책이 서로 충돌하는 경우 앱에 적용되는 정책
-다시 설정 전까지의 PIN 입력 시도와 같이 숫자 입력 필드에 대한 설정을 제외하면, 충돌하는 값은 MAM 정책에서 사용 가능한 가장 제한적인 설정으로 지정됩니다.  숫자 입력 필드의 경우 권장 설정 옵션을 사용하여 콘솔에서 MAM 정책을 만드는 경우의 값과 동일하게 설정됩니다.
+## <a name="what-happens-when-app-protection-policies-conflict-with-each-other-which-one-will-be-applied-to-the-app"></a>앱 보호 정책이 서로 충돌하는 경우 앱에 적용되는 정책
+다시 설정 전까지의 PIN 입력 시도와 같이 숫자 입력 필드에 대한 설정을 제외하면, 충돌하는 값은 앱 보호 정책에서 사용 가능한 가장 제한적인 설정으로 지정됩니다.  숫자 입력 필드의 경우 권장 설정 옵션을 사용하여 콘솔에서 MAM 정책을 만드는 경우의 값과 동일하게 설정됩니다.
 
-두 정책 설정이 동일하면 충돌이 발생합니다.  복사/붙여넣기 설정을 제외하면 동일한 두 MAM 정책을 구성한 경우를 예로 들 수 있습니다.  이 경우 복사/붙여넣기 설정이 가장 제한적인 값으로 설정되며 나머지 설정은 구성된 대로 적용됩니다.
+두 프로필 설정이 동일하면 충돌이 발생합니다.  복사/붙여넣기 설정을 제외하면 동일한 두 MAM 정책을 구성한 경우를 예로 들 수 있습니다.  이 경우 복사/붙여넣기 설정이 가장 제한적인 값으로 설정되며 나머지 설정은 구성된 대로 적용됩니다.
 
-정책 하나를 앱에 배포하여 적용한 후에 두 번째 정책을 배포하는 경우 처음 배포한 정책이 우선권을 가지게 되므로 적용된 상태로 유지되고 두 번째 정책은 충돌하는 정책으로 표시됩니다. 둘 다 동시에 적용되면 이전 정책이 없으므로 두 정책이 충돌하게 됩니다. 충돌하는 설정이 가장 제한적인 값으로 설정됩니다.
+프로필 하나를 앱에 할당하여 적용한 후에 두 번째 프로필을 배포하는 경우 처음 할당한 프로필이 우선권을 가지게 되므로 적용된 상태로 유지되고 두 번째 프로필은 충돌하는 프로필로 표시됩니다. 둘 다 동시에 적용되면 이전 프로필이 없으므로 두 프로필이 충돌하게 됩니다. 충돌하는 설정이 가장 제한적인 값으로 설정됩니다.
 
 ## <a name="what-happens-when-ios-custom-policies-conflict"></a>iOS 사용자 지정 정책 충돌 시의 결과
-Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI(Open Mobile Alliance Uniform Resource Identifier) 정책 페이로드를 평가하지 않으며 전달 메커니즘으로만 작동합니다.
+Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI(Open Mobile Alliance Uniform Resource Identifier) 프로필 페이로드를 평가하지 않으며 전달 메커니즘으로만 작동합니다.
 
-사용자 지정 정책을 배포할 때는 구성된 설정이 준수, 구성 또는 기타 사용자 지정 정책과 충돌하지 않는지 확인해야 합니다. 설정이 충돌하는 사용자 지정 정책에서는 설정이 임의 순서에 따라 적용됩니다.
+사용자 지정 프로필을 할당할 때는 구성된 설정이 준수, 구성 또는 기타 사용자 지정 정책과 충돌하지 않는지 확인해야 합니다. 설정이 충돌하는 사용자 지정 프로필에서는 설정이 임의 순서에 따라 적용됩니다.
 
-## <a name="what-happens-when-a-policy-is-deleted-or-no-longer-applicable"></a>정책이 삭제되거나 더 이상 적용할 수 없는 경우 어떻게 되나요?
-정책을 삭제하거나 정책이 배포된 그룹에서 장치를 제거하면, 정책 및 설정이 다음 목록에 따라 장치에서 제거됩니다.
+## <a name="what-happens-when-a-profile-is-deleted-or-no-longer-applicable"></a>프로필이 삭제되거나 더 이상 적용할 수 없는 경우 어떻게 되나요?
+프로필을 삭제하거나 프로필이 할당된 그룹에서 장치를 제거하면, 프로필 및 설정이 다음 목록에 따라 장치에서 제거됩니다.
 
 ### <a name="enrolled-devices"></a>등록된 장치
 
 - Wi-Fi, VPN, 인증서 및 전자 메일 프로필: 이러한 프로필은 지원되는 모든 등록된 장치에서 제거됩니다.
-- 다른 모든 정책 유형:
+- 모든 기타 프로필 유형:
     - **Windows 및 Android 장치**: 설정이 장치에서 제거되지 않습니다.
     - **Windows Phone 8.1 장치**: 다음 설정이 제거됩니다.
         - 모바일 장치의 잠금을 해제하는 데 암호 필요
@@ -115,44 +116,13 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI(Open Mobile Allian
         - 데이터 로밍 허용
         - 로밍하는 동안 자동 동기화 허용
 
-### <a name="windows-pcs-running-the-intune-client-software"></a>Intune 클라이언트 소프트웨어를 실행하는 Windows PC
+## <a name="i-changed-a-device-restriction-profile-but-the-changes-havent-taken-effect"></a>장치 제한 프로필을 변경했지만 변경 내용이 적용되지 않습니다.
+Windows Phone은 MDM 또는 EAS를 통해 보안 정책을 설정하면 이 정책의 보안 강도가 줄어드는 것을 허용하지 않습니다. 예를 들어 **문자 암호의 최소 수** 를 8로 설정한 다음 4로 줄이려고 합니다. 더 제한적인 프로필이 이미 장치에 적용되었습니다.
 
-- **Endpoint Protection 설정**: 설정이 원래 권장 값으로 복원됩니다. 유일한 예외는 기본값이 **아니요**인 **Microsoft 활성 보호 서비스에 가입** 설정입니다. 자세한 내용은 [Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune) 항목을 참조하세요.
-- **소프트웨어 업데이트 설정**: 설정이 운영 체제의 기본 상태로 다시 설정됩니다. 자세한 내용은 [Microsoft Intune에서 소프트웨어 업데이트를 사용하여 Windows PC를 최신 상태로 유지](/intune/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune) 항목을 참조하세요.
-- **Microsoft Intune Center 설정**: 정책에서 구성된 모든 지원 연락처 정보가 컴퓨터에서 삭제됩니다.
-- **Windows 방화벽 설정**: 설정이 컴퓨터 운영 체제의 기본값으로 다시 설정됩니다. 자세한 내용은 [Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune) 항목을 참조하세요.
-
-
-## <a name="how-can-i-refresh-the-policies-on-a-device-to-ensure-that-they-are-current-applies-to-windows-pcs-running-the-intune-client-software-only"></a>장치의 정책을 최신 상태로 되도록 새로 고치려면(Intune 클라이언트 소프트웨어를 실행하는 Windows PC에만 적용) 어떻게 하나요?
-
-1.  장치 그룹에서 정책을 새로 고칠 장치를 선택한 후 **원격 작업** &gt; **정책 새로 고침**을 선택합니다.
-2.  Intune 관리 콘솔의 오른쪽 아래에서 **원격 작업**을 선택하여 작업 상태를 확인합니다.
-
-
-
-### <a name="how-do-i-know-that-my-profile-was-assigned-to-a-device"></a>내 프로필이 장치에 할당되었는지 어떻게 알 수 있습니까?
-
-Intune 관리 콘솔에서 모든 장치에는 **장치 속성**아래에 정책 탭이 있습니다. 각 정책에는 **의도한 값** 및 **상태**가 있습니다. 의도한 값은 정책을 할당할 때 달성하고자 하는 값입니다. 상태는 장치에 적용되는 모든 정책 및 하드웨어와 운영 체제의 제한 사항과 요구 사항을 함께 고려할 때 실제로 적용되는 상태를 말합니다. 가능한 상태는 다음과 같습니다.
-
--   **준수**: 장치가 설정을 준수하는 정책 및 서비스에 대한 보고서 받았습니다.
-
--   **적용할 수 없음**: 정책 설정을 적용할 수 없습니다. 예를 들어 iOS 장치에 대한 메일 설정이 Android 장치에 적용되지 않습니다.
-
--   **보류 중**: 정책이 장치에 전송되었지만 서비스에 상태를 보고하지 않았습니다. 예를 들어 Android에서의 암호화의 경우, 사용자가 암호화를 사용하도록 설정해야 하고, 따라서 보류 중일 수 있습니다.
-
-
-> [!NOTE]
-> 제한 수준이 다른 두 정책을 같은 장치나 사용자에 적용하면 보다 제한적인 정책이 실제로 적용됩니다.
-
-
-## <a name="i-changed-a-device-restriction-policy-but-the-changes-havent-taken-effect"></a>장치 제한 정책을 변경했지만 변경 내용이 적용되지 않습니다.
-Windows Phone은 MDM 또는 EAS를 통해 보안 정책을 설정하면 이 정책의 보안 강도가 줄어드는 것을 허용하지 않습니다. 예를 들어 **문자 암호의 최소 수** 를 8로 설정한 다음 4로 줄이려고 합니다. 더 제한적인 정책이 이미 장치에 적용되었습니다.
-
-장치 플랫폼에 따라서는 정책을 덜 안전한 값으로 변경하려는 경우 보안 정책을 다시 설정해야 할 수 있습니다.
+장치 플랫폼에 따라서는 프로필을 덜 안전한 값으로 변경하려는 경우 보안 정책을 다시 설정해야 할 수 있습니다.
 예를 들어, 데스크톱 Windows에서는, 오른쪽에서 안쪽으로 살짝 밀어 **참 메뉴** 모음을 열고 **설정** &gt; **제어판**을 선택합니다.  **사용자 계정** 애플릿을 선택합니다.
 왼쪽 탐색 메뉴에는 맨 아래에 **보안 정책 재설정** 링크가 있습니다. 선택한 후 **정책 재설정** 단추를 선택합니다.
-Android, Windows Phone 8.1 이상 및 iOS와 같은 기타 MDM 장치의 경우 제한적인 정책을 적용할 수 있도록 사용을 중지하고 덜 서비스에 다시 등록해야 해야 합니다.
-
+Android, Windows Phone 8.1 이상 및 iOS와 같은 기타 MDM 장치의 경우 제한적인 프로필을 적용할 수 있도록 사용을 중지하고 덜 서비스에 다시 등록해야 해야 합니다.
 
 <!--- ## Status codes for MDM managed Windows devices
 
@@ -499,4 +469,4 @@ Android, Windows Phone 8.1 이상 및 iOS와 같은 기타 MDM 장치의 경우 
 --->
 
 ### <a name="next-steps"></a>다음 단계
-문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)의 설명에 따라 Microsoft 지원에 문의하세요.
+문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](../introduction/how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.

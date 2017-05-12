@@ -15,10 +15,11 @@ ms.assetid: 4e3627bd-a9fd-49bc-b95e-9b7532f0ed55
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 5f172290d493717308446c4f9e2313a03ba8f3aa
-ms.openlocfilehash: 164518c320ba3d82abf101e76d911b7424f2f6cd
-ms.lasthandoff: 04/27/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 45141f90aff08a04340491821fef42529e4ac768
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -51,7 +52,7 @@ WIP 정책을 추가할 때 적용되는 몇 가지 개념에 대해 살펴보�
 
 WIP 앱 보호 정책을 만들려면 먼저 MAM 공급자를 구성해야 합니다.
 
--   [Intune을 사용하여 MAM 공급자를 구성하는 방법](https://docs.microsoft.com/intune-azure/manage-apps/get-ready-to-configure-app-protection-policies-for-windows-10)에 대해 자세히 알아보세요.
+-   [Intune을 사용하여 MAM 공급자를 구성하는 방법](https://docs.microsoft.comget-ready-to-configure-app-protection-policies-for-windows-10.md)에 대해 자세히 알아보세요.
 
 다음과 같은 구성 요소도 필요합니다.
 
@@ -165,7 +166,7 @@ WIP(Windows Information Protection) 학습은 관리자가 WIP에서 알 수 없
 
 2. 왼쪽 메뉴에서 **More services**(추가 서비스)를 선택한 다음 텍스트 상자 필터에 **Intune**을 입력합니다.
 
-3. **Intune**을 선택하면 열리는 **Intune 대시보드**에서 **Mobile apps**를 선택합니다.
+3. **Intune**을 선택하면 열리는 **Intune 대시보드**에서 **Mobile Apps**를 선택합니다.
 
 4. **모니터** 섹션 아래에서 **WIP 학습**을 선택합니다. WIP 학습에서 로깅한 알 수 없는 앱이 표시됩니다.
 

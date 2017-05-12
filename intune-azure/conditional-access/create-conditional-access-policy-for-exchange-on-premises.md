@@ -14,10 +14,11 @@ ms.technology:
 ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: c8715f96f532ee6bacda231e1147d03226ecbb48
-ms.openlocfilehash: 2a011bf390bb55d685f580cfc782b21ff0c2ebd5
-ms.lasthandoff: 04/26/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 289635354e7e2244857f56655de6ee227bf97ee7
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -36,7 +37,7 @@ Exchange Online Dedicated 환경이 있고 신규 또는 기존 구성 상태인
 
 - Exchange 버전은 **Exchange 2010 SP1 이상**이어야 합니다. Exchange Server CAS(클라이언트 액세스 서버) 배열이 지원됩니다.
 
-- Intune을 온-프레미스 Exchange에 연결하는 [Exchange Active Sync 온-프레미스 Exchange 커넥터](https://docs.microsoft.com/intune-azure/conditional-access/install-intune-on-premises-exchange-connector)를 사용해야 합니다.
+- Intune을 온-프레미스 Exchange에 연결하는 [Exchange Active Sync 온-프레미스 Exchange 커넥터](install-intune-on-premises-exchange-connector.md)를 사용해야 합니다.
 
     >[!IMPORTANT]
     >온-프레미스 Exchange 커넥터는 Intune 테넌트별로 다르며 다른 테넌트에서는 사용할 수 없습니다. 또한 테넌트용 Exchange Connector가 **한 대의 컴퓨터**에만 설치되어 있는지 확인해야 합니다.
