@@ -14,9 +14,11 @@ ms.assetid: 7d6dae94-a833-40b7-9016-14ea234bb33c
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e2503c44f434e67f45064f28d1e921eb5accb0b6
-ms.openlocfilehash: 2707e3fae32e73aa17696886f493932e903ffc10
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 2b064d14e8a46c19c0eafc3276b470dead114438
+ms.openlocfilehash: e7fd0a83e21d499da39bd65502d8981bc3b1f61c
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/06/2017
 
 
 ---
@@ -40,7 +42,7 @@ Azure Portal은 다음에 대한 앱 보호 정책을 만들고 관리하는 데
 
 ## <a name="sign-in-to-the-azure-portal-and-customize-your-start-page"></a>Azure 포털에 로그인하고 시작 페이지를 사용자 지정합니다.
 
-1.  [Azure Portal](https://portal.azure.com)로 이동한 다음 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 자격 증명을 사용하여 로그인합니다.
+1.  [Azure Portal](https://portal.azure.com)로 이동한 다음 Intune 자격 증명을 사용하여 로그인합니다.
 
     ![Azure Portal 로그인 페이지의 스크린 샷](../media/AppManagement/AzurePortal_MAMSigninPage.png)
 
@@ -64,9 +66,4 @@ Azure Portal은 다음에 대한 앱 보호 정책을 만들고 관리하는 데
 
 ## <a name="next-steps"></a>다음 단계
 [앱 보호 정책 구성 준비](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

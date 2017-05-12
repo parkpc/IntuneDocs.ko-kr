@@ -15,10 +15,11 @@ ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 82585886bb053d5b6b5981f61d0337fc6feffea4
-ms.openlocfilehash: b26d66d557e084b5b328aec2222c50c2db254bf7
-ms.lasthandoff: 03/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 91c6b063fbc17cf92aab50c4911e4bb33b76deb9
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -27,7 +28,7 @@ ms.lasthandoff: 03/14/2017
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
-Intune은 iPad, iPhone 및 Mac 컴퓨터의 MDM(모바일 장치 관리)을 가능하게 하고, 사용자가 회사 메일 및 앱에 액세스할 수 있게 해줍니다. MDM Push Certificate는 Intune에서 iOS 및 Mac 장치를 관리하는 데 필요합니다. 인증서를 Intune에 추가하면 사용자가 회사 포털 앱을 설치하여 장치를 등록할 수도 있습니다. Apple 장비 등록 프로그램을 사용하여 회사 소유 iOS 장치 관리를 설정하거나 예를 들어 Apple Configurator를 사용하여 장치를 등록할 수 있습니다. 등록 옵션에 대한 자세한 내용은 [iOS 장치를 등록하는 방법 선택](https://docs.microsoft.com/intune-azure/enroll-devices/choose-ios-enrollment-method)을 참조하세요.
+Intune은 iPad, iPhone 및 Mac 컴퓨터의 MDM(모바일 장치 관리)을 가능하게 하고, 사용자가 회사 메일 및 앱에 액세스할 수 있게 해줍니다. MDM Push Certificate는 Intune에서 iOS 및 Mac 장치를 관리하는 데 필요합니다. 인증서를 Intune에 추가하면 사용자가 회사 포털 앱을 설치하여 장치를 등록할 수도 있습니다. Apple 장비 등록 프로그램을 사용하여 회사 소유 iOS 장치 관리를 설정하거나 예를 들어 Apple Configurator를 사용하여 장치를 등록할 수 있습니다. 등록 옵션에 대한 자세한 내용은 [iOS 장치를 등록하는 방법 선택](choose-ios-enrollment-method.md)을 참조하세요.
 
 ## <a name="steps-to-get-your-certificate"></a>인증서를 가져오는 단계
 Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다. Intune 블레이드에서 **장치 등록** > **Apple 등록** **Apple MDM Push Certificate**를 선택한 후 Azure Portal에서 번호가 매겨진 단계(아래 참조)를 따릅니다.

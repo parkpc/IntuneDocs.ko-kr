@@ -15,23 +15,24 @@ ms.assetid: 4724d6e5-05e5-496c-9af3-b74f083141f8
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
-ms.openlocfilehash: ac27b1915483568b9b9857405f7acaf704fd53d9
-ms.lasthandoff: 04/19/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 05afa9140e34b372cc49ace03a3ada965b907c17
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
 
 # <a name="create-intune-custom-profile-settings-for-android-for-work-devices"></a>Android for Work 장치에 대한 Intune 사용자 지정 프로필 설정 만들기
 
-Intune Android for Work 사용자 지정 구성 정책을 사용하여 Android for Work 장치에서 기능을 제어하는 데 사용할 수 있는 OMA-URI 설정을 배포합니다. 이는 많은 모바일 장치 제조업체가 장치 기능을 제어하는 데 사용하는 표준 설정입니다.
+Intune Android for Work 사용자 지정 구성 정책을 사용하여 Android for Work 장치에서 기능을 제어하는 데 사용할 수 있는 OMA-URI 설정을 할당합니다. 이는 많은 모바일 장치 제조업체가 장치 기능을 제어하는 데 사용하는 표준 설정입니다.
 
-이 기능은 Intune 정책을 사용하여 구성할 수 없는 Android 설정을 배포할 수 있도록 하기 위한 것입니다. Intune은 현재 제한된 수의 Android 사용자 지정 정책을 지원합니다. 이 항목의 예제를 참조하여 구성할 수 있는 정책이 무엇인지 알아보세요.
+이 기능은 Intune 정책을 사용하여 구성할 수 없는 Android 설정을 할당할 수 있도록 하기 위한 것입니다. Intune은 현재 제한된 수의 Android 사용자 지정 정책을 지원합니다. 이 항목의 예제를 참조하여 구성할 수 있는 정책이 무엇인지 알아보세요.
 
 ## <a name="create-a-custom-profile"></a>사용자 지정 프로필 만들기
 
-1. [사용자 지정 장치 설정을 구성하는 방법](/intune-azure/configure-devices/how-to-configure-custom-settings)의 지침을 사용하여 시작합니다.
+1. [사용자 지정 장치 설정을 구성하는 방법](how-to-configure-custom-settings.md)의 지침을 사용하여 시작합니다.
 2. **사용자 지정 OMA-URI 설정** 블레이드에서 **추가**를 선택하여 새 설정을 추가합니다.
 3. **행 추가** 블레이드에서 다음을 구성합니다.
     - **이름** - Intune 포털에서 쉽게 식별할 수 있도록 Android for Work 사용자 지정 정책에 대한 고유한 이름을 입력합니다.

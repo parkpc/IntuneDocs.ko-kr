@@ -15,10 +15,10 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: c8715f96f532ee6bacda231e1147d03226ecbb48
-ms.openlocfilehash: 81f5b33bc344cd6ed305d72178c7eb4cac315a13
+ms.sourcegitcommit: 90222b10832fd8251ad897348eeebed5b3d1e552
+ms.openlocfilehash: a14f308102d677015dae93eb2c1a36ca95662056
 ms.contentlocale: ko-kr
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/11/2017
 
 
 ---
@@ -81,8 +81,8 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
    - **사용자 선호도 확인**: 초기 설치 작업을 진행할 때 먼저 장치에 사용자 정보를 등록해야만 해당 사용자로 회사 데이터와 메일에 액세스하도록 허용할 수 있습니다. 사용자에게 속해 있으며 회사 포털을 사용해야 하는(즉, 앱을 설치해야 하는) DEP 관리 장치에 대한 **사용자 선호도**를 설정해야 합니다. MFA(다단계 인증)는 사용자 선호도가 있는 DEP 장치에 등록하는 동안 작동하지 않습니다. 등록 후 MFA는 이러한 장치에서 예상대로 작동합니다. DEP 장치에서는 처음 로그인할 때 자신의 암호를 변경해야 하는 새 사용자에게 등록 중에 메시지를 표시할 수 없습니다. 또한 암호가 만료된 사용자는 DEP 등록 중에 암호를 다시 설정하라는 메시지가 표시되지 않으며, 다른 장치에서 암호를 다시 설정해야 합니다.
 
-   > [!NOTE]
-   > 사용자 선호도가 있는 DEP에서는 사용자 토큰을 요청하기 위해 WS-Trust 1.3 사용자 이름/혼합 끝점이 사용 가능하게 설정되어야 합니다.
+       >[!NOTE]
+       >사용자 선호도를 사용하는 DEP에서는 사용자 토큰을 요청하려면 [WS-Trust 1.3 사용자 이름/혼합 끝점](https://technet.microsoft.com/en-us/library/adfs2-help-endpoints)을 사용하도록 설정해야 합니다. [WS-Trust 1.3에 대해 자세히 알아보세요](https://technet.microsoft.com/itpro/powershell/windows/adfs/get-adfsendpoint).
 
    - **사용자 선호도 없음**: 장치에 사용자 정보를 등록하지 않습니다. 로컬 사용자 데이터에 액세스하지 않고도 작업을 수행하는 장치에 대해 이 정보를 사용합니다. 기간 업무 앱을 설치하는 데 사용하는 회사 포털 앱 등 사용자 선호도가 필요한 앱은 작동하지 않습니다.
 

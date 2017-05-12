@@ -1,12 +1,12 @@
 ---
-title: "Microsoft Intune에 앱을 추가하는 방법"
+title: "Microsoft Intune에 앱을 추가하는 방법 | Microsoft 문서"
 titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 이러한 절차를 통해 사용자 및 장치에 할당할 준비가 된 Intune으로 앱을 가져올 수 있습니다. "
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/22/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,10 +16,10 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
-ms.openlocfilehash: 92fb84726846c1eb0fb44db1961a225922e9d9aa
+ms.sourcegitcommit: 529a3e91e1f86129de77df0529f48a42f86a6521
+ms.openlocfilehash: 69ae0926631edc00cc2dc12be559d366e1623140
 ms.contentlocale: ko-kr
-ms.lasthandoff: 04/24/2017
+ms.lasthandoff: 05/11/2017
 
 ---
 
@@ -41,7 +41,9 @@ Intune을 사용하여 다음 앱 유형을 추가하고 지정할 수 있습니
 - iOS LOB(기간 업무) 앱
 - 웹앱
 - Windows Phone 8.1 스토어 앱
+- Windows Phone LOB(기간 업무) 앱(.xap 파일)
 - Windows 스토어 앱
+- Windows LOB(기간 업무) 앱(.msi 파일)
 
 >[!TIP]
 > 기간 업무(또는 LOB) 앱은 앱 스토어에서 설치하는 것이 아니라 앱 설치 파일에서 설치하는 앱입니다. 예를 들어 iOS LOB 앱을 설치하려면 응용 프로그램 보관 파일(확장명: .ipa)을 추가합니다. 일반적으로 이러한 앱은 사내에서 작성한 앱입니다.
@@ -50,8 +52,8 @@ Intune을 사용하여 다음 앱 유형을 추가하고 지정할 수 있습니
 
 앱을 추가하고 할당하기 전에 다음 사항을 고려해야 합니다.
 
-- 스토어에서 앱을 추가하고 배포하는 경우 앱을 설치할 수 있도록 최종 사용자에게 해당 스토어의 계정이 있어야 합니다.
-- 배포한 앱 또는 항목 중 일부는 기본 제공 iOS 앱에 종속될 수 있습니다. 예를 들어 iOS 스토어에서 책을 배포하는 경우 iBooks 앱은 장치에 있어야 합니다. iBooks 기본 제공 앱을 제거한 경우에는 Intune을 사용하여 복구할 수 없습니다.
+- 스토어에서 앱을 추가하고 할당하는 경우 앱을 설치할 수 있도록 최종 사용자에게 해당 스토어의 계정이 있어야 합니다.
+- 할당한 앱 또는 항목 중 일부는 기본 제공 iOS 앱에 종속될 수 있습니다. 예를 들어 iOS 스토어에서 책을 할당하는 경우 iBooks 앱은 장치에 있어야 합니다. iBooks 기본 제공 앱을 제거한 경우에는 Intune을 사용하여 복구할 수 없습니다.
 
 ## <a name="cloud-storage-space"></a>클라우드 저장소 공간
 소프트웨어 설치 관리자 설치 유형(예: 기간 업무 앱)을 사용하여 만든 모든 앱은 패키징된 후 Intune 클라우드 저장소로 업로드됩니다. Intune의 평가판 구독에는 관리 앱 및 업데이트를 저장하는 데 사용되는 클라우드 기반의 2GB 저장소가 포함됩니다. 전체 구독에는 20GB의 저장소 공간이 포함됩니다.
@@ -70,7 +72,7 @@ Intune에 앱을 추가하는 경우 원하는 범주를 선택할 수 있는 �
 
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **앱 관리**를 선택합니다.
+3. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
 4. **모바일 앱** 워크로드에서 **설정** > **앱 범주**를 선택합니다.
 5. **앱 범주** 블레이드에 현재 범주 목록이 표시됩니다. 다음 작업 중 하나를 선택합니다.
     - **범주 만들기** - **범주 만들기** 블레이드에서 새 범주의 이름을 입력합니다. 이름은 하나의 언어로만 입력할 수 있으며, Intune에서 번역되지 않습니다. 완료되면 **만들기**를 클릭합니다.
@@ -112,10 +114,13 @@ Microsoft에서 게시된 다음 앱은 Intune에 기본 제공되며 직접 지
 
 각 플랫폼용 앱을 Intune에 추가하는 방법을 알아보려면 다음 항목 중 하나를 선택합니다.
 
-- [Android 스토어 앱](/intune-azure/manage-apps/android-store-app)
-- [Android LOB 앱](/intune-azure/manage-apps/android-lob-app)
-- [iOS 스토어 앱](/intune-azure/manage-apps/ios-store-app)
-- [iOS LOB 앱](/intune-azure/manage-apps/ios-lob-app)
-- [웹앱(모든 플랫폼)](/intune-azure/manage-apps/web-app)
-- [Windows Phone 8.1 스토어 앱](/intune-azure/manage-apps/windows-phone-8-1-store-app)
-- [Windows 스토어 앱](/intune-azure/manage-apps/windows-store-app)
+- [Android 스토어 앱](android-store-app.md)
+- [Android LOB 앱](android-lob-app.md)
+- [iOS 스토어 앱](ios-store-app.md)
+- [iOS LOB 앱](ios-lob-app.md)
+- [웹앱(모든 플랫폼)](web-app.md)
+- [Windows Phone 8.1 스토어 앱](windows-phone-8-1-store-app.md)
+- [Windows Phone LOB 앱](windows-phone-line-of-business-app.md)
+- [Windows 스토어 앱](windows-store-app.md)
+- [Windows LOB 앱](windows-line-of-business-app.md)
+

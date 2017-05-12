@@ -1,12 +1,12 @@
 ---
-title: "Intune을 사용하여 인증서를 구성하는 방법"
+title: "Intune을 사용하여 인증서를 구성하는 방법 | Microsoft 문서"
 titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Intune을 사용하여 Wi-Fi, VPN 및 기타 연결의 보안을 유지하는 데 도움이 되는 인증서를 만들고 할당하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/18/2017
+ms.date: 05/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: a981b0253f56d66292ce77639faf4beba8832a9e
-ms.openlocfilehash: 7d1d3c101aaa3832e36a0b9e9369fd1eeb0a6250
-ms.lasthandoff: 04/19/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: ecb6a806e7870fd2b1986c4247607c9374431151
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -47,7 +48,7 @@ Intune을 사용하여 관리하는 장치에 이러한 인증서를 할당할 �
     - Windows 8.1 이상
     - Windows Phone 8.1 이상
     - Windows 10 이상
-3. 인증서 프로필을 만들어 VPN, Wi-Fi 및 메일 액세스 인증에 사용할 인증서를 장치가 요청할 수 있게 합니다. 다음 플랫폼을 실행하는 장치에 대해 **PKCS** 또는 **SCEP** 인증서 프로필을 만들고 배포할 수 있습니다.
+3. 인증서 프로필을 만들어 VPN, Wi-Fi 및 메일 액세스 인증에 사용할 인증서를 장치가 요청할 수 있게 합니다. 다음 플랫폼을 실행하는 장치에 대해 **PKCS** 또는 **SCEP** 인증서 프로필을 만들고 할당할 수 있습니다.
     - iOS 8.0 이상
     - Android 4.0 이상
     - Android for Work
@@ -71,8 +72,8 @@ Intune을 사용하여 관리하는 장치에 이러한 인증서를 할당할 �
 
 인증서 프로필의 유형별로 인프라를 구성하는 데 도움이 되는 다음 항목을 중 하나를 참조하세요.
 
-- [Intune을 사용하여 SCEP 인증서 구성 및 관리](/intune-azure/configure-devices/configure-certificate-infrastructure-for-scep)
-- [Intune을 사용하여 PKCS 인증서 구성 및 관리](/intune-azure/configure-devices/configure-certificate-infrastructure-for-pfx)
+- [Intune을 사용하여 SCEP 인증서 구성 및 관리](configure-certificate-infrastructure-for-scep.md)
+- [Intune을 사용하여 PKCS 인증서 구성 및 관리](configure-certificate-infrastructure-for-pfx.md)
 
 
 ## <a name="step-2---export-your-trusted-root-ca-certificate"></a>2단계 - 신뢰할 수 있는 루트 CA 인증서 내보내기
@@ -119,8 +120,8 @@ SCEP 또는 PKCS 인증서 프로필을 만들기 전에 신뢰할 수 있는 �
 
 인증서 프로필의 각 유형을 구성하고 할당하는 데 도움이 되는 다음 항목을 중 하나를 참조하세요.
 
-- [Intune을 사용하여 SCEP 인증서 구성 및 관리](/intune-azure/configure-devices/configure-certificate-infrastructure-for-scep)
-- [Intune을 사용하여 PKCS 인증서 구성 및 관리](/intune-azure/configure-devices/configure-certificate-infrastructure-for-pfx)
+- [Intune을 사용하여 SCEP 인증서 구성 및 관리](configure-certificate-infrastructure-for-scep.md)
+- [Intune을 사용하여 PKCS 인증서 구성 및 관리](configure-certificate-infrastructure-for-pfx.md)
 
 신뢰할 수 있는 인증서 프로필을 만든 후에는 사용하려는 각 플랫폼용으로 SCEP 또는 PKCS 인증서 프로필을 만듭니다. SCEP 인증서 프로필을 만들 때는 같은 플랫폼에 대해 신뢰할 수 있는 인증서 프로필을 지정해야 합니다. 그러면 두 인증서 프로필이 연결되기는 하지만 각 프로필을 개별적으로 할당해야 합니다.
 

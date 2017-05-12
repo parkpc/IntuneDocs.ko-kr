@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/19/2017
+ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: 484bd9b0-fbf1-4f4f-940c-6b12fa07e228
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: e0ecc775f70703574c4e1adf0f0aa204f2745b72
-ms.openlocfilehash: d5c84c5d3bc700985cc14dbd7eaae5a493cca064
-ms.lasthandoff: 04/20/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 37bfb7c9c35e5da5a346c822ed9d4252b5fff0e4
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -75,8 +76,8 @@ ms.lasthandoff: 04/20/2017
 
 다음 두 가지 방법 중 하나를 사용하여 메일 프로필을 보호할 수 있습니다.
 
-1. **인증서** - 메일 프로필을 만들 때 이전에 Intune에서 만든 인증서 프로필을 선택합니다. 이를 ID 인증서라고 부르며, 사용자 장치의 연결 허용을 설정하기 위해 신뢰할 수 있는 인증서 프로필(또는 루트 인증서)에 대해 인증하는 데 사용됩니다. 신뢰할 수 있는 인증서는 전자 메일 연결을 인증하는 컴퓨터(대개 네이티브 메일 서버)에 배포됩니다.
-Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자세한 내용은 [Intune을 사용하여 인증서를 구성하는 방법](/intune-azure/configure-devices/how-to-configure-certificates)을 참조하세요.
+1. **인증서** - 메일 프로필을 만들 때 이전에 Intune에서 만든 인증서 프로필을 선택합니다. 이를 ID 인증서라고 부르며, 사용자 장치의 연결 허용을 설정하기 위해 신뢰할 수 있는 인증서 프로필(또는 루트 인증서)에 대해 인증하는 데 사용됩니다. 신뢰할 수 있는 인증서는 메일 연결을 인증하는 컴퓨터(대개 네이티브 메일 서버)에 할당됩니다.
+Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자세한 내용은 [Intune을 사용하여 인증서를 구성하는 방법](how-to-configure-certificates.md)을 참조하세요.
 2. **사용자 이름 및 암호** - 사용자는 사용자 이름과 암호를 제공하여 네이티브 메일 서버에 인증합니다.
 전자 메일 프로필에는 암호가 포함되어 있지 않아 사용자가 전자 메일에 연결할 때 암호를 입력해야 합니다.
 

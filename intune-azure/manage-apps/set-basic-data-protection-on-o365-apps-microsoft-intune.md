@@ -16,10 +16,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: ayesham
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: e3924cb3409ab03f8070376c2248a2791a1e713d
-ms.lasthandoff: 02/18/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 9ce22cb6e4031432f8d78653230b526f504b5f8c
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -132,5 +133,5 @@ Android에서 Intune MAM 정책과 연결된 앱의 경우 데이터는 파일 I
 ![정책을 표시하는 사용자 인터페이스의 이미지](./media/image-for-faq.png)
 
 ## <a name="next-steps"></a>다음 단계
-[앱 보호 정책](https://docs.microsoft.com/intune-azure/manage-apps/what-is-app-protection-policy)에 대해 자세히 알아봅니다.
+[앱 보호 정책](https://docs.microsoft.comwhat-is-app-protection-policy.md)에 대해 자세히 알아봅니다.
 

@@ -14,10 +14,11 @@ ms.technology:
 ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
-ms.openlocfilehash: a816ee8fd2738cf244fd46a91af46d2b137a5dfb
-ms.lasthandoff: 04/25/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: adeea52461f58bd03b291c4b2cc336e9da19d429
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -38,7 +39,7 @@ Exchange ActiveSync를 클라우드에서 호스트하거나 온-프레미스로
 
 다음 표는 Intune 등록 방법 및 각 방법에 지원되는 기능과 요구 사항을 보여 줍니다. 기능 및 요구 사항은 아래에 설명되어 있습니다. 표에 사용된 용어는 다음과 같습니다.
 
-- **초기화** -장치를 등록하려면 먼저 초기화를 해야 하는지 여부를 나타냅니다. "초기화"라는 용어는 모든 데이터를 제거하는 장치의 공장 기본 설정을 의미합니다. 자세한 내용은 [장치에서 전체 또는 선택적 초기화 사용](/intune-azure/manage-devices/use-full-or-selective-wipe-on-devices-using-microsoft-intune)을 참조하세요.
+- **초기화** -장치를 등록하려면 먼저 초기화를 해야 하는지 여부를 나타냅니다. "초기화"라는 용어는 모든 데이터를 제거하는 장치의 공장 기본 설정을 의미합니다. 자세한 내용은 [장치에서 전체 또는 선택적 초기화 사용](../manage-devices/use-full-or-selective-wipe-on-devices-using-microsoft-intune.md)을 참조하세요.
 - **선호도** - 장치를 사용자에 연결합니다. MAM(모바일 응용 프로그램 관리)과 회사 데이터에 대한 조건부 액세스에는 필수입니다. 자세한 내용은 [사용자 선호도](enroll-ios-devices-using-device-enrollment-program.md)를 참조하세요.
 - **잠금** - 사용자가 관리에서 장치 등록을 취소할 수 없는지를 나타냅니다. 사용자는 회사 포털 앱을 사용하여 모든 플랫폼에서 장치 등록을 취소할 수 있습니다. 등록을 취소하기 위해 네이티브 운영 체제 메뉴를 사용할 수 없습니다.
 
@@ -70,7 +71,7 @@ Exchange ActiveSync를 클라우드에서 호스트하거나 온-프레미스로
 
 
 ## <a name="byod"></a>BYOD
-"Bring Your Own Device" 사용자가 회사 포털 앱을 설치하고 장치를 등록합니다. 이렇게 하면 사용자가 회사 네트워크에 연결되어 도메인 또는 Azure Active Directory에 가입할 수 있습니다. 대부분의 플랫폼에서는 많은 COD 시나리오를 위해 BYOD 등록을 사용하도록 설정해야 합니다. 개인적으로 소유한 iOS 및 Android 장치 등록을 차단할 수 있습니다. 지침에 대해서는 [장치 유형 제한 설정](https://docs.microsoft.com/intune-azure/enroll-devices/set-enrollment-restrictions#set-device-type-restrictions)을 참조하세요.
+"Bring Your Own Device" 사용자가 회사 포털 앱을 설치하고 장치를 등록합니다. 이렇게 하면 사용자가 회사 네트워크에 연결되어 도메인 또는 Azure Active Directory에 가입할 수 있습니다. 대부분의 플랫폼에서는 많은 COD 시나리오를 위해 BYOD 등록을 사용하도록 설정해야 합니다. 개인적으로 소유한 iOS 및 Android 장치 등록을 차단할 수 있습니다. 지침에 대해서는 [장치 유형 제한 설정](set-enrollment-restrictions.md#set-device-type-restrictions)을 참조하세요.
 
 ## <a name="corporate-owned-devices"></a>회사 소유 장치
 Azure Portal을 사용하여 COD(회사 소유 장치)를 관리할 수 있습니다. Apple에서 제공한 도구를 통해 iOS 장치를 직접 등록할 수 있습니다. 관리자 또는 관리자 장치 등록 관리자를 사용하여 모든 장치 유형을 등록할 수 있습니다. COD 시나리오를 사용할 수 있도록 IMEI 번호가 있는 장치도 식별하고 회사 소유로 태그를 지정할 수 있습니다.

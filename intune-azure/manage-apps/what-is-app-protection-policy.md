@@ -15,10 +15,11 @@ ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: cb3342812a8b77f0b2ee8e2cdd1532ba6dfc651b
-ms.lasthandoff: 02/18/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 2b064d14e8a46c19c0eafc3276b470dead114438
+ms.openlocfilehash: f9b828c7546b2dafe03177c193a18203e5905e5a
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/06/2017
 
 
 ---
@@ -128,11 +129,11 @@ MDM 솔루션에 등록되지 않은 BYOD 장치의 경우 앱 보호 정책을 
 
 ## <a name="multi-identity"></a>다중 ID
 
-다중 ID를 지원하는 앱은 앱이 회사 컨텍스트에서 사용된 경우 앱 보호 정책이 적용되는 동안 회사 및 개인에 대해 다른 계정을 사용하여 동일한 앱에 액세스하는 기능을 제공합니다.
+다중 ID를 지원하는 앱을 사용하면 앱이 회사 컨텍스트에서 사용되는 경우 앱 보호 정책이 적용되는 동안 다른 계정(회사 및 개인)을 사용하여 동일한 앱에 액세스할 수 있습니다.
 
-예를 들어, 최종 사용자가 회사 계정을 사용하여 OneDrive 앱을 시작하면 파일을 개인 저장소 위치로 이동할 수 없습니다. 그러나 최종 사용자가 계인 계정으로 OneDrive를 사용하는 경우 개인 OneDrive에서 제한 없이 데이터를 복사 및 이동할 수 있습니다.
+예를 들어 사용자가 회사 계정을 사용하여 OneDrive 앱을 시작하면 파일을 개인 저장소 위치로 이동할 수 없습니다. 그러나 사용자가 계인 계정으로 OneDrive를 사용하는 경우 개인 OneDrive에서 제한 없이 데이터를 복사 및 이동할 수 있습니다.
 
-모든 Office 모바일 앱이 다중 ID를 지원합니다.
+- Intune을 통해 [MAM 및 다중 ID](https://www.microsoft.com/cloud-platform/microsoft-intune-apps)를 지원하는 앱에 대해 자세히 알아봅니다.
 
 ##  <a name="next-steps"></a>다음 단계
 

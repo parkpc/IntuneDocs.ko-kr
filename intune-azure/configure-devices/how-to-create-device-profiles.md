@@ -15,10 +15,11 @@ ms.assetid: d98aceff-eb35-4e3e-8e40-5f300e7335cc
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
-ms.openlocfilehash: 17c5649e7ece5becd17e8ef9a74d748b6202693f
-ms.lasthandoff: 03/17/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 74a905ed2ba9ec04ae14df96fcd3f6b6caf1241c
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -39,16 +40,16 @@ ms.lasthandoff: 03/17/2017
     - **플랫폼** - 만들려는 프로필에 대한 플랫폼 유형을 선택합니다.
     - **프로필 유형** - 만들려는 프로필의 유형을 선택합니다. 사용 가능한 유형 목록은 선택한 플랫폼에 따라 다릅니다.
     - **설정** - 각 프로필 유형의 설정에 대한 자세한 내용은 다음 항목을 참조하세요.
-        -  [장치 기능 설정](/intune-azure/configure-devices/how-to-configure-device-features)
-        -  [장치 제한 설정](/intune-azure/configure-devices/how-to-configure-device-restrictions)
-        -  [메일 설정](/intune-azure/configure-devices/how-to-configure-email-settings)
-        -  [VPN 설정](/intune-azure/configure-devices/how-to-configure-vpn-settings)
-        -  [Wi-Fi 설정](/intune-azure/configure-devices/how-to-configure-wi-fi-settings)
-        -  [Windows 10 버전 업그레이드 설정](/intune-azure/configure-devices/how-to-configure-windows-10-edition-upgrade)
-        -  [인증서 설정](/intune-azure/configure-devices/how-to-configure-certificates)
-        -  [Windows Information Protection 설정](/intune-azure/configure-devices/how-to-configure-windows-information-protection)
-        -  [교육 설정](/intune-azure/configure-devices/how-to-configure-education-settings)
-        -  [사용자 지정 설정](/intune-azure/configure-devices/how-to-configure-custom-settings)
+        -  [장치 기능 설정](how-to-configure-device-features.md)
+        -  [장치 제한 설정](how-to-configure-device-restrictions.md)
+        -  [메일 설정](how-to-configure-email-settings.md)
+        -  [VPN 설정](how-to-configure-vpn-settings.md)
+        -  [Wi-Fi 설정](how-to-configure-wi-fi-settings.md)
+        -  [Windows 10 버전 업그레이드 설정](how-to-configure-windows-10-edition-upgrade.md)
+        -  [인증서 설정](how-to-configure-certificates.md)
+        -  [Windows Information Protection 설정](how-to-configure-windows-information-protection.md)
+        -  [교육 설정](how-to-configure-education-settings.md)
+        -  [사용자 지정 설정](how-to-configure-custom-settings.md)
 
     ![장치 프로필 만들기](./media/create-device-profile.png)
 4. 설정 구성을 완료한 후 **프로필 만들기** 블레이드에서 **만들기**를 선택합니다.
@@ -58,5 +59,5 @@ ms.lasthandoff: 03/17/2017
 
 
 ### <a name="next-steps"></a>다음 단계
-장치 프로필을 할당하는 방법에 대한 자세한 내용은 [Microsoft Intune을 사용하여 장치 프로필을 할당하는 방법](/intune-azure/configure-devices/how-to-assign-device-profiles)을 참조하세요.
+장치 프로필을 할당하는 방법에 대한 자세한 내용은 [Microsoft Intune을 사용하여 장치 프로필을 할당하는 방법](how-to-assign-device-profiles.md)을 참조하세요.
 

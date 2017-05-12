@@ -15,10 +15,10 @@ ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: c8715f96f532ee6bacda231e1147d03226ecbb48
-ms.openlocfilehash: 4916b66e1f2eeabb42401645dbece28dad28eb19
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 8cf12e434518c9f06c105a22f3b7aef2613fcdb0
 ms.contentlocale: ko-kr
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/10/2017
 
 ---
 # <a name="help-users-with-the-troubleshooting-portal-in-microsoft-intune"></a>Microsoft Intune의 문제 해결 포털을 통해 사용자 지원
@@ -36,7 +36,7 @@ Intune 관리자는 사용자에게 지원 센터 운영자 권한을 할당할 
 4. **할당 이름**(필수), **할당 설명**(선택 사항)을 입력한 다음 **구성원(그룹)** 및 **범위(그룹)**을 할당합니다.
 5. 이제 지원 데스크 운영자 역할이 있는 구성원이 문제 해결 포털을 사용할 수 있습니다.
 
-Intune 역할에 대한 자세한 내용은 [Intune 역할](https://docs.microsoft.com/intune-azure/access-control/role-based-access-control)을 참조하세요.
+Intune 역할에 대한 자세한 내용은 [Intune 역할](../access-control/role-based-access-control.md)을 참조하세요.
 
 ## <a name="access-the-troubleshooting-portal"></a>문제 해결 포털 액세스
 

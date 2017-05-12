@@ -15,10 +15,11 @@ ms.assetid: 46429114-2e26-4ba7-aa21-b2b1a5643e01
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: e76d66768ac58df25313e102b7f60d2bc7bbc59b
-ms.openlocfilehash: 3ef80446889e40464aed39fc83d9777dbfcc4d11
-ms.lasthandoff: 03/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 6fcbeb30fb11b6bc8def3a1c245bff56b3f7cca4
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -27,7 +28,7 @@ ms.lasthandoff: 03/22/2017
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
-Intune을 통해 macOS 장치를 관리할 수 있습니다. 장치 관리를 사용하려면 사용자가 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 이동하여 장치를 등록하고 메시지를 따라야 합니다. macOS 장치가 관리 상태에 있으면 [macOS 장치에 대한 사용자 지정 설정을 만들](https://docs.microsoft.com/intune-azure/configure-devices/custom-for-macos) 수 있습니다. 더 많은 기능이 곧 제공됩니다.
+Intune을 통해 macOS 장치를 관리할 수 있습니다. 장치 관리를 사용하려면 사용자가 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 이동하여 장치를 등록하고 메시지를 따라야 합니다. macOS 장치가 관리 상태에 있으면 [macOS 장치에 대한 사용자 지정 설정을 만들](../configure-devices/custom-for-macos.md) 수 있습니다. 더 많은 기능이 곧 제공됩니다.
 
 ## <a name="prerequisites"></a>전제 조건
 
@@ -36,7 +37,7 @@ macOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료
 - [도메인 구성](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-2)
 - [MDM 기관 설정](set-mdm-authority.md)
 - [그룹 만들기](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-5)
-- [회사 포털 구성](/intune-azure/manage-apps/company-portal-app.md)
+- [회사 포털 구성](../manage-apps/company-portal-app.md)
 - [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에서 사용자 라이선스 할당
 - [Apple MDM Push Certificate 가져오기](get-an-apple-mdm-push-certificate.md)
 
@@ -44,9 +45,9 @@ macOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료
 
 기본적으로 Intune에서는 이미 macOS 장치 등록을 허용합니다.
 
-등록에서 macOS 장치를 차단하려면 [Set device type restrictions](https://docs.microsoft.com/intune-azure/enroll-devices/set-enrollment-restrictions#set-device-type-restrictions)(장치 유형 제한 설정)를 참조하세요.
+등록에서 macOS 장치를 차단하려면 [Set device type restrictions](set-enrollment-restrictions.md#set-device-type-restrictions)(장치 유형 제한 설정)를 참조하세요.
 
-사용자가 등록할 수 있는 장치의 최대 수를 설정하려면 [Set device limit restrictions](https://docs.microsoft.com/intune-azure/enroll-devices/set-enrollment-restrictions#set-device-limit-restrictions)(장치 제한 한도 설정)를 참조하세요.
+사용자가 등록할 수 있는 장치의 최대 수를 설정하려면 [Set device limit restrictions](set-enrollment-restrictions.md#set-device-limit-restrictions)(장치 제한 한도 설정)를 참조하세요.
 
 ## <a name="tell-your-users-how-to-enroll-their-devices-to-access-company-resources"></a>회사 리소스에 액세스할 수 있도록 사용자에게 장치를 등록하는 방법 설명
 

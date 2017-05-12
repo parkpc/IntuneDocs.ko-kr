@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/14/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,10 +17,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 1d0284ca2b5fd935a8657e3dd73d23d45071fd50
-ms.openlocfilehash: 200c992caa36ca74bf3e4ad82a21099a4b7ada4c
-ms.lasthandoff: 03/25/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 90222b10832fd8251ad897348eeebed5b3d1e552
+ms.openlocfilehash: c06d03943863f6ab46a0943b08e1d986b210e58a
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/11/2017
 
 
 ---
@@ -32,7 +33,6 @@ iOS 장치에서 문제 해결을 통해 해결할 수 있는 문제가 발생�
 - [손상된 iOS 장치를 다시 연결해야 함](how-to-reconnect-a-compromised-ios-device.md)
 - [내 IT 관리자에게 오류를 보내야 함](send-errors-to-your-it-admin-ios.md)
 - [회사 포털 앱을 사용하는 동안 오류가 발생함](you-get-an-error-while-using-the-company-portal-app-ios.md)
-- [Intune에서 내 장치를 등록하려고 하면 오류가 발생함](you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md)
 - [등록할 내 장치를 식별해야 함](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md)
 - [장치에 일련 번호를 찾으려면 어떻게 하나요?](how-do-i-find-the-serial-number-on-my-device-ios.md)
 - [내 iOS 장치를 업데이트해야 함](you-need-to-update-your-ios-device.md)

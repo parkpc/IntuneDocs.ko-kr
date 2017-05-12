@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/15/2017
+ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: 07241b6d-86d8-4abb-83a2-3fc5feae5788
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 195a7333e09f3a269b5ff10c51e0cfb3e7d10bdc
-ms.openlocfilehash: 3e363183f3ac33e4cde1060fb141f5e4eb7d566c
-ms.lasthandoff: 04/04/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 45b00ac17232aad7c404c7455fd10ca5cf8cb3f9
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -49,13 +50,13 @@ ms.lasthandoff: 04/04/2017
     - **아이콘 업로드** - 앱과 연결할 아이콘을 업로드합니다. 사용자가 회사 포털을 찾아볼 때 이 아이콘이 앱과 함께 표시됩니다.
 8. 작업을 마치면 **앱 추가** 블레이드에서 **저장**을 선택합니다.
 
-만든 앱이 앱 목록에 표시됩니다. 이 목록에서 선택한 그룹에 앱을 할당할 수 있습니다. 도움말은 [그룹에 앱을 할당하는 방법](/intune-azure/manage-apps/deploy-apps)을 참조하세요.
+만든 앱이 앱 목록에 표시됩니다. 이 목록에서 선택한 그룹에 앱을 할당할 수 있습니다. 도움말은 [그룹에 앱을 할당하는 방법](deploy-apps.md)을 참조하세요.
 
-## <a name="manually-deploy-windows-10-company-portal-app"></a>Windows 10 회사 포털 앱 수동 배포
-최종 사용자는 Windows 스토어에서 회사 포털 앱을 설치하여 장치를 관리하고 앱을 설치할 수 있습니다. 그러나 비즈니스 요구에 따라 회사 포털 앱을 배포해야 하는 경우에는 비즈니스용 Windows 스토어와 Intune을 통합하지 않았더라도 Intune에서 곧바로 Windows 10 회사 포털 앱을 수동으로 배포할 수 있습니다.
+## <a name="manually-assign-windows-10-company-portal-app"></a>Windows 10 회사 포털 앱 수동 할당
+최종 사용자는 Windows 스토어에서 회사 포털 앱을 설치하여 장치를 관리하고 앱을 설치할 수 있습니다. 그러나 비즈니스 요구에 따라 회사 포털 앱을 할당해야 하는 경우에는 비즈니스용 Windows 스토어와 Intune을 통합하지 않았더라도 Intune에서 곧바로 Windows 10 회사 포털 앱을 수동으로 할당할 수 있습니다.
 
  > [!NOTE]
- > 이 옵션을 사용하려면 앱 업데이트가 릴리스될 때마다 수동 업데이트를 배포해야 합니다.
+ > 이 옵션을 사용하려면 앱 업데이트가 릴리스될 때마다 수동 업데이트를 할당해야 합니다.
 
 1. 자신의 계정으로 [비즈니스용 Windows 스토어](https://www.microsoft.com/business-store)에 로그인하고 **오프라인 라이선스** 버전의 회사 포털 앱을 가져옵니다.  
 2. 앱을 가져왔으면 **인벤토리** 페이지에서 앱을 선택합니다.  
@@ -69,8 +70,8 @@ ms.lasthandoff: 04/04/2017
   ![APPXBUN 파일과 함께 저장된 Dependencies 폴더의 이미지](../media/Win10CP-Dependencies-save.png)
   2. Dependencies 폴더에 9개의 종속성 패키지를 배치합니다.  
   종속성을 이 형식으로 배치하지 않는 경우 Intune은 패키지 업로드 도중에 패키지를 인식 및 업로드할 수 없습니다. 이에 따라 업로드에 실패하고 다음과 같은 오류가 표시됩니다.  
-  ![이 소프트웨어 설치 관리자의 Windows 앱 종속성이 응용 프로그램 폴더에 없습니다. 이 응용 프로그램을 계속 만들고 배포할 수 있지만 누락된 Windows 앱 종속성이 제공될 때까지 실행되지 않습니다.](../media/Win10CP-error-message.png)
-6. Intune으로 돌아간 후 회사 포털 앱을 새 앱으로 업로드합니다. 원하는 대상 사용자 집합에게 필수 앱으로 배포합니다.  
+  ![이 소프트웨어 설치 관리자의 Windows 앱 종속성이 응용 프로그램 폴더에 없습니다. 이 응용 프로그램을 계속 만들고 할당할 수 있지만 누락된 Windows 앱 종속성이 제공될 때까지 실행되지 않습니다.](../media/Win10CP-error-message.png)
+6. Intune으로 돌아간 후 회사 포털 앱을 새 앱으로 업로드합니다. 원하는 대상 사용자 집합에게 필수 앱으로 할당합니다.  
 
 Intune에서 유니버설 앱의 종속성을 처리하는 방식에 대한 자세한 내용은 [Deploying an appxbundle with dependencies via Microsoft Intune MDM(Microsoft Intune MDM을 통해 종속성이 포함된 appxbundle 배포)](https://blogs.technet.microsoft.com/configmgrdogs/2016/11/30/deploying-an-appxbundle-with-dependencies-via-microsoft-intune-mdm/)을 참조하세요.  
 
@@ -78,20 +79,20 @@ Intune에서 유니버설 앱의 종속성을 처리하는 방식에 대한 자�
 사용자가 이미 스토어에서 Windows 8.1 또는 Windows Phone 8.1 회사 포털 앱을 설치한 경우 관리자나 사용자의 별도 조치가 필요 없이 앱이 자동으로 새 버전으로 업데이트됩니다. 업데이트가 이루어지지 않는 경우 사용자에게 장치에서 스토어 앱에 대해 자동 업데이트를 활성화했는지 확인하도록 요청합니다.   
 
 ### <a name="how-do-i-upgrade-my-sideloaded-windows-81-company-portal-app-to-the-windows-10-company-portal-app"></a>사이드로드한 Windows 8.1 회사 포털 앱을 Windows 10 회사 포털 앱으로 어떻게 업그레이드하나요?
-권장되는 마이그레이션 경로는 배포 작업을 "제거"로 설정하여 Windows 8.1 회사 포털 앱의 배포를 삭제하는 것입니다. 이 작업이 완료되면 위의 옵션 중 하나를 사용하여 Windows 10 회사 포털 앱을 배포할 수 있습니다.  
+권장되는 마이그레이션 경로는 할당 작업을 "제거"로 설정하여 Windows 8.1 회사 포털 앱의 할당을 삭제하는 것입니다. 이 작업이 완료되면 위의 옵션 중 하나를 사용하여 Windows 10 회사 포털 앱을 할당할 수 있습니다.  
 
-앱을 사이드로드해야 하며 Symantec 인증서로 서명하지 않고 Windows 8.1 회사 포털을 배포한 경우에는 위의 Intune 섹션을 통해 직접 배포의 단계를 따라 업그레이드를 완료합니다.
+앱을 사이드로드해야 하며 Symantec 인증서로 서명하지 않고 Windows 8.1 회사 포털을 할당한 경우에는 위의 Intune 섹션을 통해 직접 할당의 단계를 따라 업그레이드를 완료합니다.
 
-앱을 사이드로드해야 하며 Symantec 코드 서명 인증서로 Windows 8.1 회사 포털을 서명 및 배포한 경우에는 아래 섹션의 단계를 따릅니다.  
+앱을 사이드로드해야 하며 Symantec 코드 서명 인증서로 Windows 8.1 회사 포털을 서명 및 할당한 경우에는 아래 섹션의 단계를 따릅니다.  
 
 ### <a name="how-do-i-upgrade-my-signed-and-sideloaded-windows-phone-81-company-portal-app-or-windows-81-company-portal-app-to-the-windows-10-company-portal-app"></a>서명 및 사이드로드된 Windows Phone 8.1 회사 포털 앱이나 Windows 8.1 회사 포털 앱을 어떻게 Windows 10 회사 포털 앱으로 업그레이드하나요?
-권장되는 마이그레이션 경로는 배포 작업을 "제거"로 설정하여 Windows Phone 8.1 회사 포털 앱 또는 Windows 8.1 회사 포털 앱의 기존 배포를 삭제하는 것입니다. 이 작업이 완료되면 Windows 10 회사 포털 앱을 정상적으로 배포할 수 있습니다.  
+권장되는 마이그레이션 경로는 할당 작업을 "제거"로 설정하여 Windows Phone 8.1 회사 포털 앱 또는 Windows 8.1 회사 포털 앱의 기존 할당을 삭제하는 것입니다. 이 작업이 완료되면 Windows 10 회사 포털 앱을 정상적으로 할당할 수 있습니다.  
 
 이 작업을 마치지 않는 경우에는 업그레이드 경로를 준수하도록 Windows 10 회사 포털 앱을 적절하게 업데이트하고 서명해야 합니다.  
 
-이 방법으로 Windows 10 회사 포털 앱이 서명 및 배포된 경우에는 스토어에서 사용할 수 있는 새 앱 업데이트 각각에 대해 이 프로세스를 반복해야 합니다. 앱은 스토어가 업데이트될 때 자동으로 업데이트되지 않습니다.  
+이 방법으로 Windows 10 회사 포털 앱이 서명 및 할당된 경우에는 스토어에서 사용할 수 있는 새 앱 업데이트 각각에 대해 이 프로세스를 반복해야 합니다. 앱은 스토어가 업데이트될 때 자동으로 업데이트되지 않습니다.  
 
-이러한 방식으로 앱을 서명하고 배포하는 방법은 다음과 같습니다.
+이러한 방식으로 앱을 서명하고 할당하는 방법은 다음과 같습니다.
 
 1. [https://aka.ms/win10cpscript](https://aka.ms/win10cpscript)에서 Microsoft Intune Windows 10 회사 포털 앱 서명 스크립트를 다운로드합니다.  이 스크립트가 작동하려면 호스트 컴퓨터에 Windows 10용 Windows SDK가 설치되어야 있어야 합니다. Windows 10용 Windows SDK를 다운로드하려면 [https://go.microsoft.com/fwlink/?LinkId=619296](https://go.microsoft.com/fwlink/?LinkId=619296) 페이지를 방문하세요.
 2. 위에서 설명한 대로 비즈니스용 Windows 스토어에서 Windows 10 회사 포털 앱을 다운로드합니다.  
@@ -105,5 +106,5 @@ Intune에서 유니버설 앱의 종속성을 처리하는 방식에 대한 자�
 |PfxPassword| Symantec Enterprise 모바일 코드 서명 인증서의 암호입니다. |
 |PublisherId |엔터프라이즈의 게시자 ID입니다. 없는 경우 Symantec Enterprise 모바일 코드 서명 인증서의 '제목' 필드를 사용합니다.|
 |SdkPath | Windows 10용 Windows SDK의 루트 폴더에 대한 경로입니다. 이 인수는 선택 사항이며 기본적으로 ${env:ProgramFiles(x86)}\Windows Kits\10입니다.|
-실행이 완료되면 스크립트는 서명된 버전의 Windows 10 회사 포털 앱을 출력합니다. 그러면 서명된 버전의 앱을 Intune 통해 LOB 앱으로 배포할 수 있으며, 현재 배포된 버전이 이 새 앱으로 업그레이드됩니다.  
+실행이 완료되면 스크립트는 서명된 버전의 Windows 10 회사 포털 앱을 출력합니다. 그러면 서명된 버전의 앱을 Intune 통해 LOB 앱으로 할당할 수 있으며, 현재 할당된 버전이 이 새 앱으로 업그레이드됩니다.  
 

@@ -15,10 +15,11 @@ ms.assetid: e1258fe4-0b5c-4485-8bd1-152090df6345
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: cddeb6bf854b9ffbbc1744d5d164c8ceea34ff49
-ms.openlocfilehash: a0950e3b816128ccd042620eb1344f908c915a21
-ms.lasthandoff: 03/10/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 49c06de8ae4b04a3f6ea81cc17bc303b842374a5
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -75,7 +76,7 @@ ms.lasthandoff: 03/10/2017
   - **보통**: 장치에 있는 위협이 낮거나 중간 수준인 경우 장치가 규정 준수로 평가됩니다. 높은 수준의 위협이 있는 것으로 감지되면 장치가 규정 비준수로 결정됩니다.
   - **높음**: 안전성이 가장 낮은 수준입니다. 기본적으로 모든 위협 수준이 허용됩니다. 이 수준은 이 솔루션을 보고 용도로만 사용하는 경우에 유용할 수 있습니다.
 
-자세한 내용은 [규정 준수 정책에서 장치 위협 방지 규칙 활성화](https://docs.microsoft.com/en-us/intune/deploy-use/enable-device-threat-protection-rule-in-compliance-policy)를 참조하세요.
+자세한 내용은 [규정 준수 정책에서 장치 위협 방지 규칙 활성화](https://docs.microsoft.com/intune/deploy-use/enable-device-threat-protection-rule-in-compliance-policy)를 참조하세요.
 
 ## <a name="system-security-settings"></a>시스템 보안 설정
 

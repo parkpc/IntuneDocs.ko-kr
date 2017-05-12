@@ -15,10 +15,11 @@ ms.assetid: 8103df7f-1700-47b4-9a72-c196d2a02f22
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: cddeb6bf854b9ffbbc1744d5d164c8ceea34ff49
-ms.openlocfilehash: 0c0d2f73e48864caabdec6e83c2fdf58db5a0630
-ms.lasthandoff: 03/10/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: a0fa37130948126ea08e4cc0140d4c326c26782b
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -33,7 +34,7 @@ ms.lasthandoff: 03/10/2017
 - 장치 준수 정책을 만들기 시작하려면 먼저 필요한 사항
 - Intune Azure Preview 포털의 표시 내용과 기능 사항 한눈에 보기 
 
-장치 준수에 대해 잘 모르는 경우 [이 항목](https://docs.microsoft.com/intune-azure/set-device-compliance/what-is-device-compliance)을 통해 장치 준수의 정의 및 조직에서 장치 준수를 사용할 수 있는 방법을 이해할 수 있습니다.
+장치 준수에 대해 잘 모르는 경우 [이 항목](what-is-device-compliance.md)을 통해 장치 준수의 정의 및 조직에서 장치 준수를 사용할 수 있는 방법을 이해할 수 있습니다.
 
 ##  <a name="pre-requisites"></a>필수 구성 요소
 
