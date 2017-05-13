@@ -14,10 +14,11 @@ ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
-ms.openlocfilehash: 71ebb310699cf80310b33be1b665a968ac102bde
-ms.lasthandoff: 04/24/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: 7901508dc482af55f0ef2296cf35576f09340fb0
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -75,10 +76,10 @@ Intune 관리 콘솔에서 앱 정책을 만드는 방법에 대한 자세한 �
 
 ## <a name="prerequisites"></a>전제 조건
 
--   **Microsoft Intune 구독**. 앱 보호 정책이 있는 앱을 사용하려면 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 라이선스가 필요합니다.
-현재 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 을 사용하여 장치를 관리하는 경우 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 구독이 이미 있습니다. 또한 EMS(Enterprise Mobility Suite) 라이선스를 구입한 경우에도 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 구독이 있습니다. [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]을 사용하여 MAM 기능을 확인하려는 경우 [Microsoft Intune 페이지](https://www.microsoft.com/server-cloud/products/microsoft-intune/)에서 평가판 계정을 얻을 수 있습니다.
+-   **Microsoft Intune 구독**. 앱 보호 정책이 있는 앱을 사용하려면 Intune 라이선스가 필요합니다.
+현재 Intune을 사용하여 장치를 관리하는 경우 Intune 구독이 이미 있습니다. EMS(Enterprise Mobility Suite) 라이선스를 구입한 경우에도 Intune 구독이 있습니다. Intune을 사용하여 MAM 기능을 확인하려는 경우 [Microsoft Intune 페이지](https://www.microsoft.com/server-cloud/products/microsoft-intune/)에서 평가판 계정을 얻을 수 있습니다.
 
-    [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 구독이 있는지 확인하려면 Office 포털에서 **결제** 페이지로 이동합니다.  구독이 있는 경우 구독 아래에 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]이 **활성**으로 표시되어야 합니다.
+    Intune 구독이 있는지 확인하려면 Office 포털에서 **결제** 페이지로 이동합니다.  구독이 있는 경우 구독 아래에 Intune이 **활성**으로 표시되어야 합니다.
 
 -   다음과 같은 경우에 필요한 **Office 365 구독**.
 

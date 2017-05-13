@@ -14,10 +14,11 @@ ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: 312a3ae8a74b0a8460f969f96bee14077c6c7161
-ms.lasthandoff: 04/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: 5888ffa6f16e9a9807ce1f9a9eb0594ed31b5b18
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -47,18 +48,18 @@ ms.lasthandoff: 04/14/2017
 
 -   **Android** 또는 **iOS** 장치여야 합니다.
 
--   [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 **등록**되어 있어야 합니다.
+-   Intune에 **등록**되어 있어야 합니다.
 
--   배포된 모든 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 규정 준수 정책을 **준수**해야 합니다.
+-   배포된 Intune 규정 준수 정책을 **준수**해야 합니다.
 
 
 장치 상태는 지정한 조건에 따라 액세스를 부여하거나 차단하는 Azure Active Directory에 저장됩니다.
 
 조건이 충족되지 않으면 사용자가 로그인할 때 다음 메시지 중 하나가 표시됩니다.
 
--   장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하지 않았거나 Azure Active Directory에 등록하지 않은 경우 회사 포털 앱을 설치하고 등록하는 방법에 관한 지침이 포함된 메시지가 표시됩니다.
+-   장치를 Intune에 등록하지 않았거나 Azure Active Directory에 등록하지 않은 경우, 회사 포털 앱을 설치하고 등록하는 방법에 관한 지침이 포함된 메시지가 표시됩니다.
 
--   장치가 규정을 준수하지 않으면 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 회사 포털 웹 사이트 또는 회사 포털 앱을 안내하는 메시지가 표시됩니다. 해당 웹 사이트나 앱에서 사용자는 문제에 대한 정보와 이를 해결하는 방법을 확인할 수 있습니다.
+-   장치가 규정을 준수하지 않으면 Intune 회사 포털 웹 사이트 또는 회사 포털 앱을 안내하는 메시지가 표시됩니다. 해당 웹 사이트나 앱에서 사용자는 문제에 대한 정보와 이를 해결하는 방법을 확인할 수 있습니다.
 
 ## <a name="configure-conditional-access-for-skype-for-business-online"></a>비즈니스용 Skype Online에 대한 조건부 액세스 구성
 
@@ -77,7 +78,7 @@ ms.lasthandoff: 04/14/2017
 정책의 영향을 받을 모든 장치에 규정 준수 정책을 [만들고](create-a-device-compliance-policy-in-microsoft-intune.md) [배포](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)합니다. 이러한 모든 장치는 **대상 그룹**의 사용자가 사용합니다.
 
 > [!NOTE]
-> 규정 준수 정책을 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 그룹에 배포하는 동안 Azure Active Directory 보안 그룹을 조건부 액세스 정책의 대상으로 합니다.
+> 규정 준수 정책을 Intune 그룹에 배포하는 동안 Azure Active Directory 보안 그룹을 조건부 액세스 정책의 대상으로 합니다.
 
 
 > [!IMPORTANT]

@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 174e919a2980ca2cf0e97cc41f5b048183a9d4a7
-ms.lasthandoff: 02/18/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a9748a0ad6b9bbe10e36ba133ba74edb6aa6e09a
+ms.openlocfilehash: d318b8c1b6ba6ac73920e3f55519ae0472cb570c
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/05/2017
 
 
 
@@ -60,7 +61,7 @@ Intune의 **사용자 지정 장치 프로필**을 사용하여 미리 공유한
 4. **확인**을 선택하고 정책을 저장한 다음 할당합니다.
 
     > [!NOTE]
-    > 이 정책은 사용자 그룹에만 배포할 수 있습니다.
+    > 이 정책은 사용자 그룹에만 할당할 수 있습니다.
 
 다음에 각 장치가 체크인되면 정책이 적용되고 해당 장치에 Wi-Fi 프로필이 만들어집니다. 장치를 네트워크에 자동으로 연결할 수 있게 됩니다.
 
@@ -72,7 +73,7 @@ Android 또는 Windows Wi-Fi 프로필의 XML 코드 예제는 다음과 같습�
 >
 > `<protected>false</protected>`는 **false**로 설정해야 합니다. **true**로 설정하면 장치가 암호화된 암호를 요구한 다음 암호를 해독하려 할 수 있습니다. 이로 인해 연결에 실패할 수 있습니다.
 >
->  `<hex>53534944</hex>`는 `<name><SSID of wifi profile></name>`의&16;진수 값으로 설정해야 합니다.
+>  `<hex>53534944</hex>`는 `<name><SSID of wifi profile></name>`의 16진수 값으로 설정해야 합니다.
 >  Windows 10 장치는 잘못된 *0x87D1FDE8 재구성 실패* 오류를 반환할 수 있지만, 계속 프로필로 프로비전됩니다.
 
 ```

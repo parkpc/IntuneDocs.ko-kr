@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/12/2017
+ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: 6bdf714a-5d93-485c-8b52-513635c60cb6
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
-ms.openlocfilehash: 3ba986b624e602f05eb6ab25ec30e9d58173dbd8
-ms.lasthandoff: 04/19/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a9748a0ad6b9bbe10e36ba133ba74edb6aa6e09a
+ms.openlocfilehash: 0c3a5ef16da3e2c395cb71a0fc8a23d531cfa02c
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/05/2017
 
 
 ---
@@ -80,7 +81,7 @@ ms.lasthandoff: 04/19/2017
 
 **금지된 앱** 목록 - 사용자가 설치하거나 실행할 수 없고 Intune에서 관리되지 않는 앱을 나열합니다.
 **승인된 앱** 목록 - 사용자가 설치할 수 있는 앱을 나열합니다. 호환성을 유지하려면 사용자가 나열되지 않은 앱을 설치하지 않아야 합니다. Intune에서 관리되는 앱은 자동으로 허용됩니다.
-제한된 앱 설정이 포함된 장치 프로필을 사용자 그룹에 배포해야 합니다.
+제한된 앱 설정이 포함된 장치 프로필을 사용자 그룹에 할당해야 합니다.
 
 목록을 구성하려면 **추가**를 클릭한 다음 원하는 이름, 앱 게시자(선택 사항) 및 앱 스토어의 앱 URL을 지정합니다.
 

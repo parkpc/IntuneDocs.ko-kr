@@ -14,10 +14,11 @@ ms.assetid: a55071f5-101e-4829-908d-07d3414011fc
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: f316b332c3f1b80b9d6af488943298fcfea13741
-ms.openlocfilehash: f1d8ecdf64b680940e46afc90dec79d237d80030
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: 3098a301550413a982d3ce9664646f7dfc0b1d1f
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -38,7 +39,7 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
 
 -   Exchange 버전은 **Exchange 2010 이상**이어야 합니다. Exchange Server CAS(클라이언트 액세스 서버) 배열이 지원됩니다.
 
--   [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]를 Exchange 온-프레미스에 연결하는 [Intune 온-프레미스 Exchange Connector](intune-on-premises-exchange-connector.md)를 사용해야 합니다. 이렇게 하면 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 콘솔을 통해 장치를 관리할 수 있습니다.
+-   Intune을 Exchange 온-프레미스에 연결하는 [Intune 온-프레미스 Exchange Connector](intune-on-premises-exchange-connector.md)를 사용해야 합니다. 이렇게 하면 Intune 콘솔을 통해 장치를 관리할 수 있습니다.
 
     -   Intune 콘솔에서 사용할 수 있는 온-프레미스 Exchange Connector는 Intune 테넌트에 고유하며 다른 테넌트에 사용할 수 없습니다. 또한 테넌트용 Exchange Connector가 **한 대의 컴퓨터**에만 설치되어 있는지 확인하는 것이 좋습니다.
 
@@ -54,13 +55,13 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
 
 조건부 액세스 정책을 구성하고 사용자를 대상으로 지정한 경우 사용자가 자신의 메일에 연결하기 전에 사용하는 **장치**는 다음과 같아야 합니다.
 
--  도메인에 가입된 PC 또는 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 **등록**된 PC이어야 합니다.
+-  도메인에 가입된 PC 또는 Intune에 **등록**된 장치여야 합니다.
 
 -  **Azure Active Directory에 등록**되어야 합니다. 또한 클라이언트 Exchange ActiveSync ID가 Azure Active Directory에 등록되어 있어야 합니다.
 
   Intune 및 Office 365 고객의 경우에는 Azure Active Directory Device Registration Service가 자동으로 활성화됩니다. ADFS Device Registration Service를 이미 배포한 고객의 온-프레미스 Active Directory에는 등록된 장치가 표시되지 않습니다. **Windows PC 및 Windows Phone 장치에는 적용되지 않습니다**.
 
--   해당 장치에 배포된 모든 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] **준수 정책을 준수해야 합니다**.
+-   해당 장치에 배포된 모든 Intune 준수 정책을 **준수**해야 합니다.
 
 ### <a name="how-conditional-access-works-with-exchange-on-premises"></a>Exchange 온-프레미스 조건부 액세스의 작동 방식
 
@@ -70,9 +71,9 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
 
 조건부 액세스 정책이 충족되지 않는 경우 장치가 차단되고 10분 후 사용자에게 다음 격리 메시지(로그인 시) 중 하나가 제공됩니다.
 
-- 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하지 않았거나 Azure Active Directory에 등록하지 않은 경우, 회사 포털 앱을 설치하고 장치를 등록하며 메일을 활성화하는 방법에 대한 지침이 포함된 메시지가 표시됩니다. 이 프로세스는 또한 장치의 Exchange ActiveSync ID를 Azure Active Directory의 장치 레코드와 연결합니다.
+- 장치를 Intune에 등록하지 않았거나 Azure Active Directory에 등록하지 않은 경우, 회사 포털 앱을 설치하고 장치를 등록하며 메일을 활성화하는 방법에 대한 지침이 포함된 메시지가 표시됩니다. 이 프로세스는 또한 장치의 Exchange ActiveSync ID를 Azure Active Directory의 장치 레코드와 연결합니다.
 
--   장치가 규정을 준수하지 않으면 사용자가 문제에 관한 정보를 찾을 수 있는 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 회사 포털 웹 사이트 또는 회사 포털 앱과, 문제의 수정 방법을 알려 주는 메시지가 표시됩니다.
+-   장치가 정책을 준수하지 않으면 사용자가 문제에 관한 정보를 찾을 수 있는 Intune 웹 포털 또는 회사 포털 앱과 문제를 해결하는 방법을 알려주는 메시지가 표시됩니다.
 
 ## <a name="support-for-mobile-devices"></a>모바일 장치에 대한 지원
 지원되는 운영 체제는 다음과 같습니다.
@@ -88,7 +89,7 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
 
 ## <a name="support-for-pcs"></a>PC 지원
 다음은 지원됩니다.
--   Windows 8.1 이상에 설치된 **메일** 응용 프로그램(PC가 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록된 경우)
+-   Windows 8.1 이상에 설치된 **메일** 응용 프로그램(PC가 Intune에 등록된 경우)
 
 ##  <a name="configure-a-conditional-access-policy"></a>조건부 액세스 정책 구성
 
@@ -97,21 +98,21 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
 
 2.  필요한 설정이 포함된 정책을 구성합니다. ![Exchange 온-프레미스 정책 페이지의 스크린샷](../media/IntuneSA5bExchangeOnPremPolicy.png)
 
-  - **비규격 장치이거나 Microsoft Intune에 등록되지 않은 장치인 경우 메일 앱의 Exchange 온-프레미스 액세스를 차단합니다.:** 이 옵션을 선택하면 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 관리되지 않거나 준수 정책을 준수하지 않는 장치에서 Exchange 서비스로의 액세스가 차단됩니다.
+  - **비규격 장치이거나 Microsoft Intune에 등록되지 않은 장치인 경우 메일 앱의 Exchange 온-프레미스 액세스를 차단합니다.**: 이 옵션을 선택하면 Intune에서 관리되지 않거나 준수 정책을 준수하지 않는 장치에서 Exchange 서비스로의 액세스가 차단됩니다.
 
   - **기본 규칙 재정의 - 등록 및 준수 장치가 Exchange에 액세스할 수 있도록 항상 허용:** 이 옵션을 선택하면 Intune에 등록되어 있고 준수 정책을 준수하는 장치는 Exchange에 액세스할 수 있습니다.
   이 규칙은 **기본 규칙**을 재정의합니다. 즉, 액세스를 격리 또는 차단하도록 **기본 규칙**을 설정하더라도 등록된 규격 장치는 여전히 Exchange에 액세스할 수 있습니다.
 
-  - **대상이 지정된 그룹:** [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록해야 Exchange에 액세스할 수 있는 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 사용자 그룹을 선택합니다.
+  - **대상이 지정된 그룹**: Intune에 등록해야 Exchange에 액세스할 수 있는 Intune 사용자 그룹을 선택합니다.
 
-  - **제외된 그룹:** 조건부 액세스 정책에서 제외된 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 사용자 그룹을 선택합니다. 이 목록에 있는 사용자는 **대상이 지정된 그룹** 목록에 있더라도 제외됩니다.
+  - **제외된 그룹**: 조건부 액세스 정책에서 제외된 Intune 사용자 그룹을 선택합니다. 이 목록에 있는 사용자는 **대상이 지정된 그룹** 목록에 있더라도 제외됩니다.
 
-  - **플랫폼 예외:** **규칙 추가**를 선택하여 지정한 모바일 장치 제품군 및 모델에 대한 액세스 수준을 정의하는 규칙을 구성합니다. 장치의 유형과는 상관이 없으므로 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 지원하지 않는 장치 유형도 구성할 수 있습니다.
+  - **플랫폼 예외:** **규칙 추가**를 선택하여 지정한 모바일 장치 제품군 및 모델에 대한 액세스 수준을 정의하는 규칙을 구성합니다. 장치의 유형과는 상관이 없으므로 Intune에서 지원하지 않는 장치 유형도 구성할 수 있습니다.
 
   - **기본 규칙**: 다른 규칙이 적용되지 않는 장치의 경우, Exchange 액세스를 허용하거나, 차단하거나, 격리하도록 선택할 수 있습니다. 등록 및 규격 장치의 경우 액세스를 허용하도록 규칙을 설정하면 iOS, Windows 및 삼성 KNOX 장치의 경우 메일 액세스 권한이 자동으로 부여됩니다. 사용자는 메일을 가져오기 위해 어떠한 프로세스도 거칠 필요가 없습니다.
       - Samsung KNOX를 실행하지 않는 Android 장치를 사용하는 사용자는 메일에 액세스하기 전에 등록 및 준수를 확인하는 안내 방식 연습을 포함하는 격리 메일을 받게 됩니다. 액세스를 차단하거나 격리하는 규칙을 설정하면 모든 장치가 이미 Intune에 등록되었는지 여부와 관계없이 Exchange에 대한 액세스가 차단됩니다. 등록된 규격 장치가 이 규칙의 영향을 받는 것을 방지하려면 **기본 규칙 재정의** 상자를 선택합니다.
 >[!TIP]
->메일에 대한 액세스 권한을 부여하기 전에 먼저 모든 장치를 차단하려면 액세스 차단 규칙이나 격리 규칙을 선택합니다. 기본 규칙이 모든 장치 유형에 적용되므로, [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 지원되지 않는 플랫폼 예외로 구성한 장치 유형도 영향을 받습니다.
+>메일에 대한 액세스 권한을 부여하기 전에 먼저 모든 장치를 차단하려면 액세스 차단 규칙이나 격리 규칙을 선택합니다. 기본 규칙이 모든 장치 유형에 적용되므로, Intune에서 지원되지 않는 플랫폼 예외로 구성한 장치 유형도 영향을 받습니다.
 
   - **사용자 알림**: Exchange에서 보내는 알림 메일 외에도 Intune은 장치를 차단 해제하는 단계를 포함하는 메일을 보냅니다. 기본 메시지를 필요에 맞게 사용자 지정하도록 편집할 수 있습니다. 사용자가 관리 지침이 포함된 Intune 알림 메일을 받기 전에 해당 사용자의 장치가 차단된 경우(이 메일은 사용자의 Exchange 사서함으로 배달됨) 차단 해제된 장치 또는 다른 방법을 사용하여 Exchange에 액세스하여 메시지를 볼 수 있습니다.
       - 이것은 특히 **기본 규칙**이 차단 또는 격리로 설정된 경우 유용합니다. 이러한 경우 사용자는 앱 스토어로 가서 Microsoft 회사 포털 앱을 다운로드하고 장치를 등록해야 합니다. 이것은 iOS, Windows 및 삼성 KNOX 장치에 적용할 수 있습니다. Samsung KNOX를 실행하지 않는 장치의 경우 대체 메일 계정에 격리 메일을 보내야 합니다. 사용자가 차단된 장치에 메일을 복사하여 등록 및 준수 프로세스를 완료해야 합니다.
@@ -124,11 +125,11 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
 
 -   조건부 액세스 정책은 배포하지 않아도 즉시 적용됩니다.
 
--   사용자가 Exchange ActiveSync 프로필을 설정한 후에 장치가 차단되기까지 1~3시간이 걸릴 수 있습니다([!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 관리되지 않는 경우).
+-   사용자가 Exchange ActiveSync 프로필을 설정한 후에 장치가 차단되기까지 1~3시간이 걸릴 수 있습니다(Intune에서 관리되지 않는 경우).
 
--   그런 다음 차단된 사용자가 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하거나 미준수 상태를 재구성하면 2분 내에 메일 액세스 차단이 해제됩니다.
+-   그런 다음 차단된 사용자가 장치를 Intune에 등록하거나 미준수 상태를 재구성하면 2분 내에 메일 액세스 차단이 해제됩니다.
 
--   사용자가 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 등록을 취소하면 장치가 차단되기까지 1~3시간이 걸릴 수 있습니다.
+-   사용자가 Intune에서 등록을 취소하면 장치가 차단되기까지 1~3시간이 걸릴 수 있습니다.
 
 **장치 액세스를 보호하는 조건부 액세스 정책을 구성하는 방법에 대한 몇 가지 시나리오 예를 보려면 [메일 액세스 보호 예제 시나리오](restrict-email-access-example-scenarios.md)를 참조하세요.**
 

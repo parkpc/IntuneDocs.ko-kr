@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/16/2017
+ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
-ms.openlocfilehash: 2c79f5f796152e930c4a952388541383ab50e595
-ms.lasthandoff: 03/17/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a9748a0ad6b9bbe10e36ba133ba74edb6aa6e09a
+ms.openlocfilehash: efb3dee1f9617f2c8843fcb99ed251f7384329cb
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/05/2017
 
 
 ---
@@ -29,7 +30,7 @@ ms.lasthandoff: 03/17/2017
 
 Intune으로 관리되는 Android 5.0 이상 장치용 앱별 VPN 프로필을 만들 수 있습니다. 먼저 Pulse Secure 연결 형식을 사용하는 VPN 프로필을 만듭니다. 그런 다음 VPN 프로필을 특정 앱과 연결하는 사용자 지정 구성 정책을 만듭니다.
 
-Android 장치 또는 사용자 그룹에 정책을 배포한 후에 사용자가 PulseSecure VPN을 시작해야 합니다. 그러면 PulseSecure은 지정한 앱에서 생성되는 트래픽만 열린 VPN 연결을 사용하도록 허용합니다.
+Android 장치 또는 사용자 그룹에 정책을 할당한 후에 사용자가 PulseSecure VPN을 시작해야 합니다. 그러면 PulseSecure은 지정한 앱에서 생성되는 트래픽만 열린 VPN 연결을 사용하도록 허용합니다.
 
 > [!NOTE]
 >
@@ -65,7 +66,7 @@ Android 장치 또는 사용자 그룹에 정책을 배포한 후에 사용자�
 3. **사용자 지정 OMA-URI 설정** 블레이드에서 **추가**를 선택합니다.
     - 설정 이름을 입력합니다.
     - **데이터 형식**으로 **문자열**을 지정합니다.
-    - **OMA-URI**로 **./Vendor/MSFT/VPN/Profile/*Name*/PackageList**문자열을 지정합니다. 여기서*Name*은 1단계에서 적어둔 VPN 프로필 이름입니다. 이 예제에서 문자열은 **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/PackageList**입니다.
+    - **OMA-URI**로 **./Vendor/MSFT/VPN/Profile/*Name*/PackageList** 문자열을 지정합니다. 여기서 *Name*은 1단계에서 적어둔 VPN 프로필 이름입니다. 이 예제에서 문자열은 **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/PackageList**입니다.
     - **값**으로 프로필에 연결할 패키지가 세미콜론으로 구분된 목록을 만듭니다. 예를 들어 Excel 및 Google Chrome 브라우저에서 VPN 연결을 사용하려면 **com.microsoft.office.excel;com.android.chrome**과 같이 입력합니다.
 
 ![Android 앱별 VPN 사용자 지정 정책의 예](./media/android_per_app_vpn_oma_uri.png)
@@ -76,7 +77,7 @@ Android 장치 또는 사용자 그룹에 정책을 배포한 후에 사용자�
   1.    **사용자 지정 OMA-URI 설정** 블레이드에서 **추가**를 선택합니다.
   2.    설정 이름을 입력합니다.
   3.    **데이터 형식**으로 **문자열**을 지정합니다.
-  4.    **OMA-URI**로 **./Vendor/MSFT/VPN/Profile/*Name*/Mode**문자열을 사용합니다. 여기서*Name*은 1단계에서 적어둔 VPN 프로필 이름입니다. 이 예제에서 문자열은 **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/Mode**입니다.
+  4.    **OMA-URI**로 **./Vendor/MSFT/VPN/Profile/*Name*/Mode** 문자열을 사용합니다. 여기서 *Name*은 1단계에서 적어둔 VPN 프로필 이름입니다. 이 예제에서 문자열은 **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/Mode**입니다.
   5.    **값**에 **블랙리스트** 또는 **허용 목록**을 입력합니다.
 
 

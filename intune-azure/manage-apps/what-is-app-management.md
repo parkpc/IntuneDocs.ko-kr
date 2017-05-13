@@ -1,12 +1,12 @@
 ---
-title: "앱 관리란?"
+title: "앱 관리란? | Microsoft 문서"
 titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: 이 항목에서는 Microsoft Intune을 사용한 앱 관리의 기본 사항을 알아봅니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 05/04/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 33def827fc7417930338e56c650d01df4dad85fb
-ms.lasthandoff: 02/18/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a9748a0ad6b9bbe10e36ba133ba74edb6aa6e09a
+ms.openlocfilehash: 34970d6adcfe41a6de9636a5605a17f9f5ef2d82
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/05/2017
 
 
 ---
@@ -46,6 +47,7 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
 |장치 및 사용자에게 앱 추가 및 할당|예|예|예|예|
 |Intune에 등록되지 않은 장치에 앱 할당|예|예|아니요|아니요|
 |앱 구성 정책을 사용하여 앱의 시작 동작 제어|아니요|예|아니요|아니요|
+|모바일 앱 프로비전 정책을 사용하여 만료된 앱 갱신|아니요|예|아니요|아니요|
 |앱 보호 정책이 적용되는 앱에서 회사 데이터 보호|예|예|아니요|아니요<sup>1</sup>|
 |설치된 앱에서 회사 데이터만 제거(앱 선택적 초기화)|예|예|예|예|
 |앱 할당 모니터링|예|예|예|예|
@@ -68,7 +70,7 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
 
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **앱 관리**를 선택합니다.
+3. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
 
     ![모바일 앱 워크로드](./media/apps-workload.png)
 
@@ -77,19 +79,21 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
     - [앱 추가](add-apps.md)
     - [앱 할당](deploy-apps.md)
     - [앱 모니터링](monitor-apps.md)
-- **사용이 허가된 앱** - 앱 스토어에서 대량 구매 앱을 보고, 배포하고, 모니터링할 수 있습니다.
-    - [비즈니스용 Windows 스토어 대량 구매 앱](wsfb-apps.md)
 - **앱 구성 정책** - 앱 구성 정책을 사용하여 사용자가 앱을 실행할 때 필요할 수 있는 설정을 제공할 수 있습니다. 자세한 내용은 다음을 참조하세요.
     - [앱 구성 정책](app-configuration-policies.md)
 - **앱 보호 정책** - 설정을 앱에 연결하여 앱에서 사용 중인 회사 데이터를 보호할 수 있습니다. 예를 들어 다른 앱과 통신하는 앱의 기능을 제한하고 사용자에게 회사 앱에 액세스하려면 PIN을 입력하도록 요구할 수 있습니다.
     - [앱 보호 정책](app-protection-policies.md)
 - **앱 선택적 초기화** - 선택한 사용자의 장치에서 회사 데이터만 제거합니다.
     - [앱 선택적 초기화](app-selective-wipe.md)
+- **iOS 프로비전 프로필** - iOS 앱에는 인증서로 서명된 프로비전 프로필 및 코드가 포함됩니다. 인증서가 만료되면 앱이 더 이상 실행되지 않을 수 있습니다. Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필 정책을 미리 할당하기 위한 도구를 제공합니다.
+    - [iOS 앱 프로비전 프로필](ios-app-provisioning-profile.md)
 
 ### <a name="monitor"></a>모니터
+- **사용이 허가된 앱** - 앱 스토어에서 대량 구매 앱을 보고, 할당하고, 모니터링할 수 있습니다.
+    - [비즈니스용 Windows 스토어 대량 구매 앱](wsfb-apps.md)
 - **검색된 앱** - Intune에서 할당하고 장치에 설치된 모든 앱을 표시합니다.
 - **앱 설치 상태** - 생성한 앱 할당의 상태를 표시합니다.
-- **앱 보호 사용자 상태** - 선택한 사용자에 대한 앱 보호 정책의 상태를 표시합니다.
+- **앱 보호 상태** - 선택한 사용자에 대한 앱 보호 정책의 상태를 표시합니다.
 
 자세한 내용은 [앱 모니터링](monitor-apps.md)을 참조하세요.
 
