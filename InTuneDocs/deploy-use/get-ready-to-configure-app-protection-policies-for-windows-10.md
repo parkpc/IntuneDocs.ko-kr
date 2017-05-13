@@ -14,9 +14,10 @@ ms.assetid: ebc7cfc8-40b9-47c2-8357-d392ebbb27c8
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
 ms.openlocfilehash: 86a59771fc57971a626f71083e81cd4b7d858cfa
+ms.contentlocale: ko-kr
 ms.lasthandoff: 04/25/2017
 
 
@@ -41,7 +42,7 @@ Windows 10 앱 보호 정책을 만들려면 Azure AD에서 MAM(모바일 응용
 
 3.  **Azure AD** 블레이드가 열리면 **모바일(MDM 및 MAM)**을 선택한 다음 **Microsoft Intune**을 클릭합니다.
 
-    ![모바일 MDM 및 MAM](../media/AppManagement/mam-provider-sc-1.png)
+    ![모바일 MDM 및 MAM](../media/AppManagement/mam-provider-sc-2.png)
 
 4.  구성 블레이드가 열리면 먼저 **기본 MAM URL 복원**을 선택한 후에 다음 항목을 구성합니다.
 
