@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/02/2017
+ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,10 +14,11 @@ ms.assetid: abc57093-7351-408f-9f41-a30877f96f73
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 0154e3bfeac0457de57257045e3e7ce833325bce
-ms.openlocfilehash: a462bcfa107bf1a37ea4e84bc3d88d0dd81f9fc8
-ms.lasthandoff: 02/03/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a9748a0ad6b9bbe10e36ba133ba74edb6aa6e09a
+ms.openlocfilehash: 2801d6a3cc672fbf91f89d2586c36b6bd3f18490
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/05/2017
 
 
 ---
@@ -163,7 +164,7 @@ iOS 8.0 이상 장치에 대해 필요 시 VPN을 구성할 수 있습니다.
 1. 정책 구성 페이지에서 **이 VPN 연결에 대한 주문형 규칙**을 찾습니다. 열의 레이블은 규칙에서 확인하는 조건인 **일치**와 조건이 일치할 경우 정책에서 트리거하는 작업인 **작업**입니다.
 2. **추가**를 선택하여 규칙을 만듭니다. 규칙에서 설정할 수 있는 일치 유형은 두 가지입니다. 규칙당 이러한 유형 중 하나만 구성할 수 있습니다.
   - **SSID** - 무선 네트워크를 나타냅니다.
-  - **DNS 검색 도메인** -  정규화된 도메인 이름(예: *team. corp.contoso.com*을 사용하거나 *contoso.com*과 같은 도메인을 사용(.contoso.com*을 사용하는 것과 동일))합니다.
+  - **DNS 검색 도메인** - 정규화된 도메인 이름(예: *team. corp.contoso.com*)을 사용하거나 도메인(예: *contoso.com*)을 사용할 수 있습니다(* *.contoso.com*을 사용하는 것과 동일).
 3. 선택 사항: 규칙에서 테스트로 사용하는 URL인 URL 문자열 프로브를 제공합니다. 이 프로필이 설치된 장치에서 리디렉션 없이 이 URL에 액세스할 수 있는 경우 VPN이 설정되고 장치가 대상 URL에 연결됩니다. 사용자에게 URL 문자열 프로브 사이트가 표시되지 않습니다. URL 문자열 프로브의 예는 VPN을 연결하기 전에 장치 준수를 확인하는 감사 웹 서버의 주소입니다. 또한 VPN 통해 장치를 대상 URL에 연결하기 전에 URL에서 VPN이 사이트에 연결할 수 있는지 테스트할 수도 있습니다.
 4. 다음 작업 중 하나를 선택합니다.
   - **연결**

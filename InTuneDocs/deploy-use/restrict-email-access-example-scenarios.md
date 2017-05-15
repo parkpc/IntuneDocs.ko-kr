@@ -14,9 +14,11 @@ ms.assetid: 454eab79-b620-42c9-b8e6-fada6e719fcd
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
-ms.openlocfilehash: c02961aa984f8041394639a872bf4cfcdfc0be91
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: 7d0b9cee72e8810b4f39bd81bd8f49d0818618c4
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -28,7 +30,7 @@ ms.openlocfilehash: c02961aa984f8041394639a872bf4cfcdfc0be91
 ## <a name="scenario-1-block-users-from-using-noncompliant-devices-to-access-exchange-online"></a>시나리오 1: 비규격 장치를 사용하여 Exchange Online에 액세스하는 사용자 차단
 ### <a name="scenario-requirements"></a>시나리오 요구 사항
 - 장치가 배포된 준수 정책을 준수하지 않는 경우 **회계** Azure Active Directory 보안 그룹의 모든 사용자가 Exchange Online에 액세스하지 못하도록 차단되어야 합니다.
-- 사용자가 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 지원되지 않는 장치를 포함한 그룹에 있는 경우 해당 장치에서 Exchange Online에 액세스하지 못하도록 차단되어야 합니다.
+- 사용자가 Intune에서 지원되지 않는 장치를 포함한 그룹에 있는 경우 해당 장치에서 Exchange Online에 액세스하지 못하도록 차단되어야 합니다.
 - **재무** Azure Active Directory 보안 그룹 정책에 속한 모든 사용자가 **회계** 보안 그룹에도 속해 있더라도 해당 정책에서 제외되어야 합니다.
 
 이를 위해 다음 설정으로 Exchange Online에 대한 조건부 액세스 정책을 구성합니다.
@@ -68,7 +70,7 @@ ms.openlocfilehash: c02961aa984f8041394639a872bf4cfcdfc0be91
 ## <a name="scenario-3-no-android-devices-can-access-exchange-on-premises"></a>시나리오 3: Android 장치는 Exchange 온-프레미스에 액세스할 수 없음
 ### <a name="scenario-requirements"></a>시나리오 요구 사항
 - 모든 Android 장치는 Exchange 액세스가 차단됩니다.
-- 지원되는 다른 모든 장치는 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 관리되는 경우 Exchange에 액세스할 수 있습니다.
+- 지원되는 다른 모든 장치는 Intune에서 관리되는 경우 Exchange에 액세스할 수 있습니다.
 
 이를 위해 다음 설정으로 Exchange 온-프레미스에 대한 조건부 액세스 정책을 구성합니다.
 
@@ -82,9 +84,4 @@ ms.openlocfilehash: c02961aa984f8041394639a872bf4cfcdfc0be91
 다음 흐름을 사용하여 Exchange에 액세스할 수 있는 장치를 결정합니다.
 
 ![장치 액세스 흐름](./media/ConditionalAccess8-4.png)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

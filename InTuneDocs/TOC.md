@@ -84,7 +84,7 @@
 #### [Exchange 액세스 규칙](deploy-use/exchange-access-rules-for-mobile-devices.md)
 ### [Android for Work 관리](deploy-use/android-for-work.md)
 
-## [소프트웨어 에이전트로 PC 관리](deploy-use/manage-windows-pcs-with-microsoft-intune.md)
+## [소프트웨어 클라이언트로 PC 관리](deploy-use/manage-windows-pcs-with-microsoft-intune.md)
 ### [PC 클라이언트 설치](deploy-use/install-the-windows-pc-client-with-microsoft-intune.md)
 ### [일반 PC 관리 작업](deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
 #### [PC 정책](deploy-use/use-policies-to-simplify-windows-pc-management.md)

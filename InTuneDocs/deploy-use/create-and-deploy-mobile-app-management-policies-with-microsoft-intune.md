@@ -14,10 +14,11 @@ ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
-ms.openlocfilehash: 31b7ff2b9644f47107199f0f1d237847169c3143
-ms.lasthandoff: 04/24/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: a7d38caac1cfd035c66d02579766d60d4394dd5e
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -157,7 +158,7 @@ Intune 1703 버전부터 새 앱 보호 정책을 만들 때 LOB 앱을 Intune�
 
     이제 정책을 만들고 사용자에게 배포했습니다.
 
-[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 라이선스가 할당된 사용자만 정책에 의해 영향을 받습니다. 선택한 보안 그룹에서 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 라이선스가 할당되지 않은 사용자는 영향을 받지 않습니다.
+Intune 라이선스가 할당된 사용자만 정책에 의해 영향을 받습니다. 선택한 보안 그룹에서 Intune 라이선스가 할당되지 않은 사용자는 영향을 받지 않습니다.
 
 >[!IMPORTANT]
 > Configuration Manager와 함께 Intune을 사용하여 iOS 및 Android 장치를 관리하는 경우 선택한 그룹에 바로 포함된 사용자에만 정책이 적용됩니다. 선택한 그룹 내에 중첩된 자식 그룹의 멤버는 영향을 받지 않습니다.

@@ -14,10 +14,11 @@ ms.assetid: 770aad50-fd7a-4cf1-a793-f95fe47fc3f8
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e13a9c426e07ebb2443bd403d1a5c7274afd387e
-ms.openlocfilehash: dea0700e2901bfed566a87d7c599569219de85a2
-ms.lasthandoff: 12/20/2016
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 271459e3faf886a45bcd673d2450f36a4a33a5db
+ms.openlocfilehash: 0ec828e881182dc0e0fb3bae671f0aec58f52aad
+ms.contentlocale: ko-kr
+ms.lasthandoff: 04/28/2017
 
 
 ---
@@ -47,7 +48,7 @@ Windows PC를 관리하려는 경우 두 가지 옵션 중에서 선택할 수 �
 - Endpoint Protection 및 Windows 방화벽
 - TeamViewer 소프트웨어를 통해 사용자 원격 지원
 
-각 방법에서 제공되는 관리 기능의 자세한 목록은 [모바일 장치 관리 기능](mobile-device-management-capabilities-in-microsoft-intune.md) 및 [Intune PC 소프트웨어 클라이언트 기능](windows-pc-management-capabilities-in-microsoft-intune.md)을 참조하세요.
+각 방법에서 제공되는 관리 기능의 자세한 목록은 [모바일 장치 관리 기능](mobile-device-management-capabilities-in-microsoft-intune.md) 및 [Intune PC 클라이언트 소프트웨어를 사용하여 Windows PC 관리](/intune/deploy-use/manage-windows-pcs-with-microsoft-intune)를 참조하세요.
 Intune에서 지원하는 장치와 PC에 대한 자세한 내용은 [지원되는 모바일 장치 및 컴퓨터](https://docs.microsoft.com/intune/get-started/what-to-know-before-you-start-microsoft-intune#intune-supported-devices)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계

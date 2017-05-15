@@ -14,10 +14,11 @@ ms.assetid: eb4a9f01-f857-4563-ab6f-5d0d7dfa659d
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
-ms.openlocfilehash: 3794981387e73176152c212854a97b4333023f5d
-ms.lasthandoff: 04/24/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: 9466a2ca94ea556037c2fdd7fee88b87eed88685
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -82,7 +83,7 @@ Intune 회사 포털은 사용자에게 회사 데이터 및 앱에 대한 액�
     |----------|----------------|
     |테마 색|회사 포털에 적용할 테마 색을 선택합니다.|
     |회사 로고 포함|이 옵션을 설정한 경우 회사 포털에서 표시할 회사 로고를 업로드할 수 있습니다. 회사 포털 배경이 흰색인 경우에 표시되는 로고 하나와 회사 포털 배경이 직접 선택한 테마 색을 사용하는 경우에 표시되는 로고 하나, 두 개의 로고를 업로드할 수 있습니다. 각 로고는 .png 또는 .jpg 파일 형식이어야 하며 최대 해상도가 400 x 100픽셀이고 크기가 750KB 이하여야 합니다.|
-    |[!INCLUDE[win8_client_2](../includes/win8_client_2_md.md)] 회사 포털 앱의 배경 선택|이 설정은 [!INCLUDE[win8_client_2](../includes/win8_client_2_md.md)] 회사 포털 앱의 배경에만 적용됩니다.|
+    |Windows 8 회사 포털 앱의 배경 선택|이 설정은 Windows 8 회사 포털 앱의 배경에만 적용됩니다.|
 
 
 변경 내용을 저장한 후 관리 콘솔의 **회사 포털** 페이지 맨 아래에 제공된 링크를 사용하여 회사 포털 웹 사이트를 확인할 수 있습니다. 이러한 링크는 변경할 수 없습니다. 사용자가 로그인하면 이러한 링크가 회사 포털에 구독을 표시합니다.
