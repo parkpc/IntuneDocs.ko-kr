@@ -1,5 +1,5 @@
 ---
-title: "Android for Work에 대한 Intune 장치 제한 설정"
+title: "Android for Work에 대한 Intune 장치 제한 설정 | Microsoft 문서"
 titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: Android for Work 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
@@ -15,10 +15,11 @@ ms.assetid: 1830720b-16cb-4f2f-a71a-62967f882563
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 03fec9d22e705ccb27f4eb1f8f82c7ace95e841e
-ms.openlocfilehash: c5cff131e7bcedadbad42fe6ab8bf00017f933ff
-ms.lasthandoff: 04/26/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: f9e8a5deb17ebb77d480213567e5ccf6550e3493
+ms.openlocfilehash: be6303f2db508c2aca9ba9a40fcd43278f83c045
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/03/2017
 
 
 ---
@@ -62,9 +63,9 @@ ms.lasthandoff: 04/26/2017
 - **Smart Lock 및 기타 신뢰 에이전트** - 호환되는 장치에서 Smart Lock 기능을 제어할 수 있습니다. 신뢰 에이전트라고도 하는 이 전화 기능을 통해 장치가 특정 Bluetooth 장치에 연결된 경우 또는 NFC 태그에 가까이 있는 경우와 같이 신뢰할 수 있는 위치에 있는 경우 장치 잠금 화면 암호를 사용하지 않도록 설정하거나 무시할 수 있습니다. 이 설정을 사용하면 사용자가 Smart Lock 기능을 구성하는 것을 방지할 수 있습니다.
 
 ## <a name="custom-policy-settings"></a>사용자 지정 정책 설정
-Microsoft Intune **Android for Work 사용자 지정 구성 정책**을 사용하여 Android for Work 장치에서 기능을 제어하는 데 사용할 수 있는 OMA-URI 설정을 배포합니다. 이는 많은 모바일 장치 제조업체가 장치 기능을 제어하는 데 사용하는 표준 설정입니다.
+Microsoft Intune **Android for Work 사용자 지정 구성 정책**을 사용하여 Android for Work 장치에서 기능을 제어하는 데 사용할 수 있는 OMA-URI 설정을 할당합니다. 이는 많은 모바일 장치 제조업체가 장치 기능을 제어하는 데 사용하는 표준 설정입니다.
 
-이 기능은 Intune 정책을 사용하여 구성할 수 없는 Android 설정을 배포할 수 있도록 하기 위한 것입니다.
+이 기능은 Intune 정책을 사용하여 구성할 수 없는 Android 설정을 할당할 수 있도록 하기 위한 것입니다.
 Intune은 현재 제한된 수의 Android 사용자 지정 정책을 지원합니다. 이 항목의 예제를 참조하여 구성할 수 있는 정책이 무엇인지 알아보세요.
 
 ### <a name="general-settings"></a>일반 설정

@@ -86,6 +86,7 @@
 #### [Windows Phone LOB 앱](manage-apps/windows-phone-line-of-business-app.md)
 #### [Windows 스토어 앱](manage-apps/windows-store-app.md)
 #### [Windows LOB 앱](manage-apps/windows-line-of-business-app.md)
+#### [Android for Work 앱](/manage-apps/android-for-work-apps.md)
 ### [앱 할당](manage-apps/deploy-apps.md)
 ### [앱 모니터링](manage-apps/monitor-apps.md)
 ### [앱 구성 프로필 사용](manage-apps/app-configuration-policies.md)
@@ -100,8 +101,8 @@
 ### [앱 보호 정책 만들기 및 할당](manage-apps/app-protection-policies.md)
 ### [WIP 앱 보호 정책 준비](manage-apps/get-ready-to-configure-app-protection-policies-for-windows-10.md)
 ### [WIP 앱 보호 정책 만들기 및 할당](manage-apps/create-windows-information-protection-policy-with-intune.md)
-#### [Android 설정](manage-apps/android-app-protection-policy-settings.md)
-#### [iOS 설정](manage-apps/ios-app-protection-policy-settings.md)
+### [Android 설정](manage-apps/android-app-protection-policy-settings.md)
+### [iOS 설정](manage-apps/ios-app-protection-policy-settings.md)
 ### [앱 보호 정책 유효성 검사](manage-apps/validate-app-protection-policies.md)
 ### [앱 보호 사용자 상태 모니터링](manage-apps/monitor-app-protection-policies-with-microsoft-intune.md)
 ### [iOS 앱 간의 데이터 전송 관리](manage-apps/manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
@@ -190,7 +191,7 @@
 ### [Android for Work 준수 정책 만들기](set-device-compliance/create-a-compliance-policy-for-android-for-work.md)
 ### [iOS 준수 정책 만들기](set-device-compliance/create-a-compliance-policy-for-ios.md)
 ### [Windows 준수 정책 만들기](set-device-compliance/create-a-compliance-policy-for-windows.md)
-### [비준수에 대한 작업 만들기](set-device-compliance/actions-for-noncompliance.md)
+<!---### [Create Actions for noncompliance](set-device-compliance/actions-for-noncompliance.md)--->
 ### [장치 준수 모니터링](set-device-compliance/monitor-intune-device-compliance-policies.md)
 <!--- ### [Monitor device compliance](set-device-compliance/monitor-device-compliance.md)--->
 

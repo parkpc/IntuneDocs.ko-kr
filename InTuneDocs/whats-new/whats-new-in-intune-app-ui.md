@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 04/26/2017
+ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,24 +15,25 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 5f172290d493717308446c4f9e2313a03ba8f3aa
-ms.openlocfilehash: 84c6c9ddeeff3570d0b00364063e43105141de0f
+ms.sourcegitcommit: a9748a0ad6b9bbe10e36ba133ba74edb6aa6e09a
+ms.openlocfilehash: 68dbaa2209ad1432279683a291734641e39ff736
 ms.contentlocale: ko-kr
-ms.lasthandoff: 04/27/2017
+ms.lasthandoff: 05/05/2017
 
 
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Intune 최종 사용자 앱 UI 업데이트
 최종 사용자가 이 Microsoft Intune 릴리스에서 보게 될 앱의 UI가 어떻게 업데이트되었는지 알아보세요. 그러면 사용자 커뮤니케이션 및 배포를 지원하기 위해 만든 사용자 지정 문서 업데이트에 도움이 될 것입니다. 사용자가 회사 포털을 사용하여 지원 센터에 전화해 지원을 요청하는 경우 사용자에게 발생하는 문제를 더 잘 해결하는 방법을 이해하는 데에도 도움이 될 수 있습니다.
 
-> [!Note]
-> 아래 그림은 미리 보기이며, 발표된 제품은 제시된 버전과 다를 수 있습니다.
+## <a name="coming-soon-in-the-ui"></a>UI에서 곧 공개 예정
+이는 사용자 인터페이스를 업데이트하여 사용자 환경을 개선할 방법에 대한 계획입니다.
 
-## <a name="april-2017"></a>2017년 4월
+> [!Note]
+> 아래 이미지는 미리 보기일 수 있으며 발표된 제품은 제공된 버전과 다를 수 있음에 유의하세요.
 
 ### <a name="improved-sign-in-experience-across-company-portal-apps-for-all-platforms---user-story-1132123--"></a>모든 플랫폼에 대해 회사 포털 앱 전체에서 로그인 환경 개선됨 <!--User Story 1132123-->
 
-Android, iOS 및 Windows용 Intune 회사 포털 앱에 대한 로그인 환경을 개선하고 있습니다.  Azure AD에서 이 변경 내용을 적용할 경우 회사 포털 앱에 대한 모든 플랫폼에서 새로운 사용자 환경이 자동으로 나타나게 됩니다. 또한 사용자가 이제 생성된 일회용 코드를 사용하여 다른 장치에서 회사 포털에 로그인할 수도 있습니다. 이 기능은 사용자가 자격 증명 없이 로그인해야 할 경우에 특히 유용합니다.  
+Android, iOS 및 Windows용 Intune 회사 포털 앱에 대한 로그인 환경을 개선하게 될 향후 몇 개월 내에 제공될 변경이 있음을 알려드립니다. Azure AD에서 이 변경 내용을 적용할 경우 회사 포털 앱에 대한 모든 플랫폼에서 새로운 사용자 환경이 자동으로 나타나게 됩니다. 또한 사용자가 이제 생성된 일회용 코드를 사용하여 다른 장치에서 회사 포털에 로그인할 수도 있습니다. 이 기능은 사용자가 자격 증명 없이 로그인해야 할 경우에 특히 유용합니다.  
 
 아래에서 이전 로그인 환경, 자격 증명을 사용하는 새 로그인 환경, 그리고 다른 장치로부터의 새 로그인 환경을 볼 수 있습니다.
 
@@ -52,13 +53,13 @@ __새 로그인 환경__
 
 ![전자 메일 주소가 승인된 후에 암호를 입력하라는 메시지가 표시됩니다.](./media/cp_ios_aad_signin_after_1704_003.png)
 
+![인증 프로세스를 진행하고 나면 회사 포털 앱에 로그인되며 이 상태는 로드 중 막대로 표현됩니다.](./media/cp_ios_aad_signin_from_another_device_after_1704_007.png)
+
 __다른 장치에서 로그인 시 새 로그인 환경__
 
 ![웹 사이트가 그림으로 표시되면서 그 앞에 사람 아이콘이 포함된 회사 포털 로그인 페이지 그 아래 “로그인” 단추가 있습니다. Microsoft 개인 정보 및 쿠키 정보로 이동하게 하는 하단의 링크](./media/cp_ios_aad_signin_from_another_device_after_1704_001.png)
 
 __다른 장치에서 로그인__ 링크를 탭합니다.
-
-![사용자는 같은 화면에서 전자 메일 및 암호 대신 전자 메일 주소만 입력하라는 메시지를 받습니다. 전자 메일 필드 아래의 링크에서 “다른 장치에서 로그인”이 표시됩니다.](./media/cp_ios_aad_signin_from_another_device_after_1704_002.png)
 
 ![회사 컴퓨터의 고유 암호를 사용하여 aka.ms/devicelogin 페이지로 이동하여 로그인 시 해당 코드를 사용하라는 지침이 제공됩니다.](./media/cp_ios_aad_signin_from_another_device_after_1704_003.png)
 
@@ -75,6 +76,8 @@ __다른 장치에서 로그인__ 링크를 탭합니다.
 회사 포털 앱에서 로그인이 시작됩니다.
 
 ![인증 프로세스를 진행하고 나면 회사 포털 앱에 로그인되며 이 상태는 로드 중 막대로 표현됩니다.](./media/cp_ios_aad_signin_from_another_device_after_1704_007.png)
+
+## <a name="april-2017"></a>2017년 4월
 
 ### <a name="new-icons-for-the-managed-browser-and-the-company-portal---918433-918431--"></a>Managed Browser 및 회사 포털의 새 아이콘 <!--918433, 918431-->
 
@@ -106,13 +109,13 @@ Android 회사 포털 앱의 업데이트에는 사용자가 앱을 시작하거
    <table id="wrapper">
       <tr>
          <td>
-            <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_android_signing_in_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Connecting' underneath it." width=200 height=366 align=center>
+            <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_android_connecting_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Connecting' underneath it." width=200 height=366 align=center>
           </td>
           <td>
-             <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_android_checking_security_reqs_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Signing in' underneath it." width=200 height=366 align=center>
+             <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_android_signing_in_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Signing in' underneath it." width=200 height=366 align=center>
            </td>
            <td>
-              <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_android_connecting_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Checking for security requirements' underneath it." width=200 height=366 align=center>
+              <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_android_checking_security_reqs_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Checking for security requirements' underneath it." width=200 height=366 align=center>
            </td>
       </tr>
    </table>
@@ -120,22 +123,13 @@ Android 회사 포털 앱의 업데이트에는 사용자가 앱을 시작하거
 </html>
 
 ### <a name="improved-app-install-status-for-the-windows-10-company-portal-app---676495--"></a>Windows 10 회사 포털 앱에 대해 앱 설치 상태 개선 <!--676495-->
-Windows 10 회사 포털 앱에서는 이제 회사 포털에서 시작된 모든 최신 앱 설치에 대한 앱 설치 진행률 표시줄을 제공합니다.
+이제 Windows 10 회사 포털 앱에서는 앱 세부 정보 페이지에 설치 진행률 표시줄을 제공합니다. 이 진행률 표시줄은 Windows 10 1주년 업데이트 이상을 실행하는 장치의 최신 앱에서 지원됩니다.
 
-<html>
-<body>
-   <table id="wrapper">
-      <tr>
-         <td>
-            <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_win10_install_status_before_1704.png" alt="An image of the previous version of the loading screen, where the status simply said 'installing.'" width=200 height=366 align=center>
-          </td>
-          <td>
-             <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_win10_install_status_after_1704.png" alt="An image of the updated version of the loading screen, which now shows an install progress bar." width=200 height=366 align=center>
-           </td>
-      </tr>
-   </table>
-</body>
-</html>
+__이전__
+  ![상태가 ‘설치 중’으로 표시되는 이전 버전의 로딩 화면 이미지](./media/cp_win10_install_status_before_1704.png)
+
+__이후__
+  ![이제 설치 진행률 표시줄이 표시되는 업데이트된 버전의 로딩 화면 이미지](./media/cp_win10_install_status_after_1704.png)
 
 ## <a name="february-2017"></a>2017 년 2월
 

@@ -14,10 +14,11 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: 9e4fca9e29c8f0c2ec3ef088c3f91ad15ac11804
-ms.lasthandoff: 04/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: 4a8b3f5a3ab5df9f31741e3331d2b6bbfd2c0c9f
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -26,7 +27,7 @@ ms.lasthandoff: 04/14/2017
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-[!INCLUDE[wit_firstref](../includes/wit_firstref_md.md)] 조건부 액세스를 사용하여 SharePoint Online에 있는 파일에 대한 액세스를 제어합니다.
+Microsoft Intune 조건부 액세스를 사용하여 SharePoint Online에 있는 파일에 대한 액세스를 제어합니다.
 조건부 액세스에는 두 구성 요소가 포함되어 있습니다.
 - 장치가 규격으로 간주되기 위해 준수해야 하는 정책인 장치 준수 정책.
 - 장치가 서비스에 액세스하기 위해 충족해야 하는 조건을 지정하는 조건부 액세스 정책.
@@ -45,20 +46,20 @@ SharePoint Online에 대한 조건부 액세스 정책을 구성하기 **전에*
 
 
   필수 파일에 연결하려면 장치가 다음 조건을 충족해야 합니다.
--   [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 **등록**되어 있거나 도메인에 가입된 PC이어야 합니다.
+-   Intune에 **등록**되어 있거나 도메인에 가입된 PC여야 합니다.
 
--   Azure Active Directory에 **등록**되어 있어야 합니다. [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 장치를 등록하면 이 등록이 자동으로 수행됩니다.
+-   Azure Active Directory에 **등록**되어 있어야 합니다. Intune에 장치를 등록하면 이 등록이 자동으로 수행됩니다.
 
 
--   배포된 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 준수 정책을 모두 **준수**해야 합니다.
+-   배포된 Intune 규정 준수 정책을 **준수**해야 합니다.
 
 Azure Active Directory에 저장되는 장치 상태는 지정한 조건에 따라 파일에 대한 액세스 권한을 부여하거나 차단합니다.
 
 조건이 충족되지 않으면 사용자가 로그인할 때 다음 메시지 중 하나가 표시됩니다.
 
--   장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하지 않았거나 Azure Active Directory에 등록하지 않은 경우 회사 포털 앱을 설치하고 등록하는 방법에 관한 지침이 포함된 메시지가 표시됩니다.
+-   장치를 Intune에 등록하지 않았거나 Azure Active Directory에 등록하지 않은 경우 회사 포털 앱을 설치하고 등록하는 방법에 관한 지침이 포함된 메시지가 표시됩니다.
 
--   장치가 규정을 준수하지 않으면 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 회사 포털 웹 사이트를 안내하는 메시지가 표시됩니다. 해당 웹 사이트에서 사용자는 문제에 관한 정보와 이를 해결하는 방법을 확인할 수 있습니다.
+-   장치가 규정을 준수하지 않으면 Intune 회사 포털 웹 사이트를 안내하는 메시지가 표시됩니다. 해당 웹 사이트에서 사용자는 문제에 관한 정보와 이를 해결하는 방법을 확인할 수 있습니다.
 
 **외부 공유에는 조건부 액세스가 적용되지 않습니다**. 테넌트 또는 사이트 모음에서의 외부 공유를 방지하는 방법을 알아보려면 [SharePoint Online 환경에 대한 외부 공유 관리](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85)를 참조하세요.
 
@@ -115,7 +116,7 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 아직 수행하지 않은 경우 준수 정책을 만들어 SharePoint Online 정책의 대상이 될 사용자에게 배포합니다.
 
 > [!NOTE]
-> 규정 준수 정책을 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 그룹에 배포하는 동안 Azure Active Directory 보안 그룹을 조건부 액세스 정책의 대상으로 합니다.
+> 규정 준수 정책을 Intune 그룹에 배포하는 동안 Azure Active Directory 보안 그룹을 조건부 액세스 정책의 대상으로 합니다.
 
 준수 정책을 구성하는 방법에 대한 자세한 내용은 [준수 정책 만들기](create-a-device-compliance-policy-in-microsoft-intune.md)를 참조하세요.
 
@@ -152,11 +153,11 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
          지정한 장치 플랫폼에서 최신 인증을 사용하는 모든 클라이언트 앱에 조건부 액세스 정책이 적용됩니다.
 
-     Windows PC의 경우 해당 PC가 도메인에 가입되어 있거나 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록되어 있고 정책을 준수해야 합니다. 다음 요구 사항을 설정할 수 있습니다.
+     Windows PC의 경우 해당 PC가 도메인에 가입되어 있거나 Intune에 등록되어 있고 정책을 준수해야 합니다. 다음 요구 사항을 설정할 수 있습니다.
 
-     -   **장치가 도메인에 가입되어 있거나 규정을 준수해야 합니다.** PC가 도메인에 가입되어 있거나 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 설정된 정책을 준수해야 하도록 지정하려는 경우 이 옵션을 선택합니다. PC가 이러한 요구 사항을 하나라도 충족하지 않을 경우 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 장치를 등록하라는 메시지가 표시됩니다.
+     -   **장치가 도메인에 가입되어 있거나 규정을 준수해야 합니다.** PC가 도메인에 가입되어 있거나 Intune에 설정된 정책을 준수해야 하도록 지정하려는 경우 이 옵션을 선택합니다. PC가 이러한 요구 사항을 하나라도 충족하지 않을 경우 Intune에 장치를 등록하라는 메시지가 표시됩니다.
 
-     -   **장치가 규정을 준수해야 합니다.** PC가 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록되어 있고 규정을 준수해야 하는 경우 이 옵션을 선택합니다. PC가 등록되지 않은 경우 등록 방법에 대한 지침이 포함된 메시지가 표시됩니다.
+     -   **장치가 규정을 준수해야 합니다.** PC가 Intune에 등록되어 있고 규정을 준수해야 하는 경우 이 옵션을 선택합니다. PC가 등록되지 않은 경우 등록 방법에 대한 지침이 포함된 메시지가 표시됩니다.
 
 4.   SharePoint Online 및 비즈니스용 OneDrive에 대한 **브라우저 액세스**에서, 지원되는 브라우저인 Safari(iOS) 및 Chrome(Android)을 통해서만 Exchange Online에 대한 액세스를 허용하도록 선택할 수 있습니다. 다른 브라우저에서의 액세스는 차단됩니다. OneDrive에 대한 응용 프로그램 액세스에 선택한 것과 동일한 플랫폼 제한 사항이 여기에도 적용됩니다.
 

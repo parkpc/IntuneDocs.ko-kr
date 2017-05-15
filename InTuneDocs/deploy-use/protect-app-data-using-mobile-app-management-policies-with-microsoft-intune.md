@@ -14,10 +14,11 @@ ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: fbb41a8cf6fada76b72213b8cb04fdc0428515e9
-ms.openlocfilehash: 651899219458f799e26ed7957ccef97d7ae2af09
-ms.lasthandoff: 02/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: 9959e9f757e83c7aa4274b7e7b9df949fff022cc
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -128,7 +129,7 @@ MDM 솔루션에 등록되지 않은 BYOD 장치의 경우 앱 보호 정책을 
 
 예를 들어 사용자가 회사 계정을 사용하여 OneDrive 앱을 시작하면 파일을 개인 저장소 위치로 이동할 수 없습니다. 그러나 사용자가 계인 계정으로 OneDrive를 사용하는 경우 개인 OneDrive에서 제한 없이 데이터를 복사 및 이동할 수 있습니다.  
 
-모든 Office 모바일 앱이 다중 ID 액세스를 지원합니다.
+- Intune을 통해 [MAM 및 다중 ID](https://www.microsoft.com/cloud-platform/microsoft-intune-apps)를 지원하는 앱에 대해 자세히 알아봅니다.
 
 ##  <a name="next-steps"></a>다음 단계
 - [앱 보호 정책 구성 준비](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)

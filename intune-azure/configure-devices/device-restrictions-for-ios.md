@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/12/2017
+ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: 73590192-54ca-4833-9f1d-83e1b654399f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
-ms.openlocfilehash: 9e348278f62b2b9ba10f0f77c9fda214b43812a7
-ms.lasthandoff: 04/19/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a9748a0ad6b9bbe10e36ba133ba74edb6aa6e09a
+ms.openlocfilehash: 68738f25393eec006a8bc7a78412669859f91c27
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/05/2017
 
 
 ---
@@ -123,7 +124,7 @@ ms.lasthandoff: 04/19/2017
 
 검색 엔진을 사용하여 iTunes 앱 스토어에서 사용할 앱을 찾고 앱 페이지를 엽니다.
 페이지 URL을 복사한 후 허용 또는 금지된 앱 목록이나 키오스크 모드에서 실행하려는 앱을 구성할 URL로 사용합니다.
-제한된 앱 설정이 포함된 장치 프로필을 사용자 그룹에 배포해야 합니다.
+제한된 앱 설정이 포함된 장치 프로필을 사용자 그룹에 할당해야 합니다.
 
 예: iPad용 Microsoft Word를 검색합니다. 사용하는 URL은 https://itunes.apple.com/kr/app/microsoft-word-for-ipad/id586447913?mt=8이 됩니다.
 
@@ -160,52 +161,6 @@ ms.lasthandoff: 04/19/2017
 ### <a name="additional-options"></a>추가 옵션
 
 **가져오기**를 클릭하여 <*앱 URL*>, <*앱 이름*>, <*앱 게시자*> 형식으로 csv 파일에서 목록을 채우거나 **내보내기**를 클릭하여 같은 형식으로 숨겨지거나 표시된 앱 목록 내용이 포함된 csv 파일을 만들 수도 있습니다.
-
-### <a name="app-information-for-built-in-ios-apps"></a>기본 제공 iOS 앱에 대한 앱 정보
-이 목록에 있는 정보를 사용하여 숨기거나 표시할 기본 제공 iOS 앱의 이름, 게시자 및 번들 ID를 식별합니다. 목록에서 앱을 모두 표시하거나 숨기려면 아래 데이터를 확장명이 **.csv**인 텍스트 파일로 복사한 다음 **가져오기** 옵션을 사용하여 앱을 모두 동시에 가져올 수 있습니다.
-
-
-    App Store,Apple,com.apple.AppStore
-    Calculator,Apple,com.apple.calculator
-    Calendar,Apple,com.apple.mobilecal
-    Camera,Apple,com.apple.camera
-    Clock,Apple,com.apple.mobiletimer
-    Compass,Apple,com.apple.compass
-    Contacts,Apple,com.apple.MobileAddressBook
-    FaceTime,Apple,com.apple.facetime
-    Find Friends,Apple,com.apple.mobileme.fmf1
-    Find iPhone,Apple,com.apple.mobileme.fmip1
-    Game Center,Apple,com.apple.gamecenter
-    GarageBand,Apple,com.apple.mobilegarageband
-    Health,Apple,com.apple.Health
-    iBooks,Apple,com.apple.iBooks
-    iTunes Store,Apple,com.apple.MobileStore
-    iTunes U,Apple,com.apple.itunesu
-    Keynote,Apple,com.apple.Keynote
-    Mail,Apple,com.apple.mobilemail
-    Maps,Apple,com.apple.Maps
-    Messages,Apple,com.apple.MobileSMS
-    Music,Apple,com.apple.Music
-    News,Apple,com.apple.news
-    Notes,Apple,com.apple.mobilenotes
-    Numbers,Apple,com.apple.Numbers
-    Pages,Apple,com.apple.Pages
-    Photo Booth,Apple,com.apple.Photo-Booth
-    Photos,Apple,com.apple.mobileslideshow
-    Podcasts,Apple,com.apple.podcasts
-    Reminders,Apple,com.apple.reminders
-    Safari,Apple,com.apple.mobilesafari
-    Settings,Apple,com.apple.Preferences
-    Stocks,Apple,com.apple.stocks
-    Tips,Apple,com.apple.tips
-    Videos,Apple,com.apple.videos
-    VoiceMemos,Apple,com.apple.VoiceMemos
-    Wallet,Apple,com.apple.Passbook
-    Watch,Apple,com.apple.Bridge
-    Weather,Apple,com.apple.weather
-
-
-
 
 
 ## <a name="cellular"></a>셀룰러
@@ -308,7 +263,7 @@ ms.lasthandoff: 04/19/2017
 
 >[!NOTE]
 > 키오스크 모드에 대해 iOS 장치를 구성하려면 먼저 Apple Configurator Tool 또는 Apple 장치 등록 프로그램을 사용하여 장치를 감독 모드로 전환합니다. Apple Configurator 도구에 대한 자세한 내용은 Apple 설명서를 참조하세요.
->구성 정책을 배포한 후 지정한 iOS 앱을 설치하면 장치를 다시 시작할 때까지 키오스크 모드가 시작되지 않습니다.
+>프로필을 할당한 후 지정한 iOS 앱을 설치하면 장치를 다시 시작할 때까지 키오스크 모드가 시작되지 않습니다.
 
 ## <a name="safari"></a>Safari
 -     **Safari(감독 모드인 경우에만)** - 장치에서 Safari 브라우저를 사용할 수 있는지 여부를 지정합니다.

@@ -14,10 +14,11 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: cfb3a7cc4e70a062bc511cd4fe80a50b6262864f
-ms.lasthandoff: 04/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: 742a989744a11dbc1c9e17a25b70388e06dd5ae7
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -40,7 +41,7 @@ Microsoft Intune을 사용하여 Exchange Online 또는 Exchange Online Dedicate
 
 - **Enterprise Mobility + Security(EMS) 구독** 또는 **Azure AD(Azure Active Directory) Premium 구독**이 있어야 하며 사용자는 EMS 또는 Azure AD의 라이선스를 취득해야 합니다. 자세한 내용은 [Enterprise Mobility 가격 책정 페이지](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing) 또는 [Azure Active Directory 가격 책정 페이지](https://azure.microsoft.com/pricing/details/active-directory/)를 참조하세요.
 
--  [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]을 Exchange Online에 연결하며 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 콘솔을 통해 장치 정보를 관리할 수 있도록 하는 **Intune 서비스 간 커넥터**(선택 사항)를 구성하는 것이 좋습니다. 커넥터는 준수 정책 또는 조건부 액세스 정책을 사용하려는 경우 필요가 없지만 조건부 액세스의 영향을 평가하는 보고서를 실행하려는 경우에는 필요합니다.
+-  Intune을 Exchange Online에 연결하며 Intune 콘솔을 통해 장치 정보를 관리할 수 있도록 하는 **Intune 서비스 간 커넥터**(선택 사항)를 구성하는 것이 좋습니다. 커넥터는 준수 정책 또는 조건부 액세스 정책을 사용하려는 경우 필요가 없지만 조건부 액세스의 영향을 평가하는 보고서를 실행하려는 경우에는 필요합니다.
     -  [Intune 서비스 간 커넥터](intune-service-to-service-exchange-connector.md)에 대해 자세히 알아보기.
 
    > [!NOTE]
@@ -50,21 +51,21 @@ Microsoft Intune을 사용하여 Exchange Online 또는 Exchange Online Dedicate
 
 조건부 액세스 정책을 구성하고 사용자를 대상으로 지정한 경우 사용자가 자신의 메일에 연결하기 전에 사용하는 **장치**는 다음과 같아야 합니다.
 
--   도메인에 가입된 PC 또는 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 **등록**된 PC이어야 합니다.
+-   도메인에 가입된 PC 또는 Intune에 **등록**된 장치여야 합니다.
 
--  **Azure Active Directory에 등록**되어야 합니다. 장치가 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록된 경우 자동으로 이루어집니다. 또한 클라이언트 Exchange ActiveSync ID가 Azure Active Directory에 등록되어 있어야 합니다.
+-  **Azure Active Directory에 등록**되어야 합니다. 장치가 Intune에 등록된 경우 자동으로 이루어집니다. 또한 클라이언트 Exchange ActiveSync ID가 Azure Active Directory에 등록되어 있어야 합니다.
 
   Intune 및 Office 365 고객의 경우에는 Azure Active Directory Device Registration Service가 자동으로 활성화됩니다. ADFS Device Registration Service를 이미 배포한 고객의 온-프레미스 Active Directory에는 등록된 장치가 표시되지 않습니다.
 
--   해당 장치에 배포된 모든 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 준수 정책을 **준수**하거나 온-프레미스 도메인에 가입되어야 합니다.
+-   해당 장치에 배포된 모든 Intune 준수 정책을 **준수**하거나 온-프레미스 도메인에 가입되어야 합니다.
 
 ### <a name="when-the-device-is-not-compliant"></a>장치가 호환되지 않는 경우
 
 조건부 액세스 정책이 충족되지 않는 경우 장치가 즉시 격리되고, 사용자는 전자 메일을 수신하고, 로그인 시 다음 격리 알림 중 하나가 표시됩니다.
 
-- 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하지 않았거나 Azure Active Directory에 등록하지 않은 경우, 회사 포털 앱을 설치하고 장치를 등록하며 메일을 활성화하는 방법에 대한 지침이 포함된 메시지가 표시됩니다. 이 프로세스는 또한 장치의 Exchange ActiveSync ID를 Azure Active Directory의 레코드와 연결합니다.
+- 장치를 Intune에 등록하지 않았거나 Azure Active Directory에 등록하지 않은 경우, 회사 포털 앱을 설치하고 장치를 등록하며 메일을 활성화하는 방법에 대한 지침이 포함된 메시지가 표시됩니다. 이 프로세스는 또한 장치의 Exchange ActiveSync ID를 Azure Active Directory의 레코드와 연결합니다.
 
--   장치가 준수 정책 규칙을 준수하지 않는 것으로 평가되는 경우 사용자는 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 회사 포털 웹 사이트 또는 회사 포털 앱으로 이동되며 여기에서 문제에 대한 정보와 이를 수정하는 방법을 확인할 수 있습니다.
+-   장치가 준수 정책 규칙을 준수하지 않는 것으로 평가되는 경우 사용자는 Intune 회사 포털 웹 사이트 또는 회사 포털 앱으로 이동되며 여기에서 문제에 대한 정보와 이를 수정하는 방법을 확인할 수 있습니다.
 
 ### <a name="how-conditional-access-works-with-exchange-online"></a>Exchange Online 조건부 액세스의 작동 방식
 
@@ -114,7 +115,7 @@ Microsoft Intune을 사용하여 Exchange Online 또는 Exchange Online Dedicate
 
   PC가 도메인에 가입되어 있거나 준수 정책 규칙을 따라야 합니다.
 
-  PC가 정책을 준수하는 것으로 간주되려면 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에서 PC를 등록해야 하며 정책을 준수하도록 설정해야 합니다.
+  PC가 정책을 준수하는 것으로 간주되려면 Intune에서 PC를 등록해야 하며 정책을 준수하도록 설정해야 합니다.
 
   도메인에 가입된 PC의 경우 Azure Active Directory에 [장치를 자동으로 등록](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-automatic-device-registration/)하도록 조건부 액세스를 설정해야 합니다.
 
@@ -138,11 +139,11 @@ Microsoft Intune을 사용하여 Exchange Online 또는 Exchange Online Dedicate
 ### <a name="step-2-evaluate-the-effect-of-the-conditional-access-policy"></a>2단계: 조건부 액세스 정책의 영향 평가
 **모바일 장치 인벤토리 보고서**를 사용하여 조건부 액세스 정책을 구성한 후 Exchange 액세스가 차단될 수 있는 장치를 식별할 수 있습니다.
 
-이를 위해 [Microsoft Intune 서비스 간 커넥터](intune-service-to-service-exchange-connector.md)를 사용하여 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]과 Exchange 간의 연결을 구성합니다.
+이를 위해 [Microsoft Intune 서비스 간 커넥터](intune-service-to-service-exchange-connector.md)를 사용하여 Intune과 Exchange 간의 연결을 구성합니다.
 1.  **보고서** > **모바일 장치 인벤토리 보고서**로 이동합니다.
 ![모바일 장치 인벤토리 보고서 페이지의 스크린샷](../media/IntuneSA2bMobileDeviceInventoryReport.png)
 
-2.  보고서 매개 변수에서 평가할 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 그룹을 선택하고, 필요한 경우 정책을 적용할 장치 플랫폼을 선택합니다.
+2.  보고서 매개 변수에서 평가할 Intune 그룹을 선택하고, 필요한 경우 정책을 적용할 장치 플랫폼을 선택합니다.
 3.  조직의 요구를 충족하는 조건을 선택한 후 **보고서 보기**를 선택합니다.
 보고서 뷰어가 새 창에서 열립니다.
 ![모바일 장치 인벤토리 보고서 샘플의 스크린샷](../media/IntuneSA2cViewReport.PNG)
@@ -200,7 +201,7 @@ Microsoft Intune을 사용하여 Exchange Online 또는 Exchange Online Dedicate
     > [!NOTE]
     > 준수 정책을 배포하지 않은 경우 장치는 규정을 준수하는 것으로 간주됩니다.
     >
-    > 준수 상태와 관계없이, 정책의 대상으로 지정된 모든 사용자는 자신의 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록해야 합니다.
+    > 준수 상태와 관계없이, 정책의 대상으로 지정된 모든 사용자는 자신의 장치를 Intune에 등록해야 합니다.
 
 3.  **응용 프로그램 액세스**에서 최신 인증을 사용하는 앱에 대해 정책이 적용될 플랫폼을 선택하는 두 가지 방법이 있습니다. 지원되는 플랫폼에는 Android, iOS, Windows 및 Windows Phone이 포함됩니다.
 
@@ -257,17 +258,17 @@ Microsoft Intune을 사용하여 Exchange Online 또는 Exchange Online Dedicate
 
 -   사용자가 전자 메일 계정을 만들고 나면 장치가 즉시 차단됩니다.
 
--   차단된 사용자가 장치를 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]에 등록하고 미준수 문제를 해결하는 경우 2분 내에 메일 액세스 차단이 해제됩니다.
+-   차단된 사용자가 장치를 Intune에 등록하고 미준수 문제를 해결하는 경우 2분 내에 메일 액세스 차단이 해제됩니다.
 
 -   사용자가 장치 등록을 취소하면 약 6시간 후에 메일이 차단됩니다.
 
-**장치 액세스를 보호하는 조건부 액세스 정책을 구성하는 방법에 대한 몇 가지 시나리오 예를 보려면**메일 액세스 보호 예제 시나리오[를 참조하세요](restrict-email-access-example-scenarios.md).
+**장치 액세스를 보호하는 조건부 액세스 정책을 구성하는 방법에 대한 몇 가지 시나리오 예를 보려면** 메일 액세스 보호 예제 시나리오[를 참조하세요](restrict-email-access-example-scenarios.md).
 
 ## <a name="monitor-the-compliance-and-conditional-access-policies"></a>준수 및 조건부 액세스 정책 모니터링
 
 #### <a name="to-view-devices-that-are-blocked-from-exchange"></a>Exchange에서 차단된 장치를 보려면
 
-[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] 대시보드에서 **Exchange에서 차단된 장치** 타일을 선택하여 차단된 장치 수와 자세한 정보에 대한 링크를 표시합니다.
+Intune 대시보드에서 **Exchange에서 차단된 장치** 타일을 선택하여 차단된 장치 수와 자세한 정보에 대한 링크를 표시합니다.
 ![Exchange에 액세스하지 못하도록 차단된 장치 수를 보여 주는 Intune 대시보드의 스크린샷](../media/IntuneSA6BlockedDevices.PNG)
 
 ## <a name="next-steps"></a>다음 단계

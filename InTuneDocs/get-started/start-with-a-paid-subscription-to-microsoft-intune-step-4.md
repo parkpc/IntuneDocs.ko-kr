@@ -14,10 +14,11 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: c66226b7fc31f91669c4f4f0693ccbd7c679189f
-ms.openlocfilehash: b2fc3a3dc47466313a54d2f6aef6b67dff8d7343
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 7db42e591df8ec6c21f73b7ce49be624e1e29690
+ms.openlocfilehash: 793df9f3734b84c74ecac9b8192d0b06306607e8
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/02/2017
 
 
 ---
@@ -42,6 +43,17 @@ ms.lasthandoff: 03/29/2017
 
 > [!NOTE]
 > 사용자는 장치를 등록한 후에만 관리 콘솔에 표시됩니다. 또한 사용자 그룹을 선택하여 동시에 편집할 수 있습니다. 즉, 선택한 모든 사용자에 대한 라이선스를 추가하거나 바꾸도록 선택할 수 있습니다.
+
+## <a name="use-school-data-sync-to-assign-licenses-to-users-in-intune-for-education"></a>학교 데이터 동기화를 사용하여 Intune for Education에서 사용자에게 라이선스 할당
+교육 조직일 경우 SDS(학교 데이터 동기화)를 사용하여 Intune for Education 라이선스를 동기화된 사용자에게 할당할 수 있습니다. SDS 프로필을 설정할 때 [Intune for Education] 확인란을 선택하면 됩니다.  
+
+![SDS 프로필 설정 이미지](./media/i4e-sds-profile-setup-setting.png)
+
+Intune for Education 라이선스를 할당할 경우 Intune A Direct 라이선스도 할당되는지 확인합니다.
+
+![제품 라이선스 설정 이미지](./media/i4e-set-licenses.png)
+
+SDS에 대한 자세한 내용은 이 [School Data Sync 및 강의실 개요](https://support.office.com/en-us/article/Overview-of-School-Data-Sync-and-Classroom-f3d1147b-4ade-4905-8518-508e729f2e91?ui=en-US&rs=en-US&ad=US)를 참조하세요.
 
 ## <a name="use-powershell-to-selectively-manage-ems-user-licenses"></a>PowerShell을 사용하여 EMS 사용자 라이선스를 선택적으로 관리
 Microsoft Enterprise Mobility + Security(이전 명칭 Enterprise Mobility Suite)를 사용하는 조직에는 EMS 패키지의 Intune 서비스 또는 Azure Active Directory Premium만 필요한 사용자가 있을 수 있습니다. [Azure Active Directory PowerShell cmdlet](https://msdn.microsoft.com/library/jj151815.aspx)을 사용하여 한 가지 서비스 또는 서비스 하위 집합을 할당할 수 있습니다.

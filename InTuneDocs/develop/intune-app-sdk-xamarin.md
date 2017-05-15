@@ -14,9 +14,11 @@ ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
-ms.openlocfilehash: 74607fc704234e6ac85eae3bf55c186000c6e68a
+ms.translationtype: Human Translation
+ms.sourcegitcommit: cce2cd69808937f3e088aa04f6142611a4594895
+ms.openlocfilehash: a9780dd3a951cc074a38061bf67aa5485c1eab68
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -62,9 +64,9 @@ ms.openlocfilehash: 74607fc704234e6ac85eae3bf55c186000c6e68a
 
 2. Microsoft Intune MAM Xamarin 구성 요소에 대한 [사용 조건](https://components.xamarin.com/license/microsoft.intune.mam)을 읽습니다.
 
-3.    [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) 또는 [Xamarin](https://components.xamarin.com/license/microsoft.intune.mam)에서 Intune 앱 SDK Xamarin 구성 요소 폴더를 다운로드하여 압축을 풉니다. 1단계와 2단계에서 다운로드한 파일은 모두 동일한 디렉터리 수준에 있어야 합니다.
+3.    [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) 또는 [Xamarin](https://components.xamarin.com/license/microsoft.intune.mam)에서 Intune 앱 SDK Xamarin 구성 요소 폴더를 다운로드하여 압축을 풉니다. 1단계와 3단계에서 다운로드한 파일은 모두 동일한 디렉터리 수준에 있어야 합니다.
 
-4.    관리자 권한으로 명령줄에서 `Xamain.Component.exe install <.xam> file`을 실행합니다.
+4.    관리자 권한으로 명령줄에서 `Xamarin.Component.exe install <.xam> file`을 실행합니다.
 
 5.    Visual Studio에서 이전에 만든 Xamarin 프로젝트의 **구성 요소**를 마우스 오른쪽 단추로 클릭합니다.
 
@@ -123,9 +125,4 @@ Xamarin Forms 및 기타 UI 프레임워크의 경우에는 `MAM.Remapper`라는
 ## <a name="test-your-app"></a>앱 테스트
 
 앱에 구성 요소를 빌드하기 위한 기본 단계를 완료했습니다. 이제 Xamarin.android 샘플 앱에 포함된 단계를 수행할 수 있습니다. Xamarin.Forms의 샘플과 Android의 샘플이 제공되어 있습니다.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

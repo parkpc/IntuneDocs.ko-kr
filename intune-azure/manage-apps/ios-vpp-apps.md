@@ -1,12 +1,12 @@
 ---
-title: "iOS 대량 구매 앱 관리"
+title: "iOS 대량 구매 앱 관리 | Microsoft 문서"
 titleSuffix: Intune Azure preview
 description: "Intune Azure 미리 보기: iOS 스토어에서 대량 구매한 앱을 Intune에 동기화하고 해당 사용을 추적 및 관리하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/24/2017
+ms.date: 05/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,10 +16,10 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
-ms.openlocfilehash: ff43a0be6ebc124bb7e52e5be31e89985ce32166
+ms.sourcegitcommit: f9e8a5deb17ebb77d480213567e5ccf6550e3493
+ms.openlocfilehash: 1909549b321f51069bb6ad83f2f245afbf60b7dd
 ms.contentlocale: ko-kr
-ms.lasthandoff: 04/24/2017
+ms.lasthandoff: 05/03/2017
 
 ---
 
@@ -87,5 +87,5 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 
 적합한 장치를 가진 사용자가 VPP 앱을 처음 설치하려고 하면 Apple 대량 구매 프로그램에 가입하라는 메시지가 표시됩니다. 가입해야만 앱 설치가 진행됩니다.
 
-VPP 앱을 사용 가능으로 배포한 경우 앱 콘텐츠 및 라이선스가 앱 스토어에서 직접 배포됩니다.
+VPP 앱을 사용 가능으로 할당한 경우 앱 콘텐츠 및 라이선스가 앱 스토어에서 직접 할당됩니다.
 
