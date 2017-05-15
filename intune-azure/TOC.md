@@ -86,6 +86,7 @@
 #### [Windows Phone LOB 앱](manage-apps/windows-phone-line-of-business-app.md)
 #### [Windows 스토어 앱](manage-apps/windows-store-app.md)
 #### [Windows LOB 앱](manage-apps/windows-line-of-business-app.md)
+#### [Android for Work 앱](/manage-apps/android-for-work-apps.md)
 ### [앱 할당](manage-apps/deploy-apps.md)
 ### [앱 모니터링](manage-apps/monitor-apps.md)
 ### [앱 구성 프로필 사용](manage-apps/app-configuration-policies.md)
