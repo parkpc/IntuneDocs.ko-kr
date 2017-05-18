@@ -14,10 +14,11 @@ ms.technology:
 ms.assetid: 4a085264-232a-4af0-97f1-747496c44517
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
-ms.openlocfilehash: 92e07a49205ffaf287fc3aa2da6a6376b75fda4f
-ms.lasthandoff: 04/24/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: b6026197a7a57ce29378b7ef9d064837faa75c6f
+ms.openlocfilehash: a046e8a9b6c1c8c81bfeb4420418c0de22e6a6a3
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/12/2017
 
 
 ---
@@ -35,6 +36,8 @@ Microsoft Intune이 Azure Portal로 전환되는 중입니다. 따라서 사용�
 > [!IMPORTANT]
 > **새 포털이 아직 보이지 않으세요?**<br>
 > 테넌트를 선택하도록 미리 보기를 이미 롤아웃하기 시작했습니다. 기존 테넌트는 2017년 초부터 새 환경으로 마이그레이션됩니다. 테넌트 마이그레이션 전에 Office 메시지 센터에서 알림을 받게 됩니다.
+>
+> 2017년 1월 이전에 만든 Intune 계정은 일회성 마이그레이션을 수행해야 Azure에서 Apple 등록 워크플로를 사용할 수 있습니다. 마이그레이션 일정은 아직 공지되지 않았지만 가능한 한 빠른 시일 내에 세부 정보가 제공될 예정입니다. 기존 계정에서 미리 보기에 액세스할 수 없는 경우 평가판 계정을 만들어 새로운 경험을 테스트해 보는 것이 좋습니다.
 
 
 이 라이브러리에서 새 제품 설명서를 찾을 수 있으며, 미리 보기 중에 지속적으로 업데이트될 예정입니다. 제안 사항이 있는 경우 항목 설명에 의견을 남겨 주세요. 여러분의 의견을 듣고 싶습니다.
@@ -49,7 +52,7 @@ Microsoft Intune이 Azure Portal로 전환되는 중입니다. 따라서 사용�
 - 모든 Azure 응용 프로그램에서 호환성을 제공하는 Azure AD(Active Directory) 그룹
 - 대부분의 최신 웹 브라우저 지원
 
-클래식 Intune 콘솔에 대한 설명서를 보려면 [Intune 설명서 라이브러리](https://docs.microsoft.com/en-us/intune/)를 참조하세요.
+클래식 Intune 콘솔에 대한 설명서를 보려면 [Intune 설명서 라이브러리](https://docs.microsoft.com/intune/)를 참조하세요.
 
 ## <a name="before-you-start"></a>시작하기 전에
 
@@ -75,35 +78,35 @@ Azure Portal은 대부분의 최신 PC, Mac 및 태블릿에서 실행됩니다.
 ![Azure Portal 워크로드](./media/azure-portal-workloads.png)
 
 ### <a name="introduction-and-get-started"></a>소개 및 시작
-이 섹션에는 Intune의 [새로운 기능](/intune-azure/introduction/whats-new), [알려진 문제](/intune-azure/introduction/known-issues-in-the-intune-preview), [지원을 받는 방법](/intune-azure/introduction/how-to-get-support-for-microsoft-intune) 및 [무료 평가판 시작](/intune-azure/introduction/sign-up-free-trial-microsoft-intune) 방법에 대한 정보가 포함되어 있습니다.
+이 섹션에는 Intune의 [새로운 기능](whats-new.md), [알려진 문제](known-issues-in-the-intune-preview.md), [지원을 받는 방법](how-to-get-support-for-microsoft-intune.md) 및 [무료 평가판 시작](sign-up-free-trial-microsoft-intune.md) 방법에 대한 정보가 포함되어 있습니다.
 ### <a name="plan-and-design"></a>계획 및 디자인
-Intune 환경의 [계획 및 디자인](/intune-azure/plan-and-design/get-started)에 도움을 주는 정보입니다.
+Intune 환경의 [계획 및 디자인](/intune/plan-and-design/introduction)에 도움을 주는 정보입니다.
 ### <a name="device-enrollment"></a>장치 등록
-[Intune에서 장치를 관리하는 방법](/intune-azure/enroll-devices/what-is)
+[Intune에서 장치를 관리하는 방법](../enroll-devices/what-is.md)
 ### <a name="device-compliance"></a>장치 정책 준수
-[장치에 대한 준수 수준을 정의한 다음 호환되지 않는 장치에 대해 보고합니다](/intune-azure/set-device-compliance/what-is-device-compliance).
+[장치에 대한 준수 수준을 정의한 다음 호환되지 않는 장치에 대해 보고합니다](../set-device-compliance/what-is-device-compliance.md).
 ### <a name="device-configuration"></a>장치 구성
-[관리하는 장치에서 설정 및 기능을 구성하는 데 사용할 수 있는 프로필을 이해합니다](/intune-azure/configure-devices/what-are-device-profiles).
+[관리하는 장치에서 설정 및 기능을 구성하는 데 사용할 수 있는 프로필을 이해합니다](../configure-devices/what-are-device-profiles.md).
 ### <a name="devices"></a>장치
-[인벤토리 및 보고서를 사용하여 관리하는 장치에 대해 알아봅니다](/intune-azure/manage-devices/what-is).
+[인벤토리 및 보고서를 사용하여 관리하는 장치에 대해 알아봅니다](../manage-devices/what-is.md).
 ### <a name="mobile-apps"></a>모바일 앱
-[앱을 게시하고 관리하고 구성하고 보호하는 방법](/intune-azure/manage-apps/what-is-app-management)
+[앱을 게시하고 관리하고 구성하고 보호하는 방법](../manage-apps/what-is-app-management.md)
 ### <a name="conditional-access"></a>조건부 액세스
-[지정한 조건에 따라 Exchange 서비스에 대한 액세스를 제한합니다](/intune-azure/conditional-access/what-is-conditional-access).
+[지정한 조건에 따라 Exchange 서비스에 대한 액세스를 제한합니다](../conditional-access/what-is-conditional-access.md).
 ### <a name="on-premises-access"></a>온-프레미스 액세스
 [Exchange ActiveSync 및 Exchange 온-프레미스에 대한 액세스를 구성하는 방법에 대해 알아봅니다](/intune/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune).
 ### <a name="users"></a>Users
-[관리하는 장치의 사용자에 대해 알아보고 리소스를 그룹으로 정렬합니다](/intune-azure/manage-users/what-is).
+[관리하는 장치의 사용자에 대해 알아보고 리소스를 그룹으로 정렬합니다](../manage-users/what-is.md).
 ### <a name="groups"></a>Groups
-[Intune에서 Azure Active Directory 그룹을 사용할 수 있는 방법에 대해 알아봅니다](/intune-azure/manage-users/get-started-with-groups).
+[Intune에서 Azure Active Directory 그룹을 사용할 수 있는 방법에 대해 알아봅니다](../manage-users/get-started-with-groups.md).
 ### <a name="intune-roles"></a>Intune 역할
-[다양한 Intune 작업을 수행할 수 있는 사람 및 해당 작업이 적용되는 사람을 제어합니다](/intune-azure/access-control/role-based-access-control). 몇 가지 일반적인 Intune 시나리오에 적용되는 기본 제공 역할을 사용하거나, 사용자 고유의 역할을 만들 수 있습니다.
+[다양한 Intune 작업을 수행할 수 있는 사람 및 해당 작업이 적용되는 사람을 제어합니다](../access-control/role-based-access-control.md). 몇 가지 일반적인 Intune 시나리오에 적용되는 기본 제공 역할을 사용하거나, 사용자 고유의 역할을 만들 수 있습니다.
 ### <a name="software-updates"></a>소프트웨어 업데이트
-[Windows 10 장치용 소프트웨어 업데이트를 구성하는 방법에 대해 알아봅니다](/intune-azure/configure-devices/how-to-configure-windows-update-for-business).
+[Windows 10 장치용 소프트웨어 업데이트를 구성하는 방법에 대해 알아봅니다](../configure-devices/how-to-configure-windows-update-for-business.md).
 
 
 
 ## <a name="whats-new"></a>새로운 기능은 무엇입니까?
 
-[미리 보기 릴리스의 새로운 기능을 알아봅니다](/intune-azure/introduction/whats-new).
+[미리 보기 릴리스의 새로운 기능을 알아봅니다](whats-new.md).
 

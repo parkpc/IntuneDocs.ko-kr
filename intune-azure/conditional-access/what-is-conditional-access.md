@@ -14,9 +14,11 @@ ms.technology:
 ms.assetid: a1973f38-ea55-43eb-a151-505fb34a8afb
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 18ec39a15f9cc2ac8ce912eaa91e54371e7dd423
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: bb77dd8d7eee788d65d7cfecd3d888c7f55bd3dc
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -33,9 +35,9 @@ EMS(Enterprise Mobility + Security)의 조건부 액세스는 Azure Active Direc
 
 조건부 액세스를 사용하면 위치, 장치 및 사용자 상태, 응용 프로그램 민감도 등을 기반으로 회사 데이터에 대한 액세스를 제한하는 조건을 정의할 수 있습니다.
 
-장치의 관점에서 Intune과 Azure Active Directory는 함께 작동하여 관리되는 준수 장치에서만 메일 및 Office 365 서비스에 액세스할 수 있도록 합니다. 예를 들어 Azure Active Directory에서 도메인에 가입된 컴퓨터 또는 모바일 장치 관리 응용 프로그램(예: Intune)에 등록된 모바일 장치에서만 Office 365 서비스에 액세스할 수 있도록 하는 정책을 설정할 수 있습니다. Intune을 사용하여 장치의 준수 상태를 평가하는 장치 준수 프로필을 설정할 수 있습니다. 준수 상태는 사용자가 회사 리소스에 액세스하려고 하면 Azure Active Directory에서 정책을 적용하는 데 사용되도록 Azure Active Directory에 보고됩니다. Intune의 장치 준수에 대해 알아보려면 [장치 준수란?](/intune-azure/set-device-compliance/what-is-device-compliance)을 참조하세요.
+장치의 관점에서 Intune과 Azure Active Directory는 함께 작동하여 관리되는 준수 장치에서만 메일 및 Office 365 서비스에 액세스할 수 있도록 합니다. 예를 들어 Azure Active Directory에서 도메인에 가입된 컴퓨터 또는 모바일 장치 관리 응용 프로그램(예: Intune)에 등록된 모바일 장치에서만 Office 365 서비스에 액세스할 수 있도록 하는 정책을 설정할 수 있습니다. Intune을 사용하여 장치의 준수 상태를 평가하는 장치 준수 프로필을 설정할 수 있습니다. 준수 상태는 사용자가 회사 리소스에 액세스하려고 하면 Azure Active Directory에서 정책을 적용하는 데 사용되도록 Azure Active Directory에 보고됩니다. Intune의 장치 준수에 대해 알아보려면 [장치 준수란?](../set-device-compliance/what-is-device-compliance.md)을 참조하세요.
 
-Azure Active Directory를 통해 Exchange Online과 같은 클라우드 앱에 대한 조건부 액세스를 구성할 수 있습니다. 자세한 내용은 [이 문서](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-conditional-access-azure-portal)를 참조하세요.
+Azure Active Directory를 통해 Exchange Online과 같은 클라우드 앱에 대한 조건부 액세스를 구성할 수 있습니다. 자세한 내용은 [이 문서](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)를 참조하세요.
 
 ## <a name="on-premises-conditional-access-in-intune"></a>Intune의 온-프레미스 조건부 액세스
 
@@ -51,10 +53,5 @@ Intune의 조건부 액세스를 사용하여 장치 관리 및 등록을 기반
 
 [Exchange 온-프레미스에 대한 조건부 액세스 정책을 만드는 방법](create-conditional-access-policy-for-exchange-on-premises.md)
 
-[Azure Active Directory에서 조건부 액세스를 구성하는 방법](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-conditional-access-azure-portal)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
+[Azure Active Directory에서 조건부 액세스를 구성하는 방법](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)
 

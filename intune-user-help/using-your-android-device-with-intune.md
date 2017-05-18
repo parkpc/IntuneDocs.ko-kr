@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/17/2017
+ms.date: 05/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,10 +17,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 10c7bc5461c746ab50e83c2ffc590b89efe75e5f
-ms.openlocfilehash: 1702b049dd1826e93be153234d2f629f770502c5
-ms.lasthandoff: 03/13/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: bc32b2f4b1ea26cc4487ac8576ec5fb7cd333aaa
+ms.openlocfilehash: c3f1d42d5998e70982bc279ef99560c486412daf
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/09/2017
 
 
 ---
@@ -29,6 +30,10 @@ ms.lasthandoff: 03/13/2017
 # <a name="using-your-android-device-with-intune"></a>Intune에서 Android 장치 사용
 
 편리한 업무를 위해 Intune에서 다양한 작업을 수행할 수 있습니다. 다음은 회사에서 요청될 수 있는 가장 일반적인 작업 목록입니다.
+
+## <a name="supported-versions"></a>지원되는 버전
+
+Intune은 현재 Android 4.0 이상을 지원합니다. Samsung KNOX 4.0 이상의 장치에 포함됩니다.
 
 ## <a name="enrolling-into-intune-and-installing-the-company-portal"></a>Intune에 등록하고 회사 포털 설치
 

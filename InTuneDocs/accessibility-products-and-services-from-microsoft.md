@@ -14,10 +14,11 @@ ms.assetid: b23d4007-1866-42e9-b6cb-d45408562da4
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 9e3d509cf404c89b27f92ad54c900e927ce3878b
-ms.openlocfilehash: a848e92be9896016159533c0ba7291fe193a217a
-ms.lasthandoff: 12/30/2016
+ms.translationtype: Human Translation
+ms.sourcegitcommit: ca5baca6bb9814d7ab4075c65eb2274c8b6e9e08
+ms.openlocfilehash: 73934aaa762f99f70912e197e27c125a31e999e2
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/09/2017
 
 
 ---
@@ -45,7 +46,7 @@ ms.lasthandoff: 12/30/2016
 ### <a name="assistive-technology-products-for-windows"></a>Windows용 보조 기술 제품
 [!INCLUDE[accessibility9](./includes/accessibility9_md.md)]
 
-## <a name="documentation-in-alternative-formats"></a>다른 형식의 설명서
+## <a name="documentation-in-alternative-formats"></a>대체 형식의 설명서
 [!INCLUDE[accessibility10](./includes/accessibility10_md.md)]
 
 [!INCLUDE[accessibility11](./includes/accessibility11_md.md)]
@@ -67,6 +68,6 @@ ms.lasthandoff: 12/30/2016
 
 [!INCLUDE[accessibility16](./includes/accessibility16_md.md)]
 
-## <a name="for-more-information"></a>자세한 내용
+## <a name="for-more-information"></a>추가 정보
 [!INCLUDE[accessibility17](./includes/accessibility17_md.md)]
 

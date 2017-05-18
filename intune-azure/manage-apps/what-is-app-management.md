@@ -16,10 +16,10 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a9748a0ad6b9bbe10e36ba133ba74edb6aa6e09a
-ms.openlocfilehash: 34970d6adcfe41a6de9636a5605a17f9f5ef2d82
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 430329939c99fefcc2ace551545e079f874e83cb
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/05/2017
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -59,7 +59,7 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
 |스토어의 앱|예|예|예|예|
 |앱 업데이트|예|예|예|예|
 
-<sup>1</sup> Windows 10을 실행하는 장치에서 앱을 보호하려면 [Windows Information Protection](/intune-azure/configure-devices/how-to-configure-windows-information-protection)을 사용하는 것이 좋습니다.
+<sup>1</sup> Windows 10을 실행하는 장치에서 앱을 보호하려면 [Windows Information Protection]../configure-devices/how-to-configure-windows-information-protection.md를 사용하는 것이 좋습니다.
 
 <sup>2</sup>Intune에서 관리하는 장치에만 적용됩니다.
 

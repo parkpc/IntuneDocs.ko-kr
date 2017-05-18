@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/17/2017
+ms.date: 05/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,10 +17,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb089cc9b6e76e13b2f5da65efb3452aa5274af
-ms.openlocfilehash: e3993c97475b699da90a0634bdb3ac1ba4f5a28c
-ms.lasthandoff: 02/24/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: bc32b2f4b1ea26cc4487ac8576ec5fb7cd333aaa
+ms.openlocfilehash: 64cfbf02e54244457aeaefb84e3049350764c410
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/09/2017
 
 
 ---
@@ -28,6 +29,17 @@ ms.lasthandoff: 02/24/2017
 # <a name="using-your-windows-device-with-intune"></a>Intune에서 Windows 장치 사용
 
 편리한 업무를 위해 Intune에서 다양한 작업을 수행할 수 있습니다. 다음은 회사에서 요청될 수 있는 가장 일반적인 작업 목록입니다.
+
+## <a name="supported-versions"></a>지원되는 버전
+
+Intune은 현재 다음 버전의 Windows를 지원합니다.
+
+* Windows 10(Home, Pro, Education 및 Enterprise 버전)
+* Windows Phone 8.1 이상
+* Windows 8.1 RT
+* Windows 8.1
+
+[Windows 10 Holographic](https://www.microsoft.com/hololens)과 같이 Intune에서 지원되는 다른 Windows 버전도 있습니다. 이러한 버전은 매우 특별한 용도로 사용되므로 여기에 나열되어 있지 않습니다.
 
 ## <a name="enrolling-into-intune-and-installing-the-company-portal"></a>Intune에 등록하고 회사 포털 설치
 

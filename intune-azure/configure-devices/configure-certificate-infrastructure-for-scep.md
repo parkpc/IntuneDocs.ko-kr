@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/18/2017
+ms.date: 05/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: d567d85f-e4ee-458e-bef7-6e275467efce
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: a981b0253f56d66292ce77639faf4beba8832a9e
-ms.openlocfilehash: 6838993b5b19bc1e23c9efe0911a01a2c66c6886
-ms.lasthandoff: 04/19/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 7a2ab1e64fd1ca37f4d086624321201896a989ac
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 ---
 # <a name="configure-and-manage-scep-certificates-with-intune"></a>Intune을 사용하여 SCEP 인증서 구성 및 관리
@@ -36,7 +37,7 @@ ms.lasthandoff: 04/19/2017
 -  **NDES 서버**: Windows Server 2012 R2 이상을 실행하는 서버에 NDES(네트워크 장치 등록 서비스)를 설치해야 합니다. 엔터프라이즈 CA를 실행하는 서버에 NDES가 실행되는 경우 Intune는 사용을 지원하지 않습니다. 네트워크 장치 등록 서비스를 호스트하도록 Windows Server 2012 R2를 구성하는 방법에 대한 지침은 [네트워크 장치 등록 서비스 지침](http://technet.microsoft.com/library/hh831498.aspx)을 참조하세요.
 NDES 서버는 CA를 호스트하는 도메인에 가입해야 하며 CA와 동일한 서버에 있지 않아야 합니다. 별도의 포리스트, 격리된 네트워크 또는 내부 도메인에 NDES 서버를 배포하는 방법에 대한 자세한 내용은 [네트워크 장치 등록 서비스와 함께 정책 모듈 사용](https://technet.microsoft.com/library/dn473016.aspx) 항목에서 찾아볼 수 있습니다.
 
--  **Microsoft Intune 인증서 커넥터**: Intune 포털을 사용하여 **인증서 커넥터** 설치 관리자(**ndesconnectorssetup.exe**)를 다운로드합니다. 그러면 인증서 커넥터를 설치할 컴퓨터에서 **ndesconnectorssetup.exe** 를 실행할 수 있습니다.
+-  **Microsoft Intune 인증서 커넥터**: Intune 포털을 사용하여 **인증서 커넥터** 설치 관리자(**ndesconnectorssetup.exe**)를 다운로드합니다. 그러면 인증서 커넥터를 설치할 컴퓨터에서 **ndesconnectorssetup.exe** 를 실행할 수 있습니다. 
 -  **웹 응용 프로그램 프록시 서버**(선택 사항): Windows Server 2012 R2 이상을 WAP(웹 응용 프로그램 프록시) 서버로 실행하는 서버를 사용합니다. 이 구성의 특징은 다음과 같습니다.
     -  장치에서 인터넷 연결을 사용하여 인증서를 받을 수 있습니다.
     -  장치가 인터넷을 통해 연결하여 인증서를 받고 갱신하는 경우 보안상 안전합니다.
@@ -309,6 +310,9 @@ NDES 서버에서 인증서 커넥터 다운로드, 설치 및 구성
 5.  **인증서 커넥터 사용**을 선택합니다.
 
 ##### <a name="to-download-install-and-configure-the-certificate-connector"></a>인증서 커넥터를 다운로드, 설치 및 구성하려면
+
+> [!NOTE]
+> 알려진 문제로 인해 [SCEP 인증서 인프라 구성 -> 인프라 구성 -> 작업 5](https://docs.microsoft.com/intune/deploy-use/configure-certificate-infrastructure-for-scep#a-namebkmkconfigureinfrastructureaconfigure-your-infrastructure) 단계에 따라 인증서 커넥터를 다운로드하고, 설치하고, 구성하세요.
 
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **기타** > **Intune**을 선택합니다.

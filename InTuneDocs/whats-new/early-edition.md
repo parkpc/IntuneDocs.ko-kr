@@ -5,7 +5,7 @@ keywords:
 author: mtillman
 ms.author: mtillman
 manager: angrobe
-ms.date: 04/25/2017
+ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,16 +15,16 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 5f172290d493717308446c4f9e2313a03ba8f3aa
-ms.openlocfilehash: d7f25657fc7cfb9298809f76f198810718e58c39
-ms.lasthandoff: 04/27/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33f3c8d91d5e4f17a4542d828d1883e33a339221
+ms.openlocfilehash: afe06e523e7688cab2effeb6999be3193066add8
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/05/2017
 
 
 ---
 
-
-# <a name="the-early-edition-for-microsoft-intune---april-2017"></a>Microsoft Intune 초기 버전 - 2017년 4월
+# <a name="the-early-edition-for-microsoft-intune---may-2017"></a>Microsoft Intune 초기 버전 - 2017년 5월
 
 **초기 버전**에서는 Microsoft Intune의 향후 릴리스에서 도입될 기능의 목록을 제공합니다. 이 정보는 NDA 하에 매우 제한적으로 제공되며, 변경될 수 있습니다. 여기 나열된 일부 기능은 마감일을 맞추지 못할 위험이 있으며 다음 릴리스까지 지연될 수 있습니다. 다른 기능은 고객용 준비 상태를 확인하기 위해, 파일럿(플라이팅) 테스트 중 입니다. 질문이나 궁금한 내용이 있으면 Intune/PM 담당자에게 연락하세요.
 
@@ -35,32 +35,23 @@ ms.lasthandoff: 04/27/2017
 
 ## <a name="new-capabilities"></a>새로운 기능
 
-### <a name="improved-app-install-status-for-the-windows-10-company-portal-app---676495--"></a>Windows 10 회사 포털 앱에 대해 앱 설치 상태 개선 <!--676495-->
-
-Windows 10 회사 포털 앱에서는 이제 회사 포털에서 시작된 모든 최신 앱 설치에 대한 앱 설치 진행률 표시줄을 제공합니다. [Intune 앱 UI 페이지의 새로운 기능](whats-new-in-intune-app-ui.md)에서 Windows 10용 회사 포털 앱의 새로운 상태 메시지를 확인할 수 있습니다.
-
-### <a name="improved-status-messaging-in-the-company-portal-app-for-ios---744866--"></a>iOS용 회사 포털 앱에서 상태 메시지 개선 <!--744866-->
-
-이제 iOS용 회사 포털 앱 내에서 더 구체적인 새 오류 메시지가 표시되므로 장치에서 진행되는 상황에 대한 정보에 더 쉽게 액세스할 수 있습니다. 기존에 이러한 오류 사례는 "회사 포털을 일시적으로 사용할 수 없음"이라는 일반 오류 메시지에 포함되었습니다. 또한 사용자가 인터넷에 연결되어 있지 않을 때 iOS에서 회사 포털을 시작하는 경우 이제 "인터넷 연결 없음"이라는 상태 표시줄이 홈페이지에 지속적으로 표시됩니다.
-
-### <a name="myapps-available-for-managed-browser---822308-822303--"></a>Managed Browser에 사용할 수 있는 MyApps <!--822308, 822303-->
-
-Microsoft MyApps는 이제 Managed Browser 내에서 더 나은 지원을 제공합니다. 관리 대상으로 지정되지 않은 Managed Browser 사용자는 MyApps 서비스로 직접 연결되므로 관리자가 프로비전한 SaaS 앱에 액세스할 수 있습니다. Intune 관리 대상으로 지정된 사용자는 계속 기본 제공 Managed Browser 책갈피에서 MyApps에 액세스할 수 있습니다.
-
-### <a name="new-icons-for-the-managed-browser-and-the-company-portal---918433-918431--"></a>Managed Browser 및 회사 포털에 대한 새 아이콘 <!--918433, 918431-->
-
-Managed Browser는 앱의 Android 및 iOS 버전 모두에 대한 업데이트된 아이콘을 수신합니다. 새 아이콘은 업데이트된 Intune 배지를 포함하므로 EM+S(Enterprise Mobility + Security)의 다른 앱과 더 일관된 환경을 제공합니다. [Intune 앱 UI 페이지의 새로운 기능](whats-new-in-intune-app-ui.md)에서 Managed Browser의 새 아이콘을 볼 수 있습니다.
-
-회사 포털도 앱의 Android, iOS 및 Windows 버전에 대해 업데이트된 아이콘을 수신하므로 EM+S의 다른 앱과의 일관성을 개선합니다. 이러한 아이콘은 4월부터 5월 말까지 여러 플랫폼에서 점진적으로 출시됩니다.
-
 ### <a name="single-sign-on-support-from-the-company-portal-for-ios-to-outlook-for-ios---834012--"></a>iOS용 회사 포털에서 iOS용 Outlook으로의 Single Sign-On 지원 <!--834012-->
 
 사용자는 같은 장치에서 같은 계정으로 iOS용 회사 포털 앱에 로그인되어 있는 경우 더 이상 Outlook 앱에 로그인할 필요가 없습니다. 사용자는 Outlook 앱을 시작할 때 계정을 선택하여 자동으로 로그인할 수 있습니다. 이 기능을 다른 Microsoft 앱에 추가하는 작업도 진행하는 중입니다.
 
-### <a name="sign-in-progress-indicator-in-android-company-portal---953374--"></a>Android 회사 포털의 로그인 진행률 표시기 <!--953374-->
+### <a name="improved-notification-for-samsung-knox-startup-pins---1087143--"></a>Samsung KNOX 시작 PIN 알림 향상 <!--1087143-->
 
-Android 회사 포털 앱의 업데이트에는 사용자가 앱을 시작하거나 다시 시작할 때 로그인 진행률 표시기가 표시됩니다. 표시기에서는 "연결 중..."에서부터 "로그인 중...", "보안 요구 사항을 확인하는 중..."까지 새로운 상태를 진행한 후 사용자가 앱에 액세스할 수 있도록 허용합니다. [Intune 앱 UI 페이지의 새로운 기능](whats-new-in-intune-app-ui.md)에서 Android용 회사 포털 앱의 새 화면을 볼 수 있습니다.
+암호화를 준수하기 위해 최종 사용자가 Samsung KNOX 장치에서 시작 PIN을 설정해야 하는 경우 최종 사용자에게 표시되는 알림을 탭하면 최종 사용자가 설정 앱의 정확한 위치로 이동하게 됩니다.  이전에는 최종 사용자가 알림을 통해 암호 변경 화면으로 이동했습니다.
 
+### <a name="promoting-the-most-current-version-of-the-company-portal-for-android---1098661--"></a>Android용 회사 포털의 최신 버전 승격 <!--1098661-->
+
+Android용 회사 포털 앱의 새로운 권장 버전이 앱의 알림 화면에 릴리스되면 최종 사용자에게 앱 내 알림이 표시됩니다. 이 알림은 "회사 포털 업데이트를 사용할 수 있음"을 사용자에게 알립니다. 알림을 탭하면 사용할 수 있는 앱 스토어 목록을 보여 주는 웹 페이지가 열립니다. 이러한 앱 스토어에서 업데이트된 버전을 다운로드 할 수 있습니다. 
+
+### <a name="improvements-to-app-syncing-with-windows-10-creators-update----676505---"></a>Windows 10 크리에이터 업데이트와 동기화하는 앱 개선 사항 <!-- 676505 -->
+
+Windows 10용 회사 포털은 Windows 10 크리에이터 업데이트(1704)가 사용되는 장치의 앱 설치 요청 동기화를 자동으로 시작합니다. 이렇게 하면 "동기화 보류 중" 상태에 있는 동안의 앱 설치 지연 문제를 줄일 수 있습니다. 사용자가 수동으로 앱 내에서 동기화를 시작할 수도 있습니다. 
+
+Windows 10용 회사 포털에서는 새로 고침 단추도 노출되므로 사용자가 필요할 때마다 앱의 콘텐츠를 새로 고칠 수 있습니다. 
 
 ## <a name="notices"></a>알림
 
@@ -80,11 +71,7 @@ Azure의 Intune으로 마이그레이션하는 과정의 일환으로 appx의 �
 2. Intune PC 에이전트를 통해 관리되는 PC만 대상으로 할 수 있도록 기존 appx 앱 유형의 용도를 변경합니다.
 3. 마이그레이션과 함께 기존 appx를 모두 MDM appx로 변환합니다.
 
-#### <a name="how-does-this-affect-me"></a>이 변경 사항은 어떤 영향을 미치나요?
-
 Intune PC 에이전트를 통해 관리되는 장치의 기존 배포에는 아무런 영향을 주지 않습니다. 그러나 마이그레이션 후에는 이전에 대상으로 하지 않았던 Intune PC 에이전트를 통해 관리되는 새 장치에 마이그레이션된 appx를 배포할 수 없습니다.
-
-#### <a name="what-action-do-i-need-to-take"></a>수행해야 하는 작업
 
 마이그레이션 후 새 PC 배포를 수행하려면 appx를 PC appx로 다시 업로드해야 합니다. 자세한 내용은 [Appx changes in Intune on Azure](https://aka.ms/appxchange)(Azure의 Intune에서 Appx 변경 사항)를 참조하세요.  
 
@@ -99,125 +86,85 @@ Azure Portal의 관리 환경에서는 이미 발표된 새 그룹화 및 대상
 
 ### <a name="support-for-managed-configuration-options-for-android-apps----621621---"></a>Android 앱에 대해 관리되는 구성 옵션 지원 <!-- 621621 -->
 
-관리되는 구성 옵션을 지원하는 Play 스토어의 Android 앱을 Intune에서 구성할 수 있습니다.  이 기능을 통해 IT에서는 앱에서 지원하는 구성 값 목록을 볼 수 있으며, 이 기능에서는 이러한 값을 구성할 수 있도록 하는 최고의 단계별 UI를 제공합니다.
+관리되는 구성 옵션을 지원하는 Play 스토어의 Android 앱을 구성할 수 있습니다.  이 기능을 통해 앱에서 지원하는 구성 값 목록을 볼 수 있으며, 이 기능에서는 이러한 값을 구성할 수 있도록 하는 최고의 단계별 UI를 제공합니다.
 
 ### <a name="remote-assistance-for-android-devices----675418---"></a>Android 장치에 대한 원격 지원 <!-- 675418 -->
 
 Intune에서는 [TeamViewer](https://www.teamviewer.com) 소프트웨어(별매)를 사용하여 Android 장치를 실행하는 사용자에게 원격 지원을 제공할 수 있도록 지원합니다.
 
-### <a name="new-android-policy-for-complex-pins----722069---"></a>복합 PIN에 대한 새 Android 정책 <!-- 722069 -->
+### <a name="preconfigure-device-permissions-for-android-for-work-apps----621614---"></a>Android for Work 앱에 대한 장치 권한 미리 구성 <!-- 621614 -->
 
-Android 5.0 이상을 실행하는 장치에 대한 Android 장치 프로필에서 복합 숫자의 필수 암호 유형을 설정할 수 있습니다.  이 설정을 사용하면 장치 사용자가 1111 또는 1234와 같은 반복되거나 연속되는 숫자를 포함하는 PIN을 만들지 못하도록 할 수 있습니다.
+Android for Work 장치 작업 프로필에 배포된 앱의 경우 개별 앱에 대해 권한 상태를 구성할 수 있습니다. 기본적으로 위치 또는 장치 카메라에 대한 액세스와 같이 장치 권한이 필요한 Android 앱에서는 권한을 허용할 것인지 거부할 것인지 묻는 메시지를 사용자에게 표시합니다.  예를 들어, 앱에서 장치의 마이크를 사용하는 경우 앱에 마이크 사용 권한을 부여할 것인지 묻는 메시지가 최종 사용자에게 표시됩니다. 이 기능을 사용하면 최종 사용자 대신 권한을 정의할 수 있습니다.  관리자는 다음 권한을 구성할 수 있습니다.
 
-### <a name="additional-support-for-android-for-work-devices"></a>Android for Work 장치에 대한 추가 지원
+- 사용자에게 알리지 않고 자동으로 거부
+- 사용자에게 알리지 않고 자동으로 승인
+- 사용자에게 허용할 것인지 거부할 것인지 묻는 메시지 표시
 
-- **암호 및 회사 프로필 설정 관리**<!-- 612808 -->
+### <a name="define-app-specific-pin-for-android-for-work-devices---728976--"></a>Android for Work 장치에 대해 앱별 PIN 정의 <!--728976-->
 
-  관리하는 Android for Work 장치에서 암호 및 회사 프로필 설정을 관리할 수 있도록 하는 새 Android for Work 장치 제한 정책을 추가했습니다.
+Android for Work 장치로 관리되는 Android 7.0 이상 장치의 작업 프로필에 있는 앱에만 적용되는 암호 정책을 정의할 수 있습니다.  다음 옵션을 사용할 수 있습니다.
 
-- **회사 및 개인 프로필 간의 데이터 공유 허용**<!-- 1045102 -->
+- 장치 전체 암호 정책만 정의 - 최종 사용자가 전체 장치를 잠금 해제하는 데 사용해야 하는 암호입니다.
+- 작업 프로필 암호 정책만 정의 - 작업 프로필의 앱이 열릴 때마다 최종 사용자에게 암호를 입력하라는 메시지가 표시됩니다.
+- 장치 및 작업 프로필 정책 모두 정의 - IT에서 장치 암호 정책 및 작업 프로필 암호 정책을 서로 다른 강도로 정의하도록 선택할 수 있습니다(예: 장치를 잠금 해제하려면 4자리 PIN을 사용하지만 작업 앱을 열려면 6자리 PIN을 사용하도록 정의).
 
-  회사 및 개인 프로필 간의 데이터 공유를 구성할 수 있도록 하는 새 옵션을 통해 Android for Work 장치 제한 프로필의 **회사 프로필과 개인 프로필 간 데이터 공유** 설정을 업데이트했습니다.
+>[!NOTE]
+> Android 7.0 이상에서만 사용할 수 있습니다.  기본적으로 최종 사용자는 2개의 별도로 정의된 PIN을 사용 하도록 선택하거나 정의된 2개의 PIN을 둘 중 더 강도가 높은 PIN으로 결합하도록 선택할 수 있습니다.
 
-- **회사 및 개인 프로필 간의 복사 및 붙여넣기 제한**<!-- 1046094 -->
+### <a name="manage-password-and-other-android-for-work-settings---1102534--"></a>암호 및 다른 Android for Work 설정 관리 <!--1102534-->
 
-  Intune에서 Android for Work 장치를 관리할 때 회사 및 개인 앱 간에 복사 및 붙여넣기 작업을 할 수 있습니다. 이제 회사 및 개인 앱 간에 복사 및 붙여넣기 작업을 허용할지 여부를 제한할 수 있는 Android for Work 장치용 사용자 지정 장치 프로필을 추가했습니다.
+Android for Work 장치에서 암호 및 회사 프로필 설정을 관리할 수 있도록 하는 새 Android for Work 장치 제한 정책을 추가했습니다.
 
-### <a name="assign-lob-apps-to-ios-and-android-devices----1057568---"></a>iOS 및 Android 장치에 LOB 앱 할당 <!-- 1057568 -->
+###  <a name="new-web-content-filter-policy-for-ios-devices----723832---"></a>iOS 장치에 대한 새로운 웹 콘텐츠 필터 정책 <!-- 723832 -->
 
-iOS용 기간 업무 앱(.ipa 파일)과 Android용 LOB 앱(.apk 파일)을 사용자 또는 장치에 할당할 수 있습니다.
-
-###  <a name="new-policies-for-ios-devices----723774-723815-723826-723830-723832---"></a>iOS 장치에 대한 새 정책<!-- 723774, 723815, 723826, 723830, 723832 -->
-
-- **Apps on Home screen**(홈 화면의 앱) - 장치 정책을 사용하여 사용자가 iOS 장치의 홈 화면에서 어떤 앱을 보게 할지 제어할 수 있습니다. 이 정책은 홈 화면의 레이아웃을 변경하지만 지정한 앱 중 설치되지 않은 앱은 배포하지 않습니다.
-
-- **Connections to AirPrint devices**(AirPrint 장치에 대한 연결) - Intune 장치 정책을 사용하여 iOS 장치의 최종 사용자가 연결할 수 있는 AirPrint 장치(네트워크 프린터)를 제어할 수 있습니다.
-
-- **Connections to AirPlay devices**(AirPlay 장치에 대한 연결) - Intune 장치 정책을 사용하여 iOS 장치의 최종 사용자가 연결할 수 있는 AirPlay 장치(Apple TV 등)를 제어할 수 있습니다.
-
-- **Custom lock screen message**(사용자 지정 잠금 화면 메시지) - 사용자 iOS 장치의 잠금 화면에 표시할 사용자 지정 메시지를 구성하여 기본 잠금 화면 메시지를 대체할 수 있습니다.
-
-- **Web content filter**(웹 콘텐츠 필터) - iOS 장치 사용자가 방문할 수 있는 웹 사이트를 다음 두 가지 방법 중 하나를 사용하여 제어할 수 있습니다.
+iOS 장치 사용자가 방문할 수 있는 웹 사이트를 다음 두 가지 방법 중 하나를 사용하여 제어할 수 있습니다.
 
   - Apple 기본 제공 웹 콘텐츠 필터를 사용하여 허용된 URL 및 차단된 URL을 추가합니다.
   - Safari 브라우저에서 지정한 웹 사이트만 액세스할 수 있도록 허용합니다. 지정한 각 사이트에 대한 책갈피가 Safari에서 만들어집니다.
 
+### <a name="apple-school-manager-asm-support---748864--"></a>ASM(Apple School Manager) 지원 <!--748864-->
 
-### <a name="restrict-push-notifications-for-ios-apps----723767---"></a>iOS 앱에 대한 푸시 알림 제한 <!-- 723767 -->
+Intune은 Apple 장치 등록 프로그램 대신 ASM(Apple School Manager)을 사용하도록 지원하여 iOS 장치 기본 등록 기능을 제공합니다. 공유 iPad에 대해 교실 앱을 사용하고 Microsoft SDS(학교 데이터 동기화)를 통해 ASM에서 Azure Active Directory로 데이터를 동기화할 수 있도록 설정하려면 ASM 온보딩이 필요합니다.  
 
-Intune 장치 제한 프로필에서 iOS 장치에 대해 다음과 같은 알림 설정을 구성할 수 있습니다.
+### <a name="shared-ipad-support---770395-1044681---"></a>공유 iPad 지원 <!--770395, 1044681 -->
 
-- 지정된 앱에 대한 알림을 완전히 켜거나 끕니다.
-- 지정한 앱에 대해 알림 센터의 알림을 켜거나 끕니다.
-- 경고 유형을 **없음**, **배너** 또는 **Modal Alert**(모달 경고)로 지정합니다.
-- 이 앱에 대해 배지를 허용할지 여부를 지정합니다.
-- 알림 소리를 허용할지 여부를 지정합니다.
+Intune은 Apple 장치 등록 프로그램 또는 Apple School Manager의 등록 프로필에서 공유 iPad 모드 구성을 지원합니다. 이 설정을 통해 여러 관리되는 Apple ID가 동일한 장치에 로그인할 수 있습니다.
 
-### <a name="configure-ios-apps-to-run-in-single-app-mode-autonomously----737837---"></a>iOS 앱이 자체적으로 단일 앱 모드로 실행되도록 구성 <!-- 737837 -->
+관리되는 Apple ID를 사용하여 공유 iPad에 로그인하는 학생을 포함하도록 iOS 교실 앱 관리에 대한 지원도 확장할 것입니다.
 
-Intune 장치 프로필을 사용하여 iOS 장치에서 지정된 앱을 자체 단일 앱 모드로 실행하도록 구성할 수 있습니다. 이 모드를 구성하고 앱이 실행되면 장치가 잠기므로 해당 앱만 실행할 수 있습니다. 이 모드의 예로 사용자가 장치에서 테스트를 수행할 수 있도록 앱을 구성하는 경우를 들 수 있습니다. 앱의 작업이 완료되거나 이 정책을 제거하면 장치가 일반 상태로 돌아옵니다.
+### <a name="new-windows-device-restriction-settings---978585--"></a>새로운 Windows 장치 제한 설정 <!--978585-->
 
-### <a name="configure-trusted-domains-for-email-and-web-browsing-on-ios-devices----723765---"></a>iOS 장치에서 메일 및 웹 검색을 위해 신뢰할 수 있는 도메인 구성 <!-- 723765 -->
+무선 표시, 장치 검색, 작업 전환 및 SIM 카드 오류 메시지와 같은 기능을 제어하는 설정이 Windows 장치 제한 프로필에 추가될 예정입니다.
 
-iOS 장치 제한 프로필에서 다음과 같은 도메인 설정을 구성할 수 있습니다.
+### <a name="office-365-proplus-app-available-for-windows-10-devices---1121362--"></a>Windows 10 장치에 사용할 수 있는 Office 365 ProPlus 앱 <!--1121362-->
 
-- **표시되지 않은 메일 도메인** - 사용자가 보내거나 받는 메일 중 여기에 지정하는 도메인과 일치하지 않는 메일은 신뢰할 수 없는 것으로 표시됩니다.
+Office 365 ProPlus 앱을 쉽게 Windows 10 장치에 할당할 수 있는 새로운 Office 365 ProPlus 앱 유형이 추가될 예정입니다. 또한 라이선스가 있는 경우 Microsoft Project 및 Microsoft Visio도 설치할 수 있습니다. 원하는 앱이 모두 번들로 묶여 Intune 콘솔의 앱 목록에 하나의 앱으로 표시됩니다.
 
-- **관리되는 웹 도메인** - 여기에 지정하는 URL에서 다운로드한 문서는 관리되는 문서로 간주됩니다(Safari에만 해당).  
+### <a name="new-allowblock-list-for-the-managed-browser---682960--"></a>Managed Browser의 새 허용/차단 목록 <!--682960-->
 
-- **Safari 암호 자동 채우기 도메인** - 여기에 지정하는 패턴과 일치하는 URL에서만 사용자가 Safari에 암호를 저장할 수 있습니다. 이 설정을 사용하려면 장치가 감독 모드여야 하며 여러 사용자용으로 구성되어 있지 않아야 합니다. (iOS 9.3 이상)
+Azure 포털의 Intune 응용 프로그램 구성 설정을 사용하여 Managed Browser의 도메인 및 URL 허용/차단 목록을 구성할 수 있습니다. 관리되는 장치에서 사용되든 관리되지 않는 장치에서 사용되든 관계없이 Managed Browser에 대해 구성될 수 있습니다.
 
+### <a name="new-app-configuration-capabilities----677969---"></a>새 앱 구성 기능 <!-- 677969 -->
 
-### <a name="vpp-apps-available-in-ios-company-portal----748782---"></a>iOS 회사 포털에서 사용할 수 있는 VPP 앱 <!-- 748782 -->
+이 기능은 MDM(모바일 장치 관리) 앱 구성에 해당됩니다. 이 기능을 통해 관리자는 더 많은 앱 구성 값 즉 MAM의 앱 보호 정책을 통해 제공되는 앱 구성 값을 등록 채널 없이 적용할 수 있습니다.
 
-iOS 대량 구매(VPP) 앱을 **사용 가능한** 설치로 최종 사용자에게 할당할 수 있습니다. 최종 사용자는 앱을 설치하려면 Apple 스토어 계정이 필요합니다.
+### <a name="new-app-protection-policies-conditions-for-mam---679864--"></a>MAM의 새 앱 보호 정책 조건 <!--679864-->
 
-### <a name="synchronize-ebooks-from-apple-vpp-store----800878---"></a>Apple VPP 스토어에서 전자책 동기화 <!-- 800878 -->
+등록 사용자 없이 관리 콘솔을 통해 다음 사항을 적용하는 요구 사항을 MAM에 대해 설정할 수 있습니다.
 
-Apple 대량 구매 프로그램 스토어에서 구매한 책을 Intune과 동기화하고 사용자에게 이러한 책을 할당할 수 있습니다.
+- 최소 응용 프로그램 버전
+- 최소 운영 체제 버전
+- 대상 응용 프로그램의 최소 Intune 앱 SDK 버전(iOS에만 해당)
 
-### <a name="multi-user-management-for-samsung-knox-standard-devices----971988---"></a>Samsung KNOX Standard 장치에 대한 다중 사용자 관리 <!-- 971988 -->
+이 기능은 iOS 및 Android 모두에 제공됩니다. Intune은 OS 플랫폼 버전, 응용 프로그램 버전 및 Intune 앱 SDK에 대해 최소 버전 적용을 지원합니다. iOS에서는 SDK가 통합된 응용 프로그램도 SDK 수준에서 최소 버전 적용을 설정할 수 있습니다.
 
-Samsung KNOX Standard를 실행하는 장치가 이제 Intune의 다중 사용자 관리에서 지원됩니다. 따라서 최종 사용자가 Azure Active Directory 자격 증명을 사용하여 장치에서 로그인 및 로그아웃할 수 있고 장치는 사용 여부와 관계없이 중앙에서 관리됩니다.  최종 사용자가 로그인하면 앱에 액세스할 수 있고 추가로 앱에 정책을 적용할 수 있습니다. 사용자가 로그아웃하면 모든 앱 데이터가 지워집니다.
+위에 언급된 3가지 수준에서 앱 보호 정책을 통한 최소 요구 사항이 충족되지 않으면 사용자가 대상 응용 프로그램에 액세스할 수 없습니다. 이때 사용자는 계정을 제거하거나(다중 ID 응용 프로그램의 경우), 응용 프로그램을 닫거나, 해당 OS 또는 응용 프로그램 버전을 업데이트하여 요구 사항을 충족할 수 있습니다.
 
-### <a name="additional-windows-device-restriction-settings----818566---"></a>추가 Windows 장치 제한 설정 <!-- 818566 -->
+또한 관리 콘솔을 통해 추가 설정을 구성하여 OS 또는 응용 프로그램 업그레이드를 권장하는 비차단 알림을 제공할 수도 있습니다. 이 알림은 닫을 수 있고 응용 프로그램을 정상적으로 사용할 수 있습니다.
 
-추가 Edge 브라우저 지원, 장치 잠금 화면 사용자 지정, 시작 메뉴 사용자 지정, Windows 추천 검색이 설정된 배경 화면, 프록시 설정 등과 같은 추가 Windows 장치 제한 설정에 대한 지원을 추가했습니다.
+### <a name="change-your-mdm-authority-without-unenrolling-managed-devices---1103950--"></a>관리되는 장치를 등록 취소하지 않고 MDM 기관 변경 <!--1103950-->
 
-### <a name="multi-user-support-for-windows-10-creators-update----822547---"></a>Windows 10 크리에이터 업데이트에 대한 다중 사용자 지원 <!-- 822547 -->
-
-Windows 10 크리에이터 업데이트를 실행하고 Azure Active Directory 도메인에 가입된 장치에 대한 다중 사용자 관리 지원을 추가했습니다. 따라서 여러 표준 사용자가 Azure AD 자격 증명을 사용하여 장치에 로그온할 때 각 사용자는 자신의 사용자 이름에 할당된 앱과 정책을 수신합니다. 현재 사용자가 앱 설치와 같은 셀프 서비스의 경우 회사 포털을 사용할 수 없습니다.
-
-### <a name="fresh-start-for-windows-10-pcs---1004830---"></a>Windows 10 PC에서의 새로운 시작<!-- 1004830 -->
-
-이 릴리스에서는 Windows 10 PC에 대한 새 [새로 시작] 장치 동작을 추가했습니다.  이 작업을 실행하면 PC에 설치된 모든 앱이 제거되고 PC가 자동으로 최신 버전의 Windows로 업데이트됩니다. 이 작업은 종종 새 PC와 함께 제공되는 미리 설치된 OEM 앱을 제거하는 데 사용할 수 있습니다. 이 장치 작업을 실행할 때 사용자 데이터를 유지할지 여부를 구성할 수 있습니다.
-
-### <a name="additional-windows-10-upgrade-paths----903672---"></a>추가 Windows 10 업그레이드 경로 <!-- 903672 -->
-
-이제 버전 업그레이드 정책을 만들어 장치를 다음과 같은 추가 Windows 10 버전으로 업그레이드할 수 있습니다.
-
-- Windows 10 Professional
-- Windows 10 Professional KN
-- Windows 10 Professional Education
-- Windows 10 Professional Education N
-
-### <a name="bulk-enroll-windows-10-devices----747607---"></a>Windows 10 장치 대량 등록 <!-- 747607 -->
-
-WCD(Windows 구성 디자이너)를 사용하여 Azure Active Directory 및 Intune에 대한 Windows 10 크리에이터 업데이트를 실행하는 많은 장치를 연결할 수 있습니다. Azure AD 테넌트에 대한 자동 MDM 등록을 사용하도록 설정하려면 Windows 구성 디자이너를 사용하여 Azure AD 테넌트에 장치를 연결하는 프로비전 패키지를 만들고, 이 패키지를 대량으로 등록 및 관리할 회사 소유 장치에 적용합니다. 패키지가 장치에 적용되면, 장치가 Azure AD에 연결되고 Intune에 등록되며 Azure AD 사용자가 로그온할 수 있는 준비를 갖추게 됩니다.  Azure AD 사용자는 이러한 장치에서 표준 사용자이며 할당된 정책 및 필수 앱을 수신합니다. 셀프 서비스 및 회사 포털 시나리오의 경우 이번에는 지원되지 않습니다.
-
-### <a name="new-mam-settings-for-pin-and-managed-storage-locations----58112-736644---"></a>PIN 및 관리되는 저장소 위치에 대한 새 MAM 설정 <!-- 58112, 736644 -->
-
-MAM(모바일 응용 프로그램 관리) 시나리오에 도움이 되는 두 가지 새 앱 설정이 제공됩니다.
-
-- **Disable app PIN when device PIN is managed**(장치 PIN이 관리되는 경우 앱 PIN 사용 안 함) - 등록된 장치에 장치 PIN이 있는지 검색하고 있으면 앱 보호 정책에 따라 트리거되는 앱 PIN을 건너뜁니다. 이 설정을 사용하면 등록된 장치에서 MAM 지원 응용 프로그램을 여는 사용자에게 PIN 프롬프트가 표시되는 횟수를 줄일 수 있습니다. 이 기능은 Android 및 iOS 모두에 제공됩니다.
-
-- **Select which storage services corporate data can be saved to**(회사 데이터를 저장할 저장소 서비스 선택) - 회사 데이터를 저장할 저장소 위치를 지정할 수 있습니다. 사용자가 선택된 저장소 위치 서비스에 저장할 수 있으므로 나열되지 않은 다른 저장소 위치는 모두 차단됩니다.
-
-  지원되는 저장소 위치 서비스 목록:
-
-  - OneDrive
-  - 비즈니스 SharePoint Online
-  - 로컬 저장소
+Microsoft 지원에 문의하여 기존의 관리되는 장치를 등록 취소했다가 다시 등록할 필요 없이 MDM 기관을 변경할 수 있습니다. Configuration Manager 콘솔에서 MDM 기관을 Configuration Manager로 설정(하이브리드)에서 Microsoft Intune(독립 실행형)으로 또는 그 반대로 변경할 수 있습니다.
 
 
 ### <a name="see-also"></a>참고 항목

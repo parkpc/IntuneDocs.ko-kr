@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 09/27/2016
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,9 +14,11 @@ ms.assetid: 40622ced-6029-4abf-873e-b51d2b51934c
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 2640df8eb3f8505320f965ee1f6edbf5d4f8cfe7
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 90222b10832fd8251ad897348eeebed5b3d1e552
+ms.openlocfilehash: 50780a8e516848bed41169c597dd2a964a1d296f
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/11/2017
 
 
 ---
@@ -78,6 +80,18 @@ Microsoft Intune 작업이 오류 코드를 반환하는 경우, 문제 해결�
 |-2016341112|0x87D11388|iOS 장치가 현재 사용 중입니다.|
 
 ## <a name="errors-returned-by-ios-devices"></a>iOS 장치가 반환한 오류
+
+### <a name="company-portal-errors"></a>회사 포털 오류
+
+|회사 포털의 오류 텍스트|HTTP 상태 코드|추가 오류 정보|
+|---|---|---|
+|__내부 서버 문제__ <br>서버의 내부 오류로 인해 연결할 수 없는 것 같습니다. 다시 시도해 보고 문제가 계속되면 IT 관리자에게 문의하세요.|500 오류|이 오류는 Intune 서비스의 문제로 인해 발생했을 가능성이 큽니다. 이 문제는 Intune 서비스쪽에서 해결되어야 하며 고객쪽의 문제가 아닐 가능성이 큽니다.|
+|__일시적으로 사용할 수 없음__ <br>서비스를 일시적으로 사용할 수 없으므로 연결할 수 없는 것 같습니다. 다시 시도해 보고 문제가 계속되면 IT 관리자에게 문의하세요.|503 오류|서비스가 유지 관리 중인 경우와 같이 일시적인 Intune 서비스 문제 때문일 가능성이 큽니다. 이 문제는 Intune 서비스쪽에서 해결되어야 하며 고객쪽의 문제가 아닐 가능성이 큽니다.|
+|__서버에 연결할 수 없음__ <br>연결할 수 없는 것 같습니다. 다시 시도해 보고 문제가 계속되면 IT 관리자에게 문의하세요.|HTTP 상태 코드와 연결되지 않음|서버에 안전하게 연결할 수 없으며 사용 중인 인증서의 SSL 문제일 가능성이 큽니다. 이 문제는 Apple의 ATS(앱 전송 보안) 요구 사항을 준수하지 않는 고객 구성 때문일 수 있습니다.|
+|__오류 발생__ <br>회사 포털 클라이언트를 로드할 수 없습니다. 다시 시도해 보고 문제가 계속되면 IT 관리자에게 문의하세요.|400 오류|HTTP 상태 코드가 400대이고 구체적인 오류 메시지가 없는 모든 오류에 대해 이 메시지가 표시됩니다. iOS 회사 포털 앱에서 발생하는 클라이언트쪽 오류입니다.|
+|__서버에 연결할 수 없음__ <br>연결할 수 없는 것 같습니다. 다시 시도해 보고 문제가 계속되면 IT 관리자에게 문의하세요.|500 오류|HTTP 상태 코드가 500대이고 구체적인 오류 메시지가 없는 모든 오류에 대해 이 메시지가 표시됩니다. Intune 서비스에서 발생하는 서비스쪽 오류입니다.|
+
+### <a name="service-errors"></a>서비스 오류
 
 |상태 코드|16진수 오류 코드|오류 메시지|
 |---------------|--------------------------|-----------------|
@@ -374,9 +388,4 @@ Microsoft Intune 작업이 오류 코드를 반환하는 경우, 문제 해결�
 
 ### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 
