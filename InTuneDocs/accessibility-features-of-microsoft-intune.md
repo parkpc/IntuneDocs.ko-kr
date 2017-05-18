@@ -15,18 +15,16 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
-ms.openlocfilehash: b54dffd23db966d9ed15ec23fe25a7e58a187d0b
+ms.sourcegitcommit: ca5baca6bb9814d7ab4075c65eb2274c8b6e9e08
+ms.openlocfilehash: d5dafeecdddd0c780673b01543c077dde9e881b2
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 05/09/2017
 
 
 ---
 
 # <a name="accessibility-features-of-microsoft-intune"></a>Microsoft Intune의 내게 필요한 옵션 기능
-Microsoft Windows의 내게 필요한 옵션 기능과 도구 외에 다음 기능을 통해서도 장애가 있는 사용자가 Microsoft Intune을 더욱 쉽게 사용할 수 있습니다.
-
--   바로 가기 키 사용
+Microsoft Windows의 내게 필요한 옵션 기능과 도구 외에 다음 바로 가기 키를 사용해서도 장애가 있는 사용자가 Microsoft Intune을 더욱 쉽게 사용할 수 있습니다.
 
 > [!NOTE]
 > [!INCLUDE[accessibility6](./includes/accessibility6_md.md)]

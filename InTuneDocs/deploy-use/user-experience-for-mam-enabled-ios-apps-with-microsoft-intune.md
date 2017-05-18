@@ -2,10 +2,10 @@
 title: "앱 보호 정책을 사용하는 iOS 앱 | Microsoft Docs"
 description: "이 항목에서는 앱 보호 정책을 통해 iOS 앱이 관리될 때 예상되는 결과를 설명합니다."
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
-ms.date: 03/06/2017
+ms.date: 05/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,10 +14,11 @@ ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 665d3347636d5ec0c698ffb93b768028c9d59ce3
-ms.openlocfilehash: fba18027039a0e49c5301f9d1a16947e97408034
-ms.lasthandoff: 03/07/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 2b064d14e8a46c19c0eafc3276b470dead114438
+ms.openlocfilehash: 92a91fab353c78c751ae5eb25c9853df5cbcfe53
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/06/2017
 
 
 ---
@@ -26,11 +27,11 @@ ms.lasthandoff: 03/07/2017
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
- 이 항목에서는 앱 보호 정책이 적용되는 앱에 대한 사용자 환경을 설명합니다. 앱 보호 정책은 사용자가 회사 계정을 사용하여 앱에 액세스하거나 회사의 OneDrive 비즈니스 위치에 저장된 파일에 액세스하는 경우처럼 앱이 업무용으로 사용될 때만 적용됩니다.
+ 이 항목에서는 앱 보호 정책이 적용되는 앱을 사용하는 경우의 사용자 환경을 설명합니다. 앱 보호 정책은 사용자가 회사 계정을 사용하여 앱에 액세스하거나 회사의 비즈니스용 OneDrive 위치에 저장된 파일에 액세스하는 경우처럼 앱이 업무용으로 사용될 때만 적용됩니다.
 
 ##  <a name="access-apps"></a>앱 액세스
 
-장치가 **Intune에 등록되지 않은** 경우 사용자가 앱을 처음 사용할 때 앱을 다시 시작하라는 메시지가 표시됩니다.  앱 보호 정책을 앱에 적용할 수 있도록 앱을 다시 시작해야 합니다. 
+장치가 **Intune에 등록되지 않은** 경우 사용자가 앱을 처음 사용할 때 앱을 다시 시작하라는 메시지가 표시됩니다. 앱 보호 정책을 앱에 적용할 수 있도록 앱을 다시 시작해야 합니다. 
 
 <!--- The following screenshot from the Skype app illustrates this restart request: --->
 
@@ -41,9 +42,13 @@ ms.lasthandoff: 03/07/2017
 
 ##  <a name="use-apps-with-multi-identity-support"></a>다중 ID가 지원되는 앱 사용
 
-앱 보호 정책은 앱을 업무용으로 사용할 때만 적용됩니다. 즉, 앱을 업무용으로 사용하는지 아니면 개인용으로 사용하는지에 따라 작동 방식이 달라질 수 있습니다.
+다중 ID를 지원하는 앱을 사용하면 앱이 회사 컨텍스트에서 사용되는 경우 앱 보호 정책이 적용되는 동안 다른 계정(회사 및 개인)을 사용하여 동일한 앱에 액세스할 수 있습니다.  
 
- 예를 들어 사용자가 업무 데이터에 액세스하면 PIN 프롬프트가 표시됩니다. **Outlook 앱**에서는 사용자가 앱을 시작할 때 PIN을 입력하라는 메시지가 표시됩니다. **OneDrive 앱**에서는 사용자가 회사 계정을 입력할 때 PIN을 입력하라는 메시지가 표시됩니다.  Microsoft **Word**, **PowerPoint** 및 **Excel**의 경우에는 사용자가 회사의 비즈니스용 OneDrive 위치에 저장된 문서에 액세스할 때 PIN을 입력하라는 메시지가 표시됩니다.
+예를 들어 사용자가 업무 데이터에 액세스하면 PIN 프롬프트가 표시됩니다. **Outlook 앱**에서는 사용자가 앱을 시작할 때 PIN을 입력하라는 메시지가 표시됩니다. **OneDrive 앱**에서는 사용자가 회사 계정을 입력할 때 PIN을 입력하라는 메시지가 표시됩니다.  Microsoft **Word**, **PowerPoint** 및 **Excel**의 경우에는 사용자가 회사의 비즈니스용 OneDrive 위치에 저장된 문서에 액세스할 때 PIN을 입력하라는 메시지가 표시됩니다.
+
+- Intune을 통해 [MAM 및 다중 ID](https://www.microsoft.com/cloud-platform/microsoft-intune-apps)를 지원하는 앱에 대해 자세히 알아봅니다.
+
+앱 보호 정책은 앱을 업무용으로 사용할 때만 적용됩니다. 즉, 앱을 업무용으로 사용하는지 아니면 개인용으로 사용하는지에 따라 작동 방식이 달라질 수 있습니다.
 
 ##  <a name="manage-user-accounts-on-the-device"></a>장치에서 사용자 계정 관리
 

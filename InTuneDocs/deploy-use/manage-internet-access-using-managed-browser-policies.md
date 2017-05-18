@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/27/2016
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,10 +14,11 @@ ms.assetid: dc946303-e09b-4d73-8bf4-87742299bc54
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: e45d1f0cec7d07ea7d01be0f6ec8443e6521681a
-ms.lasthandoff: 04/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 90222b10832fd8251ad897348eeebed5b3d1e552
+ms.openlocfilehash: 49ad005846265deb7d4b34b52a1c139e8f61372b
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/11/2017
 
 
 ---
@@ -28,12 +29,12 @@ ms.lasthandoff: 04/14/2017
 
 관리 브라우저는 Microsoft Intune을 사용하여 조직에서 배포할 수 있는 웹 브라우징 응용 프로그램입니다. 관리 브라우저 정책은 관리 브라우저의 사용자가 방문할 수 있는 웹 사이트를 제한하는 허용 목록 또는 차단 목록을 구성합니다.
 
-이 앱은 관리되는 앱이므로 앱에 모바일 응용 프로그램 관리 정책을 적용할 수도 있습니다. 이 정책에는 잘라내기, 복사 및 붙여넣기 제어, 화면 캡처 방지, 사용자가 선택하는 콘텐츠에 대한 링크를 다른 관리 앱에서만 열리게 하는 기능이 포함될 수 있습니다. 자세한 내용은 [Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 구성 및 배포](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)를 참조하세요.
+이 앱에는 Intune SDK와의 통합이 포함되어 있으므로 앱 보호 정책도 적용할 수 있습니다. 이 정책에는 잘라내기, 복사 및 붙여넣기 제어, 화면 캡처 방지, 사용자가 선택하는 콘텐츠에 대한 링크를 다른 관리 앱에서만 열리게 하는 기능이 포함될 수 있습니다. 자세한 내용은 [Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 구성 및 배포](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)를 참조하세요.
 
-> [!IMPORTANT]
->사용자가 앱 스토어에서 Managed Browser를 설치하며 브라우저가 Intune에서 관리되지 않는 경우에는 다음 동작이 적용됩니다.<br /><br />
-iOS – Managed Browser 앱을 기본 웹 브라우저로 사용할 수 있지만 일부 기능이 제공되지 않으며 다른 Intune 관리 앱의 데이터에 액세스할 수 없습니다.<br />
-Android – Managed Browser 앱을 사용할 수 없습니다.<br /><br />
+>[!IMPORTANT]
+>장치의 다른 앱이 앱 보호 정책을 검색한 경우 Managed Browser 앱만 Intune 앱 보호 정책을 검색하고 적용합니다.<br><br> 또한 사용자가 앱 스토어에서 Managed Browser를 설치하며 브라우저가 Intune에서 관리되지 않는 경우에는 다음 동작이 적용됩니다.<br /><br />
+>**iOS** – Managed Browser 앱을 기본 웹 브라우저로 사용할 수 있지만 일부 기능이 제공되지 않으며 다른 Intune 관리 앱의 데이터에 액세스할 수 없습니다.<br />
+**Android** – Managed Browser 앱을 사용할 수 없습니다.<br /><br />
 사용자가 iOS 9 이전 버전이 설치된 iOS 장치에 Managed Browser를 직접 설치하는 경우에는 관리자가 만든 정책으로 브라우저가 관리되지 않습니다. Intune에서 브라우저를 관리하려면 앱을 먼저 제거한 다음 관리되는 앱으로 브라우저를 배포해야 합니다. iOS 9 이상에서 사용자가 Managed Browser를 직접 설치하는 경우에는 정책에 의해 관리될 수 있도록 허용하라는 메시지가 표시됩니다.
 
 다음 장치 유형에 대한 관리 브라우저 정책을 만들 수 있습니다.

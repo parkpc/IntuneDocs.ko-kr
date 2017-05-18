@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 04/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 53f1c688aad2f810d8a887435dd8d122d4f471ae
-ms.openlocfilehash: d8fa3a19915076f1a603449dd426172fbc5a613a
-ms.lasthandoff: 04/27/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 90222b10832fd8251ad897348eeebed5b3d1e552
+ms.openlocfilehash: 18c6af67aebf5745ed4950a1ed44fce82d18f7d7
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/11/2017
 
 
 ---
@@ -166,27 +167,9 @@ Intune에서 관리하는 DEP 장치를 등록하려면 DEP 프로필을 할당�
 
 이제 회사 소유 장치를 사용자에게 배포할 수 있습니다. iOS DEP 장치가 켜진 경우 Intune에서 관리되도록 등록됩니다. 장치가 활성화되었으며 사용 중인 경우에는 장치를 초기화할 때까지 프로필을 적용할 수 없습니다.
 
+[Microsoft Intune에 대한 최종 사용자 교육 방법](https://docs.microsoft.com/intune/deploy-use/how-to-educate-your-end-users-about-microsoft-intune)을 참조하세요. 직접 최종 사용자를 [Intune에서 iOS 또는 macOS 장치 사용](https://docs.microsoft.com/intune/deploy-use/how-to-educate-your-end-users-about-microsoft-intune)으로 안내할 수도 있습니다. 
+
 ### <a name="how-users-install-and-use-the-company-portal-on-their-devices"></a>사용자가 자신의 장치에서 회사 포털을 설치 및 사용하는 방법
 
 사용자 선호도로 구성한 장치에서 회사 포털 앱을 설치하고 실행하여 앱을 다운로드하고 장치를 관리할 수 있습니다. 사용자는 장치를 받은 후 아래 설명된 추가 단계를 완료하여 설정 도우미를 완료하고 회사 포털 앱을 설치해야 합니다.
-
-### <a name="how-users-enroll-corporate-owned-ios-devices-with-user-affinity"></a>사용자가 사용자 선호도를 사용하여 회사 소유의 iOS 장치를 등록하는 방법
-
-1. 사용자가 장치를 켜면 설정 도우미를 완료하라는 메시지가 표시됩니다. 설정하는 동안 자격 증명을 묻는 메시지가 표시됩니다. Intune에서 구독과 연결된 자격 증명(즉, 고유 이름 또는 UPN)을 사용해야 합니다.
-
-2. 설정하는 동안 Apple ID를 묻는 메시지가 표시됩니다. 장치에서 회사 포털을 설치할 수 있도록 Apple ID를 제공해야 합니다. 설치를 완료한 후에 iOS 설정 메뉴에서 Apple ID를 입력할 수도 있습니다.
-
-3. 설정을 완료한 후 사용자는 앱 스토어를 통해 회사 포털 앱을 설치해야 합니다.
-
-4. 이제 장치를 설정할 때 사용한 UPN을 사용하여 회사 포털에 로그인할 수 있습니다.
-
-5. 로그인한 후에는 장치를 등록하라는 메시지가 표시됩니다. 첫 번째 단계는 장치를 식별하는 것입니다. 앱에서 이미 회사에 등록되어 사용자의 Intune 계정에 할당된 iOS 장치 목록을 표시합니다. 일치하는 장치를 선택해야 합니다. 이 장치가 아직 회사에 등록되지 않은 경우 새 장치를 선택하여 표준 등록 흐름에 따라 계속 진행해야 합니다.
-
-6. 다음 화면에서 새 장치의 일련 번호를 확인합니다. 이렇게 하려면 표시되는 링크를 선택합니다. 그러면 사용자가 자신의 일련 번호를 확인할 수 있는 설정 앱이 시작됩니다. 그런 다음 회사 포털 앱에 일련 번호의 마지막 4자리를 입력해야 합니다.
-
-   이 단계에서는 장치가 Intune에 등록된 회사 장치인지 확인합니다. 장치의 일련 번호와 일치하지 않으면 잘못된 장치를 선택한 것입니다. 이전 화면으로 돌아가서 다른 장치를 선택해야 합니다.
-
-7. 일련 번호를 확인한 후 회사 포털 앱에서 회사 포털 웹 사이트로 리디렉션하여 등록을 마칩니다. 그런 다음 웹 사이트에서 앱으로 돌아가라는 메시지를 표시합니다.
-
-이제 등록이 완료되었으며 기능의 전체 집합으로 이 장치를 사용할 수 있습니다.
 

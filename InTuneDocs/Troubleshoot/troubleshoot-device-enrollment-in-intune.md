@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 03/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,10 +14,11 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: fe30e9be50eac610c5694502f0e16de453ddf4e3
-ms.lasthandoff: 04/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 90222b10832fd8251ad897348eeebed5b3d1e552
+ms.openlocfilehash: f4aa655254d008eeea662f2cb35cc1fba633ef5e
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/11/2017
 
 
 ---
@@ -173,7 +174,7 @@ ms.lasthandoff: 04/14/2017
 
 사용자에게 Android 6.0으로 업그레이드해 보도록 요청합니다. Android 6.0 장치에서는 비활성화 문제가 발생하지 않습니다. 업데이트를 사용할 수 있는지 확인하려면 **설정** > **장치 정보** > **수동으로 업데이트 다운로드**로 이동하고 장치에 표시되는 메시지를 따릅니다.
 
-**3:**
+ **3:**
 
 해결 방법 2로 해결되지 않으면 사용자에게 다음 단계에 따라 Smart Manager에서 회사 포털 앱을 제외하도록 설정하라고 요청합니다.
 
@@ -252,6 +253,19 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
 
 ## <a name="ios-issues"></a>iOS 문제
+
+### <a name="ios-enrollment-errors"></a>iOS 등록 오류
+다음 표에서는 Intune에 iOS 장치를 등록하는 동안 최종 사용자에게 표시될 수 있는 오류를 보여 줍니다.
+
+|오류 메시지|문제|해결 방법|
+|-----------------|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|NoEnrollmentPolicy|등록 정책을 찾을 수 없음|APNs(Apple Push Notification Service)와 같은 모든 등록 필수 구성 요소가 설정되었는지와 "플랫폼으로 iOS 사용"이 설정되었는지 확인합니다. 자세한 내용은 [iOS 및 Mac 장치 관리 설정](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)을 참조하세요.|
+|DeviceCapReached|너무 많은 모바일 장치가 이미 등록되어 있습니다.|사용자는 다른 모바일 장치를 등록하기 전에 현재 등록된 모바일 장치 중 하나를 회사 포털에서 제거해야 합니다. [Android](https://docs.microsoft.com/intune-user-help/unenroll-your-device-from-intune-android), [iOS](https://docs.microsoft.com/intune-user-help/unenroll-your-device-from-intune-ios), [Windows](https://docs.microsoft.com/intune-user-help/unenroll-your-device-from-intune-windows) 중에서 사용 중인 장치 유형에 대한 지침을 참조하세요.|
+|APNSCertificateNotValid|모바일 장치와 회사 네트워크 간 통신을 허용하는 인증서에 문제가 있습니다.<br /><br />|APNs(Apple Push Notification Service)에서 등록된 iOS 장치에 연결할 수 있는 채널을 제공합니다. APNs 인증서를 가져오는 단계를 수행하지 않았거나 APNs 인증서가 만료된 경우에는 등록 시도가 실패하고 이 메시지가 나타납니다.<br /><br />[Active Directory를 동기화하고 Intune에 사용자 추가](/Intune/Get-Started/start-with-a-paid-subscription-to-microsoft-intune-step-3) 및 [사용자 및 장치 구성](/Intune/Get-Started/start-with-a-paid-subscription-to-microsoft-intune-step-5)에서 사용자를 설정하는 방법에 대한 정보를 검토하세요.|
+|AccountNotOnboarded|모바일 장치와 회사 네트워크 간 통신을 허용하는 인증서에 문제가 있습니다.<br /><br />|APNs(Apple Push Notification Service)에서 등록된 iOS 장치에 연결할 수 있는 채널을 제공합니다. APNs 인증서를 가져오는 단계를 수행하지 않았거나 APNs 인증서가 만료된 경우에는 등록 시도가 실패하고 이 메시지가 나타납니다.<br /><br />자세한 내용은 [Microsoft Intune을 사용한 iOS 및 Mac 관리 설정](/Intune/Deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)을 검토하세요.|
+|DeviceTypeNotSupported|사용자가 비 iOS 장치를 사용하여 등록하려고 했을 수 있습니다. 등록하려는 모바일 장치 유형이 지원되지 않습니다.<br /><br />장치가 iOS 버전 8.0 이상을 실행하고 있는지 확인합니다.<br /><br />|사용자 장치가 iOS 버전 8.0 이상을 실행 중인지 확인합니다.|
+|UserLicenseTypeInvalid|사용자 계정이 아직 필수 사용자 그룹의 구성원이 아니어서 장치를 등록할 수 없습니다.<br /><br />|사용자가 장치를 등록하려면 올바른 사용자 그룹의 구성원이어야 합니다. 이 메시지는 지정된 모바일 장치 관리 기관에 맞지 않는 라이선스 유형이 있음을 의미합니다. 예를 들어 Intune이 모바일 장치 관리 기관으로 지정되었는데 System Center 2012 R2 Configuration Manager 라이선스를 사용하는 경우 이 오류가 표시됩니다.<br /><br />자세한 내용은 다음을 검토하세요.<br /><br />[Microsoft Intune을 사용한 iOS 및 Mac 관리 설정](/Intune/Deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)과 [Active Directory를 동기화하고 Intune에 사용자 추가](/Intune/Get-Started/start-with-a-paid-subscription-to-microsoft-intune-step-3) 및 [사용자 및 장치 구성](/Intune/Get-Started/start-with-a-paid-subscription-to-microsoft-intune-step-5)의 사용자를 설정하는 방법에 대한 정보를 검토하세요.|
+|MdmAuthorityNotDefined|모바일 장치 관리 기관이 정의되지 않았습니다.<br /><br />|Intune에서 모바일 장치 관리 기관이 지정되지 않았습니다.<br /><br />[Microsoft Intune 30일 평가판으로 시작하기](/Intune/Understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune)에서 "6단계: 모바일 장치 등록 및 앱 설치" 섹션의 항목 #1을 검토합니다.|
 
 ### <a name="devices-are-inactive-or-the-admin-console-cannot-communicate-with-them"></a>장치가 비활성 상태이거나, 관리 콘솔에서 통신할 수 없음
 **문제:** iOS 장치가 Intune 서비스에서 체크 인되지 않습니다. 장치는 보호되는 회사 리소스에 대한 액세스를 유지하기 위해 서비스와 정기적으로 체크 인해야 합니다. 장치가 체크 인되지 않으면 다음과 같이 됩니다.
