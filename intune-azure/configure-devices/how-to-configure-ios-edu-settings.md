@@ -16,10 +16,10 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: f9e8a5deb17ebb77d480213567e5ccf6550e3493
-ms.openlocfilehash: 3c7ab3e33f7a1a97cd8048be059cf2f74deb00c1
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 066fdacab7530122ed325238c0db3a9d3df580c9
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/03/2017
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -45,7 +45,7 @@ Intune iOS **교육** 장치 프로필과 이 항목의 정보를 사용하여 �
 이러한 설정을 구성하기 전에 다음을 고려하세요.
 
 - 교사 및 학생 iPad가 Intune에 등록되어 있어야 합니다.
-- 교사의 장치에 [Apple 교실](https://itunes.apple.com/us/app/classroom/id1085319084?mt=8) 앱을 설치했는지 확인합니다. 이 작업을 수동으로 하거나 [Intune 앱 관리](https://docs.microsoft.com/intune-azure/manage-apps/what-is-app-management)를 사용할 수 있습니다.
+- 교사의 장치에 [Apple 교실](https://itunes.apple.com/us/app/classroom/id1085319084?mt=8) 앱을 설치했는지 확인합니다. 이 작업을 수동으로 하거나 [Intune 앱 관리](../manage-apps/what-is-app-management.md)를 사용할 수 있습니다.
 - 교사 장치와 학생 장치 간 연결을 인증하도록 인증서를 구성해야 합니다(2단계 참조).
 - 교사 및 학생 iPad가 같은 Wi-Fi 네트워크에 있고 Bluetooth가 사용하도록 설정되어야 합니다.
 - 교실 앱은 iOS 9.3 이상을 실행하는 감독 모드 iPad에서 실행됩니다.
@@ -70,7 +70,7 @@ SDS는 SIS의 정보를 동기화하고 Azure AD에 저장합니다. Azure AD는
 
 - [Azure Active Directory와 온-프레미스 디렉터리 통합](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)
 - [Find out more about Microsoft School Data Sync](https://sds.microsoft.com/)(Microsoft 학교 데이터 동기화에 대해 자세히 알아보기)
-- [Azure Active Directory에서 그룹 기반 라이선스 기본](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-licensing-whatis-azure-portal)
+- [Azure Active Directory에서 그룹 기반 라이선스 기본](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal)
 
 ## <a name="step-2---create-and-assign-an-ios-education-profile-in-intune"></a>2단계 - Intune에서 iOS 교육 프로필 만들기 및 할당
 
@@ -148,7 +148,7 @@ iOS 교육 프로필은 PFX 인증서만 지원하고 SCEP 인증서는 지원�
     
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
 
-학교 데이터를 Azure AD와 동기화할 때 만들어진 강의식 그룹의 학생 장치에 프로필을 할당합니다([장치 프로필을 할당하는 방법](/intune-azure/configure-devices/how-to-assign-device-profiles) 참조).
+학교 데이터를 Azure AD와 동기화할 때 만들어진 교실 그룹의 학생 장치에 프로필을 할당합니다([장치 프로필을 할당하는 방법](how-to-assign-device-profiles.md) 참조.
 
 ## <a name="next-steps"></a>다음 단계
 

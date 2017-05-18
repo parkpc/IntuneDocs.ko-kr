@@ -14,10 +14,11 @@ ms.assetid: 46e5b027-4280-4809-b45f-651a6ab6d0cd
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
-ms.openlocfilehash: 5c57a069fc9d2ca561954f50cbefa21b13a563d1
-ms.lasthandoff: 04/24/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 90222b10832fd8251ad897348eeebed5b3d1e552
+ms.openlocfilehash: d5fd4658369534213c40c777039785ff138d0c39
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/11/2017
 
 
 ---
@@ -70,7 +71,7 @@ Apple Configurator를 사용하면 iOS 장치를 공장 설정으로 초기화�
 
    -   **등록 정보** &mdash; 장치의 등록 방식을 지정합니다.
 
-       -   **사용자 선호도 확인** &mdash; 초기 설치 작업을 진행할 때 장치에 사용자 정보를 등록해야 합니다. 그러면 회사 데이터와 메일에 액세스하도록 허용할 수 있습니다. 사용자에게 속하고 앱 설치 같은 서비스에 회사 포털을 사용해야 하는 DEP 관리 장치에 대한 **사용자 선호도**를 설정해야 합니다.
+       -   **사용자 선호도 확인** &mdash; 초기 설치 작업을 진행할 때 장치에 사용자 정보를 등록해야 합니다. 그러면 회사 데이터와 메일에 액세스하도록 허용할 수 있습니다. 사용자에게 속하고 앱 설치 같은 서비스에 회사 포털을 사용해야 하는 관리 장치에 대한 **사용자 선호도**를 설정해야 합니다.
 
        -   **사용자 선호도 없음** &mdash; 장치에 사용자 정보를 등록하지 않습니다. 로컬 사용자 데이터에 액세스하지 않고도 작업을 수행하는 장치에 대해 이 정보를 사용합니다. 기간 업무 앱을 설치하는 데 사용하는 회사 포털 앱 등 사용자 정보가 필요한 앱은 작동하지 않습니다.
 
@@ -109,11 +110,11 @@ Apple Configurator를 사용하면 iOS 장치를 공장 설정으로 초기화�
 
   **장치 검토** 패널에서 일련 번호를 확인할 수 있습니다. 다시 가져올 일련 번호의 **세부 정보**의 덮어쓰기 여부를 선택할 수도 있습니다. **덮어쓰기** 상자를 선택 취소하면 현재 세부 정보를 유지할 수 있습니다.
 
-> [!NOTE]
-> 기존 Intune 관리자 콘솔에서 관리자는 업로드된 CSV의 연결된 세부 정보를 수락하고 개별 일련 번호의 기존 세부 정보를 덮어쓸 수 있습니다. 새 Azure 포털에서는 모든 일련 번호의 세부 정보를 덮어쓰거나 모든 일련 번호의 새로운 세부 정보를 무시할 수만 있습니다.
+  > [!NOTE]
+  > 기존 Intune 관리자 콘솔에서 관리자는 업로드된 CSV의 연결된 세부 정보를 수락하고 개별 일련 번호의 기존 세부 정보를 덮어쓸 수 있습니다. 새 Azure 포털에서는 모든 일련 번호의 세부 정보를 덮어쓰거나 모든 일련 번호의 새로운 세부 정보를 무시할 수만 있습니다.
 
-> [!NOTE]
-> 나중에 회사 소유 장치를 Intune 관리에서 제거하려는 경우, **사전 등록된 회사 장치**에 있는 **iOS 일련 번호 기준** 장치 그룹으로 이동한 후 Intune에서 장치 일련 번호를 제거하여 장치 등록을 사용하지 않도록 설정해야 할 수 있습니다. 일련 번호를 제거할 때 또는 그 전후에 Intune이 재해 복구를 수행하는 경우, 활성 장치의 일련 번호만이 해당 그룹에 존재하는지 확인해야 합니다.
+  > [!NOTE]
+  > 나중에 회사 소유 장치를 Intune 관리에서 제거하려는 경우, **사전 등록된 회사 장치**에 있는 **iOS 일련 번호 기준** 장치 그룹으로 이동한 후 Intune에서 장치 일련 번호를 제거하여 장치 등록을 사용하지 않도록 설정해야 할 수 있습니다. 일련 번호를 제거할 때 또는 그 전후에 Intune이 재해 복구를 수행하는 경우, 활성 장치의 일련 번호만이 해당 그룹에 존재하는지 확인해야 합니다.
 
 2. **다음**을 선택합니다.
 
@@ -124,7 +125,7 @@ Apple Configurator를 사용하면 iOS 장치를 공장 설정으로 초기화�
 사용할 수 있는 프로필 목록에서 추가된 장치에 할당할 프로필을 지정하고 **등록 프로필 세부 정보**를 클릭한 후 **마침**을 선택합니다. 수동으로 추가한 장치는 모든 등록 프로필에 할당할 수 있습니다.
 
 > [!Important]
-> 현재 Intune에서는 "기본" 장치 등록 프로필을 지정할 수 있으며, Apple DEP 서비스를 사용하여 새 일련 번호를 동기화할 때 새 일련 번호가 자동으로 기본 프로필에 할당됩니다. 곧 테넌트가 새 Azure 포털로 마이그레이션되면 더 이상 기본 프로필을 지정하고 그 프로필에 일련 번호를 자동으로 할당할 수 없습니다. 대신 프로필에 일련 번호를 할당해야 합니다. [자세한 정보](https://docs.microsoft.com/intune-azure/enroll-devices/enroll-ios-devices-using-device-enrollment-program)
+> 현재 Intune에서는 "기본" 장치 등록 프로필을 지정할 수 있으며, Apple 서비스를 사용하여 새 일련 번호를 동기화할 때 새 일련 번호가 자동으로 기본 프로필에 할당됩니다. 곧 테넌트가 새 Azure 포털로 마이그레이션되면 더 이상 기본 프로필을 지정하고 그 프로필에 일련 번호를 자동으로 할당할 수 없습니다. 대신 프로필에 일련 번호를 할당해야 합니다. [자세한 정보](https://docs.microsoft.com/intune-azure/enroll-devices/enroll-ios-devices-using-device-enrollment-program)
 
 ### <a name="export-a-profile-to-deploy-to-ios-devices"></a>iOS 장치에 배포할 프로필 내보내기
 
@@ -132,18 +133,7 @@ Apple Configurator를 사용하면 iOS 장치를 공장 설정으로 초기화�
 
 2. 작업 표시줄에서 **내보내기**를 선택합니다. **프로필 URL**을 복사하고 저장합니다. iOS 장치에서 사용하는 Intune 프로필을 정의하기 위해 나중에 Apple Configurator에서 업로드합니다.
 
-  Apple Configurator 2를 지원하려면 2.0 프로필 URL을 편집해야 합니다. 그렇게 하려면 이 코드를 바꿉니다.
-
-  ```
-  https://manage.microsoft.com/EnrollmentServer/Discovery.svc/iOS/ESProxy?id=
-  ```
-  아래 코드로 바꿉니다.
-
-  ```
-  https://appleconfigurator2.manage.microsoft.com/MDMServiceConfig?id=
-  ```
-
-   다음 절차에서는 Apple Configurator를 사용하여 Apple DEP 서비스에 이 프로필 URL을 업로드하여 iOS 장치에서 사용하는 Intune 프로필을 정의합니다.
+   다음 절차에서는 Apple Configurator를 통해 Apple 서비스에 이 프로필 URL을 업로드하여 iOS 장치에서 사용하는 Intune 프로필을 정의합니다.
 
 ### <a name="prepare-the-device-with-apple-configurator"></a>Apple Configurator를 사용하여 장치 준비
 
@@ -156,7 +146,7 @@ iOS 장치는 Mac 컴퓨터에 연결되고 모바일 장치 관리를 위해 �
 
 2. 기본 설정 창에서 **서버**를 선택하고 더하기 기호(+)를 선택하여 MDM 서버 마법사를 시작합니다. **다음**을 선택합니다.
 
-3. Microsoft Intune을 사용한 iOS 장치용 설정 도우미 등록 아래 6단계에서 MDM 서버에 대한 **이름** 및 **등록 URL**을 입력합니다. 등록 URL에 Intune에서 내보낸 등록 프로필 URL을 입력합니다. **다음**을 선택합니다.  
+3. Microsoft Intune을 사용한 iOS 장치용 설정 도우미 등록 아래 MDM 서버에 대한 **이름** 및 **등록 URL**을 입력합니다. 등록 URL에 Intune에서 내보낸 등록 프로필 URL을 입력합니다. **다음**을 선택합니다.  
 
    "서버 URL이 확인되지 않음"을 알리는 경고는 무시해도 안전합니다. 계속하려면 마법사가 완료될 때까지 **다음**을 선택합니다.
 
@@ -181,8 +171,6 @@ iOS 장치는 Mac 컴퓨터에 연결되고 모바일 장치 관리를 위해 �
 
 이제 장치를 회사에 등록할 준비가 되었습니다. 장치를 끈 다음 사용자에게 배포합니다. 사용자가 장치를 켜면 설정 도우미가 시작됩니다.
 
->[!NOTE]
->사용자가 DEP 장치를 등록하려고 하지만, 장치 제한을 초과한 경우 사용자에게 경고 없이 등록이 자동으로 실패합니다.
 
 
 ### <a name="see-also"></a>참고 항목

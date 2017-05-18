@@ -15,10 +15,10 @@ ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: cce2cd69808937f3e088aa04f6142611a4594895
-ms.openlocfilehash: a9780dd3a951cc074a38061bf67aa5485c1eab68
+ms.sourcegitcommit: 1445c29c9b2b1754bad733096dbc08a76481f85b
+ms.openlocfilehash: e8922fa67381f410194b9db333758a533cecb3c4
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/04/2017
 
 
 ## <a name="overview"></a>개요
-[Intune 앱 SDK Xamarin 구성 요소](https://components.xamarin.com/view/microsoft.intune.mam)는 Xamarin에 내장된 iOS 및 Android 앱의 [Intune 모바일 앱 관리 기능](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)을 사용 설정합니다. 개발자는 구성 요소를 사용하여 Intune 앱 보호 기능을 Xamarin 기반 앱에 손쉽게 빌드할 수 있습니다.
+[Intune 앱 SDK Xamarin 구성 요소](https://components.xamarin.com/view/microsoft.intune.mam)는 Xamarin에 내장된 iOS 및 Android 앱의 [Intune 앱 보호 정책](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)을 사용하도록 설정합니다. 개발자는 구성 요소를 사용하여 Intune 앱 보호 기능을 Xamarin 기반 앱에 손쉽게 빌드할 수 있습니다.
 
 앱의 동작을 변경하지 않고 SDK 기능을 사용하도록 설정할 수 있습니다. 구성 요소를 iOS 또는 Android 모바일 앱에 구성하면 IT 관리자는 다양한 데이터 보호 기능을 지원하는 Microsoft Intune MAM(모바일 응용 프로그램 관리)을 통해 정책을 배포할 수 있게 됩니다.
 
@@ -108,7 +108,7 @@ ms.lasthandoff: 05/04/2017
 Xamarin 기반의 iOS 앱에 구성 요소를 빌드하는 데 필요한 단계를 완료했습니다. Xcode를 사용하여 프로젝트를 빌드하는 경우에는 `Intune App SDK Settings.bundle`을 사용할 수 있습니다. 이렇게 하면 테스트와 디비깅을 위해 프로젝트를 빌드할 Intune 정책 설정을 켜고 끌 수 있습니다. 이 번들을 이용하려면 [iOS용 Intune 앱 SDK 개발자 가이드](intune-app-sdk-ios.md)에 나오는 단계를 따르고 [Xcode에서 디버깅](intune-app-sdk-ios.md#status-result-and-debug-notifications)에 나오는 섹션을 읽어보세요.
 
 ## <a name="enabling-mam-in-your-android-mobile-app"></a>Android 모바일 앱에서 MAM 사용 설정
-UI 프레임워크를 사용하지 않는 Xamarin 기반 Android 앱의 경우에는 [Android용 Intune 앱 SDK 개발자 가이드]를 읽고 따를 필요가 없습니다. Xamarin 기반 Android 앱의 경우에는 클래스, 메서드 및 활동을 가이드에 포함된 [표](intune-app-sdk-android.md#replace-classes-methods-and-activities-with-their-mam-equivalent-required)에 따라 MAM의 그것들로 대체해야 합니다. 앱에서 `android.app.Application` 클래스를 정의하지 않는 경우에는 클래스를 새로 만들고 `MAMApplication`에서 상속해야 합니다.
+UI 프레임워크를 사용하지 않는 Xamarin 기반 Android 앱의 경우에는 [Android용 Intune 앱 SDK 개발자 가이드]를 읽고 따를 필요가 없습니다. Xamarin 기반 Android 앱의 경우에는 클래스, 메서드 및 활동을 가이드에 포함된 [표](intune-app-sdk-android.md#replace-classes-methods-and-activities-with-their-mam-equivalent)에 따라 MAM의 그것들로 대체해야 합니다. 앱에서 `android.app.Application` 클래스를 정의하지 않는 경우에는 클래스를 새로 만들고 `MAMApplication`에서 상속해야 합니다.
 
 Xamarin Forms 및 기타 UI 프레임워크의 경우에는 `MAM.Remapper`라는 도구를 제공합니다. 이 도구는 클래스 대체를 수행합니다. 그러나 다음 단계를 수행해야 합니다.
 

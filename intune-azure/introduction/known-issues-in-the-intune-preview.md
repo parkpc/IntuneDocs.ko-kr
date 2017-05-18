@@ -15,10 +15,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
-ms.openlocfilehash: 08e2f65bcd600489f6599d37e5ef56c205176cd7
-ms.lasthandoff: 04/25/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 90222b10832fd8251ad897348eeebed5b3d1e552
+ms.openlocfilehash: 329d675f2d084cd843a7029060e77c8bca8564af
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/11/2017
 
 
 ---
@@ -43,11 +44,11 @@ Intune에 추가할 새로운 기능을 요청하려면 [Uservoice](https://micr
 
 마이그레이션을 준비하기 위하여 그룹이 Intune에서 Azure AD로 복사됩니다. 클래식 Intune 포털에서 추가적으로 변경한 모든 내용은 Azure AD 그룹에 업데이트됩니다. 그러나 Azure AD에서 변경한 내용은 클래식 Intune 콘솔에 다시 동기화되지 않습니다. 이는 Azure Portal로의 마이그레이션 실패와 마이그레이션 지연이라는 결과를 가져올 수 있습니다.
 
-### <a name="compliance-policies-from-intune-will-not-show-up-in-new-console"></a>Intune의 준수 정책이 새 콘솔에 표시되지 않음 
+### <a name="compliance-policies-from-intune-will-not-show-up-in-new-console"></a>Intune의 준수 정책이 새 콘솔에 표시되지 않음
 
 클래식 Intune 포털에서 만든 모든 규정 준수 정책이 마이그레이션되지만 Azure Portal에 표시되지는 않습니다. 이는 Azure Portal의 디자인이 변경되었기 때문입니다. 클래식 Intune 포털에서 만든 규정 준수 정책이 계속 적용되지만 클래식 포털에서 보고 편집해야 합니다.
 또한 Azure Portal에서 만든 새 규정 준수 정책은 클래식 포털에서는 보이지 않습니다.
-자세한 내용은 [장치 준수](https://docs.microsoft.com/intune-azure/set-device-compliance/what-is-device-compliance)를 참조하세요.
+자세한 내용은 [장치 준수](../set-device-compliance/what-is-device-compliance.md)를 참조하세요.
 
 
 
@@ -58,4 +59,7 @@ Intune에 추가할 새로운 기능을 요청하려면 [Uservoice](https://micr
 
 ### <a name="apple-enrollment-profile-migration"></a>Apple 등록 프로필 마이그레이션
 앞으로 몇 달 후에 Intune은 새 Azure Portal을 통한 Apple 장비 등록 프로그램 및 Apple Configurator 등록 관리를 활성화합니다. Apple 장비 등록 프로그램 토큰을 삭제하고 업데이트된 토큰을 업로드하지 않는 경우 Intune 계정 마이그레이션의 일부로 원래 토큰이 새 Azure Portal에서 복원됩니다. 이 토큰을 제거하고 DEP 등록을 방지하려면 Azure Portal에서 토큰을 삭제하기만 하면 됩니다. 
+
+### <a name="rbac-for-apple-corporate-owned-device-enrollment"></a>Apple 회사 소유 장치 등록에 대한 RBAC
+테넌트 또는 서비스 관리자 Azure AD 역할은 사용자 지정 사용자 역할에 RBAC 권한이 나열되어 있고 사용할 수 있어도 Apple DEP 및 Apple Configurator 등록 작업을 수행해야 합니다. 이러한 기능에 필요한 RBAC 역할 지원이 향후 발표될 예정입니다.
 

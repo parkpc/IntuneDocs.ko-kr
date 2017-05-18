@@ -15,10 +15,11 @@ ms.assetid: c324c74e-e225-40ad-88b7-72a6d9ea09b5
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 9fff350240e4313994056bc5aebf82e204ab3c62
-ms.lasthandoff: 02/18/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 061eae7b0fba54876b820d54cd9cb2e68ee94a33
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 02/18/2017
 
 ## <a name="initial-troubleshooting-steps"></a>초기 문제 해결 단계
 
-문제 해결을 시작하기 전에 등록이 설정되도록 Intune을 올바르게 구성했는지 확인하세요. 각 플랫폼에 대한 등록 단계의 링크는 [Android 및 표준 Knox 장치 등록](/intune-azure/enroll-devices/enroll-android-and-knox-standard-devices.md)을 참조하세요.
+문제 해결을 시작하기 전에 등록이 설정되도록 Intune을 올바르게 구성했는지 확인하세요. 각 플랫폼에 대한 등록 단계의 링크는 [Android 및 표준 Knox 장치 등록](enroll-android-and-knox-standard-devices.md)을 참조하세요.
 
 관리되는 장치 사용자는 여러분이 검토할 등록 및 진단 로그를 수집할 수 있습니다. 로그 수집에 대한 지침은 다음과 같이 제공됩니다.
 
@@ -49,7 +50,7 @@ ms.lasthandoff: 02/18/2017
 
 #### <a name="check-number-of-devices-enrolled-and-allowed"></a>등록된 장치 수와 및 허용된 장치 수 확인
 
-Azure Portal에서 **More Services**(추가 서비스) > **모니터링 + 관리** > **Intune**을 선택합니다. Azure Portal의 Intune 블레이드에서 **장치 등록** > **등록 제한**으로 이동하여 사용자에게 할당된 장치가 허용되는 최대 장치 수(15개) 이하인지 확인합니다.
+Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다. Azure Portal의 Intune 블레이드에서 **장치 등록** > **등록 제한**으로 이동하여 사용자에게 할당된 장치가 허용되는 최대 장치 수(15개) 이하인지 확인합니다.
 
 <!--- Mobile device users can delete devices at the following URL: [https://byodtestservice.azurewebsites.net/](https://byodtestservice.azurewebsites.net/). --->
 
@@ -75,7 +76,7 @@ Azure Portal에서 **More Services**(추가 서비스) > **모니터링 + 관리
 
 > [!NOTE]
 
-> [장치 등록 관리자를 사용하여 장치 등록](/intune-azure/enroll-devices/enroll-devices-using-device-enrollment-manager.md)에 설명된 대로 장치 등록 관리자를 사용하여 장치 등록 최대값에 도달하는 것을 방지할 수 있습니다.
+> [장치 등록 관리자를 사용하여 장치 등록](enroll-devices-using-device-enrollment-manager.md)에 설명된 대로 장치 등록 관리자를 사용하여 장치 등록 최대값에 도달하는 것을 방지할 수 있습니다.
 >
 > 장치 등록 관리자 그룹에 추가된 사용자 계정은 해당 특정 사용자 로그인에 대해 조건부 액세스 정책이 적용되는 경우 등록을 완료할 수 없습니다.
 
@@ -99,7 +100,7 @@ Azure Portal에서 **More Services**(추가 서비스) > **모니터링 + 관리
 
 **해결 방법:**
 
-1.  MDM 기관이 사용 중인 Intune 서비스 유형, 즉 Intune, Office 365 또는 System Center Configuration Manager with Intune에 대해 적절히 설정되었는지 확인합니다. 지침은 [모바일 장치 관리 기관 설정](https://docs.microsoft.com/en-us/intune-azure/enroll-devices/set-mdm-authority)을 참조하세요.
+1.  MDM 기관이 사용 중인 Intune 서비스 유형, 즉 Intune, Office 365 또는 System Center Configuration Manager with Intune에 대해 적절히 설정되었는지 확인합니다. 지침은 [모바일 장치 관리 기관 설정](set-mdm-authority.md)을 참조하세요.
 
     > [!NOTE]
     > MDM 기관을 설정한 후에는 [Microsoft Intune에 대한 지원을 받는 방법](https://docs.microsoft.com/intune/troubleshoot/how-to-get-support-for-microsoft-intune)의 설명에 따라 지원 팀에 연락해야만 변경할 수 있습니다.
@@ -111,7 +112,7 @@ Azure Portal에서 **More Services**(추가 서비스) > **모니터링 + 관리
 
     2.  일치하지 않는 사용자를 **Intune 계정 포털** 사용자 목록에서 삭제합니다.
 
-    3.  Azure 서비스에서 잘못된 데이터를 제거할 수 있도록&1;시간 가량 기다립니다.
+    3.  Azure 서비스에서 잘못된 데이터를 제거할 수 있도록 1시간 가량 기다립니다.
 
     4.  DirSync를 다시 설정하고 이제 사용자가 제대로 동기화되었는지 확인합니다.
 
@@ -141,7 +142,7 @@ Azure Portal에서 **More Services**(추가 서비스) > **모니터링 + 관리
 **문제:** ADFS에 두 번째 확인된 도메인을 추가하는 경우, UPN(사용자 계정 이름) 접미사가 두 번째 도메인인 사용자가 포털에 로그인하거나 장치를 등록할 수 없습니다.
 
 
-**해결 방법:** AD FS 2.0을 통해 SSO(Single Sign-On)를 활용하며, 조직 내에 사용자 UPN 접미사에 대한 최상위 도메인이 여럿인(예: @contoso.com 또는 @fabrikam.com)) Microsoft Office 365 고객은, 각 접미사에 대해 AD FS 2.0 페더레이션 서비스를 개별적으로 배포해야 합니다.  추가적인 AD FS 2.0 서버를 필요로 하지 않고 AD FS 서버가 이 시나리오를 지원할 수 있도록 하는, **SupportMultipleDomain** 스위치와 함께 작동하는 [AD FS 2.0 롤업](http://support.microsoft.com/kb/2607496)이 있습니다. 자세한 정보는 [이 블로그](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/)를 참조하세요.
+**해결 방법:** AD FS 2.0을 통해 SSO(Single Sign-On)를 활용하며, 조직 내에 사용자 UPN 접미사에 대한 최상위 도메인이 여럿인(예: @contoso.com 또는 @fabrikam.com) Microsoft Office 365 고객은, 각 접미사에 대해 AD FS 2.0 페더레이션 서비스를 개별적으로 배포해야 합니다.  추가적인 AD FS 2.0 서버를 필요로 하지 않고 AD FS 서버가 이 시나리오를 지원할 수 있도록 하는, **SupportMultipleDomain** 스위치와 함께 작동하는 [AD FS 2.0 롤업](http://support.microsoft.com/kb/2607496)이 있습니다. 자세한 정보는 [이 블로그](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/)를 참조하세요.
 
 
 ## <a name="android-issues"></a>Android 문제
@@ -165,7 +166,7 @@ Azure Portal에서 **More Services**(추가 서비스) > **모니터링 + 관리
 
 사용자에게 Android 6.0으로 업그레이드해 보도록 요청합니다. Android 6.0 장치에서는 비활성화 문제가 발생하지 않습니다. 업데이트를 사용할 수 있는지 확인하려면 **설정** > **장치 정보** > **수동으로 업데이트 다운로드**로 이동하고 장치에 표시되는 메시지를 따릅니다.
 
-** 3:**
+ **3:**
 
 해결 방법 2로 해결되지 않으면 사용자에게 다음 단계에 따라 Smart Manager에서 회사 포털 앱을 제외하도록 설정하라고 요청합니다.
 
@@ -349,7 +350,7 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
 **해결 방법:**
 
-1.. **시작** 메뉴에서 **실행** -> **MMC**를 입력합니다.
+1. **시작** 메뉴에서 **실행** -> **MMC**를 입력합니다.
 1. **파일** > **스냅인 추가/제거**를 선택합니다.
 1. **인증서**를 두 번 클릭하고 **컴퓨터 계정** > **다음**을 선택한 후 **로컬 컴퓨터**를 선택합니다.
 1. **인증서(로컬 컴퓨터)**를 두 번 클릭하고 **개인/인증서**를 선택합니다.
@@ -381,7 +382,7 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 |0x80043008, 0x80CF3008|Microsoft Online Management Updates 서비스를 시작하지 못했습니다.|[Microsoft Intune에 대한 지원을 받는 방법](https://docs.microsoft.com/intune/troubleshoot/how-to-get-support-for-microsoft-intune)의 설명에 따라 Microsoft 지원에 문의합니다.|
 |0x80043009, 0x80CF3009|클라이언트 컴퓨터가 이미 서비스에 등록되어 있습니다.|클라이언트 컴퓨터를 서비스에 다시 등록하기 전에 사용 중지해야 합니다.|
 |0x8004300B, 0x80CF300B|클라이언트를 실행 중인 Windows 버전이 지원되지 않으므로 클라이언트 소프트웨어 설치 패키지를 실행할 수 없습니다.|Intune에서 클라이언트 컴퓨터에서 실행 중인 Windows 버전을 지원하지 않습니다.|
-|0xAB2|Windows Installer에서 사용자 지정 작업에 대한 VBScript 런타임에 액세스할 수 없습니다.|이 오류는 DLL(동적 연결 라이브러리)에 기반한 사용자 지정 작업으로 인해 발생합니다. DLL 문제를 해결하려면 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues(Microsoft 지원 기술 자료&19803;8: 패키지 및 배포 문제에 유용한 도구)](https://support.microsoft.com/en-us/kb/198038)에 설명된 도구를 사용해야 할 수 있습니다.|
+|0xAB2|Windows Installer에서 사용자 지정 작업에 대한 VBScript 런타임에 액세스할 수 없습니다.|이 오류는 DLL(동적 연결 라이브러리)에 기반한 사용자 지정 작업으로 인해 발생합니다. DLL 문제를 해결하려면 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues(Microsoft 지원 기술 자료 198038: 패키지 및 배포 문제에 유용한 도구)](https://support.microsoft.com/en-us/kb/198038)에 설명된 도구를 사용해야 할 수 있습니다.|
 |0x80cf0440|서비스 끝점에 대한 연결이 종료되었습니다.|평가판 또는 유료 계정 일시 중단되었습니다. 새 평가판 또는 유료 계정을 만들고 다시 등록합니다.|
 
 

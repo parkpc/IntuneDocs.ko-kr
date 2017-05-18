@@ -13,10 +13,11 @@ ms.technology:
 ms.assetid: 0053e37a-f26e-452f-9524-5039a635b52e
 ms.reviewer: damionw
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
-ms.openlocfilehash: dfe63ba7e1825db8d8b6b1e74c442b125ccafd46
-ms.lasthandoff: 04/19/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 529a3e91e1f86129de77df0529f48a42f86a6521
+ms.openlocfilehash: 3c7d92c89c74a665c02fd64a66255beb08dcfb50
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/11/2017
 
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Windows 장치에 대한 대량 등록
@@ -47,7 +48,7 @@ Windows 장치에 대한 대량 등록 작업에는 다음이 필요합니다.
   - **프로젝트 폴더** - 새 프로젝트를 저장할 위치
   - **설명** - 프로젝트에 대한 설명(옵션) ![Windows 구성 디자이너 앱에서 프로젝트 폴더 이름과 설명을 지정하는 스크린샷](../media/bulk-enroll-name.png)
 
-4.    장치에 대한 고유한 이름을 입력합니다. 이름에는 일련 번호(%%SERIAL%%) 또는 임의의 문자 집합이 포함될 수 있습니다. 필요에 따라 Windows 버전을 업그레이드하는 경우 제품 키를 입력하고, 공유용 장치를 구성하고, 사전 설치된 소프트웨어를 제거할 수도 있습니다.
+4.    장치에 대한 고유한 이름을 입력합니다. 이름에는 일련 번호(%%SERIAL%%) 또는 임의의 문자 집합이 포함될 수 있습니다. 필요에 따라 Windows 버전을 업그레이드하는 경우 제품 키를 입력하고, 공유용 장치를 구성하고, 사전 설치된 소프트웨어를 제거할 수도 있습니다.<BR>
 ![Windows 구성 디자이너 앱에서 이름, 프로젝트 폴더 및 설명을 지정하는 스크린샷](../media/bulk-enroll-device.png)
 
 5.    필요에 따라 장치를 처음 시작할 때 연결할 Wi-Fi 네트워크 장치를 구성할 수 있습니다.  구성되지 않는 경우에는 장치를 처음 시작할 때 유선 네트워크 연결이 필요합니다.
