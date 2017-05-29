@@ -14,9 +14,11 @@ ms.assetid: 60347012-bc3f-4b9a-a4f4-6d3c5021a6e6
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: c3394663b234ada70f724b750dfdffc8369cb203
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 2c1b4876e92e64912f237560b346aedceb0771c5
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -52,9 +54,4 @@ Intune은 앱의 데이터를 보호하는 데 도움이 되는 많은 방법을
 ## <a name="retire"></a>사용 중지
 
 결국 배포한 앱이 만료되어 제거해야 할 가능성이 높습니다. Intune을 사용하면 [서비스에서 앱을 쉽게 사용 중지](retire-apps-using-microsoft-intune.md)할 수 있습니다.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

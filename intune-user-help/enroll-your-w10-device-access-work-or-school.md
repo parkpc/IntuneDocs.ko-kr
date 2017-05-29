@@ -1,11 +1,11 @@
 ---
 title: "Intune에서 Windows 10 장치 등록 | Microsoft 문서"
-description: "Windows 10 1607 장치를 Intune에 등록"
+description: "Windows 10 1607 이상의 장치를 Intune에 등록"
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 04/18/2017
+ms.date: 05/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,21 +17,30 @@ ROBOTS:
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 10c7bc5461c746ab50e83c2ffc590b89efe75e5f
-ms.openlocfilehash: 5cf93d5f29e7fa3b989b1a00070d620e06f720c4
-ms.lasthandoff: 03/13/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: aa12a88cfd80f62e2f7b249b52333bd16cbb6533
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
 
 # <a name="enroll-your-windows-10-device-in-intune"></a>Intune에서 Windows 10 장치 등록
 
+> [!NOTE]
+> Windows 10은 모든 유형의 장치에서 작동합니다. 데스크톱, 휴대폰 또는 태블릿에 따라 이 페이지의 그림과 다소 다르더라도 모두 동일한 단계를 따르면 됩니다.
+
 <iframe src="https://channel9.msdn.com/Series/IntuneEnrollment/Windows-Enrollment/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
 
-1.  **시작 메뉴**로 이동한 다음 **설정** 단추를 선택하여 Windows **설정** 앱을 엽니다. 검색 표시줄에서 "설정"을 검색할 수도 있습니다.
+1. **시작**으로 이동합니다.
 
-2. **계정** > **회사 또는 학교 액세스** > **연결**을 선택합니다.
+  - **Windows 10 데스크톱** 장치를 사용하는 경우 **시작 메뉴**로 이동합니다.
+  - **Windows 10 Mobile** 장치를 사용하는 경우 **시작 화면**으로 가서 살짝 밀면 **모든 앱** 목록이 표시됩니다.
+
+2.  검색 창에서 "설정"을 검색하여 Windows **설정** 앱을 엽니다.
+
+3. **계정** > **회사 또는 학교 액세스** > **연결**을 선택합니다.
 
     ![회사 또는 학교 계정 액세스 선택](./media/w10-enroll-rs1-connect-to-work-or-school.png)
 

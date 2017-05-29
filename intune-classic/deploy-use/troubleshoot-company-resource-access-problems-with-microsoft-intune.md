@@ -2,8 +2,8 @@
 title: "회사 리소스 액세스 문제 해결 | Microsoft 문서"
 description: "이 항목의 오류 및 상태 코드는 리소스 액세스 문제를 해결하는 데 도움이 됩니다."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 10/06/2016
 ms.topic: article
@@ -14,9 +14,11 @@ ms.assetid: 40622ced-6029-4abf-873e-b51d2b51934c
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: dd1ada2bf6505552e7dbf8b185c929fa4e40104c
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 9956d92c5d1b294c4ccf04ebecd15cdb59794c90
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -374,9 +376,4 @@ Microsoft Intune 작업이 오류 코드를 반환하는 경우, 문제 해결�
 
 ### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](../troubleshoot/how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

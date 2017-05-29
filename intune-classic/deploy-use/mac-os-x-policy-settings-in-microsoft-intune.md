@@ -14,10 +14,11 @@ ms.assetid: 98b2f19b-bee8-42d7-a215-a716d56a25a3
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 58dc1d872e7e12978652542d80061dd7ed86aeb2
-ms.lasthandoff: 12/30/2016
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 176f4343030c242d928aaeb486dfad78e1058644
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -62,8 +63,8 @@ Microsoft Intune **Mac OS X 일반 구성 정책**을 사용하여 다음 설정
 
 |설정 이름|세부 정보|
 |----------------|---------------|
-|**사용자가 나열된 앱을 설치할 때 비호환성 보고**|사용자가 설치할 수 없는 Mac OS X 앱의 목록이 표시됩니다. 사용자가 이러한 앱을 설치하면 **앱 보고서**에 해당 내용이 보고됩니다.|
-|**사용자가 나열되지 않은 앱을 설치할 때 비호환성 보고**|사용자가 설치할 수 있는 Mac OS X 앱의 목록이 표시됩니다. 사용자가 다른 앱을 설치하면 **앱 보고서**에 해당 내용이 보고됩니다.|
+|**사용자가 나열된 앱을 설치할 때 비호환성 보고**|사용자가 설치할 수 없는 Mac OS X 앱의 목록이 표시됩니다. 사용자가 이러한 앱을 설치하면  **앱 보고서**에 해당 내용이 보고됩니다.|
+|**사용자가 나열되지 않은 앱을 설치할 때 비호환성 보고**|사용자가 설치할 수 있는 Mac OS X 앱의 목록이 표시됩니다. 사용자가 다른 앱을 설치하면  **앱 보고서**에 해당 내용이 보고됩니다.|
 |**추가**|앱을 선택한 목록에 추가합니다. 원하는 이름, 앱 게시자(선택 사항) 및 앱의 번들 ID를 지정합니다. **팁:** 앱의 번들 ID를 찾으려면 앱이 설치된 Mac 컴퓨터에서 아래 단계를 수행합니다.<ol><li>앱이 설치되어 있는 폴더(예: **/Applications**)를 엽니다.</li><li>*&lt;앱 이름&gt;***.app** 번들을 선택하고 **패키지 내용 표시**를 선택합니다.</li><li>**Info.plist** 파일을 엽니다.</li><li>**CFBundleIdentifier** 키와 연결된 값을 확인합니다.</li></ol>번들 ID의 형식은 **com.contoso.appname**입니다.|
 |**앱 가져오기**|지정한 앱 목록을 쉼표로 구분된 값 파일로 가져옵니다. 파일에서 앱 이름, 게시자, 앱 번들 ID 형식을 사용합니다.|
 |**편집**|선택한 앱의 이름, 게시자 및 앱 번들 ID를 편집합니다.|
@@ -75,7 +76,7 @@ Microsoft Intune **Mac OS X 일반 구성 정책**을 사용하여 다음 설정
 > Mac OS X 장치가 절전 모드이면 정책과 프로필을 전달하거나 인벤토리에 추가할 수 없습니다. 따라서 다음번에 장치를 절전 모드에서 해제할 때까지 Intune 콘솔에 **오류가 있는 정책 설정** 상태가 일시적으로 표시될 수도 있습니다.
 
 ### <a name="monitor-compliant-and-noncompliant-apps"></a>규격 및 비규격 앱 모니터링
-**앱 보고서**를 사용하여 지정한 앱의 규정 준수 여부를 확인할 수 있습니다.
+ **앱 보고서**를 사용하여 지정한 앱의 규정 준수 여부를 확인할 수 있습니다.
 
 #### <a name="to-run-a-report"></a>보고서를 실행하려면
 

@@ -14,9 +14,11 @@ ms.assetid: 86fbe736-7bdb-4f5e-ae21-13c91eb2462c
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: db76786da0428b0e064f2091089653244d90ee2a
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: adebcc5a8d8f43bed383b51bb094fa122ebabc0a
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -52,9 +54,4 @@ iPhone 및 iPad에 배포된 Apple iOS LOB(기간 업무) 앱은 포함된 프�
     - **구성 프로필 파일** - **가져오기**를 클릭하고 Apple 개발자 웹 사이트에서 다운로드한 Apple 모바일 구성 프로필 파일(확장명 **.mobileprovision**)을 선택합니다.
 4. 작업이 끝나면 **정책 저장**을 선택합니다.
 5. 이제 필요한 iOS 장치에 정책을 배포합니다. 자세한 내용은 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md) 항목을 참조하세요.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

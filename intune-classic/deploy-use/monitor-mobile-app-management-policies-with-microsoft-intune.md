@@ -14,10 +14,11 @@ ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: fbb41a8cf6fada76b72213b8cb04fdc0428515e9
-ms.openlocfilehash: 96c25307c4060a8872ba4f6de47992c4d9f9dd85
-ms.lasthandoff: 02/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: d80632aceaa675f08eb4b23ce59e3bcabb72b4d0
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -91,7 +92,7 @@ ms.lasthandoff: 02/14/2017
 
 상세 보기에서 동일한 보고서와 추가 보고서를 통하여 앱 보호 정책 준수 상태를 확인할 수 있습니다.
 
-![스크린샷&4;](../media/MAM-reporting-7.png)
+![스크린샷 4](../media/MAM-reporting-7.png)
 
 -   **앱 보호 사용자 보고서:** 위 상세 보기 섹션의 **사용자 상태** 보고서에서 찾을 수 있는 정보와 동일한 내용에 대해 간략하게 설명합니다.
 
@@ -107,7 +108,7 @@ ms.lasthandoff: 02/14/2017
 
         -   모든 앱이 체크 인되었으나 앱 보호 정책을 가져오지 않습니다.
 
-![스크린샷&2;](../media/MAM-reporting-4.png)
+![스크린샷 2](../media/MAM-reporting-4.png)
 
 ## <a name="table-grouping"></a>테이블 그룹화
 
@@ -124,11 +125,11 @@ ms.lasthandoff: 02/14/2017
 
 1. Intune 모바일 응용 프로그램 관리 블레이드에서 앱 보호 보고서를 선택합니다.
 
-    ![스크린샷&6;](../media/app-protection-report-csv-2.png)
+    ![스크린샷 6](../media/app-protection-report-csv-2.png)
 
 2. 예를 선택하여 보고서를 저장한 다음 다른 이름으로 저장을 선택하고 보고서를 저장할 폴더를 선택합니다.
 
-    ![스크린샷&7;](../media/app-protection-report-csv-1.png)
+    ![스크린샷 7](../media/app-protection-report-csv-1.png)
 
 ## <a name="see-also"></a>참고 항목
 [iOS 앱 간의 데이터 전송 관리](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)

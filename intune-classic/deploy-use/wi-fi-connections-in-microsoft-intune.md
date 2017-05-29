@@ -2,8 +2,8 @@
 title: "Wi-Fi 연결 | Microsoft 문서"
 description: "Wi-Fi 프로필을 통해 사용자의 Wi-Fi 네트워크 연결을 지원하는 방법을 설명합니다."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 02/03/2017
 ms.topic: article
@@ -14,9 +14,11 @@ ms.assetid: 0b1b86ed-2e80-474d-8437-17dd4bc07b55
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 985b3d14091f1adff15ae08dd95800640363d2f2
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 65fe17c42921d2c53153dca386ea40b9dea47d04
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -179,9 +181,4 @@ Windows에서는 **netsh wlan** 유틸리티를 사용하여 기존 Wi-Fi 프로
 
 ### <a name="see-also"></a>참고 항목
 [미리 공유한 키 Wi-Fi 프로필](pre-shared-key-wi-fi-profile.md)에서 미리 공유한 키를 사용하여 Wi-Fi 프로필을 만드는 방법을 알아보세요.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

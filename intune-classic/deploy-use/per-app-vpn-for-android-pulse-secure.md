@@ -14,9 +14,11 @@ ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: b268bb16b7fc7e38021441bb16517e754b5e395f
-ms.openlocfilehash: 4a52d714d47a0b3af56be6eb5096fffae160e435
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 6786ac87c34e913ba71cd203f431f746df816459
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -78,9 +80,4 @@ Android 장치 또는 사용자 그룹에 정책을 배포한 후에 사용자�
     -   **정책을 배포하지 않고 대화 상자를 닫으려면** **취소**를 선택합니다.
 
 **정책** 작업 영역의 **개요** 페이지에 있는 상태 요약 및 경고는 주의가 필요한 정책 문제를 식별합니다. 상태 요약은 **대시보드** 작업 영역에도 표시됩니다.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

@@ -2,8 +2,3 @@
 |--|
 |이 항목은 클래식 포털의 Intune 및 Azure 포털 미리 보기의 Intune 모두에 적용됩니다.|
 | |
-
-
-<!--HONumber=Jan17_HO2-->
-
-

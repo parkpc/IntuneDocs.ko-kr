@@ -14,9 +14,11 @@ ms.assetid: 5daad56d-71c8-455b-8a55-f8b33e279a8a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: ee0d10f9b86b1122d0f16568b71b087c341e88df
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 808268faa797d8576f5fb693d9940d97d17abf21
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -47,9 +49,4 @@ Intune 관리 콘솔에서 관리하는 앱 및 배포 상태를 확인할 수 �
 앱의 **소프트웨어 속성** 페이지에서 다음 탭 중 하나를 선택합니다. **일반** - 앱 및 앱의 설치 상태에 대한 일반 정보를 보여 줍니다. **장치** - 앱의 대상 배포를 성공적으로 설치한 장치를 보여 줍니다. **사용자** - 앱의 대상 배포를 성공적으로 설치한 장치의 사용자를 보여 줍니다.
 
 앞에서 설명한 것처럼 **필터** 드롭다운 목록을 사용하여 각 탭에 표시되는 값을 구성할 수 있습니다.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

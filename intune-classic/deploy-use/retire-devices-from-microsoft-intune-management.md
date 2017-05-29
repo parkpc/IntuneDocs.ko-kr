@@ -14,10 +14,11 @@ ms.assetid: 3dbec400-5d8a-47be-b892-7745811d9de2
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 00e9dfd165a449182c5b937372db7085c981c68f
-ms.openlocfilehash: cca12024ba12cff5cdb8c515f7719a7592ba97ea
-ms.lasthandoff: 02/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 88a18975049158ca632d51796e8b4022c42dff94
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -63,7 +64,7 @@ ms.lasthandoff: 02/14/2017
 
 7.  **장치**를 선택합니다.
 
-8.  적합한 장치를 선택하고 **장치 삭제**를 선택합니다. 장치는 다음번에 Active Directory와 동기화될 때 삭제됩니다. 이 과정은 대개&4;시간 이내에 진행됩니다. 동기화 후 장치는 관리에서 제거됩니다. 그러면 이 사용자에 대한 장치 제한에서 장치 하나가 제거됩니다.
+8.  적합한 장치를 선택하고 **장치 삭제**를 선택합니다. 장치는 다음번에 Active Directory와 동기화될 때 삭제됩니다. 이 과정은 대개 4시간 이내에 진행됩니다. 동기화 후 장치는 관리에서 제거됩니다. 그러면 이 사용자에 대한 장치 제한에서 장치 하나가 제거됩니다.
 
 ## <a name="retire-managed-computers"></a>관리되는 컴퓨터 사용 중지
 Intune 클라이언트 소프트웨어로 관리되는 컴퓨터는 Intune 관리 콘솔의 관리에서 제거될 수 있습니다. 이렇게 제거할 경우 컴퓨터에서 클라이언트 소프트웨어도 제거되고 Intune 정책이 삭제됩니다. [Intune 클라이언트 소프트웨어로 관리되는 컴퓨터 사용 중지](retire-a-windows-pc-with-microsoft-intune.md)에 대한 정보를 참조하세요.
