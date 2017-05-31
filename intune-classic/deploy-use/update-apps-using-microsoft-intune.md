@@ -14,9 +14,11 @@ ms.assetid: beee6933-876a-4be0-b395-4c24cfbd519b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 824605544487c987c8726e0efe91d06a597fadb2
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 512f19a1e894479404d25d2500b0db79ba0882cf
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -60,9 +62,4 @@ Microsoft Intune은 앱 업데이트를 관리하는 데 유용합니다. 이 �
 앱 패키지(기간 업무 앱)에서 설치된 앱의 경우 필수 및 사용 가능한 배포 둘 다에 대해 앱이 업그레이드되며 동일한 식별자를 갖습니다.
 
 스토어에 링크로 배포된 앱의 경우 앱이 시작된 스토어에서 업데이트가 관리됩니다.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/20/2016
+ms.date: 05/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,10 +17,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 10c7bc5461c746ab50e83c2ffc590b89efe75e5f
-ms.openlocfilehash: e83299392fc516ed2b11248f28341403419d6758
-ms.lasthandoff: 03/13/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 05b290345c761372850fb501a3707dbd53a3ef07
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -94,8 +95,8 @@ Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계�
 
    단추는 동기화가 완료될 때까지 회색으로 표시됩니다.
 
-   ## <a name="windows-10-mobile"></a>Windows 10 Mobile
-   느린 앱 설치 속도를 높이기 위해 Windows 10 모바일 장치를 수동으로 동기화하려면:
+### <a name="windows-10-mobile"></a>Windows 10 Mobile
+느린 앱 설치 속도를 높이기 위해 Windows 10 모바일 장치를 수동으로 동기화하려면:
 
    1. **모든 앱** > **설정** > **계정**으로 이동합니다.
 

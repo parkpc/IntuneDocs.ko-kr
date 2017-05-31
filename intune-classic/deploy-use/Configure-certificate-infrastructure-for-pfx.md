@@ -2,8 +2,8 @@
 title: "PFX 인증서 인프라 구성 | Microsoft 문서"
 description: ".PFX 인증서 프로필을 만들고 배포합니다."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 11/17/2016
 ms.topic: article
@@ -14,10 +14,11 @@ ms.assetid: 2c543a02-44a5-4964-8000-a45e3bf2cc69
 ms.reviewer: vinaybha
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 12773352970deeacf30b1336a4e560e08b400ee3
-ms.lasthandoff: 12/10/2016
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: d2e3d25111c35bff814923f4824a1c8bda3677ec
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 
@@ -103,7 +104,7 @@ ms.lasthandoff: 12/10/2016
 
 3.  발급 CA에서 인증 기관 스냅인을 사용하여 인증서 템플릿을 게시합니다.
 
-    a.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기** &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
+    a.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기**  &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
 
     b.  **인증서 템플릿** 폴더에서 게시된 템플릿을 확인하여 유효성을 검사합니다.
 

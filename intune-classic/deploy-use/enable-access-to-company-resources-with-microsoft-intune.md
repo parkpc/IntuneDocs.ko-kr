@@ -2,8 +2,8 @@
 title: "회사 리소스에 대한 액세스 허용 | Microsoft 문서"
 description: "Wi-Fi, VPN 및 전자 메일 프로필은 함께 작동하여 사용자에게 필요한 파일 및 리소스에 쉽게 액세스할 수 있게 해줍니다."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 11/02/2016
 ms.topic: article
@@ -14,9 +14,11 @@ ms.assetid: 3dd8dd4e-e165-4d0c-97b7-b3e86ebab909
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: bda32f27216c7b65bd02334bae2882e840e7a99d
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 5e336e72b66cf997f8808f0acc79bbebacad26d1
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -58,9 +60,4 @@ VPN(가상 사설망) 설정을 사용자에게 배포합니다. 이러한 설�
 |Windows 8.1 이상|Windows Phone 8.1 이상|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
 |예|예|예|예|예|
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 
