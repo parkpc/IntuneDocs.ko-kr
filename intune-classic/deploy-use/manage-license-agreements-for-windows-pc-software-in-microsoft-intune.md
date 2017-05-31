@@ -14,9 +14,11 @@ ms.assetid: c59d8635-3f66-40f5-824a-a71c738e0341
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 47c923cf145a7783a1bc2222442831fcbc0f6a47
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 18fbeb0e5bbf46795a02590a8dce205342a3a357
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -179,9 +181,4 @@ Microsoft 볼륨 라이선싱 계약 외에 다른 유형의 사용권 계약을
 |라이선스 그룹 이름 바꾸기|**라이선스** 작업 영역에서 라이선스 그룹을 선택한 다음 **작업** 메뉴에서 **라이선스 그룹 편집**을 선택합니다.|
 |라이선스 그룹 삭제|**라이선스** 작업 영역에서 라이선스 그룹을 선택한 다음 **작업** 메뉴에서 **라이선스 그룹 삭제**를 선택합니다. **팁:** 삭제된 그룹의 모든 라이선스가 **할당되지 않은 계약** 라이선스 그룹으로 이동됩니다.|
 |사용권 계약 삭제|**라이선스** 작업 영역에서 계약을 선택한 다음 **삭제**를 선택합니다. **팁:** 볼륨 라이선스 계약을 삭제한 후 라이선스 정보를 업데이트하려면 **라이선스 개요** 페이지 또는 특정 라이선스 그룹의 **일반** 탭에서 **지금 새로 고침**을 선택합니다.|
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

@@ -14,9 +14,11 @@ ms.assetid: f5b1f1ae-f177-450a-9af9-936a02d052e3
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 18f200ca30cfcd4c9fb00519c149f48e9b9fa8cb
-ms.openlocfilehash: b566b13f8c93c8a6bddccdbc0da5eb508907dac2
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 87d8af0c3e014a6c8bcf2cda72bc6815143c34a9
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -103,9 +105,4 @@ Intune 소프트웨어 게시자를 사용하여 앱 속성을 구성한 다음 
 ## <a name="next-steps"></a>다음 단계
 
 앱을 만들면 다음 단계는 배포입니다. 자세한 내용은 [Microsoft Intune에서 앱 배포](deploy-apps.md)를 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

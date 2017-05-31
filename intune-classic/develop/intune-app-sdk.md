@@ -13,9 +13,11 @@ ms.assetid: cd9f05e7-26e6-45e0-8d38-67d8232b1cae
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: a2e43444bff3b189c1516c6ca7131771035313ea
-ms.openlocfilehash: a967758387e9904eb9ce794b3783e777322c83a7
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 7944b6e16e72b781bb2f9101623deb1ce484fa46
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -70,9 +72,4 @@ IT 관리자가 최종 사용자가 앱에 액세스하기 전에 장치 상태 
 개인 장치가 있는 많은 사용자는 MDM(모바일 장치 관리) 공급자에 개인 장치를 등록하지 않고 회사 데이터에 액세스하여 사용할 수 있기를 원합니다. MDM 등록 시 장치에 대한 전역 제어를 요구하므로 사용자는 대개 개인 장치에 대한 제어를 회사에 부여하는 것을 주저합니다.
 
 장치 등록이 제외된 앱 보호를 사용하면 Microsoft Intune 서비스가 장치 관리 채널을 통해 정책을 배포하지 않고 직접 앱 보호 정책을 앱에 배포할 수 있습니다.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 
