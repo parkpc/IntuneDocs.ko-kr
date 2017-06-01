@@ -80,8 +80,7 @@ Intune 앱 SDK는 외부 종속성이 없는 표준 Android 라이브러리입�
 Azure ADAL(Active Directory Authentication Libraries)에는 고유 ProGuard 제한 사항이 있습니다. 앱에서 ADAL을 통합하는 경우 이러한 제한 사항에 대한 ADAL 문서를 따라야 합니다.
 
 ### <a name="entry-points"></a>진입점
-조정된 인증을 수행하려면 [ADAL](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/)(=======
-Azure Active Directory Authentication Library)에 이러한 권한이 필요합니다. 이러한 사용 권한이 앱에 부여되지 않거나 사용자에 의해 취소될 경우 브로커(회사 포털 앱)가 필요한 인증 흐름을 사용할 수 없습니다.
+======= 조정된 인증을 수행하려면 Azure [ADAL](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/)(Active Directory Authentication Library)에 이러한 권한이 필요합니다. 이러한 사용 권한이 앱에 부여되지 않거나 사용자에 의해 취소될 경우 브로커(회사 포털 앱)가 필요한 인증 흐름을 사용할 수 없습니다.
 
 Intune 앱 SDK가 작동하려면 앱 보호 정책을 사용하도록 Intune 앱의 소스 코드를 변경해야 합니다. 이렇게 하려면 Android 기본 클래스를 이름에 접두사 **MAM**이 포함된 동등한 Intune 기본 클래스와 바꿉니다. SDK 클래스는 Android 기본 클래스와 앱에서 파생된 고유 버전의 Android 기본 클래스 사이에 존재합니다. 활동의 예를 살펴보자면, `Activity` > `MAMActivity` > `AppSpecificActivity`와 같은 상속 계층이 생성됩니다.
 
