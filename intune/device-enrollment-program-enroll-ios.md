@@ -55,7 +55,7 @@ DEP를 사용하여 회사 소유의 iOS 장치를 관리하려면 조직이 App
 2. **공개 키 다운로드**를 선택하여 암호화 키(.pem) 파일을 다운로드하고 로컬로 저장합니다. .pem 파일은 Apple 장치 등록 프로그램 포털에서 트러스트 관계 인증서를 요청하는 데 사용됩니다.
 
 **2단계. 적절한 Apple 웹 사이트에서 Apple DEP 토큰을 다운로드합니다.**<br>
-[Apple 배포 프로그램을 통해 DEP 토큰 만들기](https://deploy.apple.com)(https://deploy.apple.com)를 선택하고 회사 Apple ID로 로그인합니다. 이 Apple ID를 사용하여 DEP 토큰을 갱신할 수 있습니다.
+[Apple 배포 프로그램을 통해 DEP 토큰 만들기](https://deploy.apple.com) (https://deploy.apple.com) 를 선택하고 회사 Apple ID로 로그인합니다. 이 Apple ID를 사용하여 DEP 토큰을 갱신할 수 있습니다.
 
    1.  Apple의 [장비 등록 프로그램 포털](https://deploy.apple.com)에서 **장비 등록 프로그램** &gt; **서버 관리**로 이동한 후 **MDM 서버 추가**를 선택합니다.
    2.  **MDM 서버 이름**을 입력하고 **다음**을 선택합니다. 서버 이름은 참조용으로 MDM(모바일 장치 관리) 서버를 식별하기 위한 것으로, Microsoft Intune 서버의 이름 또는 URL이 아닙니다.
