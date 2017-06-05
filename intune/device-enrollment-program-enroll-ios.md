@@ -117,7 +117,7 @@ DEP를 사용하여 회사 소유의 iOS 장치를 관리하려면 조직이 App
 ## <a name="assign-apple-dep-serial-numbers-to-your-mdm-server"></a>MDM 서버에 Apple DEP 일련 번호 할당
 Intune에서 이러한 장치를 관리할 수 있도록 Apple DEP 웹 포털에서 Intune MDM 서버에 장치 일련 번호를 할당해야 합니다.
 
-1. [장치 등록 프로그램 포털](https://deploy.apple.com)(https://deploy.apple.com)로 이동한 다음 회사 Apple ID로 로그인합니다.
+1. [장치 등록 프로그램 포털](https://deploy.apple.com) (https://deploy.apple.com)로 이동한 다음 회사 Apple ID로 로그인합니다.
 
 2. **배포 프로그램** &gt; **장치 등록 프로그램** &gt; **장치 관리**로 이동합니다.
 
