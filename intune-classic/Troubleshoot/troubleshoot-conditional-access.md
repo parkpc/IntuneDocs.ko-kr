@@ -127,7 +127,7 @@ Exchange Connector 로그를 보려면 [서버 추적 뷰어 도구](https://msd
 
 #### <a name="locating-sync-logs"></a>동기화 로그 찾기
 
--    **전체 동기화**를 검색하여 로그에서 전체 동기화를 찾습니다. 전체 동기화의 시작 부분에 다음 텍스트가 표시됩니다.
+-    **full sync**를 검색하여 로그에서 전체 동기화를 찾습니다. 전체 동기화의 시작 부분에 다음 텍스트가 표시됩니다.
 
     '명령 처리 중: 시간 필터(전체 동기화)를 사용하지 않고 <number>명의 사용자에 대한 모바일 장치 목록을 가져오고 있습니다.
 
@@ -135,7 +135,7 @@ Exchange Connector 로그를 보려면 [서버 추적 뷰어 도구](https://msd
 
     시간 필터(전체 동기화)를 사용하지 않고 4명의 사용자에 대한 모바일 장치 목록을 가져왔습니다. 세부 사항: 인벤토리 명령 결과 - 동기화된 장치: 0 명령 ID: commandIDGUID' Exchange 상태: '서버 상태 '이름: 'PowerShellExchangeServer: <Name=mymailservername>' 상태: 연결됨','
 
--    **빠른 동기화**를 검색하여 로그에서 빠른(델타) 동기화를 찾습니다.
+-    **quick sync**를 검색하여 로그에서 빠른(델타) 동기화를 찾습니다.
 
 ##### <a name="exceptions-in-get-next-command"></a>Get next 명령 예외
 Exchange Connector 로그에서 **Get next 명령**의 예외를 확인하고 이 예외를 Microsoft 지원 서비스에 제공합니다.
