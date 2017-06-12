@@ -25,7 +25,7 @@ ms.lasthandoff: 05/23/2017
 ---
 
 # <a name="what-to-expect-when-your-ios-app-is-managed-by-app-protection-policies"></a>iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황
-[!INCLUDE[azure_preview](./includes/azure_preview.md)] 이 항목에서는 앱 보호 정책이 적용되는 앱에 대한 사용자 환경을 설명합니다. 앱 보호 정책은 회사 계정을 사용하여 앱에 액세스하거나 회사의 OneDrive 비즈니스 위치에 저장된 파일에 액세스하는 경우처럼 앱이 업무용으로 사용될 때만 적용됩니다.
+[!INCLUDE[azure_preview](./includes/azure_preview.md)]이 항목에서는 앱 보호 정책이 적용되는 앱에 대한 사용자 환경을 설명합니다. 앱 보호 정책은 회사 계정을 사용하여 앱에 액세스하거나 회사의 OneDrive 비즈니스 위치에 저장된 파일에 액세스하는 경우처럼 앱이 업무용으로 사용될 때만 적용됩니다.
 ##  <a name="accessing-apps"></a>앱 액세스
 
 장치가 **Intune에 등록되지 않은** 경우 최종 사용자는 앱을 처음 사용할 때 앱을 다시 시작하도록 요구됩니다.  앱 보호 정책을 앱에 적용할 수 있도록 앱을 다시 시작해야 합니다. 다음 스크린샷은 Skype 앱을 사용하여 이러한 과정을 보여 줍니다.
