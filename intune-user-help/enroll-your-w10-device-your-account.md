@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 05/22/2017
+ms.date: 05/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -28,8 +28,8 @@ ms.lasthandoff: 05/23/2017
 
 # <a name="enroll-your-windows-10-device-in-intune"></a>Intune에서 Windows 10 장치 등록
 
-> [!NOTE]
-> Windows 10은 모든 유형의 장치에서 작동합니다. 데스크톱, 휴대폰 또는 태블릿에 따라 이 페이지의 그림과 다소 다르더라도 모두 동일한 단계를 따르면 됩니다.
+  > [!NOTE]
+  > Windows 10은 모든 유형의 장치에서 작동합니다. 데스크톱, 휴대폰 또는 태블릿에 따라 이 페이지의 그림과 다소 다르더라도 모두 동일한 단계를 따르면 됩니다.
 
 1.  **시작**으로 이동합니다.
 
