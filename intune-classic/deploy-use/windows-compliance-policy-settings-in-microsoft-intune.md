@@ -1,5 +1,5 @@
 ---
-title: "Windows 장치용 준수 정책 설정 | Microsoft 문서"
+title: "Windows 장치용 규정 준수 정책 설정"
 description: "이 항목에서는 Windows 장치의 준수 정책에 대해 구성할 수 있는 규칙 및 설정을 살펴보았습니다."
 keywords: 
 author: andredm7
@@ -15,10 +15,10 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: c0baa59aacc6475544d70d2ead5f6fbf45429dfd
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 67810c51c7a7b2ec1e1ff33c11a27a8757b2bcbd
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

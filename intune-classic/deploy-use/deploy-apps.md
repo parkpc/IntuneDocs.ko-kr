@@ -1,5 +1,5 @@
 ---
-title: "앱 배포 | Microsoft 문서"
+title: "앱 배포"
 description: "이 항목에서는 Intune을 사용하여 앱을 배포하기 전에 이해해야 하는 개념을 설명합니다."
 keywords: 
 author: robstackmsft
@@ -15,10 +15,10 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: b2f0709beb6c64da1b70c20be6b3bb82bd06d5e8
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 13c4046ed431dc25bda9a2facc59dbcb6d3e5ab5
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

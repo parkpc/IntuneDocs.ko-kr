@@ -1,5 +1,5 @@
 ---
-title: "장치 사용 중지 | Microsoft 문서"
+title: "장치 사용 중지"
 description: "Intune은 정책 및 회사 포털을 제거하여 Intune 관리에서 장치를 제거할 수 있도록 선택적 초기화 및 전체 초기화를 모두 지원합니다."
 keywords: 
 author: nathbarn
@@ -15,10 +15,10 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 88a18975049158ca632d51796e8b4022c42dff94
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 493b5bfce7ab9b78f5f7c48d0d18524d1b191f1f
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -33,10 +33,10 @@ ms.lasthandoff: 05/23/2017
 
 다양한 이유로 장치를 사용 중지해야 할 수 있습니다.
 
--    사용자가 계획된 방법으로 퇴사(“관리된” 떠남)
--    갑작스러운 퇴사(해고, 사퇴 등).
--    장치 분실
--    장치 용도 변경(다른 사용자에게 이관, 다른 용도로 재사용 등)
+-   사용자가 계획된 방법으로 퇴사(“관리된” 떠남)
+-   갑작스러운 퇴사(해고, 사퇴 등).
+-   장치 분실
+-   장치 용도 변경(다른 사용자에게 이관, 다른 용도로 재사용 등)
 
 모바일 장치로 관리되는 장치를 선택적으로 초기화하거나 전체를 초기화할 수 있습니다. 또는 장치를 잠그고 암호를 재설정할 수도 있습니다. 장치를 초기화하면 사용자 구독을 확보하여 다른 장치를 추가할 수 있습니다. Intune 클라이언트 소프트웨어로 관리되는 PC를 사용 중지할 수도 있습니다.
 

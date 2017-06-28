@@ -1,95 +1,110 @@
-# 소개
-## [Azure Portal Preview란?](what-is-intune.md)
-## [Intune for Education이란?](/intune-classic/understand-explore/introduction-to-intune-education?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
+# [소개](introduction-intune.md)
+## [Azure Portal이란?](what-is-intune.md)
+## [Intune for Education이란?](introduction-intune-education.md)
 ## [Azure의 Intune 기능](ui-changes.md)
-## 시작
-<!---(get-started.md) --->
-### [무료 평가판 등록](free-trial-sign-up.md)
+## [무료 평가판 등록](free-trial-sign-up.md)
 ## [새로운 기능](whats-new.md)
+### [앱 UI의 새로운 기능](whats-new-app-ui.md)
+### [새로운 기능 아카이브(Azure Portal)](whats-new-archive.md)
+### [새로운 기능 아카이브(클래식 포털)](whats-new-archive-classic.md)
+
+<!--## High-level architecture-->
+
+## [장치 및 앱 수명 주기](introduction-device-app-lifecycles.md)
+### [장치 수명 주기](device-lifecycle.md)
+### [앱 수명 주기](app-lifecycle.md)
+## [일반적인 시나리오](common-scenarios.md)
 ## [알려진 문제](known-issues.md)
 ## [지원 받기](get-support.md)
-<!---
+## [Intune 서비스 설명](microsoft-intune-service-description.md)
 
-## [Related resources](related-resources.md)
-
-## [Get started](plan-and-design/get-started.md) --->
-
-# 계획 및 디자인
-
-## [배포 계획, 설계 및 구현](/intune-classic/plan-design/introduction?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [섹션 1: 배포 목적, 목표 및 과제 확인](/intune-classic/plan-design/section-1-determine-deployment-goals-objectives-challenges?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [섹션 2: 사용 사례 시나리오 확인](/intune-classic/plan-design/section-2-identify-use-case-scenarios?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [섹션 3: 사용 사례 시나리오 요구 사항 확인](/intune-classic/plan-design/section-3-determine-use-case-requirements?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [섹션 4: 출시 계획 개발](/intune-classic/plan-design/section-4-develop-a-rollout-plan?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [섹션 5: 통신 계획 개발](/intune-classic/plan-design/section-5-develop-a-rollout-communication-plan?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [섹션 6: 지원 계획 개발](/intune-classic/plan-design/section-6-develop-a-support-plan?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [섹션 7: Intune 설계 만들기](/intune-classic/plan-design/section-7-create-an-intune-design?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [섹션 8: Intune 구현](/intune-classic/plan-design/section-8-onboarding-process?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [섹션 9: 테스트 및 유효성 검사](/intune-classic/plan-design/section-9-test-and-validation?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [추가 리소스](/intune-classic/plan-design/additional-resources?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-
-## [마이그레이션](/intune-classic/plan-design/intune-mdm-migration-guide?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [1 단계: MDM용 Intune 준비](/intune-classic/plan-design/migration-phase1-prepare-intune-for-mobile-device-management?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-#### [기본 설정](/intune-classic/plan-design/migration-phase1-basic-setup?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-#### [장치 및 앱 관리 정책 구성](/intune-classic/plan-design/migration-phase1-configure-device-and-app-management-policies?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-#### [앱 보호 정책 구성](/intune-classic/plan-design/migration-phase1-configure-app-protection-policies?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-#### [특별 마이그레이션 고려 사항](/intune-classic/plan-design/migration-phase1-special-migration-considerations?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [2 단계: 마이그레이션 캠페인](/intune-classic/plan-design/migration-phase2-migration-campaign?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-#### [통신 계획](/intune-classic/plan-design/migration-phase2-communication-plan?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-#### [도입 촉진](/intune-classic/plan-design/migration-phase2-drive-end-user-adoption-with-conditional-access?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-#### [일반적인 마이그레이션 주기](/intune-classic/plan-design/migration-phase2-typical-migration-cycle?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
+<!--# Get started
+## [Manage devices](/intune-classic/understand-explore/mobile-device-management-trial-guide-microsoft-intune?toc=/intune/toc.json)
+## [Create policies](/intune-classic/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-3?toc=/intune/toc.json)
+## [Manage apps](/intune-classic/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-4?toc=/intune/toc.json) -->
 
 
-# 장치 등록
-## [장치 등록이란?](device-enrollment.md)
-## 시작
+# 배포 계획
+## [계획 가이드](planning-guide.md)
+### [목적 및 목표 결정](planning-guide-deployment-goals.md)
+### [시나리오 식별](planning-guide-scenarios.md)
+### [요구 사항 결정](planning-guide-requirements.md)
+### [출시 계획 개발](planning-guide-rollout-plan.md)
+### [통신 계획 개발](planning-guide-communication-plan.md)
+### [지원 계획 개발](planning-guide-support-plan.md)
+### [디자인](planning-guide-design.md)
+### [구현](planning-guide-onboarding.md)
+### [테스트 및 유효성 검사](planning-guide-test-validation.md)
+### [추가 리소스](planning-guide-resources.md)
+<!-- ## Scenario implementation guides
+### [BYOD](/enterprise-mobility-security/solutions/enable-byod?toc=/intune/toc.json)
+### [Protect O365 data](/enterprise-mobility-security/solutions/protect-office365-data-with-intune?toc=/intune/toc.json)
+### [Protect on-premises data](/enterprise-mobility-security/solutions/protect-on-premises-data-with-intune?toc=/intune/toc.json)
+### [Protect data without enrollment](/enterprise-mobility-security/solutions/protect-company-data-without-managing-devices?toc=/intune/toc.json)
+### [Manage company-owned devices](/enterprise-mobility-security/solutions/issue-corp-devices?toc=/intune/toc.json)
+### [Manage shared devices](/enterprise-mobility-security/solutions/limited-use-shared-devices?toc=/intune/toc.json) -->
+## [마이그레이션 가이드](migration-guide.md)
+### [Intune 준비](migration-guide-prepare.md)
+#### [기본 설정](migration-guide-setup.md)
+#### [장치 및 앱 관리 정책 구성](migration-guide-configure-policies.md)
+#### [앱 보호 정책 구성](migration-guide-app-protection-policies.md)
+#### [마이그레이션 고려 사항](migration-guide-considerations.md)
+### [마이그레이션 캠페인](migration-guide-campaign.md)
+#### [통신 계획](migration-guide-communication-plan.md)
+#### [도입 촉진](migration-guide-drive-adoption.md)
+#### [일반적인 마이그레이션 주기](migration-guide-cycle.md)
+
+
+# 방법
+
+## [Intune 설정](setup-steps.md)
+### [전제 조건](supported-devices-browsers.md)
+#### [네트워크 대역폭 사용량](network-bandwidth-use.md)
+### [Intune에 로그인](account-sign-up.md)
+### [도메인 구성](custom-domain-name-configure.md)
+### [사용자 추가](users-permissions-add.md)
+### [라이선스 할당](licenses-assign.md)       
+### [회사 포털 사용자 지정](company-portal-customize.md)     
 ### [MDM 기관 설정](mdm-authority-set.md)
-## 계획 및 디자인
-### [Apple MDM Push Certificate 가져오기](apple-mdm-push-certificate-get.md)
-### [iOS 장치를 등록하는 방법 선택](enrollment-method-choose-ios.md)
-## 방법
-### [사용자에게 라이선스 할당](/intune-classic/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [Android 장치 등록](android-enroll.md)
-### iOS 장치 등록
-#### [Apple Configurator - 설치 도우미](apple-configurator-setup-assistant-enroll-ios.md)
-#### [Apple Configurator - 직접 등록](apple-configurator-direct-enroll-ios.md)
-#### [Apple Configurator 일련 번호 추가](apple-configurator-serial-numbers-add.md)
-#### [DEP](device-enrollment-program-enroll-ios.md)
-### [장치 등록 관리자](device-enrollment-manager-enroll.md)
-### [macOS 장치 등록](macos-enroll.md)
-### [Windows 장치 등록](windows-enroll.md)
-### [Windows 장치 대량 등록](windows-bulk-enroll.md)
-### 모바일 장치 관리
-#### [사용 약관 만들기](terms-and-conditions-create.md)
-#### [등록 제한 설정](enrollment-restrictions-set.md)
-#### [그룹에 장치 매핑](device-group-mapping.md)
+
+## [장치 등록](device-enrollment.md)
+### 전제 조건
+#### [사용 약관 설정](terms-and-conditions-create.md)
+#### [제한 설정](enrollment-restrictions-set.md)
+#### [Apple MDM Push Certificate 가져오기](apple-mdm-push-certificate-get.md)
 #### [회사 식별자 추가](corporate-identifiers-add.md)
-#### [비즈니스용 Windows Hello 사용](windows-hello.md)
-<!--- ## [Troubleshoot](troubleshooting.md) --->
+#### [장치 등록 관리자 설정](device-enrollment-manager-enroll.md)
+#### [그룹에 장치 매핑](device-group-mapping.md)
+### [Windows 등록 설정](windows-enroll.md)
+#### [자동 등록](windows-enroll.md)
+#### [대량 등록](windows-bulk-enroll.md)
+### [Android 등록 설정](android-enroll.md)
+### iOS 등록 설정
+#### [장치 등록 프로그램 사용](device-enrollment-program-enroll-ios.md)
+#### [Apple School Manager 사용](apple-school-manager-set-up-ios.md)
+#### [Apple Configurator 사용](apple-configurator-setup-assistant-enroll-ios.md)
+### [macOS 등록 설정](macos-enroll.md)
+### [사용자 교육](end-user-educate.md)
 
-# 장치 및 그룹
-## [장치 관리란?](device-management.md)
-<!--- ## [Get started](get-started.md) --->
-<!--- ## [Plan and design](plan-and-design.md) --->
-## 방법
-### [전체 또는 선택적 초기화 사용](devices-wipe.md)
-<!--- ## [Troubleshoot](troubleshooting.md) --->
+## [장치 관리](device-management.md)
+### [장치 초기화](devices-wipe.md)
+### [활성화 잠금 무시](device-activation-lock-bypass.md)
+### [장치 초기화](device-factory-reset.md)
+### [Windows 새로 시작 관리](device-fresh-start.md)
+### [분실한 iOS 장치 찾기](device-locate.md)
+### [iOS 분실 모드 사용](device-lost-mode.md)
+### [장치 잠금](device-remote-lock.md)
+### [회사 데이터 제거](device-company-data-remove.md)
+### [암호 초기화](device-passcode-reset.md)
+### [장치 다시 시작](device-restart.md)
+### [Android 원격 제어](device-profile-android-teamviewer.md)
+### [장치 인벤토리 검사](device-inventory.md)
 
-# 사용자 관리
-## [사용자 관리란?](user-management.md)
-<!--- Was What is users & group management--->
-## [시작](groups-get-started.md)
-## [사용자 지원](help-desk-operators.md)
-<!--- ## [Plan and design](plan-and-design.md) --->
+## [사용자 관리](user-management.md)
+### [그룹 시작](groups-get-started.md)
+<!--### Add and delete users -->
 
-<!--- ## [Troubleshoot](troubleshooting.md) --->
-
-# 앱 관리
-## [앱 관리란?](app-management.md)
-## [앱 보호 정책이란?](app-protection-policy.md)
-<!--- ## [Get started](get-started.md)
-## [Plan and design](plan-and-design.md) --->
-## 앱을 관리하는 방법
+## [앱 관리](app-management.md)
 ### [앱 추가](apps-add.md)
 #### [Android 스토어 앱](store-apps-android.md)
 #### [Android LOB 앱](lob-apps-android.md)
@@ -103,43 +118,36 @@
 #### [Android for Work 앱](apps-add-android-for-work.md)
 ### [앱 할당](apps-deploy.md)
 ### [앱 모니터링](apps-monitor.md)
-### [앱 구성 프로필 사용](app-configuration-policies.md)
+### [iOS 앱 구성 프로필](app-configuration-policies-use-ios.md)
+### [Android 앱 구성 프로필](app-configuration-policies-use-android.md)
 ### [iOS 앱 프로비전 프로필](app-provisioning-profile-ios.md)
 ### [선택적으로 앱 지우기](apps-selective-wipe.md)
-<!---Is this specific to app protection policy or more general app management?--->
-### [대량 구매 앱 작업](vpp-apps.md)
+### [대량 구매 앱 및 책 작업](vpp-apps.md)
 #### [iOS VPP 앱](vpp-apps-ios.md)
 #### [비즈니스용 Windows 스토어 앱](windows-store-for-business.md)
+#### [iOS 전자책](vpp-ebooks-ios.md)
 ### [회사 포털 앱 구성](company-portal-app.md)
-## 앱 보호 정책을 사용하는 방법
-### [앱 보호 정책 만들기 및 할당](app-protection-policies.md)
+### [Managed Browser 구성](app-configuration-managed-browser.md)
+## [앱 보호 정책 사용](app-protection-policies.md)
 ### [WIP 앱 보호 정책 준비](app-protection-policies-configure-windows-10.md)
 ### [WIP 앱 보호 정책 만들기 및 할당](windows-information-protection-policy-create.md)
 ### [Android 설정](app-protection-policy-settings-android.md)
 ### [iOS 설정](app-protection-policy-settings-ios.md)
 ### [앱 보호 정책 유효성 검사](app-protection-policies-validate.md)
 ### [앱 보호 사용자 상태 모니터링](app-protection-policies-monitor.md)
+### [WIP 앱 보호 정책 준비](app-protection-policies-configure-windows-10.md)
+### [WIP 앱 보호 정책 만들기 및 할당](windows-information-protection-policy-create.md)
 ### [iOS 앱 간의 데이터 전송 관리](data-transfer-between-apps-manage-ios.md)
-### [앱 보호 정책을 사용하는 Android 앱](app-protection-enabled-apps-android.md)
-### [앱 보호 정책을 사용하는 iOS 앱](app-protection-enabled-apps-ios.md)
 
-
-<!--- ##  [Troubleshoot apps](troubleshooting.md) --->
-
-# 장치 구성
-## [장치 프로필이란?](device-profiles.md)
-<!---## [Get started](get-started.md)
-## [Plan and design](plan-and-design.md) --->
-## 방법
+## [장치 구성](device-profiles.md)
 ### [장치 프로필 구성](device-profile-create.md)
-
 ### [장치 기능 구성](device-features-configure.md)
 #### [iOS 및 MacOS용 AirPrint](air-print-settings-ios-macos.md)
 #### [iOS 용 AirPlay](airplay-settings-ios.md)
 #### [iOS용 홈 화면 레이아웃](home-screen-settings-ios.md)
 #### [iOS용 앱 알림](app-notification-settings-ios.md)
 #### [iOS용 공유 장치](shared-device-settings-ios.md)
-
+#### [iOS용 웹 필터 설정](web-content-filter-settings-ios.md)
 ### [장치 제한 구성](device-restrictions-configure.md)
 #### [Android](device-restrictions-android.md)
 #### [iOS](device-restrictions-ios.md)
@@ -149,13 +157,11 @@
 #### [Windows 10](device-restrictions-windows-10.md)
 #### [Windows 10 팀](device-restrictions-windows-10-teams.md)
 #### [Android for Work](device-restrictions-android-for-work.md)
-
 ### [메일 설정 구성](email-settings-configure.md)
 #### [Android](email-settings-android.md)
 #### [iOS](email-settings-ios.md)
 #### [Windows Phone 8.1](email-settings-windows-phone-8-1.md)
 #### [Windows 10](email-settings-windows-10.md)
-
 ### [VPN 설정 구성](vpn-settings-configure.md)
 #### [Android](vpn-settings-android.md)
 #### [iOS](vpn-settings-ios.md)
@@ -163,13 +169,11 @@
 #### [Windows 8.1](vpn-settings-windows-8-1.md)
 #### [Windows Phone 8.1](vpn-settings-windows-phone-8-1.md)
 #### [Windows 10](vpn-settings-windows-10.md)
-
 ### [Wi-Fi 설정 구성](wi-fi-settings-configure.md)
 #### [Android](wi-fi-settings-android.md)
 #### [iOS](wi-fi-settings-ios.md)
 #### [macOS](wi-fi-settings-macos.md)
 #### [Windows 8.1 및 Windows 10](wi-fi-settings-import-windows-8-1.md)
-
 ### [Windows 10 버전 업그레이드 설정 구성](edition-upgrade-configure-windows-10.md)
 ### [Windows 10 Education 설정 구성](education-settings-configure.md)
 ### [iOS 교육 설정 구성](education-settings-configure-ios.md)
@@ -177,53 +181,102 @@
 ### [인증서 구성](certificates-configure.md)
 #### [SCEP](certificates-scep-configure.md)
 #### [PKCS](certficates-pfx-configure.md)
-
 ### [Windows Information Protection 설정 구성](windows-information-protection-configure.md)
-<!--- ### [Configure iOS education settings](education-settings-for-ios.md) --->
+### [프로필 할당](device-profile-assign.md)
+### [프로필 모니터링](device-profile-monitor.md)
+### [프로필 문제 해결](device-profile-troubleshoot.md)
 
-### [사용자 지정 설정 구성](custom-settings-configure.md)
-#### [Android](custom-settings-android.md)
-##### [미리 공유한 키를 사용하는 Wi-Fi 프로필](wi-fi-profile-shared-key.md)
-##### [앱당 VPN 프로필](android-pulse-secure-per-app-vpn.md)
-##### [Samsung KNOX Standard에 대해 앱 허용/차단](samsung-knox-apps-allow-block.md)
-#### [iOS](custom-settings-ios.md)
-#### [macOS](custom settings-macos.md)
-#### [Windows Phone 8.1](custom-settings-windows-phone-8-1.md)
-#### [Windows 10](custom-settings-windows-10.md)
-#### [Android for Work](custom-settings-android-for-work.md)
-
-### [장치 프로필 할당](device-profile-assign.md)
-### [장치 프로필 모니터링](device-profile-monitor.md)
-### [Telecom Expense Management 서비스 설정](telecom-expenses-monitor.md)
-## [문제 해결](device-profile-troubleshoot.md)
-
-# 장치 준수 설정
-## [장치 준수란?](device-compliance.md)
-## [시작](device-compliance-get-started.md)
-## 방법
-### [Android 준수 정책 만들기](compliance-policy-create-android.md)
-### [Android for Work 준수 정책 만들기](compliance-policy-create-android-for-work.md)
-### [iOS 준수 정책 만들기](compliance-policy-create-ios.md)
-### [Windows 준수 정책 만들기](compliance-policy-create-windows.md)
-<!---### [Create Actions for noncompliance](actions-for-noncompliance.md)--->
+## [장치 준수 설정](device-compliance.md)
+### [전제 조건](device-compliance-get-started.md)
+### [Android 정책 만들기](compliance-policy-create-android.md)
+### [Android for Work 정책 만들기](compliance-policy-create-android-for-work.md)
+### [iOS 정책 만들기](compliance-policy-create-ios.md)
+### [Windows 정책 만들기](compliance-policy-create-windows.md)
+<!--### Create Actions for noncompliance-->
 ### [장치 준수 모니터링](compliance-policy-monitor.md)
-<!--- ### [Monitor device compliance](device-compliance-monitor.md)--->
 
-
-
-# 조건부 액세스
-## [조건부 액세스란?](conditional-access.md)
-## 방법
+## [조건부 액세스 설정](conditional-access.md)
+### [조건부 액세스를 사용하는 일반적인 방법](conditional-access-intune-common-ways-use.md)
+### [앱 기반 조건부 액세스](app-based-conditional-access-intune.md)
 ### [Exchange On-premises Connector 설치](exchange-connector-install.md)
 ### [만들기 및 조건부 액세스 정책을 할당 합니다.](conditional-access-exchange-create.md)
+### [Exchange Online에 대한 앱 기반 조건부 액세스 설정](app-based-conditional-access-intune-exchange-online-create.md)
+### [SharePoint Online에 대한 앱 기반 조건부 액세스 설정](app-based-conditional-access-intune-sharepoint-online-create.md)
+### [ADAL 및 Intune](app-modern-authentication-block.md)
 ### [조건부 액세스 규정 준수를 모니터링 합니다.](conditional-access-exchange-monitor.md)
 
-# 액세스 제어
-## [역할 기반 액세스 제어란?](role-based-access-control.md)
+## 데이터 및 장치 보호
+
+### [Mobile Threat Defense](mobile-threat-defense.md)
+
+#### [Lookout 설정](lookout-mobile-threat-defense-connector.md)
+##### [Lookout 및 Intune 통합](lookout-mtd-subscription-setup.md)
+##### [Intune에서 Lookout 사용](lookout-mtd-connector-enable.md)
+##### [Lookout과 함께 사용될 앱 배포](lookout-for-work-app-configure-deploy.md)
+##### [Lookout 장치 준수 정책](lookout-device-compliance-policy-create.md)
+
+#### [Skycure 설정](skycure-mobile-threat-defense-connector.md)
+##### [Azure AD SSO 구성](skycure-azure-sso-configure.md)
+##### [iOS 앱 구성 정책 다운로드](skycure-ios-app-configuration-policy-download.md)
+##### [앱 추가 및 구성](skycure-microsoft-authenticator-app-ios-app-configuration-policy-add.md)
+##### [Skycure와 함께 사용될 앱 배포](skycure-microsoft-authenticator-app-ios-app-configuration-policy-deploy.md)
+##### [Skycure 및 Intune 통합](skycure-mtd-connector-integration.md)
+##### [Intune에서 Skycure를 사용하도록 설정](skycure-mtd-connector-enable.md)
+##### [Skycure 장치 준수 정책](skycure-device-compliance-policy-create.md)
+
+### [Windows Hello 설정](windows-hello.md)        
+<!-- ### Protect devices with remote actions        -->
+
+## [역할 관리](role-based-access-control.md)
+<!-- ### Create a custom role
+### Assign a role -->
+### [기술 지원팀 운영자 역할 사용](help-desk-operators.md)
+<!-- ### Custom role settings -->
+
+## [소프트웨어 에이전트로 PC 관리](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune?toc=/intune/toc.json)
+### [PC 클라이언트 설치](/intune-classic/deploy-use/install-the-windows-pc-client-with-microsoft-intune?toc=/intune/toc.json)
+### [일반 PC 관리 작업](/intune-classic/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client?toc=/intune/toc.json)
+#### [PC 정책](/intune-classic/deploy-use/use-policies-to-simplify-windows-pc-management?toc=/intune/toc.json)
+#### [인벤토리 보기](/intune-classic/deploy-use/view-hardware-and-software-inventory-for-windows-pcs-in-microsoft-intune?toc=/intune/toc.json)
+#### [PC 사용 중지](/intune-classic/deploy-use/retire-a-windows-pc-with-microsoft-intune?toc=/intune/toc.json)
+#### [사용자에게 PC 연결](/intune-classic/deploy-use/manage-user-device-linking-for-windows-pcs-with-microsoft-intune?toc=/intune/toc.json)
+#### [원격 지원](/intune-classic/deploy-use/request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune?toc=/intune/toc.json)
+### [Windows PC를 보호하는 정책](/intune-classic/deploy-use/policies-to-protect-windows-pcs-in-microsoft-intune?toc=/intune/toc.json)
+#### [소프트웨어 업데이트](/intune-classic/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune?toc=/intune/toc.json)
+#### [Windows 방화벽](/intune-classic/deploy-use/help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune?toc=/intune/toc.json)
+#### [Endpoint Protection](/intune-classic/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune?toc=/intune/toc.json)
+### [Intune 클라이언트 PC용 앱 추가](/intune-classic/deploy-use/add-apps-for-windows-pcs-in-microsoft-intune?toc=/intune/toc.json)
+### [사용권 계약 관리](/intune-classic/deploy-use/manage-license-agreements-for-windows-pc-software-in-microsoft-intune?toc=/intune/toc.json)
+### [정책 충돌 해결](/intune-classic/deploy-use/resolve-gpo-and-microsoft-intune-policy-conflicts?toc=/intune/toc.json)
+
+
+# 모니터링 및 문제 해결
+## [통신 비용 모니터링](telecom-expenses-monitor.md)
+
 
 # 개발 및 사용자 지정
-## [Intune 앱 래핑 도구](/intune-classic/deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [iOS용 앱 래핑 도구](/intune-classic/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-### [Android용 앱 래핑 도구](/intune-classic/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
-## [Intune 앱 SDK](/intune-classic/develop/intune-app-sdk?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)
+## [사용자 지정 장치 설정 구성](custom-settings-configure.md)
+### [OWA(Outlook Web Access)](custom-settings-android.md)
+#### [미리 공유한 키를 사용하는 Wi-Fi 프로필](wi-fi-profile-shared-key.md)
+#### [앱당 VPN 프로필](android-pulse-secure-per-app-vpn.md)
+#### [Samsung KNOX Standard에 대해 앱 허용/차단](samsung-knox-apps-allow-block.md)
+### [iOS](custom-settings-ios.md)
+### [macOS](custom-settings-macos.md)
+### [Windows Phone 8.1](custom-settings-windows-phone-8-1.md)
+### [Windows 10](custom-settings-windows-10.md)
+### [Android for Work](custom-settings-android-for-work.md)
+## [MAM을 위한 LOB 앱 준비](apps-prepare-mobile-application-management.md)
+### [iOS용 앱 래핑 도구](app-wrapper-prepare-ios.md)
+### [Android용 앱 래핑 도구](app-wrapper-prepare-android.md)
+## [Windows 앱 사이드로드](app-sideload-windows.md)
+## [Intune 앱 SDK](app-sdk.md)
+### [Intune 앱 SDK 시작](app-sdk-get-started.md)
+### [iOS용 Intune 앱 SDK](app-sdk-ios.md)
+### [Android용 Intune 앱 SDK](app-sdk-android.md)
+### [Intune 앱 SDK Cordova 플러그 인](app-sdk-cordova.md)
+### [Intune 앱 SDK Xamarin 구성 요소](app-sdk-xamarin.md)
+## [Intune Graph API를 사용하는 방법](intune-graph-apis.md)
 ## [Intune Graph API](https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview)
+
+
+# [용어 설명](intune-glossary.md)

@@ -1,12 +1,12 @@
 ---
 title: "Microsoft Intune을 사용하여 사용자 지정 VPN 프로필을 만드는 방법"
-titleSuffix: Intune Azure preview
+titleSuffix: Intune on Azure
 description: "사용자 지정 구성을 사용하여 Intune에서 VPN 프로필을 만듭니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/19/2017
+ms.date: 06/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,10 +16,10 @@ ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: b38cbfb323ad4165e6cfc3edbc3c156e4fc1d6a4
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 11da0d31a9a00364a6105006c3e75b6bb6f2cb77
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -40,7 +40,7 @@ ms.lasthandoff: 05/23/2017
 ## <a name="to-create-a-custom-configuration-policy"></a>사용자 지정 구성 정책을 만들려면
 
 1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
+2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
 4. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
 5. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.

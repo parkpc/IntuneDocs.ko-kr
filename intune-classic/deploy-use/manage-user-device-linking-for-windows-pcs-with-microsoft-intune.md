@@ -1,5 +1,5 @@
 ---
-title: "Windows PC에 대한 사용자-장치 연결 관리 | Microsoft 문서"
+title: "Windows PC에 대한 사용자-장치 연결 관리"
 description: "Intune에서 관리되는 Windows PC에 사용자를 연결하는 방법을 알아봅니다."
 keywords: 
 author: nathbarn
@@ -15,15 +15,18 @@ ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 44edcb211852224e9e9e9a82dd2d097d84b49b74
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 9641c40229be52066a97389584e55f2f95bc286d
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
 
 # <a name="manage-user-device-linking-for-windows-pcs"></a>Windows PC에 대한 사용자-장치 연결 관리
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 이 항목의 정보는 Intune 소프트웨어 클라이언트를 사용하여 PC를 관리하는 Windows 데스크톱에만 적용됩니다. 
 
 소프트웨어를 사용자에게 배포하려면 먼저 사용자를 PC에 연결해야 합니다. 여러 PC에 사용자를 연결할 수 있지만 각 PC는 한 사용자에게만 연결할 수 있습니다. 사용자는 회사 포털을 사용하여 Intune에 등록한 모든 PC에 자동으로 연결됩니다.

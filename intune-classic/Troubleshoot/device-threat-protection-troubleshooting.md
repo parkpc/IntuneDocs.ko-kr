@@ -1,5 +1,5 @@
 ---
-title: "Lookout 통합 문제 해결 | Microsoft 문서"
+title: "Lookout 통합 문제 해결"
 description: "이 항목에서는 Lookout 통합에서 흔히 발생하는 문제의 해결 방법을 설명합니다."
 keywords: 
 author: NathBarn
@@ -15,10 +15,10 @@ ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 2529c5b247b90775a99e47c73f93d80be33646d7
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: cd3c2809161aa438eb7aef91a65d68cb0f657607
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

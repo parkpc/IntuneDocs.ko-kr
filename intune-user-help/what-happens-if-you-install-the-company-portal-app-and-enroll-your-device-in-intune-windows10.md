@@ -18,10 +18,10 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: db7c3b4c5722bea449dc7185b179b7a85fa59018
+ms.sourcegitcommit: 5ed0e84c16ea540c08e97cb55ef8a09cbc7339f6
+ms.openlocfilehash: 0f5c1eb76f823c72904bad7543409d9efa9e93e6
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -56,5 +56,5 @@ ms.lasthandoff: 05/23/2017
 
 -   IT 관리자가 컴퓨터에 정책을 강제 적용할 수 있습니다. 예를 들어 컴퓨터에서 암호나 PIN을 설정해야 할 수 있습니다. IT 관리자는 잘못된 암호를 입력할 수 있는 횟수를 제한할 수도 있고 너무 많이 시도하는 경우 장치를 잠그거나 컴퓨터의 하드 드라이브에서 모든 데이터를 삭제할 수도 있습니다.
 
-의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
 

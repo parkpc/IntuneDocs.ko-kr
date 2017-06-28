@@ -1,5 +1,5 @@
 ---
-title: "Skycure iOS 앱 구성 정책 다운로드 | Microsoft Docs"
+title: "Skycure iOS 앱 구성 정책 다운로드"
 description: "Skycure iOS 앱 구성 정책을 다운로드하여 최종 사용자에게 배포된 Skycure iOS 앱에서 사용합니다."
 keywords: 
 author: andredm7
@@ -15,10 +15,10 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: a8e46960a5d469093052148eb457140b3c235d3a
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 3159985bfbaec40899dd58766e214daa672ee6d4
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
