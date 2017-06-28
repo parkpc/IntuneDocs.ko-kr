@@ -1,12 +1,12 @@
 ---
-title: "Intune을 사용하여 WIP(Windows Information Protection) 앱 보호 정책 만들기 및 배포 | Microsoft Docs"
-titleSuffix: Intune Azure preview
+title: "Intune을 사용하여 WIP(Windows Information Protection) 앱 보호 정책 만들기 및 배포"
+titleSuffix: Intune on Azure
 description: "Intune을 사용하여 WIP 앱 보호 정책 만들기 및 배포"
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 04/25/2017
+ms.date: 06/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,17 +16,17 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: ca8e309653aa43292c7bd1ae1cb72cbb282d37dc
+ms.sourcegitcommit: 6f2f0b610b900bb41a3c2bd7416b6db28434a155
+ms.openlocfilehash: 17736751a6cd1813bd03f8092739d8433eb5d9dc
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
 # <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Intune을 사용하여 WIP(Windows Information Protection) 앱 보호 정책 만들기 및 배포
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Intune 1704 릴리스부터는 등록 시나리오를 진행하지 않고도 MAM(모바일 응용 프로그램 관리)을 통해 Windows 10에서 앱 보호 정책을 사용할 수 있습니다.
 
@@ -52,7 +52,7 @@ WIP 정책을 추가할 때 적용되는 몇 가지 개념에 대해 살펴보�
 
 WIP 앱 보호 정책을 만들려면 먼저 MAM 공급자를 구성해야 합니다.
 
--   [Intune을 사용하여 MAM 공급자를 구성하는 방법](https://docs.microsoft.comapp-protection-policies-configure-windows-10.md)에 대해 자세히 알아보세요.
+-   [Intune을 사용하여 MAM 공급자를 구성하는 방법](https://docs.microsoft.com/app-protection-policies-configure-windows-10.md)에 대해 자세히 알아보세요.
 
 다음과 같은 구성 요소도 필요합니다.
 

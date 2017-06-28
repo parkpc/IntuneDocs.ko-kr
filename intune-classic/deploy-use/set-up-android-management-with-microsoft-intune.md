@@ -1,5 +1,5 @@
 ---
-title: "Android 관리 설정 | Microsoft 문서"
+title: "Android 관리 설정"
 description: "Microsoft Intune으로 Android 및 KNOX Standard 장치에 대한 MDM(모바일 장치 관리)을 사용하도록 설정합니다."
 keywords: 
 author: nathbarn
@@ -15,10 +15,10 @@ ms.reviewer: lacranda
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 4042a22ecfbab7970ea4b3dab8ee6a82b0da5f78
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 927259d2f3b3078c9fdb0f1ba3bb22a69b555ab6
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -42,7 +42,7 @@ Intune 관리자는 회사 포털에서 Samsung Knox Standard 장치를 포함�
     최종 사용자 등록 지침은 [Intune에서 Android 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-android)을 참조하세요. 예상되는 작업 내용과 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목을 등록 과정 중에 알려줍니다.
 
     최종 사용자의 다른 작업에 대한 정보는 다음 문서를 참조하세요.
-  - [Microsoft Intune에서 최종 사용자 환경 관련 리소스](how-to-educate-your-end-users-about-microsoft-intune.md)
+  - [Microsoft Intune에서 최종 사용자 환경 관련 리소스](/intune/end-user-educate)
   - [Android 장치용 최종 사용자 가이드](https://docs.microsoft.com/intune-user-help/using-your-android-device-with-intune)
 
 중국에는 Google Play 스토어를 사용할 수 없으므로 Android 장치 사용자는 중국 앱 마켓플레이스에서 제공되는 회사 포털을 다운로드해야 합니다. Android용 회사 포털 앱은 다음 스토어에서 다운로드할 수 있습니다.

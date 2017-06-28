@@ -1,5 +1,5 @@
 ﻿---
-title: "장치 준수 정책 만들기 | Microsoft 문서"
+title: "장치 준수 정책 만들기"
 description: "규정 준수 정책을 만들어 회사 데이터에 액세스하는 데 사용하는 모바일 장치 및 PC 보안을 유지합니다."
 keywords: 
 author: andredm7
@@ -15,10 +15,10 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 018fc2ff3b5609d3cc5f130db548f1dd3c839020
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 3dcafbd3cfdbccdfa851e8d21572d834d629564b
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

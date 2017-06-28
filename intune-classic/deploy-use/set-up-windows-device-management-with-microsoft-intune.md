@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Intune을 사용한 Windows 장치 관리 설정 | Microsoft 문서"
+title: "Microsoft Intune을 사용한 Windows 장치 관리 설정"
 description: "Microsoft Intune으로 Windows 장치에 대한 MDM(모바일 장치 관리)을 사용하도록 설정합니다."
 keywords: 
 author: NathBarn
@@ -14,10 +14,10 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: be2587f8ccb43632d861012416bbbca720698bb1
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: cf77cb313d5a36c5e7975e70d54bf044aa2d30c8
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -69,7 +69,7 @@ CNAME 리소스 레코드에는 다음 정보가 포함되어야 합니다.
 사용자에게 Windows 장치를 등록하는 방법과 장치가 관리될 때 발생할 수 있는 상황에 대해 알려주어야 합니다.
 최종 사용자 등록 지침은 [Intune에서 Windows 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows)을 참조하세요. [IT 관리자가 장치에 대해 볼 수 있는 정보](https://docs.microsoft.com/intune-user-help/what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows)로 사용자를 보낼 수도 있습니다.
 
-최종 사용자 작업에 대한 자세한 내용은 [Microsoft Intune에서 최종 사용자 환경 관련 리소스](/intune-classic/deploy-use/how-to-educate-your-end-users-about-microsoft-intune)를 참조하세요.
+최종 사용자 작업에 대한 자세한 내용은 [Microsoft Intune에서 최종 사용자 환경 관련 리소스](/intune/end-user-educate)를 참조하세요.
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune에서 장치 등록을 위한 필수 구성 요소](prerequisites-for-enrollment.md)

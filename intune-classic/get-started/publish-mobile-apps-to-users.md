@@ -1,5 +1,5 @@
 ---
-title: "사용자에게 모바일 앱 게시 | Microsoft 문서"
+title: "사용자에게 모바일 앱 게시"
 description: 
 keywords: 
 author: jeffgilb
@@ -15,10 +15,10 @@ ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: fea0f98051d1a13a2ace178fe440520f495aaa68
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 71d57965164f0822e1a6d95715c4f9c92f7bf4bd
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -35,9 +35,9 @@ Microsoft Intune은 선택한 장치에서 필요한 모바일 및 데스크톱 
 그렇다면 Microsoft Intune을 사용하여 단일 일반 포털 [Intune 회사 포털 앱 또는 웹 사이트](/intune-user-help/company-portal-frequently-asked-questions)에서 앱(Office 모바일, 내부 기간 업무 또는 다른 모바일 및 데스크톱 앱)을 게시할 수 있습니다.
 
 ## <a name="how-do-i-do-it"></a>어떻게 하나요?
-1.    Intune 모바일 장치 관리에 [장치를 등록](/intune-classic/deploy-use/enroll-devices-in-microsoft-intune)니다.
-2.    등록된 장치에 배포할 [앱을 Intune에 추가](/intune-classic/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune)합니다.
-3.    [Intune을 사용하여 등록된 장치에 앱을 배포](/intune-classic/deploy-use/deploy-apps)합니다.
+1.  Intune 모바일 장치 관리에 [장치를 등록](/intune-classic/deploy-use/enroll-devices-in-microsoft-intune)니다.
+2.  등록된 장치에 배포할 [앱을 Intune에 추가](/intune-classic/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune)합니다.
+3.  [Intune을 사용하여 등록된 장치에 앱을 배포](/intune-classic/deploy-use/deploy-apps)합니다.
 
 ### <a name="additional-information"></a>추가 정보:
 오피스 모바일 앱 게시 작업이 해당 앱에 대한 데이터 손실 방지가 관리되도록 Intune의 MAM 기능 사용을 위해 수행되는 경우에는 각 최종 사용자 MAM 정책에 [Office 365용 사용자 라이선스를 할당](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)해야 합니다.

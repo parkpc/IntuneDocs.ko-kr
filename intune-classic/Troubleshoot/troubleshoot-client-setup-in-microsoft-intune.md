@@ -1,5 +1,5 @@
 ---
-title: "클라이언트 설정 문제 해결 | Microsoft 문서"
+title: "클라이언트 설정 문제 해결"
 description: "일반적인 클라이언트 설정 문제를 해결합니다."
 keywords: 
 author: nathbarn
@@ -15,10 +15,10 @@ ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: a6724f4dcf9d1c6001ba1e87e87ae31ccc2ab0da
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: bb0eea78d469bb45b833251482d55b44894f32e8
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

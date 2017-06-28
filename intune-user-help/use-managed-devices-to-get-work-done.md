@@ -18,10 +18,10 @@ ms.reviewer: robstack
 ms.suite: ems
 ms.custom: intune-enduser
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 748fce44b696675d4b7fe4b1d3048633fba1b490
+ms.sourcegitcommit: 5ed0e84c16ea540c08e97cb55ef8a09cbc7339f6
+ms.openlocfilehash: d57da14ad070275f7cdef639d971c176c1010634
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -38,7 +38,7 @@ Intune을 사용하여 관리하도록 장치를 등록하면 IT 부서에서 �
 다음과 같은 두 가지 방법으로 회사 포털을 사용할 수 있습니다.
 
 - 장치에 회사 포털 앱을 설치합니다. 일반적으로 장치의 앱 스토어로 이동하여 회사 포털 앱을 가져오지만, IT 관리자가 사용자 대신에 회사 포털 앱을 설치할 수도 있습니다.
-- IT 관리자가 설정한 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 이동합니다.
+- IT 관리자가 설정한 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)로 이동합니다.
 
 ## <a name="whats-the-difference-between-the-app-and-the-website"></a>앱과 웹 사이트의 차이는 무엇인가요?
 회사 포털 앱과 회사 포털 웹 사이트 사이에는 몇 가지 사소한 차이점이 있지만, 둘 다에서 대부분의 동일한 작업을 수행할 수 있습니다. 수행할 수 있는 일부 작업은 다음과 같습니다.
@@ -100,5 +100,5 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 - [iOS 장치의 일반적인 문제 해결](troubleshoot-your-device-ios.md)
 - [Windows 장치의 일반적인 문제 해결](troubleshoot-your-device-windows.md)
 
-아래에 의견을 게시하여 도움을 요청할 수 있지만 조직마다 요구 사항이 다르므로 질문에 대답할 수 없는 경우도 있습니다. IT 관리자에게 도움을 요청하는 것이 가장 빠르고 가장 관련성이 높은 응답을 받을 가능성이 큽니다. 해당 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에서 확인할 수 있습니다.
+아래에 의견을 게시하여 도움을 요청할 수 있지만 조직마다 요구 사항이 다르므로 질문에 대답할 수 없는 경우도 있습니다. IT 관리자에게 도움을 요청하는 것이 가장 빠르고 가장 관련성이 높은 응답을 받을 가능성이 큽니다. 해당 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 확인할 수 있습니다.
 

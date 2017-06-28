@@ -1,5 +1,5 @@
 ---
-title: "iOS 앱 간의 데이터 전송 관리 | Microsoft 문서"
+title: "iOS 앱 간의 데이터 전송 관리"
 description: "이 항목을 사용하여 iOS의 다음에서 열기 기능과 모바일 앱 관리 정책을 사용하여 앱 간의 데이터 전송을 관리하는 방법을 파악할 수 있습니다."
 keywords: 
 author: andredm7
@@ -15,10 +15,10 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: e71ebacec9d7b890b41e7650c8c50f42952c6326
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 05975303bd45764d56f00986aea5aa30399893f9
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

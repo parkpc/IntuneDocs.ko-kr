@@ -1,5 +1,5 @@
 ---
-title: "정책을 사용하여 Windows PC 관리 간소화 | Microsoft 문서"
+title: "정책을 사용하여 Windows PC 관리 간소화"
 description: "Windows PC 관리 정책 및 Microsoft Intune Center에 대한 설정을 설명합니다."
 keywords: 
 author: nathbarn
@@ -15,15 +15,17 @@ ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: a2b956f8c999ec5489152a63a9af6e24da8ec536
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: e14b5c56356812fdc3ea775cddde0f668b344177
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
 
 # <a name="use-policies-to-simplify-windows-pc-management"></a>정책을 사용하여 Windows PC 관리 간소화
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 PC에서 Intune 소프트웨어 클라이언트를 실행하여 Windows 데스크톱을 PC로 관리하기 위해서는 Intune 관리 콘솔의 **컴퓨터 관리** 정책에 있는 정책만 사용할 수 있습니다. 관리 콘솔에 나열된 다른 모든 정책은 모바일 장치 전용입니다. **컴퓨터 관리** 정책을 사용하여 Microsoft Intune Center에서 설정을 구성하고, PC에 대한 업데이트를 제어하고, PC에 대한 Windows 방화벽을 구성할 수 있습니다.
 

@@ -1,12 +1,12 @@
 ---
-title: "Windows 10용 앱 보호 정책 구성 준비 | Microsoft Docs"
-titleSuffix: Intune Azure preview
+title: "Windows 10용 앱 보호 정책 구성 준비"
+titleSuffix: Intune on Azure
 description: "Azure AD에서 MAM(모바일 응용 프로그램 관리) 공급자 설치"
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 04/25/2017
+ms.date: 06/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,17 +16,17 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: e179f72e4cd99a8cd1bdc017e9965f7d1eb608bf
+ms.sourcegitcommit: 6f2f0b610b900bb41a3c2bd7416b6db28434a155
+ms.openlocfilehash: bf56d3a80f0d167baa95e9dfdb20d08e02590984
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
 # <a name="get-ready-to-configure-app-protection-policies-for-windows-10"></a>Windows 10용 앱 보호 정책 구성 준비
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Windows 10 앱 보호 정책을 만들려면 Azure AD에서 MAM(모바일 응용 프로그램 관리) 공급자를 설치하여 Windows 10용 MAM을 사용하도록 설정해야 합니다. 이와 같이 구성하면 Intune을 사용하여 새 WIP(Windows Information Protection) 정책을 만들 때 등록 상태를 정의할 수 있습니다.
 
@@ -59,5 +59,5 @@ Windows 10 앱 보호 정책을 만들려면 Azure AD에서 MAM(모바일 응용
 
 ## <a name="next-steps"></a>다음 단계
 
-[WIP 앱 보호 정책 만들기](https://docs.microsoft.comwindows-information-protection-policy-create.md)
+[WIP 앱 보호 정책 만들기](windows-information-protection-policy-create.md)
 

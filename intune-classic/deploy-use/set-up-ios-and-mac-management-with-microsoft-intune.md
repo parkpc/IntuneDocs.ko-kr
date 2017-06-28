@@ -1,5 +1,5 @@
 ﻿---
-title: "iOS 및 Mac 관리 설정 | Microsoft 문서"
+title: Set up iOS and Mac management
 description: "Microsoft Intune으로 Mac OS X 장치뿐만 아니라 iPad 및 iPhone을 포함하는 iOS 장치의 MDM(모바일 장치 관리)도 수행합니다."
 keywords: 
 author: nathbarn
@@ -15,10 +15,10 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: ef1fbee09172a89e0f83cbe905a00f3a3ef25b05
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: af300534b3868a829c0b648d4df2587886ef749b
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -53,7 +53,7 @@ Intune은 iPad, iPhone 및 macOS 장치의 MDM(모바일 장치 관리)을 가�
     최종 사용자 등록 지침은 [Intune에서 iOS 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-ios) 및 [Intune에서 macOS 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos)을 참조하세요. 예상되는 작업 내용과 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목을 등록 과정 중에 알려줍니다.
 
     최종 사용자의 다른 작업에 대한 정보는 다음 문서를 참조하세요.
-    - [Microsoft Intune에서 최종 사용자 환경 관련 리소스](how-to-educate-your-end-users-about-microsoft-intune.md)
+    - [Microsoft Intune에서 최종 사용자 환경 관련 리소스](/intune/end-user-educate)
     - [iOS 및 Mac 장치용 최종 사용자 가이드](https://docs.microsoft.com/intune-user-help/using-your-ios-or-macOS-device-with-intune)
 
 회사 또는 조직에서 사용자를 위한 iOS 장치를 구입한 경우 해당 장치도 관리를 위해 [회사 소유의 iOS 장치](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)로 등록할 수 있습니다.

@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Intune으로 장치 보호 | Microsoft 문서"
+title: "Microsoft Intune으로 장치 보호"
 description: "Intune이 무단 액세스 및 기타 위협으로부터 장치를 보호하는 데 어떤 도움을 줄 수 있는지 알아봅니다."
 keywords: 
 author: Robstackmsft
@@ -15,10 +15,10 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 042c5673c48bb19aacd624028260267670f9846e
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 8acde93c1c0c0d3bf443daf61d5f8d75b3d061df
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
