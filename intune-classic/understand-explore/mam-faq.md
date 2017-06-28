@@ -15,10 +15,10 @@ ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 32446d9a6f9383b5449dbabf288b0eac0b483ebb
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: a39f67a532f53ef6ab2e3cc5d17b2d593a3483ae
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/23/2017
 ## <a name="mam-basics"></a>MAM 기본 사항
 
 
-**MAM이란?** [Intune MAM(모바일 응용 프로그램 관리)](../deploy-use/overview-of-app-lifecycle-in-microsoft-intune.md)은 사용자를 위해 모바일 앱을 게시, 푸시, 구성, 보호, 모니터링 및 업데이트할 수 있는 Intune 관리 기능 제품군을 나타냅니다.
+**MAM이란?** [Intune MAM(모바일 응용 프로그램 관리)](/intune/app-lifecycle)은 사용자를 위해 모바일 앱을 게시, 푸시, 구성, 보호, 모니터링 및 업데이트할 수 있는 Intune 관리 기능 제품군을 나타냅니다.
 
 **MAM 앱 보호의 이점은 무엇인가요?** MAM은 응용 프로그램 내에서 조직의 데이터를 보호합니다. 중요한 데이터를 포함하는 회사 또는 학교 관련 앱인 MAM-WE는 BYOD(Bring-your-own-device) 시나리오의 개인 장치를 비롯한 거의 모든 장치에서 관리할 수 있습니다. Microsoft Office 앱과 같은 많은 생산성 앱은 Intune MAM에서 관리할 수 있습니다. 공개적으로 사용 가능한 공식적인 [Intune 지원 앱](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) 목록을 참조하세요.
 
@@ -50,12 +50,12 @@ ms.lasthandoff: 05/23/2017
 
 ## <a name="apps-you-can-manage-with-app-protection-policies"></a>앱 보호 정책으로 관리할 수 있는 앱
 
-**앱 보호 정책에서 관리될 수 있는 앱은 어느 것인가요?** [Intune 앱 SDK](../develop/intune-app-sdk.md)에서 지원되거나 [Intune 앱 래핑 도구](../deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)로 래핑된 모든 앱은 Intune 앱 보호 정책을 사용하여 관리할 수 있습니다. 공개적으로 사용 가능한 공식적인 [Intune 지원 앱](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) 목록을 참조하세요.
+**앱 보호 정책에서 관리될 수 있는 앱은 어느 것인가요?** [Intune 앱 SDK](/intune/app-sdk)에서 지원되거나 [Intune 앱 래핑 도구](/intune/apps-prepare-mobile-application-management)로 래핑된 모든 앱은 Intune 앱 보호 정책을 사용하여 관리할 수 있습니다. 공개적으로 사용 가능한 공식적인 [Intune 지원 앱](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) 목록을 참조하세요.
 
 **Intune 지원 앱에 대해 앱 보호 정책을 사용하기 위한 기본 요구 사항은 무엇인가요?**
-  1. 최종 사용자는 AAD(Azure Active Directory) 계정이 있어야 합니다. Azure Active Directory에서 Intune 사용자를 만드는 방법을 알아보려면 [Intune에 사용자 추가 및 관리 권한 부여](../get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3.md)를 참조하세요.
+  1. 최종 사용자는 AAD(Azure Active Directory) 계정이 있어야 합니다. Azure Active Directory에서 Intune 사용자를 만드는 방법을 알아보려면 [Intune에 사용자 추가 및 관리 권한 부여](/intune/users-permissions-add)를 참조하세요.
 
-  2. 최종 사용자는 Microsoft Intune에 대한 라이선스가 자신의 Azure Active Directory 계정에 할당되어야 합니다. 최종 사용자에게 Intune 라이선스를 할당하는 방법을 알아보려면 [Intune 라이선스 관리](../get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4.md)를 참조하세요.
+  2. 최종 사용자는 Microsoft Intune에 대한 라이선스가 자신의 Azure Active Directory 계정에 할당되어야 합니다. 최종 사용자에게 Intune 라이선스를 할당하는 방법을 알아보려면 [Intune 라이선스 관리](/intune/licenses-assign)를 참조하세요.
 
   3. 최종 사용자는 앱 보호 정책의 대상이 되는 보안 그룹에 속해야 합니다. 동일한 앱 보호 정책은 사용 중인 특정 앱을 대상으로 해야 합니다. [Azure Portal](http://portal.azure.com)의 Intune 콘솔에서 앱 보호 정책을 만들고 배포할 수 있습니다. 보안 그룹은 현재 [Office 포털](http://portal.office.com)에서 만들 수 있습니다.
 

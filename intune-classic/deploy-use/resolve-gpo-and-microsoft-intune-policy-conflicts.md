@@ -1,5 +1,5 @@
 ---
-title: "GPO 및 Intune 정책 충돌 해결 | Microsoft 문서"
+title: "GPO 및 Intune 정책 충돌 해결"
 description: "그룹 정책 및 Intune 구성 정책 간의 충돌을 해결하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -15,15 +15,18 @@ ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 250ddb35aa33523141ae0f5af19b48b75ce0bef0
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 42debb9e26a226da6b2485a2ab1be2855d309747
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
 
 # <a name="resolve-group-policy-objects-gpo-and-microsoft-intune-policy-conflicts"></a>GPO(그룹 정책 개체) 및 Microsoft Intune 정책 충돌 해결
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune은 Windows PC에서 설정 관리를 도와주는 정책을 사용합니다. 예를 들어 정책을 사용하여 PC의 Windows 방화벽에 대한 설정을 제어할 수 있습니다. 많은 Intune 설정이 Windows 그룹 정책으로 구성할 수 있는 설정과 비슷합니다. 그러나 경우에 따라 두 가지 방법이 서로 충돌할 수 있습니다.
 
 충돌이 발생하는 경우 PC에서 도메인에 로그인할 수 있는 한 도메인 수준 그룹 정책이 Intune 정책보다 우선합니다. 이런 경우 Intune 정책이 클라이언트 PC에 적용됩니다.

@@ -1,5 +1,5 @@
 ---
-title: "메일 프로필 문제 해결 | Microsoft 문서"
+title: "메일 프로필 문제 해결"
 description: "전자 메일 프로필 문제와 이 문제를 해결하는 방법입니다."
 keywords: 
 author: lleonard-msft
@@ -15,10 +15,10 @@ ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 0387fa91628c5f786d9289df309b82bd17cf6447
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: f79ebec4dea17bd03b88d97aa1d7b30a58e35cdb
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

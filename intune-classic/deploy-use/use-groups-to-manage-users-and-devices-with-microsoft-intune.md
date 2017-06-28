@@ -1,5 +1,5 @@
 ---
-title: "그룹을 사용하여 사용자 및 장치 관리 | Microsoft 문서"
+title: "그룹을 사용하여 사용자 및 장치 관리"
 description: "그룹 작업 영역을 사용하여 그룹을 만들고 관리합니다."
 keywords: 
 author: Mtillman
@@ -15,10 +15,10 @@ ms.reviewer: lpatha
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 095b8db0cb5097edca98d138edccafbe8e55b9ba
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 13c8946dd75d6bdede0e2a8941030250c6b12ef6
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -108,7 +108,7 @@ Microsoft Intune 관리 콘솔의 **그룹** 작업 영역에서 그룹을 만�
 -   IT 관리자가 특정 사용자와 장치에만 항목을 배포할 수 있도록 합니다.
 -   IT 관리자가 해당 관리자와 관련한 그룹만 볼 수 있도록 합니다.
 
-Intune 관리 콘솔에서 서비스 관리자를 위한 필터링된 그룹 보기를 구성할 수 있습니다. 자세한 내용은 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](/intune-classic/get-started/what-to-know-before-you-start-microsoft-intune)을 참조하세요.
+Intune 관리 콘솔에서 서비스 관리자를 위한 필터링된 그룹 보기를 구성할 수 있습니다. 자세한 내용은 [Microsoft Intune을 시작하기 전에 알아두어야 할 사항](/intune/supported-devices-browsers)을 참조하세요.
 
 서비스 관리자를 위한 필터링된 그룹 보기를 설정하면 관리자는 소프트웨어 또는 정책을 배포하거나 보고서를 실행할 때 지정된 그룹만 선택하여 볼 수 있습니다. 또한 관리자에게는 다음 관리 콘솔 페이지의 상태 정보가 보이지 않습니다.
 

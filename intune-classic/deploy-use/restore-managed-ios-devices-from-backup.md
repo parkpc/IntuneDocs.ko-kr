@@ -1,5 +1,5 @@
 ---
-title: "Intune 관리 iOS 장치를 백업에서 복원 | Microsoft 문서"
+title: "Intune 관리 iOS 장치를 백업에서 복원"
 description: "백업에서 복원한 후 해당 장치를 다시 등록하는 방법에 대한 지침을 최종 사용자에게 제공합니다."
 keywords: "복원, 관리되는, iOS"
 author: barlanmsft
@@ -15,10 +15,10 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 438a478be79bb4def8675856075ecedfe8290bb7
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 7fc99a944000a8d5ecfc09ebc2e956e7c0f201c9
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

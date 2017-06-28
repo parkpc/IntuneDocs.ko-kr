@@ -1,5 +1,5 @@
 ---
-title: "앱 사용 중지 | Microsoft 문서"
+title: "앱 사용 중지"
 description: "Intune을 사용하여 앱을 사용 중지 또는 제거하는 방법에 대해 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -15,10 +15,10 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 670e108fc4f672b4900f7cfb4e0127e16a377fa7
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 1851fa03d36ffe42a49fd557cdd0c2c6250726f4
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

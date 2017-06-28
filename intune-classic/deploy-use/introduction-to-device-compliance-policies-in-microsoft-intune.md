@@ -1,5 +1,5 @@
 ---
-title: "장치 준수 정책 | Microsoft 문서"
+title: "장치 준수 정책"
 description: "이 항목에서는 장치 준수 정책의 개념과 작동 원리를 설명합니다."
 keywords: 
 author: andredm7
@@ -15,10 +15,10 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: a14c9d7f0fcf6a99007380bb01f5f7bc94f0b413
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 2cb4e331ff4b6e96df0e640af02f33dc88ccfe0f
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

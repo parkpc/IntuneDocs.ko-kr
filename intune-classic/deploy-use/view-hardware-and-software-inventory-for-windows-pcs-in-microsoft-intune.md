@@ -1,5 +1,5 @@
 ---
-title: "Windows PC에 대한 하드웨어 및 소프트웨어 인벤토리 보기 | Microsoft 문서"
+title: "Windows PC에 대한 하드웨어 및 소프트웨어 인벤토리 보기"
 description: "Intune 소프트웨어 클라이언트를 사용하여 PC로 관리하는 Windows 데스크톱에 대한 하드웨어 및 소프트웨어 정보를 확인하는 방법입니다."
 keywords: 
 author: arob98
@@ -15,15 +15,17 @@ ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: be6089e4a45aa906e458ad114c45b10bce4b9405
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 0fdb49e8742fa49f1c0c1b24d5f09bcaf08a0f0a
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
 
 # <a name="view-hardware-and-software-inventory-for-windows-pcs"></a>Windows PC에 대한 하드웨어 및 소프트웨어 인벤토리 보기
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Intune은 Intune 소프트웨어 클라이언트를 사용하여 PC로 관리하는 데스크톱의 하드웨어 및 소프트웨어에 대한 자세한 정보를 수집합니다. 다음 절차의 정보를 통해 다음을 만드는 방법에 대해 알아볼 수 있습니다.
 

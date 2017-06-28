@@ -1,5 +1,5 @@
 ---
-title: "장치 등록 사용 | Microsoft 문서"
+title: "장치 등록 사용"
 description: "MDM 기관을 설정하고 iOS, Windows, Android 및 Mac 장치에 대한 등록을 사용하도록 설정합니다."
 keywords: 
 author: nathbarn
@@ -15,10 +15,10 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 76d6000c87843d1a785cd1027eb927f565784ca2
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 64c6eb58246ac3ad232c1b8ee89d12a83e7e1784
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -38,7 +38,7 @@ Intune을 사용하여 모바일 장치 관리를 설정하려면 먼저 *모바
 
 2. MDM 기관 대화 상자에서 **예**를 선택합니다.
 
-    ![관리 콘솔. Intune에 MDM 설정](./media/mdmAuthority.png)
+    ![관리 콘솔. Intune에 MDM 설정](../media/intune-mdm-authority.png)
 
 ## <a name="choose-how-to-enroll-devices"></a>장치를 등록하는 방법 선택
 

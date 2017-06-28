@@ -1,5 +1,5 @@
 ---
-title: "모바일 장치를 등록하는 방법 선택 | Microsoft 문서"
+title: "모바일 장치를 등록하는 방법 선택"
 description: "몇 가지 간단한 질문에 응답하여 Intune에서 모바일 장치를 등록 하는 방법 결정"
 keywords: 
 author: NathBarn
@@ -15,10 +15,10 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.custom: intune-classic EXPIERIMENT
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 4d1ff670d6fdcb03dcfe2355dbc9879828818bdf
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 3ed0af5b0a8650c7f178350d11ec95ae4f0662e6
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/23/2017
 
 - **공유 회사 소유 장치** - 이러한 장치는 단일 사용자에게 발급되지 않으며 일반적으로 메일에 액세스하도록 구성되지 않습니다. 예로는 사용자가 필요에 따라 풀에서 꺼낸 다음 반환하는 키오스크 장치나 작업 지향 장치가 있습니다. 권장되는 등록 방법은 장치의 플랫폼에 따라 달라집니다.
 
--  **사용자** - 개별 사용자에게 발급되는 회사 소유 장치는 사용자가 개인 장치로 메일과 데이터에 액세스할 수 있도록 허용하는 동안 회사 자산으로 추적되어야 합니다. 권장되는 등록 방법은 장치의 플랫폼에 따라 달라집니다.
+- **사용자** - 개별 사용자에게 발급되는 회사 소유 장치는 사용자가 개인 장치로 메일과 데이터에 액세스할 수 있도록 허용하는 동안 회사 자산으로 추적되어야 합니다. 권장되는 등록 방법은 장치의 플랫폼에 따라 달라집니다.
 
 > [!div class="button"]
 [< 뒤로](choose-how-to-enroll-devices1.md)

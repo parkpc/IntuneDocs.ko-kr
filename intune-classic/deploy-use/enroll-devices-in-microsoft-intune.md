@@ -1,5 +1,5 @@
 ---
-title: "장치 등록 | Microsoft 문서"
+title: "장치 등록"
 description: "MDM(모바일 장치 관리)에서는 등록을 사용하여 장치를 관리하고 리소스에 대한 액세스를 허용합니다."
 keywords: 
 author: nathbarn
@@ -15,10 +15,10 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: e724e648dc8e768f11e51103a050665a60ffcb1a
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: c7c4390629178256728c55e47f06bffae043a729
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -43,40 +43,40 @@ Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같�
 
 **iOS 등록 방법**
 
-| **방법** |    **초기화가 필요하세요?** |    **선호도**    |    **잠금** | **세부 정보** |
+| **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보** |
 |:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |    아니요 | [추가 정보](prerequisites-for-enrollment.md)|
-|**[DEM](#dem)**|    아니요 |아니요 |아니요    | [추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
-|**[DEP](#dep)**|    예 |    선택 사항 |    선택 사항입니다.|[추가 정보](ios-device-enrollment-program-in-microsoft-intune.md)|
-|**[USB-SA](#usb-sa)**|    예 |    선택 사항 |    아니요| [추가 정보](ios-setup-assistant-enrollment-in-microsoft-intune.md)|
-|**[USB-Direct](#usb-direct)**|    아니요 |    아니요    | 아니요|[추가 정보](ios-direct-enrollment-in-microsoft-intune.md)|
+|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md)|
+|**[DEM](#dem)**|   아니요 |아니요 |아니요  | [추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+|**[DEP](#dep)**|   예 |   선택 사항 |  선택 사항입니다.|[추가 정보](ios-device-enrollment-program-in-microsoft-intune.md)|
+|**[USB-SA](#usb-sa)**| 예 |   선택 사항 |  아니요| [추가 정보](ios-setup-assistant-enrollment-in-microsoft-intune.md)|
+|**[USB-Direct](#usb-direct)**| 아니요 |    아니요  | 아니요|[추가 정보](ios-direct-enrollment-in-microsoft-intune.md)|
 
 **Windows 등록 방법**
 
-| **방법** |    **초기화가 필요하세요?** |    **선호도**    |    **잠금** | **세부 정보**|
+| **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |    아니요 | [추가 정보](prerequisites-for-enrollment.md)|
-|**[DEM](#dem)**|    아니요 |아니요 |아니요    |[추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md)|
+|**[DEM](#dem)**|   아니요 |아니요 |아니요  |[추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 **Android 등록 방법**
 
-| **방법** |    **초기화가 필요하세요?** |    **선호도**    |    **잠금** | **세부 정보**|
+| **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |    아니요 | [추가 정보](prerequisites-for-enrollment.md)|
-|**[DEM](#dem)**|    아니요 |아니요 |아니요    |[추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md)|
+|**[DEM](#dem)**|   아니요 |아니요 |아니요  |[추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 **Android for Work 등록 방법**
 
-| **방법** |    **초기화가 필요하세요?** |    **선호도**    |    **잠금** | **세부 정보**|
+| **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |    아니요 | [추가 정보](prerequisites-for-enrollment.md)|
-|**[DEM](#dem)**|    아니요 |아니요 |아니요    |[추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md)|
+|**[DEM](#dem)**|   아니요 |아니요 |아니요  |[추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 **macOS 등록 방법**
 
-| **방법** |    **초기화가 필요하세요?** |    **선호도**    |    **잠금** | **세부 정보**|
+| **방법** |  **초기화가 필요하세요?** |    **선호도**    |   **잠금** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |    아니요 | [추가 정보](prerequisites-for-enrollment.md)|
+|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md)|
 
 
 올바른 방법을 찾는 데 도움이 되는 질문은 [장치 등록 방법 선택](/intune-classic/get-started/choose-how-to-enroll-devices1)를 참조하세요.
@@ -94,15 +94,15 @@ Intune 콘솔을 사용하여 COD(회사 소유 장치)를 관리할 수 있습�
 
 ### <a name="dep"></a>DEP
 Apple DEP(장치 등록 프로그램) 관리에서는 정책을 만든 후, 구입한 iOS 장치 중에서 DEP로 관리하는 장치에 "무선으로" 정책을 배포할 수 있습니다. 사용자가 처음으로 장치를 켜고 iOS 설치 도우미를 실행하면 장치가 등록됩니다. 이 방법은 **iOS 감독** 모드를 지원하며, 이 모드에서는 다음을 사용할 수 있습니다.
-  -    잠긴 등록
-  -    키오스크 모드와 다른 고급 구성 및 제한 사항
+  - 잠긴 등록
+  - 키오스크 모드와 다른 고급 구성 및 제한 사항
 
 [DEP](ios-device-enrollment-program-in-microsoft-intune.md)에 대해 자세히 알아보세요. ([표로 돌아가기](#overview-of-device-enrollment-methods))
 
 ### <a name="usb-sa"></a>USB-SA
 설정 도우미 및 Apple Configurator IT 관리자는 USB 통해 Apple Configurator를 사용하여 등록할 각 회사 소유 장치를 [설정 도우미]를 통해 수동으로 준비합니다. IT 관리자는 등록 프로필을 만들어 Apple Configurator로 내보냅니다. 사용자가 장치를 받으면 [설정 도우미]를 실행하여 장치를 등록하라는 메시지가 표시됩니다. 이 방법은 **iOS 감독** 모드를 지원하며, 이 모드에서는 다음을 사용할 수 있습니다.
-  -    잠긴 등록
-  -    키오스크 모드와 다른 고급 구성 및 제한 사항
+  - 잠긴 등록
+  - 키오스크 모드와 다른 고급 구성 및 제한 사항
 
 자세한 내용은 [Apple Configurator를 사용한 설정 도우미 등록](ios-setup-assistant-enrollment-in-microsoft-intune.md)을 참조하세요. ([표로 돌아가기](#overview-of-device-enrollment-methods))
 
@@ -131,5 +131,5 @@ Intune은 다음 장치 플랫폼을 관리할 수 있습니다.
 ## <a name="next-steps"></a>다음 단계
 - [장치 등록을 위한 필수 조건](prerequisites-for-enrollment.md)
 - [회사 소유 장치 관리](manage-corporate-owned-devices.md)
-- [지원되는 모바일 장치 및 컴퓨터](../get-started/what-to-know-before-you-start-microsoft-intune.md#intune-supported-devices)
+- [지원되는 모바일 장치 및 컴퓨터](/intune/supported-devices-browsers#intune-supported-devices)
 

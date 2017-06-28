@@ -1,5 +1,5 @@
 ---
-title: "회사 소유 장치 관리 | Microsoft 문서"
+title: "회사 소유 장치 관리"
 description: "회사 소유의 장치는 장치 유형, 장치 구매 방법, 조직의 요구 사항에 따라 다양한 방법으로 등록합니다."
 keywords: 
 author: nathbarn
@@ -15,10 +15,10 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 8ef5f26eced99dac547be727fc96e41c11d3a0e7
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 8dae789ad1996543ddf9b92d031ac995beff6a46
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

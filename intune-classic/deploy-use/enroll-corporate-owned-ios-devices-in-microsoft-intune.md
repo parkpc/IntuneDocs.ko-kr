@@ -1,5 +1,5 @@
 ---
-title: "회사 소유의 iOS 장치 등록 | Microsoft 문서"
+title: "회사 소유의 iOS 장치 등록"
 description: "Apple DEP(장치 등록 프로그램) 또는 Apple Configurator를 사용하여 회사 소유 iOS 장치 등록"
 keywords: 
 author: nathbarn
@@ -15,10 +15,10 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 44b4fbad45decde806fb5be41ea12f0d8bcf9c95
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 42da9c874183287bc9485035ae39e94efbaa3e8b
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -59,8 +59,8 @@ DEP는 DEP를 통해 구입한 장치에 등록 프로필을 "무선으로" 배�
 
 사용자 선호도는 다음을 지원하는 데 필요합니다.
   - MAM(모바일 응용 프로그램 관리) 앱
-  -    메일 및 회사 데이터에 대한 조건부 액세스
-  -    회사 포털 앱
+  - 메일 및 회사 데이터에 대한 조건부 액세스
+  - 회사 포털 앱
 
 **사용자가 사용자 선호도를 사용하여 회사 소유의 iOS 장치를 등록하는 방법**
 1. 사용자가 장치를 켜면 설정 도우미를 완료하라는 메시지가 표시됩니다. 설정하는 동안 자격 증명을 묻는 메시지가 표시됩니다. Intune에서 구독과 연결된 자격 증명(즉, 고유 이름 또는 UPN)을 사용해야 합니다.

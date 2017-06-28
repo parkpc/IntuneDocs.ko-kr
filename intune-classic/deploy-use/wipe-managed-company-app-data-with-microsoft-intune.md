@@ -1,5 +1,5 @@
 ---
-title: "관리되는 회사 앱 데이터 초기화 | Microsoft 문서"
+title: "관리되는 업무용 앱 데이터 초기화"
 description: "장치에서 원격으로 회사 데이터를 선택적으로 제거하는 방법을 알아봅니다."
 keywords: 
 author: andredm7
@@ -15,10 +15,10 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 6e935d74cbf75e18b9316741442dcfda16ead2e6
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 7025bdd5d89e52f1c99f9cd834232daf324f3285
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
