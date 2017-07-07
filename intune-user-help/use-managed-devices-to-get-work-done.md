@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 523caa6b-d792-4bb6-bddb-24b2479932d8
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: robstack
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5ed0e84c16ea540c08e97cb55ef8a09cbc7339f6
 ms.openlocfilehash: d57da14ad070275f7cdef639d971c176c1010634
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/25/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="use-managed-devices-to-get-work-done"></a>관리되는 장치를 사용하여 작업 완료
 Microsoft Intune은 조직에서 장치(예: 스마트폰, 태블릿 및 PC), 앱 및 기타 회사 리소스(예: 메일)를 관리하는 데 사용할 수 있는 일종의 소프트웨어입니다. 이를 통해 회사 정보의 보안을 유지하면서 직원이 거의 모든 장치에서 어디서나 자신의 작업 정보에 액세스하도록 할 수 있습니다.
 
@@ -101,4 +97,3 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 - [Windows 장치의 일반적인 문제 해결](troubleshoot-your-device-windows.md)
 
 아래에 의견을 게시하여 도움을 요청할 수 있지만 조직마다 요구 사항이 다르므로 질문에 대답할 수 없는 경우도 있습니다. IT 관리자에게 도움을 요청하는 것이 가장 빠르고 가장 관련성이 높은 응답을 받을 가능성이 큽니다. 해당 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 확인할 수 있습니다.
-

@@ -1,5 +1,5 @@
 ---
-title: "앱 배포 방법 | Microsoft 문서"
+title: "앱 배포 방법"
 description: "이 항목의 정보를 사용하여 Microsoft Intune으로 앱을 배포할 수 있습니다."
 keywords: 
 author: robstackmsft
@@ -14,12 +14,11 @@ ms.assetid: 3b42019e-73da-4538-a496-212f11d5bf9b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 7451b1872a848ac322db4ec485564f2ebf983f0d
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: f684a1b8d74f7625d3262d4f02eb9841a203e883
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="deploy-apps-in-microsoft-intune"></a>Microsoft Intune에서 앱 배포
 
@@ -74,4 +73,3 @@ iOS 장치에 **필요한** 앱을 배포한 경우 사용자는 앱을 설치�
 ## <a name="next-steps"></a>다음 단계
 
 앱을 배포한 후에 진행 상태를 모니터링하려고 합니다. 자세한 내용은 [Monitor apps in Microsoft Intune](monitor-apps-in-microsoft-intune.md)(Microsoft Intune에서 앱 모니터링) 항목을 참조하세요.
-

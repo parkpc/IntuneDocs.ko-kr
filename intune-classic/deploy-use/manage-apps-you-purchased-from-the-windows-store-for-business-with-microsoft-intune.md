@@ -1,5 +1,5 @@
 ---
-title: "비즈니스용 Windows 스토어 앱 관리 | Microsoft 문서"
+title: "비즈니스용 Windows 스토어 앱 관리"
 description: "Intune 콘솔에서 볼륨 구매 앱을 관리 및 배포하려는 경우 Microsoft Intune을 비즈니스용 Windows 스토어에 연결"
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: 8e38d47d-0c5e-40ce-b379-29d3657f5c28
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 0a6c84735b6bb8e7f636ea155437e7d90b8f3cc0
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 888d825fb9955e97b49e54a0c36ab882055076d8
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune"></a>Microsoft Intune을 사용하여 비즈니스용 Windows 스토어에서 구입한 앱 관리
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -86,4 +83,3 @@ Intune 콘솔에서 동기화를 사용하기 전에 관리 도구로 Intune을 
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune에서 모바일 장치에 앱 추가](add-apps-for-mobile-devices-in-microsoft-intune.md)
-

@@ -11,20 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: df973b18-9166-417d-8aa3-49edd2bda256
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 63595e9905a220c326c315f5932379a9b743d3de
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="your-android-device-is-missing-a-certificate-that-usually-comes-installed-on-your-phone"></a>Android 장치에 일반적으로 휴대폰에 설치되는 인증서가 없습니다.
 
 장치가 Intune에 등록되어 있지 않고 휴대폰에 보통 설치되어 나오는 인증서가 없는 경우 회사 포털 앱에 로그인할 수 없습니다. 로그인하려고 시도하면 다음과 같은 메시지가 표시됩니다.
@@ -51,4 +48,3 @@ ms.lasthandoff: 05/23/2017
 > 이 인증서를 설치해도 문제가 해결되지 않고 다른 "인증서 누락" 메시지가 표시되는 경우 추가 단계를 수행하여 [누락된 인증서를 설치](your-device-is-missing-an-IT-required-certificate-android.md)해야 합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

@@ -5,27 +5,23 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/16/2017
+ms.date: 06/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a26d9e3c-8f58-4494-9571-fc88ba91852e
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5ed0e84c16ea540c08e97cb55ef8a09cbc7339f6
-ms.openlocfilehash: f01d8b31f493b7103fe788aa62d37f9c73981984
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/25/2017
-
-
+ms.openlocfilehash: 90168dae6b73185ae8cdf6c55093c79ab3d729c0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="using-the-intune-company-portal-website"></a>Intune 회사 포털 웹 사이트 사용
 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)는 최종 사용자가 Intune에서 등록한 컴퓨터와 장치를 관리하는 데 사용할 수 있는 웹 페이지입니다.
 
@@ -41,7 +37,7 @@ ms.lasthandoff: 05/25/2017
 
 -   [장치 원격 잠금](remote-lock-your-device-cpwebsite.md)
 
--    [앱을 더 신속하게 설치하도록 수동으로 장치 동기화](sync-your-device-manually-cpwebsite.md)
+-   [앱을 더 신속하게 설치하도록 수동으로 장치 동기화](sync-your-device-manually-cpwebsite.md)
 
 -   IT 관리자의 연락처 정보를 구성한 경우 찾기
 
@@ -49,9 +45,4 @@ ms.lasthandoff: 05/25/2017
 
 -   PC를 원격으로 관리(PC에 대해서만 작동)
 
-최종 사용자가 장치에 설치하는 **회사 포털 앱**을 사용하여 수행할 수 있는 대부분의 동일한 작업을 **회사 포털 웹 사이트**에서 수행할 수 있습니다. 최종 사용자가 장치에서 수행할 수 있는 모든 작업에 대한 링크는 다음 페이지를 참조하세요.
-
-- [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
-- [Intune에서 iOS 또는 macOS 장치 사용](using-your-ios-or-macOS-device-with-intune.md)
-- [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
-
+여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

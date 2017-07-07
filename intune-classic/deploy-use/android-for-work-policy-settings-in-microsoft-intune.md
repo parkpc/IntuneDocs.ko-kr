@@ -1,5 +1,4 @@
 ---
-
 title: "Android for Work 정책 설정"
 description: "Intune으로 관리하는 Android for Work 장치에서 설정 및 기능을 제어하는 정책을 만듭니다."
 keywords: 
@@ -15,15 +14,12 @@ ms.assetid: 35a53076-74d6-486d-b201-e0da2e170008
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 858c4a525945694326952e8afe280e4b66cd2ccb
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="android-for-work-policy-settings-in-microsoft-intune"></a>Microsoft Intune에서 Android for Work 정책 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -93,4 +89,3 @@ Intune은 현재 제한된 수의 Android 사용자 지정 정책을 지원합�
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-

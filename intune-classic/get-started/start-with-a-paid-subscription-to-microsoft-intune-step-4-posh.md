@@ -1,5 +1,5 @@
 ---
-title: "PowerShell을 사용하여 Intune 라이선스 관리 | Microsoft 문서"
+title: "PowerShell을 사용하여 Intune 라이선스 관리"
 description: "PowerShell을 사용하여 Intune 라이선스 관리"
 keywords: 
 author: nathbarn
@@ -14,22 +14,19 @@ ms.assetid: d2d31c80-c32c-4315-8271-1b0cf9a1f78a
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 211b1aba54924204a7e2d33301824f9d7eb9c030
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 35bb4e87888a8769b3606659b93e3a73480b566f
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="manage-intune-licenses-using-powershell"></a>PowerShell을 사용하여 Intune 라이선스 관리
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 관리자가 PowerShell을 사용하여 Intune 사용자 라이선스를 관리하는 방법을 알려줍니다.
 
-사용자가 로그인하여 Intune 서비스를 사용하거나 장치를 관리되는 상태로 등록하려면 먼저 [Intune 라이선스 관리](start-with-a-paid-subscription-to-microsoft-intune-step-4.md)에 각 사용자에게 Intune 구독에 사용할 라이선스를 할당해야 합니다. 그러나 Microsoft Enterprise Mobility + Security를 사용하는 조직에는 EMS 패키지의 Intune 서비스 또는 Azure Active Directory Premium만 필요한 사용자가 있을 수 있습니다. [Azure Active Directory PowerShell cmdlet](https://msdn.microsoft.com/library/jj151815.aspx)을 사용하여 한 가지 서비스 또는 서비스 하위 집합을 할당할 수 있습니다.
+사용자가 로그인하여 Intune 서비스를 사용하거나 장치를 관리되는 상태로 등록하려면 먼저 [Intune 라이선스 관리](/intune/licenses-assign)에 각 사용자에게 Intune 구독에 사용할 라이선스를 할당해야 합니다. 그러나 Microsoft Enterprise Mobility + Security를 사용하는 조직에는 EMS 패키지의 Intune 서비스 또는 Azure Active Directory Premium만 필요한 사용자가 있을 수 있습니다. [Azure Active Directory PowerShell cmdlet](https://msdn.microsoft.com/library/jj151815.aspx)을 사용하여 한 가지 서비스 또는 서비스 하위 집합을 할당할 수 있습니다.
 
 EMS 서비스에 대해 사용자 라이선스를 선택적으로 할당하려면, [Windows PowerShell용 Azure Active Directory 모듈](https://msdn.microsoft.com/library/jj151815.aspx#bkmk_installmodule)이 설치된 컴퓨터에서 관리자로 PowerShell을 엽니다. PowerShell은 로컬 컴퓨터 또는 ADFS 서버에 설치할 수 있습니다.
 
@@ -71,6 +68,4 @@ EMS 서비스에 대해 사용자 라이선스를 선택적으로 할당하려�
 ### <a name="next-steps"></a>다음 단계
 축하합니다. *Intune 빠른 시작 가이드*의 4단계를 완료했습니다.
 >[!div class="step-by-step"]
-
->[&larr; **사용자를 Intune에 동기화**](.\start-with-a-paid-subscription-to-microsoft-intune-step-2.md)     [**사용자 및 장치 구성** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)  
-
+(/intune/custom-domain-name-configure) [&larr; **사용자를 Intune에 동기화**](/intune/custom-domain-name-configure)     [**사용자 및 장치 구성** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)  

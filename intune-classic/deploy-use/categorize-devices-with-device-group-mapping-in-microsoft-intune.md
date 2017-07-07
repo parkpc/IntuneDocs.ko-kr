@@ -1,11 +1,11 @@
 ---
-title: "장치 그룹 매핑을 사용하여 장치 분류 | Microsoft 문서"
+title: "장치 그룹 매핑을 사용하여 장치 분류"
 description: "이러한 장치를 쉽게 관리하기 위해 Microsoft Intune 장치 그룹 매핑을 사용하여 장치를 정의하는 범주에 그룹화할 수 있습니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 10/26/2016
+ms.date: 06/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,12 @@ ms.assetid: 8b8c06a3-6b6c-4cf1-8646-b24fa9b1a39e
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 618827ed6baf7a9dec6aef804f19bcbca08ed39f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: ff136d430496392b6ca8e5b944820fe9e14553d3
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="categorize-devices-with-device-group-mapping-in-microsoft-intune"></a>Microsoft Intune에서 장치 그룹 매핑을 사용하여 장치 분류
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -32,7 +30,7 @@ ms.lasthandoff: 05/23/2017
 1. 사용자가 자신의 장치를 등록할 때 선택할 범주 만들기
 2. 그룹을 만들거나, 사용할 각 범주에 대한 기존 그룹을 사용합니다. 사용 중인 Intune 버전에 따라 Intune 그룹 또는 Azure Active Directory 보안 그룹이 될 수 있습니다.
 2. 선택한 범주를 만든 장치 그룹에 매핑하는 규칙을 구성합니다.
-3. 최종 사용자가 해당 장치를 등록할 경우 구성한 범주 목록에서 범주를 선택해야 합니다. 선택한 후에 자동으로 만든 해당 그룹에 장치가 추가됩니다. 장치를 이미 등록한 경우 최종 사용자에게 다음번에 회사 포털 앱에 액세스할 때 범주를 선택할지 묻는 메시지가 표시됩니다.
+3. iOS 및 Android 장치의 최종 사용자는 해당 장치를 등록할 경우 구성된 범주 목록에서 범주를 선택해야 합니다. Windows 장치에 범주를 할당하려는 경우 최종 사용자는 회사 포털 웹 사이트를 사용해야 합니다(자세한 내용은 이 항목의 **장치 그룹을 구성한 후** 참조).
 4. 그런 다음 이러한 그룹에 정책 및 앱을 배포할 수 있습니다.
 
 원하는 모든 장치 범주를 만들 수 있습니다. 예를 들면 다음과 같습니다.
@@ -86,8 +84,13 @@ Azure Active Directory 기반 보안 그룹은 단계적으로 구현되므로 [
 
 ## <a name="after-you-configure-device-groups"></a>장치 그룹 구성 후
 
-사용자가 해당 장치를 등록할 경우 구성한 범주의 목록으로 표시됩니다. 범주를 선택하고 등록을 완료한 후에 이 장치는 선택한 범주에 해당하는 Intune 장치 그룹 또는 Active Directory 보안 그룹에 추가됩니다.
+iOS 및 Android 장치의 최종 사용자는 해당 장치를 등록할 경우 구성된 범주 목록에서 범주를 선택해야 합니다. 범주를 선택하고 등록을 완료한 후에 이 장치는 선택한 범주에 해당하는 Intune 장치 그룹 또는 Active Directory 보안 그룹에 추가됩니다.
+
+Windows 장치에 범주를 할당하려는 경우 최종 사용자는 장치를 등록한 후에 회사 포털 웹 사이트(portal.manage.microsoft.com)를 사용해야 합니다. Windows 장치에서 웹 사이트에 액세스한 다음 **메뉴** > **내 장치**로 이동합니다. 페이지에 나열되어 있는 등록된 장치를 선택하고 범주를 선택합니다. 
+
+범주를 선택하고 나면 작성한 해당 그룹에 장치가 자동으로 추가됩니다. 범주를 구성하기 전에 장치를 이미 등록한 경우 최종 사용자에게는 회사 포털 웹 사이트의 장치에 대한 알림이 표시되며, 다음번에 iOS나 Android에서 회사 포털 앱에 액세스할 때 범주를 선택할지를 묻는 메시지가 표시됩니다.
+
+
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
-

@@ -13,12 +13,11 @@ ms.technology:
 ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
 ms.reviewer: chrisgre
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: f43c2fb3c2aaff43aaef8cb033185c8c517d83a0
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="help-protect-your-devices-with-remote-lock-and-passcode-reset"></a>원격 잠금 또는 암호 재설정으로 장치 보호 지원
 
@@ -87,4 +86,3 @@ Intune 소프트웨어 클라이언트에 등록된 Windows PC에서는 암호 �
 
 ### <a name="see-also"></a>참고 항목
 [장치 사용 중지](retire-devices-from-microsoft-intune-management.md) 및 [장치 데이터 관리를 위한 Windows 선택적 초기화](http://technet.microsoft.com/library/dn486874.aspx)
-

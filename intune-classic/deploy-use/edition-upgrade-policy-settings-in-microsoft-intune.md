@@ -1,5 +1,5 @@
 ---
-title: "Windows 버전 업그레이드 정책 설정 | Microsoft 문서"
+title: "Windows 버전 업그레이드 정책 설정"
 description: "Intune을 사용하여 Windows 10 장치를 다른 버전으로 자동 업그레이드하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: 8589866a-3f13-489b-a5cd-cee017d16d54
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 81061f032ef2079695f45e54e99cbb6479252bed
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 1505adb219c38d9a67f4fa276ca345f05a0df42a
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="windows-edition-upgrade-policy-settings-in-microsoft-intune"></a>Microsoft Intune에서 Windows 버전 업그레이드 정책 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -56,4 +53,3 @@ Microsoft Intune **버전 업그레이드 정책**을 사용하면 다음 Window
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-

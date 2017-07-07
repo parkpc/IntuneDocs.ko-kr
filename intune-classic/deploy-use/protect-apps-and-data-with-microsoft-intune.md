@@ -14,15 +14,12 @@ ms.assetid: 5c46e188-87eb-4ce2-b184-24809e8bf783
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 09b7a1d4901a52845719e8d7094f665b12b91ab4
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-apps-and-data-with-microsoft-intune"></a>Microsoft Intune을 사용하여 앱 및 데이터 보호 | Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -55,4 +52,3 @@ Microsoft Office 앱 등의 앱에는 Intune 앱 SDK가 기본 제공됩니다. 
 [사용자 지정 작성된 LOB(기간 업무) 앱](/intune/apps-prepare-mobile-application-management)을 MAM 정책과 함께 사용하도록 설정할 수도 있습니다.
 
 데이터 이동을 제한하는 것 외에도 장치를 분실하거나 도난당한 경우 또는 사용자가 회사에서 더 이상 근무하지 않는 경우 [회사 데이터를 선택적으로 지울](wipe-managed-company-app-data-with-microsoft-intune.md) 수 있으며 개인 데이터만 내부에 남길 수 있습니다.
-

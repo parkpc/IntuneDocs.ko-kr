@@ -1,7 +1,7 @@
 ---
 title: "iOS 장치에 대한 Intune 사용자 지정 설정"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: iOS 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "iOS 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,18 +15,15 @@ ms.assetid: 6da8caa8-65c2-4f47-842f-9570dcb1ac22
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 3d1ccae3c36e13b4074c442b48943077041a8b52
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: b169fe74063b618f947f5d3d6809e0e49a5136e3
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="microsoft-intune-custom-settings-for-ios-devices"></a>iOS 장치에 대한 Microsoft Intune 사용자 지정 설정
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 [Apple Configurator 도구](https://itunes.apple.com/app/apple-configurator-2/id1037126344?mt=12)를 사용하여 만든 설정을 Microsoft Intune iOS 사용자 지정 프로필을 사용하여 iOS 장치에 할당할 수 있습니다. 이 도구를 사용하면 이러한 장치의 작업을 제어하는 많은 설정을 만들어 구성 프로필에 내보낼 수 있습니다. 그런 다음 이 구성 프로필을 Intune iOS 사용자 지정 프로필로 가져와서 조직의 사용자와 장치에 설정을 할당할 수 있습니다.
 
@@ -41,4 +38,3 @@ ms.lasthandoff: 05/23/2017
 Apple Configurator 도구에서 내보내는 설정이 iOS 사용자 지정 정책을 할당하는 장치에 있는 iOS의 버전과 호환되는지 확인합니다. 호환되지 않는 설정을 해결하는 방법에 대한 정보를 보려면 [Apple 개발자](https://developer.apple.com/) 웹 사이트에서 **구성 프로필 참조** 및 **모바일 장치 관리 프로토콜 참조**를 검색하세요.
 
 가져온 파일은 블레이드의 **파일 내용** 영역에 표시됩니다.
-

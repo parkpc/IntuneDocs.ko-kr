@@ -1,5 +1,5 @@
 ---
-title: "Lookout for Work 앱 배포 | Microsoft 문서"
+title: "Lookout for Work 앱 배포"
 description: "Android용 Lookout for Work 앱을 구성하고 배포합니다."
 author: andredm7
 ms.author: andredm
@@ -13,15 +13,12 @@ ms.assetid: 524c4209-ad57-4d35-955e-a00d796bf858
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 95f7c782558f98d5be3a89d24b9e9721a7bd40c0
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 5d4f496709a8607b0d6d473355c96e8fc502838b
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="configure-and-deploy-lookout-for-work-app"></a>Lookout for Work 앱 구성 및 배포
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -30,12 +27,12 @@ ms.lasthandoff: 05/23/2017
 
 ## <a name="android-google-play-store-app"></a>Android(Google Play 스토어 앱)
 
-1.    [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에서 **앱**으로 이동하고 **앱 추가**를 선택합니다.
-2.    게시자의 **소프트웨어 설치** 페이지에서 **외부 링크**를 선택한 후 다음 URL을 지정합니다. https://play.google.com/store/apps/details?id=com.lookout.enterprise
+1.  [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에서 **앱**으로 이동하고 **앱 추가**를 선택합니다.
+2.  게시자의 **소프트웨어 설치** 페이지에서 **외부 링크**를 선택한 후 다음 URL을 지정합니다. https://play.google.com/store/apps/details?id=com.lookout.enterprise
   >[!NOTE]
   >관리되는 브라우저가 필요한 상자는 클릭하지 마세요.
 
-3.    **소프트웨어 설명** 페이지에서 다음 정보를 입력합니다.
+3.  **소프트웨어 설명** 페이지에서 다음 정보를 입력합니다.
   * **게시자:** Lookout Mobile Security
   * **이름:** Lookout for Work
   * **설명:** Lookout은 우수한 보호 기능으로 장치를 모바일 위협으로부터 안전하게 지켜줍니다. Lookout 앱을 장치에 설치하면 앱이 위협으로부터 장치를 보호하고 위협을 발견하면 사용자는 물론, 사용자의 회사 관리자에게 알려줍니다.
@@ -96,4 +93,3 @@ https://github.com/Microsoft/Docs/blob/master/ContributorGuide/index.md 사용�
 
 ## <a name="next-steps"></a>다음 단계
 * [Intune에서 Lookout 장치 준수 정책 만들기](https://docs.microsoft.com/sccm/protect/deploy-use/enable-device-threat-protection-rule-compliance-policy)
-

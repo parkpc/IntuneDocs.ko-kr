@@ -1,7 +1,7 @@
 ---
-title: "앱 정보 및 할당을 모니터링 하는 방법 | Microsoft 문서"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 사용자 또는 장치에 앱을 할당한 후 이 정보를 사용하여 해당 상태를 모니터링할 수 있습니다."
+title: "앱 정보 및 할당을 모니터링하는 방법"
+titleSuffix: Intune on Azure
+description: "사용자 또는 장치에 앱을 할당한 후 이 정보를 사용하여 해당 상태를 모니터링할 수 있습니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,17 +15,15 @@ ms.assetid: 64e5133d-1e23-4ee6-b556-f5d32c0e95da
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 7c39c904cd2a7bd20525d9072067c6e484b4437a
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: d588ecc8f2e211b5a8ccdfe7b7720869cc6327b8
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-monitor-app-information-and-assignments-with-microsoft-intune"></a>Microsoft Intune으로 앱 정보 및 할당을 모니터링 하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Intune에서는 관리하는 앱 속성 및 해당 할당 상태를 모니터링할 수 있는 다양한 방법을 제공합니다.
 

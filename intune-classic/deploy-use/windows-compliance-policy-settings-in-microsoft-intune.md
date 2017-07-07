@@ -14,15 +14,12 @@ ms.assetid: f996842c-e9a4-4819-acb4-ee66e8fb35b8
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 67810c51c7a7b2ec1e1ff33c11a27a8757b2bcbd
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="compliance-policy-settings-for-windows-devices-in-microsoft-intune"></a>Microsoft Intune에서 Windows 장치용 규정 준수 정책 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -156,4 +153,3 @@ ms.lasthandoff: 06/08/2017
 
 - Windows 10을 실행하는 PC의 버전은 **10.0**과 **winver** 명령에 의해 반환된 OS 빌드 번호로 설정되어야 합니다. 예를 들면 10.0.10586과 같이 설정해야 합니다.
 > !["Windows 정보" 대화 상자에 강조 표시된 OS 빌드 버전](./media/ca_win10-os-version.png)
-

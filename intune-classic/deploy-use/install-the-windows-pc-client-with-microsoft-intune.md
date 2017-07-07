@@ -1,6 +1,5 @@
 ---
-
-title: "PC 클라이언트 소프트웨어 설치 | Microsoft 문서"
+title: "PC 클라이언트 소프트웨어 설치"
 description: "이 가이드를 사용하여 Microsoft Intune 클라이언트 소프트웨어에서 관리되는 Windows PC를 얻을 수 있습니다."
 keywords: 
 author: nathbarn
@@ -14,16 +13,16 @@ ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 19cfb242fbd1be613b38c8aa06c12b741bc6cd74
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 356ada64224f8982baf93ddaccb44df123c4568c
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="install-the-intune-software-client-on-windows-pcs"></a>Windows PC에 Intune 소프트웨어 클라이언트 설치
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune 클라이언트 소프트웨어를 설치하여 Windows PC를 등록할 수 있습니다. Intune 클라이언트 소프트웨어는 다음 방법으로 설치할 수 있습니다.
 
 - IT 관리자가 수동 설치, 그룹 정책, 디스크 이미지에 포함된 설치 등의 방법 중 하나 사용
@@ -261,4 +260,3 @@ Intune 관리 콘솔을 사용하여 소프트웨어 클라이언트 등록을 �
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune으로 Windows PC 관리](manage-windows-pcs-with-microsoft-intune.md)
 [클라이언트 설정 문제 해결](../troubleshoot/troubleshoot-client-setup-in-microsoft-intune.md)
-

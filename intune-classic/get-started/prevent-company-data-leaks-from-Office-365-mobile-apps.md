@@ -14,15 +14,12 @@ ms.assetid: 19be3de7-539c-49f5-8c46-5363b987fef9
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 3f35dcb7168e9c76a8286a1425a26306914cfdb3
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="quick-start-guide-prevent-company-data-leaks-from-office-365-mobile-apps"></a>빠른 시작 가이드: Office 365 모바일 앱에서 회사 데이터 누수 방지
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -48,4 +45,3 @@ Microsoft Intune는 Office 365 모바일 앱 또는 다른 LOB(기간 업무) �
 [Microsoft MDM이 아닌 솔루션에서 Microsoft Intune으로 마이그레이션](/intune-classic/deploy-use/migrate-to-intune)
 
 [Intune MDM에 장치 등록](/intune-classic/deploy-use/enroll-devices-in-microsoft-intune)
-

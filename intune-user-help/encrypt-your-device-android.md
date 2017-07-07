@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 8ba85e15fb55a4de1b2f1db53bc5b9962de84394
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="how-to-protect-your-android-device-using-encryption"></a>암호화를 사용하여 Android 장치를 보호하는 방법
 
 장치를 암호화하면 장치의 정보를 보호 코드의 계층에 래핑하여 권한이 없는 사용자가 해당 정보에 액세스하는 것을 방지합니다. 정보 보안을 보장하기 위한 단계로서, 조직에서는 회사 파일, 메일 또는 데이터에 액세스하기 전에 Android 장치를 암호화할 것을 요구합니다.
@@ -70,4 +65,3 @@ ms.lasthandoff: 05/23/2017
     5. 회사 포털 앱을 열고 장치를 선택하고 **준수 확인**을 탭합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with encryption on my Android device&body=Describe the issue you're experiencing here.">Microsoft Android 팀</a>으로 메일을 보내세요.
-

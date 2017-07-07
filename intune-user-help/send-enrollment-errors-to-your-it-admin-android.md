@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d7c871b8-e5d8-4912-b87f-7e6bc59897be
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 667282ef1ab6e5058e852b6e3b94daecd01c5d53
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="send-enrollment-errors-to-your-it-admin"></a>IT 관리자에게 등록 오류 보내기
 
 Intune에서 Android 장치를 등록하는 동안 오류가 발생할 경우 **다시 시도**를 탭하여 등록해볼 수 있습니다. 이 작업이 제대로 진행되지 않을 경우 **정보 보내기**를 탭하여 IT 관리자에게 발생한 상황에 대한 정보를 보낼 수 있습니다.
@@ -36,4 +32,3 @@ Intune에서 Android 장치를 등록하는 동안 오류가 발생할 경우 **
 
 - [정보 보내기 단추를 사용하여 로그를 전자 메일로 보내기](send-logs-to-your-it-admin-by-email-android.md)
 - [USB 케이블을 사용하여 로그를 전자 메일 첨부 파일로 보내기](send-logs-to-your-it-admin-using-cable-android.md)
-

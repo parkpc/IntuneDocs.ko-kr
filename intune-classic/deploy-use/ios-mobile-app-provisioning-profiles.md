@@ -1,5 +1,5 @@
 ---
-title: "앱 프로비전 프로필 | Microsoft 문서"
+title: "앱 프로비전 프로필"
 description: "Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필 정책을 미리 배포하기 위한 도구를 제공합니다."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: 86fbe736-7bdb-4f5e-ae21-13c91eb2462c
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: adebcc5a8d8f43bed383b51bb094fa122ebabc0a
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 6e975aa7ee22f826c7a0a60d637d651fd347bc54
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="use-ios-mobile-provisioning-profile-policies-to-prevent-your-apps-from-expiring"></a>iOS 프로비전 프로필 정책을 사용하여 모바일 앱이 만료되지 않도록 방지
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -54,4 +51,3 @@ iPhone 및 iPad에 배포된 Apple iOS LOB(기간 업무) 앱은 포함된 프�
     - **구성 프로필 파일** - **가져오기**를 클릭하고 Apple 개발자 웹 사이트에서 다운로드한 Apple 모바일 구성 프로필 파일(확장명 **.mobileprovision**)을 선택합니다.
 4. 작업이 끝나면 **정책 저장**을 선택합니다.
 5. 이제 필요한 iOS 장치에 정책을 배포합니다. 자세한 내용은 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md) 항목을 참조하세요.
-

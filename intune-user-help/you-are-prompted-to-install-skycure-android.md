@@ -11,19 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 627cd171-6e1b-439e-809a-2e6f007c4b3d
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 531963056c4e488865b1c51b76e6b9ce97fe2eb8
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="you-need-to-install-skycure-on-your-android-device"></a>Android 장치에 Skycure를 설치해야 함
 
 작업에 액세스하기 전에 IT 관리자는 잠재적 보안 위협을 찾아 장치를 보호하는 데 도움이 되는 Skycure 앱을 설치하도록 요구합니다.
@@ -67,4 +63,3 @@ ms.lasthandoff: 05/23/2017
 제어할 수 없는 기술 문제로 인해 설치가 실패할 수 있습니다. 이런 경우 [Play 스토어에서 수동으로](https://play.google.com/store/apps/details?id=com.skycure.skycure) Skycure를 설치해 보세요.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

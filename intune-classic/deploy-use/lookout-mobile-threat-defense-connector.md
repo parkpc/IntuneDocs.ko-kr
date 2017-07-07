@@ -1,5 +1,5 @@
 ---
-title: "Lookout 모바일 위협 방어 커넥터 | Microsoft 문서"
+title: "Lookout Mobile Threat Defense 커넥터"
 description: "Lookout 모바일 위협 방어 커넥터 및 Intune을 사용하여 장치, 네트워크 및 응용 프로그램 위험에 따라 회사 리소스에 대한 액세스를 보호합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 725d9e40-e70c-461a-9413-72ff1b89a938
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 67654722e5c2bcbb768cf840a3f7ff1a24f99739
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 6ed808e3dd1db1bf58d4c0caa8cddccbc49c05f7
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="lookout-mobile-threat-defense-connector-with-intune"></a>Intune과 Lookout 모바일 위협 방어 커넥터
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -93,9 +90,8 @@ Intune에 등록한 경우 다음과 같은 플랫폼에서 Lookout이 지원됩
 
 ## <a name="next-steps"></a>다음 단계
 이 솔루션을 구현하기 위해 수행해야 하는 주요 단계는 다음과 같습니다.
-1.    [Lookout 구독 설정](setup-your-lookout-mtd-subscription.md)
-2.    [Intune에서 Lookout Mobile Threat Defense를 사용하도록 설정](enable-lookout-mtd-connection.md)
+1.  [Lookout 구독 설정](setup-your-lookout-mtd-subscription.md)
+2.  [Intune에서 Lookout Mobile Threat Defense를 사용하도록 설정](enable-lookout-mtd-connection.md)
 3.  [Lookout Mobile Threat Defense 앱 구성 및 배포](configure-deploy-lookout-for-work-app.md)
-4.    [Lookout 장치 준수 정책 구성](create-lookout-device-compliance-policy.md)
-5.    [Lookout Mobile Threat Defense 통합 문제 해결](/intune-classic/troubleshoot/device-threat-protection-troubleshooting)
-
+4.  [Lookout 장치 준수 정책 구성](create-lookout-device-compliance-policy.md)
+5.  [Lookout Mobile Threat Defense 통합 문제 해결](/intune-classic/troubleshoot/device-threat-protection-troubleshooting)

@@ -1,7 +1,7 @@
 ---
-title: "앱 프로비전 프로필 | Microsoft 문서"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필을 미리 할당하기 위한 도구를 제공합니다."
+title: "앱 프로비전 프로필"
+titleSuffix: Intune on Azure
+description: "Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필을 미리 할당하기 위한 도구를 제공합니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,17 +15,15 @@ ms.assetid: bbc3ba4a-df48-4aeb-988b-69a177764e3a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 966c097280ebebac68749e71c20381ee816360da
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: bf2da880f0f092b9948a400f6a10bd9ad032f959
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="use-ios-mobile-provisioning-profiles-to-prevent-your-apps-from-expiring"></a>iOS 모바일 프로비전 프로필을 사용하여 모바일 앱이 만료되지 않도록 방지
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="introduction"></a>소개
 
@@ -42,7 +40,7 @@ iPhone 및 iPad에 할당된 Apple iOS LOB(기간 업무) 앱은 포함된 프�
 ## <a name="how-to-create-an-ios-mobile-app-provisioning-profile"></a>iOS 모바일 앱 프로비전 프로필을 만드는 방법
 
 1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
+2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
 1.  **모바일 앱** 워크로드에서 **관리** > **iOS 프로비전 프로필**을 선택합니다.
 2.  프로필 목록 블레이드에서 **프로필 만들기**를 선택합니다.
@@ -55,4 +53,3 @@ iPhone 및 iPad에 할당된 Apple iOS LOB(기간 업무) 앱은 포함된 프�
 ## <a name="next-steps"></a>다음 단계
 
 필요한 iOS 장치에 프로필을 할당합니다. 자세한 내용은 [장치 프로필을 할당하는 방법](device-profile-assign.md)의 단계를 참조하세요.
-

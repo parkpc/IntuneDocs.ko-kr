@@ -1,7 +1,7 @@
 ---
 title: "앱 보호 정책 유효성 검사"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 이 항목에서는 앱 보호 정책이 올바르게 설정되어 있으며 정상적으로 작동하는지를 테스트하고 유효성을 검사하는 방법을 설명합니다."
+titleSuffix: Intune on Azure
+description: "이 항목에서는 앱 보호 정책이 올바르게 설정되어 있으며 정상적으로 작동하는지를 테스트하고 유효성을 검사하는 방법을 설명합니다.\""
 keywords: 
 author: NathBarn
 ms.author: nathbarn
@@ -15,21 +15,18 @@ ms.assetid: 15f8a838-0b69-412b-a42e-c6edb61f0cae
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 26e191965eff482cf97b920e028cdf60d1881d32
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: ddfecbcd8709569ff177e6c7021d3e8fdab39290
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-validate-your-app-protection-policy-setup"></a>앱 보호 정책 설정의 유효성을 검사하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 
-이 항목에서는 앱 보호 정책을 설정한 후 문제를 확인하는 방법에 대한 정보를 제공합니다. 이 지침은 Azure Portal **미리 보기**의 앱 보호 정책에 적용됩니다.
+이 항목에서는 앱 보호 정책을 설정한 후 문제를 확인하는 방법에 대한 정보를 제공합니다. 이 지침은 Azure Portal의 앱 보호 정책에 적용됩니다.
 
 ### <a name="checking-for-symptoms"></a>증상 확인
 앱 보호는 데이터 보호 도구이므로 사용자가 문제를 보고할 가능성은 거의 없습니다. 앱 보호 구성에 문제가 있더라도 앱 보호를 사용하지 않을 때와 마찬가지로, 제한 없이 앱 보호 기능에 액세스할 수 있으므로 사용자는 문제가 있음을 알 수 없습니다. 따라서 앱 보호 제한을 의도적으로 테스트할 수 있는 소규모 사용자 그룹에 대해 앱 보호 정책을 파일럿 적용해 앱 보호 구성의 유효성을 검사하는 것이 좋습니다.
@@ -61,4 +58,3 @@ ms.lasthandoff: 05/23/2017
 ### <a name="see-also"></a>참고 항목
 
 [Intune 앱 보호 정책이란?](app-protection-policies.md)
-

@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: c3f1d42d5998e70982bc279ef99560c486412daf
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="using-your-android-device-with-intune"></a>Intune에서 Android 장치 사용
 
 편리한 업무를 위해 Intune에서 다양한 작업을 수행할 수 있습니다. 다음은 회사에서 요청될 수 있는 가장 일반적인 작업 목록입니다.
@@ -56,4 +51,3 @@ Intune은 현재 Android 4.0 이상을 지원합니다. Samsung KNOX 4.0 이상�
 - [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-android.md)
 - [회사 포털 앱을 사용하여 Android 장치를 초기화하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
 <!--- - [What is the Rights Management sharing app?](what-is-the-rms-sharing-app-android.md) --->
-

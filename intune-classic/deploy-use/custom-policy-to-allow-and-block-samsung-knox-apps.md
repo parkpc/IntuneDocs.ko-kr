@@ -1,5 +1,5 @@
 ---
-title: "KNOX에 대해 허용되거나 차단된 앱 | Microsoft 문서"
+title: "KNOX에 대해 허용된 앱 및 차단된 앱"
 description: "KNOX에 대해 허용되거나 차단되는 앱 목록을 만들 수 있도록 프로필을 사용자 지정합니다."
 keywords: 
 author: robstackmsft
@@ -14,14 +14,11 @@ ms.assetid: bbc8e0df-7bf3-494e-8bc4-dac59a98ab41
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 933a47163ccc66a1bab636982ca422c4a704656d
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
-
+ms.openlocfilehash: b215425534e833db7e92e3f60fc507a168ef576f
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices"></a>사용자 지정 정책을 사용하여 Samsung KNOX Standard 장치에 대해 앱을 허용하거나 차단
 
@@ -43,9 +40,9 @@ ms.lasthandoff: 05/23/2017
     
     - **설정 이름.** **PreventStartPackages**를 입력합니다.
     - **설정 설명.** ‘실행이 차단된 앱 목록’과 같이 설명을 선택적으로 입력합니다.
-    -     **데이터 형식.** 드롭다운 목록에서 **문자열**을 선택합니다.
-    -     **OMA-URI.** **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**를 입력합니다.
-    -     **값.** 차단할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|**를 사용할 수 있습니다. (예: package1, package2;)
+    -   **데이터 형식.** 드롭다운 목록에서 **문자열**을 선택합니다.
+    -   **OMA-URI.** **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**를 입력합니다.
+    -   **값.** 차단할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|**를 사용할 수 있습니다. (예: package1, package2;)
 
     사용자가 다른 앱을 모두 제외하는 반면 Google Play 스토어에서 설치할 수 있도록 허용된 앱 목록의 경우
 
@@ -74,4 +71,3 @@ ms.lasthandoff: 05/23/2017
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune의 Android 및 Samsung KNOX 정책 설정](android-policy-settings-in-microsoft-intune.md)
-

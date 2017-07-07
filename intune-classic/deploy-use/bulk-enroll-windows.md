@@ -1,5 +1,5 @@
 ---
-title: "Windows 10에 대한 대량 등록 | Microsoft Docs"
+title: "Windows 10에 대한 대량 등록"
 description: "Microsoft Intune에 대한 대량 등록 패키지를 만듭니다."
 keywords: 
 author: NathBarn
@@ -13,12 +13,11 @@ ms.technology:
 ms.assetid: 0053e37a-f26e-452f-9524-5039a635b52e
 ms.reviewer: damionw
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 027f2ff4e822f7800405bd0f318afe28a47c5a00
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: ab52ba70403da5192cd3539dfd6d1e64bd79268c
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Windows 장치에 대한 대량 등록
 
@@ -48,19 +47,19 @@ Windows 장치에 대한 대량 등록 작업에는 다음이 필요합니다.
   - **프로젝트 폴더** - 새 프로젝트를 저장할 위치
   - **설명** - 프로젝트에 대한 설명(옵션) ![Windows 구성 디자이너 앱에서 프로젝트 폴더 이름과 설명을 지정하는 스크린샷](../media/bulk-enroll-name.png)
 
-4.    장치에 대한 고유한 이름을 입력합니다. 이름에는 일련 번호(%%SERIAL%%) 또는 임의의 문자 집합이 포함될 수 있습니다. 필요에 따라 Windows 버전을 업그레이드하는 경우 제품 키를 입력하고, 공유용 장치를 구성하고, 사전 설치된 소프트웨어를 제거할 수도 있습니다.<BR>
+4.  장치에 대한 고유한 이름을 입력합니다. 이름에는 일련 번호(%%SERIAL%%) 또는 임의의 문자 집합이 포함될 수 있습니다. 필요에 따라 Windows 버전을 업그레이드하는 경우 제품 키를 입력하고, 공유용 장치를 구성하고, 사전 설치된 소프트웨어를 제거할 수도 있습니다.<BR>
 ![Windows 구성 디자이너 앱에서 이름, 프로젝트 폴더 및 설명을 지정하는 스크린샷](../media/bulk-enroll-device.png)
 
-5.    필요에 따라 장치를 처음 시작할 때 연결할 Wi-Fi 네트워크 장치를 구성할 수 있습니다.  구성되지 않는 경우에는 장치를 처음 시작할 때 유선 네트워크 연결이 필요합니다.
+5.  필요에 따라 장치를 처음 시작할 때 연결할 Wi-Fi 네트워크 장치를 구성할 수 있습니다.  구성되지 않는 경우에는 장치를 처음 시작할 때 유선 네트워크 연결이 필요합니다.
 ![Windows 구성 디자이너 앱에서 네트워크 SSID 및 네트워크 유형 옵션을 포함하여 Wi-Fi를 사용하도록 구성하는 스크린샷](../media/bulk-enroll-network.png)
 
-6.    **Azure AD에 등록**을 선택하고, **대량 토큰 만료** 날짜를 입력한 다음 **대량 토큰 가져오기**를 선택합니다.
+6.  **Azure AD에 등록**을 선택하고, **대량 토큰 만료** 날짜를 입력한 다음 **대량 토큰 가져오기**를 선택합니다.
 ![Windows 구성 디자이너 앱에서 이름, 프로젝트 폴더 및 설명을 지정하는 스크린샷](../media/bulk-enroll-account.png)
 
 7. 대량 토큰을 가져올 Azure AD 자격 증명을 제공합니다.
 ![Windows 구성 디자이너 앱에서 이름, 프로젝트 폴더 및 설명을 지정하는 스크린샷](../media/bulk-enroll-cred.png)
 
-8.    **대량 토큰**을 성공적으로 가져오면 **다음**을 클릭합니다.
+8.  **대량 토큰**을 성공적으로 가져오면 **다음**을 클릭합니다.
 
 9. 필요에 따라 **응용 프로그램 추가** 및 **인증서 추가**를 수행할 수 있습니다. 이러한 앱 및 인증서는 장치에서 프로비전됩니다.
 
@@ -88,4 +87,3 @@ Windows 장치에 대한 대량 등록 작업에는 다음이 필요합니다.
 
 - 로컬 계정을 만들지 않는 Active Directory 도메인 또는 Azure Active Directory 테넌트에 연결하려는 프로비전 패키지의 경우 네트워크 연결 중단으로 인해 도메인 연결 프로세스가 실패하는 경우 장치에 연결할 수 없습니다.
 - 프로비전 패키지에서 실행된 스크립트는 시스템 컨텍스트에서 실행되며, 장치 파일 시스템 및 구성에 대해 임의로 변경할 수 없습니다. 악의적이거나 잘못된 스크립트는 장치를 이미지로 다시 설치하거나 공장 기본값으로 설정하는 방법으로만 복구할 수 있는 상태를 만듭니다.
-

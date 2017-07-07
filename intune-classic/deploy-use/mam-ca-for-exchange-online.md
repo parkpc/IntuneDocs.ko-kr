@@ -1,5 +1,5 @@
 ---
-title: "Exchange Online에 대한 앱 액세스 | Microsoft 문서"
+title: "Exchange Online에 대한 앱 액세스"
 description: "이 항목에서는 MAM 앱에 대한 조건부 액세스 정책을 구성하는 방법에 대해 설명합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: f2cd1a1f-fd29-4081-8dfa-c40993a107d5
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: df84bdf2358b596905299c7099ce22e128e9d17d
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 2ef4a0c0e642026d625d7139b2ea2629cdd96930
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="create-an-exchange-online-conditional-access-to-only-allow-apps-supported-by-mam"></a>MAM에서 지원하는 앱만 허용하도록 Exchange Online 조건부 액세스 만들기
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -64,4 +61,3 @@ ms.lasthandoff: 05/23/2017
 [최신 인증이 없는 앱 차단](block-apps-with-no-modern-authentication.md)
 ### <a name="see-also"></a>참고 항목
 [앱 보호 정책을 사용하여 앱 데이터 보호](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
-

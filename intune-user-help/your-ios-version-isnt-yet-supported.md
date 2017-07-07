@@ -11,25 +11,19 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ada223d7-2a80-4415-bd85-5bdf9eca7ace
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 22144721ba6bfad565009b306e7216ad1e5582af
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="your-ios-devices-operating-system-version-isnt-yet-supported"></a>사용 중인 iOS 장치의 운영 체제 버전이 아직 지원되지 않는 경우
 
 기술이 빠른 속도로 개발됨에 따라, 사용 중인 장치의 운영 체제 버전을 IT 관리자가 아직 테스트하지 못했을 수도 있습니다. 즉, 최신 버전의 iOS는 회사의 일부 다른 도구와 연동되지 않을 수도 있습니다.
 
 이 문제를 해결하려면 IT 관리자에게 문의해야 합니다. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

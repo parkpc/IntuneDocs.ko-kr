@@ -1,5 +1,5 @@
 ---
-title: "Android MAM 정책 설정 | Microsoft 문서"
+title: "Android MAM 정책 설정"
 description: "이 항목에서는 Android 장치용 모바일 앱 관리 정책 설정에 대해 설명합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 5dbb702a-1df5-4637-95c9-77a5f0b1a0e3
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 017c316ce102b71b3ef9552d8fe69181b79473de
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/31/2017
-
-
+ms.openlocfilehash: 785e36bb9354e02e4040b5cf2271cbf6f10c4041
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="android-app-protection-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 Android 앱 보호 정책 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -91,4 +88,3 @@ ms.lasthandoff: 05/31/2017
 | **앱 데이터를 초기화하기 전의 오프라인 간격(일)** | 관리자가 정의된 기간(일) 동안 오프라인 상태로 실행할 경우 앱 자체에서 선택적 초기화를 수행합니다. 이 선택적 초기화는 MAM 초기화 워크플로에서 관리자가 시작할 수 있는 것과 동일한 초기화입니다. <br><br> | 90일 |
 | **화면 캡처 및 Android Assistant 차단(Android 6.0 이상)** | 이 앱을 사용할 때 장치의 화면 캡처 및 **Android Assistant** 기능을 차단하려면 **예**를 선택합니다. **예**를 선택하면 회사 또는 학교 계정으로 이 앱을 사용할 때 최근 사용 앱 미리 보기 이미지도 흐리게 표시됩니다. | 아니요 |
 | **장치 PIN을 관리하는 경우 앱 PIN 사용 안 함** | 등록된 장치에서 장치 잠금이 검색되는 경우 앱 PIN을 사용하지 않도록 설정하려면 **예**를 선택합니다. | 아니요 |
-
