@@ -1,12 +1,12 @@
 ---
 title: "모바일 장치 관리 기관 설정"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Intune에서 모바일 장치 관리 기관을 설정하는 방법을 알아봅니다. "
+titleSuffix: Intune on Azure
+description: "Intune에서 모바일 장치 관리 기관을 설정하는 방법을 알아봅니다. \""
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 04/20/2016
+ms.date: 05/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,15 @@ ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: c36ddef7e53d6f4f15c82c97dc6d18863e6859f1
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: 449c45e0edcc0d0a33352ba154ad68fa6c4725c0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="set-the-mobile-device-management-authority"></a>모바일 장치 관리 기관 설정
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 MDM(모바일 장치 관리) 기관 설정에 따라 장치를 관리하는 방법이 결정됩니다. IT 관리자가 MDM 기관을 설정해야 사용자가 관리를 위해 장치를 등록할 수 있습니다.
 
@@ -37,8 +35,8 @@ MDM(모바일 장치 관리) 기관 설정에 따라 장치를 관리하는 방�
 
 - **Office 365용 모바일 장치 관리**  - Office 365와 Intune 클라우드 솔루션의 통합입니다. Office 365 관리 센터에서 Intune을 구성합니다. Intune 독립 실행형에서 제공되는 기능 중 일부를 포함합니다. Office 365 관리 센터에서 MDM 기관을 설정합니다.
 
->[!IMPORTANT]
->모바일 장치 관리 기관을 설정한 후 이를 변경하려면 [Microsoft 지원](https://docs.microsoft.com/intune-classic/troubleshoot/get-support)에 문의해야 하므로 신중하게 선택해야 합니다.
+>[!IMPORTANT]    
+Configuration Manager 버전 1610 이상과 Microsoft Intune 버전 1705에서는 Microsoft 지원에 문의하여 기존의 관리 장치를 등록 취소했다가 다시 등록할 필요 없이 MDM 기관을 변경할 수 있습니다. 자세한 내용은 [잘못된 MDM 기관 설정을 선택한 경우 수행할 작업](/intune-classic/deploy-use/prerequisites-for-enrollment#what-to-do-if-you-choose-the-wrong-mdm-authority-setting)을 참조하세요.
 
 ## <a name="set-mdm-authority-to-intune"></a>MDM 기관을 Intune으로 설정
 
@@ -48,3 +46,6 @@ MDM(모바일 장치 관리) 기관 설정에 따라 장치를 관리하는 방�
 
 3. **장치 관리 시작** 블레이드에서 **MDM 기관을 Intune으로 설정**을 선택합니다. MDM 기관을 Intune으로 설정했음을 나타내는 메시지가 표시됩니다.
 
+## <a name="mobile-device-cleanup-after-mdm-certificate-expiration"></a>MDM 인증서 만료 후 모바일 장치 정리
+
+MDM 인증서는 모바일 장치가 Intune 서비스와 통신할 때 자동으로 갱신됩니다. 모바일 장치가 초기화되거나 일정 기간에 Intune 서비스와 통신하지 못한 경우에는 MDM 인증서가 갱신되지 않습니다. MDM 인증서가 만료되고 180일 후 Azure Portal에서 장치가 제거됩니다.

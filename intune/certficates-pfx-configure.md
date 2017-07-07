@@ -1,12 +1,12 @@
 ---
 title: "Intune을 사용하여 PKCS 인증서 구성 및 관리"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 인프라를 구성한 다음 Intune PKCS 인증서 프로필을 만들어 할당하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "인프라를 구성한 다음 Intune PKCS 인증서 프로필을 만들어 할당하는 방법을 알아봅니다.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
 manager: angrobe
-ms.date: 04/22/2017
+ms.date: 06/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,14 @@ ms.assetid: e189ebd1-6ca1-4365-9d5d-fab313b7e979
 ms.reviewer: vinaybha
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 16fa26ae8ed06c4959807b30e430fd69fc503936
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
-
+ms.openlocfilehash: 305a4d79aa81bd599369e72bc0cb307fdf452643
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="configure-and-manage-pkcs-certificates-with-intune"></a>Intune을 사용하여 PKCS 인증서 구성 및 관리
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 이 항목에서는 Intune에서 인프라를 구성하고 PKCS 인증서를 만들고 할당하는 방법을 보여 줍니다.
 
@@ -118,7 +115,7 @@ PKCS 인증서 프로필을 사용하려면 엔터프라이즈 인증 기관 외
 ### <a name="to-enable-support-for-the-certificate-connector"></a>인증서 커넥터에 대한 지원을 사용하도록 설정하려면
 
 1.  Azure 포털에 로그인합니다.
-2.  **추가 서비스** > **기타** > **Intune**을 선택합니다.
+2.  **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3.  **Intune** 블레이드에서 **장치 구성**을 선택합니다.
 2.  **장치 구성** 블레이드에서 **설정** > **인증 기관**을 선택합니다.
 2.  **1단계** 아래에서 **사용**을 선택합니다.
@@ -190,10 +187,11 @@ Azure Portal에서 **장치 구성** 워크로드를 선택합니다.
         - **일반 이름**
         - **메일이 포함된 일반 이름**
         - **메일인 일반 이름**
-    - **주체 대체 이름** - Intune에서 인증서 요청의 SAN(주체 대체 이름) 값을 자동으로 만드는 방법을 지정합니다. 예를 들어 사용자 인증서 유형을 선택한 경우 주체 대체 이름에 UPN(사용자 계정 이름)을 포함할 수 있습니다. 클라이언트 인증서가 네트워크 정책 서버에 대한 인증에 사용되는 경우 주체 대체 이름을 UPN으로 설정해야 합니다.
+    - **주체 대체 이름** - Intune에서 인증서 요청의 SAN(주체 대체 이름) 값을 자동으로 만드는 방법을 지정합니다. 예를 들어 사용자 인증서 유형을 선택한 경우 주체 대체 이름에 UPN(사용자 계정 이름)을 포함할 수 있습니다. 클라이언트 인증서가 네트워크 정책 서버에 대한 인증에 사용되는 경우 주체 대체 이름을 UPN으로 설정합니다. 
+    **사용자 지정 Azure AD 특성**을 선택할 수도 있습니다. 이 옵션을 선택하면 다른 드롭다운 필드가 표시됩니다. **사용자 지정 Azure AD 특성** 드롭다운 필드에는 **부서**라는 옵션이 하나 있습니다. 이 옵션을 선택하는 경우 Azure AD에서 해당 부서가 식별되지 않으면 인증서가 발급되지 않습니다. 이 문제를 해결하려면 부서를 식별하고 변경 내용을 저장합니다. 그러면 다음번에 장치를 체크 인할 때 문제가 해결되고 인증서가 발급됩니다. 이 필드에 사용되는 표기법은 ASN.1입니다. 
     - **확장 키 사용**(Android) - **추가**를 클릭하여 인증서의 용도에 대한 값을 추가합니다. 대부분의 경우 인증서는 사용자 또는 장치가 서버에 인증할 수 있는 **클라이언트 인증** 이 필요합니다. 그러나 필요에 따라 다른 키 사용을 추가할 수 있습니다. 
     - **루트 인증서**(Android) - 이전에 구성하고 사용자 또는 장치에 할당한 루트 CA 인증서 프로필을 선택합니다. 이 CA 인증서는 이 인증서 프로필에서 구성하려는 인증서를 발급할 CA에 대한 루트 인증서여야 합니다. 이전에 만들어 놓은 신뢰할 수 있는 인증서 프로필입니다.
-8. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
+8. 완료되면 **프로필 만들기** 블레이드로 돌아와서 **만들기**를 클릭합니다.
 
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
 
@@ -208,4 +206,3 @@ Azure Portal에서 **장치 구성** 워크로드를 선택합니다.
 - 각 프로필을 별도로 할당하더라도 신뢰할 수 있는 루트 CA 및 PKCS 프로필을 할당해야 합니다. 그렇지 않으면 PKCS 인증서 정책에서 오류가 발생합니다.
 
 프로필을 할당하는 방법에 대한 내용은 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
-

@@ -1,5 +1,5 @@
 ---
-title: "Intune 평가판에 대한 기타 옵션 및 추가 기능 | Microsoft 문서"
+title: "Intune 평가판에 대한 기타 옵션 및 추가 기능"
 description: "경고, 알림 및 보고서와 Intune 무료 30일 평가판에 등록할 때 알아두어야 할 일반적인 일반 Intune 기능에 대해 설명합니다."
 keywords: 
 author: lindavr
@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 170cd959-d35b-4129-ae60-117d7e881bc9
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 3dcaf3ccc8c8581704351a19bce0a0ab57013040
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: c0299b9bcb8c4cf35e2ddf60da428cc04bbdb4f0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="other-options-and-extras-for-intune-evaluation-subscriptions"></a>Intune 평가판 구독에 대한 다른 옵션 및 추가 기능
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -46,16 +43,13 @@ Intune에는 이 짧은 연습 가이드에서 설명한 것보다 훨씬 많은
 
 -   **회사 리소스에 대한 액세스 제어.** 모바일 장치에 인증서, 전자 메일 프로필, VPN 프로필 및 Wi-Fi 프로필을 배포하여 모바일 장치를 보다 쉽고 빠르게 설정하도록 할 수 있습니다. 자세한 내용은 [Microsoft Intune을 사용하여 회사 리소스에 대한 액세스 허용](/intune-classic/Deploy-Use/enable-access-to-company-resources-with-microsoft-intune) 항목을 참조하세요.
 
-Intune의 전체 기능에 대해 자세히 알아보려면 다음을 참조하세요.
-- [Microsoft Intune의 등록된 장치 관리 기능](/intune-classic/get-started/mobile-device-management-capabilities-in-microsoft-intune)
-- [Microsoft Intune의 Windows PC 관리 기능](/intune-classic/get-started/windows-pc-management-capabilities-in-microsoft-intune)
+Intune의 전체 기능에 대해 자세히 알아보려면 [Microsoft Intune의 등록된 장치 관리 기능](/intune-classic/get-started/mobile-device-management-capabilities-in-microsoft-intune)을 참조하세요.
 
-Intune에 최근에 추가된 기능에 대해 자세히 알아보려면 [Microsoft Intune의 새로운 기능](/intune-classic/Deploy-Use/whats-new-in-microsoft-intune)을 참조하세요.
+Intune에 최근에 추가된 기능에 대해 자세히 알아보려면 [Microsoft Intune의 새로운 기능](/intune-classic/whats-new/whats-new-in-microsoft-intune)을 참조하세요.
 
 지원 옵션은 [Microsoft Intune에 대한 지원을 받는 방법](/intune-classic/Troubleshoot/how-to-get-support-for-microsoft-intune)에 설명되어 있으며 [Microsoft Intune 포럼](https://social.technet.microsoft.com/Forums/en-US/home?forum=microsoftintuneprod)에서 Intune에 대한 토론에 참여할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Intune을 사용하는 일반적인 방법](common-ways-to-use-intune.md) 읽어보기
+[Intune을 사용하는 일반적인 방법](/intune/common-scenarios) 읽어보기
 
 [유료 구독](get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)으로 전환
-

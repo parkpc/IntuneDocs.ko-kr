@@ -11,20 +11,16 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: f720befe-a6f9-4422-aa9b-4d85c9fc94e2
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: f46a93d42427ea41adf71403c91fa95052c0bba2
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="fix-common-issues-with-your-android-device"></a>Android 장치의 일반적인 문제 해결
 
 Android 장치에서 발생하는 문제가 문제 해결을 통해 해결되는 경우도 있습니다. 먼저 직접 해결해 볼 수 있는 몇 가지 일반적인 문제는 다음과 같습니다. 좀 더 복잡한 문제의 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 있는 연락처 정보를 통해 IT 관리자에게 문의하는 것이 좋습니다.
@@ -45,4 +41,3 @@ Android 장치에서 발생하는 문제가 문제 해결을 통해 해결되는
 - [장치가 암호화된 것으로 보이지만 회사 앱은 다르게 말하는 경우](your-device-appears-encrypted-but-cp-says-otherwise-android.md)
 - [Android 장치에 장치 위협 방지 앱을 설치하라는 메시지가 표시됨](you-are-prompted-to-install-mtd-android.md)
 - [Android 장치에서 장치 위협 방지 앱이 발견한 위협을 해결해야 함](you-need-to-resolve-a-threat-found-by-mtd-android.md)
-

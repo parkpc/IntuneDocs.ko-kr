@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 531b09bb-ddfd-498f-8ee3-6675d2466208
 ms.reviewer: chrisgre
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 2d9065281436d4c44e6af7d7a4401786a2a01965
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/31/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="set-up-app-based-conditional-access-ca-policies-for-sharepoint-online"></a>SharePoint Online에 대한 앱 기반 CA(조건부 액세스) 정책 설정
 
 [!INCLUDE[note for both-portals](../includes/note-for-both-portals.md)]
@@ -81,4 +78,3 @@ ms.lasthandoff: 05/31/2017
 [앱 보호 정책을 사용하여 앱 데이터 보호](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
 
 [Exchange Online에 대한 앱 기반 CA 구성](mam-ca-for-exchange-online.md)
-

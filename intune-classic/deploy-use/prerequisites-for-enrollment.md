@@ -1,11 +1,11 @@
 ---
-title: "모바일 장치 등록을 위한 필수 조건 | Microsoft 문서"
+title: "모바일 장치 등록의 전제 조건"
 description: "MDM(모바일 장치 관리) 필수 구성 요소를 설정하고 다른 운영 체제를 등록할 준비를 완료합니다."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 02/21/2017
+ms.date: 05/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,12 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 6877c5263f3c97b9cff295d62d39a365027151eb
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: ea6d7b9ffe698addc7ee317517abc7c760c232c0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="prerequisites-for-mobile-device-management-in-intune"></a>Intune에서 모바일 장치 관리를 위한 필수 조건
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -46,15 +43,14 @@ Configuration Manager가 포함된 Intune을 찾고 있나요?
 ## <a name="step-1-enable-connections"></a>1단계: 연결 사용
 
 모바일 장치 등록을 사용하도록 설정하기 전에 다음을 수행했는지 확인합니다.
-- [필요한 네트워크 URL 및 포트 검토](../get-started/network-bandwidth-use.md)
-- [도메인 이름 추가 및 확인](../get-started/start-with-a-paid-subscription-to-microsoft-intune-step-2.md)
+- [필요한 네트워크 URL 및 포트 검토](/intune/network-bandwidth-use)
+- [도메인 이름 추가 및 확인](/intune/custom-domain-name-configure)
 
 ## <a name="step-2-set-mdm-authority"></a>2단계: MDM 기관 설정
 MDM 기관은 일련의 장치를 관리할 권한을 가진 관리 서비스를 정의합니다. MDM 기관에 대한 옵션에는 Intune 자체 및 Intune을 사용하는 Configuration Manager가 포함됩니다. Configuration Manager를 관리 기관으로 설정한 경우 모바일 장치 관리에 다른 서비스를 사용할 수 없습니다.
 
 >[!IMPORTANT]
-> Intune만 사용(온라인 서비스)하여 모바일 장치를 관리할지, 아니면 Intune으로 System Center Configuration Manager(온-프레미스 소프트웨어 솔루션 및 온라인 서비스 결합)를 사용하여 모바일 장치를 관리할지를 신중히 고려해야 합니다. 모바일 장치 관리 기관을 설정한 후에는 Microsoft 지원 담당자의 도움 없이 변경할 수 없습니다. 자세한 내용은 [잘못된 MDM 기관 설정을 선택한 경우 수행할 작업](#what-to-do-if-you-choose-the-wrong-mdm-authority-setting)을 참조하세요.
-
+> Configuration Manager 버전 1610 이상과 Microsoft Intune 버전 1705에서는 Microsoft 지원에 문의하여 기존의 관리 장치를 등록 취소했다가 다시 등록할 필요 없이 MDM 기관을 변경할 수 있습니다. 자세한 내용은 [잘못된 MDM 기관 설정을 선택한 경우 수행할 작업](/intune-classic/deploy-use/prerequisites-for-enrollment#what-to-do-if-you-choose-the-wrong-mdm-authority-setting)을 참조하세요.
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리** &gt; **모바일 장치 관리**를 선택합니다.
 
@@ -116,7 +112,7 @@ Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장�
 
 ## <a name="step-5-assign-user-licenses"></a>5단계: 사용자 라이선스 할당
 
-**Office 365 관리 포털**을 사용하여 클라우드 기반 사용자를 수동으로 추가하고, 클라우드 기반 사용자 계정 및 온-프레미스 Active Directory에서 Azure AD(Azure Active Directory)로 동기화한 계정에 라이선스를 할당합니다. [Azure AD와 온-프레미스 사용자를 동기화](../get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3.md#how-to-sync-on-premises-users-with-azure-ad)할 수 있습니다.
+**Office 365 관리 포털**을 사용하여 클라우드 기반 사용자를 수동으로 추가하고, 클라우드 기반 사용자 계정 및 온-프레미스 Active Directory에서 Azure AD(Azure Active Directory)로 동기화한 계정에 라이선스를 할당합니다. [Azure AD와 온-프레미스 사용자를 동기화](/intune/users-permissions-add#how-to-sync-on-premises-users-with-azure-ad)할 수 있습니다.
 
 1.  테넌트 관리자 자격 증명을 사용하여 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx)에 로그인합니다.
 
@@ -154,7 +150,13 @@ MDM 기관을 설정한 후 조직에서 지원하려는 운영 체제에 대한
 
 ## <a name="what-to-do-if-you-choose-the-wrong-mdm-authority-setting"></a>잘못된 MDM 기관 설정을 선택한 경우 수행할 작업
 
-잘못된 MDM 기관 설정을 선택했으며 변경해야 하는 경우 Microsoft 지원에 문의해야 합니다. 직접 설정을 변경할 수는 없습니다. Microsoft 지원에 문의하기 전에, Microsoft 지원에서 설정을 변경하기 위해 제공해야 하는 정보를 설명하는 다음 정보를 검토합니다.
+잘못된 MDM 기관 설정을 선택했으며 변경해야 하는 경우 다음 옵션을 사용할 수 있습니다.
+
+### <a name="change-the-mdm-authority-yourself"></a>직접 MDM 기관 변경
+Configuration Manager 버전 1610 및 Microsoft Intune 버전 1705부터는 Microsoft 지원에 문의하여 기존의 관리 장치를 등록 취소했다가 다시 등록할 필요 없이 Microsoft Intune에서 Configuration Manager(하이브리드)로 변경하거나 그 반대로 변경하여 MDM 기관을 변경할 수 있습니다. 자세한 내용은 [MDM 기관 변경]( /sccm/mdm/deploy-use/change-mdm-authority)을 참조하세요.
+
+### <a name="contact-microsoft-support"></a>Microsoft 지원에 문의
+1610 이전 버전의 Configuration Manager를 사용하는 경우에는 Microsoft 지원에 문의해야 합니다. 직접 설정을 변경할 수는 없습니다. Microsoft 지원에 문의하기 전에, Microsoft 지원에서 설정을 변경하기 위해 제공해야 하는 정보를 설명하는 다음 정보를 검토합니다.
 
 MDM 기관을 다시 설정할 수 있는 세 가지 가능한 방법이 있습니다. 지원 요청에서 상황에 맞는 방법을 선택해야 합니다. 요청하는 시나리오가 목록에 없는 경우 Microsoft 지원에 문의하세요.
 
@@ -166,7 +168,7 @@ Microsoft 지원에서 다음 정보를 확인하도록 요청합니다.
 
 공존성을 사용하는 경우 Intune 및 Office 365 검사 목록을 둘 다 확인해야 합니다.
 
-### <a name="reset-mdm-authority-from-intune-to-configuration-manager"></a>MDM 기관을 Intune에서 Configuration Manager로 다시 설정
+#### <a name="reset-mdm-authority-from-intune-to-configuration-manager"></a>MDM 기관을 Intune에서 Configuration Manager로 다시 설정
 
 MDM 기관을 다시 설정하려면 Microsoft 지원에 문의하기 전에 다음 단계를 완료합니다.
 
@@ -180,7 +182,7 @@ MDM 기관을 다시 설정하려면 Microsoft 지원에 문의하기 전에 다
 - **정책** > **구성 정책**에서 MDM 장치에 대한 정책을 모두 삭제합니다.
 - **앱** > **관리 소프트웨어**에서 MDM 장치에 대해 게시된 모든 응용 프로그램을 삭제합니다.
 
-### <a name="reset-mdm-authority-from-configuration-manager-to-intune"></a>MDM 기관을 Configuration Manager에서 Intune으로 다시 설정
+#### <a name="reset-mdm-authority-from-configuration-manager-to-intune"></a>MDM 기관을 Configuration Manager에서 Intune으로 다시 설정
 
 MDM 기관을 다시 설정하려면 Microsoft 지원에 문의하기 전에 다음 단계를 완료합니다.
 
@@ -194,7 +196,7 @@ MDM 기관을 다시 설정하려면 Microsoft 지원에 문의하기 전에 다
 - SMS Executive 서비스를 다시 시작합니다.
 - 프로세스가 완료된 후 Configuration Manager 라이선스가 제거되었는지 확인할 수 있도록 몇 개의 예제 사용자를 제공합니다.
 
-### <a name="reset-mdm-authority-from-office-365-to-configuration-manager"></a>MDM 기관을 Office 365에서 Configuration Manager로 다시 설정
+#### <a name="reset-mdm-authority-from-office-365-to-configuration-manager"></a>MDM 기관을 Office 365에서 Configuration Manager로 다시 설정
 
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
 2. **보안 정책** 탭을 선택한 다음 **장치 관리**를 선택합니다.
@@ -205,10 +207,9 @@ MDM 기관을 다시 설정하려면 Microsoft 지원에 문의하기 전에 다
 >[!NOTE]
 >iOS APsN 인증서는 삭제할 수 없으며 계정에 연결된 상태로 유지됩니다.
 
-### <a name="next-steps-for-mdm-authority-resets"></a>MDM 기관 다시 설정을 위한 다음 단계
+#### <a name="next-steps-for-mdm-authority-resets"></a>MDM 기관 다시 설정을 위한 다음 단계
 
 Microsoft 지원에서 적용 가능한 검사 목록의 항목을 확인한 후 MDM 기관을 다시 설정하는 데 영업일 기준 최대 3일이 걸릴 수 있지만 일반적으로 1일 내에 다시 설정됩니다.
 
 >[!IMPORTANT]
 >Microsoft 지원에서 다시 설정이 완료된 것을 확인할 때까지 구독을 구성하지 마세요. 중간에 구성하면 손상되거나 Intune 서비스를 사용하지 못할 수 있습니다.
-

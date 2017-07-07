@@ -1,5 +1,5 @@
 ---
-title: "Exchange 온-프레미스에 대한 메일 보호 | Microsoft 문서"
+title: "Exchange 온-프레미스에 대한 전자 메일 보호"
 description: "조건부 액세스로 Exchange 온-프레미스에서 회사 전자 메일을 보호하고 액세스를 제어합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: a55071f5-101e-4829-908d-07d3414011fc
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 3098a301550413a982d3ce9664646f7dfc0b1d1f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/31/2017
-
-
+ms.openlocfilehash: 58d89fed98994c3c1bf77118a26592c855e8498e
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-email-access-to-exchange-on-premises-and-legacy-exchange-online-dedicated-with-intune"></a>Intune을 사용하여 Exchange 온-프레미스 및 레거시 Exchange Online Dedicated에 대한 메일 액세스 보호
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -137,4 +134,3 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
 -   [SharePoint Online에 대한 액세스 보호](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 
 -   [비즈니스용 Skype Online에 대한 액세스 보호](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
-

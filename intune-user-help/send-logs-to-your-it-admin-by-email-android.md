@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 85c868e7-8d63-480c-9770-4e99614a5c94
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 3794f6c908dabb1946a262a7238a38537b7b06ec
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="send-logs-to-your-it-admin-using-email"></a>메일을 사용하여 IT 관리자에게 로그 보내기
 
 Android 장치에서 회사 포털 앱을 사용할 때 오류가 표시되면 메일로 오류 정보를 보내 IT 관리자가 문제를 해결하도록 도울 수 있습니다. 이 정보는 장치의 _진단 로그_라는 특수 문서에 저장됩니다.
@@ -46,4 +41,3 @@ Android 장치에서 회사 포털 앱을 사용할 때 오류가 표시되면 �
 3.  **도움말** 아래에서 **도움 받기**를 누릅니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

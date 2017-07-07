@@ -11,15 +11,12 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5b56f8b4-269b-4e7f-b7e9-b0401bdd42f4
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: a9655730e15c7c7cd49cfbfbe197e7953f9c7b01
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="get-started-with-microsoft-intune"></a>Microsoft Intune 시작
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -30,4 +27,3 @@ ms.lasthandoff: 06/08/2017
 - [Intune 빠른 시작 가이드](/intune/setup-steps) - 평가판 구독을 테스트에서 엔터프라이즈 관리로 전환하거나 조직의 새 구독을 설정하기 위한 단계별 지침
 - [Intune으로 마이그레이션](/intune/migration-guide) - 현재 엔터프라이즈 이동성 관리 솔루션에서 Intune으로 마이그레이션하기 위한 지침
 - [Intune의 다음 단계](prevent-company-data-leaks-from-Office-365-mobile-apps.md) - 일반적인 Intune 작업에 대한 개요 및 다음 단계
-

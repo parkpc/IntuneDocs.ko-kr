@@ -14,15 +14,12 @@ ms.assetid: bc8c8be9-7f4f-4891-9224-55fc40703f0b
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: faf52c4166298d981532ee61c158f4a705c5a3da
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="add-apps-for-windows-pcs-that-run-the-intune-software-client"></a>Intune 소프트웨어 클라이언트를 실행하는 Windows PC에 앱 추가
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -101,4 +98,3 @@ PC에 앱을 설치하려면 앱이 사용자 조작 없이 자동으로 설치�
 앱을 만들면 다음 단계는 배포입니다. 자세한 내용은 [Microsoft Intune에서 앱 배포](deploy-apps.md)를 참조하세요.
 
 Windows PC에 소프트웨어를 배포하기 위한 팁과 요령에 대해 자세히 알아보려면 [Support Tip: Best Practices for Intune Software Distribution to PC’s](https://blogs.technet.microsoft.com/intunesupport/2016/06/13/support-tip-best-practices-for-intune-software-distribution-to-pcs/)(지원 팁: PC에 Intune 소프트웨어 배포를 위한 모범 사례) 블로그 게시물을 참조하세요.
-

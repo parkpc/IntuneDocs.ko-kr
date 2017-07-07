@@ -1,5 +1,5 @@
 ---
-title: "등록되지 않은 장치에서 LOB 앱 보호 | Microsoft 문서"
+title: "등록되지 않은 장치에서 LOB 앱 보호"
 description: "이 항목에서는 데이터 손실을 방지하는 데 도움이 되는 모바일 응용 프로그램 관리 정책을 적용할 수 있도록 사용자 지정 LOB(기간 업무) 앱을 준비하는 방법을 설명합니다."
 keywords: 
 author: mtillman
@@ -14,29 +14,26 @@ ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: f30837d90954b9b30b27e77240bb241db6e2b037
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 0b09daa05db673817bea67cd8b88c2ac63be7f1e
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-line-of-business-apps-and-data-on-devices-that-are-not-enrolled-in-microsoft-intune"></a>Microsoft Intune에 등록되지 않은 장치에서 LOB(기간 업무) 앱 및 데이터 보호
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-MAM(모바일 응용 프로그램 관리) 정책은 회사 데이터를 누수시킬 수 있는 작업을 제한하고 앱 PIN과 같은 데이터 액세스 요구 사항을 적용하여 회사 데이터를 보호하는 데 도움을 줍니다. MAM 정책을 iOS 및 Android 기간 업무 앱에 적용하려면 먼저 Microsoft Intune 앱 래핑 도구를 사용하여 앱을 래핑해야 합니다. 앱 래핑은 기본 응용 프로그램을 변경하지 않고도 관리 계층을 모바일 앱에 적용하는 프로세스입니다. 앱을 래핑한 후 MAM 정책을 앱에 적용하고 사용자에게 해당 앱을 배포할 수 있습니다.  
+MAM(모바일 응용 프로그램 관리) 정책은 회사 데이터를 누수시킬 수 있는 작업을 제한하고 앱 PIN과 같은 데이터 액세스 요구 사항을 적용하여 회사 데이터를 보호하는 데 도움을 줍니다. MAM 정책을 iOS 및 Android 기간 업무 앱에 적용하려면 먼저 Microsoft Intune 앱 래핑 도구를 사용하여 앱을 래핑해야 합니다. 앱 줄 바꿈은 chan/intune/apps-prepare-mobile-application-managementes 요청 없이 모바일 앱에 관리 계층을 적용하고 사용자에게 해당 앱을 배포하는 프로세스입니다.  
 
-이 항목에서는 **관리되지 않는 직원 소유 장치** 및 **타사 MDM(모바일 장치 관리) 솔루션**으로 관리되는 장치에서 사용자가 액세스하는 앱에 대해 MAM 정책을 적용하는 데 필요한 단계를 설명합니다.  **Intune MDM에 등록된 장치**에서 실행되는 기간 업무 앱을 준비하려면 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)을 참조하세요.
+이 항목에서는 **관리되지 않는 직원 소유 장치** 및 **타사 MDM(모바일 장치 관리) 솔루션**으로 관리되는 장치에서 사용자가 액세스하는 앱에 대해 MAM 정책을 적용하는 데 필요한 단계를 설명합니다.  **Intune MDM에 등록된 장치**에서 실행되는 기간 업무 앱을 준비하려면 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](/intune/apps-prepare-mobile-application-management)을 참조하세요.
 
 
 ##  <a name="step-1-prepare-the-app"></a>1단계: 앱 준비
 
-MAM 정책을 앱에 적용하려면 먼저 [iOS](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) 및 [Android](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)용 Microsoft Intune 앱 줄 바꿈 도구를 사용하여 앱을 줄 바꿈하거나, [Intune 앱 SDK](../develop/intune-app-sdk.md)를 사용하여 Intune 앱 보호 기능을 수동으로 통합합니다.
+MAM 정책을 앱에 적용하려면 먼저 [iOS](prepare-ios-apps-for-mo/intune/apps-prepare-mobile-application-managementoid](/intune/app-wrapper-prepare-android)용 Microsoft Intune 앱 줄 바꿈 도구를 사용하여 앱을 줄 바꿈하거나, [Intune 앱 SDK](/intune/app-sdk)를 사용하여 Intune 앱 보호 기능을 수동으로 통합해야 합니다.
 
-앱 줄 바꿈 도구와 SDK의 사용에 대한 자세한 내용은 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)을 참조하세요.
+앱 줄 바꿈 도구와 SDK의 사용에 대한 자세한 내용은 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](/intune/apps-prepare-mobile-application-management)을 참조하세요.
 
 ## <a name="step-2-add-the-app"></a>2단계: 앱 추가
 
@@ -49,7 +46,7 @@ LOB(기간 업무) 앱을 MAM 정책과 연결하려면 다음 단계를 사용�
 2. **기간 업무 앱** 블레이드에서 **사용자 지정 앱 추가**를 선택합니다.
 
   ![맨 위에 사용자 지정 앱 추가 단추가 있는 기간 업무 앱 블레이드의 스크린샷](../media/mam-azure-portal-add-lob-app-action.png)
-3.    앱 이름, 번들 식별자(앱 식별자 필드에) 및 플랫폼(iOS 또는 Android)을 지정합니다.
+3.  앱 이름, 번들 식별자(앱 식별자 필드에) 및 플랫폼(iOS 또는 Android)을 지정합니다.
 
   ![사용자 지정 앱 추가 블레이드의 스크린샷](../media/mam-azure-portal-add-app-details.png)
 
@@ -74,13 +71,12 @@ LOB(기간 업무) 앱을 MAM 정책과 연결하려면 다음 단계를 사용�
 ##  <a name="remove-apps"></a>앱 제거
 앱 목록에서 기간 업무 앱을 제거할 수 있습니다. 그러면 목록에서 앱이 제거되고 MAM 정책과의 연결이 제거되지만, 사용자의 장치에서 앱이 삭제되거나 제거되지는 않습니다.  
 
-1.    [Azure Portal](https://portal.azure.com/)에서 **Intune 모바일 앱 관리** > **설정**으로 이동합니다. **설정** 블레이드에서 **기간 업무**를 선택하여 기존 앱 목록을 엽니다.  
-2.    제거하려는 앱을 선택하고, **(...) 상황에 맞는** 메뉴를 선택합니다.
+1.  [Azure Portal](https://portal.azure.com/)에서 **Intune 모바일 앱 관리** > **설정**으로 이동합니다. **설정** 블레이드에서 **기간 업무**를 선택하여 기존 앱 목록을 엽니다.  
+2.  제거하려는 앱을 선택하고, **(...) 상황에 맞는** 메뉴를 선택합니다.
 
   ![줄임표가 표시된 기간 업무 앱 블레이드의 스크린샷](../media/mam-azure-portal-lob-context-menu.png)
-3.    **응용 프로그램 삭제**를 선택하여 앱을 삭제합니다.
+3.  **응용 프로그램 삭제**를 선택하여 앱을 삭제합니다.
 
   ![응용 프로그램 삭제 옵션이 표시된 기간 업무 앱 블레이드의 스크린샷](../media/mam-azure-portal-delete-app.png)
 
   그러면 기간 업무 앱 목록 및 MAM 정책의 대상 앱 목록에서 앱이 제거됩니다.
-

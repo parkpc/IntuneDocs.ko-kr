@@ -1,5 +1,5 @@
 ---
-title: "구성 정책 참조 | Microsoft 문서"
+title: "구성 정책 참조"
 description: "장치를 관리하는 데 사용해야 하는 Microsoft Intune 정책을 결정할 수 있도록 이 항목의 정보를 사용합니다."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: d27f2739-9791-4aae-a9db-01a4e59ccfe5
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 986e720f2b0722dd3f16e35f54c975eac5a12153
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: af13a591bdd0e3185a92702aab093d9ae3bc6434
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="microsoft-intune-configuration-policy-reference"></a>Microsoft Intune 구성 정책 참조
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -122,4 +119,3 @@ Windows Phone 및 등록된 Windows 장치에만 적용됩니다.
 ### <a name="see-also"></a>참고 항목
 
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-

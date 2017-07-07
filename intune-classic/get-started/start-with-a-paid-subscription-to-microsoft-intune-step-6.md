@@ -1,5 +1,5 @@
 ---
-title: "정책 및 앱 배포 | Microsoft 문서"
+title: "정책 및 앱 배포"
 description: "정책 설정을 사용하도록 설정하고 장치가 관리에 등록되면 즉시 적용되는 앱을 배포할 수 있습니다."
 keywords: 
 author: nathbarn
@@ -14,15 +14,12 @@ ms.assetid: e0d8e98f-7dd8-4cbf-887c-a9af63ffe970
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 90ca67757367f89a7c1a0eebea70f107eb279378
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: cf86d82fe636d2641f82ca951e508bea93abf683
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="create-policies-and-publish-apps"></a>정책 만들기 및 앱 게시
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -40,7 +37,7 @@ Intune에 앱을 등록하기 전에 이러한 장치가 관리에 등록되는 
 - [Android](/intune-classic/deploy-use/ios-policy-settings-in-microsoft-intune)
 - [Android 및 Samsung KNOX Standard](/intune-classic/deploy-use/android-policy-settings-in-microsoft-intune)
 - [Android for Work](/intune-classic/deploy-use/android-for-work-policy-settings-in-microsoft-intune)
-- [Windows 10 /intune-classic/deploy-use/windows-10-policy-settings-in-microsoft-intune)
+- [Windows 10(PC 및 모바일)](/intune-classic/deploy-use/windows-10-policy-settings-in-microsoft-intune)
 - [Windows 8.1](/intune-classic/deploy-use/windows-configuration-policy-settings-in-microsoft-intune)
 - [Windows Phone 8.1](/intune-classic/deploy-use/windows-phone-8-1-policy-settings-in-microsoft-intune)
 - [Windows 팀](/intune-classic/deploy-use/windows-team-configuration-policy-settings-in-microsoft-intune)
@@ -73,5 +70,4 @@ Intune에서 앱을 사용할 수 있으므로 관리되는 장치에 앱을 배
 
 >[!div class="step-by-step"]
 
->[&larr; **사용자 및 장치 구성**](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)       [**회사 포털 사용자 지정** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-7.md)  
-
+>[&larr; **사용자 및 장치 구성**](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)       [**회사 포털 사용자 지정** &rarr;](/intune/company-portal-customize)  

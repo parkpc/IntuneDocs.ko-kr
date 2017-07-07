@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6d8c6372-f2ce-4558-8886-1d7c1966699c
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: sumitp
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: a71b8d1a100100e204eb7e90ba0ab00573ffc5c6
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enroll-your-ios-device-in-telecom-expense-management"></a>TEM(Telecom Expense Management)에 iOS 장치 등록
 
 조직에서 데이터 및 음성 요금제가 허용 한도 내에서 사용되고 있는지 확인하기 위해 TEM(Telecom Expense Management)을 사용하고 있을 수 있습니다. 장치를 등록하면 해당 장치의 가장 적합한 범주를 선택하라는 메시지가 표시됩니다.
@@ -68,4 +64,3 @@ ms.lasthandoff: 05/23/2017
 등록을 완료했으면 Datalert 앱에서 데이터 사용량을 확인하기 시작합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

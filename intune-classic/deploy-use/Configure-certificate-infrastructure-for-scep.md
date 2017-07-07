@@ -14,12 +14,11 @@ ms.assetid: 4ae137ae-34e5-4a45-950c-983de831270f
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 9b62e03d88055c19a04c3968a1f060e20ae4fc65
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="configure-certificate-infrastructure-for-scep"></a>SCEP 인증서 인프라 구성
 
@@ -353,4 +352,3 @@ NDES 서버에서 인증서 커넥터 다운로드, 설치 및 구성
 
 ## <a name="next-steps"></a>다음 단계
 이제 [인증서 프로필 구성](Configure-Intune-certificate-profiles.md)에 설명된 대로 인증서 프로필을 구성할 준비가 되었습니다.
-

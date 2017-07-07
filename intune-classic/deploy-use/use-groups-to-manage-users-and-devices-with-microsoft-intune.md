@@ -14,13 +14,11 @@ ms.assetid: eb9b01ce-9b9b-4c2a-bf99-3879c0bdaba5
 ms.reviewer: lpatha
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 13c8946dd75d6bdede0e2a8941030250c6b12ef6
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="use-groups-to-manage-users-and-devices-in-microsoft-intune"></a>Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리
 
@@ -153,4 +151,3 @@ Intune 관리 콘솔에서 서비스 관리자를 위한 필터링된 그룹 보
 
 > [!NOTE]
 > 제한 수준이 다른 두 정책을 같은 장치나 사용자에 적용하면 보다 제한적인 정책이 실제로 적용됩니다.
-

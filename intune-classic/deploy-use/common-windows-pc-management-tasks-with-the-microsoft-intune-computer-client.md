@@ -14,15 +14,12 @@ ms.assetid: eb912c73-54d2-4d78-ac34-3cbe825804c7
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 535979b6adf25c67daaab2df924cbb0e21e15a36
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="common-windows-pc-management-tasks-with-the-intune-software-client"></a>Intune 소프트웨어 클라이언트를 사용하는 일반 Windows PC 관리 태스크
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -39,6 +36,5 @@ ms.lasthandoff: 06/08/2017
 - [Windows PC에 대한 사용자-장치 연결 관리](manage-user-device-linking-for-windows-pcs-with-microsoft-intune.md) - 사용자에게 소프트웨어를 배포하기 전에 사용자를 PC에 연결해야 하는 경우 및 방법을 설명합니다.
 
 - [Windows PC 원격 지원 요청 및 제공](request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune.md) - Intune PC 사용자가 원격 지원을 받는 방법을 설명하고 필수 구성 요소 및 TeamViewer 설치를 설명합니다.
-
 
 

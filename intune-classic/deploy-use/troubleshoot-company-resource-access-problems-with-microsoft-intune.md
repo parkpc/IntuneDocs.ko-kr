@@ -14,15 +14,12 @@ ms.assetid: 40622ced-6029-4abf-873e-b51d2b51934c
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: e440864e76e1b64e65b185606fe65bc9cb94c545
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="troubleshoot-company-resource-access-problems-with-microsoft-intune"></a>Microsoft Intune 관련 회사 리소스 액세스 문제 해결
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -376,4 +373,3 @@ Microsoft Intune 작업이 오류 코드를 반환하는 경우, 문제 해결�
 
 ### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](../troubleshoot/how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
-

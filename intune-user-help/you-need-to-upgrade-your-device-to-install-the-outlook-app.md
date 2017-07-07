@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ccb7451e-5ffc-4604-b28e-8322cc64c58c
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: vadona
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 081798753f3e962e0ca500097fc55e021802c73d
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="you-need-to-upgrade-your-device-to-install-the-outlook-app"></a>Outlook 앱을 설치하기 위해 장치를 업그레이드해야 하는 경우
 
 Outlook 앱을 통해 수백만 명의 사용자가 [iOS](https://itunes.apple.com/us/app/microsoft-outlook-email-calendar/id951937596?mt=8)와 [Android](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook) 장치 둘 다에 편리한 위치에서 메일 계정, 일정 및 파일을 모두 연결할 수 있습니다.
@@ -39,4 +35,3 @@ Outlook을 다운로드하여 설치하려는 경우 Outlook이 설치되는 대
 **설정** > **일반** > **소프트웨어 업데이트**를 탭합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

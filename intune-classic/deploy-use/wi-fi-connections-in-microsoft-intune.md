@@ -1,5 +1,5 @@
 ---
-title: "Wi-Fi 연결 | Microsoft 문서"
+title: "Wi-Fi 연결"
 description: "Wi-Fi 프로필을 통해 사용자의 Wi-Fi 네트워크 연결을 지원하는 방법을 설명합니다."
 keywords: 
 author: lleonard-msft
@@ -14,15 +14,12 @@ ms.assetid: 0b1b86ed-2e80-474d-8437-17dd4bc07b55
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 65fe17c42921d2c53153dca386ea40b9dea47d04
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 9b99762dfc8e527fc845755365a09fab8a0d3a0c
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="configure-devices-to-connect-to-your-corporate-wi-fi-networks"></a>회사 Wi-Fi 네트워크에 연결하도록 장치 구성
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -46,7 +43,7 @@ Microsoft Intune Wi-Fi 프로필을 사용하여 무선 네트워크 설정을 �
 
 -   Android 4.0 이상
 
--    Android for Work   
+-   Android for Work   
 
 -   iOS 8.0 이상
 
@@ -181,4 +178,3 @@ Windows에서는 **netsh wlan** 유틸리티를 사용하여 기존 Wi-Fi 프로
 
 ### <a name="see-also"></a>참고 항목
 [미리 공유한 키 Wi-Fi 프로필](pre-shared-key-wi-fi-profile.md)에서 미리 공유한 키를 사용하여 Wi-Fi 프로필을 만드는 방법을 알아보세요.
-

@@ -1,5 +1,5 @@
 ﻿---
-title: "앱 배포 모니터링| Microsoft 문서"
+title: "앱 배포 모니터링"
 description: "Intune으로 배포된 앱을 모니터링하는 방법에 대해 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -14,16 +14,12 @@ ms.assetid: 5daad56d-71c8-455b-8a55-f8b33e279a8a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 808268faa797d8576f5fb693d9940d97d17abf21
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 9255a9cb966ef02aba11e0a6aaf7caf7e808a41c
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="monitor-app-deployments-in-microsoft-intune"></a>Microsoft Intune에서 앱 배포 모니터링
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -49,4 +45,3 @@ Intune 관리 콘솔에서 관리하는 앱 및 배포 상태를 확인할 수 �
 앱의 **소프트웨어 속성** 페이지에서 다음 탭 중 하나를 선택합니다. **일반** - 앱 및 앱의 설치 상태에 대한 일반 정보를 보여 줍니다. **장치** - 앱의 대상 배포를 성공적으로 설치한 장치를 보여 줍니다. **사용자** - 앱의 대상 배포를 성공적으로 설치한 장치의 사용자를 보여 줍니다.
 
 앞에서 설명한 것처럼 **필터** 드롭다운 목록을 사용하여 각 탭에 표시되는 값을 구성할 수 있습니다.
-

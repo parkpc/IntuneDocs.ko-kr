@@ -5,35 +5,32 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/17/2017
+ms.date: 05/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 48644443-ff50-4af1-9c23-443e6e5c3b47
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 9c3276885a588e964f30b871fd1ee91ff83f3676
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 526cfed5e8f42d739c57882b454745ba5b20181c
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="fix-common-issues-with-your-windows-device"></a>Windows 장치의 일반적인 문제 해결
 
-Windows 장치에서 발생하는 문제가 문제 해결을 통해 해결되는 경우도 있습니다. 먼저 직접 해결해 볼 수 있는 몇 가지 일반적인 문제는 다음과 같습니다. 좀 더 복잡한 문제의 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 있는 연락처 정보를 통해 IT 관리자에게 문의하는 것이 좋습니다.
+Windows 장치에서 발생하는 문제가 문제 해결을 통해 해결되는 경우도 있습니다. 먼저 직접 해결해 볼 수 있는 몇 가지 일반적인 문제는 다음과 같습니다. 좀 더 복잡한 문제의 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에 있는 연락처 정보를 통해 IT 관리자에게 문의하는 것이 좋습니다.
 
 - [내 Windows 10 장치가 등록되지 않음](troubleshoot-your-windows-10-device-windows.md)
 - [Windows 장치를 업데이트해야 함](you-need-to-update-your-windows-device.md)
+- [회사 포털 앱에서 IT 관리자에게 로그를 보내야 함](send-logs-to-your-it-admin-cp-windows.md)
+- [설정 앱에서 IT 관리자에게 로그를 보내야 함](send-logs-to-your-it-admin-settings-windows.md)
 - [내 Windows 버전이 아직 지원되지 않음](your-windows-version-isnt-yet-supported.md)
 - [Windows 암호화를 사용하도록 설정해야 함](you-need-to-enable-windows-encryption.md)
 - [내 장치에 맬웨어 방지 소프트웨어가 필요함](your-device-needs-antimalware-software.md)
 - [보안 부팅을 사용하도록 설정해야 함](you-need-to-enable-secure-boot-windows.md)
 - [코드 무결성을 사용하도록 설정해야 함](you-need-to-enable-code-integrity.md)
-

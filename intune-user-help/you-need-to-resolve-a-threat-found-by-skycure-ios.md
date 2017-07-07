@@ -11,19 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b40595f0-a399-4aa1-aa6f-344c2a1cb883
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: c7cdb0106da1d81843f7dd07d0986d597b94a77c
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="you-need-to-resolve-a-threat-found-by-skycure"></a>Skycure에서 발견한 위협을 해결해야 함
 
 Skycure가 장치에서 잠재적인 위협을 발견한 경우 회사 또는 학교 메일, 앱 및 파일에 다시 액세스하려면 문제를 해결해야 합니다. 다음과 비슷한 메시지가 표시됩니다.
@@ -49,4 +45,3 @@ Skycure에서 위협으로 판단하는 앱을 설치한 경우 Skycure가 해�
 앱을 제거하면 바로 메일과 기타 회사 데이터나 학교 데이터에 다시 액세스할 수 있게 됩니다. 앱을 제거하라는 요청을 무시하면 앱을 제거할 때까지 회사 메일 및 데이터에 액세스할 수 없습니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

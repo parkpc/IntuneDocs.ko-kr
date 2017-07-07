@@ -1,7 +1,7 @@
 ---
 title: "Telecom Expense Management 서비스 설정"
-titleSuffix: Intune Azure preview
-description: "Intune Azure Preview: Intune과 통합되도록 Saaswedo Telecom Expense Management 서비스를 구성합니다."
+titleSuffix: Intune on Azure
+description: "Intune과 통합되도록 Saaswedo Telecom Expense Management 서비스를 구성합니다.\""
 keywords: Saaswedo
 author: nathbarn
 ms.author: nathbarn
@@ -15,16 +15,14 @@ ms.assetid: b7bf5802-4b65-4aeb-ac99-8e639dd89c2a
 ms.reviewer: sumitp
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 41ac9ad43b6ddaa2b78d588cb01b467d37f2178a
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: fe3735afccb30da9ea863943808e7cfad667899f
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-# <a name="set-up-a-telecom-expense-management-service-in-intune-azure-preview"></a>Intune Azure Preview에서 Telecom Expense Management 서비스 설정
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+# <a name="set-up-a-telecom-expense-management-service-in-intune"></a>Intune에서 Telecom Expense Management 서비스 설정
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Intune을 사용하면 회사 소유의 모바일 장치에서 데이터 사용으로 발생하는 통신 비용을 관리할 수 있습니다. 이 기능을 지원하기 위해 Intune에는 타사 소프트웨어 개발자인 Saaswedo의 Datalert Telecom Expense Management 솔루션이 통합되어 있습니다. Datalert는 통신 데이터 사용량을 관리하며 Intune 관리 장치에 대해 비용이 많이 들고 예기치 않은 데이터 및 로밍 초과분을 방지할 수 있도록 해주는 실시간 Telecom Expense Management 소프트웨어입니다.
 
@@ -43,7 +41,7 @@ Intune에서 Datalert 서비스를 사용하려면 먼저 Datalert 콘솔 및 In
 
 ## <a name="prerequisites"></a>전제 조건
 
-- Microsoft Intune 구독 및 현재 공개 미리 보기 상태인 Azure Portal에 대한 액세스 권한
+- Microsoft Intune 구독 및 Azure Portal 액세스 권한
 - Datalert Telecom Expense Management 서비스 구독
 
 ## <a name="list-of-telecom-expense-management-providers"></a>Telecom Expense Management 공급자 목록
@@ -108,9 +106,9 @@ Intune은 현재 다음 Telecom Expense Management 공급자와 통합되어 있
 
 다음 단계에 따라 Intune에서 각 플랫폼용 Datalert 앱을 만듭니다. 다음 단계에서는 iOS를 예로 듭니다.
 
-1. Azure Portal의 **Intune** 블레이드에서 **앱 관리**를 선택합니다.
+1. Azure Portal의 **Intune** 블레이드에서 **모바일 앱**을 선택합니다.
 
-2. **앱 관리** 블레이드에서 **관리** > **앱**을 선택합니다.
+2. **모바일 앱** 블레이드에서 **관리** > **앱**을 선택합니다.
 
 3. **추가**를 선택하여 앱을 추가합니다.
 
@@ -151,8 +149,8 @@ Intune은 현재 다음 Telecom Expense Management 공급자와 통합되어 있
 
 ## <a name="client-enrollment-experience"></a>클라이언트 등록 환경
 클라이언트 등록 환경에 대해서는 다음을 참조하세요.
--    [TEM(Telecom Expense Management)에 iOS 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-with-telecom-expense-management-ios)
--    [TEM(Telecom Expense Management)에 Android 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-with-telecom-expense-management-android)
+-   [TEM(Telecom Expense Management)에 iOS 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-with-telecom-expense-management-ios)
+-   [TEM(Telecom Expense Management)에 Android 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-with-telecom-expense-management-android)
 
 ## <a name="turning-off-the-datalert-service"></a>Datalert 서비스 해제
 
@@ -173,4 +171,3 @@ Azure Portal에서 Datalert 서비스를 해제한 경우
 현재 데이터 사용량 보고는 Saaswedo의 Datalert 관리 콘솔에서만 사용할 수 있습니다.
 
 Datalert 앱을 설치하는 단계에 대한 지침은 곧 추가할 예정입니다.
-

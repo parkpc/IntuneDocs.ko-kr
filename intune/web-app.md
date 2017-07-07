@@ -1,7 +1,7 @@
 ---
 title: "Intune에 웹앱을 추가하는 방법"
-titleSuffix: Intune Azure preview
-description: "Intune Azure Preview: Intune에 웹앱을 추가하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Intune에 웹앱을 추가하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,17 +15,15 @@ ms.assetid: 5f08752f-0e87-4ad9-a34c-4991b3150775
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: ac53d01e57ed302cae202a10fcc22996a47d576d
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: 476e547f2ee21119443b08db0984f66844f701d3
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-add-web-apps-to-microsoft-intune"></a>Microsoft Intune에 웹앱을 추가하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.

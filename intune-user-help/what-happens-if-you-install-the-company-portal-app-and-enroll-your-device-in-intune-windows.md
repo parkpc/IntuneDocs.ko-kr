@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d65e3452-5bbf-4d26-a06e-401ddcc47f39
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5ed0e84c16ea540c08e97cb55ef8a09cbc7339f6
 ms.openlocfilehash: 052de47e19f4e171428ee22b4701ed516461231f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/25/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-windows-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 Windows 장치를 등록하면 어떻게 되나요?
 
 회사 포털 앱을 설치한 후 사용하여 Windows 또는 Windows Phone 장치를 등록할 때 IT 관리자가 회사 또는 학교 데이터를 안전하게 보호하기 위해 장치를 관리하도록 할 수 있습니다. 이 항목에서는 Windows 10 이전 장치에서 발생하는 결과를 설명합니다. Windows 10 장치의 경우 [관련 항목](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)을 참조하세요.
@@ -79,4 +74,3 @@ Intune에서 Windows 또는 Windows Phone 장치를 등록하면 다음을 수�
 -   임의의 회사 앱 인벤토리 업데이트를 보냅니다.
 
 의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
-

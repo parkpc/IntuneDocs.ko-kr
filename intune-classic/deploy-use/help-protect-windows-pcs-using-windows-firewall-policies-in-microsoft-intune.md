@@ -1,5 +1,5 @@
 ﻿---
-title: "Windows PC에 대한 방화벽 정책 | Microsoft 문서"
+title: "Windows PC에 대한 방화벽 정책"
 description: "Intune에서는 Intune 클라이언트로 관리하는 PC를 다양한 방법으로 보호할 수 있습니다. 그중 하나는 Windows 방화벽 설정을 구성하는 것입니다."
 keywords: 
 author: robstackmsft
@@ -14,16 +14,16 @@ ms.assetid: 9549c072-ac3d-4d14-a931-a2eda8846217
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: d96fd3cf4d8963f1e79ef4ed27c1b826c8893b5f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 13ec6a424c3665e48938315d4af11cc986a83339
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune"></a>Microsoft Intune에서 Windows 방화벽 정책을 사용하여 Windows PC 보호
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune에서는 Intune 클라이언트로 관리하는 Windows PC를 다양한 방법으로 보호할 수 있습니다. 그중 한 가지 방법은 PC에서 Windows 방화벽 설정을 구성할 수 있도록 하는 정책을 제공하는 것입니다.
 
 컴퓨터에 Intune Windows PC 클라이언트를 아직 설치하지 않은 경우 [Microsoft Intune을 사용하여 Windows PC 클라이언트 설치](install-the-windows-pc-client-with-microsoft-intune.md)를 참조하세요.
@@ -135,4 +135,3 @@ Windows 방화벽 정책을 배포한 후 **정책** 작업 영역의 **모든 �
 
 ### <a name="see-also"></a>참고 항목
 [Windows PC를 보호하는 정책](policies-to-protect-windows-pcs-in-microsoft-intune.md)
-

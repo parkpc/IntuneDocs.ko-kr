@@ -1,5 +1,5 @@
 ---
-title: "iOS 정책 설정 | Microsoft 문서"
+title: "iOS 정책 설정"
 description: "Intune으로 관리하는 iOS 장치에서 설정 및 기능을 제어하는 정책을 만듭니다."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: ab46be6c-ab73-4c99-8492-66d1dd418293
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 3a59391aaf241e52f59bb3ff5de3eae84c496c51
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: ba270c2bb8780db6bc230022446f982b81f8a2ee
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="ios-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 iOS 정책 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -88,7 +85,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**관리되는 앱에서 데이터를 iCloud와 동기화하도록 허용**|Intune을 사용하여 관리하는 앱에서 데이터를 사용자의 iCloud 계정과 동기화하도록 허용합니다.|
 |**다른 디바이스에서 작업을 계속하도록 핸드오프 허용**|사용자가 다른 iOS에서 iOS 장치 또는 Mac OS X 장치에서 시작하는 작업을 계속할 수 있습니다.|
 |**iCloud 사진 공유 허용**|장치에서 **iCloud 사진 공유**를 사용하지 않으려면 **아니요**로 설정합니다.|
-|**iCloud 사진 보관함 허용**|**아니요**로 설정하면 사용자가 클라우드에 사진과 비디오를 저장할 수 있는 iCloud 사진 보관함을 사용할 수 없게 됩니다.    **아니요**로 설정되면 iCloud 사진 라이브러리에서 장치로 완전히 다운로드되지 않은 모든 사진이 장치에서 제거됩니다.|
+|**iCloud 사진 보관함 허용**|**아니요**로 설정하면 사용자가 클라우드에 사진과 비디오를 저장할 수 있는 iCloud 사진 보관함을 사용할 수 없게 됩니다.   **아니요**로 설정되면 iCloud 사진 라이브러리에서 장치로 완전히 다운로드되지 않은 모든 사진이 장치에서 제거됩니다.|
 
 ### <a name="application-settings-for-the-browser"></a>브라우저에 대한 응용 프로그램 설정
 모든 설정이 iOS 8.0 이상에 적용됩니다.
@@ -387,4 +384,3 @@ Weather,Apple,com.apple.weather
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-

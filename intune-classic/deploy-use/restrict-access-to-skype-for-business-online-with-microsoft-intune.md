@@ -1,5 +1,5 @@
 ---
-title: "비즈니스용 Skype Online 보호 | Microsoft 문서"
+title: "비즈니스용 Skype Online 보호"
 description: "조건부 액세스를 사용하여 비즈니스용 Skype Online을 보호하고 액세스를 제어하는 방법을 설명합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 46dc5bc7d7b4107b87a41aa8a454453d591d0ef9
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: c2d6a00f99047e4b18821e81da0c36b988e36c2a
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-access-to-skype-for-business-online-with-microsoft-intune"></a>Microsoft Intune을 사용하여 비즈니스용 Skype Online에 대한 액세스 보호
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -120,4 +117,3 @@ ms.lasthandoff: 05/23/2017
 * **규격이 아닌 장치**: 이러한 장치는 비즈니스용 Skype Online에서 차단됩니다.
 
 * **AAD 및 규격에 등록된 장치**: 이러한 장치는 비즈니스용 Skype Online에 액세스할 수 있습니다.
-

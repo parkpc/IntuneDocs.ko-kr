@@ -1,5 +1,5 @@
 ﻿---
-title: "장치에서 비즈니스용 Windows Hello 설정 제어 | Microsoft 문서"
+title: "장치에서 비즈니스용 Windows Hello 설정 제어"
 description: "Intune이 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 비즈니스용 Windows Hello와 통합하는 방법을 알아봅니다."
 keywords: 
 author: lleonard-msft
@@ -14,15 +14,12 @@ ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 9a223f7fb1fd0736541da0d6a15ad5285241577a
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 7c4ac0b79e30283b90612c77acf1462a25bb6093
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="control-windows-hello-for-business-settings-on-devices-with-microsoft-intune"></a>Microsoft Intune을 사용하는 장치에서 비즈니스용 Windows Hello 설정 제어
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -83,4 +80,3 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 
 ## <a name="further-information"></a>추가 정보
 Microsoft Passport에 대한 자세한 내용은 Windows 10 설명서의 [가이드](https://technet.microsoft.com/library/mt589441.aspx)를 참조하세요.
-

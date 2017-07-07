@@ -1,7 +1,7 @@
 ---
 title: "iOS 장치에 대한 Intune 메일 설정"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: iOS 장치에서 메일 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "iOS 장치에서 전자 메일 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
@@ -15,18 +15,15 @@ ms.assetid: 9f0fa6af-3669-439a-bd0d-75d8b1a0b135
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 6f941247295761815804b2e91234ce664c90e06f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: dcac410ae5c20b5942bf37f5eaa9a46205a4cc07
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="email-profile-settings-for-ios-devices-in-microsoft-intune"></a>Microsoft Intune의 iOS 장치에 대한 메일 프로필 설정
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 
 
@@ -43,4 +40,3 @@ ms.lasthandoff: 05/23/2017
 - **다른 메일 계정으로 메시지를 이동할 수 있음** - 사용자가 자신의 장치에 구성한 여러 계정 간에 메일 메시지를 이동할 수 있도록 허용합니다.
 - **타사 응용 프로그램에서 메일을 전송할 수 있음** - 사용자는 이 프로필을 메일을 보내기 위한 기본 계정으로 선택하고, 타사에서는 네이티브 메일 앱의 메일을 열고 메일에 파일을 첨부할 수 있게 됩니다.
 - **최근 사용된 메일 주소 동기화** - 이 기능을 통해 사용자는 장치에서 최근에 사용한 메일 주소 목록을 서버와 동기화할 수 있습니다.
-

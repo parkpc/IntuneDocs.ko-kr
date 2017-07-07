@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Intune으로 MAM 정책 모니터링 | Microsoft 문서"
+title: "Microsoft Intune으로 MAM 정책 모니터링"
 description: "해당 정책이 있는 사용자 수를 확인하고 드릴다운하여 자세한 내용을 확인하세요."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: d80632aceaa675f08eb4b23ce59e3bcabb72b4d0
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: c3c41f5e3b0fc81232b03fe547bee7f72fb427a0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="monitor-app-protection-policies-with-microsoft-intune"></a>Microsoft Intune을 사용하여 앱 보호 정책 모니터링
 사용자에게 적용한 앱 보호 정책의 준수 상태를 모니터링할 수 있습니다. 앱 보호 정책, 준수 상태 및 사용자에게 발생할 수 있는 문제의 영향을 받는 사용자에 대한 정보를 확인할 수 있습니다.
 
@@ -134,6 +131,5 @@ ms.lasthandoff: 05/23/2017
 ## <a name="see-also"></a>참고 항목
 [iOS 앱 간의 데이터 전송 관리](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
 
-* [Android 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
-* [iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
-
+* [Android 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](/intune/end-user-mam-apps-android)
+* [iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](/intune/end-user-mam-apps-ios)

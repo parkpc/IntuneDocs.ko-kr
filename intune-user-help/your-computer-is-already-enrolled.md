@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8d3a40f5-99e9-48dc-9706-f7a3a23e5704
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 4f5a81c053aaf7539f84870c53ca65c6571fedd0
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="your-computer-is-already-enrolled"></a>컴퓨터가 이미 등록되어 있음
 
 내 컴퓨터가 이미 등록되었다는 오류가 발생하는 경우 컴퓨터가 이미 회사 포털에 추가되었지만 사용자 계정에 아직 연결되지 않은 것입니다. 다음 절차에 따라 사용자 계정에 컴퓨터를 연결하고 프로세스를 완료하세요.  
@@ -41,4 +37,3 @@ ms.lasthandoff: 05/23/2017
 장치를 등록 취소하려는 경우 [Android](unenroll-your-device-from-intune-android.md), [iOS](unenroll-your-device-from-intune-ios.md) 또는 [Windows](unenroll-your-device-from-intune-windows.md) 중에서 보유하고 있는 장치 유형에 대한 지침을 사용하세요.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

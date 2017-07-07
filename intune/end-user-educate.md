@@ -13,16 +13,15 @@ ms.technology:
 ms.assetid: 48914533-f138-4dc0-8b93-4cea3ac61f7b
 ms.reviewer: robstack
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
-ms.openlocfilehash: 623ed8dda2b35a895e5a00c0639a647624f74e59
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.openlocfilehash: 3f60ee6334ac8fa00dcaaa524485c5339b040381
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-educate-your-end-users-about-microsoft-intune"></a>Microsoft Intune에 대한 최종 사용자 교육 방법
+
+[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
 Microsoft Intune을 사용하면 회사 데이터 보호를 유지하면서 직원들이 모바일 장치를 이용할 수 있습니다. [평가판](app-sdk.md)을 통한 Intune 평가를 비롯하여 성공적인 배포를 위한 여러 단계가 있습니다.
 
@@ -57,15 +56,15 @@ __최종 사용자에게 어떤 불편을 줄 수 있나요?__ 앱을 설치하�
 
 * **OWA(Outlook Web Access)**
   * [Intune에서 Android 장치 사용](/intune-user-help/using-your-android-device-with-intune)
-  * [Android 사용자가 앱을 얻는 방법](/intune-classic/deploy-use/how-your-android-users-get-their-apps)
+  * [Android 사용자가 앱을 얻는 방법](end-user-apps-android.md)
 
 * **Android**
   * [Intune에서 iOS 장치 사용](/intune-user-help/using-your-ios-or-macos-device-with-intune)
-  * [iOS 사용자가 앱을 얻는 방법](/intune-classic/deploy-use/how-your-ios-users-get-their-apps)
+  * [iOS 사용자가 앱을 얻는 방법](end-user-apps-ios.md)
 
 * **Windows**
   * [Intune에서 Windows 장치 사용](/intune-user-help/using-your-windows-device-with-intune)
-  * [Windows 사용자가 앱을 얻는 방법](/intune-classic/deploy-use/how-your-windows-users-get-their-apps)
+  * [Windows 사용자가 앱을 얻는 방법](end-user-apps-windows.md)
 
 * __솔직하게 설명합니다.__ 장치에서 관리하려는 사항을 사용자에게 명확하게 알립니다. 수집 중인 데이터 종류 및 수집하는 이유를 알립니다. 모든 자산 데이터를 사용하려는 방법을 알립니다. [Microsoft는 클라우드에서 고객 데이터를 처리하는 방법과 관련해서 최대한 많은 정보에 대한 권한이 회사에 있다고 믿으며](https://www.microsoft.com/trustcenter/about/transparency), 이러한 철학이 Intune에 대한 최종 사용자 만족도를 크게 높일 수 있다고 생각합니다.
 
@@ -73,4 +72,3 @@ __최종 사용자에게 어떤 불편을 줄 수 있나요?__ 앱을 설치하�
 > 가능한 경우 투명성은 배포 성공의 필수 요건입니다.
 
 신뢰와 잘 다듬어진 준수 정책을 결합하여 특정 유형의 개인 데이터를 *볼 수 있는* 경우에도 *보려고 하지* 않으며, 개인 정보를 침해할 경우 책임이 발생할 수 있다는 것을 최종 사용자에게 알립니다. 법무 및 HR 부서와 함께 방침을 작성하면 특히 까다로운 직원들에게 도움이 될 수 있습니다.
-

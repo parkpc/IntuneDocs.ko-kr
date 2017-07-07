@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 36250832-c6fd-4e8d-b681-de735023ebc3
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: dd8af3f07abc772408ccececf12a062a82a82e71
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enroll-your-windows-10-devices-in-intune"></a>Intune에서 Windows 10 장치 등록
 
 Microsoft Intune에 장치를 등록하면 Windows 10 장치를 사용하여 메일, 파일 및 기타 리소스를 포함한 조직의 보안 데이터에 액세스할 수 있습니다. Windows 10 데스크톱 및 Windows 10 모바일 장치의 경우도 마찬가지입니다. 장치를 등록하면 사용자와 조직 모두 이러한 액세스를 보호하고 작업 데이터를 개인 데이터와 별도로 보호할 수 있습니다.
@@ -40,18 +36,17 @@ Microsoft Intune에 장치를 등록하면 Windows 10 장치를 사용하여 메
 
  ![PC 정보 설정 검색](media/searching_for_about_your_pc.png)
 
-3.    __설정__에는 사용자 PC에 설치된 Windows 10의 버전에 대한 정보 목록이 표시됩니다. 이 목록에서 __버전__을 찾습니다.
+3.  __설정__에는 사용자 PC에 설치된 Windows 10의 버전에 대한 정보 목록이 표시됩니다. 이 목록에서 __버전__을 찾습니다.
 
  ![Windows 10 데스크톱 PC 정보](media/settings_about_pc.png)
 
-4.    버전이 __1607 이상인 경우__ [이 단계를 따릅니다](enroll-your-w10-device-access-work-or-school.md). 버전이 __1511 이하__인 경우 [이 단계](enroll-your-w10-device-your-account.md)를 계속 진행합니다.
+4.  버전이 __1607 이상인 경우__ [이 단계를 따릅니다](enroll-your-w10-device-access-work-or-school.md). 버전이 __1511 이하__인 경우 [이 단계](enroll-your-w10-device-your-account.md)를 계속 진행합니다.
 
 ## <a name="windows-10-mobile-devices"></a>Windows 10 모바일 장치        
 
-1.    __시작__에서 __모든 앱__ 목록을 위로 살짝 민 다음 __설정__ 앱을 선택합니다.        
-2.    __시스템__을 누른 다음 __정보__를 누릅니다.        
-3.    __장치 정보__ 아래에서 __자세히__를 누릅니다. 장치에 대한 정보 목록이 표시됩니다. 이 목록에서 __버전__을 찾습니다.        
-4.    버전이 __1607__인 경우에는 [이 단계](enroll-your-w10-device-access-work-or-school.md)를 계속 진행합니다. 버전이 __1511 이하__인 경우 [이 단계](enroll-your-w10-device-your-account.md)를 계속 진행합니다.
+1.  __시작__에서 __모든 앱__ 목록을 위로 살짝 민 다음 __설정__ 앱을 선택합니다.        
+2.  __시스템__을 누른 다음 __정보__를 누릅니다.       
+3.  __장치 정보__ 아래에서 __자세히__를 누릅니다. 장치에 대한 정보 목록이 표시됩니다. 이 목록에서 __버전__을 찾습니다.        
+4.  버전이 __1607__인 경우에는 [이 단계](enroll-your-w10-device-access-work-or-school.md)를 계속 진행합니다. 버전이 __1511 이하__인 경우 [이 단계](enroll-your-w10-device-your-account.md)를 계속 진행합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

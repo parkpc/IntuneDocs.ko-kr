@@ -1,5 +1,5 @@
 ﻿---
-title: "Exchange Connector 문제 해결 | Microsoft 문서"
+title: "Exchange Connector 문제 해결"
 description: "Intune Exchange 커넥터와 관련된 문제를 해결합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: c5cb5465-fd8e-4524-83b9-ccdf3393b6dc
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: ad0519145b6cc7c837490892089c18bf20e08d57
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: ebcbcbc36c925b3c3d9600eb9a5039b70d7e056d
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="troubleshoot-the-exchange-connector"></a>Exchange Connector 문제 해결
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -54,4 +51,3 @@ Exchange Connector가 Exchange 서버와 동기화하는 중인지 확인합니�
 
 ### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
-

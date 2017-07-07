@@ -1,5 +1,5 @@
 ---
-title: "장치를 관리하는 방법 선택 | Microsoft 문서"
+title: "장치를 관리하는 방법 선택"
 description: "장치를 등록하고 관리할 수 있는 다양한 방법에 대해 알아봅니다."
 keywords: 
 author: nathbarn
@@ -14,15 +14,12 @@ ms.assetid: 770aad50-fd7a-4cf1-a793-f95fe47fc3f8
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: dfd79323c7db53cb3291f729878bcd1d36f93fe7
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 0dbe387ee6b8130e3dc64323f89b38e868087dfe
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="choose-how-to-manage-devices"></a>장치를 관리하는 방법 선택
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -48,12 +45,11 @@ Windows PC를 관리하려는 경우 두 가지 옵션 중에서 선택할 수 �
 - Endpoint Protection 및 Windows 방화벽
 - TeamViewer 소프트웨어를 통해 사용자 원격 지원
 
-각 방법에서 제공되는 관리 기능의 자세한 목록은 [모바일 장치 관리 기능](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune)을 참조하세요.
-Intune에서 지원하는 장치와 PC에 대한 자세한 내용은 [지원되는 모바일 장치 및 컴퓨터](/intune-classic/get-started/what-to-know-before-you-start-microsoft-intune#intune-supported-devices)를 참조하세요.
+각 방법에서 제공되는 관리 기능의 자세한 목록은 [모바일 장치 managem/intune/supported-devices-browserssoft-intune)을 참조하세요.
+Intune에서 지원하는 장치와 PC에 대한 자세한 내용은 [지원되는 모바일 장치 및 컴퓨터](/intune/supported-devices-browsers#intune-supported-devices)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
 - [모바일 장치를 등록하는 방법 선택](/intune-classic/get-started/choose-how-to-enroll-devices1)
 - [Intune PC 클라이언트 소프트웨어를 사용하여 Windows PC 관리](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune)
 - [Microsoft Intune을 사용한 Exchange ActiveSync 모바일 장치 관리](/intune-classic/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune).
-

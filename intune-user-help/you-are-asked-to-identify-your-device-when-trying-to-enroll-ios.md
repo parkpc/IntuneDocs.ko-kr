@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8e40f228-cf04-4077-845f-300fbc3baee6
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 847b08efc2424da7ae9483db355f2804ac1e00c1
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="you-need-to-identify-your-device-when-youre-trying-to-enroll"></a>등록할 때 장치를 식별해야 하는 경우
 
 Intune에 iOS 또는 macOS 장치를 등록하는 동안 장치를 식별하라는 화면이 표시되는 경우 장치 중 하나 이상이 이미 등록되어 회사 포털 앱 이외의 방법으로 계정에 할당된 것입니다. 회사 포털 앱이 제대로 작동하려면 사용 중인 장치가 Intune에 이미 등록되어 있는지 확인해야 합니다.
@@ -36,4 +31,3 @@ Intune에 iOS 또는 macOS 장치를 등록하는 동안 장치를 식별하라�
 3. Intune에서 장치가 등록되었음을 확인할 수 있도록 장치 일련 번호의 마지막 4자를 입력합니다. 일련 번호를 찾으려면 [How do I find the serial number on my device?](how-do-i-find-the-serial-number-on-my-device-ios.md)(장치에서 일련 번호를 찾으려면 어떻게 하나요?)를 참조하세요.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

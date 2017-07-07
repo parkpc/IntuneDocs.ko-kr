@@ -14,15 +14,12 @@ ms.assetid: d081f466-45dd-41d1-ab25-6d974c72a52a
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 6f840cf1b9319cd3a7650f645e6148bb4e56cfa3
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="use-policies-to-help-protect-windows-pcs-that-run-the-intune-client-software"></a>정책을 사용하여 Intune 클라이언트 소프트웨어를 실행하는 Windows PC를 보호합니다.
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -46,4 +43,3 @@ IT 관리자의 최우선 업무 중 하나는 [관리하는 Windows PC를 맬�
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-

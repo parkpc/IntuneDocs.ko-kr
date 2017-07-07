@@ -1,11 +1,11 @@
 ---
-title: "Pulse Secure를 사용한 Android용 앱별 VPN | Microsoft 문서"
+title: "Pulse Secure를 사용하는 Android용 앱별 VPN"
 description: "Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만들 수 있습니다."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/12/2017
+ms.date: 06/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,12 @@ ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 6786ac87c34e913ba71cd203f431f746df816459
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 262cc461d5c1790fdfb162d5453a9cebd48271c4
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="use-a-custom-policy-to-create-a-per-app-vpn-profile-for-android-devices"></a>사용자 지정 정책을 사용하여 Android 장치용 앱별 VPN 프로필 만들기
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -45,7 +42,7 @@ Android 장치 또는 사용자 그룹에 정책을 배포한 후에 사용자�
 
 > [!NOTE]
 >
-> 다음 단계에서 사용할 수 있도록 VPN 프로필 이름을 기록해 두세요. 예를 들면 MyAppVpnProfile입니다.
+> VPN 프로필을 만들 때 지정하는 **VPN 연결 이름(사용자에게 표시됨)** 값을 적어 두세요. 다음 단계에서 이 이름이 필요합니다. 예를 들면 **MyAppVpnProfile**입니다.
 
 ### <a name="step-2-create-a-custom-configuration-policy"></a>2단계: 사용자 지정 구성 정책 만들기
 
@@ -55,7 +52,7 @@ Android 장치 또는 사용자 그룹에 정책을 배포한 후에 사용자�
    4. 설정 이름을 입력합니다.
    5. **데이터 형식**으로 **문자열**을 지정합니다.
    6. **OMA-URI**로 **./Vendor/MSFT/VPN/Profile/*Name*/PackageList** 문자열을 지정합니다. 여기서 *Name*은 1단계에서 적어둔 VPN 프로필 이름입니다. 이 예제에서 문자열은 **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/PackageList**입니다.
-   7.    **값**으로 프로필에 연결할 패키지가 세미콜론으로 구분된 목록을 만듭니다. 예를 들어 Excel 및 Google Chrome 브라우저에서 VPN 연결을 사용하려면 **com.microsoft.office.excel;com.android.chrome**과 같이 입력합니다.
+   7.   **값**으로 프로필에 연결할 패키지가 세미콜론으로 구분된 목록을 만듭니다. 예를 들어 Excel 및 Google Chrome 브라우저에서 VPN 연결을 사용하려면 **com.microsoft.office.excel;com.android.chrome**과 같이 입력합니다.
 
 ![Android 앱별 VPN 사용자 지정 정책의 예](./media/android_per_app_vpn_oma_uri.png)
 
@@ -80,4 +77,3 @@ Android 장치 또는 사용자 그룹에 정책을 배포한 후에 사용자�
     -   **정책을 배포하지 않고 대화 상자를 닫으려면** **취소**를 선택합니다.
 
 **정책** 작업 영역의 **개요** 페이지에 있는 상태 요약 및 경고는 주의가 필요한 정책 문제를 식별합니다. 상태 요약은 **대시보드** 작업 영역에도 표시됩니다.
-

@@ -14,15 +14,12 @@ ms.assetid: 2b770f4f-6d36-41e4-b535-514b46e29aaa
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 18272f21799253128cfe0ad6aa66e108b24a0b50
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="add-apps-with-microsoft-intune"></a>Microsoft Intune을 사용하여 앱 추가
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -96,4 +93,3 @@ Windows 10 유니버설 appxbundle 패키지를 Intune에 추가할 때는 앱�
 ## <a name="next-steps"></a>다음 단계
 
 배포하려면 먼저 Intune 콘솔에서 앱을 추가해야 합니다. [등록된 장치](add-apps-for-mobile-devices-in-microsoft-intune.md) 또는 [Intune 클라이언트 소프트웨어를 사용하여 관리하는 Windows PC](add-apps-for-windows-pcs-in-microsoft-intune.md)에 대한 앱을 추가할 수 있습니다.
-

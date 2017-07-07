@@ -11,24 +11,19 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: dea37b91-33fa-4d4a-ac44-560b450c02a6
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 7bf3c9bce6d29467ad44f5c1adaa213616cc602e
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="your-company-portal-app-for-windows-is-out-of-date"></a>Windows용 회사 포털 앱이 오래된 경우
 
 회사 전자 메일, 연락처, 문서 등에 계속 액세스하려면 회사 포털 앱을 업데이트해야 합니다. 이 문제를 해결하려면 **Windows 스토어**를 열고 새 버전의 **회사 포털** 앱을 설치합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

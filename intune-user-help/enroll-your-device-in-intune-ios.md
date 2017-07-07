@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6eeec7aa-1b07-4ce3-894c-13e09b89bdd4
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: af3313e6ba5cbf9184aaaa9b197f7a3b2b9d4c3e
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="enroll-your-ios-device-in-intune"></a>Intune에서 iOS 장치 등록
 
 회사 또는 학교에서 Microsoft Intune을 사용하는 경우 iOS 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 IT 부서에서 해당 회사 또는 학교 리소스를 관리하고 보안을 유지하여 선호하는 장치를 자유롭게 사용하여 작업을 완료할 수 있습니다. 등록에 대해 자세히 알아보려면 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떤 일이 생기나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
@@ -65,7 +60,7 @@ ms.lasthandoff: 05/23/2017
 
 5.  **다음 단계는?** 화면에서 등록하는 동안 발생하는 상황을 확인하고 **등록**을 탭합니다.
 
-     ![ios-enroll-what-comes-next](./media/ios-enroll-1d-what-comes-next.png)
+    ![ios-enroll-what-comes-next](./media/ios-enroll-1d-what-comes-next.png)
 
 6.  **프로필 설치** 화면에서 **I설치**를 탭하고 메시지가 표시되면 암호를 입력합니다.
 
@@ -77,15 +72,15 @@ ms.lasthandoff: 05/23/2017
 
 8.  **설치**를 탭하여 경고를 읽었음을 나타냅니다.
 
-       ![ios-enroll-tap-install-after-warning](./media/ios-enroll-4-warning.png)
+    ![ios-enroll-tap-install-after-warning](./media/ios-enroll-4-warning.png)
 
 9.  **신뢰**를 탭합니다.
 
-       ![ios-enroll-tap-trust](./media/ios-enroll-5-trust.png)
+    ![ios-enroll-tap-trust](./media/ios-enroll-5-trust.png)
 
 10.  프로필 설치를 완료했다고 표시하도록 화면이 변경되면 **완료**를 탭합니다.
 
-     ![ios-enroll-tap-done](./media/ios-enroll-6-done.png)
+    ![ios-enroll-tap-done](./media/ios-enroll-6-done.png)
 
     화면에는 "등록 장치" 메시지가 표시됩니다.
 
@@ -107,4 +102,3 @@ ms.lasthandoff: 05/23/2017
 > 조직에서 TEM(Telecom Expense Management) 소프트웨어를 사용하는 경우 몇 가지 추가 단계를 완료해야 장치가 완전히 등록됩니다. 자세한 내용은 [여기](enroll-your-device-with-telecom-expense-management-ios.md)를 참조하세요.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

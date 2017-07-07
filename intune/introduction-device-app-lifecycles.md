@@ -14,15 +14,12 @@ ms.assetid: 38e08253-14a0-4cc4-87be-7b110c12a523
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: bc02af1e0813580ed70f181ff401d0408f6dd082
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="overview-of-device-and-app-lifecycles"></a>장치 및 앱 수명 주기에 대한 개요
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
@@ -34,4 +31,3 @@ ms.lasthandoff: 06/08/2017
 관리 목적을 위해 모든 장치에는 수명 주기가 있습니다. 수명 주기는 장치를 등록할 때부터 사용이 중지될 때까지의 기간입니다. [장치 관리 수명 주기](device-lifecycle.md)에서는 장치를 등록하는 방법, 장치를 구성하고 보호하는 방법 및 관리 대상에서 장치를 제거하는 방법을 안내합니다.
 
 마찬가지로 작업하는 앱은 Intune에 앱 추가에서 더 이상 필요 없을 때 제거할 때까지 모든 단계를 포함하는 고유 [앱 수명 주기](app-lifecycle.md)를 가지고 있습니다.
-

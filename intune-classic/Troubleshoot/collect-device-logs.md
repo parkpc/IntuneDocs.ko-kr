@@ -1,5 +1,5 @@
 ---
-title: "장치 로그 수집 | Microsoft 문서"
+title: "장치 로그 수집"
 description: "관리되는 장치에서 로그를 수집하는 방법을 알아봅니다."
 keywords: 
 author: arob98
@@ -14,15 +14,12 @@ ms.assetid: d97fb610-9d88-40e5-bb06-447eec533630
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: f75719a02e37f6285fb1d7c5de32bb7eb4b3a1ed
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: b15e4b7fa0c650a85a080c42d00cd75cb8783c62
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="device-logs"></a>장치 로그
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -46,7 +43,7 @@ Android 로그는 *<Android Device>\Phone\Android\data\com.microsoft.windowsintu
 
 [IT 관리자에게 iOS 등록 오류 보내기](/intune-user-help/send-errors-to-your-it-admin-ios)에 설명된 대로 사용자가 등록 오류를 보낼 수 있습니다.
 
-[iOS 장치 로그 보내기](/intune-user-help/send-logs-to-your-it-admin-by-email-ios)에 설명된 대로 사용자가 장치 로그를 보낼 수 있습니다.
+[iOS 장치 로그 보내기](/intune-user-help/send-logs-to-microsoft-ios)에 설명된 대로 사용자가 장치 로그를 보낼 수 있습니다.
 
 ### <a name="mac-os-x-logs"></a>Mac OS X 로그
 
@@ -61,4 +58,3 @@ Windows Phone 회사 포털 앱에서는 사용자는 줄임표(**...**)를 선�
 ### <a name="windows"></a>Windows
 
 Windows 회사 포털의 경우 로그는 *%localappdata%\Packages\Microsoft.CompanyPortal_8wekyb3d8bbwe\LocalState*에 있습니다.
-

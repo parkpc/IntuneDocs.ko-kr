@@ -1,7 +1,7 @@
 ---
 title: "앱에서 회사 데이터만 초기화하는 방법"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Microsoft Intune을 사용하여 앱을 선택적으로 초기화하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Microsoft Intune을 사용하여 앱을 선택적으로 초기화하는 방법을 알아봅니다.\""
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -15,17 +15,15 @@ ms.assetid: 42605e6e-5b84-44ff-b86e-346ea123b53e
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: affe7323b8572aa17122011b293cb6a3a2fd7747
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: bfebc391997ac4e63466eb3a09044318cf807dbc
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-wipe-only-corporate-data-from-intune-managed-apps"></a>Intune 관리 앱에서 회사 데이터만 초기화하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 장치를 분실하거나 도난당한 경우, 또는 직원이 퇴사하는 경우, 장치에서 업무용 앱 데이터가 확실히 제거되도록 해야 합니다. 하지만 장치에서 개인 데이터(특히, 직원 소유의 장치인 경우)를 제거하지 말아야 하는 경우가 있습니다.
 
@@ -38,7 +36,7 @@ ms.lasthandoff: 05/23/2017
 
 1.  [Azure 포털](https://portal.azure.com)에 로그인합니다.
 
-2.  **추가 서비스**를 선택하고 필터 텍스트 상자에 **Intune**을 입력한 후 **Intune**을 선택합니다. Intune 미리 보기 블레이드가 열리면 **앱 관리** 블레이드를 선택합니다.
+2.  **추가 서비스**를 선택하고 필터 텍스트 상자에 **Intune**을 입력한 후 **Intune**을 선택합니다. Intune 블레이드가 열리면 **앱 관리** 블레이드를 선택합니다.
 
     ![새 초기화 요청 블레이드의 스크린샷](./media/intune-azure-preview-blade.png)
 

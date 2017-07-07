@@ -1,7 +1,7 @@
 ---
 title: "앱 보호 정책 만들기 및 배포"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Intune 앱 보호 정책을 통해 관리하는 앱에서 사용되는 회사 데이터를 보호하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Intune 앱 보호 정책을 통해 관리하는 앱에서 사용되는 회사 데이터를 보호하는 방법을 알아봅니다.\""
 keywords: 
 author: NathBarn
 ms.author: nathbarn
@@ -15,21 +15,23 @@ ms.assetid: f31b2964-e932-4cee-95c4-8d5506966c85
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: d63e99561766268941b2c6d8b3bb6a1dd028f72c
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: 56a19bc4d970f230f719af9369dada45ffb65e76
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-create-and-assign-app-protection-policies"></a>앱 보호 정책을 만들고 할당하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-**Azure Portal 미리 보기 프로그램의 Intune 서비스에 없는 경우** 이 항목에서는 클래식 Intune 콘솔에서 [앱 보호 정책을 만드는 방법](https://docs.microsoft.com/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)을 설명합니다.
+## <a name="before-you-begin"></a>시작하기 전에
+
+Intune 클래식 콘솔 관련 지침을 확인하려면 [앱 보호 정책을 만드는 방법](https://docs.microsoft.com/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)을 참조하세요.
 
 앱 보호 정책은 Intune에서 관리하거나 관리하지 않을 수 있는 장치에서 실행되는 앱에 적용할 수 있습니다. 앱 보호 정책의 작동 방식 및 Intune 앱 보호 정책으로 지원되는 시나리오에 대한 자세한 설명은 [Microsoft Intune 앱 보호 정책이란](app-protection-policy.md)을 참조하세요.
+
+MAM을 지원하는 앱 목록을 확인하려면 [MAM 앱 목록](https://www.microsoft.com/cloud-platform/microsoft-intune-apps)을 참조하세요.
 
 ##  <a name="create-an-app-protection-policy"></a>앱 보호 정책 만들기
 1.  **Mobile Apps** 작업에서 **관리** > **앱 보호 정책**을 선택합니다.
@@ -116,7 +118,6 @@ Microsoft Intune 라이선스가 할당된 사용자만 정책에 의해 영향�
 ## <a name="policy-settings"></a>정책 설정
 iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 중 하나를 선택합니다.
 
-> [!div class="op_single_selector"]
 - [iOS 정책](app-protection-policy-settings-ios.md)
 - [Android 정책](app-protection-policy-settings-android.md)
 
@@ -126,4 +127,3 @@ iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 중
 ### <a name="see-also"></a>참고 항목
 * [Android 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](app-protection-enabled-apps-android.md)
 * [iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](app-protection-enabled-apps-ios.md)
-

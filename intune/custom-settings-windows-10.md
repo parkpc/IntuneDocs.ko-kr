@@ -1,7 +1,7 @@
 ---
 title: "Windows 10 장치에 대한 Intune 사용자 지정 설정"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Windows 10 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Windows 10 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,18 +15,15 @@ ms.assetid: 7bcea136-7260-4042-b21b-c7dab86b380d
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 52ad4f141c3b2b73a400c69fb9d9beb174bbac64
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: bda9e939e2d4aba4c4d005ea55ba65bec9c6e217
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="custom-device-settings-for-windows-10-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 장치에 대한 사용자 지정 장치 설정
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
  장치의 기능을 제어하는 데 사용할 수 있는 OMA-URI(Open Mobile Alliance Uniform Resource Identifier)를 배포하려면 Windows 10 및 Windows 10 Mobile용 Microsoft Intune **사용자 지정** 프로필을 사용합니다. Windows 10에서는 [정책 CSP(구성 서비스 제공자)](https://technet.microsoft.com/itpro/windows/manage/how-it-pros-can-use-configuration-service-providers)와 같은 다양한 CSP 설정이 제공됩니다.
 특정 설정을 찾고 있는 경우 Intune에서 기본 제공되며 사용자 지정 값을 지정할 필요가 없는 여러 설정이 [Windows 10 장치 제한 프로필](device-restrictions-windows-10.md)에 있습니다.
@@ -62,6 +59,5 @@ Windows 10에서 지원하는 모든 CSP(구성 서비스 공급자)의 전체 �
 일부 Windows 10 버전과 호환되지 않는 설정도 있습니다. Windows 항목의 표에서 각 CSP에 지원되는 버전을 알려 줍니다.
 
 또한, Intune은 항목에 나열된 일부 설정을 지원합니다. 원하는 설정을 Intune에서 지원하는지 확인하려면 해당 설정에 대한 항목을 엽니다. 각 설정 페이지에 지원되는 작업이 표시되어 있습니다. Intune으로 작업하려면 설정에서 **추가** 또는 **대체** 작업을 지원해야 합니다.
-
 
 

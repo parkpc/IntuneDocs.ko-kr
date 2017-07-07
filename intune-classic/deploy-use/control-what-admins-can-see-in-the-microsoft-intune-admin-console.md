@@ -1,5 +1,5 @@
 ---
-title: "관리자 역할에 대한 콘솔 보기 사용자 지정 | Microsoft 문서"
+title: "관리자 역할에 대한 콘솔 보기 사용자 지정"
 description: "이 항목에서는 Intune 관리 콘솔 보기를 필터링하여 관리자만 해당 역할에 필요한 항목을 확인하도록 할 수 있습니다."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: e0783eaa-67dc-410e-9e80-4d3aa72f36d8
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 1ab4c0a7ae79d0d3396efe7c54deaf1d794a5aeb
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 9b2016bc4f2c7ef63722becc413422d618939336
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="customize-intune-console-views-according-to-admin-roles"></a>관리자 역할에 따라 Intune 콘솔 보기 사용자 지정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -72,4 +69,3 @@ Microsoft Intune 관리 콘솔 보기를 필터링하여 관리자만 해당 역
         -   암호 재설정
 
 다음에 구성한 관리자가 Intune 관리 콘솔을 여는 경우 지정된 액세스 수준이 부여됩니다.
-

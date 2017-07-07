@@ -1,5 +1,5 @@
 ---
-title: "Windows PC용 Endpoint Protection | Microsoft 문서"
+title: "Windows PC용 Endpoint Protection"
 description: "맬웨어 위협으로부터 실시간 보호를 제공하는 Endpoint Protection으로 관리 컴퓨터를 보호합니다."
 keywords: 
 author: nathbarn
@@ -14,16 +14,16 @@ ms.assetid: 002241bf-6cd0-4c75-a4f0-891ac7e6721a
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 180da5e2e0d6980214fff1cfffa3fb1d5b0058d3
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: c51f9e471b432b13e0680538c5cf4ad68c1c12f1
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune"></a>Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune은 맬웨어 위협으로부터 실시간으로 보호하고 맬웨어 정의를 최신으로 유지하며 컴퓨터를 자동으로 검색하는 Endpoint Protection 등의 관리 컴퓨터의 보안을 유지할 수 있습니다. 또한 Endpoint Protection은 맬웨어 공격의 관리 및 모니터링을 지원하는 도구도 제공합니다.
 
 컴퓨터에 Intune 클라이언트를 아직 설치하지 않은 경우 [Microsoft Intune을 사용하여 Windows PC 클라이언트 설치](install-the-windows-pc-client-with-microsoft-intune.md) 항목을 참조하세요.
@@ -192,4 +192,3 @@ Intune은 Intune 클라이언트가 설치된 원격 관리 PC에서 Endpoint Pr
 
 ### <a name="see-also"></a>참고 항목
 [Windows PC를 보호하는 정책](policies-to-protect-windows-pcs-in-microsoft-intune.md)
-

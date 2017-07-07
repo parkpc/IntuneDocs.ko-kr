@@ -11,19 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: efb3c261-1f6c-4d39-bfa4-18661f8c59c7
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 2b2c86a46c671d35551a8485b5b1a70674168ac5
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="your-password-does-not-meet-your-it-admins-requirements"></a>암호가 IT 관리자의 요구 사항을 충족하지 않음
 
 회사 또는 학교 리소스에 액세스하는 데 사용하는 암호가 IT 관리자가 설정한 요구 사항을 하나 이상 충족하지 않습니다. 이 문제를 해결하려면 장치에 표시되는 지침을 따릅니다. 문제에 대한 설명은 아래에 나와 있습니다.
@@ -51,4 +47,3 @@ PIN 또는 암호 문제 설명:
 - **암호가 요구 사항을 충족하기에 충분히 복잡하지 않습니다**. IT 관리자는 사용자가 암호에 좀 더 복잡한 문자를 사용하도록 요구합니다. 숫자, 대문자, 기호(예: $, %, #)와 같은 문자를 사용해 보세요. 장치의 다른 계정의 경우에도 마찬가지일 수 있으므로, 다른 회사 계정을 확인하여 암호가 IT에서 장치에 대해 설정한 요구 사항을 충족하는지 확인하세요.
 
 요구 사항을 준수하도록 암호를 설정하는 방법을 확인하는 데 문제가 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

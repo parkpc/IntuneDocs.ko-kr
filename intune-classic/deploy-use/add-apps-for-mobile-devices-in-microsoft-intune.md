@@ -14,15 +14,12 @@ ms.assetid: f5b1f1ae-f177-450a-9af9-936a02d052e3
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 98d0376ff02ea89e019fba6022de800f3ca84555
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="add-apps-for-enrolled-devices-to-intune"></a>Intune에 등록된 장치용 앱 추가
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -105,4 +102,3 @@ Intune 소프트웨어 게시자를 사용하여 앱 속성을 구성한 다음 
 ## <a name="next-steps"></a>다음 단계
 
 앱을 만들면 다음 단계는 배포입니다. 자세한 내용은 [Microsoft Intune에서 앱 배포](deploy-apps.md)를 참조하세요.
-

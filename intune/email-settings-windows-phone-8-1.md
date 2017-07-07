@@ -1,7 +1,7 @@
 ---
 title: "Windows Phone 8.1에 대한 Intune 메일 설정"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Windows Phone 8.1 장치에서 메일 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Windows Phone 8.1 장치에서 전자 메일 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
@@ -15,18 +15,15 @@ ms.assetid: 352d6bd9-ec8c-439e-be3a-ad3daf307df2
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 986d02721012ce356b18cf983087b5babd03bb23
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 4925ceb1be344a12270ee40519096a62b1f0c739
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="email-profile-settings-for-windows-phone-81-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows Phone 8.1 장치에 대한 메일 프로필 설정
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 
 - **Windows Phone 8.1에만 모든 설정 적용** - 클래식 Intune 포털에서 구성할 수 있는 설정입니다. Azure Portal에서는 이 설정을 변경할 수 없습니다. **구성됨**으로 설정된 경우 모든 설정이 Windows Phone 8.1 장치에만 적용됩니다. **구성되지 않음**으로 설정한 경우 Windows 10 Mobile 장치에도 이러한 설정이 적용됩니다.
@@ -53,4 +50,3 @@ ms.lasthandoff: 05/23/2017
     - **연락처**
     - **일정**
     - **태스크**
-

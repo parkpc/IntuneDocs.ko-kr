@@ -1,5 +1,5 @@
 ---
-title: "MAM 정책 만들기 및 배포 | Microsoft 문서"
+title: "MAM 정책 만들기 및 배포"
 description: "이 항목의 단계별 지침에 따라 모바일 앱 관리 정책을 만들고 배포합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: d91ce526650166197520d37c82084c0ff141ec80
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: ebb4b03307f8af7e1390c6db994d3120942fae89
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="create-and-deploy-app-protection-policies-with-microsoft-intune"></a>Microsoft Intune으로 앱 보호 정책 만들기 및 배포
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -109,9 +106,9 @@ Android 및 iOS 플랫폼에 지원되는 정책 설정의 목록을 보려면 �
 ## <a name="line-of-business-lob-apps-optional"></a>LOB(기간 업무) 앱(선택 사항)
 
 Intune 1703 버전부터 새 앱 보호 정책을 만들 때 LOB 앱을 Intune에 일반적으로 추가할 수 있습니다. 따라서 완전한 앱 배포 권한 없이도 MAM SDK를 사용하여 LOB 앱에 대한 앱 보호 정책을 정의할 수 있습니다.
-
+/intune/app-sdk-get-started
 > [!TIP]
-> [Intune 앱 SDK](/intune-classic/develop/intune-app-sdk-get-started) 워크플로를 진행할 때에도 LOB 앱을 Intune에 추가할 수 있습니다.
+> [Intune 앱 SDK](/intune/app-sdk-get-started) 워크플로를 진행할 때에도 LOB 앱을 Intune에 추가할 수 있습니다.
 
 > [!IMPORTANT]
 > 사용자가 MAM 앱 배포 관련 권한만 있고 Intune에서 모든 앱을 배포할 수 있도록 하는 완전한 앱 배포 권한은 없는 경우, 사용자는 Intune SDK 워크플로를 진행할 수 없지만 MAM 앱 보호 정책 만들기 워크플로를 통해 LOB 앱을 추가할 수는 있습니다.
@@ -164,8 +161,8 @@ Intune 라이선스가 할당된 사용자만 정책에 의해 영향을 받습�
 > Configuration Manager와 함께 Intune을 사용하여 iOS 및 Android 장치를 관리하는 경우 선택한 그룹에 바로 포함된 사용자에만 정책이 적용됩니다. 선택한 그룹 내에 중첩된 자식 그룹의 멤버는 영향을 받지 않습니다.
 
 최종 사용자는 앱 스토어 또는 Google Play에서 앱을 다운로드할 수 있습니다. 자세한 내용은 다음을 참조하십시오.
-* [Android 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
-* [iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
+* [Android 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](/intune/end-user-mam-apps-android)
+* [iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](/intune/end-user-mam-apps-ios)
 
 ##  <a name="change-existing-policies"></a>기존 정책 변경
 기존 정책을 편집할 수 있으며 대상으로 지정된 사용자에게 적용할 수 있습니다. 그러나 기존 정책을 변경하는 경우 앱에 이미 로그인한 사용자에게는 8시간 동안 변경 내용이 표시되지 않습니다.
@@ -219,6 +216,5 @@ iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 중
 [규정 준수 및 사용자 상태 모니터링](monitor-mobile-app-management-policies-with-microsoft-intune.md)
 
 ### <a name="see-also"></a>참고 항목
-* [Android 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
-* [iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
-
+* [Android 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](/intune/end-user-mam-apps-android)
+* [iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](/intune/end-user-mam-apps-ios)

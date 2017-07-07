@@ -1,7 +1,7 @@
 ---
 title: "장치 준수를 모니터링하는 방법"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 장치 준수를 모니터링하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "장치 준수를 모니터링하는 방법을 알아봅니다.\""
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -15,20 +15,18 @@ ms.assetid: 0790934b-48b9-435b-a8aa-e83ed5b73191
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: e073ca318d7db23239fc68b79718198dbee54b6e
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 8f18bfa7fb045dbad4ab785c2c8e1bc13fc439db
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-# <a name="how-to-monitor-device-compliance-in-intune-azure-preview"></a>Intune Azure 미리 보기에서 장치 준수를 모니터링하는 방법
+# <a name="how-to-monitor-device-compliance-in-intune"></a>Intune에서 장치 준수를 모니터링하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 **개요** 블레이드에서 **준수 프로필**의 상태 요약을 볼 수 있습니다.
-대화형으로 방식으로 차트를 클릭하여 세부 정보로 드릴다운할 수 있습니다. 여러 준수 프로필을 구성한 경우 정책 블레이드로 이동한 후 **관리** 섹션에서 **보고서**를 선택하여 각 정책의 상태를 확인할 수도 있습니다.  미리 볼 수 있는 보고서의 세부 정보는 다음과 같습니다.
+대화형으로 방식으로 차트를 클릭하여 세부 정보로 드릴다운할 수 있습니다. 여러 준수 프로필을 구성한 경우 정책 블레이드로 이동한 후 **관리** 섹션에서 **보고서**를 선택하여 각 정책의 상태를 확인할 수도 있습니다.  사용할 수 있는 보고서의 세부 정보는 다음과 같습니다.
 
 ##  <a name="device-compliance"></a>장치 정책 준수
 
@@ -48,4 +46,3 @@ ms.lasthandoff: 05/23/2017
 - 설정이 적용되는 플랫폼
 
 각 설정을 드릴다운하여 이러한 설정이 사용된 프로필 및 설정의 값에 대한 세부 정보를 확인할 수 있습니다.
-

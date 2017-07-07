@@ -1,5 +1,5 @@
 ---
-title: "데이터 암호화를 사용하여 회사 데이터 보호 | Microsoft 문서"
+title: "데이터 암호화를 사용하여 회사 데이터 보호"
 description: "이 가이드에서는 모바일 앱에 대한 정책에 따라 암호 및 데이터 암호화를 강제로 사용하여 데이터 손실로부터 회사를 보호하는 데 유용합니다."
 keywords: "암호화, PIN, 데이터"
 author: arob98
@@ -14,15 +14,12 @@ ms.assetid: b1e84ef8-a260-4e3d-aaf1-8b3facfecafa
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: d1cffa0066ffcbb9f0aadcb387cefee1ffe1f47a
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 42ae7cdedbcbd9bf6420ca9fd2cfa39a75174736
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="quick-start-guide-protect-company-data-with-data-encryption"></a>빠른 시작 가이드: 데이터 암호화를 사용하여 회사 데이터 보호
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -45,12 +42,11 @@ Microsoft Intune을 사용하면 전체 모바일 장치 관리에 iOS 또는 An
 이 가이드는 회사에서 장치 관리 솔루션에서 완전히 등록하지 않고도, 직원들이 중요한 데이터에 액세스하는 데 사용하는 모바일 앱에서 정책을 사용하여 암호 및 데이터 암호화를 강제로 적용함으로써 데이터 손실로부터 회사를 보호하는 데 유용할 수 있습니다. Microsoft Intune을 사용하면 [iOS](https://products.office.com/mobile/office-mobile-apps-for-ios) 및 [Android](https://products.office.com/mobile/office-mobile-apps-for-android)용 Office 모바일 앱에 대해 MAM(모바일 응용 프로그램 관리) 정책을 설정할 수 있습니다. 이렇게 하면 사용자가 모바일 장치 관리 솔루션에 장치를 등록할 필요 없이 Office 모바일 앱을 사용하여 최고의 최종 사용자 환경을 유지하면서 O365 데이터가 보호됩니다.
 
 ## <a name="how-do-i-do-it"></a>어떻게 하나요?
-1.    [앱 데이터 보호 방법 검토](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)
-2.    [모바일 앱 관리 정책 구성 준비](/intune-classic/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)
-3.    [모바일 앱 관리 정책 만들기 및 배포](/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)
+1.  [앱 데이터 보호 방법 검토](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)
+2.  [모바일 앱 관리 정책 구성 준비](/intune-classic/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)
+3.  [모바일 앱 관리 정책 만들기 및 배포](/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)
 
 ## <a name="additional-information"></a>추가 정보:
-- [Microsoft Intune을 사용하여 MAM을 사용한 앱에 대한 최종 사용자 환경에 대해 알아보기]/intune-classic/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune)
-- [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정]/intune-classic/deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune)
+- [Microsoft Intune을 사용하여 MAM을 사용한 앱에 대한 최종 사용자 환경에 대해 알아보기](/intune-classic/eploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune)
+- [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](/intune/apps-prepare-mobile-application-management)
 - [Microsoft Intune 응용 프로그램 파트너 목록 보기](https://www.microsoft.com/cloud-platform/microsoft-intune-partners)
-

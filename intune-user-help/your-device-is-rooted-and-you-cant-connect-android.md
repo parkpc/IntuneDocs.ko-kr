@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9786b71a-d2ff-4d95-a2d9-47ece0aec8ca
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 501bbb1d75ec2302f7564e7a62eb5b04f40a2d04
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="your-android-device-is-rooted-so-you-cant-connect"></a>사용 중인 Android 장치가 루팅되어 연결할 수 없는 경우
 
 장치가 _루팅_되었음을 알리는 메시지가 표시되어 이 페이지로 이동되었습니다.
@@ -39,4 +35,3 @@ Android 장치가 "루팅"되었다는 것은 일반적으로는 제공되지 �
 - 루트 검색 소프트웨어에서 보안 위협으로 간주하는 소프트웨어를 장치 제조업체에서 장치에 설치했을 수 있습니다. 이 경우에는 IT 관리자에게 지원을 요청해야 합니다. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
 
 장치를 직접 루팅한 경우에는 해당 프로세스를 역방향으로 수행하여 장치를 루팅되지 않은 상태로 복원해야 합니다.
-

@@ -1,7 +1,7 @@
 ---
 title: "비즈니스용 Windows Hello를 사용하는 방법"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 관리되는 장치에서 비즈니스용 Windows Hello 사용을 제어하기 위한 정책을 만드는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "관리 장치에서 비즈니스용 Windows Hello 사용을 제어하기 위한 정책을 만드는 방법을 알아봅니다.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
@@ -15,19 +15,16 @@ ms.assetid: 541be8b8-8668-41be-afce-3f3e08c12191
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 4d375a40283a5f3c1e9b7302d659739d4ca3d508
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 0ef9e70dc918b485f893cf3193f7e76f6084a896
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="use-windows-hello-for-business"></a>비즈니스용 Windows Hello 사용
 
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Microsoft Intune은 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 비즈니스용 Windows Hello와 통합합니다.
 
@@ -100,4 +97,3 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 
 ## <a name="further-information"></a>추가 정보
 Microsoft Passport에 대한 자세한 내용은 Windows 10 설명서의 [가이드](https://technet.microsoft.com/library/mt589441.aspx)를 참조하세요.
-

@@ -1,7 +1,7 @@
 ---
 title: "앱 보호 정책을 모니터링하는 방법"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 해당 정책이 있는 사용자 수를 확인하고 드릴다운하여 자세한 내용을 확인하세요."
+titleSuffix: Intune on Azure
+description: "해당 정책이 있는 사용자 수를 확인하고 드릴다운하여 자세한 내용을 확인하세요.\""
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -15,19 +15,16 @@ ms.assetid: 9b0afb7d-cd4e-4fc6-83e2-3fc0da461d02
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 1e7294e5c7bb1136718ca6d651d9375a22796fa7
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: de40d149818b2655a8fc3b647a7e850973814165
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-monitor-app-protection-policies"></a>앱 보호 정책을 모니터링하는 방법
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-이 항목에서는 **Azure의 Intune 미리 보기에 없는 경우** 클래식 Intune 콘솔에서 [앱 보호 정책을 만드는 방법](https://docs.microsoft.com/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)을 설명합니다.
+이 항목에서는 **Azure Portal을 사용하지 않는 경우** 클래식 Intune 콘솔에서 [앱 보호 정책을 만드는 방법](https://docs.microsoft.com/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)을 설명합니다.
 
 
 [Azure 포털](https://portal.azure.com)의 Intune 앱 보호 블레이드에서 사용자에게 적용한 MAM(모바일 앱 관리) 정책의 준수 상태를 모니터링할 수 있습니다. MAM 정책, 준수 상태 및 사용자에게 발생할 수 있는 문제의 영향을 받는 사용자에 대한 정보를 확인할 수 있습니다.
@@ -43,8 +40,8 @@ ms.lasthandoff: 05/23/2017
 ## <a name="summary-view"></a>요약 보기
 
 1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **Mobile apps**를 선택합니다.
+2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+3. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
 4. **Mobile apps** 작업에서 **모니터** > **앱 보호 사용자 상태**를 선택하여 요약 보기를 표시합니다.
 
 ![Intune 모바일 응용 프로그램 관리 블레이드의 요약 타일](./media/app-protection-user-status-summary.png)
@@ -139,4 +136,3 @@ ms.lasthandoff: 05/23/2017
 
 * [Android 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](app-protection-enabled-apps-android.md)
 * [iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](app-protection-enabled-apps-ios.md)
-

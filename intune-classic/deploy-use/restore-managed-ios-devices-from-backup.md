@@ -14,15 +14,12 @@ ms.assetid: a19e5612-8805-4bd7-a86a-b734bde293ae
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 7fc99a944000a8d5ecfc09ebc2e956e7c0f201c9
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="restore-intune-managed-ios-devices-from-backup"></a>Intune 관리 iOS 장치를 백업에서 복원
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -52,4 +49,3 @@ ms.lasthandoff: 06/08/2017
 
 ### <a name="for-users-who-will-use-both-their-old-and-new-devices"></a>이전 장치와 새 장치를 모두 사용하는 사용자
 Safari에서 쿠키를 기반으로 선택 취소 __설정__ > __Safari__ > __Clear History and Website Data__(기록 및 웹 사이트 데이터 지우기)를 탭하여 Safari에서 쿠키를 지웁니다. 지운 후에는 회사 포털 앱을 제거했다가 다시 설치하고 표준 등록 단계에 따라 [Intune에 iOS 장치를 등록](/intune-user-help/enroll-your-device-in-intune-ios)합니다.
-

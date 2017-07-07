@@ -1,5 +1,5 @@
 ---
-title: "iOS 장치용 준수 정책 설정 | Microsoft 문서"
+title: "iOS 장치용 준수 정책 설정"
 description: "이 항목에서는 iOS 장치에 대한 준수 정책에 설정할 수 있는 규칙 및 설정에 대해 설명합니다."
 keywords: 
 author: andredm7
@@ -14,16 +14,12 @@ ms.assetid: 4a59d24f-ed58-49b1-b874-b2d4aea3ec76
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: fbb2e7ced783160fb6034aecc893d0c5dde639d7
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 1d3248747740dafe858a581ed19a02ba87c4b761
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="compliance-policy-settings-for-ios-devices-in-microsoft-intune"></a>Microsoft Intune에서 iOS 장치용 규정 준수 정책 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -84,4 +80,3 @@ ms.lasthandoff: 05/23/2017
 업그레이드 방법에 대한 정보를 제공하는 링크가 표시됩니다. 사용자는 장치를 업그레이드하도록 선택할 수 있습니다. 그런 다음 회사 리소스에 액세스할 수 있습니다.
 
 - **허용된 최대 OS 버전**: 장치가 규칙에 지정된 버전 이후의 OS를 사용하는 경우 회사 리소스에 대한 액세스가 차단되고 사용자는 IT 관리자에게 문의하라는 메시지가 표시됩니다. OS 버전 허용 규칙이 변경될 때까지 회사 리소스에 액세스하는 데 이 장치를 사용할 수 없습니다.
-

@@ -1,5 +1,5 @@
 ---
-title: "보고서를 사용하여 작업 이해 | Microsoft 문서"
+title: "보고서를 사용하여 작업 이해"
 description: "조직의 소프트웨어, 하드웨어 및 소프트웨어 라이선스에 대한 보고서를 만들어 관리합니다."
 keywords: 
 author: robstackmsft
@@ -14,16 +14,12 @@ ms.assetid: 857309c2-61c9-4c22-becf-4839fedeaece
 ms.reviewer: pbala
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: d16374606d60f3b09dc24b3c4ef4f196a739b32e
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
-
+ms.openlocfilehash: c433acc553b1f89789cdb72a33e8dbbc7929bae0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="understand-microsoft-intune-operations-by-using-reports"></a>보고서를 사용하는 Microsoft Intune 작업 이해
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -73,6 +69,5 @@ Intune 보고서는 조직의 소프트웨어, 하드웨어 및 소프트웨어 
 |**저장**|**새 보고서 만들기** 페이지에서 각 사용자는 보고서를 100개까지 저장할 수 있습니다. 요구 사항에 맞게 보고서 매개 변수를 구성한 후 **저장**을 클릭하거나, 다른 이름을 사용하려는 경우 **다른 이름으로 저장**을 클릭합니다.|
 |**로드**|**새 보고서 만들기** 페이지에서 **로드**를 선택하여 이전에 저장된 보고서 매개 변수 집합을 검색합니다.|
 |**삭제**|**보고서** 작업 영역에서 원하는 보고서 유형을 선택하고 **로드**를 선택합니다. 그런 다음 보고서 목록에서 보고서 옆에 있는 삭제(x) 아이콘을 선택합니다.|
-
 
 

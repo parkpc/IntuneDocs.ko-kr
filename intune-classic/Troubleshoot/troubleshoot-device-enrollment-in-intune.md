@@ -1,11 +1,11 @@
 ---
-title: "장치 등록 문제 해결| Microsoft 문서"
+title: "장치 등록 문제 해결"
 description: "장치 등록 문제 해결을 위한 제안 사항"
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 05/10/2017
+ms.date: 05/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,12 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: e72051f9318d24ed36fc39ea6645041f0a150a40
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: f0c55caa70c1a23da549f2fe8804c2ae69ef6045
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="troubleshoot-device-enrollment-in-intune"></a>Intune에서 장치 등록 문제 해결
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -34,11 +31,11 @@ ms.lasthandoff: 05/23/2017
 
 문제 해결을 시작하기 전에 등록이 설정되도록 Intune을 올바르게 구성했는지 확인하세요. 다음에서 이러한 구성 요구 사항에 대해 자세히 읽어볼 수 있습니다.
 
--    [Microsoft Intune에 장치를 등록하도록 준비](/intune-classic/deploy-use/prerequisites-for-enrollment)
--    [iOS 및 Mac 장치 관리 설정](/intune-classic/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
--    [Windows 장치 관리 설정](/intune-classic/deploy-use/set-up-windows-device-management-with-microsoft-intune)
--    [Android 장치 관리 설정](/intune-classic/deploy-use/set-up-android-management-with-microsoft-intune) - 추가 단계 불필요
--    [Android for Work 장치 관리 설정](/intune-classic/deploy-use/set-up-android-for-work)
+-   [Microsoft Intune에 장치를 등록하도록 준비](/intune-classic/deploy-use/prerequisites-for-enrollment)
+-   [iOS 및 Mac 장치 관리 설정](/intune-classic/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
+-   [Windows 장치 관리 설정](/intune-classic/deploy-use/set-up-windows-device-management-with-microsoft-intune)
+-   [Android 장치 관리 설정](/intune-classic/deploy-use/set-up-android-management-with-microsoft-intune) - 추가 단계 불필요
+-   [Android for Work 장치 관리 설정](/intune-classic/deploy-use/set-up-android-for-work)
 
 관리되는 장치 사용자는 여러분이 검토할 등록 및 진단 로그를 수집할 수 있습니다. 로그 수집에 대한 지침은 다음과 같이 제공됩니다.
 
@@ -110,8 +107,8 @@ ms.lasthandoff: 05/23/2017
 
 1.  MDM 기관이 사용 중인 Intune 서비스 유형, 즉 Intune, Office 365 또는 System Center Configuration Manager with Intune에 대해 적절히 설정되었는지 확인합니다. Intune의 경우, MDM 기관은 **관리** &gt; **모바일 장치 관리**에 설정되어 있습니다. Intune의 Configuration Manager의 경우, Intune 커넥터를 구성할 때 설정하고, Office 365에서는 **모바일 장치** 설정입니다.
 
-    > [!NOTE]
-    > MDM 기관을 설정한 후에는 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 지원 팀에 연락해야만 변경할 수 있습니다.
+    > [!NOTE]    
+    > Configuration Manager 버전 1610 이상과 Microsoft Intune 버전 1705에서는 Microsoft 지원에 문의하여 기존의 관리 장치를 등록 취소했다가 다시 등록할 필요 없이 MDM 기관을 변경할 수 있습니다. 자세한 내용은 [잘못된 MDM 기관 설정을 선택한 경우 수행할 작업](/intune-classic/deploy-use/prerequisites-for-enrollment#what-to-do-if-you-choose-the-wrong-mdm-authority-setting)을 참조하세요.
 
 2.  사용자 UPN이 Office 365 포털에서 Active Directory 정보와 일치하는지 확인하여 사용자의 자격 증명이 Azure Active Directory와 올바른 동기화했는지 확인합니다.
     UPN은 Active Directory 정보와 일치하지 않으면
@@ -174,7 +171,7 @@ ms.lasthandoff: 05/23/2017
 
 사용자에게 Android 6.0으로 업그레이드해 보도록 요청합니다. Android 6.0 장치에서는 비활성화 문제가 발생하지 않습니다. 업데이트를 사용할 수 있는지 확인하려면 **설정** > **장치 정보** > **수동으로 업데이트 다운로드**로 이동하고 장치에 표시되는 메시지를 따릅니다.
 
- **3:**
+**3:**
 
 해결 방법 2로 해결되지 않으면 사용자에게 다음 단계에 따라 Smart Manager에서 회사 포털 앱을 제외하도록 설정하라고 요청합니다.
 
@@ -230,16 +227,16 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
 이 문제를 해결하려면 다음과 같이 인증서를 AD FS 서버 또는 프록시의 컴퓨터 개인 인증서로 가져옵니다.
 
-1.    AD FS 및 프록시 서버에서 **시작** 단추를 마우스 오른쪽 단추로 클릭하고 **실행**을 입력한 다음 **certlm.msc**를 입력하여 로컬 컴퓨터의 인증서 관리 콘솔을 시작합니다.
-2.    **개인**을 확장하고 **인증서**를 선택합니다.
-3.    AD FS 서비스 통신용 인증서(공개 서명된 인증서)를 찾은 다음 두 번 클릭하여 해당 속성을 확인합니다.
-4.    **인증 경로** 탭을 선택하여 해당 인증서의 상위 인증서를 확인합니다.
-5.    각 상위 인증서에서 **인증서 보기**를 선택합니다.
-6.    **세부 정보** 탭을 선택하고 **파일에 복사...**를 선택합니다.
-7.    마법사의 메시지에 따라 인증서의 공개 키를 원하는 파일 위치에 내보내거나 저장합니다.
-8.    **인증서**를 마우스 오른쪽 단추로 클릭하고 **모든 태스크** > **가져오기**를 선택한 후에 마법사의 메시지에 따라 인증서를 가져오는 방법으로 3단계에서 내보냈던 상위 인증서를 로컬 컴퓨터\개인\인증서로 가져옵니다.
-9.    AD FS 서버를 다시 시작합니다.
-10.    모든 AD FS 및 프록시 서버에서 위의 단계를 반복합니다.
+1.  AD FS 및 프록시 서버에서 **시작** 단추를 마우스 오른쪽 단추로 클릭하고 **실행**을 입력한 다음 **certlm.msc**를 입력하여 로컬 컴퓨터의 인증서 관리 콘솔을 시작합니다.
+2.  **개인**을 확장하고 **인증서**를 선택합니다.
+3.  AD FS 서비스 통신용 인증서(공개 서명된 인증서)를 찾은 다음 두 번 클릭하여 해당 속성을 확인합니다.
+4.  **인증 경로** 탭을 선택하여 해당 인증서의 상위 인증서를 확인합니다.
+5.  각 상위 인증서에서 **인증서 보기**를 선택합니다.
+6.  **세부 정보** 탭을 선택하고 **파일에 복사...**를 선택합니다.
+7.  마법사의 메시지에 따라 인증서의 공개 키를 원하는 파일 위치에 내보내거나 저장합니다.
+8.  **인증서**를 마우스 오른쪽 단추로 클릭하고 **모든 태스크** > **가져오기**를 선택한 후에 마법사의 메시지에 따라 인증서를 가져오는 방법으로 3단계에서 내보냈던 상위 인증서를 로컬 컴퓨터\개인\인증서로 가져옵니다.
+9.  AD FS 서버를 다시 시작합니다.
+10. 모든 AD FS 및 프록시 서버에서 위의 단계를 반복합니다.
 이제 사용자는 Android 장치에서 회사 포털에 로그인할 수 있습니다.
 
 **인증서가 제대로 설치되었는지 유효성을 검사하려면**:
@@ -261,10 +258,10 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 |-----------------|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |NoEnrollmentPolicy|등록 정책을 찾을 수 없음|APNs(Apple Push Notification Service)와 같은 모든 등록 필수 구성 요소가 설정되었는지와 "플랫폼으로 iOS 사용"이 설정되었는지 확인합니다. 자세한 내용은 [iOS 및 Mac 장치 관리 설정](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)을 참조하세요.|
 |DeviceCapReached|너무 많은 모바일 장치가 이미 등록되어 있습니다.|사용자는 다른 모바일 장치를 등록하기 전에 현재 등록된 모바일 장치 중 하나를 회사 포털에서 제거해야 합니다. [Android](https://docs.microsoft.com/intune-user-help/unenroll-your-device-from-intune-android), [iOS](https://docs.microsoft.com/intune-user-help/unenroll-your-device-from-intune-ios), [Windows](https://docs.microsoft.com/intune-user-help/unenroll-your-device-from-intune-windows) 중에서 사용 중인 장치 유형에 대한 지침을 참조하세요.|
-|APNSCertificateNotValid|모바일 장치와 회사 네트워크 간 통신을 허용하는 인증서에 문제가 있습니다.<br /><br />|APNs(Apple Push Notification Service)에서 등록된 iOS 장치에 연결할 수 있는 채널을 제공합니다. APNs 인증서를 가져오는 단계를 수행하지 않았거나 APNs 인증서가 만료된 경우에는 등록 시도가 실패하고 이 메시지가 나타납니다.<br /><br />[Active Directory를 동기화하고 Intune에 사용자 추가](/Intune/Get-Started/start-with-a-paid-subscription-to-microsoft-intune-step-3) 및 [사용자 및 장치 구성](/Intune/Get-Started/start-with-a-paid-subscription-to-microsoft-intune-step-5)에서 사용자를 설정하는 방법에 대한 정보를 검토하세요.|
+|APNSCertificateNotValid|모바일 장치와 회사 네트워크 간 통신을 허용하는 인증서에 문제가 있습니다.<br /><br />|APNs(Apple Push Notification Service)에서 등록된 iOS 장치에 연결할 수 있는 채널을 제공합니다. APNs 인증서를 가져오는 단계를 수행하지 않았거나 APNs 인증서가 만료된 경우에는 등록 시도가 실패하고 이 메시지가 나타납니다.<br /><br />[Active Directory를 동기화하고 Intune에 사용자 추가](/intune/users-permissions-add) 및 [사용자 및 장치 구성](/Intune/Get-Started/start-with-a-paid-subscription-to-microsoft-intune-step-5)에서 사용자를 설정하는 방법에 대한 정보를 검토하세요.|
 |AccountNotOnboarded|모바일 장치와 회사 네트워크 간 통신을 허용하는 인증서에 문제가 있습니다.<br /><br />|APNs(Apple Push Notification Service)에서 등록된 iOS 장치에 연결할 수 있는 채널을 제공합니다. APNs 인증서를 가져오는 단계를 수행하지 않았거나 APNs 인증서가 만료된 경우에는 등록 시도가 실패하고 이 메시지가 나타납니다.<br /><br />자세한 내용은 [Microsoft Intune을 사용한 iOS 및 Mac 관리 설정](/Intune/Deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)을 검토하세요.|
 |DeviceTypeNotSupported|사용자가 비 iOS 장치를 사용하여 등록하려고 했을 수 있습니다. 등록하려는 모바일 장치 유형이 지원되지 않습니다.<br /><br />장치가 iOS 버전 8.0 이상을 실행하고 있는지 확인합니다.<br /><br />|사용자 장치가 iOS 버전 8.0 이상을 실행 중인지 확인합니다.|
-|UserLicenseTypeInvalid|사용자 계정이 아직 필수 사용자 그룹의 구성원이 아니어서 장치를 등록할 수 없습니다.<br /><br />|사용자가 장치를 등록하려면 올바른 사용자 그룹의 구성원이어야 합니다. 이 메시지는 지정된 모바일 장치 관리 기관에 맞지 않는 라이선스 유형이 있음을 의미합니다. 예를 들어 Intune이 모바일 장치 관리 기관으로 지정되었는데 System Center 2012 R2 Configuration Manager 라이선스를 사용하는 경우 이 오류가 표시됩니다.<br /><br />자세한 내용은 다음을 검토하세요.<br /><br />[Microsoft Intune을 사용한 iOS 및 Mac 관리 설정](/Intune/Deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)과 [Active Directory를 동기화하고 Intune에 사용자 추가](/Intune/Get-Started/start-with-a-paid-subscription-to-microsoft-intune-step-3) 및 [사용자 및 장치 구성](/Intune/Get-Started/start-with-a-paid-subscription-to-microsoft-intune-step-5)의 사용자를 설정하는 방법에 대한 정보를 검토하세요.|
+|UserLicenseTypeInvalid|사용자 계정이 아직 필수 사용자 그룹의 구성원이 아니어서 장치를 등록할 수 없습니다.<br /><br />|사용자가 장치를 등록하려면 올바른 사용자 그룹의 구성원이어야 합니다. 이 메시지는 지정된 모바일 장치 관리 기관에 맞지 않는 라이선스 유형이 있음을 의미합니다. 예를 들어 Intune이 모바일 장치 관리 기관으로 지정되었는데 System Center 2012 R2 Configuration Manager 라이선스를 사용하는 경우 이 오류가 표시됩니다.<br /><br />자세한 내용은 다음을 검토하세요.<br /><br />[Microsoft Intune을 사용한 iOS 및 Mac 관리 설정](/Intune/Deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)과 [Active Directory를 동기화하고 Intune에 사용자 추가](/intune/users-permissions-add) 및 [사용자 및 장치 구성](/Intune/Get-Started/start-with-a-paid-subscription-to-microsoft-intune-step-5)의 사용자를 설정하는 방법에 대한 정보를 검토하세요.|
 |MdmAuthorityNotDefined|모바일 장치 관리 기관이 정의되지 않았습니다.<br /><br />|Intune에서 모바일 장치 관리 기관이 지정되지 않았습니다.<br /><br />[Microsoft Intune 30일 평가판으로 시작하기](/Intune/Understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune)에서 "6단계: 모바일 장치 등록 및 앱 설치" 섹션의 항목 #1을 검토합니다.|
 
 ### <a name="devices-are-inactive-or-the-admin-console-cannot-communicate-with-them"></a>장치가 비활성 상태이거나, 관리 콘솔에서 통신할 수 없음
@@ -413,4 +410,3 @@ iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장�
 
 ### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)의 설명에 따라 Microsoft 지원에 문의하세요.
-

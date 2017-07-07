@@ -14,15 +14,12 @@ ms.assetid: d2989e39-9b76-411b-b6fb-7209adb3bfb6
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.custom: intune-classic EXPIERIMENT
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 7d1e5fb629aaac768aefabad90caf98fc1cee37a
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="choose-how-to-enroll-mobile-devices"></a>모바일 장치를 등록하는 방법 선택
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -39,4 +36,3 @@ ms.lasthandoff: 06/08/2017
 - **사용자 소유 장치** - "BYOD"(Bring Your Own Device) 등록 – 사용자가 장치에 Intune 회사 포털 앱을 설치하고 메일, 회사 앱, 회사 데이터 및 지원과 같은 회사 리소스에 액세스할 수 있습니다.  
 
 - **회사 소유 장치** - COD(Company-Owned Devices)는 조직의 요구 사항과 관리될 장치의 유형에 따라 다양한 방법으로 등록될 수 있습니다.
-

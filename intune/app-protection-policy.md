@@ -1,7 +1,7 @@
 ---
 title: "앱 보호 정책이란?"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 이 항목에서는 Microsoft Intune 앱 보호 정책을 사용하여 회사 데이터를 보호하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "이 항목에서는 Microsoft Intune 앱 보호 정책을 사용하여 회사 데이터를 보호하는 방법을 알아봅니다.\""
 keywords: 
 author: NathBarn
 ms.author: nathbarn
@@ -15,19 +15,16 @@ ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 01f77e3511785d2c8da2edcd92df809b3b7e73e7
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 13b3199108c34a61d117e4d89d118bdd05d7d20f
+ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/03/2017
 ---
-
 # <a name="what-are-app-protection-policies"></a>앱 보호 정책이란?
 
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Microsoft Intune 앱 보호 정책은 회사 데이터를 보호하고 데이터 손실을 방지하도록 도와줍니다.
 
@@ -68,7 +65,7 @@ Intune 앱 보호 정책을 사용하여 회사 데이터를 보호할 수 있�
 
 -   Android 4 이상
 
-Windows 장치는 현재 지원되지 않습니다. 그러나 Windows 10 장치를 Intune에 등록할 경우 유사한 기능을 제공하는 Windows Information Protection을 사용할 수 있습니다. 자세한 내용은 [WIP(Windows Information Protection)를 사용하여 엔터프라이즈 데이터 보호](https://technet.microsoft.com/en-us/itpro/windows/keep-secure/protect-enterprise-data-using-wip)를 참조하세요.
+Windows 장치는 현재 지원되지 않습니다. 그러나 Windows 10 장치를 Intune에 등록할 경우 유사한 기능을 제공하는 Windows Information Protection을 사용할 수 있습니다. 자세한 내용은 [WIP(Windows Information Protection)를 사용하여 엔터프라이즈 데이터 보호](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip)를 참조하세요.
 ##  <a name="how-app-protection-policies-protect-app-data"></a>앱 보호 정책으로 앱 데이터를 보호하는 방법
 
 ####  <a name="apps-without-app-protection-policies"></a>앱 보호 정책을 사용하지 않는 앱
@@ -138,4 +135,3 @@ MDM 솔루션에 등록되지 않은 BYOD 장치의 경우 앱 보호 정책을 
 ##  <a name="next-steps"></a>다음 단계
 
 [Microsoft Intune으로 앱 보호 정책을 만들고 배포하는 방법](app-protection-policies.md)
-
