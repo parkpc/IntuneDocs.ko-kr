@@ -1,12 +1,12 @@
 ---
-title: "Intune을 사용하여 인증서를 구성하는 방법 | Microsoft 문서"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Intune을 사용하여 Wi-Fi, VPN 및 기타 연결의 보안을 유지하는 데 도움이 되는 인증서를 만들고 할당하는 방법을 알아봅니다."
+title: "Intune을 사용하여 인증서를 구성하는 방법"
+titleSuffix: Intune on Azure
+description: "Intune을 사용하여 Wi-Fi, VPN 및 기타 연결의 보안을 유지하는 데 도움이 되는 인증서를 만들고 할당하는 방법을 알아봅니다.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
 manager: angrobe
-ms.date: 05/02/2017
+ms.date: 06/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,15 @@ ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 81c7e04d4b4cc7599b63917e5507775b38b65ba7
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: da23a0c79c5e0e178e52e956561e2764268d09df
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-configure-certificates-in-microsoft-intune"></a>Microsoft Intune에서 인증서를 구성하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 VPN, Wi-Fi 또는 전자 메일 프로필을 통해 사용자에게 회사 리소스 액세스 권한을 부여하는 경우 인증서를 사용하여 연결을 인증할 수 있습니다. 이렇게 하면 연결 인증을 위해 사용자 이름 및 암호를 입력하지 않아도 됩니다.
 
@@ -56,8 +53,8 @@ Intune을 사용하여 관리하는 장치에 이러한 인증서를 할당할 �
 
     다음 플랫폼에서는 SCEP 인증서 프로필만 사용할 수 있습니다.
 
--     macOS 10.9 이상
--     Windows Phone 8.1 이상
+-   macOS 10.9 이상
+-   Windows Phone 8.1 이상
 
 각 장치 플랫폼에 대해 별도 프로필을 만들어야 합니다. 프로필을 만들 때 이미 만들어 놓은 신뢰할 수 있는 루트 인증서 프로필과 연결합니다.
 
@@ -88,7 +85,7 @@ SCEP 또는 PKCS 인증서 프로필을 만들기 전에 신뢰할 수 있는 �
 ### <a name="to-create-a-trusted-certificate-profile"></a>신뢰할 수 있는 인증서 프로필을 만들려면
 
 1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
+2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
 2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
 3. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.
@@ -128,4 +125,3 @@ SCEP 또는 PKCS 인증서 프로필을 만들기 전에 신뢰할 수 있는 �
 
 ## <a name="next-steps"></a>다음 단계
 장치 프로필을 할당하는 방법에 대한 일반적인 내용은 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
-

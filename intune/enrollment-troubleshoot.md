@@ -1,12 +1,12 @@
 ---
 title: "장치 등록 문제 해결"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 장치 등록 문제를 해결하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "장치 등록 문제를 해결하는 방법을 알아봅니다.\""
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 05/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,15 @@ ms.assetid: c324c74e-e225-40ad-88b7-72a6d9ea09b5
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 3084b7179a310a44c520dd42a8e194490dca90d8
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 9b7af9168164f1cccf3feae5bbdfd8014f8c7c1f
+ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/03/2017
 ---
-
 # <a name="troubleshoot-device-enrollment-in-intune"></a>Intune에서 장치 등록 문제 해결
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 이 항목에서는 장치 등록 문제 해결을 위한 제안 사항을 제공합니다. 이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](https://docs.microsoft.com/intune-classic/troubleshoot/get-support)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
 
@@ -102,8 +99,8 @@ Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**
 
 1.  MDM 기관이 사용 중인 Intune 서비스 유형, 즉 Intune, Office 365 또는 System Center Configuration Manager with Intune에 대해 적절히 설정되었는지 확인합니다. 지침은 [모바일 장치 관리 기관 설정](mdm-authority-set.md)을 참조하세요.
 
-    > [!NOTE]
-    > MDM 기관을 설정한 후에는 [Microsoft Intune에 대한 지원을 받는 방법](https://docs.microsoft.com/intune-classic/troubleshoot/get-support)의 설명에 따라 지원 팀에 연락해야만 변경할 수 있습니다.
+    > [!NOTE]    
+    > Configuration Manager 버전 1610 이상과 Microsoft Intune 버전 1705에서는 Microsoft 지원에 문의하여 기존의 관리 장치를 등록 취소했다가 다시 등록할 필요 없이 MDM 기관을 변경할 수 있습니다. 자세한 내용은 [잘못된 MDM 기관 설정을 선택한 경우 수행할 작업](/intune-classic/deploy-use/prerequisites-for-enrollment#what-to-do-if-you-choose-the-wrong-mdm-authority-setting)을 참조하세요.
 
 2.  해당 UPN이 계정 포털에서 Active Directory 정보와 일치하는지 확인하여 사용자의 자격 증명이 Azure Active Directory와 올바른 동기화했는지 확인합니다.
     UPN은 Active Directory 정보와 일치하지 않으면
@@ -166,7 +163,7 @@ Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**
 
 사용자에게 Android 6.0으로 업그레이드해 보도록 요청합니다. Android 6.0 장치에서는 비활성화 문제가 발생하지 않습니다. 업데이트를 사용할 수 있는지 확인하려면 **설정** > **장치 정보** > **수동으로 업데이트 다운로드**로 이동하고 장치에 표시되는 메시지를 따릅니다.
 
- **3:**
+**3:**
 
 해결 방법 2로 해결되지 않으면 사용자에게 다음 단계에 따라 Smart Manager에서 회사 포털 앱을 제외하도록 설정하라고 요청합니다.
 
@@ -222,16 +219,16 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
 이 문제를 해결하려면 다음과 같이 인증서를 AD FS 서버 또는 프록시의 컴퓨터 개인 인증서로 가져옵니다.
 
-1.    AD FS 및 프록시 서버에서 **시작** 단추를 마우스 오른쪽 단추로 클릭하고 **실행**을 입력한 다음 **certlm.msc**를 입력하여 로컬 컴퓨터의 인증서 관리 콘솔을 시작합니다.
-2.    **개인**을 확장하고 **인증서**를 선택합니다.
-3.    AD FS 서비스 통신용 인증서(공개 서명된 인증서)를 찾은 다음 두 번 클릭하여 해당 속성을 확인합니다.
-4.    **인증 경로** 탭을 선택하여 해당 인증서의 상위 인증서를 확인합니다.
-5.    각 상위 인증서에서 **인증서 보기**를 선택합니다.
-6.    **세부 정보** 탭을 선택하고 **파일에 복사...**를 선택합니다.
-7.    마법사의 메시지에 따라 인증서의 공개 키를 원하는 파일 위치에 내보내거나 저장합니다.
-8.    **인증서**를 마우스 오른쪽 단추로 클릭하고 **모든 태스크** > **가져오기**를 선택한 후에 마법사의 메시지에 따라 인증서를 가져오는 방법으로 3단계에서 내보냈던 상위 인증서를 로컬 컴퓨터\개인\인증서로 가져옵니다.
-9.    AD FS 서버를 다시 시작합니다.
-10.    모든 AD FS 및 프록시 서버에서 위의 단계를 반복합니다.
+1.  AD FS 및 프록시 서버에서 **시작** 단추를 마우스 오른쪽 단추로 클릭하고 **실행**을 입력한 다음 **certlm.msc**를 입력하여 로컬 컴퓨터의 인증서 관리 콘솔을 시작합니다.
+2.  **개인**을 확장하고 **인증서**를 선택합니다.
+3.  AD FS 서비스 통신용 인증서(공개 서명된 인증서)를 찾은 다음 두 번 클릭하여 해당 속성을 확인합니다.
+4.  **인증 경로** 탭을 선택하여 해당 인증서의 상위 인증서를 확인합니다.
+5.  각 상위 인증서에서 **인증서 보기**를 선택합니다.
+6.  **세부 정보** 탭을 선택하고 **파일에 복사...**를 선택합니다.
+7.  마법사의 메시지에 따라 인증서의 공개 키를 원하는 파일 위치에 내보내거나 저장합니다.
+8.  **인증서**를 마우스 오른쪽 단추로 클릭하고 **모든 태스크** > **가져오기**를 선택한 후에 마법사의 메시지에 따라 인증서를 가져오는 방법으로 3단계에서 내보냈던 상위 인증서를 로컬 컴퓨터\개인\인증서로 가져옵니다.
+9.  AD FS 서버를 다시 시작합니다.
+10. 모든 AD FS 및 프록시 서버에서 위의 단계를 반복합니다.
 이제 사용자는 Android 장치에서 회사 포털에 로그인할 수 있습니다.
 
 **인증서가 제대로 설치되었는지 유효성을 검사하려면**:
@@ -255,7 +252,7 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
 **해결 방법:** 최종 사용자에게 다음 해결 방법을 공유하여 회사 리소스에 대한 액세스 권한을 다시 얻도록 지원합니다.
 
-사용자는 iOS 회사 포털 앱을 시작하는 경우 장치와 Intune과의 연결이 끊겼는지 알 수 있습니다. 연결이 끊겼다고 감지되면 다시 연결하기 위해 Intune과 동기화를 자동으로 시도하며 사용자에게 **동기화하는 중...**이라는 인라인 알림이 표시됩니다. 
+사용자는 iOS 회사 포털 앱을 시작하는 경우 장치와 Intune과의 연결이 끊겼는지 알 수 있습니다. 연결이 끊겼다고 감지되면 다시 연결하기 위해 Intune과 동기화를 자동으로 시도하며 사용자에게 **동기화하는 중...**이라는 인라인 알림이 표시됩니다.
 
   ![동기화하는 중 알림](./media/ios_cp_app_trying_to_sync_notification.png)
 
@@ -263,11 +260,11 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
   ![동기화 성공 알림](./media/ios_cp_app_sync_successful_notification.png)
 
-동기화에 실패할 경우 iOS 회사 포털 앱에 **동기화할 수 없음** 인라인 알림이 표시됩니다. 
+동기화에 실패할 경우 iOS 회사 포털 앱에 **동기화할 수 없음** 인라인 알림이 표시됩니다.
 
   ![동기화할 수 없음 알림](./media/ios_cp_app_unable_to_sync_notification.png)
 
-이 문제를 해결하려면 사용자는 **동기화할 수 없음** 알림 오른쪽에 있는 **설정** 단추를 선택해야 합니다. 설정 단추를 통해 사용자는 회사 액세스 설정 흐름 화면으로 이동하며, 여기에서 프롬프트에 따라 장치를 등록할 수 있습니다. 
+이 문제를 해결하려면 사용자는 **동기화할 수 없음** 알림 오른쪽에 있는 **설정** 단추를 선택해야 합니다. 설정 단추를 통해 사용자는 회사 액세스 설정 흐름 화면으로 이동하며, 여기에서 프롬프트에 따라 장치를 등록할 수 있습니다.
 
   ![회사 액세스 설정 화면](./media/ios_cp_app_company_access_setup.png)
 
@@ -313,7 +310,7 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 3. SMS Executive 서비스를 다시 시작하거나 CM 서버를 다시 시작합니다.
 
 4. 새 APN 인증서를 가져와 업로드합니다. 이렇게 하려면 Configuration Manager 왼쪽 창에서 Intune 구독을 마우스 오른쪽 단추로 클릭합니다. **APNs 인증서 요청 만들기**를 선택하고 지침에 따릅니다.
-5. 
+5.
 ## <a name="issues-when-using-system-center-configuration-manager-with-intune"></a>System Center Configuration Manager with Intune 사용 시 문제
 
 ### <a name="mobile-devices-disappear"></a>모바일 장치가 사라집니다.
@@ -362,7 +359,7 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
     > [!IMPORTANT]
     > 이 섹션, 방법, 또는 작업에는 레지스트리를 수정하는 방법이 포함됩니다. 하지만, 레지스트리를 잘못 수정하면 심각한 문제가 발생할 수 있습니다. 따라서, 단계를 신중하게 따라야 합니다. 추가적인 보호를 위해, 수정하기 전에 레지스트리를 백업하세요. 그런 다음 문제가 발생하는 경우 레지스트리를 복원할 수 있습니다.
-    > 레지스트리를 백업하고 복원하는 방법에 대한 자세한 내용은 [Windows에서 레지스트리를 백업하고 복원하는 방법](https://support.microsoft.com/en-us/kb/322756)을 참조하세요.
+    > 레지스트리를 백업하고 복원하는 방법에 대한 자세한 내용은 [Windows에서 레지스트리를 백업하고 복원하는 방법](https://support.microsoft.com/kb/322756)을 참조하세요.
 
 ## <a name="general-enrollment-error-codes"></a>일반적인 등록 오류 코드
 
@@ -382,7 +379,7 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 |0x80043008, 0x80CF3008|Microsoft Online Management Updates 서비스를 시작하지 못했습니다.|[Microsoft Intune에 대한 지원을 받는 방법](https://docs.microsoft.com/intune-classic/troubleshoot/get-support)의 설명에 따라 Microsoft 지원에 문의합니다.|
 |0x80043009, 0x80CF3009|클라이언트 컴퓨터가 이미 서비스에 등록되어 있습니다.|클라이언트 컴퓨터를 서비스에 다시 등록하기 전에 사용 중지해야 합니다.|
 |0x8004300B, 0x80CF300B|클라이언트를 실행 중인 Windows 버전이 지원되지 않으므로 클라이언트 소프트웨어 설치 패키지를 실행할 수 없습니다.|Intune에서 클라이언트 컴퓨터에서 실행 중인 Windows 버전을 지원하지 않습니다.|
-|0xAB2|Windows Installer에서 사용자 지정 작업에 대한 VBScript 런타임에 액세스할 수 없습니다.|이 오류는 DLL(동적 연결 라이브러리)에 기반한 사용자 지정 작업으로 인해 발생합니다. DLL 문제를 해결하려면 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues(Microsoft 지원 기술 자료 198038: 패키지 및 배포 문제에 유용한 도구)](https://support.microsoft.com/en-us/kb/198038)에 설명된 도구를 사용해야 할 수 있습니다.|
+|0xAB2|Windows Installer에서 사용자 지정 작업에 대한 VBScript 런타임에 액세스할 수 없습니다.|이 오류는 DLL(동적 연결 라이브러리)에 기반한 사용자 지정 작업으로 인해 발생합니다. DLL 문제를 해결하려면 [Microsoft Support KB198038: Useful Tools for Package and Deployment Issues(Microsoft 지원 기술 자료 198038: 패키지 및 배포 문제에 유용한 도구)](https://support.microsoft.com/kb/198038)에 설명된 도구를 사용해야 할 수 있습니다.|
 |0x80cf0440|서비스 끝점에 대한 연결이 종료되었습니다.|평가판 또는 유료 계정 일시 중단되었습니다. 새 평가판 또는 유료 계정을 만들고 다시 등록합니다.|
 
 
@@ -390,4 +387,3 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 
 ### <a name="next-steps"></a>다음 단계
 문제 해결 정보가 도움이 되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](https://docs.microsoft.com/intune-classic/troubleshoot/get-support)의 설명에 따라 Microsoft 지원에 문의하세요.
-

@@ -1,7 +1,7 @@
 ---
 title: "Intune에 Windows 스토어 앱을 추가하는 방법"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Intune에 Windows 스토어 앱을 추가하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Intune에 Windows 스토어 앱을 추가하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,17 +15,15 @@ ms.assetid: 07241b6d-86d8-4abb-83a2-3fc5feae5788
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 5ae37b805ee2ddb6b6720190cbe4918d5b793818
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: 7ad1156076f0ec34d5ac110e32a19a8332c8f863
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-add-windows-store-apps-to-microsoft-intune"></a>Microsoft Intune에 Windows 스토어 앱을 추가하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 
 1. Azure 포털에 로그인합니다.
@@ -107,4 +105,3 @@ Intune에서 유니버설 앱의 종속성을 처리하는 방식에 대한 자�
 |PublisherId |엔터프라이즈의 게시자 ID입니다. 없는 경우 Symantec Enterprise 모바일 코드 서명 인증서의 '제목' 필드를 사용합니다.|
 |SdkPath | Windows 10용 Windows SDK의 루트 폴더에 대한 경로입니다. 이 인수는 선택 사항이며 기본적으로 ${env:ProgramFiles(x86)}\Windows Kits\10입니다.|
 실행이 완료되면 스크립트는 서명된 버전의 Windows 10 회사 포털 앱을 출력합니다. 그러면 서명된 버전의 앱을 Intune 통해 LOB 앱으로 할당할 수 있으며, 현재 할당된 버전이 이 새 앱으로 업그레이드됩니다.  
-
