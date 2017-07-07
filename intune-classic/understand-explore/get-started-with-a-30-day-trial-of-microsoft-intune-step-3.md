@@ -1,5 +1,5 @@
 ---
-title: "무료 평가판에서 사용자 및 장치를 구성하는 그룹 만들기 | Microsoft 문서"
+title: "무료 평가판에서 사용자 및 장치를 구성하는 그룹 만들기"
 description: "Microsoft Intune 무료 30일 평가판을 등록할 때 장치 그룹 및 사용자 그룹을 만드는 방법"
 keywords: 
 author: lindavr
@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 7162cad3-5c14-43f3-a760-833ffd7786b1
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: f6a5926876bdd7224d0e9bfef55aa86f51c87aff
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 084cc155a64a58582e3008df10e86c1e5266054d
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="create-groups-to-organize-evaluation-subscription-users-and-devices"></a>평가판 구독 사용자 및 장치를 구성하는 그룹 만들기
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -64,4 +61,3 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 ## <a name="next-steps"></a>다음 단계
 [정책 만들기](get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md)  
-

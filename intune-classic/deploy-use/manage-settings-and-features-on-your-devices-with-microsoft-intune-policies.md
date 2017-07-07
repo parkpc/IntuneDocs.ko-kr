@@ -1,5 +1,5 @@
 ---
-title: "정책을 사용하여 장치 설정 관리 | Microsoft 문서"
+title: "정책을 사용하여 장치 설정 관리"
 description: "Intune을 사용하여 관리하는 등록된 장치에서 설정 및 기능을 제어하는 정책을 만들어 배포합니다."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: 09bae0b9-4f79-4658-8ca1-a71ab992c1b2
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 8f1a4cb3bcab4aee534fc5fb9a1f1a1eb5a6f3a1
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: f8ceb98181543d846934a16b8c9551207892ae0e
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="manage-settings-and-features-on-your-devices-with-microsoft-intune-policies"></a>Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -213,4 +210,3 @@ Intune은 Apple 구성 파일 또는 사용자 지정 OMA-URI(Open Mobile Allian
 ### <a name="where-can-i-find-help-troubleshooting-policies"></a>문제 해결 정책 도움말은 어디서 찾을 수 있나요?
 
 [Microsoft Intune의 문제 해결 정책](/intune-classic/troubleshoot/troubleshoot-policies-in-microsoft-intune)을 참조하세요.
-

@@ -1,5 +1,5 @@
 ---
-title: "Intune 소프트웨어 클라이언트를 실행하는 PC의 소프트웨어 사용권 계약 관리 | Microsoft 문서"
+title: "Intune 소프트웨어 클라이언트를 실행하는 PC의 소프트웨어 사용권 계약 관리"
 description: "Intune에서는 Microsoft 볼륨 라이선스 계약을 통해 구매한 소프트웨어와 다른 방법으로 구매한 소프트웨어에 대한 사용권 계약을 관리할 수 있습니다."
 keywords: 
 author: robstackmsft
@@ -14,16 +14,16 @@ ms.assetid: c59d8635-3f66-40f5-824a-a71c738e0341
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 18fbeb0e5bbf46795a02590a8dce205342a3a357
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: afaeb5b1af35008e6aa778e4391cafeda979bdc0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="manage-license-agreements-for-windows-pc-software-in-microsoft-intune"></a>Microsoft Intune에서 Windows PC 소프트웨어의 사용권 계약 관리
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune을 사용하여, Microsoft 볼륨 라이선스 계약을 통해 구매한 소프트웨어에 대한 사용권 계약 정보를 추가하고 관리할 수 있습니다. 다른 방법으로 구매한 Microsoft 소프트웨어 또는 타사 소프트웨어에 대한 사용권 계약 정보도 추가하고 관리할 수 있습니다. 이 정보를 논리 그룹으로 구성할 수 있습니다.
 
 > [!IMPORTANT]
@@ -181,4 +181,3 @@ Microsoft 볼륨 라이선싱 계약 외에 다른 유형의 사용권 계약을
 |라이선스 그룹 이름 바꾸기|**라이선스** 작업 영역에서 라이선스 그룹을 선택한 다음 **작업** 메뉴에서 **라이선스 그룹 편집**을 선택합니다.|
 |라이선스 그룹 삭제|**라이선스** 작업 영역에서 라이선스 그룹을 선택한 다음 **작업** 메뉴에서 **라이선스 그룹 삭제**를 선택합니다. **팁:** 삭제된 그룹의 모든 라이선스가 **할당되지 않은 계약** 라이선스 그룹으로 이동됩니다.|
 |사용권 계약 삭제|**라이선스** 작업 영역에서 계약을 선택한 다음 **삭제**를 선택합니다. **팁:** 볼륨 라이선스 계약을 삭제한 후 라이선스 정보를 업데이트하려면 **라이선스 개요** 페이지 또는 특정 라이선스 그룹의 **일반** 탭에서 **지금 새로 고침**을 선택합니다.|
-

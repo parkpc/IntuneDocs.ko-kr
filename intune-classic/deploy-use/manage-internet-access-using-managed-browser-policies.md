@@ -1,5 +1,5 @@
 ---
-title: "Managed Browser로 웹 액세스 관리 | Microsoft 문서"
+title: "Managed Browser로 웹 액세스 관리"
 description: "관리 브라우저 응용 프로그램을 배포하여 웹 데이터의 웹 검색 및 전송을 다른 앱으로 제한합니다."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: dc946303-e09b-4d73-8bf4-87742299bc54
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 49ad005846265deb7d4b34b52a1c139e8f61372b
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/31/2017
-
-
+ms.openlocfilehash: 89f60e34fd89784ca8ea1fa3999927c7b0bc66e4
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Microsoft Intune에서 관리 브라우저 정책을 사용하여 인터넷 액세스 관리
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -158,4 +155,3 @@ Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Brows
 -   장치가 처음으로 관리 브라우저 정책을 받고 있는데 두 정책이 충돌하면 해당 장치에 URL이 적용되지 않습니다. **정책** 작업 영역의 **정책 충돌** 노드를 사용하여 충돌을 볼 수 있습니다.
 
 -   장치가 관리 브라우저 정책을 이미 받았는데 두 번째 정책이 충돌하는 설정을 가지고 배포되는 경우 원래 설정은 해당 장치에 유지됩니다. **정책** 작업 영역의 **정책 충돌** 노드를 사용하여 충돌을 볼 수 있습니다.
-

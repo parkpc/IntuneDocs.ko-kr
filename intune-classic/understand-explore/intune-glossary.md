@@ -1,26 +1,24 @@
 ---
-title: "Intune 용어 | Microsoft 문서"
+title: "Intune 용어"
 description: "Microsoft Intune의 몇 가지 용어에 대해 알아보기"
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/17/2016
+ms.date: 06/16/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
+ROBOTS: NOINDEX,NOFOLLOW
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 43b6dbfc004e8687eaf2a0ee185728136f457bfc
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: be3b078edc4e133fb586bb9476ba1dd770d0f389
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="microsoft-intune-glossary"></a>Microsoft Intune 용어
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -29,10 +27,17 @@ ms.lasthandoff: 05/23/2017
 
 |||
 |-|-|
-|앱 SDK|[Microsoft Intune 앱 SDK](/intune-classic/develop/intune-app-sdk)를 사용하면 사내에서 작성된 앱에 Intune 모바일 응용 프로그램 관리 정책으로 해당 앱을 관리할 수 있는 기능을 추가할 수 있습니다.|
-|앱 래핑 도구|기간 업무 앱을 둘러싸는 래퍼를 만들어 앱이 Intune 모바일 응용 프로그램 관리 정책으로 관리될 수 있게 하는 [명령줄 응용 프로그램](/intune-classic/deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune)입니다.|
+|앱 구성 프로필|iOS 앱을 실행하기 전에 [특정 설정](/intune-classic/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)을 사용하여 앱을 구성합니다.|
+|앱 배포|사용자가 필요한 앱을 [찾고 다운로드하고 설치](/intune-classic/deploy-use/deploy-apps)할 수 있도록 하는 과정입니다.|
+|앱 모니터링|앱 배포와 관련된 [최근 상태 및 활동을 검토](/intune-classic/deploy-use/monitor-apps-in-microsoft-intune)할 수 있는 작업입니다.|
+|앱 보호 데이터 제거 작업|사용자의 장치에서 [앱 데이터를 제거](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)합니다.|
+|앱 보호 정책|사용자의 앱이 [회사 데이터 보호 정책](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)을 준수하는지를 확인합니다.|
+|앱 보고|앱 배포 상태 및 활동에 대한 [기록 데이터를 검토](/intune-classic/deploy-use/understand-microsoft-intune-operations-by-using-reports)할 수 있는 작업입니다.|
+|앱 SDK|[Microsoft Intune 앱 SDK](/intune/app-sdk)를 사용하면 사내에서 작성된 앱에 Intune 모바일 응용 프로그램 관리 정책으로 해당 앱을 관리할 수 있는 기능을 추가할 수 있습니다.|
+|앱 제거 작업|사용자의 장치에서 [앱을 제거](/intune-classic/deploy-use/deploy-apps)할 수 있는 작업입니다.|
+|앱 래핑 도구|기간 업무 앱을 둘러싸는 래퍼를 만들어 앱이 Intune 모바일 응용 프로그램 관리 정책으로 관리될 수 있게 하는 [명령줄 응용 프로그램](/intune/apps-prepare-mobile-application-management)입니다.|
 |사용 가능한 설치|이 작업을 통해 앱을 배포하면 앱이 회사 포털에 표시되어 사용자가 [요청 시 앱을 설치](/intune-classic/deploy-use/deploy-apps)할 수 있습니다.|
-|Azure 포털|곧 도입될 Intune용 새 콘솔입니다. 현재는 Azure Portal을 사용하여 장치에 대한 [Intune MAM 정책](/intune-classic/deploy-use/azure-portal-for-microsoft-intune-mam-policies)을 만들 수 있습니다.|
+|Azure 포털|곧 도입될 Intune용 새 콘솔입니다. [새 포털에 대해 자세히 확인해 보세요](/intune/what-is-intune).|
 
 ## <a name="b"></a>B
 |||
@@ -56,7 +61,7 @@ ms.lasthandoff: 05/23/2017
 |-|-|
 |배포|관리하는 장치 또는 사용자에게 앱 또는 정책을 보내는 동작입니다.|
 |배포 작업|[앱을 배포](/intune-classic/deploy-use/deploy-apps-in-microsoft-intune)할 때 할 수 있는 선택입니다. 앱 설치를 필수 또는 선택 사항으로 설정하거나 앱을 제거할 수 있습니다.|
-|장치 등록 관리자|조직에서는 Intune을 사용하여 단일 사용자 계정으로 많은 수의 모바일 장치를 관리할 수 있습니다. [장치 등록 관리자 /intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) 계정은 장치를 1,000대까지 등록할 수 있는 특수한 Intune 계정입니다.|
+|장치 등록 관리자|조직에서는 Intune을 사용하여 단일 사용자 계정으로 많은 수의 모바일 장치를 관리할 수 있습니다. [DEM(장치 등록 관리자)](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) 계정은 장치를 최대 1,000개 등록할 수 있는 특수한 Intune 계정입니다.|
 |장치 그룹 매핑|관리자 또는 최종 사용자가 장치에 할당할 수 있는 장치의 범주(예: "개인" 또는 "영업")에 따라 [장치를 자동으로 그룹에 추가](/intune-classic/deploy-use/categorize-devices-with-device-group-mapping-in-microsoft-intune)할 수 있게 해줍니다.|
 
 ## <a name="e"></a>E
@@ -64,7 +69,7 @@ ms.lasthandoff: 05/23/2017
 |-|-|
 |전자 메일 프로필|이 정책을 사용하여 모바일 장치에서 특정 메일 클라이언트에 대한 [메일 액세스 설정](/intune-classic/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune)을 지정하여 최종 사용자가 수행해야 하는 설정의 양을 최소화할 수 있습니다.|
 |EMS|Microsoft Enterprise Mobility + Security(이전의 Enterprise Mobility Suite)는 사용자가 [필요한 앱 및 콘텐츠에 액세스](https://www.microsoft.com/cloud-platform/enterprise-mobility)할 수 있도록 하면서 회사 데이터를 계속 보호해 줍니다.|
-|최종 사용자|Intune을 사용하여 관리되는 [휴대폰 및 PC와 같은 장치의 사용자](/intune-classic/deploy-use/how-to-educate-your-end-users-about-microsoft-intune)입니다.|
+|최종 사용자|Intune을 사용하여 관리되는 [휴대폰 및 PC와 같은 장치의 사용자](/intune/end-user-educate)입니다.|
 |등록|Microsoft Intune에서는 [등록](/intune-classic/deploy-use/enroll-devices-in-microsoft-intune)을 사용하여 장치를 관리하며 리소스에 대한 액세스를 허용합니다.|
 
 ## <a name="f"></a>F
@@ -99,8 +104,8 @@ ms.lasthandoff: 05/23/2017
 |||
 |-|-|
 |Managed Browser|Microsoft Intune을 사용하여 조직에서 배포할 수 있는 [웹 브라우징 응용 프로그램](/intune-classic/deploy-use/manage-internet-access-using-managed-browser-policies)입니다. 관리 브라우저 정책은 관리 브라우저의 사용자가 방문할 수 있는 웹 사이트를 제한하는 허용 목록 또는 차단 목록을 구성합니다.|
-|모바일 응용 프로그램 관리|[모바일 응용 프로그램 관리 /intune-classic/deploy-use/overview-of-app-lifecycle-in-microsoft-intune)를 통해 사용자를 위해 모바일 앱을 게시, 푸시, 구성, 보호, 모니터링 및 업데이트할 수 있습니다.
-|모바일 장치 관리|[모바일 장치 관리 /intune-classic/deploy-use/overview-of-device-lifecycle-in-microsoft-intune)를 통해 Intune에 장치를 등록하고 해당 장치에서 프로비전, 구성, 모니터링 및 필요한 작업을 수행할 수 있습니다.
+|모바일 응용 프로그램 관리|[MAM(모바일 응용 프로그램 관리)](/intune/app-lifecycle)을 사용하여 사용자를 위해 모바일 앱을 게시, 푸시, 구성, 보호, 모니터링 및 업데이트할 수 있습니다.
+|모바일 장치 관리|[MDM(모바일 장치 관리)](/intune/device-lifecycle)을 사용하여 해당 장치에서 프로비전, 구성, 모니터링 및 필요한 작업을 수행할 수 있도록 Intune에 장치를 등록할 수 있습니다.
 |MDM 기관|[MDM 기관](/intune-classic/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune)은 일련의 장치를 관리할 권한을 가진 관리 서비스를 정의합니다. MDM 기관에 대한 옵션에는 Intune 자체 및 Intune을 사용하는 Configuration Manager가 포함됩니다.|
 |모바일 앱 프로비전 정책|배포하는 iOS 앱에 대한 [프로비전 프로필](/intune-classic/deploy-use/ios-mobile-app-provisioning-profiles)이 만료되지 않게 하는 iOS 정책입니다.|
 |모바일 앱 구성 정책|호환되는 iOS 앱이 실행될 때 [호환되는 iOS 앱에 설정을 제공](/intune-classic/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)하는 데 사용되는 iOS 정책입니다(예: 회사 이름 또는 서버 주소).|
@@ -148,4 +153,3 @@ ms.lasthandoff: 05/23/2017
 |||
 |-|-|
 |Wi-Fi 프로필|사용자가 설정을 알거나 구성할 필요 없이 회사 네트워크에 연결할 수 있도록 장치에 [무선 네트워크 설정](/intune-classic/deploy-use/wi-fi-connections-in-microsoft-intune)을 배포하는 정책입니다.
-

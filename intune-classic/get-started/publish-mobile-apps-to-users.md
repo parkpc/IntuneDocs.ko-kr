@@ -14,15 +14,12 @@ ms.assetid: b1e84ef8-a260-4e3d-aaf1-8b3facfecafa
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 71d57965164f0822e1a6d95715c4f9c92f7bf4bd
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="quick-start-guide-publish-mobile-apps-to-your-users"></a>빠른 시작 가이드: 사용자에게 모바일 앱 게시
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -45,4 +42,3 @@ Microsoft Intune은 선택한 장치에서 필요한 모바일 및 데스크톱 
 ## <a name="what-should-i-do-next"></a>그다음에 어떻게 해야 하나요?
 - [Microsoft Intune에서 앱 배포 모니터링](/intune-classic/deploy-use/monitor-apps-in-microsoft-intune)
 - [모바일 장치에서 데이터가 손실되지 않도록 회사 데이터 보호](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)
-

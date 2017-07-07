@@ -1,7 +1,7 @@
 ---
 title: "앱 보호 정책을 사용하는 Android 앱"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 이 항목에서는 Android 앱이 앱 보호 정책에 의해 관리될 때 예상되는 상황을 설명합니다."
+titleSuffix: Intune on Azure
+description: "이 항목에서는 앱 보호 정책을 통해 Android 앱을 관리할 때 예상되는 상황을 설명합니다.\""
 keywords: 
 author: NathBarn
 ms.author: nathbarn
@@ -15,17 +15,14 @@ ms.assetid: a6816285-8e43-4dc8-bca0-e80ec5ef01e6
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: c1704e5e63be434eaacaeec6e575640310ce74b3
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 63badd001958f22339415e0cd03da9ade275c6f3
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="what-to-expect-when-your-android-app-is-managed-by-app-protection-policies"></a>Android 앱이 앱 보호 정책에 의해 관리될 때 예상되는 상황 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]이 항목에서는 앱 보호 정책이 적용되는 앱에 대한 사용자 환경을 설명합니다. 앱 보호 정책은 회사 계정을 사용하여 앱에 액세스하거나 회사의 OneDrive 비즈니스 위치에 저장된 파일에 액세스하는 경우처럼 앱이 업무용으로 사용될 때만 적용됩니다.
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]이 항목에서는 앱 보호 정책이 적용되는 앱에 대한 사용자 환경을 설명합니다. 앱 보호 정책은 회사 계정을 사용하여 앱에 액세스하거나 회사의 OneDrive 비즈니스 위치에 저장된 파일에 액세스하는 경우처럼 앱이 업무용으로 사용될 때만 적용됩니다.
 ##  <a name="accessing-apps"></a>앱 액세스
 
 회사 포털 앱에는 Android 장치에서 앱 보호 정책과 관련된 모든 앱이 필요합니다.
@@ -84,4 +81,3 @@ Google Play 스토어에서 이 응앱을 다운로드합니다.
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune으로 앱 보호 정책 만들기 및 배포](app-protection-policies.md)
-

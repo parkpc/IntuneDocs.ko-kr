@@ -1,5 +1,5 @@
 ---
-title: "메일 및 Office 365 보호 | Microsoft 문서"
+title: "메일 및 Office 365 보호"
 description: "이 항목에서는 SharePoint Online 및 다른 서비스에서 호환 장치만 회사 전자 메일 및 회사 데이터에 액세스하도록 하는 데 조건부 방식을 사용하는 방법을 설명합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: fc89c1b5b502f00bab5ed02f6e7df6422241aeb1
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 3405671130a58aa944d6c689264379a254face1d
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-access-to-email-office-365-and-other-services-with-microsoft-intune"></a>Microsoft Intune을 사용한 메일, Office 365 및 기타 서비스에 대한 액세스 보호
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -51,7 +48,7 @@ Microsoft Intune과 Azure AD(Azure Active Directory) Premium이 원활하게 함
 
 - [Enterprise Mobility 가격 책정 페이지](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing) 또는 [Azure Active Directory 가격 책정 페이지](https://azure.microsoft.com/pricing/details/active-directory/)에 대해 자세히 알아봅니다.
 
-또한, 조건부 액세스 정책을 적용하려는 사용자에게 [Azure AD Premium 또는 EMS 라이선스가 할당](/intune-classic/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4.md)되었는지 확인하세요.
+또한, 조건부 액세스 정책을 적용하려는 사용자에게 [Azure AD Premium 또는 EMS 라이선스가 할당](/intune/licenses-assign)되었는지 확인하세요.
 
 ### <a name="device-compliance-settings"></a>장치 준수 설정
 
@@ -83,4 +80,3 @@ Microsoft Intune과 Azure AD(Azure Active Directory) Premium이 원활하게 함
   - [SharePoint Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
   - [비즈니스용 Skype Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
   - [Dynamics CRM Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
-

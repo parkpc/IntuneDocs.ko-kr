@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 33ffff16-0280-43bf-87b3-74ddf4439bfa
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 734856b1598a225f6f3a2aaf640d34d393c744e7
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="create-a-work-profile-and-enroll-your-device-in-intune"></a>업무용 프로필을 만들고 Intune에서 장치 등록
 
 Android 장치를 등록하면 회사 메일, 앱 및 기타 업무용 데이터에 액세스할 수 있습니다. 등록 과정 중에 업무용 프로필을 설정합니다. 그러면 장치의 개인 데이터와 업무용 데이터가 분리됩니다. IT 관리자는 업무용 데이터를 포함하는 업무용 프로필만 관리할 수 있습니다. IT 관리자는 사용자 장치의 개인 데이터를 관리할 수 없습니다. [업무용 프로필을 만들면 어떻게 되나요?](what-happens-when-you-create-a-work-profile-android.md)에서 자세한 내용을 알아보세요.
@@ -88,4 +83,3 @@ Android 장치를 등록하면 회사 메일, 앱 및 기타 업무용 데이터
     ![Play Store for Work 앱 페이지](./media/andr-afw-tap-work-play-store-icon.png)
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

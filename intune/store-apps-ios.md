@@ -1,7 +1,7 @@
 ---
-title: "Intune에 iOS 스토어 앱을 추가하는 방법 | Microsoft 문서"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Intune에 iOS 스토어 앱을 추가하는 방법을 알아봅니다."
+title: "Intune에 iOS 스토어 앱을 추가하는 방법"
+titleSuffix: Intune on Azure
+description: "Intune에 iOS 스토어 앱을 추가하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,17 +15,15 @@ ms.assetid: c59514d7-1256-4576-9380-e7a0b85a0378
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 16d6da2bf1ebab609b8e9be4bec998d2f081600b
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: 84c5b7c2d849fb39a9466d5b92eb4f2a4a411808
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-add-ios-store-apps-to-microsoft-intune"></a>Microsoft Intune에 iOS 스토어 앱을 추가하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="before-you-start"></a>시작하기 전에
 
@@ -63,4 +61,3 @@ ms.lasthandoff: 05/23/2017
 3. 작업을 마치면 **앱 추가** 블레이드에서 **저장**을 선택합니다.
 
 만든 앱이 앱 목록에 표시됩니다. 이 목록에서 선택한 그룹에 앱을 할당할 수 있습니다. 도움말은 [그룹에 앱을 할당하는 방법](apps-deploy.md)을 참조하세요.
-

@@ -1,5 +1,5 @@
 ---
-title: "Windows PC의 소프트웨어 업데이트 | Microsoft 문서"
+title: "Windows PC의 소프트웨어 업데이트"
 description: "Intune은 최신 패치 및 소프트웨어 업데이트를 빠르게 설치하여 관리되는 컴퓨터를 최신 상태로 유지하도록 도와줍니다."
 keywords: 
 author: robstackmsft
@@ -14,16 +14,16 @@ ms.assetid: 48e9c41a-d2de-424e-9610-cfd1ad514210
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 5530c1a85c53f76f94d5ebf6d356bfebd1aa2adb
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 1243d52f3d135ac02b9451022451bf9cf8c7304b
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune"></a>Microsoft Intune에서 소프트웨어 업데이트를 사용하여 Windows PC를 최신 상태로 유지
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune에서는 다양한 방식으로 관리되는 컴퓨터를 보호할 수 있습니다. 이러한 방식에는 최신 패치와 소프트웨어 업데이트를 빠르게 설치하여 컴퓨터를 최신 상태로 유지하는 소프트웨어 업데이트 관리 작업이 포함됩니다.
 
 컴퓨터에 Intune 클라이언트를 아직 설치하지 않은 경우 [Microsoft Intune을 사용하여 Windows PC 클라이언트 설치](install-the-windows-pc-client-with-microsoft-intune.md) 항목을 참조하세요.
@@ -255,4 +255,3 @@ Intune에 타사 업데이트가 업로드되면 **모든 업데이트** 창의 
 
 ### <a name="see-also"></a>참고 항목
 [Windows PC를 보호하는 정책](policies-to-protect-windows-pcs-in-microsoft-intune.md)
-

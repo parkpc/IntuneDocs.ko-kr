@@ -1,6 +1,6 @@
 ---
 title: "온-프레미스 Exchange 및 Exchange Online에 대한 조건부 액세스 준수 모니터링"
-titleSuffix: Intune Azure preview
+titleSuffix: Intune on Azure
 description: "Intune Azure Portal을 사용하여 온-프레미스 Exchange 및 Exchange Online에 대한 조건부 액세스 준수 모니터링"
 keywords: 
 author: andredm7
@@ -14,16 +14,13 @@ ms.technology:
 ms.assetid: 5712682d-285b-43fd-9978-3dcfd95ec5f9
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: d170958bbdc00423081aa606c9c7f4e7a8ec4b06
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 2ec9bcc605486258203f49f9f7631bd2a04cdf22
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-# <a name="monitor-conditional-access-compliance-for-on-premises-exchange-and-exchange-online-in-intune-azure-preview"></a>Intune Azure Preview에서 온-프레미스 Exchange 및 Exchange Online에 대한 조건부 액세스 준수 모니터링
+# <a name="monitor-conditional-access-compliance-for-on-premises-exchange-and-exchange-online-in-intune"></a>Intune에서 온-프레미스 Exchange 및 Exchange Online에 대한 조건부 액세스 준수 모니터링
 
 Intune 1704 릴리스부터는 관리자가 온-프레미스 Exchange Connector 또는 Intune 서비스 간 커넥터(Exchange Online 커넥터)를 통해 Intune과 동기화되는 Exchange ActiveSync 장치 레코드 관련 보고 정보를 확인할 수 있습니다. 조건부 액세스 준수 보고 기능은 다음과 같은 여러 동기화 상태가 설정된 장치의 요약 정보를 제공합니다.
 
@@ -70,4 +67,3 @@ Intune 1704 릴리스부터는 관리자가 온-프레미스 Exchange Connector 
 -   **장치 구성:** 모든 장치 구성 세부 정보가 표시됩니다.
 
 -   **Exchange 액세스:** 여기서는 조건부 액세스 정책을 적용한 후의 장치 상태에 대해 자세히 확인할 수 있습니다.
-

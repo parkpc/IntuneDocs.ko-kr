@@ -1,7 +1,7 @@
 ---
 title: "장치 준수 시작"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 이 항목에서는 Microsoft Intune에서 준수 정책을 만드는 데 필요한 필수 구성 요소를 설명합니다."
+titleSuffix: Intune on Azure
+description: "이 항목에서는 Microsoft Intune에서 준수 정책을 만드는 데 필요한 필수 구성 요소를 설명합니다.\""
 keywords: 
 author: NathBarn
 ms.author: nathbarn
@@ -15,24 +15,21 @@ ms.assetid: 8103df7f-1700-47b4-9a72-c196d2a02f22
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: f59801abf29d15581fcdc577c5320942208595b1
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: aa9a5c8c44b82dcbc1ae7a4609b12e22c6599e9e
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
+# <a name="get-started-with-device-compliance-in-intune"></a>Intune에서 장치 준수 시작
 
-# <a name="get-started-with-device-compliance-in-intune-azure-preview"></a>Intune Azure 미리 보기에서 장치 준수 시작
 
-
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 이 항목에서는 다음을 알아봅니다. 
 
 - 장치 준수 정책을 만들기 시작하려면 먼저 필요한 사항
-- Intune Azure Preview 포털의 표시 내용과 기능 사항 한눈에 보기 
+- Intune Azure Portal의 표시 내용과 기능 사항 한눈에 보기 
 
 장치 준수에 대해 잘 모르는 경우 [이 항목](device-compliance.md)을 통해 장치 준수의 정의 및 조직에서 장치 준수를 사용할 수 있는 방법을 이해할 수 있습니다.
 
@@ -56,7 +53,7 @@ ms.lasthandoff: 05/23/2017
 
 ##  <a name="azure-portal-workflow"></a>Azure Portal 워크플로
 
-Intune Azure Preview 포털에서 장치 준수를 만들고 관리하는 방법에 대한 개요는 다음과 같습니다.
+Intune Azure Portal에서 장치 준수를 만들고 관리하는 방법에 대한 개요는 다음과 같습니다.
 
 <!---### Overview
 
@@ -83,4 +80,3 @@ This section is a detailed view of what you see in the **Overview**. A list of a
 [iOS에 대한 준수 정책 만들기](compliance-policy-create-ios.md)
 
 [Windows에 대한 준수 정책 만들기](compliance-policy-create-windows.md)
-

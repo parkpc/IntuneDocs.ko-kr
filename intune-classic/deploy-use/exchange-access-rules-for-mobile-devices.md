@@ -14,15 +14,12 @@ ms.assetid: 208b9f45-02d9-413a-b86a-8bad9b5008fa
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: a57b1f51fabfdc8896ecbb5bfbe6422f40672b18
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="exchange-access-rules-for-mobile-devices"></a>모바일 장치의 Exchange 액세스 규칙
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -59,4 +56,3 @@ ms.lasthandoff: 06/08/2017
 1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **Exchange ActiveSync**를 선택합니다.
 
 2.  **플랫폼 예외** 목록에서 **규칙 추가**를 선택하고 사용자 지정 규칙을 만듭니다. **저장**을 선택합니다.
-

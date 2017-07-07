@@ -1,7 +1,7 @@
 ---
 title: "장치 정책 준수"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 이 항목에서는 Microsoft Intune의 장치 준수에 대해 알아봅니다."
+titleSuffix: Intune on Azure
+description: "이 항목에서는 Microsoft Intune의 장치 준수에 대해 알아봅니다.\""
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -15,18 +15,15 @@ ms.assetid: a916fa0d-890d-4efb-941c-7c3c05f8fe7c
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 2aec7463b9a2b3bdaa78281fca0bbb39dcd3f884
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: a747d577a28433635883ad6c4fe4c858e75902d0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
+# <a name="what-is-device-compliance-in-intune"></a>Intune의 장치 준수란?
 
-# <a name="what-is-device-compliance-in-intune-azure-preview"></a>Intune Azure 미리 보기에서 장치 준수란?
-
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Intune의 장치 준수 정책은 Intune 및 EMS 조건부 액세스 정책을 준수하는 것으로 간주되기 위해 장치가 준수해야 하는 규칙 및 설정을 정의합니다. 장치 준수 정책을 사용하여 장치를 모니터링하고 준수 문제를 수정할 수도 있습니다. 
 
@@ -79,7 +76,7 @@ Remember that you need to implement conditional access policies in addition to c
 
 사용자에게 준수 정책을 배포합니다. 준수 정책을 사용자에게 배포하면 사용자 장치의 준수가 확인됩니다. 정책이 배포된 후 모바일 장치가 정책을 수신하기까지 걸리는 시간에 대해 알아보려면 장치의 설정 및 기능 관리를 참조하세요.
 
-##  <a name="intune-classic-admin-console-vs-intune-azure-preview-portal"></a>Intune 클래식 관리 콘솔과 Intune Azure Preview 포털
+##  <a name="intune-classic-admin-console-vs-intune-on-the-azure-portal"></a>Intune 클래식 관리 콘솔과 Azure Portal의 Intune
 
 Intune 클래식 관리 콘솔을 사용해 왔다면 다음과 같은 차이점을 알면 Azure Portal의 새 장치 준수 정책 워크플로로 전환하는 데 도움이 됩니다.
 
@@ -89,7 +86,7 @@ Intune 클래식 관리 콘솔을 사용해 왔다면 다음과 같은 차이점
 
 -   In the Azure portal, you can set a grace period to allow time for the end-user to get their device back to compliance status before they completely lose the ability to get company data on their device. This is not available in the Intune admin console.--->
 
-##  <a name="migration-from-intune-classic-console-to-intune-azure-preview-portal"></a>Intune 클래식 콘솔에서 Intune Azure Preview 포털로 마이그레이션
+##  <a name="migration-from-intune-classic-console-to-intune-on-the-azure-portal"></a>Intune 클래식 콘솔에서 Azure Portal의 Intune으로 마이그레이션
 
 [Intune 클래식 콘솔](https://manage.microsoft.com)에서 만든 장치 준수 정책은 새 [Intune Azure Portal](https://portal.azure.com)에 표시되지 않습니다. 그러나 해당 정책은 여전히 사용자를 대상으로 하며 Intune 클래식 콘솔을 통해 관리할 수 있습니다.
 
@@ -103,4 +100,3 @@ Intune Azure Portal에서 새 장치 준수와 관련된 기능을 활용하려�
 <!---### See also
 
 Conditional access--->
-

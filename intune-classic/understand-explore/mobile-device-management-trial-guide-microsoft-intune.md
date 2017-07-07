@@ -1,5 +1,5 @@
 ---
-title: "Microsoft의 모바일 장치 관리 평가 | Microsoft Docs"
+title: "Microsoft의 모바일 장치 관리 평가"
 description: "Intune 무료 평가판에서 MDM을 평가합니다."
 keywords: 
 author: lindavr
@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 47806f69-303d-41d9-9b0e-9b9445ea24ac
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: e0eb48c5bb2e0158d7b780af1c16139f10602c4e
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: adef9335d8f199e8dec56e92eb1fda8c180ac6ce
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="evaluate-mobile-device-management-in-microsoft-intune"></a>Microsoft의 모바일 장치 관리 평가
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -44,7 +41,7 @@ ms.lasthandoff: 05/23/2017
 ## <a name="whats-not-covered"></a>다루지 않는 내용
 |관심 있는 항목 |참조 문서 |
 |------------------------|----------|
-|테스트 환경이 아닌 환경에서의 MDM | [시작](/intune-classic/get-started/start-with-a-paid-subscription-to-microsoft-intune) |
+|테스트 환경이 아닌 환경에서의 MDM | [시작](/intune/setup-steps) |
 |Intune 및 System Center Configuration Manager를 사용한 MDM | [하이브리드 모바일 장치 관리](https://docs.microsoft.com/sccm/mdm/understand/hybrid-mobile-device-management) |
 
 위 가이드는 프로덕션 환경에서 Intune을 설정하도록 도와주기 때문에 내용이 더 길고 평가 가이드보다 검토해야 하는 결정 사항이 더 많습니다.
@@ -67,7 +64,7 @@ System Center Configuration Manager와 함께 Intune을 사용하여 모바일 �
 평가판에서는 Intune을 MDM 기관으로 설정합니다. 이는 프로덕션 환경에 평가판을 사용하지 않는 한 프로덕션 환경에 영향을 주지 않습니다.
 
 1. [Intune 관리 콘솔](https://manage.microsoft.com/)에서 **관리** &gt; **모바일 장치 관리**를 선택합니다.
-2. **작업** 목록에서 **MDM 기관 설정**을 선택합니다. **MDM 기관 설정** 대화 상자가 열립니다. <!---screen shot--->
+2. **작업** 목록에서 **MDM 기관 설정**을 선택합니다. **MDM 기관 설정** 대화 상자가 열립니다.
 3. Intune을 MDM 기관으로 지정할 것임을 확인하라는 요청 메시지가 표시됩니다. 이 확인란을 선택한 후 **예**를 선택하여 모바일 장치를 관리하는 데 Intune을 사용합니다.
 
 ## <a name="enroll-your-test-devices-into-intune"></a>Intune 테스트 장치 등록
@@ -80,14 +77,14 @@ System Center Configuration Manager와 함께 Intune을 사용하여 모바일 �
 사용자가 iOS 장치를 등록하려면 먼저 이러한 장치를 관리하도록 Intune을 설정해야 합니다.
 
 1. **인증서 서명 요청 가져오기**<br/>
-관리자 계정으로 Intune에 로그온한 후 **관리** > **모바일 장치 관리** > **iOS 및 Mac OS X** > **APNs 인증서 업로드**로 이동하여 **APNs 인증서 요청 다운로드**를 클릭합니다. 인증서 서명 요청(.csr) 파일을 로컬로 저장합니다. .csr 파일은 APC(Apple Push Certificate) 포털에서 트러스터 관계 인증서를 요청하는 데 사용됩니다. <!--- screen shot--->
-2.    **Apple Push Notification Service 인증서 가져오기**<BR/>
+관리자 계정으로 Intune에 로그온한 후 **관리** > **모바일 장치 관리** > **iOS 및 Mac OS X** > **APNs 인증서 업로드**로 이동하여 **APNs 인증서 요청 다운로드**를 클릭합니다. 인증서 서명 요청(.csr) 파일을 로컬로 저장합니다. .csr 파일은 APC(Apple Push Certificate) 포털에서 트러스터 관계 인증서를 요청하는 데 사용됩니다.
+2.  **Apple Push Notification Service 인증서 가져오기**<BR/>
 [Apple Push Certificates 포털](https://idmsa.apple.com/IDMSWebAuth/login?appIdKey=3fbfc9ad8dfedeb78be1d37f6458e72adc3160d1ad5b323a9e5c5eb2f8e7e3e2&rv=2)로 이동한 다음 회사 Apple ID로 로그인하여 .csr 파일을 사용해서 APNs 인증서를 만듭니다. **Apple Push Certificate Portal에서 업로드**를 선택하면 APNs에 사용할 수 없는 .json 파일을 수신하게 됩니다. 다운로드를 완료하고 타사 서버용 인증서를 위한 Apple Push Certificates Portal로 돌아가 **다운로드**를 선택합니다.<br/>
 APNs(.pem) 인증서를 다운로드하고 파일을 로컬로 저장합니다. 나중에 APNs 인증서를 갱신하기 위해 이 Apple ID를 사용해야 합니다.
-3.    **Intune에 APNs 인증서 추가**<BR/>
+3.  **Intune에 APNs 인증서 추가**<BR/>
 Microsoft Intune 관리 콘솔에서 **관리** > **모바일 장치 관리** > **iOS 및 Mac OS X** > **APNs 인증서 업로드**로 이동하여 **APNs 인증서 업로드**를 선택합니다. 인증서(.pem) 파일로 이동한 후 **열기**를 선택하고 Apple ID를 입력합니다. APNs 인증서가 있으면 Intune에서 등록된 모바일 장치에 정책을 푸시하여 iOS 장치를 등록하고 관리할 수 있습니다.
-4.    **회사 리소스를 이용할 수 있도록 사용자에게 장치를 등록하는 방법 설명**<br/>
-최종 사용자 등록 지침은 [Intune에서 iOS 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-ios) 및 [Intune에서 Mac OS X 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-mac-os-x)을 참조하세요. 예상되는 작업 내용과 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목을 등록 과정 중에 알려줍니다.
+4.  **회사 리소스를 이용할 수 있도록 사용자에게 장치를 등록하는 방법 설명**<br/>
+최종 사용자 등록 지침은 [Intune에서 iOS 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-ios) 및 [Intune에서 Mac OS X 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos)을 참조하세요. 예상되는 작업 내용과 IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목을 등록 과정 중에 알려줍니다.
 
 
 ### <a name="learn-more-about-device-enrollment"></a>장치 등록에 대한 자세한 정보
@@ -98,25 +95,14 @@ Intune은 다음 장치 플랫폼을 지원합니다.
 
 장치 관리를 사용하기 위한 요구 사항은 관리하려는 플랫폼에 따라 다릅니다.
 - **Android** 모바일 장치에서는 사용자가 Google Play에서 제공되는 [회사 포털 앱을 사용하여 등록](/intune-classic/deploy-use/set-up-android-management-with-microsoft-intune)할 수 있습니다. Intune에서는 추가 구성을 수행할 필요가 없습니다.
-- [**iOS 및 Mac OS X 설치 요구 사항**]/intune-classic/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
-- [**Windows Phone** 설치 요구 사항]/intune-classic/deploy-use/set-up-windows-phone-management-with-microsoft-intune).
+- [**iOS 및 Mac OS X**에 대한 설치 요구 사항](/intune-classic/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
 
-<!--- ## Verify enrollment--->
-<!--- START HERE
-
-### iOS and Mac OS X
-Install the **Microsoft Intune Company Portal** app from Microsoft Corporation available in the App Store and sign in with Intune user credentials added above. View **Enrolled devices** to add your device.
+- [**Windows Phone**에 대한 설치 요구 사항](/intune-classic/deploy-use/set-up-windows-phone-8.0-management-with-microsoft-intune)
 
 
 
-### Windows Phone 8.1
-Users install the **Company Portal** app from Microsoft Corporation, available in the Windows Phone store, and sign in with the Intune user credentials added above.  View **Enrolled devices** to add your device.
-
-## Install the previously deployed app
-Open the Company Portal on the mobile device, choose **Apps**, and then install **Microsoft Skype**.--->
 
 
 
 ## <a name="next-steps"></a>다음 단계
 [사용자 및 장치를 구성하기 위한 그룹 만들기](get-started-with-a-30-day-trial-of-microsoft-intune-step-3.md)
-

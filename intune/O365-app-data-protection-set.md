@@ -1,7 +1,7 @@
 ---
-title: "Office 365 앱에서 기본 데이터 관리 설정 - Intune Azure 미리 보기"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Office 365 앱 관리 마법사에 대한 보충 설명서입니다."
+title: "Intune에서 Office 365 앱에 대해 기본 데이터 관리 설정"
+titleSuffix: Intune on Azure
+description: "Office 365 앱 관리 마법사에 대한 보충 설명서입니다.\""
 keywords: 
 author: lindavr
 ms.author: lindavr
@@ -16,16 +16,12 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: ayesham
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 639d045e036ecdc6ff40d6ae335d2c5109d9e420
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 302f646bfb9ff0ac024687fa0b3926d83158995c
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="how-your-users-will-experience-basic-protection-on-managed-office-365-apps"></a>사용자에게 관리되는 Office 365 앱에 대한 기본 보호 환경을 제공하는 방법
 
 **Office 365 관리 앱** 마법사는 각 장치 플랫폼에 대한 앱 보호 정책을 만듭니다.
@@ -129,9 +125,8 @@ Android에서 Intune MAM 정책과 연결된 앱의 경우 데이터는 파일 I
 언제든지 조직의 요구 사항에 맞게 이러한 정책 설정을 편집할 수 있습니다.
 
 ### <a name="how-can-i-view-and-edit-the-policies-created-by-the-wizard"></a>마법사에서 만든 정책을 보고 편집하려면 어떻게 해야 합니까?
-이러한 정책 또는 Intune Azure 미리 보기에서 만든 모든 정책을 보거나 업데이트하려면 대시보드에서 **앱 관리** > **앱 보호 정책**을 선택합니다. 정책 목록이 오른쪽에 열립니다. 설정을 보고 편집하기 위해 표시할 정책을 선택합니다. <br/>
+이러한 정책 또는 Intune Azure Portal에서 만든 모든 정책을 보거나 업데이트하려면 대시보드에서 **앱 관리** > **앱 보호 정책**을 선택합니다. 정책 목록이 오른쪽에 열립니다. 설정을 보고 편집하기 위해 표시할 정책을 선택합니다. <br/>
 ![정책을 표시하는 사용자 인터페이스의 이미지](./media/image-for-faq.png)
 
 ## <a name="next-steps"></a>다음 단계
 [앱 보호 정책](https://docs.microsoft.comapp-protection-policy.md)에 대해 자세히 알아봅니다.
-

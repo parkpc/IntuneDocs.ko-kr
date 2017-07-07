@@ -1,12 +1,12 @@
 ---
 title: "Intune으로 Windows 10 버전 업그레이드 구성"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Intune을 사용하여 관리하는 Windows 10 장치를 다른 버전으로 업그레이드하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Intune을 사용하여 관리하는 Windows 10 장치를 다른 버전으로 업그레이드하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/14/2017
+ms.date: 06/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,15 @@ ms.assetid: ae8b6528-7979-47d8-abe0-58cea1905270
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 59a29cee51f228c647a2491a2e452555ac5aba05
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 30cea0ecfa62e9bbc0200d15eff94782d48a81fa
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-configure-windows-10-edition-upgrades-in-microsoft-intune"></a>Microsoft Intune에서 Windows 10 버전 업그레이드를 구성하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 이 항목에서는 Windows 10 버전 업그레이드 프로필을 구성하는 방법을 알아봅니다. 이 프로필을 사용하면 Windows 10 버전 중 하나를 실행하는 장치를 다른 버전으로 자동으로 업그레이드할 수 있습니다.
 
@@ -52,7 +49,7 @@ ms.lasthandoff: 05/23/2017
 ## <a name="create-a-device-profile-containing-device-restriction-settings"></a>장치 제한 설정을 포함하는 장치 프로필 만들기
 
 1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
+2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
 2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
 3. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.
@@ -68,5 +65,4 @@ ms.lasthandoff: 05/23/2017
 
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
 계속해서 이 프로필을 그룹에 할당하려면 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
-
 

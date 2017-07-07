@@ -1,5 +1,5 @@
 ---
-title: "Lookout 구독 설정 | Microsoft Docs"
+title: "Lookout 구독 설정"
 description: "이 항목에서는 Lookout 장치 위협 방지를 구성하는 방법에 대해 자세히 설명합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 8477a2f1-2e1d-4d42-8bcb-e1181cc900bb
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 3c777d8857fd177e5a27840ab8a97c8a137aa189
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 5acbf2aacc747113ff8b3889dba306e30567f24a
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="set-up-your-lookout-mobile-threat-defense-subscription"></a>Lookout Mobile Threat Defense 구독 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -76,7 +73,7 @@ Lookout Mobility Endpoint Security 테넌트가 Azure AD 구독과 연결되어 
 
   ![Lookout 콘솔에 처음 로그인할 때의 페이지 스크린샷](../media/mtp/lookout_mtp_initial_login.png) 수락하고 동의하면 사용자가 Lookout 콘솔로 리디렉션됩니다.
 
-  로그인 문제에 도움이 필요한 경우 [Intune과 Lookout의 통합 문제 해결](/intune-classic/troubleshoot/troubleshooting-lookout-integration)을 참조하세요.
+  로그인 문제에 도움이 필요한 경우 [Intune과 Lookout의 통합 문제 해결](/intune-classic/Troubleshoot/device-threat-protection-troubleshooting.md)을 참조하세요.
 
 3.  [Lookout 콘솔](https://aad.lookout.com)의 **시스템** 모듈에서 **커넥터** 탭과 **Intune**을 차례로 선택합니다.
 
@@ -139,4 +136,3 @@ Lookout Mobile Threat Defense는 다양한 종류의 모바일 위협을 분류�
 설치가 완료되면 Lookout Mobile Threat Defense에서 지정한 등록 그룹에 해당하는 장치를 Azure AD에 폴링하기 시작합니다.  장치 모듈에서 등록된 장치에 대한 정보를 찾을 수 있습니다.  장치의 초기 상태는 보류 중으로 표시됩니다.  장치에서 Lookout for Work 앱을 설치하고 열고 활성화하면 장치 상태가 변경됩니다.  Lookout for Work 앱을 장치에 푸시하는 방법에 대한 자세한 내용은 [Lookout for Work 구성 및 배포](configure-deploy-lookout-for-work-app.md) 항목을 참조하세요.
 ## <a name="next-steps"></a>다음 단계
 [Intune에서 Lookout MTP 연결 사용](/intune-classic/deploy-use/enable-lookout-mtd-connection)
-

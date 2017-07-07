@@ -1,5 +1,5 @@
 ---
-title: "Mac OS X 정책 설정 | Microsoft 문서"
+title: "Mac OS X 정책 설정"
 description: "Intune은 Mac OS X 장치에서 구성할 수 있는 기본 제공 일반 설정의 범위를 제공합니다. 또한 Intune에서 사용할 수 없는 사용자 지정 설정을 만들려면 Apple Configurator 도구를 사용할 수 있습니다."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: 98b2f19b-bee8-42d7-a215-a716d56a25a3
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 176f4343030c242d928aaeb486dfad78e1058644
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: f4f1660f93724ee57f2d6567c2ac0f04660f49f8
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="mac-os-x-configuration-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 Mac OS X 구성 정책 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -76,7 +73,7 @@ Microsoft Intune **Mac OS X 일반 구성 정책**을 사용하여 다음 설정
 > Mac OS X 장치가 절전 모드이면 정책과 프로필을 전달하거나 인벤토리에 추가할 수 없습니다. 따라서 다음번에 장치를 절전 모드에서 해제할 때까지 Intune 콘솔에 **오류가 있는 정책 설정** 상태가 일시적으로 표시될 수도 있습니다.
 
 ### <a name="monitor-compliant-and-noncompliant-apps"></a>규격 및 비규격 앱 모니터링
- **앱 보고서**를 사용하여 지정한 앱의 규정 준수 여부를 확인할 수 있습니다.
+**앱 보고서**를 사용하여 지정한 앱의 규정 준수 여부를 확인할 수 있습니다.
 
 #### <a name="to-run-a-report"></a>보고서를 실행하려면
 
@@ -123,4 +120,3 @@ Microsoft Intune **Mac OS X 사용자 지정 구성 정책**을 사용하면 [Ap
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-

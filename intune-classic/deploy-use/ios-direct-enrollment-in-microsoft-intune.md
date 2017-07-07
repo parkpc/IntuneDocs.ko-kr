@@ -1,5 +1,5 @@
 ---
-title: "iOS 장치 직접 등록 | Microsoft 문서"
+title: "IOS 장치 직접 등록"
 description: "Apple Configurator 도구를 사용하여 회사 소유의 iOS 장치를 USB로 Mac 컴퓨터에 연결해 미리 정의된 정책에 직접 등록합니다."
 keywords: 
 author: nathbarn
@@ -14,15 +14,12 @@ ms.assetid: a692b90c-72ae-47d1-ba9c-67a2e2576cc2
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: ee0320db2c4a1a977326f62fcd20597fa39aba24
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 9909e1dd4f9891a2efb47383242ed7765d3f0291
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="directly-enroll-ios-devices-by-using-apple-configurator"></a>Apple Configurator를 사용하여 iOS 장치 직접 등록
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -93,4 +90,3 @@ iOS 장치를 직접 등록하는 경우 장치의 일련 번호를 몰라도 �
 9.  iOS 장치에서 **설정**을 열고 **일반** &gt; **장치 관리** &gt; **관리 프로필**로 이동합니다. 프로필 설치가 나열되는지 확인하고 iOS 정책 제한 및 설치된 앱을 확인합니다. 정책 제한 및 앱이 장치에 표시되는 데 최대 10분 정도 걸릴 수 있습니다.
 
 10.  장치를 배포합니다. 이제 iOS 장치가 Intune에 등록되고 관리됩니다.
-

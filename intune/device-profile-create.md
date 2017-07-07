@@ -1,12 +1,12 @@
 ---
-title: "Intune 장치 구성 프로필 만들기 | Intune Azure 미리 보기"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Intune 장치 구성 프로필을 만드는 방법을 알아봅니다."
+title: "Intune 장치 구성 프로필 만들기"
+titleSuffix: Intune on Azure
+description: "Intune 장치 구성 프로필을 만드는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/16/2017
+ms.date: 05/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,15 @@ ms.assetid: d98aceff-eb35-4e3e-8e40-5f300e7335cc
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: a719b3f53076a55f1e888a9ddf8e98c7074dd25f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 6df6813667241d3ad5f8768585f2e1a34f0fe6e3
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-create-device-configuration-profiles-in-microsoft-intune"></a>Microsoft Intune에서 장치 구성 프로필을 만드는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 
 1. Azure 포털에 로그인합니다.
@@ -34,7 +31,7 @@ ms.lasthandoff: 05/23/2017
 3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
 2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
 2. 프로필 목록이 표시된 블레이드에서 **프로필 만들기**를 선택합니다.
-3. **프로필 만들기** 블레이드에서 다음을 지정합니다.
+3. **프로필 만들기** 블레이드에서 다음 항목을 지정합니다.
     - **이름** - 새 프로필에 대한 설명이 포함된 이름을 입력합니다.
     - **설명** - 프로필에 대한 설명을 입력합니다(선택 사항).
     - **플랫폼** - 만들려는 프로필에 대한 플랫폼 유형을 선택합니다.
@@ -60,4 +57,3 @@ ms.lasthandoff: 05/23/2017
 
 ### <a name="next-steps"></a>다음 단계
 장치 프로필을 할당하는 방법에 대한 자세한 내용은 [Microsoft Intune을 사용하여 장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
-
