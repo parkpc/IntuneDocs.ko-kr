@@ -1,5 +1,5 @@
 ---
-title: "리소스 액세스에 대한 인증서 프로필 | Microsoft 문서"
+title: "리소스 액세스용 인증서 프로필"
 description: "각 사용자 장치에 설치된 인증서를 사용하여 VPN, Wi-Fi 및 전자 메일 액세스를 보호합니다."
 keywords: 
 author: lleonard-msft
@@ -14,15 +14,12 @@ ms.assetid: 8cbb8499-611d-4217-a7b4-e9b864785dd0
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 3dd6e5971d084773640c577cace43c2f011dbb69
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 5570c13b9ca1782b12ad7ca718d18c98bda7bbfa
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="secure-resource-access-with-certificate-profiles-in-microsoft-intune"></a>Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -62,4 +59,3 @@ VPN, Wi-Fi 또는 전자 메일 프로필을 통해 사용자에게 회사 리�
 - [SCEP 인증서 인프라 구성](configure-certificate-infrastructure-for-scep.md)
 - [PFX 인증서 인프라 구성](configure-certificate-infrastructure-for-pfx.md)
 - [Intune 인증서 프로필 구성](configure-intune-certificate-profiles.md)
-

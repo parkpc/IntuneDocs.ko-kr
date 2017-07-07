@@ -14,15 +14,12 @@ ms.assetid: 2742e1d5-d2d5-42cd-b719-665dd6e0a0e9
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 7025bdd5d89e52f1c99f9cd834232daf324f3285
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="wipe-company-app-data-with-intune-mam"></a>Intune MAM을 사용하여 회사 앱 데이터 초기화
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -95,4 +92,3 @@ ms.lasthandoff: 06/08/2017
 [모바일 앱 관리 정책을 사용하여 앱 데이터 보호](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
 
 [Azure Portal 사용](azure-portal-for-microsoft-intune-mam-policies.md)
-

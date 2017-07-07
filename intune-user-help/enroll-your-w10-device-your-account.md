@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 43b738b7-6a56-498a-a433-112da5104876
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b5ad9cc6c03712090398cacb3d4bb653deb1d2a4
 ms.openlocfilehash: 39d2dad94b949a39451dca79431be22782cddcb8
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/12/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enroll-your-windows-10-device-in-intune"></a>Intune에서 Windows 10 장치 등록
 
   > [!NOTE]
@@ -67,4 +63,3 @@ IT 관리자에게서 쉽게 도움을 받는 방법은 회사 포털 앱에서 
 3. 결과 목록에서 **회사 포털** > **설치**를 선택합니다.
 
 4. **설치** 또는 **무료** 중 하나를 선택합니다. 이 두 옵션 간에는 아무 차이가 없습니다. 표시되는 옵션은 조직이 회사 포털 앱을 어떻게 설정했는지에 따라 달라집니다.
-

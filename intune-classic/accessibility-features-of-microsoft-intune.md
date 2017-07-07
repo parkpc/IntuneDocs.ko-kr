@@ -14,15 +14,12 @@ ms.assetid: 6d7ed613-be97-4973-9532-8cb5bd434a1b
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 33d9fea9c0177722d6772e33b9a343a9c1edfe5c
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="accessibility-features-of-microsoft-intune"></a>Microsoft Intune의 내게 필요한 옵션 기능
 Microsoft Windows의 내게 필요한 옵션 기능과 도구 외에 다음 바로 가기 키를 사용해서도 장애가 있는 사용자가 Microsoft Intune을 더욱 쉽게 사용할 수 있습니다.
 
@@ -46,4 +43,3 @@ Microsoft Windows의 내게 필요한 옵션 기능과 도구 외에 다음 바�
 |선택한 장치에 대한 작업 표시|오른쪽 화살표|
 > [!NOTE]
 > Microsoft Intune 포털은 Internet Explorer 바로 가기 키를 사용하여 탐색할 수 있습니다.
-

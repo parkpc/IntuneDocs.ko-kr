@@ -1,12 +1,12 @@
 ---
 title: "Intune과 Skycure 통합 설정"
-titleSuffix: Intune Azure preview
+titleSuffix: Intune on Azure
 description: "Microsoft Intune과 Skycure의 통합을 설정하는 방법을 설명합니다."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 06/09/2017
+ms.date: 06/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,12 @@ ms.assetid: 359448d9-2384-42ac-a21c-a25148c20a7b
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3d21f440ee6806b545d2b346559d6516993a9cbf
-ms.openlocfilehash: 7740f9748e2d3ece6223fddc0bdf0ba6ee897cad
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/14/2017
-
-
+ms.openlocfilehash: ff27d4b99be0d09ae6b4e3ee665ce13ba62720c0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="set-up-the-skycure-integration-with-intune"></a>Intune과 Skycure 통합 설정
 
 Single Sign-On 기능을 보유하려면 Azure AD에 Skycure 앱을 추가해야 합니다.
@@ -110,5 +107,4 @@ Skycure는 Mobile Threat Defense 서비스를 실행하는 장치를 Azure AD �
 
 ## <a name="next-steps"></a>다음 단계
 
-[Intune에서 Skycure Mobile Threat Defense를 사용하도록 설정](skycure-mtd-connector-enable.md)
-
+[Intune에서 Skycure Mobile Threat Defense를 사용하도록 설정](mtd-connector-enable.md)

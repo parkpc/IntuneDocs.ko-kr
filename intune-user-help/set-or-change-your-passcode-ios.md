@@ -11,19 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 365f72a6-564d-4cbd-8f0a-70ec80b6e253
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: fbb3143baa0063343d639d2df6101ebaec98ee65
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="set-or-change-your-passcode"></a>암호 설정 또는 변경
 
 iOS 장치가 IT 관리자의 암호 정책을 준수하지 않는 경우 문제를 간략하게 기술하고 암호가 요구 사항을 충족하도록 하기 위해 수행해야 하는 사항을 설명하는 메시지가 표시됩니다.
@@ -46,4 +42,3 @@ IT 관리자가 암호 요구 사항을 두 개 이상 설정할 수 있습니�
 3. IT 관리자의 요구 사항을 충족하는 새 암호를 입력한 후 확인을 위해 해당 암호를 다시 입력합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

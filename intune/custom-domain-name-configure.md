@@ -14,16 +14,12 @@ ms.assetid: 2382f36f-13d8-4a32-81ad-6cfa604889c3
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: d75292ce60eb1db232aed12fc80a7cbccc063fb4
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="configure-a-custom-domain-name"></a>사용자 지정 도메인 이름 구성
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
@@ -56,4 +52,3 @@ Microsoft의 클라우드 기반 서비스에 가입한 경우 해당 서비스�
 사용자 지정 도메인을 추가 및 확인하는 단계는 [Azure Active Directory에서도 수행](https://azure.microsoft.com/documentation/articles/active-directory-add-domain/)할 수 있습니다.
 
 [Office 365의 초기 onmicrosoft.com 도메인 정보](https://support.office.com/article/About-your-initial-onmicrosoft-com-domain-in-Office-365-B9FC3018-8844-43F3-8DB1-1B3A8E9CFD5A)에서 자세한 내용을 확인할 수 있습니다.
-

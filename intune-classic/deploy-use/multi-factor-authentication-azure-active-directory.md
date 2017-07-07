@@ -1,5 +1,5 @@
 ---
-title: "Intune 장치 등록에 대한 다단계 인증 | Microsoft 문서"
+title: "Intune 장치 등록에 대한 다단계 인증"
 description: "Azure AD에서 장치를 등록하기 위해 다단계 인증을 요구하는 방법입니다."
 keywords: 
 author: robstackmsft
@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 47abdabd-dcd6-48d8-aade-3f3eefb92ee1
 ROBOTS: 
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: dba070ef76de8015b347e760b424a5e28ce6ddec
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 805ca79932788786636d365109e06aee836d8a0e
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="multi-factor-authentication-for-intune-device-enrollments"></a>Intune 장치 등록에 대한 다단계 인증
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -59,4 +56,3 @@ MFA는 iOS, Android, Windows 8.1 이상 또는 Windows Phone 8.1 이상의 장�
 > [!IMPORTANT]
 > 
 > Microsoft Intune 등록에 대한 **장치 기반 액세스 규칙**을 구성하지 마세요.
-

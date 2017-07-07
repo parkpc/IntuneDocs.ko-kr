@@ -1,5 +1,5 @@
 ---
-title: "Intune 콘솔에서 MAM 정책 구성 | Microsoft 문서"
+title: "Intune 콘솔에서 MAM 정책 구성"
 description: "Microsoft Intune의 모바일 응용 프로그램 관리 정책을 사용하여 배포하는 앱의 기능을 회사의 규정 준수 및 보안 정책에 맞게 수정할 수 있습니다."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: b4fb33a8-a2fa-4353-bd89-5bda48b68e83
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 65b2eb20aea4bbadba9d470590b6c344ac37b9f5
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: ce97f18a799725a86ef3ab7f4f7c0cc8cdf8f062
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console"></a>구성 하 고 Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 배포
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -46,11 +43,10 @@ Microsoft Intune의 MAM(모바일 응용 프로그램 관리) 정책을 사용�
 
 -   **정책 관리 앱 사용**. 정책 관리 앱에는 앱 SDK가 기본으로 제공됩니다. 이 유형의 앱을 추가하려면 iTunes 스토어, Google Play 등의 앱 스토어에 있는 앱의 링크를 지정합니다. 이러한 앱 유형은 추가로 처리할 필요가 없습니다. 자세한 내용은 [Microsoft Intune 모바일 응용 프로그램 관리 정책과 함께 사용할 수 있는 앱 목록](https://www.microsoft.com/cloud-platform/microsoft-intune-apps)을 참조하세요.
 
--   **래핑된 앱 사용**. 래핑된 앱은 Microsoft Intune 앱 래핑 도구를 사용하여 앱 SDK를 포함하도록 다시 패키지된 앱입니다. 이 도구는 일반적으로 사내에서 작성된 회사 앱을 처리하는 데 사용되며, 앱 스토어에서 다운로드한 앱을 처리하는 데 사용할 수는 없습니다. 자세한 내용은 [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 iOS 앱 준비](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) 및 [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 Android 앱 준비](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)를 참조하세요.
+-   **래핑된 앱 사용**. 래핑된 앱은 Microsoft Intune 앱 래핑 도구를 사용하여 앱 SDK를 포함하도록 다시 패키지된 앱입니다. 이 도구는 일반적으로 사내에서 작성된 회사 앱을 처리하는 데 사용되며, 앱 스토어에서 다운로드한 앱을 처리하는 데 사용할 수는 없습니다. 자세한 내용은 [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 iOS 앱 준비](/intune/app-wrapper-prepare-ios) 및 [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 Android 앱 준비](/intune/app-wrapper-prepare-android)를 참조하세요.
 
-- **Intune 앱 SDK를 통합하는 고유한 앱 작성**. Intune 앱 SDK를 사용하면 앱을 작성하는 동안 앱 관리 기능을 앱에 통합할 수 있습니다. 자세한 내용은 [Intune 앱 SDK 개요](/intune-classic/develop/intune-app-sdk)를 참조하세요.
-
-앱 래핑 도구와 Intune 앱 SDK 중에서 선택하는 데 도움이 필요하면 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)을 참조하세요.
+- **Intune 앱 SDK를 통합하는 고유한 앱 작성**. Intune 앱 SDK를 사용하면 앱을 작성하는 동안 앱 관리 기능을 앱에 통합할 수 있습니다. 자세한 내용은 [Intune 앱 SDK 개요](/intune/app-sdk)를 참조하세요.
+/intune/apps-prepare-mobile-application-management 앱 줄 바꿈 도구와 Intune 앱 SDK 중에서 선택하는 데 도움이 필요하면 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](/intune/apps-prepare-mobile-application-management)을 참조하세요.
 
 iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지원합니다. 즉, Intune은 회사 계정 또는 앱의 데이터에만 관리 설정을 적용합니다.
 
@@ -197,4 +193,3 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 -   정책이 장치에 이미 배포된 경우에는 기존 정책 설정을 덮어쓰지 않습니다.
 
 -   장치에 아직 배포된 정책이 없는 상태에서 충돌하는 두 설정이 배포되면 장치에서 기본 제공되는 설정이 사용됩니다.
-

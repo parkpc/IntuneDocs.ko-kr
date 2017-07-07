@@ -1,12 +1,12 @@
 ---
 title: "Intune VPN 설정을 구성하는 방법"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Intune을 사용하는 관리하는 iOS 장치에서 VPN 연결을 구성하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "관리하는 장치에서 Intune을 사용하여 VPN 연결을 구성하는 방법을 알아봅니다.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
 manager: angrobe
-ms.date: 05/04/2017
+ms.date: 06/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,15 @@ ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 8a8742d0b579fec734dd8335e2a610d126db21fa
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: e6a59c1f5fcb94d427b6d12eef19d4d49ff930ce
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-configure-vpn-settings-in-microsoft-intune"></a>Microsoft Intune에서 VPN 설정을 구성하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전하게 원격으로 액세스할 수 있습니다. 장치는 VPN 연결 프로필을 사용하여 VPN 서버와의 연결을 시작합니다. Microsoft Intune의 **VPN 프로필**을 사용하여 조직의 사용자 및 장치에 VPN 설정을 할당하면 네트워크에 쉽고 안전하게 연결할 수 있습니다.
 
@@ -36,12 +33,11 @@ VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전
 
 다음의 연결 유형을 사용하여 VPN 프로필을 만들 수 있습니다.
 
-||||||||
+|연결 유형|Android<br>Android for Work|iOS|macOS|Windows Phone 8.1|Windows 8.1|Windows 10|
 |-|-|-|-|-|-|-|
-|연결 유형|Android|iOS|macOS|Windows Phone 8.1|Windows 8.1|Windows 10|
 |Pulse Secure|예|예|예|예|예|예|
 |Cisco(IPsec)|아니요|예|아니요|아니요|아니요|아니요|
-|Citrix|예|예|아니요|아니요|아니요|아니요|
+|Citrix|예(Android에만 해당)|예|아니요|아니요|아니요|아니요|
 |F5 Edge Client|예|예|예|예|예|예|
 |Dell SonicWALL Mobile Connect|예|예|예|예|예|예|
 |검사점 캡슐 VPN|예|예|예|예|예|예|
@@ -61,21 +57,22 @@ VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전
 ## <a name="create-a-device-profile-containing-vpn-settings"></a>VPN 설정을 포함하는 장치 프로필 만들기
 
 1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
+2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
 2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
 3. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.
 4. **프로필 만들기** 블레이드에서 VPN 프로필에 대한 **이름** 및 **설명**을 입력합니다.
 5. **플랫폼** 드롭다운 목록에서 VPN 설정을 적용할 장치 플랫폼을 선택합니다. 현재 VPN 장치 설정에 대해 다음 플랫폼 중 하나를 선택할 수 있습니다.
     - **OWA(Outlook Web Access)**
-    - **iOS**
+    - **Android for Work**
+    - **Android**
     - **macOS**
     - **Windows Phone 8.1**
     - **Windows 8.1 이상**
     - **Windows 10 이상**
 6. **프로필** 유형 드롭다운 목록에서 선택 **VPN**을 선택합니다.
 7. 선택한 플랫폼에 따라 구성할 수 있는 설정이 다릅니다. 각 플랫폼에 대한 자세한 설정을 보려면 다음 항목 중 하나로 이동하세요.
-    - [Android 설정](vpn-settings-android.md)
+    - [Android and Android for Work 설정](vpn-settings-android.md)
     - [iOS 설정](vpn-settings-ios.md)
     - [macOS 설정](vpn-settings-macos.md)
     - [Windows Phone 8.1 설정](vpn-settings-windows-phone-8-1.md)
@@ -100,4 +97,3 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 ### <a name="user-name-and-password"></a>사용자 이름 및 암호
 
 사용자는 사용자 이름과 암호를 제공하여 VPN 서버에 인증합니다.
-

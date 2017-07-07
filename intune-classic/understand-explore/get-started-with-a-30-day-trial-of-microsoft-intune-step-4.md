@@ -1,5 +1,5 @@
 ---
-title: "정책 만들기 및 사용자에게 앱 게시 | Microsoft 문서"
+title: "정책 만들기 및 사용자에게 앱 게시"
 description: "Intune 무료 30일 평가판을 등록할 때 정책을 만들고 앱을 게시하는 방법"
 keywords: 
 author: lindavr
@@ -14,16 +14,12 @@ ms.assetid: c3a17884-442a-44f5-bc81-4589e823f65e
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 0e836571b869e7a32b19968da1d78035a6bae7f2
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 335d91cd6583052bfcc72fc018b387eed8823b7e
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="create-policies-and-publish-an-app-to-evaluation-users"></a>정책 만들기 및 평가판 사용자에게 앱 게시
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -102,7 +98,6 @@ Intune을 사용하여 앱을 배포하기 전에 앱 게시, 배포 및 사용�
 ## <a name="next-steps"></a>다음 단계
 [Intune 기능](get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)에 대한 자세한 정보
 
-[Intune을 사용하는 일반적인 방법](common-ways-to-use-intune.md) 읽어보기
+[Intune을 사용하는 일반적인 방법](/intune/common-scenarios) 읽어보기
 
 [유료 구독](get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)으로 전환
-

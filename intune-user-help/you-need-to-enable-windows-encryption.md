@@ -11,19 +11,16 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e0c5993b-3fa5-411e-bae0-93fb66c49bea
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: be200787cf628e79e95ca40f5f733123aa2e58f9
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="you-need-to-enable-encryption"></a>암호화를 사용하도록 설정해야 함
 
@@ -32,4 +29,3 @@ ms.lasthandoff: 05/23/2017
 BitLocker는 드라이브를 암호화하고 데이터를 보호하는 소프트웨어입니다. Windows 10 장치에서 BitLocker를 사용하는 방법에 대한 [다음 지침](https://gallery.technet.microsoft.com/How-to-turn-on-BitLocker-34294d3d)을 따르세요.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

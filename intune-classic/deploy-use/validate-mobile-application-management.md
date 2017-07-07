@@ -1,5 +1,5 @@
 ---
-title: "MAM 설정 유효성 검사 | Microsoft 문서"
+title: "MAM 설정 유효성 검사"
 description: "이 항목에서는 MAM 정책이 올바르게 설정되어 있으며 정상적으로 작동하는지를 테스트하고 유효성을 검사하는 방법을 설명합니다."
 keywords: 
 author: andredm7
@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 41d82597-e13e-4c3e-9151-e71392236ca0
 ms.reviewer: joglocke
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: ab04c85d6704d7011cc5d4ea2a9f83d78b5b73e3
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 1e22be7b238cce195ee88c938b1cca009c0b21d3
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="validating-your-mobile-application-management-setup"></a>모바일 응용 프로그램 관리 설정 유효성 검사
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -50,7 +47,7 @@ MAM은 데이터 보호 도구이므로 사용자가 문제를 보고할 가능�
 ### <a name="what-to-do"></a>알아두어야 할 사항
 사용자 상태에 따라 수행할 작업은 다음과 같습니다.
 
-- 사용자에게 MAM 사용이 허가되지 않은 경우 [Intune 라이선스 관리](..\get-started\start-with-a-paid-subscription-to-microsoft-intune.md)의 설명에 따라 사용자에게 Intune 라이선스를 할당합니다.
+- 사용자에게 MAM 사용이 허가되지 않은 경우 [Intune 라이선스 관리](/intune/setup-steps)의 설명에 따라 사용자에게 Intune 라이선스를 할당합니다.
 - 사용자에게 O365 사용이 허가되지 않은 경우 사용자용 라이선스를 받습니다.
 - 사용자의 앱이 목록에서 **체크 인되지 않음**으로 표시되는 경우 해당 앱에 대해 MAM 정책을 올바르게 구성했는지 확인합니다.
 - MAM 정책을 적용할 모든 사용자에게 이러한 조건이 적용되는지 확인합니다.
@@ -59,4 +56,3 @@ MAM은 데이터 보호 도구이므로 사용자가 문제를 보고할 가능�
 [Microsoft Intune을 사용하여 모바일 앱 관리 정책 구성 준비](..\deploy-use\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 
 [Microsoft Intune에서 모바일 앱 관리 정책을 사용하여 앱 데이터 보호](..\deploy-use\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
-

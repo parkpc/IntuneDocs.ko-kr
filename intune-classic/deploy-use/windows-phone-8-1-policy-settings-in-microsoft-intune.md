@@ -1,5 +1,5 @@
 ---
-title: "Windows Phone 8.1 정책 설정 | Microsoft 문서"
+title: "Windows Phone 8.1 정책 설정"
 description: "Intune은 Windows Phone 8.1 장치에서 구성할 수 있는 기본 제공 일반 설정의 범위를 제공합니다. 또한, Intune에서 사용할 수 없는 사용자 지정 설정을 만들기 위해 OMA-URI 값을 지정할 수 있습니다."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: 83f7469c-272e-43f2-8139-b0d7bc34f43f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 65d3b454531084008bdbb01dd17f5ce34ef5890f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 091c8c3867fffa2ba6857f79ae40ed618aaf0b72
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="windows-phone-81-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows Phone 8.1 정책 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -174,4 +171,3 @@ Windows Phone 장치에 대한 OMA-URI 설정 만들기에 대한 도움이 필�
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-

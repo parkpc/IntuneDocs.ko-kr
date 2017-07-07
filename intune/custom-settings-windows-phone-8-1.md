@@ -1,7 +1,7 @@
 ---
 title: "Windows Phone 8.1 장치에 대한 Intune 사용자 지정 설정"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Windows Phone 8.1 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Windows Phone 8.1 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,18 +15,15 @@ ms.assetid: 21c55041-3821-4a62-9f85-855b97dba269
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 646d0ec4274e068487ad9546ff0b5dabfc815e46
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: b3dcad95b85d967e48c8b05d655a5e679daa0aee
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="custom-settings-for-windows-phone-81-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows Phone 8.1 장치에 대한 사용자 지정 설정
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Microsoft Intune Windows Phone 8.1 **사용자 지정** 프로필을 사용하여 Windows Phone 8.1 장치에서 기능을 제어하는 데 사용할 수 있는 OMA-URI 설정을 할당할 수 있습니다. 이는 많은 모바일 장치 제조업체가 장치 기능을 제어하는 데 사용하는 표준 설정입니다.
 
@@ -44,4 +41,3 @@ Microsoft Intune Windows Phone 8.1 **사용자 지정** 프로필을 사용하�
     - **값** - 입력한 OMA-URI와 연결할 값을 입력합니다.
 
 4. 완료되면 **확인**을 클릭한 다음 필요에 따라 설정을 계속 추가합니다.
-

@@ -1,5 +1,5 @@
 ---
-title: "Azure Active Directory Single Sign-On을 사용하도록 Skycure 구성 | Microsoft Docs"
+title: "Azure Active Directory Single Sign-On을 사용하도록 Skycure 구성"
 description: "Azure Active Directory SSO(Single Sign-On)을 사용하도록 Skycure 구성"
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 34d5d359-5c7c-4225-a205-8ce890b6f890
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: bf4cf8441a0ff53abf3f7830f0cdd955a4317fb0
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: a26292f2247c4fa65e9aa2df047a9ef1fe98476a
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="configure-skycure-to-use-azure-active-directory-single-sign-on-sso"></a>Azure Active Directory SSO(Single Sign-On)을 사용하도록 Skycure 구성
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -86,4 +83,3 @@ Skycure를 실행하는 사용자(예: Skycure 사용자)를 포함하는 전용
 ## <a name="next-steps"></a>다음 단계
 
 [Skycure iOS 앱 구성 정책 다운로드](/intune-classic/deploy-use/download-skycure-ios-app-configuration-policy)
-

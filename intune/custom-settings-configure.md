@@ -1,12 +1,12 @@
 ---
 title: "Intune 사용자 지정 장치 설정을 구성하는 방법"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Intune을 사용하는 관리하는 iOS 장치에서 사용자 지정 설정을 구성하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "관리하는 장치에서 Intune을 사용하여 사용자 지정 설정을 구성하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/12/2017
+ms.date: 06/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,15 @@ ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 40a37a02ac49a74e3f715b0e2191868ecf2e264b
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 769c566c7ebb91743fc0f18ebf8f3e76377ca847
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-configure-custom-device-settings-in-microsoft-intune"></a>Microsoft Intune에서 사용자 지정 장치 설정을 구성하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="when-to-use-custom-settings"></a>사용자 지정 설정을 사용하는 경우
 
@@ -38,7 +35,7 @@ Intune에 다른 장치 프로필에서 기본 제공되고 사용 가능한 구
 ## <a name="create-a-device-profile-containing-custom-settings"></a>사용자 지정 설정을 포함하는 장치 프로필 만들기
 
 1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
+2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
 2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
 3. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.
@@ -53,7 +50,7 @@ Intune에 다른 장치 프로필에서 기본 제공되고 사용 가능한 구
 7. 선택한 플랫폼에 따라 구성할 수 있는 설정이 다릅니다. 각 플랫폼에 대한 자세한 설정을 보려면 다음 항목 중 하나로 이동하세요.
     - [Android 설정](custom-settings-android.md)
     - [iOS 설정](custom-settings-ios.md)
-    - [macOS 설정](custom settings-macos.md)
+    - [macOS 설정](custom-settings-macos.md)
     - [Windows Phone 8.1 설정](custom-settings-windows-phone-8-1.md)
     - [Windows 10 설정](custom-settings-windows-10.md)
     - [Android for Work 설정](custom-settings-android-for-work.md)
@@ -61,4 +58,3 @@ Intune에 다른 장치 프로필에서 기본 제공되고 사용 가능한 구
 
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
 계속해서 이 프로필을 그룹에 할당하려면 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
-

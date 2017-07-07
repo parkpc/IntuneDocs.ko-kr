@@ -1,7 +1,7 @@
 ---
 title: "Windows Information Protection 구성 - Intune"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Windows Information Protection을 관리하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Windows Information Protection을 관리하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,18 +15,15 @@ ms.assetid: f233672c-7d9b-4554-af1f-92c001a1a3c5
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: fc58b07fe33ff6223dfa182fb4f81f15379295fa
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 7ac59456dd2bc59a0a50eeab4e483dea2033c0fa
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-configure-windows-information-protection-in-microsoft-intune"></a>Microsoft Intune에서 Windows Information Protection을 구성하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 기업에서 직원 소유 장치가 증가됨에 따라 메일, 소셜 미디어, 공용 클라우드 등의 앱 및 서비스를 통해 실수에 의한 데이터 유출의 위험도 증가하며, 이러한 상황은 기업에서 제어할 수 없습니다. 예를 들어 직원이 개인 메일 계정에서 최신 엔지니어링 사진을 전송하거나, 제품 정보를 복사한 후 트윗에 붙여넣거나, 진행 중인 판매 보고서를 공용 클라우드 저장소에 저장합니다.
 
@@ -39,4 +36,3 @@ ms.lasthandoff: 05/23/2017
 
 ### <a name="next-steps"></a>다음 단계
 자세한 내용은 [Windows 정보 보호를 사용하여 엔터프라이즈 데이터 보호](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip)를 참조하세요.
-

@@ -12,15 +12,12 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: cd5a0a3b-0013-4be3-a233-ce6e9083149f
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: dd4b216f04c909321bbf57f4dec5998e48cb490c
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="troubleshoot-mobile-application-management"></a>모바일 응용 프로그램 관리 문제 해결
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -118,4 +115,3 @@ Android | **회사 포털 필요**: 이 앱에서 회사 또는 학교 계정을
 - [모바일 응용 프로그램 관리 설정 유효성 검사](../deploy-use/validate-mobile-application-management.md)
 - [Microsoft Intune을 사용하여 모바일 앱 관리 정책 구성 준비](../deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 - [Microsoft Intune에 대한 관리 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)
-

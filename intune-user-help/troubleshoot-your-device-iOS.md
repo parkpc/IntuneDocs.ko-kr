@@ -5,33 +5,30 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 05/10/2017
+ms.date: 06/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 66436fd8-1582-41f5-9c3b-abd914365f2d
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: c06d03943863f6ab46a0943b08e1d986b210e58a
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 3869659ea95f561365f40bcfcd164b82a7795ac0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="fix-common-issues-with-your-ios-device"></a>iOS 장치의 일반적인 문제 해결
 
 iOS 장치에서 문제 해결을 통해 해결할 수 있는 문제가 발생하는 경우가 있습니다. 먼저 직접 해결해 볼 수 있는 몇 가지 일반적인 문제는 다음과 같습니다. 좀 더 복잡한 문제의 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 있는 연락처 정보를 통해 IT 관리자에게 문의하는 것이 좋습니다.
 
 - [손상된 iOS 장치를 다시 연결해야 함](how-to-reconnect-a-compromised-ios-device.md)
 - [내 IT 관리자에게 오류를 보내야 함](send-errors-to-your-it-admin-ios.md)
+- [Microsoft에 오류를 보내야 함](send-logs-to-microsoft-ios.md)
 - [회사 포털 앱을 사용하는 동안 오류가 발생함](you-get-an-error-while-using-the-company-portal-app-ios.md)
 - [등록할 내 장치를 식별해야 함](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md)
 - [장치에 일련 번호를 찾으려면 어떻게 하나요?](how-do-i-find-the-serial-number-on-my-device-ios.md)
@@ -39,4 +36,3 @@ iOS 장치에서 문제 해결을 통해 해결할 수 있는 문제가 발생�
 - [내 iOS 버전이 아직 지원되지 않음](your-ios-version-isnt-yet-supported.md)
 - [iOS 장치에 Mobile Threat Defense 앱을 설치해야 함](you-are-prompted-to-install-mtd-ios.md)
 - [iOS 장치에서 Mobile Threat Defense 앱이 발견한 위협을 해결해야 함](you-need-to-resolve-a-threat-found-by-mtd-ios.md)
-

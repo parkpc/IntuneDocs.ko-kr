@@ -14,15 +14,12 @@ ms.assetid: 0775107a-6662-41c8-9404-be14bbb599f3
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 2cb4e331ff4b6e96df0e640af02f33dc88ccfe0f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="device-compliance-policies-in-microsoft-intune"></a>Microsoft Intune의 장치 준수 정책
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -69,4 +66,3 @@ ms.lasthandoff: 06/08/2017
 
 ### <a name="see-also"></a>참고 항목
 [메일 및 O365 서비스에 대한 액세스 제한](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
-

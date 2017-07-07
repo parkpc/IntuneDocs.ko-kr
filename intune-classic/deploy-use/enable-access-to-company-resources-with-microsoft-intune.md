@@ -14,15 +14,12 @@ ms.assetid: 3dd8dd4e-e165-4d0c-97b7-b3e86ebab909
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 18091d5dea0ff4b4519082973255a21e5cbc311e
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enable-access-to-company-resources-with-microsoft-intune"></a>Microsoft Intune을 사용하여 회사 리소스에 대한 액세스 허용
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -60,4 +57,3 @@ VPN(가상 사설망) 설정을 사용자에게 배포합니다. 이러한 설�
 |Windows 8.1 이상|Windows Phone 8.1 이상|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
 |예|예|예|예|예|
-

@@ -14,15 +14,12 @@ ms.assetid: 71e0cbf3-2bfb-412e-8a12-8503df08b4cf
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 8acde93c1c0c0d3bf443daf61d5f8d75b3d061df
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-devices-with-microsoft-intune"></a>Microsoft Intune으로 장치 보호
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -65,4 +62,3 @@ Active Directory를 사용하는 Windows 10 이상 버전 또는 Azure Active Di
 
 ## <a name="protect-windows-pcs-managed-with-the-intune-client"></a>Intune 클라이언트로 관리하는 Windows PC 보호
 Intune에서는 등록하지 않았지만 Intune 컴퓨터 클라이언트 소프트웨어로 관리되는 Windows PC에 대한 보안 정책을 계속해서 지원합니다. 이러한 정책을 사용하여 어떻게 Windows PC를 보호할 수 있는지 알아보려면 [Use policies to help protect Windows PCs that run the Intune client software](policies-to-protect-windows-pcs-in-microsoft-intune.md)(Intune 클라이언트 소프트웨어를 실행하는 Windows PC를 보호하는 데 도움이 되는 정책 사용)를 참조하세요.
-

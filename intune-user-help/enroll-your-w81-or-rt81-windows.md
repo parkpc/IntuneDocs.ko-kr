@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 28984f26-1070-4f7a-877c-669a59375c0c
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: afd9d8263deaeadfd802806167fbbaff730555c9
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-enroll-your-windows-81-or-windows-rt-81-device-in-intune"></a>Intune에서 Windows 8.1 또는 Windows RT 8.1 장치를 등록하는 방법
 
 회사 또는 학교에서 Microsoft Intune을 사용하는 경우 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 조직에서 회사 데이터 보안을 유지할 수 있습니다. 등록에 대해 자세히 알아보려면 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) 및 [IT 관리자가 장치에서 할 수 있는 일과 할 수 없는 일](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)을 참조하세요.
@@ -68,4 +64,3 @@ Windows 8.1 또는 Windows RT 8.1 장치를 등록하려면:
 4.  **설치** 또는 **무료** 중 하나를 탭합니다. 표시되는 옵션은 회사에서 앱을 설정한 방법에 따라 달라집니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

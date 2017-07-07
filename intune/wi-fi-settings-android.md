@@ -1,12 +1,12 @@
 ---
 title: "Android 장치에 대한 Intune Wi-Fi 설정"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Android 장치에서 Wi-Fi 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Intune을 통해 Android 및 Android for Work 장치에서 Wi-Fi 연결 설정을 구성하는 방법에 대해 알아봅니다.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 06/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,20 +15,19 @@ ms.assetid: 103e17a4-2993-4359-b340-73e2acf4cf7d
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 0dd0b8c4e4cf6733c20282817cba99d8379ef24e
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 8e1c64730dc8bb91a0fe5e7936ed963d67be1feb
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
+# <a name="wi-fi-settings-for-android-and-android-for-work-devices-in-microsoft-intune"></a>Microsoft Intune의 Android 및 Android for Work 장치용 Wi-Fi 설정
 
-# <a name="wi-fi-settings-for-android-devices-in-microsoft-intune"></a>Microsoft Intune의 Android 장치에 대한 Wi-Fi 설정
-
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="wi-fi-settings-for-basic-and-enterprise-profiles"></a>기본 및 엔터프라이즈 프로필에 대한 Wi-Fi 설정
+
+Android 및 Android for Work 장치 둘 다에 대해 다음 Wi-Fi 설정을 사용할 수 있습니다.
 
 - **네트워크 이름** - 이 Wi-Fi 네트워크 설정에 대한 이름을 입력합니다. 사용자가 장치에서 사용 가능한 연결 목록을 찾아볼 때 표시되는 이름입니다.
 - **SSID** - Service Set Identifier(서비스 집합 ID)의 약어입니다. 장치에 연결할 무선 네트워크의 실제 이름입니다. 그러나 사용자에게는 연결을 선택할 때 위에서 만든 네트워크 이름만 표시됩니다.
@@ -63,4 +62,3 @@ ms.lasthandoff: 05/23/2017
 |----------|--------------|----------|
 |**클라이언트 인증에 사용할 클라이언트 인증서(ID 인증서)**|연결을 인증하는 데 사용되는 SCEP 또는 PKCS 인증서 프로필을 선택합니다.|EAP 유형이 **EAP-TLS**인 경우|
 |**인증 방법**|연결에 대한 인증 방법을 선택합니다.<br>- **인증서** - 서버에 제공되는 ID 인증서인 SCEP 또는 PKCS 클라이언트 인증서를 선택하려는 경우<br><br>- **사용자 이름 및 암호** - 다른 인증 방법을 지정하려는 경우 <br><br>**사용자 이름 및 암호**를 선택한 경우<br><br>-  **EAP 이외의 방법(내부 ID)**을 구성한 후 연결을 인증할 방법으로 다음 중 하나를 선택합니다.<br>- **없음**<br>- **암호화되지 않은 암호(PAP)**<br>- **CHAP(Challenge Handshake 인증 프로토콜)**<br>- **MS-CHAP(Microsoft CHAP)**<br>- **MS-CHAP v2(Microsoft CHAP 버전 2)**<br>사용 가능한 옵션은 선택한 EAP 종류에 따라 달라집니다.<br><br>**및**<br><br>- **ID 개인 정보(외부 ID)** - EAP ID 요청에 대한 응답으로 전송되는 텍스트를 지정하려는 경우 이 텍스트에는 원하는 값을 사용할 수 있습니다. 인증하는 동안 이 익명 ID가 먼저 전송된 다음 실제 ID가 보안 채널을 통해 전송됩니다.|EAP 유형이 **EAP-TTLS** 또는 **PEAP**인 경우|
-

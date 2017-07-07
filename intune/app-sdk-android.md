@@ -14,16 +14,12 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b5ad9cc6c03712090398cacb3d4bb653deb1d2a4
-ms.openlocfilehash: 7dfcc0bf8f3da1e600df59927db6e78ec2021e0f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/12/2017
-
-
+ms.openlocfilehash: 403917adb1fb1156f0ed0027a316677d1e4f2f84
+ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/03/2017
 ---
-
-
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Android용 Microsoft Intune 앱 SDK 개발자 가이드
 
 > [!NOTE]
@@ -80,7 +76,8 @@ Intune 앱 SDK는 외부 종속성이 없는 표준 Android 라이브러리입�
 Azure ADAL(Active Directory Authentication Libraries)에는 고유 ProGuard 제한 사항이 있습니다. 앱에서 ADAL을 통합하는 경우 이러한 제한 사항에 대한 ADAL 문서를 따라야 합니다.
 
 ### <a name="entry-points"></a>진입점
-======= 조정된 인증을 수행하려면 Azure [ADAL](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/)(Active Directory Authentication Library)에 이러한 권한이 필요합니다. 이러한 사용 권한이 앱에 부여되지 않거나 사용자에 의해 취소될 경우 브로커(회사 포털 앱)가 필요한 인증 흐름을 사용할 수 없습니다.
+
+조정된 인증을 수행하려면 Azure [ADAL](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/)(Active Directory Authentication Library)에 이러한 권한이 필요합니다. 이러한 사용 권한이 앱에 부여되지 않거나 사용자에 의해 취소될 경우 브로커(회사 포털 앱)가 필요한 인증 흐름을 사용할 수 없습니다.
 
 Intune 앱 SDK가 작동하려면 앱 보호 정책을 사용하도록 Intune 앱의 소스 코드를 변경해야 합니다. 이렇게 하려면 Android 기본 클래스를 이름에 접두사 **MAM**이 포함된 동등한 Intune 기본 클래스와 바꿉니다. SDK 클래스는 Android 기본 클래스와 앱에서 파생된 고유 버전의 Android 기본 클래스 사이에 존재합니다. 활동의 예를 살펴보자면, `Activity` > `MAMActivity` > `AppSpecificActivity`와 같은 상속 계층이 생성됩니다.
 
@@ -161,7 +158,7 @@ Intune 앱 SDK에는 SDK를 통합하는 앱에 대한 세 가지 [Android 시�
 
 * `android.permission.USE_CREDENTIALS`
 
-조정된 인증을 수행하려면 Azure [ADAL](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-libraries/)(Active Directory Authentication Library)에 이러한 권한이 필요합니다. 이러한 사용 권한이 앱에 부여되지 않거나 사용자에 의해 취소될 경우 브로커(회사 포털 앱)가 필요한 인증 흐름을 사용할 수 없습니다.
+조정된 인증을 수행하려면 Azure [ADAL](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/)(Active Directory Authentication Library)에 이러한 권한이 필요합니다. 이러한 사용 권한이 앱에 부여되지 않거나 사용자에 의해 취소될 경우 브로커(회사 포털 앱)가 필요한 인증 흐름을 사용할 수 없습니다.
 
 ## <a name="logging"></a>로깅
 
@@ -410,7 +407,7 @@ public interface MAMNotificationReceiver {
 
 먼저 [GitHub의 ADAL 리포지토리](https://github.com/AzureAD/azure-activedirectory-library-for-android)에 있는 ADAL 통합 지침을 읽어 보세요.
 
-SDK가 작동하려면 [인증](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-scenarios/) 및 조건부 시작 시나리오를 위한 [ADAL](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-libraries/)이 필요하며, 이 경우 앱에 [Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)를 구성해야 합니다. 구성 값은 AndroidManifest 메타데이터를 통해 SDK에 전달됩니다.
+SDK가 작동하려면 [인증](https://azure.microsoft.com/documentation/articles/active-directory-authentication-scenarios/) 및 조건부 시작 시나리오를 위한 [ADAL](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/)이 필요하며, 이 경우 앱에 [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/)를 구성해야 합니다. 구성 값은 AndroidManifest 메타데이터를 통해 SDK에 전달됩니다.
 
 앱을 구성하고 적절한 인증을 사용하려면 다음을 AndroidManifest.xml의 앱 노드에 추가합니다. 이러한 일부 구성은 앱에서 일반적으로 인증에 ADAL을 사용하는 경우에만 필요합니다. 이 경우 앱이 AAD를 사용하여 자체를 등록하는 데 사용하는 특정 값이 필요합니다. 이것은 AAD에서 별개의 두 등록 값(앱의 값 및 SDK의 값)을 인식하기 때문에 최종 사용자에게 인증을 요구하는 메시지가 두 번 나타나는 일이 없도록 하려는 것입니다.
 
@@ -1181,4 +1178,3 @@ Intune SDK는 Android API에서 제공되는 계약을 유지하지만, 정책 �
 * 최신 Android SDK 빌드 도구를 사용합니다.
 
 * 불필요한 라이브러리 및 사용하지 않는 라이브러리(예: android.support.v4)를 모두 제거합니다.
-

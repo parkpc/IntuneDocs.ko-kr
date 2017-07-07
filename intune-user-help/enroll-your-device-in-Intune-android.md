@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 9e70ef08eabb1595804f84247fc1663c5c6f985e
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="enroll-your-android-device-in-intune"></a>Intune에서 Android 장치 등록
 
 회사 또는 학교에서 Microsoft Intune을 사용하는 경우 Android 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 IT 부서에서 해당 회사 또는 학교 리소스를 관리하고 보안을 유지하여 선호하는 장치를 자유롭게 사용하여 작업을 완료할 수 있습니다. 등록에 대해 자세히 알아보려면 [회사 포털 앱을 설치하고 장치를 등록하면 어떤 일이 생기나요?](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md)를 참조하세요.
@@ -79,7 +74,7 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 10.  Android 6.0 이상을 사용하는 경우 이 단계를 수행합니다. 그렇지 않으면 다음 단계로 진행합니다.
 
     IT 관리자가 특정 정책을 설정한 경우 다음과 같은 메시지가 표시될 수 있습니다.
-    -    **회사 포털에서 통화를 하고 전화 통화를 관리하도록 허용하시나요?**
+    -   **회사 포털에서 통화를 하고 전화 통화를 관리하도록 허용하시나요?**
 
         ![android-company-portal-sign-in](./media/and-enroll-3a-allow-phone-access.png)
 
@@ -87,7 +82,7 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
     액세스를 거부하면 다음에 회사 포털에 로그인할 때 메시지가 다시 표시되지만, **다시 묻지 않음** 상자를 탭하여 이후 메시지를 해제할 수 있습니다. 사용자가 나중에 액세스를 허용할 경우 **설정** &gt; **앱** &gt; **회사 포털** &gt; **사용 권한** &gt; **전화**로 이동한 다음 사용 권한을 설정합니다.
 
-    -    **회사 포털에 연락처에 대한 액세스를 허용하시나요?**
+    -   **회사 포털에 연락처에 대한 액세스를 허용하시나요?**
 
         ![android-company-portal-sign-in](./media/and-enroll-3b-allow-contacts-access.png)
 
@@ -139,4 +134,3 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 > 조직에서 TEM(Telecom Expense Management) 소프트웨어를 사용하는 경우 몇 가지 추가 단계를 완료해야 장치가 완전히 등록됩니다. 자세한 내용은 [여기](enroll-your-device-with-telecom-expense-management-android.md)를 참조하세요.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with enrolling my Android device&body=Describe the issue you're experiencing here.">Microsoft Android 팀</a>으로 메일을 보내세요.
-

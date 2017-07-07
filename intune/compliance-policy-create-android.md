@@ -1,7 +1,7 @@
 ---
 title: "Android에 대한 준수 정책을 만드는 방법"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Android 장치에 대한 준수 정책을 만드는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Android 장치에 대한 준수 정책을 만드는 방법을 알아봅니다.\""
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -15,21 +15,18 @@ ms.assetid: e1258fe4-0b5c-4485-8bd1-152090df6345
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 08d503fad2304b25e6feb7f41cf0b93546dd26fd
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: cc68bf4a52e5fcf9a8fbb3550a5bee814f4f46f0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
+# <a name="how-to-create-a-device-compliance-policy-for-android-devices-in-intune"></a>Intune에서 Android 장치에 대한 장치 준수 정책을 만드는 방법
 
-# <a name="how-to-create-a-device-compliance-policy-for-android-devices-in-intune-azure-preview-portal"></a>Intune Azure Preview 포털에서 Android 장치에 대한 장치 준수 정책을 만드는 방법
 
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
-
-장치 준수 정책은 Intune Azure Preview 포털에서 각 플랫폼에 대해 만들어집니다. 
+장치 준수 정책은 Intune Azure 포털에서 각 플랫폼에 대해 만들어집니다. 
 
 - 준수 정책에 대한 정의는 [장치 준수란?](device-compliance.md) 항목을 참조하세요.
 - 준수 정책을 만들기 전에 해결해야 하는 전제 조건을 자세히 알아보려면 [장치 준수 시작](device-compliance-get-started.md) 항목을 참조하세요.
@@ -134,4 +131,3 @@ ms.lasthandoff: 05/23/2017
 <!--- ## Next steps
 
 [How to monitor device compliance](device-compliance-monitor.md)--->
-

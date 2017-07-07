@@ -1,7 +1,7 @@
 ---
 title: "Intune 장치 준수 정책 모니터링"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 장치 준수 정책을 모니터링하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "장치 준수 정책을 모니터링하는 방법을 알아봅니다.\""
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -15,13 +15,11 @@ ms.assetid: 503d1dd2-a647-4aea-bf48-55319a3dd8a7
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 9c57a45ed93b12c3b9fd9635bfa1aec465f63bbc
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 6d0105e49bac2af0c241fe9203c411ef7f9e7d76
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="monitor-intune-device-compliance-policies"></a>Intune 장치 준수 정책 모니터링
 
@@ -123,8 +121,6 @@ Intune에 등록된 모든 장치에 대해 준수 상태 집계를 보여 주�
 
 **업데이트 단추**를 클릭하면 플라이아웃이 닫히고 선택한 필터 조건에 따라 결과가 업데이트됩니다.
 
-![필터 업데이트 단추](./media/idc-5.png)
-
 ##### <a name="device-details"></a>장치 세부 정보
 
 장치를 클릭하면 해당 장치가 선택된 채로 **장치 블레이드**가 열립니다. 여기서는 해당 장치에 대해 적용되는 장치 준수 정책 설정에 대해 자세한 정보를 제공합니다.
@@ -154,4 +150,3 @@ Intune에 등록된 모든 장치에 대해 준수 상태 집계를 보여 주�
 [설정 준수] 타일을 클릭한 후 장치 준수 정책 설정 중 하나를 클릭하면 장치 준수 정책 설정에서 대상으로 지정된 각 장치에 대해 **준수 상태**, **사용자의 메일 별칭**, **장치 모델** 및 **위치**를 볼 수 있습니다.
 
 ![설정 준수 타일](./media/idc-11.png)
-

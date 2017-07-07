@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0de5f03a-c288-423b-b9ea-493a39eb715a
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 64cfbf02e54244457aeaefb84e3049350764c410
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="using-your-windows-device-with-intune"></a>Intune에서 Windows 장치 사용
 
 편리한 업무를 위해 Intune에서 다양한 작업을 수행할 수 있습니다. 다음은 회사에서 요청될 수 있는 가장 일반적인 작업 목록입니다.
@@ -57,4 +53,3 @@ Intune은 현재 다음 버전의 Windows를 지원합니다.
 - [회사 포털을 사용하여 장치를 재설정하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-windows.md)
 - [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-windows.md)
 - [수동으로 장치 동기화](sync-your-device-manually-windows.md)
-

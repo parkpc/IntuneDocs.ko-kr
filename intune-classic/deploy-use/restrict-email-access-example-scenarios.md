@@ -1,5 +1,5 @@
 ---
-title: "메일 시나리오 보호 | Microsoft 문서"
+title: "메일 보호 시나리오"
 description: "몇 가지 예제 시나리오와 이러한 시나리오를 조건부 액세스로 구현할 수 있는 방법입니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 454eab79-b620-42c9-b8e6-fada6e719fcd
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 7d0b9cee72e8810b4f39bd81bd8f49d0818618c4
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/31/2017
-
-
+ms.openlocfilehash: a60c41d5a35ee60677db3835818ca8b90420c715
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-access-to-email-with-microsoft-intune-example-scenarios"></a>Microsoft Intune을 사용한 메일에 대한 액세스 보호: 예제 시나리오
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -84,4 +81,3 @@ ms.lasthandoff: 05/31/2017
 다음 흐름을 사용하여 Exchange에 액세스할 수 있는 장치를 결정합니다.
 
 ![장치 액세스 흐름](./media/ConditionalAccess8-4.png)
-

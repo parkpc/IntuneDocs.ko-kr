@@ -1,7 +1,7 @@
 ---
 title: "Apple Configurator 및 직접 등록을 사용하여 iOS 장치 등록"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Apple Configurator를 사용하여 직접 등록을 통해 회사 소유 iOS 장치를 등록하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Apple Configurator를 사용하여 직접 등록을 통해 회사 소유 iOS 장치를 등록하는 방법을 알아봅니다.\""
 keywords: 
 author: nathbarn
 ms.author: nathbarn
@@ -15,18 +15,15 @@ ms.assetid: e6c0a430-1851-4108-812a-87e0fc2623b5
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 5347e2023a9ce19f8e8ab960e2eebf8107530220
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: dd856cc3c9d11d1079c6092025200059f0ace437
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enroll-ios-devices-with-apple-configurator-and-direct-enrollment"></a>Apple Configurator 및 직접 등록을 사용하여 iOS 장치 등록 
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)를 사용하여 회사 소유의 iOS 장치를 등록하도록 지원합니다. 이 프로세스는 장치를 초기화하지 않고 미리 정의된 정책을 사용하여 장치를 등록합니다. 이 방법은 **사용자 선호도 없음**이 지정된 장치용이며, iOS 장치를 Mac 컴퓨터에 USB로 연결하여 회사 등록을 설정해야 합니다.
 
@@ -42,7 +39,7 @@ iOS 장치를 등록하는 다른 방법은 [Intune에서 iOS 장치를 등록�
 
 iOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료합니다.
 
-- [도메인 구성](https://docs.microsoft.com/intune-classic/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-2)
+- [도메인 구성](custom-domain-name-configure.md)
 - [MDM 기관 설정](mdm-authority-set.md)
 - [그룹 만들기](https://docs.microsoft.com/intune-classic/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-5)
 - [회사 포털 구성](company-portal-app.md)
@@ -102,4 +99,3 @@ iOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료�
 4. iOS 장치에서 **설정**을 열고 **일반** > **장치 관리** > **관리 프로필**로 이동합니다. 프로필 설치가 나열되는지 확인하고 iOS 정책 제한 및 설치된 앱을 확인합니다. 정책 제한 및 앱이 장치에 표시되는 데 최대 10분 정도 걸릴 수 있습니다.
 
 5. 장치를 배포합니다. 이제 iOS 장치가 Intune에 등록되고 관리됩니다.
-

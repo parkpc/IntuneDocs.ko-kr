@@ -1,5 +1,5 @@
 ---
-title: "Android for Work 앱 구성 정책 | Microsoft 문서"
+title: "Android for Work 앱 구성 정책"
 description: "Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 Android for Work 앱을 실행할 때 필요할 수도 있는 설정을 제공할 수 있습니다."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: fc6b645a-e837-4b2a-a10f-144065cbd8dd
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 69cee5763cb8a24b4a3be6e981bcd46512bfc3ba
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: f2284920852de5a79cf47fee81922a5b069157c3
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="configure-android-for-work-apps-with-mobile-app-configuration-policies-in-microsoft-intune"></a>Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 Android for Work 앱 구성
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -76,4 +73,3 @@ Android for Work 장치에 앱을 배포하는 방법에 대한 자세한 내용
 
 > [!TIP]
 > 앱당 앱 구성 정책을 하나만 사용자에게 배포합니다.
-

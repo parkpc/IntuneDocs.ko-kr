@@ -14,16 +14,12 @@ ms.assetid: 0f3ce07a-b718-42a9-bace-f99a8b8abd94
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 389196cd5c36859589e68ccadd576ceeac1bc279
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="sign-up-or-sign-in-to-intune"></a>Intune에 등록 또는 로그인
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
@@ -50,4 +46,3 @@ Intune에 등록하거나 로그인하려면, 조직에 Microsoft Online Service
 
 >[!TIP]
 > 다음 번에 Intune에 로그인하면 Intune 관리 콘솔로 자동으로 이동됩니다.
-

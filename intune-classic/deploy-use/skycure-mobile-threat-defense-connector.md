@@ -1,5 +1,5 @@
 ---
-title: "Skycure Mobile Threat Defense 커넥터 | Microsoft Docs"
+title: "Skycure Mobile Threat Defense 커넥터"
 description: "Skycure Mobile Threat Defense 커넥터 및 Intune을 사용하여 장치, 네트워크 및 응용 프로그램 위험에 따라 회사 리소스에 대한 액세스를 보호합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 7a004e6c-604a-448c-bfb8-cfda63749f5b
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 15b00957f694863bb10ee32162eb20fc39bcda88
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: d0b401babf356e44479229c3bea27c956926a6f9
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="skycure-mobile-threat-defense-connector"></a>Skycure Mobile Threat Defense
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -119,7 +116,7 @@ Intune은 Skycure와의 통합을 두 가지 모드로 지원합니다.
 
 Skycure와 Intune을 통합하기 위해 완료해야 할 단계는 다음과 같습니다.
 
-1.  [Azure Active Directory Single Sign On을 사용하여 Skycure를 구성 /intune-classic/deploy-use/configure-skycure-to-use-azure-active-directory-single-sign-on)
+1.  [Azure Active Directory SSO(Single Sign-On)를 사용하도록 Skycure 구성](/intune-classic/deploy-use/configure-skycure-to-use-azure-active-directory-single-sign-on)
 
 2.  [Skycure iOS 앱 구성 정책 다운로드](/intune-classic/deploy-use/download-skycure-ios-app-configuration-policy)
 
@@ -132,4 +129,3 @@ Skycure와 Intune을 통합하기 위해 완료해야 할 단계는 다음과 �
 6.  [Intune에서 Skycure Mobile Threat Defense를 사용하도록 설정](/intune-classic/deploy-use/enable-skycure-mobile-threat-defense-in-intune)
 
 7.  [Intune에서 Skycure Mobile Threat Defense 준수 정책 만들기](/intune-classic/deploy-use/create-skycure-mobile-threat-defense-compliance-policy)
-

@@ -14,16 +14,12 @@ ms.assetid: e5ab3b76-08af-4893-b294-fb6627fdc4c6
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 15b56f822557d80d0088467099c5c1232848bf82
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="mobile-device-security-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 모바일 장치 보안 정책 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -217,4 +213,3 @@ Windows RT를 실행하는 장치에 암호 길이 정책을 배포하면 사용
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-

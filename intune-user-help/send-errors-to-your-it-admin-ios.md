@@ -5,28 +5,24 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/16/2017
+ms.date: 05/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: fbc9c2b9-b454-4b33-86cc-650742bbf1e1
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 1e501c1a94a44c677569b8b85be7704844587694
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 12fe4702217ad180a94dcf4d79326dd6840a7839
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-# <a name="send-errors-to-your-it-admin"></a>IT 관리자에게 오류 보내기
+# <a name="send-errors-to-your-it-admin-for-issues-with-your-ios-device"></a>iOS 장치의 문제에 대해 IT 관리자에게 오류 보내기
 
 회사 포털 앱을 사용하는 동안 iOS 장치에 오류가 표시되면 IT 관리자가 문제를 해결하는 데 도움이 되도록 정보를 보낼 수 있습니다. 오류 정보는 다른 방법으로 보낼 수 있습니다.
 
@@ -36,7 +32,4 @@ ms.lasthandoff: 05/23/2017
 
 -   회사 포털 앱에 있는 동안 장치를 흔든 다음, 진단 경고가 표시되면 **진단 보고서 보내기**를 탭합니다. 장치를 흔들어도 이 경고가 나타나지 않으면 **설정** > **회사 포털**을 열고 **흔들기 제스처** 옵션이 켜져 있는지 확인합니다.
 
-이 방법으로 로그를 전송하는 데 문제가 있다면 [메일을 사용하여 IT 관리 로그를 전송](send-logs-to-your-it-admin-by-email-iOS.md)할 수도 있습니다.
-
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

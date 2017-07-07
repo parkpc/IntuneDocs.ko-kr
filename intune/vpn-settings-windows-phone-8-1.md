@@ -1,7 +1,7 @@
 ---
 title: "Windows Phone 8.1 장치에 대한 Intune VPN 설정"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Windows Phone 8.1 장치에서 VPN 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Windows Phone 8.1 장치에서 VPN 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
@@ -15,18 +15,15 @@ ms.assetid: c1a9053f-02a7-4735-bc0d-fe4573b31ed4
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: bd6d6debcf2f62599518aec7b6998ecf29c3dd6a
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: a009a16c7c475864f665f6ad0ab8fe1853c801b4
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="vpn-settings-for-windows-phone-81-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows Phone 8.1 장치에 대한 VPN 설정
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 선택한 설정에 따라 아래 목록의 일부 값을 구성할 수 없습니다.
 
@@ -102,4 +99,3 @@ ms.lasthandoff: 05/23/2017
     - **주소** - 프록시 서버 주소를 IP 주소로 입력합니다.
     - **포트 번호** - 프록시 서버와 연결된 포트 번호를 입력합니다.
 - **로컬 주소에 프록시 사용 안 함** - VPN 서버에 연결을 위한 프록시 서버가 필요한 경우 지정하는 로컬 주소에 대해 프록시 서버를 사용하지 않으려면 이 옵션을 선택합니다. 자세한 내용은 Windows Server 설명서를 참조하세요.
-

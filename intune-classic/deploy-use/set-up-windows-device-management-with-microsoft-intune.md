@@ -13,15 +13,12 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: cf77cb313d5a36c5e7975e70d54bf044aa2d30c8
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="set-up-windows-device-management"></a>Windows 장치 관리 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -73,4 +70,3 @@ CNAME 리소스 레코드에는 다음 정보가 포함되어야 합니다.
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune에서 장치 등록을 위한 필수 구성 요소](prerequisites-for-enrollment.md)
-

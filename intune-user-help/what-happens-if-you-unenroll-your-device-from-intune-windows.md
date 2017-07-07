@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 47e03edb-0c57-4e25-8e89-4a1069267b8c
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 3de9589c46250727b1994381c24c68e6e2b90da2
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="what-happens-if-you-unenroll-your-windows-device-from-intune"></a>Intune에서 Windows 장치 등록을 취소하면 어떻게 되나요?
 
 **이 문서의 내용**에서 이 페이지의 오른쪽에 있는 링크를 사용하여 사용 중인 장치 유형에 대한 정보를 찾을 수 있습니다.
@@ -91,4 +86,3 @@ Windows RT 장치를 제거하면 다음과 같은 상황이 발생합니다.
 -   장치를 추가할 때 장치에서 변경된 모든 설정(예: 카메라 사용 안 함 또는 특정 암호 길이 요구)이 더 이상 적용되지 않습니다.
 
 의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

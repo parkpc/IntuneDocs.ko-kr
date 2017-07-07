@@ -1,5 +1,5 @@
 ---
-title: "Dynamics CRM Online 보호 | Microsoft 문서"
+title: "Dynamics CRM Online 보호"
 description: "조건부 액세스로 Dynamics CRM Online을 보호하고 액세스를 제어합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 6740e6f5894f6dfd7788d90cc8f445e0a63821a9
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: da92d75cfafa2a605ed8606ba7c8f3ec18dc6063
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-access-to-dynamics-crm-online-with-intune"></a>Intune을 사용하여 Dynamics CRM Online에 대한 액세스 보호
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -84,8 +81,8 @@ Dynamics CRM 정책에 사용할 두 가지 그룹 유형을 지정할 수 있�
   * **iOS**
   * **OWA(Outlook Web Access)**
 4.  **대상 그룹**에서 **수정**을 선택하여 정책을 적용할 Azure Active Directory 보안 그룹을 선택합니다. 모든 사용자 또는 선택한 사용자 그룹을 대상으로 지정할 수 있습니다.
-5.    **제외된 그룹**에서 필요에 따라 **수정**을 선택하여 이 정책에서 제외된 Azure Active Directory 보안 그룹을 선택합니다.
-6.    작업이 끝나면 **저장**을 선택합니다.
+5.  **제외된 그룹**에서 필요에 따라 **수정**을 선택하여 이 정책에서 제외된 Azure Active Directory 보안 그룹을 선택합니다.
+6.  작업이 끝나면 **저장**을 선택합니다.
 
 이제 Dynamics CRM에 대한 조건부 액세스가 구성되었습니다. 조건부 액세스 정책을 배포할 필요는 없으며, 즉시 적용됩니다.
 ##  <a name="monitor-the-compliance-and-conditional-access-policies"></a>준수 및 조건부 액세스 정책 모니터링
@@ -104,4 +101,3 @@ Dynamics CRM 정책에 사용할 두 가지 그룹 유형을 지정할 수 있�
 * [SharePoint Online에 대한 액세스 보호](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 
 * [비즈니스용 Skype Online에 대한 액세스 보호](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
-

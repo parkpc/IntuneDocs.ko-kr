@@ -1,5 +1,5 @@
 ---
-title: "MAM 정책의 필수 조건 | Microsoft 문서"
+title: "MAM 정책의 필수 조건"
 description: "이 항목에서는 모바일 앱 관리 정책을 만들기 전에 사용자를 설정하기 위한 필수 구성 요소에 대해 설명합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 3c209a350a7de7ba7ddb71468c5cd4230dcf5423
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 67c261a3a31229f84d02d4536ab78857369391f1
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="get-ready-to-configure-app-protection-policies-in-the-azure-portal"></a>Azure Portal에서 앱 보호 정책 구성 준비
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -70,7 +67,7 @@ Intune 관리 콘솔에서 앱 정책을 만드는 방법에 대한 자세한 �
 
 * **조직의 LOB(기간 업무) 앱:** 앱 보호 정책을 적용하려면 먼저 Intune 앱 SDK를 포함하도록 이러한 앱을 준비해야 합니다.
 
-  * Intune에서 관리하는 장치의 경우 [Decide how to prepare apps for MAM](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)(MAM용 앱을 준비하는 방법 결정) 항목을 참조하세요.
+  * Intune에서 관리하는 장치의 경우 [Decide how to prepare apps for MAM](/intune/apps-prepare-mobile-application-management)(MAM용 앱을 준비하는 방법 결정) 항목을 참조하세요.
 
   * 직원 소유 장치와 같이 관리되지 않는 장치 또는 다른 모바일 장치 관리 솔루션으로 관리되는 장치의 경우 [Intune에 등록되지 않은 장치의 LOB(기간 업무) 앱 및 데이터 보호](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)를 참조하세요.
 
@@ -109,4 +106,3 @@ Intune 관리 콘솔에서 앱 정책을 만드는 방법에 대한 자세한 �
 
 ## <a name="next-steps"></a>다음 단계
 [Microsoft Intune으로 앱 보호 정책 만들기 및 배포](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
-

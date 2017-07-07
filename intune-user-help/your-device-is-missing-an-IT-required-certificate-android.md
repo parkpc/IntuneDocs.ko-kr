@@ -11,20 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: f0ba4cbb-ef0a-4335-86bf-f1d006867fa2
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: b1f4176704ba25f5e4ff1b1572a6f1e5ce0f620b
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="your-android-device-is-missing-a-certificate-required-by-your-it-admin"></a>사용 중인 Android 장치에 IT 관리자에게 필요한 인증서가 없습니다.
 
 장치가 Intune에 등록되어 있지 않고 IT 관리자에게 필요한 특정 인증서가 없는 경우 회사 포털 앱에 로그인할 수 없습니다. 로그인하려고 시도하면 다음과 같은 메시지가 표시됩니다.
@@ -73,4 +70,3 @@ ms.lasthandoff: 05/23/2017
 7. 회사 포털 앱을 다시 엽니다. 이제 회사 포털 앱에 로그인할 수 있습니다. 도움이 필요하면 IT 관리자에게 문의하세요.
 
 앞서 표시된 것과 동일한 "인증서 없음" 메시지가 표시되고 해당 절차를 이미 진행했으면 IT 관리자가 설치에 도움을 주어야 하는 다른 인증서가 아직 있는 것일 수 있습니다. IT 관리자에게 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 제공되는 연락처 정보를 사용하는 방법을 문의하세요.
-

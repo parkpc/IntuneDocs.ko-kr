@@ -1,5 +1,5 @@
 ---
-title: "MAM 정책을 사용하여 앱 데이터 보호 | Microsoft 문서"
+title: "MAM 정책을 사용하여 앱 데이터 보호"
 description: "이 항목에서는 모바일 응용 프로그램 관리 정책이 회사 데이터를 보호하고, 데이터 손실을 방지하고, 개인 및 회사 정보를 별도로 유지되도록 하는 방법을 설명합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 9959e9f757e83c7aa4274b7e7b9df949fff022cc
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/31/2017
-
-
+ms.openlocfilehash: 40a6badf072c254f635a2656189d626e4f13a320
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-app-data-using-app-protection-policies-with-microsoft-intune"></a>Microsoft Intune에서 앱 보호 정책을 사용하여 앱 데이터 보호
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -38,8 +35,8 @@ Intune 앱 보호 정책을 사용하여 회사 데이터를 보호할 수 있�
 
 -   **타사 MDM 솔루션에 등록:** 이 범주의 장치는 일반적으로 회사에서 소유한 장치입니다.
 
-      > [!NOTE]
-      > 앱 보호 정책을 타사 모바일 응용 프로그램 관리 또는 보안 컨테이너 솔루션과 함께 사용하지 않는 것이 좋습니다.
+    > [!NOTE]
+    > 앱 보호 정책을 타사 모바일 응용 프로그램 관리 또는 보안 컨테이너 솔루션과 함께 사용하지 않는 것이 좋습니다.
 
 -   **MDM 솔루션에 등록되지 않음:** 이 범주의 장치는 일반적으로 직원이 소유한 장치로 Intune 또는 기타 MDM 솔루션에서 관리 또는 등록되지 않습니다.
 
@@ -135,4 +132,3 @@ MDM 솔루션에 등록되지 않은 BYOD 장치의 경우 앱 보호 정책을 
 - [앱 보호 정책 구성 준비](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 
 - [Microsoft Intune으로 앱 보호 정책 만들기 및 배포](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
-

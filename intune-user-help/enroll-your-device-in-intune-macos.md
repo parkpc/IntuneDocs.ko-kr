@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 58eb0e7a-1321-4c66-a281-88fb01e72c1c
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 16f7f06d02a56b4887c0d29ffcaed111185652a9
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enroll-your-macos-device-in-intune"></a>Intune에서 macOS 장치 등록
 
 조직의 앱, 데이터 및 리소스에 액세스할 수 있으면 업무를 수행할 수 있습니다. 회사에서 macOS 장치를 사용하는 경우에는 이를 위해 __관리 프로필__을 설치해야 합니다. 관리 프로필은 설정 및 액세스 정보를 Mac으로 로드하는 파일로 IT 관리자가 설정합니다. 자세히 알고 싶으세요? [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되는지](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md) 알아보세요.
@@ -70,4 +66,3 @@ ms.lasthandoff: 05/23/2017
  ![macOS 프로필 설치됨](./media/macOS_enroll_007_sysprefs_installed_profile.png)
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에서 찾을 수 있습니다.
-

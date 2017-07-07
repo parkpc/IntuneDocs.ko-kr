@@ -1,5 +1,5 @@
 ---
-title: "장치에서 iOS 활성화 잠금 관리 | Microsoft 문서"
+title: "장치에서 iOS 활성화 잠금 관리"
 description: "Microsoft Intune에서는 iOS 7.1 이상 장치용 나의 iPhone 찾기(Find My iPhone) 앱의 기능인 iOS 활성화 잠금을 관리할 수 있습니다."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: bb49e926-15c4-4f01-b6eb-cee6f7ee1984
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 22ccccefae44190ffb2d65bdf475eaef1f9b8bd2
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 3695e4c047edd9b788768db36184460f0e27d3bc
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune"></a>Microsoft Intune의 활성화 잠금 무시를 사용하여 iOS 장치 보호
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -106,4 +103,3 @@ Intune에서는 iOS 8.0 이상을 실행하는 감독된 장치의 활성화 잠
 ### <a name="see-also"></a>참고 항목
 [장치 사용 중지](retire-devices-from-microsoft-intune-management.md)
 [원격 잠금 또는 암호 재설정으로 장치 보호 지원](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
-

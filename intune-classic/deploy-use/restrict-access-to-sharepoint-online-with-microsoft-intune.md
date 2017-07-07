@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Online 보호 | Microsoft 문서"
+title: "SharePoint Online 보호"
 description: "조건부 액세스를 사용하여 SharePoint Online의 회사 데이터를 보호하고 해당 데이터에 대한 액세스를 제어하는 방법을 설명합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 4a8b3f5a3ab5df9f31741e3331d2b6bbfd2c0c9f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/31/2017
-
-
+ms.openlocfilehash: e22686964df7415ece75361a645103006af43c51
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-access-to-sharepoint-online-with-microsoft-intune"></a>Microsoft Intune을 사용하여 SharePoint Online에 대한 액세스 보호
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -146,7 +143,7 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
         이 경우 **SharePoint Online**에 액세스하는 데 사용되는 모든 장치가 Intune에 등록되고 정책을 준수해야 합니다. **최신 인증**을 사용하는 모든 클라이언트 응용 프로그램에는 조건부 액세스 정책이 적용됩니다. 플랫폼이 현재 Intune에서 지원되지 않는 경우 **SharePoint Online**에 대한 액세스는 차단됩니다.
 
         **모든 플랫폼** 옵션을 선택하면 클라이언트 응용 프로그램에서 보고하는 플랫폼에 관계없이, Azure Active Directory가 모든 인증 요청에 이 정책을 적용합니다. 다음을 제외한 모든 플랫폼은 등록되어 있어야 하며 정책을 준수해야 합니다.
-        *    Windows 장치: 등록되어 있고 정책을 준수해야 하거나, 온-프레미스 Active Directory를 통해 도메인에 가입되어 있거나, 두 조건을 모두 충족해야 합니다.
+        *   Windows 장치: 등록되어 있고 정책을 준수해야 하거나, 온-프레미스 Active Directory를 통해 도메인에 가입되어 있거나, 두 조건을 모두 충족해야 합니다.
         * 지원되지 않는 플랫폼(예: Mac). 그러나 이러한 플랫폼에서 제공하는 최신 인증을 사용하는 앱은 계속 차단됩니다.
 
     -   **특정 플랫폼**
@@ -197,4 +194,3 @@ SharePoint Online 정책에 두 그룹 유형을 지정할 수 있습니다.
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune을 사용한 메일 및 O365 서비스 액세스 보호](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
-

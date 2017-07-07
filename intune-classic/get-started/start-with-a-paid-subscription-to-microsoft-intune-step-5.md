@@ -1,5 +1,5 @@
 ---
-title: "사용자 및 장치를 구성하는 그룹 만들기 | Microsoft 문서"
+title: "사용자 및 장치를 구성하는 그룹 만들기"
 description: "Intune 구독에 대한 사용자 및 그룹 만들기"
 keywords: 
 author: nathbarn
@@ -14,16 +14,12 @@ ms.assetid: 5fdf98c8-fe67-4d7a-9837-ed1234348014
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 058006b2356d62c77c3a5a6ee0f4c8ed74ed4a50
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: a6e9eb087b730c66bcf32f877fd22f2d3be0c121
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="create-groups-to-organize-users-and-devices"></a>사용자 및 장치를 구성하는 그룹 만들기
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -87,6 +83,4 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 새로 만든 그룹은 **그룹** 작업 영역의 **모든 사용자** 아래에 있는 **그룹** 목록에서 찾아볼 수 있습니다. 여기에서 그룹을 편집하거나 삭제할 수도 있습니다.
 
 >[!div class="step-by-step"]
-
->[&larr;**Intune 라이선스 관리**](.\start-with-a-paid-subscription-to-microsoft-intune-step-4.md)       [**정책 및 앱 만들기** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md)  
-
+/intune/licenses-assign [&larr; **Intune 라이선스 관리**](/intune/licenses-assign)       [**정책 및 앱 만들기** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md)  

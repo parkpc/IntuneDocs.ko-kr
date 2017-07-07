@@ -1,7 +1,7 @@
 ---
 title: "사용자 관리 워크로드란?"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Microsoft Intune 및 Azure를 사용하여 사용자를 보고 관리하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Microsoft Intune 및 Azure를 사용하여 사용자를 보고 관리하는 방법을 알아봅니다.\""
 keywords: 
 author: nathbarn
 ms.author: nathbarn
@@ -14,19 +14,16 @@ ms.technology:
 ms.assetid: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 29c8f436d611e590ef1304d221e27da0ceef2450
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 1cbdb92928411ff56e6740e83e081ee966fb7af8
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="what-is-user-management"></a>사용자 관리란?
 
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Azure Portal에서 Intune을 처음 사용하는 경우 더 이상 Intune의 그룹을 만들지 않는다는 점을 기억해야 합니다. Intune에서는 사용 중인 다른 여러 응용 프로그램과 마찬가지로 Azure AD 그룹을 사용합니다.
 
@@ -45,4 +42,3 @@ Azure AD의 그룹을 사용하는 방법을 알아보려면 [Azure Active Direc
 ## <a name="next-step"></a>다음 단계
 
 [그룹 시작](groups-get-started.md)
-

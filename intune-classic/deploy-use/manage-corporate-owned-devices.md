@@ -14,15 +14,12 @@ ms.assetid: 2b60bbff-25e6-489b-9621-c71b4275fa06
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 8dae789ad1996543ddf9b92d031ac995beff6a46
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enroll-corporate-owned-devices-by-using-intune"></a>Intune을 사용하여 회사 소유 장치 등록
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -67,4 +64,3 @@ Intune은 다음 조건 중 하나가 충족되면 장치를 "회사"로 인식�
  - 장치가 [Azure Active Directory 또는 Enterprise Mobility Suite에 Windows 10 Enterprise 장치](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview)로 등록되어 있습니다(Windows 10만 해당).
 
 장치가 회사로 태그 지정되면 관리자 콘솔의 해당 장치 레코드에서 **소유권** 열에 **회사**로 표시됩니다. 
-

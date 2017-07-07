@@ -11,31 +11,26 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 10e6bda2001b5dfeb380e9a553aa0fe5a060746b
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="unenroll-your-windows-device-from-intune"></a>Intune에서 Windows 장치 등록 취소
 
 Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows 장치를 사용하지 않으며, 회사나 학교 메일, 앱 또는 기타 리소스에 액세스할 필요가 없는 경우 장치 등록을 취소해야 합니다. Intune에서 장치 등록을 취소하면 이러한 리소스에 더 이상 액세스할 수 없습니다. 장치의 등록을 취소할 때 발생하는 상황에 대한 자세한 내용은 [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-windows.md)를 참조하세요.
 
 장치의 등록을 취소하려면 위의 "이 문서의 내용" 섹션에 표시된 링크 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
 
--    [Windows 10 장치 등록 취소](#unenroll-your-windows-10-device)
--    [Windows 8.1 컴퓨터 등록 취소](#unenroll-your-windows-81-computer)
--    [Windows Phone 8.1 장치 등록 취소](#unenroll-your-windows-phone-81-device)
+-   [Windows 10 장치 등록 취소](#unenroll-your-windows-10-device)
+-   [Windows 8.1 컴퓨터 등록 취소](#unenroll-your-windows-81-computer)
+-   [Windows Phone 8.1 장치 등록 취소](#unenroll-your-windows-phone-81-device)
 
 ## <a name="unenroll-your-windows-10-device"></a>Windows 10 장치 등록 취소
 
@@ -68,4 +63,3 @@ Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows �
 4.  **계정 삭제** 대화 상자에서 **삭제**를 탭합니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

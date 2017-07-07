@@ -1,5 +1,5 @@
 ---
-title: "Intune에서 Lookout MTP 사용 | Microsoft 문서"
+title: "Intune에서 Lookout MTP 사용"
 description: "Intune 관리 콘솔에서 Lookout Mobile Threat Protection을 사용하도록 설정합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 2f835fd0-4e62-42f3-b7ca-ce8b7ddd40e4
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 2a99839ece16c56c7bfaacb295796525903f9464
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: aad5b158e1217155c3e3ec671654ee6e81054675
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enable-lookout-mtd-connection-in-the-intune-classic-console"></a>Intune 클래식 콘솔에서 Lookout MTD 연결 사용
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -41,4 +38,3 @@ Intune 관리자 콘솔에서 Lookout 및 Intune 통합 설정이 완료되었�
 
 ## <a name="next-steps"></a>다음 단계
 [Lookout for Work 앱 구성](/intune-classic/deploy-use/device-threat-protection-apps)
-

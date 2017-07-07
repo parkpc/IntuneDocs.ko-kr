@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 3d648819-b866-412b-bd19-ac4505eb5eaf
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 5de619d98ab78384e42c8a3a2264ce4deebc2602
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="using-your-ios-or-macos-device-with-intune"></a>Intune에서 iOS 또는 macOS 장치 사용
 
 편리한 업무를 위해 Intune에서 다양한 작업을 수행할 수 있습니다. 다음은 회사에서 요청될 수 있는 가장 일반적인 작업 목록입니다.
@@ -52,4 +48,3 @@ Intune은 현재 iOS 8.0 이상을 지원합니다. 또한 macOS 10.9 Mavericks 
 - [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-ios.md)
 - [회사 포털을 사용하여 장치를 재설정하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-ios.md)
 - [수동으로 장치 동기화](sync-your-device-manually-ios.md)
-

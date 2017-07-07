@@ -14,15 +14,12 @@ ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: b900cb2c2c02ca96a771dbebd208872941079e38
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="microsoft-intune-app-sdk-xamarin-component"></a>Microsoft Intune 앱 SDK Xamarin 구성 요소
 
 > [!NOTE]
@@ -125,4 +122,3 @@ Xamarin Forms 및 기타 UI 프레임워크의 경우에는 `MAM.Remapper`라는
 ## <a name="test-your-app"></a>앱 테스트
 
 앱에 구성 요소를 빌드하기 위한 기본 단계를 완료했습니다. 이제 Xamarin.android 샘플 앱에 포함된 단계를 수행할 수 있습니다. Xamarin.Forms의 샘플과 Android의 샘플이 제공되어 있습니다.
-

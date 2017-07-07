@@ -14,15 +14,12 @@ ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 1d61432eafef67ca997d4e03d305e1c068ac5fd6
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Microsoft Intune 앱 SDK 시작
 
 이 가이드에서는 Microsoft Intune을 통해 모바일 앱을 앱 보호 정책에 사용할 수 있도록 빠르게 설정하는 방법을 안내합니다. 먼저 [Intune 앱 SDK 개요](app-sdk.md) 항목에 설명되어 있는 Intune 앱 SDK의 이점을 이해하는 것이 좋습니다.
@@ -139,4 +136,3 @@ Intune 앱 보호 정책이 앱에서 작동하는지 확인한 후 Intune 앱 �
 * **.eps** 파일을 읽을 수 있는 이미지 조작 응용 프로그램 또는 **.ai** 파일을 읽을 수 있는 Adobe 응용 프로그램
 
 * Microsoft Intune GitHub에서 [Intune 앱 배지 자산 및 지침](https://github.com/msintuneappsdk/intune-app-partner-badge)을 찾을 수 있습니다.
-

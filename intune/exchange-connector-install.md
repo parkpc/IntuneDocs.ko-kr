@@ -1,12 +1,12 @@
 ---
-title: "온-프레미스 EAS용 Exchange Connector"
+title: "Intune을 사용하여 온-프레미스 EAS용 Exchange Connector 설정"
 titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Exchange ActiveSync MDM - Connector 도구를 사용하여 Intune 관리 콘솔과 온-프레미스 Exchange Server 간 통신을 설정합니다."
+description: "Intune Azure 미리 보기: Exchange ActiveSync MDM - Connector 도구를 사용하여 Intune 및 온-프레미스 Exchange Server 간 통신을 설정합니다."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,21 +15,24 @@ ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 317b88e289fce216916dfa4ec3890ba7c9559c16
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 9f4a310078a30f7dfefe66a9aba60cc74ad4e29b
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
+# <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure-preview"></a>Microsoft Intune Azure 미리 보기에서 Intune 온-프레미스 Exchange Connector 설정
 
-# <a name="install-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure-preview"></a>Microsoft Intune Azure 미리 보기에서 Intune 온-프레미스 Exchange Connector 설치
+온-프레미스 Exchange Server 환경에서는 Intune 온-프레미스 Exchange Connector를 사용하여 장치가 Intune에 등록되어 있으며 Intune 장치 준수 정책을 준수하는지 여부에 따라 온-프레미스 Exchange 사서함에 대한 장치 액세스를 관리할 수 있습니다. 또한 온-프레미스 Exchange Connector는 기존 EAS(Exchange Active Sync) 레코드를 Intune과 동기화하여 온-프레미스 Exchange Server에 연결하는 모바일 장치를 검색합니다.
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+> [!IMPORTANT]
+> Intune은 온-프레미스 Exchange Connector 연결을 형식에 상관없이 구독당 한 번만 지원합니다.
 
+Microsoft Intune이 온-프레미스 Exchange Server와 통신할 수 있도록 하는 연결을 설정하려면 아래 단계를 수행해야 합니다.
 
-Microsoft Intune을 사용하여 모바일 장치의 사서함을 호스트하는 Exchange Server와 통신하도록 연결을 설정하려면 Intune 관리 콘솔에서 온-프레미스 Exchange Connector를 다운로드하여 구성해야 합니다. Intune은 Exchange Connector 연결 형식에 상관없이 구독당 연결을 한 번만 지원합니다.
+1.  Intune 포털에서 Intune 온-프레미스 Exchange Connector를 다운로드합니다.
+2.  Intune 온-프레미스 Exchange Connector를 설치 및 구성합니다.
+3.  Exchange 연결 유효성을 검사합니다.
 
 ## <a name="on-premises-exchange-connector-requirements"></a>온-프레미스 Exchange Connector 요구 사항
 다음 표에는 온-프레미스 Exchange Connector를 설치하는 컴퓨터의 요구 사항이 정리되어 있습니다.
@@ -39,8 +42,8 @@ Microsoft Intune을 사용하여 모바일 장치의 사서함을 호스트하�
 |운영 체제|Intune은 Windows Server 2008 SP2 64비트, Windows Server 2008 R2, Windows Server 2012 또는 Windows Server 2012 R2의 모든 버전을 실행하는 컴퓨터에서 온-프레미스 Exchange Connector를 지원합니다.<br /><br />이 Connector는 Server Core 설치에서 지원되지 않습니다.|
 |Microsoft Exchange|온-프레미스 Connector를 사용하려면 Microsoft Exchange 2010 SP1 이상 또는 레거시 Exchange Online Dedicated가 필요합니다. Exchange Online Dedicated 환경이 **신규**인지 아니면 **레거시** 구성 상태인지 확인하려면 계정 관리자에게 문의하세요.|
 |모바일 장치 관리 기관| [Intune으로 모바일 장치 관리 기관 설정](https://docs.microsoft.com/intune-classic/deploy-use/prerequisites-for-enrollment#step-2-mdm-authority-set).|
-|하드웨어|커넥터를 설치하는 컴퓨터에는 1.6GHz CPU, 2GB RAM 및 10GB의 사용 가능한 디스크 공간이 필요합니다.|
-|Active Directory 동기화|Connector를 사용하여 Exchange Server에 Intune을 연결하려면 먼저 로컬 사용자 및 보안 그룹이 Azure Active Directory의 인스턴스와 동기화되도록 [Active Directory 동기화를 설정](/intune-classic/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3)해야 합니다.|
+|하드웨어|커넥터를 설치하는 컴퓨터에는 1.6GHz CPU, 2GB RAM 및 10GB의 사용 가능한 디스크 공간이 필요합니다.|users-permissions-add.md
+|Active Directory 동기화|Connector를 사용하여 Exchange Server에 Intune을 연결하려면 먼저 로컬 사용자 및 보안 그룹이 Azure Active Directory의 인스턴스와 동기화되도록 [Active Directory 동기화를 설정](users-permissions-add.md)해야 합니다.|
 |추가 소프트웨어|커넥터를 호스트하는 컴퓨터에 Microsoft .NET Framework 4.5 및 Windows PowerShell 2.0 전체 설치를 설치해야 합니다.|
 |네트워크|커넥터를 설치하는 컴퓨터는 Exchange 서버를 호스트하는 도메인과 트러스트 관계에 있는 도메인에 있어야 합니다.<br /><br />이 컴퓨터에서는 포트 80 및 443을 사용하여 방화벽 및 프록시 서버를 통해 Intune 서비스에 액세스할 수 있도록 구성해야 합니다. Intune에서 사용되는 도메인은 manage.microsoft.com, &#42;manage.microsoft.com, &#42;.manage.microsoft.com 등입니다.|
 
@@ -65,17 +68,18 @@ Intune Exchange Connector에서 사용되는 Active Directory 사용자 계정�
 
 ## <a name="download-the-on-premises-exchange-connector-software-installation-package"></a>온-프레미스 Exchange Connector 소프트웨어 설치 패키지 다운로드
 
-1. 온-프레미스 Exchange Connector에 대해 지원되는 Windows Server 운영 체제에서 Exchange Server를 사용할 라이선스를 보유하고 Exchange 테넌트의 관리자인 사용자 계정으로 [Azure Portal](http://portal.azure.com)을 엽니다.
+1. 온-프레미스 Exchange Connector에 대해 지원되는 Windows Server 운영 체제에서 [Azure Portal](http://portal.azure.com)을 열고 Exchange Server 사용을 위한 라이선스가 있으며 온-프레미스 Exchange Server의 관리자인 사용자 계정으로 로그인합니다.
 
-2.  **조건부 액세스** 워크로드를 선택합니다.
-3.  Azure Portal에서 **조건부 액세스** 워크로드를 선택하여 **온-프레미스** 블레이드를 엽니다.
+2. 왼쪽 메뉴에서 **More services**(추가 서비스)를 선택한 다음 텍스트 상자 필터에 **Intune**을 입력합니다.
 
-4. **설치** 섹션에서 **Exchange ActiveSync 온-프레미스 커넥터**를 선택한 다음 **온-프레미스 커넥터 다운로드**를 선택합니다.
+3. **Intune**을 선택하면 열리는 Intune 대시보드에서 **온-프레미스 액세스**를 선택합니다.
 
-4.  온-프레미스 Exchange Connector는 열거나 저장할 수 있는 압축(.zip) 폴더에 포함되어 있습니다. **파일 다운로드** 대화 상자에서 **저장**을 선택하여 이 압축(ZIP) 폴더를 안전한 위치에 저장합니다.
+4. **온-프레미스 액세스 - Exchange ActiveSync Connector** 블레이드의 **설치** 섹션에서 **온-프레미스 커넥터 다운로드**를 선택합니다.
 
-> [!IMPORTANT]
-> 온-프레미스 Exchange Connector 폴더 내의 파일의 이름을 변경하거나 이동하지 마세요. 폴더의 내용을 이동하거나 이름을 바꾸면 설치에 실패합니다.
+5.  온-프레미스 Exchange Connector는 열거나 저장할 수 있는 압축(.zip) 폴더에 포함되어 있습니다. **파일 다운로드** 대화 상자에서 **저장**을 선택하여 이 압축(ZIP) 폴더를 안전한 위치에 저장합니다.
+
+    > [!IMPORTANT]
+    > 온-프레미스 Exchange Connector 폴더 내의 파일을 이동하거나 이름을 바꾸지 마세요. 폴더의 내용을 이동하거나 이름을 바꾸면 Exchange Connector 설치가 실패합니다.
 
 ## <a name="install-and-configure-the-intune-on-premises-exchange-connector"></a>Intune 온-프레미스 Exchange Connector 설치 및 구성
 Intune 온-프레미스 Exchange Connector를 설치하려면 다음 단계를 수행합니다. 온-프레미스 Exchange Connector는 단 한 컴퓨터에 Intune 구독당 하나만 설치할 수 있습니다. 추가 온-프레미스 Exchange Connector를 구성하면 새 연결이 원래 연결로 바뀝니다.
@@ -120,7 +124,8 @@ Intune 온-프레미스 Exchange Connector를 설치하려면 다음 단계를 �
 
     8. **연결**을 선택합니다.
 
-연결을 구성하는 데 몇 분 정도 걸릴 수 있습니다.
+    > [!NOTE]
+    > 연결을 구성하는 데 몇 분 정도 걸릴 수 있습니다.
 
 구성하는 동안 인터넷 액세스를 사용할 수 있도록 Exchange Connector에 프록시 설정이 저장됩니다. 프록시 설정을 변경하는 경우 업데이트된 프록시 설정이 Exchange Connector에 적용되도록 Exchange Connector를 다시 구성해야 합니다.
 
@@ -131,10 +136,11 @@ Exchange Connector의 연결을 설정하면 Exchange Connector에서 관리되�
 
 ## <a name="validate-the-exchange-connection"></a>Exchange 연결 유효성 검사
 
-Exchange Connector를 성공적으로 구성한 후 연결 상태 및 마지막으로 성공한 동기화 시도를 볼 수 있습니다. [Azure Portal](http://portal.azure.com)에서 **Intune** > **조건부 액세스** 워크로드를 선택합니다. **설치** 아래에서 **Exchange 온-프레미스 커넥터**를 선택하고 연결이 활성 상태로 표시되는지 확인합니다.
+Exchange Connector를 성공적으로 구성한 후 연결 상태 및 마지막으로 성공한 동기화 시도를 볼 수 있습니다. Exchange Connector 연결의 유효성을 검사하려면:
+
+- Intune 대시보드에서 **온-프레미스 액세스**를 선택합니다. **관리** 아래에서 **Exchange 온-프레미스 액세스**를 선택하여 연결 상태를 확인합니다.
 
 마지막으로 성공한 동기화 시도의 시간과 날짜를 확인할 수도 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Exchange 온-프레미스에 대해 조건부 액세스 정책 만들기](conditional-access-exchange-create.md)
-

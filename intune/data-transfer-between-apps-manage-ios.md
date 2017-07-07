@@ -1,12 +1,12 @@
 ---
-title: "iOS 앱 간의 데이터 전송 관리 | Intune Azure 미리 보기"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 이 항목을 사용하여 iOS의 다음에서 열기 기능과 모바일 앱 관리 정책을 사용하여 앱 간의 데이터 전송을 관리하는 방법을 파악할 수 있습니다."
+title: "iOS 앱 간의 데이터 전송 관리"
+titleSuffix: Intune on Azure
+description: "이 항목의 정보를 참조하면 iOS의 다음에서 열기 기능과 모바일 앱 관리 정책을 사용하여 앱 간의 데이터 전송을 관리하는 방법을 파악할 수 있습니다.\""
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 05/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,12 @@ ms.assetid: d10b2d64-8c72-4e9b-bd06-ab9d9486ba5e
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 44747236ba1bda84ccb01f613e1702c536720a2c
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: e3c588d2237f48501d78af364760acf1ef290639
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-manage-data-transfer-between-ios-apps"></a>iOS 앱 간의 데이터 전송을 관리하는 방법
 ## <a name="manage-ios-apps"></a>IOS 앱 관리
 회사 데이터 보호는 파일 전송이 관리하는 앱으로만 제한되도록 하는 작업을 포함합니다.  다음과 같은 방법으로 iOS 앱을 관리할 수 있습니다.
@@ -36,7 +33,7 @@ iOS 장치의 **관리에서 열기** 기능은 **MDM 채널**을 통해 장치�
 ##  <a name="using-app-protection-with-ios-apps"></a>iOS 앱에서 앱 보호 사용
 앱 보호 정책을 **관리에서 열기** 기능과 함께 사용하여 회사 데이터를 다음과 같은 방법으로 보호할 수 있습니다.
 
--   **직원 소유 장치는 MDM 솔루션에서 관리되지 않음:** 앱 보호 정책 설정을 **앱에서 관리되는 앱으로만 데이터 전송 허용**으로 설정할 수 있습니다. 최종 사용자는 정책-관리되지 않은 앱에서 보호된 파일을 열 수 없습니다.
+-   **직원 소유 장치는 MDM 솔루션에서 관리되지 않음:** 앱 보호 정책 설정을 **앱이 데이터를 전송하도록 허용: 정책 관리된 앱**으로 설정할 수 있습니다. 정책 관리된 앱의 다음에서 열기 동작에서는 다른 정책 관리된 앱만 공유 옵션으로 표시됩니다. 사용자가 정책으로 보호된 파일을 기본 메일에서 OneDrive의 첨부 파일로 보내려고 하는 경우 해당 파일을 읽을 수 없습니다.
 
 -   **Intune에서 관리되는 장치:** Intune에 등록된 장치의 경우 앱 보호 정책이 있는 앱과 Intune을 통해 배포된 다른 관리되는 iOS 앱 간의 데이터 전송은 자동으로 허용됩니다. 앱 보호 정책이 있는 앱 간에 데이터 전송을 허용하려면 **앱에서 관리되는 앱으로만 데이터 전송 허용** 설정을 사용하도록 설정합니다. **관리에서 열기** 기능을 사용하여 Intune을 통해 배포된 앱 간의 데이터 전송을 제어할 수 있습니다.   
 
@@ -108,4 +105,3 @@ iOS 장치의 **관리에서 열기** 기능은 **MDM 채널**을 통해 장치�
 
 ### <a name="see-also"></a>참고 항목
 [Intune 앱 보호 정책이란?](app-protection-policy.md)
-

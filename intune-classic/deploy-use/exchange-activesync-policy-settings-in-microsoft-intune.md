@@ -14,15 +14,12 @@ ms.assetid: e9cbb826-b155-4df6-abf3-60c6f05b2783
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 6bbb0cd7ca87a3c6cc352cbdd6dd2b61a9c5e36c
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="exchange-activesync-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 Exchange ActiveSync 정책 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -84,4 +81,3 @@ Microsoft Intune **Exchange ActiveSync** 정책을 사용하여 Exchange ActiveS
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-

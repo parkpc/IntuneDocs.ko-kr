@@ -1,5 +1,5 @@
 ---
-title: "iOS 모바일 앱 구성 정책 사용 | Microsoft 문서"
+title: "iOS 모바일 앱 구성 정책 사용"
 description: "Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 iOS 앱을 실행할 때 필요할 수도 있는 설정을 제공할 수 있습니다."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: fc6b645a-e837-4b2a-a10f-144065cbd8dd
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 48f31fa1a883abc2bba372c3aaffb1f998d33c00
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 2f13baeec9e0a38ac27ae42d1bc766cf22d73634
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune"></a>Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -143,4 +140,3 @@ Intune에서는 속성 목록의 다음 데이터 형식을 지원합니다.
 </dict>
 
 ```
-

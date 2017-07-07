@@ -1,5 +1,5 @@
 ---
-title: "Exchange Online용 Exchange Connector | Microsoft 문서"
+title: "Exchange Online용 Exchange Connector"
 description: "Intune을 Office 365 Exchange 서비스에 연결하여 Exchange ActiveSync MDM(모바일 장치 관리)을 지원합니다."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 05fa5dc9-9bad-4557-987a-9b8ce4edebb0
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 4b73767f585cfa6283c7fb0601e7061efe42c606
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: c2f30e7827db280ba49fc49b6b7a00c9a8d9eade
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="configure-the-intune-service-to-service-connector-for-exchange-online"></a>Exchange Online용 Intune Service to Service Connector 구성
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -36,8 +33,8 @@ ms.lasthandoff: 05/23/2017
 |---------------|--------------------|
 |Exchange Online 구성 및 실행|[Exchange Online](https://technet.microsoft.com/library/jj200580.aspx) |
 |모바일 장치 관리 기관| [Microsoft Intune으로 모바일 장치 관리 기관 설정](prerequisites-for-enrollment.md#step-2-set-mdm-authority)|
-|Microsoft Exchange 버전|Exchange Online 또는 신규 Exchange Online Dedicated 서비스|
-|Active Directory 동기화|Intune Connector를 사용하려면 로컬 사용자 및 보안 그룹이 Azure Active Directory의 인스턴스와 동기화되도록 [Active Directory 동기화를 설정](/intune-classic/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3)해야 합니다.|
+|Microsoft Exchange 버전|Exchange Online 또는 신규 Exchange Online Dedicated 서비스|/intune/users-permissions-add
+|Active Directory 동기화|Intune Connector를 사용하려면 로컬 사용자 및 보안 그룹이 Azure Active Directory의 인스턴스와 동기화되도록 [Active Directory 동기화를 설정](/intune/users-permissions-add)해야 합니다.|
 
 ### <a name="exchange-cmdlet-requirements"></a>Exchange cmdlet 요구 사항
 
@@ -67,4 +64,3 @@ Service to Service Connector에서 자동으로 Exchange Online 또는 신규 Ex
 Exchange Connector를 구성한 후 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)로 이동합니다. **관리**> **모바일 장치 관리** > **Microsoft Exchange**를 선택합니다. 그런 다음 제공한 세부 정보가 **Exchange 연결 정보**에 나타나는지 확인합니다.
 
 마지막으로 성공한 동기화 시도의 시간과 날짜를 확인할 수도 있습니다.
-
