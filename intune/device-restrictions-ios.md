@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 05/04/2017
+ms.date: 07/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,19 @@ ms.assetid: 73590192-54ca-4833-9f1d-83e1b654399f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 365b56082207c2110965681663432cce10f27c99
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 7ec66c3864aae3d680c006ada95859df0e7f0e84
+ms.sourcegitcommit: fb17b59f4aa2b994b149fcc6d32520f74b0de6a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/12/2017
 ---
-# <a name="ios-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 iOS 장치 제한 설정
+# Microsoft Intune의 iOS 장치 제한 설정
+<a id="ios-device-restriction-settings-in-microsoft-intune" class="xliff"></a>
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-## <a name="general"></a>일반
+## 일반
+<a id="general" class="xliff"></a>
 -   **카메라** - 장치에서 카메라를 사용할 수 있는지 여부를 선택합니다.   
 -   **진단 데이터 제출** - 장치의 Apple에 진단 데이터 제출을 허용 또는 차단합니다.
 -   **FaceTime** - 장치에서 FaceTime 앱을 사용할 수 있습니다.
@@ -73,7 +75,8 @@ ms.lasthandoff: 07/01/2017
 - **Apple 뉴스(감독 모드인 경우에만)** - Apple 뉴스 앱을 사용할 수 있습니다.
 - **구성 프로필 변경** - 사용자가 구성 프로필 및 인증서를 설치하도록 허용합니다.
 
-## <a name="password"></a>암호
+## 암호
+<a id="password" class="xliff"></a>
 -   **암호 필요** - 최종 사용자에게 장치에 액세스하려면 암호를 입력하도록 요구합니다.
 -   **단순 암호** - 0000 및 1234와 같은 단순 암호를 허용합니다.
 -   **필수 암호 유형** - 필요한 암호의 유형(예: 숫자만 또는 영숫자)을 지정합니다.
@@ -88,7 +91,8 @@ ms.lasthandoff: 07/01/2017
 
 <sup>1</sup> **화면이 잠기기 전까지 최대 비활성 시간(분)** 및 **화면 잠금 후 암호를 요구하기 전까지 최대 시간(분)**을 구성한 경우 순차적으로 적용됩니다. 예를 들어 두 설정 값을 모두 **5** 분으로 지정하면 5분 뒤 화면이 자동으로 꺼지고 이후 5분이 더 지나면 장치가 잠깁니다. 그러나 사용자가 화면을 수동으로 끄면 두 번째 설정이 즉시 적용됩니다. 동일한 예에서 사용자가 화면을 끄면 5분 뒤 장치가 잠깁니다.
 
-## <a name="app-store-doc-viewing-gaming"></a>앱 스토어, 문서 보기, 게임
+## 앱 스토어, 문서 보기, 게임
+<a id="app-store-doc-viewing-gaming" class="xliff"></a>
 
 
 -   **앱 스토어(감독 모드인 경우에만)** - 감독된 장치에서 앱 스토어에 대한 액세스를 차단합니다.
@@ -106,7 +110,8 @@ ms.lasthandoff: 07/01/2017
 -   **등급 영역** - 허용된 다운로드를 구성할 등급 영역을 선택한 다음 **영화** 및 **TV 프로그램**에 대한 허용되는 등급을 선택합니다.
 -   **앱** - 사용자가 다운로드할 수 있는 앱의 허용되는 연령별 등급을 선택하거나, **모든 앱 허용**을 선택할 수 있습니다.
 
-## <a name="restricted-apps"></a>제한된 앱
+## 제한된 앱
+<a id="restricted-apps" class="xliff"></a>
 
 제한된 앱 목록에서 다음 목록 중 하나를 구성할 수 있습니다.
 
@@ -115,7 +120,8 @@ ms.lasthandoff: 07/01/2017
 
 목록을 구성하려면 **추가**를 클릭한 다음 원하는 이름, 앱 게시자(선택 사항) 및 앱 스토어의 앱 URL을 지정합니다.
 
-### <a name="how-to-specify-the-url-to-an-app-in-the-store"></a>스토어의 앱에 대한 URL을 지정하는 방법
+### 스토어의 앱에 대한 URL을 지정하는 방법
+<a id="how-to-specify-the-url-to-an-app-in-the-store" class="xliff"></a>
 
 앱 목록에 앱 URL을 지정하려면 다음 형식을 사용합니다.
 
@@ -130,11 +136,13 @@ ms.lasthandoff: 07/01/2017
 
 
 
-### <a name="additional-options"></a>추가 옵션
+### 추가 옵션
+<a id="additional-options" class="xliff"></a>
 
 **가져오기**를 클릭하여 <*앱 URL*>, <*앱 이름*>, <*앱 게시자*> 형식으로 csv 파일에서 목록을 채우거나 **내보내기**를 클릭하여 같은 형식으로 제한된 앱 목록 내용이 포함된 csv 파일을 만들 수도 있습니다.
 
-## <a name="show-or-hide-apps"></a>앱 표시 또는 숨기기
+## 앱 표시 또는 숨기기
+<a id="show-or-hide-apps" class="xliff"></a>
 
 앱 표시 또는 숨기기 목록에서 다음 목록 중 하나를 구성할 수 있습니다(iOS 9.3 이상을 실행하는 감독된 장치 필요).
 
@@ -143,7 +151,8 @@ ms.lasthandoff: 07/01/2017
 
 목록을 구성하려면 **추가**를 클릭한 다음 원하는 이름, 앱 게시자(선택 사항) 및 앱 스토어의 앱 URL을 지정합니다.
 
-### <a name="how-to-specify-the-url-to-an-app-in-the-store"></a>스토어의 앱에 대한 URL을 지정하는 방법
+### 스토어의 앱에 대한 URL을 지정하는 방법
+<a id="how-to-specify-the-url-to-an-app-in-the-store" class="xliff"></a>
 
 앱 목록에 앱 URL을 지정하려면 다음 형식을 사용합니다.
 
@@ -155,19 +164,22 @@ ms.lasthandoff: 07/01/2017
 > [!Note]
 > 또한 iTunes 소프트웨어를 사용하여 앱을 찾은 후 **링크 복사** 명령으로 앱 URL을 가져올 수 있습니다.
 
-### <a name="additional-options"></a>추가 옵션
+### 추가 옵션
+<a id="additional-options" class="xliff"></a>
 
 **가져오기**를 클릭하여 <*앱 URL*>, <*앱 이름*>, <*앱 게시자*> 형식으로 csv 파일에서 목록을 채우거나 **내보내기**를 클릭하여 같은 형식으로 숨겨지거나 표시된 앱 목록 내용이 포함된 csv 파일을 만들 수도 있습니다.
 
 
-## <a name="cellular"></a>셀룰러
+## 셀룰러
+<a id="cellular" class="xliff"></a>
 -   **데이터 로밍** - 장치가 셀룰러 네트워크에 있을 때 데이터 로밍을 허용합니다.
 -   **로밍하는 동안 글로벌 백그라운드 페치** - 장치가 셀룰러 네트워크에서 로밍하는 동안 메일 등의 데이터를 가져올 수 있습니다.
 -   **음성 전화 걸기** - 장치에서 음성 전화 걸기 기능을 사용할 수 있습니다.
 -   **음성 로밍** - 장치가 셀룰러 네트워크에 있을 때 음성 로밍을 허용합니다.
 -   **앱 셀룰러 데이터 사용량 설정 변경(감독 모드인 경우에만)** - 사용자가 셀룰러 데이터를 사용이 허용된 앱을 제어할 수 있습니다.
 
-## <a name="cloud-and-storage"></a>클라우드 및 저장소
+## 클라우드 및 저장소
+<a id="cloud-and-storage" class="xliff"></a>
 -   **iCloud에 백업** - 사용자가 장치를 iCloud에 백업할 수 있습니다.
 -   **iCloud에 문서 동기화(감독 모드인 경우에만)** - iCloud 저장소 공간에 대한 문서 및 키 값 동기화를 허용합니다.
 -   **iCloud에 사진 스트림 동기화** - iCloud에 대한 사진 동기화를 허용하는 장치에서 **내 사진 스트림**을 지원할 수 있으며 모든 사용자 장치에서 사용 가능합니다.
@@ -177,11 +189,13 @@ ms.lasthandoff: 07/01/2017
 -   **공유 사진 스트림** - 장치에서 **iCloud 사진 공유**를 사용하지 않으려면 **아니요**로 설정합니다.
 -   **활동 연속** - 사용자가 특정 iOS 장치에서 시작한 작업을 다른 iOS 장치나 macOS 장치에서 계속할 수 있습니다.
 
-## <a name="autonomous-single-app-mode-supervised-only"></a>자치 단일 앱 모드(감독 모드인 경우에만)
+## 자치 단일 앱 모드(감독 모드인 경우에만)
+<a id="autonomous-single-app-mode-supervised-only" class="xliff"></a>
 
 이 설정을 사용하여 iOS 장치에서 지정된 앱을 자체 단일 앱 모드로 실행하도록 구성합니다. 이 모드를 구성하고 앱이 실행되면 장치가 잠기므로 해당 앱만 실행할 수 있습니다. 이 모드의 예로 사용자가 장치에서 테스트를 수행할 수 있도록 앱을 구성하는 경우를 들 수 있습니다. 앱의 작업이 완료되거나 이 정책을 제거하면 장치가 일반 상태로 돌아옵니다.
 
-### <a name="settings"></a>설정
+### 설정
+<a id="settings" class="xliff"></a>
 
 - **앱 이름** - 이 블레이드의 앱 목록에 나타나도록 앱 이름을 입력합니다.
 - **앱 번들 ID** - 앱의 번들 ID를 입력합니다. 도움말은 이 항목의 **기본 제공 iOS 앱에 대한 번들 ID 참조**를 참조하세요.
@@ -191,54 +205,57 @@ ms.lasthandoff: 07/01/2017
 - **가져오기** - 앱 이름 및 앱 관련 번들 ID 목록을 포함하는 쉼표로 구분된 값(.csv) 파일을 가져옵니다.
 - **내보내기** - 구성한 앱 이름 및 연관된 번들 ID를 쉼표로 구분된 값(.csv) 파일로 내보냅니다.
 
-### <a name="bundle-id-reference-for-built-in-ios-apps"></a>기본 제공 iOS 앱에 대한 번들 ID 참조
+### 기본 제공 iOS 앱에 대한 번들 ID 참조
+<a id="bundle-id-reference-for-built-in-ios-apps" class="xliff"></a>
 
 이 목록에서는 몇 가지 일반적인 기본 제공 iOS 앱의 번들 ID를 보여줍니다. 다른 앱의 번들 ID를 찾으려면 소프트웨어 공급업체에 문의하세요.
 
-|||
-|-|-|
-|앱 이름|BundleID|
-|앱 스토어|com.apple.AppStore|
-|계산기|com.apple.calculator|
-|일정|com.apple.mobilecal|
-|카메라|com.apple.camera|
-|시계|com.apple.mobiletimer|
-|나침반|com.apple.compass|
-|연락처|com.apple.MobileAddressBook|
-|FaceTime|com.apple.facetime|
-|친구 찾기|com.apple.mobileme.fmf1|
-|나의 iPhone 찾기|com.apple.mobileme.fmip1|
-|게임 센터|com.apple.gamecenter|
-|GarageBand|com.apple.mobilegarageband|
-|상태|com.apple.Health|
-|iBooks|com.apple.iBooks|
-|iTunes Store|com.apple.MobileStore|
-|iTunes U|com.apple.itunesu|
-|키노트|com.apple.Keynote|
-|Mail|com.apple.mobilemail|
-|맵|com.apple.Maps|
-|메시지|com.apple.MobileSMS|
-|음악|com.apple.Music|
-|뉴스|com.apple.news|
-|참고|com.apple.mobilenotes|
-|숫자|com.apple.Numbers|
-|페이지|com.apple.Pages|
-|Photo Booth|com.apple.Photo-Booth|
-|사진|com.apple.mobileslideshow|
-|Podcasts|com.apple.podcasts|
-|미리 알림|com.apple.reminders|
-|Safari|com.apple.mobilesafari|
-|설정|com.apple.Preferences|
-|주식|com.apple.stocks|
-|팁|com.apple.tips|
-|동영상|com.apple.videos|
-|음성 메모|com.apple.VoiceMemos|
-|Wallet|com.apple.Passbook|
-|보기|com.apple.Bridge|
-|날씨|com.apple.weather|
+```
+,com.apple.AppStore,App Store,Apple
+,com.apple.calculator,Calculator,Apple
+,com.apple.mobilecal,Calendar,Apple
+,com.apple.camera,Camera,Apple
+,com.apple.mobiletimer,Clock,Apple
+,com.apple.compass,Compass,Apple
+,com.apple.MobileAddressBook,Contacts,Apple
+,com.apple.facetime,FaceTime,Apple
+,com.apple.mobileme.fmf1,Find Friends,Apple
+,com.apple.mobileme.fmip1,Find iPhone,Apple
+,com.apple.gamecenter,Game Center,Apple
+,com.apple.mobilegarageband,GarageBand,Apple
+,com.apple.Health,Health,Apple
+,com.apple.iBooks,iBooks,Apple
+,com.apple.MobileStore,iTunes Store,Apple
+,com.apple.itunesu,iTunes U,Apple
+,com.apple.Keynote,Keynote,Apple
+,com.apple.mobilemail,Mail,Apple
+,com.apple.MapsMaps,Apple
+,com.apple.MobileSMS,Messages,Apple
+,com.apple.Music,Music,Apple
+,com.apple.news,News,Apple
+,com.apple.mobilenotes,Notes,Apple
+,com.apple.Numbers,Numbers,Apple
+,com.apple.Pages,Pages,Apple
+,com.apple.Photo-Booth,Photo Booth,Apple
+,com.apple.mobileslideshow,Photos,Apple
+,com.apple.podcasts,Podcasts,Apple
+,com.apple.reminders,Reminders,Apple
+,com.apple.mobilesafariSafari,Apple
+,com.apple.Preferences,Settings,Apple
+,com.apple.stocks,Stocks,Apple
+,com.apple.tips,Tips,Apple
+,com.apple.videos,Videos,Apple
+,com.apple.VoiceMemos,VoiceMemos,Apple
+,com.apple.Passbook,Wallet,Apple
+,com.apple.Bridge,Watch,Apple
+,com.apple.weather,Weather,Apple
 
 
-## <a name="kiosk"></a>키오스크
+```
+
+
+## 키오스크
+<a id="kiosk" class="xliff"></a>
 -   **활성화 잠금** - 감독된 iOS 장치에서 활성화 잠금을 설정합니다.
 -   **키오스크 모드에서 실행되는 앱** - **관리되는 앱**을 선택하여 Intune에 추가한 앱을 선택하거나 **스토어 앱**을 선택하여 스토어의 앱에 대한 URL을 지정합니다. 다른 앱은 장치에서 실행할 수 없습니다. 도움말은 이 항목의 뒷부분에 나오는 “앱 스토어에 URL을 지정하는 방법”을 참조하세요.
 -   **보조 터치** - 어려울 수 있는 화면 제스처를 수행하도록 지원하는, 내게 필요한 옵션 설정 **보조 터치**를 사용하거나 사용하지 않도록 설정합니다.
@@ -262,7 +279,8 @@ ms.lasthandoff: 07/01/2017
 > 키오스크 모드에 대해 iOS 장치를 구성하려면 먼저 Apple Configurator Tool 또는 Apple 장치 등록 프로그램을 사용하여 장치를 감독 모드로 전환합니다. Apple Configurator 도구에 대한 자세한 내용은 Apple 설명서를 참조하세요.
 >프로필을 할당한 후 지정한 iOS 앱을 설치하면 장치를 다시 시작할 때까지 키오스크 모드가 시작되지 않습니다.
 
-## <a name="safari"></a>Safari
+## Safari
+<a id="safari" class="xliff"></a>
 -   **Safari(감독 모드인 경우에만)** - 장치에서 Safari 브라우저를 사용할 수 있는지 여부를 지정합니다.
 -   **자동 채우기** - 사용자가 브라우저에서 자동 완성 설정을 변경하도록 허용합니다.
 -   **쿠키** - 브라우저에서 쿠키를 사용할 수 있습니다.
@@ -271,18 +289,22 @@ ms.lasthandoff: 07/01/2017
 -   **팝업** - 브라우저 팝업 차단을 사용하거나 사용하지 않도록 설정합니다.
 
 
-## <a name="domains"></a>Domains
+## Domains
+<a id="domains" class="xliff"></a>
 
-### <a name="unmarked-email-domains"></a>표시되지 않은 전자 메일 도메인
+### 표시되지 않은 전자 메일 도메인
+<a id="unmarked-email-domains" class="xliff"></a>
 
 **전자 메일 도메인 URL** 필드에서 하나 이상의 URL을 목록에 추가합니다. 최종 사용자가 구성한 도메인이 아닌 다른 도메인에서 전자 메일을 받으면 전자 메일은 iOS 메일 앱에서 신뢰할 수 없는 메일로 표시됩니다.
 
 
-### <a name="managed-web-domains"></a>관리되는 웹 도메인
+### 관리되는 웹 도메인
+<a id="managed-web-domains" class="xliff"></a>
 
 **웹 도메인 URL** 필드에서 하나 이상의 URL을 목록에 추가합니다. 지정하는 도메인에서 문서가 다운로드되면 관리되지 않는 문서로 간주됩니다. 이 설정은 Safari 브라우저를 사용하여 다운로드되는 문서에만 적용됩니다.
 
 
-### <a name="safari-password-auto-fill-domains"></a>Safari 암호 자동 채우기 도메인
+### Safari 암호 자동 채우기 도메인
+<a id="safari-password-auto-fill-domains" class="xliff"></a>
 
 **도메인 URL** 필드에서 하나 이상의 URL을 목록에 추가합니다. 사용자는 이 목록에 있는 URL의 웹 암호만 저장할 수 있습니다. 이 설정은 감독 모드에서 iOS 9.3 이상 장치와 Safari 브라우저에만 적용됩니다. URL을 지정하지 않으면 모든 웹 사이트의 암호를 저장할 수 있습니다.

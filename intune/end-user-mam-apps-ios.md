@@ -2,8 +2,8 @@
 title: "앱 보호 정책을 사용하는 iOS 앱"
 description: "이 항목에서는 앱 보호 정책을 통해 iOS 앱이 관리될 때 예상되는 결과를 설명합니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 05/05/2017
 ms.topic: article
@@ -14,21 +14,23 @@ ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a4b7ad6cfd8e07137bac9d430088274d9161c7ac
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: e66042e5198b76ec484fe0218127acb653394cce
+ms.sourcegitcommit: f100c943a635f5a08254ba7cf30f1aaebb7e810e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/13/2017
 ---
-# <a name="what-to-expect-when-your-ios-app-is-managed-by-app-protection-policies"></a>iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황
+# iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황
+<a id="what-to-expect-when-your-ios-app-is-managed-by-app-protection-policies" class="xliff"></a>
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
  이 항목에서는 앱 보호 정책이 적용되는 앱을 사용하는 경우의 사용자 환경을 설명합니다. 앱 보호 정책은 사용자가 회사 계정을 사용하여 앱에 액세스하거나 회사의 비즈니스용 OneDrive 위치에 저장된 파일에 액세스하는 경우처럼 앱이 업무용으로 사용될 때만 적용됩니다.
 
-##  <a name="access-apps"></a>앱 액세스
+##  앱 액세스
+<a id="access-apps" class="xliff"></a>
 
-장치가 **Intune에 등록되지 않은** 경우 사용자가 앱을 처음 사용할 때 앱을 다시 시작하라는 메시지가 표시됩니다. 앱 보호 정책을 앱에 적용할 수 있도록 앱을 다시 시작해야 합니다. 
+장치가 **Intune에 등록되지 않은** 경우 사용자가 앱을 처음 사용할 때 앱을 다시 시작하라는 메시지가 표시됩니다. 앱 보호 정책을 앱에 적용할 수 있도록 앱을 다시 시작해야 합니다.
 
 <!--- The following screenshot from the Skype app illustrates this restart request: --->
 
@@ -37,7 +39,8 @@ ms.lasthandoff: 07/01/2017
 
 **Intune에서 관리를 위해 등록**된 장치의 경우 사용자에게 앱이 현재 관리되고 있다는 메시지가 표시됩니다.
 
-##  <a name="use-apps-with-multi-identity-support"></a>다중 ID가 지원되는 앱 사용
+##  다중 ID가 지원되는 앱 사용
+<a id="use-apps-with-multi-identity-support" class="xliff"></a>
 
 다중 ID를 지원하는 앱을 사용하면 앱이 회사 컨텍스트에서 사용되는 경우 앱 보호 정책이 적용되는 동안 다른 계정(회사 및 개인)을 사용하여 동일한 앱에 액세스할 수 있습니다.  
 
@@ -47,7 +50,8 @@ ms.lasthandoff: 07/01/2017
 
 앱 보호 정책은 앱을 업무용으로 사용할 때만 적용됩니다. 즉, 앱을 업무용으로 사용하는지 아니면 개인용으로 사용하는지에 따라 작동 방식이 달라질 수 있습니다.
 
-##  <a name="manage-user-accounts-on-the-device"></a>장치에서 사용자 계정 관리
+##  장치에서 사용자 계정 관리
+<a id="manage-user-accounts-on-the-device" class="xliff"></a>
 
 Intune에서는 장치당 하나의 사용자 계정에만 앱 보호 정책을 배포할 수 있습니다.
 
@@ -63,9 +67,11 @@ Intune에서는 장치당 하나의 사용자 계정에만 앱 보호 정책을 
 
 사용자 A는 **회사 X** 및 **회사 Y**에서 일합니다. 사용자 A는 각 회사에 회사 계정을 보유하고 둘 다 Intune을 사용하여 앱 보호 정책을 배포합니다. **회사 X**는 **회사 Y**보다 **먼저** 앱 보호 정책을 배포합니다. **회사 X**와 연결된 계정은 앱 보호 정책을 가져오지만 회사 Y와 연결된 계정은 앱 보호 정책을 가져오지 않습니다. 회사 Y와 연결된 사용자 계정을 앱 보호 정책으로 관리하려는 경우에는 회사 X와 연결된 사용자 계정을 제거해야 합니다.
 
-### <a name="add-a-second-account"></a>두 번째 계정 추가
+### 두 번째 계정 추가
+<a id="add-a-second-account" class="xliff"></a>
 
 iOS 장치를 사용하는 경우 해당 장치에 두 번째 회사 계정을 추가하려고 하면 차단 메시지가 표시될 수 있습니다. 이 경우 계정이 표시되면 제거할 계정을 선택할 수 있습니다.
 
-## <a name="next-steps"></a>다음 단계
+## 다음 단계
+<a id="next-steps" class="xliff"></a>
 [Android 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](end-user-mam-apps-android.md)
