@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/16/2017
+ms.date: 07/11/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,14 @@ ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 515d4e2b089d077ec708fc1dea1e1747169a60ae
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 33ddb60df7aebe36ff652e1da6da592442b96d4b
+ms.sourcegitcommit: fb17b59f4aa2b994b149fcc6d32520f74b0de6a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/12/2017
 ---
-# <a name="what-is-microsoft-intune-app-management"></a>Microsoft Intune 앱 관리란?
+# Microsoft Intune 앱 관리란?
+<a id="what-is-microsoft-intune-app-management" class="xliff"></a>
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -36,7 +37,8 @@ IT 관리자는 최종 사용자가 작업 수행에 필요한 앱에 액세스�
 
 Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 다양한 기능을 제공합니다.
 
-## <a name="app-management-capabilities-by-platform"></a>플랫폼별 앱 관리 기능
+## 플랫폼별 앱 관리 기능
+<a id="app-management-capabilities-by-platform" class="xliff"></a>
 
 ||||||
 |-|-|-|-|-|
@@ -56,11 +58,12 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
 |스토어의 앱|예|예|예|예|
 |앱 업데이트|예|예|예|예|
 
-<sup>1</sup> Windows 10을 실행하는 장치에서 앱을 보호하려면 [Windows Information Protection]windows-information-protection-configure.md)를 사용하는 것이 좋습니다.
+<sup>1</sup> Windows 10을 실행하는 장치에서 앱을 보호하려면 [Windows Information Protection](windows-information-protection-configure.md)을 사용하는 것이 좋습니다.
 
 <sup>2</sup>Intune에서 관리하는 장치에만 적용됩니다.
 
-## <a name="how-to-get-started"></a>시작하는 방법
+## 시작하는 방법
+<a id="how-to-get-started" class="xliff"></a>
 
 대부분의 앱 관련 정보는 다음과 같이 액세스할 수 있는 **모바일 앱** 워크로드에서 확인할 수 있습니다.
 
@@ -70,7 +73,8 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
 
     ![모바일 앱 워크로드](./media/apps-workload.png)
 
-### <a name="manage"></a>관리
+### 관리
+<a id="manage" class="xliff"></a>
 - **앱** - 대부분의 앱을 추가, 할당 및 모니터링할 수 있는 노드입니다.
     - [앱 추가](apps-add.md)
     - [앱 할당](apps-deploy.md)
@@ -85,7 +89,8 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
 - **iOS 프로비전 프로필** - iOS 앱에는 인증서로 서명된 프로비전 프로필 및 코드가 포함됩니다. 인증서가 만료되면 앱을 더 이상 실행할 수 없습니다. Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필 정책을 미리 할당하기 위한 도구를 제공합니다.
     - [iOS 앱 프로비전 프로필](app-provisioning-profile-ios.md)
 
-### <a name="monitor"></a>모니터
+### 모니터
+<a id="monitor" class="xliff"></a>
 - **사용이 허가된 앱** - 앱 스토어에서 대량 구매 앱을 보고, 할당하고, 모니터링할 수 있습니다.
     - [비즈니스용 Windows 스토어 대량 구매 앱](windows-store-for-business.md)
 - **검색된 앱** - Intune에서 할당하고 장치에 설치된 모든 앱을 표시합니다.
@@ -94,7 +99,8 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
 
 자세한 내용은 [앱 모니터링](apps-monitor.md)을 참조하세요.
 
-### <a name="setup"></a>설정
+### 설정
+<a id="setup" class="xliff"></a>
 <!--- **iOS VPP Tokens**
     - [iOS volume-purchased apps](vpp-apps-ios.md) --->
 - **비즈니스용 Windows 스토어** - 비즈니스용 Windows 스토어에 대한 통합을 설정합니다. 그리고 나면 구매한 응용 프로그램을 Intune에 동기화하고 할당한 후 라이선스 사용 현황을 추적할 수 있습니다.

@@ -16,19 +16,20 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 8885b82cf452bcc6bb99efb1d7e7394706edac57
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: b2af07817b15c2afd2d2674aa0c6d8a403147421
+ms.sourcegitcommit: 2a6ad3c233d15a9fb441362105f64b2bdd550c34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/13/2017
 ---
-# <a name="unenroll-your-ios-device-from-intune"></a>Intune에서 iOS 장치 등록 취소
+# Intune에서 iOS 장치 등록 취소
+<a id="unenroll-your-ios-device-from-intune" class="xliff"></a>
 
 Intune에서 iOS 장치 등록을 취소하면 장치가 더 이상 회사 리소스에 액세스할 수 없으며 Intune을 통해 관리되지 않습니다.
 
 Intune에서 장치 등록을 취소하려면 다음 단계를 따르거나 이 비디오를 시청하세요.
 
-<iframe width="675" height="379" src="https://www.youtube.com/embed/6UFtBrBWUUI" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/6UFtBrBWUUI]
 
 
 1.  회사 포털 앱의 **내 장치**아래에서 등록을 취소할 장치를 선택합니다.

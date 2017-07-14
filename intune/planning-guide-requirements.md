@@ -14,13 +14,14 @@ ms.assetid: fd8cb5f7-19f0-4d80-8825-2bafa49624af
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8806dc965653deaca5ab370c290403ae049e5c58
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 032427a9965f368d7be17339e3cbe5b426800347
+ms.sourcegitcommit: ce363409d1206e4a3d669709863ccc9eb22b7d5f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/11/2017
 ---
-# <a name="determine-use-case-scenario-requirements"></a>사용 사례 시나리오 요구 사항 확인
+# 사용 사례 시나리오 요구 사항 확인
+<a id="determine-use-case-scenario-requirements" class="xliff"></a>
 
 이 섹션에서는 각 사용 사례 시나리오 내에서 각 조직 그룹에 대한 요구 사항을 확인합니다. 이 프로세스를 완료하면 아키텍처, 설계, 온보딩 및 출시와 같은 다른 Intune 배포 계획 영역에 대해 더 적절히 준비할 수 있습니다. 또한 Intune 배포 프로젝트와 관련된 잠재적인 차이 및 과제를 파악할 수도 있습니다.
 
@@ -41,7 +42,8 @@ ms.lasthandoff: 07/01/2017
 [위 표의 템플릿을 다운로드](https://gallery.technet.microsoft.com/Intune-deployment-planning-fae156c2?redir=0)하여 조직의 사용 사례 및 하위 사용 사례 요구 사항을 입력할 수 있습니다.
 
 
-## <a name="examples-of-requirements"></a>요구 사항의 예
+## 요구 사항의 예
+<a id="examples-of-requirements" class="xliff"></a>
 
 "요구 사항" 열에 사용할 수 있는 예를 몇 가지 더 들자면 다음과 같습니다.
 
@@ -62,6 +64,7 @@ ms.lasthandoff: 07/01/2017
     - 앱 보호 정책을 사용하는 Office 365
     - 앱 보호 정책을 사용하는 LOB(기간 업무)
 
-## <a name="next-section"></a>다음 섹션
+## 다음 단계
+<a id="next-steps" class="xliff"></a>
 
 다음 섹션에서는 [Intune 출시 계획 개발 방법](planning-guide-rollout-plan.md)에 대한 지침을 제공합니다.
