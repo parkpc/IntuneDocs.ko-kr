@@ -2,6 +2,7 @@
 ## [관리되는 장치를 사용하여 작업 완료](use-managed-devices-to-get-work-done.md)
 ## [회사에서 Intune을 사용하여 볼 수 있는 정보는 무엇인가요?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
 ## [장치를 초기화하게 되면 어떻게 되나요?](what-happens-if-you-reset-your-device-cpwebsite.md)
+## [회사 포털에 로그인하는 방법](sign-in-to-the-company-portal.md)
 ## [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 ### [Android 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 ### [Android의 일반적인 문제 해결](troubleshoot-your-device-android.md)

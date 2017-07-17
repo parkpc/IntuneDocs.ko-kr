@@ -2,6 +2,7 @@
 ## [Azure Portal이란?](what-is-intune.md)
 ## [Intune for Education이란?](introduction-intune-education.md)
 ## [Azure의 Intune 기능](ui-changes.md)
+### [그룹 변경 내용](groups-get-started.md)
 ## [무료 평가판 등록](free-trial-sign-up.md)
 ## [새로운 기능](whats-new.md)
 ### [앱 UI의 새로운 기능](whats-new-app-ui.md)
@@ -16,12 +17,13 @@
 ## [일반적인 시나리오](common-scenarios.md)
 ## [알려진 문제](known-issues.md)
 ## [지원 받기](get-support.md)
-## [Intune 서비스 설명](microsoft-intune-service-description.md)
 
-<!--# Get started
-## [Manage devices](/intune-classic/understand-explore/mobile-device-management-trial-guide-microsoft-intune?toc=/intune/toc.json)
-## [Create policies](/intune-classic/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-3?toc=/intune/toc.json)
-## [Manage apps](/intune-classic/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-4?toc=/intune/toc.json) -->
+# [시작](get-started-evaluation.md)
+## [그룹 만들기](get-started-groups.md)
+## [사용자 만들기](get-started-users.md)
+## [장치 등록](get-started-enroll.md)
+## [정책 할당](get-started-policies.md)
+## [앱 할당](get-started-apps.md)
 
 
 # 배포 계획
@@ -63,20 +65,21 @@
 ### [Intune에 로그인](account-sign-up.md)
 ### [도메인 구성](custom-domain-name-configure.md)
 ### [사용자 추가](users-permissions-add.md)
+### [그룹 추가](groups-add.md)
 ### [라이선스 할당](licenses-assign.md)       
 ### [회사 포털 사용자 지정](company-portal-customize.md)     
 ### [MDM 기관 설정](mdm-authority-set.md)
 
 ## [장치 등록](device-enrollment.md)
-### 전제 조건
-#### [사용 약관 설정](terms-and-conditions-create.md)
-#### [제한 설정](enrollment-restrictions-set.md)
-#### [Apple MDM Push Certificate 가져오기](apple-mdm-push-certificate-get.md)
-#### [회사 식별자 추가](corporate-identifiers-add.md)
-#### [장치 등록 관리자 설정](device-enrollment-manager-enroll.md)
+### 설치 옵션
+#### [사용 약관](terms-and-conditions-create.md)
+#### [제한 사항](enrollment-restrictions-set.md)
+#### [Apple MDM 푸시 인증서](apple-mdm-push-certificate-get.md)
+#### [회사 식별자](corporate-identifiers-add.md)
+#### [장치 등록 관리자](device-enrollment-manager-enroll.md)
 #### [그룹에 장치 매핑](device-group-mapping.md)
-### [Windows 등록 설정](windows-enroll.md)
-#### [자동 등록](windows-enroll.md)
+### Windows 등록 설정
+#### [Windows 등록](windows-enroll.md)
 #### [대량 등록](windows-bulk-enroll.md)
 ### [Android 등록 설정](android-enroll.md)
 ### iOS 등록 설정
@@ -84,7 +87,6 @@
 #### [Apple School Manager 사용](apple-school-manager-set-up-ios.md)
 #### [Apple Configurator 사용](apple-configurator-setup-assistant-enroll-ios.md)
 ### [macOS 등록 설정](macos-enroll.md)
-### [사용자 교육](end-user-educate.md)
 
 ## [장치 관리](device-management.md)
 ### [장치 초기화](devices-wipe.md)
@@ -97,11 +99,13 @@
 ### [회사 데이터 제거](device-company-data-remove.md)
 ### [암호 초기화](device-passcode-reset.md)
 ### [장치 다시 시작](device-restart.md)
+### [현재 사용자 로그아웃](device-logout-user.md)
+### [사용자 제거](device-remove-user.md)
 ### [Android 원격 제어](device-profile-android-teamviewer.md)
+### [Windows 10 PIN 재설정](device-windows-pin-reset.md)
 ### [장치 인벤토리 검사](device-inventory.md)
 
 ## [사용자 관리](user-management.md)
-### [그룹 시작](groups-get-started.md)
 <!--### Add and delete users -->
 
 ## [앱 관리](app-management.md)
@@ -128,16 +132,6 @@
 #### [iOS 전자책](vpp-ebooks-ios.md)
 ### [회사 포털 앱 구성](company-portal-app.md)
 ### [Managed Browser 구성](app-configuration-managed-browser.md)
-## [앱 보호 정책 사용](app-protection-policies.md)
-### [WIP 앱 보호 정책 준비](app-protection-policies-configure-windows-10.md)
-### [WIP 앱 보호 정책 만들기 및 할당](windows-information-protection-policy-create.md)
-### [Android 설정](app-protection-policy-settings-android.md)
-### [iOS 설정](app-protection-policy-settings-ios.md)
-### [앱 보호 정책 유효성 검사](app-protection-policies-validate.md)
-### [앱 보호 사용자 상태 모니터링](app-protection-policies-monitor.md)
-### [WIP 앱 보호 정책 준비](app-protection-policies-configure-windows-10.md)
-### [WIP 앱 보호 정책 만들기 및 할당](windows-information-protection-policy-create.md)
-### [iOS 앱 간의 데이터 전송 관리](data-transfer-between-apps-manage-ios.md)
 
 ## [장치 구성](device-profiles.md)
 ### [장치 프로필 구성](device-profile-create.md)
@@ -175,13 +169,16 @@
 #### [macOS](wi-fi-settings-macos.md)
 #### [Windows 8.1 및 Windows 10](wi-fi-settings-import-windows-8-1.md)
 ### [Windows 10 버전 업그레이드 설정 구성](edition-upgrade-configure-windows-10.md)
+### [Windows 10 Endpoint Protection](endpoint-protection-windows-10.md)
 ### [Windows 10 Education 설정 구성](education-settings-configure.md)
 ### [iOS 교육 설정 구성](education-settings-configure-ios.md)
+### [iOS 교육 공유 장치 구성](education-settings-configure-ios-shared.md)
 ### [비즈니스용 Windows 업데이트 설정 구성](windows-update-for-business-configure.md)
 ### [인증서 구성](certificates-configure.md)
 #### [SCEP](certificates-scep-configure.md)
 #### [PKCS](certficates-pfx-configure.md)
 ### [Windows Information Protection 설정 구성](windows-information-protection-configure.md)
+### [통신 비용 모니터링](telecom-expenses-monitor.md)
 ### [프로필 할당](device-profile-assign.md)
 ### [프로필 모니터링](device-profile-monitor.md)
 ### [프로필 문제 해결](device-profile-troubleshoot.md)
@@ -192,48 +189,65 @@
 ### [Android for Work 정책 만들기](compliance-policy-create-android-for-work.md)
 ### [iOS 정책 만들기](compliance-policy-create-ios.md)
 ### [Windows 정책 만들기](compliance-policy-create-windows.md)
-<!--### Create Actions for noncompliance-->
+### 비준수에 대한 작업 만들기
 ### [장치 준수 모니터링](compliance-policy-monitor.md)
 
 ## [조건부 액세스 설정](conditional-access.md)
 ### [조건부 액세스를 사용하는 일반적인 방법](conditional-access-intune-common-ways-use.md)
-### [앱 기반 조건부 액세스](app-based-conditional-access-intune.md)
 ### [Exchange On-premises Connector 설치](exchange-connector-install.md)
 ### [만들기 및 조건부 액세스 정책을 할당 합니다.](conditional-access-exchange-create.md)
-### [Exchange Online에 대한 앱 기반 조건부 액세스 설정](app-based-conditional-access-intune-exchange-online-create.md)
-### [SharePoint Online에 대한 앱 기반 조건부 액세스 설정](app-based-conditional-access-intune-sharepoint-online-create.md)
+### [Intune 클래식 포털에서 조건부 액세스 정책 다시 할당](conditional-access-intune-reassign.md)
+### [앱 기반 조건부 액세스](app-based-conditional-access-intune.md)
+### [앱 기반 조건부 액세스 설정](app-based-conditional-access-intune-create.md)
 ### [ADAL 및 Intune](app-modern-authentication-block.md)
 ### [조건부 액세스 규정 준수를 모니터링 합니다.](conditional-access-exchange-monitor.md)
 
-## 데이터 및 장치 보호
+## 앱 및 장치 데이터 보호
+
+### [앱 보호 정책 사용](app-protection-policy.md)
+#### [앱 보호 정책 만들기](app-protection-policies.md)
+##### [Android 설정](app-protection-policy-settings-android.md)
+##### [iOS 설정](app-protection-policy-settings-ios.md)
+#### [앱 보호 정책 유효성 검사](app-protection-policies-validate.md)
+#### [앱 보호 사용자 상태 모니터링](app-protection-policies-monitor.md)
+#### [WIP 앱 보호 정책 준비](app-protection-policies-configure-windows-10.md)
+#### [WIP 앱 보호 정책 만들기 및 할당](windows-information-protection-policy-create.md)
+#### [iOS 앱 간의 데이터 전송 관리](data-transfer-between-apps-manage-ios.md)
+
 
 ### [Mobile Threat Defense](mobile-threat-defense.md)
 
 #### [Lookout 설정](lookout-mobile-threat-defense-connector.md)
-##### [Lookout 및 Intune 통합](lookout-mtd-subscription-setup.md)
-##### [Intune에서 Lookout 사용](lookout-mtd-connector-enable.md)
-##### [Lookout과 함께 사용될 앱 배포](lookout-for-work-app-configure-deploy.md)
-##### [Lookout 장치 준수 정책](lookout-device-compliance-policy-create.md)
-
+##### [Lookout 및 Intune 통합](lookout-mtd-connector-integration.md)
 #### [Skycure 설정](skycure-mobile-threat-defense-connector.md)
 ##### [Azure AD SSO 구성](skycure-azure-sso-configure.md)
 ##### [iOS 앱 구성 정책 다운로드](skycure-ios-app-configuration-policy-download.md)
-##### [앱 추가 및 구성](skycure-microsoft-authenticator-app-ios-app-configuration-policy-add.md)
-##### [Skycure와 함께 사용될 앱 배포](skycure-microsoft-authenticator-app-ios-app-configuration-policy-deploy.md)
 ##### [Skycure 및 Intune 통합](skycure-mtd-connector-integration.md)
-##### [Intune에서 Skycure를 사용하도록 설정](skycure-mtd-connector-enable.md)
-##### [Skycure 장치 준수 정책](skycure-device-compliance-policy-create.md)
+#### [MTD 앱 추가](mtd-apps-ios-app-configuration-policy-add-assign.md)
+#### [Intune에서 MTD 사용](mtd-connector-enable.md)
+#### [MTD 장치 준수 정책 만들기](mtd-device-compliance-policy-create.md)
+
+### [네트워크 액세스 제어](network-access-control-integrate.md)
+
+
+<!-- ### Set up mobile threat protection        
+#### Prerequisites
+#### Set up Lookout
+#### Set up Skycure
+#### Enable mobile threat protection in Intune
+#### Create a mobile threat protection compliance policy -->
 
 ### [Windows Hello 설정](windows-hello.md)        
-<!-- ### Protect devices with remote actions        -->
+<!-- ### Protect devices with remote actions -->
 
 ## [역할 관리](role-based-access-control.md)
 <!-- ### Create a custom role
 ### Assign a role -->
-### [기술 지원팀 운영자 역할 사용](help-desk-operators.md)
+
 <!-- ### Custom role settings -->
 
 ## [소프트웨어 에이전트로 PC 관리](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune?toc=/intune/toc.json)
+### [PC 관리 비교](/intune-classic/deploy-use/pc-management-comparison?toc=/intune/toc.json)
 ### [PC 클라이언트 설치](/intune-classic/deploy-use/install-the-windows-pc-client-with-microsoft-intune?toc=/intune/toc.json)
 ### [일반 PC 관리 작업](/intune-classic/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client?toc=/intune/toc.json)
 #### [PC 정책](/intune-classic/deploy-use/use-policies-to-simplify-windows-pc-management?toc=/intune/toc.json)
@@ -249,10 +263,16 @@
 ### [사용권 계약 관리](/intune-classic/deploy-use/manage-license-agreements-for-windows-pc-software-in-microsoft-intune?toc=/intune/toc.json)
 ### [정책 충돌 해결](/intune-classic/deploy-use/resolve-gpo-and-microsoft-intune-policy-conflicts?toc=/intune/toc.json)
 
+## [사용자 교육](end-user-educate.md)
+### [회사 포털 메시지](end-user-company-portal-messages.md)
+### [Android의 MAM 지원 앱](end-user-mam-apps-android.md)
+### [iOS의 MAM 지원 앱](end-user-mam-apps-ios.md)
+### [Android 앱을 다운로드하는 방법](end-user-apps-android.md)
+### [iOS 앱을 다운로드하는 방법](end-user-apps-ios.md)
+### [Windows 앱을 다운로드하는 방법](end-user-apps-windows.md)
 
 # 모니터링 및 문제 해결
-## [통신 비용 모니터링](telecom-expenses-monitor.md)
-
+## [기술 지원팀 운영자 역할 사용](help-desk-operators.md)
 
 # 개발 및 사용자 지정
 ## [사용자 지정 장치 설정 구성](custom-settings-configure.md)
@@ -277,6 +297,5 @@
 ### [Intune 앱 SDK Xamarin 구성 요소](app-sdk-xamarin.md)
 ## [Intune Graph API를 사용하는 방법](intune-graph-apis.md)
 ## [Intune Graph API](https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview)
-
 
 # [용어 설명](intune-glossary.md)
