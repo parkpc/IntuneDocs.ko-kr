@@ -38,9 +38,9 @@
 ### [구현](planning-guide-onboarding.md)
 ### [테스트 및 유효성 검사](planning-guide-test-validation.md)
 ### [추가 리소스](planning-guide-resources.md)
-<!-- ## Scenario implementation guides
-### [BYOD](/enterprise-mobility-security/solutions/enable-byod?toc=/intune/toc.json)
-### [Protect O365 data](/enterprise-mobility-security/solutions/protect-office365-data-with-intune?toc=/intune/toc.json)
+## 시나리오 구현 가이드
+### [BYOD](byod-enable.md)
+<!--### [Protect O365 data](/enterprise-mobility-security/solutions/protect-office365-data-with-intune?toc=/intune/toc.json)
 ### [Protect on-premises data](/enterprise-mobility-security/solutions/protect-on-premises-data-with-intune?toc=/intune/toc.json)
 ### [Protect data without enrollment](/enterprise-mobility-security/solutions/protect-company-data-without-managing-devices?toc=/intune/toc.json)
 ### [Manage company-owned devices](/enterprise-mobility-security/solutions/issue-corp-devices?toc=/intune/toc.json)
@@ -64,14 +64,13 @@
 #### [네트워크 대역폭 사용량](network-bandwidth-use.md)
 ### [Intune에 로그인](account-sign-up.md)
 ### [도메인 구성](custom-domain-name-configure.md)
-### [사용자 추가](users-permissions-add.md)
+### [사용자 추가](users-add.md)
 ### [그룹 추가](groups-add.md)
-### [라이선스 할당](licenses-assign.md)       
-### [회사 포털 사용자 지정](company-portal-customize.md)     
+### [라이선스 할당](licenses-assign.md)
 ### [MDM 기관 설정](mdm-authority-set.md)
 
 ## [장치 등록](device-enrollment.md)
-### 설치 옵션
+### [등록 옵션](enrollment-options.md)
 #### [사용 약관](terms-and-conditions-create.md)
 #### [제한 사항](enrollment-restrictions-set.md)
 #### [Apple MDM 푸시 인증서](apple-mdm-push-certificate-get.md)
@@ -105,7 +104,6 @@
 ### [Windows 10 PIN 재설정](device-windows-pin-reset.md)
 ### [장치 인벤토리 검사](device-inventory.md)
 
-## [사용자 관리](user-management.md)
 <!--### Add and delete users -->
 
 ## [앱 관리](app-management.md)
@@ -219,32 +217,24 @@
 
 #### [Lookout 설정](lookout-mobile-threat-defense-connector.md)
 ##### [Lookout 및 Intune 통합](lookout-mtd-connector-integration.md)
+
 #### [Skycure 설정](skycure-mobile-threat-defense-connector.md)
-##### [Azure AD SSO 구성](skycure-azure-sso-configure.md)
-##### [iOS 앱 구성 정책 다운로드](skycure-ios-app-configuration-policy-download.md)
 ##### [Skycure 및 Intune 통합](skycure-mtd-connector-integration.md)
+
+#### [ 설정](checkpoint-sandblast-mobile-mobile-threat-defense-connector.md)
+##### [Check Point 및 Intune 통합](checkpoint-sandblast-mobile-mtd-connector-integration.md)
+
 #### [MTD 앱 추가](mtd-apps-ios-app-configuration-policy-add-assign.md)
 #### [Intune에서 MTD 사용](mtd-connector-enable.md)
 #### [MTD 장치 준수 정책 만들기](mtd-device-compliance-policy-create.md)
 
 ### [네트워크 액세스 제어](network-access-control-integrate.md)
 
-
-<!-- ### Set up mobile threat protection        
-#### Prerequisites
-#### Set up Lookout
-#### Set up Skycure
-#### Enable mobile threat protection in Intune
-#### Create a mobile threat protection compliance policy -->
-
 ### [Windows Hello 설정](windows-hello.md)        
 <!-- ### Protect devices with remote actions -->
 
 ## [역할 관리](role-based-access-control.md)
-<!-- ### Create a custom role
-### Assign a role -->
 
-<!-- ### Custom role settings -->
 
 ## [소프트웨어 에이전트로 PC 관리](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune?toc=/intune/toc.json)
 ### [PC 관리 비교](/intune-classic/deploy-use/pc-management-comparison?toc=/intune/toc.json)
