@@ -118,6 +118,7 @@
 #### [Windows 스토어 앱](store-apps-windows.md)
 #### [Windows LOB 앱](lob-apps-windows.md)
 #### [Android for Work 앱](apps-add-android-for-work.md)
+#### [Windows 10용 Office 365 앱](apps-add-office365.md)
 ### [앱 할당](apps-deploy.md)
 ### [앱 모니터링](apps-monitor.md)
 ### [iOS 앱 구성 프로필](app-configuration-policies-use-ios.md)
