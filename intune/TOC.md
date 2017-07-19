@@ -15,6 +15,7 @@
 ### [장치 수명 주기](device-lifecycle.md)
 ### [앱 수명 주기](app-lifecycle.md)
 ## [일반적인 시나리오](common-scenarios.md)
+## [서비스 설명](microsoft-intune-service-description.md)
 ## [알려진 문제](known-issues.md)
 ## [지원 받기](get-support.md)
 
@@ -81,10 +82,10 @@
 #### [Windows 등록](windows-enroll.md)
 #### [대량 등록](windows-bulk-enroll.md)
 ### [Android 등록 설정](android-enroll.md)
-### iOS 등록 설정
-#### [장치 등록 프로그램 사용](device-enrollment-program-enroll-ios.md)
-#### [Apple School Manager 사용](apple-school-manager-set-up-ios.md)
-#### [Apple Configurator 사용](apple-configurator-setup-assistant-enroll-ios.md)
+### [iOS 등록 설정](ios-enroll.md)
+#### [장치 등록 프로그램](device-enrollment-program-enroll-ios.md)
+#### [Apple School Manager](apple-school-manager-set-up-ios.md)
+#### [Apple Configurator](apple-configurator-setup-assistant-enroll-ios.md)
 ### [macOS 등록 설정](macos-enroll.md)
 
 ## [장치 관리](device-management.md)
