@@ -1,12 +1,12 @@
 ---
 title: "iOS 및 macOS 장치에 대한 Intune AirPrint 설정"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Intune을 사용하여 AirPrint 호환 프린터에 iOS 및 macOS 장치를 자동으로 연결하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Intune을 사용하여 AirPrint 호환 프린터에 iOS 및 macOS 장치를 자동으로 연결하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/12/2017
+ms.date: 07/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,15 @@ ms.assetid: 712a79fb-14ef-4f6b-aba5-1dfca900afd2
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 55486693e2f5678ceeb20dd3a0ef3c52553871d2
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 743eb9a71efe1a5ea18b15312fdd4fe684f0ff07
+ms.sourcegitcommit: c9b3a95bf529b6cb2a2bdacbc49127dfa0c233e5
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/05/2017
 ---
-
 # <a name="airprint-settings-for-ios-and-macos-devices"></a>iOS 및 macOS 장치에 대한 AirPrint 설정
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 이 설정을 사용하여 네트워크에서 AirPrint 호환 프린터에 자동으로 연결하도록 iOS 또는 macOS 장치를 구성합니다. 계속하려면 프린터의 IP 주소와 리소스 경로가 필요합니다.
 
@@ -34,7 +31,7 @@ ms.lasthandoff: 05/23/2017
 
 이 절차를 사용하여 iOS 장치 사용자가 알려진 AirPrint 프린터로 인쇄할 수 있도록 AirPrint 페이로드에 AirPrint 정보를 추가합니다.
 
-1. Airprint 프린터와 같은 로컬 네트워크(서브넷)에 연결된 Mac에서 터미널을 엽니다(**/Applications/Utilities**)
+1. AirPrint 프린터와 동일한 로컬 네트워크(서브넷)에 연결된 Mac에서 터미널을 엽니다(**/Applications/Utilities**).
 2. 터미널에서 **ippfind**를 입력한 다음 Enter 키를 누릅니다.
 3. 예를 들어 명령에서 반환하는 프린터 정보를 기록합니다(예: **ipp://myprinter.local.:631/ipp/port1**). 정보의 첫 번째 부분은 프린터의 이름이며, 마지막 부분은 리소스 경로입니다.
 4. 터미널에서 **ping myprinter.local**을 입력한 다음 Enter 키를 누릅니다.
@@ -49,3 +46,7 @@ ms.lasthandoff: 05/23/2017
 
 프린터 목록을 쉼표로 구분된 값(.csv) 파일에서 가져오거나 목록을 내보낼 수도 있습니다.
 
+
+## <a name="next-steps"></a>다음 단계
+
+이제 선택한 그룹에 장치 프로필을 할당할 수 있습니다. 자세한 내용은 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.

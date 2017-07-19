@@ -5,25 +5,22 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/13/2017
+ms.date: 06/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 68e5a234-4353-4cb9-b869-4f2af5e59f31
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: d3401f32994fcd0e54d35a2615a636c5d06183d2
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: ab021708898fe87c2c5acf7d8b33df5a57e36c84
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="install-the-company-portal-app-for-android"></a>Android용 회사 포털 앱 설치
 
@@ -45,7 +42,6 @@ ms.lasthandoff: 05/23/2017
 
     ![android-accept-company-portal-terms](./media/and-cpinstall-3-cp-accept.png)
 
-회사 포털 앱을 다운로드한 후에 회사 정보에 완전히 액세스하기 위해 [Intune에 장치를 등록](enroll-your-device-in-Intune-android.md)하려고 할 수 있습니다.
+회사 포털 앱을 다운로드한 후에 회사 정보에 완전히 액세스하기 위해 [Intune에 장치를 등록](enroll-your-device-in-Intune-android.md)하려고 할 수 있습니다. [다른 장치를 사용하여 로그인](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal#signing-in-from-another-device)할 수도 있습니다.
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
-

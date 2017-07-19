@@ -14,15 +14,12 @@ ms.assetid: 0f737d48-24bc-44cd-aadd-f0a1d59f6893
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
-ms.openlocfilehash: 030aa380a1491eb3be4fd8f480b0ddc9a7860448
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.openlocfilehash: f5af3aefe814a52ae3b43a894242ac972e0cc8fc
+ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/03/2017
 ---
-
 # <a name="intune-network-bandwidth-use"></a>Intune 네트워크 대역폭 사용
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
@@ -95,7 +92,7 @@ Intune은 Intune 소프트웨어를 실행하는 서버와 같은 온-프레미�
 방화벽 및 프록시 서버로 보호되는 컴퓨터를 관리하려면 Intune에 대한 통신을 허용하도록 방화벽 및 프록시 서버를 설정해야 합니다. 프록시 서버로 보호되는 컴퓨터를 관리하려면 다음 사항에 유의하세요.
 
 -   프록시 서버는 **HTTP(80)**와 **HTTPS(443)**를 모두 지원해야 합니다. Intune 클라이언트에서 두 프로토콜을 모두 사용하기 때문입니다.
--   Intune은 인증되지 않은 프록시 서버를 지원합니다.
+-   Intune에서 소프트웨어 및 업데이트 다운로드 등의 일부 작업을 수행하려면 manage.microsoft.com에 대한 인증되지 않은 프록시 서버 액세스가 필요합니다.
 
 개별 클라이언트 컴퓨터에서 프록시 서버 설정을 수정할 수도 있고, 그룹 정책을 사용하여 지정된 프록시 서버로 보호되는 모든 클라이언트 컴퓨터의 설정을 변경할 수도 있습니다.
 
@@ -140,4 +137,17 @@ Intune은 Intune 소프트웨어를 실행하는 서버와 같은 온-프레미�
 |fei.msuc03.manage.microsoft.com <br>portal.fei.msuc03.manage.microsoft.com <br>m.fei.msuc03.manage.microsoft.com |52.163.119.6|
 |fei.msuc05.manage.microsoft.com <br>portal.fei.msuc05.manage.microsoft.com <br>m.fei.msuc05.manage.microsoft.com |52.175.38.24|
 |fei.msuc05.manage.microsoft.com <br>portal.fei.msuc05.manage.microsoft.com <br>m.fei.msuc05.manage.microsoft.com |52.163.119.3|
-
+|fef.msua01.manage.microsoft.com|138.91.243.97|
+|fef.msua02.manage.microsoft.com|52.177.194.236|
+|fef.msua04.manage.microsoft.com|23.96.112.28|
+|fef.msua05.manage.microsoft.com|138.91.244.151|
+|fef.msua06.manage.microsoft.com|13.78.185.97|
+|fef.msua07.manage.microsoft.com|52.175.208.218|
+|fef.msub01.manage.microsoft.com|137.135.128.214|
+|fef.msub02.manage.microsoft.com|137.135.130.29|
+|fef.msub03.manage.microsoft.com|23.97.165.17|
+|fef.msub05.manage.microsoft.com|23.97.166.52|
+|fef.msuc01.manage.microsoft.com|52.230.19.86|
+|fef.msuc02.manage.microsoft.com|23.98.66.118|
+|fef.msuc03.manage.microsoft.com|23.101.0.100|
+|fef.msuc05.manage.microsoft.com|52.230.16.180|

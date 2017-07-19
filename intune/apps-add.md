@@ -1,12 +1,12 @@
 ---
-title: "Microsoft Intune에 앱을 추가하는 방법 | Microsoft 문서"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 이러한 절차를 통해 사용자 및 장치에 할당할 준비가 된 Intune으로 앱을 가져올 수 있습니다. "
+title: "Microsoft Intune에 앱을 추가하는 방법"
+titleSuffix: Intune on Azure
+description: "사용자 및 장치에 할당할 준비가 된 앱을 Intune으로 가져오는 절차를 설명합니다. \""
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 05/10/2017
+ms.date: 06/28/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,15 @@ ms.assetid: a1ded457-0ecf-4f9c-a2d2-857d57f8d30a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 36cafd2b943ab1dd5045a8ed1fe1fcf1b28af385
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: 6a4dfa9e0066a2ac6f410aa9f8e4d77a40484ea5
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-add-an-app-to-microsoft-intune"></a>Microsoft Intune에 앱을 추가하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 사용자를 위해 앱을 관리하고 할당하려면 먼저 해당 앱을 Intune에 추가해야 합니다. Intune에서는 다양한 유형의 앱을 지원하며 각 유형마다 옵션이 다를 수 있습니다.
 
@@ -67,7 +65,7 @@ Intune을 사용하여 다음 앱 유형을 추가하고 지정할 수 있습니
 
 ## <a name="how-to-create-and-edit-categories-for-apps"></a>앱의 범주를 만들고 편집하는 방법
 
-앱 범주를 사용하여 최종 사용자가 회사 포털에서 보다 쉽게 찾을 수 있도록 앱을 정렬할 수 있습니다. 하나 이상의 범주(예: **개발자 앱**, 또는 **통신 앱**)를 앱에 할당할 수 있습니다.
+앱 범주를 사용하여 사용자가 회사 포털에서 보다 쉽게 찾을 수 있도록 앱을 정렬할 수 있습니다. 하나 이상의 범주(예: **개발자 앱**, 또는 **통신 앱**)를 앱에 할당할 수 있습니다.
 Intune에 앱을 추가하는 경우 원하는 범주를 선택할 수 있는 옵션이 제공됩니다. 플랫폼 관련 항목을 사용하여 앱을 추하고 범주를 할당합니다. 사용자 고유의 범주를 만들고 편집하려면 다음 절차를 사용합니다.
 
 1. Azure 포털에 로그인합니다.

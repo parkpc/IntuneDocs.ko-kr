@@ -12,15 +12,12 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b2fdcea9-9ad7-4d73-88e2-854b7a774bb2
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 852997044cef22901e8133d76f327e98b2a1ee72
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enable-enrollment-of-android-for-work-devices"></a>Android for Work 장치 등록 사용
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -60,8 +57,7 @@ Android for Work 등록 및 관리를 해제할 수 있습니다. Intune 관리 
 ### <a name="how-to-unbind-an-android-for-work-account"></a>Android for Work 계정을 바인딩 해제하는 방법
 
 1. **Android for Work 바인딩에 대한 바인딩 해제**<br>
-   관리자 권한으로 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **Android for Work**로 이동하고 **바인딩 해제**를 클릭합니다.
+    관리자 권한으로 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)을 열고 **관리** &gt; **모바일 장치 관리** &gt; **Android for Work**를 열고 **바인딩 해제**를 클릭합니다.
 
 2. **Android for Work 바인딩 삭제 동의**<br>
   바인딩을 삭제하고 Intune에서 Android for Work를 모두 등록 해제하려면 **예**를 클릭합니다.
-

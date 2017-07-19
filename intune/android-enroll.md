@@ -1,23 +1,29 @@
-mdm-authority-set---
-# <a name="required-metadata"></a>필수 메타데이터
-
-title: Intune에서 Android 장치 등록 titleSuffix: "Intune Azure 미리 보기" description: "Intune Azure 미리 보기: Intune Azure 미리 보기에서Android 장치를 등록하는 방법을 알아봅니다."
-keywords: author: nathbarn ms.author: nathbarn manager: angrobe ms.date: 04/12/2017 ms.topic: article ms.prod: ms.service: microsoft-intune ms.technology: ms.assetid: f276d98c-b077-452a-8835-41919d674db5
-
-# <a name="optional-metadata"></a>선택적 메타데이터
-
-#<a name="robots"></a>ROBOTS:
-#<a name="audience"></a>대상 그룹:
-#<a name="msdevlang"></a>ms.devlang:
-ms.reviewer: chrisbal ms.suite: ems
-#<a name="mstgtpltfrm"></a>ms.tgt_pltfrm:
-ms.custom: intune-azure
-
 ---
-
+title: "Intune에 Android 장치 등록"
+titleSuffix: Intune on Azure
+description: "Intune에 Android 장치를 등록하는 방법을 알아봅니다.\""
+keywords: 
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
+ms.date: 06/28/2017
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: f276d98c-b077-452a-8835-41919d674db5
+ms.reviewer: chrisbal
+ms.suite: ems
+ms.custom: intune-azure
+ms.openlocfilehash: 295315dae52662c386055747862717b85ed4b877
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
+---
 # <a name="enroll-android-devices"></a>Android 장치 등록
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Intune에서는 Intune 관리자가 Samsung KNOX Standard 장치를 포함한 Android 장치를 관리하도록 허용합니다. [Android for Work 장치](#enable-enrollment-of-android-for-work-devices)의 작업 프로필을 관리할 수도 있습니다.
 
@@ -25,15 +31,13 @@ Samsung KNOX Standard를 실행하는 장치가 Intune의 다중 사용자 관�
 
 ## <a name="prerequisite"></a>필수 구성 요소
 
-모바일 장치 관리를 준비하려면 MDM 기관을 **Microsoft Intune**으로 설정해야 합니다. 지침은 [MDM 기관 설정](mdm-authority-set.md)을 참조하세요. 이 항목은 모바일 장치 관리에 대해 Intune을 처음 설정할 때 한 번만 설정하면 되므로 이미 설정했을 수 있습니다.
+모바일 장치 관리를 준비하려면 MDM 기관을 **Microsoft Intune**으로 설정해야 합니다. 지침은 [MDM 기관 설정](mdm-authority-set.md)을 참조하세요. 이 항목은 모바일 장치 관리에 대해 Intune을 처음 설정할 때 한 번만 설정하면 됩니다.
 
 ## <a name="set-up-android-enrollment"></a>Android 등록 설정
 
 기본적으로 Intune에서는 Android 및 Samsung Knox Standard 장치 등록을 허용합니다.
 
-Android 장치를 차단하거나 등록에서 개인적으로 소유한 Android 장치를 차단하려면 [장치 유형 제한 설정](enrollment-restrictions-set.md#set-device-type-restrictions)을 참조하세요.
-
-사용자가 등록할 수 있는 장치의 최대 수를 설정하려면 [Set device limit restrictions](enrollment-restrictions-set.md#set-device-limit-restrictions)(장치 제한 한도 설정)를 참조하세요.
+Android 장치를 차단하거나 등록에서 개인적으로 소유한 Android 장치를 차단하려면 [장치 유형 제한 설정](enrollment-restrictions-set.md)을 참조하세요.
 
 장치 관리를 사용하려면 사용자가 Google Play에서 사용할 수 있는 Intune 회사 포털 앱을 다운로드한 다음 앱을 열고 메시지를 따라 등록하여 자신의 장치를 등록해야 합니다. Android 장치가 관리되면 [준수 정책 할당](compliance-policy-create-android.md), [앱 관리](app-management.md) 등을 수행합니다.
 
@@ -78,7 +82,7 @@ After configuring the Android for Work binding and settings, you can do the foll
 
 최종 사용자의 다른 작업에 대한 정보는 다음 문서를 참조하세요.
 
-- [Microsoft Intune에서 최종 사용자 환경 관련 리소스](https://docs.microsoft.com/intune-classic/deploy-use/how-to-educate-your-end-users-about-microsoft-intune)
+- [Microsoft Intune에서 최종 사용자 환경 관련 리소스](end-user-educate.md)
 - [Intune에서 Android 장치 사용](https://docs.microsoft.com/intune-user-help/using-your-android-device-with-intune)
 
 ## <a name="unbinding-your-android-for-work-administrative-account"></a>Android for Work 관리 계정 바인딩 해제

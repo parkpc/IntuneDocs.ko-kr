@@ -1,5 +1,5 @@
 ---
-title: "VPN 연결 | Microsoft 문서"
+title: "VPN 연결"
 description: "VPN 프로필을 사용하여 조직의 사용자 및 장치에 VPN 설정을 배포합니다."
 keywords: 
 author: lleonard-msft
@@ -14,15 +14,12 @@ ms.assetid: abc57093-7351-408f-9f41-a30877f96f73
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 51096dedbc29726b2622e0a156b0d2516522e497
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: e1498cb88fe99129a5ee7f24b618f78fefcf42a6
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="vpn-connections-in-microsoft-intune"></a>Microsoft Intune에서 VPN 연결
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -168,9 +165,7 @@ iOS 8.0 이상 장치에 대해 필요 시 VPN을 구성할 수 있습니다.
 3. 선택 사항: 규칙에서 테스트로 사용하는 URL인 URL 문자열 프로브를 제공합니다. 이 프로필이 설치된 장치에서 리디렉션 없이 이 URL에 액세스할 수 있는 경우 VPN이 설정되고 장치가 대상 URL에 연결됩니다. 사용자에게 URL 문자열 프로브 사이트가 표시되지 않습니다. URL 문자열 프로브의 예는 VPN을 연결하기 전에 장치 준수를 확인하는 감사 웹 서버의 주소입니다. 또한 VPN 통해 장치를 대상 URL에 연결하기 전에 URL에서 VPN이 사이트에 연결할 수 있는지 테스트할 수도 있습니다.
 4. 다음 작업 중 하나를 선택합니다.
   - **연결**
-  - **연결 평가** - 세 가지 설정이 있습니다. **도메인 작업** - **필요한 경우 연결** 또는 **연결 안 함**을 선택합니다.
-      b. **쉼표로 구분된 도메인 목록** - **도메인 작업**을 **필요한 경우 연결**로 선택한 경우에만 이 설정을 구성합니다.
-      c. **필요한 URL 문자열 검색** - HTTP 또는 HTTPS(기본 설정) URL(예: *https://vpntestprobe.contoso.com*). 규칙에서는 이 주소에서 받은 응답이 있는지 확인합니다. 응답이 없고 **도메인 작업**이 **필요한 경우 연결**이면 VPN이 트리거됩니다.
+  - **연결 평가** - 세 가지 설정이 있습니다. **도메인 작업** - **필요한 경우 연결** 또는 **연결 안 함**을 선택합니다. b. **쉼표로 구분된 도메인 목록** - **도메인 작업**을 **필요한 경우 연결**로 선택한 경우에만 이 설정을 구성합니다. c. **필요한 URL 문자열 검색** - HTTP 또는 HTTPS(기본 설정) URL(예: *https://vpntestprobe.contoso.com*). 규칙에서는 이 주소에서 받은 응답이 있는지 확인합니다. 응답이 없고 **도메인 작업**이 **필요한 경우 연결**이면 VPN이 트리거됩니다.
       
      > [!TIP]
      >
@@ -195,4 +190,3 @@ iOS 8.0 이상 장치에 대해 필요 시 VPN을 구성할 수 있습니다.
 배포 후 사용자는 장치의 VPN 연결 목록에서 지정된 VPN 연결 이름을 볼 수 있습니다.
 
 **정책** 작업 영역의 **개요** 페이지에 있는 상태 요약 및 경고는 주의가 필요한 정책 문제를 식별합니다. 또한 상태 요약은 대시보드 작업 영역에 표시됩니다.
-
