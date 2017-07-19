@@ -1,33 +1,29 @@
 ---
-title: "iOS 교실 앱에 대한 Intune 설정 | Microsoft 문서"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: iOS 장치에서 교실 앱에 대한 설정을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
+title: "iOS 교실 앱에 대한 Intune 설정"
+titleSuffix: Intune on Azure
+description: "iOS 장치에서 교실 앱에 대한 설정을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 05/02/2017
+ms.date: 06/28/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1381a5ce-c743-40e9-8a10-4c218085bb5f
-ms.reviewer: heenamac
+ms.reviewer: derriw
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 6f24636687291ff55686277c3f24b2774cfb32f4
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 4188c3951c9cb864b77bde52a5d19f022f17c11c
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="how-to-configure-intune-settings-for-the-ios-classroom-app"></a>iOS 교실 앱에 대한 Intune 설정을 구성하는 방법
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="introduction"></a>소개
 [교실](https://itunes.apple.com/app/id1085319084)은 교사들이 교실에서 학습을 지도하고 학생 장치를 제어하도록 도와주는 앱입니다. 예를 들어 교사는 이 앱을 사용하여 다음을 수행할 수 있습니다.
@@ -45,7 +41,7 @@ Intune iOS **교육** 장치 프로필과 이 항목의 정보를 사용하여 �
 이러한 설정을 구성하기 전에 다음을 고려하세요.
 
 - 교사 및 학생 iPad가 Intune에 등록되어 있어야 합니다.
-- 교사의 장치에 [Apple 교실](https://itunes.apple.com/us/app/classroom/id1085319084?mt=8) 앱을 설치했는지 확인합니다. 이 작업을 수동으로 하거나 [Intune 앱 관리](app-management.md)를 사용할 수 있습니다.
+- 교사의 장치에 [Apple 교실](https://itunes.apple.com/us/app/classroom/id1085319084?mt=8) 앱을 설치했는지 확인합니다. 앱을 수동으로 설치하거나 [Intune 앱 관리](app-management.md)를 사용할 수 있습니다.
 - 교사 장치와 학생 장치 간 연결을 인증하도록 인증서를 구성해야 합니다(2단계 참조).
 - 교사 및 학생 iPad가 같은 Wi-Fi 네트워크에 있고 Bluetooth가 사용하도록 설정되어야 합니다.
 - 교실 앱은 iOS 9.3 이상을 실행하는 감독 모드 iPad에서 실행됩니다.
@@ -59,7 +55,7 @@ SDS는 SIS의 정보를 동기화하고 Azure AD에 저장합니다. Azure AD는
 
 ### <a name="how-to-import-data-using-sds"></a>SDS를 사용하여 데이터를 가져오는 방법
 
-다음 중 하나를 사용하여 정보를 SDS로 가져올 수 있습니다.
+다음 방법 중 하나를 사용하여 정보를 SDS로 가져올 수 있습니다.
 
 - [CSV 파일](https://support.office.com/article/Follow-these-steps-71d5fe4a-aa51-4f35-9b53-348898a390a1) - 쉼표로 구분된 값(.csv) 파일을 수동으로 내보내고 컴파일합니다.
 - [PowerSchool API](https://support.office.com/article/Follow-these-steps-851b5edc-558f-43a9-9122-b2d63458cb8f) - Azure AD와의 동기화를 간소화하는 SIS 공급자입니다.
@@ -77,14 +73,14 @@ SDS는 SIS의 정보를 동기화하고 Azure AD에 저장합니다. Azure AD는
 ### <a name="configure-general-settings"></a>일반 설정 구성
 
 1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
-3.    **Intune** 블레이드에서 **장치 구성**을 선택합니다.
-4.    **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
-5.    프로필 블레이드에서 **프로필 만들기**를 선택합니다.
-6.    **프로필 만들기** 블레이드에서 iOS 교육 프로필에 대한 **이름** 및 **설명**을 입력합니다.
-7.    **플랫폼** 드롭다운 목록에서 **iOS**를 선택합니다.
-8.    **프로필 유형** 드롭다운 목록에서 선택 **교육**을 선택합니다.
-9.    **설정** > **구성**을 선택합니다.
+2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+3.  **Intune** 블레이드에서 **장치 구성**을 선택합니다.
+4.  **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
+5.  프로필 블레이드에서 **프로필 만들기**를 선택합니다.
+6.  **프로필 만들기** 블레이드에서 iOS 교육 프로필에 대한 **이름** 및 **설명**을 입력합니다.
+7.  **플랫폼** 드롭다운 목록에서 **iOS**를 선택합니다.
+8.  **프로필** 유형 드롭다운 목록에서 선택 **교육**을 선택합니다.
+9.  **설정** > **구성**을 선택합니다.
 
 
 그 다음에 교사 및 학생 iPad 간에 트러스트 관계를 설정하려면 인증서가 필요합니다. 인증서는 사용자 이름 및 암호를 입력할 필요 없이 장치 간 연결을 원활하게 자동으로 인증하는 데 사용됩니다.
@@ -120,8 +116,8 @@ iOS 교육 프로필은 PFX 인증서만 지원하고 SCEP 인증서는 지원�
 
 ### <a name="configure-student-certificates"></a>학생 인증서 구성
 
-1.    **교육** 블레이드에서 **학생 인증서**를 선택합니다.
-2.    **학생 인증서** 블레이드의 **학생 장치 인증서** 유형 목록에서 **1:1**을 선택합니다.
+1.  **교육** 블레이드에서 **학생 인증서**를 선택합니다.
+2.  **학생 인증서** 블레이드의 **학생 장치 인증서** 유형 목록에서 **1:1**을 선택합니다.
 
 #### <a name="configure-student-root-certificate"></a>학생 루트 인증서 구성
 
@@ -143,8 +139,8 @@ iOS 교육 프로필은 PFX 인증서만 지원하고 SCEP 인증서는 지원�
 
 ## <a name="finish-up"></a>끝내기
 
-1.    **교육** 블레이드에서 [확인]을 선택합니다.
-2.    **프로필 만들기** 블레이드에서 **만들기**를 선택합니다.
+1.  **교육** 블레이드에서 [확인]을 선택합니다.
+2.  **프로필 만들기** 블레이드에서 **만들기**를 선택합니다.
     
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
 
@@ -156,3 +152,4 @@ iOS 교육 프로필은 PFX 인증서만 지원하고 SCEP 인증서는 지원�
 
 교실 앱에 대한 자세한 내용은 Apple 웹 사이트에서 [교실 앱 도움말](https://help.apple.com/classroom/ipad/2.0/)을 참조하세요.
 
+학생용 공유 iPad 장치를 구성하려면 [공유 iPad 장치에 대한 Intune 교육 설정을 구성하는 방법](education-settings-configure-ios-shared.md)을 참조하세요.

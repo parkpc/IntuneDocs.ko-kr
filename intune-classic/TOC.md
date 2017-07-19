@@ -1,12 +1,6 @@
 # 이해 및 탐색
 ## [Intune 소개](/intune/introduction-intune?toc=/intune-classic/toc.json)
 ## [교육에 Intune](/intune/introduction-intune-education?toc=/intune-classic/toc.json)
-## [무료 평가판 등록](understand-explore/sign-up-for-30-day-trial-microsoft-intune.md)
-## [Intune MDM 평가](understand-explore/mobile-device-management-trial-guide-microsoft-intune.md)
-### [사용자 및 장치를 구성하는 그룹 만들기](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-3.md)
-### [정책 만들기 및 앱 게시](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md)
-### [기타 옵션 및 추가 기능](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)
-### [유료 구독으로 전환](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)
 ## [MAM 및 앱 보호 FAQ](understand-explore/mam-faq.md)
 ## [일반적인 시나리오](/intune/common-scenarios?toc=/intune-classic/toc.json)
 

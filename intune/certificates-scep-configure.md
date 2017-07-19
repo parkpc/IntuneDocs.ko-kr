@@ -1,12 +1,12 @@
 ---
 title: "Intune을 사용하여 SCEP 인증서 구성 및 관리"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: 인프라를 구성한 다음 Intune SCEP 인증서 프로필을 만들어 할당하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "인프라를 구성한 다음 Intune SCEP 인증서 프로필을 만들어 할당하는 방법을 알아봅니다.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
 manager: angrobe
-ms.date: 05/05/2017
+ms.date: 06/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,14 @@ ms.assetid: d567d85f-e4ee-458e-bef7-6e275467efce
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: ad0dc380eca386438e9568bf212ac9c5ad66ceb6
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: e29e79b8598eddba951b3f8ee7a7bcd5c6271f83
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="configure-and-manage-scep-certificates-with-intune"></a>Intune을 사용하여 SCEP 인증서 구성 및 관리
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 이 항목에서는 Intune에서 인프라를 구성하고 SCEP(단순 인증서 등록 프로토콜) 인증서를 만들고 할당하는 방법을 보여 줍니다.
 
@@ -84,9 +83,13 @@ NDES 서버는 CA를 호스트하는 도메인에 가입해야 하며 CA와 동�
 
 **5단계**: Intune 인증서 커넥터 사용, 설치 및 구성
 
+> [!NOTE]
+> 알려진 문제로 인해 [SCEP 인증서 인프라 구성 -> 인프라 구성 -> 작업 5](/intune-classic/deploy-use/configure-certificate-infrastructure-for-scep) 단계에 따라 인증서 커넥터를 다운로드하고, 설치하고, 구성하세요.
+
+
 #### <a name="step-1---create-an-ndes-service-account"></a>1단계 - NDES 서비스 계정 만들기
 
-NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다. NDES를 설치하고 구성하기 전 발급 CA에서 템플릿을 구성할 때 이 계정을 지정합니다. 사용자에게 기본 권한 즉, **로컬 로그온**, **서비스로 로그온** 및 **일괄 작업으로 로그온** 권한이 있는지 확인합니다. 일부 조직에는 해당 권한을 사용하지 않도록 설정하는 보안 강화 정책이 있습니다.
+NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다. NDES를 설치하고 구성하기 전 발급 CA에서 템플릿을 구성할 때 이 계정을 지정합니다. 사용자에게 기본 권한(**로컬 로그온**, **서비스로 로그온** 및 **일괄 작업으로 로그온** 권한)이 있는지 확인합니다. 일부 조직에는 해당 권한을 사용하지 않도록 설정하는 보안 강화 정책이 있습니다.
 
 #### <a name="step-2---configure-certificate-templates-on-the-certification-authority"></a>2단계 - 인증 기관에서 인증서 템플릿 구성
 이 작업에서는 다음을 수행합니다.
@@ -100,6 +103,9 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
 1.  엔터프라이즈 관리자로 로그온합니다.
 
 2.  발급 CA에서 인증서 템플릿 스냅인을 사용하여 사용자 지정 템플릿을 새로 만들거나 기존 템플릿을 복사한 다음 NDES에 사용할 수 있도록 기존 템플릿(예: 사용자 템플릿)을 편집합니다.
+
+    >[!NOTE]
+    > NDES 인증서 템플릿은 v2 인증서 템플릿(Windows 2003 호환성 포함)을 기반으로 해야 합니다.
 
     템플릿의 다음 항목이 구성되어 있어야 합니다.
 
@@ -304,7 +310,7 @@ NDES 서버에서 인증서 커넥터 다운로드, 설치 및 구성
 ##### <a name="to-enable-support-for-the-certificate-connector"></a>인증서 커넥터에 대한 지원을 사용하도록 설정하려면
 
 1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
+2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
 4. **장치 구성** 블레이드에서 **인증 기관**을 선택합니다.
 5.  **인증서 커넥터 사용**을 선택합니다.
@@ -312,10 +318,10 @@ NDES 서버에서 인증서 커넥터 다운로드, 설치 및 구성
 ##### <a name="to-download-install-and-configure-the-certificate-connector"></a>인증서 커넥터를 다운로드, 설치 및 구성하려면
 
 > [!NOTE]
-> 알려진 문제로 인해 [SCEP 인증서 인프라 구성 -> 인프라 구성 -> 작업 5](https://docs.microsoft.com/intune-classic/deploy-use/certificates-scep-configure#a-namebkmkconfigureinfrastructureaconfigure-your-infrastructure) 단계에 따라 인증서 커넥터를 다운로드하고, 설치하고, 구성하세요.
+> 알려진 문제로 인해 [SCEP 인증서 인프라 구성 -> 인프라 구성 -> 작업 5](/intune-classic/deploy-use/configure-certificate-infrastructure-for-scep) 단계에 따라 인증서 커넥터를 다운로드하고, 설치하고, 구성하세요.
 
 1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **기타** > **Intune**을 선택합니다.
+2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
 4. **장치 구성** 블레이드에서 **인증 기관**을 선택합니다.
 5. **인증서 커넥터 다운로드**를 선택합니다.
@@ -377,6 +383,8 @@ NDES 서버에서 인증서 커넥터 다운로드, 설치 및 구성
         - **일반 이름**
         - **메일이 포함된 일반 이름**
         - **메일인 일반 이름**
+        - **사용자 지정** - 이 옵션을 선택하면 다른 드롭다운 필드가 표시됩니다. 이 필드에 사용자 지정 주체 이름 형식을 입력합니다. 사용자 지정 형식에 지원되는 두 변수는 **CN(일반 이름)** 및 **E(메일)**입니다. 이러한 변수와 정적 문자열 중 하나 또는 여러 개의 조합을 사용하여 **CN={{UserName}},E={{EmailAddress}},OU=Mobile,O=Finance Group,L=Redmond,ST=Washington,C=US**와 같은 사용자 지정 주체 이름 형식으로 만들 수 있습니다. 이 예에서는 CN 및 E 변수 외에 조직 구성 단위, 조직, 위치, 상태 및 국가 값에 대한 문자열을 사용하는 주체 이름 형식을 만들었습니다. [이 항목](https://msdn.microsoft.com/library/windows/desktop/aa377160.aspx)에서는 **CertStrToName** 함수와 해당 지원되는 문자열을 보여 줍니다.
+        
     - **주체 대체 이름** - Intune에서 인증서 요청의 SAN(주체 대체 이름) 값을 자동으로 만드는 방법을 지정합니다. 예를 들어 사용자 인증서 유형을 선택한 경우 주체 대체 이름에 UPN(사용자 계정 이름)을 포함할 수 있습니다. 클라이언트 인증서가 네트워크 정책 서버에 대한 인증에 사용되는 경우 주체 대체 이름을 UPN으로 설정해야 합니다. 
     - **키 사용** - 인증서에 대한 키 사용 옵션을 지정합니다. 다음 옵션 중에서 선택할 수 있습니다. 
         - **키 암호화** - 키가 암호화된 경우에만 키 교환을 허용합니다. 
@@ -392,10 +400,6 @@ NDES 서버에서 인증서 커넥터 다운로드, 설치 및 구성
 
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
 
->[!Note]
-> iOS 장치에만 해당: 주체 이름 형식에서 사용자 지정을 선택하여 사용자 지정 주체 이름 형식을 입력합니다.
-> 현재 사용자 지정 형식에 지원되는 두 변수는 **CN(일반 이름)** 및 **E(메일)**입니다. 이러한 변수와 정적 문자열의 조합을 사용하여 **CN={{UserName}},E={{EmailAddress}},OU=Mobile,O=Finance Group,L=Redmond,ST=Washington,C=US**와 같은 사용자 지정 주체 이름 형식으로 만들 수 있습니다. 이 예에서는 CN 및 E 변수 외에 조직 구성 단위, 조직, 위치, 상태 및 국가 값에 대한 문자열을 사용하는 주체 이름 형식을 만들었습니다. [이 항목](https://msdn.microsoft.com/library/windows/desktop/aa377160.aspx)에서는 **CertStrToName** 함수와 해당 지원되는 문자열을 보여 줍니다.
-
 ## <a name="how-to-assign-the-certificate-profile"></a>인증서 프로필을 할당하려면
 
 인증서 프로필을 그룹에 할당하기 전에 다음 사항을 고려합니다.
@@ -407,5 +411,4 @@ NDES 서버에서 인증서 커넥터 다운로드, 설치 및 구성
 - 각 프로필을 별도로 할당하더라도 신뢰할 수 있는 루트 CA와, SCEP 또는 PKCS 프로필을 할당해야 합니다. 그렇지 않으면 SCEP 또는 PKCS 인증서 정책에서 오류가 발생합니다.
 
 프로필을 할당하는 방법에 대한 내용은 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
-
 

@@ -9,7 +9,7 @@
 
 ### <a name="configure-automatic-mdm-enrollment"></a>자동 MDM 등록 구성
 
-1. [Azure 관리 포털](https://portal.azure.com)(https://manage.windowsazure.com)에 로그인하고 **Azure Active Directory**를 선택합니다.
+1. [Azure 관리 포털](https://portal.azure.com) (https://manage.windowsazure.com) 에 로그인하고 **Azure Active Directory**를 선택합니다.
 
   ![Azure Portal의 스크린샷](../media/auto-enroll-azure-main.png)
 
@@ -33,6 +33,9 @@
     - **MDM 사용 약관 URL**
     - **MDM 검색 URL**
     - **MDM 규정 준수 URL**
+
+    > [!IMPORTANT]
+    > 사용자가 자동 MDM 등록 및 MAM을 둘 다 사용할 수 있는 사용자 그룹의 구성원이고 사용자가 개인용 장치를 작업 공간에 연결하려는 경우 MAM만 사용할 수 있습니다. 
 
 6. **저장**을 선택합니다.
 

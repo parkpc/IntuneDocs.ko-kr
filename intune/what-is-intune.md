@@ -1,12 +1,12 @@
 ---
-title: "Azure Portal 미리 보기의 Intune 소개"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Azure Portal 미리 보기의 Intune에 대한 기본 사항 및 이를 통해 장치를 관리하는 방법을 알아봅니다."
+title: "Azure Portal의 Intune 소개"
+titleSuffix: Intune on Azure
+description: "Azure Portal의 Intune에 대한 기본 사항 및 Intune을 통해 장치를 관리하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
 nmanager: angrobe
-ms.date: 04/24/2017
+ms.date: 06/13/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,35 +14,30 @@ ms.technology:
 ms.assetid: 4a085264-232a-4af0-97f1-747496c44517
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 16d7ff50eb821e0927c3c6ea21f3cdb1257762a0
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 7549f3277c23c3951090502f2babfe7c47b0a201
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
+# <a name="introduction-to-microsoft-intune-in-the-azure-portal"></a>Azure Portal의 Microsoft Intune 소개
 
 
-# <a name="introduction-to-microsoft-intune-in-the-azure-portal-preview"></a>Azure Portal 미리 보기의 Microsoft Intune 소개
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
-
-Microsoft Intune이 Azure Portal로 전환되는 중입니다. 따라서 사용되는 워크플로 및 기능이 변경됩니다.
-새 포털에서는 조직의 모바일 장치, PC 및 앱을 관리할 수 있는 Azure Portal의 새롭고 업데이트된 기능에 대한 미리 보기를 제공합니다.
-모든 Intune 기능이 결국 Azure로 전환될 예정이지만 다수의 Intune 작업은 지금 Azure Portal에서 수행할 수 있습니다. 이 새로운 환경은 미리 보기로 제공되기 때문에 일부 기능은 포털에 아직 없을 수 있습니다. 자세한 내용은 [새로운 기능](#whats-new) 섹션을 참조하세요.
+Microsoft Intune은 이제 Azure Portal에 포함되었습니다. 따라서 이전에 사용했던 워크플로와 기능이 달라졌습니다.
+새 포털에서는 조직의 모바일 장치, PC 및 앱을 관리할 수 있는 Azure Portal의 새롭고 업데이트된 기능을 제공합니다.
 
 > [!IMPORTANT]
 > **새 포털이 아직 보이지 않으세요?**<br>
-> 테넌트를 선택하도록 미리 보기를 이미 롤아웃하기 시작했습니다. 기존 테넌트는 2017년 초부터 새 환경으로 마이그레이션됩니다. 테넌트 마이그레이션 전에 Office 메시지 센터에서 알림을 받게 됩니다.
+> 현재 기존 테넌트를 새로운 환경으로 마이그레이션하는 중입니다. 테넌트가 마이그레이션되기 전에 Office 메시지 센터에 알림이 표시됩니다.
 >
-> 2017년 1월 이전에 만든 Intune 계정은 일회성 마이그레이션을 수행해야 Azure에서 Apple 등록 워크플로를 사용할 수 있습니다. 마이그레이션 일정은 아직 공지되지 않았지만 가능한 한 빠른 시일 내에 세부 정보가 제공될 예정입니다. 기존 계정에서 미리 보기에 액세스할 수 없는 경우 평가판 계정을 만들어 새로운 경험을 테스트해 보는 것이 좋습니다.
+> 2017년 1월 이전에 만든 Intune 계정은 일회성 마이그레이션을 수행해야 Azure에서 Apple 등록 워크플로를 사용할 수 있습니다. 마이그레이션 일정은 아직 공지되지 않았습니다. 기존 계정으로 Azure Portal에 액세스할 수 없는 경우 평가판 계정을 만드는 것이 좋습니다.
+>
+> 잠재적 차단 목록을 검토합니다. https://blogs.technet.microsoft.com/intunesupport/2017/05/17/intune-migration-blockers-for-grouping-targeting/
 
 
-이 라이브러리에서 새 제품 설명서를 찾을 수 있으며, 미리 보기 중에 지속적으로 업데이트될 예정입니다. 제안 사항이 있는 경우 항목 설명에 의견을 남겨 주세요. 여러분의 의견을 듣고 싶습니다.
-
-<!--- You can view the new Intune technical preview console in Azure at [portal.azure.com]. --->
+새 포털에 대한 정보는 이 라이브러리에서 확인할 수 있으며 지속적으로 업데이트됩니다. 제안 사항이 있는 경우 항목 설명에 의견을 남겨 주세요. 여러분의 의견을 듣고 싶습니다.
 
 새 환경에 대한 요약 정보는 다음과 같습니다.
 
@@ -78,9 +73,9 @@ Azure Portal은 대부분의 최신 PC, Mac 및 태블릿에서 실행됩니다.
 ![Azure Portal 워크로드](./media/azure-portal-workloads.png)
 
 ### <a name="introduction-and-get-started"></a>소개 및 시작
-이 섹션에는 Intune의 [새로운 기능](whats-new.md), [알려진 문제](known-issues.md), [지원을 받는 방법](get-support.md) 및 [무료 평가판 시작](free-trial-sign-up.md) 방법에 대한 정보가 포함되어 있습니다.
+이 섹션에서는 Intune 사용을 시작하는 데 도움이 되는 [소개 정보](introduction-intune.md)를 제공합니다.
 ### <a name="plan-and-design"></a>계획 및 디자인
-Intune 환경의 [계획 및 디자인](/intune-classic/plan-and-design/introduction)에 도움을 주는 정보입니다.
+Intune 환경의 [계획 및 디자인](/intune-classic/plan-design/introduction)에 도움을 주는 정보입니다.
 ### <a name="device-enrollment"></a>장치 등록
 [Intune에서 장치를 관리하는 방법](device-enrollment.md)
 ### <a name="device-compliance"></a>장치 정책 준수
@@ -108,5 +103,4 @@ Intune 환경의 [계획 및 디자인](/intune-classic/plan-and-design/introduc
 
 ## <a name="whats-new"></a>새로운 기능은 무엇입니까?
 
-[미리 보기 릴리스의 새로운 기능을 알아봅니다](whats-new.md).
-
+[Intune의 새로운 기능에 대해 알아봅니다](whats-new.md).

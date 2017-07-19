@@ -1,7 +1,7 @@
 ---
 title: "Apple Configurator 일련 번호 추가"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Apple Configurator를 사용하여 회사 소유 iOS 장치에 일련 번호를 추가하는 방법을 알아봅니다."
+titleSuffix: Intune on Azure
+description: "Apple Configurator를 사용하여 회사 소유 iOS 장치에 일련 번호를 추가하는 방법을 알아봅니다.\""
 keywords: 
 author: nathbarn
 ms.author: nathbarn
@@ -15,18 +15,15 @@ ms.assetid: d408aa38-7d1e-40df-9067-246e53f6e26f
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: e3d56d93e2e229faad8effa63eeb91e627468a3a
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 689008f278e676ce0bab075c6ad6b54748e56313
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="add-apple-configurator-serial-numbers"></a>Apple Configurator 일련 번호 추가
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 [설정 도우미와 함께 Apple Configurator를 사용하여 회사 소유 iOS 장치를 등록](apple-configurator-setup-assistant-enroll-ios.md)하려는 경우 다음 단계를 통해 Intune에 일련 번호를 추가할 수 있습니다. 일련 번호를 한 번에 하나씩 추가하거나, 일련 번호의 쉼표로 구분된 값(CSV) 파일을 업로드할 수 있습니다. 일련 번호를 추가한 후 프로필을 할당할 수 있습니다. 프로필에는 장치에 적용할 특정 관리 설정이 포함되어 있습니다.
 
@@ -37,7 +34,7 @@ iOS 장치를 등록하는 다른 방법은 [Intune에서 iOS 장치를 등록�
 1. 헤더 없이 2열로 구성된 쉼표로 구분된 값(.csv) 목록을 만듭니다. 왼쪽 열에 IMEI 식별자를 추가하고 오른쪽 열에 세부 정보를 추가합니다. 현재 목록의 최대값은 500개 행입니다. 텍스트 편집기에 .csv 목록이 다음과 같이 표시됩니다.
 
     F7TLWCLBX196,장치 세부 정보</br>
-   DLXQPCWVGHMJ,장치 세부 정보
+    DLXQPCWVGHMJ,장치 세부 정보
 
 2. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
@@ -76,4 +73,3 @@ Intune을 사용하면 Azure Portal의 두 군데에서 프로필을 할당할 �
 **일련 번호의 상태를 보려면**
 
 **Apple Configurator 일련 번호** 블레이드에서 상태를 확인할 일련 번호를 선택하고 **상태** 항목 아래를 확인합니다.
-

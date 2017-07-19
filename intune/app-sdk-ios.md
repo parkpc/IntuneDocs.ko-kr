@@ -5,7 +5,7 @@ keywords:
 author: mtillman
 manager: angrobe
 ms.author: mtillman
-ms.date: 12/15/2016
+ms.date: 06/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,12 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
-ms.openlocfilehash: 9fad536aab83f0e8ae12aff8cab44943ae1ac82d
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.openlocfilehash: 0fb1d52a97a03609ddefb94caf707bd8cbee8f12
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>iOS용 Microsoft Intune 앱 SDK 개발자 가이드
 
 > [!NOTE]
@@ -460,6 +457,17 @@ MAMTelemetryDisabled| 부울| SDK가 원격 분석 데이터를 해당 백 엔�
 > [!NOTE]
 > 앱이 앱 스토어에 출시될 경우 `MAMPolicyRequired`를 앱 스토어 표준에 따라 "NO"로 설정해야 합니다.
 
+## <a name="enabling-mam-targeted-configuration-for-your-ios-applications"></a>iOS 응용 프로그램에 대해 MAM 대상 구성 사용
+MAM 대상 구성을 사용하면 앱이 Intune 앱 SDK를 통해 구성 데이터를 받을 수 있습니다. 응용 프로그램 소유자/개발자가 이 데이터의 형식 및 variant를 정의하고 Intune 고객에게 전달해야 합니다. Intune 관리자는 Intune Azure 콘솔을 통해 구성 데이터를 대상으로 지정하고 배포할 수 있습니다. iOS용 Intune 앱 SDK(v 7.0.1)를 기준으로, MAM 서비스를 통해 MAM 대상 구성에 참여하는 앱에 MAM 대상 구성 데이터를 제공할 수 있습니다. 응용 프로그램 구성 데이터는 MDM 채널을 통해 제공되는 것이 아니라 MAM 서비스를 통해 앱에 직접 푸시됩니다. Intune 앱 SDK는 이러한 콘솔에서 검색된 데이터에 액세스하기 위한 클래스를 제공합니다. 필수 조건으로 다음을 고려합니다. <br>
+* MAM 대상 구성 UI에 액세스하려면 먼저 앱을 MAM-WE에 등록해야 합니다. MAM-WE에 대한 자세한 내용은 [Intune 앱 SDK 가이드에서 장치 등록이 없는 앱 보호 정책](https://docs.microsoft.com/en-us/intune/app-sdk-ios#app-protection-policy-without-device-enrollment)을 참조하세요.
+* 앱의 원본 파일에 ```IntuneMAMAppConfigManager.h```를 포함합니다.
+* ```[[IntuneMAMAppConfig instance] appConfigForIdentity:]```를 호출하여 앱 구성 개체를 가져옵니다.
+* ```IntuneMAMAppConfig``` 개체에 대해 적절한 선택기를 호출합니다. 예를 들어 응용 프로그램 키가 문자열인 경우 ```stringValueForKey``` 또는 ```allStringsForKey```를 사용하는 것이 좋습니다. ```IntuneMAMAppConfig.h header``` 파일은 반환 값/오류 조건에 대해 설명합니다.
+
+MAM 대상 구성 값과 관련된 Graph API의 기능에 대한 자세한 내용은 [Graph API 참조 MAM 대상 구성](https://graph.microsoft.io/en-us/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create)을 참조하세요. <br>
+
+iOS에서 MAM 대상 앱 구성 정책을 만드는 방법에 대한 자세한 내용은 [iOS용 Microsoft Intune 앱 구성 정책을 사용하는 방법](https://docs.microsoft.com/en-us/intune/app-configuration-policies-use-ios)에서 MAM 대상 앱 구성 섹션을 참조하세요.
+
 ## <a name="telemetry"></a>원격 분석
 
 기본적으로 iOS용 Intune 앱 SDK는 다음 사용 이벤트에 대한 원격 분석 데이터를 기록합니다. 이 데이터는 Microsoft Intune로 전송됩니다.
@@ -656,4 +664,3 @@ Intune 앱 SDK의 정적 라이브러리 빌드와 프레임워크 빌드는 둘
     cp ~/Desktop/IntuneMAM.device_only ~/Desktop/IntuneMAM.framework/IntuneMAM
     ```
     첫 번째 명령은 프레임워크의 DYLIB 파일에서 시뮬레이터 아키텍처를 제거합니다. 두 번째 명령은 장치 전용 DYLIB 파일을 프레임워크 디렉터리에 다시 복사합니다.
-

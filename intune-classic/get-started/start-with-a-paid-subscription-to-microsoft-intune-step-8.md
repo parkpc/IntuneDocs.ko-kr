@@ -14,15 +14,12 @@ ms.assetid: 5d3215e7-0a5c-44bd-afb0-aeafce98c43f
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 64c6eb58246ac3ad232c1b8ee89d12a83e7e1784
-ms.contentlocale: ko-kr
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enable-enrollment-for-mobile-devices"></a>모바일 장치에 대한 등록 사용
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -33,8 +30,7 @@ Intune을 사용하여 모바일 장치 관리를 설정하려면 먼저 *모바
 
 ## <a name="enable-device-enrollment"></a>장치 등록 사용
 
-1. **Intune을 모바일 장치 관리 기관으로 만들기** 
-    [Intune 관리 콘솔](https://manage.microsoft.com/)에서 **관리** > **모바일 장치 관리**를 클릭하고 **작업** 아래에서 **MDM 기관 설정**을 클릭합니다.  
+1. **Intune을 모바일 장치 관리 기관으로 만들기** [Intune 관리 콘솔](https://manage.microsoft.com/)에서 **관리** > **모바일 장치 관리**를 클릭하고 **작업** 아래에서 **MDM 기관 설정**을 클릭합니다.  
 
 2. MDM 기관 대화 상자에서 **예**를 선택합니다.
 
@@ -60,7 +56,7 @@ iOS, Mac 및 Android for Work 장치에 대해 등록을 사용하도록 설정�
 
 ### <a name="enable-company-owned-device-enrollment"></a>회사 소유 장치 등록 사용
 다음을 비롯한 다양한 [회사 소유 장치 등록](/intune-classic/deploy-use/manage-corporate-owned-devices) 시나리오를 사용하도록 설정할 수도 있습니다.
-- [Apple 장치 등록 프로그램](/intune-classic/deploy-use/ios-device-enrollment-program-in-microsoft-intune)
+- [Apple 장비 등록 프로그램](/intune-classic/deploy-use/ios-device-enrollment-program-in-microsoft-intune)
 - [Apple Configurator 설치 도우미 등록](/intune-classic/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune)
 - [Apple Configurator 직접 등록](/intune-classic/deploy-use/ios-direct-enrollment-in-microsoft-intune)
 - [장치 등록 관리자](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
@@ -70,4 +66,3 @@ iOS, Mac 및 Android for Work 장치에 대해 등록을 사용하도록 설정�
 
 >[!div class="step-by-step"]
 >[&larr; **장치 등록**](.\start-with-a-paid-subscription-to-microsoft-intune-step-8.md)     [**구성 후 작업** &rarr;](.\post-configuration-tasks.md)  
-

@@ -1,7 +1,7 @@
 ---
 title: "온-프레미스 Exchange 조건부 액세스 정책 만들기 및 할당"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Intune에서 Exchange 온-프레미스 조건부 액세스 및 기존 Exchange Online Dedicated를 구성하는 방법"
+titleSuffix: Intune on Azure
+description: "Intune에서 Exchange 온-프레미스 조건부 액세스 및 레거시 Exchange Online Dedicated를 구성하는 방법을 알아봅니다.\""
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -14,18 +14,15 @@ ms.technology:
 ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 2f1775eb98d6518ce35dcc38852e167c5eada616
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: b72dbe27b52be187a907392aea5a1803fb36e4d3
+ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/03/2017
 ---
+# <a name="how-to-create-and-assign-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated-in-microsoft-intune"></a>Microsoft Intune에서 Exchange 온-프레미스 및 레거시 Exchange Online Dedicated용 조건부 액세스 정책을 만들고 할당하는 방법
 
-# <a name="how-to-create-and-assign-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated-in-microsoft-intune-azure-preview"></a>Microsoft Intune Azure Preview에서 Exchange 온-프레미스 및 레거시 Exchange Online Dedicated용 조건부 액세스 정책을 만들고 할당하는 방법
-
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 이 항목에서는 장치 준수를 기반으로 Exchange 온-프레미스에 대한 조건부 액세스를 구성하는 프로세스를 안내합니다.
 
@@ -85,7 +82,7 @@ Windows 8.1 이상에 설치된 기본 **메일** 응용 프로그램(Intune에 
 
 4. **Intune**을 선택하면 **Intune 대시보드**가 표시됩니다.
 
-5.  **조건부 액세스**를 선택하고 다음을 선택합니다.
+5. **온-프레미스 액세스**를 선택한 후 다음을 선택합니다.
 
 6. **온-프레미스** 블레이드에 조건부 액세스 정책의 상태 및 그 영향을 받는 장치가 표시됩니다.
 
@@ -93,8 +90,8 @@ Windows 8.1 이상에 설치된 기본 **메일** 응용 프로그램(Intune에 
 
 8. **Exchange 온-프레미스 액세스** 블레이드에서 **예**를 선택하여 Exchange 온-프레미스 액세스 제어를 사용하도록 설정합니다.
 
-      > [!NOTE]
-      > Exchange Active Sync 온-프레미스 커넥터를 구성하지 않은 경우에는 이 옵션을 사용할 수 없습니다.  Exchange 온-프레미스에 대한 조건부 액세스를 설정하려면 먼저 이 커넥터를 설치하고 구성해야 합니다. 자세한 내용은 [Intune 온-프레미스 Exchange Connector 설치](exchange-connector-install.md)를 참조하세요.
+    > [!NOTE]
+    > Exchange Active Sync 온-프레미스 커넥터를 구성하지 않은 경우에는 이 옵션을 사용할 수 없습니다.  Exchange 온-프레미스에 대한 조건부 액세스를 설정하려면 먼저 이 커넥터를 설치하고 구성해야 합니다. 자세한 내용은 [Intune 온-프레미스 Exchange Connector 설치](exchange-connector-install.md)를 참조하세요.
 
 9. **할당** 아래에서 **그룹 포함됨**을 선택합니다.  조건부 액세스를 적용해야 하는 보안 사용자 그룹을 사용합니다. 그러려면 사용자가 Intune에 장치를 등록하고 준수 프로필을 준수해야 합니다.
 
@@ -114,12 +111,12 @@ Windows 8.1 이상에 설치된 기본 **메일** 응용 프로그램(Intune에 
 
 15. **온-프레미스** 블레이드에서 **저장**을 클릭하여 조건부 액세스 정책을 저장합니다.
 
-## <a name="create-azure-ad-conditional-access-policies-in-intune-azure-preview"></a>Intune Azure Preview에서 Azure AD 조건부 액세스 정책 만들기
+## <a name="create-azure-ad-conditional-access-policies-in-intune"></a>Intune에서 Azure AD 조건부 액세스 정책 만들기
 
-Intune 1704 릴리스부터는 관리자가 Intune Azure Preview에서 Azure AD 조건부 액세스 정책을 만들 수 있습니다. 이렇게 하면 Azure 작업과 Intune 작업 간을 전환하지 않아도 되므로 편리합니다.
+Intune 1704 릴리스부터는 관리자가 Intune Azure Portal에서 Azure AD 조건부 액세스 정책을 만들 수 있습니다. 이렇게 하면 Azure 워크로드와 Intune 워크로드 간을 전환하지 않아도 되므로 편리합니다.
 
 > [!IMPORTANT]
-> Intune Azure Preview 포털에서 Azure AD 조건부 액세스 정책을 만들려면 Azure AD Premium 라이선스가 있어야 합니다.
+> Intune Azure Portal에서 Azure AD 조건부 액세스 정책을 만들려면 Azure AD Premium 라이선스가 있어야 합니다.
 
 ### <a name="to-create-azure-ad-conditional-access-policy"></a>Azure AD 조건부 액세스 정책을 만들려면
 
