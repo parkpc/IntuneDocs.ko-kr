@@ -1,6 +1,6 @@
 ---
 title: "Intune 기본 설정"
-description: "이 문서의 목적은 Microsoft Intune을 설정하는 데 필요한 단계를 제공하는 것입니다."
+description: "이 문서는 Microsoft Intune을 설정하는 데 필요한 단계를 제공합니다."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,16 +13,13 @@ ms.technology:
 ms.assetid: 60cfa440-0723-4ea0-bacf-3c5d26f9a1d3
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.custom: intune-classic
-ms.openlocfilehash: c3129b2a8d93e91493455da5f3e5fd1a59dd77bb
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 9ea12f3707b830f0e3426526a7ae91d176d6e809
+ms.sourcegitcommit: fb17b59f4aa2b994b149fcc6d32520f74b0de6a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/12/2017
 ---
 # <a name="basic-setup"></a>기본 설정
-
-[!INCLUDE[note for both-portals](./includes/note-for-both-portals.md)]
 
 환경을 평가했으면 Intune을 설정할 차례입니다.
 
@@ -30,27 +27,25 @@ ms.lasthandoff: 07/01/2017
 
 ### <a name="identity"></a>ID
 
-Intune은 ID 및 사용자 그룹화 공급자로 AAD(Azure Active Directory)가 필요합니다.
+Intune은 ID 및 사용자 그룹화 공급자로 AAD(Azure Active Directory)가 필요합니다. 다음에 대해 자세히 알아보세요.
 
--   [ID 요구 사항](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-overview#design-considerations-overview)에 대해 자세히 알아보세요.
+-  [ID 요구 사항](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-overview#design-considerations-overview)
 
--   [디렉터리 동기화 요구 사항](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-directory-sync-requirements)에 대해 자세히 알아보세요.
+-   [디렉터리 동기화 요구 사항](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-directory-sync-requirements)
 
--   [다단계 인증 요구 사항](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-multifactor-auth-requirements)에 대해 자세히 알아보세요.
+-   [MFA(다단계 인증) 요구 사항](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-multifactor-auth-requirements)
 
--   [사용자 및 장치 그룹 계획](/intune/users-permissions-add)에 대해 자세히 알아보세요.
+-   [사용자 및 장치 그룹 계획](users-add.md)
 
--   [사용자 및 장치 그룹을 만드는 방법](/intune/groups-get-started)에 대해 알아보세요.
+-   [사용자 및 장치 그룹을 만드는 방법](groups-get-started.md)
 
-조직이 이미 Office 365를 사용하고 있는 경우 Intune에서 동일한 Azure Active Directory 환경을 사용하는 것이 중요합니다.
+조직이 이미 Office 365를 사용하고 있는 경우 Intune에서 동일한 Azure Active Directory 환경을 사용해야 합니다.
 
 ### <a name="pki-optional"></a>PKI(선택 사항)
 
-Intune에서 VPN, Wi-Fi 또는 메일 프로필에 인증서 기반 인증을 사용할 계획인 경우 지원되는 [PKI 인프라를 구축](/intune/certificates-configure)하고, 인증서 프로필을 만들어 배포할 준비가 되었는지 확인해야 합니다.
+Intune에서 VPN, Wi-Fi 또는 메일 프로필에 인증서 기반 인증을 사용할 계획인 경우 지원되는 [PKI 인프라를 구축](certificates-configure.md)하고, 인증서 프로필을 만들어 배포할 준비가 되었는지 확인해야 합니다. Intune에서 인증서를 구성하는 방법에 대해 자세히 알아보세요.
 
-Intune에서 인증서를 구성하는 방법에 대한 자세한 내용은 다음을 참조하세요.
-
--   [How to configure the certificate infrastructure for SCEP](/intune/certificates-scep-configure)(SCEP 인증서 인프라 구성 방법)
+-   [SCEP 인증서 인프라 구성 방법](/intune/certificates-scep-configure)
 
 -   [PFX 인증서 인프라 구성](/intune/certficates-pfx-configure)
 
@@ -82,8 +77,8 @@ Intune Azure Portal을 사용하도록 설정하려면 MDM 기관을 **Intune**�
 > [!IMPORTANT]
 > 모바일 장치 관리를 Intune에 처음으로 전송할 경우 MDM 기관을 Intune으로 설정해야 합니다.
 
--   [모바일 관리 기관을 설정하는 방법](/intune/mdm-authority-set)에 대해 알아보세요.
+[모바일 관리 기관을 설정하는 방법](mdm-authority-set.md)에 대해 알아보세요.
 
 ## <a name="next-step"></a>다음 단계
 
-[장치 및 앱 관리 정책 구성](migration-guide-configure-policies.md)
+[장치 및 앱 관리 정책](migration-guide-configure-policies.md)을 구성합니다.

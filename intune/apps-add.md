@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/28/2017
+ms.date: 07/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: a1ded457-0ecf-4f9c-a2d2-857d57f8d30a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6a4dfa9e0066a2ac6f410aa9f8e4d77a40484ea5
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 69b1540d325f7cfa49e11f91fcb72a464f8a2e0e
+ms.sourcegitcommit: fb17b59f4aa2b994b149fcc6d32520f74b0de6a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/12/2017
 ---
 # <a name="how-to-add-an-app-to-microsoft-intune"></a>Microsoft Intune에 앱을 추가하는 방법
 
@@ -79,34 +79,9 @@ Intune에 앱을 추가하는 경우 원하는 범주를 선택할 수 있는 �
 
 ## <a name="apps-added-automatically-by-intune"></a>Intune에서 자동으로 추가된 앱
 
-Microsoft에서 게시된 다음 앱은 Intune에 기본 제공되며 직접 지정할 수 있습니다.
-
-|||
-|-|-|
-|Name|플랫폼|앱 유형|
-|Azure Information Protection|Android|관리되는 Android 스토어 앱|
-|휴대폰용 Dynamics CRM|Android|관리되는 Android 스토어 앱|
-|태플릿용 Dynamics CRM|Android|관리되는 Android 스토어 앱|
-|Excel|iOS|관리되는 iOS 스토어 앱|
-|Excel|Android|관리되는 Android 스토어 앱|
-|Managed Browser|Android|관리되는 Android 스토어 앱|
-|Managed Browser|iOS|관리되는 iOS 스토어 앱|
-|휴대폰용 Microsoft Dynamics CRM|iOS|관리되는 iOS 스토어 앱|
-|태블릿용 Microsoft Dynamics CRM|iOS|관리되는 iOS 스토어 앱|
-|Microsoft Power BI|iOS|관리되는 iOS 스토어 앱|
-|Microsoft Power BI|Android|관리되는 Android 스토어 앱|
-|Microsoft SharePoint|iOS|관리되는 iOS 스토어 앱|
-|Microsoft SharePoint|Android|관리되는 Android 스토어 앱|
-|Microsoft Teams|Android|관리되는 Android 스토어 앱|
-|Microsoft Teams|iOS|관리되는 iOS 스토어 앱|
-|OneDrive|iOS|관리되는 iOS 스토어 앱|
-|OneDrive|Android|관리되는 Android 스토어 앱|
-|OneNote|iOS|관리되는 iOS 스토어 앱|
-|Outlook|Android|관리되는 Android 스토어 앱|
-|Outlook|iOS|관리되는 iOS 스토어 앱|
-|Outlook Groups|Android|관리되는 Android 스토어 앱|
-|Outlook Groups|iOS|관리되는 iOS 스토어 앱|
-|PowerPoint|iOS|관리되는 iOS 스토어 앱|
+이전에는 Intune에 신속하게 할당할 수 있는 많은 기본 제공 앱이 포함되어 있었습니다. 사용자 의견에 따라 이 목록은 제거되었으며 더 이상 기본 제공 앱은 표시되지 않습니다.
+그러나 이미 기본 제공 앱을 할당한 경우 이러한 앱은 여전히 앱 목록에 표시됩니다. 필요에 따라 이러한 앱을 계속 할당할 수 있습니다.
+이후 릴리스에서, Intune 포털에서 기본 제공 앱을 더 쉽게 선택하고 할당하는 방법이 추가될 예정입니다.
 
 ## <a name="next-steps"></a>다음 단계
 

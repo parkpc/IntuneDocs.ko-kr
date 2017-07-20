@@ -4,7 +4,7 @@ description: "이 가이드를 사용하여 Microsoft Intune 클라이언트 소
 keywords: 
 author: nathbarn
 ms.author: nathbarn
-ms.date: 03/27/2017
+ms.date: 07/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 356ada64224f8982baf93ddaccb44df123c4568c
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 8e10f3a72cf522888108895f9f7141480b9af0b3
+ms.sourcegitcommit: 2a6ad3c233d15a9fb441362105f64b2bdd550c34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/13/2017
 ---
 # <a name="install-the-intune-software-client-on-windows-pcs"></a>Windows PC에 Intune 소프트웨어 클라이언트 설치
 
@@ -32,6 +32,8 @@ Intune 클라이언트 소프트웨어를 설치하여 Windows PC를 등록할 �
 Intune 클라이언트 소프트웨어에는 PC를 Intune 관리에 등록하는 데 필요한 최소 소프트웨어가 포함됩니다. PC가 등록되면 Intune 클라이언트 소프트웨어는 PC 관리에 필요한 전체 클라이언트 소프트웨어를 다운로드합니다.
 
 이 일련의 다운로드는 네트워크 대역폭에 미치는 영향을 줄이고 처음에 PC를 Intune에 등록하는 데 필요한 시간을 최소화합니다. 또한 두 번째 다운로드가 완료된 후 클라이언트에서 최신 소프트웨어를 사용할 수 있도록 해줍니다.
+
+하나의 Intune 라이선스가 있으면 최대 5대의 PC에 Intune 클라이언트 소프트웨어를 설치할 수 있습니다.
 
 ## <a name="download-the-intune-client-software"></a>Intune 클라이언트 소프트웨어 다운로드
 

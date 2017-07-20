@@ -14,11 +14,11 @@ ms.assetid: e471fed8-19f0-4b37-aaa2-65f28a6b4794
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c503539679ec0b3e0326048743b9fd64eaa4a99b
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 68b02a52dce49db470b11cbdf32308a74688ca45
+ms.sourcegitcommit: f100c943a635f5a08254ba7cf30f1aaebb7e810e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/13/2017
 ---
 # <a name="how-your-windows-users-get-their-apps"></a>Windows 사용자가 앱을 얻는 방법
 
@@ -35,5 +35,5 @@ ms.lasthandoff: 07/01/2017
 **관리되지 않는 앱**은 정책을 통해 관리할 수 있고 Intune에서 래핑되지 않았거나 Intune MAM SDK를 통합하지 않은 앱입니다. 응용 프로그램 정책을 이러한 앱에 적용할 수 없습니다.
 
 ### <a name="see-also"></a>참고 항목
-[Android 사용자가 앱을 얻는 방법](end-user-apps-android.md)</br>
+[Android 사용자가 앱을 얻는 방법](end-user-apps-android.md)
 [iOS 사용자가 앱을 얻는 방법](end-user-apps-android.md)

@@ -6,7 +6,7 @@ keywords:
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 06/28/2017
+ms.date: 07/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,21 +15,21 @@ ms.assetid: 566ed16d-8030-42ee-bac9-5f8252a83012
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 57ab3b79ad53a4b195fac426d211a114f054602f
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: a9852759983a4bc68c596146e2f5691893376cfd
+ms.sourcegitcommit: 388c5f59bc992375ac63968fd7330af5d84a1348
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/12/2017
 ---
 # <a name="add-corporate-identifiers"></a>회사 식별자 추가
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-IT 관리자 역할로, IMEI(International Mobile Equipment Identifier) 번호 또는 일련 번호가 나열된 쉼표로 구분된 값(.csv) 파일을 만든 후 가져와서 회사 소유의 장치를 식별할 수 있습니다. iOS 및 Android 장치에 대한 일련 번호만 선언할 수 있습니다. 각 IMEI 또는 일련 번호에는 관리 용도로 목록에 지정된 세부 정보를 포함할 수 있습니다.
+Intune 관리자는 IMEI(International Mobile Equipment Identifier) 번호 또는 일련 번호가 나열된 쉼표로 구분된 값(.csv) 파일을 만들고 가져올 수 있습니다. Intune에서는 이러한 식별자를 사용하여 장치 소유권을 회사로 지정합니다. 모든 지원되는 플랫폼에 대해서만 IMEI 번호를 선언할 수 있습니다. iOS 및 Android 장치에 대한 일련 번호만 선언할 수 있습니다. 각 IMEI 또는 일련 번호에는 관리 용도로 목록에 지정된 세부 정보를 포함할 수 있습니다.
 
 <!-- When you upload serial numbers for company-owned iOS devices, they must be paired with a corporate enrollment profile. Devices must then be enrolled using either Apple’s device enrollment program (DEP) or Apple Configurator to have them appear as company-owned. -->
 
-[Apple 장치 일련 번호를 확인하는 방법을 알아봅니다](https://support.apple.com/HT204308).
+[Apple 장치 일련 번호를 확인하는 방법을 알아봅니다](https://support.apple.com/HT204308).<br>
 [Android 장치 일련 번호를 확인하는 방법을 알아봅니다](https://support.google.com/store/answer/3333000).
 
 ## <a name="add-corporate-identifiers"></a>회사 식별자 추가
@@ -50,7 +50,10 @@ IT 관리자 역할로, IMEI(International Mobile Equipment Identifier) 번호 �
 ```
 
 > [!IMPORTANT]
-> 일부 Android 장치는 IMEI 번호가 여러 개 있습니다. Intune은 등록된 장치당 하나의 IMEI 번호만 읽습니다. IMEI 번호를 가져오지만 Intune에서 인벤토리에 배정한 IMEI가 아닌 경우 장치는 회사 소유 장치가 아니라 개인 장치로 분류됩니다. 한 장치에 대해 여러 IMEI 번호를 가져오면 인벤토리에 배정되지 않은 번호는 등록 상태가 **알 수 없음**으로 표시됩니다.
+> 일부 Android 장치는 IMEI 번호가 여러 개 있습니다. Intune은 등록된 장치당 하나의 IMEI 번호만 읽습니다. IMEI 번호를 가져오지만 Intune에서 인벤토리에 배정한 IMEI가 아닌 경우 장치는 회사 소유 장치가 아니라 개인 장치로 분류됩니다. 한 장치에 대해 여러 IMEI 번호를 가져오면 인벤토리에 배정되지 않은 번호는 등록 상태가 **알 수 없음**으로 표시됩니다.<br>
+>참고: Android 일련 번호는 고유함이나 존재가 보장되지 않습니다. 일련 번호가 신뢰할 수 있는 장치 ID인지는 해당 장치 공급자에게 확인하세요.
+>장치에서 Intune으로 보고된 일련 번호는 장치의 Android 설정/정보 메뉴에 표시되는 ID와 일치하지 않을 수 있습니다. 장치 제조업체에 보고된 일련 번호 형식을 확인하세요.
+
 
 **회사 식별자의 .csv 목록을 추가하려면**
 
@@ -62,9 +65,9 @@ IT 관리자 역할로, IMEI(International Mobile Equipment Identifier) 번호 �
 
 3. 폴더 아이콘을 클릭하고 가져오려는 목록의 경로를 지정하세요. IMEI .csv 파일로 이동하여 **추가**를 선택합니다. **새로 고침**을 클릭하면 새로운 장치 식별자를 확인할 수 있습니다.
 
-번호를 가져오면 이러한 장치는 등록되거나 등록되지 않을 수도 있으며, 상태가 **등록됨** 또는 **연결되지 않음**으로 지정될 수 있습니다. **연결되지 않음**은 장치가 Intune 서비스와 통신된 적이 없음을 의미합니다.
+가져온 장치가 반드시 등록되지는 않습니다. 장치는 **등록됨** 또는 **연결되지 않음** 중 하나의 상태일 수 있습니다. **연결되지 않음**은 장치가 Intune 서비스와 통신된 적이 없음을 의미합니다.
 
-## <a name="delete--corporate-identifiers"></a>회사 식별자 삭제
+## <a name="delete-corporate-identifiers"></a>회사 식별자 삭제
 
 1. Intune 포털에서 **장치 등록** > **등록 제한**을 선택하고 **회사 장치 식별자**를 선택한 다음 **삭제**를 선택합니다.
 
