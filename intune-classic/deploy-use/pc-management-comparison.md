@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 05/11/2017
+ms.date: 07/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 068a73bb-e6b3-44a6-8f6e-4cf7d455bbf3
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 560ce922fa58e759157358c6b7348fe0388ce408
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 37c4c3a1b51479b1a6450cc66ab502d579804015
+ms.sourcegitcommit: f100c943a635f5a08254ba7cf30f1aaebb7e810e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/13/2017
 ---
 # <a name="compare-managing-windows-pcs-as-computers-or-mobile-devices"></a>Windows PC를 컴퓨터로 관리하는 방식과 모바일 장치로 관리하는 방식 비교
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 07/01/2017
 |**Windows 방화벽 정책**|사용 가능 <br>[Windows 방화벽 정책을 사용하여 Windows PC 보호](https://docs.microsoft.com/intune/deploy-use/help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune) |사용할 수 없음|
 |**맬웨어 방지 보호**|Endpoint Protection<br>[Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](https://docs.microsoft.com/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)|Windows Defender<br>[Windows Defender 설정](https://docs.microsoft.com/intune-azure/configure-devices/custom-for-windows-10#windows-defender-settings)|
 |**원격 지원** |TeamViewer<br>[Windows PC 원격 지원 요청 및 제공](https://docs.microsoft.com/intune/deploy-use/request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune)|사용할 수 없음 |
-|**앱 배포** | 비즈니스용 Microsoft 스토어에는 사용할 수 없음<br>.exe, appx 및 다중 파일 .msi만 해당<br>[Intune 소프트웨어 클라이언트를 실행하는 Windows PC에 앱 추가](https://docs.microsoft.com/intune/deploy-use/add-apps-for-windows-pcs-in-microsoft-intune)|Microsoft 스토어 앱과 기간 업무 앱에 사용 가능<br>[Windows 스토어 앱을 추가하는 방법](https://docs.microsoft.com/intune-azure/manage-apps/windows-store-app)<br>Microsoft 앱 배포 및 Win32 앱 출시 예정 |
+|**앱 배포** | 비즈니스용 Microsoft 스토어에는 사용할 수 없음<br>.exe, appx 및 다중 파일 .msi만 해당<br>[Intune 소프트웨어 클라이언트를 실행하는 Windows PC에 앱 추가](https://docs.microsoft.com/intune/deploy-use/add-apps-for-windows-pcs-in-microsoft-intune)|Microsoft 스토어 앱과 기간 업무 앱에 사용 가능<br>[Windows 스토어 앱을 추가하는 방법](https://docs.microsoft.com/intune/store-apps-windows)<br>[Windows LOB(기간 업무) 앱을 추가하는 방법](https://docs.microsoft.com/intune/lob-apps-windows)|
 |**앱 보호**|사용할 수 없음|사용 가능 <br>[앱 보호 정책이란?](https://docs.microsoft.com/intune-azure/manage-apps/what-is-app-protection-policy)|
 
 

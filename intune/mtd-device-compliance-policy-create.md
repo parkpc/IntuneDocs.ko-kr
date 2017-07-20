@@ -15,13 +15,16 @@ ms.assetid: 5d12254f-ffab-4792-b19c-ab37f5e02f35
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1354d3170f007af2a4bf7f5b2f233a186175c621
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: c6b05522c7390acb3974e088ecd60d13db46ef5a
+ms.sourcegitcommit: 3b21f20108e2bf1cf47c141b36a7bdae609c4ec3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/10/2017
 ---
 # <a name="create-mobile-threat-defense-mtd-device-compliance-policy-with-intune"></a>Intune을 사용하여 MTD(Mobile Threat Defense) 장치 준수 정책 만들기
+
+> [!NOTE] 
+> 이 항목은 모든 Mobile Threat Defense 파트너에게 적용됩니다.
 
 Intune 및 MTD를 사용하면 위협을 검색하고 모바일 장치의 위험을 평가할 수 있습니다. 위험을 평가하는 Intune 장치 준수 정책 규칙을 만들어 장치가 정책을 준수하는지 여부를 확인할 수 있습니다. 그런 다음 조건부 액세스 정책을 사용하여 장치 준수 여부에 따라 액세스를 차단할 수 있습니다.
 
@@ -57,7 +60,7 @@ MTD를 사용한 장치 준수 정책에 대한 필수 조건:
 
     c.  **보통**: 낮음 또는 보통 수준의 위협이 발견되는 장치는 규격 장치입니다. 높은 수준의 위협이 검색되는 장치는 비규격으로 간주됩니다.
 
-    d.  **높음**: 안전성이 가장 낮은 수준입니다. 이 수준은 모든 위협 수준을 허용하며 보고용으로만 Skycure Mobile Threat Defense를 사용합니다.
+    d.  **높음**: 안전성이 가장 낮은 수준입니다. 이 수준은 모든 위협 수준을 허용하며 보고용으로만 Mobile Threat Defense를 사용합니다. 장치에 MTD 앱이 이 설정으로 활성화되어 있어야 합니다.
 
 8.  **확인**을 두 번 클릭하고 **만들기**를 선택합니다.
 

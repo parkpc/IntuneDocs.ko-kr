@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 06/30/2017
+ms.date: 07/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f509f5332b2f8b5f6745816f8795a9a54c10ce2d
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 654a19dd6f1e5f4fd2bda771b0df95b87944db75
+ms.sourcegitcommit: 2a6ad3c233d15a9fb441362105f64b2bdd550c34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 07/13/2017
 ---
 # <a name="set-up-ios-device-enrollment-with-device-enrollment-program"></a>장비 등록 프로그램을 사용하여 iOS 장치 등록 설정
 
@@ -27,24 +27,24 @@ ms.lasthandoff: 07/03/2017
 
 IT 관리자는 이 항목의 정보를 참조하여 Apple의 [DEP(장비 등록 프로그램)](https://deploy.apple.com)를 통해 구매한 장치에 대해 iOS 장치 등록을 사용할 수 있습니다. Microsoft Intune은 DEP를 통해 구매한 장치에 등록 프로필을 “무선으로“ 배포할 수 있습니다. 따라서 관리자가 각 관리 장치를 직접 조작할 필요가 없습니다. DEP 프로필에는 설정 도우미 옵션을 비롯하여 등록 중 장치에 적용되는 관리 설정이 포함되어 있습니다.
 
-DEP 등록을 사용하도록 설정하려면 Intune과 Apple DEP 포털을 둘 다 사용합니다. Apple 포털에서 관리하기 위해 Intune에 할당할 수 있도록 DEP 장치 목록 또는 구매 주문 번호도 필요합니다.
+DEP 등록을 사용하도록 설정하려면 Intune과 Apple DEP 포털을 둘 다 사용합니다. Apple 포털에서 관리하기 위해 Intune에 할당할 수 있도록 ID 목록 또는 구매 주문 번호도 필요합니다.
 
 >[!NOTE]
 >DEP 등록은 [장치 등록 관리자](device-enrollment-manager-enroll.md)와 함께 사용할 수 없습니다.
 
 **Apple에서 등록 프로그램을 사용하도록 설정하는 단계**
-1. [Apple DEP 토큰을 가져오고 장치 할당](#get-the-apple-dep-certificate)
-2. [등록 프로필 만들기](#create-anapple-enrollment-profile)
-3. [DEP 관리 장치 동기화](#sync-dep-managed-devices)
-4. [장치에 DEP 프로필 할당](#assign-a-dep-profile-to-devices)
-5. [사용자에게 장치 배포](#distribute-devices-to-users)
+1. [Apple DEP 토큰을 가져오고 장치 할당](#get-the-apple-dep-token)
+2. [등록 프로필 만들기](#create-an-apple-enrollment-profile)
+3. [DEP 관리 장치 동기화](#sync-managed-device)
+4. [장치에 DEP 프로필 할당](#assign-an-enrollment-profile-to-devices)
+5. [사용자에게 장치 배포](#end-user-experience-with-managed-devices)
 
 ## <a name="get-the-apple-dep-token"></a>Apple DEP 토큰 가져오기
 
 회사 소유 iOS 장치를 Apple의 DEP(장비 등록 프로그램)에 등록하려면 Apple의 DEP 토큰(.p7m) 파일이 필요합니다. Intune에서는 이 토큰을 통해 회사에서 소유한 DEP 참가 장치에 대한 정보를 동기화할 수 있습니다. 또한 Apple에 등록 프로필을 업로드하고 이러한 프로필에 장치를 할당할 수 있습니다.
 
 > [!NOTE]
-> Intune 테넌트가 Intune 클래식 콘솔에서 Azure Portal로 마이그레이션되었고 사용자가 마이그레이션 기간에 Intune 관리 콘솔에서 Apple DEP 토큰을 삭제한 경우 DEP 토큰이 Intune 계정으로 복원되었을 수 있습니다. Azure Portal에서 DEP 토큰을 다시 삭제할 수 있습니다.
+> Azure로 마이그레이션하기 전에 Intune 클래식 콘솔에서 토큰을 삭제하면 Intune이 삭제된 Apple DEP 토큰을 복원할 수 있습니다. Azure Portal에서 DEP 토큰을 다시 삭제할 수 있습니다. Azure Portal에서 DEP 토큰을 다시 삭제할 수 있습니다.
 
 **전제 조건**
 - [Apple MDM Push certificate](apple-mdm-push-certificate-get.md)
@@ -52,39 +52,49 @@ DEP 등록을 사용하도록 설정하려면 Intune과 Apple DEP 포털을 둘 
 
 **1단계. Apple DEP 토큰을 만드는 데 필요한 Intune 공개 키 인증서를 다운로드합니다.**<br>
 1. Intune 포털에서 **장치 등록**을 선택한 다음 **Apple 등록**, **등록 프로그램 토큰**을 차례로 선택합니다.
-![Apple 인증서 작업 영역의 등록 프로그램 토큰 창 스크린샷](./media/enrollment-program-token-add.png)
+
+  ![Apple 인증서 작업 영역의 등록 프로그램 토큰 창 스크린샷](./media/enrollment-program-token-add.png)
+
 2. **공개 키 다운로드**를 선택하여 암호화 키(.pem) 파일을 다운로드하고 로컬로 저장합니다. .pem 파일은 Apple 장비 등록 프로그램 포털에서 트러스트 관계 인증서를 요청하는 데 사용됩니다.
-![공개 키를 다운로드하기 위한 Apple 인증서 작업 영역의 등록 프로그램 토큰 창 스크린샷](./media/enrollment-program-token-download.png)
+
+  ![공개 키를 다운로드하기 위한 Apple 인증서 작업 영역의 등록 프로그램 토큰 창 스크린샷](./media/enrollment-program-token-download.png)
 
 **2단계. Apple DEP 토큰을 만들고 다운로드합니다.**<br>
-**Apple 장비 등록 프로그램을 통해 토큰 만들기**를 선택하여 Apple 배포 프로그램 포털을 열고 회사 Apple ID로 로그인합니다. 이 Apple ID를 사용하여 DEP 토큰을 갱신할 수 있습니다.
+1. **Apple 장비 등록 프로그램을 통해 토큰 만들기**를 선택하여 Apple 배포 프로그램 포털을 열고 회사 Apple ID로 로그인합니다. 이 Apple ID를 사용하여 DEP 토큰을 갱신할 수 있습니다.
+
   ![Apple 인증서 작업 영역의 등록 프로그램 토큰 창 스크린샷](./media/enrollment-program-token-create.png)
 
   ![공개 키를 다운로드하기 위한 Apple 인증서 작업 영역의 등록 프로그램 토큰 창 스크린샷](./media/enrollment-program-token-sign.png)
-   1.  Apple [배포 프로그램 포털](https://deploy.apple.com)에서 **장비 등록 프로그램**에 대해 **시작**을 선택합니다.
+2.  Apple [배포 프로그램 포털](https://deploy.apple.com)에서 **장비 등록 프로그램**에 대해 **시작**을 선택합니다.
+
    ![장비 등록 프로그램에 대해 시작을 클릭하는 등록 프로그램 스크린샷](./media/enrollment-program-token-started.png)
-   2. **서버 관리** 페이지에서 **MDM 서버 추가**를 선택합니다.
-   3. **MDM 서버 이름**을 입력하고 **다음**을 선택합니다. 서버 이름은 참조용으로 MDM(모바일 장치 관리) 서버를 식별하기 위한 것으로, Microsoft Intune 서버의 이름 또는 URL이 아닙니다.
+
+3. **서버 관리** 페이지에서 **MDM 서버 추가**를 선택합니다.
+4. **MDM 서버 이름**을 입력하고 **다음**을 선택합니다. 서버 이름은 참조용으로 MDM(모바일 장치 관리) 서버를 식별하기 위한 것으로, Microsoft Intune 서버의 이름 또는 URL이 아닙니다.
 
    ![DEP에 대해 MDM 서버 이름을 추가하고 다음을 클릭하는 스크린샷](./media/enrollment-program-token-add-server.png)
-   4.  **&lt;ServerName&gt; 추가** 대화 상자가 열리고 **공개 키 업로드**가 표시됩니다. **파일 선택...**을 선택하여 .pem 파일을 업로드하고 **다음**을 선택합니다.
+
+5. **&lt;ServerName&gt; 추가** 대화 상자가 열리고 **공개 키 업로드**가 표시됩니다. **파일 선택...**을 선택하여 .pem 파일을 업로드하고 **다음**을 선택합니다.
+
    ![공개 키 파일 단추를 선택하고 다음을 클릭하는 스크린샷](./media/enrollment-program-token-choose-file.png)
-   4.  **&lt;ServerName&gt; 추가** 대화 상자에 **내 서버 토큰** 링크가 표시됩니다. 컴퓨터에 서버 토큰(.p7m) 파일을 다운로드한 다음 **완료**를 선택합니다.
+6.  **&lt;ServerName&gt; 추가** 대화 상자에 **내 서버 토큰** 링크가 표시됩니다. 컴퓨터에 서버 토큰(.p7m) 파일을 다운로드한 다음 **완료**를 선택합니다.
    ![공개 키 파일 단추를 선택하고 다음을 클릭하는 스크린샷](./media/enrollment-program-token-your-token.png)
-   5. **배포 프로그램** &gt; **장비 등록 프로그램** &gt; **장치 관리**로 이동합니다.
-   6. **장치 선택 기준**에서 장치를 식별하는 방법을 지정합니다.
+7. **배포 프로그램** &gt; **장비 등록 프로그램** &gt; **장치 관리**로 이동합니다.
+8. **장치 선택 기준**에서 장치를 식별하는 방법을 지정합니다.
     - **일련 번호**
     - **주문 번호**
     - **CSV 파일 업로드**
 
    ![일련 번호로 장치 선택을 지정하고 작업 선택을 서버에 할당으로 설정한 다음 서버 이름을 선택하는 스크린샷](./media/enrollment-program-token-specify-serial.png)
 
-   7. **작업 선택**에서 **서버에 할당**을 선택하고 Microsoft Intune에 대해 지정된 &lt;ServerName&gt;을 선택한 다음 **확인**을 선택합니다. Apple Portal에서 관리를 위해 지정된 장치를 Intune 서버에 할당한 다음 **할당 완료**를 표시합니다.
+9. **작업 선택**에서 **서버에 할당**을 선택하고 Microsoft Intune에 대해 지정된 &lt;ServerName&gt;을 선택한 다음 **확인**을 선택합니다. Apple Portal에서 관리를 위해 지정된 장치를 Intune 서버에 할당한 다음 **할당 완료**를 표시합니다.
 
    Apple Portal에서 **배포 프로그램** &gt; **장비 등록 프로그램** &gt; **할당 기록 보기**로 이동하여 장치 목록 및 해당 MDM 서버 할당을 확인합니다.
 
 **3단계. 등록 프로그램 토큰을 만드는 데 사용되는 Apple ID를 입력합니다.**<br>Intune 포털에서 나중에 참조할 수 있도록 Apple ID를 제공합니다. 모든 장치를 다시 등록할 필요가 없도록 이 ID를 사용하여 등록 프로그램 토큰을 갱신합니다.
-![등록 프로그램 토큰을 만드는 데 사용된 Apple ID를 지정하고 등록 프로그램 토큰을 찾는 스크린샷](./media/enrollment-program-token-apple-id.png)
+
+![등록 프로그램 토큰을 만드는 데 사용되는 Apple ID를 지정하고 등록 프로그램 토큰을 찾는 스크린샷](./media/enrollment-program-token-apple-id.png)
+
 **4단계. 업로드할 등록 프로그램 토큰을 찾습니다.**<br>
 인증서(.pem) 파일로 이동한 후 **열기**를 선택하고 **업로드**를 선택합니다. Push Certificate가 있으면 Intune에서 등록된 모바일 장치에 정책을 푸시하여 iOS 장치를 등록하고 관리할 수 있습니다. Intune이 Apple과 자동으로 동기화되어 등록 프로그램 계정을 확인합니다.
 
@@ -94,30 +104,30 @@ DEP 등록을 사용하도록 설정하려면 Intune과 Apple DEP 포털을 둘 
 
 1. Intune 포털에서 **장치 등록**을 선택한 다음 **Apple 등록**을 선택합니다.
 2. **Apple 등록 프로그램**에서 **등록 프로그램 프로필**을 선택한 다음 **등록 프로그램 프로필** 블레이드에서 **만들기**를 선택합니다.
-![만들기 링크를 선택하여 새 등록 프로그램 프로필을 만드는 스크린샷](./media/enrollment-program-profile-create.png)
+
+  ![만들기 링크를 선택하여 새 등록 프로그램 프로필을 만드는 스크린샷](./media/enrollment-program-profile-create.png)
+
 3. **등록 프로필 만들기** 블레이드에서 관리 목적으로 프로필에 대한 **이름** 및 **설명**을 입력합니다. 사용자는 이러한 세부 정보를 볼 수 없습니다.
-![이름 및 설명을 지정하고 새 등록 프로그램 프로필에 대해 사용자 선호도를 사용하여 등록을 선택하는 스크린샷](./media/enrollment-program-profile-name.png)
+
+  ![이름 및 설명을 지정하고 새 등록 프로그램 프로필에 대해 사용자 선호도를 사용하여 등록을 선택하는 스크린샷](./media/enrollment-program-profile-name.png)
 **사용자 선호도**에서 이 프로필을 가진 장치가 사용자 선호도를 사용하여 등록되는지 사용하지 않고 등록되는지 선택합니다.
 
  - **사용자 선호도를 사용하여 등록** - 설치 중에 사용자가 장치에 연결되며, 회사 데이터와 메일에 액세스할 수 있습니다. 사용자에게 속하고 앱 설치 같은 서비스에 회사 포털을 사용해야 하는 장치에 대한 **사용자 선호도**를 선택합니다.
 
-<<<<<<< HEAD
  > [!NOTE]
  > MFA(다단계 인증)는 사용자 선호도를 사용하여 등록 프로그램 관리 장치에서 등록하는 동안 작동하지 않습니다. 등록 후 MFA는 이러한 장치에서 예상대로 작동합니다. 처음 로그인할 때 자신의 암호를 변경해야 하는 새 사용자에게 장치에서 등록하는 동안 메시지를 표시할 수 없습니다. 또한 암호가 만료된 사용자는 등록 중에 암호를 재설정하라는 메시지가 표시되지 않으며, 다른 장치에서 암호를 재설정해야 합니다.
 
  >[!NOTE]
  >사용자 선호도가 포함된 등록 프로그램 관리에서는 사용자 토큰을 요청하기 위해 [WS-Trust 1.3 사용자 이름/혼합 끝점](https://technet.microsoft.com/library/adfs2-help-endpoints)을 사용하도록 설정해야 합니다. [WS-Trust 1.3에 대해 자세히 알아보세요](https://technet.microsoft.com/itpro/powershell/windows/adfs/get-adfsendpoint).
-=======
-    >[!NOTE]
-    >사용자 선호도를 사용하는 DEP에서는 사용자 토큰을 요청하려면 [WS-Trust 1.3 사용자 이름/혼합 끝점](https://technet.microsoft.com/library/adfs2-help-endpoints)을 사용하도록 설정해야 합니다. [WS-Trust 1.3에 대해 자세히 알아보세요](https://technet.microsoft.com/itpro/powershell/windows/adfs/get-adfsendpoint).
->>>>>>> 0c3fe0dee88e8ef4d8ad8ad28c0f8957831dd5b3
 
- - **사용자 선호도를 사용하지 않고 등록**: 장치에 사용자 정보를 등록하지 않습니다. 로컬 사용자 데이터에 액세스하지 않고도 작업을 수행하는 장치에 대해 이 정보를 사용합니다. 기간 업무 앱을 설치하는 데 사용하는 회사 포털 앱 등 사용자 정보가 필요한 앱은 작동하지 않습니다.
+ - **사용자 선호도를 사용하지 않고 등록**: 장치에 사용자 정보를 등록하지 않습니다. 로컬 사용자 데이터에 액세스하지 않고도 작업을 수행하는 장치에 대해 이 정보를 사용합니다. 기간 업무 앱을 설치하는 데 사용하는 회사 포털 앱 등 사용자 정보가 필요한 앱은 작동할 수 없습니다.
 
-4. **장치 관리 설정**을 선택하여 다음 프로필 설정을 구성합니다. ![새 등록 프로그램 프로필에 대해 감독됨, 등록 잠김, 연결 허용이 모두 거부로 설정됨, Apple Configurator 인증서가 회색으로 표시된 관리 모드를 선택하는 스크린샷](./media/enrollment-program-profile-mode.png)
+4. **장치 관리 설정**을 선택하여 다음 프로필 설정을 구성합니다.
+
+  ![관리 모드 선택 스크린샷 장치에는 모두 거부로 설정된 감독됨, 등록 잠김, 연결 허용 설정이 있습니다. Apple Configurator 인증서는 새 등록 프로그램 프로필에 대해 회색으로 표시됩니다.](./media/enrollment-program-profile-mode.png)
     - **감독됨** - 더 많은 관리 옵션을 사용할 수 있으며 기본적으로 활성화 잠금이 해제된 관리 모드입니다. 이 확인란을 비워 두면 관리 기능이 제한됩니다.
 
-    - **등록 잠김** - (관리 모드 = 감독됨이어야 함) 관리 프로필 제거를 허용하는 iOS 설정이 해제됩니다. 이 확인란을 비워 두면 설정 메뉴에서 관리 프로필을 제거할 수 있습니다. 이 항목은 정품 인증을 하는 동안 설정되고 장치를 초기화해야 변경할 수 있습니다.
+    - **등록 잠김** - (관리 모드 = 감독됨이어야 함) 관리 프로필 제거를 허용하는 iOS 설정이 해제됩니다. 이 확인란을 비워 두면 설정 메뉴에서 관리 프로필을 제거할 수 있습니다. 장치 등록 후 장치를 초기화하지 않고는 이 설정을 변경할 수 없습니다.
 
     - **연결 허용** - iOS 장치를 컴퓨터와 동기화할 수 있는지 여부를 지정합니다. **인증서로 Apple Configurator 허용**을 선택한 경우 **Apple Configurator 인증서** 아래에서 인증서를 선택해야 합니다.
 
@@ -125,12 +135,14 @@ DEP 등록을 사용하도록 설정하려면 Intune과 Apple DEP 포털을 둘 
 
   **저장**을 선택합니다.
 
-5. **설정 도우미 설정**을 선택하여 다음 프로필 설정을 구성합니다. ![새 등록 프로그램 프로필에 대해 사용 가능한 설정으로 설정 구성을 선택하는 스크린샷](./media/enrollment-program-profile-settings.png)
+5. **설정 도우미 설정**을 선택하여 다음 프로필 설정을 구성합니다.
+
+  ![새 등록 프로그램 프로필에 대한 사용 가능한 설정이 포함된 설정 구성을 선택하는 스크린샷](./media/enrollment-program-profile-settings.png)
     - **부서 이름** - 정품 인증을 하는 동안 사용자가 **구성 정보**를 탭하면 표시됩니다.
 
-    - **부서 전화** - 정품 인증을 하는 동안 사용자가 도움 필요 단추를 클릭하면 표시됩니다.
+    - **부서 전화** - 정품 인증을 하는 동안 사용자가 **도움이 필요하세요?** 단추를 클릭하면 표시됩니다.
     - **설치 도우미 옵션** - 이러한 선택적 설정은 나중에 iOS **설정** 메뉴에서 지정할 수 있습니다.
-        - **암호** - 정품 인증을 하는 동안 암호를 묻는 메시지가 표시됩니다. 장치가 보안된 상태가 아니거나 다른 방식으로 액세스가 제어된 상태(즉, 하나의 앱만 사용할 수 있도록 장치를 제한하는 키오스크 모드)가 아니면 항상 암호를 요구합니다.
+        - **암호** - 정품 인증을 하는 동안 암호를 묻는 메시지가 표시됩니다. 장치가 보안된 상태가 아니거나 다른 방식으로 액세스가 제어된 상태가 아니면 항상 암호를 요구합니다. 예를 들어 키오스크 모드는 장치를 하나의 앱으로 제한합니다.
         - **위치 서비스** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미에서 서비스를 사용할지 묻는 메시지를 표시합니다.
         - **복원** - 이를 설정하면 정품 인증을 하는 동안 설치 도우미에서 iCloud 백업을 사용할지 묻는 메시지를 표시합니다.
         - **Apple ID** - 이 설정을 지정하면 Intune에서 ID 없이 앱을 설치하려고 할 때 iOS가 사용자에게 Apple ID를 묻습니다. Intune을 통해 설치한 앱을 포함하여 iOS App Store 앱을 다운로드하려면 Apple ID가 필요합니다.
@@ -149,23 +161,30 @@ DEP 등록을 사용하도록 설정하려면 Intune과 Apple DEP 포털을 둘 
 
 1. Intune 포털에서 **장치 등록** &gt; **Apple 등록** &gt; **등록 프로그램 장치**를 선택합니다.
 2. **등록 프로그램 장치** 아래에서 **동기화**를 선택합니다. **동기화** 블레이드가 나타납니다.
-![등록 프로그램 장치 노드가 선택되고 동기화 링크를 선택하는 스크린샷](./media/enrollment-program-device-sync.png)
+
+  ![등록 프로그램 장치 노드가 선택되고 동기화 링크를 선택하는 스크린샷](./media/enrollment-program-device-sync.png)
 3. **동기화** 블레이드에서 **동기화 요청**을 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
-![동기화 요청 링크를 선택하는 동기화 블레이드 스크린샷](./media/enrollment-program-device-request-sync.png)
-    허용되는 등록 프로그램 트래픽에 대한 Apple 약관을 준수하기 위해 Intune에서는 다음과 같은 제한 사항을 적용합니다.
-     -  전체 동기화는 7일마다 한 번씩만 실행할 수 있습니다. 전체 동기화 중 Intune은 Apple에서 일련 번호가 이전에 동기화되었는지 여부를 Intune에 할당한 모든 일련 번호를 새로 고칩니다. 전체 동기화를 이전 전체 동기화의 7일 이내에 시도하는 경우 Intune은 Intune에 나열되지 않은 일련 번호만 새로 고칩니다.
+
+  ![동기화 요청 링크를 선택하는 동기화 블레이드 스크린샷](./media/enrollment-program-device-request-sync.png)
+
+  허용되는 등록 프로그램 트래픽에 대한 Apple 약관을 준수하기 위해 Intune에서는 다음과 같은 제한 사항을 적용합니다.
+     -  전체 동기화는 7일마다 한 번씩만 실행할 수 있습니다. 전체 동기화 동안 Intune은 Intune에 할당된 모든 Apple 일련 번호를 새로 고칩니다. 전체 동기화를 이전 전체 동기화의 7일 이내에 시도하는 경우 Intune은 Intune에 나열되지 않은 일련 번호만 새로 고칩니다.
      -  모든 동기화 요청은 완료하는 데 15분이 주어집니다. 이 시간 동안 또는 요청이 성공될 때까지 **동기화** 단추는 비활성화됩니다.
+     - Intune은 24시간마다 새 장치 및 제거된 장치를 Apple과 동기화합니다.
+     
 4. 등록 프로그램 장치 작업 영역에서 **새로 고침**을 선택하여 장치를 확인합니다.
 
 ## <a name="assign-an-enrollment-profile-to-devices"></a>장치에 등록 프로필 할당
-Intune에서 관리하는 장치를 등록하려면 등록 프로그램 프로필을 할당해야 합니다.
+먼저 등록 프로그램 프로필을 장치에 할당해야 장치를 등록할 수 있습니다.
 
 >[!NOTE]
 >**Apple 일련 번호** 블레이드에서 프로필에 일련 번호를 할당할 수도 있습니다.
 
 1. Intune 포털에서 **장치 등록** > **Apple 등록**을 선택한 다음 **등록 프로그램 프로필**을 선택합니다.
 2. **등록 프로그램 프로필** 목록에서 장치에 할당할 프로필을 선택한 다음 **장치 할당**을 선택합니다.
-![동기화 요청 링크를 선택하는 동기화 블레이드 스크린샷](./media/enrollment-program-device-assign.png)
+
+ ![동기화 요청 링크를 선택하는 동기화 블레이드 스크린샷](./media/enrollment-program-device-assign.png)
+
 3. **할당**을 선택한 다음 이 프로필을 할당할 장치를 선택합니다. 다음 기준을 사용하여 필터링하면 사용 가능한 장치를 확인할 수 있습니다.
   - **할당되지 않음**
   - **임의**
@@ -176,21 +195,21 @@ Intune에서 관리하는 장치를 등록하려면 등록 프로그램 프로�
 
 ## <a name="end-user-experience-with-managed-devices"></a>관리되는 장치의 최종 사용자 환경
 
-이제 사용자에게 장치를 배포할 수 있습니다. 사용자 선호도가 있는 장치의 경우 각 사용자에게 Intune 라이선스를 할당해야 합니다. 장치가 활성화되었으며 사용 중인 경우에는 장치를 초기화할 때까지 프로필을 적용할 수 없습니다. 등록 프로그램 관리 iOS 장치가 켜져 있으면 사용자에게 다음이 표시됩니다.  
+이제 사용자에게 장치를 배포할 수 있습니다. 사용자 선호도가 있는 장치의 경우 각 사용자에게 Intune 라이선스를 할당해야 합니다. 활성화된 장치는 초기화될 때까지 등록 프로필을 적용할 수 없습니다. 등록 프로그램 관리 iOS 장치가 켜져 있으면 사용자의 장치에 다음 옵션이 표시됩니다.  
 
 1. **iOS 장치 설정** - 사용자가 다음 옵션 중에서 선택할 수 있습니다.
   - **새 장치로 설정**
   - **iCloud 백업에서 복원**
   - **iTunes 백업에서 복원**
-2. 사용자가 **Microsoft에서 장치를 자동으로 구성합니다.**라는 알림을 받습니다. 다음과 같은 추가 구성 정보도 제공됩니다.
+2. 사용자가 **&lt;사용자의 조직&gt;에서 장치를 자동으로 구성합니다.**라는 알림을 받습니다. 다음과 같은 추가 구성 정보도 제공됩니다.
 
-  **구성에서 Microsoft가 이 장치를 무선으로 관리하도록 허용합니다.**
+  **구성에서 &lt;사용자의 조직&gt;이 이 장치를 무선으로 관리하도록 허용합니다.**
 
   **관리자가 메일 및 네트워크 계정을 설정하고, 앱을 설치 및 구성하고, 원격으로 설정을 관리하도록 지원할 수 있습니다.**
 
   **관리자는 기능을 사용하지 않도록 설정하고, 앱을 설치 및 제거하고, 인터넷 트래픽을 모니터링 및 제한하고, 이 장치를 원격으로 지울 수 있습니다.**
 
-  **구성은 다음에서 제공됩니다.<br> MicrosoftIntune iOS 팀<br> WA(USA), Redmond, One Microsoft Way, 98052**
+  **구성은 다음에서 제공합니다.<br> &lt;사용자의 조직&gt; iOS 팀<br> &lt;주소&gt;**
 
 3. 사용자에게 해당 회사 또는 학교 사용자 이름 및 암호를 묻는 메시지가 표시됩니다.
 4. 사용자에게 해당 Apple ID를 묻는 메시지가 표시됩니다. Intune 회사 포털 앱과 다른 앱을 설치하려면 Apple ID가 필요합니다. 자격 증명이 제공되면 장치가 관리 프로필을 설치하며, 이 프로필은 제거할 수 없습니다. Intune 관리 프로필은 장치의 **설정** > **일반** > **장치 관리**에 표시됩니다.

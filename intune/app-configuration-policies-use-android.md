@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/05/2017
+ms.date: 07/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: d0b6f3fe-2bd4-4518-a6fe-b9fd115ed5e0
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f9ea697cafa0f277c176e55443250d32ca378dbb
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: b86d2d7f4d295ed41168c9dfdbaf8d4c253a0f75
+ms.sourcegitcommit: 388c5f59bc992375ac63968fd7330af5d84a1348
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/12/2017
 ---
 # <a name="how-to-use-microsoft-intune-app-configuration-policies-for-android-for-work"></a>Android for Work용 Microsoft Intune 앱 구성 정책을 사용하는 방법
 
@@ -65,7 +65,7 @@ Microsoft Intune의 앱 구성 정책을 사용하면 사용자가 Android for W
 
 정책이 만들어지고 정책 목록 블레이드에 표시됩니다.
 
-그런 다음 평소대로 앱을 계속 [할당](apps-deploy.md) 및 [모니터링](apps-monitor.md)합니다.
+
 
 할당된 앱은 장치에서 실행될 때 앱 구성 정책에서 구성한 설정을 사용하여 실행됩니다.
 
@@ -89,3 +89,8 @@ Android 장치 기능에 액세스하기 위한 앱의 권한을 미리 구성�
 8. 앱 구성 정책을 할당하려면 앱 구성 정책을 선택하고 **할당**을 선택한 후에 **그룹 선택**을 선택합니다.
 9. 할당할 사용자 그룹을 선택하고 **선택**을 선택합니다.
 10. **저장**을 선택하여 정책을 할당합니다.
+
+## <a name="next-steps"></a>다음 단계
+
+평소대로 앱을 계속 [할당](apps-deploy.md) 및 [모니터링](apps-monitor.md)합니다.
+

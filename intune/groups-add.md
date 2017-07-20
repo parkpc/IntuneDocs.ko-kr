@@ -15,11 +15,11 @@ ms.assetid: f0a2b858-a824-4598-ab81-bdd8e62ac3b3
 ms.reviewer: amyros
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2c9d10e4e2a1d2a745b9e327bf9a8a9cd99e5ce4
-ms.sourcegitcommit: fd5b7aa26446d2fa92c21638cb29371e43fe169f
+ms.openlocfilehash: ce779e8dad2c9813d5faf1f03bca9b33690508fe
+ms.sourcegitcommit: b287025b1a0d09d41faf51cf98c34b676fa1d98e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2017
+ms.lasthandoff: 07/07/2017
 ---
 # <a name="add-groups-in-intune"></a>Intune에서 그룹 추가
 Intune은 Azure AD(Active Directory) 그룹을 사용하여 장치 및 사용자를 관리합니다. Intune 관리자의 경우 조직의 요구에 맞게 그룹을 설정할 수 있습니다. 그룹을 만들어 지리적 위치, 부서 또는 하드웨어 특성별로 사용자 또는 장치를 구성합니다. 그룹을 사용하여 대규모 작업을 관리합니다. 예를 들어 많은 사용자에 대해 정책을 설정하거나 장치 집합에 앱을 배포할 수 있습니다.
@@ -50,5 +50,5 @@ Intune은 Azure AD(Active Directory) 그룹을 사용하여 장치 및 사용자
 5. 새 그룹을 추가하려면 **만들기**를 선택합니다.
 
 ## <a name="see-also"></a>참고 항목
-[Azure Active Directory 그룹을 사용하여 리소스에 대한 액세스 관리](https://docs.microsoft.com/azure/active-directory/active-directory-manage-groups)
-[Azure Portal의 Intune 클래식 그룹](groups-get-started.md)
+- [Azure Active Directory 그룹을 사용하여 리소스에 대한 액세스 관리](https://docs.microsoft.com/azure/active-directory/active-directory-manage-groups)
+- [Azure Portal의 Intune 클래식 그룹](groups-get-started.md)

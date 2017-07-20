@@ -1,12 +1,12 @@
 ---
 title: "Intune을 사용하여 온-프레미스 EAS용 Exchange Connector 설정"
-titleSuffix: Intune Azure preview
-description: "Intune Azure 미리 보기: Exchange ActiveSync MDM - Connector 도구를 사용하여 Intune 및 온-프레미스 Exchange Server 간 통신을 설정합니다."
+titleSuffix: Intune Azure
+description: "Intune Azure: Exchange ActiveSync MDM - 커넥터 도구를 사용하여 Intune 및 온-프레미스 Exchange Server 간 통신 설정"
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 06/08/2017
+ms.date: 07/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9f4a310078a30f7dfefe66a9aba60cc74ad4e29b
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 1dd5143ce6c604f416af1c6b6b1df684346e2f6d
+ms.sourcegitcommit: be12974a7eaa4ce9cffe45aabe456c858d582e20
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/14/2017
 ---
-# <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure-preview"></a>Microsoft Intune Azure 미리 보기에서 Intune 온-프레미스 Exchange Connector 설정
+# <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Microsoft Intune Azure에서 Intune 온-프레미스 Exchange 커넥터 설정
 
 온-프레미스 Exchange Server 환경에서는 Intune 온-프레미스 Exchange Connector를 사용하여 장치가 Intune에 등록되어 있으며 Intune 장치 준수 정책을 준수하는지 여부에 따라 온-프레미스 Exchange 사서함에 대한 장치 액세스를 관리할 수 있습니다. 또한 온-프레미스 Exchange Connector는 기존 EAS(Exchange Active Sync) 레코드를 Intune과 동기화하여 온-프레미스 Exchange Server에 연결하는 모바일 장치를 검색합니다.
 
@@ -42,8 +42,8 @@ Microsoft Intune이 온-프레미스 Exchange Server와 통신할 수 있도록 
 |운영 체제|Intune은 Windows Server 2008 SP2 64비트, Windows Server 2008 R2, Windows Server 2012 또는 Windows Server 2012 R2의 모든 버전을 실행하는 컴퓨터에서 온-프레미스 Exchange Connector를 지원합니다.<br /><br />이 Connector는 Server Core 설치에서 지원되지 않습니다.|
 |Microsoft Exchange|온-프레미스 Connector를 사용하려면 Microsoft Exchange 2010 SP1 이상 또는 레거시 Exchange Online Dedicated가 필요합니다. Exchange Online Dedicated 환경이 **신규**인지 아니면 **레거시** 구성 상태인지 확인하려면 계정 관리자에게 문의하세요.|
 |모바일 장치 관리 기관| [Intune으로 모바일 장치 관리 기관 설정](https://docs.microsoft.com/intune-classic/deploy-use/prerequisites-for-enrollment#step-2-mdm-authority-set).|
-|하드웨어|커넥터를 설치하는 컴퓨터에는 1.6GHz CPU, 2GB RAM 및 10GB의 사용 가능한 디스크 공간이 필요합니다.|users-permissions-add.md
-|Active Directory 동기화|Connector를 사용하여 Exchange Server에 Intune을 연결하려면 먼저 로컬 사용자 및 보안 그룹이 Azure Active Directory의 인스턴스와 동기화되도록 [Active Directory 동기화를 설정](users-permissions-add.md)해야 합니다.|
+|하드웨어|커넥터를 설치하는 컴퓨터에는 1.6GHz CPU, 2GB RAM 및 10GB의 사용 가능한 디스크 공간이 필요합니다.|users-add.md
+|Active Directory 동기화|Connector를 사용하여 Exchange Server에 Intune을 연결하려면 먼저 로컬 사용자 및 보안 그룹이 Azure Active Directory의 인스턴스와 동기화되도록 [Active Directory 동기화를 설정](users-add.md)해야 합니다.|
 |추가 소프트웨어|커넥터를 호스트하는 컴퓨터에 Microsoft .NET Framework 4.5 및 Windows PowerShell 2.0 전체 설치를 설치해야 합니다.|
 |네트워크|커넥터를 설치하는 컴퓨터는 Exchange 서버를 호스트하는 도메인과 트러스트 관계에 있는 도메인에 있어야 합니다.<br /><br />이 컴퓨터에서는 포트 80 및 443을 사용하여 방화벽 및 프록시 서버를 통해 Intune 서비스에 액세스할 수 있도록 구성해야 합니다. Intune에서 사용되는 도메인은 manage.microsoft.com, &#42;manage.microsoft.com, &#42;.manage.microsoft.com 등입니다.|
 

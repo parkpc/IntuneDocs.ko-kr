@@ -6,7 +6,7 @@ keywords:
 author: brenduns
 ms.author: brenduns
 manager: angrobe
-ms.date: 07/03/2017
+ms.date: 07/13/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fdda99bfd72c71d36a19449d43bc6cbf6a00babe
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: dec4fb1d373f49c1f6c15b1f2a9acb2f8d20138d
+ms.sourcegitcommit: be12974a7eaa4ce9cffe45aabe456c858d582e20
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 07/14/2017
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Microsoft Intune의 새로운 기능
 
@@ -55,25 +55,25 @@ Azure AD 조건부 액세스 정책 확인, 작성, 수정 및 삭제를 위한 
 
 ### <a name="device-management"></a>장치 관리
 #### <a name="new-remote-actions-for-ios-devices----854689---"></a>iOS 장치에 대한 새 원격 작업 <!-- 854689 -->
-이 릴리스에서는 iOS 장치에 대한 두 가지 새 원격 장치 작업이 추가되었습니다.
+이 릴리스에서는 Apple 교실 앱을 관리하는 공유 iPad 장치에 대한 새로운 두 가지 원격 장치 작업이 추가되었습니다.
 
 -   [현재 사용자 로그아웃](device-logout-user.md) - 선택한 iOS 장치의 현재 사용자를 로그아웃합니다.
 -   [사용자 제거](device-remove-user.md) - iOS 장치의 로컬 캐시에서 선택한 사용자를 삭제합니다.
 
-
-이러한 원격 작업을 통해 관리자는 공유 iPad에 캐시된 사용자 계정을 관리하고 장치에 현재 로그인한 사용자를 로그아웃할 수 있습니다.
-
-등록하는 동안 관리자는 장치에 캐시할 수 있는 최대 사용자 계정 수를 결정합니다. "사용자 제거"를 통해 관리자는 캐시된 특정 사용자를 제거할 수 있습니다.
-
-"현재 사용자 로그아웃"은 장치에 현재 로그인한 사용자를 로그아웃합니다. 이 작업은 일반적으로 장치 작업이 있는 장치 개요 블레이드의 맨 위에 있습니다.
-
-"사용자 제거"는 장치의 로컬 캐시에서 지정된 사용자를 삭제합니다. 이 작업은 "모니터" -> "사용자"로 이동한 다음 목록에서 특정 사용자를 마우스 오른쪽 단추로 클릭하면 찾을 수 있습니다. 동기화되지 않은 사용자 계정과 연결된 데이터는 모두 손실됩니다. 또한 사용자 목록에서 사용자가 제거된 것이 반영되려면 최대 24시간이 걸릴 수 있습니다.
 
 #### <a name="support-for-shared-ipads-with-the-ios-classroom-app----1044681---"></a>iOS 교실 앱을 통해 공유 iPad 지원 <!-- 1044681 -->
 이 릴리스에서는 관리되는 Apple ID를 사용하여 공유 iPad에 로그인하는 학생을 포함하도록 iOS 교실 앱 관리 지원이 확장되었습니다.
 
 
 ### <a name="app-management"></a>앱 관리  
+
+#### <a name="changes-to-intune-built-in-apps----1332306---"></a>Intune 기본 제공 앱에 대한 변경 내용 <!-- 1332306 -->
+
+이전에는 Intune에 신속하게 할당할 수 있는 많은 기본 제공 앱이 포함되어 있었습니다. 사용자 의견에 따라 이 목록은 제거되었으며 더 이상 기본 제공 앱은 표시되지 않습니다.
+그러나 이미 기본 제공 앱을 할당한 경우 이러한 앱은 여전히 앱 목록에 표시됩니다. 필요에 따라 이러한 앱을 계속 할당할 수 있습니다.
+이후 릴리스에서, Intune 포털에서 기본 제공 앱을 더 쉽게 선택하고 할당하는 방법이 추가될 예정입니다.
+
+
 #### <a name="support-for-offline-apps-from-the-windows-store-for-business-----777044----"></a>비즈니스용 Windows 스토어의 오프라인 앱 지원 <!--- 777044 --->
 이제 비즈니스용 Windows 스토어에서 구매한 오프라인 앱이 Intune 포털에 동기화됩니다. 그런 다음 이러한 앱을 장치 그룹 또는 사용자 그룹에 배포할 수 있습니다. 즉, 오프라인 앱이 스토어가 아닌 Intune을 통해 설치됩니다.
 
@@ -266,12 +266,16 @@ Intune 클래식 포털(Silverlight)에서 사용된 기존 MAM(모바일 응용
 
 ## <a name="whats-coming"></a>향후 예정 사항
 
+### <a name="end-of-support-for-android-43-and-lower----1171127-1326920----"></a>Android 4.3 및 이전 버전에 대한 지원 종료 <!---1171127, 1326920 --->
+관리되는 앱과 Android용 회사 포털 앱이 회사 리소스에 액세스하려면 Android 4.4 이상이 필요합니다. 10월 이전에 업데이트되지 않은 장치는 회사 포털 또는 해당 앱에 더 이상 액세스할 수 없습니다. 12월에는 등록된 모든 장치의 사용이 강제로 중단되어 회사 리소스에 액세스할 수 없게 됩니다. MDM 없이 앱 보호 정책을 사용하는 경우 앱에 업데이트가 수신되지 않으며 시간이 지남에 따라 경험의 품질이 저하됩니다.
+
+
 ### <a name="platform-support-reminder-windows-phone-81-mainstream-support-will-end-july-11-2017"></a>플랫폼 지원 미리 알림: Windows Phone 8.1 기본 지원이 2017년 7월 11일에 종료됨
 <!-- 1327781 -->
 
 2017년 7월 11일에 Windows Phone 8.1 플랫폼의 기본 지원이 종료됩니다. Windows 8.1 PC 지원은 영향을 받지 않습니다.
 
-Intune 서비스에서 관리되는 Windows Phone 8.1 장치에 대한 즉각적인 영향은 없습니다. 등록된 장치는 계속 작동하며 모든 정책, 구성 및 앱이 계속해서 예상대로 작동합니다. Intune 서비스 내의 Windows Phone 8.1 플랫폼과 Windows Phone 8.1 회사 포털 앱을 대상으로 하는 향상된 기능은 없습니다. 
+Intune 서비스에서 관리되는 Windows Phone 8.1 장치에 대한 즉각적인 영향은 없습니다. 등록된 장치는 계속 작동하며 모든 정책, 구성 및 앱이 계속해서 예상대로 작동합니다. Intune 서비스 내의 Windows Phone 8.1 플랫폼과 Windows Phone 8.1 회사 포털 앱을 대상으로 하는 향상된 기능은 없습니다.
 
 가능하면 빨리 해당 Windows Phone 8.1 장치를 Windows 10 Mobile로 업그레이드하는 것이 좋습니다. 
 

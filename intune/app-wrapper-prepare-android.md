@@ -5,7 +5,7 @@ keywords:
 author: mtillman
 ms.author: mtillman
 manager: angrobe
-ms.date: 12/19/2016
+ms.date: 07/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: oldang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b7b3ee8b82b1a58762c5969cbbcea3037be8a3e7
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 299e2ed0a84c7158a582ee874f0711eb3c379532
+ms.sourcegitcommit: bee30f4c9e04129d70305fcafc4152c6e062a8b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/11/2017
 ---
 # <a name="prepare-android-apps-for-mobile-application-management-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 Android 앱 준비
 
@@ -71,7 +71,7 @@ Android용 Microsoft Intune 앱 래핑 도구를 사용하여 해당 앱 코드�
 
 ## <a name="run-the-app-wrapping-tool"></a>앱 래핑 도구 실행
 
-1.  앱 줄 바꿈 도구를 설치한 Windows 컴퓨터의 관리자 모드에서 PowerShell 창을 엽니다.
+1.  앱 래핑 도구를 설치한 Windows 컴퓨터에서 PowerShell 창을 엽니다.
 
 2.  도구를 설치한 폴더에서 앱 래핑 도구 PowerShell 모듈을 가져옵니다.
 

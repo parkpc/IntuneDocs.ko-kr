@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/12/2017
+ms.date: 07/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 1830720b-16cb-4f2f-a71a-62967f882563
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ca51c413e3148039b05a9d05a9a511e7158c9a1c
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 361777884187937632b2af02d7a7f15f0574193f
+ms.sourcegitcommit: fb17b59f4aa2b994b149fcc6d32520f74b0de6a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/12/2017
 ---
 # <a name="android-for-work-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Android for Work 장치 제한 설정
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 07/01/2017
 ### <a name="work-profile-password"></a>회사 프로필 암호
 - **회사 프로필 암호 필요** -(회사 프로필을 사용하도록 설정한 Android 7.0 이상 버전) 회사 프로필의 앱에만 적용되는 암호 정책을 정의합니다. 기본적으로 최종 사용자는 2개의 별도로 정의된 PIN을 사용하거나, 정의된 2개의 PIN을 둘 중 더 강도가 높은 PIN으로 결합하도록 선택할 수 있습니다.
 - **최소 암호 길이** - 사용자 암호에 포함해야 하는 최소 문자 수를 **4**-**16**자 사이로 입력합니다.
-- **화면이 잠기기 전까지 최대 비활성 시간(분)** - 회사 프로필에서 앱을 실행하려면 사용자가 비활성 장치에서 회사 프로필 암호를 다시 입력해야 할 때까지의 시간을 선택합니다.
+- **화면이 잠기기 전까지 최대 비활성 시간(분)** - 작업 프로필이 잠길 때까지 유지되는 시간을 선택합니다. 그런 다음 사용자가 자격 증명을 입력해야 액세스 권한을 다시 얻을 수 있습니다.
 - **장치를 초기화하기 전 로그인 오류 발생 횟수** - 장치에서 회사 프로필이 초기화되기 전까지 잘못된 암호 입력이 허용되는 횟수를 입력합니다.
 - **암호 만료(일)** - 최종 사용자의 암호를 변경해야 할 때까지의 기간(일)을 입력합니다(**1**-**255**).
 - **필수 암호 유형** - 장치에 설정해야 하는 암호의 유형을 선택합니다. 다음 중에서 선택합니다.
@@ -77,3 +77,7 @@ ms.lasthandoff: 07/01/2017
 - **이전 암호 다시 사용 방지** - 이전 암호를 다시 사용하기 전에 사용해야 하는 새 암호의 수를 입력합니다(**1**-**24**).
 - **지문 잠금 해제** - 최종 사용자가 장치 지문 스캐너를 사용하여 잠금을 해제하지 못하게 합니다.
 - **Smart Lock 및 기타 신뢰 에이전트** - 호환되는 장치에서 Smart Lock 기능을 제어할 수 있습니다. 신뢰 에이전트라고도 하는 이 전화 기능을 통해 장치가 특정 Bluetooth 장치에 연결된 경우 또는 NFC 태그에 가까이 있는 경우와 같이 신뢰할 수 있는 위치에 있는 경우 장치 잠금 화면 암호를 사용하지 않도록 설정하거나 무시할 수 있습니다. 이 설정을 사용하면 사용자가 Smart Lock 기능을 구성하는 것을 방지할 수 있습니다.
+
+## <a name="next-steps"></a>다음 단계
+
+이 항목의 [장치 제한 설정 구성 방법](device-restrictions-configure.md) 정보를 사용하여 사용자 및 장치에 프로필을 저장하고 할당하세요.

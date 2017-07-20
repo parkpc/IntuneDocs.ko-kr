@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/15/2017
+ms.date: 07/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,17 @@ ms.assetid: c9163693-d748-46e0-842a-d9ba113ae5a8
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 112f60ff208c27825ddd0f4c812535b255894333
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 0cbcf70af17ba7690f54196790da04becd8ba1eb
+ms.sourcegitcommit: 388c5f59bc992375ac63968fd7330af5d84a1348
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 07/12/2017
 ---
 # <a name="how-to-use-microsoft-intune-app-configuration-policies-for-ios"></a>iOS용 Microsoft Intune 앱 구성 정책을 사용하는 방법
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 iOS 앱을 실행할 때 필요할 수 있는 설정을 제공할 수 있습니다. 예를 들어 사용자가 앱에서 다음 사항을 지정해야 할 수 있습니다.
+Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 iOS 앱을 실행할 때 사용되는 설정을 제공할 수 있습니다. 예를 들어 사용자가 앱에서 다음 사항을 지정해야 할 수 있습니다.
 
 -   사용자 지정 포트 번호
 
@@ -35,7 +35,7 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 iOS 앱을
 
 -   회사 로고와 같은 브랜딩 설정
 
-사용자가 이러한 설정을 잘못 입력하면 기술 지원팀의 부담이 증가하며 새 앱 도입이 지연됩니다.
+사용자가 이러한 설정을 잘못 입력하면 기술 지원팀의 부담이 증가하며 새 앱 도입이 지연될 수 있습니다.
 
 앱 구성 정책을 사용하는 경우 사용자가 앱을 실행하기 전에 정책에서 이러한 설정을 사용자에게 할당할 수 있으므로 이러한 문제를 방지할 수 있습니다. 배포한 설정은 자동으로 제공되므로 사용자가 아무런 작업을 수행하지 않아도 됩니다.
 
@@ -50,61 +50,39 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 iOS 앱을
 > 앱 설치 유형에 대한 자세한 내용은 [Microsoft Intune에 앱을 추가하는 방법](apps-add.md)을 참조하세요.
 
 ## <a name="create-an-app-configuration-policy"></a>앱 구성 정책 만들기
+1.  Azure 포털에 로그인합니다.
+2.  **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+3.  **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
+4.  **Mobile apps** 작업에서 **관리** > **앱 구성 정책**을 선택합니다.
+5.  정책 목록 블레이드에서 **추가**를 선택합니다.
+6.  **구성 정책 추가** 블레이드에서 앱 구성 정책의 **이름** 및 선택적 **설명**을 제공합니다.
+7.  **장치 등록 유형**에 대해 다음 중 하나를 선택합니다.
+    - **Intune에 등록됨** - Intune 앱 SDK를 통합했고 Intune에서 관리되는 앱의 경우입니다.
+    - **Intune에 등록되지 않음** - Intune 앱 SDK를 통합했고 Intune에서 관리되지 않거나 다른 솔루션에서 관리되는 앱의 경우입니다.
+8.  **플랫폼**의 경우 **iOS**를 선택합니다(Intune에 등록된 장치만 해당).
+9.  **연결된 앱**을 선택한 다음 **연결된 앱** 블레이드에서 구성을 적용할 관리되는 앱을 선택합니다.
+10. **구성 정책 추가** 블레이드에서 **구성 설정**을 선택합니다.
+11. **구성 설정** 블레이드에서 구성 프로필을 구성하는 XML 값을 지정하는 방법을 다음 중에서 선택합니다.
+    - **XML 데이터 입력**(Intune에 등록된 장치만 해당) - 원하는 앱 구성 설정이 포함된 XML 속성 목록을 입력하거나 붙여넣습니다. XML 속성 목록의 형식은 구성하는 앱에 따라 달라집니다. 사용해야 하는 정확한 형식에 대한 자세한 내용은 앱 공급업체에 문의하세요.
+Intune에서는 입력한 XML이 올바른 형식인지 확인합니다. 그러나 해당 XML 속성 목록이 연결된 앱에서 작동하는지는 확인하지 않습니다.
+XML 속성 목록에 대한 자세한 내용은 iOS Developer Library의 [XML 속성 목록](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html)을 참조하세요.
+    - **구성 디자이너 사용**(장치가 Intune에 등록되었는지는 관계없음) - 포털에서 직접 XML 키/값 쌍을 지정할 수 있습니다.
+11. 완료되면 **구성 정책 추가** 블레이드로 돌아가서 **만들기**를 누릅니다.
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
-1.  **Mobile apps** 작업에서 **관리** > **앱 구성 정책**을 선택합니다.
+정책이 만들어지고 정책 목록 블레이드에 나타납니다.
 
-2.  정책 목록 블레이드에서 **추가**를 선택합니다.
 
-3.  **구성 정책 추가** 블레이드에서 앱 구성 정책에 대한 이름 및 선택적 설명을 제공합니다.
-4.  **연결된 앱**을 선택한 다음 **연결된 앱** 블레이드에서 구성을 적용할 관리되는 앱을 선택합니다.
-5.  **구성 정책 추가** 블레이드에서 **구성 설정**을 선택한 다음 구성 설정 블레이드에서 구성 프로필을 구성하는 XML 값을 지정할 방법을 선택합니다.
-    - **XML 데이터 입력** - 원하는 앱 구성 설정이 포함된 XML 속성 목록을 입력하거나 붙여 넣습니다. XML 속성 목록의 형식은 구성하는 앱에 따라 달라집니다. 사용해야 하는 정확한 형식에 대한 자세한 내용은 앱 공급업체에 문의하세요.
-    Intune에서는 입력한 XML이 올바른 형식인지 확인합니다. 그러나 해당 XML 속성 목록이 연결된 앱에서 작동하는지는 확인되지 않습니다.
-    XML 속성 목록에 대한 자세한 내용은 iOS Developer Library의 [XML 속성 목록](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html)을 참조하세요.
-    - **구성 디자이너 사용** - 포털에서 직접 XML 키/값 쌍을 지정할 수 있습니다.
-8. 완료되면 **구성 정책 추가** 블레이드로 돌아가서 **만들기**를 누릅니다.
 
-정책이 만들어지고 정책 목록 블레이드에 표시됩니다.
+>[!Note]
+>장치가 Intune에 등록되었는지와 관계없이 [Intune 앱 SDK](https://docs.microsoft.com/intune/app-sdk-ios)를 사용하여 기간 업무 앱이 Intune 앱 보호 정책 및 앱 구성 정책에서 관리되도록 준비할 수 있습니다. 예를 들어 앱 구성 정책을 사용하여 [Intune Managed Browser](app-configuration-managed-browser.md)에 대해 허용된 URL 및 차단된 URL을 구성할 수 있습니다. 앱이 이러한 정책과 호환되면 정책을 사용하여 앱을 구성할 수 있습니다.
 
-그런 다음 평소대로 앱을 계속 [할당](apps-deploy.md) 및 [모니터링](apps-monitor.md)합니다.
 
 할당된 앱은 장치에서 실행될 때 앱 구성 정책에서 구성한 설정을 사용하여 실행됩니다.
+하나 이상의 앱 구성 정책이 충돌하는 경우 어떻게 되는지에 대한 자세한 내용은 구성 중인 앱의 설명서를 참조하세요.
 
-> [!TIP]
-> 하나 이상의 앱 구성 정책이 충돌하는 경우에는 어떤 정책도 적용되지 않습니다.
+>[!Tip]
+>또한 Graph API를 사용하여 이러한 작업을 수행할 수 있습니다. 자세한 내용은 [Graph API Reference MAM Targeted Config](https://graph.microsoft.io/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create)(Graph API 참조 MAM 대상 구성)를 참조하세요.
 
-## <a name="create-a-mam-targeted-configuration-policy"></a>MAM 대상 구성 정책 만들기
-MAM 대상 구성을 사용하면 앱이 Intune 앱 SDK를 통해 구성 데이터를 받을 수 있습니다. 응용 프로그램 소유자/개발자가 이 데이터의 형식 및 variant를 정의하고 Intune 고객에게 전달해야 합니다. Intune 관리자는 Intune Azure 콘솔을 통해 구성 데이터를 대상으로 지정하고 배포할 수 있습니다. MAM 서비스를 통해 MAM 대상 구성 데이터를 MAM-WE 지원 응용 프로그램에 제공할 수 있습니다. 예를 들어 [Intune Managed Browser](https://docs.microsoft.com/intune/app-configuration-managed-browser)에는 허용/차단된 URL 목록이 있습니다. 응용 프로그램 구성 데이터는 MDM 채널을 통해 제공되는 것이 아니라 MAM 서비스를 통해 앱에 직접 푸시됩니다. [MDM 앱 구성 정책](https://docs.microsoft.com/intune/app-configuration-policies-use-ios#create-an-app-configuration-policy)은 MDM을 통해 제공되는 기본 솔루션입니다. 이 정책과 MDM 대상 구성의 가장 큰 차이점은, 앱이 실행되는 장치를 MDM에 등록할 필요가 없다는 것입니다. MDM 대상 구성은 IOS 및 Android에서 사용 가능합니다. iOS의 경우 앱이 Intune 앱 SDK iOS(v 7.0.1)를 통합하고 앱 구성 설정에 참여해야 합니다. MAM 대상 구성 정책을 만드는 단계는 다음과 같습니다. 
-
-1. 로그인은 **Azure 포털**합니다.
-
-2. **Intune > 모바일 앱 - 앱 구성 정책**을 선택합니다.
-
-3. **앱 구성 정책** 블레이드에서 **추가**를 선택합니다.
-
-4. 앱 구성 정책의 **이름** 및 **설명**(선택 사항)을 입력하고 **Intune에 등록되지 않음**을 선택합니다.
-
-5. **필수 앱 선택**을 선택하고 **대상 지정됨** 앱 블레이드에서 원하는 플랫폼용 앱을 선택합니다. <br>
-**참고:** LOB 앱의 경우에는 **추가 앱**을 선택합니다. 응용 프로그램의 패키지 ID를 입력합니다.
-
-6. **확인**을 선택하여 **앱 구성 추가** 블레이드로 돌아옵니다.
-
-7. **구성 정의**를 선택합니다. **구성** 블레이드에서 키와 값 쌍을 정의하여 구성을 제공합니다.
-
-8. 작업이 끝나면 **확인**을 선택합니다.
-
-9. **앱 구성 추가** 블레이드에서 **만들기**를 선택합니다.
-
-새 구성이 작성되어 앱 구성 블레이드에 표시됩니다.
-
-그런 다음 평소대로 앱을 계속 [할당](apps-deploy.md) 및 [모니터링](apps-monitor.md)합니다.
-
-할당된 앱(Intune 앱 SDK와 통합됨)은 장치에서 실행될 때 MAM 대상 구성 정책에서 구성한 설정을 사용하여 실행됩니다. 할당된 앱에는 지원되는 버전의 Intune 앱 SDK이 통합되어 있어야 합니다. MAM 대상 구성 정책을 사용하기 위한 앱 개발 요구 사항에 대한 자세한 내용은 [iOS Intune 앱 SDK 통합 가이드](https://docs.microsoft.com/intune/app-sdk-ios)를 참조하세요.
-
-MAM 대상 구성 값과 관련한 Graph API의 기능에 대한 자세한 내용은 [Graph API 참조 MAM 대상 구성](https://graph.microsoft.io/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create)을 참조하세요.
 
 ## <a name="information-about-the-xml-file-format"></a>XML 파일 형식에 대한 정보
 
@@ -161,3 +139,7 @@ Intune에서는 속성 목록의 다음 데이터 형식을 지원합니다.
 </dict>
 
 ```
+
+## <a name="next-steps"></a>다음 단계
+
+평소대로 앱을 계속 [할당](apps-deploy.md) 및 [모니터링](apps-monitor.md)합니다.
