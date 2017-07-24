@@ -183,13 +183,12 @@
 ### [프로필 모니터링](device-profile-monitor.md)
 ### [프로필 문제 해결](device-profile-troubleshoot.md)
 
-## [장치 준수 설정](device-compliance.md)
-### [전제 조건](device-compliance-get-started.md)
+## [장치 준수 설정](device-compliance-get-started.md)
 ### [Android 정책 만들기](compliance-policy-create-android.md)
 ### [Android for Work 정책 만들기](compliance-policy-create-android-for-work.md)
 ### [iOS 정책 만들기](compliance-policy-create-ios.md)
+### [ 정책 만들기](compliance-policy-create-mac-os.md)
 ### [Windows 정책 만들기](compliance-policy-create-windows.md)
-### 비준수에 대한 작업 만들기
 ### [장치 준수 모니터링](compliance-policy-monitor.md)
 
 ## [조건부 액세스 설정](conditional-access.md)
