@@ -6,7 +6,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 06/12/2017
+ms.date: 07/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 0f8b08f2-504c-4b38-bea2-b8a4ef0526b8
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 537087b720338413261b3947365a4d90fed89fbb
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 272628c501d15dc9661a1110e7dcab2d0e9f1d02
+ms.sourcegitcommit: 21a9db380956a50031dbea360b4c76664cbc2768
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/17/2017
 ---
 #  <a name="ios-app-protection-policy-settings"></a>iOS 앱 보호 정책 설정
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -71,8 +71,8 @@ Intune 앱 보호 정책에서 특정 시나리오의 데이터 송수신을 허
 | **액세스 요구 사항을 다시 확인할 시간(분)** | 다음 설정을 구성합니다. <ul><li>**제한 시간**: 이전에 정책에서 정의된 액세스 요구 사항이 다시 확인되기까지 걸리는 시간(분)입니다. 예를 들어 관리자가 정책에서 PIN을 켠 후 사용자가 MAM 앱을 열고 PIN을 입력해야 합니다. 이 설정을 사용하는 경우 사용자가 **30분**(기본값) 동안은 MAM 앱에서 PIN을 다시 입력할 필요가 없습니다.</li><li>**오프라인 유예 기간**: MAM 앱이 오프라인 상태로 실행될 수 있는 시간(분)으로, 앱의 액세스 요구 사항이 다시 확인되기까지 걸리는 시간(분)을 지정합니다. 기본값 = **720**분(12시간). 이 기간이 만료되면 앱을 계속 실행하기 위해 AAD에 사용자 인증이 필요합니다.</li></ul>| 시간 제한: 30 <br><br> 오프라인: 720 |
 | **앱 데이터를 초기화하기 전의 오프라인 간격(일)** | 관리자가 정의된 기간(일) 동안 오프라인 상태로 실행할 경우 앱 자체에서 선택적 초기화를 수행합니다. 이 선택적 초기화는 MAM 초기화 워크플로에서 관리자가 시작할 수 있는 것과 동일한 초기화입니다. <br><br> | 90일 |
 | **장치 PIN을 관리하는 경우 앱 PIN 사용 안 함** | 등록된 장치에서 장치 잠금이 검색되는 경우 앱 PIN을 사용하지 않도록 설정하려면 **예**를 선택합니다. | 아니요 |
-| **Require minimum iOS operating system**(최소 iOS 운영 체제 필요) | 이 앱을 사용하기 위한 최소 iOS 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 iOS 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다. | 아니요 |
-| **Require minimum iOS operating system (Warning only)**(최소 iOS 운영 체제 필요(경고)) | 이 앱을 사용하기 위한 최소 iOS 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 iOS 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다. | 아니요 |
+| **Require minimum iOS operating system**(최소 iOS 운영 체제 필요) | 이 앱을 사용하기 위한 최소 iOS 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 iOS 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다. 이 정책은 단일 소수 자릿수 버전을 지원합니다(예: iOS 10.3). | 아니요 |
+| **Require minimum iOS operating system (Warning only)**(최소 iOS 운영 체제 필요(경고)) | 이 앱을 사용하기 위한 최소 iOS 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 iOS 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다. 이 정책은 단일 소수 자릿수 버전을 지원합니다(예: iOS 10.3). | 아니요 |
 | **Require minimum app version**(최소 앱 버전 필요) | 앱을 사용할 최소 앱 버전을 요구하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다.<br><br>응용 프로그램 간에 서로 다른 버전 지정 체계를 종종 있는 하나의 앱 (예를 들어 "Outlook 버전 정책")을 대상으로 하는 하나의 최소 응용 프로그램 버전으로는 정책을 만듭니다. <br><br> | 아니요 | 
 | **Require minimum app version (Warning only)**(최소 앱 버전 필요(경고)) | 이 앱을 사용하기 위한 최소 앱 버전을 권장하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다.<br><br>응용 프로그램 간에 서로 다른 버전 지정 체계를 종종 있는 하나의 앱 (예를 들어 "Outlook 버전 정책")을 대상으로 하는 하나의 최소 응용 프로그램 버전으로는 정책을 만듭니다. <br><br> | 아니요 | 
 | **Require minimum Intune app protection policy SDK version**(최소 Intune 앱 보호 정책 SDK 버전 필요) | 사용할 앱에 대한 최소 Intune 앱 보호 정책 SDK를 요구하려면 **예**를 선택합니다. 앱의 Intune 앱 보호 정책 SDK 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다. <br> <br> Intune 앱 보호 정책 SDK에 대한 자세한 내용은 [Intune 앱 SDK 개요](app-sdk.md)를 참조하세요. <br><br> | 아니요 |

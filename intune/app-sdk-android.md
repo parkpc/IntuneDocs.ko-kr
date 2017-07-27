@@ -5,7 +5,7 @@ keywords: SDK
 author: mtillman
 manager: angrobe
 ms.author: mtillman
-ms.date: 06/12/2017
+ms.date: 07/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 403917adb1fb1156f0ed0027a316677d1e4f2f84
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: a11b094a896a2358d8e414cc248976fd34bad38b
+ms.sourcegitcommit: abd8f9f62751e098f3f16b5b7de7eb006b7510e4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 07/20/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Android용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -83,7 +83,7 @@ Intune 앱 SDK가 작동하려면 앱 보호 정책을 사용하도록 Intune �
 
 예를 들어 `AppSpecificActivity`가 `super.onCreate()`를 호출하는 등 부모와 상호 작용하는 경우에는 `MAMActivity`가 슈퍼 클래스입니다.
 
-일반적인 Android 앱은 단일 모드를 가지며 [**Context**](https://developer.android.com/reference/android/content/Context.html) 개체를 통해 시스템에 액세스할 수 있습니다. 반면, Intune 앱 SDK를 통합한 앱은 이중 모드를 가집니다. 이러한 앱은 `Context` 개체를 통해 시스템에 계속 액세스합니다. 사용되는 기본 `Activity`에 따라 `Context` 개체는 Android에서 제공될 수도 있고, Android 제공 `Context` 및 시스템의 제한된 뷰 간에 지능적으로 멀티플렉싱될 수도 있습니다.
+일반적인 Android 앱은 단일 모드를 가지며 [**Context**](https://developer.android.com/reference/android/content/Context.html) 개체를 통해 시스템에 액세스할 수 있습니다. 반면, Intune 앱 SDK를 통합한 앱은 이중 모드를 가집니다. 이러한 앱은 `Context` 개체를 통해 시스템에 계속 액세스합니다. 사용되는 기본 `Activity`에 따라 `Context` 개체는 Android에서 제공될 수도 있고, Android 제공 `Context` 및 시스템의 제한된 뷰 간에 지능적으로 멀티플렉싱될 수도 있습니다. MAM 진입점 중 하나에서 파생한 후에는 일반적인 방식으로 `Context`를 사용하는 것이 안전합니다. 예를 들어 `Activity` 클래스를 시작하고 `PackageManager`를 사용할 수 있습니다.
 
 
 ## <a name="replace-classes-methods-and-activities-with-their-mam-equivalent"></a>클래스, 메서드, 작업 등을 동등한 MAM 항목으로 바꾸기
@@ -136,7 +136,7 @@ Android 기본 클래스를 동등한 개별 MAM 클래스로 바꿔야 합니�
 
 
 ### <a name="renamed-methods"></a>이름이 바뀐 메서드
-MAM 진입점 중 하나에서 파생한 후에는 일반적인 방식으로 `Context`를 사용하는 것이 안전합니다. 예를 들어 `Activity` 클래스를 시작하고 `PackageManager`를 사용할 수 있습니다.
+
 
 대부분의 경우, Android 클래스에서 사용할 수 있는 메서드가 MAM 대체 클래스에서 최종본으로 표시되어 있습니다. 이 경우 MAM 대체 클래스는 대신 재정의할 유사한 이름의 메서드(일반적으로 접미사 `MAM`이 붙음)를 제공합니다. 예를 들어 `onCreate()`를 재정의하고 `super.onCreate()`를 호출하는 대신 `MAMActivity`에서 파생하는 경우 `Activity`는 `onMAMCreate()`를 재정의하고 `super.onMAMCreate()`를 호출해야 합니다. Java 컴파일러는 동등한 MAM 메서드 대신 원래 메서드가 실수로 재정의되는 것을 방지하기 위해 최종 제한을 적용해야 합니다.
 
@@ -146,7 +146,7 @@ MAM 진입점 중 하나에서 파생한 후에는 일반적인 방식으로 `Co
 ### <a name="manifest-replacements"></a>매니페스트 대체
 Java 코드 외에도 매니페스트에서 위의 클래스 대체를 수행해야 할 수도 있습니다. 특별 참고 사항:
 * `android.support.v4.content.FileProvider`에 대한 매니페스트 참조는 `com.microsoft.intune.mam.client.support.v4.content.MAMFileProvider`로 대체해야 합니다.
-
+* 응용 프로그램에 자체적인 파생 응용 프로그램 클래스가 필요하지 않을 경우 `com.microsoft.intune.mam.client.app.MAMApplication`은 매니페스트에서 사용되는 응용 프로그램 클래스의 이름으로 설정되어야 합니다.
 
 ## <a name="sdk-permissions"></a>SDK 권한
 
@@ -198,7 +198,7 @@ public interface MAMLogHandlerWrapper {
 
 ## <a name="enable-features-that-require-app-participation"></a>앱 참여를 요구하는 기능 사용
 
-SDK가 자체적으로 구현할 수 없는 몇 가지 앱 보호 정책이 있습니다. 앱은 다음의 `AppPolicy` 인터페이스에서 찾을 수 있는 여러 가지 API를 사용하여 이러한 기능을 수행하기 위한 동작을 제어할 수 있습니다.
+SDK가 자체적으로 구현할 수 없는 몇 가지 앱 보호 정책이 있습니다. 앱은 다음의 `AppPolicy` 인터페이스에서 찾을 수 있는 여러 가지 API를 사용하여 이러한 기능을 수행하기 위한 동작을 제어할 수 있습니다. `AppPolicy` 인스턴스를 검색하려면 `MAMPolicyManager.getPolicy`를 사용합니다.
 
 ```java
 /**
@@ -267,7 +267,7 @@ String toString();
 ```
 
 > [!NOTE]
-> `MAMComponents.get(AppPolicy.class)`은 장치 또는 앱에 Intune 관리 정책이 적용되지 않더라도 항상 Null이 아닌 앱 정책을 반환합니다.
+> `MAMPolicyManager.getPolicy`은 장치 또는 앱에 Intune 관리 정책이 적용되지 않더라도 항상 Null이 아닌 앱 정책을 반환합니다.
 
 ### <a name="example-determine-if-pin-is-required-for-the-app"></a>예: 앱에 PIN이 필요한지 확인
 
@@ -321,13 +321,13 @@ SaveLocation service, String username);
 
     * SaveLocation.ONEDRIVE_FOR_BUSINESS
     * SaveLocation.LOCAL
-    * SaveLocation.OTHER
+    * SaveLocation.SHAREPOINT
 
 사용자 정책에서 다양한 위치에 데이터를 저장하도록 허용하는지를 결정하는 이전 메소드는 동일한 **AppPolicy** 클래스에 있는 `getIsSaveToPersonalAllowed()`입니다. 이 함수는 이제 **더 이상 사용되지 않음**이므로 사용하지 않아야 합니다. 다음 호출은 `getIsSaveToPersonalAllowed()`에 해당합니다.
 
 ```java
 
-MAMComponents.get(AppPolicy.class).getIsSaveToLocationAllowed(SaveLocation.LOCAL, userNameInQuestion);
+MAMPolicyManager.getPolicy(currentActivity).getIsSaveToLocationAllowed(SaveLocation.LOCAL, userNameInQuestion);
 ```
 
 >[!NOTE]
@@ -748,13 +748,17 @@ BackupAgent를 사용하면 백업되는 데이터에 대해 훨씬 더 명확�
 ### <a name="overview"></a>개요
 기본적으로 Intune 앱 SDK는 앱에 전체적으로 정책을 적용합니다. 다중 ID는 정책을 ID 수준별로 적용하기 위해 설정할 수 있는 선택적 Intune 앱 보호 기능입니다. 이 기능을 사용하려면 다른 앱 보호 기능보다 훨씬 더 많은 앱 참여가 필요합니다.
 
-앱은 활성 ID를 변경하려는 경우 SDK에 _반드시_ 알려야 합니다. SDK는 ID 변경이 필요한 경우 앱에도 알립니다. 사용자가 장치 또는 앱을 등록하고 나면 SDK에서 이 ID를 등록하고 이를 기본 Intune 관리 ID로 간주합니다. 앱의 다른 사용자는 무제한 정책 설정이 적용되는 관리되지 않는 항목으로 처리됩니다.
+앱은 활성 ID를 변경하려는 경우 SDK에 *알려야 합니다*. 경우에 따라 SDK는 ID 변경이 필요한 경우 앱에도 알립니다. 그러나 대부분의 경우 MAM은 어떤 데이터가 UI에 표시되거나 특정 시점에 스레드에서 사용되고 있고 데이터 누수를 피하기 위해 올바른 ID를 설정하는 데 앱을 사용하는지 알 수 없습니다. 다음에 나오는 섹션에서는 앱 작업이 필요한 일부 특정 시나리오가 설명됩니다.
+
+> [!NOTE]
+>  올바른 앱 참여가 없으면 데이터가 누수되고 다른 보안 문제가 발생할 수 있습니다.
+
+사용자가 장치 또는 앱을 등록하고 나면 SDK에서 이 ID를 등록하고 이를 기본 Intune 관리 ID로 간주합니다. 앱의 다른 사용자는 무제한 정책 설정이 적용되는 관리되지 않는 항목으로 처리됩니다.
 
 > [!NOTE]
 > 현재 Intune 관리 ID는 장치당 하나만 지원됩니다.
 
 ID는 단순히 문자열로 정의됩니다. ID는 **대/소문자를 구분하지 않음**이며, ID와 관련한 SDK에 대한 요청은 ID를 설정할 때 원래 사용된 것과 같은 대/소문자를 반환하지 않을 수도 있습니다.
-
 
 ### <a name="enabling-multi-identity"></a>다중 ID 사용
 
@@ -774,7 +778,9 @@ ID는 단순히 문자열로 정의됩니다. ID는 **대/소문자를 구분하
   2. 컨텍스트(일반적으로 작업) 수준
   3. 프로세스 수준
 
-스레드 수준에서 설정된 ID는 컨텍스트 수준에서 설정된 ID를 대체하고 컨텍스트 수준 ID는 프로세스 수준에서 설정된 ID를 대체합니다. 컨텍스트에 설정된 ID는 연결된 적절한 시나리오 파일 IO 작업에서만 사용됩니다(예: 연결된 컨텍스트가 없는 작업). `MAMPolicyManager`에서 다음 메서드를 사용하여 ID를 설정하고 이전에 설정한 ID 값을 검색할 수 있습니다.
+스레드 수준에서 설정된 ID는 컨텍스트 수준에서 설정된 ID를 대체하고 컨텍스트 수준 ID는 프로세스 수준에서 설정된 ID를 대체합니다. 컨텍스트에서 설정된 ID는 해당하는 관련 시나리오에만 사용됩니다. 예를 들어 파일 IO 작업에는 연결된 컨텍스트가 없습니다. 일반적으로 앱은 활동에 대한 컨텍스트 ID를 설정합니다. 활동 ID가 동일한 ID로 설정되지 않는 한 앱은 관리되는 ID에 대한 데이터를 표시하면 *안 됩니다*. 일반적으로 프로세스 수준 ID는 모든 스레드에서 한 번에 한 명의 사용자만 앱을 사용하는 경우에만 유용합니다. 대부분의 앱은 해당 ID를 사용할 필요가 없을 수 있습니다.
+
+`MAMPolicyManager`에서 다음 메서드를 사용하여 ID를 설정하고 이전에 설정한 ID 값을 검색할 수 있습니다.
 
 ```java
   public static void setUIPolicyIdentity(final Context context, final String identity, final MAMSetUIIdentityCallback mamSetUIIdentityCallback);
@@ -797,8 +803,8 @@ ID는 단순히 문자열로 정의됩니다. ID는 **대/소문자를 구분하
   public static AppPolicy getPolicy();
 
   /**
-   * Get the currently applicable app policy, taking the context
-   * identity into account.
+  * Get the current app policy. This does NOT take the UI (Context) identity into account.
+   * If the current operation has any context (e.g. an Activity) associated with it, use the overload below.
    */
   public static AppPolicy getPolicy(final Context context);
 
@@ -820,9 +826,11 @@ ID를 설정하는 데 사용된 모든 메서드는 `MAMIdentitySwitchResult`�
 | 반환 값 | 시나리오 |
 |--|--|
 | SUCCEEDED | ID가 변경되었습니다. |
-| NOT_ALLOWED | ID 변경이 허용되지 않습니다. <br><br>등록된 사용자와 같은 조직에 속한 다른 관리 사용자로 전환하려고 하면 이 값이 반환됩니다. 현재 스레드에 다른 ID가 설정되어 있을 때 UI(컨텍스트) ID를 설정하려면 할 경우에도 이 값이 반환됩니다. |
+| NOT_ALLOWED | ID 변경이 허용되지 않습니다. ID 변경이 허용되지 않습니다. 현재 스레드에 다른 ID가 설정되어 있을 때 UI(컨텍스트) ID를 설정하려고 할 경우 이 작업이 수행됩니다. |
 | CANCELLED | 사용자가 보통 PIN 또는 인증 프롬프트에서 뒤로 단추를 눌러 ID 변경을 취소했습니다. |
 | FAILED | 알 수 없는 이유로 ID 변경에 실패했습니다.|
+
+앱은 회사 데이터를 표시 또는 사용하기 전에 ID 전환이 성공적인지 *확인해야 합니다*. 현재는 다중 ID 사용 앱에 대한 프로세스 및 스레드 ID 전환이 항상 성공하지만, 실패 조건을 추가할 권한은 Microsoft가 보유합니다. UI ID가 스레드 ID와 충돌하거나 사용자가 조건부 시작 요구 사항을 취소하는 경우 잘못된 인수로 인해 UI ID 전환이 실패할 수 있습니다(예: PIN 화면에서 [뒤로] 단추를 누름).
 
 
 컨텍스트 ID를 설정할 경우 결과는 비동기적으로 보고됩니다. 컨텍스트가 작업인 경우에는 SDK가 PIN이나 전체 회사 자격 증명을 입력해야 할 수 있는 조건부 시작이 수행된 후까지 ID 변경에 성공했는지 알 수 없게 됩니다. 앱은 이 매개 변수에 Null을 전달할 수 있더라도 이 결과를 수신하도록 `MAMSetUIIdentityCallback`을 구현해야 합니다.
@@ -927,10 +935,10 @@ ID를 설정하는 데 사용된 모든 메서드는 `MAMIdentitySwitchResult`�
 
   ```java
     public final class MAMFileProtectionManager {
+    /**
+         * Protect a file. This will synchronously trigger whatever protection is required for the 
+           file, and will tag the file for future protection changes.
 
-        /**
-         * Protect a file. This will synchronously trigger whatever protection is required for the file, and will tag the file for
-         * future protection changes.
          *
          * @param identity
          *            Identity to set.
@@ -940,23 +948,37 @@ ID를 설정하는 데 사용된 모든 메서드는 `MAMIdentitySwitchResult`�
          *             If the file cannot be changed.
          */
         public static void protect(final File file, final String identity) throws IOException;
+        
+        /**
+        * Protect a file obtained from a content provider. This is intended to be used for
+        * sdcard (whether internal or removable) files accessed through the Storage Access Framework.
+        * It may also be used with descriptors referring to private files owned by this app.
+        * It is not intended to be used for files owned by other apps and such usage will fail. If
+        * creating a new file via a content provider exposed by another MAM-integrated app, the new
+        * file identity will automatically be set correctly if the ContentResolver in use was
+        * obtained via a Context with an identity or if the thread identity is set.
+        *
+        * This will synchronously trigger whatever protection is required for the file, and will tag
+        * the file for future protection changes. If an identity is set on a directory, it is set
+        * recursively on all files and subdirectories. If MAM is operating in offline mode, this
+        * method will silently do nothing.
+        *
+        * @param identity
+        *       Identity to set.
+        * @param file
+        *       File to protect.
+        *
+        * @throws IOException
+        *       If the file cannot be protected.
+
+        */
+        public static void protect(final ParcelFileDescriptor file, final String identity) throws IOException;
 
         /**
          * Get the protection info on a file.
          *
          * @param file
          *            File or directory to get information on.
-         * @return File protection info, or null if there is no protection info.
-         * @throws IOException
-         *             If the file cannot be read or opened.
-         */
-        public static MAMFileProtectionInfo getProtectionInfo(final File file) throws IOException;
-
-        /**
-         * Get the protection info on a file.
-         *
-         * @param file
-         *            File to get information on.
          * @return File protection info, or null if there is no protection info.
          * @throws IOException
          *             If the file cannot be read or opened.
@@ -970,6 +992,19 @@ ID를 설정하는 데 사용된 모든 메서드는 `MAMIdentitySwitchResult`�
     }
 
   ```
+#### <a name="app-responsibility"></a>앱 책임
+MAM은 읽고 있는 파일과 `Activity`에 표시되는 데이터 간 관계를 자동으로 유추할 수 없습니다. 앱은 회사 데이터를 표시하기 전에 UI ID를 적절하게 *설정해야 합니다*. 여기에는 파일에서 읽은 데이터가 포함됩니다. 파일이 앱 외부에서 제공된 경우(`ContentProvider`에서 제공되거나 공개적으로 쓰기 가능한 위치에서 읽은 경우) 앱은 파일에서 읽은 정보를 표시하기 전에 파일 ID를 확인하려고 *시도해야 합니다*(`MAMFileProtectionManager.getProtectionInfo` 사용). `getProtectionInfo`가 null이 아니고 비어 있지 않은 ID를 보고할 경우 UI ID는 이 ID와 일치하도록 *설정되어야 합니다*(`MAMActivity.switchMAMIdentity` 또는 `MAMPolicyManager.setUIPolicyIdentity` 사용). ID 전환에 실패하는 경우 파일의 데이터가 표시되지 *않아야 합니다*.
+
+예제 흐름은 다음과 같이 표시될 수 있습니다.
+  * 사용자가 앱에서 열 문서를 선택합니다.
+  * 열기 흐름 중에 디스크에서 데이터를 읽기 전에 앱이 콘텐츠를 표시하는 데 사용되어야 하는 ID를 확인합니다.
+    * MAMFileProtectionInfo info = MAMFileProtectionManager.getProtectionInfo(docPath)
+    * if(info)   MAMPolicyManager.setUIPolicyIdentity(activity, info.getIdentity(), callback)
+    * 앱이 결과가 콜백에 보고될 때까지 기다립니다.
+    * 보고된 결과가 실패인 경우 앱이 문서를 표시하지 않습니다.
+  * 앱이 파일을 열고 렌더링합니다.
+
+## <a name="offline-scenarios"></a>오프라인 시나리오
 
 오프라인 모드에서 파일 ID 태그를 지정할 경우 주의하세요. 다음 사항을 고려해야 합니다.
 
@@ -1093,6 +1128,150 @@ public final class MAMDataProtectionManager {
 
 다중 ID 인식 응용 프로그램에서 MAM 기본 선택 초기화를 수행하고  _**및**_ 에서 초기화 시 고유 작업을 수행하려는 경우 `WIPE_USER_AUXILIARY_DATA` 알림을 등록해야 합니다. 이 알림은 MAM 기본 선택적 초기화를 수행하기 직전에 SDK에서 즉시 전송합니다. 앱에서 WIPE_USER_DATA와 WIPE_USER_AUXILIARY_DATA를 둘 다 등록하지 않아야 합니다.
 
+## <a name="enabling-mam-targeted-configuration-for-your-android-applications-optional"></a>Android 응용 프로그램에 대해 MAM 대상 구성 사용(선택 사항)
+Intune 콘솔에서 응용 프로그램 특정 키-값 쌍을 구성해야 합니다. 이러한 키-값 쌍은 Intune에서 전혀 해석되지 않고 앱에 전달되기만 합니다. 해당 구성을 수신하려고 하는 응용 프로그램은 `MAMAppConfigManager` 및 `MAMAppConfig` 클래스를 사용하여 구성을 수신할 수 있습니다. 동일한 앱에서 여러 정책을 대상으로 지정하면 동일한 키에 사용할 수 있는 여러 개의 충돌 값이 발생할 수 있습니다.
+
+### <a name="example"></a>예
+```
+MAMAppConfigManager configManager = MAMComponents.get(MAMAppConfigManager.class);
+String identity = "user@contoso.com"
+MAMAppConfig appConfig = configManager.getAppConfig(identity);
+LOGGER.info("App Config Data = " + (appConfig == null ? "null" : appConfig.getFullData()));
+String valueToUse = null;
+if (appConfig.hasConflict("foo")) {
+    List<String> values = appConfig.getAllStringsForKey("foo");
+    for (String value : values) {
+        if (isCorrectValue(value)) {
+            valueToUse = value;
+        }
+    }
+} else {
+    valueToUse = appConfig.getStringForKey("foo", MAMAppConfig.StringQueryType.Any);
+}
+LOGGER.info("Found value " + valueToUse);
+```
+
+### <a name="mamappconfig-reference"></a>MAMAppConfig 참조
+
+```
+public interface MAMAppConfig {
+    /**
+     * Conflict resolution types for Boolean values.
+     */
+    enum BooleanQueryType {
+        /**
+         * In case of conflict, arbitrarily picks one. This is not guaranteed to return the same value every time.
+         */
+        Any,
+        /**
+         * In case of conflict, returns true if any of the values are true.
+         */
+        Or,
+        /**
+         * In case of conflict, returns false if any of the values are false.
+         */
+        And
+    }
+
+    /**
+     * Conflict resolution types for integer and double values.
+     */
+    enum NumberQueryType {
+        /**
+         * In case of conflict, arbitrarily picks one. This is not guaranteed to return the same value every time.
+         */
+        Any,
+        /**
+         * In case of conflict, returns the minimum Integer.
+         */
+        Min,
+        /**
+         * In case of conflict, returns the maximum Integer.
+         */
+        Max
+    }
+
+    /**
+     * Conflict resolution types for Strings.
+     */
+    enum StringQueryType {
+        /**
+         * In case of conflict, arbitrarily picks one. This is not guaranteed to return the same value every time.
+         */
+        Any,
+        /**
+         * In case of conflict, returns the first result ordered alphabetically.
+         */
+        Min,
+        /**
+         * In case of conflict, returns the last result ordered alphabetically.
+         */
+        Max
+    }
+
+    /**
+     * Retrieve the List of Dictionaries containing all the custom
+     *  config data sent by the MAMService. This will return every
+     * Application Configuration setting available for this user, one
+     *  mapping for each policy applied to the user.
+     */
+    List<Map<String, String>> getFullData();
+
+    /**
+     * Returns true if there is more than one targeted custom config setting for the key provided. 
+     */
+    boolean hasConflict(String key);
+
+    /**
+     * @return a Boolean value for the given key if it can be coerced into a Boolean, or 
+     * null if none exists or it cannot be coerced.
+     */
+    Boolean getBooleanForKey(String key, BooleanQueryType queryType);
+
+    /**
+     * @return a Long value for the given key if it can be coerced into a Long, or null if none exists or it cannot be coerced.
+     */
+    Long getIntegerForKey(String key, NumberQueryType queryType);
+
+    /**
+     * @return a Double value for the given key if it can be coerced into a Double, or null if none exists or it cannot be coerced.
+     */
+    Double getDoubleForKey(String key, NumberQueryType queryType);
+
+    /**
+     * @return a String value for the given key, or null if none exists.
+     */
+    String getStringForKey(String key, StringQueryType queryType);
+
+    /**
+     * Like getBooleanForKey except returns all values if multiple are present.
+     */
+    List<Boolean> getAllBooleansForKey(String key);
+
+    /**
+     * Like getIntegerForKey except returns all values if multiple are present.
+     */
+    List<Long> getAllIntegersForKey(String key);
+
+    /**
+     * Like getDoubleForKey except returns all values if multiple are present.
+     */
+    List<Double> getAllDoublesForKey(String key);
+
+    /**
+     * Like getStringForKey except returns all values if multiple are present.
+     */
+    List<String> getAllStringsForKey(String key);
+}
+```
+
+### <a name="notification"></a>알림
+앱 구성이 다음과 같은 새 알림 형식을 추가합니다.
+* **REFRESH_APP_CONFIG**: 이 알림은 `MAMUserNotification`을 통해 전송되며 새 앱 구성 데이터가 사용 가능함을 앱에 알립니다.
+
+MAM 대상 구성 값과 관련된 Graph API의 기능에 대한 자세한 내용은 [Graph API 참조 MAM 대상 구성](https://graph.microsoft.io/en-us/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create)을 참조하세요. <br>
+
+Android에서 MAM 대상 앱 구성 정책을 만드는 방법에 대한 자세한 내용은 [Android for Work용 Microsoft Intune 앱 구성 정책을 사용하는 방법](https://docs.microsoft.com/en-us/intune/app-configuration-policies-use-android)에서 MAM 대상 앱 구성 섹션을 참조하세요.
 
 ## <a name="style-customization-optional"></a>스타일 사용자 지정(선택사항)
 
@@ -1141,18 +1320,22 @@ Intune MAM 보기에 스타일 변경을 적용하려면 먼저 스타일 재정
 1.  필드의 경우 65K로 제한됩니다.
 2.  메서드의 경우 65K로 제한됩니다.
 
-
-
 ### <a name="policy-enforcement-limitations"></a>정책 적용 제한 사항
 
 * **화면 캡처**: SDK는 이미 Activity.onCreate 처리한 작업에서 새로운 화면 캡처 설정 값을 적용할 수 없습니다. 이로 인해 앱에서 스크린샷을 사용하지 않도록 구성했지만 여전히 스크린샷을 만들 수 있는 기간이 발생합니다.
 
 * **콘텐츠 확인자 사용**: “전송 또는 수신” Intune 정책이 다른 앱에서 콘텐츠 확인자를 사용하여 콘텐츠 공급자에 액세스하는 것을 차단하거나 부분적으로 차단할 수 있습니다. 이로 인해 ContentResolver 메서드에서 null이 반환되거나 오류 값이 발생합니다(예: 차단된 경우 `openOutputStream` 에서 `FileNotFoundException` 이 발생함). 앱에서는 콘텐츠 확인자를 통한 데이터 쓰기가 정책으로 인해 실패했거나 정책으로 인해 실패할 것인지 여부를 다음을 호출하여 확인할 수 있습니다.
+    ```java
+    MAMPolicyManager.getPolicy(currentActivity).getIsSaveToLocationAllowed(contentURI);
+    ```
+    또는 연결된 활동이 없는 경우
 
     ```java
-    MAMComponents.get(AppPolicy.class).getIsSaveToLocationAllowed(contentURI);
+    MAMPolicyManager.getPolicy().getIsSaveToLocationAllowed(contentURI);
     ```
 
+    이 두 번째 사례에서 다중 ID 앱은 스레드 ID를 적절하게 설정하도록 주의해야 합니다(또는 `getPolicy` 호출에 명시적 ID 전달).
+    
 ### <a name="exported-services"></a>내보낸 서비스
 
  Intune 앱 SDK에 포함된 AndroidManifest.xml 파일에는 **MAMNotificationReceiverService**가 들어 있습니다. 내보낸 서비스가 이 서비스여야 회사 포털에서 지원 앱에 알림을 보낼 수 있습니다. 이 서비스는 호출자를 검사하여 회사 포털만 알림을 보낼 수 있는지 확인합니다.

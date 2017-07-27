@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 05/31/2017
+ms.date: 07/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f0c55caa70c1a23da549f2fe8804c2ae69ef6045
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 14407e26a0715f3d5aa8cf570a2109dac7140079
+ms.sourcegitcommit: 21a9db380956a50031dbea360b4c76664cbc2768
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/17/2017
 ---
 # <a name="troubleshoot-device-enrollment-in-intune"></a>Intune에서 장치 등록 문제 해결
 
@@ -151,6 +151,17 @@ ms.lasthandoff: 07/01/2017
 
 
 ## <a name="android-issues"></a>Android 문제
+
+### <a name="android-enrollment-errors"></a>Android 등록 오류
+
+다음 표에서는 Intune에 Android 장치를 등록하는 동안 최종 사용자에게 표시될 수 있는 오류를 보여 줍니다.
+
+|오류 메시지|문제|해결 방법|
+|---|---|---|
+|**IT 관리자가 액세스에 대한 라이선스를 할당해야 함**<br>IT 관리자가 이 앱을 사용할 수 있도록 액세스 권한을 할당하지 않았습니다. IT 관리자에게 도움을 받거나 나중에 다시 시도하세요.|사용자 계정에 필요한 라이선스가 없으므로 장치를 등록할 수 없습니다.|사용자가 장치를 등록하려면 먼저 필요한 라이선스를 할당받아야 합니다. 이 메시지는 지정된 모바일 장치 관리 기관에 맞지 않는 라이선스 유형이 있음을 의미합니다. 예를 들어 Intune이 모바일 장치 관리 기관으로 지정되었는데 System Center 2012 R2 Configuration Manager 라이선스를 사용하는 경우 이 오류가 표시됩니다.<br><br>[사용자 계정에 Intune 라이선스를 할당](/intune/licenses-assign.md)하는 방법을 참조하세요.
+|**IT 관리자가 MDM 기관을 설정해야 함<br>IT 관리자가 MDM 기관을 설정하지 않은 것 같습니다. IT 관리자에게 도움을 받거나 나중에 다시 시도하세요.|모바일 장치 관리 기관이 정의되지 않았습니다.|Intune에서 모바일 장치 관리 기관이 지정되지 않았습니다. [모바일 장치 관리 기관을 설정](/intune/mdm-authority-set.md)하는 방법을 참조하세요.|
+
+
 ### <a name="devices-fail-to-check-in-with-the-intune-service-and-display-as-unhealthy-in-the-intune-admin-console"></a>장치가 Intune 서비스에 체크 인되지 않고 Intune 관리 콘솔에서 "비정상"으로 표시됨
 **문제:** Android 버전 4.4.x 및 5.x를 실행하는 일부 삼성 장치에서 Intune 서비스에 체크 인이 중지될 수 있습니다. 장치가 체크 인되지 않으면 다음과 같이 됩니다.
 

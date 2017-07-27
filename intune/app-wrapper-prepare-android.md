@@ -5,7 +5,7 @@ keywords:
 author: mtillman
 ms.author: mtillman
 manager: angrobe
-ms.date: 07/06/2017
+ms.date: 07/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: oldang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 299e2ed0a84c7158a582ee874f0711eb3c379532
-ms.sourcegitcommit: bee30f4c9e04129d70305fcafc4152c6e062a8b0
+ms.openlocfilehash: ebea9fe4cbf0c6c788ba4a209132856eda06445e
+ms.sourcegitcommit: 5eb209ae48173ddfdbbab131f12f3ac3498dcd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2017
+ms.lasthandoff: 07/18/2017
 ---
 # <a name="prepare-android-apps-for-mobile-application-management-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 Android 앱 준비
 
@@ -121,6 +121,17 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 **KeyStorePassword** 및 **KeyPassword**에 대한 메시지가 표시됩니다. 키 저장소 파일을 만드는 데 사용한 자격 증명을 입력합니다.
 
 래핑된 앱과 로그 파일이 생성되고 지정한 출력 경로에 저장됩니다.
+
+## <a name="reusing-signing-certificates-and-wrapping-apps"></a>서명 인증서 재사용 및 앱 래핑
+Android의 경우 Android 장치에 설치하려면 유효한 인증서로 모든 앱에 서명해야 합니다.
+
+래핑된 앱은 래핑 프로세스 중에 또는 기존 서명 도구를 사용하여 래핑한 *후에* 서명될 수 있습니다(래핑 전에 앱에 있는 모든 서명 정보는 무시됨).
+ 
+가능하면 빌드 프로세스에서 이미 사용된 서명 정보를 래핑 중에 사용해야 합니다. 특정 조직에서는 이를 위해 키 저장소 정보를 소유한 사용자(앱 빌드 팀)와 함께 작업해야 할 수 있습니다. 
+
+이전 서명 인증서를 사용할 수 없거나 앱이 이전에 배포되지 않은 경우 [Android Developer Guide](https://developer.android.com/studio/publish/app-signing.html#signing-manually)(Android 개발자 가이드)의 지침에 따라 새 서명 인증서를 만들 수 있습니다.
+
+앱이 이전에 다른 서명 인증서를 사용하여 배포되었던 경우 업그레이드 후에 해당 앱을 Intune 콘솔에 업로드할 수 없습니다. 앱 빌드 시 사용한 것과 다른 인증서를 사용하여 앱에 서명한 경우 앱 업그레이드 시나리오가 중단됩니다. 마찬가지로 앱 업그레이드를 위해 새로운 서명 인증서를 모두 유지해야 합니다. 
 
 ## <a name="security-considerations-for-running-the-app-wrapping-tool"></a>앱 래핑 도구를 실행하기 위한 보안 고려 사항
 잠재적인 스푸핑, 정보 공개 및 권한 상승 공격을 방지하려면:

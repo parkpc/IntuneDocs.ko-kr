@@ -6,19 +6,19 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 nmanager: angrobe
-ms.date: 06/13/2017
+ms.date: 07/17/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4a085264-232a-4af0-97f1-747496c44517
 ms.suite: ems
-ms.custom: intune-azure
-ms.openlocfilehash: 7549f3277c23c3951090502f2babfe7c47b0a201
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.custom: 
+ms.openlocfilehash: a51b3c59d922b0c150073017222dca0c90c5b7a0
+ms.sourcegitcommit: 36ae73f59ff5e9fdfe4f930ad0aa4b7795fe11f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/18/2017
 ---
 # <a name="introduction-to-microsoft-intune-in-the-azure-portal"></a>Azure Portal의 Microsoft Intune 소개
 
@@ -28,13 +28,10 @@ ms.lasthandoff: 07/01/2017
 Microsoft Intune은 이제 Azure Portal에 포함되었습니다. 따라서 이전에 사용했던 워크플로와 기능이 달라졌습니다.
 새 포털에서는 조직의 모바일 장치, PC 및 앱을 관리할 수 있는 Azure Portal의 새롭고 업데이트된 기능을 제공합니다.
 
-> [!IMPORTANT]
-> **새 포털이 아직 보이지 않으세요?**<br>
-> 현재 기존 테넌트를 새로운 환경으로 마이그레이션하는 중입니다. 테넌트가 마이그레이션되기 전에 Office 메시지 센터에 알림이 표시됩니다.
->
-> 2017년 1월 이전에 만든 Intune 계정은 일회성 마이그레이션을 수행해야 Azure에서 Apple 등록 워크플로를 사용할 수 있습니다. 마이그레이션 일정은 아직 공지되지 않았습니다. 기존 계정으로 Azure Portal에 액세스할 수 없는 경우 평가판 계정을 만드는 것이 좋습니다.
->
-> 잠재적 차단 목록을 검토합니다. https://blogs.technet.microsoft.com/intunesupport/2017/05/17/intune-migration-blockers-for-grouping-targeting/
+* [Azure에서 내 기능은 어디에 있나요?](ui-changes.md)는 Azure로 이동을 통해 변경된 특정 워크플로 및 UI를 보여 주는 참조입니다.
+* [Azure Portal의 Intune 클래식 그룹](groups-get-started.md)에서는 그룹 관리를 위해 Azure Active Directory 보안 그룹으로 이동하는 의미를 설명합니다.
+
+
 
 
 새 포털에 대한 정보는 이 라이브러리에서 확인할 수 있으며 지속적으로 업데이트됩니다. 제안 사항이 있는 경우 항목 설명에 의견을 남겨 주세요. 여러분의 의견을 듣고 싶습니다.
@@ -47,7 +44,14 @@ Microsoft Intune은 이제 Azure Portal에 포함되었습니다. 따라서 이�
 - 모든 Azure 응용 프로그램에서 호환성을 제공하는 Azure AD(Active Directory) 그룹
 - 대부분의 최신 웹 브라우저 지원
 
-클래식 Intune 콘솔에 대한 설명서를 보려면 [Intune 설명서 라이브러리](https://docs.microsoft.com/intune-classic/)를 참조하세요.
+> [!IMPORTANT]
+> **새 포털이 아직 보이지 않으세요?**<br>
+> 현재 기존 테넌트를 새로운 환경으로 마이그레이션하는 중입니다. 테넌트가 마이그레이션되기 전에 Office 메시지 센터에 알림이 표시됩니다.
+>
+> 2017년 1월 이전에 만든 Intune 계정은 일회성 마이그레이션을 수행해야 Azure에서 Apple 등록 워크플로를 사용할 수 있습니다. 마이그레이션 일정은 아직 공지되지 않았습니다. 기존 계정으로 Azure Portal에 액세스할 수 없는 경우 평가판 계정을 만드는 것이 좋습니다.
+>
+> 잠재적 차단 목록을 검토합니다. https://blogs.technet.microsoft.com/intunesupport/2017/05/17/intune-migration-blockers-for-grouping-targeting/
+
 
 ## <a name="before-you-start"></a>시작하기 전에
 
@@ -91,7 +95,7 @@ Intune 환경의 [계획 및 디자인](/intune-classic/plan-design/introduction
 ### <a name="on-premises-access"></a>온-프레미스 액세스
 [Exchange ActiveSync 및 Exchange 온-프레미스에 대한 액세스를 구성하는 방법에 대해 알아봅니다](/intune-classic/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune).
 ### <a name="users"></a>Users
-[관리하는 장치의 사용자에 대해 알아보고 리소스를 그룹으로 정렬합니다](user-management.md).
+[관리하는 장치의 사용자에 대해 알아보고 리소스를 그룹으로 정렬합니다](users-add.md).
 ### <a name="groups"></a>Groups
 [Intune에서 Azure Active Directory 그룹을 사용할 수 있는 방법에 대해 알아봅니다](groups-get-started.md).
 ### <a name="intune-roles"></a>Intune 역할

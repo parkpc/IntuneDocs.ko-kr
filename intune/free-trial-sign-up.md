@@ -1,7 +1,7 @@
 ---
-title: "30일 무료 평가판 등록"
-titleSuffix: Intune on Azure
-description: "Azure에서 Intune에 등록하는 방법을 알아봅니다.\""
+title: "Microsoft Intune의 30일 무료 평가판 등록"
+titleSuffix: 
+description: "Intune 30일 평가판에 등록하는 방법.\""
 keywords: 
 author: lindavr
 ms.author: lindavr
@@ -13,22 +13,22 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 195931c0-8208-43bd-b0af-b1f8e469a32c
 ms.suite: ems
-ms.custom: intune-azure
-ms.openlocfilehash: 7dafdb974dd975eaa7f3268119de6c047c50f858
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.custom: 
+ms.openlocfilehash: de86b6c9938d4be3f90d62e96080d8b967886792
+ms.sourcegitcommit: 5eb209ae48173ddfdbbab131f12f3ac3498dcd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/18/2017
 ---
-# <a name="sign-up-for-a-microsoft-intune-free-trial-for-the-azure-portal"></a>Azure Portal용 Microsoft Intune 무료 평가판 등록
+# <a name="sign-up-for-a-microsoft-intune-free-trial"></a>Microsoft Intune 무료 평가판 등록
 
 
 이 문서에서는 Azure Portal용 Intune 독립 실행형 평가판에 등록하는 과정을 안내합니다.
 
 1. [Intune 등록](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20) 페이지를 방문하여 평가판 구독에 등록하는 양식을 작성합니다.
-account-sign-up.md
+* 회사 또는 학교 계정이 있고 Intune 평가판에 이 계정을 사용하려면 대신 [이 로그인 지침](/intune/account-sign-up)을 따르세요.
 
-  대부분의 IT 작업자 및 사용자가 여러분과 다른 로캘에 있는 경우 **회사 위치는 어디입니까?** 아래에서 로캘을 선택할 수 있습니다.
+* 대부분의 IT 작업자 및 사용자가 여러분과 다른 로캘에 있는 경우 **회사 위치는 어디입니까?** 아래에서 로캘을 선택할 수 있습니다.
 
 2. 등록 프로세스가 끝나면 새 계정 정보가 포함된 메시지가 제공됩니다. <br/> ![계정 정보 이미지](./media/2-end-of-sign-up-process.png) <br/>이제 **준비가 되었습니다.**를 클릭하면 테스트 환경에 사용자를 추가할 수 있는 Office 365 관리 센터로 이동합니다. <br/><br/>그러나 Intune Azure Portal로 직접 이동하려면 새 브라우저 창을 열고 주소 표시줄에 **https://portal.azure.com**을 입력합니다. 그러면 제공된 자격 증명을 사용하여 로그인할 수 있는 Azure 로그인 페이지로 이동합니다. Intune 평가판에 로그인할 때마다 이 주소를 사용합니다. <br/> ![Azure Portal 로그인 페이지 이미지](./media/azure-portal-signin.png)
 
@@ -70,8 +70,6 @@ Intune에서 Office 365 관리 센터로 돌아가려면 브라우저 주소 표
 
 ### <a name="intune-on-azure"></a>Azure의 Intune
 [Azure Portal의 Intune](what-is-intune.md)에 대해 자세히 알아보세요.
-### <a name="classic-intune"></a>클래식 Intune
-평가 시나리오: [Microsoft의 모바일 장치 관리 평가](https://docs.microsoft.com/intune-classic/understand-explore/mobile-device-management-trial-guide-microsoft-intune)
 
 ### <a name="integration-with-other-products"></a>다른 제품과의 통합
 Intune에서 Azure Active Directory 사용자 계정을 사용하는 방법을 자세히 알아봅니다.
