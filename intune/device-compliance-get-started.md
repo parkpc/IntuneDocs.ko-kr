@@ -1,49 +1,92 @@
 ---
-title: "장치 준수 시작"
+title: "Intune 장치 준수 정책"
 titleSuffix: Intune on Azure
-description: "이 항목에서는 Microsoft Intune에서 준수 정책을 만드는 데 필요한 필수 구성 요소를 설명합니다.\""
+description: "이 항목에서는 Microsoft Intune의 장치 준수에 대해 알아봅니다.\""
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 07/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 8103df7f-1700-47b4-9a72-c196d2a02f22
+ms.assetid: a916fa0d-890d-4efb-941c-7c3c05f8fe7c
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: aa9a5c8c44b82dcbc1ae7a4609b12e22c6599e9e
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 9723e5a8b001068e8b7c9994723e6c7111e7a80d
+ms.sourcegitcommit: abd8f9f62751e098f3f16b5b7de7eb006b7510e4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/20/2017
 ---
-# <a name="get-started-with-device-compliance-in-intune"></a>Intune에서 장치 준수 시작
-
+# <a name="get-started-with-intune-device-compliance-policies"></a>Intune 장치 준수 정책 시작
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-이 항목에서는 다음을 알아봅니다. 
+## <a name="what-is-device-compliance-in-intune"></a>Intune의 장치 준수란?
 
-- 장치 준수 정책을 만들기 시작하려면 먼저 필요한 사항
-- Intune Azure Portal의 표시 내용과 기능 사항 한눈에 보기 
+Intune 장치 준수 정책은 장치가 Intune에서 준수되는 것으로 간주하기 위해 준수해야 하는 규칙 및 설정을 정의합니다.
 
-장치 준수에 대해 잘 모르는 경우 [이 항목](device-compliance.md)을 통해 장치 준수의 정의 및 조직에서 장치 준수를 사용할 수 있는 방법을 이해할 수 있습니다.
+이러한 규칙에는 다음이 포함됩니다.
+
+- 장치에 액세스하는 데 암호 사용
+
+- 암호화
+
+- 장치의 무단 해제 또는 루팅 여부
+
+- 필요한 최소 OS 버전
+
+- 허용된 최대 OS 버전
+
+- 장치가 Mobile Threat Defense 수준 이하여야 함
+
+장치 준수 정책을 사용하여 장치에서 준수 상태를 모니터링할 수도 있습니다.
+
+### <a name="device-compliance-requirements"></a>장치 정책 준수 요구 사항
+
+준수 요구 사항은 기본적으로 준수 정책에 필요하거나 필요하지 않도록 지정할 수 있는 장치 PIN 또는 암호화 요구와 같은 규칙입니다.
+
+<!---### Actions for noncompliance
+
+You can specify what needs to happen when a device is determined as noncompliant. This can be a sequence of actions during a specific time.
+When you specify these actions, Intune will automatically initiate them in the sequence you specify. See the following example of a sequence of
+actions for a device that continues to be in the noncompliant status for
+a week:
+
+-   When the device is first determined to be non-compliant, an email with noncompliant notification is sent to the user.
+
+-   3 days after initial noncompliance state, a follow up reminder is sent to the user.
+
+-   5 days after initial noncompliance state, a final reminder with a notification that access to company resources will be blocked on the device in 2 days if the compliance issues are not remediated is sent to the user.
+
+-   7 days after initial noncompliance state, access to company resources is blocked. This requires that you have conditional access policy that specifies that access from noncompliant devices should    be blocked for services such as Exchange and SharePoint.
+
+### Grace Period
+
+This is the time between when a device is first determined as
+noncompliant to when access to company resources on that device is blocked. This time allows for time that the user has to resolve
+compliance issues on the device. You can also use this time to create your action sequences to send notifications to the user before their access is blocked.
+
+Remember that you need to implement conditional access policies in addition to compliance policies in order for access to company resources to be blocked.--->
 
 ##  <a name="pre-requisites"></a>필수 구성 요소
 
--   Intune 구독
+Intune에서 장치 준수 정책을 사용하려면 다음과 같은 구독이 있어야 합니다.
 
--   Azure Active Directory 구독
+- Intune EMS
 
-##  <a name="supported-platforms"></a>지원되는 플랫폼:
+- Azure AD Premium
+
+###  <a name="supported-platforms"></a>지원되는 플랫폼:
 
 -   Android
 
 -   iOS
+
+-   macOS(미리 보기)
 
 -   Windows 8.1
 
@@ -51,32 +94,48 @@ ms.lasthandoff: 07/01/2017
 
 -   Windows 10
 
-##  <a name="azure-portal-workflow"></a>Azure Portal 워크플로
+> [!IMPORTANT]
+> 준수 상태를 보고하려면 장치가 Intune에 등록되어야 합니다.
 
-Intune Azure Portal에서 장치 준수를 만들고 관리하는 방법에 대한 개요는 다음과 같습니다.
+## <a name="how-intune-device-compliance-policies-work-with-azure-ad"></a>Azure AD에서 Intune 장치 준수 정책이 사용되는 방식
 
-<!---### Overview
+장치가 Intune에 등록되면 Azure AD 등록 프로세스가 수행되고 추가 정보를 사용하여 장치 특성이 Azure AD로 업데이트됩니다. 주요 장치 정보 중 하나는 장치 준수 상태로, 조건부 액세스 정책에서 메일 및 기타 회사 리소스에 대한 액세스를 차단하거나 허용하는 데 사용됩니다.
 
-When you choose the **Set device compliance** workload, the blade opens with an  **Overview** section that displays a summary view of your compliance policies that you have created and the status of the devices they have been applied to. If you
-don’t have any policies configured yet, the overview will just include the various reports but with no data.--->
+- [Azure AD 등록 프로세스](https://docs.microsoft.com/azure/active-directory/active-directory-device-registration-overview)에 대해 자세히 알아보세요.
 
-### <a name="manage"></a>관리
+##  <a name="ways-to-use-device-compliance-policies"></a>장치 준수 정책을 사용하는 방법
 
-준수 정책을 생성, 편집 및 삭제할 수 있습니다. 또한 여기에서 사용자에게 정책을 할당할 수 있습니다.
+### <a name="with-conditional-access"></a>조건부 액세스 사용
+준수 정책을 조건부 액세스와 함께 사용하여 하나 이상의 장치 준수 정책 규칙을 준수하는 장치만 메일 및 기타 회사 리소스에 액세스하도록 허용할 수 있습니다.
 
-<!---### Monitor
+### <a name="without-conditional-access"></a>조건부 액세스 사용 안 함
+또한 장치 준수 정책을 조건부 액세스와 독립적으로 사용할 수 있습니다. 준수 정책을 독립적으로 사용하는 경우 대상 장치는 평가되고 준수 상태와 함께 보고됩니다. 예를 들어 암호화되지 않은 장치의 수나 무단 해제 또는 루팅된 장치에 대한 보고서를 가져올 수 있습니다. 그러나 준수 정책을 독립적으로 사용하는 경우 회사 리소스에 대한 액세스 제한이 없습니다.
 
-This section is a detailed view of what you see in the **Overview**. A list of all the reports are displayed in this section and you can interactively drill down through each of these reports.--->
+사용자에게 준수 정책을 배포합니다. 준수 정책을 사용자에게 배포하면 사용자 장치의 준수가 확인됩니다. 정책이 배포된 후 모바일 장치가 정책을 수신하기까지 걸리는 시간에 대해 알아보려면 장치의 설정 및 기능 관리를 참조하세요.
 
-### <a name="setup"></a>설정
+##  <a name="using-device-compliance-policies-in-the-intune-classic-portal-vs-azure-portal"></a>장치 준수 정책 사용: Intune 클래식 포털 및 Azure 포털
 
-준수 상태 유효 기간
+주요 차이점을 알면 Azure Portal의 새 장치 준수 정책 워크플로로 전환하는 데 도움이 됩니다.
+
+- Azure Portal에서 준수 정책은 지원되는 각 플랫폼에 대해 개별적으로 생성됩니다.
+- Intune 클래식 콘솔에서는 하나의 장치 준수 정책이 지원되는 모든 플랫폼에 공통적으로 적용되었습니다.
+
+<!--- -   In the Azure portal, you have the ability to specify actions and notifications that are intiated when a device is determined to be noncompliant. This ability does not exist in the Intune admin console.
+
+-   In the Azure portal, you can set a grace period to allow time for the end-user to get their device back to compliance status before they completely lose the ability to get company data on their device. This is not available in the Intune admin console.--->
+
+##  <a name="migrate-device-compliance-policies-from-the-intune-classic-portal-to-the-azure-portal"></a>Intune 클래식 포털에서 Azure Portal로 장치 준수 정책 마이그레이션
+
+[Intune 클래식 포털](https://manage.microsoft.com)에서 만든 장치 준수 정책은 새 [Intune Azure Portal](https://portal.azure.com)에 표시되지 않습니다. 그러나 해당 정책은 여전히 사용자를 대상으로 하며 Intune 클래식 포털을 통해 관리할 수 있습니다.
+
+Azure Portal에서 새 장치 준수와 관련된 기능을 활용하려는 경우 Azure Portal 자체에서 새로운 장치 준수 정책을 만들어야 합니다. Intune 클래식 포털에서도 장치 준수 정책을 할당받은 사용자에게 Azure Portal의 새 장치 준수 정책을 할당하는 경우 Intune Azure Portal의 장치 준수 정책이 Intune 클래식 포털에서 만든 정책보다 우선합니다.
 
 ##  <a name="next-steps"></a>다음 단계
-[Android에 대한 준수 정책 만들기](compliance-policy-create-android.md)
 
-[Android for Work용 준수 정책 만들기](compliance-policy-create-android-for-work.md)
+다음 플랫폼에 대한 장치 준수 정책을 만듭니다.
 
-[iOS에 대한 준수 정책 만들기](compliance-policy-create-ios.md)
-
-[Windows에 대한 준수 정책 만들기](compliance-policy-create-windows.md)
+- [Android](compliance-policy-create-android.md)
+- [Android for Work](compliance-policy-create-android-for-work.md)
+- [iOS](compliance-policy-create-ios.md)
+- [macOS](compliance-policy-create-mac-os.md)
+- [Windows](compliance-policy-create-windows.md)

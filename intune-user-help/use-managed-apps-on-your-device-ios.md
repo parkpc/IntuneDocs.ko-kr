@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/16/2017
+ms.date: 07/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ee43647190da705581eaa5a266db3712391e06f2
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: e47e6fd8bbb3476beb8bd9df22376fdfd339ba2e
+ms.sourcegitcommit: 83dd7a127898dd9528187aa8d430cc1be9dd7738
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/15/2017
 ---
 # <a name="use-managed-apps-on-your-ios-device"></a>iOS 장치에서 관리되는 앱 사용
 
@@ -38,6 +38,8 @@ ms.lasthandoff: 07/01/2017
 -   장치가 Microsoft Intune에 등록된 경우 회사 포털 앱 또는 회사 포털 웹 사이트에서 앱을 설치하거나, IT 관리자가 장치에 설치할 수 있습니다. 등록에 대해 알아보려면 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 macOS 장치 등록](enroll-your-device-in-intune-macos.md)을 참조하세요.
 
 -   앱 스토어에서 앱을 설치하고 Intune으로 관리되는 회사 사용자 계정을 사용하여 로그인합니다.
+
+경우에 따라 IT 관리자는 설치하는 앱에 대한 여러 라이선스를 구매할 수 있습니다. Apple Volume Purchase Program 규약에 동의하도록 요청하는 메시지가 표시되는 것은 정상적이며 이 규약에 동의할 수 있습니다. 동의하지 않으면 앱을 설치할 수 없습니다.
 
 ### <a name="what-can-my-it-admin-manage-in-an-app"></a>IT 관리자가 앱에서 무엇을 관리할 수 있나요?
 IT 관리자가 앱에서 관리할 수 있고, 장치에서 회사 데이터 조작에 영향을 줄 수 있는 옵션의 몇 가지 예는 다음과 같습니다.

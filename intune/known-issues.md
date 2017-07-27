@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/27/2017
+ms.date: 07/17/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4fda224613d8b69be82ef7f9681ba9165be33e52
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: b08a097e785f85d8b9260cdaa60e720ed88cb4a1
+ms.sourcegitcommit: 21a9db380956a50031dbea360b4c76664cbc2768
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/17/2017
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Microsoft Intune의 알려진 문제
 
@@ -107,7 +107,11 @@ Cisco AnyConnect VPN 클라이언트(4.0.07072)의 최신 릴리스는 현재 In
 <!-- ## Enrollment -->
 
 
-<!-- ## Data protection -->
+## <a name="data-protection"></a>데이터 보호
+
+### <a name="ios-app-protection-policies"></a>iOS 앱 보호 정책
+
+등록 없이 MAM을 통해 관리되는 장치에서 사용자에게 제공되는 [iOS 앱 보호 정책](app-protection-policy-settings-ios.md)을 정의할 수 있습니다. 일시적인 오류로 인해 여러 개의 소수 자릿수가 아닌 단일 소수 자릿수를 가진 iOS 버전인 경우에만 이러한 정책을 정의할 수 있습니다. 최소 버전을 iOS 10.3.1로 설정하는 것이 아니라 iOS 10.3으로 설정합니다. 이 문제는 iOS SDK의 예정된 업데이트를 통해 해결될 것입니다.
 
 
 ## <a name="administration-and-accounts"></a>관리 및 계정
