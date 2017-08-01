@@ -21,8 +21,7 @@ ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/12/2017
 ---
-# Microsoft Intune 앱 관리란?
-<a id="what-is-microsoft-intune-app-management" class="xliff"></a>
+# <a name="what-is-microsoft-intune-app-management"></a>Microsoft Intune 앱 관리란?
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -37,8 +36,7 @@ IT 관리자는 최종 사용자가 작업 수행에 필요한 앱에 액세스�
 
 Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 다양한 기능을 제공합니다.
 
-## 플랫폼별 앱 관리 기능
-<a id="app-management-capabilities-by-platform" class="xliff"></a>
+## <a name="app-management-capabilities-by-platform"></a>플랫폼별 앱 관리 기능
 
 ||||||
 |-|-|-|-|-|
@@ -62,8 +60,7 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
 
 <sup>2</sup>Intune에서 관리하는 장치에만 적용됩니다.
 
-## 시작하는 방법
-<a id="how-to-get-started" class="xliff"></a>
+## <a name="how-to-get-started"></a>시작하는 방법
 
 대부분의 앱 관련 정보는 다음과 같이 액세스할 수 있는 **모바일 앱** 워크로드에서 확인할 수 있습니다.
 
@@ -73,8 +70,7 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
 
     ![모바일 앱 워크로드](./media/apps-workload.png)
 
-### 관리
-<a id="manage" class="xliff"></a>
+### <a name="manage"></a>관리
 - **앱** - 대부분의 앱을 추가, 할당 및 모니터링할 수 있는 노드입니다.
     - [앱 추가](apps-add.md)
     - [앱 할당](apps-deploy.md)
@@ -89,8 +85,7 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
 - **iOS 프로비전 프로필** - iOS 앱에는 인증서로 서명된 프로비전 프로필 및 코드가 포함됩니다. 인증서가 만료되면 앱을 더 이상 실행할 수 없습니다. Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필 정책을 미리 할당하기 위한 도구를 제공합니다.
     - [iOS 앱 프로비전 프로필](app-provisioning-profile-ios.md)
 
-### 모니터
-<a id="monitor" class="xliff"></a>
+### <a name="monitor"></a>모니터
 - **사용이 허가된 앱** - 앱 스토어에서 대량 구매 앱을 보고, 할당하고, 모니터링할 수 있습니다.
     - [비즈니스용 Windows 스토어 대량 구매 앱](windows-store-for-business.md)
 - **검색된 앱** - Intune에서 할당하고 장치에 설치된 모든 앱을 표시합니다.
@@ -99,8 +94,7 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
 
 자세한 내용은 [앱 모니터링](apps-monitor.md)을 참조하세요.
 
-### 설정
-<a id="setup" class="xliff"></a>
+### <a name="setup"></a>설정
 <!--- **iOS VPP Tokens**
     - [iOS volume-purchased apps](vpp-apps-ios.md) --->
 - **비즈니스용 Windows 스토어** - 비즈니스용 Windows 스토어에 대한 통합을 설정합니다. 그리고 나면 구매한 응용 프로그램을 Intune에 동기화하고 할당한 후 라이선스 사용 현황을 추적할 수 있습니다.
