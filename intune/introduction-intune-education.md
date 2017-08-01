@@ -20,8 +20,7 @@ ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/13/2017
 ---
-# Intune for Education이란?
-<a id="what-is-intune-for-education" class="xliff"></a>
+# <a name="what-is-intune-for-education"></a>Intune for Education이란?
 
 Intune for Education은 학교 데이터를 보호하면서 교사와 학생의 생산성을 높일 수 있도록 구성되어 있습니다. Intune은 Intune for Education의 기초가 되는 클라우드 기반 EMM(엔터프라이즈 이동성 관리) 서비스입니다.
 
@@ -39,8 +38,7 @@ Intune 및 Intune for Education에서 둘 다 다음을 수행할 수 있습니�
 * 사용자가 조직 정보에 액세스하여 이를 공유하는 방법을 제어할 수 있게 하여 조직 정보를 보호합니다.
 * 장치와 앱이 보안 요구 사항을 준수하는지 확인합니다.
 
-### 다음 단계
-<a id="next-steps" class="xliff"></a>
+### <a name="next-steps"></a>다음 단계
 * [Intune의 30일 평가판으로](/intune-classic/understand-explore/sign-up-for-30-day-trial-microsoft-intune) 제품에 대해 알아보기
 * [Intune for Education 사용을 시작](/intune-education/what-is-express-configuration)할 수 있는 가장 빠른 방법을 읽어 보세요.
 * Intune의 [기술 요구 사항 및 기능](/intune/supported-devices-browsers)에 대해 자세히 알아보기
