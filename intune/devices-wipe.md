@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 06/06/2017
+ms.date: 07/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2063612ee11d2bc7915ebe4bb28c67854a2599c3
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 44d1695b3f0297276376fb9cb4367c1411aa31b2
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="use-full-or-selective-wipe"></a>전체 또는 선택적 초기화 사용
 
@@ -80,8 +80,8 @@ Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정�
 |Wi-Fi 및 VPN 프로필 설정|제거됩니다.|
 |인증서 프로필 설정|인증서가 제거되고 해지됩니다.|
 |관리 에이전트|관리 프로필이 제거됩니다.|
-|메일|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다. Microsoft Exchange를 온-프레미스에서 호스트하는 경우 메일 프로필 및 캐시된 메일이 제거되지 않습니다.|
-|Outlook|iOS에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.</br>예외: Exchange를 온-프레미스에서 호스트하는 경우 메일이 제거되지 않습니다.|
+|메일|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다.|
+|Outlook|iOS에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.|
 |AAD(Azure Active Directory) 가입 취소|AAD 레코드가 제거됩니다.|
 |연락처 | 앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.
 
@@ -99,7 +99,7 @@ Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정�
 |인증서 프로필 설정|인증서가 해지되었지만 제거되지는 않았습니다.|인증서가 제거되고 해지되었습니다.|
 |관리 에이전트|장치 관리자 권한이 해지됩니다.|장치 관리자 권한이 해지됩니다.|
 |메일|해당 없음(Android 장치에서는 전자 메일 프로필이 지원되지 않음)|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다.|
-|Outlook|Android에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.</br>예외: Exchange를 온-프레미스에서 호스트하는 경우 메일이 제거되지 않습니다.|Android에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.</br>예외: Exchange를 온-프레미스에서 호스트하는 경우 메일이 제거되지 않습니다.|
+|Outlook|Android에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.|Android에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.|
 |AAD(Azure Active Directory) 가입 취소|AAD 레코드가 제거됩니다.|AAD 레코드가 제거됩니다.|
 |연락처 | 앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.|앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.
 
@@ -115,7 +115,7 @@ Android for Work 장치에서 선택적 초기화를 수행하면 해당 장치�
 |설정|Intune 정책에서 설정한 구성은 더 이상 적용되지 않으며 사용자는 설정을 변경할 수 있습니다.|Intune 정책에서 설정한 구성은 더 이상 적용되지 않으며 사용자는 설정을 변경할 수 있습니다.|Intune 정책에서 설정한 구성은 더 이상 적용되지 않으며 사용자는 설정을 변경할 수 있습니다.|Intune 정책에서 설정한 구성은 더 이상 적용되지 않으며 사용자는 설정을 변경할 수 있습니다.|
 |Wi-Fi 및 VPN 프로필 설정|제거됩니다.|제거됩니다.|지원 안 됨|제거됩니다.|
 |인증서 프로필 설정|인증서가 제거되고 해지되었습니다.|인증서가 제거되고 해지되었습니다.|지원 안 됨|인증서가 제거되고 해지되었습니다.|
-|메일|Windows 메일 및 첨부 파일용 메일 앱을 포함하는 EFS 지원 메일을 제거합니다.|지원 안 됨|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다.|Windows 메일 및 첨부 파일용 메일 앱을 포함하는 EFS 지원 메일을 제거합니다. Intune을 통해 프로비전된 메일 계정을 제거합니다.</br>**예외**: Microsoft Exchange를 온-프레미스에서 호스트하는 경우 메일 계정이 제거되지 않습니다.|
+|메일|Windows 메일 및 첨부 파일용 메일 앱을 포함하는 EFS 지원 메일을 제거합니다.|지원 안 됨|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다.|Windows 메일 및 첨부 파일용 메일 앱을 포함하는 EFS 지원 메일을 제거합니다. Intune을 통해 프로비전된 메일 계정을 제거합니다.|
 |AAD(Azure Active Directory) 가입 취소|아니요.|아니요.|AAD 레코드가 제거됩니다.|해당 없음. Windows 10에서는 Azure Active Directory 가입 장치를 선택적으로 초기화할 수 없습니다.|
 
 **선택적 초기화를 수행하려면**

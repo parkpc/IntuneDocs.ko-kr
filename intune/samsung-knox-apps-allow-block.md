@@ -15,16 +15,19 @@ ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8245bb3fa8f08e719df903a70f079f4fdf534ca5
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: c5403c8b81caf84a0c7d4bd126a0903ac3122539
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices-in-microsoft-intune"></a>Microsoft Intune에서 사용자 지정 정책을 사용하여 Samsung KNOX Standard 장치에 대해 앱 허용 및 차단
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]이 항목의 절차를 사용하여 다음 중 하나를 만들 수 있는 Microsoft Intune 사용자 지정 정책을 만듭니다.
 
-- 장치에서 실행이 차단된 앱 목록입니다. 이 목록에 있는 앱은 정책을 적용했을 때 이미 설치되어 있었더라도 실행이 차단됩니다.
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+이 항목의 절차를 사용하여 다음 중 하나를 만들 수 있는 Microsoft Intune 사용자 지정 정책을 만듭니다.
+
+- 장치에서 실행되지 않도록 차단할 앱 목록. 이 목록에 있는 앱은 정책을 적용했을 때 이미 설치되어 있었더라도 실행이 차단됩니다.
 - 장치 사용자가 Google Play 스토어에서 설치할 수 있도록 허용된 앱 목록. 나열된 앱만 설치할 수 있습니다. 다른 앱은 스토어에서 설치할 수 없습니다.
 
 이러한 설정은 삼성 KNOX Standard를 실행하는 장치에서만 사용할 수 있습니다.

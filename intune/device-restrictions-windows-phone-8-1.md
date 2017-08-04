@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,18 @@ ms.assetid: c2d42714-49ca-43b3-b080-2e67a4268198
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e425b8a3c93c2f5dc73fbe9c75aa9adf49c5cdc8
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 54a50ec2195ed2f760f69137418977f417220aa1
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="windows-phone-81-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune에서 Windows Phone 8.1 장치 제한 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="general"></a>일반
--   **Windows Phone 8.1에만 모든 설정 적용** - 클래식 Intune 포털에서 구성할 수 있는 설정입니다. Azure Portal에서는 이 설정을 변경할 수 없습니다. **구성됨**으로 설정된 경우 모든 설정이 Windows Phone 8.1 장치에만 적용됩니다. **구성되지 않음**으로 설정한 경우 Windows 10 Mobile 장치에도 이러한 설정이 적용됩니다.
+
 -   **카메라** - 장치 카메라를 사용하도록 설정하거나 차단합니다.
 -   **복사 및 붙여넣기** - 장치에서 복사 및 붙여넣기 기능을 사용하도록 설정하거나 차단합니다.
 -   **이동식 저장소** - 장치에서 SD 카드와 같은 이동식 저장소를 사용하도록 허용합니다.
@@ -37,8 +37,8 @@ ms.lasthandoff: 07/01/2017
 -   **사용자 지정 메일 계정 동기화** - 장치가 타사 메일 계정에 연결할 수 있습니다.
 
 ## <a name="password"></a>암호
--   **Windows Phone 8.1에만 모든 설정 적용** - 클래식 Intune 포털에서 구성할 수 있는 설정입니다. Azure Portal에서는 이 설정을 변경할 수 없습니다. **구성됨**으로 설정된 경우 모든 설정이 Windows Phone 8.1 장치에만 적용됩니다. **구성되지 않음**으로 설정한 경우 Windows 10 Mobile 장치에도 이러한 설정이 적용됩니다.
--   **암호 필요** - 최종 사용자에게 장치에 액세스하려면 암호를 입력하도록 요구합니다.
+
+-   **암호** - 최종 사용자에게 장치에 액세스하려면 암호를 입력하도록 요구합니다.
     -   **필수 암호 유형** - 숫자만 또는 영숫자와 같이 필요한 암호의 유형을 지정합니다.
     -   **최소 암호 길이** - 암호에 필요한 최소 문자 수를 지정합니다.
     -   **단순 암호** - '0000' 및 '1234'와 같은 단순한 암호를 사용할 수 있도록 지정합니다.
@@ -49,12 +49,10 @@ ms.lasthandoff: 07/01/2017
 -   **암호화** - 지원되는 모바일 장치의 데이터를 암호화해야 합니다.
 
 ## <a name="app-store"></a>앱 스토어
--   **Windows Phone 8.1에만 모든 설정 적용** - 클래식 Intune 포털에서 구성할 수 있는 설정입니다. Azure Portal에서는 이 설정을 변경할 수 없습니다. **구성됨**으로 설정된 경우 모든 설정이 Windows Phone 8.1 장치에만 적용됩니다. **구성되지 않음**으로 설정한 경우 Windows 10 Mobile 장치에도 이러한 설정이 적용됩니다.
+
 -   **앱 스토어** - 사용자가 장치에서 앱 스토어에 연결하도록 허용합니다.
 
 ## <a name="restricted-apps"></a>제한된 앱
-
--   **Windows Phone 8.1에만 모든 설정 적용** - 클래식 Intune 포털에서 구성할 수 있는 설정입니다. Azure Portal에서는 이 설정을 변경할 수 없습니다. **구성됨**으로 설정된 경우 모든 설정이 Windows Phone 8.1 장치에만 적용됩니다. **구성되지 않음**으로 설정한 경우 Windows 10 Mobile 장치에도 이러한 설정이 적용됩니다.
 
 제한된 앱 목록에서 다음 목록 중 하나를 구성할 수 있습니다.
 
@@ -81,11 +79,11 @@ ms.lasthandoff: 07/01/2017
 
 
 ## <a name="browser"></a>브라우저
--   **Windows Phone 8.1에만 모든 설정 적용** - 클래식 Intune 포털에서 구성할 수 있는 설정입니다. Azure Portal에서는 이 설정을 변경할 수 없습니다. **구성됨**으로 설정된 경우 모든 설정이 Windows Phone 8.1 장치에만 적용됩니다. **구성되지 않음**으로 설정한 경우 Windows 10 Mobile 장치에도 이러한 설정이 적용됩니다.
+
 -   **웹 브라우저** - 장치의 기본 제공되는 웹 브라우저를 사용하도록 설정하거나 차단합니다.
 
 ## <a name="cellular-and-connectivity"></a>셀룰러 및 연결
--   **Windows Phone 8.1에만 모든 설정 적용** - 클래식 Intune 포털에서 구성할 수 있는 설정입니다. Azure Portal에서는 이 설정을 변경할 수 없습니다. **구성됨**으로 설정된 경우 모든 설정이 Windows Phone 8.1 장치에만 적용됩니다. **구성되지 않음**으로 설정한 경우 Windows 10 Mobile 장치에도 이러한 설정이 적용됩니다.
+
 -   **Wi-Fi** - 장치의 Wi-Fi 기능을 사용하거나 사용하지 않도록 설정합니다.
 -   **Wi-Fi 테더링** - 장치의 Wi-Fi 테더링을 사용할 수 있습니다.
 -   **자동으로 Wi-Fi 핫스팟에 연결** - 장치가 무료 Wi-Fi 핫스폿에 자동으로 연결하고 사용 약관을 자동으로 수락할 수 있습니다.

@@ -20,15 +20,13 @@ ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/12/2017
 ---
-# Microsoft Intune의 iOS 정책 설정
-<a id="ios-policy-settings-in-microsoft-intune" class="xliff"></a>
+# <a name="ios-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 iOS 정책 설정
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Intune은 iOS 장치에서 구성할 수 있는 기본 제공 일반 설정의 범위를 제공합니다. 또한 Intune에서 사용할 수 없는 사용자 지정 설정을 만들려면 Apple Configurator 도구를 사용할 수 있습니다.
 
-## 일반 구성 정책 설정
-<a id="general-configuration-policy-settings" class="xliff"></a>
+## <a name="general-configuration-policy-settings"></a>일반 구성 정책 설정
 
 Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 구성할 수 있습니다.
 
@@ -43,8 +41,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 
 원하는 설정이 이 항목에 표시되지 않으면 이를 만들 수 있습니다. [Apple 구성기 도구](https://itunes.apple.com/us/app/apple-configurator/id434433123?mt=12)를 사용하여 생성한 설정을 가져올 수 있도록 하는 iOS 사용자 지정 정책을 사용하면 됩니다. 자세한 내용은 나중에 이 항목에서 “사용자 지정 정책 설정”을 참조하세요.
 
-### 보안 설정
-<a id="security-settings" class="xliff"></a>
+### <a name="security-settings"></a>보안 설정
 모든 설정이 iOS 8.0 이상에 적용됩니다.
 
 |설정 이름|세부 정보|
@@ -63,8 +60,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**지문 잠금 해제 허용**|지문을 사용하여 장치 잠금을 해제하도록 허용합니다.|
 <sup>1</sup> iOS 장치에서 **화면이 잠기기 전까지 비활성 시간(분)** 및 **암호를 요구하기 전까지 비활성 시간(분)** 설정을 구성하면 해당 설정이 순서대로 적용됩니다. 예를 들어 두 설정 값을 모두 **5** 분으로 지정하면 5분 뒤 화면이 자동으로 꺼지고 이후 5분이 더 지나면 장치가 잠깁니다. 그러나 사용자가 화면을 수동으로 끄면 두 번째 설정이 즉시 적용됩니다. 동일한 예에서 사용자가 화면을 끄면 5분 뒤 장치가 잠깁니다.
 
-### 시스템 설정
-<a id="system-settings" class="xliff"></a>
+### <a name="system-settings"></a>시스템 설정
 모든 설정이 iOS 8.0 이상에 적용됩니다.
 
 |설정 이름|세부 정보|
@@ -77,8 +73,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**진단 데이터 제출 허용**|장치의 Apple에 진단 데이터 제출을 허용 또는 차단합니다.|
 |**잠긴 동안 암호 목록 허용**|장치가 잠겨 있는 동안 사용자에게 Passbook 앱에 대한 액세스를 허용합니다.|
 
-### 문서 및 데이터에 대한 클라우드 설정
-<a id="cloud-settings-for-documents-and-data" class="xliff"></a>
+### <a name="cloud-settings-for-documents-and-data"></a>문서 및 데이터에 대한 클라우드 설정
 모든 설정이 iOS 8.0 이상에 적용됩니다.
 
 |설정 이름|세부 정보|
@@ -92,8 +87,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**iCloud 사진 공유 허용**|장치에서 **iCloud 사진 공유**를 사용하지 않으려면 **아니요**로 설정합니다.|
 |**iCloud 사진 보관함 허용**|**아니요**로 설정하면 사용자가 클라우드에 사진과 비디오를 저장할 수 있는 iCloud 사진 보관함을 사용할 수 없게 됩니다.   **아니요**로 설정되면 iCloud 사진 라이브러리에서 장치로 완전히 다운로드되지 않은 모든 사진이 장치에서 제거됩니다.|
 
-### 브라우저에 대한 응용 프로그램 설정
-<a id="application-settings-for-the-browser" class="xliff"></a>
+### <a name="application-settings-for-the-browser"></a>브라우저에 대한 응용 프로그램 설정
 모든 설정이 iOS 8.0 이상에 적용됩니다.
 
 |설정 이름|세부 정보|
@@ -105,8 +99,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**Java 스크립팅 허용**|Java 스크립트를 브라우저에서 실행할 수 있습니다.|
 |**사기 경고 허용**|브라우저에서 사기 경고를 허용합니다.|
 
-### 앱에 대한 응용 프로그램 설정
-<a id="application-settings-for-apps" class="xliff"></a>
+### <a name="application-settings-for-apps"></a>앱에 대한 응용 프로그램 설정
 모든 설정이 iOS 8.0 이상에 적용됩니다.
 
 |설정 이름|세부 정보|
@@ -120,8 +113,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**사용자가 새로운 엔터프라이즈 앱 작성자를 신뢰하도록 허용**|사용자가 앱 스토어에서 다운로드하지 않은 앱을 신뢰하도록 선택할 수 있습니다.|
 
 
-### 게임에 대한 응용 프로그램 설정
-<a id="application-settings-for-games" class="xliff"></a>
+### <a name="application-settings-for-games"></a>게임에 대한 응용 프로그램 설정
 모든 설정이 iOS 8.0 이상에 적용됩니다.
 
 |설정 이름|세부 정보|
@@ -129,8 +121,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**Game Center 친구 추가 허용**|사용자는 게임 센터에 친구를 추가할 수 있습니다.|
 |**다중 접속 게임 허용**|사용자는 장치에서 멀티 플레이 게임을 플레이할 수 있습니다.|
 
-### 미디어 콘텐츠용 응용 프로그램 설정
-<a id="application-settings-for-media-content" class="xliff"></a>
+### <a name="application-settings-for-media-content"></a>미디어 콘텐츠용 응용 프로그램 설정
 모든 설정이 iOS 8.0 이상에 적용됩니다.
 
 |설정 이름|세부 정보|
@@ -140,8 +131,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**사용자가 iBook 스토어에서 'Erotica'로 플래그가 지정된 콘텐츠를 다운로드하도록 허용**|사용자가 범주가 "Erotica"로 지정된 책을 다운로드하도록 허용합니다.|
 
 
-### 하드웨어에 대한 장치 기능 설정
-<a id="device-capabilities-settings-for-hardware" class="xliff"></a>
+### <a name="device-capabilities-settings-for-hardware"></a>하드웨어에 대한 장치 기능 설정
 모든 설정이 iOS 8.0 이상에 적용됩니다.
 
 |설정 이름|세부 정보|
@@ -150,8 +140,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**페어링된 Apple Watch에서 강제로 손목 감지를 사용하도록 지정**|사용하도록 설정하는 경우 Apple Watch를 착용하고 있지 않을 때는 알림이 표시되지 않습니다.|
 |**발신 AirPlay 요청에 페어링 암호 필요**|사용자가 Airplay를 사용하여 다른 Apple 장치로 콘텐츠를 스트리림할 때 페어링 암호가 필요합니다.|
 
-### 셀룰러에 대한 장치 기능 설정
-<a id="device-capabilities-settings-for-cellular" class="xliff"></a>
+### <a name="device-capabilities-settings-for-cellular"></a>셀룰러에 대한 장치 기능 설정
 모든 설정이 iOS 8.0 이상에 적용됩니다.
 
 |설정 이름|세부 정보|
@@ -160,8 +149,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**데이터 로밍 허용**|장치가 셀룰러 네트워크에 있을 때 데이터 로밍을 허용합니다.|
 |**로밍 중에 글로벌 백그라운드 페치 허용**|장치가 셀룰러 네트워크에서 로밍하는 동안 전자 메일 등의 데이터를 가져올 수 있습니다.|
 
-### 기능에 대한 장치 기능 설정
-<a id="device-capabilities-settings-for-features" class="xliff"></a>
+### <a name="device-capabilities-settings-for-features"></a>기능에 대한 장치 기능 설정
 모든 설정이 iOS 8.0 이상에 적용됩니다.
 
 |설정 이름|세부 정보|
@@ -172,8 +160,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**관리되는 앱에서 Airdrop 허용 안 함**|관리되는 앱이 더 이상 Airdrop을 통해 데이터를 보낼 수 없습니다.|
 
 
-### 규격 및 비규격 앱에 대한 설정
-<a id="settings-for-compliant-and-noncompliant-apps" class="xliff"></a>
+### <a name="settings-for-compliant-and-noncompliant-apps"></a>규격 및 비규격 앱에 대한 설정
 **호환 &amp;비호환 앱** 목록에서 다음 정보를 사용하여 호환되는 앱 또는 호환되지 않는 앱 목록을 지정합니다.
 
 > [!NOTE]
@@ -190,8 +177,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 
 규격 및 비규격 앱 설정이 포함된 정책을 사용자 그룹에 배포해야 합니다.
 
-### 키오스크 모드 설정
-<a id="kiosk-mode-settings" class="xliff"></a>
+### <a name="kiosk-mode-settings"></a>키오스크 모드 설정
 
 |설정 이름|세부 정보|
 |----------------|--------------------|
@@ -218,20 +204,17 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 > -   키오스크 모드에 대해 iOS 장치를 구성하려면 먼저 [Apple Configurator Tool](https://itunes.apple.com/us/app/apple-configurator/id434433123?mt=12) 또는 [Apple 장치 등록 프로그램](ios-device-enrollment-program-in-microsoft-intune.md)을 사용하여 장치를 감독 모드로 전환합니다. Apple Configurator 도구에 대한 자세한 내용은 Apple 설명서를 참조하세요.
 > -   구성 정책을 배포한 후 지정한 iOS 앱을 설치하면 장치를 다시 시작할 때까지 키오스크 모드가 시작되지 않습니다.
 
-### 규격 및 비규격 앱에 대한 참조 정보
-<a id="reference-information-for-compliant-and-noncompliant-apps" class="xliff"></a>
+### <a name="reference-information-for-compliant-and-noncompliant-apps"></a>규격 및 비규격 앱에 대한 참조 정보
 
 **비규격 앱 보고서** 를 사용하여 허용 및 차단된 앱의 규정 준수 여부를 확인할 수 있습니다.
 
-##### 비규격 앱 보고서를 실행하려면
-<a id="to-run-the-noncompliant-apps-report" class="xliff"></a>
+##### <a name="to-run-the-noncompliant-apps-report"></a>비규격 앱 보고서를 실행하려면
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **보고서** &gt; **비규격 앱 보고서**를 선택합니다.
 
 2.  확인할 장치 그룹을 선택하고 호환 앱이나 비호환 앱을 확인할지 또는 둘 다 확인할지를 선택한 다음 **보고서 보기**를 선택합니다.
 
-#### 앱 스토어 URL을 지정하는 방법
-<a id="how-to-specify-urls-to-app-stores" class="xliff"></a>
+#### <a name="how-to-specify-urls-to-app-stores"></a>앱 스토어 URL을 지정하는 방법
 규격 및 비규격 앱 목록 또는 **장치가 키오스크 모드일 때 실행을 허용할 관리되는 앱 선택** 옵션(iOS에만 해당)에 앱 URL을 지정하려면 다음 형식을 사용합니다.
 
 1. 검색 엔진을 사용하여 iTunes 앱 스토어에서 사용할 앱을 찾고 앱 페이지를 엽니다.
@@ -243,20 +226,17 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 > [!NOTE]
 > 또한 iTunes 소프트웨어를 사용하여 앱을 찾은 후 **링크 복사** 명령으로 앱 URL을 가져올 수 있습니다.
 
-### 등록 설정
-<a id="enrollment-settings" class="xliff"></a>
+### <a name="enrollment-settings"></a>등록 설정
 모든 설정이 iOS 8.0 이상에 적용됩니다.
 
 |설정 이름|세부 정보|
 |----------------|--------------------|
 |**장치가 감독 모드에 있을 경우 활성화 잠금 허용**|감독된 iOS 장치에서 활성화 잠금을 설정합니다.|
 
-### 감독 모드 설정
-<a id="supervised-mode-settings" class="xliff"></a>
+### <a name="supervised-mode-settings"></a>감독 모드 설정
 감독 모드에 있는 iOS 8.0 이상을 실행 중인 장치에 다음 설정을 구성할 수 있습니다.
 
-### 장치 제한을 위한 감독 모드 설정
-<a id="supervised-mode-settings-for-device-restrictions" class="xliff"></a>
+### <a name="supervised-mode-settings-for-device-restrictions"></a>장치 제한을 위한 감독 모드 설정
 
 |설정 이름|세부 정보|
 |----------------|--------------------|
@@ -272,8 +252,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**알림 설정 수정 허용**|사용자가 장치 알림 설정을 변경할 수 있습니다.|
 |**배경 화면 수정 허용**|사용자가 장치 배경 화면을 변경할 수 있습니다.|
 
-### 기능 제한을 위한 감독 모드 설정
-<a id="supervised-mode-settings-for-feature-restrictions" class="xliff"></a>
+### <a name="supervised-mode-settings-for-feature-restrictions"></a>기능 제한을 위한 감독 모드 설정
 
 |설정 이름|세부 정보|
 |----------------|--------------------|
@@ -287,8 +266,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**키보드 맞춤법 검사 허용**|장치 맞춤법 검사기를 사용할 수 있습니다.|
 |**바로 가기 키 허용**|바로 가기 키를 사용할 수 있습니다.|
 
-### 앱 제한을 위한 감독 모드 설정
-<a id="supervised-mode-settings-for-app-restrictions" class="xliff"></a>
+### <a name="supervised-mode-settings-for-app-restrictions"></a>앱 제한을 위한 감독 모드 설정
 
 |설정 이름|세부 정보|
 |----------------|--------------------|
@@ -305,8 +283,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**Game Center 허용**|게임 센터 앱을 사용하도록 허용합니다.|
 
 
-### 앱 표시 또는 숨기기
-<a id="show-or-hide-apps" class="xliff"></a>
+### <a name="show-or-hide-apps"></a>앱 표시 또는 숨기기
 
 **숨겨진/표시된 앱 목록**을 사용하여 iOS 9.3 이상을 실행하는 감독된 장치에서 다음을 제어합니다.
 
@@ -314,8 +291,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 - 사용자가 보고 시작할 수 있는 앱 목록을 지정합니다. 다른 앱은 보거나 시작할 수 없습니다.
 
 
-#### 숨겨지거나 표시된 앱 목록을 만드는 방법
-<a id="how-to-create-a-hidden-or-shown-app-list" class="xliff"></a>
+#### <a name="how-to-create-a-hidden-or-shown-app-list"></a>숨겨지거나 표시된 앱 목록을 만드는 방법
 
 다음 설정을 지정합니다.
 
@@ -329,8 +305,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**편집**|선택한 앱의 이름, 게시자 및 URL을 편집할 수 있습니다.|
 |**삭제**|목록에서 선택한 앱을 삭제합니다.|
 
-#### 기본 제공 iOS 앱에 대한 앱 정보
-<a id="app-information-for-built-in-ios-apps" class="xliff"></a>
+#### <a name="app-information-for-built-in-ios-apps"></a>기본 제공 iOS 앱에 대한 앱 정보
 
 이 목록에 있는 정보를 사용하여 숨기거나 표시할 기본 제공 iOS 앱의 이름, 게시자 및 번들 ID를 식별합니다. 목록에서 앱을 모두 표시하거나 숨기려면 아래 데이터를 확장명이 **.csv**인 텍스트 파일로 복사한 다음 **앱 가져오기** 옵션을 사용하여 앱을 모두 동시에 가져올 수 있습니다.
 
@@ -380,30 +355,26 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 
 
 
-## 사용자 지정 정책 설정
-<a id="custom-policy-settings" class="xliff"></a>
+## <a name="custom-policy-settings"></a>사용자 지정 정책 설정
 
 [Apple Configurator 도구](https://itunes.apple.com/us/app/apple-configurator/id434433123?mt=12)를 사용하여 만든 설정을 Microsoft Intune **iOS 사용자 지정 정책**을 사용하여 iOS 장치에 배포할 수 있습니다. 이 도구를 사용하면 이러한 장치의 작업을 제어하는 많은 설정을 만들어 구성 프로필에 내보낼 수 있습니다. 그런 다음 이 구성 프로필을 Intune iOS 사용자 지정 정책으로 가져와서 조직의 사용자와 장치에 설정을 배포할 수 있습니다.
 
 이 기능으로 Intune 일반 구성 정책으로는 구성할 수 없는 iOS 설정을 배포할 수 있습니다.
 
-### 필수 구성 요소
-<a id="prerequisites" class="xliff"></a>
+### <a name="prerequisites"></a>필수 구성 요소
 시작하기 전에 Apple Configurator를 설치하고 사용자 또는 장치를 배포할 설정이 포함된 구성 파일을 만들어야 합니다. [Mac 앱 스토어](https://itunes.apple.com/us/app/apple-configurator/id434433123?mt=12)에서 Apple Configurator를 다운로드하고 이에 대해 알아볼 수 있습니다.
 
 > [!NOTE]
 > Intune은 iOS 사용자 지정 정책에 있는 개별 설정의 규정 준수를 보고하지 않습니다. 그러나 정책의 전반적인 규정 준수는 보고 됩니다.
 
-### 일반 설정
-<a id="general-settings" class="xliff"></a>
+### <a name="general-settings"></a>일반 설정
 
 |설정 이름|세부 정보|
     |----------------|--------------------|
     |**Name**|Intune 콘솔에서 쉽게 식별할 수 있도록 iOS 사용자 지정 정책에 대한 고유한 이름을 입력합니다.|
     |**설명**|iOS 사용자 지정 정책의 개요에 대한 설명과 찾을 때 도움이 되는 기타 관련 정보를 제공합니다.|
 
-### 사용자 지정 설정
-<a id="custom-settings" class="xliff"></a>
+### <a name="custom-settings"></a>사용자 지정 설정
 
 |설정 이름|세부 정보|
     |----------------|--------------------|
@@ -411,6 +382,5 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 |**구성 프로필 파일**|**가져오기**를 선택한 다음 Apple Configurator를 사용하여 만든 구성 프로필을 찾아 봅니다. **참고:** Apple Configurator 도구에서 내보내는 설정이 iOS 사용자 지정 정책을 배포하는 장치에 있는 iOS의 버전과 호환되는지 확인합니다. 호환되지 않는 설정을 해결하는 방법에 대한 정보를 보려면 [Apple 개발자](https://developer.apple.com/) 웹 사이트에서 **구성 프로필 참조** 및 **모바일 장치 관리 프로토콜 참조**를 검색하세요.|
     |**구성 프로필 세부 정보**|가져온 구성 프로필에 대한 XML 코드를 표시합니다.|
 
-### 참고 항목
-<a id="see-also" class="xliff"></a>
+### <a name="see-also"></a>참고 항목
 [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)

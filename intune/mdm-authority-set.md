@@ -15,11 +15,11 @@ ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 449c45e0edcc0d0a33352ba154ad68fa6c4725c0
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 97dede1ac393a434342f62d1f8488389dcb28d44
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="set-the-mobile-device-management-authority"></a>모바일 장치 관리 기관 설정
 
@@ -29,7 +29,7 @@ MDM(모바일 장치 관리) 기관 설정에 따라 장치를 관리하는 방�
 
 가능한 구성은 다음과 같습니다.
 
-- **Intune 독립 실행형** - Azure Portal을 사용하여 구성하는 클라우드 전용 관리입니다. Intune에서 제공하는 모든 기능 집합을 포함합니다. [Intune 콘솔에서 MDM 기관을 설정합니다](#mdm-authority-set-to-intune).
+- **Intune 독립 실행형** - Azure Portal을 사용하여 구성하는 클라우드 전용 관리입니다. Intune에서 제공하는 모든 기능 집합을 포함합니다. [Intune 콘솔에서 MDM 기관을 설정합니다](#set-mdm-authority-to-intune).
 
 - **Intune 하이브리드** - Intune 클라우드 솔루션과 System Center Configuration Manager의 통합입니다. Configuration Manager 콘솔을 사용하여 Intune을 구성합니다. [Configuration Manager에서 MDM 기관을 설정합니다](https://docs.microsoft.com/sccm/mdm/deploy-use/configure-intune-subscription).
 

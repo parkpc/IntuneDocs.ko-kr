@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 3df993aa-48c5-4799-b68d-c85fe4f7b02c
 ms.reviewer: jeffgilb
 ms.suite: ems
-ms.openlocfilehash: ae0bd848413fc82f68f2ce6e6ac55fe92b9cb989
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 6e3a5e39cf3ee38820b1ff79eb54c019dbb68d29
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="help-end-users-understand-company-portal-app-messages"></a>최종 사용자가 회사 포털 앱 메시지를 이해할 수 있도록 지원
 
@@ -97,4 +97,4 @@ Intune이 회사 계정을 만들어 해당 장치에 등록된 사용자의 Azu
 
 
 ### <a name="see-also"></a>참고 항목
-[Intune 사용 방법에 대해 최종 사용자에게 알릴 내용](/intune-classic/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune)
+[Intune 사용 방법에 대해 최종 사용자에게 알릴 내용](end-user-educate.md)
