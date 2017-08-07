@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 06/28/2017
+ms.date: 07/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,16 +16,13 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 2e27bdcb6af7d81ed87aa113b11affbff695b808
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 93a08f4c653fe320284821c1532cdbd84d090b2f
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="how-do-i-sign-in-to-the-company-portal-app---user-story-1132123--"></a>회사 포털 앱에 로그인하려면 어떻게 하나요? <!--User Story 1132123-->
-
-> [!IMPORTANT]
-> 이 기능은 현재 출시 중입니다. 사용자 경험은 다를 수 있습니다. 출시가 완료되면 이 공지가 제거됩니다.
 
 회사 포털 앱을 사용하여 메일, 비즈니스 앱 등의 회사 리소스에 액세스합니다. 회사 포털에 로그인할 수 있는 두 가지 주요 방법은 다음과 같습니다.
 

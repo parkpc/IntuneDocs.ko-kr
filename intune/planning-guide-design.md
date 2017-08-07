@@ -14,11 +14,11 @@ ms.assetid: a8e38e29-f5e3-4a71-a170-d3b1a06e37c6
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: fdd75bd2b96eb20e0e73b7f8f76cf1a5cc035011
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 3f08f110163159c1219492539107cc6b33c8012d
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="create-a-design"></a>설계 만들기
 
@@ -189,7 +189,7 @@ Intune에서 인증서를 구성하는 방법에 대한 자세한 내용은 다�
 
 환경에서 사용할 장치를 알아야 하며, 설계를 만들 때 Intune에서 해당 장치를 지원하는지 여부를 확인해야 합니다. Intune은 iOS, Android 및 Windows 플랫폼을 지원합니다.
 
--   [Intune에서 지원되는 장치](/intune-classic/get-started/supported-mobile-devices-and-computers)에 대해 자세히 알아보세요.
+-   [Intune에서 지원되는 장치](/intune/supported-devices-browsers)에 대해 자세히 알아보세요.
 
 ### <a name="devices"></a>장치
 

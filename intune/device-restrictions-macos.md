@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/23/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 3129cbaf-96c2-4837-8907-ca87a605a496
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 716ca0a2041bdd2ecfadd180999a09f80373cb2a
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 76d532745ad3b8761a88aaf0772053f0629e050a
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="macos-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 macOS 장치 제한 설정
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 07/01/2017
 이러한 설정을 사용하여 장치 제한 프로필에서 macOS 장치를 관리할 수 있습니다.
 
 ## <a name="password"></a>암호
--   **암호 필요** - 최종 사용자에게 장치에 액세스하려면 암호를 입력하도록 요구합니다.
+-   **암호** - 최종 사용자에게 장치에 액세스하려면 암호를 입력하도록 요구합니다.
     -   **필수 암호 유형** - 암호를 숫자만으로 구성할 수 있는지 아니면 영숫자(문자와 숫자 포함)로 구성해야 하는지 지정합니다. 이 설정은 Mac OS X 버전 10.10.3 이상에서만 지원됩니다.
     -   **암호에 포함해야 하는 영숫자가 아닌 문자 수** - 암호에 필요한 복잡한 문자 수(**0**~**4**)를 지정합니다.<br>복합 문자는 **?** 등의 기호입니다.
     -   **최소 암호 길이** - 사용자가 구성해야 하는 암호의 최소 길이(**4**~**16**자)를 입력합니다.

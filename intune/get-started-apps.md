@@ -6,7 +6,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 06/27/2017
+ms.date: 08/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,17 @@ ms.assetid: a1542fc3-672e-47c1-a21f-82826a2f8ac4
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a086da185681a91daad214f1be2d4ff0e2827fbb
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 71093f8ac17fc6d6938f5c263a40204f89419726
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="getting-started-with-apps"></a>앱 시작
 
-![Microsoft Word 앱 추가 이미지](/intune/media/generic-add-apps.png)
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Work 장치는 적절한 앱이 없을 경우 사용할 수 없습니다. Intune은 회사 장치에 앱을 배포하는 몇 가지 방법을 지원합니다.
+Intune은 회사 장치에 앱을 배포하는 몇 가지 방법을 지원합니다.
 
 * **소프트웨어 설치 관리자**: 사용자 장치에 다운로드되는 파일을 업로드하는 위치
 * __외부 링크__: 공용 앱 스토어의 앱 또는 웹앱이 있는 경우의 링크

@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,21 +15,22 @@ ms.assetid: fe5785e9-8d35-4ad7-95e8-d50f8d87154a
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: da190ddeda62ce3385aab4308595b473c3059ed6
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 56a133105df88d0efede1dd8829285cc845d3621
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="windows-81-and-later-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune에서 Windows 8.1 이상 장치 제한 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="general"></a>일반
--   **모든 구성을 Windows 10에 적용** - 이 정책의 설정을 Windows 8.1 장치 외에 Windows 10 장치에도 적용할 수 있습니다.
+
 -   **진단 데이터 제출** - 장치에서 Microsoft에 진단 정보를 제출할 수 있습니다.
 -   **방화벽** - Windows 방화벽이 켜져 있어야 합니다.
 -   **사용자 계정 컨트롤** - 장치에 UAC(사용자 계정 컨트롤)를 사용해야 합니다.
+
 ## <a name="password"></a>암호
 -   **필수 암호 유형** - 최종 사용자에게 장치에 액세스하려면 암호를 입력하도록 요구합니다.
 -   **최소 암호 길이** - 암호에 대한 최소 문자 길이를 구성합니다.
@@ -62,8 +63,10 @@ Windows 8.1 장치에 대해 이 설정을 사용하려면 장치의 모든 사�
 -   **엔터프라이즈 모드 메뉴 액세스** - 사용자가 Internet Explorer에서 엔터프라이즈 모드 메뉴에 액세스하도록 허용합니다.
 이 설정을 선택하면 사용자가 엔터프라이즈 모드 액세스를 켜 놓은 웹 사이트를 보여주는 보고서에 대한 URL을 포함하는 **로깅 보고서 위치**를 지정할 수 있습니다.
 -   **엔터프라이즈 모드 사이트 목록 위치** – 엔터프라이즈 모드가 활성화된 경우 이 모드를 사용할 웹 사이트 목록의 위치를 지정합니다.
+
 ## <a name="cellular"></a>셀룰러
 -   **데이터 로밍** - 장치가 셀룰러 네트워크에 있을 때 데이터 로밍을 사용하도록 설정합니다.
+
 ## <a name="cloud-and-storage"></a>클라우드 및 저장소
 -   **작업 폴더 URL** - 문서를 장치 간에 동기화될 수 있도록 작업 폴더의 URL을 설정합니다.
 -   **Microsoft 계정이 없는 Windows Mail 앱 액세스** - Microsoft 계정 없이 Windows Mail 응용 프로그램에 대한 액세스를 사용하도록 설정합니다.    

@@ -19,11 +19,9 @@ ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/11/2017
 ---
-# Intune 배포 계획을 위한 추가 리소스
-<a id="additional-resources-for-planning-your-intune-deployment" class="xliff"></a>
+# <a name="additional-resources-for-planning-your-intune-deployment"></a>Intune 배포 계획을 위한 추가 리소스
 
-## 템플릿
-<a id="templates" class="xliff"></a>
+## <a name="templates"></a>템플릿
 
 계획 가이드에서 사용되는 테이블용 Microsoft Excel 템플릿을 [다운로드](https://gallery.technet.microsoft.com/Intune-deployment-planning-fae156c2?redir=0)할 수 있습니다.
 
@@ -44,8 +42,7 @@ ms.lasthandoff: 07/11/2017
 | | 조건부 액세스 정책|-|
 
 
-## 추가 참고 자료
-<a id="further-reading" class="xliff"></a>
+## <a name="further-reading"></a>추가 참고 자료
 
 Intune 배포 계획, 디자인 및 구현 프로세스 중 유용할 수 있는 추가 정보는 다음 리소스를 확인해 보세요.
 
