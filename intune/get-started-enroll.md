@@ -6,7 +6,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 06/27/2017
+ms.date: 08/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,15 @@ ms.assetid: b595848d-c451-43ab-812d-b22e0170fb7a
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 36e658cebdfd23547e3c376124289046f81acc1f
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 7f52c9d44a91ed6547aadd712db42ea68cfd01dc
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="getting-started-enrolling-devices"></a>장치 등록 시작
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
-
-![회사 포털 앱이 표시된 iOS 장치 등록 프로세스를 위해 사용자에게 제공되는 첫 번째 화면이 표시됩니다.](/intune-user-help/media/ios-enroll-1a-comp-access-setup.png)
 
 Microsoft Intune을 사용하면 회사 데이터 보호를 유지하면서 직원들이 모바일 장치를 이용할 수 있습니다. 최종 사용자는 관리 콘솔보다 해당 장치에서 Intune을 조작하기 때문에 등록 환경을 숙지하는 것이 좋습니다. 그러면 잘 작성된 준수 정책과 경험을 결합하여 사용자에 대한 공감을 표시할 수 있습니다. 이는 특히 관리자가 볼 수 있는 정보를 사용자가 정확히 알게 되기 때문에 중요합니다.
 

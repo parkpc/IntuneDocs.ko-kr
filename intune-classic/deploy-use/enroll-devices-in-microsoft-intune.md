@@ -14,11 +14,11 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c7c4390629178256728c55e47f06bffae043a729
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 2e08a228c19e934e92ed2db1de407859e20559f7
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="enroll-devices-for-management-in-intune"></a>Intune에서 관리를 위해 장치 등록
 
@@ -26,7 +26,7 @@ ms.lasthandoff: 07/01/2017
 
 Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같은 장치를 등록할 수 있습니다. 이 항목에서는 Intune 관리에서 모바일 장치를 등록할 수 있는 다양한 방법을 설명합니다. 장치를 등록하는 방법은 장치 유형, 소유권 및 필요한 관리 수준에 따라 다릅니다. BYOD("Bring Your Own Device") 등록을 사용하면 사용자가 개인 휴대폰, 태블릿 또는 PC를 등록할 수 있습니다. COD(회사 소유 장치) 등록을 사용하면 자동 등록, 공유 장치 또는 사전 승인된 등록 요구 사항과 같은 관리 시나리오를 사용할 수 있습니다.
 
-[Exchange ActiveSync](#mobile-device-management-with-exchange-activesync-and-intune)를 클라우드에서 호스트하거나 온-프레미스로 사용하는 경우 등록하지 않고 간단한 Intune 관리를 사용할 수 있습니다. [Intune 클라이언트 소프트웨어](#manage-windows-pcs-with-intune)를 사용하여 Windows PC를 관리할 수도 있습니다.
+[Exchange ActiveSync](#mobile-device-management-with-exchange-activesync-and-intune)를 클라우드에서 호스트하거나 온-프레미스로 사용하는 경우 등록하지 않고 간단한 Intune 관리를 사용할 수 있습니다. [Intune 클라이언트 소프트웨어](#windows-pc-management-with-intune)를 사용하여 Windows PC를 관리할 수도 있습니다.
 
 기본적으로 모든 플랫폼의 장치를 Intune에서 등록할 수 있습니다. 장치 등록을 차단하려면 관리자 자격 증명을 사용하여 [Microsoft Intune 관리 포털](https://manage.microsoft.com)에 로그인합니다. **관리** > **모바일 장치 관리** > **등록 규칙**을 선택한 다음 차단할 플랫폼의 확인란을 선택 취소합니다.
 

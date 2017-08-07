@@ -22,8 +22,7 @@ ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/13/2017
 ---
-# Intune에서 iOS 장치 등록 취소
-<a id="unenroll-your-ios-device-from-intune" class="xliff"></a>
+# <a name="unenroll-your-ios-device-from-intune"></a>Intune에서 iOS 장치 등록 취소
 
 Intune에서 iOS 장치 등록을 취소하면 장치가 더 이상 회사 리소스에 액세스할 수 없으며 Intune을 통해 관리되지 않습니다.
 
