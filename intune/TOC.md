@@ -8,9 +8,7 @@
 ### [앱 UI의 새로운 기능](whats-new-app-ui.md)
 ### [새로운 기능 아카이브(Azure Portal)](whats-new-archive.md)
 ### [새로운 기능 아카이브(클래식 포털)](whats-new-archive-classic.md)
-
-<!--## High-level architecture-->
-
+## [상위 수준 아키텍처](high-level-architecture.md)
 ## [장치 및 앱 수명 주기](introduction-device-app-lifecycles.md)
 ### [장치 수명 주기](device-lifecycle.md)
 ### [앱 수명 주기](app-lifecycle.md)
@@ -264,6 +262,8 @@
 
 # 모니터링 및 문제 해결
 ## [기술 지원팀 운영자 역할 사용](help-desk-operators.md)
+## [Intune 데이터 웨어하우스 사용](reports-nav-create-intune-reports.md)
+### [Power BI를 사용하여 데이터 웨어하우스에 연결](reports-proc-get-a-link-powerbi.md)
 
 # 개발 및 사용자 지정
 ## [사용자 지정 장치 설정 구성](custom-settings-configure.md)
@@ -288,5 +288,16 @@
 ### [Intune 앱 SDK Xamarin 구성 요소](app-sdk-xamarin.md)
 ## [Intune Graph API를 사용하는 방법](intune-graph-apis.md)
 ## [Intune Graph API](https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview)
+## [Intune 데이터 웨어하우스 API](reports-nav-intune-date-warehouse.md)
+<!-- ### [Get data from the Data Warehouse API with a REST client](reports-proc-data-rest.md) -->
+### [데이터 웨어하우스 API 끝점](reports-api-url.md)
+### [데이터 웨어하우스 데이터 모델](reports-ref-data-model.md)
+#### [날짜 엔터티에 대한 참조](reports-ref-date.md)
+#### [사용자 엔터티에 대한 참조](reports-ref-user.md)
+#### [MAM(모바일 앱 관리)에 대한 참조](reports-ref-mobile-app-management.md)
+#### [장치 엔터티에 대한 참조](reports-ref-devices.md)
+#### [응용 프로그램 엔터티에 대한 참조](reports-ref-application.md)
+#### [정책 엔터티에 대한 참조](reports-ref-policy.md)
+<!-- #### [Relationship of Entities](reports-api-entity-relationships.md) !-->
 
 # [용어 설명](intune-glossary.md)
