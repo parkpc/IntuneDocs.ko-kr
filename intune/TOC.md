@@ -83,7 +83,7 @@
 ### [iOS 등록 설정](ios-enroll.md)
 #### [장치 등록 프로그램](device-enrollment-program-enroll-ios.md)
 #### [Apple School Manager](apple-school-manager-set-up-ios.md)
-#### [Apple Configurator](apple-configurator-setup-assistant-enroll-ios.md)
+#### [Apple Configurator](apple-configurator-enroll-ios.md)
 ### [macOS 등록 설정](macos-enroll.md)
 
 ## [장치 관리](device-management.md)
@@ -101,6 +101,7 @@
 ### [사용자 제거](device-remove-user.md)
 ### [Android 원격 제어](device-profile-android-teamviewer.md)
 ### [Windows 10 PIN 재설정](device-windows-pin-reset.md)
+### [장치 동기화](device-sync.md)
 ### [장치 인벤토리 검사](device-inventory.md)
 
 <!--### Add and delete users -->
@@ -171,6 +172,7 @@
 ### [Windows 10 Education 설정 구성](education-settings-configure.md)
 ### [iOS 교육 설정 구성](education-settings-configure-ios.md)
 ### [iOS 교육 공유 장치 구성](education-settings-configure-ios-shared.md)
+### [iOS 업데이트 정책 구성](software-updates-ios.md)
 ### [비즈니스용 Windows 업데이트 설정 구성](windows-update-for-business-configure.md)
 ### [인증서 구성](certificates-configure.md)
 #### [SCEP](certificates-scep-configure.md)
