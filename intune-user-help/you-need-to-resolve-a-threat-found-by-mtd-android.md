@@ -14,11 +14,11 @@ ms.assetid: 9e176e10-72fd-42fe-94ef-b41d57a4914f
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: d1276c983cdf0e22e2e78e79b6646e045c8fb135
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: afb6cd7354fe0d131f249962a6f00aaa30c9c3e1
+ms.sourcegitcommit: addf6a40caa22c22adfd2e2eff7d666cd1877e3c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/04/2017
 ---
 # <a name="you-need-to-resolve-a-threat-found-by-a-mobile-threat-defense-app"></a>Mobile Threat Defense 앱에서 발견한 위협을 해결해야 함
 
@@ -26,6 +26,7 @@ Mobile Threat Defense가 Android 장치에서 잠재적인 위협을 발견한 �
 
 * [Lookout for Work](you-need-to-resolve-a-threat-found-by-lookout-for-work-android.md)
 * [Skycure](you-need-to-resolve-a-threat-found-by-skycure-android.md)
+* [SandBlast Mobile Protect](you-need-to-resolve-a-threat-found-by-checkpoint-android.md)
 
 문제를 해결하려면 Mobile Threat Defense 앱을 열고 앱에 표시되는 지침을 따릅니다.
 
