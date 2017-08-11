@@ -15,11 +15,11 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 295315dae52662c386055747862717b85ed4b877
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 183e60af4d6174c18fc3883f2cdd9827505d2aba
+ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/09/2017
 ---
 # <a name="enroll-android-devices"></a>Android 장치 등록
 
@@ -49,7 +49,6 @@ Android 장치를 차단하거나 등록에서 개인적으로 소유한 Android
 
 1. **Intune MDM 설정**<br>
 아직 설정하지 않은 경우 **Microsoft Intune**으로 [모바일 장치 관리 기관을 설정](mdm-authority-set.md)하여 모바일 장치 관리를 준비합니다.
-
 2. **Android for Work 바인딩 구성**<br>
     Azure Portal에서 Intune 관리자로 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
