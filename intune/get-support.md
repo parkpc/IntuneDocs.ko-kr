@@ -15,15 +15,15 @@ ms.assetid: 7fc95d17-098e-4da5-8a09-a96476569dd9
 ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9846dfb66becc04e6786ce6e49327cb2fbc75c5c
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 8c761b3e5c1acb36f5604dc3bf1cd9ce08b29494
+ms.sourcegitcommit: 99ffed621855357de427d6fdf7b70d4e543197e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 08/07/2017
 ---
 # <a name="how-to-get-support-for-microsoft-intune"></a>Microsoft Intune에 대한 지원을 받는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE[azure_portal](./includes/note-for-both-portals.md)]
 
 Microsoft는 Microsoft Intune에 대한 세계적인 기술 지원, 판매 전 지원, 대금 청구 및 구독 지원을 제공합니다. 유료 및 평가판 구독 둘 다에 대해 온라인과 전화 지원이 제공됩니다. 온라인 기술 지원은 영어와 일본어로 제공됩니다. 전화 지원과 온라인 대금 청구 지원은 추가 언어로 제공됩니다.
 

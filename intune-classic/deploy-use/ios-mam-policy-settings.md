@@ -2,8 +2,8 @@
 title: "iOS MAM 정책 설정"
 description: "이 항목에서는 iOS 장치용 모바일 앱 관리 정책 설정에 대해 설명합니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 04/18/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 673ff872-943c-4076-931c-0be90363aea9
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 384c3a8c930bf7ee8487726c37f1ff3652675650
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 92eac4226d94be15e7dca346d80d9e11cf00b584
+ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/09/2017
 ---
 #  <a name="ios-mobile-app-protection-policy-settings"></a>iOS 모바일 앱 보호 정책 설정
 
