@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 07/17/2017
+ms.date: 07/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,15 @@ ms.assetid: 3292671a-5f5a-429e-90f7-b20019787d22
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0f6a3cdc2b5d95f57f1ffc1f68b6748b357f2ef4
-ms.sourcegitcommit: 21a9db380956a50031dbea360b4c76664cbc2768
+ms.openlocfilehash: 1a97e58f1d108932e44b0b4e36bda5a30b7a90da
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="how-to-assign-office-365-proplus-2016-apps-to-windows-10-devices-with-microsoft-intune"></a>Microsoft Intune을 사용하여 Office 365 ProPlus 2016 앱을 Windows 10 장치에 할당하는 방법
 
-이 앱 유형을 통해 관리하는 Windows 10 실행 장치에 Office 365 ProPlus 2016 앱을 쉽게 할당할 수 있습니다. 또한 Microsoft Project Online 데스크톱 클라이언트 및 Microsoft Visio Pro for Office 365에 대한 라이선스가 있는 경우 관련 앱을 설치할 수 있습니다. 원하는 앱이 Intune 콘솔의 앱 목록에 하나의 앱으로 표시됩니다.
+이 앱 형식을 통해 관리하는 Windows 10 실행 장치에 Office 365 ProPlus 2016 앱을 쉽게 할당할 수 있습니다. Microsoft Project Online 데스크톱 클라이언트 및 Microsoft Visio Pro for Office 365에 대한 라이선스가 있는 경우 관련 앱을 설치할 수 있습니다. 원하는 앱이 Intune 콘솔의 앱 목록에 하나의 앱으로 표시됩니다.
 
 
 ## <a name="before-you-start"></a>시작하기 전에
@@ -34,11 +34,8 @@ ms.lasthandoff: 07/17/2017
 - 이러한 앱을 배포할 장치에서 Windows 10 크리에이터스 업데이트 이상을 실행하고 있어야 합니다.
 - Intune에서는 Office 365 ProPlus 2016 제품군에서 Office 앱을 추가하는 기능만 지원합니다.
 - Intune에서 앱 패키지를 설치할 때 Office 앱이 열리면 저장되지 않은 파일에서 최종 사용자의 데이터가 손실될 수 있습니다.
-- 이미 Office가 설치된 장치에서 Office를 설치할 경우 다음 고려 사항을 참조하세요.
-    - 사용하는 Office 버전에 관계없이 32비트 및 64비트 Office 제품을 동일한 장치에 설치할 수 없습니다.
-    - 간편 실행의 동일한 버전 및 Office의 MSI 버전을 동일한 장치에 설치할 수는 없지만 다른 주 버전을 설치할 수 있습니다.
-    - 간편 실행을 사용하여 Office의 이전 버전을 이미 설치한 경우 최신 버전으로 바꾸려는 모든 앱을 제거해야 합니다. 예를 들어 장치에 이전 버전의 Word가 있고 최신 버전을 할당하려는 경우 이전 버전을 먼저 제거해야 합니다.
-    - 장치에 이미 Office 365가 설치되어 있는 경우 Office 365 ProPlus 2016 제품군을 장치에 할당하려면 Office 구독 수준을 변경해야 할 수 있습니다.
+- 이 설치 방법은 Windows 10S 장치에서 지원되지 않습니다.
+- 이 앱 형식을 사용 가능으로 할당하고 여러 다른 할당이 있는 다수의 사용자를 대상으로 지정하는 경우 최신에 대상으로 지정된 할당만 표시됩니다.
 
 
 ## <a name="get-started"></a>시작

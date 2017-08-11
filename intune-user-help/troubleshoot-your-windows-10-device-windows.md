@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/12/2016
+ms.date: 07/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 465d84490f5000b13a2c7371677cee77baadc4d2
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 701ee2081d8f696a1c37eaa2857ab92942d79f48
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="troubleshoot-your-windows-10-device-enrollment"></a>Windows 10 장치 등록 문제 해결
 [Intune에서 Windows 10 Mobile 또는 Windows 10 데스크톱 장치 등록](enroll-your-w10-phone-or-w10-pc-windows.md)의 단계를 수행했지만 여전히 회사 또는 학교 전자 메일/파일에 액세스할 수 없다면 다음 문제 해결 단계를 시도하세요.
@@ -35,7 +35,7 @@ ms.lasthandoff: 07/01/2017
 
     ![settings-accounts-your-account](./media/W10-enroll-2-accounts-your-account.png)
 
-## <a name="troubleshooting-steps-to-follow-if-you-see-access-work-or-school"></a>회사 또는 학교 액세스가 표시되는 경우 따라야 하는 문제 해결 절차
+## <a name="troubleshooting-steps-to-follow-if-you-see-access-work-or-school"></a>“회사 또는 학교 액세스”가 표시되는 경우 따라야 하는 문제 해결 절차
 
 1.  위의 단계를 수행해도 회사 또는 학교 메일/파일에 액세스할 수 없는 경우 **회사 또는 학교 액세스**로 다시 이동합니다.
 
@@ -47,12 +47,16 @@ ms.lasthandoff: 07/01/2017
 
     - 위에 표시된 연결 정보가 보이지 않거나, 보이기는 하지만 일부 옵션이 누락된 경우 **연결**을 탭하여 회사 또는 학교 자격 증명으로 로그인합니다. 이제 연결되었을 것입니다.
 
-## <a name="troubleshooting-steps-to-follow-if-you-see-your-account"></a>내 계정이 표시되는 경우 따라야 하는 문제 해결 절차
+## <a name="troubleshooting-steps-to-follow-if-you-see-your-account"></a>“내 계정”이 표시되는 경우 따라야 하는 문제 해결 절차
 
 위의 단계를 수행해도 회사 또는 학교 전자 메일, 파일 및 기타 데이터에 액세스할 수 없는 경우 **계정**으로 돌아가서 **회사 액세스**를 탭합니다.
 
 - 회사 또는 학교 계정이 표시되면 연결된 것입니다.
 
 - 회사 또는 학교 계정이 표시되지 않으면 **연결**을 탭하고 회사 또는 학교 자격 증명을 사용하여 로그인합니다.
+
+## <a name="troubleshooting-steps-to-follow-if-you-see-set-up-a-work-or-school-account"></a>“회사 또는 학교 계정 설정”이 표시되는 경우 따라야 하는 문제 해결 절차
+
+__입력한 사용자 이름과 일치하는 관리 끝점을 자동 검색할 수 없습니다.라는 메시지가 표시되면, 사용자 이름을 확인하고 다시 시도하세요. 관리 끝점의 URL을 알면 입력하세요.__이면 사용자 이름과 암호를 다시 입력해야 합니다. 여전히 작동하지 않으면 **관리 끝점** 텍스트 상자에 제공해야 하는 웹 사이트를 IT 관리자에게 확인하세요. 이 웹 사이트는 **www.yourcompany.onmicrosoft.com**과 같을 가능성이 큽니다. 
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.

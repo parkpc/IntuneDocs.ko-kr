@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 07/17/2017
+ms.date: 07/31/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b08a097e785f85d8b9260cdaa60e720ed88cb4a1
-ms.sourcegitcommit: 21a9db380956a50031dbea360b4c76664cbc2768
+ms.openlocfilehash: d069775cf51e8c077a6f30123bf4fa2fe58b6bd8
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Microsoft Intune의 알려진 문제
 
@@ -37,7 +37,7 @@ Intune의 새로운 기능을 요청하려면 [Uservoice](https://microsoftintun
 
 ### <a name="groups-created-by-intune-during-migration-might-affect-functionality-of-other-microsoft-products"></a>마이그레이션 도중 Intune이 만든 그룹은 다른 Microsoft 제품의 기능에 영향을 줄 수 있습니다.
 
-클래식 Intune에서 Azure로 마이그레이션할 때 **All Users - b0b08746-4dbe-4a37-9adf-9e7652c0b421**이라는 이름의 새 그룹이 보일 수 있습니다. 이 그룹에는 Intune의 사용이 허가된 사용자뿐만 아니라 Azure Active Directory의 모든 사용자도 포함됩니다. 이러한 사용 방식으로 인해 일부 기존 또는 새로운 사용자가 어떤 그룹의 멤버도 아니라면 다른 Microsoft 제품에서 문제가 발생할 수 있습니다.
+클래식 Intune에서 Azure Portal로 마이그레이션할 때 **All Users - b0b08746-4dbe-4a37-9adf-9e7652c0b421**이라는 이름의 새 그룹이 보일 수 있습니다. 이 그룹에는 Intune의 사용이 허가된 사용자뿐만 아니라 Azure Active Directory의 모든 사용자도 포함됩니다. 이러한 사용 방식으로 인해 일부 기존 또는 새로운 사용자가 어떤 그룹의 멤버도 아니라면 다른 Microsoft 제품에서 문제가 발생할 수 있습니다.
 
 ### <a name="secondary-migration-required-for-select-capabilities"></a>일부 기능에 필요한 보조 마이그레이션
 
@@ -56,7 +56,7 @@ Intune의 새로운 기능을 요청하려면 [Uservoice](https://microsoftintun
 이제 Azure Portal에서 이러한 Intune 기능을 관리하는 경우 다음 사항에 유의하세요.
 
 #### <a name="removes-default-corporate-device-enrollment-profiles-in-apple-dep"></a>Apple DEP에서 기본 회사 장치 등록 프로필 제거
-Azure Portal에서는 Apple DEP(장비 등록 프로그램) 장치에 대한 기본 회사 장치 등록 프로필을 지원하지 않습니다. 클래식 Silverlight Intune 콘솔에서 사용할 수 있는 이 기능은 의도치 않은 프로필 할당을 방지하기 위해 중단됩니다. Azure Portal에서 DEP 일련 번호를 동기화할 때는 회사 장치 등록 프로필이 할당되지 않습니다. 등록 프로필은 장치를 사용하기 전에 할당해야 합니다.
+Azure Portal에서는 Apple DEP(장치 등록 프로그램) 장치에 대한 기본 회사 장치 등록 프로필을 지원하지 않습니다. 클래식 Silverlight Intune 콘솔에서 사용할 수 있는 이 기능은 의도치 않은 프로필 할당을 방지하기 위해 중단됩니다. Azure Portal에서 DEP 일련 번호를 동기화할 때는 회사 장치 등록 프로필이 할당되지 않습니다. 등록 프로필은 장치를 사용하기 전에 할당해야 합니다.
 
 #### <a name="apple-dep-token-restored-with-migration"></a>Apple DEP 토큰이 마이그레이션 시 복원됨
 
@@ -64,8 +64,7 @@ Intune 클래식(Silverlight) 포털에서 Apple 장비 등록 프로그램 토�
 
 ### <a name="status-blades-for-migrated-policies-do-not-work"></a>마이그레이션한 정책에 대한 상태 블레이드가 작동하지 않음
 
-클래식 포털에서 마이그레이션한 정책의 상태 정보는 Azure Portal에서 확인할 수 없습니다. 그러나 클래식 포털에서는 이러한 정책에 대한 보고서를 계속 확인할 수 있습니다.
-마이그레이션한 구성 정책에 대한 상태 정보를 확인하려면 Azure Portal에서 정책을 다시 만드세요.
+클래식 포털에서 마이그레이션한 정책의 상태 정보는 Azure Portal에서 확인할 수 없습니다. 그러나 클래식 포털에서는 이러한 정책에 대한 보고서를 계속 확인할 수 있습니다. 마이그레이션한 구성 정책에 대한 상태 정보를 확인하려면 Azure Portal에서 정책을 다시 만드세요.
 
 ## <a name="apps"></a>앱
 
@@ -111,7 +110,7 @@ Cisco AnyConnect VPN 클라이언트(4.0.07072)의 최신 릴리스는 현재 In
 
 ### <a name="ios-app-protection-policies"></a>iOS 앱 보호 정책
 
-등록 없이 MAM을 통해 관리되는 장치에서 사용자에게 제공되는 [iOS 앱 보호 정책](app-protection-policy-settings-ios.md)을 정의할 수 있습니다. 일시적인 오류로 인해 여러 개의 소수 자릿수가 아닌 단일 소수 자릿수를 가진 iOS 버전인 경우에만 이러한 정책을 정의할 수 있습니다. 최소 버전을 iOS 10.3.1로 설정하는 것이 아니라 iOS 10.3으로 설정합니다. 이 문제는 iOS SDK의 예정된 업데이트를 통해 해결될 것입니다.
+등록 없이 MAM(모바일 앱 관리)을 통해 관리되는 장치에서 사용자에게 제공되는 [iOS 앱 보호 정책](app-protection-policy-settings-ios.md)을 정의할 수 있습니다. 일시적인 오류로 인해 여러 개의 소수 자릿수가 아닌 단일 소수 자릿수를 가진 iOS 버전인 경우에만 이러한 정책을 정의할 수 있습니다. 최소 버전을 iOS 10.3.1로 설정하는 것이 아니라 iOS 10.3으로 설정합니다. 이 문제는 iOS SDK의 예정된 업데이트를 통해 해결될 것입니다.
 
 
 ## <a name="administration-and-accounts"></a>관리 및 계정

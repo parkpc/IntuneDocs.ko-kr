@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/27/2017
+ms.date: 07/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: dc349e22-9e1c-42ba-9e70-fb2ef980ef7a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 059c6d2c65c78b6a94f93c26d606abe0451edbbb
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 0bb3ca2f63ee963dae61ee6622d41fe4aef7adfd
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="how-to-assign-apps-to-groups-with-microsoft-intune"></a>Microsoft intune을 사용하여 그룹에 앱을 할당하는 방법
 
@@ -59,6 +59,7 @@ Intune에서 관리되는지 여부에 상관없이 장치에 앱을 할당할 �
     - **필수** - 앱이 선택한 그룹의 장치에 설치됩니다.
     - **제거** - 앱이 선택한 그룹의 장치에서 제거됩니다.
     - **등록없이 사용 가능** - 이 앱을 Intune에 등록되지 않은 장치의 사용자 그룹에 할당합니다.
+6. **iOS 앱 전용** - 앱당 VPN 설정을 포함하는 iOS VPN 프로필을 만든 경우 **VPN**에서 선택할 수 있습니다. 앱을 실행하면 VPN 연결이 열립니다. 자세한 내용은 [iOS 장치의 VPN 설정](vpn-settings-ios.md)을 참조하세요.
 6. 작업이 끝나면 **저장**을 선택합니다.
 
 이제 선택한 그룹에 앱이 할당됩니다.

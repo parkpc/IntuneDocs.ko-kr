@@ -14,11 +14,11 @@ ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: oldang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ebea9fe4cbf0c6c788ba4a209132856eda06445e
-ms.sourcegitcommit: 5eb209ae48173ddfdbbab131f12f3ac3498dcd87
+ms.openlocfilehash: fed97412df96d0bdffaf3b10ad5306a6f56d0066
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="prepare-android-apps-for-mobile-application-management-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 Android 앱 준비
 
@@ -50,16 +50,7 @@ Android용 Microsoft Intune 앱 래핑 도구를 사용하여 해당 앱 코드�
     > [!NOTE]
     > 일부 경우에 32비트 버전의 Java에서 메모리 문제가 발생할 수 있습니다. 64비트 버전을 설치하는 것이 좋습니다.
 
-- Android는 모든 앱 패키지(.apk)를 서명해야 합니다. Java keytool을 사용하여 래핑된 출력 앱에 서명하기 위해 필요한 자격 증명을 생성합니다. 예를 들어 다음 명령은 Java 실행 파일 keytool.exe를 사용하여 래핑된 출력 앱에 서명하기 위해 앱 래핑 도구에서 사용할 수 있는 키를 생성합니다.
-
-    ```
-    keytool.exe -genkeypair -v -keystore mykeystorefile -alias mykeyalias -keyalg RSA -keysize 2048 -validity 50000
-    ```
-    이 예제에서는 RSA 알고리즘을 사용하여 키 쌍(2,048비트 크기의 공개 키 및 개인 키)을 생성합니다. 그런 다음 공개 키를 X.509 v3 자체 서명된 인증서로 래핑하고, 이 공개 키는 단일 요소 인증서 체인으로 저장됩니다. 이 인증서 체인 및 개인 키는 "mykeystorefile"이라는 새 키 저장소 항목에 저장되고 "mykeyalias" 별칭으로 식별됩니다. 키 저장소 항목은 50,000일 동안 유효합니다.
-
-    명령을 실행하면 키 저장소 및 키에 대한 암호를 제공하라는 메시지가 나타납니다. 안전한 암호를 사용하고, 나중에 앱 래핑 도구를 실행하는 데 필요하므로 암호를 적어 두세요.
-
-    자세한 설명서는 Oracle 설명서 웹 사이트에서 Java [keytool](http://docs.oracle.com/javase/6/docs/technotes/tools/windows/keytool.html) 및 Java [KeyStore](https://docs.oracle.com/javase/7/docs/api/java/security/KeyStore.html)에 대해 읽으세요.
+- Android는 모든 앱 패키지(.apk)를 서명해야 합니다. 기존 인증서와 전체 서명 인증서 **재사용** 지침은 [서명 인증서 재사용 및 앱 래핑](https://docs.microsoft.com/en-us/intune/app-wrapper-prepare-android#reusing-signing-certificates-and-wrapping-apps)을 참조하세요. Java 실행 파일 keytool.exe를 사용하여 래핑된 출력 앱에 서명하는 데 필요한 **새** 자격 증명을 생성합니다. 설정된 모든 암호에는 보안이 적용되어야 하지만, 나중에 앱 래핑 도구를 실행하는 데 필요하므로 암호를 적어 두세요.
 
 ## <a name="install-the-app-wrapping-tool"></a>앱 래핑 도구 설치
 
@@ -95,7 +86,7 @@ Android용 Microsoft Intune 앱 래핑 도구를 사용하여 해당 앱 코드�
 |**-KeyStorePassword**&lt;SecureString&gt;|키 저장소를 해독하는 데 사용되는 암호입니다. Android에서는 모든 응용 프로그램 패키지(.apk)가 서명되어야 합니다. Java keytool을 사용하여 KeyStorePassword를 생성합니다. 여기에서 Java [KeyStore](https://docs.oracle.com/javase/7/docs/api/java/security/KeyStore.html)(키 저장소)에 대해 자세히 읽으세요.| |
 |**-KeyAlias**&lt;String&gt;|서명에 사용할 키의 이름입니다.| |
 |**-KeyPassword**&lt;SecureString&gt;|서명에 사용될 개인 키의 암호를 해독하는 데 사용되는 암호입니다.| |
-|**-SigAlg**&lt;SecureString&gt;| (선택 사항) 서명에 사용할 서명 알고리즘의 이름입니다. 이 알고리즘은 개인 키와 호환해야 합니다.|예: SHA256withRSA, SHA1withRSA, MD5withRSA|
+|**-SigAlg**&lt;SecureString&gt;| (선택 사항) 서명에 사용할 서명 알고리즘의 이름입니다. 이 알고리즘은 개인 키와 호환해야 합니다.|예: SHA256withRSA, SHA1withRSA|
 | **&lt;CommonParameters&gt;** | (선택 사항) 명령은 verbose, debug와 같은 일반적인 PowerShell 매개 변수를 지원합니다. |
 
 

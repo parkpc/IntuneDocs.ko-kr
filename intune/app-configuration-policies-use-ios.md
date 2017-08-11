@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 07/12/2017
+ms.date: 07/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: c9163693-d748-46e0-842a-d9ba113ae5a8
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0cbcf70af17ba7690f54196790da04becd8ba1eb
-ms.sourcegitcommit: 388c5f59bc992375ac63968fd7330af5d84a1348
+ms.openlocfilehash: b261834c85a9dd3cbc6f8fae40933dd7a79acf93
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="how-to-use-microsoft-intune-app-configuration-policies-for-ios"></a>iOS용 Microsoft Intune 앱 구성 정책을 사용하는 방법
 
@@ -37,7 +37,7 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 iOS 앱을
 
 사용자가 이러한 설정을 잘못 입력하면 기술 지원팀의 부담이 증가하며 새 앱 도입이 지연될 수 있습니다.
 
-앱 구성 정책을 사용하는 경우 사용자가 앱을 실행하기 전에 정책에서 이러한 설정을 사용자에게 할당할 수 있으므로 이러한 문제를 방지할 수 있습니다. 배포한 설정은 자동으로 제공되므로 사용자가 아무런 작업을 수행하지 않아도 됩니다.
+앱 구성 정책을 사용하는 경우 사용자가 앱을 실행하기 전에 정책에서 이러한 설정을 사용자에게 할당할 수 있으므로 이러한 문제를 방지할 수 있습니다. 배포한 설정은 자동으로 제공되므로 사용자가 아무런 작업을 수행하지 않아도 됩니다. 앱 구성 사용을 지원하도록 앱을 작성해야 합니다. 자세한 내용은 앱 공급업체에 문의하세요.
 
 사용자 및 장치에 이러한 정책을 직접 할당하지는 않으며, 대신 앱에 정책을 연결한 다음 앱을 할당합니다. 정책 설정은 앱에서 해당 설정을 확인할 때마다(일반적으로는 앱을 처음 실행할 때) 사용됩니다.
 
@@ -57,8 +57,8 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 iOS 앱을
 5.  정책 목록 블레이드에서 **추가**를 선택합니다.
 6.  **구성 정책 추가** 블레이드에서 앱 구성 정책의 **이름** 및 선택적 **설명**을 제공합니다.
 7.  **장치 등록 유형**에 대해 다음 중 하나를 선택합니다.
-    - **Intune에 등록됨** - Intune 앱 SDK를 통합했고 Intune에서 관리되는 앱의 경우입니다.
-    - **Intune에 등록되지 않음** - Intune 앱 SDK를 통합했고 Intune에서 관리되지 않거나 다른 솔루션에서 관리되는 앱의 경우입니다.
+    - **Intune에 등록** - Intune에서 관리하는 앱에 해당합니다.
+    - **Intune에 등록되지 않음** - Intune에서 관리되지 않거나 다른 솔루션에서 관리되는 앱에 해당합니다.
 8.  **플랫폼**의 경우 **iOS**를 선택합니다(Intune에 등록된 장치만 해당).
 9.  **연결된 앱**을 선택한 다음 **연결된 앱** 블레이드에서 구성을 적용할 관리되는 앱을 선택합니다.
 10. **구성 정책 추가** 블레이드에서 **구성 설정**을 선택합니다.

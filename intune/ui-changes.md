@@ -15,16 +15,27 @@ ms.assetid:
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1b9d1ac3930e29bc024ece7e6b9b11c91a4e14c1
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 18e5ea572bde503600bc33a0b4401efed2e35d18
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="where-did-my-intune-feature-go-in-azure"></a>Azure에서 Intune 기능은 어디에 있나요?
 Intune 기능을 Azure Portal로 이동하면서 일부 작업을 더 논리적으로 구성할 수 있게 되었습니다. 하지만 개선 작업을 진행할 때마다 항상 새 구성을 학습하는 비용이 발생하게 됩니다. 따라서 클래식 콘솔의 Intune에는 완전히 익숙하지만 Azure의 Intune에서 작업을 수행하는 방법을 궁금해하는 사용자를 위해 이 참조 가이드를 만들었습니다. 찾고 있는 기능이 이 문서에서 다루어지지 않은 경우 Microsoft에서 해당 내용을 업데이트할 수 있도록 본 문서 하단에 의견을 남겨 주세요.
 ## <a name="quick-reference-guide"></a>빠른 참조 가이드
-|기능 |클래식 콘솔에서의 경로|Azure Intune에서의 경로| |------------||---------------|---------------| |DEP(장비 등록 프로그램) |관리자 > 모바일 장치 관리 > iOS 및 Mac OS X > 장비 등록 프로그램|[장치 등록 > Apple 등록 > 등록 프로그램 토큰](#where-did-apple-dep-go) | |DEP(장비 등록 프로그램)| 관리자 > 모바일 장치 관리 > iOS 및 Mac OS X > 장비 등록 프로그램 |[장치 등록 > Apple 등록 > 등록 프로그램 일련 번호](#where-did-apple-dep-go) | |등록 규칙 |관리자 > 모바일 장치 관리 > 등록 규칙|[장치 등록 > 등록 제한](#where-did-enrollment-rules-go) | |iOS 일련 번호로 그룹화 |그룹 > 모든 장치 > 회사에서 사전 등록한 장치 > iOS 일련 번호 기준|[장치 등록 > Apple 등록 > 등록 프로그램 일련 번호](#where-did-corporate-pre-enrolled-devices-go) | |iOS 일련 번호로 그룹화 |그룹 > 모든 장치 > 회사에서 사전 등록한 장치 > iOS 일련 번호 기준| [장치 등록 > Apple 등록 > AC 일련 번호](#where-did-corporate-pre-enrolled-devices-go)| |IMEI로 그룹화(모든 플랫폼)| 그룹 > 모든 장치 > 회사에서 사전 등록한 장치 > IMEI 기준(모든 플랫폼) | [장치 등록 > 회사 장치 식별자](#by-imei-all-platforms)| | 회사 장치 등록 프로필| 정책 > 회사 장치 등록 | [장치 등록 > Apple 등록 > 등록 프로그램 프로필](#where-did-corporate-pre-enrolled-devices-go) | | 회사 장치 등록 프로필 | 정책 > 회사 장치 등록 | [장치 등록 > Apple 등록 > AC 프로필](#where-did-corporate-pre-enrolled-devices-go) | |Android for Work | 관리자 > 모바일 장치 관리 > Android for Work | 장치 등록 > Android for Work 등록 | | 사용 약관 | 정책 > 사용 약관 | 장치 등록 > 사용 약관 |
+|기능 |클래식 콘솔의 경로|Azure의 Intune 경로|
+|------------|---------------|---------------|
+|DEP(장치 등록 프로그램) |관리 > 모바일 장치 관리 > iOS 및 Mac OS X > 장치 등록 프로그램|[장치 등록 > Apple 등록 > 등록 프로그램 토큰](#where-did-apple-dep-go) |
+|DEP(장치 등록 프로그램)| 관리 > 모바일 장치 관리 > iOS 및 Mac OS X > 장치 등록 프로그램 |[장치 등록 > Apple 등록 > 등록 프로그램 일련 번호](#where-did-apple-dep-go) |
+|등록 규칙 |관리 > 모바일 장치 관리 > 등록 규칙|[장치 등록 > 등록 제한](#where-did-enrollment-rules-go) |
+|iOS 일련 번호 기준 그룹 |그룹 > 모든 장치 > 회사에서 사전 등록한 장치 > iOS 일련번호 기준|[장치 등록 > Apple 등록 > 등록 프로그램 일련 번호](#where-did-corporate-pre-enrolled-devices-go) |
+|iOS 일련 번호 기준 그룹 |그룹 > 모든 장치 > 회사에서 사전 등록한 장치 > iOS 일련번호 기준| [장치 등록 > Apple 등록 > AC 일련 번호](#where-did-corporate-pre-enrolled-devices-go)|
+|IMEI 기준 그룹(모든 플랫폼)| 그룹 > 모든 장치 > 회사에서 사전 등록한 장치 > IMEI 기준(모든 플랫폼) | [장치 등록 > 회사 장치 식별자](#by-imei-all-platforms)|
+| 회사 장치 등록 프로필| 정책 > 회사 장치 등록 | [장치 등록 > Apple 등록 > 등록 프로그램 프로필](#where-did-corporate-pre-enrolled-devices-go) |
+| 회사 장치 등록 프로필 | 정책 > 회사 장치 등록 | [장치 등록 > Apple 등록 > AC 프로필](#where-did-corporate-pre-enrolled-devices-go) |
+| Android for Work | 관리 > 모바일 장치 관리 > Android for Work | 장치 등록 > Android for Work 등록 |
+| 사용 약관 | 정책 > 사용 약관 정보 | 장치 등록 > 사용 약관 |
 
 
 ## <a name="where-do-i-manage-groups"></a>그룹은 어디에서 관리하나요?

@@ -5,7 +5,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 07/10/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: ac7bd764-5365-4920-8fd0-ea57d5ebe039
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 71558786cc7f058cee31e9bbe3960ed75a76891b
-ms.sourcegitcommit: ce363409d1206e4a3d669709863ccc9eb22b7d5f
+ms.openlocfilehash: b535c137d16ed8e17f4aee22d1fe2e922247f088
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="implement-your-intune-plan"></a>Intune 계획 구현
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 07/11/2017
 
 -   EMS(Enterprise Mobility + Security)/Intune 구독
 
--   Office 365 구독(Office 앱 및 MAM 정책 관리 앱용)
+-   Office 365 구독(Office 앱 및 앱 보호 정책 관리 앱용)
 
 -   Apple APNs 인증서(iOS 장치 플랫폼 관리를 사용하도록 설정하기 위해)
 
@@ -109,7 +109,7 @@ Intune은 메일, Wi-Fi 및 VPN 프로필을 지원합니다. 이러한 프로�
 
 ### <a name="task-10-add-and-deploy-apps"></a>작업 10: 앱 추가 및 배포
 
-Intune은 웹, 기간 업무 및 공용 저장소 앱의 배포를 지원합니다. 또한 MAM 정책과 연결함으로써 Intune SDK를 통합한 앱을 관리할 수 있습니다. 앱을 적절히 추가하고, Intune 배포 사용 사례 및 요구 사항에 따라 대상 그룹에 배포합니다.
+Intune은 웹, 기간 업무 및 공용 저장소 앱의 배포를 지원합니다. 또한 앱 보호 정책과 연결함으로써 Intune SDK를 통합한 앱을 관리할 수 있습니다. 앱을 적절히 추가하고, Intune 배포 사용 사례 및 요구 사항에 따라 대상 그룹에 배포합니다.
 
 -   [앱 추가 및 배포](app-management.md)에 대해 자세히 알아보세요.
 

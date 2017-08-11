@@ -5,7 +5,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 06/15/2016
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 24cf9d97-db39-4b95-a664-4aa2e33edb87
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ce26c68916867929e7e1fb17e25bc1a4d9c3beab
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 6c81ba2f40500ff58fb1e828cf629b4dcc8ac9d1
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="determine-deployment-goals-objectives-and-challenges"></a>배포 목적, 목표 및 과제 확인
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 07/01/2017
 
 -   **Office 365와의 통합 및 Office 모바일 앱의 사용 지원**
 
-    -   **설명:** Office 365와의 긴밀한 통합을 제공하고, 응용 프로그램 보호 기능이 포함된 Office 모바일 응용 프로그램의 사용을 지원합니다.
+    -   **설명:** Office 365와의 긴밀한 통합을 제공하고, 앱 보호 기능이 포함된 Office 모바일 앱의 사용을 지원합니다.
 
     -   **비즈니스 가치:** 사용자가 익숙하고 선호하는 앱을 사용할 수 있게 하여 안전하고 향상된 사용자 환경을 구현합니다.
 

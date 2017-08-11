@@ -1,37 +1,35 @@
 ---
 title: "Intune 용어"
-titleSuffix: Intune on Azure
+titleSuffix: 
 description: "Microsoft Intune에서 사용되는 몇 가지 용어에 대해 알아보기"
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/15/2017
+ms.date: 07/28/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bd7b5613-ee9f-4dc3-990c-ab4c1d40720d
 ms.custom: intune-azure
-ms.openlocfilehash: a9b43fc1a1877a3fc8bf4c5ee00e02dfee3cdea8
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 2df6c8c79954c2145ffa6eb33782cee690d78b1d
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="microsoft-intune-glossary"></a>Microsoft Intune 용어
-
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="a"></a>A
 
 |||
 |-|-|
 |앱 할당|사용자가 필요한 앱을 [찾고 다운로드하고 설치](/intune/app-management)할 수 있도록 하는 과정입니다. 이전 명칭은 *앱 배포*였습니다.|
-|앱 구성 프로필|[iOS](/intune/app-configuration-policies-use-ios) or [Android](/intune/app-configuration-policies-use-android) 앱을 실행하기 전에 특정 설정을 사용하여 앱을 구성합니다.|
+|앱 구성 프로필 <br/><br/>앱 구성 정책|공급업체별 구성이 있는 모바일 앱에 사용 가능합니다. [iOS](/intune/app-configuration-policies-use-ios) or [Android](/intune/app-configuration-policies-use-android) 앱을 실행하기 전에 특정 설정을 사용하여 앱을 구성합니다.|
 |앱 모니터링|앱 할당과 관련된 [최근 상태 및 활동을 검토](/intune/apps-monitor)할 수 있는 작업입니다.|
 |앱 보호 데이터 제거 작업|사용자의 장치에서 [앱 데이터를 제거](/intune/app-protection-policies)합니다.|
-|앱 보호 정책|사용자의 앱이 [회사 데이터 보호 정책](/intune/app-protection-policies)을 준수하는지를 확인합니다.|
+|앱 보호 정책|EMS(Enterprise Mobility + Security) 기술과 통합된 모바일 앱에 사용 가능합니다. 사용자의 앱이 [회사 데이터 보호 정책](/intune/app-protection-policies)을 준수하는지를 확인합니다.|
 |앱 SDK|[Microsoft Intune 앱 SDK](/intune/app-sdk)를 사용하면 사내에서 작성된 앱에 Intune 앱 보호 정책으로 해당 앱을 관리할 수 있는 기능을 추가할 수 있습니다.|
 |앱 제거 작업|사용자의 장치에서 [앱을 제거](/intune/apps-deploy)할 수 있는 작업입니다.|
 |앱 래핑 도구|Intune 앱 보호 정책을 통해 앱을 관리할 수 있도록 기간 업무 앱을 둘러싸는 래퍼를 만드는 [명령줄 응용 프로그램](/intune/apps-prepare-mobile-application-management)입니다.|
@@ -103,7 +101,7 @@ ms.lasthandoff: 07/01/2017
 |-|-|
 |Managed Browser|Intune을 사용하여 조직에서 할당할 수 있는 [웹 브라우징 응용 프로그램](/intune/app-configuration-managed-browser)입니다. 관리 브라우저 정책은 관리 브라우저의 사용자가 방문할 수 있는 웹 사이트를 제한하는 허용 목록 또는 차단 목록을 구성합니다.|
 |MDM 기관|[MDM 기관](/intune/mdm-authority-set)은 일련의 장치를 관리할 권한을 가진 관리 서비스를 정의합니다. MDM 기관에 대한 옵션에는 Intune 자체 및 Intune을 사용하는 Configuration Manager가 포함됩니다.|
-|모바일 앱 구성 정책|호환되는 앱이 실행될 때 회사 이름, 서버 주소 등의 설정을 해당 앱에 제공하는 데 사용되는 [iOS](/intune/app-configuration-policies-use-ios) 또는 [Android](/intune/app-configuration-policies-use-android) 정책입니다.|
+|모바일 앱 구성 정책|공급업체별 구성이 있는 모바일 앱에 사용 가능합니다. 예를 들어, 호환되는 앱이 실행될 때 회사 이름, 서버 주소 등의 설정을 해당 앱에 제공하는 데 사용되는 [iOS](/intune/app-configuration-policies-use-ios) 또는 [Android](/intune/app-configuration-policies-use-android) 정책입니다.|
 |모바일 앱 프로비전 정책|할당하는 iOS 앱에 대한 [프로비전 프로필](/intune/app-provisioning-profile-ios)이 만료되지 않게 하는 iOS 정책입니다.|
 |모바일 응용 프로그램 관리|[MAM(모바일 응용 프로그램 관리)](/intune/app-lifecycle)을 사용하여 사용자를 위해 모바일 앱을 게시, 푸시, 구성, 보호, 모니터링 및 업데이트할 수 있습니다.
 |모바일 장치 관리|[MDM(모바일 장치 관리)](/intune/device-lifecycle)을 사용하면 장치를 프로비저닝, 구성, 모니터링 및 관리할 수 있도록 Intune에 해당 장치를 등록할 수 있습니다.
@@ -131,7 +129,7 @@ ms.lasthandoff: 07/01/2017
 ## <a name="s"></a>S
 |||
 |-|-|
-|선택적 초기화|[선택적 초기화](/intune/device-company-data-remove)는 MAM(모바일 앱 관리) 데이터(해당하는 경우), 설정 및 메일 프로필을 비롯한 회사 데이터만 장치에서 제거합니다. 선택적 초기화는 사용자의 개인적인 데이터를 장치에 남겨둡니다.|
+|선택적 초기화|[선택적 초기화](/intune/device-company-data-remove)는 앱 보호 정책을 통해 보호되는 설정 및 메일 프로필을 비롯한 회사 데이터만 장치에서 제거합니다. 선택적 초기화는 사용자의 개인적인 데이터를 장치에 남겨둡니다.|
 |테스트용 로드|앱 스토어에서 기간 업무 앱에 액세스하지 않고 해당 앱을 설치하는 작업입니다.|
 |구독|Intune 테넌트에 액세스하는 데 사용되는, 직접 입력한 계약입니다.|
 

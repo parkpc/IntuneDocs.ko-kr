@@ -14,11 +14,11 @@ ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1627627ab1744f963d738dcedde6a772bb3ae663
-ms.sourcegitcommit: 5eb209ae48173ddfdbbab131f12f3ac3498dcd87
+ms.openlocfilehash: 205c9c52759d5fee2429fe46d19c8882aacafa7a
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="protect-line-of-business-apps-and-data-on-devices-that-are-not-enrolled-in-microsoft-intune"></a>Microsoft Intune에 등록되지 않은 장치에서 LOB(기간 업무) 앱 및 데이터 보호
 
@@ -31,7 +31,7 @@ MAM(모바일 응용 프로그램 관리) 정책은 회사 데이터를 누수�
 
 ##  <a name="step-1-prepare-the-app"></a>1단계: 앱 준비
 
-MAM 정책을 앱에 적용하려면 먼저 [iOS](prepare-ios-apps-for-mo/intune/apps-prepare-mobile-application-managementoid](/intune/app-wrapper-prepare-android)용 Microsoft Intune 앱 줄 바꿈 도구를 사용하여 앱을 줄 바꿈하거나, [Intune 앱 SDK](/intune/app-sdk)를 사용하여 Intune 앱 보호 기능을 수동으로 통합해야 합니다.
+MAM 정책을 앱에 적용하려면 먼저 [iOS](/intune/app-wrapper-prepare-ios) 및 [Android](/intune/app-wrapper-prepare-android)용 Microsoft Intune 앱 줄 바꿈 도구를 사용하여 앱을 줄 바꿈하거나, [Intune 앱 SDK](/intune/app-sdk)를 사용하여 Intune 앱 보호 기능을 수동으로 통합합니다.
 
 앱 줄 바꿈 도구와 SDK의 사용에 대한 자세한 내용은 [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](/intune/apps-prepare-mobile-application-management)을 참조하세요.
 
