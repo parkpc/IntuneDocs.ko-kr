@@ -14,11 +14,11 @@ ms.assetid: eb9b01ce-9b9b-4c2a-bf99-3879c0bdaba5
 ms.reviewer: lpatha
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 13c8946dd75d6bdede0e2a8941030250c6b12ef6
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 8c5acd617e9d69fa23455d382dfd78518e52515b
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="use-groups-to-manage-users-and-devices-in-microsoft-intune"></a>Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 07/01/2017
 >
 >![Azure 그룹 관리에 대한 링크의 스크린샷](../media/groups-link-azure.png) 
 >
->Azure AD 포털 링크가 보이지 않으면 지금도 그룹 관리에 대한 *기존* 접근 방식(이 항목의 [Microsoft Intune에서 그룹을 만들어 사용자와 장치 관리](#Create-groups-to-manage-users-and-devices-with-Microsoft-Intune)에 설명되어 있음)을 사용하고 있는 것입니다.
+>Azure AD 포털 링크가 표시되지 않으면 이 항목의 [그룹 만들기](#create-groups)에 설명된 대로 여전히 *기존* 그룹 관리 접근 방식을 사용하는 것입니다.
 
 이 항목에서는 Intune 관리 콘솔에서 Intune 그룹을 만드는 방법을 설명합니다.
 

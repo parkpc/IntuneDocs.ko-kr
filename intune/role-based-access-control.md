@@ -15,11 +15,11 @@ ms.assetid: ca3de752-3caa-46a4-b4ed-ee9012ccae8e
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e2302b0e53254b945215aadbb13107c85f345412
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 3aff61f6201d6569e35aa9d556aa655d28775d2f
+ms.sourcegitcommit: 18cdbdc226f64368de892a8c5cff157c37986c57
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="role-based-administration-control-rbac-with-intune"></a>Intune을 통한 RBAC(역할 기반 관리 제어)
 
@@ -57,9 +57,9 @@ RBAC를 사용하면 조직 내에서 다양한 Intune 작업을 수행할 수 �
 
 다음 역할은 Intune에서 기본 제공되며 추가 구성 없이 그룹에 할당할 수 있습니다.
 
-- **기술 지원팀 운영자**: 사용자와 장치에 대해 원격 작업을 수행하며, 사용자 또는 장치에 응용 프로그램이나 정책을 할당할 수 있습니다. 
+- **기술 지원팀 운영자**: 사용자와 장치에 대해 원격 작업을 수행하며, 사용자 또는 장치에 응용 프로그램이나 정책을 할당할 수 있습니다.
 - **정책 및 프로필 관리자**: 준수 정책, 구성 프로필, Apple 등록 및 회사 장치 식별자를 관리합니다.
-- **읽기 전용 운영자**: 사용자, 장치, 등록, 구성 및 응용 프로그램 정보를 확인할 수는 있지만 Intune에서 이러한 정보를 변경할 수는 없습니다.
+- **읽기 전용 운영자**: 사용자, 장치, 등록, 구성 및 응용 프로그램 정보를 확인할 수 있습니다. Intune을 변경할 수 없습니다.
 - **응용 프로그램 관리자**: 모바일 및 관리되는 응용 프로그램을 관리하며, 장치 정보를 읽을 수 있습니다.
 
 ### <a name="to-assign-a-built-in-role"></a>기본 제공 역할을 할당하려면
@@ -68,9 +68,9 @@ RBAC를 사용하면 조직 내에서 다양한 Intune 작업을 수행할 수 �
 
 2. <*역할 이름*> - **속성** 블레이드에서 **관리**, **할당**을 차례로 선택합니다.
 
-    > [!NOTE] 
+    > [!NOTE]
     > 기본 제공 역할은 편집하거나 삭제할 수 없습니다.
-    
+
 3. 사용자 지정 역할 블레이드에서 **할당**을 선택합니다.
 
 4. **역할 할당** 블레이드에서 할당에 대한 **이름** 및 선택적 **설명**을 입력하고 다음을 선택합니다.

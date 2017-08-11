@@ -15,11 +15,11 @@ ms.assetid: 9b0afb7d-cd4e-4fc6-83e2-3fc0da461d02
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: de40d149818b2655a8fc3b647a7e850973814165
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 978e32476069183865f7e729de9791e13bc81ebc
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="how-to-monitor-app-protection-policies"></a>앱 보호 정책을 모니터링하는 방법
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -46,11 +46,13 @@ ms.lasthandoff: 07/01/2017
 
 ![Intune 모바일 응용 프로그램 관리 블레이드의 요약 타일](./media/app-protection-user-status-summary.png)
 
--   **사용자**: 정책과 연결된 앱을 사용하는 회사 사용자의 총수입니다.
+-   **사용자**: 회사에서 업무 환경의 정책과 연결된 앱을 사용하는 총 사용자 수입니다.
 
--   **정책으로 관리됨**: 회사 컨텍스트에서 적어도 한 개의 앱을 사용한 적이 있는 사용자 수입니다.
+-   **정책으로 관리**: 업무 환경에서 할당된 정책이 있는 앱을 사용한 사용자 수입니다.
 
--   **정책 없음**: 정책과 연결된 앱을 사용하지만 정책의 대상이 아닌 사용자 수입니다. 정책에 이러한 사용자를 추가하는 것이 좋습니다.
+-   **정책 없음**: 업무 환경에서 정책의 대상이 되지 않는 앱을 사용하는 사용자 수입니다. 정책에 이러한 사용자를 추가하는 것이 좋습니다.
+    > [!NOTE]
+    > 플랫폼당 정책이 여러 개 있는 경우 사용자에게 하나 이상의 정책이 할당되면 정책을 통해 사용자를 관리하는 것으로 간주됩니다.
 
 - **플래그가 지정된 사용자**: 문제가 발생하는 사용자 수입니다. 현재 탈옥된 장치를 가진 사용자만이 **플래그가 지정된 사용자**로 표시됩니다.
 

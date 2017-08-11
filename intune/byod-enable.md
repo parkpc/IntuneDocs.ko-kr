@@ -1,11 +1,11 @@
 ---
 title: "Microsoft Intune으로 BYOD를 사용하도록 설정"
-description: 
+description: "조직에서 BYOD(Bring Your Own Device) 솔루션을 사용할 수 있도록 Intune을 설정하는 작업에 대한 개략적인 워크플로."
 keywords: 
 author: lindavr
 ms.author: lindavr
 manager: angrobe
-ms.date: 06/13/2017
+ms.date: 07/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.openlocfilehash: 880b83a63eefe13a96ab8838c7092c185aa32cd0
-ms.sourcegitcommit: ce363409d1206e4a3d669709863ccc9eb22b7d5f
+ms.openlocfilehash: 8684ea31420edd836038dc9337bd8bdf56e78ba6
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="enable-byod-with-intune"></a>Intune으로 BYOD를 사용하도록 설정
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 07/11/2017
 
 -   **[장치 등록 및 준수 확인](#enroll-devices-and-check-for-compliance)**에서는 사용자가 개인 장치를 Intune의 관리 기능에 등록하는 방법을 설명합니다. Intune은 iOS, macOS, Android 및 Windows 장치를 관리합니다. 이 섹션에서는 장치에 정책을 배포하고 기본 보안 요구 사항을 충족하는 방법도 설명합니다.
 
-- **[회사 리소스에 대한 액세스 권한 제공](#provide-access-to-company-resources)**에서는 사용자가 쉽고 안전하게 회사 리소스에 액세스할 수 있도록 IT에서 지원하는 방법을 보여 줍니다. 이를 위해 관리되는 장치에 액세스 프로필을 배포하는 방식을 사용합니다. 이 섹션에서는 Intune을 통해 대량 구매 앱 배포를 관리하는 방법도 설명합니다.
+- **[회사 리소스에 대한 액세스 권한 제공](#provide-access-to-company-resources)**에서는 사용자가 쉽고 안전하게 회사 리소스에 액세스할 수 있도록 지원하는 방법을 보여 줍니다. 이를 위해 관리되는 장치에 액세스 프로필을 배포하는 방식을 사용합니다. 이 섹션에서는 Intune을 통해 대량 구매 앱 배포를 관리하는 방법도 설명합니다.
 
 -   **[회사 데이터 보호](#protect-company-data)**에서는 회사 리소스에 대한 조건부 액세스를 제공하고, 데이터 손실을 방지하며, 더 이상 업무에 필요하지 않거나 분실 또는 도난된 장치에서 회사 앱 및 데이터를 제거하는 방법을 알아볼 수 있습니다.
 
@@ -38,19 +38,17 @@ ms.lasthandoff: 07/11/2017
 ## <a name="before-you-begin"></a>시작하기 전에
 사용자가 장치를 등록하려면 먼저 Intune 서비스를 준비해야 합니다. 이를 위해 [사용자에게 라이선스를 할당](licenses-assign.md)하고 [모바일 장치 관리 기관을 설정](mdm-authority-set.md)하세요.
 
-이때 [회사 포털도 사용자 지정](company-portal-customize.md)해야 합니다. 회사 브랜딩을 추가하고 사용자에게 지원 정보를 제공하세요. 이렇게 하면 사용자가 신뢰할 수 있는 등록 및 지원 환경이 만들어집니다.
+이때 [회사 포털도 사용자 지정](company-portal-customize.md)해야 합니다. 회사 브랜딩을 추가하고 사용자에게 지원 정보를 제공하세요. 이렇게 하면 사용자가 신뢰할 수 있는 등록 및 지원 환경이 만들어집니다. 사용자가 등록하기 전에 동의해야 하는 [사용 약관](terms-and-conditions-create.md) 또는 지원하는 플랫폼을 지정하기 위한 [장치 제한](enrollment-restrictions-set.md)도 만들어야 합니다.
 
 ## <a name="enroll-devices-and-check-for-compliance"></a>장치 등록 및 준수 확인
 
 Intune 서비스를 준비한 후 관리하려는 다양한 장치 유형의 다양한 등록 요구 사항을 충족해야 합니다. 관리에 장치를 등록하는 과정은 간단하지만 장치 유형에 따라 약간씩 달라집니다.
 
--   **iOS 및 Mac 장치** iPad, iPhone 또는 MacOS 장치를 등록하려면 [APNs(Apple Push Notification Service) 인증서가 필요](apple-mdm-push-certificate-get.md)합니다. Intune에 APNs 인증서를 업로드한 후에는 사용자가 회사 포털 앱을 사용하여 [iOS 장치를 등록](/intune-user-help/enroll-your-device-in-intune-ios)하고 회사 포털 웹 사이트를 사용하여 [MacOS 장치를 등록](/intune-user-help/enroll-your-device-in-intune-macos)할 수 있습니다.
+-   **iOS 및 Mac 장치** iPads, iPhones 또는 MacOS 장치를 등록하려면 [Apple MDM 푸시 인증서 가져오기](apple-mdm-push-certificate-get.md)를 수행해야 합니다. Intune에 MDM 푸시 인증서를 업로드한 후에는 사용자가 회사 포털 앱을 사용하여 [iOS 장치를 등록](/intune-user-help/enroll-your-device-in-intune-ios)하고 회사 포털 웹 사이트를 사용하여 [MacOS 장치를 등록](/intune-user-help/enroll-your-device-in-intune-macos)할 수 있습니다.
 
--   **Android 장치** Android 장치를 등록하기 위해 Intune 서비스를 준비하는 데 필요한 작업은 없습니다. 사용자는 Google Play에서 제공되는 회사 포털 앱을 사용하여 관리 기능에 [Android 장치를 등록](/intune-user-help/enroll-your-device-in-intune-android.md)하기만 하면 됩니다.
+-   **Android 장치** Android 장치를 등록하기 위해 Intune 서비스를 준비하는 데 필요한 작업은 없습니다. 사용자는 Google Play에서 제공되는 회사 포털 앱을 사용하여 관리 기능에 [Android 장치를 등록](/intune-user-help/enroll-your-device-in-intune-android)하기만 하면 됩니다.
 
--   **Windows Phone 및 PC** [등록 서버에 대해 DNS 별칭을 설정](windows-enroll.md#enable-windows-enrollment-without-azure-ad-premium)하여 Windows 장치를 보다 쉽게 등록할 수 있습니다. 별칭을 설정하지 않는 경우 사용자가 회사 또는 학교 계정을 추가하여 [Windows 장치를 등록](/intune-user-help/enroll-your-w10-phone-or-w10-pc-windows)할 수 있습니다.
-
-  - Azure AD Premium이 있는 경우 [자동 등록을 사용하도록 설정](windows-enroll.md)하면 사용자가 Windows 장치를 더 쉽게 등록할 수 있습니다. 이 기능은 사용자가 회사 또는 학교 계정을 추가하여 개인 장치를 등록하는 경우 Intune에 자동으로 장치를 등록합니다. 조직의 Azure AD를 조인하는 회사 소유의 장치에도 이 기능이 사용될 수 있습니다.
+-   **Windows Phones 및 PC** 추가 구성을 사용하여 Windows 장치를 등록할 수 있습니다. 사용자 경험을 간소화하기 위해 Azure AD(Active Directory) Premium에서 Windows 10 PC 및 Windows 10 모바일 장치의 자동 등록을 사용할 수 있습니다. Azure AD Premium이 없거나 Windows 8.1을 지원해야 하는 경우 쉽게 등록할 수 있도록 [등록 서버의 DNS 별칭](windows-enroll.md#enable-windows-enrollment-without-azure-ad-premium)을 만들 수 있습니다.
 
 
 ### <a name="make-sure-that-managed-devices-meet-basic-security-requirements"></a>관리되는 장치가 기본 보안 요구 사항을 충족하는지 확인
@@ -61,13 +59,13 @@ Intune 서비스를 준비한 후 관리하려는 다양한 장치 유형의 다
 
 ## <a name="provide-access-to-company-resources"></a>회사 리소스에 대한 액세스 권한 제공
 
-대부분 직원들이 모바일 장치에서 원하는 첫 번째 기능은 회사 메일 및 문서에 대한 액세스입니다. 또한 복잡한 단계를 거치거나 지원 센터에 문의하지 않고 설정을 진행할 수 있기 바랍니다. Intune을 사용하면 모바일 장치에 사전 설치되는 기본 메일 앱에 대한 [메일 설정을 쉽게 만들고 배포](conditional-access-intune-common-ways-use.md)할 수 있습니다.
-<!--- this was old link: (https://docs.microsoft.com/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune). check with Andre--->
+대부분 직원들이 모바일 장치에서 원하는 첫 번째 기능은 회사 메일 및 문서에 대한 액세스입니다. 또한 복잡한 단계를 거치거나 지원 센터에 문의하지 않고 설정을 진행할 수 있기 바랍니다. Intune을 사용하면 모바일 장치에 사전 설치되는 기본 메일 앱에 대한 [메일 설정을 쉽게 만들고 배포](email-settings-configure.md)할 수 있습니다.
+
 
 > [!NOTE]
 > Intune에서는 Google Play 스토어에 있는 Gmail 및 Nine Work 메일 앱에 대해 Android for Work 메일 프로필 구성을 지원합니다.
 
-Intune은 사용자가 오프사이트에서 작업하는 경우 온-프레미스 회사 데이터에 대한 액세스를 제어하고 보호하는 데에도 도움이 됩니다. Intune [Wi-Fi](https://docs.microsoft.com/intune/deploy-use/wi-fi-connections-in-microsoft-intune), [VPN](https://docs.microsoft.com/intune/deploy-use/vpn-connections-in-microsoft-intune#create-a-vpn-profile) 및 메일 프로필은 함께 작동하여 사용자가 어디에 있든지 상관없이 정상적인 작업 수행에 필요한 파일 및 리소스에 쉽게 액세스하게 해 줍니다. 온-프레미스에 호스트된 회사의 웹 응용 프로그램 및 서비스도 Azure Active Directory 응용 프로그램 프록시 및 조건부 액세스를 사용하여 안전하게 액세스하고 보호할 수 있습니다.
+Intune은 사용자가 오프사이트에서 작업하는 경우 온-프레미스 회사 데이터에 대한 액세스를 제어하고 보호하는 데에도 도움이 됩니다. Intune [Wi-Fi](wi-fi-settings-configure.md), [VPN](vpn-settings-configure.md) 및 메일 프로필은 함께 작동하여 사용자가 어디에 있든지 상관없이 정상적인 작업 수행에 필요한 파일 및 리소스에 쉽게 액세스하게 해 줍니다. 온-프레미스에 호스트된 회사의 웹 응용 프로그램 및 서비스도 Azure Active Directory 응용 프로그램 프록시 및 조건부 액세스를 사용하여 안전하게 액세스하고 보호할 수 있습니다.
 
 ### <a name="manage-volume-purchased-apps"></a>대량 구매 앱 관리
 Intune을 사용하면 다음 작업을 쉽게 수행할 수 있습니다.
@@ -113,4 +111,4 @@ Intune 응용 프로그램 보호 정책을 사용하면 장치 등록 여부와
 
 [전체 초기화](devices-wipe.md)는 장치가 출하 시 기본 설정으로 복원되고 사용자 데이터와 설정이 제거됩니다. [선택적 초기화](devices-wipe.md#selective-wipe)는 장치에서 회사 데이터는 제거하지만 사용자의 개인 데이터는 그대로 둡니다.
 
-초기화되면 장치가 즉시 선택적 초기화 프로세스를 시작하여 관리 기능에서 제거됩니다. 프로세스가 완료되면 모든 회사 데이터가 삭제되고 장치 이름이 Intune 관리자 콘솔에서 제거됩니다. 장치 관리 수명 주기가 종료됩니다.
+초기화되면 장치가 즉시 선택적 초기화 프로세스를 시작하여 관리 기능에서 제거됩니다. 프로세스가 완료되면 모든 회사 데이터가 삭제되고 장치 이름이 Intune 포털에서 제거됩니다. 장치 관리 수명 주기가 종료됩니다.

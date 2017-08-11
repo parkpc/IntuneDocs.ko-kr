@@ -5,7 +5,7 @@ keywords: "Intune이란"
 author: Lindavr
 ms.author: lindavr
 manager: angrobe
-ms.date: 05/04/2017
+ms.date: 07/28/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.technology:
 ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
 ms.reviewer: pmay
 ms.suite: ems
-ms.custom: intune-classic
-ms.openlocfilehash: b1fbc73c0bc3589856f09bd3b9858fef66b82b08
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.custom: 
+ms.openlocfilehash: 53115eba5e5150139b8ff0f359cde279df297d47
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="what-is-intune"></a>Intune이란?
 
@@ -72,10 +72,10 @@ Intune을 EMS의 다른 서비스와 함께 사용하면 모바일 운영 체제
 
 * [Single sign-on](https://docs.microsoft.com/azure/active-directory/active-directory-appssoaccess-whatis)  
 *   [다단계 인증](https://docs.microsoft.com/multi-factor-authentication/multi-factor-authentication)
-* [앱의 조건부 액세스(모바일 앱에 회사 데이터가 포함된 경우 액세스 허용)](app-based-conditional-access-intune.md)([클래식 콘솔](/intune-classic/deploy-use/allow-policy-managed-apps-access-to-o365))
-* [동일한 앱 내의 개인 데이터에서 회사 데이터 격리](app-protection-policy.md)([클래식 콘솔](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune))
-* [앱 보호 정책(PIN, 암호화, 다른 이름으로 저장, 클립보드 등)](app-protection-policies.md)([클래식 콘솔](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune))
-* [모바일 앱에서 회사 데이터 초기화](/intune-classic/deploy-use/wipe-managed-company-app-data-with-microsoft-intune)
+* [앱의 조건부 액세스 - 모바일 앱에 회사 데이터가 포함된 경우 액세스 허용](app-based-conditional-access-intune.md)
+* [동일한 앱 내의 개인 데이터에서 회사 데이터 격리](app-protection-policy.md)
+* [앱 보호 정책(PIN, 암호화, 다른 이름으로 저장, 클립보드 등)](app-protection-policies.md)
+* [모바일 앱에서 회사 데이터 초기화](apps-selective-wipe.md)
 * [권한 관리 지원](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
 
 ![앱 관리 데이터 보안 수준을 보여 주는 이미지](./media/managing-mobile-apps.png)
@@ -110,6 +110,6 @@ Intune이 모바일 앱 보안을 제공하는 한 가지 방법은 **앱 보호
 * [작업자에게 사용이 제한된 공유 태블릿 발급](common-scenarios.md#issue-limited-use-shared-tablets-to-your-employees)
 
 ### <a name="next-steps"></a>다음 단계
-* [Intune을 사용하는 일반적인 방법](common-scenarios.md)([클래식 콘솔](/intune-classic/understand-explore/common-ways-to-use-intune))의 일부 읽기
-* [Intune의 30일 평가판으로](free-trial-sign-up.md)([클래식 콘솔](/intune-classic/understand-explore/sign-up-for-30-day-trial-microsoft-intune)) 제품에 대해 알아보기
-* Intune의 [기술 요구 사항 및 기능](supported-devices-browsers.md)([클래식 콘솔](/intune-classic/get-started/what-to-know-before-you-start-microsoft-in))에 대해 자세히 알아보기
+* [Intune을 사용하는 일반적인 방법](common-scenarios.md)의 일부 읽기
+* [Intune의 30일 평가판으로](free-trial-sign-up.md) 제품에 대해 알아보기
+* Intune의 [기술 요구 사항 및 기능](supported-devices-browsers.md)에 대해 자세히 알아보기

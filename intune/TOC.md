@@ -87,7 +87,7 @@
 ### [macOS 등록 설정](macos-enroll.md)
 
 ## [장치 관리](device-management.md)
-### [장치 초기화](devices-wipe.md)
+### [장치 제거](devices-wipe.md)
 ### [활성화 잠금 무시](device-activation-lock-bypass.md)
 ### [장치 초기화](device-factory-reset.md)
 ### [Windows 새로 시작 관리](device-fresh-start.md)
@@ -115,7 +115,7 @@
 #### [웹앱](web-app.md)
 #### [Windows Phone 8.1 스토어 앱](store-apps-windows-phone-8-1.md)
 #### [Windows Phone LOB 앱](lob-apps-windows-phone.md)
-#### [Windows 스토어 앱](store-apps-windows.md)
+#### [Microsoft 스토어 앱](store-apps-windows.md)
 #### [Windows LOB 앱](lob-apps-windows.md)
 #### [Android for Work 앱](apps-add-android-for-work.md)
 #### [Windows 10용 Office 365 앱](apps-add-office365.md)
@@ -127,7 +127,7 @@
 ### [선택적으로 앱 지우기](apps-selective-wipe.md)
 ### [대량 구매 앱 및 책 작업](vpp-apps.md)
 #### [iOS VPP 앱](vpp-apps-ios.md)
-#### [비즈니스용 Windows 스토어 앱](windows-store-for-business.md)
+#### [비즈니스용 Microsoft 스토어 앱](windows-store-for-business.md)
 #### [iOS 전자책](vpp-ebooks-ios.md)
 ### [회사 포털 앱 구성](company-portal-app.md)
 ### [Managed Browser 구성](app-configuration-managed-browser.md)
@@ -263,7 +263,7 @@
 ### [Windows 앱을 다운로드하는 방법](end-user-apps-windows.md)
 
 # 모니터링 및 문제 해결
-## [기술 지원팀 운영자 역할 사용](help-desk-operators.md)
+## [사용자가 문제 해결할 수 있도록 도움](help-desk-operators.md)
 ## [Intune 데이터 웨어하우스 사용](reports-nav-create-intune-reports.md)
 ### [Power BI를 사용하여 데이터 웨어하우스에 연결](reports-proc-get-a-link-powerbi.md)
 

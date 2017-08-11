@@ -6,7 +6,7 @@ keywords:
 author: lindavr
 ms.author: lindavr
 manager: angrobe
-ms.date: 01/09/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: ayesham
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 302f646bfb9ff0ac024687fa0b3926d83158995c
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: d21b6a03cdc8094bc8da3cecd5331b3f11400302
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="how-your-users-will-experience-basic-protection-on-managed-office-365-apps"></a>사용자에게 관리되는 Office 365 앱에 대한 기본 보호 환경을 제공하는 방법
 
@@ -48,15 +48,14 @@ ms.lasthandoff: 07/01/2017
 
 1. 비즈니스용 OneDrive 앱을 시작하여 로그인 페이지를 엽니다.  <br/> ![iOS용 OneDrive 로그인 화면의 이미지](./media/onedrive-ios-sign-in.png)
 2. 회사 계정 사용자 이름을 입력합니다. 회사 자격 증명을 입력할 수 있도록 Office 365 인증 페이지로 리디렉션됩니다. <br/> ![Office 365 로그인 페이지의 이미지](./media/o365-sign-in-ios.png)
-3. Azure Active Directory에서 자격 증명이 인증되면 MAM(모바일 앱 관리) 정책이 적용되며, 비즈니스용 OneDrive 앱을 다시 시작하라는 메시지가 표시됩니다.  <br/>![iOS에 대한 다시 시작 메시지의 이미지](./media/ios-restart-prompt.png)
->[!NOTE]
->Intune에서 등록되지 않은 장치에서만 다시 시작 필요 메시지가 표시됩니다.
+3. Azure Active Directory에서 자격 증명이 인증되면 앱 보호 정책이 적용되며, 비즈니스용 OneDrive 앱을 다시 시작하라는 메시지가 표시됩니다.  <br/>![iOS에 대한 다시 시작 메시지의 이미지](./media/ios-restart-prompt.png)    
+  > [!NOTE]
+  > Intune에서 등록되지 않은 장치에서만 다시 시작 필요 메시지가 표시됩니다.
 
 
-4. 비즈니스용 OneDrive 앱을 다시 시작합니다. 설정된 MAM 정책으로 앱이 시작되고 장치의 PIN을 설정하라는 메시지가 표시됩니다(장치의 PIN을 아직 구성하지 않은 경우). <br/> ![PIN을 만들라는 메시지의 이미지](./media/pin-prompt-ios.png)
-
->[!NOTE]
->대부분의 사용자에게는 이 메시지가 표시되지 않습니다. iOS 장치에서 PIN을 사용하도록 설정하지 않은 사용자에게만 이 메시지가 표시됩니다.
+4. 비즈니스용 OneDrive 앱을 다시 시작합니다. 설정된 앱 보호 정책으로 앱이 시작되고 장치의 PIN을 설정하라는 메시지가 표시됩니다(장치의 PIN을 아직 구성하지 않은 경우). <br/> ![PIN을 만들라는 메시지의 이미지](./media/pin-prompt-ios.png)    
+  > [!NOTE]
+  > 대부분의 사용자에게는 이 메시지가 표시되지 않습니다. iOS 장치에서 PIN을 사용하도록 설정하지 않은 사용자에게만 이 메시지가 표시됩니다.
 
 
 5. PIN을 설정하고 확인했으면 비즈니스용 OneDrive 앱으로 돌아갑니다. 이제 IT 관리자가 OneDrive에서 작업 데이터를 보호함을 알리는 일회성 알림이 표시됩니다. <br/> ![IT 관리자의 일회성 알림 이미지](./media/one-time-notice.png)
@@ -70,9 +69,9 @@ ms.lasthandoff: 07/01/2017
 
 1. 비즈니스용 OneDrive 앱을 시작하여 로그인 페이지를 엽니다.  <br/> ![OneDrive 앱 시작 화면 이미지](./media/onedrive-android-welcome.png)
 2. 회사 계정 사용자 이름을 입력합니다. 회사 자격 증명을 입력할 수 있도록 Office 365 인증 페이지로 리디렉션됩니다. <br/> ![Android의 O365 로그인 이미지](./media/o365-sign-in-android.png)
-3. Azure Active Directory에서 자격 증명이 인증되면 회사 포털 앱을 설치하는 지침이 포함된 메시지가 표시됩니다(아직 장치에 설치되지 않은 경우). **스토어로 이동**을 탭하여 계속 진행합니다. <br/> ![회사 포털 앱을 가져오는 메시지의 이미지](./media/get-company-portal-android.png) <br/>회사 포털 앱이 휴대폰에 이미 설치된 경우 비즈니스용 OneDrive 앱이 자동으로 시작되며 마지막 메모로 건너뛸 수 있습니다.
->[!IMPORTANT]
->Android에서 MAM 정책을 통해 관리할 Office 앱을 설정한 후 장치 사용자는 실제로 메일이나 문서를 읽기 위해 앱을 열거나 로그인할 필요가 없지만 회사 포털 앱을 설치**해야** 회사 메일 및 문서에 액세스할 수 있습니다.
+3. Azure Active Directory에서 자격 증명이 인증되면 회사 포털 앱을 설치하는 지침이 포함된 메시지가 표시됩니다(아직 장치에 설치되지 않은 경우). **스토어로 이동**을 탭하여 계속 진행합니다. <br/> ![회사 포털 앱을 가져오는 메시지의 이미지](./media/get-company-portal-android.png) <br/>회사 포털 앱이 휴대폰에 이미 설치된 경우 비즈니스용 OneDrive 앱이 자동으로 시작되며 마지막 메모로 건너뛸 수 있습니다.    
+  > [!IMPORTANT]
+  > Android에서 앱 보호 정책을 통해 관리할 Office 앱을 설정한 후 장치 사용자는 실제로 메일이나 문서를 읽기 위해 앱을 열거나 로그인할 필요가 없지만 회사 포털 앱을 설치**해야** 회사 메일 및 문서에 액세스할 수 있습니다.
 
 4. 이제 Google Play 스토어에 있으며, 회사 포털 앱을 다운로드하고 설치할 수 있습니다. 이 앱은 데이터를 안전하게 보호하는 데 도움이 됩니다. <br/> ![Google Play 스토어의 앱 이미지](./media/google-play-get-app-android.png)
 5. 앱 설치를 완료한 후 **동의함**을 선택하여 약관에 동의합니다. 비즈니스용 OneDrive 앱이 자동으로 시작됩니다.
@@ -118,9 +117,9 @@ ms.lasthandoff: 07/01/2017
 ### <a name="why-is-an-app-pin-policy-only-configured-for-android-devices"></a>앱 PIN 정책이 Android 장치에 대해서만 구성되는 이유는 무엇입니까?
 암호화는 iOS와 Android에서 다르게 작동합니다.
 
-iOS에서 Intune MAM 정책과 연결된 앱의 경우 데이터는 운영 체제에서 제공하는 장치 수준 암호화를 통해 암호화된 상태로 보관됩니다. 따라서 앱 암호화 정책을 설정하는 경우 자동으로 사용자에게 작업 데이터에 액세스하려면 장치 PIN을 입력하도록 요구합니다. 장치에서 장치 PIN을 아직 구성하지 않은 사용자에게는 장치 PIN을 만들라는 메시지가 표시됩니다.
+iOS에서 Intune 앱 보호 정책과 연결된 앱의 경우 데이터는 운영 체제에서 제공하는 장치 수준 암호화를 통해 암호화된 상태로 보관됩니다. 따라서 앱 암호화 정책을 설정하는 경우 자동으로 사용자에게 작업 데이터에 액세스하려면 장치 PIN을 입력하도록 요구합니다. 장치에서 장치 PIN을 아직 구성하지 않은 사용자에게는 장치 PIN을 만들라는 메시지가 표시됩니다.
 
-Android에서 Intune MAM 정책과 연결된 앱의 경우 데이터는 파일 I/O 작업 동안 동기적으로 암호화됩니다. 장치 저장소의 콘텐츠는 항상 암호화됩니다. MDM에서 관리되지 않는 장치에서는 MAM 정책을 통해 장치 PIN 요구 사항을 강제할 수 없습니다. 사용자가 일부 PIN을 사용하여 회사 데이터에 액세스할 수 있도록 하기 위해 마법사에서는 앱 PIN 정책을 지원합니다.
+Android에서 Intune 앱 보호 정책과 연결된 앱의 경우 데이터는 파일 I/O 작업 동안 동기적으로 암호화됩니다. 장치 저장소의 콘텐츠는 항상 암호화됩니다. MDM에서 관리되지 않는 장치에서는 앱 보호 정책을 통해 장치 PIN 요구 사항을 강제할 수 없습니다. 사용자가 일부 PIN을 사용하여 회사 데이터에 액세스할 수 있도록 하기 위해 마법사에서는 앱 PIN 정책을 지원합니다.
 
 언제든지 조직의 요구 사항에 맞게 이러한 정책 설정을 편집할 수 있습니다.
 
