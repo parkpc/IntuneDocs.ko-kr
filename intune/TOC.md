@@ -74,6 +74,7 @@
 #### [제한 사항](enrollment-restrictions-set.md)
 #### [Apple MDM 푸시 인증서](apple-mdm-push-certificate-get.md)
 #### [회사 식별자](corporate-identifiers-add.md)
+#### [다단계 인증](multi-factor-authentication.md)
 #### [장치 등록 관리자](device-enrollment-manager-enroll.md)
 #### [그룹에 장치 매핑](device-group-mapping.md)
 ### Windows 등록 설정
@@ -291,7 +292,7 @@
 ## [Intune Graph API를 사용하는 방법](intune-graph-apis.md)
 ## [Intune Graph API](https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview)
 ## [Intune 데이터 웨어하우스 API](reports-nav-intune-date-warehouse.md)
-<!-- ### [Get data from the Data Warehouse API with a REST client](reports-proc-data-rest.md) -->
+### [REST 클라이언트를 사용하여 데이터 웨어하우스 API에서 데이터 가져오기](reports-proc-data-rest.md)
 ### [데이터 웨어하우스 API 끝점](reports-api-url.md)
 ### [데이터 웨어하우스 데이터 모델](reports-ref-data-model.md)
 #### [날짜 엔터티에 대한 참조](reports-ref-date.md)
@@ -300,6 +301,6 @@
 #### [장치 엔터티에 대한 참조](reports-ref-devices.md)
 #### [응용 프로그램 엔터티에 대한 참조](reports-ref-application.md)
 #### [정책 엔터티에 대한 참조](reports-ref-policy.md)
-<!-- #### [Relationship of Entities](reports-api-entity-relationships.md) !-->
+<!-- #### [Relationship of Entities](reports-api-entity-relationships.md) -->
 
 # [용어 설명](intune-glossary.md)
