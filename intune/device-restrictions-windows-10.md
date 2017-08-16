@@ -15,11 +15,11 @@ ms.assetid: 89f2d806-2e97-430c-a9a1-70688269627f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b49c227e3cae6c5dca8655362cfbfa6fd3f94807
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: bd84f24400c5ca0828fb13a36963ffda274ba073
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="windows-10-and-later-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 이상 장치 제한 설정
 
@@ -70,9 +70,9 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 
 -   **바탕 화면 배경 그림 URL(데스크톱 전용)** - Windows 바탕 화면 배경으로 사용할 PNG, JPG 또는 JPEG 형식의 그림에 대한 URL을 지정합니다. 사용자는 이 설정을 변경할 수 없습니다.
 
-## <a name="privacy"></a>개인 정보 취급 방침
+## <a name="privacy"></a>개인 정보 보호
 
--   **입력 개인 설정** – Cortana, 받아쓰기 또는 Windows 스토어 앱에 대한 클라우드 기반 음성 서비스의 사용을 허용하지 않습니다. 이러한 서비스를 허용하면 Microsoft에서 서비스를 향상시키기 위해 음성 데이터를 수집할 수 있습니다.
+-   **입력 개인 설정** – Cortana, 받아쓰기 또는 Microsoft 스토어 앱에 대한 클라우드 기반 음성 서비스의 사용을 허용하지 않습니다. 이러한 서비스를 허용하면 Microsoft에서 서비스를 향상시키기 위해 음성 데이터를 수집할 수 있습니다.
 -   **페어링 및 개인 정보 보호 사용자 동의 프롬프트의 자동 수락** – Windows에서 앱을 실행할 때 페어링 및 개인 정보 보호 동의 메시지를 자동으로 수락하도록 허용합니다.
 
 
@@ -91,12 +91,12 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 ## <a name="app-store"></a>앱 스토어
 
 -   **앱 스토어(모바일 전용)** - Windows 10 Mobile 장치에서 앱 스토어 사용을 허용하거나 차단합니다.
--   **스토어에서 앱 자동 업데이트** - Windows 스토어에서 설치된 앱이 자동으로 업데이트되게 합니다.
+-   **스토어에서 앱 자동 업데이트** - Microsoft 스토어에서 설치된 앱이 자동으로 업데이트되게 합니다.
 -   **신뢰할 수 있는 앱 설치** - 신뢰할 수 있는 인증서로 서명된 앱을 테스트용으로 로드할 수 있습니다.
 -   **개발자의 잠금 해제** - Windows 개발자 설정을 허용합니다(예: 테스트용으로 로드된 앱을 최종 사용자가 수정하도록 허용).
 -   **공유 사용자 앱 데이터** - 동일한 장치에서 앱이 여러 사용자들 간 데이터를 공유할 수 있게 합니다.
 -   **개인 저장소만 사용** - 이 설정을 사용하여 최종 사용자가 개인 저장소에 있는 앱만 다운로드할 수 있게 합니다.
--   **스토어에서 시작된 앱 시작** - 장치에 미리 설치되어 있거나 Windows 스토어에서 다운로드한 앱을 모두 사용하지 않도록 설정하는 데 사용됩니다.
+-   **스토어에서 시작된 앱 시작** - 장치에 미리 설치되어 있거나 Microsoft 스토어에서 다운로드한 앱을 모두 사용하지 않도록 설정하는 데 사용됩니다.
 -   **시스템 볼륨에 앱 데이터 설치** - 앱에서 장치의 시스템 볼륨에 있는 데이터를 저장할 수 없습니다.
 -   **시스템 드라이브에 앱 설치** - 앱에서 장치의 시스템 드라이브에 있는 데이터를 저장할 수 없습니다.
 -   **게임 DVR(데스크톱 전용)** - 게임의 녹화와 방송이 허용되는지 여부를 구성합니다.
