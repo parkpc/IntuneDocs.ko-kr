@@ -291,7 +291,7 @@
 ### [Intune 앱 SDK Xamarin 구성 요소](app-sdk-xamarin.md)
 ## [Intune Graph API를 사용하는 방법](intune-graph-apis.md)
 ## [Intune Graph API](https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview)
-## [Intune 데이터 웨어하우스 API](reports-nav-intune-date-warehouse.md)
+## [Intune 데이터 웨어하우스 API](reports-nav-intune-data-warehouse.md)
 ### [REST 클라이언트를 사용하여 데이터 웨어하우스 API에서 데이터 가져오기](reports-proc-data-rest.md)
 ### [데이터 웨어하우스 API 끝점](reports-api-url.md)
 ### [데이터 웨어하우스 데이터 모델](reports-ref-data-model.md)
