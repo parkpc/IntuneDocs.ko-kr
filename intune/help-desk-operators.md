@@ -14,13 +14,13 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
-ms.openlocfilehash: 7aad054f0861522174faa01b979083a818c106af
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 066f8668ea37e928455792f512e4e337a1f19c20
+ms.sourcegitcommit: 2ed8d1c39d4b3e3282111f1d758afb3a50f19f8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/10/2017
 ---
-# <a name="help-users-with-the-troubleshooting-portal-in-microsoft-intune"></a>Microsoft Intune의 문제 해결 포털을 통해 사용자 지원
+# <a name="use-the-troubleshooting-portal-to-help-users"></a>문제 해결 포털을 사용하여 사용자 지원
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -35,22 +35,21 @@ ms.lasthandoff: 08/03/2017
 -   장치가 Wi-Fi 또는 VPN 설정을 가져오지 않음
 -   앱 설치 실패
 
-
 ## <a name="add-help-desk-operators"></a>지원 센터 운영자 추가
 Intune 관리자의 경우 사용자 그룹에 지원 센터 운영자 역할을 할당할 수 있습니다. 해당 그룹의 구성원은 관리 포털을 사용하여 사용자의 문제점을 해결할 수 있습니다. 각 지원 센터 운영자가 Intune 포털에 액세스하려면 Intune 라이선스가 있어야 합니다. [Intune 라이선스를 할당](licenses-assign.md)하는 방법을 알아봅니다.
 
 지원 센터 사용자를 추가하려면 다음을 수행하세요.
-1. 필요한 경우 [Intune에 사용자 추가](users-add.md)
-2. [지원 센터 그룹 만들기](groups-add.md) 및 그룹에 사용자 추가
-3. 다음 권한이 있는 [RBAC 지원 센터 운영자 역할 할당](role-based-access-control.md#built-in-roles) 또는 [사용자 지정 역할 만들기](role-based-access-control.md#custom-roles):
-  - MobileApps: 읽기
-  - ManagedApps: 읽기
-  - ManagedDevices: 읽기
-  - Organization: 읽기
-  - DeviceCompliancePolices: 읽기
-  - DeviceConfigurations: 읽기
+1. 필요한 경우 [Intune에 사용자를 추가](users-add.md)하세요.
+2. [지원 센터 그룹을 만들고](groups-add.md) 사용자를 그룹에 추가하세요.
+3. [RBAC 지원 센터 운영자 역할 할당](role-based-access-control.md#built-in-roles)
 
-  ![Intune 역할이 강조 표시되고 지원 센터 운영자를 비롯한 기본 제공 역할 목록을 표시하는 Intune 포털 스크린샷](./media/help-desk-user-add.png)
+  ![Intune 역할이 강조 표시되어 있고 지원 센터 운영자를 포함한 기본 역할 목록이 보이는 Intune 포털 스크린샷](./media/help-desk-user-add.png) 또한 [사용자 지정 역할을 생성하여](role-based-access-control.md#custom-roles) 지원 센터 운영자 액세스를 수정할 수도 있습니다.  지원 센터 운영자는 사용자 문제 해결을 위해 다음 권한이 필요합니다.
+    - MobileApps: 읽기
+    - ManagedApps: 읽기
+    - ManagedDevices: 읽기
+    - Organization: 읽기
+    - DeviceCompliancePolices: 읽기
+    - DeviceConfigurations: 읽기
 
 4. 지원 센터 운영자에게 Intune의 서비스 상태를 보고 지원 티켓을 여는 권한을 제공하려면, **서비스 관리자**로서 [사용자에게 관리자 권한 부여](https://docs.microsoft.com/azure/active-directory/active-directory-users-assign-role-azure-portal)를 수행합니다. 이 디렉터리 역할에는 지원 센터 운영자에 필요한 권한보다 많은 권한이 있으므로 **Intune 서비스 관리자** 권한을 부여하지 마세요.
 

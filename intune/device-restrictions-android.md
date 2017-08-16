@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 08/01/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,20 @@ ms.assetid: 6bdf714a-5d93-485c-8b52-513635c60cb6
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b9e009e94fb4d9bdb99960e0d238d5471d1f4b50
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 09641b5e34ab8200e7dd9d4c27f0dabf59fa62d2
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="android-and-samsung-knox-standard-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Android 및 Samsung KNOX Standard 장치 제한 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Android 장치 제한 정책과 함께 다음 설정을 사용하여 조직에서 장치를 구성합니다.
+
+>[!TIP]
+>원하는 설정을 사용할 수 없는 경우 [사용자 지정 프로필](custom-settings-android.md)을 사용하여 장치를 구성할 수 있습니다. 
 
 ## <a name="general"></a>일반
 
@@ -132,3 +135,8 @@ Kiosk 설정은 Samsung KNOX Standard 장치에만 적용됩니다.
     - **관리되는 앱 추가**.
 - **화면 절전 모드 단추** - 장치에서 화면 절전 모드 해제 단추를 사용하거나 사용하지 않도록 설정합니다.
 - **볼륨 단추** - 장치에서 볼륨 단추를 사용하거나 사용하지 않도록 설정합니다.
+
+
+## <a name="next-steps"></a>다음 단계
+
+계속해서 [장치 제한 설정 구성 방법](device-restrictions-configure.md)의 지침을 활용하여 장치 제한 프로필을 만들고 할당하세요.

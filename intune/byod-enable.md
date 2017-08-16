@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.openlocfilehash: 8684ea31420edd836038dc9337bd8bdf56e78ba6
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 0d05918a62549559a186376d99e28c952af16b9c
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="enable-byod-with-intune"></a>Intune으로 BYOD를 사용하도록 설정
 
@@ -75,14 +75,14 @@ Intune을 사용하면 다음 작업을 쉽게 수행할 수 있습니다.
 * [관리되는 장치에 스토어 앱 제공](apps-deploy.md)
 * 회사 포털 웹 사이트를 사용하여 관리되지 않는 장치에 앱 제공
 
-Intune을 사용하여 iOS 앱 스토어 및 비즈니스용 Windows 스토어에서 대량으로 구매한 앱도 관리하고 배포할 수 있습니다. 이 덕분에 대량으로 구입한 앱을 추적하는 관리 오버헤드를 줄일 수 있습니다.
+Intune을 사용하여 iOS 앱 스토어 및 비즈니스용 Microsoft 스토어에서 대량으로 구매한 앱도 관리하고 배포할 수 있습니다. 이 덕분에 대량으로 구입한 앱을 추적하는 관리 오버헤드를 줄일 수 있습니다.
 
 > [!TIP]
 > [Azure AD Connect를 통해 SSO(Single Sign On)를 구성](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)할 수 있습니다. SSO를 사용하면 사용자가 온-프레미스에서 사용하는 도메인 사용자 이름과 암호로 앱에 로그인할 수 있습니다. 또한 Azure Active Directory 응용 프로그램 프록시를 사용하여 [온-프레미스에 호스트된 웹앱에 대한 인터넷 기반 액세스를 제공](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started)할 수 있습니다.
 
 -   [iOS 장치용 대량 구매 앱 관리](vpp-apps-ios.md). [Apple 비즈니스용 VPP(Volume Purchase Program)](http://www.apple.com/business/vpp/)를 통해 iOS 앱의 라이선스를 여러 개 구매합니다. Apple 웹 사이트에서 Apple VPP 계정을 설정하고 Apple VPP 토큰을 Intune에 업로드해야 합니다. 그런 다음 대량 구매 정보를 Intune과 동기화하고 대량 구매 앱 사용을 추적할 수 있습니다.
 
--   [비즈니스용 Windows 스토어에서 구매한 앱 관리](windows-store-for-business.md). [비즈니스용 Windows 스토어](https://www.microsoft.com/business-store)는 개별적으로 또는 대량으로 조직에 대한 앱을 찾고 구입할 수 있는 위치를 제공합니다. 스토어를 Intune에 연결하여 Intune 포털에서 대용량 구입 앱을 관리할 수 있습니다.
+-   [비즈니스용 Microsoft 스토어에서 구매한 앱 관리](windows-store-for-business.md). [비즈니스용 Microsoft 스토어](https://www.microsoft.com/business-store)는 개별적으로 또는 대량으로 조직에 대한 앱을 찾고 구입할 수 있는 위치를 제공합니다. 스토어를 Intune에 연결하여 Intune 포털에서 대용량 구입 앱을 관리할 수 있습니다.
 
 ## <a name="protect-company-data"></a>회사 데이터 보호
 
@@ -105,10 +105,10 @@ Intune 응용 프로그램 보호 정책을 사용하면 장치 등록 여부와
 
 관리되는 Windows 10 장치의 경우 [WIP(Windows Information Protection) 정책](app-protection-policies-configure-windows-10.md)을 사용하여 동일한 기능을 수행할 수 있습니다. 이러한 정책은 직원 환경을 방해하지 않으면서 작동합니다. 네트워크 환경 또는 다른 앱을 변경할 필요가 없습니다.
 
-### <a name="wipe-company-data-while-leaving-personal-data-intact"></a>개인 데이터를 그대로 두고 회사 데이터 초기화
+### <a name="remove-company-data-while-leaving-personal-data-intact"></a>개인 데이터를 그대로 두고 회사 데이터 초기화
 
-장치가 더 이상 작업에 필요하지 않거나, 용도 변경 중이거나, 유실된 경우 장치에서 회사 앱과 데이터를 제거할 수 있어야 합니다. 이를 위해, Intune의 선택적 초기화 및 전체 초기화 기능을 사용할 수 있습니다. 사용자의 개인 소유 장치가 Intune에 등록된 경우 사용자가 원격으로 Intune 회사 포털에서 해당 장치를 초기화할 수도 있습니다.
+장치가 더 이상 작업에 필요하지 않거나, 용도 변경 중이거나, 유실된 경우 장치에서 회사 앱과 데이터를 제거할 수 있어야 합니다. 이를 위해 Intune의 회사 데이터 제거 및 출하 시 설정으로 초기화 기능을 사용할 수 있습니다. 사용자의 개인 소유 장치가 Intune에 등록된 경우 사용자가 원격으로 Intune 회사 포털에서 해당 장치를 초기화할 수도 있습니다.
 
-[전체 초기화](devices-wipe.md)는 장치가 출하 시 기본 설정으로 복원되고 사용자 데이터와 설정이 제거됩니다. [선택적 초기화](devices-wipe.md#selective-wipe)는 장치에서 회사 데이터는 제거하지만 사용자의 개인 데이터는 그대로 둡니다.
+[출하 시 설정으로 초기화](devices-wipe.md)는 장치가 출하 시 기본 설정으로 복원되고 사용자 데이터와 설정이 제거되며 Intune 관리에서 장치가 제거됩니다. [회사 데이터 삭제](devices-wipe.md#remove-company-data)는 장치에서 회사 데이터는 제거하지만 사용자의 개인 데이터는 그대로 둡니다.
 
-초기화되면 장치가 즉시 선택적 초기화 프로세스를 시작하여 관리 기능에서 제거됩니다. 프로세스가 완료되면 모든 회사 데이터가 삭제되고 장치 이름이 Intune 포털에서 제거됩니다. 장치 관리 수명 주기가 종료됩니다.
+선택하면 즉시 장치의 재설정 프로세스가 시작됩니다. 프로세스가 완료되면 모든 회사 데이터가 삭제되고 장치 이름이 Intune에서 제거됩니다. 장치 관리 수명 주기가 종료됩니다.
