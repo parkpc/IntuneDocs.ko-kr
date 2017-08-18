@@ -14,11 +14,11 @@ ms.assetid: 068a73bb-e6b3-44a6-8f6e-4cf7d455bbf3
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 37c4c3a1b51479b1a6450cc66ab502d579804015
-ms.sourcegitcommit: f100c943a635f5a08254ba7cf30f1aaebb7e810e
+ms.openlocfilehash: a09235d53b9340d853dba95299fc5788494ed165
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="compare-managing-windows-pcs-as-computers-or-mobile-devices"></a>Windows PC를 컴퓨터로 관리하는 방식과 모바일 장치로 관리하는 방식 비교
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 07/13/2017
 |**장치 프로필**|사용할 수 없음|사용 가능 <br>[Microsoft Intune 장치 프로필이란?](https://docs.microsoft.com/intune-azure/configure-devices/what-are-device-profiles)|
 |**에이전트 없는 등록**|사용할 수 없음 |사용 가능<br>[Windows 장치 등록](https://docs.microsoft.com/intune-azure/enroll-devices/enroll-windows-devices)|
 |**소프트웨어 업데이트 관리**| Windows Update 및 Microsoft 앱 업데이트<br>[소프트웨어 업데이트를 사용하여 Windows PC를 최신 상태로 유지](https://docs.microsoft.com/intune/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune)|Windows 10 및 Microsoft 앱 업데이트가 모두 가능한 비즈니스용 Microsoft 스토어<br> [비즈니스용 Windows 업데이트 설정 구성](https://docs.microsoft.com/intune-azure/configure-devices/how-to-configure-windows-update-for-business) |
-|**소프트웨어 라이선스 관리**|사용 가능 <br>[Windows PC 소프트웨어의 사용권 계약 관리](https://docs.microsoft.com/intune/deploy-use/manage-license-agreements-for-windows-pc-software-in-microsoft-intune)|비즈니스용 Microsoft 스토어(.appx 앱에만 해당)<br>[비즈니스용 Windows 스토어에서 구매한 앱 관리](https://docs.microsoft.com/intune-azure/manage-apps/wsfb-apps)|
+|**소프트웨어 라이선스 관리**|사용 가능 <br>[Windows PC 소프트웨어의 사용권 계약 관리](https://docs.microsoft.com/intune/deploy-use/manage-license-agreements-for-windows-pc-software-in-microsoft-intune)|비즈니스용 Microsoft 스토어(.appx 앱에만 해당)<br>[비즈니스용 Microsoft 스토어에서 구매한 앱 관리](https://docs.microsoft.com/intune-azure/manage-apps/wsfb-apps)|
 |**인벤토리**|사용 가능 <br>[Windows PC에 대한 하드웨어 및 소프트웨어 인벤토리 보기](https://docs.microsoft.com/intune/deploy-use/view-hardware-and-software-inventory-for-windows-pcs-in-microsoft-intune)|사용 가능 <br>[앱 정보를 모니터링하는 방법](https://docs.microsoft.com/intune/apps-monitor)<br>[장치 관리란?](https://docs.microsoft.com/intune/device-management)|
 |**Windows 방화벽 정책**|사용 가능 <br>[Windows 방화벽 정책을 사용하여 Windows PC 보호](https://docs.microsoft.com/intune/deploy-use/help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune) |사용할 수 없음|
 |**맬웨어 방지 보호**|Endpoint Protection<br>[Endpoint Protection을 사용한 Windows PC의 보안 유지 방법](https://docs.microsoft.com/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)|Windows Defender<br>[Windows Defender 설정](https://docs.microsoft.com/intune-azure/configure-devices/custom-for-windows-10#windows-defender-settings)|

@@ -14,17 +14,17 @@ ms.assetid: 5E5A35D3-88F8-441B-8A0B-C5D7A1E5137B
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a9d99b71b9f84eea45ae597ed0f69010f6e95805
-ms.sourcegitcommit: addf6a40caa22c22adfd2e2eff7d666cd1877e3c
+ms.openlocfilehash: b70bf3410e20dd792c0fcff050292ddea714d63e
+ms.sourcegitcommit: 99ffed621855357de427d6fdf7b70d4e543197e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 08/07/2017
 ---
 # <a name="connect-to-the-data-warehouse-with-power-bi"></a>Power BI를 통해 데이터 웨어하우스에 연결
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Intune 테넌트에 대해 동적으로 생성된 보고서인 인터랙티브 다운로드를 위해 Microsoft Power BI용 파일을 다운로드할 수 있습니다. 데이터 웨어하우스 Power BI 파일(pbix)은 테넌트에 대한 연결 설정과 다음 샘플 보고서 및 차트를 포함합니다. 
+Intune 테넌트에 대해 동적으로 생성된 보고서인 인터랙티브 다운로드를 위해 Microsoft Power BI용 파일을 다운로드할 수 있습니다. 데이터 웨어하우스 Power BI 파일(pbix)은 테넌트에 대한 연결 설정과 다음 샘플 보고서 및 차트를 포함합니다.  
 
   -  장치
   -  등록
@@ -46,8 +46,11 @@ Power BI Desktop의 최신 버전을 설치합니다. Power BI Desktop 다운로
 
 Power BI 파일(pbix)은 테넌트에 대한 연결 정보와 데이터 웨어하우스 데이터 모델 기반의 미리 작성된 보고서 세트를 포함합니다. Power BI Desktop에서 파일을 열고 Azure AD에 로그인합니다. 보고서는 Intune 테넌트에서 데이터를 로드합니다.
 
+> [!Important]  
+> 각 Power BI 파일(pbix)은 테넌트 위치에 따라 다릅니다. 여러 Intune 테넌트를 관리하는 경우 해당 테넌트에 로그인한 동안 Azure 포털에서 다운로드한 파일을 사용하세요.  
+
 1.  Azure 포털에 로그인하고 **모니터링 + 관리** > **Intune**을 선택합니다. **Intune**에 대한 리소스를 검색할 수도 있습니다.  
-2.  **Microsoft Intune 데이터 웨어하우스 API(미리 보기)** 블레이드를 엽니다.
+2.  **Microsoft Intune Data Warehouse API(미리 보기)** 블레이드를 엽니다.
 3.  **PowerBI 파일 다운로드**를 클릭합니다. (pbix) 확장명을 가진 파일이 지정한 위치로 다운로드됩니다.
 4.  Power BI로 파일을 엽니다. *Intune 데이터 웨어하우스 보고서*가 로드되지만 테넌트 데이터를 가져오려면 약간의 시간이 걸릴 수 있습니다.
 5.  **새로 고침**을 클릭하여 테넌트 데이터를 로드하고 보고서를 검토합니다.

@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 307999a7bb18a7b33d111bec212922558a5e10bf
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: c7c03148d4063d0752a7c615222047bc6f02f58e
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="enroll-your-windows-phone-81-device-in-intune"></a>Intune에서 Windows Phone 8.1 장치 등록
 
@@ -29,11 +29,11 @@ ms.lasthandoff: 07/01/2017
 
 Intune에 Phone 8.1 장치를 등록하려면 회사에 적용되는 지침을 따릅니다.
 
--   [회사에서 Windows 스토어의 회사 포털 사용을 허용하는 경우](#if-your-company-lets-you-use-the-company-portal-from-the-windows-store)
+-   [회사에서 Microsoft 스토어의 회사 포털 사용을 허용하는 경우](#if-your-company-lets-you-use-the-company-portal-from-the-windows-store)
 
--   [Windows Phone에서 Windows 스토어에 액세스할 수 없거나 Microsoft 계정이 없는 경우](#if-you-are-not-allowed-to-access-the-windows-store-from-your-windows-phone-or-if-you-do-not-have-a-microsoft-account)
+-   [Windows Phone에서 Microsoft 스토어에 액세스할 수 없거나 Microsoft 계정이 없는 경우](#if-you-are-not-allowed-to-access-the-windows-store-from-your-windows-phone-or-if-you-do-not-have-a-microsoft-account)
 
-## <a name="if-your-company-lets-you-use-the-company-portal-from-the-windows-store"></a>회사에서 Windows 스토어의 회사 포털 사용을 허용하는 경우
+## <a name="if-your-company-lets-you-use-the-company-portal-from-the-microsoft-store"></a>회사에서 Microsoft 스토어의 회사 포털 사용을 허용하는 경우
 장치에 회사 포털 앱을 설치합니다.
 
 1.  **시작** &gt; **스토어**를 탭합니다.
@@ -72,7 +72,7 @@ Intune에 Phone 8.1 장치를 등록하려면 회사에 적용되는 지침을 �
 
     ![계정이 추가된 화면](./media/WP81-enroll-4-account-added.png)
 
-## <a name="if-you-are-not-allowed-to-access-the-windows-store-from-your-windows-phone-or-if-you-do-not-have-a-microsoft-account"></a>Windows Phone에서 Windows 스토어에 액세스할 수 없거나 Microsoft 계정이 없는 경우
+## <a name="if-you-are-not-allowed-to-access-the-microsoft-store-from-your-windows-phone-or-if-you-do-not-have-a-microsoft-account"></a>Windows Phone에서 Microsoft 스토어에 액세스할 수 없거나 Microsoft 계정이 없는 경우
 
 1.  **설정** &gt; **회사**를 탭합니다.
 

@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 05/24/2017
+ms.date: 08/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,15 @@ ms.assetid: 72cdd888-efca-46e6-b2e7-fb9696bb2fba
 ms.reviewer: davidra
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 15a005ae2b84c7bd4f913f892089965c10f3b23e
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: bf25ec3fbdec76fb1defb5e4cb12be6dcdf03b0d
+ms.sourcegitcommit: ee7f69efe9f32a1d6bdeb1fab73d03dbfe1ae58c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/09/2017
 ---
 # <a name="provide-remote-assistance-for-intune-managed-android-devices"></a>Intune으로 관리하는 Android 장치에 대해 원격 지원 제공
 
-Intune에서는 [TeamViewer](https://www.teamviewer.com) 소프트웨어(별매)를 사용하여 Android 장치를 실행하는 사용자에게 원격 지원을 제공할 수 있도록 지원합니다. 이 항목의 정보를 참조하여 해당 기능을 설정하고 사용을 시작할 수 있습니다.
+Intune에서는 [TeamViewer](https://www.teamviewer.com) 소프트웨어(별매)를 사용하여 Android 장치 사용자에게 원격 지원을 제공할 수 있습니다. 이 항목의 정보를 사용하여 시작합니다.
 
 ## <a name="before-you-start"></a>시작하기 전에
 
@@ -31,7 +31,7 @@ Intune에서는 [TeamViewer](https://www.teamviewer.com) 소프트웨어(별매)
 
 Azure 포털의 사용자에게 다음 권한이 [Intune 역할](https://docs.microsoft.com/intune-azure/access-control/role-based-access-control)로 할당되어 있는지 확인합니다.
 - 관리자가 TeamViewer 커넥터 설정을 수정할 수 있도록 하려면 **원격 지원 업데이트** 권한을 부여합니다.
-- 관리자가 새 원격 지원 설정을 시작할 수 있도록 하려면 **원격 지원 요청** 권한을 부여합니다. 이 권한이 있는 사용자는 Intune 역할 할당 범위에 국한되지 않고 모든 사용자에 대해 세션을 시작하도록 요청할 수 있습니다. Intune 역할 할당 범위에서는 원격 지원 요청을 시작할 수 있는 장치나 사용자를 제한하지 않습니다.
+- 관리자가 새 원격 지원 요청을 시작할 수 있도록 하려면 **원격 지원 요청** 권한을 부여합니다. **원격 지원 요청** 권한이 있는 사용자가 모든 사용자의 세션을 시작하도록 요청할 수 있습니다. 임의 Intune 역할 할당 범위에 따라 제한되지 않습니다. Intune 역할 할당 범위에서는 원격 지원 요청을 시작할 수 있는 장치나 사용자를 제한하지 않습니다.
 
 >[!NOTE]
 >TeamViewer를 사용도록 설정하면 Intune Connector용 TeamViewer가 TeamViewer 세션을 만들고, Active Directory 데이터를 읽고, TeamViewer 계정 액세스 토큰을 저장할 수 있습니다.
@@ -63,7 +63,7 @@ Android 장치에 대한 원격 지원을 제공하려면 다음 단계에 따�
 
 TeamViewer 창에서는 장치 원격 제어를 비롯하여 Android 장치에 대해 폭넓은 원격 작업을 수행할 수 있습니다. 수행할 수 있는 동작에 대한 전체 세부 정보는 [TeamViewer 설명서](https://www.teamviewer.com/support/documents/)를 참조하세요.
 
-작업이 끝나면 TeamViewer 창을 닫습니다.
+작업이 완료되면 TeamViewer 창을 닫습니다.
 
 ## <a name="end-user-notifications"></a>최종 사용자 알림
 
