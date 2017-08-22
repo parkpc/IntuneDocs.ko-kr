@@ -14,11 +14,11 @@ ms.assetid: 57019B11-DF9B-4D8A-95FE-254C75398DDE
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: db6661dd92b890d711f655a60eb883b417a30d8a
-ms.sourcegitcommit: addf6a40caa22c22adfd2e2eff7d666cd1877e3c
+ms.openlocfilehash: cb311429e0537709b3476154bdef24347cb99026
+ms.sourcegitcommit: 294de4d4058de2c625abb8143e90880d27da9284
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="use-the-intune-data-warehouse"></a>Intune 데이터 웨어하우스 사용
 
@@ -41,4 +41,4 @@ Intune 데이터 웨어하우스를 사용하여 기업 모바일 환경에 대�
 **다음 단계**
 
 - 링크를 받고 Power BI를 사용하여 정보를 파악합니다. 자세한 내용은 [Power BI를 통해 Intune 데이터 웨어하우스에 연결](reports-proc-get-a-link-powerbi.md)을 참조하세요.
-- Intune 데이터 웨어하우스 API, 데이터 모델, 엔터티 간 관계에 대해 자세히 알아보려면<!-- , and an example of creating a custom client to retrieve data,--> [Intune 데이터 웨어하우스 API](reports-nav-intune-date-warehouse.md)를 참조하세요.
+- Intune 데이터 웨어하우스 API, 데이터 모델, 엔터티 간 관계에 대해 자세히 알아보려면<!-- , and an example of creating a custom client to retrieve data,--> [Intune 데이터 웨어하우스 API](reports-nav-intune-data-warehouse.md)를 참조하세요.

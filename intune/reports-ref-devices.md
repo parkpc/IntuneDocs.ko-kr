@@ -14,11 +14,11 @@ ms.assetid: 6955E12D-70D7-4802-AE3B-8B276F01FA4F
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8013d7f091c154709f0dd98dcda2e7f5f09056d2
-ms.sourcegitcommit: addf6a40caa22c22adfd2e2eff7d666cd1877e3c
+ms.openlocfilehash: 2dad8cf3e9a38625b4657e284f8d8bb53ba289c0
+ms.sourcegitcommit: c8fb42fcb8735af432c7e07c380d956171012bd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 08/14/2017
 ---
 # <a name="reference-for-devices-entities"></a>장치 엔터티에 대한 참조
 
@@ -261,96 +261,41 @@ ms.lasthandoff: 08/04/2017
 |---------|------------|
 | DateKey |날짜를 가리키는 날짜 테이블을 참조 |
 | DeviceKey |데이터 웨어하우스에서 장치의 고유 식별자 - 대리 키 Intune 장치 ID를 포함하는 장치 테이블에 대한 참조입니다. |
-| DeviceModel |장치의 모델 |
-| OS |장치의 OS |
 | DeviceName |장치 이름 지정을 허용하는 플랫폼에서 장치의 이름입니다. 다른 플랫폼에서 Intune은 다른 속성으로부터 이름을 만듭니다. 이 특성은 모든 장치에 대해 사용할 수 없습니다. |
-| SoftwareVersion |대부분의 경우 OS 버전이지만 Apple 플랫폼의 경우 예외적으로 OS 버전과 다릅니다. |
-| Imei |IMEI 번호 |
-| HardwareInventoryTimeUtc |이 장치에 대해 처음 인벤토리가 보고된 시간입니다. |
-| InventoryModifiedTimeUtc |이 스냅숏을 촬영했을 때 마지막으로 인벤토리가 저장된 시간 |
-| InventoryReportingTimeUtc |이 장치에 대해 마지막 시간 인벤토리가 수집된 시간입니다. |
-| ExchangeActiveSyncId |Exchange ActiveSync 장치 ID |
-| ComputerSystemDescription |시스템 설명 |
-| ComputerSystemName |시스템 이름 |
-| ComputerSystemManufacturer |시스템 제조업체 |
-| ComputerSystemModel |시스템 모델 |
-| UserName |사용자 이름 |
-| OSType |OS 유형 |
-| OSCaption |OS 캡션 |
-| OSName |OS 이름 |
-| OSManufacturer |OS 제조업체 |
-| OSProductSuite |OS 제품군 |
-| OSProductType |OS 제품 유형 |
-| 로캘 |OS 로캘 |
-| PhysicalMemoryCapacity |물리적 메모리 용량(바이트) |
-| PhysicalMemoryRemovable |물리적 이동식 메모리(바이트) |
-| SystemEnclosureChassisTypesInnerText |이 장치에 대한 시스템 섀시 종류를 정의합니다. 숫자는 다음 값을 나타냅니다. 0 또는 비어 있음 = 알 수 없음    1 = 데스크톱   2 = 노트북  3 = 워크스테이션  4 = 엔터프라이즈 서버  100 = 전화기  101 = 태블릿  102/103 = 다른 알 수 없는 유형의 모바일 장치 |
-| SystemEnclosureModel |시스템 엔클로저 모델 |
-| SystemEnclosureSerialNumber |시스템 엔클로저 일련 번호 |
-| NetworkAdapterConfigurationText |네트워크 어댑터에서의 구성 텍스트 |
-| MacAddress |MAC 주소 |
-| SmsID |Intune 장치 ID |
-| CertExpiry |MDM 관리 인증서의 만료 날짜 |
-| DeviceClientAgentVersion |클라이언트 에이전트 버전 |
-| DeviceClientID |장치 클라이언트 ID |
-| SerialNumber |일련 번호 |
-| DeviceManufacturer |장치 제조업체 |
-| DMVersion |DM 버전 |
-| 펌웨어 버전 |펌웨어 버전 |
-| HardwareVersion |하드웨어 버전 |
-| PlatformType |플랫폼 유형 |
-| ProcessorLevel |프로세서 수준 |
-| ProcessorRevision |프로세서 수정 버전 |
-| 제품 |제품 |
-| ProductVersion |제품 버전 |
-| OEM |Original Equipment Manufacturer |
-| DeviceBuildVersion |장치 빌드 버전 |
-| Meid |Mobile Equipment Identifier |
-| PhoneNumber |전화 번호 |
-| SubscriberCarrierNetwork |통신사 네트워크 이름 |
-| CellularTechnology |통신사 네트워크 종류(CDMA/GSM) |
-| Imsi |IMSI 번호 |
-| 탈옥 |탈옥 또는 루팅 장치의 경우 true입니다. |
-| IsActivationLockEnabled |True이면 활성화 잠금 사용 |
-| DeviceType |장치 유형 |
-| IsSupervised |감독됨 |
-| DeviceDisplayNumberOfColors |장치 디스플레이의 색 수 |
-| HorizontalResolution |장치 가로 화면 해상도 |
-| VerticalResolution |장치 세로 화면 해상도 |
-| StorageFree |사용 가능한 저장소 공간(바이트) |
-| StorageTotal |총 저장소 공간(바이트) |
-| ProgramFree |사용 가능한 프로그램 메모리(바이트) |
-| ProgramTotal |전체 프로그램 메모리(바이트) |
-| RemovableStorageFree |사용 가능한 이동식 저장소(바이트) |
-| RemovableStorageTotal |총 이동식 저장소(바이트) |
-| DeviceMemoryDeviceCapacity |장치 메모리 용량 |
-| DeviceMemoryAvailableDeviceCapacity |사용 가능한 장치 메모리 용량 |
-| DeviceOSVersion |OS 버전 |
-| DeviceOSPlatform |OS 플랫폼 |
-| DeviceOSLanguage |OS 언어 |
-| PasswordMaxAttemptsBeforeWipe |장치 초기화에 앞서 허용되는 최대 암호 입력 시도 횟수 |
-| PasswordMinComplexChars |암호에 필요한 최소 복합 문자 수 |
-| PasswordMinLength |필요한 최소 암호 길이 |
-| PasswordHistory |암호 - 사용할 수 없는 최소 과거 암호 |
-| PasswordEnabled |암호 - 사용할 수 있나요? |
-| PasswordExpiration |암호 - 만료 날짜 |
-| AllowRecoveryPassword |암호 복구 허용 |
-| PasswordAutoLockTimeout |암호 - 자동 잠금 시간 초과 |
-| PasswordType |암호 유형 |
-| BacklightACTimeout |전원 연결 시 백라이트 시간 초과 |
-| BacklightBatTimeout |배터리 사용 시 백라이트 시간 초과 |
-| PowerBackupPercent |전원 백업 % |
-| BatteryPercent |남은 배터리 백분율입니다. |
-| PlatformID |플랫폼 ID |
-| ExchangeDeviceID |Exchange 장치 ID |
-| SmsProcessorDescription |프로세서 설명 |
-| OwnerEmailAddress |소유자의 메일 주소 |
-| DeviceOSName |OS 이름 |
-| WifiMac |WIFI Mac 주소 |
-| EthernetMac |Ethernet MAC 주소 |
-| RequireEncryption |장치의 암호화 여부를 나타냅니다. |
-| ActivationLockBypassCode |활성화 잠금 무시 코드 |
-
+| DeviceTypeKey |이 장치에 대한 장치 유형 특성의 키 |
+| ClientRegisterationStateKey |이 장치에 대한 클라이언트 등록 상태 특성의 키 |
+| OwnerTypeKey |이 장치에 대한 소유자 유형 특성의 키: 회사, 개인 또는 알 수 없음. |
+| objectSourceKey |이 열을 무시합니다. |
+| CreatedDate |장치가 등록된 날짜 |
+| LastContact |Intune에서 마지막으로 알려진 장치 체크인 |
+| LastContactNotification |Intune에서 장치에 체크인을 마지막으로 알린 시간 |
+| LastContactWorkplaceJoin |이 장치에 대한 마지막으로 알려진 작업 공간 참여 상태를 나타내는 타임스탬프입니다. |
+| ManagementAgentKey |이 장치와 연결된 관리 에이전트의 키입니다. |
+| ManagementStateKey |이 장치와 연결된 관리 상태의 키로 원격 작업의 마지막 상태를 나타내거나 탈옥/루팅 여부를 나타냅니다. |
+| 참조 |Azure Active Directory에서 장치 ID |
+| WorkPlaceJoinStateKey |이 장치와 연결된 작업 공간 참여 상태의 키입니다. |
+| CategoryId |이 열을 무시합니다. |
+| EnrollmentTypeKey |이 장치와 연결된 등록 유형 키로 등록 메서드를 나타냅니다. |
+| CertExpirationDate |MDM 관리 인증서의 만료 날짜입니다. |
+| MdmStatusKey |MdmStatus에 대한 키 |
+| OSFamily |OS 제품군(Windows, iOS, Android 등) |
+| OSVersion |OS 버전 |
+| OSMajorVersion |OS 버전의 주 버전 구성 요소(major.minor.build.revision) |
+| OSMinorVersion |OS 버전의 부 버전 구성 요소(major.minor.build.revision) |
+| OSBuildNumber |OS 버전의 빌드 버전 구성 요소(major.minor.build.revision) |
+| OSRevisionNumber |OS 버전의 수정 버전 구성 요소(major.minor.build.revision) |
+| EasID |Exchange Active Sync에서 관리하는 장치의 경우 이 장치의 EAS ID입니다. |
+| GraphDeviceIsManaged |Intune이 AAD에서 마지막으로 설정한 관리 상태 |
+| GraphDeviceIsCompliant |Intune이 AAD에서 마지막으로 설정한 규정 준수 상태 |
+| SerialNumber |장치의 일련 번호(사용 가능한 경우) |
+| EnrolledByUser |사용자 테이블의 사용자 ID 열을 참조하는 이 장치를 등록한 사용자의 ID입니다. |
+| RowLastModifiedDateTimeUTC |이 레코드를 마지막으로 수정한 시간입니다. |
+| ProcessorArchitecture |프로세서 아키텍처 |
+| DeviceAction |마지막으로 실행된 장치 작업. 지금은 무시합니다. |
+| 제조업체 |장치 제조업체 |
+| 모델 |장치의 모델 |
+| LastPolicyUpdateUtc |정책이 장치에서 업데이트된 마지막 시간 |
+| LastExchangeStatusUtc |장치를 exchange와 마지막으로 동기화한 시간입니다. |
 ## <a name="mdmdeviceinventoryhistories"></a>MdmDeviceInventoryHistories
 
 **MdmDeviceInventoryHistories** 엔터티 지난 90일 동안 MDM 관리 장치에 대한 인벤토리 데이터의 일일 스냅숏을 포함합니다. DateKey 열은 행에 대한 날짜를 나타냅니다. 일부 속성은 모든 장치에 대해 적용되지 않거나 입력되지 않을 수 있으므로 이 페이지에서 자세한 내용을 참조하세요. 자세한 내용은 [Microsoft Intune에서 인벤토리를 사용하는 장치 이해](https://docs.microsoft.com/Intune-classic/deploy-use/understand-your-devices-with-inventory-in-microsoft-Intune)를 참조하세요.
