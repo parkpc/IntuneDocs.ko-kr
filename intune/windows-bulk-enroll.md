@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: damionw
 ms.custom: intune-azure
-ms.openlocfilehash: 4e9dae27b981533dfff2080a5b7f9ca961509cd8
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 67af5f6545a0ef4a833c6f709fc4685de7f64113
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Windows 장치에 대한 대량 등록
 
@@ -37,7 +37,7 @@ Windows 장치에 대한 대량 등록 작업에는 다음이 필요합니다.
 
 ## <a name="create-a-provisioning-package"></a>프로비전 패키지 만들기
 
-1. Windows 스토어에서 [WCD(Windows 구성 디자이너)](https://www.microsoft.com/store/apps/9nblggh4tx22)를 다운로드합니다.
+1. Microsoft 스토어에서 [WCD(Windows 구성 디자이너)](https://www.microsoft.com/store/apps/9nblggh4tx22)를 다운로드합니다.
 ![Windows 구성 디자이너 앱 스토어 스크린샷과 설명이 포함된 스크린샷](media/bulk-enroll-store.png)
 
 2. **Windows 구성 디자이너** 앱을 열고 **데스크톱 장치 프로비전**을 선택합니다.

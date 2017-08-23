@@ -15,11 +15,11 @@ ms.assetid: 85b07f57-661a-4bc8-87d2-7b446d5cf4d6
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e8f938e81740d1bb08e0e9995cab94329c2fe5e7
-ms.sourcegitcommit: c9b3a95bf529b6cb2a2bdacbc49127dfa0c233e5
+ms.openlocfilehash: fced0a52db719fe2228d6cd91786b7de8f539f57
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="manage-volume-purchased-apps-and-books-with-microsoft-intune"></a>Microsoft Intune을 사용하여 대량 구매 앱 및 전자책 관리
 
@@ -33,8 +33,8 @@ Microsoft Intune에서는 이러한 프로그램을 통해 구매한 앱과 전�
 
 ## <a name="which-types-of-apps-and-books-can-you-manage"></a>어떤 유형의 앱과 책을 관리할 수 있습니까?
 
-Intune을 사용하여 iOS 스토어에서 대량으로 구매한 앱과 책 및 비즈니스용 Windows 스토어에서 구매한 앱을 관리할 수 있습니다. 각 스토어에서 사용이 허가된 앱을 관리하는 방법을 검색하려면 아래 항목 중 하나를 선택합니다.
+Intune을 사용하여 iOS 스토어에서 대량으로 구매한 앱과 책 및 비즈니스용 Microsoft 스토어에서 구매한 앱을 관리할 수 있습니다. 각 스토어에서 사용이 허가된 앱을 관리하는 방법을 검색하려면 아래 항목 중 하나를 선택합니다.
 
 - [iOS 대량 구매 앱 관리](vpp-apps-ios.md)
-- [비즈니스용 Windows 스토어에서 대량 구매 앱 관리](windows-store-for-business.md)
+- [비즈니스용 Microsoft 스토어에서 대량 구매 앱 관리](windows-store-for-business.md)
 - [iOS 전자책을 관리하는 방법](vpp-ebooks-ios.md)

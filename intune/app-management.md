@@ -3,8 +3,8 @@ title: "앱 관리란?"
 titleSuffix: Intune on Azure
 description: "이 항목에서는 Microsoft Intune을 사용한 앱 관리의 기본 사항을 알아봅니다.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 07/11/2017
 ms.topic: get-started-article
@@ -15,11 +15,11 @@ ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 33ddb60df7aebe36ff652e1da6da592442b96d4b
-ms.sourcegitcommit: fb17b59f4aa2b994b149fcc6d32520f74b0de6a5
+ms.openlocfilehash: 8c993d8a1006f5e50a718681f331f53812fae2a4
+ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Microsoft Intune 앱 관리란?
 
@@ -87,17 +87,17 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
 
 ### <a name="monitor"></a>모니터
 - **사용이 허가된 앱** - 앱 스토어에서 대량 구매 앱을 보고, 할당하고, 모니터링할 수 있습니다.
-    - [비즈니스용 Windows 스토어 대량 구매 앱](windows-store-for-business.md)
+    - [비즈니스용 Microsoft 스토어 대량 구매 앱](windows-store-for-business.md)
 - **검색된 앱** - Intune에서 할당하고 장치에 설치된 모든 앱을 표시합니다.
 - **앱 설치 상태** - 생성한 앱 할당의 상태를 표시합니다.
 - **앱 보호 상태** - 선택한 사용자에 대한 앱 보호 정책의 상태를 표시합니다.
 
 자세한 내용은 [앱 모니터링](apps-monitor.md)을 참조하세요.
 
-### <a name="setup"></a>설정
+### <a name="setup"></a>Setup
 <!--- **iOS VPP Tokens**
     - [iOS volume-purchased apps](vpp-apps-ios.md) --->
-- **비즈니스용 Windows 스토어** - 비즈니스용 Windows 스토어에 대한 통합을 설정합니다. 그리고 나면 구매한 응용 프로그램을 Intune에 동기화하고 할당한 후 라이선스 사용 현황을 추적할 수 있습니다.
-    - [비즈니스용 Windows 스토어 대량 구매 앱](windows-store-for-business.md)
+- **비즈니스용 Microsoft 스토어** - 비즈니스용 Microsoft 스토어에 대한 통합을 설정합니다. 그리고 나면 구매한 응용 프로그램을 Intune에 동기화하고 할당한 후 라이선스 사용 현황을 추적할 수 있습니다.
+    - [비즈니스용 Microsoft 스토어 대량 구매 앱](windows-store-for-business.md)
 - **회사 포털 브랜딩** - 회사 포털을 사용자 지정하여 회사 브랜딩을 제공할 수 있습니다.
     - [회사 포털 구성](company-portal-app.md)

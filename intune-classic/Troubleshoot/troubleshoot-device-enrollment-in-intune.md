@@ -14,11 +14,11 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 14407e26a0715f3d5aa8cf570a2109dac7140079
-ms.sourcegitcommit: 21a9db380956a50031dbea360b4c76664cbc2768
+ms.openlocfilehash: d7a51094851af8c3b6d872300cd9b23e845c6494
+ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2017
+ms.lasthandoff: 08/09/2017
 ---
 # <a name="troubleshoot-device-enrollment-in-intune"></a>Intune에서 장치 등록 문제 해결
 
@@ -159,7 +159,7 @@ ms.lasthandoff: 07/17/2017
 |오류 메시지|문제|해결 방법|
 |---|---|---|
 |**IT 관리자가 액세스에 대한 라이선스를 할당해야 함**<br>IT 관리자가 이 앱을 사용할 수 있도록 액세스 권한을 할당하지 않았습니다. IT 관리자에게 도움을 받거나 나중에 다시 시도하세요.|사용자 계정에 필요한 라이선스가 없으므로 장치를 등록할 수 없습니다.|사용자가 장치를 등록하려면 먼저 필요한 라이선스를 할당받아야 합니다. 이 메시지는 지정된 모바일 장치 관리 기관에 맞지 않는 라이선스 유형이 있음을 의미합니다. 예를 들어 Intune이 모바일 장치 관리 기관으로 지정되었는데 System Center 2012 R2 Configuration Manager 라이선스를 사용하는 경우 이 오류가 표시됩니다.<br><br>[사용자 계정에 Intune 라이선스를 할당](/intune/licenses-assign.md)하는 방법을 참조하세요.
-|**IT 관리자가 MDM 기관을 설정해야 함<br>IT 관리자가 MDM 기관을 설정하지 않은 것 같습니다. IT 관리자에게 도움을 받거나 나중에 다시 시도하세요.|모바일 장치 관리 기관이 정의되지 않았습니다.|Intune에서 모바일 장치 관리 기관이 지정되지 않았습니다. [모바일 장치 관리 기관을 설정](/intune/mdm-authority-set.md)하는 방법을 참조하세요.|
+|**IT 관리자가 MDM 기관을 설정해야 함**<br>IT 관리자가 MDM 기관을 설정하지 않은 것 같습니다. IT 관리자에게 도움을 받거나 나중에 다시 시도하세요.|모바일 장치 관리 기관이 정의되지 않았습니다.|Intune에서 모바일 장치 관리 기관이 지정되지 않았습니다. [모바일 장치 관리 기관을 설정](/intune/mdm-authority-set.md)하는 방법을 참조하세요.|
 
 
 ### <a name="devices-fail-to-check-in-with-the-intune-service-and-display-as-unhealthy-in-the-intune-admin-console"></a>장치가 Intune 서비스에 체크 인되지 않고 Intune 관리 콘솔에서 "비정상"으로 표시됨
@@ -182,7 +182,7 @@ ms.lasthandoff: 07/17/2017
 
 사용자에게 Android 6.0으로 업그레이드해 보도록 요청합니다. Android 6.0 장치에서는 비활성화 문제가 발생하지 않습니다. 업데이트를 사용할 수 있는지 확인하려면 **설정** > **장치 정보** > **수동으로 업데이트 다운로드**로 이동하고 장치에 표시되는 메시지를 따릅니다.
 
-**3:**
+ **3:**
 
 해결 방법 2로 해결되지 않으면 사용자에게 다음 단계에 따라 Smart Manager에서 회사 포털 앱을 제외하도록 설정하라고 요청합니다.
 

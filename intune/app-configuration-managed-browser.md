@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 07/05/2017
+ms.date: 08/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 1feca24f-9212-4d5d-afa9-7c171c5e8525
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e85306934b68f64bad8c223ac117190607db8473
-ms.sourcegitcommit: fd5b7aa26446d2fa92c21638cb29371e43fe169f
+ms.openlocfilehash: b87857425a40beb9fc07a78ab144f5b14a4d7c8e
+ms.sourcegitcommit: 7674efb7de5ad54390801165364f5d9c58ccaf84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2017
+ms.lasthandoff: 08/05/2017
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Microsoft Intune에서 Managed Browser 정책을 사용하여 인터넷 액세스 관리
 
@@ -49,6 +49,11 @@ Managed Browser는 SSLv3(Secure Sockets Layer 버전 3) 암호화 프로토콜�
 -   Android 4 이상을 실행하는 장치
 
 -   iOS 8.0 이상을 실행하는 장치
+
+>[!IMPORTANT]
+>2017년 10월을 기준으로 Android 앱에서 Intune Managed Browser 앱은 Android 4.4 이상을 실행하는 장치만 지원합니다. iOS의 Intune Managed Browser 앱은 iOS 9.0 이상을 실행하는 장치만 지원합니다.
+>Android 및 iOS 이전 버전에서도 계속 Managed Browser를 사용할 수는 있지만 새로운 버전의 앱을 설치할 수 없고 모든 기능을 액세스하지 못할 수 있습니다. 이러한 장치를 지원되는 운영 체제 버전으로 업데이트하는 것이 좋습니다.
+
 
 Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https://www.microsoft.com/server-cloud/products/microsoft-intune/partners.aspx)에서 웹 콘텐츠 열기를 지원합니다.
 
@@ -84,19 +89,15 @@ Azure AD 사용자 그룹에 설정을 할당합니다. 해당 사용자가 Mana
 
 Intune Managed Browser와 [Azure AD 응용 프로그램 프록시]( https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started)를 함께 사용하면 iOS 및 Android 장치 사용자에 대해 다음과 같은 시나리오를 지원할 수 있습니다.
 
-- 사용자가 Microsoft Outlook 앱을 다운로드하고 로그인합니다.  Intune 앱 보호 정책이 자동으로 적용됩니다. 저장된 데이터를 암호화하고 사용자가 장치에서 관리되지 않는 앱 또는 위치로 회사 파일을 전송할 수 없도록 차단합니다. 그런 다음 사용자가 Outlook에서 인트라넷 사이트에 대한 링크를 클릭할 때 해당 링크가 다른 브라우저 대신 Managed Browser 앱에서 열리도록 지정할 수 있습니다.
-Managed Browser는 이 인트라넷 사이트가 응용 프로그램 프록시를 통해 사용자에게 공개된 것을 인식합니다. 사용자는 인트라넷 사이트에 연결하기 전에 적용 가능한 다단계 인증 및 조건부 액세스를 사용하여 인증하도록 응용 프로그램 프록시를 통해 자동으로 라우팅됩니다. 이전에는 사용자가 원격으로 작업하는 동안 찾을 수 없었던 이 사이트에 이제 액세스할 수 있으며 Outlook의 링크가 예상대로 작동합니다.  
-
-- 원격 사용자가 Managed Browser 응용 프로그램을 열고 내부 URL을 사용하여 인트라넷 사이트로 이동합니다. Managed Browser는 이 인트라넷 사이트가 응용 프로그램 프록시를 통해 사용자에게 공개된 것을 인식합니다. 사용자는 인트라넷 사이트에 연결하기 전에 적용 가능한 다단계 인증 및 조건부 액세스를 사용하여 인증하도록 응용 프로그램 프록시를 통해 자동으로 라우팅됩니다.
-이전에는 사용자가 원격으로 작업하는 동안 찾을 수 없었던 이 사이트에 이제 액세스할 수 있습니다.  
+- 사용자가 Microsoft Outlook 앱을 다운로드하고 로그인합니다. Intune 앱 보호 정책이 자동으로 적용됩니다. 저장된 데이터를 암호화하고 사용자가 장치에서 관리되지 않는 앱 또는 위치로 회사 파일을 전송할 수 없도록 차단합니다. 그런 다음 사용자가 Outlook에서 인트라넷 사이트에 대한 링크를 클릭할 때 해당 링크가 다른 브라우저 대신 Managed Browser 앱에서 열리도록 지정할 수 있습니다. Managed Browser는 이 인트라넷 사이트가 응용 프로그램 프록시를 통해 사용자에게 공개된 것을 인식합니다. 사용자는 인트라넷 사이트에 연결하기 전에 적용 가능한 다단계 인증 및 조건부 액세스를 사용하여 인증하도록 응용 프로그램 프록시를 통해 자동으로 라우팅됩니다. 이전에는 사용자가 원격으로 작업하는 동안 찾을 수 없었던 이 사이트에 이제 액세스할 수 있으며 Outlook의 링크가 예상대로 작동합니다.
+- 원격 사용자가 Managed Browser 응용 프로그램을 열고 내부 URL을 사용하여 인트라넷 사이트로 이동합니다. Managed Browser는 이 인트라넷 사이트가 응용 프로그램 프록시를 통해 사용자에게 공개된 것을 인식합니다. 사용자는 인트라넷 사이트에 연결하기 전에 적용 가능한 다단계 인증 및 조건부 액세스를 사용하여 인증하도록 응용 프로그램 프록시를 통해 자동으로 라우팅됩니다. 이전에는 사용자가 원격으로 작업하는 동안 찾을 수 없었던 이 사이트에 이제 액세스할 수 있습니다.
 
 ### <a name="before-you-start"></a>시작하기 전에
 
-- 내부 응용 프로그램이 Azure AD 응용 프로그램 프록시를 통해 게시되었는지 확인합니다.
-- 응용 프로그램 프록시를 구성하고 응용 프로그램을 게시하려면 [설정 설명서]( https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started#how-to-get-started)를 참조하세요. 
-- 최소 버전 1.2.0의 Managed Browser 앱을 사용해야 합니다.
-- Managed Browser 앱의 사용자는 [Intune 앱 보호 정책]( app-protection-policy.md)이 앱에 할당되어 있습니다.
-- A는 할당된 응용 프로그램 프록시 앱에 대한 자동 리디렉션만 볼 수 있습니다.
+- Azure AD 응용 프로그램 프록시를 통해 내부 응용 프로그램을 설정합니다.
+    - 응용 프로그램 프록시를 구성하고 응용 프로그램을 게시하려면 [설정 설명서]( https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started#how-to-get-started)를 참조하세요. 
+    - 최소 버전 1.2.0의 Managed Browser 앱을 사용해야 합니다.
+    - Managed Browser 앱의 사용자는 [Intune 앱 보호 정책]( app-protection-policy.md)이 앱에 할당되어 있습니다.
 
 #### <a name="step-1-enable-automatic-redirection-to-the-managed-browser-from-outlook"></a>1단계: Outlook에서 Managed Browser로 자동 리디렉션 사용
 **Managed Browser에서 표시할 수 있는 웹 콘텐츠 제한** 설정을 사용하도록 설정하는 앱 보호 정책으로 Outlook이 구성되어 있어야 합니다.

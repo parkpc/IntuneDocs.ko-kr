@@ -14,11 +14,11 @@ ms.assetid: e0d8e98f-7dd8-4cbf-887c-a9af63ffe970
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: cf86d82fe636d2641f82ca951e508bea93abf683
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 0d1e88db4a0da250f449c8e87f674f7694904d7b
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="create-policies-and-publish-apps"></a>정책 만들기 및 앱 게시
 
@@ -63,7 +63,7 @@ Intune에서 앱을 사용할 수 있으므로 관리되는 장치에 앱을 배
 - [Deploy apps to devices](/intune-classic/deploy-use/deploy-use/deploy-apps-in-microsoft-intune)(장치에 앱 배포)
 - 대량 구매 앱 배포:
     - [iOS - 대량 구매 프로그램](/intune-classic/deploy-use/manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune)
-    - [비즈니스용 Windows 스토어](/intune-classic/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune)
+    - [비즈니스용 Microsoft 스토어](/intune-classic/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune)
     - [Android for Work](/intune-classic/deploy-use/android-for-work-apps)
 
     배포용 앱을 구성했으면 [앱을 구성할 수 있습니다](/intune-classic/deploy-use/monitor-apps-in-microsoft-intune).
