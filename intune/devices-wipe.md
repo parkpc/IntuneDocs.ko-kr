@@ -1,12 +1,12 @@
 ---
-title: "Intune을 사용하여 장치에서 전체 또는 선택적 초기화"
+title: "Intune을 사용하는 장치에서 공장 기본 설정으로 복원을 사용하거나 회사 데이터 제거"
 titleSuffix: Intune on Azure
-description: "장치에서 회사 데이터의 선택적 초기화를 수행하거나, 전체 초기화를 수행하여 장치를 완전히 초기화하는 방법을 알아봅니다.\""
+description: "장치에서 회사 데이터를 제거하거나 장치를 공장 기본 설정으로 복원하는 방법을 알아봅니다."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 07/21/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,64 +14,40 @@ ms.technology:
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 44d1695b3f0297276376fb9cb4367c1411aa31b2
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 331ced93f0697f7c76d1356aae32b955602d17a3
+ms.sourcegitcommit: 2ed8d1c39d4b3e3282111f1d758afb3a50f19f8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/10/2017
 ---
-# <a name="use-full-or-selective-wipe"></a>전체 또는 선택적 초기화 사용
+# <a name="remove-devices-by-using-factory-reset-or-remove-company-data"></a>공장 기본 설정으로 복원을 사용하여 장치를 제거하거나 회사 데이터 제거
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정하거나 잃어버린 장치에 있는 앱과 데이터를 초기화할 수 있습니다. 이를 위해, Intune은 선택적 초기화 및 전체 초기화 기능을 제공합니다. 또한 사용자가 Intune에 등록된 개인적으로 소유한 장치의 Intune 회사 포털 앱에서 원격 장치 초기화 명령을 실행할 수 있습니다.
+Intune에서 더 이상 필요 없거나 용도를 다시 설정하거나 잃어버린 장치를 제거할 수 있습니다. 이 작업은 **회사 데이터 제거** 또는 **공장 기본 설정으로 복원** 명령을 실행하여 수행할 수 있습니다. 또한 사용자가 Intune 회사 포털에서 Intune에 등록된 개인적으로 소유한 장치로 원격 명령을 실행할 수 있습니다.
 
-  > [!NOTE]
-  > 이 항목에서는 Intune 모바일 장치 관리에서 관리 장치를 초기화하는 방법만 설명합니다. [Azure 포털](https://portal.azure.com)을 사용하여 [앱에서 회사 데이터를 초기화](https://docs.microsoft.com/intune-classic/deploy-use/wipe-managed-company-app-data-with-microsoft-intune)할 수도 있습니다. [Intune 클라이언트 소프트웨어로 관리되는 컴퓨터를 사용 중지](https://docs.microsoft.com/intune-classic/deploy-use/retire-a-windows-pc-with-microsoft-intune)할 수도 있습니다.
+> [!NOTE]
+> Azure Active Directory에서 사용자를 제거하기 전에 해당 사용자와 관련된 모든 장치에 **공장 기본 설정으로 복원** 또는 **회사 데이터 제거** 명령을 실행합니다. Azure Active Directory에서 관리되는 장치가 있는 사용자를 제거하는 경우 Intune에서 해당 장치에 더 이상 공장 기본 설정 복원 또는 회사 데이터 제거를 실행하지 않습니다.
 
-## <a name="full-wipe"></a>전체 초기화
+## <a name="factory-reset"></a>공장 기본 설정
 
-**전체 초기화** 시에는 모든 회사 및 사용자 데이터와 설정이 제거되어 장치가 공장 기본 설정으로 복원됩니다. 그리고 장치가 Intune에서 제거됩니다. 전체 초기화는 새로운 사용자에게 장치를 제공하기 전이나 장치를 분실하거나 도난당한 경우 장치를 리셋하는 데 유용합니다.  **전체 초기화는 주의하여 선택해야 합니다. 장치의 데이터가 복구될 수 없습니다**.
+**공장 기본 설정 복원**을 수행하면 모든 회사 및 사용자 데이터와 설정이 제거되어 장치가 공장 기본 설정으로 복원됩니다. 그리고 장치가 Intune 관리에서 제거됩니다. 공장 기본 설정 복원은 새로운 사용자에게 장치를 제공하기 전이나 장치를 분실하거나 도난당한 경우 장치를 리셋하는 데 유용합니다. 공장 기본 설정 복원은 주의하여 선택해야 합니다. 장치의 데이터가 복구될 수 없습니다.
 
+### <a name="to-factory-reset-a-device"></a>장치 공장 기본 설정 복원
 
-> [!Warning]
-> RAM이 4GB 미만인 Windows 10 RTM 장치(Windows 10 버전 1511 이전 장치)는 초기화된 경우 액세스하지 못할 수 있습니다. 응답하지 않는 Windows 10 장치에 액세스하려면 USB 드라이브로 장치를 부팅할 수 있습니다.
+1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
+2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+3. **장치 및 그룹** 블레이드에서 **모든 장치**를 선택합니다.
+4. 공장 기본 설정을 복원하려는 장치의 이름을 선택합니다.
+5. 장치 이름이 표시된 블레이드에서 **초기화**를 선택한 다음 **예**를 선택하여 확인합니다.
 
+장치가 켜져 있고 연결되어 있는 경우 공장 기본 설정 복원 명령이 모든 장치 유형에서 전파되는 데 15분 미만이 걸립니다.
 
-**장치의 전체 초기화(공장 기본 설정으로 복원)를 수행하려면**
+## <a name="remove-company-data"></a>회사 데이터 제거
 
-1.  **장치 및 그룹** 블레이드에서 **모든 장치**를 선택합니다.
+**회사 데이터 제거** 명령은 Intune을 사용하여 할당된 관리 앱 데이터(해당되는 경우), 설정 및 메일 프로필을 제거합니다. 회사 데이터 제거를 수행하면 사용자의 개인적인 데이터를 장치에 남겨둡니다. 그리고 장치가 Intune 관리에서 제거됩니다. 다음 표에서는 제거되는 데이터와 회사 데이터 제거 후 장치에 남아 있는 데이터에 대한 영향을 설명합니다.
 
-2.  초기화하려는 장치의 이름을 선택합니다.
-
-3.  장치 이름이 표시된 블레이드에서 **초기화**를 선택한 다음 **예**를 선택하여 초기화를 확인합니다.
-
-장치가 켜져 있고 연결되어 있는 경우 초기화 명령이 모든 장치 유형에서 전파되는 데 15분 미만이 걸립니다.
-
-### <a name="to-delete-devices-in-the-azure-active-directory-portal"></a>Azure Active Directory 포털에서 장치를 삭제하려면
-
-1.  [http://aka.ms/accessaad](http://aka.ms/accessaad)로 이동하거나 [https://portal.office.com](https://portal.office.com)에서 **관리자** &gt; **Azure AD**를 선택합니다.
-
-2.  페이지의 왼쪽에 있는 링크를 사용하여 조직 ID로 로그인합니다.
-
-3.  조직 ID가 없다면 Azure 구독을 만듭니다. 유료 계정이 있는 경우 신용 카드나 결제가 필요하지 않습니다(**Register your free Azure Active Directory(무료 Azure Active Directory 등록)** 구독 링크 선택).
-
-4.  **Active Directory** 를 선택한 다음, 조직을 선택합니다.
-
-5.  **사용자** 탭을 선택합니다.
-
-6.  삭제하려는 장치의 사용자를 선택합니다.
-
-7.  **장치**를 선택합니다.
-
-8.  더 이상 사용 중이 아닌 장치나 정의가 부정확한 장치 등 장치를 적절하게 제거합니다.
-
-
-## <a name="selective-wipe"></a>선택적 초기화
-
-**선택적 초기화**는 해당되는 MAM(모바일 앱 관리) 데이터, 설정, 메일 프로필을 비롯한 회사 데이터를 장치에서 제거합니다. 선택적 초기화는 사용자의 개인적인 데이터를 장치에 남겨둡니다. 그리고 장치가 Intune에서 제거됩니다. 다음 표에서는 제거되는 데이터와 선택적 초기화 후 장치에 남아 있는 데이터에 대한 영향을 설명합니다. (테이블은 플랫폼별로 구성됩니다.)
-
-**iOS**
+### <a name="ios"></a>iOS
 
 |데이터 형식|iOS|
 |-------------|-------|
@@ -82,10 +58,10 @@ Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정�
 |관리 에이전트|관리 프로필이 제거됩니다.|
 |메일|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다.|
 |Outlook|iOS에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.|
-|AAD(Azure Active Directory) 가입 취소|AAD 레코드가 제거됩니다.|
-|연락처 | 앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.
+|Azure AD(Active Directory) 가입 취소|Azure AD 레코드가 제거됩니다.|
+|연락처 | 앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 제거할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.
 
-**Android**
+### <a name="android"></a>Android
 
 |데이터 형식|Android|Android Samsung KNOX Standard|
 |-------------|-----------|------------------------|
@@ -100,30 +76,42 @@ Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정�
 |관리 에이전트|장치 관리자 권한이 해지됩니다.|장치 관리자 권한이 해지됩니다.|
 |메일|해당 없음(Android 장치에서는 전자 메일 프로필이 지원되지 않음)|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다.|
 |Outlook|Android에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.|Android에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.|
-|AAD(Azure Active Directory) 가입 취소|AAD 레코드가 제거됩니다.|AAD 레코드가 제거됩니다.|
-|연락처 | 앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.|앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 초기화할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.
+|Azure AD(Active Directory) 가입 취소|Azure AD 레코드가 제거됩니다.|Azure AD 레코드가 제거됩니다.|
+|연락처 | 앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 제거할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.|앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 제거할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.
 
-**Android for Work**
+### <a name="android-for-work"></a>Android for Work
 
-Android for Work 장치에서 선택적 초기화를 수행하면 해당 장치의 회사 프로필에서 모든 데이터, 앱 및 설정이 제거됩니다. 이 경우 Intune을 사용한 관리에서 장치 사용이 중지됩니다. 전체 초기화는 Android for Work에 지원되지 않습니다.
+Android for Work 장치에서 회사 데이터를 제거하면 해당 장치의 회사 프로필에서 모든 데이터, 앱 및 설정이 제거됩니다. 이 경우 Intune을 사용한 관리에서 장치 사용이 중지됩니다. 공장 기본 설정 복원은 Android for Work에 지원되지 않습니다.
 
-**Windows**
+### <a name="windows"></a>Windows
 
 |데이터 형식|Windows 8.1(MDM) 및 Windows RT 8.1|Windows RT|Windows Phone 8 및 Windows Phone 8.1|Windows 10|
 |-------------|----------------------------------------------------------------|--------------|-----------------------------------------|--------|
-|Intune에서 설치한 회사 앱 및 관련 데이터|EFS로 보호되는 파일에서 키를 해지하므로 사용자는 파일을 열 수 없습니다.|회사 앱은 제거하지 않습니다.|회사 포털을 통해 처음에 설치된 앱은 제거됩니다. 회사 앱 데이터가 제거됩니다.|앱이 제거되고 테스트용 로드 키가 제거됩니다.|
+|Intune에서 설치한 회사 앱 및 관련 데이터|EFS로 보호되는 파일에서 키를 해지하므로 사용자는 파일을 열 수 없습니다.|회사 앱은 제거하지 않습니다.|회사 포털을 통해 처음에 설치된 앱은 제거됩니다. 회사 앱 데이터가 제거됩니다.|앱이 제거되고 테스트용 로드 키가 제거됩니다.<br>Windows 10 버전 1703(크리에이터 업데이트) 이상의 경우 Office 365 ProPlus 앱이 제거되지 않습니다.|
 |설정|Intune 정책에서 설정한 구성은 더 이상 적용되지 않으며 사용자는 설정을 변경할 수 있습니다.|Intune 정책에서 설정한 구성은 더 이상 적용되지 않으며 사용자는 설정을 변경할 수 있습니다.|Intune 정책에서 설정한 구성은 더 이상 적용되지 않으며 사용자는 설정을 변경할 수 있습니다.|Intune 정책에서 설정한 구성은 더 이상 적용되지 않으며 사용자는 설정을 변경할 수 있습니다.|
 |Wi-Fi 및 VPN 프로필 설정|제거됩니다.|제거됩니다.|지원 안 됨|제거됩니다.|
 |인증서 프로필 설정|인증서가 제거되고 해지되었습니다.|인증서가 제거되고 해지되었습니다.|지원 안 됨|인증서가 제거되고 해지되었습니다.|
 |메일|Windows 메일 및 첨부 파일용 메일 앱을 포함하는 EFS 지원 메일을 제거합니다.|지원 안 됨|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다.|Windows 메일 및 첨부 파일용 메일 앱을 포함하는 EFS 지원 메일을 제거합니다. Intune을 통해 프로비전된 메일 계정을 제거합니다.|
-|AAD(Azure Active Directory) 가입 취소|아니요.|아니요.|AAD 레코드가 제거됩니다.|해당 없음. Windows 10에서는 Azure Active Directory 가입 장치를 선택적으로 초기화할 수 없습니다.|
+|Azure AD(Active Directory) 가입 취소|아니요.|아니요.|Azure AD 레코드가 제거됩니다.|해당 없음. Windows 10에서는 Azure Active Directory 가입 장치의 회사 데이터를 지원하지 않습니다.|
 
-**선택적 초기화를 수행하려면**
+### <a name="to-remove-company-data"></a>회사 데이터 제거
 
-1.  **장치 및 그룹** 블레이드에서 **모든 장치**를 선택합니다.
+1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
+2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+3. **장치 및 그룹** 블레이드에서 **모든 장치**를 선택합니다.
+4. 회사 데이터를 제거할 장치의 이름을 선택합니다.
+5. 장치 이름을 표시하는 블레이드에서 **회사 데이터 제거**를 선택한 다음 **예**를 선택하여 확인합니다.
 
-2.  초기화하려는 장치의 이름을 선택합니다.
+장치가 켜져 있고 연결되어 있는 경우 데이터 제거 명령이 모든 장치 유형에서 전파되는 데 15분 미만이 걸립니다.
 
-3.  장치 이름이 표시된 블레이드에서 **회사 데이터 제거**를 선택한 다음 **예**를 선택하여 초기화를 확인합니다.
+## <a name="delete-devices-from-the-azure-active-directory-portal"></a>Azure Active Directory 포털에서 장치 삭제
 
-장치가 켜져 있고 연결되어 있는 경우 초기화 명령이 모든 장치 유형에서 전파되는 데 15분 미만이 걸립니다.
+통신 문제 또는 누락된 장치 때문에 Azure AD(Active Directory)에서 장치를 삭제해야 할 수도 있습니다. 삭제 명령을 수행해도 관리에서 장치가 제거되지 않지만 **삭제**를 사용하여 Azure 콘솔에서 확실히 연결할 수 없고 Azure와 통신할 가능성이 적은 장치 레코드를 다시 제거할 수 있습니다.
+
+1.  관리 자격 증명을 사용하여 [Azure 포털의 Azure Active Directory](http://aka.ms/accessaad)에 로그인합니다. 또한 [Office 365 포털](https://portal.office.com)에 로그인한 다음 페이지 왼쪽의 링크를 사용하여 **관리** &gt; **Azure AD**를 선택할 수 있습니다.
+3.  Azure 구독이 없으면 만듭니다. 유료 계정이 있는 경우 신용 카드나 결제가 필요하지 않습니다(**Register your free Azure Active Directory(무료 Azure Active Directory 등록)** 구독 링크 선택).
+4.  **Active Directory** 를 선택한 다음, 조직을 선택합니다.
+5.  **사용자** 탭을 선택합니다.
+6.  삭제하려는 장치의 사용자를 선택합니다.
+7.  **장치**를 선택합니다.
+8.  더 이상 사용 중이 아닌 장치나 정의가 부정확한 장치 등 장치를 적절하게 제거합니다.

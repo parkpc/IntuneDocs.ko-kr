@@ -2,8 +2,8 @@
 title: "Intune을 사용하여 WIP(Windows Information Protection) 앱 보호 정책 만들기 및 배포"
 description: "Intune을 사용하여 WIP 앱 보호 정책 만들기 및 배포"
 keywords: 
-author: andredm7
-ms.author: andredm
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 04/18/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 51e53e28-5c34-4d0f-a4b1-6390a337514c
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 7aa879307ef3b72660d1ba7b3c3c2f99fc82dc97
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 78352c995311f5b097954ce86098165408d5d810
+ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/09/2017
 ---
 # <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Intune을 사용하여 WIP(Windows Information Protection) 앱 보호 정책 만들기 및 배포
 
@@ -35,6 +35,13 @@ WIP 정책을 추가할 때 적용되는 몇 가지 개념에 대해 살펴보�
 -   **허용되는 앱**: 이 정책을 준수해야 하는 앱입니다.
 
 -   **예외 앱**: 이 정책에서 예외로 설정되며 제한 없이 회사 데이터에 액세스할 수 있는 앱입니다.
+
+> [!IMPORTANT]  
+> Intune에서는 앱이 적절히 작동할 수 있도록 회사 포털 앱을 제외 목록에 추가하는 것이 좋습니다. 그렇게 하려면 다음 **스토어 앱**을 **제외 앱** 목록에 추가합니다.  
+>   - 이름: 회사 포털  
+>   - 게시자: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US  
+>   - 제품 이름: Microsoft.CompanyPortal”  
+
 
 ### <a name="types-of-apps"></a>앱의 유형
 

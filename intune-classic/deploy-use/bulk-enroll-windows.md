@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 0053e37a-f26e-452f-9524-5039a635b52e
 ms.reviewer: damionw
 ms.custom: intune-classic
-ms.openlocfilehash: ab52ba70403da5192cd3539dfd6d1e64bd79268c
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: dc37cfb782e1d1e1e076d90fef160c2ce910cda4
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Windows 장치에 대한 대량 등록
 
@@ -31,12 +31,12 @@ Azure AD 사용자는 이러한 장치에서 표준 사용자이며 할당된 In
 
 Windows 장치에 대한 대량 등록 작업에는 다음이 필요합니다.
 
-- Windows 10 크리에이터 업데이트 이상을 실행하는 장치
+- Windows 10 크리에이터스 업데이트 이상을 실행하는 장치
 - [Windows 자동 등록](/intune-classic/deploy-use/set-up-windows-device-management-with-microsoft-intune#enable-windows-10-automatic-enrollment)
 
 ## <a name="create-a-provisioning-package"></a>프로비전 패키지 만들기
 
-1. Windows 스토어에서 [WCD(Windows 구성 디자이너)](https://www.microsoft.com/store/apps/9nblggh4tx22)를 다운로드합니다.
+1. Microsoft 스토어에서 [WCD(Windows 구성 디자이너)](https://www.microsoft.com/store/apps/9nblggh4tx22)를 다운로드합니다.
 ![Windows 구성 디자이너 앱 스토어 스크린샷과 설명이 포함된 스크린샷](../media/bulk-enroll-store.png)
 
 2. **Windows 구성 디자이너** 앱을 열고 **데스크톱 장치 프로비전**을 선택합니다.

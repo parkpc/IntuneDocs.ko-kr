@@ -3,8 +3,8 @@ title: "Intune에 Windows 스토어 앱을 추가하는 방법"
 titleSuffix: Intune on Azure
 description: "Intune에 Windows 스토어 앱을 추가하는 방법을 알아봅니다.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 05/04/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 07241b6d-86d8-4abb-83a2-3fc5feae5788
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7ad1156076f0ec34d5ac110e32a19a8332c8f863
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: ee7a15be73f3d70295ceec29e31b4fa35ea1c04e
+ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="how-to-add-windows-store-apps-to-microsoft-intune"></a>Microsoft Intune에 Windows 스토어 앱을 추가하는 방법
 
@@ -51,12 +51,12 @@ ms.lasthandoff: 07/01/2017
 만든 앱이 앱 목록에 표시됩니다. 이 목록에서 선택한 그룹에 앱을 할당할 수 있습니다. 도움말은 [그룹에 앱을 할당하는 방법](apps-deploy.md)을 참조하세요.
 
 ## <a name="manually-assign-windows-10-company-portal-app"></a>Windows 10 회사 포털 앱 수동 할당
-최종 사용자는 Windows 스토어에서 회사 포털 앱을 설치하여 장치를 관리하고 앱을 설치할 수 있습니다. 그러나 비즈니스 요구에 따라 회사 포털 앱을 할당해야 하는 경우에는 비즈니스용 Windows 스토어와 Intune을 통합하지 않았더라도 Intune에서 곧바로 Windows 10 회사 포털 앱을 수동으로 할당할 수 있습니다.
+최종 사용자는 Microsoft 스토어에서 회사 포털 앱을 설치하여 장치를 관리하고 앱을 설치할 수 있습니다. 그러나 비즈니스 요구에 따라 회사 포털 앱을 할당해야 하는 경우에는 비즈니스용 Microsoft 스토어와 Intune을 통합하지 않았더라도 Intune에서 곧바로 Windows 10 회사 포털 앱을 수동으로 할당할 수 있습니다.
 
  > [!NOTE]
  > 이 옵션을 사용하려면 앱 업데이트가 릴리스될 때마다 수동 업데이트를 할당해야 합니다.
 
-1. 자신의 계정으로 [비즈니스용 Windows 스토어](https://www.microsoft.com/business-store)에 로그인하고 **오프라인 라이선스** 버전의 회사 포털 앱을 가져옵니다.  
+1. 자신의 계정으로 [비즈니스용 Microsoft 스토어](https://www.microsoft.com/business-store)에 로그인하고 **오프라인 라이선스** 버전의 회사 포털 앱을 가져옵니다.  
 2. 앱을 가져왔으면 **인벤토리** 페이지에서 앱을 선택합니다.  
 3. **플랫폼**으로 **Windows 10 all devices**(Windows 10 모든 장치)를 선택한 다음 적절한 **아키텍처**를 선택하고 다운로드합니다. 이 앱에는 앱 라이선스 파일이 필요 없습니다.
 ![Windows 10 모든 장치 및 아키텍처 X86 패키지 다운로드 세부 정보를 보여 주는 이미지](./media/Win10CP-all-devices.png)
@@ -93,7 +93,7 @@ Intune에서 유니버설 앱의 종속성을 처리하는 방식에 대한 자�
 이러한 방식으로 앱을 서명하고 할당하는 방법은 다음과 같습니다.
 
 1. [https://aka.ms/win10cpscript](https://aka.ms/win10cpscript)에서 Microsoft Intune Windows 10 회사 포털 앱 서명 스크립트를 다운로드합니다.  이 스크립트가 작동하려면 호스트 컴퓨터에 Windows 10용 Windows SDK가 설치되어야 있어야 합니다. Windows 10용 Windows SDK를 다운로드하려면 [https://go.microsoft.com/fwlink/?LinkId=619296](https://go.microsoft.com/fwlink/?LinkId=619296) 페이지를 방문하세요.
-2. 위에서 설명한 대로 비즈니스용 Windows 스토어에서 Windows 10 회사 포털 앱을 다운로드합니다.  
+2. 위에서 설명한 대로 비즈니스용 Microsoft 스토어에서 Windows 10 회사 포털 앱을 다운로드합니다.  
 3. Windows 10 회사 포털 앱을 서명하려면 스크립트 헤더에 입력 매개 변수를 자세히 지정하여 스크립트를 실행합니다(아래에 추출됨). 종속성은 스크립트에 전달할 필요가 없습니다. 앱을 Intune 관리 콘솔에 업로드할 때만 필요합니다.
 
 |매개 변수 | 설명|

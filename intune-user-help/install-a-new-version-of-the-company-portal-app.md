@@ -14,11 +14,11 @@ ms.assetid: c002bcb2-ae37-478d-acf3-2bf51faae490
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 586a5355e2ee4b0dda6e0238628fa71bdce6f1a2
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 1cccc69ab772499183a7f434303d78ecf4308a5f
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="how-to-update-the-company-portal-app"></a>회사 포털 앱을 업데이트하는 방법
 
@@ -40,12 +40,12 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="update-the-intune-company-portal-app-on-your-windows-device"></a>Windows 장치에서 Intune 회사 포털 앱 업데이트
 
-1.  Windows 스토어로 이동하여 **intune 회사 포털**을 검색합니다.
+1.  Microsoft 스토어로 이동하여 **intune 회사 포털**을 검색합니다.
 
 2.  설치 단계를 수행합니다.
 
     > [!NOTE]
-    > Windows 스토어에 액세스할 수 없는 경우 IT 관리자에게 문의하세요.
+    > Microsoft 스토어에 액세스할 수 없는 경우 IT 관리자에게 문의하세요.
 
 
 여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.

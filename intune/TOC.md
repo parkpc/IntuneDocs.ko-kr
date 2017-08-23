@@ -17,11 +17,12 @@
 ## [알려진 문제](known-issues.md)
 ## [지원 받기](get-support.md)
 
-# [시작](get-started-evaluation.md)
-## [그룹 만들기](get-started-groups.md)
+# [Intune 시작](get-started-evaluation.md)
+## [Azure Portal 탐색](get-started-azure.md)
 ## [사용자 만들기](get-started-users.md)
-## [장치 등록](get-started-enroll.md)
+## [그룹 만들기](get-started-groups.md)
 ## [정책 할당](get-started-policies.md)
+## [장치 등록](get-started-enroll.md)
 ## [앱 할당](get-started-apps.md)
 
 

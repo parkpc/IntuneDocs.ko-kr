@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 07/05/2017
+ms.date: 08/09/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: d2412418-d91a-4767-a3d6-bc88bb29caa2
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8f066e62e323fffb7c6954d83b2b55ee63f4be46
-ms.sourcegitcommit: fd5b7aa26446d2fa92c21638cb29371e43fe169f
+ms.openlocfilehash: e0fc5337b92ac604a448038f685b27623b6153f9
+ms.sourcegitcommit: ee7f69efe9f32a1d6bdeb1fab73d03dbfe1ae58c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2017
+ms.lasthandoff: 08/09/2017
 ---
 # <a name="what-is-microsoft-intune-device-management"></a>Microsoft Intune 장치 관리란?
 
@@ -30,8 +30,9 @@ ms.lasthandoff: 07/06/2017
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **장치**를 선택합니다.
+4. 이제 나열된 원격 장치 작업을 수행할 수 있습니다. 사용 가능한 작업은 장치 플랫폼 및 장치 구성에 따라 다릅니다.
 
-이제 다음과 같은 작업을 수행할 수 있습니다.
+## <a name="available-device-actions"></a>사용 가능한 장치 작업
 
 - [장치 인벤토리 보기](device-inventory.md)
 - 다음의 원격 장치 작업 수행:
@@ -46,29 +47,8 @@ ms.lasthandoff: 07/06/2017
     - [다시 시작](device-restart.md)
     - [Windows 10 PIN 재설정](device-windows-pin-reset.md)
     - [Android 원격 제어](device-profile-android-teamviewer.md)
+    - [장치 동기화](device-sync.md)
 
-
-## <a name="support-for-each-device-action"></a>각 장치 작업에 대한 지원
-
-다음 표를 사용하여 각 작업에서 지원하는 장치 플랫폼을 이해할 수 있습니다.
-
-|||||||
-|-|-|-|-|-|-|
-|장치 작업|Windows|Windows Phone|iOS|macOS|Android|
-|**회사 데이터 제거**|예|예|예|예|예|
-|**초기화**|Windows 8.1 이상(EAS 관리 장치 아님)|예|예|아니요|Android for Work는 지원되지 않음|
-|**삭제**|예|예|예|예|예|
-|**원격 잠금**|아니요|Windows Phone 8.1 이상|예|아니요|예|
-|**암호 초기화**|아니요|Azure AD에 연결되지 않은 Windows Phone 8.1-Windows 10 크리에이터스 업데이트, Windows 10 크리에이터스 업데이트 이상 - 모두|예|아니요|Android 7 이전, Android for Work는 지원되지 않음|
-|**새로운 암호**(Windows 10 장치용)|아니요|Windows 10 크리에이터스 업데이트 이상(Azure AD 연결)|아니요|아니요|Android for Work는 지원되지 않음|
-|**활성화 잠금 무시**|아니요|아니요|회사 소유 장치만|아니요|아니요|
-|**분실 모드**|아니요|아니요|iOS 9.3 이상, 감독됨, 회사 소유|아니요|아니요|
-|**장치 찾기**|아니요|아니요|분실 모드 iOS 9.3 이상, 감독됨, 회사 소유|아니요|아니요|
-|**현재 사용자 로그아웃**|아니요|아니요|iOS 9.3 및 이상(공유 iPad 장치만 해당)|아니요|아니요|
-|**다시 시작**|Windows 8.1 이상|Windows Phone 8.1 이상|아니요|아니요|아니요|
-|**새로 시작**|Windows 10 크리에이터스 업데이트 이상|아니요|아니요|아니요|아니요|
-|**새 원격 지원 세션**|아니요|아니요|아니요|아니요|예|
-|**사용자 제거**|아니요|아니요|iOS 9.3 및 이상(공유 iPad 장치만 해당)|아니요|아니요|
 
 ## <a name="next-steps"></a>다음 단계
 

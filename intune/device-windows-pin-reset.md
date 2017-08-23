@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 07/05/2017
+ms.date: 08/09/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,23 @@ ms.technology:
 ms.assetid: 5027d012-d6c2-4971-a9ac-217f91d67d87
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3688eef68fc9dcfced976db02c8d50126fa30da8
-ms.sourcegitcommit: fd5b7aa26446d2fa92c21638cb29371e43fe169f
+ms.openlocfilehash: 9cf2549852c5949ff1c95af12b40f59136d56e34
+ms.sourcegitcommit: 2ed8d1c39d4b3e3282111f1d758afb3a50f19f8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2017
+ms.lasthandoff: 08/10/2017
 ---
 # <a name="reset-the-passcode-on-windows-devices-integrated-with-the-microsoft-pin-reset-service-using-intune"></a>Intune을 사용하여 Microsoft PIN 재설정 서비스와 통합된 Windows 장치의 암호 재설정
 
 Windows 장치에 대한 암호 재설정 기능이 Microsoft PIN 재설정 서비스와 통합되어 Windows 10 Mobile을 실행하는 장치에 대한 새 암호를 생성할 수 있습니다. 장치에서 Windows 10 크리에이터스 업데이트 이상을 실행하고 있어야 합니다.
+
+## <a name="supported-platforms"></a>지원되는 플랫폼
+
+- Windows - Windows 10 크리에이터스 업데이트 이상에서 지원됨(Azure AD 연결)
+- Windows Phone - 지원되지 않음
+- iOS - 지원되지 않음
+- macOS - 지원되지 않음
+- Android - 지원되지 않음
 
 
 ## <a name="before-you-start"></a>시작하기 전에
@@ -43,10 +51,11 @@ Windows 장치에 대한 암호 재설정 기능이 Microsoft PIN 재설정 서�
 관리하는 Windows 장치에서 PIN 재설정을 구성하려면 [Intune Windows 10 사용자 지정 장치 정책](custom-settings-windows-10.md)을 사용하여 기능을 활성화합니다. 다음 Windows 정책 CSP(구성 서비스 공급자)를 사용하여 정책을 구성합니다.
 
 
-- **사용자의 경우** - **./User/Vendor/MSFT/PassportForWork/<tenant ID>/Policies/EnablePinRecovery**
-- **장치의 경우** - **./Device/Vendor/MSFT/PassportForWork/<tenant ID>/Policies/EnablePinRecovery**
+- **장치의 경우** - **./Device/Vendor/MSFT/PassportForWork/*tenant ID*/Policies/EnablePinRecovery**
 
-이 CSP의 값을 둘 다 **True**로 설정해야 합니다.
+*tenant ID*는 Azure Active Directory의 **속성** 페이지에서 얻을 수 있는 Azure Active Directory, Directory ID를 나타냅니다.
+
+이 CSP의 값을 **True**로 설정합니다.
 
 ## <a name="steps-to-reset-the-passcode"></a>암호 재설정 단계
 

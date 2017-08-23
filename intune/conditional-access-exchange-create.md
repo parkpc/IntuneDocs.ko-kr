@@ -1,7 +1,7 @@
 ---
 title: "온-프레미스 Exchange 조건부 액세스 정책 만들기 및 할당"
 titleSuffix: Intune on Azure
-description: "Intune에서 Exchange 온-프레미스 조건부 액세스 및 레거시 Exchange Online Dedicated를 구성하는 방법을 알아봅니다.\""
+description: "Intune에서 Exchange 온-프레미스 레거시 Exchange Online Dedicated의 조건부 액세스를 구성합니다."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b72dbe27b52be187a907392aea5a1803fb36e4d3
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: b02d7dfd2331db232269869fd941b687465f8221
+ms.sourcegitcommit: 7674efb7de5ad54390801165364f5d9c58ccaf84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 08/05/2017
 ---
 # <a name="how-to-create-and-assign-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated-in-microsoft-intune"></a>Microsoft Intune에서 Exchange 온-프레미스 및 레거시 Exchange Online Dedicated용 조건부 액세스 정책을 만들고 할당하는 방법
 

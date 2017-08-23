@@ -3,8 +3,8 @@ title: "Android for Work용 Intune 앱 구성 정책 사용"
 titleSuffix: Intune on Azure
 description: "앱 구성 정책을 사용하여 Android for Work 앱을 실행할 때 이 앱에 구성 데이터를 제공하는 방법을 알아봅니다.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 07/12/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: d0b6f3fe-2bd4-4518-a6fe-b9fd115ed5e0
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b86d2d7f4d295ed41168c9dfdbaf8d4c253a0f75
-ms.sourcegitcommit: 388c5f59bc992375ac63968fd7330af5d84a1348
+ms.openlocfilehash: 7486a62ed11b83f00414a74b2d816f6048826f73
+ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="how-to-use-microsoft-intune-app-configuration-policies-for-android-for-work"></a>Android for Work용 Microsoft Intune 앱 구성 정책을 사용하는 방법
 
