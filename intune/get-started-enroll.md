@@ -1,12 +1,12 @@
 ---
 title: "장치 등록 시작"
 titleSuffix: Intune on Azure
-description: 
+description: "iOS 장치의 전체 등록 과정을 안내하여 등록 과정을 알아봅니다."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 08/02/2017
+ms.date: 08/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,37 +15,26 @@ ms.assetid: b595848d-c451-43ab-812d-b22e0170fb7a
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7f52c9d44a91ed6547aadd712db42ea68cfd01dc
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: b072ca0ee5a1e4d0a4feb6972ee80fe717fe9f83
+ms.sourcegitcommit: 45204e0fb8cb4cce449e65f2f1d7bb6f6ac4ccf5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/16/2017
 ---
-# <a name="getting-started-enrolling-devices"></a>장치 등록 시작
-
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+# <a name="get-started-enrolling-devices"></a>장치 등록 시작
 
 Microsoft Intune을 사용하면 회사 데이터 보호를 유지하면서 직원들이 모바일 장치를 이용할 수 있습니다. 최종 사용자는 관리 콘솔보다 해당 장치에서 Intune을 조작하기 때문에 등록 환경을 숙지하는 것이 좋습니다. 그러면 잘 작성된 준수 정책과 경험을 결합하여 사용자에 대한 공감을 표시할 수 있습니다. 이는 특히 관리자가 볼 수 있는 정보를 사용자가 정확히 알게 되기 때문에 중요합니다.
 
-## <a name="what-it-cannot-see"></a>IT 부서에서 볼 수 없는 사항
-* 호출 및 웹 검색 기록
-* 위치
-* 개인 메일
-* 문자 메시지
-* 연락처
-* 개인 계정의 암호
-* 일정 이벤트
-* 사진 앱 또는 카메라 앨범에 있는 사진을 비롯한 사진
-
-## <a name="what-it-can-see"></a>IT 부서에서 볼 수 있는 사항
-* 모델
-* 일련 번호
-* 운영 체제 버전
-* 앱 이름
-* Owner
-* 장치 이름
-* (Apple에서 제조되지 않은 장치의) 제조업체
-* 전화 번호(업무용 장치의 경우 전체 번호, 개인 장치의 경우 마지막 4자리만)
+| IT 부서에서 볼 수 없는 사항 | IT 부서에서 볼 수 있는 사항 |
+|---|---|
+| 호출 및 웹 검색 기록 | 모델 |
+| 위치 | 일련 번호 |
+| 개인 메일 | 운영 체제 버전 |
+| 문자 메시지 | 앱 이름 |
+| 연락처 | Owner |
+| 개인 계정의 암호 | 장치 이름 |
+| 일정 이벤트 | (Apple에서 제조되지 않은 장치의) 제조업체 |
+| 사진 앱 또는 카메라 앨범에 있는 사진을 비롯한 사진 | 전화 번호(업무용 장치의 경우 전체 번호, 개인 장치의 경우 마지막 4자리만) |
 
 ## <a name="how-do-i-enroll-a-device"></a>장치를 등록하려면 어떻게 하나요?
 
@@ -67,3 +56,13 @@ Microsoft Intune을 사용하면 회사 데이터 보호를 유지하면서 직�
 14. 프로필 설치를 완료했다고 표시하도록 화면이 변경되면 **완료**를 탭합니다.
 15. "장치 등록 중" 메시지가 화면에 표시된 후 장치가 성공적으로 등록되었음을 보여 줍니다. 회사 포털에서 페이지를 열라는 팝업이 표시됩니다. **열기**를 탭합니다.
 16. **회사 액세스 설정** 화면으로 돌아갑니다. 테스트 정책이 설정되어 있지 않으면 장치가 규격으로 표시됩니다. 테스트 정책이 있는 경우 **장치 준수**를 탭하면 장치의 보안 유지를 위해 수행해야 하는 작업이 있다고 표시됩니다.
+
+## <a name="next-steps"></a>다음 단계
+
+[앱 추가 시작](get-started-apps.md) - 앱을 찾고 장치에 추가하여 직원이 작업을 수행할 수 있게 합니다.
+
+## <a name="learn-more"></a>자세한 정보
+
+* [Intune 등록 옵션](enrollment-options.md)
+* [Intune으로 Bring Your Own Device를 사용하도록 설정](byod-enable.md)
+* [등록 및 장치 관리에 대해 최종 사용자 교육](end-user-educate.md)

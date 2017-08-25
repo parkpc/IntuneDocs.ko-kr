@@ -6,7 +6,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 06/28/2017
+ms.date: 08/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
-ms.openlocfilehash: 066f8668ea37e928455792f512e4e337a1f19c20
-ms.sourcegitcommit: 2ed8d1c39d4b3e3282111f1d758afb3a50f19f8f
+ms.openlocfilehash: 32d3d014abc48eb2c3d0e10a71dc7f4616c49db8
+ms.sourcegitcommit: af013af8d9a63c9aa16e5e9eddf38ad9c5a77898
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 08/12/2017
 ---
 # <a name="use-the-troubleshooting-portal-to-help-users"></a>문제 해결 포털을 사용하여 사용자 지원
 
@@ -41,7 +41,7 @@ Intune 관리자의 경우 사용자 그룹에 지원 센터 운영자 역할을
 지원 센터 사용자를 추가하려면 다음을 수행하세요.
 1. 필요한 경우 [Intune에 사용자를 추가](users-add.md)하세요.
 2. [지원 센터 그룹을 만들고](groups-add.md) 사용자를 그룹에 추가하세요.
-3. [RBAC 지원 센터 운영자 역할 할당](role-based-access-control.md#built-in-roles)
+3. [RBAC 지원 센터 운영자 역할을 할당](role-based-access-control.md#built-in-roles)하세요.
 
   ![Intune 역할이 강조 표시되어 있고 지원 센터 운영자를 포함한 기본 역할 목록이 보이는 Intune 포털 스크린샷](./media/help-desk-user-add.png) 또한 [사용자 지정 역할을 생성하여](role-based-access-control.md#custom-roles) 지원 센터 운영자 액세스를 수정할 수도 있습니다.  지원 센터 운영자는 사용자 문제 해결을 위해 다음 권한이 필요합니다.
     - MobileApps: 읽기
@@ -61,8 +61,6 @@ Intune 관리자의 경우 사용자 그룹에 지원 센터 운영자 역할을
 - Azure 포털에 로그인하고 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택한 다음 **도움말 및 지원** > **문제 해결**로 이동합니다.
 
 **사용자 선택**을 클릭하여 사용자와 해당 사용자의 세부 정보를 봅니다.
-
-![사용자 선택 링크가 포함된 Intune 문제 해결 워크로드 스크린샷](media/help-desk-user.png)
 
 ## <a name="use-the-troubleshooting-portal"></a>문제 해결 포털 사용
 

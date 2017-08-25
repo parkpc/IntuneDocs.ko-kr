@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 08/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: f33d1684-b1b5-44f7-9aac-c6d5186a5d7c
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 4f0364750edf2e97e2b621c27fb25bea8e0f537c
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 0e1906de7e735174d660bb8508cab49196ff0aef
+ms.sourcegitcommit: 0b164f806165d312acfc88815a60e325e3d02672
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/21/2017
 ---
 # <a name="how-your-android-users-get-their-apps"></a>Android 사용자가 앱을 얻는 방법
 
@@ -32,6 +32,14 @@ ms.lasthandoff: 07/01/2017
 | ------------- |-------------| -----|
 | 사용 가능한 앱      | 회사 포털에서 **설치**를 누릅니다. 설치를 시작하려면 누르라는 알림이 나타납니다. 설치가 정상적으로 수행되면 알림이 사라집니다. | 사용자가 회사 포털에서 앱을 누르면 설치를 시작할 수 있는 Play 스토어의 앱 페이지로 이동됩니다.|
 | Required apps      | 사용자에 앱을 설치해야 함을 나타내는 알림이 표시되며 이 알림은 해제할 수 없습니다. 설치를 시작하려면 알림을 누릅니다. 설치가 정상적으로 수행되면 알림이 사라집니다.    | 사용자에 앱을 설치해야 함을 나타내는 알림이 표시되며 이 알림은 해제할 수 없습니다. 알림을 누르며 설치를 시작할 수 있는 Play 스토어의 앱 페이지로 이동됩니다. 설치가 정상적으로 수행되면 알림이 사라집니다. |
+
+[LOB 앱](lob-apps-android.md)을 설치하려면 최종 사용자가 알 수 없는 출처에서의 설치를 허용해야 합니다. 이러한 문제는 일반적으로 다음의 두 위치에서 발생합니다.
+
+* **Android 7.1.2 이하**: **설정** > **보안** > **출처를 알 수 없는 앱**
+* **Android 8.0 이상**: **설정** > **앱 및 알림** > **특수 앱 액세스** > **Install unknown apps**(알 수 없는 앱 설치) > **회사 포털** > **Allow from this source**(이 출처의 앱 허용)
+
+이 문제가 발생하면 회사 포털 앱에서 최종 사용자에게 알리고 직접 적절한 설정을 안내합니다. 
+
 
 ## <a name="samsung-knox-standard-android-devices"></a>Samsung Knox Standard Android 장치
 

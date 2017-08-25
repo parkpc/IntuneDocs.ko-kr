@@ -14,11 +14,11 @@ ms.assetid: A92DEF30-5D01-4774-9917-E26F5F0E2E68
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2e12792445b36ba6657cbe6b2f6c924f6d97fe3c
-ms.sourcegitcommit: addf6a40caa22c22adfd2e2eff7d666cd1877e3c
+ms.openlocfilehash: 6107059888c8d2fb6227277202a5906491ac9092
+ms.sourcegitcommit: b8ef9d8387b4d9b2ea4e6ce937635304771e6532
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 08/11/2017
 ---
 # <a name="reference-for-application-entities"></a>응용 프로그램 엔터티에 대한 참조
 
@@ -52,9 +52,9 @@ ms.lasthandoff: 08/04/2017
 | IsCurrent |이 앱 버전이 최신인지 또는 데이터 웨어하우스에 없는지 표시 |True/False |
 | RowLastModifiedDateTimeUTC |데이터 웨어하우스에서 이 앱 버전을 마지막으로 수정한 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
 
-## <a name="appinstallertypes"></a>AppInstallerTypes
+## <a name="apptypes"></a>AppTypes
 
-**AppInstallerTypes** 엔터티는 앱의 설치 원본을 나열합니다.
+**AppTypes** 엔터티는 앱의 설치 원본을 나열합니다.
 
 | 속성  | 설명 |
 |---------|------------|
@@ -80,44 +80,6 @@ ms.lasthandoff: 08/04/2017
 | 11 |Windows Mobile MSI |MSI 기간 업무 앱 |
 | 12 |Windows Phone LOB 앱 |Windows Phone LOB(기간 업무) 앱 |
 
-## <a name="applicationtypes"></a>ApplicationTypes
-
-**ApplicationTypes** 엔터티는 앱에 대해 가능한 유형을 나열합니다.
-
-| 속성  | 설명 |
-|---------|------------|
-| ApplicationTypeID |형식에 대한 ID |
-| ApplicationTypeKey |키에 대한 대리 키 |
-| ApplicationTypeName |앱 유형 |
-
-## <a name="example"></a>예
-
-| ApplicationTypeID  | Name | 설명 |
-|---------|------------|--------|
-| 0 |InHouse |사내에서 개발한 앱 |
-| 1 |DeepLink |앱 스토어 앱에 대한 링크 |
-| 2 |WebLink |웹앱에 대한 링크 |
-
-## <a name="managedsoftwaretypes"></a>ManagedSoftwareTypes
-
-**ManagedSoftwareTypes** 엔터티는 앱에 대해 가능한 관리 소프트웨어 유형을 나열합니다.
-
-| 속성  | 설명 |
-|---------|------------|
-| SoftwareTypeID |형식에 대한 ID |
-| SoftwareTypeKey |키에 대한 대리 키 |
-| SoftwareTypeName |소프트웨어 종류 |
-
-## <a name="example"></a>예
-
-| SoftwareTypeID  | Name | 설명 |
-|---------|------------|--------|
-| 0 |데스크톱 |데스크톱 앱 |
-| 2 |업데이트 |Window 업데이트 |
-| 5 |SideCarAgent | |
-| 1 |휴대폰 |모바일 앱 |
-| 3 |WebLink |웹 링크 |
-| 4 |VppDeepLink |VPP(Volume Purchase Program)의 일부인 앱 스토어에서 앱의 링크 |
 
 ## <a name="vppprogramtypes"></a>VppProgramTypes
 

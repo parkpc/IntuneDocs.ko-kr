@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/13/2017
+ms.date: 08/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f5617074-2384-4812-b913-dc94f64c0818
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e23c40eb4c13fd0d2593742c72086fc943fe2b54
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 43ab9e906f05a069b1399ab53a4861d7289b7024
+ms.sourcegitcommit: 6a089eb45ea3fb18ae0b2dac96683466f52f95bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/18/2017
 ---
 # <a name="how-to-manage-ios-ebooks-you-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Microsoft Intune을 사용하여 대량 구매 프로그램을 통해 구매한 iOS 전자책을 관리하는 방법
 
@@ -44,7 +44,6 @@ Microsoft Intune을 사용하면 이 프로그램을 통해 구매한 책을 동
 * 기본적으로 Intune에서는 하루에 두 번 Apple VPP 서비스와 동기화합니다. 언제든지 수동 동기화를 시작할 수 있습니다.
 * VPP 토큰을 Intune으로 가져온 후 같은 토큰을 다른 장치 관리 솔루션으로 가져오지 마세요. 가져오면 라이선스 할당과 사용자 레코드가 손실될 수 있습니다.
 * Intune에서 iOS 책을 사용하기 전에 다른 MDM(모바일 장치 관리) 공급업체를 사용하여 만든 기존 VPP 사용자 계정을 제거합니다. Intune은 보안 조치로 해당 사용자 계정을 Intune에 동기화하지 않습니다. Intune은 Intune에서 만든 Apple VPP 서비스의 데이터만 동기화합니다.
-* 현재 책은 **필수** 설치로만 할당할 수 있습니다. 전자책을 **필수** 설치로 할당하는 경우 전자책을 설치하는 각 사용자는 라이선스 하나를 사용합니다.
 * 장치에 책을 할당할 때 해당 장치에는 기본 제공 iBooks 앱이 설치되어 있어야 합니다. 이 앱이 설치되어 있지 않은 경우 최종 사용자는 앱을 다시 설치해야 전자책을 읽을 수 있습니다. 현재로는 Intune을 사용하여 제거된 기본 제공 앱을 복원할 수 없습니다.
 * Apple 대량 구매 프로그램 사이트의 책만 할당할 수 있습니다. 내부에서 만든 책은 업로드한 다음 할당할 수 없습니다.
 * 현재는 앱에 사용하는 것과 같은 방법으로 책을 최종 사용자 범주에 할당할 수 없습니다.
@@ -56,7 +55,7 @@ Microsoft Intune을 사용하면 이 프로그램을 통해 구매한 책을 동
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
-1.  **모바일 앱** 워크로드에서 **설정** > **iOS VPP 토큰**을 선택합니다.
+1.  **Mobile Apps** 워크로드에서 **설정** > **iOS VPP 토큰**을 선택합니다.
 2.  VPP 토큰 목록 블레이드에서 **추가**를 클릭합니다.
 3.  **새 VPP 토큰** 블레이드에서 다음 정보를 지정합니다.
     - **VPP 토큰 파일** - 비즈니스 또는 교육용 대량 구매 프로그램에 등록했는지 확인합니다. 그런 다음 계정용 Apple VPP 토큰을 다운로드하고 여기서 선택합니다.
@@ -72,10 +71,10 @@ Microsoft Intune을 사용하면 이 프로그램을 통해 구매한 책을 동
 ## <a name="to-assign-a-volume-purchased-app"></a>대량 구매 앱을 할당하려면
 
 1. **전자책** 워크로드에서 **관리** > **모든 전자책**을 선택합니다.
-2. 책 목록 블레이드에서 할당할 책을 선택한 다음 '**...**' > **그룹 할당**을 선택합니다.
+2. 전자책 목록 블레이드에서 할당할 전자책을 선택한 다음 ‘**...**’ > **그룹 할당**을 선택합니다.
 3. <*전자책 이름*> - **할당된 그룹** 블레이드에서 **관리** > **할당된 그룹**을 선택합니다.
 4. **그룹 할당**을 선택하고 **그룹 선택** 블레이드에서 전자책을 할당할 Azure AD 사용자 그룹을 선택합니다. 장치 그룹은 현재 지원되지 않습니다.
-**필수** 할당 작업을 선택합니다. 
+할당 작업 **사용 가능** 또는 **필수**를 선택합니다. 
 5. 작업이 끝나면 **저장**을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계

@@ -15,11 +15,11 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8197e03e8a3eb42c6a5be3b6357d959ed9428454
-ms.sourcegitcommit: 0e012f25fb22124f66193f20f244362493c6b8bb
+ms.openlocfilehash: 91fd4719a4305f5e422163f9049684ebd9e9e656
+ms.sourcegitcommit: bb1a1e4e0bc26543a9c8fb52cb208e298c6b8e3f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2017
+ms.lasthandoff: 08/19/2017
 ---
 # <a name="enable-ios-device-enrollment-with-apple-school-manager"></a>Apple School Manager를 통해 iOS 장치 등록 기능 사용
 
@@ -103,18 +103,16 @@ Apple School Manager 등록을 활성화하려면 Intune과 Apple School Manager
 
     - **감독됨** - 더 많은 관리 옵션을 사용할 수 있으며 기본적으로 활성화 잠금이 해제된 관리 모드입니다. 이 확인란을 비워 두면 관리 기능이 제한됩니다.
 
-    - **등록 잠김** - (관리 모드 = 감독됨이어야 함) 관리 프로필 제거를 허용하는 iOS 설정이 해제됩니다. 이 확인란을 비워 두면 설정 메뉴에서 관리 프로필을 제거할 수 있습니다.
+     - **등록 잠김** - (관리 모드 = 감독됨이어야 함) 관리 프로필 제거를 허용하는 iOS 설정이 해제됩니다. 이 확인란을 비워 두면 설정 메뉴에서 관리 프로필을 제거할 수 있습니다.
+   - **공유 iPad** - (**사용자 선호도를 사용하지 않고 등록** 및 **감독됨** 모드를 사용해야 함) 여러 사용자가 관리되는 Apple ID를 사용하여 등록된 iPad에 로그온할 수 있습니다. 관리되는 Apple ID는 Apple School Manager 포털에서 작성됩니다. [공유 iPad](education-settings-configure-ios-shared.md)에 대해 자세히 알아보세요.
+   >[!NOTE]
+   >**사용자 선호도**가 **사용자 선호도 사용**으로 설정되거나 **감독** 모드가 **꺼짐**으로 설정된 경우 등록 프로필에 대해 공유 iPad 모드가 사용되지 않습니다.
 
-  - **공유 iPad** - (**사용자 선호도를 사용하지 않고 등록** 및 **감독됨** 모드를 사용해야 함) 여러 사용자가 관리되는 Apple ID를 사용하여 등록된 iPad에 로그온할 수 있습니다. 관리되는 Apple ID는 Apple School Manager 포털에서 작성됩니다.
-
-  >[!NOTE]
-  >**사용자 선호도**가 **사용자 선호도 사용**으로 설정되거나 **감독** 모드가 **꺼짐**으로 설정된 경우 등록 프로필에 대해 공유 iPad 모드가 사용되지 않습니다.
-
-  - **최대 캐시된 사용자 수** - (**공유 iPad** = **예**를 설정해야 함) 각 사용자에 대해 장치에 파티션을 만듭니다. 일정 기간 동안 장치를 사용할 가능성이 높은 학생 수를 값으로 설정하는 것이 좋습니다. 예를 들어 주당 학생 6명이 장치를 정기적으로 사용하는 경우 이 수를 6으로 설정합니다.  
+        - **Maximum Cached Users** - (Requires **Shared iPad** = **Yes**) Creates a partition on the device for each user. The recommended value is the number of students likely to use the device over a period of time. For example, if six students use the device regularly during the week, set this number to six.  
 
     - **연결 허용** - iOS 장치를 컴퓨터와 동기화할 수 있는지 여부를 지정합니다. **인증서로 Apple Configurator 허용**을 선택한 경우 **Apple Configurator 인증서** 아래에서 인증서를 선택해야 합니다.
 
-    - **Apple Configurator 인증서** - **연결 허용** 아래에서 **인증서로 Apple Configurator 허용**을 선택한 경우 가져올 Apple Configurator 인증서를 선택합니다.
+      - **Apple Configurator 인증서** - **연결 허용** 아래에서 **인증서로 Apple Configurator 허용**을 선택한 경우 가져올 Apple Configurator 인증서를 선택합니다.
 
 7. **설정 도우미 설정**을 선택하고 다음 프로필 설정을 구성한 후 **저장**을 선택합니다.
 

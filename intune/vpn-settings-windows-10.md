@@ -15,11 +15,11 @@ ms.assetid: 495e4ed6-b2ef-47cc-a110-13fa9b5f85a6
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6f112983a33c1af24d288f19140114084575f36d
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 8e7fb7697f50706566210063605e9b5d750e0c90
+ms.sourcegitcommit: 5a4529aae710ca2abac5b4d2cfd92cb2df7e67cb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/17/2017
 ---
 # <a name="vpn-settings-for-windows-10-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 장치에 대한 VPN 설정
 
@@ -96,10 +96,13 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="conditional-access"></a>조건부 액세스
 
-**이 VPN 연결에 대한 조건부 액세스** -
-**대체 인증서를 사용한 SSO(Single Sign-On)** -
-**확장 키 사용** -
-**발급자 해시** -
+**이 VPN 연결에 대한 조건부 액세스** - 클라이언트에서 장치 준수 흐름이 가능하게 합니다. 사용하도록 설정하면, VPN 클라이언트가 인증에 사용할 인증서를 가져오기 위해 Azure Active Directory와 통신하려고 합니다. 인증서 인증을 사용하려면 VPN을 설정해야 하고, VPN 서버가 Azure Active Directory에서 반환된 서버를 신뢰해야 합니다.
+
+**대체 인증서를 사용한 SSO(Single Sign-On)** - 장치 준수에 대해 Kerberos 인증을 위한 VPN 인증 인증서와 다른 인증서를 사용합니다. 다음 설정으로 인증서를 지정합니다. 
+
+- **확장 키 사용** - EKU(확장 키 사용)의 이름입니다.
+- **개체 식별자** - EKU의 개체 식별자입니다.
+- **발급자 해시** - SSO 인증서의 지문입니다.
 
 ## <a name="dns-settings"></a>DNS 설정
 
