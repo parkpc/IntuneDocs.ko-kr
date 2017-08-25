@@ -11,11 +11,11 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: cf4ad6d4-423f-4826-ab8d-6eb7a7cfb559
-ms.openlocfilehash: dcc97e5bcffb35752b65e8ce275d38b9578da6fa
-ms.sourcegitcommit: bee30f4c9e04129d70305fcafc4152c6e062a8b0
+ms.openlocfilehash: 3514b580a4e35cc9e0813d6dd7fd0e1eee550d7c
+ms.sourcegitcommit: af013af8d9a63c9aa16e5e9eddf38ad9c5a77898
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2017
+ms.lasthandoff: 08/12/2017
 ---
 # <a name="enrollment-options-for-intune"></a>Intune 등록 옵션
 
@@ -41,6 +41,9 @@ iOS 및 macOS 장치 등록에는 MDM 푸시 인증서가 필요합니다. [MDM 
 ## <a name="corporate-identifiers"></a>회사 식별자
 
 IMEI(International Mobile Equipment Identity) 번호 또는 일련 번호를 표시하여 회사 소유의 장치를 식별할 수 있습니다. [기업 식별자](corporate-identifiers-add.md)에 대해 자세히 알아보세요.
+## <a name="multi-factor-authentication"></a>Multi-factor Authentication
+
+장치를 등록할 때 전화, PIN 또는 생체 인식 데이터와 같은 추가 확인 방법을 사용하도록 사용자에게 요구할 수 있습니다. [다단계 인증](multi-factor-authentication.md)에 대해 자세히 알아보세요.
 
 ## <a name="device-enrollment-manager"></a>장치 등록 관리자
 사용자를 장치 등록 관리자로 지정할 수 있습니다.  DEM 사용자는 단일 사용자 계정으로 많은 수의 모바일 장치를 등록할 수 있습니다. DEM(장치 등록 관리자) 계정은 최대 1,000개의 장치를 등록할 수 있습니다. [장치 등록 관리자](device-enrollment-manager-enroll.md)에 대해 자세히 알아보세요.

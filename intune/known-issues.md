@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 07/31/2017
+ms.date: 08/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d069775cf51e8c077a6f30123bf4fa2fe58b6bd8
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 5a9b7f69cded9258efb6c8a897e0c026f3228a6b
+ms.sourcegitcommit: c248b5a15894f0ade23bad4644c3b7035a9fcce8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Microsoft Intune의 알려진 문제
 
@@ -45,22 +45,24 @@ Intune의 새로운 기능을 요청하려면 [Uservoice](https://microsoftintun
 
 - 회사 장치 등록 프로필
 - Apple 장비 등록 프로그램
-- iOS 일련 번호 그룹을 통해 회사에서 사전 등록한 장치
-- 장치 등록 관리자
+- iOS 일련 번호로 회사 장치 미리 선언
+- 장치 등록 관리자 계정
 - Apple Volume Purchase Program
 
-이러한 기능은 클래식 Silverlight 및 Azure 콘솔에서 관리할 수 없으므로 마이그레이션에서는 다음 작업이 수행됩니다.
+이러한 기능은 클래식 Intune(Silverlight) 콘솔 및 Azure Portal에서 관리할 수 없으므로 마이그레이션에서는 다음 작업이 수행됩니다.
 - 클래식 콘솔에서 이러한 기능이 사용하지 않도록 설정됩니다.
-- Azure 콘솔에서 이러한 기능이 사용하도록 설정됩니다.  
+- Azure Portal에서 이러한 기능이 사용하도록 설정됩니다.  
+
+2017년 9월 11일 이후 이러한 기능의 마이그레이션은 Azure에 대한 기본 마이그레이션에 병합됩니다. 계정이 이미 Azure Portal을 사용하도록 마이그레이션된 경우 이 보조 마이그레이션은 2017년 9월 11일~22일에 수행됩니다. 계정 마이그레이션이 시작되면 같은 날 완료됩니다. 마이그레이션은 이러한 기능이 Intune 클래식 콘솔에서 사용하지 않도록 설정되는 시점으로부터 최대 6시간이 걸릴 수 있습니다.
 
 이제 Azure Portal에서 이러한 Intune 기능을 관리하는 경우 다음 사항에 유의하세요.
 
 #### <a name="removes-default-corporate-device-enrollment-profiles-in-apple-dep"></a>Apple DEP에서 기본 회사 장치 등록 프로필 제거
-Azure Portal에서는 Apple DEP(장치 등록 프로그램) 장치에 대한 기본 회사 장치 등록 프로필을 지원하지 않습니다. 클래식 Silverlight Intune 콘솔에서 사용할 수 있는 이 기능은 의도치 않은 프로필 할당을 방지하기 위해 중단됩니다. Azure Portal에서 DEP 일련 번호를 동기화할 때는 회사 장치 등록 프로필이 할당되지 않습니다. 등록 프로필은 장치를 사용하기 전에 할당해야 합니다.
+Azure Portal에서는 Apple DEP(장치 등록 프로그램) 장치에 대한 기본 회사 장치 등록 프로필을 지원하지 않습니다. 클래식 Intune(Silverlight) 콘솔에서 사용할 수 있는 이 기능은 의도치 않은 프로필 할당을 방지하기 위해 중단됩니다. Azure Portal에서 DEP 일련 번호를 동기화할 때는 회사 장치 등록 프로필이 할당되지 않습니다. 등록 프로필은 장치를 사용하기 전에 할당해야 합니다.
 
 #### <a name="apple-dep-token-restored-with-migration"></a>Apple DEP 토큰이 마이그레이션 시 복원됨
 
-Intune 클래식(Silverlight) 포털에서 Apple 장비 등록 프로그램 토큰을 삭제했으며 Azure Portal에 새 토큰을 업로드하지 않으면 마이그레이션 시 원래 토큰이 Azure Portal에서 복원됩니다. 이 토큰을 제거하고 DEP 등록을 방지하려면 Azure Portal에서 토큰을 삭제하세요.
+클래식 Intune(Silverlight) 포털에서 Apple 장비 등록 프로그램 토큰을 삭제했으며 Azure Portal에 새 토큰을 업로드하지 않으면 마이그레이션 시 원래 토큰이 Azure Portal에서 복원됩니다. 이 토큰을 제거하고 DEP 등록을 방지하려면 Azure Portal에서 토큰을 삭제하세요.
 
 ### <a name="status-blades-for-migrated-policies-do-not-work"></a>마이그레이션한 정책에 대한 상태 블레이드가 작동하지 않음
 
@@ -72,7 +74,7 @@ Intune 클래식(Silverlight) 포털에서 Apple 장비 등록 프로그램 토�
 iOS 대량 구매 앱은 Intune 계정과 동일한 국가 코드에 대해서만 표시되며 할당할 수 있습니다. Intune은 Intune 테넌트 계정 국가 코드와 동일한 iTunes 로캘의 앱만 동기화합니다. 예를 들어 미국 스토어에서만 사용할 수 있는 앱을 구매했는데 Intune 계정이 독일어라면 Intune에 해당 앱이 표시되지 않습니다.
 
 ### <a name="multiple-copies-of-the-same-ios-volume-purchase-program-are-uploaded"></a>동일한 iOS 대량 구매 프로그램의 여러 복사본이 업로드됨
-동일한 VPP 토큰에 대해 **업로드** 단추를 여러 번 클릭하지 마세요. 여러 번 클릭하면 중복 VPP 토큰이 업로드되고, 동일한 VPP 토큰에 대해 앱이 여러 번 동기화됩니다. 
+동일한 VPP 토큰에 대해 **업로드** 단추를 여러 번 클릭하지 마세요. 여러 번 클릭하면 중복 VPP 토큰이 업로드되고, 동일한 VPP 토큰에 대해 앱이 여러 번 동기화됩니다.
 
 <!-- ## Groups -->
 
@@ -84,8 +86,9 @@ Intune에 등록되지 않은 장치의 경우 Windows Information Protection �
 **고급 설정** > **네트워크 경계** > **보호된 도메인 추가**를 사용하여 도메인을 더 추가하는 경우 정책을 저장할 수 없습니다. 표시되는 오류 메시지는 조만간 보다 정확하게 변경될 예정입니다.
 
 ### <a name="cisco-anyconnect-vpn-client-support"></a>Cisco AnyConnect VPN 클라이언트 지원
- 
-Cisco AnyConnect VPN 클라이언트(4.0.07072)의 최신 릴리스는 현재 Intune과 호환되지 않습니다. 향후 Intune 업데이트에는 이 VPN 클라이언트 버전과의 호환성이 포함됩니다. 그때까지 Cisco AnyConnect VPN 클라이언트를 업데이트하지 말고 기존 버전을 계속 사용하는 것이 좋습니다.
+
+Cisco AnyConnect VPN 클라이언트(4.0.07072)의 최신 릴리스는 현재 Intune과 호환되지 않습니다.
+향후 Intune 업데이트에는 이 VPN 클라이언트 버전과의 호환성이 포함됩니다. 그때까지 Cisco AnyConnect VPN 클라이언트를 업데이트하지 말고 기존 버전을 계속 사용하는 것이 좋습니다.
 
 ### <a name="using-the-numeric-password-type-with-macos-sierra-devices"></a>macOS Sierra 장치에서 숫자 암호 유형 사용
 
@@ -118,16 +121,3 @@ Cisco AnyConnect VPN 클라이언트(4.0.07072)의 최신 릴리스는 현재 In
 전역 관리자(테넌트 관리자라고도 함)는 별도의 Intune 또는 EMS(Enterprise Mobility Suite) 라이선스 없이 일상적인 관리 작업을 계속 수행할 수 있습니다. 그러나 자신의 장치나 회사 장치 등록 또는 Intune 회사 포털 사용 등의 서비스를 사용하려는 전역 관리자에게는 Intune 또는 EMS 라이선스가 필요합니다.
 
 <!-- ## Additional items -->
-
-
-
-
-
-
-
-
-
-
-
-
- 

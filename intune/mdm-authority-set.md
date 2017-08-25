@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 05/31/2017
+ms.date: 08/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 97dede1ac393a434342f62d1f8488389dcb28d44
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: dfcd7b97848ed68edb4572429abc53a1cc8f8558
+ms.sourcegitcommit: 0b164f806165d312acfc88815a60e325e3d02672
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/21/2017
 ---
 # <a name="set-the-mobile-device-management-authority"></a>모바일 장치 관리 기관 설정
 
@@ -40,11 +40,27 @@ Configuration Manager 버전 1610 이상과 Microsoft Intune 버전 1705에서�
 
 ## <a name="set-mdm-authority-to-intune"></a>MDM 기관을 Intune으로 설정
 
-1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-  ![사용자 선택 링크가 포함된 Intune 문제 해결 작업 스크린샷](media/set-mdm-auth.png)
+1. [Azure Portal](https://portal.azure.com)에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 2. Intune 블레이드에서 **장치 등록**을 선택한 다음 **개요**를 선택합니다.
+![Intune의 모바일 장치 관리 기관 설정 화면 스크린샷](media/set-mdm-auth.png)
 
-3. **장치 관리 시작** 블레이드에서 **MDM 기관을 Intune으로 설정**을 선택합니다. MDM 기관을 Intune으로 설정했음을 나타내는 메시지가 표시됩니다.
+3. **모바일 장치 관리 기관** 아래에서, 다음 옵션 중에서 MDM 기관을 선택합니다.
+  - **Intune MDM 기관**
+  - **Configuration Manager MDM 기관**
+  - **없음**
+
+  MDM 기관을 Intune으로 설정했음을 나타내는 메시지가 표시됩니다.
+
+## <a name="enable-device-enrollment"></a>장치 등록 사용
+
+Intune을 MDM 기관으로 설정하면, 사용자는 회사 포털을 설치하고(iOS 및 Android) 회사 자격 증명을 추가하거나(Windows) 회사 포털 웹 사이트에 액세스하여(iOS, Android, macOS) 다음과 같은 방법으로 개인적으로 소유한 장치를 등록하고 메일과 같은 리소스에 대한 액세스 권한을 얻을 수 있습니다.
+
+다양한 플랫폼은 등록을 사용하도록 설정하거나 간소화하기 위한 다음과 같은 요구 사항이 있습니다.
+- **iOS** - (필수) [Apple MDM 푸시 인증서 가져오기](apple-mdm-push-certificate-get.md) 및 [회사 소유 iOS 장치에 대해 등록 사용](ios-enroll.md)(선택 사항)
+- **Android** - (선택 사항) [Android 회사 프로필 사용](android-enroll.md)
+- **Windows** - (선택 사항) [자동 등록](windows-enroll.md) 또는 [대량 등록](windows-bulk-enroll.md) 사용
+- **macOS** - 요구 사항 없음
+
 
 ## <a name="mobile-device-cleanup-after-mdm-certificate-expiration"></a>MDM 인증서 만료 후 모바일 장치 정리
 

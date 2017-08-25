@@ -175,7 +175,6 @@
 ### [iOS 교육 설정 구성](education-settings-configure-ios.md)
 ### [iOS 교육 공유 장치 구성](education-settings-configure-ios-shared.md)
 ### [iOS 업데이트 정책 구성](software-updates-ios.md)
-### [비즈니스용 Windows 업데이트 설정 구성](windows-update-for-business-configure.md)
 ### [인증서 구성](certificates-configure.md)
 #### [SCEP](certificates-scep-configure.md)
 #### [PKCS](certficates-pfx-configure.md)
@@ -237,7 +236,7 @@
 <!-- ### Protect devices with remote actions -->
 
 ## [역할 관리](role-based-access-control.md)
-
+## [소프트웨어 업데이트 관리](windows-update-for-business-configure.md)
 
 ## [소프트웨어 에이전트로 PC 관리](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune?toc=/intune/toc.json)
 ### [PC 관리 비교](/intune-classic/deploy-use/pc-management-comparison?toc=/intune/toc.json)
