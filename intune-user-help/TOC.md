@@ -1,16 +1,111 @@
 # Intune 사용자 도움말
+
 ## [관리되는 장치를 사용하여 작업 완료](use-managed-devices-to-get-work-done.md)
+
 ## [회사에서 Intune을 사용하여 볼 수 있는 정보는 무엇인가요?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
+
 ## [장치를 초기화하게 되면 어떻게 되나요?](what-happens-if-you-reset-your-device-cpwebsite.md)
+
 ## [회사 포털에 로그인하는 방법](sign-in-to-the-company-portal.md)
+
 ## [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
 ### [Android 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
+### [장치 등록](enroll-your-device-in-Intune-android.md)
+#### [Android for Work로 장치 등록](create-a-work-profile-and-enroll-your-device-in-intune-android.md)
+### [장치에서 관리되는 앱 사용](use-managed-apps-on-your-device-android.md)
+### [장치 암호화](encrypt-your-device-android.md)
+### [PIN 또는 암호 설정](set-your-pin-or-password-android.md)
+### [장치를 초기화하게 되면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
+### [장치 재설정](reset-erase-your-device-cpwebsite.md)
+### [잠금 시간 설정](set-the-amount-of-time-before-your-device-is-locked-android.md)
+### [VPN 설치](install-your-companys-virtual-private-network-VPN-android.md)
+### [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-android.md)
+### [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-android.md)
+#### [장치 등록 취소](unenroll-your-device-from-intune-android.md)
+#### [사용 약관을 거부한 경우 장치 등록 취소](unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
+
 ### [Android의 일반적인 문제 해결](troubleshoot-your-device-android.md)
+#### [장치 준수 확인](check-compliance-on-your-device-android.md)
+
+#### [로그를 사용하여 문제 해결]
+##### [자세한 정보 로깅 설정](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
+##### [전자 메일을 사용하여 로그 보내기](send-logs-to-your-it-admin-by-email-android.md)
+##### [USB 케이블을 사용하여 로그 보내기](send-logs-to-your-it-admin-using-cable-android.md)
+##### [등록 오류 제출](send-enrollment-errors-to-your-it-admin-android.md)
+
+### 운영 체제 질문
+#### [장치 업데이트](you-need-to-update-your-android-device.md)
+#### [지원되지 않는 버전](your-android-version-isnt-yet-supported.md)
+#### [장치가 루팅되었으며 연결할 수 없는 경우](your-device-is-rooted-and-you-cant-connect-android.md)
+#### [필요한 인증서 누락](your-device-is-missing-a-required-certificate-landing-android.md)
+#### [알 수 없는 소스 끄기](you-need-to-turn-off-unknown-sources-android.md)
+#### [USB 디버깅 끄기](you-need-to-turn-off-usb-debugging-android.md)
+#### [보안 위협 검색 설정](you-need-to-turn-on-scanning-for-security-threats-android.md)
+#### [지원되지 않는 보안 패치](you-need-to-update-your-device-OS-security-patch-android.md)
+#### [암호화 오류가 있는 장치](your-device-appears-encrypted-but-cp-says-otherwise-android.md)
+
+### Mobile Threat Defense
+#### [모바일 위협 방어 앱 설치](you-are-prompted-to-install-mtd-android.md)
+#### [위협 해결](you-need-to-resolve-a-threat-found-by-mtd-android.md)
+
+
 ## [Intune에서 iOS 또는 macOS 장치 사용](using-your-iOS-or-macOS-device-with-intune.md)
 ### [iOS 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
+### [회사 포털 설치 및 로그인](install-and-sign-in-to-the-intune-company-portal-app-ios.md)
+### [iOS 장치 등록](enroll-your-device-in-intune-ios.md)
+### [macOS 장치 등록](enroll-your-device-in-intune-macos.md)
+### [회사 포털로 macOS 장치 등록](enroll-your-device-in-intune-macos-cp.md)
+
+### [장치에서 관리되는 앱 사용](use-managed-apps-on-your-device-ios.md)
+### [암호 설정 또는 변경](set-or-change-your-passcode-ios.md)
+### [회사 포털을 사용하여 장치를 재설정하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-ios.md)
+### [장치 재설정](reset-erase-your-device-cpwebsite.md)
+### [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-ios.md)
+### [장치 등록 취소](unenroll-your-device-from-intune-ios.md)
+#### [장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-ios.md)
+### [수동으로 장치 동기화](sync-your-device-manually-ios.md)
+
 ### [iOS의 일반적인 문제 해결](troubleshoot-your-device-iOS.md)
-## [Intune에서 Windows 장치 사용](using-your-windows-device-with-intune.md)
+#### [손상된 iOS 장치 다시 연결](how-to-reconnect-a-compromised-ios-device.md)
+#### [회사에 오류 전송](send-errors-to-your-it-admin-ios.md)
+#### [Microsoft에 오류 전송](send-logs-to-microsoft-ios.md)
+#### [오류가 표시됨](you-get-an-error-while-using-the-company-portal-app-ios.md)
+#### [장치 식별](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md)
+#### [일련 번호 찾기](how-do-i-find-the-serial-number-on-my-device-ios.md)
+#### [iOS 장치 업데이트](you-need-to-update-your-ios-device.md)
+#### [내 iOS 버전이 아직 지원되지 않음](your-ios-version-isnt-yet-supported.md)
+
+### Mobile Threat Defense
+#### [모바일 위협 방어 앱 설치](you-are-prompted-to-install-mtd-ios.md)
+#### [위협 해결](you-need-to-resolve-a-threat-found-by-mtd-ios.md)
+
+
+## [Windows 장치 사용](using-your-windows-device-with-intune.md)
 ### [Windows 10 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
-### [Windows 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
+### [다른 버전의 Windows로 Windows 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
+
+### [Windows 장치 등록](enroll-your-device-in-intune-windows.md)
+### [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
+### [장치 재설정](reset-erase-your-device-cpwebsite.md)
+
+### [장치 암호화](encrypt-your-device-windows.md)
+### [암호 설정 또는 변경](set-or-change-your-password-windows.md)
+### [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-windows.md)
+### [장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-windows.md)
+### [장치를 초기화하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-windows.md)
+### [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-windows.md)
+### [수동으로 장치 동기화](sync-your-device-manually-windows.md)
+
 ### [Windows의 일반적인 문제 해결](troubleshoot-your-device-windows.md)
+#### [내 Windows 10 장치가 등록되지 않음](troubleshoot-your-windows-10-device-windows.md)
+#### [Windows 장치 업데이트](you-need-to-update-your-windows-device.md)
+#### [회사 포털 앱에서 로그 전송](send-logs-to-your-it-admin-cp-windows.md)
+#### [설정 앱에서 로그 전송](send-logs-to-your-it-admin-settings-windows.md)
+#### [내 Windows 버전이 아직 지원되지 않음](your-windows-version-isnt-yet-supported.md)
+#### [Windows 암호화 사용](you-need-to-enable-windows-encryption.md)
+#### [내 장치에 맬웨어 방지 소프트웨어가 필요함](your-device-needs-antimalware-software.md)
+#### [보안 부팅 사용](you-need-to-enable-secure-boot-windows.md)
+#### [코드 무결성 사용](you-need-to-enable-code-integrity.md)
+
+
 ## [Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
