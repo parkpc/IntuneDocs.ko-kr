@@ -40,6 +40,8 @@
 ### [추가 리소스](planning-guide-resources.md)
 ## 시나리오 구현 가이드
 ### [BYOD](byod-enable.md)
+### [Exchange Online 보호](exchange-online-protect.md)
+### [지원 센터 비용 절감](password-reset.md)
 <!--### [Protect O365 data](/enterprise-mobility-security/solutions/protect-office365-data-with-intune?toc=/intune/toc.json)
 ### [Protect on-premises data](/enterprise-mobility-security/solutions/protect-on-premises-data-with-intune?toc=/intune/toc.json)
 ### [Protect data without enrollment](/enterprise-mobility-security/solutions/protect-company-data-without-managing-devices?toc=/intune/toc.json)
