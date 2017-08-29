@@ -6,7 +6,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 08/11/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
-ms.openlocfilehash: 32d3d014abc48eb2c3d0e10a71dc7f4616c49db8
-ms.sourcegitcommit: af013af8d9a63c9aa16e5e9eddf38ad9c5a77898
+ms.openlocfilehash: c932781f988d63395b98452a4f4739e0bce1d9c8
+ms.sourcegitcommit: ce8a1f0f4e95444949556600d1837937b6efd769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2017
+ms.lasthandoff: 08/28/2017
 ---
 # <a name="use-the-troubleshooting-portal-to-help-users"></a>문제 해결 포털을 사용하여 사용자 지원
 
@@ -29,7 +29,6 @@ ms.lasthandoff: 08/12/2017
 예를 들어 사용자가 Intune과 관련된 기술 문제를 지원 센터에 문의하면 지원 센터 운영자가 사용자 이름을 입력합니다. Intune에서는 다음과 같은 여러 계층 1 문제를 해결하는 데 사용할 수 있는 유용한 데이터를 표시합니다.
 - 사용자 상태
 - 할당
-- 앱 설치 오류
 - 규정 준수 문제
 - 장치가 응답하지 않음
 -   장치가 Wi-Fi 또는 VPN 설정을 가져오지 않음
