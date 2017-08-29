@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5d5d8e0500a0ee928b1037a978f6d4dadab71495
-ms.sourcegitcommit: 2ed8d1c39d4b3e3282111f1d758afb3a50f19f8f
+ms.openlocfilehash: ba953f1f471cc8bdbfdadad75c8f4eeb8acc2279
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 08/25/2017
 ---
 # <a name="the-early-edition-for-microsoft-intune---august-2017"></a>Microsoft Intune 초기 버전 - 2017년 8월
 
@@ -57,15 +57,12 @@ ms.lasthandoff: 08/10/2017
 URL, 패키지 이름 또는 관리하는 앱 목록을 통해 앱을 지정할 수 있습니다.
 
 ### <a name="new-settings-for-windows-10-device-restriction-profile"></a>Windows 10 장치 제한 프로필에 대한 새로운 설정
-<!--- 978575, 1308849, 1308850 -->
+<!--- 978575, 1308849, -->
 Windows Defender SmartScreen 범주의 Windows 10 장치 제한 프로필에 새 설정을 추가합니다.
 
 Windows 10 장치 제한 프로필에 대한 세부 정보는 [Windows 10 이상 장치 제한 설정]( device-restrictions-windows-10.md)을 참조하세요.
 
-### <a name="new-device-restriction-settings-for-windows-10------1063965---"></a>Windows 10의 새 장치 제한 설정   <!-- 1063965 -->
-[Windows 10 장치 제한 프로필](/intune/device-restrictions-windows-10)에 대한 새로운 설정을 다음 범주에 추가합니다.
-- Windows Defender SmartScreen
-- 앱 스토어
+
 
 
 ### <a name="android-for-work-support-for-lookout----1087312---"></a>Android for Work의 Lookout 지원 <!-- 1087312 -->   
@@ -120,8 +117,6 @@ Intune 서비스에서 관리되는 Windows Phone 8.1 장치에 대한 즉각적
 ### <a name="improved-error-message-for-when-a-user-reaches-the-maximum-number-of-devices-allowed-to-enroll----1270370---"></a>사용자가 등록이 허용된 최대 장치 수에 도달하면 표시되는 향상된 오류 메시지 <!-- 1270370 -->
 일반 오류 메시지 대신 최종 사용자에게 “IT 관리자가 허용한 최대 장치 수를 등록했습니다. 등록된 장치를 제거하거나 IT 관리자에게 도움을 요청하십시오.”라는 친숙하고 조치를 수행할 수 있는 오류 메시지가 표시됩니다.
 
-### <a name="new-signed-in-experience-for-android-company-portal-users-and-app-protection-policy-users----621669---"></a>Android 회사 포털 사용자와 앱 보호 정책 사용자의 새로 로그인된 환경 <!-- 621669 -->
-최종 사용자가 Android 장치를 등록하지 않고 Android 회사 포털 앱을 사용하여 앱을 찾아보고, 장치를 관리하며, IT 연락처 정보를 볼 수 있습니다. 또한 최종 사용자가 이미 Intune 앱 보호 정책을 통해 보호된 앱을 사용하고, Android 회사 포털을 시작하는 경우 최종 사용자에게 더 이상 장치를 등록하라는 메시지가 표시되지 않습니다. 
 
 ### <a name="inform-end-users-what-device-information-can-be-seen-for-ios---739894--"></a>iOS에 대해 표시되는 장치 정보를 최종 사용자에게 알리기 <!--739894-->
 iOS용 회사 포털 앱에서 장치 세부 정보 화면에 **소유권 형식**을 추가합니다. 그러면 이 페이지를 통해 Intune 최종 사용자 문서에서 직접 정책에 대한 자세한 내용을 찾아볼 수 있습니다. 정보 화면에서도 이 정보를 찾을 수 있습니다.
