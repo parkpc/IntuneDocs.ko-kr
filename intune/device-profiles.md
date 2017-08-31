@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/28/2017
+ms.date: 08/23/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid:
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5288bfc3aebbd119b49ef5261944840fd863afa5
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 95ce3b6a307a71431b9717abdc3980f15a916a18
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/25/2017
 ---
 # <a name="what-are-microsoft-intune-device-profiles"></a>Microsoft Intune 장치 프로필이란?
 
@@ -74,7 +74,7 @@ Windows 시험 응시(Windows Take a Test) 앱에 대한 옵션을 구성할 수
 자세한 내용은 [Windows 10 버전 업그레이드를 구성하는 방법](edition-upgrade-configure-windows-10.md) 지원: Windows 10만 해당을 참조하세요.
 
 ## <a name="endpoint-protection"></a>Endpoint Protection
-이 프로필 유형을 사용하면 Windows 10 장치에 대한 BitLocker 설정을 구성할 수 있습니다.
+이 프로필 유형을 사용하면 Windows 10 장치에 대한 BitLocker 및 Windows Defender 설정을 구성할 수 있습니다.
 자세한 내용은 [Windows 10에 대한 Endpoint Protection 설정](endpoint-protection-windows-10.md) 지원: Windows 10만 해당을 참조하세요.
 
 ## <a name="windows-information-protection"></a>Windows Information Protection

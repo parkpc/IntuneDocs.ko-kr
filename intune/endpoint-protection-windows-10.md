@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/28/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,17 @@ ms.assetid: 3af7c91b-8292-4c7e-8d25-8834fcf3517a
 ms.reviewer: ilwu
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4994656afcf1cdb97fdcd3877f6dabdadfb7d374
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: f38320ca84a734f645c3d8554c5aef53836fd1be
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/25/2017
 ---
 # <a name="endpoint-protection-settings-for-windows-10-and-later-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 이상용 Endpoint Protection 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Endpoint Protection 프로필을 사용하면 BitLocker와 같은 Windows 10 장치의 보안 기능을 제어할 수 있습니다.
+Endpoint Protection 프로필을 사용하면 BitLocker와 같은 Windows 10 장치 및 Windows Defender의 보안 기능을 제어할 수 있습니다.
 
 이 항목의 정보를 사용하여 Endpoint Protection 프로필을 만드는 방법을 알아봅니다.
 
@@ -38,13 +38,18 @@ Endpoint Protection 프로필을 사용하면 BitLocker와 같은 Windows 10 장
 3. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.
 4. **프로필 만들기** 블레이드에서 장치 기능 프로필에 대한 **이름** 및 **설명**을 입력합니다.
 5. **플랫폼** 드롭다운 목록에서 **Windows 10 이상**을 선택합니다.
-6. **프로필 유형** 드롭다운 목록에서 **Endpoint Protection**을 선택합니다. 
+6. **프로필 유형** 드롭다운 목록에서 **Endpoint Protection**을 선택합니다.
 7. **Windows 암호화** 블레이드에서 원하는 설정을 구성합니다. 이 항목의 세부 정보를 사용하여 각 설정의 기능을 파악합니다. 작업이 끝나면 **확인**을 선택합니다.
 8. **프로필 만들기** 블레이드로 돌아간 다음 **만들기**를 선택합니다.
 
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
 
-## <a name="endpoint-protection-profile-settings-reference"></a>Endpoint Protection 프로필 설정 참조
+## <a name="windows-defender-smartscreen-settings"></a>Windows Defender SmartScreen 설정
+
+- **앱 및 파일용 SmartScreen** - 파일 실행 및 앱 실행에 대해 Windows SmartScreen을 사용하도록 설정합니다.
+- **확인되지 않은 파일 실행** - Windows SmartScreen에서 확인하지 않은 파일을 최종 사용자가 실행하지 못하도록 차단합니다.
+
+## <a name="windows-encryption-settings"></a>Windows 암호화 설정
 
 ### <a name="windows-settings"></a>Windows 설정
 
@@ -62,16 +67,16 @@ Endpoint Protection 프로필을 사용하면 BitLocker와 같은 Windows 10 장
 
 ### <a name="bitlocker-os-drive-settings"></a>BitLocker OS 드라이브 설정
 
-- **시작 시 추가 인증 필요** - 
-    - **호환 TPM 칩이 없는 장치에서 BitLocker 차단** - 
-    - **TPM 시작** - TPM 칩이 허용되는지, 허용되지 않는지 또는 필수인지를 구성합니다. 
-    - **TPM 시작 PIN** - TPM 칩과 함께 시작 PIN을 사용하는 것이 허용되는지, 허용되지 않는지 또는 필수인지를 구성합니다. 
-    - **TPM 시작 키** - TPM 칩과 함께 시작 키를 사용하는 것이 허용되는지, 허용되지 않는지 또는 필수인지를 구성합니다. 
+- **시작 시 추가 인증 필요** -
+    - **호환되지 않는 TPM 칩과 BitLocker** -
+    - **TPM 시작** - TPM 칩이 허용되는지, 허용되지 않는지 또는 필수인지를 구성합니다.
+    - **TPM 시작 PIN** - TPM 칩과 함께 시작 PIN을 사용하는 것이 허용되는지, 허용되지 않는지 또는 필수인지를 구성합니다.
+    - **TPM 시작 키** - TPM 칩과 함께 시작 키를 사용하는 것이 허용되는지, 허용되지 않는지 또는 필수인지를 구성합니다.
     - **TPM 시작 키 및 PIN** - TPM 칩과 함께 시작 키와 PIN을 사용하는 것이 허용되는지, 허용되지 않는지 또는 필수인지를 구성합니다.
 - **최소 PIN 길이** - TPM 시작 PIN의 최소 길이를 구성하려면 이 설정을 사용하도록 설정합니다.
     - **최소 문자** - 시작 PIN에 필요한 문자 수를 **4**-**20** 사이로 입력합니다.
 - **OS 드라이브 복구 활성화** - 필요한 시작 정보를 사용할 수 없을 경우 BitLocker로 보호된 운영 체제 드라이브가 복구되는 방법을 제어하려면 이 설정을 사용하도록 설정합니다.
-    - **인증서 기반 데이터 복구 에이전트 허용** - 데이터 복구 에이전트를 BitLocker로 보호된 운영 체제 드라이브와 함께 사용할 수 있게 하려면 이 설정을 사용하도록 설정합니다.
+    - **인증서 기반 데이터 복구 에이전트** - 데이터 복구 에이전트를 BitLocker로 보호된 운영 체제 드라이브와 함께 사용할 수 있게 하려면 이 설정을 사용하도록 설정합니다.
     - **사용자의 복구 암호 생성** - 사용자가 48자리 복구 암호를 생성하는 것이 허용되는지, 허용되지 않는지 또는 필수인지를 구성합니다.
     - **사용자의 복구 키 생성** - 사용자가 256비트 복구 키를 생성하는 것이 허용되는지, 허용되지 않는지 또는 필수인지를 구성합니다.
     - **BitLocker 설치 마법사에서 복구 옵션 숨기기** - 사용자가 BitLocker를 켤 때 복구 옵션을 보거나 변경할 수 없게 하려면 이 설정을 사용하도록 설정합니다.
@@ -92,7 +97,7 @@ Endpoint Protection 프로필을 사용하면 BitLocker와 같은 Windows 10 장
 
 - **BitLocker로 보호되지 않는 고정 데이터 드라이브에 대한 쓰기 액세스 거부** - 사용하도록 설정된 경우 모든 고정 데이터 드라이브 또는 기본 제공 데이터 드라이브에서 BitLocker 보호를 사용하도록 설정해야 드라이브에 쓸 수 있습니다.
 - **고정식 드라이브 복구 사용** - 필요한 시작 정보를 사용할 수 없을 경우 BitLocker로 보호된 고정 드라이브가 복구되는 방법을 제어하려면 이 설정을 사용하도록 설정합니다.
-    - **데이터 복구 에이전트 허용** - 데이터 복구 에이전트를 BitLocker로 보호된 고정 드라이브와 함께 사용하려면 이 설정을 사용하도록 설정합니다.
+    - **데이터 복구 에이전트** - 데이터 복구 에이전트를 BitLocker로 보호된 고정 드라이브와 함께 사용하려면 이 설정을 사용하도록 설정합니다.
     - **사용자의 복구 암호 생성** - 사용자가 48자리 복구 암호를 생성하는 것이 허용되는지, 허용되지 않는지 또는 필수인지를 구성합니다.  
     - **사용자의 복구 키 생성** - 사용자가 256비트 복구 키를 생성하는 것이 허용되는지, 허용되지 않는지 또는 필수인지를 구성합니다.
     - **BitLocker 설치 마법사에서 복구 옵션 숨기기** - 사용자가 BitLocker를 켤 때 복구 옵션을 보거나 변경할 수 없게 하려면 이 설정을 사용하도록 설정합니다.
@@ -113,5 +118,3 @@ Endpoint Protection 프로필을 사용하면 BitLocker와 같은 Windows 10 장
 ## <a name="next-steps"></a>다음 단계
 
 계속해서 이 프로필을 그룹에 할당하려면 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
-
-

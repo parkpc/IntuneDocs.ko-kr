@@ -14,11 +14,11 @@ ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b900cb2c2c02ca96a771dbebd208872941079e38
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: a684f7ab5841513e8e72a5e6c0af99f52e5fd207
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/25/2017
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-component"></a>Microsoft Intune 앱 SDK Xamarin 구성 요소
 
@@ -30,12 +30,12 @@ ms.lasthandoff: 07/01/2017
 ## <a name="overview"></a>개요
 [Intune 앱 SDK Xamarin 구성 요소](https://components.xamarin.com/view/microsoft.intune.mam)는 Xamarin에 내장된 iOS 및 Android 앱의 [Intune 앱 보호 정책](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)을 사용하도록 설정합니다. 개발자는 구성 요소를 사용하여 Intune 앱 보호 기능을 Xamarin 기반 앱에 손쉽게 빌드할 수 있습니다.
 
-앱의 동작을 변경하지 않고 SDK 기능을 사용하도록 설정할 수 있습니다. 구성 요소를 iOS 또는 Android 모바일 앱에 구성하면 IT 관리자는 다양한 데이터 보호 기능을 지원하는 Microsoft Intune MAM(모바일 응용 프로그램 관리)을 통해 정책을 배포할 수 있게 됩니다.
+Microsoft Intune 앱 SDK Xamarin 구성 요소를 사용하면 Xamarin으로 개발한 앱에 Intune 앱 보호 정책(APP 또는 MAM 정책이라고도 함)을 통합할 수 있습니다. MAM 지원 응용 프로그램은 Intune 앱 SDK와 통합된 응용 프로그램입니다. IT 관리자는 Intune에서 앱을 적극적으로 관리할 때 모바일 앱에 앱 보호 정책을 배포할 수 있습니다.
 
 ## <a name="whats-supported"></a>지원되는 기능
 
 ### <a name="developer-machines"></a>개발자 컴퓨터
-* Windows
+* macOS
 
 
 ### <a name="mobile-app-platforms"></a>모바일 앱 플랫폼
@@ -49,11 +49,11 @@ ms.lasthandoff: 07/01/2017
 * 타사 EMM 등록 장치
 * 관리되지 않는 장치(어떤 MDM에도 등록되지 않음)
 
-이제 Intune 앱 SDK Xamarin 구성 요소가 내장된 Xamarin 앱에서는 Intune 모바일 장치 관리(MDM)가 등록된 장치 및 등록되지 않은 장치 모두에서 Intune 모바일 응용 프로그램 관리(MAM) 정책을 받을 수 있습니다.
+이제 Intune 앱 SDK Xamarin 구성 요소가 내장된 Xamarin 앱에서는 Intune 모바일 장치 관리(MDM)가 등록된 장치 및 등록되지 않은 장치 모두에서 Intune 앱 보호 정책을 받을 수 있습니다.
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 
-* **[Android에만 해당]** 최신 Microsoft Intune 회사 포털 앱이 장치에 항상 설치되어 있어야 합니다.
+* **[Android만 해당]** 최신 Microsoft Intune 회사 포털 앱이 장치에 설치되어 있어야 합니다.
 
 ## <a name="get-started"></a>시작
 
@@ -71,7 +71,7 @@ ms.lasthandoff: 07/01/2017
 
 
 
-## <a name="enabling-intune-mam-in-your-ios-mobile-app"></a>iOS 모바일 앱에서 Intune MAM 사용 설정
+## <a name="enabling-intune-app-protection-polices-in-your-ios-mobile-app"></a>iOS 모바일 앱에서 Intune 앱 보호 정책을 사용하도록 설정
 1.  Intune 앱 SDK를 초기화하려면 `AppDelegate.cs` 클래스의 모든 API에 대해 호출을 수행해야 합니다. 예를 들면 다음과 같습니다.
 
       ```csharp
@@ -84,7 +84,7 @@ ms.lasthandoff: 07/01/2017
       ```
 
 2.  구성 요소가 추가되고 초기화되었으면 앱 SDK를 iOS 모바일 앱에 빌드하는 데 필요한 일반적인 단계를 따를 수 있습니다. [iOS용 Intune 앱 SDK 개발자 가이드](app-sdk-ios.md)에서 네이티브 iOS 앱을 사용 설정하기 위한 전체 설명서를 찾을 수 있습니다.
-3. **중요**: Xamarin 기반 iOS 앱에서만 수정할 사항이 여러 가지 있습니다. 예를 들어 keychain 그룹을 사용 설정하는 경우에는 구성 요소에 포함시킨 Xamarin 샘플 앱을 포함시키기 위해 다음을 추가해야 합니다. 다음은 Keychain Access 그룹에 있어야 하는 그룹의 예입니다.
+3. **중요**: Xamarin 기반 iOS 앱에서만 수정할 사항이 여러 가지 있습니다. 예를 들어 키 집합 그룹을 사용 설정하는 경우에는 구성 요소에 포함된 Xamarin 샘플 앱을 포함하기 위해 다음을 추가해야 합니다. 다음은 Keychain Access 그룹에 있어야 하는 그룹의 예입니다.
 
       ```xml
       <?xml version="1.0" encoding="UTF-8"?>
@@ -102,14 +102,14 @@ ms.lasthandoff: 07/01/2017
       </plist>
       ```
 
-Xamarin 기반의 iOS 앱에 구성 요소를 빌드하는 데 필요한 단계를 완료했습니다. Xcode를 사용하여 프로젝트를 빌드하는 경우에는 `Intune App SDK Settings.bundle`을 사용할 수 있습니다. 이렇게 하면 테스트와 디비깅을 위해 프로젝트를 빌드할 Intune 정책 설정을 켜고 끌 수 있습니다. 이 번들을 이용하려면 [iOS용 Intune 앱 SDK 개발자 가이드](app-sdk-ios.md)에 나오는 단계를 따르고 [Xcode에서 디버깅](app-sdk-ios.md#status-result-and-debug-notifications)에 나오는 섹션을 읽어보세요.
+Xamarin 기반의 iOS 앱에 구성 요소를 빌드하는 데 필요한 단계를 완료했습니다. Xcode를 사용하여 프로젝트를 빌드하는 경우에는 `Intune App SDK Settings.bundle`을 사용할 수 있습니다. 이렇게 하면 프로젝트를 빌드하여 테스트하고 디버그할 때 Intune 정책 설정을 켜고 끌 수 있습니다. 이 번들을 이용하려면 [iOS용 Intune 앱 SDK 개발자 가이드](app-sdk-ios.md)에 나오는 단계를 따르고 [Xcode에서 디버깅](app-sdk-ios.md#status-result-and-debug-notifications)에 나오는 섹션을 읽어보세요.
 
-## <a name="enabling-mam-in-your-android-mobile-app"></a>Android 모바일 앱에서 MAM 사용 설정
-UI 프레임워크를 사용하지 않는 Xamarin 기반 Android 앱의 경우에는 [Android용 Intune 앱 SDK 개발자 가이드]를 읽고 따를 필요가 없습니다. Xamarin 기반 Android 앱의 경우에는 클래스, 메서드 및 활동을 가이드에 포함된 [표](app-sdk-android.md#replace-classes-methods-and-activities-with-their-mam-equivalent)에 따라 MAM의 그것들로 대체해야 합니다. 앱에서 `android.app.Application` 클래스를 정의하지 않는 경우에는 클래스를 새로 만들고 `MAMApplication`에서 상속해야 합니다.
+## <a name="enabling-app-protection-policies-in-your-android-mobile-app"></a>Android 모바일 앱에서 앱 보호 정책을 사용하도록 설정
+UI 프레임워크를 사용하지 않는 Xamarin 기반 Android 앱의 경우에는 [Android용 Intune 앱 SDK 개발자 가이드](app-sdk-android.md)를 읽고 따라야 합니다. Xamarin 기반 Android 앱의 경우에는 클래스, 메서드 및 활동을 가이드에 포함된 [표](app-sdk-android.md#replace-classes-methods-and-activities-with-their-mam-equivalent)에 따라 MAM 클래스, 메서드 및 활동으로 대체해야 합니다. 앱에서 `android.app.Application` 클래스를 정의하지 않는 경우에는 클래스를 새로 만들고 `MAMApplication`에서 상속해야 합니다.
 
-Xamarin Forms 및 기타 UI 프레임워크의 경우에는 `MAM.Remapper`라는 도구를 제공합니다. 이 도구는 클래스 대체를 수행합니다. 그러나 다음 단계를 수행해야 합니다.
+Xamarin Forms 및 기타 UI 프레임워크의 경우에는 `MAM.Remapper`라는 도구를 제공합니다. 이 도구를 통해 클래스를 바꿀 수 있습니다. 그러나 다음 단계를 수행해야 합니다.
 
-1.  ` Microsoft.Intune.MAM.Remapper.Tasks` nuget 패키지 버전 0.1.0.0 이상에 대한 참조를 추가합니다.
+1.  `Microsoft.Intune.MAM.Remapper.Tasks` NuGet 패키지 버전 0.1.0.0 이상에 대한 참조를 추가합니다.
 
 2.  Android csproj에 다음 줄을 추가합니다.
   ```xml
@@ -117,8 +117,8 @@ Xamarin Forms 및 기타 UI 프레임워크의 경우에는 `MAM.Remapper`라는
   Project="$(NugetPack)\\Microsoft.Intune.MAM.Remapper.Tasks.0.1.X.X\\build\\MonoAndroid10\\Microsoft.Intune.MAM.Remapper.targets" />
   ```
 
-3.  추가된 `remapping-config.json` 파일의 빌드 작업을 **RemappingConfigFile**로 설정합니다. 포함된 `remapping-config.json`은 Xamarin.Forms에서만 작동합니다. 기타 UI 프레임워크의 경우에는 Remapper nuget 패키지와 함께 포함된 추가 정보 파일을 참조하세요.
+3.  추가된 `remapping-config.json` 파일의 빌드 작업을 **RemappingConfigFile**로 설정합니다. 포함된 `remapping-config.json`은 Xamarin.Forms에서만 작동합니다. 기타 UI 프레임워크의 경우에는 Remapper NuGet 패키지와 함께 포함된 추가 정보 파일을 참조하세요.
 
-## <a name="test-your-app"></a>앱 테스트
+## <a name="next-steps"></a>다음 단계
 
 앱에 구성 요소를 빌드하기 위한 기본 단계를 완료했습니다. 이제 Xamarin.android 샘플 앱에 포함된 단계를 수행할 수 있습니다. Xamarin.Forms의 샘플과 Android의 샘플이 제공되어 있습니다.

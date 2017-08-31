@@ -15,11 +15,11 @@ ms.assetid: 7196b33e-d303-4415-ad0b-2ecdb14230fd
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1667470154e5d2485e3a372ab25d36eea12109a7
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 204df4648f1d79167e8eb5941d91b48d65b90704
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/25/2017
 ---
 # <a name="enroll-devices-using-device-enrollment-manager"></a>장치 등록 관리자를 사용하여 장치 등록
 
@@ -40,7 +40,7 @@ Intune 콘솔의 사용자만 장치 등록 관리자가 될 수 있습니다. �
 
 DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
--   Intune에서 최대 1000개의 장치 등록
+-   Intune에서 최대 1,000개의 장치 등록
 -   회사 포털에 로그인하여 회사 앱 가져오기
 -   태블릿에 역할별 앱을 배포하여 회사 데이터에 대한 액세스 구성
 
@@ -48,7 +48,7 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
 장치 등록 관리자 계정을 사용하여 등록한 장치에는 다음과 같은 제한 사항이 적용됩니다.
 
-  - 사용자별 액세스는 불가능합니다. 장치에 할당된 사용자가 없기 때문에 장치에는 전자 메일 또는 회사 데이터 액세스 권한이 없습니다. VPN 구성 등을 계속 사용하여 장치 앱에 데이터 액세스 권한을 제공할 수는 있습니다.
+  - 사용자별 액세스는 불가능합니다. 장치에 할당된 사용자가 없기 때문에 장치에는 메일 또는 회사 데이터 액세스 권한이 없습니다. VPN 구성 등을 계속 사용하여 장치 앱에 데이터 액세스 권한을 제공할 수는 있습니다.
   - 이러한 시나리오는 사용자별 시나리오이므로 조건부 액세스는 불가능합니다.
   - DEM 사용자는 회사 포털을 사용하여 장치 자체에서 DEM에 등록된 장치 등록을 해제할 수 없습니다. Intune 관리자는 이 작업을 수행할 수 있지만 DEM 관리자는 수행할 수 없습니다.
   - 회사 포털 앱 또는 웹 사이트에 로컬 장치만 표시됩니다.

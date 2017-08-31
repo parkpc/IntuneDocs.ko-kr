@@ -14,11 +14,11 @@ ms.assetid: 7e3135c1-df26-48c9-aa4c-cdab6168897a
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0061d4ecd8d71f8b7363193e36b838741aa56a92
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 72291be81df5e0358c9477a2749fb7d9d7cb8fdc
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/25/2017
 ---
 # <a name="how-your-ios-users-get-their-apps"></a>iOS 사용자가 앱을 얻는 방법
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 07/01/2017
 
 **사용 가능한 앱**--회사 포털 앱 목록에 제공되며, 사용자가 필요에 따라 선택하여 설치할 수 있는 앱입니다.
 
-**관리되는 앱**--정책을 통해 관리할 수 있고 Intune에서 "래핑"했거나 Intune MAM(Mobile Application Management) SDK(소프트웨어 개발 키트)로 빌드된 앱입니다. 이러한 앱은 Intune에서 관리할 수 있고, 응용 프로그램 정책을 적용할 수 있습니다.
+**관리되는 앱**--정책을 통해 관리할 수 있고 Intune에서 "래핑"했거나 Intune 앱 SDK(소프트웨어 개발 키트)로 빌드된 앱입니다. 이러한 앱은 Intune에서 관리할 수 있고, 앱 보호 정책을 적용할 수 있습니다.
 
-**관리되지 않는 앱**--정책을 통해 관리할 수 있고 Intune에서 래핑되지 않았거나 Intune MAM SDK를 통합하지 않은 앱입니다. 응용 프로그램 정책을 이러한 앱에 적용할 수 없습니다.
+**관리되지 않는 앱**--정책을 통해 관리할 수 있고 Intune에서 래핑되지 않았거나 Intune 앱 SDK를 통합하지 않은 앱입니다. 응용 프로그램 정책을 이러한 앱에 적용할 수 없습니다.
 
 Apple 제한에 따라 기간 업무 앱과 관리되는 App Store 앱을 회사 포털 앱에 올릴 수 없습니다. 이 문제를 해결하기 위해 iOS용 회사 포털 앱의 타일이 종류에 관계없이 모든 앱에 대해 단일 위치(회사 포털 웹 사이트)에서 서로 다른 보기를 가리킵니다.
 

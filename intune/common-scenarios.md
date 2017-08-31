@@ -14,11 +14,11 @@ ms.assetid: 1f37d4ff-b5a7-4a89-8884-a6184908b09c
 ms.reviewer: robstackmsft
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 237e141eacb413eb130b17217116b6d0c7e085f8
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: d5db079d224f145336b5d3c9b9963f8a5f2c306a
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/25/2017
 ---
 # <a name="common-ways-to-use-intune"></a>Intune을 사용하는 일반적인 방법
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 07/01/2017
 
 Intune 및 Microsoft EMS(Enterprise Mobility + Security)는 장치가 Intune을 통해 등록될 때까지 어떤 모바일 앱도 전자 메일에 액세스할 수 없도록 하는 고유한 통합형 Exchange Server용 [조건부 액세스 솔루션](conditional-access.md)([클래식 포털](/intune-classic/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune))을 제공합니다. 회사 네트워크의 경계에 또 다른 게이트웨이 컴퓨터를 배포하지 않고도 이 모든 작업을 수행할 수 있습니다.
 
-또한 Intune에서는 기간 업무 앱 서버와 같은 온-프레미스 데이터에 대한 보안 액세스가 필요한 모바일 앱에 대한 액세스를 지원합니다. 일반적으로는 경계의 표준 VPN 게이트웨이 또는 프록시(예: Microsoft Azure Active Directory 응용 프로그램 프록시)와 함께 [Intune 관리 인증서](certificates-configure.md)([클래식 포털](/intune-classic/deploy-use/secure-resource-access-with-certificate-profiles))를 사용하여 액세스를 제어하는 방식으로 이 작업을 수행합니다.  
+또한 Intune에서는 기간 업무 앱 서버와 같은 온-프레미스 데이터에 대한 보안 액세스가 필요한 모바일 앱에 대한 액세스를 지원합니다. 일반적으로는 경계의 표준 VPN 게이트웨이 또는 프록시(예: Microsoft Azure Active Directory 응용 프로그램 프록시)와 함께 [Intune 관리 인증서](certificates-configure.md)([클래식 포털](/intune-classic/deploy-use/secure-resource-access-with-certificate-profiles))를 사용하여 액세스를 제어하는 방식으로 이 작업을 수행합니다. 
 
 이러한 경우에 회사 데이터에 액세스하는 유일한 방법은 관리에 장치를 등록하는 것입니다. 일단 장치를 등록하면 관리 시스템이 장치를 정책과 호환되도록 해야 회사 데이터에 액세스할 수 있습니다. 또한 Intune의 [앱 줄 바꿈 도구 및 앱 SDK](apps-prepare-mobile-application-management.md)를 사용하면 액세스한 데이터를 기간 업무 앱 내에서 유지할 수 있으므로, 소비자 앱 또는 서비스에 회사 데이터를 전달할 수 없습니다.
 
@@ -61,7 +61,7 @@ Intune 및 Microsoft Enterprise Mobility + Security는 사용자, 앱 또는 장
 일반적인 Office 365 배포 방법은 장치가 회사 앱/인증서/Wi-Fi/VPN 구성을 사용하여 완전히 설정되어야 하는 경우 관리에 해당 장치를 등록하는 것으로, 회사 소유 장치에 대한 일반적인 시나리오입니다.  
 
 
-그러나 사용자가 회사 전자 메일 및 문서에만 액세스하면 된다면(대개 개인 소유 장치를 사용하는 경우) [앱 보호 정책](app-protection-policies.md)([클래식 포털](/intune-classic/deploy-use/protect-apps-and-data-with-microsoft-intune))을 적용한 Office 모바일 앱을 사용하도록 하고 장치 등록 과정은 모두 건너뛸 수 있습니다.  
+그러나 사용자가 회사 메일 및 문서에만 액세스하면 된다면(대개 개인 소유 장치를 사용하는 경우) [앱 보호 정책](app-protection-policies.md)([클래식 포털](/intune-classic/deploy-use/protect-apps-and-data-with-microsoft-intune))을 적용한 Office 모바일 앱을 사용하도록 하고 장치 등록 과정은 모두 건너뛸 수 있습니다.  
 
 
 
@@ -75,7 +75,7 @@ BYOD는 하드웨어 비용 절감 또는 직원에 대한 모바일 생산성 �
 
 장치 등록 옵션을 사용할 수 없는 경우 Intune에서는 [회사 데이터를 포함하는 앱만 관리](app-protection-policies.md)([클래식 포털](/intune-classic/deploy-use/protect-apps-and-data-with-microsoft-intune))하는 대체 BYOD 접근 방식을 제공합니다. Intune은 의심스러운 앱이 회사 및 개인 데이터에 액세스하더라도 Office 모바일 앱의 경우와 마찬가지로 회사 데이터를 보호합니다.  
 
-관리자는 사용자가 Office 모바일 앱에서 Office 365에 액세스하도록 요구하고 보호되는(암호화, PIN으로 보호 등의 방법으로) 데이터를 보관하는 정책을 사용하여 앱을 구성할 수 있습니다. 이러한 정책은 관리되지 않는 앱 및 저장소 위치 즉, 해당 앱의 내부 또는 외부에서의 데이터 손실을 방지합니다. 예를 들어 정책은 Outlook Mobile 내에서 두 프로필을 구성하더라도 사용자가 회사 메일 프로필에서 고객 메일 프로필에 텍스트를 복사하지 않도록 방지합니다. 다른 서비스 및 BYOD 사용자에게 필요한 응용 프로그램에 비슷한 구성을 배포할 수 있습니다.
+관리자는 사용자가 Office 모바일 앱에서 Office 365에 액세스하도록 요구하고 보호되는(암호화, PIN으로 보호 등의 방법으로) 데이터를 보관하는 정책을 사용하여 앱을 구성할 수 있습니다. 이러한 앱 보호 정책은 관리되지 않는 앱 및 저장소 위치 즉, 해당 앱의 내부 또는 외부에서의 데이터 손실을 방지합니다. 예를 들어 정책은 Outlook Mobile 내에서 두 프로필을 구성하더라도 사용자가 회사 메일 프로필에서 고객 메일 프로필에 텍스트를 복사하지 않도록 방지합니다. 다른 서비스 및 BYOD 사용자에게 필요한 응용 프로그램에 비슷한 구성을 배포할 수 있습니다.
 
 <!-- Learn more about how to plan and deploy Intune to support BYOD.-->
 

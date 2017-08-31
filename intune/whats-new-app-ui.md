@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 08/15/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,25 +13,46 @@ ms.technology:
 ms.assetid: b782e382-8deb-48a7-a437-d7c5a17163f1
 ms.reviewer: priyar
 ms.suite: ems
-ms.custom: intune-classic
-ms.openlocfilehash: 33d1f28cd5522ed47c3fdf83b289116728ded12b
-ms.sourcegitcommit: 0b164f806165d312acfc88815a60e325e3d02672
+ms.custom: intune-azure
+ms.openlocfilehash: 6db9bc7a3bafd61d03513ea1b6e1f0246faaab57
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2017
+ms.lasthandoff: 08/25/2017
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Intune 최종 사용자 앱 UI 업데이트
 최종 사용자가 이 Microsoft Intune 릴리스에서 보게 될 앱의 UI가 어떻게 업데이트되었는지 알아보세요. 그러면 사용자 커뮤니케이션 및 배포를 지원하기 위해 만든 사용자 지정 문서 업데이트에 도움이 될 것입니다. 사용자가 회사 포털을 사용하여 지원 센터에 전화해 지원을 요청하는 경우 사용자에게 발생하는 문제를 더 잘 해결하는 방법을 이해하는 데에도 도움이 될 수 있습니다.
 
+## <a name="week-of-august-21-2017"></a>2017년 8월 21일 주
+
+### <a name="intune-mobile-application-management-mam-dialog-boxes-will-have-a-modern-interface----1199015---"></a>Intune MAM(모바일 응용 프로그램 관리) 대화 상자에는 최신 인터페이스가 포함됨 <!-- 1199015 -->
+
+Intune MAM(모바일 응용 프로그램 관리) 대화 상자가 최신 모양과 느낌으로 업데이트됩니다. 대화 상자는 이전 스타일과 동일한 방식으로 작동합니다.
+
+**이전 환경**
+
+![이전 인터페이스](media\NewUI_Old_AttachFileHandler.jpg)
+
+**최신 환경**
+
+![최신 인터페이스](media\NewUI_Modern_AttachFileHandler.jpg)
+
+
 ## <a name="week-of-august-14-2017"></a>2017년 8월 14일 주
 
-### <a name="updates-to-the-device-details-page-on-the-company-portal-app-for-windows-10"></a>Windows 10용 회사 포털 앱의 “장치 세부 정보” 페이지에 대한 업데이트
+### <a name="updates-to-the-device-details-page-on-the-company-portal-app-for-windows-10----1287448---"></a>Windows 10용 회사 포털 앱의 “장치 세부 정보” 페이지에 대한 업데이트 <!---1287448--->
 
 Windows 10용 회사 포털 앱이 __장치 세부 정보__ 페이지의 제목 아래에서 속성으로 __범주__ 태그가 이동됩니다.
 
 ![Windows용 회사 포털 앱의 “장치 세부 정보” 화면으로, 이제 해당 화면의 제목 바로 아래가 아니라 속성으로 “범주” 필드가 표시됩니다.](./media/cp_win10_category_tag_move_after_1708.png)
 
 ## <a name="week-of-july-31-2017"></a>2017년 7월 31일 주
+
+### <a name="apps-details-pages-will-display-new-information-for-android-devices---1287476--"></a>앱 세부 정보 페이지에 Android 장치의 새 정보가 표시됨 <!--1287476-->
+
+Android용 회사 포털 앱의 앱 세부 정보 페이지에는 이제 IT 관리자가 해당 앱에 대해 정의한 앱 범주가 표시됩니다.
+
+![새 앱 세부 정보 페이지](./media/cp_android_appdetails_after_1708.png)
 
 ### <a name="improved-sign-in-experience-across-company-portal-apps-for-all-platforms---user-story-1132123--"></a>모든 플랫폼에 대해 회사 포털 앱 전체에서 로그인 환경 개선됨 <!--User Story 1132123-->
 
@@ -128,7 +149,7 @@ Windows 10용 회사 포털 앱에 식별되거나 등록되지 않은 장치에
 
 ## <a name="week-of-june-5-2017"></a>2017년 6월 5일 주
 
-### <a name="improvements-to-the-app-tiles-in-the-company-portal-app-for-ios"></a>iOS 용 회사 포털 앱의 앱 타일 개선 사항
+### <a name="improvements-to-the-app-tiles-in-the-company-portal-app-for-ios---1230777--"></a>iOS용 회사 포털 앱의 앱 타일 개선 사항 <!--1230777-->
 사용자가 회사 포털에 대해 설정하는 브랜딩 색을 반영하도록 홈 페이지의 앱 타일 디자인이 업데이트되었습니다.
 
 **업데이트 전**
