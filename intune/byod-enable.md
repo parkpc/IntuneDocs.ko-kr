@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.openlocfilehash: 0d05918a62549559a186376d99e28c952af16b9c
-ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
+ms.openlocfilehash: fa70e21b9e9f7adfc508e24bd442a48c834ed7db
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2017
+ms.lasthandoff: 08/25/2017
 ---
 # <a name="enable-byod-with-intune"></a>Intune으로 BYOD를 사용하도록 설정
 
@@ -44,22 +44,22 @@ ms.lasthandoff: 08/08/2017
 
 Intune 서비스를 준비한 후 관리하려는 다양한 장치 유형의 다양한 등록 요구 사항을 충족해야 합니다. 관리에 장치를 등록하는 과정은 간단하지만 장치 유형에 따라 약간씩 달라집니다.
 
--   **iOS 및 Mac 장치** iPads, iPhones 또는 MacOS 장치를 등록하려면 [Apple MDM 푸시 인증서 가져오기](apple-mdm-push-certificate-get.md)를 수행해야 합니다. Intune에 MDM 푸시 인증서를 업로드한 후에는 사용자가 회사 포털 앱을 사용하여 [iOS 장치를 등록](/intune-user-help/enroll-your-device-in-intune-ios)하고 회사 포털 웹 사이트를 사용하여 [MacOS 장치를 등록](/intune-user-help/enroll-your-device-in-intune-macos)할 수 있습니다.
+-   **iOS 및 Mac 장치** iPads, iPhones 또는 macOS 장치를 등록하려면 [Apple MDM 푸시 인증서 가져오기](apple-mdm-push-certificate-get.md)를 수행해야 합니다. Intune에 MDM 푸시 인증서를 업로드한 후에는 사용자가 회사 포털 앱을 사용하여 [iOS 장치를 등록](/intune-user-help/enroll-your-device-in-intune-ios)하고 회사 포털 웹 사이트를 사용하여 [macOS 장치를 등록](/intune-user-help/enroll-your-device-in-intune-macos)할 수 있습니다.
 
 -   **Android 장치** Android 장치를 등록하기 위해 Intune 서비스를 준비하는 데 필요한 작업은 없습니다. 사용자는 Google Play에서 제공되는 회사 포털 앱을 사용하여 관리 기능에 [Android 장치를 등록](/intune-user-help/enroll-your-device-in-intune-android)하기만 하면 됩니다.
 
--   **Windows Phones 및 PC** 추가 구성을 사용하여 Windows 장치를 등록할 수 있습니다. 사용자 경험을 간소화하기 위해 Azure AD(Active Directory) Premium에서 Windows 10 PC 및 Windows 10 모바일 장치의 자동 등록을 사용할 수 있습니다. Azure AD Premium이 없거나 Windows 8.1을 지원해야 하는 경우 쉽게 등록할 수 있도록 [등록 서버의 DNS 별칭](windows-enroll.md#enable-windows-enrollment-without-azure-ad-premium)을 만들 수 있습니다.
+-   **Windows Phones 및 PC** 추가 구성을 사용하여 Windows 장치를 등록할 수 있습니다. 최종 사용자 환경을 간소화하기 위해 Azure AD(Active Directory) Premium에서 Windows 10 PC 및 Windows 10 모바일 장치의 자동 등록을 사용할 수 있습니다. Azure AD Premium이 없거나 Windows 8.1을 지원해야 하는 경우 쉽게 등록할 수 있도록 [등록 서버의 DNS 별칭](windows-enroll.md#enable-windows-enrollment-without-azure-ad-premium)을 만들 수 있습니다.
 
 
 ### <a name="make-sure-that-managed-devices-meet-basic-security-requirements"></a>관리되는 장치가 기본 보안 요구 사항을 충족하는지 확인
 
 사용자가 장치를 관리 기능에 등록하면 IT는 회사 앱 및 데이터에 액세스하는 데 사용되는 장치가 기본 보안 요구 사항을 충족하는지 확인해야 합니다. 이러한 규칙에는 장치에 액세스하는 데 PIN을 사용하고 장치에 저장된 데이터를 암호화하는 규칙이 포함됩니다. 이러한 규칙의 집합을 [준수 정책](device-compliance.md)이라고 합니다.
 
-사용자에게 [준수 정책을 배포](device-compliance-get-started.md)하면 Intune은 해당 사용자가 Intune을 통해 관리하는 모든 장치에서 BYOD 정책의 일부로 정의한 기본 보안 요구 사항을 충족하는지 확인합니다. 장치가 정책을 준수하는 것으로 평가되면 해당 상태를 다시 Intune에 보고합니다. 사용자에게 PIN 또는 장치 암호화 같은 설정을 수정하도록 요청하는 경우도 있습니다. 또는 간단히 회사 포털 앱에서 정책에 맞지 않는 설정에 대해 사용자에게 알립니다.
+사용자에게 [준수 정책을 배포](device-compliance-get-started.md)하면 Intune은 해당 사용자가 Intune을 통해 관리하는 각 장치에서 BYOD 정책의 일부로 정의한 기본 보안 요구 사항을 충족하는지 확인합니다. 장치가 정책을 준수하는 것으로 평가되면 해당 상태를 다시 Intune에 보고합니다. 사용자에게 PIN 또는 장치 암호화 같은 설정을 수정하도록 요청하는 경우도 있습니다. 또는 간단히 회사 포털 앱에서 정책에 맞지 않는 설정에 대해 사용자에게 알립니다.
 
 ## <a name="provide-access-to-company-resources"></a>회사 리소스에 대한 액세스 권한 제공
 
-대부분 직원들이 모바일 장치에서 원하는 첫 번째 기능은 회사 메일 및 문서에 대한 액세스입니다. 또한 복잡한 단계를 거치거나 지원 센터에 문의하지 않고 설정을 진행할 수 있기 바랍니다. Intune을 사용하면 모바일 장치에 사전 설치되는 기본 메일 앱에 대한 [메일 설정을 쉽게 만들고 배포](email-settings-configure.md)할 수 있습니다.
+대부분 직원들이 모바일 장치에서 액세스하려는 첫 번째 항목은 회사 메일 및 문서입니다. 또한 복잡한 단계를 거치거나 지원 센터에 문의하지 않고 설정할 수 있기를 바랍니다. Intune을 사용하면 모바일 장치에 사전 설치되는 기본 메일 앱에 대한 [메일 설정을 쉽게 만들고 배포](email-settings-configure.md)할 수 있습니다.
 
 
 > [!NOTE]
@@ -86,7 +86,7 @@ Intune을 사용하여 iOS 앱 스토어 및 비즈니스용 Microsoft 스토어
 
 ## <a name="protect-company-data"></a>회사 데이터 보호
 
-Intune은 여러 기술 계층을 통해 회사 데이터를 보호합니다. ID 계층에서 조건부 액세스를 통해 서비스에 대한 액세스를 보호합니다. 조건부 액세스는 관리되는 장치 및 규격 장치만 회사 리소스에 액세스하도록 허용합니다. 클라이언트 응용 프로그램 계층에서는 MAM(모바일 응용 프로그램 관리)이 데이터 손실을 방지합니다.  앱 보호 정책은 보호되지 않는 앱 또는 저장소 위치로 데이터가 이동하는 것을 방지합니다. 이러한 정책을 사용하면 장치를 분실하거나 도난당한 경우 회사 데이터를 초기화할 수도 있습니다.
+Intune은 여러 기술 계층을 통해 회사 데이터를 보호합니다. ID 계층에서 조건부 액세스를 통해 서비스에 대한 액세스를 보호합니다. 조건부 액세스는 관리되는 장치 및 규격 장치만 회사 리소스에 액세스하도록 허용합니다. 클라이언트 앱 계층에서 앱 보호 정책은 데이터 손실로부터 보호합니다. 앱 보호 정책은 보호되지 않는 앱 또는 저장소 위치로 데이터가 이동하는 것을 방지합니다. 이러한 정책을 사용하면 장치를 분실하거나 도난당한 경우 회사 데이터를 초기화할 수도 있습니다.
 
 ### <a name="enforce-conditional-access-to-company-resources"></a>회사 리소스에 대한 조건부 액세스 적용
 
@@ -97,17 +97,17 @@ third link was (https://docs.microsoft.com/intune/deploy-use/restrict-access-to-
 > [!IMPORTANT]
 > 규정 준수 유효성을 검사하기 위한 준수 정책이 없으면 조건부 액세스 정책이 작동되지 않습니다.
 
-### <a name="prevent-data-loss-of-company-data-with-application-protection-policies"></a>응용 프로그램 보호 정책으로 회사 데이터 손실 방지
+### <a name="prevent-data-loss-of-company-data-with-app-protection-policies"></a>앱 보호 정책으로 회사 데이터 손실 방지
 
-Intune 응용 프로그램 보호 정책을 사용하면 장치 등록 여부와 관계없이 데이터에 액세스하는 방법을 선택할 수 있습니다. 이러한 유연성을 통해 회사 데이터를 보호할 수 있으므로 사용자가 Intune에 장치를 등록하지 않는 경우에도 안전하게 회사 데이터에 액세스할 수 있습니다.
+Intune 앱 보호 정책을 사용하면 장치 등록 여부와 관계없이 데이터에 액세스하는 방법을 선택할 수 있습니다. 이러한 유연성을 통해 회사 데이터를 보호할 수 있으므로 사용자가 Intune에 장치를 등록하지 않는 경우에도 안전하게 회사 데이터에 액세스할 수 있습니다.
 
-[Intune 앱 보호 정책](app-protection-policies.md)을 사용하여 사용자의 iOS 및 Android 장치를 통해 액세스되는 회사 데이터를 보호할 수 있습니다. 이러한 앱 수준 정책을 사용하면 장치 자체를 Intune에서 관리하지 않더라도 직원들이 회사 데이터를 사용하고 공유하는 방법을 제어할 수 있습니다.
+[Intune 앱 보호 정책](app-protection-policies.md)을 사용하여 iOS 및 Android 장치를 통해 액세스되는 회사 데이터를 보호할 수 있습니다. 이러한 앱 수준 정책을 사용하면 장치 자체를 Intune에서 관리하지 않더라도 직원들이 회사 데이터를 사용하고 공유하는 방법을 제어할 수 있습니다.
 
-관리되는 Windows 10 장치의 경우 [WIP(Windows Information Protection) 정책](app-protection-policies-configure-windows-10.md)을 사용하여 동일한 기능을 수행할 수 있습니다. 이러한 정책은 직원 환경을 방해하지 않으면서 작동합니다. 네트워크 환경 또는 다른 앱을 변경할 필요가 없습니다.
+관리되는 Windows 10 장치의 경우 [WIP(Windows Information Protection)](app-protection-policies-configure-windows-10.md)를 사용하여 동일한 기능을 수행할 수 있습니다. 이러한 정책은 직원 환경을 방해하지 않으면서 작동합니다. 네트워크 환경 또는 다른 앱을 변경할 필요가 없습니다.
 
 ### <a name="remove-company-data-while-leaving-personal-data-intact"></a>개인 데이터를 그대로 두고 회사 데이터 초기화
 
-장치가 더 이상 작업에 필요하지 않거나, 용도 변경 중이거나, 유실된 경우 장치에서 회사 앱과 데이터를 제거할 수 있어야 합니다. 이를 위해 Intune의 회사 데이터 제거 및 출하 시 설정으로 초기화 기능을 사용할 수 있습니다. 사용자의 개인 소유 장치가 Intune에 등록된 경우 사용자가 원격으로 Intune 회사 포털에서 해당 장치를 초기화할 수도 있습니다.
+장치가 더 이상 작업에 필요하지 않거나, 용도 변경 중이거나, 유실된 경우 장치에서 회사 앱과 데이터를 제거할 수 있습니다. 이를 위해 Intune의 회사 데이터 제거 및 출하 시 설정으로 초기화 기능을 사용할 수 있습니다. 사용자의 개인 소유 장치가 Intune에 등록된 경우 사용자가 원격으로 Intune 회사 포털에서 해당 장치를 초기화할 수도 있습니다.
 
 [출하 시 설정으로 초기화](devices-wipe.md)는 장치가 출하 시 기본 설정으로 복원되고 사용자 데이터와 설정이 제거되며 Intune 관리에서 장치가 제거됩니다. [회사 데이터 삭제](devices-wipe.md#remove-company-data)는 장치에서 회사 데이터는 제거하지만 사용자의 개인 데이터는 그대로 둡니다.
 

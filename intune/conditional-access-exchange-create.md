@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b02d7dfd2331db232269869fd941b687465f8221
-ms.sourcegitcommit: 7674efb7de5ad54390801165364f5d9c58ccaf84
+ms.openlocfilehash: be626985a020d518bd4285a4d0b280c6c66932a6
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2017
+ms.lasthandoff: 08/25/2017
 ---
 # <a name="how-to-create-and-assign-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated-in-microsoft-intune"></a>Microsoft Intune에서 Exchange 온-프레미스 및 레거시 Exchange Online Dedicated용 조건부 액세스 정책을 만들고 할당하는 방법
 
@@ -122,11 +122,7 @@ Intune 1704 릴리스부터는 관리자가 Intune Azure Portal에서 Azure AD �
 
 1. **Intune 대시보드**에서 **조건부 액세스**를 선택합니다.
 
-2. **조건부 액세스 대시보드**에서 **Azure Active Directory의 조건부 액세스**합니다.
-
-3. **새 정책**을 선택하여 새 Azure AD 조건부 액세스 정책을 만듭니다.
-
-    ![Azure AD 조건부 액세스 정책](./media/Azure-AD-CA-Intune.png)
+2. **정책** 블레이드에서 **새 정책**을 선택하여 새 Azure AD 조건부 액세스 정책을 만듭니다.
 
 ## <a name="see-also"></a>참고 항목
 

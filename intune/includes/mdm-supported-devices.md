@@ -5,7 +5,7 @@
   - Mac OS X 10.9 이상
 
 ### <a name="windows"></a>Windows
-  - Windows 10(Home, Pro, Education 및 Enterprise 버전)
+  - Windows 10(Home, S, Pro, Education 및 Enterprise 버전)
   - Windows 10 Mobile
   - Windows Phone 8.1
   - Windows 8.1 RT
@@ -20,6 +20,6 @@
 - Google Android 4.0 이상(Samsung KNOX Standard 4.0 이상 포함)*
 - Google Android for Work([요구 사항](https://support.google.com/work/android/answer/6174145?hl=en&ref_topic=6151012 style="target=new_window"))
 
-* 다음 Samsung Galaxy Ace 휴대폰 모델은 Intune에서 Samsung KNOX Standard 장치로 관리할 수 없습니다. SM-G313HU, SM-G313HY, SM-G313M, SM-G313MY 및 SM-G313U. 이러한 장치는 표준 Android 장치로 관리됩니다. 자세한 내용은 [Samsung KNOX 웹 사이트](https://www.samsungknox.com/en)를 참조하세요.
+*다음 Samsung Galaxy Ace 휴대폰 모델은 Intune에서 Samsung KNOX Standard 장치로 관리할 수 없습니다. SM-G313HU, SM-G313HY, SM-G313M, SM-G313MY 및 SM-G313U. 이러한 장치는 표준 Android 장치로 관리됩니다. 자세한 내용은 [Samsung KNOX 웹 사이트](https://www.samsungknox.com/en)를 참조하세요.
 
 장치 및 관리 방법의 전체 목록은 [Intune 지원 장치](/intune/supported-devices-browsers#intune-supported-devices)를 참조하세요.

@@ -6,7 +6,7 @@ keywords:
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 08/22/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ms.assetid: 566ed16d-8030-42ee-bac9-5f8252a83012
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 03a278762401ee9697909cf45b3fe86212393e66
-ms.sourcegitcommit: 0b164f806165d312acfc88815a60e325e3d02672
+ms.openlocfilehash: 12556e394e2e09307c4f89e1ae56bb3f268b28ae
+ms.sourcegitcommit: ce8a1f0f4e95444949556600d1837937b6efd769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2017
+ms.lasthandoff: 08/28/2017
 ---
-# <a name="add-corporate-identifiers"></a>회사 식별자 추가
+# <a name="identify-devices-as-corporate-owned"></a>회사 소유의 장치 식별
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -31,15 +31,13 @@ Intune 관리자는 여러 가지 방법으로 장치가 회사 소유인지를 
 
 - [장치 등록 관리자](device-enrollment-manager-enroll.md) 계정을 사용하여 등록됨(모든 플랫폼)
 - Apple [장비 등록 프로그램](device-enrollment-program-enroll-ios.md), [Apple School Manager](apple-school-manager-set-up-ios.md) 또는 [Apple Configurator](apple-configurator-enroll-ios.md)를 사용하여 등록됨(iOS만 해당)
-- IMEI(International Mobile Equipment Identifier) 번호(IMEI 번호가 있는 모든 플랫폼) 또는 일련 번호(iOS 및 Android)를 사용하여 미리 선언됨
-- Azure Active Directory 또는 Enterprise Mobility Suite에 Windows 10 Enterprise 장치로 등록됨(Windows 10만 해당)
-- 장치의 **속성**에 **회사**가 지정됨
+- IMEI(International Mobile Equipment Identifier) 번호(IMEI 번호가 있는 모든 플랫폼) 또는 일련 번호(iOS 및 Android)를 사용하여 [등록 전에 회사 소유로 식별됨](#identify-corporate-owned-devices-with-imei-or-serial-number)
+- Azure Active Directory 또는 Enterprise Mobility + Security에 Windows 10 Enterprise 장치로 등록됨(Windows 10만 해당)
+- 장치 속성에 [장치 소유권이 회사](#change-device-ownership)인 것으로 나열됨
 
-회사 소유 장치는 Intune의 장치 레코드에서 **소유권** 열에 **회사**가 표시됩니다. 확인하려면 **장치** > **모든 장치**로 이동합니다.
+## <a name="identify-corporate-owned-devices-with-imei-or-serial-number"></a>IMEI 또는 일련 번호로 회사 소유 장치 식별
 
-## <a name="predeclare-a-device-with-imei-or-serial-number"></a>IMEI 또는 일련 번호를 사용하여 장치 미리 선언
-
-Intune 관리자는 IMEI 번호 또는 일련 번호가 나열된 쉼표로 구분된 값(.csv) 파일을 만들고 가져올 수 있습니다. Intune에서는 이러한 식별자를 사용하여 장치 소유권을 회사로 지정합니다. 모든 지원되는 플랫폼에 대해서 IMEI 번호를 선언할 수 있습니다. iOS 및 Android 장치에 대한 일련 번호만 선언할 수 있습니다. 각 IMEI 또는 일련 번호에는 관리 용도로 목록에 지정된 세부 정보를 포함할 수 있습니다.
+Intune 관리자는 IMEI 번호 또는 일련 번호가 나열된 쉼표로 구분된 값(.csv) 파일을 만들고 가져올 수 있습니다. Intune에서는 장치 등록 중에 이러한 식별자를 사용하여 장치 소유권을 회사로 지정합니다. 모든 지원되는 플랫폼에 대해서 IMEI 번호를 선언할 수 있습니다. iOS 및 Android 장치에 대한 일련 번호만 선언할 수 있습니다. 각 IMEI 또는 일련 번호에는 관리 용도로 목록에 지정된 세부 정보를 포함할 수 있습니다.
 
 <!-- When you upload serial numbers for company-owned iOS devices, they must be paired with a corporate enrollment profile. Devices must then be enrolled using either Apple’s device enrollment program (DEP) or Apple Configurator to have them appear as company-owned. -->
 
@@ -80,7 +78,7 @@ Intune 관리자는 IMEI 번호 또는 일련 번호가 나열된 쉼표로 구�
 
 가져온 장치가 반드시 등록되지는 않습니다. 장치는 **등록됨** 또는 **연결되지 않음** 중 하나의 상태일 수 있습니다. **연결되지 않음**은 장치가 Intune 서비스와 통신된 적이 없음을 의미합니다.
 
-## <a name="delete-corporate-identifiers"></a>회사 식별자 삭제
+### <a name="delete-corporate-identifiers"></a>회사 식별자 삭제
 
 1. Azure Portal의 Intune에서 **장치 등록** > **회사 장치 식별자**를 선택합니다.
 2. 삭제할 장치 식별자를 선택하고 **삭제**를 선택합니다.
@@ -88,5 +86,16 @@ Intune 관리자는 IMEI 번호 또는 일련 번호가 나열된 쉼표로 구�
 
 등록된 장치의 회사 식별자를 삭제해도 장치의 소유권이 변경되지는 않습니다. 장치의 소유권을 변경하려면 **장치** > **모든 장치**로 이동하고 장치를 선택한 다음 **속성**을 선택하고 **장치 소유권**을 변경합니다.
 
-## <a name="imei-specifications"></a>IMEI 사양
+### <a name="imei-specifications"></a>IMEI 사양
 International Mobile Equipment Identifiers에 대한 자세한 사양은 [3GGPP TS 23.003](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=729)을 참조하세요.
+
+## <a name="change-device-ownership"></a>장치 소유권 변경
+
+장치 속성은 Intune의 각 장치 레코드에 대한 **소유권**을 표시합니다. 관리자는 장치를 **개인** 또는 **회사**로 지정할 수 있습니다.
+
+**장치 소유권을 변경하려면 다음과 같이 합니다.**
+1. Azure Portal의 Intune에서 **장치** > **모든 장치**로 이동하고 장치를 선택합니다.
+3. **속성**을 선택합니다.
+4. **장치 소유권**을 **개인** 또는 **회사**로 지정합니다.
+
+  ![장치 범주 및 장치 소유권 옵션을 보여 주는 장치 속성의 스크린 샷입니다.](./media/device-properties.png)

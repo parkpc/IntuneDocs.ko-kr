@@ -14,11 +14,11 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a11b094a896a2358d8e414cc248976fd34bad38b
-ms.sourcegitcommit: abd8f9f62751e098f3f16b5b7de7eb006b7510e4
+ms.openlocfilehash: a6e0ea5edc5a174e0400ccca3931323712f3cbbe
+ms.sourcegitcommit: ce8a1f0f4e95444949556600d1837937b6efd769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/20/2017
+ms.lasthandoff: 08/28/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Android용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -663,6 +663,7 @@ Intune을 통해 XML에서 사용자 지정 규칙을 정의하는 기능을 비
     ```xml
 android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackupAgent"
     ```
+
 
 2. **[선택사항]** 선택적 사용자 지정 BackupAgent를 구현한 경우 MAMBackupAgent 또는 MAMBackupAgentHelper를 사용해야 합니다. 다음 섹션을 참조하세요. Android M 이상에서 쉬운 백업을 제공하는 Intune의 **MAMDefaultFullBackupAgent**(1단계에 설명됨)로 전환하는 것이 좋습니다.
 
@@ -1340,8 +1341,6 @@ Intune MAM 보기에 스타일 변경을 적용하려면 먼저 스타일 재정
 
  Intune 앱 SDK에 포함된 AndroidManifest.xml 파일에는 **MAMNotificationReceiverService**가 들어 있습니다. 내보낸 서비스가 이 서비스여야 회사 포털에서 지원 앱에 알림을 보낼 수 있습니다. 이 서비스는 호출자를 검사하여 회사 포털만 알림을 보낼 수 있는지 확인합니다.
 
-
-
 ## <a name="expectations-of-the-sdk-consumer"></a>SDK 소비자의 기대
 
 Intune SDK는 Android API에서 제공되는 계약을 유지하지만, 정책 적용의 결과로 오류 상태가 더 빈번하게 트리거될 수 있습니다. 다음 Android 모범 사례는 오류 가능성을 줄입니다.
@@ -1353,6 +1352,13 @@ Intune SDK는 Android API에서 제공되는 계약을 유지하지만, 정책 �
 * 파생된 함수는 상위 클래스 버전을 통해 호출해야 합니다.
 
 * API를 모호한 방식으로 사용해서는 안 됩니다. 예를 들어 requestCode 확인 없이 `Activity.startActivityForResult`를 사용하면 이상한 동작이 발생합니다.
+
+## <a name="telemetry"></a>원격 분석
+
+Android 용 Intune 앱 SDK는 앱에서 데이터 수집을 제어하지 않습니다. 기본적으로 회사 포털 응용 프로그램은 다음 사용 이벤트에 대한 원격 분석 데이터를 기록합니다. 이 데이터는 Microsoft Intune로 전송됩니다. Microsoft 정책에 따라 Microsoft는 PII(개인 식별 정보)를 수집하지 않습니다.
+
+> [!NOTE]
+> 최종 사용자가 이 데이터를 보내지 않도록 선택하는 경우 회사 포털 앱의 [설정]에서 원격 분석을 해제해야 합니다. 자세한 내용은 [Microsoft 사용 현황 데이터 수집 해제](https://docs.microsoft.com/en-us/intune-user-help/turn-off-microsoft-usage-data-collection-android)를 참조하세요. 
 
 ## <a name="recommended-android-best-practices"></a>권장되는 Android 모범 사례
 

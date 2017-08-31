@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 08/09/2017
+ms.date: 08/22/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 9ca3b0ba-e41c-45fb-af28-119dff47c59f
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c771d07cc41d91812a1cfa80ffe08234e58803e5
-ms.sourcegitcommit: ee7f69efe9f32a1d6bdeb1fab73d03dbfe1ae58c
+ms.openlocfilehash: ae92a75958abdc97d781c5b518d70a4e54f4939a
+ms.sourcegitcommit: b5d7442e03d9727793acd1a1dd946779dbe9218d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 08/22/2017
 ---
 # <a name="bypass-activation-lock-on-supervised-ios-devices-with-intune"></a>Intune을 사용하여 감독된 iOS 장치에서 활성화 잠금 무시
 
@@ -58,8 +58,8 @@ Intune에서는 iOS 8.0 이상을 실행하는 감독된 장치의 활성화 잠
 장치에서 활성화 잠금을 무시하려면 다음 지침을 따라 사용하도록 설정해야 합니다.
 
 1. [장치 제한 설정을 구성하는 방법](/intune-azure/configure-devices/how-to-configure-device-restrictions)의 정보를 참조하여 iOS용 Intune 장치 제한 프로필을 구성합니다.
-2. **키오스크** 모드 설정 **활성화 잠금**을 사용하도록 설정합니다.
-3. 프로필을 저장한 다음 활성화 잠금 무시를 관리하려는 장치에 배포합니다.
+2. [iOS에 대한 장치 제한 설정](device-restrictions-ios.md)에서 **일반** 설정 아래의 **활성화 잠금** 옵션을 사용합니다.
+3. 프로필을 저장한 다음 활성화 잠금 무시를 관리하려는 장치에 [할당](device-profile-assign.md)합니다.
 
 
 ## <a name="how-to-use-activation-lock-bypass"></a>활성화 잠금 무시 사용 방법

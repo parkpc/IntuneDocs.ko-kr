@@ -4,7 +4,7 @@ description: "Intune 앱 SDK는 iOS 및 Android 플랫폼 둘 다에 사용할 �
 keywords: 
 author: mtillman
 manager: angrobe
-ms.date: 12/15/2016
+ms.date: 08/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.assetid: cd9f05e7-26e6-45e0-8d38-67d8232b1cae
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8a9b0c398c4b6dd46823ceaaefd68ee193ab4502
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: c509e324788828d8ce5a3e9ac556c82ce57e9b07
+ms.sourcegitcommit: ce8a1f0f4e95444949556600d1837937b6efd769
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/28/2017
 ---
 # <a name="intune-app-sdk-overview"></a>Intune 앱 SDK 개요
 iOS와 Android 둘 다에 사용할 수 있는 Intune 앱 SDK를 통해 앱을 앱 보호 정책에 사용할 수 있도록 설정할 수 있습니다. Intune 앱 SDK는 앱 개발자에게서 필요한 코드 변경의 양을 최소화하려고 합니다. 앱의 동작을 변경하지 않고 대부분의 SDK 기능을 사용하도록 설정할 수 있습니다. 최종 사용자 및 IT 관리자 환경을 개선하기 위해 API를 활용하여 앱 참여를 요구하는 기능에 대한 앱 동작을 사용자 지정할 수 있습니다.
@@ -62,8 +62,7 @@ IT 관리자가 최종 사용자가 앱에 액세스하기 전에 장치 상태 
 ### <a name="app-protection-without-device-enrollment"></a>장치 등록이 제외된 앱 보호
 
 >[!IMPORTANT]
->장치 등록이 제외된 Intune 앱 보호는 Android 용 Intune 앱 SDK에서 사용할 수 없습니다. 이러한 보호 기능은 Intune 앱 래핑 도구인 iOS용 SDK, SDK Xamarin 구성 요소 및 SDK Cordova 플러그 인을 통해 사용할 수 있습니다.
-
+>장치 등록이 제외된 Intune 앱 보호는 Intune 앱 래핑 도구, Android용 Intune 앱 SDK, iOS용 Intune 앱 SDK, SDK Xamarin 구성 요소 및 SDK Cordova 플러그 인에서 사용할 수 있습니다.
 
 개인 장치가 있는 많은 사용자는 MDM(모바일 장치 관리) 공급자에 개인 장치를 등록하지 않고 회사 데이터에 액세스하여 사용할 수 있기를 원합니다. MDM 등록 시 장치에 대한 전역 제어를 요구하므로 사용자는 대개 개인 장치에 대한 제어를 회사에 부여하는 것을 주저합니다.
 
