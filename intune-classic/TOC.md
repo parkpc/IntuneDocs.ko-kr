@@ -94,6 +94,7 @@
 ### [Intune 클라이언트 PC용 앱 추가](deploy-use/add-apps-for-windows-pcs-in-microsoft-intune.md)
 #### [사용권 계약 관리](deploy-use/manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md)
 ### [정책 충돌 해결](deploy-use/resolve-gpo-and-microsoft-intune-policy-conflicts.md)
+### [경고 관리](deploy-use/get-notified-by-alerts.md)
 ## 장치 구성
 ### [정책을 사용하여 장치의 설정 및 기능 관리](deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 #### [iOS 설정](deploy-use/ios-policy-settings-in-microsoft-intune.md)
