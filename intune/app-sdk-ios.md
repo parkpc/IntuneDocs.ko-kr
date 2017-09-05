@@ -5,7 +5,7 @@ keywords:
 author: mtillman
 manager: angrobe
 ms.author: mtillman
-ms.date: 06/27/2017
+ms.date: 09/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 29911cf5a8fa3488640813efd8f33ee07c951c31
-ms.sourcegitcommit: 99ffed621855357de427d6fdf7b70d4e543197e9
+ms.openlocfilehash: 62478796f1f24464503a0d564e0d8972dd04f8b3
+ms.sourcegitcommit: 10e3ab2aeb79a1fb2243bef2748ccc003fdd4cc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2017
+ms.lasthandoff: 09/02/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>iOS용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -87,9 +87,6 @@ Intune 앱 SDK를 사용하려면 다음 단계를 따르세요.
 2. **옵션 2**: `libIntuneMAM.a` 라이브러리에 연결합니다. 프로젝트 대상의 **연결된 프레임워크 및 라이브러리** 목록으로 `libIntuneMAM.a` 라이브러리를 끌어옵니다.
 
     ![Intune 앱 SDK iOS - 연결된 프레임워크 및 라이브러리](./media/intune-app-sdk-ios-linked-frameworks-and-libraries.png)
-
-    > [!NOTE]
-    > 앱을 앱 스토어에 릴리스하려는 경우 디버그 버전이 아니라 릴리스용으로 빌드된 `libIntuneMAM.a` 버전을 사용하세요. 릴리스 버전은 **릴리스** 폴더에 포함됩니다. 디버그 버전에는 Intune 앱 SDK를 사용하여 문제를 해결하는 데 유용한 자세한 정보 출력이 있습니다.
 
     `{PATH_TO_LIB}`를 Intune 앱 SDK 위치로 대체하여 `-force_load {PATH_TO_LIB}/libIntuneMAM.a`를 다음 중 하나에 추가합니다.
       * 프로젝트의 `OTHER_LDFLAGS` 빌드 구성 설정

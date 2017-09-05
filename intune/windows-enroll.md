@@ -5,7 +5,7 @@ description: "Windows 장치에 대한 Intune MDM(모바일 장치 관리)을 �
 keywords: 
 author: nathbarn
 manager: nathbarn
-ms.date: 06/30/2017
+ms.date: 08/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b873e72e39c5c6f1d96ddac138f920be9dc673dd
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 3b5b5e2cdf2b31c33a02a90560e4abf955d398b0
+ms.sourcegitcommit: d5b5cb9b6dcb59094e436e07f8ed46924b37ac94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 08/30/2017
 ---
 # <a name="enroll-windows-devices"></a>Windows 장치 등록
 
@@ -56,9 +56,10 @@ Intune에 의한 다중 사용자 관리를 위해, Windows 10 크리에이터�
 
 CNAME DNS 항목을 만드는 것은 선택 사항이지만 CNAME 레코드를 사용하면 사용자가 보다 쉽게 등록할 수 있습니다. 등록 CNAME 레코드가 없으면 사용자에게 MDM 서버 이름인 enrollment.manage.microsoft.com을 수동으로 입력하라는 메시지가 표시됩니다.
 
-|유형|호스트 이름|지시 대상|TTL|  
+|유형|호스트 이름|지시 대상|TTL|
 |----------|---------------|---------------|---|
 |CNAME|EnterpriseEnrollment.company_domain.com|EnterpriseEnrollment-s.manage.microsoft.com| 1시간|
+|CNAME|EnterpriseRegistration.company_domain.com|EnterpriseRegistration.windows.net|1시간|
 
 UPN 접미사가 두 개 이상 있는 경우 각 도메인 이름에 대해 CNAME을 하나 만들고 EnterpriseEnrollment-s.manage.microsoft.com에 각각을 가리켜야 합니다. Contoso의 사용자가 name@contoso.com을 사용하지만 메일/UPN으로 name@us.contoso.com 및 name@eu.constoso.com도 사용하는 경우 Contoso DNS 관리자는 다음 CNAME을 만들어야 합니다.
 
