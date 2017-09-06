@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 07/25/2017
+ms.date: 09/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 915b432ed32565e820e16a65932fcdeac00d9bc3
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: a100b436ecf257c1e3886c23f15fa967fb877b7c
+ms.sourcegitcommit: 10e3ab2aeb79a1fb2243bef2748ccc003fdd4cc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 09/02/2017
 ---
 # <a name="get-an-apple-mdm-push-certificate"></a>Apple MDM 푸시 인증서 가져오기
 
@@ -36,15 +36,16 @@ Intune 포털에서 **장치 등록** > **Apple 등록** **Apple MDM Push Certif
   ![MDM Push가 설정되지 않은 MDM Push Certificate 화면을 표시하는 스크린샷.](./media/create-mdm-push-certificate.png)
 
 **2단계. Apple MDM Push Certificate를 만듭니다.**<br>
-**MDM Push Certificate 만들기**를 선택하여 APC(Apple Push Certificate) 포털로 이동합니다. 회사 Apple ID로 로그인하여 요청 파일로 푸시 인증서를 만듭니다. Apple의 Push Certificate 포털에서 **업로드**를 선택하면 .json 파일이 제공됩니다. Push Certificate에 이 파일을 사용하지 마세요. 다운로드를 완료하고 타사 서버용 인증서를 위한 Apple Push Certificates Portal로 돌아가 **다운로드**를 선택합니다. 푸시 인증서(.pem 파일)를 다운로드하여 파일을 로컬에 저장합니다.
+**MDM Push Certificate 만들기**를 선택하여 APC(Apple Push Certificate) 포털로 이동합니다. 회사 Apple ID로 로그인한 다음 **인증서 만들기**를 클릭합니다. **파일 선택**을 선택하고 인증서 서명 요청 파일을 찾은 다음 **업로드**를 선택합니다. 확인 페이지에서 **다운로드**를 선택하여 인증서 파일(.pem)을 다운로드하고 로컬에 파일을 저장합니다.
 
 > [!NOTE]
 > 인증서는 인증서 생성에 사용된 Apple ID와 연결됩니다. 관리 작업에는 회사 Apple ID를 사용하는 것이 가장 좋습니다. 절대로 개인 Apple ID를 사용하지 마세요.
 
-**3단계. MDM Push Certificate를 만드는 데 사용되는 Apple ID를 입력합니다.**
+**3단계. MDM Push Certificate를 만드는 데 사용되는 Apple ID를 입력합니다.**<br>
+이 인증서를 갱신해야 하는 경우 참조할 수 있도록 이 ID를 기록합니다.
 
 **4단계. Apple MDM Push Certificate로 이동하여 업로드합니다.**<br>
-인증서(.pem) 파일로 이동한 후 **열기**를 선택하고 **업로드**를 선택합니다. Push Certificate가 있으면 Intune에서 등록된 모바일 장치에 정책을 푸시하여 iOS 장치를 등록하고 관리할 수 있습니다.
+인증서(.pem) 파일로 이동한 후 **열기**를 선택하고 **업로드**를 선택합니다. 푸시 인증서를 사용하여 Intune에서 Apple 장치를 등록하고 관리할 수 있습니다.
 
 ## <a name="renew-apple-mdm-push-certificate"></a>Apple MDM 푸시 인증서 갱신
 Apple MDM 푸시 인증서는 1년 동안 유효하며 iOS 및 macOS 장치 관리를 유지하려면 매년 갱신해야 합니다. 인증서가 만료되면 등록된 Apple 장치에 연결할 수 없습니다.

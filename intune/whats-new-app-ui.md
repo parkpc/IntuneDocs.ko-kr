@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 08/23/2017
+ms.date: 09/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,35 @@ ms.assetid: b782e382-8deb-48a7-a437-d7c5a17163f1
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6db9bc7a3bafd61d03513ea1b6e1f0246faaab57
-ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
+ms.openlocfilehash: c5f6c5a4f5d76845c435ce979068988807120769
+ms.sourcegitcommit: 2d67df51af66ec859587b66a6ce3965461601c29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2017
+ms.lasthandoff: 09/01/2017
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Intune 최종 사용자 앱 UI 업데이트
 최종 사용자가 이 Microsoft Intune 릴리스에서 보게 될 앱의 UI가 어떻게 업데이트되었는지 알아보세요. 그러면 사용자 커뮤니케이션 및 배포를 지원하기 위해 만든 사용자 지정 문서 업데이트에 도움이 될 것입니다. 사용자가 회사 포털을 사용하여 지원 센터에 전화해 지원을 요청하는 경우 사용자에게 발생하는 문제를 더 잘 해결하는 방법을 이해하는 데에도 도움이 될 수 있습니다.
+
+## <a name="week-of-august-28-2017"></a>2017년 8월 28일 주
+
+
+### <a name="ios-11-mail-app-will-support-oauth----1196951---"></a>iOS 11 메일 앱의 OAuth 지원 <!---1196951--->
+
+Intune을 사용하는 조건부 액세스는 OAuth를 통해 iOS 장치에서 더욱 안전한 인증을 지원합니다. 이를 지원하기 위해 iOS용 회사 포털 앱에 더욱 안전한 인증을 허용하는 다른 흐름이 생겼습니다. 최종 사용자가 메일 앱에서 새 Exchange 계정에 로그인하려고 할 때 웹 보기 메시지가 표시됩니다. Intune에 등록되면 기본 메일 앱이 인증서에 액세스하도록 허용할지를 묻는 메시지가 표시됩니다. 대부분의 최종 사용자에게 격리된 메일이 더 이상 표시되지 않습니다. 기존 메일 계정에서는 기본 인증 프로토콜을 계속 사용하므로 이러한 사용자에게는 격리 메일이 계속 배달됩니다. 최종 사용자에 대한 이 로그인 환경은 Office 모바일 앱의 로그인 환경과 비슷합니다.
+
+![기본 메일 앱의 계정 유형을 선택합니다.](./media/ios-11-ca-email-after-1708-01.png)
+
+![Exchange를 선택하면 iOS 장치에서 메일 주소 및 계정 이름을 묻습니다.](./media/ios-11-ca-email-after-1708-02.png)
+
+![메일 주소 및 계정 이름을 제공합니다.](./media/ios-11-ca-email-after-1708-03.png)
+
+![외부 Microsoft 로그인 페이지로 전송됩니다.](./media/ios-11-ca-email-after-1708-04.png)
+
+![Microsoft 페이지에 암호를 제공합니다.](./media/ios-11-ca-email-after-1708-05.png)
+
+![Microsoft에서 장치를 관리에 등록할지 묻습니다.](./media/ios-11-ca-email-after-1708-06.png)
+
+![회사 포털 웹 사이트에서 등록하라는 메시지가 사용자에게 표시됩니다.](./media/ios-11-ca-email-after-1708-07.png)
 
 ## <a name="week-of-august-21-2017"></a>2017년 8월 21일 주
 
@@ -31,11 +52,11 @@ Intune MAM(모바일 응용 프로그램 관리) 대화 상자가 최신 모양�
 
 **이전 환경**
 
-![이전 인터페이스](media\NewUI_Old_AttachFileHandler.jpg)
+![이전 인터페이스](./media/NewUI_Old_AttachFileHandler.jpg)
 
 **최신 환경**
 
-![최신 인터페이스](media\NewUI_Modern_AttachFileHandler.jpg)
+![최신 인터페이스](./media/NewUI_Modern_AttachFileHandler.jpg)
 
 
 ## <a name="week-of-august-14-2017"></a>2017년 8월 14일 주

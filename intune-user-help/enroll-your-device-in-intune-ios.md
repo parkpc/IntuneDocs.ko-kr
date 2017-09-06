@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 07/06/2017
+ms.date: 09/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 4d7ad138a8aa59ceeff00866469e59e2e1d19520
-ms.sourcegitcommit: 2a6ad3c233d15a9fb441362105f64b2bdd550c34
+ms.openlocfilehash: 975344e5eb773a2bff3a04d11e4e63d167b30b29
+ms.sourcegitcommit: 2d67df51af66ec859587b66a6ce3965461601c29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2017
+ms.lasthandoff: 09/01/2017
 ---
 # <a name="enroll-your-ios-device-in-intune"></a>Intune에서 iOS 장치 등록
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 07/13/2017
 > [!VIDEO https://channel9.msdn.com/Series/IntuneEnrollment/iOS-Enrollment/player]
 
 > [!NOTE]
-> MacBook Pro 또는 iMac 같은 macOS 장치를 등록하려면 [대신 이 지침을 따르세요](enroll-your-device-in-intune-macos.md).
+> 메일 앱에서 회사 메일에 액세스하려는 경우 장치를 관리하여 안전하게 유지하라는 메시지가 표시될 수 있습니다. 아래 지침에 따라 iOS 장치에서 메일 및 기타 회사 리소스에 대한 액세스 권한을 얻습니다.
 
 **시작하기 전에:**
 
