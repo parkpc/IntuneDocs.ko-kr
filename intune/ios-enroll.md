@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 07/15/2017
+ms.date: 09/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 439c33a6-e80c-4da9-ba09-a51fc36f62ad
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 61bdbc7ca68995e23295cf099ce73dfdcaeba37c
-ms.sourcegitcommit: 5eb209ae48173ddfdbbab131f12f3ac3498dcd87
+ms.openlocfilehash: 8bae9bd48493f20bb4abb94290013f27a6a75dd6
+ms.sourcegitcommit: 10e3ab2aeb79a1fb2243bef2748ccc003fdd4cc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/02/2017
 ---
 # <a name="enroll-ios-devices-in-intune"></a>Intune에 iOS 장치 등록
 
@@ -32,7 +32,19 @@ iOS 장치를 사용하도록 설정하기 전에 다음 단계를 완료해야 
 - [Intune 설정](setup-steps.md) - 이러한 단계에서는 Intune 인프라를 설정합니다. 특히 장치를 등록하려면 [MDM 기관을 설정](mdm-authority-set.md)해야 합니다.
 - [Apple MDM 푸시 인증서 가져오기](apple-mdm-push-certificate-get.md) - Apple의 경우 iOS 및 macOS 장치 관리를 사용하려면 인증서가 필요합니다.
 
-이러한 필수 구성 요소가 완료된 후 사용자가 회사 포털 앱을 설치하여 개인 iOS 장치를 등록하거나 관리자가 회사 소유 iOS 장치 관리를 설정할 수 있습니다. 관리자는 단일 관리 계정으로 여러 장치를 등록할 수 있는 [장치 등록 관리자](device-enrollment-manager-enroll.md)를 할당할 수도 있습니다. Intune은 다음과 같은 iOS 회사 소유 장치 등록 방법을 지원합니다.
+## <a name="user-owned-ios-devices-byod"></a>사용자 소유 iOS 장치(BYOD)
+
+사용자가 Intune 관리에 대해 개인 장치를 등록하도록 할 수 있습니다. 이를 "Bring Your Own Device" 또는 BYOD라고 합니다. 필수 구성 요소를 완료하고 사용자 라이선스를 할당하면 앱 스토어에서 iOS 회사 포털 앱을 다운로드하고 앱에서 등록 지침을 수행할 수 있습니다.
+
+## <a name="company-owned-ios-devices"></a>회사 소유 iOS 장치
+사용자를 위해 장치를 구입하는 조직의 경우, Intune은 다음과 같은 iOS 회사 소유 장치 등록 방법을 지원합니다.
+
+- Apple의 DEP(장치 등록 프로그램)
+- Apple School Manager
+- Apple Configurator 설치 도우미 등록
+- Apple Configurator 직접 등록
+
+[장치 등록 관리자](device-enrollment-manager-enroll.md) 계정을 사용하여 회사 소유 iOS 장치를 등록할 수도 있습니다.
 
 ## <a name="device-enrollment-program"></a>장치 등록 프로그램
 조직은 Apple의 DEP(장치 등록 프로그램)를 통해 iOS 장치를 구매할 수 있습니다. DEP를 통해 등록 프로필을 "무선"으로 배포하여 장치를 관리할 수 있습니다. [장치 등록 프로그램](device-enrollment-program-enroll-ios.md)에 대해 자세히 알아보세요.
