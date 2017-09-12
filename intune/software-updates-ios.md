@@ -1,6 +1,6 @@
 ---
 title: "iOS 업데이트 정책 구성"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "감독된 iOS 장치에서 사용 가능한 최신 소프트웨어 업데이트를 강제로 자동 설치하기 위한 iOS의 업데이트 정책을 구성합니다."
 keywords: 
 author: dougeby
@@ -11,11 +11,11 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e6334421-85e1-4457-9c44-e5db8d4ee00e
-ms.openlocfilehash: d4af2d58ec21c54362cf451eac1a33b2088885d5
-ms.sourcegitcommit: 7674efb7de5ad54390801165364f5d9c58ccaf84
+ms.openlocfilehash: a119f00cc8a92aa6cf7a1009f910df817593e0e8
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="configure-ios-update-policies"></a>iOS 업데이트 정책 구성
 감독된 iOS 장치에서 사용 가능한 최신 소프트웨어 업데이트를 강제로 자동 설치할 수 있는 iOS의 업데이트 정책입니다. 장치에서 업데이트를 설치하지 않게 할 날짜와 시간을 구성하는 옵션이 있습니다.

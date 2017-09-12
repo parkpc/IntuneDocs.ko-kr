@@ -1,6 +1,6 @@
 ---
 title: "Intune에 회사 식별자 추가"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Microsoft Intune에 회사 식별자(등록 방법, IMEI 및 일련 번호)를 추가하는 방법을 알아봅니다. \""
 keywords: 
 author: NathBarn
@@ -15,11 +15,11 @@ ms.assetid: 566ed16d-8030-42ee-bac9-5f8252a83012
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 12556e394e2e09307c4f89e1ae56bb3f268b28ae
-ms.sourcegitcommit: ce8a1f0f4e95444949556600d1837937b6efd769
+ms.openlocfilehash: 85303c503e068ec23c8321b9359760775bbdb6f8
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="identify-devices-as-corporate-owned"></a>회사 소유의 장치 식별
 

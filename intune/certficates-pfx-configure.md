@@ -1,6 +1,6 @@
 ---
 title: "Intune을 사용하여 PKCS 인증서 구성 및 관리"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "인프라를 구성한 다음 Intune PKCS 인증서 프로필을 만들어 할당하는 방법을 알아봅니다.\""
 keywords: 
 author: lleonard-msft
@@ -15,11 +15,11 @@ ms.assetid: e189ebd1-6ca1-4365-9d5d-fab313b7e979
 ms.reviewer: vinaybha
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 305a4d79aa81bd599369e72bc0cb307fdf452643
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 1dff7d3e00b26b4f186beb71bacf13738ac857a3
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="configure-and-manage-pkcs-certificates-with-intune"></a>Intune을 사용하여 PKCS 인증서 구성 및 관리
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -100,7 +100,7 @@ PKCS 인증서 프로필을 사용하려면 엔터프라이즈 인증 기관 외
 
 3.  발급 CA에서 인증 기관 스냅인을 사용하여 인증서 템플릿을 게시합니다.
 
-    a.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기**  &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
+    a.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기 ** &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
 
     b.  **인증서 템플릿** 폴더에서 게시된 템플릿을 확인하여 유효성을 검사합니다.
 

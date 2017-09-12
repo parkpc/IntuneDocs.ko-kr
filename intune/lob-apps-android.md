@@ -1,6 +1,6 @@
 ---
 title: "Intune에 Android LOB 앱을 추가하는 방법"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Intune에 Android 기간 업무 앱을 추가하는 방법을 알아봅니다.\""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: 061d793c-c724-4cd9-9240-adb0cbda5661
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 31163d6e87f70ce7f75cf4e3a2a35470161e35d6
-ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
+ms.openlocfilehash: f6eccb930d9f05e206eb7804abd37995d3501aa6
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-add-android-line-of-business-lob-apps-to-microsoft-intune"></a>Microsoft Intune에 Android LOB(기간 업무) 앱을 추가하는 방법
 

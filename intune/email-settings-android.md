@@ -1,6 +1,6 @@
 ---
 title: "Android 및 Android for Work 장치의 Intune 전자 메일 설정"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Android 장치에서 전자 메일 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
 keywords: 
 author: lleonard-msft
@@ -15,11 +15,11 @@ ms.assetid: 4d3458cc-fcaa-4648-b13f-bf1f0616c1c5
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c1f80e09241609b420a186011ff8dd059f0dd8df
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 436db2f645a3f2e787cb27a8c110630a8fbb1f38
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="email-profile-settings-for-android--devices-in-microsoft-intune"></a>Microsoft Intune의 Android 장치에 대한 전자 메일 프로필 설정
 

@@ -1,6 +1,6 @@
 ---
 title: "앱 보호 정책을 사용하는 Android 앱"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "이 항목에서는 앱 보호 정책을 통해 Android 앱을 관리할 때 예상되는 상황을 설명합니다.\""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: a6816285-8e43-4dc8-bca0-e80ec5ef01e6
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6d48725852e26b9e4b9c66a3d614bfc1c95dc58f
-ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
+ms.openlocfilehash: ac70c8ce3bbc8338339e7becb8b28d594bb2fbf6
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="what-to-expect-when-your-android-app-is-managed-by-app-protection-policies"></a>Android 앱이 앱 보호 정책에 의해 관리될 때 예상되는 상황 
 

@@ -1,6 +1,6 @@
 ---
 title: "macOS에 대한 Intune 장치 제한 설정"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "macOS 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid: 3129cbaf-96c2-4837-8907-ca87a605a496
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 76d532745ad3b8761a88aaf0772053f0629e050a
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 978430ded8d2e6da36ce49cd9351c9d44789e2b0
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="macos-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 macOS 장치 제한 설정
 

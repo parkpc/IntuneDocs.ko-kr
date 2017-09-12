@@ -1,6 +1,6 @@
 ---
 title: "Intune에서 장치 범주를 사용하는 방법"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Intune에서 장치를 등록할 때 사용자가 선택할 수 있는 장치 범주를 사용하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 7b668c37-40b9-4c69-8334-5d8344e78c24
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6c5d97499545d0ad3899f28ed4e88eb4dc1fe734
-ms.sourcegitcommit: ee7f69efe9f32a1d6bdeb1fab73d03dbfe1ae58c
+ms.openlocfilehash: 00becba338f9a64e341b0b6d220b1a4ace3b40a9
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="map-device-groups"></a>장치 그룹 매핑
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 08/09/2017
 
 계속하려면 Azure Active Directory 설명서에서 [특성을 사용하여 고급 규칙 만들기](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/#using-attributes-to-create-rules-for-device-objects) 항목을 참조하세요. 
 
-이 섹션의 정보를 통해 **deviceCategory** 특성을 사용하는 고급 규칙이 있는 장치 그룹을 만듭니다. 예(**device.deviceCategory-eq** "*<the device category name you got from the Intune portal>*")
+이 섹션의 정보를 통해 **deviceCategory** 특성을 사용하는 고급 규칙이 있는 장치 그룹을 만듭니다. 예(**device.deviceCategory-eq** "*<the device category name you got from the Azure portal>*")
 
 장치 그룹을 구성하고 사용자가 해당 장치를 등록한 후에는 구성한 범주의 목록으로 표시됩니다. 범주를 선택하고 등록을 완료한 후에 이 장치는 선택한 범주에 해당하는 Active Directory 보안 그룹에 추가됩니다.
 

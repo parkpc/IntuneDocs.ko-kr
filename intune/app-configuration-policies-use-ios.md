@@ -1,6 +1,6 @@
 ---
 title: "iOS용 Intune 앱 구성 정책을 사용하는 방법"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "앱 구성 정책을 사용하여 iOS 앱을 실행할 때 이 앱에 구성 데이터를 제공하는 방법을 알아봅니다.\""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: c9163693-d748-46e0-842a-d9ba113ae5a8
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3a9d56a2f570c0332b394b03f25deb6351b6ba67
-ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
+ms.openlocfilehash: bc42f3cafa83b5f7ba053d03dbd066b725bb1fee
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-use-microsoft-intune-app-configuration-policies-for-ios"></a>iOS용 Microsoft Intune 앱 구성 정책을 사용하는 방법
 
@@ -98,7 +98,7 @@ Intune에서는 속성 목록의 다음 데이터 형식을 지원합니다.
 데이터 형식에 대한 자세한 내용은 iOS 개발자 라이브러리의 [속성 목록 정보](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/AboutPropertyLists/AboutPropertyLists.html)를 참조하세요.
 
 또한 Intune은 속성 목록에서 다음과 같은 토큰 형식을 지원합니다.
-- \{\{userprincipalname\} \} -(예:  **John@contoso.com** )
+- \{\{userprincipalname\} \} -(예: ** John@contoso.com **)
 - \{\{mail\}\} - (예: **John@contoso.com**)
 - \{\{partialupn\}\} - (예: **John**)
 - \{\{accountid\}\} - (예: **fc0dc142-71d8-4b12-bbea-bae2a8514c81**)
