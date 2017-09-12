@@ -1,6 +1,6 @@
 ---
 title: "Intune을 사용하여 iOS 장치에서 사용자 제거"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Intune을 사용하여 공유 iOS 장치에서 사용자를 제거하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 2ea5941c-a69b-4e1c-b42c-a1fc0c3a7de7
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 00f5898d0f2cc167a66026dd108d6bbd54c39cec
-ms.sourcegitcommit: ee7f69efe9f32a1d6bdeb1fab73d03dbfe1ae58c
+ms.openlocfilehash: 2dd6f4fab1d21d3fd40c3ec6abd4be44cff5212e
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="remove-a-user-from-a-shared-ios-device-with-intune"></a>Intune을 사용하여 공유 iOS 장치에서 사용자 제거
 

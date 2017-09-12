@@ -1,6 +1,6 @@
 ---
 title: "Intune을 사용하여 장치 프로필을 모니터링하는 방법"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "할당된 Intune 장치 프로필을 모니터링하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid: 9deaed87-fb4b-4689-ba88-067bc61686d7
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b624d360ff42a0bb73fb8b9dfadb700253cf87af
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: ad12fde188efbdff4685d25745736c0c0481f534
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-monitor-device-profiles-in-microsoft-intune"></a>Microsoft Intune에서 장치 프로필을 모니터링하는 방법
 

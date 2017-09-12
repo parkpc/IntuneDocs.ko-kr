@@ -1,10 +1,10 @@
 ---
 title: "Intune 시작"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "짧은 실무 연습 시리즈를 통해 Intune에 대해 알아봅니다."
 keywords: 
-author: barlanmsft
-ms.author: barlan
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 08/16/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 6bfab644-c1e2-4154-a254-e95b9a1d75f2
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5dc7a76ddac12dd3e002c8780541d3dd4e976896
-ms.sourcegitcommit: 45204e0fb8cb4cce449e65f2f1d7bb6f6ac4ccf5
+ms.openlocfilehash: abfd1c1a05ce0eac3e6ab835d6ac8b017c9a6d77
+ms.sourcegitcommit: fa6aaf12611c3e03e38e467806fc30b1d0255e88
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2017
+ms.lasthandoff: 09/12/2017
 ---
 # <a name="what-can-intune-do-for-my-company"></a>Intune이 회사를 위해 할 수 있는 일은 무엇일까요?
 
@@ -27,7 +27,7 @@ Intune은 직원이 회사 데이터를 보호하면서 생산성을 높일 수 
 
 ![Microsoft Intune의 개략적인 아키텍처 다이어그램](/intune/media/intunearchitecture.svg)
 
-회사를 대신하여 내려야 할 많은 결정이 있으므로 모바일 장치 관리를 시작하기가 어려울 수 있음을 잘 알고 있습니다. 이러한 연습에서는 Intune을 사용하여 회사 리소스를 보호하는 방법을 이해하는 데 도움이 되는 몇 가지 작업을 안내합니다. 
+회사를 대신하여 내려야 할 많은 결정이 있으므로 모바일 장치 관리를 시작하기가 어려울 수 있음을 잘 알고 있습니다. 이러한 연습에서는 Intune을 사용하여 회사 리소스를 보호하는 방법을 이해하는 데 도움이 되는 몇 가지 작업을 안내합니다.
 
 ## <a name="what-are-the-exercises"></a>연습이란?
 

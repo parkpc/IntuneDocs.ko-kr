@@ -1,6 +1,6 @@
 ---
 title: "Intune 용어"
-titleSuffix: 
+titleSuffix: Azure portal
 description: "Microsoft Intune에서 사용되는 몇 가지 용어에 대해 알아보기"
 keywords: 
 author: robstackmsft
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bd7b5613-ee9f-4dc3-990c-ab4c1d40720d
 ms.custom: intune-azure
-ms.openlocfilehash: 2df6c8c79954c2145ffa6eb33782cee690d78b1d
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 8eaf82e995e3b572d897b63aaf36480424603ce6
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="microsoft-intune-glossary"></a>Microsoft Intune 용어
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 08/03/2017
 ## <a name="i"></a>I
 |||
 |-|-|
-|Intune 포털|대부분의 Intune 관리 작업에 사용하는 Azure Portal입니다.|
+|Azure 포털|대부분의 Intune 관리 작업에 사용하는 Azure Portal입니다.|
 |Intune 소프트웨어 클라이언트|사용할 방법 결정을 돕기 위한 [일부 Windows PC 관리](/intune-classic/get-started/choose-how-to-manage-devices)의 또 다른 방법입니다.|
 |Intune 소프트웨어 게시자|[배포할 앱을 정의하고 이러한 앱을 클라우드 저장소 공간에 업로드](/intune-classic/deploy-use/add-apps)하는 데 사용하는 도구입니다.|
 |재고|관리하는 장치의 [하드웨어 및 설치된 소프트웨어](/intune/device-inventory)를 확인하는 데 사용합니다.|

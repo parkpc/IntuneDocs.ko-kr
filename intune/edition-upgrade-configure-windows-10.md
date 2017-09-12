@@ -1,6 +1,6 @@
 ---
 title: "Intune으로 Windows 10 버전 업그레이드 구성"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Intune을 사용하여 관리하는 Windows 10 장치를 다른 버전으로 업그레이드하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid: ae8b6528-7979-47d8-abe0-58cea1905270
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7da261fcb59b8ac90ea412155d093dd09bf41d46
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 8f6bd4c4af168bc64acabc05fdaad93558ddd10a
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-configure-windows-10-edition-upgrades-in-microsoft-intune"></a>Microsoft Intune에서 Windows 10 버전 업그레이드를 구성하는 방법
 

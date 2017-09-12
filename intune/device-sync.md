@@ -1,6 +1,6 @@
 ---
 title: "Intune으로 장치 동기화"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Intune으로 장치를 동기화하여 최신 정책과 작업을 가져오는 방법을 알아봅니다.”"
 keywords: 
 author: robstackmsft
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 02ad249e-f098-421f-861f-6b2ff733ac7c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 870eb3bf255cda92952a908596485d7b53259fb4
-ms.sourcegitcommit: ee7f69efe9f32a1d6bdeb1fab73d03dbfe1ae58c
+ms.openlocfilehash: 3906b567935f026202ccf0e81424a1bb36e376ef
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="sync-devices-with-intune-to-get-the-latest-policies-and-actions"></a>Intune으로 장치를 동기화하여 최신 정책과 작업을 가져오기
 

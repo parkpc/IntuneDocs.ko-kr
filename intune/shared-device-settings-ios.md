@@ -1,6 +1,6 @@
 ---
 title: "iOS용 Intune 공유 장치 구성 설정"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "iOS 장치 잠금 화면에서 정보를 표시하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid: f122e4ee-90e7-4b42-b801-8c1c7c0a5bf7
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 61bb1f8c7a9b6c92c128f32910f2ad8d390b6c64
-ms.sourcegitcommit: c9b3a95bf529b6cb2a2bdacbc49127dfa0c233e5
+ms.openlocfilehash: bf1547115a1c5d15890504c26a9d1086df489718
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="shared-device-configuration-settings-to-display-messages-on-the-ios-device-lock-screen"></a>iOS 장치 잠금 화면에 메시지를 표시하기 위한 공유 장치 구성 설정
 

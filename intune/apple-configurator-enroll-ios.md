@@ -1,6 +1,6 @@
 ---
 title: "iOS 장치 등록 - Apple Configurator 설정 도우미"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Apple Configurator를 사용하여 설정 도우미를 통해 회사 소유 iOS 장치를 등록하는 방법을 알아봅니다.\""
 keywords: 
 author: nathbarn
@@ -15,11 +15,11 @@ ms.assetid: 6d384cd0-b662-41e7-94f5-0c96790ab20a
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fb3ea2fbd8d710bcb8eccac9b4512ce8ba941fc2
-ms.sourcegitcommit: 7674efb7de5ad54390801165364f5d9c58ccaf84
+ms.openlocfilehash: b3ed7fe610f8101d90af044a8ff3849c57146c75
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="enroll-ios-devices-with-apple-configurator"></a>Apple Configurator를 사용한 iOS 장치 등록
 

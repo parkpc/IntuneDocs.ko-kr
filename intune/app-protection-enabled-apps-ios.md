@@ -1,6 +1,6 @@
 ---
 title: "앱 보호 정책을 사용하는 iOS 앱"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "이 항목에서는 앱 보호 정책을 통해 iOS 앱을 관리할 때 예상되는 상황을 설명합니다.\""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: 586d9440-3813-4dec-b865-8bd319befde0
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4527e82ae9fa7226a0b7753111886882d85801e3
-ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
+ms.openlocfilehash: 9ca6341d57eb57ec97e487c516c0919653f327e3
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="what-to-expect-when-your-ios-app-is-managed-by-app-protection-policies"></a>iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황
 

@@ -1,6 +1,6 @@
 ---
 title: "장치 준수를 모니터링하는 방법"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "장치 준수를 모니터링하는 방법을 알아봅니다.\""
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: 0790934b-48b9-435b-a8aa-e83ed5b73191
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8f18bfa7fb045dbad4ab785c2c8e1bc13fc439db
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 65b156923a38d9b3d976604819ede300f063a88b
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-monitor-device-compliance-in-intune"></a>Intune에서 장치 준수를 모니터링하는 방법
 

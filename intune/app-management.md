@@ -1,6 +1,6 @@
 ---
 title: "앱 관리란?"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "이 항목에서는 Microsoft Intune을 사용한 앱 관리의 기본 사항을 알아봅니다.\""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8c993d8a1006f5e50a718681f331f53812fae2a4
-ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
+ms.openlocfilehash: 616589e02ba3c499e73431889f5a849a16538f90
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Microsoft Intune 앱 관리란?
 

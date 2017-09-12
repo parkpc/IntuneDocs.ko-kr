@@ -1,6 +1,6 @@
 ---
 title: "iOS 대량 구매 앱 관리"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "iOS 스토어에서 대량 구매한 앱을 Intune에 동기화하고 해당 사용을 추적 및 관리하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid: 51d45ce2-d81b-4584-8bc4-568c8c62653d
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1433951e8c17ae226d37705223a80e2e79f7483b
-ms.sourcegitcommit: 6a089eb45ea3fb18ae0b2dac96683466f52f95bf
+ms.openlocfilehash: addcc2c9a939b8dc62d708b3f9f000cb7c09cef3
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Microsoft Intune을 사용하여 대량 구매 프로그램을 통해 구매한 iOS 앱을 관리하는 방법
 

@@ -1,6 +1,6 @@
 ---
 title: "Windows에 대한 준수 정책을 만드는 방법"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Windows 장치에 대한 준수 정책을 만드는 방법을 알아봅니다.\""
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: 13fc7783-d4de-47d0-b1b8-4c8710a9e6ab
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 91f0a71ed7b924746425822ce10190a8ec7a7a40
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 76d1bb091553fbe5a1220c818289f59f4ef4100b
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-windows-devices-in-intune"></a>Intune에서 Windows 장치에 대한 장치 준수 정책을 만드는 방법
 

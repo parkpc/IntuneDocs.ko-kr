@@ -1,12 +1,12 @@
 ---
 title: "Intune으로 장치 관리"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Intune을 사용하여 관리하는 장치를 보고 해당 장치에 대해 여러 작업을 수행하는 방법을 알아봅니다.\""
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 08/23/2017
+ms.date: 08/31/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: d2412418-d91a-4767-a3d6-bc88bb29caa2
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5d78b4a87eaa366b7bb00356c4b98d609620dcf3
-ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
+ms.openlocfilehash: ca40eee8a53fa3e8b2610ce414f0037180d4beaf
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="what-is-microsoft-intune-device-management"></a>Microsoft Intune 장치 관리란?
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 08/25/2017
 - 다음의 원격 장치 작업 수행:
     - [회사 데이터 제거](devices-wipe.md#remove-company-data)
     - [초기화](devices-wipe.md#factory-reset)
-    - [원격 잠금](device-remote-lock.md) 
+    - [원격 잠금](device-remote-lock.md)
     - [암호 초기화](device-passcode-reset.md)
     - [활성화 잠금 무시](device-activation-lock-bypass.md)(iOS만 해당)
     - [새로 시작](device-fresh-start.md)(Windows만 해당)
