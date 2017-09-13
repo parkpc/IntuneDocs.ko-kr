@@ -1,0 +1,599 @@
+- name: 소개
+  href: introduction-intune.md
+  expanded: true
+  items:
+    - name: Azure Portal이란?
+      href: what-is-intune.md
+    - name: Intune for Education이란?
+      href: introduction-intune-education.md
+    - name: Azure의 Intune 기능
+      href: ui-changes.md
+      items:
+        - name: 그룹 변경 내용
+          href: groups-get-started.md
+    - name: 무료 평가판 등록
+      href: free-trial-sign-up.md
+    - name: 새로운 기능
+      href: whats-new.md
+      items:
+        - name: 앱 UI의 새로운 기능
+          href: whats-new-app-ui.md
+        - name: 새로운 기능 아카이브(Azure Portal)
+          href: whats-new-archive.md
+        - name: 새로운 기능 아카이브(클래식 포털)
+          href: whats-new-archive-classic.md
+    - name: 상위 수준 아키텍처
+      href: high-level-architecture.md
+    - name: 장치 및 앱 수명 주기
+      href: introduction-device-app-lifecycles.md
+      items:
+        - name: 장치 수명 주기
+          href: device-lifecycle.md
+        - name: 앱 수명 주기
+          href: app-lifecycle.md
+    - name: 일반적인 시나리오
+      href: common-scenarios.md
+    - name: 서비스 설명
+      href: microsoft-intune-service-description.md
+    - name: 알려진 문제
+      href: known-issues.md
+    - name: 지원 받기
+      href: get-support.md
+- name: Intune 시작
+  href: get-started-evaluation.md
+  items:
+    - name: Azure Portal 탐색
+      href: get-started-azure.md
+    - name: 사용자 만들기
+      href: get-started-users.md
+    - name: 그룹 만들기
+      href: get-started-groups.md
+    - name: 정책 할당
+      href: get-started-policies.md
+    - name: 장치 등록
+      href: get-started-enroll.md
+    - name: 앱 할당
+      href: get-started-apps.md
+- name: 배포 계획
+  items:
+    - name: 계획 가이드
+      href: planning-guide.md
+      items:
+        - name: 목적 및 목표 결정
+          href: planning-guide-deployment-goals.md
+        - name: 시나리오 식별
+          href: planning-guide-scenarios.md
+        - name: 요구 사항 결정
+          href: planning-guide-requirements.md
+        - name: 출시 계획 개발
+          href: planning-guide-rollout-plan.md
+        - name: 통신 계획 개발
+          href: planning-guide-communication-plan.md
+        - name: 지원 계획 개발
+          href: planning-guide-support-plan.md
+        - name: 디자인
+          href: planning-guide-design.md
+        - name: 구현
+          href: planning-guide-onboarding.md
+        - name: 테스트 및 유효성 검사
+          href: planning-guide-test-validation.md
+        - name: 추가 리소스
+          href: planning-guide-resources.md
+    - name: 시나리오 구현 가이드
+      items:
+        - name: BYOD
+          href: byod-enable.md
+        - name: Exchange Online 보호
+          href: exchange-online-protect.md
+        - name: 지원 센터 비용 절감
+          href: password-reset.md
+    - name: 마이그레이션 가이드
+      href: migration-guide.md
+      items:
+        - name: Intune 준비
+          href: migration-guide-prepare.md
+          items:
+            - name: 기본 설정
+              href: migration-guide-setup.md
+            - name: 장치 및 앱 관리 정책 구성
+              href: migration-guide-configure-policies.md
+            - name: 앱 보호 정책 구성
+              href: migration-guide-app-protection-policies.md
+            - name: 마이그레이션 고려 사항
+              href: migration-guide-considerations.md
+        - name: 마이그레이션 캠페인
+          href: migration-guide-campaign.md
+          items:
+            - name: 통신 계획
+              href: migration-guide-communication-plan.md
+            - name: 도입 촉진
+              href: migration-guide-drive-adoption.md
+            - name: 일반적인 마이그레이션 주기
+              href: migration-guide-cycle.md
+- name: 방법
+  items:
+    - name: Intune 설정
+      href: setup-steps.md
+      items:
+        - name: 전제 조건
+          href: supported-devices-browsers.md
+          items:
+            - name: 네트워크 대역폭 사용량
+              href: network-bandwidth-use.md
+        - name: Intune에 로그인
+          href: account-sign-up.md
+        - name: 도메인 구성
+          href: custom-domain-name-configure.md
+        - name: 사용자 추가
+          href: users-add.md
+        - name: 그룹 추가
+          href: groups-add.md
+        - name: 라이선스 할당
+          href: licenses-assign.md
+        - name: MDM 기관 설정
+          href: mdm-authority-set.md
+    - name: 장치 등록
+      href: device-enrollment.md
+      items:
+        - name: 등록 옵션
+          href: enrollment-options.md
+          items:
+            - name: 사용 조건
+              href: terms-and-conditions-create.md
+            - name: 제한 사항
+              href: enrollment-restrictions-set.md
+            - name: Apple MDM 푸시 인증서
+              href: apple-mdm-push-certificate-get.md
+            - name: 회사 식별자
+              href: corporate-identifiers-add.md
+            - name: Multi-factor Authentication
+              href: multi-factor-authentication.md
+            - name: 장치 등록 관리자
+              href: device-enrollment-manager-enroll.md
+            - name: 그룹에 장치 매핑
+              href: device-group-mapping.md
+        - name: Windows 등록 설정
+          items:
+            - name: Windows 등록
+              href: windows-enroll.md
+            - name: 대량 등록
+              href: windows-bulk-enroll.md
+        - name: Android 등록 설정
+          href: android-enroll.md
+        - name: iOS 등록 설정
+          href: ios-enroll.md
+          items:
+            - name: 장치 등록 프로그램
+              href: device-enrollment-program-enroll-ios.md
+            - name: Apple School Manager
+              href: apple-school-manager-set-up-ios.md
+            - name: Apple Configurator
+              href: apple-configurator-enroll-ios.md
+        - name: macOS 등록 설정
+          href: macos-enroll.md
+    - name: 장치 관리
+      href: device-management.md
+      items:
+        - name: 활성화 잠금 무시
+          href: device-activation-lock-bypass.md
+        - name: Windows 새로 시작 관리
+          href: device-fresh-start.md
+        - name: 분실한 iOS 장치 찾기
+          href: device-locate.md
+        - name: iOS 분실 모드 사용
+          href: device-lost-mode.md
+        - name: 장치 잠금
+          href: device-remote-lock.md
+        - name: 암호 초기화
+          href: device-passcode-reset.md
+        - name: 장치 다시 시작
+          href: device-restart.md
+        - name: 현재 사용자 로그아웃
+          href: device-logout-user.md
+        - name: 사용자 제거
+          href: device-remove-user.md
+        - name: Android 원격 제어
+          href: device-profile-android-teamviewer.md
+        - name: Windows 10 PIN 재설정
+          href: device-windows-pin-reset.md
+        - name: 장치 동기화
+          href: device-sync.md
+        - name: 장치 인벤토리 검사
+          href: device-inventory.md
+        - name: 장치 제거
+          href: devices-wipe.md
+    - name: 앱 관리
+      href: app-management.md
+      items:
+        - name: 앱 추가
+          href: apps-add.md
+          items:
+            - name: Android 스토어 앱
+              href: store-apps-android.md
+            - name: Android LOB 앱
+              href: lob-apps-android.md
+            - name: iOS 스토어 앱
+              href: store-apps-ios.md
+            - name: iOS LOB 앱
+              href: lob-apps-ios.md
+            - name: 웹앱
+              href: web-app.md
+            - name: Windows Phone 8.1 스토어 앱
+              href: store-apps-windows-phone-8-1.md
+            - name: Windows Phone LOB 앱
+              href: lob-apps-windows-phone.md
+            - name: Microsoft 스토어 앱
+              href: store-apps-windows.md
+            - name: Windows LOB 앱
+              href: lob-apps-windows.md
+            - name: Android for Work 앱
+              href: apps-add-android-for-work.md
+            - name: Windows 10용 Office 365 앱
+              href: apps-add-office365.md
+        - name: 앱 할당
+          href: apps-deploy.md
+        - name: 앱 모니터링
+          href: apps-monitor.md
+        - name: iOS 앱 구성 프로필
+          href: app-configuration-policies-use-ios.md
+        - name: Android 앱 구성 프로필
+          href: app-configuration-policies-use-android.md
+        - name: iOS 앱 프로비전 프로필
+          href: app-provisioning-profile-ios.md
+        - name: 선택적으로 앱 지우기
+          href: apps-selective-wipe.md
+        - name: 대량 구매 앱 및 책 작업
+          href: vpp-apps.md
+          items:
+            - name: iOS VPP 앱
+              href: vpp-apps-ios.md
+            - name: 비즈니스용 Microsoft 스토어 앱
+              href: windows-store-for-business.md
+            - name: iOS 전자책
+              href: vpp-ebooks-ios.md
+        - name: 회사 포털 앱 구성
+          href: company-portal-app.md
+        - name: Managed Browser 구성
+          href: app-configuration-managed-browser.md
+    - name: 장치 구성
+      href: device-profiles.md
+      items:
+        - name: 장치 프로필 구성
+          href: device-profile-create.md
+        - name: 장치 기능 구성
+          href: device-features-configure.md
+          items:
+            - name: iOS 및 MacOS용 AirPrint
+              href: air-print-settings-ios-macos.md
+            - name: iOS용 AirPlay
+              href: airplay-settings-ios.md
+            - name: iOS용 홈 화면 레이아웃
+              href: home-screen-settings-ios.md
+            - name: iOS용 앱 알림
+              href: app-notification-settings-ios.md
+            - name: iOS용 공유 장치
+              href: shared-device-settings-ios.md
+            - name: iOS용 웹 필터 설정
+              href: web-content-filter-settings-ios.md
+        - name: 장치 제한 구성
+          href: device-restrictions-configure.md
+          items:
+            - name: Android
+              href: device-restrictions-android.md
+            - name: iOS
+              href: device-restrictions-ios.md
+            - name: macOS
+              href: device-restrictions-macos.md
+            - name: Windows 8.1
+              href: device-restrictions-windows-8-1.md
+            - name: Windows Phone 8.1
+              href: device-restrictions-windows-phone-8-1.md
+            - name: Windows 10
+              href: device-restrictions-windows-10.md
+            - name: Windows 10 팀
+              href: device-restrictions-windows-10-teams.md
+            - name: Android for Work
+              href: device-restrictions-android-for-work.md
+        - name: 메일 설정 구성
+          href: email-settings-configure.md
+          items:
+            - name: Android
+              href: email-settings-android.md
+            - name: iOS
+              href: email-settings-ios.md
+            - name: Windows Phone 8.1
+              href: email-settings-windows-phone-8-1.md
+            - name: Windows 10
+              href: email-settings-windows-10.md
+        - name: VPN 설정 구성
+          href: vpn-settings-configure.md
+          items:
+            - name: Android
+              href: vpn-settings-android.md
+            - name: iOS
+              href: vpn-settings-ios.md
+            - name: macOS
+              href: vpn-settings-macos.md
+            - name: Windows 8.1
+              href: vpn-settings-windows-8-1.md
+            - name: Windows Phone 8.1
+              href: vpn-settings-windows-phone-8-1.md
+            - name: Windows 10
+              href: vpn-settings-windows-10.md
+        - name: Wi-Fi 설정 구성
+          href: wi-fi-settings-configure.md
+          items:
+            - name: Android
+              href: wi-fi-settings-android.md
+            - name: iOS
+              href: wi-fi-settings-ios.md
+            - name: macOS
+              href: wi-fi-settings-macos.md
+            - name: Windows 8.1 및 Windows 10
+              href: wi-fi-settings-import-windows-8-1.md
+        - name: Windows 10 버전 업그레이드 설정 구성
+          href: edition-upgrade-configure-windows-10.md
+        - name: Windows 10 Endpoint Protection
+          href: endpoint-protection-windows-10.md
+        - name: Windows 10 Education 설정 구성
+          href: education-settings-configure.md
+        - name: iOS 교육 설정 구성
+          href: education-settings-configure-ios.md
+        - name: iOS 교육 공유 장치 구성
+          href: education-settings-configure-ios-shared.md
+        - name: iOS 업데이트 정책 구성
+          href: software-updates-ios.md
+        - name: 인증서 구성
+          href: certificates-configure.md
+          items:
+            - name: SCEP
+              href: certificates-scep-configure.md
+            - name: PKCS
+              href: certficates-pfx-configure.md
+        - name: Windows Information Protection 설정 구성
+          href: windows-information-protection-configure.md
+        - name: 통신 비용 모니터링
+          href: telecom-expenses-monitor.md
+        - name: 프로필 할당
+          href: device-profile-assign.md
+        - name: 프로필 모니터링
+          href: device-profile-monitor.md
+        - name: 프로필 문제 해결
+          href: device-profile-troubleshoot.md
+    - name: 장치 준수 설정
+      href: device-compliance-get-started.md
+      items:
+        - name: Android 정책 만들기
+          href: compliance-policy-create-android.md
+        - name: Android for Work 정책 만들기
+          href: compliance-policy-create-android-for-work.md
+        - name: iOS 정책 만들기
+          href: compliance-policy-create-ios.md
+        - name: macOS 정책 만들기
+          href: compliance-policy-create-mac-os.md
+        - name: Windows 정책 만들기
+          href: compliance-policy-create-windows.md
+        - name: 장치 준수 모니터링
+          href: compliance-policy-monitor.md
+    - name: 조건부 액세스 설정
+      href: conditional-access.md
+      items:
+        - name: 조건부 액세스를 사용하는 일반적인 방법
+          href: conditional-access-intune-common-ways-use.md
+        - name: Exchange On-premises Connector 설치
+          href: exchange-connector-install.md
+        - name: 조건부 액세스 정책 만들기 및 할당
+          href: conditional-access-exchange-create.md
+        - name: Intune 클래식 포털에서 조건부 액세스 정책 다시 할당
+          href: conditional-access-intune-reassign.md
+        - name: 앱 기반 조건부 액세스
+          href: app-based-conditional-access-intune.md
+        - name: 앱 기반 조건부 액세스 설정
+          href: app-based-conditional-access-intune-create.md
+        - name: ADAL 및 Intune
+          href: app-modern-authentication-block.md
+        - name: 조건부 액세스 규정 준수 모니터링
+          href: conditional-access-exchange-monitor.md
+    - name: 앱 및 장치 데이터 보호
+      items:
+        - name: 앱 보호 정책 사용
+          href: app-protection-policy.md
+          items:
+            - name: 앱 보호 정책 만들기
+              href: app-protection-policies.md
+              items:
+                - name: Android 설정
+                  href: app-protection-policy-settings-android.md
+                - name: iOS 설정
+                  href: app-protection-policy-settings-ios.md
+            - name: 앱 보호 정책 유효성 검사
+              href: app-protection-policies-validate.md
+            - name: 앱 보호 사용자 상태 모니터링
+              href: app-protection-policies-monitor.md
+            - name: WIP 앱 보호 정책 준비
+              href: app-protection-policies-configure-windows-10.md
+            - name: WIP 앱 보호 정책 만들기 및 할당
+              href: windows-information-protection-policy-create.md
+            - name: iOS 앱 간의 데이터 전송 관리
+              href: data-transfer-between-apps-manage-ios.md
+        - name: Mobile Threat Defense
+          href: mobile-threat-defense.md
+          items:
+            - name: Lookout 설정
+              href: lookout-mobile-threat-defense-connector.md
+              items:
+                - name: Lookout 및 Intune 통합
+                  href: lookout-mtd-connector-integration.md
+            - name: Skycure 설정
+              href: skycure-mobile-threat-defense-connector.md
+              items:
+                - name: Skycure 및 Intune 통합
+                  href: skycure-mtd-connector-integration.md
+            - name: Check Point 설정
+              href: checkpoint-sandblast-mobile-mobile-threat-defense-connector.md
+              items:
+                - name: Check Point 및 Intune 통합
+                  href: checkpoint-sandblast-mobile-mtd-connector-integration.md
+            - name: MTD 앱 추가
+              href: mtd-apps-ios-app-configuration-policy-add-assign.md
+            - name: Intune에서 MTD 사용
+              href: mtd-connector-enable.md
+            - name: MTD 장치 준수 정책 만들기
+              href: mtd-device-compliance-policy-create.md
+        - name: 네트워크 액세스 제어
+          href: network-access-control-integrate.md
+        - name: Windows Hello 설정
+          href: windows-hello.md
+    - name: 역할 관리
+      href: role-based-access-control.md
+    - name: 소프트웨어 업데이트 관리
+      href: windows-update-for-business-configure.md
+    - name: 소프트웨어 에이전트로 PC 관리
+      href: /intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune
+      maintainContext: true
+      items:
+        - name: PC 관리 비교
+          href: /intune-classic/deploy-use/pc-management-comparison
+          maintainContext: true
+        - name: PC 클라이언트 설치
+          href: /intune-classic/deploy-use/install-the-windows-pc-client-with-microsoft-intune
+          maintainContext: true
+        - name: 일반 PC 관리 작업
+          href: /intune-classic/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client
+          maintainContext: true
+          items:
+            - name: PC 정책
+              href: /intune-classic/deploy-use/use-policies-to-simplify-windows-pc-management
+              maintainContext: true
+            - name: 인벤토리 보기
+              href: /intune-classic/deploy-use/view-hardware-and-software-inventory-for-windows-pcs-in-microsoft-intune
+              maintainContext: true
+            - name: PC 사용 중지
+              href: /intune-classic/deploy-use/retire-a-windows-pc-with-microsoft-intune
+              maintainContext: true
+            - name: 사용자에게 PC 연결
+              href: /intune-classic/deploy-use/manage-user-device-linking-for-windows-pcs-with-microsoft-intune
+              maintainContext: true
+            - name: 원격 지원
+              href: /intune-classic/deploy-use/request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune
+              maintainContext: true
+        - name: Windows PC를 보호하는 정책
+          href: /intune-classic/deploy-use/policies-to-protect-windows-pcs-in-microsoft-intune
+          maintainContext: true
+          items:
+            - name: 소프트웨어 업데이트
+              href: /intune-classic/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune
+              maintainContext: true
+            - name: Windows 방화벽
+              href: /intune-classic/deploy-use/help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune
+              maintainContext: true
+            - name: "Endpoint\_Protection"
+              href: /intune-classic/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune
+              maintainContext: true
+        - name: Intune 클라이언트 PC용 앱 추가
+          href: /intune-classic/deploy-use/add-apps-for-windows-pcs-in-microsoft-intune
+          maintainContext: true
+        - name: 사용권 계약 관리
+          href: /intune-classic/deploy-use/manage-license-agreements-for-windows-pc-software-in-microsoft-intune
+          maintainContext: true
+        - name: 정책 충돌 해결
+          href: /intune-classic/deploy-use/resolve-gpo-and-microsoft-intune-policy-conflicts
+          maintainContext: true
+    - name: 사용자 교육
+      href: end-user-educate.md
+      items:
+        - name: 회사 포털 메시지
+          href: end-user-company-portal-messages.md
+        - name: Android에서 앱 보호
+          href: end-user-mam-apps-android.md
+        - name: iOS에서 앱 보호
+          href: end-user-mam-apps-ios.md
+        - name: Android 앱을 다운로드하는 방법
+          href: end-user-apps-android.md
+        - name: iOS 앱을 다운로드하는 방법
+          href: end-user-apps-ios.md
+        - name: Windows 앱을 다운로드하는 방법
+          href: end-user-apps-windows.md
+- name: 모니터링 및 문제 해결
+  items:
+    - name: 사용자가 문제 해결할 수 있도록 도움
+      href: help-desk-operators.md
+    - name: Intune 데이터 웨어하우스 사용
+      href: reports-nav-create-intune-reports.md
+      items:
+        - name: Power BI를 통해 데이터 웨어하우스에 연결
+          href: reports-proc-get-a-link-powerbi.md
+- name: 자동화 및 사용자 지정
+  items:
+    - name: 사용자 지정 장치 설정 구성
+      href: custom-settings-configure.md
+      items:
+        - name: Android
+          href: custom-settings-android.md
+          items:
+            - name: 미리 공유한 키를 사용하는 Wi-Fi 프로필
+              href: wi-fi-profile-shared-key.md
+            - name: 앱당 VPN 프로필
+              href: android-pulse-secure-per-app-vpn.md
+            - name: Samsung KNOX Standard에 대해 앱 허용/차단
+              href: samsung-knox-apps-allow-block.md
+        - name: iOS
+          href: custom-settings-ios.md
+        - name: macOS
+          href: custom-settings-macos.md
+        - name: Windows Phone 8.1
+          href: custom-settings-windows-phone-8-1.md
+        - name: Windows 10
+          href: custom-settings-windows-10.md
+        - name: Android for Work
+          href: custom-settings-android-for-work.md
+    - name: Intune 앱 SDK를 사용하여 앱 보호
+      href: app-sdk.md
+      items:
+        - name: Intune 앱 SDK 시작
+          href: app-sdk-get-started.md
+        - name: 앱 보호에 대한 LOB 앱 준비
+          href: apps-prepare-mobile-application-management.md
+        - name: iOS용 앱 래핑 도구
+          href: app-wrapper-prepare-ios.md
+        - name: iOS용 Intune 앱 SDK
+          href: app-sdk-ios.md
+        - name: Android용 앱 래핑 도구
+          href: app-wrapper-prepare-android.md
+        - name: Android용 Intune 앱 SDK
+          href: app-sdk-android.md
+        - name: Intune 앱 SDK Cordova 플러그 인
+          href: app-sdk-cordova.md
+        - name: Intune 앱 SDK Xamarin 구성 요소
+          href: app-sdk-xamarin.md
+    - name: Intune 데이터 웨어하우스 API를 사용하여 보고
+      href: reports-nav-intune-data-warehouse.md
+      items:
+        - name: REST 클라이언트를 사용하여 데이터 웨어하우스 API에서 데이터 가져오기
+          href: reports-proc-data-rest.md
+        - name: 데이터 웨어하우스 API 끝점
+          href: reports-api-url.md
+        - name: 데이터 웨어하우스 데이터 모델
+          href: reports-ref-data-model.md
+          items:
+            - name: 날짜 엔터티에 대한 참조
+              href: reports-ref-date.md
+            - name: 사용자 엔터티에 대한 참조
+              href: reports-ref-user.md
+            - name: 모바일 앱 관리(MAM) 엔터티에 대한 참조
+              href: reports-ref-mobile-app-management.md
+            - name: 장치 엔터티에 대한 참조
+              href: reports-ref-devices.md
+            - name: 응용 프로그램 엔터티에 대한 참조
+              href: reports-ref-application.md
+            - name: 정책 엔터티에 대한 참조
+              href: reports-ref-policy.md
+    - name: Windows 앱 사이드로드
+      href: app-sideload-windows.md
+    - name: Intune용 Graph API 사용
+      href: intune-graph-apis.md
+      items:
+        - name: Intune용 Graph API 참조
+          href: 'https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview'
+- name: 용어 설명
+  href: intune-glossary.md
