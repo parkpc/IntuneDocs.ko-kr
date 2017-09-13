@@ -1,12 +1,12 @@
 ---
 title: "Intune 장치 인벤토리 확인"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Intune으로 관리하는 장치를 확인하는 방법과 해당 하드웨어 및 설치된 앱을 파악하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 07/11/2017
+ms.date: 09/05/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: e71c6bdb-d75c-404f-8e38-24a663be81c2
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3618c5ee0b4a7ff0e7b6a4d6ed58f77a2af0ba66
-ms.sourcegitcommit: fb17b59f4aa2b994b149fcc6d32520f74b0de6a5
+ms.openlocfilehash: 45ef07d68248ab4c0c6f3a3e6e8da83cb210c5c7
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-view-intune-device-inventory"></a>Intune 장치 인벤토리를 확인하는 방법
 
@@ -54,3 +54,4 @@ ms.lasthandoff: 07/12/2017
 
 >[!NOTE]
 > Intune은 회사 소유 장치에서만 앱 인벤토리를 수집합니다. 개인 장치에서는 앱이 인벤토리에 배정되지 않습니다. Windows 10 PC의 경우 최신 앱 인벤토리만 회사 소유 장치에서 수집됩니다. Intune은 장치에서 Win32 앱에 대한 정보는 수집하지 않습니다.
+> 장치에 사용하는 이동 통신 사업자에 따라 일부 인벤토리 항목이 수집되지 않을 수 있습니다.
