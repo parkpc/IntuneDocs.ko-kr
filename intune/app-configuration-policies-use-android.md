@@ -1,6 +1,6 @@
 ---
 title: "Android for Work용 Intune 앱 구성 정책 사용"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "앱 구성 정책을 사용하여 Android for Work 앱을 실행할 때 이 앱에 구성 데이터를 제공하는 방법을 알아봅니다.\""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: d0b6f3fe-2bd4-4518-a6fe-b9fd115ed5e0
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7486a62ed11b83f00414a74b2d816f6048826f73
-ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
+ms.openlocfilehash: 4b73202a1a68bd2dd3dcbfa86c21cb09ae00056c
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-use-microsoft-intune-app-configuration-policies-for-android-for-work"></a>Android for Work용 Microsoft Intune 앱 구성 정책을 사용하는 방법
 
@@ -27,16 +27,16 @@ ms.lasthandoff: 08/15/2017
 
 Microsoft Intune의 앱 구성 정책을 사용하면 사용자가 Android for Work 앱을 실행할 때 사용 가능할 수 있는 설정을 제공할 수 있습니다. 모든 앱에서 앱 구성을 지원하는 것은 아닙니다. 앱 개발자에게 앱 구성 정책을 지원하도록 앱을 빌드했는지 여부를 확인하세요.
 
-앱 구성 정책을 사용하는 경우 사용자가 앱을 실행하기 전에 사용 가능한 앱 설정을 미리 구성할 수 있습니다. 일부 Android 앱의 경우 [구성 디자이너](#use-configuration-designer)를 사용하여 Intune 콘솔에서 구성할 수 있는 관리되는 구성 옵션을 지원합니다. 앱의 일부 구성 설정(예: 번들 유형 관련 설정)은 구성 디자이너를 사용하여 구성할 수 없습니다.  이러한 값의 경우에는 [JSON 편집기](#use-json-editor)를 사용해야 합니다.   설정은 앱을 설치하면 앱에 자동으로 제공됩니다.
+앱 구성 정책을 사용하는 경우 사용자가 앱을 실행하기 전에 사용 가능한 앱 설정을 미리 구성할 수 있습니다. 일부 Android 앱의 경우 [구성 디자이너](#use-configuration-designer)를 사용하여 Azure Portal에서 구성할 수 있는 관리되는 구성 옵션을 지원합니다. 앱의 일부 구성 설정(예: 번들 유형 관련 설정)은 구성 디자이너를 사용하여 구성할 수 없습니다.  이러한 값의 경우에는 [JSON 편집기](#use-json-editor)를 사용해야 합니다.   설정은 앱을 설치하면 앱에 자동으로 제공됩니다.
 
 사용자 및 장치에 이러한 정책을 직접 할당하지는 않으며, 대신 앱에 정책을 연결한 다음 앱을 할당합니다. 정책 설정은 앱에서 해당 설정을 확인할 때(일반적으로는 앱을 처음 실행할 때) 사용됩니다.
 
 ## <a name="use-configuration-designer"></a>구성 디자이너 사용
 
-1. Intune 포털에서 **모바일 앱**을 선택합니다. **관리** 아래에서 **앱 구성 정책**을 선택하고 **추가**를 클릭합니다.
+1. Azure Portal에서 **모바일 앱**을 선택합니다. **관리** 아래에서 **앱 구성 정책**을 선택하고 **추가**를 클릭합니다.
 2. 다음 세부 정보를 설정합니다.
-    - **이름** - Intune 콘솔에 표시되는 프로필의 이름입니다.
-    - **설명** - Intune 콘솔에 표시되는 프로필의 설명입니다.
+    - **이름** - Azure Portal에 표시되는 프로필의 이름입니다.
+    - **설명** - Azure Portal에 표시되는 프로필의 설명입니다.
     - **플랫폼** - **Android**를 선택합니다.
     - **장치 등록 유형** - **Intune에 등록됨**이 미리 선택되어 있습니다.
 3. **연결된 앱**을 선택하여 구성 정책을 정의할 앱을 선택합니다.  승인했으며 Intune과 동기화한 앱을 Android for Work 앱 목록에서 선택합니다.
@@ -51,10 +51,10 @@ Microsoft Intune의 앱 구성 정책을 사용하면 사용자가 Android for W
 
 ## <a name="use-json-editor"></a>JSON 편집기 사용
 
-1. Intune 포털에서 **모바일 앱**을 선택합니다. **관리** 아래에서 **앱 구성 정책**을 선택하고 **추가**를 클릭합니다.
+1. Azure Portal에서 **모바일 앱**을 선택합니다. **관리** 아래에서 **앱 구성 정책**을 선택하고 **추가**를 클릭합니다.
 2. 다음 세부 정보를 설정합니다.
-    - **이름** - Intune 콘솔에 표시되는 프로필의 이름입니다.
-    - **설명** - Intune 콘솔에 표시되는 프로필의 설명입니다.
+    - **이름** - Azure Portal에 표시되는 프로필의 이름입니다.
+    - **설명** - Azure Portal에 표시되는 프로필의 설명입니다.
     - **플랫폼** - **Android**를 선택합니다.
     - **장치 등록 유형** - **Intune에 등록됨**이 미리 선택되어 있습니다.
 3. **연결된 앱**을 선택하여 구성 정책을 정의할 앱을 선택합니다.  승인했으며 Intune과 동기화한 앱을 Android for Work 앱 목록에서 선택합니다.
@@ -73,10 +73,10 @@ Microsoft Intune의 앱 구성 정책을 사용하면 사용자가 Android for W
 
 Android 장치 기능에 액세스하기 위한 앱의 권한을 미리 구성할 수도 있습니다. 기본적으로 위치 또는 장치 카메라에 대한 액세스와 같이 장치 권한이 필요한 Android 앱에서는 권한을 허용할 것인지 거부할 것인지 묻는 메시지를 사용자에게 표시합니다. 예를 들어, 앱에서 장치의 마이크를 사용하는 경우 앱에 마이크 사용 권한을 부여할 것인지 묻는 메시지가 최종 사용자에게 표시됩니다.
 
-1. Intune 포털에서 **모바일 앱**을 선택합니다. **관리** 아래에서 **앱 구성 정책**을 선택하고 **추가**를 클릭합니다.
+1. Azure Portal에서 **모바일 앱**을 선택합니다. **관리** 아래에서 **앱 구성 정책**을 선택하고 **추가**를 클릭합니다.
 2. 다음 세부 정보를 설정합니다.
-    - **이름** - Intune 콘솔에 표시되는 프로필의 이름입니다.
-    - **설명** - Intune 콘솔에 표시되는 프로필의 설명입니다.
+    - **이름** - Azure Portal에 표시되는 프로필의 이름입니다.
+    - **설명** - Azure Portal에 표시되는 프로필의 설명입니다.
     - **플랫폼** - **Android**를 선택합니다.
     - **장치 등록 유형** - **Intune에 등록됨**이 미리 선택되어 있습니다.
 3. **연결된 앱**을 선택하여 구성 정책을 정의할 앱을 선택합니다.  승인했으며 Intune과 동기화한 앱을 Android for Work 앱 목록에서 선택합니다.

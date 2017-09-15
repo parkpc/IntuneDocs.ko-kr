@@ -1,6 +1,6 @@
 ---
 title: "Intune을 사용하여 Windows 10 장치에 Office 365 ProPlus 앱 설치"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Intune을 사용하여 Office 365 앱을 Windows 10 장치에 더 간편하게 설치하는 방법을 알아봅니다."
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid: 3292671a-5f5a-429e-90f7-b20019787d22
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 471b4dd524cea553af89acc3e158fd2a05cebe3d
-ms.sourcegitcommit: c8fb42fcb8735af432c7e07c380d956171012bd4
+ms.openlocfilehash: c3613c1e0482654d799329069f56ec0b0aac7772
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-assign-office-365-proplus-2016-apps-to-windows-10-devices-with-microsoft-intune"></a>Microsoft Intune을 사용하여 Office 365 ProPlus 2016 앱을 Windows 10 장치에 할당하는 방법
 
@@ -60,7 +60,7 @@ ms.lasthandoff: 08/14/2017
 
 ## <a name="configure-app-information"></a>앱 정보 구성
 
-이 단계에서는 앱 패키지에 대한 정보를 제공합니다. 이 정보를 사용하여 Intune 콘솔에서 앱 패키지를 식별하고 있고 최종 사용자가 회사 포털 앱에서 앱 패키지를 찾을 수도 있습니다.
+이 단계에서는 앱 패키지에 대한 정보를 제공합니다. 이 정보를 사용하여 Intune에서 앱 패키지를 식별하고 사용자가 회사 포털 앱에서 앱 패키지를 찾을 수도 있습니다.
 
 1.  **앱 추가** 블레이드에서 **앱 패키지 정보**를 선택합니다.
 2.  **앱 패키지 정보** 블레이드에서 다음 정보를 지정합니다. 

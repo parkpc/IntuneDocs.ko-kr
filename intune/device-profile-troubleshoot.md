@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Intune에서 장치 프로필 문제 해결"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "문제가 발생하는 경우 이 항목의 정보를 참조하여 Intune 장치 프로필 관련 문제를 해결할 수 있습니다.\""
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid:
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ed238f35927f17b20402f64586686246afabb900
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 426bed61930e045f38e3c7c658dbb7168dc2f551
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="troubleshooting-device-profiles-in-microsoft-intune"></a>Microsoft Intune에서 장치 프로필 문제 해결
 
@@ -59,7 +59,7 @@ ms.lasthandoff: 07/01/2017
 
 -   다른 준수 정책의 동일 설정과 대조하여 평가하는 경우 더 제한적인 준수 정책 설정이 적용됩니다.
 
--   구성 정책 설정이 다른 구성 정책의 설정과 충돌하는 경우 이 충돌이 Intune 콘솔에 표시됩니다. 이러한 충돌은 수동으로 해결해야 합니다.
+-   구성 정책 설정이 다른 구성 정책의 설정과 충돌하는 경우 이 충돌이 Azure Portal에 표시됩니다. 이러한 충돌은 수동으로 해결해야 합니다.
 
 ## <a name="what-happens-when-app-protection-policies-conflict-with-each-other-which-one-will-be-applied-to-the-app"></a>앱 보호 정책이 서로 충돌하는 경우 앱에 적용되는 정책
 다시 설정 전까지의 PIN 입력 시도와 같이 숫자 입력 필드에 대한 설정을 제외하면, 충돌하는 값은 앱 보호 정책에서 사용 가능한 가장 제한적인 설정으로 지정됩니다.  숫자 입력 필드의 경우 권장 설정 옵션을 사용하여 콘솔에서 MAM 정책을 만드는 경우의 값과 동일하게 설정됩니다.

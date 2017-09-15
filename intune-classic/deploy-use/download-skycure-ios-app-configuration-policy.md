@@ -14,11 +14,11 @@ ms.assetid: d211b876-4d3a-473c-999f-843c0a16cd22
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3159985bfbaec40899dd58766e214daa672ee6d4
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 02fabe879494c5351a6ae333875a8ef5962203cb
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="download-skycure-ios-app-configuration-policy"></a>Skycure iOS 앱 구성 정책 다운로드
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 07/01/2017
 
 3.  **설정** &gt; **장치 관리 통합** &gt; **EMM 통합 선택**으로 이동하고 **Microsoft Intune**을 선택한 다음 선택한 항목을 저장합니다.
 
-2.  **통합 설치 파일** 링크를 클릭하고 생성된 \*.zip 파일을 저장합니다. .zip 파일에는 **skycure\_configuration.plist** 파일이 포함되어 있으며 이 파일은 Intune 클래식 콘솔에서 iOS 앱 구성 정책을 만드는 데 사용됩니다.
+2.  **통합 설치 파일** 링크를 클릭하고 생성된 \*.zip 파일을 저장합니다. .zip 파일에는 **skycure\_configuration.plist** 파일이 포함되어 있으며 이 파일은 Intune 클래식 포털에서 iOS 앱 구성 정책을 만드는 데 사용됩니다.
 
 ![Skycure 통합 설정 파일](../media/mtp/skycure-ios-app-2.png)
 

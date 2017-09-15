@@ -12,11 +12,11 @@ ms.service:
 ms.technology: 
 ms.assetid: e44f1756-52e1-4ed5-bf7d-0e80363a8674
 ms.custom: intune-classic
-ms.openlocfilehash: 2a8754d684896f2c945e11ed0fc2577114459069
-ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
+ms.openlocfilehash: 3567f26053a235c5a5af761829f043e0db2f79b5
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="sign-line-of-business-apps-so-they-can-be-deployed-to-windows-devices-with-intune"></a>Intune으로 Windows 장치에 기간 업무 앱을 배포할 수 있도록 앱에 서명
 
@@ -55,7 +55,7 @@ Intune 관리자는 회사 포털 앱을 비롯한 LOB(기간 업무) 앱을 Win
 6.  **앱을 Intune에 업로드**<br>
     서명한 앱 파일 및 코드 서명 인증서를 업로드하여 최종 사용자가 앱을 사용할 수 있도록 합니다.
 
-    1.  Intune 포털에서 **관리** &gt; **Windows Phone**을 클릭합니다.
+    1.  Azure Portal에서 **관리** &gt; **Windows Phone**을 클릭합니다.
 
     2.  **서명된 앱 파일 업로드**를 클릭하고 Intune 관리자 ID로 로그인합니다.
 
@@ -118,7 +118,7 @@ Intune 관리자는 회사 포털 앱을 비롯한 LOB(기간 업무) 앱을 Win
 
     -   `-EnterpriseId` - 엔터프라이즈 ID입니다. 이 인수 또는 'AetxPath'를 제공해야 합니다. 이 인수를 제공하지 않으면 AETX 파일에서 엔터프라이즈 ID를 읽습니다. 예: 1000000001
 
-6.  Windows Phone 8.1 회사 포털(SSP.appx) 앱을 배포합니다. 관련 지침은 [Windows Phone LOB(기간 업무) 앱을 추가하는 방법](lob-apps-windows-phone.md)([클래식 콘솔](/intune-classic/deploy-use/deploy-apps-in-microsoft-intune))을 참조하세요.
+6.  Windows Phone 8.1 회사 포털(SSP.appx) 앱을 배포합니다. 관련 지침은 [Windows Phone LOB(기간 업무) 앱을 추가하는 방법](lob-apps-windows-phone.md)([클래식 포털](/intune-classic/deploy-use/deploy-apps-in-microsoft-intune))을 참조하세요.
 
 ## <a name="how-to-renew-the-symantec-enterprise-code-signing-certificate"></a>Symantec 엔터프라이즈 코드 서명 인증서를 갱신하는 방법
 
@@ -136,7 +136,7 @@ Windows 및 Windows Phone 모바일 앱을 배포하는 데 사용되는 Symante
 
 1.  기간 업무 앱의 최신 버전에 서명합니다.
 
-2.  Intune 콘솔을 열고 **관리** &gt; **모바일 장치 관리** &gt; **Windows Phone**으로 이동한 후에 **서명된 앱 업로드**를 클릭합니다.
+2.  Azure Portal을 열고 **관리** &gt; **모바일 장치 관리** &gt; **Windows Phone**으로 이동한 후에 **서명된 앱 업로드**를 클릭합니다.
 
 3.  새로 서명된 회사 포털을 업로드합니다. 새로 서명된 SSP.xap와 Symantec에서 받은 새로운 .PFX 파일 또는 이러한 새 .PFX 파일로 생성한 응용 프로그램 등록 토큰이 필요합니다.
 

@@ -1,6 +1,6 @@
 ---
 title: "비즈니스용 Microsoft 스토어에서 앱 관리"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "비즈니스용 Microsoft 스토어에서 Intune에 앱을 동기화한 다음 할당 및 추적하는 방법을 알아봅니다.\""
 keywords: 
 author: robstackmsft
@@ -15,18 +15,18 @@ ms.assetid: 2ed5d3f0-2749-45cd-b6bf-fd8c7c08bc1b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8f5f1b49d0785682f72d208287098466934ff0e1
-ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
+ms.openlocfilehash: 649766b26a1061c4bce11235c04dcbe8570fcdc4
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-manage-apps-you-purchased-from-the-microsoft-store-for-business-with-microsoft-intune"></a>Microsoft Intune을 사용하여 비즈니스용 Microsoft 스토어에서 구입한 앱을 관리하는 방법
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 
-[비즈니스용 Microsoft 스토어](https://www.microsoft.com/business-store)는 개별적으로 또는 대량으로 조직에 대한 앱을 찾고 구입할 수 있는 위치를 제공합니다. 스토어를 Microsoft Intune에 연결하여 Intune 포털에서 대용량 구입 앱을 관리할 수 있습니다. 예를 들면 다음과 같습니다.
+[비즈니스용 Microsoft 스토어](https://www.microsoft.com/business-store)는 개별적으로 또는 대량으로 조직에 대한 앱을 찾고 구입할 수 있는 위치를 제공합니다. 스토어를 Microsoft Intune에 연결하여 Azure Portal에서 대량 구매 앱을 관리할 수 있습니다. 예를 들면 다음과 같습니다.
 * Intune을 사용하여 저장소에서 구입한 앱 목록을 동기화할 수 있습니다.
 * 동기화되는 앱은 Intune 관리 콘솔에 나타납니다. 이러한 앱을 다른 앱처럼 할당할 수 있습니다.
 * Intune 관리 콘솔에서 사용 가능한 라이선스 수 및 사용되는 라이선스 수를 추적할 수 있습니다.
@@ -64,7 +64,7 @@ Intune 콘솔에서 동기화를 사용하기 전에 관리 도구로 Intune을 
 1. **Mobile Apps** 블레이드에서 **설치** > **비즈니스용 Microsoft 스토어**를 선택합니다.
 2. **사용**을 클릭합니다.
 3. 아직 수행하지 않은 경우에는 링크를 클릭하여 비즈니스용 Microsoft 스토어에 등록하고 이전에 설명된 대로 계정을 연결합니다.
-5. **언어** 드롭다운 목록에서 비즈니스용 Microsoft 스토어의 앱이 Intune 포털에 표시되는 언어를 선택합니다. 표시되는 언어에 관계없이 사용 가능한 경우 최종 사용자의 언어로 설치됩니다.
+5. **언어** 드롭다운 목록에서 비즈니스용 Microsoft 스토어의 앱이 Azure Portal에 표시되는 언어를 선택합니다. 표시되는 언어에 관계없이 사용 가능한 경우 최종 사용자의 언어로 설치됩니다.
 6. **동기화**를 클릭하여 Microsoft 스토어에서 구입한 앱을 Intune으로 가져옵니다.
 
 ## <a name="synchronize-apps"></a>앱 동기화

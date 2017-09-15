@@ -1,6 +1,6 @@
 ---
-title: "Intune에tj 등록 제한 설정"
-titleSuffix: Intune on Azure
+title: "Intune에서 등록 제한 설정"
+titlesuffix: Azure portal
 description: "Intune에서 플랫폼별로 등록을 제한하고 장치 등록 제한을 설정합니다. \""
 keywords: 
 author: nathbarn
@@ -15,11 +15,11 @@ ms.assetid: f0a2b858-a824-4598-ab81-bdd8e62ac3b3
 ms.reviewer: amyros
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c8b945cf1722d25a9242a4a7776d023a58fe0036
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: b74faadfc93485023ea71f42b703f3b102aaa5b3
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="add-groups-in-intune"></a>Intune에서 그룹 추가
 Intune은 Azure AD(Active Directory) 그룹을 사용하여 장치 및 사용자를 관리합니다. Intune 관리자의 경우 조직의 요구에 맞게 그룹을 설정할 수 있습니다. 그룹을 만들어 지리적 위치, 부서 또는 하드웨어 특성별로 사용자 또는 장치를 구성합니다. 그룹을 사용하여 대규모 작업을 관리합니다. 예를 들어 많은 사용자에 대해 정책을 설정하거나 장치 집합에 앱을 배포할 수 있습니다.
@@ -33,8 +33,8 @@ Intune은 Azure AD(Active Directory) 그룹을 사용하여 장치 및 사용자
 ## <a name="add-a-new-group"></a>새 그룹 추가
 
 새 그룹을 만들려면 다음 단계를 따르세요.
-1. Intune 포털에서 **그룹**으로 이동한 다음 **모든 그룹** 블레이드에서 **새 그룹**을 선택합니다.
-  ![새 그룹이 선택된 Intune 포털 스크린샷](./media/groups-add-new.png)
+1. Azure Portal에서 **그룹**으로 이동한 다음 **모든 그룹** 블레이드에서 **새 그룹**을 선택합니다.
+  ![새 그룹이 선택된 Azure Portal의 스크린샷](./media/groups-add-new.png)
 2. 새 그룹의 **이름**과 **설명**을 지정합니다. 이러한 속성은 관리 포털에만 나타나고 사용자에게 표시되지 않습니다.
 
 3. **멤버 자격 유형**을 선택합니다.

@@ -5,7 +5,7 @@ keywords: Mac OS X, macOS, OS X
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 08/23/2017
+ms.date: 09/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 1b177b05f065f66deb8c60be768c123fc7991937
-ms.sourcegitcommit: 091f7b34f1fbf73db2bed5b46d92a78ba0dad1e4
+ms.openlocfilehash: 8eaeb2e0c44870dbebf85d98e2b49d46008068cd
+ms.sourcegitcommit: 1afff0fd464ece84ffea6bc0c71c78215d59e696
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2017
+ms.lasthandoff: 09/08/2017
 ---
 # <a name="enroll-your-macos-device-in-intune-with-the-company-portal-app"></a>회사 포털 앱을 사용하여 Intune에 macOS 장치 등록
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 08/23/2017
   > [!NOTE]
   > iPhone 또는 iPad 같은 iOS 장치를 등록하려면 [대신 이 지침을 따르세요](enroll-your-device-in-intune-ios.md).
 
-1. __도킹__에서 __Safari__를 찾아 macOS용 회사 포털 앱에 대한 [Microsoft 다운로드 센터](https://www.microsoft.com/download/details.aspx?id=55770) 페이지를 엽니다.
+1.  __도킹__에서 __Safari__를 찾고 [aka.ms/macoscompanyportal](https://aka.ms/macoscompanyportal)로 이동합니다. 
 
 2. 앱을 다운로드합니다. Mac에서 다운로드한 **CompanyPortal.dmg**가 열기에 안전한지 검사합니다. **다운로드** 폴더에서 파일을 열고 **CompanyPortal** 앱을 **응용 프로그램** 폴더로 끕니다.
 

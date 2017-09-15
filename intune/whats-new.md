@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Intune의 새로운 기능"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Intune Azure 포털의 새로운 기능 알아보기"
 keywords: 
 author: brenduns
@@ -15,11 +15,11 @@ ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b50856bdc500cab4b206a105275b4842680d4423
-ms.sourcegitcommit: 71cdf99d639530e70dbe48d611d399e52c3150b0
+ms.openlocfilehash: c4787c716f94e95ab98badf924273af5d02751f8
+ms.sourcegitcommit: fa6aaf12611c3e03e38e467806fc30b1d0255e88
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2017
+ms.lasthandoff: 09/12/2017
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Microsoft Intune의 새로운 기능
 
@@ -102,7 +102,7 @@ Android용 회사 포털 앱의 **설정** 페이지에는 사용자가 회사 �
 - Intune을 통해 [앱 보호 및 다중 ID](https://www.microsoft.com/cloud-platform/microsoft-intune-apps)를 지원하는 앱에 대해 자세히 알아봅니다.
 
 #### <a name="new-settings-to-allow-and-block-apps-on-samsung-knox-standard-devices"></a>Samsung KNOX Standard 장치에서 앱을 허용 및 차단하는 새로운 설정
-<!-- 1305423 -->  
+<!-- 1305423 822899-->  
 이 릴리스에서는 다음 앱 목록을 지정할 수 있는 새로운 [장치 제한 설정](device-restrictions-android.md)이 추가되었습니다.
  
 - 사용자 설치가 허용된 앱
@@ -112,7 +112,7 @@ Android용 회사 포털 앱의 **설정** 페이지에는 사용자가 회사 �
 URL, 패키지 이름 또는 관리하는 앱 목록을 통해 앱을 지정할 수 있습니다.
 
 #### <a name="new-azure-ad-app-based-conditional-access-policy-ui-link-from-intune"></a>Intune의 새 Azure AD 앱 기반 조건부 액세스 정책 UI 링크
-
+<!-- 1016201 -->
 IT 관리자는 이제 Azure AD 워크로드에서 새 조건부 액세스 정책 UI를 통해 앱 기반 조건부 정책을 설정할 수 있습니다. Azure Portal의 Intune 앱 보호 섹션에 있는 앱 기반 조건부 액세스는 그대로 남아 있으며 나란히 함께 적용됩니다. Intune 워크로드에서 새 조건부 액세스 정책 UI에 연결하는 편리한 링크도 있습니다.
 
 - [Azure AD 앱 기반 조건부 액세스](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-technical-reference)에 대해 자세히 알아보세요.
@@ -124,10 +124,10 @@ IT 관리자는 이제 Azure AD 워크로드에서 새 조건부 액세스 정�
 방화벽 프록시 설정에 대해 [DNS 이름 및 IP 주소의 업데이트된 목록](/intune/network-bandwidth-use)이 제공됩니다.
 
 ### <a name="use-azure-active-directory-for-conditional-access----967947---"></a>조건부 액세스에 Azure Active Directory 사용 <!-- 967947 -->
-Azure 콘솔의 Azure Active Directory 섹션에서 제공되는 조건부 액세스 기능은 Office 365 Exchange Online, SharePoint Online 등의 클라우드 앱에 대해 정책을 설정하기 위한 보다 강력하고 유연한 프레임워크를 제공합니다.  클래식 Intune 콘솔 대신 **Azure Active Directory의 조건부 액세스** 블레이드를 사용하여 정책을 구성할 수 있습니다. 클래식 Intune 콘솔의 기존 정책은 Azure 콘솔에서 다시 만들어야 합니다. 자세한 내용은 [Azure AD 조건부 액세스 정책 만들기](/intune/conditional-access-exchange-create.md#create-azure-ad-conditional-access-policies-in-intune-azure-preview)를 참조하세요.
+Azure Portal의 Azure Active Directory 섹션에서 제공되는 조건부 액세스 기능은 Office 365 Exchange Online, SharePoint Online 등의 클라우드 앱에 대해 정책을 설정하기 위한 보다 강력하고 유연한 프레임워크를 제공합니다.  Intune 콘솔 대신 **Azure Active Directory의 조건부 액세스** 블레이드를 사용하여 정책을 구성할 수 있습니다. Intune 콘솔의 기존 정책은 Azure Portal에서 다시 만들어야 합니다. 자세한 내용은 [Azure AD 조건부 액세스 정책 만들기](/intune/conditional-access-exchange-create.md#create-azure-ad-conditional-access-policies-in-intune-azure-preview)를 참조하세요.
 
 ### <a name="direct-access-to-apple-enrollment-scenarios---951869--"></a>Apple 등록 시나리오에 대한 직접 액세스 <!--951869-->
-2017년 1월 이후에 만든 Intune 계정은 Azure 포털에서 장치 등록 워크로드를 사용하여 Apple 등록 시나리오에 직접 액세스할 수 있습니다. 이전에는 클래식 Intune 포털의 링크를 통해서만 Apple 등록 미리 보기에 액세스할 수 있었습니다. 2017년 1월 이전에 만든 Intune 계정은 일회성 마이그레이션을 수행해야 Azure에서 이러한 기능을 사용할 수 있습니다. 마이그레이션 일정은 아직 공지되지 않았지만 가능한 한 빠른 시일 내에 세부 정보가 제공될 예정입니다. 기존 계정에서 Azure 포털에 액세스할 수 없는 경우 평가판 계정을 만들어 새로운 환경을 테스트해 보는 것이 좋습니다.
+2017년 1월 이후에 만든 Intune 계정은 Azure 포털에서 장치 등록 워크로드를 사용하여 Apple 등록 시나리오에 직접 액세스할 수 있습니다. 이전에는 Intune 클래식 포털의 링크를 통해서만 Apple 등록 미리 보기에 액세스할 수 있었습니다. 2017년 1월 이전에 만든 Intune 계정은 일회성 마이그레이션을 수행해야 Azure에서 이러한 기능을 사용할 수 있습니다. 마이그레이션 일정은 아직 공지되지 않았지만 가능한 한 빠른 시일 내에 세부 정보가 제공될 예정입니다. 기존 계정에서 Azure 포털에 액세스할 수 없는 경우 평가판 계정을 만들어 새로운 환경을 테스트해 보는 것이 좋습니다.
 
 ### <a name="administration-roles-being-replaced-in-azure-portal"></a>Azure Portal에서 대체되는 관리 역할
 Intune 클래식 포털(Silverlight)에서 사용된 기존 MAM(모바일 응용 프로그램 관리) 관리 역할(참가자, 소유자 및 읽기 전용)은 Intune Azure Portal에서 새로운 RBAC(역할 기반 관리 제어)의 전체 집합으로 대체됩니다. Azure Portal로 마이그레이션한 후에 이러한 새 관리 역할에 관리자를 다시 할당해야 합니다. RBAC 및 새 역할에 대한 자세한 내용은 [Microsoft Intune에 대한 역할 기반 액세스 제어](/intune/role-based-access-control)를 참조하세요.
@@ -168,7 +168,7 @@ iOS 9.0 이상을 실행하는 장치만 지원하는 iOS용 Microsoft Intune �
 #### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>이러한 변경에 대해 준비하려면 어떻게 해야 하나요?
 사용자에게 iOS 9.0 이상으로 업데이트하여 Intune의 새로운 기능을 완전히 활용하도록 권유합니다.  사용자에게 새 버전의 회사 포털을 설치하여 제공되는 새로운 기능을 활용하도록 권유합니다.
 
-Azure Portal의 Intune으로 이동한 다음 장치 > 모든 장치에서 iOS 버전별로 필터링하여 iOS 9 이전 운영 체제를 사용하는 현재 장치를 모두 확인합니다.
+Azure Portal의 Intune으로 이동한 다음 [장치] > [모든 장치]에서 iOS 버전별로 필터링하여 iOS 9 이전 운영 체제를 사용하는 현재 장치를 모두 확인합니다.
 
 
 ### <a name="apple-to-require-updates-for-application-transport-security---748318--"></a>Apple의 Application Transport Security 업데이트 요구 <!--748318-->

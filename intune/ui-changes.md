@@ -1,7 +1,7 @@
 ---
 title: "Azure에서 Intune 기능은 어디에 있나요?"
-titleSuffix: Intune on Azure
-description: "Azure 콘솔에서 Intune 기능을 찾는 데 도움이 되는 정보를 제공합니다.\""
+titlesuffix: Azure portal
+description: "Azure Portal에서 Intune 기능을 찾는 데 도움이 되는 정보를 제공합니다.”"
 keywords: 
 author: dagerrit
 ms.author: dagerrit
@@ -15,16 +15,16 @@ ms.assetid:
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 18e5ea572bde503600bc33a0b4401efed2e35d18
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 105b874523024b58098205d94da47c07ee432dfc
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="where-did-my-intune-feature-go-in-azure"></a>Azure에서 Intune 기능은 어디에 있나요?
-Intune 기능을 Azure Portal로 이동하면서 일부 작업을 더 논리적으로 구성할 수 있게 되었습니다. 하지만 개선 작업을 진행할 때마다 항상 새 구성을 학습하는 비용이 발생하게 됩니다. 따라서 클래식 콘솔의 Intune에는 완전히 익숙하지만 Azure의 Intune에서 작업을 수행하는 방법을 궁금해하는 사용자를 위해 이 참조 가이드를 만들었습니다. 찾고 있는 기능이 이 문서에서 다루어지지 않은 경우 Microsoft에서 해당 내용을 업데이트할 수 있도록 본 문서 하단에 의견을 남겨 주세요.
+Intune 기능을 Azure Portal로 이동하면서 일부 작업을 더 논리적으로 구성할 수 있게 되었습니다. 하지만 개선 작업을 진행할 때마다 항상 새 구성을 학습하는 비용이 발생하게 됩니다. 따라서 클래식 콘솔의 Intune에는 완전히 익숙하지만 Azure Portal의 Intune에서 작업을 수행하는 방법을 궁금해하는 사용자를 위해 이 참조 가이드를 만들었습니다. 찾고 있는 기능이 이 문서에서 다루어지지 않은 경우 Microsoft에서 해당 내용을 업데이트할 수 있도록 본 문서 하단에 의견을 남겨 주세요.
 ## <a name="quick-reference-guide"></a>빠른 참조 가이드
-|기능 |클래식 콘솔의 경로|Azure의 Intune 경로|
+|기능 |클래식 포털의 경로|Azure Portal의 Intune 경로|
 |------------|---------------|---------------|
 |DEP(장치 등록 프로그램) |관리 > 모바일 장치 관리 > iOS 및 Mac OS X > 장치 등록 프로그램|[장치 등록 > Apple 등록 > 등록 프로그램 토큰](#where-did-apple-dep-go) |
 |DEP(장치 등록 프로그램)| 관리 > 모바일 장치 관리 > iOS 및 Mac OS X > 장치 등록 프로그램 |[장치 등록 > Apple 등록 > 등록 프로그램 일련 번호](#where-did-apple-dep-go) |
@@ -39,10 +39,10 @@ Intune 기능을 Azure Portal로 이동하면서 일부 작업을 더 논리적�
 
 
 ## <a name="where-do-i-manage-groups"></a>그룹은 어디에서 관리하나요?
-Azure의 Intune은 Intune [Azure AD(Active Directory)](https://docs.microsoft.com/azure/active-directory/active-directory-groups-create-azure-portal)를 사용하여 그룹을 관리합니다.
+Azure Portal의 Intune은 [Azure AD(Active Directory)](https://docs.microsoft.com/azure/active-directory/active-directory-groups-create-azure-portal)를 사용하여 그룹을 관리합니다.
 
 ## <a name="where-did-enrollment-rules-go"></a>등록 규칙은 어디에 있나요?
-클래식 콘솔에서는 모바일 장치와 최신 Windows 및 macOS 장치의 MDM 등록을 제어하는 규칙을 설정할 수 있었습니다.
+클래식 포털에서는 모바일 장치와 최신 Windows 및 macOS 장치의 MDM 등록을 제어하는 규칙을 설정할 수 있었습니다.
 
 ![클래식 모바일 장치 등록 규칙의 이미지](./media/01-classic-rules.png)
 
@@ -50,11 +50,11 @@ Azure의 Intune은 Intune [Azure AD(Active Directory)](https://docs.microsoft.co
 
 ![Azure 모바일 장치 등록 제한의 이미지](./media/02-azure-enroll-restrictions.png)
 
-기본 장치 개수 제한은 클래식 콘솔의 장치 등록 제한에 해당됩니다.
+기본 [장치 개수 제한]은 클래식 포털의 [장치 등록 제한]에 해당됩니다.
 
 ![Azure 장치 개수 제한의 이미지](./media/03-azure-device-limit.png)
 
-기본 장치 유형 제한은 클래식 콘솔의 플랫폼 제한에 해당됩니다.
+기본 [장치 유형 제한]은 클래식 포털의 [플랫폼 제한]에 해당됩니다.
 
 ![Azure 장치 유형 제한의 이미지](./media/04-azure-platform-restrictions.png)
 
@@ -65,7 +65,7 @@ Azure의 Intune은 Intune [Azure AD(Active Directory)](https://docs.microsoft.co
 새로운 제한 기능은 Azure Portal에만 추가됩니다.
 
 ## <a name="where-did-apple-dep-go"></a>Apple DEP는 어디에 있나요?
-클래식 콘솔에서는 Apple 장비 등록 프로그램과 통합되도록 Intune을 설정하고 Apple 서비스와의 동기화를 수동으로 요청할 수 있었습니다.
+클래식 포털에서는 Apple 장비 등록 프로그램과 통합되도록 Intune을 설정하고 Apple 서비스와의 동기화를 수동으로 요청할 수 있었습니다.
 
 ![클래식 DEP 토큰의 이미지](./media/06-classic-dep-token.png)
 
@@ -73,13 +73,13 @@ Azure Portal에서는 Intune 클래식에서와 동일한 단계를 통해 Apple
 
 ![Azure DEP 토큰의 이미지](./media/07-azure-dep-token.png)
 
-하지만 클래식 콘솔의 **동기화** 옵션은 일련 번호 관리 워크플로로 이동되었습니다. 수동 동기화의 결과가 해당 워크플로에 표시되기 때문입니다.
+하지만 클래식 포털의 **동기화** 옵션은 일련 번호 관리 워크플로로 이동되었습니다. 수동 동기화의 결과가 해당 워크플로에 표시되기 때문입니다.
 
 ![Azure DEP 동기화의 이미지](./media/08-azure-dep-sync.png)
 
 ## <a name="where-did-corporate-pre-enrolled-devices-go"></a>회사에서 사전 등록한 장치는 어디에 있나요?
 ### <a name="by-ios-serial-number"></a>iOS 일련 번호 기준
-클래식 콘솔에서는 Apple DEP(장비 등록 프로그램) 및 Apple Configurator 도구를 통해 iOS 장치를 등록할 수 있습니다. 두 방법 모두 일련 번호로 장치를 사전 등록하며 특별한 회사 장치 등록 프로필을 할당합니다. 등록 전에는 **Corporate Pre-enrolled Device by iOS Serial Number**(iOS 일련 번호를 기준으로 회사에서 사전 등록한 장치) 장치 그룹을 통해 등록 프로필 할당을 관리할 수 있습니다.
+클래식 포털에서는 Apple DEP(장비 등록 프로그램) 및 Apple Configurator 도구를 통해 iOS 장치를 등록할 수 있습니다. 두 방법 모두 일련 번호로 장치를 사전 등록하며 특별한 회사 장치 등록 프로필을 할당합니다. 등록 전에는 **Corporate Pre-enrolled Device by iOS Serial Number**(iOS 일련 번호를 기준으로 회사에서 사전 등록한 장치) 장치 그룹을 통해 등록 프로필 할당을 관리할 수 있습니다.
 
 ![클래식 Apple 일련 번호의 이미지](./media/09-classic-apple-serials.png)
 
@@ -93,18 +93,18 @@ Azure Portal에서는 Intune 클래식에서와 동일한 단계를 통해 Apple
 
 ### <a name="by-imei-all-platforms"></a>IMEI 기준(모든 플랫폼)
 
-클래식 콘솔에서는 장치를 Intune에 등록했을 때 장치의 IMEI 번호를 미리 나열하여 회사 소유로 장치를 표시할 수 있습니다.
+클래식 포털에서는 장치를 Intune에 등록했을 때 장치의 IMEI 번호를 미리 나열하여 장치를 회사 소유로 표시할 수 있습니다.
 
 ![IMEI 번호 클래식 목록의 이미지](./media/12-classic-corp-imei.png)
 
-Azure 콘솔에서는 CSV(쉼표로 구분된 값) 파일을 사용하여 동일한 IMEI를 회사 장치 식별자 목록에 업로드해야 합니다. 새 포털에서는 IMEI 번호를 수동으로 입력할 수 없습니다.
+Azure Portal에서는 CSV(쉼표로 구분된 값) 파일을 사용하여 동일한 IMEI를 회사 장치 식별자 목록에 업로드해야 합니다. 새 포털에서는 IMEI 번호를 수동으로 입력할 수 없습니다.
 
 ![Azure IMEI 번호 목록의 이미지](./media/13-azure-corp-imei.png)
 
 Azure Portal의 Intune은 향후에도 IMEI 외에 다른 식별자 형식을 지원할 예정이지만 현재는 IMEI 번호만 미리 나열할 수 있습니다.
 
 ## <a name="where-did-corporate-device-enrollment-profiles-go"></a>회사 장치 등록 프로필은 어디에 있나요?
-Apple 장비 등록 프로그램이나 Apple Configurator 도구를 통해 iOS 장치를 등록하려면 장치를 할당할 회사 장치 등록 프로필을 제공해야 합니다. 클래식 콘솔에서는 이러한 프로필을 만들고 관리하는 작업이 한 목록에 있었습니다.
+Apple 장비 등록 프로그램이나 Apple Configurator 도구를 통해 iOS 장치를 등록하려면 장치를 할당할 회사 장치 등록 프로필을 제공해야 합니다. 클래식 포털에서는 이러한 프로필을 만들고 관리하는 작업이 한 목록에 있었습니다.
 
 ![클래식 장치 등록 프로필의 이미지](./media/14-classic-corp-profiles.png)
 

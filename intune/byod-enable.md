@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.openlocfilehash: fa70e21b9e9f7adfc508e24bd442a48c834ed7db
-ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
+ms.openlocfilehash: f4e414f3696c64f8ea450394928aa055ad427afd
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="enable-byod-with-intune"></a>Intune으로 BYOD를 사용하도록 설정
 
@@ -48,7 +48,7 @@ Intune 서비스를 준비한 후 관리하려는 다양한 장치 유형의 다
 
 -   **Android 장치** Android 장치를 등록하기 위해 Intune 서비스를 준비하는 데 필요한 작업은 없습니다. 사용자는 Google Play에서 제공되는 회사 포털 앱을 사용하여 관리 기능에 [Android 장치를 등록](/intune-user-help/enroll-your-device-in-intune-android)하기만 하면 됩니다.
 
--   **Windows Phones 및 PC** 추가 구성을 사용하여 Windows 장치를 등록할 수 있습니다. 최종 사용자 환경을 간소화하기 위해 Azure AD(Active Directory) Premium에서 Windows 10 PC 및 Windows 10 모바일 장치의 자동 등록을 사용할 수 있습니다. Azure AD Premium이 없거나 Windows 8.1을 지원해야 하는 경우 쉽게 등록할 수 있도록 [등록 서버의 DNS 별칭](windows-enroll.md#enable-windows-enrollment-without-azure-ad-premium)을 만들 수 있습니다.
+-   **Windows Phones 및 PC** 추가 구성을 사용하여 Windows 장치를 등록할 수 있습니다. 최종 사용자 환경을 간소화하기 위해 Azure AD(Active Directory) Premium에서 Windows 10 PC 및 Windows 10 모바일 장치의 자동 등록을 사용할 수 있습니다. Azure AD Premium이 없거나 Windows 8.1을 지원해야 하는 경우 쉽게 등록할 수 있도록 [등록 서버의 DNS 별칭](windows-enroll.md#simplify-windows-enrollment-without-azure-ad-premium)을 만들 수 있습니다.
 
 
 ### <a name="make-sure-that-managed-devices-meet-basic-security-requirements"></a>관리되는 장치가 기본 보안 요구 사항을 충족하는지 확인
@@ -82,7 +82,7 @@ Intune을 사용하여 iOS 앱 스토어 및 비즈니스용 Microsoft 스토어
 
 -   [iOS 장치용 대량 구매 앱 관리](vpp-apps-ios.md). [Apple 비즈니스용 VPP(Volume Purchase Program)](http://www.apple.com/business/vpp/)를 통해 iOS 앱의 라이선스를 여러 개 구매합니다. Apple 웹 사이트에서 Apple VPP 계정을 설정하고 Apple VPP 토큰을 Intune에 업로드해야 합니다. 그런 다음 대량 구매 정보를 Intune과 동기화하고 대량 구매 앱 사용을 추적할 수 있습니다.
 
--   [비즈니스용 Microsoft 스토어에서 구매한 앱 관리](windows-store-for-business.md). [비즈니스용 Microsoft 스토어](https://www.microsoft.com/business-store)는 개별적으로 또는 대량으로 조직에 대한 앱을 찾고 구입할 수 있는 위치를 제공합니다. 스토어를 Intune에 연결하여 Intune 포털에서 대용량 구입 앱을 관리할 수 있습니다.
+-   [비즈니스용 Microsoft 스토어에서 구매한 앱 관리](windows-store-for-business.md). [비즈니스용 Microsoft 스토어](https://www.microsoft.com/business-store)는 개별적으로 또는 대량으로 조직에 대한 앱을 찾고 구입할 수 있는 위치를 제공합니다. 스토어를 Intune에 연결하여 Azure Portal에서 대량 구입한 앱을 관리할 수 있습니다.
 
 ## <a name="protect-company-data"></a>회사 데이터 보호
 

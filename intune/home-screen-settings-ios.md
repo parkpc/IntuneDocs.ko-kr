@@ -1,6 +1,6 @@
 ---
 title: "iOS 장치용 Intune 홈 화면 레이아웃 설정"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "iOS 장치에서 홈 화면과 Dock를 사용자 지정하는 데 사용할 수 있는 설정을 알아봅니다.\""
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid: 6aba4491-afb9-43cd-9ccc-14e6a2a5a3b1
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: de15a5f5291a6701782d357d24e2e802d7e7e44b
-ms.sourcegitcommit: c9b3a95bf529b6cb2a2bdacbc49127dfa0c233e5
+ms.openlocfilehash: 4a3f175337d521c92c909db9972d844ac6997cb0
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="intune-home-screen-layout-settings-for-ios-devices"></a>iOS 장치용 Intune 홈 화면 레이아웃 설정
 
@@ -60,7 +60,7 @@ iPhone에 정책을 할당할 때 결과는 다음 스크린샷과 유사한 Doc
 
 
 1. **페이지** 블레이드에서 **추가**를 선택합니다.
-2. **행 추가** 블레이드에서 **페이지 이름**을 입력합니다. 이 이름은 Intune 포털에서 참조용으로 사용되며, iOS 장치에는 *표시되지 않습니다*.
+2. **행 추가** 블레이드에서 **페이지 이름**을 입력합니다. 이 이름은 Azure Portal에서 참조용으로 사용되며, iOS 장치에는 *표시되지 않습니다*.
 3. **추가**를 선택한 다음 페이지에 **앱**을 추가할지, **폴더**를 추가할지 선택합니다.
 4. 이 항목의 정보를 참조하여 페이지에 표시할 앱 및 폴더를 구성합니다.
 
@@ -76,7 +76,7 @@ iPhone에 정책을 할당할 때 결과는 다음 스크린샷과 유사한 페
 
 ## <a name="how-to-add-an-app-to-the-list"></a>목록에 앱을 추가하는 방법
 
-1. **앱 이름**을 입력합니다. 이 이름은 Intune 포털에서 참조용으로 사용되며, iOS 장치에는 *표시되지 않습니다*.
+1. **앱 이름**을 입력합니다. 이 이름은 Azure Portal에서 참조용으로 사용되며, iOS 장치에는 *표시되지 않습니다*.
 2. 표시할 앱의 **앱 번들 ID**를 입력합니다. 도움말은 이 항목의 **기본 제공 iOS 앱에 대한 번들 ID 참조**를 참조하세요.
 3. **확인**을 클릭하고, 항목을 계속 추가합니다. 장치 Dock의 경우는 최대 **6**개, 디바이스 페이지의 경우는 최대 **60**개입니다.
 4. 작업을 마쳤으면 **확인**을 클릭합니다.
@@ -87,8 +87,8 @@ iPhone에 정책을 할당할 때 결과는 다음 스크린샷과 유사한 페
 
 1. **폴더 이름**을 입력합니다. 이 이름은 해당 장치에서 사용자에게 표시됩니다.
 2. **추가**를 선택하여 폴더 페이지를 만듭니다. 최대 20개의 페이지를 추가할 수 있습니다.
-3. **행 추가** 블레이드에서 페이지에 대한 이름을 입력합니다. 이 이름은 Intune 포털에서 참조용으로 사용되며, iOS 장치에는 *표시되지 않습니다*.
-3. **앱 이름**을 입력합니다. 이 이름은 Intune 포털에서 참조용으로 사용되며, iOS 장치에는 *표시되지 않습니다*.
+3. **행 추가** 블레이드에서 페이지에 대한 이름을 입력합니다. 이 이름은 Azure Portal에서 참조용으로 사용되며, iOS 장치에는 *표시되지 않습니다*.
+3. **앱 이름**을 입력합니다. 이 이름은 Azure Portal에서 참조용으로 사용되며, iOS 장치에는 *표시되지 않습니다*.
 2. 표시할 앱의 **앱 번들 ID**를 입력합니다. 도움말은 **목록에 앱을 추가하는 방법**을 참조하세요.
 3. **추가**를 선택합니다. 최대 60개 항목을 추가할 수 있습니다.
 4. 작업을 마쳤으면 **확인**을 클릭합니다.

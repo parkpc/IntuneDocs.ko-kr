@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Intune에서 사용 약관 설정"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Intune용 회사 포털에서 사용자에게 표시되는 사용 약관을 설정합니다. "
 keywords: 
 author: nathbarn
@@ -15,11 +15,11 @@ ms.assetid: 4a3a11a8-9c0c-4334-8c6b-6fea4d0a2efb
 ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0262b8068ddf134de5ffec0965476fb513ceb9ab
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 47b153223e10ec358c61a212bdacd109ee90bbcd
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="ensure-users-accept-company-terms-for-access"></a>사용자가 액세스를 위한 회사 약관에 동의하는지 확인
 
@@ -32,14 +32,14 @@ Intune 관리자는 사용자가 회사의 사용 약관에 동의해야만 회�
 ## <a name="create-terms-and-conditions"></a>사용 약관 만들기
 사용 약관을 만들려면 다음 단계를 완료합니다. 표시 이름 및 설명은 관리용이며 약관 속성은 회사 포털의 사용자에게 표시됩니다.
 
-1. Intune 포털에서 **장치 등록**을 선택한 다음 **사용 약관**을 선택합니다.
+1. Azure Portal에서 **장치 등록**을 선택한 다음 **사용 약관**을 선택합니다.
 2. **만들기**를 선택합니다.
-![사용 약관에 사용되는 만들기 단추가 표시된 Intune 포털 스크린샷](media/terms-create-terms.png)
+![사용 약관에 사용되는 [만들기] 단추가 표시된 Azure Portal 스크린샷](media/terms-create-terms.png)
 3. 확장된 블레이드에서 다음 정보를 지정합니다.
 
-   - **표시 이름**: Intune 포털의 약관 이름입니다. 사용자에게는 이 이름이 표시되지 않습니다.
+   - **표시 이름**: Azure Portal의 약관 이름입니다. 사용자에게는 이 이름이 표시되지 않습니다.
 
-   - **설명**: Intune 포털에서 이 용어 집합을 식별하는 데 도움이 되는 선택적 세부 정보입니다.
+   - **설명**: Azure Portal에서 이 약관 집합을 식별하는 데 도움이 되는 선택적 세부 정보입니다.
 
 4. 사용 약관 정의 옆의 화살표를 선택하여 사용 약관 블레이드를 열고 다음 정보를 입력합니다.
 
@@ -64,9 +64,9 @@ Intune 관리자는 사용자가 회사의 사용 약관에 동의해야만 회�
 
 회사 포털을 사용하기 전에 사용 약관에 동의해야 하는 사용자의 그룹에 사용 약관을 할당할 수 있습니다.
 
-1. Intune 포털에서 **장치 등록**을 선택한 다음 **사용 약관**을 선택합니다.
+1. Azure Portal에서 **장치 등록**을 선택한 다음 **사용 약관**을 선택합니다.
 2. 사용 약관 목록에서 할당할 약관을 선택하고 **할당 그룹**을 선택합니다.
-![사용 약관 할당에 사용되는 그룹 선택 단추와 선택 단추를 보여주는 Intune 포털 그룹 할당 블레이드가 표시된 스크린샷](media/terms-assign-groups.png)
+![사용 약관 할당에 사용되는 [그룹 선택] 단추와 [선택] 단추를 보여주는 Azure Portal의 [그룹 할당] 블레이드가 표시된 스크린샷](media/terms-assign-groups.png)
 3. **그룹 선택** 블레이드에서 **그룹 선택** 단추를 클릭하고, 약관을 할당할 그룹을 선택하고, **선택**을 클릭합니다. 사용 약관에는 동적 그룹을 할당할 수 없습니다.
 4. **할당 그룹** 블레이드에서 **저장**을 클릭합니다.  이제 선택한 그룹의 사용자에게 사용 약관이 할당됩니다. 다음번에 사용자가 회사 포털에 액세스할 때 약관에 동의하는지 묻는 메시지가 표시됩니다. 사용 약관은 한 번만 동의하면 됩니다. 즉, 여러 장치를 소유한 사용자가 각 장치에서 사용 약관에 동의할 필요가 없습니다.
 
