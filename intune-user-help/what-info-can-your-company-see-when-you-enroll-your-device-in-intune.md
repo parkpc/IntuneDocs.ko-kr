@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/21/2017
+ms.date: 09/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,34 +15,36 @@ searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
-ms.openlocfilehash: 88f1d4b3e54a27be86a542e1265ea9606498ab4f
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 8da134d768333fb03cc87ab38230f5f022fee2e1
+ms.sourcegitcommit: 1afff0fd464ece84ffea6bc0c71c78215d59e696
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/08/2017
 ---
-# <a name="what-information-can-my-company-see-when-i-enroll-my-device-in-intune"></a>Intune에서 장치를 등록하면 회사에 어떤 정보가 표시되나요?
+# <a name="what-information-can-my-company-see-when-i-enroll-my-device"></a>장치를 등록하면 회사에 어떤 정보가 표시되나요?
 
-관리에 장치를 등록하면 장치의 회사 데이터를 보호하기 위해 장치의 특정 정보에 액세스할 수 있는 권한을 회사의 IT 부서에 부여하게 됩니다.
+관리에 장치를 등록하면 장치의 회사 데이터를 보호하기 위해 장치의 특정 정보를 볼 수 있는 권한을 회사에 부여하게 됩니다.
 
-**IT 부서에서 볼 수 없는 사항**
+**회사에서 절대로 볼 수 없는 사항**
 
 - 호출 및 웹 검색 기록
--   위치
-- 개인 메일
-- 문자 메시지
+- 전자 메일 및 문자 메시지
 - 연락처
--   개인 계정의 암호
-- 일정 이벤트
+- 일정
+-   암호
 - 사진 앱 또는 카메라 앨범에 있는 사진을 비롯한 사진
 
-**IT 부서에서 볼 수 있는 사항**
+**회사에서 항상 볼 수 있는 사항**
 
--   모델
--   일련 번호
--   운영 체제 버전
--   앱 이름
--   Owner
--   장치 이름
--   (Apple에서 제조되지 않은 장치의) 제조업체
--   전화 번호(업무용 장치의 경우 전체 번호, 개인 장치의 경우 마지막 4자리만)
+- 장치 모델(예: iPhone 7)
+- 제조업체(예: Microsoft)
+- 운영 체제(예: Android 7.1)
+- 앱 이름(예: Microsoft Word)
+- 장치 소유자
+- 장치 이름
+- 일련 번호
+
+**회사에서 볼 수도 있는 사항**
+
+-  전화 번호: **회사** 소유 장치인 경우 전체 전화 번호를 볼 수 있습니다. **개인** 소유 장치인 경우 전화 번호의 마지막 네 자리만 회사에 표시됩니다. 장치의 **장치 세부 정보** 페이지를 열어 각 개별 장치의 **소유권 유형**을 확인할 수 있습니다. 
+-  위치: 감독되는 iOS 장치를 분실한 경우를 제외하고, 회사에서는 장치의 위치를 확인할 수 없습니다. [어떻게 알 수 있나요?](https://go.microsoft.com/fwlink/?linkid=853816)

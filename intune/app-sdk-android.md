@@ -5,20 +5,20 @@ keywords: SDK
 author: mtillman
 manager: angrobe
 ms.author: mtillman
-ms.date: 07/05/2017
+ms.date: 09/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
-ms.reviewer: oydang
+ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a6e0ea5edc5a174e0400ccca3931323712f3cbbe
-ms.sourcegitcommit: ce8a1f0f4e95444949556600d1837937b6efd769
+ms.openlocfilehash: a28305aab1fff16a46b8142e5869bfa25008017c
+ms.sourcegitcommit: fa6aaf12611c3e03e38e467806fc30b1d0255e88
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 09/12/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Android용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -456,8 +456,9 @@ SDK가 작동하려면 [인증](https://azure.microsoft.com/documentation/articl
     |--|--|
     | Authority | AAD 계정이 구성된 원하는 환경 |
     | ClientID | 앱의 ClientID(앱을 등록할 때 Azure AD에서 생성함) |
-    | NonBrokerRedirectURI | 기본적으로 앱의 유효한 리디렉션 URI 또는 `urn:ietf:wg:oauth:2.0:oob`. <br><br> 앱의 ClientID에 허용 가능한 리디렉션 URI로 값을 구성합니다.
-    | SkipBroker | False |
+    | NonBrokerRedirectURI | 앱의 유효한 리디렉션 URI 또는 `urn:ietf:wg:oauth:2.0:oob` 
+    . <br><br> 앱의 ClientID에 허용 가능한 리디렉션 URI로 값을 구성합니다.
+   | SkipBroker | False |
 
 
 3. **앱이 ADAL을 통합하지만 조정된 인증/장치 수준 SSO를 지원하지 않음:**
@@ -1127,7 +1128,7 @@ public final class MAMDataProtectionManager {
 
 `WIPE_USER_DATA` 알림을 등록한 앱에는 SDK 기본 선택적 초기화 동작이 적용되지 않습니다. 다중 ID 인식 앱의 경우 MAM 기본 선택적 초기화는 초기화의 대상이 되는 ID가 있는 파일만 초기화하므로 더 많이 유실될 수 있습니다.
 
-다중 ID 인식 응용 프로그램에서 MAM 기본 선택 초기화를 수행하고  _**및**_ 에서 초기화 시 고유 작업을 수행하려는 경우 `WIPE_USER_AUXILIARY_DATA` 알림을 등록해야 합니다. 이 알림은 MAM 기본 선택적 초기화를 수행하기 직전에 SDK에서 즉시 전송합니다. 앱에서 WIPE_USER_DATA와 WIPE_USER_AUXILIARY_DATA를 둘 다 등록하지 않아야 합니다.
+다중 ID 인식 응용 프로그램에서 MAM 기본 선택 초기화를 수행하고 _** 및 **_에서 초기화 시 고유 작업을 수행하려는 경우 `WIPE_USER_AUXILIARY_DATA` 알림을 등록해야 합니다. 이 알림은 MAM 기본 선택적 초기화를 수행하기 직전에 SDK에서 즉시 전송합니다. 앱에서 WIPE_USER_DATA와 WIPE_USER_AUXILIARY_DATA를 둘 다 등록하지 않아야 합니다.
 
 ## <a name="enabling-mam-targeted-configuration-for-your-android-applications-optional"></a>Android 응용 프로그램에 대해 MAM 대상 구성 사용(선택 사항)
 Intune 콘솔에서 응용 프로그램 특정 키-값 쌍을 구성해야 합니다. 이러한 키-값 쌍은 Intune에서 전혀 해석되지 않고 앱에 전달되기만 합니다. 해당 구성을 수신하려고 하는 응용 프로그램은 `MAMAppConfigManager` 및 `MAMAppConfig` 클래스를 사용하여 구성을 수신할 수 있습니다. 동일한 앱에서 여러 정책을 대상으로 지정하면 동일한 키에 사용할 수 있는 여러 개의 충돌 값이 발생할 수 있습니다.
@@ -1355,7 +1356,7 @@ Intune SDK는 Android API에서 제공되는 계약을 유지하지만, 정책 �
 
 ## <a name="telemetry"></a>원격 분석
 
-Android 용 Intune 앱 SDK는 앱에서 데이터 수집을 제어하지 않습니다. 기본적으로 회사 포털 응용 프로그램은 다음 사용 이벤트에 대한 원격 분석 데이터를 기록합니다. 이 데이터는 Microsoft Intune로 전송됩니다. Microsoft 정책에 따라 Microsoft는 PII(개인 식별 정보)를 수집하지 않습니다.
+Android 용 Intune 앱 SDK는 앱에서 데이터 수집을 제어하지 않습니다. 기본적으로 회사 포털 응용 프로그램은 원격 분석 데이터를 기록합니다. 이 데이터는 Microsoft Intune로 전송됩니다. Microsoft 정책에 따라 Microsoft는 PII(개인 식별 정보)를 수집하지 않습니다.
 
 > [!NOTE]
 > 최종 사용자가 이 데이터를 보내지 않도록 선택하는 경우 회사 포털 앱의 [설정]에서 원격 분석을 해제해야 합니다. 자세한 내용은 [Microsoft 사용 현황 데이터 수집 해제](https://docs.microsoft.com/en-us/intune-user-help/turn-off-microsoft-usage-data-collection-android)를 참조하세요. 

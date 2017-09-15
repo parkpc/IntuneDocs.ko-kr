@@ -1,6 +1,6 @@
 ---
-title: "소프트웨어 업데이트 관리"
-titleSuffix: Configure Windows Update for Business settings - Intune
+title: "Intune에서 비즈니스용 Windows 업데이트 설정 구성"
+titleSuffix: Azure portal
 description: "Windows 10 장치에 대한 업데이트를 제어하도록 Intune에서 비즈니스용 Windows 업데이트 설정을 구성하는 방법을 알아봅니다.\""
 keywords: 
 author: dougeby
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 08f659cf-715e-4e10-9ab2-1bac3c6f2366
 ms.reviewer: coryfe
 ms.suite: ems
-ms.openlocfilehash: 6d88fd62b84c0cc7c3678692cef5ab547bfb8c5d
-ms.sourcegitcommit: f9b01976c0fc479ac8bc3998eb55bbc517ed2d84
+ms.openlocfilehash: 71dad71cdfa9f503a47e301f0b5d3fef2567f886
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="manage-software-updates"></a>소프트웨어 업데이트 관리
 
@@ -54,20 +54,20 @@ Windows as a Service는 Windows 10 장치를 업데이트하는 방법입니다.
 
     이 설정을 수동으로 구성할 수 있습니다. 아니면 Windows 10 이상에 대한 Intune 장치 제한 프로필을 사용할 수도 있습니다. 이렇게 하려면 **일반** > **진단 데이터 전송** 설정을 **기본** 이상으로 구성합니다. 장치 프로필에 대한 자세한 내용은 [장치 제한 설정을 구성하는 방법](device-restrictions-configure.md)을 참조하세요.
 
-- 클래식 Intune 관리 콘솔에는 소프트웨어 업데이트 동작을 제어하는 설정이 4가지 있습니다. 이 설정은 Windows 10 Desktop 및 Mobile 장치에 대한 일반 구성 정책의 일부입니다.
+- Intune 관리 콘솔에는 소프트웨어 업데이트 동작을 제어하는 설정이 4가지 있습니다. 이 설정은 Windows 10 Desktop 및 Mobile 장치에 대한 일반 구성 정책의 일부입니다.
     - **자동 업데이트 허용**
     - **시험판 기능 허용**
     - **예약된 설치 날짜**
     - **예약된 설치 시간**
 
-  클래식 콘솔에는 장치 구성 프로필에 제한된 개수의 다른 Windows 10 업데이트 설정도 있습니다. Azure Portal로 마이그레이션할 때 이러한 설정이 클래식 Intune 관리 콘솔에서 구성되어 있는 경우 다음을 수행하는 것이 좋습니다.
+  클래식 포털에는 장치 구성 프로필에 제한된 개수의 다른 Windows 10 업데이트 설정도 있습니다. Azure Portal로 마이그레이션할 때 이러한 설정이 Intune 관리 콘솔에서 구성되어 있는 경우 다음을 수행하는 것이 좋습니다.
 
 1. 필요한 설정을 사용하여 Azure Portal에서 Windows 10 업데이트 링을 만듭니다. **시험판 기능 허용** 설정은 더 이상 최신 Windows 10 빌드에 적용할 수 없기 때문에 Azure Portal에서 지원되지 않습니다. 업데이트 링을 만들 때 나머지 3개 설정뿐만 아니라 다른 Windows 10 업데이트 설정도 구성할 수 있습니다.
 
   > [!NOTE]
-  > 클래식 콘솔에서 만든 Windows 10 업데이트 설정은 마이그레이션 후 Azure Portal에서 표시되지 않습니다. 그러나 이 설정은 계속 적용됩니다. 이러한 설정을 마이그레이션한 후 Azure Portal에서 마이그레이션된 정책을 편집하는 경우 해당 설정은 정책에서 제거됩니다.
+  > 클래식 포털에서 만든 Windows 10 업데이트 설정은 마이그레이션 후 Azure Portal에서 표시되지 않습니다. 그러나 이 설정은 계속 적용됩니다. 이러한 설정을 마이그레이션한 후 Azure Portal에서 마이그레이션된 정책을 편집하는 경우 해당 설정은 정책에서 제거됩니다.
 
-2. 클래식 콘솔에서 업데이트 설정을 삭제합니다. Azure Portal로 마이그레이션하고 동일한 설정을 업데이트 링에 추가한 후에는 잠재적인 정책 충돌을 방지하기 위해 클래식 포털에서 설정을 삭제해야 합니다. 예를 들어, 서로 다른 값을 사용하여 동일한 설정이 구성된 경우 충돌이 생기며 클래식 콘솔에서 구성된 설정은 Azure Portal에 표시되지 않으므로 충돌을 쉽게 파악할 수 없습니다.
+2. 클래식 포털에서 업데이트 설정을 삭제합니다. Azure Portal로 마이그레이션하고 동일한 설정을 업데이트 링에 추가한 후에는 잠재적인 정책 충돌을 방지하기 위해 클래식 포털에서 설정을 삭제해야 합니다. 예를 들어, 서로 다른 값을 사용하여 동일한 설정이 구성된 경우 충돌이 생기며 클래식 포털에서 구성된 설정은 Azure Portal에 표시되지 않으므로 충돌을 쉽게 파악할 수 없습니다.
 
 ## <a name="how-to-create-and-assign-update-rings"></a>업데이트 링 만들기 및 할당 방법
 

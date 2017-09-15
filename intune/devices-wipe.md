@@ -1,12 +1,12 @@
 ---
 title: "Intune을 사용하는 장치에서 공장 기본 설정으로 복원을 사용하거나 회사 데이터 제거"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "장치에서 회사 데이터를 제거하거나 장치를 공장 기본 설정으로 복원하는 방법을 알아봅니다."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 08/07/2017
+ms.date: 08/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 331ced93f0697f7c76d1356aae32b955602d17a3
-ms.sourcegitcommit: 2ed8d1c39d4b3e3282111f1d758afb3a50f19f8f
+ms.openlocfilehash: 41bfb62f90965288d73948650b6935434c986d92
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="remove-devices-by-using-factory-reset-or-remove-company-data"></a>공장 기본 설정으로 복원을 사용하여 장치를 제거하거나 회사 데이터 제거
 
@@ -106,7 +106,7 @@ Android for Work 장치에서 회사 데이터를 제거하면 해당 장치의 
 
 ## <a name="delete-devices-from-the-azure-active-directory-portal"></a>Azure Active Directory 포털에서 장치 삭제
 
-통신 문제 또는 누락된 장치 때문에 Azure AD(Active Directory)에서 장치를 삭제해야 할 수도 있습니다. 삭제 명령을 수행해도 관리에서 장치가 제거되지 않지만 **삭제**를 사용하여 Azure 콘솔에서 확실히 연결할 수 없고 Azure와 통신할 가능성이 적은 장치 레코드를 다시 제거할 수 있습니다.
+통신 문제 또는 누락된 장치 때문에 Azure AD(Active Directory)에서 장치를 삭제해야 할 수도 있습니다. 삭제 명령을 수행해도 관리에서 장치가 제거되지 않지만 **삭제**를 사용하여 Azure Portal에서 확실히 연결할 수 없고 Azure와 다시 통신할 가능성이 적은 장치 레코드를 제거할 수 있습니다.
 
 1.  관리 자격 증명을 사용하여 [Azure 포털의 Azure Active Directory](http://aka.ms/accessaad)에 로그인합니다. 또한 [Office 365 포털](https://portal.office.com)에 로그인한 다음 페이지 왼쪽의 링크를 사용하여 **관리** &gt; **Azure AD**를 선택할 수 있습니다.
 3.  Azure 구독이 없으면 만듭니다. 유료 계정이 있는 경우 신용 카드나 결제가 필요하지 않습니다(**Register your free Azure Active Directory(무료 Azure Active Directory 등록)** 구독 링크 선택).

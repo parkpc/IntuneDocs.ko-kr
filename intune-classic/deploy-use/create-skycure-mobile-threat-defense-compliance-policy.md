@@ -1,6 +1,6 @@
 ---
 title: "Skycure Mobile Threat Defense 준수 정책 만들기"
-description: "Intune 클래식 콘솔에서 Skycure Mobile Threat Defense 준수 정책을 만듭니다."
+description: "Intune 클래식 포털에서 Skycure Mobile Threat Defense 준수 정책을 만듭니다."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -14,11 +14,11 @@ ms.assetid: 56ff1728-1119-4e8a-aae6-ed5c7fafa052
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 29caf162500e25c2a0151be92aabe4cc432e241b
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: e8f7b6c5c1e8497ca698b83215525ba9b4056f59
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="create-skycure-mobile-threat-defense-compliance-policy"></a>Skycure Mobile Threat Defense 준수 정책 만들기
 
@@ -38,7 +38,7 @@ Skycure Mobile Threat Defense 설정의 일부로, Skycure 콘솔에서 다양�
 
 ## <a name="to-create-skycure-compliance-policy"></a>Skycure 준수 정책을 만들려면
 
-1.  [Intune 클래식 콘솔](https://manage.microsoft.com/)로 이동한 다음 자격 증명을 입력합니다.
+1.  [Intune 클래식 포털](https://manage.microsoft.com/)로 이동한 다음 자격 증명을 입력합니다.
 
 2.  **정책** &gt; **준수 정책**을 선택합니다. 기존 준수 정책을 사용하거나 새로 만들 수 있습니다.
 

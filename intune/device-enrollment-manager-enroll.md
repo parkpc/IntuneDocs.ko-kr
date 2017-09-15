@@ -1,6 +1,6 @@
 ---
 title: "장치 등록 - 장치 등록 관리자"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "장치 등록 관리자 계정을 사용하여 Intune에 장치를 등록합니다. \""
 keywords: 
 author: nathbarn
@@ -15,11 +15,11 @@ ms.assetid: 7196b33e-d303-4415-ad0b-2ecdb14230fd
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 204df4648f1d79167e8eb5941d91b48d65b90704
-ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
+ms.openlocfilehash: 5caf60d0512a33c0c88f4305b1a9eb189112ba02
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="enroll-devices-using-device-enrollment-manager"></a>장치 등록 관리자를 사용하여 장치 등록
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 08/25/2017
 
 식당에는 서빙 직원을 위한 50대의 POS 태블릿과 주방 직원을 위한 주문 모니터를 공급하기를 원합니다. 직원은 회사 데이터에 액세스하거나 사용자로 로그인할 필요가 없습니다. Intune 관리자는 장치 등록 관리자 계정을 만들고 DEM 계정에 식당 감독자를 추가하여 해당 감독자에게 DEM 기능을 제공합니다. 이제 감독자는 DEM 자격 증명을 사용하여 50대의 태블릿 장치를 등록할 수 있습니다.
 
-Intune 콘솔의 사용자만 장치 등록 관리자가 될 수 있습니다. 장치 등록 관리자 사용자는 Intune 관리자일 수 없습니다.
+Azure Portal의 사용자만 장치 등록 관리자가 될 수 있습니다. 장치 등록 관리자 사용자는 Intune 관리자일 수 없습니다.
 
 DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
@@ -95,5 +95,5 @@ DEM 등록 작업을 수행하려면 전역 또는 Intune 서비스 관리자 Az
 
 ## <a name="view-the-properties-of-a-device-enrollment-manager"></a>장치 등록 관리자의 속성 보기
 
-1. Intune 포털에서 **장치 등록**을 선택한 다음 **장치 등록 관리자**를 선택합니다.
+1. Azure Portal에서 **장치 등록**을 선택한 다음 **장치 등록 관리자**를 선택합니다.
 2. **장치 등록 관리자** 블레이드에서 DEM 사용자를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.

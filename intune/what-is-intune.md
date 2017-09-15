@@ -1,7 +1,7 @@
 ---
 title: "Azure Portal의 Intune 소개"
-titleSuffix: Intune on Azure
-description: "Azure Portal의 Intune에 대한 기본 사항 및 Intune을 통해 장치를 관리하는 방법을 알아봅니다.\""
+titlesuffix: Azure portal
+description: "Azure Portal의 Intune에 대한 기본 사항 및 Intune을 통해 장치를 관리하는 방법을 알아봅니다.”"
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 4a085264-232a-4af0-97f1-747496c44517
 ms.suite: ems
 ms.custom: 
-ms.openlocfilehash: a51b3c59d922b0c150073017222dca0c90c5b7a0
-ms.sourcegitcommit: 36ae73f59ff5e9fdfe4f930ad0aa4b7795fe11f2
+ms.openlocfilehash: 6150434620f055f17563da6269c85c89c70b8e2b
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="introduction-to-microsoft-intune-in-the-azure-portal"></a>Azure Portal의 Microsoft Intune 소개
 
@@ -72,7 +72,7 @@ Azure Portal은 대부분의 최신 PC, Mac 및 태블릿에서 실행됩니다.
 
 ## <a name="whats-in-this-library"></a>이 라이브러리의 내용
 
-설명서에는 필요한 정보를 보다 쉽게 찾을 수 있도록 Intune 포털의 레이아웃이 반영됩니다.
+설명서에는 필요한 정보를 보다 쉽게 찾을 수 있도록 Azure Portal의 레이아웃이 반영됩니다.
 
 ![Azure Portal 워크로드](./media/azure-portal-workloads.png)
 

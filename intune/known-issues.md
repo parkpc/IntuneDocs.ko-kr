@@ -1,6 +1,6 @@
 ---
-title: "Azure의 Microsoft Intune에서 알려진 문제"
-titleSuffix: Intune on Azure
+title: "Azure Portal의 Microsoft Intune의 알려진 문제"
+titlesuffix: Azure portal
 description: "Intune의 알려진 문제에 대해 알아봅니다.\""
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5a9b7f69cded9258efb6c8a897e0c026f3228a6b
-ms.sourcegitcommit: c248b5a15894f0ade23bad4644c3b7035a9fcce8
+ms.openlocfilehash: 7570e7b2f612d1d2a017f82967cdc5baf798a761
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Microsoft Intune의 알려진 문제
 
@@ -37,7 +37,7 @@ Intune의 새로운 기능을 요청하려면 [Uservoice](https://microsoftintun
 
 ### <a name="groups-created-by-intune-during-migration-might-affect-functionality-of-other-microsoft-products"></a>마이그레이션 도중 Intune이 만든 그룹은 다른 Microsoft 제품의 기능에 영향을 줄 수 있습니다.
 
-클래식 Intune에서 Azure Portal로 마이그레이션할 때 **All Users - b0b08746-4dbe-4a37-9adf-9e7652c0b421**이라는 이름의 새 그룹이 보일 수 있습니다. 이 그룹에는 Intune의 사용이 허가된 사용자뿐만 아니라 Azure Active Directory의 모든 사용자도 포함됩니다. 이러한 사용 방식으로 인해 일부 기존 또는 새로운 사용자가 어떤 그룹의 멤버도 아니라면 다른 Microsoft 제품에서 문제가 발생할 수 있습니다.
+Intune에서 Azure Portal로 마이그레이션할 때 **All Users - b0b08746-4dbe-4a37-9adf-9e7652c0b421**이라는 이름의 새 그룹이 보일 수 있습니다. 이 그룹에는 Intune의 사용이 허가된 사용자뿐만 아니라 Azure Active Directory의 모든 사용자도 포함됩니다. 이러한 사용 방식으로 인해 일부 기존 또는 새로운 사용자가 어떤 그룹의 멤버도 아니라면 다른 Microsoft 제품에서 문제가 발생할 수 있습니다.
 
 ### <a name="secondary-migration-required-for-select-capabilities"></a>일부 기능에 필요한 보조 마이그레이션
 
@@ -49,20 +49,20 @@ Intune의 새로운 기능을 요청하려면 [Uservoice](https://microsoftintun
 - 장치 등록 관리자 계정
 - Apple Volume Purchase Program
 
-이러한 기능은 클래식 Intune(Silverlight) 콘솔 및 Azure Portal에서 관리할 수 없으므로 마이그레이션에서는 다음 작업이 수행됩니다.
-- 클래식 콘솔에서 이러한 기능이 사용하지 않도록 설정됩니다.
+이러한 기능은 Intune(Silverlight) 콘솔 및 Azure Portal에서 관리할 수 없으므로 마이그레이션에서는 다음 작업이 수행됩니다.
+- 클래식 포털에서 이러한 기능이 사용하지 않도록 설정됩니다.
 - Azure Portal에서 이러한 기능이 사용하도록 설정됩니다.  
 
-2017년 9월 11일 이후 이러한 기능의 마이그레이션은 Azure에 대한 기본 마이그레이션에 병합됩니다. 계정이 이미 Azure Portal을 사용하도록 마이그레이션된 경우 이 보조 마이그레이션은 2017년 9월 11일~22일에 수행됩니다. 계정 마이그레이션이 시작되면 같은 날 완료됩니다. 마이그레이션은 이러한 기능이 Intune 클래식 콘솔에서 사용하지 않도록 설정되는 시점으로부터 최대 6시간이 걸릴 수 있습니다.
+2017년 9월 11일 이후 이러한 기능의 마이그레이션은 Azure에 대한 기본 마이그레이션에 병합됩니다. 계정이 이미 Azure Portal을 사용하도록 마이그레이션된 경우 이 보조 마이그레이션은 2017년 9월 11일~22일에 수행됩니다. 계정 마이그레이션이 시작되면 같은 날 완료됩니다. 마이그레이션은 이러한 기능이 Intune 클래식 포털에서 사용하지 않도록 설정되는 시점으로부터 최대 6시간이 걸릴 수 있습니다.
 
 이제 Azure Portal에서 이러한 Intune 기능을 관리하는 경우 다음 사항에 유의하세요.
 
 #### <a name="removes-default-corporate-device-enrollment-profiles-in-apple-dep"></a>Apple DEP에서 기본 회사 장치 등록 프로필 제거
-Azure Portal에서는 Apple DEP(장치 등록 프로그램) 장치에 대한 기본 회사 장치 등록 프로필을 지원하지 않습니다. 클래식 Intune(Silverlight) 콘솔에서 사용할 수 있는 이 기능은 의도치 않은 프로필 할당을 방지하기 위해 중단됩니다. Azure Portal에서 DEP 일련 번호를 동기화할 때는 회사 장치 등록 프로필이 할당되지 않습니다. 등록 프로필은 장치를 사용하기 전에 할당해야 합니다.
+Azure Portal에서는 Apple DEP(장치 등록 프로그램) 장치에 대한 기본 회사 장치 등록 프로필을 지원하지 않습니다. Intune(Silverlight) 콘솔에서 사용할 수 있는 이 기능은 의도치 않은 프로필 할당을 방지하기 위해 중단됩니다. Azure Portal에서 DEP 일련 번호를 동기화할 때는 회사 장치 등록 프로필이 할당되지 않습니다. 등록 프로필은 장치를 사용하기 전에 할당해야 합니다.
 
 #### <a name="apple-dep-token-restored-with-migration"></a>Apple DEP 토큰이 마이그레이션 시 복원됨
 
-클래식 Intune(Silverlight) 포털에서 Apple 장비 등록 프로그램 토큰을 삭제했으며 Azure Portal에 새 토큰을 업로드하지 않으면 마이그레이션 시 원래 토큰이 Azure Portal에서 복원됩니다. 이 토큰을 제거하고 DEP 등록을 방지하려면 Azure Portal에서 토큰을 삭제하세요.
+Intune(Silverlight) 포털에서 Apple 장비 등록 프로그램 토큰을 삭제했으며 Azure Portal에 새 토큰을 업로드하지 않으면 마이그레이션 시 원래 토큰이 Azure Portal에서 복원됩니다. 이 토큰을 제거하고 DEP 등록을 방지하려면 Azure Portal에서 토큰을 삭제하세요.
 
 ### <a name="status-blades-for-migrated-policies-do-not-work"></a>마이그레이션한 정책에 대한 상태 블레이드가 작동하지 않음
 
@@ -101,8 +101,9 @@ Cisco AnyConnect VPN 클라이언트(4.0.07072)의 최신 릴리스는 현재 In
 
 ### <a name="compliance-policies-from-intune-do-not-show-up-in-new-console"></a>Intune의 준수 정책이 새 콘솔에 표시되지 않음
 
-클래식 포털에서 만든 준수 정책은 마이그레이션되기는 하지만 Azure Portal의 디자인 변경으로 인해 Azure Portal에 표시되지는 않습니다. 클래식 Intune 포털에서 만든 준수 정책은 계속 적용되기는 하지만, 클래식 Intune 포털에서 이러한 정책을 보고 편집해야 합니다.
-또한 Azure Portal에서 만든 새 준수 정책은 클래식 Intune 포털에서는 보이지 않습니다.
+클래식 포털에서 만든 준수 정책은 마이그레이션되기는 하지만 Azure Portal의 디자인 변경으로 인해 Azure Portal에 표시되지는 않습니다. Intune 클래식 포털에서 만든 규정 준수 정책이 계속 적용되지만 클래식 포털에서 보고 편집해야 합니다.
+
+또한 Azure Portal에서 만든 새 준수 정책은 클래식 포털에서는 보이지 않습니다.
 
 자세한 내용은 [장치 준수](device-compliance.md)를 참조하세요.
 

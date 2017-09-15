@@ -1,6 +1,6 @@
 ---
 title: "Intune 클래식 포털에서 Azure 포털로 조건부 액세스 정책을 마이그레이션"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Intune 클래식 포털에서 Azure 포털로 조건부 액세스 정책을 마이그레이션합니다."
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: 301159ad-5f7e-4fcc-86c7-f72a71701ff4
 ms.reviewer: chrisgree
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d5f1ea2b0ceb32d0aa05a28e0f01f65b80b1ddcf
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 5b0b0982018dcfa3c606ea55b9264e5cd6cd1a82
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="reassign-conditional-access-policies-from-intune-classic-portal-to-the-azure-portal"></a>Intune 클래식 포털에서 Azure 포털로 조건부 액세스 정책 다시 할당
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 08/03/2017
 
 - Azure 포털에서 이러한 정책을 다시 만들려면 이 항목의 단계를 따르세요.
 
-- 새 정책이 Azure 포털에서 예상대로 작동하는지 확인한 후 Intune 클래식 콘솔에서 조건부 정책을 사용하지 않도록 설정합니다.
+- 새 정책이 Azure Portal에서 예상대로 작동하는지 확인한 후 Intune 클래식 포털에서 조건부 정책을 사용하지 않도록 설정합니다.
 <br /><br />
     - Intune 클래식 포털에서 조건부 액세스 정책을 **사용하지 않도록 설정하기 전에** 사용자를 새 정책으로 이동하는 방법을 계획합니다. 다음 두 가지 접근 방법이 있습니다.
 <br /><br />
@@ -82,7 +82,7 @@ Azure 포털의 **Intune 앱 보호** 블레이드를 통해 관리자는 Intune
     ![Intune 및 Azure 포털 간 사용자 그룹 UI 비교](./media/reassign-ca-1.png)
 
     > [!IMPORTANT] 
-    > Azure 포털에 대해 선택한 사항이 Intune 포털에서 선택한 사항과 일치해야 합니다. 예를 들어, Intune 클래식 포털에서 모든 사용자를 선택한 경우 Azure 포털에서 **모든 사용자**를 선택합니다. 또한 Intune 클래식 포털에서 **그룹 제외** 옵션을 선택한 경우 새 Azure 포털에서도 선택한 그룹을 제외해야 합니다.
+    > Azure Portal에 대해 선택한 사항이 Azure Portal에서 선택한 사항과 일치해야 합니다. 예를 들어, Intune 클래식 포털에서 모든 사용자를 선택한 경우 Azure 포털에서 **모든 사용자**를 선택합니다. 또한 Intune 클래식 포털에서 **그룹 제외** 옵션을 선택한 경우 새 Azure 포털에서도 선택한 그룹을 제외해야 합니다.
 
 5. 그룹을 선택한 후 **선택**, **완료**를 클릭합니다.
 
@@ -150,7 +150,7 @@ Intune 클래식 포털에서 Exchange Online 정책의 일부로 Exchange Activ
     ![Intune 및 Azure 포털 간 사용자 그룹 UI 비교](./media/reassign-ca-12.png)
 
     > [!IMPORTANT] 
-    > Azure 포털에 대해 선택한 사항이 Intune 포털에서 선택한 사항과 일치해야 합니다. 예를 들어, Intune 클래식 포털에서 모든 사용자를 선택한 경우 Azure 포털에서 **모든 사용자**를 선택합니다. 또한 Intune 클래식 포털에서 **그룹 제외** 옵션을 선택한 경우 새 Azure 포털에서도 선택한 그룹을 제외해야 합니다.
+    > Azure Portal에 대해 선택한 사항이 Azure Portal에서 선택한 사항과 일치해야 합니다. 예를 들어, Intune 클래식 포털에서 모든 사용자를 선택한 경우 Azure 포털에서 **모든 사용자**를 선택합니다. 또한 Intune 클래식 포털에서 **그룹 제외** 옵션을 선택한 경우 새 Azure 포털에서도 선택한 그룹을 제외해야 합니다.
 
 5. 그룹을 선택한 후 **선택**, **완료**를 클릭합니다.
 

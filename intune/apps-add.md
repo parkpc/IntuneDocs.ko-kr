@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Intune에 앱을 추가하는 방법"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "사용자 및 장치에 할당할 준비가 된 앱을 Intune으로 가져오는 절차를 설명합니다. \""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: a1ded457-0ecf-4f9c-a2d2-857d57f8d30a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 14f2ac5b25cfe3e688363a21775872baaa9ff89a
-ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
+ms.openlocfilehash: 108f789f16304498cf54387326d112353bf70aa2
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-add-an-app-to-microsoft-intune"></a>Microsoft Intune에 앱을 추가하는 방법
 
@@ -81,7 +81,7 @@ Intune에 앱을 추가하는 경우 원하는 범주를 선택할 수 있는 �
 
 이전에는 Intune에 신속하게 할당할 수 있는 많은 기본 제공 앱이 포함되어 있었습니다. 사용자 의견에 따라 이 목록은 제거되었으며 더 이상 기본 제공 앱은 표시되지 않습니다.
 그러나 이미 기본 제공 앱을 할당한 경우 이러한 앱은 여전히 앱 목록에 표시됩니다. 필요에 따라 이러한 앱을 계속 할당할 수 있습니다.
-이후 릴리스에서, Intune 포털에서 기본 제공 앱을 더 쉽게 선택하고 할당하는 방법이 추가될 예정입니다.
+이후 릴리스에는 Azure Portal에서 기본 제공 앱을 더 쉽게 선택하고 할당하는 방법이 추가될 예정입니다.
 
 ## <a name="next-steps"></a>다음 단계
 

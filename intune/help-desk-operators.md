@@ -1,6 +1,6 @@
 ---
 title: "기술 지원팀의 문제 해결 포털"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "기술 지원팀 직원은 문제 해결 포털을 사용하여 사용자의 기술 문제를 해결합니다."
 keywords: 
 author: NathBarn
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
-ms.openlocfilehash: c932781f988d63395b98452a4f4739e0bce1d9c8
-ms.sourcegitcommit: ce8a1f0f4e95444949556600d1837937b6efd769
+ms.openlocfilehash: 14b47727428fcd6a16f9960e21f70ee64c7757d1
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="use-the-troubleshooting-portal-to-help-users"></a>문제 해결 포털을 사용하여 사용자 지원
 
@@ -35,14 +35,14 @@ ms.lasthandoff: 08/28/2017
 -   앱 설치 실패
 
 ## <a name="add-help-desk-operators"></a>지원 센터 운영자 추가
-Intune 관리자의 경우 사용자 그룹에 지원 센터 운영자 역할을 할당할 수 있습니다. 해당 그룹의 구성원은 관리 포털을 사용하여 사용자의 문제점을 해결할 수 있습니다. 각 지원 센터 운영자가 Intune 포털에 액세스하려면 Intune 라이선스가 있어야 합니다. [Intune 라이선스를 할당](licenses-assign.md)하는 방법을 알아봅니다.
+Intune 관리자의 경우 사용자 그룹에 지원 센터 운영자 역할을 할당할 수 있습니다. 해당 그룹의 구성원은 Azure Portal을 사용하여 사용자의 문제점을 해결할 수 있습니다. 각 지원 센터 운영자가 Azure Portal에 액세스하려면 Intune 라이선스가 있어야 합니다. [Intune 라이선스를 할당](licenses-assign.md)하는 방법을 알아봅니다.
 
 지원 센터 사용자를 추가하려면 다음을 수행하세요.
 1. 필요한 경우 [Intune에 사용자를 추가](users-add.md)하세요.
 2. [지원 센터 그룹을 만들고](groups-add.md) 사용자를 그룹에 추가하세요.
 3. [RBAC 지원 센터 운영자 역할을 할당](role-based-access-control.md#built-in-roles)하세요.
 
-  ![Intune 역할이 강조 표시되어 있고 지원 센터 운영자를 포함한 기본 역할 목록이 보이는 Intune 포털 스크린샷](./media/help-desk-user-add.png) 또한 [사용자 지정 역할을 생성하여](role-based-access-control.md#custom-roles) 지원 센터 운영자 액세스를 수정할 수도 있습니다.  지원 센터 운영자는 사용자 문제 해결을 위해 다음 권한이 필요합니다.
+  ![Intune 역할이 강조 표시되어 있고 지원 센터 운영자를 포함한 기본 역할 목록이 보이는 Azure Portal 스크린샷](./media/help-desk-user-add.png) 또한 [사용자 지정 역할을 생성하여](role-based-access-control.md#custom-roles) 지원 센터 운영자 액세스 권한을 수정할 수도 있습니다.  지원 센터 운영자는 사용자 문제 해결을 위해 다음 권한이 필요합니다.
     - MobileApps: 읽기
     - ManagedApps: 읽기
     - ManagedDevices: 읽기

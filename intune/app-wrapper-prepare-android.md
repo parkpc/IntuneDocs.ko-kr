@@ -14,11 +14,11 @@ ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: oldang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e8707253139ee5a12a48d38a333ae49fbb4d3ead
-ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
+ms.openlocfilehash: b82c0832fc102e4ae30268a6cd08ed0e14e1c931
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="prepare-android-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 앱 보호 정책에 대해 Android 앱 준비
 
@@ -122,14 +122,14 @@ Android의 경우 Android 장치에 설치하려면 유효한 인증서로 모�
 
 이전 서명 인증서를 사용할 수 없거나 앱이 이전에 배포되지 않은 경우 [Android Developer Guide](https://developer.android.com/studio/publish/app-signing.html#signing-manually)(Android 개발자 가이드)의 지침에 따라 새 서명 인증서를 만들 수 있습니다.
 
-앱이 이전에 다른 서명 인증서를 사용하여 배포되었던 경우 업그레이드 후에 해당 앱을 Intune 콘솔에 업로드할 수 없습니다. 앱 빌드 시 사용한 것과 다른 인증서를 사용하여 앱에 서명한 경우 앱 업그레이드 시나리오가 중단됩니다. 마찬가지로 앱 업그레이드를 위해 새로운 서명 인증서를 모두 유지해야 합니다. 
+앱이 이전에 다른 서명 인증서를 사용하여 배포되었던 경우 업그레이드 후에 해당 앱을 Intune에 업로드할 수 없습니다. 앱 빌드 시 사용한 것과 다른 인증서를 사용하여 앱에 서명한 경우 앱 업그레이드 시나리오가 중단됩니다. 마찬가지로 앱 업그레이드를 위해 새로운 서명 인증서를 모두 유지해야 합니다. 
 
 ## <a name="security-considerations-for-running-the-app-wrapping-tool"></a>앱 래핑 도구를 실행하기 위한 보안 고려 사항
 잠재적인 스푸핑, 정보 공개 및 권한 상승 공격을 방지하려면:
 
 -   입력 LOB(기간 업무) 응용 프로그램, 출력 응용 프로그램 및 Java KeyStore가 앱 래핑 도구를 실행한 것과 같은 Windows 컴퓨터에 있는지 확인합니다.
 
--   출력 응용 프로그램을 도구가 실행 중인 것과 같은 컴퓨터의 Intune 콘솔에 가져옵니다. Java keytool에 대한 자세한 내용은 [keytool](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html)을 참조하세요.
+-   출력 응용 프로그램을 도구가 실행 중인 것과 같은 컴퓨터의 Intune에 가져옵니다. Java keytool에 대한 자세한 내용은 [keytool](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html)을 참조하세요.
 
 -   출력 응용 프로그램 및 도구가 UNC(Universal Naming Convention) 경로에 있는데 도구와 입력 파일을 동일한 컴퓨터에서 실행하지 않는 경우, [IPsec(Internet Protocol Security)](http://wikipedia.org/wiki/IPsec) 또는 [SMB(Server Message Block) 서명](https://support.microsoft.com/kb/887429)을 사용하여 환경을 안전하게 설정합니다.
 

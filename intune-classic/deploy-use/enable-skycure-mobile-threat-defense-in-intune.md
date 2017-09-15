@@ -1,6 +1,6 @@
 ---
 title: "Intune에서 Skycure Mobile Threat Defense를 사용하도록 설정"
-description: "Intune 클래식 콘솔에서 Skycure Mobile Threat Defense를 사용하도록 설정합니다."
+description: "Intune 클래식 포털에서 Skycure Mobile Threat Defense를 사용하도록 설정합니다."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -14,11 +14,11 @@ ms.assetid: 0cc4e59d-819a-47a2-a26f-4f8d0f8df7bf
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 4dad45d15fec7189fdcf184839040b9e3f9a3a48
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 9fe3c59e52d9d7732267ecfb28eac3b5c7368ed9
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="enable-skycure-mobile-threat-defense-in-intune"></a>Intune에서 Skycure Mobile Threat Defense를 사용하도록 설정
 
@@ -28,11 +28,11 @@ Skycure Mobile Threat Defense를 사용하도록 설정하려면 [Skycure 콘솔
 
 ## <a name="to-enable-the-skycure-mtd-connection-in-intune"></a>Intune에서 Skycure MTD 연결을 사용하도록 설정하려면
 
-1.  [Intune 클래식 콘솔](https://manage.microsoft.com/)로 이동한 다음 자격 증명을 입력합니다.
+1.  [Intune 클래식 포털](https://manage.microsoft.com/)로 이동한 다음 자격 증명을 입력합니다.
 
 2.  **관리자** &gt; **타사 서비스 통합**을 선택한 다음 **Skycure 상태**를 선택하고 토글 단추를 사용하여 **MTD와 동기화**를 사용하도록 설정합니다.
 
-    ![Intune 클래식 콘솔에서 Skycure 토글을 사용하도록 설정](../media/mtp/enable-skycure-1.png)
+    ![Intune 클래식 포털에서 Skycure 토글을 사용하도록 설정](../media/mtp/enable-skycure-1.png)
 
 > [!IMPORTANT] 
 > 준수 정책 규칙을 만들고 조건부 액세스를 구성하기 전에 Skycure 앱을 구성해야 합니다. 이렇게 하면 앱이 최종 사용자가 설치할 수 있는 상태로 준비되어 최종 사용자가 메일과 기타 회사 리소스에 액세스할 수 있게 됩니다.

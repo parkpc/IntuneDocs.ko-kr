@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Intune의 30일 무료 평가판 등록"
-titleSuffix: 
+titleSuffix: Azure portal
 description: "Intune 30일 평가판에 등록하는 방법.\""
 keywords: 
 author: lindavr
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 195931c0-8208-43bd-b0af-b1f8e469a32c
 ms.suite: ems
 ms.custom: 
-ms.openlocfilehash: de86b6c9938d4be3f90d62e96080d8b967886792
-ms.sourcegitcommit: 5eb209ae48173ddfdbbab131f12f3ac3498dcd87
+ms.openlocfilehash: 21ee75ab006c1770bc61039facc28d8a0118e706
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="sign-up-for-a-microsoft-intune-free-trial"></a>Microsoft Intune 무료 평가판 등록
 
@@ -47,11 +47,11 @@ Intune Azure Portal에 처음으로 로그온한 경우 Azure 대시보드에 In
 Intune Azure Portal에 사용할 수 있는 포털은 다음과 같은 세 가지입니다.
 - [Azure Portal에서 Intune의 기능](what-is-intune.md)을 탐색할 수 있는 Azure의 Intune 대시보드([portal.azure.com](https://portal.azure.com))
 - Azure Active Directory를 사용하지 않는 경우 사용자를 추가 및 관리할 수 있는Office 365 관리 센터([portal.office.com](https://portal.office.com)). 또한 대금 청구 및 지원을 포함하여 계정의 다른 측면을 관리할 수 있습니다.
-- Azure에 아직 추가되지 않은 기능을 탐색할 수 있는 클래식 Intune 관리 콘솔([manage.microsoft.com](https://manage.microsoft.com))
+- Intune 관리 콘솔([manage.microsoft.com](https://manage.microsoft.com))에서 Azure에 아직 추가되지 않은 기능을 탐색할 수 있습니다.
 
 일반적으로 아래에 표시된 Intune 대시보드에서 작업을 수행합니다. 이 사이트에서는 그룹, 정책, 장치 및 앱을 설정하고 관리할 수 있습니다.
 
-대시보드의 맨 위에 있는 **클래식 포털**을 선택하여 대시보드에서 클래식 Intune 관리 콘솔로 이동할 수 있습니다.
+대시보드의 맨 위에 있는 **클래식 포털**을 선택하여 대시보드에서 Intune 관리 콘솔로 이동할 수 있습니다.
 
 Intune Azure Portal로 돌아가려면 브라우저 주소 표시줄에 https://portal.azure.com을 입력한 후 서비스 목록에서 **Intune**을 다시 선택합니다.
 
@@ -68,7 +68,7 @@ Intune에서 Office 365 관리 센터로 돌아가려면 브라우저 주소 표
 
 ## <a name="next-steps"></a>다음 단계
 
-### <a name="intune-on-azure"></a>Azure의 Intune
+### <a name="intune-in-the-azure-portal"></a>Azure Portal의 Intune
 [Azure Portal의 Intune](what-is-intune.md)에 대해 자세히 알아보세요.
 
 ### <a name="integration-with-other-products"></a>다른 제품과의 통합

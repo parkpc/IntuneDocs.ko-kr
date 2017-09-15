@@ -14,17 +14,17 @@ ms.assetid: ed2db991-4729-49a7-a1e6-be2ffa0d03d1
 ROBOTS: noindex,nofollow
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 90ce9ae6c1f48b6a42cf62f8873621499ba05256
-ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
+ms.openlocfilehash: a12d3aaf6a893291e4818c76c02c8a3708b6b6a0
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2017
+ms.lasthandoff: 09/09/2017
 ---
-# <a name="whats-new-in-the-intune-classic-console---previous-months"></a>Intune 클래식 콘솔의 새로운 기능 - 지난 달
+# <a name="whats-new-in-the-intune-classic-portal---previous-months"></a>Intune 클래식 포털의 새로운 기능 - 지난 달
 
 [!INCLUDE[classic-portal](./includes/classic-portal.md)]
 
-이 페이지에는 Intune 클래식 콘솔에 대해 [새로운 기능 페이지](whats-new.md)에서 이전에 발표되었던 새로운 기능과 공지가 나와 있습니다.
+이 페이지에는 Intune 클래식 포털에 대해 [새로운 기능 페이지](whats-new.md)에서 이전에 발표되었던 새로운 기능과 공지가 나와 있습니다.
 
 ## <a name="april-2017"></a>2017년 4월
 
@@ -67,7 +67,7 @@ Windows 10 회사 포털 앱에서 시작되는 앱 설치에 대한 새로운 �
 
 이제 WCD(Windows 구성 디자이너)를 사용하여 Azure Active Directory 및 Intune에 대한 Windows 10 크리에이터스 업데이트를 실행하는 많은 장치를 연결할 수 있습니다. Azure AD 테넌트에 대한 [대량 MDM 등록](/intune-classic/deploy-use/bulk-enroll-windows)을 사용하도록 설정하려면 Windows 구성 디자이너를 사용하여 Azure AD 테넌트에 장치를 연결하는 프로비전 패키지를 만들고, 이 패키지를 대량으로 등록 및 관리할 회사 소유 장치에 적용합니다. 패키지가 장치에 적용되면, 장치가 Azure AD에 연결되고 Intune에 등록되며 Azure AD 사용자가 로그온할 수 있는 준비를 하게 됩니다.  Azure AD 사용자는 이러한 장치에서 표준 사용자이며 할당된 정책 및 필수 앱을 수신합니다. 셀프 서비스 및 회사 포털 시나리오의 경우 이번에는 지원되지 않습니다.
 
-### <a name="whats-new-in-the-public-preview-of-the-intune-admin-experience-on-azure---736542--"></a>Azure의 Intune 관리 환경 공개 미리 보기의 새로운 기능<!--736542-->
+### <a name="whats-new-in-the-public-preview-of-intune-in-the-azure-portal--736542--"></a>Azure Portal의 Intune 공개 미리 보기의 새로운 기능<!--736542-->
 
 2017년 초에 Microsoft에서는 전체 관리 환경을 Azure로 마이그레이션합니다. 이를 통해 Graph API를 사용하여 확장 가능한 최신 서비스 플랫폼에서 핵심 EMS 워크플로에 대한 강력한 통합 관리를 지원합니다.
 
@@ -81,13 +81,13 @@ Azure의 Intune 미리 보기에 대한 새로운 기능은 [여기](whats-new.m
 
 #### <a name="direct-access-to-apple-enrollment-scenarios---951869--"></a>Apple 등록 시나리오에 대한 직접 액세스 <!--951869-->
 
-2017년 1월 이후에 만든 Intune 계정은 Azure Preview 포털에서 장치 등록 워크로드를 사용하여 Apple 등록 시나리오에 직접 액세스할 수 있습니다. 이전에는 클래식 Intune 포털의 링크를 통해서만 Apple 등록 미리 보기에 액세스할 수 있었습니다. 2017년 1월 이전에 만든 Intune 계정은 일회성 마이그레이션을 수행해야 Azure에서 이러한 기능을 사용할 수 있습니다. 마이그레이션 일정은 아직 공지되지 않았지만 가능한 한 빠른 시일 내에 세부 정보가 제공될 예정입니다. 기존 계정에서 미리 보기에 액세스할 수 없는 경우 평가판 계정을 만들어 새로운 경험을 테스트해 보는 것이 좋습니다.
+2017년 1월 이후에 만든 Intune 계정은 Azure Preview 포털에서 장치 등록 워크로드를 사용하여 Apple 등록 시나리오에 직접 액세스할 수 있습니다. 이전에는 Azure Portal의 링크를 통해서만 Apple 등록 미리 보기에 액세스할 수 있었습니다. 2017년 1월 이전에 만든 Intune 계정은 일회성 마이그레이션을 수행해야 Azure에서 이러한 기능을 사용할 수 있습니다. 마이그레이션 일정은 아직 공지되지 않았지만 가능한 한 빠른 시일 내에 세부 정보가 제공될 예정입니다. 기존 계정에서 미리 보기에 액세스할 수 없는 경우 평가판 계정을 만들어 새로운 경험을 테스트해 보는 것이 좋습니다.
 
-#### <a name="whats-coming-for-appx-in-intune-on-azure----1000270---"></a>Azure의 Intune에서 Appx에 대한 향후 변경 사항 <!-- 1000270 -->
+#### <a name="whats-coming-for-appx-in-intune-in-the-azure-portal----1000270---"></a>Azure Portal의 Intune에서 Appx에 대한 향후 변경 사항 <!-- 1000270 -->
 
-Azure의 Intune으로 마이그레이션하는 과정의 일환으로 appx의 다음 세 가지 사항을 변경합니다.
+Azure Portal의 Intune으로 마이그레이션하는 과정의 일환으로 appx의 다음 세 가지 사항을 변경합니다.
 
-1. MDM에 등록된 장치에만 배포할 수 있는 새 appx 앱 유형을 클래식 Intune 콘솔에 추가합니다.
+1. MDM에 등록된 장치에만 배포할 수 있는 새 appx 앱 유형을 Intune 콘솔에 추가합니다.
 2. Intune PC 에이전트를 통해 관리되는 PC만 대상으로 할 수 있도록 기존 appx 앱 유형의 용도를 변경합니다.
 3. 마이그레이션과 함께 기존 appx를 모두 MDM appx로 변환합니다.
 
@@ -97,7 +97,7 @@ Intune PC 에이전트를 통해 관리되는 장치의 기존 배포에는 아�
 
 ##### <a name="what-action-do-i-need-to-take"></a>수행해야 하는 작업
 
-마이그레이션 후 새 PC 배포를 수행하려면 appx를 PC appx로 다시 업로드해야 합니다. 자세한 내용은 [Appx changes in Intune on Azure](https://aka.ms/appxchange)(Azure의 Intune에서 Appx 변경 사항)를 참조하세요.  
+마이그레이션 후 새 PC 배포를 수행하려면 appx를 PC appx로 다시 업로드해야 합니다. 자세한 내용은 Intune 지원 팀 블로그에서 [Appx changes in Intune in the Azure portal](https://aka.ms/appxchange)(Azure Portal의 Intune에서 Appx 변경 사항)을 참조하세요.  
 
 #### <a name="administration-roles-being-replaced-in-azure-portal"></a>Azure Portal에서 대체되는 관리 역할
 
@@ -235,7 +235,7 @@ Windows 및 Windows Phone 사용자가 MDM 서버 주소 입력 메시지가 표
 ### <a name="associate-multiple-management-tools-with-the-microsoft-store-for-business---926135--"></a>비즈니스용 Microsoft 스토어와 여러 관리 도구 연결<!--926135-->
 둘 이상의 관리 도구를 사용하여 비즈니스용 Microsoft 스토어 앱을 배포하는 경우, 이전에는 그 중에 하나만 비즈니스용 Microsoft 스토어에 연결할 수 있었습니다. 이제 Intune 및 Configuration Manager와 같은 여러 관리 도구를 스토어에 연결할 수 있습니다. 자세한 내용은 [Microsoft Intune을 사용하여 비즈니스용 Microsoft 스토어에서 구입한 앱 관리](/intune-classic/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune#associate-your-windows-store-for-business-account-with-intune)를 참조하세요.
 
-## <a name="whats-new-in-the-public-preview-of-the-intune-admin-experience-on-azure---736542--"></a>Azure의 Intune 관리 환경 공개 미리 보기의 새로운 기능<!--736542-->
+## <a name="whats-new-in-the-public-preview-of-intune-in-the-azure-portal---736542--"></a>Azure Portal의 Intune 공개 미리 보기의 새로운 기능 <!--736542-->
 
 2017년 초에 Microsoft에서는 전체 관리 환경을 Azure로 마이그레이션합니다. 이를 통해 Graph API를 사용하여 확장 가능한 최신 서비스 플랫폼에서 핵심 EMS 워크플로에 대한 강력한 통합 관리를 지원합니다.
 
@@ -294,7 +294,7 @@ iOS용 회사 포털은 수행되는 로드 프로세스에 대한 정보를 사
 
 ## <a name="december-2016"></a>2016년 12월
 
-### <a name="public-preview-of-the-new-intune-admin-experience-on-azure---736542--"></a>Azure의 새 Intune 관리 환경에 대한 공개 미리 보기<!--736542-->
+### <a name="public-preview-of-intune-in-the-azure-portal--736542--"></a>Azure Portal의 Intune 공개 미리 보기<!--736542-->
 2017년 초에 Microsoft에서는 전체 관리 환경을 Azure로 마이그레이션합니다. 이를 통해 Graph API를 사용하여 확장 가능한 최신 서비스 플랫폼에서 핵심 EMS 워크플로에 대한 강력한 통합 관리를 지원합니다. 모든 Intune 테넌트에 대해 이 포털을 일반 공급하기 전에, 이번 달 후반부터 일부 테넌트에게 이 새로운 관리 환경의 미리 보기 제공을 개시할 것임을 알려 드립니다.
 
 Azure Portal의 관리 환경에서는 이미 발표된 새 그룹화 및 대상 지정 기능을 사용합니다. 따라서 기존 테넌트가 새 그룹화 환경으로 마이그레이션될 때 사용자도 마이그레이션되어 테넌트에 새 관리 환경의 미리 보기가 표시됩니다. Azure Portal에서 Microsoft Intune용으로 제공되는 기능에 대한 자세한 내용을 [새로운 설명서](/intune/what-is-intune)에서 확인해 보시기 바랍니다.

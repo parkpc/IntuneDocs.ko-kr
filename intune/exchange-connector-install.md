@@ -1,7 +1,7 @@
 ---
 title: "Intune을 사용하여 온-프레미스 EAS용 Exchange Connector 설정"
-titleSuffix: Intune Azure
-description: "Intune Azure: Exchange ActiveSync MDM - 커넥터 도구를 사용하여 Intune 및 온-프레미스 Exchange Server 간 통신 설정"
+titleSuffix: Azure portal
+description: "커넥터 도구를 사용하여 Intune 및 온-프레미스 Exchange Server 간 통신 설정"
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -15,11 +15,11 @@ ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1dd5143ce6c604f416af1c6b6b1df684346e2f6d
-ms.sourcegitcommit: be12974a7eaa4ce9cffe45aabe456c858d582e20
+ms.openlocfilehash: f9dc93cf0a24032eba051f770af1b35f9932acc9
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Microsoft Intune Azure에서 Intune 온-프레미스 Exchange 커넥터 설정
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 07/14/2017
 
 Microsoft Intune이 온-프레미스 Exchange Server와 통신할 수 있도록 하는 연결을 설정하려면 아래 단계를 수행해야 합니다.
 
-1.  Intune 포털에서 Intune 온-프레미스 Exchange Connector를 다운로드합니다.
+1.  Azure Portal에서 Intune 온-프레미스 Exchange Connector를 다운로드합니다.
 2.  Intune 온-프레미스 Exchange Connector를 설치 및 구성합니다.
 3.  Exchange 연결 유효성을 검사합니다.
 

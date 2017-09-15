@@ -1,6 +1,6 @@
 ---
 title: "Azure Portal의 Intune 클래식 그룹"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Intune Azure Portal의 그룹에 추가된 새로운 기능에 대해 알아봅니다."
 keywords: 
 author: nathbarn
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 323f384d-8a76-4adc-999b-e508d641bfa1
 ms.custom: intune-azure
-ms.openlocfilehash: c51c3102cc78cf095e27da4ff199cb3fb5ae14a6
-ms.sourcegitcommit: 45204e0fb8cb4cce449e65f2f1d7bb6f6ac4ccf5
+ms.openlocfilehash: 7ba5c3d0e6f241c5734d629a23f092ac007f8300
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="intune-classic-groups-in-the-azure-portal"></a>Azure Portal의 Intune 클래식 그룹
 
@@ -38,7 +38,7 @@ Azure AD 보안 그룹은 사용자와 장치 모두에 대한 모든 유형의 
 - 그룹에서 **특정 구성원을 제외하는** 옵션이 Azure Portal에 존재하지 않습니다. 그러나 이 동작을 복제하는 고급 규칙과 함께 Azure AD 보안 그룹을 사용할 수 있습니다. 예를 들어 보안 그룹에 Sales 부서에 속한 모든 사람을 포함하되 직함에 "Assistant"라는 단어가 포함된 그룹은 제외하는 고급 규칙을 만들려면 다음과 같은 고급 규칙을 사용할 수 있습니다.
 
   `(user.department -eq "Sales") -and -not (user.jobTitle -contains "Assistant")`를 재정의하려면 선택합니다.
-- Intune 콘솔의 **모든 Exchange ActiveSync 관리 장치** 그룹은 Azure AD로 마이그레이션되지 않았습니다. 그러나 Azure Portal에서 EAS 관리 장치에 대한 정보에 여전히 액세스할 수 있습니다.
+- Intune 클래식 콘솔의 **모든 Exchange ActiveSync 관리 장치** 그룹은 Azure AD로 마이그레이션되지 않았습니다. 그러나 Azure Portal에서 EAS 관리 장치에 대한 정보에 여전히 액세스할 수 있습니다.
 
 ## <a name="how-to-get-started"></a>시작하는 방법
 
@@ -51,9 +51,9 @@ Azure AD 보안 그룹은 사용자와 장치 모두에 대한 모든 유형의 
 
 
 ## <a name="what-happened-to-intune-groups"></a>Intune 그룹에 미치는 영향
-그룹이 클래식 Intune 포털에서 Azure Portal의 Intune으로 마이그레이션되면 다음과 같은 규칙이 적용됩니다.
+그룹이 Azure Portal에서 Azure Portal의 Intune으로 마이그레이션되면 다음과 같은 규칙이 적용됩니다.
 
-| 클래식 Intune의 그룹|Azure AD의 그룹|
+| Intune의 그룹|Azure AD의 그룹|
 |-----------------------------------------------------------------------|-------------------------------------------------------------|
 |정적 사용자 그룹|정적 Azure AD 보안 그룹|
 |동적 사용자 그룹|Azure AD 보안 그룹 계층 구조가 있는 정적 Azure AD 보안 그룹|
@@ -65,7 +65,7 @@ Azure AD 보안 그룹은 사용자와 장치 모두에 대한 모든 유형의 
 
 ## <a name="group-hierarchy"></a>그룹 계층
 
-클래식 Intune 콘솔에서는 모든 그룹에 부모 그룹이 있습니다. 그룹에는 해당 부모 그룹의 구성원만 포함될 수 있습니다. Azure AD에서 자식 그룹은 부모 그룹에 없는 구성원을 포함할 수 있습니다.
+Intune 콘솔에서는 모든 그룹에 부모 그룹이 있습니다. 그룹에는 해당 부모 그룹의 구성원만 포함될 수 있습니다. Azure AD에서 자식 그룹은 부모 그룹에 없는 구성원을 포함할 수 있습니다.
 
 ## <a name="group-attributes"></a>그룹 특성
 특성은 그룹을 정의하는 데 사용될 수 있는 장치 속성입니다. 이 표에는 이러한 조건이 Azure AD 보안 그룹으로 마이그레이션되는 방법이 설명되어 있습니다.
@@ -84,4 +84,4 @@ Azure AD 보안 그룹은 사용자와 장치 모두에 대한 모든 유형의 
 
 ## <a name="what-happens-to-policies-and-apps-you-previously-deployed"></a>이전에 배포한 정책 및 앱에 미치는 영향
 
-정책 및 앱은 이전과 마찬가지로 그룹에 계속 배포됩니다. 그러나 이제 클래식 Intune 콘솔 대신 Azure Portal에서 이러한 그룹을 관리할 수 있습니다.
+정책 및 앱은 이전과 마찬가지로 그룹에 계속 배포됩니다. 그러나 이제 Intune 콘솔 대신 Azure Portal에서 이러한 그룹을 관리할 수 있습니다.

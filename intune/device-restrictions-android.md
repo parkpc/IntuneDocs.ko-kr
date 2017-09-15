@@ -1,12 +1,12 @@
 ---
 title: "Android에 대한 Intune 장치 제한 설정"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Android 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 08/08/2017
+ms.date: 09/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 6bdf714a-5d93-485c-8b52-513635c60cb6
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 09641b5e34ab8200e7dd9d4c27f0dabf59fa62d2
-ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
+ms.openlocfilehash: db7287dcccf45e0ce98a6fcae3c953dbebc2bb82
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="android-and-samsung-knox-standard-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Android 및 Samsung KNOX Standard 장치 제한 설정
 
@@ -67,8 +67,8 @@ Android 장치 제한 정책과 함께 다음 설정을 사용하여 조직에�
 <sup>1</sup> 이 설정을 장치에 할당하기 전에 해당 장치에서 회사 포털 앱을 최신 버전으로 업데이트하세요.
 
 **복합 숫자** 설정을 구성한 다음 Android 5.0 이전 버전을 실행 중인 장치에 할당하는 경우 다음 동작이 적용됩니다.
-- 회사 포털 앱에서 1704 이전 버전을 실행하는 경우 PIN 정책이 장치에 적용되지 않고 오류가 Intune 포털에 표시됩니다.
-- 회사 포털 앱에서 1704 버전 이상을 실행하는 경우에는 단순 PIN만 적용할 수 있습니다. Android 5.0 이전 버전에서는 이 설정이 지원되지 않습니다. Intune 포털에 오류가 표시되지 않습니다.
+- 회사 포털 앱에서 1704 이전 버전을 실행하는 경우 PIN 정책이 장치에 적용되지 않고 오류가 Azure Portal에 표시됩니다.
+- 회사 포털 앱에서 1704 버전 이상을 실행하는 경우에는 단순 PIN만 적용할 수 있습니다. Android 5.0 이전 버전에서는 이 설정이 지원되지 않습니다. Azure Portal에 오류가 표시되지 않습니다.
 
 
 ## <a name="google-play-store"></a>Google Play 스토어
@@ -79,7 +79,7 @@ Android 장치 제한 정책과 함께 다음 설정을 사용하여 조직에�
 
 제한된 앱 목록에서는 Android 및 Samsung KNOX Standard 장치 둘 다에 대해 다음 목록 중 하나를 구성할 수 있습니다.
 
-**금지된 앱** 목록 - 사용자가 설치하거나 실행할 수 없고 Intune에서 관리되지 않는 앱을 나열합니다.
+**금지된 앱** 목록 - 사용자가 설치하고 실행하는 경우 보고되는 Intune에서 관리되지 않는 앱을 나열합니다.
 **승인된 앱** 목록 - 사용자가 설치할 수 있는 앱을 나열합니다. 호환성을 유지하려면 사용자가 다른 앱을 설치하지 않아야 합니다. Intune에서 관리되는 앱은 자동으로 허용됩니다.
 제한된 앱 설정이 포함된 장치 프로필을 사용자 그룹에 할당해야 합니다.
 
@@ -107,6 +107,21 @@ Android 장치 제한 정책과 함께 다음 설정을 사용하여 조직에�
 - **Javascript(Samsung KNOX만 해당)** - 장치 웹 브라우저가 Javascript를 사용할 수 있습니다.
 - **팝업(Samsung KNOX만 해당)** - 웹 브라우저에서 팝업 차단을 사용할 수 있습니다.
 
+## <a name="allow-or-block-apps"></a>앱 허용 또는 차단
+
+이러한 설정은 Samsung KNOX Standard를 실행하는 장치에만 설치하거나 시작할 수 있는 앱을 지정하는 데 사용할 수 있습니다.
+설치된 앱 중 장치 사용자에게 숨길 앱을 지정할 수도 있습니다. 사용자는 이러한 앱을 실행할 수 없습니다.
+
+- **설치가 허용된 앱(Samsung KNOX Standard의 경우에만)**
+- **시작이 차단된 앱(Samsung KNOX Standard의 경우에만)**
+- **사용자에게 숨겨진 앱(Samsung KNOX Standard의 경우에만)**
+
+각 설정에 대해 다음 중 하나를 사용하여 앱 목록을 구성합니다.
+
+- **패키지 이름으로 앱 추가** - 주로 LOB(기간 업무) 앱에 사용합니다. 앱 이름과 앱 패키지 이름을 입력합니다. 
+- **URL로 앱 추가** - 앱 이름과 Google Play 스토어의 해당 URL을 입력합니다.
+- **관리되는 앱 추가** - Intune으로 관리하는 앱 목록에서 필요한 앱을 선택합니다.
+
 ## <a name="cloud-and-storage"></a>클라우드 및 저장소
 
 - **Google 백업(Samsung KNOX만 해당)** - Google 백업을 사용할 수 있습니다.
@@ -127,9 +142,9 @@ Android 장치 제한 정책과 함께 다음 설정을 사용하여 조직에�
 
 ## <a name="kiosk"></a>키오스크
 
-Kiosk 설정은 Samsung KNOX Standard 장치에만 적용됩니다.
+키오스크 설정은 Samsung KNOX Standard 장치와 Intune을 사용하여 관리하는 앱에만 적용됩니다.
 
-- **관리되는 앱 선택** - 다음 옵션 중 하나를 선택하여 장치가 키오스크 모드일 때 실행할 수 있는 앱을 하나 이상 추가합니다. 다른 앱은 장치에서 실행할 수 없습니다.
+- **관리되는 앱 선택** - 다음 옵션 중 하나를 선택하여 장치가 키오스크 모드일 때 실행할 수 있는 관리되는 앱을 하나 이상 추가합니다. 다른 앱은 장치에서 실행할 수 없습니다.
     - **패키지 이름으로 앱 추가**
     - **URL로 앱 추가**
     - **관리되는 앱 추가**.
