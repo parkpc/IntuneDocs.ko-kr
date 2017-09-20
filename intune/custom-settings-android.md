@@ -3,10 +3,10 @@ title: "Android 장치에 대한 Intune 사용자 지정 설정"
 titleSuffix: Azure portal
 description: "Android 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
-ms.date: 08/08/2017
+ms.date: 09/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 494b3892-916e-4b40-9b67-61adec889bdf
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 92014eb9fd5564c0527b8cbf68732a51cf83bc96
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 433e79ae1518f86aeb7206d5213fc38a38de5218
+ms.sourcegitcommit: 695bf70a79e20a17168c061afbb675b73ea999f7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/19/2017
 ---
 # <a name="custom-settings-for-android-devices-in-microsoft-intune"></a>Microsoft Intune의 Android 장치에 대한 사용자 지정 설정
 
@@ -27,7 +27,14 @@ ms.lasthandoff: 09/09/2017
 
 Microsoft Intune Android **사용자 지정** 프로필을 사용하여 Android 장치에서 기능을 제어하는 데 사용할 수 있는 OMA-URI 설정을 할당합니다. 이는 많은 모바일 장치 제조업체가 장치 기능을 제어하는 데 사용하는 표준 설정입니다.
 
-이 기능은 Intune 정책을 사용하여 구성할 수 없는 Android 설정을 할당할 수 있도록 하기 위한 것입니다.
+이 기능은 Intune 정책을 사용하여 구성할 수 없는 다음 Android 설정을 할당할 수 있도록 하기 위한 것입니다.
+
+- [Microsoft Intune 사용자 지정 장치 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필 만들기](/intune/wi-fi-profile-shared-key)
+- [Microsoft Intune 사용자 지정 프로필을 사용하여 Android 장치에 대한 앱별 VPN 프로필 만들기](/intune/android-pulse-secure-per-app-vpn)
+- [Microsoft Intune에서 사용자 지정 정책을 사용하여 Samsung KNOX Standard 장치에 대해 앱 허용 및 차단](/intune/samsung-knox-apps-allow-block)
+
+>[!IMPORTANT]
+>현재 위에 나열된 설정만이 이 프로필 형식에 의해 구성될 수 있습니다. Android 장치는 구성할 수 있는 OMA-URI 설정의 전체 목록을 노출하지 않습니다. 추가 설정이 추가되었는지 확인하려는 경우 [Intune Uservoice 사이트](https://microsoftintune.uservoice.com/forums/291681-ideas)에서 요청하세요.
 
 ## <a name="custom-profile-settings-for-android-devices"></a>Android 장치에 대한 사용자 지정 프로필 설정
 
@@ -45,8 +52,6 @@ Microsoft Intune Android **사용자 지정** 프로필을 사용하여 Android 
 
 설정을 완료하면 프로필이 생성되어 프로필 목록 블레이드에 표시됩니다. 계속해서 이 프로필을 그룹에 할당하려면 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
 
-사용할 수 있는 일부 사용자 지정 설정의 예는 다음을 참조하세요.
 
-- [Microsoft Intune 사용자 지정 장치 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필 만들기](/intune/wi-fi-profile-shared-key)
-- [Microsoft Intune 사용자 지정 프로필을 사용하여 Android 장치에 대한 앱별 VPN 프로필 만들기](/intune/android-pulse-secure-per-app-vpn)
-- [Microsoft Intune에서 사용자 지정 정책을 사용하여 Samsung KNOX Standard 장치에 대해 앱 허용 및 차단](/intune/samsung-knox-apps-allow-block)
+
+

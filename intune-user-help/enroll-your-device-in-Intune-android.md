@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 07/13/2017
+ms.date: 09/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: e12f8d31abc4e067a6339e93cc21680921ce88e4
-ms.sourcegitcommit: 2a6ad3c233d15a9fb441362105f64b2bdd550c34
+ms.openlocfilehash: 256aa8f52bd25ddcb860aed25b22f1549053d2b1
+ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="enroll-your-android-device-in-intune"></a>Intune에서 Android 장치 등록
 
@@ -54,14 +54,14 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
 6.  **회사 액세스 설정** 화면에서 **시작**을 탭합니다.
 
-    ![회사 액세스 설정 화면](./media/and-enroll-4a-comp-access-setup.png)
+    ![회사 액세스 설정 화면](/intune/media/android_cp_enroll_02_post_1709.png)
 
     > [!NOTE]
     > 노란색 삼각형은 이미 오류가 발생했음을 의미하지 않습니다. 이 아이콘은 등록 프로세스에서 완료해야 할 단계가 여전히 남아 있음을 나타냅니다.
 
-7. **왜 장치를 등록하나요?** 화면에서 장치를 등록할 때 수행할 수 있는 작업을 확인하고 **계속**을 탭합니다.
+7. **장치 관리의 이점** 화면에서 장치를 등록할 때 수행할 수 있는 작업을 확인하고 **계속**을 누릅니다.
 
-    ![왜 장치를 등록하나요 화면](./media/and-enroll-4b-why-enroll.png)
+    ![장치 관리의 이점 화면](/intune/media/android_cp_enroll_02_post_1709.png)
 
 8.  IT 관리자가 장치에서 볼 수 있는 사항과 볼 수 없는 사항의 목록을 검토하고 **계속**을 탭합니다.
 
@@ -114,13 +114,13 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
 14. **회사 액세스 설정** 화면이 나타나면 **계속**을 탭합니다. 장치가 규정을 준수하지 않음을 나타내는 메시지가 표시되면 지침에 따라 문제를 해결하고 **계속**을 탭합니다.
 
-    ![장치가 비준수 상태이지만 등록되어 있음](./media/and-enroll-9a-noncompliant-enrolled-device.png)
+    ![장치가 비준수 상태이지만 등록되어 있음](/intune/media/android_cp_enroll_05_post_1709.png)
 
-    ![해결이 필요한 장치 준수 문제가 나타남](./media/and-enroll-9b-resolve-compliance-issues.png)
+    ![해결이 필요한 장치 준수 문제가 나타남](/intune/media/android_cp_enroll_03_post_1709.png)
 
     탭하여 문제에 대해 더 자세히 확인할 수 있습니다.
 
-    ![장치 준수 문제 확장됨](./media/and-enroll-9c-resolve-compliance-issues-expanded.png)
+    ![장치 준수 문제 확장됨](/intune/media/android_cp_enroll_04_post_1709.png)
 
     ![회사 액세스 설정 화면](./media/and-enroll-9d-comp-access-setup.png)  
 
