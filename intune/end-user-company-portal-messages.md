@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 3df993aa-48c5-4799-b68d-c85fe4f7b02c
 ms.reviewer: jeffgilb
 ms.suite: ems
-ms.openlocfilehash: 6e3a5e39cf3ee38820b1ff79eb54c019dbb68d29
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: f1a5c8a15007a38942fe543e6c1062bf957a481c
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="help-end-users-understand-company-portal-app-messages"></a>최종 사용자가 회사 포털 앱 메시지를 이해할 수 있도록 지원
 
@@ -95,6 +95,17 @@ Intune이 회사 계정을 만들어 해당 장치에 등록된 사용자의 Azu
 ### <a name="how-to-explain-this-to-your-users"></a>사용자에게 이를 설명하는 방법
 사용자에게 [메일을 통해 IT 관리자에게 로그 보내기](/intune-user-help/send-logs-to-your-it-admin-by-email-android) 항목을 참조하라고 합니다. 두 방법을 비교할 수 있도록 하려는 경우 [유선으로 IT 관리자에게 로그 보내기](/intune-user-help/send-logs-to-your-it-admin-by-cable-android)도 참조하라고 할 수 있습니다.
 
+## <a name="your-company-support-needs-to-give-you-access-to-company-resources"></a>회사 지원은 회사 리소스에 대한 액세스 권한을 제공해야 합니다.
+
+### <a name="where-it-appears"></a>표시되는 곳
+회사 포털 앱을 **허용된 앱** 또는 **예외 앱** 목록에 추가하지 않은 경우 사용자가 로그인하려고 하면 로그인에 실패합니다. 다음과 같은 메시지가 표시됩니다.
+
+> **회사 지원은 회사 리소스에 대한 액세스 권한을 제공해야 합니다.**  
+> 회사는 장치를 보호하기 위해 Information Protection 정책을 사용합니다. 회사 지원은 회사 포털이 해당 항목에 액세스하도록 허용하는지 확인해야 합니다.
+
+### <a name="what-it-means"></a>의미
+
+WIP(Windows Information Protection) 앱 보호 정책에서 회사 포털 **허용된 앱** 또는 **예외 앱** 목록을 추가합니다. 자세한 내용은 [Intune을 사용하여 WIP(Windows Information Protection) 앱 보호 정책 만들기 및 배포](/intune-classic/deploy-use/create-windows-information-protection-policy-with-intune)를 참조하세요.
 
 ### <a name="see-also"></a>참고 항목
 [Intune 사용 방법에 대해 최종 사용자에게 알릴 내용](end-user-educate.md)

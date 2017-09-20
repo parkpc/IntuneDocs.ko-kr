@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 08/15/2017
+ms.date: 09/15/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: fba27041fb55cfbef1cbba39e3679ce6884cd5f0
-ms.sourcegitcommit: 0b164f806165d312acfc88815a60e325e3d02672
+ms.openlocfilehash: 7fcdd4e7679bc969a7fa000e515b59882973a3da
+ms.sourcegitcommit: 75cea2402a3726c72b12df6111f6d3ee93c852bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2017
+ms.lasthandoff: 09/17/2017
 ---
 # <a name="set-up-intune"></a>Intune 설정
 
@@ -37,7 +37,7 @@ Intune 구독 설정 및 MDM 기관 설정과 같은 일부 단계는 대부분�
 
 | 단계 | 상태  |
 | ------------- |-------------|
-| 1  | [필수 조건](supported-devices-browsers.md) - 시작하기 전에 알아야 하는 정보입니다. 지원되는 구성 및 네트워킹 요구 사항이 여기에 포함됩니다.|
+| 1  | [지원되는 구성](supported-devices-browsers.md) - 시작하기 전에 알아야 하는 정보입니다. 지원되는 구성 및 네트워킹 요구 사항이 여기에 포함됩니다.|
 | 2 |  [Intune에 로그인](account-sign-up.md) - 평가판 구독에 로그인하거나 새 Intune 구독을 만듭니다. |  
 | 3 | [도메인 이름 구성](custom-domain-name-configure.md) - 회사의 도메인 이름이 Intune과 연결되도록 DNS 등록을 설정합니다. 이렇게 하면 Intune에 연결하고 리소스를 사용할 때 사용자에게 친숙한 도메인이 제공됩니다.  |
 | 4 | [사용자 추가](users-add.md) - 수동으로 사용자를 추가하거나 Active Directory를 연결하여 사용자를 Intune과 동기화합니다. 예를 들어 장치가 “사용자가 없는” 키오스크 장치가 아닌 한 필수입니다. |

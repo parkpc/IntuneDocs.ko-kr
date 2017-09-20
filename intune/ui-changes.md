@@ -15,19 +15,19 @@ ms.assetid:
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 105b874523024b58098205d94da47c07ee432dfc
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 41b358f48412585ec40e369225b4263012bfd2f8
+ms.sourcegitcommit: b8987b8dfb009ea55678d7f640ac5f18a6ab167e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/13/2017
 ---
 # <a name="where-did-my-intune-feature-go-in-azure"></a>Azure에서 Intune 기능은 어디에 있나요?
 Intune 기능을 Azure Portal로 이동하면서 일부 작업을 더 논리적으로 구성할 수 있게 되었습니다. 하지만 개선 작업을 진행할 때마다 항상 새 구성을 학습하는 비용이 발생하게 됩니다. 따라서 클래식 콘솔의 Intune에는 완전히 익숙하지만 Azure Portal의 Intune에서 작업을 수행하는 방법을 궁금해하는 사용자를 위해 이 참조 가이드를 만들었습니다. 찾고 있는 기능이 이 문서에서 다루어지지 않은 경우 Microsoft에서 해당 내용을 업데이트할 수 있도록 본 문서 하단에 의견을 남겨 주세요.
 ## <a name="quick-reference-guide"></a>빠른 참조 가이드
 |기능 |클래식 포털의 경로|Azure Portal의 Intune 경로|
 |------------|---------------|---------------|
-|DEP(장치 등록 프로그램) |관리 > 모바일 장치 관리 > iOS 및 Mac OS X > 장치 등록 프로그램|[장치 등록 > Apple 등록 > 등록 프로그램 토큰](#where-did-apple-dep-go) |
-|DEP(장치 등록 프로그램)| 관리 > 모바일 장치 관리 > iOS 및 Mac OS X > 장치 등록 프로그램 |[장치 등록 > Apple 등록 > 등록 프로그램 일련 번호](#where-did-apple-dep-go) |
+|DEP(장치 등록 프로그램)[iOS만 해당]|관리 > 모바일 장치 관리 > iOS > 장치 등록 프로그램|[장치 등록 > Apple 등록 > 등록 프로그램 토큰](#where-did-apple-dep-go) |
+|DEP(장치 등록 프로그램)[iOS만 해당]| 관리 > 모바일 장치 관리 > iOS 및 Mac OS X > 장치 등록 프로그램 |[장치 등록 > Apple 등록 > 등록 프로그램 일련 번호](#where-did-apple-dep-go) |
 |등록 규칙 |관리 > 모바일 장치 관리 > 등록 규칙|[장치 등록 > 등록 제한](#where-did-enrollment-rules-go) |
 |iOS 일련 번호 기준 그룹 |그룹 > 모든 장치 > 회사에서 사전 등록한 장치 > iOS 일련번호 기준|[장치 등록 > Apple 등록 > 등록 프로그램 일련 번호](#where-did-corporate-pre-enrolled-devices-go) |
 |iOS 일련 번호 기준 그룹 |그룹 > 모든 장치 > 회사에서 사전 등록한 장치 > iOS 일련번호 기준| [장치 등록 > Apple 등록 > AC 일련 번호](#where-did-corporate-pre-enrolled-devices-go)|

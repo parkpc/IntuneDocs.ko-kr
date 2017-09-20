@@ -14,11 +14,11 @@ ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 067009356171184fa34dd51c9a0b01b41f14cab7
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: cd858d617d9a9f2154a5682f5421a096d0c28224
+ms.sourcegitcommit: 75cea2402a3726c72b12df6111f6d3ee93c852bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/17/2017
 ---
 # <a name="enroll-windows-devices"></a>Windows 장치 등록
 
@@ -28,8 +28,8 @@ ms.lasthandoff: 09/09/2017
 
 Intune 관리자의 경우 다음과 같은 방법으로 등록을 단순화할 수 있습니다.
 - [자동 등록 사용](#enable-windows-10-automatic-enrollment)(Azure AD Premium 필요)
-- [CNAME 등록]()
-- 대량 등록 사용(Azure AD Premium 및 Windows 구성 디자이너 필요)
+- [CNAME 등록](#simplify-windows-enrollment-without-azure-ad-premium)
+- [대량 등록 사용](windows-bulk-enroll.md)(Azure AD Premium 및 Windows 구성 디자이너 필요)
 
 다음의 두 가지 요소로 Windows 장치를 간편하게 등록하는 방법을 결정합니다.
 

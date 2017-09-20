@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 07/21/2017
+ms.date: 09/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6b3ecc9af91d1a78f84dd6d4b8f47f0bf3e8c742
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 787fbdd470b4e1fbb4cb3e22ba4065e52d4c63f8
+ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="enable-ios-device-enrollment-with-apple-school-manager"></a>Apple School Manager를 통해 iOS 장치 등록 기능 사용
 
@@ -38,17 +38,8 @@ Apple School Manager 등록을 활성화하려면 Intune과 Apple School Manager
 - 사용자 선호도에는 [WS-Trust 1.3 사용자 이름/혼합 끝점](https://technet.microsoft.com/library/adfs2-help-endpoints)이 필요합니다. [자세히 알아봅니다](https://technet.microsoft.com/itpro/powershell/windows/adfs/get-adfsendpoint).
 - [Apple School Management](http://school.apple.com) 프로그램으로 구입한 장치
 
-**Apple School Manager 등록 단계**
-1. [Apple School Manager 토큰 가져오기 및 장치 할당](#get-the-apple-token-and-assign-devices)
-2. [등록 프로필 만들기](#create-an-apple-enrollment-profile)
-3. [학교 데이터 동기화 연결](#connect-school-data-sync)(선택 사항)
-4. [Apple School Manager 관리 장치 동기화](#sync-managed-devices)
-5. [Apple School Manager 프로필을 장치에 할당](#assign-a-profile-to-devices)
-6. [사용자에게 장치 배포](#distribute-devices-to-users)
-
 >[!NOTE]
 >MFA(다단계 인증)는 사용자 선호도가 있는 Apple School Manager 장치에 등록하는 동안 작동하지 않습니다. 등록 후 MFA는 이러한 장치에서 예상대로 작동합니다. 등록 후 MFA는 장치에서 예상대로 작동합니다. 처음 로그인할 때 암호를 변경해야 하는 사용자에게 장치가 메시지를 표시할 수 없습니다. 또한 암호가 만료된 사용자는 등록 중에 암호를 재설정하라는 메시지가 표시되지 않습니다. 사용자가 다른 장치를 사용하여 암호를 재설정해야 합니다.
-
 
 ## <a name="get-the-apple-token-and-assign-devices"></a>Apple 토큰 가져오기 및 장치 할당
 
@@ -104,7 +95,8 @@ Apple School Manager 등록을 활성화하려면 Intune과 Apple School Manager
     - **감독됨** - 더 많은 관리 옵션을 사용할 수 있으며 기본적으로 활성화 잠금이 해제된 관리 모드입니다. 이 확인란을 비워 두면 관리 기능이 제한됩니다.
 
      - **등록 잠김** - (관리 모드 = 감독됨이어야 함) 관리 프로필 제거를 허용하는 iOS 설정이 해제됩니다. 이 확인란을 비워 두면 설정 메뉴에서 관리 프로필을 제거할 수 있습니다.
-   - **공유 iPad** - (**사용자 선호도를 사용하지 않고 등록** 및 **감독됨** 모드를 사용해야 함) 여러 사용자가 관리되는 Apple ID를 사용하여 등록된 iPad에 로그온할 수 있습니다. 관리되는 Apple ID는 Apple School Manager 포털에서 작성됩니다. [공유 iPad](education-settings-configure-ios-shared.md)에 대해 자세히 알아보세요.
+   - **공유 iPad** - (**사용자 선호도를 사용하지 않고 등록** 및 **감독됨** 모드를 사용해야 함) 여러 사용자가 관리되는 Apple ID를 사용하여 등록된 iPad에 로그온할 수 있습니다. 관리되는 Apple ID는 Apple School Manager 포털에서 작성됩니다. [공유 iPad](education-settings-configure-ios-shared.md)에 대해 자세히 알아보세요. [Apple의 공유된 iPad 요구 사항](https://help.apple.com/classroom/ipad/2.0/#/cad7e2e0cf56)도 검토해야 합니다.
+
    >[!NOTE]
    >**사용자 선호도**가 **사용자 선호도 사용**으로 설정되거나 **감독** 모드가 **꺼짐**으로 설정된 경우 등록 프로필에 대해 공유 iPad 모드가 사용되지 않습니다.
 

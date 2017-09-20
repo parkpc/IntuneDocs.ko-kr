@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 07/16/2017
+ms.date: 09/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d7a51094851af8c3b6d872300cd9b23e845c6494
-ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
+ms.openlocfilehash: d553f62ed2ee1c9e5a6b9121b766e6e427d06bf7
+ms.sourcegitcommit: 75cea2402a3726c72b12df6111f6d3ee93c852bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/17/2017
 ---
 # <a name="troubleshoot-device-enrollment-in-intune"></a>Intune에서 장치 등록 문제 해결
 
@@ -182,7 +182,7 @@ ms.lasthandoff: 08/09/2017
 
 사용자에게 Android 6.0으로 업그레이드해 보도록 요청합니다. Android 6.0 장치에서는 비활성화 문제가 발생하지 않습니다. 업데이트를 사용할 수 있는지 확인하려면 **설정** > **장치 정보** > **수동으로 업데이트 다운로드**로 이동하고 장치에 표시되는 메시지를 따릅니다.
 
- **3:**
+** 3:**
 
 해결 방법 2로 해결되지 않으면 사용자에게 다음 단계에 따라 Smart Manager에서 회사 포털 앱을 제외하도록 설정하라고 요청합니다.
 
@@ -370,7 +370,14 @@ Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/librar
 ### <a name="other-ios-enrollment-errors"></a>기타 iOS 등록 오류
 iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장치를 등록하는 동안 오류가 발생하는 경우](/intune-user-help/using-your-iOS-or-macOS-device-with-intune)에서 제공됩니다.
 
-## <a name="pc--issues"></a>PC 문제
+## <a name="pc-issues"></a>PC 문제
+
+
+|오류 메시지|문제|해결 방법|
+|---|---|---|
+|**IT 관리자가 액세스에 대한 라이선스를 할당해야 함**<br>IT 관리자가 이 앱을 사용할 수 있도록 액세스 권한을 할당하지 않았습니다. IT 관리자에게 도움을 받거나 나중에 다시 시도하세요.|사용자 계정에 필요한 라이선스가 없으므로 장치를 등록할 수 없습니다.|사용자가 장치를 등록하려면 먼저 필요한 라이선스를 할당받아야 합니다. 이 메시지는 지정된 모바일 장치 관리 기관에 맞지 않는 라이선스 유형이 있음을 의미합니다. 예를 들어 Intune이 모바일 장치 관리 기관으로 지정되었는데 System Center 2012 R2 Configuration Manager 라이선스를 사용하는 경우 이 오류가 표시됩니다.<br>[사용자 계정에 Intune 라이선스를 할당하는 방법](https://docs.microsoft.com/intune/licenses-assign)에 대한 정보를 참조하세요.|
+
+
 
 ### <a name="the-machine-is-already-enrolled---error-hr-0x8007064c"></a>컴퓨터가 이미 등록되었습니다. - 오류: hr 0x8007064c
 **문제:** **컴퓨터가 이미 등록되었습니다.**라는 오류와 함께 등록에 실패합니다. 등록 로그에 **hr 0x8007064c** 오류가 표시됩니다.
