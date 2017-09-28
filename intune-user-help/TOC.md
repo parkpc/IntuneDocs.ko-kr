@@ -27,7 +27,7 @@
 ### [Android의 일반적인 문제 해결](troubleshoot-your-device-android.md)
 #### [장치 준수 확인](check-compliance-on-your-device-android.md)
 
-#### [로그를 사용하여 문제 해결]
+#### 로그를 사용하여 문제 해결
 ##### [자세한 정보 로깅 설정](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
 ##### [전자 메일을 사용하여 로그 보내기](send-logs-to-your-it-admin-by-email-android.md)
 ##### [USB 케이블을 사용하여 로그 보내기](send-logs-to-your-it-admin-using-cable-android.md)
