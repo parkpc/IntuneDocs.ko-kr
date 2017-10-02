@@ -125,14 +125,14 @@ Postman에 대한 새 액세스 토큰을 가져오려면 Azure AD 권한 부여
 
      `F360R69M0MS72OB6YAqTyXO9MsXZx/OJTgAE2HB4k2k=`
 
-12. **Authorization Code**(인증 코드) 및 [Request access token locally](로컬로 액세스 토큰 요청)를 선택합니다.
+12. **Authorization Code**(인증 코드) 및 [Request access token locally]\(로컬로 액세스 토큰 요청)를 선택합니다.
 
 13. **Request Token**(토큰 요청)을 클릭합니다.
 
     ![토큰에 대한 정보](media\reports-postman_getnewtoken.png)
 
-14. Active AD 권한 부여 페이지에서 자격 증명을 입력합니다. 이제 Postman의 [Existing Tokens](기존 토큰) 목록에 `Bearer`라는 토큰이 포함되어 있습니다.
-16. 토큰을 선택합니다. [Add token to](토큰 추가)의 **Header**(헤더)를 선택합니다.
+14. Active AD 권한 부여 페이지에서 자격 증명을 입력합니다. 이제 Postman의 [Existing Tokens]\(기존 토큰) 목록에 `Bearer`라는 토큰이 포함되어 있습니다.
+16. 토큰을 선택합니다. [Add token to]\(토큰 추가)의 **Header**(헤더)를 선택합니다.
 17. **Use Token**(토큰 사용)을 클릭합니다. 헤더 목록에는 권한 부여의 새 키 값과 `Bearer <your-authorization-token>` 값이 포함되어 있습니다.
 
 #### <a name="send-the-call-to-the-endpoint-using-postman"></a>Postman을 사용하여 끝점으로 호출 보내기
