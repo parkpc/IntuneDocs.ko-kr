@@ -3,8 +3,8 @@ title: "Intune을 사용하여 장치 암호 초기화"
 titlesuffix: Azure portal
 description: "Intune으로 관리하는 장치에서 암호를 초기화하는 방법을 알아봅니다.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 08/09/2017
 ms.topic: get-started-article
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 47181d19-4049-4c7a-a8de-422206c4027e
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7a292342000a4f60455aa44202a1bf0493ae66f0
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 3defec3624944918d14b9c4527487c368c487dd6
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="reset-the-passcode-on-intune-managed-devices"></a>Intune 관리 장치에서 암호 초기화
 

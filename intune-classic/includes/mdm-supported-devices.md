@@ -1,17 +1,16 @@
 
 
 ### <a name="apple"></a>Apple
-  - Apple iOS 8.0 이상
+  - Apple iOS 9.0 이상
   - Mac OS X 10.9 이상
 
 ### <a name="windows"></a>Windows
   - Windows 10(Home, Pro, Education 및 Enterprise 버전)을 실행하는 PC
-  - Windows Phone 8.1 이상
-  - Windows 8.1 RT
-  - Windows 8.1을 실행하는 PC
+  - Windows 10 Mobile
   - Windows 10 IoT Enterprise(x86, x64)를 실행하는 장치
   - Windows 10 IoT Mobile Enterprise를 실행하는 장치
-  - Windows Holographic 및 Windows Holographic Enterprise
+  - Windows Holographic &amp; Windows Holographic Enterprise
+  - Windows Phone 8.1, Windows 8.1 RT 및 Windows 8.1을 실행하는 PC(유지 모드)
 
   EMS(Enterprise Management + Security)가 있는 고객은 [AAD(Azure Active Directory)를 사용하여 Windows 10 장치를 등록](/intune-classic/deploy-use/set-up-windows-device-management-with-microsoft-intune#azure-active-directory-enrollment)할 수도 있습니다.
 

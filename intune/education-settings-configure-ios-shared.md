@@ -3,8 +3,8 @@ title: "iOS 교실 앱에 대한 Intune 공유 장치 설정"
 titlesuffix: Azure portal
 description: "iOS 장치에서 교실 앱에 대한 설정을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 06/28/2017
 ms.topic: article
@@ -15,17 +15,18 @@ ms.assetid: 1381a5ce-c743-40e9-8a10-4c218085bb5f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 860efd0fb312aab13e543b9a2b4114f408e7137e
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 9b24ee84d339b728addd753cb309b4d8572e5582
+ms.sourcegitcommit: e5501cdf08d3e79bc51dc726697606be02110e57
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/21/2017
 ---
 # <a name="how-to-configure-intune-education-settings-for-shared-ipad-devices"></a>공유 iPad 장치에 대한 Intune 교육 설정을 구성하는 방법
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-소개 Intune에서는 교사들이 교실에서 학습을 지도하고 학생 장치를 제어하도록 도와주는 iOS 교실 앱을 지원합니다. 또한 Apple은 여러 학생이 단일 장치를 공유할 수 있도록 교실 앱에서 학생 iPad 장치를 구성할 수 있는 기능을 지원합니다. 이 문서에서는 Intune으로 이러한 작업을 수행하는 과정을 안내합니다.
+Intune에서는 교사들이 학습을 지도하고 교실에서 학생 장치를 제어하는 데 도움이 되는 iOS 교실 앱을 지원합니다. 또한 Apple은 여러 학생이 단일 장치를 공유할 수 있도록 교실 앱에서 학생 iPad 장치를 구성할 수 있는 기능을 지원합니다. 이 문서에서는 Intune으로 이러한 작업을 수행하는 과정을 안내합니다.
+
 교실 앱을 사용할 전용(1:1) iPad 장치를 구성하는 방법에 대한 자세한 내용은 [iOS 교실 앱에 대한 Intune 설정을 구성하는 방법](education-settings-configure-ios.md)을 참조하세요.
 
 ## <a name="before-you-start"></a>시작하기 전에

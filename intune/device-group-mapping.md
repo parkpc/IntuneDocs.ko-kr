@@ -3,8 +3,8 @@ title: "Intune에서 장치 범주를 사용하는 방법"
 titleSuffix: Azure portal
 description: "Intune에서 장치를 등록할 때 사용자가 선택할 수 있는 장치 범주를 사용하는 방법을 알아봅니다.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 08/09/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 7b668c37-40b9-4c69-8334-5d8344e78c24
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 00becba338f9a64e341b0b6d220b1a4ace3b40a9
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: e34b9cd030244db4bdde78eedbb0f874f49fa1e1
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="map-device-groups"></a>장치 그룹 매핑
 

@@ -2,8 +2,8 @@
 title: "보고서를 사용하여 작업 이해"
 description: "조직의 소프트웨어, 하드웨어 및 소프트웨어 라이선스에 대한 보고서를 만들어 관리합니다."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 04/23/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 857309c2-61c9-4c22-becf-4839fedeaece
 ms.reviewer: pbala
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c433acc553b1f89789cdb72a33e8dbbc7929bae0
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 51140a1ef2739abbbc7eb7b8fd49b1cee7318362
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="understand-microsoft-intune-operations-by-using-reports"></a>보고서를 사용하는 Microsoft Intune 작업 이해
 

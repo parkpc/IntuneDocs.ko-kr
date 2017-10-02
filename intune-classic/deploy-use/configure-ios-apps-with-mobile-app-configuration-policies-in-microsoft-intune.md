@@ -2,8 +2,8 @@
 title: "iOS 모바일 앱 구성 정책 사용"
 description: "Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 iOS 앱을 실행할 때 필요할 수도 있는 설정을 제공할 수 있습니다."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 12/27/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: fc6b645a-e837-4b2a-a10f-144065cbd8dd
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2f13baeec9e0a38ac27ae42d1bc766cf22d73634
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 7dd73ecbba6c10cbbec92bdf4e856bf15434aea9
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune"></a>Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성
 
@@ -87,7 +87,7 @@ Intune에서는 속성 목록의 다음 데이터 형식을 지원합니다.
 데이터 형식에 대한 자세한 내용은 iOS 개발자 라이브러리의 [속성 목록 정보](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/AboutPropertyLists/AboutPropertyLists.html)를 참조하세요.
 
 또한 Intune은 속성 목록에서 다음과 같은 토큰 형식을 지원합니다.
-- \{\{userprincipalname\} \} -(예:  **John@contoso.com** )
+- \{\{userprincipalname\} \} -(예: ** John@contoso.com **)
 - \{\{mail\}\} - (예: **John@contoso.com**)
 - \{\{partialupn\}\} - (예: **John**)
 - \{\{accountid\}\} - (예: **fc0dc142-71d8-4b12-bbea-bae2a8514c81**)
