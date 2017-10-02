@@ -15,18 +15,18 @@ ms.assetid: dbb6a37e-ba47-4b69-922c-d25e66c279f6
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3ed7ac5467fe3a37a133aac61a9ccffe2e6119e6
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: d818581ca74e64bf27c968b39969afd889b6fbda
+ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/19/2017
 ---
 # <a name="enable-mobile-threat-defense-in-intune"></a>Intune에서 Mobile Threat Defense 사용
 
 > [!NOTE] 
 > 이 항목은 모든 Mobile Threat Defense 파트너에게 적용됩니다.
 
-Intune에서 MTD(Mobile Threat Defense) 연결을 사용하도록 설정하려면 MTD 솔루션 콘솔에서 Intune 커넥터를 미리 구성해야 합니다.
+Intune에서 MTD(Mobile Threat Defense) 연결을 사용하도록 설정하려면 MTD 파트너 콘솔에서 Intune Connector가 이미 구성되어 있어야 합니다.
 
 ## <a name="to-enable-the-mtd-connector"></a>MTD 커넥터를 사용하도록 설정하려면
 
@@ -65,7 +65,3 @@ Intune에서 MTD(Mobile Threat Defense) 연결을 사용하도록 설정하려�
 
 > [!TIP]
 > Mobile Threat Defense 블레이드에서 Intune과 MTD 파트너 간의 **연결 상태** 및 **마지막 동기화** 시간을 확인할 수 있습니다.
-
-## <a name="next-steps"></a>다음 단계
-
-[Intune을 사용하여 Mobile Threat Defense 장치 준수 정책 만들기](mtd-device-compliance-policy-create.md)

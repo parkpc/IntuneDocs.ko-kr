@@ -2,8 +2,8 @@
 title: "Intune을 사용하는 일반적인 방법"
 description: "Intune에서 지원하는 가장 일반적인 작업 중 6개 나열"
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 06/07/2017
 ms.topic: get-started-article
@@ -11,14 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1f37d4ff-b5a7-4a89-8884-a6184908b09c
-ms.reviewer: robstackmsft
+ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d5db079d224f145336b5d3c9b9963f8a5f2c306a
-ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
+ms.openlocfilehash: 6cf2d958e5775281cca7878c54b2c9d9f593f509
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="common-ways-to-use-intune"></a>Intune을 사용하는 일반적인 방법
 

@@ -15,11 +15,11 @@ ms.assetid: df4ce3f6-a093-432c-ab86-7a83865e389e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9afb22b5fdfa20824f2a470936b213e3d5b76056
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 47df2c4a909c397ac5a6c0f736d11344de44736e
+ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/19/2017
 ---
 # <a name="skycure-mobile-threat-defense-connector"></a>Skycure Mobile Threat Defense
 
@@ -115,10 +115,10 @@ Intune은 Skycure와의 통합을 두 가지 모드로 지원합니다.
 
 Skycure와 Intune을 통합하기 위해 완료해야 할 단계는 다음과 같습니다.
 
-1.  [Skycure 앱, Microsoft Authenticator 및 iOS 앱 구성 정책 추가 및 할당](mtd-apps-ios-app-configuration-policy-add-assign.md)
+- [Intune과 Skycure 통합 설정](skycure-mtd-connector-integration.md)
 
-2.  [Intune과 Skycure 통합 설정](skycure-mtd-connector-integration.md)
+- [Skycure 앱, Microsoft Authenticator 및 iOS 앱 구성 정책 추가 및 할당](mtd-apps-ios-app-configuration-policy-add-assign.md)
 
-3.  [Intune에서 Skycure MTD 커넥터 사용](mtd-connector-enable.md)
+- [Intune을 사용하여 Skycure 장치 준수 정책 만들기](mtd-device-compliance-policy-create.md)
 
-4.  [Intune을 사용하여 Skycure 장치 준수 정책 만들기](mtd-device-compliance-policy-create.md)
+- [Intune에서 Skycure MTD 커넥터 사용](mtd-connector-enable.md)

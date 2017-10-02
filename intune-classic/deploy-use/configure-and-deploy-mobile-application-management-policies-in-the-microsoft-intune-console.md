@@ -2,8 +2,8 @@
 title: "Intune 콘솔에서 MAM 정책 구성"
 description: "Microsoft Intune의 모바일 응용 프로그램 관리 정책을 사용하여 배포하는 앱의 기능을 회사의 규정 준수 및 보안 정책에 맞게 수정할 수 있습니다."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 03/17/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: b4fb33a8-a2fa-4353-bd89-5bda48b68e83
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ce97f18a799725a86ef3ab7f4f7c0cc8cdf8f062
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 9a766dcf105abcc854c7cdb8e72c8a050d691f7a
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console"></a>구성 하 고 Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 배포
 

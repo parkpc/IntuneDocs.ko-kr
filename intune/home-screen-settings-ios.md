@@ -3,8 +3,8 @@ title: "iOS 장치용 Intune 홈 화면 레이아웃 설정"
 titlesuffix: Azure portal
 description: "iOS 장치에서 홈 화면과 Dock를 사용자 지정하는 데 사용할 수 있는 설정을 알아봅니다.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 07/03/2017
 ms.topic: article
@@ -15,17 +15,17 @@ ms.assetid: 6aba4491-afb9-43cd-9ccc-14e6a2a5a3b1
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4a3f175337d521c92c909db9972d844ac6997cb0
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 1fceed3027e0d8bb746692c1eb39e17829aa3891
+ms.sourcegitcommit: 0d9bfd92bf5958261ed83b1f150bf207b7ba7e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/21/2017
 ---
 # <a name="intune-home-screen-layout-settings-for-ios-devices"></a>iOS 장치용 Intune 홈 화면 레이아웃 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-이 설정을 사용하여 iOS의 Dock 및 홈 화면에서 앱, 폴더 및 웹 클립의 레이아웃을 구성할 수 있습니다.
+이러한 설정을 사용하여 iOS의 도킹 및 홈 화면에서 앱 및 폴더의 레이아웃을 구성합니다.
 
 프로필을 할당하는 iOS 장치는 감독 모드여야 하며, iOS 9.3 이상을 실행 중이어야 합니다.
 
