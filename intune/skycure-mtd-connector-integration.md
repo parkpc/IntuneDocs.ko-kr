@@ -15,11 +15,11 @@ ms.assetid: 359448d9-2384-42ac-a21c-a25148c20a7b
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c71df02e0d297d80b1cb51c0bfdd75762437f81a
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: d495046a990817e73fcee385b3a1482229aac721
+ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/19/2017
 ---
 # <a name="set-up-the-skycure-integration-with-intune"></a>Intune과 Skycure 통합 설정
 
@@ -107,4 +107,4 @@ Skycure는 Mobile Threat Defense 서비스를 실행하는 장치를 Azure AD �
 
 ## <a name="next-steps"></a>다음 단계
 
-[Intune에서 Skycure Mobile Threat Defense를 사용하도록 설정](mtd-connector-enable.md)
+[Skycure 앱 설정](mtd-apps-ios-app-configuration-policy-add-assign.md)

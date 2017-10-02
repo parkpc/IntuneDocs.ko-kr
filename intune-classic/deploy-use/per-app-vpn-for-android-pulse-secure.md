@@ -2,8 +2,8 @@
 title: "Pulse Secure를 사용하는 Android용 앱별 VPN"
 description: "Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만들 수 있습니다."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 06/03/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 262cc461d5c1790fdfb162d5453a9cebd48271c4
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 5dd8b1318acc035ed3fee410eea7ac5d08065844
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="use-a-custom-policy-to-create-a-per-app-vpn-profile-for-android-devices"></a>사용자 지정 정책을 사용하여 Android 장치용 앱별 VPN 프로필 만들기
 

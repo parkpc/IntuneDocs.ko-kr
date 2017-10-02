@@ -3,8 +3,8 @@ title: "Intune을 사용하여 Windows 10 장치 다시 설정"
 titlesuffix: Azure portal
 description: "새로 시작 기능을 사용하여 Intune을 실행하는 Windows 10 PC를 다시 설정하는 방법을 알아봅니다.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 08/09/2017
 ms.topic: get-started-article
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 5aa5cfa3-c483-4099-b40f-578ff8dca425
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1b59db6f876e1a7353acda63b6b5acdbb5961cb0
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: ff6198cb42d5c96ed4e4c4e0009a8bbd6f6a0dec
+ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="use-fresh-start-to-reset-windows-10-devices-with-intune"></a>Intune을 통해 새로 시작 기능을 사용하여 Windows 10 장치 다시 설정
 

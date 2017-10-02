@@ -14,11 +14,11 @@ ms.assetid: 396ea714 0433 4bd5 a934 8d0b477f28e4
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune classic
-ms.openlocfilehash: 9a84cc5b294a1a330aab978de5ef0fd8cfa4c259
-ms.sourcegitcommit: 30b51c625311398b371c0326d41216f55315f627
+ms.openlocfilehash: 534af980ff66eaa54273aaabf14609b1e221c322
+ms.sourcegitcommit: 63d862f142e2f40a1eedb7d4cbdff4fbf6dd7296
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/05/2017
+ms.lasthandoff: 09/22/2017
 ---
 #  <a name="use-alerts-to-get-notified-by-microsoft-intune"></a>경고를 사용하여 Microsoft Intune 알림 받기
 
@@ -61,6 +61,8 @@ ms.lasthandoff: 09/05/2017
 
 ## <a name="working-with-alerts"></a>경고 사용
 
+[Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에서 경고를 보려면 **경고**를 선택한 다음 보려는 경고 유형을 선택합니다.
+
 다음 옵션을 사용하면 Intune 관리자 콘솔에서 경고를 설정하는 데 도움이 됩니다.
 
 |옵션|설명|
@@ -70,11 +72,12 @@ ms.lasthandoff: 09/05/2017
 |**경고 종결**|경고 목록에서 종결할 경고를 선택한 후 **경고 종결**을 선택합니다.<br /><br />종결된 경고는 90일이 지나면 영구적으로 삭제됩니다.|
 |**종결된 경고 다시 활성화**|경고 목록에서 **필터** 드롭다운을 **종결됨**으로 설정합니다.<br /><br />종결된 경고 목록에서 다시 활성화하려는 경고를 선택한 후 **경고 다시 활성화**를 선택합니다.|
 
-Intune 경고는 다음 시기까지 활성 상태로 유지됩니다.
+Intune 경고는 30일 동안 또는 다음 시기까지 활성 상태로 유지됩니다.
 
-- 경고의 원인이 된 문제가 해결됨
-- 경고를 수동으로 종결함
-- 경고가 생성된 지 45일이 경과됨
+- 경고의 원인이 된 문제가 해결되었습니다.
+- 경고를 수동으로 종결 합니다.
+
+종결된 경고는 종결 후 30일 동안 다시 활성화할 수 있습니다. 30일 후에는 종결된 경고 및 비활성 경고가 Intune에서 제거됩니다.
 
 > [!TIP]
 > 서로 다른 운영 체제를 실행하는 장치에서 동일한 경고가 생성될 경우, 경고 목록에 여러 버전의 동일한 경고가 표시될 수 있습니다.

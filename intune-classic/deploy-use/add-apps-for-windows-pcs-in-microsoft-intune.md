@@ -2,8 +2,8 @@
 title: "Intune 소프트웨어 클라이언트를 실행하는 Windows PC에 앱 추가"
 description: "이 항목의 정보를 사용하여 배포하기 전에 Intune에 Windows PC용 앱을 추가하는 방법을 알아봅니다."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 02/16/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: bc8c8be9-7f4f-4891-9224-55fc40703f0b
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: faf52c4166298d981532ee61c158f4a705c5a3da
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 4f198026e5ea7a8c2cadd894e49292ace4eeac06
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="add-apps-for-windows-pcs-that-run-the-intune-software-client"></a>Intune 소프트웨어 클라이언트를 실행하는 Windows PC에 앱 추가
 

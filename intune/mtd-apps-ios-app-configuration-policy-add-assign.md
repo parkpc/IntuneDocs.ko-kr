@@ -15,11 +15,11 @@ ms.assetid: 00356258-76a8-4a84-9cf5-64ceedb58e72
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6d0802107353eee9359e0eff17b69037d9a237a6
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 98a5b1b705e79b875b83cecb53cd82d7bf5dff30
+ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/19/2017
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Intune을 사용하여 MTD(Mobile Threat Defense) 앱 추가 및 할당
 
@@ -54,16 +54,6 @@ iOS 장치의 경우 사용자의 ID가 Azure AD에서 확인될 수 있도록 [
 #### <a name="microsoft-authenticator-app-for-ios"></a>iOS용 Microsoft Authenticator 앱
 
 - [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조하세요. **앱 정보 구성** 섹션의 **5단계**에서 이 [Microsoft Authenticator 앱 스토어 URL](https://itunes.apple.com/us/app/microsoft-authenticator/id983156458?mt=8)을 사용합니다.
-
-### <a name="skycure"></a>Skycure
-
-#### <a name="android"></a>Android
-
-- [Microsoft Intune에 Android 스토어 앱 추가](store-apps-android.md) 지침을 참조하세요. **7단계**에서 이 [Skycure 앱 스토어 URL](https://play.google.com/store/apps/details?id=com.skycure.skycure)을 사용합니다.
-
-#### <a name="ios"></a>iOS
-
-- [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조하세요. **앱 정보 구성** 섹션의 **5단계**에서 이 [Skycure 앱 스토어 URL](https://itunes.apple.com/us/app/skycure/id695620821?mt=8)을 사용합니다.
 
 ### <a name="lookout"></a>Lookout
 
@@ -101,6 +91,16 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
 
 - [Intune을 사용하여 iOS LOB 앱 추가](lob-apps-ios.md) 항목에 설명된 대로 다시 서명된 .ipa 파일을 업로드합니다. 또한 최소 OS 버전을 iOS 8.0 이상으로 설정해야 합니다.
 
+### <a name="skycure"></a>Skycure
+
+#### <a name="android"></a>Android
+
+- [Microsoft Intune에 Android 스토어 앱 추가](store-apps-android.md) 지침을 참조하세요. **7단계**에서 이 [Skycure 앱 스토어 URL](https://play.google.com/store/apps/details?id=com.skycure.skycure)을 사용합니다.
+
+#### <a name="ios"></a>iOS
+
+- [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조하세요. **앱 정보 구성** 섹션의 **5단계**에서 이 [Skycure 앱 스토어 URL](https://itunes.apple.com/us/app/skycure/id695620821?mt=8)을 사용합니다.
+
 ### <a name="check-point-sandblast-mobile"></a>Check Point SandBlast Mobile
 
 #### <a name="android"></a>Android
@@ -111,7 +111,21 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
 
 - [Check Point SandBlast Mobile](https://www.checkpoint.com/products/sandblast-mobile/)에 문의하여 iOS 앱을 다운로드합니다. [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조한 다음 **앱 정보 구성** 섹션의 **5단계**에서 Apple 스토어 URL을 사용합니다.
 
+### <a name="zimperium"></a>Zimperium
+
+#### <a name="android"></a>Android
+
+- [Microsoft Intune에 Android 스토어 앱 추가](store-apps-android.md) 지침을 참조하세요. **7단계**에서 이 [Zimperium 앱 스토어 URL](https://play.google.com/store/apps/details?id=com.zimperium.zips&hl=en)을 사용합니다.
+
+#### <a name="ios"></a>iOS
+
+- [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조하세요. **앱 정보 구성** 섹션의 **5단계**에서 이 [Zimperium 앱 스토어 URL](https://itunes.apple.com/us/app/zimperium-zips/id1030924459?mt=8)을 사용합니다.
+
 ## <a name="to-associate-the-mtd-app-with-an-ios-app-configuration-policy"></a>iOS 앱 구성 정책에 MTD 앱을 연결하려면
+
+### <a name="for-lookout"></a>Lookout의 경우
+
+- [iOS 앱 구성 정책 사용](app-configuration-policies-use-ios.md) 항목에 설명된 대로 iOS 앱 구성 정책을 만듭니다.
 
 ### <a name="for-skycure"></a>Skycure의 경우
 
@@ -139,10 +153,6 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
 </dict>
 
 ```
-### <a name="for-lookout"></a>Lookout의 경우
-
-- [iOS 앱 구성 정책 사용](app-configuration-policies-use-ios.md) 항목에 설명된 대로 iOS 앱 구성 정책을 만듭니다.
-
 ### <a name="for-check-point-sandblast-mobile"></a>Check Point SandBlast Mobile의 경우
 
 - Check Point SandBlast Mobile iOS 앱 구성 정책을 추가하려면 [iOS에 대해 Microsoft Intune 앱 구성 정책 사용](app-configuration-policies-use-ios.md) 지침을 참조하세요.
@@ -152,12 +162,30 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
 <dict><key>MDM</key><string>INTUNE</string></dict>
 
 ```
+
+### <a name="for-zimperium"></a>Zimperium의 경우
+
+- Zimperium iOS 앱 구성 정책을 추가하려면 [iOS에 대해 Microsoft Intune 앱 구성 정책 사용](app-configuration-policies-use-ios.md) 지침을 참조하세요.
+    - **8단계**에서 **XML 데이터 입력** 옵션을 사용하고 아래 콘텐츠를 복사하여 구성 정책 본문에 붙여넣습니다.
+
+```
+<dict>
+<key>provider</key><string>Intune</string>
+<key>userprincipalname</key><string>{{userprincipalname}}</string>
+<key>deviceid</key>
+<string>{{deviceid}}</string>
+<key>serialnumber</key>
+<string>{{serialnumber}}</string>
+<key>udidlast4digits</key>
+<string>{{udidlast4digits}}</string>
+</dict>
+
+```
+
 ## <a name="to-assign-apps-all-mtd-partners"></a>앱을 할당하려면(모든 MTD 파트너)
 
 - [Intune을 사용하여 그룹에 앱 할당](apps-deploy.md) 지침을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Intune과 Lookout 통합 설정](lookout-mtd-connector-integration.md)
-- [Intune과 Skycure 통합 설정](skycure-mtd-connector-integration.md)
-- [Intune과 Check Point SandBlast 통합 설정](checkpoint-sandblast-mobile-mtd-connector-integration.md)
+- [MTD 장치 준수 정책 추가](mtd-device-compliance-policy-create.md)

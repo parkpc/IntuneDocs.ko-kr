@@ -3,8 +3,8 @@ title: "Intune을 사용하여 Windows 10 장치에 Office 365 ProPlus 앱 설�
 titlesuffix: Azure portal
 description: "Intune을 사용하여 Office 365 앱을 Windows 10 장치에 더 간편하게 설치하는 방법을 알아봅니다."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: dougeby
+ms.author: dougeby
 manager: angrobe
 ms.date: 08/14/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 3292671a-5f5a-429e-90f7-b20019787d22
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c3613c1e0482654d799329069f56ec0b0aac7772
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: f4e3ad7b68be723e0cab7b541b0ae7e3cc858c99
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="how-to-assign-office-365-proplus-2016-apps-to-windows-10-devices-with-microsoft-intune"></a>Microsoft Intune을 사용하여 Office 365 ProPlus 2016 앱을 Windows 10 장치에 할당하는 방법
 

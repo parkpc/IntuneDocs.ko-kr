@@ -15,11 +15,11 @@ ms.assetid: 5d12254f-ffab-4792-b19c-ab37f5e02f35
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b2cffc21ba78cbd54edfb75eaa892df1539ad62b
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 2e9b1a3dc42a9c18d61fc9b55d5a7b71f00c3e29
+ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/19/2017
 ---
 # <a name="create-mobile-threat-defense-mtd-device-compliance-policy-with-intune"></a>Intune을 사용하여 MTD(Mobile Threat Defense) 장치 준수 정책 만들기
 
@@ -35,8 +35,6 @@ MTD 설치의 일부로 MTD 파트너 콘솔에서 다양한 위협을 높음, �
 MTD를 사용한 장치 준수 정책에 대한 필수 조건:
 
 -   Intune과 MTD 통합 설정
-
--   Intune에서 MTD 커넥터 사용
 
 ## <a name="to-create-a-mtd-device-compliance-policy"></a>MTD 장치 준수 정책을 만들려면
 
@@ -77,3 +75,7 @@ MTD를 사용한 장치 준수 정책에 대한 필수 조건:
 
     > [!NOTE] 
     > 사용자에게 정책을 적용했습니다. 정책의 대상 사용자가 사용하는 장치에 대해 준수 여부가 평가됩니다.
+
+## <a name="next-steps"></a>다음 단계
+
+- [Intune에서 MTD 사용](mtd-connector-enable.md)
