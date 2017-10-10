@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: bb9dfe52aa2c0150bd48f5c5cfad48a03748142c
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: a0fc18f3a0e4fa31d5cd7736e83af289a7cb8e52
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="your-ios-device-doesnt-have-the-required-minimum-operating-system-version"></a>iOS 장치에 필요한 최소 운영 체제 버전이 없는 경우
 
@@ -28,4 +28,4 @@ ms.lasthandoff: 07/01/2017
 
 **설정** > **일반** > **소프트웨어 업데이트**를 탭하여 iOS 장치를 업데이트합니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

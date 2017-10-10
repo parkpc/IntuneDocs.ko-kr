@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 4abb070d6cf4f8200bdf1b9380ade7db81535622
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: b77c28b7c3ccec979a7c3612483f8682c3094576
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="send-logs-to-the-company-portal-developers-for-ios-devices"></a>회사 포털 개발자에게 iOS 장치에 대한 로그 보내기
 
@@ -33,4 +33,4 @@ ms.lasthandoff: 07/01/2017
 3.  길게 누른 후 보고서의 모든 텍스트가 선택될 때까지 작은 파란색 점을 위와 아래로 끕니다. 팝업 메뉴에서 __복사하기__를 탭합니다.
 4.  메일 앱을 열고 내용을 메일의 본문에 붙여 넣습니다. 메일을 <a href="mailto:IntuneCPiOSfeedback@microsoft.com?subject=My Company Portal App Closed Unexpectedly&body=Press and hold, then paste your copied Company Portal app logs here.">IntuneCPiOSfeedback@microsoft.com</a>에 보냅니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

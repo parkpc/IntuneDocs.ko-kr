@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: c111993248e900f663640cf45db4525dc7c7df95
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: d61887174830c9892c854d7b067fafe6fc50da59
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="your-device-is-noncompliant"></a>장치가 비규격인 경우
 
@@ -28,4 +28,4 @@ ms.lasthandoff: 07/01/2017
 
 회사 포털 앱에서 **준수 확인**을 탭합니다. 회사 포털 앱에서 장치를 비규격으로 만드는 요인을 알려 줍니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
