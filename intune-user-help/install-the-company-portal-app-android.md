@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ab021708898fe87c2c5acf7d8b33df5a57e36c84
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 32a46b1c82bbe38cf1918ff4053bf650bfe7d26a
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="install-the-company-portal-app-for-android"></a>Android용 회사 포털 앱 설치
 
@@ -44,4 +44,4 @@ ms.lasthandoff: 07/01/2017
 
 회사 포털 앱을 다운로드한 후에 회사 정보에 완전히 액세스하기 위해 [Intune에 장치를 등록](enroll-your-device-in-Intune-android.md)하려고 할 수 있습니다. [다른 장치를 사용하여 로그인](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal#signing-in-from-another-device)할 수도 있습니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 1753545450d684f366ef4e323104d92ff0a55cbb
-ms.sourcegitcommit: 2ed8d1c39d4b3e3282111f1d758afb3a50f19f8f
+ms.openlocfilehash: 02d955e5f5f15264df8aba3ea380b7f7e6c4d87b
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="unenroll-your-ios-device-from-intune"></a>Intune에서 iOS 장치 등록 취소
 
@@ -53,4 +53,4 @@ Intune에서 장치를 등록 취소하면 다음과 같은 일이 발생합니�
 
 -   메일용으로만 구성된 장치는 회사 포털 앱이나 웹 사이트에 더 이상 나타나지 않습니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

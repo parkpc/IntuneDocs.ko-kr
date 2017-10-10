@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: vadona
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 081798753f3e962e0ca500097fc55e021802c73d
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 22cdbc1140c57cb7475689307df5a261774761d5
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="you-need-to-upgrade-your-device-to-install-the-outlook-app"></a>Outlook 앱을 설치하기 위해 장치를 업그레이드해야 하는 경우
 
@@ -34,4 +34,4 @@ Outlook을 다운로드하여 설치하려는 경우 Outlook이 설치되는 대
 ## <a name="if-you-have-an-ios-device"></a>iOS 장치를 사용하는 경우
 **설정** > **일반** > **소프트웨어 업데이트**를 탭합니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
