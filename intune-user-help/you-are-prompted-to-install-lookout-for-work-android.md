@@ -1,11 +1,11 @@
 ---
 title: "Android 장치에 Lookout for Work를 설치해야 하는 경우 | Microsoft 문서"
-description: 
+description: "Android용 Lookout for Work를 설치하는 방법에 대해 알아봅니다."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/17/2017
+ms.date: 09/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,19 +14,19 @@ ms.assetid: 0d357dc0-3e14-43d0-9874-6886ebc847fc
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 957a0f5104030043e8049bf65ba30e4579a0acb0
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 9e0ea429a6fd68bf984f814d512f9e5a8b327358
+ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
-# <a name="you-need-to-install-lookout-for-work"></a>Lookout for Work를 설치해야 하는 경우
+# <a name="install-lookout-for-work"></a>Lookout for Work 설치
 
-작업에 액세스하기 전에 IT 관리자는 잠재적 보안 위협을 찾아 장치를 보호하는 데 도움을 주는 Lookout for Work 앱을 설치하도록 요구합니다.
+작업에 액세스하기 전에 회사 지원팀에서는 잠재적 보안 위협을 찾아 장치를 보호하는 데 도움을 주는 Lookout for Work 앱을 설치하도록 요구합니다.
 
 설치하는 데 문제가 있으면 이 항목 끝에 나오는 문제 해결 단계를 수행합니다.
 
-**수행해야 할 작업:**
+## <a name="what-you-need-to-do"></a>수행해야 할 작업
 
 1.  화면의 맨 위에서 아래로 끌어서 알림 표시줄을 연 다음 **필수 응용 프로그램 - Play 스토어에서 Lookout for Work 설치**를 탭합니다.
 
@@ -70,8 +70,10 @@ ms.lasthandoff: 07/01/2017
 
   Lookout for Work에서 장치에 대한 보안 위협을 발견한 경우 문제 해결 방법에 대한 지침이 표시됩니다.
 
-**설치가 작동하지 않는 경우**
+## <a name="if-the-installation-doesnt-work"></a>설치가 작동하지 않는 경우
 
 제어할 수 없는 기술 문제로 인해 설치가 실패할 수 있습니다. 이런 경우 [Play 스토어에서 수동으로](https://play.google.com/store/apps/details?id=com.lookout.enterprise) Lookout for Work를 설치해 보세요.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+

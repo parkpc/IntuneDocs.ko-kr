@@ -1,5 +1,5 @@
 ---
-title: "메일을 통해 IT 관리자에게 로그 보내기 | Microsoft 문서"
+title: "메일을 통해 회사 지원팀에 로그 보내기 | Microsoft Docs"
 description: "Android 장치에서 메일을 사용하여 데이터 로그 보내기"
 keywords: 
 author: barlanmsft
@@ -16,20 +16,20 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 3794f6c908dabb1946a262a7238a38537b7b06ec
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: b10e4f6571d581b76d8e9d280767ce09ec8e3684
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
-# <a name="send-logs-to-your-it-admin-using-email"></a>메일을 사용하여 IT 관리자에게 로그 보내기
+# <a name="send-logs-to-your-company-support-using-email"></a>전자 메일을 사용하여 회사 지원팀에 로그 보내기
 
-Android 장치에서 회사 포털 앱을 사용할 때 오류가 표시되면 메일로 오류 정보를 보내 IT 관리자가 문제를 해결하도록 도울 수 있습니다. 이 정보는 장치의 _진단 로그_라는 특수 문서에 저장됩니다.
+Android 장치에서 회사 포털 앱을 사용할 때 오류가 표시되면 메일로 오류 정보를 보내서 회사 지원팀이 문제를 해결하도록 도울 수 있습니다. 이 정보는 장치의 _진단 로그_라는 특수 문서에 저장됩니다.
 
 > [!Note]
-> IT 관리자가 문제를 더 쉽게 파악할 수 있게 하려면 _자세한 정보 로깅_ 기능을 켜야 합니다. 자세한 정보 로깅은 보고서에 모든 관련 세부 정보를 포함합니다. [여기에서 자세한 정보 로깅을 켜는](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md) 방법을 확인해 보세요.
+> 회사 지원팀이 문제를 더 쉽게 파악할 수 있게 하려면 _자세한 정보 로깅_ 기능을 사용해야 합니다. 자세한 정보 로깅은 보고서에 모든 관련 세부 정보를 포함합니다. [여기에서 자세한 정보 로깅을 켜는](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md) 방법을 확인해 보세요.
 
-메일을 사용하여 IT 관리자에게 로그를 보내려면
+전자 메일을 사용하여 회사 지원팀에 로그를 보내려면:
 
 1.  회사 포털 앱을 엽니다.
 
@@ -40,4 +40,4 @@ Android 장치에서 회사 포털 앱을 사용할 때 오류가 표시되면 �
 
 3.  **도움말** 아래에서 **도움 받기**를 누릅니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

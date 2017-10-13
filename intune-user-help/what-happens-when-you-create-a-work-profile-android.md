@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ca763562c96c4c5f4f4e6bcf317bb6ccba68d8d2
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 2958710c0f758e16e2613627782f81e26f1d3051
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="what-happens-when-you-create-a-work-profile"></a>업무용 프로필을 만들면 어떻게 되나요?
 
@@ -28,9 +28,9 @@ ms.lasthandoff: 07/01/2017
 
 업무용 프로필을 만들 경우
 
-- IT 관리자는 장치에서 업무와 관련된 메일, 앱, 설정 및 데이터만 관리합니다. 개인 앱이나 데이터는 관리하지 않습니다.
+- 회사 지원팀은 장치에서 업무와 관련된 메일, 앱, 설정 및 데이터만 관리합니다. 개인 앱이나 데이터는 관리하지 않습니다.
 
-- 회사 앱은 Play Store for Work에서 가져옵니다. 개인 앱을 가져오려면 Google Play 스토어로 이동하여 계속 개인 앱을 가져올 수 있습니다. IT 관리자는 개인 앱을 보거나 관리할 수 없습니다.
+- 회사 앱은 Play Store for Work에서 가져옵니다. 개인 앱을 가져오려면 Google Play 스토어로 이동하여 계속 개인 앱을 가져올 수 있습니다. 회사 지원팀은 개인 앱을 보거나 관리할 수 없습니다.
 
 - 회사 앱은 개인 앱과 구분되지만, 회사 앱과 개인 앱이 홈 화면에 동시에 나타날 수 있습니다. 다음은 나타날 수 있는 화면입니다. 사용자 화면과 약간 다르게 나타날 수도 있습니다.
 
@@ -38,9 +38,9 @@ ms.lasthandoff: 07/01/2017
 
     ![Android Play Store for Work](./media/afw-google-play-store-for-work.png)
 
-- 회사 또는 학교에서 업무용 프로필이 있는 경우 IT 관리자는 사용자 프로필이나 회사 앱을 설치하거나 제거할 수는 있지만 개인 앱이나 데이터는 그럴 수 없습니다.
-- IT 관리자는 장치를 다시 설정하거나 초기화할 수 없습니다.
+- 회사 또는 학교에서 업무용 프로필이 있는 경우 회사 지원팀은 사용자 프로필이나 회사 앱을 설치하거나 제거할 수는 있지만 개인 앱이나 데이터는 그럴 수 없습니다.
+- 회사 지원팀은 장치를 다시 설정하거나 초기화할 수 없습니다.
 
 업무용 프로필을 만드는 단계는 [업무용 프로필을 만들어 장치 등록](create-a-work-profile-and-enroll-your-device-in-intune-android.md)을 참조하세요.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

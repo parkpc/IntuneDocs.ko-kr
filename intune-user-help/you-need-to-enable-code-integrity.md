@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 4a1639c289e335d4f50c549da7b7d895dd2a10bb
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 4fad2b78b8224fc1a90ad8c81d350917b17e3d57
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="you-need-to-enable-code-integrity"></a>코드 무결성을 사용하도록 설정해야 함
 
@@ -29,8 +29,8 @@ ms.lasthandoff: 07/01/2017
 시스템이 보안 부팅을 적극적으로 사용하는 경우 코드 무결성이 자동으로 켜집니다.
 
 > [!Tip]
-> 보안 부팅을 사용하도록 설정하는 것은 고급 작업입니다. IT 관리자에게 이 작업에 대한 지원을 요청하는 것이 좋습니다.
+> 보안 부팅을 사용하도록 설정하는 것은 고급 작업입니다. 회사 지원팀에 이 작업에 대한 지원을 요청하는 것이 좋습니다.
 
 계속 진행하기 어렵다면 [보안 부팅 사용 안 함](https://msdn.microsoft.com/library/windows/hardware/dn898540(v=vs.85).aspx) 페이지에서 "보안 부팅을 다시 사용하도록 설정하려면" 섹션을 참조하여 직접 보안 부팅을 사용하도록 설정하세요.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

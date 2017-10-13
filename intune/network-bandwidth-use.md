@@ -14,11 +14,11 @@ ms.assetid: 0f737d48-24bc-44cd-aadd-f0a1d59f6893
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 531112301d0c3827ec7eb3ab4087218caa331b90
-ms.sourcegitcommit: 2b7d644c7a4f85315e11a7d0c5885cc66975c2ad
+ms.openlocfilehash: d68cbb05025e89e256a22dc88f5c4ee2afc3c536
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="intune-network-bandwidth-use"></a>Intune 네트워크 대역폭 사용
 
@@ -155,3 +155,16 @@ Intune은 Intune 소프트웨어를 실행하는 서버와 같은 온-프레미�
 |fef.msuc02.manage.microsoft.com|23.98.66.118|
 |fef.msuc03.manage.microsoft.com|23.101.0.100|
 |fef.msuc05.manage.microsoft.com|52.230.16.180|
+
+### <a name="apple-device-network-information"></a>Apple 장치 네트워크 정보
+| 호스트 이름  | URL(IP 주소/서브넷) | 프로토콜 | 포트 | 장치 |
+| --- | --- | --- | --- | --- |
+|  관리 사용자  | gateway.push.apple.com(17.0.0.0/8) | TCP | 2195 | Apple iOS 및 macOS |
+| 관리 사용자  | feedback.push.apple.com(17.0.0.0/8) | TCP | 2196 | Apple iOS 및 macOS |
+| 관리 사용자  | Apple iTunesitunes.apple.com, \*.mzstatic.com, \*.phobos.apple.com, \*.phobos.apple.com.edgesuite.net | HTTP | 80 | Apple iOS 및 macOS  |
+| PI Server  | gateway.push.apple.com(17.0.0.0/8) feedback.push.apple.com(17.0.0.0/8) | TCP | 2195, 2196 | Apple iOS와 macOS 클라우드 메시징의 경우입니다. |
+| 장치 서비스  | gateway.push.apple.com | TCP | 2195 | Apple  |
+| 장치 서비스  | feedback.push.apple.com | TCP | 2196 | Apple  |
+| 장치 서비스  | Apple iTunesitunes.apple.com \*.mzstatic.com\*.phobos.apple.com \*.phobos.apple.com.edgesuite.net | HTTP | 80 | Apple  |
+| 장치(인터넷/Wi-Fi) | #-courier.push.apple.com(17.0.0.0/8) | TCP | 5223 및 443 | Apple에만 해당합니다. &#39;#&#39;는 0~200 사이의 임의 숫자입니다. |
+| 장치(인터넷/Wi-Fi) | phobos.apple.comocsp.apple.comax.itunes.apple.com | HTTP/HTTPS | 80 또는 443 | Apple에만 해당합니다. |

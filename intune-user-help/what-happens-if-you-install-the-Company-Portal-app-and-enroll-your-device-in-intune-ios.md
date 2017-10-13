@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: b0205ebce012912cacc738382cadf56a355482f0
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 8867125c9112089bda574f2bd710ddbc3d0b214c
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-ios-or-macos-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 iOS 또는 macOS 장치를 등록하면 어떻게 되나요?
 
@@ -34,9 +34,9 @@ Intune에서 회사 포털 앱을 설치하고 iOS 또는 macOS 장치를 등록
 
 -   회사 메일 계정을 자동으로 설정
 
-Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하는 데 도움이 되도록 장치를 관리할 수 있는 권한을 IT 관리자에게 부여하는 것입니다.
+Intune에서 장치를 등록할 때 장치의 회사 정보를 보호하는 데 도움이 되도록 장치를 관리할 수 있는 권한을 회사 지원팀에 부여합니다.
 
-장치가 등록되면 IT 관리자가 다음 작업을 수행할 수 있습니다.
+장치가 등록되면 회사 지원팀에서 다음 작업을 수행할 수 있습니다.
 
 -   장치를 분실하거나 도난당하는 경우 사용자 장치를 장치 제조업체의 기본 설정으로 재설정합니다.
 
@@ -62,4 +62,4 @@ Intune에서 장치를 등록하는 것은 장치의 회사 정보를 보호하�
 
 -   장치가 로밍 모드에 있는 동안 자동 파일 동기화를 사용하거나 사용하지 않도록 설정합니다. 자동 파일 동기화가 허용되는 경우 로밍 요금이 청구될 수 있습니다.
 
-의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+질문이 있다면 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

@@ -16,18 +16,18 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: fe406fe2deb89fca1f3ab9d949ea78b779ee13af
-ms.sourcegitcommit: eb726c7e3a6e7defb74e69861447c96de0d1bb65
+ms.openlocfilehash: 3a2622c7c981e64b3e220424c6661a5ba9e30751
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="how-to-protect-your-android-device-using-encryption"></a>암호화를 사용하여 Android 장치를 보호하는 방법
 
 장치를 암호화하면 장치의 정보를 보호 코드의 계층에 래핑하여 권한이 없는 사용자가 해당 정보에 액세스하는 것을 방지합니다. 정보 보안을 보장하기 위한 단계로서, 조직에서는 회사 파일, 메일 또는 데이터에 액세스하기 전에 Android 장치를 암호화할 것을 요구합니다.
 
 > [!Note]
-> IT 관리자가 요구하는 경우 암호화하기 전에 PIN 또는 암호를 설정하라는 메시지가 표시될 수 있습니다.
+> 회사 지원팀이 요구하는 경우 암호화하기 전에 PIN 또는 암호를 설정하라는 메시지가 표시될 수 있습니다.
 
 휴대폰의 등록을 취소한 경우 휴대폰이 암호화된 상태로 유지됩니다.
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 08/17/2017
 
 - 장치가 충전되었고 전원에 연결되어 있는지 확인합니다.
 - 장치에서 PIN 또는 암호를 설정했는지 확인합니다.
-- 장치에서 이미 PIN 또는 암호를 설정한 경우 다음 단계를 시도해 볼 수 있습니다. IT 관리자가 장치를 더 안전하게 하기 위해 이러한 단계를 요구할 수 있습니다. 표시되는 메뉴 이름은 보유한 Android 장치의 유형에 따라 단계에 있는 메뉴 이름과 약간 다를 수 있습니다.
+- 장치에서 이미 PIN 또는 암호를 설정한 경우 다음 단계를 시도해 볼 수 있습니다. 회사 지원팀이 장치를 더 안전하게 하기 위해 이러한 단계를 요구할 수 있습니다. 표시되는 메뉴 이름은 보유한 Android 장치의 유형에 따라 단계에 있는 메뉴 이름과 약간 다를 수 있습니다.
 
     1. **설정** > **잠금 화면 및 보안** > **화면 잠금**으로 이동합니다. 현재 PIN 또는 암호를 확인합니다.
 
@@ -66,4 +66,4 @@ ms.lasthandoff: 08/17/2017
 
     6. 회사 포털 앱을 열고 장치를 선택하고 **준수 확인**을 탭합니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with encryption on my Android device&body=Describe the issue you're experiencing here.">Microsoft Android 팀</a>으로 메일을 보내세요.
+여전히 도움이 필요하세요? 회사 지원팀에 문의하거나(연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com) 확인) <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with encryption on my Android device&body=Describe the issue you're experiencing here.">Microsoft Android 팀</a>으로 메일을 보내세요.

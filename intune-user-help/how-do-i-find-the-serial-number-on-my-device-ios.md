@@ -16,18 +16,18 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: f73b8b8638cfa775edc921edd8b6206191c5d3b5
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 2fe506fc871dd331240823deff5045d2ed5e4dd1
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="how-do-i-find-the-serial-number-on-my-device"></a>장치에 일련 번호를 찾으려면 어떻게 하나요?
 
-장치의 일련 번호는 해당 장치를 고유하게 식별하며, 기존 장치를 새 장치로 교체하는 등 IT 관리자의 특정 작업을 돕습니다. 일련 번호를 찾으려면
+장치의 일련 번호는 해당 장치를 고유하게 식별하며, 기존 장치를 새 장치로 교체하는 등 회사 지원팀의 특정 작업을 돕습니다. 일련 번호를 찾으려면
 
 1. __홈__ 화면으로 이동합니다.
 2. __설정__ 앱을 탭한 다음 __일반__을 탭합니다.
 3. __정보__를 탭한 다음 __일련 번호__로 스크롤합니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
