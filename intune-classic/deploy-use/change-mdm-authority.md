@@ -10,14 +10,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: f1b4bce3-7932-4a0d-aa92-6dacc7060f42
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9119c9ece21117e916a5b30a6a8d80e518047b5e
-ms.sourcegitcommit: 001577b700f634da2fec0b44af2a378150d1f7ac
+ms.openlocfilehash: 64e79da53aec646fc65285e41f86541ecdf6d804
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="change-the-mdm-authority"></a>MDM 기관 변경
 Configuration Manager 버전 1610부터 Microsoft 지원에 문의하지 않고 기존 관리 장치에 대한 등록 취소 및 다시 등록을 수행할 필요 없이 MDM 기관을 변경할 수 있습니다. 이 항목에서는 기존의 관리 장치를 등록 취소했다가 다시 등록하지 않고도 Intune에서 구성되고 MDM 기관이 **Microsoft Intune**(독립 실행형)으로 설정된 기존 Microsoft Intune 테넌트를 **Configuration Manager**(하이브리드 MDM)로 변경하는 단계를 제공합니다.

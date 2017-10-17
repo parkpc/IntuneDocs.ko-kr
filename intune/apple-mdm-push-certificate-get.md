@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 09/01/2017
+ms.date: 10/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 804ea185cf48b6781174b888436211a6d70823ca
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 8d05199359f7e4ca2c41415c0db13e339c66c162
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="get-an-apple-mdm-push-certificate"></a>Apple MDM 푸시 인증서 가져오기
 
@@ -51,9 +51,6 @@ Azure Portal에서 **장치 등록** > **Apple 등록** **Apple MDM Push Certifi
 Apple MDM 푸시 인증서는 1년 동안 유효하며 iOS 및 macOS 장치 관리를 유지하려면 매년 갱신해야 합니다. 인증서가 만료되면 등록된 Apple 장치에 연결할 수 없습니다.
 
 인증서는 인증서 생성에 사용된 Apple ID와 연결됩니다. MDM 푸시 인증서를 인증서 생성에 사용한 것과 같은 Apple ID로 갱신합니다.
-
-> [!NOTE]
-> 인증서는 인증서 생성에 사용된 Apple ID와 연결됩니다. 관리 작업에는 회사 Apple ID를 사용하는 것이 가장 좋습니다. 절대로 개인 Apple ID를 사용하지 마세요.
 
 1. Azure Portal에서 **장치 등록** > **Apple 등록**을 선택한 다음 **Apple MDM Push Certificate**를 선택합니다.
 2. **CSR 다운로드**를 선택하여 요청 파일을 로컬로 다운로드하고 저장합니다. 이 파일은 APC(Apple Push Certificate) 포털에서 트러스트 관계 인증서를 요청하는 데 사용됩니다.
