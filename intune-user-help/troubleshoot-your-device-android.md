@@ -15,21 +15,21 @@ searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
-ms.openlocfilehash: f46a93d42427ea41adf71403c91fa95052c0bba2
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 976b58fcc7835b0992c5d53934642bd4fedb5b50
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="fix-common-issues-with-your-android-device"></a>Android 장치의 일반적인 문제 해결
 
-Android 장치에서 발생하는 문제가 문제 해결을 통해 해결되는 경우도 있습니다. 먼저 직접 해결해 볼 수 있는 몇 가지 일반적인 문제는 다음과 같습니다. 좀 더 복잡한 문제의 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 있는 연락처 정보를 통해 IT 관리자에게 문의하는 것이 좋습니다.
+Android 장치에서 발생하는 문제가 문제 해결을 통해 해결되는 경우도 있습니다. 먼저 직접 해결해 볼 수 있는 몇 가지 일반적인 문제는 다음과 같습니다. 좀 더 복잡한 문제의 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에 있는 연락처 정보를 통해 회사 지원팀에 문의하는 것이 좋습니다.
 
 - [Android 장치에 대한 규정 준수 확인](check-compliance-on-your-device-android.md)
-- [자세한 정보 로깅을 사용하여 IT 관리자의 장치 문제 해결 돕기](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
-- [메일을 사용하여 IT 관리자에게 로그 보내기](send-logs-to-your-it-admin-by-email-android.md)
-- [USB 케이블을 사용하여 IT 관리자에게 로그 보내기](send-logs-to-your-it-admin-using-cable-android.md)
-- [IT 관리자에게 등록 오류 보내기](send-enrollment-errors-to-your-it-admin-android.md)
+- [자세한 정보 로깅을 사용하여 회사 지원팀의 장치 문제 해결 돕기](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
+- [전자 메일을 사용하여 회사 지원팀에 로그 보내기](send-logs-to-your-it-admin-by-email-android.md)
+- [USB 케이블을 사용하여 회사 지원팀에 로그 보내기](send-logs-to-your-it-admin-using-cable-android.md)
+- [회사 지원팀에 등록 오류 보내기](send-enrollment-errors-to-your-it-admin-android.md)
 - [Android 장치를 업데이트해야 함](you-need-to-update-your-android-device.md)
 - [장치가 최대 운영 체제 버전에 부합되지 않는 경우](your-android-version-isnt-yet-supported.md)
 - [장치가 루팅되었으며 연결할 수 없는 경우](your-device-is-rooted-and-you-cant-connect-android.md)

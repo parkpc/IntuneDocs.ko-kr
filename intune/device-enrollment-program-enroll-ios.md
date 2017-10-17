@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 09/13/2017
+ms.date: 10/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 94eeb453e5c83c2dadaa757b4c7867f9dd3f62ff
-ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
+ms.openlocfilehash: 311bb42f2ef9fbf689e32eacca7420c8189251bf
+ms.sourcegitcommit: 001577b700f634da2fec0b44af2a378150d1f7ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 10/04/2017
 ---
 # <a name="automatically-enroll-ios-devices-with-apples-device-enrollment-program"></a>Apple 장치 등록 프로그램을 통해 iOS 장치를 자동으로 등록
 
@@ -29,7 +29,10 @@ ms.lasthandoff: 09/14/2017
 
 DEP 등록을 사용하도록 설정하려면 Intune과 Apple DEP 포털을 둘 다 사용합니다. 관리용으로 Intune에 장치를 할당할 수 있으려면 일련 번호 또는 구매 주문 번호 목록이 필요합니다. 등록 중에 장치에 적용된 설정을 포함하는 DEP 등록 프로필을 만듭니다.
 
-그러나 DEP 등록은 [장치 등록 관리자](device-enrollment-manager-enroll.md)와 함께 작동할 수 없습니다.
+그러나 DEP 등록은 [장치 등록 관리자](device-enrollment-manager-enroll.md)에서 작동할 수 없습니다.
+
+## <a name="what-is-supervised-mode"></a>감독됨 모드란?
+Apple은 iOS 5에서 감독됨 모드를 도입했습니다. 감독됨 모드에서 iOS 장치를 더 세밀하게 관리할 수 있습니다. 이와 같이 회사 소유 장치에 특히 유용합니다. Intune은 Apple DEP(장치 등록 프로그램)의 일부로 감독됨 모드의 장치를 구성하도록 지원합니다. 
 
 <!--
 **Steps to enable enrollment programs from Apple**
@@ -39,7 +42,7 @@ DEP 등록을 사용하도록 설정하려면 Intune과 Apple DEP 포털을 둘 
 4. [Assign DEP profile to devices](#assign-an-enrollment-profile-to-devices)
 5. [Distribute devices to users](#end-user-experience-with-managed-devices)
 -->
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 - [Apple의 장치 등록 프로그램](http://deploy.apple.com)에서 구매한 장치
 - [MDM 기관](mdm-authority-set.md)
 - [Apple MDM Push certificate](apple-mdm-push-certificate-get.md)
@@ -77,7 +80,6 @@ Apple DEP 포털을 사용하여 DEP 토큰을 만듭니다. 관리용으로 Int
 
 5. **&lt;ServerName&gt; 추가** 대화 상자가 열리고 **공개 키 업로드**가 표시됩니다. **파일 선택...**을 선택하여 .pem 파일을 업로드하고 **다음**을 선택합니다.
 
-6.  **&lt;ServerName&gt; 추가** 대화 상자에 **내 서버 토큰** 링크가 표시됩니다. 컴퓨터에 서버 토큰(.p7m) 파일을 다운로드한 다음 **완료**를 선택합니다.
 
 7. **배포 프로그램** &gt; **장비 등록 프로그램** &gt; **장치 관리**로 이동합니다.
 8. **장치 선택 기준**에서 장치를 식별하는 방법을 지정합니다.
@@ -114,8 +116,11 @@ Apple DEP 포털을 사용하여 DEP 토큰을 만듭니다. 관리용으로 Int
 
 4. **장치 관리 설정**을 선택하여 다음 프로필 설정을 구성합니다.
 
-  ![관리 모드 선택 스크린샷 장치에는 모두 거부로 설정된 감독됨, 등록 잠김, 연결 허용 설정이 있습니다. Apple Configurator 인증서는 새 등록 프로그램 프로필에 대해 회색으로 표시됩니다.](./media/enrollment-program-profile-mode.png)
-    - **감독됨** - 더 많은 관리 옵션을 사용할 수 있으며 기본적으로 활성화 잠금이 해제된 관리 모드입니다. 이 확인란을 비워 두면 관리 기능이 제한됩니다.
+  ![관리 모드 선택 스크린샷 장치는 감독됨, 등록 잠김, 연결 허용과 같은 설정을 모두 거부로 설정했습니다. Apple Configurator 인증서는 새 등록 프로그램 프로필에 대해 회색으로 표시됩니다.](./media/enrollment-program-profile-mode.png)
+    - **감독됨** - 더 많은 관리 옵션을 사용할 수 있으며 기본적으로 활성화 잠금이 해제된 관리 모드입니다. 이 확인란을 비워 두면 관리 기능이 제한됩니다. 특히 많은 수의 iOS 장치를 배포하는 조직의 경우 감독됨 모드를 사용하기 위한 메커니즘으로 DEP를 사용하는 것이 좋습니다.
+
+ > [!NOTE]
+ > 장치를 등록한 후에 Intune을 사용하여 감독됨 모드에서 장치를 구성할 수 없습니다. 등록 후에 감독됨 모드를 사용하도록 설정하는 유일한 방법은 USB 케이블을 사용하여 Mac에 iOS 장치를 연결하고 Apple Configurator를 사용하는 것입니다. 그러면 이 장치를 다시 설정하고 감독됨 모드에서 구성합니다. 이에 대해 [Apple Configurator 문서](http://help.apple.com/configurator/mac/2.3)에서 자세히 알아보세요. 감독됨 장치는 "이 iPhone은 Contoso에서 관리됩니다."라는 메시지를 잠금 화면에서 표시하고 "이 iPhone은 감독됩니다. Contoso는 사용자의 인터넷 트래픽을 모니터링하고 이 장치를 찾습니다."라는 메시지를 **설정** > **일반** > **정보**에서 표시합니다.
 
     - **등록 잠김** - (관리 모드 = 감독됨이어야 함) 관리 프로필 제거를 허용하는 iOS 설정이 해제됩니다. 이 확인란을 비워 두면 설정 메뉴에서 관리 프로필을 제거할 수 있습니다. 장치 등록 후 장치를 초기화하지 않고는 이 설정을 변경할 수 없습니다.
 
@@ -146,6 +151,7 @@ Apple DEP 포털을 사용하여 DEP 토큰을 만듭니다. 관리용으로 Int
         - **진단 데이터**
 
     **저장**을 선택합니다.
+
 9. 프로필 설정을 저장하려면 **등록 프로필 만들기** 블레이드에서 **만들기**를 선택합니다. 등록 프로필이 Apple 등록 프로그램 등록 프로필 목록에 나타납니다.
 
 ## <a name="sync-managed-devices"></a>관리되는 장치 동기화

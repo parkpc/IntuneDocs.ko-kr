@@ -16,15 +16,15 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: b1f4176704ba25f5e4ff1b1572a6f1e5ce0f620b
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 784fec4e29f64db0445c857e5073ddd7e890a795
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
-# <a name="your-android-device-is-missing-a-certificate-required-by-your-it-admin"></a>사용 중인 Android 장치에 IT 관리자에게 필요한 인증서가 없습니다.
+# <a name="your-android-device-is-missing-a-certificate-required-by-your-company-support"></a>Android 장치에는 회사 지원팀에 필요한 인증서가 누락되었습니다.
 
-장치가 Intune에 등록되어 있지 않고 IT 관리자에게 필요한 특정 인증서가 없는 경우 회사 포털 앱에 로그인할 수 없습니다. 로그인하려고 시도하면 다음과 같은 메시지가 표시됩니다.
+장치가 Intune에 등록되어 있지 않고 회사 지원팀에 필요한 특정 인증서가 없는 경우 회사 포털 앱에 로그인할 수 없습니다. 로그인하려고 시도하면 다음과 같은 메시지가 표시됩니다.
 
 ![screenshot-error-message-about-missing-certificate](./media/andr-cert_install-1-cert_missing.png)
 
@@ -35,15 +35,15 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="identify-the-missing-certificate-by-looking-on-a-company-or-school-pc"></a>회사 또는 학교 PC를 확인하여 누락된 인증서를 식별합니다.
 
-1. PC에서 Internet Explorer를 엽니다. 이 용도로 사용할 PC가 없으면 IT 관리자에게 문의합니다. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+1. PC에서 Internet Explorer를 엽니다. 이 용도로 사용할 PC가 없으면 회사 지원팀에 문의하세요. 회사 지원팀의 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 확인하세요.
 
-2. [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 이동한 후 회사 또는 학교 자격 증명으로 로그인합니다.
+2. [회사 포털 웹 사이트](https://portal.manage.microsoft.com)로 이동한 후 회사 또는 학교 자격 증명으로 로그인합니다.
 
 3. 브라우저의 주소 표시줄 맨 오른쪽에서 다음 스크린샷과 같이 자물쇠 모양의 기호를 선택합니다.
 
     ![screenshot-internet-explorer-address-bar-padlock-symbol](./media/andr-missing-cert-ie-padlock-symbol.png)
 
-    자물쇠 기호가 보이지 않으면 중지한 후 IT 관리자에게 문의하세요. 잠금은 안전하게 로그인되어 있음을 의미하므로 해당 기호가 표시되지 않으면 계속 진행하지 않아야 합니다.
+    자물쇠 기호가 보이지 않으면 중지하고 회사 지원팀에 문의하세요. 잠금은 안전하게 로그인되어 있음을 의미하므로 해당 기호가 표시되지 않으면 계속 진행하지 않아야 합니다.
 
 4. **인증서 보기**를 선택합니다.
 
@@ -67,6 +67,6 @@ ms.lasthandoff: 07/01/2017
 
 6. 회사 포털 앱을 닫습니다.
 
-7. 회사 포털 앱을 다시 엽니다. 이제 회사 포털 앱에 로그인할 수 있습니다. 도움이 필요하면 IT 관리자에게 문의하세요.
+7. 회사 포털 앱을 다시 엽니다. 이제 회사 포털 앱에 로그인할 수 있습니다. 도움이 필요하면 회사 지원팀에 문의하세요.
 
-앞서 표시된 것과 동일한 "인증서 없음" 메시지가 표시되고 해당 절차를 이미 진행했으면 IT 관리자가 설치에 도움을 주어야 하는 다른 인증서가 아직 있는 것일 수 있습니다. IT 관리자에게 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에 제공되는 연락처 정보를 사용하는 방법을 문의하세요.
+앞서 표시된 것과 동일한 "인증서 없음" 메시지가 표시되고 해당 절차를 이미 진행했다면 회사 지원팀에서 설치하기 위해 필요한 다른 인증서가 있을 수 있습니다. 도움이 필요하면 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에 제공되는 연락처 정보를 사용하여 회사 지원팀에 문의하세요.

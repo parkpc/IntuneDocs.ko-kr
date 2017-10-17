@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d553f62ed2ee1c9e5a6b9121b766e6e427d06bf7
-ms.sourcegitcommit: 75cea2402a3726c72b12df6111f6d3ee93c852bf
+ms.openlocfilehash: 2ec41724eacc4abca994b1dadff6e6d9df63c74d
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="troubleshoot-device-enrollment-in-intune"></a>Intune에서 장치 등록 문제 해결
 
@@ -182,7 +183,7 @@ ms.lasthandoff: 09/17/2017
 
 사용자에게 Android 6.0으로 업그레이드해 보도록 요청합니다. Android 6.0 장치에서는 비활성화 문제가 발생하지 않습니다. 업데이트를 사용할 수 있는지 확인하려면 **설정** > **장치 정보** > **수동으로 업데이트 다운로드**로 이동하고 장치에 표시되는 메시지를 따릅니다.
 
-** 3:**
+ **3:**
 
 해결 방법 2로 해결되지 않으면 사용자에게 다음 단계에 따라 Smart Manager에서 회사 포털 앱을 제외하도록 설정하라고 요청합니다.
 

@@ -2,8 +2,8 @@
 title: "등록되지 않은 장치에서 LOB 앱 보호"
 description: "이 항목에서는 데이터 손실을 방지하는 데 도움이 되는 모바일 응용 프로그램 관리 정책을 적용할 수 있도록 사용자 지정 LOB(기간 업무) 앱을 준비하는 방법을 설명합니다."
 keywords: 
-author: mtillman
-ms.author: mtillman
+author: mattbriggs
+ms.author: mabriggs
 manager: angrobe
 ms.date: 11/14/2016
 ms.topic: article
@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 205c9c52759d5fee2429fe46d19c8882aacafa7a
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 447e019dde4781183323f29a35ed569926973351
+ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 10/11/2017
 ---
 # <a name="protect-line-of-business-apps-and-data-on-devices-that-are-not-enrolled-in-microsoft-intune"></a>Microsoft Intune에 등록되지 않은 장치에서 LOB(기간 업무) 앱 및 데이터 보호
 

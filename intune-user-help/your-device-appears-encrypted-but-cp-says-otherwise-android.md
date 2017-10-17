@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 07/10/2017
+ms.date: 09/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 370fbcf8bb424030eb7b7dbaba66fa943f08aa42
-ms.sourcegitcommit: 3b21f20108e2bf1cf47c141b36a7bdae609c4ec3
+ms.openlocfilehash: 208cf6eb2d29ec5458d97d0a4481cec420acc281
+ms.sourcegitcommit: 59811bf1183b3ef9c9e81eded634bd0d3124d0bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2017
+ms.lasthandoff: 10/09/2017
 ---
 # <a name="your-android-device-seems-to-be-encrypted-but-company-portal-says-otherwise"></a>Android 장치가 암호화된 것 같은데 회사 포털에 다르게 표시됨
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 07/10/2017
 
 ### <a name="downgrade-your-version-of-android"></a>Android 버전 다운그레이드
 
-장치에서 Android 6.0 이상으로 다운그레이드하는 옵션을 제공하는 경우 다운그레이드합니다. 장치 다운그레이드를 시도해야 하는 경우 데이터 손실 위험이 있습니다. 그렇지 않으면 IT 관리자에게 문의하여 이 문제를 해결하는 것이 좋습니다. [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에서 IT 관리자의 연락처 정보를 얻을 수 있습니다.
+장치에서 Android 6.0 이상으로 다운그레이드하는 옵션을 제공하는 경우 다운그레이드합니다. 장치 다운그레이드를 시도해야 하는 경우 데이터 손실 위험이 있습니다. 그렇지 않으면 회사 지원팀에 문의하여 이 문제를 해결하는 것이 좋습니다. [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 회사 지원팀의 연락처 정보를 얻을 수 있습니다.
 
 ## <a name="specific-manufacturer-issues"></a>특정 제조업체 문제
 
@@ -54,12 +54,11 @@ ms.lasthandoff: 07/10/2017
 다음 장치 중 하나를 소유한 경우 최신 버전의 Android로 장치를 업데이트하지 않았다면 이 문제가 발생할 수 있습니다. **설정** > **업데이트**로 이동하여 이러한 장치용 업데이트를 설치할 수 있습니다. 
 
 - [Huawei Honor 8](http://consumer.huawei.com/en/support/mobile-phones/honor8_en-sup.htm)
-- [Huawei P9](http://consumer.huawei.com/mobile-phones/p9/index.html)
+- [Huawei P9](http://consumer.huawei.com/en/phones/p9/)
 
 ### <a name="known-devices-that-currently-cannot-be-updated-to-fix-this-issue"></a>현재 이 문제를 해결하기 위해 업데이트할 수 없는 알려진 장치
 
 아래 장치에서는 이 문제를 해결할 수 없습니다. 회사 리소스에 액세스하려면 다른 장치를 사용해야 합니다. 
 
 - [Huawei Mate 8](http://consumer.huawei.com/en/mobile-phones/mate8/index.htm)
-- [Huawei Mate 9](http://consumer.huawei.com/en/phones/mate9/)
 - [Xiaomi Mi 스마트폰](https://xiaomi-mi.com/mi-smartphones/)

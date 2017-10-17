@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 8eaeb2e0c44870dbebf85d98e2b49d46008068cd
-ms.sourcegitcommit: 1afff0fd464ece84ffea6bc0c71c78215d59e696
+ms.openlocfilehash: b40801633a130ac79b0ae5b4e1669320c70909e2
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="enroll-your-macos-device-in-intune-with-the-company-portal-app"></a>회사 포털 앱을 사용하여 Intune에 macOS 장치 등록
 
@@ -48,4 +48,4 @@ ms.lasthandoff: 09/08/2017
 
 8. Mac에서 관리에 등록을 시작합니다. 그 동안 컴퓨터의 로그인 정보를 제공하라는 메시지가 표시될 수 있습니다. 등록하는 데는 몇 분 정도 걸릴 수 있습니다. 그 동안 컴퓨터에 다른 작업을 수행할 수 있습니다. 회사 액세스 설정이 완료되면 알려드리겠다는 메시지가 표시됩니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)에서 찾을 수 있습니다.
+여전히 도움이 필요하세요? 회사 지원팀과 확인하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 찾을 수 있습니다.

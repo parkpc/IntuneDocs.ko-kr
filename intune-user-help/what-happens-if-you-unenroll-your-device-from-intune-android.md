@@ -16,17 +16,17 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 075435a190fba28d548b1fa54ba7bafeec3ba217
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: c75d7bee46f87bf171d105b6ebbf1ec0636e32df
+ms.sourcegitcommit: 53a1f5226d1e1172f013a1b192321dde610b2d6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/06/2017
 ---
 # <a name="what-happens-if-you-unenroll-your-android-device-from-intune"></a>Intune에서 Android 장치 등록을 취소하면 어떻게 되나요?
 
 Intune에서 Android 장치 등록을 취소하면:
 
--   IT 관리자가 장치를 더 이상 관리하지 않습니다.
+-   회사 지원팀이 장치를 더 이상 관리하지 않습니다.
 
 -   회사 데이터 및 리소스에 액세스할 수 없습니다.
 
@@ -40,4 +40,4 @@ Intune에서 Android 장치 등록을 취소하면:
 
 등록을 취소하는 방법에 대한 자세한 내용은 [회사 포털 앱을 사용하여 Intune에서 장치 등록 취소](unenroll-your-device-from-intune-android.md)를 참조하세요.
 
-도움이 필요하십니까? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) <a href="mailto:wintunedroidfbk@microsoft.com?subject=I have questions about unenrolling my Android device&body=Describe the issue you're experiencing here.">Microsoft Android 팀</a>으로 메일을 보내세요.
+도움이 필요하십니까? 회사 지원팀에 문의하거나(연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com) 확인) <a href="mailto:wintunedroidfbk@microsoft.com?subject=I have questions about unenrolling my Android device&body=Describe the issue you're experiencing here.">Microsoft Android 팀</a>으로 메일을 보내세요.

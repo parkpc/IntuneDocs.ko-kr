@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5be08d2535acefe099429ab732d6d5d99205b2e7
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: b4b25c2ebe6fa8edf7ce954f68c22d4086fcaf7c
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="monitor-app-protection-policies-with-microsoft-intune"></a>Microsoft Intune을 사용하여 앱 보호 정책 모니터링
 사용자에게 적용한 앱 보호 정책의 준수 상태를 모니터링할 수 있습니다. 앱 보호 정책, 준수 상태 및 사용자에게 발생할 수 있는 문제의 영향을 받는 사용자에 대한 정보를 확인할 수 있습니다.

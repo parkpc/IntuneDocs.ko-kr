@@ -16,15 +16,15 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: c7c03148d4063d0752a7c615222047bc6f02f58e
-ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
+ms.openlocfilehash: c7ac377cd3bc958440d191bd45ea5062acdb7647
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="enroll-your-windows-phone-81-device-in-intune"></a>Intune에서 Windows Phone 8.1 장치 등록
 
-회사 또는 학교에서 Microsoft Intune을 사용하는 경우 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 조직에서 회사 데이터 보안을 유지할 수 있습니다. 등록에 대해 자세히 알아보려면 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) 및 [IT 관리자가 장치에서 할 수 있는 일과 할 수 없는 일](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)을 참조하세요.
+회사 또는 학교에서 Microsoft Intune을 사용하는 경우 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 조직에서 회사 데이터 보안을 유지할 수 있습니다. 등록에 대해 자세히 알아보려면 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) 및 [회사 지원팀이 장치에서 확인할 수 있는 항목과 할 수 없는 항목](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)을 참조하세요.
 
 
 Intune에 Phone 8.1 장치를 등록하려면 회사에 적용되는 지침을 따릅니다.
@@ -82,6 +82,6 @@ Intune에 Phone 8.1 장치를 등록하려면 회사에 적용되는 지침을 �
 
 4.  회사 앱 또는 허브 설치를 묻는 메시지가 표시되면 관련 확인란을 선택했는지 확인한 다음 **완료**를 탭합니다.
 
-IT 관리자가 등록 중에 회사 포털이 설치되도록 설정한 경우에는 앱 목록에 회사 포털이 표시됩니다.
+회사 지원팀이 등록 중에 회사 포털이 설치되도록 설정한 경우에는 앱 목록에 회사 포털이 표시됩니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

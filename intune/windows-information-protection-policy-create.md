@@ -6,7 +6,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 06/12/2017
+ms.date: 10/3/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 4e3627bd-a9fd-49bc-b95e-9b7532f0ed55
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 524b4b506855b50bb5312dc31e98eb5f451cb66d
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 3cf11c53a5f1ce78dda9c703da32270b0b07874a
+ms.sourcegitcommit: 001577b700f634da2fec0b44af2a378150d1f7ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 10/04/2017
 ---
 # <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Intune을 사용하여 WIP(Windows Information Protection) 앱 보호 정책 만들기 및 배포
 
@@ -155,16 +155,13 @@ WIP를 해제하고 나면 로컬로 연결된 드라이브에서 WIP 태그가 
 
 ### <a name="use-wip-learning"></a>WIP 학습 사용
 
-1. Azure 대시보드로 이동합니다. <!---since they're changing from Intune MAM to Intune proper, a screenshot might be helpful.--->
+1. Azure Portal을 엽니다. **추가 서비스**를 선택합니다. 텍스트 상자 필터에 **Intune**을 입력합니다.
 
-2. 왼쪽 메뉴에서 **More services**(추가 서비스)를 선택한 다음 텍스트 상자 필터에 **Intune**을 입력합니다.
+3. **Intune** > **Mobile Apps**를 선택합니다.
 
-3. **Intune**을 선택하면 열리는 **Intune 대시보드**에서 **Mobile Apps**를 선택합니다.
-
-4. **모니터**에서 **WIP 학습**을 선택합니다. WIP 학습에서 로깅한 알 수 없는 앱이 표시됩니다.
-
-> [!IMPORTANT]
-> WIP 학습 로깅 보고서에 앱이 표시되면 앱 보호 정책에 해당 앱을 추가할 수 있습니다.
+4. **앱 보호 상태** > **보고서** > **Windows Information Protection 학습**을 선택합니다.  
+ 
+    WIP 학습 로깅 보고서에 앱이 표시되면 앱 보호 정책에 해당 앱을 추가할 수 있습니다.
 
 ## <a name="deploy-your-wip-app-protection-policy"></a>WIP 앱 보호 정책 배포
 

@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: c17389164df2f458ad5e3185f37a92791a83b129
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 778ba1445361a15c43edf0d09f154750beacd3ad
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="how-to-unenroll-your-android-device-from-intune"></a>Intune에서 Android 장치 등록을 취소하는 방법
 
@@ -36,6 +36,6 @@ Intune에서 장치 등록을 취소하고 회사 포털 앱을 제거하려면 
 
 3. 회사 포털을 제거할지를 묻는 확인 팝업 메시지가 표시됩니다. 이 메시지는 장치를 등록 취소하는 경우의 결과에 대한 일부 정보를 제공합니다. 이 메시지를 읽은 후 **확인**을 탭하여 앱을 제거합니다. 
 
-  ![작업 메뉴에서 새로운 "회사 포털 제거" 옵션을 선택하면 제공되는 확인 대화 상자 이미지 이 대화 상자에는 "회사 포털을 제거하면 장치를 더 이상 IT 관리자가 관리하지 않게 되며 회사 데이터, 회사 앱 및 회사 메일에 대한 액세스 권한이 제거될 수 있습니다."라는 알림이 표시됩니다. 그런 다음 "예"를 선택하여 회사 포털 앱을 제거할 것인지를 확인하라는 메시지가 표시됩니다.](./media/android_remove_cp_menu_confirmation_after_1705.png)
+  ![작업 메뉴에서 새로운 "회사 포털 제거" 옵션을 선택하면 제공되는 확인 대화 상자 이미지 이 대화 상자는 "회사 포털을 제거하면 회사 지원팀이 장치를 더 이상 관리하지 않게 되며 회사 데이터, 회사 앱 및 회사 메일에 대한 액세스 권한이 제거될 수 있습니다."라는 알림을 사용자에게 표시합니다. 그런 다음 "예"를 선택하여 회사 포털 앱을 제거할 것인지를 확인하라는 메시지가 표시됩니다.](./media/android_remove_cp_menu_confirmation_after_1705.png)
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
