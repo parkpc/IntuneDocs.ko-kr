@@ -1,5 +1,5 @@
 ---
-title: "IT 관리자에게 Windows 10 장치에 대한 로그 보내기 | Microsoft Docs"
+title: "회사 지원팀에 Windows 10 장치에 대한 로그 보내기 | Microsoft Docs"
 description: "Windows 10 1511 장치를 Intune에 등록합니다."
 keywords: 
 author: barlanmsft
@@ -16,15 +16,15 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: be9976f03bf749222ca372040d4d936e6a8fd26b
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 1e84bd13a58359f281ebfca3901d643dfc012d90
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
-# <a name="send-logs-to-your-it-admin-from-the-settings-app-for-windows-10"></a>설정 앱에서 IT 관리자에게 Windows 10에 대한 로그 보내기
+# <a name="send-logs-to-your-company-support-from-the-settings-app-for-windows-10"></a>설정 앱의 회사 지원팀에 Windows 10에 대한 로그 보내기
 
-회사에서 관리하는 Windows 10 장치를 사용하는 동안 오류가 발생하면 전자 메일로 오류 정보를 보내 IT 관리자가 문제를 해결하도록 도울 수 있습니다. 이 정보는 장치의 _진단 로그_라는 특수 문서에 저장됩니다.
+회사에서 관리하는 Windows 10 장치를 사용하는 동안 오류가 발생하면 전자 메일로 오류 정보를 보내 회사 지원팀이 문제를 해결하도록 도울 수 있습니다. 이 정보는 장치의 _진단 로그_라는 특수 문서에 저장됩니다.
 
 1.  **시작 메뉴**로 이동한 다음 **설정** 단추를 선택하여 Windows **설정** 앱을 엽니다. 검색 표시줄에서 "설정"을 검색할 수도 있습니다.
 2.  **계정** > **회사 또는 학교 액세스**를 선택합니다.
@@ -34,6 +34,6 @@ ms.lasthandoff: 07/01/2017
 
 4. 로그는 **C:\Users\Public\Public Documents\MDMDiagnostics**에 저장됩니다. 두 개의 파일이 저장되는데, 하나는 로그 자체이고 다른 하나는 관리자가 Microsoft Excel 등의 다른 프로그램에서 로그를 검토하는 데 사용할 수 있는 특수 문서입니다. 이 두 파일을 모두 전자 메일에 첨부하여 관리자에게 전송합니다. 이 작업을 두 번 이상 수행하는 경우에는 로그를 만든 날의 파일만 선택하면 됩니다. 
 
-IT 관리자가 확인한 문제를 보다 쉽게 해결할 수 있도록 [회사 포털 앱에서 로그](send-logs-to-your-it-admin-cp-windows.md)를 전송해야 할 수도 있습니다. 
+확인한 문제를 보다 쉽게 해결할 수 있도록 회사 지원팀에 [회사 포털 앱의 로그](send-logs-to-your-it-admin-cp-windows.md)를 전송해야 할 수도 있습니다. 
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 6ffed5dc15722facdccc9f25e5694a03b03346b0
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: b6796d004a966cd6ed3032ce7243377743e40927
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="what-happens-if-you-reset-your-android-device-using-the-company-portal"></a>회사 포털을 사용하여 Android 장치를 초기화하면 어떻게 되나요?
 
@@ -28,8 +28,8 @@ ms.lasthandoff: 07/01/2017
 
 Samsung KNOX 장치를 사용하는 경우 회사 포털에서 **장치 제거** 옵션을 선택하여 “선택적 초기화”를 수행할 수 있습니다. 선택적 초기화를 수행하면 다음이 제거됩니다.
 
-- 사용자가 사용할 수 있도록 IT 관리자가 설정하는 비즈니스 앱
+- 회사 지원팀이 사용자가 사용할 수 있도록 만든 비즈니스 앱
 - 메일, VPN 및 Wi-Fi
-- 특정 설정을 적용하는 IT 관리자의 기능
+- 특정 설정을 적용하는 회사 지원팀의 기능
 
-의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+질문이 있다면 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

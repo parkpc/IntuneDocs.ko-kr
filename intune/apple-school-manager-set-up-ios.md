@@ -15,11 +15,11 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 787fbdd470b4e1fbb4cb3e22ba4065e52d4c63f8
-ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
+ms.openlocfilehash: afb3aeff7a7c6cc481d24bac3a61de0816b4d34b
+ms.sourcegitcommit: 001577b700f634da2fec0b44af2a378150d1f7ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 10/04/2017
 ---
 # <a name="enable-ios-device-enrollment-with-apple-school-manager"></a>Apple School Manager를 통해 iOS 장치 등록 기능 사용
 
@@ -58,7 +58,7 @@ Apple School Manager 등록을 활성화하려면 Intune과 Apple School Manager
 3.  **MDM 서버 이름**을 입력합니다. 서버 이름은 참조용으로 MDM(모바일 장치 관리) 서버를 식별하기 위한 것으로, Microsoft Intune 서버의 이름 또는 URL이 아닙니다.
    ![일련 번호 옵션이 선택된 Apple School Manager 포털 스크린샷](./media/asm-server-assignment.png)
 
-4.  Apple 포털에서 **파일 업로드... **를 선택하고 .pem 파일이 있는 위치로 이동한 다음 오른쪽 아래에 있는 **MDM 서버 저장**을 선택합니다.
+4.  Apple 포털에서 **파일 업로드...** 를 선택하고 .pem 파일이 있는 위치로 이동한 다음 오른쪽 아래에 있는 **MDM 서버 저장**을 선택합니다.
 5.  **토큰 가져오기**를 선택하고 컴퓨터에 서버 토큰(.p7m) 파일을 다운로드합니다.
 6. **장치 할당**으로 이동한 다음 **장치 선택**에서 **일련 번호**, **주문 번호**를 수동으로 입력하거나 **CSV 파일 업로드**를 선택합니다.
      ![일련 번호 옵션이 선택된 Apple School Manager 포털 스크린샷](./media/asm-device-assignment.png)
@@ -90,12 +90,12 @@ Apple School Manager 등록을 활성화하려면 Intune과 Apple School Manager
 
 6. **장치 관리 설정**을 선택합니다. 이러한 항목은 활성화 중에 설정되며, 변경하려면 장치를 초기화해야 합니다. 다음 프로필 설정을 구성한 후 **저장**을 선택합니다.
 
-  ![관리 모드 선택 스크린샷 장치에는 모두 거부로 설정된 감독됨, 등록 잠김, 연결 허용 설정이 있습니다. Apple Configurator 인증서는 새 등록 프로그램 프로필에 대해 회색으로 표시됩니다.](./media/enrollment-program-profile-mode.png)
+  ![관리 모드 선택 스크린샷 장치는 감독됨, 등록 잠김, 연결 허용과 같은 설정을 모두 거부로 설정했습니다. Apple Configurator 인증서는 새 등록 프로그램 프로필에 대해 회색으로 표시됩니다.](./media/enrollment-program-profile-mode.png)
 
     - **감독됨** - 더 많은 관리 옵션을 사용할 수 있으며 기본적으로 활성화 잠금이 해제된 관리 모드입니다. 이 확인란을 비워 두면 관리 기능이 제한됩니다.
 
      - **등록 잠김** - (관리 모드 = 감독됨이어야 함) 관리 프로필 제거를 허용하는 iOS 설정이 해제됩니다. 이 확인란을 비워 두면 설정 메뉴에서 관리 프로필을 제거할 수 있습니다.
-   - **공유 iPad** - (**사용자 선호도를 사용하지 않고 등록** 및 **감독됨** 모드를 사용해야 함) 여러 사용자가 관리되는 Apple ID를 사용하여 등록된 iPad에 로그온할 수 있습니다. 관리되는 Apple ID는 Apple School Manager 포털에서 작성됩니다. [공유 iPad](education-settings-configure-ios-shared.md)에 대해 자세히 알아보세요. [Apple의 공유된 iPad 요구 사항](https://help.apple.com/classroom/ipad/2.0/#/cad7e2e0cf56)도 검토해야 합니다.
+   - **공유 iPad** - (**사용자 선호도를 사용하지 않고 등록** 및 감독됨 모드를 사용해야 함) 여러 사용자가 관리되는 Apple ID를 사용하여 등록된 iPad에 로그온할 수 있습니다. 관리되는 Apple ID는 Apple School Manager 포털에서 작성됩니다. [공유 iPad](education-settings-configure-ios-shared.md)에 대해 자세히 알아보세요. [Apple의 공유된 iPad 요구 사항](https://help.apple.com/classroom/ipad/2.0/#/cad7e2e0cf56)도 검토해야 합니다.
 
    >[!NOTE]
    >**사용자 선호도**가 **사용자 선호도 사용**으로 설정되거나 **감독** 모드가 **꺼짐**으로 설정된 경우 등록 프로필에 대해 공유 iPad 모드가 사용되지 않습니다.

@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 09/12/2017
+ms.date: 10/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,17 @@ ms.assetid: 6d384cd0-b662-41e7-94f5-0c96790ab20a
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5b139db1780881e5bc0aed2345f9dc456a18f0e0
-ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
+ms.openlocfilehash: 22a03068c543ebaa410521532dfdfc96e0f10eb0
+ms.sourcegitcommit: 6fae2dfb3a5c8f2e5ccfd120fd15656b26e5d302
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 10/09/2017
 ---
 # <a name="enroll-ios-devices-with-apple-configurator"></a>Apple Configurator를 사용한 iOS 장치 등록
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)를 사용하여 iOS 장치를 등록하도록 지원합니다. Apple Configurator를 사용하여 장치를 등록하려면 각 iOS 장치를 USB로 Mac 컴퓨터에 연결하여 회사 등록을 설정해야 합니다. 다음 두 가지 방법으로 Apple Configurator를 사용하여 Intune에 장치를 등록할 수 있습니다.
+Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](https://itunes.apple.com/app/apple-configurator-2/id1037126344)를 사용하여 iOS 장치를 등록하도록 지원합니다. Apple Configurator를 사용하여 장치를 등록하려면 각 iOS 장치를 USB로 Mac 컴퓨터에 연결하여 회사 등록을 설정해야 합니다. 다음 두 가지 방법으로 Apple Configurator를 사용하여 Intune에 장치를 등록할 수 있습니다.
 - **설정 도우미 등록** - 장치를 공장 기본 설정으로 복원하고, 설정 도우미 중에 등록하도록 준비합니다.
 - **직접 등록** - 장치를 공장 기본 설정으로 복원하지 않고 iOS 설정을 통해 장치를 등록합니다. 이 방법은 **사용자 선호도가 없는** 장치만 지원합니다.
 
@@ -38,7 +38,7 @@ Apple Configurator 등록 방법은 [장치 등록 관리자](device-enrollment-
 - [Apple MDM push certificate](apple-mdm-push-certificate-get.md)
 - 장치 일련 번호(설정 도우미 등록에만 해당)
 - USB 연결 케이블
-- [Apple Configurator 2.0](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)을 실행 중인 Mac PC
+- [Apple Configurator 2.0](https://itunes.apple.com/app/apple-configurator-2/id1037126344)을 실행 중인 macOS 컴퓨터
 
 ## <a name="create-an-apple-configurator-profile-for-devices"></a>장치에 대한 Apple Configurator 프로필 만들기
 
@@ -69,7 +69,7 @@ Apple Configurator 등록 방법은 [장치 등록 관리자](device-enrollment-
 
 **Intune에 Apple Configurator 일련 번호를 추가하려면**
 
-1. 헤더 없이 2열로 구성된 쉼표로 구분된 값(.csv) 목록을 만듭니다. 왼쪽 열에 일련 번호를 추가하고, 오른쪽 열에 세부 정보를 추가합니다. 현재 목록의 최대값은 500개 행입니다. 텍스트 편집기에 .csv 목록이 다음과 같이 표시됩니다.
+1. 헤더 없이 2열로 구성된 쉼표로 구분된 값(.csv) 목록을 만듭니다. 왼쪽 열에 일련 번호를 추가하고, 오른쪽 열에 세부 정보를 추가합니다. 현재 목록의 최대값은 5,000개 행입니다. 텍스트 편집기에 .csv 목록이 다음과 같이 표시됩니다.
 
     F7TLWCLBX196,장치 세부 정보</br>
     DLXQPCWVGHMJ,장치 세부 정보

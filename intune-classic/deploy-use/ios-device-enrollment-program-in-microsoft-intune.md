@@ -1,6 +1,6 @@
 ---
 title: "iOS 장치용 Apple DEP 관리"
-description: "“무선으로” iOS DEP(장비 등록 프로그램)를 통해 구매한 iOS 장치를 등록하는 등록 프로필을 배포하여 Apple 장치를 관리할 수 있습니다."
+description: "무선으로 iOS DEP(장비 등록 프로그램)를 통해 구매한 iOS 장치를 등록하는 등록 프로필을 배포하여 Apple 장치를 관리할 수 있습니다."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1a02a8b092242df369b382b6cdcc2c2bbd10c10a
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 8ca8eaede9df070baf1f39023942a8b07c54b814
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="enroll-corporate-owned-device-enrollment-program-ios-devices"></a>회사 소유 장치 등록 프로그램 iOS 장치 등록
 
@@ -28,7 +29,7 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 >[!NOTE]
 >DEP 등록은 [장치 등록 관리자](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md) 방법과 함께 사용할 수 없습니다.
->또한 사용자가 iOS 장치를 등록(즉, 회사 포털 앱을 사용하여)한 후 해당 장치의 일련 번호를 가져오고 DEP 프로필을 할당한 경우 장치가 Intune에서 등록 취소됩니다.
+>또한 사용자가 (예: 회사 포털 앱을 사용하여) iOS 장치를 등록한 다음 해당 장치의 일련 번호를 가져오고 DEP 프로필을 할당한 경우 장치가 Intune에서 등록 취소됩니다.
 
 ## <a name="prerequisites-for-enrolling-ios-devices-by-using-apple-dep-management"></a>Apple DEP 관리를 사용하여 iOS 장치를 등록하기 위한 필수 조건
 

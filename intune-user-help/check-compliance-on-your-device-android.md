@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 088012a1dd9ee1997e7d2b578e54774c4bd586fb
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 2692bc1e6652d5290afd577247344762e5bcb91a
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="check-compliance-on-your-android-device"></a>Android 장치에 대한 규정 준수 확인
 
@@ -30,4 +30,4 @@ ms.lasthandoff: 07/01/2017
 
 2. **준수 확인**을 탭합니다.
 
-분실하거나 도난당한 장치를 다시 설정할 수 없는 경우에는 IT 관리자에게 다시 설정을 요청하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+분실하거나 도난당한 장치를 다시 설정할 수 없는 경우에는 회사 지원팀에 다시 설정하도록 요청하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

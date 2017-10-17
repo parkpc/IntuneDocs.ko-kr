@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: robstack
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: d57da14ad070275f7cdef639d971c176c1010634
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 9317fd747e52524d97cea5d4c79fed49246b5866
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="use-managed-devices-to-get-work-done"></a>관리되는 장치를 사용하여 작업 완료
 Microsoft Intune은 조직에서 장치(예: 스마트폰, 태블릿 및 PC), 앱 및 기타 회사 리소스(예: 메일)를 관리하는 데 사용할 수 있는 일종의 소프트웨어입니다. 이를 통해 회사 정보의 보안을 유지하면서 직원이 거의 모든 장치에서 어디서나 자신의 작업 정보에 액세스하도록 할 수 있습니다.
@@ -33,8 +33,8 @@ Intune을 사용하여 관리하도록 장치를 등록하면 IT 부서에서 �
 ## <a name="how-do-i-get-the-company-portal"></a>회사 포털을 사용하려면 어떻게 하나요?
 다음과 같은 두 가지 방법으로 회사 포털을 사용할 수 있습니다.
 
-- 장치에 회사 포털 앱을 설치합니다. 일반적으로 장치의 앱 스토어로 이동하여 회사 포털 앱을 가져오지만, IT 관리자가 사용자 대신에 회사 포털 앱을 설치할 수도 있습니다.
-- IT 관리자가 설정한 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)로 이동합니다.
+- 장치에 회사 포털 앱을 설치합니다. 일반적으로 장치의 앱 스토어로 이동하여 회사 포털 앱을 가져오지만, 회사 지원팀이 사용자 대신에 회사 포털 앱을 설치할 수도 있습니다.
+- 회사 지원팀이 설정한 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)로 이동합니다.
 
 ## <a name="whats-the-difference-between-the-app-and-the-website"></a>앱과 웹 사이트의 차이는 무엇인가요?
 회사 포털 앱과 회사 포털 웹 사이트 사이에는 몇 가지 사소한 차이점이 있지만, 둘 다에서 대부분의 동일한 작업을 수행할 수 있습니다. 수행할 수 있는 일부 작업은 다음과 같습니다.
@@ -54,9 +54,9 @@ Intune을 사용하여 관리하도록 장치를 등록하면 IT 부서에서 �
 - [회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
 
 ## <a name="what-happens-when-you-add-a-computer-or-device-to-the-company-portal"></a>회사 포털에 컴퓨터 또는 장치를 추가하면 어떻게 되나요?
-회사 포털에 컴퓨터 또는 장치를 추가하면 장치에 따라 몇 가지 소프트웨어를 설치할 수도 있고 앱을 다운로드할 수도 있습니다. 회사 포털에 장치를 추가하는 것은 IT 관리자가 장치의 회사 정보를 보호하기 위해 사용자의 장치를 관리할 수 있는 권한도 부여하는 것입니다.
+회사 포털에 컴퓨터 또는 장치를 추가하면 장치에 따라 몇 가지 소프트웨어를 설치할 수도 있고 앱을 다운로드할 수도 있습니다. 또한 장치에서 회사 정보를 보호하기 위해 회사 지원팀이 해당 장치를 관리할 수 있는 권한도 부여합니다.
 
-IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 대해 알아보려면 다음 중 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
+회사 지원팀이 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 대해 알아보려면 사용하고 있는 장치 유형에 해당하는 링크를 사용하세요.
 
 - [Android용 회사 포털 앱 설치](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 - [iOS 및 macOS용 회사 포털 앱 설치](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
@@ -96,4 +96,4 @@ IT 관리자가 장치에서 볼 수 있는 항목과 볼 수 없는 항목에 �
 - [iOS 장치의 일반적인 문제 해결](troubleshoot-your-device-ios.md)
 - [Windows 장치의 일반적인 문제 해결](troubleshoot-your-device-windows.md)
 
-아래에 의견을 게시하여 도움을 요청할 수 있지만 조직마다 요구 사항이 다르므로 질문에 대답할 수 없는 경우도 있습니다. IT 관리자에게 도움을 요청하는 것이 가장 빠르고 가장 관련성이 높은 응답을 받을 가능성이 큽니다. 해당 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 확인할 수 있습니다.
+아래에 의견을 게시하여 도움을 요청할 수 있지만 조직마다 요구 사항이 다르므로 질문에 대답할 수 없는 경우도 있습니다. 회사 지원팀에 도움을 요청하면 가장 빠르게 관련성이 높은 응답을 받을 수 있습니다. 해당 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 확인할 수 있습니다.

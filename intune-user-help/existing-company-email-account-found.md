@@ -16,15 +16,15 @@ ROBOTS:
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 510e35a7c60709a6f002907e0f7963ba5b78f35c
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 21d9e6678c9981b3c1d918f337322d50aa0fecb5
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="an-existing-company-email-account-was-found"></a>기존 회사 메일 계정 찾음
 
-조직이나 회사에서 사용하는 메일 계정이 이미 있으며 모바일 장치에서 해당 계정에 액세스하려고 할 경우가 있습니다. 이 경우 메일을 사용자 장치로 전송한 사람의 작업에서 메일 액세스에 대한 보안 유지를 위해 IT 관리자가 도움을 요청합니다. 현재 메일은 작업에 사용되지만 다음 단계를 통해 정보를 안전하게 유지합니다.
+조직이나 회사에서 사용하는 메일 계정이 이미 있으며 모바일 장치에서 해당 계정에 액세스하려고 할 경우가 있습니다. 메일을 사용자 장치로 전송한 사람의 작업에서 메일 액세스에 대한 보안 유지를 위해 회사 지원팀에 도움이 필요합니다. 현재 메일은 작업에 사용되지만 다음 단계를 통해 정보를 안전하게 유지합니다.
 
 1.  장치에 대한 **설정**을 확인하고 사용자의 회사 메일에 이전에 설정한 연결을 제거 합니다.
 
@@ -34,4 +34,4 @@ ms.lasthandoff: 07/01/2017
 
 3.  장치에 자동으로 적용 될 새 전자 메일 설정에 대해 잠시 기다립니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 41ff4212-a6f5-4374-8731-631f7560cff1
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c820a7071340599be161dd92441720f1eb7e9ff7
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: cb627843879a784eb4f597839058f54f9744542f
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="install-the-intune-on-premises-exchange-connector"></a>Intune 온-프레미스 Exchange Connector 설치
 
@@ -61,7 +62,7 @@ Intune Exchange Connector에서 사용되는 Active Directory 사용자 계정�
 
 ## <a name="download-the-on-premises-exchange-connector-software-installation-package"></a>온-프레미스 Exchange Connector 소프트웨어 설치 패키지 다운로드
 
-1. 온-프레미스 Exchange Connector용으로 지원되는 Windows Server 운영 체제에서 Exchange 테넌트의 관리자이며 Exchange Server 사용을 위한 라이선스가 있는 사용자 계정으로 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)(https://manage.microsoft.com) 을 엽니다.
+1. 온-프레미스 Exchange Connector용으로 지원되는 Windows Server 운영 체제에서 Exchange 테넌트의 관리자이며 Exchange Server 사용을 위한 라이선스가 있는 사용자 계정으로 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)(https://manage.microsoft.com)을 엽니다.
 ![Exchange 연결 설정 열기](../media/ExchangeConnector.gif)
 
 2.  작업 영역 바로 가기 창에서 **관리**>**모바일 장치 관리** > **Microsoft Exchange**>**Exchange 연결 설정**으로 이동합니다.

@@ -1,6 +1,6 @@
 ---
 title: "Android에서 Lookout for Work가 발견한 위협 해결 | Microsoft 문서"
-description: 
+description: "Android에서 Lookout for Work로 발견한 위협을 해결하는 방법에 대해 알아봅니다."
 keywords: 
 author: barlanmsft
 ms.author: barlan
@@ -14,13 +14,13 @@ ms.assetid: 5656b3e6-e812-4264-a170-b17c9c03e4d4
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: b7cd5e4d019030a432845557de4cd27ee652785a
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: f4f878f6cd46c4ded709d833c799bb2d310adeb9
+ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
-# <a name="you-need-to-resolve-a-threat-found-by-lookout-for-work"></a>Lookout for Work가 발견한 위협을 해결해야 함
+# <a name="resolve-a-threat-found-by-lookout-for-work"></a>Lookout for Work가 발견한 위협 해결
 
 Lookout for Work가 장치에서 잠재적인 위협을 발견했기 때문에 회사 또는 학교 메일, 앱 및 파일에 다시 액세스하려면 문제를 해결해야 합니다. 다음과 비슷한 메시지가 표시됩니다.
 
@@ -34,7 +34,7 @@ Lookout for Work가 장치에서 잠재적인 위협을 발견했기 때문에 �
 
 ![회사 포털 웹 사이트에 대한 링크가 포함된 Lookout for Work 오류 메시지](./media/mtd-go-to-device-management-portal-android.png)
 
-**장치 관리 포털** 링크를 탭하여 문제 해결 방법 지침이 나와 있는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 이동합니다.
+**장치 관리 포털** 링크를 탭하여 문제 해결 방법 지침이 나와 있는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)로 이동합니다.
 
 ## <a name="example-of-an-app-that-lookout-for-work-sees-as-a-threat"></a>Lookout for Work가 위협으로 간주하는 앱의 예
 
@@ -44,4 +44,4 @@ Lookout for Work가 위협으로 판단하는 앱을 설치한 경우 다음과 
 
 앱을 제거한 후 회사 메일 및 데이터에 다시 액세스할 수 있게 됩니다. 앱을 제거하라는 요청을 무시하면 앱을 제거할 때까지 메일 및 데이터에 액세스할 수 없습니다.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

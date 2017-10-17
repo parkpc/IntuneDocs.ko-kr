@@ -16,17 +16,17 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: be7a0e7650e798babba66344e50abe7f958f1dda
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: cf3c9d121f2e2578219137161a972d5d58255058
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="what-happens-if-you-reset-your-ios-device-using-the-company-portal"></a>회사 포털을 사용하여 iOS 장치를 다시 설정하면 어떻게 되나요?
 
 회사 포털을 사용하여 iPhone 또는 iPad를 초기화하면 몇 가지 개인 데이터를 비롯하여 장치의 일부 앱과 설정이 삭제될 수 있습니다. 각 장치에 발생하는 상황은 다음 목록에 설명된 것과 같이 장치 사용 방법에 따라 달라집니다.
 
-**IT 관리자가 모바일 장치 관리**
+**회사 지원팀이 모바일 장치 관리를 관리합니다.**
 
 -   장치가 더 이상 회사 포털에 나타나지 않습니다.
 
@@ -38,4 +38,4 @@ ms.lasthandoff: 07/01/2017
 
 -   회사 전자 메일 계정이 삭제되고 저장되지 않은 전자 메일도 삭제됩니다.
 
-의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+질문이 있다면 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

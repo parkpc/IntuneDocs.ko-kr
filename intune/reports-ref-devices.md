@@ -14,11 +14,11 @@ ms.assetid: 6955E12D-70D7-4802-AE3B-8B276F01FA4F
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2dad8cf3e9a38625b4657e284f8d8bb53ba289c0
-ms.sourcegitcommit: c8fb42fcb8735af432c7e07c380d956171012bd4
+ms.openlocfilehash: 7730a799176a74f1ddb8e4b5e49a110229255428
+ms.sourcegitcommit: 6fae2dfb3a5c8f2e5ccfd120fd15656b26e5d302
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2017
+ms.lasthandoff: 10/09/2017
 ---
 # <a name="reference-for-devices-entities"></a>장치 엔터티에 대한 참조
 
@@ -106,7 +106,7 @@ ms.lasthandoff: 08/14/2017
 
 | enrollmentTypeID  | Name | 설명 |
 |---------|------------|--------|
-| 0 |알 수 없음 |알 수 없는 등록 형식 |
+| 0 |알 수 없음 |등록 형식이 수집되지 않았습니다. |
 | 1 |UserEnrollment |사용자가 시작한 등록 |
 | 2 |DeviceEnrollment |사용자 없는 프로필로 장치 등록 |
 | 3 |DeviceEnrollmentWithUDA |UDA 프로필로 장치 등록 |

@@ -15,20 +15,20 @@ searchScope: User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
-ms.openlocfilehash: 526cfed5e8f42d739c57882b454745ba5b20181c
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 483b2155c2f1935a5b0d79b84ab65db1f9fc182d
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="fix-common-issues-with-your-windows-device"></a>Windows 장치의 일반적인 문제 해결
 
-Windows 장치에서 발생하는 문제가 문제 해결을 통해 해결되는 경우도 있습니다. 먼저 직접 해결해 볼 수 있는 몇 가지 일반적인 문제는 다음과 같습니다. 좀 더 복잡한 문제의 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에 있는 연락처 정보를 통해 IT 관리자에게 문의하는 것이 좋습니다.
+Windows 장치에서 발생하는 문제가 문제 해결을 통해 해결되는 경우도 있습니다. 먼저 직접 해결해 볼 수 있는 몇 가지 일반적인 문제는 다음과 같습니다. 좀 더 복잡한 문제의 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에 있는 연락처 정보를 통해 회사 지원팀에 문의하는 것이 좋습니다.
 
 - [내 Windows 10 장치가 등록되지 않음](troubleshoot-your-windows-10-device-windows.md)
 - [Windows 장치를 업데이트해야 함](you-need-to-update-your-windows-device.md)
-- [회사 포털 앱에서 IT 관리자에게 로그를 보내야 함](send-logs-to-your-it-admin-cp-windows.md)
-- [설정 앱에서 IT 관리자에게 로그를 보내야 함](send-logs-to-your-it-admin-settings-windows.md)
+- [회사 포털 앱에서 회사 지원팀으로 로그를 보내야 함](send-logs-to-your-it-admin-cp-windows.md)
+- [설정 앱에서 회사 지원팀으로 로그를 보내야 함](send-logs-to-your-it-admin-settings-windows.md)
 - [내 Windows 버전이 아직 지원되지 않음](your-windows-version-isnt-yet-supported.md)
 - [Windows 암호화를 사용하도록 설정해야 함](you-need-to-enable-windows-encryption.md)
 - [내 장치에 맬웨어 방지 소프트웨어가 필요함](your-device-needs-antimalware-software.md)

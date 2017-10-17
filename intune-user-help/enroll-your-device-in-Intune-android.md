@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 09/11/2017
+ms.date: 10/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 256aa8f52bd25ddcb860aed25b22f1549053d2b1
-ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
+ms.openlocfilehash: 621468db51e7e6172d142501a4637794e4cb57b8
+ms.sourcegitcommit: 53a1f5226d1e1172f013a1b192321dde610b2d6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 10/06/2017
 ---
 # <a name="enroll-your-android-device-in-intune"></a>Intune에서 Android 장치 등록
 
@@ -30,21 +30,19 @@ ms.lasthandoff: 09/14/2017
 
 이러한 등록 지침은 Samsung KNOX Android 장치와 네이티브 Android 장치에 대한 것입니다. Samsung KNOX는 특정 Samsung 장치에서 네이티브 Android가 제공하지 않는 추가 보호를 제공하기 위해 사용하는 보안 유형입니다. Samsung KNOX 장치가 있는지 확인하려면 **설정** > **장치 정보**로 이동합니다. 여기에 나열된 "KNOX 버전"이라는 단어가 보이지 않으면 네이티브 Android 장치가 있어야 합니다.
 
-등록하기 전이나 이후에 장치 사용 방법을 가장 잘 설명하는 범주를 선택하라는 메시지가 표시될 수도 있습니다. IT 관리자는 이 범주를 사용하여 액세스할 수 있는 앱을 확인합니다.
-
-Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리자에게 등록 오류를 보낼](send-enrollment-errors-to-your-it-admin-android.md) 수 있습니다.
+등록하기 전이나 이후에 장치 사용 방법을 가장 잘 설명하는 범주를 선택하라는 메시지가 표시될 수도 있습니다. 회사 지원팀은 이 범주를 사용하여 액세스할 수 있는 앱을 확인합니다.
 
 **Android 장치를 등록하려면:**
 
 1.  [Google Play](http://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal)에서 무료 Intune 회사 포털 앱을 설치합니다.
 
-2.  Microsoft Intune 회사 포털 앱을 엽니다.
+2.  회사 포털 앱을 엽니다.
 
 3.  회사 포털의 **시작** 화면에서 **로그인**을 탭한 다음, 회사 또는 학교 계정으로 로그인합니다.
 
     ![Android용 회사 포털 앱의 시작 화면이며 사용자에게 필수 회사 또는 학교 계정으로 로그인하도록 요청합니다. 또한 Microsoft 계정과 기타 개인 계정은 허용되지 않는다고 주의 사항을 설명합니다.](./media/and-enroll-0-welcome-screen.png)   
 
-4.  IT 관리자가 회사 사용 약관을 설정하는 경우 **동의함**을 탭하여 조건에 동의합니다. 이 화면은 현재 사용 중인 Android의 버전에 따라 아래 이미지와 약간 다를 수 있습니다.
+4.  회사 지원팀이 회사 사용 약관을 설정하는 경우 **동의**를 눌러 조건에 동의합니다. 이 화면은 현재 사용 중인 Android의 버전에 따라 아래 이미지와 약간 다를 수 있습니다.
 
     ![android-company-portal-sign-in](./media/and-enroll-3-accept-terms.png)
 
@@ -52,28 +50,24 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
     ![android-company-portal-sign-in](./media/and-enroll-2-cp-sign-in.png)
 
-6.  **회사 액세스 설정** 화면에서 **시작**을 탭합니다.
+6.  **회사 액세스 설정** 화면에서 **계속**을 탭합니다.
 
-    ![회사 액세스 설정 화면](/intune/media/android_cp_enroll_02_post_1709.png)
+    ![회사 액세스 설정 화면](/intune/media/android_cp_enroll_01_1709_new.png)
 
     > [!NOTE]
     > 노란색 삼각형은 이미 오류가 발생했음을 의미하지 않습니다. 이 아이콘은 등록 프로세스에서 완료해야 할 단계가 여전히 남아 있음을 나타냅니다.
 
-7. **장치 관리의 이점** 화면에서 장치를 등록할 때 수행할 수 있는 작업을 확인하고 **계속**을 누릅니다.
+7.  회사 지원팀이 장치에서 볼 수 있는 사항과 볼 수 없는 사항의 목록을 검토하고 **계속**을 누릅니다.
 
-    ![장치 관리의 이점 화면](/intune/media/android_cp_enroll_02_post_1709.png)
+    ![개인 정보 설정](/intune/media/android_cp_enroll_02_after_1710.png)
 
-8.  IT 관리자가 장치에서 볼 수 있는 사항과 볼 수 없는 사항의 목록을 검토하고 **계속**을 탭합니다.
+9.  **다음 단계는?** 화면에서 등록하는 동안 발생하는 상황을 확인하고 **등록**을 누릅니다.
 
-    ![개인 정보 설정](./media/and-enroll-4c-we-care-privacy.png)
-
-9.  **다음 단계는?** 화면에서 등록하는 동안 발생되는 작업을 확인하고 **등록**을 탭합니다.
-
-    ![다음 단계는 화면](./media/and-enroll-4d-what-comes-next.png)
+    ![다음 단계는 화면](/intune/media/android_cp_enroll_03_after_1710.png)
 
 10.  Android 6.0 이상을 사용하는 경우 이 단계를 수행합니다. 그렇지 않으면 다음 단계로 진행합니다.
 
-    IT 관리자가 특정 정책을 설정한 경우 다음과 같은 메시지가 표시될 수 있습니다.
+    회사 지원팀이 특정 정책을 설정한 경우 다음과 같은 메시지가 표시될 수 있습니다.
     -   **회사 포털에서 통화를 하고 전화 통화를 관리하도록 허용하시나요?**
 
         ![android-company-portal-sign-in](./media/and-enroll-3a-allow-phone-access.png)
@@ -96,9 +90,9 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
     장치 관리자 역할은 회사 포털에서 장치 관리 시 필요한 역할입니다. 이 역할을 사용하면 관리자는 화면 잠금 해제 시도 횟수와 같은 특정 항목을 보고 여러 작업을 수행할 수 있습니다.
 
-    이 작업은 보안상 수행되는 작업임을 염두에 두어야 합니다. IT 관리자는 이유 없이 사용자의 개인 정보를 침해하거나 정보를 지우지는 않지만 회사 데이터가 안전하게 유지되는지 확인하고자 합니다.
+    이 작업은 보안상 수행되는 작업임을 염두에 두어야 합니다. 회사 지원팀은 이유 없이 사용자의 개인 정보를 침해하거나 정보를 지우지는 않지만 회사 데이터가 안전하게 유지되는지 확인하려고 합니다.
 
-    Microsoft는 이 메시지를 규제하지 않습니다. 또한 이러한 표현이 다소 극단적으로 보일 수도 있음을 알고 있습니다. 하지만 회사 포털에서 조직과 관련된 제한 사항 및 액세스 권한만 표시하는 것은 적절한 방법이 아닙니다. 모든 작업이 이 화면에서 한 번에 제공됩니다. 개별 조직의 사용 관련 질문이 있는 경우 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)의 연락처 정보를 사용하여 IT 관리자에게 자세한 내용을 문의하세요.
+    Microsoft는 이 메시지를 규제하지 않습니다. 또한 이러한 표현이 다소 극단적으로 보일 수도 있음을 알고 있습니다. 하지만 회사 포털에서 조직과 관련된 제한 사항 및 액세스 권한만 표시하는 것은 적절한 방법이 아닙니다. 모든 작업이 이 화면에서 한 번에 제공됩니다. 개별 조직의 사용 관련 질문이 있는 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)의 연락처 정보를 사용하여 회사 지원팀에 자세한 내용을 문의하세요.
 
 12.  지시에 따라 PIN이나 암호를 입력합니다. 이미 이 장치에서 암호나 PIN을 설정했다면 이 화면에 표시되지 않거나 새 PIN이나 암호를 입력할 필요가 없습니다.
 
@@ -133,4 +127,6 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 > [!Note]
 > 조직에서 TEM(Telecom Expense Management) 소프트웨어를 사용하는 경우 몇 가지 추가 단계를 완료해야 장치가 완전히 등록됩니다. 자세한 내용은 [여기](enroll-your-device-with-telecom-expense-management-android.md)를 참조하세요.
 
-여전히 도움이 필요하세요? IT 관리자에게 문의하거나(연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com) 확인) <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with enrolling my Android device&body=Describe the issue you're experiencing here.">Microsoft Android 팀</a>으로 메일을 보내세요.
+Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [회사 지원팀에 등록 오류를 보낼](send-enrollment-errors-to-your-it-admin-android.md) 수 있습니다.
+
+여전히 도움이 필요하세요? 회사 지원팀에 문의하거나(연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com) 확인) <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with enrolling my Android device&body=Describe the issue you're experiencing here.">Microsoft Android 팀</a>으로 메일을 보내세요.

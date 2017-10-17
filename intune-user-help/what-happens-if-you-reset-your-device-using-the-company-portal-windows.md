@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 4c4d46a8d90c3435b640a6135d69df1f3949b6a3
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 0720707c5e24daa9ef1677c549a8d2a763944f3b
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="what-happens-if-you-reset-your-windows-device-using-the-company-portal"></a>회사 포털을 사용하여 Windows 장치를 다시 설정하면 어떻게 되나요?
 
@@ -28,8 +28,8 @@ ms.lasthandoff: 07/01/2017
 
 |장치 구성 및 관리|장치 유형|
 |---------------------------------------|---------------|
-|IT 관리자가 모바일 장치 관리|**Windows 10 및 Windows Phone 8.1**</br>장치가 더 이상 회사 포털에 나타나지 않으며, 회사 포털에서 장치를 제조업체의 기본 설정으로 재설정하려고 합니다. 개인 데이터, 앱 및 설정이 제거됩니다. <br /><br />**Windows 10 Mobile**</br>장치를 등록 취소하는 유일한 방법은 다시 설정하는 것입니다.|
+|회사 지원팀이 모바일 장치 관리를 관리합니다.|**Windows 10 및 Windows Phone 8.1**</br>장치가 더 이상 회사 포털에 나타나지 않으며, 회사 포털에서 장치를 제조업체의 기본 설정으로 재설정하려고 합니다. 개인 데이터, 앱 및 설정이 제거됩니다. <br /><br />**Windows 10 Mobile**</br>장치를 등록 취소하는 유일한 방법은 다시 설정하는 것입니다.|
 |장치가 회사 전자 메일에만 액세스할 수 있습니다.|**Windows Phone 8.1**<br />장치가 더 이상 회사 포털에 나타나지 않으며, 회사 메일 계정 및 저장하지 않은 메일이 삭제됩니다.<br /><br />**Windows 7 또는 Windows Vista**<br />Windows 7 이전 버전을 실행하며 메일 전용으로 사용되는 컴퓨터는 원래대로 복원할 수 없습니다.<br /><br />**Windows 8.1 및 Windows 8**<br />장치가 더 이상 회사 포털에 나타나지 않으며, 회사 메일 계정 및 저장하지 않은 메일이 삭제됩니다.|
 |PC 및 노트북|**Windows 8.1 및 Windows 8**<br />Windows 8 또는 Windows 8.1을 실행하며 메일 전용이 아닌 컴퓨터는 원래대로 복원할 수 없습니다.<br /><br />**Windows 7 또는 Windows Vista**<br />Windows 7 이전 버전을 실행하는 컴퓨터는 원래대로 복원할 수 없습니다.|
 
-의문 사항이 있으면 IT 관리자에게 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)를 참조하세요.
+질문이 있다면 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
