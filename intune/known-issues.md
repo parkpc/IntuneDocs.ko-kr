@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 08/14/2017
+ms.date: 10/05/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3bddab9000bfe609856b8e003f9bd4c3802f6e6b
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 534441a7ae337f99a251831b456ea5c295184bec
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Microsoft Intune의 알려진 문제
 
@@ -53,7 +53,7 @@ Intune에서 Azure Portal로 마이그레이션할 때 **All Users - b0b08746-4d
 - 클래식 포털에서 이러한 기능이 사용하지 않도록 설정됩니다.
 - Azure Portal에서 이러한 기능이 사용하도록 설정됩니다.  
 
-2017년 9월 11일 이후 이러한 기능의 마이그레이션은 Azure에 대한 기본 마이그레이션에 병합됩니다. 계정이 이미 Azure Portal을 사용하도록 마이그레이션된 경우 이 보조 마이그레이션은 2017년 9월 11일~22일에 수행됩니다. 계정 마이그레이션이 시작되면 같은 날 완료됩니다. 마이그레이션은 이러한 기능이 Intune 클래식 포털에서 사용하지 않도록 설정되는 시점으로부터 최대 6시간이 걸릴 수 있습니다.
+2017년 9월 22일 이후 이러한 기능의 마이그레이션은 Azure에 대한 기본 마이그레이션에 병합됩니다. 계정이 이미 Azure Portal을 사용하도록 마이그레이션된 경우 이 보조 마이그레이션은 이미 완료되었습니다. 그렇지 않은 경우 이러한 기능은 11월까지 Azure로 마이그레이션됩니다. 계정 마이그레이션이 시작되면 같은 날 완료됩니다. 마이그레이션은 이러한 기능이 Intune 클래식 포털에서 사용하지 않도록 설정되는 시점으로부터 최대 6시간이 걸릴 수 있습니다.
 
 이제 Azure Portal에서 이러한 Intune 기능을 관리하는 경우 다음 사항에 유의하세요.
 

@@ -5,7 +5,7 @@ keywords: "Intune 데이터 웨어하우스"
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
-ms.date: 07/31/2017
+ms.date: 10/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 5E5A35D3-88F8-441B-8A0B-C5D7A1E5137B
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6b3ce7e895920d2bb9ff3537fd0ef87ecb4efcc0
-ms.sourcegitcommit: b8ef9d8387b4d9b2ea4e6ce937635304771e6532
+ms.openlocfilehash: 0b3436a22543eb07cedb0780984766bcb7faa284
+ms.sourcegitcommit: 0ee9909fc041c2e49c0e0312ae05f40bbeb2ee51
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2017
+ms.lasthandoff: 10/14/2017
 ---
 # <a name="connect-to-the-data-warehouse-with-power-bi"></a>Power BI를 통해 데이터 웨어하우스에 연결
 
@@ -34,13 +34,13 @@ Intune 테넌트에 대해 동적으로 생성된 보고서인 인터랙티브 �
   -  소프트웨어 업데이트
   -  장치 인벤토리 로그
 
-등록, 규정 준수, 장치 구성 프로필, 소프트웨어 업데이트에 대한 트렌드도 하이라이트되어 있습니다. 샘플 차트와 보고서는 사용하기 쉬운 필터를 캔버스에 적용합니다. 고급 필터를 사용하려면 Power BI Desktop의 **필터** 창을 확인하세요. 
+등록, 규정 준수, 장치 구성 프로필, 소프트웨어 업데이트에 대한 트렌드도 하이라이트되어 있습니다. 샘플 차트와 보고서는 사용하기 쉬운 필터를 캔버스에 적용합니다. 고급 필터를 사용하려면 Power BI Desktop의 **필터** 창을 확인하세요.
 
 다음 단계는 Power BI 파일을 다운로드하고 Power BI를 통해 OData 링크를 사용하는 방법을 설명합니다.
 
 ## <a name="install-power-bi"></a>Power BI 설치
 
-Power BI Desktop의 최신 버전을 설치합니다. Power BI Desktop 다운로드 위치: [PowerBI.microsoft.com](https://powerbi.microsoft.com/en-us/desktop) 
+Power BI Desktop의 최신 버전을 설치합니다. Power BI Desktop 다운로드 위치: [PowerBI.microsoft.com](https://powerbi.microsoft.com/en-us/desktop)
 
 ## <a name="load-the-data-and-reports-using-the-power-bi-file-pbix"></a>Power BI 파일(pbix)을 사용하여 데이터와 보고서를 로드
 
@@ -54,7 +54,7 @@ Power BI 파일(pbix)은 테넌트에 대한 연결 정보와 데이터 웨어�
 3.  **PowerBI 파일 다운로드**를 클릭합니다. (pbix) 확장명을 가진 파일이 지정한 위치로 다운로드됩니다.
 4.  Power BI로 파일을 엽니다. *Intune 데이터 웨어하우스 보고서*가 로드되지만 테넌트 데이터를 가져오려면 약간의 시간이 걸릴 수 있습니다.
 5.  **새로 고침**을 클릭하여 테넌트 데이터를 로드하고 보고서를 검토합니다.
-6.  Power BI가 Azure Active Directory 자격 증명으로 인증되지 않은 경우 Power BI는 자격 증명을 제공하라는 메시지를 표시합니다. 자격 증명을 선택할 때 인증 방법으로 **조직 계정**을 선택합니다.
+6.  Power BI가 Azure Active Directory 자격 증명으로 인증되지 않은 경우 Power BI는 자격 증명을 제공하라는 메시지를 표시합니다. 자격 증명을 선택할 때 **회사 계정**을 인증 방법으로 선택합니다.
 
 ## <a name="load-the-data-in-power-bi-using-the-odata-link"></a>OData 링크를 사용하여 Power BI에서 데이터 로드
 
@@ -69,7 +69,7 @@ Power BI 파일(pbix)은 테넌트에 대한 연결 정보와 데이터 웨어�
 7. **OData URL**을 URL 상자에 입력하거나 붙여넣습니다.
 8. **확인**을 클릭합니다.
 9. Power BI 데스크톱 클라이언트에서 테넌트에 대해 Azure AD 인증을 받지 않은 경우 자격 증명을 입력합니다.  
-    1.  **조직 계정**을 선택합니다.  
+    1.  **회사 계정**을 선택합니다.  
     2.  사용자 이름과 암호를 입력합니다.  
     3.  **로그인**을 클릭합니다.  
     4.  **연결**을 클릭합니다.  
@@ -80,5 +80,5 @@ Power BI 파일(pbix)은 테넌트에 대한 연결 정보와 데이터 웨어�
 지난주 동안 하루에 등록된 장치 수와 같이 환경에 관한 정보를 확인할 수 있습니다. Azure의 블레이드에서 검색한 Intune 데이터 웨어하우스 Power BI 파일(pbix)을 사용하는 보고서를 통해 Intune 테넌트와 클라이언트 인구에 대한 정보를 얻을 수 있습니다. 그러나 Intune은 데이터를 확장하거나 다시 사용할 수 있는 다양한 수단을 제공합니다. Power BI와 Intune 데이터 웨어하우스 API를 통해 다음과 같은 다양한 일을 할 수 있습니다.
 
 <!-- -  You can use Power BI Desktop to create additional report types with your data. For example, you could create a custom chart representing the ratio of device manufactures in your enterprise. For more information about creating custom reports with Power BI and the Intune Data Warehouse, see `BLOG POST ON POWER BI`. -->
- -  데이터에서 인사이트를 가져오도록 테넌트 데이터를 구성할 수 있습니다. 데이터 구성 방법에 대한 자세한 내용은 [데이터 웨어하우스 데이터 모델](reports-ref-data-model.md)을 참조하세요. 
+ -  데이터에서 인사이트를 가져오도록 테넌트 데이터를 구성할 수 있습니다. 데이터 구성 방법에 대한 자세한 내용은 [데이터 웨어하우스 데이터 모델](reports-ref-data-model.md)을 참조하세요.
  -  RESTful 인터페이스에서 데이터에 액세스하고 데이터를 자체 앱에 통합할 수도 있습니다. 자세한 내용은 [REST 클라이언트를 사용하여 데이터 웨어하우스 API에서 데이터 가져오기](reports-proc-data-rest.md)를 참조하세요.
