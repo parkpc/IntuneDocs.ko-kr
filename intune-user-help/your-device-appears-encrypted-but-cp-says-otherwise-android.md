@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 09/29/2017
+ms.date: 10/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 208cf6eb2d29ec5458d97d0a4481cec420acc281
-ms.sourcegitcommit: 59811bf1183b3ef9c9e81eded634bd0d3124d0bb
+ms.openlocfilehash: be68e330c2bd2800ea68fd83845b71e3b257e785
+ms.sourcegitcommit: 751587b1c6ed15877152d770772748e042c1e3ff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2017
+ms.lasthandoff: 10/13/2017
 ---
 # <a name="your-android-device-seems-to-be-encrypted-but-company-portal-says-otherwise"></a>Android 장치가 암호화된 것 같은데 회사 포털에 다르게 표시됨
 
@@ -39,6 +39,15 @@ ms.lasthandoff: 10/09/2017
 ### <a name="downgrade-your-version-of-android"></a>Android 버전 다운그레이드
 
 장치에서 Android 6.0 이상으로 다운그레이드하는 옵션을 제공하는 경우 다운그레이드합니다. 장치 다운그레이드를 시도해야 하는 경우 데이터 손실 위험이 있습니다. 그렇지 않으면 회사 지원팀에 문의하여 이 문제를 해결하는 것이 좋습니다. [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 회사 지원팀의 연락처 정보를 얻을 수 있습니다.
+
+### <a name="encrypt-the-entire-device"></a>전체 장치 암호화
+
+일부 장치에서는 전체 장치를 암호화할지 아니면 사용된 공간만을 암호화할지 선택하도록 합니다. "사용된 공간만 해당"이 아닌 전체 장치를 암호화하는 옵션을 선택합니다. 이미 사용된 공간만 암호화한 경우:
+
+1. [회사 포털에서 이 장치 제거](unenroll-your-device-from-intune-android.md)
+2. 사용된 공간의 암호 해독
+3. 전체 장치 암호화
+4. 장치 다시 등록
 
 ## <a name="specific-manufacturer-issues"></a>특정 제조업체 문제
 

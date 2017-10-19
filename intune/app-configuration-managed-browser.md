@@ -6,7 +6,7 @@ keywords:
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
-ms.date: 08/02/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 1feca24f-9212-4d5d-afa9-7c171c5e8525
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f6bdb4e1288e91d78d95ba6e6640111d9af06ed7
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: e9701bbe4f39d310786fb399b3152595744019a1
+ms.sourcegitcommit: 0ee9909fc041c2e49c0e0312ae05f40bbeb2ee51
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/14/2017
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Microsoft Intune에서 Managed Browser 정책을 사용하여 인터넷 액세스 관리
 
@@ -64,10 +64,10 @@ Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https
 3.  관리 목록의 **모바일 앱** 블레이드에서 **앱 구성 정책**을 선택합니다.
 4.  **앱 구성 정책** 블레이드에서 **추가**를 선택합니다.
 5.  **앱 구성 추가** 블레이드에서 앱 구성 설정의 **이름** 및 **설명**(선택 사항)을 입력합니다.
-6.  **장치 등록** 유형에서 **Intune에 등록되지 않음**을 선택합니다.
+6.  **장치 등록** 형식에서 **관리되는 장치** 또는 **관리되는 앱**을 선택합니다.
 7.  **필수 앱 선택**을 선택하고 **대상 앱** 블레이드에서 iOS나 Android 중 하나 또는 둘 다에 대해 **Managed Browser**를 선택합니다.
 8.  **확인**을 선택하여 **앱 구성 추가** 블레이드로 돌아옵니다.
-9.  **구성 설정**을 선택합니다. **구성** 블레이드에서 키와 값 쌍을 정의하여 Managed Browser에 대한 구성을 제공합니다. 이 항목의 뒷부분에 나오는 섹션에서 정의할 수 있는 다양한 키와 값 쌍에 대해 알아보세요.
+9.  **구성 설정**을 선택합니다. **구성** 블레이드에서 키와 값 쌍을 정의하여 Managed Browser에 대한 구성을 제공합니다. 이 문서의 뒷부분에 나오는 섹션에서 정의할 수 있는 다양한 키와 값 쌍에 대해 알아보세요.
 10. 작업이 끝나면 **확인**을 선택합니다.
 11. **앱 구성 추가** 블레이드에서 **만들기**를 선택합니다.
 12. 새 구성이 작성되어 **앱 구성** 블레이드에 표시됩니다.
@@ -127,6 +127,7 @@ Intune Managed Browser와 [Azure AD 응용 프로그램 프록시]( https://docs
 
 - 이 책갈피는 사용자가 삭제하거나 수정할 수 없습니다.
 - 이 책갈피는 목록 맨 위에 표시됩니다. 사용자가 만드는 모든 책갈피는 이 책갈피 아래에 표시됩니다.
+- 앱 프록시 리디렉션을 사용한 경우 내부 또는 외부 URL 중 하나를 사용하여 앱 프록시 웹앱을 추가할 수 있습니다.
 
 Managed Browser 앱 구성을 만드는 절차를 수행할 때 다음 키와 값 쌍을 제공합니다.
 
@@ -166,15 +167,15 @@ Managed Browser 앱 구성을 만드는 절차를 수행할 때 다음 키와 �
 -   다음 표를 사용하여 URL을 지정할 때 사용할 수 있는 패턴에 대해 알아볼 수 있습니다.
 
 |URL|세부 정보|일치하는 항목|일치하지 않는 항목|
-    |-------|---------------|-----------|------------------|
-    |http://www.contoso.com|단일 페이지와 일치|www.contoso.com|host.contoso.com<br /><br />www.contoso.com/images<br /><br />contoso.com/|
-    |http://contoso.com|단일 페이지와 일치|contoso.com/|host.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com|
-    |http://www.contoso.com/&#42;|www.contoso.com으로 시작하는 모든 URL과 일치|www.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com/videos/tvshows|host.contoso.com<br /><br />host.contoso.com/images|
-    |http://&#42;.contoso.com/&#42;|contoso.com 아래의 모든 하위 도메인과 일치|developer.contoso.com/resources<br /><br />news.contoso.com/images<br /><br />news.contoso.com/videos|contoso.host.com|
-    |http://www.contoso.com/images|단일 폴더와 일치|www.contoso.com/images|www.contoso.com/images/dogs|
-    |http://www.contoso.com:80|포트 번호를 사용하여 단일 페이지와 일치|http://www.contoso.com:80|
-    |https://www.contoso.com|안전한 단일 페이지와 일치|https://www.contoso.com|http://www.contoso.com|
-    |http://www.contoso.com/images/&#42;|단일 폴더 및 모든 하위 폴더와 일치|www.contoso.com/images/dogs<br /><br />www.contoso.com/images/cats|www.contoso.com/videos|
+|-------|---------------|-----------|------------------|
+|http://www.contoso.com|단일 페이지와 일치|www.contoso.com|host.contoso.com<br /><br />www.contoso.com/images<br /><br />contoso.com/|
+|http://contoso.com|단일 페이지와 일치|contoso.com/|host.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com|
+|http://www.contoso.com/&#42;|www.contoso.com으로 시작하는 모든 URL과 일치|www.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com/videos/tvshows|host.contoso.com<br /><br />host.contoso.com/images|
+|http://&#42;.contoso.com/&#42;|contoso.com 아래의 모든 하위 도메인과 일치|developer.contoso.com/resources<br /><br />news.contoso.com/images<br /><br />news.contoso.com/videos|contoso.host.com|
+|http://www.contoso.com/images|단일 폴더와 일치|www.contoso.com/images|www.contoso.com/images/dogs|
+|http://www.contoso.com:80|포트 번호를 사용하여 단일 페이지와 일치|http://www.contoso.com:80|
+|https://www.contoso.com|안전한 단일 페이지와 일치|https://www.contoso.com|http://www.contoso.com|
+|http://www.contoso.com/images/&#42;|단일 폴더 및 모든 하위 폴더와 일치|www.contoso.com/images/dogs<br /><br />www.contoso.com/images/cats|www.contoso.com/videos|
 
 -   다음은 지정할 수 없는 몇몇 입력의 예입니다.
 
@@ -200,8 +201,6 @@ Managed Browser 앱 구성을 만드는 절차를 수행할 때 다음 키와 �
 
 ## <a name="security-and-privacy-for-the-managed-browser"></a>Managed Browser에 대한 보안 및 개인 정보
 
--   iOS 장치에서 만료되거나 신뢰할 수 없는 인증서가 있는 웹 사이트를 사용자가 방문하면 해당 웹 사이트를 열 수 없습니다.
-
 -   Managed Browser에서는 사용자가 자신의 장치에서 기본 제공 브라우저에 대해 구성하는 설정을 사용하지 않습니다. Managed Browser는 이러한 설정에 액세스할 수 없습니다.
 
 -   Managed Browser와 연결된 앱 보호 정책에서 **액세스용 단순 PIN 필요** 또는 **액세스용 회사 자격 증명 필요** 옵션을 구성하고 사용자가 인증 페이지에서 도움말 링크를 선택하는 경우에는, 정책의 차단 목록에 추가되었는지와 상관없이 모든 인터넷 사이트를 탐색할 수 있습니다.
@@ -214,3 +213,14 @@ Managed Browser 앱 구성을 만드는 절차를 수행할 때 다음 키와 �
 Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Browser의 성능 및 사용에 대한 익명의 데이터를 자동으로 수집합니다. 사용자는 장치에서 **사용 데이터** 설정을 사용하여 데이터의 수집을 해제할 수 있습니다. 이 데이터의 수집은 제어할 수 없습니다.
 
 
+-   iOS 장치에서 만료되거나 신뢰할 수 없는 인증서가 있는 웹 사이트를 사용자가 방문하면 해당 웹 사이트를 열 수 없습니다.
+-   Managed Browser에서는 사용자가 자신의 장치에서 기본 제공 브라우저에 대해 구성하는 설정을 사용하지 않습니다. Managed Browser는 이러한 설정에 액세스할 수 없습니다.
+
+-   Managed Browser와 연결된 앱 보호 정책에서 **액세스용 단순 PIN 필요** 또는 **액세스용 회사 자격 증명 필요** 옵션을 구성하고 사용자가 인증 페이지에서 도움말 링크를 선택하는 경우에는, 정책의 차단 목록에 추가되었는지와 상관없이 모든 인터넷 사이트를 탐색할 수 있습니다.
+
+-   Managed Browser는 직접 액세스하는 사이트에 대한 액세스만 차단할 수 있습니다. 중간 서비스(변환 서비스 등)를 사용하여 사이트에 액세스하는 경우 액세스를 차단하지 않습니다.
+
+-   인증 및 Intune 문서에 대한 액세스를 허용하기 위해 허용 또는 차단 목록 설정에서 **&#42;.microsoft.com**이 제외됩니다. 이 값은 항상 허용됩니다.
+
+### <a name="turn-off-usage-data"></a>사용 데이터 해제
+Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Browser의 성능 및 사용에 대한 익명의 데이터를 자동으로 수집합니다. 사용자는 장치에서 **사용 데이터** 설정을 사용하여 데이터의 수집을 해제할 수 있습니다. 이 데이터의 수집은 제어할 수 없습니다.

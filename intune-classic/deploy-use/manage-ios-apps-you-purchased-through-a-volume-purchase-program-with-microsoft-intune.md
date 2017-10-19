@@ -5,20 +5,21 @@ keywords:
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
-ms.date: 09/07/2017
+ms.date: 10/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1dafc28a-7f8b-4fe0-8619-f977c93d1140
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: bbb67c9225ef99f57f12c839b81b95a1956b70f3
-ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
+ms.openlocfilehash: 5140d2fa04a229dda0896a74333801899f5946e2
+ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 10/11/2017
 ---
 # <a name="manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Microsoft Intune을 사용하여 대량 구매 프로그램을 통해 구입한 iOS 앱 관리
 
@@ -29,8 +30,7 @@ iOS 앱 스토어는 회사에서 실행하려는 앱의 라이선스를 여러 
 Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오고, 사용한 라이선스 수를 추적하며, 소유한 것보다 많은 앱 복사본을 설치할 수 없도록 하여 이러한 프로그램을 통해 구매한 앱의 관리를 지원합니다.
 
 > [!Important]
-> 현재 Intune은 iOS 비즈니스용 VPP(Volume Purchase Program) 앱 라이선스를 사용자에게 할당하며 장치에 할당하지 않습니다. 이 때문에 사용자가 앱을 설치하려면 Apple ID 암호를 입력해야 합니다.
-> 교육용 Apple Volume Purchase Program 및 B2B 앱은 이 릴리스에서 지원되지 않습니다.
+> 현재 Intune은 iOS 비즈니스용 VPP(Volume Purchase Program) 앱 라이선스를 사용자 및 장치에 할당합니다. 이 때문에 사용자가 앱을 설치하려면 Apple ID 암호를 입력해야 합니다.
 
 ## <a name="manage-volume-purchased-apps-for-ios-devices"></a>iOS 장치용 대량 구매 앱 관리
 [Apple 비즈니스용 VPP(Volume Purchase Program)](http://www.apple.com/business/vpp/)를 통해 iOS 앱의 라이선스를 여러 개 구매합니다. 이 경우 Apple 웹 사이트에서 Apple VPP 계정을 설정하고 Apple VPP 토큰을 Intune에 업로드해야 합니다.  그런 다음 대량 구매 정보를 Intune과 동기화하고 대량 구매 앱 사용을 추적할 수 있습니다.
@@ -48,7 +48,7 @@ Microsoft Intune에서는 앱 스토어에서 라이선스 정보를 가져오�
 
 ## <a name="to-get-and-upload-an-apple-vpp-token"></a>Apple VPP 토큰을 가져와 업로드하려면
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리 ** &gt; **iOS 및 Mac OS X** &gt; **Volume Purchase Program**을 선택합니다.
+1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리**  &gt; **iOS 및 Mac OS X** &gt; **Volume Purchase Program**을 선택합니다.
 
 2.  **Apple VPP 계정** 링크를 선택합니다. 아직 비즈니스용 대량 구매 프로그램에 등록하지 않은 경우 등록합니다. 등록한 후 계정에 대한 Apple VPP 토큰을 다운로드합니다.
 
