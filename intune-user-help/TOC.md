@@ -62,6 +62,7 @@
 ### [iOS 장치 등록](enroll-your-device-in-intune-ios.md)
 ### [macOS 장치 등록](enroll-your-device-in-intune-macos.md)
 ### [회사 포털로 macOS 장치 등록](enroll-your-device-in-intune-macos-cp.md)
+### [이 장치는 약간 다릅니다.](device-little-different-jamf.md)
 
 ### [장치에서 관리되는 앱 사용](use-managed-apps-on-your-device-ios.md)
 ### [암호 설정 또는 변경](set-or-change-your-passcode-ios.md)
