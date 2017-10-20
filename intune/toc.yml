@@ -536,6 +536,8 @@
       items:
         - name: Power BI를 통해 데이터 웨어하우스에 연결
           href: reports-proc-get-a-link-powerbi.md
+        - name: Power BI를 사용하여 OData 피드에서 보고서 만들기
+          href: reports-proc-create-with-odata.md
 - name: 자동화 및 사용자 지정
   items:
     - name: 사용자 지정 장치 설정 구성
