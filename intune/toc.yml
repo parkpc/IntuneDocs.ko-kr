@@ -162,6 +162,8 @@
               href: windows-enroll.md
             - name: 대량 등록
               href: windows-bulk-enroll.md
+            - name: Windows AutoPilot 배포 프로그램
+              href: enrollment-autopilot.md
         - name: Android 등록 설정
           href: android-enroll.md
         - name: iOS 등록 설정
@@ -601,11 +603,9 @@
               href: reports-ref-devices.md
             - name: 응용 프로그램 엔터티에 대한 참조
               href: reports-ref-application.md
-            - name: 정책 엔터티에 대한 참조
-              href: reports-ref-policy.md
+            - name: 사용자 장치 연결 엔터티에 대한 참조
+              href: reports-ref-userdeviceassociations.md
     - name: Windows 앱 사이드로드
-      href: app-sideload-windows.md
-    - name: Intune용 Graph API 사용
       href: intune-graph-apis.md
       items:
         - name: Intune용 Graph API 참조
