@@ -381,6 +381,8 @@
           href: compliance-policy-create-mac-os.md
         - name: Windows 정책 만들기
           href: compliance-policy-create-windows.md
+        - name: 비준수에 대한 작업
+          href: actions-for-noncompliance.md
         - name: 장치 준수 모니터링
           href: compliance-policy-monitor.md
     - name: 조건부 액세스 설정
@@ -461,6 +463,8 @@
           href: windows-hello.md
     - name: 역할 관리
       href: role-based-access-control.md
+    - name: 운영 체제 버전 관리
+      href: manage-os-versions.md
     - name: 소프트웨어 업데이트 관리
       href: windows-update-for-business-configure.md
     - name: 소프트웨어 에이전트로 PC 관리
