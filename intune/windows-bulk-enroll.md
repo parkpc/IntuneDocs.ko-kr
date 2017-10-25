@@ -6,7 +6,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 06/18/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: damionw
 ms.custom: intune-azure
-ms.openlocfilehash: 3e374f383275b1e74e22ac037ecaec282eeaa87c
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 372cc50fb4ac36ec875d84a71f3d3437917a2d1a
+ms.sourcegitcommit: 93c8c7e5abe433e35d88cb3b8d3d1e7216d7fe9b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 10/24/2017
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Windows 장치에 대한 대량 등록
 
@@ -92,6 +92,10 @@ Windows 장치에 대한 대량 등록 작업에는 다음이 필요합니다.
 
 ### <a name="problems-with-bulk-enrollment-and-company-portal"></a>대량 등록 및 회사 포털 문제
 사용자가 회사 포털을 사용하여 이전에 대량 등록된 장치를 등록하려고 하면 해당 장치에 추가 작업(설정 또는 등록)이 필요하다는 경고가 표시됩니다. 장치가 등록되지만 회사 포털 앱 또는 웹 사이트에서 등록이 인식되지 않습니다.
+
+### <a name="bulk-enrollment-with-wi-fi"></a>Wi-Fi를 통한 대량 등록 
+
+대량 등록 장치는 사용자 대상 인증서 및 Wi-Fi 배포를 사용할 수 없습니다. 이러한 연결을 관리하려면 [장치 수준 인증서](certificates-configure.md)를 사용해야 합니다. 
 
 ### <a name="conditional-access"></a>조건부 액세스
 대량 등록을 사용하여 등록된 Windows 장치에는 조건부 액세스를 사용할 수 없습니다.
