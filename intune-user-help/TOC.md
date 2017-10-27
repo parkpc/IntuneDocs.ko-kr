@@ -26,6 +26,7 @@
 
 ### [Android의 일반적인 문제 해결](troubleshoot-your-device-android.md)
 #### [장치 준수 확인](check-compliance-on-your-device-android.md)
+#### [배터리 절약 모드로 Outlook 전자 메일 동기화](power-saving-mode-android.md)
 
 #### 로그를 사용하여 문제 해결
 ##### [자세한 정보 로깅 설정](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
