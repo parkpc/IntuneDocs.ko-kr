@@ -14,27 +14,17 @@ ms.assetid: A7A174EC-109D-4BB8-B460-F53AA2D033E6
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 7723bb42eedcd97142f039ca52b60911fa91838b
-ms.sourcegitcommit: addf6a40caa22c22adfd2e2eff7d666cd1877e3c
+ms.openlocfilehash: f36327f21fbb2f08906a7621b701a4e6c9deee03
+ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/20/2017
 ---
 # <a name="intune-data-warehouse-api-endpoint"></a>Intune 데이터 웨어하우스 API 끝점
 
 특정 역할 기반 액세스 제어 및 Azure AD 자격 증명을 포함한 계정으로 Intune 데이터 웨어하우스 API를 사용할 수 있습니다. 그런 다음 OAuth 2.0을 사용하여 Azure AD와 REST 클라이언트를 승인할 수 있습니다. 마지막으로 데이터 웨어하우스 리소스를 호출할 의미 있는 URL을 형성합니다.
 
-## <a name="azure-ad-and-intune-credential-requirements"></a>Azure AD 및 Intune 자격 증명 요구 사항
-
-인증 및 권한 부여는 Azure AD 자격 증명 및 Intune 역할 기반 액세스 제어(RBAC) 기반입니다. 기본적으로 테넌트에 대한 모든 전역 관리자와 Intune 서비스 관리자가 API에 액세스할 수 있습니다. Intune 역할을 사용하여 **보고 리소스**에 대한 액세스를 부여함으로써 더 많은 사용자에게 액세스를 제공하세요.
-
-API 액세스를 위한 요구 사항:
-
-  -  사용자에게 Intune 라이선스를 할당해야 함
-  -  사용자가 다음 중 하나여야 합니다.
-      -  Azure AD 전역 관리자
-      -  Intune 서비스 관리자
-      -  **보고서** 리소스에 대한 역할 기반 액세스를 가진 사용자
+[!INCLUDE[reports-credential-reqs](./includes/reports-credential-reqs.md)]
 
 ## <a name="authorization"></a>권한 부여
 
@@ -64,4 +54,4 @@ API 최신 버전은 `beta`입니다.
 
 ## <a name="odata-query-options"></a>OData 쿼리 옵션
 
-최신 버전은 다음 OData 쿼리 매개 변수를 지원합니다: `$skip, $top, $filter, $orderby`.
+최신 버전에서는 `$filter, $orderby, $select, $skip,` 및 `$top` OData 쿼리 매개 변수를 지원합니다.

@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 10/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 8867125c9112089bda574f2bd710ddbc3d0b214c
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 8d697a18ca812b9ccd39a5678dce7f7692aa97e5
+ms.sourcegitcommit: 128770ecc820f6ff3c99b15752bce7a58257f1d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/21/2017
 ---
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-ios-or-macos-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 iOS 또는 macOS 장치를 등록하면 어떻게 되나요?
 
@@ -46,7 +46,7 @@ Intune에서 장치를 등록할 때 장치의 회사 정보를 보호하는 데
 
 -   사용 약관에 조건에 동의해야 합니다.
 
--   중요한 회사 데이터의 사진을 찍을 수 없도록 장치에서 카메라를 사용하거나 사용하지 않도록 설정합니다.
+-   중요한 회사 데이터의 사진을 찍을 수 없도록 장치에서 카메라를 사용하지 않도록 설정합니다.
 
 -   장치에서 웹 브라우징을 사용하거나 사용하지 않도록 설정합니다.
 

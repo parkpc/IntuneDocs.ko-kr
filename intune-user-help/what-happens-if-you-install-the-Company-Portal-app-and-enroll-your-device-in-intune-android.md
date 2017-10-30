@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/30/2017
+ms.date: 10/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 38ee5446c679472927f4dccecfdc56f1228fb92c
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 053f6449ebe3a4ad375c51d7bbc4ccc9709fdcf7
+ms.sourcegitcommit: 128770ecc820f6ff3c99b15752bce7a58257f1d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/21/2017
 ---
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-android-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 Android 장치를 등록하면 어떻게 되나요?
 
@@ -44,7 +44,7 @@ Android 장치를 등록할 경우 장치에 액세스할 수 있는 권한을 �
 
 -   사용 약관에 조건에 동의해야 합니다.
 
--   공유하면 안 되는 중요한 업무 자료의 사진을 찍을 수 없도록 카메라를 사용하지 않도록 설정합니다(Samsung KNOX 장치에만 해당되며 Nexus 장치는 해당되지 않음).
+-   공유되지 않아야 하는 중요한 업무 자료의 사진을 찍을 수 없도록 카메라를 사용하지 않도록 설정합니다.
 
 -   장치를 분실하거나 도난당하는 경우 데이터를 보호할 수 있도록 장치의 모든 데이터를 암호화해야 합니다.
 

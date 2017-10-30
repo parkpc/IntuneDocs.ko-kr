@@ -14,11 +14,11 @@ ms.assetid: D6D15039-4036-446C-A58F-A5E18175720A
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1bbb0e8ba84e221df3a434da79c513939267648b
-ms.sourcegitcommit: b8ef9d8387b4d9b2ea4e6ce937635304771e6532
+ms.openlocfilehash: f1ffc07d87e98666a882415d63e11bd04bbd5461
+ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2017
+ms.lasthandoff: 10/20/2017
 ---
 # <a name="get-data-from-the-intune-data-warehouse-api-with-a-rest-client"></a>REST 클라이언트를 사용하여 Intune 데이터 웨어하우스 API에서 데이터 가져오기
 
@@ -51,14 +51,14 @@ Azure에서 네이티브 앱을 만듭니다. 이 네이티브 앱은 클라이�
     1.  앱의 설정 블레이드에서 **API 액세스** 아래에서 **키**를 클릭합니다.
     2.  **설명**에 키 이름을 입력합니다(예: 클라이언트-암호).
     3.  기간으로 **1년**을 선택합니다.
-    4.  **Save**을 클릭합니다. 
+    4.  **저장**을 클릭합니다. 
     5.  키 값을 복사합니다. 키의 **설정** 블레이드를 닫은 후에는 키를 검색할 수 없습니다.
 
 ## <a name="grant-the-native-app-access-to-the-microsoft-intune-api"></a>네이티브 앱에 Microsoft Intune API에 대한 액세스 권한 부여
 
 이제 Azure에 정의된 앱이 있습니다. 네이티브 앱에서 Microsoft Intune API에 대한 액세스 권한을 부여합니다.
 
-1.  네이티브 앱을 클릭합니다. 앱 이름은 Intune Data Warehouse Client와 같이 지정했습니다.
+1.  네이티브 앱을 클릭합니다. **Intune 데이터 웨어하우스 클라이언트**와 같은 앱 이름이 지정되었습니다.
 2.  **설정** 블레이드에서 **필요한 권한**을 클릭합니다.
 3.  **필요한 권한** 블레이드에서 **추가**를 클릭합니다.
 4.  **API 선택**을 클릭합니다.
@@ -90,7 +90,7 @@ Postman을 사용하여 REST 호출을 수행하려면 다음 정보가 필요�
 | 액세스 토큰 URL | 토큰을 부여하는 데 사용되는 URL입니다.                                                                                                                                              | https://login.microsoftonline.com/common/oauth2/token |
 | 클라이언트 ID        | Azure에서 네이티브 앱을 만들 때 이 ID를 만들고 기록했습니다.                                                                                               | 4184c61a-e324-4f51-83d7-022b6a81b991                                                          |
 | 클라이언트 암호    | Azure에서 클라이언트 앱의 키를 추가할 때 이 암호를 만들고 기록했습니다.                                                                                              | JZoRZGPmN9xwsUnfX9UW877dkV5Fn/qQClhr7SuyMUQ=                                                  |
-| 범위(선택 사항) | 비어 있음                                                                                                                                                                               | 필드를 비워 둘 수 있습니다.                                                                     |
+| 범위(선택 사항) | 빈                                                                                                                                                                               | 필드를 비워 둘 수 있습니다.                                                                     |
 | 권한 부여 유형       | 토큰은 인증 코드입니다.                                                                                                                                                  | 인증 코드                                                                            |
 
 끝점이 필요합니다. 이 예제에서는 **dates** 엔터티에서 데이터를 검색하겠습니다. **dates** 엔터티의 형식은 `https://fef.{aus}.manage.microsoft.com/ReportingService/DataWarehouseFEService/dates?api-version=beta`입니다. 사용자는 해당 테넌트 관리 URL을 사용합니다. 웹앱을 만들 때 테넌트 관리 URL을 사용했습니다.
@@ -152,14 +152,14 @@ Postman에 대한 새 액세스 토큰을 가져오려면 Azure AD 권한 부여
 1.  **Microsoft Visual Studio**를 엽니다.
 2.  **파일** > **새 프로젝트**를 선택합니다. **Visual C#**을 확장하고 **콘솔 앱(.Net Framework)**을 선택합니다. 
 3.  프로젝트 이름을 ` IntuneDataWarehouseSamples`로 지정하고 프로젝트를 저장할 위치로 이동한 다음 **확인**을 클릭합니다.
-3.  솔루션 탐색기에서 솔루션의 이름을 마우스 오른쪽 단추로 클릭한 다음 **솔루션용 NuGet 패키지 관리**를 선택합니다. **찾아보기**를 클릭한 다음 검색 상자에 ‘Microsoft.IdentityModel.Clients.ActiveDirectory’를 입력합니다.
-4. 패키지를 선택하고 [솔루션 패키지 관리] 아래에서 **IntuneDataWarehouseSamples** 프로젝트를 선택한 다음 **설치**를 클릭합니다. 
-5. **동의함**을 클릭하여 NuGet 패키지 라이선스에 동의합니다.
-6. 솔루션 탐색기에서 `Program.cs`를 엽니다.
+4.  솔루션 탐색기에서 솔루션의 이름을 마우스 오른쪽 단추로 클릭한 다음 **솔루션용 NuGet 패키지 관리**를 선택합니다. **찾아보기**를 클릭한 다음 검색 상자에서 `Microsoft.IdentityModel.Clients.ActiveDirectory`를 입력합니다.
+5. 패키지를 선택하고 [솔루션 패키지 관리] 아래에서 **IntuneDataWarehouseSamples** 프로젝트를 선택한 다음 **설치**를 클릭합니다. 
+6. **동의함**을 클릭하여 NuGet 패키지 라이선스에 동의합니다.
+7. 솔루션 탐색기에서 `Program.cs`를 엽니다.
 
     ![Visual Studio의 프로젝트](media\reports-get_rest_data_in.png)
 
-7.  Program.cs의 코드를 다음 코드로 바꿉니다.  
+8.  Program.cs의 코드를 다음 코드로 바꿉니다.  
     ```csharp
 namespace IntuneDataWarehouseSamples
 {
@@ -214,12 +214,12 @@ namespace IntuneDataWarehouseSamples
     }
     ```
 
-8.  코드 샘플의 `TODO`를 업데이트합니다.
-9.  **Ctrl + F5**를 눌러 디버그 모드에서 Intune.DataWarehouseAPIClient 클라이언트를 빌드하고 실행합니다.
+9.  코드 샘플의 `TODO`를 업데이트합니다.
+10.  **Ctrl + F5**를 눌러 디버그 모드에서 Intune.DataWarehouseAPIClient 클라이언트를 빌드하고 실행합니다.
 
     ![JSON 형식으로 검색된 날짜 엔터티](media\reports-get_rest_data_output.png)
 
-10.  콘솔 출력을 검토합니다. 출력에는 Intune 테넌트의 **dates** 엔터티에서 끌어온 JSON 형식의 데이터가 포함되어 있습니다.
+11.  콘솔 출력을 검토합니다. 출력에는 Intune 테넌트의 **dates** 엔터티에서 끌어온 JSON 형식의 데이터가 포함되어 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

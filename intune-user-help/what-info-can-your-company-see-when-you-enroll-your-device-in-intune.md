@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 09/04/2017
+ms.date: 10/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
-ms.openlocfilehash: 8da134d768333fb03cc87ab38230f5f022fee2e1
-ms.sourcegitcommit: 1afff0fd464ece84ffea6bc0c71c78215d59e696
+ms.openlocfilehash: 04b6d24d5174e49dd6e3f86b534bc59b94344002
+ms.sourcegitcommit: 2707a5fb68749a51c2a3ff54a1bac631bdaa3b87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2017
+ms.lasthandoff: 10/18/2017
 ---
 # <a name="what-information-can-my-company-see-when-i-enroll-my-device"></a>장치를 등록하면 회사에 어떤 정보가 표시되나요?
 
@@ -46,5 +46,6 @@ ms.lasthandoff: 09/08/2017
 
 **회사에서 볼 수도 있는 사항**
 
--  전화 번호: **회사** 소유 장치인 경우 전체 전화 번호를 볼 수 있습니다. **개인** 소유 장치인 경우 전화 번호의 마지막 네 자리만 회사에 표시됩니다. 장치의 **장치 세부 정보** 페이지를 열어 각 개별 장치의 **소유권 유형**을 확인할 수 있습니다. 
+-  전화 번호: **회사** 소유 장치인 경우 전체 전화 번호를 볼 수 있습니다. **개인** 소유 장치인 경우 전화 번호의 마지막 네 자리만 회사에 표시됩니다. 장치의 **장치 세부 정보** 페이지를 열어 각 개별 장치의 **소유권 유형**을 확인할 수 있습니다.
 -  위치: 감독되는 iOS 장치를 분실한 경우를 제외하고, 회사에서는 장치의 위치를 확인할 수 없습니다. [어떻게 알 수 있나요?](https://go.microsoft.com/fwlink/?linkid=853816)
+- 앱 인벤토리: 회사에서 Mobile Threat Defense를 사용하는 경우 장치에 있는 앱에 대한 세부 정보를 볼 수 있습니다. [Mobile Threat Defense](you-are-prompted-to-install-mtd-ios.md)에 대해 자세히 알아보세요.
