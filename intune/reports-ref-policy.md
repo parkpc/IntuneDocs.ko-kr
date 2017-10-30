@@ -14,11 +14,11 @@ ms.assetid: D5ADB9D8-D46A-43BD-AB0F-D6927508E3F4
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6af0ff1f463c153e62f6df63ce811076c5f692f2
-ms.sourcegitcommit: addf6a40caa22c22adfd2e2eff7d666cd1877e3c
+ms.openlocfilehash: 079cfe097d6cf462f9ccd0a32d2e327b3b605e40
+ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/20/2017
 ---
 # <a name="reference-for-policy-entities"></a>정책 엔터티에 대한 참조
 
@@ -36,13 +36,13 @@ ms.lasthandoff: 08/04/2017
 | 속성  | 설명 | 예 |
 |---------|------------|--------|
 | PolicyKey |데이터 웨어하우스에서 정책을 나타내는 고유 키 |123 |
-| PolicyId |데이터 웨어하우스에서 정책의 고유 식별자 |b66bc706-ffff-7437-0340-032819502773 |
+| PolicyId |데이터 웨어하우스의 정책에 대한 고유 식별자 |b66bc706-ffff-7437-0340-032819502773 |
 | PolicyName |정책 이름 |"Windows 10 Baseline" |
 | PolicyVersion |정책 버전 정책이 편집, 변경되었거나 새 버전이 만들어진 날짜입니다. |1, 2, 3 |
-| IsDeleted |정책 레코드가 업데이트되었는지 나타냅니다.  True - 정책에 업데이트된 필드를 포함한 새 레코드가 있습니다. False- 정책에 대한 최신 레코드입니다. |True/False |
-| StartDateInclusiveUTC |데이터 웨어하우스에서 정책이 만들어진 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
-| DeletedDateUTC |IsDeleted가 True로 변경된 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
-| RowLastModifiedDateTimeUTC |데이터 웨어하우스에서 정책이 마지막으로 수정된 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
+| IsDeleted |정책 레코드가 업데이트되었는지 나타냅니다.  <br>True - 정책에 업데이트된 필드를 포함한 새 레코드가 있습니다. <br>False- 정책에 대한 최신 레코드입니다. |True/False |
+| StartDateInclusiveUTC |데이터 웨어하우스에서 정책을 만든 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
+| DeletedDateUTC |IsDeleted를 True로 변경한 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
+| RowLastModifiedDateTimeUTC |데이터 웨어하우스에서 정책을 마지막으로 수정한 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
 
 ## <a name="policytype"></a>PolicyType
 
@@ -50,9 +50,9 @@ ms.lasthandoff: 08/04/2017
 
 | 속성  | 설명 | 예 |
 |---------|------------|--------|
-| PolicyTypeId |원본 시스템에서 정책의 고유 식별자 |123 |
-| PolicyTypeKey |데이터 웨어하우스에서 정책의 고유 식별자 |1 |
-| PolicyTypeName |정책 형식의 이름입니다. |Windows 10 규정 준수 정책 |
+| PolicyTypeId |원본 시스템의 정책에 대한 고유 식별자 |123 |
+| PolicyTypeKey |데이터 웨어하우스의 정책에 대한 고유 식별자 |1 |
+| PolicyTypeName |정책 형식의 이름입니다. |Windows 10 준수 정책 |
 
 ## <a name="deviceconfiguration"></a>DeviceConfiguration
 
@@ -60,11 +60,11 @@ ms.lasthandoff: 08/04/2017
 
 | 속성  | 설명 | 예 |
 |---------|------------|--------|
-| DateKey |데이터 웨어하우스에서 장치 구성 프로필 체크인이 기록된 날짜 키 |20160703 |
-| Pending |보류 상태에 있는 고유 장치 수 |123 |
-| 성공 |성공 상태에 있는 고유 장치 수 |12 |
-| 오류 |오류 상태에 있는 고유 장치 수 |10 |
-| Failed |실패 상태에 있는 고유 장치 수 |2 |
+| DateKey |데이터 웨어하우스에서 장치 구성 프로필 체크 인을 기록했을 때의 날짜 키 |20160703 |
+| 보류 중 |보류 중 상태에 있는 고유 장치의 수 |123 |
+| 성공 |성공 상태에 있는 고유 장치의 수 |12 |
+| 오류 |오류 상태에 있는 고유 장치의 수 |10 |
+| 실패 |실패 상태에 있는 고유 장치의 수 |2 |
 
 ## <a name="userconfiguration"></a>UserConfiguration
 
@@ -72,11 +72,11 @@ ms.lasthandoff: 08/04/2017
 
 | 속성  | 설명 | 예 |
 |---------|------------|--------|
-| DateKey |데이터 웨어하우스에서 장치 구성 프로필 체크인이 기록된 날짜 키 |20160703 |
-| Pending |보류 상태에 있는 고유 사용자 수 |123 |
+| DateKey |데이터 웨어하우스에서 장치 구성 프로필 체크 인을 기록했을 때의 날짜 키 |20160703 |
+| 보류 중 |보류 중 상태에 있는 고유 사용자 수 |123 |
 | 성공 |성공 상태에 있는 고유 사용자 수 |12 |
 | 오류 |오류 상태에 있는 고유 사용자 수 |10 |
-| Failed |실패 상태에 있는 고유 사용자 수 |2 |
+| 실패 |실패 상태에 있는 고유 사용자 수 |2 |
 
 ## <a name="policytypeactivity"></a>PolicyTypeActivity
 
@@ -84,10 +84,10 @@ ms.lasthandoff: 08/04/2017
 
 | 속성  | 설명 | 예 |
 |---------|------------|--------|
-| DateKey |데이터 웨어하우스에서 장치 구성 프로필 체크인이 기록된 날짜 키 |20160703 |
-| PolicyKey |정책 키. 정책과 결합하여 policyName을 가져올 수 있음 |Windows 10 기준 |
-| PolicyTypeKey |정책 키 유형. 정책 유형과 결합하여 정책 유형 이름을 가져올 수 있음 |Windows10Compliance 정책 |
-| Pending |보류 상태에 있는 고유 장치 수 |123 |
-| 성공 |성공 상태에 있는 고유 장치 수 |12 |
-| 오류 |오류 상태에 있는 고유 장치 수 |10 |
-| Fail- |실패 상태에 있는 고유 장치 수 |2 |
+| DateKey |데이터 웨어하우스에서 장치 구성 프로필 체크 인을 기록했을 때의 날짜 키 |20160703 |
+| PolicyKey |정책 키 - Policy와 조인하여 policyName을 가져올 수 있습니다. |Windows 10 기준 |
+| PolicyTypeKey |정책 키 유형 - PolicyType과 조인하여 정책 유형 이름을 가져올 수 있습니다. |Windows10 준수 정책 |
+| 보류 중 |보류 중 상태에 있는 고유 장치의 수 |123 |
+| 성공 |성공 상태에 있는 고유 장치의 수 |12 |
+| 오류 |오류 상태에 있는 고유 장치의 수 |10 |
+| Fail- |실패 상태에 있는 고유 장치의 수 |2 |

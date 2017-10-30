@@ -14,15 +14,15 @@ ms.assetid: 701D6CE9-43F6-4A29-8E84-E2B59931C635
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 52b498beb024b86282c93be7aa5a248800db6609
-ms.sourcegitcommit: 294de4d4058de2c625abb8143e90880d27da9284
+ms.openlocfilehash: a0d6bcb4ccac3563dd642ec0ad621645b7053dea
+ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 10/20/2017
 ---
 #  <a name="intune-data-warehouse-api"></a>Intune 데이터 웨어하우스 API
 
-Intune 데이터 웨어하우스 API를 사용하면 임의의 분석 도구에서 사용할 수 있도록 컴퓨터가 읽을 수 있는 형식으로 Intune 데이터에 액세스할 수 있습니다. API를 사용하여 회사의 모바일 환경에 대한 정보를 제공하는 보고서를 작성할 수 있습니다. API는 다음을 위한 표준 패턴을 따르는 OData 프로토콜을 사용합니다.
+Intune 데이터 웨어하우스 API를 사용하면 즐겨찾는 도구에서 사용할 수 있도록 컴퓨터에서 읽을 수 있는 형식으로 Intune 데이터에 액세스할 수 있습니다. API를 사용하여 회사의 모바일 환경에 대한 정보를 제공하는 보고서를 작성할 수 있습니다. API는 다음을 위한 표준 패턴을 따르는 OData 프로토콜을 사용합니다.
 
   -   요청 및 응답 헤더
   -   상태 코드
@@ -41,9 +41,12 @@ OData(개방형 데이터 프로토콜)는 RESTful API 빌드 및 사용을 위�
 
 ## <a name="odata-custom-client"></a>OData 사용자 지정 클라이언트
 
-RESTful 끝점을 통해 Intune 데이터 웨어하우스 데이터 모델에 액세스할 수 있습니다. 데이터에 대한 액세스 권한을 얻으려면 클라이언트가 OAuth 2.0을 사용하여 Microsoft Azure AD(Azure Active Directory)에 대한 권한을 부여해야 합니다. 먼저 Azure에서 웹앱 및 클라이언트 앱을 설정하고 클라이언트에 권한을 부여합니다. 로컬 클라이언트가 권한을 부여받고, 그러면 데이터 웨어하우스 끝점과 통신할 수 있습니다.
+RESTful 끝점을 통해 Intune 데이터 웨어하우스 데이터 모델에 액세스할 수 있습니다. 데이터에 대한 액세스 권한을 얻으려면 클라이언트에서 OAuth 2.0을 사용하여 Azure AD(Azure Active Directory)를 통해 권한을 부여해야 합니다. 먼저 Azure에서 웹앱 및 클라이언트 앱을 설정하고 클라이언트에 권한을 부여합니다. 로컬 클라이언트에서 권한을 부여받으면 데이터 웨어하우스 끝점과 통신할 수 있습니다.
 
 자세한 내용은 [REST 클라이언트를 사용하여 데이터 웨어하우스 API에서 데이터 가져오기](reports-proc-data-rest.md)를 참조하세요.
+
+> [!Note]  
+> 코드 샘플을 보려면 Github의 [GitHub Intune 데이터 웨어하우스 리포지토리](https://github.com/Microsoft/Intune-Data-Warehouse)에 액세스합니다.
 
 ## <a name="interacting-with-the-api"></a>API 상호 작용
 
@@ -58,6 +61,8 @@ OData는 모든 클라이언트가 데이터 소스에서 노출된 정보에 �
 
 ## <a name="next-steps"></a>다음 단계
 
-[Azure AD의 인증 시나리오](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios)  
-[odata.org](http://www.odata.org)  
-[OData 버전 4.0](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)  
+[Azure AD의 인증 시나리오](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios)를 참조하여 Azure AD를 사용하는 방법에 대해 자세히 알아봅니다.
+
+[odata.org](http://www.odata.org)에서 OData 리소스를 찾습니다.
+  
+[OData 버전 4.0](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)에서 OData 버전 4.0 표준을 검토합니다.  

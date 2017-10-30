@@ -15,11 +15,11 @@ ms.assetid: 1feca24f-9212-4d5d-afa9-7c171c5e8525
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e9701bbe4f39d310786fb399b3152595744019a1
-ms.sourcegitcommit: 0ee9909fc041c2e49c0e0312ae05f40bbeb2ee51
+ms.openlocfilehash: e536a31443a7140785a1f30af6fe676451e6f62c
+ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2017
+ms.lasthandoff: 10/20/2017
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Microsoft Intune에서 Managed Browser 정책을 사용하여 인터넷 액세스 관리
 
@@ -37,7 +37,11 @@ Managed Browser는 조직에서 사용하기 위해 공개 앱 스토어에서 �
 
 자세한 내용은 [앱 보호 정책이란?](/intune/app-protection-policy)을 참조하세요.
 
-Intune에 등록된 장치, 다른 장치 관리 제품에 등록된 장치 및 관리되지 않는 장치에 이러한 설정을 적용할 수 있습니다.
+이러한 설정을 적용할 수 있는 장치는 다음과 같습니다.
+
+- Intune에 등록된 장치
+- 다른 MDM 제품에 등록된 장치
+- 관리되지 않는 장치
 
 사용자가 앱 스토어에서 Managed Browser를 설치했는데 Intune에서 Managed Browser를 관리하지 않는 경우에는 Managed Browser를 기본 웹 브라우저로 사용할 수 있습니다. 이 경우 Microsoft MyApps 사이트를 통해 Single Sign-On이 지원됩니다. 사용자는 MyApps 사이트로 직접 이동되며, 여기서 프로비저닝된 모든 SaaS 응용 프로그램을 확인할 수 있습니다.
 Managed Browser는 Intune에서 관리되지 않는 동시에 다른 Intune 관리 응용 프로그램의 데이터에 액세스할 수 없습니다. 

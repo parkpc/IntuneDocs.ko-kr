@@ -13,11 +13,11 @@ ms.assetid: 6a88573a-aa60-455c-858c-74562798246b
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8ae828adff5d159c24e436b35ed480033c54560f
-ms.sourcegitcommit: 29ee35da2864b25f4432d2423b285014c77040af
+ms.openlocfilehash: 85e4712a204032497cb7fd31dbee910d52ac08b7
+ms.sourcegitcommit: 128770ecc820f6ff3c99b15752bce7a58257f1d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2017
+ms.lasthandoff: 10/21/2017
 ---
 # <a name="prevent-unauthorized-access-to-company-data"></a>회사 데이터에 대한 무단 액세스 방지 
 
@@ -45,4 +45,4 @@ ms.lasthandoff: 09/23/2017
 다음 단계의 일부로, 다음을 비롯하여 회사 데이터의 보안을 향상할 수 있는 다른 방법에 대해 자세히 알아볼 수 있습니다. 
 
 * [iOS 및 Android 장치에서 Azure Information Protection](https://docs.microsoft.com/information-protection/rms-client/mobile-app-faq)을 사용하는 방법에 대해 알아봅니다.
-* Windows Phone 및 Mac 컴퓨터의 경우 [Microsoft Rights Management SharePoint 응용 프로그램](https://technet.microsoft.com/dn451248)에 대해 알아봅니다.
+* Windows Phone 및 Mac 컴퓨터의 경우 [Microsoft Rights Management 공유 응용 프로그램](https://technet.microsoft.com/dn451248)에 대해 알아봅니다.

@@ -15,11 +15,11 @@ ms.assetid: 89f2d806-2e97-430c-a9a1-70688269627f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fee635b6c50355a4af8b418c9f8e7fae8e88cff0
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 759207adf49308dcd4e6253627e4a1213be22904
+ms.sourcegitcommit: 2e77fe177a3df1dfe48e72f4c2bfaa1f0494c621
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/19/2017
 ---
 # <a name="windows-10-and-later-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 이상 장치 제한 설정
 
@@ -64,7 +64,7 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
     -   **이전 암호 다시 사용 방지** - 장치에 기억될 이전에 사용된 암호의 수를 지정합니다.
     -   **장치가 유휴 상태에서 되돌아올 때 암호 요구(Mobile만 해당)** - 사용자가 장치 잠금을 해제하기 위해 암호를 입력해야 할지 여부를 지정합니다(Windows 10 Mobile에만 해당).
     -   **단순 암호** – 1111 및 1234와 같은 단순 암호를 사용할 수 있습니다. 또한 이 설정은 Windows 사진 암호의 사용을 허용하거나 차단합니다.
--   **암호화** -대상 장치에서 암호화를 사용하도록 설정합니다(Windows 10 Mobile에만 해당).
+-   **암호화** - 대상 장치에서 암호화를 사용하도록 설정합니다.
 
 ## <a name="personalization"></a>Personalization
 

@@ -14,11 +14,11 @@ ms.assetid: A92DEF30-5D01-4774-9917-E26F5F0E2E68
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: cd684feec1df6b20f9349052496a21895527710b
-ms.sourcegitcommit: 0d9bfd92bf5958261ed83b1f150bf207b7ba7e56
+ms.openlocfilehash: 9fd14c985b4cedcd0575b2b6ea29e7aa4d8bb2d4
+ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2017
+ms.lasthandoff: 10/20/2017
 ---
 # <a name="reference-for-application-entities"></a>응용 프로그램 엔터티에 대한 참조
 
@@ -36,21 +36,21 @@ ms.lasthandoff: 09/21/2017
 
 | 속성  | 설명 | 예 |
 |---------|------------|--------|
-| AppKey |앱의 고유 식별자 |123 |
+| AppKey |앱에 대한 고유 식별자 |123 |
 | ApplicationId |앱의 고유 식별자 - AppKey와 유사하지만 이 키는 자연어입니다. |b66bc706-ffff-7437-0340-032819502773 |
-| 수정 |관리자가 이진 파일을 업로드할 때 언급한 버전 |2 |
-| 제목 |앱의 이름 |Excel |
+| 수정 버전 |이진 파일을 업로드하는 동안 관리자가 설명한 버전 |2 |
+| 제목 |앱의 제목 |Excel |
 | 게시자 |앱의 게시자 |Microsoft |
 | UploadState |앱의 업로드 상태 |1 |
 | AppTypeKey |다음 섹션에 설명된 AppType에 대한 참조입니다. | |
 | VppProgramTypeKey |아래에 설명된 VppProgramType에 대한 참조 | |
-| CreationTime |이 수정 버전을 만든 시간 |11/23/2016 12:00:00 AM |
-| ModifiedTime |이 수정 버전과 관련된 항목이 마지막으로 변경된 시간 |11/23/2016 12:00:00 AM |
-| Size |이진 파일의 크기 | |
-| StartDateInclusiveUTC |이 앱 수정 버전이 데이터 웨어하우스에서 생성된 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
-| EndDateExclusiveUTC |이 앱 수정 버전이 중단되는 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
-| IsCurrent |이 앱 버전이 최신인지 또는 데이터 웨어하우스에 없는지 표시 |True/False |
-| RowLastModifiedDateTimeUTC |데이터 웨어하우스에서 이 앱 버전을 마지막으로 수정한 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
+| CreationTime |해당 수정 버전을 만든 시간 |11/23/2016 12:00:00 AM |
+| ModifiedTime |해당 수정 버전과 관련된 항목을 마지막으로 변경한 시간 |11/23/2016 12:00:00 AM |
+| 크기 |이진 파일의 크기 | |
+| StartDateInclusiveUTC |데이터 웨어하우스에서 해당 앱의 수정 버전을 만든 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
+| EndDateExclusiveUTC |해당 앱의 수정 버전이 더 이상 사용되지 않는 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
+| IsCurrent |해당 앱의 수정 버전이 데이터 웨어하우스에 있는지 여부를 나타냅니다. |True/False |
+| RowLastModifiedDateTimeUTC |데이터 웨어하우스에서 해당 앱의 버전을 마지막으로 수정한 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
 
 ## <a name="apptypes"></a>AppTypes
 
@@ -66,19 +66,19 @@ ms.lasthandoff: 09/21/2017
 
 | AppTypeID  | Name | 설명 |
 |---------|------------|--------|
-| 0 |Android 스토어 앱 |Android 스토어 앱 |
-| 1 |Android LOB 앱 |Android 기간 업무 앱 |
-| 2 |관리되는 Android 스토어 앱(MAM) |관리를 사용하도록 설정한 Android 스토어 앱 |
-| 3 |iOS 스토어 앱 |iOS 스토어 앱 |
-| 4 |iOS LOB 앱 |iOS 기간 업무 앱 |
-| 5 |관리되는 iOS 스토어 앱(MAM?) |관리를 사용하도록 설정한 iOS 스토어 앱 |
-| 6 |O365 Pro Plus 도구 모음 |Windows 10용 Office 365 Pro Plus 제품군 |
-| 7 |웹앱 |웹앱 |
-| 8 |Windows Phone 8.1 스토어 앱 |Windows Phone 8.1 스토어 앱 |
-| 9 |Windows 스토어 앱 |Windows 스토어 앱 |
-| 10 |Windows LOB 앱 |Windows AppX 기간 업무 앱 |
-| 11 |Windows Mobile MSI |MSI 기간 업무 앱 |
-| 12 |Windows Phone LOB 앱 |Windows Phone LOB(기간 업무) 앱 |
+| 0 |Android 스토어 앱 | Android 스토어 앱 |
+| 1 |Android LOB 앱 | Android 기간 업무 앱 |
+| 2 |관리되는 Android 스토어 앱(MAM) | 관리를 사용하도록 설정된 Android 스토어 앱 |
+| 3 |iOS 스토어 앱 | iOS 스토어 앱 |
+| 4 |iOS LOB 앱 | iOS 기간 업무 앱 |
+| 5 |관리되는 iOS 스토어 앱(MAM?) | 관리를 사용하도록 설정된 iOS 스토어 앱 |
+| 6 |O365 Pro Plus 도구 모음 | Windows 10용 Office 365 Pro Plus 제품군 |
+| 7 |웹앱 | 웹앱 |
+| 8 |Windows Phone 8.1 스토어 앱 | Windows Phone 8.1 스토어 앱 |
+| 9 |Windows 스토어 앱 | Windows 스토어 앱 |
+| 10 |Windows LOB 앱 | Windows AppX 기간 업무 앱 |
+| 11 |Windows Mobile MSI | MSI 기간 업무 앱 |
+| 12 |Windows Phone LOB 앱 | Windows Phone 기간 업무 앱 |
 
 
 ## <a name="vppprogramtypes"></a>VppProgramTypes
@@ -87,17 +87,17 @@ ms.lasthandoff: 09/21/2017
 
 | 속성  | 설명 |
 |---------|------------|
-| VppProgramTypeID |형식에 대한 ID |
-| VppProgramTypeKey |키에 대한 대리 키 |
-| VppProgramTypeName |Vpp 프로그램 유형 |
+| VppProgramTypeID | 형식에 대한 ID |
+| VppProgramTypeKey | 키에 대한 서로게이트 키 |
+| VppProgramTypeName | VPP 프로그램 유형 |
 
 ## <a name="example"></a>예
 
 | VppProgramID  | Name | 설명 |
 |---------|------------|--------|
-| 3DDA2474-470B-4503-9830-2665C21C1945 |Microsoft |Microsoft의 VPP 프로그램 |
-| 00000000-0000-0000-0000-000000000000 |아직 사용할 수 없음 |기본값, VPP 아님 |
-| B54814E0-68EA-4BA4-8088-B5AAB58E737B |Apple |Apple VPP 프로그램 |
+| 3DDA2474-470B-4503-9830-2665C21C1945 | Microsoft | Microsoft의 VPP 프로그램 |
+| 00000000-0000-0000-0000-000000000000 | 아직 사용할 수 없음 | 기본값, VPP 없음 |
+| B54814E0-68EA-4BA4-8088-B5AAB58E737B | Apple | Apple의 VPP 프로그램 |
 
 
 
@@ -107,8 +107,8 @@ ms.lasthandoff: 09/21/2017
 
 | 속성  | 설명 |
 |---------|------------|
-| DeviceKey |Intune 장치 ID를 포함하는 장치 테이블에 대한 참조 |
-| DateKey |인벤토리의 날짜를 가리키는 날짜 테이블에 대한 참조 |
-| ApplicationName |응용 프로그램 이름 |
-| ApplicationVersion |응용 프로그램 버전 |
-| BundleSize |응용 프로그램 크기(바이트) |
+| DeviceKey | Intune 장치 ID가 포함된 장치 테이블에 대한 참조 |
+| DateKey | 인벤토리의 날짜를 가리키는 날짜 테이블에 대한 참조 |
+| ApplicationName | 응용 프로그램 이름입니다. |
+| ApplicationVersion | 응용 프로그램의 버전 |
+| BundleSize | 응용 프로그램의 크기(바이트) |

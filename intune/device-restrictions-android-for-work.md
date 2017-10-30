@@ -15,18 +15,19 @@ ms.assetid: 1830720b-16cb-4f2f-a71a-62967f882563
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1c749b72949399dbe709b8ac5554cd919e2b09bc
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: b2f91005394d1bb586dcc07f309c89a8a1f1da7a
+ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/20/2017
 ---
 # <a name="android-for-work-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Android for Work 장치 제한 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="work-profile-settings"></a>업무용 프로필 설정
-- **회사 프로필과 개인 프로필 간 데이터 공유** - 이 설정을 사용하여 회사 프로필의 앱이 개인 프로필의 앱과 공유할 수 있는지 여부를 제어합니다. 이 설정은 응용 프로그램 내의 공유 작업(예: Chrome 브라우저 앱의 **공유...** 옵션)을 제어하며 복사/붙여넣기 클립보드 동작에는 적용되지 않습니다. [앱 보호 정책 설정](https://docs.microsoft.com/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)과 달리 장치 제한 설정은 Azure Portal에서 관리되며, Android for Work 작업 프로필 파티션을 사용하여 관리되는 앱을 격리합니다. 다음 중에서 선택합니다.
+-   **회사 및 개인 프로필 간 복사 및 붙여넣기** - 회사 앱과 개인 앱 간 복사 및 붙여넣기를 제어합니다. 차단을 사용하려면 **차단**을 선택합니다. 차단을 사용하지 않으려면 **구성되지 않음**을 선택합니다.
+- **회사 프로필과 개인 프로필 간 데이터 공유** - 이 설정을 사용하여 회사 프로필의 앱이 개인 프로필의 앱과 공유할 수 있는지 여부를 제어합니다. 이 설정은 응용 프로그램 내의 공유 작업(예: Chrome 브라우저 앱의 **공유...** 옵션)을 제어하며 복사/붙여넣기 클립보드 동작에는 적용되지 않습니다. [앱 보호 정책 설정](https://docs.microsoft.com/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)과 달리 장치 제한 설정은 Intune 포털에서 관리되며, Android for Work 작업 프로필 파티션을 사용하여 관리되는 앱을 격리합니다. 다음 중에서 선택합니다.
     - **기본 공유 제한** - 이 설정은 장치의 기본 공유 동작으로 실행 중인 Android의 버전에 따라 달라집니다. 기본적으로 개인 프로필에서 회사 프로필로의 공유가 허용됩니다. 또한 기본적으로 회사 프로필에서 개인 프로필로의 공유는 차단됩니다. 이 설정을 통해 회사 프로필에서 개인 프로필로의 데이터 공유를 방지합니다. Google의 경우 6.0 이상 버전을 실행 중인 장치에서는 개인 프로필에서 회사 프로필로의 공유를 차단하는 방법을 제공하지 않습니다.   
     - **회사 프로필의 앱에서 개인 프로필의 공유 요청을 처리할 수 있음** - 이 옵션을 사용하여 개인 프로필에서 회사 프로필로의 공유를 허용하는 Android의 기본 제공 기능을 사용하도록 설정합니다. 이 옵션이 사용하도록 설정되어 있으면 개인 프로필에 있는 앱의 공유 요청이 회사 프로필에 있는 앱과 데이터를 공유할 수 있습니다. 이 설정은 6.0 이전 버전을 실행 중인 Android 장치의 기본 동작입니다.
     - **경계를 넘은 공유 허용** - 두 방향 모두에서 회사 프로필 경계를 벗어난 공유가 가능합니다. 이 설정을 선택하면 회사 프로필에 있는 앱이 개인 프로필의 배지가 달리지 않은 앱과 데이터를 공유할 수 있습니다. 이 설정을 사용할 경우 회사 프로필의 관리되는 앱이 장치의 관리되지 않는 부분에 있는 앱과 데이터를 공유할 수 있으므로 주의해야 합니다.

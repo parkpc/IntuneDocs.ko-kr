@@ -14,11 +14,11 @@ ms.assetid: 6955E12D-70D7-4802-AE3B-8B276F01FA4F
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 957f05e87f777f62b74c8849c5b494fa638e92f4
-ms.sourcegitcommit: 0ee9909fc041c2e49c0e0312ae05f40bbeb2ee51
+ms.openlocfilehash: 6d8c4af1ff091fbb125ec8a06b3c46cc2424a0bd
+ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2017
+ms.lasthandoff: 10/20/2017
 ---
 # <a name="reference-for-devices-entities"></a>장치 엔터티에 대한 참조
 
@@ -122,9 +122,9 @@ ms.lasthandoff: 10/14/2017
 
 | 속성  | 설명 | 예 |
 |---------|------------|--------|
-| ownerTypeID |소유자 유형의 고유 식별자 | |
-| ownerTypeKey |데이터 웨어하우스에서 소유자 유형의 고유 식별자 - 대리 키 | |
-| ownerTypeName |장치 소유자 유형을 나타냅니다: 회사 - 회사 소유 장치입니다. 개인 - 개인 소유 장치입니다(BYOD).  알 수 없음 - 이 장치에 대한 정보가 없습니다. |회사 개인 알 수 없음 |
+| ownerTypeID |소유자 유형에 대한 고유 식별자 | |
+| ownerTypeKey |데이터 웨어하우스의 소유자 유형에 대한 고유 식별자 - 서로게이트 키 | |
+| ownerTypeName |장치의 소유자 유형을 나타냅니다.  <br>회사 - 회사 소유 장치입니다. <br>개인 - 개인 소유 장치입니다(BYOD).  <br>알 수 없음 - 이 장치에 대한 정보가 없습니다. |회사 개인 알 수 없음 |
 
 ## <a name="mdmstatuses"></a>MdmStatuses
 
@@ -132,7 +132,7 @@ ms.lasthandoff: 10/14/2017
 
 | 속성  | 설명 | 예 |
 |---------|------------|--------|
-| MdmStatusName |MdmStatus 식별자 |0 - 알 수 없음 1 - 호환 2 - 호환되지 않음 |
+| MdmStatusName |MdmStatus 식별자 |0 - 알 수 없음 <br>1 - 준수 <br>2 - 비준수 |
 | MdmStatusKey |데이터 웨어하우스에서 규정 준수 상태의 고유 식별자 - 대리 키 | |
 
 ## <a name="managementstates"></a>ManagementStates
@@ -141,26 +141,26 @@ ms.lasthandoff: 10/14/2017
 
 | 속성  | 설명 |
 |---------|------------|
-| managementStateID |관리 상태의 고유 식별자 |
-| managementStateKey |데이터 웨어하우스에서 관리 상태의 고유 식별자 - 대리 키 |
-| managementStateName |이 장치에 적용된 원격 작업의 상태를 나타냅니다. |
+| managementStateID | 관리 상태의 고유 식별자입니다. |
+| managementStateKey | 데이터 웨어하우스에서 관리 상태의 고유 식별자 - 대리 키 |
+| managementStateName | 이 장치에 적용된 원격 작업의 상태를 나타냅니다. |
 
 ## <a name="example"></a>예
 
 | managementStateID  | Name | 설명 |
 |---------|------------|--------|
-| 0 |관리 대상 |보류 중인 원격 작업 없이 관리됨 |
-| 1 |RetirePending |장치에 대한 보류 중인 사용 중지 명령이 없습니다. |
-| 2 |RetireFailed |장치에서 사용 중지 명령이 실패했습니다. |
-| 3 |WipePending |장치에 대한 보류 중인 초기화 명령이 있습니다. |
-| 4 |WipeFailed |장치에서 초기화 명령이 실패했습니다. |
-| 5 |Unhealthy |비정상 상태 |
-| 6 |DeletePending |장치에 대한 보류 중인 삭제 명령이 있습니다. |
-| 7 |RetireIssued |장치로 사용 중지 명령이 실행되었습니다. |
-| 8 |WipeIssued |초기화 명령이 실행되었습니다. |
-| 9 |WipeCanceled |초기화 명령이 취소되었습니다. |
-| 10 |RetireCanceled |사용 중지 명령이 취소되었습니다. |
-| 11 |Discovered |장치가 처음으로 -Managed- 상태가 되면 Intune에서 새로 발견됩니다. |
+| 0 |관리 대상 | 보류 중인 원격 작업 없이 관리됨 |
+| 1 |RetirePending | 장치에 대한 보류 중인 사용 중지 명령이 없습니다. |
+| 2 |RetireFailed | 장치에서 사용 중지 명령이 실패했습니다. |
+| 3 |WipePending | 장치에 대한 보류 중인 초기화 명령이 있습니다. |
+| 4 |WipeFailed | 장치에서 초기화 명령이 실패했습니다. |
+| 5 |비정상 | 비정상 상태 |
+| 6 |DeletePending | 장치에 대한 보류 중인 삭제 명령이 있습니다. |
+| 7 |RetireIssued | 장치로 사용 중지 명령이 실행되었습니다. |
+| 8 |WipeIssued | 초기화 명령이 실행되었습니다. |
+| 9 |WipeCanceled | 초기화 명령이 취소되었습니다. |
+| 10 |RetireCanceled | 사용 중지 명령이 취소되었습니다. |
+| 11 |Discovered | Intune에서 장치를 새로 검색하고 해당 장치를 처음으로 체크 인하면 '관리됨' 상태가 됩니다. |
 
 ## <a name="workplacejoinstatetypes"></a>WorkPlaceJoinStateTypes
 
@@ -168,9 +168,9 @@ ms.lasthandoff: 10/14/2017
 
 | 속성  | 설명 |
 |---------|------------|
-| WorkPlaceJoinStateID |작업 공간 참여 상태의 고유 식별자 |
-| WorkPlaceJoinStateKey |데이터 웨어하우스에서 작업 공간 참여 상태에 대한 고유 식별자 - 대리 키 |
-| WorkPlaceJoinStateName |작업 공간 참여 상태 |
+| WorkPlaceJoinStateID | 작업 공간 참여 상태의 고유 식별자 |
+| WorkPlaceJoinStateKey | 데이터 웨어하우스에서 작업 공간 참여 상태에 대한 고유 식별자 - 대리 키 |
+| WorkPlaceJoinStateName | 작업 공간 참여 상태 |
 
 ## <a name="example"></a>예
 
@@ -192,21 +192,21 @@ ms.lasthandoff: 10/14/2017
 
 | 속성  | 설명 |
 |---------|------------|
-| ManagementAgentTypeID |관리 에이전트 유형의 고유 식별자 |
-| ManagementAgentTypeKey |데이터 웨어하우스에서 관리 에이전트 유형의 고유 식별자 - 대리 키 |
+| ManagementAgentTypeID | 관리 에이전트 유형에 대한 고유 식별자 |
+| ManagementAgentTypeKey | 데이터 웨어하우스의 관리 에이전트 유형에 대한 고유 식별자 - 서로게이트 키 |
 | ManagementAgentTypeName |장치 관리에 사용되는 에이전트의 종류를 나타냅니다. |
 
 ## <a name="example"></a>예
 
 | ManagementAgentTypeID  | Name | 설명 |
 |---------|------------|--------|
-| 1 |EAS |Exchange Active Sync를 통해 장치를 관리 |
-| 2 |MDM |장치가 MDM 에이전트를 사용하여 관리됨 |
-| 3 |EasMdm |장치가 Exchange Activesync와 MDM 에이전트를 둘 다 사용하여 관리됨 |
-| 4 |IntuneClient |장치가 Intune PC 에이전트를 사용하여 관리됨 |
-| 5 |EasIntuneClient |장치가 Exchange Active Sync와 Intune PC 에이전트를 둘 다 사용하여 관리됨 |
-| 8 |ConfigManagerClient |장치가 System Center Configuration Manager 에이전트를 사용하여 관리됨 |
-| 16 |알 수 없음 |알 수 없는 관리 에이전트 유형 |
+| 1 |EAS | Exchange Active Sync를 통해 장치를 관리 |
+| 2 |MDM | 장치가 MDM 에이전트를 사용하여 관리됨 |
+| 3 |EasMdm | 장치가 Exchange Activesync와 MDM 에이전트를 둘 다 사용하여 관리됨 |
+| 4 |IntuneClient | 장치가 Intune PC 에이전트를 사용하여 관리됨 |
+| 5 |EasIntuneClient | 장치가 Exchange Active Sync와 Intune PC 에이전트를 둘 다 사용하여 관리됨 |
+| 8 |ConfigManagerClient | 장치가 System Center Configuration Manager 에이전트를 사용하여 관리됨 |
+| 16 |알 수 없음 | 알 수 없는 관리 에이전트 유형 |
 
 ## <a name="devices"></a>장치
 
@@ -214,44 +214,44 @@ ms.lasthandoff: 10/14/2017
 
 | 속성  | 설명 |
 |---------|------------|
-| DeviceKey |데이터 웨어하우스에서 장치의 고유 식별자 - 대리 키 |
-| DeviceId |장치의 고유 식별자 |
-| DeviceName |장치 이름 지정을 허용하는 플랫폼에서 장치의 이름입니다. 다른 플랫폼에서 Intune은 다른 속성으로부터 이름을 만듭니다. 이 특성은 모든 장치에 대해 사용할 수 없습니다. |
-| DeviceTypeKey |이 장치에 대한 장치 유형 특성의 키 |
-| ClientRegisterationStateKey |이 장치에 대한 클라이언트 등록 상태 특성의 키 |
-| OwnerTypeKey |이 장치에 대한 소유자 유형 특성의 키: 회사, 개인 또는 알 수 없음. |
-| objectSourceKey |이 열을 무시합니다. |
-| CreatedDate |장치가 등록된 날짜 |
-| LastContact |Intune에서 마지막으로 알려진 장치 체크인 |
-| LastContactNotification |Intune에서 장치에 체크인을 마지막으로 알린 시간 |
-| LastContactWorkplaceJoin |이 장치에 대한 마지막으로 알려진 작업 공간 참여 상태를 나타내는 타임스탬프입니다. |
-| ManagementAgentKey |이 장치와 연결된 관리 에이전트의 키입니다. |
-| ManagementStateKey |이 장치와 연결된 관리 상태의 키로 원격 작업의 마지막 상태를 나타내거나 탈옥/루팅 여부를 나타냅니다. |
-| 참조 |Azure Active Directory에서 장치 ID |
-| WorkPlaceJoinStateKey |이 장치와 연결된 작업 공간 참여 상태의 키입니다. |
-| CategoryId |이 열을 무시합니다. |
-| EnrollmentTypeKey |이 장치와 연결된 등록 유형 키로 등록 메서드를 나타냅니다. |
-| CertExpirationDate |MDM 관리 인증서의 만료 날짜입니다. |
-| MdmStatusKey |MdmStatus에 대한 키 |
-| OSFamily |OS 제품군(Windows, iOS, Android 등) |
-| OSVersion |OS 버전 |
-| OSMajorVersion |OS 버전의 주 버전 구성 요소(major.minor.build.revision) |
-| OSMinorVersion |OS 버전의 부 버전 구성 요소(major.minor.build.revision) |
-| OSBuildNumber |OS 버전의 빌드 버전 구성 요소(major.minor.build.revision) |
-| OSRevisionNumber |OS 버전의 수정 버전 구성 요소(major.minor.build.revision) |
-| EasID |Exchange Active Sync에서 관리하는 장치의 경우 이 장치의 EAS ID입니다. |
-| GraphDeviceIsManaged |Intune이 AAD에서 마지막으로 설정한 관리 상태 |
-| GraphDeviceIsCompliant |Intune이 AAD에서 마지막으로 설정한 규정 준수 상태 |
-| SerialNumber |장치의 일련 번호(사용 가능한 경우) |
-| EnrolledByUser |사용자 테이블의 사용자 ID 열을 참조하는 이 장치를 등록한 사용자의 ID입니다. |
-| RowLastModifiedDateTimeUTC |이 레코드를 마지막으로 수정한 시간입니다. |
-| ProcessorArchitecture |프로세서 아키텍처 |
-| DeviceAction |마지막으로 실행된 장치 작업. 지금은 무시합니다. |
-| 제조업체 |장치 제조업체 |
-| 모델 |장치의 모델 |
-| LastPolicyUpdateUtc |정책이 장치에서 업데이트된 마지막 시간 |
-| LastExchangeStatusUtc |장치를 exchange와 마지막으로 동기화한 시간입니다. |
-| IsDeleted |더 이상 Intune에서 장치를 관리하지 않는 경우 True로 설정합니다. 마지막으로 알려진 상태를 유지합니다. |
+| DeviceKey | 데이터 웨어하우스에서 장치의 고유 식별자 - 대리 키 |
+| DeviceId | 장치에 대한 고유 식별자 |
+| DeviceName | 장치 이름 지정을 허용하는 플랫폼에서 장치의 이름입니다. 다른 플랫폼에서 Intune은 다른 속성으로부터 이름을 만듭니다. 이 특성은 모든 장치에 대해 사용할 수 없습니다. |
+| DeviceTypeKey | 이 장치에 대한 장치 유형 특성의 키 |
+| ClientRegisterationStateKey | 이 장치에 대한 클라이언트 등록 상태 특성의 키 |
+| OwnerTypeKey | 이 장치에 대한 소유자 유형 특성의 키: 회사, 개인 또는 알 수 없음. |
+| objectSourceKey | 이 열을 무시합니다. |
+| CreatedDate | 장치를 등록한 날짜 |
+| LastContact | Intune에서 마지막으로 인식된 장치 체크 인 |
+| LastContactNotification | Intune에서 장치를 체크 인하도록 마지막으로 알린 시간 |
+| LastContactWorkplaceJoin | 이 장치에 대한 마지막으로 알려진 작업 공간 참여 상태를 나타내는 타임스탬프입니다. |
+| ManagementAgentKey | 이 장치와 연결된 관리 에이전트의 키입니다. |
+| ManagementStateKey | 이 장치와 연결된 관리 상태의 키로 원격 작업의 마지막 상태를 나타내거나 탈옥/루팅 여부를 나타냅니다. |
+| 참조 | Azure Active Directory의 장치 ID |
+| WorkPlaceJoinStateKey | 이 장치와 연결된 작업 공간 참여 상태의 키입니다. |
+| CategoryId | 이 열을 무시합니다. |
+| EnrollmentTypeKey | 이 장치와 연결된 등록 유형 키로 등록 메서드를 나타냅니다. |
+| CertExpirationDate | MDM 관리 인증서의 만료 날짜입니다. |
+| MdmStatusKey | MdmStatus에 대한 키 |
+| OSFamily | OS 제품군(Windows, iOS, Android 등) |
+| OSVersion | OS 버전 |
+| OSMajorVersion | OS 버전의 주 버전 구성 요소(major.minor.build.revision) |
+| OSMinorVersion | OS 버전의 부 버전 구성 요소(major.minor.build.revision) |
+| OSBuildNumber | OS 버전의 빌드 버전 구성 요소(major.minor.build.revision) |
+| OSRevisionNumber | OS 버전의 수정 버전 구성 요소(major.minor.build.revision) |
+| EasID | Exchange Active Sync에서 관리하는 장치의 경우 이 장치의 EAS ID입니다. |
+| GraphDeviceIsManaged | Intune이 Azure AD에서 마지막으로 설정한 관리 상태 |
+| GraphDeviceIsCompliant | Intune이 Azure AD에서 마지막으로 설정한 준수 상태 |
+| SerialNumber | 장치의 일련 번호(사용 가능한 경우) |
+| EnrolledByUser | 사용자 테이블의 사용자 ID 열을 참조하는 이 장치를 등록한 사용자의 ID입니다. |
+| RowLastModifiedDateTimeUTC | 이 레코드를 마지막으로 수정한 시간입니다. |
+| ProcessorArchitecture | 프로세서 아키텍처 |
+| DeviceAction | 마지막으로 실행된 장치 작업. 지금은 무시합니다. |
+| 제조업체 | 장치 제조업체 |
+| 모델 | 장치 모델 |
+| LastPolicyUpdateUtc | 장치에서 정책을 마지막으로 업데이트한 시간 |
+| LastExchangeStatusUtc | 장치를 exchange와 마지막으로 동기화한 시간입니다. |
+| IsDeleted | 더 이상 Intune에서 장치를 관리하지 않는 경우 True로 설정합니다. 마지막으로 알려진 상태를 유지합니다. |
 
 ## <a name="devicepropertyhistory"></a>DevicePropertyHistory
 
@@ -259,20 +259,20 @@ ms.lasthandoff: 10/14/2017
 
 | 속성  | 설명 |
 |---------|------------|
-| DateKey |날짜를 가리키는 날짜 테이블을 참조 |
-| DeviceKey |데이터 웨어하우스에서 장치의 고유 식별자 - 대리 키 Intune 장치 ID를 포함하는 장치 테이블에 대한 참조입니다. |
+| DateKey |날짜를 나타내는 날짜 테이블에 대한 참조 |
+| DeviceKey |데이터 웨어하우스에서 장치의 고유 식별자 - 대리 키 Intune 장치 ID가 포함된 장치 테이블에 대한 참조입니다. |
 | DeviceName |장치 이름 지정을 허용하는 플랫폼에서 장치의 이름입니다. 다른 플랫폼에서 Intune은 다른 속성으로부터 이름을 만듭니다. 이 특성은 모든 장치에 대해 사용할 수 없습니다. |
 | DeviceTypeKey |이 장치에 대한 장치 유형 특성의 키 |
 | ClientRegisterationStateKey |이 장치에 대한 클라이언트 등록 상태 특성의 키 |
 | OwnerTypeKey |이 장치에 대한 소유자 유형 특성의 키: 회사, 개인 또는 알 수 없음. |
 | objectSourceKey |이 열을 무시합니다. |
-| CreatedDate |장치가 등록된 날짜 |
-| LastContact |Intune에서 마지막으로 알려진 장치 체크인 |
-| LastContactNotification |Intune에서 장치에 체크인을 마지막으로 알린 시간 |
+| CreatedDate |장치를 등록한 날짜 |
+| LastContact |Intune에서 마지막으로 인식된 장치 체크 인 |
+| LastContactNotification |Intune에서 장치를 체크 인하도록 마지막으로 알린 시간 |
 | LastContactWorkplaceJoin |이 장치에 대한 마지막으로 알려진 작업 공간 참여 상태를 나타내는 타임스탬프입니다. |
 | ManagementAgentKey |이 장치와 연결된 관리 에이전트의 키입니다. |
 | ManagementStateKey |이 장치와 연결된 관리 상태의 키로 원격 작업의 마지막 상태를 나타내거나 탈옥/루팅 여부를 나타냅니다. |
-| 참조 |Azure Active Directory에서 장치 ID |
+| 참조 |Azure Active Directory의 장치 ID |
 | WorkPlaceJoinStateKey |이 장치와 연결된 작업 공간 참여 상태의 키입니다. |
 | CategoryId |이 열을 무시합니다. |
 | EnrollmentTypeKey |이 장치와 연결된 등록 유형 키로 등록 메서드를 나타냅니다. |
@@ -285,55 +285,56 @@ ms.lasthandoff: 10/14/2017
 | OSBuildNumber |OS 버전의 빌드 버전 구성 요소(major.minor.build.revision) |
 | OSRevisionNumber |OS 버전의 수정 버전 구성 요소(major.minor.build.revision) |
 | EasID |Exchange Active Sync에서 관리하는 장치의 경우 이 장치의 EAS ID입니다. |
-| GraphDeviceIsManaged |Intune이 AAD에서 마지막으로 설정한 관리 상태 |
-| GraphDeviceIsCompliant |Intune이 AAD에서 마지막으로 설정한 규정 준수 상태 |
+| GraphDeviceIsManaged |Intune이 Azure AD에서 마지막으로 설정한 관리 상태 |
+| GraphDeviceIsCompliant |Intune이 Azure AD에서 마지막으로 설정한 준수 상태 |
 | SerialNumber |장치의 일련 번호(사용 가능한 경우) |
 | EnrolledByUser |사용자 테이블의 사용자 ID 열을 참조하는 이 장치를 등록한 사용자의 ID입니다. |
 | RowLastModifiedDateTimeUTC |이 레코드를 마지막으로 수정한 시간입니다. |
 | ProcessorArchitecture |프로세서 아키텍처 |
 | DeviceAction |마지막으로 실행된 장치 작업. 지금은 무시합니다. |
 | 제조업체 |장치 제조업체 |
-| 모델 |장치의 모델 |
-| LastPolicyUpdateUtc |정책이 장치에서 업데이트된 마지막 시간 |
+| 모델 |장치 모델 |
+| LastPolicyUpdateUtc |장치에서 정책을 마지막으로 업데이트한 시간 |
 | LastExchangeStatusUtc |장치를 exchange와 마지막으로 동기화한 시간입니다. |
+
 ## <a name="mdmdeviceinventoryhistories"></a>MdmDeviceInventoryHistories
 
 **MdmDeviceInventoryHistories** 엔터티 지난 90일 동안 MDM 관리 장치에 대한 인벤토리 데이터의 일일 스냅숏을 포함합니다. DateKey 열은 행에 대한 날짜를 나타냅니다. 일부 속성은 모든 장치에 대해 적용되지 않거나 입력되지 않을 수 있으므로 이 페이지에서 자세한 내용을 참조하세요. 자세한 내용은 [Microsoft Intune에서 인벤토리를 사용하는 장치 이해](https://docs.microsoft.com/Intune-classic/deploy-use/understand-your-devices-with-inventory-in-microsoft-Intune)를 참조하세요.
 
 | 속성  | 설명 |
 |---------|------------|
-| DateKey |날짜를 가리키는 날짜 테이블을 참조 |
-| DeviceKey |데이터 웨어하우스에서 장치의 고유 식별자 - 대리 키 Intune 장치 ID를 포함하는 장치 테이블에 대한 참조입니다. |
-| DeviceModel |장치의 모델 |
+| DateKey | 날짜를 나타내는 날짜 테이블에 대한 참조 |
+| DeviceKey |데이터 웨어하우스에서 장치의 고유 식별자 - 대리 키 Intune 장치 ID가 포함된 장치 테이블에 대한 참조입니다. |
+| DeviceModel |장치 모델 |
 | OS |장치의 OS |
 | DeviceName |장치 이름 지정을 허용하는 플랫폼에서 장치의 이름입니다. 다른 플랫폼에서 Intune은 다른 속성으로부터 이름을 만듭니다. 이 특성은 모든 장치에 대해 사용할 수 없습니다. |
 | SoftwareVersion |대부분의 경우 OS 버전이지만 Apple 플랫폼의 경우 예외적으로 OS 버전과 다릅니다. |
 | Imei |IMEI 번호 |
 | HardwareInventoryTimeUtc |이 장치에 대해 처음 인벤토리가 보고된 시간입니다. |
-| InventoryModifiedTimeUtc |이 스냅숏을 촬영했을 때 마지막으로 인벤토리가 저장된 시간 |
+| InventoryModifiedTimeUtc |이 스냅숏을 만들 때 인벤토리를 마지막으로 저장한 시간 |
 | InventoryReportingTimeUtc |이 장치에 대해 마지막 시간 인벤토리가 수집된 시간입니다. |
 | ExchangeActiveSyncId |Exchange ActiveSync 장치 ID |
 | ComputerSystemDescription |시스템 설명 |
 | ComputerSystemName |시스템 이름 |
 | ComputerSystemManufacturer |시스템 제조업체 |
 | ComputerSystemModel |시스템 모델 |
-| UserName |사용자 이름 |
+| 사용자 이름 |사용자 이름 |
 | OSType |OS 유형 |
 | OSCaption |OS 캡션 |
 | OSName |OS 이름 |
 | OSManufacturer |OS 제조업체 |
 | OSProductSuite |OS 제품군 |
-| OSProductType |OS 제품 유형 |
+| OSProductType |OS 제품 종류 |
 | 로캘 |OS 로캘 |
-| PhysicalMemoryCapacity |물리적 메모리 용량(바이트) |
-| PhysicalMemoryRemovable |물리적 이동식 메모리(바이트) |
-| SystemEnclosureChassisTypesInnerText |이 장치에 대한 시스템 섀시 종류를 정의합니다. 숫자는 다음 값을 나타냅니다. 0 또는 비어 있음 = 알 수 없음    1 = 데스크톱   2 = 노트북  3 = 워크스테이션  4 = 엔터프라이즈 서버  100 = 전화기  101 = 태블릿  102/103 = 다른 알 수 없는 유형의 모바일 장치 |
+| PhysicalMemoryCapacity |실제 메모리 용량(바이트) |
+| PhysicalMemoryRemovable |이동식 실제 메모리(바이트) |
+| SystemEnclosureChassisTypesInnerText |이 장치에 대한 시스템 섀시 종류를 정의합니다. 숫자는 다음 값을 나타냅니다.  <br>0 또는 비어 있음 = 알 수 없음   <br>1 = 데스크톱   <br>2 = 랩톱  <br>3 = 워크스테이션  <br>4 = 엔터프라이즈 서버  <br>100 = 전화기  <br>101 = 태블릿  <br>102/103 = 알 수 없는 다른 유형의 모바일 장치 |
 | SystemEnclosureModel |시스템 엔클로저 모델 |
 | SystemEnclosureSerialNumber |시스템 엔클로저 일련 번호 |
-| NetworkAdapterConfigurationText |네트워크 어댑터에서의 구성 텍스트 |
+| NetworkAdapterConfigurationText |네트워크 어댑터의 구성 텍스트 |
 | MacAddress |MAC 주소 |
 | SmsID |Intune 장치 ID |
-| CertExpiry |MDM 관리 인증서의 만료 날짜 |
+| CertExpiry |MDM 관리 인증서의 만료 날짜입니다. |
 | DeviceClientAgentVersion |클라이언트 에이전트 버전 |
 | DeviceClientID |장치 클라이언트 ID |
 | SerialNumber |일련 번호 |
@@ -346,12 +347,12 @@ ms.lasthandoff: 10/14/2017
 | ProcessorRevision |프로세서 수정 버전 |
 | 제품 |제품 |
 | ProductVersion |제품 버전 |
-| OEM |Original Equipment Manufacturer |
+| OEM |OEM(주문자 상표 부착 제조업체) |
 | DeviceBuildVersion |장치 빌드 버전 |
 | Meid |Mobile Equipment Identifier |
 | PhoneNumber |전화 번호 |
-| SubscriberCarrierNetwork |통신사 네트워크 이름 |
-| CellularTechnology |통신사 네트워크 종류(CDMA/GSM) |
+| SubscriberCarrierNetwork |전화 통신 회사의 네트워크 이름 |
+| CellularTechnology |전화 통신 회사의 네트워크 형식(CDMA/GSM) |
 | Imsi |IMSI 번호 |
 | 탈옥 |탈옥 또는 루팅 장치의 경우 true입니다. |
 | IsActivationLockEnabled |True이면 활성화 잠금 사용 |
@@ -378,19 +379,19 @@ ms.lasthandoff: 10/14/2017
 | PasswordEnabled |암호 - 사용할 수 있나요? |
 | PasswordExpiration |암호 - 만료 날짜 |
 | AllowRecoveryPassword |암호 복구 허용 |
-| PasswordAutoLockTimeout |암호 - 자동 잠금 시간 초과 |
-| PasswordType |암호 유형 |
-| BacklightACTimeout |전원 연결 시 백라이트 시간 초과 |
-| BacklightBatTimeout |배터리 사용 시 백라이트 시간 초과 |
-| PowerBackupPercent |전원 백업 % |
+| PasswordAutoLockTimeout |암호 - 자동 잠금 시간 제한 |
+| PasswordType |암호 형식 |
+| BacklightACTimeout |전원 연결 시 후광 시간 제한 |
+| BacklightBatTimeout |배터리 사용 시 후광 시간 제한 |
+| PowerBackupPercent |예비 전력 백분율(%) |
 | BatteryPercent |남은 배터리 백분율입니다. |
 | PlatformID |플랫폼 ID |
 | ExchangeDeviceID |Exchange 장치 ID |
 | SmsProcessorDescription |프로세서 설명 |
-| OwnerEmailAddress |소유자의 메일 주소 |
+| OwnerEmailAddress |소유자의 이메일 주소 |
 | DeviceOSName |OS 이름 |
 | WifiMac |WIFI Mac 주소 |
-| EthernetMac |Ethernet MAC 주소 |
+| EthernetMac |이더넷 MAC 주소 |
 | RequireEncryption |장치의 암호화 여부를 나타냅니다. |
 | ActivationLockBypassCode |활성화 잠금 무시 코드 |
 
