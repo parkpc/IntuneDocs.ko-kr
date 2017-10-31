@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a2e6fd2381286aa652a04b5ed34ab21c57ed85f6
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: 973408b292261b86f0a49bfaf4c786d6a6dacf28
+ms.sourcegitcommit: b8d3f8da6d8c2bd5d6140d538193a02d5875aefb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 10/27/2017
 ---
 # <a name="the-early-edition-for-microsoft-intune---october-2017"></a>Microsoft Intune 초기 버전 - 2017년 10월
 
@@ -113,7 +113,7 @@ Windows 10 장치 사용자를 키오스크 모드로 제한할 수 있습니다
 | | |
 |---|---|
 | 구성되지 않음 | **구성되지 않음**에서는 기본 Windows Defender Antivirus 차단 수준을 사용하고 올바른 파일을 감지하는 위험을 늘리지 않고도 강력한 감지 기능을 제공합니다. |
-| 높음 | **높음**은 강력한 검색 수준에 적용됩니다.
+| 높은 | **높음**은 강력한 검색 수준에 적용됩니다.
 | 높음 +  | **높음 +**은 클라이언트 성능에 영향을 줄 수 있는 추가 보호 수단으로 높음 수준을 제공합니다.
 | 허용 오차 제로  | **허용 오차 제로**는 알 수 없는 실행 파일을 모두 차단합니다. |
 
@@ -151,19 +151,6 @@ Android Oreo가 출시되면서 Google은 사용자와 조직이 보안 앱과 �
 ### <a name="support-for-windows-10-edition-upgrade-policy------903672archived-1119689---"></a>Windows 10 버전 업그레이드 정책에 대한 지원  <!-- 903672(archived), 1119689 -->  
 Windows 10 장치를 Windows 10 Education, Windows 10 Education N, Windows 10 Professional, Windows 10 Professional N, Windows 10 Professional Education 및 Windows 10 Professional Education N으로 업그레이드하는 Windows 10 버전 업그레이드 정책을 만들 수 있습니다. Windows 10 버전 업그레이드에 대한 자세한 내용은 [Windows 10 버전 업그레이드 구성 방법](edition-upgrade-configure-windows-10.md)을 참조하세요.
 
-
-### <a name="intune-mam-and-outlook-for-android-add-ins-----1450688---"></a>Android용 Intune MAM 및 Outlook 추가 기능 <!-- 1450688 -->
-몇 주 후에 Office 팀은 Android의 Outlook용 추가 기능을 발표할 것입니다. 이 추가 기능 집합은 Windows, iOS, 웹 및 Mac의 Outlook에 이미 존재합니다. 추가 기능은 Exchange를 통해 관리되기 때문에 사용자는 Outlook 및 관리되지 않는 추가 기능 응용 프로그램에서 데이터와 메시지를 복사하고 공유할 수 있습니다(Exchange 관리자가 추가 기능에 대한 액세스를 해제하지 않은 경우). 
-
-추가 기능에 대한 사용자 액세스 권한을 관리하려면 Exchange 관리자와 함께 작업하여 MAM 데이터 보호 정책이 추가 기능에 적용되도록 합니다.
-
-#### <a name="how-does-this-affect-me"></a>이 변경 사항은 어떤 영향을 미치나요?
-Exchange 정책이 이미 추가 기능을 사이드로드하거나 설치하지 않도록 설정된 경우 더 읽지 마세요. MAM 정책은 예상대로 적용됩니다. 그러나 Android의 Outlook 내에서 잘라내기, 복사 및 붙여넣기 작업을 제한하도록 MAM의 정책을 설정하고 Exchange의 추가 기능 정책을 설정하지 않은 경우, 기본적으로 사용자가 Outlook에 추가 기능을 설치할 수 있습니다. 이러한 추가 기능은 메시지 본문, 제목 및 기타 메시지 속성에 액세스할 수 있습니다. Exchange 관리자가 "내 마켓플레이스 앱" 및 "내 사용자 지정 앱" 역할을 제거하도록 하여 사용자가 추가 기능을 설치하는 기능을 해제할 수 있습니다.
-
-Exchange에서 설정 변경은 Windows, iOS, 웹, Mac 및 모바일의 Outlook에 적용됩니다. 
-
-#### <a name="what-do-i-need-to-do"></a>어떤 작업을 수행해야 하나요?
-지금 Exchange 정책을 검토합니다. IT 및 지원 센터 직원에게 알립니다. 궁금한 사항이 있으면 지원 팀에 문의하세요. 
 
 
 

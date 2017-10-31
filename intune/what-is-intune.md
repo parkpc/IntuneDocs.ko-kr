@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 nmanager: angrobe
-ms.date: 07/17/2017
+ms.date: 10/30/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 4a085264-232a-4af0-97f1-747496c44517
 ms.suite: ems
 ms.custom: 
-ms.openlocfilehash: e3002d08506b68069d617c413a9c3801cf4326f8
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: d83b3d6609e5fd6839e17e46520e4ef3d4551568
+ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/31/2017
 ---
 # <a name="introduction-to-microsoft-intune-in-the-azure-portal"></a>Azure Portal의 Microsoft Intune 소개
 
@@ -43,15 +43,6 @@ Microsoft Intune은 이제 Azure Portal에 포함되었습니다. 따라서 이�
 - 많은 작업을 자동화하는 Microsoft Graph API 지원
 - 모든 Azure 응용 프로그램에서 호환성을 제공하는 Azure AD(Active Directory) 그룹
 - 대부분의 최신 웹 브라우저 지원
-
-> [!IMPORTANT]
-> **새 포털이 아직 보이지 않으세요?**<br>
-> 현재 기존 테넌트를 새로운 환경으로 마이그레이션하는 중입니다. 테넌트가 마이그레이션되기 전에 Office 메시지 센터에 알림이 표시됩니다.
->
-> 2017년 1월 이전에 만든 Intune 계정은 일회성 마이그레이션을 수행해야 Azure에서 Apple 등록 워크플로를 사용할 수 있습니다. 마이그레이션 일정은 아직 공지되지 않았습니다. 기존 계정으로 Azure Portal에 액세스할 수 없는 경우 평가판 계정을 만드는 것이 좋습니다.
->
-> 잠재적 차단 목록을 검토합니다. https://blogs.technet.microsoft.com/intunesupport/2017/05/17/intune-migration-blockers-for-grouping-targeting/
-
 
 ## <a name="before-you-start"></a>시작하기 전에
 

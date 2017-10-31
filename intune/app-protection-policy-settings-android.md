@@ -15,11 +15,11 @@ ms.assetid: 9e9ef9f5-1215-4df1-b690-6b21a5a631f8
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 635f99a0fd4857e9c0c2266371713c102ce37912
-ms.sourcegitcommit: 4b776d1a87c0707244f4ae0122de882e0eef6fa3
+ms.openlocfilehash: df96d525efc49cb1916812a547daababbfeea051
+ms.sourcegitcommit: 42a0e4c83e33c1a25506ca75d673e861e9206945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="android-app-protection-policy-settings"></a>Android 앱 보호 정책 설정
 이 항목에서 설명하는 정책 설정은 Azure Portal의 **설정** 블레이드에서 앱 보호 정책에 대해 [구성](app-protection-policies.md)될 수 있습니다.
@@ -86,3 +86,8 @@ ms.lasthandoff: 10/04/2017
 | **앱 데이터를 초기화하기 전의 오프라인 간격(일)** | 이 오랜 기간(관리자가 정의) 동안 앱이 오프라인으로 실행된 후에 사용자가 네트워크에 연결하고 다시 인증해야 합니다. 성공적으로 인증하고 나면 데이터에 계속 액세스할 수 있으며 오프라인 간격이 재설정됩니다.  사용자가 인증에 실패하면 앱에서 사용자 계정과 데이터를 선택적으로 초기화합니다.  선택적 초기화로 제거되는 데이터에 대한 자세한 내용은 [Intune-관리 앱에서 회사 데이터만 초기화하는 방법](https://docs.microsoft.com/en-us/intune/apps-selective-wipe)을 참조하세요.<br><br> | 90일 |
 | **화면 캡처 및 Android Assistant 차단(Android 6.0 이상)** | 이 앱을 사용할 때 장치의 화면 캡처 및 **Android Assistant** 기능을 차단하려면 **예**를 선택합니다. **예**를 선택하면 회사 또는 학교 계정으로 이 앱을 사용할 때 최근 사용 앱 미리 보기 이미지도 흐리게 표시됩니다. | 아니요 |
 | **장치 PIN을 관리하는 경우 앱 PIN 사용 안 함** | 등록된 장치에서 장치 잠금이 검색되는 경우 앱 PIN을 사용하지 않도록 설정하려면 **예**를 선택합니다. | 아니요 |
+| **최소 Android 운영 체제 필요** | 이 앱을 사용하기 위한 최소 Android 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 Android 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다. | 아니요 |
+| **최소 Android 운영 체제 필요(경고)** | 이 앱을 사용하기 위한 최소 Android 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 Android 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다. | 아니요 |
+| **Require minimum app version**(최소 앱 버전 필요) | 앱을 사용할 최소 앱 버전을 요구하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다.<br><br>대상 앱을 선택할 때 앱에 따라 다른 버전 관리 체계가 있을 수 있다는 점에 주의하세요.<br><br> | 아니요 | 
+| **Require minimum app version (Warning only)**(최소 앱 버전 필요(경고)) | 이 앱을 사용하기 위한 최소 앱 버전을 권장하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다.<br><br>대상 앱을 선택할 때 앱에 따라 다른 버전 관리 체계가 있을 수 있다는 점에 주의하세요.<br><br> | 아니요 | 
+

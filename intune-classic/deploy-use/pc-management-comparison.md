@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 07/13/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 068a73bb-e6b3-44a6-8f6e-4cf7d455bbf3
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 66c528ce018b99a7263fb1e8395125f50d5670b3
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: b3050193c2f36f4092285686935a410fb6baf5b5
+ms.sourcegitcommit: 1416daed6803546445b6f280a86c663e6e00465a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 10/27/2017
 ---
 # <a name="compare-managing-windows-pcs-as-computers-or-mobile-devices"></a>Windows PC를 컴퓨터로 관리하는 방식과 모바일 장치로 관리하는 방식 비교
 
@@ -42,6 +42,7 @@ ms.lasthandoff: 10/10/2017
 |**원격 지원** |TeamViewer<br>[Windows PC 원격 지원 요청 및 제공](https://docs.microsoft.com/intune/deploy-use/request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune)|사용할 수 없음 |
 |**앱 배포** | 비즈니스용 Microsoft 스토어에는 사용할 수 없음<br>.exe, appx 및 다중 파일 .msi만 해당<br>[Intune 소프트웨어 클라이언트를 실행하는 Windows PC에 앱 추가](https://docs.microsoft.com/intune/deploy-use/add-apps-for-windows-pcs-in-microsoft-intune)|Microsoft 스토어 앱과 기간 업무 앱에 사용 가능<br>[Windows 스토어 앱을 추가하는 방법](https://docs.microsoft.com/intune/store-apps-windows)<br>[Windows LOB(기간 업무) 앱을 추가하는 방법](https://docs.microsoft.com/intune/lob-apps-windows)|
 |**앱 보호**|사용할 수 없음|사용 가능 <br>[앱 보호 정책이란?](https://docs.microsoft.com/intune-azure/manage-apps/what-is-app-protection-policy)|
+|**상태 증명**|사용할 수 없음|사용 가능|
 
 
 ### <a name="advantages-of-mdm-windows-pc-management"></a>MDM Windows PC 관리의 이점
