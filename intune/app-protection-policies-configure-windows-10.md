@@ -6,7 +6,7 @@ keywords:
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
-ms.date: 06/12/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,47 +15,44 @@ ms.assetid: 949fddec-5318-4c9a-957e-ea260e6e05be
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d18ef2119ed0f8adc63f6675024c8e694235ee35
-ms.sourcegitcommit: 128770ecc820f6ff3c99b15752bce7a58257f1d5
+ms.openlocfilehash: 09f3edbe8b53371514ae4826246c99201c005762
+ms.sourcegitcommit: b5692ee05e8be1842cb1007facf80c9bce972dc4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="get-ready-to-configure-app-protection-policies-for-windows-10"></a>Windows 10용 앱 보호 정책 구성 준비
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Windows 10 앱 보호 정책을 만들려면 Azure AD에서 MAM(모바일 응용 프로그램 관리) 공급자를 설치하여 Windows 10용 MAM을 사용하도록 설정해야 합니다. 이와 같이 구성하면 Intune을 사용하여 새 WIP(Windows Information Protection) 정책을 만들 때 등록 상태를 정의할 수 있습니다.
-
-> [!NOTE]
-> 등록 상태는 MAM 또는 MDM(모바일 장치 관리)일 수 있습니다.
-
-## <a name="to-configure-the-mam-provider"></a>MAM 공급자를 구성하려면
-
-1.  [Azure Portal](https://portal.azure.com/)로 이동한 다음 Intune 자격 증명을 사용하여 로그인합니다.
-
-2.  왼쪽 메뉴에서 **Azure Active Directory**를 선택합니다.
-
-    ![MAM 공급자 구성](./media/mam-provider-sc-1.png)
-
-3.  **Azure AD** 블레이드가 열리면 **모바일(MDM 및 MAM)**을 선택한 다음 **Microsoft Intune**을 클릭합니다.
-
-    ![모바일 MDM 및 MAM](./media/mam-provider-sc-1.png)
-
-4.  구성 블레이드가 열리면 먼저 **기본 MAM URL 복원**을 선택한 후에 다음 항목을 구성합니다.
-
-    a.  MAM 사용자 범위: MAM을 사용하여 Windows 10 장치를 사용하는 특정 사용자 그룹 또는 모든 사용자에 대한 회사 데이터를 보호할 수 있습니다.
-
-    b.  MAM 사용 약관 URL: MAM 서비스 사용 약관 끝점의 URL입니다. 최종 사용자에게 MAM 서비스 약관을 표시하는 데 사용됩니다.
-
-    c.  MAM 검색 URL: 장치가 앱 보호 정책을 적용해야 할 때 검색하는 URL 장치입니다.
-
-    d.  MDM 준수 URL:
-
-5.  이러한 설정을 구성한 후에 **저장**을 선택합니다.
+Azure AD에서 MAM 공급자를 설정하여 Windows 10용 MAM(모바일 응용 프로그램 관리)을 사용하도록 설정합니다. Azure AD에서 MAM 공급자를 설정하면 Intune을 사용하여 새 WIP(Windows Information Protection) 정책을 만들 때 등록 상태를 정의할 수 있습니다. 등록 상태는 MAM 또는 MDM(모바일 장치 관리)일 수 있습니다.
 
 > [!NOTE]
 > MAM 등록 상태의 장치는 Azure AD와 조인되어야 합니다.
+
+## <a name="to-configure-the-mam-provider"></a>MAM 공급자를 구성하려면
+
+1. Azure Portal에 로그인하고 **Azure Active Directory**를 선택합니다.
+
+2. **관리** 그룹에서 **이동성(MDM 및 MAM)**을 선택합니다.
+
+3. **Microsoft Intune**을 클릭합니다.
+
+4. **구성** 블레이드의 **기본 MAM URL 복원** 그룹에서 설정을 구성합니다.
+
+    **MAM 사용자 범위**  
+      MAM 자동 등록을 사용하여 직원의 Windows 장치에서 엔터프라이즈 데이터를 관리합니다. MAM 자동 등록은 Bring Your Own Device 시나리오용으로 구성됩니다.<ul><li>**없음**<br>모든 사용자가 MAM에 등록될 수 있는 경우 선택합니다.</li><li>**일부**<br>MAM에 등록될 사용자가 포함된 Azure AD 그룹을 선택합니다.</li><li>**모두**<br>모든 사용자가 MAM에 등록될 수 있는 경우 선택합니다.</li></ul>
+
+    **MAM 사용 약관 URL**  
+     MAM 서비스 사용 약관 끝점의 URL입니다. 사용 약관 끝점은 관리를 위해 장치를 등록하기 전에 최종 사용자에게 서비스 약관을 표시하는 데 사용됩니다. 사용 약관 텍스트는 모바일 장치에 적용되는 정책에 대해 사용자에게 알려줍니다.
+
+    **MAM 검색 URL**  
+    MAM 서비스 등록 끝점의 URL입니다. 등록 끝점은 MAM 서비스에서 관리할 장치를 등록하는 데 사용됩니다.
+
+    **MAM 준수 URL**  
+      MAM 서비스 준수 끝점의 URL입니다. 사용자가 비준수 장치에서 리소스에 액세스하는 것을 거부당하면 준수 URL 링크가 해당 사용자에게 표시됩니다. 사용자는 MAM 서비스에서 호스트하는 이 URL로 이동하여 해당 장치가 비준수 상태로 간주되는 이유를 알아볼 수 있습니다. 사용자는 장치가 준수 상태가 되어 리소스에 계속 액세스할 수 있도록 셀프 서비스 수정을 시작할 수도 있습니다.
+
+5.  **Save**을 클릭합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

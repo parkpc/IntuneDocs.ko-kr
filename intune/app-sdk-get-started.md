@@ -14,11 +14,11 @@ ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0e55246f8f089a998fa4a04fe07e5e54408d8513
-ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
+ms.openlocfilehash: 65350c9a247c5820cb2080d8230d308a37e98d7c
+ms.sourcegitcommit: 42a0e4c83e33c1a25506ca75d673e861e9206945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Microsoft Intune 앱 SDK 시작
 
@@ -94,6 +94,16 @@ Microsoft 리포지토리에서 분기하고 끌어오는 데 사용할 수 있�
 
 
 
+## <a name="enable-your-ios-or-android-app-for-app-based-conditional-access"></a>iOS 또는 Android 앱에서 앱 기반 조건부 액세스를 사용하도록 설정
+ 
+ 앱에서 앱 보호 정책을 사용하도록 설정하는 것 외에도 다음 사항이 충족되어야 앱에서 AAD(Azure Active Directory) 앱 기반 조건부 액세스가 제대로 작동합니다.
+ 
+ * 앱은 [Azure Active Directory 인증 라이브러리](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries)를 통해 빌드되고 AAD broker 인증을 사용하도록 설정되어 있어야 합니다.
+ 
+ * 앱의 [AAD 클라이언트 ID](https://docs.microsoft.com/en-us/azure/app-service/app-service-mobile-how-to-configure-active-directory-authentication#optional-configure-a-native-client-application)는 iOS 및 Android 플랫폼에서 고유해야 합니다.
+ 
+ 
+ 
 
 ## <a name="configure-telemetry-for-your-app"></a>앱에 대한 원격 분석 구성
 

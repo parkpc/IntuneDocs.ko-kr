@@ -5,7 +5,7 @@ keywords:
 author: oydang
 ms.author: oydang
 manager: angrobe
-ms.date: 01/20/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 56d0d3e79e38b20cb00a528fc6b55ca9de6ba871
-ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
+ms.openlocfilehash: 6ba1d1d9d0b1c21c364ef97f8340157a94ae996b
+ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2017
+ms.lasthandoff: 10/31/2017
 ---
 # <a name="frequently-asked-questions-about-mam-and-app-protection"></a>MAM 및 앱 보호에 대한 질문과 대답
 
@@ -70,16 +70,16 @@ ms.lasthandoff: 10/11/2017
 
 **[Word, Excel 및 PowerPoint](https://products.office.com/business/office) 앱 사용에 대한 추가 요구 사항은 무엇인가요?**
 
-  1. 최종 사용자는 [Office 365 Business 또는 Enterprise](https://products.office.com/business/compare-more-office-365-for-business-plans)에 대한 라이선스가 자신의 Azure Active Directory 계정에 할당되어야 합니다. 구독에는 모바일 장치의 Office 앱 및 [비즈니스용 OneDrive](https://onedrive.live.com/about/business/)의 클라우드 저장소 계정이 포함되어야 합니다. 다음 [지침](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)에 따라 [Office 포털](http://portal.office.com)에서 Office 365 라이선스를 할당받을 수 있습니다.
+  1. 최종 사용자는 [Office 365 Business 또는 Enterprise](https://products.office.com/business/compare-more-office-365-for-business-plans)에 대한 라이선스가 자신의 Azure Active Directory 계정에 할당되어야 합니다. 구독에는 모바일 장치의 Office 앱이 포함되어야 하며 [비즈니스용 OneDrive](https://onedrive.live.com/about/business/)의 클라우드 저장소 계정을 포함할 수 있습니다. 다음 [지침](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)에 따라 [Office 포털](http://portal.office.com)에서 Office 365 라이선스를 할당받을 수 있습니다.
 
-  2. 최종 사용자는 장치에 [OneDrive](https://onedrive.live.com/about/) 앱이 설치되어 있어야 하고 해당 AAD 계정으로 로그인해야 합니다.
+  2. “다른 이름으로 저장 금지” 응용 프로그램 보호 정책 설정에서 세분화된 저장을 기능으로 사용하여 구성된 관리 위치가 최종 사용자에게 있어야 합니다. 예를 들어 관리 위치가 OneDrive인 경우 최종 사용자의 Word, Excel 또는 PowerPoint 앱에 [OneDrive](https://onedrive.live.com/about/) 앱이 구성되어 있어야 합니다.
 
-  3. OneDrive 앱은 최종 사용자에게 배포된 앱 보호 정책의 대상으로 지정되어야 합니다.
+  3. 관리 위치가 OneDrive인 경우 해당 앱이 최종 사용자에게 배포된 앱 보호 정책의 대상으로 지정되어야 합니다.
 
   >[!NOTE]
   > Office 모바일 앱은 현재 SharePoint Online만 지원하고 SharePoint 온-프레미스는 지원하지 않습니다.
 
-**Office용 OneDrive가 필요한 이유는 무엇인가요?** Intune에서는 앱의 모든 데이터를 "회사" 또는 "개인" 데이터로 표시합니다. 데이터는 비즈니스 위치에서 시작될 경우 "회사" 데이터로 간주됩니다. Office 앱의 경우 Intune은 전자 메일(Exchange) 또는 클라우드 저장소(비즈니스용 OneDrive 계정이 있는 OneDrive 앱)를 비즈니스 위치로 간주합니다.
+**Office에 관리 위치(예: OneDrive)가 필요한 이유는 무엇인가요?** Intune에서는 앱의 모든 데이터를 "회사" 또는 "개인" 데이터로 표시합니다. 데이터는 비즈니스 위치에서 시작될 경우 "회사" 데이터로 간주됩니다. Office 앱의 경우 Intune은 전자 메일(Exchange) 또는 클라우드 저장소(비즈니스용 OneDrive 계정이 있는 OneDrive 앱)를 비즈니스 위치로 간주합니다.
 
 **비즈니스용 Skype 사용에 대한 추가 요구 사항은 무엇인가요?** [비즈니스용 Skype](https://products.office.com/skype-for-business/it-pros) 라이선스 요구 사항을 참조하세요.
   >[!NOTE]
@@ -102,6 +102,18 @@ ms.lasthandoff: 10/11/2017
   2. **PIN은 안전한가요?** PIN을 사용하면 올바른 사용자만 앱에서 조직의 데이터에 액세스할 수 있습니다. 따라서 최종 사용자는 해당 Intune 앱 PIN을 설정하거나 다시 설정하기 전에 회사 또는 학교 계정으로 로그인해야 합니다. 이 인증은 보안 토큰 교환을 통해 Azure Active Directory에 의해 처리되며 Intune 앱 SDK에 투명하게 공개되지 않습니다. 보안의 관점에서 회사 또는 학교 데이터를 보호하는 가장 좋은 방법은 암호화하는 것입니다. 암호화는 앱 PIN과 관련이 없으며 자체 앱 보호 정책입니다.
 
   3. **Intune은 어떤 방식으로 무차별 암호 대입 공격(brute force attack)으로부터 PIN을 보호하나요?** 앱 PIN 정책의 일환으로, IT 관리자는 앱을 잠그기 전에 사용자가 PIN 인증을 시도할 수 있는 최대 횟수를 설정할 수 있습니다. 이 횟수가 충족되면 Intune 앱 SDK는 앱에서 "회사" 데이터를 초기화할 수 있습니다.
+  
+**Intune 앱 PIN은 숫자 형식 및 암호 형식 간에 어떻게 작동하나요?**
+MAM은 현재 영숫자 및 특수 문자를 사용하는 응용 프로그램 수준 PIN(iOS)(‘암호’라고 함)을 허용합니다. 이 방식에서는 iOS용 Intune 앱 SDK를 통합하려면 응용 프로그램(예: WXP, Outlook, Managed Browser, Yammer)이 참가해야 합니다. 이렇게 하지 않으면 대상 응용 프로그램에 암호 설정이 제대로 적용되지 않습니다. 앱은 롤링 기준으로 이 통합을 따르기 때문에 암호 및 숫자 PIN 간 동작이 최종 사용자에 대해 일시적으로 변경되므로 중요한 설명이 필요합니다. Intune의 2017년 10월 릴리스에서는 동작이 다음과 같습니다.
+
+다음에 해당하는 앱
+1. 동일한 앱 게시자
+2. 콘솔을 통해 대상으로 지정된 암호 PIN 
+3. 이 기능이 포함된 SDK(v 7.1.12 이상)를 채택하면 이러한 앱 간에 암호를 공유할 수 있습니다. 
+
+다음에 해당하는 앱
+1. 동일한 앱 게시자
+2. 콘솔을 통해 대상으로 지정된 숫자 PIN은 이러한 앱 간에 숫자 PIN을 공유할 수 있습니다. 
 
 **암호화의 경우는 어떤가요?** IT 관리자는 앱 데이터 암호화를 요구하는 앱 보호 정책을 배포할 수 있습니다. 이러한 정책의 일환으로, IT 관리자는 콘텐츠가 암호화되는 경우를 지정할 수도 있습니다.
 
