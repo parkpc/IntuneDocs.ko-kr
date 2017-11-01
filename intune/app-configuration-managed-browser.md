@@ -15,11 +15,11 @@ ms.assetid: 1feca24f-9212-4d5d-afa9-7c171c5e8525
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e536a31443a7140785a1f30af6fe676451e6f62c
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: 99b8b50dbbb2dc2e3d7e8cd5af2f95fa2bb3b861
+ms.sourcegitcommit: 42a0e4c83e33c1a25506ca75d673e861e9206945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Microsoft Intune에서 Managed Browser 정책을 사용하여 인터넷 액세스 관리
 
@@ -147,7 +147,7 @@ Managed Browser 앱 구성을 만드는 절차를 수행할 때 다음 키와 �
 |||
 |-|-|
 |Key|값|
-|다음 중에서 선택합니다.<br><br>- 허용되는 URL 지정(이러한 URL만 허용되고 다른 사이트는 액세스할 수 없음): **com.microsoft.intune.mam.managedbrowser.AllowListURLs**<br><br>- 차단되는 URL 지정(다른 모든 사이트는 액세스할 수 있음): <br><br>**com.microsoft.intune.mam.managedbrowser.BlockListURLs**|키에 해당하는 값은 URL 목록입니다. 허용하거나 차단할 모든 URL을 파이프 **&#124;** 문자로 구분된 단일 값으로 입력합니다.<br><br>예:<br><br>-**URL1&#124;URL2&#124;URL3**<br>-**http://*.contoso.com/*&#124;https://*.bing.com/*&#124;https://expenses.contoso.com**|
+|다음 중에서 선택합니다.<br><br>- 허용되는 URL 지정(이러한 URL만 허용되고 다른 사이트는 액세스할 수 없음): **com.microsoft.intune.mam.managedbrowser.AllowListURLs**<br><br>- 차단되는 URL 지정(다른 모든 사이트는 액세스할 수 있음): <br><br>**com.microsoft.intune.mam.managedbrowser.BlockListURLs**|키에 해당하는 값은 URL 목록입니다. 허용하거나 차단할 모든 URL을 파이프 **&#124;** 문자로 구분된 단일 값으로 입력합니다.<br><br>예:<br><br>**URL1&#124;URL2&#124;URL3**<br>**http://*.contoso.com/*&#124;https://*.bing.com/*&#124;https://expenses.contoso.com**|
 
 >[!IMPORTANT]
 >두 키를 모두 지정하지 마세요. 두 키가 동일한 사용자를 대상으로 하는 경우 가장 제한적인 옵션인 허용 키가 사용됩니다.

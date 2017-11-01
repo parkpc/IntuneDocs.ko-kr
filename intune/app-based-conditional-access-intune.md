@@ -14,11 +14,11 @@ ms.assetid: b399fba0-5dd4-4777-bc9b-856af038ec41
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9899f08cac650b1fea05370eb52327bc3c204a48
-ms.sourcegitcommit: 3bafbec5822bb5baa2d313f2bd19f35a67438beb
+ms.openlocfilehash: f3a3104c4381028cca69ba3e129f4a30287a8e32
+ms.sourcegitcommit: 42a0e4c83e33c1a25506ca75d673e861e9206945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="app-based-conditional-access-with-intune"></a>Intune을 사용하는 앱 기반 조건부 액세스
 
@@ -43,17 +43,7 @@ Microsoft Outlook 앱만 Exchange Online에 액세스할 수 있도록 하려는
 
 ## <a name="supported-apps"></a>지원되는 앱
 
-- **Exchange Online**:
-    - Android 및 iOS용 Microsoft Outlook
-<br></br>
-- **SharePoint Online**
-    - iOS 및 Android용 Microsoft Word
-    - iOS 및 Android용 Microsoft Excel
-    - iOS 및 Android용 Microsoft PowerPoint
-    - iOS 및 Android용 Microsoft OneDrive for Business
-    - iOS용 Microsoft OneNote
-<br></br>
-- **Microsoft Teams**
+앱 기반 조건부 액세스를 지원하는 앱 목록은 [Azure Active Directory 조건부 액세스 기술 참조 문서](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-technical-reference)에서 확인할 수 있습니다.
 
 앱 기반 조건부 액세스에서는 [LOB(기간 업무) 앱도 지원](https://docs.microsoft.com/intune-classic/deploy-use/block-apps-with-no-modern-authentication)하지만, 이러한 앱은 [Office 365 최신 인증](https://support.office.com/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a)을 사용해야 합니다.
 

@@ -1,11 +1,11 @@
 ---
 title: "회사 포털 앱에 로그인하는 방법 | Microsoft Docs"
-description: 
+description: "여러 플랫폼에서 회사 포털 앱에 로그인하는 방법을 알아보세요."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 07/31/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ca6d811d884b5405bdb4e5f096366c123d8e00d1
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: caea74745dc58a04c60e780727b318ebdb8ff235
+ms.sourcegitcommit: b8d3f8da6d8c2bd5d6140d538193a02d5875aefb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/27/2017
 ---
 # <a name="how-do-i-sign-in-to-the-company-portal-app---user-story-1132123--"></a>회사 포털 앱에 로그인하려면 어떻게 하나요? <!--User Story 1132123-->
 
@@ -50,6 +50,16 @@ ms.lasthandoff: 09/28/2017
 4. 회사 포털에서 사용자 로그인이 허용되면 사용자가 로그인되며, 회사 리소스에 액세스할 수 있습니다.   
 
   ![인증 프로세스를 진행하고 나면 회사 포털 앱에 로그인되며 이 상태는 로드 중 막대로 표현됩니다.](/intune/media/cp_ios_aad_signin_from_another_device_after_1704_007.png)
+
+## <a name="signing-in-with-certificate-based-authentication"></a>인증서 기반 인증으로 로그인
+
+1.  장치에서 회사 포털 앱을 엽니다.
+
+2.  **회사 또는 학교 계정**을 입력합니다.
+
+3.  **인증서로 로그인** 링크를 탭합니다.
+
+4.  인증서를 사용하려면 **계속**을 탭합니다.
 
 ## <a name="signing-in-from-another-device"></a>다른 장치에서 로그인
 

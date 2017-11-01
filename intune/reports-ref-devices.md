@@ -14,11 +14,11 @@ ms.assetid: 6955E12D-70D7-4802-AE3B-8B276F01FA4F
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6d8c4af1ff091fbb125ec8a06b3c46cc2424a0bd
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: 1e3352335a5804575a39bbbf050ccb41b2674f2c
+ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 10/31/2017
 ---
 # <a name="reference-for-devices-entities"></a>장치 엔터티에 대한 참조
 
@@ -130,10 +130,23 @@ ms.lasthandoff: 10/20/2017
 
 **MdmStatuses** 엔터티는 장치의 준수 상태를 나타냅니다.
 
-| 속성  | 설명 | 예 |
+| 속성  | 설명 |
+|---------|------------|
+| MdmStatusID |준수 상태의 고유 식별자 |
+| MdmStatusKey |데이터 웨어하우스에서 규정 준수 상태의 고유 식별자 - 대리 키 | 
+| ComplianceStatus |장치의 준수 상태, 아래 표의 값 중 하나가 있어야 함 | 
+
+
+## <a name="example"></a>예
+
+| MdmStatusID  | ComplianceStatus | 설명 |
 |---------|------------|--------|
-| MdmStatusName |MdmStatus 식별자 |0 - 알 수 없음 <br>1 - 준수 <br>2 - 비준수 |
-| MdmStatusKey |데이터 웨어하우스에서 규정 준수 상태의 고유 식별자 - 대리 키 | |
+| 0 |알 수 없음 |장치의 준수 상태를 알 수 없습니다. |
+| 1 |규정 |장치가 준수 상태입니다. |
+| 2 |정책 위반 |장치가 비준수 상태입니다. |
+| 3 |Conflict |장치의 준수로 인해 충돌이 발생했습니다. |
+| 4 |오류 |장치의 준수 상태를 읽는 동안 오류가 발생했습니다. |
+
 
 ## <a name="managementstates"></a>ManagementStates
 
@@ -154,7 +167,7 @@ ms.lasthandoff: 10/20/2017
 | 2 |RetireFailed | 장치에서 사용 중지 명령이 실패했습니다. |
 | 3 |WipePending | 장치에 대한 보류 중인 초기화 명령이 있습니다. |
 | 4 |WipeFailed | 장치에서 초기화 명령이 실패했습니다. |
-| 5 |비정상 | 비정상 상태 |
+| 5 |Unhealthy | 비정상 상태 |
 | 6 |DeletePending | 장치에 대한 보류 중인 삭제 명령이 있습니다. |
 | 7 |RetireIssued | 장치로 사용 중지 명령이 실행되었습니다. |
 | 8 |WipeIssued | 초기화 명령이 실행되었습니다. |
@@ -318,7 +331,7 @@ ms.lasthandoff: 10/20/2017
 | ComputerSystemName |시스템 이름 |
 | ComputerSystemManufacturer |시스템 제조업체 |
 | ComputerSystemModel |시스템 모델 |
-| 사용자 이름 |사용자 이름 |
+| UserName |사용자 이름 |
 | OSType |OS 유형 |
 | OSCaption |OS 캡션 |
 | OSName |OS 이름 |

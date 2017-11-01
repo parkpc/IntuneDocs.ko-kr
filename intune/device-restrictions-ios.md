@@ -6,7 +6,7 @@ keywords:
 author: lleonard-msft
 ms.author: alleonar
 manager: angrobe
-ms.date: 09/19/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 73590192-54ca-4833-9f1d-83e1b654399f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ff2c9943a04ec02a83e821a65e1307e311a9d1c0
-ms.sourcegitcommit: 4ce095c0c3fa2e42cf76207b6ff8edf1fe397165
+ms.openlocfilehash: 043bc1ecf652802dc569d2df8b287b2246585f15
+ms.sourcegitcommit: 1416daed6803546445b6f280a86c663e6e00465a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/27/2017
 ---
 # <a name="ios-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 iOS 장치 제한 설정
 
@@ -108,10 +108,8 @@ ms.lasthandoff: 09/20/2017
 
 제한된 앱 목록에서 다음 목록 중 하나를 구성할 수 있습니다.
 
-**금지된 앱** 목록 - 사용자가 설치하거나 실행할 수 없고 Intune에서 관리되지 않는 앱을 나열합니다.
-**승인된 앱** 목록 - 사용자가 설치할 수 있는 앱을 나열합니다. 사용자는 나열되지 않은 앱을 설치하지 않아야 합니다. Intune에서 관리되는 앱은 자동으로 허용됩니다.
-
-사용자는 금지된 앱을 설치할 수 있지만, 그렇게 하는 경우 해당 사용자에게 이를 보고합니다.
+- **금지된 앱** 목록 - 사용자가 설치하거나 실행할 수 없고 Intune에서 관리되지 않는 앱을 나열합니다. 사용자는 금지된 앱을 설치할 수 있지만, 그렇게 하는 경우 해당 사용자에게 이를 보고합니다.
+- **승인된 앱** 목록 - 사용자가 설치할 수 있는 앱을 나열합니다. 사용자는 나열되지 않은 앱을 설치하지 않아야 합니다. Intune에서 관리되는 앱은 자동으로 허용됩니다. 사용자가 승인 목록에 없는 앱을 설치할 수 있지만 설치하는 경우 관리자에게 보고됩니다.
 
 목록을 구성하려면 **추가**를 클릭한 다음 원하는 이름, 앱 게시자(선택 사항) 및 앱 스토어의 앱 URL을 지정합니다.
 
