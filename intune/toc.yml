@@ -240,10 +240,15 @@
           href: apps-deploy.md
         - name: 앱 모니터링
           href: apps-monitor.md
-        - name: iOS 앱 구성 프로필
-          href: app-configuration-policies-use-ios.md
-        - name: Android 앱 구성 프로필
-          href: app-configuration-policies-use-android.md
+        - name: 앱 구성 정책
+          href: app-configuration-policies-overview.md
+          items:
+            - name: iOS 관리되는 장치
+              href: app-configuration-policies-use-ios.md
+            - name: Android 관리되는 장치
+              href: app-configuration-policies-use-android.md
+            - name: 관리되는 앱
+              href: app-configuration-policies-managed-app.md
         - name: iOS 앱 프로비전 프로필
           href: app-provisioning-profile-ios.md
         - name: 선택적으로 앱 지우기
