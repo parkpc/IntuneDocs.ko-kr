@@ -545,6 +545,8 @@
     - name: Intune 데이터 웨어하우스 사용
       href: reports-nav-create-intune-reports.md
       items:
+        - name: 데이터웨어 하우스에 대한 로그 변경
+          href: reports-changelog.md
         - name: Power BI를 통해 데이터 웨어하우스에 연결
           href: reports-proc-get-a-link-powerbi.md
         - name: Power BI를 사용하여 OData 피드에서 보고서 만들기
@@ -602,18 +604,20 @@
         - name: 데이터 웨어하우스 데이터 모델
           href: reports-ref-data-model.md
           items:
-            - name: 날짜 엔터티에 대한 참조
-              href: reports-ref-date.md
-            - name: 사용자 엔터티에 대한 참조
-              href: reports-ref-user.md
-            - name: 모바일 앱 관리(MAM) 엔터티에 대한 참조
-              href: reports-ref-mobile-app-management.md
-            - name: 장치 엔터티에 대한 참조
-              href: reports-ref-devices.md
             - name: 응용 프로그램 엔터티에 대한 참조
               href: reports-ref-application.md
-            - name: 사용자 장치 연결 엔터티에 대한 참조
-              href: reports-ref-userdeviceassociations.md
+            - name: 날짜 엔터티에 대한 참조
+              href: reports-ref-date.md
+            - name: 장치 엔터티에 대한 참조
+              href: reports-ref-devices.md
+            - name: 모바일 앱 관리(MAM) 엔터티에 대한 참조
+              href: reports-ref-mobile-app-management.md
+            - name: 정책 엔터티에 대한 참조
+              href: reports-ref-policy.md
+            - name: 사용자 장치 연결에 대한 참조
+              href: reports-ref-user-device.md
+            - name: 사용자 엔터티에 대한 참조
+              href: reports-ref-user.md
     - name: Windows 앱 사이드로드
       href: intune-graph-apis.md
       items:
