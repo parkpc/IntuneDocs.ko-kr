@@ -2,10 +2,10 @@
 title: "출시대상 그룹 및 시간 결정"
 description: "이 문서에서는 Intune을 출시할 그룹과 해당 배포의 시간을 결정하는 데 도움이 되는 정보를 제공합니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 06/13/2016
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 3a63f78f-a7e7-4f44-9288-16b28d5d58ca
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9dda530be47b5449a9c1ed610d8e409fd62148d7
-ms.sourcegitcommit: ce363409d1206e4a3d669709863ccc9eb22b7d5f
+ms.openlocfilehash: 6edb71b7d97ac3c20b4207d2cac42669ac35c4c0
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="develop-a-rollout-plan"></a>출시 계획 개발
 

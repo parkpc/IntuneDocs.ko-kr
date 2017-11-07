@@ -3,10 +3,10 @@ title: "Intune에서 등록 제한 설정"
 titlesuffix: Azure portal
 description: "Intune에서 플랫폼별로 등록을 제한하고 장치 등록 제한을 설정합니다. \""
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 07/05/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f0a2b858-a824-4598-ab81-bdd8e62ac3b3
 ms.reviewer: amyros
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b74faadfc93485023ea71f42b703f3b102aaa5b3
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 8ddf5cc624685e684973b0e4ee85de609845f3bd
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="add-groups-in-intune"></a>Intune에서 그룹 추가
 Intune은 Azure AD(Active Directory) 그룹을 사용하여 장치 및 사용자를 관리합니다. Intune 관리자의 경우 조직의 요구에 맞게 그룹을 설정할 수 있습니다. 그룹을 만들어 지리적 위치, 부서 또는 하드웨어 특성별로 사용자 또는 장치를 구성합니다. 그룹을 사용하여 대규모 작업을 관리합니다. 예를 들어 많은 사용자에 대해 정책을 설정하거나 장치 집합에 앱을 배포할 수 있습니다.

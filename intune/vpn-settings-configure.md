@@ -15,11 +15,11 @@ ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c894a0314af1967dce67a7ffc5b3279bff6125f4
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 699fa64bc0f720b18c1376e39b85eccd9018bbaf
+ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/02/2017
 ---
 # <a name="how-to-configure-vpn-settings-in-microsoft-intune"></a>Microsoft Intune에서 VPN 설정을 구성하는 방법
 
@@ -37,7 +37,7 @@ VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전
 |-|-|-|-|-|-|-|
 |Pulse Secure|예|예|예|예|예|예|
 |Cisco(IPsec)|아니요|예|아니요|아니요|아니요|아니요|
-|Citrix|예(Android에만 해당)|예|아니요|아니요|아니요|아니요|
+|Citrix|예|예|아니요|아니요|아니요|예|
 |F5 Edge Client|예|예|예|예|예|예|
 |Dell SonicWALL Mobile Connect|예|예|예|예|예|예|
 |검사점 캡슐 VPN|예|예|예|예|예|예|

@@ -2,10 +2,10 @@
 title: "Intune 테스트 및 유효성 검사"
 description: "사용자 환경에서 Intune 클라우드 전용 솔루션을 테스트하고 유효성 검사하는 경우 고려해야 할 세부 정보입니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 07/12/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 4f82ee0c-4bd6-4623-9b10-9249d316ccf5
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
-ms.openlocfilehash: ddeb71c6a678ff42b5075d65c2bb4e0d89ae47f1
-ms.sourcegitcommit: ce363409d1206e4a3d669709863ccc9eb22b7d5f
+ms.openlocfilehash: f10b4b0e7c48e921eb92392edf95bfcfaa83db9f
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="intune-testing-and-validation"></a>Intune 테스트 및 유효성 검사
 

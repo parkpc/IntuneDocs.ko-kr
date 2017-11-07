@@ -2,10 +2,10 @@
 title: "사용 사례 시나리오 요구 사항 확인"
 description: "이 문서의 정보를 활용하여 Microsoft Intune 클라우드 전용 구현을 위한 Intune 사용 사례 및 하위 사용 사례 시나리오 요구 사항을 확인할 수 있습니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 06/15/2016
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: fd8cb5f7-19f0-4d80-8825-2bafa49624af
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 032427a9965f368d7be17339e3cbe5b426800347
-ms.sourcegitcommit: ce363409d1206e4a3d669709863ccc9eb22b7d5f
+ms.openlocfilehash: 65a1fb8fb41fa8d9f3e707c73bf752a997a8a1a1
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="determine-use-case-scenario-requirements"></a>사용 사례 시나리오 요구 사항 확인
 

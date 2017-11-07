@@ -3,10 +3,10 @@ title: "모바일 장치 관리 기관 설정"
 titlesuffix: Azure portal
 description: "Intune에서 모바일 장치 관리 기관을 설정하는 방법을 알아봅니다. \""
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 08/23/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e042ccbc085b2cf511d3cd21f2da5e23299264a9
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: cee02cf20416f719771705079beae7bc986f1069
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="set-the-mobile-device-management-authority"></a>모바일 장치 관리 기관 설정
 
@@ -33,7 +33,7 @@ MDM(모바일 장치 관리) 기관 설정에 따라 장치를 관리하는 방�
 
 - **Intune 하이브리드** - Intune 클라우드 솔루션과 System Center Configuration Manager의 통합입니다. Configuration Manager 콘솔을 사용하여 Intune을 구성합니다. [Configuration Manager에서 MDM 기관을 설정합니다](https://docs.microsoft.com/sccm/mdm/deploy-use/configure-intune-subscription).
 
-- **Office 365용 모바일 장치 관리 ** - Office 365와 Intune 클라우드 솔루션의 통합입니다. Office 365 관리 센터에서 Intune을 구성합니다. Intune 독립 실행형에서 제공되는 기능 중 일부를 포함합니다. Office 365 관리 센터에서 MDM 기관을 설정합니다.
+- **Office 365용 모바일 장치 관리**  - Office 365와 Intune 클라우드 솔루션의 통합입니다. Office 365 관리 센터에서 Intune을 구성합니다. Intune 독립 실행형에서 제공되는 기능 중 일부를 포함합니다. Office 365 관리 센터에서 MDM 기관을 설정합니다.
 
 >[!IMPORTANT]    
 Configuration Manager 버전 1610 이상과 Microsoft Intune 버전 1705에서는 Microsoft 지원에 문의하여 기존의 관리 장치를 등록 취소했다가 다시 등록할 필요 없이 MDM 기관을 변경할 수 있습니다. 자세한 내용은 [잘못된 MDM 기관 설정을 선택한 경우 수행할 작업](/intune-classic/deploy-use/prerequisites-for-enrollment#what-to-do-if-you-choose-the-wrong-mdm-authority-setting)을 참조하세요.
