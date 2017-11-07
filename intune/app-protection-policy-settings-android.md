@@ -6,7 +6,7 @@ keywords:
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
-ms.date: 10/3/2017
+ms.date: 10/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 9e9ef9f5-1215-4df1-b690-6b21a5a631f8
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: df96d525efc49cb1916812a547daababbfeea051
-ms.sourcegitcommit: 42a0e4c83e33c1a25506ca75d673e861e9206945
+ms.openlocfilehash: 8c07125901709d4d7baf3339e4dd09cb5620e8d1
+ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 11/02/2017
 ---
 # <a name="android-app-protection-policy-settings"></a>Android 앱 보호 정책 설정
 이 항목에서 설명하는 정책 설정은 Azure Portal의 **설정** 블레이드에서 앱 보호 정책에 대해 [구성](app-protection-policies.md)될 수 있습니다.
@@ -90,4 +90,3 @@ ms.lasthandoff: 10/26/2017
 | **최소 Android 운영 체제 필요(경고)** | 이 앱을 사용하기 위한 최소 Android 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 Android 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다. | 아니요 |
 | **Require minimum app version**(최소 앱 버전 필요) | 앱을 사용할 최소 앱 버전을 요구하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다.<br><br>대상 앱을 선택할 때 앱에 따라 다른 버전 관리 체계가 있을 수 있다는 점에 주의하세요.<br><br> | 아니요 | 
 | **Require minimum app version (Warning only)**(최소 앱 버전 필요(경고)) | 이 앱을 사용하기 위한 최소 앱 버전을 권장하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다.<br><br>대상 앱을 선택할 때 앱에 따라 다른 버전 관리 체계가 있을 수 있다는 점에 주의하세요.<br><br> | 아니요 | 
-

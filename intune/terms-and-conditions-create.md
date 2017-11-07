@@ -3,10 +3,10 @@ title: "Microsoft Intune에서 사용 약관 설정"
 titlesuffix: Azure portal
 description: "Intune용 회사 포털에서 사용자에게 표시되는 사용 약관을 설정합니다. "
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 06/05/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 4a3a11a8-9c0c-4334-8c6b-6fea4d0a2efb
 ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 47b153223e10ec358c61a212bdacd109ee90bbcd
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 63434cbbc9edc668d59fb99968727551e0c4cc40
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="ensure-users-accept-company-terms-for-access"></a>사용자가 액세스를 위한 회사 약관에 동의하는지 확인
 
