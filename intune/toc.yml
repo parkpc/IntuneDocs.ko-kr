@@ -610,6 +610,8 @@
               href: reports-ref-date.md
             - name: 장치 엔터티에 대한 참조
               href: reports-ref-devices.md
+            - name: Intune 관리 확장에 대한 참조
+              href: reports-ref-intunemanagementextension.md
             - name: 모바일 앱 관리(MAM) 엔터티에 대한 참조
               href: reports-ref-mobile-app-management.md
             - name: 정책 엔터티에 대한 참조
