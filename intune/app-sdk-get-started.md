@@ -5,7 +5,7 @@ keywords:
 author: mattbriggs
 manager: angrobe
 ms.author: mabriggs
-ms.date: 12/15/2016
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 65350c9a247c5820cb2080d8230d308a37e98d7c
-ms.sourcegitcommit: 42a0e4c83e33c1a25506ca75d673e861e9206945
+ms.openlocfilehash: a0134f19aea3956a6aff852d97e9d95e1882e056
+ms.sourcegitcommit: 0f877251e6adf4e45b918cc8dc9193626727f2d9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Microsoft Intune 앱 SDK 시작
 
@@ -113,8 +113,50 @@ Microsoft Intune은 앱의 사용 통계에 대한 데이터를 수집합니다.
 
     * 앱에서 Microsoft Intune으로 SDK 원격 분석 데이터를 보내지 않으려면 IntuneMAMSettings 사전에서 `MAMTelemetryDisabled` 속성을 "YES"로 설정하여 원격 분석 전송을 사용하지 않도록 설정해야 합니다.
 
-
 * **Android용 Intune 앱 SDK**: 원격 분석 데이터가 SDK를 통해 기록되지 않습니다.
+
+ iOS 및 Android 기간 업무 앱 버전 번호가 표시됩니다.<!-- 1380712 -->
+
+## <a name="line-of-business-app-version-numbers"></a>기간 업무 앱 버전 번호
+
+Intune의 기간 업무 앱은 이제 iOS 및 Android 앱의 버전 번호를 표시합니다. 번호는 Azure Portal, 앱 목록 및 앱 개요 블레이드에 표시됩니다. 최종 사용자는 회사 포털 앱 및 웹 포털에서 앱 번호를 확인할 수 있습니다.
+
+### <a name="full-version-number"></a>전체 버전 번호
+
+전체 버전 번호는 앱의 특정 릴리스를 식별합니다. 번호는 _버전_(_빌드_)으로 표시됩니다. 예: 2.2(2.2.17560800)
+
+전체 버전 번호는 다음과 같은 두 구성 요소로 이루어져 있습니다.
+
+ - **버전**  
+   버전 번호는 사람이 읽을 수 있는 앱의 릴리스 번호입니다. 이는 최종 사용자가 앱의 다양한 릴리스를 식별하는 데 사용합니다.
+
+ - **빌드 번호**  
+    빌드 번호는 앱 검색에 사용하고 프로그래밍 방식으로 앱을 관리하기 위한 내부 번호입니다. 빌드 번호는 코드에서 변경 내용을 참조하는 앱의 반복을 가리킵니다.
+
+### <a name="version-and-build-number-in-android-and-ios"></a>Android 및 iOS의 버전 및 빌드 번호
+
+Android 및 iOS는 모두 앱과 관련하여 버전 및 빌드 번호를 사용합니다. 그러나 두 운영 체제는 모두 OS 특정적인 의미가 있습니다. 다음 표에 이러한 용어 간의 관계가 설명되어 있습니다.
+
+Intune에서 사용하기 위해 기간 업무 응용 프로그램을 개발 중인 경우 버전 및 빌드 번호를 모두 사용해야 합니다. Intune 앱 관리 기능은 의미 있는 **CFBundleVersion**(iOS의 경우) 및 **PackageVersionCode**(Android의 경우)를 사용합니다. 이러한 번호는 앱 매니페스트에서 포함됩니다. 
+
+Intune|iOS|Android|설명|
+|---|---|---|---|
+버전 번호|CFBundleShortVersionString|PackageVersionName |이 번호는 최종 사용자를 위한 앱의 특정 릴리스를 나타냅니다.|
+빌드 번호|CFBundleVersion|PackageVersionCode |이 번호는 앱 코드에서 반복을 나타내는 데 사용됩니다.|
+
+#### <a name="ios"></a>iOS
+
+- **CFBundleShortVersionString**  
+    번들의 릴리스 버전 번호를 지정합니다. 이 번호는 앱의 릴리스된 버전을 식별합니다. 최종 사용자가 앱을 참조하는 데 사용되는 번호입니다.
+ - **CFBundleVersion**  
+    번들의 빌드 버전으로, 번들의 반복을 식별합니다. 번호는 릴리스 또는 릴리스되지 않은 번들을 식별할 수도 있습니다. 번호는 앱 검색에 사용됩니다.
+
+#### <a name="android"></a>Android
+
+ - **PackageVersionName**  
+    사용자에게 표시되는 버전 번호입니다. 이 특성은 원시 문자열 또는 문자열 리소스에 대한 참조로 설정할 수 있습니다. 문자열은 사용자에게 표시하기 위한 것입니다.
+ - **PackageVersionCode**  
+    내부 버전 번호입니다. 이 번호는 해당 버전이 더 최신 버전임을 나타내는 더 높은 숫자가 있는 다른 버전에 비해 더 최신인지 여부를 판명하는 데만 사용됩니다. 이는 버전이 아닙니다. 
 
 ## <a name="next-steps-after-integration"></a>통합 후 다음 단계
 

@@ -1,5 +1,5 @@
 ---
-title: "날짜 | Microsoft 문서"
+title: "날짜 - Intune 데이터 웨어하우스 | Microsoft Docs"
 description: "Intune 데이터 웨어하우스 API에서 엔터티 컬렉션의 날짜 범주에 대한 항목을 참조하세요."
 keywords: "Intune 데이터 웨어하우스"
 author: mattbriggs
@@ -14,11 +14,11 @@ ms.assetid: 6B4BC650-62F7-4049-9DE4-CDECB579B58F
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 894617cd47e5221be6988c377608c82bad2c7a67
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: 93d0f08697c8ee17ff44d599cb7b1bb262daa7ee
+ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 11/02/2017
 ---
 # <a name="reference-for-date-entity"></a>날짜 엔터티에 대한 참조
 

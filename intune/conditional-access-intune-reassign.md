@@ -15,11 +15,11 @@ ms.assetid: 301159ad-5f7e-4fcc-86c7-f72a71701ff4
 ms.reviewer: chrisgree
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5b0b0982018dcfa3c606ea55b9264e5cd6cd1a82
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: ff83c5926b04b11c67799e0486249dc339a167c1
+ms.sourcegitcommit: 67c037af31c1f167ec9b4f4baa754631c817e7d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="reassign-conditional-access-policies-from-intune-classic-portal-to-the-azure-portal"></a>Intune 클래식 포털에서 Azure 포털로 조건부 액세스 정책 다시 할당
 
@@ -82,7 +82,7 @@ Azure 포털의 **Intune 앱 보호** 블레이드를 통해 관리자는 Intune
     ![Intune 및 Azure 포털 간 사용자 그룹 UI 비교](./media/reassign-ca-1.png)
 
     > [!IMPORTANT] 
-    > Azure Portal에 대해 선택한 사항이 Azure Portal에서 선택한 사항과 일치해야 합니다. 예를 들어, Intune 클래식 포털에서 모든 사용자를 선택한 경우 Azure 포털에서 **모든 사용자**를 선택합니다. 또한 Intune 클래식 포털에서 **그룹 제외** 옵션을 선택한 경우 새 Azure 포털에서도 선택한 그룹을 제외해야 합니다.
+    > 클래식 포털에 대해 선택한 사항이 Azure Portal에서 선택한 사항과 일치해야 합니다. 예를 들어, Intune 클래식 포털에서 모든 사용자를 선택한 경우 Azure 포털에서 **모든 사용자**를 선택합니다. 또한 Intune 클래식 포털에서 **그룹 제외** 옵션을 선택한 경우 새 Azure 포털에서도 선택한 그룹을 제외해야 합니다.
 
 5. 그룹을 선택한 후 **선택**, **완료**를 클릭합니다.
 

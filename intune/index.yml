@@ -9,7 +9,7 @@ metadata:
   author: arob98
   ms.author: angrobe
   manager: angrobe
-  ms.date: 10/07/2017
+  ms.date: 10/31/2017
   ms.topic: article
   ms.devlang: na
   ms.service: microsoft-intune
@@ -64,16 +64,16 @@ sections:
             title: Intune 상위 수준 아키텍처 보기
             image:
               src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
-          - href: reports-nav-create-intune-reports.md
-            title: Intune 데이터 웨어하우스(미리 보기)로 보고서 만들기
+          - href: enrollment-autopilot.md
+            title: Microsoft Intune의 Windows AutoPilot Deployment 프로그램 지원
             image:
               src: 'https://docs.microsoft.com/media/common/i_generic-database.svg'
-          - href: 'https://blogs.technet.microsoft.com/intunesupport/2017/08/22/pfx-certificates-issued-using-the-intune-certificate-connector-fix-your-intune-migration-configuration-issues/'
-            title: '[블로그] Intune 인증서 커넥터를 사용하여 발급된 PFX 인증서'
+          - href: 'https://blogs.technet.microsoft.com/intunesupport/2017/10/11/upcoming-security-enhancements-in-the-intune-service-your-action-is-required/'
+            title: '[블로그] Intune 서비스의 보안 강화 기능 '
             image:
               src: 'https://docs.microsoft.com/media/common/i_blog.svg'
-          - href: 'https://blogs.technet.microsoft.com/intunesupport/2017/09/19/support-tip-setting-up-communication-between-mam-managed-and-mdm-managed-apps/'
-            title: '[블로그] MAM 관리 및 MDM 관리 앱 간에 통신 설정'
+          - href: 'https://cloudblogs.microsoft.com/enterprisemobility/2017/10/26/intunes-new-troubleshooting-portal-makes-diagnosing-and-resolving-end-user-issues-easier/'
+            title: '[블로그] 최종 사용자 문제의 진단 및 해결에 도움이 되는 문제 해결 포털'
             image:
               src: 'https://docs.microsoft.com/media/common/i_blog.svg'
   - title: 동영상

@@ -6,7 +6,7 @@ keywords:
 author: lleonard-msft
 ms.author: alleonar
 manager: angrobe
-ms.date: 10/27/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,18 @@ ms.assetid: 73590192-54ca-4833-9f1d-83e1b654399f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 043bc1ecf652802dc569d2df8b287b2246585f15
-ms.sourcegitcommit: 1416daed6803546445b6f280a86c663e6e00465a
+ms.openlocfilehash: 2f35de553259921c76341fe5b4a824e60c71d4a5
+ms.sourcegitcommit: 0f877251e6adf4e45b918cc8dc9193626727f2d9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="ios-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 iOS 장치 제한 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="general"></a>일반
-    
+
 -   **진단 데이터 제출** - 장치의 Apple에 진단 데이터 제출을 허용 또는 차단합니다.
 -   **화면 캡처** - 사용자가 이미지 형식으로 화면의 내용을 캡처할 수 있습니다.
     - **교실 앱에서 원격 화면 관찰(감독 모드에만 해당)** - Apple 교실 앱에서 iOS 장치의 화면을 보도록 허용하거나 차단합니다.
@@ -44,6 +44,54 @@ ms.lasthandoff: 10/27/2017
 - **구성 프로필 변경** - 사용자가 구성 프로필 및 인증서를 설치하도록 허용합니다.
 - **활성화 잠금(감독 모드에만 해당)** - 감독된 iOS 장치에서 활성화 잠금을 설정합니다.
 
+## <a name="configurations-requiring-supervision"></a>감독이 필요한 구성
+
+iOS 감독 모드는 Apple의 장치 등록 프로그램을 통하거나 Apple Configurator를 사용하여 초기에 장치를 설정하는 동안에만 활성화할 수 있습니다. 감독 모드를 활성화하면 Intune은 다음 기능으로 장치를 구성할 수 있습니다.
+
+- 앱 잠금(단일 앱 모드) 
+- 전역 HTTP 프록시 
+- 활성화 잠금 무시 
+- 자치 단일 앱 모드 
+- 웹 콘텐츠 필터 
+- 배경 및 잠금 화면 설정 
+- 자동 앱 푸시 
+- Always-On VPN 
+- 단독으로 관리되는 앱 설치 허용 
+- iBookstore 
+- iMessages 
+- 게임 센터 
+- AirDrop 
+- AirPlay 
+- 호스트 페어링 
+- 클라우드 동기화 
+- 스포트라이트 검색 
+- 전달 
+- 장치 지우기 
+- 제한 사항 UI 
+- UI에 의한 구성 프로필 설치 
+- 뉴스 
+- 바로 가기 키 
+- 암호 수정 
+- 장치 이름 변경 
+- 월페이퍼 변경 
+- 자동 앱 다운로드 
+- 엔터프라이즈 앱 신뢰로 변경 
+- Apple Music 
+- Mail Drop 
+- Apple Watch와 페어링 
+
+> [!NOTE]
+> Apple은 2018년에 특정 설정을 감독 전용으로 이동할 예정입니다. Apple이 감독 전용으로 마이그레이션하기를 기다리지 않고 이러한 설정을 사용하는 경우 다음을 고려하는 것이 좋습니다.
+> - 최종 사용자에 의한 앱 설치
+> - 앱 제거
+> - FaceTime
+> - Safari
+> - iTunes
+> - 성인 등급 콘텐츠
+> - iCloud 문서 및 데이터
+> - 다중 접속 게임
+> - 게임 센터 친구 추가
+
 ## <a name="password"></a>암호
 -   **암호** - 최종 사용자에게 장치에 액세스하려면 암호를 입력하도록 요구합니다.
     -   **단순 암호** - 0000 및 1234와 같은 단순 암호를 허용합니다.
@@ -56,7 +104,7 @@ ms.lasthandoff: 10/27/2017
     -   **암호 만료(일)** - 장치 암호를 변경해야 할 때까지의 기간(일)을 지정합니다.
     -   **이전 암호 다시 사용 안 함** - 장치에서 기억하는 이전에 사용한 암호 수를 지정합니다.
     -   **지문 잠금 해제** - 지문을 사용하여 호환 장치의 잠금을 해제하도록 허용합니다.
-- **암호 수정(감독 모드에만 해당)** - 암호 변경, 추가 또는 제거를 중지합니다. 
+- **암호 수정(감독 모드에만 해당)** - 암호 변경, 추가 또는 제거를 중지합니다.
     - **지문 수정(감독 모드에만 해당)** - 사용자의 TouchID 설정 변경, 추가 또는 제거를 중지합니다.
 
 <sup>1</sup> **화면이 잠기기 전까지 최대 비활성 시간(분)** 및 **화면 잠금 후 암호를 요구하기 전까지 최대 시간(분)**을 구성한 경우 순차적으로 적용됩니다. 예를 들어 두 설정 값을 모두 **5** 분으로 지정하면 5분 뒤 화면이 자동으로 꺼지고 이후 5분이 더 지나면 장치가 잠깁니다. 그러나 사용자가 화면을 수동으로 끄면 두 번째 설정이 즉시 적용됩니다. 동일한 예에서 사용자가 화면을 끄면 5분 뒤 장치가 잠깁니다.
@@ -89,7 +137,7 @@ ms.lasthandoff: 10/27/2017
 
 ## <a name="built-in-apps"></a>기본 제공 앱
 
--   **카메라** - 장치에서 카메라를 사용할 수 있는지 여부를 선택합니다. 
+-   **카메라** - 장치에서 카메라를 사용할 수 있는지 여부를 선택합니다.
     -   **FaceTime** - 장치에서 FaceTime 앱을 사용할 수 있습니다.
 -   **Siri** - 장치에서 Siri 음성 지원을 사용할 수 있습니다.
     -   **장치가 잠겨 있는 동안 Siri** - 장치가 잠겨 있는 동안 장치에서 Siri 음성 지원을 사용할 수 있습니다.
@@ -124,9 +172,7 @@ ms.lasthandoff: 10/27/2017
 예: iPad용 Microsoft Word를 검색합니다. 사용하는 URL은 https://itunes.apple.com/kr/app/microsoft-word-for-ipad/id586447913?mt=8이 됩니다.
 
 > [!Note]
-> 또한 iTunes 소프트웨어를 사용하여 앱을 찾은 후 **링크 복사** 명령으로 앱 URL을 가져올 수 있습니다.
-
-
+> 또한 iTunes를 사용하여 앱을 찾은 다음, **링크 복사** 명령을 사용하여 앱 URL을 가져올 수 있습니다.
 
 ### <a name="additional-options"></a>추가 옵션
 
@@ -247,7 +293,7 @@ ms.lasthandoff: 10/27/2017
 ,com.apple.mobileslideshow,Photos,Apple
 ,com.apple.podcasts,Podcasts,Apple
 ,com.apple.reminders,Reminders,Apple
-,com.apple.mobilesafariSafari,Apple
+,com.apple.MobileSafari,Safari,Apple
 ,com.apple.Preferences,Settings,Apple
 ,com.apple.stocks,Stocks,Apple
 ,com.apple.tips,Tips,Apple
@@ -305,6 +351,6 @@ ms.lasthandoff: 10/27/2017
 **웹 도메인 URL** 필드에서 하나 이상의 URL을 목록에 추가합니다. 지정하는 도메인에서 문서가 다운로드되면 관리되지 않는 문서로 간주됩니다. 이 설정은 Safari 브라우저를 사용하여 다운로드되는 문서에만 적용됩니다.
 
 
-### <a name="safari-password-auto-fill-domains"></a>Safari 암호 자동 채우기 도메인
+### <a name="safari-password-autofill-domains"></a>Safari 암호 자동 채우기 도메인
 
 **도메인 URL** 필드에서 하나 이상의 URL을 목록에 추가합니다. 사용자는 이 목록에 있는 URL의 웹 암호만 저장할 수 있습니다. 이 설정은 감독 모드에서 iOS 9.3 이상 장치와 Safari 브라우저에만 적용됩니다. URL을 지정하지 않으면 모든 웹 사이트의 암호를 저장할 수 있습니다.

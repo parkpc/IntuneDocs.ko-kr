@@ -6,7 +6,7 @@ keywords:
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
-ms.date: 05/05/2017
+ms.date: 10/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 64e5133d-1e23-4ee6-b556-f5d32c0e95da
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fbb1d3e11f8ba3e508a261981e461f35c99ca110
-ms.sourcegitcommit: f8672ff73066c2d8bcb78c30f84fda8aa3057a1c
+ms.openlocfilehash: 3736b6d43f5cd3b6c75097a2ceabebffd75f0caa
+ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2017
+ms.lasthandoff: 11/02/2017
 ---
 # <a name="how-to-monitor-app-information-and-assignments-with-microsoft-intune"></a>Microsoft Intune으로 앱 정보 및 할당을 모니터링 하는 방법
 
@@ -27,8 +27,22 @@ ms.lasthandoff: 10/11/2017
 
 Intune에서는 관리하는 앱 속성 및 해당 할당 상태를 모니터링할 수 있는 다양한 방법을 제공합니다.
 
-1. **모바일 앱** 워크로드에서 **관리** > **앱**을 선택합니다.
-2. 앱 블레이드 목록에서 정보를 볼 앱을 선택합니다. <*앱 이름*> **장치 설치 상태** 블레이드가 표시됩니다. ![앱 설치 상태 블레이드.](./media/monitor-apps.png)
+1. Azure Portal에 로그인합니다.
+2. **추가 서비스** > **모니터링 + 관리** + **Intune**을 선택합니다.
+3. **모바일 앱** 워크로드에서 **관리** 그룹의 **앱**을 선택합니다.
+     
+    ![앱 설치 상태 블레이드입니다.](./media/monitor-apps.png)
+5. 앱 블레이드 목록에서 앱을 선택합니다. <*앱 이름*> **장치 설치 상태** 블레이드가 표시됩니다.
+
+장치 설치 상태 보고서에는 다음 열이 포함됩니다.
+
+1.  **장치 이름** 장치 유형의 이름입니다.
+2.  **사용자 이름** 사용자 이름입니다.
+3.   **플랫폼** 장치에 설치된 운영 체제입니다.
+4.  **버전** 응용 프로그램의 버전 번호입니다.
+5.   **상태** 앱에서 가능한 상태는 **설치됨**, **설치되어 있지 않음**, **설치 보류 중** 및 **오류**입니다.
+6. **상태 세부 정보** 장치에서 읽을 수 있는 앱 상태에 대한 설명입니다.
+7. **마지막 체크 인** 장치가 Intune에 마지막으로 체크 인한 시기입니다.
 
 다음 작업 중 하나를 수행하여 앱 및 해당 할당에 대해 자세히 알아봅니다.
 

@@ -14,11 +14,11 @@ ms.assetid: 57019B11-DF9B-4D8A-95FE-254C75398DDE
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e399c36d4c6a855766ee956b3ca24c503a1f974b
-ms.sourcegitcommit: e57512698a479df0d25ece6ece4492ec0e4f0f3e
+ms.openlocfilehash: d485f0d53ac57a2f159ebd56b6b3823a8a49d5ad
+ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2017
+ms.lasthandoff: 11/02/2017
 ---
 # <a name="use-the-intune-data-warehouse"></a>Intune 데이터 웨어하우스 사용
 
@@ -35,8 +35,12 @@ Intune 데이터 웨어하우스를 사용하여 기업 모바일 환경에 대�
   -  일 단위로 새로 고침되는 데이터
   -  OData 표준을 사용하는 데이터 모델
 
+> [!Note]
+> System Center Configuration Manager 및 Microsoft Intune과 함께 하이브리드 MDM(모바일 장치 관리)을 사용하는 경우 SCCM에서 데이터를 검색하고자 합니다. Intune 데이터 웨어하우스에는 Intune 데이터만 포함됩니다. 사용자 지정 보고서에 대한 SCCM Power BI 대시보드를 사용할 수 있습니다. 자세한 내용은 “[System Center Configuration Manager에 대한 Power BI 솔루션 템플릿 발표]( https://powerbi.microsoft.com/blog/sccm-solution-template)” 및 “[Power BI 보고서 및 대시보드 만들기](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/create-powerbi-report-dashboard)”를 참조하세요.
+
+
 > [!Important]  
-> 베타 버전을 사용하여 데이터 웨어하우스의 최신 기능을 체험해 볼 수 있습니다. 베타 버전을 사용하려면 URL이 쿼리 매개 변수 `api-version=beta`을(를) 포함해야 합니다. 베타 버전에서는 정식 지원되기 전의 기능을 먼저 사용해 볼 수 있습니다. Intune에서 새로운 기능을 추가하면서 베타 버전의 동작과 데이터 계약이 달라질 수 있습니다. 베타 버전의 사용자 지정 코드 또는 보고 도구는 지속적인 업데이트와 함께 중단될 수 있습니다. <!-- If you experience problems with the beta service, follow [link to feedback process]() to report the issue or provide feedback.-->
+> 베타 버전을 사용하여 데이터 웨어하우스의 최신 기능을 체험해 볼 수 있습니다. 베타 버전을 사용하려면 URL이 쿼리 매개 변수 `api-version=beta`을(를) 포함해야 합니다. 베타 버전에서는 정식 지원되기 전의 기능을 먼저 사용해 볼 수 있습니다. Intune에서 새로운 기능을 추가하면서 베타 버전의 동작과 데이터 계약이 달라질 수 있습니다. 베타 버전의 사용자 지정 코드 또는 보고 도구는 지속적인 업데이트와 함께 중단될 수 있습니다.
 
 **다음 단계**
 

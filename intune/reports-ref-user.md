@@ -1,5 +1,5 @@
 ---
-title: "사용자 | Microsoft 문서"
+title: "사용자 - Intune 데이터 웨어하우스 | Microsoft Docs"
 description: "Intune 데이터 웨어하우스 API에서 엔터티 컬렉션의 사용자 범주에 대한 항목을 참조하세요."
 keywords: "Intune 데이터 웨어하우스"
 author: mattbriggs
@@ -14,11 +14,11 @@ ms.assetid: C29A6EEA-72B7-427E-9601-E05B408F3BB0
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: be8b7041882539c4e379074cffea385f582f686e
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: 8088127f5968c0b4f07f83b1dad02ba90f4e6b9a
+ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 11/02/2017
 ---
 # <a name="reference-for-user-entity"></a>사용자 엔터티에 대한 참조
 
