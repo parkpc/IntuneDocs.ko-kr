@@ -164,6 +164,8 @@
               href: windows-bulk-enroll.md
             - name: Windows AutoPilot 배포 프로그램
               href: enrollment-autopilot.md
+            - name: 등록 상태 화면
+              href: windows-enrollment-status.md
         - name: Android 등록 설정
           href: android-enroll.md
         - name: iOS 등록 설정
@@ -365,6 +367,8 @@
               href: certficates-pfx-configure.md
         - name: Windows Information Protection 설정 구성
           href: windows-information-protection-configure.md
+        - name: PowerShell 스크립트 관리
+          href: intune-management-extension.md
         - name: 통신 비용 모니터링
           href: telecom-expenses-monitor.md
         - name: 프로필 할당
