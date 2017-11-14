@@ -5,7 +5,7 @@ description: "Windows 10 장치에서 실행되도록 Intune에서 PowerShell �
 keywords: 
 author: dougeby
 manager: angrobe
-ms.date: 10/17/2017
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 768b6f08-3eff-4551-b139-095b3cfd1f89
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b621edad5523f3c77191fb2ef8ca2ea67318dec0
-ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
+ms.openlocfilehash: 237d6d090d0aae7f9a0853839b72d55618f4607e
+ms.sourcegitcommit: af958afce3070a3044aafea490c8afc55301d9df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="manage-powershell-scripts-in-intune-for-windows-10-devices"></a>Windows 10 장치를 위한 Intune에서의 PowerShell 스크립트 관리
 Intune 관리 확장을 사용하면 Windows 10 장치에서 실행되도록 Intune에서 PowerShell 스크립트를 업로드할 수 있습니다. 관리 확장은 Windows 10 MDM(모바일 장치 관리) 기능을 보완하며 사용자가 최신 관리로 더 손쉽게 이행할 수 있도록 합니다.
@@ -30,7 +30,7 @@ Microsoft Intune과 같은 MDM 서비스는 MDM 프로토콜을 사용하여 Win
 
 Intune 관리 확장은 Windows 10 MDM의 기본 기능을 보완합니다. 필요한 기능을 제공하는 Windows 10 장치에서 실행하도록 PowerShell 스크립트를 만들 수 있습니다. 예를 들어 Windows 10 장치에서 레거시 Win32 앱을 설치하는 PowerShell 스크립트를 만들고, Intune에 스크립트를 업로드하고, 스크립트를 Azure AD(Active Directory) 그룹에 할당하고, Windows 10 장치에서 스크립트를 실행할 수 있습니다. 그런 다음 Windows 10 장치에서 스크립트의 실행 상태를 처음부터 끝까지 모니터링할 수 있습니다.
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 Intune 관리 확장에는 다음과 같은 필수 구성 요소가 있습니다.
 - 장치가 Azure AD에 가입되어 있어야 합니다.
 - 장치가 Windows 10 버전 1607 이상을 실행해야 합니다.
