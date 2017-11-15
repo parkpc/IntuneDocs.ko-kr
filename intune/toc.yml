@@ -560,11 +560,11 @@
     - name: 사용자 지정 장치 설정 구성
       href: custom-settings-configure.md
       items:
+        - name: 미리 공유한 키를 사용하는 Wi-Fi 프로필
+          href: wi-fi-profile-shared-key.md
         - name: Android
           href: custom-settings-android.md
           items:
-            - name: 미리 공유한 키를 사용하는 Wi-Fi 프로필
-              href: wi-fi-profile-shared-key.md
             - name: 앱당 VPN 프로필
               href: android-pulse-secure-per-app-vpn.md
             - name: Samsung KNOX Standard에 대해 앱 허용/차단
