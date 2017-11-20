@@ -1,5 +1,5 @@
 ---
-title: "장치 | Microsoft 문서"
+title: "장치 - Intune 데이터 웨어하우스 | Microsoft Docs"
 description: "Intune 데이터 웨어하우스 API에서 엔터티 컬렉션의 장치 범주에 대한 항목을 참조하세요."
 keywords: "Intune 데이터 웨어하우스"
 author: mattbriggs
@@ -14,11 +14,11 @@ ms.assetid: 6955E12D-70D7-4802-AE3B-8B276F01FA4F
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1e3352335a5804575a39bbbf050ccb41b2674f2c
-ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
+ms.openlocfilehash: b11994028a42b19aca3e78900886afbedc1ca1d5
+ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2017
+ms.lasthandoff: 11/02/2017
 ---
 # <a name="reference-for-devices-entities"></a>장치 엔터티에 대한 참조
 

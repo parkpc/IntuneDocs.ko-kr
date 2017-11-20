@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 10/03/2017
+ms.date: 10/23/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bef73c81d285a6d320cd92b055ff2b5592a55af4
-ms.sourcegitcommit: 001577b700f634da2fec0b44af2a378150d1f7ac
+ms.openlocfilehash: caf399650e0a6382d3e03a133cad3aee1eda2d39
+ms.sourcegitcommit: fc24d7eb4838b9102088dd4dcf5d1aa6b2c2e590
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="what-is-device-enrollment"></a>장치 등록이란?
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -80,56 +80,12 @@ COD(회사 소유 장치) 등록 시나리오는 다음과 같습니다. Apple�
 DEM(장치 등록 관리자)은 회사 소유 장치를 여러 개 등록하여 관리할 수 있는 특수 사용자 계정입니다. 관리자는 회사 포털을 설치하고 사용자가 없는 많은 장치를 등록할 수 있습니다. [DEM](./device-enrollment-manager-enroll.md)에 대해 자세히 알아보세요.
 
 ### <a name="dep"></a>DEP
-Apple DEP(장치 등록 프로그램) 관리에서는 정책을 만든 후, 구입한 iOS 장치 중에서 DEP로 관리하는 장치에 "무선으로" 정책을 배포할 수 있습니다. 사용자가 처음으로 장치를 켜고 iOS 설치 도우미를 실행하면 장치가 등록됩니다. 이 방법은 iOS 감독 모드를 지원하며, 이 모드에서는 다음 기능을 사용하여 장치를 구성할 수 있습니다.
-
-- 앱 잠금(단일 앱 모드) 
-- 전역 HTTP 프록시 
-- 활성화 잠금 무시 
-- 자치 단일 앱 모드 
-- 웹 콘텐츠 필터 
-- 배경 및 잠금 화면 설정 
-- 자동 앱 푸시 
-- Always-On VPN 
-- 단독으로 관리되는 앱 설치 허용 
-- iBookstore 
-- iMessages 
-- 게임 센터 
-- AirDrop 
-- AirPlay 
-- 호스트 페어링 
-- 클라우드 동기화 
-- 스포트라이트 검색 
-- 전달 
-- 장치 지우기 
-- 제한 사항 UI 
-- UI에 의한 구성 프로필 설치 
-- 뉴스 
-- 바로 가기 키 
-- 암호 수정 
-- 장치 이름 변경 
-- 월페이퍼 변경 
-- 자동 앱 다운로드 
-- 엔터프라이즈 앱 신뢰로 변경 
-- Apple Music 
-- Mail Drop 
-- Apple Watch와 페어링 
-
-> [!NOTE]
-> Apple은 2018년에 특정 설정을 감독 전용으로 이동할 예정입니다. Apple이 감독 전용으로 마이그레이션하기를 기다리지 않고 이러한 설정을 사용하는 경우 다음을 고려하는 것이 좋습니다.
-> - 앱 설치
-> - 앱 제거
-> - FaceTime
-> - Safari
-> - iTunes
-> - 성인 등급 콘텐츠
-> - iCloud 문서 및 데이터
-> - 다중 접속 게임
-> - 게임 센터 친구 추가
+Apple DEP(장치 등록 프로그램) 관리에서는 정책을 만든 후, 구입한 iOS 장치 중에서 DEP로 관리하는 장치에 "무선으로" 정책을 배포할 수 있습니다. 사용자가 처음으로 장치를 켜고 iOS 설치 도우미를 실행하면 장치가 등록됩니다. 이 방법은 iOS 감독 모드를 지원하며, 이 모드에서는 특정 기능을 사용하여 장치를 구성할 수 있습니다.
 
 iOS DEP 등록에 대한 자세한 내용은 다음을 참조하세요.
 
 - [iOS 장치를 등록하는 방법 선택](ios-enroll.md)
-- [장치 등록 프로그램을 사용하여 iOS 장치 등록](device-enrollment-program-enroll-ios.md)
+- [장치 등록 프로그램을 사용하여 iOS 장치 등록](https://docs.microsoft.com/intune/device-restrictions-ios#device-enrollment-program)
 
 ### <a name="usb-sa"></a>USB-SA
 IT 관리자는 USB를 통해 Apple Configurator를 사용하여 등록할 각 회사 소유 장치를 설정 도우미를 사용하여 수동으로 준비합니다. IT 관리자는 등록 프로필을 만들어 Apple Configurator로 내보냅니다. 사용자가 장치를 받으면 [설정 도우미]를 실행하여 장치를 등록하라는 메시지가 표시됩니다. 이 방법은 **iOS 감독** 모드를 지원하며, 이 모드에서는 다음 기능을 사용할 수 있습니다.

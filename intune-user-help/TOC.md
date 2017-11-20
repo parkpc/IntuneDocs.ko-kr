@@ -8,7 +8,7 @@
 
 ## [회사 포털에 로그인하는 방법](sign-in-to-the-company-portal.md)
 
-## [Intune에서 Android 장치 사용](using-your-android-device-with-intune.md)
+## [Android 장치 사용](using-your-android-device-with-intune.md)
 ### [Android 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 ### [장치 등록](enroll-your-device-in-Intune-android.md)
 #### [Android for Work로 장치 등록](create-a-work-profile-and-enroll-your-device-in-intune-android.md)
@@ -57,13 +57,10 @@
 ##### [SandBlast Mobile Protect 사용](you-need-to-resolve-a-threat-found-by-checkpoint-android.md)
 ##### [Zimperium zIPS 사용](you-need-to-resolve-a-threat-found-by-zips-android.md)
 
-## [Intune에서 iOS 또는 macOS 장치 사용](using-your-iOS-or-macOS-device-with-intune.md)
+## [iOS 장치 사용](using-your-iOS-device-with-intune.md)
 ### [iOS 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
 ### [회사 포털 설치 및 로그인](install-and-sign-in-to-the-intune-company-portal-app-ios.md)
 ### [iOS 장치 등록](enroll-your-device-in-intune-ios.md)
-### [macOS 장치 등록](enroll-your-device-in-intune-macos.md)
-### [회사 포털로 macOS 장치 등록](enroll-your-device-in-intune-macos-cp.md)
-### [이 장치는 약간 다릅니다.](device-little-different-jamf.md)
 
 ### [장치에서 관리되는 앱 사용](use-managed-apps-on-your-device-ios.md)
 ### [암호 설정 또는 변경](set-or-change-your-passcode-ios.md)
@@ -96,6 +93,11 @@
 ##### [SandBlast Mobile Protect 사용](you-need-to-resolve-a-threat-found-by-checkpoint-ios.md)
 ##### [Zimperium zIPS 사용](you-need-to-resolve-a-threat-found-by-zips-ios.md)
 
+## [macOS 장치 사용](using-your-macos-device-with-intune.md)
+### [macOS 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-macos.md)
+### [macOS 장치 등록](enroll-your-device-in-intune-macos-cp.md)
+### [레거시 macOS 장치 등록](enroll-your-device-in-intune-macos-legacy.md)
+### [이 장치는 약간 다릅니다.](device-little-different-jamf.md)
 
 ## [Windows 장치 사용](using-your-windows-device-with-intune.md)
 ### [Windows 10 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
@@ -123,6 +125,9 @@
 #### [내 장치에 맬웨어 방지 소프트웨어가 필요함](your-device-needs-antimalware-software.md)
 #### [보안 부팅 사용](you-need-to-enable-secure-boot-windows.md)
 #### [코드 무결성 사용](you-need-to-enable-code-integrity.md)
-
+#### [내 방화벽을 사용하도록 설정해야 하는 경우](you-need-to-enable-defender-firewall-windows.md)
+#### [UAC를 사용하도록 설정해야 하는 경우](you-need-to-enable-uac-windows.md)
+#### [Windows를 업데이트해야 하는 경우](you-need-to-update-os-build-version-windows.md)
+#### [Windows Defender를 켜야 하는 경우](turn-on-defender-windows.md) 
 
 ## [Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)

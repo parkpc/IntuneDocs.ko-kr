@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: damionw
 ms.custom: intune-azure
-ms.openlocfilehash: 372cc50fb4ac36ec875d84a71f3d3437917a2d1a
-ms.sourcegitcommit: 93c8c7e5abe433e35d88cb3b8d3d1e7216d7fe9b
+ms.openlocfilehash: 7738935675595bbdd3ba1f6411a78a2646894073
+ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Windows 장치에 대한 대량 등록
 
@@ -33,7 +33,7 @@ Azure AD 사용자는 이러한 장치에서 표준 사용자이며 할당된 In
 Windows 장치에 대한 대량 등록 작업에는 다음이 필요합니다.
 
 - Windows 10 크리에이터스 업데이트 이상을 실행하는 장치
-- [Windows 자동 등록](https://docs.microsoft.com/intune-classic/deploy-use/set-up-windows-device-management-with-microsoft-intune#enable-windows-10-automatic-enrollment)
+- [Windows 자동 등록](windows-enroll.md#enable-windows-10-automatic-enrollment)
 
 ## <a name="create-a-provisioning-package"></a>프로비전 패키지 만들기
 

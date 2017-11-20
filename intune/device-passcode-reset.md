@@ -14,18 +14,18 @@ ms.technology:
 ms.assetid: 47181d19-4049-4c7a-a8de-422206c4027e
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3defec3624944918d14b9c4527487c368c487dd6
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 0446db40b829e92b681294ecc497a2c475480fac
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="reset-the-passcode-on-intune-managed-devices"></a>Intune 관리 장치에서 암호 초기화
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-**암호 초기화** 작업을 수행하면 <*장치 이름*> **개요** 블레이드에 표시되는 장치의 새 암호가 생성됩니다.
+**암호 제거** 작업을 수행하면 <*장치 이름*> **개요** 블레이드에 표시되는 장치의 새 암호가 생성됩니다.
 
 ## <a name="supported-platforms"></a>지원되는 플랫폼
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/15/2017
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **장치**를 선택합니다.
 4. **장치 및 그룹** 블레이드에서 **모든 장치**를 선택합니다.
-5. 관리하는 장치 목록에서 장치를 선택한 다음 **암호 초기화** 장치 원격 작업을 선택합니다.
+5. 관리하는 장치 목록에서 장치를 선택한 다음 **암호 제거** 장치 원격 작업을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

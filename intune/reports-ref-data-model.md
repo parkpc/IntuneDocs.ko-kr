@@ -14,11 +14,11 @@ ms.assetid: 4D04D3D9-4B6C-41CD-AAF8-466AF8FA6032
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d52e240763263ac4f761a8635ee6694a45168354
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: 37af15a36ff20b2c13b5fb1157d04a05c40d3216
+ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 11/02/2017
 ---
 # <a name="data-warehouse-data-model"></a>데이터 웨어하우스 데이터 모델
 
@@ -38,14 +38,10 @@ Intune 데이터 웨어하우스 구조는 별모양 스키마 모델을 사용�
 
 엔터티 집합은 데이터 모델의 이름이 있는 엔터티 컬렉션입니다. 이 집합에는 모델에서 수집된 데이터를 정의하는 엔터티가 포함됩니다. 각 엔터티 집합은 데이터 웨어하우스 데이터 모델에 대한 액세스 포인트를 제공합니다. 다음 범주의 엔터티에 대한 정보를 찾을 수 있습니다.
 
-  -  [날짜](reports-ref-date.md)
-  -  [사용자](reports-ref-user.md)
-  -  [모바일 앱 관리(MAM)](reports-ref-mobile-app-management.md)
-  -  [장치](reports-ref-devices.md)
   -  [응용 프로그램](reports-ref-application.md)
+  -  [날짜](reports-ref-date.md)
+  -  [장치](reports-ref-devices.md)
   -  [정책](reports-ref-policy.md)
-  -  [사용자 장치 연결](reports-ref-userdeviceassociations.md)
-
-<!-- ## Data Model relationships
-
-For more information on the relationships in the data model, see [Relationships of Entities](reports-api-entity-relationships.md). -->
+  -  [모바일 앱 관리(MAM)](reports-ref-mobile-app-management.md)
+  -  [사용자](reports-ref-user.md)
+  -  [사용자 장치 연결](reports-ref-user-device.md)
