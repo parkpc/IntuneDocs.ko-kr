@@ -15,11 +15,11 @@ ms.assetid: 89f2d806-2e97-430c-a9a1-70688269627f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 759207adf49308dcd4e6253627e4a1213be22904
-ms.sourcegitcommit: 2e77fe177a3df1dfe48e72f4c2bfaa1f0494c621
+ms.openlocfilehash: 903ba99a747689dd8882acedcb24fef2dd00a01d
+ms.sourcegitcommit: af958afce3070a3044aafea490c8afc55301d9df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="windows-10-and-later-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 이상 장치 제한 설정
 
@@ -31,10 +31,10 @@ ms.lasthandoff: 10/19/2017
 -   **수동 등록 취소** - 장치에서 회사 계정을 수동으로 삭제할 수 있습니다.
 -   **수동 루트 인증서 설치(모바일 전용)** - 사용자가 루트 인증서 및 중간 CAP 인증서를 수동으로 설치할 수 없게 됩니다.
 -   **진단 데이터 제출** - 가능한 값은 다음과 같습니다.
-    -       **없음** - Microsoft로 데이터가 전송되는 데이터가 없습니다.
-    -       **기본** - 제한된 정보가 Microsoft로 전송됩니다.
-    -       **고급** - 고급 진단 데이터가 Microsoft로 전송됩니다.
-    -       **전체** - 고급과 동일한 데이터 외에, 장치 상태에 대한 추가적인 데이터를 전송합니다.
+    - **없음** - Microsoft로 데이터가 전송되지 않습니다.
+    - **기본** - 제한된 정보가 Microsoft로 전송됩니다.
+    - **고급** - 고급 진단 데이터가 Microsoft로 전송됩니다.
+    - **전체** - 고급과 동일한 데이터 외에, 장치 상태에 대한 추가적인 데이터를 전송합니다.
 -   **카메라** - 장치에서 카메라 사용을 허용하거나 차단합니다.
 -   **OneDrive 파일 동기화** - 장치가 OneDrive로 파일을 동기화하는 작업이 차단됩니다.
 -   **이동식 저장소** - 장치에 SD 카드와 같은 외부 저장 장치를 사용할 수 있는지 여부를 지정합니다.
@@ -105,6 +105,7 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 
 
 ## <a name="edge-browser"></a>Edge 브라우저
+
 -   **Microsoft Edge 브라우저(모바일 전용)** - 장치에서 Edge 웹 브라우저 사용을 허용합니다.
 -   **주소 표시줄 드롭다운(데스크톱 전용)** – 입력 시 Edge에서 드롭다운 목록에 제안 목록을 표시하지 않도록 하려면 이 옵션을 사용합니다. 이렇게 하면 Edge와 Microsoft 서비스 간의 네트워크 대역폭 사용을 최소화할 수 있습니다.
 -   **Microsoft 브라우저 간 즐겨찾기 동기화(데스크톱 전용)** – Windows에서 Internet Explorer와 Edge 간에 즐겨찾기를 동기화하도록 허용합니다.
@@ -180,6 +181,44 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
     -   **편리한 액세스** - 설정 앱의 편리한 액세스 영역에 대한 액세스를 차단합니다.
     -   **개인 정보** - 설정 앱의 계정 영역에 대한 액세스를 차단합니다.
     -   **업데이트 및 보안** - 설정 앱의 업데이트 및 보안 영역에 대한 액세스를 차단합니다.
+
+## <a name="kiosk"></a>키오스크
+
+-   **키오스크 모드** - 정책에서 지원되는 [키오스크 모드](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shared-pc) 유형을 식별합니다.  다음 옵션을 사용할 수 있습니다.
+
+      - **구성되지 않음**(기본값) - 정책이 키오스크 모드를 사용하도록 설정하지 않습니다. 
+      - **단일 앱 키오스크** - 프로필을 통해 장치를 단일 앱 키오스크로 사용하도록 설정합니다.
+      - **여러 앱 키오스크** - 프로필을 통해 장치를 여러 앱 키오스크로 사용하도록 설정합니다.
+
+    단일 앱 키오스크에는 다음 설정이 필요합니다.
+
+      - **사용자 계정** - 키오스크 앱과 연결된 로컬(장치에 대한) 사용자 계정 또는 Azure AD 계정 로그인을 지정합니다.  Azure AD 도메인에 가입된 계정의 경우 `domain\\username@tenant.org` 형태로 계정을 지정합니다.
+
+         공용 환경의 장치는 권한이 부여된 작업을 방지하기 위해 최소한의 권한으로 계정을 사용합니다.  
+
+      - **앱의 AUMID(응용 프로그램 사용자 모델 ID)** - 키오스크 앱의 AUMID를 지정합니다.  자세한 내용은 [설치된 앱의 응용 프로그램 사용자 모델 ID 찾기](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)를 참조하세요.
+
+    여러 앱 키오스크에는 키오스크 구성이 필요합니다.  **추가** 단추를 사용하여 키오스크 구성을 만들거나 기존 키오스크를 선택합니다.
+
+    멀티 앱 키오스크 구성에는 다음 설정이 포함됩니다.
+
+    - **키오스크 구성 이름** - 지정된 구성을 식별하는 데 사용되는 이름입니다.
+
+    - 하나 이상의 **키오스크 앱**은 다음으로 이루어집니다.
+
+        - **앱 유형** - 키오스크 앱 유형을 지정합니다.  지원되는 값은 다음과 같습니다.   
+
+            - **Win32 앱** - 기존 데스크톱 앱입니다.  (장치 관련 실행 파일의 정규화된 경로 이름이 필요합니다.)
+
+            - **UWP 앱** - 유니버설 Windows 앱입니다.  [앱용 AUMID ](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)가 필요합니다.
+
+        - **앱 식별자** - 실행 파일(Win32 앱)의 정규화된 경로 이름 또는 [앱의 AUMID](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)(UWP 앱)를 지정합니다.
+
+    - **작업 표시줄**은 작업 표시줄이 키오스크에 표시되는지(**사용함**) 또는 숨겨지는지(**구성되지 않음**)를 나타냅니다.
+
+    - **시작 메뉴 레이아웃** - [시작 메뉴에 앱이 나타나는](https://docs.microsoft.com/en-us/windows/configuration/lock-down-windows-10-to-specific-apps#create-xml-file) 방식을 설명하는 XML 파일을 지정합니다.
+
+    - **할당된 사용자** - 키오스크 구성과 연결된 하나 이상의 사용자 계정을 지정합니다.  계정은 장치에 로컬이거나 키오스크 앱과 연결된 Azure AD 계정 로그인일 수 있습니다.  도메인에 가입된 계정을 `domain\\username@tenant.org` 형태로 지정합니다.
 
 ## <a name="defender"></a>Defender
 

@@ -14,11 +14,11 @@ ms.assetid: 5E5A35D3-88F8-441B-8A0B-C5D7A1E5137B
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 56f80e7cede68364d1a98b58acab3e7dd2f51b73
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: aa559d946456f215d4db925c8a2e8a42cfacf209
+ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="connect-to-the-data-warehouse-with-power-bi"></a>Power BI를 통해 데이터 웨어하우스에 연결
 
@@ -53,9 +53,9 @@ Power BI 파일(pbix)은 테넌트에 대한 연결 정보와 데이터 웨어�
 
 1.  Azure 포털에 로그인하고 **모니터링 + 관리** > **Intune**을 선택합니다. **Intune**에 대한 리소스를 검색할 수도 있습니다.  
 2.  **Microsoft Intune Data Warehouse API(미리 보기)** 블레이드를 엽니다.
-3.  **PowerBI 파일 다운로드**를 클릭합니다. (pbix) 확장명을 가진 파일이 지정한 위치로 다운로드됩니다.
+3.  **PowerBI 파일 다운로드**를 선택합니다. (pbix) 확장명을 가진 파일이 지정한 위치로 다운로드됩니다.
 4.  Power BI로 파일을 엽니다. *Intune 데이터 웨어하우스 보고서*가 로드되지만 테넌트 데이터를 가져오는 데 약간의 시간이 걸릴 수 있습니다.
-5.  **새로 고침**을 클릭하여 테넌트 데이터를 로드하고 보고서를 검토합니다.
+5.  **새로 고침**을 선택하여 테넌트 데이터를 로드하고 보고서를 검토합니다.
 6.  Power BI가 Azure Active Directory 자격 증명으로 인증되지 않은 경우 Power BI는 자격 증명을 제공하라는 메시지를 표시합니다. 자격 증명을 선택할 때 인증 방법으로 **조직 계정**을 선택합니다.
 
 ## <a name="load-the-data-in-power-bi-using-the-odata-link"></a>OData 링크를 사용하여 Power BI에서 데이터 로드
@@ -69,13 +69,13 @@ Power BI 파일(pbix)은 테넌트에 대한 연결 정보와 데이터 웨어�
 5. **홈** > **데이터 가져오기**를 선택합니다. **OData 피드**를 선택합니다.
 6. **기본**을 선택합니다.
 7. **OData URL**을 URL 상자에 입력하거나 붙여넣습니다.
-8. **확인**을 클릭합니다.
+8. **확인**을 선택합니다.
 9. Power BI 데스크톱 클라이언트에서 테넌트에 대해 Azure AD 인증을 받지 않은 경우 자격 증명을 입력합니다. 데이터에 대한 액세스 권한을 얻으려면 OAuth 2.0을 사용하여 Azure AD(Azure Active Directory)를 통해 권한을 부여해야 합니다.  
     1.  **조직 계정**을 선택합니다.  
     2.  사용자 이름과 암호를 입력합니다.  
-    3.  **로그인**을 클릭합니다.  
-    4.  **연결**을 클릭합니다.  
-10. **로드**를 클릭합니다.
+    3.  **로그인**을 선택합니다.  
+    4.  **연결**을 선택합니다.  
+10. **로드**를 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

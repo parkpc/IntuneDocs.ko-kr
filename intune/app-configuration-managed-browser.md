@@ -6,7 +6,7 @@ keywords:
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
-ms.date: 10/10/2017
+ms.date: 11/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 1feca24f-9212-4d5d-afa9-7c171c5e8525
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 99b8b50dbbb2dc2e3d7e8cd5af2f95fa2bb3b861
-ms.sourcegitcommit: 42a0e4c83e33c1a25506ca75d673e861e9206945
+ms.openlocfilehash: 395b48ab71b093c12c244fab1acd22c0ecca4c51
+ms.sourcegitcommit: 0a2897b5104dc33ca0661c27a373026d7f4cc956
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 11/11/2017
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Microsoft Intune에서 Managed Browser 정책을 사용하여 인터넷 액세스 관리
 
@@ -68,7 +68,7 @@ Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https
 3.  관리 목록의 **모바일 앱** 블레이드에서 **앱 구성 정책**을 선택합니다.
 4.  **앱 구성 정책** 블레이드에서 **추가**를 선택합니다.
 5.  **앱 구성 추가** 블레이드에서 앱 구성 설정의 **이름** 및 **설명**(선택 사항)을 입력합니다.
-6.  **장치 등록** 형식에서 **관리되는 장치** 또는 **관리되는 앱**을 선택합니다.
+6.  **장치 등록** 유형에 **관리되는 앱**를 선택합니다.
 7.  **필수 앱 선택**을 선택하고 **대상 앱** 블레이드에서 iOS나 Android 중 하나 또는 둘 다에 대해 **Managed Browser**를 선택합니다.
 8.  **확인**을 선택하여 **앱 구성 추가** 블레이드로 돌아옵니다.
 9.  **구성 설정**을 선택합니다. **구성** 블레이드에서 키와 값 쌍을 정의하여 Managed Browser에 대한 구성을 제공합니다. 이 문서의 뒷부분에 나오는 섹션에서 정의할 수 있는 다양한 키와 값 쌍에 대해 알아보세요.
@@ -202,6 +202,22 @@ Managed Browser 앱 구성을 만드는 절차를 수행할 때 다음 키와 �
     -   http://www.contoso.com:&#42;
 
     -   http://www.contoso.com: /&#42;
+
+## <a name="how-to-access-to-managed-app-logs-using-the-managed-browser-on-ios"></a>iOS에서 Managed Browser를 사용하여 관리되는 앱 로그에 액세스하는 방법
+
+iOS 장치에 Managed Browser가 설치된 최종 사용자는 Microsoft에서 게시한 모든 앱의 관리 상태를 볼 수 있습니다. 관리되는 iOS 앱의 문제를 해결하기 위해 로그를 보낼 수 있습니다.
+
+1. iOS **설정**을 엽니다.
+2. 관리되는 **브라우저** 응용 프로그램 설정을 엽니다.
+3. **Intune 진단 사용**을 토글하여 브라우저를 문제 해결 모드에 설정합니다.
+4. 관리되는 **브라우저**를 엽니다. **Intune 앱 상태 보기**를 클릭하여 개별 응용 프로그램 정책 설정을 봅니다.
+5. **시작** 및 **로그 공유** 또는 **Microsoft에 로그 보내기**를 눌러서 문제 해결 IT 관리자나 Microsoft에 보냅니다.
+
+앱 내에서 문제 해결 모드로 브라우저를 열 수도 있습니다.
+
+1. Managed Browser를 엽니다.
+2. 주소 상자에 `about:intunehelp`를 입력합니다.
+브라우저가 문제 해결 모드를 시작합니다.
 
 ## <a name="security-and-privacy-for-the-managed-browser"></a>Managed Browser에 대한 보안 및 개인 정보
 

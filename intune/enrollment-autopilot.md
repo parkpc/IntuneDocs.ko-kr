@@ -5,17 +5,17 @@ keywords:
 author: dougeby
 ms.author: dougeby
 manager: angrobe
-ms.date: 10/04/2017
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a2dc5594-a373-48dc-ba3d-27aff0c3f944
-ms.openlocfilehash: 83ab9e4a6fae4fda4c8e97c5fc091d4e5a03f3ea
-ms.sourcegitcommit: b8d3f8da6d8c2bd5d6140d538193a02d5875aefb
+ms.openlocfilehash: 736eda24e355024e2abadd57206c0f0423e6d4b4
+ms.sourcegitcommit: af958afce3070a3044aafea490c8afc55301d9df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="enroll-windows-devices-using-windows-autopilot-deployment-program"></a>Windows AutoPilot Deployment 프로그램을 사용하여 Windows 장치 등록
 Windows AutoPilot Deployment 프로그램은 장치 프로비전을 간소화합니다. 오늘날 사용자 지정 운영 체제 이미지를 빌드하고 유지 관리하는 데 많은 시간이 걸립니다. 또한 최종 사용자에게 제공하기 전에 이러한 사용자 지정 운영 체제 이미지를 새 장치에 적용하여 사용하도록 준비하는 데에도 많은 시간이 걸릴 수 있습니다. Microsoft Intune 및 AutoPilot을 사용하면 사용자 지정 운영 체제 이미지를 빌드 및 유지 관리하고 장치에 적용할 필요 없이 최종 사용자에게 새 장치를 제공할 수 있습니다. Intune을 사용하여 AutoPilot 장치를 관리하는 경우 장치를 등록한 후에 정책, 프로필, 앱 등을 관리할 수 있습니다. 이점, 시나리오 및 필수 구성 요소에 대한 개요는 [Windows AutoPilot 개요](https://docs.microsoft.com/windows/deployment/windows-10-auto-pilot)를 참조하세요.
@@ -57,6 +57,13 @@ AutoPilot 배포 프로필은 AutoPilot 장치를 구성하는 데 사용됩니�
 > - Cortana, OneDrive 및 OEM 등록 설정 페이지 건너뛰기
 > - 회사 또는 학교에 자동으로 설정
 > - 회사 또는 학교 브랜드가 있는 환경에 로그인    
+
+## <a name="alerts-for-windows-autopilot-unassigned-devices-----163236---"></a>Windows AutoPilot 할당되지 않은 장치에 대한 경고 <!-- 163236 -->
+Windows AutoPilot 할당되지 않은 장치에 대한 경고에서 AutoPilot 프로그램의 장치 중 AutoPilot 배포 프로필이 없는 장치의 수를 확인할 수 있습니다. 경고의 정보를 사용하여 프로필을 만들어서 할당되지 않은 장치에 할당하십시오. 경고를 클릭하면 Windows AutoPilot 장치의 전체 목록과 해당 장치에 대한 자세한 정보가 표시됩니다. 
+1. [Azure](https://portal.azure.com/)에 로그인합니다. 
+2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+3. **Intune** 블레이드에서 **장치 등록**을 선택합니다.
+4. **개요**를 선택하여 경고를 봅니다. 경고를 클릭하여 AutoPilot 장치 목록을 봅니다.  
 
 ## <a name="assign-an-autopilot-deployment-profile"></a>AutoPilot 배포 프로필 할당
 AutoPilot 배포 프로필을 만든 후에는 해당 프로필을 선택한 장치에 할당할 수 있습니다.

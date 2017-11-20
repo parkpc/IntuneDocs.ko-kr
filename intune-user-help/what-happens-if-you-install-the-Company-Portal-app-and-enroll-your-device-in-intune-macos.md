@@ -1,5 +1,5 @@
 ---
-title: "iOS용 회사 포털 앱 설치 | Microsoft 문서"
+title: "macOS용 회사 포털 앱 설치 | Microsoft 문서"
 description: 
 keywords: 
 author: barlanmsft
@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: a2467c02-aac5-41c8-b788-cbda830941ef
+ms.assetid: c1601bb7-5397-44af-a2e2-9c370f23976f
 searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 653ccf642cdf2c157694cfbe7e27e225a9df2d6d
+ms.openlocfilehash: c35c04f893e857ada04445611533c6b0f408d2dc
 ms.sourcegitcommit: e692be57ec7044dfc224b70941affbfd7efba421
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/08/2017
 ---
-# <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-ios-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 iOS 장치를 등록하면 어떻게 되나요?
+# <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-macos-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 macOS 장치를 등록하면 어떻게 되나요?
 
-Intune에서 회사 포털 앱을 설치하고 iOS 장치를 등록하면, 다음과 같은 용도로 회사 포털 앱을 사용할 수 있습니다.
+Intune에서 회사 포털 앱을 설치하고 macOS 장치를 등록하면, 다음과 같은 용도로 회사 포털 앱을 사용할 수 있습니다.
 
 -   회사 네트워크, 메일 및 작업 파일 액세스
 

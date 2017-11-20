@@ -14,11 +14,11 @@ ms.assetid: 4D04D3D9-4B6C-41CD-AAF8-466AF8FA6032
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 37af15a36ff20b2c13b5fb1157d04a05c40d3216
-ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
+ms.openlocfilehash: f720d5f9dbf91d7f098a640d640f8f35136da4fc
+ms.sourcegitcommit: 5279a0bb8c5aef79aa57aa247ad95888ffe5a12b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 11/08/2017
 ---
 # <a name="data-warehouse-data-model"></a>데이터 웨어하우스 데이터 모델
 
@@ -41,6 +41,7 @@ Intune 데이터 웨어하우스 구조는 별모양 스키마 모델을 사용�
   -  [응용 프로그램](reports-ref-application.md)
   -  [날짜](reports-ref-date.md)
   -  [장치](reports-ref-devices.md)
+  -  [Intune 관리 확장](reports-ref-intunemanagementextension.md)
   -  [정책](reports-ref-policy.md)
   -  [모바일 앱 관리(MAM)](reports-ref-mobile-app-management.md)
   -  [사용자](reports-ref-user.md)

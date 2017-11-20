@@ -1,7 +1,7 @@
 ---
 title: "Intune용 구성 정책 추가 | Microsoft Docs"
 titlesuffix: Azure portal
-description: "Intune용 앱 구성 정책을 사용하는 방법에 대해 알아봅니다."
+description: "Intune용 앱 구성 정책을 사용하는 방법을 알아봅니다."
 keywords: 
 author: mattbriggs
 ms.author: mabrigg
@@ -15,11 +15,11 @@ ms.assetid: 834B4557-80A9-48C0-A72C-C98F6AF79708
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b690f691278d0cc708ed7e586e30aee4ed6e807a
-ms.sourcegitcommit: 67c037af31c1f167ec9b4f4baa754631c817e7d1
+ms.openlocfilehash: 406d0faa1e03a41d20c1b584d2d37f9810ddbf32
+ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="app-configuration-policies-for-intune"></a>Intune용 앱 구성 정책
 
@@ -38,7 +38,7 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 iOS 또는
 
 Intune을 사용한 앱 구성을 사용하는 방법에는 두 가지 옵션이 있습니다.
  - **관리되는 장치**  
-   장치는 MDM 공급자로 Intune에서 관리됩니다.
+   장치는 MDM(모바일 장치 관리) 공급자로 Intune에서 관리됩니다.
  - **관리되는 앱**  
    앱이 장치 등록 없이 관리됩니다.
 

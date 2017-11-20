@@ -15,11 +15,11 @@ ms.assetid: 1fadb488-9c6c-43c1-ba23-8c69db633b96
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e3333a5addfd0c4ab757121e22e19ac66c0b3e1d
-ms.sourcegitcommit: ec8561b8c63515e0b5f21a858984108dc5dbd5d3
+ms.openlocfilehash: ae5210cb3da5503c4cf1b85be8b8522fa1cfd6ce
+ms.sourcegitcommit: 1df625330f4e8f7f661b5f2b9f16b5590971838d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/10/2017
 ---
 # <a name="how-to-configure-wi-fi-settings-in-microsoft-intune"></a>Microsoft Intune에서 Wi-Fi 설정을 구성하는 방법
 
@@ -58,9 +58,7 @@ Windows 8.1, Windows 10 및 Windows 10 Mobile을 실행하는 장치의 경우 �
     - **Android**
     - **macOS**
     - **Windows 8.1 이상(프로필 가져오기)**
-6. **프로필** 유형 드롭다운 목록에서 **Wi-Fi 기본** 또는 **Wi-Fi 엔터프라이즈**를 선택합니다.
-    >[!TIP]
-    >**Wi-Fi 기본**을 사용하여 네트워크 이름 및 SSID와 같은 기본 기능을 제공합니다. **Wi-Fi 엔터프라이즈**를 사용하여 EAP(확장 인증 프로토콜)와 같은 보다 고급 정보를 제공할 수 있습니다(Wi-Fi 네트워크에서 이를 사용하는 경우). **Wi-Fi 가져오기**(Windows 8.1 및 Windows 10의 경우)를 사용하여 이전에 다른 장치에서 내보낸 XML 파일로 Wi-Fi 설정을 가져올 수 있습니다.
+6. **프로필** 유형 드롭다운 목록에서 **Wi-Fi 기본** 또는 **Wi-Fi 엔터프라이즈**를 선택합니다. **Wi-Fi 기본**을 사용하여 네트워크 이름 및 SSID와 같은 기본 기능을 제공할 수 있습니다. **Wi-Fi 엔터프라이즈**를 사용하여 EAP(확장 인증 프로토콜)와 같은 보다 고급 정보를 제공할 수 있습니다(Wi-Fi 네트워크에서 이를 사용하는 경우). **Wi-Fi 가져오기**(Windows 8.1 및 Windows 10의 경우)를 사용하여 이전에 다른 장치에서 내보낸 XML 파일로 Wi-Fi 설정을 가져올 수 있습니다.
 7. 선택한 플랫폼에 따라 구성할 수 있는 설정이 다릅니다. 각 플랫폼에 대한 자세한 설정을 보려면 다음 항목 중 하나로 이동하세요.
     - [Android and Android for Work 설정](wi-fi-settings-android.md)
     - [iOS 설정](wi-fi-settings-ios.md)

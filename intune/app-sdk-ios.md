@@ -5,7 +5,7 @@ keywords:
 author: mattbriggs
 manager: angrobe
 ms.author: mabriggs
-ms.date: 09/01/2017
+ms.date: 11/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: cc4ba554b498e3b41df5fb1051f1d7a0bd4fb89e
-ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
+ms.openlocfilehash: 56bc71124c5a2714746dffcce256f0e604e9f62c
+ms.sourcegitcommit: ca10ab40fe40e5c9f4b6f6f4950b551eecf4aa03
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2017
+ms.lasthandoff: 11/13/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>iOS용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -159,7 +159,24 @@ Intune 앱 SDK를 사용하려면 다음 단계를 따르세요.
 
 11. 앱의 자격에 앱 그룹이 정의되어 있으면 이러한 그룹을 `AppGroupIdentifiers` 키 아래의 **IntuneMAMSettings** 사전에 문자열 배열로 추가합니다.
 
+## <a name="using-the-intune-mam-configurator-tool"></a>Intune MAM Configurator Tool 사용
 
+Intune MAM Configurator Tool에서 이제 SDK를 수동으로 통합하는 데 필요한 모든 info.plist 조작을 처리합니다. 이 도구는 iOS용 Intune 앱 SDK의 리포지토리에서 찾을 수 있습니다. 다중 ID, AAD 설정 등과 같은 추가 앱 관련 설정은 이 도구로 처리되지 않습니다. 이 도구에는 3가지 매개 변수가 있습니다.
+ 
+|속성|사용 방법|
+|---------------|--------------------------------|
+|- i |  `<Path to the input plist>` |
+|- e | 자격 파일 |
+|- o |  (선택 사항) `<Path for the changed input plist>` |
+    
+Intune MAM Configurator Tool은 다음을 업데이트하는 데 사용할 수 있습니다.
+* IntuneMAMSettings에 포함되는 앱의 주 스토리보드 및/또는 주 Nib 파일.
+* 각 URL 구성표의 intunemam 접미사가 있는 Info.plist 파일의 앱에 정의된 URL 스키마.
+* 각 항목의 “문서 콘텐츠 형식 UTI” 배열에 대해 해당 Info.plist 파일에 앱의 정의된 문서 유형이 있는 경우 “com.microsoft.intune.mam.” 접두사가 있는 각 문자열에 대해 중복 항목을 추가합니다.
+* 앱의 자격에 앱 그룹이 정의되어 있으면 해당 그룹을 AppGroupIdentifiers 키 아래 IntuneMAMSettings 사전에 문자열 배열로 추가합니다.
+
+    
+>[!NOTE] 수동 info.plist 조작 대신 이 도구를 사용하는 경우, 앱의 info.plist 또는 권한 부여가 변경될 때마다 도구를 다시 실행하는 것이 좋습니다.
 
 ## <a name="configure-azure-active-directory-authentication-library-adal"></a>Azure ADAL(Active Directory 인증 라이브러리) 구성
 

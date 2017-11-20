@@ -15,11 +15,11 @@ ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8f1b9f6900a5dfded736bd0cc92283fdca2220a5
-ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
+ms.openlocfilehash: c7947c9d047c6f206f9f93c389d418379fe8267a
+ms.sourcegitcommit: 5279a0bb8c5aef79aa57aa247ad95888ffe5a12b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 11/08/2017
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Microsoft Intune Azure에서 Intune 온-프레미스 Exchange 커넥터 설정
 
@@ -134,13 +134,18 @@ Exchange Connector의 연결을 설정하면 Exchange Connector에서 관리되�
 > [!NOTE]
 > 온-프레미스 Exchange Connector를 설치했다가 어떤 시기에 Exchange 연결을 삭제한 경우 온-프레미스 Exchange Connector가 설치된 컴퓨터에서 해당 소프트웨어를 제거해야 합니다.
 
-## <a name="validate-the-exchange-connection"></a>Exchange 연결 유효성 검사
+## <a name="monitor-the-exchange-connector-activity"></a>Exchange Connector 작업 모니터링
 
 Exchange Connector를 성공적으로 구성한 후 연결 상태 및 마지막으로 성공한 동기화 시도를 볼 수 있습니다. Exchange Connector 연결의 유효성을 검사하려면:
 
-- Intune 대시보드에서 **온-프레미스 액세스**를 선택합니다. **관리** 아래에서 **Exchange 온-프레미스 액세스**를 선택하여 연결 상태를 확인합니다.
+1. Intune 대시보드에서 **온-프레미스 액세스**를 선택합니다.
+2. **관리** 아래에서 **Exchange 온-프레미스 액세스**를 선택하여 연결 상태를 확인합니다.
 
 마지막으로 성공한 동기화 시도의 시간과 날짜를 확인할 수도 있습니다.
+
+### <a name="system-center-operations-manager-scom-management-pack"></a>SCOM(System Center Operations Manager) 관리 팩
+
+Intune 1710 릴리스부터 [Exchange Connector 및 Intune 용 SCOM 관리 팩](https://www.microsoft.com/en-us/download/details.aspx?id=55990&751be11f-ede8-5a0c-058c-2ee190a24fa6=True&e6b34bbe-475b-1abd-2c51-b5034bcdd6d2=True&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True)을 사용할 수 있습니다. 이렇게 하면 문제를 해결해야 할 때 Exchange 커넥터를 모니터링하는 여러 가지 방법이 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Exchange 온-프레미스에 대해 조건부 액세스 정책 만들기](conditional-access-exchange-create.md)
