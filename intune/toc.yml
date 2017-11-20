@@ -608,19 +608,23 @@
         - name: 데이터 웨어하우스 데이터 모델
           href: reports-ref-data-model.md
           items:
+            - name: Intune 데이터 웨어하우스의 사용자 수명 표시
+              href: reports-ref-user-timeline.md
             - name: 응용 프로그램 엔터티에 대한 참조
               href: reports-ref-application.md
+            - name: 현재 사용자 엔터티에 대한 참조
+              href: reports-ref-current-user.md
             - name: 날짜 엔터티에 대한 참조
               href: reports-ref-date.md
             - name: 장치 엔터티에 대한 참조
               href: reports-ref-devices.md
-            - name: Intune 관리 확장에 대한 참조
+            - name: Intune 관리 확장 엔터티에 대한 참조
               href: reports-ref-intunemanagementextension.md
             - name: 모바일 앱 관리(MAM) 엔터티에 대한 참조
               href: reports-ref-mobile-app-management.md
             - name: 정책 엔터티에 대한 참조
               href: reports-ref-policy.md
-            - name: 사용자 장치 연결에 대한 참조
+            - name: 사용자 장치 연결 엔터티에 대한 참조
               href: reports-ref-user-device.md
             - name: 사용자 엔터티에 대한 참조
               href: reports-ref-user.md
