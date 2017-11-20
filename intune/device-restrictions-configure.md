@@ -15,11 +15,11 @@ ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8beabb21df8b122b7a1dd18a698a8075604046b5
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: b61ad1c0a114c8a66c174fa34c4520e2f6c6244a
+ms.sourcegitcommit: af958afce3070a3044aafea490c8afc55301d9df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="how-to-configure-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune에서 장치 제한 설정을 구성하는 방법
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/15/2017
 
 이 항목의 정보를 사용하여 장치 제한 프로필 구성에 대한 기본 사항을 알아본 다음 각 플랫폼에 대한 추가 항목을 통해 장치에 특정한 정보를 확인할 수 있습니다.
 
-## <a name="create-a-device-profile-containing-device-restriction-settings"></a>장치 제한 설정을 포함하는 장치 프로필 만들기
+장치 제한 설정을 포함하는 장치 프로필을 만들려면:
 
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
@@ -59,9 +59,12 @@ ms.lasthandoff: 09/15/2017
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
 계속해서 이 프로필을 그룹에 할당하려면 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
 
-## <a name="example-of-device-restriction-settings"></a>장치 제한 설정의 예
+<!--  Removing image as part of design review; retaining source until we known the disposition.
 
-이 개략적인 예에서는 Android 장치에서 기본 제공 카메라 앱의 사용을 차단하는 장치 제한 정책을 만듭니다.
+## Example of device restriction settings
 
-![Android 장치에서 카메라를 사용하지 않도록 설정하는 방법](./media/disable-android-camera.png)
+In this high-level example, you'll create a device restriction policy that blocks the use of the built-in camera app on Android devices.
 
+![How to disable the camera on Android devices](./media/disable-android-camera.png)
+
+-->

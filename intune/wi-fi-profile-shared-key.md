@@ -3,10 +3,10 @@ title: "미리 공유한 키를 사용하여 Wi-Fi 프로필 만들기"
 titleSuffix: Azure portal
 description: "Intune 사용자 지정 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만듭니다.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 05/15/2017
+ms.date: 11/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c524acc403d6a1c041aa0dcea0948c2707202e03
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: bfcce8d38bc403a13aa28cc762370a7cfaa0bc2d
+ms.sourcegitcommit: 1df625330f4e8f7f661b5f2b9f16b5590971838d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/10/2017
 ---
-# <a name="use-a-microsoft-intune-custom-device-profile-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>Microsoft Intune 사용자 지정 장치 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필 만들기
+# <a name="use-a-custom-device-profile-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>사용자 지정 장치 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필 만들기
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Intune의 **사용자 지정 장치 프로필**을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만드는 방법은 다음과 같습니다. 이 항목에서는 EAP 기반 Wi-Fi 프로필을 만드는 방법에 대한 예도 포함합니다.
@@ -205,3 +205,12 @@ EAP 기반 Wi-Fi 프로필에 대한 XML 코드 예제는 다음과 같습니다
     각 프로필을 검색하여 적합한 프로필을 찾아야 하므로 여러 무선 네트워크에 연결되지 않은 컴퓨터를 사용하는 것이 가장 좋습니다.
 3.     XML 파일을 검색하여 올바른 이름의 항목을 찾습니다.
 4.     올바른 XML 파일을 찾았으면 XML 코드를 복사하여 OMA-URI 설정 페이지의 데이터 필드에 붙여넣습니다.
+
+## <a name="best-practices"></a>모범 사례
+PSK를 사용하여 Wi-Fi 프로필을 배포하기 전에 장치를 끝점에 직접 연결할 수 있는지 확인합니다.
+
+키(암호)를 회전하는 경우 가동 중지 시간을 예상하고 그에 따라 배포를 계획합니다. 근무 외 시간에 새 Wi-Fi 프로필을 푸시하는 것이 좋습니다. 연결에 영향을 받을만한 사용자에게 경고도 하는 것이 좋습니다.
+ 
+원활한 전환 환경을 보장하고 시기 적절한 정책 업데이트를 제공하려면 장치에서 하나 이상의 개방 통신 채널을 Intune에 유지해야 합니다. 이렇게 하려면 사용자를 Intune 끝점에만 연결하는 게스트 Wi-Fi를 제공하거나 셀룰러 연결을 사용합니다.
+
+

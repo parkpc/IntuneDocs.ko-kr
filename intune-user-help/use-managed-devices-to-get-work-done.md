@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/23/2017
+ms.date: 11/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: robstack
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 9317fd747e52524d97cea5d4c79fed49246b5866
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: d8a5989358da932e4e8ce59528602fefb2265528
+ms.sourcegitcommit: e692be57ec7044dfc224b70941affbfd7efba421
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/08/2017
 ---
 # <a name="use-managed-devices-to-get-work-done"></a>관리되는 장치를 사용하여 작업 완료
 Microsoft Intune은 조직에서 장치(예: 스마트폰, 태블릿 및 PC), 앱 및 기타 회사 리소스(예: 메일)를 관리하는 데 사용할 수 있는 일종의 소프트웨어입니다. 이를 통해 회사 정보의 보안을 유지하면서 직원이 거의 모든 장치에서 어디서나 자신의 작업 정보에 액세스하도록 할 수 있습니다.
@@ -28,7 +28,7 @@ Microsoft Intune은 조직에서 장치(예: 스마트폰, 태블릿 및 PC), �
 Intune을 사용하여 관리하도록 장치를 등록하면 IT 부서에서 해당 회사 또는 학교 리소스를 관리하고 장치를 보다 안전하게 유지하면서 선호하는 장치를 자유롭게 사용하여 작업을 완료할 수 있습니다. 이렇게 하는 기본 방법은 회사 포털을 통해 관리에 장치를 등록하는 것입니다.
 
 ## <a name="what-information-can-my-company-see-when-i-enroll-my-device-in-intune"></a>Intune에서 장치를 등록하면 회사에 어떤 정보가 표시되나요?
-회사의 IT 부서는 회사와 관련된 정보만 볼 수 있고 개인 정보는 볼 수 없습니다. 회사에서 사용하기 위해 개인 장치를 등록하는 경우 특히 이 점을 아는 것이 중요합니다. [사용자 도움말의 다음 문서에 볼 수 있는 사항과 볼 수 없는 사항](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)이 분류되어 있습니다.
+회사의 지원 부서는 회사와 관련된 정보만 볼 수 있고 개인 정보는 볼 수 없습니다. 회사에서 사용하기 위해 개인 장치를 등록하는 경우 특히 이 점을 아는 것이 중요합니다. [사용자 도움말의 다음 문서에 볼 수 있는 사항과 볼 수 없는 사항](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)이 분류되어 있습니다.
 
 ## <a name="how-do-i-get-the-company-portal"></a>회사 포털을 사용하려면 어떻게 하나요?
 다음과 같은 두 가지 방법으로 회사 포털을 사용할 수 있습니다.
@@ -49,7 +49,8 @@ Intune을 사용하여 관리하도록 장치를 등록하면 IT 부서에서 �
 장치에서 회사 포털 앱을 사용하여 수행할 수 있는 작업과 회사 포털 웹 사이트를 사용하여 수행할 수 있는 작업을 비교하여 보려면 다음 링크 중 하나를 선택하세요.
 
 - [Android 장치 사용](using-your-android-device-with-intune.md)
-- [iOS 또는 macOS 장치 사용](using-your-ios-or-macOS-device-with-intune.md)
+- [iOS 장치 사용](using-your-ios-device-with-intune.md)
+- [macOS 장치 사용](using-your-macos-device-with-intune.md)
 - [Windows 장치 사용](using-your-windows-device-with-intune.md)
 - [회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
 

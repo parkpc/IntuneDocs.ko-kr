@@ -14,11 +14,11 @@ ms.assetid: A2C8A336-29D3-47DF-BB4A-62748339391D
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 37f36aca0d58f5d87b9d54a1a4bdf18eb011b40b
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: 1e0ffcaa2ff8bd9e622c1d27f27564bd78df0276
+ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="create-a-report-from-the-odata-feed-with-power-bi"></a>Power BI를 사용하여 OData 피드에서 보고서 만들기
 
@@ -52,7 +52,7 @@ Power BI Desktop의 최신 버전을 설치합니다. Power BI Desktop 다운로
 1. Azure Portal에 로그인합니다.
 2. **추가 서비스** > **모니터링 + 관리** + **Intune**을 선택합니다.
 3. **Intune 데이터 웨어하우스** 블레이드를 엽니다.
-4. 사용자 지정 피드 URL을 복사합니다. `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService?api-version=beta`
+4. 사용자 지정 피드 URL을 복사합니다. 예를 들면 다음과 같습니다. `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService?api-version=beta`
 5. Power BI Desktop을 엽니다.
 6. **데이터 가져오기** > **Odata 피드**를 차례로 선택합니다.
 7. **OData 피드** 창의 URL 상자에 사용자 지정 피드 URL을 붙여넣습니다.
@@ -60,16 +60,16 @@ Power BI Desktop의 최신 버전을 설치합니다. Power BI Desktop 다운로
 
     ![OData 피드](media/reports-create-01-odatafeed.png)
 
-9. **확인**을 클릭합니다.
+9. **확인**을 선택합니다.
 10. **조직 계정**을 선택한 다음 Intune 자격 증명으로 로그인합니다. 
 
     ![조직 계정 자격 증명](media/reports-create-02-org-account.png)
 
-11. **연결**을 클릭합니다. 탐색기가 열리고 Intune 데이터 웨어하우스에 있는 테이블 목록이 표시됩니다. 
+11. **연결**을 선택합니다. 탐색기가 열리고 Intune 데이터 웨어하우스에 있는 테이블 목록이 표시됩니다. 
 
     ![탐색기](media/reports-create-02-loadentities.png)
 
-12. **devices** 및 **ownerTypes** 테이블을 선택합니다.  **로드**를 클릭합니다. Power BI에서 데이터를 모델에 로드합니다.
+12. **devices** 및 **ownerTypes** 테이블을 선택합니다.  **로드**를 선택합니다. Power BI에서 데이터를 모델에 로드합니다.
 
 ## <a name="create-a-relationship"></a>관계 만들기 
 
@@ -77,8 +77,8 @@ Power BI Desktop의 최신 버전을 설치합니다. Power BI Desktop 다운로
 
 ![관계 관리](media/reports-create-03-managerelationships.png)
 
-1. **관계 관리**를 클릭합니다.
-2. PowerBI에서 아직 관계를 검색하지 못했으면 **자동 검색 중...**을 클릭합니다.  
+1. **관계 관리**를 선택합니다.
+2. PowerBI에서 아직 관계를 검색하지 못했으면 **자동 검색 중...**을 선택합니다.  
 관계는 [대상] 열에 대한 [원본] 열에 표시됩니다. 이 예에서 **devices** 테이블의 **ownerTypeKey** 데이터 필드는 **ownerTypes** 테이블의 **ownerTypeKey** 데이터 필드에 연결됩니다. 관계를 사용하여 **devices** 테이블에서 장치 유형 코드의 일반 이름을 찾습니다.
 
 ## <a name="create-a-treemap-visualization"></a>트리맵 시각화 만들기
@@ -100,7 +100,7 @@ Power BI Desktop의 최신 버전을 설치합니다. Power BI Desktop 다운로
 
 앱을 사용하여 추가 질문에 답변할 수 있도록 트리맵에 필터를 추가할 수 있습니다. 
 
-1. 보고서 캔버스를 클릭한 다음 **시각화** 아래의 **슬라이서 아이콘**(![데이터가 있는 트리맵](media/reports-create-slicer.png))을 클릭하여 필터를 추가합니다.
+1. 보고서 캔버스를 선한 다음 **시각화** 아래의 **슬라이서 아이콘**(![데이터가 있는 트리맵](media/reports-create-slicer.png))을 선택하여 필터를 추가합니다.
 2. **ownerTypes** 테이블을 찾고 **시각화** 패널의 **필터** 섹션 아래에서 **ownerTypeName** 데이터 필드를 끕니다.  
    devices 테이블 아래에는 장치가 회사 소유인지 또는 개인 소유인지 여부를 나타내는 코드가 포함된 **OwnerTypeKey**라고 하는 데이터 필드가 있습니다. 이 필터에 친숙한 이름을 표시하려면 **ownerTypes** 테이블을 찾고 **ownerTypeName**을 끕니다. 다음은 데이터 모델에서 테이블 간의 관계를 지원하는 방법의 예입니다.
 
@@ -108,8 +108,8 @@ Power BI Desktop의 최신 버전을 설치합니다. Power BI Desktop 다운로
 
 이제 회사 소유 장치와 개인 소유 장치 간에 이동하여 분포가 변경되는 상태를 확인하는 데 사용할 수 있는 대화형 필터가 준비되었습니다.
 
-1. **회사**를 클릭하여 회사 소유 장치의 분포를 확인합니다.
-2. **개인**을 클릭하여 개인 소유 장치를 확인합니다.
+1. **회사**를 선택하여 회사 소유 장치의 분포를 확인합니다.
+2. **개인**을 선택하여 개인 소유 장치를 확인합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

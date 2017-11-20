@@ -15,11 +15,11 @@ ms.assetid: c9163693-d748-46e0-842a-d9ba113ae5a8
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d293ff6001ef937c7da0055e6642aa5a1226bd2e
-ms.sourcegitcommit: 67c037af31c1f167ec9b4f4baa754631c817e7d1
+ms.openlocfilehash: 2226477d40f2bb70dd047ed58e8789fd9bee4ecb
+ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="add-app-configuration-policies-for-managed-ios-devices"></a>관리되는 iOS 장치용 앱 구성 정책 추가
 
@@ -40,21 +40,21 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 iOS 앱을
 1. Azure Portal에 로그인합니다.
 2. **추가 서비스** > **모니터링 + 관리** + **Intune**을 선택합니다.
 3. **모바일 앱** 워크로드를 선택합니다.
-4. **관리** 그룹에서 **앱 구성 정책**을 선택하고 **추가**를 클릭합니다.
+4. **관리** 그룹에서 **앱 구성 정책**을 선택한 다음 **추가**를 선택합니다.
 5. 다음 세부 정보를 설정합니다.
-    - **Name**  
+    - **Name**<br>
       Azure Portal에 표시되는 프로필의 이름입니다.
-    - **설명**  
+    - **설명**<br>
       Azure Portal에 표시되는 프로필의 설명입니다.
-    - **장치 등록 유형**  
+    - **장치 등록 유형**<br>
       **관리되는 장치**를 선택합니다.
 6. **플랫폼**으로 **iOS**를 선택합니다.
-7.  **연결된 앱**을 선택한 다음 **연결된 앱** 블레이드에서 구성을 적용할 관리되는 앱을 선택합니다.
+7.  **연결된 앱**을 선택합니다. 그런 다음 **연결된 앱** 블레이드에서 구성을 적용할 관리되는 앱을 선택합니다.
 8.  **구성 정책 추가** 블레이드에서 **구성 설정**을 선택합니다.
 9. **구성 설정 형식**을 선택합니다. 다음 중 하나를 선택합니다.
     - **[구성 디자이너 사용](#Use-the-configuration-designer)**
     - **[XML 데이터 입력](#enter-xml-data)**
-10. **확인**을 클릭하고 **추가**를 클릭합니다.
+10. **확인**을 선택한 다음 **추가**를 선택합니다.
 
 ## <a name="use-configuration-designer"></a>구성 디자이너 사용
 
@@ -62,27 +62,32 @@ Intune에 등록되었거나 등록되지 않은 장치에서 앱에 대한 구�
 
 ### <a name="add-a-setting"></a>설정 추가
 
-1. 구성의 각 키 및 값의 경우 다음을 설정합니다. <ul><li>**구성 키**<br>특정 설정 구성을 고유하게 식별하는 데 사용됩니다.</li><li>**값 형식**<br>구성 값의 데이터 형식입니다. 형식에는 정수, 실수, 문자열 또는 부울이 포함됩니다.</li><li>**구성 값**<br>구성의 값입니다.</li></ul>
-2. **확인**을 클릭하여 구성 설정을 설정합니다.
+1. 구성의 각 키 및 값의 경우 다음을 설정합니다.
+   - **구성 키**<br>
+     특정 설정 구성을 고유하게 식별하는 키입니다.
+   - **값 형식**<br>
+     구성 값의 데이터 형식입니다. 형식에는 정수, 실수, 문자열 또는 부울이 포함됩니다.
+   - **구성 값**<br>
+     구성의 값입니다.
+2. **확인**을 선택하여 구성 설정을 설정합니다.
 
 ### <a name="delete-a-setting"></a>설정 삭제
 
-1. 설정 옆에 있는 줄임표(...)를 클릭합니다.
+1. 설정 옆의 줄임표(**...**)를 선택합니다.
 2. **삭제**를 선택합니다.
 
 \{\{ 및 \}\} 문자는 토큰 형식에만 사용되며 다른 용도로 사용하면 안 됩니다.
 
 ## <a name="enter-xml-data"></a>XML 데이터 입력
 
-Intune에 등록된 장치에 대한 앱 구성 설정이 포함된 XML 속성 목록을 입력하거나 붙여넣을 수 있습니다. XML 속성 목록의 형식은 구성하는 앱에 따라 달라집니다. 사용해야 하는 정확한 형식에 대한 자세한 내용은 앱 공급업체에 문의하세요.
+Intune에 등록된 장치에 대한 앱 구성 설정이 포함된 XML 속성 목록을 입력하거나 붙여넣을 수 있습니다. XML 속성 목록의 형식은 구성하는 앱에 따라 달라집니다. 사용할 정확한 형식에 대한 자세한 내용은 앱 공급업체에 문의하세요.
 
-Intune에서 XML 형식의 유효성을 검사합니다. 그러나 Intune은 해당 XML 속성 목록이 대상 앱에서 작동하는지는 확인하지 않습니다.
-XML 속성 목록에 대한 자세한 내용은 [XML 속성 목록 이해]를 참조하세요.
+Intune에서 XML 형식의 유효성을 검사합니다. 그러나 Intune은 해당 XML 속성 목록(PList)이 대상 앱에서 작동하는지는 확인하지 않습니다.
 
 XML 속성 목록에 대한 자세한 내용을 보려면 다음을 수행합니다.
 
   -  [Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성](/intune-classic/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)을 읽어 보세요.
-  -  iOS 개발자 라이브러리에서 [XML Plist 이해](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html)를 참조하세요.
+  -  iOS 개발자 라이브러리에서 [XML 속성 목록 이해](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html)를 참조하세요.
 
 ### <a name="example-format-for-an-app-configuration-xml-file"></a>앱 구성 XML 파일의 형식 예
 
@@ -126,15 +131,15 @@ Intune에서는 속성 목록의 다음 데이터 형식을 지원합니다.
 ### <a name="tokens-used-in-the-property-list"></a>속성 목록에 사용되는 토큰
 
 또한 Intune은 속성 목록에서 다음과 같은 토큰 형식을 지원합니다.
-- \{\{userprincipalname\} \} -(예:  **John@contoso.com** )
-- \{\{mail\}\} - (예: **John@contoso.com**)
-- \{\{partialupn\}\} - (예: **John**)
-- \{\{accountid\}\} - (예: **fc0dc142-71d8-4b12-bbea-bae2a8514c81**)
-- \{\{deviceid\}\} - (예: **b9841cd9-9843-405f-be28-b2265c59ef97**)
-- \{\{userid\}\} - (예: **3ec2c00f-b125-4519-acf0-302ac3761822**)
-- \{\{username\}\} - (예: **John Doe**)
-- \{\{serialnumber\}\} - (예: **F4KN99ZUG5V2**)(iOS 장치)
-- \{\{serialnumberlast4digits\}\} - (예: **G5V2**)(iOS 장치)
+- \{\{userprincipalname\}\}—예: **John@contoso.com**
+- \{\{mail\}\}—예: **John@contoso.com**
+- \{\{partialupn\}\}—예: **John**
+- \{\{accountid\}\}—예: **fc0dc142-71d8-4b12-bbea-bae2a8514c81**
+- \{\{deviceid\}\}—예: **b9841cd9-9843-405f-be28-b2265c59ef97**
+- \{\{userid\}\}—예: **3ec2c00f-b125-4519-acf0-302ac3761822**
+- \{\{username\}\}—예: **John Doe**
+- \{\{serialnumber\}\}—예: **F4KN99ZUG5V2**(iOS 장치)
+- \{\{serialnumberlast4digits\}\}—예: **G5V2**(iOS 장치)
 
 ## <a name="next-steps"></a>다음 단계
 
