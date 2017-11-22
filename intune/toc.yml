@@ -386,6 +386,8 @@
           href: compliance-policy-create-android.md
         - name: Android for Work 정책 만들기
           href: compliance-policy-create-android-for-work.md
+        - name: Google Play Protect를 사용하기 위한 정책 만들기
+          href: compliance-policy-create-google-play-protect.md
         - name: iOS 정책 만들기
           href: compliance-policy-create-ios.md
         - name: macOS 정책 만들기
