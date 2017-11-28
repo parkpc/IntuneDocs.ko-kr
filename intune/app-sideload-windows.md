@@ -12,11 +12,11 @@ ms.service:
 ms.technology: 
 ms.assetid: e44f1756-52e1-4ed5-bf7d-0e80363a8674
 ms.custom: intune-classic
-ms.openlocfilehash: 3567f26053a235c5a5af761829f043e0db2f79b5
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 904041ba4936917dc976fd0a6de869e931927c2d
+ms.sourcegitcommit: f9bfdaed6037bd76f8715fa7ca15a3457d26370a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="sign-line-of-business-apps-so-they-can-be-deployed-to-windows-devices-with-intune"></a>Intune으로 Windows 장치에 기간 업무 앱을 배포할 수 있도록 앱에 서명
 
@@ -193,7 +193,8 @@ Intune에서 유니버설 앱의 종속성을 처리하는 방식에 대한 자�
 |매개 변수 | 설명|
 | ------------- | ------------- |
 |InputWin10AppxBundle |원본 appxbundle 파일이 위치한 경로입니다. |
-|OutputWin10AppxBundle |서명된 appxbundle 파일의 출력 경로입니다.  Win81Appx는 Windows 8.1 또는 Windows Phone 8.1 회사 포털(.APPX) 파일이 위치한 경로입니다.|
+|OutputWin10AppxBundle |서명된 appxbundle 파일의 출력 경로입니다. |
+|Win81Appx | Windows 8.1 또는 Windows Phone 8.1 회사 포털(.APPX) 파일이 위치한 경로입니다.|
 |PfxFilePath |Symantec Enterprise 모바일 코드 서명 인증서(.PFX) 파일의 경로입니다. |
 |PfxPassword| Symantec Enterprise 모바일 코드 서명 인증서의 암호입니다. |
 |PublisherId |엔터프라이즈의 게시자 ID입니다. 없는 경우 Symantec Enterprise 모바일 코드 서명 인증서의 '제목' 필드를 사용합니다.|

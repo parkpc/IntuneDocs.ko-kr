@@ -15,11 +15,11 @@ ms.assetid: 061d793c-c724-4cd9-9240-adb0cbda5661
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ca60013503820077b25328db1089d175f2fb6a73
-ms.sourcegitcommit: 4b776d1a87c0707244f4ae0122de882e0eef6fa3
+ms.openlocfilehash: 141d0499f055441ff099a5bec1c4ea695f77326c
+ms.sourcegitcommit: 9ccdac76e0b0716723452a6675b091f15a4d31f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/20/2017
 ---
 # <a name="how-to-add-android-line-of-business-lob-apps-to-microsoft-intune"></a>Microsoft Intune에 Android LOB(기간 업무) 앱을 추가하는 방법
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 10/04/2017
 
 ## <a name="step-5---update-a-line-of-business-app"></a>5단계 - 기간 업무(line-of-business) 앱 업데이트
 
-[!INCLUDE[shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)]
+[!INCLUDE[shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)] 참고: Intune 서비스에서 새 APK 파일을 장치에 성공적으로 배포하려면 APK 패키지의 AndroidManifest.xml 파일에 있는 android:versionCode 문자열을 증분해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

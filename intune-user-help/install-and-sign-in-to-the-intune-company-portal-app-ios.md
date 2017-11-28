@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 06/27/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 5b3036485eef5d7a2b633b51229015d2f53d3fa7
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: ac9b138edeb77eee3dc223eee8a35dc4cfd4e273
+ms.sourcegitcommit: 0b96ae18524eb976df01a5340631ef331357e666
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/15/2017
 ---
 # <a name="install-and-sign-in-to-the-company-portal-app"></a>회사 포털 앱 설치 및 로그인
 
@@ -34,6 +34,6 @@ ms.lasthandoff: 09/28/2017
 
 3.  회사 포털 앱을 열고 회사 또는 학교 메일 주소와 암호를 입력한 다음 **로그인**을 탭합니다.
 
-    처음으로 회사 포털 앱에 로그인하는 경우 그리고 회사 또는 학교에서 Intune을 사용하는 경우 장치를 Intune에 등록하라는 메시지가 표시됩니다. 등록하려면 [Intune에서 iOS 장치 등록](enroll-your-device-in-intune-ios.md) 또는 [Intune에서 macOS 장치 등록](enroll-your-device-in-intune-macos.md)의 단계를 따릅니다. [다른 장치를 사용하여 로그인](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal#signing-in-from-another-device)할 수도 있습니다. 
+    처음으로 회사 포털 앱에 로그인하는 경우 그리고 회사 또는 학교에서 Intune을 사용하는 경우 장치를 Intune에 등록하라는 메시지가 표시됩니다. 등록하려면 [Intune에 iOS 장치 등록](enroll-your-device-in-intune-ios.md)의 단계를 따릅니다. [다른 장치를 사용하여 로그인](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal#signing-in-from-another-device)할 수도 있습니다.
 
 여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.

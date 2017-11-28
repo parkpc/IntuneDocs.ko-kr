@@ -6,7 +6,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 10/3/2017
+ms.date: 11/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 4e3627bd-a9fd-49bc-b95e-9b7532f0ed55
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3cf11c53a5f1ce78dda9c703da32270b0b07874a
-ms.sourcegitcommit: 001577b700f634da2fec0b44af2a378150d1f7ac
+ms.openlocfilehash: ab0456b58704f17d3dc5885ab5ae6b902c9ef152
+ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Intune을 사용하여 WIP(Windows Information Protection) 앱 보호 정책 만들기 및 배포
 
@@ -125,13 +125,13 @@ WIP를 통해 보호하려는 앱을 추가한 후에는 **WIP 학습**을 사�
 
 ### <a name="before-you-begin"></a>시작하기 전에
 
-WIP 학습은 WIP 알 수 없는 앱을 모니터하는 데 사용할 수 있는 보고서입니다. 알 수 없는 앱은 조직의 IT 부서에서 배포하지 않은 앱입니다. "재정의 숨기기" 모드에서 WIP를 적용하기 전에 생산성 저하를 방지하기 위해 보고서에서 이러한 앱을 내보내 WIP 정책에 추가할 수 있습니다.
+WIP 학습은 WIP 알 수 없는 앱을 모니터하는 데 사용할 수 있는 보고서입니다. 알 수 없는 앱은 조직의 IT 부서에서 배포하지 않은 앱입니다. “차단” 모드에서 WIP를 적용하기 전에 생산성 저하를 방지하기 위해 보고서에서 이러한 앱을 내보내 WIP 정책에 추가할 수 있습니다.
 
-먼저 **자동** 또는 **재정의 허용** 모드를 설정해 허용되는 앱 목록에 올바른 앱이 포함된 소규모 그룹부터 확인하는 것이 좋습니다. 이 확인이 완료되면 최종 적용 정책인 **재정의 숨기기**로 변경할 수 있습니다.
+먼저 **자동** 또는 **재정의 허용** 모드를 설정해 허용되는 앱 목록에 올바른 앱이 포함된 소규모 그룹부터 확인하는 것이 좋습니다. 이 확인이 완료되면 최종 적용 정책인 **차단**으로 변경할 수 있습니다.
 
 ### <a name="what-are-the-protection-modes"></a>보호 모드의 종류
 
-#### <a name="hide-overrides"></a>재정의 숨기기
+#### <a name="block"></a>차단
 WIP가 부적절한 데이터 공유 사례를 찾아 사용자의 작업 완료를 중지시킵니다. 부적절한 데이터 공유 사례에는 회사에서 보호하지 않는 앱 간에 정보를 공유하는 행위, 조직 외부의 타인과 장치 간에 회사 데이터를 공유하는 행위 등이 포함될 수 있습니다.
 
 #### <a name="allow-overrides"></a>재정의 허용

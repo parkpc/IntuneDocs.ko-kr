@@ -15,11 +15,11 @@ ms.assetid: 1feca24f-9212-4d5d-afa9-7c171c5e8525
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 395b48ab71b093c12c244fab1acd22c0ecca4c51
-ms.sourcegitcommit: 0a2897b5104dc33ca0661c27a373026d7f4cc956
+ms.openlocfilehash: bc11ad516b3256d39d4e859eca6c8aa248fb180b
+ms.sourcegitcommit: 9ccdac76e0b0716723452a6675b091f15a4d31f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/20/2017
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Microsoft Intune에서 Managed Browser 정책을 사용하여 인터넷 액세스 관리
 
@@ -100,8 +100,9 @@ Intune Managed Browser와 [Azure AD 응용 프로그램 프록시]( https://docs
 
 - Azure AD 응용 프로그램 프록시를 통해 내부 응용 프로그램을 설정합니다.
     - 응용 프로그램 프록시를 구성하고 응용 프로그램을 게시하려면 [설정 설명서]( https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started#how-to-get-started)를 참조하세요. 
-    - 최소 버전 1.2.0의 Managed Browser 앱을 사용해야 합니다.
-    - Managed Browser 앱의 사용자는 [Intune 앱 보호 정책]( app-protection-policy.md)이 앱에 할당되어 있습니다.
+- 최소 버전 1.2.0의 Managed Browser 앱을 사용해야 합니다.
+- Managed Browser 앱의 사용자는 [Intune 앱 보호 정책]( app-protection-policy.md)이 앱에 할당되어 있습니다.
+참고: 업데이트된 응용 프로그램 프록시 리디렉션 데이터는 Managed Browser에 적용되는 데 최대 24시간이 걸릴 수 있습니다.
 
 #### <a name="step-1-enable-automatic-redirection-to-the-managed-browser-from-outlook"></a>1단계: Outlook에서 Managed Browser로 자동 리디렉션 사용
 **Managed Browser에서 표시할 수 있는 웹 콘텐츠 제한** 설정을 사용하도록 설정하는 앱 보호 정책으로 Outlook이 구성되어 있어야 합니다.
@@ -218,6 +219,8 @@ iOS 장치에 Managed Browser가 설치된 최종 사용자는 Microsoft에서 �
 1. Managed Browser를 엽니다.
 2. 주소 상자에 `about:intunehelp`를 입력합니다.
 브라우저가 문제 해결 모드를 시작합니다.
+
+앱 로그에 저장된 설정 목록은 [Managed Browser에서 앱 보호 로그 검토](app-protection-policy-settings-log.md)를 참조하세요.
 
 ## <a name="security-and-privacy-for-the-managed-browser"></a>Managed Browser에 대한 보안 및 개인 정보
 

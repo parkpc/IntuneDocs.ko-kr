@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 09/25/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 7394ff8f-3a21-414d-be4a-4626ec370720
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: c03ac73377278925773123dc10d10cf3e8256e41
-ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
+ms.openlocfilehash: 7842d55eb6f43cf7ada47324f5d5846212630501
+ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/14/2017
 ---
 # <a name="install-symantec-endpoint-protection-mobile-on-your-ios-device"></a>iOS 장치에 Symantec Endpoint Protection Mobile 설치
 
@@ -42,7 +42,7 @@ SEP Mobile에서 장치에 대한 보안 위협을 발견한 경우 문제 해�
 
 ## <a name="if-the-installation-doesnt-work"></a>설치가 작동하지 않는 경우
 
-제어할 수 없는 기술 문제로 인해 설치가 실패할 수 있습니다. 이런 경우에 [앱 스토어에서 수동으로](https://itunes.apple.com/app/sep-mobile/id695620821) Zimperium zIPS를 설치해 보세요.
+제어할 수 없는 기술 문제로 인해 설치가 실패할 수 있습니다. 이런 경우 [앱 스토어에서 수동으로](https://itunes.apple.com/app/sep-mobile/id695620821) SEP Mobile을 설치해 보세요.
 
 여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
 

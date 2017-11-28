@@ -5,7 +5,7 @@ keywords:
 author: brenduns
 ms.author: brenduns
 manager: angrobe
-ms.date: 11/6/2017
+ms.date: 11/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f7cc595655950ef1bf2586e939b6f02e270e7afc
-ms.sourcegitcommit: 5279a0bb8c5aef79aa57aa247ad95888ffe5a12b
+ms.openlocfilehash: f4fd810529732d2b24b948eb0ae741d37e0fb59e
+ms.sourcegitcommit: d64b03bff0566f08d88ecb488dd48f19af74cab3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/21/2017
 ---
-# <a name="the-early-edition-for-microsoft-intune---november-2017"></a>Microsoft Intune 초기 버전 - 2017년 11월
+# <a name="the-early-edition-for-microsoft-intune---december-2017"></a>Microsoft Intune 초기 버전 - 2017년 12월
 
 **초기 버전**에서는 Microsoft Intune의 향후 릴리스에서 도입될 기능의 목록을 제공합니다. 이 정보는 제한적으로 제공되며 변경될 수 있습니다. 회사 외부에서 이 정보를 공유하지 마세요. 여기 나열된 일부 기능은 마감일을 맞추지 못할 위험이 있으며 다음 릴리스까지 지연될 수 있습니다. 다른 기능은 고객용 준비 상태를 확인하기 위해, 파일럿(플라이팅) 테스트 중 입니다. 질문이나 궁금한 내용이 있으면 Microsoft 제품 그룹 담당자에게 연락하세요.
 
@@ -39,7 +39,102 @@ ms.lasthandoff: 11/08/2017
 
 ## <a name="intune-in-the-azure-portal"></a>Azure Portal의 Intune
 
+### <a name="app-protection-policies-----679615---"></a>앱 보호 정책 <!-- 679615 -->
+Intune 앱 보호 정책은 전체 테넌트의 모든 사용자에 대해 보호를 빠르게 사용할 수 있도록 전역 기본 정책을 만드는 기능을 제공합니다.
 
+### <a name="revoking-ios-volume-purchase-program-apps-----820863---"></a>iOS Volume-Purchase Program 앱 철회 <!-- 820863 -->
+하나 이상의 iOS VPP(Volume-Purchase Program) 앱이 설치된 지정된 장치의 경우 장치의 관련 장치 기반 앱 라이선스를 철회할 수 있습니다. 앱 라이선스를 철회해도 장치에서 관련 VPP 앱이 제거되지 않습니다. VPP 앱을 제거하려면 할당 작업을 **제거**로 변경해야 합니다. 자세한 내용은 [Microsoft Intune을 사용하여 대량 구매 프로그램을 통해 구매한 iOS 앱을 관리하는 방법](vpp-apps-ios.md)을 참조하세요.
+
+### <a name="revoke-licenses-for-an-ios-volume-purchasing-program-token----820870---"></a>iOS Volume Purchasing Program 토큰에 대한 라이선스 철회 <!-- 820870 -->
+지정된 VPP 토큰에 대한 모든 iOS VPP(Volume-Purchase Program) 앱의 라이선스를 철회할 수 있습니다.
+
+### <a name="delete-an-ios--volume-purchasing-program-token----820879---"></a>iOS Volume Purchasing Program 토큰 삭제 <!-- 820879 -->
+콘솔을 사용하여 iOS VPP(Volume-Purchase Program) 토큰을 삭제할 수 있습니다. VPP 토큰의 중복 인스턴스가 있는 경우 이 기능이 필요할 수 있습니다.
+
+### <a name="network-access-control-nac-device-check-in-reporting-----1232250---"></a>NAC(네트워크 액세스 제어) 장치 체크 인 보고 <!-- 1232250 -->
+이 변경을 수행하기 전에 IT 관리자는 Intune 쪽에서 NAC 관리 장치가 NAC 솔루션과 통신하는지 여부를 확인할 수 없습니다. NAC 관리 장치가 NAC 솔루션과 통신하지 않는 경우 장치는 NAC 솔루션에서 비준수로 간주하므로 NAC 솔루션 자체에서 차단되고 나중에 장치 준수 상태에 기반을 둔 조건부 액세스 정책에 의해 차단됩니다.
+
+이 변경을 수행하면 IT 관리자는 어떤 NAC 장치가 NAC 솔루션과 성공적으로 통신하는지 확인할 수 있습니다. 이 새로운 기능은 Intune 내의 장치 준수 워크로드에 있는 두 개의 새 모니터링 기능으로 구성되며 통계는 아래와 같이 표시됩니다.
+- **지난 1시간의 평균 NAC 호출**
+- **마지막 NAC 들어오는 요청(날짜/시간)**
+
+### <a name="new-ios-device-action------1244701---"></a>새로운 iOS 장치 작업 <!-- 1244701 -->
+iOS 10.3 감독된 장치를 종료할 수 있습니다. 이 작업을 수행하면 최종 사용자에게 경고하지 않고 장치가 즉시 종료됩니다. **장치** 워크로드에서 장치를 선택하면 장치 속성에서 **시스템 종료(감독 모드인 경우에만)** 작업을 찾을 수 있습니다.
+
+### <a name="palo-alto-vpn-now-supported----1333680-eeready---"></a>이제 Palo Alto VPN이 지원됨 <!-- 1333680 eeready -->
+기본 VPN을 구성하면 **연결 형식** 목록에 Palo Alto VPN이 포함됩니다.
+
+### <a name="multiple-connector-support-for-scep-and-pfx-certificate-handling----1361755-eeready---"></a>SCEP 및 PFX 인증서 처리에 대한 여러 커넥터 지원 <!-- 1361755 eeready -->
+온-프레미스 NDES Connector를 사용하여 인증서를 장치에 전달하는 고객은 단일 테넌트에서 여러 커넥터를 구성할 수 있습니다.
+
+이 새로운 기능은 다음 시나리오를 지원합니다.
+
+- **고가용성**
+
+    각 NDES Connector는 Intune에서 인증서 요청을 풀합니다.  하나의 NDES Connector가 오프라인으로 전환될 경우 다른 커넥터는 계속 요청을 처리할 수 있습니다.
+
+### <a name="new-automatic-redeployment-setting----1469168---"></a>새 자동 재배포 설정 <!-- 1469168 -->
+이 설정을 통해 사용자는 장치 잠금 화면에서 **Ctrl + Win + R**을 사용하여 모든 사용자 데이터 및 설정을 삭제할 수 있습니다. 장치가 자동으로 재구성되고 관리에 다시 등록됩니다.
+
+이 설정은 Windows 10 -> [장치 제한] -> [일반] -> [자동 재배포]에서 찾을 수 있습니다.
+
+### <a name="install-office-apps-on-macos-devices----1494311---"></a>macOS 장치에 Office 앱 설치 <!-- 1494311 -->
+macOS 장치에 Office 앱을 설치할 수 있습니다. 새 앱 유형을 사용하여 Word, Excel, PowerPoint, Outlook 및 OneNote를 설치할 수 있습니다. 또한 이들 앱은 MAU(Microsoft 자동 업데이트)와 함께 제공되므로 앱을 안전하게 최신 상태로 유지할 수 있습니다.
+
+### <a name="surface-hub-resource-account-supported----1566442-eeready---"></a>Surface Hub 리소스 계정 지원됨 <!-- 1566442 eeready -->
+관리자가 Surface Hub와 연결된 리소스 계정을 정의하고 업데이트할 수 있도록 새 장치 작업이 추가될 예정입니다.
+
+리소스 계정은 Surface Hub에서 Skype/Exchange로 인증하는 데 사용되므로 모임에 참여할 수 있습니다. Surface Hub는 모임에서 회의실로 표시되도록 고유한 리소스 계정을 만들 수 있습니다. 예를 들어, 리소스 계정은 *회의실 B41/6233*으로 표시될 수 있습니다. Surface Hub의 리소스 계정(장치 계정이라고 함)은 일반적으로 회의실 위치에 대해 구성되고 다른 리소스 계정 매개 변수를 변경해야 할 경우 구성되어야 합니다.
+
+관리자가 장치에서 리소스 계정을 업데이트하려는 경우 장치와 연결된 현재 Active Directory/Azure Active Directory 자격 증명을 제공해야 합니다. 장치에 대한 암호 순환이 켜져 있는 경우 관리자는 Azure Active Directory로 이동하여 암호를 찾아야 합니다.
+
+> [!NOTE]
+> 모든 필드는 번들로 전송되며 이전에 구성된 모든 필드를 덮어씁니다. 빈 필드도 기존 필드를 덮어씁니다.
+
+설정 관리자가 다음을 구성할 수 있습니다.
+
+- **리소스 계정**  
+
+   - **Active Directory 사용자**   
+   Domainname\username 또는 UPN(사용자 계정 이름): user@domainname.com
+   - **암호**
+
+
+- **선택적 리소스 계정 매개 변수**(지정된 리소스 계정을 사용하여 설정해야 함)
+   - **암호 순환 기간**   
+     보안상의 이유로 Surface Hub에서 자동으로 계정 암호를 업데이트하도록 합니다. 이 옵션을 사용하도록 설정한 후에 매개 변수를 구성하려면 먼저 Azure Active Directory의 계정에서 암호를 재설정해야 합니다.
+
+   - **SIP(Session Initiation Protocol) 주소**    
+     자동 검색이 실패할 경우에만 사용됩니다.
+
+   - **메일**    
+     장치/리소스 계정의 메일 주소입니다.
+
+   - **Exchange Server**    
+     자동 검색이 실패할 경우에만 필요합니다.
+
+   - **일정 동기화**    
+     일정 동기화 및 기타 Exchange Server 서비스를 사용할지 여부를 지정합니다. 예: 모임 동기화.
+
+### <a name="intune-now-provides-the-account-move-operation-----1573558-1579830---"></a>이제 Intune이 계정 이동 작업을 제공함 <!-- 1573558, 1579830 -->
+**계정 이동**은 ASU(Azure Scale Unit) 간에 테넌트를 마이그레이션합니다. **계정 이동**의 경우 이를 요청하기 위해 Intune 지원 팀에 전화를 거는 경우와 같이 고객이 시작하는 시나리오와 Microsoft가 백 엔드에서 서비스를 조정해야 하는 경우와 같이 Microsoft가 주도하는 시나리오에 둘 다 사용될 수 있습니다. **계정 이동** 중에 테넌트는 ROM(읽기 전용 모드)로 전환됩니다. ROM 기간에는 등록, 장치 이름 바꾸기, 준수 상태 업데이트와 같은 서비스 작업이 실패합니다.
+
+### <a name="new-windows-defender-security-center-wdsc-device-configuration-profile-settings----1335507---"></a>새 WDSC(Windows Defender 보안 센터) 장치 구성 프로필 설정 <!-- 1335507 -->
+Intune은 **Windows Defender 보안 센터**라는 끝점 보호가 적용되는 장치 구성 프로필 설정의 새 섹션을 추가합니다. IT 관리자는 최종 사용자가 액세스할 수 있는 Windows Defender 보안 센터 앱 영역을 구성할 수 있습니다. IT 관리자가 Windows Defender 보안 센터 앱 영역을 숨기면 숨겨진 영역에 관련된 모든 알림이 사용자 장치에 표시되지 않습니다.
+
+관리자는 Windows Defender 보안 센터 장치 구성 프로필 설정에서 이러한 영역을 숨길 수 있습니다.
+- 바이러스 및 위협 방지
+- 장치 성능 및 상태
+- 방화벽 및 네트워크 보호
+- 앱 및 브라우저 제어
+- 패밀리 옵션
+
+IT 관리자는 사용자가 받는 알림을 사용자 지정할 수도 있습니다. 예를 들어, 사용자가 WDSC의 표시되는 영역에서 생성되는 모든 알림을 수신할지, 아니면 중요 알림만 수신할지 구성할 수 있습니다. 중요하지 않은 알림에는 스캔이 완료되었을 경우 생성되는 Windows Defender 바이러스 백신 작업 및 알림에 대한 주기적 요약이 포함됩니다. 다른 모든 알림은 중요 알림으로 간주합니다. 또한 알림 콘텐츠 자체를 사용자 지정할 수 있습니다. 예를 들어, 사용자의 장치에 표시되는 알림에 포함할 IT 담당자 정보를 제공할 수 있습니다.
+
+
+
+
+<!-- the following are present prior to 1712 -->
 ### <a name="assign-office-365-mobile-apps-to-ios-and-android-devices-using-built-in-app-type----1332318---"></a>기본 제공 앱 유형을 사용하여 iOS 및 Android 장치에 Office 365 모바일 앱 할당<!-- 1332318 -->
 **기본 제공** 앱 유형을 사용하면 사용자가 관리하는 iOS 및 Android 장치에 Office 365 앱을 손쉽게 만들고 할당할 수 있습니다. 이러한 앱에는 Word, Excel, PowerPoint 및 OneDrive와 같은 0365 앱이 포함됩니다. 특정 앱을 앱 유형에 할당하고, 앱 정보 구성을 편집할 수 있습니다.
 

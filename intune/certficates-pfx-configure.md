@@ -1,208 +1,172 @@
 ---
 title: "Intune을 사용하여 PKCS 인증서 구성 및 관리"
-titlesuffix: Azure portal
-description: "인프라를 구성한 다음 Intune PKCS 인증서 프로필을 만들어 할당하는 방법을 알아봅니다.\""
+titleSuffix: Intune on Azure
+description: "Intune을 사용하여 PKCS 인증서를 구성 및 관리합니다.”"
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: MicrosoftGuyJFlo
+ms.author: joflore
 manager: angrobe
-ms.date: 06/03/2017
+ms.date: 11/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: e189ebd1-6ca1-4365-9d5d-fab313b7e979
-ms.reviewer: vinaybha
+ms.assetid: 
+ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1dff7d3e00b26b4f186beb71bacf13738ac857a3
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 105b5fc73bc537eaca67a0e6943701ba25a53972
+ms.sourcegitcommit: 2b35c99ca7d3dbafe2dfe1e0b9de29573db403b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/16/2017
 ---
 # <a name="configure-and-manage-pkcs-certificates-with-intune"></a>Intune을 사용하여 PKCS 인증서 구성 및 관리
+
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-이 항목에서는 Intune에서 인프라를 구성하고 PKCS 인증서를 만들고 할당하는 방법을 보여 줍니다.
+## <a name="requirements"></a>요구 사항
 
-조직에서 인증서 기반 인증을 수행하려면 엔터프라이즈 인증 기관이 필요합니다.
+Intune에서 PKCS 인증서를 사용하려면 다음 인프라가 있어야 합니다.
 
-PKCS 인증서 프로필을 사용하려면 엔터프라이즈 인증 기관 외에 다음도 필요합니다.
+* 기존 AD DS(Active Directory Domain Services) 도메인이 구성됨.
+ 
+  AD DS를 설치 및 구성하는 방법에 대한 자세한 내용은 [AD DS 디자인 및 계획](https://docs.microsoft.com/windows-server/identity/ad-ds/plan/ad-ds-design-and-planning) 문서를 참조하세요.
 
--   인증 기관과 통신할 수 있는 컴퓨터. 또는 인증 기관 컴퓨터 자체를 사용할 수 있습니다.
+* 기존 엔터프라이즈 CA(인증 기관)가 구성됨.
 
--  인증 기관과 통신할 수 있는 컴퓨터에서 실행되는 Intune 인증서 커넥터입니다.
+  AD CS(Active Directory 인증서 서비스)를 설치 및 구성하는 방법에 대한 자세한 내용은 [Active Directory 인증서 서비스 단계별 가이드](https://technet.microsoft.com/library/cc772393)를 참조하세요.
 
-## <a name="important-terms"></a>중요한 용어
+  > [!WARNING]
+  > Intune에서는 독립 실행형 CA가 아닌 엔터프라이즈 CA(인증 기관)를 사용하여 AD CS를 실행해야 합니다.
 
+* 엔터프라이즈 CA에 연결되어 있는 클라이언트.
+* 엔터프라이즈 CA에서 내보낸 루트 인증서 복사본입니다.
+* Intune 포털에서 다운로드한 Microsoft Intune Certificate Connector(NDESConnectorSetup.exe)입니다.
+* Microsoft Intune Certificate Connector(NDESConnectorSetup.exe)를 호스트할 수 있는 Windows Server입니다.
 
--    **Active Directory 도메인**: 웹 응용 프로그램 프록시 서버를 제외하고 이 섹션에 나열된 모든 서버는 Active Directory 도메인에 가입되어 있어야 합니다.
+## <a name="export-the-root-certificate-from-the-enterprise-ca"></a>엔터프라이즈 CA에서 루트 인증서 내보내기
 
--  **인증 기관**: Windows Server 2008 R2 이상의 Enterprise Edition에서 실행되는 엔터프라이즈 CA(인증 기관)입니다. 독립 실행형 CA는 지원되지 않습니다. 인증 기관을 설정하는 방법에 대한 지침은 [인증 기관 설치](http://technet.microsoft.com/library/jj125375.aspx)를 참조하세요.
-    CA에서 Windows Server 2008 R2를 실행하는 경우에는 [KB2483564의 핫픽스를 설치](http://support.microsoft.com/kb/2483564/)해야 합니다.
+VPN, WiFi 및 기타 리소스를 통해 인증하려면 각 장치에서 루트 또는 중간 CA 인증서가 필요합니다. 다음 단계에서는 엔터프라이즈 CA에서 필요한 인증서를 가져오는 방법을 설명합니다.
 
--  **인증 기관과 통신할 수 있는 컴퓨터**: 또는 인증 기관 컴퓨터 자체를 사용합니다.
--  **Microsoft Intune Certificate Connector**: Azure Portal에서 **인증서 커넥터** 설치 관리자(**ndesconnectorssetup.exe**)를 다운로드합니다. 그러면 인증서 커넥터를 설치할 컴퓨터에서 **ndesconnectorssetup.exe** 를 실행할 수 있습니다. PKCS 인증서 프로필에 대해 인증 기관과 통신하는 컴퓨터에 인증서 커넥터를 설치합니다.
--  **웹 응용 프로그램 프록시 서버**(선택 사항): Windows Server 2012 R2 이상을 실행하는 서버를 WAP(웹 응용 프로그램 프록시) 서버로 사용할 수 있습니다. 이 구성의 특징은 다음과 같습니다.
-    -  장치에서 인터넷 연결을 사용하여 인증서를 받을 수 있습니다.
-    -  장치가 인터넷을 통해 연결하여 인증서를 받고 갱신하는 경우 보안상 안전합니다.
+1. 관리 권한이 있는 계정으로 엔터프라이즈 CA에 로그인합니다.
+2. 관리자 권한으로 명령 프롬프트를 엽니다.
+3. 루트 CA 인증서를 나중에 액세스할 수 있는 위치로 내보냅니다.
 
- > [!NOTE]           
-> -    WAP를 호스트하는 서버의 경우 NDES(네트워크 장치 등록 서비스)에서 사용하는 긴 URL을 지원할 수 있도록 하는 [업데이트를 설치](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx)해야 합니다. 이 업데이트는 [2014년 12월 업데이트 롤업](http://support.microsoft.com/kb/3013769)에 포함되어 있으며, [KB3011135](http://support.microsoft.com/kb/3011135)에서 개별적으로 다운로드할 수도 있습니다.
->-  또한 WAP를 호스트하는 서버에는 NDES 서버에서 사용되는 SSL 인증서를 신뢰할 뿐만 아니라 외부 클라이언트에 게시된 이름과 일치하는 SSL 인증서가 있어야 합니다. 이러한 인증서를 통해 WAP 서버는 클라이언트와의 SSL 연결을 종료하고 NDES 서버로의 새 SSL 연결을 생성할 수 있습니다.
-    WAP용 인증서에 대한 자세한 내용은 **웹 응용 프로그램 프록시를 사용한 응용 프로그램 게시 계획** 의 [인증서 계획](https://technet.microsoft.com/library/dn383650.aspx)섹션을 참조하세요. WAP 서버에 대한 일반 정보는 [웹 응용 프로그램 프록시 작업](http://technet.microsoft.com/library/dn584113.aspx)을 참조하세요.
+   예를 들면 다음과 같습니다.
 
+   `certutil -ca.cert certnew.cer`
 
-## <a name="certificates-and-templates"></a>인증서 및 템플릿
-
-|개체|세부 정보|
-|----------|-----------|
-|**인증서 템플릿**|발급 CA에서 이 템플릿을 구성합니다.|
-|**신뢰할 수 있는 루트 CA 인증서**|발급 CA 또는 발급 CA를 신뢰하는 장치에서 이 인증서를 **.cer** 파일로 내보낸 다음 신뢰할 수 있는 CA 인증서 프로필을 사용하여 장치에 할당합니다.<br /><br />운영 체제 플랫폼당 하나의 신뢰할 수 있는 루트 CA 인증서를 사용하고, 새로 만드는 각 신뢰할 수 있는 루트 인증서 프로필과 연결합니다.<br /><br />필요하면 신뢰할 수 있는 루트 CA 인증서를 추가로 사용할 수 있습니다. 예를 들어, Wi-Fi 액세스 지점의 서버 인증 인증서에 서명하는 CA에 신뢰를 제공하기 위해 사용하게 될 수도 있습니다.|
+   자세한 내용은 [인증서 관리를 위한 Certutil 작업](https://technet.microsoft.com/library/cc772898.aspx#BKMK_ret_sign)을 참조하세요.
 
 
-## <a name="configure-your-infrastructure"></a>인프라 구성
-인증서 프로필을 구성하려면 다음 단계를 완료해야 합니다. 이러한 단계를 완료하려면 Windows Server 2012 R2 및 ADCS(Active Directory 인증서 서비스)에 대한 지식이 있어야 합니다.
+## <a name="configure-certificate-templates-on-the-certification-authority"></a>인증 기관에서 인증서 템플릿 구성
 
-- **1단계** - 인증 기관에서 인증서 템플릿 구성
-- **2단계** - Intune 인증서 커넥터 사용, 설치 및 구성
+1. 관리 권한이 있는 계정으로 엔터프라이즈 CA에 로그인합니다.
+2. **인증 기관** 콘솔을 엽니다.
+3. **인증서 템플릿**을 마우스 오른쪽 단추로 클릭하고 **관리**를 선택합니다.
+4. **사용자** 인증서 템플릿을 찾아서 마우스 오른쪽 단추로 클릭한 다음 **템플릿 복제**를 선택합니다. 창이 열리고 **새 템플릿의 속성**이 표시됩니다.
+5. **호환성** 탭에서 다음을 수행합니다.
+   * **인증 기관**을 **Windows Server 2008 R2**로 설정
+   * **인증서 받는 사람**을 **Windows 7/Server 2008 R2**로 설정
+6. **일반** 탭에서 다음을 수행합니다.
+   * **템플릿 표시 이름**을 의미 있는 이름으로 설정합니다.
 
-## <a name="step-1---configure-certificate-templates-on-the-certification-authority"></a>1단계 - 인증 기관에서 인증서 템플릿 구성
+   > [!WARNING]
+   > 기본적으로 **템플릿 이름**은 *공백 없이* **템플릿 표시 이름**과 동일합니다. 나중에 사용할 수 있도록 템플릿 이름을 기록합니다.
 
-### <a name="to-configure-the-certification-authority"></a>인증 기관을 구성하려면
+7. **요청 처리** 탭에서 **개인 키를 내보낼 수 있음** 상자를 선택합니다.
+8. **암호화** 탭에서 **최소 키 크기**가 2048로 설정되었는지 확인합니다.
+9. **주체 이름** 탭에서 **요청 시 제공** 라디오 단추를 선택합니다.
+10. **확장** 탭에서 **응용 프로그램 정책** 아래에 파일 시스템 암호화, 메일 보안 및 클라이언트 인증이 표시되는지 확인합니다.
+    
+      > [!IMPORTANT]
+      > iOS 및 macOS 인증서 템플릿의 경우 **확장** 탭에서 **키 사용**을 편집하고 **서명이 원본 증명임**이 선택되어 있지 않음을 확인합니다.
 
-1.  발급 CA에서 인증서 템플릿 스냅인을 사용하여 사용자 지정 템플릿을 새로 만들거나 사용자 템플릿과 같은 기존 템플릿을 복사한 후 PKCS에 사용할 수 있도록 편집합니다.
+11. **보안** 탭에서 Microsoft Intune Certificate Connector를 설치할 서버의 컴퓨터 계정을 추가합니다.
+    * 이 계정에 **읽기** 및 **등록** 권한을 허용합니다.
+12. **적용**을 클릭한 다음 **확인**을 클릭하여 인증서 템플릿을 저장합니다.
+13. **인증서 템플릿 콘솔**을 닫습니다.
+14. **인증 기관** 콘솔에서 **인증서 템플릿**을 마우스 오른쪽 단추로 클릭하고 **새로 만들기**, **발급할 인증서 템플릿**을 차례로 클릭합니다.
+    * 이전 단계에서 만든 템플릿을 선택하고 **확인**을 클릭합니다.
+15. 서버에서 Intune 등록 장치 및 사용자를 대신하여 인증서를 관리하려면 아래 단계를 따릅니다.
 
-    템플릿은 다음 항목을 포함해야 합니다.
+    a. 인증 기관을 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 
-    -   템플릿에 친숙한 **템플릿 표시 이름** 을 지정합니다.
+    b. [보안] 탭에서 Microsoft Intune Certificate Connector를 실행할 서버의 컴퓨터 계정을 추가합니다.
+      * **인증서 발급 및 관리** 및 **인증서 요청** 허용 권한을 컴퓨터 계정에 부여합니다.
+16. 엔터프라이즈 CA에서 로그아웃합니다.
 
-    -   **주체 이름** 탭에서 **요청에서 제공**을 선택합니다. 보안은 NDES용 Intune 정책 모듈을 통해 적용됩니다.
+## <a name="download-install-and-configure-the-microsoft-intune-certificate-connector"></a>Microsoft Intune Certificate Connector 다운로드, 설치 및 구성
 
-    -   **확장** 탭에서 **응용 프로그램 정책 설명** 에 **클라이언트 인증**이 포함되어 있는지 확인합니다.
+![ConnectorDownload][ConnectorDownload]
 
-        > [!IMPORTANT]
-        > iOS 및 macOS 인증서 템플릿의 경우 **확장** 탭에서 **키 사용**을 편집하고 **서명이 원본 증명임**이 선택되어 있지 않음을 확인합니다.
+1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
+2. **Intune**, **장치 구성**, **인증 기관**으로 이동하여 **인증서 커넥터 다운로드**를 클릭합니다.
+   * 설치할 서버에서 액세스할 수 있는 위치에 다운로드를 저장합니다.
+3. Microsoft Intune Certificate Connector를 설치할 서버에 로그인합니다.
+4. 설치 프로그램을 실행하고 기본 위치를 적용합니다. 커넥터를 C:\Program Files\Microsoft Intune\NDESConnectorUI\NDESConnectorUI.exe에 설치합니다.
 
-2.  템플릿의 **일반** 탭에서 **유효 기간** 을 검토합니다. 기본적으로 Intune은 템플릿에 구성된 값을 사용합니다. 그러나 요청자가 다른 값을 지정할 수 있도록 CA를 구성할 수도 있습니다. 이와 같이 구성하면 Intune 관리자 콘솔 내에서 다른 값을 설정할 수 있습니다. 항상 템플릿의 값을 사용하려면 이 단계의 나머지 부분을 건너뜁니다.
+      a. 설치 프로그램 옵션 페이지에서 **PFX 배포**를 선택하고 **다음**을 클릭합니다.
 
-    > [!IMPORTANT]
-    > iOS 및 macOS는 다른 구성 내용에 관계없이 항상 템플릿에 설정된 값을 사용합니다.
+   b. **설치**를 클릭하고 설치가 완료될 때까지 기다립니다.
 
-    요청자가 유효 기간을 지정할 수 있도록 CA를 구성하려면 CA에서 다음 명령을 실행합니다.
+   c. 완료 페이지에서 **Intune 커넥터 시작** 확인란을 선택하고 **완료**를 클릭합니다.
 
-    a.  **certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE**
+5. [NDES Connector] 창이 **등록** 탭으로 열립니다. Intune에 대한 연결을 사용하려면 **로그인**을 클릭하고 관리자 권한이 있는 계정을 제공해야 합니다.
+6. **고급** 탭에서 **이 컴퓨터의 시스템 계정 사용(기본값)** 라디오 단추를 선택한 상태로 둡니다.
+7. **적용**을 클릭한 다음 **닫기**를 클릭합니다.
+8. 이제 Azure Portal에서 다시 이동합니다. **Intune**, **장치 구성**, **인증 기관**에서는 몇 분 후에 **연결 상태** 아래에 녹색 선택 표시와 **활성** 단어가 표시됩니다. 이 확인을 통해 커넥터 서버가 Intune과 통신할 수 있음을 알 수 있습니다.
 
-    b.  **net stop certsvc**
+## <a name="create-a-device-configuration-profile"></a>장치 구성 프로필 만들기
 
-    c.  **net start certsvc**
+1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
+2. **Intune**, **장치 구성**, **프로필**로 이동하고 **프로필 만들기**를 클릭합니다.
 
-3.  발급 CA에서 인증 기관 스냅인을 사용하여 인증서 템플릿을 게시합니다.
+   ![NavigateIntune][NavigateIntune]
 
-    a.  **인증서 템플릿** 노드를 선택하고 **작업** - &gt;**새로 만들기**  &gt;**발급할 인증서 템플릿**을 클릭한 후에 2단계에서 만든 템플릿을 선택합니다.
+3. 다음 정보를 채웁니다.
+   * 프로필의 **이름**
+   * 선택적으로 설명 설정
+   * 프로필을 배포할 **플랫폼**
+   * **프로필 형식**을 **신뢰할 수 있는 인증서**로 설정
+4. **설정**으로 이동하여 이전에 내보낸 .cer 파일 루트 CA 인증서를 제공합니다.
 
-    b.  **인증서 템플릿** 폴더에서 게시된 템플릿을 확인하여 유효성을 검사합니다.
+   > [!NOTE]
+   > **3단계**에서 선택한 플랫폼에 따라 인증서의 **대상 저장소**를 선택하는 옵션이 제공되거나 제공되지 않을 수 있습니다.
 
-4.  CA 컴퓨터에서 Intune 인증서 커넥터를 호스트하는 컴퓨터에 등록 권한이 있는지 확인합니다. 이 권한이 있어야 해당 컴퓨터가 PKCS 인증서 프로필을 만드는 데 사용된 템플릿에 액세스할 수 있습니다. CA 컴퓨터 속성의 **보안** 탭에서 권한을 설정합니다.
+   ![ProfileSettings][ProfileSettings]
 
-## <a name="step-2---enable-install-and-configure-the-intune-certificate-connector"></a>2단계 - Intune 인증서 커넥터 사용, 설치 및 구성
-이 단계에서는 다음을 수행합니다.
+5. **확인**, **만들기**를 차례로 클릭하여 프로필을 저장합니다.
+6. 하나 이상의 장치에 새 프로필을 할당하려면 [Microsoft Intune 장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
 
-- 인증서 커넥터에 대한 지원을 사용하도록 설정
-- 인증서 커넥터 다운로드, 설치 및 구성
+## <a name="create-a-pkcs-certificate-profile"></a>PKCS 인증서 프로필 만들기
 
-### <a name="to-enable-support-for-the-certificate-connector"></a>인증서 커넥터에 대한 지원을 사용하도록 설정하려면
+1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
+2. **Intune**, **장치 구성**, **프로필**로 이동하고 **프로필 만들기**를 클릭합니다.
+3. 다음 정보를 채웁니다.
+   * 프로필의 **이름**
+   * 선택적으로 설명 설정
+   * 프로필을 배포할 **플랫폼**
+   * **프로필 형식**을 **PKCS 인증서**로 설정
+4. **설정**으로 이동하여 다음 정보를 제공합니다.
+   * **갱신 임계값(%)** - 권장 값은 20%입니다.
+   * **인증서 유효 기간** - 인증서 템플릿을 변경하지 않은 경우 이 옵션을 1년으로 설정해야 합니다.
+   * **인증 기관** - 이 옵션은 엔터프라이즈 CA의 내부 FQDN(정규화된 도메인 이름)입니다.
+   * **인증 기관 이름** - 이 옵션은 엔터프라이즈 CA의 이름이며 이전 항목과 다를 수 있습니다.
+   * **인증서 템플릿 이름** - 이 옵션은 이전에 생성된 템플릿의 이름입니다. 기본적으로 **템플릿 이름**은 *공백 없이* **템플릿 표시 이름**과 동일합니다.
+   * **주체 이름 형식** - 별도로 필요한 경우가 아니면 이 옵션을 **일반 이름**으로 설정합니다.
+   * **주체 대체 이름** - 별도로 필요한 경우가 아니면 이 옵션을 **UPN(사용자 계정 이름)**으로 설정합니다.
+   * **확장된 키 사용** - 이전 섹션 **인증 기관에서 인증서 템플릿 구성**의 10단계에서 기본 설정을 사용한 경우에는 선택 상자에서 다음 **미리 정의된 값**을 추가합니다.
+      * **모든 용도**
+      * **클라이언트 인증**
+      * **메일 보안**
+   * **루트 인증서** - (Android 프로필의 경우) 이 옵션은 이전 섹션 [엔터프라이즈 CA에서 루트 인증서 내보내기](#export-the-root-certificate-from-the-enterprise-ca)의 3단계에서 내보낸 .cer 파일입니다.
 
-1.  Azure 포털에 로그인합니다.
-2.  **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3.  **Intune** 블레이드에서 **장치 구성**을 선택합니다.
-2.  **장치 구성** 블레이드에서 **설정** > **인증 기관**을 선택합니다.
-2.  **1단계** 아래에서 **사용**을 선택합니다.
-
-### <a name="to-download-install-and-configure-the-certificate-connector"></a>인증서 커넥터를 다운로드, 설치 및 구성하려면
-
-1.  **장치 구성** 블레이드에서 **설정** > **인증 기관**을 선택합니다.
-2.  **인증서 커넥터 다운로드**를 선택합니다.
-2.  다운로드가 완료되면 다운로드한 설치 관리자(**ndesconnectorssetup.exe**)를 실행합니다.
-  인증 기관에 연결할 수 있는 컴퓨터에서 설치 관리자를 실행합니다. PKCS(PFX) 배포 옵션을 선택한 다음 **설치**를 선택합니다. 설치가 완료되면 [인증서 프로필을 구성하는 방법](certificates-configure.md)에서 설명한 대로 인증서 프로필을 만들어 계속합니다.
-
-3.  인증서 커넥터용 클라이언트 인증서를 선택하라는 메시지가 표시되면 **선택**을 선택하고 설치한 **클라이언트 인증** 인증서를 선택합니다.
-
-    클라이언트 인증 인증서를 선택하고 나면 **Microsoft Intune 인증서 커넥터용 클라이언트 인증서** 화면으로 돌아가게 됩니다. 선택한 인증서는 표시되지 않지만 **다음**을 선택하면 해당 인증서의 속성을 볼 수 있습니다. 그런 후에 **다음**, **설치**를 차례로 선택합니다.
-
-4.  마법사를 완료한 후 마법사를 닫기 전에 **인증서 커넥터 UI 시작**을 클릭합니다.
-
-    > [!TIP]
-    > 인증서 커넥터 UI를 시작하기 전에 마법사를 닫은 경우에는 다음 명령을 실행하여 마법사를 다시 열 수 있습니다.
-    >
-    > **&lt;install_Path&gt;\NDESConnectorUI\NDESConnectorUI.exe**
-
-5.  **인증서 커넥터** UI에서:
-
-    a. **로그인**을 선택하고 Intune 서비스 관리자의 자격 증명이나 전역 관리 권한이 있는 테넌트 관리자의 자격 증명을 입력합니다.
-
-  <!--  If your organization uses a proxy server and the proxy is needed for the NDES server to access the Internet, click **Use proxy server** and then provide the proxy server name, port, and account credentials to connect.-->
-
-    b. **고급** 탭을 선택하고 발급 인증 기관에 대한 **인증서 발급 및 관리** 권한이 있는 계정의 자격 증명을 입력합니다.
-
-    c. **적용**을 선택합니다.
-
-    이제 인증서 커넥터 UI를 닫아도 됩니다.
-
-6.  명령 프롬프트를 열고 **services.msc**를 입력합니다. 그런 다음 **Enter** 키를 누르고 **Intune 커넥터 서비스**를 마우스 오른쪽 단추로 클릭한 후에 **다시 시작**을 선택합니다.
-
-서비스가 실행되고 있는지 확인하려면 브라우저를 열고 다음 URL을 입력합니다. 그러면 **403** 오류가 반환됩니다.
-
-**http:// &lt;FQDN_of_your_NDES_server&gt;/certsrv/mscep/mscep.dll**
+5. **확인**, **만들기**를 차례로 클릭하여 프로필을 저장합니다.
+6. 하나 이상의 장치에 새 프로필을 할당하려면 [Microsoft Intune 장치 프로필을 할당하는 방법](device-profile-assign.md) 문서를 참조하세요.
 
 
-### <a name="how-to-create-a-pkcs-certificate-profile"></a>PKCS 인증서 프로필을 만드는 방법
-
-Azure Portal에서 **장치 구성** 워크로드를 선택합니다.
-2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
-3. 프로필 블레이드에서 **프로필 만들기**를 클릭합니다.
-4. **프로필 만들기** 블레이드에서 PKCS 인증서 프로필에 대한 **이름** 및 **설명**을 입력합니다.
-5. **플랫폼** 드롭다운 목록에서 이 PKCS 인증서에 대한 장치 플랫폼을 선택합니다.
-    - **Android**
-    - **Android for Work**
-    - **iOS**
-    - **Windows 10 이상**
-6. **프로필** 유형 드롭다운 목록에서 **PKCS 인증서**를 선택합니다.
-7. **PKCS 인증서** 블레이드에서 다음 설정을 구성합니다.
-    - **갱신 임계값(%)** - 장치에서 인증서 갱신을 요청하기 전까지 남은 인증서 수명을 백분율로 지정합니다.
-    - **인증서 유효 기간** - 발급 CA에 대해 사용자 지정 유효 기간을 허용하는 **certutil - setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE** 명령을 실행한 경우 인증서가 만료될 때까지 남은 기간을 지정할 수 있습니다.<br>지정된 인증서 템플릿에서 유효 기간보다 작은 값은 지정할 수 있지만 높은 값은 지정할 수 없습니다. 예를 들어 인증서 템플릿의 인증서 유효 기간이 2년이면 값을 1년으로 지정할 수는 있어도 5년으로는 지정할 수 없습니다. 또한 이 값은 발급 CA 인증서의 남은 유효 기간보다 작아야 합니다.
-    - **KSP(키 저장소 공급자)**(Windows 10): 인증서에 키가 저장될 위치를 지정합니다. 다음 값 중 하나를 선택합니다.
-        - **있는 경우 TPM(신뢰할 수 있는 플랫폼 모듈) KSP에 등록, 그렇지 않으면 소프트웨어 KSP에 등록**
-        - **TPM(신뢰할 수 있는 플랫폼 모듈) KSP에 등록, 그러지 않으면 실패**
-        - **Passport에 등록, 그러지 않으면 실패(Windows 10 이상)**
-        - **소프트웨어 KSP에 등록**
-    - **인증 기관**: Windows Server 2008 R2 이상의 Enterprise Edition에서 실행되는 엔터프라이즈 CA(인증 기관)입니다. 독립 실행형 CA는 지원되지 않습니다. 인증 기관을 설정하는 방법에 대한 지침은 [인증 기관 설치](http://technet.microsoft.com/library/jj125375.aspx)를 참조하세요. CA에서 Windows Server 2008 R2를 실행하는 경우에는 [KB2483564의 핫픽스를 설치](http://support.microsoft.com/kb/2483564/)해야 합니다.
-    - **인증 기관 이름** - 인증 기관의 이름을 입력합니다.
-    - **인증서 템플릿 이름** - 네트워크 장치 등록 서비스에서 사용하도록 구성되고 발급 CA에 추가된 인증서 템플릿의 이름을 입력합니다.
-    이름이 네트워크 장치 등록 서비스를 실행하는 서버의 레지스트리에 나열된 인증서 템플릿 중 하나와 일치하는지 확인합니다. 또한 인증서 템플릿의 표시 이름이 아닌 인증서 템플릿 이름을 지정했는지 확인합니다. 
-    인증서 템플릿의 이름을 찾으려면 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\MSCEP 키로 이동합니다. 인증서 템플릿이 **EncryptionTemplate**, **GeneralPurposeTemplate**및 **SignatureTemplate**의 값으로 나열됩니다. 기본적으로 모든 세 인증서 템플릿의 값은 IPSECIntermediateOffline이며, 이는 **IPSec(오프라인 요청)**라는 템플릿 표시 이름으로 매핑됩니다. 
-    - **주체 이름 형식** - 인증서 요청 시 Intune에서 자동으로 주체 이름을 만드는 방식을 목록에서 선택합니다. 사용자용 인증서인 경우 주체 이름에 사용자의 전자 메일 주소를 포함할 수도 있습니다. 다음 중에서 선택합니다.
-        - **구성되지 않음**
-        - **일반 이름**
-        - **메일이 포함된 일반 이름**
-        - **메일인 일반 이름**
-    - **주체 대체 이름** - Intune에서 인증서 요청의 SAN(주체 대체 이름) 값을 자동으로 만드는 방법을 지정합니다. 예를 들어 사용자 인증서 유형을 선택한 경우 주체 대체 이름에 UPN(사용자 계정 이름)을 포함할 수 있습니다. 클라이언트 인증서가 네트워크 정책 서버에 대한 인증에 사용되는 경우 주체 대체 이름을 UPN으로 설정합니다. 
-    **사용자 지정 Azure AD 특성**을 선택할 수도 있습니다. 이 옵션을 선택하면 다른 드롭다운 필드가 표시됩니다. **사용자 지정 Azure AD 특성** 드롭다운 필드에는 **부서**라는 옵션이 하나 있습니다. 이 옵션을 선택하는 경우 Azure AD에서 해당 부서가 식별되지 않으면 인증서가 발급되지 않습니다. 이 문제를 해결하려면 부서를 식별하고 변경 내용을 저장합니다. 그러면 다음번에 장치를 체크 인할 때 문제가 해결되고 인증서가 발급됩니다. 이 필드에 사용되는 표기법은 ASN.1입니다. 
-    - **확장 키 사용**(Android) - **추가**를 클릭하여 인증서의 용도에 대한 값을 추가합니다. 대부분의 경우 인증서는 사용자 또는 장치가 서버에 인증할 수 있는 **클라이언트 인증** 이 필요합니다. 그러나 필요에 따라 다른 키 사용을 추가할 수 있습니다. 
-    - **루트 인증서**(Android) - 이전에 구성하고 사용자 또는 장치에 할당한 루트 CA 인증서 프로필을 선택합니다. 이 CA 인증서는 이 인증서 프로필에서 구성하려는 인증서를 발급할 CA에 대한 루트 인증서여야 합니다. 이전에 만들어 놓은 신뢰할 수 있는 인증서 프로필입니다.
-8. 완료되면 **프로필 만들기** 블레이드로 돌아와서 **만들기**를 클릭합니다.
-
-프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
-
-## <a name="how-to-assign-the-certificate-profile"></a>인증서 프로필을 할당하려면
-
-인증서 프로필을 그룹에 할당하기 전에 다음 사항을 고려합니다.
-
-- 인증서 프로필을 그룹에 할당할 때는 신뢰할 수 있는 CA 인증서 프로필의 인증서 파일이 장치에 설치됩니다. 장치에서는 PKCS 인증서 프로필을 사용하여 장치의 인증서 요청을 만듭니다.
-- 인증서 프로필은 프로필을 만들 때 사용하는 플랫폼을 실행 중인 장치에만 설치됩니다.
-- 사용자 컬렉션 또는 장치 컬렉션에 인증서 프로필을 할당할 수 있습니다.
-- 장치를 등록한 후 인증서를 장치에 빠르게 게시하려면 인증서 프로필을 장치 그룹이 아닌 사용자 그룹에 할당합니다. 장치 그룹에 프로필을 할당하는 경우에는 장치에서 정책을 수신하기 전에 전체 장치 등록을 수행해야 합니다.
-- 각 프로필을 별도로 할당하더라도 신뢰할 수 있는 루트 CA 및 PKCS 프로필을 할당해야 합니다. 그렇지 않으면 PKCS 인증서 정책에서 오류가 발생합니다.
-
-프로필을 할당하는 방법에 대한 내용은 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
+[NavigateIntune]: ./media/certificates-pfx-configure-profile-new.png "Azure Portal에서 Intune으로 이동하여 신뢰할 수 있는 인증서에 대한 새 프로필을 만듭니다."
+[ProfileSettings]: ./media/certificates-pfx-configure-profile-fill.png "프로필을 만들고 신뢰할 수 있는 인증서를 업로드합니다."
+[ConnectorDownload]: ./media/certificates-pfx-configure-connector-download.png "Azure Portal에서 인증서 커넥터 다운로드"
