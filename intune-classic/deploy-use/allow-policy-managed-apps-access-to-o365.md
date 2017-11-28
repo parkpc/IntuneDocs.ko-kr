@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 7ad33ba7020f418f4894a689d5d66a74e4b8c10e
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 78b5d58df44252d1f3916c1d2a2ea02fcb1a10e2
+ms.sourcegitcommit: 82088d297eef629e3da6011681ead442ae7e25f7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 11/15/2017
 ---
 # <a name="allow-only-mobile-apps-that-support-intune-app-protection-policies-to-access-office-365-services"></a>Intune 앱 보호 정책을 지원하는 모바일 앱만 Office 365 서비스에 액세스하도록 허용
 

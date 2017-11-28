@@ -6,7 +6,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 05/23/2017
+ms.date: 11/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: a0b8e55e-c3d8-4599-be25-dc10c1027b62
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a75cf12fb1e03873d4ef3307e9c377ab6df6b75a
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: d3509dbf1bc0b415803bb003c342f5b5df69e235
+ms.sourcegitcommit: 82088d297eef629e3da6011681ead442ae7e25f7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/15/2017
 ---
 # <a name="common-ways-to-use-conditional-access-with-intune"></a>Intune에서 조건부 액세스를 사용하는 일반적인 방법
 
@@ -62,11 +62,11 @@ EAS 레코드가 신규 항목이어서 Intune이 인식할 수 없는 경우 In
 
 ![CA를 사용하는 Exchange 온-프레미스 순서도](./media/ca-intune-common-ways-1.png)
 
-1.  사용자가 Exchange 온-프레미스 2010 SP1 이상에서 호스트되는 회사 전자 메일에 액세스하려고 합니다.
+1.  사용자가 Exchange 온-프레미스 2010 SP1 이상에서 호스트되는 회사 메일에 액세스하려고 합니다.
 
-2.  Intune을 통해 관리되지 않는 장치의 경우 전자 메일 액세스가 차단됩니다. Intune에서 EAS 클라이언트에 차단 알림을 보냅니다.
+2.  Intune을 통해 관리되지 않는 장치의 경우 메일 액세스가 차단됩니다. Intune에서 EAS 클라이언트에 차단 알림을 보냅니다.
 
-3.  EAS는 차단 알림을 수신하면 장치를 격리로 이동한 다음 사용자가 장치를 등록할 수 있도록 링크가 포함된 수정 단계를 제공하는 격리 전자 메일을 전송합니다.
+3.  EAS는 차단 알림을 수신하면 장치를 격리로 이동한 다음 사용자가 장치를 등록할 수 있도록 링크가 포함된 수정 단계를 제공하는 격리 메일을 전송합니다.
 
 4.  장치가 Intune을 통해 관리되도록 하려면 가장 먼저 수행해야 하는 단계인 작업 공간 연결 프로세스가 진행됩니다.
 
@@ -90,7 +90,7 @@ Intune은 장치 상태를 평가하고 관리합니다.
 
 Exchange 서버는 장치를 해당 격리로 이동하는 API 및 인프라를 제공합니다.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > 장치를 사용하는 사용자에게 준수 프로필이 할당되어 있어야 장치에 대한 준수 여부가 평가됩니다. 사용자에게 규정 준수 정책이 배포되지 않은 경우 장치는 준수하는 것으로 간주되며 액세스 제한이 적용되지 않습니다.
 
 ### <a name="conditional-access-based-on-network-access-control"></a>네트워크 액세스 제어 기준 조건부 액세스

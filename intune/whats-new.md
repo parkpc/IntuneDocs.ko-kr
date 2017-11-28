@@ -6,7 +6,7 @@ keywords:
 author: brenduns
 ms.author: brenduns
 manager: angrobe
-ms.date: 11/8/2017
+ms.date: 11/18/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f42410c0df0492f57c7c1f33beed1d2f082ff285
-ms.sourcegitcommit: 5b5744aed73384e1df864f8d3f9f739e17607c2c
+ms.openlocfilehash: 8aad2b31b6545c451f27084c6deefaf416ee2710
+ms.sourcegitcommit: 13955af66e3402a0448e236451b97e90a2d29204
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 11/19/2017
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Microsoft Intune의 새로운 기능
 
@@ -41,13 +41,29 @@ ms.lasthandoff: 11/14/2017
   ### Monitor and troubleshoot
 
 -->   
-## <a name="week-of-november-6-2017"></a>2017년 11월 6일 주
 
+## <a name="week-of-november-13-2017"></a>2017년 11월 13일 주
+
+### <a name="intune-apps"></a>Intune 앱
+#### <a name="company-portal-app-for-macos-is-available---1541700--"></a>macOS용 회사 포털 앱 사용 가능 <!--1541700-->
+macOS용 Intune 회사 포털에는 사용자가 등록한 모든 장치에 필요한 모든 정보 및 준수 알림을 분명히 표시하도록 최적화된 업데이트된 환경이 있습니다. 또한 Intune 회사 포털이 장치에 배포된 후에 macOS용 Microsoft 자동 업데이트에서는 이에 대한 업데이트를 제공합니다. macOS 장치에서 Intune 회사 포털 웹 사이트에 로그인하여 새로운 macOS용 Intune 회사 포털을 다운로드할 수 있습니다.
+
+#### <a name="microsoft-planner-is-now-part-of-the-mobile-app-management-mam-list-of-approved-apps-----1248473---"></a>Microsoft Planner는 이제 승인된 앱의 MAM(모바일 앱 관리) 목록에 포함됨 <!-- 1248473 -->
+iOS 및 Android용 Microsoft Planner 앱은 이제 MAM(모바일 앱 관리)에 대한 승인된 앱에 포함됩니다. 모든 테넌트에 대해 Azure Portal의 Intune 앱 보호 블레이드를 통해 앱을 구성할 수 있습니다.
+- [승인된 앱의 MAM 목록](https://www.microsoft.com/cloud-platform/microsoft-intune-apps)을 자세히 알아보세요.
+
+#### <a name="per-app-vpn-requirement-update-frequency-on-ios-devices------1547061---"></a>iOS 장치에 대한 앱당 VPN 요구 사항 업데이트 빈도 <!-- 1547061 -->  
+관리자는 이제 iOS 장치의 앱에 대한 앱당 VPN 요구 사항을 제거할 수 있습니다. 일반적으로 15분 내에 수행되는 다음 Intune 체크 인 후에 장치에 영향을 줍니다.  
+
+### <a name="monitor-and-troubleshoot"></a>모니터링 및 문제 해결
+#### <a name="support-for-system-center-operations-manager-management-pack-for-exchange-connector----885457---"></a>Exchange Connector용 System Center Operations Manager 관리 팩에 대한 지원 <!-- 885457 -->
+Exchange Connector 로그를 구문 분석하는 데 도움이 되도록 이제 Exchange Connector용 System Center Operations Manager(SCOM) 관리 팩이 제공됩니다. 이렇게 하면 문제를 해결해야 할 때 서비스를 모니터링하는 여러 가지 방법이 있습니다.
+
+## <a name="week-of-november-6-2017"></a>2017년 11월 6일 주
 
 ### <a name="device-enrollment"></a>장치 등록
 #### <a name="co-management-for-windows-10-devices-----1243445---"></a>Windows 10 장치의 공동 관리<!-- 1243445 -->
 공동 관리는 기존 관리에서 최신 관리에 대한 연결을 제공하고 단계별 접근 방법을 사용하여 전환할 수 있는 경로를 제공하는 솔루션입니다. 기본적으로 공동 관리는 Windows 10 장치를 Configuration Manager와 Microsoft Intune에서 동시에 관리할 수 있는 솔루션입니다. 뿐만 아니라 AD(Active Directory) 및 Azure AD(Azure Active Directory)에 조인되됩니다.  이 구성을 통해 한 번에 경로로 이동할 수 없는 경우 조직에 적합한 속도로 시간이 지남에 따라 현대화하는 경로를 제공합니다.  
-
 
 #### <a name="new-enrollment-status-page-for-windows-10-enrollments---1063201--"></a>Windows 10 등록의 새 등록 상태 페이지<!--1063201-->    
 이제 사용자가 Windows 10 장치를 등록할 때 표시되는 인사말을 구성할 수 있습니다. **등록 상태 화면**을 사용하여 해당 Windows 10 장치를 등록할 때 최종 사용자에게 표시될 사용자 지정 메시지 및 하이퍼링크를 구성합니다.  또한 **등록 상태 화면**에서는 최종 사용자에게 해당 장치에 적용되는 정책 설정의 진행률에 대한 보기를 제공합니다.  
@@ -61,6 +77,7 @@ Intune은 Windows 8.1 PC 및 Phone 등록을 계속 지원할 예정입니다. �
 Windows AutoPilot 할당되지 않은 장치에 대한 새 경고는 **Microsoft Intune** > **장치 등록** > **개요** 페이지에 제공됩니다. 이 경고에는 AutoPilot 배포 프로필이 할당되지 않는 AutoPilot 프로그램의 장치 수가 표시됩니다. 경고의 정보를 사용하여 프로필을 만들어서 할당되지 않은 장치에 할당하십시오. 경고를 클릭하면 Windows AutoPilot 장치의 전체 목록과 해당 장치에 대한 자세한 정보가 표시됩니다. 자세한 내용은 [Windows AutoPilot 배포 프로그램을 사용하여 Windows 장치 등록](https://docs.microsoft.com/intune/enrollment-autopilot)을 참조하세요.
 
 ### <a name="device-management"></a>장치 관리
+
 #### <a name="refresh-button-for-devices-list-------1333581---"></a>장치 목록의 새로 고침 단추    <!-- 1333581 -->
 장치 목록이 자동으로 새로 고쳐지지 않으므로 새로운 새로 고침 단추를 사용하여 목록에 표시되는 장치를 업데이트할 수 있습니다.
 
@@ -85,7 +102,7 @@ Windows AutoPilot 할당되지 않은 장치에 대한 새 경고는 **Microsoft
 > 이 기능은 Android 6.0 이상 장치에서 Google에 의해 릴리스된 보안 패치만을 제한합니다.
 
 #### <a name="app-conditional-launch-support----1193313---"></a>앱 조건부 시작 지원<!-- 1193313 -->
-이제 IT 관리자는 Azure 관리 포털을 통해 요구 사항을 설정하여 응용 프로그램을 시작하는 경우 MAM(모바일 앱 관리)를 통해 숫자 PIN이 아닌 암호를 적용할 수 있습니다. 항목이 구성되면 사용자는 MAM 지원 응용 프로그램에 대한 액세스 권한을 가져오기 전에 메시지가 표시될 때 암호를 설정하고 사용합니다. 암호는 하나 이상의 특수 문자 또는 대/소문자 알파벳을 포함한 숫자 PIN으로 정의됩니다. Intune의 이번 릴리스에서는 **iOS에서만** 이 기능을 활성화합니다. Intune은 숫자 PIN과 유사한 방식으로 암호를 지원합니다. 즉, 최소 길이를 설정하며 반복 문자 및 시퀀스를 허용합니다. 이 기능을 사용하려면 응용 프로그램(즉, WXP, Outlook, Managed Browser, Yammer)에 참여하여 나중에 대상 응용 프로그램에 적용할 암호 설정을 준비하기 위해 코드와 Intune APP SDK를 통합합니다.
+이제 IT 관리자는 Azure 관리 포털을 통해 요구 사항을 설정하여 응용 프로그램을 시작하는 경우 MAM(모바일 앱 관리)를 통해 숫자 PIN이 아닌 암호를 적용할 수 있습니다. 항목이 구성되면 사용자는 MAM 지원 응용 프로그램에 대한 액세스 권한을 가져오기 전에 메시지가 표시될 때 암호를 설정하고 사용합니다. 암호는 하나 이상의 특수 문자 또는 대/소문자 알파벳을 포함한 숫자 PIN으로 정의됩니다. Intune의 이번 릴리스에서는 **iOS에서만** 이 기능을 활성화합니다. Intune은 숫자 PIN과 유사한 방식으로 암호를 지원합니다. 즉, 최소 길이를 설정하며 반복 문자 및 시퀀스를 허용합니다. 이 기능을 사용하려면 응용 프로그램(즉, WXP, Outlook, Managed Browser, Yammer)에 참여하여 나중에 대상 응용 프로그램에 적용할 암호 설정을 준비하기 위해 코드와 Intune 앱 SDK를 통합해야 합니다.
 
 #### <a name="app-version-number-for-line-of-business-in-device-install-status-report----1233999---"></a>장치 설치 상태 보고서에서 기간 업무의 앱 버전 번호<!-- 1233999 -->
 이 릴리스에서는 장치 설치 상태 보고서에 iOS 및 Android용 기간 업무 앱의 앱 버전 번호가 표시됩니다. 이 정보를 사용하여 앱 문제를 해결하거나 오래된 앱 버전을 실행하는 장치를 찾을 수 있습니다.
@@ -115,6 +132,7 @@ dow Defender Exploit Guard는 응용 프로그램의 악용 가능성을 줄이�
 
 
 #### <a name="manage-powershell-scripts-in-intune-for-windows-10-devices----790537---"></a>Windows 10 장치의 Intune에서 PowerShell 스크립트 관리 <!-- 790537 -->
+
 Intune 관리 확장을 사용하면 Windows 10 장치에서 실행되도록 Intune에서 PowerShell 스크립트를 업로드할 수 있습니다. 이 확장은 Windows 10 MDM(모바일 장치 관리) 기능을 보완하며 사용자가 최신 관리로 더 손쉽게 이행할 수 있도록 합니다. 자세한 내용은 [Windows 10 장치의 Intune에서 PowerShell 스크립트 관리](intune-management-extension.md)를 참조하세요.
 
 #### <a name="new-device-restriction-settings-for-windows-10---------1308850---"></a>Windows 10의 새 장치 제한 설정<!-- 1308850 -->
@@ -169,28 +187,31 @@ Windows 10 장치에 Citrix VPN을 구성할 수 있습니다. Windows 10 이상
 프로필이 장치로 푸시되면 다음 단계는 프로필 구성에 따라 달라집니다.  자동으로 연결되도록 설정하면 다음에 네트워크가 필요할 때 자동으로 연결됩니다.  프로필이 수동 연결이면 사용자는 연결을 수동으로 활성화해야 합니다.  
 
 ### <a name="intune-apps"></a>Intune 앱
+
 #### <a name="access-to-managed-app-logs-for-ios----1469920---"></a>iOS의 관리되는 앱 로그에 액세스 <!-- 1469920 -->
 관리되는 브라우저를 설치한 최종 사용자는 Microsoft에서 게시한 모든 앱의 관리 상태를 볼 수 있고 관리된 iOS 앱 문제를 해결하도록 로그를 보낼 수 있습니다.
 
 iOS 장치의 Managed Browser에서 문제 해결 모드를 사용하도록 설정하는 방법을 알아보려면 [iOS의 Managed Browser를 사용하여 관리되는 앱 로그에 액세스하는 방법](app-configuration-managed-browser.md#how-to-access-to-managed-app-logs-using-the-managed-browser-on-ios)을 참조하세요.
 
+#### <a name="improvements-to-device-setup-workflow-in-the-company-portal-for-ios-in-version-290----1417174---"></a>버전 2.9.0에 대한 iOS 회사 포털의 향상된 장치 설정 워크플로 기능<!---1417174--->
+
+iOS용 회사 포털 앱에서 장치 설정 워크플로를 개선했습니다. 언어는 더욱 친숙하게 변경되었으며, 최대한 화면을 결합했습니다. 또한 전체 설정 텍스트에서 회사 이름을 사용하여 언어가 회사에 더욱 구체적으로 변경되었습니다. 이 업데이트된 워크플로는  [앱 UI의 새로운 기능 페이지](whats-new-app-ui.md)에서 확인할 수 있습니다.
 
 ### <a name="monitor-and-troubleshoot"></a>모니터링 및 문제 해결
+
 #### <a name="user-entity-contains-latest-user-data-in-data-warehouse-data-model----1544273---"></a>데이터 웨어하우스 데이터 모델의 마지막 사용자 데이터를 포함하는 사용자 엔터티<!-- 1544273 -->
 Intune 데이터 웨어하우스 데이터 모델의 첫 번째 버전에는 최신 과거 Intune 데이터만 포함되어 있습니다. 보고서 결정권자는 사용자의 현재 상태를 캡처할 수 없습니다. 이 업데이트에서 **사용자 엔터티**는 최신 사용자 데이터로 채워집니다.
 
 
-
-
-
-
 ## <a name="week-of-october-30-2017"></a>2017년 10월 30일이 있는 주
-### <a name="ios-and-android-line-of-business-app-version-number-is-visible----1380712---"></a>iOS 및 Android 기간 업무 앱 버전 번호가 표시됩니다.<!-- 1380712 -->
+
+### <a name="app-management"></a>앱 관리
+
+#### <a name="ios-and-android-line-of-business-app-version-number-is-visible----1380712---"></a>iOS 및 Android 기간 업무 앱 버전 번호가 표시됩니다.<!-- 1380712 -->
 
 Intune의 앱은 이제 iOS 및 Android 기간 업무 앱의 버전 번호를 표시합니다. 번호는 Azure Portal, 앱 목록 및 앱 개요 블레이드에 표시됩니다. 최종 사용자는 회사 포털 앱 및 웹 포털에서 앱 번호를 확인할 수 있습니다.
 
-#### <a name="full-version-number"></a>전체 버전 번호
-전체 버전 번호는 앱의 특정 릴리스를 식별합니다. 번호는 _버전_(_빌드_)으로 표시됩니다. 예: 2.2(2.2.17560800)
+__전체 버전 번호__ 전체 버전 번호는 앱의 특정 릴리스를 식별합니다. 번호는 _버전_(_빌드_)으로 표시됩니다. 예: 2.2(2.2.17560800)
 
 전체 버전 번호는 다음과 같은 두 구성 요소로 이루어져 있습니다.
 
@@ -202,20 +223,47 @@ Intune의 앱은 이제 iOS 및 Android 기간 업무 앱의 버전 번호를 �
 
 [Microsoft Intune 앱 SDK 시작](app-sdk-get-started.md#line-of-business-app-version-numbers)에서 버전 번호 및 기간 업무 앱 개발에 대한 자세한 정보를 알아 보세요.
 
-### <a name="device-and-app-management-integration----677972---"></a>장치 및 앱 관리 통합<!-- 677972 -->   
+#### <a name="device-and-app-management-integration----677972---"></a>장치 및 앱 관리 통합<!-- 677972 -->   
 이제 Azure Portal에서 Intune의 MDM(모바일 장치 관리) 및 MAM(모바일 응용 프로그램 관리)에 모두 액세스할 수 있습니다. Intune은 응용 프로그램 및 장치 관리와 관련된 IT 관리자 환경을 통합하기 시작했습니다. 이러한 변경 내용을 통해 장치 및 앱 관리 환경을 단순화할 수 있습니다.
 
 [Intune 지원팀 블로그](https://blogs.technet.microsoft.com/intunesupport/2017/09/19/support-tip-setting-up-communication-between-mam-managed-and-mdm-managed-apps/)에서 발표된 MAM 및 MDM 변경 내용에 대해 자세히 알아봅니다.
 
-### <a name="new-enrollment-alerts-for-apple-devices----1471790---"></a>Apple 장치를 위한 새 등록 경고 <!-- 1471790 -->
+#### <a name="new-enrollment-alerts-for-apple-devices----1471790---"></a>Apple 장치를 위한 새 등록 경고 <!-- 1471790 -->
 등록을 위한 개요 페이지에 Apple 장치 관리에 관한 IT 관리자용 유용한 경고가 표시됩니다. Apple MDM 푸시 인증서가 곧 만료되거나 이미 만료된 경우, 장치 등록 프로그램 토큰이 곧 만료되거나 이미 만료된 경우, 장치 등록 프로그램에 할당하지 않은 장치가 있는 경우 개요 페이지에 경고가 표시됩니다.
 
-
-### <a name="support-token-replacement-for-app-configuration-without-device-enrollment----1080364---"></a>장치를 등록하지 않는 앱 구성을 위한 토큰 대체 지원 <!-- 1080364 -->
+#### <a name="support-token-replacement-for-app-configuration-without-device-enrollment----1080364---"></a>장치를 등록하지 않는 앱 구성을 위한 토큰 대체 지원 <!-- 1080364 -->
 
 등록되지 않은 장치에서 앱에 대한 앱 구성에서 동적 값에 대한 토큰을 사용할 수 있습니다. 자세한 내용은 [장치 등록 없이 관리되는 앱용 앱 구성 정책 추가](app-configuration-policies-managed-app.md)를 참조하세요.
 
+### <a name="intune-apps"></a>Intune 앱
+
+#### <a name="updates-to-the-company-portal-app-for-windows-10---1299474--"></a>Windows 10용 회사 포털 앱에 대한 업데이트 <!--1299474-->
+설정과 의도된 사용자 작업이 모든 설정에서 더욱 일관되도록 Windows 10용 회사 포털 앱의 설정 페이지가 업데이트되었습니다. 또한 다른 Windows 앱의 레이아웃과 일치하도록 업데이트되었습니다. [앱 UI 페이지의 새로운 기능](whats-new-app-ui.md) 페이지에서 이전 및 이후 이미지를 찾을 수 있습니다.
+
+#### <a name="inform-end-users-what-device-information-can-be-seen-for-windows-10-devices---1337920--"></a>Windows 10 장치에 대해 표시되는 장치 정보를 최종 사용자에게 알리기 <!--1337920-->
+Windows 10용 회사 포털 앱에서 장치 세부 정보 화면에 **소유권 형식**을 추가했습니다. 그러면 이 페이지를 통해 Intune 최종 사용자 문서에서 직접 정책에 대한 자세한 내용을 찾아볼 수 있습니다. **정보** 화면에서도 이 정보를 찾을 수 있습니다.
+
+#### <a name="feedback-prompts-for-the-company-portal-app-for-android---1165249--"></a>Android용 회사 포털 앱의 피드백 프롬프트 <!--1165249-->
+Android용 회사 포털 앱이 이제 최종 사용자 피드백을 요청합니다. 이 피드백은 Microsoft에 직접 전송되고 최종 사용자에게 공개 Google Play 스토어에서 앱을 검토할 기회를 제공합니다. 피드백이 필요하지 않으면 사용자가 계속 앱을 사용할 수 있도록 쉽게 해제할 수 있습니다.
+
+#### <a name="update-to-what-device-details-an-organization-can-see---1616825--"></a>조직에서 볼 수 있는 장치 세부 정보에 대한 업데이트 <!--1616825-->
+Android용 회사 포털 앱에서는 지오펜싱을 사용하여 회사 리소스에 대한 액세스를 보호할 수 있습니다. IP 주소, 기본 게이트웨이 주소 및 DNS(Domain Name System)와 같은 네트워크 정보를 사용하여 보호된 회사 리소스에 대한 액세스가 허용할지 여부를 결정합니다.
+
+#### <a name="helping-your-users-help-themselves-with-the-company-portal-app-for-android----1573324-1573150-1558616-1564878---"></a>Android용 회사 포털 앱을 사용하는 사용자가 스스로 해결책을 찾도록 도움 <!---1573324, 1573150, 1558616, 1564878--->
+
+사용자의 이해를 돕고 가능한 경우 새로운 사용 사례에서 자체적으로 해결할 수 있도록 최종 사용자를 위한 지침이 Android용 회사 포털 앱에 추가되었습니다.
+- 최종 사용자는 추가가 허용된 최대 장치 수에 도달한 경우 장치를 제거하도록 (Azure Active Directory 포털)[https://account.activedirectory.windowsazure.com/r/#/profile]로 안내됩니다.
+- 최종 사용자에게는 [Samsung KNOX 장치에서 활성화 오류를 수정](https://go.microsoft.com/fwlink/?linkid=859718)하는 데 유용한 단계 또는 [절전 모드 끄기](/intune-user-help/power-saving-mode-android)에 대한 단계가 제공됩니다. 그러한 해결책이 문제를 해결하지 못하는 경우 [Microsoft에 로그를 제출](/intune-user-help/send-logs-to-microsoft-ios)하는 방법에 대한 설명이 제공됩니다.
+
+#### <a name="new-resolve-action-available-for-android-devices----1583480---"></a>Android 장치에서 사용할 수 있는 새로운 ‘해결’ 작업 <!---1583480--->
+
+Android용 회사 포털 앱은 _장치 설정 업데이트_ 페이지에서 ‘해결’ 작업을 소개하고 있습니다. 이 옵션을 선택하면 최종 사용자는 장치의 비호환 상태를 유발하는 설정으로 바로 이동할 수 있습니다. Android용 회사 포털 앱은 현재 이 작업을 [장치 암호](/intune-user-help/set-your-pin-or-password-android), [장치 암호화](/intune-user-help/encrypt-your-device-android), [USB 디버깅](/intune-user-help/you-need-to-turn-off-usb-debugging-android) 및 [알 수 없는 소스](/intune-user-help/you-need-to-turn-off-unknown-sources-android) 설정에 지원합니다.
+
+#### <a name="device-setup-progress-indicator-in-android-company-portal----1565657---"></a>Android 회사 포털의 장치 설정 진행률 표시기 <!---1565657--->
+Android용 회사 포털 앱은 사용자가 장치를 등록하는 동안 장치 설정 진행률 표시기를 표시합니다. 이 표시기에는 “장치 설정 중...”부터 “장치 등록 중...”, “장치 등록 완료 중...”, “장치 설정 완료 중...”까지 차례로 새로운 상태가 표시됩니다.
+
 ## <a name="week-of-october-23-2017"></a>2017년 10월 23일이 있는 주
+
 ### <a name="intune-apps"></a>Intune 앱
 #### <a name="certificate-based-authentication-support-on-the-company-portal-for-ios---1029830--"></a>iOS용 회사 포털에서 인증서 기반 인증 지원<!--1029830-->
 iOS용 회사 포털 앱에서 CBA(인증서 기반 인증)에 대한 지원을 추가했습니다. CBA를 사용하는 사용자는 사용자 이름을 입력한 후 "인증서를 사용하여 로그인" 링크를 누릅니다. CBA는 이미 Android 및 Windows용 회사 포털 앱에서 지원되고 있습니다. [회사 포털 앱에 로그인](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal) 페이지에서 자세히 알아볼 수 있습니다.
@@ -395,9 +443,9 @@ Intune은 iOS 11을 지원합니다. [Intune 지원 블로그](https://blogs.tec
 
 ## <a name="notices"></a>알림
 
-### <a name="deprecating-support-for-os-x-mavericks-1010-and-previous-versions-of-macos---1489263-plan-for-change-for-1802--"></a>OS X Mavericks 10.10 및 이전 버전의 macOS에 대한 지원 중단 <!--1489263, plan for change for 1802-->
+### <a name="deprecating-support-for-os-x-yosemite-1010-and-previous-versions-of-macos---1489263-plan-for-change-for-1802--"></a>OS X Yosemite 10.10 및 이전 버전의 macOS에 대한 지원 중단 <!--1489263, plan for change for 1802-->
 
-OS X Mavericks 10.10 및 이전 버전의 macOS를 사용한 장치 등록이 2018년 2월에 중단될 예정입니다. Intune은 OS X Yosemite 10.11 이상을 완벽하게 지원합니다.
+OS X Yosemite 10.10 및 이전 버전의 macOS를 사용한 장치 등록이 2018년 2월에 중단될 예정입니다. Intune은 OS X El Capitan 10.11 이상을 완벽하게 지원합니다.
 
 ### <a name="new-path-for-managed-devices-in-graph-api----1586728---"></a>Graph API에서 관리되는 장치의 새로운 경로<!-- 1586728 -->
 Graph API의 베타 버전에서 관리 장치에 액세스하는 데 사용되는 경로를 변경하고 있습니다. 
@@ -419,6 +467,9 @@ Intune 클래식 포털(Silverlight)에서 사용된 기존 MAM(모바일 응용
 
 
 ## <a name="whats-coming"></a>향후 예정 사항
+
+### <a name="manage-jamf-enrolled-macos-devices-with-intunes-device-compliance-engine----1592747---"></a>Intune의 장치 준수 엔진을 사용하여 Jamf에 등록된 macOS 장치 관리 <!---1592747--->
+2018년 초부터 Jamf는 macOS 장치 상태 정보를 Intune에 전송한 다음 이 정보로 Intune 콘솔에 정의된 정책의 준수 여부를 평가할 예정입니다. 장치 준수 상태 및 기타 조건(예: 위치, 사용자 위험 등)에 기반을 둔 조건부 액세스는 Office 365를 비롯하여 Azure AD와 연결된 클라우드 및 온-프레미스 응용 프로그램에 액세스하는 macOS 장치에 대한 준수를 적용합니다.
 
 ### <a name="changes-in-support-for-the-intune-ios-company-portal-app-----1164474----"></a>Intune iOS 회사 포털 앱에 대한 지원 변경 내용 <!-- 1164474  -->
 iOS 9.0 이상을 실행하는 장치만 지원하는 iOS용 Microsoft Intune 회사 포털 앱의 새로운 버전이 곧 제공될 예정입니다. iOS 8을 지원하는 회사 포털 버전도 매우 짧은 시간 동안 사용할 수 있습니다. 그러나 MAM 지원 iOS 앱을 사용하는 경우 iOS 9.0 이상이 지원되므로 최종 사용자가 최신 OS로 업데이트하도록 하는 것이 좋습니다. 

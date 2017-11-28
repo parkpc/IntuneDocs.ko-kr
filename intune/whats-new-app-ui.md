@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/06/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,24 +14,49 @@ ms.assetid: b782e382-8deb-48a7-a437-d7c5a17163f1
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: dff1cb496b85f933d8f462b94f6e15fa7ff69a28
-ms.sourcegitcommit: 5279a0bb8c5aef79aa57aa247ad95888ffe5a12b
+ms.openlocfilehash: 7ec7f322f0d35d50a7c84d8e40d43a6a04ae1b7d
+ms.sourcegitcommit: 0b96ae18524eb976df01a5340631ef331357e666
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/15/2017
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Intune 최종 사용자 앱 UI 업데이트
 최종 사용자가 이 Microsoft Intune 릴리스에서 보게 될 앱의 UI가 어떻게 업데이트되었는지 알아보세요. 그러면 사용자 커뮤니케이션 및 배포를 지원하기 위해 만든 사용자 지정 문서 업데이트에 도움이 될 것입니다. 사용자가 회사 포털을 사용하여 지원 센터에 전화해 지원을 요청하는 경우 사용자에게 발생하는 문제를 더 잘 해결하는 방법을 이해하는 데에도 도움이 될 수 있습니다.
 
+## <a name="week-of-november-13-2017"></a>2017년 11월 13일 주
+
+### <a name="improvements-to-device-setup-workflow-in-the-company-portal-for-ios-in-version-290----1417174---"></a>버전 2.9.0에 대한 iOS 회사 포털의 향상된 장치 설정 워크플로 기능<!---1417174--->
+
+iOS용 회사 포털 앱에서 장치 설정 워크플로를 개선했습니다. 언어는 더욱 친숙하게 변경되었으며, 최대한 화면을 결합했습니다. 또한 전체 설정 텍스트에서 회사 이름을 사용하여 언어가 회사에 더욱 구체적으로 변경되었습니다.
+
+> [!NOTE]
+> **Microsoft Intune** > **Mobile Apps** > **회사 포털 브랜딩** > **회사 이름**에는 Azure Portal에서 설정한 회사 이름이 사용됩니다. 이 값을 설정하지 않으면 **Azure Active Directory** > **속성** > **이름**에 설정된 테넌트 이름이 사용됩니다. 회사 포털 브랜딩에서 회사 이름을 설정하지 않았고 테넌트 이름을 표시하지 않으려면 [회사 포털 브랜딩] 탭에서 회사 이름을 설정하는 것이 좋습니다. 이 문자열을 회사 포털의 헤더에 표시하지 않으려면 “로고 옆에 회사 이름 표시” 확인란을 선택 취소하면 됩니다.
+
+|이전|이러한|
+|---|---|
+|![01](./media/ios_cp_enroll_01_before_1711.png)|![01](./media/ios_cp_enroll_01_after_1711.png)|
+|![02](./media/ios_cp_enroll_02_before_1711.png)|*이전 단계와 결합*|
+|![03](./media/ios_cp_enroll_03_before_1711.png)|![03](./media/ios_cp_enroll_03_after_1711.png)|
+|![04](./media/ios_cp_enroll_04_before_1711.png)|![04](./media/ios_cp_enroll_04_after_1711.png)|
+|![05](./media/ios_cp_enroll_05_before_1711.png)|![05](./media/ios_cp_enroll_05_after_1711.png)|
+|![06](./media/ios_cp_enroll_06_before_1711.png)|![06](./media/ios_cp_enroll_06_after_1711.png)|
+|![07](./media/ios_cp_enroll_07_before_1711.png)|![07](./media/ios_cp_enroll_07_after_1711.png)|
+
 
 ## <a name="week-of-november-6-2017"></a>2017년 11월 6일 주
+
+### <a name="updates-to-the-company-portal-app-for-windows-10---1299474--"></a>Windows 10용 회사 포털 앱에 대한 업데이트 <!--1299474-->
+설정과 의도된 사용자 작업이 모든 설정에서 더욱 일관되도록 Windows 10용 회사 포털 앱의 설정 페이지가 업데이트되었습니다. 또한 다른 Windows 앱의 레이아웃과 일치하도록 업데이트되었습니다.
+
+|이전|이러한|
+|---|---|
+|![01](./media/w10-share-logs.png)|![02](./media/w10-share-logs-after-1711.png)|
+
 
 ### <a name="search-improvements-to-the-company-portal-apps-and-website---1418189--"></a>회사 포털 앱 및 웹 사이트의 향상된 검색 기능<!--1418189-->
 이제 회사 포털 앱에서 앱 범주, 이름 및 설명 전체에 검색이 사용됩니다. 결과는 관련성이 낮은 순서로 정렬됩니다. 이 업데이트는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에도 제공됩니다.
 
 관련성을 추적하는 방법은 여전히 미세 조정 중이므로 회사 포털 웹 사이트의 맨 아래에서 "피드백" 링크를 사용하여 작동 방식에 대해 알려주세요.
-
-
 
 ## <a name="week-of-october-16-2017"></a>2017년 10월 16일의 주
 
@@ -45,10 +70,6 @@ ms.lasthandoff: 11/08/2017
 
 ### <a name="ios-company-portal-displays-large-icons----1454593---"></a>iOS 회사 포털의 큰 아이콘 표시 <!-- 1454593 -->
 이 릴리스에서는 iOS 회사 포털의 앱 타일에서 아이콘을 표시하는 방법과 관련된 알려진 문제를 해결했습니다. 120x120 픽셀 이상의 앱 아이콘을 업로드하면 이제 [회사 포털 웹 사이트](https://portal.manage.microsoft.com) 및 iOS 회사 포털의 앱 페이지가 앱 타일의 전체 크기로 표시됩니다.
-
-
-
-
 
 
 ## <a name="week-of-october-2-2017"></a>2017년 10월 2일이 있는 주

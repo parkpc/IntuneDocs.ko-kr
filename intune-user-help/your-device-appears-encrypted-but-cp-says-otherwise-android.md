@@ -1,11 +1,11 @@
 ---
-title: "Android 장치가 암호화된 것 같음"
+title: "Android 장치가 암호화된 것 같음 | Microsoft Docs"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/12/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: be68e330c2bd2800ea68fd83845b71e3b257e785
-ms.sourcegitcommit: 751587b1c6ed15877152d770772748e042c1e3ff
+ms.openlocfilehash: 04ce17615055d67f38e49158bec806de9f322bfd
+ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2017
+ms.lasthandoff: 11/14/2017
 ---
 # <a name="your-android-device-seems-to-be-encrypted-but-company-portal-says-otherwise"></a>Android 장치가 암호화된 것 같은데 회사 포털에 다르게 표시됨
 
@@ -69,5 +69,7 @@ ms.lasthandoff: 10/13/2017
 
 아래 장치에서는 이 문제를 해결할 수 없습니다. 회사 리소스에 액세스하려면 다른 장치를 사용해야 합니다. 
 
-- [Huawei Mate 8](http://consumer.huawei.com/en/mobile-phones/mate8/index.htm)
+- [Huawei Mate 8](https://consumer.huawei.com/en/mobile-phones/mate8/index.htm)
+- [OPPO 장치](http://www.oppo.com/en/smartphones)
+- [Vivo 장치](https://www.vivo.co.in)
 - [Xiaomi Mi 스마트폰](https://xiaomi-mi.com/mi-smartphones/)

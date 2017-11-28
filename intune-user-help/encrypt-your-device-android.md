@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 08/16/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,18 +16,18 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 3a2622c7c981e64b3e220424c6661a5ba9e30751
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 895a089a58845da609423ab7fd74fbf26e0b967f
+ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/14/2017
 ---
 # <a name="how-to-protect-your-android-device-using-encryption"></a>암호화를 사용하여 Android 장치를 보호하는 방법
 
 장치를 암호화하면 장치의 정보를 보호 코드의 계층에 래핑하여 권한이 없는 사용자가 해당 정보에 액세스하는 것을 방지합니다. 정보 보안을 보장하기 위한 단계로서, 조직에서는 회사 파일, 메일 또는 데이터에 액세스하기 전에 Android 장치를 암호화할 것을 요구합니다.
 
 > [!Note]
-> 회사 지원팀이 요구하는 경우 암호화하기 전에 PIN 또는 암호를 설정하라는 메시지가 표시될 수 있습니다.
+> Huawei에서 제조한 일부 제품과 Vivo 및 OPPO에서 제조한 제품을 포함하여 특정 Android 장치는 암호화할 수 없습니다. 자세한 내용은 [여기](your-device-appears-encrypted-but-cp-says-otherwise-android.md)를 참조하세요.
 
 휴대폰의 등록을 취소한 경우 휴대폰이 암호화된 상태로 유지됩니다.
 
@@ -37,9 +37,6 @@ ms.lasthandoff: 09/28/2017
     일부 휴대폰에서는 **저장소** > **저장소 암호화** 또는 **저장소** > **잠금 화면 및 보안** > **기타 보안 설정**을 선택하여 “암호화” 옵션을 찾아야 합니다.
 
 3.  화면의 지시를 따릅니다. 암호화가 진행되는 동안 장치가 여러 번 다시 시작될 수 있습니다.
-
-> [!Note]
-> 특정 Android 장치는 암호화할 수 없습니다. 자세한 내용은 [여기](your-device-appears-encrypted-but-cp-says-otherwise-android.md)를 참조하세요.
 
 ### <a name="what-to-do-if-you-have-issues"></a>문제가 있는 경우 수행할 작업
 **문제**: 장치를 이미 암호화한 경우에는 다음 중 하나가 발생합니다.

@@ -15,11 +15,11 @@ ms.assetid: 099101e8-4b22-40ac-ba19-82ba5c71944c
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 280de651037abcfa68e76f886adc07a749f7da7c
-ms.sourcegitcommit: 4b776d1a87c0707244f4ae0122de882e0eef6fa3
+ms.openlocfilehash: 0e64ca5481b86a63b51b9f0b664569e86f1bfbc9
+ms.sourcegitcommit: 9ccdac76e0b0716723452a6675b091f15a4d31f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/20/2017
 ---
 # <a name="how-to-add-ios-line-of-business-lob-apps-to-microsoft-intune"></a>Microsoft Intune에 iOS LOB(기간 업무) 앱을 추가하는 방법
 
@@ -73,7 +73,7 @@ ms.lasthandoff: 10/04/2017
 
 ## <a name="step-5---update-a-line-of-business-app"></a>5단계 - 기간 업무(line-of-business) 앱 업데이트
 
-[!INCLUDE[shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)]
+[!INCLUDE[shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)] 참고: Intune 서비스에서 새 IPA 파일을 장치에 성공적으로 배포하려면 IPA 패키지의 Info.plist 파일에 있는 CFBundleVersion 문자열을 증분해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
