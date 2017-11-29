@@ -15,11 +15,11 @@ ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8aad2b31b6545c451f27084c6deefaf416ee2710
-ms.sourcegitcommit: 13955af66e3402a0448e236451b97e90a2d29204
+ms.openlocfilehash: 1f3f9832a643628cf18aee6131b9c8a43843e94d
+ms.sourcegitcommit: 71e6e80b7370024624ce2e5fad1ca5b372975748
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Microsoft Intune의 새로운 기능
 
@@ -257,7 +257,7 @@ Android용 회사 포털 앱에서는 지오펜싱을 사용하여 회사 리소
 
 #### <a name="new-resolve-action-available-for-android-devices----1583480---"></a>Android 장치에서 사용할 수 있는 새로운 ‘해결’ 작업 <!---1583480--->
 
-Android용 회사 포털 앱은 _장치 설정 업데이트_ 페이지에서 ‘해결’ 작업을 소개하고 있습니다. 이 옵션을 선택하면 최종 사용자는 장치의 비호환 상태를 유발하는 설정으로 바로 이동할 수 있습니다. Android용 회사 포털 앱은 현재 이 작업을 [장치 암호](/intune-user-help/set-your-pin-or-password-android), [장치 암호화](/intune-user-help/encrypt-your-device-android), [USB 디버깅](/intune-user-help/you-need-to-turn-off-usb-debugging-android) 및 [알 수 없는 소스](/intune-user-help/you-need-to-turn-off-unknown-sources-android) 설정에 지원합니다.
+Android용 회사 포털 앱은 _장치 설정 업데이트_ 페이지에서 ‘해결’ 작업을 소개하고 있습니다. 이 옵션을 선택하면 최종 사용자는 장치의 비호환 상태를 유발하는 설정으로 바로 이동할 수 있습니다. Android용 회사 포털 앱은 현재 이 작업을 [장치 암호](/intune-user-help/set-your-pin-or-password-android), [USB 디버깅](/intune-user-help/you-need-to-turn-off-usb-debugging-android) [알 수 없는 소스](/intune-user-help/you-need-to-turn-off-unknown-sources-android) 설정에 대해 지원합니다.
 
 #### <a name="device-setup-progress-indicator-in-android-company-portal----1565657---"></a>Android 회사 포털의 장치 설정 진행률 표시기 <!---1565657--->
 Android용 회사 포털 앱은 사용자가 장치를 등록하는 동안 장치 설정 진행률 표시기를 표시합니다. 이 표시기에는 “장치 설정 중...”부터 “장치 등록 중...”, “장치 등록 완료 중...”, “장치 설정 완료 중...”까지 차례로 새로운 상태가 표시됩니다.

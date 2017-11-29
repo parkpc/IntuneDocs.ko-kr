@@ -6,7 +6,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/14/2017
+ms.date: 11/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: c87fd2bd-7f53-4f1b-b985-c34f2d85a7bc
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6184552ce901ffc062f0453f169ec992049ae69b
-ms.sourcegitcommit: 82088d297eef629e3da6011681ead442ae7e25f7
+ms.openlocfilehash: dd84812a7e7dcf83f01c8d4d2b613706f7700775
+ms.sourcegitcommit: b2a6678a0e9617f94ee8c65e7981211483b30ee7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="enforce-compliance-on-macs-managed-with-jamf-pro"></a>Jamf Pro로 관리되는 Mac에서 준수 적용
 
@@ -64,3 +64,8 @@ Azure Active Directory 및 Microsoft Intune의 조건부 액세스 정책을 사
 2. 트리거 및 실행 빈도를 포함하여 **조건부 액세스** 페이로드를 구성합니다. 우선 순위를 **뒤**로 설정합니다.
 3. **범위** 탭을 클릭하고 정책 범위를 모든 대상 장치로 지정합니다.
 4. **Self Service** 탭을 클릭하여 정책을 Jamf Self Service에서 사용 가능하게 설정합니다. **장치 준수** 범주에 정책을 포함합니다. **Save**을 클릭합니다.
+
+## <a name="next-steps"></a>다음 단계
+
+- [Azure Active Directory의 조건부 액세스](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)
+- [Azure Active Directory에서 조건부 액세스 시작](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)
