@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 56bc71124c5a2714746dffcce256f0e604e9f62c
-ms.sourcegitcommit: ca10ab40fe40e5c9f4b6f6f4950b551eecf4aa03
+ms.openlocfilehash: 6ccc420b3bf334f15d1036eb83d01a2d228fad19
+ms.sourcegitcommit: b2a6678a0e9617f94ee8c65e7981211483b30ee7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>iOS용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -95,6 +95,10 @@ Intune 앱 SDK를 사용하려면 다음 단계를 따르세요.
         > [!NOTE]
         > `PATH_TO_LIB`를 찾으려면 `libIntuneMAM.a` 파일을 선택하고 **파일** 메뉴에서 **정보 가져오기**를 선택합니다. **정보** 창의 **일반** 섹션에서 **위치** 정보(경로)를 복사하여 붙여넣습니다.
 
+    **빌드 단계** 내의 **번들 리소스 복사** 아래로 리소스 번들을 끌어 프로젝트에 `IntuneMAMResources.bundle` 리소스 번들을 추가합니다.
+
+    ![Intune 앱 SDK iOS - 번들 리소스 복사](./media/intune-app-sdk-ios-copy-bundle-resources.png)
+
 3. 프로젝트에 다음 iOS 프레임워크를 추가합니다.
     * MessageUI.framework
     * Security.framework
@@ -106,12 +110,7 @@ Intune 앱 SDK를 사용하려면 다음 단계를 따르세요.
     * LocalAuthentication.framework
     * AudioToolbox.framework
 
-
-4. **빌드 단계** 내의 **번들 리소스 복사** 아래로 리소스 번들을 끌어 프로젝트에 `IntuneMAMResources.bundle` 리소스 번들을 추가합니다.
-
-    ![Intune 앱 SDK iOS - 번들 리소스 복사](./media/intune-app-sdk-ios-copy-bundle-resources.png)
-
-5. 모바일 앱이 해당 Info.plist 파일에서 주 nib 또는 스토리보드를 정의하는 경우 **주 스토리보드** 또는 **주 Nib** 필드를 잘라냅니다. Info.plist에서 이러한 필드와 해당 값을 **IntuneMAMSettings**라는 새 사전에 다음과 같은 키 이름으로 추가합니다(해당하는 경우).
+4. 모바일 앱이 해당 Info.plist 파일에서 주 nib 또는 스토리보드를 정의하는 경우 **주 스토리보드** 또는 **주 Nib** 필드를 잘라냅니다. Info.plist에서 이러한 필드와 해당 값을 **IntuneMAMSettings**라는 새 사전에 다음과 같은 키 이름으로 추가합니다(해당하는 경우).
     * MainStoryboardFile
     * MainStoryboardFile~ipad
     * MainNibFile
@@ -121,7 +120,7 @@ Intune 앱 SDK를 사용하려면 다음 단계를 따르세요.
 
     문서 본문의 아무 곳이나 마우스 오른쪽 단추로 클릭하고 보기 형식을 **원시 키/값 표시**로 변경하여 Info.plist를 원시 형식으로 표시할 수 있습니다(키 이름을 확인하기 위해).
 
-6. 각 프로젝트 대상에서 **기능**을 클릭하고 **키 집합 공유** 스위치를 사용하도록 설정하여 키 집합 공유를 사용하도록 설정합니다(아직 설정되지 않은 경우). 다음 단계를 진행하려면 키 집합 공유가 필요합니다.
+5. 각 프로젝트 대상에서 **기능**을 클릭하고 **키 집합 공유** 스위치를 사용하도록 설정하여 키 집합 공유를 사용하도록 설정합니다(아직 설정되지 않은 경우). 다음 단계를 진행하려면 키 집합 공유가 필요합니다.
 
   > [!NOTE]
     > 프로비전 프로필이 새로운 키 집합 공유 값을 지원해야 합니다. 키 집합 액세스 그룹이 와일드카드 문자를 지원해야 합니다. 이를 확인하려면 텍스트 편집기에서 .mobileprovision 파일을 열고 **keychain-access-groups**를 검색한 다음 와일드카드가 있는지 확인합니다. 예를 들면 다음과 같습니다.
@@ -132,7 +131,7 @@ Intune 앱 SDK를 사용하려면 다음 단계를 따르세요.
     </array>
     ```
 
-7. 키 집합 공유를 사용하도록 설정한 후 다음 단계에 따라 Intune 앱 SDK에서 데이터를 저장할 별도의 액세스 그룹을 만듭니다. UI를 사용하거나 자격 파일을 사용하여 키 집합 액세스 그룹을 만들 수 있습니다. UI를 사용하여 키 집합 액세스 그룹을 만드는 경우 다음 단계를 수행해야 합니다.
+6. 키 집합 공유를 사용하도록 설정한 후 다음 단계에 따라 Intune 앱 SDK에서 데이터를 저장할 별도의 액세스 그룹을 만듭니다. UI를 사용하거나 자격 파일을 사용하여 키 집합 액세스 그룹을 만들 수 있습니다. UI를 사용하여 키 집합 액세스 그룹을 만드는 경우 다음 단계를 수행해야 합니다.
 
     1. 모바일 앱에 키 집합 액세스 그룹이 정의되어 있지 않으면 앱의 번들 ID를 첫 번째 그룹으로 추가합니다.
 
@@ -140,24 +139,23 @@ Intune 앱 SDK를 사용하려면 다음 단계를 따르세요.
 
     3. 기존 액세스 그룹에 `com.microsoft.adalcache`를 추가합니다.
 
-        4. 기존 액세스 그룹에 `com.microsoft.workplacejoin`를 추가합니다.
-            ![Intune 앱 SDK iOS - 키 집합 공유](./media/intune-app-sdk-ios-keychain-sharing.png)
+        ![Intune 앱 SDK iOS: 키 집합 공유](./media/intune-app-sdk-ios-keychain-sharing.png)
 
-    5. 자격 파일을 사용하여 키 집합 액세스 그룹을 만드는 경우 자격 파일에서 키 집합 액세스 그룹 앞에 `$(AppIdentifierPrefix)`를 추가합니다. 예를 들면 다음과 같습니다.
+    4. 위에 표시된 Xcode UI를 사용하지 않고 직접 자격 파일을 편집하여 키 집합 액세스 그룹을 만드는 경우 키 집합 액세스 그룹 앞에 `$(AppIdentifierPrefix)`를 추가합니다(Xcode는 이를 자동으로 처리함). 예를 들면 다음과 같습니다.
 
             * `$(AppIdentifierPrefix)com.microsoft.intune.mam`
             * `$(AppIdentifierPrefix)com.microsoft.adalcache`
 
     > [!NOTE]
-    > 자격 파일은 모바일 응용 프로그램에 고유한 XML 파일입니다. iOS 앱에서 특수한 권한 및 기능을 지정하는 데 사용됩니다.
+    > 자격 파일은 모바일 응용 프로그램에 고유한 XML 파일입니다. iOS 앱에서 특수한 권한 및 기능을 지정하는 데 사용됩니다. 이전에 앱에 자격 파일이 없었던 경우 키 집합 공유를 사용하도록 설정하면(6단계) Xcode에서 앱에 대한 자격 파일을 생성했을 것입니다.
 
-8. 앱이 해당 Info.plist 파일에서 URL 체계를 정의하는 경우 `-intunemam` 접미사를 사용하여 각 URL 체계에 대해 다른 체계를 추가합니다.
+7. 앱이 해당 Info.plist 파일에서 URL 체계를 정의하는 경우 `-intunemam` 접미사를 사용하여 각 URL 체계에 대해 다른 체계를 추가합니다.
 
-9. 각 항목의 “문서 콘텐츠 형식 UTI” 배열에 대해 앱이 해당 Info.plist 파일에 문서 형식을 정의하는 경우 “com.microsoft.intune.mam.” 접두사가 있는 각 문자열에 대해 중복 항목을 추가합니다.
+8. 각 항목의 “문서 콘텐츠 형식 UTI” 배열에 대해 앱이 해당 Info.plist 파일에 문서 형식을 정의하는 경우 “com.microsoft.intune.mam.” 접두사가 있는 각 문자열에 대해 중복 항목을 추가합니다.
 
-10. iOS 9 이상에서 개발되는 모바일 앱의 경우 앱이 `UIApplication canOpenURL`에 전달하는 각 프로토콜을 앱 Info.plist 파일의 `LSApplicationQueriesSchemes` 배열에 포함합니다. 또한 나열된 각 프로토콜에 대해 새 프로토콜을 추가하고 앞에 `-intunemam`을 추가합니다. 또한 `http-intunemam`, `https-intunemam`및 `ms-outlook-intunemam`을 배열에 포함해야 합니다.
+9. iOS 9 이상에서 개발되는 모바일 앱의 경우 앱이 `UIApplication canOpenURL`에 전달하는 각 프로토콜을 앱 Info.plist 파일의 `LSApplicationQueriesSchemes` 배열에 포함합니다. 또한 나열된 각 프로토콜에 대해 새 프로토콜을 추가하고 앞에 `-intunemam`을 추가합니다. 또한 `http-intunemam`, `https-intunemam`및 `ms-outlook-intunemam`을 배열에 포함해야 합니다.
 
-11. 앱의 자격에 앱 그룹이 정의되어 있으면 이러한 그룹을 `AppGroupIdentifiers` 키 아래의 **IntuneMAMSettings** 사전에 문자열 배열로 추가합니다.
+10. 앱의 자격에 앱 그룹이 정의되어 있으면 이러한 그룹을 `AppGroupIdentifiers` 키 아래의 **IntuneMAMSettings** 사전에 문자열 배열로 추가합니다.
 
 ## <a name="using-the-intune-mam-configurator-tool"></a>Intune MAM Configurator Tool 사용
 

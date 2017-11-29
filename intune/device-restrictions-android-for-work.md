@@ -15,11 +15,11 @@ ms.assetid: 1830720b-16cb-4f2f-a71a-62967f882563
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b2f91005394d1bb586dcc07f309c89a8a1f1da7a
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: a6f13e4c741a59eddc352a322d5da68a27a0ba45
+ms.sourcegitcommit: 71e6e80b7370024624ce2e5fad1ca5b372975748
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="android-for-work-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Android for Work 장치 제한 설정
 
@@ -78,6 +78,13 @@ ms.lasthandoff: 10/20/2017
 - **이전 암호 다시 사용 방지** - 이전 암호를 다시 사용하기 전에 사용해야 하는 새 암호의 수를 입력합니다(**1**-**24**).
 - **지문 잠금 해제** - 최종 사용자가 장치 지문 스캐너를 사용하여 잠금을 해제하지 못하게 합니다.
 - **Smart Lock 및 기타 신뢰 에이전트** - 호환되는 장치에서 Smart Lock 기능을 제어할 수 있습니다. 신뢰 에이전트라고도 하는 이 전화 기능을 통해 장치가 특정 Bluetooth 장치에 연결된 경우 또는 NFC 태그에 가까이 있는 경우와 같이 신뢰할 수 있는 위치에 있는 경우 장치 잠금 화면 암호를 사용하지 않도록 설정하거나 무시할 수 있습니다. 이 설정을 사용하면 사용자가 스마트 잠금 기능을 구성하는 것을 방지할 수 있습니다.
+
+## <a name="system-security"></a>시스템 보안
+
+ - **앱에서 위협 검색** - 회사 및 개인 프로필에 대해 **앱 확인** 설정이 켜지도록 적용합니다.
+
+   > [!Note]  
+   > 이 설정은 Android O 이상인 장치에 대해서만 작동합니다. 
 
 ## <a name="next-steps"></a>다음 단계
 
