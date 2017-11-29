@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/14/2017
+ms.date: 11/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ee4275ec7b9b455cf6ebf032123127fde97a9a74
-ms.sourcegitcommit: 0b96ae18524eb976df01a5340631ef331357e666
+ms.openlocfilehash: 790b935b71b641aec3093a9cdd7f7a98ba90babb
+ms.sourcegitcommit: 71e6e80b7370024624ce2e5fad1ca5b372975748
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="set-up-access-to-your-company-resources"></a>회사 리소스에 대한 액세스 설정
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 11/15/2017
 |![Azure AD 암호 프롬프트.](./media/ios-0b-cp-enroll-1711.png)|암호를 입력하고 **로그인**을 탭합니다.|
 |![회사 리소스 스플래시 로드 중 화면.](./media/ios-1-cp-enroll-1711.png)|로드될 때까지 기다립니다.|
 |![사용 약관.](./media/ios-2-cp-enroll-1711.png)|사용 약관을 읽고 **모두 동의**합니다.|
-|![회사 액세스 설정 화면. 관리 및 설정이 모두 해결되어야 함.](./media/ios-3-cp-enroll-1711.png)|**장치 관리**를 탭하여 장치에서 회사 리소스에 액세스할 수 있게 설정하는 프로세스를 시작합니다. 지금 이 작업을 할 수 없는 경우에는 프로세스를 **연기**할 수 있지만 메일, 문서 등을 가져올 수 없게 됩니다.|
+|![회사 액세스 설정 화면. 관리 및 설정이 모두 해결되어야 함.](./media/ios-3-cp-enroll-1711.png)|**시작**을 탭하여 장치에서 회사 리소스에 액세스할 수 있게 설정하는 프로세스를 시작합니다. 지금 이 작업을 할 수 없는 경우에는 프로세스를 **연기**할 수 있지만 메일, 문서 등을 가져올 수 없게 됩니다.|
 |![회사에서 볼 수 있는 정보 화면.](./media/ios-4-cp-enroll-1711.png)|아래쪽에서 링크를 탭하면 회사에서 볼 수 있는 정보에 대해 **자세히 알아볼 수 있습니다**. 그렇지 않은 경우에는 **계속**을 탭 합니다.|
 |![다음 단계 화면.](./media/ios-5-cp-enroll-1711.png)|이 화면에서는 설정 시 수행되는 작업을 살펴봅니다. Safari, 설정 앱 및 회사 포털 앱에서 이 프로세스를 완료하는 데는 시간이 걸립니다. **다음**을 탭합니다.|
 |![다음 단계에서 [다음]을 탭한 후 로딩 화면.](./media/ios-6-cp-enroll-1711.png)||
@@ -66,7 +66,7 @@ ms.lasthandoff: 11/15/2017
 |![회사 리소스 로드 중 화면.](./media/ios-18-cp-enroll-1711.png)|로드될 때까지 기다립니다.|
 |![회사 포털 앱에서 장치 범주를 선택합니다.](./media/ios-19-cp-enroll-1711.png)|장치에 가장 적합한 범주를 선택합니다. 이는 일반적으로 장치를 소유한 사람과 함께 또는 장치가 대부분 사용되는 위치에서 작업해야 합니다.|
 |![범주 선택됨.](./media/ios-20-cp-enroll-1711.png)||
-|![장치 관리 성공, 이제 설정을 업데이트해야 함.](./media/ios-21-cp-enroll-1711.png)|장치가 성공적으로 관리됩니다. 회사에서 업데이트 시 요구할 수 있는 암호 길이 등의 다른 설정이 있을 수 있습니다. **장치 설정 업데이트**를 탭하여 진행합니다.|
+|![장치 관리 성공, 이제 설정을 업데이트해야 함.](./media/ios-21-cp-enroll-1711.png)|장치가 성공적으로 관리됩니다. 회사에서 업데이트 시 요구할 수 있는 암호 길이 등의 다른 설정이 있을 수 있습니다. 계속하려면 **계속**을 탭합니다.|
 |![장치 설정 확인.](./media/ios-22-cp-enroll-1711.png)|회사 포털에서 설정을 업데이트해야 하는지 여부를 확인합니다.|
 |![설정 확인 완료됨, 잘못된 OS 버전 포함](./media/ios-23-cp-enroll-1711.png)|회사 포털에서 설정 문제를 해결하는 방법에 대한 지침을 제공합니다. 문제 해결을 완료하면 **설정 확인**을 탭합니다.|
 |![장치 설정 확인 로딩 화면](./media/ios-24-cp-enroll-1711.png)|장치에서 설정이 회사 리소스에 액세스할 만큼 안전한지 확인합니다.|
