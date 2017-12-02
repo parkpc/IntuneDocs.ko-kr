@@ -164,8 +164,6 @@
               href: windows-bulk-enroll.md
             - name: Windows AutoPilot 배포 프로그램
               href: enrollment-autopilot.md
-            - name: 등록 상태 화면
-              href: windows-enrollment-status.md
         - name: Android 등록 설정
           href: android-enroll.md
         - name: iOS 등록 설정
