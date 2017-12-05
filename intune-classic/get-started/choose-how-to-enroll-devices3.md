@@ -15,10 +15,10 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.custom: intune-classic EXPIERIMENT
 ms.openlocfilehash: 238e71d80c0195f586b420e5793b8ee1990a3240
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.sourcegitcommit: 70dc0aaad51b447e173b663d1092d993dc81ffdd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 12/04/2017
 ---
 # <a name="choose-how-to-enroll-mobile-devices"></a>모바일 장치를 등록하는 방법 선택
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 10/10/2017
 
 - **공유 회사 소유 장치** - 이러한 장치는 단일 사용자에게 발급되지 않으며 일반적으로 메일에 액세스하도록 구성되지 않습니다. 예로는 사용자가 필요에 따라 풀에서 꺼낸 다음 반환하는 키오스크 장치나 작업 지향 장치가 있습니다. 권장되는 등록 방법은 장치의 플랫폼에 따라 달라집니다.
 
-- **사용자** - 개별 사용자에게 발급되는 회사 소유 장치는 사용자가 개인 장치로 메일과 데이터에 액세스할 수 있도록 허용하는 동안 회사 자산으로 추적되어야 합니다. 권장되는 등록 방법은 장치의 플랫폼에 따라 달라집니다.
+-  **사용자** - 개별 사용자에게 발급되는 회사 소유 장치는 사용자가 개인 장치로 메일과 데이터에 액세스할 수 있도록 허용하는 동안 회사 자산으로 추적되어야 합니다. 권장되는 등록 방법은 장치의 플랫폼에 따라 달라집니다.
 
 > [!div class="button"]
 [< 뒤로](choose-how-to-enroll-devices1.md)
