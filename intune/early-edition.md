@@ -2,10 +2,10 @@
 title: "초기 버전"
 description: 
 keywords: 
-author: brenduns
-ms.author: brenduns
+author: ErikjeMS
+ms.author: erikje
 manager: angrobe
-ms.date: 11/20/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f4fd810529732d2b24b948eb0ae741d37e0fb59e
-ms.sourcegitcommit: d64b03bff0566f08d88ecb488dd48f19af74cab3
+ms.openlocfilehash: 1ea734e83cfab3fff22c775764ac9814012d52b6
+ms.sourcegitcommit: 70dc0aaad51b447e173b663d1092d993dc81ffdd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="the-early-edition-for-microsoft-intune---december-2017"></a>Microsoft Intune 초기 버전 - 2017년 12월
 
@@ -141,42 +141,14 @@ IT 관리자는 사용자가 받는 알림을 사용자 지정할 수도 있습�
 ### <a name="single-sign-on-support-for-ios----1333645---"></a>iOS을 위한 Single Sign-On 지원 <!-- 1333645 -->  
 iOS 사용자를 위한 Single Sign-On을 사용할 수 있습니다. Single Sign On 페이로드에서 사용자 자격 증명을 검색하도록 코딩되는 iOS 앱은 이 페이로드 구성 업데이트로 작동합니다. 또한 UPN 및 Intune 장치 ID를 사용하여 사용자 이름 및 영역을 구성할 수 있습니다.
 
-### <a name="ios-11-app-inventory-api-for-mobile-threat-detection----1391759---"></a>모바일 위협 요소 탐지를 위한 iOS 11 앱 인벤토리 API<!-- 1391759 -->
-Intune은 개인 및 회사 소유 장치 모두에서 앱 인벤토리 정보를 수집하며 Lookout for Work와 같은 페치할 MTD(모바일 스레드 검색) 공급자에서 사용할 수 있도록 합니다. iOS 11+ 장치의 사용자로부터 앱 인벤토리를 수집할 수 있게 됩니다.
-
-**앱 인벤토리**  
-회사 소유의 iOS 11+ 및 개인적으로 소유한 장치 모두의 인벤토리가 사용자의 MTD 서비스 공급자에게 전송됩니다. 앱 인벤토리의 데이터에는 다음이 포함됩니다.
-
- - 앱 ID
- - 앱 버전
- - 앱 짧은 버전
- - 앱 이름
- - 앱 번들 크기
- - 앱 동적 크기
- - 앱의 유효성 검사 여부
- - 앱의 관리 여부
-
-### <a name="audit-updates----1412961---"></a>감사 업데이트 <!-- 1412961 -->  
-Intune 감사는 Intune과 관련된 변경 작업에 대한 레코드를 제공합니다.  모든 만들기, 업데이트, 삭제 및 원격 작업 조작은 캡처되고 1년 동안 보존됩니다.  Azure Portal은 각 워크로드에서 최근 30일 동안의 감사 데이터에 대한 뷰를 제공하며 필터링할 수 있습니다.  해당 Graph API를 사용하면 마지막 연도에 저장된 감사 데이터를 검색할 수 있습니다. 
-
-감사는 **모니터** 그룹에서 찾을 수 있습니다. 각 워크로드에 **감사 로그** 메뉴 항목이 있습니다.   
-
 ### <a name="text-protocol-allowed-from-managed-apps----1414050----"></a>관리되는 앱에서 허용하는 텍스트 프로토콜 <!-- 1414050  -->
 Intune 앱 SDK에 의해 관리되는 앱은 SMS 메시지를 보낼 수 있습니다.
-
-### <a name="remotely-restart-ios-device-supervised-only----1424595---"></a>iOS 장치를 원격으로 다시 시작(감독 모드만 해당) <!-- 1424595 -->
-장치 동작을 사용하여 다시 시작하도록 감독되는 iOS 10.3+ 장치를 트리거할 수 있습니다. 장치 다시 시작 동작 사용에 대한 자세한 내용은 [Intune으로 장치를 원격으로 다시 시작](device-restart.md)을 참조하세요.
-
-> [!Note]  
-> 이 명령은 감독되는 장치 및 **장치 잠금** 액세스 권한에 필요합니다. 장치를 즉시 다시 시작합니다. 암호로 잠긴 iOS 장치는 다시 시작한 후 Wi-Fi 네트워크에 다시 가입되지 않습니다. 다시 시작한 후 서버와 통신하지 못할 수도 있습니다.
 
 ### <a name="remotely-lock-managed-macos-device-with-intune----1437691---"></a>Intune을 사용하여 관리되는 macOS 장치 원격 잠금 <!-- 1437691 -->
 손실된 macOS 장치를 잠그고 6자리 복구 PIN을 설정할 수 있습니다. 잠기면 **장치 개요** 블레이드에 다른 장치 작업이 전송될 때까지 PIN이 표시됩니다.
 
 자세한 내용은 [Intune을 사용하여 관리되는 장치 원격 잠금](device-remote-lock.md)을 참조하세요.
 
-### <a name="windows-defender-advanced-threat-protection-reporting-frequency-settings------1455974-----"></a>Windows Defender Advanced Threat Protection 보고 주기 설정 <!--- 1455974  --->
-WDATP(Windows Defender Advanced Threat Protection) 서비스를 사용하면 관리자가 관리되는 장치에 대한 보고 주기를 관리할 수 있습니다. 새 **원격 보고 빈도 가속화** 옵션을 사용하면 WDATP는 더 자주 데이터를 수집하고 위험을 평가합니다. 보고에 대한 기본값은 속도 및 성능을 최적화합니다. 보고 빈도를 늘리는 것은 위험 수준이 높은 장치에 유용할 수 있습니다. 이 설정은 **장치 구성**의 **Windows Defender ATP** 프로필에서 확인할 수 있습니다.
 
 ### <a name="assignment-conflict-resolution-has-changed-for-ios-store-apps----1480316---"></a>iOS 스토어 앱에서 할당 충돌 해결책이 변경됨 <!-- 1480316 -->
 최종 사용자는 iOS 스토어 앱의 가용성에 변경 사항이 있을 수 있습니다. 현재 **필수 및 사용 가능**과 **해당 없음**으로 충돌되는 두 그룹에 할당된 앱은 **필수 및 사용 가능**으로 확인됩니다. 변경되면 이러한 충돌이 발생하는 앱은 **해당 없음**으로 확인됩니다.
@@ -218,75 +190,17 @@ Intune은 Android 플랫폼과는 독립적으로 Android for Work 장치의 등
 
 이러한 변경 내용은 11월 업데이트와 함께 출시되지만, 계정에서 실행하기까지는 시간이 걸릴 수 있습니다. 이러한 변경 내용이 사용자 계정에 적용될 때 Office 365 포털에서 확인 알림이 사용자에게 표시됩니다.
 
-### <a name="support-for-multiple-network-device-enrollment-service-ndes-connectors----1528104---"></a>여러 NDES(네트워크 장치 등록 서비스) 커넥터에 대한 지원 <!-- 1528104 -->
-NDES를 사용하면 도메인 자격 증명 없이 실행되는 모바일 장치에서 SCEP(단순 인증서 등록 프로토콜)를 기반으로 인증서를 가져올 수 있습니다. 이 업데이트를 통해 여러 NDES 커넥터가 지원됩니다.
-
-### <a name="new-scep-profile-details-supported----1559808---"></a>지원되는 새 SCEP 프로필 세부 정보 <!-- 1559808 -->
-관리자는 Windows, iOS, macOS 및 Android 플랫폼에서 SCEP 프로필을 만들 때 추가 설정을 지정할 수 있습니다.  관리자는 IMEI, 일련 번호 또는 주체 이름 형식의 전자 메일을 포함한 일반 이름을 설정할 수 있습니다.
 
 ### <a name="configure-an-ios-app-pin----1586774---"></a>iOS 앱 PIN 구성 <!-- 1586774 -->
 곧 사용자는 대상 iOS 앱에 대한 PIN이 필요하게 됩니다. Azure Portal을 통해 며칠 내에 PIN 요구 사항 및 만료 날짜를 구성할 수 있습니다. 필요한 경우 사용자는 iOS 앱에 대한 액세스를 얻기 전에 새 PIN을 설정 및 사용해야 합니다. Intune 앱 SDK와 함께 앱 보호가 설정된 iOS 앱만 이 기능을 지원합니다.
 
-### <a name="retain-data-during-a-factory-reset-----1588489---"></a>출하 시 설정으로 리셋하는 동안 데이터 유지 <!-- 1588489 -->
-Windows 출하 시 설정으로 리셋에 대한 새로운 기능 지원을 추가하였습니다. 이제 관리자는 출하 시 설정으로 리셋하는 동안 장치에서 장치 등록 및 프로비전된 기타 데이터가 유지되는지 여부를 지정할 수 있습니다. 
- 
-다음 데이터는 출하 시 설정으로 리셋되는 동안 유지됩니다.
-- 장치와 연결된 사용자 계정
-- 컴퓨터 상태(도메인 가입, AADJ)
-- MDM 등록
-- OEM이 설치한 앱(저장소 및 Win32 앱)
-- 사용자 프로필
-- 사용자 프로필 외부의 사용자 데이터
-- 사용자 자동 로그온
- 
-다음 데이터는 보존되지 않습니다.
-- 사용자 파일
-- 사용자가 설치한 앱(저장소 및 Win32 앱)
-- 기본 설정 이외의 장치 설정 
-
-### <a name="app-install-status-report-now-a-bar-chart----1249446---"></a>이제 앱 설치 상태를 가로 막대형 차트로 보고 <!-- 1249446 -->  
-**모바일 앱** 워크로드의 **앱** 목록을 통해 각 앱에서 액세스할 수 있는 **앱 설치 상태** 보고서가 곧 가로 막대형 차트로 렌더링될 예정입니다.
-
 ### <a name="add-find-my-iphone-for-personal-devices---1427287--"></a>개인 장치를 위한 “내 iPhone 찾기” 추가 <!--1427287-->
 iOS 장치가 활성화 잠금이 설정되어 있는지 여부를 확인할 수 있게 됩니다. 이전에 이 기능은 클래식 포털의 Intune에서 찾을 수 있었습니다.
-
-### <a name="group-assigned-enrollment-restrictions----747598---"></a>그룹 할당 등록 제한 <!-- 747598 -->
-Intune 관리자는 사용자 그룹에 대한 사용자 지정 장치 유형 및 장치 제한 등록 제한을 만들 수 있게 됩니다.
- 
-Intune Azure Portal에서 각 제한 유형의 인스턴스를 25개까지 만들 수 있으며 나중에 사용자 그룹에 할당할 수 있습니다. 그룹 할당 제한은 기본 제한을 재정의합니다.
- 
-제한 유형의 모든 인스턴스는 엄격하게 정렬된 목록으로 유지됩니다. 이 순서는 충돌 해결을 위한 우선 순위 값을 정의합니다. 둘 이상의 제한 인스턴스의 영향을 받는 사용자는 우선 순위가 가장 높은 값의 인스턴스에 의해서만 제한됩니다. 지정된 인스턴스의 우선 순위를 목록에서 다른 위치로 끌어서 변경할 수 있습니다. 
- 
-이 기능은 Android for Work 설정이 Android for Work 등록 메뉴에서 등록 제한 메뉴로 마이그레이션되면서 릴리스될 예정입니다. 이 마이그레이션은 며칠이 걸릴 수 있으므로 계정이 11월 릴리스의 다른 일부로 업그레이드된 후에 등록 제한에서 그룹 할당을 사용할 수 있습니다.
-
-### <a name="windows-10-update-ring-assignments-are-displayed----1621837---"></a>Windows 10 업데이트 링 할당 표시됨 <!-- 1621837 -->
-확인 중인 사용자에 대해 **문제 해결** 중인 경우 모든 Windows 10 업데이트 링 할당을 확인할 수 있게 됩니다.  
-
-
 
 <!-- the following are present prior to 1711 -->
 
 ### <a name="azure-active-directory-web-sites-can-require-the-intune-managed-browser-app-and-support-single-sign-on-for-the-managed-browser-public-preview----710595---"></a>Azure Active Directory 웹 사이트에는 Intune Managed Browser 앱이 필요하고 Managed Browser(공개 미리 보기)에 Single Sign-On을 지원할 수 있습니다.<!-- 710595 -->   
 Azure AD(Azure Active Directory)를 사용하면 모바일 장치에서 웹 사이트에 대한 액세스를 Intune Managed Browser 앱으로 제한할 수 있습니다. Managed Browser에서 웹 사이트 데이터는 최종 사용자 개인 데이터와 별도로 안전하게 유지됩니다. 또한 Managed Browser는 Azure AD에서 보호하는 사이트에 Single Sign-On 기능을 지원합니다. Managed Browser에 로그인하거나 Intune에서 관리하는 다른 앱과 함께 장치에서 Managed Browser를 사용하면 사용자에게 자격 증명을 입력하지 않고도 Azure AD에서 보호되는 회사 사이트에 액세스할 수 있습니다. 이 기능은 OWA(Outlook Web Access) 및 SharePoint Online과 같은 사이트뿐만 아니라 Azure 앱 프록시를 통해 액세스되는 인트라넷 리소스와 같은 다른 회사 사이트에도 적용됩니다.
-
-### <a name="troubleshoot-enrollment-issues------746324----"></a>등록 문제 해결<!--- 746324 --->  
-문제 해결 작업 영역에서는 사용자 등록 문제를 표시합니다. 문제 및 제안된 수정 단계에 대한 세부 정보를 통해 관리자 및 도움말 지원 센터 운영자가 문제를 해결할 수 있습니다. 특정 등록 문제는 캡처되지 않고 일부 오류에는 수정 제안이 없을 수 있습니다.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- the following are present prior to 1710 -->

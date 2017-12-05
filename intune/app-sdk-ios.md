@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6ccc420b3bf334f15d1036eb83d01a2d228fad19
-ms.sourcegitcommit: b2a6678a0e9617f94ee8c65e7981211483b30ee7
+ms.openlocfilehash: 6d7b22c871ed1e62bfdc148f30fb832786baf294
+ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>iOS용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -172,9 +172,9 @@ Intune MAM Configurator Tool은 다음을 업데이트하는 데 사용할 수 �
 * 각 URL 구성표의 intunemam 접미사가 있는 Info.plist 파일의 앱에 정의된 URL 스키마.
 * 각 항목의 “문서 콘텐츠 형식 UTI” 배열에 대해 해당 Info.plist 파일에 앱의 정의된 문서 유형이 있는 경우 “com.microsoft.intune.mam.” 접두사가 있는 각 문자열에 대해 중복 항목을 추가합니다.
 * 앱의 자격에 앱 그룹이 정의되어 있으면 해당 그룹을 AppGroupIdentifiers 키 아래 IntuneMAMSettings 사전에 문자열 배열로 추가합니다.
-
     
->[!NOTE] 수동 info.plist 조작 대신 이 도구를 사용하는 경우, 앱의 info.plist 또는 권한 부여가 변경될 때마다 도구를 다시 실행하는 것이 좋습니다.
+> [!Note]
+> 수동 info.plist 조작 대신 이 도구를 사용하는 경우, 앱의 info.plist 또는 권한 부여가 변경될 때마다 도구를 다시 실행하는 것이 좋습니다.
 
 ## <a name="configure-azure-active-directory-authentication-library-adal"></a>Azure ADAL(Active Directory 인증 라이브러리) 구성
 
