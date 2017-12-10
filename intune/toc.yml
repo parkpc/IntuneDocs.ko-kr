@@ -284,6 +284,8 @@
               href: app-notification-settings-ios.md
             - name: iOS용 공유 장치
               href: shared-device-settings-ios.md
+            - name: iOS 장치 Single Sign-On용 Intune 구성
+              href: sso-ios.md
             - name: iOS용 웹 필터 설정
               href: web-content-filter-settings-ios.md
         - name: 장치 제한 구성
