@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 790b935b71b641aec3093a9cdd7f7a98ba90babb
-ms.sourcegitcommit: 71e6e80b7370024624ce2e5fad1ca5b372975748
+ms.openlocfilehash: 206de56ee967f4cd142e5cd7c9d63971b9b727c6
+ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="set-up-access-to-your-company-resources"></a>회사 리소스에 대한 액세스 설정
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/21/2017
 - 시작한 후 전체 프로세스가 완료되었는지 확인합니다. 몇 분 이상 일시 중지되면 일반적으로 진행이 중지되며 다시 시작해야 합니다.
 - 이 프로세스가 실패하면 회사 포털 앱으로 돌아가 다시 시도해야 합니다.
 - Wi-Fi가 작동 중이고 Safari가 장치에서 작동하는지 확인합니다.
-- [Intune 회사 포털 앱 설치 및 로그인](install-and-sign-in-to-the-intune-company-portal-app-ios.md)을 다운로드합니다.
+- [Intune 회사 포털 앱](install-and-sign-in-to-the-intune-company-portal-app-ios.md)을 다운로드고 설치합니다.
 
 
 ## <a name="using-the-company-portal-app-to-set-up-access-to-company-resources"></a>회사 포털 앱을 사용하여 회사 리소스에 대한 액세스 권한 설정

@@ -14,17 +14,19 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
-ms.openlocfilehash: f5678752830e2c4c9afbe75c9c6891d525eec34a
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: dfe6e552917a006175e394b8c569b1000a002015
+ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-the-troubleshooting-portal-to-help-users"></a>문제 해결 포털을 사용하여 사용자 지원
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 문제 해결 포털에서는 지원 센터 운영자 및 Intune 관리자가 사용자 정보를 보고 사용자 도움 요청을 해결할 수 있습니다. 지원 센터를 포함하는 조직은 **지원 센터 운영자**를 사용자 그룹에 할당할 수 있습니다. 지원 센터 운영자 역할은 **문제 해결** 블레이드를 사용할 수 있습니다.
+
+**문제 해결** 블레이드에도 사용자 등록 문제가 표시됩니다. 문제 및 제안된 수정 단계에 대한 세부 정보를 통해 관리자 및 도움말 지원 센터 운영자가 문제를 해결할 수 있습니다. 특정 등록 문제는 캡처되지 않고 일부 오류에는 수정 제안이 없을 수 있습니다. 
 
 지원 센터 운영자 역할을 추가하는 단계는 [Intune을 통한 RBAC(역할 기반 관리 제어)](/intune/role-based-access-control)를 참조하세요.
 
@@ -33,7 +35,7 @@ ms.lasthandoff: 10/20/2017
 - 사용자 상태
 - 할당
 - 규정 준수 문제
-- 장치가 응답하지 않음
+- 장치가 없음
 - 장치가 Wi-Fi 또는 VPN 설정을 가져오지 않음
 - 앱 설치 실패
 

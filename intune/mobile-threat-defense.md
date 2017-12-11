@@ -6,7 +6,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 10/03/2017
+ms.date: 11/28/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: ac77b590-a7ec-45a0-9516-ebf5243b6210
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f928b214642c5954561f2c56b30b71b36ecd57eb
-ms.sourcegitcommit: 012f262660fa9fb321ac3470f5dba165b8e5256a
+ms.openlocfilehash: 16402b30895e61d9a4ff8393fd4d4c6efa061e9e
+ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="mobile-threat-defense-integration-with-intune"></a>Intune에 Mobile Threat Defense 통합
 
@@ -38,7 +38,23 @@ Intune 모바일 위협 방어 커넥터를 사용하면 선택한 모바일 위
 
 예를 들어 연결된 Mobile Threat Defense 앱이 Mobile Threat Defense 공급업체에 네트워크의 휴대폰이 메시지 가로채기(man-in-the-middle) 공격에 취약한 네트워크에 현재 연결되어 있다고 보고하는 경우 이 정보는 공유되며 적절한 위험 수준(낮음/중간/높음)으로 분류됩니다. 그런 다음 Intune에서 구성된 허용 위험 수준과 비교하여 장치가 손상된 동안 선택한 특정 리소스에 대한 액세스를 해지할지 여부를 확인할 수 있습니다.
 
-## <a name="sample-scenarios"></a>샘플 시나리오:
+## <a name="what-data-does-intune-collect-for-mobile-threat-defense"></a>Intune은 Mobile Threat Defense를 위해 어떤 데이터를 수집하나요?
+
+Intune은 개인 및 회사 소유 장치 모두에서 앱 인벤토리 정보를 수집하여 Lookout for Work와 같은 MTD(Mobile Thread Defense) 공급자가 페치할 수 있도록 합니다. iOS 11+ 장치의 사용자로부터 앱 인벤토리를 수집할 수 있습니다.
+
+**앱 인벤토리**  
+회사 소유의 iOS 11+ 및 개인적으로 소유한 장치 모두의 인벤토리가 사용자의 MTD 서비스 공급자에게 전송됩니다. 앱 인벤토리의 데이터에는 다음이 포함됩니다.
+
+ - 앱 ID
+ - 앱 버전
+ - 앱 짧은 버전
+ - 앱 이름
+ - 앱 번들 크기
+ - 앱 동적 크기
+ - 앱의 유효성 검사 여부
+ - 앱의 관리 여부
+
+## <a name="sample-scenarios"></a>샘플 시나리오
 
 Mobile Threat Defense 솔루션에서 장치가 감염된 것으로 간주되는 경우
 

@@ -6,7 +6,7 @@ keywords:
 author: lleonard-msft
 ms.author: alleonar
 manager: angrobe
-ms.date: 06/03/2017
+ms.date: 11/28/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,17 @@ ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1f0d518edc26c382d6df71b95b84328eb375baf6
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: e9e511cef22fdfc8e2975bd14f7b969067317a44
+ms.sourcegitcommit: 2ad0d88d3ef5b81563c6a54eaf52f09e126abeaf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="how-to-configure-certificates-in-microsoft-intune"></a>Microsoft Intune에서 인증서를 구성하는 방법
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-VPN, Wi-Fi 또는 전자 메일 프로필을 통해 사용자에게 회사 리소스 액세스 권한을 부여하는 경우 인증서를 사용하여 연결을 인증할 수 있습니다. 이렇게 하면 연결 인증을 위해 사용자 이름 및 암호를 입력하지 않아도 됩니다.
+VPN, Wi-Fi 또는 전자 메일 프로필을 통해 사용자에게 회사 리소스 액세스 권한을 부여하는 경우 인증서를 사용하여 연결을 인증할 수 있습니다. 인증서를 사용하면 연결을 인증하기 위해 사용자 이름 및 암호를 입력할 필요가 없습니다.
 
 Intune을 사용하여 관리하는 장치에 이러한 인증서를 할당할 수 있습니다. Intune에서는 다음 인증서 유형 할당 및 관리를 지원합니다.
 
@@ -45,27 +45,30 @@ Intune을 사용하여 관리하는 장치에 이러한 인증서를 할당할 �
     - Windows 8.1 이상
     - Windows Phone 8.1 이상
     - Windows 10 이상
-3. 인증서 프로필을 만들어 VPN, Wi-Fi 및 메일 액세스 인증에 사용할 인증서를 장치가 요청할 수 있게 합니다. 다음 플랫폼을 실행하는 장치에 대해 **PKCS** 또는 **SCEP** 인증서 프로필을 만들고 할당할 수 있습니다.
-    - iOS 8.0 이상
-    - Android 4.0 이상
-    - Android for Work
-    - Windows 10(데스크톱 및 모바일) 이상
+3. 인증서 프로필을 만들어 VPN, Wi-Fi 및 메일 액세스 인증에 사용할 인증서를 장치가 요청할 수 있게 합니다.
 
-    다음 플랫폼에서는 SCEP 인증서 프로필만 사용할 수 있습니다.
+   다음 플랫폼을 실행하는 장치에 대해 **PKCS** 또는 **SCEP** 인증서 프로필을 만들고 할당할 수 있습니다.
 
--   macOS 10.9 이상
--   Windows Phone 8.1 이상
+   - iOS 8.0 이상
+   - Android 4.0 이상
+   - Android for Work
+   - Windows 10(데스크톱 및 모바일) 이상
+
+   다음 플랫폼을 실행하는 장치에 대해서만 **SCEP** 인증서 프로필을 사용할 수 있습니다.
+
+   - macOS 10.9 이상
+   - Windows Phone 8.1 이상
 
 각 장치 플랫폼에 대해 별도 프로필을 만들어야 합니다. 프로필을 만들 때 이미 만들어 놓은 신뢰할 수 있는 루트 인증서 프로필과 연결합니다.
 
 ### <a name="further-considerations"></a>추가 고려 사항
 
 - 엔터프라이즈 인증 기관이 없는 경우 새로 만들어야 합니다.
-- 장치 플랫폼에 따라 SCEP(Simplified Certificate Enrollment Protocol) 프로필을 사용하기로 결정한 경우 NDES(네트워크 장치 등록 서비스) 서버도 구성해야 합니다.
+- 또한 SCEP 프로필을 사용하는 경우 NDES(네트워크 장치 등록 서비스) 서버를 구성해야 합니다.
 - SCEP 프로필과 PKCS 프로필 중 무엇을 사용하려고 계획 중이든지 간에 Microsoft Intune 인증서 커넥터를 다운로드하고 구성해야 합니다.
 
 
-## <a name="step-1--configure-your-certificate-infrastructure"></a>1단계 - 인증서 인프라 구성
+## <a name="step-1-configure-your-certificate-infrastructure"></a>1단계: 인증서 인프라 구성
 
 인증서 프로필의 유형별로 인프라를 구성하는 데 도움이 되는 다음 항목을 중 하나를 참조하세요.
 
@@ -73,7 +76,7 @@ Intune을 사용하여 관리하는 장치에 이러한 인증서를 할당할 �
 - [Intune을 사용하여 PKCS 인증서 구성 및 관리](certficates-pfx-configure.md)
 
 
-## <a name="step-2---export-your-trusted-root-ca-certificate"></a>2단계 - 신뢰할 수 있는 루트 CA 인증서 내보내기
+## <a name="step-2-export-your-trusted-root-ca-certificate"></a>2단계: 신뢰할 수 있는 루트 CA 인증서 내보내기
 
 발급 CA(인증 기관) 또는 발급 CA를 신뢰하는 장치에서 신뢰할 수 있는 루트 CA 인증서를 **.cer** 파일로 내보냅니다. 개인 키는 내보내지 마세요.
 
@@ -111,7 +114,7 @@ SCEP 또는 PKCS 인증서 프로필을 만들기 전에 신뢰할 수 있는 �
 
 
 > [!Note]
-> Android 장치는 제3자가 신뢰할 수 있는 인증서를 설치했다는 알림을 표시합니다.
+> Android 장치에 타사가 신뢰할 수 있는 인증서를 설치했다는 알림이 표시됩니다.
 
 ## <a name="step-4-create-scep-or-pkcs-certificate-profiles"></a>4단계: SCEP 또는 PKCS 인증서 프로필 만들기
 

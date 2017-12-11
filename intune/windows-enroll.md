@@ -5,7 +5,7 @@ description: "Windows 장치에 Intune MDM(모바일 장치 관리)을 사용하
 keywords: 
 author: nathbarn
 manager: nathbarn
-ms.date: 11/08/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 02563b85a6bcac12c60537af4a998b09bca3b6ee
-ms.sourcegitcommit: af958afce3070a3044aafea490c8afc55301d9df
+ms.openlocfilehash: 0c4c245829a7819c9427a8ebe8ad9e166b58da97
+ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="enroll-windows-devices"></a>Windows 장치 등록
 
@@ -26,7 +26,7 @@ ms.lasthandoff: 11/09/2017
 
 이 항목은 IT 관리자가 사용자를 위해 Windows 등록을 간소화하는 데 도움이 됩니다. [Intune을 설정](setup-steps.md)한 후에는 사용자가 회사 또는 학교 계정으로 [로그인](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows)하여 Windows 장치를 등록합니다.  
 
-Intune 관리자의 경우 다음과 같은 방법으로 등록을 단순화할 수 있습니다.
+Intune 관리자는 다음과 같은 방식으로 등록을 간소화할 수 있습니다.
 - [자동 등록 사용](#enable-windows-10-automatic-enrollment)(Azure AD Premium 필요)
 - [CNAME 등록](#simplify-windows-enrollment-without-azure-ad-premium)
 - [대량 등록 사용](windows-bulk-enroll.md)(Azure AD Premium 및 Windows 구성 디자이너 필요)
@@ -78,6 +78,15 @@ DNS 레코드 변경 내용이 전파되는 데는 최대 72시간이 걸릴 수
 Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다. Intune 블레이드에서 **장치 등록** > **Windows Enrollment**(Windows 등록)를 선택합니다. **확인된 도메인 이름 지정** 상자에 회사 웹 사이트 URL을 입력하고 **자동 검색 테스트**를 선택합니다.
 
 ## <a name="tell-users-how-to-enroll-windows-devices"></a>사용자에게 Windows 장치를 등록하는 방법 안내
-사용자에게 Windows 장치를 등록하는 방법과 장치가 관리될 때 발생할 수 있는 상황에 대해 알려주어야 합니다. 최종 사용자 등록 지침은 [Intune에서 Windows 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows)을 참조하세요. 사용자에게 [IT 관리자가 장치에서 볼 수 있는 정보](https://docs.microsoft.com/intune-user-help/what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows)를 검토하도록 지시할 수도 있습니다.
+사용자에게 Windows 장치를 등록하는 방법과 장치가 관리될 때 발생할 수 있는 상황에 대해 알려주어야 합니다.
+
+> [!NOTE]
+> 최종 사용자는 특정 버전의 Windows용으로 할당된 Windows 앱을 보려면 Microsoft Edge를 통해 회사 포털 웹 사이트에 액세스해야 합니다. Google Chrome, Mozilla Firefox 및 Internet Explorer를 비롯한 다른 브라우저는 이런 유형의 필터링을 지원하지 않습니다.
+
+최종 사용자 등록 지침은 [Intune에서 Windows 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows)을 참조하세요. 사용자에게 [IT 관리자가 장치에서 볼 수 있는 정보](https://docs.microsoft.com/intune-user-help/what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows)를 검토하도록 지시할 수도 있습니다.
 
 최종 사용자 작업에 대한 자세한 내용은 [Microsoft Intune에서 최종 사용자 환경 관련 리소스](end-user-educate.md)를 참조하세요.
+
+## <a name="next-steps"></a>다음 단계
+
+- [Azure에서 Intune을 사용하여 Windows 장치를 관리할 때 고려 사항](/intune-classic/deploy-use/intune-on-azure.md)

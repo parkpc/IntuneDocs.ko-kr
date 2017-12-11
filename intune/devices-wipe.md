@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 41bfb62f90965288d73948650b6935434c986d92
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 4ee4e9b4abb99e280bf2529f9f60d295096426c0
+ms.sourcegitcommit: 4e0ed4087a1e596831fa215135824ca5d38e33f7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="remove-devices-by-using-factory-reset-or-remove-company-data"></a>공장 기본 설정으로 복원을 사용하여 장치를 제거하거나 회사 데이터 제거
 
@@ -39,7 +39,21 @@ Intune에서 더 이상 필요 없거나 용도를 다시 설정하거나 잃어
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **장치 및 그룹** 블레이드에서 **모든 장치**를 선택합니다.
 4. 공장 기본 설정을 복원하려는 장치의 이름을 선택합니다.
-5. 장치 이름이 표시된 블레이드에서 **초기화**를 선택한 다음 **예**를 선택하여 확인합니다.
+5. 장치 이름이 표시된 블레이드에서 **출하 시 설정으로 리셋**을 선택합니다.
+6. Windows 10 버전 1709 이상에는 "등록 상태 및 사용자 계정 보존" 옵션이 추가로 있습니다. 
+    
+    |출하 시 설정을 통해 보존됨|보존되지 않음|
+    | -------------|------------|
+    |장치와 연결된 사용자 계정|사용자 파일|
+    |컴퓨터 상태\(도메인 가입, Azure Active Directory 가입)| 사용자가 설치한 앱\(저장소 및 Win32 앱)|
+    |MDM 등록|기본 설정 이외의 장치 설정|
+    |OEM이 설치한 앱\(저장소 및 Win32 앱)||
+    |사용자 프로필||
+    |사용자 프로필 외부의 사용자 데이터||
+    |사용자 자동 로그온|| 
+    
+         
+7. **예**를 선택하여 출하 시 설정으로 초기화를 확인합니다.
 
 장치가 켜져 있고 연결되어 있는 경우 공장 기본 설정 복원 명령이 모든 장치 유형에서 전파되는 데 15분 미만이 걸립니다.
 

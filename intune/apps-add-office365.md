@@ -1,5 +1,5 @@
 ---
-title: "Intune을 사용하여 Windows 10 장치에 Office 365 ProPlus 앱 설치"
+title: "Intune을 사용하여 모바일 장치에 Office 365 앱 설치"
 titlesuffix: Azure portal
 description: "Intune을 사용하여 Office 365 앱을 Windows 10 장치에 더 간편하게 설치하는 방법을 알아봅니다."
 keywords: 
@@ -15,15 +15,15 @@ ms.assetid: 3292671a-5f5a-429e-90f7-b20019787d22
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f4e3ad7b68be723e0cab7b541b0ae7e3cc858c99
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 7f1958e4a0fb5aeba3225ee7ea5fae1e7fb39db3
+ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-assign-office-365-proplus-2016-apps-to-windows-10-devices-with-microsoft-intune"></a>Microsoft Intune을 사용하여 Office 365 ProPlus 2016 앱을 Windows 10 장치에 할당하는 방법
 
-이 앱 형식을 통해 관리하는 Windows 10 실행 장치에 Office 365 ProPlus 2016 앱을 쉽게 할당할 수 있습니다. Microsoft Project Online 데스크톱 클라이언트 및 Microsoft Visio Pro for Office 365에 대한 라이선스가 있는 경우 관련 앱을 설치할 수 있습니다. 원하는 앱이 Intune 콘솔의 앱 목록에 하나의 앱으로 표시됩니다.
+이 앱 형식을 통해 관리하는 Windows 10 실행 장치에 Office 365 ProPlus 2016 앱을 쉽게 할당할 수 있습니다. Microsoft Project Online 데스크톱 클라이언트 및 Microsoft Visio Pro for Office 365에 대한 라이선스가 있는 경우 관련 앱을 설치할 수 있습니다. 원하는 앱이 Intune 콘솔의 앱 목록에 단일 항목으로 표시됩니다.
 
 
 ## <a name="before-you-start"></a>시작하기 전에
@@ -137,7 +137,3 @@ ms.lasthandoff: 09/15/2017
 ## <a name="next-steps"></a>다음 단계
 
 이제 선택한 그룹에 앱을 할당할 수 있습니다. 도움말은 [그룹에 앱을 할당하는 방법](/intune-azure/manage-apps/deploy-apps)을 참조하세요.
-
-             
-
-

@@ -15,11 +15,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 059242b76ef1f14a5237c34e57ed626fc53f17be
-ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
+ms.openlocfilehash: 372e25968005258fd1e00cbab7db542ad0211206
+ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Microsoft Intune의 알려진 문제
 
@@ -34,6 +34,10 @@ ms.lasthandoff: 11/01/2017
 Intune의 새로운 기능을 요청하려면 [Uservoice](https://microsoftintune.uservoice.com/forums/291681-ideas/category/189016-azure-admin-console) 사이트에서 보고서를 제출하는 것이 좋습니다.
 
 ## <a name="migration"></a>마이그레이션
+
+### <a name="intune-legacy-pc-client-features-are-only-available-in-the-silverlight-console"></a>Intune 레거시 PC 클라이언트 기능은 Silverlight 콘솔에서만 사용 가능합니다.
+
+Azure Portal의 Intune에서 Windows 10을 관리하는 기능은 Windows MDM 등록을 통해 사용할 수 있습니다. 자세한 내용은 [Azure용 Intune 콘솔 및 레거시 Intune PC 클라이언트](https://docs.microsoft.com/intune-classic/deploy-use/intune-on-azure)을 참조하세요.
 
 ### <a name="groups-created-by-intune-during-migration-might-affect-functionality-of-other-microsoft-products"></a>마이그레이션 도중 Intune이 만든 그룹은 다른 Microsoft 제품의 기능에 영향을 줄 수 있습니다.
 
