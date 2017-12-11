@@ -89,8 +89,8 @@
           href: data-outside-protect.md
         - name: 관리되지 않는 장치에서 데이터 누수 방지
           href: data-leak-prevention.md
-        - name: BYOD
-          href: byod-enable.md
+        - name: MDM 및 MAM 비교
+          href: byod-technology-decisions.md
     - name: 마이그레이션 가이드
       href: migration-guide.md
       items:

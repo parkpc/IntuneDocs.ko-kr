@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 11/28/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,15 +16,19 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: a2c16483efe2779260275fdadc3182b578da8a2a
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 31eb47cbd17b52cc2d338ef5faf461173f7acb96
+ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="enroll-your-windows-device-in-intune"></a>Intune에서 Windows 장치 등록
 
 회사 또는 학교에서 Microsoft Intune을 사용하는 경우 Windows 장치를 등록하여 회사 전자 메일, 파일 및 기타 리소스에 액세스 권한을 얻을 수 있습니다. 장치를 등록하면 조직에서 회사 데이터 보안을 유지할 수 있습니다. 등록에 대해 자세히 알아보려면 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) 및 [회사 지원팀이 장치에서 확인할 수 있는 항목과 할 수 없는 항목](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)을 참조하세요.
+
+> [!NOTE]
+> Windows 앱을 보려면 Microsoft Edge를 통해 회사 포털 웹 사이트에 액세스해야 합니다. Google Chrome, Mozilla Firefox 및 Internet Explorer를 비롯한 다른 브라우저는 이런 유형의 필터링을 지원하지 않습니다.
+
 
 등록하려면 사용 중인 장치에 해당하는 링크를 사용합니다.
 

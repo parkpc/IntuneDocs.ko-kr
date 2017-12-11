@@ -5,7 +5,7 @@ keywords: SDK
 author: mattbriggs
 manager: angrobe
 ms.author: mabriggs
-ms.date: 09/01/2017
+ms.date: 11/28/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 27725d28ac621bae9500d0e6639a82d6f033e4dc
-ms.sourcegitcommit: 42a0e4c83e33c1a25506ca75d673e861e9206945
+ms.openlocfilehash: f6a7df413cb8107e8dabc6e1de6ddabd441eaeca
+ms.sourcegitcommit: fa0f0402dfd25ec56a0df08c23708c7e2ad41120
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Android용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -35,6 +35,7 @@ Intune 앱 SDK는 다음 파일로 구성됩니다.
 * **Microsoft.Intune.MAM.SDK.aar**: Support.V4 jar 및 Support.V7 JAR 파일을 제외한 SDK 구성 요소입니다. 빌드 시스템에서 AAR 파일을 지원하는 경우 이 파일을 개별 구성 요소 대신 사용할 수 있습니다.
 * **Microsoft.Intune.MAM.SDK.Support.v4.jar**: Android v4 지원 라이브러리를 사용하는 앱 내에서 MAM을 사용하도록 설정하는 데 필요한 인터페이스입니다. 이러한 지원이 필요한 앱은 이 JAR 파일을 직접 참조해야 합니다.
 * **Microsoft.Intune.MAM.SDK.Support.v7.jar**: Android v7 지원 라이브러리를 활용하는 앱 내에서 MAM을 사용하도록 설정하는 데 필요한 인터페이스입니다. 이러한 지원이 필요한 앱은 이 JAR 파일을 직접 참조해야 합니다.
+* **Microsoft.Intune.MDM.SDK.DownlevelStubs.jar**: 이 jar 파일에는 최신 장치에만 있지만 MAMActivity의 메서드에 의해 참조되는 Android 시스템 클래스용 스텁이 포함됩니다. 새로운 장치는 이 스텁 클래스를 무시합니다. 이 jar 파일은 앱이 MAMActivity에서 파생되는 클래스에 리플렉션을 수행하는 경우에만 필요하며 대부분의 앱에는 포함할 필요가 없습니다. 이 jar 파일을 사용하는 경우 모든 클래스를 ProGuard에서 제외시키는 데 주의해야 합니다. 모두 "android" 루트 패키지 안에 있습니다.
 * **proguard.txt**: ProGuard로 구축하는 경우 적용해야 하는 ProGuard 규칙을 포함합니다.
 * **CHANGELOG.txt**: 각 SDK 버전에서 변경된 내용의 레코드를 제공합니다.
 * **THIRDPARTYNOTICES.TXT**: 앱에 컴파일될 타사 및/또는 OSS 코드를 확인하는 특성 알림입니다.
@@ -47,8 +48,7 @@ Intune 앱 SDK는 다음 파일로 구성됩니다.
 
 ## <a name="requirements"></a>요구 사항
 
-Intune 앱 SDK는 컴파일된 Android 프로젝트이므로 대개 최소 또는 대상 API 버전에 대해 앱에서 사용되는 Android 버전의 영향을 받지 않습니다. 이 SDK는 Android API 19(Android 4.4+)부터 Android API 25(Android 7.1)까지 지원합니다.
-
+Intune 앱 SDK는 컴파일된 Android 프로젝트이므로 대개 최소 또는 대상 API 버전에 대해 앱에서 사용되는 Android 버전의 영향을 받지 않습니다. 이 SDK는 Android API 19(Android 4.4+)부터 Android API 26(Android 8.0)까지 지원합니다.
 
 
 ### <a name="company-portal-app"></a>회사 포털 앱
@@ -88,7 +88,7 @@ Intune 앱 SDK가 작동하려면 앱 보호 정책을 사용하도록 Intune �
 
 ## <a name="replace-classes-methods-and-activities-with-their-mam-equivalent"></a>클래스, 메서드, 작업 등을 동등한 MAM 항목으로 바꾸기
 
-Android 기본 클래스를 동등한 개별 MAM 클래스로 바꿔야 합니다. 이렇게 하려면 아래 표에 나와 있는 클래스의 모든 인스턴스를 찾아서 동등한 Intune 앱 SDK 클래스로 바꾸세요.
+Android 기본 클래스를 동등한 개별 MAM 클래스로 바꿔야 합니다. 이렇게 하려면 아래 표에 나와 있는 클래스의 모든 인스턴스를 찾아서 동등한 Intune 앱 SDK 클래스로 바꾸세요. 이들 대부분은 앱 클래스가 상속하는 클래스이지만 일부(예: MediaPlayer)는 전달하지 않고 앱이 사용하는 클래스입니다.
 
 | Android 기본 클래스 | Intune 앱 SDK 대체 항목 |
 |--|--|
@@ -103,7 +103,7 @@ Android 기본 클래스를 동등한 개별 MAM 클래스로 바꿔야 합니�
 | android.app.LauncherActivity | MAMLauncherActivity |
 | android.app.ListActivity | MAMListActivity |
 | android.app.NativeActivity | MAMNativeActivity |
-| android.app.PendingIntent | MAMPendingIntent(아래 참고 참조) |
+| android.app.PendingIntent | MAMPendingIntent([Pending Intent](#pendingintent) 참조) |
 | android.app.Service | MAMService |
 | android.app.TabActivity | MAMTabActivity |
 | android.app.TaskStackBuilder | MAMTaskStackBuilder |
@@ -114,9 +114,13 @@ Android 기본 클래스를 동등한 개별 MAM 클래스로 바꿔야 합니�
 | android.content.BroadcastReceiver | MAMBroadcastReceiver |
 | android.content.ContentProvider | MAMContentProvider |
 | android.os.Binder | MAMBinder(Binder가 AIDL(Android Interface Definition Language) 인터페이스에서 생성되지 않은 경우에만 필요함) |
+| android.media.MediaPlayer | MAMMediaPlayer |
+| android.media.MediaMetadataRetriever | MAMMediaMetadataRetriever |
 | android.provider.DocumentsProvider | MAMDocumentsProvider |
 | android.preference.PreferenceActivity | MAMPreferenceActivity |
 
+> [!NOTE]
+> 응용 프로그램에 자체 파생된 `Application` 클래스가 필요하지 않은 경우에도 [아래 `MAMApplication`을 참조하십시오.](#mamapplication)
 
 ### <a name="microsoftintunemamsdksupportv4jar"></a>Microsoft.Intune.MAM.SDK.Support.v4.jar:
 
@@ -125,6 +129,7 @@ Android 기본 클래스를 동등한 개별 MAM 클래스로 바꿔야 합니�
 | android.support.v4.app.DialogFragment | MAMDialogFragment
 | android.support.v4.app.FragmentActivity | MAMFragmentActivity
 | android.support.v4.app.Fragment | MAMFragment
+| android.support.v4.app.JobIntentService | MAMJobIntentService
 | android.support.v4.app.TaskStackBuilder | MAMTaskStackBuilder
 | android.support.v4.content.FileProvider | MAMFileProvider
 
@@ -132,14 +137,15 @@ Android 기본 클래스를 동등한 개별 MAM 클래스로 바꿔야 합니�
 
 |Android 클래스 | Intune 앱 SDK 대체 항목 |
 |--|--|
-|android.support.v7.app.ActionBarActivity | MAMActionBarActivity |
-
+|android.support.v7.app.AppCompatActivity | MAMAppCompatActivity |
 
 ### <a name="renamed-methods"></a>이름이 바뀐 메서드
 
 
 대부분의 경우, Android 클래스에서 사용할 수 있는 메서드가 MAM 대체 클래스에서 최종본으로 표시되어 있습니다. 이 경우 MAM 대체 클래스는 대신 재정의할 유사한 이름의 메서드(일반적으로 접미사 `MAM`이 붙음)를 제공합니다. 예를 들어 `onCreate()`를 재정의하고 `super.onCreate()`를 호출하는 대신 `MAMActivity`에서 파생하는 경우 `Activity`는 `onMAMCreate()`를 재정의하고 `super.onMAMCreate()`를 호출해야 합니다. Java 컴파일러는 동등한 MAM 메서드 대신 원래 메서드가 실수로 재정의되는 것을 방지하기 위해 최종 제한을 적용해야 합니다.
 
+### <a name="mamapplication"></a>MAMApplication
+MAM SDK 내의 제약 조건으로 인해 `com.microsoft.intune.mam.client.app.MAMApplication`의 서브클래스를 **반드시** 만들어야 하며 이것을 매니페스트에 사용되는 `Application` 클래스의 이름으로 설정해야 합니다. `MAMApplication`은 추상이며 `byte[] getADALSecretKey`에 대한 재정의가 필요합니다. 구현하는 방법에 대한 자세한 내용은 해당 함수의 Javadoc을 참조하십시오.
 ### <a name="pendingintent"></a>PendingIntent
 `PendingIntent.get*` 대신 `MAMPendingIntent.get*` 메서드를 사용해야 합니다. 그런 다음 결과로 생성된 `PendingIntent`를 일반적인 방식으로 사용할 수 있습니다.
 
@@ -256,6 +262,15 @@ boolean getIsManagedBrowserRequired();
 boolean getIsContactSyncAllowed();
 
 /**
+ * This method is intended for diagnostic/telemetry purposes only. It can be used to discover whether
+ * file encryption is in use. File encryption is transparent to the app, and the app should not need
+ * to make any business logic decisions based on this.
+ * 
+ * @return True if file encryption is in use.
+ */
+boolean diagnosticIsFileEncryptionInUse();
+
+/**
  * Return the policy in string format to the app.
  *  
  * @return The string representing the policy.
@@ -274,7 +289,8 @@ String toString();
 앱에 고유 PIN 사용자 환경이 있는 경우 IT 관리자가 앱 PIN을 묻도록 SDK를 구성했으면 이를 사용하지 않게 설정할 수 있습니다. IT 관리자가 이 앱에 앱 PIN 정책을 배포했는지 확인하려면 현재 최종 사용자에 대해 다음 메소드를 호출하세요.
 
 ```java
-MAMComponents.get(AppPolicy.class).getIsPinRequired();
+
+MAMPolicyManager.getPolicy(currentActivity).getIsPinRequired();
 ```
 
 ### <a name="example-determine-the-primary-intune-user"></a>예: 기본 Intune 사용자 확인
@@ -312,9 +328,9 @@ public interface MAMUserInfo {
 정책이 적용되는지 여부를 확인하기 위해 다음을 호출합니다.
 
 ```java
-MAMComponents.get(AppPolicy.class).getIsSaveToLocationAllowed(
+MAMPolicyManager.getPolicy(currentActivity).getIsSaveToLocationAllowed(
 SaveLocation service, String username);
-```
+``````
 
 ... 여기서 `service`는 다음 SaveLocations 중 하나입니다.
 
@@ -344,13 +360,13 @@ Intune 앱 SDK를 사용하면 IT 관리자가 배포하는 선택적 초기화�
 ```java
 @Override
 public void onCreate() {
-    super.onCreate();
-    MAMComponents.get(MAMNotificationReceiverRegistry.class)
-        .registerReceiver(
-            new ToastNotificationReceiver(),
-            MAMNotificationType.WIPE_USER_DATA);
-    }
-```
+  super.onCreate();
+  MAMComponents.get(MAMNotificationReceiverRegistry.class)
+    .registerReceiver(
+      new ToastNotificationReceiver(),
+      MAMNotificationType.WIPE_USER_DATA);
+  }
+``````
 
 ### <a name="mamnotificationreceiver"></a>MAMNotificationReceiver
 
@@ -456,9 +472,8 @@ SDK가 작동하려면 [인증](https://azure.microsoft.com/documentation/articl
     |--|--|
     | Authority | AAD 계정이 구성된 원하는 환경 |
     | ClientID | 앱의 ClientID(앱을 등록할 때 Azure AD에서 생성함) |
-    | NonBrokerRedirectURI | 앱의 유효한 리디렉션 URI 또는 `urn:ietf:wg:oauth:2.0:oob` 
-    . <br><br> 앱의 ClientID에 허용 가능한 리디렉션 URI로 값을 구성합니다.
-   | SkipBroker | False |
+    | NonBrokerRedirectURI | 기본적으로 앱의 유효한 리디렉션 URI 또는 `urn:ietf:wg:oauth:2.0:oob`. <br><br> 앱의 ClientID에 허용 가능한 리디렉션 URI로 값을 구성합니다.
+    | SkipBroker | False |
 
 
 3. **앱이 ADAL을 통합하지만 조정된 인증/장치 수준 SSO를 지원하지 않음:**
@@ -797,16 +812,15 @@ ID는 단순히 문자열로 정의됩니다. ID는 **대/소문자를 구분하
 
   public static String getCurrentThreadIdentity();
 
-  /**
-   * Get the currently applicable app policy. Same as
-   * MAMComponents.get(AppPolicy.class). This method does
-   * not take the context identity into account.
+/**
+   * Get the current app policy. This does NOT take the UI (Context) identity into account.
+   * If the current operation has any context (e.g. an Activity) associated with it, use the overload below.
    */
   public static AppPolicy getPolicy();
 
   /**
-  * Get the current app policy. This does NOT take the UI (Context) identity into account.
-   * If the current operation has any context (e.g. an Activity) associated with it, use the overload below.
+  * Get the current app policy. This DOES take the UI (Context) identity into account.
+   * If the current operation has any context (e.g. an Activity) associated with it, use this function.
    */
   public static AppPolicy getPolicy(final Context context);
 
@@ -929,7 +943,33 @@ ID를 설정하는 데 사용된 모든 메서드는 `MAMIdentitySwitchResult`�
 
   요청된 ID가 관리되지만(`MAMPolicyManager.getIsIdentityManaged`를 사용하여 확인) 앱이 해당 계정을 사용할 수 없다면(예: 앱에서 메일 계정 등의 계정을 첫 번째로 설정해야 하기 때문에) ID 전환이 거부됩니다.
 
+### <a name="preserving-identity-in-async-operations"></a>비동기 작업에서 ID 유지
+UI 스레드의 작업에서 백그라운드 작업을 다른 스레드에 발송하는 것은 일반적입니다. 다중 ID 앱은 이러한 백그라운드 작업이 적절한 ID로 작동하는지 확인하려고 합니다. 적절한 ID는 ID를 발송한 작업에 사용되는 ID와 동일한 경우가 많습니다. MAM SDK는 ID 보존에 도움이 되도록 편의를 위해 `MAMAsyncTask`와 `MAMIdentityExecutors`를 제공합니다.
+#### <a name="mamasynctask"></a>MAMAsyncTask
 
+`MAMAsyncTask`를 사용하려면 AsyncTask 대신 해당 함수를 상속 받고 `doInBackground` 및 `onPreExecute`의 재정의를 각각 `doInBackgroundMAM` 및 `onPreExecuteMAM`으로 바꿉니다. `MAMAsyncTask` 생성자는 작업 컨텍스트를 사용합니다. 예를 들면 다음과 같습니다.
+
+```java
+  AsyncTask<Object, Object, Object> task = new MAMAsyncTask<Object, Object, Object>(thisActivity) {
+
+    @Override
+    protected Object doInBackgroundMAM(final Object[] params) {
+        // Do operations.
+    }
+    
+    @Override
+    protected void onPreExecuteMAM() {
+        // Do setup.
+    };
+```
+
+### <a name="mamidentityexecutors"></a>MAMIdentityExecutors
+`MAMIdentityExecutors`를 사용하면 `wrapExecutor` 및 `wrapExecutorService` 메서드를 통해 기존의 `Executor` 또는 `ExecutorService` 인스턴스를 ID를 유지하는 `Executor`/`ExecutorService`로 래핑할 수 있습니다. 예를 들어 를 입력합니다.
+
+```java
+  Executor wrappedExecutor = MAMIdentityExecutors.wrapExecutor(originalExecutor, activity);
+  ExecutorService wrappedService = MAMIdentityExecutors.wrapExecutorService(originalExecutorService, activity);
+```
 
   ### <a name="file-protection"></a>파일 보호
 
@@ -1122,7 +1162,7 @@ public final class MAMDataProtectionManager {
 
 ### <a name="content-providers"></a>콘텐츠 공급자
 
-앱에서 **ContentProvider**를 통해 **ParcelFileDescriptor** 이외의 회사 데이터를 제공하는 경우 앱에서 `MAMContentProvider`의 `isProvideContentAllowed(String)` 메서드를 호출하여 콘텐츠에 대한 소유자 ID의 UPN(사용자 계정 이름)을 전달해야 합니다. 이 함수가 false를 반환하면 콘텐츠가 호출자에게 반환*될 수 없습니다*. 콘텐츠 공급자를 통해 반환된 파일 설명자는 파일 ID에 따라 자동으로 처리됩니다.
+앱에서 **ContentProvider**를 통해 **ParcelFileDescriptor** 이외의 회사 데이터를 제공하는 경우 앱에서 `MAMContentProvider`의 `isProvideContentAllowed(String)` 메서드를 호출하여 콘텐츠에 대한 소유자 ID의 UPN(사용자 계정 이름)을 전달해야 합니다. 이 함수가 false를 반환하면 콘텐츠가 호출자에게 반환*하지 말아야* 합니다. 콘텐츠 공급자를 통해 반환된 파일 설명자는 파일 ID에 따라 자동으로 처리됩니다.
 
 ### <a name="selective-wipe"></a>선택적 초기화
 
@@ -1342,6 +1382,8 @@ Intune MAM 보기에 스타일 변경을 적용하려면 먼저 스타일 재정
 
  Intune 앱 SDK에 포함된 AndroidManifest.xml 파일에는 **MAMNotificationReceiverService**가 들어 있습니다. 내보낸 서비스가 이 서비스여야 회사 포털에서 지원 앱에 알림을 보낼 수 있습니다. 이 서비스는 호출자를 검사하여 회사 포털만 알림을 보낼 수 있는지 확인합니다.
 
+### <a name="reflection-limitations"></a>리플렉션 제한 사항
+일부 MAM 기본 클래스(예: MAMActivity, MAMDocumentsProvider)는 특정 API 수준 위에만 존재하는 반환 형식 또는 매개 변수를 사용하는 메서드(원래 Android 기본 클래스를 기반으로)를 포함합니다. 이런 이유 때문에 리플렉션을 사용하여 앱 구성 요소의 모든 메서드를 열거하는 것이 항상 가능하지는 않습니다. 이 제한 사항은 MAM에 국한되지 않으며 앱 자체가 Android 기본 클래스에서 이러한 메서드를 구현하는 경우 적용되는 것과 동일한 제한 사항입니다.
 ## <a name="expectations-of-the-sdk-consumer"></a>SDK 소비자의 기대
 
 Intune SDK는 Android API에서 제공되는 계약을 유지하지만, 정책 적용의 결과로 오류 상태가 더 빈번하게 트리거될 수 있습니다. 다음 Android 모범 사례는 오류 가능성을 줄입니다.

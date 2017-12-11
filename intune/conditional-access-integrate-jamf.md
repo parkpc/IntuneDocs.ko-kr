@@ -6,7 +6,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/14/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 4b6dcbcc-4661-4463-9a36-698d673502c6
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6b37ffd23f8cf8764ba457b0803dfc308cf1c071
-ms.sourcegitcommit: 82088d297eef629e3da6011681ead442ae7e25f7
+ms.openlocfilehash: 87ddb1a5f6ca5cc9be2815aacc9c1570a51e792f
+ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="integrate-jamf-pro-with-intune-for-compliance"></a>준수를 위해 Intune과 Jamf Pro 통합
 
@@ -54,18 +54,18 @@ Jamf Pro를 사용하여 조건부 액세스를 구성하려면 다음이 필요
 
 ## <a name="create-a-new-application-in-azure-active-directory"></a>Azure Active Directory에서 새 응용 프로그램 만들기
 
-1. **Azure Active Directory** >  **앱 등록**을 엽니다.
+1. **Azure Active Directory** > **앱 등록**을 엽니다.
 2. **+새 응용 프로그램 등록**을 클릭합니다.
 3. **Jamf 조건부 액세스**와 같은 **표시 이름**을 입력합니다.
 4. **웹앱/API**를 선택합니다.
-5. Jamf Pro의 **로그온 URL**을 지정합니다.
+5. Jamf Pro 인스턴스 URL을 사용하여 **로그온 URL**을 지정합니다.
 6. **응용 프로그램 만들기**를 클릭합니다.
-7. 새로 만든 **응용 프로그램 ID**를 저장한 다음 **모든 설정** > **키**를 열어 새 응용 프로그램 키를 만듭니다. 응용 프로그램 키를 저장합니다.
+7. 새로 만든 **응용 프로그램 ID**를 저장한 다음 **설정**을 열고 **API 액세스** > **키**로 이동하여 새 응용 프로그램 키를 만듭니다. **설명**, **만료**되기까지 걸리는 시간을 입력한 다음 응용 프로그램 키를 저장합니다. 
 
-  > [!NOTE]
+  > [!IMPORTANT]
   > 응용 프로그램 키는 이 프로세스 중에 한 번만 표시됩니다. 쉽게 검색할 수 있는 위치에 저장해야 합니다.
 
-8. **모든 설정** > **API 액세스** > **필수 권한**으로 이동하고 모든 권한을 삭제합니다.
+8. **설정**을 입력한 다음 **API 액세스** > **필수 권한**으로 이동하여 모든 권한을 삭제합니다.
 
   > [!NOTE]
   > 새 필수 권한을 추가합니다. 응용 프로그램은 단일 필수 권한이 있는 경우에만 제대로 작동할 수 있습니다.
@@ -79,16 +79,20 @@ Jamf Pro를 사용하여 조건부 액세스를 구성하려면 다음이 필요
 
 ## <a name="enable-intune-to-integrate-with-jamf-pro"></a>Intune을 Jamf Pro와 통합할 수 있도록 설정
 
-1. Microsoft Azure Portal에서 **Microsoft Intune** > **장치 준수** > **Jamf용 준수 커넥터**를 엽니다.
+1. Microsoft Azure Portal에서 **Microsoft Intune** > **장치 준수** > **Partner device management**(파트너 장지 관리)를 엽니다.
 2. 응용 프로그램 ID를 **Jamf Azure Active Directory 앱 ID** 필드에 붙여넣어 Jamf용 준수 커넥터를 사용하도록 설정합니다.
 3. **Save**을 클릭합니다.
 
-## <a name="configure-conditional-access-in-jamf-pro"></a>Jamf Pro에서 조건부 액세스 구성
+## <a name="configure-microsoft-intune-integration-in-jamf-pro"></a>Jamf Pro에서 Microsoft Intune 통합 구성
 
-1. Jamf Pro에서 **전역 관리** > **조건부 액세스**로 이동합니다. **Microsoft** 탭에서 **편집** 단추를 클릭합니다.
-2. **Enable Conditional Access with Microsoft**(Microsoft에 대한 조건부 액세스 사용) 확인란을 선택합니다.
+1. Jamf Pro에서 **전역 관리** > **조건부 액세스**로 이동합니다. **Microsoft Intune 통합** 탭에서 **편집** 단추를 클릭합니다.
+2. **Microsoft Intune 통합 사용** 확인란을 선택합니다.
 3. 이전 단계에서 저장한 **위치**, **도메인 이름** 및 **응용 프로그램 ID** 및 **응용 프로그램 키**를 포함하여 Azure 테넌트에 대한 필수 정보를 제공합니다.
 4. **Save**을 클릭합니다. Jamf Pro가 설정을 테스트하고 성공을 확인합니다.
+
+## <a name="set-up-compliance-policies-and-register-devices"></a>준수 정책 설정 및 장치 등록
+
+Intune과 Jamf 사이의 통합을 구성한 후에는 [준수 정책을 Jamf에서 관리되는 장치에 적용](conditional-access-assign-jamf.md)해야 합니다.
 
 ## <a name="information-shared-from-jamf-pro-to-intune"></a>Jamf Pro에서 Intune으로 공유된 정보
 

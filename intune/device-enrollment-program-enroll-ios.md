@@ -15,11 +15,11 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 311bb42f2ef9fbf689e32eacca7420c8189251bf
-ms.sourcegitcommit: 001577b700f634da2fec0b44af2a378150d1f7ac
+ms.openlocfilehash: a10d158816f17c7fbe07fd14172d1a9abb9ed9b9
+ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="automatically-enroll-ios-devices-with-apples-device-enrollment-program"></a>Apple 장치 등록 프로그램을 통해 iOS 장치를 자동으로 등록
 
@@ -157,11 +157,11 @@ Apple DEP 포털을 사용하여 DEP 토큰을 만듭니다. 관리용으로 Int
 ## <a name="sync-managed-devices"></a>관리되는 장치 동기화
 이제 Intune에 장치 관리 권한이 있으므로 Intune을 Apple과 동기화하여 Azure 포털의 Intune에서 관리되는 장치를 확인할 수 있습니다.
 
-1. Azure 포털의 Intune에서 **장치 등록** >  **Apple 등록** > **등록 프로그램 장치**를 선택합니다.
-2. **등록 프로그램 장치** 아래에서 **동기화**를 선택합니다.
+1. Azure Portal의 Intune에서 **장치 등록** > **Apple 등록** > **등록 프로그램 장치** > **동기화**를 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
 
   ![등록 프로그램 장치 노드가 선택되고 동기화 링크를 선택하는 스크린샷](./media/enrollment-program-device-sync.png)
-3. **동기화** 블레이드에서 **동기화 요청**을 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
+  
+2. **동기화** 블레이드에서 **동기화 요청**을 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
 
   ![동기화 요청 링크를 선택하는 동기화 블레이드 스크린샷](./media/enrollment-program-device-request-sync.png)
 
@@ -170,7 +170,7 @@ Apple DEP 포털을 사용하여 DEP 토큰을 만듭니다. 관리용으로 Int
      -  모든 동기화 요청은 완료하는 데 15분이 주어집니다. 이 시간 동안 또는 요청이 성공될 때까지 **동기화** 단추는 비활성화됩니다.
      - Intune은 24시간마다 새 장치 및 제거된 장치를 Apple과 동기화합니다.
 
-4. 등록 프로그램 장치 작업 영역에서 **새로 고침**을 선택하여 장치를 확인합니다.
+3. 등록 프로그램 장치 작업 영역에서 **새로 고침**을 선택하여 장치를 확인합니다.
 
 ## <a name="assign-an-enrollment-profile-to-devices"></a>장치에 등록 프로필 할당
 먼저 등록 프로그램 프로필을 장치에 할당해야 장치를 등록할 수 있습니다.
