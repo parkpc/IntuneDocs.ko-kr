@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: e7375e6670c15fe186f5e77876e7b46f9021ad9d
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: a1289a934f2c6d295f7b59512190afc99d4f381e
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="turn-off-microsoft-usage-data-collection"></a>Microsoft 사용 현황 데이터 수집 해제
 
@@ -28,4 +28,4 @@ Microsoft는 제품 및 서비스에 대한 특정 데이터를 자동으로 수
 
 Android 장치에서 해당 데이터의 수집을 해제하려는 경우 회사 포털 앱에서 **사용 현황 데이터** 설정을 엽니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

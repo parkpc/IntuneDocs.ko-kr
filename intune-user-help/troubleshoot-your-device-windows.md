@@ -15,15 +15,15 @@ searchScope: User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
-ms.openlocfilehash: a9da0ecabadc856c54bc8c10ec71520d549ca50c
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: 17d8fd46e46586510bed2f95c502f89ae67c95be
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="fix-common-issues-with-your-windows-device"></a>Windows 장치의 일반적인 문제 해결
 
-Windows 장치에서 발생하는 문제가 문제 해결을 통해 해결되는 경우도 있습니다. 먼저 직접 해결해 볼 수 있는 몇 가지 일반적인 문제는 다음과 같습니다. 좀 더 복잡한 문제의 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에 있는 연락처 정보를 통해 회사 지원팀에 문의하는 것이 좋습니다.
+Windows 장치에서 발생하는 문제가 문제 해결을 통해 해결되는 경우도 있습니다. 먼저 직접 해결해 볼 수 있는 몇 가지 일반적인 문제는 다음과 같습니다. 좀 더 복잡한 문제의 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에 있는 연락처 정보를 통해 회사 지원팀에 문의하는 것이 좋습니다.
 
 - [내 Windows 10 장치가 등록되지 않음](troubleshoot-your-windows-10-device-windows.md)
 - [Windows 장치를 업데이트해야 함](you-need-to-update-your-windows-device.md)

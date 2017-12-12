@@ -14,11 +14,11 @@ ms.assetid: dd6aec3a-4063-4054-8d0f-d2f2034f0d3d
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 1b5a49c4bb29f5511dc13b7d12928b11fd98b2de
-ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
+ms.openlocfilehash: 6cfc144b188b1701a2e5e599af43d12c98d48496
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="resolve-a-threat-found-by-lookout-for-work"></a>Lookout for Work가 발견한 위협 해결
 
@@ -34,7 +34,7 @@ Lookout for Work가 장치에서 잠재적인 위협을 발견했기 때문에 �
 
 ![회사 포털 웹 사이트에 대한 링크가 포함된 Lookout for Work 오류 메시지](./media/mtd-go-to-device-management-portal-android.png)
 
-**장치 관리 포털** 링크를 탭하여 문제 해결 방법 지침이 나와 있는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)로 이동합니다.
+**장치 관리 포털** 링크를 탭하여 문제 해결 방법 지침이 나와 있는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)로 이동합니다.
 
 ## <a name="example-of-an-app-that-lookout-for-work-sees-as-a-threat"></a>Lookout for Work가 위협으로 간주하는 앱의 예
 
@@ -46,5 +46,5 @@ Lookout for Work가 위협으로 판단하는 앱을 설치한 경우 다음과 
 
 앱을 제거하면 바로 메일과 기타 회사 데이터나 학교 데이터에 다시 액세스할 수 있게 됩니다. 앱을 제거하라는 요청을 무시하면 앱을 제거할 때까지 회사 메일 및 데이터에 액세스할 수 없습니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.
 

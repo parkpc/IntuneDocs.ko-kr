@@ -14,11 +14,11 @@ ms.assetid: c7a10998-9aa6-4bc0-8405-27a30c61bca7
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 158bc0e18b427abcd73353cd41c3c57934eb45cb
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: e3177d6cd7684662d26e827aa8640abb0ed1317c
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="you-need-to-turn-off-unknown-sources"></a>출처를 알 수 없는 앱 옵션을 꺼야 함
 
@@ -28,4 +28,4 @@ Android 장치는 여러 위치에서 앱을 설치할 수 있습니다. 대다�
 
 **알 수 없는 소스**를 해제하면 몇 분 정도 후에 Android 장치를 사용하여 회사 또는 학교 데이터에 계속 액세스할 수 있게 됩니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

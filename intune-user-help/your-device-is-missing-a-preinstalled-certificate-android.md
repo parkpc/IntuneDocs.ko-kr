@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 52070573560b798044c929b0fa9476cf1f7bbf89
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: d6bd59800b13539558fbf56afab9fe5293f3e5bd
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="your-android-device-is-missing-a-certificate-that-usually-comes-installed-on-your-phone"></a>Android 장치에 일반적으로 휴대폰에 설치되는 인증서가 없습니다.
 
@@ -42,9 +42,9 @@ ms.lasthandoff: 09/28/2017
 
 5. 회사 포털 앱 및 브라우저를 닫습니다.
 
-6. 회사 포털 앱을 다시 엽니다. 이제 회사 포털 앱에 로그인할 수 있습니다. 여전히 회사 포털 앱을 사용할 수 없는 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에 제공된 정보를 사용하여 회사 지원팀에 추가 지침을 문의하세요.
+6. 회사 포털 앱을 다시 엽니다. 이제 회사 포털 앱에 로그인할 수 있습니다. 여전히 회사 포털 앱을 사용할 수 없는 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에 제공된 정보를 사용하여 회사 지원팀에 추가 지침을 문의하세요.
 
 >[!NOTE]
 > 이 인증서를 설치해도 문제가 해결되지 않고 다른 "인증서 누락" 메시지가 표시되는 경우 추가 단계를 수행하여 [누락된 인증서를 설치](your-device-is-missing-an-IT-required-certificate-android.md)해야 합니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

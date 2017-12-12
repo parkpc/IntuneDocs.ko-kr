@@ -16,14 +16,14 @@ ROBOTS:
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 6213bcf2e7ee2ad1ffd15010d8741b86b065d147
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 6448e9986bdb98e21f3b9547ecbbf9b8c3ed8871
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="using-the-intune-company-portal-website"></a>Intune 회사 포털 웹 사이트 사용
-[회사 포털 웹 사이트](https://portal.manage.microsoft.com)는 최종 사용자가 Intune에서 등록한 컴퓨터와 장치를 관리하는 데 사용할 수 있는 웹 페이지입니다.
+[회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)는 최종 사용자가 Intune에서 등록한 컴퓨터와 장치를 관리하는 데 사용할 수 있는 웹 페이지입니다.
 
 사용자는 회사 포털 웹 사이트에서 다음 작업을 수행할 수 있습니다.
 
@@ -45,4 +45,4 @@ ms.lasthandoff: 09/28/2017
 
 -   PC를 원격으로 관리(PC에 대해서만 작동)
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

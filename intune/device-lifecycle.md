@@ -2,8 +2,8 @@
 title: "MDM 수명 주기 개요"
 description: "Intune에서 등록부터 구성 및 최종 사용 중지에 이르는 수명 주기 동안 장치를 관리하는 데 어떤 도움을 주는지 알아봅니다."
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 06/07/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: f6051fa7-133f-4712-86a5-e5f5bc5ab3c7
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1bb6f92fc974b09a5a8abca9fee96251519a1b98
-ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
+ms.openlocfilehash: 33bcfd8c83c00a7d9d5625ec0fb87e442f728f2b
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="overview-of-the-mobile-device-management-mdm-lifecycle"></a>모바일 장치 관리(MDM) 수명 주기 개요
 

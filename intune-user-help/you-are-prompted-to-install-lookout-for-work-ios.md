@@ -14,11 +14,11 @@ ms.assetid: 7adab655-8317-4512-ba7d-beeaa25bbf6c
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 46827fa3505fd8c4f2d767ba821ce9d84fc0d16d
-ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
+ms.openlocfilehash: 9bb4d39545964dd5c8e0bb5efe767e1315c7f6de
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="install-lookout-for-work-on-your-ios-device"></a>iOS 장치에 Lookout for Work 설치
 
@@ -54,5 +54,5 @@ ms.lasthandoff: 09/28/2017
 
 제어할 수 없는 기술 문제로 인해 설치가 실패할 수 있습니다. 이런 경우 [앱 스토어에서 수동으로](https://itunes.apple.com/app/lookout-for-work/id997193468) Lookout for Work를 설치해 보세요.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.
 

@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 04ce17615055d67f38e49158bec806de9f322bfd
-ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
+ms.openlocfilehash: f9c91c85b4a93fb211b5cd278dd82277a58cb08e
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="your-android-device-seems-to-be-encrypted-but-company-portal-says-otherwise"></a>Android 장치가 암호화된 것 같은데 회사 포털에 다르게 표시됨
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/14/2017
 
 ### <a name="downgrade-your-version-of-android"></a>Android 버전 다운그레이드
 
-장치에서 Android 6.0 이상으로 다운그레이드하는 옵션을 제공하는 경우 다운그레이드합니다. 장치 다운그레이드를 시도해야 하는 경우 데이터 손실 위험이 있습니다. 그렇지 않으면 회사 지원팀에 문의하여 이 문제를 해결하는 것이 좋습니다. [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 회사 지원팀의 연락처 정보를 얻을 수 있습니다.
+장치에서 Android 6.0 이상으로 다운그레이드하는 옵션을 제공하는 경우 다운그레이드합니다. 장치 다운그레이드를 시도해야 하는 경우 데이터 손실 위험이 있습니다. 그렇지 않으면 회사 지원팀에 문의하여 이 문제를 해결하는 것이 좋습니다. [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에서 회사 지원팀의 연락처 정보를 얻을 수 있습니다.
 
 ### <a name="encrypt-the-entire-device"></a>전체 장치 암호화
 
