@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: eca9ef81acb4d1535649d4e13e1b5b2e18ed109a
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: e4180a20fdbc3181fe631f1b57ec6758a9e16ee4
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-install-your-companys-virtual-private-network-vpn"></a>회사의 VPN(가상 사설망)을 설치하는 방법
 
@@ -33,4 +33,4 @@ ms.lasthandoff: 09/28/2017
 3.  **회사 VPN 프로필 설치**를 누른 다음 화면의 메시지를 따릅니다. 설치 단계는 회사에서 사용 중인 VPN 공급자에 따라 약간 다를 수 있습니다.
 
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

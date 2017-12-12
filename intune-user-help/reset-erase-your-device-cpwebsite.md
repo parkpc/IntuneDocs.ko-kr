@@ -16,15 +16,15 @@ ROBOTS:
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: cadc8ac211f60fd767dbfa7d412b089c3c1c94ea
-ms.sourcegitcommit: f254f49fc65fc75a779ff721e2202c53d03cb981
+ms.openlocfilehash: 98bc92eeba4c92a38aacf05f0eab1ea742dff031
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="reset-your-device-from-the-company-portal-website"></a>회사 포털 웹 사이트에서 장치 재설정
 
-장치를 분실하거나 도난당한 경우 데이터에 대한 무단 액세스를 방지하기 위해 장치를 공장 기본 설정으로 재설정할 수 있습니다. [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 사용하여 장치를 원격으로 재설정할 수 있습니다. 회사 포털 웹 사이트는 Intune에서 등록한 컴퓨터와 장치를 관리하는 데 사용할 수 있는 웹 페이지입니다. 회사 포털 앱을 사용하여 수행할 수 있는 대부분의 동일한 작업을 이 웹 사이트에서 사용할 수 있습니다.
+장치를 분실하거나 도난당한 경우 데이터에 대한 무단 액세스를 방지하기 위해 장치를 공장 기본 설정으로 재설정할 수 있습니다. [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 사용하여 장치를 원격으로 재설정할 수 있습니다. 회사 포털 웹 사이트는 Intune에서 등록한 컴퓨터와 장치를 관리하는 데 사용할 수 있는 웹 페이지입니다. 회사 포털 앱을 사용하여 수행할 수 있는 대부분의 동일한 작업을 이 웹 사이트에서 사용할 수 있습니다.
 
 장치를 재설정하면 이 장치가 회사 포털에 더 이상 나열되지 않으며 장치가 공장 기본 설정으로 재설정됩니다.
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 10/02/2017
 
 장치를 재설정하려면:
 
-1.  [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 __메뉴__ 단추를 누르고 __내 장치__를 선택합니다.
+1.  [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에서 __메뉴__ 단추를 누르고 __내 장치__를 선택합니다.
 
 2. __내 장치__ 페이지에서 이름을 바꾸려는 장치의 이름을 선택합니다.
 
@@ -47,4 +47,4 @@ ms.lasthandoff: 10/02/2017
 
 이제 장치가 재설정되었습니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

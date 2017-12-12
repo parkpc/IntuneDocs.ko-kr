@@ -3,8 +3,8 @@ title: "Android 장치에 대한 Intune VPN 설정"
 titlesuffix: Azure portal
 description: "Android 장치에서 VPN 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 06/15/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 16c056ca-320e-4107-ad03-a0cf96c28885
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 626db819f8dc9e68e38abe6de800fdf68cb5afe7
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 23d898df90313a1a342c5a8898afea55e50dd705
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="vpn-settings-for-android-devices-in-microsoft-intune"></a>Microsoft Intune에서 Android 장치에 대한 VPN 설정
 
