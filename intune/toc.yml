@@ -552,6 +552,8 @@
   items:
     - name: 사용자가 문제 해결할 수 있도록 도움
       href: help-desk-operators.md
+    - name: Intune 활동에 대한 감사 로그
+      href: monitor-audit-logs.md
     - name: Intune 데이터 웨어하우스 사용
       href: reports-nav-create-intune-reports.md
       items:
