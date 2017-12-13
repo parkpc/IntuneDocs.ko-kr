@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich, elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: dfcb60d16a4412c66c81db53ed5bbc9dd2b46bba
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: b7568a658a655b5c061ced64449d17ee6f6053ae
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="what-happens-if-you-unenroll-your-ios-or-macos-device-from-intune"></a>Intune에서 iOS 또는 macOS 장치 등록을 취소하면 어떻게 되나요?
 
@@ -42,4 +42,4 @@ Intune에서 iOS 또는 macOS 장치 등록을 취소하면:
 
 등록을 취소하는 방법에 대한 지침은 [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-ios.md)를 참조하세요.
 
-질문이 있다면 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+질문이 있다면 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

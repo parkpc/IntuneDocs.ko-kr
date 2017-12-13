@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: fa95dc161adabcf280d9933770ce68b719a47a74
-ms.sourcegitcommit: 53a1f5226d1e1172f013a1b192321dde610b2d6c
+ms.openlocfilehash: 2071eac453bb0bc4f241d8bf16d5c848dedfd64c
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="create-a-work-profile-and-enroll-your-device-in-intune"></a>업무용 프로필을 만들고 Intune에서 장치 등록
 
@@ -80,4 +80,4 @@ Android 장치를 등록하면 회사 메일, 앱 및 기타 업무용 데이터
 
     ![Play Store for Work 앱 페이지](./media/andr-afw-tap-work-play-store-icon.png)
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

@@ -2,8 +2,8 @@
 title: "회사 리소스 액세스 문제 해결"
 description: "이 항목의 오류 및 상태 코드는 리소스 액세스 문제를 해결하는 데 도움이 됩니다."
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 05/10/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 225e87c85d178dad026f618d2df7d26829c9bb38
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: f77e6c0e473e2e713186b927485d4dcda1b0f5e1
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="troubleshoot-company-resource-access-problems-with-microsoft-intune"></a>Microsoft Intune 관련 회사 리소스 액세스 문제 해결
 

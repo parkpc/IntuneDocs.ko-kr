@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: shburbid
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 15e978d1407d5e09f26ba39d1fc87b01a671d5d7
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: e36330927fa6ce8b4edfc1fce984250af44bb6dc
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="update-your-windows-10-device"></a>Windows 10 장치 업데이트
 
@@ -32,4 +32,4 @@ ms.lasthandoff: 11/09/2017
 
 Windows 버전이 회사에서 지원하는 것보다 새로운 버전인 경우 [몇 가지 다른 단계를 시도하여 문제를 해결](your-windows-version-isnt-yet-supported.md)해야 합니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

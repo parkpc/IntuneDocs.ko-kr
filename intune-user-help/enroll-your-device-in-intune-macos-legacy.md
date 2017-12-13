@@ -16,11 +16,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 115f32989cfbb991e097404c5297e7997f28f796
-ms.sourcegitcommit: e692be57ec7044dfc224b70941affbfd7efba421
+ms.openlocfilehash: f46d9cc4fad54415aeea8deaf1b8daa0c274c1dc
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="enroll-your-legacy-macos-device-in-intune"></a>Intune에서 레거시 macOS 장치 등록
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/08/2017
 
 조직의 앱, 데이터 및 리소스에 액세스할 수 있으면 업무를 수행할 수 있습니다. 회사에서 macOS 장치를 사용하는 경우에는 이를 위해 __관리 프로필__을 설치해야 합니다. 관리 프로필은 설정 및 액세스 정보를 Mac으로 로드하는 회사 지원팀이 설정한 파일입니다. 자세히 알고 싶으세요? [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되는지](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md) 알아보세요.
 
-1. __Dock__에서 __Safari__를 찾고 새 창을 연 다음 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 엽니다.
+1. __Dock__에서 __Safari__를 찾고 새 창을 연 다음 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 엽니다.
 2. 회사 또는 학교 계정으로 회사 포털 웹 사이트에 로그인합니다.
 
   [!INCLUDE[wit_nextref](includes/end-user-password-guidance.md)]
@@ -66,4 +66,4 @@ ms.lasthandoff: 11/08/2017
 
 일부 프로필은 **검증되지 않음**으로 표시될 수도 있습니다. 회사에서 비롯된 항목이라면 정상입니다.
 
-여전히 도움이 필요하세요? 회사 지원팀과 확인하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 찾을 수 있습니다.
+여전히 도움이 필요하세요? 회사 지원팀과 확인하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에서 찾을 수 있습니다.

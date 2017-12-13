@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 3976327decf6b1850baed8e781609e458d375aa1
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: f5c2536e4566baa2661b77f5574085410784a787
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="remotely-lock-your-device-from-the-company-portal-website"></a>회사 포털 웹 사이트에서 장치 원격 잠금
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/28/2017
 
 [!INCLUDE[wit_nextref](includes/end-user-password-guidance.md)]
 
-안전 유지를 위해 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)의 원격 잠금 옵션을 사용하여 장치를 잠글 수 있습니다. 원격 잠금은 다음 장치에 적용됩니다.
+안전 유지를 위해 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)의 원격 잠금 옵션을 사용하여 장치를 잠글 수 있습니다. 원격 잠금은 다음 장치에 적용됩니다.
 
 * Android
 * iOS
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/28/2017
 
 ## <a name="to-use-remote-lock-to-lock-your-device"></a>원격 잠금을 사용하여 장치를 잠그려면
 
-1.  [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 __메뉴__ 단추 ![세 개의 가로 막대가 병렬로 누적된 메뉴 단추의 작은 이미지](/Intune/whats-new/media/CP_hamburger_menu.png)를 탭한 다음 __내 장치__를 선택합니다.
+1.  [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에서 __메뉴__ 단추 ![세 개의 가로 막대가 병렬로 누적된 메뉴 단추의 작은 이미지](/Intune/whats-new/media/CP_hamburger_menu.png)를 탭한 다음 __내 장치__를 선택합니다.
 
   ![화면 왼쪽에 홈, 모든 앱, 내 장치, 기술 지원팀 및 로그 아웃 단추가 포함된 확장된 측면 메뉴가 있는 회사 포털 웹 사이트의 이미지](/media/iwp-expanded-sidebar.png)
 
@@ -65,4 +65,4 @@ ms.lasthandoff: 09/28/2017
 
 장치를 찾아 원격 잠금을 사용한 후 잠금을 해제하려면 암호를 입력하면 됩니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

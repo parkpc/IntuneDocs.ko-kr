@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 926e09173918488d6beb1f0e3f725a0cff2971b4
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 7b66a8ef0981f45d57125778fbf06ecdfe927724
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-windows-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 Windows 장치를 등록하면 어떻게 되나요?
 
@@ -73,4 +73,4 @@ Intune에서 Windows 또는 Windows Phone 장치를 등록하면 다음을 수�
 
 -   임의의 회사 앱 인벤토리 업데이트를 보냅니다.
 
-질문이 있다면 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+질문이 있다면 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

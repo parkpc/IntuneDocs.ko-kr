@@ -3,8 +3,8 @@ title: "Windows 8.1 이상에 대한 Wi-Fi 설정 가져오기"
 titleSuffix: Azure portal
 description: "Windows에서 Wi-Fi 설정을 Intune Wi-Fi 프로필로 가져오는 방법을 알아봅니다.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 06/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 2c4e9b19-b268-4f6d-9663-7cdbe4e4a8dd
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: aa16955fa768dbaa6f97b0b9a8e0b28faa3be1f2
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 6e8bd14fe96fd3c508fd88a43ed6ed7c553d95cf
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-import-wi-fi-settings-for-windows-81-and-later-devices-in-microsoft-intune"></a>Microsoft Intune에서 Windows 8.1 이상 장치에 대한 Wi-Fi 설정을 가져오는 방법
 

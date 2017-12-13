@@ -3,8 +3,8 @@ title: "앱 프로비전 프로필"
 titlesuffix: Azure portal
 description: "Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필을 미리 할당하기 위한 도구를 제공합니다.\""
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 05/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: bbc3ba4a-df48-4aeb-988b-69a177764e3a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bc627198aa4f1a2f5ebb9116ba85758c4669158e
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 2b58fb0d9b69e875736b5d2ea884ae9d3453b481
+ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="use-ios-mobile-provisioning-profiles-to-prevent-your-apps-from-expiring"></a>iOS 모바일 프로비전 프로필을 사용하여 모바일 앱이 만료되지 않도록 방지
 

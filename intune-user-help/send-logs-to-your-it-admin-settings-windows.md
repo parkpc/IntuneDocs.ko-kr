@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 1e84bd13a58359f281ebfca3901d643dfc012d90
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: f36b623f78a640cfe1900dc0d1564cbf2fbfbf6f
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="send-logs-to-your-company-support-from-the-settings-app-for-windows-10"></a>설정 앱의 회사 지원팀에 Windows 10에 대한 로그 보내기
 
@@ -36,4 +36,4 @@ ms.lasthandoff: 09/28/2017
 
 확인한 문제를 보다 쉽게 해결할 수 있도록 회사 지원팀에 [회사 포털 앱의 로그](send-logs-to-your-it-admin-cp-windows.md)를 전송해야 할 수도 있습니다. 
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

@@ -3,8 +3,8 @@ title: "관리되는 Android 장치용 앱 구성 정책 추가 | Microsoft Docs
 titlesuffix: Azure portal
 description: "앱 구성 정책을 사용하여 Android for Work 앱을 실행할 때 이 앱에 구성 데이터를 제공하는 방법을 알아봅니다."
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 10/31/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: d0b6f3fe-2bd4-4518-a6fe-b9fd115ed5e0
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f3fcc589010e9a153ee105aaf4b161ebcbcbfbb4
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: c936c6e0c23afa374c1de73d83e69a4e014d60e5
+ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="add-app-configuration-policies-for-managed-android-devices"></a>관리되는 Android 장치용 앱 구성 정책 추가
 

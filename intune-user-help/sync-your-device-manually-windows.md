@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: cf43ed13b852cccbce44e2a31890e164e3519490
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 1c1ade50ff6a458633598d2788d176dd79cbfebd
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="sync-your-windows-device-manually"></a>수동으로 Windows 장치 동기화
 
@@ -129,4 +129,4 @@ Windows 10 버전에는 여러 개가 있으므로 두 가지 방식의 단계�
 
    장치 동기화를 마칠 때까지 “We’re synching your account(계정을 동기화 중입니다.)”라는 메시지가 화면 맨 위에 표시됩니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

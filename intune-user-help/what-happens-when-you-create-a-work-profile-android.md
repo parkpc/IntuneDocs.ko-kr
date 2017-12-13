@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 2958710c0f758e16e2613627782f81e26f1d3051
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: fe9a4d7f52c462efa4c926544129da565620f60c
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="what-happens-when-you-create-a-work-profile"></a>업무용 프로필을 만들면 어떻게 되나요?
 
@@ -43,4 +43,4 @@ ms.lasthandoff: 09/28/2017
 
 업무용 프로필을 만드는 단계는 [업무용 프로필을 만들어 장치 등록](create-a-work-profile-and-enroll-your-device-in-intune-android.md)을 참조하세요.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

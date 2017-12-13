@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: japoehlm
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: c06146c2a8abe15f346be532cf02e1fe6d97cc99
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 0d469a52c10a3c6080a3e900d55d18d7798bb534
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="enroll-your-ios-device-in-intune-with-the-device-enrollment-program"></a>장비 등록 프로그램을 통해 Intune에서 iOS 장치 등록
 
@@ -33,4 +33,4 @@ Apple에서는 iOS 장치 관리가 기본 제공되도록 하여 사용자 환�
 5.  **사용 약관**에 동의하고 진단 정보를 Apple로 보낼 것인지 결정합니다.
 6.  등록이 완료되면 추가 작업을 수행하라는 메시지가 장치에 표시됩니다. 예를 들어, 메일 액세스를 위해 암호를 입력하거나, 암호를 설정하거나, 회사의 Intune 관리자가 설정한 내용에 따라 모든 응용 프로그램을 설치하는 데 동의할 수 있습니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

@@ -2,8 +2,8 @@
 title: "Windows 정책 설정"
 description: "Intune Windows 일반 구성 정책(Windows 8.1 이상)을 사용하여 등록된 Windows 8.1 및 Windows 8 장치에 대한 설정을 구성합니다."
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 10/11/2016
 ms.topic: article
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d2a012ba47a992b5c5de394b84a5bb4ac8689652
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 9fa8d8454e9d22b2d3c36cd6449805d709c34ffa
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="windows-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows 정책 설정
 

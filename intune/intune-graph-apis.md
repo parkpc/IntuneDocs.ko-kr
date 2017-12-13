@@ -2,9 +2,9 @@
 title: "Azure AD를 사용하여 Intune Graph API에 액세스하는 방법"
 description: "앱이 Azure AD를 사용하여 Intune Graph API에 액세스하기 위해 수행해야 하는 단계 설명"
 keywords: "intune graphapi c# powershell 권한 역할"
-author: lleonard-msft
+author: vhorne
 manager: angrobe
-ms.author: alleonar
+ms.author: victorh
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 79A67342-C06D-4D20-A447-678A6CB8D70A
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4ff36855e7a20aa7696444416d8993f9be62cbe5
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 351a066c8852125b6fbf26c039dd3718b63f8980
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-use-azure-ad-to-access-the-intune-graph-api"></a>Azure AD를 사용하여 Intune Graph API에 액세스하는 방법
 

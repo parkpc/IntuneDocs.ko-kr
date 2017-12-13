@@ -14,11 +14,11 @@ ms.assetid: 365f72a6-564d-4cbd-8f0a-70ec80b6e253
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 5feec496d0f7952b1ae35ed1d905cbfc526bc387
-ms.sourcegitcommit: 0b96ae18524eb976df01a5340631ef331357e666
+ms.openlocfilehash: 80cd4b97aafd3307fee310ea742d82a5ff215680
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="set-or-change-your-passcode"></a>암호 설정 또는 변경
 
@@ -41,4 +41,4 @@ iOS 장치가 회사 지원팀의 암호 정책을 준수하지 않는 경우 �
 2. **암호 변경**을 탭하고 이전 암호를 입력합니다.
 3. 회사 지원팀의 요구 사항을 충족하는 새 암호를 입력한 후 확인을 위해 해당 암호를 다시 입력합니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

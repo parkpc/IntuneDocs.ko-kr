@@ -14,11 +14,11 @@ ms.assetid: 0d357dc0-3e14-43d0-9874-6886ebc847fc
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 9e0ea429a6fd68bf984f814d512f9e5a8b327358
-ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
+ms.openlocfilehash: c4e0eb3832114c83539025af9d7afebe38e68d81
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="install-lookout-for-work"></a>Lookout for Work 설치
 
@@ -75,5 +75,5 @@ ms.lasthandoff: 09/28/2017
 제어할 수 없는 기술 문제로 인해 설치가 실패할 수 있습니다. 이런 경우 [Play 스토어에서 수동으로](https://play.google.com/store/apps/details?id=com.lookout.enterprise) Lookout for Work를 설치해 보세요.
 
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.
 

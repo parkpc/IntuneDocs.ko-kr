@@ -16,19 +16,19 @@ ROBOTS:
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 8023e3a75dbf9a3275654b7ed8f917546d401168
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 59d9ed0ddc6b24d680f665eb6f5c9976001d940b
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="rename-your-device-from-the-company-portal-website"></a>회사 포털 웹 사이트에서 장치 이름 바꾸기
 
-장치를 쉽게 식별할 수 있도록 장치 이름을 바꿀 것인지 결정할 수 있습니다. 이 작업은 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 수행할 수 있습니다. 회사 포털 웹 사이트는 IT부서에서 관리에 등록한 컴퓨터와 장치를 관리하는 데 사용할 수 있는 웹 페이지입니다.
+장치를 쉽게 식별할 수 있도록 장치 이름을 바꿀 것인지 결정할 수 있습니다. 이 작업은 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에서 수행할 수 있습니다. 회사 포털 웹 사이트는 IT부서에서 관리에 등록한 컴퓨터와 장치를 관리하는 데 사용할 수 있는 웹 페이지입니다.
 
 장치 이름을 바꾸려면:
 
-1.  [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 __메뉴__ 단추 ![세 개의 가로 막대가 병렬로 누적된 메뉴 단추의 작은 이미지](/Intune/whats-new/media/CP_hamburger_menu.png)를 탭한 다음 __내 장치__를 선택합니다.
+1.  [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에서 __메뉴__ 단추 ![세 개의 가로 막대가 병렬로 누적된 메뉴 단추의 작은 이미지](/Intune/whats-new/media/CP_hamburger_menu.png)를 탭한 다음 __내 장치__를 선택합니다.
 
 2. __내 장치__ 페이지에서 이름을 바꾸려는 장치의 이름을 선택합니다.
 
@@ -40,4 +40,4 @@ ms.lasthandoff: 09/28/2017
 
 4.  장치 이름이 나타나는 상자에서 장치의 새 이름을 입력한 후 **이름 바꾸기** 단추를 탭합니다. 이제 장치가 새 이름으로 나타납니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

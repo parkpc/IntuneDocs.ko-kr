@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: a8364778943171bb1a949f61ad696427ff914c99
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 055bfcf088d46c1010206bd1e77ffbad76611c7c
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="help-your-company-support-fix-device-issues-with-verbose-logging"></a>자세한 정보 로깅으로 회사 지원팀의 장치 문제 해결 돕기
 
@@ -28,4 +28,4 @@ Android 장치가 Intune에 등록되어 있으면 *자세한 정보 로깅* 설
 
 자세한 정보 로깅 기능을 켜거나 끄려면 회사 또는 학교 자격 증명을 사용하여 회사 포털 앱에 로그인하고, **설정**을 탭한 다음 **자세한 정보 로깅**의 옆에 있는 켜기/끄기 단추를 탭합니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

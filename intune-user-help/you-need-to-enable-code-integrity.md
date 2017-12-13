@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 4fad2b78b8224fc1a90ad8c81d350917b17e3d57
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 1b0d1df8e34a6a942a3fbb16baba4311fc1083d4
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="you-need-to-enable-code-integrity"></a>코드 무결성을 사용하도록 설정해야 함
 
@@ -33,4 +33,4 @@ ms.lasthandoff: 09/28/2017
 
 계속 진행하기 어렵다면 [보안 부팅 사용 안 함](https://msdn.microsoft.com/library/windows/hardware/dn898540(v=vs.85).aspx) 페이지에서 "보안 부팅을 다시 사용하도록 설정하려면" 섹션을 참조하여 직접 보안 부팅을 사용하도록 설정하세요.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

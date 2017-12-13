@@ -16,22 +16,22 @@ ROBOTS:
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 0103eb02cd169a224624d46d93645861f7bbbd47
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 43460cb18681c47e14c89c8dbeb70a4ae006eb7d
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-reset-your-device-passcode-from-the-company-portal-website"></a>회사 포털 웹 사이트에서 장치 암호를 재설정하는 방법
 
-Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 사용하여 암호를 재설정할 수 있습니다. 회사 포털 웹 사이트에서 Intune에 등록한 컴퓨터 및 장치를 관리하고 회사 포털 앱을 사용할 때 수행할 수 있는 동일한 작업을 대부분 수행할 수 있습니다.
+Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 사용하여 암호를 재설정할 수 있습니다. 회사 포털 웹 사이트에서 Intune에 등록한 컴퓨터 및 장치를 관리하고 회사 포털 앱을 사용할 때 수행할 수 있는 동일한 작업을 대부분 수행할 수 있습니다.
 
 > [!NOTE]
 > 회사에 등록된 장치를 사용하는 경우 회사 포털 웹 사이트에 암호 재설정 단추가 표시되지 않을 수도 있습니다. 그렇지 않으면 회사 지원팀에 암호를 재설정하도록 요청해야 합니다.
 
 암호를 재설정하려면
 
-1.  [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에서 __메뉴__ 단추 ![세 개의 가로 막대가 병렬로 누적된 메뉴 단추의 작은 이미지](/intune/media/CP_hamburger_menu.png)를 탭한 다음 __내 장치__를 선택합니다.
+1.  [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에서 __메뉴__ 단추 ![세 개의 가로 막대가 병렬로 누적된 메뉴 단추의 작은 이미지](/intune/media/CP_hamburger_menu.png)를 탭한 다음 __내 장치__를 선택합니다.
 
 2. __내 장치__ 페이지에서 암호를 다시 설정할 장치의 이름을 선택합니다.
 
@@ -68,4 +68,4 @@ Intune에서 등록한 장치의 장치 PIN 또는 암호를 분실할 경우 [�
 
 암호가 재설정되었는지 확인하는 알림을 보려면 회사 포털 웹 사이트의 오른쪽 맨 위에 있는 알림 플래그를 클릭합니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.
