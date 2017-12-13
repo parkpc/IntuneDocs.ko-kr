@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 2e57ea54baf7cb70a3c8a94eb05f93f9fd84a01d
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 1c4813649092dd12b6be2c07b900d6c1af957bcb
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-set-the-amount-of-time-before-your-android-device-locks-its-screen"></a>Android 장치에서 화면이 잠기기까지 걸리는 기간을 설정하는 방법
 
@@ -42,4 +42,4 @@ ms.lasthandoff: 09/28/2017
 
 2.  암호 제한 시간 값을 선택합니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

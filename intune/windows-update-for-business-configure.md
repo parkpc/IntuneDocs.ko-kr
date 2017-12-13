@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 08f659cf-715e-4e10-9ab2-1bac3c6f2366
 ms.reviewer: coryfe
 ms.suite: ems
-ms.openlocfilehash: 8abc5e9a1e1d5ec5e0ea632b075209a0ba9456c2
-ms.sourcegitcommit: 474a24ba67f6bf4f00268bf9e4eba52331a6b82d
+ms.openlocfilehash: ca1f1c0572a2a3c1484b9c23bd14e029e506e536
+ms.sourcegitcommit: a7c1e10e615e5c975bb5d52eca986c5cf5287687
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 12/07/2017
 ---
 # <a name="manage-software-updates"></a>소프트웨어 업데이트 관리
 
@@ -94,8 +94,8 @@ Windows as a Service는 Windows 10 장치를 업데이트하는 방법입니다.
 
     **서비스 채널이 반기 채널로 설정되어 있고 지연 기간이 30일인 경우**: 기능 업데이트 X가 Windows 업데이트에서 1월에 반기 채널(대상 지정)로 처음 공개적으로 제공된다고 가정하겠습니다. 4개월 후 4월에 기능 업데이트 X는 반기 채널로 릴리스됩니다. 장치는 이 반기 채널 릴리스 30일 후에 기능 업데이트를 수신하며 5월에 업데이트됩니다.
 
-    - **배달 최적화**: 장치가 Windows 업데이트를 다운로드하는 방법을 선택합니다. 자세한 내용은 [DeliveryOptimization/DODownloadMode](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider#deliveryoptimization-dodownloadmode)를 참조하세요.
-8. 마치면 **확인**을 클릭한 다음 **업데이트 링 만들기** 블레이드에서 **만들기**를 클릭합니다.
+    - **배달 최적화**: 장치가 Windows 업데이트를 다운로드하는 방법을 선택합니다. 자세한 내용은 [DeliveryOptimization/DODownloadMode](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization#download-mode)를 참조하세요.
+1. 마치면 **확인**을 클릭한 다음 **업데이트 링 만들기** 블레이드에서 **만들기**를 클릭합니다.
 
 새 업데이트 링이 업데이트 링 목록에 표시됩니다.
 

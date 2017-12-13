@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: shburbid
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: a54f618cd03b2aed5a25cd65a7418a7908f513f2
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: 4b619f0d42a88fb0cdc2f71c57c6ffeea4191d6e
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="turn-on-your-windows-defender-firewall"></a>Windows Defender 방화벽 켜기
 
@@ -30,4 +30,4 @@ ms.lasthandoff: 11/09/2017
 2. **시스템 및 보안** > **Windows Defender 방화벽**을 엽니다.
 3. 도메인, 개인 및 공용 네트워크에 대해 **설정 사용자 지정** > **Windows 방화벽 설정 또는 해제**를 선택합니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

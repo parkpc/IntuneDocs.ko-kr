@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: c7ac377cd3bc958440d191bd45ea5062acdb7647
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 30980072cfb1c98ab7755206b24497a356ebfff3
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="enroll-your-windows-phone-81-device-in-intune"></a>Intune에서 Windows Phone 8.1 장치 등록
 
@@ -84,4 +84,4 @@ Intune에 Phone 8.1 장치를 등록하려면 회사에 적용되는 지침을 �
 
 회사 지원팀이 등록 중에 회사 포털이 설치되도록 설정한 경우에는 앱 목록에 회사 포털이 표시됩니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. IT 관리자의 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

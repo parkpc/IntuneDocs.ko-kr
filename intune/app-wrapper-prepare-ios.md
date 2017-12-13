@@ -2,8 +2,8 @@
 title: "Intune 앱 줄 바꿈 도구를 사용하여 iOS 앱 줄 바꿈"
 description: "이 항목의 정보를 사용하여 앱 자체의 코드를 수정하지 않고 iOS 앱을 래핑하는 방법에 대해 알아봅니다. 모바일 앱 관리 정책을 적용할 수 있도록 앱을 준비합니다."
 keywords: 
-author: mattbriggs
-ms.author: mabriggs
+author: erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 06/12/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
 ms.reviewer: oldang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 109b0867f207742f56886f723c1646432b1260ca
-ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
+ms.openlocfilehash: 4ef7c8bb8daa76c5555b5d55d06fc30a9bb6c317
+ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="prepare-ios-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 앱 보호 정책에 대해 iOS 앱 준비
 

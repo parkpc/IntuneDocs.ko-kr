@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 2afa9ef5fdd755e7722939288f3c3b1ad4dd722f
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 494222330e06a1efc5a9ac6cb303b5d2c63d421e
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="you-need-to-enable-secure-boot"></a>보안 부팅을 사용하도록 설정해야 함
 
@@ -30,4 +30,4 @@ ms.lasthandoff: 09/28/2017
 
 PC를 사용하는 경우 회사 지원팀에 문의하거나 [보안 부팅 사용 안 함](https://msdn.microsoft.com/library/windows/hardware/dn898540(v=vs.85).aspx) 페이지에서 "보안 부팅을 다시 사용하도록 설정하려면" 섹션을 참조하여 직접 보안 부팅을 사용하도록 설정하세요.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

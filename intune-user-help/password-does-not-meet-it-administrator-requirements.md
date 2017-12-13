@@ -14,11 +14,11 @@ ms.assetid: efb3c261-1f6c-4d39-bfa4-18661f8c59c7
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 88d7ca7a73f32c90f589cd51b299350879914b69
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: d6372efef833268dedf9e18e878fa66f1417a03d
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="your-password-does-not-meet-your-company-supports-requirements"></a>암호가 회사 지원팀의 요구 사항을 충족하지 않음
 
@@ -46,4 +46,4 @@ PIN 또는 암호 문제 설명:
 
 - **암호가 요구 사항을 충족하기에 충분히 복잡하지 않습니다**. 회사 지원팀은 암호에 더 복잡한 문자를 사용해야 합니다. 숫자, 대문자, 기호(예: $, %, #)와 같은 문자를 사용해 보세요. 장치의 다른 계정의 경우에도 마찬가지일 수 있으므로, 다른 회사 계정을 확인하여 암호가 IT에서 장치에 대해 설정한 요구 사항을 충족하는지 확인하세요.
 
-요구 사항을 준수하도록 암호를 설정하는 방법을 확인하는 데 문제가 있으면 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+요구 사항을 준수하도록 암호를 설정하는 방법을 확인하는 데 문제가 있으면 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

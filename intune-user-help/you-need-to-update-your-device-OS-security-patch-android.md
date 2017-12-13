@@ -14,11 +14,11 @@ ms.assetid: b3e5994c-d215-4c72-8915-349bd0b2504d
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 5ee77c0889228080d4ea9dcd5c27fe8225865a6a
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 4b25e1c40473ac3c37c9122386611a1a23fb62cb
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="you-need-to-update-your-android-devices-operating-system"></a>Android 장치의 운영 체제를 업데이트해야 합니다.
 
@@ -38,4 +38,4 @@ Samsung 장치를 사용하는 경우 **설정** > **디바이스 정보**로 �
 
 
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

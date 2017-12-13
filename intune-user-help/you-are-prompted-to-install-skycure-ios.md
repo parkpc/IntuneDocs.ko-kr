@@ -14,11 +14,11 @@ ms.assetid: 7394ff8f-3a21-414d-be4a-4626ec370720
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 7842d55eb6f43cf7ada47324f5d5846212630501
-ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
+ms.openlocfilehash: b66871ce4fa968e61152ffc99741a78a454f6579
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="install-symantec-endpoint-protection-mobile-on-your-ios-device"></a>iOS 장치에 Symantec Endpoint Protection Mobile 설치
 
@@ -44,5 +44,5 @@ SEP Mobile에서 장치에 대한 보안 위협을 발견한 경우 문제 해�
 
 제어할 수 없는 기술 문제로 인해 설치가 실패할 수 있습니다. 이런 경우 [앱 스토어에서 수동으로](https://itunes.apple.com/app/sep-mobile/id695620821) SEP Mobile을 설치해 보세요.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.
 

@@ -15,15 +15,15 @@ searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
-ms.openlocfilehash: 976b58fcc7835b0992c5d53934642bd4fedb5b50
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: dd211b9dd8b09f2e3eab570eab48664fab55e3df
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="fix-common-issues-with-your-android-device"></a>Android 장치의 일반적인 문제 해결
 
-Android 장치에서 발생하는 문제가 문제 해결을 통해 해결되는 경우도 있습니다. 먼저 직접 해결해 볼 수 있는 몇 가지 일반적인 문제는 다음과 같습니다. 좀 더 복잡한 문제의 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)에 있는 연락처 정보를 통해 회사 지원팀에 문의하는 것이 좋습니다.
+Android 장치에서 발생하는 문제가 문제 해결을 통해 해결되는 경우도 있습니다. 먼저 직접 해결해 볼 수 있는 몇 가지 일반적인 문제는 다음과 같습니다. 좀 더 복잡한 문제의 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에 있는 연락처 정보를 통해 회사 지원팀에 문의하는 것이 좋습니다.
 
 - [Android 장치에 대한 규정 준수 확인](check-compliance-on-your-device-android.md)
 - [자세한 정보 로깅을 사용하여 회사 지원팀의 장치 문제 해결 돕기](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)

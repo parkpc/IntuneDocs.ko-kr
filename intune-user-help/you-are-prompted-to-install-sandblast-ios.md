@@ -14,11 +14,11 @@ ms.assetid: 474fe9c8-558a-4348-ac9d-f87c79f150c4
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 7e596d1594c73373ac3679291bae9f435a5445d2
-ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
+ms.openlocfilehash: 2335f92bd4755152aaae88f057f6b92481eacbdc
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="you-need-to-install-sandblast-mobile-protect-on-your-ios-device"></a>iOS 장치에 SandBlast Mobile Protect를 설치해야 함
 
@@ -44,4 +44,4 @@ SandBlast Mobile Protect에서 장치에서 보안 위협을 발견한 경우 �
 
 제어할 수 없는 기술 문제로 인해 설치가 실패할 수 있습니다. 이런 경우에 [앱 스토어에서 수동으로](https://itunes.apple.com/app/sandblast-mobile-protect/id1006390797) SandBlast Mobile Protect를 설치해 보세요.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

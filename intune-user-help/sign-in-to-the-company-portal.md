@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: caea74745dc58a04c60e780727b318ebdb8ff235
-ms.sourcegitcommit: b8d3f8da6d8c2bd5d6140d538193a02d5875aefb
+ms.openlocfilehash: 622006bf6ac244ddcf5e11f765f4119e6822866f
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-do-i-sign-in-to-the-company-portal-app---user-story-1132123--"></a>회사 포털 앱에 로그인하려면 어떻게 하나요? <!--User Story 1132123-->
 
@@ -89,4 +89,4 @@ ms.lasthandoff: 10/27/2017
 
   ![인증 프로세스를 진행하고 나면 회사 포털 앱에 로그인되며 해당 프로세스는 로드 중 막대로 표시됩니다.](/intune/media/cp_ios_aad_signin_from_another_device_after_1704_007.png)
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

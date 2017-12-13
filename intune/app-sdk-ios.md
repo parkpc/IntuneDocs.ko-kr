@@ -2,9 +2,9 @@
 title: "iOS용 Microsoft Intune 앱 SDK 개발자 가이드"
 description: "iOS용 Microsoft Intune 앱 SDK를 사용하면 iOS 앱에 MAM(모바일 앱 관리) 형태의 회사 Intune 앱 보호 정책을 통합할 수 있습니다."
 keywords: 
-author: mattbriggs
+author: erikre
 manager: angrobe
-ms.author: mabriggs
+ms.author: erikre
 ms.date: 11/10/2017
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6d7b22c871ed1e62bfdc148f30fb832786baf294
-ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
+ms.openlocfilehash: 6ff0e98c710676c257822c14661e6908849ae053
+ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>iOS용 Microsoft Intune 앱 SDK 개발자 가이드
 

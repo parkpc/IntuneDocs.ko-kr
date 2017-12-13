@@ -2,8 +2,8 @@
 title: "모바일 장치 보안 정책 설정"
 description: "Intune을 사용하여 조직의 관리되는 장치에 배포할 수 있는 다양한 설정을 구성할 수 있습니다."
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 11/02/2016
 ms.topic: article
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 34da6fb95a6a2b292f8f2e1d787bef179fe2301b
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: fa86e50ebf7e65be0ce8ace65e2cb0bc7e38658e
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="mobile-device-security-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 모바일 장치 보안 정책 설정
 

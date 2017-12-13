@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: a36efd88949f18618fef2afe0d99fcca8bbdf538
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 5fa35d853a6939256793d7903dfb8f3fdec84b63
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="unenroll-your-windows-device-from-intune"></a>Intune에서 Windows 장치 등록 취소
 
@@ -62,4 +62,4 @@ Intune에 등록되어 있지만 더 이상 회사 또는 학교에서 Windows �
 
 4.  **계정 삭제** 대화 상자에서 **삭제**를 탭합니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

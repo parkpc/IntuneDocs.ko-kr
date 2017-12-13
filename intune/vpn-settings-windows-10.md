@@ -3,8 +3,8 @@ title: "Windows 10 장치에 대한 Intune VPN 설정"
 titlesuffix: Azure portal
 description: "Windows 10 장치에서 VPN 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 10/20/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 495e4ed6-b2ef-47cc-a110-13fa9b5f85a6
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6de18a341f684730c74aa824c0ae8f7bdca1a4f8
-ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
+ms.openlocfilehash: 54ff681c96dc01587cd9a2770dacc5bb9a54d134
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="vpn-settings-for-windows-10-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 장치에 대한 VPN 설정
 

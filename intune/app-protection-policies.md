@@ -3,8 +3,8 @@ title: "앱 보호 정책 만들기 및 배포"
 titleSuffix: Azure portal
 description: "Intune 앱 보호 정책을 통해 관리하는 앱에서 사용되는 회사 데이터를 보호하는 방법을 알아봅니다.\""
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 04/24/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: f31b2964-e932-4cee-95c4-8d5506966c85
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2e535b2aa11401d51edb33cbad54e9222fd6da6a
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: c282a98ecf357f650fbfa14499a206c4d283f81a
+ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="how-to-create-and-assign-app-protection-policies"></a>앱 보호 정책을 만들고 할당하는 방법
 

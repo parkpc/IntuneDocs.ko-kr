@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 653ccf642cdf2c157694cfbe7e27e225a9df2d6d
-ms.sourcegitcommit: e692be57ec7044dfc224b70941affbfd7efba421
+ms.openlocfilehash: acbf76d9d5c3981da00b9224f391222ae2f73988
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-ios-device-in-intune"></a>Intune에서 회사 포털 앱을 설치하고 iOS 장치를 등록하면 어떻게 되나요?
 
@@ -62,4 +62,4 @@ Intune에서 장치를 등록할 때 장치의 회사 정보를 보호하는 데
 
 -   장치가 로밍 모드에 있는 동안 자동 파일 동기화를 사용하거나 사용하지 않도록 설정합니다. 자동 파일 동기화가 허용되는 경우 로밍 요금이 청구될 수 있습니다.
 
-질문이 있다면 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+질문이 있다면 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

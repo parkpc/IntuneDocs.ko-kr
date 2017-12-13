@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 6421d7161f0c2056ec4a00865e090026e7591de5
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 5099e7e476477258267b2ae6c94f48693a6f0253
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="use-managed-apps-on-your-android-device"></a>Android 장치에서 관리되는 앱 사용
 
@@ -72,4 +72,4 @@ IT 부서에서 관리할 수 있는 몇 가지 일반적인 앱은 다음과 �
 
 -   Microsoft Word, Excel 및 PowerPoint
 
-장치에서 관리되는 앱에 대한 자세한 내용은 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+장치에서 관리되는 앱에 대한 자세한 내용은 회사 지원팀에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

@@ -3,8 +3,8 @@ title: "Intune을 사용하여 인증서를 구성하는 방법"
 titlesuffix: Azure portal
 description: "Intune을 사용하여 Wi-Fi, VPN 및 기타 연결의 보안을 유지하는 데 도움이 되는 인증서를 만들고 할당하는 방법을 알아봅니다.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 11/28/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e9e511cef22fdfc8e2975bd14f7b969067317a44
-ms.sourcegitcommit: 2ad0d88d3ef5b81563c6a54eaf52f09e126abeaf
+ms.openlocfilehash: 9c74ee1daf6602a4958d9955c3955b465495e013
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-configure-certificates-in-microsoft-intune"></a>Microsoft Intune에서 인증서를 구성하는 방법
 

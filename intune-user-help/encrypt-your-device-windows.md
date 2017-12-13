@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: c32dad761275e9a31937e5777d85939915882849
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 990d96ba5a332b98ccbc06bc0fbf38f0dd542b1f
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-protect-your-windows-device-using-encryption"></a>암호화를 사용하여 Windows 장치를 보호하는 방법
 
@@ -35,4 +35,4 @@ ms.lasthandoff: 09/28/2017
 
 2.  **BitLocker 켜기**를 클릭하고 지침에 따라 각 드라이브를 암호화합니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

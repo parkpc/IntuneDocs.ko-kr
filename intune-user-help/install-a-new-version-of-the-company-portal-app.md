@@ -14,11 +14,11 @@ ms.assetid: c002bcb2-ae37-478d-acf3-2bf51faae490
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: d9a7ba4e3a4c10919ba933cc59c8093bec3588db
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 7264af5564604608f3ce6811ec72586fa3ce51c9
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-update-the-company-portal-app"></a>회사 포털 앱을 업데이트하는 방법
 
@@ -48,4 +48,4 @@ ms.lasthandoff: 09/28/2017
     > Microsoft 스토어에 액세스할 수 없는 경우 회사 지원팀에 문의하세요.
 
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

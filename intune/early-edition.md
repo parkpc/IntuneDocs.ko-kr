@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1ea734e83cfab3fff22c775764ac9814012d52b6
-ms.sourcegitcommit: 70dc0aaad51b447e173b663d1092d993dc81ffdd
+ms.openlocfilehash: 35bf193563deb34ac59df245c622bbc011d80b76
+ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="the-early-edition-for-microsoft-intune---december-2017"></a>Microsoft Intune 초기 버전 - 2017년 12월
 
@@ -60,9 +60,6 @@ Intune 앱 보호 정책은 전체 테넌트의 모든 사용자에 대해 보�
 
 ### <a name="new-ios-device-action------1244701---"></a>새로운 iOS 장치 작업 <!-- 1244701 -->
 iOS 10.3 감독된 장치를 종료할 수 있습니다. 이 작업을 수행하면 최종 사용자에게 경고하지 않고 장치가 즉시 종료됩니다. **장치** 워크로드에서 장치를 선택하면 장치 속성에서 **시스템 종료(감독 모드인 경우에만)** 작업을 찾을 수 있습니다.
-
-### <a name="palo-alto-vpn-now-supported----1333680-eeready---"></a>이제 Palo Alto VPN이 지원됨 <!-- 1333680 eeready -->
-기본 VPN을 구성하면 **연결 형식** 목록에 Palo Alto VPN이 포함됩니다.
 
 ### <a name="multiple-connector-support-for-scep-and-pfx-certificate-handling----1361755-eeready---"></a>SCEP 및 PFX 인증서 처리에 대한 여러 커넥터 지원 <!-- 1361755 eeready -->
 온-프레미스 NDES Connector를 사용하여 인증서를 장치에 전달하는 고객은 단일 테넌트에서 여러 커넥터를 구성할 수 있습니다.

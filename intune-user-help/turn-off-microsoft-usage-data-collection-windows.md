@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: fb082ad8830a5d8e9ab0514a981c9bb4b02592b0
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 989d6ee7a40a06c4df6a5837539a3fc4d9bb7f08
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-turn-off-microsoft-data-collection"></a>Microsoft 데이터 수집을 끄는 방법
 
@@ -28,4 +28,4 @@ Microsoft는 제품 및 서비스에 대한 특정 데이터를 자동으로 수
 
 Windows 장치에서 사용 현황 데이터의 수집을 해제하려는 경우 회사 포털 앱에서 **사용 현황 데이터** 설정을 찾습니다.
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 참조하세요.
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.
