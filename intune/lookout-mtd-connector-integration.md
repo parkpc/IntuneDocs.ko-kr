@@ -15,11 +15,11 @@ ms.assetid: 5b0d7644-3183-45ba-a165-0d82d70cb71e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6a9925b91b009f43c08533222a5fdfc765ea51c2
-ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
+ms.openlocfilehash: 6d63ddcd8f60ac3491087e3e76949f2a49cf7b9b
+ms.sourcegitcommit: a7c1e10e615e5c975bb5d52eca986c5cf5287687
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2017
+ms.lasthandoff: 12/07/2017
 ---
 # <a name="set-up-your-lookout-mobile-threat-defense-integration-with-intune"></a>Intune과 Lookout Mobile Threat Defense 통합 설정
 
@@ -72,7 +72,8 @@ Lookout Mobility Endpoint Security 테넌트가 Azure AD 구독과 연결되어 
 2.  Azure AD 테넌트를 등록하려면 Lookout 콘솔에 처음 로그인할 때 Azure AD 역할이 전역 관리자인 사용자 계정을 사용해야 합니다. 이후에는 로그인에 이 수준의 Azure AD 권한이 필요하지 않습니다. 동의 페이지가 표시됩니다. **동의**를 선택하여 등록을 완료합니다. 동의하고 승인하면 Lookout 콘솔로 리디렉션됩니다.
 
     ![Lookout 콘솔의 첫 번째 로그인 페이지 스크린샷](./media/lookout_mtp_initial_login.png)
-    > [참고] 로그인 문제에 도움이 필요한 경우 [Lookout 통합 문제 해결](https://docs.microsoft.com/intune/troubleshoot/troubleshooting-lookout-integration)을 참조하세요.
+    > [!NOTE] 
+    > 로그인 문제에 도움이 필요한 경우 [Intune과 Lookout의 통합 문제 해결](https://docs.microsoft.com/intune/troubleshoot/troubleshooting-lookout-integration)을 참조하세요.
 
 3.  [Lookout 콘솔](https://aad.lookout.com)의 **시스템** 모듈에서 **커넥터** 탭과 **Intune**을 차례로 선택합니다.
 
@@ -85,7 +86,8 @@ Lookout Mobility Endpoint Security 테넌트가 Azure AD 구독과 연결되어 
 ## <a name="configure-enrollment-groups"></a>등록 그룹 구성
 1. [Azure AD 관리 포털](https://manage.windowsazure.com)에서 Lookout 통합을 테스트할 적은 수의 사용자를 포함하는 Azure AD 보안 그룹을 만드는 것이 좋습니다.
 
-    > [참고] 식별되고 지원되는 Azure AD 내 등록 그룹 사용자의 Lookout을 지원하는 모든 Intune 등록 장치가 Lookout MTD 콘솔에 등록되며 활성화될 수 있습니다.
+    > [!NOTE] 
+    > 식별되고 지원되는 Azure AD 내 등록 그룹 사용자의 모든 Lookout 지원, Intune 등록 장치가 Lookout MTD 콘솔에 등록되며 활성화할 수 있습니다.
 
 2. [Lookout 콘솔](https://aad.lookout.com)의 **시스템** 모듈에서 **커넥터** 탭, **등록 관리**를 차례로 선택하여 Lookout에서 해당 장치를 등록해야 하는 사용자 집합을 정의합니다. 등록할 Azure AD 보안 그룹 **표시 이름**을 추가합니다.
 

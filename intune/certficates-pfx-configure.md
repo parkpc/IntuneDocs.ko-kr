@@ -6,7 +6,7 @@ keywords:
 author: MicrosoftGuyJFlo
 ms.author: joflore
 manager: angrobe
-ms.date: 11/16/2017
+ms.date: 12/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid:
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 105b5fc73bc537eaca67a0e6943701ba25a53972
-ms.sourcegitcommit: 2b35c99ca7d3dbafe2dfe1e0b9de29573db403b9
+ms.openlocfilehash: b72c4899debb0bbb7cb755327606cad1e239c611
+ms.sourcegitcommit: 6d5c919286b0e285f709d9b918624b927f99f979
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 12/11/2017
 ---
 # <a name="configure-and-manage-pkcs-certificates-with-intune"></a>Intune을 사용하여 PKCS 인증서 구성 및 관리
 
@@ -101,22 +101,20 @@ VPN, WiFi 및 기타 리소스를 통해 인증하려면 각 장치에서 루트
 
 ![ConnectorDownload][ConnectorDownload]
 
-1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
-2. **Intune**, **장치 구성**, **인증 기관**으로 이동하여 **인증서 커넥터 다운로드**를 클릭합니다.
-   * 설치할 서버에서 액세스할 수 있는 위치에 다운로드를 저장합니다.
-3. Microsoft Intune Certificate Connector를 설치할 서버에 로그인합니다.
-4. 설치 프로그램을 실행하고 기본 위치를 적용합니다. 커넥터를 C:\Program Files\Microsoft Intune\NDESConnectorUI\NDESConnectorUI.exe에 설치합니다.
+1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+2. **Intune** 블레이드에서 **장치 구성**을 선택합니다. 
+3. **장치 구성** 블레이드에서 **인증 기관**을 선택합니다. 
+4. **추가**를 클릭하고 **커넥터 파일 다운로드**를 선택합니다. 설치할 서버에서 액세스할 수 있는 위치에 다운로드를 저장합니다. 
+5.  Microsoft Intune Certificate Connector를 설치할 서버에 로그인합니다.
+6.  설치 프로그램을 실행하고 기본 위치를 적용합니다. 커넥터를 C:\Program Files\Microsoft Intune\NDESConnectorUI\NDESConnectorUI.exe에 설치합니다.
+    1. 설치 프로그램 옵션 페이지에서 **PFX 배포**를 선택하고 **다음**을 클릭합니다.
+    2. **설치**를 클릭하고 설치가 완료될 때까지 기다립니다.
+    3. 완료 페이지에서 **Intune Connector 시작** 확인란을 선택하고 **마침**을 클릭합니다.
+7.  [NDES Connector] 창이 **등록** 탭으로 열립니다. Intune에 대한 연결을 사용하려면 **로그인**을 클릭하고 관리자 권한이 있는 계정을 제공합니다.
+8.  **고급** 탭에서 **이 컴퓨터의 시스템 계정 사용(기본값)** 라디오 단추를 선택한 상태로 둡니다.
+9.  **적용**을 클릭한 다음 **닫기**를 클릭합니다.
+10. 이제 Azure Portal에서 다시 이동합니다. 몇 분 후에 **Intune** > **장치 구성** > **인증 기관**의 **연결 상태** 아래에 녹색 확인 표시와 **활성** 단어가 표시됩니다. 이 확인을 통해 커넥터 서버가 Intune과 통신할 수 있음을 알 수 있습니다.
 
-      a. 설치 프로그램 옵션 페이지에서 **PFX 배포**를 선택하고 **다음**을 클릭합니다.
-
-   b. **설치**를 클릭하고 설치가 완료될 때까지 기다립니다.
-
-   c. 완료 페이지에서 **Intune 커넥터 시작** 확인란을 선택하고 **완료**를 클릭합니다.
-
-5. [NDES Connector] 창이 **등록** 탭으로 열립니다. Intune에 대한 연결을 사용하려면 **로그인**을 클릭하고 관리자 권한이 있는 계정을 제공해야 합니다.
-6. **고급** 탭에서 **이 컴퓨터의 시스템 계정 사용(기본값)** 라디오 단추를 선택한 상태로 둡니다.
-7. **적용**을 클릭한 다음 **닫기**를 클릭합니다.
-8. 이제 Azure Portal에서 다시 이동합니다. **Intune**, **장치 구성**, **인증 기관**에서는 몇 분 후에 **연결 상태** 아래에 녹색 선택 표시와 **활성** 단어가 표시됩니다. 이 확인을 통해 커넥터 서버가 Intune과 통신할 수 있음을 알 수 있습니다.
 
 ## <a name="create-a-device-configuration-profile"></a>장치 구성 프로필 만들기
 
@@ -169,4 +167,4 @@ VPN, WiFi 및 기타 리소스를 통해 인증하려면 각 장치에서 루트
 
 [NavigateIntune]: ./media/certificates-pfx-configure-profile-new.png "Azure Portal에서 Intune으로 이동하여 신뢰할 수 있는 인증서에 대한 새 프로필을 만듭니다."
 [ProfileSettings]: ./media/certificates-pfx-configure-profile-fill.png "프로필을 만들고 신뢰할 수 있는 인증서를 업로드합니다."
-[ConnectorDownload]: ./media/certificates-pfx-configure-connector-download.png "Azure Portal에서 인증서 커넥터 다운로드"
+[ConnectorDownload]: ./media/certificates-download-connector.png "Azure Portal에서 인증서 커넥터 다운로드"  

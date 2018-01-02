@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 11/08/2017
+ms.date: 12/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 68d93fe98b89f27c947e07d79eca9a0e02dea582
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: 1c78c41b9883cac41b4506c1c02790008115e210
+ms.sourcegitcommit: a7c1e10e615e5c975bb5d52eca986c5cf5287687
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 12/07/2017
 ---
 # <a name="enroll-android-devices"></a>Android 장치 등록
 
@@ -69,6 +69,17 @@ Android 장치를 차단하거나 등록에서 개인적으로 소유한 Android
    - **모든 장치를 Android로 관리** Android for Work를 지원하는 장치를 비롯한 모든 Android 장치가 기존 Android 장치로 등록됩니다.
    - **지원되는 장치를 Android for Work로 관리** Android for Work를 지원하는 모든 장치가 Android for Work 장치로 등록됩니다. Android for Work를 지원하지 않는 Android 장치는 기본 Android 장치로 등록됩니다.
    - **이 사용자 그룹의 사용자에 대해서만 지원되는 장치를 Android for Work로 관리** Android for Work 관리 대상을 제한된 사용자 집합으로 지정할 수 있습니다. Android for Work를 지원하는 장치를 등록하도록 선택된 그룹 구성원만 Android for Work 장치로 등록됩니다. 다른 구성원은 모두 Android 장치로 등록됩니다. 이 설정은 Android for Work 파일럿 기간에 유용합니다.
+
+## <a name="approve-the-company-portal-app-in-the-managed-google-play-store"></a>관리되는 Google Play 스토어에서 회사 포털 앱 승인
+관리되는 Google Play 스토어에서 Android용 회사 포털 앱을 승인하여 자동 앱 업데이트를 받도록 해야 합니다. 승인하지 않으면 회사 포털이 결국 최신 상태가 아니게 되며, Microsoft에서 릴리스하는 중요한 버그 수정이나 새로운 기능을 받지 못할 수 있습니다.
+
+Intune 회사 포털을 승인하려면 다음 단계를 따르세요.
+
+1.  [관리되는 Google Play 스토어](https://play.google.com/work/apps/details?id=com.microsoft.windowsintune.companyportal)에서 회사 포털 앱을 다운로드합니다.
+2.  Android for Work에 대한 바인딩을 구성하는 데 사용한 것과 동일한 Google 계정으로 관리되는 Google Play 스토어에 로그인합니다.
+3.  **승인**을 클릭합니다.  새 대화 상자가 열립니다.
+4.  이 대화 상자에서 권한을 검토하고 **승인**을 클릭합니다. 회사 포털 앱이 장치의 회사 프로필을 관리할 수 있게 하려면 이러한 권한을 허용해야 합니다.
+5.  **앱이 새 권한을 요청할 때 승인 유지**를 선택하고 **저장**을 클릭합니다.
 
 <!--  ## Next steps for Android for Work
 After configuring the Android for Work binding and settings, you can do the following:

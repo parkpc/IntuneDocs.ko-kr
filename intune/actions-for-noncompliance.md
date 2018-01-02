@@ -15,11 +15,11 @@ ms.assetid: 6d0e0c4b-a562-44f3-82a4-80eb688d4733
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3adc3c01d4657accfdb5cd70970ff191d06a9aef
-ms.sourcegitcommit: a1c751959c9b3d5678bd9d67007e762df30eab59
+ms.openlocfilehash: 85eb19a07ce42dcaf61ce34637644761880cb0b9
+ms.sourcegitcommit: 548b9e6c1e50074a5ffb89160ae23ee3caa5ba65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="automate-actions-for-noncompliance"></a>비준수에 대한 작업 자동화
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 10/23/2017
 
 2가지 유형의 작업이 있습니다.
 
--   **전자 메일을 통해 최종 사용자에게 알림**: 최종 사용자에게 보내기 전에 전자 메일 알림을 사용자 지정할 수 있습니다. Intune에서는 회사 로고, 연락처 정보 및 추가 수신자를 포함하여 제목, 메시지 본문에 대한 사용자 지정을 제공합니다.
+-   **전자 메일을 통해 최종 사용자에게 알림**: 최종 사용자에게 보내기 전에 전자 메일 알림을 사용자 지정할 수 있습니다. Intune에서는 회사 로고, 연락처 정보 등을 포함하여 제목, 메시지 본문에 대한 사용자 지정을 제공합니다.
 
 -   **비준수 장치 표시**: 장치를 준수하지 않는 것으로 표시하는 시점 이후의 일정을 일 수로 결정할 수 있습니다. 이 작업은 즉시 수행되지만, 사용자에게 장치 준수 정책을 준수할 때까지의 유예 기간을 제공할 수도 있습니다.
 
@@ -67,7 +67,7 @@ ms.lasthandoff: 10/23/2017
 
     a.  Name
 
-    b.  제목
+    b.  주체
 
     c.  메시지
 

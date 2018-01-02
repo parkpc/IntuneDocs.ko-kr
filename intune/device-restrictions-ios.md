@@ -3,8 +3,8 @@ title: "iOS에 대한 Intune 장치 제한 설정"
 titleSuffix: Azure portal
 description: "iOS 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 11/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 73590192-54ca-4833-9f1d-83e1b654399f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2f35de553259921c76341fe5b4a824e60c71d4a5
-ms.sourcegitcommit: 0f877251e6adf4e45b918cc8dc9193626727f2d9
+ms.openlocfilehash: b871726c887916662986008010e0728811f2ba98
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="ios-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 iOS 장치 제한 설정
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/03/2017
 - **알림 설정 수정(감독 모드인 경우에만)** - 사용자가 장치 알림 설정을 변경할 수 있습니다.
 - **바탕 화면 수정(감독 모드인 경우에만)** - 사용자가 장치 배경 화면을 변경할 수 있습니다.
 - **엔터프라이즈 앱 신뢰 설정 수정(감독 모드인 경우에만)** - 사용자가 앱 스토어에서 다운로드하지 않은 앱을 신뢰하도록 선택할 수 있습니다.
-- **구성 프로필 변경** - 사용자가 구성 프로필 및 인증서를 설치하도록 허용합니다.
+- **구성 프로필 변경(감독 모드인 경우에만)** - 사용자가 구성 프로필을 설치하도록 허용합니다.
 - **활성화 잠금(감독 모드에만 해당)** - 감독된 iOS 장치에서 활성화 잠금을 설정합니다.
 
 ## <a name="configurations-requiring-supervision"></a>감독이 필요한 구성

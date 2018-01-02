@@ -4,9 +4,9 @@
 
 ## [회사에서 Intune을 사용하여 볼 수 있는 정보는 무엇인가요?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
 
-## [장치를 초기화하게 되면 어떻게 되나요?](what-happens-if-you-reset-your-device-cpwebsite.md)
+## [내 장치 다시 설정](what-happens-if-you-reset-your-device-cpwebsite.md)
 
-## [회사 포털에 로그인하는 방법](sign-in-to-the-company-portal.md)
+## [회사 포털에 로그인](sign-in-to-the-company-portal.md)
 
 ## [Android 장치 사용](using-your-android-device-with-intune.md)
 ### [Android 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
@@ -66,15 +66,15 @@
 ### [암호 설정 또는 변경](set-or-change-your-passcode-ios.md)
 ### [회사 포털을 사용하여 장치를 재설정하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-ios.md)
 ### [장치 재설정](reset-erase-your-device-cpwebsite.md)
-### [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-ios.md)
 ### [장치 등록 취소](unenroll-your-device-from-intune-ios.md)
 #### [장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-ios.md)
 ### [수동으로 장치 동기화](sync-your-device-manually-ios.md)
 
-### [iOS의 일반적인 문제 해결](troubleshoot-your-device-iOS.md)
+#### [iOS의 일반적인 문제 해결](troubleshoot-your-device-iOS.md)
 #### [손상된 iOS 장치 다시 연결](how-to-reconnect-a-compromised-ios-device.md)
 #### [회사에 오류 전송](send-errors-to-your-it-admin-ios.md)
 #### [Microsoft에 오류 전송](send-logs-to-microsoft-ios.md)
+#### [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-ios.md)
 #### [오류가 표시됨](you-get-an-error-while-using-the-company-portal-app-ios.md)
 #### [장치 식별](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md)
 #### [일련 번호 찾기](how-do-i-find-the-serial-number-on-my-device-ios.md)
@@ -97,11 +97,20 @@
 ### [macOS 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-macos.md)
 ### [macOS 장치 등록](enroll-your-device-in-intune-macos-cp.md)
 ### [레거시 macOS 장치 등록](enroll-your-device-in-intune-macos-legacy.md)
-### [이 장치는 약간 다릅니다.](device-little-different-jamf.md)
+### [macOS 장치 등록 취소](unenroll-your-device-from-intune-macos.md)
+
+### [macOS의 일반적인 문제 해결](troubleshoot-your-device-macos.md)
+#### [내 macOS 버전이 아직 지원되지 않음](your-macos-version-isnt-yet-supported.md)
+#### [macOS 장치 업데이트](you-need-to-update-your-macos-device.md)
+#### [회사 포털 오류 제출](send-errors-macos.md)
+#### [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-macos.md)
+#### [이 장치는 약간 다릅니다.](device-little-different-jamf.md)
+#### [일련 번호 찾기](how-do-i-find-the-serial-number-on-my-device-macos.md)
+#### [장치 식별](you-are-asked-to-identify-your-device-when-trying-to-enroll-macos.md)
 
 ## [Windows 장치 사용](using-your-windows-device-with-intune.md)
-### [Windows 10 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
-### [다른 버전의 Windows로 Windows 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
+### [Windows 10 장치 등록](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
+### [다른 Windows 버전 등록](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
 
 ### [Windows 장치 등록](enroll-your-device-in-intune-windows.md)
 ### [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
@@ -128,6 +137,6 @@
 #### [내 방화벽을 사용하도록 설정해야 하는 경우](you-need-to-enable-defender-firewall-windows.md)
 #### [UAC를 사용하도록 설정해야 하는 경우](you-need-to-enable-uac-windows.md)
 #### [Windows를 업데이트해야 하는 경우](you-need-to-update-os-build-version-windows.md)
-#### [Windows Defender를 켜야 하는 경우](turn-on-defender-windows.md) 
+#### [Windows Defender를 켜야 하는 경우](turn-on-defender-windows.md)
 
 ## [Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)

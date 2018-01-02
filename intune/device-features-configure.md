@@ -3,10 +3,10 @@ title: "Intune 장치 기능 설정 구성"
 titleSuffix: Azure portal
 description: "Intune을 사용하여 관리하는 장치에서 기능을 구성하는 방법을 알아봅니다.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
-ms.date: 06/03/2017
+ms.date: 12/7/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4a2723bfc0adecd9b6265b4af43e6fe185882b5e
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: ea280ac6858485aa4e3d64d11835f002c5bb35ca
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-configure-device-feature-settings-in-microsoft-intune"></a>Microsoft Intune에서 장치 기능 설정을 구성하는 방법
 
@@ -47,9 +47,10 @@ ms.lasthandoff: 09/15/2017
     - [iOS용 홈 화면 레이아웃 설정](home-screen-settings-ios.md)
     - [iOS용 앱 알림 설정](app-notification-settings-ios.md)
     - [iOS용 공유 장치 구성 설정](shared-device-settings-ios.md)
+    - [iOS 장치 Single Sign-On용 Intune 구성](sso-ios.md)
     - [iOS 장치용 웹 콘텐츠 필터 설정](web-content-filter-settings-ios.md)
 
-8. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
+8. 완료되면 **프로필 만들기** 블레이드로 돌아와서 **만들기**를 클릭합니다.
 
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
 계속해서 이 프로필을 그룹에 할당하려면 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.

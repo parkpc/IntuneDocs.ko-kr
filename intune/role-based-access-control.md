@@ -15,11 +15,11 @@ ms.assetid: ca3de752-3caa-46a4-b4ed-ee9012ccae8e
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e9dc65389485d2a77e351b5e781824eed0612054
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 791d93326ed1af173606d28639e92647ed7c1312
+ms.sourcegitcommit: a7c1e10e615e5c975bb5d52eca986c5cf5287687
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/07/2017
 ---
 # <a name="role-based-administration-control-rbac-with-intune"></a>Intune을 통한 RBAC(역할 기반 관리 제어)
 
@@ -36,7 +36,7 @@ RBAC를 사용하면 조직 내에서 다양한 Intune 작업을 수행할 수 �
 
 - **전역 관리자:** 이 역할의 사용자는 Azure AD의 모든 관리 기능뿐 아니라 Exchange Online, SharePoint Online, 비즈니스용 Skype Online 등 Azure AD에 페더레이션되는 서비스에도 액세스할 수 있습니다. Azure AD 테넌트에 등록하는 사람이 전역 관리자가 됩니다. 전역 관리자만이 다른 Azure AD 관리자 역할을 할당할 수 있습니다. 조직에 전역 관리자가 두 명 이상 있을 수도 있습니다. 전역 관리자는 모든 사용자 및 다른 모든 관리자의 암호를 다시 설정할 수 있습니다.
 
-- **Intune 서비스 관리자:** 이 역할의 사용자는 서비스 제공 시 Intune 내에서 전역 권한을 소유합니다. 또한 이 역할은 사용자/장치 관리 및 그룹 만들기/관리 기능도 제공합니다.
+- **Intune 서비스 관리자:** 이 역할의 사용자는 서비스 제공 시 Intune 내에서 전역 권한을 소유합니다. 또한 대체하는 Azure 제한 사항 외에도 이 역할은 사용자 및 장치를 관리하고 Intune 그룹을 만들고 관리하는 기능을 제공합니다.
 
 - **조건부 액세스 관리자:** 이 역할의 사용자는 조건부 액세스 정책을 확인, 생성, 수정, 삭제할 수만 있습니다.
 
