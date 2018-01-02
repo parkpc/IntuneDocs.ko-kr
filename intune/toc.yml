@@ -198,7 +198,7 @@
           href: device-logout-user.md
         - name: 사용자 제거
           href: device-remove-user.md
-        - name: Android 원격 제어
+        - name: 원격 제어 모바일 장치
           href: device-profile-android-teamviewer.md
         - name: Windows 10 PIN 재설정
           href: device-windows-pin-reset.md
@@ -236,6 +236,8 @@
               href: apps-add-android-for-work.md
             - name: Windows 10용 Office 365 앱
               href: apps-add-office365.md
+            - name: macOS용 Office 365 앱
+              href: apps-add-office365-macos.md
         - name: 앱 할당
           href: apps-deploy.md
         - name: 앱 모니터링
@@ -417,6 +419,10 @@
           href: app-modern-authentication-block.md
         - name: 조건부 액세스 규정 준수 모니터링
           href: conditional-access-exchange-monitor.md
+        - name: 준수를 위해 Intune과 Jamf Pro 통합
+          href: conditional-access-integrate-jamf.md
+        - name: Jamf Pro로 관리되는 Mac에서 준수 적용
+          href: conditional-access-assign-jamf.md
     - name: 앱 및 장치 데이터 보호
       items:
         - name: 앱 보호 정책 사용
