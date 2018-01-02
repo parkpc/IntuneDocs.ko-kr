@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 08/09/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,13 @@ ms.technology:
 ms.assetid: 7b668c37-40b9-4c69-8334-5d8344e78c24
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e34b9cd030244db4bdde78eedbb0f874f49fa1e1
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: ddcd4639c1f5a0949be46025e16e44d0b6ac6616
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="map-device-groups"></a>장치 그룹 매핑
-
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -54,7 +53,7 @@ ms.lasthandoff: 09/15/2017
 ### <a name="step-2---create-azure-active-directory-security-groups"></a>2단계 - Azure Active Directory 보안 그룹 만들기
 이 단계에서는 장치 범주 및 장치 범주 이름에 따라 Azure Portal에서 동적 그룹을 만듭니다.
 
-계속하려면 Azure Active Directory 설명서에서 [특성을 사용하여 고급 규칙 만들기](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/#using-attributes-to-create-rules-for-device-objects) 항목을 참조하세요. 
+계속하려면 Azure Active Directory 설명서에서 [특성을 사용하여 고급 규칙 만들기](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/#using-attributes-to-create-rules-for-device-objects) 항목을 참조하세요.
 
 이 섹션의 정보를 통해 **deviceCategory** 특성을 사용하는 고급 규칙이 있는 장치 그룹을 만듭니다. 예(**device.deviceCategory-eq** "*<the device category name you got from the Azure portal>*")
 
@@ -84,7 +83,7 @@ ms.lasthandoff: 09/15/2017
 
 iOS 및 Android 장치의 최종 사용자는 해당 장치를 등록할 경우 구성된 범주 목록에서 범주를 선택해야 합니다. 범주를 선택하고 등록을 완료한 후에 이 장치는 선택한 범주에 해당하는 Intune 장치 그룹 또는 Active Directory 보안 그룹에 추가됩니다.
 
-Windows 장치에 범주를 할당하려는 경우 최종 사용자는 장치를 등록한 후에 회사 포털 웹 사이트(portal.manage.microsoft.com)를 사용해야 합니다. Windows 장치에서 웹 사이트에 액세스한 다음 **메뉴** > **내 장치**로 이동합니다. 페이지에 나열되어 있는 등록된 장치를 선택하고 범주를 선택합니다. 
+최종 사용자는 플랫폼과 관계없이 장치를 등록한 후 언제든지 toportal.manage.microsoft.com으로 이동할 수 있습니다. 사용자가 회사 포털 웹 사이트에 액세스하여 **내 장치**로 이동하게 합니다. 페이지에 나열되어 있는 등록된 장치를 선택하고 범주를 선택할 수 있습니다.
 
 범주를 선택하고 나면 작성한 해당 그룹에 장치가 자동으로 추가됩니다. 범주를 구성하기 전에 장치를 이미 등록한 경우 최종 사용자에게는 회사 포털 웹 사이트의 장치에 대한 알림이 표시되며, 다음번에 iOS나 Android에서 회사 포털 앱에 액세스할 때 범주를 선택할지를 묻는 메시지가 표시됩니다.
 
@@ -92,5 +91,3 @@ Windows 장치에 범주를 할당하려는 경우 최종 사용자는 장치를
 - Azure Portal에서 장치 범주를 편집할 수 있지만 이 경우 해당 범주를 참조하는 모든 Azure Active Directory 보안 그룹을 수동으로 업데이트해야 합니다.
 
 - 범주를 삭제하면 해당 범주에 할당된 모든 장치의 범주 이름이 **할당되지 않음**으로 표시됩니다.
-
-

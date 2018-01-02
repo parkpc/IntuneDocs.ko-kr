@@ -3,10 +3,10 @@ title: "iOS 앱 보호 정책 설정"
 titlesuffix: Azure portal
 description: "이 항목에서는 iOS 장치에 대한 앱 보호 정책 설정을 설명합니다.\""
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: erikre
+ms.author: erikre
 manager: angrobe
-ms.date: 11/21/2017
+ms.date: 12/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 0f8b08f2-504c-4b38-bea2-b8a4ef0526b8
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 65a5f33030fa3a9011dfc2f5825021e12b68e4d0
-ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
+ms.openlocfilehash: e76ad371cd4d7baef7b5ea857ab0b207517d2bf8
+ms.sourcegitcommit: a99a5104400708b47ecee80075264d541b82874f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/09/2017
 ---
 #  <a name="ios-app-protection-policy-settings"></a>iOS 앱 보호 정책 설정
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -65,17 +65,17 @@ Intune 앱 보호 정책에서 특정 시나리오의 데이터 송수신을 허
 
 | 설정 | 사용 방법 | 기본값 |
 |------|------|------|
-| **액세스하려면 PIN 필요** | 이 앱을 사용하는 데 PIN을 요구하려면 **예**를 선택합니다. 회사 또는 학교 컨텍스트에서 앱을 처음으로 실행할 때 이 PIN을 설정하라는 메시지가 표시됩니다. 기본값은 **예**입니다.<br><br> PIN 강도에 대한 다음 설정을 구성합니다. <ul><li>**PIN 초기화 전 시도 횟수**: 초기화하기 전까지 PIN을 성공적으로 입력하기 위해 시도할 수 있는 횟수를 지정합니다. 기본값 = **5**.</li><li> **단순한 PIN 허용**: 1234 또는 1111과 같은 단순한 PIN 시퀀스를 사용할 수 있도록 허용하려면 **예**를 선택합니다. 단순한 순서를 사용하는 것을 방지하려면 **아니요**를 선택합니다. 기본값은 **예**입니다. </li><li> **PIN 길이**: PIN 시퀀스의 최소 자릿수를 지정합니다. 기본값은 **4**입니다. </li><li> **암호 설정**: 앱 보호 정책이 적용된 앱에 액세스하는 동안 메시지가 나타나면 암호를 설정할 수 있습니다. 암호는 하나 이상의 문자 또는 특수 문자로 정의할 수 있습니다. 암호는 온라인 또는 오프라인으로 작업할 때 적용됩니다. </li><li> **PIN 대신 지문 허용(iOS 8.0 이상)**: 사용자가 앱 액세스를 위해 PIN 대신 [Touch ID](https://support.apple.com/HT201371)를 사용하도록 허용하려면 **예**를 선택합니다. 기본값은 **예**입니다.</li></ul> iOS 장치에서 사용자가 PIN 대신 [Touch ID](https://support.apple.com/HT201371)를 사용하여 자신의 ID를 증명하도록 허용할 수 있습니다. 회사 또는 학교 계정으로 이 앱을 열려고 하면 PIN을 입력하는 대신 해당 지문 ID를 제공하라는 메시지가 표시됩니다. 이 설정을 사용하는 경우 회사 또는 학교 계정을 사용하는 동안 최근 실행 앱 미리 보기 이미지가 흐리게 표시됩니다. </li></ul><!-- <br><br>You can require a PIN expiration for targeted iOS apps. You can configure the PIN requirement and expiration date in days through the Azure portal. When required, a user will be required to set and use a new PIN before getting access to an iOS app. Only iOS apps that have app protection enabled with the Intune App SDK will support this feature.-->| PIN 필요: 예 <br><br> PIN 초기화 시도 횟수: 5 <br><br> 단순한 PIN 허용: 예 <br><br> PIN 길이: 4 <br><br> 지문 허용: 예 |
+| **액세스하려면 PIN 필요** | 이 앱을 사용하는 데 PIN을 요구하려면 **예**를 선택합니다. 회사 또는 학교 컨텍스트에서 앱을 처음으로 실행할 때 이 PIN을 설정하라는 메시지가 표시됩니다. PIN은 온라인 또는 오프라인으로 작업할 때 적용됩니다. 기본값은 **예**입니다.<br><br> PIN 강도에 대한 다음 설정을 구성합니다. <ul><li>**유형 선택**: 앱 보호 정책이 적용된 앱에 액세스하기 전에 숫자 또는 암호 유형 PIN의 요구 사항을 설정합니다. 숫자 요구 사항에는 숫자만 포함되고, 암호는 1자 이상의 문자나 특수 문자로 정의할 수 있습니다. 기본값은 **숫자**입니다.</li><li>**PIN 초기화 전 시도 횟수**: 초기화하기 전까지 PIN을 성공적으로 입력하기 위해 시도할 수 있는 횟수를 지정합니다. 기본값 = **5**.</li><li> **단순한 PIN 허용**: 사용자가 1234, 1111, abcd 또는 aaaa와 같은 단순한 PIN 시퀀스를 사용할 수 있도록 허용하려면 **예**를 선택합니다. 단순한 순서를 사용하는 것을 방지하려면 **아니요**를 선택합니다. 기본값은 **예**입니다. </li><li> **PIN 길이**: PIN 시퀀스의 최소 자릿수를 지정합니다. 기본값은 **4**입니다. </li><li> **PIN 대신 지문 허용(iOS 8.0 이상)**: 사용자가 앱 액세스를 위해 PIN 대신 [Touch ID](https://support.apple.com/HT201371)를 사용하도록 허용하려면 **예**를 선택합니다. 기본값은 **예**입니다.</li></ul> iOS 장치에서 사용자가 PIN 대신 [Touch ID](https://support.apple.com/HT201371)를 사용하여 자신의 ID를 증명하도록 허용할 수 있습니다. 회사 또는 학교 계정으로 이 앱을 열려고 하면 PIN을 입력하는 대신 해당 지문 ID를 제공하라는 메시지가 표시됩니다. 이 설정을 사용하는 경우 회사 또는 학교 계정을 사용하는 동안 최근 실행 앱 미리 보기 이미지가 흐리게 표시됩니다. </li></ul><!-- <br><br>You can require a PIN expiration for targeted iOS apps. You can configure the PIN requirement and expiration date in days through the Azure portal. When required, a user will be required to set and use a new PIN before getting access to an iOS app. Only iOS apps that have app protection enabled with the Intune App SDK will support this feature.-->| 액세스하려면 PIN 필요: 예 <br><br> 유형 선택: 숫자 <br><br> PIN 초기화 시도 횟수: 5 <br><br> 단순한 PIN 허용: 예 <br><br> PIN 길이: 4 <br><br> 지문 허용: 예 |
 | **액세스 시 회사 자격 증명 필요** | 앱 액세스에 PIN을 입력하는 대신 해당 회사 또는 학교 계정으로 로그인하도록 요구하려면 **예**를 선택합니다. 이 옵션을 **예**로 설정하면 PIN 또는 터치 ID에 대한 요구 사항이 재정의됩니다.  | 아니요 |
 | **관리되는 앱이 무단 해제 또는 루팅된 장치를 실행할 수 없도록 차단** |  이 앱이 무단 해제 또는 루팅된 장치에서 실행되는 것을 차단하려면 **예**를 선택합니다. 개인적인 작업에 이 앱을 계속 사용할 수 있지만 이 앱의 회사 또는 학교 데이터에 액세스하려면 다른 장치를 사용해야 합니다. | 예 |
 | **액세스 요구 사항을 다시 확인할 시간(분)** | 다음 설정을 구성합니다. <ul><li>**제한 시간**: 이전에 정책에서 정의된 액세스 요구 사항이 다시 확인되기까지 걸리는 시간(분)입니다. 예를 들어 관리자가 정책에서 PIN을 켠 후 사용자가 MAM 앱을 열고 PIN을 입력해야 합니다. 이 설정을 사용하는 경우 사용자가 **30분**(기본값) 동안은 MAM 앱에서 PIN을 다시 입력할 필요가 없습니다.</li><li>**오프라인 유예 기간**: MAM 앱이 오프라인 상태로 실행될 수 있는 시간(분)으로, 앱의 액세스 요구 사항이 다시 확인되기까지 걸리는 시간(분)을 지정합니다. 기본값 = **720**분(12시간). 이 기간이 만료되면 앱을 계속 실행하기 위해 AAD에 사용자 인증이 필요합니다.</li></ul>| 시간 제한: 30 <br><br> 오프라인: 720 |
-| **앱 데이터를 초기화하기 전의 오프라인 간격(일)** | 이 오랜 기간(관리자가 정의) 동안 오프라인으로 실행되고 나면 앱에서 사용자가 네트워크에 연결하고 다시 인증해야 합니다. 성공적으로 인증하고 나면 데이터에 계속 액세스할 수 있으며 오프라인 간격이 재설정됩니다.  사용자가 인증에 실패하면 앱에서 사용자 계정과 데이터를 선택적으로 초기화합니다.  선택적 초기화로 제거되는 데이터에 대한 자세한 내용은 [Intune-관리 앱에서 회사 데이터만 초기화하는 방법](https://docs.microsoft.com/en-us/intune/apps-selective-wipe)을 참조하세요. <br><br> | 90일 |
-| **장치 PIN을 관리하는 경우 앱 PIN 사용 안 함** | 등록된 장치에서 장치 잠금이 검색되는 경우 앱 PIN을 사용하지 않도록 설정하려면 **예**를 선택합니다. | 아니요 |
-| **Require minimum iOS operating system**(최소 iOS 운영 체제 필요) | 이 앱을 사용하기 위한 최소 iOS 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 iOS 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다. 이 정책은 단일 소수 자릿수 버전을 지원합니다(예: iOS 10.3). | 아니요 |
-| **Require minimum iOS operating system (Warning only)**(최소 iOS 운영 체제 필요(경고)) | 이 앱을 사용하기 위한 최소 iOS 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 iOS 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다. 이 정책은 단일 소수 자릿수 버전을 지원합니다(예: iOS 10.3). | 아니요 |
-| **Require minimum app version**(최소 앱 버전 필요) | 앱을 사용할 최소 앱 버전을 요구하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다.<br><br>응용 프로그램 간에 서로 다른 버전 지정 체계를 종종 있는 하나의 앱 (예를 들어 "Outlook 버전 정책")을 대상으로 하는 하나의 최소 응용 프로그램 버전으로는 정책을 만듭니다. <br><br> | 아니요 | 
-| **Require minimum app version (Warning only)**(최소 앱 버전 필요(경고)) | 이 앱을 사용하기 위한 최소 앱 버전을 권장하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다.<br><br>응용 프로그램 간에 서로 다른 버전 지정 체계를 종종 있는 하나의 앱 (예를 들어 "Outlook 버전 정책")을 대상으로 하는 하나의 최소 응용 프로그램 버전으로는 정책을 만듭니다. <br><br> | 아니요 | 
-| **Require minimum Intune app protection policy SDK version**(최소 Intune 앱 보호 정책 SDK 버전 필요) | 사용할 앱에 대한 최소 Intune 앱 보호 정책 SDK를 요구하려면 **예**를 선택합니다. 앱의 Intune 앱 보호 정책 SDK 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다. <br> <br> Intune 앱 보호 정책 SDK에 대한 자세한 내용은 [Intune 앱 SDK 개요](app-sdk.md)를 참조하세요. <br><br> | 아니요 |
+| **앱 데이터를 초기화하기 전의 오프라인 간격(일)** | 이 오랜 기간(관리자가 정의) 동안 오프라인으로 실행되고 나면 앱에서 사용자가 네트워크에 연결하고 다시 인증해야 합니다. 성공적으로 인증하고 나면 데이터에 계속 액세스할 수 있으며 오프라인 간격이 재설정됩니다.  사용자가 인증에 실패하면 앱에서 사용자 계정과 데이터를 선택적으로 초기화합니다.  선택적 초기화로 제거되는 데이터에 대한 자세한 내용은 [Intune-관리 앱에서 회사 데이터만 초기화하는 방법](https://docs.microsoft.com/en-us/intune/apps-selective-wipe)을 참조하세요. | 90일 |
+| **장치 PIN을 관리하는 경우 앱 PIN 사용 안 함** | 등록된 장치에서 장치 잠금이 검색되는 경우 앱 PIN을 사용하지 않도록 설정하려면 **예**를 선택합니다. <br><br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 |
+| **Require minimum iOS operating system**(최소 iOS 운영 체제 필요) | 이 앱을 사용하기 위한 최소 iOS 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 iOS 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다. 이 정책은 단일 소수 자릿수 버전을 지원합니다(예: iOS 10.3). <br><br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 |
+| **Require minimum iOS operating system (Warning only)**(최소 iOS 운영 체제 필요(경고)) | 이 앱을 사용하기 위한 최소 iOS 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 iOS 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다. 이 정책은 단일 소수 자릿수 버전을 지원합니다(예: iOS 10.3). <br><br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 |
+| **Require minimum app version**(최소 앱 버전 필요) | 앱을 사용할 최소 앱 버전을 요구하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다.<br><br>응용 프로그램 간에 서로 다른 버전 지정 체계를 종종 있는 하나의 앱 (예를 들어 "Outlook 버전 정책")을 대상으로 하는 하나의 최소 응용 프로그램 버전으로는 정책을 만듭니다. <br><br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 | 
+| **Require minimum app version (Warning only)**(최소 앱 버전 필요(경고)) | 이 앱을 사용하기 위한 최소 앱 버전을 권장하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다.<br><br>응용 프로그램 간에 서로 다른 버전 지정 체계를 종종 있는 하나의 앱 (예를 들어 "Outlook 버전 정책")을 대상으로 하는 하나의 최소 응용 프로그램 버전으로는 정책을 만듭니다. <br><br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 | 
+| **Require minimum Intune app protection policy SDK version**(최소 Intune 앱 보호 정책 SDK 버전 필요) | 사용할 앱에 대한 최소 Intune 앱 보호 정책 SDK를 요구하려면 **예**를 선택합니다. 앱의 Intune 앱 보호 정책 SDK 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다. <br> <br> Intune 앱 보호 정책 SDK에 대한 자세한 내용은 [Intune 앱 SDK 개요](app-sdk.md)를 참조하세요. <br><br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 |
 
 
 ##  <a name="add-ins-for-outlook-app"></a>Outlook 앱용 추가 기능

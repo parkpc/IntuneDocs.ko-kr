@@ -6,7 +6,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/30/2017
+ms.date: 12/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: c87fd2bd-7f53-4f1b-b985-c34f2d85a7bc
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 06cc4d70b30ec92946baefbc020aa4cda28b0c88
-ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
+ms.openlocfilehash: fd9a9444d5a91a44672d9e0a60fb6da961883986
+ms.sourcegitcommit: 548b9e6c1e50074a5ffb89160ae23ee3caa5ba65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="enforce-compliance-on-macs-managed-with-jamf-pro"></a>Jamf Pro로 관리되는 Mac에서 준수 적용
 
@@ -42,12 +42,9 @@ Azure Active Directory 및 Microsoft Intune의 조건부 액세스 정책을 사
 
 ## <a name="deploy-the-company-portal-app-for-macos-in-jamf-pro"></a>Jamf Pro에서 macOS용 회사 포털 앱 배포
 
-Jamf Pro에서 macOS용 회사 포털 앱을 배포할 수 있는 방법은 두 가지입니다.
+아래 절차에 따라 Jamf Pro에서 macOS용 회사 포털 앱을 백그라운드 설치로 배포해야 합니다.
 
-- Jamf Self Service에서 회사 포털 앱 배포를 사용할 수 있게 하거나,
-- 사용자가 아래 절차를 따르도록 백그라운드 설치로 제공합니다.
-
-1. macOS 장치에서 [macOS용 회사 포털 앱](https://go.microsoft.com/fwlink/?linkid=862280)의 현재 버전을 다운로드합니다.
+1. macOS 장치에서 [macOS용 회사 포털 앱](https://go.microsoft.com/fwlink/?linkid=862280)의 현재 버전을 다운로드합니다. 설치하지는 않습니다. Jamf Pro에 업로드할 앱 복사본이 필요합니다.
 2. Jamf Pro를 열고 **컴퓨터 관리** > **패키지**로 이동합니다.
 3. macOS용 회사 포털 앱이 포함된 새 패키지를 만든 다음 **저장**을 클릭합니다.
 4. **컴퓨터** > **정책**을 열고 **새로 만들기**를 선택합니다.
@@ -71,7 +68,7 @@ Jamf Pro에서 macOS용 회사 포털 앱을 배포할 수 있는 방법은 두 
 > 장치 등록을 시작하려면 회사 포털 앱을 Jamf Self Service에서 시작해야 합니다. <br><br>회사 포털 앱을 수동으로 시작하는 경우(예: 응용프로그램 또는 다운로드 폴더에서) 장치가 등록되지 않습니다. 최종 사용자가 회사 포털 앱을 수동으로 시작하면 'AccountNotOnboarded' 경고가 표시됩니다.
 
 1. Jamf Pro에서 **컴퓨터** > **정책**으로 이동하고 장치 등록을 위한 새 정책을 만듭니다.
-2. 트리거 및 실행 빈도를 포함하여 **Microsoft Intune 통합** 페이로드를 구성합니다. 우선 순위를 **뒤**로 설정합니다.
+2. 트리거 및 실행 빈도를 포함하여 **Microsoft Intune 통합** 페이로드를 구성합니다.
 3. **범위** 탭을 클릭하고 정책 범위를 모든 대상 장치로 지정합니다.
 4. **Self Service** 탭을 클릭하여 정책을 Jamf Self Service에서 사용 가능하게 설정합니다. **장치 준수** 범주에 정책을 포함합니다. **Save**을 클릭합니다.
 
