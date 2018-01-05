@@ -142,7 +142,7 @@
         - name: 등록 옵션
           href: enrollment-options.md
           items:
-            - name: 사용 조건
+            - name: Terms and conditions
               href: terms-and-conditions-create.md
             - name: 제한 사항
               href: enrollment-restrictions-set.md
@@ -581,7 +581,7 @@
           items:
             - name: 앱당 VPN 프로필
               href: android-pulse-secure-per-app-vpn.md
-            - name: Samsung KNOX Standard에 대해 앱 허용/차단
+            - name: Samsung Knox Standard에 대해 앱 허용/차단
               href: samsung-knox-apps-allow-block.md
         - name: iOS
           href: custom-settings-ios.md
