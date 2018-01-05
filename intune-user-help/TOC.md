@@ -27,12 +27,14 @@
 ### [Android의 일반적인 문제 해결](troubleshoot-your-device-android.md)
 #### [장치 준수 확인](check-compliance-on-your-device-android.md)
 #### [배터리 절약 모드로 Outlook 전자 메일 동기화](power-saving-mode-android.md)
+#### [Samsung Knox의 일반적인 문제 해결](samsung-knox-errors-android.md)
 
 #### 로그를 사용하여 문제 해결
 ##### [자세한 정보 로깅 설정](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
 ##### [전자 메일을 사용하여 로그 보내기](send-logs-to-your-it-admin-by-email-android.md)
 ##### [USB 케이블을 사용하여 로그 보내기](send-logs-to-your-it-admin-using-cable-android.md)
 ##### [등록 오류 제출](send-enrollment-errors-to-your-it-admin-android.md)
+##### [Microsoft에 오류 전송](send-logs-to-microsoft-android.md)
 
 ### 운영 체제 질문
 #### [장치 업데이트](you-need-to-update-your-android-device.md)
@@ -74,6 +76,7 @@
 #### [손상된 iOS 장치 다시 연결](how-to-reconnect-a-compromised-ios-device.md)
 #### [회사에 오류 전송](send-errors-to-your-it-admin-ios.md)
 #### [Microsoft에 오류 전송](send-logs-to-microsoft-ios.md)
+#### [기존 회사 메일 계정 찾음](existing-company-email-account-found.md)
 #### [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-ios.md)
 #### [오류가 표시됨](you-get-an-error-while-using-the-company-portal-app-ios.md)
 #### [장치 식별](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md)
@@ -109,13 +112,13 @@
 #### [장치 식별](you-are-asked-to-identify-your-device-when-trying-to-enroll-macos.md)
 
 ## [Windows 장치 사용](using-your-windows-device-with-intune.md)
-### [Windows 10 장치 등록](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
-### [다른 Windows 버전 등록](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
-
+### [Windows 10 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
+#### [다른 버전의 Windows를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
 ### [Windows 장치 등록](enroll-your-device-in-intune-windows.md)
-### [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
+#### [Windows 10 장치 등록](enroll-your-w10-phone-or-w10-pc-windows.md)
+#### [Windows 8.1 또는 Windows RT 8.1 장치 등록](enroll-your-w81-or-rt81-windows.md)
+#### [Windows Phone 8.1 장치 등록](enroll-your-wp81-windows.md)
 ### [장치 재설정](reset-erase-your-device-cpwebsite.md)
-
 ### [장치 암호화](encrypt-your-device-windows.md)
 ### [암호 설정 또는 변경](set-or-change-your-password-windows.md)
 ### [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-windows.md)
