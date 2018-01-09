@@ -2,10 +2,10 @@
 title: "Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정"
 description: "이 항목의 정보는 LOB(기간 업무) 앱이 모바일 앱 관리 정책을 사용하도록 하기 위해 앱 줄 바꿈 도구 및 앱 SDK를 사용해야 하는 경우를 결정하는 데 도움이 됩니다."
 keywords: 
-author: mattbriggs
-ms.author: mabriggs
+author: erikre
+ms.author: erikre
 manager: angrobe
-ms.date: 02/08/2017
+ms.date: 08/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: oldang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e6c464e16079df0c1188870b234615c811963f08
-ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
+ms.openlocfilehash: 40d0ddf78ed181dfc712bbaeee9499e3c56753ca
+ms.sourcegitcommit: 9fabf1a8db53842f7b00762374de5b137158ee25
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>앱 보호 정책에 대해 LOB(기간 업무) 앱 준비
 
@@ -50,7 +50,7 @@ Intune에 등록되지 않은 장치의 앱 보호 정책에 대한 앱 래핑 �
 |**앱 래핑 도구** | **Xamarin** |**Cordova** |
 |------|----|----|
 |**iOS** |예|예|
-|**Android**| 아니요 |예|
+|**OWA(Outlook Web Access)**| 아니요 |예|
 
 ## <a name="intune-app-sdk"></a>Intune 앱 SDK
 앱 SDK는 주로 Apple 앱 스토어 및/또는 Google Play 스토어에 앱이 있으며 Intune으로 앱을 관리할 수 있기를 원하는 고객을 위해 설계되었습니다. 그러나 기간 업무 앱을 비롯한 모든 앱은 SDK 통합을 활용할 수 있습니다.
@@ -69,7 +69,7 @@ SDK에 대해 자세히 알아보려면 [개요](app-sdk.md) 항목을 참조하
 
 |**Intune 앱 SDK** |**Xamarin** |**Cordova**
 |------|----|----|
-|**Android**|예 – [Intune 앱 SDK Xamarin 구성 요소](app-sdk-xamarin.md) 사용|예 – [Intune 앱 SDK Cordova 플러그인](app-sdk-cordova.md) 사용|
+|**iOS**|예 – [Intune 앱 SDK Xamarin 구성 요소](app-sdk-xamarin.md) 사용|예 – [Intune 앱 SDK Cordova 플러그인](app-sdk-cordova.md) 사용|
 |**OWA(Outlook Web Access)**| 예 – [Intune 앱 SDK Xamarin 구성 요소](app-sdk-xamarin.md) 사용|예 – [Intune 앱 SDK Cordova 플러그인](app-sdk-cordova.md) 사용|
 
 ## <a name="feature-comparison"></a>기능 비교
@@ -85,7 +85,7 @@ SDK에 대해 자세히 알아보려면 [개요](app-sdk.md) 항목을 참조하
 |앱이 다른 앱으로 데이터를 전송하도록 허용|X|X|
 |앱이 다른 앱의 데이터를 받도록 허용|X|X|
 |다른 앱에서 잘라내기, 복사 및 붙여넣기 제한|X|X|
-|액세스 시 단순 PIN 필요|X|X|
+|액세스용 단순 PIN 필요|X|X|
 |기본 제공 앱 PIN을 Intune PIN으로 바꾸기|X||
 |PIN을 다시 설정하기 전 시도 횟수 지정|X|X|
 |PIN 대신 지문 허용 |X|X|

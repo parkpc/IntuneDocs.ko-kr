@@ -2,8 +2,8 @@
 title: "모바일 앱 관리(MAM) | Microsoft 문서"
 description: "Intune 데이터 웨어하우스 API에서 엔터티 컬렉션의 모바일 앱 관리 범주에 대한 항목을 참조하세요."
 keywords: "Intune 데이터 웨어하우스"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 07/31/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 084F11AD-F7BA-45A4-8424-45E6E4564930
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 32b5f3515c0b77ea8f411c1c1f42e7b44669ca23
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: 4951ec43b2abdb52af091b2d1366bd23a9c2ab5b
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="reference-for-mobile-app-management-mam-entities"></a>모바일 앱 관리(MAM) 엔터티에 대한 참조
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 10/20/2017
 
 **MamApplication** 엔터티는 회사에 등록하지 않고 모바일 앱 관리(MAM)를 통해 관리되는 LOB(기간 업무) 앱을 나열합니다.
 
-| 속성 | 설명 | 예 |
+| 속성 | 설명 | 예제 |
 |---------|------------|--------|
 | ApplicationKey |데이터 웨어하우스의 MAM 앱에 대한 고유 식별자 |123 |
 | ApplicationName |MAM 앱의 이름 |"Word" |
@@ -50,7 +50,7 @@ ms.lasthandoff: 10/20/2017
 
 **MamApplicationInstance** 엔터티는 장치별 사용자당 단일 인스턴스로서 관리되는 모바일 앱 관리(MAM) 앱을 나열합니다. 엔터티 내 모든 사용자 및 장치에 MAM 정책이 하나 이상 할당되어 있으므로 모두 보호됩니다.
 
-| 속성 | 설명 | 예 |
+| 속성 | 설명 | 예제 |
 |---------|------------|--------|
 | ApplicationInstanceKey |데이터 웨어하우스의 MAM 앱 인스턴스에 대한 고유 식별자 - 서로게이트 키 |123 |
 | UserId |해당 MAM 앱을 설치한 사용자의 사용자 ID |b66bc706-ffff-7437-0340-032819502773 |
@@ -75,7 +75,7 @@ ms.lasthandoff: 10/20/2017
 > [!Note]  
 > 앱 인스턴스가 하루에 여러 번 체크인할 경우 데이터 웨어하우스는 이를 단일 체크인으로 저장합니다.
 
-| 속성 | 설명 | 예 |
+| 속성 | 설명 | 예제 |
 |---------|------------|--------|
 | DateKey |데이터 웨어하우스에서 MAM 앱 체크 인을 기록한 날짜 키 | 20160703 |
 | ApplicationInstanceKey |해당 MAM 앱 체크 인에 연결된 앱 인스턴스의 키 |5/2/1900 12:00:00 AM |
@@ -90,7 +90,7 @@ ms.lasthandoff: 10/20/2017
 
 **MamDeviceHealth** 엔터티는 탈옥 장치라고 해도 모바일 앱 관리(MAM) 정책이 배포된 장치를 나타냅니다.
 
-| 속성 | 설명 | 예 |
+| 속성 | 설명 | 예제 |
 |---------|------------|--------|
 | DeviceHealthKey |데이터 웨어하우스의 장치 및 관련 상태에 대한 고유 식별자 - 서로게이트 키 |1/1/1900 12:00:00 AM |
 | DeviceHealth |장치 및 관련 상태에 대한 고유 식별자 - DeviceHealthKey와 비슷하지만 자연 키입니다 |1/1/1900 12:00:00 AM |
@@ -101,7 +101,7 @@ ms.lasthandoff: 10/20/2017
 
 **MamEffectivePolicy** 엔터티는 조직에 적용되는 모든 모바일 앱 관리(MAM) 실효 정책을 나열합니다. 특정 앱 및 사용자와 관련된 모든 정책을 병합하여 얻은 발효된 적용 정책 결과입니다.
 
-| 속성 | 설명 | 예 |
+| 속성 | 설명 | 예제 |
 |---------|------------|--------|
 | EffectivePolicyKey |데이터 웨어하우스의 효과적인 MAM 정책에 대한 고유 식별자 |2 |
 | RealPolicyKey |IT Pro가 작성하는 MAM 정책의 고유 식별자입니다. |1 |
@@ -111,7 +111,7 @@ ms.lasthandoff: 10/20/2017
 
 **MamGlobalApplication** 엔터티는 회사에 등록하지 않고 모바일 앱 관리(MAM)를 통해 관리되는 스토어 앱을 나열합니다.
 
-| 속성 | 설명 | 예 |
+| 속성 | 설명 | 예제 |
 |---------|------------|--------|
 | ApplicationKey |대리 키로 알려진 데이터 웨어하우스의 스토어 앱의 고유 식별자입니다. |123 |
 | ApplicationId |스토어 앱의 고유 식별자입니다. ApplicationKey와 비슷하지만 자연 키 식별자입니다. |com.microsoft.skydrive.<ios> |
@@ -122,9 +122,9 @@ ms.lasthandoff: 10/20/2017
 
 **MamPlatform** 엔터티는 모바일 앱 관리(MAM) 앱이 설치된 플랫폼 이름과 유형을 나열합니다.
 
-| 속성 | 설명 | 예 |
+| 속성 | 설명 | 예제 |
 |---------|------------|--------|
 | PlatformKey |데이터 웨어하우스의 플랫폼에 대한 고유 식별자 - 서로게이트 키 |123 |
 | 플랫폼 |플랫폼에 대한 고유 식별자 - PlatformKey와 비슷하지만 자연 키입니다. |123 |
-| PlatformName |플랫폼 이름 |사용할 수 없음 <br>없음 <br>Windows <br>IOS <br>Android: |
+| PlatformName |플랫폼 이름 |사용할 수 없음 <br>없음 <br>Windows <br>iOS <br>Android: |
 | RowLastModifiedDateTimeUtc |데이터 웨어하우스에서 해당 플랫폼을 마지막으로 수정한 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |

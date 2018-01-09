@@ -2,8 +2,8 @@
 title: "데이터 웨어하우스 데이터 모델 | Microsoft 문서"
 description: "Intune 데이터 웨어하우스 샘플 데이터는 항상 변화하는 모바일 환경에 대한 과거 보기를 제공합니다."
 keywords: "Intune 데이터 웨어하우스"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 11/14/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 4D04D3D9-4B6C-41CD-AAF8-466AF8FA6032
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 29825c58febc813c7b11072699d06106725584d3
-ms.sourcegitcommit: d26930f45ba9e6292a49bcb08defb5b3f14b704b
+ms.openlocfilehash: bb4248c773e30244beb310a5b5c8b3fb0bb9d5f0
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="data-warehouse-data-model"></a>데이터 웨어하우스 데이터 모델
 

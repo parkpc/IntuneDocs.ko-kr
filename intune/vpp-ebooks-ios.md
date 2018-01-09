@@ -3,8 +3,8 @@ title: "대량 구매 iOS 전자책 관리"
 titlesuffix: Azure portal
 description: "iOS 스토어에서 대량 구매한 책을 Intune에 동기화하고 해당 사용을 추적 및 관리하는 방법을 알아봅니다.\""
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 08/17/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: f5617074-2384-4812-b913-dc94f64c0818
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 16f1e720e94ac8c6b35158477b41bfaeac9dc0a8
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 78f4ce4b8b37e519e8cb377030a7b119b6a64d92
+ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 12/30/2017
 ---
 # <a name="how-to-manage-ios-ebooks-you-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Microsoft Intune을 사용하여 대량 구매 프로그램을 통해 구매한 iOS 전자책을 관리하는 방법
 

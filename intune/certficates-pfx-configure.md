@@ -15,11 +15,11 @@ ms.assetid:
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b72c4899debb0bbb7cb755327606cad1e239c611
-ms.sourcegitcommit: 6d5c919286b0e285f709d9b918624b927f99f979
+ms.openlocfilehash: a51d260718e0d0c3984966fab69e202b854c1847
+ms.sourcegitcommit: b2467a653ffd36c2248a30b69cb88e3dc7cca2ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="configure-and-manage-pkcs-certificates-with-intune"></a>Intune을 사용하여 PKCS 인증서 구성 및 관리
 
@@ -55,10 +55,11 @@ VPN, WiFi 및 기타 리소스를 통해 인증하려면 각 장치에서 루트
 
    예를 들면 다음과 같습니다.
 
+4.  마법사를 완료한 후 마법사를 닫기 전에 **인증서 커넥터 UI 시작**을 클릭합니다.
+
    `certutil -ca.cert certnew.cer`
 
    자세한 내용은 [인증서 관리를 위한 Certutil 작업](https://technet.microsoft.com/library/cc772898.aspx#BKMK_ret_sign)을 참조하세요.
-
 
 ## <a name="configure-certificate-templates-on-the-certification-authority"></a>인증 기관에서 인증서 템플릿 구성
 

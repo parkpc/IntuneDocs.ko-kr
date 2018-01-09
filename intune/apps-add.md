@@ -3,8 +3,8 @@ title: "Microsoft Intune에 앱을 추가하는 방법"
 titlesuffix: Azure portal
 description: "사용자 및 장치에 할당할 준비가 된 앱을 Intune으로 가져오는 절차를 설명합니다. \""
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 07/17/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: a1ded457-0ecf-4f9c-a2d2-857d57f8d30a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 108f789f16304498cf54387326d112353bf70aa2
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: b33e15e8bd6597464bfe54a5152a872889d08e15
+ms.sourcegitcommit: 9fabf1a8db53842f7b00762374de5b137158ee25
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="how-to-add-an-app-to-microsoft-intune"></a>Microsoft Intune에 앱을 추가하는 방법
 
