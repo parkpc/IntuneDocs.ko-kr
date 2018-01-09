@@ -2,8 +2,8 @@
 title: "REST 클라이언트를 사용하여 데이터 웨어하우스 API에서 데이터 가져오기"
 description: "RESTful API를 사용하여 Intune 데이터 웨어하우스에서 데이터를 검색합니다."
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 07/31/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: D6D15039-4036-446C-A58F-A5E18175720A
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: fb75d895a2100172fab337dcd740c076ff5e85b7
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: 4991a2b26b97428fc54234ff35871d446107b950
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="get-data-from-the-intune-data-warehouse-api-with-a-rest-client"></a>REST 클라이언트를 사용하여 Intune 데이터 웨어하우스 API에서 데이터 가져오기
 
@@ -76,7 +76,7 @@ Postman과 같은 제네릭 REST 클라이언트를 사용하여 Intune 데이�
 
 Postman을 사용하여 REST 호출을 수행하려면 다음 정보가 필요합니다.
 
-| 특성        | 설명                                                                                                                                                                          | 예                                                                                       |
+| 특성        | 설명                                                                                                                                                                          | 예제                                                                                       |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | 콜백 URL     | 앱 설정 페이지에서 이를 콜백 URL로 설정합니다.                                                                                                                              | https://www.getpostman.com/oauth2/callback                                                    |
 | 토큰 이름       | Azure 앱에 자격 증명을 전달하는 데 사용되는 문자열입니다. 이 프로세스에서는 데이터 웨어하우스 API를 호출할 수 있도록 토큰을 생성합니다.                          | 전달자                                                                                        |

@@ -3,8 +3,8 @@ title: "Intune에 Windows Phone 기간 업무 앱을 추가하는 방법"
 titlesuffix: Azure portal
 description: "Intune에 Windows Phone 기간 업무 앱을 추가하는 방법을 알아봅니다.\""
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 10/3/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: a097b7b2-d01d-454b-954c-da4f3cd0ae86
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 60776df3774d4f9ca7404ef04b1cc94536bcd164
-ms.sourcegitcommit: 4b776d1a87c0707244f4ae0122de882e0eef6fa3
+ms.openlocfilehash: 93bb2f6b0515febf4b85cb5d11dee379cad46bf5
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="how-to-add-windows-phone-line-of-business-lob-apps-to-microsoft-intune"></a>Microsoft Intune에 Windows Phone LOB(기간 업무) 앱을 추가하는 방법
 

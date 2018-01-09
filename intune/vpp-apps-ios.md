@@ -3,10 +3,10 @@ title: "iOS 대량 구매 앱 관리 | Microsoft 문서"
 titlesuffix: Azure portal
 description: "iOS 스토어에서 대량 구매한 앱을 Intune에 동기화하고 해당 사용을 추적 및 관리하는 방법을 알아봅니다.\""
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: erikre
+ms.author: erikre
 manager: angrobe
-ms.date: 11/20/2017
+ms.date: 12/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 51d45ce2-d81b-4584-8bc4-568c8c62653d
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 620957c04d4114d1f12e9b44101704c370663d3b
-ms.sourcegitcommit: 9ccdac76e0b0716723452a6675b091f15a4d31f2
+ms.openlocfilehash: f820be41c532384f9f2db57e0e0e497a05307d73
+ms.sourcegitcommit: 06abc5ccc8b868c9ff3ad3f8f62473a87b2da481
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/15/2017
 ---
 # <a name="how-to-manage-ios-apps-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Microsoft Intune을 사용하여 대량 구매 프로그램을 통해 구매한 iOS 앱을 관리하는 방법
 
@@ -38,9 +38,9 @@ Microsoft Intune에서는 다음을 수행하여 이 프로그램을 통해 구�
 
 ### <a name="device-licensing"></a>장치 라이선싱
 
-장치에 앱을 할당하면 하나의 앱 라이선스가 사용되고 사용자가 할당한 장치와 연결된 상태로 남아 있습니다. 
+장치에 앱을 할당하면 하나의 앱 라이선스가 사용되고 사용자가 할당한 장치와 연결된 상태로 남아 있습니다.
 
-장치에 대량 구매 앱을 할당하면 장치의 최종 사용자가 Store에 액세스하기 위해 Apple ID를 제공하지 않아도 됩니다. 
+장치에 대량 구매 앱을 할당하면 장치의 최종 사용자가 Store에 액세스하기 위해 Apple ID를 제공하지 않아도 됩니다.
 
 ### <a name="user-licensing"></a>사용자 라이선스
 
@@ -92,7 +92,8 @@ Microsoft Intune에서는 다음을 수행하여 이 프로그램을 통해 구�
         > 국가를 변경하면 이 토큰으로 만든 앱에 대한 Apple 서비스를 통한 다음 동기화에서 앱 메타데이터와 스토어 URL이 업데이트됩니다. 앱이 새 국가별 스토어에 없으면 해당 앱은 업데이트되지 않습니다.
 
     - **VPP 계정 유형** - **비즈니스** 또는 **교육**을 선택합니다.
-    - **자동 앱 업데이트** - **켜기**를 **끄기**로 선택하여 자동 업데이트를 사용하도록 설정합니다. 이 기능을 사용하면 장치가 검사할 때 Intune은 Intune 서비스를 통해 지정된 토큰에서 구입한 모든 앱을 업데이트합니다. 또한 앱 스토어 내의 VPP 앱 업데이트를 검색하고 장치가 체크 인하면 자동으로 장치에 푸시합니다.
+    - **자동 앱 업데이트** - **켜기**를 **끄기**로 선택하여 자동 업데이트를 사용하도록 설정합니다. 이 기능을 사용하면 장치가 검사할 때 Intune은 Intune 서비스를 통해 지정된 토큰에서 구입한 모든 앱을 업데이트합니다.
+또한 앱 스토어 내의 VPP 앱 업데이트를 검색하고 장치가 체크 인하면 자동으로 장치에 푸시합니다.
 4. 완료되면 **업로드**를 선택합니다.
 
 토큰은 토큰 목록 블레이드에 표시됩니다.
@@ -119,8 +120,8 @@ Microsoft Intune에서는 다음을 수행하여 이 프로그램을 통해 구�
 
 | # | 시나리오                                | Apple VPP 프로그램에 초대                              | 앱 설치 프롬프트 | Apple ID에 대한 프롬프트 |
 |---|--------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------|-----------------------------------|
-| 1 | BYOD – 사용이 허가된 사용자                             | Y                                                                                               | 지원                                           | Y                                 |
-| 2 | 회사 – 사용이 허가된 사용자(감독되지 않은 장치)     | Y                                                                                               | 지원                                           | Y                                 |
+| 1 | BYOD – 사용이 허가된 사용자                             | Y                                                                                               | Y                                           | Y                                 |
+| 2 | 회사 – 사용이 허가된 사용자(감독되지 않은 장치)     | Y                                                                                               | Y                                           | Y                                 |
 | 3 | 회사 – 사용이 허가된 사용자(감독된 장치)         | Y                                                                                               | N                                           | Y                                 |
 | 4 | BYOD – 사용이 허가된 장치                           | N                                                                                               | Y                                           | N                                 |
 | 5 | 회사 – 사용이 허가된 장치(감독되지 않은 장치)                           | N                                                                                               | Y                                           | N                                 |
@@ -134,6 +135,8 @@ Microsoft Intune에서는 다음을 수행하여 이 프로그램을 통해 구�
 ## <a name="further-information"></a>추가 정보
 
 라이선스를 회수하려면 할당 작업을 **제거**로 변경해야 합니다. 앱이 제거된 후에는 라이선스가 회수됩니다. 사용자에게 할당된 앱을 제거하면 Intune에서 해당 사용자와 연결되었던 모든 앱 라이선스를 회수하려고 합니다.
+
+<!-- 820879 -->You can delete a iOS Volume Purchasing Program (VPP) token using the console. This may be necessary when you have duplicate instances of a VPP token. Deleting a token will also delete any associated apps and assignment. However, deleting a token does not revoke app licenses. Intune cannot revoke app licenses after a token has been deleted. 
 
 적합한 장치를 가진 사용자가 장치에 VPP 앱을 처음 설치하려고 하면 Apple Volume Purchase Program에 가입하라는 메시지가 표시됩니다. 가입해야만 앱 설치가 진행됩니다. Apple 대량 구매 프로그램 참여 초대를 받으려면 사용자가 iOS 장치에서 iTunes 앱을 사용할 수 있어야 합니다. iTunes Store 앱을 사용하지 않도록 하는 정책을 설정한 경우에는 VPP 앱용 사용자 기반 라이선싱이 적용되지 않습니다. 이 경우에는 정책을 제거하여 iTunes 앱을 허용하거나, 장치 기반 라이선싱을 사용하면 됩니다.
 
