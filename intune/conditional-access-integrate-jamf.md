@@ -6,7 +6,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/29/2017
+ms.date: 01/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 4b6dcbcc-4661-4463-9a36-698d673502c6
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 87ddb1a5f6ca5cc9be2815aacc9c1570a51e792f
-ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
+ms.openlocfilehash: 8207c77688bcc6e14064322ab2447435c2377b09
+ms.sourcegitcommit: 229f9bf89efeac3eb3d28dff01e9a77ddbf618eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-jamf-pro-with-intune-for-compliance"></a>준수를 위해 Intune과 Jamf Pro 통합
 
@@ -28,18 +28,12 @@ ms.lasthandoff: 12/01/2017
 |클래식 포털의 Intune에 대한 설명서를 찾으시나요? [여기로 이동](/intune/introduction-intune?toc=/intune-classic/toc.json)하세요.|
 | |
 
-|현재 비공개 미리 보기|
-|--|
-|이 항목에 설명된 기능은 현재 고객에게 비공개 미리 보기로만 제공됩니다. 모든 고객에게 릴리스되면 이 메시지는 제거됩니다.|
-| |
-
 조직에서 [Jamf Pro](https://www.jamf.com)를 사용하여 최종 사용자의 Mac를 관리하는 경우 Azure Active Directory 조건부 액세스 권한을 가진 Microsoft Intune 준수 정책을 사용하여 조직의 장치가 규정을 준수하도록 합니다.
 
 ## <a name="prerequisites"></a>전제 조건
 
 Jamf Pro를 사용하여 조건부 액세스를 구성하려면 다음이 필요합니다.
 
-- macOS 조건부 액세스에 대한 Intune 비공개 미리 보기에 액세스
 - Jamf Pro 10.1.0 이상
 - [macOS용 회사 포털 앱](https://aka.ms/macoscompanyportal)
 - OS X 10.11 Yosemite 이상의 macOS 장치
@@ -60,7 +54,7 @@ Jamf Pro를 사용하여 조건부 액세스를 구성하려면 다음이 필요
 4. **웹앱/API**를 선택합니다.
 5. Jamf Pro 인스턴스 URL을 사용하여 **로그온 URL**을 지정합니다.
 6. **응용 프로그램 만들기**를 클릭합니다.
-7. 새로 만든 **응용 프로그램 ID**를 저장한 다음 **설정**을 열고 **API 액세스** > **키**로 이동하여 새 응용 프로그램 키를 만듭니다. **설명**, **만료**되기까지 걸리는 시간을 입력한 다음 응용 프로그램 키를 저장합니다. 
+7. 새로 만든 **응용 프로그램 ID**를 저장한 다음 **설정**을 열고 **API 액세스** > **키**로 이동하여 새 응용 프로그램 키를 만듭니다. **설명**, **만료**되기까지 걸리는 시간을 입력한 다음 응용 프로그램 키를 저장합니다.
 
   > [!IMPORTANT]
   > 응용 프로그램 키는 이 프로세스 중에 한 번만 표시됩니다. 쉽게 검색할 수 있는 위치에 저장해야 합니다.

@@ -6,7 +6,7 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: angrobe
-ms.date: 06/03/2017
+ms.date: 12/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e1b4152cfe5442b01f0d81c724dfa5eccb02ae29
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 5bb34d9f180240e2ea03d43f42dc9ea8aee7adcd
+ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/30/2017
 ---
 # <a name="how-to-configure-vpn-settings-in-microsoft-intune"></a>Microsoft Intune에서 VPN 설정을 구성하는 방법
 
@@ -33,7 +33,7 @@ VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전
 
 다음의 연결 유형을 사용하여 VPN 프로필을 만들 수 있습니다.
 
-|연결 유형|Android<br>Android for Work|iOS|macOS|Windows Phone 8.1|Windows 8.1|Windows 10|
+|연결 형식|Android<br>Android for Work|iOS|macOS|Windows Phone 8.1|Windows 8.1|Windows 10|
 |-|-|-|-|-|-|-|
 |Pulse Secure|예|예|예|예|예|예|
 |Cisco(IPsec)|아니요|예|아니요|아니요|아니요|아니요|

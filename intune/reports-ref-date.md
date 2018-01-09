@@ -2,8 +2,8 @@
 title: "날짜 - Intune 데이터 웨어하우스 | Microsoft Docs"
 description: "Intune 데이터 웨어하우스 API에서 엔터티 컬렉션의 날짜 범주에 대한 항목을 참조하세요."
 keywords: "Intune 데이터 웨어하우스"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 07/31/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 6B4BC650-62F7-4049-9DE4-CDECB579B58F
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 93d0f08697c8ee17ff44d599cb7b1bb262daa7ee
-ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
+ms.openlocfilehash: a52badf996ebcfaa24b37f064a28f0d77cd9eae8
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="reference-for-date-entity"></a>날짜 엔터티에 대한 참조
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/02/2017
 
 **날짜** 엔터티는 여러 데이터 웨어하우스 엔터티에 걸쳐 참조되는 날짜를 나타냅니다.
 
-| 속성  | 설명 | 예 |
+| 속성  | 설명 | 예제 |
 |---------|------------|--------|
 | DateKey | 데이터 웨어하우스의 해당 날짜에 대한 고유 식별자 | 20160703 |
 | FullDate | 해당 날짜가 전체 날짜/시간 형식으로 표시됩니다. | 7/3/2016 12:00:00 AM |

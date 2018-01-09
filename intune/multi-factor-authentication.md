@@ -3,8 +3,8 @@ title: "Intune 장치 등록에 대한 다단계 인증"
 titlesuffix: Azure portal
 description: "Azure AD에서 장치를 등록하기 위해 다단계 인증을 요구하는 방법입니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: angrobe
 ms.date: 10/31/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 94280c73-c05c-4e72-b0dd-a7cb997782f9
 ROBOTS: 
 ms.custom: intune-azure
-ms.openlocfilehash: a3aabe77257fd7e6964dd7bd83035c8a491a58b4
-ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
+ms.openlocfilehash: b8fb7745cf7d1d874b890210ef9c75c2a11f12ef
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="multi-factor-authentication-for-intune-device-enrollments"></a>Intune 장치 등록에 대한 다단계 인증
 

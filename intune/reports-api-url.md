@@ -2,8 +2,8 @@
 title: "Intune 데이터 웨어하우스 API 끝점 | Microsoft 문서"
 description: "API URL 구조를 설명하는 참조 항목입니다."
 keywords: "Intune 데이터 웨어하우스"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 07/31/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: A7A174EC-109D-4BB8-B460-F53AA2D033E6
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f36327f21fbb2f08906a7621b701a4e6c9deee03
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: 6dd9098a7db7004f0b7273fc4628d5dd1b535d6d
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="intune-data-warehouse-api-endpoint"></a>Intune 데이터 웨어하우스 API 끝점
 
@@ -41,7 +41,7 @@ https://fef.{***location***}.manage.microsoft.com/ReportingService/DataWarehouse
 
 URL에는 다음 요소가 포함됩니다.
 
-| 요소 | 예 | 설명 |
+| 요소 | 예제 | 설명 |
 |-------------------|------------|--------------------------------------------------------------------------------------------------------------------|
 | location | msua06 | 기본 URL은 Azure 포털에서 데이터 웨어하우스 API 블레이드를 보면 알 수 있습니다. |
 | entity-collection | 날짜 | OData 엔터티 컬렉션의 이름입니다. 데이터 모델의 컬렉션 및 엔터티에 대한 자세한 내용은 [데이터 모델](reports-ref-data-model.md)을 참조하세요. |

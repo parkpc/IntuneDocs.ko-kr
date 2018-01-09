@@ -3,8 +3,8 @@ title: "그룹에 앱을 할당하는 방법"
 titlesuffix: Azure portal
 description: "Intune에 앱을 추가한 후 사용자 또는 장치 그룹에 할당할 수 있습니다.\""
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 07/24/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: dc349e22-9e1c-42ba-9e70-fb2ef980ef7a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 51abb6daad11b9d6036396dcc5a5ce8f2a2c4ac4
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 7121cffaf1deb206aa88373a3aa77ce23bdf030e
+ms.sourcegitcommit: 9fabf1a8db53842f7b00762374de5b137158ee25
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="how-to-assign-apps-to-groups-with-microsoft-intune"></a>Microsoft intune을 사용하여 그룹에 앱을 할당하는 방법
 

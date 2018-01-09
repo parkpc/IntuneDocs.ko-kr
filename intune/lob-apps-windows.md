@@ -3,8 +3,8 @@ title: "Intune에 Windows 기간 업무 앱을 추가하는 방법"
 titlesuffix: Azure portal
 description: "Intune에 Windows 기간 업무 앱을 추가하는 방법을 알아봅니다.\""
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 10/3/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: f81c5f82-5cfa-4b97-9f73-d6cf77c06896
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 33959b941e39d8694387770e1f3264d74647de69
-ms.sourcegitcommit: 4b776d1a87c0707244f4ae0122de882e0eef6fa3
+ms.openlocfilehash: 256cf22c0a1d061b76c9f7d93a8472e3579d496a
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="how-to-add-windows-line-of-business-lob-apps-to-microsoft-intune"></a>Microsoft Intune에 Windows LOB(기간 업무) 앱을 추가하는 방법
 

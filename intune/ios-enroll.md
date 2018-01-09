@@ -3,8 +3,8 @@ title: "Intune에서 Windows 장치를 등록하는 방법 선택"
 titlesuffix: Azure portal
 description: "Microsoft Intune에서 Windows 장치 등록을 설정하는 방법을 알아봅니다.\""
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: angrobe
 ms.date: 10/31/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 439c33a6-e80c-4da9-ba09-a51fc36f62ad
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 307f4b8d5ba27ce8136569e0c58711f9b1364d93
-ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
+ms.openlocfilehash: 1bcdaa30df09313d3eda96410b6b394f1a0029d3
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="enroll-ios-devices-in-intune"></a>Intune에 iOS 장치 등록
 

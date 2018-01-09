@@ -16,17 +16,17 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 476f1cfa59f562a8c0953236184693e1c5674ee3
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 4095ffc0da85501ec4649940d886b4d9a4719c7a
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="what-happens-if-you-reset-your-android-device-using-the-company-portal"></a>회사 포털을 사용하여 Android 장치를 초기화하면 어떻게 되나요?
 
 회사 포털을 사용하여 Android 장치를 초기화하면 장치의 모든 앱, 설정 및 개인 데이터가 삭제됩니다. 그 결과 장치가 공장 기본 설정으로 다시 설정됩니다.
 
-Samsung KNOX 장치를 사용하는 경우 회사 포털에서 **장치 제거** 옵션을 선택하여 “선택적 초기화”를 수행할 수 있습니다. 선택적 초기화를 수행하면 다음이 제거됩니다.
+삼성 Knox 장치가 있는 경우 회사 포털에서 **장치 제거** 옵션을 선택하여 “선택적 초기화”를 수행할 수 있습니다. 선택적 초기화를 수행하면 다음이 제거됩니다.
 
 - 회사 지원팀이 사용자가 사용할 수 있도록 만든 비즈니스 앱
 - 메일, VPN 및 Wi-Fi

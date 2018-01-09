@@ -3,8 +3,8 @@ title: "Intune에 Windows 스토어 앱을 추가하는 방법"
 titleSuffix: Azure portal
 description: "Intune에 Windows 스토어 앱을 추가하는 방법을 알아봅니다.\""
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 05/04/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 07241b6d-86d8-4abb-83a2-3fc5feae5788
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f10da996f8587e63320e31ae57e88a5f14f3f9c2
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 19339bee8b362b1168e62da9716dbfd3144e85e7
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="how-to-add-windows-store-apps-to-microsoft-intune"></a>Microsoft Intune에 Windows 스토어 앱을 추가하는 방법
 

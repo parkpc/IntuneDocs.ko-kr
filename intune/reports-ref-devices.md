@@ -2,8 +2,8 @@
 title: "장치 - Intune 데이터 웨어하우스 | Microsoft Docs"
 description: "Intune 데이터 웨어하우스 API에서 엔터티 컬렉션의 장치 범주에 대한 항목을 참조하세요."
 keywords: "Intune 데이터 웨어하우스"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 07/31/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 6955E12D-70D7-4802-AE3B-8B276F01FA4F
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b11994028a42b19aca3e78900886afbedc1ca1d5
-ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
+ms.openlocfilehash: 24260c9e6a9929c74b47e5d83bf4d1be867b6b2e
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="reference-for-devices-entities"></a>장치 엔터티에 대한 참조
 
@@ -43,9 +43,9 @@ ms.lasthandoff: 11/02/2017
 | DeviceTypeKey |데이터 웨어하우스의 장치 유형에 대한 고유 식별자 - 대리 키 |
 | DeviceTypeName |장치 유형 |
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
-| deviceTypeID  | Name | 설명 |
+| deviceTypeID  | 이름 | 설명 |
 |---------|------------|--------|
 | 0 |데스크톱 |Windows 데스크톱 장치 |
 | 1 |WindowsRT |WindowsRT 장치 |
@@ -66,7 +66,7 @@ ms.lasthandoff: 11/02/2017
 | 17 |AndroidForWork |Android for Work Profile Owner로 관리되는 Android 장치 |
 | 100 |Blackberry |Blackberry 장치 |
 | 101 |Palm |Palm 장치 |
-| 255 |알 수 없음 |알 수 없는 장치 유형 |
+| 255 |Unknown |알 수 없는 장치 유형 |
 
 ## <a name="clientregistrationstatetypes"></a>ClientRegistrationStateTypes
 
@@ -78,9 +78,9 @@ ms.lasthandoff: 11/02/2017
 | clientRegisterationStateKey |데이터 웨어하우스의 등록 상태에 대한 고유 식별자 - 대리 키 |
 | clientRegisterationStateName |등록 상태 |
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
-| ClientRegisterationStateID  | Name | 설명 |
+| ClientRegisterationStateID  | 이름 | 설명 |
 |---------|------------|--------|
 | 0 |NotRegistered |등록 안 됨 |
 | 1 |SMSIDConflict |SMS ID 충돌 |
@@ -90,7 +90,7 @@ ms.lasthandoff: 11/02/2017
 | 5 |ApprovalPending |승인 보류 중 |
 | 6 |ResetCert |인증서 재설정 |
 | 7 |NotRegisteredPendingEnrollment |등록 안 됨 등록 보류 중 |
-| 8 |알 수 없음 |알 수 없는 상태 |
+| 8 |Unknown |알 수 없는 상태 |
 
 ## <a name="enrollmenttypes"></a>EnrollmentTypes
 
@@ -102,11 +102,11 @@ ms.lasthandoff: 11/02/2017
 | managementStateKey |데이터 웨어하우스에서 관리 상태의 고유 식별자 - 대리 키 |
 | managementStateName |이 장치에 적용된 원격 작업의 상태를 나타냅니다. |
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
-| enrollmentTypeID  | Name | 설명 |
+| enrollmentTypeID  | 이름 | 설명 |
 |---------|------------|--------|
-| 0 |알 수 없음 |등록 형식이 수집되지 않았습니다. |
+| 0 |Unknown |등록 형식이 수집되지 않았습니다. |
 | 1 |UserEnrollment |사용자가 시작한 등록 |
 | 2 |DeviceEnrollment |사용자 없는 프로필로 장치 등록 |
 | 3 |DeviceEnrollmentWithUDA |UDA 프로필로 장치 등록 |
@@ -120,7 +120,7 @@ ms.lasthandoff: 11/02/2017
 
 **EnrollmentTypes** 엔터티는 장치가 회사 장치인지 개인 소유인지 알 수 없는지 나타냅니다.
 
-| 속성  | 설명 | 예 |
+| 속성  | 설명 | 예제 |
 |---------|------------|--------|
 | ownerTypeID |소유자 유형에 대한 고유 식별자 | |
 | ownerTypeKey |데이터 웨어하우스의 소유자 유형에 대한 고유 식별자 - 서로게이트 키 | |
@@ -137,11 +137,11 @@ ms.lasthandoff: 11/02/2017
 | ComplianceStatus |장치의 준수 상태, 아래 표의 값 중 하나가 있어야 함 | 
 
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 | MdmStatusID  | ComplianceStatus | 설명 |
 |---------|------------|--------|
-| 0 |알 수 없음 |장치의 준수 상태를 알 수 없습니다. |
+| 0 |Unknown |장치의 준수 상태를 알 수 없습니다. |
 | 1 |규정 |장치가 준수 상태입니다. |
 | 2 |정책 위반 |장치가 비준수 상태입니다. |
 | 3 |Conflict |장치의 준수로 인해 충돌이 발생했습니다. |
@@ -158,9 +158,9 @@ ms.lasthandoff: 11/02/2017
 | managementStateKey | 데이터 웨어하우스에서 관리 상태의 고유 식별자 - 대리 키 |
 | managementStateName | 이 장치에 적용된 원격 작업의 상태를 나타냅니다. |
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
-| managementStateID  | Name | 설명 |
+| managementStateID  | 이름 | 설명 |
 |---------|------------|--------|
 | 0 |관리 대상 | 보류 중인 원격 작업 없이 관리됨 |
 | 1 |RetirePending | 장치에 대한 보류 중인 사용 중지 명령이 없습니다. |
@@ -185,11 +185,11 @@ ms.lasthandoff: 11/02/2017
 | WorkPlaceJoinStateKey | 데이터 웨어하우스에서 작업 공간 참여 상태에 대한 고유 식별자 - 대리 키 |
 | WorkPlaceJoinStateName | 작업 공간 참여 상태 |
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
-| workPlaceJoinStateID  | Name | 설명 |
+| workPlaceJoinStateID  | 이름 | 설명 |
 |---------|------------|--------|
-| 0 |알 수 없음 |장치가 작업 공간 참여 상태가 아니면 알 수 없는 상태임 |
+| 0 |Unknown |장치가 작업 공간 참여 상태가 아니면 알 수 없는 상태임 |
 | 1 |성공 |작업 공간 참여 성공 |
 | 2 |FailureToGetScepMetadata |SCEP 메타데이터 가져오기 실패 |
 | 3 |FailureToGetScepChallenge |SCEP 챌린지를 가져오기 실패 |
@@ -209,9 +209,9 @@ ms.lasthandoff: 11/02/2017
 | ManagementAgentTypeKey | 데이터 웨어하우스의 관리 에이전트 유형에 대한 고유 식별자 - 서로게이트 키 |
 | ManagementAgentTypeName |장치 관리에 사용되는 에이전트의 종류를 나타냅니다. |
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
-| ManagementAgentTypeID  | Name | 설명 |
+| ManagementAgentTypeID  | 이름 | 설명 |
 |---------|------------|--------|
 | 1 |EAS | Exchange Active Sync를 통해 장치를 관리 |
 | 2 |MDM | 장치가 MDM 에이전트를 사용하여 관리됨 |
@@ -219,7 +219,7 @@ ms.lasthandoff: 11/02/2017
 | 4 |IntuneClient | 장치가 Intune PC 에이전트를 사용하여 관리됨 |
 | 5 |EasIntuneClient | 장치가 Exchange Active Sync와 Intune PC 에이전트를 둘 다 사용하여 관리됨 |
 | 8 |ConfigManagerClient | 장치가 System Center Configuration Manager 에이전트를 사용하여 관리됨 |
-| 16 |알 수 없음 | 알 수 없는 관리 에이전트 유형 |
+| 16 |Unknown | 알 수 없는 관리 에이전트 유형 |
 
 ## <a name="devices"></a>장치
 
