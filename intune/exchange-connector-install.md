@@ -15,11 +15,11 @@ ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c7947c9d047c6f206f9f93c389d418379fe8267a
-ms.sourcegitcommit: 5279a0bb8c5aef79aa57aa247ad95888ffe5a12b
+ms.openlocfilehash: 9650afefc8ba0ba782e95b28feaaf1aaceea8d7f
+ms.sourcegitcommit: 06abc5ccc8b868c9ff3ad3f8f62473a87b2da481
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/15/2017
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Microsoft Intune Azure에서 Intune 온-프레미스 Exchange 커넥터 설정
 
@@ -45,7 +45,7 @@ Microsoft Intune이 온-프레미스 Exchange Server와 통신할 수 있도록 
 |하드웨어|커넥터를 설치하는 컴퓨터에는 1.6GHz CPU, 2GB RAM 및 10GB의 사용 가능한 디스크 공간이 필요합니다.|users-add.md
 |Active Directory 동기화|Connector를 사용하여 Exchange Server에 Intune을 연결하려면 먼저 로컬 사용자 및 보안 그룹이 Azure Active Directory의 인스턴스와 동기화되도록 [Active Directory 동기화를 설정](users-add.md)해야 합니다.|
 |추가 소프트웨어|커넥터를 호스트하는 컴퓨터에 Microsoft .NET Framework 4.5 및 Windows PowerShell 2.0 전체 설치를 설치해야 합니다.|
-|네트워크|커넥터를 설치하는 컴퓨터는 Exchange 서버를 호스트하는 도메인과 트러스트 관계에 있는 도메인에 있어야 합니다.<br /><br />이 컴퓨터에서는 포트 80 및 443을 사용하여 방화벽 및 프록시 서버를 통해 Intune 서비스에 액세스할 수 있도록 구성해야 합니다. Intune에서 사용되는 도메인은 manage.microsoft.com, &#42;manage.microsoft.com, &#42;.manage.microsoft.com 등입니다.|
+|Network (네트워크)|커넥터를 설치하는 컴퓨터는 Exchange 서버를 호스트하는 도메인과 트러스트 관계에 있는 도메인에 있어야 합니다.<br /><br />이 컴퓨터에서는 포트 80 및 443을 사용하여 방화벽 및 프록시 서버를 통해 Intune 서비스에 액세스할 수 있도록 구성해야 합니다. Intune에서 사용되는 도메인은 manage.microsoft.com, &#42;manage.microsoft.com, &#42;.manage.microsoft.com 등입니다.|
 
 
 ### <a name="exchange-cmdlet-requirements"></a>Exchange cmdlet 요구 사항
@@ -133,6 +133,13 @@ Exchange Connector의 연결을 설정하면 Exchange Connector에서 관리되�
 
 > [!NOTE]
 > 온-프레미스 Exchange Connector를 설치했다가 어떤 시기에 Exchange 연결을 삭제한 경우 온-프레미스 Exchange Connector가 설치된 컴퓨터에서 해당 소프트웨어를 제거해야 합니다.
+
+## <a name="on-premises-exchange-connector-high-availability-support"></a>온-프레미스 Exchange Connector 고가용성 지원 
+Exchange Connector는 지정된 CAS를 사용하여 Exchange에 연결한 후 다른 CAS를 검색할 수 있습니다. 기본 CAS를 사용할 수 없게 되면 커넥터는 기본 CAS를 사용할 수 있을 때까지 다른 CAS(사용 가능한 경우)로 장애 조치(failover)됩니다. 이 기능은 기본적으로 켜져 있습니다. 다음 절차를 사용하여 이 기능을 끌 수 있습니다.
+1. Exchange Connector가 설치된 서버에서 %*ProgramData*%\Microsoft\Windows Intune Exchange Connector로 이동합니다. 
+2. 텍스트 편집기를 사용하여 **OnPremisesExchangeConnectorServiceConfiguration.xml**을 엽니다.
+3. &lt;IsCasFailoverEnabled&gt;**true**&lt;/IsCasFailoverEnabled&gt;를 &lt;IsCasFailoverEnabled&gt;**false**&lt;/IsCasFailoverEnabled&gt;로 변경하여 기능을 사용하지 않도록 설정합니다.    
+
 
 ## <a name="monitor-the-exchange-connector-activity"></a>Exchange Connector 작업 모니터링
 

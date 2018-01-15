@@ -1,12 +1,12 @@
 ---
-title: "준수 정책을 Jamf에서 관리되는 장치에 적용"
+title: "Jamf 관리 장치에 준수 정책 적용"
 titlesuffix: Azure portal
 description: "준수를 사용하여 Jamf에서 관리되는 장치를 보호할 수 있습니다."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/05/2017
+ms.date: 12/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,22 +15,17 @@ ms.assetid: c87fd2bd-7f53-4f1b-b985-c34f2d85a7bc
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fd9a9444d5a91a44672d9e0a60fb6da961883986
-ms.sourcegitcommit: 548b9e6c1e50074a5ffb89160ae23ee3caa5ba65
+ms.openlocfilehash: c72de87b87775155672994163140e342b7ba99b4
+ms.sourcegitcommit: 000684953cbb3ceae0e2bcaa51186c9221f7aa86
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/15/2017
 ---
 # <a name="enforce-compliance-on-macs-managed-with-jamf-pro"></a>Jamf Pro로 관리되는 Mac에서 준수 적용
 
 |적용 대상: Azure Portal의 Intune |
 |--|
 |클래식 포털의 Intune에 대한 설명서를 찾으시나요? [여기로 이동](/intune/introduction-intune?toc=/intune-classic/toc.json)하세요.|
-| |
-
-|현재 비공개 미리 보기|
-|--|
-|이 항목에 설명된 기능은 현재 고객에게 비공개 미리 보기로만 제공됩니다. 모든 고객에게 릴리스되면 이 메시지는 제거됩니다.|
 | |
 
 Azure Active Directory 및 Microsoft Intune의 조건부 액세스 정책을 사용하여 최종 사용자가 조직 요구 사항을 준수하도록 할 수 있습니다. 이 정책을 [Jamf Pro로 관리되는](conditional-access-integrate-jamf.md) Mac에 적용할 수 있습니다. Intune 및 Jamf Pro 콘솔에 둘 다 액세스할 수 있어야 합니다.
@@ -48,7 +43,7 @@ Azure Active Directory 및 Microsoft Intune의 조건부 액세스 정책을 사
 2. Jamf Pro를 열고 **컴퓨터 관리** > **패키지**로 이동합니다.
 3. macOS용 회사 포털 앱이 포함된 새 패키지를 만든 다음 **저장**을 클릭합니다.
 4. **컴퓨터** > **정책**을 열고 **새로 만들기**를 선택합니다.
-5. **일반** 페이로드를 사용하여 정책에 대한 설정을 구성합니다. 이 설정은 다음과 같아야 합니다. 
+5. **일반** 페이로드를 사용하여 정책에 대한 설정을 구성합니다. 이 설정은 다음과 같아야 합니다.
    - 트리거: **등록 완료** 및 **Recurring Check-in**(되풀이 체크 인)을 선택합니다.
    - 실행 빈도: **Once per computer**(컴퓨터당 한 번)를 선택합니다.
 6. **패키지** 페이로드를 선택하고 **구성**을 클릭합니다.

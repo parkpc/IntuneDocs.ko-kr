@@ -2,10 +2,10 @@
 title: "지원되는 장치 - Microsoft Intune"
 description: "Intune 장치 관리용으로 지원되는 장치 플랫폼 및 브라우저를 나열합니다."
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: ErikjeMS
+ms.author: erikje
 manager: angrobe
-ms.date: 11/06/2017
+ms.date: 01/03/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b168cbf5282b4e016133d071c56c8abd54c2e23b
-ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
+ms.openlocfilehash: 56516562b9a7510020475d226c74bf719bdd33a3
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="supported-devices-and-browsers"></a>지원되는 장치 및 브라우저
 
@@ -39,11 +39,14 @@ Intune 모바일 장치 관리 기능을 사용하면 다음과 같은 장치를
 
 [!INCLUDE[mdm-supported-devices](./includes/mdm-supported-devices.md)]
 
-### <a name="supported-samsung-knox-standard-devices"></a>지원되는 Samsung KNOX Standard 장치
+### <a name="supported-samsung-knox-standard-devices"></a>지원되는 Samsung Knox Standard 장치
 
-회사 포털 앱이 장치가 [지원 KNOX 장치의 목록](https://www.samsungknox.com/knox-supported-devices/knox-workspace)에 표시되는 경우에만 MDM 등록 중에 삼성 KNOX 정품 인증을 시도합니다. 그러면 KNOX 정품 인증 오류로 인해 MDM 등록을 방해하지 않도록 방지할 수 있습니다. Samsung KNOX 정품 인증을 지원하지 않는 장치는 표준 Android 장치로 등록합니다. Samsung 장치 중 일부에만 KNOX를 지원하는 모델 번호가 있을 수 있습니다. Samsung 장치를 구매하고 배포하기 전에 장치 재판매인과 함께 KNOX 호환성을 검사합니다.
+회사 포털 앱은 장치가 [지원되는 Knox 장치 목록](https://www.samsungknox.com/knox-supported-devices/knox-workspace)에 표시되는 경우에만 MDM 등록 중에 Samsung Knox 활성화를 시도합니다. 그러면 Knox 활성화 오류로 인해 MDM 등록이 차단되는 경우를 방지할 수 있습니다. Samsung Knox 활성화를 지원하지 않는 장치는 표준 Android 장치로 등록됩니다. 모든 Samsung 장치에 Knox를 지원하는 모델 번호가 있는 것은 아닙니다. Samsung 장치를 구매하고 배포하기 전에 장치 재판매인의 KNOX 호환성을 검사합니다.
 
-다음과 같은 목록의 Samsung 장치 모델은 KNOX를 지원하지 않으며 Android용 회사 포털 앱에서 네이티브 Android 장치로 등록됩니다.
+> [!NOTE]
+> Samsung Knox 장치를 등록하는 경우 [Samsung 서버에 대한 액세스를 허용](https://support.samsungknox.com/hc/articles/115013833108-Our-corporate-devices-are-behind-a-firewall-How-do-I-enable-Knox-Workspace-devices-to-contact-Samsung-servers)해야 할 수도 있습니다. 
+
+다음 Samsung 장치 모델 목록은 Knox를 지원하지 않으며 Android용 회사 포털 앱에서 네이티브 Android 장치로 등록됩니다.
 
 | **장치 이름** | **장치 모델 번호** |
 | --- | --- |

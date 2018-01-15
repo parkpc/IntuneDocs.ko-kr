@@ -3,10 +3,10 @@ title: "Intune과 네트워크 액세스 제어 통합"
 titlesuffix: Azure portal
 description: "Intune과 NAC(네트워크 액세스 제어) 통합"
 keywords: 
-author: andredm7
-ms.author: andredm
+author: bruceperlerMS
+ms.author: bruceper
 manager: angrobe
-ms.date: 06/23/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: aa7ecff7-8579-4009-8fd6-e17074df67de
 ms.reviewer: davidra
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6d75d996f4166fb2a760d1ccb518ca7a228c1a0d
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 0379f2843b77b0d7ed6a54065e14f91946398d65
+ms.sourcegitcommit: 061dab899e3fbc59b0128e2b4fbdf8ebf80afddd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="network-access-control-nac-integration-with-intune"></a>Intune과 NAC(네트워크 액세스 제어) 통합
 
@@ -33,40 +33,34 @@ NAC 솔루션은 액세스 제어 결정을 내리기 위해 Intune에서 장치
 
 장치가 등록되었으며 Intune 규격인 경우 NAC 솔루션에서 회사 리소스에 대한 장치 액세스를 허용해야 합니다. 예를 들어 사용자가 회사 Wi-Fi 또는 VPN 리소스에 액세스하려고 할 때 액세스가 허용되거나 거부될 수 있습니다.
 
+## <a name="feature-behaviors"></a>기능 동작
+
+Intune에 능동적으로 동기화하는 장치는 **준수** / **비준수**에서 **동기화되지 않음**(또는 **알 수 없음**)으로 이동할 수 없습니다. **알 수 없음** 상태는 아직 준수 여부가 평가되지 않은 새로 등록된 장치에 예약되었습니다.
+
+리소스에 대한 액세스가 차단된 장치의 경우, 차단 서비스가 모든 사용자를 [관리 포털](https://portal.manage.microsoft.com)로 리디렉션하여 장치가 차단된 이유를 확인할 수 있도록 해야 합니다.  사용자가 이 페이지를 방문하면 해당 장치의 준수 여부가 동기적으로 재평가됩니다.
+
 ## <a name="nac-and-conditional-access"></a>NAC 및 조건부 액세스
 
-NAC는 조건부 액세스와 연동하여 액세스 제어 결정을 제공합니다.
-
-- 자세한 내용은 [Intune에서 조건부 액세스를 사용하는 일반적인 방법](conditional-access-intune-common-ways-use.md)을 참조하세요.
+NAC는 조건부 액세스와 연동하여 액세스 제어 결정을 제공합니다. 자세한 내용은 [Intune에서 조건부 액세스를 사용하는 일반적인 방법](conditional-access-intune-common-ways-use.md)을 참조하세요.
 
 ## <a name="how-the-nac-integration-works"></a>NAC 통합의 작동 방식
 
-여기서는 Intune과 통합된 경우 NAC 통합이 작동하는 방식을 간략하게 설명합니다. 처음 세 단계에서는 온보딩 프로세스에 대해 설명합니다. NAC 솔루션이 Intune과 통합된 후 4-9단계에서는 지속적인 작업을 설명합니다.
+Intune과 통합된 경우 NAC 통합의 작동 방식에 대한 개요는 다음과 같습니다. 처음 세 단계인 1-3단계에서는 온보딩 프로세스에 대해 설명합니다. NAC 솔루션이 Intune과 통합된 후 4-9단계에서는 지속적인 작업을 설명합니다.
 
 ![NAC와 Intune의 연동 방식](./media/ca-intune-common-ways-2.png)
 
-1.  NAC 파트너 솔루션을 AAD(Azure Active Directory)에 등록하고 Intune NAC API에 위임된 사용 권한을 부여합니다.
-
-2.  Intune 검색 URL을 포함한 적절한 설정으로 NAC 파트너 솔루션을 구성합니다.
-
-3.  인증서 인증을 위해 NAC 파트너 솔루션을 구성합니다.
-
-4.  사용자가 회사 Wi-Fi 액세스 지점에 연결하거나 VPN 연결 요청을 수행합니다.
-
-5.  NAC 파트너 솔루션이 장치 정보를 Intune에 전달하고 장치 등록 및 준수 상태를 Intune에 요청합니다.
-
-6.  장치가 규격이 아니거나 등록되지 않은 경우 NAC 파트너 솔루션이 사용자에게 등록하거나 장치 준수를 수정하도록 알립니다.
-
-7.  장치가 해당 규정 준수 및/또는 등록 상태를 확인하려고 합니다.
-
-8.  장치가 등록되고 규격이면 NAC 파트너 솔루션이 Intune에서 상태를 가져옵니다.
-
-9.  성공적으로 연결되어 장치가 회사 리소스에 액세스할 수 있게 됩니다.
+1. NAC 파트너 솔루션을 AAD(Azure Active Directory)에 등록하고 Intune NAC API에 위임된 사용 권한을 부여합니다.
+2. Intune 검색 URL을 포함한 적절한 설정으로 NAC 파트너 솔루션을 구성합니다.
+3. 인증서 인증을 위해 NAC 파트너 솔루션을 구성합니다.
+4. 사용자가 회사 Wi-Fi 액세스 지점에 연결하거나 VPN 연결 요청을 수행합니다.
+5. NAC 파트너 솔루션이 장치 정보를 Intune에 전달하고 장치 등록 및 준수 상태를 Intune에 요청합니다.
+6. 장치가 규격이 아니거나 등록되지 않은 경우 NAC 파트너 솔루션이 사용자에게 등록하거나 장치 준수를 수정하도록 알립니다.
+7. 장치가 해당 준수 및/또는 등록 상태를 확인하려고 합니다.
+8. 장치가 등록되고 규격이면 NAC 파트너 솔루션이 Intune에서 상태를 가져옵니다.
+9. 성공적으로 연결되어 장치가 회사 리소스에 액세스할 수 있게 됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 
--   [Intune과 Cisco ISE 통합](http://www.cisco.com/c/en/us/td/docs/security/ise/2-1/admin_guide/b_ise_admin_guide_21/b_ise_admin_guide_20_chapter_01000.html)
-
--   [Intune과 Citrix NetScaler 통합](http://docs.citrix.com/en-us/netscaler-gateway/12/microsoft-intune-integration/configuring-network-access-control-device-check-for-netscaler-gateway-virtual-server-for-single-factor-authentication-deployment.html)
-
--   [Intune과 HP Aruba Clear Pass 통합](https://support.arubanetworks.com/Documentation/tabid/77/DMXModule/512/Command/Core_Download/Default.aspx?EntryId=23757)
+- [Intune과 Cisco ISE 통합](http://www.cisco.com/c/en/us/td/docs/security/ise/2-1/admin_guide/b_ise_admin_guide_21/b_ise_admin_guide_20_chapter_01000.html)
+- [Intune과 Citrix NetScaler 통합](http://docs.citrix.com/en-us/netscaler-gateway/12/microsoft-intune-integration/configuring-network-access-control-device-check-for-netscaler-gateway-virtual-server-for-single-factor-authentication-deployment.html)
+- [Intune과 HP Aruba Clear Pass 통합](https://support.arubanetworks.com/Documentation/tabid/77/DMXModule/512/Command/Core_Download/Default.aspx?EntryId=23757)

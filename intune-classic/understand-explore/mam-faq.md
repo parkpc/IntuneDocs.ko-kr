@@ -5,7 +5,7 @@ keywords:
 author: oydang
 ms.author: oydang
 manager: angrobe
-ms.date: 10/27/2017
+ms.date: 12/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6ba1d1d9d0b1c21c364ef97f8340157a94ae996b
-ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
+ms.openlocfilehash: c96be109a6e73f8a56e0c985f127eeed182a5c4b
+ms.sourcegitcommit: 4eafb3660d6f5093c625a21e41543b06c94a73ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="frequently-asked-questions-about-mam-and-app-protection"></a>MAM 및 앱 보호에 대한 질문과 대답
 
@@ -103,17 +103,11 @@ ms.lasthandoff: 10/31/2017
 
   3. **Intune은 어떤 방식으로 무차별 암호 대입 공격(brute force attack)으로부터 PIN을 보호하나요?** 앱 PIN 정책의 일환으로, IT 관리자는 앱을 잠그기 전에 사용자가 PIN 인증을 시도할 수 있는 최대 횟수를 설정할 수 있습니다. 이 횟수가 충족되면 Intune 앱 SDK는 앱에서 "회사" 데이터를 초기화할 수 있습니다.
   
-**Intune 앱 PIN은 숫자 형식 및 암호 형식 간에 어떻게 작동하나요?**
-MAM은 현재 영숫자 및 특수 문자를 사용하는 응용 프로그램 수준 PIN(iOS)(‘암호’라고 함)을 허용합니다. 이 방식에서는 iOS용 Intune 앱 SDK를 통합하려면 응용 프로그램(예: WXP, Outlook, Managed Browser, Yammer)이 참가해야 합니다. 이렇게 하지 않으면 대상 응용 프로그램에 암호 설정이 제대로 적용되지 않습니다. 앱은 롤링 기준으로 이 통합을 따르기 때문에 암호 및 숫자 PIN 간 동작이 최종 사용자에 대해 일시적으로 변경되므로 중요한 설명이 필요합니다. Intune의 2017년 10월 릴리스에서는 동작이 다음과 같습니다.
+  4. **동일한 게시자의 앱에서 PIN을 두 번 설정해야 하는 이유는 무엇인가요?**
+MAM(iOS)은 현재 영숫자 및 특수 문자를 사용하는 응용 프로그램 수준 PIN을 허용합니다. 이 경우 iOS용 Intune 앱 SDK를 통합하려면 응용 프로그램(예: WXP, Outlook, Managed Browser, Yammer)이 참가해야 합니다. 이렇게 하지 않으면 대상 응용 프로그램에 암호 설정이 제대로 적용되지 않습니다. 이는 iOS용 Intune SDK 버전 7.1.12에서 출시된 기능입니다. <br> 이 기능을 지원하고 이전 버전의 iOS용 Intune SDK와 호환성을 보장하기 위해 7.1.12 이상의 모든 PIN(숫자 또는 암호)은 이전 SDK 버전의 숫자 PIN과 별도로 처리됩니다. 따라서 동일한 게시자의 iOS용 Intune SDK 7.1.12 이전 버전과 7.1.12 이상 버전을 사용하는 응용 프로그램이 장치에 있는 경우 두 개의 PIN을 설정해야 합니다. <br><br> 즉, 두 개의 PIN(각 앱용)은 어떤 방식으로든 서로 관련이 없으며 앱에 적용되는 앱 보호 정책을 준수해야 합니다. 따라서 PIN과 관련해서 앱 A와 B에 동일한 정책이 적용되는 *경우에만* 사용자가 동일한 PIN을 두 번 설정할 수 있습니다. <br><br> 이 동작은 Intune 모바일 앱 관리에서 사용하도록 설정된 iOS 응용 프로그램의 PIN과 관련이 있습니다. 시간이 지나 응용 프로그램이 최신 버전의 iOS용 Intune SDK를 채택하면서 동일한 게시자의 앱에서 PIN을 두 번 설정해야 하는 문제는 완화됩니다. 예를 보려면 아래 참고를 참조하세요.
 
-다음에 해당하는 앱
-1. 동일한 앱 게시자
-2. 콘솔을 통해 대상으로 지정된 암호 PIN 
-3. 이 기능이 포함된 SDK(v 7.1.12 이상)를 채택하면 이러한 앱 간에 암호를 공유할 수 있습니다. 
-
-다음에 해당하는 앱
-1. 동일한 앱 게시자
-2. 콘솔을 통해 대상으로 지정된 숫자 PIN은 이러한 앱 간에 숫자 PIN을 공유할 수 있습니다. 
+>[!NOTE]
+> 예를 들어 앱 A는 7.1.12 이전 버전으로 빌드되고 앱 B는 동일한 게시자의 7.1.12 이상 버전으로 빌드된 경우, iOS 장치에 두 앱이 모두 설치되어 있으면 최종 사용자가 A와 B에 대해 별도로 PIN을 설정해야 합니다. <br> SDK 버전 7.1.9를 사용하는 앱 C가 장치에 설치되면 앱 A와 동일한 PIN을 공유합니다. <br> 7.1.14로 빌드된 앱 D는 앱 B와 동일한 PIN을 공유합니다. <br> 앱 A와 C만 장치에 설치된 경우 하나의 PIN만 설정하면 됩니다. 앱 B와 D만 장치에 설치된 경우에도 마찬가지입니다.
 
 **암호화의 경우는 어떤가요?** IT 관리자는 앱 데이터 암호화를 요구하는 앱 보호 정책을 배포할 수 있습니다. 이러한 정책의 일환으로, IT 관리자는 콘텐츠가 암호화되는 경우를 지정할 수도 있습니다.
 

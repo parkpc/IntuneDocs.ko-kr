@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 18e0608c28a6a292da7fc766fb50edfd27e5a138
-ms.sourcegitcommit: 53a1f5226d1e1172f013a1b192321dde610b2d6c
+ms.openlocfilehash: 644f7be61a8d26470a54b0eff46f20e3fbaef1d5
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="using-your-android-device-with-intune"></a>Intune에서 Android 장치 사용
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/06/2017
 
 ## <a name="supported-versions"></a>지원되는 버전
 
-Intune은 현재 Android 4.4 이상을 지원합니다. Samsung KNOX 4.4 이상의 장치에 포함됩니다.
+Intune은 현재 Android 4.4 이상을 지원합니다. Samsung Knox 4.4 이상 장치가 포함됩니다.
 
 ## <a name="enrolling-into-intune-and-installing-the-company-portal"></a>Intune에 등록하고 회사 포털 설치
 

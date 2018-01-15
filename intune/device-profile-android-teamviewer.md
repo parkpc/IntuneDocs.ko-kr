@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 11/06/2017
+ms.date: 12/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 72cdd888-efca-46e6-b2e7-fb9696bb2fba
 ms.reviewer: davidra
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3a4e2b3493467f922b844130829db8e5ba14b246
-ms.sourcegitcommit: 474a24ba67f6bf4f00268bf9e4eba52331a6b82d
+ms.openlocfilehash: 46e850cdda27444d18354b972d10b0cd02c036d9
+ms.sourcegitcommit: 000684953cbb3ceae0e2bcaa51186c9221f7aa86
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 12/15/2017
 ---
 # <a name="provide-remote-assistance-for-intune-managed-devices"></a>Intune에서 관리하는 장치에 대한 원격 지원 제공
 
@@ -32,7 +32,7 @@ Intune에서는 [TeamViewer](https://www.teamviewer.com) 소프트웨어(별매)
 Intune 관리 Android 및 Windows 장치는 원격 관리를 지원합니다.
 
 >[!NOTE]
->Windows Holographic(HoloLens), Windows 팀(Surface Hub) 및 Windows 10 S는 TeamViewer 소프트웨어에서 지원되지 않습니다. 
+>Windows Holographic(HoloLens), Windows 팀(Surface Hub) 및 Windows 10 S는 TeamViewer 소프트웨어에서 지원되지 않습니다. 여전히 Intune 클래식 포털에서 [PC 클라이언트](/intune-classic/deploy-use/pc-management-comparison?toc=/intune/toc.json)를 사용하여 장치를 관리해야 합니다.
 
 
 
@@ -77,4 +77,3 @@ TeamViewer 창에서는 장치에 대한 원격 제어를 포함하여 장치서
 ## <a name="next-steps"></a>다음 단계
 
 최종 사용자 장치의 회사 포털 앱 아이콘에 알림 플래그가 표시되며, 앱을 열 때도 알림이 표시됩니다. 그러면 사용자는 원격 지원 요청을 수락할 수 있습니다.
-

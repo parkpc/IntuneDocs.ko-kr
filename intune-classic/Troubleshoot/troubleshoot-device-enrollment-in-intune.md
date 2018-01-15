@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2ec41724eacc4abca994b1dadff6e6d9df63c74d
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 50adfb13c619f81a8429c46e798b7f78acf3217e
+ms.sourcegitcommit: 229f9bf89efeac3eb3d28dff01e9a77ddbf618eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="troubleshoot-device-enrollment-in-intune"></a>Intune에서 장치 등록 문제 해결
 
@@ -37,6 +37,12 @@ ms.lasthandoff: 10/10/2017
 -   [Windows 장치 관리 설정](/intune-classic/deploy-use/set-up-windows-device-management-with-microsoft-intune)
 -   [Android 장치 관리 설정](/intune-classic/deploy-use/set-up-android-management-with-microsoft-intune) - 추가 단계 불필요
 -   [Android for Work 장치 관리 설정](/intune-classic/deploy-use/set-up-android-for-work)
+
+사용자 장치의 시간과 날짜가 올바르게 설정되었는지 확인할 수도 있습니다.
+
+1. 장치를 다시 시작합니다.
+2. 시간과 날짜가 최종 사용자의 표준 시간대를 기준으로 GMT 표준(+ 또는 - 12시간)에 가깝게 설정되었는지 확인합니다.
+3. Intune 회사 포털을 제거하고 다시 설치합니다(해당하는 경우).
 
 관리되는 장치 사용자는 여러분이 검토할 등록 및 진단 로그를 수집할 수 있습니다. 로그 수집에 대한 지침은 다음과 같이 제공됩니다.
 
@@ -229,27 +235,29 @@ ms.lasthandoff: 10/10/2017
 
 **해결 방법 1**:
 
-사용자에게 [장치에 필요한 인증서가 없는 경우](/intune-user-help/your-device-is-missing-a-required-certificate-android#your-device-is-missing-a-certificate-required-by-your-it-administrator)의 지침을 따르도록 합니다. 사용자가 해당 지침을 따른 후에도 오류가 계속 표시되면 해결 방법 2를 시도해 봅니다.
+사용자가 [장치에 필수 인증서가 없음](/intune-user-help/your-device-is-missing-a-required-certificate-android#your-device-is-missing-a-certificate-required-by-your-it-administrator)의 지침에 따라 누락된 인증서를 검색할 수 있습니다. 오류가 지속되면 해결 방법 2를 시도하세요.
 
 **해결 방법 2**:
 
-사용자가 회사 자격 증명을 입력하여 페더레이션 로그인 환경으로 리디렉션된 후에도 인증서가 없다는 오류가 계속 표시되는 경우에는 AD FS(Active Directory Federation Services) 서버의 중간 인증서가 없는 것일 수 있습니다.
+사용자가 회사 자격 증명을 입력하고 페더레이션 로그인을 위해 리디렉션된 후에도 인증서가 없다는 오류가 계속 표시되는 경우 AD FS(Active Directory Federation Services) 서버에 중간 인증서가 없는 것일 수 있습니다.
 
-Android 장치의 경우 [SSL 서버 Hello](https://technet.microsoft.com/library/cc783349.aspx)에 중간 인증서가 포함되어야 하는데, 현재 기본 AD FS 서버 또는 AD FS 프록시 서버 설치에서는 SSL 클라이언트 Hello에 대한 SSL 서버 Hello 응답에 AD FS 서비스의 SSL 인증서만 전송하기 때문에 인증서 오류가 발생합니다.
+Android 장치의 경우 중간 인증서가 [SSL 서버 hello](https://technet.microsoft.com/library/cc783349.aspx)에 포함되어야 하므로 인증서 오류가 발생합니다. 현재, 기본 AD FS 서버 또는 WAP - AD FS 프록시 서버 설치에서는 SSL 클라이언트 hello에 대한 SSL 서버 hello 응답에 AD FS 서비스 SSL 인증서만 전송합니다.
 
 이 문제를 해결하려면 다음과 같이 인증서를 AD FS 서버 또는 프록시의 컴퓨터 개인 인증서로 가져옵니다.
 
-1.  AD FS 및 프록시 서버에서 **시작** 단추를 마우스 오른쪽 단추로 클릭하고 **실행**을 입력한 다음 **certlm.msc**를 입력하여 로컬 컴퓨터의 인증서 관리 콘솔을 시작합니다.
+1.  ADFS 및 프록시 서버에서 **시작** > **실행** > **certlm.msc**를 마우스 오른쪽 단추로 클릭합니다. 로컬 컴퓨터 인증서 관리 콘솔이 시작됩니다.
 2.  **개인**을 확장하고 **인증서**를 선택합니다.
 3.  AD FS 서비스 통신용 인증서(공개 서명된 인증서)를 찾은 다음 두 번 클릭하여 해당 속성을 확인합니다.
 4.  **인증 경로** 탭을 선택하여 해당 인증서의 상위 인증서를 확인합니다.
 5.  각 상위 인증서에서 **인증서 보기**를 선택합니다.
-6.  **세부 정보** 탭을 선택하고 **파일에 복사...**를 선택합니다.
-7.  마법사의 메시지에 따라 인증서의 공개 키를 원하는 파일 위치에 내보내거나 저장합니다.
-8.  **인증서**를 마우스 오른쪽 단추로 클릭하고 **모든 태스크** > **가져오기**를 선택한 후에 마법사의 메시지에 따라 인증서를 가져오는 방법으로 3단계에서 내보냈던 상위 인증서를 로컬 컴퓨터\개인\인증서로 가져옵니다.
-9.  AD FS 서버를 다시 시작합니다.
-10. 모든 AD FS 및 프록시 서버에서 위의 단계를 반복합니다.
-이제 사용자는 Android 장치에서 회사 포털에 로그인할 수 있습니다.
+6.  **세부 정보** 탭 > **파일에 복사...**를 선택합니다.
+7.  마법사의 메시지에 따라 상위 인증서의 공개 키를 원하는 파일 위치에 내보내거나 저장합니다.
+8.  **인증서** > **모든 작업** > **가져오기**를 마우스 오른쪽 단추로 클릭합니다.
+9.  마법사의 메시지에 따라 상위 인증서를 **LocalComputer\Personal\Certificates**로 가져옵니다.
+10. AD FS 서버를 다시 시작합니다.
+11. 모든 AD FS 및 프록시 서버에서 위의 단계를 반복합니다.
+
+적절한 인증서 설치를 확인하기 위해 [https://www.digicert.com/help/](https://www.digicert.com/help/)에서 사용 가능한 진단 도구를 사용할 수 있습니다. **서버 주소** 상자에 ADFS 서버의 FQDN(IE: sts.contso.com)을 입력하고 **서버 확인**을 클릭합니다.
 
 **인증서가 제대로 설치되었는지 유효성을 검사하려면**:
 

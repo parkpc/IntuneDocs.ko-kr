@@ -3,10 +3,10 @@ title: "장치 등록 - 장치 등록 관리자"
 titlesuffix: Azure portal
 description: "장치 등록 관리자 계정을 사용하여 Intune에 장치를 등록합니다. \""
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: ErikjeMS
+ms.author: erikje
 manager: angrobe
-ms.date: 11/08/2017
+ms.date: 01/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 7196b33e-d303-4415-ad0b-2ecdb14230fd
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0faca372a8bc9a632cf99133b9843b4b219f285c
-ms.sourcegitcommit: e692be57ec7044dfc224b70941affbfd7efba421
+ms.openlocfilehash: 03facdde2ff5652799cc3d2113a48ea5ae772ea9
+ms.sourcegitcommit: 5fd17a57989c6da3d325ed2e0018ce16fe20bb79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="enroll-devices-using-device-enrollment-manager"></a>장치 등록 관리자를 사용하여 장치 등록
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/08/2017
 장치 등록 관리자로 추가하려면 Azure 포털에 사용자가 존재해야 합니다. 보안 최적화를 위해 DEM 사용자는 Intune 관리자여서도 안 됩니다.
 
 >[!NOTE]
->DEM 등록 방법은 [Apple Configurator에서 설정 도우미 사용](apple-configurator-setup-assistant-enroll-ios.md), [Apple Configurator에서 직접 등록](apple-configurator-direct-enroll-ios.md), [ASM(Apple School Manager) 사용](apple-school-manager-set-up-ios.md) 또는 [DEP(장치 등록 프로그램) 사용](device-enrollment-program-enroll-ios.md) 등의 다른 등록 방법과 함께 사용할 수 없습니다.
+>DEM 등록 방법은 [Apple Configurator에서 설정 도우미 사용](apple-configurator-setup-assistant-enroll-ios.md), [Apple Configurator에서 직접 등록](apple-configurator-direct-enroll-ios.md), [ASM(Apple School Manager) 사용](apple-school-manager-set-up-ios.md) 또는 [DEP(장치 등록 프로그램) 사용](device-enrollment-program-enroll-ios.md) 등의 다른 등록 방법과 함께 사용할 수 없습니다. macOS 장치를 등록하는 데도 사용할 수 없습니다. 
 
 ## <a name="example-of-a-device-enrollment-manager-scenario"></a>장치 등록 관리자 시나리오의 예
 

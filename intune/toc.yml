@@ -642,7 +642,7 @@
               href: reports-ref-user-device.md
             - name: 사용자 엔터티에 대한 참조
               href: reports-ref-user.md
-    - name: Windows 앱 사이드로드
+    - name: Intune Graph API
       href: intune-graph-apis.md
       items:
         - name: Intune용 Graph API 참조

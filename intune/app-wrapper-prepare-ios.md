@@ -5,7 +5,7 @@ keywords:
 author: erikre
 ms.author: erikre
 manager: angrobe
-ms.date: 06/12/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
 ms.reviewer: oldang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 4ef7c8bb8daa76c5555b5d55d06fc30a9bb6c317
-ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
+ms.openlocfilehash: 05d60bfea2058e3360c350d227b0031b6b620913
+ms.sourcegitcommit: 4eafb3660d6f5093c625a21e41543b06c94a73ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="prepare-ios-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 앱 보호 정책에 대해 iOS 앱 준비
 
@@ -158,7 +158,8 @@ Intune에서 래핑된 앱을 배포하려면 다음과 같은 항목이 필요�
 
   ![사내 프로비전 프로필 선택](./media/iOS-provisioning-profile-1.png)
 
-5. **Continue(계속)**를 클릭합니다. 이전에 생성된 서명 인증서를 프로비전 프로필에 연결해야 합니다.
+5. 
+              **Continue(계속)**를 클릭합니다. 이전에 생성된 서명 인증서를 프로비전 프로필에 연결해야 합니다.
 
 6. macOS 컴퓨터로 프로필(확장명 .mobileprovision)을 다운로드는 단계를 따릅니다.
 
@@ -394,6 +395,18 @@ iOS용 앱 래핑 도구에 자격 오류가 표시되는 경우 다음의 문�
 -   파일 업로드 대화 상자를 포함하는 iOS 앱에서는 사용자가 앱에 적용된 잘라내기, 복사, 붙여넣기 제한을 우회할 수 있습니다. 예를 들어 사용자가 파일 업로드 대화 상자를 사용하여 앱 데이터의 스크린샷을 업로드할 수 있습니다.
 
 -   래핑된 앱 내에서 장치의 문서 폴더를 모니터링할 때는 .msftintuneapplauncher라는 폴더가 표시될 수 있습니다. 이 파일을 변경하거나 삭제하면 제한된 앱이 정상적으로 작동하지 않을 수 있습니다.
+
+## <a name="getting-logs-for-your-wrapped-applications"></a>래핑된 응용 프로그램에 대한 로그 가져오기
+문제 해결 중에 래핑된 응용 프로그램에 대한 로그를 가져오려면 다음 단계를 따르세요.
+
+1. 장치에서 iOS 설정 앱으로 이동한 다음 LOB 앱을 선택합니다.
+2. **진단 콘솔**을 **켜짐**으로 전환합니다.
+3. LOB 응용 프로그램을 시작합니다.
+4. "시작" 링크를 클릭합니다.
+5. 이제 메일을 통해 또는 OneDrive 위치에 복사하여 로그를 공유할 수 있습니다.
+
+>[!NOTE]
+로깅 기능은 Intune App Wrapping Tool 버전 7.1.13 이상으로 래핑된 앱에서 사용할 수 있습니다.
 
 ### <a name="see-also"></a>참고 항목
 - [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](apps-prepare-mobile-application-management.md)</br>

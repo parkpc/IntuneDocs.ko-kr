@@ -15,11 +15,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 372e25968005258fd1e00cbab7db542ad0211206
-ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
+ms.openlocfilehash: 5cdda6a34311bb7b70234ab046975e6ff5417878
+ms.sourcegitcommit: cfe3607ba0b76a37a3c54f465754482d49a816a0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Microsoft Intune의 알려진 문제
 
@@ -43,31 +43,6 @@ Azure Portal의 Intune에서 Windows 10을 관리하는 기능은 Windows MDM �
 
 Intune에서 Azure Portal로 마이그레이션할 때 **All Users - b0b08746-4dbe-4a37-9adf-9e7652c0b421**이라는 이름의 새 그룹이 보일 수 있습니다. 이 그룹에는 Intune의 사용이 허가된 사용자뿐만 아니라 Azure Active Directory의 모든 사용자도 포함됩니다. 이러한 사용 방식으로 인해 일부 기존 또는 새로운 사용자가 어떤 그룹의 멤버도 아니라면 다른 Microsoft 제품에서 문제가 발생할 수 있습니다.
 
-### <a name="secondary-migration-required-for-select-capabilities"></a>일부 기능에 필요한 보조 마이그레이션
-
-2017년 1월 이전에 만든 Intune 계정의 경우 마이그레이션해야 Azure Portal에서 다음 기능을 사용할 수 있습니다.
-
-- 회사 장치 등록 프로필
-- Apple 장비 등록 프로그램
-- iOS 일련 번호로 회사 장치 미리 선언
-- 장치 등록 관리자 계정
-- Apple Volume Purchase Program
-
-이러한 기능은 Intune(Silverlight) 콘솔 및 Azure Portal에서 관리할 수 없으므로 마이그레이션에서는 다음 작업이 수행됩니다.
-- 클래식 포털에서 이러한 기능이 사용하지 않도록 설정됩니다.
-- Azure Portal에서 이러한 기능이 사용하도록 설정됩니다.  
-
-2017년 9월 22일 이후 이러한 기능의 마이그레이션은 Azure에 대한 기본 마이그레이션에 병합됩니다. 계정이 이미 Azure Portal을 사용하도록 마이그레이션된 경우 이 보조 마이그레이션은 이미 완료되었습니다. 그렇지 않은 경우 이러한 기능은 11월까지 Azure로 마이그레이션됩니다. 계정 마이그레이션이 시작되면 같은 날 완료됩니다. 마이그레이션은 이러한 기능이 Intune 클래식 포털에서 사용하지 않도록 설정되는 시점으로부터 최대 6시간이 걸릴 수 있습니다.
-
-이제 Azure Portal에서 이러한 Intune 기능을 관리하는 경우 다음 사항에 유의하세요.
-
-#### <a name="removes-default-corporate-device-enrollment-profiles-in-apple-dep"></a>Apple DEP에서 기본 회사 장치 등록 프로필 제거
-Azure Portal에서는 Apple DEP(장치 등록 프로그램) 장치에 대한 기본 회사 장치 등록 프로필을 지원하지 않습니다. Intune(Silverlight) 콘솔에서 사용할 수 있는 이 기능은 의도치 않은 프로필 할당을 방지하기 위해 중단됩니다. Azure Portal에서 DEP 일련 번호를 동기화할 때는 회사 장치 등록 프로필이 할당되지 않습니다. 등록 프로필은 장치를 사용하기 전에 할당해야 합니다.
-
-#### <a name="apple-dep-token-restored-with-migration"></a>Apple DEP 토큰이 마이그레이션 시 복원됨
-
-Intune(Silverlight) 포털에서 Apple 장비 등록 프로그램 토큰을 삭제했으며 Azure Portal에 새 토큰을 업로드하지 않으면 마이그레이션 시 원래 토큰이 Azure Portal에서 복원됩니다. 이 토큰을 제거하고 DEP 등록을 방지하려면 Azure Portal에서 토큰을 삭제하세요.
-
 ### <a name="status-blades-for-migrated-policies-do-not-work"></a>마이그레이션한 정책에 대한 상태 블레이드가 작동하지 않음
 
 클래식 포털에서 마이그레이션한 정책의 상태 정보는 Azure Portal에서 확인할 수 없습니다. 그러나 클래식 포털에서는 이러한 정책에 대한 보고서를 계속 확인할 수 있습니다. 마이그레이션한 구성 정책에 대한 상태 정보를 확인하려면 Azure Portal에서 정책을 다시 만드세요.
@@ -79,6 +54,9 @@ iOS 대량 구매 앱은 Intune 계정과 동일한 국가 코드에 대해서�
 
 ### <a name="multiple-copies-of-the-same-ios-volume-purchase-program-are-uploaded"></a>동일한 iOS 대량 구매 프로그램의 여러 복사본이 업로드됨
 동일한 VPP 토큰에 대해 **업로드** 단추를 여러 번 클릭하지 마세요. 여러 번 클릭하면 중복 VPP 토큰이 업로드되고, 동일한 VPP 토큰에 대해 앱이 여러 번 동기화됩니다.
+
+### <a name="assigning-office-365-to-macos-devices"></a>macOS 장치에 Office 365 할당
+UI 업데이트가 완료되면 Microsoft Intune에서 macOS 장치에 Office 365를 할당하는 기능을 사용할 수 있습니다.
 
 <!-- ## Groups -->
 

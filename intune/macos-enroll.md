@@ -3,8 +3,8 @@ title: "Intune에 macOS 장치 등록"
 titlesuffix: Azure portal
 description: "Intune에 macOS 장치를 등록하는 방법을 알아봅니다.\""
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 nmanager: angrobe
 ms.date: 10/30/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 46429114-2e26-4ba7-aa21-b2b1a5643e01
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a18aa5091c8be2095e2ac95717c2b8294b845cd5
-ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
+ms.openlocfilehash: 3d1382e85b9ce58cd65380a799ca8eb4da98b84c
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="enroll-macos-devices-in-intune"></a>Intune에 macOS 장치 등록
 
@@ -46,7 +46,7 @@ macOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료
 
 ## <a name="tell-your-users-how-to-enroll-their-devices-to-access-company-resources"></a>회사 리소스에 액세스할 수 있도록 사용자에게 장치를 등록하는 방법 설명
 
-최종 사용자에게 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 가서 메시지를 따라 장치를 등록하도록 알려줘야 합니다. 또한 온라인 등록 단계: [macOS Intune에서 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos)에 대한 링크를 최종 사용자에게 전송할 수 있습니다.
+최종 사용자에게 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 가서 메시지를 따라 장치를 등록하도록 알립니다. 또한 온라인 등록 단계: [macOS Intune에서 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos)에 대한 링크를 최종 사용자에게 전송할 수 있습니다.
 
 최종 사용자의 다른 작업에 대한 정보는 다음 문서를 참조하세요.
 

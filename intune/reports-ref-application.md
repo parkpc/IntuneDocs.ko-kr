@@ -2,10 +2,10 @@
 title: "응용 프로그램 | Microsoft 문서"
 description: "Intune 데이터 웨어하우스 API에서 엔터티 컬렉션의 응용 프로그램 범주에 대한 항목을 참조하세요."
 keywords: "Intune 데이터 웨어하우스"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
-ms.date: 07/31/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: A92DEF30-5D01-4774-9917-E26F5F0E2E68
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9fd14c985b4cedcd0575b2b6ea29e7aa4d8bb2d4
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: 6698ff8d333d386c1401f942b2bbd4a75d86943c
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="reference-for-application-entities"></a>응용 프로그램 엔터티에 대한 참조
 
@@ -34,11 +34,11 @@ ms.lasthandoff: 10/20/2017
 
 **AppRevision** 엔터티는 앱의 모든 버전을 나열합니다.
 
-| 속성  | 설명 | 예 |
+| 속성  | 설명 | 예제 |
 |---------|------------|--------|
 | AppKey |앱에 대한 고유 식별자 |123 |
 | ApplicationId |앱의 고유 식별자 - AppKey와 유사하지만 이 키는 자연어입니다. |b66bc706-ffff-7437-0340-032819502773 |
-| 수정 버전 |이진 파일을 업로드하는 동안 관리자가 설명한 버전 |2 |
+| 수정 |이진 파일을 업로드하는 동안 관리자가 설명한 버전 |2 |
 | 제목 |앱의 제목 |Excel |
 | 게시자 |앱의 게시자 |Microsoft |
 | UploadState |앱의 업로드 상태 |1 |
@@ -46,7 +46,7 @@ ms.lasthandoff: 10/20/2017
 | VppProgramTypeKey |아래에 설명된 VppProgramType에 대한 참조 | |
 | CreationTime |해당 수정 버전을 만든 시간 |11/23/2016 12:00:00 AM |
 | ModifiedTime |해당 수정 버전과 관련된 항목을 마지막으로 변경한 시간 |11/23/2016 12:00:00 AM |
-| 크기 |이진 파일의 크기 | |
+| Size |이진 파일의 크기 | |
 | StartDateInclusiveUTC |데이터 웨어하우스에서 해당 앱의 수정 버전을 만든 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
 | EndDateExclusiveUTC |해당 앱의 수정 버전이 더 이상 사용되지 않는 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
 | IsCurrent |해당 앱의 수정 버전이 데이터 웨어하우스에 있는지 여부를 나타냅니다. |True/False |
@@ -62,9 +62,9 @@ ms.lasthandoff: 10/20/2017
 | AppTypeKey |키에 대한 대리 키 |
 | AppTypeName |앱 유형 |
 
-## <a name="example"></a>예
+### <a name="example"></a>예제
 
-| AppTypeID  | Name | 설명 |
+| AppTypeID  | 이름 | 설명 |
 |---------|------------|--------|
 | 0 |Android 스토어 앱 | Android 스토어 앱 |
 | 1 |Android LOB 앱 | Android 기간 업무 앱 |
@@ -91,9 +91,9 @@ ms.lasthandoff: 10/20/2017
 | VppProgramTypeKey | 키에 대한 서로게이트 키 |
 | VppProgramTypeName | VPP 프로그램 유형 |
 
-## <a name="example"></a>예
+### <a name="example"></a>예제
 
-| VppProgramID  | Name | 설명 |
+| VppProgramID  | 이름 | 설명 |
 |---------|------------|--------|
 | 3DDA2474-470B-4503-9830-2665C21C1945 | Microsoft | Microsoft의 VPP 프로그램 |
 | 00000000-0000-0000-0000-000000000000 | 아직 사용할 수 없음 | 기본값, VPP 없음 |
@@ -112,3 +112,26 @@ ms.lasthandoff: 10/20/2017
 | ApplicationName | 응용 프로그램 이름입니다. |
 | ApplicationVersion | 응용 프로그램의 버전 |
 | BundleSize | 응용 프로그램의 크기(바이트) |
+
+## <a name="mobileappinstallstate"></a>MobileAppInstallState
+
+**MobileAppInstallState** 엔터티는 장치, 사용자 또는 둘 다를 포함하는 그룹에 할당된 후 모바일 응용 프로그램의 설치 상태를 나타냅니다.
+
+| 속성 | 설명 |
+|---|---|
+| AppInstallStateKey | 계정에 대한 앱 설치 상태의 고유 ID입니다. |
+| AppInstallState | 앱 설치 상태의 열거형 값입니다. |
+| AppInstallStateName | 앱 설치 상태의 이름입니다. |
+
+## <a name="mobileappdeviceuserinstallstatus"></a>MobileAppDeviceUserInstallStatus
+
+**MobileAppDeviceUserInstallStatus**는 지정된 장치 및 사용자의 모바일 앱 설치 상태를 나타냅니다.
+
+| 속성 | 설명 |
+|---|---|
+| DateKey | 앱 설치 상태가 기록된 날짜의 키입니다. |
+| AppKey | AppRevision 인스턴스를 식별하는 데 사용되는 모바일 앱의 키입니다. |
+| DeviceKey | 장치 인스턴스를 식별하는 데 사용되는 대상 장치의 키입니다. |
+| UserKey | 사용자 인스턴스를 식별하는 데 사용되는 대상 사용자의 키입니다. |
+|AppInstallStateKey | MobileAppInstallState 인스턴스를 식별하는 데 사용되는 앱 설치 상태의 키입니다. |
+| 오류 코드 | 앱 설치 프로그램, 모바일 플랫폼 또는 서비스에서 반환된 앱 설치와 관련된 오류 코드입니다. |
