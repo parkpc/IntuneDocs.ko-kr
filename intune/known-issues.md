@@ -7,7 +7,7 @@ author: arob98
 ms.author: angrobe
 manager: angrobe
 ms.date: 10/31/2017
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
@@ -15,11 +15,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5cdda6a34311bb7b70234ab046975e6ff5417878
-ms.sourcegitcommit: cfe3607ba0b76a37a3c54f465754482d49a816a0
+ms.openlocfilehash: c4210d77e52abba07454d8606ba7715c03078ca6
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Microsoft Intune의 알려진 문제
 
@@ -55,8 +55,6 @@ iOS 대량 구매 앱은 Intune 계정과 동일한 국가 코드에 대해서�
 ### <a name="multiple-copies-of-the-same-ios-volume-purchase-program-are-uploaded"></a>동일한 iOS 대량 구매 프로그램의 여러 복사본이 업로드됨
 동일한 VPP 토큰에 대해 **업로드** 단추를 여러 번 클릭하지 마세요. 여러 번 클릭하면 중복 VPP 토큰이 업로드되고, 동일한 VPP 토큰에 대해 앱이 여러 번 동기화됩니다.
 
-### <a name="assigning-office-365-to-macos-devices"></a>macOS 장치에 Office 365 할당
-UI 업데이트가 완료되면 Microsoft Intune에서 macOS 장치에 Office 365를 할당하는 기능을 사용할 수 있습니다.
 
 <!-- ## Groups -->
 

@@ -16,13 +16,13 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: bb39ff625034c00f70d5e7f28a7982fc1f40d0f2
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 726c3d052b62dbcab82f75cc82ce39b72bcbef94
+ms.sourcegitcommit: 4401890db054657954a8b3947de1f4308f4da170
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/11/2018
 ---
-## <a name="how-to-turn-off-microsoft-data-collection"></a>Microsoft 데이터 수집을 끄는 방법
+# <a name="how-to-turn-off-microsoft-data-collection"></a>Microsoft 데이터 수집을 끄는 방법
 
 Microsoft는 제품 및 서비스에 대한 특정 데이터를 자동으로 수집합니다. 회사 포털 앱을 비롯하여 제품의 안정성 및 성능을 개선하기 위해 이 작업을 수행합니다. 이 데이터를 익명으로 처리하지만, 일부 사용자는 이러한 수집을 불편하게 느낄 수 있습니다. 회사 지원팀은 이 데이터 수집을 제어할 수 없으며, 설정에 대한 사용자의 선택을 변경할 수 없습니다.
 

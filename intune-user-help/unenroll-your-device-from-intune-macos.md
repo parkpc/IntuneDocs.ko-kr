@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/02/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 0b2b77328208038721286245847160c6dbe8d7e5
-ms.sourcegitcommit: cfe3607ba0b76a37a3c54f465754482d49a816a0
+ms.openlocfilehash: 504d732e00e296ad370d364e553989cacbd124d0
+ms.sourcegitcommit: e76dbd0882526a86b6933ace2504f442e04de387
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="unenroll-your-macos-device-from-intune"></a>Intune에서 macOS 장치 등록 취소
 
@@ -47,7 +47,5 @@ Intune에서 장치를 등록 취소하면 다음과 같은 일이 발생합니�
 -   더 이상 Wi-Fi 또는 VPN(가상 사설망)을 사용하여 회사 네트워크에 연결할 수 없습니다.
 
 -   장치에서 회사 메일 액세스가 제거될 수 있습니다.
-
--   메일용으로만 구성된 장치는 회사 포털 앱이나 웹 사이트에 더 이상 표시되지 않습니다.
 
 여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

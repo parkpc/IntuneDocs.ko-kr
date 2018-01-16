@@ -15,16 +15,13 @@ ms.assetid: 2372332a-7e3a-4a9c-91a9-86654e0fabe2
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5613997340867dda6def6a9a0a308b1ef0b618b5
-ms.sourcegitcommit: 138df6f793d2dc718041346b90c367c0181990da
+ms.openlocfilehash: 5e0ad0b99a2c8a602b5e542530a1d437065461b2
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="how-to-assign-office-365-to-macos-devices-with-microsoft-intune"></a>Microsoft Intune을 사용하여 macOS 장치에 Office 365를 할당하는 방법
-
->[!Note]
-> 이 기능에 영향을 주는 알려진 문제가 있습니다. 자세한 내용은 [알려진 Microsoft Intune 문제](/intune/known-issues#apps)를 참조하세요.
 
 이 앱 유형을 사용하면 macOS 장치에 Office 365 앱을 쉽게 할당할 수 있습니다. 이 새로운 앱 유형을 통해 Word, Excel, PowerPoint, Outlook 및 OneNote를 설치할 수 있습니다. 또한 이러한 앱은 MAU(Microsoft 자동 업데이트)와 함께 제공되므로 앱을 더 안전하게 최신 상태로 유지할 수 있습니다. 원하는 앱이 Intune 콘솔의 앱 목록에 하나의 앱으로 표시됩니다.
 
