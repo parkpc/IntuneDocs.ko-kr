@@ -79,6 +79,7 @@
 #### [회사에 오류 전송](send-errors-to-your-it-admin-ios.md)
 #### [Microsoft에 오류 전송](send-logs-to-microsoft-ios.md)
 #### [기존 회사 메일 계정 찾음](existing-company-email-account-found.md)
+#### [장치 제한에 도달함](device-limit-wpj-ios.md)
 #### [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-ios.md)
 #### [오류가 표시됨](you-get-an-error-while-using-the-company-portal-app-ios.md)
 #### [장치 식별](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md)
@@ -112,6 +113,7 @@
 #### [이 장치는 약간 다릅니다.](device-little-different-jamf.md)
 #### [일련 번호 찾기](how-do-i-find-the-serial-number-on-my-device-macos.md)
 #### [장치 식별](you-are-asked-to-identify-your-device-when-trying-to-enroll-macos.md)
+#### [장치 제한에 도달함](device-limit-wpj-macos.md)
 
 ## [Windows 장치 사용](using-your-windows-device-with-intune.md)
 ### [Windows 10 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
