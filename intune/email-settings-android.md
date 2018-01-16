@@ -15,21 +15,21 @@ ms.assetid: 4d3458cc-fcaa-4648-b13f-bf1f0616c1c5
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0c793721cad40ea0f1662ae72ed334b98226c96d
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: adc61e3d6a8b413ca5a03a2fdbc3d2353226040b
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="email-profile-settings-for-android--devices-in-microsoft-intune"></a>Microsoft Intune의 Android 장치에 대한 전자 메일 프로필 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Intune 관리자는 다음 Android 장치에 대해 전자 메일 설정을 만들고 할당할 수 있습니다.
-- [Android Samsung KNOX Standard](#android-samsung-knox-standard-email-settings)
+- [Android Samsung Knox Standard](#android-samsung-knox-standard-email-settings)
 - [Android for Work](#android-for-work-email-settings)
 
-## <a name="android-samsung-knox-standard-email-settings"></a>Android Samsung KNOX Standard 전자 메일 설정
+## <a name="android-samsung-knox-standard-email-settings"></a>Android Samsung Knox Standard 메일 설정
 - **메일 서버** - Exchange Server의 호스트 이름입니다.
 - **계정 이름** - 장치에서 사용자에게 표시되는 전자 메일 계정의 표시 이름입니다.
 - **AAD의 사용자 이름 특성** - 이 이름은 해당 전자 메일 프로필에 대해 사용자 이름을 생성하는 데 사용되는 AD(Active Directory) 또는 Azure AD의 특성입니다. user1@contoso.com와 같은 **기본 SMTP 주소** 또는 user1, user1@contoso.com와 같은 **사용자 계정 이름**을 선택합니다.

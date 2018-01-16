@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 04/10/2017
+ms.date: 01/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
-ms.openlocfilehash: dd211b9dd8b09f2e3eab570eab48664fab55e3df
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: a83d938abbaefe35d028e50ed13c422b97bc3987
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="fix-common-issues-with-your-android-device"></a>Android 장치의 일반적인 문제 해결
 
@@ -30,6 +30,7 @@ Android 장치에서 발생하는 문제가 문제 해결을 통해 해결되는
 - [전자 메일을 사용하여 회사 지원팀에 로그 보내기](send-logs-to-your-it-admin-by-email-android.md)
 - [USB 케이블을 사용하여 회사 지원팀에 로그 보내기](send-logs-to-your-it-admin-using-cable-android.md)
 - [회사 지원팀에 등록 오류 보내기](send-enrollment-errors-to-your-it-admin-android.md)
+- [Microsoft에 오류 전송](send-logs-to-microsoft-android.md)
 - [Android 장치를 업데이트해야 함](you-need-to-update-your-android-device.md)
 - [장치가 최대 운영 체제 버전에 부합되지 않는 경우](your-android-version-isnt-yet-supported.md)
 - [장치가 루팅되었으며 연결할 수 없는 경우](your-device-is-rooted-and-you-cant-connect-android.md)
@@ -41,3 +42,4 @@ Android 장치에서 발생하는 문제가 문제 해결을 통해 해결되는
 - [장치가 암호화된 것으로 보이지만 회사 앱은 다르게 말하는 경우](your-device-appears-encrypted-but-cp-says-otherwise-android.md)
 - [Android 장치에 장치 위협 방지 앱을 설치하라는 메시지가 표시됨](you-are-prompted-to-install-mtd-android.md)
 - [Android 장치에서 장치 위협 방지 앱이 발견한 위협을 해결해야 함](you-need-to-resolve-a-threat-found-by-mtd-android.md)
+- [Samsung Knox 장치의 오류 수정](samsung-knox-errors-android.md)

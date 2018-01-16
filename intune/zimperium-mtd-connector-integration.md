@@ -3,10 +3,10 @@ title: "Intune 및 Zimperium 통합"
 titleSuffix: Intune on Azure
 description: "Intune과 Zimperium을 통합합니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 09/06/2017
+ms.date: 12/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,20 +15,20 @@ ms.assetid: 363fd280-1865-4a61-855b-eb75c3c62753
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1b4adb2db14c2e1c83be8e7b3644944c1910cb97
-ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
+ms.openlocfilehash: 515f99f694a9125d60bb9210becc6722bfb9e24f
+ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2017
+ms.lasthandoff: 12/30/2017
 ---
 # <a name="integrate-zimperium-with-intune"></a>Intune 및 Zimperium 통합
 
-Intune과 Zuneperium Mobile Threat Defense 솔루션을 통합하려면 아래 단계를 수행해야 합니다.
+Intune과 Zuneperium Mobile Threat Defense 솔루션을 통합하려면 다음 단계를 완료하세요.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
 > [!NOTE]
-> 아래 단계는 [Zimperium MTD 콘솔](https://staging2-console.zimperium.com)에서 수행해야 합니다.
+> [Zimperium MTD 콘솔](https://staging2-console.zimperium.com)에서 다음 단계를 완료해야 합니다.
 
 Intune과 Zimperium을 통합하는 과정을 시작하기 전에 다음 항목이 있는지 확인합니다.
 
@@ -48,7 +48,7 @@ Intune과 Zimperium을 통합하는 과정을 시작하기 전에 다음 항목�
 
 ### <a name="zimperium-app-authorization"></a>Zimperium 앱 권한 부여
 
-Zimperium 앱 권한 부여 프로세스는 다음과 같이 구성됩니다.
+Zimperium 앱 권한 부여 프로세스는 다음과 같습니다.
 
 -   Zimperium 서비스에서 장치 상태와 관련된 정보를 Intune으로 다시 전달하도록 허용합니다.
 
@@ -68,14 +68,14 @@ Zimperium 앱 권한 부여 프로세스는 다음과 같이 구성됩니다.
 
 4.  **MDM 추가**를 선택한 다음 **MDM 공급자** 목록에서 **Microsoft Intune**을 선택합니다.
 
-5.  Microsoft Intune을 MDM 서비스로 설정하면 **Microsoft Intune 구성** 창이 표시되며, Zimperium에서 Azure AD Single Sign-On을 통해 Intune 및 Azure AD와 통신할 수 있도록 권한을 부여하려면 **Zimperium zConsole** 및 **zIPS iOS 및 Android 앱** 옵션 각각에 대해 **Azure Active Directory 추가**를 선택합니다.
+5.  Microsoft Intune을 MDM 서비스로 설정하면 **Microsoft Intune 구성** 창이 팝업되며, Zimperium에서 Azure AD Single Sign-On을 통해 Intune 및 Azure AD와 통신할 수 있도록 권한을 부여하려면 **Zimperium zConsole** 및 **zIPS iOS 및 Android 앱** 옵션에 대해 각각 **Azure Active Directory 추가**를 선택합니다.
 
     > [!IMPORTANT]
     > Intune과의 통합 프로세스를 완료하려면 Zimperium zConsole, zIPS iOS 및 Android 앱을 추가해야 합니다.
 
 6.  **동의**를 선택하여 Intune 및 Azure Active Directory와 통신할 수 있는 권한을 Zimperium 앱에 부여합니다.
 
-7.  Azure AD에 **Zimperium zConsole** 및 **zIPS iOS 및 Android** 앱을 추가하면 Azure AD 보안 그룹을 추가해야 Zimperium에서 Azure AD 보안 그룹과 서비스를 동기화할 수 있습니다.
+7.  Azure AD에 **Zimperium zConsole** 및 **zIPS iOS 및 Android** 앱을 추가한 후 Azure AD 보안 그룹을 추가하여 Zimperium에서 Azure AD 보안 그룹과 해당 서비스를 동기화할 수 있게 합니다.
 
 8.  **마침**을 선택하여 구성을 저장하고 첫 번째 Azure AD 보안 그룹 동기화를 시작합니다.
 

@@ -2,8 +2,8 @@
 title: "Windows AutoPilot Deployment 프로그램을 사용하여 Windows 장치 등록"
 description: "Windows AutoPilot Deployment 프로그램을 사용하여 새 Windows 10 장치를 등록하는 방법을 알아봅니다."
 keywords: 
-author: dougeby
-ms.author: dougeby
+author: ErikjeMS
+ms.author: erikje
 manager: angrobe
 ms.date: 11/08/2017
 ms.topic: article
@@ -11,17 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a2dc5594-a373-48dc-ba3d-27aff0c3f944
-ms.openlocfilehash: 736eda24e355024e2abadd57206c0f0423e6d4b4
-ms.sourcegitcommit: af958afce3070a3044aafea490c8afc55301d9df
+ms.openlocfilehash: cbccff7ac58c98e85f5a038950feb5bd6590922b
+ms.sourcegitcommit: 5fd17a57989c6da3d325ed2e0018ce16fe20bb79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="enroll-windows-devices-using-windows-autopilot-deployment-program"></a>Windows AutoPilot Deployment 프로그램을 사용하여 Windows 장치 등록
-Windows AutoPilot Deployment 프로그램은 장치 프로비전을 간소화합니다. 오늘날 사용자 지정 운영 체제 이미지를 빌드하고 유지 관리하는 데 많은 시간이 걸립니다. 또한 최종 사용자에게 제공하기 전에 이러한 사용자 지정 운영 체제 이미지를 새 장치에 적용하여 사용하도록 준비하는 데에도 많은 시간이 걸릴 수 있습니다. Microsoft Intune 및 AutoPilot을 사용하면 사용자 지정 운영 체제 이미지를 빌드 및 유지 관리하고 장치에 적용할 필요 없이 최종 사용자에게 새 장치를 제공할 수 있습니다. Intune을 사용하여 AutoPilot 장치를 관리하는 경우 장치를 등록한 후에 정책, 프로필, 앱 등을 관리할 수 있습니다. 이점, 시나리오 및 필수 구성 요소에 대한 개요는 [Windows AutoPilot 개요](https://docs.microsoft.com/windows/deployment/windows-10-auto-pilot)를 참조하세요.
+Windows AutoPilot Deployment 프로그램은 장치 프로비전을 간소화합니다. 사용자 지정 운영 체제 이미지 빌드 및 유지 관리는 시간이 오래 걸리는 프로세스입니다. 또한 최종 사용자에게 제공하기 전에 이러한 사용자 지정 운영 체제 이미지를 새 장치에 적용하여 사용 준비를 하는 데에도 시간이 걸릴 수 있습니다. Microsoft Intune 및 AutoPilot을 사용하면 사용자 지정 운영 체제 이미지를 빌드 및 유지 관리하고 장치에 적용할 필요 없이 최종 사용자에게 새 장치를 제공할 수 있습니다. Intune을 사용하여 AutoPilot 장치를 관리하는 경우 장치를 등록한 후에 정책, 프로필, 앱 등을 관리할 수 있습니다. 이점, 시나리오 및 필수 구성 요소에 대한 개요는 [Windows AutoPilot 개요](https://docs.microsoft.com/windows/deployment/windows-10-auto-pilot)를 참조하세요.
 
 ## <a name="prerequisites"></a>전제 조건
-- [조직에 장치 등록](https://docs.microsoft.com/windows/deployment/windows-10-auto-pilot#registering-devices-to-your-organization)
+- [조직에 장치 등록](https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/windows-10-autopilot#device-registration-and-oobe-customization)
 - [Windows 자동 등록 사용](https://docs.microsoft.com/intune-classic/deploy-use/set-up-windows-device-management-with-microsoft-intune#enable-windows-10-automatic-enrollment)
 - [Azure Active Directory Premium 구독](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium) <!--&#40;[trial subscription](http://go.microsoft.com/fwlink/?LinkID=816845)&#41;-->
 
@@ -30,8 +30,8 @@ Windows AutoPilot Deployment 프로그램은 장치 프로비전을 간소화합
 
 1. [Azure](https://portal.azure.com/)에 로그인합니다.
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 등록**을 선택합니다.
-4. **Windows 등록** 블레이드의 **Windows AutoPilot Deployment 프로그램** 섹션에서 **장치**를 선택합니다.
+3. **Intune** 아래에서 **장치 등록**을 선택합니다.
+4. **Windows 등록** 아래의 **Windows AutoPilot Deployment 프로그램** 섹션에서 **장치**를 선택합니다.
 5. **동기화**를 클릭하여 등록한 장치를 가져옵니다. 동기화가 진행 중이라는 메시지가 표시됩니다.
 6. 보기를 새로 고쳐 새 장치를 확인합니다. 동기화되는 장치의 수에 따라 프로세스가 완료되는 데 몇 분 정도 걸릴 수 있습니다.  
 
@@ -39,8 +39,8 @@ Windows AutoPilot Deployment 프로그램은 장치 프로비전을 간소화합
 AutoPilot 배포 프로필은 AutoPilot 장치를 구성하는 데 사용됩니다.
 1. [Azure](https://portal.azure.com/)에 로그인합니다. 
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 등록**을 선택합니다.
-4. **Windows 등록** 블레이드의 **Windows AutoPilot Deployment 프로그램** 섹션에서 **배포 프로필**을 선택합니다.
+3. **Intune** 아래에서 **장치 등록**을 선택합니다.
+4. **Windows 등록** 아래의 **Windows AutoPilot Deployment 프로그램** 섹션에서 **배포 프로필**을 선택합니다.
 5. **프로필 만들기**를 클릭하고 이름과 설명(선택 사항)을 선택합니다. 
 6. **조인 유형**에 대해 **Azure AD 조인됨**을 선택합니다.
 7. **OOBE(첫 실행 경험)**에 대해 다음 옵션을 구성한 다음 **확인**을 클릭합니다. 
@@ -62,22 +62,22 @@ AutoPilot 배포 프로필은 AutoPilot 장치를 구성하는 데 사용됩니�
 Windows AutoPilot 할당되지 않은 장치에 대한 경고에서 AutoPilot 프로그램의 장치 중 AutoPilot 배포 프로필이 없는 장치의 수를 확인할 수 있습니다. 경고의 정보를 사용하여 프로필을 만들어서 할당되지 않은 장치에 할당하십시오. 경고를 클릭하면 Windows AutoPilot 장치의 전체 목록과 해당 장치에 대한 자세한 정보가 표시됩니다. 
 1. [Azure](https://portal.azure.com/)에 로그인합니다. 
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 등록**을 선택합니다.
-4. **개요**를 선택하여 경고를 봅니다. 경고를 클릭하여 AutoPilot 장치 목록을 봅니다.  
+3. **Intune** 아래에서 **장치 등록**을 선택합니다.
+4. 경고를 보려면 **개요**를 선택합니다. 경고를 클릭하여 AutoPilot 장치 목록을 봅니다.  
 
 ## <a name="assign-an-autopilot-deployment-profile"></a>AutoPilot 배포 프로필 할당
 AutoPilot 배포 프로필을 만든 후에는 해당 프로필을 선택한 장치에 할당할 수 있습니다.
 
 1. [Azure](https://portal.azure.com/)에 로그인합니다. 
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 등록**을 선택합니다.
+3. **Intune** 아래에서 **장치 등록**을 선택합니다.
 4. **Windows 등록** 블레이드의 **Windows AutoPilot Deployment 프로그램** 섹션에서 **장치**를 선택합니다.
 5. 배포 프로필을 할당하려는 장치를 선택합니다. **상태** 열을 필터링하여 할당된 프로필이 없는 장치를 쉽게 찾을 수 있습니다. 
 6. **프로필 할당**을 클릭하고 AutoPilot 배포 프로필을 선택한 다음 **할당**을 클릭합니다. 할당이 진행 중이라는 메시지가 표시됩니다.
 7. 보기를 새로 고쳐 프로필이 장치에 할당되었는지 확인합니다. 선택한 장치의 수에 따라 프로세스가 완료되는 데 몇 분 정도 걸릴 수 있습니다. 
 
 > [!Note]
-> 새 프로필이 장치에 할당됩니다. 그러나 장치를 다시 설정하고 다시 등록할 때까지는 Intune에 이미 등록되어 있는 장치에 프로필이 적용되지 않습니다.
+> 새 프로필이 장치에 할당됩니다. Intune에 이미 등록된 장치의 경우 장치를 초기화하고 다시 등록하면 프로필이 적용됩니다.
 
 ### <a name="assign-a-different-autopilot-deployment-profile"></a>다른 AutoPilot 배포 프로필 할당
 AutoPilot 배포 프로필을 장치에 할당한 후에 다른 프로필을 할당하려는 경우 새 프로필을 장치에 할당합니다.  
@@ -86,8 +86,8 @@ AutoPilot 배포 프로필을 장치에 할당한 후에 다른 프로필을 할
 AutoPilot 배포 프로필을 만든 후에는 배포 프로필의 특정 부분을 편집할 수 있습니다.   
 1. [Azure](https://portal.azure.com/)에 로그인합니다. 
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 등록**을 선택합니다.
-4. **Windows 등록** 블레이드의 **Windows AutoPilot Deployment 프로그램** 섹션에서 **배포 프로필**을 선택합니다. 
+3. **Intune** 아래에서 **장치 등록**을 선택합니다.
+4. **Windows 등록** 아래의 **Windows AutoPilot Deployment 프로그램** 섹션에서 **배포 프로필**을 선택합니다. 
 5. 편집하려는 프로필을 선택합니다. 
 6. 왼쪽에 있는 **속성**을 클릭하여 배포 프로필의 이름이나 설명을 변경합니다. 변경한 후에 **저장**을 클릭합니다. 
 7. OOBE 설정을 변경하려면 **설정**을 클릭합니다. 변경한 후에 **저장**을 클릭합니다. 

@@ -7,17 +7,17 @@ author: arob98
 ms.author: angrobe
 manager: angrobe
 ms.date: 07/28/2017
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bd7b5613-ee9f-4dc3-990c-ab4c1d40720d
 ms.custom: intune-azure
-ms.openlocfilehash: 5d094e59b374ca306482cd1cb87f8a950df7fe14
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 08fc3be9e1e4f4b5692f871fc57108d431d5836d
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="microsoft-intune-glossary"></a>Microsoft Intune 용어
 
@@ -138,7 +138,7 @@ ms.lasthandoff: 09/15/2017
 |-|-|
 |TeamViewer|Intune으로 관리하는 Android 장치에 [원격 지원 기능](/intune/device-profile-android-teamviewer)을 제공하기 위해 Intune과 연동되는 타사 응용 프로그램입니다.|
 |테넌트|구독을 통해 액세스할 수 있는 Intune 서비스의 단일 인스턴스입니다.|
-|사용 조건|사용자가 회사 포털을 사용하여 등록하고 작업에 액세스하기 전에 먼저 [읽고 동의](/intune/terms-and-conditions-create)해야 하는 정보를 포한, 사용자에게 할당할 정책 형식입니다.|
+|Terms and conditions|사용자가 회사 포털을 사용하여 등록하고 작업에 액세스하기 전에 먼저 [읽고 동의](/intune/terms-and-conditions-create)해야 하는 정보를 포한, 사용자에게 할당할 정책 형식입니다.|
 
 ## <a name="v"></a>V
 |||

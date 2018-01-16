@@ -6,6 +6,8 @@
 
 ## [내 장치 다시 설정](what-happens-if-you-reset-your-device-cpwebsite.md)
 
+## [내 암호 업데이트](password-does-not-meet-it-administrator-requirements.md)
+
 ## [회사 포털에 로그인](sign-in-to-the-company-portal.md)
 
 ## [Android 장치 사용](using-your-android-device-with-intune.md)
@@ -72,11 +74,12 @@
 #### [장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-ios.md)
 ### [수동으로 장치 동기화](sync-your-device-manually-ios.md)
 
-#### [iOS의 일반적인 문제 해결](troubleshoot-your-device-iOS.md)
+### [iOS의 일반적인 문제 해결](troubleshoot-your-device-iOS.md)
 #### [손상된 iOS 장치 다시 연결](how-to-reconnect-a-compromised-ios-device.md)
 #### [회사에 오류 전송](send-errors-to-your-it-admin-ios.md)
 #### [Microsoft에 오류 전송](send-logs-to-microsoft-ios.md)
 #### [기존 회사 메일 계정 찾음](existing-company-email-account-found.md)
+#### [장치 제한에 도달함](device-limit-wpj-ios.md)
 #### [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-ios.md)
 #### [오류가 표시됨](you-get-an-error-while-using-the-company-portal-app-ios.md)
 #### [장치 식별](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md)
@@ -110,12 +113,14 @@
 #### [이 장치는 약간 다릅니다.](device-little-different-jamf.md)
 #### [일련 번호 찾기](how-do-i-find-the-serial-number-on-my-device-macos.md)
 #### [장치 식별](you-are-asked-to-identify-your-device-when-trying-to-enroll-macos.md)
+#### [장치 제한에 도달함](device-limit-wpj-macos.md)
 
 ## [Windows 장치 사용](using-your-windows-device-with-intune.md)
 ### [Windows 10 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
 #### [다른 버전의 Windows를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
 ### [Windows 장치 등록](enroll-your-device-in-intune-windows.md)
 #### [Windows 10 장치 등록](enroll-your-w10-phone-or-w10-pc-windows.md)
+#### ["회사 또는 학교 액세스"를 통해 Windows 10 장치 등록](enroll-your-w10-device-access-work-or-school.md)
 #### [Windows 8.1 또는 Windows RT 8.1 장치 등록](enroll-your-w81-or-rt81-windows.md)
 #### [Windows Phone 8.1 장치 등록](enroll-your-wp81-windows.md)
 ### [장치 재설정](reset-erase-your-device-cpwebsite.md)

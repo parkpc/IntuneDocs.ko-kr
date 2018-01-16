@@ -14,11 +14,11 @@ ms.assetid: 1f37d4ff-b5a7-4a89-8884-a6184908b09c
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6cf2d958e5775281cca7878c54b2c9d9f593f509
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 485517f589649bdb805f94503df716b82de17b06
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="common-ways-to-use-intune"></a>Intune을 사용하는 일반적인 방법
 
@@ -82,7 +82,7 @@ BYOD는 하드웨어 비용 절감 또는 직원에 대한 모바일 생산성 �
 ## <a name="issue-corporate-owned-phones-to-your-employees"></a>직원에게 회사 소유의 휴대폰 발급
 오늘날에는 대부분의 직원들이 모바일 방식으로 업무를 수행하므로, 모바일 장치에서 생산성을 높여야 경쟁력도 높일 수 있습니다. 이러한 직원은 어디에서 언제든지 모든 회사 앱 및 데이터에 원활하게 액세스할 수 있어야 합니다. 회사 데이터가 안전하고 관리 비용은 적어야 합니다.  
 
-Intune은 Apple 장치 등록 프로그램 및 Samsung KNOX 모바일 보안 플랫폼을 포함하여 현재 시판 중인 주요 회사 장치 관리 플랫폼과 통합되는 [대량 프로비전 및 관리 솔루션](device-enrollment.md)([클래식 포털](/intune-classic/deploy-use/manage-corporate-owned-devices))을 제공합니다. Intune을 사용하여 장치 구성을 중앙 집중적으로 제작하면 고도로 자동화할 수 있는 회사 장치를 프로비전할 수 있습니다.  
+Intune은 Apple 장치 등록 프로그램 및 Samsung Knox 모바일 보안 플랫폼을 포함하여 현재 시판 중인 주요 회사 장치 관리 플랫폼과 통합되는 [대량 프로비전 및 관리 솔루션](device-enrollment.md)([클래식 포털](/intune-classic/deploy-use/manage-corporate-owned-devices))을 제공합니다. Intune을 사용하여 장치 구성을 중앙 집중적으로 제작하면 고도로 자동화할 수 있는 회사 장치를 프로비전할 수 있습니다.  
 
 열려 있지 않은 iPhone 상자를 직원에게 전달한다고 상상해 보세요. 직원은 iPhone을 켜고 자신을 인증해야 하는 회사 브랜드 설치 흐름을 진행합니다. [보안 정책](device-profiles.md)([클래식 포털](/intune-classic/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies))을 통해 IPhone을 원활하게 구성할 수 있습니다.
 

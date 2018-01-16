@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 7a90ae7db1141b40934648c951276e3f4d43bc05
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 52364f7c5586f6021ac3bf83e73701d9781c4468
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="enroll-your-android-device-in-intune"></a>Intune에서 Android 장치 등록
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 12/12/2017
 
 > [!VIDEO https://channel9.msdn.com/Series/IntuneEnrollment/Android-Enrollment/player]
 
-이러한 등록 지침은 Samsung KNOX Android 장치와 네이티브 Android 장치에 대한 것입니다. Samsung KNOX는 특정 Samsung 장치에서 네이티브 Android가 제공하지 않는 추가 보호를 제공하기 위해 사용하는 보안 유형입니다. Samsung KNOX 장치가 있는지 확인하려면 **설정** > **장치 정보**로 이동합니다. 여기에 나열된 "KNOX 버전"이라는 단어가 보이지 않으면 네이티브 Android 장치가 있어야 합니다.
+이러한 등록 지침은 네이티브 장치와 Samsung Knox Android 장치에 대한 것입니다. Samsung Knox는 특정 Samsung 장치에서 네이티브 Android가 제공하지 않는 추가 보호를 제공하기 위해 사용하는 보안 유형입니다. Samsung Knox 장치가 있는지 확인하려면 **설정** > **장치 정보**로 이동합니다. "Knox 버전"이 표시되지 않는 경우 네이티브 Android 장치가 있는 것입니다.
 
 등록하기 전이나 이후에 장치 사용 방법을 가장 잘 설명하는 범주를 선택하라는 메시지가 표시될 수도 있습니다. 회사 지원팀은 이 범주를 사용하여 액세스할 수 있는 앱을 확인합니다.
 
@@ -98,9 +98,9 @@ ms.lasthandoff: 12/12/2017
 
     ![PIN 또는 암호 입력](./media/and-enroll-6-PIN-native.png)
 
-13.  Samsung KNOX 장치를 사용하는 경우 **확인**을 탭하면 장치가 등록되고 있음을 나타내는 메시지를 확인할 수 있습니다. 기본 Android 장치를 사용하는 경우 장치가 등록되고 있음을 보여 주는 다음 화면을 확인할 수 있습니다.
+13.  Samsung Knox 장치를 사용하는 경우 **확인**을 탭하면 장치가 등록되고 있음을 나타내는 메시지를 확인할 수 있습니다. 기본 Android 장치를 사용하는 경우 장치가 등록되고 있음을 보여 주는 다음 화면을 확인할 수 있습니다.
 
-    ![Samsung KNOX 개인 정보 취급 방침](./media/and-enroll-7-knox-privacy-policy.png)
+    ![Samsung Knox 개인 정보 취급 방침](./media/and-enroll-7-knox-privacy-policy.png)
 
     이 화면은 장치가 등록되고 있음을 보여 줍니다.
 

@@ -6,7 +6,7 @@ author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 02/14/2017
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d0a0a3670388ec95cff86b09ea81661a0825ba83
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: e34079899650307d295130fcbf456eb4ea1f993f
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="create-policies-and-publish-apps"></a>정책 만들기 및 앱 게시
 
@@ -35,7 +35,7 @@ Intune에 앱을 등록하기 전에 이러한 장치가 관리에 등록되는 
 
  장치 정책 설정은 플랫폼별로 구성하고 관리합니다. 다음 링크에서는 각 플랫폼에 사용 가능한 설정의 목록을 제공합니다.
 
-- [Android](/intune-classic/deploy-use/ios-policy-settings-in-microsoft-intune)
+- [iOS](/intune-classic/deploy-use/ios-policy-settings-in-microsoft-intune)
 - [Android 및 Samsung KNOX Standard](/intune-classic/deploy-use/android-policy-settings-in-microsoft-intune)
 - [Android for Work](/intune-classic/deploy-use/android-for-work-policy-settings-in-microsoft-intune)
 - [Windows 10(PC 및 모바일)](/intune-classic/deploy-use/windows-10-policy-settings-in-microsoft-intune)

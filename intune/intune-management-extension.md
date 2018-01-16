@@ -14,11 +14,11 @@ ms.assetid: 768b6f08-3eff-4551-b139-095b3cfd1f89
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 237d6d090d0aae7f9a0853839b72d55618f4607e
-ms.sourcegitcommit: af958afce3070a3044aafea490c8afc55301d9df
+ms.openlocfilehash: 1bdd9002c70ea8d9e8b16b73d4d8416eeec3341b
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="manage-powershell-scripts-in-intune-for-windows-10-devices"></a>Windows 10 장치를 위한 Intune에서의 PowerShell 스크립트 관리
 Intune 관리 확장을 사용하면 Windows 10 장치에서 실행되도록 Intune에서 PowerShell 스크립트를 업로드할 수 있습니다. 관리 확장은 Windows 10 MDM(모바일 장치 관리) 기능을 보완하며 사용자가 최신 관리로 더 손쉽게 이행할 수 있도록 합니다.
@@ -57,7 +57,7 @@ Intune 관리 확장에는 다음과 같은 필수 구성 요소가 있습니다
   ![PowerShell 스크립트 추가 블레이드](./media/mgmt-extension-assignments.png)
  
 6. **그룹 선택**을 선택하여 사용할 수 있는 Azure AD 그룹을 나열합니다. 
-7. 그룹을 선택한 다음, **선택**을 클릭하여 선택한 그룹에 정책을 할당합니다.
+7. 스크립트를 받을 장치의 사용자를 포함하는 그룹을 하나 이상 선택하고 **선택**을 클릭하여 선택한 그룹에 정책을 할당합니다.
 
 Intune 관리 확장은 1시간마다 Intune으로 동기화합니다. Azure AD 그룹에 정책을 지정한 후, PowerShell 스크립트가 실행되고 실행 결과가 보고됩니다. 
  

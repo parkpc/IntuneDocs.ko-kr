@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 840ef2ce59551a45cd753190b784e8ca0bba617a
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 6b598441d39d90a4ae81df7fffff99f9a5ccc451
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="how-to-create-and-assign-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated-in-microsoft-intune"></a>Microsoft Intune에서 Exchange 온-프레미스 및 레거시 Exchange Online Dedicated용 조건부 액세스 정책을 만들고 할당하는 방법
 
@@ -105,7 +105,7 @@ Windows 8.1 이상에 설치된 기본 **메일** 응용 프로그램(Intune에 
 
 13. 조건부 액세스 또는 다른 규칙의 영향을 받지 않는 장치의 경우 Exchange에 대한 액세스를 허용하거나 차단하도록 선택할 수 있습니다.
   - 액세스를 허용하도록 설정하면 모든 장치에서 Exchange 온-프레미스에 즉시 액세스할 수 있습니다.  **그룹 포함됨**의 사용자에게 속한 장치는 이후에 준수 정책을 준수하지 않거나 Intune에 등록되지 않은 것으로 평가되는 경우 차단됩니다.
-  - 액세스를 차단하도록 설정하면 모든 장치에서 초기에 Exchange 온-프레미스에 대한 액세스가 즉시 차단됩니다.  **그룹 포함됨**의 사용자에게 속한 장치는 Intune에 등록되고 준수하는 것으로 평가되는 경우 액세스 권한이 부여됩니다. Samsung KNOX Standard를 실행하지 않는 Android 장치는 이 설정을 지원하지 않으므로 항상 차단됩니다.
+  - 액세스를 차단하도록 설정하면 모든 장치에서 초기에 Exchange 온-프레미스에 대한 액세스가 즉시 차단됩니다.  **그룹 포함됨**의 사용자에게 속한 장치는 Intune에 등록되고 준수하는 것으로 평가되는 경우 액세스 권한이 부여됩니다. Samsung Knox Standard를 실행하지 않는 Android 장치는 이 설정을 지원하지 않으므로 항상 차단됩니다.
 <br></br>
 14. **장치 플랫폼 예외** 아래에서 **추가**를 선택하여 플랫폼을 지정합니다. **관리되지 않는 장치 액세스** 설정이 **차단됨**으로 설정된 경우 등록 및 호환되는 장치는 차단에 대한 플랫폼 예외가 있는 경우에도 허용됩니다. **확인**을 선택하여 설정을 저장합니다.
 

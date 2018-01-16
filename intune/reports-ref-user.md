@@ -2,10 +2,10 @@
 title: "사용자 - Intune 데이터 웨어하우스 | Microsoft Docs"
 description: "Intune 데이터 웨어하우스 API에서 엔터티 컬렉션의 사용자 범주에 대한 항목을 참조하세요."
 keywords: "Intune 데이터 웨어하우스"
-author: mattbriggs
-ms.author: mabrigg
+author: erikre
+ms.author: erikre
 manager: angrobe
-ms.date: 11/14/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,23 +14,23 @@ ms.assetid: C29A6EEA-72B7-427E-9601-E05B408F3BB0
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2d81d17bc9489900f9d17101db1f1496ba8d55e9
-ms.sourcegitcommit: d26930f45ba9e6292a49bcb08defb5b3f14b704b
+ms.openlocfilehash: 917c9585ffe17f9d090c519f716d284aa1b932b8
+ms.sourcegitcommit: b2467a653ffd36c2248a30b69cb88e3dc7cca2ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="reference-for-user-entity"></a>사용자 엔터티에 대한 참조
 
-**사용자** 범주는 데이터 모델의 사용자와 에이전트 속성을 정의하는 **사용자** 엔터티를 포함합니다.
+**사용자** 범주에는 데이터 모델의 사용자 속성을 정의하는 **사용자** 엔터티가 포함됩니다.
 
 ## <a name="user"></a>사용자
 
 **사용자** 엔터티는 회사 내 할당된 라이선스가 있는 모든 Azure Active Directory(Azure AD) 사용자를 나열합니다.
 
-**사용자** 엔터티 컬렉션에는 지난달의 데이터가 포함됩니다. 이러한 레코드에는 사용자가 제거된 경우에도 데이터 컬렉션 기간의 사용자 상태가 포함됩니다. 예를 들어, 사용자가 Intune에 추가된 다음 지난달 중에 제거되었을 수 있습니다. 보고 시점에는 이 사용자가 없지만 이전 달의 데이터에는 사용자와 상태가 있습니다. 데이터에 있는 사용자의 현재 상태 기록에 대한 기간을 보여 주는 보고서를 만들 수 있습니다.
+**사용자** 엔터티 컬렉션에는 사용자 데이터가 포함됩니다. 이러한 레코드에는 사용자가 제거된 경우에도 데이터 컬렉션 기간의 사용자 상태가 포함됩니다. 예를 들어, 사용자가 Intune에 추가된 다음 지난달 중에 제거되었을 수 있습니다. 보고 시점에는 이 사용자가 없지만 이전 달의 데이터에는 사용자와 상태가 있습니다. 데이터에 있는 사용자의 현재 상태 기록에 대한 기간을 보여 주는 보고서를 만들 수 있습니다.
 
-| 속성  | 설명 | 예 |
+| 속성  | 설명 | 예제 |
 |---------|------------|--------|
 | UserKey |데이터 웨어하우스의 사용자에 대한 고유 식별자 - 서로게이트 키 |123 |
 | UserId |사용자에 대한 고유 식별자 - UserKey와 비슷하지만 자연 키입니다. |b66bc706-ffff-7437-0340-032819502773 |
@@ -45,5 +45,5 @@ ms.lasthandoff: 11/15/2017
 | RowLastModifiedDateTimeUTC |데이터 웨어하우스에서 레코드를 마지막으로 수정한 날짜 및 시간(UTC)  |11/23/2016 12:00:00 AM |
 
 ## <a name="next-steps"></a>다음 단계
- - **현재 사용자** 엔터티 컬렉션을 사용하여 사용자 데이터를 현재 활성 상태인 사용자로 제한할 수 있습니다. 자세한 내용은 [현재 사용자 엔터티에 대한 참조](reports-ref-current-user.md)를 참조하세요. 
+ - **현재 사용자** 엔터티 컬렉션을 사용하여 사용자 데이터를 현재 활성 상태인 사용자로 제한할 수 있습니다. 자세한 내용은 [현재 사용자 엔터티에 대한 참조](reports-ref-current-user.md)를 참조하세요.
  - 데이터 웨어하우스가 Intune에서 사용자의 수명을 추적하는 방법에 대한 자세한 내용은 [Intune 데이터 웨어하우스의 사용자 수명 표시](reports-ref-user-timeline.md)를 참조하세요.
