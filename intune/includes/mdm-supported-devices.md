@@ -5,7 +5,7 @@
   - Mac OS X 10.9 이상
 
 ### <a name="google"></a>Google
-  - Android 4.4 이상(Samsung KNOX Standard 4.4 이상 포함)*
+  - Android 4.4 이상(Samsung Knox Standard 4.4 이상 포함)*
   - Android for Work([요구 사항](https://support.google.com/work/android/answer/6174145?hl=en&ref_topic=6151012 style="target=new_window"))
 
 ### <a name="microsoft"></a>Microsoft
@@ -18,6 +18,6 @@
 
 EMS(Enterprise Management + Security)가 있는 고객은 [Azure AD(Azure Active Directory)를 사용하여 Windows 10 장치를 등록](/intune-classic/deploy-use/set-up-windows-device-management-with-microsoft-intune#azure-active-directory-enrollment)할 수도 있습니다.
 
-* 확인된 Samsung KNOX 표준 장치의 전체 목록은 [Android 및 Samsung KNOX 표준 정책 설정](/intune-classic/android-policy-settings-in-microsoft-intune.md#supported-samsung-knox-standard-devices)에서 제공됩니다.
+* 확인된 Samsung Knox Standard 장치의 전체 목록은 [Android 및 Samsung Knox Standard 정책 설정](/intune-classic/android-policy-settings-in-microsoft-intune.md#supported-samsung-knox-standard-devices)에서 확인할 수 있습니다.
 
 장치 및 관리 방법의 전체 목록은 [Intune 지원 장치](/intune/supported-devices-browsers#intune-supported-devices)를 참조하세요.

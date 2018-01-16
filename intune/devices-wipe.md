@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4ee4e9b4abb99e280bf2529f9f60d295096426c0
-ms.sourcegitcommit: 4e0ed4087a1e596831fa215135824ca5d38e33f7
+ms.openlocfilehash: 54def958cb82709f55b3c5f75d85f3b530e3d70b
+ms.sourcegitcommit: 229f9bf89efeac3eb3d28dff01e9a77ddbf618eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="remove-devices-by-using-factory-reset-or-remove-company-data"></a>공장 기본 설정으로 복원을 사용하여 장치를 제거하거나 회사 데이터 제거
 
@@ -77,7 +77,7 @@ Intune에서 더 이상 필요 없거나 용도를 다시 설정하거나 잃어
 
 ### <a name="android"></a>Android
 
-|데이터 형식|Android|Android Samsung KNOX Standard|
+|데이터 형식|Android|Android Samsung Knox Standard|
 |-------------|-----------|------------------------|
 |웹 링크|제거됩니다.|제거됩니다.|
 |관리되지 않는 Google Play 앱|앱 및 데이터는 계속 설치되어 있습니다.|앱 및 데이터는 계속 설치되어 있습니다.|
@@ -89,7 +89,7 @@ Intune에서 더 이상 필요 없거나 용도를 다시 설정하거나 잃어
 |인증서 프로필 설정|인증서가 해지되었지만 제거되지는 않았습니다.|인증서가 제거되고 해지되었습니다.|
 |관리 에이전트|장치 관리자 권한이 해지됩니다.|장치 관리자 권한이 해지됩니다.|
 |메일|해당 없음(Android 장치에서는 전자 메일 프로필이 지원되지 않음)|장치에서 메일을 제거 및 캐시한 Intune을 통해 프로비전되는 메일 프로필이 삭제됩니다.|
-|Outlook|Android에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.|Android에 대해 Microsoft Outlook 앱에서 받은 메일이 제거됩니다.|
+|Outlook|Android용 Microsoft Outlook 앱에서 받은 메일은 제거되지만 Outlook이 MAM 정책에 의해 보호되는 경우에만 제거됩니다. 그렇지 않으면 등록 취소 시 Outlook이 초기화되지 않습니다.|Android용 Microsoft Outlook 앱에서 받은 메일은 제거되지만 Outlook이 MAM 정책에 의해 보호되는 경우에만 제거됩니다. 그렇지 않으면 등록 취소 시 Outlook이 초기화되지 않습니다.|
 |Azure AD(Active Directory) 가입 취소|Azure AD 레코드가 제거됩니다.|Azure AD 레코드가 제거됩니다.|
 |연락처 | 앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 제거할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.|앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다.  기본 주소록에서 다른 외부 소스에 동기화된 연락처는 제거할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.
 

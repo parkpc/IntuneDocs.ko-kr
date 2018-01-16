@@ -11,14 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bb940cb9-d43f-45ca-b065-ac0adc61dc6f
-ms.reviewer: oydang
+ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: fd4cedd20f427966dc3cfb7c2748f57b4d0746ab
-ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
+ms.openlocfilehash: 9589231878ddfe80ce0b259f8f4e3a439f55535d
+ms.sourcegitcommit: e76dbd0882526a86b6933ace2504f442e04de387
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="microsoft-intune-app-sdk-cordova-plugin"></a>Microsoft Intune 앱 SDK Cordova 플러그 인
 
@@ -45,7 +45,7 @@ Cordova 기반 iOS 및 Android 앱의 [Intune 앱 SDK Cordova 플러그인](/int
 
 이제는 Intune 앱 SDK Cordova 플러그 인이 내장된 Cordova 앱에서는 Intune 모바일 장치 관리(MDM)가 등록된 장치 및 등록되지 않은 장치 모두에서 Intune 앱 보호 정책을 받을 수 있습니다.
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 
 ### <a name="android"></a>Android
 

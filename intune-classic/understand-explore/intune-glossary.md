@@ -6,18 +6,18 @@ author: arob98
 ms.author: angrobe
 manager: angrobe
 ms.date: 06/16/2017
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
 ROBOTS: NOINDEX,NOFOLLOW
 ms.custom: intune-classic
-ms.openlocfilehash: e733d1d59d073dab9fb2b6c18ee92dadbc86adbe
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: cb186004395a4ccf84de6f0bc335cbd44a79583b
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="microsoft-intune-glossary"></a>Microsoft Intune 용어
 
@@ -141,7 +141,7 @@ ms.lasthandoff: 10/10/2017
 |-|-|
 |TeamViewer|Intune 소프트웨어 클라이언트로 관리되는 Windows PC에 [원격 지원 기능](/intune-classic/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client#request-and-provide-remote-assistance-for-windows-pcs)을 제공하기 위해 Intune과 작동하는 타사 응용 프로그램입니다.|
 |테넌트|구독을 통해 액세스할 수 있는 Intune 서비스의 단일 인스턴스입니다.|
-|사용 조건|사용자가 회사 포털을 사용하여 등록하고 작업에 액세스하기 전에 먼저 [읽고 동의](/intune-classic/deploy-use/terms-and-condition-policy-settings-in-microsoft-intune)해야 하는 정보를 포함한, 사용자에게 배포할 정책 형식입니다.|
+|Terms and conditions|사용자가 회사 포털을 사용하여 등록하고 작업에 액세스하기 전에 먼저 [읽고 동의](/intune-classic/deploy-use/terms-and-condition-policy-settings-in-microsoft-intune)해야 하는 정보를 포함한, 사용자에게 배포할 정책 형식입니다.|
 
 ## <a name="v"></a>V
 |||

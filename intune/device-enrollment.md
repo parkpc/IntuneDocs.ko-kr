@@ -1,12 +1,12 @@
 ---
 title: "Microsoft Intune 장치 등록이란?"
 titlesuffix: Azure portal
-description: "iOS, Android 및 Windows 장치에 대한 등록을 알아봅니다.\""
+description: "iOS, Android 및 Windows 장치 등록에 대해 알아봅니다."
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: ErikjeMS
+ms.author: erikje
 manager: angrobe
-ms.date: 10/23/2017
+ms.date: 12/29/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: caf399650e0a6382d3e03a133cad3aee1eda2d39
-ms.sourcegitcommit: fc24d7eb4838b9102088dd4dcf5d1aa6b2c2e590
+ms.openlocfilehash: d9773d9c6c22717abd3590929e499c45fc8bed19
+ms.sourcegitcommit: 229f9bf89efeac3eb3d28dff01e9a77ddbf618eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="what-is-device-enrollment"></a>장치 등록이란?
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -29,7 +29,7 @@ Intune에서는 장치를 등록하여 관리할 수 있습니다. Intune 설명
 
 장치를 등록하는 방법은 장치 유형, 소유권 및 필요한 관리 수준에 따라 다릅니다. BYOD("Bring Your Own Device") 등록을 사용하면 사용자가 개인 휴대폰, 태블릿 또는 PC를 등록할 수 있습니다. COD(회사 소유 장치) 등록을 사용하면 자동 등록, 공유 장치 또는 사전 승인된 등록 요구 사항과 같은 관리 시나리오를 사용할 수 있습니다.
 
-Exchange ActiveSync를 클라우드에서 호스트하거나 온-프레미스로 사용하는 경우 등록하지 않고 간단한 Intune 관리를 사용할 수 있습니다(자세한 내용은 곧 제공 예정). Windows PC를 모바일 장치로 관리할 수 있습니다. 이는 아래 설명된 권장 방법입니다.
+Exchange ActiveSync를 클라우드에 호스트하거나 온-프레미스로 사용하는 경우 등록하지 않고 간단한 Intune 관리를 사용할 수 있습니다. Windows PC를 모바일 장치로 관리할 수 있습니다. 이는 아래 설명된 권장 방법입니다.
 
 
 ## <a name="overview-of-device-enrollment-methods"></a>장치 등록 방법 개요
@@ -48,7 +48,7 @@ Exchange ActiveSync를 클라우드에서 호스트하거나 온-프레미스로
 |:---:|:---:|:---:|:---:|:---:|
 |**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](./apple-mdm-push-certificate-get.md)|
 |**[DEM](#dem)**|   아니요 |아니요 |아니요  | [추가 정보](./device-enrollment-program-enroll-ios.md)|
-|**[DEP](#dep)**|   예 |   선택 사항 |  선택 사항입니다.|[추가 정보](./device-enrollment-program-enroll-ios.md)|
+|**[DEP](#dep)**|   예 |   선택 사항 |  선택 사항|[추가 정보](./device-enrollment-program-enroll-ios.md)|
 |**[USB-SA](#usb-sa)**| 예 |   선택 사항 |  아니요| [추가 정보](./apple-configurator-setup-assistant-enroll-ios.md)|
 |**[USB-Direct](#usb-direct)**| 아니요 |    아니요  | 아니요|[추가 정보](./apple-configurator-direct-enroll-ios.md)|
 
@@ -66,7 +66,7 @@ Exchange ActiveSync를 클라우드에서 호스트하거나 온-프레미스로
 | **방법** |  **초기화 필요** |    **사용자 선호도**   |   **잠김** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](./android-enroll.md)|
-|**[DEM](#dem)**|   아니요 |아니요 |아니요  |[추가 정보](./device-enrollment-program-enroll-ios.md)|
+|**[DEM](#dem)**|   아니요 |아니요 |아니요  |[추가 정보](./device-enrollment-manager-enroll.md)|
 |**Android for Work**| 아니요 | 예 | 아니요| [추가 정보](./android-enroll.md#enable-enrollment-of-android-for-work-devices) |
 
 
@@ -74,7 +74,7 @@ Exchange ActiveSync를 클라우드에서 호스트하거나 온-프레미스로
 "Bring Your Own Device" 사용자는 회사 포털 앱을 설치 및 실행하여 장치를 등록합니다. 사용자는 이 프로그램을 통해 전자 메일 등의 회사 리소스에 액세스할 수 있습니다.
 
 ## <a name="corporate-owned-devices"></a>회사 소유 장치
-COD(회사 소유 장치) 등록 시나리오는 다음과 같습니다. Apple에서 제공한 도구를 통해 iOS 장치를 직접 등록할 수 있습니다. 관리자 또는 관리자 장치 등록 관리자를 사용하여 모든 장치 유형을 등록할 수 있습니다. COD 시나리오를 사용할 수 있도록 IMEI 번호가 있는 장치도 식별하고 회사 소유로 태그를 지정할 수 있습니다.
+COD(회사 소유 장치) 등록 시나리오는 다음과 같습니다. Apple에서 제공한 도구를 통해 iOS 장치를 직접 등록할 수 있습니다. 관리자(admin) 또는 관리자(manager)는 장치 등록 관리자를 사용하여 모든 장치 유형을 등록할 수 있습니다. IMEI 번호가 있는 장치도 회사 소유로 식별되고 태그가 지정되어 COD 시나리오를 사용할 수 있습니다.
 
 ### <a name="dem"></a>DEM
 DEM(장치 등록 관리자)은 회사 소유 장치를 여러 개 등록하여 관리할 수 있는 특수 사용자 계정입니다. 관리자는 회사 포털을 설치하고 사용자가 없는 많은 장치를 등록할 수 있습니다. [DEM](./device-enrollment-manager-enroll.md)에 대해 자세히 알아보세요.
@@ -110,4 +110,4 @@ EAS MDM 정책을 사용하면 등록되지는 않았지만 EAS(Exchange ActiveS
 
 ## <a name="mobile-device-cleanup-after-mdm-certificate-expiration"></a>MDM 인증서 만료 후 모바일 장치 정리
 
-MDM 인증서는 모바일 장치가 Intune 서비스와 통신할 때 자동으로 갱신됩니다. 모바일 장치가 초기화되거나 일정 기간에 Intune 서비스와 통신하지 못한 경우에는 MDM 인증서가 갱신되지 않습니다. MDM 인증서가 만료되고 180일 후 Azure Portal에서 장치가 제거됩니다.
+MDM 인증서는 모바일 장치가 Intune 서비스와 통신할 때 자동으로 갱신됩니다. 모바일 장치가 초기화되거나 일정 기간 동안 Intune 서비스와 통신하지 못한 경우에는 MDM 인증서가 갱신되지 않습니다. MDM 인증서가 만료되고 180일 후 Azure Portal에서 장치가 제거됩니다.

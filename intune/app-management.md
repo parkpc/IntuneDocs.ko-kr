@@ -6,7 +6,7 @@ keywords:
 author: erikre
 ms.author: erikre
 manager: angrobe
-ms.date: 07/11/2017
+ms.date: 01/08/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5a1cbd6fc3244686c1f5a1db3e4365e615662f0e
-ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
+ms.openlocfilehash: 0ea0c9a406d6ddb78cd016a7b594d077d7181952
+ms.sourcegitcommit: 12b2111839e648f85374c1c0db4288f08e0ef85d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Microsoft Intune 앱 관리란?
 
@@ -29,12 +29,12 @@ ms.lasthandoff: 12/08/2017
 
 IT 관리자는 최종 사용자가 작업 수행에 필요한 앱에 액세스할 수 있도록 해야 합니다. 이는 다음과 같은 이유로 까다로운 일일 수 있습니다.
 - 장치 플랫폼 및 앱 유형이 광범위합니다.
-- 회사 장치의 앱과 사용자 소유 장치의 앱을 관리해야 할 수 있습니다.
+- 회사 장치와 사용자 소유 장치 둘 다에서 앱을 관리해야 할 수 있습니다.
 - 네트워크와 데이터가 안전하게 유지되는지 확인해야 합니다.
 
 또한 Intune에 등록되지 않은 장치에서 앱을 할당하고 관리할 수 있습니다.
 
-Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 다양한 기능을 제공합니다.
+Intune은 원하는 장치에서 필요한 앱을 얻도록 도와주는 다양한 기능을 제공합니다.
 
 ## <a name="app-management-capabilities-by-platform"></a>플랫폼별 앱 관리 기능
 
@@ -85,19 +85,33 @@ Intune에서는 원하는 장치에서 필요한 앱을 얻도록 도와주는 �
 - **iOS 프로비전 프로필** - iOS 앱에는 인증서로 서명된 프로비전 프로필 및 코드가 포함됩니다. 인증서가 만료되면 앱을 더 이상 실행할 수 없습니다. Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필 정책을 미리 할당하기 위한 도구를 제공합니다.
     - [iOS 앱 프로비전 프로필](app-provisioning-profile-ios.md)
 
+자세한 내용은 [앱 관리](app-management.md)를 참조하세요.
+
 ### <a name="monitor"></a>모니터
-- **사용이 허가된 앱** - 앱 스토어에서 대량 구매 앱을 보고, 할당하고, 모니터링할 수 있습니다.
+- **앱 라이선스** - 앱 스토어에서 대량 구매 앱을 보고, 할당하고, 모니터링할 수 있습니다.
     - [비즈니스용 Microsoft 스토어 대량 구매 앱](windows-store-for-business.md)
 - **검색된 앱** - Intune에서 할당하고 장치에 설치된 모든 앱을 표시합니다.
 - **앱 설치 상태** - 생성한 앱 할당의 상태를 표시합니다.
 - **앱 보호 상태** - 선택한 사용자에 대한 앱 보호 정책의 상태를 표시합니다.
+- **감사 로그** - 모든 IT 관리자가 수행한 Intune 앱 관련 활동을 표시합니다.
 
 자세한 내용은 [앱 모니터링](apps-monitor.md)을 참조하세요.
 
-### <a name="setup"></a>Setup
-<!--- **iOS VPP Tokens**
-    - [iOS volume-purchased apps](vpp-apps-ios.md) --->
+### <a name="setup"></a>설정
+- **iOS VPP 토큰** - iOS VPP(대량 구매 프로그램) 라이선스를 적용하고 볼 수 있습니다.
+    - [iOS 대량 구매 앱](vpp-apps-ios.md)
+- **Windows 엔터프라이즈 인증서** - 관리되는 Windows 장치에 기간 업무 앱을 분배하는 데 사용되는 코드 서명 인증서의 상태를 적용하거나 볼 수 있습니다. 
+- **Windows Symantec 인증서** - Windows 10 Mobile 장치에 XAP 및 WP8.x appx 파일을 분배하는 데 필요한 Symantec 코드 서명 인증서의 상태를 적용하거나 볼 수 있습니다. 
 - **비즈니스용 Microsoft 스토어** - 비즈니스용 Microsoft 스토어에 대한 통합을 설정합니다. 그리고 나면 구매한 응용 프로그램을 Intune에 동기화하고 할당한 후 라이선스 사용 현황을 추적할 수 있습니다.
     - [비즈니스용 Microsoft 스토어 대량 구매 앱](windows-store-for-business.md)
+- **Windows 테스트용 로드 키** - Windows 스토어에서 앱을 게시 및 다운로드하는 대신 장치에 직접 설치하는 데 사용할 수 있는 Windows 테스트용 로드 키를 추가할 수 있습니다.
+    - [Windows 앱 테스트용 로드](app-sideload-windows.md) 
 - **회사 포털 브랜딩** - 회사 포털을 사용자 지정하여 회사 브랜딩을 제공할 수 있습니다.
     - [회사 포털 구성](company-portal-app.md)
+- **앱 범주** - 앱 범주 이름을 추가, 고정 및 삭제할 수 있습니다.
+- **Android for Work** - 엔터프라이즈에 대해 승인한 앱을 승인 및 동기화할 수 있습니다.
+    - [Android for Work 앱](apps-add-android-for-work.md) 
+
+### <a name="help-and-support"></a>도움말 및 지원
+- **도움말 및 지원** - 문제를 해결하거나, 지원을 요청하거나, Intune 상태를 볼 수 있습니다.
+    - [문제 해결](help-desk-operators.md)

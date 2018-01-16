@@ -6,7 +6,7 @@ keywords:
 author: dagerrit
 ms.author: dagerrit
 manager: angrobe
-ms.date: 03/31/2017
+ms.date: 1/4/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ms.assetid:
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 41b358f48412585ec40e369225b4263012bfd2f8
-ms.sourcegitcommit: b8987b8dfb009ea55678d7f640ac5f18a6ab167e
+ms.openlocfilehash: d5f4947191ddc7462749bb03f86919fc38196672
+ms.sourcegitcommit: 6e91c1aed7e4d3bb57051b41ce69cc15d70844f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="where-did-my-intune-feature-go-in-azure"></a>Azure에서 Intune 기능은 어디에 있나요?
-Intune 기능을 Azure Portal로 이동하면서 일부 작업을 더 논리적으로 구성할 수 있게 되었습니다. 하지만 개선 작업을 진행할 때마다 항상 새 구성을 학습하는 비용이 발생하게 됩니다. 따라서 클래식 콘솔의 Intune에는 완전히 익숙하지만 Azure Portal의 Intune에서 작업을 수행하는 방법을 궁금해하는 사용자를 위해 이 참조 가이드를 만들었습니다. 찾고 있는 기능이 이 문서에서 다루어지지 않은 경우 Microsoft에서 해당 내용을 업데이트할 수 있도록 본 문서 하단에 의견을 남겨 주세요.
+Intune 기능을 Azure Portal로 이동하면서 일부 작업을 더 논리적으로 구성할 수 있게 되었습니다. 하지만 개선 작업을 진행할 때마다 항상 새 구성을 학습하는 비용이 발생하게 됩니다. 따라서 클래식 콘솔의 Intune에는 완전히 익숙하지만 Azure Portal의 Intune에서 작업을 수행하는 방법을 궁금해하는 사용자를 위해 이 참조 가이드를 만들었습니다. 찾고 있는 기능이 이 문서에서 다루어지지 않은 경우 Microsoft에서 문서를 업데이트할 수 있도록 문서 하단에 의견을 남겨주세요.
 ## <a name="quick-reference-guide"></a>빠른 참조 가이드
 |기능 |클래식 포털의 경로|Azure Portal의 Intune 경로|
 |------------|---------------|---------------|
@@ -36,6 +36,7 @@ Intune 기능을 Azure Portal로 이동하면서 일부 작업을 더 논리적�
 | 회사 장치 등록 프로필 | 정책 > 회사 장치 등록 | [장치 등록 > Apple 등록 > AC 프로필](#where-did-corporate-pre-enrolled-devices-go) |
 | Android for Work | 관리 > 모바일 장치 관리 > Android for Work | 장치 등록 > Android for Work 등록 |
 | 사용 약관 | 정책 > 사용 약관 정보 | 장치 등록 > 사용 약관 |
+회사 포털 설정|관리 > 회사 포털|**관리** > 모바일 앱<br> **설정** > 회사 포털 브랜딩
 
 
 ## <a name="where-do-i-manage-groups"></a>그룹은 어디에서 관리하나요?
@@ -73,7 +74,7 @@ Azure Portal에서는 Intune 클래식에서와 동일한 단계를 통해 Apple
 
 ![Azure DEP 토큰의 이미지](./media/07-azure-dep-token.png)
 
-하지만 클래식 포털의 **동기화** 옵션은 일련 번호 관리 워크플로로 이동되었습니다. 수동 동기화의 결과가 해당 워크플로에 표시되기 때문입니다.
+하지만 클래식 포털의 **동기화** 옵션은 일련 번호 관리 워크플로로 이동되었습니다. 수동 동기화 결과가 해당 워크플로에 표시되기 때문입니다.
 
 ![Azure DEP 동기화의 이미지](./media/08-azure-dep-sync.png)
 

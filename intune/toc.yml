@@ -1,4 +1,4 @@
-- name: 소개
+- name: 개요
   href: introduction-intune.md
   expanded: true
   items:
@@ -22,24 +22,13 @@
           href: whats-new-archive.md
         - name: 새로운 기능 아카이브(클래식 포털)
           href: whats-new-archive-classic.md
-    - name: 상위 수준 아키텍처
-      href: high-level-architecture.md
-    - name: 장치 및 앱 수명 주기
-      href: introduction-device-app-lifecycles.md
-      items:
-        - name: 장치 수명 주기
-          href: device-lifecycle.md
-        - name: 앱 수명 주기
-          href: app-lifecycle.md
-    - name: 일반적인 시나리오
-      href: common-scenarios.md
     - name: 서비스 설명
       href: microsoft-intune-service-description.md
     - name: 알려진 문제
       href: known-issues.md
     - name: 지원 받기
       href: get-support.md
-- name: Intune 시작
+- name: 빠른 시작
   href: get-started-evaluation.md
   items:
     - name: Azure Portal 탐색
@@ -54,6 +43,31 @@
       href: get-started-enroll.md
     - name: 앱 할당
       href: get-started-apps.md
+- name: 시나리오 구현 가이드
+  items:
+    - name: Exchange Online 보호
+      href: exchange-online-protect.md
+    - name: 지원 센터 비용 절감
+      href: password-reset.md
+    - name: 무단 액세스 방지
+      href: data-outside-protect.md
+    - name: 관리되지 않는 장치에서 데이터 누수 방지
+      href: data-leak-prevention.md
+    - name: MDM 및 MAM 비교
+      href: byod-technology-decisions.md
+- name: 개념
+  items:
+    - name: 상위 수준 아키텍처
+      href: high-level-architecture.md
+    - name: 장치 및 앱 수명 주기
+      href: introduction-device-app-lifecycles.md
+      items:
+        - name: 장치 수명 주기
+          href: device-lifecycle.md
+        - name: 앱 수명 주기
+          href: app-lifecycle.md
+    - name: 일반적인 시나리오
+      href: common-scenarios.md
 - name: 배포 계획
   items:
     - name: 계획 가이드
@@ -79,18 +93,6 @@
           href: planning-guide-test-validation.md
         - name: 추가 리소스
           href: planning-guide-resources.md
-    - name: 시나리오 구현 가이드
-      items:
-        - name: Exchange Online 보호
-          href: exchange-online-protect.md
-        - name: 지원 센터 비용 절감
-          href: password-reset.md
-        - name: 무단 액세스 방지
-          href: data-outside-protect.md
-        - name: 관리되지 않는 장치에서 데이터 누수 방지
-          href: data-leak-prevention.md
-        - name: MDM 및 MAM 비교
-          href: byod-technology-decisions.md
     - name: 마이그레이션 가이드
       href: migration-guide.md
       items:
@@ -114,7 +116,7 @@
               href: migration-guide-drive-adoption.md
             - name: 일반적인 마이그레이션 주기
               href: migration-guide-cycle.md
-- name: 방법
+- name: 방법 가이드
   items:
     - name: Intune 설정
       href: setup-steps.md
@@ -214,35 +216,39 @@
         - name: 앱 추가
           href: apps-add.md
           items:
-            - name: Android 스토어 앱
-              href: store-apps-android.md
-            - name: Android LOB 앱
-              href: lob-apps-android.md
-            - name: iOS 스토어 앱
-              href: store-apps-ios.md
-            - name: iOS LOB 앱
-              href: lob-apps-ios.md
+            - name: 스토어 앱
+              items:
+                - name: Android 스토어 앱
+                  href: store-apps-android.md
+                - name: iOS 스토어 앱
+                  href: store-apps-ios.md
+                - name: Windows Phone 8.1 스토어 앱
+                  href: store-apps-windows-phone-8-1.md
+                - name: Microsoft 스토어 앱
+                  href: store-apps-windows.md
+                - name: Android for Work 앱
+                  href: apps-add-android-for-work.md
+                - name: Windows 10용 Office 365 앱
+                  href: apps-add-office365.md
+                - name: macOS용 Office 365 앱
+                  href: apps-add-office365-macos.md
+            - name: 앱 빌드(LOB)
+              items:
+                - name: Android LOB 앱
+                  href: lob-apps-android.md
+                - name: iOS LOB 앱
+                  href: lob-apps-ios.md
+                - name: Windows Phone LOB 앱
+                  href: lob-apps-windows-phone.md
+                - name: Windows LOB 앱
+                  href: lob-apps-windows.md
             - name: 웹앱
               href: web-app.md
-            - name: Windows Phone 8.1 스토어 앱
-              href: store-apps-windows-phone-8-1.md
-            - name: Windows Phone LOB 앱
-              href: lob-apps-windows-phone.md
-            - name: Microsoft 스토어 앱
-              href: store-apps-windows.md
-            - name: Windows LOB 앱
-              href: lob-apps-windows.md
-            - name: Android for Work 앱
-              href: apps-add-android-for-work.md
-            - name: Windows 10용 Office 365 앱
-              href: apps-add-office365.md
-            - name: macOS용 Office 365 앱
-              href: apps-add-office365-macos.md
-        - name: 앱 할당
+        - name: 앱 배포
           href: apps-deploy.md
         - name: 앱 모니터링
           href: apps-monitor.md
-        - name: 앱 구성 정책
+        - name: 앱 구성
           href: app-configuration-policies-overview.md
           items:
             - name: iOS 관리되는 장치
@@ -251,23 +257,25 @@
               href: app-configuration-policies-use-android.md
             - name: 관리되는 앱
               href: app-configuration-policies-managed-app.md
-        - name: iOS 앱 프로비전 프로필
-          href: app-provisioning-profile-ios.md
-        - name: 선택적으로 앱 지우기
-          href: apps-selective-wipe.md
-        - name: 대량 구매 앱 및 책 작업
-          href: vpp-apps.md
+            - name: iOS 앱 프로비전 프로필
+              href: app-provisioning-profile-ios.md
+            - name: 대량 구매 앱 및 책 작업
+              href: vpp-apps.md
+              items:
+                - name: iOS VPP 앱
+                  href: vpp-apps-ios.md
+                - name: 비즈니스용 Microsoft 스토어 앱
+                  href: windows-store-for-business.md
+                - name: iOS 전자책
+                  href: vpp-ebooks-ios.md
+            - name: 회사 포털 앱 구성
+              href: company-portal-app.md
+            - name: Managed Browser 구성
+              href: app-configuration-managed-browser.md
+        - name: 앱 보호
           items:
-            - name: iOS VPP 앱
-              href: vpp-apps-ios.md
-            - name: 비즈니스용 Microsoft 스토어 앱
-              href: windows-store-for-business.md
-            - name: iOS 전자책
-              href: vpp-ebooks-ios.md
-        - name: 회사 포털 앱 구성
-          href: company-portal-app.md
-        - name: Managed Browser 구성
-          href: app-configuration-managed-browser.md
+            - name: 선택적으로 앱 지우기
+              href: apps-selective-wipe.md
     - name: 장치 구성
       href: device-profiles.md
       items:
@@ -435,8 +443,6 @@
                   href: app-protection-policy-settings-android.md
                 - name: iOS 설정
                   href: app-protection-policy-settings-ios.md
-                - name: Managed Browser에서 앱 보호 로그 검토
-                  href: app-protection-policy-settings-log.md
             - name: 앱 보호 정책 유효성 검사
               href: app-protection-policies-validate.md
             - name: 앱 보호 사용자 상태 모니터링
@@ -554,45 +560,42 @@
           href: end-user-apps-ios.md
         - name: Windows 앱을 다운로드하는 방법
           href: end-user-apps-windows.md
-- name: 모니터링 및 문제 해결
-  items:
-    - name: 사용자가 문제 해결할 수 있도록 도움
-      href: help-desk-operators.md
-    - name: Intune 활동에 대한 감사 로그
-      href: monitor-audit-logs.md
-    - name: Intune 데이터 웨어하우스 사용
-      href: reports-nav-create-intune-reports.md
+    - name: 모니터링 및 문제 해결
       items:
-        - name: 데이터웨어 하우스에 대한 로그 변경
-          href: reports-changelog.md
-        - name: Power BI를 통해 데이터 웨어하우스에 연결
-          href: reports-proc-get-a-link-powerbi.md
-        - name: Power BI를 사용하여 OData 피드에서 보고서 만들기
-          href: reports-proc-create-with-odata.md
-- name: 자동화 및 사용자 지정
-  items:
-    - name: 사용자 지정 장치 설정 구성
-      href: custom-settings-configure.md
+        - name: 사용자가 문제 해결할 수 있도록 도움
+          href: help-desk-operators.md
+        - name: Intune 활동에 대한 감사 로그
+          href: monitor-audit-logs.md
+        - name: 앱 보호 로그 검토
+          href: app-protection-policy-settings-log.md
+    - name: 자동화 및 사용자 지정
       items:
-        - name: 미리 공유한 키를 사용하는 Wi-Fi 프로필
-          href: wi-fi-profile-shared-key.md
-        - name: Android
-          href: custom-settings-android.md
+        - name: 사용자 지정 장치 설정 구성
+          href: custom-settings-configure.md
           items:
-            - name: 앱당 VPN 프로필
-              href: android-pulse-secure-per-app-vpn.md
-            - name: Samsung Knox Standard에 대해 앱 허용/차단
-              href: samsung-knox-apps-allow-block.md
-        - name: iOS
-          href: custom-settings-ios.md
-        - name: macOS
-          href: custom-settings-macos.md
-        - name: Windows Phone 8.1
-          href: custom-settings-windows-phone-8-1.md
-        - name: Windows 10
-          href: custom-settings-windows-10.md
-        - name: Android for Work
-          href: custom-settings-android-for-work.md
+            - name: 미리 공유한 키를 사용하는 Wi-Fi 프로필
+              href: wi-fi-profile-shared-key.md
+            - name: Android
+              href: custom-settings-android.md
+              items:
+                - name: 앱당 VPN 프로필
+                  href: android-pulse-secure-per-app-vpn.md
+                - name: Samsung Knox Standard에 대해 앱 허용/차단
+                  href: samsung-knox-apps-allow-block.md
+            - name: iOS
+              href: custom-settings-ios.md
+            - name: macOS
+              href: custom-settings-macos.md
+            - name: Windows Phone 8.1
+              href: custom-settings-windows-phone-8-1.md
+            - name: Windows 10
+              href: custom-settings-windows-10.md
+            - name: Android for Work
+              href: custom-settings-android-for-work.md
+        - name: Windows 기간 업무 앱 사이드로드
+          href: app-sideload-windows.md
+- name: 개발자 지침
+  items:
     - name: Intune 앱 SDK를 사용하여 앱 보호
       href: app-sdk.md
       items:
@@ -612,6 +615,15 @@
           href: app-sdk-cordova.md
         - name: Intune 앱 SDK Xamarin 구성 요소
           href: app-sdk-xamarin.md
+    - name: Intune 데이터 웨어하우스 사용
+      href: reports-nav-create-intune-reports.md
+      items:
+        - name: 데이터웨어 하우스에 대한 로그 변경
+          href: reports-changelog.md
+        - name: Power BI를 통해 데이터 웨어하우스에 연결
+          href: reports-proc-get-a-link-powerbi.md
+        - name: Power BI를 사용하여 OData 피드에서 보고서 만들기
+          href: reports-proc-create-with-odata.md
     - name: Intune 데이터 웨어하우스 API를 사용하여 보고
       href: reports-nav-intune-data-warehouse.md
       items:
@@ -642,10 +654,12 @@
               href: reports-ref-user-device.md
             - name: 사용자 엔터티에 대한 참조
               href: reports-ref-user.md
-    - name: Windows 앱 사이드로드
+    - name: Intune Graph API
       href: intune-graph-apis.md
       items:
         - name: Intune용 Graph API 참조
           href: 'https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview'
-- name: 용어 설명
-  href: intune-glossary.md
+- name: 리소스
+  items:
+    - name: 용어 설명
+      href: intune-glossary.md

@@ -1,7 +1,7 @@
 ---
-title: "Samsung KNOX에 대한 앱 허용/차단 Intune 정책"
+title: "Samsung Knox에 대한 앱 허용/차단 Intune 정책"
 titlesuffix: Azure portal
-description: "Samsung KNOX Standard 장치에 대해 앱을 허용 및 차단하는 사용자 지정 프로필을 만드는 방법을 알아봅니다.\""
+description: "Samsung Knox Standard 장치에 대해 앱을 허용 및 차단하는 사용자 지정 프로필을 만듭니다.\""
 keywords: 
 author: vhorne
 ms.author: victorh
@@ -15,13 +15,13 @@ ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: aaa85347dc647658faf981e93d7fb0ea60c9e296
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 22d1e578da6a0085fd2e41ffc1d2322d01d971f1
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/03/2018
 ---
-# <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices-in-microsoft-intune"></a>Microsoft Intune에서 사용자 지정 정책을 사용하여 Samsung KNOX Standard 장치에 대해 앱 허용 및 차단
+# <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices-in-microsoft-intune"></a>Microsoft Intune에서 사용자 지정 정책을 사용하여 Samsung Knox Standard 장치에 대해 앱 허용 및 차단
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/12/2017
 - 장치에서 실행되지 않도록 차단할 앱 목록. 이 목록에 있는 앱은 정책을 적용했을 때 이미 설치되어 있었더라도 실행이 차단됩니다.
 - 장치 사용자가 Google Play 스토어에서 설치할 수 있도록 허용된 앱 목록. 나열된 앱만 설치할 수 있습니다. 다른 앱은 스토어에서 설치할 수 없습니다.
 
-이러한 설정은 삼성 KNOX Standard를 실행하는 장치에서만 사용할 수 있습니다.
+이러한 설정은 Samsung Knox Standard를 실행하는 장치에서만 사용할 수 있습니다.
 
 ## <a name="create-an-allowed-or-blocked-app-list"></a>허용되거나 차단된 앱 목록 만들기
 
