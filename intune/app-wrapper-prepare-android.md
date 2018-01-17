@@ -5,20 +5,20 @@ keywords:
 author: erikre
 ms.author: erikre
 manager: angrobe
-ms.date: 07/07/2017
+ms.date: 01/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
-ms.reviewer: oldang
+ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: bc907e5671fcd6c7b777f3bc95a533503d85ca64
-ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
+ms.openlocfilehash: a691786ce2ee975086899844b285a91f676aa71f
+ms.sourcegitcommit: e76dbd0882526a86b6933ace2504f442e04de387
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="prepare-android-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 앱 보호 정책에 대해 Android 앱 준비
 
@@ -78,7 +78,7 @@ Android용 Microsoft Intune 앱 래핑 도구를 사용하여 해당 앱 코드�
 
  다음 표에 **invoke-AppWrappingTool** 명령의 속성이 자세히 나와 있습니다.
 
-|속성|정보 산업|예|
+|속성|정보 산업|예제|
 |-------------|--------------------|---------|
 |**-InputPath**&lt;String&gt;|원본 Android 앱(.apk)의 경로입니다.| |
 |**-OutputPath**&lt;String&gt;|출력 Android 앱의 경로입니다. InputPath와 동일한 디렉터리 경로일 경우 패키징이 실패합니다.| |
@@ -112,6 +112,14 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 **KeyStorePassword** 및 **KeyPassword**에 대한 메시지가 표시됩니다. 키 저장소 파일을 만드는 데 사용한 자격 증명을 입력합니다.
 
 래핑된 앱과 로그 파일이 생성되고 지정한 출력 경로에 저장됩니다.
+
+## <a name="how-often-should-i-rewrap-my-android-application-with-the-intune-app-wrapping-tool"></a>Intune 앱 줄 바꿈 도구를 사용하여 Android 응용 프로그램을 얼마나 자주 다시 줄 바꿈해야 합니까?
+응용 프로그램을 다시 줄 바꿈해야 하는 주요 시나리오는 다음과 같습니다.
+* 응용 프로그램 자체가 새 버전을 릴리스했습니다.
+* Android용 Intune 앱 줄 바꿈 도구는 주요 버그 수정 또는 새로운 특정 Intune 응용 프로그램 보호 정책 기능을 사용할 수 있는 새 버전을 릴리스했습니다. 이는 [Android용 Microsoft Intune 앱 줄 바꿈 도구](https://github.com/msintuneappsdk/intune-app-wrapping-tool-android)에 대한 GitHub 리포지토리를 통해 6-8주마다 발생합니다.
+
+다시 줄 바꿈하기 위한 몇 가지 모범 사례는 다음과 같습니다. 
+* 빌드 프로세스 중에 사용된 서명 인증서를 유지 관리하려면 [서명 인증서 재사용 및 앱 래핑](https://docs.microsoft.com/en-us/intune/app-wrapper-prepare-android#reusing-signing-certificates-and-wrapping-apps)을 참조하세요.
 
 ## <a name="reusing-signing-certificates-and-wrapping-apps"></a>서명 인증서 재사용 및 앱 래핑
 Android의 경우 Android 장치에 설치하려면 유효한 인증서로 모든 앱에 서명해야 합니다.

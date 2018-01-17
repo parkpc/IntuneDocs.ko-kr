@@ -14,72 +14,58 @@ ms.technology:
 ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d9773d9c6c22717abd3590929e499c45fc8bed19
-ms.sourcegitcommit: 229f9bf89efeac3eb3d28dff01e9a77ddbf618eb
+ms.openlocfilehash: dc0105bb786d8b1e569b11898b0d3757feba406a
+ms.sourcegitcommit: a55a7119a15836b6941fdd5b32b9076139093693
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/10/2018
 ---
 # <a name="what-is-device-enrollment"></a>장치 등록이란?
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-이 항목에서는 등록에 대해 설명하고 Intune 관리에서 모바일 장치를 등록하는 다양한 방법을 열거합니다.
+Intune을 사용하여 직원의 장치 및 앱을 관리하고 회사 데이터에 액세스하는 방법을 관리할 수 있습니다. 이 모바일 장치 관리(MDM)를 사용하려면 먼저 장치를 Intune 서비스에 등록해야 합니다. 장치가 등록되면 MDM 인증서가 발급됩니다. 이 인증서는 Intune 서비스와 통신하는 데 사용됩니다.
 
-Intune에서는 장치를 등록하여 관리할 수 있습니다. Intune 설명서에서는 이 기능을 MDM(모바일 장치 관리)이라고 합니다. Intune에서 등록하는 장치에는 MDM 인증서가 발급됩니다. 그러면 장치는 이 인증서를 사용하여 Intune 서비스와 통신합니다.
+다음 표에서 볼 수 있듯이 직원의 장치를 등록하는 몇 가지 방법이 있습니다. 각 방법은 장치의 소유권(개인 또는 회사), 기기 유형(iOS, Windows, Android) 및 관리 요구 사항(재설정, 선호도, 잠금)에 따라 다릅니다.
 
-장치를 등록하는 방법은 장치 유형, 소유권 및 필요한 관리 수준에 따라 다릅니다. BYOD("Bring Your Own Device") 등록을 사용하면 사용자가 개인 휴대폰, 태블릿 또는 PC를 등록할 수 있습니다. COD(회사 소유 장치) 등록을 사용하면 자동 등록, 공유 장치 또는 사전 승인된 등록 요구 사항과 같은 관리 시나리오를 사용할 수 있습니다.
+## <a name="ios-enrollment-methods"></a>iOS 등록 방법
 
-Exchange ActiveSync를 클라우드에 호스트하거나 온-프레미스로 사용하는 경우 등록하지 않고 간단한 Intune 관리를 사용할 수 있습니다. Windows PC를 모바일 장치로 관리할 수 있습니다. 이는 아래 설명된 권장 방법입니다.
-
-
-## <a name="overview-of-device-enrollment-methods"></a>장치 등록 방법 개요
-
-다음 표에는 아래에서 설명하는 Intune 등록 방법과 해당 기능 및 요구 사항의 개요가 나와 있습니다.
-
-**범례**
-
-- **초기화 필요** - 장치가 등록 중에 초기화됩니다.
-- **사용자 선호도** - 사용자와 장치를 연결합니다. 자세한 내용은 [사용자 선호도](device-enrollment-program-enroll-ios.md)를 참조하세요.
-- **잠김** - 사용자가 장치를 등록할 수 없습니다.
-
-**iOS 등록 방법**
-
-| **방법** |  **초기화 필요** |    **사용자 선호도**   |   **잠김** | **세부 정보** |
+| **방법** |  **초기화 필요** |    [**사용자 선호도**](device-enrollment-program-enroll-ios.md#create-an-apple-enrollment-profile) |   **잠김** | **세부 정보** |
 |:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](./apple-mdm-push-certificate-get.md)|
-|**[DEM](#dem)**|   아니요 |아니요 |아니요  | [추가 정보](./device-enrollment-program-enroll-ios.md)|
-|**[DEP](#dep)**|   예 |   선택 사항 |  선택 사항|[추가 정보](./device-enrollment-program-enroll-ios.md)|
+| | 장치는 등록 중에 초기화됩니다. |  각 장치를 사용자와 연결합니다.| 사용자가 장치 등록을 해제할 수 없습니다.  | |
+|**[BYOD](#bring-your-own-device)** | 아니요|   예 |   아니요 | [추가 정보](./apple-mdm-push-certificate-get.md)|
+|**[DEM](#device-enrollment-manager)**| 아니요 |아니요 |아니요  | [추가 정보](./device-enrollment-program-enroll-ios.md)|
+|**[DEP](#apple-device-enrollment-program)**|   예 |   선택 사항 |  선택 사항|[추가 정보](./device-enrollment-program-enroll-ios.md)|
 |**[USB-SA](#usb-sa)**| 예 |   선택 사항 |  아니요| [추가 정보](./apple-configurator-setup-assistant-enroll-ios.md)|
 |**[USB-Direct](#usb-direct)**| 아니요 |    아니요  | 아니요|[추가 정보](./apple-configurator-direct-enroll-ios.md)|
 
-**Windows 등록 방법**
+## <a name="windows-enrollment-methods"></a>Windows 등록 방법
 
 | **방법** |  **초기화 필요** |    **사용자 선호도**   |   **잠김** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요 |   예 |   아니요 | [추가 정보](windows-enroll.md)|
-|**[DEM](#dem)**|   아니요 |아니요 |아니요  |[추가 정보](device-enrollment-manager-enroll.md)|
+|**[BYOD](#bring-your-own-device)** | 아니요 |  예 |   아니요 | [추가 정보](windows-enroll.md)|
+|**[DEM](#device-enrollment-manager)**| 아니요 |아니요 |아니요  |[추가 정보](device-enrollment-manager-enroll.md)|
 |**자동 등록** | 아니요 |예 |아니요 | [추가 정보](./windows-enroll.md#enable-windows-10-automatic-enrollment)|
 |**대량 등록** |아니요 |아니요 |아니요 | [추가 정보](./windows-bulk-enroll.md) |
 
-**Android 등록 방법**
+## <a name="android-enrollment-methods"></a>Android 등록 방법
 
 | **방법** |  **초기화 필요** |    **사용자 선호도**   |   **잠김** | **세부 정보**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](./android-enroll.md)|
-|**[DEM](#dem)**|   아니요 |아니요 |아니요  |[추가 정보](./device-enrollment-manager-enroll.md)|
+|**[BYOD](#bring-your-own-device)** | 아니요|   예 |   아니요 | [추가 정보](./android-enroll.md)|
+|**[DEM](#device-enrollment-manager)**| 아니요 |아니요 |아니요  |[추가 정보](./device-enrollment-manager-enroll.md)|
 |**Android for Work**| 아니요 | 예 | 아니요| [추가 정보](./android-enroll.md#enable-enrollment-of-android-for-work-devices) |
 
 
-## <a name="byod"></a>BYOD
-"Bring Your Own Device" 사용자는 회사 포털 앱을 설치 및 실행하여 장치를 등록합니다. 사용자는 이 프로그램을 통해 전자 메일 등의 회사 리소스에 액세스할 수 있습니다.
+## <a name="bring-your-own-device"></a>Bring Your Own Device
+Bring Your Own Device(BYOD)에는 개인 전화, 태블릿 및 PC가 있습니다. 사용자는 회사 포털 앱을 설치 및 실행하여 BYOD를 등록합니다. 사용자는 이 프로그램을 통해 전자 메일 등의 회사 리소스에 액세스할 수 있습니다.
 
-## <a name="corporate-owned-devices"></a>회사 소유 장치
-COD(회사 소유 장치) 등록 시나리오는 다음과 같습니다. Apple에서 제공한 도구를 통해 iOS 장치를 직접 등록할 수 있습니다. 관리자(admin) 또는 관리자(manager)는 장치 등록 관리자를 사용하여 모든 장치 유형을 등록할 수 있습니다. IMEI 번호가 있는 장치도 회사 소유로 식별되고 태그가 지정되어 COD 시나리오를 사용할 수 있습니다.
+## <a name="corporate-owned-device"></a>회사 소유 장치
+회사 소유 장치(COD)에는 회사가 직원에게 배포한 전화, 태블릿, PC가 있습니다. COD 등록은 자동 등록, 공유 장치 또는 사전 승인된 등록 요구 사항과 같은 관리 시나리오를 지원합니다. COD를 등록하는 일반적인 방법은 관리자가 장치 등록 관리자(DEM)를 사용하는 것입니다. Apple에서 제공한 장비 등록 프로그램(DEP) 도구를 통해 iOS 장치를 직접 등록할 수 있습니다. IMEI 번호가 있는 장치도 회사 소유로 식별되고 태그가 지정됩니다.
 
-### <a name="dem"></a>DEM
+### <a name="device-enrollment-manager"></a>장치 등록 관리자
 DEM(장치 등록 관리자)은 회사 소유 장치를 여러 개 등록하여 관리할 수 있는 특수 사용자 계정입니다. 관리자는 회사 포털을 설치하고 사용자가 없는 많은 장치를 등록할 수 있습니다. [DEM](./device-enrollment-manager-enroll.md)에 대해 자세히 알아보세요.
 
-### <a name="dep"></a>DEP
+### <a name="apple-device-enrollment-program"></a>Apple 장비 등록 프로그램
 Apple DEP(장치 등록 프로그램) 관리에서는 정책을 만든 후, 구입한 iOS 장치 중에서 DEP로 관리하는 장치에 "무선으로" 정책을 배포할 수 있습니다. 사용자가 처음으로 장치를 켜고 iOS 설치 도우미를 실행하면 장치가 등록됩니다. 이 방법은 iOS 감독 모드를 지원하며, 이 모드에서는 특정 기능을 사용하여 장치를 구성할 수 있습니다.
 
 iOS DEP 등록에 대한 자세한 내용은 다음을 참조하세요.
