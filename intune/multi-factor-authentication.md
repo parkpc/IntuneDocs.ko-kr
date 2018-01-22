@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: angrobe
-ms.date: 10/31/2017
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 94280c73-c05c-4e72-b0dd-a7cb997782f9
 ROBOTS: 
 ms.custom: intune-azure
-ms.openlocfilehash: b8fb7745cf7d1d874b890210ef9c75c2a11f12ef
-ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
+ms.openlocfilehash: dfadab1f412752d9857a2f6777481fa761cd1d4c
+ms.sourcegitcommit: 0795870bfe941612259ebec0fe313a783a44d9b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="multi-factor-authentication-for-intune-device-enrollments"></a>Intune 장치 등록에 대한 다단계 인증
 
@@ -39,6 +39,9 @@ MFA를 사용하도록 설정하면 최종 사용자가 장치를 등록하기 �
 ## <a name="configure-intune-to-require-multi-factor-authentication-at-device-enrollment"></a>장치 등록 단계에서 다단계 인증을 요구하도록 Intune 구성
 
 장치를 등록하라 때 MFA를 요구하려면 다음 단계를 따르세요.
+
+[!Important]
+>이 정책을 구현하려면 사용자에게 Azure Active Directory Premium P1 이상이 할당되어 있어야 합니다.
 
 >[!Important]
 >Microsoft Intune 등록에 대한 **장치 기반 액세스 규칙**을 구성하지 마세요.

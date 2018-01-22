@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: angrobe
-ms.date: 12/07/2017
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ad018bdfa55b030f5d714017ae09f616ae2bf164
-ms.sourcegitcommit: 9fabf1a8db53842f7b00762374de5b137158ee25
+ms.openlocfilehash: 7877d0bb6ba7a9c9d51cd261a7f1fbf555f88961
+ms.sourcegitcommit: 0795870bfe941612259ebec0fe313a783a44d9b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="enroll-android-devices"></a>Android 장치 등록
 
@@ -75,7 +75,7 @@ Android 장치를 차단하거나 등록에서 개인적으로 소유한 Android
 
 Intune 회사 포털을 승인하려면 다음 단계를 따르세요.
 
-1.  [관리되는 Google Play 스토어](https://play.google.com/work/apps/details?id=com.microsoft.windowsintune.companyportal)에서 회사 포털 앱을 다운로드합니다.
+1.  [관리되는 Google Play 스토어](https://play.google.com/work/apps/details?id=com.microsoft.windowsintune.companyportal)에서 회사 포털 앱으로 찾습니다.
 2.  Android for Work에 대한 바인딩을 구성하는 데 사용한 것과 동일한 Google 계정으로 관리되는 Google Play 스토어에 로그인합니다.
 3.  **승인**을 클릭합니다.  새 대화 상자가 열립니다.
 4.  이 대화 상자에서 권한을 검토하고 **승인**을 클릭합니다. 회사 포털 앱이 장치의 회사 프로필을 관리할 수 있게 하려면 이러한 권한을 허용해야 합니다.

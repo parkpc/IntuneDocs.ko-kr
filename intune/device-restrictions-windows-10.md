@@ -14,11 +14,11 @@ ms.technology:
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 849c5c45429394e92b993a57c1e2345b20f78f0a
-ms.sourcegitcommit: 95a0553531133f8d926afbecd0aaf91f64a63162
+ms.openlocfilehash: 2774b59001cb4ce277048e60a81243cde15cb53d
+ms.sourcegitcommit: 5ecb0d6625e6972cc5ccdca7538f41f4aa8da46a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2018
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="windows-10-and-later-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 이상 장치 제한 설정
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 01/08/2018
 - **장치 검색** - 장치가 다른 장치에서 검색되지 않습니다.
 - **작업 전환기(모바일 전용)** -장치에서 작업 전환기를 차단합니다.
 - **SIM 카드 오류 대화 상자(모바일 전용)** - SIM 카드가 검색되지 않는 경우에는 오류 메시지가 장치에 표시되지 않습니다.
-<!--- **Automatic redeployment** - Allows users with administrative rights to delete all user data and settings using **CTRL + Win + R** at the device lock screen. The device is automatically reconfigured and reenrolled into management. -->
+- **자동 재배포** - 관리 권한을 가진 사용자가 장치 잠금 화면에서 **CTRL + Win + R**을 사용하여 모든 사용자 데이터 및 설정을 삭제할 수 있습니다. 장치가 자동으로 재구성되고 관리에 다시 등록됩니다.
 
 
 ## <a name="password"></a>암호
