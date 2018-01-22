@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 08/31/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 54def958cb82709f55b3c5f75d85f3b530e3d70b
-ms.sourcegitcommit: 229f9bf89efeac3eb3d28dff01e9a77ddbf618eb
+ms.openlocfilehash: 343078bf802aa45ec0cd0a3f2e554ab74e1f0b8a
+ms.sourcegitcommit: e76dbd0882526a86b6933ace2504f442e04de387
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="remove-devices-by-using-factory-reset-or-remove-company-data"></a>공장 기본 설정으로 복원을 사용하여 장치를 제거하거나 회사 데이터 제거
 
@@ -96,6 +96,18 @@ Intune에서 더 이상 필요 없거나 용도를 다시 설정하거나 잃어
 ### <a name="android-for-work"></a>Android for Work
 
 Android for Work 장치에서 회사 데이터를 제거하면 해당 장치의 회사 프로필에서 모든 데이터, 앱 및 설정이 제거됩니다. 이 경우 Intune을 사용한 관리에서 장치 사용이 중지됩니다. 공장 기본 설정 복원은 Android for Work에 지원되지 않습니다.
+
+
+### <a name="macos"></a>macOS
+
+|데이터 형식|macOS|
+|-------------|-------|
+|설정|Intune 정책에서 설정한 구성은 더 이상 적용되지 않으며 사용자는 설정을 변경할 수 있습니다.|
+|Wi-Fi 및 VPN 프로필 설정|제거됩니다.|
+|인증서 프로필 설정|MDM을 통해 배포된 인증서는 제거되고 해지됩니다.|
+|관리 에이전트|관리 프로필이 제거됩니다.|
+|Outlook|조건부 액세스를 사용하면 장치에서 새 메일을 수신하지 않습니다.|
+|Azure AD(Active Directory) 가입 취소|Azure AD 레코드가 제거됩니다.|
 
 ### <a name="windows"></a>Windows
 

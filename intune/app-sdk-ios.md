@@ -5,20 +5,20 @@ keywords:
 author: erikre
 manager: angrobe
 ms.author: erikre
-ms.date: 11/10/2017
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
-ms.reviewer: oydang
+ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 031ae18fb88a04cd02ca3ced5c39a33e49610bef
-ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
+ms.openlocfilehash: 942e7ceb8d42240c46387889677cb4620a9da103
+ms.sourcegitcommit: 0795870bfe941612259ebec0fe313a783a44d9b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>iOS용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -29,9 +29,9 @@ iOS용 Microsoft Intune 앱 SDK를 사용하면 네이티브 iOS 앱에 Intune �
 
 ## <a name="prerequisites"></a>전제 조건
 
-* Xcode 8 이상이 설치된 OS X 10.8.5 이상의 Mac OS 컴퓨터에서 실행해야 합니다.
+* Xcode 9 이상이 설치된 OS X 10.8.5 이상의 Mac OS 컴퓨터에서 실행해야 합니다.
 
-* 앱은 iOS 9 이상을 대상으로 해야 합니다.
+* 앱은 iOS 9.3.5 이상을 대상으로 해야 합니다.
 
 * [iOS용 Intune 앱 SDK 사용 조건](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/blob/master/Microsoft%20License%20Terms%20Intune%20App%20SDK%20for%20iOS%20.pdf)을 확인하세요. 기록을 위해 사용 조건의 사본을 인쇄하여 보관하세요. iOS용 Intune 앱 SDK를 다운로드하여 이러한 사용 조건에 동의합니다.  동의하지 않는 경우 소프트웨어를 사용하지 마세요.
 
@@ -208,7 +208,7 @@ ADAL 바이너리에 앱을 연결하려면 다음 단계를 수행합니다.
 ## <a name="receiving-app-protection-policy"></a>앱 보호 정책 받기
 
 ### <a name="overview"></a>개요
-Intune 앱 보호 정책을 받으려면 앱에서 Intune 서비스를 사용하여 등록 요청을 시작해야 합니다. 장치 등록 여부에 관계없이 Intune 콘솔에서 앱 보호 정책을 받도록 앱을 구성할 수 있습니다. 등록이 없는 앱 보호 정책(**APP-WE** 또는 MAM-WE라고도 함)을 사용하면 Intune MDM(모바일 장치 관리)에 장치를 등록할 필요 없이 Intune에서 앱을 관리할 수 있습니다. 두 경우 모두 정책을 받으려면 Intune 서비스에 등록해야 합니다.
+Intune 앱 보호 정책을 받으려면 앱에서 Intune MAM 서비스를 사용하여 등록 요청을 시작해야 합니다. 장치 등록 여부에 관계없이 Intune 콘솔에서 앱 보호 정책을 받도록 앱을 구성할 수 있습니다. 등록이 없는 앱 보호 정책(**APP-WE** 또는 MAM-WE라고도 함)을 사용하면 Intune MDM(모바일 장치 관리)에 장치를 등록할 필요 없이 Intune에서 앱을 관리할 수 있습니다. 두 경우 모두 정책을 받으려면 Intune MAM 서비스에 등록해야 합니다.
 
 ### <a name="apps-that-use-adal"></a>ADAL을 사용하는 앱
 
@@ -235,7 +235,7 @@ Intune 앱 보호 정책을 받으려면 앱에서 Intune 서비스를 사용하
 
 ### <a name="apps-that-do-not-use-adal"></a>ADAL을 사용하지 않는 앱
 
-ADAL을 사용하여 사용자를 로그인하지 않는 앱은 API를 호출하여 SDK에서 해당 인증을 처리하도록 하여 Intune 서비스에서 앱 보호 정책을 계속 수신할 수 있습니다. 앱에 Azure AD로 인증된 사용자가 없지만 데이터를 보호하기 위해 앱 보호 정책을 계속 수신해야 하는 경우 이 기술을 사용해야 합니다. 예를 들어 다른 인증 서비스가 앱 로그인에 사용되거나 앱에서 서명을 지원하지 않는 경우가 여기에 해당됩니다. 이렇게 하려면 응용 프로그램이 `IntuneMAMEnrollmentManager` 인스턴스에서 `loginAndEnrollAccount` 메서드를 호출해야 합니다.
+ADAL을 사용하여 사용자를 로그인하지 않는 앱은 API를 호출하여 SDK에서 해당 인증을 처리하도록 하여 Intune MAM 서비스에서 앱 보호 정책을 계속 수신할 수 있습니다. 앱에 Azure AD로 인증된 사용자가 없지만 데이터를 보호하기 위해 앱 보호 정책을 계속 수신해야 하는 경우 이 기술을 사용해야 합니다. 예를 들어 다른 인증 서비스가 앱 로그인에 사용되거나 앱에서 서명을 지원하지 않는 경우가 여기에 해당됩니다. 이렇게 하려면 응용 프로그램이 `IntuneMAMEnrollmentManager` 인스턴스에서 `loginAndEnrollAccount` 메서드를 호출해야 합니다.
 
 ```objc
 /**
@@ -248,7 +248,7 @@ ADAL을 사용하여 사용자를 로그인하지 않는 앱은 API를 호출하
 
 ```
 
-이 메서드를 호출하면 기존 토큰을 찾을 수 없는 경우 SDK에서 사용자에게 자격 증명을 묻는 메시지를 표시합니다. 그러면 SDK에서 제공된 사용자 계정을 대신하여 Intune 서비스에 앱 등록을 시도합니다. "nil"을 ID로 사용하여 메서드를 호출할 수 있습니다. 이 경우 SDK는 장치의 기존 관리되는 사용자로 등록하거나(MDM), 기존 사용자가 없는 경우 사용자 이름을 입력하라는 메시지를 표시합니다.
+이 메서드를 호출하면 기존 토큰을 찾을 수 없는 경우 SDK에서 사용자에게 자격 증명을 묻는 메시지를 표시합니다. 그러면 SDK에서 제공된 사용자 계정을 대신하여 Intune MAM 서비스에 앱 등록을 시도합니다. "nil"을 ID로 사용하여 메서드를 호출할 수 있습니다. 이 경우 SDK는 장치의 기존 관리되는 사용자로 등록하거나(MDM), 기존 사용자가 없는 경우 사용자 이름을 입력하라는 메시지를 표시합니다.
 
 등록에 실패하는 경우 앱은 실패의 세부 정보에 따라 나중에 다시 이 API 호출을 고려해야 합니다. 앱은 대리자를 통해 모든 등록 요청의 결과에 대한 [알림](#Status-result-and-debug-notifications)을 수신할 수 있습니다.
 
@@ -287,7 +287,7 @@ ADAL을 사용하여 사용자를 로그인하지 않는 앱은 API를 호출하
 
 ```
 
-이 메서드는 사용자 계정의 Azure AD 토큰이 삭제되기 전에 호출해야 합니다. SDK에서 사용자를 대신하여 Intune 서비스에 대해 특정 요청을 하려면 사용자 계정의 AAD 토큰이 필요합니다.
+이 메서드는 사용자 계정의 Azure AD 토큰이 삭제되기 전에 호출해야 합니다. SDK에서 사용자를 대신하여 Intune MAM 서비스에 대해 특정 요청을 하려면 사용자 계정의 AAD 토큰이 필요합니다.
 
 앱이 자체적으로 사용자의 회사 데이터를 삭제하는 경우 `doWipe` 플래그를 false로 설정할 수 있습니다. 그렇지 않으면 앱은 SDK에서 선택적 초기화를 시작하도록 할 수 있습니다. 그러면 앱의 선택적 초기화 대리자가 호출됩니다.
 
@@ -453,10 +453,10 @@ WebViewHandledURLSchemes | 문자열 배열 | 앱의 WebView에서 처리하는 
 > 앱이 앱 스토어에 출시될 경우 `MAMPolicyRequired`를 앱 스토어 표준에 따라 "NO"로 설정해야 합니다.
 
 ## <a name="enabling-mam-targeted-configuration-for-your-ios-applications"></a>iOS 응용 프로그램에 대해 MAM 대상 구성 사용
-MAM 대상 구성을 사용하면 앱이 Intune 앱 SDK를 통해 구성 데이터를 받을 수 있습니다. 응용 프로그램 소유자/개발자가 이 데이터의 형식 및 variant를 정의하고 Intune 고객에게 전달해야 합니다. Intune 관리자는 Intune Azure Portal을 통해 구성 데이터를 대상으로 지정하고 배포할 수 있습니다. iOS용 Intune 앱 SDK(v 7.0.1)를 기준으로, MAM 서비스를 통해 MAM 대상 구성에 참여하는 앱에 MAM 대상 구성 데이터를 제공할 수 있습니다. 응용 프로그램 구성 데이터는 MDM 채널을 통해 제공되는 것이 아니라 MAM 서비스를 통해 앱에 직접 푸시됩니다. Intune 앱 SDK는 이러한 콘솔에서 검색된 데이터에 액세스하기 위한 클래스를 제공합니다. 필수 조건으로 다음을 고려합니다. <br>
-* MAM 대상 구성 UI에 액세스하려면 먼저 앱을 MAM-WE에 등록해야 합니다. MAM-WE에 대한 자세한 내용은 [Intune 앱 SDK 가이드에서 장치 등록이 없는 앱 보호 정책](https://docs.microsoft.com/en-us/intune/app-sdk-ios#app-protection-policy-without-device-enrollment)을 참조하세요.
+MAM 대상 구성을 사용하면 앱이 Intune 앱 SDK를 통해 구성 데이터를 받을 수 있습니다. 응용 프로그램 소유자/개발자가 이 데이터의 형식 및 variant를 정의하고 Intune 고객에게 전달해야 합니다. Intune 관리자는 Intune Azure Portal을 통해 구성 데이터를 대상으로 지정하고 배포할 수 있습니다. iOS용 Intune 앱 SDK 버전 7.0.1를 기준으로, MAM 서비스를 통해 MAM 대상 구성에 참여하는 앱에 MAM 대상 구성 데이터를 제공할 수 있습니다. 응용 프로그램 구성 데이터는 MDM 채널을 통해 제공되는 것이 아니라 MAM 서비스를 통해 앱에 직접 푸시됩니다. Intune 앱 SDK는 이러한 콘솔에서 검색된 데이터에 액세스하기 위한 클래스를 제공합니다. 필수 조건으로 다음을 고려합니다. <br>
+* MAM 대상 구성 UI에 액세스하려면 먼저 앱을 Intune MAM 서비스에 등록해야 합니다. 자세한 내용은 [앱 보호 정책 받기](#receiving-app-protection-policy)를 참조하세요.
 * 앱의 원본 파일에 ```IntuneMAMAppConfigManager.h```를 포함합니다.
-* ```[[IntuneMAMAppConfig instance] appConfigForIdentity:]```를 호출하여 앱 구성 개체를 가져옵니다.
+* ```[[IntuneMAMAppConfigManager instance] appConfigForIdentity:]```를 호출하여 앱 구성 개체를 가져옵니다.
 * ```IntuneMAMAppConfig``` 개체에 대해 적절한 선택기를 호출합니다. 예를 들어 응용 프로그램 키가 문자열인 경우 ```stringValueForKey``` 또는 ```allStringsForKey```를 사용하는 것이 좋습니다. ```IntuneMAMAppConfig.h header``` 파일은 반환 값/오류 조건에 대해 설명합니다.
 
 MAM 대상 구성 값과 관련된 Graph API의 기능에 대한 자세한 내용은 [Graph API 참조 MAM 대상 구성](https://graph.microsoft.io/en-us/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create)을 참조하세요. <br>

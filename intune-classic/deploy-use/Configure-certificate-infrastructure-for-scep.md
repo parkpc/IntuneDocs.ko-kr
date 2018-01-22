@@ -5,7 +5,7 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: angrobe
-ms.date: 11/15/2016
+ms.date: 1/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 54b8a14c01e0a08e76843b02f00124117617540d
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: ddf7b2e90b0008e23d550cc347d2c904cc9bc9be
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="configure-certificate-infrastructure-for-scep"></a>SCEP 인증서 인프라 구성
 
@@ -66,7 +66,7 @@ I
 
 ### <a name="BKMK_Accounts"></a>계정
 
-|Name|세부 정보|
+|이름|세부 정보|
 |--------|-----------|
 |**NDES 서비스 계정**|NDES 서비스 계정으로 사용할 도메인 사용자 계정을 지정합니다.|
 
@@ -338,6 +338,9 @@ NDES 서버에서 인증서 커넥터 다운로드, 설치 및 구성
 5.  **인증서 커넥터** UI에서:
 
     **로그인** 을 클릭하고 Intune 서비스 관리자 자격 증명 또는 전역 관리 권한이 있는 테넌트 관리자의 자격 증명을 입력합니다.
+
+    > [!NOTE]
+    > NDESConnectorUI.exe에 로그인할 때 **사용자 이름이 인식되지 않음** 오류가 발생하면 이는 일반적으로 유효한 Intune 라이선스가 없는 계정을 사용했음을 의미합니다. 계정을 Intune 또는 EMS 라이선스에 할당하고 작업을 다시 시도합니다.
 
     조직에서 프록시 서버를 사용하며 NDES 서버에서 인터넷에 액세스하는 데 프록시가 필요한 경우 **프록시 서버 사용**을 클릭한 후 프록시 서버 이름, 포트 및 계정 자격 증명을 입력하여 연결합니다.
 

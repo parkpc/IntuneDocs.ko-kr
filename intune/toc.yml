@@ -654,11 +654,11 @@
               href: reports-ref-user-device.md
             - name: 사용자 엔터티에 대한 참조
               href: reports-ref-user.md
-    - name: Intune Graph API
+    - name: Azure AD를 사용하여 Microsoft Graph의 Intune API에 액세스
       href: intune-graph-apis.md
       items:
-        - name: Intune용 Graph API 참조
-          href: 'https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview'
+        - name: Intune API 참조
+          href: 'https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/intune_graph_overview'
 - name: 리소스
   items:
     - name: 용어 설명

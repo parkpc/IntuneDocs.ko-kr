@@ -15,19 +15,19 @@ ms.assetid: 4CD5EE94-7BA6-4F59-8E28-1EBCA7CA6436
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2b281a6b618e945750b5d5dec278e4ddc6166276
-ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
+ms.openlocfilehash: 8eb231a225a642e4ccdd538f307442921633ddaf
+ms.sourcegitcommit: 0795870bfe941612259ebec0fe313a783a44d9b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/11/2018
 ---
-# <a name="review-app-protection-logs-in-the-managed-browser"></a>Managed Browser에서 앱 보호 로그 검토
+# <a name="review-client-app-protection-logs"></a>클라이언트 앱 보호 로그 검토
 
 모바일 클라이언트에서 응용 프로그램에 대한 Intune 진단 모드를 사용하도록 설정하여 로그에 액세스할 수 있습니다. 다음 표에는 로그에 기록된 설정에 대한 이름 및 설명이 나와 있습니다.
 
 ## <a name="app-protection-policy-settings"></a>앱 보호 정책 설정
 
-| Name                        | 가능한 값                                                                                                                                                                                                                                                                                           | Azure Intune 모바일 응용 프로그램 관리 포털의 설정                                                                                                                            |
+| 이름                        | 가능한 값                                                                                                                                                                                                                                                                                           | Azure Intune 모바일 응용 프로그램 관리 포털의 설정                                                                                                                            |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | AccessRecheckOfflineTimeout | x분                                                                                                                                                                                                                                                                                                   | [액세스] 액세스 요구 사항 다시 확인 - 오프라인 유예 기간<br>참고: 장치가 오프라인 상태인 경우 앱의 액세스 요구 사항을 다시 확인하기 전까지의 기간입니다.             |
 | AccessRecheckOnlineTimeout  | _x_분                                                                                                                                                                                                                                                                                                   | [액세스] 액세스 요구 사항 다시 확인 - 시간 제한.<br>참고: 장치가 온라인 상태인 경우 앱이 시작된 후 앱의 액세스 요구 사항을 다시 확인하기 전까지의 기간입니다. |
