@@ -15,11 +15,11 @@ ms.assetid: 16c056ca-320e-4107-ad03-a0cf96c28885
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 17aa425a7daad35860eb4694e9bf798dc655992c
-ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
+ms.openlocfilehash: 31d1e40c3cd352c00dd7a659f716b5690ea64ea1
+ms.sourcegitcommit: 5877b650d93fc9a5e8f058f845acbdbfdff828b7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/30/2017
+ms.lasthandoff: 01/22/2018
 ---
 # <a name="vpn-settings-for-android-devices-in-microsoft-intune"></a>Microsoft Intune에서 Android 장치에 대한 VPN 설정
 
@@ -63,4 +63,3 @@ Intune 관리자는 다음 플랫폼에 대해 VPN 설정을 구성할 수 있�
     - **F5 Edge Client**
     - **Pulse Secure**
 
-- **분할 터널링** - VPN 활성화 시 특정 웹 트래픽은 VPN 연결을 사용하고 기타 트래픽은 인터넷을 사용하도록 설정합니다. VPN 활성화 시 모든 트래픽이 VPN을 사용하도록 하려면 이 설정을 사용하지 않도록 설정하세요.
