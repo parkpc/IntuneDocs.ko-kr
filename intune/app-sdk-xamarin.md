@@ -14,11 +14,11 @@ ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c5645e337e34c6310c82a76d537fe6539e04e71e
-ms.sourcegitcommit: 5ecb0d6625e6972cc5ccdca7538f41f4aa8da46a
+ms.openlocfilehash: 73caf124e94994acf816c98f0788efdabe024cc4
+ms.sourcegitcommit: c3bd0d192d712fcfd52f64dd1377155796239fcb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-component"></a>Microsoft Intune 앱 SDK Xamarin 구성 요소
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 01/12/2018
 
 
 ## <a name="overview"></a>개요
-[Intune 앱 SDK Xamarin 구성 요소](https://components.xamarin.com/view/microsoft.intune.mam)는 Xamarin에 내장된 iOS 및 Android 앱의 [Intune 앱 보호 정책](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)을 사용하도록 설정합니다. 개발자는 구성 요소를 사용하여 Intune 앱 보호 기능을 Xamarin 기반 앱에 손쉽게 빌드할 수 있습니다.
+[Intune 앱 SDK Xamarin 구성 요소](https://github.com/msintuneappsdk/intune-app-sdk-xamarin)는 Xamarin에 내장된 iOS 및 Android 앱의 [Intune 앱 보호 정책](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)을 사용하도록 설정합니다. 개발자는 구성 요소를 사용하여 Intune 앱 보호 기능을 Xamarin 기반 앱에 손쉽게 빌드할 수 있습니다.
 
 > [!NOTE]
 > Xamarin에 대한 Intune SDK 지원은 현재 미리 보기로 제공됩니다. 
@@ -64,7 +64,7 @@ Microsoft Intune 앱 SDK Xamarin 구성 요소를 사용하면 Xamarin으로 개
 
 2. Microsoft Intune MAM Xamarin 구성 요소에 대한 [사용 조건](https://components.xamarin.com/license/microsoft.intune.mam)을 읽습니다.
 
-3.  [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) 또는 [Xamarin](https://components.xamarin.com/license/microsoft.intune.mam)에서 Intune 앱 SDK Xamarin 구성 요소 폴더를 다운로드하여 압축을 풉니다. 1단계와 3단계에서 다운로드한 파일은 모두 동일한 디렉터리 수준에 있어야 합니다.
+3.  [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) 또는 [Nuget.org](https://www.nuget.org/profiles/msintuneappsdk)에서 Intune 앱 SDK Xamarin 구성 요소 폴더를 다운로드하여 압축을 풉니다. 1단계와 3단계에서 다운로드한 파일은 모두 동일한 디렉터리 수준에 있어야 합니다.
 
 4.  관리자 권한으로 명령줄에서 `Xamarin.Component.exe install <.xam> file`을 실행합니다.
 

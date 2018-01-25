@@ -5,20 +5,20 @@ keywords:
 author: erikre
 ms.author: erikre
 manager: angrobe
-ms.date: 12/12/2017
+ms.date: 01/18/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
-ms.reviewer: oldang
+ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 05d60bfea2058e3360c350d227b0031b6b620913
-ms.sourcegitcommit: 4eafb3660d6f5093c625a21e41543b06c94a73ad
+ms.openlocfilehash: dc031b12ed49766c70a6a4ff373a7c5843ca21ad
+ms.sourcegitcommit: 1a390b47b91e743fb0fe82e88be93a8d837e8b6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="prepare-ios-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 앱 보호 정책에 대해 iOS 앱 준비
 
@@ -53,7 +53,6 @@ iOS용 Microsoft Intune 앱 래핑 도구를 사용하면 앱 자체의 코드�
   * Intune 앱 래핑 도구에서 처리되기 전에 입력 앱에 권리 유형이 설정되어 있어야 합니다. [권리 유형](https://developer.apple.com/library/content/documentation/Miscellaneous/Reference/EntitlementKeyReference/Chapters/AboutEntitlements.html)을 통해 일반적으로 부여되는 권한 및 기능 이외에 앱에 추가적인 사용 권한 및 기능을 제공할 수 있습니다. 지침은 [앱 자격 설정](#setting-app-entitlements)을 참조하세요.
 
 ## <a name="apple-developer-prerequisites-for-the-app-wrapping-tool"></a>앱 래핑 도구의 Apple Developer 필수 조건
-
 
 조직의 사용자에게 독점적으로 래핑된 앱을 배포하려면 [Apple Developer Enterprise Program](https://developer.apple.com/programs/enterprise/)의 계정과 Apple Developer 계정에 연결된 앱 서명을 위한 몇 가지 엔터티가 필요합니다.
 
@@ -207,8 +206,8 @@ macOS 터미널 프로그램을 열고 앱 래핑 도구 파일을 저장한 폴
 |**-c**|`<SHA1 hash of the signing certificate>`|
 |**-h**|앱 래핑 도구에 사용 가능한 명령줄 속성에 대한 자세한 사용법 정보를 표시합니다.|
 |**-v**|(선택 사항) 자세한 정보 메시지를 콘솔에 출력합니다. 오류를 디버깅하려면 이 플래그를 사용하는 것이 좋습니다.|
-|**-e**| (선택 사항) 이 플래그를 사용하여 앱 래핑 도구에서 앱을 처리할 때 누락된 자격을 제거하도록 합니다. 자세한 내용은 앱 자격 설정을 참조하세요.|
-|**-xe**| (선택 사항) 앱의 iOS 확장 및 iOS 확장을 사용하기 위해 필요한 자격에 대한 정보를 인쇄합니다. 자세한 내용은 앱 자격 설정을 참조하세요. |
+|**-e**| (선택 사항) 이 플래그를 사용하여 앱 래핑 도구에서 앱을 처리할 때 누락된 자격을 제거하도록 합니다. 자세한 내용은 [앱 자격 설정](#setting-app-entitlements)을 참조하세요.|
+|**-xe**| (선택 사항) 앱의 iOS 확장 및 iOS 확장을 사용하기 위해 필요한 자격에 대한 정보를 인쇄합니다. 자세한 내용은 [앱 자격 설정](#setting-app-entitlements)을 참조하세요. |
 |**-x**| (선택 사항) `<An array of paths to extension provisioning profiles>`. 앱에서 확장 프로비저닝 프로필이 필요한 경우 사용합니다.|
 |**-f**|(선택 사항) `<Path to a plist file specifying arguments.>` plist 템플릿을 사용하여 -i, -o, -p와 같은 나머지 IntuneMAMPackager 속성을 지정하도록 선택하는 경우 [plist](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/PropertyLists/Introduction/Introduction.html) 앞에 이 플래그를 사용합니다. plist를 사용하여 인수 입력을 참조하세요. |
 |**-b**|(선택 사항) 래핑된 출력 앱에서 입력 앱과 같은 번들 버전을 사용하려는 경우 인수 없이 -b를 사용합니다(권장하지 않음). <br/><br/> 래핑된 앱에서 사용자 지정 CFBundleVersion을 사용하도록 하려면 `-b <custom bundle version>`을 사용합니다. 사용자 지정 CFBundleVersion을 지정하도록 선택하는 경우 가장 덜 중요한 구성 요소 단위로 네이티브 앱의 CFBundleVersion을 증가하는 것이 좋습니다(예: 1.0.0 -> 1.0.1). |
@@ -247,6 +246,16 @@ IntuneMAMPackager/Contents/MacOS 폴더에서 텍스트 편집기 또는 Xcode�
 > 래핑된 앱을 업로드할 때 이전(래핑된 또는 네이티브) 버전이 이미 Intune에 배포된 경우 이전 버전의 앱을 업데이트할 수 있습니다. 오류가 발생하면 앱을 새 앱으로 업로드하고 이전 버전을 삭제합니다.
 
 이제 앱을 사용자 그룹에 배포하고 앱 보호 정책을 적용할 대상으로 지정할 수 있습니다. 지정한 앱 보호 정책을 사용하여 장치에서 앱이 실행됩니다.
+
+## <a name="how-often-should-i-rewrap-my-ios-application-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 iOS 응용 프로그램을 얼마나 자주 다시 래핑해야 하나요?
+응용 프로그램을 다시 줄 바꿈해야 하는 주요 시나리오는 다음과 같습니다.
+* 응용 프로그램 자체가 새 버전을 릴리스했습니다. 이전 버전의 앱이 래핑되어 Intune 콘솔에 업로드되었습니다.
+* iOS용 Intune 앱 래핑 도구는 주요 버그 수정 또는 새로운 특정 Intune 응용 프로그램 보호 정책 기능을 사용할 수 있는 새 버전을 릴리스했습니다. 이 릴리스는 [iOS용 Microsoft Intune 앱 래핑 도구](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios)에 대한 GitHub 리포지토리를 통해 6-8주 후에 발생합니다.
+
+iOS의 경우 앱에 서명하는 데 사용된 원본이 아닌 다른 인증서/프로비전 프로필을 사용하여 래핑할 수 있지만, 앱에 지정된 자격이 새 프로비전 프로필에 포함되어 있지 않으면 래핑이 실패합니다. 누락된 자격을 앱에서 제거하는 "-e" 명령줄 옵션을 사용하여 이 시나리오에서 래핑이 실패하지 않도록 강제로 적용하면 앱에서 기능이 손상될 수 있습니다.
+
+다시 줄 바꿈하기 위한 몇 가지 모범 사례는 다음과 같습니다.
+* 다른 프로비전 프로필에 모든 필요한 자격이 이전 프로비전 프로필로 있는지 확인합니다. 
 
 ## <a name="error-messages-and-log-files"></a>오류 메시지 및 로그 파일
 앱 래핑 도구 관련 문제를 해결하려면 다음 정보를 사용하세요.

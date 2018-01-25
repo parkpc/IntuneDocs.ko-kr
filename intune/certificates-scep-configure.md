@@ -6,20 +6,19 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 12/09/2017
+ms.date: 1/18/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: d567d85f-e4ee-458e-bef7-6e275467efce
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 36c495767d41c83c1393d837a808961ed9868bed
-ms.sourcegitcommit: 6d5c919286b0e285f709d9b918624b927f99f979
+ms.openlocfilehash: 3082bd52460bc9bd852edb3b560e96fb718a71c3
+ms.sourcegitcommit: 1a390b47b91e743fb0fe82e88be93a8d837e8b6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="configure-and-manage-scep-certificates-with-intune"></a>Intune을 사용하여 SCEP 인증서 구성 및 관리
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -66,7 +65,7 @@ NDES 서버는 CA를 호스트하는 도메인에 가입해야 하며 CA와 동�
 
 ### <a name="accounts"></a>계정
 
-|Name|세부 정보|
+|이름|세부 정보|
 |--------|-----------|
 |**NDES 서비스 계정**|NDES 서비스 계정으로 사용할 도메인 사용자 계정을 지정합니다.|
 
@@ -122,7 +121,7 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
 3.  템플릿의 **일반** 탭에서 **유효 기간** 을 검토합니다. 기본적으로 Intune은 템플릿에 구성된 값을 사용합니다. 그러나 요청자가 다른 값을 지정할 수 있도록 CA를 구성할 수도 있습니다. 이와 같이 구성하면 Intune 관리자 콘솔 내에서 다른 값을 설정할 수 있습니다. 항상 템플릿의 값을 사용하려면 이 단계의 나머지 부분을 건너뜁니다.
 
     > [!IMPORTANT]
-    > iOS 및 macOS는 다른 구성 내용과 관계없이 항상 템플릿에 설정된 값을 사용합니다.
+    > iOS 및 macOS는 다른 구성 내용에 관계없이 항상 템플릿에 설정된 값을 사용합니다.
 
 다음은 템플릿 구성 예제의 스크린샷입니다.
 
@@ -330,6 +329,9 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
 
     **로그인** 을 클릭하고 Intune 서비스 관리자 자격 증명 또는 전역 관리 권한이 있는 테넌트 관리자의 자격 증명을 입력합니다.
 
+    > [!IMPORTANT]
+    > 사용자 계정에 유효한 Intune 라이선스가 할당되어야 합니다. 사용자 계정에 유효한 Intune 라이선스가 없으면 NDESConnectorUI.exe가 실패합니다.
+
     조직에서 프록시 서버를 사용하며 NDES 서버에서 인터넷에 액세스하는 데 프록시가 필요한 경우 **프록시 서버 사용**을 클릭한 후 프록시 서버 이름, 포트 및 계정 자격 증명을 입력하여 연결합니다.
 
     **고급** 탭을 선택하고 발급 인증 기관에 대한 **인증서 발급 및 관리** 권한이 있는 계정의 자격 증명을 입력한 후에 **적용**을 클릭합니다.
@@ -349,7 +351,7 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
 3. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.
 4. **프로필 만들기** 블레이드에서 SCEP 인증서 프로필에 대한 **이름** 및 **설명**을 입력합니다.
 5. **플랫폼** 드롭다운 목록에서 이 SCEP 인증서에 대한 장치 플랫폼을 선택합니다. 현재, 장치 제한 설정에 대해 다음 플랫폼 중 하나를 선택할 수 있습니다.
-    - **Android**
+    - **OWA(Outlook Web Access)**
     - **iOS**
     - **macOS**
     - **Windows Phone 8.1**

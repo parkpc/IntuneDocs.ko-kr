@@ -6,7 +6,7 @@ keywords:
 author: erikre
 ms.author: erikre
 manager: angrobe
-ms.date: 12/01/2017
+ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 668264fc0ed4d9bebf84d97aa66a886d93fbb4eb
-ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
+ms.openlocfilehash: b91a9e57eb368daae77958eaf4e554628361b2c4
+ms.sourcegitcommit: 7d80886ed9a12597fead9326568b4e759b29a340
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="what-are-app-protection-policies"></a>앱 보호 정책이란?
 
@@ -45,7 +45,7 @@ Intune 앱 보호 정책을 사용하여 회사 데이터를 보호할 수 있�
 -   **모바일 장치 관리 솔루션에 등록되지 않음:** 이 범주의 장치는 일반적으로 직원이 소유한 장치로 Intune 또는 기타 MDM 솔루션에서 관리 또는 등록되지 않습니다.
 
 > [!IMPORTANT]
-> Office 365 서비스에 연결되는 Office 모바일 앱에 대한 모바일 앱 관리 정책을 만들 수 있습니다. 앱 보호 정책은 온-프레미스 Exchange, 비즈니스용 Skype 또는 SharePoint 서비스에 연결하는 앱에 대해서는 지원되지 않습니다.
+> Office 365 서비스에 연결되는 Office 모바일 앱에 대한 모바일 앱 관리 정책을 만들 수 있습니다. 온-프레미스 Exchange 또는 SharePoint 서비스에 연결하는 앱에는 앱 보호 정책이 지원되지 않습니다.
 
 **앱 보호 정책을 사용할 경우의 중요한 혜택은 다음과 같습니다.**
 
