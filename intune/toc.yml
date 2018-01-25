@@ -124,7 +124,7 @@
         - name: 지원되는 구성
           href: supported-devices-browsers.md
           items:
-            - name: 네트워크 대역폭 사용량
+            - name: 네트워크 구성
               href: network-bandwidth-use.md
         - name: Intune에 로그인
           href: account-sign-up.md
@@ -166,6 +166,8 @@
               href: windows-bulk-enroll.md
             - name: Windows AutoPilot 배포 프로그램
               href: enrollment-autopilot.md
+            - name: 등록 상태 화면
+              href: windows-enrollment-status.md
         - name: Android 등록 설정
           href: android-enroll.md
         - name: iOS 등록 설정
