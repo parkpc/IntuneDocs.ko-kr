@@ -6,20 +6,19 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: angrobe
-ms.date: 12/03/2017
+ms.date: 1/18/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 16aa0f3c-8977-4495-9fbe-ca30ad278c9e
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0d0d8a6e198a58fc513645db68ae3a3ef84a3653
-ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
+ms.openlocfilehash: 54202baa7871f38581f4828bb80213be0f88ef61
+ms.sourcegitcommit: 1a390b47b91e743fb0fe82e88be93a8d837e8b6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/30/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="web-content-filter-settings-for-ios-devices"></a>iOS 장치에 대한 웹 콘텐츠 필터 설정
 
@@ -47,8 +46,11 @@ URL을 지정하지 않으면 최종 사용자는 microsoft.com, microsoft.net �
 ## <a name="configure-urls"></a>URL 구성
 
 1. 필요한 경우 **웹 콘텐츠 필터** 블레이드에서 다음 설정 중 하나를 선택합니다.
-    - **허용된 URL** - **허용된 URL** 블레이드에서 허용할 URL을 입력하고(Apple 웹 필터 무시) 각 URL 뒤에서 입력을 선택합니다.
-    - **차단된 URL** - **차단된 URL** 블레이드에서 차단할 URL을 입력하고(Apple 웹 필터 설정 상관없음) 각 URL 뒤에서 입력을 선택합니다.
+   - **허용된 URL** - **허용된 URL** 블레이드에서 허용할 URL을 입력하고(Apple 웹 필터 무시) 각 URL 뒤에서 입력을 선택합니다.
+     > [!NOTE]
+     > 여기에 지정한 URL은 Apple 웹 필터의 적용을 원하지 않는 URL입니다. 이러한 URL은 허용되는 유일한 웹 사이트의 목록을 나타내지는 않습니다. 원하는 URL인 경우 **특정 웹 사이트만**을 사용합니다.
+
+   - **차단된 URL** - **차단된 URL** 블레이드에서 차단할 URL을 입력하고(Apple 웹 필터 설정 상관없음) 각 URL 뒤에서 입력을 선택합니다.
 2. 작업을 마쳤으면 **확인**을 클릭합니다.
 
 

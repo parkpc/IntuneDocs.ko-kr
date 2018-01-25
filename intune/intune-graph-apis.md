@@ -1,6 +1,6 @@
 ---
-title: "Azure AD를 사용하여 Intune Graph API에 액세스하는 방법"
-description: "앱이 Azure AD를 사용하여 Intune Graph API에 액세스하기 위해 수행해야 하는 단계 설명"
+title: "Azure AD를 사용하여 Microsoft Graph의 Intune API에 액세스하는 방법"
+description: "앱에서 Azure AD를 통해 Microsoft Graph의 Intune API에 액세스하는 데 필요한 단계를 설명합니다."
 keywords: "intune graphapi c# powershell 권한 역할"
 author: vhorne
 manager: angrobe
@@ -13,20 +13,20 @@ ms.technology:
 ms.assetid: 79A67342-C06D-4D20-A447-678A6CB8D70A
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 351a066c8852125b6fbf26c039dd3718b63f8980
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 6637d7269f7620dc348b80533661afac8f12e0ba
+ms.sourcegitcommit: d6dc1211e9128c2e0608542b72d1caa4d6ba691d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="how-to-use-azure-ad-to-access-the-intune-graph-api"></a>Azure AD를 사용하여 Intune Graph API에 액세스하는 방법
+# <a name="how-to-use-azure-ad-to-access-the-intune-apis-in-microsoft-graph"></a>Azure AD를 사용하여 Microsoft Graph의 Intune API에 액세스하는 방법
 
-이제 [Microsoft Graph API](https://developer.microsoft.com/graph/)는 특정 API 및 권한 역할을 통해 Microsoft Intune을 지원합니다.  Graph API는 Azure AD(Active Directory)를 사용하여 인증 및 액세스 제어를 수행합니다.  
-Intune Graph API에 액세스하려면 다음 항목이 필요합니다.
+이제 [Microsoft Graph API](https://developer.microsoft.com/graph/)는 특정 API 및 권한 역할을 통해 Microsoft Intune을 지원합니다.  Microsoft Graph API는 Azure AD(Azure Active Directory)를 사용하여 인증 및 액세스 제어를 수행합니다.  
+Microsoft Graph에서 Intune API에 액세스하려면 다음 항목이 필요합니다.
 
 - 다음 권한/권한 범위가 있는 응용 프로그램 ID:
 
-    - Azure AD 및 Graph API 호출 권한
+    - Azure AD 및 Microsoft Graph API를 호출할 수 있는 권한
     - 특정 응용 프로그램 작업과 관련된 권한 범위
 
 - 다음 권한이 있는 사용자 자격 증명:
@@ -38,11 +38,11 @@ Intune Graph API에 액세스하려면 다음 항목이 필요합니다.
 
 이 문서의 내용은 다음과 같습니다.
 
-- Graph API 액세스 권한과 관련 권한 역할이 있는 응용 프로그램을 등록하는 방법 표시
+- Microsoft Graph API 및 관련 권한 역할에 대한 액세스 권한으로 응용 프로그램을 등록하는 방법을 보여 줍니다.
 
-- Intune Graph API 권한 역할에 관한 설명
+- Intune API 권한 역할에 대해 설명합니다.
 
-- C# 및 PowerShell용 Intune Graph API 인증 예제 제공
+- C# 및 PowerShell에 대한 Intune API 인증 예제를 제공합니다.
 
 - 여러 테넌트를 지원하는 방법 설명
 
@@ -53,9 +53,9 @@ Intune Graph API에 액세스하려면 다음 항목이 필요합니다.
 - [Azure Active Directory와 응용 프로그램 통합](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 - [OAuth 2.0 이해](https://oauth.net/2/)
 
-## <a name="register-apps-to-use-graph-api"></a>Graph API 사용을 위해 앱 등록
+## <a name="register-apps-to-use-the-microsoft-graph-api"></a>Microsoft Graph API를 사용할 앱 등록
 
-Graph API 사용을 위해 앱을 등록하려면:
+Microsoft Graph API를 사용할 앱을 등록하려면 다음을 수행합니다.
 
 1.  관리 자격 증명을 사용하여 [Azure Portal](https://portal.azure.com)에 로그인합니다.
 
@@ -127,15 +127,15 @@ Graph API 사용을 위해 앱을 등록하려면:
 
 ## <a name="intune-permission-scopes"></a>Intune 권한 범위
 
-Azure AD 및 Graph API는 권한 범위를 사용하여 회사 리소스에 대한 액세스를 제어합니다.  
+Azure AD 및 Microsoft Graph는 권한 범위를 사용하여 회사 리소스에 대한 액세스를 제어합니다.  
 
-_OAuth 범위_라고도 하는 권한 범위는 특정 Intune 엔터티 및 해당 속성에 대한 액세스를 제어합니다. 이 섹션에는 Intune Graph API 기능의 권한 범위가 요약되어 있습니다.
+_OAuth 범위_라고도 하는 권한 범위는 특정 Intune 엔터티 및 해당 속성에 대한 액세스를 제어합니다. 이 섹션에서는 Intune API 기능의 권한 범위를 요약하고 있습니다.
 
 자세한 내용은 다음 항목을 참조하세요.
 - [Azure AD 인증](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication)
 - [응용 프로그램 권한 범위](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-scopes)
 
-Graph API에 권한을 부여하는 경우 다음 범위를 지정하여 Intune 기능에 대한 액세스를 제어할 수 있습니다. 아래 표에는 Intune Graph API 권한 범위가 요약되어 있습니다.  첫 번째 열에는 Azure Portal에 표시되는 기능의 이름이 표시되어 있고 두 번째 열에는 권한 범위 이름이 나와 있습니다.
+Microsoft Graph에 권한을 부여하는 경우 다음 범위를 지정하여 Intune 기능에 대한 액세스를 제어할 수 있습니다. 아래 표에는 Intune API 권한 범위가 요약되어 있습니다.  첫 번째 열에는 Azure Portal에 표시되는 기능의 이름이 표시되어 있고 두 번째 열에는 권한 범위 이름이 나와 있습니다.
 
 _액세스 사용_ 설정 | 범위 이름
 :--|:--
@@ -153,7 +153,7 @@ __Microsoft Intune 구성 읽기__ | [DeviceManagementServiceConfig.Read.All](#s
 
 표에는 Azure Portal에 표시되는 설정이 나와 있습니다. 다음 섹션에서는 범위를 사전순으로 설명합니다.
 
-현재 모든 Intune 권한 범위에는 관리자 권한이 필요합니다.  즉, Intune Graph API 리소스에 액세스하는 앱이나 스크립트를 실행할 때는 해당하는 자격 증명이 필요합니다.
+현재 모든 Intune 권한 범위에는 관리자 권한이 필요합니다.  즉, Intune API 리소스에 액세스하는 앱 또는 스크립트를 실행할 때 해당 자격 증명이 필요합니다.
 
 ### <a name="app-ro"></a>DeviceManagementApps.Read.All
 
@@ -319,7 +319,7 @@ __Microsoft Intune 구성 읽기__ | [DeviceManagementServiceConfig.Read.All](#s
 
 이러한 오류가 발생하면 다음 사항을 확인하세요.
 
-- 응용 프로그램 ID를 Graph API 및 `DeviceManagementManagedDevices.Read.All` 권한 범위를 사용할 권한이 부여된 ID로 업데이트했습니다.
+- 응용 프로그램 ID를 Microsoft Graph API 및 `DeviceManagementManagedDevices.Read.All` 권한 범위를 사용하도록 권한이 부여된 ID로 업데이트했습니다.
 
 - 테넌트 자격 증명이 관리 기능을 지원합니다.
 
