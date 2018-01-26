@@ -5,7 +5,7 @@ keywords: SDK
 author: erikre
 manager: angrobe
 ms.author: erikre
-ms.date: 11/28/2017
+ms.date: 01/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,18 +14,18 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 7bb78d05f9225c681c5b8a3bb6f1fcee4581a0de
-ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
+ms.openlocfilehash: c3c6c82dcec8d85d0748d5966f6898f219b620d7
+ms.sourcegitcommit: 53d272defd2ec061dfdfdae3668d1b676c8aa7c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Android용 Microsoft Intune 앱 SDK 개발자 가이드
 
 > [!NOTE]
 > 먼저 SDK의 현재 기능 및 지원되는 각 플랫폼에서 통합을 준비하는 방법을 설명하는 [Intune 앱 SDK 개요](app-sdk.md) 항목을 읽어보는 것이 좋습니다.
 
-Android용 Microsoft Intune 앱 SDK를 사용하면 네이티브 Android 앱에 Intune 앱 보호 정책(**APP** 또는 MAM 정책이라고도 함)을 통합할 수 있습니다. Intune 지원 응용 프로그램은 Intune 앱 SDK와 통합된 응용 프로그램입니다. Intune 관리자는 Intune에서 앱을 적극적으로 관리할 때 Intune 지원 앱에 앱 보호 정책을 쉽게 배포할 수 있습니다.
+Android용 Microsoft Intune 앱 SDK를 사용하면 네이티브 Android 앱에 Intune 앱 보호 정책(**APP** 또는 MAM 정책이라고도 함)을 통합할 수 있습니다. Intune 관리 응용 프로그램은 Intune 앱 SDK와 통합된 응용 프로그램입니다. Intune 관리자는 Intune으로 앱을 직접 관리할 때 Intune 관리 앱에 앱 보호 정책을 쉽게 배포할 수 있습니다.
 
 
 ## <a name="whats-in-the-sdk"></a>SDK에 포함된 내용
@@ -55,7 +55,7 @@ Intune 앱 SDK는 컴파일된 Android 프로젝트이므로 대개 최소 또�
 Android용 Intune 앱 SDK가 작동하려면 장치에 앱 보호 정책을 사용하기 위한 [회사 포털](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) 앱이 있어야 합니다. 회사 포털이 Intune 서비스에서 앱 보호 정책을 검색합니다. 앱을 초기화할 때 정책과 회사 포털에서 해당 정책을 적용하는 코드를 로드합니다.
 
 > [!NOTE]
-> 회사 포털 앱이 장치에 없으면 Intune 지원 앱은 Intune 앱 보호 정책을 지원하지 않는 일반 앱과 동일하게 동작합니다.
+> 회사 포털 앱이 장치에 없으면 Intune 관리 앱은 Intune 앱 보호 정책을 지원하지 않는 일반 앱처럼 작동합니다.
 
 장치 등록 없이 앱 보호를 사용하기 위해 사용자가 회사 포털 앱을 통해 장치를 등록할 필요가 _**없습니다**_.
 
@@ -875,7 +875,7 @@ ID를 설정하는 데 사용된 모든 메서드는 `MAMIdentitySwitchResult`�
 
 ### <a name="implicit-identity-changes"></a>명시적 ID 변경
 
-앱의 ID 설정 기능 이외에도 앱 보호 정책이 있는 또 다른 Intune 지원 앱의 데이터 수신에 따라 스레드 또는 컨텍스트의 ID가 변경될 수 있습니다.
+앱의 ID 설정 기능 이외에도, 앱 보호 정책이 적용된 다른 Intune 관리 앱의 데이터 수신에 따라 스레드 또는 컨텍스트의 ID가 변경될 수 있습니다.
 
 #### <a name="examples"></a>예
 
@@ -1173,7 +1173,7 @@ public final class MAMDataProtectionManager {
 ## <a name="enabling-mam-targeted-configuration-for-your-android-applications-optional"></a>Android 응용 프로그램에 대해 MAM 대상 구성 사용(선택 사항)
 Intune 콘솔에서 응용 프로그램 특정 키-값 쌍을 구성해야 합니다. 이러한 키-값 쌍은 Intune에서 전혀 해석되지 않고 앱에 전달되기만 합니다. 해당 구성을 수신하려고 하는 응용 프로그램은 `MAMAppConfigManager` 및 `MAMAppConfig` 클래스를 사용하여 구성을 수신할 수 있습니다. 동일한 앱에서 여러 정책을 대상으로 지정하면 동일한 키에 사용할 수 있는 여러 개의 충돌 값이 발생할 수 있습니다.
 
-### <a name="example"></a>예
+### <a name="example"></a>예제
 ```
 MAMAppConfigManager configManager = MAMComponents.get(MAMAppConfigManager.class);
 String identity = "user@contoso.com"
@@ -1353,6 +1353,32 @@ Intune MAM 보기에 스타일 변경을 적용하려면 먼저 스타일 재정
 | 강조 색 | 강조 표시할 때 PIN 상자 테두리 <br> 하이퍼링크 |accent_color | 색상 |
 | 앱 로고 | Intune 앱 PIN 화면에 표시되는 큰 아이콘 | logo_image | 그리기 가능 |
 
+## <a name="requiring-user-login-prompt-for-an-automatic-app-we-service-enrollment-requiring-intune-app-protection-policies-in-order-to-use-your-sdk-integrated-android-lob-app-and-enabling-adal-sso-optional"></a>자동 APP-WE 서비스 등록을 위한 사용자 로그인 프롬프트 필요, SDK 통합 Android LOB 앱을 사용하기 위한 Intune 앱 보호 정책 필요, ADAL SSO을 사용하도록 설정(선택 사항)
+
+다음은 자동 APP-WE 서비스 등록(이 섹션에서는 **기본값 등록**이라고 함)을 위해 앱 시작 시 사용자 프롬프트를 요구하는 것에 관한 지침으로, Intune 보호 사용자만 SDK 통합 Android LOB 앱을 사용할 수 있도록 허용하는 Intune 앱 보호 정책을 요구합니다. 또한 SDK 통합 Android LOB 앱에 SSO를 사용하는 방법에 관해서도 설명합니다. 이것은 Intune 이외의 사용자가 사용할 수 있는 스토어 앱에서는 **지원되지 않습니다.**
+
+> [!NOTE] 
+> **기본값 등록**의 이점에는 장치의 앱에 관한 APP-WE 서비스에서 정책을 얻는 단순화된 방법이 포함됩니다.
+
+### <a name="general-requirements"></a>일반 요구 사항
+* Intune SDK 팀은 앱의 응용 프로그램 ID를 필요로 합니다. ID는 [Azure Portal](https://portal.azure.com/)을 통해 확인할 수 있으며 **모든 응용 프로그램** 아래 **응용 프로그램 ID** 열에 나와 있습니다. Intune SDK 팀에는 이메일(msintuneappsdk@microsoft.com)을 통해 연락하는 것이 좋습니다.
+     
+### <a name="working-with-the-intune-sdk"></a>Intune SDK 사용
+이러한 지침은 최종 사용자 장치에서 사용하기 위해 Intune 앱 보호 정책을 요구하려는 모든 Android 및 Xamarin 앱에만 적용됩니다.
+
+1. [Android 가이드용 Intune SDK](https://docs.microsoft.com/en-us/intune/app-sdk-android#configure-azure-active-directory-authentication-library-adal)에 정의된 단계에 따라 ADAL을 구성합니다.
+> [!NOTE] 
+> 앱에 연결된 “클라이언트 ID”라는 용어는 앱에 연결된 Azure Portal의 “응용 프로그램 ID”라는 용어와 같습니다. 
+* SSO를 사용하려면 “일반적인 ADAL 구성” #2가 필요합니다.
+
+2. 매니페스트에 다음 값을 입력하여 기본 등록을 사용합니다. ```xml <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />```
+> [!NOTE] 
+> 이것은 앱에서 유일한 MAM-WE 통합이어야 합니다. MAMEnrollmentManager API를 호출하려는 다른 시도가 있으면 충돌이 발생할 수 있습니다.
+
+3. 매니페스트에 다음 값을 입력하여 필요한 MAM 정책을 설정합니다. ```xml <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />```
+> [!NOTE] 
+> 이렇게 하면 사용자는 장치에 회사 포털을 다운로드하고 사용하기 전에 기본 등록 절차를 완료해야 합니다.
+
 ## <a name="limitations"></a>제한 사항
 
 ### <a name="file-size-limitations"></a>파일 크기 제한
@@ -1380,7 +1406,7 @@ Intune MAM 보기에 스타일 변경을 적용하려면 먼저 스타일 재정
     
 ### <a name="exported-services"></a>내보낸 서비스
 
- Intune 앱 SDK에 포함된 AndroidManifest.xml 파일에는 **MAMNotificationReceiverService**가 들어 있습니다. 내보낸 서비스가 이 서비스여야 회사 포털에서 지원 앱에 알림을 보낼 수 있습니다. 이 서비스는 호출자를 검사하여 회사 포털만 알림을 보낼 수 있는지 확인합니다.
+ Intune 앱 SDK에 포함된 AndroidManifest.xml 파일에는 **MAMNotificationReceiverService**가 포함되어 있으며, 이것은 회사 포털이 관리하는 앱에 알림을 보낼 수 있도록 하는 내보낸 서비스여야 합니다. 이 서비스는 호출자를 검사하여 회사 포털만 알림을 보낼 수 있는지 확인합니다.
 
 ### <a name="reflection-limitations"></a>리플렉션 제한 사항
 일부 MAM 기본 클래스(예: MAMActivity, MAMDocumentsProvider)는 특정 API 수준 위에만 존재하는 반환 형식 또는 매개 변수를 사용하는 메서드(원래 Android 기본 클래스를 기반으로)를 포함합니다. 이런 이유 때문에 리플렉션을 사용하여 앱 구성 요소의 모든 메서드를 열거하는 것이 항상 가능하지는 않습니다. 이 제한 사항은 MAM에 국한되지 않으며 앱 자체가 Android 기본 클래스에서 이러한 메서드를 구현하는 경우 적용되는 것과 동일한 제한 사항입니다.

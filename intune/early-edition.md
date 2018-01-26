@@ -5,7 +5,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: angrobe
-ms.date: 01/02/2018
+ms.date: 01/18/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ac9cb0ad7d1b5e2c29e80f16c172f41c08d3a15d
-ms.sourcegitcommit: 5fd17a57989c6da3d325ed2e0018ce16fe20bb79
+ms.openlocfilehash: 12f4a09fe10ec792abe8183369a21f53c23f5d1a
+ms.sourcegitcommit: 53d272defd2ec061dfdfdae3668d1b676c8aa7c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="the-early-edition-for-microsoft-intune---january-2018"></a>Microsoft Intune 초기 버전 - 2018년 1월
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/04/2018
 <!--
 ## What's coming to Intune in the Azure portal  
 ## What's coming to Intune apps
-## Notices 
+## Notices
 -->
 
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 01/04/2018
 
 ### <a name="easier-resolution-of-compliance-issues-for-the-company-portal-app-for-windows-10---676546---"></a>Windows 10용 회사 포털 앱의 준수 문제 해결 용이 <!--676546 -->
 
-Windows 장치를 사용하는 최종 사용자는 회사 포털 앱에서 비준수 이유를 탭할 수 있습니다. 가능하면 문제를 해결하기 위해 설정 앱의 올바른 위치로 직접 이동시킵니다. 
+Windows 장치를 사용하는 최종 사용자는 회사 포털 앱에서 비준수 이유를 탭할 수 있습니다. 가능하면 문제를 해결하기 위해 설정 앱의 올바른 위치로 직접 이동시킵니다.
 
 ### <a name="new-option-for-user-authentication-for-apple-bulk-enrollment----747625---"></a>Apple 대량 등록을 위한 새로운 사용자 인증 옵션 <!-- 747625 -->
 Intune은 다음 등록 방법에 대해 회사 포털 앱을 사용하여 장치를 인증하는 옵션을 제공합니다.
@@ -59,16 +59,16 @@ Intune은 최대 100개의 다른 Apple DEP(장비 등록 프로그램) 또는 A
 
 Graph를 통해 Apple DEP 또는 ASM을 관리하기 위한 베타 Graph API 및 게시된 스크립트는 마이그레이션 후 더 이상 작동하지 않습니다. 새 베타 Graph API가 개발 중이며 마이그레이션 후 릴리스될 예정입니다.
 
-### <a name="select-device-categories-by-using-the-access-work-or-school-settings----1058963-eeready---"></a>회사 또는 학교 액세스 설정을 사용하여 장치 범주 선택 <!-- 1058963 eeready --> 
+### <a name="select-device-categories-by-using-the-access-work-or-school-settings----1058963-eeready---"></a>회사 또는 학교 액세스 설정을 사용하여 장치 범주 선택 <!-- 1058963 eeready -->
 [장치 그룹 매핑](https://docs.microsoft.com/en-us/intune/device-group-mapping)을 사용하도록 설정한 경우, Windows 10의 사용자에게 **설정** > **계정** > **회사 또는 학교 액세스**의 **연결** 단추를 통해 등록한 후 또는 첫 실행 경험 중에 장치 범주를 선택하라는 메시지가 표시됩니다.
 
 ### <a name="targeting-compliance-policies-to-devices-in-device-groups---1307012---"></a>장치 그룹의 장치를 준수 정책의 대상으로 지정 <!--1307012 -->
 
-사용자 그룹의 사용자를 준수 정책의 대상으로 지정할 수 있습니다. 장치 그룹의 장치를 준수 정책의 대상으로 지정할 수 있습니다. 
+사용자 그룹의 사용자를 준수 정책의 대상으로 지정할 수 있습니다. 장치 그룹의 장치를 준수 정책의 대상으로 지정할 수 있습니다.
 
 ### <a name="including-and-excluding-app-assignment-based-on-groups----1406920---"></a>그룹에 따라 앱 할당 포함 및 제외 <!-- 1406920 -->
 
-앱 할당 중이나 할당 유형을 선택한 후 포함할 그룹과 제외할 그룹을 선택할 수 있습니다. 미리 생성된 그룹(모든 사용자, 모든 장치, 모든 사용자+장치)을 포함된 그룹으로 사용할 수도 있습니다.
+앱 할당 중이나 할당 유형을 선택한 후 포함할 그룹과 제외할 그룹을 선택할 수 있습니다.
 
 ### <a name="remote-erase-command-support----1438084---"></a>원격 "지우기" 명령 지원 <!-- 1438084 -->
 
@@ -93,7 +93,7 @@ Intune에서 WIP(Windows Information Protection) 학습 모드 확장을 도입�
 
 비준수 장치를 보고하기 위해 메일을 보낼 때 비준수 장치에 대한 세부 정보가 포함됩니다. [비준수에 대한 작업 자동화](#actions-for-noncompliance) 문서가 이 사실을 표시하기 위해 업데이트될 예정입니다.
 
-### <a name="conditional-access-policies-for-intune-is-only-available-from-the-azure-portal-----1737088-1634311---"></a>Intune에 대한 조건부 액세스 정책은 Azure Portal에서만 사용할 수 있음 <!-- 1737088 1634311 --> 
+### <a name="conditional-access-policies-for-intune-is-only-available-from-the-azure-portal-----1737088-1634311---"></a>Intune에 대한 조건부 액세스 정책은 Azure Portal에서만 사용할 수 있음 <!-- 1737088 1634311 -->
 조건부 액세스를 구성하고 관리하는 위치를 간소화할 예정입니다. [Azure Portal](https://portal.azure.com)의 **Azure Active Directory** > **조건부 액세스**에서 정책을 구성하고 관리합니다. 편의상, **Intune** > **조건부 액세스**를 통해 Azure Portal의 Intune에서 이 블레이드에 액세스할 수도 있습니다.
 
 ###  <a name="alerts-for-expired-tokens-and-tokens-that-will-soon-expire----1639263---"></a>만료된 토큰 및 곧 만료되는 토큰에 대한 경고 <!-- 1639263 -->
@@ -105,8 +105,11 @@ PrinterOn의 무선 모바일 인쇄 솔루션을 사용하면 사용자가 보�
 ### <a name="approve-the-company-portal-app-for-android-for-work---1797090---"></a>Android for Work용 회사 포털 앱 승인 <!--1797090 -->
 조직에서 Android for Work를 사용하는 경우 관리되는 Google Play 스토어에서 자동 업데이트를 계속 받으려면 Android용 회사 포털 앱을 수동으로 승인해야 합니다.
 
+### <a name="faceid-on-ios-devices----1807377---"></a>iOS 장치에서 FaceID <!-- 1807377 -->
+Intune 앱 보호 정책은 이제 iOS 장치에서 FaceID를 제어하는 설정을 지원 합니다. 이 설정은 FaceID 기능을 지원하는 장치를 위한 것입니다(현재 iPhone X만 해당). 이 설정은 현재 지원되는 TouchID 컨트롤과는 별개입니다. 조직은 TouchID 컨트롤 대신 FaceID를 유효한 PIN 프롬프트로 신뢰할지를 선택할 수 있습니다.
+
 ### <a name="microsoft-graph-api-for-intune---general-availability-----1833289---"></a>Intune용 Microsoft Graph API - 일반 공급 <!-- 1833289 -->
-Microsoft Graph의 Intune API를 사용하면 Intune 서비스의 관리 작업을 자동화하기 위한 데이터와 메서드를 프로그래밍 방식으로 액세스할 수 있습니다.  이러한 API가 **일반 공급**되므로 고객, 파트너 및 개발자는 이 API를 활용하여 Intune 또는 Microsoft Graph를 통해 사용할 수 있는 기타 Microsoft 서비스가 필요하거나 관련이 있는 사내 또는 상용 솔루션과 통합할 수 있습니다. 
+Microsoft Graph의 Intune API를 사용하면 Intune 서비스의 관리 작업을 자동화하기 위한 데이터와 메서드를 프로그래밍 방식으로 액세스할 수 있습니다.  이러한 API가 **일반 공급**되므로 고객, 파트너 및 개발자는 이 API를 활용하여 Intune 또는 Microsoft Graph를 통해 사용할 수 있는 기타 Microsoft 서비스가 필요하거나 관련이 있는 사내 또는 상용 솔루션과 통합할 수 있습니다.
 
 <!-- the following are present prior to 1801 -->
 
@@ -118,13 +121,6 @@ Intune 앱 보호 정책은 전체 테넌트의 모든 사용자에 대해 보�
 
 ### <a name="revoke-licenses-for-an-ios-volume-purchasing-program-token----820870---"></a>iOS Volume Purchasing Program 토큰에 대한 라이선스 철회 <!-- 820870 -->
 지정된 VPP 토큰에 대한 모든 iOS VPP(Volume-Purchase Program) 앱의 라이선스를 철회할 수 있습니다.
-
-### <a name="network-access-control-nac-device-check-in-reporting-----1232250---"></a>NAC(네트워크 액세스 제어) 장치 체크 인 보고 <!-- 1232250 -->
-이 변경을 수행하기 전에 IT 관리자는 Intune 쪽에서 NAC 관리 장치가 NAC 솔루션과 통신하는지 여부를 확인할 수 없습니다. NAC 관리 장치가 NAC 솔루션과 통신하지 않는 경우 장치는 NAC 솔루션에서 비준수로 간주하므로 NAC 솔루션 자체에서 차단되고 나중에 장치 준수 상태에 기반을 둔 조건부 액세스 정책에 의해 차단됩니다.
-
-이 변경을 수행하면 IT 관리자는 어떤 NAC 장치가 NAC 솔루션과 성공적으로 통신하는지 확인할 수 있습니다. 이 새로운 기능은 Intune 내의 장치 준수 워크로드에 있는 두 개의 새 모니터링 기능으로 구성되며 통계는 아래와 같이 표시됩니다.
-- **지난 1시간의 평균 NAC 호출**
-- **마지막 NAC 들어오는 요청(날짜/시간)**
 
 ### <a name="new-ios-device-action------1244701---"></a>새로운 iOS 장치 작업 <!-- 1244701 -->
 iOS 10.3 감독된 장치를 종료할 수 있습니다. 이 작업을 수행하면 최종 사용자에게 경고하지 않고 장치가 즉시 종료됩니다. **장치** 워크로드에서 장치를 선택하면 장치 속성에서 **시스템 종료(감독 모드인 경우에만)** 작업을 찾을 수 있습니다.
@@ -185,6 +181,14 @@ Intune은 Android 플랫폼과는 독립적으로 Android for Work 장치의 등
 ### <a name="configure-an-ios-app-pin----1586774---"></a>iOS 앱 PIN 구성 <!-- 1586774 -->
 곧 사용자는 대상 iOS 앱에 대한 PIN이 필요하게 됩니다. Azure Portal을 통해 며칠 내에 PIN 요구 사항 및 만료 날짜를 구성할 수 있습니다. 필요한 경우 사용자는 iOS 앱에 대한 액세스를 얻기 전에 새 PIN을 설정 및 사용해야 합니다. Intune 앱 SDK와 함께 앱 보호가 설정된 iOS 앱만 이 기능을 지원합니다.
 
+### <a name="user-experience-update-for-the-company-portal-app-for-ios---1412866--"></a>iOS용 회사 포털 앱의 사용자 환경 업데이트 <!--1412866-->
+
+iOS용 회사 포털 앱에 대한 주요 사용자 환경 업데이트를 출시합니다. 이 업데이트는 사용성 및 접근성이 향상된 최신 모양과 느낌이 포함된 완전한 시각적 재설계를 특징으로 합니다. 현재 모든 iOS 회사 포털 기능이 유지됩니다.
+
+사용자가 사용하고 피드백으로 제공할 수 있도록, Apple TestFlight 프로그램을 통해 iOS용 회사 포털 앱의 업데이트된 시험판 버전을 제공하고 있습니다. TestFlight를 사용하려면 https://aka.ms/intune_ios_cp_testflight에서 등록합니다. 
+
+![새 ios 회사 포털 앱에 대한 티저(teaser) 이미지](./media/ios-cp-app-redesign-1801-teaser.png)
+
 
 <!-- the following are present prior to 1711 -->
 
@@ -204,10 +208,6 @@ Windows 10 장치를 Windows 10 Education, Windows 10 Education N, Windows 10 Pr
 
 <!-- the following are present prior to 1709 -->
 
-
-
-### <a name="android-for-work-support-for-lookout----1087312---"></a>Android for Work의 Lookout 지원 <!-- 1087312 -->   
-Lookout for Work 앱 사용 시 Lookout이 설치된 Intune 커넥터가Android for Work 장치를 지원할 예정입니다. 그러면 컨테이너 내부 또는 외부에서 Lookout 앱을 배포할 수 있습니다.
 
 ### <a name="intune-app-protection-and-citrix-mdx-development-tools----709185---"></a>Intune 앱 보호 및 Citrix MDX 개발 도구<!-- 709185 -->
 Citrix XenMobile MDX와 Microsoft Intune의 조합으로 장치와 앱을 관리할 수 있습니다. 이 옵션을 사용하면 Citrix의 mVPN 기술을 사용하면서 Intune 앱 보호 정책으로 앱을 관리할 수 있습니다.

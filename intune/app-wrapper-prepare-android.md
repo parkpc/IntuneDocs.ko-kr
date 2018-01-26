@@ -14,11 +14,11 @@ ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a691786ce2ee975086899844b285a91f676aa71f
-ms.sourcegitcommit: e76dbd0882526a86b6933ace2504f442e04de387
+ms.openlocfilehash: 1673fa1e9c580c1554537530341f87b1580e79eb
+ms.sourcegitcommit: 53d272defd2ec061dfdfdae3668d1b676c8aa7c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="prepare-android-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 앱 보호 정책에 대해 Android 앱 준비
 
@@ -81,7 +81,7 @@ Android용 Microsoft Intune 앱 래핑 도구를 사용하여 해당 앱 코드�
 |속성|정보 산업|예제|
 |-------------|--------------------|---------|
 |**-InputPath**&lt;String&gt;|원본 Android 앱(.apk)의 경로입니다.| |
-|**-OutputPath**&lt;String&gt;|출력 Android 앱의 경로입니다. InputPath와 동일한 디렉터리 경로일 경우 패키징이 실패합니다.| |
+ |**-OutputPath**&lt;String&gt;|출력 Android 앱의 경로입니다. InputPath와 동일한 디렉터리 경로일 경우 패키징이 실패합니다.| |
 |**-KeyStorePath**&lt;String&gt;|서명을 위한 공개/개인 키 쌍이 포함된 키 저장소 파일의 경로입니다.|기본적으로 키 저장소 파일은 "C:\Program Files (x86)\Java\jreX.X.X_XX\bin"에 저장됩니다. |
 |**-KeyStorePassword**&lt;SecureString&gt;|키 저장소를 해독하는 데 사용되는 암호입니다. Android에서는 모든 응용 프로그램 패키지(.apk)가 서명되어야 합니다. Java keytool을 사용하여 KeyStorePassword를 생성합니다. 여기에서 Java [KeyStore](https://docs.oracle.com/javase/7/docs/api/java/security/KeyStore.html)(키 저장소)에 대해 자세히 읽으세요.| |
 |**-KeyAlias**&lt;String&gt;|서명에 사용할 키의 이름입니다.| |
@@ -115,7 +115,7 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 
 ## <a name="how-often-should-i-rewrap-my-android-application-with-the-intune-app-wrapping-tool"></a>Intune 앱 줄 바꿈 도구를 사용하여 Android 응용 프로그램을 얼마나 자주 다시 줄 바꿈해야 합니까?
 응용 프로그램을 다시 줄 바꿈해야 하는 주요 시나리오는 다음과 같습니다.
-* 응용 프로그램 자체가 새 버전을 릴리스했습니다.
+* 응용 프로그램 자체가 새 버전을 릴리스했습니다. 이전 버전의 앱이 래핑되어 Intune 콘솔에 업로드되었습니다.
 * Android용 Intune 앱 줄 바꿈 도구는 주요 버그 수정 또는 새로운 특정 Intune 응용 프로그램 보호 정책 기능을 사용할 수 있는 새 버전을 릴리스했습니다. 이는 [Android용 Microsoft Intune 앱 줄 바꿈 도구](https://github.com/msintuneappsdk/intune-app-wrapping-tool-android)에 대한 GitHub 리포지토리를 통해 6-8주마다 발생합니다.
 
 다시 줄 바꿈하기 위한 몇 가지 모범 사례는 다음과 같습니다. 
@@ -144,6 +144,32 @@ Android의 경우 Android 장치에 설치하려면 유효한 인증서로 모�
 -   응용 프로그램이 신뢰할 수 있는 소스에서 오는지 확인합니다.
 
 -   래핑된 앱을 포함하고 있는 출력 디렉터리를 보호합니다. 출력에 대한 사용자 수준 디렉터리를 사용하는 것이 좋습니다.
+
+## <a name="requiring-user-login-prompt-for-an-automatic-app-we-service-enrollment-requiring-intune-app-protection-policies-in-order-to-use-your-wrapped-android-lob-app-and-enabling-adal-sso-optional"></a>자동 APP-WE 서비스 등록을 위한 사용자 로그인 프롬프트 필요, 래핑된 Android LOB 앱을 사용하기 위한 Intune 앱 보호 정책 필요, ADAL SSO을 사용하도록 설정(선택 사항)
+
+다음은 자동 APP-WE 서비스 등록(이 섹션에서는 **기본값 등록**이라고 함)을 위해 앱 시작 시 사용자 프롬프트를 요구하는 것에 관한 지침으로, Intune 보호 사용자만 래핑된 Android LOB 앱을 사용할 수 있도록 허용하는 Intune 앱 보호 정책을 요구합니다. 또한 래핑된 Android LOB 앱에 SSO를 사용하는 방법에 관해서도 설명합니다. 
+
+> [!NOTE] 
+> **기본값 등록**의 이점에는 장치의 앱에 관한 APP-WE 서비스에서 정책을 얻는 단순화된 방법이 포함됩니다.
+
+### <a name="general-requirements"></a>일반 요구 사항
+* Intune SDK 팀은 앱의 응용 프로그램 ID를 필요로 합니다. ID는 [Azure Portal](https://portal.azure.com/)을 통해 확인할 수 있으며 **모든 응용 프로그램** 아래 **응용 프로그램 ID** 열에 나와 있습니다. Intune SDK 팀에는 이메일(msintuneappsdk@microsoft.com)을 통해 연락하는 것이 좋습니다.
+     
+### <a name="working-with-the-intune-sdk"></a>Intune SDK 사용
+이러한 지침은 최종 사용자 장치에서 사용하기 위해 Intune 앱 보호 정책을 요구하려는 모든 Android 및 Xamarin 앱에만 적용됩니다.
+
+1. [Android 가이드용 Intune SDK](https://docs.microsoft.com/en-us/intune/app-sdk-android#configure-azure-active-directory-authentication-library-adal)에 정의된 단계에 따라 ADAL을 구성합니다.
+> [!NOTE] 
+> 앱에 연결된 “클라이언트 ID”라는 용어는 앱에 연결된 Azure Portal의 “응용 프로그램 ID”라는 용어와 같습니다. 
+* SSO를 사용하려면 “일반적인 ADAL 구성” #2가 필요합니다.
+
+2. 매니페스트에 다음 값을 입력하여 기본 등록을 사용합니다. ```xml <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />```
+> [!NOTE] 
+> 이것은 앱에서 유일한 MAM-WE 통합이어야 합니다. MAMEnrollmentManager API를 호출하려는 다른 시도가 있으면 충돌이 발생할 수 있습니다.
+
+3. 매니페스트에 다음 값을 입력하여 필요한 MAM 정책을 설정합니다. ```xml <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />```
+> [!NOTE] 
+> 이렇게 하면 사용자는 장치에 회사 포털을 다운로드하고 사용하기 전에 기본 등록 절차를 완료해야 합니다.
 
 ### <a name="see-also"></a>참고 항목
 - [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](apps-prepare-mobile-application-management.md)

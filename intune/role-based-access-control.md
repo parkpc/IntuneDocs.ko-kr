@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 06/21/2017
+ms.date: 01/17/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: ca3de752-3caa-46a4-b4ed-ee9012ccae8e
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 99af53b3b22d0ed0196ee3dcd7af91a972f1f0be
-ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
+ms.openlocfilehash: 87a921d02b4564a30d6bab0009b82d29a5252680
+ms.sourcegitcommit: 53d272defd2ec061dfdfdae3668d1b676c8aa7c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="role-based-administration-control-rbac-with-intune"></a>Intune을 통한 RBAC(역할 기반 관리 제어)
 
@@ -61,6 +61,18 @@ RBAC를 사용하면 조직 내에서 다양한 Intune 작업을 수행할 수 �
 - **정책 및 프로필 관리자**: 준수 정책, 구성 프로필, Apple 등록 및 회사 장치 식별자를 관리합니다.
 - **읽기 전용 운영자**: 사용자, 장치, 등록, 구성 및 응용 프로그램 정보를 확인할 수 있습니다. Intune을 변경할 수 없습니다.
 - **응용 프로그램 관리자**: 모바일 및 관리되는 응용 프로그램을 관리하며, 장치 정보를 읽을 수 있습니다.
+- **학교 관리자**: [Intune for Education](introduction-intune-education.md)에서 Window 10 장치를 관리하고 다음 작업을 수행할 수 있습니다: 
+
+|권한|작업|
+|---|---|
+|감사 데이터|읽기|
+|DeviceConfigurations|할당, 만들기, 삭제, 읽기, 업데이트|
+|장치 등록 관리자|읽기, 업데이트|
+|관리 장치|읽기, 업데이트<!--, Delete [To be added in 1803]-->|
+|모바일 앱|할당, 만들기, 삭제, 읽기, 업데이트|
+|보고서|읽기|
+|원격 작업|PC 정리, 재부팅, 원격 잠금, 사용 중지, 장치 동기화, 초기화|
+|조직|읽기|
 
 ### <a name="to-assign-a-built-in-role"></a>기본 제공 역할을 할당하려면
 
