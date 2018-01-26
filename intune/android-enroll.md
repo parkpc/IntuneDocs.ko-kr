@@ -15,11 +15,11 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7877d0bb6ba7a9c9d51cd261a7f1fbf555f88961
-ms.sourcegitcommit: 0795870bfe941612259ebec0fe313a783a44d9b9
+ms.openlocfilehash: 632a5b2a5f6f5188ef034bdcff927af6a7fe1a59
+ms.sourcegitcommit: 53d272defd2ec061dfdfdae3668d1b676c8aa7c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="enroll-android-devices"></a>Android 장치 등록
 
@@ -58,7 +58,7 @@ Android 장치를 차단하거나 등록에서 개인적으로 소유한 Android
    ![Android for Work 바인딩을 구성할 링크가 표시된 스크린샷](./media/android-work-bind.png)
 
    b. **Google에 로그인**<br>
-   Google의 로그인 페이지에서 이 테넌트에 대한 모든 Android for Work 관리 작업과 연결할 Google 계정을 입력합니다. Play for Work 콘솔에서 앱을 관리 및 게시하기 위해 귀사의 IT 관리자가 공유하는 Google 계정입니다.
+   Google의 로그인 페이지에서 이 테넌트에 대한 모든 Android for Work 관리 작업과 연결할 Google 계정을 입력합니다. Play for Work 콘솔에서 앱을 관리 및 게시하기 위해 귀사의 IT 관리자가 공유하는 Google 계정입니다. 기존 Google 계정을 사용하거나 새 계정을 만들 수 있습니다.  선택한 계정이 G-Suite 도메인과 연결되어서는 안 됩니다.
 
    c. **조직 세부 정보 제공**<br>
    **조직 이름**에 회사 이름을 제공합니다. **EMM(엔터프라이즈 이동성 관리) 공급자**의 경우 **Microsoft Intune**이 나타나야 합니다. Android for Work 계약에 동의하고 **확인**을 선택합니다. 요청이 처리됩니다.
