@@ -5,7 +5,7 @@ description: "iOS 장치에서 교실 앱에 대한 설정을 제어하는 데 �
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 06/28/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 1381a5ce-c743-40e9-8a10-4c218085bb5f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9b24ee84d339b728addd753cb309b4d8572e5582
-ms.sourcegitcommit: e5501cdf08d3e79bc51dc726697606be02110e57
+ms.openlocfilehash: c183af24e953f87e12e87654f767dd9a30f8509f
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-configure-intune-education-settings-for-shared-ipad-devices"></a>공유 iPad 장치에 대한 Intune 교육 설정을 구성하는 방법
 

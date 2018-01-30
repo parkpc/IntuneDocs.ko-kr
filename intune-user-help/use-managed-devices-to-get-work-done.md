@@ -1,26 +1,27 @@
 ---
-title: "관리되는 장치를 사용하여 작업 완료 | Microsoft Docs"
+title: "관리되는 장치를 사용하여 작업 완료 | Microsoft 문서"
 description: "Intune에서 장치를 관리에 등록한다는 것이 무엇을 의미하는지 이해합니다."
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 12/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 523caa6b-d792-4bb6-bddb-24b2479932d8
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: robstack
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 599da7c664c139eac472c8d9ec2e418c01eeaeb4
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 28e455230213da30fcf371a29b4862982f1a514b
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="use-managed-devices-to-get-work-done"></a>관리되는 장치를 사용하여 작업 완료
 Microsoft Intune은 조직에서 장치(예: 스마트폰, 태블릿 및 PC), 앱 및 기타 회사 리소스(예: 메일)를 관리하는 데 사용할 수 있는 일종의 소프트웨어입니다. 이를 통해 회사 정보의 보안을 유지하면서 직원이 거의 모든 장치에서 어디서나 자신의 작업 정보에 액세스하도록 할 수 있습니다.
