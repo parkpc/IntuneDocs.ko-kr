@@ -4,23 +4,24 @@ description:
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ecd0628a-3c8a-4d6b-8985-1641dd24132b
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ce2404fd5e26c00a6a9ced83bc6501e2074bffce
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 7e319ec97e07861c8806408431529060d74eb980
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="sync-your-device-with-the-company-portal-website"></a>회사 포털 웹 사이트와 장치 동기화
 
@@ -29,7 +30,7 @@ ms.lasthandoff: 07/01/2017
 > [!Note]
 > 현재는 일부 장치에 대해서만 동기화 기능이 제공됩니다. 장치가 동기화 대상 목록에 없으면 Wi-Fi를 약 30초 정도 끄고 장치를 다시 설정한 다음 네트워크에 다시 연결해 보세요.
 
-* [Android](sync-your-device-manually-ios.md)
+* [iOS](sync-your-device-manually-ios.md)
 * [Windows 10 Mobile](sync-your-device-manually-windows.md#windows-10-mobile)
 * [Windows 10 Desktop](sync-your-device-manually-windows.md#windows-10-desktop)
 * [Windows Phone 8.1](sync-your-device-manually-windows.md#windows-phone-81)

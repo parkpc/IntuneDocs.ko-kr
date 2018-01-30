@@ -5,7 +5,7 @@ description: "Windows 10 사용자 지정 프로필에서 사용할 수 있는 �
 keywords: 
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 05/09/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 7bcea136-7260-4042-b21b-c7dab86b380d
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0758aed9672c4d1279c5deb24e23beea728df81d
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 7101c489c0418b98be3224888a8473a77192ce0f
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="custom-device-settings-for-windows-10-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 장치에 대한 사용자 지정 장치 설정
 
@@ -46,7 +46,7 @@ ms.lasthandoff: 12/12/2017
 5. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 아래 스크린샷에서는 **Connectivity/AllowVPNOverCellular** 설정을 사용하도록 설정되어 있습니다. 따라서 Windows 10 장치는 셀룰러 네트워크에서 VPN 연결을 열 수 있습니다.
 
 > ![VPN 설정을 포함하는 사용자 지정 정책의 예](./media/custom-policy-example.png)
