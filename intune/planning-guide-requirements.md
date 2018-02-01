@@ -4,7 +4,7 @@ description: "이 문서의 정보를 활용하여 Microsoft Intune 클라우드
 keywords: 
 author: arob98
 ms.author: angrobe
-manager: angrobe
+manager: dougeby
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.assetid: fd8cb5f7-19f0-4d80-8825-2bafa49624af
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 65a1fb8fb41fa8d9f3e707c73bf752a997a8a1a1
-ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
+ms.openlocfilehash: 7f4f080201d1a089a8ae10a6acf81c0c28fa33c9
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="determine-use-case-scenario-requirements"></a>사용 사례 시나리오 요구 사항 확인
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/01/2017
 
 다음은 조직 사용 사례 요구 사항의 몇 가지 예로, 각 사용 사례 및 하위 사용 사례 시나리오, 조직 그룹 및 모바일 장치 플랫폼에 대한 다양한 요구 사항 집합이 나와 있습니다. 아래 표를 사용하여 조직의 사용 사례 요구 사항을 입력할 수도 있습니다.
 
-| **사용 사례** | **하위 사용 사례** | **그룹** | **장치 플랫폼** | **Requirements** |
+| **사용 사례** | **하위 사용 사례** | **그룹** | **장치 플랫폼** | **요구 사항** |
 |:---:|:---:|:---:|:---:|:---:|
 | 회사 | 정보 근로자 | HR, 재무 | iOS | 보안 전자 메일, 장치 설정, 프로필, 앱 |                                                          
 | 회사 | 임원 | HR, 재무 | iOS | 보안 전자 메일, 장치 설정, 프로필, 앱 |                                                         

@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9707858ba2b0462edade4847dba09404a895fb34
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: b289e69d834d43d29725a32c48b3ca0a19ee07ec
+ms.sourcegitcommit: 638c9cd14c813670c1bd678826ca4308dfc9876e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="android-app-protection-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 Android 앱 보호 정책 설정
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/10/2017
 
 ##  <a name="data-relocation-settings"></a>데이터 재배치 설정
 
-| 설정 | 사용 방법 | 기본값 |
+| Setting | 사용 방법 | 기본값 |
 |------|------|------|
 | **Android 백업 차단** | 이 앱에서 회사 또는 학교 데이터를 [Android 백업 서비스](https://developer.android.com/google/backup/index.html)로 백업하지 않도록 하려면 **예**를 선택하고 이 앱에서 회사 또는 학교 데이터를 백업할 수 있도록 하려면 **아니요**를 선택합니다.| 예 |
 | **앱이 다른 앱으로 데이터를 전송하도록 허용** | 이 앱에서 데이터를 받을 수 있는 앱을 지정합니다. <ul><li> **정책 관리 앱**: 다른 정책 관리 앱으로만 데이터를 전송하도록 허용합니다.</li> <li>**모든 앱**: 모든 앱으로의 전송을 허용합니다. </li> <li>**없음**: 다른 정책 관리 앱을 포함한 모든 앱에 대한 데이터 전송을 허용하지 않습니다.</li></ul> <p>예외적으로 intune에서 데이터를 전송할 수 있는 몇 가지 앱 및 서비스가 있습니다. 전체 앱 및 서비스 목록은 [데이터 전송 예외](#Data-transfer-exemptions)를 참조하세요.| 모든 앱 |
@@ -48,7 +48,7 @@ ms.lasthandoff: 10/10/2017
 
   ## <a name="data-transfer-exemptions"></a>데이터 전송 예외
 
-  Intune 앱 보호 정책에서 데이터 송수신을 허용할 수 있는 예외적인 앱 및 플랫폼 서비스가 일부 있습니다. 예를 들어 Android의 모든 Intune 지원 앱이 Google 텍스트 음성 변환 서비스로 데이터를 전송하고 이 서비스에서 데이터를 전송받을 수 있어야 모바일 장치 화면의 텍스트를 소리 내어 읽어주는 기능을 사용할 수 있습니다. 이 목록은 변경될 수 있으며 생산성 보장에 유용한 서비스 및 앱을 나타냅니다.
+  Intune 앱 보호 정책에서 데이터 송수신을 허용할 수 있는 예외적인 앱 및 플랫폼 서비스가 일부 있습니다. 예를 들어 Android의 모든 Intune 관리 앱이 Google 텍스트 음성 변환 서비스로 데이터를 전송하고 이 서비스에서 데이터를 전송받을 수 있어야 모바일 장치 화면의 텍스트를 소리 내어 읽어주는 기능을 사용할 수 있습니다. 이 목록은 변경될 수 있으며 생산성 보장에 유용한 서비스 및 앱을 나타냅니다.
 
   ### <a name="full-exemptions"></a>완전 예외
 
@@ -80,7 +80,7 @@ ms.lasthandoff: 10/10/2017
 
 ##  <a name="access-settings"></a>액세스 설정
 
-| 설정 | 사용 방법 | 기본값 |
+| Setting | 사용 방법 | 기본값 |
 |------|------|------|
 | **액세스하려면 PIN 필요** | 이 앱을 사용하는 데 PIN을 요구하려면 **예**를 선택합니다. 회사 또는 학교 컨텍스트에서 앱을 처음으로 실행할 때 이 PIN을 설정하라는 메시지가 표시됩니다. 기본값은 **예**입니다.<br><br> PIN 강도에 대한 다음 설정을 구성합니다. <ul><li>**PIN 초기화 전 시도 횟수**: 초기화하기 전까지 PIN을 성공적으로 입력하기 위해 시도할 수 있는 횟수를 지정합니다. 기본값 = **5**.</li><li> **단순한 PIN 허용**: 1234 또는 1111과 같은 단순한 PIN 시퀀스를 사용할 수 있도록 허용하려면 **예**를 선택합니다. 단순한 순서를 사용하는 것을 방지하려면 **아니요**를 선택합니다. 기본값은 **예**입니다. </li><li> **PIN 길이**: PIN 시퀀스의 최소 자릿수를 지정합니다. 기본값은 **4**입니다. </li><li> **PIN 대신 지문 허용(Android 6.0 이상)**: 앱 액세스에 PIN 대신 [지문 인증](https://developer.android.com/about/versions/marshmallow/android-6.0.html#fingerprint-authentication)을 사용하도록 허용하려면 **예**를 선택합니다. 기본값은 **예**입니다.</li></ul> Android 장치에서 PIN 대신 [Android 지문 인증](https://developer.android.com/about/versions/marshmallow/android-6.0.html#fingerprint-authentication)을 사용하여 ID를 증명하도록 허용할 수 있습니다. 회사 또는 학교 계정으로 이 앱을 열려고 하면 PIN을 입력하는 대신 해당 지문 ID를 제공하라는 메시지가 표시됩니다. </li></ul>| PIN 필요: 예 <br><br> PIN 초기화 시도 횟수: 5 <br><br> 단순한 PIN 허용: 예 <br><br> PIN 길이: 4 <br><br> 지문 허용: 예 |
 | **액세스 시 회사 자격 증명 필요** | 앱 액세스에 PIN을 입력하는 대신 해당 회사 또는 학교 계정으로 로그인하도록 요구하려면 **예**를 선택합니다. 이 옵션을 **예**로 설정하면 PIN 또는 터치 ID에 대한 요구 사항이 재정의됩니다.  | 아니요 |

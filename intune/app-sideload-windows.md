@@ -4,7 +4,7 @@ description: "Intune을 사용하여 LOB(기간 업무) 앱을 배포할 수 있
 keywords: 
 author: erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 06/07/2017
 ms.topic: article
 ms.prod: 
@@ -12,11 +12,11 @@ ms.service:
 ms.technology: 
 ms.assetid: e44f1756-52e1-4ed5-bf7d-0e80363a8674
 ms.custom: intune-classic
-ms.openlocfilehash: d6b66c44b1c6b5b5977d7a26d279c32eb39ff7ff
-ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
+ms.openlocfilehash: f94e95ec93ba98c55ca69ee5ef59cd20d16eff37
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="sign-line-of-business-apps-so-they-can-be-deployed-to-windows-devices-with-intune"></a>Intune으로 Windows 장치에 기간 업무 앱을 배포할 수 있도록 앱에 서명
 
@@ -46,11 +46,11 @@ Intune 관리자는 회사 포털 앱을 비롯한 LOB(기간 업무) 앱을 Win
     ![Symantec 인증서 찾기](./media/wit.gif)
 
 5. **서명 인증서 내보내기**<br>
-    인증서가 있는 것을 확인했으면 .pfx 파일을 내보내 회사 포털에 서명할 수 있습니다. **용도**가 "코드 서명"인 Symantec 인증서를 선택합니다. 코드 서명 인증서를 마우스 오른쪽 단추로 클릭하고 **내보내기**를 선택합니다.
+    인증서가 있는 것을 확인했으면 .pfx 파일을 내보내 회사 포털에 서명할 수 있습니다. **용도** 가 "코드 서명"인 Symantec 인증서를 선택합니다. 코드 서명 인증서를 마우스 오른쪽 단추로 클릭하고 **내보내기**를 선택합니다.
 
     ![서명 인증서 내보내기](./media/wit-walk-cert2.gif)
 
-    **인증서 내보내기 마법사**페이지에서 **예, 개인 키를 내보냅니다.** 를 선택하고 **다음**을 클릭합니다. **개인 정보 교환 –PKCS #12(.PFX)** 를 선택하고 **가능하면 인증 경로에 있는 인증서 모두 포함**을 선택합니다. 마법사를 완료합니다. 자세한 내용은 [개인 키와 함께 인증서 내보내기](http://go.microsoft.com/fwlink/?LinkID=203031)를 참조하세요.
+    **인증서 내보내기 마법사**페이지에서 **예, 개인 키를 내보냅니다.** 를 클릭하고 **다음**을 클릭합니다. **개인 정보 교환 –PKCS #12(.PFX)** 를 선택하고 **가능하면 인증 경로에 있는 인증서 모두 포함**을 선택합니다. 마법사를 완료합니다. 자세한 내용은 [개인 키와 함께 인증서 내보내기](http://go.microsoft.com/fwlink/?LinkID=203031)를 참조하세요.
 
 6.  **앱을 Intune에 업로드**<br>
     서명한 앱 파일 및 코드 서명 인증서를 업로드하여 최종 사용자가 앱을 사용할 수 있도록 합니다.

@@ -5,7 +5,7 @@ description: "Android for Work 장치에 대한 Intune 사용자 지정 프로�
 keywords: 
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 04/12/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 4724d6e5-05e5-496c-9af3-b74f083141f8
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f12d71b9477e3072b7952d3f9331ed0cefc33ac7
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 54365f03df39d879583bd8806b5cc6513a8c4dfb
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="create-intune-custom-profile-settings-for-android-for-work-devices"></a>Android for Work 장치에 대한 Intune 사용자 지정 프로필 설정 만들기
 
@@ -40,7 +40,7 @@ Intune Android for Work 사용자 지정 구성 정책을 사용하여 Android f
 4. 완료되면 확인을 선택하여 **사용자 지정 OMA-URI 설정**으로 돌아간 다음 설정을 더 추가하거나, **만들기**를 선택하여 사용자 지정 프로필을 만듭니다.
 
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 이 예에서는 관리되는 Android for Work 장치에서 회사와 개인 앱 간에 복사 및 붙여넣기 작업을 허용할지 여부를 제한하는 데 사용할 수 있는 사용자 지정 프로필을 만들겠습니다.
 

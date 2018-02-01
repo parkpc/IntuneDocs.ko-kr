@@ -5,7 +5,7 @@ description: "iOS 장치에서 홈 화면과 Dock를 사용자 지정하는 데 
 keywords: 
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 07/03/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 6aba4491-afb9-43cd-9ccc-14e6a2a5a3b1
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0dcc8f5509afa5308f8ae91a3d60ee081d5daa0b
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 2e4de4f4b1235136d7391c8d9efdc1405043e4da
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="intune-home-screen-layout-settings-for-ios-devices"></a>iOS 장치용 Intune 홈 화면 레이아웃 설정
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 12/12/2017
 >[!TIP]
 > 항목을 홈 화면과 페이지 목록에 끌어서 놓고, 항목을 다시 정렬할 수도 있습니다. 
 
-### <a name="example"></a>예
+### <a name="example"></a>예제
 
 이 예제에서는 Safari, Mail 및 Stocks 앱만 표시되도록 Dock 화면을 구성했습니다. 다음 이미지에서 속성을 설명하기 위해 Mail 앱이 선택되었습니다.
 

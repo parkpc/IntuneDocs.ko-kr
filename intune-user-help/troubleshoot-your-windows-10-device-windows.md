@@ -4,23 +4,24 @@ description:
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 07/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4ab630b6-47ff-443b-a2a5-be23388bcea7
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 7160f58f60624815137e2990bd06188edd4ede81
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 936a336019c37fb5ae5f7ef8f5b1201faee553fc
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="troubleshoot-your-windows-10-device-enrollment"></a>Windows 10 장치 등록 문제 해결
 [Intune에서 Windows 10 Mobile 또는 Windows 10 데스크톱 장치 등록](enroll-your-w10-phone-or-w10-pc-windows.md)의 단계를 수행했지만 여전히 회사 또는 학교 전자 메일/파일에 액세스할 수 없다면 다음 문제 해결 단계를 시도하세요.

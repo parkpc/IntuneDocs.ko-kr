@@ -4,7 +4,7 @@ description: "이 항목의 정보를 사용하여 앱 자체의 코드를 수�
 keywords: 
 author: erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 01/18/2018
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: dc031b12ed49766c70a6a4ff373a7c5843ca21ad
-ms.sourcegitcommit: 1a390b47b91e743fb0fe82e88be93a8d837e8b6a
+ms.openlocfilehash: 4925fc86596437d0560bd7fa2598eaf95126df16
+ms.sourcegitcommit: cede2e15bd62f1073131fbc9af7623cdfc3730cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/26/2018
 ---
 # <a name="prepare-ios-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 앱 보호 정책에 대해 iOS 앱 준비
 
@@ -175,6 +175,9 @@ Intune에서 래핑된 앱을 배포하려면 다음과 같은 항목이 필요�
 3. **동의**를 선택하여 EULA에 동의하면 패키지가 컴퓨터에 탑재됩니다.
 
 4.  **IntuneMAMPackager** 폴더를 열고 폴더 내용을 macOS 컴퓨터에 저장합니다. 이제 앱 래핑 도구를 실행할 수 있습니다.
+
+> [!NOTE]
+> Intune MAM Packager를 macOS 컴퓨터에 별도로 탑재할 수 있으며 래핑 명령을 실행하면 "파일을 찾을 수 없습니다" 오류가 발생할 수 있습니다. 따라서 IntuneMAMPackager 폴더의 내용을 이동하면 래핑하는 동안 패키지 경로를 찾을 수 있습니다.
 
 ## <a name="run-the-app-wrapping-tool"></a>앱 래핑 도구 실행
 

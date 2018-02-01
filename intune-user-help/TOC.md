@@ -30,6 +30,7 @@
 #### [장치 준수 확인](check-compliance-on-your-device-android.md)
 #### [배터리 절약 모드로 Outlook 전자 메일 동기화](power-saving-mode-android.md)
 #### [Samsung Knox의 일반적인 문제 해결](samsung-knox-errors-android.md)
+#### [장치를 업데이트하여 Outlook 설치](update-device-outlook-android.md)
 
 #### 로그를 사용하여 문제 해결
 ##### [자세한 정보 로깅 설정](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
@@ -85,6 +86,7 @@
 #### [장치 식별](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md)
 #### [일련 번호 찾기](how-do-i-find-the-serial-number-on-my-device-ios.md)
 #### [iOS 장치 업데이트](you-need-to-update-your-ios-device.md)
+#### [장치를 업데이트하여 Outlook 설치](update-device-outlook-ios.md)
 #### [내 iOS 버전이 아직 지원되지 않음](your-ios-version-isnt-yet-supported.md)
 
 ### Mobile Threat Defense

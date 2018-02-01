@@ -4,7 +4,7 @@ description: "이 문서의 정보를 활용하여 Microsoft Intune 클라우드
 keywords: 
 author: arob98
 ms.author: angrobe
-manager: angrobe
+manager: dougeby
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.assetid: a8e38e29-f5e3-4a71-a170-d3b1a06e37c6
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: 
-ms.openlocfilehash: bd8f3372f3546b5fba20a253611e382f780b3236
-ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
+ms.openlocfilehash: 38cae4b0726d4ad96c243dd87ea2581a691da306
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="create-a-design"></a>설계 만들기
 
@@ -349,7 +349,7 @@ Intune을 사용하여 여러 방법으로 사용자 또는 장치에 앱을 제
 
 -   [비즈니스용 iOS VPP(대량 구매 프로그램)](vpp-apps-ios.md)
 
--   [비즈니스용 Windows 스토어 앱](windows-store-for-business.md)
+-   [비즈니스용 Microsoft 스토어 앱](windows-store-for-business.md)
 
 #### <a name="app-type-requirements"></a>앱 유형 요구 사항
 

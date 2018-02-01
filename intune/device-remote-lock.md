@@ -5,8 +5,8 @@ description: "Intune을 사용하여 관리하는 장치를 원격으로 잠그�
 keywords: 
 author: arob98
 ms.author: angrobe
-manager: angrobe
-ms.date: 11/21/2017
+manager: dougeby
+ms.date: 01/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 3b67f285-229d-4a0f-ae34-0402a20b4518
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 45d27b709ba8d4ff1d8fb4417a217ad008c19c36
-ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
+ms.openlocfilehash: ecd7fa03b35e91b5a77906858fb251348796704d
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="remotely-lock-managed-devices-with-intune"></a>Intune을 사용하여 관리 장치 원격 잠금
 
@@ -29,14 +29,19 @@ ms.lasthandoff: 01/12/2018
 
 ## <a name="supported-platforms"></a>지원되는 플랫폼
 
-- Windows - 지원되지 않음
-- Windows Phone - Windows Phone 8.1 이상에서 지원됨
-- iOS - 지원됨
-- macOS - 지원됨
+원격 잠금은 다음 플랫폼에서 지원됩니다.
 
-    > [!Note]  
-    > 6자리 복구 PIN을 설정합니다. 잠기면 **장치 개요** 블레이드에 다른 장치 작업이 전송될 때까지 PIN이 표시됩니다.
-- Android - 지원됨
+|플랫폼|지원 상태|
+|---|---|
+|Android|예|
+|iOS|예|
+|macOS|예|
+|Windows 10|예|
+|Windows 10 Mobile|예|
+|Windows Phone|Windows Phone 8.1 이상 지원|
+
+> [!NOTE]  
+> macOS 장치의 경우 6자리 복구 PIN을 설정합니다. 잠기면 **장치 개요** 블레이드에 다른 장치 작업이 전송될 때까지 PIN이 표시됩니다.
 
 ## <a name="how-to-remote-lock-a-device"></a>장치를 원격으로 잠그는 방법
 

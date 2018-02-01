@@ -5,7 +5,7 @@ description: "장치 준수 정책을 모니터링하는 방법을 알아봅니�
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 03/10/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 503d1dd2-a647-4aea-bf48-55319a3dd8a7
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4b293ff41af58d4ab41a8477219939b13ffe361c
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 999cb6a9ec37c42b216cda1f6963bbd61ec8fa66
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="monitor-intune-device-compliance-policies"></a>Intune 장치 준수 정책 모니터링
 
@@ -115,7 +115,7 @@ Intune에 등록된 모든 장치에 대해 준수 상태 집계를 보여 주�
 
     -   유예 기간에
 
-    -   알 수 없음
+    -   Unknown
 
     -   오류
 

@@ -4,23 +4,24 @@ description:
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
-ms.date: 02/23/2017
+manager: dougeby
+ms.date: 01/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: adc6af23-b22f-42e5-955a-4dffbdb8b42b
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: f5c2536e4566baa2661b77f5574085410784a787
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 3926b64bacb1acde29146aed9d3030729e8b9b17
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="remotely-lock-your-device-from-the-company-portal-website"></a>회사 포털 웹 사이트에서 장치 원격 잠금
 
@@ -33,14 +34,13 @@ ms.lasthandoff: 12/12/2017
 * Android
 * iOS
 * macOS
+* Windows 10
 * Windows 10 Mobile(장치에 암호가 이미 설정된 경우)
 * Windows Phone 8.1(장치에 암호가 이미 설정된 경우)
 
 ## <a name="to-use-remote-lock-to-lock-your-device"></a>원격 잠금을 사용하여 장치를 잠그려면
 
-1.  [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에서 __메뉴__ 단추 ![세 개의 가로 막대가 병렬로 누적된 메뉴 단추의 작은 이미지](/Intune/whats-new/media/CP_hamburger_menu.png)를 탭한 다음 __내 장치__를 선택합니다.
-
-  ![화면 왼쪽에 홈, 모든 앱, 내 장치, 기술 지원팀 및 로그 아웃 단추가 포함된 확장된 측면 메뉴가 있는 회사 포털 웹 사이트의 이미지](/media/iwp-expanded-sidebar.png)
+1.  [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에서 __메뉴__ 단추를 누르고 __내 장치__를 선택합니다.
 
 2. __내 장치__ 페이지에서 잠그려는 장치의 이름을 선택합니다.
 

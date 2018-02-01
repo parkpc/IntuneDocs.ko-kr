@@ -5,7 +5,7 @@ description: "이 항목에서는 iOS 장치에 대한 앱 보호 정책 설정�
 keywords: 
 author: erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 01/05/2018
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 0f8b08f2-504c-4b38-bea2-b8a4ef0526b8
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2f4b5ee3d8dc5c01d2c4021bfee51aedba8c49aa
-ms.sourcegitcommit: 0795870bfe941612259ebec0fe313a783a44d9b9
+ms.openlocfilehash: 494eda1c9f953a78e13ae7cf0caee84f29c4d7d8
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/25/2018
 ---
 #  <a name="ios-app-protection-policy-settings"></a>iOS 앱 보호 정책 설정
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -71,8 +71,8 @@ Intune 앱 보호 정책에서 특정 시나리오의 데이터 송수신을 허
 | **액세스 요구 사항을 다시 확인할 시간(분)** | 다음 설정을 구성합니다. <ul><li>**제한 시간**: 이전에 정책에서 정의된 액세스 요구 사항이 다시 확인되기까지 걸리는 시간(분)입니다. 예를 들어 관리자가 정책에서 PIN을 켠 후 사용자가 Intune 관리 앱을 열고 PIN을 입력해야 합니다. 이 설정을 사용하는 경우 사용자가 **30분**(기본값) 동안은 MAM 앱에서 PIN을 다시 입력할 필요가 없습니다. <br><br>**참고:** iOS의 경우 PIN은 **같은 게시자**의 모든 Intune 관리 앱 간에서 공유됩니다. 앱이 장치에서 포그라운드를 나가면 특정 PIN에 대한 PIN 타이머가 재설정됩니다. 사용자는 이 설정에서 정의한 시간 동안 PIN을 공유하는 Intune 관리 앱에 PIN을 입력할 필요가 없습니다. <br><br> 이 정책 설정 형식은 양의 정수를 지원합니다.</li><li>**오프라인 유예 기간**: MAM 앱이 오프라인 상태로 실행될 수 있는 시간(분)으로, 앱의 액세스 요구 사항이 다시 확인되기까지 걸리는 시간(분)을 지정합니다. 기본값 = **720**분(12시간). 이 기간이 만료되면 앱을 계속 실행하기 위해 AAD에 사용자 인증이 필요합니다.<br><br> 이 정책 설정 형식은 양의 정수를 지원합니다.</li></ul>| 시간 제한: 30 <br><br> 오프라인: 720 |
 | **앱 데이터를 초기화하기 전의 오프라인 간격(일)** | 이 오랜 기간(관리자가 정의) 동안 오프라인으로 실행되고 나면 앱에서 사용자가 네트워크에 연결하고 다시 인증해야 합니다. 성공적으로 인증하고 나면 데이터에 계속 액세스할 수 있으며 오프라인 간격이 재설정됩니다.  사용자가 인증에 실패하면 앱에서 사용자 계정과 데이터를 선택적으로 초기화합니다.  선택적 초기화로 제거되는 데이터에 대한 자세한 내용은 [Intune-관리 앱에서 회사 데이터만 초기화하는 방법](https://docs.microsoft.com/en-us/intune/apps-selective-wipe)을 참조하세요. <br><br> 이 정책 설정 형식은 양의 정수를 지원합니다. | 90일 |
 | **장치 PIN을 관리하는 경우 앱 PIN 사용 안 함** | 등록된 장치에서 장치 잠금이 검색되는 경우 앱 PIN을 사용하지 않도록 설정하려면 **예**를 선택합니다. <br><br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 |
-| **Require minimum iOS operating system**(최소 iOS 운영 체제 필요) | 이 앱을 사용하기 위한 최소 iOS 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 iOS 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다. <br><br> 이 정책 설정 형식은 단일 소수 자릿수 버전을 지원합니다(예: iOS 10.3). <br><br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 |
-| **Require minimum iOS operating system (Warning only)**(최소 iOS 운영 체제 필요(경고)) | 이 앱을 사용하기 위한 최소 iOS 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 iOS 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다. <br><br> 이 정책 설정 형식은 단일 소수 자릿수 버전을 지원합니다(예: iOS 10.3). <br><br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 |
+| **Require minimum iOS operating system**(최소 iOS 운영 체제 필요) | 이 앱을 사용하기 위한 최소 iOS 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 iOS 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다. <br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 |
+| **Require minimum iOS operating system (Warning only)**(최소 iOS 운영 체제 필요(경고)) | 이 앱을 사용하기 위한 최소 iOS 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 iOS 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다. <br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 |
 | **Require minimum app version**(최소 앱 버전 필요) | 앱을 사용할 최소 앱 버전을 요구하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다.<br><br>응용 프로그램 간에 서로 다른 버전 지정 체계를 종종 있는 하나의 앱 (예를 들어 "Outlook 버전 정책")을 대상으로 하는 하나의 최소 응용 프로그램 버전으로는 정책을 만듭니다. <br><br> 이 정책 설정 형식은 major.minor, major.minor.build, major.minor.build.revision을 지원합니다. <br><br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 | 
 | **Require minimum app version (Warning only)**(최소 앱 버전 필요(경고)) | 이 앱을 사용하기 위한 최소 앱 버전을 권장하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다.<br><br>응용 프로그램 간에 서로 다른 버전 지정 체계를 종종 있는 하나의 앱 (예를 들어 "Outlook 버전 정책")을 대상으로 하는 하나의 최소 응용 프로그램 버전으로는 정책을 만듭니다. <br><br> 이 정책 설정 형식은 major.minor, major.minor.build, major.minor.build.revision을 지원합니다. <br><br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 | 
 | **Require minimum Intune app protection policy SDK version**(최소 Intune 앱 보호 정책 SDK 버전 필요) | 사용할 앱에 대한 최소 Intune 앱 보호 정책 SDK를 요구하려면 **예**를 선택합니다. 앱의 Intune 앱 보호 정책 SDK 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다. <br> <br> Intune 앱 보호 정책 SDK에 대한 자세한 내용은 [Intune 앱 SDK 개요](app-sdk.md)를 참조하세요. <br><br> 이 정책 설정 형식은 major.minor, major.minor.build, major.minor.build.revision을 지원합니다. <br><br> **참고:** 앱에 Intune SDK 버전 7.0.1 이상이 있어야 합니다. | 아니요 |

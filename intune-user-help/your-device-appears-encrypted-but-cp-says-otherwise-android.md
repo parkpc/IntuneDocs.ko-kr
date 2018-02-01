@@ -4,23 +4,24 @@ description:
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ba593c08-1a78-4013-8525-b45a948772ec
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: f9c91c85b4a93fb211b5cd278dd82277a58cb08e
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: ab67a6f2fd1f861ba197464a9e369ca0b54e6b5d
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="your-android-device-seems-to-be-encrypted-but-company-portal-says-otherwise"></a>Android 장치가 암호화된 것 같은데 회사 포털에 다르게 표시됨
 
@@ -36,10 +37,6 @@ ms.lasthandoff: 12/12/2017
 
 특정 Android 장치에서는 장치의 보안을 유지하기 위해 시작 PIN을 만들어야 합니다. 여러 제조업체에서 다양한 버전의 Android를 사용하고 있습니다. 설정 앱에서 이 옵션을 사용하도록 설정하는 위치를 찾아 이 문제의 해결을 시도해 볼 수 있습니다. 예를 들어 Samsung Galaxy S7에서는 **설정** > **잠금 화면 및 보안** > **보안 시작**으로 이동하여 보안 시작을 사용하도록 설정합니다.  
 
-### <a name="downgrade-your-version-of-android"></a>Android 버전 다운그레이드
-
-장치에서 Android 6.0 이상으로 다운그레이드하는 옵션을 제공하는 경우 다운그레이드합니다. 장치 다운그레이드를 시도해야 하는 경우 데이터 손실 위험이 있습니다. 그렇지 않으면 회사 지원팀에 문의하여 이 문제를 해결하는 것이 좋습니다. [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에서 회사 지원팀의 연락처 정보를 얻을 수 있습니다.
-
 ### <a name="encrypt-the-entire-device"></a>전체 장치 암호화
 
 일부 장치에서는 전체 장치를 암호화할지 아니면 사용된 공간만을 암호화할지 선택하도록 합니다. "사용된 공간만 해당"이 아닌 전체 장치를 암호화하는 옵션을 선택합니다. 이미 사용된 공간만 암호화한 경우:
@@ -48,6 +45,10 @@ ms.lasthandoff: 12/12/2017
 2. 사용된 공간의 암호 해독
 3. 전체 장치 암호화
 4. 장치 다시 등록
+
+### <a name="downgrade-your-version-of-android"></a>Android 버전 다운그레이드
+
+장치에서 Android 6.0 이상으로 다운그레이드하는 옵션을 제공하는 경우 다운그레이드합니다. 장치 다운그레이드를 시도해야 하는 경우 데이터 손실 위험이 있습니다. 그렇지 않으면 회사 지원팀에 문의하여 이 문제를 해결하는 것이 좋습니다. [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에서 회사 지원팀의 연락처 정보를 얻을 수 있습니다.
 
 ## <a name="specific-manufacturer-issues"></a>특정 제조업체 문제
 

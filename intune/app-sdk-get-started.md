@@ -3,7 +3,7 @@ title: "Microsoft Intune 앱 SDK 시작"
 description: "Microsoft Intune을 통해 모바일 앱을 MAM(모바일 응용 프로그램 관리)에 사용할 수 있도록 빠르게 설정할 수 있습니다."
 keywords: 
 author: erikre
-manager: angrobe
+manager: dougeby
 ms.author: erikre
 ms.date: 01/18/2018
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 546c5d3f373b863e75afa05b7e9bd842f8a8eb46
-ms.sourcegitcommit: 53d272defd2ec061dfdfdae3668d1b676c8aa7c6
+ms.openlocfilehash: 13a6174856ad18034fc3d3c912339c8f844b3db0
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Microsoft Intune 앱 SDK 시작
 

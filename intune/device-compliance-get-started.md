@@ -5,7 +5,7 @@ description: "이 항목에서는 Microsoft Intune의 장치 준수에 대해 �
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 07/18/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: a916fa0d-890d-4efb-941c-7c3c05f8fe7c
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: aa78383233950e342c5ab0f83095bba3c8fda1f9
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 1e6d758d10a3527e0dc350115f2f8f10e2c62322
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="get-started-with-intune-device-compliance-policies"></a>Intune 장치 준수 정책 시작
 
@@ -134,7 +134,7 @@ Azure Portal에서 새 장치 준수와 관련된 기능을 활용하려는 경�
 
 다음 플랫폼에 대한 장치 준수 정책을 만듭니다.
 
-- [Android](compliance-policy-create-android.md)
+- [OWA(Outlook Web Access)](compliance-policy-create-android.md)
 - [Android for Work](compliance-policy-create-android-for-work.md)
 - [iOS](compliance-policy-create-ios.md)
 - [macOS](compliance-policy-create-mac-os.md)
