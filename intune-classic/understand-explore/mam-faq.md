@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 4c345673eceea4da4efc3b90f43c6f9313ee15f1
-ms.sourcegitcommit: 0795870bfe941612259ebec0fe313a783a44d9b9
+ms.openlocfilehash: abb0267f46d2933b0037ed661281198a5981f659
+ms.sourcegitcommit: 638c9cd14c813670c1bd678826ca4308dfc9876e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="frequently-asked-questions-about-mam-and-app-protection"></a>MAM 및 앱 보호에 대한 질문과 대답
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 01/11/2018
 
 **MAM이란?** [Intune MAM(모바일 응용 프로그램 관리)](/intune/app-lifecycle)은 사용자를 위해 모바일 앱을 게시, 푸시, 구성, 보호, 모니터링 및 업데이트할 수 있는 Intune 관리 기능 제품군을 나타냅니다.
 
-**MAM 앱 보호의 이점은 무엇인가요?** MAM은 응용 프로그램 내에서 조직의 데이터를 보호합니다. 중요한 데이터를 포함하는 회사 또는 학교 관련 앱인 MAM-WE는 BYOD(Bring-your-own-device) 시나리오의 개인 장치를 비롯한 거의 모든 장치에서 관리할 수 있습니다. Microsoft Office 앱과 같은 많은 생산성 앱은 Intune MAM에서 관리할 수 있습니다. 공개적으로 사용 가능한 공식적인 [Intune 지원 앱](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) 목록을 참조하세요.
+**MAM 앱 보호의 이점은 무엇인가요?** MAM은 응용 프로그램 내에서 조직의 데이터를 보호합니다. 중요한 데이터를 포함하는 회사 또는 학교 관련 앱인 MAM-WE는 BYOD(Bring-your-own-device) 시나리오의 개인 장치를 비롯한 거의 모든 장치에서 관리할 수 있습니다. Microsoft Office 앱과 같은 많은 생산성 앱은 Intune MAM에서 관리할 수 있습니다. 공개적으로 사용 가능한 공식적인 [Intune 관리 앱](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) 목록을 참조하세요.
 
 **MAM은 어떤 장치 구성을 지원하나요?** Intune MAM은 다음과 같은 두 가지 구성을 지원합니다.
   1. **Intune MDM + MAM**: 처음 실행될 때 MAM에서 지원하는 첫 번째 구성입니다. IT 관리자는 Intune MDM(모바일 장치 관리)에 등록된 장치에서 MAM 및 앱 보호 정책을 사용하여 앱을 관리할 수만 있습니다. MDM + MAM을 사용하여 앱을 관리하려면 https://manage.microsoft.com에서 Intune 독립 실행형 콘솔을 사용해야 합니다.
@@ -48,9 +48,9 @@ ms.lasthandoff: 01/11/2018
 
 ## <a name="apps-you-can-manage-with-app-protection-policies"></a>앱 보호 정책으로 관리할 수 있는 앱
 
-**앱 보호 정책에서 관리될 수 있는 앱은 어느 것인가요?** [Intune 앱 SDK](/intune/app-sdk)에서 지원되거나 [Intune 앱 래핑 도구](/intune/apps-prepare-mobile-application-management)로 래핑된 모든 앱은 Intune 앱 보호 정책을 사용하여 관리할 수 있습니다. 공개적으로 사용 가능한 공식적인 [Intune 지원 앱](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) 목록을 참조하세요.
+**앱 보호 정책에서 관리될 수 있는 앱은 어느 것인가요?** [Intune 앱 SDK](/intune/app-sdk)에서 지원되거나 [Intune 앱 래핑 도구](/intune/apps-prepare-mobile-application-management)로 래핑된 모든 앱은 Intune 앱 보호 정책을 사용하여 관리할 수 있습니다. 공개적으로 사용 가능한 공식적인 [Intune 관리 앱](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) 목록을 참조하세요.
 
-**Intune 지원 앱에 대해 앱 보호 정책을 사용하기 위한 기본 요구 사항은 무엇인가요?**
+**Intune 관리 앱에 대해 앱 보호 정책을 사용하기 위한 기본 요구 사항은 무엇인가요?**
   1. 최종 사용자는 AAD(Azure Active Directory) 계정이 있어야 합니다. Azure Active Directory에서 Intune 사용자를 만드는 방법을 알아보려면 [Intune에 사용자 추가 및 관리 권한 부여](/intune/users-permissions-add)를 참조하세요.
 
   2. 최종 사용자는 Microsoft Intune에 대한 라이선스가 자신의 Azure Active Directory 계정에 할당되어야 합니다. 최종 사용자에게 Intune 라이선스를 할당하는 방법을 알아보려면 [Intune 라이선스 관리](/intune/licenses-assign)를 참조하세요.
@@ -136,7 +136,7 @@ MAM(iOS)은 현재 영숫자 및 특수 문자를 사용하는 응용 프로그�
 
 **온-프레미스 서비스가 Intune 보호 앱에 작동하지 않는 이유는 무엇인가요?** Intune 앱 보호 기능은 응용 프로그램과 Intune 앱 SDK에서 일관되게 작동하기 위해 사용자의 ID에 의존합니다. 이를 보장하는 유일한 방법은 최신 인증뿐입니다. 앱이 온-프레미스 구성에 작동하는데도 일관되거나 보장되지 않는 시나리오가 있습니다.
 
-**관리되는 앱에서 웹 링크를 안전하게 여는 방법이 있나요?** 예. IT 관리자는 Intune을 사용하여 쉽게 관리할 수 있는 Microsoft Intune에서 개발된 웹 브라우저인 [Intune Managed Browser 앱](../deploy-use/manage-internet-access-using-managed-browser-policies.md)에 대한 앱 보호 정책을 배포 및 설정할 수 있습니다. IT 관리자는 Intune 지원 앱의 모든 웹 링크가 Managed Browser 앱을 사용하여 열리도록 지정할 수 있습니다.
+**관리되는 앱에서 웹 링크를 안전하게 여는 방법이 있나요?** 예. IT 관리자는 Intune을 사용하여 쉽게 관리할 수 있는 Microsoft Intune에서 개발된 웹 브라우저인 [Intune Managed Browser 앱](../deploy-use/manage-internet-access-using-managed-browser-policies.md)에 대한 앱 보호 정책을 배포 및 설정할 수 있습니다. IT 관리자는 Intune 관리 앱의 모든 웹 링크가 Managed Browser 앱을 사용하여 열리도록 지정할 수 있습니다.
 
 
 ## <a name="app-experience-on-android"></a>Android의 앱 환경

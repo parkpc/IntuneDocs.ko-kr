@@ -4,7 +4,7 @@ description: "Intune 장치 관리용으로 지원되는 장치 플랫폼 및 �
 keywords: 
 author: ErikjeMS
 ms.author: erikje
-manager: angrobe
+manager: dougeby
 ms.date: 01/03/2018
 ms.topic: get-started-article
 ms.prod: 
@@ -14,28 +14,28 @@ ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 56516562b9a7510020475d226c74bf719bdd33a3
-ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
+ms.openlocfilehash: 1e6b14d5152df8420c5d358ccd9057d7ba427800
+ms.sourcegitcommit: d9de1e92c3913f731d5da3c51a5e1e9b2686894b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="supported-devices-and-browsers"></a>지원되는 장치 및 브라우저
+# <a name="supported-operating-systems-and-browsers"></a>지원되는 운영 체제 및 브라우저
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
-이 문서는 기업에서 장치 관리를 담당하는 시스템 관리자용으로 작성되었습니다. 휴대폰에서 Intune을 설치하는 방법에 대한 도움말은 [관리되는 장치를 사용하여 작업 완료](/intune-user-help/company-portal-frequently-asked-questions)를 참조하세요.
+이 문서는 기업에서 장치 관리를 담당하는 시스템 관리자용으로 작성되었습니다. 장치에서 Intune을 설치하는 방법에 대한 도움말은 [관리되는 장치를 사용하여 작업 완료](/intune-user-help/company-portal-frequently-asked-questions)를 참조하세요.
 
 Microsoft Intune의 설정을 시작하기 전에 다음 요구 사항을 검토합니다.
 
-- [지원되는 장치 및 컴퓨터](#intune-supported-devices)
+- [지원되는 운영 체제](#intune-supported-operating-systems)
 - [Intune을 사용하도록 지원되는 웹 브라우저 목록](#intune-supported-web-browsers)
 
 또한 [Intune 네트워크 대역폭 사용량](network-bandwidth-use.md)([클래식 포털](/intune-classic/get-started/network-bandwidth-use))을 잘 이해해야 합니다.
 
-## <a name="intune-supported-devices"></a>Intune 지원 장치
+## <a name="intune-supported-operating-systems"></a>Intune에서 지원하는 운영 체제
 
-Intune 모바일 장치 관리 기능을 사용하면 다음과 같은 장치를 관리할 수 있습니다.
+다음 운영 체제를 실행하는 장치를 관리할 수 있습니다.
 
 [!INCLUDE[mdm-supported-devices](./includes/mdm-supported-devices.md)]
 
@@ -85,7 +85,6 @@ Intune 모바일 장치 관리 기능을 사용하면 다음과 같은 장치를
 | Galaxy V Plus | SM-G318HZ |
 | Galaxy Young 2 Duos | SM-G130BU |
 
-Intune을 사용하여 Windows Server 운영 체제를 관리할 수는 없습니다.
 
 ### <a name="windows-pc-software-client"></a>Windows PC 소프트웨어 클라이언트
 

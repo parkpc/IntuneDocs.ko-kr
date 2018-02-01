@@ -5,7 +5,7 @@ description: "비즈니스용 Microsoft 스토어에서 Intune에 앱을 동기�
 keywords: 
 author: erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 11/20/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 2ed5d3f0-2749-45cd-b6bf-fd8c7c08bc1b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0ca1ab9ca0e6bd734fa756cd32e64bde7ff4cb40
-ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
+ms.openlocfilehash: 85141fc6f4d71994f575233c255a97e336c92108
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/30/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-manage-apps-you-purchased-from-the-microsoft-store-for-business-with-microsoft-intune"></a>Microsoft Intune을 사용하여 비즈니스용 Microsoft 스토어에서 구입한 앱을 관리하는 방법
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 12/30/2017
 * 동기화되는 앱은 Intune 관리 콘솔에 나타납니다. 이러한 앱을 다른 앱처럼 할당할 수 있습니다.
 * Intune 관리 콘솔에서 사용 가능한 라이선스 수 및 사용되는 라이선스 수를 추적할 수 있습니다.
 * Intune은 사용 가능한 라이선스가 부족한 경우에 앱의 할당 및 설치를 차단합니다.
-* 비즈니스용 Windows Store에서 관리하는 앱은 사용자가 회사를 떠나거나 관리자가 사용자 및 사용자 장치를 제거하면 라이선스를 자동으로 해지합니다.
+* 비즈니스용 Microsoft Store에서 관리하는 앱은 사용자가 회사를 떠나거나 관리자가 사용자 및 사용자 장치를 제거하면 라이선스를 자동으로 해지합니다.
 
 ## <a name="before-you-start"></a>시작하기 전에
 

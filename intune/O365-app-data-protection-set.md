@@ -5,7 +5,7 @@ description: "Office 365 앱 관리 마법사에 대한 보충 설명서입니�
 keywords: 
 author: lindavr
 ms.author: lindavr
-manager: angrobe
+manager: dougeby
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
@@ -16,11 +16,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: ayesham
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b818152d2172ccf85a8323ba3ff70a0b270d20df
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 36dc2924602ffa060d01d3ba932c657fd52552c7
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-your-users-will-experience-basic-protection-on-managed-office-365-apps"></a>사용자에게 관리되는 Office 365 앱에 대한 기본 보호 환경을 제공하는 방법
 
@@ -28,12 +28,12 @@ ms.lasthandoff: 09/09/2017
 
 이 마법사는 다음 정책을 설정합니다.
 
-**Android**
+**iOS**
 * 앱 데이터 암호화
 
 **OWA(Outlook Web Access)**
 * 앱 데이터 암호화
-* 액세스 시 단순 PIN 필요
+* 액세스용 단순 PIN 필요
 
 이러한 정책은 필요할 때 Office 앱에서 작업 데이터를 초기화할 수 있는 기능을 제공하여 Office 365 앱을 관리할 수 있도록 해줍니다. 또한 작업 데이터를 암호화하고 PIN을 입력해야 Office 365 앱에서 데이터를 볼 수 있도록 함으로써 장치가 분실되거나 도난된 경우 기본 보호를 보장합니다.
 
@@ -125,7 +125,7 @@ Android에서 Intune 앱 보호 정책과 연결된 앱의 경우 데이터는 �
 
 ### <a name="how-can-i-view-and-edit-the-policies-created-by-the-wizard"></a>마법사에서 만든 정책을 보고 편집하려면 어떻게 해야 합니까?
 이러한 정책 또는 Intune Azure Portal에서 만든 모든 정책을 보거나 업데이트하려면 대시보드에서 **앱 관리** > **앱 보호 정책**을 선택합니다. 정책 목록이 오른쪽에 열립니다. 설정을 보고 편집하기 위해 표시할 정책을 선택합니다. <br/>
-![정책을 표시하는 사용자 인터페이스의 이미지](./media/image-for-faq.png)
+![정책을 표시하는 사용자 인터페이스 경로 이미지](./media/image-for-faq.png)
 
 ## <a name="next-steps"></a>다음 단계
 [앱 보호 정책](https://docs.microsoft.comapp-protection-policy.md)에 대해 자세히 알아봅니다.

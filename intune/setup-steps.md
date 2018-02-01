@@ -4,8 +4,8 @@ description: "Intune 구독 사용을 시작하기 위한 요구 사항 및 필�
 keywords: 
 author: arob98
 ms.author: angrobe
-manager: angrobe
-ms.date: 10/31/2017
+manager: dougeby
+ms.date: 01/24/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 54f2bdd4a415cb8a4432a8bdcf93c56ba995c201
-ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
+ms.openlocfilehash: a1203cf22fad93f245508284d93024df40e11b9a
+ms.sourcegitcommit: 4509039cbfd4d450324a3475fb5841906720baa1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="set-up-intune"></a>Intune 설정
 
@@ -47,3 +47,4 @@ Intune 구독 설정 및 MDM 기관 설정과 같은 일부 단계는 대부분�
 | 8 | [장치 구성](device-profiles.md) - 장치 설정을 관리하는 프로필을 설정합니다. 장치 프로필은 메일, VPN, Wi-Fi 및 장치 기능에 대한 설정을 미리 구성할 수 있습니다. 장치 프로필은 장치 및 데이터 보호를 위해 장치를 제한할 수도 있습니다.  |
 | 9 | [회사 포털 사용자 지정](company-portal-app.md) - 사용자가 장치를 등록하고 앱을 설치하는 데 사용하는 Intune 회사 포털을 사용자 지정합니다. 이러한 설정은 회사 포털 앱과 Intune 회사 포털 웹 사이트 둘 다에 표시됩니다. |
 | 10 | [장치 등록 사용](mdm-authority-set.md) - MDM 기관을 설정하고 특정 플랫폼을 사용하도록 설정하여 iOS, Windows, Android 및 Mac 장치의 Intune 관리를 사용하도록 설정합니다. |
+| 11 | [앱 정책 구성](app-protection-policy.md) - Microsoft Intune의 앱 보호 정책에 따라 특정 설정을 지정합니다. |

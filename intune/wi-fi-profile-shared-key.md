@@ -5,7 +5,7 @@ description: "Intune 사용자 지정 프로필을 사용하여 미리 공유한
 keywords: 
 author: arob98
 ms.author: angrobe
-manager: angrobe
+manager: dougeby
 ms.date: 11/09/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7d78ec07a31a54ff16cb6ca7deb2a883da632139
-ms.sourcegitcommit: e76dbd0882526a86b6933ace2504f442e04de387
+ms.openlocfilehash: 395a7136630a9393f44037c65e3c8db760149c38
+ms.sourcegitcommit: b982f9d50da4f958fb0c48c56ba46c8ef71500c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="use-a-custom-device-profile-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>사용자 지정 장치 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필 만들기
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -210,7 +210,5 @@ EAP 기반 Wi-Fi 프로필에 대한 XML 코드 예제는 다음과 같습니다
 PSK를 사용하여 Wi-Fi 프로필을 배포하기 전에 장치를 끝점에 직접 연결할 수 있는지 확인합니다.
 
 키(암호)를 회전하는 경우 가동 중지 시간을 예상하고 그에 따라 배포를 계획합니다. 근무 외 시간에 새 Wi-Fi 프로필을 푸시하는 것이 좋습니다. 연결에 영향을 받을만한 사용자에게 경고도 하는 것이 좋습니다.
- 
-원활한 전환 환경을 보장하고 시기 적절한 정책 업데이트를 제공하려면 장치에서 하나 이상의 개방 통신 채널을 Intune에 유지해야 합니다. 이렇게 하려면 사용자를 Intune 끝점에만 연결하는 게스트 Wi-Fi를 제공하거나 셀룰러 연결을 사용합니다.
 
-
+원활한 전환 환경을 구현하려면 최종 사용자의 장치에서 인터넷에 연결하는 대안을 마련해야 합니다. 예를 들어 최종 사용자가 게스트 WiFi(또는 다른 WiFi 네트워크)로 다시 전환할 수 있거나 셀룰러 연결을 통해 Intune과 통신할 수 있어야 합니다. 그러면 장치에서 회사 WiFi 프로필이 업데이트 될 때 사용자가 계속해서 정책 업데이트를 받을 수 있습니다.
