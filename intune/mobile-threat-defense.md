@@ -5,7 +5,7 @@ description: "장치 위험에 따라 회사 리소스에 대한 액세스를 �
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 11/28/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: ac77b590-a7ec-45a0-9516-ebf5243b6210
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 16402b30895e61d9a4ff8393fd4d4c6efa061e9e
-ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
+ms.openlocfilehash: f1d5957acde86b3621009e5c38df42bc894a413c
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="mobile-threat-defense-integration-with-intune"></a>Intune에 Mobile Threat Defense 통합
 
@@ -54,7 +54,7 @@ Intune은 개인 및 회사 소유 장치 모두에서 앱 인벤토리 정보�
  - 앱의 유효성 검사 여부
  - 앱의 관리 여부
 
-## <a name="sample-scenarios"></a>샘플 시나리오
+## <a name="sample-scenarios"></a>샘플 시나리오:
 
 Mobile Threat Defense 솔루션에서 장치가 감염된 것으로 간주되는 경우
 

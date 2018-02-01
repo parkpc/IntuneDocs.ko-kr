@@ -5,7 +5,7 @@ description: "iOS 장치에서 Wi-Fi 연결을 구성하는 데 사용할 수 �
 keywords: 
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 12/15/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 89229a5e-3421-4221-a62f-fa800620cc0d
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 087a8ad8ad8d07bee1d00cd6adaca86ede737eb7
-ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
+ms.openlocfilehash: 6a4a5b9b76995be6a82cc3dcaa9f782c158ba174
+ms.sourcegitcommit: b982f9d50da4f958fb0c48c56ba46c8ef71500c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/30/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="wi-fi-settings-for-ios-devices-in-microsoft-intune"></a>Microsoft Intune의 iOS 장치에 대한 Wi-Fi 설정
 
@@ -33,6 +33,7 @@ ms.lasthandoff: 12/30/2017
 - **SSID** - Service Set Identifier(서비스 집합 ID)의 약어입니다. 장치에 연결할 무선 네트워크의 실제 이름입니다. 그러나 사용자에게는 연결을 선택할 때 위에서 만든 네트워크 이름만 표시됩니다.
 - **자동으로 연결** - 이 네트워크 범위에 있을 때마다 장치를 연결합니다.
 - **숨겨진 네트워크** - 이 네트워크가 장치의 사용 가능한 네트워크 목록에 표시되지 않도록 합니다.
+- **사전 공유 키** - 
 - **프록시 설정** - 다음에서 선택합니다.
     - **없음** - 프록시 설정을 구성하지 않습니다.
     - **수동** - **프록시 서버 주소**(IP 주소) 및 연결된 **포트 번호**를 입력합니다.

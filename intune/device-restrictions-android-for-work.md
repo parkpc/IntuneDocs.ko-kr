@@ -5,21 +5,20 @@ description: "Android for Work 장치에서 장치 설정 및 기능을 제어�
 keywords: 
 author: vhorne
 ms.author: victorh
-manager: angrobe
-ms.date: 08/01/2017
+manager: dougeby
+ms.date: 1/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 1830720b-16cb-4f2f-a71a-62967f882563
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: beb8368aa2db33df84bb64985177b47beebc80ac
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: c7c69bb3984ae4ffa81aa81ae24cfe17663bc191
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="android-for-work-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Android for Work 장치 제한 설정
 
@@ -44,7 +43,7 @@ ms.lasthandoff: 12/12/2017
 ### <a name="work-profile-password"></a>회사 프로필 암호
 - **회사 프로필 암호 필요** -(회사 프로필을 사용하도록 설정한 Android 7.0 이상 버전) 회사 프로필의 앱에만 적용되는 암호 정책을 정의합니다. 기본적으로 최종 사용자는 2개의 별도로 정의된 PIN을 사용하거나, 정의된 2개의 PIN을 둘 중 더 강도가 높은 PIN으로 결합하도록 선택할 수 있습니다.
 - **최소 암호 길이** - 사용자 암호에 포함해야 하는 최소 문자 수를 **4**-**16**자 사이로 입력합니다.
-- **화면이 잠기기 전까지 최대 비활성 시간(분)** - 작업 프로필이 잠길 때까지 유지되는 시간을 선택합니다. 그런 다음 사용자가 자격 증명을 입력해야 액세스 권한을 다시 얻을 수 있습니다.
+- **회사 프로필이 잠기기 전까지 최대 비활성 시간(분)** - 작업 프로필이 잠길 때까지 유지되는 시간을 선택합니다. 그런 다음 사용자가 자격 증명을 입력해야 액세스 권한을 다시 얻을 수 있습니다.
 - **장치를 초기화하기 전 로그인 오류 발생 횟수** - 장치에서 회사 프로필이 초기화되기 전까지 잘못된 암호 입력이 허용되는 횟수를 입력합니다.
 - **암호 만료(일)** - 최종 사용자의 암호를 변경해야 할 때까지의 기간(일)을 입력합니다(**1**-**255**).
 - **필수 암호 유형** - 장치에 설정해야 하는 암호의 유형을 선택합니다. 다음 중에서 선택합니다.

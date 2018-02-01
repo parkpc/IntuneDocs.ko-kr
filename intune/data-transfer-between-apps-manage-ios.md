@@ -5,7 +5,7 @@ description: "이 항목의 정보를 참조하면 iOS의 다음에서 열기 �
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 11/06/2017
 ms.topic: article
 ms.prod: 
@@ -15,17 +15,17 @@ ms.assetid: d10b2d64-8c72-4e9b-bd06-ab9d9486ba5e
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 83ef0050380b8b5e3741dc7b8ea57574df6df658
-ms.sourcegitcommit: d44c32aad3e84f6c0b296bdb010981d3a818befb
+ms.openlocfilehash: 2d110a099b4957626d4368c9e63817674d6cfaa2
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-manage-data-transfer-between-ios-apps"></a>iOS 앱 간의 데이터 전송을 관리하는 방법
 ## <a name="manage-ios-apps"></a>IOS 앱 관리
 회사 데이터 보호는 파일 전송이 관리하는 앱으로만 제한되도록 하는 작업을 포함합니다.  다음과 같은 방법으로 iOS 앱을 관리할 수 있습니다.
 
--   앱에 대한 앱 보호 정책을 구성하여 회사 데이터 손실을 방지하며, 앞으로 이러한 앱을 **정책 관리** 앱이라고 부릅니다. [앱 보호 정책을 사용하여 관리할 수 있는 모든 Intune 지원 앱](https://www.microsoft.com/cloud-platform/microsoft-intune-apps)을 참조하세요.
+-   앱에 대해 앱 보호 정책을 구성하여 회사 데이터 손실을 방지할 수 있습니다. 이러한 앱을 **정책 관리** 앱이라고 합니다. [앱 보호 정책을 사용하여 관리할 수 있는 모든 Intune 관리 앱](https://www.microsoft.com/cloud-platform/microsoft-intune-apps)을 참조하세요.
 
 -   **MDM 채널**을 사용하여 앱을 배포하고 관리할 수도 있습니다.  이렇게 하려면 MDM 솔루션에 장치를 등록해야 합니다. **정책 관리된** 앱 또는 다른 관리되는 앱일 수 있습니다.
 

@@ -5,7 +5,7 @@ keywords:
 author: erikre
 ms.author: erikre
 manager: angrobe
-ms.date: 08/02/2017
+ms.date: 01/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1612f5af24bd4c96aced4e3a6f1572a4c49d9913
-ms.sourcegitcommit: e76dbd0882526a86b6933ace2504f442e04de387
+ms.openlocfilehash: 6b2ab30f9bf061e7ea4a34372e7c99e059c6e30f
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>앱 보호 정책에 대해 LOB(기간 업무) 앱 준비
 
@@ -50,7 +50,7 @@ Intune에 등록되지 않은 장치의 앱 보호 정책에 대한 앱 래핑 �
 |**앱 래핑 도구** | **Xamarin** |**Cordova** |
 |------|----|----|
 |**iOS** |예|예|
-|**OWA(Outlook Web Access)**| 아니요 |예|
+|**OWA(Outlook Web Access)**| 미리 보기 |예|
 
 ## <a name="intune-app-sdk"></a>Intune 앱 SDK
 앱 SDK는 주로 Apple 앱 스토어 및/또는 Google Play 스토어에 앱이 있으며 Intune으로 앱을 관리할 수 있기를 원하는 고객을 위해 설계되었습니다. 그러나 기간 업무 앱을 비롯한 모든 앱은 SDK 통합을 활용할 수 있습니다.

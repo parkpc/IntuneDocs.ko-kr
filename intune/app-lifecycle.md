@@ -4,7 +4,7 @@ description: "Microsort Intune에서 관리되는 앱의 추가부터 최종 사
 keywords: 
 author: erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 06/07/2017
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.assetid: 60347012-bc3f-4b9a-a4f4-6d3c5021a6e6
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1e50e3af525be48bf058dd32bfb7b93508d500a3
-ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
+ms.openlocfilehash: 87bd0ceed846052444e4dac4366e3a0304b1452c
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="overview-of-the-app-lifecycle"></a>앱 수명 주기 개요
 
@@ -32,7 +32,7 @@ Intune 앱 수명 주기는 앱이 추가될 때 시작되어 앱을 제거할 �
 
 앱 배포의 첫 단계는 관리 및 할당할 앱을 Intune에 추가하는 것입니다. 작업할 수 있는 앱 형식은 다양하지만, 기본 절차는 같습니다. Intune을 사용하여 [등록된 장치](apps-add.md)([클래식 포털](/intune-classic/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune)) 및 [Intune 클라이언트 소프트웨어를 사용하여 관리하는 Windows PC](/intune-classic/deploy-use/add-apps-for-windows-pcs-in-microsoft-intune)에 대한 앱을 모두 추가할 수 있습니다.
 
-## <a name="deploy"></a>배포:
+## <a name="deploy"></a>배포
 
 앱을 Intune에 추가한 후 [관리하는 사용자와 장치에 앱을 할당](apps-deploy.md)할 수 있습니다([클래식 포털](/intune-classic/deploy-use/deploy-apps)). Intune은 이 과정을 쉽게 수행할 수 있게 해주며 앱이 배포된 후 Intune 관리 콘솔에서 배포의 [성공 여부를 모니터링](apps-monitor.md)할 수 있습니다([클래식 포털](/intune-classic/deploy-use/monitor-apps-in-microsoft-intune)). 또한 [Apple](vpp-apps-ios.md)([클래식 포털](/intune-classic/deploy-use/manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune)) 및 [Windows](windows-store-for-business.md)([클래식 포털](/intune-classic/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune)) 앱 스토어와 같은 일부 앱 스토어에서 회사용 앱 라이선스를 대량으로 구매할 수 있습니다. Intune은 데이터를 이러한 스토어와 동기화하여 이러한 형식의 앱에 대한 라이선스 사용을 Intune 관리 콘솔에서 바로 배포 및 추적할 수 있습니다.
 

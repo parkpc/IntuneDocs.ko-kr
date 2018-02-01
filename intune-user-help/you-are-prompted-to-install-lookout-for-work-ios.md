@@ -4,26 +4,27 @@ description: "iOS용 Lookout for Work를 설치하는 방법에 대해 알아봅
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 09/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 7adab655-8317-4512-ba7d-beeaa25bbf6c
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 9bb4d39545964dd5c8e0bb5efe767e1315c7f6de
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: ae05df1478baa8b965cdcd11a47ffc0d694734ab
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="install-lookout-for-work-on-your-ios-device"></a>iOS 장치에 Lookout for Work 설치
 
 
-작업에 액세스하기 전에 회사에서는 잠재적 보안 위협을 찾아 장치를 보호하는 데 도움을 주는 Lookout for Work 앱을 설치하도록 요구합니다. IT 관리자가 Lookout for Work을 설치한 방식에 따라 장치에 다른 메시지가 표시될 수 있습니다.
+작업에 액세스하기 전에 회사에서는 잠재적 보안 위협을 찾아 장치를 보호하는 데 도움을 주는 Lookout for Work 앱을 설치하도록 요구합니다. IT 관리자가 Lookout for Work를 설치한 방식에 따라 장치에 다른 메시지가 표시될 수 있습니다.
 
 
 ## <a name="what-you-need-to-do"></a>수행해야 할 작업

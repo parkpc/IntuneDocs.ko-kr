@@ -5,7 +5,7 @@ description: "이 항목의 정보를 참조 앱을 동기화한 다음 Google P
 keywords: 
 author: erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 06/13/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 2f6c06bf-e29a-4715-937b-1d2c7cf663d4
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f873fa6324bab56ce8233a8a550e2d13fe2fb054
-ms.sourcegitcommit: 9fabf1a8db53842f7b00762374de5b137158ee25
+ms.openlocfilehash: 248dcc978b5324733d5d640230aba2b6db1a2c62
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-assign-apps-to-android-for-work-devices-with-intune"></a>Intune으로 Android for Work 장치에 앱을 할당하는 방법
 

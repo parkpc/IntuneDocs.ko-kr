@@ -4,7 +4,7 @@ description: "이 문서에서는 마이그레이션 통신 계획 및 전략을
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 07/12/2017
 ms.topic: article
 ms.prod: 
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: e6a52506-2d29-41f7-a171-5d684a740dd4
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 806e355acd84f5c70029f8612c444b077c0631e4
-ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
+ms.openlocfilehash: e36e917c035d4bbadccd629ef4cc21552cc62ec6
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="plan-communications"></a>통신 계획
 
@@ -30,13 +30,13 @@ ms.lasthandoff: 10/31/2017
 -   **메일 \#1:** 이점, 예상 및 일정을 설명합니다. 이 기회를 활용하여 Intune 관리 장치에 대해 액세스 권한을 부여받을 기타 모든 새로운 서비스를 소개합니다.<br/><br/>
 
 
-    -   [메일 \#1 템플릿 다운로드](https://gallery.technet.microsoft.com/Intune-migration-guide-end-e3209b35)
+    -   [이메일 \#1 템플릿 다운로드](https://gallery.technet.microsoft.com/Intune-migration-guide-end-e3209b35)
 <br></br>
 
 -   **메일 \#2:** 서비스가 현재 Intune을 통해 액세스할 준비가 되었음을 알립니다. 사용자에게 지금 등록하라고 알립니다. 사용자에게 마이그레이션의 이점 및 전략적 이유를 다시 알려줍니다.<br/><br/>
 
 
-    -   [메일 \#2 템플릿 다운로드](https://gallery.technet.microsoft.com/Intune-migration-guide-end-a9d25eb5)
+    -   [이메일 \#2 템플릿 다운로드](https://gallery.technet.microsoft.com/Intune-migration-guide-end-a9d25eb5)
 <br></br>
 
 -   **메일 \#3:** 사용자의 액세스 권한에 영향을 주기 전 미리 사용자에게 타임라인을 제공합니다. 사용자에게 마이그레이션의 이점 및 전략적 이유를 다시 한 번 더 알려줍니다. 메일 시기 선택에 슬라이딩 윈도우 방식을 사용하여 단계에 일치하도록 해야 합니다. 예를 들어 6월에 메일 \#1을 1단계 사용자에게, 메일 \#2를 2단계 사용자에게, 메일 \#3을 3단계 사용자에게 보냅니다.<br/><br/>

@@ -4,23 +4,24 @@ description: "Windows 10 1511 이상 장치를 Intune에 등록"
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 11/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bd428c14-7d75-42de-9322-b57323a01f06
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 529a0ec7baf52eccf6382ecab114dac55de8a72a
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 4840ffc6217d757062b4cd610af6b1263070963f
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="send-logs-to-your-company-support-from-the-company-portal-app-for-windows-10"></a>회사 포털 앱의 회사 지원팀에 Windows 10에 대한 로그 보내기
 
