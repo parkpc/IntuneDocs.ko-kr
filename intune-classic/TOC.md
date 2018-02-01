@@ -7,7 +7,7 @@
 
 # [시작](get-started/get-started.md)
 ## [Intune 설정](/intune/setup-steps?toc=/intune-classic/toc.json)
-### 필수 구성 요소
+### 전제 조건
 #### [지원되는 장치](/intune/supported-devices-browsers?toc=/intune-classic/toc.json)
 #### [네트워크 사용량](/intune/network-bandwidth-use?toc=/intune-classic/toc.json)
 ### [Intune에 로그인](/intune/account-sign-up?toc=/intune-classic/toc.json)
@@ -207,7 +207,7 @@
 
 #### [MAM 정책에 대한 Intune 관리 콘솔](deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)
 
-### [MAM용 기간 업무 준비](/intune/apps-prepare-mobile-application-management?toc=/intune-classic/toc.json)
+### [MAM용 기간 업무 앱 준비](/intune/apps-prepare-mobile-application-management?toc=/intune-classic/toc.json)
 #### [iOS 앱 줄 바꿈](/intune/app-wrapper-prepare-ios?toc=/intune-classic/toc.json)
 #### [Android 앱 줄 바꿈](/intune/app-wrapper-prepare-android?toc=/intune-classic/toc.json)
 #### [Intune에서 관리하지 않는 장치에 있는 LOB 앱](deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)
