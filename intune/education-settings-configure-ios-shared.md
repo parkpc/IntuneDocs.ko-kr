@@ -15,11 +15,11 @@ ms.assetid: 1381a5ce-c743-40e9-8a10-4c218085bb5f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c183af24e953f87e12e87654f767dd9a30f8509f
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 044f3aaa81a2bb02662bec3d20ea51a2339b91a6
+ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="how-to-configure-intune-education-settings-for-shared-ipad-devices"></a>공유 iPad 장치에 대한 Intune 교육 설정을 구성하는 방법
 
@@ -34,7 +34,7 @@ Intune에서는 교사들이 학습을 지도하고 교실에서 학생 장치�
 공유 iPad 기능을 사용하기 위한 필수 조건은 다음과 같습니다.
 
 - [Apple School Manager](apple-school-manager-set-up-ios.md) 및 [SDS(학교 데이터 동기화)](https://support.office.com/article/Apple-School-Manager-integration-with-Intune-for-Education-and-School-Data-Sync-974bd1f9-2c7a-45cb-9447-b58166108617)를 설정합니다.
-- Apple School Manager 설치 과정에서 학생에 대해 [관리되는 Apple ID](http://help.apple.com/schoolmanager/#/tes78b477c81)를 구성합니다. [관리되는 Apple ID에 대해 자세히 알아봅니다](https://support.apple.com/en-us/HT205918).
+- Apple School Manager 설치 과정에서 학생에 대해 [관리되는 Apple ID](http://help.apple.com/schoolmanager/#/tes78b477c81)를 구성합니다. [관리되는 Apple ID에 대해 자세히 알아봅니다](https://support.apple.com/HT205918).
 - Apple School Manager에서 동기화된 장치 일련 번호에 대한 등록 프로필을 만듭니다.
 
 ## <a name="step-1---import-your-school-data-into-azure-active-directory"></a>1단계 - Azure Active Directory로 학교 데이터 가져오기
