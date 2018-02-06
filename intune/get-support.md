@@ -15,11 +15,11 @@ ms.assetid: 7fc95d17-098e-4da5-8a09-a96476569dd9
 ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 00a7bf5b3f5df58e29c3eb92a516b1ace3eea705
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 5a844255451f441f0b64cb020b863b4775fbb768
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-get-support-for-microsoft-intune"></a>Microsoft Intune에 대한 지원을 받는 방법
 
@@ -47,7 +47,7 @@ IT 관리자의 경우 다음 단계에 따라 Azure Portal에서 지원 티켓�
     - **지원 계획**: **기술 지원 - 포함**(Intune 기술 문제에 대한 지원은 무료입니다.)
 
     >[!IMPORTANT]
-    >Intune을 Configuration Manager와 함께 사용할 경우 intune에 대한 지원은 무료로 제공됩니다. 프리미어 지원 서비스에 대한 세부 정보를 검토하려면 [서비스 설명](https://www.microsoft.com/microsoftservices/services-list.aspx) 설명서, 섹션 5.3.3 "자문 서비스"를 참조하세요.
+    >Intune을 Configuration Manager와 함께 사용할 경우 intune에 대한 지원은 무료로 제공됩니다. 프리미어 지원 서비스에 대한 세부 정보를 검토하려면 [서비스 설명](https://www.microsoft.com/en-us/microsoftservices/services-list.aspx) 설명서, 섹션 5.3.3 "자문 서비스"를 참조하세요.
 
     계속 진행하려면 **다음**을 선택합니다.
 4. **문제** 블레이드에서 문제에 대한 올바른 실무 전문가가 요청을 처리하도록 다음 옵션을 선택합니다.

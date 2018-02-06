@@ -15,11 +15,11 @@ ms.assetid: 6d384cd0-b662-41e7-94f5-0c96790ab20a
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3554623db2a153fd7f281a3b8453bedf1de3c77a
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 3e79ee1ddd2f8a8a9d7a3089e21b8807b9895d2c
+ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/03/2018
 ---
 # <a name="enroll-ios-devices-with-apple-configurator"></a>Apple Configurator를 사용한 iOS 장치 등록
 
@@ -71,8 +71,8 @@ Apple Configurator 등록 방법은 [장치 등록 관리자](device-enrollment-
 
 1. 헤더 없이 2열로 구성된 쉼표로 구분된 값(.csv) 목록을 만듭니다. 왼쪽 열에 일련 번호를 추가하고, 오른쪽 열에 세부 정보를 추가합니다. 현재 목록의 최대값은 5,000개 행입니다. 텍스트 편집기에 .csv 목록이 다음과 같이 표시됩니다.
 
-    F7TLWCLBX196,장치 세부 정보</br>
-    DLXQPCWVGHMJ,장치 세부 정보
+  F7TLWCLBX196,장치 세부 정보</br>
+  DLXQPCWVGHMJ,장치 세부 정보
 
    [iOS 장치 일련 번호를 확인하는 방법](https://support.apple.com/HT204073)을 알아봅니다.
 2. Azure 포털의 Intune에서 **장치 등록**을 선택한 다음 **Apple 등록**을 선택합니다.
@@ -164,3 +164,5 @@ Apple Configurator를 사용하여 iOS 장치를 직접 등록하는 경우 장�
 7. iOS 장치에서 **설정**을 열고 **일반** > **장치 관리** > **관리 프로필**로 이동합니다. 프로필 설치가 나열되는지 확인하고 iOS 정책 제한 및 설치된 앱을 확인합니다. 정책 제한 및 앱이 장치에 표시되는 데 최대 10분 정도 걸릴 수 있습니다.
 
 8. 장치를 배포합니다. 이제 iOS 장치가 Intune에 등록되고 관리됩니다.
+
+

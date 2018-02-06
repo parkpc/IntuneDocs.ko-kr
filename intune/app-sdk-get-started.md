@@ -14,11 +14,11 @@ ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 13a6174856ad18034fc3d3c912339c8f844b3db0
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: dc061a525a4b20cafbbb2ae31ee90c878d2a98fe
+ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Microsoft Intune 앱 SDK 시작
 
@@ -92,9 +92,9 @@ Microsoft 리포지토리에서 분기하고 끌어오는 데 사용할 수 있�
  
  앱에서 앱 보호 정책을 사용하도록 설정하는 것 외에도 다음 사항이 충족되어야 앱에서 AAD(Azure Active Directory) 앱 기반 조건부 액세스가 제대로 작동합니다.
  
- * 앱은 [Azure Active Directory 인증 라이브러리](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries)를 통해 빌드되고 AAD broker 인증을 사용하도록 설정되어 있어야 합니다.
+ * 앱은 [Azure Active Directory 인증 라이브러리](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries)를 통해 빌드되고 AAD broker 인증을 사용하도록 설정되어 있어야 합니다.
  
- * 앱의 [AAD 클라이언트 ID](https://docs.microsoft.com/en-us/azure/app-service/app-service-mobile-how-to-configure-active-directory-authentication#optional-configure-a-native-client-application)는 iOS 및 Android 플랫폼에서 고유해야 합니다.
+ * 앱의 [AAD 클라이언트 ID](https://docs.microsoft.com/azure/app-service/app-service-mobile-how-to-configure-active-directory-authentication#optional-configure-a-native-client-application)는 iOS 및 Android 플랫폼에서 고유해야 합니다.
  
 ## <a name="configure-telemetry-for-your-app"></a>앱에 대한 원격 분석 구성
 
@@ -106,7 +106,7 @@ Microsoft Intune은 앱의 사용 통계에 대한 데이터를 수집합니다.
 
 * **Android용 Intune 앱 SDK**: Android용 Intune 앱 SDK는 앱에서 데이터 수집을 제어하지 않습니다. 기본적으로 회사 포털 응용 프로그램은 원격 분석 데이터를 기록합니다. 이 데이터는 Microsoft Intune로 전송됩니다. Microsoft 정책에 따라 Microsoft는 PII(개인 식별 정보)를 수집하지 않습니다. 
 
-    * 최종 사용자가 이 데이터를 보내지 않도록 선택하는 경우 회사 포털 앱의 [설정]에서 원격 분석을 해제해야 합니다. 자세한 내용은 [Microsoft 사용 현황 데이터 수집 해제](https://docs.microsoft.com/en-us/intune-user-help/turn-off-microsoft-usage-data-collection-android)를 참조하세요. 
+    * 최종 사용자가 이 데이터를 보내지 않도록 선택하는 경우 회사 포털 앱의 [설정]에서 원격 분석을 해제해야 합니다. 자세한 내용은 [Microsoft 사용 현황 데이터 수집 해제](https://docs.microsoft.com/intune-user-help/turn-off-microsoft-usage-data-collection-android)를 참조하세요. 
 
 
  iOS 및 Android 기간 업무 앱 버전 번호가 표시됩니다.<!-- 1380712 -->

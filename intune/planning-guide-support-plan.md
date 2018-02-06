@@ -14,11 +14,11 @@ ms.assetid: b9428769-4333-4778-b677-f23dea1f74da
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 46172f4b47a5ffeb623cdb068b7e1c6f6c7f1795
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: e557fe23b5fcee11957904b2dfd5eb99ec344f3f
+ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="develop-a-support-plan"></a>지원 계획 개발
 
@@ -80,7 +80,7 @@ Intune 지원 교육 어젠더의 예가 아래에 제공되어 있습니다.
 
 -   Q & A
 
-[Intune 설명서](https://docs.microsoft.com/intune/)에서는 Intune 개요, 자세한 기능 설명, 몇 가지 문제 해결 정보를 제공합니다. [Intune 포럼](https://social.technet.microsoft.com/Forums/en-US/home)은 Intune 설명서에서 다루지 않은 항목과 질문을 위한 커뮤니티 기반 리소스입니다.
+[Intune 설명서](https://docs.microsoft.com/intune/)에서는 Intune 개요, 자세한 기능 설명, 몇 가지 문제 해결 정보를 제공합니다. [Intune 포럼](https://social.technet.microsoft.com/Forums/home)은 Intune 설명서에서 다루지 않은 항목과 질문을 위한 커뮤니티 기반 리소스입니다.
 
 ## <a name="what-opportunities-are-there-to-involve-the-support-team-earlier"></a>초기에 지원 팀을 참여시킬 어떤 기회가 있나요?
 

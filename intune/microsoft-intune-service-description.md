@@ -14,11 +14,11 @@ ms.assetid: 40fa5a2e-6c0f-4150-9740-d5ddc0cdbda0
 ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 115a2ac3b4eb35591a2742143fdd29dde09c7de7
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: f4671f643f9806945043adcb9279c7bc95d8efe2
+ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="microsoft-intune-service-description"></a>Microsoft Intune 서비스 설명
 
@@ -55,7 +55,7 @@ Microsoft는 적합한 계획의 적합한 서비스에 대해 Intune 온보딩 
 
 - [Microsoft Intune의 새로운 기능](whats-new.md). 이 항목은 월별 서비스 업데이트와 함께 업데이트되며 회사 포털 앱 등의 앱이 릴리스되는 경우 매주 업데이트됩니다.
 
-- 중요 서비스 업데이트는 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx) 메시지 센터에서도 공지됩니다. 제공된 [Office 365 관리자 모바일 앱](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)을 설치한 경우 모바일 장치에서 알림을 받을 수 있습니다. [Office 365 메시지 센터](https://support.office.com/en-US/client/results?Shownav=true&lcid=1033&ns=O365ENTADMIN&version=15&omkt=en-US&ver=15&HelpID=O365E_MCManageUpdates)를 사용하는 방법을 자세히 알아봅니다.
+- 중요 서비스 업데이트는 [Office 365 관리 포털](https://portal.office.com/Admin/Default.aspx) 메시지 센터에서도 공지됩니다. 제공된 [Office 365 관리자 모바일 앱](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)을 설치한 경우 모바일 장치에서 알림을 받을 수 있습니다. [Office 365 메시지 센터](https://support.office.com/client/results?Shownav=true&ns=O365ENTADMIN&version=15&ver=15&HelpID=O365E_MCManageUpdates)를 사용하는 방법을 자세히 알아봅니다.
 
     아래에는 그 외의 몇 가지 유용한 정보가 나와 있습니다.
 

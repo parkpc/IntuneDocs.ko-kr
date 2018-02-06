@@ -14,11 +14,11 @@ ms.technology:
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4cd446310256a71e7306364b4142bfacce482fe4
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: fc50d6f5c4b0350d0117b5d68a0b9ac3e9ec3ab3
+ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="windows-10-and-later-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 이상 장치 제한 설정
 
@@ -254,7 +254,7 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 
 ## <a name="kiosk-preview"></a>키오스크(미리 보기)
 
--   **키오스크 모드** - 정책에서 지원되는 [키오스크 모드](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shared-pc) 유형을 식별합니다. 다음 옵션을 사용할 수 있습니다.
+-   **키오스크 모드** - 정책에서 지원되는 [키오스크 모드](https://docs.microsoft.com/windows/configuration/kiosk-shared-pc) 유형을 식별합니다. 다음 옵션을 사용할 수 있습니다.
 
       - **구성되지 않음**(기본값) - 정책이 키오스크 모드를 사용하도록 설정하지 않습니다. 
       - **단일 앱 키오스크** - 프로필을 통해 장치를 단일 앱 키오스크로 사용하도록 설정합니다.
@@ -266,7 +266,7 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 
          공용 환경의 장치는 권한이 부여된 작업을 방지하기 위해 최소한의 권한으로 계정을 사용합니다.  
 
-      - **앱의 AUMID(응용 프로그램 사용자 모델 ID)** - 키오스크 앱의 AUMID를 지정합니다. 자세한 내용은 [설치된 앱의 응용 프로그램 사용자 모델 ID 찾기](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)를 참조하세요.
+      - **앱의 AUMID(응용 프로그램 사용자 모델 ID)** - 키오스크 앱의 AUMID를 지정합니다. 자세한 내용은 [설치된 앱의 응용 프로그램 사용자 모델 ID 찾기](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)를 참조하세요.
 
     다중 앱 키오스크에는 키오스크 구성이 필요합니다. **추가** 단추를 사용하여 키오스크 구성을 만들거나 기존 키오스크를 선택합니다.
 
@@ -280,13 +280,13 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 
             - **Win32 앱** - 기존 데스크톱 앱입니다. 장치 관련 실행 파일의 정규화된 경로 이름이 필요합니다.
 
-            - **UWP 앱** - 유니버설 Windows 앱입니다. [앱용 AUMID](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)가 필요합니다.
+            - **UWP 앱** - 유니버설 Windows 앱입니다. [앱용 AUMID](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)가 필요합니다.
 
-        - **앱 식별자** - 실행 파일(Win32 앱)의 정규화된 경로 이름 또는 [앱의 AUMID](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)(UWP 앱)를 지정합니다.
+        - **앱 식별자** - 실행 파일(Win32 앱)의 정규화된 경로 이름 또는 [앱의 AUMID](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)(UWP 앱)를 지정합니다.
 
     - **작업 표시줄**은 작업 표시줄이 키오스크에 표시되는지(**사용함**) 또는 숨겨지는지(**구성되지 않음**)를 나타냅니다.
 
-    - **시작 메뉴 레이아웃** - [시작 메뉴에 앱이 나타나는](https://docs.microsoft.com/en-us/windows/configuration/lock-down-windows-10-to-specific-apps#create-xml-file) 방식을 설명하는 XML 파일을 지정합니다.
+    - **시작 메뉴 레이아웃** - [시작 메뉴에 앱이 나타나는](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps#create-xml-file) 방식을 설명하는 XML 파일을 지정합니다.
 
     - **할당된 사용자** - 키오스크 구성과 연결된 하나 이상의 사용자 계정을 지정합니다. 계정은 장치에 로컬이거나 키오스크 앱과 연결된 Azure AD 계정 로그인일 수 있습니다. 도메인에 가입된 계정을 `domain\\username@tenant.org` 형태로 지정합니다.
 
