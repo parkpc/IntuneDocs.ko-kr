@@ -68,6 +68,8 @@
           href: app-lifecycle.md
     - name: 일반적인 시나리오
       href: common-scenarios.md
+    - name: MAM FAQ
+      href: mam-faq.md
 - name: 배포 계획
   items:
     - name: 계획 가이드
