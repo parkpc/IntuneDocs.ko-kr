@@ -15,11 +15,11 @@ ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1f17b885ffc05808933a955dcb4f8977ffb0f4a0
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 00e6b9f05f967da9066639dbf1b25bc76a49541b
+ms.sourcegitcommit: 0a5f424a8f683daa919b13b5c363173040d561c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/13/2018
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Microsoft Intune 앱 관리란?
 
@@ -52,7 +52,7 @@ Intune은 원하는 장치에서 필요한 앱을 얻도록 도와주는 다양�
 |장치에 앱 필수 설치(필수)<sup>2</sup>|예|예|예|예|
 |회사 포털에서 장치에 선택적 설치(사용 가능한 설치)|예|예|예|예|
 |웹에서 앱에 바로 가기 설치(웹 클립)|예|예|예|예|
-|사내(기간 업무) 앱|예|예|아니요|아니요|
+|사내(기간 업무) 앱|예|예|아니요|예|
 |스토어의 앱|예|예|예|예|
 |앱 업데이트|예|예|예|예|
 

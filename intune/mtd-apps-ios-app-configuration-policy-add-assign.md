@@ -15,11 +15,11 @@ ms.assetid: 00356258-76a8-4a84-9cf5-64ceedb58e72
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4d84ecc31d266deb196192c8e1b3eeade6eb5ea3
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: ba0bbe8d10b3161af19b45e3a37f51101730d567
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Intune을 사용하여 MTD(Mobile Threat Defense) 앱 추가 및 할당
 
@@ -74,7 +74,7 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
 
 다음을 수행하여 iOS 사용자에게 Azure Active Directory 인증을 사용하도록 설정합니다.
 
-1. [Azure Portal](https://portal.sazure.com)로 이동해서 자격 증명으로 로그인한 다음 응용 프로그램 페이지를 탐색합니다.
+1. [Azure Portal](https://portal.azure.com)로 이동해서 자격 증명으로 로그인한 다음 응용 프로그램 페이지를 탐색합니다.
   
 2. **Lookout for Work iOS 앱**을 **네이티브 클라이언트 응용 프로그램**으로 추가합니다.
 

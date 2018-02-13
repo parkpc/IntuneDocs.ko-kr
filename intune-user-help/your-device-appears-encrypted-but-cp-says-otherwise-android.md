@@ -17,11 +17,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ab67a6f2fd1f861ba197464a9e369ca0b54e6b5d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 661ddaa2b6b100ccf1b1b890a2c39556723a5cc9
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="your-android-device-seems-to-be-encrypted-but-company-portal-says-otherwise"></a>Android 장치가 암호화된 것 같은데 회사 포털에 다르게 표시됨
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 01/25/2018
 
 다음 장치 중 하나를 소유한 경우 최신 버전의 Android로 장치를 업데이트하지 않았다면 이 문제가 발생할 수 있습니다. **설정** > **업데이트**로 이동하여 이러한 장치용 업데이트를 설치할 수 있습니다. 
 
-- [Huawei Honor 8](http://consumer.huawei.com/en/support/mobile-phones/honor8_en-sup.htm)
+- [Huawei Honor 8](https://consumer.huawei.com/us/support/phones/honor-8/)
 - [Huawei P9](http://consumer.huawei.com/en/phones/p9/)
 
 ### <a name="known-devices-that-currently-cannot-be-updated-to-fix-this-issue"></a>현재 이 문제를 해결하기 위해 업데이트할 수 없는 알려진 장치
