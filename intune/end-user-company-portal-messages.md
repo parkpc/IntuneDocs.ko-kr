@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 3df993aa-48c5-4799-b68d-c85fe4f7b02c
 ms.reviewer: aanavath
 ms.suite: ems
-ms.openlocfilehash: 0e4629d5322721fa59a1257920815b1fc5d60780
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 58468a81d0ec3e7bfc051a6edc6a09ef1c5e62a2
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="help-end-users-understand-company-portal-app-messages"></a>최종 사용자가 회사 포털 앱 메시지를 이해할 수 있도록 지원
 
@@ -93,7 +93,7 @@ Intune이 회사 계정을 만들어 해당 장치에 등록된 사용자의 Azu
 
 
 ### <a name="how-to-explain-this-to-your-users"></a>사용자에게 이를 설명하는 방법
-사용자에게 [메일을 통해 IT 관리자에게 로그 보내기](/intune-user-help/send-logs-to-your-it-admin-by-email-android) 항목을 참조하라고 합니다. 두 방법을 비교할 수 있도록 하려는 경우 [유선으로 IT 관리자에게 로그 보내기](/intune-user-help/send-logs-to-your-it-admin-by-cable-android)도 참조하라고 할 수 있습니다.
+사용자에게 [메일을 통해 IT 관리자에게 로그 보내기](/intune-user-help/send-logs-to-your-it-admin-by-email-android) 항목을 참조하라고 합니다. 
 
 ## <a name="your-company-support-needs-to-give-you-access-to-company-resources"></a>회사 지원은 회사 리소스에 대한 액세스 권한을 제공해야 합니다.
 

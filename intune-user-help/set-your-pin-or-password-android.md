@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: dougeby
-ms.date: 11/14/2017
+ms.date: 02/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,11 +17,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: d4ce8d7878845b880e958b8869471b6393a59ba7
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: b4cf329806b49f427eaa2d1c888c40102e6564ab
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="set-your-pin-or-password"></a>PIN 또는 암호 설정
 
@@ -33,6 +33,6 @@ ms.lasthandoff: 01/25/2018
 
 2.  새 암호를 선택하고 확인합니다.
 
-특정 장치의 경우 화면 암호 외에도 시작 PIN을 설정해야 할 수 있습니다. 설정 앱에서 이 옵션을 사용하도록 설정하는 위치를 찾아 이 문제의 해결을 시도해 볼 수 있습니다. 예를 들어 Samsung Galaxy S7에서는 **설정** > **잠금 화면 및 보안** > **보안 시작**으로 이동하여 보안 시작을 사용하도록 설정합니다. 자세한 내용은 [여기](/intune-user-help/your-device-appears-encrypted-but-cp-says-otherwise)를 참조하세요. 
+특정 장치의 경우 화면 암호 외에도 시작 PIN을 설정해야 할 수 있습니다. 설정 앱에서 이 옵션을 사용하도록 설정하는 위치를 찾아 이 문제의 해결을 시도해 볼 수 있습니다. 예를 들어 Samsung Galaxy S7에서는 **설정** > **잠금 화면 및 보안** > **보안 시작**으로 이동하여 보안 시작을 사용하도록 설정합니다. 자세한 내용은 [여기](/intune-user-help/your-device-appears-encrypted-but-cp-says-otherwise-android)를 참조하세요. 
 
 여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.

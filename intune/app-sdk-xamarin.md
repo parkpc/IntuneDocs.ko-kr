@@ -5,7 +5,7 @@ keywords: sdk, Xamarin, intune
 author: erikre
 manager: dougeby
 ms.author: erikre
-ms.date: 11/01/2017
+ms.date: 02/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 4b52b83b84e36a89b5e578c9e14c5093715a559c
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: df90f3e011442e4e383c18d0309416d6549c330c
+ms.sourcegitcommit: 0a5f424a8f683daa919b13b5c363173040d561c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/13/2018
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-component"></a>Microsoft Intune 앱 SDK Xamarin 구성 요소
 
@@ -66,7 +66,7 @@ Microsoft Intune 앱 SDK Xamarin 구성 요소를 사용하면 Xamarin으로 개
 
 3.  [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) 또는 [Nuget.org](https://www.nuget.org/profiles/msintuneappsdk)에서 Intune 앱 SDK Xamarin 구성 요소 폴더를 다운로드하여 압축을 풉니다. 1단계와 3단계에서 다운로드한 파일은 모두 동일한 디렉터리 수준에 있어야 합니다.
 
-4.  관리자 권한으로 명령줄에서 `Xamarin.Component.exe install <.xam> file`을 실행합니다.
+4.  관리자 권한으로 명령줄에서 `mono Xamarin.Component.exe install <.xam> file`을 실행합니다.
 
 5.  Visual Studio에서 이전에 만든 Xamarin 프로젝트의 **구성 요소**를 마우스 오른쪽 단추로 클릭합니다.
 

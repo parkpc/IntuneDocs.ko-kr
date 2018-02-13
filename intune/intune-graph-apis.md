@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 79A67342-C06D-4D20-A447-678A6CB8D70A
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2bef90d3f5c317a0191f31901834c96829eea7e3
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: e1c97c32f5f6c81f1112c99b486898c271cc5ff2
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="how-to-use-azure-ad-to-access-the-intune-apis-in-microsoft-graph"></a>Azure AD를 사용하여 Microsoft Graph의 Intune API에 액세스하는 방법
 
@@ -434,7 +434,7 @@ namespace IntuneGraphExample
 
 ### <a name="authenticate-azure-ad-powershell"></a>Azure AD 인증(PowerShell)
 
-다음 PowerShell 스크립트는 인증을 위해 Azure AD PowerShell 모듈을 사용합니다.  자세한 내용을 알아보려면 [Azure Active Directory PowerShell 버전 2](https://docs.microsoft.co/powershell/azure/install-adv2?view=azureadps-2.0) 및 [Intune PowerShell 예제](https://github.com/microsoftgraph/powershell-intune-samples)를 참조하세요.
+다음 PowerShell 스크립트는 인증을 위해 Azure AD PowerShell 모듈을 사용합니다.  자세한 내용을 알아보려면 [Azure Active Directory PowerShell 버전 2](https://docs.microsoft.com/powershell/azure/install-adv2?view=azureadps-2.0) 및 [Intune PowerShell 예제](https://github.com/microsoftgraph/powershell-intune-samples)를 참조하세요.
 
 이 예제에서는 유효한 응용 프로그램 ID와 일치하도록 `$clientID`의 값을 업데이트합니다.
 
