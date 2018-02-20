@@ -6,7 +6,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: dougeby
-ms.date: 04/24/2017
+ms.date: 02/14/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 02b130ed13b3bb8869e35b035e787c97b76b5e85
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 70c3de614b0f5ed5075b669ecdffc08e1226817d
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="how-to-create-and-assign-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated-in-microsoft-intune"></a>Microsoft Intune에서 Exchange 온-프레미스 및 레거시 Exchange Online Dedicated용 조건부 액세스 정책을 만들고 할당하는 방법
 
@@ -65,7 +65,7 @@ Exchange Online Dedicated 환경이 있고 신규 또는 기존 구성 상태인
 - EAS 메일 클라이언트 **Android for Work 장치**: **업무용 프로필**에서 **Gmail** 및 **Nine Work** 앱만 Android for Work에 대해 지원됩니다. 조건부 액세스가 Android for Work에서 작동하려면 Gmail 또는 Nine Work 앱에 대한 메일 프로필을 배포하며, 이러한 앱을 필수 설치로 배포해야 합니다.
 
 > [!NOTE]
-> Android 및 iOS용 Microsoft Outlook 앱은 지원되지 않습니다. Android for Work는 향후 몇 개월에 걸쳐 Intune 테넌트에서 출시됩니다.
+> Android 및 iOS용 Microsoft Outlook 앱은 지원되지 않습니다. 
 
 ### <a name="support-for-pcs"></a>PC 지원
 
