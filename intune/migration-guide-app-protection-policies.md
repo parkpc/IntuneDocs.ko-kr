@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 93cda587-bf56-4d41-b123-9fe203fad788
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: d3c176b84a8555de245a1f4014c39885e50ab21d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 009759aa826872fc2c608c6786749d6706cd2f93
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="configure-app-protection-policies-optional"></a>앱 보호 정책 구성(선택 사항)
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="app-protection-policies-with-lob-apps"></a>LOB 앱의 앱 보호 정책
 
-또한 [Microsoft Intune 앱 SDK](app-sdk-get-started.md) 또는 [IOS](https://www.microsoft.com/download/details.aspx?id=45218&751be11f-ede8-5a0c-058c-2ee190a24fa6=True) 및 [Android](https://www.microsoft.com/download/details.aspx?id=47267) 플랫폼용 Microsoft Intune 앱 래핑 도구를 사용하여 LOB(기간 업무) 앱으로 모바일 앱 보호 정책을 확장할 수도 있습니다.
+또한 [Microsoft Intune 앱 SDK](app-sdk-get-started.md) 또는 iOS 및 Android 플랫폼용 Microsoft Intune 앱 래핑 도구를 사용하여 LOB(기간 업무) 앱으로 모바일 앱 보호 정책을 확장할 수도 있습니다. 자세한 내용은 [iOS용 앱 래핑 도구](app-wrapper-prepare-ios.md) 및 [Android용 앱 래핑 도구](app-wrapper-prepare-android.md)를 참조하세요. 또한 [앱 보호에 대한 LOB 앱 준비](apps-prepare-mobile-application-management.md)를 참조하세요.
 
 ## <a name="how-do-app-protection-policies-help-during-migration"></a>앱 보호 정책이 마이그레이션하는 동안 어떻게 도움이 되나요?
 

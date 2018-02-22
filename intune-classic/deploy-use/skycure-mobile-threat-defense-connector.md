@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 51f26d630537901ad39a215062f820a2c243e077
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 096cd7f2f7895531b00d77c5d26413471fb9bbcf
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="skycure-mobile-threat-defense-connector"></a>Skycure Mobile Threat Defense
 
@@ -35,7 +35,7 @@ Microsoft Intune과 통합된 모바일 위협 방어 솔루션인 Skycure에서
 
 -   취약성 방어
 
-Intune 장치 준수 정책을 통해 사용하도록 설정된 Skycure 위험 평가에 따라 조건부 액세스 정책을 구성할 수 있습니다. 이 정책을 사용하여 회사 리소스에 액세스하는 미준수 장치를 감지된 위협에 따라 허용하거나 차단할 수 있습니다.
+Intune 장치 준수 정책을 통해 사용하도록 설정된 Skycure 위험 평가에 따라 조건부 액세스 정책을 구성할 수 있습니다. 이 정책을 사용하여 회사 리소스에 액세스하는 비규격 장치를 감지된 위협에 따라 허용하거나 차단할 수 있습니다.
 
 ## <a name="how-do-intune-and-skycure-help-protect-your-company-resources"></a>Intune과 Skycure가 회사 리소스를 보호하는 데 어떤 도움이 되나요?
 
@@ -51,7 +51,7 @@ Intune은 Skycure와의 통합을 두 가지 모드로 지원합니다.
 
 -   **전체 통합**을 사용하면 Skycure에서 장치 위험 및 보안 문제 세부 정보를 Intune에 보고할 수 있습니다.
 
-## <a name="sample-scenarios"></a>샘플 시나리오
+## <a name="sample-scenarios"></a>샘플 시나리오:
 
 다음은 몇 가지 일반적인 시나리오입니다.
 

@@ -150,3 +150,4 @@
 #### [Windows Defender를 켜야 하는 경우](turn-on-defender-windows.md)
 
 ## [Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
+### [장치 원격 잠금](remote-lock-your-device-cpwebsite.md)

@@ -14,11 +14,11 @@ ms.assetid: 6e9ec662-465b-4ed4-94c1-cff0fe18f126
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 45e1b3747b4c1b74401fc1ce73716abe5e06110d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 8ce84f51dcfb61ec16c78a6216135c2a7639657f
+ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="add-users-and-give-administrative-permission-to-intune"></a>Intune에 사용자를 추가하고 관리 권한 부여
 
@@ -102,7 +102,7 @@ Intune 구독에 사용자를 추가한 후에는 몇 가지 사용자 관리 �
 - **사용자 관리자** - (Office 365 및 Intune) 암호를 재설정하고, 서비스 상태를 모니터링하고, 사용자 계정을 추가/삭제하고, 서비스 요청을 관리합니다. 사용자 관리 관리자는 전역 관리자를 삭제하거나, 다른 관리 역할을 만들거나, 다른 관리자의 암호를 재설정할 수 없습니다.
 - **Intune 서비스 관리자** -**디렉터리 역할** 옵션을 포함한 관리자를 만들 수 있는 권한을 제외한 모든 Intune 전역 관리자 권한입니다.
 
-Microsoft Intune 구독을 만드는 데 사용하는 계정은 전역 관리자입니다. 일상적인 관리 작업에는 전역 관리자를 사용하지 않는 것이 가장 좋습니다. 관리자는 Azure Portal에 액세스하는 데 Intune의 라이선스가 필요하지 않습니다. 
+Microsoft Intune 구독을 만드는 데 사용하는 계정은 전역 관리자입니다. 일상적인 관리 작업에는 전역 관리자를 사용하지 않는 것이 가장 좋습니다. 관리자는 Intune 라이선스를 사용하여 Azure Portal에서 Intune에 액세스하지 않아도 되지만 Exchange 서비스 커넥터 설정과 같은 어떤 관리 작업을 수행하려면 Intune 라이선스가 필요합니다. 
 
 Office 365 포털에 액세스하려면 계정에 **로그인 허용**이 설정되어 있어야 합니다. Azure Portal의 **프로필**에서 **로그인 차단**을 **아니요**로 설정하여 액세스를 허용합니다. 이 상태는 구독에 대한 라이선스 보유와는 다른 문제입니다. 기본적으로 모든 사용자 계정은 **허용**됩니다. 관리자 권한이 없는 사용자는 Office 365 포털을 사용하여 Intune 암호를 재설정할 수 있습니다.
 

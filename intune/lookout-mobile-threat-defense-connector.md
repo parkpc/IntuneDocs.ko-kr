@@ -15,11 +15,11 @@ ms.assetid: 3a730a5d-2a90-42b0-aa28-aadfc7a18788
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 41270fb217c87880e67c1c5e0adf319576031126
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 2647875ed6753cf437d4487faf0137e28bd40f43
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="lookout-mobile-threat-defense-connector-with-intune"></a>Intune과 Lookout 모바일 위협 방어 커넥터
 
@@ -28,14 +28,14 @@ Microsoft Intune과 통합된 Mobile Threat Defense 솔루션인 Lookout에서 �
 - 설치된 악성 앱
 - 악성 네트워크 프로필
 
-Intune 준수 정책을 통해 사용하도록 설정된 Lookout의 위험 평가에 따라 조건부 액세스 정책을 구성할 수 있습니다. 설정을 통해 감지된 위협에 따라 비규격 장치를 허용하거나 차단할 수 있습니다.
+Intune 준수 정책을 통해 사용하도록 설정된 Lookout의 위험 평가에 따라 조건부 액세스 정책을 구성할 수 있습니다. 설정을 통해 감지된 위협에 따라 검색 비규격 장치를 허용하거나 차단할 수 있습니다.
 
 ## <a name="how-do-intune-and-lookout-mobile-threat-defense-help-protect-company-resources"></a>Intune과 Lookout Mobile Threat Defense가 회사 리소스를 보호하는 데 어떤 도움이 되나요?
 Lookout의 모바일 앱인 **Lookout for Work**가 모바일 장치에서 설치되어 실행됩니다. 이 앱은 파일 시스템, 네트워크 스택, 장치 및 앱 원격 분석(사용 가능한 경우)을 캡처한 다음, Lookout 클라우드 서비스로 보내 모바일 위협에 대한 장치의 위험을 평가합니다. 요구 사항에 맞게 Lookout 콘솔에서 위협에 대한 위험 수준 분류를 변경할 수 있습니다.  
 
 Intune의 준수 정책에는 Lookout 위험 평가를 기반으로 하는 Lookout Mobile Threat Defense에 대한 규칙이 포함되어 있습니다. 이 규칙을 사용하면 Intune에서 장치가 사용되는 정책을 준수하는지를 평가합니다.
 
-장치가 정책을 준수하지 않으면 Exchange Online, SharePoint Online 등의 리소스에 대한 액세스가 차단될 수 있습니다. 차단된 장치의 사용자는 문제를 해결하고 다시 액세스하는 단계에 대한 지침을 받습니다. 지침은 Lookout for Work 앱에서 실행됩니다.
+장치는 정책을 준수하지 않으면 Exchange Online, SharePoint Online 등의 리소스에 대한 액세스가 차단될 수 있습니다. 차단된 장치의 사용자는 문제를 해결하고 다시 액세스하는 단계에 대한 지침을 받습니다. 지침은 Lookout for Work 앱에서 실행됩니다.
 
 ## <a name="supported-platforms"></a>지원되는 플랫폼
 Intune에 등록한 경우 다음과 같은 플랫폼에서 Lookout이 지원됩니다.

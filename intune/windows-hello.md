@@ -6,20 +6,18 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 11/28/2017
+ms.date: 1/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 541be8b8-8668-41be-afce-3f3e08c12191
-ms.reviewer: davidra
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9ce18162391318374729b55aaeb302d850c17939
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 3fb7de9fb320b74895b702167750e149eba34e1e
+ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="use-windows-hello-for-business"></a>비즈니스용 Windows Hello 사용
 
@@ -94,6 +92,18 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 
  - **휴대폰 로그인 사용**. 이 옵션이 **예**로 설정되면 원격 Passport를 데스크톱 컴퓨터 인증을 위한 휴대용 포함 장치로 사용할 수 있습니다. 데스크톱 컴퓨터가 Azure Active Directory에 연결되어 있어야 하고 해당 포함 장치는 비즈니스용 Windows Hello PIN으로 구성되어야 합니다.
 
+## <a name="windows-holographic-for-business-support"></a>Windows Holographic for Business 지원
+
+Windows Holographic for Business는 다음과 같은 비즈니스용 Windows Hello 설정을 지원합니다.
+
+- Use a Trusted Platform Module (TPM)(TPM(신뢰할 수 있는 플랫폼 모듈) 사용)
+- 최소 PIN 길이
+- 최대 PIN 길이
+- PIN에 소문자 사용
+- PIN에 대문자 사용
+- PIN에 특수 문자 사용
+- PIN 만료(일)
+- PIN 기록 기억
 
 ## <a name="further-information"></a>추가 정보
 Microsoft Passport에 대한 자세한 내용은 Windows 10 설명서의 [가이드](https://technet.microsoft.com/library/mt589441.aspx)를 참조하세요.

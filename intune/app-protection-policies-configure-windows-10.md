@@ -15,11 +15,11 @@ ms.assetid: 949fddec-5318-4c9a-957e-ea260e6e05be
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3254adc66c5fd5dc991364c3a33aabef8ac2030b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: f4b6a442f83491160f72955d02b8023ee4d949f2
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="get-ready-to-configure-app-protection-policies-for-windows-10"></a>Windows 10용 앱 보호 정책 구성 준비
 
@@ -50,7 +50,7 @@ Azure AD에서 MAM 공급자를 설정하여 Windows 10용 MAM(모바일 응용 
     MAM 서비스 등록 끝점의 URL입니다. 등록 끝점은 MAM 서비스에서 관리할 장치를 등록하는 데 사용됩니다.
 
     **MAM 준수 URL**  
-      MAM 서비스 준수 끝점의 URL입니다. 사용자가 비준수 장치에서 리소스에 액세스하는 것을 거부당하면 준수 URL 링크가 해당 사용자에게 표시됩니다. 사용자는 MAM 서비스에서 호스트하는 이 URL로 이동하여 해당 장치가 비준수 상태로 간주되는 이유를 알아볼 수 있습니다. 사용자는 장치가 준수 상태가 되어 리소스에 계속 액세스할 수 있도록 셀프 서비스 수정을 시작할 수도 있습니다.
+      MAM 서비스 준수 끝점의 URL입니다. 사용자가 비규격 장치에서 리소스에 액세스하는 것을 거부당하면 준수 URL 링크가 해당 사용자에게 표시됩니다. 사용자는 MAM 서비스에서 호스트하는 이 URL로 이동하여 해당 장치가 비규격 상태로 간주되는 이유를 알아볼 수 있습니다. 사용자는 장치가 준수 상태가 되어 리소스에 계속 액세스할 수 있도록 셀프 서비스 수정을 시작할 수도 있습니다.
 
 5.  **Save**을 클릭합니다.
 

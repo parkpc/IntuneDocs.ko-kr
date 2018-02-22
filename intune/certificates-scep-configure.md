@@ -14,11 +14,11 @@ ms.technology:
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5aea88aa8898380c54867090650bd16d8bf60f3c
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 61193cc96f0ea22e9a80d24fe8ee0499e80d4202
+ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="configure-and-manage-scep-certificates-with-intune"></a>Intune을 사용하여 SCEP 인증서 구성 및 관리
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -35,7 +35,7 @@ ms.lasthandoff: 01/25/2018
 -  **NDES 서버**: Windows Server 2012 R2 이상을 실행하는 서버에 NDES(네트워크 장치 등록 서비스)를 설치해야 합니다. 엔터프라이즈 CA를 실행하는 서버에 NDES가 실행되는 경우 Intune는 사용을 지원하지 않습니다. 네트워크 장치 등록 서비스를 호스트하도록 Windows Server 2012 R2를 구성하는 방법에 대한 지침은 [네트워크 장치 등록 서비스 지침](http://technet.microsoft.com/library/hh831498.aspx)을 참조하세요.
 NDES 서버는 CA를 호스트하는 도메인에 가입해야 하며 CA와 동일한 서버에 있지 않아야 합니다. 별도의 포리스트, 격리된 네트워크 또는 내부 도메인에 NDES 서버를 배포하는 방법에 대한 자세한 내용은 [네트워크 장치 등록 서비스와 함께 정책 모듈 사용](https://technet.microsoft.com/library/dn473016.aspx) 항목에서 찾아볼 수 있습니다.
 
--  **Microsoft Intune 인증서 커넥터**: Azure Portal을 사용하여 **인증서 커넥터** 설치 관리자(**ndesconnectorssetup.exe**)를 다운로드합니다. 그러면 인증서 커넥터를 설치할 컴퓨터에서 **ndesconnectorssetup.exe** 를 실행할 수 있습니다. 
+-  **Microsoft Intune 인증서 커넥터**: Azure Portal을 사용하여 **인증서 커넥터** 설치 관리자(**ndesconnectorssetup.exe**)를 다운로드합니다. 그런 다음, 인증서 커넥터를 설치하려는 NDES(Network Device Enrollment Service) 역할을 호스트하는 서버에서 **ndesconnectorssetup.exe**를 실행할 수 있습니다. 
 -  **웹 응용 프로그램 프록시 서버**(선택 사항): Windows Server 2012 R2 이상을 WAP(웹 응용 프로그램 프록시) 서버로 실행하는 서버를 사용합니다. 이 구성의 특징은 다음과 같습니다.
     -  장치에서 인터넷 연결을 사용하여 인증서를 받을 수 있습니다.
     -  장치가 인터넷을 통해 연결하여 인증서를 받고 갱신하는 경우 보안상 안전합니다.
@@ -299,7 +299,7 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
 이 작업에서는 다음을 수행합니다.
 
 - Intune에서 NDES를 지원하도록 설정
-- 사용자 환경의 서버에서 인증서 커넥터를 다운로드, 설치 및 구성. 고가용성을 지원하기 위해 서로 다른 서버에 여러 인증서 커넥터를 설치할 수 있습니다.
+- 해당 환경의 서버인 NDES(Network Device Enrollment Service) 역할을 호스트하는 서버에서 인증서 커넥터를 다운로드, 설치 및 구성합니다. 조직에서 NDES 구현의 확장성을 높이려면 각 NDES 서버에 Microsoft Intune 인증서 커넥터가 있는 여러 NDES 서버를 설치할 수 있습니다.
 
 ##### <a name="to-download-install-and-configure-the-certificate-connector"></a>인증서 커넥터를 다운로드, 설치 및 구성하려면
 ![ConnectorDownload](./media/certificates-download-connector.png)   
@@ -309,7 +309,7 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
 3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
 4. **장치 구성** 블레이드에서 **인증 기관**을 선택합니다.
 5. **추가**를 클릭하고 **커넥터 파일 다운로드**를 선택합니다. 설치할 서버에서 액세스할 수 있는 위치에 다운로드를 저장합니다. 
-6.  다운로드가 완료되면 Windows Server 2012 R2 서버에서 다운로드한 설치 관리자(**ndesconnectorssetup.exe**)를 실행합니다. 설치 관리자가 NDES에 대한 정책 모듈 및 CRP 웹 서비스도 설치합니다. CRP 웹 서비스 CertificateRegistrationSvc는 IIS에서 응용 프로그램으로 실행됩니다.
+6.  다운로드가 완료되면 NDES(Network Device Enrollment Service) 역할을 호스트하는 서버에서 다운로드한 설치 관리자(**ndesconnectorssetup.exe**)를 실행합니다. 설치 관리자가 NDES에 대한 정책 모듈 및 CRP 웹 서비스도 설치합니다. CRP 웹 서비스 CertificateRegistrationSvc는 IIS에서 응용 프로그램으로 실행됩니다.
 
     > [!NOTE]
     > 독립 실행형 Intune에 NDES를 설치하면 CRP 서비스가 인증서 커넥터와 함께 자동으로 설치됩니다. 구성 관리자와 함께 Intune을 사용할 때는 별도의 사이트 시스템 역할로 인증서 등록 지점을 설치합니다.

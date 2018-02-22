@@ -15,17 +15,17 @@ ms.assetid: 975d8d84-792a-41ad-925a-4a7f1ae4dcaf
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b21b06dd255cdc875242afe1fd6228f5db3887dd
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 8f26cf20b4e1168fbced1df88886343f41824158
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="zimperium-mobile-threat-defense-connector-with-intune"></a>Intune 및 Zimperium MTD(Mobile Threat Defense) 커넥터 통합
 
 Microsoft Intune과 통합되는 MTD(Mobile Threat Defense) 솔루션인 Zimperium에서 수행된 위험 평가에 따라 조건부 액세스를 사용하여 모바일 장치에서 회사 리소스에 대한 액세스를 제어할 수 있습니다. 위험은 Zimperium 앱을 실행하는 장치에서 수집된 원격 분석에 기반하여 평가됩니다.
 
-Intune 장치 준수 정책을 통해 사용하도록 설정된 Zimperium 위험 평가에 따라 조건부 액세스 정책을 구성할 수 있습니다. 이 정책을 사용하여 감지된 위협에 따라 미준수 장치의 회사 리소스에 대한 액세스를 허용하거나 차단할 수 있습니다.
+Intune 장치 준수 정책을 통해 사용하도록 설정된 Zimperium 위험 평가에 따라 조건부 액세스 정책을 구성할 수 있습니다. 이 정책을 사용하여 감지된 위협에 따라 비규격 장치의 회사 리소스에 대한 액세스를 허용하거나 차단할 수 있습니다.
 
 ## <a name="how-do-intune-and-zimperium-help-protect-your-company-resources"></a>Intune과 Zimperium이 회사 리소스를 어떻게 보호하나요?
 

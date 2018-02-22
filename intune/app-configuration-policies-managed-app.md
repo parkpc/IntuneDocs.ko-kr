@@ -3,10 +3,10 @@ title: "장치 등록 없이 관리되는 앱용 앱 구성 정책 추가 | Micr
 titlesuffix: Azure portal
 description: "장치 등록 없이 관리되는 앱용 앱 구성 정책을 사용하는 방법을 알아봅니다."
 keywords: 
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/7/2017
+ms.date: 02/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: E61C1618-79D0-41A1-B61F-4123FB6672FC
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c2266e460d816dfdd908d6a68944c8c2cc5c0afc
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 136032be6a05ad56dd78fe40e66d3d049a4b5a03
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="add-app-configuration-policies-for-managed-apps-without-device-enrollment"></a>장치 등록 없이 관리되는 앱용 앱 구성 정책 추가
 
@@ -41,8 +41,8 @@ ms.lasthandoff: 01/25/2018
 6. **연결된 앱**을 선택하여 구성할 앱을 선택합니다. 승인했으며 Intune과 동기화한 앱을 앱 목록에서 선택합니다.
 7. 앱에서 지원하는 각 구성 설정의 경우 **이름** 및 **값**을 입력하고 줄임표(**...**)를 선택합니다.  
     구성을 삭제하려면 줄임표(**...**)를 선택하고 **삭제**를 선택합니다.  
-    Intune 앱 SDK를 사용할 수 있는 앱은 키-값 쌍의 구성을 지원합니다. 지원되는 키-값 구성에 대한 자세한 내용은 각 앱의 설명서를 참조하세요.  
-    또한 응용 프로그램에 의해 생성된 데이터로 동적으로 채워지는 토큰을 사용할 수 있습니다.
+    
+Intune 앱 SDK를 사용할 수 있는 앱은 키-값 쌍의 구성을 지원합니다. 지원되는 키-값 구성에 대한 자세한 내용은 각 앱의 설명서를 참조하세요. 또한 응용 프로그램에 의해 생성된 데이터로 동적으로 채워지는 토큰을 사용할 수 있습니다. iOS용 Outlook 앱 구성 정책 설정에 대한 자세한 내용은 [Microsoft Intune을 사용하여 iOS용 Outlook 앱 구성 관리](https://technet.microsoft.com/en-us/library/mt813789(v=exchg.150).aspx)를 참조하세요.
 
 ## <a name="configuration-values-for-using-tokens"></a>토큰 사용을 위한 구성 값
 

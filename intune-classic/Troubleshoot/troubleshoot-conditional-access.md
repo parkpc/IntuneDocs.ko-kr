@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 21053cd7ce930bd11625807f7fdda3ebbdd953f3
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 5f16e14b32508adf1fc4f3f448f53a7dcad8e137
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="troubleshoot-conditional-access"></a>조건부 액세스 문제 해결
 
@@ -90,7 +90,7 @@ Azure 관리 포털 및 장치 인벤토리 보고서에서 각 장치에 대해
 - Exchange Connector 로그에서 sendemail 작업과 오류를 확인하세요. 검색할 명령의 예로 알림 계정에서 사용자 메일로 SendEmail이 있습니다.
 - Exchange Connector에서 장치를 차단하기 전에 활성화 메일이 전송됩니다. 장치가 오프라인이면 활성화 메일을 받지 못할 수도 있습니다. 장치 메일 클라이언트에 폴링 대신 푸시를 사용하는 메일 검색이 있는지 확인합니다. 폴링을 사용하면 사용자가 메일을 놓칠 수도 있습니다. 폴링으로 전환하여 장치가 메일을 받는지 확인하세요.
 
-## <a name="non-compliant-device-not-blocked"></a>비규격 장치가 차단되지 않음
+## <a name="noncompliant-device-not-blocked"></a>비규격 장치가 차단되지 않음
 
 규격이 아니지만 계속 액세스 권한이 있는 장치가 있는 경우 다음 단계를 수행합니다.
 

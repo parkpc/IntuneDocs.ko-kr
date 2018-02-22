@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5ee11809349999a795aca0a373724ce18eedbe65
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: f649227c6ad49cd9c788e75097bc4a5eeb71f350
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="create-lookout-device-compliance-policy-in-intune"></a>Intune에서 Lookout 장치 준수 정책 만들기
 
@@ -40,7 +40,7 @@ Lookout Mobile Threat Defense 설정의 일부로, [Lookout 콘솔](https://aad.
 
 2. **허용된 최대 위협 수준**을 선택합니다.
   * **없음(보안됨)**: 가장 안전한 수준입니다.  장치가 어떠한 위협에도 노출되지 않았으며 회사 리소스에 계속 액세스할 수 있습니다.  어떠한 위협이든 확인되는 장치는 비규격으로 평가됩니다.  
-  * **낮음**: 낮은 수준의 위협만 있는 장치는 규격 장치입니다. 더 높은 수준의 위협이 확인되는 장치는 비규격 상태로 설정됩니다.
+  * **낮음**: 낮은 수준의 위협만 있는 장치는 규격 장치입니다. 더 높은 수준의 위협이 발생하면 장치는 규정 비준수 상태가 됩니다.
   * **보통**: 낮음 또는 보통 수준의 위협이 발견되는 장치는 규격 장치입니다. 높은 수준의 위협이 검색되는 장치는 비규격으로 간주됩니다.
   * **높음**: 안전성이 가장 낮은 수준입니다. 이 수준은 모든 위협 수준을 허용하며 방지 보고용으로만 Lookout 모바일 위협 방지를 사용합니다.
 

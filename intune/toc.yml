@@ -287,6 +287,26 @@
           items:
             - name: 선택적으로 앱 지우기
               href: apps-selective-wipe.md
+            - name: 앱 보호 정책 사용
+              href: app-protection-policy.md
+              items:
+                - name: 앱 보호 정책 만들기
+                  href: app-protection-policies.md
+                  items:
+                    - name: Android 설정
+                      href: app-protection-policy-settings-android.md
+                    - name: iOS 설정
+                      href: app-protection-policy-settings-ios.md
+                - name: 앱 보호 정책 유효성 검사
+                  href: app-protection-policies-validate.md
+                - name: 앱 보호 사용자 상태 모니터링
+                  href: app-protection-policies-monitor.md
+                - name: WIP 앱 보호 정책 준비
+                  href: app-protection-policies-configure-windows-10.md
+                - name: WIP 앱 보호 정책 만들기 및 할당
+                  href: windows-information-protection-policy-create.md
+                - name: iOS 앱 간의 데이터 전송 관리
+                  href: data-transfer-between-apps-manage-ios.md
     - name: 장치 구성
       href: device-profiles.md
       items:
@@ -444,28 +464,8 @@
           href: conditional-access-integrate-jamf.md
         - name: Jamf Pro로 관리되는 Mac에서 준수 적용
           href: conditional-access-assign-jamf.md
-    - name: 앱 및 장치 데이터 보호
+    - name: 장치 데이터 보호
       items:
-        - name: 앱 보호 정책 사용
-          href: app-protection-policy.md
-          items:
-            - name: 앱 보호 정책 만들기
-              href: app-protection-policies.md
-              items:
-                - name: Android 설정
-                  href: app-protection-policy-settings-android.md
-                - name: iOS 설정
-                  href: app-protection-policy-settings-ios.md
-            - name: 앱 보호 정책 유효성 검사
-              href: app-protection-policies-validate.md
-            - name: 앱 보호 사용자 상태 모니터링
-              href: app-protection-policies-monitor.md
-            - name: WIP 앱 보호 정책 준비
-              href: app-protection-policies-configure-windows-10.md
-            - name: WIP 앱 보호 정책 만들기 및 할당
-              href: windows-information-protection-policy-create.md
-            - name: iOS 앱 간의 데이터 전송 관리
-              href: data-transfer-between-apps-manage-ios.md
         - name: Mobile Threat Defense
           href: mobile-threat-defense.md
           items:
@@ -651,6 +651,8 @@
           href: reports-proc-data-rest.md
         - name: 데이터 웨어하우스 API 끝점
           href: reports-api-url.md
+        - name: 데이터 웨어하우스 응용 프로그램 전용 인증
+          href: data-warehouse-app-only-auth.md
         - name: 데이터 웨어하우스 데이터 모델
           href: reports-ref-data-model.md
           items:

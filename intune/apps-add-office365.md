@@ -6,7 +6,7 @@ keywords:
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 08/14/2017
+ms.date: 01/29/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 3292671a-5f5a-429e-90f7-b20019787d22
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7ee1657351551ea83c6089c5ac52655b9cd64fc2
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 3174fc498b5d8cffaade7c52f417409de64c7eb6
+ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="how-to-assign-office-365-proplus-2016-apps-to-windows-10-devices-with-microsoft-intune"></a>Microsoft Intune을 사용하여 Office 365 ProPlus 2016 앱을 Windows 10 장치에 할당하는 방법
 
@@ -33,9 +33,10 @@ ms.lasthandoff: 01/25/2018
 
 - 이러한 앱을 배포할 장치에서 Windows 10 크리에이터스 업데이트 이상을 실행하고 있어야 합니다.
 - Intune에서는 Office 365 ProPlus 2016 제품군에서 Office 앱을 추가하는 기능만 지원합니다.
-- Intune에서 앱 패키지를 설치할 때 Office 앱이 열리면 저장되지 않은 파일에서 최종 사용자의 데이터가 손실될 수 있습니다.
-- 이 설치 방법은 Windows 10S 장치에서 지원되지 않습니다.
+- Intune에서 앱 패키지를 설치할 때 Office 앱이 열리면, 설치가 실패할 수 있으며 최종 사용자는 저장되지 않은 파일의 데이터를 잃을 수 있습니다.
+- 이 설치 방법은 Windows 10S, Windows Home, Windows Team, Windows Holographic 및 Windows Holographic for Business 장치에서 지원되지 않습니다.
 - Intune은 Microsoft 스토어의 365 데스크톱 앱(Office Centennial 앱)을 이미 Intune으로 Office 365 앱을 배포한 장치에 설치하는 것을 지원하지 않습니다. 이 구성을 설치할 경우 데이터 손실이나 손상이 발생할 수 있습니다.
+- 다수의 필수 또는 사용 가능한 앱 할당은 추가되지 않습니다. 이후 앱 할당은 기존에 설치된 앱 할당을 덮어씁니다. 예를 들어 첫 번째 Office 앱 집합에 Word가 포함되어 있고 이후 Office 앱에는 포함되어 있지 않으면 Word가 제거됩니다. 이는 모든 Visio 또는 Project 응용 프로그램에 적용되지 않습니다.
 
 
 ## <a name="get-started"></a>시작

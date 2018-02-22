@@ -6,20 +6,18 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 12/03/2017
+ms.date: 1/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
-ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3637ad08e097e4edcd527b3603dd00e1eac47f71
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 772b7f025adc7ae80d0f14c5c630209c4c7529b2
+ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="how-to-configure-vpn-settings-in-microsoft-intune"></a>Microsoft Intune에서 VPN 설정을 구성하는 방법
 
@@ -77,7 +75,7 @@ VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전
     - [macOS 설정](vpn-settings-macos.md)
     - [Windows Phone 8.1 설정](vpn-settings-windows-phone-8-1.md)
     - [Windows 8.1 설정](vpn-settings-windows-8-1.md)
-    - [Windows 10 설정](vpn-settings-windows-10.md)
+    - [Windows 10 설정](vpn-settings-windows-10.md)(Windows Holographic for Business 포함)
 8. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
 
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.

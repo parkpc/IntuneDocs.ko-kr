@@ -6,7 +6,7 @@ keywords:
 author: erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 01/30/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,24 @@ ms.assetid: c9163693-d748-46e0-842a-d9ba113ae5a8
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 97084d0155788fc6aa0604454b46e783a3eb271b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: b64d8b60a4c577acc2f6ef161f6de37ac529e7ac
+ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/03/2018
 ---
 # <a name="add-app-configuration-policies-for-managed-ios-devices"></a>관리되는 iOS 장치용 앱 구성 정책 추가
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 iOS 앱을 실행할 때 설정을 제공할 수 있습니다. 사용자 및 장치에 이러한 정책을 직접 할당하지는 않으며, 대신 앱에 정책을 연결한 다음 앱을 할당합니다. 정책 설정은 앱에서 해당 설정을 확인할 때(일반적으로는 앱을 처음 실행할 때) 사용됩니다.
+
+포함 및 제외 할당의 조합을 사용하여 사용자 및 장치 그룹에 응용 프로그램 구성 정책을 할당할 수 있습니다. 앱 구성 정책을 추가하면 앱 구성 정책에 대한 할당을 설정할 수 있습니다. 정책에 대한 할당을 설정할 때 정책이 적용될 사용자 그룹을 포함할지 제외할지 선택할 수 있습니다. 하나 이상의 그룹을 포함하도록 선택하면 기본 제공 그룹을 포함하거나 선택하기 위해 특정 그룹을 선택할 수 있습니다. 기본 제공 그룹에는 **모든 사용자**, **모든 장치** 및 **모든 사용자 + 모든 장치**가 포함됩니다. 
+
+>[!NOTE]
+>Intune은 편의를 위해 콘솔에서 미리 만든 **모든 사용자** 및 **모든 장치** 그룹에 기본 최적화 기능을 제공합니다. 이들 그룹을 사용하여 직접 만든 '모든 사용자' 또는 '모든 장치' 그룹 대신 모든 사용자와 모든 장치를 지정하는 것이 좋습니다.
+
+응용 프로그램 구성 정책에 대해 포함된 그룹을 선택하면 제외할 특정 그룹을 선택할 수도 있습니다.
 
 > [!TIP]
 > 이 정책 유형은 현재 iOS 8.0 이상을 실행하는 장치에서만 사용 가능합니다. 지원하는 앱 설치 유형은 다음과 같습니다.
@@ -52,9 +59,24 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 iOS 앱을
 7.  **연결된 앱**을 선택합니다. 그런 다음 **연결된 앱** 블레이드에서 구성을 적용할 관리되는 앱을 선택합니다.
 8.  **구성 정책 추가** 블레이드에서 **구성 설정**을 선택합니다.
 9. **구성 설정 형식**을 선택합니다. 다음 중 하나를 선택합니다.
-    - **[구성 디자이너 사용](#Use-the-configuration-designer)**
+    - **[구성 디자이너 사용](#use-configuration-designer)**
     - **[XML 데이터 입력](#enter-xml-data)**
-10. **확인**을 선택한 다음 **추가**를 선택합니다.
+10. XML 정보를 추가했으면 **확인**을 선택한 다음, **추가**를 선택하여 구성 정책을 추가합니다. 구성 정책에 대한 개요 블레이드가 표시됩니다.
+11. **할당**을 선택하여 포함 및 제외 옵션을 표시합니다. 
+
+    ![정책 할당](./media/app-config-policy01.png)
+12. **포함** 탭에서 **모든 사용자**를 선택합니다.
+
+    ![정책 할당 - 모든 사용자](./media/app-config-policy02.png)
+13. **제외** 탭을 선택합니다. 
+14. **제외할 그룹 선택**을 클릭하여 관련 블레이드를 표시합니다.
+
+    ![정책 할당 - 제외할 그룹 선택](./media/app-config-policy03.png)
+15. 제외하려는 그룹을 클릭한 다음, **선택**을 클릭합니다.
+
+    >[!NOTE]
+    >그룹을 추가할 때 주어진 할당 유형에 이미 다른 그룹이 포함되어 있으면 다른 포함 할당 유형에 대해 사전 선택되며 변경할 수 없습니다. 따라서 사용된 해당 그룹은 제외된 그룹으로 사용할 수 없습니다.
+16. **Save**을 클릭합니다.
 
 ## <a name="use-configuration-designer"></a>구성 디자이너 사용
 

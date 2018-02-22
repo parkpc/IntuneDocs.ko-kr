@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: a0b8e55e-c3d8-4599-be25-dc10c1027b62
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: dff3c5c077c9d67c667c7f3a53326e555a1cce92
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 8987f8e6eb7a770a90d187c0787589acfbacdb09
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="common-ways-to-use-conditional-access-with-intune"></a>Intune에서 조건부 액세스를 사용하는 일반적인 방법
 
@@ -52,7 +52,7 @@ Intune은 장치의 준수 상태를 평가하는 장치 준수 정책 기능을
 
 장치 준수 및 조건부 액세스 정책을 적용하면 Exchange 온-프레미스에 액세스하는 데 사용되는 모든 장치에서 준수를 확인합니다.
 
-장치가 설정된 조건을 충족하지 않는 경우 최종 사용자에게 장치를 등록하고 비준수의 원인이 되는 문제를 해결하는 과정이 안내됩니다.
+장치가 설정된 조건을 충족하지 않는 경우 최종 사용자에게 장치를 등록하고 비규격의 원인이 되는 문제를 해결하는 과정이 안내됩니다.
 
 #### <a name="how-conditional-access-for-exchange-on-premises-works"></a>Exchange 온-프레미스에 대한 조건부 액세스의 작동 방식
 
