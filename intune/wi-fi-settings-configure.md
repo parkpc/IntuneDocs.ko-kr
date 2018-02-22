@@ -6,20 +6,18 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 12/03/2017
+ms.date: 1/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 1fadb488-9c6c-43c1-ba23-8c69db633b96
-ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 161b0de7d697a4ed2d8f80dffdef71296eb6ced2
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: e03df2525b413ca33f81836292a05dac11bb8349
+ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/03/2018
 ---
 # <a name="how-to-configure-wi-fi-settings-in-microsoft-intune"></a>Microsoft Intune에서 Wi-Fi 설정을 구성하는 방법
 
@@ -33,6 +31,8 @@ Microsoft Intune Wi-Fi 프로필을 사용하여 무선 네트워크 설정을 �
 2. iOS 장치의 모든 사용자를 포함하는 그룹에 프로필을 할당합니다.
 3. 사용자는 장치의 무선 네트워크 목록에서 새 Contoso Wi-Fi 네트워크를 찾아서 쉽게 연결할 수 있습니다.
 
+## <a name="supported-device-platforms"></a>지원되는 장치 플랫폼
+
 Wi-Fi 프로필은 다음 장치 플랫폼을 지원합니다.
 
 - Android 4 이상
@@ -40,7 +40,7 @@ Wi-Fi 프로필은 다음 장치 플랫폼을 지원합니다.
 - iOS 8.0 이상
 - macOS(Mac OS X 10.9 이상)
 
-Windows 8.1, Windows 10 및 Windows 10 Mobile을 실행하는 장치의 경우 이전에 다른 장치에서 내보낸 Wi-Fi 구성을 가져올 수 있습니다.
+Windows 8.1, Windows 10, Windows 10 Mobile 및 Windows Holographic for Business를 실행하는 장치의 경우 이전에 다른 장치에서 내보낸 Wi-Fi 구성을 가져올 수 있습니다.
 
 이 항목의 정보를 사용하여 Wi-Fi 프로필 구성에 대한 기본 사항을 알아본 다음 각 플랫폼에 대한 추가 항목을 통해 장치에 특정한 정보를 확인할 수 있습니다.
 
@@ -58,13 +58,22 @@ Windows 8.1, Windows 10 및 Windows 10 Mobile을 실행하는 장치의 경우 �
     - **Android**
     - **macOS**
     - **Windows 8.1 이상(프로필 가져오기)**
-6. **프로필** 유형 드롭다운 목록에서 **Wi-Fi 기본** 또는 **Wi-Fi 엔터프라이즈**를 선택합니다. **Wi-Fi 기본**을 사용하여 네트워크 이름 및 SSID와 같은 기본 기능을 제공할 수 있습니다. **Wi-Fi 엔터프라이즈**를 사용하여 EAP(확장 인증 프로토콜)와 같은 보다 고급 정보를 제공할 수 있습니다(Wi-Fi 네트워크에서 이를 사용하는 경우). **Wi-Fi 가져오기**(Windows 8.1 및 Windows 10의 경우)를 사용하여 이전에 다른 장치에서 내보낸 XML 파일로 Wi-Fi 설정을 가져올 수 있습니다.
-7. 선택한 플랫폼에 따라 구성할 수 있는 설정이 다릅니다. 각 플랫폼에 대한 자세한 설정을 보려면 다음 항목 중 하나로 이동하세요.
+
+   > [!IMPORTANT]
+   > Windows Holographic for Business를 포함하여 Windows 10을 실행하는 장치용 프로필을 만드는 경우 **Windows 8.1 이상** 플랫폼을 선택해야 합니다. **Windows 10 이상** 플랫폼에는 Wi-Fi 프로필 유형이 포함되지 않습니다. 
+
+6. Apple 또는 Android 장치의 경우, **WiFi 유형** 드롭다운 목록에서 **기본** 또는 **엔터프라이즈**를 선택합니다. **기본**을 사용하여 네트워크 이름 및 SSID와 같은 기본 기능을 제공할 수 있습니다. **엔터프라이즈**를 사용하여 EAP(확장 인증 프로토콜)와 같은 보다 고급 정보를 제공할 수 있습니다(Wi-Fi 네트워크에서 이를 사용하는 경우). 
+
+   **Wi-Fi 가져오기** 프로필(Windows 8.1 이상)을 사용하여 이전에 다른 장치에서 내보낸 XML 파일로 Wi-Fi 설정을 가져올 수 있습니다.
+1. 선택한 플랫폼에 따라 구성할 수 있는 설정이 다릅니다. 각 플랫폼에 대한 자세한 설정을 보려면 다음 항목 중 하나로 이동하세요.
     - [Android and Android for Work 설정](wi-fi-settings-android.md)
     - [iOS 설정](wi-fi-settings-ios.md)
     - [macOS 설정](wi-fi-settings-macos.md)
-    - [Windows Phone 8.1 설정](wi-fi-settings-import-windows-8-1.md)
-8. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
+    - [Windows 8.1 이상 설정](wi-fi-settings-import-windows-8-1.md)(Windows Holographic for Business 포함)
+1. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
 
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
+
+## <a name="next-steps"></a>다음 단계
+
 계속해서 이 프로필을 그룹에 할당하려면 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
