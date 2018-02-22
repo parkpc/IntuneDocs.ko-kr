@@ -138,6 +138,8 @@
           href: groups-add.md
         - name: 라이선스 할당
           href: licenses-assign.md
+        - name: Intune 라이선스
+          href: licenses.md
         - name: MDM 기관 설정
           href: mdm-authority-set.md
     - name: 장치 등록
@@ -194,6 +196,8 @@
           href: device-locate.md
         - name: iOS 분실 모드 사용
           href: device-lost-mode.md
+        - name: iOS 감독 모드 켜기
+          href: device-supervised-mode.md
         - name: 장치 잠금
           href: device-remote-lock.md
         - name: 암호 초기화
@@ -251,7 +255,7 @@
             - name: 웹앱
               href: web-app.md
             - name: 기본 제공 앱
-              href: apps-add-bulit-in.md
+              href: apps-add-built-in.md
         - name: 앱 배포
           href: apps-deploy.md
           items:
