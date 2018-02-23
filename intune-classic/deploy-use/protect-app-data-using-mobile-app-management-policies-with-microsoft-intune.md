@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 23dca24c69cca3c7a2851cb3fa7d9959f31df8e7
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: e5f9eb33ca877fba0d59cfd9ddbc23f5eb2cd05c
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="protect-app-data-using-app-protection-policies-with-microsoft-intune"></a>Microsoft Intune에서 앱 보호 정책을 사용하여 앱 데이터 보호
 
@@ -57,9 +57,7 @@ Intune 앱 보호 정책을 사용하여 회사 데이터를 보호할 수 있�
 - **앱 보호 정책은 앱 계층 보호가 구현되었는지 확인합니다.** 예를 들어 회사 컨텍스트에서 앱을 열 때 PIN을 요구하고, 데이터가 앱 간에 공유되는 것을 방지하고, 회사 앱 데이터가 개인 저장소 위치에 저장되는 것을 방지하는 정책을 유지할 수 있습니다.
 
 ## <a name="devices-that-support-mam"></a>MAM을 지원하는 장치
-앱 보호 정책은 현재 다음에서 지원됩니다.
--   iOS 8.1 이상
--   Android 4 이상
+Intune 앱 보호 정책 플랫폼 지원은 Office 응용 프로그램 플랫폼 지원에 맞춰집니다. 자세한 내용은 [Office 시스템 요구 사항](https://products.office.com/en-US/office-system-requirements)을 참조하세요.
 
 >[!NOTE]
 >등록 시나리오가 없는 MAM에서는 Windows 장치가 지원되지 않습니다. 그러나 Windows 10 장치를 Intune에 등록할 경우 유사한 기능을 제공하는 Windows Information Protection을 사용할 수 있습니다. 자세한 내용은 [WIP(Windows Information Protection)를 사용하여 엔터프라이즈 데이터 보호](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip)를 참조하세요.

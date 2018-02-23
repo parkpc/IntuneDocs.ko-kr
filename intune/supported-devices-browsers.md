@@ -14,11 +14,11 @@ ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1e6b14d5152df8420c5d358ccd9057d7ba427800
-ms.sourcegitcommit: d9de1e92c3913f731d5da3c51a5e1e9b2686894b
+ms.openlocfilehash: 11c4336979ee9089b218ea79ac826176d99492d9
+ms.sourcegitcommit: 754fcc31155b28d6910bba45419c6be745f8793e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="supported-operating-systems-and-browsers"></a>지원되는 운영 체제 및 브라우저
 
@@ -106,7 +106,10 @@ You can manage [Exchange ActiveSync devices](/intune-classic/deploy-use/mobile-d
 - Microsoft Internet Explorer 11
 - Safari(최신 버전, Mac만)
 - Chrome(최신 버전)
-- Firefox(최신 버전)
+- Silverlight가 지원되는 Mozilla Firefox [자세히 알아보기(버전 52 이전 버전)](https://go.microsoft.com/fwlink/?linkid=836872)
+
+
+
 
 ### <a name="intune-classic-portal"></a>Intune 클래식 포털
 

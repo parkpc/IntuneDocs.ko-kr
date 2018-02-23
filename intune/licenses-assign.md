@@ -2,8 +2,8 @@
 title: "Intune 라이선스 할당"
 description: "Intune 구독에 대해 사용자에게 라이선스 할당"
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 10/31/2017
 ms.topic: get-started-article
@@ -14,17 +14,17 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: fd407b8b933c7edce449cd25a9fbd53f4299fcc3
-ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
+ms.openlocfilehash: 2ad754ce3d81469bb172081b6b7f43937f45ffd9
+ms.sourcegitcommit: cccbb6730a8c84dc3a62093b8910305081ac9d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="assign-intune-licenses-to-your-user-accounts"></a>사용자 계정에 Intune 라이선스 할당
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
-수동으로 사용자를 추가하든 아니면 온-프레미스 Active Directory에서 동기화하든 상관없이 먼저 각 사용자에게 Intune 라이선스를 할당해야 사용자가 Intune에 장치를 등록할 수 있습니다.
+수동으로 사용자를 추가하든 아니면 온-프레미스 Active Directory에서 동기화하든 상관없이 먼저 각 사용자에게 Intune 라이선스를 할당해야 사용자가 Intune에 장치를 등록할 수 있습니다. 라이선스 목록은 [Intune을 포함하는 라이선스](licenses.md)를 참조하세요.
 
 ## <a name="assign-an-intune-license-in-the-office-365-admin-center"></a>Office 365 관리 센터에서 Intune 라이선스 할당
 

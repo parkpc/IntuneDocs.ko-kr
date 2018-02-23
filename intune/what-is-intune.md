@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 nmanager: dougeby
-ms.date: 10/30/2017
+ms.date: 02/14/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,29 +14,25 @@ ms.technology:
 ms.assetid: 4a085264-232a-4af0-97f1-747496c44517
 ms.suite: ems
 ms.custom: 
-ms.openlocfilehash: 19b5d98165be67b32afa86ba942c42fc4a3048b3
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 6e2528c243938e81a6f730a950ee3949ca44047c
+ms.sourcegitcommit: cccbb6730a8c84dc3a62093b8910305081ac9d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="introduction-to-microsoft-intune-in-the-azure-portal"></a>Azure Portal의 Microsoft Intune 소개
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Microsoft Intune은 이제 Azure Portal에 포함되었습니다. 따라서 이전에 사용했던 워크플로와 기능이 달라졌습니다.
-새 포털에서는 조직의 모바일 장치, PC 및 앱을 관리할 수 있는 Azure Portal의 새롭고 업데이트된 기능을 제공합니다.
+다른 Azure 서비스와 비슷하게 Azure Portal에서 Microsoft Intune을 사용할 수 있습니다. Azure 포털 내에서 **Intune**을 선택하여 조직의 모바일 장치, PC 및 앱을 관리할 수 있습니다.
 
-* [Azure에서 내 기능은 어디에 있나요?](ui-changes.md)는 Azure로 이동을 통해 변경된 특정 워크플로 및 UI를 보여 주는 참조입니다.
-* [Azure Portal의 Intune 클래식 그룹](groups-get-started.md)에서는 그룹 관리를 위해 Azure Active Directory 보안 그룹으로 이동하는 의미를 설명합니다.
+>[!NOTE] 
+> 이전 버전의 Microsoft Intune을 사용한 경우 다음 정보가 유용할 수 있습니다.
+    * [Azure에서 내 기능은 어디에 있나요?](ui-changes.md)는 Azure로 이동을 통해 변경된 특정 워크플로 및 UI를 보여 주는 참조입니다.
+    * [Azure Portal의 Intune 클래식 그룹](groups-get-started.md)에서는 그룹 관리를 위해 Azure Active Directory 보안 그룹으로 이동하는 의미를 설명합니다.
 
-
-
-
-새 포털에 대한 정보는 이 라이브러리에서 확인할 수 있으며 지속적으로 업데이트됩니다. 제안 사항이 있는 경우 항목 설명에 의견을 남겨 주세요. 여러분의 의견을 듣고 싶습니다.
-
-새 환경에 대한 요약 정보는 다음과 같습니다.
+Azure Portal에서 Microsoft Intune 환경의 주요 특징은 다음과 같습니다.
 
 - 모든 EMS(Enterprise Mobility + Security) 구성 요소에 대한 통합 콘솔
 - 웹 표준을 기반으로 하는 HTML 기반 콘솔
@@ -61,41 +57,37 @@ Azure Portal은 대부분의 최신 PC, Mac 및 태블릿에서 실행됩니다.
 
 지원되는 브라우저에 대한 최신 정보는 [Azure Portal](https://docs.microsoft.com/azure/azure-preview-portal-supported-browsers-devices)을 참조하세요.
 
-## <a name="whats-in-this-library"></a>이 라이브러리의 내용
+## <a name="microsoft-intune-in-the-azure-portal"></a>Azure Portal의 Microsoft Intune
 
-설명서에는 필요한 정보를 보다 쉽게 찾을 수 있도록 Azure Portal의 레이아웃이 반영됩니다.
+[Azure portal](https://portal.azure.com)은 Microsoft Intune 서비스를 찾을 수 있는 곳입니다. Azure에는 여러 서비스가 있으며, 이 중 상당수는 정기적으로 사용하지 않는 서비스일 것입니다. 사용자 포털 환경을 사용자 지정하는 빠른 가이드는 [Azure Portal에서 Intune 시작](get-started-azure.md)을 참조하세요.
+
+## <a name="the-microsoft-intune-documentation"></a>Microsoft Intune 문서
+
+이 항목뿐만 아니라 전체 Microsoft Intune 설명서가 지속적으로 업데이트됩니다. 제안 사항이 있는 경우 항목 설명에 의견을 남겨 주세요. 여러분의 의견을 듣고 싶습니다.
+
+설명서에는 필요한 정보를 보다 쉽게 찾을 수 있도록 Azure Portal에서 Microsoft Intune의 레이아웃(아래 참조)이 반영됩니다.
 
 ![Azure Portal 워크로드](./media/azure-portal-workloads.png)
 
-### <a name="introduction-and-get-started"></a>소개 및 시작
-이 섹션에서는 Intune 사용을 시작하는 데 도움이 되는 [소개 정보](introduction-intune.md)를 제공합니다.
-### <a name="plan-and-design"></a>계획 및 디자인
-Intune 환경의 [계획 및 디자인](/intune-classic/plan-design/introduction)에 도움을 주는 정보입니다.
-### <a name="device-enrollment"></a>장치 등록
-[Intune에서 장치를 관리하는 방법](device-enrollment.md)
-### <a name="device-compliance"></a>장치 정책 준수
-[장치에 대한 준수 수준을 정의한 다음 호환되지 않는 장치에 대해 보고합니다](device-compliance.md).
-### <a name="device-configuration"></a>장치 구성
-[관리하는 장치에서 설정 및 기능을 구성하는 데 사용할 수 있는 프로필을 이해합니다](device-profiles.md).
-### <a name="devices"></a>장치
-[인벤토리 및 보고서를 사용하여 관리하는 장치에 대해 알아봅니다](device-management.md).
-### <a name="mobile-apps"></a>모바일 앱
-[앱을 게시하고 관리하고 구성하고 보호하는 방법](app-management.md)
-### <a name="conditional-access"></a>조건부 액세스
-[지정한 조건에 따라 Exchange 서비스에 대한 액세스를 제한합니다](conditional-access.md).
-### <a name="on-premises-access"></a>온-프레미스 액세스
-[Exchange ActiveSync 및 Exchange 온-프레미스에 대한 액세스를 구성하는 방법에 대해 알아봅니다](/intune-classic/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune).
-### <a name="users"></a>사용자
-[관리하는 장치의 사용자에 대해 알아보고 리소스를 그룹으로 정렬합니다](users-add.md).
-### <a name="groups"></a>Groups
-[Intune에서 Azure Active Directory 그룹을 사용할 수 있는 방법에 대해 알아봅니다](groups-get-started.md).
-### <a name="intune-roles"></a>Intune 역할
-[다양한 Intune 작업을 수행할 수 있는 사람 및 해당 작업이 적용되는 사람을 제어합니다](role-based-access-control.md). 몇 가지 일반적인 Intune 시나리오에 적용되는 기본 제공 역할을 사용하거나, 사용자 고유의 역할을 만들 수 있습니다.
-### <a name="software-updates"></a>소프트웨어 업데이트
-[Windows 10 장치용 소프트웨어 업데이트를 구성하는 방법에 대해 알아봅니다](windows-update-for-business-configure.md).
+### <a name="documentation-guide"></a>문서 가이드
 
+다음 표를 사용하면 Microsoft Intune의 주요 영역을 신속하게 찾아 이해하는 데 유용합니다.
 
+| 섹션                                                      | 설명                                                                                                                                                                                                                                                                                      |
+|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [소개 및 시작](introduction-intune.md)       | 다음과 같은 Intune 기본 이해:<br /> - 일반적인 솔루션<br /> – Microsoft Intune 작동하는 방식<br /> – Intune에서 장치 관리<br /> – Intune에서 앱 관리<br /> - 장치 등록을 하거나 하지 않는 EMM(엔터프라이즈 이동성 관리).                                                         |
+| [계획 및 디자인](planning-guide.md)                         | Microsoft Intune 환경을 성공적으로 계획하고 설계하는 데 유용한 지침입니다.                                                                                                                                                                                                             |
+| [장치 등록](device-enrollment.md)                    | Microsoft Intune이 Intune 서비스에 장치를 등록하여 작업자의 장치를 관리하도록 도움을 주는 방법을 이해합니다. 작업자의 장치를 등록하는 몇 가지 방법이 있습니다.                                                                                                         |
+| [장치 정책 준수](device-compliance.md)                    | Intune 장치 준수 정책은 장치가 Microsoft Intune에서 준수되는 것으로 간주하기 위해 준수해야 하는 규칙 및 설정을 정의합니다. 예를 들어 장치 액세스에 대한 암호 필요, 장치를 암호화, 최소 OS 버전 요구 등은 모두 규정 준수의 예입니다. |
+| [장치 구성](device-profiles.md)                   | 장치 프로필을 만들어 Microsoft Intune을 사용하여 관리하는 모든 장치의 설정 및 기능을 구성합니다. 예를 들어, 알림, 데이터 공유, 이메일 지원, wifi 연결, 인증서 및 끝점 보호와 같은 기능을 구성할 수 있습니다.              |
+| [장치](device-management.md)                              | 관리하는 장치가 위험으로부터 회사 데이터를 보호하는 동안 최종 사용자가 해당 작업을 수행해야 하는 리소스를 제공하도록 해야 합니다. 작업자 장치 인벤토리를 검토하고 원격 장치 작업을 수행하여 장치를 관리합니다.                                                      |
+| [모바일 앱](app-management.md)                             | 앱을 추가, 배포, 모니터링, 구성 및 보호하는 방법을 이해합니다.                                                                                                                                                                                                                             |
+| [조건부 액세스](conditional-access.md)                  | 회사 데이터에 액세스를 게이트로 제어하는 장치 및 앱 기반 조건을 정의합니다.                                                                                                                                                                                                            |
+| [사용자](users-add.md)                                        | 관리하는 장치 및 앱의 사용자를 추가하는 방법에 대해 알아봅니다.                                                                                                                                                                                                                                           |
+| [그룹](groups-get-started.md)                              | intune을 사용해 그룹을 만들고 관리하는 방법에 대해 알아봅니다. 그룹을 사용하여 장치, 앱 구성 및 보호 정책을 빠르게 지정할 수 있습니다.                                                                                                                                             |
+| [Intune 역할](role-based-access-control.md)                 | 다양한 Intune 작업을 누가 수행할 수 있는지와 해당 작업을 어떻게 적용할지를 제어하는 방법에 대해 알아봅니다. 몇 가지 일반적인 Intune 시나리오에 적용되는 기본 제공 역할을 사용하거나, 사용자 고유의 역할을 만들 수 있습니다.                                                                                 |
+| [소프트웨어 업데이트](windows-update-for-business-configure.md) | Windows 10 장치용 소프트웨어 업데이트를 구성하는 방법에 대해 알아봅니다.                                                                                                                                                                                                                                  |
 
 ## <a name="whats-new"></a>새로운 기능은 무엇입니까?
 
-[Intune의 새로운 기능에 대해 알아봅니다](whats-new.md).
+Microsoft Intune의 최신 기능에 대해 알아보려면 [새로운 기능](whats-new.md)을 참조하세요.
