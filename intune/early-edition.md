@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ed427382b94f591559a2264f40455ab5254daadb
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: 7d54cb060dc44d29c95203138396f771abbb2325
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="the-early-edition-for-microsoft-intune---february-2018"></a>Microsoft Intune 초기 버전 - 2018년 2월
 
@@ -40,6 +40,10 @@ ms.lasthandoff: 02/03/2018
 
 
 <!-- 1802 start -->
+
+### <a name="new-enrollment-failure-trend-chart-and-failure-reasons-table----1471783---"></a>새 등록 실패 추세 차트 및 실패 이유 테이블 <!-- 1471783 -->
+
+등록 개요 페이지에서 등록 실패의 추세와 실패 원인 상위 5개를 확인할 수 있습니다. 차트 또는 테이블을 클릭하면 세부 사항을 드릴스루하여 문제 해결 도움말 및 재구성 제안을 찾을 수 있습니다.
 
 ### <a name="prevent-end-users-from-adding-or-removing-accounts-in-the-work-profile----1728700---"></a>최종 사용자가 작업 프로필의 계정을 추가 또는 삭제하지 못하게 방지 <!-- 1728700 -->    
 Gmail 앱을 Android for Work 프로필에 배포하면, Android for Work 장치 제한 프로필에서 **계정 추가 및 제거** 설정을 사용하여 최종 사용자가 작업 프로필에 계정을 추가하거나 삭제하지 못하게 할 수 있습니다.
@@ -76,9 +80,6 @@ Intune MAM(모바일 응용 프로그램 관리) 데이터 전송 정책에 대�
 ### <a name="customize-your-company-portal-themes-with-hex-codes---1049561-eeready--"></a>16진수 코드를 사용하여 회사 포털 테마 사용자 지정 <!--1049561 eeready-->
 
 16진수 코드를 사용하여 회사 포털 앱에서 테마 색을 사용자 지정할 수 있습니다. 16진수 코드를 입력하면 Intune은 [WCAG 2.0 표준](http://www.w3.org/TR/WCAG20)에 따라 텍스트 색과 배경색 간의 대비가 가장 높은 텍스트 색을 결정합니다. **모바일 앱** > **회사 포털**에서 텍스트 색과 회사 로고를 미리 볼 수 있습니다. 
-
-### <a name="select-device-categories-by-using-the-access-work-or-school-settings----1058963---"></a>회사 또는 학교 액세스 설정을 사용하여 장치 범주 선택 <!-- 1058963 --> 
-[장치 그룹 매핑](https://docs.microsoft.com/intune/device-group-mapping)을 사용하도록 설정한 경우, Windows 10의 사용자에게 **설정** > **계정** > **회사 또는 학교 액세스**의 **연결** 단추를 통해 등록한 후 또는 첫 실행 경험 중에 장치 범주를 선택하라는 메시지가 표시됩니다.
 
 ### <a name="new-windows-defender-credential-guard-settings-added-to-endpoint-protection-settings---1102252---"></a>엔드포인트 보호 설정에 추가된 새 Windows Defender Credential Guard 설정 <!--1102252 --> 
 
@@ -120,7 +121,7 @@ Intune MAM(모바일 응용 프로그램 관리) 데이터 전송 정책에 대�
 
 사용자는 macOS 회사 포털에 등록할 때 장치 등록 관리자를 사용할 수 있습니다.
 
-#### <a name="new-settings-for-the-edge-browser---1469166---"></a>Microsoft Edge 브라우저에 대한 새 설정 <!--1469166 -->
+#### <a name="new-settings-for-the-edge-browser---1469166---"></a>Edge 브라우저에 대한 새 설정 <!--1469166 -->
 
 Microsoft Edge 브라우저에서는 두 가지 새로운 설정인 **자주 사용하는 파일 경로** 및 **즐겨찾기에 대한 변경**을 사용할 수 있습니다. 
 

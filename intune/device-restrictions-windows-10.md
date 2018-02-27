@@ -1,24 +1,23 @@
 ---
 title: "Windows 10에 대한 Intune 장치 제한 설정"
 titlesuffix: Azure portal
-description: "Windows 10 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+description: "Windows 10 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 1/8/2018
+ms.date: 2/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b4b576e9b6195f3db8d162e1f880faf9f669f2c1
-ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
+ms.openlocfilehash: 128e16ad989293e168d2bb53d5974e479e09a000
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="windows-10-and-later-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 이상 장치 제한 설정
 
@@ -28,6 +27,8 @@ ms.lasthandoff: 02/09/2018
 - **화면 캡처(모바일 전용)** - 장치 화면을 이미지로 캡처하도록 허용합니다.
 - **복사 및 붙여넣기(모바일 전용)** - 장치의 앱 간에 작업을 복사하여 붙여넣을 수 있습니다.
 - **수동 등록 취소** - 장치에서 회사 계정을 수동으로 삭제할 수 있습니다.
+   - 이 정책은 컴퓨터가 Azure Active Directory에 연결되어 있고 자동 등록이 활성화된 경우에는 적용되지 않습니다. 
+   - 이 정책 설정은 Windows 10 Home을 실행 중인 컴퓨터에 적용되지 않습니다.
 - **수동 루트 인증서 설치(모바일 전용)** - 사용자가 루트 인증서 및 중간 CAP 인증서를 수동으로 설치할 수 없게 됩니다.
 - **진단 데이터 제출** - 가능한 값은 다음과 같습니다.
     - **없음** - Microsoft로 데이터가 전송되지 않습니다.
@@ -68,7 +69,7 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 
 ## <a name="personalization"></a>Personalization
 
-- **바탕 화면 배경 그림 URL(데스크톱 전용)** - Windows 바탕 화면 배경으로 사용할 PNG, JPG 또는 JPEG 형식의 그림에 대한 URL을 지정합니다. 이 정보는 사용자가 변경할 수 없습니다.
+- **바탕 화면 배경 그림 URL(데스크톱 전용)** - Windows 바탕 화면 배경으로 사용할 JPEG 형식의 그림에 대한 URL을 지정합니다. 이 정보는 사용자가 변경할 수 없습니다.
 
 ## <a name="privacy"></a>개인 정보 취급 방침
 
@@ -157,10 +158,10 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 
 -   **Microsoft Edge 브라우저(모바일 전용)** - 장치에서 Edge 웹 브라우저 사용을 허용합니다.
 -   **주소 표시줄 드롭다운(데스크톱 전용)** – 입력 시 Edge에서 드롭다운 목록에 제안 목록을 표시하지 않도록 하려면 이 옵션을 사용합니다. 이렇게 하면 Edge와 Microsoft 서비스 간의 네트워크 대역폭 사용을 최소화할 수 있습니다.
--   **Microsoft 브라우저 간 즐겨찾기 동기화(데스크톱 전용)** – Windows에서 Internet Explorer와 Microsoft Edge 간에 즐겨찾기를 동기화하도록 허용합니다.
--   **추적 방지 헤더 보내기** - 사용자가 방문하는 웹 사이트에 Do Not Track 헤더를 보내도록 Microsoft Edge 브라우저를 구성합니다
+-   **Microsoft 브라우저 간 즐겨찾기 동기화(데스크톱 전용)** – Windows에서 Internet Explorer와 Edge 간에 즐겨찾기를 동기화하도록 허용합니다.
+-   **추적 방지 헤더 보내기** - 사용자가 방문하는 웹 사이트에 Do Not Track 헤더를 보내도록 Edge 브라우저를 구성합니다
 -   **쿠키** - 브라우저에서 장치에 인터넷 쿠키를 저장할 수 있도록 합니다.
--   **JavaScript** - Microsoft Edge 브라우저에서 JavaScript 등의 스크립트가 실행되도록 허용합니다.
+-   **JavaScript** - Edge 브라우저에서 JavaScript 등의 스크립트가 실행되도록 허용합니다.
 -   **팝업** - 브라우저에서 팝업 창을 차단합니다(Windows 10 Desktop에만 적용).
 -   **검색 제안** - 검색 구문을 입력하면 검색 엔진에서 사이트를 제안할 수 있습니다.
 -   **Internet Explorer에 인트라넷 트래픽 보내기** - 사용자가 Internet Explorer에서 인트라넷 웹 사이트를 열도록 허용합니다(Windows 10 Desktop에만 해당).
@@ -172,7 +173,7 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 -   **InPrivate 브라우징** - 최종 사용자가 InPrivate 브라우징 세션을 열 수 없습니다.
 -   **처음 실행 페이지 표시** - Edge를 처음 실행할 때 소개 페이지가 표시되지 않도록 합니다.
     -   **첫 실행 URL** – 사용자가 Edge를 처음 실행할 때 표시되는 페이지의 URL을 지정합니다(Windows 10 Mobile에만 해당).
--   **홈페이지** - Microsoft Edge 브라우저의 홈페이지로 사용할 사이트 목록을 추가합니다(데스크톱 전용).
+-   **홈페이지** - Edge 브라우저의 홈페이지로 사용할 사이트 목록을 추가합니다(데스크톱 전용).
 -   **시작 페이지 변경 내용** – 사용자가 Edge를 열 때 표시되는 시작 페이지를 변경하도록 허용합니다. 홈페이지 설정을 사용하여 Edge를 시작할 때 열리는 페이지 또는 페이지 목록을 만들 수 있습니다.
 -   **About 플래그에 대한 액세스 차단** - 최종 사용자가 개발자 및 실험 설정이 포함된 Edge의 about:flags 페이지에 액세스할 수 없도록 합니다.
 -   **WebRtc 로컬 호스트 IP 주소** - 웹 RTC 프로토콜을 사용하여 전화 통화를 할 때 사용자의 로컬 호스트 IP 주소가 표시되지 않도록 차단합니다.

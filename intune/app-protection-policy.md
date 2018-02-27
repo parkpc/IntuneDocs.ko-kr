@@ -15,11 +15,11 @@ ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ac997e9543df5d964b6a8fba83677baa49af38e8
-ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
+ms.openlocfilehash: 0ee95990afa08aa55e0f9101329b31bd8b3041f4
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="what-are-app-protection-policies"></a>앱 보호 정책이란?
 
@@ -61,8 +61,7 @@ Intune 앱 보호 정책을 사용하여 회사 데이터를 보호할 수 있�
 
 
 ### <a name="supported-platforms-for-app-protection-polices"></a>앱 보호 정책이 지원되는 플랫폼
--   iOS 9 이상
--   Android 4.4 이상
+Intune 앱 보호 정책 플랫폼 지원은 Office 응용 프로그램 플랫폼 지원에 맞춰집니다. 자세한 내용은 [Office 시스템 요구 사항](https://products.office.com/en-US/office-system-requirements)을 참조하세요.
 
 Windows 장치는 현재 지원되지 않습니다. 그러나 Windows 10 장치를 Intune에 등록할 경우 유사한 기능을 제공하는 Windows Information Protection을 사용할 수 있습니다. 자세한 내용은 [WIP(Windows Information Protection)를 사용하여 엔터프라이즈 데이터 보호](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip)를 참조하세요.
 ##  <a name="how-app-protection-policies-protect-app-data"></a>앱 보호 정책으로 앱 데이터를 보호하는 방법

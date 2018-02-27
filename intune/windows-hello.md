@@ -6,18 +6,18 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 1/25/2018
+ms.date: 02/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3fb7de9fb320b74895b702167750e149eba34e1e
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: 465de83c5bd15cfab67a4307000c0aa9cbfb1730
+ms.sourcegitcommit: cccbb6730a8c84dc3a62093b8910305081ac9d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="use-windows-hello-for-business"></a>비즈니스용 Windows Hello 사용
 
@@ -50,7 +50,7 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 
 1.  Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
-2.  Intune 블레이드에서 **Endpoint Protection**을 선택한 다음 **관리** > **비즈니스용 Windows Hello**를 차례로 선택합니다.
+2.  Intune 블레이드에서 **장치 등록**, **Windows 등록** > **비즈니스용 Windows Hello**를 차례로 선택합니다.
 
 3.  블레이드가 열리면 **기본값**을 선택합니다.
 

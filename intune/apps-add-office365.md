@@ -15,15 +15,15 @@ ms.assetid: 3292671a-5f5a-429e-90f7-b20019787d22
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3174fc498b5d8cffaade7c52f417409de64c7eb6
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: f6ef1d1dab39a6939b80bd13ba090424a67c6f53
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/19/2018
 ---
-# <a name="how-to-assign-office-365-proplus-2016-apps-to-windows-10-devices-with-microsoft-intune"></a>Microsoft Intune을 사용하여 Office 365 ProPlus 2016 앱을 Windows 10 장치에 할당하는 방법
+# <a name="how-to-assign-office-365-proplus-apps-to-windows-10-devices-with-microsoft-intune"></a>Microsoft Intune을 사용하여 Office 365 ProPlus 앱을 Windows 10 장치에 할당하는 방법
 
-이 앱 형식을 통해 관리하는 Windows 10 실행 장치에 Office 365 ProPlus 2016 앱을 쉽게 할당할 수 있습니다. Microsoft Project Online 데스크톱 클라이언트 및 Microsoft Visio Pro for Office 365에 대한 라이선스가 있는 경우 관련 앱을 설치할 수 있습니다. 원하는 앱이 Intune 콘솔의 앱 목록에 단일 항목으로 표시됩니다.
+이 앱 형식을 통해 관리하는 Windows 10 실행 장치에 Office 365 ProPlus 앱을 쉽게 할당할 수 있습니다. Microsoft Project Online 데스크톱 클라이언트 및 Microsoft Visio Pro for Office 365에 대한 라이선스가 있는 경우 관련 앱을 설치할 수 있습니다. 원하는 앱이 Intune 콘솔의 앱 목록에 단일 항목으로 표시됩니다.
 
 
 ## <a name="before-you-start"></a>시작하기 전에
@@ -32,7 +32,7 @@ ms.lasthandoff: 02/01/2018
 >이 Office 설치 방법은 Microsoft Office의 다른 버전이 장치에 설치된 경우에만 지원됩니다.
 
 - 이러한 앱을 배포할 장치에서 Windows 10 크리에이터스 업데이트 이상을 실행하고 있어야 합니다.
-- Intune에서는 Office 365 ProPlus 2016 제품군에서 Office 앱을 추가하는 기능만 지원합니다.
+- Intune에서는 Office 365 ProPlus 제품군에서 Office 앱을 추가하는 기능만 지원합니다.
 - Intune에서 앱 패키지를 설치할 때 Office 앱이 열리면, 설치가 실패할 수 있으며 최종 사용자는 저장되지 않은 파일의 데이터를 잃을 수 있습니다.
 - 이 설치 방법은 Windows 10S, Windows Home, Windows Team, Windows Holographic 및 Windows Holographic for Business 장치에서 지원되지 않습니다.
 - Intune은 Microsoft 스토어의 365 데스크톱 앱(Office Centennial 앱)을 이미 Intune으로 Office 365 앱을 배포한 장치에 설치하는 것을 지원하지 않습니다. 이 구성을 설치할 경우 데이터 손실이나 손상이 발생할 수 있습니다.
