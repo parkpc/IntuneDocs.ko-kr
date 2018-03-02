@@ -606,6 +606,10 @@
           href: end-user-apps-ios.md
         - name: Windows 앱을 다운로드하는 방법
           href: end-user-apps-windows.md
+        - name: Intune이 Apple에 보내는 데이터
+          href: data-intune-sends-to-apple.md
+        - name: Intune이 Google에 보내는 데이터
+          href: data-intune-sends-to-google.md
     - name: 모니터링 및 문제 해결
       items:
         - name: 사용자가 문제 해결할 수 있도록 도움
