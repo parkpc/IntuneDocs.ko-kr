@@ -1,4 +1,4 @@
----
+﻿---
 title: "Windows 팀 구성 정책 설정"
 description: "Microsoft Intune **Windows 10 Team 일반 구성 정책**을 사용하여 Microsoft Surface Hub와 같은 등록된 Windows 10 Team 장치에 대한 설정을 구성합니다."
 keywords: 

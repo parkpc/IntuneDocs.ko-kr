@@ -1,4 +1,4 @@
----
+﻿---
 title: "장치에서 비즈니스용 Windows Hello 설정 제어"
 description: "Intune이 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 비즈니스용 Windows Hello와 통합하는 방법을 알아봅니다."
 keywords: 

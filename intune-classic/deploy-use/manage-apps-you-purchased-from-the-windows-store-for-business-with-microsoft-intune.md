@@ -1,4 +1,4 @@
----
+﻿---
 title: "비즈니스용 Microsoft 스토어 앱 관리"
 description: "Intune 콘솔에서 대량 구매 앱을 관리 및 배포하려는 경우 Microsoft Intune을 비즈니스용 Microsoft 스토어에 연결"
 keywords: 
