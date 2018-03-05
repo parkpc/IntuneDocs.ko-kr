@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 10/03/2017
+ms.date: 02/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,28 @@ ms.assetid: 6d384cd0-b662-41e7-94f5-0c96790ab20a
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3e79ee1ddd2f8a8a9d7a3089e21b8807b9895d2c
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: c076bc52495d1b74a18e1d655376b6183dc5fe16
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="enroll-ios-devices-with-apple-configurator"></a>Apple Configurator를 사용한 iOS 장치 등록
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+> [!NOTE]
+> ### <a name="temporary-user-interface-differences"></a>임시 사용자 인터페이스 차이점
+>
+>이 페이지에 설명된 기능의 사용자 인터페이스는 업데이트 중입니다. 이러한 업데이트는 4월 말까지 모든 사용자 계정에 배포됩니다.
+>
+>**장치 등록** 페이지가 아래 이미지와 같은 경우 계정이 아직 새 사용자 인터페이스로 업데이트되지 않은 것이며, 이 도움말 페이지를 사용할 수 있습니다.
+>
+>![이전 사용자 인터페이스](./media/appleenroll-oldui.png)
+>
+>**장치 등록** 페이지가 아래 이미지와 같은 경우 업데이트된 사용자 인터페이스가 있는 것입니다.  [이 도움말 페이지](apple-configurator-enroll-ios-newui.md)로 이동하세요.
+>
+>![새 사용자 인터페이스](./media/appleenroll-newui.png)
 
 Intune은 Mac 컴퓨터에서 실행되는 [Apple Configurator](https://itunes.apple.com/app/apple-configurator-2/id1037126344)를 사용하여 iOS 장치를 등록하도록 지원합니다. Apple Configurator를 사용하여 장치를 등록하려면 각 iOS 장치를 USB로 Mac 컴퓨터에 연결하여 회사 등록을 설정해야 합니다. 다음 두 가지 방법으로 Apple Configurator를 사용하여 Intune에 장치를 등록할 수 있습니다.
 - **설정 도우미 등록** - 장치를 공장 기본 설정으로 복원하고, 설정 도우미 중에 등록하도록 준비합니다.

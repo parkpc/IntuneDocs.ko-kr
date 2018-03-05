@@ -138,6 +138,8 @@
           href: groups-add.md
         - name: 라이선스 할당
           href: licenses-assign.md
+        - name: Intune 라이선스
+          href: licenses.md
         - name: MDM 기관 설정
           href: mdm-authority-set.md
     - name: 장치 등록
@@ -194,6 +196,8 @@
           href: device-locate.md
         - name: iOS 분실 모드 사용
           href: device-lost-mode.md
+        - name: iOS 감독 모드 설정
+          href: device-supervised-mode.md
         - name: 장치 잠금
           href: device-remote-lock.md
         - name: 암호 초기화
@@ -251,7 +255,7 @@
             - name: 웹앱
               href: web-app.md
             - name: 기본 제공 앱
-              href: apps-add-bulit-in.md
+              href: apps-add-built-in.md
         - name: 앱 배포
           href: apps-deploy.md
           items:
@@ -287,6 +291,26 @@
           items:
             - name: 선택적으로 앱 지우기
               href: apps-selective-wipe.md
+            - name: 앱 보호 정책 사용
+              href: app-protection-policy.md
+              items:
+                - name: 앱 보호 정책 만들기
+                  href: app-protection-policies.md
+                  items:
+                    - name: Android 설정
+                      href: app-protection-policy-settings-android.md
+                    - name: iOS 설정
+                      href: app-protection-policy-settings-ios.md
+                - name: 앱 보호 정책 유효성 검사
+                  href: app-protection-policies-validate.md
+                - name: 앱 보호 사용자 상태 모니터링
+                  href: app-protection-policies-monitor.md
+                - name: WIP 앱 보호 정책 준비
+                  href: app-protection-policies-configure-windows-10.md
+                - name: WIP 앱 보호 정책 만들기 및 할당
+                  href: windows-information-protection-policy-create.md
+                - name: iOS 앱 간의 데이터 전송 관리
+                  href: data-transfer-between-apps-manage-ios.md
     - name: 장치 구성
       href: device-profiles.md
       items:
@@ -444,7 +468,7 @@
           href: conditional-access-integrate-jamf.md
         - name: Jamf Pro로 관리되는 Mac에서 준수 적용
           href: conditional-access-assign-jamf.md
-    - name: 앱 및 장치 데이터 보호
+    - name: 장치 데이터 보호
       items:
         - name: 앱 보호 정책 사용
           href: app-protection-policy.md
@@ -456,6 +480,10 @@
                   href: app-protection-policy-settings-android.md
                 - name: iOS 설정
                   href: app-protection-policy-settings-ios.md
+                - name: 데이터 전송 정책 예외
+                  href: app-protection-policies-exception.md
+                - name: Managed Browser에서 앱 보호 로그 검토
+                  href: app-protection-policy-settings-log.md
             - name: 앱 보호 정책 유효성 검사
               href: app-protection-policies-validate.md
             - name: 앱 보호 사용자 상태 모니터링
@@ -578,6 +606,10 @@
           href: end-user-apps-ios.md
         - name: Windows 앱을 다운로드하는 방법
           href: end-user-apps-windows.md
+        - name: Intune이 Apple에 보내는 데이터
+          href: data-intune-sends-to-apple.md
+        - name: Intune이 Google에 보내는 데이터
+          href: data-intune-sends-to-google.md
     - name: 모니터링 및 문제 해결
       items:
         - name: 사용자가 문제 해결할 수 있도록 도움
@@ -651,6 +683,8 @@
           href: reports-proc-data-rest.md
         - name: 데이터 웨어하우스 API 끝점
           href: reports-api-url.md
+        - name: 데이터 웨어하우스 응용 프로그램 전용 인증
+          href: data-warehouse-app-only-auth.md
         - name: 데이터 웨어하우스 데이터 모델
           href: reports-ref-data-model.md
           items:

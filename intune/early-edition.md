@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d4bcabc4d1af4554a3e3bea875be45f9376b4ef7
-ms.sourcegitcommit: b982f9d50da4f958fb0c48c56ba46c8ef71500c4
+ms.openlocfilehash: 7d54cb060dc44d29c95203138396f771abbb2325
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="the-early-edition-for-microsoft-intune---february-2018"></a>Microsoft Intune 초기 버전 - 2018년 2월
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 01/29/2018
 이 페이지는 정기적으로 업데이트됩니다. 추가 업데이트가 있는지 다시 확인하세요.
 
 > [!Note]
->Intune에 대해 다음 변경 사항을 개발 중입니다. 새로운 하이브리드 기능에 대한 자세한 내용은 [hybrid What’s New page](/sccm/mdm/understand/whats-new-in-hybrid-mobile-device-management)(하이브리드 새로운 기능 페이지)를 참조하세요.
+>Intune에 대해 다음 변경 사항을 개발 중입니다. 새로운 하이브리드 기능에 대한 자세한 내용은 [Hybrid What’s New](/sccm/mdm/understand/whats-new-in-hybrid-mobile-device-management)(하이브리드의 새로운 기능) 페이지를 참조하세요.
 
 <!--
 ## What's coming to Intune in the Azure portal  
@@ -41,6 +41,12 @@ ms.lasthandoff: 01/29/2018
 
 <!-- 1802 start -->
 
+### <a name="new-enrollment-failure-trend-chart-and-failure-reasons-table----1471783---"></a>새 등록 실패 추세 차트 및 실패 이유 테이블 <!-- 1471783 -->
+
+등록 개요 페이지에서 등록 실패의 추세와 실패 원인 상위 5개를 확인할 수 있습니다. 차트 또는 테이블을 클릭하면 세부 사항을 드릴스루하여 문제 해결 도움말 및 재구성 제안을 찾을 수 있습니다.
+
+### <a name="prevent-end-users-from-adding-or-removing-accounts-in-the-work-profile----1728700---"></a>최종 사용자가 작업 프로필의 계정을 추가 또는 삭제하지 못하게 방지 <!-- 1728700 -->    
+Gmail 앱을 Android for Work 프로필에 배포하면, Android for Work 장치 제한 프로필에서 **계정 추가 및 제거** 설정을 사용하여 최종 사용자가 작업 프로필에 계정을 추가하거나 삭제하지 못하게 할 수 있습니다.
 
 ### <a name="app-protection-policies-----679615---"></a>앱 보호 정책 <!-- 679615 -->
 Intune 앱 보호 정책은 전체 테넌트의 모든 사용자에 대해 보호를 빠르게 사용할 수 있도록 전역 기본 정책을 만드는 기능을 제공합니다.
@@ -74,9 +80,6 @@ Intune MAM(모바일 응용 프로그램 관리) 데이터 전송 정책에 대�
 ### <a name="customize-your-company-portal-themes-with-hex-codes---1049561-eeready--"></a>16진수 코드를 사용하여 회사 포털 테마 사용자 지정 <!--1049561 eeready-->
 
 16진수 코드를 사용하여 회사 포털 앱에서 테마 색을 사용자 지정할 수 있습니다. 16진수 코드를 입력하면 Intune은 [WCAG 2.0 표준](http://www.w3.org/TR/WCAG20)에 따라 텍스트 색과 배경색 간의 대비가 가장 높은 텍스트 색을 결정합니다. **모바일 앱** > **회사 포털**에서 텍스트 색과 회사 로고를 미리 볼 수 있습니다. 
-
-### <a name="select-device-categories-by-using-the-access-work-or-school-settings----1058963---"></a>회사 또는 학교 액세스 설정을 사용하여 장치 범주 선택 <!-- 1058963 --> 
-[장치 그룹 매핑](https://docs.microsoft.com/en-us/intune/device-group-mapping)을 사용하도록 설정한 경우, Windows 10의 사용자에게 **설정** > **계정** > **회사 또는 학교 액세스**의 **연결** 단추를 통해 등록한 후 또는 첫 실행 경험 중에 장치 범주를 선택하라는 메시지가 표시됩니다.
 
 ### <a name="new-windows-defender-credential-guard-settings-added-to-endpoint-protection-settings---1102252---"></a>엔드포인트 보호 설정에 추가된 새 Windows Defender Credential Guard 설정 <!--1102252 --> 
 
@@ -120,7 +123,7 @@ Intune MAM(모바일 응용 프로그램 관리) 데이터 전송 정책에 대�
 
 #### <a name="new-settings-for-the-edge-browser---1469166---"></a>Edge 브라우저에 대한 새 설정 <!--1469166 -->
 
-Edge 브라우저에서는 두 가지 새로운 설정인 **자주 사용하는 파일 경로** 및 **즐겨찾기에 대한 변경**을 사용할 수 있습니다. 
+Microsoft Edge 브라우저에서는 두 가지 새로운 설정인 **자주 사용하는 파일 경로** 및 **즐겨찾기에 대한 변경**을 사용할 수 있습니다. 
 
 ### <a name="windows-information-protection-wip-encrypted-data-in-windows-search-results----1469193---"></a>Windows 검색 결과의 WIP(Windows Information Protection) 암호화된 데이터 <!-- 1469193 -->
 
@@ -214,50 +217,20 @@ Intune은 최대 100개의 다른 Apple DEP(장비 등록 프로그램) 또는 A
 Graph를 통해 Apple DEP 또는 ASM을 관리하기 위한 베타 Graph API 및 게시된 스크립트는 마이그레이션 후 더 이상 작동하지 않습니다. 새 베타 Graph API가 개발 중이며 마이그레이션 후 릴리스될 예정입니다.
 
 ### <a name="select-device-categories-by-using-the-access-work-or-school-settings----1058963---"></a>회사 또는 학교 액세스 설정을 사용하여 장치 범주 선택 <!-- 1058963 -->
-[장치 그룹 매핑](https://docs.microsoft.com/en-us/intune/device-group-mapping)을 사용하도록 설정한 경우, Windows 10의 사용자에게 **설정** > **계정** > **회사 또는 학교 액세스**의 **연결** 단추를 통해 등록한 후 또는 첫 실행 경험 중에 장치 범주를 선택하라는 메시지가 표시됩니다.
+[장치 그룹 매핑](https://docs.microsoft.com/intune/device-group-mapping)을 사용하도록 설정한 경우, Windows 10의 사용자에게 **설정** > **계정** > **회사 또는 학교 액세스**의 **연결** 단추를 통해 등록한 후 또는 첫 실행 경험 중에 장치 범주를 선택하라는 메시지가 표시됩니다.
 
 ### <a name="targeting-compliance-policies-to-devices-in-device-groups---1307012---"></a>장치 그룹의 장치를 준수 정책의 대상으로 지정 <!--1307012 -->
 
 사용자 그룹의 사용자를 준수 정책의 대상으로 지정할 수 있습니다. 장치 그룹의 장치를 준수 정책의 대상으로 지정할 수 있습니다.
 
-### <a name="including-and-excluding-app-assignment-based-on-groups----1406920---"></a>그룹에 따라 앱 할당 포함 및 제외 <!-- 1406920 -->
-
-앱 할당 중이나 할당 유형을 선택한 후 포함할 그룹과 제외할 그룹을 선택할 수 있습니다.
-
-### <a name="remote-erase-command-support----1438084---"></a>원격 "지우기" 명령 지원 <!-- 1438084 -->
-
-관리자는 지우기 명령을 원격으로 실행할 수 있습니다.
-
-> [!IMPORTANT]
-> 지우기 명령은 취소할 수 없으며 주의해서 사용해야 합니다.
-
-지우기 명령은 장치에서 운영 체제를 비롯한 모든 데이터를 제거합니다. 또한 Intune 관리에서 장치를 제거합니다. 사용자에게 경고가 표시되지 않으며, 명령을 실행하는 즉시 지우기가 수행됩니다.
-
-6자리 복구 PIN을 구성할 수 있습니다. 이 PIN을 사용하여 지워진 장치의 잠금을 해제할 수 있으며, 이때 운영 체제의 재설치가 시작됩니다. 지우기가 시작된 후에는 Intune의 장치 개요 블레이드에 있는 상태 표시줄에 PIN이 표시됩니다. 지우기가 진행되는 동안 PIN이 계속 유지됩니다. 지우기가 완료되면 장치가 Intune 관리에서 완전히 사라집니다. 장치를 복원하는 누구든지 사용할 수 있도록 복구 PIN을 기록해야 합니다.
-
 ### <a name="windows-information-protection-wip-encrypted-data-in-windows-search-results----1469193---"></a>Windows 검색 결과의 WIP(Windows Information Protection) 암호화된 데이터 <!-- 1469193 -->
 
 WIP(Windows Information Protection) 정책의 새 설정을 사용하면 WIP 암호화된 데이터를 Windows 검색 결과에 포함할지 여부를 제어할 수 있습니다.
 
-### <a name="website-learning-mode----1631908---"></a>웹 사이트 학습 모드 <!-- 1631908 -->
-
-Intune에서 WIP(Windows Information Protection) 학습 모드 확장을 도입할 예정입니다. WIP 지원 앱에 대한 정보뿐 아니라 웹 사이트와 작업 데이터를 공유한 장치 요약도 볼 수 있습니다. 이 정보를 사용하여 그룹 및 사용자 WIP 정책에 추가할 웹 사이트를 확인할 수 있습니다.
-
-### <a name="updates-to-compliance-emails---1637547---"></a>준수 메일 업데이트 <!--1637547 -->
-
-비준수 장치를 보고하기 위해 메일을 보낼 때 비준수 장치에 대한 세부 정보가 포함됩니다. [비준수에 대한 작업 자동화](#actions-for-noncompliance) 문서가 이 사실을 표시하기 위해 업데이트될 예정입니다.
-
-###  <a name="alerts-for-expired-tokens-and-tokens-that-will-soon-expire----1639263---"></a>만료된 토큰 및 곧 만료되는 토큰에 대한 경고 <!-- 1639263 -->
-개요 페이지에는 만료된 토큰과 곧 만료되는 토큰에 대한 경고가 표시됩니다. 단일 토큰에 대한 경고를 클릭하면 토큰의 세부 정보 페이지로 이동합니다.  여러 토큰이 포함된 경고를 클릭하면 해당 상태의 모든 토큰 목록으로 이동합니다. 관리자는 만료 날짜 전에 해당 토큰을 갱신해야 합니다.
-
 ### <a name="remote-printing-over-a-secure-network----1709994----"></a>보안 네트워크를 통한 원격 인쇄 <!-- 1709994  -->
 PrinterOn의 무선 모바일 인쇄 솔루션을 사용하면 사용자가 보안 네트워크를 통해 언제 어디서나 원격으로 인쇄할 수 있습니다. PrinterOn은 iOS 및 Android용 Intune 앱 SDK와 둘 다 통합됩니다. 관리 콘솔의 Intune **앱 보호 정책** 블레이드를 통해 이 앱을 앱 보호 정책의 대상으로 지정할 수 있습니다. 최종 사용자는 Intune 에코시스템에서 사용하기 위해 Play 스토어 또는 iTunes를 통해 'PrinterOn for Microsoft' 앱을 다운로드할 수 있습니다.
 
-### <a name="approve-the-company-portal-app-for-android-for-work---1797090---"></a>Android for Work용 회사 포털 앱 승인 <!--1797090 -->
-조직에서 Android for Work를 사용하는 경우 관리되는 Google Play 스토어에서 자동 업데이트를 계속 받으려면 Android용 회사 포털 앱을 수동으로 승인해야 합니다.
 
-### <a name="faceid-on-ios-devices----1807377---"></a>iOS 장치에서 FaceID <!-- 1807377 -->
-Intune 앱 보호 정책은 이제 iOS 장치에서 FaceID를 제어하는 설정을 지원 합니다. 이 설정은 FaceID 기능을 지원하는 장치를 위한 것입니다(현재 iPhone X만 해당). 이 설정은 현재 지원되는 TouchID 컨트롤과는 별개입니다. 조직은 TouchID 컨트롤 대신 FaceID를 유효한 PIN 프롬프트로 신뢰할지를 선택할 수 있습니다.
 
 ### <a name="microsoft-graph-api-for-intune---general-availability-----1833289---"></a>Intune용 Microsoft Graph API - 일반 공급 <!-- 1833289 -->
 Microsoft Graph의 Intune API를 사용하면 Intune 서비스의 관리 작업을 자동화하기 위한 데이터와 메서드를 프로그래밍 방식으로 액세스할 수 있습니다.  이러한 API가 **일반 공급**되므로 고객, 파트너 및 개발자는 이 API를 활용하여 Intune 또는 Microsoft Graph를 통해 사용할 수 있는 기타 Microsoft 서비스가 필요하거나 관련이 있는 사내 또는 상용 솔루션과 통합할 수 있습니다.
@@ -267,26 +240,11 @@ Microsoft Graph의 Intune API를 사용하면 Intune 서비스의 관리 작업�
 ### <a name="app-protection-policies-----679615---"></a>앱 보호 정책 <!-- 679615 -->
 Intune 앱 보호 정책은 전체 테넌트의 모든 사용자에 대해 보호를 빠르게 사용할 수 있도록 전역 기본 정책을 만드는 기능을 제공합니다.
 
-### <a name="revoking-ios-volume-purchase-program-apps-----820863---"></a>iOS Volume-Purchase Program 앱 철회 <!-- 820863 -->
-하나 이상의 iOS VPP(Volume-Purchase Program) 앱이 설치된 지정된 장치의 경우 장치의 관련 장치 기반 앱 라이선스를 철회할 수 있습니다. 앱 라이선스를 철회해도 장치에서 관련 VPP 앱이 제거되지 않습니다. VPP 앱을 제거하려면 할당 작업을 **제거**로 변경해야 합니다. 자세한 내용은 [Microsoft Intune을 사용하여 대량 구매 프로그램을 통해 구매한 iOS 앱을 관리하는 방법](vpp-apps-ios.md)을 참조하세요.
-
-### <a name="revoke-licenses-for-an-ios-volume-purchasing-program-token----820870---"></a>iOS Volume Purchasing Program 토큰에 대한 라이선스 철회 <!-- 820870 -->
-지정된 VPP 토큰에 대한 모든 iOS VPP(Volume-Purchase Program) 앱의 라이선스를 철회할 수 있습니다.
-
 ### <a name="new-ios-device-action------1244701---"></a>새로운 iOS 장치 작업 <!-- 1244701 -->
 iOS 10.3 감독된 장치를 종료할 수 있습니다. 이 작업을 수행하면 최종 사용자에게 경고하지 않고 장치가 즉시 종료됩니다. **장치** 워크로드에서 장치를 선택하면 장치 속성에서 **시스템 종료(감독 모드인 경우에만)** 작업을 찾을 수 있습니다.
 
 ### <a name="intune-provides-the-account-move-operation-----1573558-1579830---"></a>Intune에서 계정 이동 작업 제공 <!-- 1573558, 1579830 -->
 **계정 이동**은 ASU(Azure Scale Unit) 간에 테넌트를 마이그레이션합니다. **계정 이동**의 경우 이를 요청하기 위해 Intune 지원 팀에 전화를 거는 경우와 같이 고객이 시작하는 시나리오와 Microsoft가 백 엔드에서 서비스를 조정해야 하는 경우와 같이 Microsoft가 주도하는 시나리오에 둘 다 사용될 수 있습니다. **계정 이동** 중에 테넌트는 ROM(읽기 전용 모드)로 전환됩니다. ROM 기간에는 등록, 장치 이름 바꾸기, 준수 상태 업데이트와 같은 서비스 작업이 실패합니다.
-
-
-
-<!-- the following are present prior to 1712 -->
-### <a name="assign-office-365-mobile-apps-to-ios-and-android-devices-using-built-in-app-type----1332318---"></a>기본 제공 앱 유형을 사용하여 iOS 및 Android 장치에 Office 365 모바일 앱 할당<!-- 1332318 -->
-**기본 제공** 앱 유형을 사용하면 사용자가 관리하는 iOS 및 Android 장치에 Office 365 앱을 손쉽게 만들고 할당할 수 있습니다. 이러한 앱에는 Word, Excel, PowerPoint 및 OneDrive와 같은 0365 앱이 포함됩니다. 특정 앱을 앱 유형에 할당하고, 앱 정보 구성을 편집할 수 있습니다.
-
-### <a name="assignment-conflict-resolution-has-changed-for-ios-store-apps----1480316---"></a>iOS 스토어 앱에서 할당 충돌 해결책이 변경됨 <!-- 1480316 -->
-최종 사용자는 iOS 스토어 앱의 가용성에 변경 사항이 있을 수 있습니다. 현재 **필수 및 사용 가능**과 **해당 없음**으로 충돌되는 두 그룹에 할당된 앱은 **필수 및 사용 가능**으로 확인됩니다. 변경되면 이러한 충돌이 발생하는 앱은 **해당 없음**으로 확인됩니다.
 
 변경 내용은 한 앱이 서로 다른 앱 의도로 여러 그룹에 할당된 경우의 혼란을 해결합니다.
 
@@ -295,7 +253,7 @@ iOS 10.3 감독된 장치를 종료할 수 있습니다. 이 작업을 수행하
 1. 그룹에 대한 **해당 없음** 할당을 제거합니다.
 2. **필수 및 사용 가능** 의도가 할당된 멤버가 포함되지 않은 새 그룹을 만들고 해당 그룹을 **해당 없음**으로 할당합니다.
 
-자세한 내용은 [Microsoft Intune을 사용하여 그룹에 앱을 할당하는 방법](apps-deploy.md)을 참조하세요.
+자세한 내용은 [Microsoft intune을 사용하여 그룹에 앱을 할당하는 방법](apps-deploy.md)을 참조하세요.
 
 > [!Note]
 > 릴리스 후에는 Intune 클래식 콘솔에서 MDM(모바일 장치 관리) 앱 할당을 보거나 수정할 수 없습니다. 단, Azure 콘솔 또는 Intune Graph API를 사용하여 앱 할당을 만들 수 있습니다.
@@ -316,11 +274,16 @@ iOS용 회사 포털 앱에 대한 주요 사용자 환경 업데이트를 출�
 ### <a name="azure-active-directory-web-sites-can-require-the-intune-managed-browser-app-and-support-single-sign-on-for-the-managed-browser-public-preview----710595---"></a>Azure Active Directory 웹 사이트에는 Intune Managed Browser 앱이 필요하고 Managed Browser(공개 미리 보기)에 Single Sign-On을 지원할 수 있습니다.<!-- 710595 -->   
 Azure AD(Azure Active Directory)를 사용하면 모바일 장치에서 웹 사이트에 대한 액세스를 Intune Managed Browser 앱으로 제한할 수 있습니다. Managed Browser에서 웹 사이트 데이터는 최종 사용자 개인 데이터와 별도로 안전하게 유지됩니다. 또한 Managed Browser는 Azure AD에서 보호하는 사이트에 Single Sign-On 기능을 지원합니다. Managed Browser에 로그인하거나 Intune에서 관리하는 다른 앱과 함께 장치에서 Managed Browser를 사용하면 사용자에게 자격 증명을 입력하지 않고도 Azure AD에서 보호되는 회사 사이트에 액세스할 수 있습니다. 이 기능은 OWA(Outlook Web Access) 및 SharePoint Online과 같은 사이트뿐만 아니라 Azure 앱 프록시를 통해 액세스되는 인트라넷 리소스와 같은 다른 회사 사이트에도 적용됩니다.
 
+<!-- the following are present prior to 1709 -->
+### <a name="intune-app-protection-and-citrix-mdx-development-tools----709185---"></a>Intune 앱 보호 및 Citrix MDX 개발 도구<!-- 709185 -->
+Citrix XenMobile MDX와 Microsoft Intune의 조합으로 장치와 앱을 관리할 수 있습니다. 이 옵션을 사용하면 Citrix의 mVPN 기술을 사용하면서 Intune 앱 보호 정책으로 앱을 관리할 수 있습니다.
+
+Intune 앱 래핑 도구와 iOS 및 Android용 Intune 앱 SDK를 포함하는 코드 리포지토리를 찾아 Citrix MDX mVPN 기술과 통합할 수 있습니다.
+
 <!-- the following are present prior to 1711 -->
 
-### <a name="redirecting-macos-users-to-our-new-company-portal-app---1380728--"></a>새 회사 포털 앱에 macOS 사용자 리디렉션<!--1380728-->   
+### <a name="redirecting-macos-users-to-the-new-company-portal-app---1380728--"></a>새 회사 포털 앱에 macOS 사용자 리디렉션 <!--1380728-->   
 최종 사용자가 macOS 장치를 등록하기 위해 회사 포털 웹 사이트에 로그인하는 경우 프로세스를 완료하기 위해 macOS용 새 회사 포털 앱을 다운로드하도록 리디렉션됩니다. 이는 macOS 장치에서 OS X El Capitan 10.11 이상을 사용하는 경우에 발생합니다. 
-
 
 <!-- the following are present prior to 1709 -->
 

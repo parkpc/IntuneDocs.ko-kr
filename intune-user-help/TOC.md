@@ -104,7 +104,6 @@
 ## [macOS 장치 사용](using-your-macos-device-with-intune.md)
 ### [macOS 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-macos.md)
 ### [macOS 장치 등록](enroll-your-device-in-intune-macos-cp.md)
-### [레거시 macOS 장치 등록](enroll-your-device-in-intune-macos-legacy.md)
 ### [macOS 장치 등록 취소](unenroll-your-device-from-intune-macos.md)
 
 ### [macOS의 일반적인 문제 해결](troubleshoot-your-device-macos.md)
@@ -140,6 +139,7 @@
 #### [회사 포털 앱에서 로그 전송](send-logs-to-your-it-admin-cp-windows.md)
 #### [설정 앱에서 로그 전송](send-logs-to-your-it-admin-settings-windows.md)
 #### [내 Windows 버전이 아직 지원되지 않음](your-windows-version-isnt-yet-supported.md)
+#### [Windows 10 장치에 Office 365 설치](install-office-windows.md)
 #### [Windows 암호화 사용](you-need-to-enable-windows-encryption.md)
 #### [내 장치에 맬웨어 방지 소프트웨어가 필요함](your-device-needs-antimalware-software.md)
 #### [보안 부팅 사용](you-need-to-enable-secure-boot-windows.md)
@@ -150,3 +150,4 @@
 #### [Windows Defender를 켜야 하는 경우](turn-on-defender-windows.md)
 
 ## [Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
+### [장치 원격 잠금](remote-lock-your-device-cpwebsite.md)

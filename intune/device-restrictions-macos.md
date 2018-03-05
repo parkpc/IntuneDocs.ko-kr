@@ -6,20 +6,18 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 08/01/2017
+ms.date: 1/31/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 3129cbaf-96c2-4837-8907-ca87a605a496
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 69fc2959c7694a0120efff8653ce8d619f33a9d3
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: a88cf11209726a622863339c3a6c117f7b83be1e
+ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="macos-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 macOS 장치 제한 설정
 
@@ -30,7 +28,7 @@ ms.lasthandoff: 01/25/2018
 ## <a name="password"></a>암호
 -   **암호** - 최종 사용자에게 장치에 액세스하려면 암호를 입력하도록 요구합니다.
     -   **필수 암호 유형** - 암호를 숫자만으로 구성할 수 있는지 아니면 영숫자(문자와 숫자 포함)로 구성해야 하는지 지정합니다. 이 설정은 Mac OS X 버전 10.10.3 이상에서만 지원됩니다.
-    -   **암호에 포함해야 하는 영숫자가 아닌 문자 수** - 암호에 필요한 복잡한 문자 수(**0**~**4**)를 지정합니다.<br>복합 문자는 **?** 등의 기호입니다.
+    -   **암호에 포함해야 하는 영숫자가 아닌 문자 수** - 암호에 필요한 복잡한 문자 수(**0**~**4**)를 지정합니다.<br>복합 문자는 "**?**" 등의 기호입니다.
     -   **최소 암호 길이** - 사용자가 구성해야 하는 암호의 최소 길이(**4**~**16**자)를 입력합니다.
     -   **단순 암호** - **0000** 또는 **1234**와 같은 단순 암호 사용을 허용합니다.
     -   **화면 잠금 후 암호를 요구하기 전까지 최대 시간(분)** - 컴퓨터 잠금을 해제하려면 암호를 입력해야 할 때까지 컴퓨터가 비활성 상태로 유지되는 시간을 지정합니다.
@@ -42,8 +40,8 @@ ms.lasthandoff: 01/25/2018
 
 제한된 앱 목록에서 다음 목록 중 하나를 구성할 수 있습니다.
 
-**금지된 앱** 목록 - 사용자가 설치하거나 실행할 수 없고 Intune에서 관리되지 않는 앱을 나열합니다.
-**승인된 앱** 목록 - 사용자가 설치할 수 있는 앱을 나열합니다. 호환성을 유지하려면 사용자가 나열되지 않은 앱을 설치하지 않아야 합니다. Intune에서 관리되는 앱은 자동으로 허용됩니다.
+- **금지된 앱** 목록 - 사용자가 설치하거나 실행할 수 없고 Intune에서 관리되지 않는 앱을 나열합니다. 사용자는 금지된 앱을 설치할 수 있지만, 그렇게 하는 경우 해당 사용자에게 이를 보고합니다.
+- **승인된 앱** 목록 - 사용자가 설치할 수 있는 앱을 나열합니다. 사용자는 나열되지 않은 앱을 설치하지 않아야 합니다. Intune에서 관리되는 앱은 자동으로 허용됩니다. 사용자가 승인 목록에 없는 앱을 설치할 수 있지만 설치하는 경우 관리자에게 보고됩니다.
 
 목록을 구성하려면 **추가**를 클릭한 다음 선택한 이름, 앱 게시자(선택 사항) 및 앱의 번들 ID를 지정합니다(예: *com.apple.calculator*).
 

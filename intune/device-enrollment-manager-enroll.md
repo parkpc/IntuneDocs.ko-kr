@@ -15,11 +15,11 @@ ms.assetid: 7196b33e-d303-4415-ad0b-2ecdb14230fd
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: eda4ad57f1365a7fe27d58ad8f40399b1582b4b6
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 4ae5060ca2ea884ddbcf0e21d7a6e95c56f973bc
+ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/03/2018
 ---
 # <a name="enroll-devices-using-device-enrollment-manager"></a>장치 등록 관리자를 사용하여 장치 등록
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 01/25/2018
 장치 등록 관리자로 추가하려면 Azure 포털에 사용자가 존재해야 합니다. 보안 최적화를 위해 DEM 사용자는 Intune 관리자여서도 안 됩니다.
 
 >[!NOTE]
->DEM 등록 방법은 [Apple Configurator에서 설정 도우미 사용](apple-configurator-setup-assistant-enroll-ios.md), [Apple Configurator에서 직접 등록](apple-configurator-direct-enroll-ios.md), [ASM(Apple School Manager) 사용](apple-school-manager-set-up-ios.md) 또는 [DEP(장치 등록 프로그램) 사용](device-enrollment-program-enroll-ios.md) 등의 다른 등록 방법과 함께 사용할 수 없습니다. macOS 장치를 등록하는 데도 사용할 수 없습니다. 
+>DEM 등록 방법은 [Apple Configurator에서 설정 도우미 사용](apple-configurator-setup-assistant-enroll-ios.md), [Apple Configurator에서 직접 등록](apple-configurator-direct-enroll-ios.md), [ASM(Apple School Manager) 사용](apple-school-manager-set-up-ios.md) 또는 [DEP(장치 등록 프로그램) 사용](device-enrollment-program-enroll-ios.md) 등의 다른 등록 방법과 함께 사용할 수 없습니다. macOS 장치를 등록하는 데도 사용할 수 없습니다.
 
 ## <a name="example-of-a-device-enrollment-manager-scenario"></a>장치 등록 관리자 시나리오의 예
 
@@ -65,13 +65,11 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
 ## <a name="add-a-device-enrollment-manager"></a>장치 등록 관리자 추가
 
-1.  Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1.  [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **장치 등록 관리자**를 선택합니다.
 
-2.  Intune 블레이드에서 **장치 등록**을 선택한 다음 **장치 등록 관리자**를 선택합니다.
+2.  **추가**를 선택합니다.
 
-3.  **추가**를 선택합니다.
-
-4.  **사용자 추가** 블레이드에서 DEM 사용자의 사용자 계정 이름을 입력하고 **추가**를 선택합니다. DEM 사용자가 DEM 사용자 목록에 추가됩니다.
+3.  **사용자 추가** 블레이드에서 DEM 사용자의 사용자 계정 이름을 입력하고 **추가**를 선택합니다. DEM 사용자가 DEM 사용자 목록에 추가됩니다.
 
 ## <a name="permissions-for-dem"></a>DEM에 대한 권한
 

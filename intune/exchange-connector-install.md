@@ -15,11 +15,11 @@ ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 39fb4b4b91eb6769eb1d5d95736cbbde141c6812
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: cb82b1a9af0cc8dd2f394747ce7ed8b695260bb9
+ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/03/2018
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Microsoft Intune Azure에서 Intune 온-프레미스 Exchange 커넥터 설정
 
@@ -39,7 +39,7 @@ Microsoft Intune이 온-프레미스 Exchange Server와 통신할 수 있도록 
 
 |요구 사항|추가 정보|
 |---------------|--------------------|
-|운영 체제|Intune은 Windows Server 2008 SP2 64비트, Windows Server 2008 R2, Windows Server 2012 또는 Windows Server 2012 R2의 모든 버전을 실행하는 컴퓨터에서 온-프레미스 Exchange Connector를 지원합니다.<br /><br />이 Connector는 Server Core 설치에서 지원되지 않습니다.|
+|운영 체제|Intune은 Windows Server 2008 SP2 64비트, Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2 또는 Windows Server 2016의 모든 버전을 실행하는 컴퓨터에서 온-프레미스 Exchange Connector를 지원합니다.<br /><br />이 Connector는 Server Core 설치에서 지원되지 않습니다.|
 |Microsoft Exchange|온-프레미스 Connector를 사용하려면 Microsoft Exchange 2010 SP1 이상 또는 레거시 Exchange Online Dedicated가 필요합니다. Exchange Online Dedicated 환경이 **신규**인지 아니면 **레거시** 구성 상태인지 확인하려면 계정 관리자에게 문의하세요.|
 |모바일 장치 관리 기관| [Intune으로 모바일 장치 관리 기관 설정](https://docs.microsoft.com/intune-classic/deploy-use/prerequisites-for-enrollment#step-2-mdm-authority-set).|
 |하드웨어|커넥터를 설치하는 컴퓨터에는 1.6GHz CPU, 2GB RAM 및 10GB의 사용 가능한 디스크 공간이 필요합니다.|users-add.md
@@ -152,7 +152,7 @@ Exchange Connector를 성공적으로 구성한 후 연결 상태 및 마지막�
 
 ### <a name="system-center-operations-manager-scom-management-pack"></a>SCOM(System Center Operations Manager) 관리 팩
 
-Intune 1710 릴리스부터 [Exchange Connector 및 Intune 용 SCOM 관리 팩](https://www.microsoft.com/en-us/download/details.aspx?id=55990&751be11f-ede8-5a0c-058c-2ee190a24fa6=True&e6b34bbe-475b-1abd-2c51-b5034bcdd6d2=True&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True)을 사용할 수 있습니다. 이렇게 하면 문제를 해결해야 할 때 Exchange 커넥터를 모니터링하는 여러 가지 방법이 있습니다.
+Intune 1710 릴리스부터 [Exchange Connector 및 Intune 용 SCOM 관리 팩](https://www.microsoft.com/download/details.aspx?id=55990&751be11f-ede8-5a0c-058c-2ee190a24fa6=True&e6b34bbe-475b-1abd-2c51-b5034bcdd6d2=True&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True)을 사용할 수 있습니다. 이렇게 하면 문제를 해결해야 할 때 Exchange 커넥터를 모니터링하는 여러 가지 방법이 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Exchange 온-프레미스에 대해 조건부 액세스 정책 만들기](conditional-access-exchange-create.md)

@@ -14,11 +14,11 @@ ms.assetid: 3b8d22fe-c318-4796-b760-44f1ccf34312
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 626f52ecb7c3e90f05cc06a7235ca96499654ce5
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 773e4d551a8ea278c60107a279e29b83f0a1596f
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="manage-windows-pcs-as-computers-via-intune-software-client"></a>Intune 소프트웨어 클라이언트를 통해 Windows PC를 컴퓨터로 관리
 
@@ -40,7 +40,7 @@ Intune에서는 소프트웨어 클라이언트를 사용하여 최대 7,000대�
 
 |요구 사항|추가 정보|
 |---------------|--------------------|
-|네트워크|클라이언트를 설치하려면 PC가 인터넷에 연결되어 있어야 합니다.|
+|Network (네트워크)|클라이언트를 설치하려면 PC가 인터넷에 연결되어 있어야 합니다.|
 |프로세서 및 메모리|PC 운영 체제의 프로세서 및 RAM 요구 사항을 참조하세요.|
 |디스크 공간|클라이언트 소프트웨어를 설치하려면 먼저 200MB의 사용 가능한 디스크 공간이 필요합니다.|
 

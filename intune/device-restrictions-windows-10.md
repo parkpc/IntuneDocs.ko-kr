@@ -1,24 +1,23 @@
 ---
 title: "Windows 10에 대한 Intune 장치 제한 설정"
 titlesuffix: Azure portal
-description: "Windows 10 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+description: "Windows 10 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 1/8/2018
+ms.date: 2/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fc50d6f5c4b0350d0117b5d68a0b9ac3e9ec3ab3
-ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
+ms.openlocfilehash: 128e16ad989293e168d2bb53d5974e479e09a000
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="windows-10-and-later-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 이상 장치 제한 설정
 
@@ -28,6 +27,8 @@ ms.lasthandoff: 02/01/2018
 - **화면 캡처(모바일 전용)** - 장치 화면을 이미지로 캡처하도록 허용합니다.
 - **복사 및 붙여넣기(모바일 전용)** - 장치의 앱 간에 작업을 복사하여 붙여넣을 수 있습니다.
 - **수동 등록 취소** - 장치에서 회사 계정을 수동으로 삭제할 수 있습니다.
+   - 이 정책은 컴퓨터가 Azure Active Directory에 연결되어 있고 자동 등록이 활성화된 경우에는 적용되지 않습니다. 
+   - 이 정책 설정은 Windows 10 Home을 실행 중인 컴퓨터에 적용되지 않습니다.
 - **수동 루트 인증서 설치(모바일 전용)** - 사용자가 루트 인증서 및 중간 CAP 인증서를 수동으로 설치할 수 없게 됩니다.
 - **진단 데이터 제출** - 가능한 값은 다음과 같습니다.
     - **없음** - Microsoft로 데이터가 전송되지 않습니다.
@@ -68,7 +69,7 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 
 ## <a name="personalization"></a>Personalization
 
-- **바탕 화면 배경 그림 URL(데스크톱 전용)** - Windows 바탕 화면 배경으로 사용할 PNG, JPG 또는 JPEG 형식의 그림에 대한 URL을 지정합니다. 이 정보는 사용자가 변경할 수 없습니다.
+- **바탕 화면 배경 그림 URL(데스크톱 전용)** - Windows 바탕 화면 배경으로 사용할 JPEG 형식의 그림에 대한 URL을 지정합니다. 이 정보는 사용자가 변경할 수 없습니다.
 
 ## <a name="privacy"></a>개인 정보 취급 방침
 
@@ -153,7 +154,7 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 
 
 
-## <a name="edge-browser"></a>Edge 브라우저
+## <a name="edge-browser"></a>Microsoft Edge 브라우저
 
 -   **Microsoft Edge 브라우저(모바일 전용)** - 장치에서 Edge 웹 브라우저 사용을 허용합니다.
 -   **주소 표시줄 드롭다운(데스크톱 전용)** – 입력 시 Edge에서 드롭다운 목록에 제안 목록을 표시하지 않도록 하려면 이 옵션을 사용합니다. 이렇게 하면 Edge와 Microsoft 서비스 간의 네트워크 대역폭 사용을 최소화할 수 있습니다.
@@ -268,7 +269,7 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 
       - **앱의 AUMID(응용 프로그램 사용자 모델 ID)** - 키오스크 앱의 AUMID를 지정합니다. 자세한 내용은 [설치된 앱의 응용 프로그램 사용자 모델 ID 찾기](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)를 참조하세요.
 
-    다중 앱 키오스크에는 키오스크 구성이 필요합니다. **추가** 단추를 사용하여 키오스크 구성을 만들거나 기존 키오스크를 선택합니다.
+    [다중 앱 키오스크](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps#configure-a-kiosk-in-microsoft-intune)에는 키오스크 구성이 필요합니다. **추가** 단추를 사용하여 키오스크 구성을 만들거나 기존 키오스크를 선택합니다.
 
     다중 앱 키오스크 구성에는 다음 설정이 포함됩니다.
 

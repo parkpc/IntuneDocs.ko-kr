@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ff936e49c6612d6a938b48497648a91ea0898f99
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: fb5663e291af9de1e8ff83f4ec0c584a15614d55
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="compliance-policy-settings-for-android-for-work-devices-in-microsoft-intune"></a>Microsoft Intune에서 Android for Work용 규정 준수 정책 설정
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/10/2017
 다른 플랫폼에 대한 정보를 찾는 경우 다음 중 하나를 선택합니다.
 > [!div class="op_single_selector"]
 - [Android용 준수 정책 설정](android-compliance-policy-settings-in-microsoft-intune.md)
-- [iOS 장치용 준수 정책 설정](ios-compliance-policy-settings-in-microsoft-intune.md)
+- [iOS 장치용 규정 준수 정책 설정](ios-compliance-policy-settings-in-microsoft-intune.md)
 - [Windows 장치용 준수 정책 설정](windows-compliance-policy-settings-in-microsoft-intune.md)
 
 ## <a name="system-security-settings"></a>시스템 보안 설정

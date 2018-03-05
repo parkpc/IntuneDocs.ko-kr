@@ -39,6 +39,6 @@ Intune 및 Intune for Education에서 둘 다 다음을 수행할 수 있습니�
 * 장치와 앱이 보안 요구 사항을 준수하는지 확인합니다.
 
 ### <a name="next-steps"></a>다음 단계
-* [Intune의 90일 평가판으로](https://signup.microsoft.com/Signup?OfferId=5eec053c-cc40-4cd5-a06a-ea8d75cf2686&ali=1) 제품에 대해 알아보기 이미 액세스 권한이 있는 경우 (https://intuneeducation.portal.azure.com)으로 이동하여 시작합니다.
+* [Intune의 90일 평가판으로](https://signup.microsoft.com/Signup?OfferId=5eec053c-cc40-4cd5-a06a-ea8d75cf2686&ali=1) 제품에 대해 알아보기 이미 액세스 권한이 있는 경우 (https://intuneeducation.portal.azure.com) 으로 이동하여 시작합니다.
 * [Intune for Education 사용을 시작](/intune-education/what-is-express-configuration)할 수 있는 가장 빠른 방법을 읽어 보세요.
 * Intune의 [기술 요구 사항 및 기능](/intune/supported-devices-browsers)에 대해 자세히 알아보기

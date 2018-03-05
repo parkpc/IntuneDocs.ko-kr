@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 11/29/2017
+ms.date: 01/30/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 9691982c-1a03-4ac1-b7c5-73087be8c5f2
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d3e3f35648784de860eb7e3f2e203488bc77a96d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: fab385762efa3ab095553fe21fb045f4f11ff197
+ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="set-enrollment-restrictions"></a>등록 제한 설정
 
@@ -31,7 +31,7 @@ Intune 관리자는 Intune을 사용하여 관리에 등록할 수 있는 장치
 >등록 제한은 보안 기능이 아닙니다. 손상된 장치는 해당 문자를 잘못 표시할 수 있습니다. 이러한 제한은 무해한 사용자를 위한 최선의 장벽입니다.
 
 >[!NOTE]
->아래 언급된 그룹 할당 등록 제한 및 우선 순위 기능은 Intune 고객 기반에 롤아웃되고 있습니다. 이 롤아웃이 완료될 때까지 그룹 및 우선 순위 기능에 액세스하지 못할 수 있습니다. 
+>아래 언급된 그룹 할당 등록 제한 및 우선 순위 기능은 Intune 고객 기반에 롤아웃되고 있습니다. 이 롤아웃이 완료될 때까지 그룹 및 우선 순위 기능에 액세스하지 못할 수 있습니다.
 
 만들 수 있는 등록 제한 사항은 다음과 같습니다.
 
@@ -80,7 +80,7 @@ Intune 관리자는 Intune을 사용하여 관리에 등록할 수 있는 장치
   - Android 및 Android for Work는 major.minor.rev.build를 지원합니다.
   - iOS는 major.minor.rev를 지원합니다.
   - Windows는 Windows 10용 major.minor.rev.build만 지원합니다.
-  운영 체제 버전은 장비 등록 프로그램, Apple School Manager 또는 Apple Configurator 앱에 등록되는 Apple 장치에 적용되지 않습니다. 
+  운영 체제 버전은 장비 등록 프로그램, Apple School Manager 또는 Apple Configurator 앱에 등록되는 Apple 장치에 적용되지 않습니다.
 8. 나열된 각 플랫폼에서 **개인적으로 소유한**장치를 **허용**할지 **차단**할지 지정합니다.
 
     ![개인적으로 소유함 설정이 구성된 기본 장치 플랫폼 구성이 있는 장치 제한 작업 영역 스크린샷.](media/device-restrictions-platform-configurations.png)
@@ -103,15 +103,19 @@ Intune 관리자는 Intune을 사용하여 관리에 등록할 수 있는 장치
     ![장치 개수 제한이 있는 장치 개수 제한 블레이드 스크린샷](./media/device-restrictions-limit.png)
 6. **Save**을 클릭합니다.
 
+등록된 장치 수가 한도에 다다랐을 때 최종 사용자에게 이를 알리는 알림이 표시됩니다. 예를 들어, iOS의 경우 다음과 같습니다.
+
+![iOS 장치 제한 알림의 스크린샷](./media/enrollment-restrictions-ios-set-limit-notification.png)
+
 ## <a name="change-enrollment-restriction-priority"></a>등록 제한 우선 순위 변경
 
-우선 순위는 사용자가 제한이 할당된 여러 그룹에 있는 경우에 사용됩니다. 사용자에게는 자신이 속한 그룹에 할당된 우선 순위가 가장 높은 제한만 적용됩니다. 예를 들어 Joe는 우선 순위가 5인 제한에 할당된 A 그룹과 우선 순위가 2인 제한에 할당된 B 그룹에 속합니다. Joe에게는 우선 순위가 2인 제한만 적용됩니다. 
+우선 순위는 사용자가 제한이 할당된 여러 그룹에 있는 경우에 사용됩니다. 사용자에게는 자신이 속한 그룹에 할당된 우선 순위가 가장 높은 제한만 적용됩니다. 예를 들어 Joe는 우선 순위가 5인 제한에 할당된 A 그룹과 우선 순위가 2인 제한에 할당된 B 그룹에 속합니다. Joe에게는 우선 순위가 2인 제한만 적용됩니다.
 
 제한을 만들면 기본값 바로 위 목록에 추가됩니다.
 
-장치 등록에는 장치 유형 및 장치 개수 제한에 대한 기본 제한이 포함됩니다. 이러한 두 가지 제한은 우선 순위가 더 높은 제한으로 재정의된 경우가 아니면 모든 사용자에게 적용됩니다. 
+장치 등록에는 장치 유형 및 장치 개수 제한에 대한 기본 제한이 포함됩니다. 이러한 두 가지 제한은 우선 순위가 더 높은 제한으로 재정의된 경우가 아니면 모든 사용자에게 적용됩니다.
 
-기본값 이외의 제한은 우선 순위를 변경할 수 있습니다. 
+기본값 이외의 제한은 우선 순위를 변경할 수 있습니다.
 
 **제한 우선 순위를 변경하려면**
 
@@ -120,8 +124,3 @@ Intune 관리자는 Intune을 사용하여 관리에 등록할 수 있는 장치
 3. **장치 등록** > **등록 제한**을 선택합니다.
 4. 우선 순위 목록의 제한을 마우스로 가리킵니다.
 5. 세로 점 세 개를 사용하여 목록의 원하는 위치로 우선 순위를 끕니다.
-
-
-
-
-

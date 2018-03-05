@@ -15,11 +15,11 @@ ms.assetid: 4e3627bd-a9fd-49bc-b95e-9b7532f0ed55
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 97f9407c8ba93307059e44c8becf4f7a36c6861a
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 67d8a6eb4f284cf1922f9f79a8b767c124b66b06
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Intune을 사용하여 WIP(Windows Information Protection) 앱 보호 정책 만들기 및 배포
 
@@ -47,7 +47,7 @@ WIP 정책을 추가할 때 적용되는 몇 가지 개념에 대해 살펴보�
 
 ## <a name="pre-requisites"></a>필수 구성 요소
 
-WIP 앱 보호 정책을 만들려면 먼저 MAM 공급자를 구성해야 합니다. [Intune을 사용하여 MAM 공급자를 구성하는 방법](https://docs.microsoft.com/app-protection-policies-configure-windows-10.md)에 대해 자세히 알아보세요.
+WIP 앱 보호 정책을 만들려면 먼저 MAM 공급자를 구성해야 합니다. [Intune을 사용하여 MAM 공급자를 구성하는 방법](app-protection-policies-configure-windows-10.md)에 대해 자세히 알아보세요.
 
 다음과 같은 구성 요소도 필요합니다.
 
@@ -125,9 +125,11 @@ WIP를 통해 보호하려는 앱을 추가한 후에는 **WIP 학습**을 사�
 
 ### <a name="before-you-begin"></a>시작하기 전에
 
-WIP 학습은 WIP 알 수 없는 앱을 모니터하는 데 사용할 수 있는 보고서입니다. 알 수 없는 앱은 조직의 IT 부서에서 배포하지 않은 앱입니다. “차단” 모드에서 WIP를 적용하기 전에 생산성 저하를 방지하기 위해 보고서에서 이러한 앱을 내보내 WIP 정책에 추가할 수 있습니다.
+WIP 학습은 WIP 지원 앱 및 WIP 알 수 없는 앱을 모니터하는 데 사용할 수 있는 보고서입니다. 알 수 없는 앱은 조직의 IT 부서에서 배포하지 않은 앱입니다. “차단” 모드에서 WIP를 적용하기 전에 생산성 저하를 방지하기 위해 보고서에서 이러한 앱을 내보내 WIP 정책에 추가할 수 있습니다.
 
-먼저 **자동** 또는 **재정의 허용** 모드를 설정해 허용되는 앱 목록에 올바른 앱이 포함된 소규모 그룹부터 확인하는 것이 좋습니다. 이 확인이 완료되면 최종 적용 정책인 **차단**으로 변경할 수 있습니다.
+<!-- 1631908 --> In addition to viewing information about WIP-enabled apps, you can view a summary of the devices that have shared work data with websites. With this information, you can determine which websites should be added to group and user WIP policies. The summary shows which website URLs are accessed by WIP-enabled apps.
+
+WIP 지원 앱 및 WIP 알 수 없는 앱으로 작업하는 경우, 허용되는 앱 목록에 올바른 앱이 있는지 소그룹으로 확인하면서 **자동** 또는 **재정의 허용**으로 시작하는 것이 좋습니다. 이 확인이 완료되면 최종 적용 정책인 **차단**으로 변경할 수 있습니다.
 
 ### <a name="what-are-the-protection-modes"></a>보호 모드의 종류
 

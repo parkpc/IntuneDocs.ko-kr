@@ -6,29 +6,27 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: dougeby
-ms.date: 12/07/2016
+ms.date: 2/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 13fc7783-d4de-47d0-b1b8-4c8710a9e6ab
-ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 59a68bbe3c7030e44e4b1eacb5601dd7a3121673
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: fe5a66ca91181d0cebdaea846f0ee08f9252d76b
+ms.sourcegitcommit: 754fcc31155b28d6910bba45419c6be745f8793e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-windows-devices-in-intune"></a>Intune에서 Windows 장치에 대한 장치 준수 정책을 만드는 방법
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-준수 정책은 각 플랫폼에 대해 생성됩니다.  Azure Portal에서 준수 정책을 만들 수 있습니다. 준수 정책에 대한 정의는 [장치 준수란?](device-compliance.md) 항목을 참조하세요. 준수 정책을 만들기 전에 해결해야 하는 전제 조건을 자세히 알아보려면 [장치 준수 시작](device-compliance-get-started.md) 항목을 참조하세요.
+준수 정책은 각 플랫폼에 대해 생성됩니다. Azure Portal에서 준수 정책을 만들 수 있습니다. 준수 정책에 대한 정의는 [장치 준수란?](device-compliance.md) 항목을 참조하세요. 준수 정책을 만들기 전에 해결해야 하는 전제 조건을 자세히 알아보려면 [장치 준수 시작](device-compliance-get-started.md) 항목을 참조하세요.
 
-아래 표에서는 준수 정책을 조건부 액세스 정책과 함께 사용할 경우 비준수 설정을 관리하는 방법을 설명합니다.
+다음 표에서는 준수 정책을 조건부 액세스 정책과 함께 사용할 경우 비준수 설정을 관리하는 방법을 설명합니다.
 
 ---------------------------
 
@@ -71,7 +69,7 @@ ms.lasthandoff: 01/25/2018
 1. 사용자에게 할당할 정책을 선택한 다음 **할당**을 선택합니다. **Azure Active Directory 보안 그룹**을 선택하고 정책에 할당할 수 있는 블레이드가 열립니다.
 2. **그룹 선택**을 선택하여 Azure AD 보안 그룹을 표시하는 블레이드를 엽니다.  **선택**을 선택하면 정책이 사용자에게 배포됩니다.
 
-사용자에게 정책을 적용했습니다.  정책의 대상 사용자가 사용하는 장치에 대해 준수 여부가 평가됩니다.
+사용자에게 정책을 적용했습니다. 정책의 대상 사용자가 사용하는 장치에 대해 준수 여부가 평가됩니다.
 
 <!---## Compliance policy settings--->
 
@@ -190,6 +188,18 @@ HAS 서비스의 작동 방식에 대한 자세한 내용은 [상태 증명 CSP]
 - Windows 8.1 PC는 **3** 버전을 반환합니다. Windows에 대한 OS 버전 규칙이 Windows 8.1로 설정된 경우 장치에 Windows 8.1이 있어도 장치가 호환되지 않는 것으로 보고됩니다.
 - Windows 10을 실행하는 PC의 버전은 &quot;10.0&quot;과 winver 명령에 의해 반환된 OS 빌드 번호로 설정되어야 합니다.
 
-<!--- ## Next steps
+## <a name="windows-holographic-for-business-support"></a>Windows Holographic for Business 지원
 
-[How to monitor device compliance](device-compliance-monitor.md)--->
+Windows Holographic for Business는 다음과 같은 설정을 지원합니다.
+
+- 시스템 보안/암호화
+
+  **장치에 있는 데이터 저장소의 암호화**
+
+Microsoft HoloLens에서 장치 암호화를 확인하려면 [장치 암호화 확인](https://docs.microsoft.com/hololens/hololens-encryption#verify-device-encryption)을 참조하세요.
+
+## <a name="next-steps"></a>다음 단계
+
+장치 규정 준수를 모니터링하는 방법에 대해 알아보려면 다음 항목을 참조하세요.
+
+- [장치 준수를 모니터링하는 방법](device-compliance-monitor.md)

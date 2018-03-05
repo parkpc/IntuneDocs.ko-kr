@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d39d4deb00c7a79b856b82d57b042b0fdc585507
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: e4940d0e02b670ec76906e75799bf9b0e8dedd8d
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="use-ios-mobile-provisioning-profile-policies-to-prevent-your-apps-from-expiring"></a>iOS 프로비전 프로필 정책을 사용하여 모바일 앱이 만료되지 않도록 방지
 

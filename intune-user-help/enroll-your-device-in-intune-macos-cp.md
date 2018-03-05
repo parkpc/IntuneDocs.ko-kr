@@ -17,11 +17,11 @@ ROBOTS:
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 0da2ba5d842a004f167a4bbeca62d4b00f756612
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 4f01a5aa9567ea914da2c36756e8c3f12f55c58d
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="enroll-your-macos-device-in-intune-with-the-company-portal-app"></a>회사 포털 앱을 사용하여 Intune에 macOS 장치 등록
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 01/25/2018
 
 2. 회사 또는 학교 계정으로 회사 포털 웹 사이트에 로그인합니다.
 
-[!INCLUDE[wit_nextref](includes/end-user-password-guidance.md)]
+  [!INCLUDE[wit_nextref](includes/end-user-password-guidance.md)]
 
 3. 로그인 한 후에 페이지의 왼쪽 위 모퉁이에서 **메뉴**를 클릭하고 **내 장치**를 선택합니다.
 

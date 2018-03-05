@@ -1,25 +1,24 @@
 ---
 title: "TeamViewer를 사용하여 장치를 원격으로 관리하는 방법"
 titlesuffix: Azure portal
-description: "TeamViewer를 사용하여 장치를 원격으로 관리하는 방법을 알아봅니다.\""
+description: "TeamViewer를 사용하여 장치를 원격으로 관리하는 방법을 알아봅니다."
 keywords: 
 author: arob98
 ms.author: angrobe
 manager: dougeby
-ms.date: 12/14/2017
+ms.date: 2/14/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 72cdd888-efca-46e6-b2e7-fb9696bb2fba
-ms.reviewer: davidra
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 476480ce3957ef2d411b37a0a078707c721fd2e6
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 0219993e0322be06dbf9b26707789332039001f1
+ms.sourcegitcommit: cccbb6730a8c84dc3a62093b8910305081ac9d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="provide-remote-assistance-for-intune-managed-devices"></a>Intune에서 관리하는 장치에 대한 원격 지원 제공
 
@@ -32,7 +31,7 @@ Intune에서는 [TeamViewer](https://www.teamviewer.com) 소프트웨어(별매)
 Intune 관리 Android 및 Windows 장치는 원격 관리를 지원합니다.
 
 >[!NOTE]
->Windows Holographic(HoloLens), Windows 팀(Surface Hub) 및 Windows 10 S는 TeamViewer 소프트웨어에서 지원되지 않습니다. 여전히 Intune 클래식 포털에서 [PC 클라이언트](/intune-classic/deploy-use/pc-management-comparison?toc=/intune/toc.json)를 사용하여 장치를 관리해야 합니다.
+>Windows Holographic(HoloLens), Windows 팀(Surface Hub) 및 Windows 10 S는 TeamViewer 소프트웨어에서 지원되지 않습니다.
 
 
 

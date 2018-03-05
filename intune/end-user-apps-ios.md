@@ -14,11 +14,11 @@ ms.assetid: 7e3135c1-df26-48c9-aa4c-cdab6168897a
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 31bb6cf7d118e121a5a8d8a74f92c2b3cf5da7bc
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 52d9c05d0bb2ed1c8592ac3b2c5cdeb07114367d
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="how-your-ios-users-get-their-apps"></a>iOS 사용자가 앱을 얻는 방법
 
@@ -47,7 +47,7 @@ Apple 제한에 따라 기간 업무 앱과 관리되는 App Store 앱을 회사
 
 ![iOS 회사 포털 앱 화면](./media/ios-cp-app-main-apps-screen.png)
 
-앱을 추가하고 이러한 타일에 삽입하는 방법에 대한 자세한 내용은 [Intune에 등록된 장치용 앱 추가](/intune-classic/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune.md)를 참조하세요.
+앱을 추가하는 방법에 대한 자세한 내용은 [Microsoft Intune에 앱을 추가하는 방법](apps-add.md)을 참조하세요.
 
 ### <a name="see-also"></a>참고 항목
 [Android 사용자가 앱을 얻는 방법](end-user-apps-android.md)

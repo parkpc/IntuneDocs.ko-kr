@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: cd5a0a3b-0013-4be3-a233-ce6e9083149f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.custom: intune-classic
-ms.openlocfilehash: 645414169dcdf5c2e548bda9d21e017e8a18f76d
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 15baae06398d135557439c0e67b50f7e1326b6fe
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="troubleshoot-mobile-application-management"></a>모바일 응용 프로그램 관리 문제 해결
 
@@ -81,7 +81,7 @@ Android | **회사 포털 필요**: 이 앱에서 회사 또는 학교 계정을
 ### <a name="error-messages-and-dialogs-on-ios"></a>iOS에서 오류 메시지 및 대화 상자
 
 
-오류 메시지 또는 대화 상자 | 원인 | 업데이트 관리 |
+오류 메시지 또는 대화 상자 | 원인 | 수정 |
 -- | --- | --- |
 **앱이 설정되지 않음**: 이 앱을 사용자가 사용하도록 설정되지 않았습니다. 도움이 필요하면 IT 관리자에게 문의하세요. | 앱의 필수 앱 보호 정책을 검색하지 못했습니다. |iOS 앱 보호 정책이 사용자의 보안 그룹에 배포되어 있으며 이 앱을 대상으로 하는지 확인합니다.
 **Intune Managed Browser에 오신 것을 환영합니다.**: 이 앱은 Microsoft Intune으로 관리할 때 가장 잘 작동합니다. 언제든지 이 앱을 사용하여 웹 검색을 할 수 있으며 Microsoft Intune으로 앱을 관리하는 경우 추가 데이터 보호 기능에 액세스할 수 있습니다. | Intune Managed Browser 앱의 필수 앱 보호 정책을 검색하지 못했습니다. <br><br>사용자는 계속 앱을 사용하여 웹을 검색할 수는 있지만 앱은 Intune을 통해 관리되지 않습니다. | iOS 앱 보호 정책이 사용자의 보안 그룹에 배포되어 있으며 Intune Managed Browser 앱을 대상으로 하는지 확인합니다.

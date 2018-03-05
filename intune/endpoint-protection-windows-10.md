@@ -15,11 +15,11 @@ ms.assetid: 3af7c91b-8292-4c7e-8d25-8834fcf3517a
 ms.reviewer: ilwu
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f33598abe08ffb958ddac9eb7725ab500f9db981
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 35c33fb189187a678efa04d10706fe752d683e17
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="endpoint-protection-settings-for-windows-10-and-later-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 이상용 Endpoint Protection 설정
 
@@ -225,7 +225,9 @@ Exploit Protection을 사용하려면 선택한 시스템 및 응용 프로그�
 
 **응용 프로그램 제어 코드 무결성 정책**을 사용하여 감사해야 하거나 Windows Defender 응용 프로그램 제어에서 실행하도록 신뢰할 수 있는 추가 앱을 선택합니다. Windows 구성 요소 및 모든 Windows 저장소 앱의 실행은 자동으로 신뢰할 수 있습니다.
 
-"감사만" 모드에서 실행하는 경우 응용 프로그램이 차단되지 않습니다. "감사 전용" 모드는 로컬 클라이언트 로그에 있는 모든 이벤트를 기록합니다.
+**감사 전용** 모드에서 실행하는 경우 응용 프로그램이 차단되지 않습니다. **감사 전용** 모드는 로컬 클라이언트 로그에 있는 모든 이벤트를 기록합니다.
+
+사용하도록 설정되면 응용 프로그램 제어는 **적용**에서 **감사 전용**으로 모드를 변경할 때에만 해제될 수 있습니다. 모드를 **적용**에서 **구성하지 않음**으로 변경하면 응용 프로그램 제어가 할당된 장치에 계속 적용됩니다.
 
 ## <a name="windows-defender-security-center"></a>Windows Defender 보안 센터
 

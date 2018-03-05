@@ -5,26 +5,27 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: dougeby
-ms.date: 03/06/2017
+ms.date: 02/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 53c8e2ad-f627-425b-9adc-39ca69dbb460
-ms.reviewer: andcerat
+ms.reviewer: tisilver
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2889a0a32e58a677f825800bfa50dea64839d663
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 738f747c06f8ad7e6deb90908c2b4b653bad63e3
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="what-to-expect-when-your-android-app-is-managed-by-app-protection-policies"></a>Android 앱이 앱 보호 정책에 의해 관리될 때 예상되는 상황
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
-이 항목에서는 앱 보호 정책이 적용되는 앱에 대한 사용자 환경을 설명합니다. 앱 보호 정책은 사용자가 회사 계정을 사용하여 앱에 액세스하거나 회사의 OneDrive 비즈니스 위치에 저장된 파일에 액세스하는 경우처럼 앱이 업무용으로 사용될 때만 적용됩니다.
+이 아티클에서는 앱 보호 정책이 적용되는 앱에 대한 사용자 환경을 설명합니다. 앱 보호 정책은 사용자가 회사 계정을 사용하여 앱에 액세스하거나 회사의 비즈니스용 OneDrive 위치에 저장된 파일에 액세스하는 경우처럼 앱이 업무용으로 사용될 때만 적용됩니다.
+
 ##  <a name="access-apps"></a>앱 액세스
 
 회사 포털 앱에는 Android 장치에서 앱 보호 정책과 관련된 모든 앱이 필요합니다.
@@ -42,21 +43,15 @@ Intune에 등록되지 않은 장치의 경우 회사 포털 앱을 장치에 �
 
 ##  <a name="manage-user-accounts-on-the-device"></a>장치에서 사용자 계정 관리
 
-Intune에서는 장치당 하나의 사용자 계정에만 앱 보호 정책을 배포할 수 있습니다.
+다중 ID 응용 프로그램에서 사용자는 계정을 여러 개 추가할 수 있습니다.  Intune 앱은 하나의 관리 계정만을 지원합니다.  Intune 앱은 관리되지 않는 계정 수를 제한하지 않습니다.
 
-* 사용 중인 앱에 따라 두 번째 사용자는 장치에서 차단될 수 있습니다. 그러나 어떤 경우이든 앱 보호 정책을 가져오는 첫 번째 사용자만이 정책에 영향을 받습니다.
-
-  * **Microsoft Word**, **Excel** 및 **PowerPoint**는 두 번째 사용자 계정을 차단하지 않지만 두 번째 사용자 계정은 앱 보호 정책의 영향을 받지 않습니다.
-
-  * **OneDrive** 및 **Outlook 앱**의 경우 회사 계정을 하나만 사용할 수 있습니다.  이러한 앱용으로 회사 계정을 여러 개 추가할 수는 없습니다.  그러나 사용자를 제거하고 장치에 다른 사용자를 추가할 수 있습니다.
-
-
-* 앱 보호 정책을 배포하기 전에 장치에 기존의 여러 사용자 계정이 있으면 첫 번째 사용자에게 앱 보호 정책을 배포하는 계정은 Intune 앱 보호 정책에 의해 관리됩니다.
-
+응용 프로그램에 관리 계정이 있는 경우:
+*   사용자가 두 번째 관리 계정을 추가하려고 시도한다면 어떤 관리 계정을 사용할 것인지 선택하라는 메시지가 표시됩니다.  다른 계정은 제거됩니다.
+*   IT 관리자가 두 번째 기존 계정에 정책을 추가한다면 어떤 관리 계정을 사용할 것인지 선택하라는 메시지가 표시됩니다.  다른 계정은 제거됩니다.
 
 여러 사용자 계정이 처리되는 방법을 더욱 상세하게 파악하려면 다음 예제 시나리오를 확인하세요.
 
-사용자 A는 **회사 X** 및 **회사 Y**에서 일합니다. 사용자 A는 각 회사에 회사 계정을 보유하고 둘 다 Intune을 사용하여 앱 보호 정책을 배포합니다. **회사 X**는 **회사 Y**보다 **먼저** 앱 보호 정책을 배포합니다. **회사 X**와 연결된 계정은 앱 보호 정책을 가져오지만 회사 Y와 연결된 계정은 앱 보호 정책을 가져오지 않습니다. 회사 Y와 연결된 사용자 계정을 앱 보호 정책으로 관리하려는 경우에는 회사 X와 연결된 사용자 계정을 제거해야 합니다.
+사용자 A는 **회사 X** 및 **회사 Y**에서 일합니다. 사용자 A는 각 회사에 회사 계정을 보유하고 둘 다 Intune을 사용하여 앱 보호 정책을 배포합니다. **회사 X**는 **회사 Y**보다 **먼저** 앱 보호 정책을 배포합니다. **회사 X**와 연결된 계정은 앱 보호 정책을 가져오지만 회사 Y와 연결된 계정은 앱 보호 정책을 가져오지 않습니다. 회사 Y와 연결된 사용자 계정을 앱 보호 정책으로 관리하려는 경우에는 회사 X와 연결된 사용자 계정을 제거하고 회사 Y와 연결된 사용자 계정을 추가해야 합니다.
 ### <a name="add-a-second-account"></a>두 번째 계정 추가
 ####  <a name="android"></a>Android
 Android 장치를 사용하는 경우 기존 계정을 제거하고 새 계정을 추가하는 지침이 포함된 차단 메시지가 표시될 수 있습니다.  기존 계정을 제거하려면 **설정 &gt; 일반 &gt; 응용 프로그램 관리자 &gt; 회사 포털**로 이동합니다. 그런 후에 **데이터 지우기**를 선택합니다.

@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c601845274e5c15ce46da80a065b586e64a53a9a
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: f74b996b3b96dfa808771f3dd4fc70f9c29324c2
+ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>iOS용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -99,7 +99,18 @@ Intune 앱 SDK를 사용하려면 다음 단계를 따르세요.
 
     ![Intune 앱 SDK iOS - 번들 리소스 복사](./media/intune-app-sdk-ios-copy-bundle-resources.png)
 
-    다음 iOS 프레임워크를 프로젝트에 추가합니다.          * MessageUI.framework          * Security.framework          * MobileCoreServices.framework          * SystemConfiguration.framework          * libsqlite3.tbd          * libc++.tbd          * ImageIO.framework          * LocalAuthentication.framework          * AudioToolbox.framework          * QuartzCore.framework          * WebKit.framework
+    프로젝트에 다음 iOS 프레임워크를 추가합니다.  
+            * MessageUI.framework  
+            * Security.framework  
+            * MobileCoreServices.framework  
+            * SystemConfiguration.framework  
+            * libsqlite3.tbd  
+            * libc++.tbd  
+            * ImageIO.framework  
+            * LocalAuthentication.framework  
+            * AudioToolbox.framework  
+            * QuartzCore.framework  
+            * WebKit.framework  
 
 3. 각 프로젝트 대상에서 **기능**을 클릭하고 **키 집합 공유** 스위치를 사용하도록 설정하여 키 집합 공유를 사용하도록 설정합니다(아직 설정되지 않은 경우). 다음 단계를 진행하려면 키 집합 공유가 필요합니다.
 
@@ -459,9 +470,9 @@ MAM 대상 구성을 사용하면 앱이 Intune 앱 SDK를 통해 구성 데이�
 * ```[[IntuneMAMAppConfigManager instance] appConfigForIdentity:]```를 호출하여 앱 구성 개체를 가져옵니다.
 * ```IntuneMAMAppConfig``` 개체에 대해 적절한 선택기를 호출합니다. 예를 들어 응용 프로그램 키가 문자열인 경우 ```stringValueForKey``` 또는 ```allStringsForKey```를 사용하는 것이 좋습니다. ```IntuneMAMAppConfig.h header``` 파일은 반환 값/오류 조건에 대해 설명합니다.
 
-MAM 대상 구성 값과 관련된 Graph API의 기능에 대한 자세한 내용은 [Graph API 참조 MAM 대상 구성](https://graph.microsoft.io/en-us/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create)을 참조하세요. <br>
+MAM 대상 구성 값과 관련된 Graph API의 기능에 대한 자세한 내용은 [Graph API 참조 MAM 대상 구성](https://developer.microsoft.com/graph/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create)을 참조하세요. <br>
 
-iOS에서 MAM 대상 앱 구성 정책을 만드는 방법에 대한 자세한 내용은 [iOS용 Microsoft Intune 앱 구성 정책을 사용하는 방법](https://docs.microsoft.com/en-us/intune/app-configuration-policies-use-ios)에서 MAM 대상 앱 구성 섹션을 참조하세요.
+iOS에서 MAM 대상 앱 구성 정책을 만드는 방법에 대한 자세한 내용은 [iOS용 Microsoft Intune 앱 구성 정책을 사용하는 방법](https://docs.microsoft.com/intune/app-configuration-policies-use-ios)에서 MAM 대상 앱 구성 섹션을 참조하세요.
 
 ## <a name="telemetry"></a>원격 분석
 

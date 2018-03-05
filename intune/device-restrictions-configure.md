@@ -15,17 +15,23 @@ ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4cd21d6e87dfa142fe9e3ef4d9bbbc0be87eca9b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 93b6a642f26ec6273853f75d063fd368698f3864
+ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="how-to-configure-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune에서 장치 제한 설정을 구성하는 방법
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-장치 제한 사항을 통해 보안, 브라우저, 하드웨어 및 데이터 공유 설정 등 다양한 범주에 걸쳐 관리하는 광범위한 설정 및 기능을 제어할 수 있습니다. 예를 들어 iOS 장치의 사용자가 장치 카메라에 액세스하지 못하도록 하는 장치 제한 프로필을 만들 수 있습니다.
+장치 제한을 통해 다음과 같은 다양한 범주에 걸쳐 관리하는 광범위한 설정 및 기능을 제어할 수 있습니다.
+- 보안
+- 브라우저
+- 하드웨어
+- 데이터 공유 설정
+
+예를 들어 iOS 장치의 사용자가 장치 카메라에 액세스하지 못하도록 하는 장치 제한 프로필을 만들 수 있습니다.
 
 이 항목의 정보를 사용하여 장치 제한 프로필 구성에 대한 기본 사항을 알아본 다음 각 플랫폼에 대한 추가 항목을 통해 장치에 특정한 정보를 확인할 수 있습니다.
 
@@ -44,7 +50,7 @@ ms.lasthandoff: 01/25/2018
     - **Windows Phone 8.1**
     - **Windows 8.1 이상**
     - **Windows 10 이상**
-6. **프로필 유형** 드롭다운 목록에서 **장치 제한**을 선택합니다. Surface Hub와 같은 Windows 10 Team 장치에 대한 장치 제한 프로필을 만들려면 **장치 제한(Windows 10 Team)**을 선택합니다.
+6. **프로필** 유형 드롭다운 목록에서 **장치 제한**을 선택합니다. Surface Hub와 같은 Windows 10 Team 장치에 대한 장치 제한 프로필을 만들려면 **장치 제한(Windows 10 Team)**을 선택합니다.
 7. 선택한 플랫폼에 따라 구성할 수 있는 설정이 다릅니다. 각 플랫폼에 대한 자세한 설정을 보려면 다음 항목 중 하나로 이동하세요.
     - [Android 설정](device-restrictions-android.md)
     - [iOS 설정](device-restrictions-ios.md)
@@ -53,6 +59,7 @@ ms.lasthandoff: 01/25/2018
     - [Windows 8.1](device-restrictions-windows-8-1.md)
     - [Windows 10 설정](device-restrictions-windows-10.md)
     - [Windows 10 Team 설정](device-restrictions-windows-10-teams.md)
+    - [Windows Holographic for Business 설정](device-restrictions-windows-holographic.md)
     - [Android for Work 설정](device-restrictions-android-for-work.md)
 8. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
 

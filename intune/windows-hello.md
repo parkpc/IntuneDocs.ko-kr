@@ -6,20 +6,18 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 11/28/2017
+ms.date: 02/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 541be8b8-8668-41be-afce-3f3e08c12191
-ms.reviewer: davidra
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9ce18162391318374729b55aaeb302d850c17939
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 465de83c5bd15cfab67a4307000c0aa9cbfb1730
+ms.sourcegitcommit: cccbb6730a8c84dc3a62093b8910305081ac9d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="use-windows-hello-for-business"></a>비즈니스용 Windows Hello 사용
 
@@ -52,7 +50,7 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 
 1.  Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
-2.  Intune 블레이드에서 **Endpoint Protection**을 선택한 다음 **관리** > **비즈니스용 Windows Hello**를 차례로 선택합니다.
+2.  Intune 블레이드에서 **장치 등록**, **Windows 등록** > **비즈니스용 Windows Hello**를 차례로 선택합니다.
 
 3.  블레이드가 열리면 **기본값**을 선택합니다.
 
@@ -94,6 +92,18 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 
  - **휴대폰 로그인 사용**. 이 옵션이 **예**로 설정되면 원격 Passport를 데스크톱 컴퓨터 인증을 위한 휴대용 포함 장치로 사용할 수 있습니다. 데스크톱 컴퓨터가 Azure Active Directory에 연결되어 있어야 하고 해당 포함 장치는 비즈니스용 Windows Hello PIN으로 구성되어야 합니다.
 
+## <a name="windows-holographic-for-business-support"></a>Windows Holographic for Business 지원
+
+Windows Holographic for Business는 다음과 같은 비즈니스용 Windows Hello 설정을 지원합니다.
+
+- Use a Trusted Platform Module (TPM)(TPM(신뢰할 수 있는 플랫폼 모듈) 사용)
+- 최소 PIN 길이
+- 최대 PIN 길이
+- PIN에 소문자 사용
+- PIN에 대문자 사용
+- PIN에 특수 문자 사용
+- PIN 만료(일)
+- PIN 기록 기억
 
 ## <a name="further-information"></a>추가 정보
 Microsoft Passport에 대한 자세한 내용은 Windows 10 설명서의 [가이드](https://technet.microsoft.com/library/mt589441.aspx)를 참조하세요.

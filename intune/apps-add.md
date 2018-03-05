@@ -3,10 +3,10 @@ title: "Microsoft Intune에 앱을 추가하는 방법"
 titlesuffix: Azure portal
 description: "사용자 및 장치에 할당할 준비가 된 앱을 Intune으로 가져오는 절차를 설명합니다. \""
 keywords: 
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/17/2018
+ms.date: 02/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: a1ded457-0ecf-4f9c-a2d2-857d57f8d30a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f84adced59d2057cd4d18f05ff6953293f7c44cc
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 9d5fda9cc74ffa3d7be43c90efa65c59451662d3
+ms.sourcegitcommit: 754fcc31155b28d6910bba45419c6be745f8793e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="how-to-add-an-app-to-microsoft-intune"></a>Microsoft Intune에 앱을 추가하는 방법
 
@@ -33,6 +33,7 @@ Intune을 사용하여 다음 앱 유형을 추가하고 지정할 수 있습니
 | 웹앱                           | Intune이 장치 홈 화면에 웹앱의 바로 가기 생성          | 앱 업데이트가 자동     |
 | 사내에서 작성한 앱(기간 업무)  | Intune이 장치에 앱 설치(관리자가 설치 파일 제공)    | 관리자가 앱 업데이트       |
 | 스토어 앱                       | Intune이 장치에 앱 설치                                       | 앱 업데이트가 자동     |
+| 기본 제공 앱                        | Intune이 장치에 앱 설치                                       | 앱 업데이트가 자동     |
 
 
 Intune은 웹앱 외에도 다음과 같은 스토어 앱 및 LOB 앱을 위한 특정 플랫폼을 지원합니다.
@@ -49,6 +50,7 @@ Intune은 웹앱 외에도 다음과 같은 스토어 앱 및 LOB 앱을 위한 
     - iOS LOB(기간 업무) 앱
     - Windows Phone LOB(기간 업무) 앱(.xap 파일)
     - Windows LOB(기간 업무) 앱(.msi 파일만)
+- 기본 제공 앱    
 
 >[!TIP]
 > LOB(기간 업무) 앱은 앱 설치 파일로 추가합니다. 예를 들어 iOS LOB 앱을 설치하려면 **앱 추가** 블레이드에서 **앱 유형**으로 **기간 업무 앱**을 선택합니다. 그런 다음, 앱 패키지 파일(확장명 .ipa)을 선택합니다. 이러한 유형의 앱은 일반적으로 사내에서 작성됩니다.
@@ -147,4 +149,5 @@ Intune에 앱을 추가하는 경우 원하는 범주를 선택할 수 있는 �
 - [Windows 스토어 앱](store-apps-windows.md)
 - [Windows LOB 앱](lob-apps-windows.md)
 - [Windows 10용 Office 365 앱](apps-add-office365.md)
+- [기본 제공 앱](apps-add-built-in.md)
 

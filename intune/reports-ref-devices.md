@@ -14,11 +14,11 @@ ms.assetid: 6955E12D-70D7-4802-AE3B-8B276F01FA4F
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 13edf33aba614337d18806b3442668e74a9295dc
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: f304e07de7ceefb09152aeb30d113c378e716d38
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="reference-for-devices-entities"></a>장치 엔터티에 대한 참조
 
@@ -143,7 +143,7 @@ ms.lasthandoff: 01/25/2018
 |---------|------------|--------|
 | 0 |Unknown |장치의 준수 상태를 알 수 없습니다. |
 | 1 |규정 |장치가 준수 상태입니다. |
-| 2 |정책 위반 |장치가 비준수 상태입니다. |
+| 2 |정책 위반 |장치가 준수 상태가 아닙니다. |
 | 3 |Conflict |장치의 준수로 인해 충돌이 발생했습니다. |
 | 4 |오류 |장치의 준수 상태를 읽는 동안 오류가 발생했습니다. |
 

@@ -15,11 +15,11 @@ ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a6645261e2a90ea3890dc22b42fe65d6af4af6e5
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 0ee95990afa08aa55e0f9101329b31bd8b3041f4
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="what-are-app-protection-policies"></a>앱 보호 정책이란?
 
@@ -61,8 +61,7 @@ Intune 앱 보호 정책을 사용하여 회사 데이터를 보호할 수 있�
 
 
 ### <a name="supported-platforms-for-app-protection-polices"></a>앱 보호 정책이 지원되는 플랫폼
--   iOS 9 이상
--   Android 4.4 이상
+Intune 앱 보호 정책 플랫폼 지원은 Office 응용 프로그램 플랫폼 지원에 맞춰집니다. 자세한 내용은 [Office 시스템 요구 사항](https://products.office.com/en-US/office-system-requirements)을 참조하세요.
 
 Windows 장치는 현재 지원되지 않습니다. 그러나 Windows 10 장치를 Intune에 등록할 경우 유사한 기능을 제공하는 Windows Information Protection을 사용할 수 있습니다. 자세한 내용은 [WIP(Windows Information Protection)를 사용하여 엔터프라이즈 데이터 보호](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip)를 참조하세요.
 ##  <a name="how-app-protection-policies-protect-app-data"></a>앱 보호 정책으로 앱 데이터를 보호하는 방법
@@ -72,6 +71,7 @@ Windows 장치는 현재 지원되지 않습니다. 그러나 Windows 10 장치�
 ![준비된 앱 보호 정책이 없는 경우 앱 간에 자유롭게 이동할 수 있는 앱을 보여 주는 이미지](./media/apps-without-protection-policies.png)
 
 앱을 제한 없이 사용하는 경우 회사 및 개인 데이터가 혼합될 수 있습니다.  회사 데이터가 개인 저장소와 같은 위치에 저장되거나 외부 앱으로 전송되어 데이터가 손실될 수 있습니다. 다이어그램에 있는 화살표는 앱(회사 및 개인) 간 및 저장소 위치로의 무제한 데이터 이동을 표시합니다.
+
 
 ### <a name="data-protection-with-app-protection-policies"></a>앱 보호 정책을 사용하여 앱 보호
 
@@ -134,3 +134,6 @@ MDM 솔루션에 등록되지 않은 BYOD 장치의 경우 앱 보호 정책을 
 ##  <a name="next-steps"></a>다음 단계
 
 [Microsoft Intune으로 앱 보호 정책을 만들고 배포하는 방법](app-protection-policies.md)
+
+## <a name="see-also"></a>참고 항목
+Salesforce 모바일 앱과 같은 타사 앱은 Intune을 특정 방식으로 사용하여 회사 데이터를 보호합니다. 특히 Salesforce 앱이 Intune에서 작동하는 방식(MDM 앱 구성 설정 포함)에 대한 자세한 내용은 [Salesforce 앱 및 Microsoft Intune](https://gallery.technet.microsoft.com/Salesforce-App-and-Intune-c47d44ee/file/188000/1/Salesforce%20App%20and%20Intune%20for%20external.pdf)을 참조하세요.

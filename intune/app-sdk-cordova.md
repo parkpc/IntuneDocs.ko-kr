@@ -2,10 +2,10 @@
 title: "Microsoft Intune 앱 SDK Cordova 플러그 인"
 description: 
 keywords: sdk, Cordova, intune
-author: arob98
-ms.author: angrobe
+author: Erikre
+ms.author: erikre
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,20 +14,23 @@ ms.assetid: bb940cb9-d43f-45ca-b065-ac0adc61dc6f
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 00c1c805dbbf661bdcd4ad6b153fee8b2bbba9ee
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: d42f8418e2f277dca0fbb2f01248f5a815606cb6
+ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/03/2018
 ---
 # <a name="microsoft-intune-app-sdk-cordova-plugin"></a>Microsoft Intune 앱 SDK Cordova 플러그 인
 
-> [!NOTE]
-> 먼저 지원되는 각 플랫폼에서 통합을 준비하는 방법을 설명하는 [Intune 앱 SDK 시작](app-sdk-get-started.md) 문서를 읽어보는 것이 좋습니다.
+> [!IMPORTANT]
+> Intune은 2018년 5월 1일 Microsoft Intune App SDK Cordova Plugin에 대한 지원을 종료합니다. 대신 Intune 앱 래핑 도구를 사용할 것을 권장합니다. 앱 래핑 도구에 대한 자세한 내용은 [iOS용 앱 래핑 도구](app-wrapper-prepare-ios.md) 및 [Android용 앱 래핑 도구](app-wrapper-prepare-android.md)를 참조하세요. 이 변경 사항에 대한 자세한 내용은 [Microsoft Intune의 새로운 기능](whats-new.md)의 [알림](whats-new.md#notices)섹션을 참조하세요.
 
 ## <a name="overview"></a>개요
 
 Cordova 기반 iOS 및 Android 앱의 [Intune 앱 SDK Cordova 플러그인](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune). 개발자는 플러그 인을 사용하여 Cordova 기반 앱에 Intune 앱 및 데이터 보호 기능을 통합할 수 있습니다.
+
+> [!NOTE]
+> 먼저 지원되는 각 플랫폼에서 통합을 준비하는 방법을 설명하는 [Intune 앱 SDK 시작](app-sdk-get-started.md) 문서를 읽어보는 것이 좋습니다.
 
 앱의 동작을 변경하지 않고 SDK 기능을 사용하도록 설정할 수 있습니다. iOS 또는 Android 앱에 플러그 인을 빌드하면 Microsoft Intune 관리자가 다양한 데이터 보호 기능으로 구성된 Intune 앱 보호 정책을 배포할 수 있습니다. 대부분의 단계가 Cordova 빌드 프로세스에서 자동으로 수행되도록 플러그 인을 빌드했습니다. 결과적으로 앱에서 Intune 앱을 신속하게 보호하도록 설정할 수 있게 되었습니다. 시작하려면 대상 플랫폼에 따라 다음 단계를 수행합니다.
 
@@ -65,7 +68,7 @@ Cordova 기반 iOS 및 Android 앱의 [Intune 앱 SDK Cordova 플러그인](/int
 
 
 
-## <a name="quick-start"></a>빠른 시작
+## <a name="quickstart"></a>빠른 시작
 
 1. ADAL 버전 업데이트:
 

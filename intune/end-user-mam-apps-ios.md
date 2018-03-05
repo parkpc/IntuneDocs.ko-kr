@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: dougeby
-ms.date: 05/05/2017
+ms.date: 02/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 76f00caa3781d0efe85a17ccb8efc6bf27c77e97
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 0a9d17f8066ddd16c06322cf9cc64457daff87f1
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="what-to-expect-when-your-ios-app-is-managed-by-app-protection-policies"></a>iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황
 
@@ -49,19 +49,15 @@ ms.lasthandoff: 01/25/2018
 
 ##  <a name="manage-user-accounts-on-the-device"></a>장치에서 사용자 계정 관리
 
-Intune에서는 장치당 하나의 사용자 계정에만 앱 보호 정책을 배포할 수 있습니다.
+다중 ID 응용 프로그램에서 사용자는 계정을 여러 개 추가할 수 있습니다.  Intune 앱은 하나의 관리 계정만을 지원합니다.  Intune 앱은 관리되지 않는 계정 수를 제한하지 않습니다.
 
-* 사용 중인 앱에 따라 두 번째 사용자는 장치에서 차단될 수 있습니다. 그러나 어떤 경우이든 앱 보호 정책을 가져오는 첫 번째 사용자만이 정책에 영향을 받습니다.
-  * **Microsoft Word**, **Excel** 및 **PowerPoint**는 두 번째 사용자 계정을 차단하지 않지만 두 번째 사용자 계정은 앱 보호 정책의 영향을 받지 않습니다.  
-
-  * **OneDrive** 및 **Outlook 앱**의 경우 회사 계정을 하나만 사용할 수 있습니다. 이러한 앱용으로 회사 계정을 여러 개 추가할 수는 없습니다. 그러나 사용자를 제거하고 장치에 다른 사용자를 추가할 수 있습니다.
-
-* 앱 보호 정책을 배포하기 전에 장치에 기존의 여러 사용자 계정이 있으면 첫 번째 사용자에게 앱 보호 정책을 배포하는 계정은 Intune 앱 보호 정책에 의해 관리됩니다.
-
+응용 프로그램에 관리 계정이 있는 경우:
+*   사용자가 두 번째 관리 계정을 추가하려고 시도한다면 어떤 관리 계정을 사용할 것인지 선택하라는 메시지가 표시됩니다.  다른 계정은 제거됩니다.
+*   IT 관리자가 두 번째 기존 계정에 정책을 추가한다면 어떤 관리 계정을 사용할 것인지 선택하라는 메시지가 표시됩니다.  다른 계정은 제거됩니다.
 
 여러 사용자 계정이 처리되는 방법을 더욱 상세하게 파악하려면 다음 예제 시나리오를 확인하세요.
 
-사용자 A는 **회사 X** 및 **회사 Y**에서 일합니다. 사용자 A는 각 회사에 회사 계정을 보유하고 둘 다 Intune을 사용하여 앱 보호 정책을 배포합니다. **회사 X**는 **회사 Y**보다 **먼저** 앱 보호 정책을 배포합니다. **회사 X**와 연결된 계정은 앱 보호 정책을 가져오지만 회사 Y와 연결된 계정은 앱 보호 정책을 가져오지 않습니다. 회사 Y와 연결된 사용자 계정을 앱 보호 정책으로 관리하려는 경우에는 회사 X와 연결된 사용자 계정을 제거해야 합니다.
+사용자 A는 **회사 X** 및 **회사 Y**에서 일합니다. 사용자 A는 각 회사에 회사 계정을 보유하고 둘 다 Intune을 사용하여 앱 보호 정책을 배포합니다. **회사 X**는 **회사 Y**보다 **먼저** 앱 보호 정책을 배포합니다. **회사 X**와 연결된 계정은 앱 보호 정책을 먼저 가져옵니다. 회사 Y와 연결된 사용자 계정을 앱 보호 정책으로 관리하려는 경우에는 회사 X와 연결된 사용자 계정을 제거하고 회사 Y와 연결된 사용자 계정을 추가해야 합니다.
 
 ### <a name="add-a-second-account"></a>두 번째 계정 추가
 

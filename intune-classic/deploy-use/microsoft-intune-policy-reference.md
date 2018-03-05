@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1dbac49ad8fe94e9000e609dea8ae8dd6749be52
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: bf92e34c5bb94fe0cb3c0cc9dabd687a0f2710b9
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="microsoft-intune-configuration-policy-reference"></a>Microsoft Intune 구성 정책 참조
 
@@ -90,7 +90,7 @@ Windows Phone 및 등록된 Windows 장치에만 적용됩니다.
 |**신뢰할 수 있는 인증서 프로필(Windows 8.1 이상)**<br /><br />**신뢰할 수 있는 인증서 프로필(Windows Phone 8.1 이상)**|모바일 장치 인증에 사용할 수 있는 신뢰할 수 있는 모바일 장치 인증서를 구성하여 Wi-Fi 및 VPN 프로필을 통해 구성된 네트워크 리소스에 대한 액세스를 허용합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요.|
 |**VPN 프로필(Windows 10 Desktop 및 Mobile 이상)**<br /><br />**VPN 프로필(Windows 8.1 이상)**<br /><br />**VPN 프로필(Windows Phone 8.1 이상)**|사용자가 모바일 장치에서 회사 네트워크에 안전하게 액세스할 수 있게 해주는 설정을 구성하고 배포합니다. 이러한 설정을 배포하여 최종 사용자의 작업에 대한 연결을 간소화합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 VPN 연결](vpn-connections-in-microsoft-intune.md)을 참조하세요.|
 |**Wi-Fi 가져오기**|이전에 파일로 내보낸 Windows Wi-Fi 구성을 가져와서 배포합니다.<br /><br />자세한 내용은 [Microsoft Intune에서 Wi-Fi 연결](wi-fi-connections-in-microsoft-intune.md)를 참조하세요.|
-|**Windows Information Protection**<br>(이전의 엔터프라이즈 데이터 보호)|기업에서 직원 소유 장치가 증가하면서 전자 메일, 소셜 미디어 및 공용 클라우드처럼 기업의 관리 영역을 벗어나는 앱 및 서비스를 통해 실수로 데이터가 유출될 위험이 높아지고 있습니다. 예를 들어 직원이 개인 메일 계정에서 최신 엔지니어링 사진을 전송하거나, 제품 정보를 복사한 후 트윗에 붙여넣거나, 진행 중인 판매 보고서를 공용 클라우드 저장소에 저장합니다.<br><br>Windows 정보 보호는 직원 환경을 방해하지 않으면서 이러한 잠재적인 데이터 유출로부터 보호하는 데 도움이 됩니다. 또한 작업 환경이나 기타 앱을 변경하지 않고도 엔터프라이즈 앱 및 데이터가 회사 소유 장치 및 직원이 회사에 가져오는 개인 장치에서 실수로 누출되지 않도록 보호하는 데도 유용합니다.<br><br>이 Intune 정책은 Windows Information Protection, 엔터프라이즈 네트워크 위치, 보호 수준 및 암호화 설정으로 보호되는 앱 목록을 관리합니다.<br><br>자세한 내용은 [Windows 정보 보호를 사용하여 엔터프라이즈 데이터 보호](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-edp)를 참조하세요.|
+|**Windows Information Protection**<br>(이전의 엔터프라이즈 데이터 보호)|기업에서 직원 소유 장치가 증가됨에 따라 메일, 소셜 미디어, 공용 클라우드 등의 앱 및 서비스를 통해 실수에 의한 데이터 유출의 위험도 증가하며, 이러한 상황은 기업에서 제어할 수 없습니다. 예를 들어 직원이 개인 메일 계정에서 최신 엔지니어링 사진을 전송하거나, 제품 정보를 복사한 후 트윗에 붙여넣거나, 진행 중인 판매 보고서를 공용 클라우드 저장소에 저장합니다.<br><br>Windows 정보 보호는 직원 환경을 방해하지 않으면서 이러한 잠재적인 데이터 유출로부터 보호하는 데 도움이 됩니다. 또한 작업 환경이나 기타 앱을 변경하지 않고도 엔터프라이즈 앱 및 데이터가 회사 소유 장치 및 직원이 회사에 가져오는 개인 장치에서 실수로 누출되지 않도록 보호하는 데도 유용합니다.<br><br>이 Intune 정책은 Windows Information Protection, 엔터프라이즈 네트워크 위치, 보호 수준 및 암호화 설정으로 보호되는 앱 목록을 관리합니다.<br><br>자세한 내용은 [Windows 정보 보호를 사용하여 엔터프라이즈 데이터 보호](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-edp)를 참조하세요.|
 
 
 ## <a name="software-policies"></a>소프트웨어 정책
