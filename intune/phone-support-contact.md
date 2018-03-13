@@ -1,10 +1,10 @@
 ---
-title: "Intune 담당자 전화 지원에 문의"
-titlesuffix: Azure portal
-description: "Microsoft Intune 지원 전화 번호를 제공합니다.\""
+title: "Microsoft Intune의 담당자 전화 지원"
+titlesuffix: Microsoft Intune
+description: "Microsoft Intune 전화 지원용 전화 번호를 나열합니다."
 keywords: "업무 시간"
-author: arob98
-ms.author: angrobe
+author: dougeby
+ms.author: dougeby
 manager: dougeby
 ms.date: 02/27/2017
 ms.topic: article
@@ -15,15 +15,18 @@ ms.assetid: 1326e65e-56cc-4987-9006-3a788597ca19
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3de5f7524982c2a068bb8a62f90778722b037605
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: fffe789f287d68a341e529e8f27b7f76156fa798
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="contact-assisted-phone-support-for-microsoft-intune"></a>Microsoft Intune의 담당자 전화 지원
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+
+이 항목에서는 Microsoft Intune 전화 지원의 연락처 정보를 나열합니다.
 
 ## <a name="phone-numbers-and-business-hours"></a>전화 번호와 업무 시간
 

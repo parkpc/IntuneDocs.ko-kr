@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.reviewer: coryfe
 ms.suite: ems
-ms.openlocfilehash: 1a7d047de1faa019eb137516ef75d64657e22e5a
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: 63d8628c183b3efb924cae6635e2c8038fd42598
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="manage-software-updates"></a>소프트웨어 업데이트 관리
 
@@ -130,14 +130,14 @@ OMS(Operations Management Suite)에서 Update Compliance라는 무료 솔루션�
 
 Intune 콘솔에서 사용자 지정 정책의 OMA-URI 설정을 사용하여 상용 ID를 구성할 수 있습니다. 자세한 내용은 [Microsoft Intune의 Windows 10 장치용 Intune 정책 설정](https://docs.microsoft.com/intune-classic/deploy-use/windows-10-policy-settings-in-microsoft-intune)을 참조하세요.   
 
-상용 ID 구성을 위한 OMA-URI 경로(대/소문자 구분)는 /Vendor/MSFT/DMClient/Provider/MS DM Server/CommercialID입니다.
+상용 ID 구성을 위한 OMA-URI 경로(대/소문자 구분): ./Vendor/MSFT/DMClient/Provider/ProviderID/CommercialID
 
 예를 들어 **OMA-URI 설정 추가 또는 편집**에서 다음 값을 사용할 수 있습니다.
 
 - **설정 이름**: Windows 분석 상용 ID
 - **설정 설명**: Windows Analytics 솔루션에 대한 상용 ID 구성
 - **데이터 형식:** 문자열
-- **OMA-URI**(대/소문자 구분): ./Vendor/MSFT/DMClient/Provider/MS DM Server/CommercialID
+- **OMA-URI**(대/소문자 구분): ./Vendor/MSFT/DMClient/Provider/ProviderID/CommercialID
 - **값**: <*OMS 작업 영역에서 Windows 원격 분석 탭에 표시되는 GUID 사용*>
 
 ![Windows의 진단 및 사용 현황 데이터 설정](./media/commID.png)

@@ -2,9 +2,9 @@
 title: "EMS를 사용한 BYOD에 대한 기술 결정"
 description: "Microsoft Enterprise Mobility + Security를 사용하여 BYOD를 활성화하고 회사 데이터를 보호하기 위한 주요 기술 결정입니다."
 keywords: 
-author: arob98
-ms.author: angrobe
-manager: dougeby
+author: dougeby
+ms.author: pfetty
+manager: angrobe
 ms.date: 12/8/2017
 ms.topic: article
 ms.prod: 
@@ -12,11 +12,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 
 ms.suite: ems
-ms.openlocfilehash: 85fa202c3e80cdc830155299c16f121f96cc5742
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 3ee642f5c2e30023043cec4bf5286999d4397e2d
+ms.sourcegitcommit: 9cf05d3cb8099e4a238dae9b561920801ad5cdc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="technology-decisions-for-enabling-byod-with-microsoft-enterprise-mobility--security-ems"></a>Microsoft EMS(Enterprise Mobility + Security)를 사용하여 BYOD를 활성화하기 위한 기술 결정
 
