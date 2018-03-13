@@ -7,7 +7,7 @@
 ### <a name="google"></a>Google
 - Android 4.4 이상(Samsung Knox Standard 4.4 이상 포함)
 
-  확인된 Samsung Knox Standard 장치의 전체 목록은 [Android 및 Samsung Knox Standard 정책 설정](/intune-classic/deploy-use/android-policy-settings-in-microsoft-intune.md#supported-samsung-knox-standard-devices)에서 확인할 수 있습니다.
+  확인된 Samsung Knox Standard 장치의 전체 목록은 [Android 및 Samsung Knox Standard 정책 설정](/intune/supported-devices-browsers#supported-samsung-knox-standard-devices)에서 확인할 수 있습니다.
 
 
 - Android for Work([요구 사항](https://support.google.com/work/android/answer/6174145?hl=en&ref_topic=6151012 style="target=new_window"))

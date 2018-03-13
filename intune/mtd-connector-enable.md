@@ -3,8 +3,8 @@ title: "Intune과 Mobile Threat Defense 커넥터 사용"
 titlesuffix: Azure portal
 description: "Intune에서 Mobile Threat Defense 커넥터를 사용하도록 설정합니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: msmimart
+ms.author: mimart
 manager: dougeby
 ms.date: 06/21/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: dbb6a37e-ba47-4b69-922c-d25e66c279f6
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0d5e90cb91032a88830e7dc9af1d66d854ab4963
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 99b73cb0885c4d93cf91ea219ca98a8a81d67b39
+ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="enable-mobile-threat-defense-in-intune"></a>Intune에서 Mobile Threat Defense 사용
 

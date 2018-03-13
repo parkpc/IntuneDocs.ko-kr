@@ -5,7 +5,7 @@ description: "Intune Azure Portal의 그룹에 추가된 새로운 기능에 대
 keywords: 
 author: nathbarn
 ms.author: nathbarn
-manager: angerobe
+manager: dougeby
 ms.date: 01/18/2017
 ms.topic: article
 ms.prod: 
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 323f384d-8a76-4adc-999b-e508d641bfa1
 ms.custom: intune-azure
-ms.openlocfilehash: 7ba5c3d0e6f241c5734d629a23f092ac007f8300
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 96ac32059b91b9ee4f83386f36fd6af19da91004
+ms.sourcegitcommit: 80a2eefc1896a42cc2bc16be23093d1abf58b088
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="intune-classic-groups-in-the-azure-portal"></a>Azure Portal의 Intune 클래식 그룹
 
@@ -37,7 +37,7 @@ Azure AD 보안 그룹은 사용자와 장치 모두에 대한 모든 유형의 
 - **그룹화되지 않은 사용자** 및 **그룹화되지 않은 장치** Intune 그룹은 더 이상 사용할 수 없습니다.
 - 그룹에서 **특정 구성원을 제외하는** 옵션이 Azure Portal에 존재하지 않습니다. 그러나 이 동작을 복제하는 고급 규칙과 함께 Azure AD 보안 그룹을 사용할 수 있습니다. 예를 들어 보안 그룹에 Sales 부서에 속한 모든 사람을 포함하되 직함에 "Assistant"라는 단어가 포함된 그룹은 제외하는 고급 규칙을 만들려면 다음과 같은 고급 규칙을 사용할 수 있습니다.
 
-  `(user.department -eq "Sales") -and -not (user.jobTitle -contains "Assistant")`를 재정의하려면 선택합니다.
+  `(user.department -eq "Sales") -and -not (user.jobTitle -contains "Assistant")`과 같은 URL을 사용합니다.
 - Intune 클래식 콘솔의 **모든 Exchange ActiveSync 관리 장치** 그룹은 Azure AD로 마이그레이션되지 않았습니다. 그러나 Azure Portal에서 EAS 관리 장치에 대한 정보에 여전히 액세스할 수 있습니다.
 
 ## <a name="how-to-get-started"></a>시작하는 방법

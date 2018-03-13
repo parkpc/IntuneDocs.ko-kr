@@ -1,12 +1,12 @@
 ---
 title: "회사 포털 앱을 구성하는 방법"
-titleSuffix: Azure portal
-description: "Intune 회사 포털 앱에 회사별 브랜딩을 적용할 수 있는 방법을 알아봅니다. \""
+titleSuffix: Microsoft Intune
+description: "Intune 회사 포털 앱에 회사별 브랜딩을 적용할 수 있는 방법을 알아봅니다."
 keywords: 
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/15/2017
+ms.date: 03/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: dec6f258-ee1b-4824-bf66-29053051a1ae
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e40b4000df61176d4f252aa7ded776f91eeecd82
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: cd876739fb0f3ad6d2e0fea705825a26ebc9fe03
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="how-to-configure-the-microsoft-intune-company-portal-app"></a>Microsoft Intune 회사 포털 앱을 구성하는 방법
 
