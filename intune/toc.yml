@@ -236,6 +236,9 @@
                   href: store-apps-windows-phone-8-1.md
                 - name: Microsoft 스토어 앱
                   href: store-apps-windows.md
+                  items:
+                    - name: 수동으로 회사 포털 앱 추가
+                      href: store-apps-company-portal-app.md
                 - name: Android for Work 앱
                   href: apps-add-android-for-work.md
                 - name: Windows 10용 Office 365 앱
@@ -441,6 +444,8 @@
           href: compliance-policy-create-mac-os.md
         - name: Windows 정책 만들기
           href: compliance-policy-create-windows.md
+        - name: 정책 평가
+          href: policy-evaluate.md
         - name: 비준수에 대한 작업
           href: actions-for-noncompliance.md
         - name: 장치 준수 모니터링
