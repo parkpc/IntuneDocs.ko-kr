@@ -15,11 +15,11 @@ ms.assetid: 51d45ce2-d81b-4584-8bc4-568c8c62653d
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: dc5ebd90483b0fa0e25461574085bd4160f012ea
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: 3694cbde1aeba8b185c67e65269b7afbd530b048
+ms.sourcegitcommit: 3cc3a6554691c6edeff985e7d8fa402e7e49e8d3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="how-to-manage-ios-apps-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Microsoft Intune을 사용하여 대량 구매 프로그램을 통해 구매한 iOS 앱을 관리하는 방법
 
@@ -134,17 +134,20 @@ Microsoft Intune에서는 다음을 수행하여 이 프로그램을 통해 구�
 
 ## <a name="revoking-app-licenses-and-deleting-tokens"></a>앱 라이선스 취소 및 토큰 삭제 
 
-<!-- 820863 -->For a given device that has one or more iOS volume-purchase program (VPP) apps, you revoke all associated device-based app licenses for the device. Revoking an app license will not uninstall the related VPP app from the device. To uninstall a VPP app and reclaim a license, you must change the assignment type of the VPP app to **Uninstall**. If you remove an app that was assigned to a user, Intune reclaims the user or device license and uninstallS the app from the device.
+<!-- 820863 -->  
+하나 이상의 iOS VPP(Volume-Purchase Program) 앱이 설치된 지정된 장치의 경우 장치의 모든 관련 장치 기반 앱 라이선스를 철회합니다. 앱 라이선스를 철회해도 장치에서 관련 VPP 앱이 제거되지 않습니다. VPP 앱을 제거하고 라이선스를 회수하려면 VPP 앱의 할당 형식을 **제거**로 변경해야 합니다. 사용자에게 할당된 앱을 제거하는 경우 Intune은 사용자 또는 장치 라이선스를 회수하고 장치에서 앱을 제거합니다.
 
 >[!NOTE]
 >직원이 퇴직하면서 더 이상 AAD 그룹에 속하지 않을 때 Intune은 모든 사용자에게 라이선스가 허가된 iOS VPP 앱 라이선스를 검색합니다.
 
-<!-- 820879 -->You can delete a iOS Volume Purchasing Program (VPP) token using the console. This may be necessary when you have duplicate instances of a VPP token. Deleting a token will also delete any associated apps and assignment. However, deleting a token does not revoke app licenses or uninstall apps. 
+<!-- 820879 -->  
+콘솔을 사용하여 iOS VPP(Volume-Purchase Program) 토큰을 삭제할 수 있습니다. VPP 토큰의 중복 인스턴스가 있는 경우 이 기능이 필요할 수 있습니다. 토큰을 삭제하면 연결된 모든 앱과 할당도 삭제하게 됩니다. 그러나 토큰을 삭제하면 앱 라이선스를 해지하거나 앱을 제거하지 않습니다. 
 
 >[!NOTE]
 >Intune은 토큰이 삭제된 후에 앱 라이선스를 취소할 수 없습니다. 
 
-<!-- 820870 -->To revoke the license of all VPP apps for a given VPP token, you must first revoke all app licenses associated with the token, then delete the token.
+<!-- 820870 -->  
+지정된 VPP 토큰에 대해 모든 VPP 앱 라이선스를 해지하려면 먼저 토큰과 연결된 모든 앱 라이선스를 해지한 다음, 해당 토큰을 삭제해야 합니다.
 
 ## <a name="further-information"></a>추가 정보
 

@@ -1,6 +1,6 @@
 ---
-title: "Intune에서 Android 장치 등록 | Microsoft Docs"
-titlesuffix: Azure portal
+title: "Intune에 Android 장치 등록"
+titlesuffix: Microsoft Intune
 description: "Intune에 Android 장치를 등록하는 방법을 알아봅니다."
 keywords: 
 author: ErikjeMS
@@ -15,11 +15,11 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e137da3ad4121f4b9cdfbb765ee00f71beca610a
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: 0a72199c9e38f4f4d9d7317469eea2e6254efee7
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="enroll-android-devices"></a>Android 장치 등록
 
@@ -43,7 +43,7 @@ Android 장치를 차단하거나 등록에서 개인적으로 소유한 Android
 
 ## <a name="enable-enrollment-of-android-for-work-devices"></a>Android for Work 장치 등록 사용
 
-[Android for Work를 지원](https://support.google.com/work/android/answer/6174145?hl=en&ref_topic=6151012)하는 장치의 작업 프로필 관리를 사용하도록 설정하려면 Intune에 Android for Work 바인딩을 추가해야 합니다. Android for Work를 지원하지만 이전에 정규 Android 장치로 등록된 장치를 등록하려면 먼저 장치 등록을 취소한 다음 다시 등록해야 합니다.
+[Android for Work를 지원](https://support.google.com/work/android/answer/6174145?hl=en&ref_topic=6151012)하는 장치의 작업 프로필 관리를 사용하도록 설정하려면 Intune에 Android for Work 바인딩을 추가해야 합니다. Android for Work에서 장치를 등록하고자 하지만 이런 장치가 이미 정규 Android 장치로 등록된 경우 먼저 장치 등록을 취소한 다음, 다시 등록해야 합니다.
 
 [장치 등록 관리자](device-enrollment-manager-enroll.md) 계정을 사용하여 Android for Work 장치를 등록하는 경우 계정당 등록할 수 있는 장치 수는 최대 10개입니다.
 
@@ -58,7 +58,7 @@ Android 장치를 차단하거나 등록에서 개인적으로 소유한 Android
     Azure Portal에서 Intune 관리자로 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
    a. **Intune** 블레이드에서 **장치 등록** > **Android for Work 등록**을 선택하고 **구성**을 선택하여 Google Play의 Android for Work 웹 사이트를 엽니다. 웹 사이트가 브라우저의 새 탭에 열립니다.
-   ![Android for Work 바인딩을 구성할 링크가 표시된 스크린샷](./media/android-work-bind.png)
+   ![Android for Work 등록 화면](./media/android-work-bind.png)
 
    b. **Google에 로그인**<br>
    Google의 로그인 페이지에서 이 테넌트에 대한 모든 Android for Work 관리 작업과 연결할 Google 계정을 입력합니다. Play for Work 콘솔에서 앱을 관리 및 게시하기 위해 귀사의 IT 관리자가 공유하는 Google 계정입니다. 기존 Google 계정을 사용하거나 새 계정을 만들 수 있습니다.  선택한 계정이 G-Suite 도메인과 연결되어서는 안 됩니다.
@@ -79,7 +79,7 @@ Intune 회사 포털을 승인하려면 다음 단계를 따르세요.
 
 1.  [관리되는 Google Play 스토어](https://play.google.com/work/apps/details?id=com.microsoft.windowsintune.companyportal)에서 회사 포털 앱으로 찾습니다.
 2.  Android for Work에 대한 바인딩을 구성하는 데 사용한 것과 동일한 Google 계정으로 관리되는 Google Play 스토어에 로그인합니다.
-3.  **승인**을 클릭합니다.  새 대화 상자가 열립니다.
+3.  **승인**을 클릭하면 새 대화 상자가 열립니다.
 4.  이 대화 상자에서 권한을 검토하고 **승인**을 클릭합니다. 회사 포털 앱이 장치의 회사 프로필을 관리할 수 있게 하려면 이러한 권한을 허용해야 합니다.
 5.  **앱이 새 권한을 요청할 때 승인 유지**를 선택하고 **저장**을 클릭합니다.
 

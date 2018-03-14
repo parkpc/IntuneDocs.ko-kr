@@ -1,7 +1,7 @@
 ---
-title: "Intune에서 Windows 장치를 등록하는 방법 선택"
-titlesuffix: Azure portal
-description: "Microsoft Intune에서 Windows 장치 등록을 설정하는 방법을 알아봅니다.\""
+title: "Intune에서 iOS 장치를 등록하는 방법 선택"
+titlesuffix: Microsoft Intune
+description: "Microsoft Intune에서 iOS 장치 등록을 설정합니다."
 keywords: 
 author: ErikjeMS
 ms.author: erikje
@@ -15,11 +15,11 @@ ms.assetid: 439c33a6-e80c-4da9-ba09-a51fc36f62ad
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f36e579282f7aeaec74c3e80d866e52dfa508d3d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 602c4c1da553215ad222a7e593531fdd879c996c
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="enroll-ios-devices-in-intune"></a>Intune에 iOS 장치 등록
 
@@ -34,7 +34,7 @@ iOS 장치를 사용하도록 설정하기 전에 다음 단계를 완료해야 
 
 ## <a name="user-owned-ios-devices-byod"></a>사용자 소유 iOS 장치(BYOD)
 
-사용자가 Intune 관리에 대해 개인 장치를 등록하도록 할 수 있습니다. 이를 "Bring Your Own Device" 또는 BYOD라고 합니다. 필수 구성 요소를 완료하고 사용자 라이선스를 할당하면 앱 스토어에서 iOS 회사 포털 앱을 다운로드하고 앱에서 등록 지침을 수행할 수 있습니다.
+사용자가 Intune 관리에 대해 개인 장치를 등록하도록 할 수 있습니다. 이를 "Bring Your Own Device" 또는 BYOD라고 합니다. 필수 구성 요소를 완료하고 사용자 라이선스를 할당하면 앱 스토어에서 Intune 회사 포털 앱을 다운로드하고 앱에서 등록 지침을 수행할 수 있습니다.
 
 ## <a name="company-owned-ios-devices"></a>회사 소유 iOS 장치
 사용자를 위해 장치를 구입하는 조직의 경우, Intune은 다음과 같은 iOS 회사 소유 장치 등록 방법을 지원합니다.

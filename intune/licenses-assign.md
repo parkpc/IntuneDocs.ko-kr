@@ -1,6 +1,6 @@
 ---
-title: "Intune 라이선스 할당"
-description: "Intune 구독에 대해 사용자에게 라이선스 할당"
+title: "Microsoft Intune 라이선스 할당"
+description: "Intune에 등록할 수 있도록 사용자에게 라이선스 할당"
 keywords: 
 author: ErikjeMS
 ms.author: erikje
@@ -14,13 +14,13 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2ad754ce3d81469bb172081b6b7f43937f45ffd9
-ms.sourcegitcommit: cccbb6730a8c84dc3a62093b8910305081ac9d24
+ms.openlocfilehash: 45baadb24ac646a6456e04c85a701842774c7930
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="assign-intune-licenses-to-your-user-accounts"></a>사용자 계정에 Intune 라이선스 할당
+# <a name="assign-licenses-to-users-so-they-can-enroll-devices-in-intune"></a>Intune에 장치를 등록할 수 있도록 사용자에게 라이선스 할당
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 02/15/2018
 
 3.  **Intune** 또는 **Enterprise Mobility + Security**를 **켬**으로 전환하고 **저장**을 선택합니다.
 
-  ![Office 365 포털 제품 라이선스 할당 이미지](./media/office-assign-license.png)
+  ![Office 365 포털 제품 라이선스 섹션의 스크린 샷입니다.](./media/office-assign-license.png)
 
 4. 이제 사용자 계정은 서비스를 사용하고 장치를 관리에 등록하는 데 필요한 권한이 생겼습니다.
 
@@ -46,11 +46,11 @@ ms.lasthandoff: 02/15/2018
 ## <a name="use-school-data-sync-to-assign-licenses-to-users-in-intune-for-education"></a>학교 데이터 동기화를 사용하여 Intune for Education에서 사용자에게 라이선스 할당
 교육 조직일 경우 SDS(학교 데이터 동기화)를 사용하여 Intune for Education 라이선스를 동기화된 사용자에게 할당할 수 있습니다. SDS 프로필을 설정할 때 [Intune for Education] 확인란을 선택하면 됩니다.  
 
-![SDS 프로필 설정 이미지](./media/i4e-sds-profile-setup-setting.png)
+![SDS 프로필 설정 스크린샷](./media/i4e-sds-profile-setup-setting.png)
 
 Intune for Education 라이선스를 할당할 경우 Intune A Direct 라이선스도 할당되는지 확인합니다.
 
-![제품 라이선스 설정 이미지](./media/i4e-set-licenses.png)
+![제품 라이선스 설정 스크린샷](./media/i4e-set-licenses.png)
 
 SDS에 대한 자세한 내용은 이 [학교 데이터 동기화 및 강의실 개요](https://support.office.com/article/Overview-of-School-Data-Sync-and-Classroom-f3d1147b-4ade-4905-8518-508e729f2e91)를 참조하세요.
 

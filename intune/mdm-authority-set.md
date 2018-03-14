@@ -1,10 +1,10 @@
 ---
 title: "모바일 장치 관리 기관 설정"
-titlesuffix: Azure portal
-description: "Intune에서 모바일 장치 관리 기관을 설정하는 방법을 알아봅니다. \""
+titlesuffix: Microsoft Intune
+description: "Intune으로 모바일 장치 관리 기관을 설정합니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 10/31/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fc0634f5e5f4648dabaa371c3ab94f070a941057
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: c4d91d00995d821b14b3b2a04681b4c57258a7c0
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="set-the-mobile-device-management-authority"></a>모바일 장치 관리 기관 설정
 

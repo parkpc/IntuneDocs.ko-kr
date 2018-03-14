@@ -1,12 +1,12 @@
 ---
 title: "iOS 앱 보호 정책 설정"
-titlesuffix: Azure portal
-description: "이 항목에서는 iOS 장치에 대한 앱 보호 정책 설정을 설명합니다.\""
+titlesuffix: Microsoft Intune
+description: "이 항목에서는 iOS 장치에 대한 앱 보호 정책 설정을 설명합니다."
 keywords: 
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/15/2018
+ms.date: 02/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,16 +15,16 @@ ms.assetid: 0f8b08f2-504c-4b38-bea2-b8a4ef0526b8
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5366062588d518a7072fb4d56e4eade0f492bebf
-ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
+ms.openlocfilehash: 6225afab71d1f47793ea295553dfcaf169374a06
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 #  <a name="ios-app-protection-policy-settings"></a>iOS 앱 보호 정책 설정
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-이 항목에서 설명하는 정책 설정은 Azure Portal의 **설정** 블레이드에서 앱 보호 정책에 대해 [구성](app-protection-policies.md)될 수 있습니다.
+이 항목에서 설명하는 정책 설정은 Azure Portal의 **정책 추가** > **설정** 블레이드에서 앱 보호 정책에 대해 [구성](app-protection-policies.md)될 수 있습니다.
 
 데이터 재배치 설정 및 액세스 설정의 두 가지 정책 설정 범주가 있습니다. 이 항목에서 ***정책 관리 앱***이라는 용어는 앱 보호 정책을 사용하여 구성된 앱을 나타냅니다.
 
@@ -32,8 +32,8 @@ ms.lasthandoff: 02/19/2018
 
 | Setting | 사용 방법 | 기본값 |
 |------|------|------|
-| **iTunes 및 iCloud 백업 차단** | iTunes 및 iCloud에 대한 모든 관리 파일의 백업을 사용하지 않으려면 **예**를 선택합니다. 이 앱이 관리 파일을 iTunes 및 iCloud로 백업하도록 허용하려면 **아니요**를 선택합니다.| 예 |
-| **앱이 다른 앱으로 데이터를 전송하도록 허용** | 이 앱에서 데이터를 받을 수 있는 앱을 지정합니다. <ul><li> **정책 관리 앱**: 다른 정책 관리 앱으로만 데이터를 전송하도록 허용합니다.</li> <li>**모든 앱**: 모든 앱으로의 전송을 허용합니다. </li> <li>**없음**: 다른 정책 관리 앱을 포함한 모든 앱에 대한 데이터 전송을 허용하지 않습니다.</li></ul> 또한 이 옵션을 **정책 관리 앱** 또는 **없음**으로 설정하는 경우 스포트라이트 검색을 통해 앱 내의 데이터를 검색할 수 있는 iOS 9 기능이 차단됩니다. <br><br> 예외적으로 Intune에서 데이터를 전송할 수 있는 몇 가지 앱 및 서비스가 있습니다. 전체 앱 및 서비스 목록은 [데이터 전송 예외](#data-transfer-exemptions)를 참조하세요. | 모든 앱 |
+| **iTunes 및 iCloud 백업 차단** | 이 앱이 회사 또는 학교 데이터를 iTunes 및 iCloud로 백업하는 것을 방지하려면 **예**를 선택합니다. 이 앱이 회사 또는 학교 데이터를 iTunes 및 iCloud로 백업하도록 허용하려면 **아니요**를 선택합니다.| 예 |
+| **앱이 다른 앱으로 데이터를 전송하도록 허용** | 이 앱에서 데이터를 받을 수 있는 앱을 지정합니다. <ul><li> **정책 관리 앱**: 다른 정책 관리 앱으로만 데이터를 전송하도록 허용합니다.</li> <li>**모든 앱**: 모든 앱으로의 전송을 허용합니다. </li> <li>**없음**: 다른 정책 관리 앱을 포함한 모든 앱에 대한 데이터 전송을 허용하지 않습니다.</li></ul> 또한 이 옵션을 **정책 관리 앱** 또는 **없음**으로 설정하는 경우 스포트라이트 검색을 통해 앱 내의 데이터를 검색할 수 있는 iOS 9 기능이 차단됩니다. <br><br> Intune에서 기본적으로 데이터를 전송할 수 있는 몇 가지 예외적인 앱 및 서비스가 있습니다. 또한, Intune APP을 지원하지 않는 앱에 전송될 데이터를 허용해야 하는 경우 사용자만의 예외를 만들 수 있습니다. 자세한 내용은 [데이터 전송 예외](#data-transfer-exemptions)를 참조합니다. | 모든 앱 |
 | **앱이 다른 앱의 데이터를 받도록 허용** | 이 앱에 데이터를 전송할 수 있는 앱을 지정합니다. <ul><li>**정책 관리 앱**: 다른 정책으로 관리된 앱에서만 데이터를 전송하도록 허용합니다.</li><li>**모든 앱**: 모든 앱의 데이터 전송을 허용합니다.</li><li>**없음**: 다른 정책 관리 앱을 포함한 모든 앱에서의 데이터 전송을 허용하지 않습니다.</li></ul> 예외적으로 intune이 데이터를 전송받을 수 있는 몇 가지 앱과 서비스가 있습니다. 전체 앱 및 서비스 목록은 [데이터 전송 예외](#data-transfer-exemptions)를 참조하세요. 등록되지 않은 iOS 장치의 다중 ID MAM 지원 응용 프로그램은 이 정책을 무시하고 모든 수신 데이터를 허용합니다. | 모든 앱 |
 | **"다른 이름으로 저장" 차단** | 이 앱에서 다른 이름으로 저장 옵션을 사용할 수 없도록 설정하려면 **예**를 선택합니다. 다른 이름으로 저장을 사용할 수 있도록 설정하려면 **아니요**를 선택합니다. | 아니요 |
 | **다른 앱에서 잘라내기, 복사 및 붙여넣기 제한** | 이 앱에서 잘라내기, 복사 및 붙여넣기 동작을 사용할 수 있는 경우를 지정합니다. 다음 중에서 선택합니다. <ul><li>**차단됨**: 이 앱과 다른 앱 간에 잘라내기, 복사 및 붙여넣기 작업을 허용하지 않습니다.</li><li>**정책 관리 앱**: 이 앱과 다른 정책 관리 앱 간에만 잘라내기, 복사 및 붙여넣기 작업을 허용합니다.</li><li>**정책 관리 앱에 붙여넣기**: 이 앱과 다른 정책 관리 앱 간에 잘라내기 또는 복사를 허용합니다. 모든 앱의 데이터를 이 앱에 붙여넣을 수 있습니다.</li><li>**모든 앱**: 이 앱과 다른 앱 간의 잘라내기, 복사 및 붙여넣기에 대한 제한이 없습니다. | 모든 앱 |
@@ -53,13 +53,12 @@ Intune 앱 보호 정책에서 특정 시나리오의 데이터 송수신을 허
 | 앱/서비스 이름 | 설명 |
 | ---- | --- |
 |<code>tel; telprompt</code> | 네이티브 휴대폰 앱 |
-| <code>skype</code> | Skype |
-| <code>app-settings</code> | 장치 설정 |
-| <code>itms; itmss; itms-apps; itms-appss; itms-services</code> | 앱 스토어 |
-| <code>calshow</code> | 네이티브 달력 |
+|<code>skype</code> | Skype |
+|<code>app-settings</code> | 장치 설정 |
+|<code>itms; itmss; itms-apps; itms-appss; itms-services</code> | 앱 스토어 |
+|<code>calshow</code> | 네이티브 달력 |
 
-
-
+자세한 내용은 [앱에 대한 데이터 전송 정책 예외](app-protection-policies-exception.md)를 참조합니다. 
 
 ## <a name="access-settings"></a>액세스 설정
 

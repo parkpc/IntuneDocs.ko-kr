@@ -1,7 +1,7 @@
 ---
-title: "앱 보호 정책 로그"
-titlesuffix: Azure portal
-description: "이 항목에서는 앱 로그에 저장된 앱 보호 정책 설정의 레코드를 설명합니다."
+title: "앱 보호 정책 로그 검토"
+titlesuffix: Microsoft Intune
+description: "앱 보호 로그에서 검토할 수 있는 설정에 대해 알아봅니다."
 keywords: 
 author: erikre
 ms.author: erikre
@@ -15,15 +15,15 @@ ms.assetid: 4CD5EE94-7BA6-4F59-8E28-1EBCA7CA6436
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 76b7771f974fb1c9a5de8afe52ef79eaa0ed0c2a
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: f91328561f0dd4dc669844c0398a89f1abf15bf8
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="review-client-app-protection-logs"></a>클라이언트 앱 보호 로그 검토
 
-모바일 클라이언트에서 응용 프로그램에 대한 Intune 진단 모드를 사용하도록 설정하여 로그에 액세스할 수 있습니다. 다음 표에는 로그에 기록된 설정에 대한 이름 및 설명이 나와 있습니다.
+앱 보호 로그에서 검토할 수 있는 설정에 대해 알아봅니다. 모바일 클라이언트에서 응용 프로그램에 대한 Intune 진단 모드를 사용하도록 설정하여 로그에 액세스합니다. 다음 표에는 로그에 기록된 설정에 대한 이름 및 설명이 나와 있습니다.
 
 ## <a name="app-protection-policy-settings"></a>앱 보호 정책 설정
 

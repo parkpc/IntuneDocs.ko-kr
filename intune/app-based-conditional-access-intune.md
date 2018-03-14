@@ -1,9 +1,9 @@
 ---
 title: "Intune을 사용하는 앱 기반 조건부 액세스"
-description: "앱 기반 조건부 액세스가 Intune과 연동되는 방식의 개념을 이해합니다."
+description: "Intune을 사용하는 앱 기반 조건부 액세스 작동 방식에 대해 알아봅니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: Erikre
+ms.author: erikre
 manager: dougeby
 ms.date: 05/31/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: b399fba0-5dd4-4777-bc9b-856af038ec41
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 43421ac02fc3791e2827d980adcb708619cde9b8
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 604eb86e6ae712bac360ecf45dd8f20e611bc52a
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="app-based-conditional-access-with-intune"></a>Intune을 사용하는 앱 기반 조건부 액세스
 
@@ -54,7 +54,7 @@ Microsoft Outlook 앱만 Exchange Online에 액세스할 수 있도록 하려는
 > [!NOTE]
 > 아래의 순서도 구조는 다른 관리되는 앱에도 사용할 수 있습니다.
 
-![Intune 순서도를 사용하는 앱 기반 조건부 액세스](./media/ca-intune-common-ways-3.png)
+![순서도에 예시된 앱 기반 조건부 액세스 프로세스](./media/ca-intune-common-ways-3.png)
 
 1.  사용자가 Outlook 앱에서 Azure AD에 인증을 시도합니다.
 

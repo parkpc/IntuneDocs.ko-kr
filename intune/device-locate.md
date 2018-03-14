@@ -14,18 +14,18 @@ ms.technology:
 ms.assetid: 3e544286-12ad-4a3a-86f8-d2cf16940b1f
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 90b1321c0df49f446bfdeccbacdfd5642396dacd
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 864d528091de7a6113485347304b0dc254af2c7d
+ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="locate-lost-or-stolen-ios-devices-with-intune"></a>Intune을 사용하여 분실했거나 도난당한 iOS 장치 찾기
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-**장치 찾기** 장치 작업에서는 분실했거나 도난당한 iOS 장치의 위치를 지도에 표시합니다. 장치는 DEP를 통해 등록되고 감독 모드 상태인 회사 소유의 iOS 장치여야 합니다. 이 작업을 사용하려면 장치가 [분실 모드](/intune-azure/manage-devices/lost-mode.md)로 설정된 상태여야 합니다.
+**장치 찾기** 장치 작업에서는 분실했거나 도난당한 iOS 장치의 위치를 지도에 표시합니다. 장치는 DEP를 통해 등록되고 감독 모드 상태인 회사 소유의 iOS 장치여야 합니다. 이 작업을 사용하려면 장치가 [분실 모드](device-lost-mode.md)로 설정된 상태여야 합니다.
 
 ## <a name="supported-platforms"></a>지원되는 플랫폼
 
@@ -37,11 +37,11 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="how-to-locate-a-lost-or-stolen-device"></a>분실 또는 도난 당한 장치를 찾는 방법
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 블레이드에서 **장치**를 선택합니다.
-4. **장치 및 그룹** 블레이드에서 **모든 장치**를 선택합니다.
-5. 관리하는 장치 목록에서 iOS 장치를 선택한 다음 **장치 찾기** 원격 작업을 선택합니다.
+4. **장치** 블레이드에서 **모든 장치**를 선택합니다.
+5. 관리하는 장치 목록에서 iOS 장치를 선택하고 **자세히...**를 선택한 다음, **장치 찾기** 원격 작업을 선택합니다.
 6. 장치의 위치를 찾으면 **장치 찾기** 블레이드에 위치가 표시됩니다.
     ![장치 찾기 블레이드](./media/locate-device.png)
 
@@ -58,4 +58,4 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="next-steps"></a>다음 단계
 
-방금 수행한 작업의 상태를 확인하려면 **장치 및 그룹** 블레이드에서 **장치 작업**을 선택합니다.
+방금 수행한 작업의 상태를 확인하려면 **장치** 블레이드에서 **장치 작업**을 선택합니다.

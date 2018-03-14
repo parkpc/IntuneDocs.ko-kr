@@ -1,30 +1,34 @@
 ---
-title: "Android for Work에 대한 Intune 장치 제한 설정"
-titlesuffix: Azure portal
-description: "Android for Work 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+title: "Android for Work에 대한 Microsoft Intune 장치 제한 설정"
+titlesuffix: 
+description: "Android for Work를 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 1/23/2018
+ms.date: 3/2/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c7c69bb3984ae4ffa81aa81ae24cfe17663bc191
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: d4d8089d7ae57c4bf95038e5f9dc88f4949f069e
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="android-for-work-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Android for Work 장치 제한 설정
+# <a name="microsoft-intune-android-for-work-device-restriction-settings"></a>Microsoft Intune Android for Work 장치 제한 설정
+
+이 아티클에서는 Android for Work을 실행하는 장치에 대해 구성할 수 있는 모든 Microsoft Intune 장치 제한 설정을 보여줍니다.
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="work-profile-settings"></a>업무용 프로필 설정
+
+### <a name="general-settings"></a>일반 설정
+
 -   **회사 및 개인 프로필 간 복사 및 붙여넣기** - 회사 앱과 개인 앱 간 복사 및 붙여넣기를 제어합니다. 차단을 사용하려면 **차단**을 선택합니다. 차단을 사용하지 않으려면 **구성되지 않음**을 선택합니다.
 - **회사 프로필과 개인 프로필 간 데이터 공유** - 이 설정을 사용하여 회사 프로필의 앱이 개인 프로필의 앱과 공유할 수 있는지 여부를 제어합니다. 이 설정은 응용 프로그램 내의 공유 작업(예: Chrome 브라우저 앱의 **공유...** 옵션)을 제어하며 복사/붙여넣기 클립보드 동작에는 적용되지 않습니다. [앱 보호 정책 설정](https://docs.microsoft.com/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)과 달리 장치 제한 설정은 Intune 포털에서 관리되며, Android for Work 작업 프로필 파티션을 사용하여 관리되는 앱을 격리합니다. 다음 중에서 선택합니다.
     - **기본 공유 제한** - 이 설정은 장치의 기본 공유 동작으로 실행 중인 Android의 버전에 따라 달라집니다. 기본적으로 개인 프로필에서 회사 프로필로의 공유가 허용됩니다. 또한 기본적으로 회사 프로필에서 개인 프로필로의 공유는 차단됩니다. 이 설정을 통해 회사 프로필에서 개인 프로필로의 데이터 공유를 방지합니다. Google의 경우 6.0 이상 버전을 실행 중인 장치에서는 개인 프로필에서 회사 프로필로의 공유를 차단하는 방법을 제공하지 않습니다.   
@@ -39,6 +43,12 @@ ms.lasthandoff: 01/25/2018
     -   **자동 거부**
 
     **모바일 앱** > **앱 구성 정책** 아래에서 개별 앱에 대해 앱 구성 정책을 정의하면 특정 앱에 대한 권한 부여 상태를 추가로 정의할 수 있습니다.
+
+- **계정 추가 및 제거**
+
+   최종 사용자가 작업 프로필의 계정을 수동으로 추가 또는 삭제하지 못하게 방지합니다.
+
+   예를 들어 Android for Work 프로필에 Gmail 앱을 배포할 경우 최종 사용자가 해당 작업 프로필에 계정 추가나 제거를 방지할 수 있습니다.
 
 ### <a name="work-profile-password"></a>회사 프로필 암호
 - **회사 프로필 암호 필요** -(회사 프로필을 사용하도록 설정한 Android 7.0 이상 버전) 회사 프로필의 앱에만 적용되는 암호 정책을 정의합니다. 기본적으로 최종 사용자는 2개의 별도로 정의된 PIN을 사용하거나, 정의된 2개의 PIN을 둘 중 더 강도가 높은 PIN으로 결합하도록 선택할 수 있습니다.
@@ -87,4 +97,4 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="next-steps"></a>다음 단계
 
-이 항목의 [장치 제한 설정 구성 방법](device-restrictions-configure.md) 정보를 사용하여 사용자 및 장치에 프로필을 저장하고 할당하세요.
+[장치 제한 설정 구성 방법](device-restrictions-configure.md) 정보를 사용하여 사용자 및 장치에 프로필을 저장하고 할당하세요.

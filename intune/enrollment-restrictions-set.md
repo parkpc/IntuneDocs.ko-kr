@@ -1,7 +1,7 @@
 ---
-title: "Intune에서 등록 제한 설정"
-titlesuffix: Azure portal
-description: "Intune에서 플랫폼별로 등록을 제한하고 장치 등록 제한을 설정합니다. \""
+title: "Microsoft Intune에서 등록 제한 설정"
+titlesuffix: 
+description: "Intune에서 플랫폼별로 등록을 제한하고 장치 등록 제한을 설정합니다."
 keywords: 
 author: ErikjeMS
 ms.author: erikje
@@ -15,17 +15,17 @@ ms.assetid: 9691982c-1a03-4ac1-b7c5-73087be8c5f2
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fab385762efa3ab095553fe21fb045f4f11ff197
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: 396c8881ba0dfae5cfad4eab9bf787b6a9f33d44
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="set-enrollment-restrictions"></a>등록 제한 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Intune 관리자는 Intune을 사용하여 관리에 등록할 수 있는 장치의 수와 유형을 정의하는 등록 제한을 만들고 관리할 수 있습니다. 다수의 제한을 만들어서 다른 사용자 그룹에 적용할 수 있습니다. 다양한 제한 사항에 대한 [우선 순위](#change-enrollment-restriction-priority)를 설정할 수 있습니다.
+Intune 관리자로서 등록 제한을 만들고 관리할 수 있습니다. 이러한 제한은 Intune을 사용한 관리에 등록할 수 있는 장치의 수와 유형을 정의합니다. 다수의 제한을 만들어서 다른 사용자 그룹에 적용할 수 있습니다. 다양한 제한 사항에 대한 [우선 순위](#change-enrollment-restriction-priority)를 설정할 수 있습니다.
 
 >[!NOTE]
 >등록 제한은 보안 기능이 아닙니다. 손상된 장치는 해당 문자를 잘못 표시할 수 있습니다. 이러한 제한은 무해한 사용자를 위한 최선의 장벽입니다.
@@ -83,7 +83,7 @@ Intune 관리자는 Intune을 사용하여 관리에 등록할 수 있는 장치
   운영 체제 버전은 장비 등록 프로그램, Apple School Manager 또는 Apple Configurator 앱에 등록되는 Apple 장치에 적용되지 않습니다.
 8. 나열된 각 플랫폼에서 **개인적으로 소유한**장치를 **허용**할지 **차단**할지 지정합니다.
 
-    ![개인적으로 소유함 설정이 구성된 기본 장치 플랫폼 구성이 있는 장치 제한 작업 영역 스크린샷.](media/device-restrictions-platform-configurations.png)
+    ![개인적으로 소유한 장치에 대해 구성된 기본 장치 플랫폼이 있는 장치 제한 작업 영역의 스크린샷](media/device-restrictions-platform-configurations.png)
 9. **Save**을 클릭합니다.
 
 >[!NOTE]
@@ -100,7 +100,7 @@ Intune 관리자는 Intune을 사용하여 관리에 등록할 수 있는 장치
 3. **장치 등록** > **등록 제한**을 선택합니다.
 4. **장치 개수 제한**에서 설정하려는 제한을 선택합니다.
 5. **장치 제한**을 선택한 다음 드롭다운 목록에서 사용자 1명이 등록할 수 있는 장치의 최대 수를 선택합니다.
-    ![장치 개수 제한이 있는 장치 개수 제한 블레이드 스크린샷](./media/device-restrictions-limit.png)
+    ![장치 개수 제한 블레이드 스크린샷](./media/device-restrictions-limit.png)
 6. **Save**을 클릭합니다.
 
 등록된 장치 수가 한도에 다다랐을 때 최종 사용자에게 이를 알리는 알림이 표시됩니다. 예를 들어, iOS의 경우 다음과 같습니다.

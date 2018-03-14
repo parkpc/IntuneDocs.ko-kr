@@ -2,10 +2,10 @@
 title: "Intune 데이터 웨어하우스 변경 로그 | Microsoft Docs"
 description: "Intune 데이터 웨어하우스 API의 변경 사항 목록입니다."
 keywords: "Intune 데이터 웨어하우스"
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/12/2017
+ms.date: 02/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,17 +14,40 @@ ms.assetid: E85DBB2D-67BB-4E10-82D6-E43046B9C43C
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 306cceb704c1153b5691181d576561d9c93a36d3
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 67eedf528763ae302e3850710b3fab026e15f813
+ms.sourcegitcommit: 80a2eefc1896a42cc2bc16be23093d1abf58b088
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="change-log-for-the-intune-data-warehouse-api"></a>Intune 데이터 웨어하우스 API에 대한 변경 로그
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Intune 데이터 웨어하우스에 대한 업데이트를 최신 상태로 유지합니다.
+
+## <a name="1801"></a>1801
+_2018년 1월 출시_
+
+### <a name="intune-data-warehouse-application-only-authentication----1867540---"></a>Intune 데이터 웨어하우스 응용 프로그램 전용 인증 <!-- 1867540 -->
+
+Azure AD(Azure Active Directory)를 사용하여 응용 프로그램을 설정하고 Intune 데이터 웨어하우스에 인증할 수 있습니다. 자세한 내용은 [Intune 데이터 웨어하우스 응용 프로그램 전용 인증](data-warehouse-app-only-auth.md)을 참조하세요.
+
+### <a name="azure-ad-and-intune-credential-requirements----2077525---"></a>Azure AD 및 Intune 자격 증명 요구 사항 <!-- 2077525 -->
+
+- Intune 라이선스는 Intune 데이터 웨어하우스(API 포함)에 액세스할 때 더 이상 사용자에게 할당될 필요가 없습니다.
+- Intune 역할 이름을 **보고서**에서 **Intune 데이터 웨어하우스**로 변경했습니다. 
+
+    자세한 내용은 [Azure AD 및 Intune 자격 증명 요구 사항](reports-api-url.md#azure-ad-and-intune-credential-requirements)을 참조하세요.
+
+### <a name="odata-query-options----2077711---"></a>OData 쿼리 옵션 <!-- 2077711 -->
+
+<code>$select</code>을 OData 쿼리 매개 변수로 사용할 수 있습니다. 최신 버전에서는 <code>$filter</code>, <code>$orderby</code>, <code>$select</code>, <code>$skip</code> 및 <code>$top</code> OData 쿼리 매개 변수를 지원합니다. 자세한 내용은 [OData 쿼리 옵션](reports-api-url.md#odata-query-options)을 참조하세요.
+
+### <a name="new-entities-in-the-in-data-warehouse-data-model----2077804---"></a>데이터 웨어하우스 데이터 모델의 새 엔터티 <!-- 2077804 -->
+
+ - [**MobileAppDeviceuserInstallStatus**](reports-ref-application.md#mobileappdeviceuserinstallstatus) 엔터티가 추가되었습니다. **MobileAppDeviceUserInstallStatus**는 지정된 장치 및 사용자의 모바일 앱 설치 상태를 나타냅니다.
+ - [**MobileAppInstallState**](reports-ref-application.md#mobileappinstallstate) 엔터티가 추가되었습니다. **MobileAppInstallState** 엔터티는 장치, 사용자 또는 둘 다를 포함하는 그룹에 할당된 후 모바일 응용 프로그램의 설치 상태를 나타냅니다. 
 
 ## <a name="1710"></a>1710
 _2017년 11월 출시됨_

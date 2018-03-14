@@ -3,8 +3,8 @@ title: "Intune과 Lookout 통합 설정"
 titlesuffix: Azure portal
 description: "Intune에서 Lookout 구독 설정"
 keywords: 
-author: andredm7
-ms.author: andredm
+author: msmimart
+ms.author: mimart
 manager: dougeby
 ms.date: 06/21/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 5b0d7644-3183-45ba-a165-0d82d70cb71e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 891fbda72d38b829397158a75bdceeb452bc8d3b
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: fa13ee9239dcb1f62f4fb06e876ecc272a8f620c
+ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="set-up-your-lookout-mobile-threat-defense-integration-with-intune"></a>Intune과 Lookout Mobile Threat Defense 통합 설정
 
@@ -131,7 +131,7 @@ Lookout Mobile Threat Defense는 다양한 종류의 모바일 위협을 분류�
 > 위험 수준은 Mobile Threat Defense의 중요한 측면으로, 런타임 시 이러한 위험 수준에 따라 Intune 통합에서 장치 규정 준수를 측정하기 때문입니다. Intune 관리자가 장치에 최소 수준의 활성 위협(**높음**, **중간** 또는 **낮음**)이 있다면 장치가 규정을 준수하지 않는 것으로 식별하도록 정책 규칙을 설정할 수 있습니다. Lookout Mobile Threat Defense의 위협 분류 정책을 통해 장치의 규정 준수 여부가 Intune에서 바로 측정됩니다.
 
 ## <a name="watching-enrollment"></a>등록 감시
-설치가 완료되면 Lookout Mobile Threat Defense에서 지정한 등록 그룹에 해당하는 장치를 Azure AD에 폴링하기 시작합니다.  장치 모듈에서 등록된 장치에 대한 정보를 찾을 수 있습니다.  장치의 초기 상태는 보류 중으로 표시됩니다.  장치에서 Lookout for Work 앱을 설치하고 열고 활성화하면 장치 상태가 변경됩니다.  Lookout for Work 앱을 장치에 푸시하는 방법에 대한 자세한 내용은 [Intune을 사용하여 Lookout for Work 앱 추가](mtd-apps-ios-app-configuration-policy-add-assign.md) 항목을 참조하세요.
+설치가 완료되면 Lookout Mobile Threat Defense에서 지정한 등록 그룹에 해당하는 장치를 Azure AD에 폴링하기 시작합니다.  장치 모듈에서 등록된 장치에 대한 정보를 찾을 수 있습니다.  장치의 초기 상태는 보류 중으로 표시됩니다.  장치에서 Lookout for Work 앱을 설치하고 열고 활성화하면 장치 상태가 변경됩니다.  Lookout for Work 앱을 장치에 푸시하는 방법에 대한 자세한 내용은 [Intune을 사용하여 Lookout for Work 앱 추가](mtd-apps-ios-app-configuration-policy-add-assign.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

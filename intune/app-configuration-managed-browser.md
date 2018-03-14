@@ -1,7 +1,7 @@
 ---
 title: "Managed Browser 앱으로 웹 액세스 관리"
-titlesuffix: Azure portal
-description: "Managed Browser 응용 프로그램을 배포하여 웹 데이터의 웹 검색 및 다른 앱으로의 전송을 제한하는 방법을 알아봅니다.\""
+titlesuffix: Microsoft Intune
+description: "Managed Browser 응용 프로그램을 배포하여 웹 데이터의 웹 검색 및 다른 앱으로의 전송을 제한합니다."
 keywords: 
 author: erikre
 ms.author: erikre
@@ -15,11 +15,11 @@ ms.assetid: 1feca24f-9212-4d5d-afa9-7c171c5e8525
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 613099d1d30a8be3787bd0004a376302da3dc231
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 3d902ada21c2cf864c3e21ef02b886d16162853c
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Microsoft Intune에서 Managed Browser 정책을 사용하여 인터넷 액세스 관리
 
@@ -63,17 +63,17 @@ Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https
 
 ## <a name="create-a-managed-browser-app-configuration"></a>Managed Browser 앱 구성 만들기
 
-1.  Azure 포털에 로그인합니다.
-2.  **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3.  관리 목록의 **모바일 앱** 블레이드에서 **앱 구성 정책**을 선택합니다.
 4.  **앱 구성 정책** 블레이드에서 **추가**를 선택합니다.
-5.  **앱 구성 추가** 블레이드에서 앱 구성 설정의 **이름** 및 **설명**(선택 사항)을 입력합니다.
+5.  **구성 정책 추가** 블레이드에서 앱 구성 설정에 대한 **이름** 및 **설명**(선택 사항)을 입력합니다.
 6.  **장치 등록** 유형에 **관리되는 앱**를 선택합니다.
 7.  **필수 앱 선택**을 선택하고 **대상 앱** 블레이드에서 iOS나 Android 중 하나 또는 둘 다에 대해 **Managed Browser**를 선택합니다.
-8.  **확인**을 선택하여 **앱 구성 추가** 블레이드로 돌아옵니다.
+8.  **확인**을 선택하여 **구성 정책 추가** 블레이드로 돌아옵니다.
 9.  **구성 설정**을 선택합니다. **구성** 블레이드에서 키와 값 쌍을 정의하여 Managed Browser에 대한 구성을 제공합니다. 이 문서의 뒷부분에 나오는 섹션에서 정의할 수 있는 다양한 키와 값 쌍에 대해 알아보세요.
 10. 작업이 끝나면 **확인**을 선택합니다.
-11. **앱 구성 추가** 블레이드에서 **만들기**를 선택합니다.
+11. **구성 정책 추가** 블레이드에서 **추가**를 선택합니다.
 12. 새 구성이 작성되어 **앱 구성** 블레이드에 표시됩니다.
 
 >[!IMPORTANT]
@@ -83,10 +83,10 @@ Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https
 
 Azure AD 사용자 그룹에 설정을 할당합니다. 해당 사용자가 Managed Browser 앱을 설치한 경우에는 지정한 설정을 통해 앱이 관리됩니다.
 
-1. Intune 모바일 응용 프로그램 관리 대시보드의 **설정** 블레이드에서 **앱 구성**을 선택합니다.
+1. Intune 모바일 응용 프로그램 관리 대시보드의 **모바일 앱** 블레이드에서 **앱 구성 정책**을 선택합니다.
 2. 앱 구성 목록에서 할당하려는 구성을 선택합니다.
-3. 다음 블레이드에서 **사용자 그룹**을 선택합니다.
-4. **사용자 그룹** 블레이드에서 앱 구성을 할당할 Azure AD 그룹을 선택하고 **확인**을 선택합니다.
+3. 다음 블레이드에서 **할당**을 선택합니다.
+4. **할당** 블레이드에서 앱 구성을 할당할 Azure AD 그룹을 선택하고 **확인**을 선택합니다.
 
 
 ## <a name="how-to-configure-application-proxy-settings-for-the-managed-browser"></a>Managed Browser에 대한 응용 프로그램 프록시 설정을 구성하는 방법

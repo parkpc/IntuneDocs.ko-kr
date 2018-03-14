@@ -1,9 +1,10 @@
 ---
-title: "Intune 네트워크 구성 요구 사항 및 대역폭"
-description: 
+title: "Microsoft Intune에 대한 네트워크 요구 사항 및 대역폭 세부 정보"
+titlesuffix: 
+description: "Intune에 대한 네트워크 구성 요구 사항 및 대역폭 세부 정보를 검토합니다."
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 01/24/2018
 ms.topic: get-started-article
@@ -14,11 +15,11 @@ ms.assetid: 0f737d48-24bc-44cd-aadd-f0a1d59f6893
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 29ea491ab176a9bf2237a4e7546131945ad2dab7
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: b21c4421914294e84bae637e489065c5e4410839
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="intune-network-configuration-requirements-and-bandwidth"></a>Intune 네트워크 구성 요구 사항 및 대역폭
 

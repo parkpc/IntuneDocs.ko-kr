@@ -1,35 +1,35 @@
 ---
-title: "iOS 장치에 대한 Intune 메일 설정"
-titleSuffix: Azure portal
-description: "iOS 장치에서 전자 메일 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+title: "iOS 장치에 대한 Microsoft Intune 메일 설정"
+titleSuffix: 
+description: "iOS를 실행하는 장치에서 이메일 설정을 구성하는 데 사용할 수 있는 Microsoft Intune 설정에 대해 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 02/24/2017
+ms.date: 3/2/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 9f0fa6af-3669-439a-bd0d-75d8b1a0b135
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7baec2990b9020e8125395b589fba7a965ba86ee
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 1634512c85c156046d0324953463d745be06d649
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="email-profile-settings-for-ios-devices-in-microsoft-intune"></a>Microsoft Intune의 iOS 장치에 대한 메일 프로필 설정
+# <a name="email-profile-settings-in-microsoft-intune-for-devices-running-ios"></a>iOS를 실행하는 장치용 Microsoft Intune에서 이메일 프로필 설정 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
+이 아티클에서는 iOS를 실행하는 장치에 대해 구성할 수 있는 이메일 프로필 설정을 보여줍니다.
 
+## <a name="email-settings"></a>전자 메일 설정
 
 - **메일 서버** - Exchange Server의 호스트 이름입니다.
-- **계정 이름** - 장치에서 사용자에게 표시될 메일 계정의 표시 이름입니다.
-- **AAD의 사용자 이름 특성** - 이것은 이 메일 프로필에 대한 사용자 이름을 생성하는 데 사용되는 Active Directory(AD) 또는 Azure AD의 특성입니다. **user1@contoso.com**와 같은 **기본 SMTP 주소** 또는 **user1**, **user1@contoso.com**와 같은 **사용자 계정 이름**을 선택합니다.
+- **계정 이름** - 장치에서 사용자에게 표시되는 전자 메일 계정의 표시 이름입니다.
+- **AAD의 사용자 이름 특성** - 이것은 이메일 프로필에 대한 사용자 이름을 생성하는 데 사용되는 Active Directory(AD) 또는 Azure AD의 특성입니다. **user1@contoso.com**와 같은 **기본 SMTP 주소** 또는 **user1**, **user1@contoso.com**와 같은 **사용자 계정 이름**을 선택합니다.
 - **AAD의 메일 주소 특성** - 각 장치에서 사용자의 메일 주소가 생성되는 방식을 선택합니다. **기본 SMTP 주소**를 선택하여 Exchange에 로그인하는 기본 SMTP 주소를 사용하거나 **사용자 계정 이름**을 사용하여 메일 주소와 전체 사용자 이름을 사용합니다.
 - **인증 방법** - 메일 프로필에서 사용되는 인증 방법으로 **사용자 이름 및 암호** 또는 **인증서** 중 하나를 선택합니다.
     - **인증서**를 선택한 경우 Exchange 연결을 인증하는 데 사용할 이전에 만든 클라이언트 SCEP 또는 PKCS 인증서 프로필을 선택합니다.

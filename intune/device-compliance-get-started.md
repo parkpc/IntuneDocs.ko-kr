@@ -1,29 +1,28 @@
 ---
-title: "Intune 장치 준수 정책"
-titleSuffix: Azure portal
-description: "이 항목에서는 Microsoft Intune의 장치 준수에 대해 알아봅니다.\""
+title: "Microsoft Intune 장치 준수 정책"
+titleSuffix: 
+description: "Microsoft Intune의 장치 준수에 대해 알아봅니다"
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 2/6/2018
+ms.date: 3/1/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 98a9a93efb93697b454cb9bc06d1ac268ebaf9d8
-ms.sourcegitcommit: cccbb6730a8c84dc3a62093b8910305081ac9d24
+ms.openlocfilehash: fb3ec168844708d80c83909ab6c58a52ca62e53c
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 03/12/2018
 ---
-# <a name="get-started-with-intune-device-compliance-policies"></a>Intune 장치 준수 정책 시작
+# <a name="get-started-with-microsoft-intune-device-compliance-policies"></a>Microsoft Intune 장치 준수 정책 시작
+
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
-
-## <a name="what-is-device-compliance-in-intune"></a>Intune의 장치 준수란?
 
 Intune 장치 준수 정책은 장치가 Intune에서 준수되는 것으로 간주하기 위해 준수해야 하는 규칙 및 설정을 정의합니다.
 
@@ -43,7 +42,7 @@ Intune 장치 준수 정책은 장치가 Intune에서 준수되는 것으로 간
 
 장치 준수 정책을 사용하여 장치에서 준수 상태를 모니터링할 수도 있습니다.
 
-### <a name="device-compliance-requirements"></a>장치 정책 준수 요구 사항
+## <a name="device-compliance-requirements"></a>장치 정책 준수 요구 사항
 
 준수 요구 사항은 기본적으로 준수 정책에 필요하거나 필요하지 않도록 지정할 수 있는 장치 PIN 또는 암호화 요구와 같은 규칙입니다.
 
@@ -74,7 +73,7 @@ Remember that you need to implement conditional access policies in addition to c
 
 Intune에서 장치 준수 정책을 사용하려면 다음과 같은 구독이 있어야 합니다.
 
-- Intune EMS
+- Intune
 
 - Azure AD Premium
 

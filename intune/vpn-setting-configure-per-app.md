@@ -1,7 +1,7 @@
 ---
-title: "Microsoft Intune에서 iOS 장치용 앱당 VPN 설정"
-titleSuffix: Intune on Azure
-description: "Intune 관리 iOS 장치에서 VPN를 사용할 수 있는 관리되는 앱을 지정합니다."
+title: "iOS 장치용 Microsoft Intune에서 앱당 VPN 설정"
+titleSuffix: 
+description: "Intune이 관리하는 iOS 장치에서 관리되는 앱이 VPN(가상 사설망)을 사용할 수 있도록 지정합니다."
 keywords: 
 author: Erikre
 ms.author: erikre
@@ -15,15 +15,15 @@ ms.assetid: D9958CBF-34BF-41C2-A86C-28F832F87C94
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6f7e53f9a440d945d834c17b9db85ed5f6e42229
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 4e01ca43cc42ee7228e42cd3b0176475905ef566
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
-# <a name="set-up-per-app-vpn-in-microsoft-intune-for-ios-devices"></a>Microsoft Intune에서 iOS 장치용 앱당 VPN 설정
+# <a name="set-up-per-app-virtual-private-network-vpn-in-intune-for-ios-devices"></a>iOS 장치용 Intune에서 앱당 VPN 설정
 
-Intune 관리 iOS 장치에서 VPN(가상 개인 네트워크)을 사용할 수 있는 관리되는 앱을 지정할 수 있습니다. Intune에서 앱당 VPN을 지정하면 최종 사용자가 회사 문서에 액세스할 때 VPN을 통해 자동으로 연결합니다.
+Intune이 관리하는 iOS 장치에서 관리되는 앱이 VPN을 사용할 수 있도록 지정합니다. Intune에서 앱당 VPN을 만들면 최종 사용자가 회사 문서에 액세스할 때 VPN을 통해 자동으로 연결합니다.
 
 ## <a name="prerequisites-for-the-per-app-vpn"></a>앱당 VPN의 필수 구성 요소
 

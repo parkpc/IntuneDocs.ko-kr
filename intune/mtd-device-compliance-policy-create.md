@@ -3,8 +3,8 @@ title: "Intune을 사용하여 Mobile Threat Defense 장치 준수 정책 만들
 titlesuffix: Azure portal
 description: "Intune에서 Mobile Threat Defense 장치 준수 정책 만들기"
 keywords: 
-author: andredm7
-ms.author: andredm
+author: msmimart
+ms.author: mimart
 manager: dougeby
 ms.date: 06/21/2017
 ms.topic: article
@@ -15,16 +15,16 @@ ms.assetid: 5d12254f-ffab-4792-b19c-ab37f5e02f35
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5ae6947de91da43dc13c7544a6611e71ee15b58b
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: a02f08c347f40821a10f6d9b6df3a6b26178180b
+ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="create-mobile-threat-defense-mtd-device-compliance-policy-with-intune"></a>Intune을 사용하여 MTD(Mobile Threat Defense) 장치 준수 정책 만들기
 
 > [!NOTE] 
-> 이 항목은 모든 Mobile Threat Defense 파트너에게 적용됩니다.
+> 이 정보는 모든 Mobile Threat Defense 파트너에게 적용됩니다.
 
 Intune 및 MTD를 사용하면 위협을 검색하고 모바일 장치의 위험을 평가할 수 있습니다. 위험을 평가하는 Intune 장치 준수 정책 규칙을 만들어 장치가 정책을 준수하는지 여부를 확인할 수 있습니다. 그런 다음 조건부 액세스 정책을 사용하여 장치 준수 여부에 따라 액세스를 차단할 수 있습니다.
 
@@ -52,13 +52,13 @@ MTD를 사용한 장치 준수 정책에 대한 필수 조건:
 
 7.  **장치 상태** 블레이드의 **장치가 Mobile Threat Defense 수준 이하여야 함** 아래에 있는 드롭다운 목록에서 Mobile Threat Level을 선택합니다.
 
-    a.  **보안됨**: 가장 안전합니다. 장치가 어떠한 위협에도 노출되지 않았으며 회사 리소스에 계속 액세스할 수 있습니다. 어떠한 위협이든 확인되는 장치는 비규격으로 평가됩니다.
+    a.  **보안됨**: 가장 안전한 수준입니다. 장치가 어떠한 위협에도 노출되지 않았으며 회사 리소스에 계속 액세스할 수 있습니다. 어떠한 위협이든 확인되는 장치는 비규격으로 평가됩니다.
 
-    b.  **낮음**: 낮은 수준의 위협만 있는 장치는 규격 장치입니다. 더 높은 수준의 위협이 발생하면 장치는 규정 비준수 상태가 됩니다.
+    b.  **낮음**: 낮은 수준의 위협만 있는 경우 해당 장치는 규격 장치입니다. 더 높은 수준의 위협이 발생하면 장치는 규정 비준수 상태가 됩니다.
 
-    c.  **보통**: 낮음 또는 보통 수준의 위협이 발견되는 장치는 규격 장치입니다. 높은 수준의 위협이 검색되는 장치는 비규격으로 간주됩니다.
+    c.  **보통**: 낮음 또는 보통 수준의 위협이 발견되는 장치는 규격 장치입니다. 높은 수준의 위협이 검색되는 경우 해당 장치는 비규격으로 간주됩니다.
 
-    d.  **높음**: 안전성이 가장 낮은 수준입니다. 이 수준은 모든 위협 수준을 허용하며 보고용으로만 Mobile Threat Defense를 사용합니다. 장치에 MTD 앱이 이 설정으로 활성화되어 있어야 합니다.
+    d.  **높음**: 보안이 가장 취약한 수준입니다. 이 수준은 모든 위협 수준을 허용하며 보고용으로만 Mobile Threat Defense를 사용합니다. 장치에 MTD 앱이 이 설정으로 활성화되어 있어야 합니다.
 
 8.  **확인**을 두 번 클릭하고 **만들기**를 선택합니다.
 
@@ -69,12 +69,12 @@ MTD를 사용한 장치 준수 정책에 대한 필수 조건:
 
 사용자에게 장치 준수 정책을 할당하려면 이전에 구성한 정책을 선택합니다. 기존 정책은 **장치 준수 정책** 블레이드에서 확인할 수 있습니다.
 
-1. 사용자에게 할당할 정책을 선택한 다음 **할당**을 선택합니다. **Azure Active Directory 보안 그룹**을 선택하고 정책에 할당할 수 있는 블레이드가 열립니다.
+1. 사용자에게 할당할 정책을 선택한 다음 **할당**을 선택합니다. 이 작업은 **Azure Active Directory 보안 그룹**을 선택하고 이를 정책에 할당할 수 있는 블레이드를 엽니다.
 
 2. **그룹 선택**을 선택하여 Azure AD 보안 그룹을 표시하는 블레이드를 엽니다.  **선택**을 선택하면 정책이 사용자에게 배포됩니다.
 
     > [!NOTE] 
-    > 사용자에게 정책을 적용했습니다. 정책의 대상 사용자가 사용하는 장치에 대해 준수 여부가 평가됩니다.
+    > 사용자에게 정책을 적용했습니다. 정책의 대상이 되는 사용자가 사용하는 장치에 대한 규정 준수 여부가 평가됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

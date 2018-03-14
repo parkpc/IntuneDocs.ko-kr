@@ -1,11 +1,11 @@
 ---
-title: "Intune에 macOS 장치 등록"
-titlesuffix: Azure portal
-description: "Intune에 macOS 장치를 등록하는 방법을 알아봅니다.\""
+title: "macOS 장치에 대한 등록 설정"
+titlesuffix: Microsoft Intune
+description: "Intune에서 macOS 장치 등록을 설정하는 방법을 알아봅니다."
 keywords: 
 author: ErikjeMS
 ms.author: erikje
-nmanager: dougeby
+manager: dougeby
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
@@ -15,13 +15,13 @@ ms.assetid: 46429114-2e26-4ba7-aa21-b2b1a5643e01
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f896ebd51f989c0e441043d320247946cdb8997b
-ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
+ms.openlocfilehash: 77a1551321079765f00f0e35d57211ae4c99e5a6
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="enroll-macos-devices-in-intune"></a>Intune에 macOS 장치 등록
+# <a name="set-up-enrollment-for-macos-devices-in-intune"></a>Intune에서 macOS 장치 등록 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -37,6 +37,13 @@ macOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료
 - [회사 포털 구성](company-portal-app.md)
 - [Office 365 포털](http://go.microsoft.com/fwlink/p/?LinkId=698854)에서 사용자 라이선스 할당
 - [Apple MDM Push Certificate 가져오기](apple-mdm-push-certificate-get.md)
+
+## <a name="user-owned-ios-devices-byod"></a>사용자 소유 iOS 장치(BYOD)
+
+사용자가 Intune 관리에 대해 개인 장치를 등록하도록 할 수 있습니다. 이를 "Bring Your Own Device" 또는 BYOD라고 합니다. 필수 구성 요소를 완료하고 사용자 라이선스를 할당하면 앱 스토어에서 macOS 회사 포털 앱을 다운로드하고 앱에서 등록 지침을 수행할 수 있습니다.
+
+## <a name="company-owned-ios-devices"></a>회사 소유 iOS 장치
+사용자를 위해 장치를 구입하는 조직의 경우, Intune은 [장치 등록 관리자](device-enrollment-manager-enroll.md) 계정을 사용해 회사 소유 macOS 장치 등록 방법을 지원합니다.
 
 ## <a name="set-up-macos-enrollment"></a>macOS 등록 설정
 

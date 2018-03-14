@@ -1,32 +1,32 @@
 ---
-title: "비즈니스용 Windows Hello를 사용하는 방법"
-titleSuffix: Azure portal
+title: "Microsoft Intune과 비즈니스용 Windows Hello를 통합하는 방법"
+titleSuffix: 
 description: "관리 장치에서 비즈니스용 Windows Hello 사용을 제어하기 위한 정책을 만드는 방법을 알아봅니다.\""
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 02/12/2018
+ms.date: 3/2/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 465de83c5bd15cfab67a4307000c0aa9cbfb1730
-ms.sourcegitcommit: cccbb6730a8c84dc3a62093b8910305081ac9d24
+ms.openlocfilehash: 46bb82fd49fa58e87c22c8bf0abb57e1587b8b40
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="use-windows-hello-for-business"></a>비즈니스용 Windows Hello 사용
+# <a name="integrate-windows-hello-for-business-with-microsoft-intune"></a>Microsoft Intune과 비즈니스용 Windows Hello 통합
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Microsoft Intune은 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 비즈니스용 Windows Hello와 통합합니다.
+비즈니스용 Windows Hello(이전의 Microsoft Passport for Work)과 Microsoft Intune을 통합할 수 있습니다.
 
-비즈니스용 Hello를 사용하면 암호 대신 *사용자 제스처*를 사용하여 로그인할 수 있습니다. 사용자 제스처는 단순 PIN, 생체 인식 인증(예: Windows Hello) 또는 외부 장치(예: 지문 판독기)일 수 있습니다.
+ 비즈니스용 Hello는 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법입니다. 이를 사용하면 암호 대신 *사용자 제스처*를 사용하여 로그인할 수 있습니다. 사용자 제스처는 단순 PIN, 생체 인식 인증(예: Windows Hello) 또는 외부 장치(예: 지문 판독기)일 수 있습니다.
 
 Intune은 다음 두 가지 방법으로 비즈니스용 Hello에 통합됩니다.
 
@@ -50,17 +50,17 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 
 1.  Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
-2.  Intune 블레이드에서 **장치 등록**, **Windows 등록** > **비즈니스용 Windows Hello**를 차례로 선택합니다.
+2.  Intune 페이지에서 **장치 등록**, **Windows 등록** > **비즈니스용 Windows Hello**를 차례로 선택합니다.
 
-3.  블레이드가 열리면 **기본값**을 선택합니다.
+3.  페이지가 열리면 **기본값**을 선택합니다.
 
-4.  **모든 사용자** 블레이드에서 **속성**을 클릭하고 비즈니스용 Windows Hello 설정에 대한 **이름** 및 선택적 **설명**을 입력합니다.
+4.  **모든 사용자** 페이지에서 **속성**을 클릭하고 비즈니스용 Windows Hello 설정에 대한 **이름** 및 선택적 **설명**을 입력합니다.
 
-5. **모든 사용자** 블레이드에서 **설정**을 클릭하고 **비즈니스용 Windows Hello 구성**에서 다음 중 하나를 선택합니다.
+5. **모든 사용자** 페이지에서 **설정**을 클릭하고 **비즈니스용 Windows Hello 구성**에서 다음 중 하나를 선택합니다.
 
     - **Disabled**. 비즈니스용 Windows Hello를 사용하지 않으려면 이 설정을 선택합니다. 화면의 다른 모든 설정은 사용할 수 없게 됩니다.
     - **Enabled**. 비즈니스용 Windows Hello 설정을 구성하려면 이 설정을 선택합니다.
-    - **구성되지 않음**. Intune을 사용하여 비즈니스용 Windows Hello 설정을 제어하지 않으려면 이 설정을 선택합니다. Windows 10 장치에서 기존 비즈니스용 Windows Hello 설정이 변경되지 않습니다. 블레이드의 다른 모든 설정은 사용할 수 없게 됩니다.
+    - **구성되지 않음**. Intune을 사용하여 비즈니스용 Windows Hello 설정을 제어하지 않으려면 이 설정을 선택합니다. Windows 10 장치에서 기존 비즈니스용 Windows Hello 설정이 변경되지 않습니다. 페이지의 다른 모든 설정은 사용할 수 없게 됩니다.
 
 6.  이전 단계에서 **사용**을 선택한 경우에는 등록된 모든 Windows 10 및 Windows 10 모바일 장치에 적용될 필요한 설정을 구성합니다.
 

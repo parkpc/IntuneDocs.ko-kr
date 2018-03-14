@@ -5,7 +5,7 @@ description: "Intune으로 관리하는 장치를 확인하는 방법과 해당 
 keywords: 
 author: arob98
 ms.author: angrobe
-nmanager: dougeby
+manager: dougeby
 ms.date: 11/10/2017
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: e71c6bdb-d75c-404f-8e38-24a663be81c2
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 39351e76c2510f7411c64d4bc3e3275bc051c63e
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 772e2b1380626384d618e653b90b31a1f421eb72
+ms.sourcegitcommit: 80a2eefc1896a42cc2bc16be23093d1abf58b088
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="how-to-view-intune-device-inventory"></a>Intune 장치 인벤토리를 확인하는 방법
 
@@ -29,8 +29,8 @@ ms.lasthandoff: 01/25/2018
 
 장치 인벤토리를 확인하려면:
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 블레이드에서 **장치**를 선택합니다.
 
 이제 다음 옵션 중 하나를 선택합니다.
@@ -43,7 +43,7 @@ ms.lasthandoff: 01/25/2018
     - **검색된 앱** - Intune에서 찾아서 장치에 설치한 모든 앱 목록을 표시합니다.
     - **장치 준수** - 장치에 할당된 모든 준수 정책의 준수 상태를 표시합니다.
     - **장치 구성** - 장치에 할당된 모든 장치 구성 정책의 준수 상태를 표시합니다.
-- **모니터** **장치 작업**을 선택하면 관리하는 장치에서 수행된 장치 작업 목록 및 현재 상태가 표시됩니다.
+- **모니터** - **장치 작업**을 선택하면 관리하는 장치에서 수행된 장치 작업 목록 및 현재 상태가 표시됩니다.
 - **설치 프로그램** > **TeamViewer 커넥터** -TeamViewer 소프트웨어를 사용하여 장치에서 원격 관리를 구성하도록 허용합니다. 자세한 내용은 [Intune 관리 Android 장치에 대해 원격 지원 제공](/intune/device-profile-android-teamviewer)을 참조하세요.
 
 Intune은 회사 소유 장치에서만 앱 인벤토리를 수집합니다. 개인 장치에서는 앱이 인벤토리에 배정되지 않습니다. Windows 10 PC의 경우 최신 앱 인벤토리만 회사 소유 장치에서 수집됩니다. Intune은 장치에서 Win32 앱에 대한 정보는 수집하지 않습니다. 장치에 사용하는 이동 통신 사업자에 따라 일부 인벤토리 항목이 수집되지 않을 수 있습니다.

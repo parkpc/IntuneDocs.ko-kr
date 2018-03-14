@@ -1,10 +1,10 @@
 ---
 title: "Microsoft Intune에 대한 지원을 받는 방법"
-titlesuffix: Azure portal
-description: "유료 및 평가판 구독 둘 다에 대해 온라인과 전화 지원이 제공됩니다.\""
+titlesuffix: Microsoft Intune
+description: "Microsoft Intune 유료 및 무료 평가판 구독에 대해 온라인 및 전화 지원을 받습니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: dougeby
+ms.author: dougeby
 manager: dougeby
 ms.date: 06/28/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 7fc95d17-098e-4da5-8a09-a96476569dd9
 ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 00a7bf5b3f5df58e29c3eb92a516b1ace3eea705
-ms.sourcegitcommit: 754fcc31155b28d6910bba45419c6be745f8793e
+ms.openlocfilehash: 5cb06625351e67bea8b467f6ab6873d258ee8175
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="how-to-get-support-for-microsoft-intune"></a>Microsoft Intune에 대한 지원을 받는 방법
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 02/14/2018
 Microsoft는 Microsoft Intune에 대한 세계적인 기술 지원, 판매 전 지원, 대금 청구 및 구독 지원을 제공합니다. 유료 및 평가판 구독 둘 다에 대해 온라인과 전화 지원이 제공됩니다. 온라인 기술 지원은 영어와 일본어로 제공됩니다. 전화 지원과 온라인 대금 청구 지원은 추가 언어로 제공됩니다.
 
 >[!IMPORTANT]
-> Intune과 연동되나 Microsoft에서 만들지 않은 타사 제품(예: Saaswedo, Cisco, Lookout)에 대한 기술 지원을 받으려면 먼저 해당 제품의 공급자에게 문의하세요. Intune 지원에서 요청을 열기 전에 다른 제품을 올바르게 구성했는지 확인합니다.
+> Intune과 연동되는 타사 제품(Saaswedo, Cisco, Lookout)에 대한 기술 지원을 받으려면 먼저 해당 제품의 공급자에게 문의하세요. Intune 지원에서 요청을 열기 전에 다른 제품을 올바르게 구성했는지 확인합니다.
 
 ## <a name="create-an-online-support-ticket"></a>온라인 지원 티켓 만들기
 
@@ -41,16 +41,20 @@ IT 관리자의 경우 다음 단계에 따라 Azure Portal에서 지원 티켓�
 2. Azure 도움말 및 지원 페이지에서 **새로운 지원 요청**을 선택합니다.
 
     ![새로운 지원 요청 링크가 강조 표시된 Azure Portal 도움말 및 지원 페이지 스크린샷](./media/azure-support-ticket-link.png)
+
 3. **기본 사항** 블레이드에서 대부분의 Intune 기술 지원 문제에 대해 다음 옵션을 선택합니다.
     - **문제 유형**: **기술**
     - **서비스**: **Microsoft Intune**
-    - **지원 계획**: **기술 지원 - 포함**(Intune 기술 문제에 대한 지원은 무료입니다.)
-
+    - **지원 계획**: **기술 지원 - 포함**(Intune 기술 문제에 대한 지원은 무료) 또는 **프리미어**
+    
     >[!IMPORTANT]
-    >Intune을 Configuration Manager와 함께 사용할 경우 intune에 대한 지원은 무료로 제공됩니다. 프리미어 지원 서비스에 대한 세부 정보를 검토하려면 [서비스 설명](https://www.microsoft.com/microsoftservices/services-list.aspx) 설명서, 섹션 5.3.3 "자문 서비스"를 참조하세요.
+    >- **프리미어 고객**인데 **지원 플랜: 프리미어**가 없다면 계약 및 테넌트 연결에 도움을 받기 위해 기술 계정 관리자에게 문의하십시오.
+    >- Intune을 Configuration Manager와 함께 사용할 경우 intune에 대한 지원은 무료로 제공됩니다. 프리미어 지원 서비스에 대한 세부 정보를 검토하려면 [서비스 설명](https://enterprise.microsoft.com/en-us/services/services-list/) 설명서, 섹션 5.3.3 "자문 서비스"를 참조하세요.
 
     계속 진행하려면 **다음**을 선택합니다.
+
 4. **문제** 블레이드에서 문제에 대한 올바른 실무 전문가가 요청을 처리하도록 다음 옵션을 선택합니다.
+
     - **심각도**
     - **문제 유형**
     - **범주**
@@ -59,13 +63,15 @@ IT 관리자의 경우 다음 단계에 따라 Azure Portal에서 지원 티켓�
 
     ![문제 항목이 채워져 있고 문제에 따른 해결 방법이 표시된 Azure Portal 도움말 및 지원 페이지 스크린샷](./media/support-need-solutions.png)
 
-    문제를 연구 및 해결할 수 있도록 다음 정보를 입력합니다.
-    -   **세부 정보**
+    지원팀이 문제를 연구 및 해결할 수 있도록 다음 정보를 입력합니다.
+    
+    - **세부 정보**
     - **날짜**
     - **시간**
-    - 추가 데이터
+    - **추가 데이터**
 
     **다음**을 선택합니다.
+
 5. 이 지원 요청에 대한 **연락처 정보**를 제공합니다. Microsoft 지원은 이 정보를 사용하여 사용자에게 연락합니다.
 6. **만들기**를 선택하여 지원 요청을 제출합니다.
 
@@ -74,6 +80,5 @@ IT 관리자의 경우 다음 단계에 따라 Azure Portal에서 지원 티켓�
 
 ## <a name="additional-resources"></a>추가 리소스
 - [Microsoft Intune의 담당자 전화 지원](phone-support-contact.md)
-- [볼륨 라이선스 서비스 센터](http://go.microsoft.com/fwlink/p/?LinkID=282016)
 - [청구 및 구독 관리 지원](https://support.office.com/article/Contact-Office-365-for-business-support-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 - [볼륨 라이선스](http://go.microsoft.com/fwlink/p/?LinkID=282015)

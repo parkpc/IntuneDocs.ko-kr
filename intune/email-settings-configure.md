@@ -1,25 +1,23 @@
 ---
-title: "Intune 메일 설정을 구성하는 방법"
-titleSuffix: Azure portal
-description: "관리하는 장치에서 회사 전자 메일에 대한 연결을 만들도록 Intune을 구성하는 방법을 알아봅니다.\""
+title: "Microsoft Intune 이메일 설정 구성하는 방법"
+titleSuffix: 
+description: "관리하는 장치에서 회사 이메일에 대한 연결을 만들도록 Microsoft Intune을 구성하는 방법을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 06/03/2017
+ms.date: 3/1/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 484bd9b0-fbf1-4f4f-940c-6b12fa07e228
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b8558da2460b6443cbd4d42f7dec420d3e7abc7d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: d805d10efccb92ca3fe65b771bf7689e22f42088
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="how-to-configure-email-settings-in-microsoft-intune"></a>Microsoft Intune에서 메일 설정을 구성하는 방법
 
@@ -37,16 +35,16 @@ ms.lasthandoff: 01/25/2018
 - Windows Phone 8.1 이상
 - Windows 10(데스크톱) 및 Windows 10 Mobile
 
-이 항목의 정보를 사용하여 메일 프로필 구성에 대한 기본 사항을 알아본 다음 각 플랫폼에 대한 추가 항목을 통해 장치에 특정한 정보를 확인할 수 있습니다.
+이 아티클의 정보를 사용하여 메일 프로필 구성에 대한 기본 사항을 알아본 다음, 각 플랫폼에 대한 추가 항목을 통해 장치에 특정한 정보를 확인할 수 있습니다.
 
 ## <a name="create-a-device-profile-containing-email-settings"></a>메일 설정을 포함하는 장치 프로필 만들기
 
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
-2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
-3. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.
-4. **프로필 만들기** 블레이드에서 메일 프로필에 대한 **이름** 및 **설명**을 입력합니다.
+3. **Intune** 페이지에서 **장치 구성**을 선택합니다.
+2. **장치 구성** 페이지에서 **관리** > **프로필**을 선택합니다.
+3. 프로필 페이지에서 **프로필 만들기**를 선택합니다.
+4. **프로필 만들기** 페이지에서 이메일 프로필에 대한 **이름** 및 **설명**을 입력합니다.
 5. **플랫폼** 드롭다운 목록에서 메일 설정을 적용할 장치 플랫폼을 선택합니다. 현재 메일 장치 설정에 대해 다음 플랫폼 중 하나를 선택할 수 있습니다.
     - **Android**(Samsung Android Knox Standard만 해당)
     - **Android for Work**
@@ -59,16 +57,16 @@ ms.lasthandoff: 01/25/2018
     - [iOS 설정](email-settings-ios.md)
     - [Windows Phone 8.1 설정](email-settings-windows-phone-8-1.md)
     - [Windows 10 설정](email-settings-windows-10.md)
-8. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
+8. 완료되면 **프로필 만들기** 페이지로 돌아가서 **만들기**를 누릅니다.
 
-프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
+프로필이 만들어지고 프로필 목록 페이지에 표시됩니다.
 계속해서 이 프로필을 그룹에 할당하려면 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
 
 ## <a name="further-information"></a>추가 정보
 
 ### <a name="remove-an-email-profile"></a>메일 프로필 제거
 
-장치에서 메일 프로필을 제거하려면 할당을 편집하고 장치가 멤버로 포함된 그룹을 모두 제거합니다. 메일 프로필이 장치에 있는 유일한 메일 프로필인 경우 이 방식으로 메일 프로필을 제거할 수 없습니다.
+장치에서 메일 프로필을 제거하려면 할당을 편집하고 장치가 멤버로 포함된 그룹을 모두 제거합니다. 이메일 프로필이 장치에 있는 유일한 메일 프로필인 경우 이 방식으로 이메일 프로필을 제거할 수 없습니다.
 
 ### <a name="securing-email-access"></a>메일 액세스 보안
 
@@ -84,7 +82,7 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 
 사용자가 메일 계정을 이미 구성한 경우 Intune 메일 프로필 할당의 결과는 장치 플랫폼에 따라 달라집니다.
 
-- **iOS**: 호스트 이름 및 메일 주소를 기반으로 기존에 중복된 메일 프로필이 검색됩니다. 중복된 메일 프로필은 Intune 프로필 할당을 차단합니다. 이 경우 회사 포털에서 사용자에게 규정을 준수하지 않음을 알리고 수동으로 구성한 프로필을 제거하라는 메시지를 표시합니다. 이 문제를 방지하려면 메일 프로필을 설치하기 전에 등록하여 Intune의 프로필 설정을 허용하라고 안내합니다.
+- **iOS**: 호스트 이름 및 메일 주소를 기반으로 기존에 중복된 메일 프로필이 검색됩니다. 중복된 이메일 프로필은 Intune 프로필 할당을 차단합니다. 이 경우 회사 포털에서 사용자에게 규정을 준수하지 않음을 알리고 수동으로 구성한 프로필을 제거하라는 메시지를 표시합니다. 이 문제를 방지하려면 메일 프로필을 설치하기 전에 등록하여 Intune의 프로필 설정을 허용하라고 안내합니다.
 - **Windows**: 호스트 이름 및 메일 주소를 기반으로 기존에 중복된 메일 프로필이 검색됩니다. Intune은 사용자가 만든 기존 전자 메일 프로필을 덮어씁니다.
 - **Android Samsung Knox Standard**: 메일 주소를 기준으로 중복된 기존 메일 프로필을 검색한 다음 Intune 프로필로 덮어씁니다.
 Android에서는 프로필 식별에 호스트 이름을 사용하지 않으므로 여러 호스트에서 동일한 메일 주소에 사용할 메일 프로필을 여러 개 만들지 않는 것이 좋습니다. 이렇게 하면 각각 덮어쓰게 됩니다.

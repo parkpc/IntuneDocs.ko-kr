@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 126a7489-fe3e-43fd-a681-defb2fe0bb66
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7884682b765fe0df0ecb8b55b18f7a85ac4b2ec9
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: fcdd5e6fa844d4c475462cd0b2a4883f8ff9ba90
+ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="activate-lost-mode-on-ios-devices"></a>iOS 장치에서 분실 모드 활성화
 
@@ -37,11 +37,11 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="how-to-activate-lost-mode"></a>분실된 모드를 활성화하는 방법
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 블레이드에서 **장치**를 선택합니다.
-4. **장치 및 그룹** 블레이드에서 **모든 장치**를 선택합니다.
-5. 관리하는 장치 목록에서 iOS 장치를 선택한 다음 **분실 모드** 원격 작업을 선택합니다.
+4. **장치** 블레이드에서 **모든 장치**를 선택합니다.
+5. 관리하는 장치 목록에서 iOS 장치를 선택하고 **자세히...**를 선택한 다음, **분실 모드** 원격 작업을 선택합니다.
 6. **분실 모드** 블레이드에서 분실 모드를 사용하도록 설정합니다. 그런 다음 표시할 메시지와 선택적으로 연락처 전화 번호를 입력합니다.
 7. **확인**을 클릭합니다.
 
@@ -57,5 +57,5 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="next-steps"></a>다음 단계
 
-방금 수행한 작업의 상태를 확인하려면 **장치 및 그룹** 블레이드에서 **장치 작업**을 선택합니다.
+방금 수행한 작업의 상태를 확인하려면 **장치** 블레이드에서 **장치 작업**을 선택합니다.
 

@@ -1,31 +1,30 @@
 ---
-title: "Android에 대한 Intune 장치 제한 설정"
-titlesuffix: Azure portal
-description: "Android 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+title: "Android에 대한 Microsoft Intune 장치 제한 설정"
+titlesuffix: 
+description: "Android를 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 12/11/2017
+ms.date: 3/1/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 6bdf714a-5d93-485c-8b52-513635c60cb6
-ms.reviewer: heenamac
+ms.reviewer: ayesham
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 559550860d0882b20a005a5d0957be761978cbe6
-ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
+ms.openlocfilehash: d939d86f6ccd7f9851cfc52f1080fddaeee6a947
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="android-and-samsung-knox-standard-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Android 및 Samsung Knox Standard 장치 제한 설정
+# <a name="microsoft-intune-android-and-samsung-knox-standard-device-restriction-settings"></a>Microsoft Intune Android 및 Samsung Knox Standard 장치 제한 설정 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Android 장치 제한 정책과 함께 다음 설정을 사용하여 조직에서 장치를 구성합니다.
+이 아티클에서는 Android를 실행하는 장치에 대해 구성할 수 있는 모든 Microsoft Intune 장치 제한 설정을 보여줍니다.
 
 >[!TIP]
 >원하는 설정을 사용할 수 없는 경우 [사용자 지정 프로필](custom-settings-android.md)을 사용하여 장치를 구성할 수 있습니다.
@@ -111,7 +110,7 @@ Android 장치 제한 정책과 함께 다음 설정을 사용하여 조직에�
 ## <a name="allow-or-block-apps"></a>앱 허용 또는 차단
 
 이러한 설정은 Samsung Knox Standard를 실행하는 장치에만 설치하거나 시작할 수 있는 앱을 지정하는 데 사용할 수 있습니다.
-설치된 앱 중 장치 사용자에게 숨길 앱을 지정할 수도 있습니다. 사용자는 이러한 앱을 실행할 수 없습니다.
+설치된 앱 중 장치 사용자에게 숨겨진 앱을 지정할 수도 있습니다. 사용자는 이러한 앱을 실행할 수 없습니다.
 
 - **설치가 허용된 앱(Samsung Knox Standard만 해당)**
 - **시작이 차단된 앱(Samsung Knox Standard만 해당)**

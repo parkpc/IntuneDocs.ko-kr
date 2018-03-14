@@ -1,31 +1,29 @@
 ---
-title: "Android 및 Android for Work 장치의 Intune 전자 메일 설정"
-titleSuffix: Azure portal
-description: "Android 장치에서 전자 메일 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+title: "Android 및 Android for Work를 실행하는 장치에 대해 Microsoft Intune 이메일 설정"
+titleSuffix: 
+description: "Android 및 Android for Work를 실행하는 장치에서 이메일 설정을 구성하는 데 사용할 수 있는 Microsoft Intune 설정에 대해 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 06/15/2017
+ms.date: 3/2/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 4d3458cc-fcaa-4648-b13f-bf1f0616c1c5
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 14f726d330e1cd8e4a0f7bfcfac8fe931c66d23b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: a68607be7cbd84d5a9e9080d0a8608bce85edd22
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="email-profile-settings-for-android--devices-in-microsoft-intune"></a>Microsoft Intune의 Android 장치에 대한 전자 메일 프로필 설정
+# <a name="email-profile-settings-in-microsoft-intune-for-devices-running-android-and-android-for-work"></a>Android 및 Android for Work를 실행하는 장치에 대해 Microsoft Intune에서 이메일 프로필 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Intune 관리자는 다음 Android 장치에 대해 전자 메일 설정을 만들고 할당할 수 있습니다.
+Intune 관리자는 다음 Android 장치에 대해 이메일 설정을 만들고 할당할 수 있습니다.
 - [Android Samsung Knox Standard](#android-samsung-knox-standard-email-settings)
 - [Android for Work](#android-for-work-email-settings)
 
@@ -59,7 +57,7 @@ Intune 관리자는 다음 Android 장치에 대해 전자 메일 설정을 만�
 
 - **전자 메일 앱** - **Gmail** 또는 **Nine Work**를 선택합니다.
 - **메일 서버** - Exchange Server의 호스트 이름입니다.
-- **AAD의 사용자 이름 특성** - 이 이름은 해당 전자 메일 프로필에 대해 사용자 이름을 생성하는 데 사용되는 AD(Active Directory) 또는 Azure AD의 특성입니다. user1@contoso.com와 같은 **기본 SMTP 주소** 또는 user1, user1@contoso.com와 같은 **사용자 계정 이름**을 선택합니다.
+- **AAD의 사용자 이름 특성** - 이 이름은 해당 이메일 프로필에 대해 사용자 이름을 생성하는 데 사용되는 AD(Active Directory) 또는 Azure AD의 특성입니다. user1@contoso.com와 같은 **기본 SMTP 주소** 또는 user1, user1@contoso.com와 같은 **사용자 계정 이름**을 선택합니다.
 - **AAD의 메일 주소 특성** - 각 장치에서 사용자의 메일 주소가 생성되는 방식을 선택합니다. 전체 사용자 이름을 전자 메일 주소 또는 **사용자 이름**으로 사용하려면 **사용자 계정 이름**을 선택합니다.
 - **인증 방법** - 메일 프로필에서 사용되는 인증 방법으로 **사용자 이름 및 암호** 또는 **인증서** 중 하나를 선택합니다.
     - **인증서**를 선택한 경우 Exchange 연결을 인증하기 위해 이전에 만든 클라이언트 SCEP 또는 PKCS 인증서 프로필을 선택합니다.

@@ -1,7 +1,7 @@
 ---
 title: "Intune Wi-Fi 설정을 구성하는 방법"
-titleSuffix: Azure portal
-description: "관리하는 장치에서 Intune을 사용하여 Wi-Fi 연결을 구성하는 방법을 알아봅니다.\""
+titleSuffix: Microsoft Intune
+description: "관리하는 장치에서 Microsoft Intune을 사용하여 Wi-Fi 연결을 구성하는 방법을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e03df2525b413ca33f81836292a05dac11bb8349
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: 21bc79d3440e57ec91f7e4482112d77cf233575f
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="how-to-configure-wi-fi-settings-in-microsoft-intune"></a>Microsoft Intune에서 Wi-Fi 설정을 구성하는 방법
 
@@ -46,7 +46,7 @@ Windows 8.1, Windows 10, Windows 10 Mobile 및 Windows Holographic for Business�
 
 ## <a name="create-a-device-profile-containing-wi-fi-settings"></a>Wi-Fi 설정을 포함하는 장치 프로필 만들기
 
-1. Azure 포털에 로그인합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
 2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
@@ -62,7 +62,7 @@ Windows 8.1, Windows 10, Windows 10 Mobile 및 Windows Holographic for Business�
    > [!IMPORTANT]
    > Windows Holographic for Business를 포함하여 Windows 10을 실행하는 장치용 프로필을 만드는 경우 **Windows 8.1 이상** 플랫폼을 선택해야 합니다. **Windows 10 이상** 플랫폼에는 Wi-Fi 프로필 유형이 포함되지 않습니다. 
 
-6. Apple 또는 Android 장치의 경우, **WiFi 유형** 드롭다운 목록에서 **기본** 또는 **엔터프라이즈**를 선택합니다. **기본**을 사용하여 네트워크 이름 및 SSID와 같은 기본 기능을 제공할 수 있습니다. **엔터프라이즈**를 사용하여 EAP(확장 인증 프로토콜)와 같은 보다 고급 정보를 제공할 수 있습니다(Wi-Fi 네트워크에서 이를 사용하는 경우). 
+6. Apple 또는 Android 장치의 경우, **WiFi 유형** 드롭다운 목록에서 **기본** 또는 **엔터프라이즈**를 선택합니다. **기본**을 사용하여 네트워크 이름 및 SSID와 같은 기본 기능을 제공할 수 있습니다. **엔터프라이즈**를 사용하여 EAP(확장 인증 프로토콜)와 같은 보다 고급 정보를 제공할 수 있습니다(Wi-Fi 네트워크에서 이 프로토콜을 사용하는 경우). 
 
    **Wi-Fi 가져오기** 프로필(Windows 8.1 이상)을 사용하여 이전에 다른 장치에서 내보낸 XML 파일로 Wi-Fi 설정을 가져올 수 있습니다.
 1. 선택한 플랫폼에 따라 구성할 수 있는 설정이 다릅니다. 각 플랫폼에 대한 자세한 설정을 보려면 다음 항목 중 하나로 이동하세요.

@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Intune 장치 등록이란?"
-titlesuffix: Azure portal
+titlesuffix: Microsoft Intune
 description: "iOS, Android 및 Windows 장치 등록에 대해 알아봅니다."
 keywords: 
 author: ErikjeMS
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a94703ecc1d7fd464f565855bb9b8dd9ee3c3bfb
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 9f49178a2d8e8a73a693ed2f374b86b8e702680f
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="what-is-device-enrollment"></a>장치 등록이란?
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -37,6 +37,14 @@ Intune을 사용하여 직원의 장치 및 앱을 관리하고 회사 데이터
 |**[DEP](#apple-device-enrollment-program)**|   예 |   선택 사항 |  선택 사항|[추가 정보](./device-enrollment-program-enroll-ios.md)|
 |**[USB-SA](#usb-sa)**| 예 |   선택 사항 |  아니요| [추가 정보](./apple-configurator-setup-assistant-enroll-ios.md)|
 |**[USB-Direct](#usb-direct)**| 아니요 |    아니요  | 아니요|[추가 정보](./apple-configurator-direct-enroll-ios.md)|
+
+## <a name="macos-enrollment-methods"></a>macOS 등록 방법
+
+| **방법** |  **초기화 필요** |  **사용자 선호도** | **잠김** | **세부 정보**|
+|:---:|:---:|:---:|:---:|:---:|
+|**[BYOD](#bring-your-own-device)** | 아니요| 예 | 아니요 | [추가 정보](./macos-enroll.md)|
+|**[DEM](#device-enrollment-manager)**| 아니요 |아니요 |아니요  | [추가 정보](./device-enrollment-manager-enroll.md)|
+
 
 ## <a name="windows-enrollment-methods"></a>Windows 등록 방법
 

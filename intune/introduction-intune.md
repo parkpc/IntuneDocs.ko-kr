@@ -2,10 +2,10 @@
 title: "Microsoft Intune이란?"
 description: "Intune이 어떻게 Enterprise Mobility + Security 솔루션의 MDM(모바일 장치 관리) 및 MAM(모바일 앱 관리) 구성 요소가 되며 회사 데이터를 보호하는 데 도움이 되는지 알아봅니다."
 keywords: "Intune이란"
-author: Lindavr
-ms.author: lindavr
+author: Erikre
+ms.author: erikre
 manager: dougeby
-ms.date: 02/12/2018
+ms.date: 03/01/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
 ms.reviewer: pmay
 ms.suite: ems
 ms.custom: 
-ms.openlocfilehash: b528ff06eb163beeb14465cfb10e66b7d2623424
-ms.sourcegitcommit: 754fcc31155b28d6910bba45419c6be745f8793e
+ms.openlocfilehash: aa28f11a32a35e53c8e135a9f5f738513f416c37
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="what-is-intune"></a>Intune이란?
 

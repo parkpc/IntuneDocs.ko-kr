@@ -1,12 +1,12 @@
 ---
-title: "Intune에 Windows 기간 업무 앱을 추가하는 방법"
-titlesuffix: Azure portal
-description: "Intune에 Windows 기간 업무 앱을 추가하는 방법을 알아봅니다.\""
+title: "Microsoft Intune에 Windows LOB(기간 업무) 앱을 추가하는 방법"
+titlesuffix: 
+description: "Microsoft Intune에 Windows LOB(기간 업무) 앱을 추가하는 방법을 알아봅니다."
 keywords: 
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/3/2017
+ms.date: 02/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,16 +15,17 @@ ms.assetid: f81c5f82-5cfa-4b97-9f73-d6cf77c06896
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 72e0a9011ba6dda324ace96fb2dbefb42c608641
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: b687b71f9d264364ff758fdd46b0739465c16865
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="how-to-add-windows-line-of-business-lob-apps-to-microsoft-intune"></a>Microsoft Intune에 Windows LOB(기간 업무) 앱을 추가하는 방법
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
+LOB(기간 업무) 앱은 앱 설치 파일로 추가합니다. 이러한 유형의 앱은 일반적으로 사내에서 작성됩니다. 다음 단계는 Windows LOB 앱을 Microsoft Intune에 추가할 수 있도록 지침을 제공합니다.
 
 ## <a name="step-1---specify-the-software-setup-file"></a>단계 1 - 소프트웨어 설치 파일 지정
 
@@ -68,6 +69,10 @@ ms.lasthandoff: 01/30/2018
 ## <a name="step-5---update-a-line-of-business-app"></a>5단계 - 기간 업무(line-of-business) 앱 업데이트
 
 [!INCLUDE[shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)]
+
+## <a name="configuring-a-self-updating-mobile-msi-app-to-ignore-the-version-check-process"></a>버전 확인 프로세스를 무시하도록 알려진 자체 업데이트 모바일 MSI 앱을 구성할 수 있습니다
+
+버전 확인 프로세스를 무시하도록 알려진 자체 업데이트 모바일 MSI 앱을 구성할 수 있습니다. 일부 MSI installer 기반 앱은 앱 개발자가 자동으로 업데이트합니다. 이러한 자동으로 업데이트된 MSI 앱의 경우 **앱 정보** 블레이드에서 **앱 버전 무시** 설정을 구성할 수 있습니다. 이 설정이 **예**로 전환될 경우 Microsoft Intune에서 Windows 클라이언트에 설치된 앱 버전을 적용하지 못합니다. 이 기능은 경합 상태를 방지하는 데 유용합니다. 예를 들어 이런 유형의 경합 상태는 앱 개발자가 앱을 자동으로 업데이트하는 동시에 Intune에서도 앱을 업데이트하는 경우 발생할 수 있습니다. 둘 다 Windows 클라이언트에서 앱 버전을 적용하려 시도할 수 있으며, 이로 인해 충돌이 발생할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

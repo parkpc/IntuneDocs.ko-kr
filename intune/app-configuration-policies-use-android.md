@@ -1,7 +1,7 @@
 ---
-title: "관리되는 Android 장치용 앱 구성 정책 추가 | Microsoft Docs"
-titlesuffix: Azure portal
-description: "앱 구성 정책을 사용하여 Android for Work 앱을 실행할 때 이 앱에 구성 데이터를 제공하는 방법을 알아봅니다."
+title: "관리되는 Android 장치용 앱 구성 정책 추가"
+titlesuffix: Microsoft Intune
+description: "Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 Android for Work 앱을 실행할 때 설정을 제공할 수 있습니다."
 keywords: 
 author: erikre
 ms.author: erikre
@@ -15,11 +15,11 @@ ms.assetid: d0b6f3fe-2bd4-4518-a6fe-b9fd115ed5e0
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4fbf1466b02da66e5c7d115d60aa43912322ebeb
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 206e229e95633ce553637bcedef708ee5630864c
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="add-app-configuration-policies-for-managed-android-devices"></a>관리되는 Android 장치용 앱 구성 정책 추가
 
@@ -30,8 +30,8 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 Android fo
 > [!Note]  
 > 모든 앱이 앱 구성을 지원하지는 않습니다. 앱 구성 정책을 지원하도록 앱을 빌드했는지 앱 개발자와 확인하세요.
 
-1. Azure Portal에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** + **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **모바일 앱** 워크로드를 선택합니다.
 4. **관리** 그룹에서 **앱 구성 정책**을 선택한 다음 **추가**를 선택합니다.
 5. 다음 세부 정보를 설정합니다.
@@ -41,7 +41,7 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 Android fo
       Azure Portal에 표시되는 프로필의 설명입니다.
     - **장치 등록 유형**  
       **관리되는 장치**를 선택합니다.
-6. **플랫폼**으로 **Android**를 선택합니다.
+6. **플랫폼**으로 **Android for Work**를 선택합니다.
 7. **연결된 앱**을 선택하여 앱 구성 정책을 정의할 앱을 선택합니다. 승인했으며 Intune과 동기화한 앱을 Android for Work 앱 목록에서 선택합니다.
 8. **구성 설정**을 선택합니다. 다음을 사용하여 구성을 설정할 수 있습니다.
     - [구성 디자이너](#Use-the-configuration-designer)
@@ -77,14 +77,15 @@ Intune에 등록되었거나 등록되지 않은 장치에서 앱에 대한 구�
 
 Android 장치 기능에 액세스하기 위한 앱의 권한을 미리 구성할 수도 있습니다. 기본적으로 위치 또는 장치 카메라에 대한 액세스와 같이 장치 권한이 필요한 Android 앱에서는 권한을 허용할 것인지 거부할 것인지 묻는 메시지를 사용자에게 표시합니다. 예를 들어, 앱에서 장치의 마이크를 사용하는 경우 앱에 마이크 사용 권한을 부여할 것인지 묻는 메시지가 사용자에게 표시됩니다.
 
-1. Azure Portal에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** + **Intune**을 선택합니다.
-3. **모바일 앱**을 선택합니다. **관리**에서 **앱 구성 정책**을 선택하고 **추가**를 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **모바일 앱**을 선택합니다.
+3. **관리**에서 **앱 구성 정책**을 선택하고 **추가**를 선택합니다.
 4. 다음 세부 정보를 설정합니다.
     - **이름**. Azure Portal에 표시되는 프로필의 이름입니다.
     - **설명**. Azure Portal에 표시되는 프로필의 설명입니다.
-    - **플랫폼**. **Android**를 선택합니다.
-    - **장치 등록 유형**. **관리되는 장치**가 미리 선택되어 있습니다.
+    - **장치 등록 유형**. **관리되는 장치**를 선택합니다.
+    - **플랫폼**. **Android for Work**를 선택합니다.
 5. **연결된 앱**을 선택하여 구성 정책을 정의할 앱을 선택합니다. 승인했으며 Intune과 동기화한 앱을 Android for Work 앱 목록에서 선택합니다.
 6. **권한**과 **추가**를 차례로 선택합니다.
 7. 사용 가능한 앱 권한 목록에서 원하는 권한을 선택하고 **확인**을 선택합니다.
