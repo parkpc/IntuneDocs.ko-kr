@@ -1,45 +1,43 @@
 ---
-title: "iOS 장치용 Intune 홈 화면 레이아웃 설정"
+title: "iOS를 실행하는 장치에 대해 Microsoft Intune 홈 화면 레이아웃 설정"
 titlesuffix: Azure portal
-description: "iOS 장치에서 홈 화면과 Dock를 사용자 지정하는 데 사용할 수 있는 설정을 알아봅니다.\""
+description: "iOS를 실행하는 장치에서 홈 화면과 Dock를 사용자 지정하는 데 사용할 수 있는 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 07/03/2017
+ms.date: 3/2/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 6aba4491-afb9-43cd-9ccc-14e6a2a5a3b1
-ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2e4de4f4b1235136d7391c8d9efdc1405043e4da
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: ad8553506752cce99f22283e50cc5f490d72ed0b
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="intune-home-screen-layout-settings-for-ios-devices"></a>iOS 장치용 Intune 홈 화면 레이아웃 설정
+# <a name="microsoft-intune-home-screen-layout-settings-for-devices-running-ios"></a>iOS를 실행하는 장치에 대해 Microsoft Intune 홈 화면 레이아웃 설정 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-이러한 설정을 사용하여 iOS의 도킹 및 홈 화면에서 앱 및 폴더의 레이아웃을 구성합니다.
+이러한 설정을 사용하여 iOS를 실행하는 장치의 도킹 및 홈 화면에서 폴더의 레이아웃을 구성합니다.
 
-프로필을 할당하는 iOS 장치는 감독 모드여야 하며, iOS 9.3 이상을 실행 중이어야 합니다.
+할당된 프로필을 사용해 iOS를 실행하는 장치는 감독 모드여야 하며, iOS 9.3 이상을 실행해야 합니다.
 
-1. **장치 기능** 블레이드에서 **홈 화면 레이아웃(감독 모드인 경우에만)**을 선택합니다.
-2. **홈 화면 레이아웃(감독 모드인 경우에만)** 블레이드에서 **Dock** 또는 **페이지** 레이아웃을 구성할지 여부를 선택합니다.
+1. **장치 구성**, **프로필 만들기**, **장치 기능** 페이지에서 **홈 화면 레이아웃(감독 모드인 경우에만)**을 선택합니다.
+2. **홈 화면 레이아웃(감독 모드인 경우에만)** 페이지에서 **Dock** 또는 **페이지** 레이아웃을 구성할지 여부를 선택합니다.
 
 ## <a name="add-items-to-the-dock"></a>Dock에 항목 추가
 
-**Dock** 블레이드의 iOS 화면 Dock에 최대 6개의 항목 또는 폴더를 추가할 수 있습니다. 그러나 이보다 적은 항목을 지원하는 장치가 많습니다. 예를 들어 iPhone 장치는 최대 4개의 항목을 지원합니다. 이 경우 구성한 처음 4개 항목만 장치에 표시됩니다.
+**Dock** 페이지에서 iOS 화면 Dock에 최대 6개의 항목 또는 폴더를 추가할 수 있습니다. 그러나 이보다 적은 항목을 지원하는 장치가 많습니다. 예를 들어 iPhone 장치는 최대 4개의 항목을 지원합니다. 이 경우 구성한 처음 4개 항목만 장치에 표시됩니다.
 
 1. **추가**를 선택하여 Dock에 항목을 추가합니다.
-2. **행 추가** 블레이드에서 **앱**을 추가할지, **폴더**를 추가할지 선택합니다.
+2. **행 추가** 페이지에서 **앱**을 추가할지, **폴더**를 추가할지 선택합니다.
 3. 이 항목의 정보를 참조하여 Dock에 표시할 앱 및 폴더를 구성합니다.
-4. 항목을 계속 추가합니다. 작업이 완료되면 각 블레이드에서 **확인**을 클릭하여 **프로필 만들기** 블레이드로 돌아갑니다. **만들기**를 선택합니다.
+4. 항목을 계속 추가합니다. 작업이 완료되면 각 페이지에서 **확인**을 클릭하여 **프로필 만들기** 페이지로 돌아갑니다. **만들기**를 선택합니다.
 
 >[!TIP]
 > 항목을 홈 화면과 페이지 목록에 끌어서 놓고, 항목을 다시 정렬할 수도 있습니다. 
@@ -48,19 +46,19 @@ ms.lasthandoff: 01/25/2018
 
 이 예제에서는 Safari, Mail 및 Stocks 앱만 표시되도록 Dock 화면을 구성했습니다. 다음 이미지에서 속성을 설명하기 위해 Mail 앱이 선택되었습니다.
 
-![샘플 iOS Dock 설정](http://i.imgur.com/FfFiUcP.png)
+![샘플 iOS Dock 설정](./media/FfFiUcP.png)
 
 iPhone에 정책을 할당할 때 결과는 다음 스크린샷과 유사한 Dock이 됩니다.
 
-![iPhone의 샘플 iOS 레이아웃 Dock](http://i.imgur.com/bAgCe8F.png)
+![iPhone의 샘플 iOS 레이아웃 Dock](./media/bAgCe8F.png)
 
 ## <a name="add-home-screen-pages"></a>홈 화면 페이지 추가
 
 홈 화면에 표시할 페이지와 각 페이지에 표시할 앱을 추가합니다. 페이지에 추가되는 앱은 목록에 지정되는 순서대로 왼쪽에서 오른쪽으로 정렬됩니다. 한 페이지에 들어가는 개수보다 많은 앱을 추가할 경우 앱이 후속 페이지로 이동합니다.
 
 
-1. **페이지** 블레이드에서 **추가**를 선택합니다.
-2. **행 추가** 블레이드에서 **페이지 이름**을 입력합니다. 이 이름은 Azure Portal에서 참조용으로 사용되며, iOS 장치에는 *표시되지 않습니다*.
+1. **페이지** 페이지에서 **추가**를 선택합니다.
+2. **행 추가** 페이지에서 **페이지 이름**을 입력합니다. 이 이름은 Azure Portal에서 참조용으로 사용되며, iOS 장치에는 *표시되지 않습니다*.
 3. **추가**를 선택한 다음 페이지에 **앱**을 추가할지, **폴더**를 추가할지 선택합니다.
 4. 이 항목의 정보를 참조하여 페이지에 표시할 앱 및 폴더를 구성합니다.
 
@@ -68,11 +66,11 @@ iPhone에 정책을 할당할 때 결과는 다음 스크린샷과 유사한 Doc
 
 이 예제에서는 **Contoso**라는 새 페이지를 구성했습니다. 페이지에는 친구 찾기와 설정 앱만 표시됩니다. 다음 이미지에서 속성을 설명하기 위해 설정 앱이 선택되었습니다.
 
-![iOS 홈 화면 설정 예제](http://i.imgur.com/Jc2OxyX.png)
+![iOS 홈 화면 설정 예제](./media/Jc2OxyX.png)
 
 iPhone에 정책을 할당할 때 결과는 다음 스크린샷과 유사한 페이지가 됩니다.
 
-![수정된 홈 화면을 사용하는 iOS 장치](http://i.imgur.com/Bd37PHa.png)
+![수정된 홈 화면을 사용하는 iOS 장치](./media/Bd37PHa.png)
 
 ## <a name="how-to-add-an-app-to-the-list"></a>목록에 앱을 추가하는 방법
 
@@ -87,7 +85,7 @@ iPhone에 정책을 할당할 때 결과는 다음 스크린샷과 유사한 페
 
 1. **폴더 이름**을 입력합니다. 이 이름은 해당 장치에서 사용자에게 표시됩니다.
 2. **추가**를 선택하여 폴더 페이지를 만듭니다. 최대 20개의 페이지를 추가할 수 있습니다.
-3. **행 추가** 블레이드에서 페이지에 대한 이름을 입력합니다. 이 이름은 Azure Portal에서 참조용으로 사용되며, iOS 장치에는 *표시되지 않습니다*.
+3. **행 추가** 페이지에서 페이지에 대한 이름을 입력합니다. 이 이름은 Azure Portal에서 참조용으로 사용되며, iOS 장치에는 *표시되지 않습니다*.
 3. **앱 이름**을 입력합니다. 이 이름은 Azure Portal에서 참조용으로 사용되며, iOS 장치에는 *표시되지 않습니다*.
 2. 표시할 앱의 **앱 번들 ID**를 입력합니다. 도움말은 **목록에 앱을 추가하는 방법**을 참조하세요.
 3. **추가**를 선택합니다. 최대 60개 항목을 추가할 수 있습니다.

@@ -1,12 +1,12 @@
 ---
-title: "그룹에 앱을 할당하는 방법"
-titlesuffix: Azure portal
-description: "Intune에 앱을 추가한 후 사용자 또는 장치 그룹에 할당할 수 있습니다.\""
+title: "Microsoft intune에서 그룹에 앱을 할당하는 방법"
+titlesuffix: 
+description: "Microsoft Intune에 앱을 추가한 후 사용자 또는 장치 그룹에 할당할 수 있습니다.\""
 keywords: 
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/24/2017
+ms.date: 02/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: dc349e22-9e1c-42ba-9e70-fb2ef980ef7a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fc4732043153662ac83beac950d53246caff1b94
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 78a9e9f4af41cdb97efd017eec56e676eda82856
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="how-to-assign-apps-to-groups-with-microsoft-intune"></a>Microsoft intune을 사용하여 그룹에 앱을 할당하는 방법
 
@@ -38,29 +38,30 @@ Intune에서 관리되는지 여부에 상관없이 장치에 앱을 할당할 �
 |사용 가능으로 앱 할당|예|예|
 |필수로 앱 할당|예|아니요|
 |앱 제거|예|아니요|
+|Intune에서 앱 업데이트를 수신합니다|예|아니요|
 |최종 사용자가 회사 포털 앱에서 사용 가능한 앱 설치|예|아니요|
 |최종 사용자가 웹 기반 회사 포털에서 사용 가능한 앱 설치|예|예|
 
 > [!NOTE]
-> 현재 Intune에 등록되지 않은 장치에 iOS 및 Android 앱(기간 업무 및 스토어 구매 모두)을 할당할 수 있습니다.
+> 현재 Intune에 등록되지 않은 장치에 iOS 및 Android 앱(기간 업무 및 스토어 구매 모두)을 할당할 수 있습니다.<br></br><br></br>
+> Intune에 등록되지 않은 장치에 앱 업데이트를 받으려면 장치 사용자는 회사 포털로 이동해 수동으로 앱 업데이트를 설치 해야 합니다.
 
 ## <a name="how-to-assign-an-app"></a>앱을 할당하는 방법
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
 1. **Mobile Apps** 워크로드에서 **관리** > **앱**을 선택합니다.
 2. 앱 목록 블레이드에서 할당할 앱을 클릭합니다.
-3. <*앱 이름*> - **개요** 블레이드에서 **관리** > **할당**을 선택합니다.
-4. **그룹 선택**을 선택하고 **그룹 선택** 블레이드에서 앱을 할당할 Azure AD 그룹을 선택합니다.
+3. **개요** 블레이드에서 **관리** > **할당**을 선택합니다.
+4. **그룹 추가**를 선택한 다음, **그룹 추가** 블레이드에서 해당 앱 할당에서 포함하거나 제외하기 위해 Azure AD 그룹을 선택합니다.
 5. 선택한 각 앱에 대해 **할당 유형**을 선택합니다.
-    - **사용 가능** - 사용자가 회사 포털 앱 또는 웹 사이트에서 앱을 설치합니다.
-    - **해당 사항 없음** - 앱이 설치되거나 회사 포털에 표시되지 않습니다.
+    - **등록 장치에 대해 사용 가능** - 사용자가 회사 포털 앱 또는 웹 사이트에서 앱을 설치합니다.
+    - **등록없이 사용 가능** - 이 앱을 Intune에 등록되지 않은 장치의 사용자 그룹에 할당합니다.
     - **필수** - 앱이 선택한 그룹의 장치에 설치됩니다.
     - **제거** - 앱이 선택한 그룹의 장치에서 제거됩니다.
-    - **등록없이 사용 가능** - 이 앱을 Intune에 등록되지 않은 장치의 사용자 그룹에 할당합니다.
 6. **iOS 앱 전용** - 앱당 VPN 설정을 포함하는 iOS VPN 프로필을 만든 경우 **VPN**에서 선택할 수 있습니다. 앱을 실행하면 VPN 연결이 열립니다. 자세한 내용은 [iOS 장치의 VPN 설정](vpn-settings-ios.md)을 참조하세요.
-6. 작업이 끝나면 **저장**을 선택합니다.
+6. 작업이 끝나면 **확인**을 선택한 다음, **저장**을 선택합니다.
 
 이제 선택한 그룹에 앱이 할당됩니다.
 

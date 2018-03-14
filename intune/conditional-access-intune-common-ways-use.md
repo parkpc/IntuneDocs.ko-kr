@@ -3,10 +3,10 @@ title: "Intune을 사용하는 조건부 액세스"
 titlesuffix: Azure portal
 description: "Intune에서 조건부 액세스를 사용하는 일반적인 방법"
 keywords: 
-author: andredm7
-ms.author: andredm
+author: Erikre
+ms.author: erikre
 manager: dougeby
-ms.date: 11/14/2017
+ms.date: 02/22/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,17 +14,19 @@ ms.technology:
 ms.assetid: a0b8e55e-c3d8-4599-be25-dc10c1027b62
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8987f8e6eb7a770a90d187c0787589acfbacdb09
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: d5ec945cdbc4efa791edc51e659a1546876446c5
+ms.sourcegitcommit: 1978a30ab1af0f43aa5f447690d0bbcdcb9b563b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="common-ways-to-use-conditional-access-with-intune"></a>Intune에서 조건부 액세스를 사용하는 일반적인 방법
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-조직에서 조건부 액세스를 준수하려면 Intune 모바일 장치 준수 정책과 Intune MAM(모바일 응용 프로그램 관리) 기능을 구성해야 합니다. 이 항목에서는 Intune에서 조건부 액세스를 사용하는 일반적인 방법을 설명합니다.
+Intune을 사용하는 조건부 액세스에는 두 가지 주요 형식이 있습니다. 첫 번째 형식은 장치 기반 조건부 액세스입니다. 두 번째 형식은 앱 기반 조건부 액세스입니다. 조직에서 조건부 액세스 규정 준수를 추진하는 관련 규정 준수 정책을 구성해야 합니다.
+
+아래 정보는 Intune 모바일 *장치* 규정 준수 기능 및 Intune 모바일 *응용 프로그램* 관리(MAM) 기능 사용 방법의 이해에 도움이 됩니다. 
 
 ## <a name="device-based-conditional-access"></a>장치 기반 조건부 액세스
 
@@ -32,11 +34,11 @@ Intune과 Azure Active Directory는 연동되어 준수 상태의 관리 장치�
 
 Intune은 장치의 준수 상태를 평가하는 장치 준수 정책 기능을 제공합니다. 준수 상태는 Azure Active Directory에 보고되며, Azure Active Directory는 사용자가 회사 리소스에 액세스하려고 하면 Azure Active Directory에서 작성된 조건부 액세스 정책을 적용하는 데 이 상태를 사용합니다.
 
-[새 Azure Portal](https://docs.microsoft.com/intune-azure/introduction/what-is-microsoft-intune)부터는 Exchange Online 및 기타 Office 365 제품용 장치 기반 조건부 액세스 정책이 Azure Portal을 통해 구성됩니다.
+Exchange Online 및 기타 Office 365 제품용 장치 기반 조건부 액세스 정책이 [Azure Portal](https://docs.microsoft.com/intune-azure/introduction/what-is-microsoft-intune)을 통해 구성됩니다.
 
 -   [Azure Active Directory의 조건부 액세스](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)에 대해 자세히 알아보세요.
 
--   [Intune 장치 준수란?](device-compliance.md)을 자세히 확인해 보세요.
+-   [Intune 장치 준수](device-compliance.md)에 대해 자세히 확인해 보세요.
 
 -   [Intune에서 조건부 액세스를 사용하여 전자 메일, Office 365 및 기타 서비스 보호](https://docs.microsoft.com/intune-classic/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)에 대해 자세히 알아보세요.
 

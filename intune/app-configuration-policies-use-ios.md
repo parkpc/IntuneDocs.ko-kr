@@ -1,6 +1,6 @@
 ---
-title: "관리되는 iOS 장치용 앱 구성 정책 추가 | Microsoft Docs"
-titlesuffix: Azure portal
+title: "관리되는 iOS 장치용 앱 구성 정책 추가"
+titlesuffix: Microsoft Intune
 description: "앱 구성 정책을 사용하여 iOS 앱을 실행할 때 이 앱에 구성 데이터를 제공하는 방법을 알아봅니다."
 keywords: 
 author: erikre
@@ -15,11 +15,11 @@ ms.assetid: c9163693-d748-46e0-842a-d9ba113ae5a8
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b64d8b60a4c577acc2f6ef161f6de37ac529e7ac
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: bdaec3150062dce5da5566fa9534425e11f3cdec
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="add-app-configuration-policies-for-managed-ios-devices"></a>관리되는 iOS 장치용 앱 구성 정책 추가
 
@@ -44,8 +44,8 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 iOS 앱을
 
 ## <a name="create-an-app-configuration-policy"></a>앱 구성 정책 만들기
 
-1. Azure Portal에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** + **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **모바일 앱** 워크로드를 선택합니다.
 4. **관리** 그룹에서 **앱 구성 정책**을 선택한 다음 **추가**를 선택합니다.
 5. 다음 세부 정보를 설정합니다.
@@ -56,22 +56,22 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 iOS 앱을
     - **장치 등록 유형**<br>
       **관리되는 장치**를 선택합니다.
 6. **플랫폼**으로 **iOS**를 선택합니다.
-7.  **연결된 앱**을 선택합니다. 그런 다음 **연결된 앱** 블레이드에서 구성을 적용할 관리되는 앱을 선택합니다.
-8.  **구성 정책 추가** 블레이드에서 **구성 설정**을 선택합니다.
+7.  **연결된 앱**을 선택합니다. 그런 다음, **연결된 앱** 창에서 구성을 적용할 관리되는 앱을 선택하고 **확인**을 선택합니다.
+8.  **구성 정책 추가** 창서 **구성 설정**을 선택합니다.
 9. **구성 설정 형식**을 선택합니다. 다음 중 하나를 선택합니다.
     - **[구성 디자이너 사용](#use-configuration-designer)**
     - **[XML 데이터 입력](#enter-xml-data)**
-10. XML 정보를 추가했으면 **확인**을 선택한 다음, **추가**를 선택하여 구성 정책을 추가합니다. 구성 정책에 대한 개요 블레이드가 표시됩니다.
+10. XML 정보를 추가했으면 **확인**을 선택한 다음, **추가**를 선택하여 구성 정책을 추가합니다. 구성 정책에 대한 개요 창이 표시됩니다.
 11. **할당**을 선택하여 포함 및 제외 옵션을 표시합니다. 
 
-    ![정책 할당](./media/app-config-policy01.png)
+    ![정책 할당 포함 탭의 스크린샷](./media/app-config-policy01.png)
 12. **포함** 탭에서 **모든 사용자**를 선택합니다.
 
-    ![정책 할당 - 모든 사용자](./media/app-config-policy02.png)
+    ![정책 할당의 스크린샷 - 모든 사용자 드롭다운 옵션](./media/app-config-policy02.png)
 13. **제외** 탭을 선택합니다. 
-14. **제외할 그룹 선택**을 클릭하여 관련 블레이드를 표시합니다.
+14. **제외할 그룹 선택**을 클릭하여 관련 창을 표시합니다.
 
-    ![정책 할당 - 제외할 그룹 선택](./media/app-config-policy03.png)
+    ![정책 할당의 스크린샷 - 제외할 그룹 블레이드 선택](./media/app-config-policy03.png)
 15. 제외하려는 그룹을 클릭한 다음, **선택**을 클릭합니다.
 
     >[!NOTE]

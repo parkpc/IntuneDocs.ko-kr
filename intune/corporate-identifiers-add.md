@@ -1,7 +1,7 @@
 ---
 title: "Intune에 회사 식별자 추가"
-titlesuffix: Azure portal
-description: "Microsoft Intune에 회사 식별자(등록 방법, IMEI 및 일련 번호)를 추가하는 방법을 알아봅니다. \""
+titlesuffix: Microsoft Intune
+description: "Microsoft Intune에 회사 식별자(등록 방법, IMEI 및 일련 번호)를 추가하는 방법을 알아봅니다."
 keywords: 
 author: ErikjeMS
 ms.author: erikje
@@ -15,11 +15,11 @@ ms.assetid: 566ed16d-8030-42ee-bac9-5f8252a83012
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5b2be1f71887b7812ff17b69b679d54a920d3261
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 29c3d331cae06b0474fc3a2b31790719d99c678e
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="identify-devices-as-corporate-owned"></a>회사 소유의 장치 식별
 
@@ -72,7 +72,7 @@ Intune 관리자는 IMEI 번호 또는 일련 번호가 나열된 쉼표로 구�
 
 1. Azure Portal의 Intune에서 **장치 등록** > **회사 장치 식별자**를 선택한 다음 **추가**를 클릭합니다.
 
- ![추가 단추가 강조 표시된 회사 장치 식별자 작업 영역 스크린샷](./media/add-corp-id.png)
+ ![추가 단추가 강조 표시된 회사 장치 식별자 작업 영역](./media/add-corp-id.png)
 
 2. **식별자 추가** 블레이드에서 식별자 형식 **IMEI** 또는 **일련**을 지정합니다. 이전에 가져온 숫자가 **기존 식별자 세부 정보를 덮어쓸지**를 지정할 수 있습니다.
 
@@ -100,4 +100,4 @@ International Mobile Equipment Identifiers에 대한 자세한 사양은 [3GGPP 
 3. **속성**을 선택합니다.
 4. **장치 소유권**을 **개인** 또는 **회사**로 지정합니다.
 
-  ![장치 범주 및 장치 소유권 옵션을 보여 주는 장치 속성의 스크린 샷입니다.](./media/device-properties.png)
+  ![장치 범주 및 장치 소유권 옵션을 보여 주는 장치 속성](./media/device-properties.png)

@@ -1,25 +1,25 @@
 ---
-title: "iOS 장치 Single Sign-On용 Intune 구성"
-titlesuffix: Azure portal
-description: "iOS 장치 Single Sign-On용 Intune 구성 방법을 알아봅니다.\""
+title: "iOS 장치 Single Sign-On용 Microsoft Intune 구성"
+titlesuffix: 
+description: "iOS 장치 Single Sign-On용 Microsoft Intune을 구성하는 방법을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 12/7/2017
+ms.date: 3/2/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 07ac355232c1e4ac290c87191d3764e3df45327e
-ms.sourcegitcommit: 4509039cbfd4d450324a3475fb5841906720baa1
+ms.openlocfilehash: b11f2b3a560d33503e381f96804bfe5489fe367d
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="configure-intune-for-ios-device-single-sign-on"></a>iOS 장치 Single Sign-On용 Intune 구성
+# <a name="configure-microsoft-intune-for-ios-device-single-sign-on"></a>iOS 장치 Single Sign-On용 Microsoft Intune 구성
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -35,16 +35,16 @@ iOS 장치 Single Sign-On을 활용하려면 다음 조건이 있어야 합니�
 
 1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
-2. **장치 구성** 블레이드에서 **프로필**을 선택합니다.
-3. 프로필 블레이드에서 **프로필 만들기**를 선택하고 이름과 설명을 제공한 후 다음 설정을 구성합니다.
+3. **Intune** 페이지에서 **장치 구성**을 선택합니다.
+2. **장치 구성** 페이지에서 **프로필**을 선택합니다.
+3. 프로필 페이지에서 **프로필 만들기**를 선택하고 이름과 설명을 제공한 후 다음 설정을 구성합니다.
    - **플랫폼**: **iOS**를 선택합니다. 
    - **프로필 유형**: **장치 기능**을 선택합니다.
-4. **장치 기능** 블레이드에서 **Single Sign-On**을 선택합니다.
+4. **장치 기능** 페이지에서 **Single Sign-On**을 선택합니다.
 
-   ![Single Sign-On 블레이드](./media/sso-blade.png)
+   ![Single Sign-On 페이지](./media/sso-blade.png)
 
-2. 다음 요약표를 사용하여 **Single Sign-On** 블레이드의 필드를 채울 수 있습니다. 자세한 내용은 표 뒤에 있는 섹션을 참조하세요.
+2. 다음 요약표를 사용하여 **Single Sign-On** 페이지의 필드를 채울 수 있습니다. 자세한 내용은 표 뒤에 있는 섹션을 참조하세요.
    
    |필드  |참고|
    |---------|---------|
@@ -82,7 +82,7 @@ iOS 장치 Single Sign-On을 활용하려면 다음 조건이 있어야 합니�
 > [!NOTE]
 > 이러한 URL은 올바른 형식의 FQDN이어야 합니다. Apple에서는 `http://<yourURL.domain>` 형식의 FQDN이어야 합니다.
 
-URL 일치 패턴은 `http://` 또는 `https://`로 시작해야 합니다. 단순 문자열 일치가 수행되므로 URL 접두사 `http://www.contoso.com/`은 `http://www.contoso.com:80/`과 일치하지 않습니다. 그러나 iOS 9.0 이상에서는 단일 와일드카드 *를 사용하여 일치하는 모든 값을 지정할 수 있습니다. 예를 들어 `http://*.contoso.com/`은 `http://store.contoso.com/` 및 `http://www.contoso.com` 둘 다와 일치합니다.
+URL 일치 패턴은 `http://` 또는 `https://`로 시작해야 합니다. 단순 문자열 일치가 수행되므로 URL 접두사 `http://www.contoso.com/`은 `http://www.contoso.com:80/`과 일치하지 않습니다. 그러나 iOS 9.0 이상에서는 단일 와일드카드 \*를 사용하여 일치하는 모든 값을 지정할 수 있습니다. 예를 들어 `http://*.contoso.com/`은 `http://store.contoso.com/` 및 `http://www.contoso.com` 둘 다와 일치합니다.
 `http://.com` 및 `https://.com` 패턴은 각각 모든 HTTP 및 HTTPS URL과 일치합니다.
 
 ### <a name="apps-that-will-use-single-sign-on"></a>Single Sign-On을 사용할 앱

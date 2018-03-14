@@ -1,7 +1,7 @@
 ---
-title: "Intune에서 장치 범주를 사용하는 방법"
-titleSuffix: Azure portal
-description: "Intune에서 장치를 등록할 때 사용자가 선택할 수 있는 장치 범주를 사용하는 방법을 알아봅니다.\""
+title: "Intune에서 장치를 그룹으로 분류하는 방법"
+titleSuffix: Microsoft Intune
+description: "장치를 보다 쉽게 관리하도록 그룹으로 분류하는 방법을 알아봅니다."
 keywords: 
 author: ErikjeMS
 ms.author: erikje
@@ -14,13 +14,13 @@ ms.technology:
 ms.assetid: 7b668c37-40b9-4c69-8334-5d8344e78c24
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e1200ce4ab5d24f8c9212c064961a167e0ec6c42
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 416ce4fb671494efabf805595426f25d027d256e
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
-# <a name="map-device-groups"></a>장치 그룹 매핑
+# <a name="categorize-devices-into-groups-for-easier-management"></a>장치를 보다 쉽게 관리하도록 그룹으로 분류하기
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -41,11 +41,11 @@ ms.lasthandoff: 01/25/2018
 ## <a name="how-to-configure-device-categories"></a>장치 범주를 구성하는 방법
 
 ### <a name="step-1---create-device-categories-in-the-intune-blade-of-the-azure-portal"></a>1단계 - Azure Portal의 Intune 블레이드에서 장치 범주 만들기
-1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1. [Azure Portal](https://portal.azure.com)에서 **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 블레이드에서 **장치 등록**을 선택합니다.
 3. **장치 등록** 블레이드에서 **장치 범주**를 선택합니다.
 4. **장치 범주** 페이지에서 **만들기**를 선택하여 새 범주를 추가합니다.
-5. 다음 블레이드에서 새 범주의 **이름** 및 선택적 **설명**을 입력합니다.
+5. **장치 범주 만들기** 블레이드에서 새 범주의 **이름** 및 선택적 **설명**을 입력합니다.
 6. 완료되면 **만들기**를 클릭합니다. 범주 목록에서 새 범주를 확인할 수 있습니다.
 
 2단계에서 Azure Active Directory 보안 그룹을 만들 때 장치 범주 이름을 사용합니다.
@@ -61,27 +61,29 @@ ms.lasthandoff: 01/25/2018
 
 ### <a name="how-to-view-the-categories-of-devices-you-manage"></a>관리하는 장치의 범주를 확인하는 방법
 
-1.  Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1.  [Azure Portal](https://portal.azure.com)에서 **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 
-2. Azure Portal의 Intune 블레이드에서 **장치 및 그룹**을 선택합니다.
+2. Azure Portal의 Intune 블레이드에서 **장치**를 선택합니다.
 
 3.  **관리** 아래에서 **모든 장치**를 클릭합니다.
 
-4.  장치 목록에서 **범주** 열을 확인합니다.
+4.  장치 목록에서 **장치 범주** 열을 확인합니다.
 
-**범주** 열이 표시되지 않으면 **열**을 클릭하고 목록에서 **범주**를 선택한 다음 **적용**을 클릭합니다.
+**장치 범주** 열이 표시되지 않으면 **열**을 클릭하고 목록에서 **장치 범주**를 선택한 다음, **적용**을 클릭합니다.
 
 ### <a name="to-change-the-category-of-a-device"></a>장치의 범주를 변경하려면
 
-1. Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 및 그룹**을 선택합니다.
-4. **장치 및 그룹** 블레이드에서 **관리** > **모든 장치**를 선택합니다.
-5. 장치 목록에서 원하는 장치를 선택하고 장치 속성 블레이드에서 **관리** > **속성**을 선택합니다.
+1. [Azure Portal](https://portal.azure.com)에서 **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 블레이드에서 **장치**를 선택합니다.
+4. **관리** 섹션 아래 **장치** 블레이드에서 **모든 장치**를 선택합니다.
+5. 장치 목록에서 원하는 장치를 선택하고 **관리** 섹션 아래 장치 속성 블레이드에서 **속성**을 선택합니다.
 6. 다음 블레이드에서 선택한 장치의 **장치 범주**를 이전에 구성한 범주 이름으로 변경할 수 있습니다.
 
 ## <a name="after-you-configure-device-groups"></a>장치 그룹 구성 후
 
 iOS 및 Android 장치의 최종 사용자는 해당 장치를 등록할 경우 구성된 범주 목록에서 범주를 선택해야 합니다. 범주를 선택하고 등록을 완료한 후에 이 장치는 선택한 범주에 해당하는 Intune 장치 그룹 또는 Active Directory 보안 그룹에 추가됩니다.
+
+Windows에서 최종 사용자가 회사 포털 웹 사이트를 사용해 범주를 선택해야 합니다.
 
 최종 사용자는 플랫폼과 관계없이 장치를 등록한 후 언제든지 toportal.manage.microsoft.com으로 이동할 수 있습니다. 사용자가 회사 포털 웹 사이트에 액세스하여 **내 장치**로 이동하게 합니다. 페이지에 나열되어 있는 등록된 장치를 선택하고 범주를 선택할 수 있습니다.
 

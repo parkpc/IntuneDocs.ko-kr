@@ -1,12 +1,12 @@
 ---
 title: "Android for Work 장치에 앱 할당"
-titlesuffix: Azure portal
-description: "이 항목의 정보를 참조 앱을 동기화한 다음 Google Play for Work 스토어에서 Android for Work 장치에 할당합니다.\""
+titlesuffix: Microsoft Intune
+description: "Google Play for Work 스토어에서 Android for Work 장치에 앱을 동기화하고 할당하는 방법을 이해합니다."
 keywords: 
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 06/13/2017
+ms.date: 01/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,17 @@ ms.assetid: 2f6c06bf-e29a-4715-937b-1d2c7cf663d4
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 248dcc978b5324733d5d640230aba2b6db1a2c62
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 6a0b488120ed62031f8af5b8b65d9e90ea6d252b
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="how-to-assign-apps-to-android-for-work-devices-with-intune"></a>Intune으로 Android for Work 장치에 앱을 할당하는 방법
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-표준 Android 장치에 할당하던 방식과 다른 방법으로 Android for Work 장치에 앱을 할당합니다. Android for Work에 대해 설치하는 모든 앱은 Google Play for Work 스토어에서 받습니다. 스토어에 로그온하여 원하는 앱을 찾아본 다음 승인합니다.
-그러면 앱이 Azure Portal의 **사용이 허가된 앱** 노드에 나타납니다. 여기에서 다른 앱을 할당하는 방식과 동일하게 앱 할당을 관리할 수 있습니다.
+Android for Work는 Android 장치용 프로그램입니다. Android for Work 장치에 설치하는 모든 앱은 Google Play for Work 스토어에서 받습니다. 표준 Android 장치에 할당하던 방식과 다른 방법으로 Android for Work 장치에 앱을 할당합니다. 스토어에 로그온하여 원하는 앱을 찾아본 다음 승인합니다. 그러면 앱이 Azure Portal의 **사용이 허가된 앱** 노드에 나타납니다. 여기에서 다른 앱을 할당하는 방식과 동일하게 앱 할당을 관리할 수 있습니다.
 
 또한 고유한 LOB(기간 업무) 앱을 만든 경우 다음과 같이 할당할 수 있습니다.
 - Google Play 스토어의 개인 영역에 앱을 게시할 수 있는 Google 개발자 계정에 등록합니다.

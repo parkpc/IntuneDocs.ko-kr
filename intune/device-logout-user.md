@@ -1,10 +1,10 @@
 ---
-title: "Intune을 사용하여 iOS 장치의 사용자 로그아웃"
-titlesuffix: Azure portal
+title: "iOS 장치의 사용자 로그아웃"
+titlesuffix: Microsoft Intune
 description: "Intune을 사용하여 iOS 장치의 현재 사용자를 로그아웃하는 방법을 알아봅니다.\""
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 07/13/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 702bc46c-1a6f-4689-bd53-3b778a447baa
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5e59eee3660f56fdd967237563e69324b8307e3a
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 9474a144abd02a807658af9bf243c8764089b5de
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="logout-the-current-user-on-intune-managed-ios-devices"></a>Intune 관리 iOS 장치에서 현재 사용자 로그아웃
 

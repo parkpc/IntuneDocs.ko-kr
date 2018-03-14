@@ -1,7 +1,7 @@
 ---
-title: "Intune VPN 설정을 구성하는 방법"
-titleSuffix: Azure portal
-description: "관리하는 장치에서 Intune을 사용하여 VPN 연결을 구성하는 방법을 알아봅니다.\""
+title: "Microsoft Intune에서 VPN 설정을 구성하는 방법"
+titleSuffix: 
+description: "관리하는 장치에서 Microsoft Intune을 사용하여 VPN(가상 사설 네트워크) 연결을 구성하는 방법을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 772b7f025adc7ae80d0f14c5c630209c4c7529b2
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: feba7e7dc3e88d7d9beefc548c20bf19fbba662d
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="how-to-configure-vpn-settings-in-microsoft-intune"></a>Microsoft Intune에서 VPN 설정을 구성하는 방법
 
@@ -48,7 +48,7 @@ VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전
 
 
 > [!IMPORTANT]
-> 장치에 할당된 VPN 프로필을 사용하려면 프로필에 적용 가능한 VPN 앱을 설치해야 합니다. [Microsoft Intune의 앱 관리란?](app-management.md) 항목의 정보를 참조하여 Intune을 사용해 앱을 할당할 수 있습니다.  
+> 장치에 할당된 VPN 프로필을 사용하려면 프로필에 적용 가능한 VPN 앱을 설치해야 합니다. [Microsoft Intune의 앱 관리란?](app-management.md) 아티클의 정보를 참조하여 Intune을 사용해 앱을 할당할 수 있습니다.  
 
 [사용자 지정 VPN 프로필 만들기](custom-vpn-profiles-create.md)의 URI 설정을 사용하여 사용자 지정 VPN 프로필을 만드는 방법을 알아봅니다.     
 
@@ -88,7 +88,7 @@ VPN 프로필에서는 다른 제조업체의 다양한 연결 형식과 프로�
 
 ### <a name="certificates"></a>인증서
 
-VPN 프로필을 만들 때 이전에 Intune에서 만든 SCEP 또는 PKCS 인증서 프로필을 선택합니다. ID 인증서라고 합니다. 사용자 장치의 연결 허용을 설정하기 위해 만든 신뢰할 수 있는 인증서 프로필(또는 *루트 인증서*)에 대해 인증하는 데 사용됩니다. 신뢰할 수 있는 인증서는 VPN 연결을 인증하는 컴퓨터(대개 VPN 서버)에 할당됩니다.
+VPN 프로필을 만들 때 이전에 Intune에서 만든 SCEP 또는 PKCS 인증서 프로필을 선택합니다. 이 프로필은 ID 인증서라고 합니다. 사용자 장치의 연결 허용을 설정하기 위해 만든 신뢰할 수 있는 인증서 프로필(또는 *루트 인증서*)에 대해 인증하는 데 사용됩니다. 신뢰할 수 있는 인증서는 VPN 연결을 인증하는 컴퓨터(대개 VPN 서버)에 할당됩니다.
 
 Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자세한 내용은 [Microsoft Intune을 사용하여 인증서를 구성하는 방법](certificates-configure.md)을 참조하세요.
 

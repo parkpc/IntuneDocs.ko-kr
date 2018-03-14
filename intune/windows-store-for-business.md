@@ -3,10 +3,10 @@ title: "비즈니스용 Microsoft 스토어에서 앱 관리"
 titlesuffix: Azure portal
 description: "비즈니스용 Microsoft 스토어에서 Intune에 앱을 동기화한 다음 할당 및 추적하는 방법을 알아봅니다.\""
 keywords: 
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/20/2017
+ms.date: 02/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 2ed5d3f0-2749-45cd-b6bf-fd8c7c08bc1b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 85141fc6f4d71994f575233c255a97e336c92108
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 4460924b3e53a9540ff21aa009a0c028de92f26f
+ms.sourcegitcommit: 1978a30ab1af0f43aa5f447690d0bbcdcb9b563b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="how-to-manage-apps-you-purchased-from-the-microsoft-store-for-business-with-microsoft-intune"></a>Microsoft Intune을 사용하여 비즈니스용 Microsoft 스토어에서 구입한 앱을 관리하는 방법
 
@@ -39,12 +39,15 @@ ms.lasthandoff: 01/25/2018
 
 - Intune을 조직에 대한 모바일 장치 관리 기관으로 구성합니다.
 - 비즈니스용 Microsoft 스토어에서 계정을 등록해야 합니다.
-- Windows 업무용 스토어 계정을 Intune과 연결한 후 나중에 다른 계정으로 변경할 수 없습니다.
+- Microsoft 비즈니스 스토어 계정을 Intune과 연결한 후에는 나중에 다른 계정으로 변경할 수 없습니다.
 - 스토어에서 구입한 앱을 Intune에 수동으로 추가하거나 Intune에서 삭제할 수 없습니다. 비즈니스용 Microsoft 스토어와만 동기화할 수 있습니다.
-- Intune은 비즈니스용 Microsoft 스토어에서 구매한 온라인 및 오프라인 사용이 허가된 앱을 둘 다 동기화합니다.
-- 무료 오프라인 앱만 Intune에 동기화할 수 있습니다.
+- 비즈니스용 Microsoft 스토어에서 구매한 온라인 및 오프라인 사용이 허가된 앱은 Intune Portal에 동기화됩니다. 그런 다음 이러한 앱을 장치 그룹 또는 사용자 그룹에 배포할 수 있습니다. 
+- 온라인 앱 설치는 스토어에서 관리합니다.
+- 무료 오프라인 앱도 Intune에 동기화할 수 있습니다. 이런 앱은 스토어가 아닌 Intune을 통해 설치됩니다.
 - 이 기능을 사용하려면 장치가 Active Directory Domain Services에 가입하거나 작업 공간에 연결되어 있어야 합니다.
 - 등록된 장치가 1511 릴리스의 Windows 10 이상을 사용 중이어야 합니다.
+
+또한 비즈니스용 Microsoft 스토어에서 동기화된 오프 라인 사용이 허가된 앱 및 관련 집합은 이제 UI에서 단일 앱 항목으로 통합되게 됩니다. 개별 패키지에서의 모든 배포 세부 정보는 단일 항목으로 마이그레이션됩니다. Azure Portal에서 관련 집합을 보려면 **모바일 앱** 블레이드에서 **앱 라이선스**를 선택합니다.
 
 ## <a name="associate-your-microsoft-store-for-business-account-with-intune"></a>비즈니스용 Microsoft 스토어 계정을 Intune에 연결
 Intune 콘솔에서 동기화를 사용하기 전에 관리 도구로 Intune을 사용하도록 스토어 계정을 구성해야 합니다.
@@ -62,11 +65,12 @@ Intune 콘솔에서 동기화를 사용하기 전에 관리 도구로 Intune을 
 1. Azure 포털에 로그인합니다.
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
-1. **Mobile Apps** 블레이드에서 **설치** > **비즈니스용 Microsoft 스토어**를 선택합니다.
-2. **사용**을 클릭합니다.
-3. 아직 수행하지 않은 경우에는 링크를 클릭하여 비즈니스용 Microsoft 스토어에 등록하고 이전에 설명된 대로 계정을 연결합니다.
-5. **언어** 드롭다운 목록에서 비즈니스용 Microsoft 스토어의 앱이 Azure Portal에 표시되는 언어를 선택합니다. 표시되는 언어에 관계없이 사용 가능한 경우 최종 사용자의 언어로 설치됩니다.
-6. **동기화**를 클릭하여 Microsoft 스토어에서 구입한 앱을 Intune으로 가져옵니다.
+4. **Mobile Apps** 블레이드에서 **설치** > **비즈니스용 Microsoft 스토어**를 선택합니다.
+5. **사용**을 클릭합니다.
+6. 아직 수행하지 않은 경우에는 링크를 클릭하여 비즈니스용 Microsoft 스토어에 등록하고 이전에 설명된 대로 계정을 연결합니다.
+7. **언어** 드롭다운 목록에서 비즈니스용 Microsoft 스토어의 앱이 Azure Portal에 표시되는 언어를 선택합니다. 표시되는 언어에 관계없이 사용 가능한 경우 최종 사용자의 언어로 설치됩니다.
+8. **동기화**를 클릭하여 Microsoft 스토어에서 구입한 앱을 Intune으로 가져옵니다.
+9. **Save**을 클릭합니다.
 
 ## <a name="synchronize-apps"></a>앱 동기화
 

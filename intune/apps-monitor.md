@@ -1,12 +1,12 @@
 ---
 title: "앱 정보 및 할당을 모니터링하는 방법"
-titlesuffix: Azure portal
+titlesuffix: Microsoft Intune
 description: "사용자 또는 장치에 앱을 할당한 후 이 정보를 사용하여 해당 상태를 모니터링할 수 있습니다."
 keywords: 
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/21/2017
+ms.date: 01/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 64e5133d-1e23-4ee6-b556-f5d32c0e95da
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 85ecc9729d7c03cb760c14bda0ca4d6321af548e
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 6bd915093ae45ff0fc3d51a2d7279493bc783d43
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="how-to-monitor-app-information-and-assignments-with-microsoft-intune"></a>Microsoft Intune으로 앱 정보 및 할당을 모니터링 하는 방법
 
@@ -27,9 +27,9 @@ ms.lasthandoff: 01/25/2018
 
 Intune에서는 관리하는 앱 속성 및 해당 할당 상태를 모니터링할 수 있는 다양한 방법을 제공합니다.
 
-1. Azure Portal에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** + **Intune**을 선택합니다.
-3. **모바일 앱** 워크로드에서 **관리** 그룹의 **앱**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **모바일 앱**을 선택한 다음, **관리** 그룹에서 **앱**을 선택합니다.
 5. 앱 블레이드 목록에서 앱을 선택합니다. <*앱 이름*> **장치 설치 상태** 블레이드가 표시됩니다.
 
 ## <a name="app-overview-blade"></a>앱 개요 블레이드

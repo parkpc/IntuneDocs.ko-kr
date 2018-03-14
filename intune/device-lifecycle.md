@@ -1,26 +1,24 @@
 ---
-title: "MDM 수명 주기 개요"
+title: "Microsoft Intune MDM 수명 주기 개요"
 description: "Intune에서 등록부터 구성 및 최종 사용 중지에 이르는 수명 주기 동안 장치를 관리하는 데 어떤 도움을 주는지 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 06/07/2017
+ms.date: 3/2/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: f6051fa7-133f-4712-86a5-e5f5bc5ab3c7
-ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 46297080dcb332734b1e175a62e17c6c5666b469
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 8755faef07e6ddae2177a2fc2453e15f1ea0fefe
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="overview-of-the-mobile-device-management-mdm-lifecycle"></a>모바일 장치 관리(MDM) 수명 주기 개요
+# <a name="overview-of-the-microsoft-intune-mobile-device-management-mdm-lifecycle"></a>Microsoft Intune 모바일 장치 관리(MDM) 수명 주기 개요
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
@@ -39,7 +37,7 @@ ms.lasthandoff: 01/25/2018
 - [**Windows PC 관리 정책(Intune 클라이언트 소프트웨어 사용)**](/intune-classic/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client). Intune에 Windows PC를 등록하면 최상의 장치 관리 기능을 제공하며, 한편 Intune은 Intune 클라이언트 소프트웨어를 사용하여 Windows PC 관리를 계속 지원합니다. PC를 사용하여 수행할 수 있는 일부 작업에 대한 정보가 필요한 경우 여기서 시작하세요.
 
 ## <a name="protect"></a>보호
-최신 IT 세계에서 장치를 무단 액세스로부터 보호하는 것은 앞으로 수행할 매우 중요한 작업 중 하나입니다. 장치 수명 주기의 **구성** 단계에 있는 항목 외에 Intune은 관리하는 장치를 무단 액세스 또는 악의적인 공격으로부터 보호하도록 도와 주는 이러한 기능을 제공합니다.
+최신 IT 세계에서 장치를 무단 액세스로부터 보호하는 것은 수행하는 매우 중요한 작업 중 하나입니다. 장치 수명 주기의 **구성** 단계에 있는 항목 외에 Intune은 관리하는 장치를 무단 액세스 또는 악의적인 공격으로부터 보호하도록 도와 주는 이러한 기능을 제공합니다.
 - [**다단계 인증**](/intune-classic/deploy-use/protect-your-devices-with-microsoft-intune). 사용자 로그인에 추가적인 인증 계층을 추가하면 장치를 훨씬 더 안전하게 만드는 데 도움이 될 수 있습니다. 대부분의 장치는 사용자가 전화 통화 또는 문자 메시지와 같은 두 번째 인증 단계를 거쳐야만 액세스 권한을 획득할 수 있는 다단계 인증을 지원합니다.
 - [**비즈니스용 Windows Hello 설정**](windows-hello.md)([클래식 포털](/intune-classic/deploy-use/control-microsoft-passport-settings-on-devices-with-microsoft-intune)). 비즈니스용 Windows Hello는 사용자가 암호 필요 없이 지문 또는 Windows Hello 등과 같은 *제스처*를 사용여 로그인할 수 있도록 하는 대체 로그인 방법입니다.
 - [**Windows PC를 보호하기 위한 정책(Intune 클라이언트 소프트웨어 사용)**](/intune-classic/deploy-use/policies-to-protect-windows-pcs-in-microsoft-intune). Intune 클라이언트 소프트웨어를 사용하여 Windows PC를 관리하는 경우 관리하는 PC에서 Endpoint Protection, 소프트웨어 업데이트 및 Windows 방화벽에 대한 설정을 제어할 수 있는 정책을 사용할 수 있습니다.

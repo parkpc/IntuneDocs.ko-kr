@@ -1,27 +1,26 @@
 ---
-title: "iOS에 대한 Intune 장치 제한 설정"
-titleSuffix: Azure portal
-description: "iOS 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+title: "iOS에 대한 Microsoft Intune 장치 제한 설정"
+titleSuffix: 
+description: "iOS를 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 11/03/2017
+ms.date: 3/1/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 73590192-54ca-4833-9f1d-83e1b654399f
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b450becb45aea7ba5aa6ac2b6798e2062c08b4f2
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: bc53a7a6a4c961a649d01f23f30c59ff4dc90fe2
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
-# <a name="ios-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 iOS 장치 제한 설정
+# <a name="microsoft-intune-ios-device-restriction-settings"></a>Microsoft Intune iOS 장치 제한 설정
+이 아티클에서는 iOS를 실행하는 장치에 대해 구성할 수 있는 모든 Microsoft Intune 장치 제한 설정을 보여줍니다.
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -107,7 +106,7 @@ iOS 감독 모드는 Apple의 장치 등록 프로그램을 통하거나 Apple C
 - **암호 수정(감독 모드에만 해당)** - 암호 변경, 추가 또는 제거를 중지합니다.
     - **지문 수정(감독 모드에만 해당)** - 사용자의 TouchID 설정 변경, 추가 또는 제거를 중지합니다.
 
-<sup>1</sup> **화면이 잠기기 전까지 최대 비활성 시간(분)** 및 **화면 잠금 후 암호를 요구하기 전까지 최대 시간(분)**을 구성한 경우 순차적으로 적용됩니다. 예를 들어 두 설정 값을 모두 **5** 분으로 지정하면 5분 뒤 화면이 자동으로 꺼지고 이후 5분이 더 지나면 장치가 잠깁니다. 그러나 사용자가 화면을 수동으로 끄면 두 번째 설정이 즉시 적용됩니다. 동일한 예에서 사용자가 화면을 끄면 5분 뒤 장치가 잠깁니다.
+<sup>1</sup> **화면이 잠기기 전까지 최대 비활성 시간(분)** 및 **화면 잠금 후 암호를 요구하기 전까지 최대 시간(분)**을 구성한 경우 순차적으로 적용됩니다. 예를 들어 두 설정 값을 모두 **5**분으로 지정하면 5분 뒤 화면이 자동으로 꺼지고 이후 5분이 더 지나면 장치가 잠깁니다. 그러나 사용자가 화면을 수동으로 끄면 두 번째 설정이 즉시 적용됩니다. 동일한 예에서 사용자가 화면을 끄면 5분 뒤 장치가 잠깁니다.
 
 ## <a name="locked-screen-experience"></a>잠긴 화면 환경
 
@@ -169,7 +168,7 @@ iOS 감독 모드는 Apple의 장치 등록 프로그램을 통하거나 Apple C
 페이지 URL을 복사한 후 허용 또는 금지된 앱 목록이나 키오스크 모드에서 실행하려는 앱을 구성할 URL로 사용합니다.
 제한된 앱 설정이 포함된 장치 프로필을 사용자 그룹에 할당해야 합니다.
 
-예: iPad용 Microsoft Word를 검색합니다. 사용하는 URL은 https://itunes.apple.com/kr/app/microsoft-word-for-ipad/id586447913?mt=8이 됩니다.
+예: iPad용 Microsoft Word를 검색합니다. 사용하는 URL은 https://itunes.apple.com/kr/app/microsoft-word-for-ipad/id586447913?mt=8입니다.
 
 > [!Note]
 > 또한 iTunes를 사용하여 앱을 찾은 다음, **링크 복사** 명령을 사용하여 앱 URL을 가져올 수 있습니다.
@@ -182,7 +181,7 @@ iOS 감독 모드는 Apple의 장치 등록 프로그램을 통하거나 Apple C
 
 앱 표시 또는 숨기기 목록에서 다음 목록 중 하나를 구성할 수 있습니다(iOS 9.3 이상을 실행하는 감독된 장치 필요).
 
-**숨겨진 앱** 목록 - 사용자로부터 숨길 앱 목록을 지정합니다. 사용자는 이러한 앱을 보거나 시작할 수 없습니다.
+**숨겨진 앱** 목록 - 사용자로부터 숨겨진 앱 목록을 지정합니다. 사용자는 이러한 앱을 보거나 시작할 수 없습니다.
 **표시된 앱** 목록 - 사용자가 보고 시작할 수 있는 앱 목록을 지정합니다. 다른 앱은 보거나 시작할 수 없습니다.
 
 목록을 구성하려면 **추가**를 클릭한 다음 원하는 이름, 앱 게시자(선택 사항) 및 앱 스토어의 앱 URL을 지정합니다.
@@ -194,7 +193,7 @@ iOS 감독 모드는 Apple의 장치 등록 프로그램을 통하거나 Apple C
 검색 엔진을 사용하여 iTunes 앱 스토어에서 사용할 앱을 찾고 앱 페이지를 엽니다.
 페이지 URL을 복사한 후 허용 또는 금지된 앱 목록이나 키오스크 모드에서 실행하려는 앱을 구성할 URL로 사용합니다.
 
-예: iPad용 Microsoft Word를 검색합니다. 사용하는 URL은 https://itunes.apple.com/kr/app/microsoft-word-for-ipad/id586447913?mt=8이 됩니다.
+예: iPad용 Microsoft Word를 검색합니다. 사용하는 URL은 https://itunes.apple.com/kr/app/microsoft-word-for-ipad/id586447913?mt=8입니다.
 
 > [!Note]
 > 또한 iTunes 소프트웨어를 사용하여 앱을 찾은 후 **링크 복사** 명령으로 앱 URL을 가져올 수 있습니다.
@@ -240,7 +239,7 @@ iOS 감독 모드는 Apple의 장치 등록 프로그램을 통하거나 Apple C
 -   **iCloud에 문서 동기화(감독 모드인 경우에만)** - iCloud 저장소 공간에 대한 문서 및 키 값 동기화를 허용합니다.
 -   **iCloud에 사진 스트림 동기화** - iCloud에 대한 사진 동기화를 허용하는 장치에서 **내 사진 스트림**을 지원할 수 있으며 모든 사용자 장치에서 사용 가능합니다.
 -   **암호화된 백업** - 모든 장치 백업을 암호화해야 합니다.
--   **iCloud 사진 라이브러리** - **아니요**로 설정하면 사용자가 클라우드에 사진과 비디오를 저장할 수 있는 iCloud 사진 보관함을 사용할 수 없게 됩니다.    **아니요**로 설정되면 iCloud 사진 라이브러리에서 장치로 완전히 다운로드되지 않은 모든 사진이 장치에서 제거됩니다.
+-   **iCloud 사진 라이브러리** - **아니요**로 설정하면 사용자가 클라우드에 사진과 비디오를 저장할 수 있는 iCloud 사진 보관함을 사용할 수 없게 됩니다.   **아니요**로 설정되면 iCloud 사진 라이브러리에서 장치로 완전히 다운로드되지 않은 모든 사진이 장치에서 제거됩니다.
 -   **클라우드로 관리되는 앱 동기화** - Intune을 사용하여 관리하는 앱에서 데이터를 사용자의 iCloud 계정과 동기화하도록 허용합니다.
 -   **공유 사진 스트림** - 장치에서 **iCloud 사진 공유**를 사용하지 않으려면 **아니요**로 설정합니다.
 -   **활동 연속** - 사용자가 특정 iOS 장치에서 시작한 작업을 다른 iOS 장치나 macOS 장치에서 계속할 수 있습니다.
@@ -343,7 +342,7 @@ iOS 감독 모드는 Apple의 장치 등록 프로그램을 통하거나 Apple C
 
 ### <a name="unmarked-email-domains"></a>표시되지 않은 전자 메일 도메인
 
-**전자 메일 도메인 URL** 필드에서 하나 이상의 URL을 목록에 추가합니다. 최종 사용자가 구성한 도메인이 아닌 다른 도메인에서 전자 메일을 받으면 전자 메일은 iOS 메일 앱에서 신뢰할 수 없는 메일로 표시됩니다.
+**전자 메일 도메인 URL** 필드에서 하나 이상의 URL을 목록에 추가합니다. 최종 사용자가 구성한 도메인이 아닌 다른 도메인에서 받은 이메일은 iOS 메일 앱에서 신뢰할 수 없는 이메일로 표시됩니다.
 
 
 ### <a name="managed-web-domains"></a>관리되는 웹 도메인

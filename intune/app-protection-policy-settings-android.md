@@ -1,12 +1,12 @@
 ---
 title: "Android 앱 보호 정책 설정"
-titlesuffix: Azure portal
-description: "이 항목에서는 Android 장치에 대한 앱 보호 정책 설정을 설명합니다.\""
+titlesuffix: Microsoft Intune
+description: "이 항목에서는 Android 장치에 대한 앱 보호 정책 설정을 설명합니다."
 keywords: 
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/15/2018
+ms.date: 02/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ms.assetid: 9e9ef9f5-1215-4df1-b690-6b21a5a631f8
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 10c09b4669371fbb61ad4d30f44fcaf5e2db3482
-ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
+ms.openlocfilehash: 330826307e4f3db24532908d42da77a1a857a681
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="android-app-protection-policy-settings"></a>Android 앱 보호 정책 설정
-이 항목에서 설명하는 정책 설정은 Azure Portal의 **설정** 블레이드에서 앱 보호 정책에 대해 [구성](app-protection-policies.md)될 수 있습니다.
+이 항목에서는 Android 장치에 대한 앱 보호 정책 설정을 설명합니다. 설명하는 정책 설정은 Azure Portal의 **설정** 블레이드에서 앱 보호 정책에 대해 [구성](app-protection-policies.md)될 수 있습니다.
 데이터 재배치 설정 및 액세스 설정의 두 가지 정책 설정 범주가 있습니다. 이 항목에서 *정책 관리 앱*이라는 용어는 앱 보호 정책을 사용하여 구성된 앱을 나타냅니다.
 
 ##  <a name="data-relocation-settings"></a>데이터 재배치 설정
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/19/2018
 | Setting | 사용 방법 | 기본값 |
 |------|------|------|
 | **Android 백업 차단** | 이 앱에서 회사 또는 학교 데이터를 [Android 백업 서비스](https://developer.android.com/google/backup/index.html)로 백업하지 않도록 하려면 **예**를 선택하고 이 앱에서 회사 또는 학교 데이터를 백업할 수 있도록 하려면 **아니요**를 선택합니다.| 예 |
-| **앱이 다른 앱으로 데이터를 전송하도록 허용** | 이 앱에서 데이터를 받을 수 있는 앱을 지정합니다. <ul><li> **정책 관리 앱**: 다른 정책 관리 앱으로만 데이터를 전송하도록 허용합니다.</li> <li>**모든 앱**: 모든 앱으로의 전송을 허용합니다. </li> <li>**없음**: 다른 정책 관리 앱을 포함한 모든 앱에 대한 데이터 전송을 허용하지 않습니다.</li></ul> <p>예외적으로 Intune에서 데이터를 전송할 수 있는 몇 가지 앱 및 서비스가 있습니다. 전체 앱 및 서비스 목록은 [데이터 전송 예외](#Data-transfer-exemptions)를 참조하세요.<p>**참고:** Intune은 Android 인스턴트 앱 기능을 현재 지원하지 않습니다. Intune은 앱 간에 모든 데이터 연결을 차단합니다.  [Android 인스턴트 앱](https://developer.android.com/topic/instant-apps/index.html)에 대한 자세한 내용은 Android 개발자 설명서를 참조하세요.</p>| 모든 앱 |
+| **앱이 다른 앱으로 데이터를 전송하도록 허용** | 이 앱에서 데이터를 받을 수 있는 앱을 지정합니다. <ul><li> **정책 관리 앱**: 다른 정책 관리 앱으로만 데이터를 전송하도록 허용합니다.</li> <li>**모든 앱**: 모든 앱으로의 전송을 허용합니다. </li> <li>**없음**: 다른 정책 관리 앱을 포함한 모든 앱에 대한 데이터 전송을 허용하지 않습니다.</li></ul> <p>Intune에서 기본적으로 데이터를 전송할 수 있는 몇 가지 예외적인 앱 및 서비스가 있습니다. 또한, Intune APP을 지원하지 않는 앱에 전송될 데이터를 허용해야 하는 경우 사용자만의 예외를 만들 수 있습니다. 자세한 내용은 [데이터 전송 예외](#Data-transfer-exemptions)를 참조합니다.<p>**참고:** Intune은 Android 인스턴트 앱 기능을 현재 지원하지 않습니다. Intune은 앱 간에 모든 데이터 연결을 차단합니다.  [Android 인스턴트 앱](https://developer.android.com/topic/instant-apps/index.html)에 대한 자세한 내용은 Android 개발자 설명서를 참조하세요.</p>| 모든 앱 |
 | **앱이 다른 앱의 데이터를 받도록 허용** | 이 앱에 데이터를 전송할 수 있는 앱을 지정합니다. <ul><li>**정책 관리 앱**: 다른 정책으로 관리된 앱에서만 데이터를 전송하도록 허용합니다.</li><li>**모든 앱**: 모든 앱의 데이터 전송을 허용합니다.</li><li>**없음**: 다른 정책 관리 앱을 포함한 모든 앱에서의 데이터 전송을 허용하지 않습니다. </li></ul> <p>예외적으로 intune이 데이터를 전송받을 수 있는 몇 가지 앱 및 서비스가 있습니다. 전체 앱 및 서비스 목록은 [데이터 전송 예외](#Data-transfer-exemptions)를 참조하세요. | 모든 앱 |
 | **"다른 이름으로 저장" 차단** | 이 앱에서 다른 이름으로 저장 옵션을 사용할 수 없도록 설정하려면 **예**를 선택합니다. 다른 이름으로 저장을 사용할 수 있도록 설정하려면 **아니요**를 선택합니다. <p><br>**회사 데이터를 저장할 저장소 서비스 선택** <br>사용자는 비즈니스용 OneDrive, SharePoint, 로컬 저장소 등의 선택한 서비스에 데이터를 저장할 수 있습니다. 기타 서비스는 모두 차단됩니다.</p> | 아니요 <br><br> 0개 선택됨 |
 | **다른 앱에서 잘라내기, 복사 및 붙여넣기 제한** | 이 앱에서 잘라내기, 복사 및 붙여넣기 동작을 사용할 수 있는 경우를 지정합니다. 다음 중에서 선택합니다. <ul><li>**차단됨**: 이 앱과 다른 앱 간에 잘라내기, 복사 및 붙여넣기 작업을 허용하지 않습니다.</li><li>**정책 관리 앱**: 이 앱과 다른 정책 관리 앱 간에만 잘라내기, 복사 및 붙여넣기 작업을 허용합니다.</li><li>**정책 관리 앱에 붙여넣기**: 이 앱과 다른 정책 관리 앱 간에 잘라내기 또는 복사를 허용합니다. 모든 앱의 데이터를 이 앱에 붙여넣을 수 있습니다.</li><li>**모든 앱**: 이 앱과 다른 앱 간의 잘라내기, 복사 및 붙여넣기에 대한 제한이 없습니다. | 모든 앱 |
@@ -73,7 +73,7 @@ ms.lasthandoff: 02/19/2018
   | com.android.providers.media | Android 미디어 콘텐츠 공급자 | 미디어 콘텐츠 공급자는 벨소리 선택 작업에 대해서만 허용됩니다. |
   | com.google.android.gms; com.google.android.gsf | Google Play 서비스 패키지 | 이러한 패키지는 푸시 알림 등의 Google Cloud Messaging 작업에 대해서 허용됩니다. |
 
-
+자세한 내용은 [앱에 대한 데이터 전송 정책 예외](app-protection-policies-exception.md)를 참조합니다. 
 
 ##  <a name="access-settings"></a>액세스 설정
 

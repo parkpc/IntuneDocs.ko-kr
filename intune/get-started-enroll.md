@@ -1,10 +1,10 @@
 ---
-title: "장치 등록 시작"
-titlesuffix: Azure portal
+title: "IOS 장치 등록 경험 이해"
+titlesuffix: Microsoft Intune
 description: "iOS 장치의 전체 등록 과정을 안내하여 등록 과정을 알아봅니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 10/31/2017
 ms.topic: article
@@ -15,13 +15,13 @@ ms.assetid: b595848d-c451-43ab-812d-b22e0170fb7a
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3818556f300821fb9acaa260300ae683f43b13e3
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 18a3225ef81d7f13b8656326540e30cf5ee07f1e
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="get-started-enrolling-devices"></a>장치 등록 시작
+# <a name="understand-the-users-experience-enrolling-an-ios-device"></a>IOS 장치를 등록하는 사용자의 경험 이해
 
 Microsoft Intune을 사용하면 회사 데이터 보호를 유지하면서 직원들이 모바일 장치를 이용할 수 있습니다. 최종 사용자는 관리 콘솔보다 해당 장치에서 Intune을 조작하기 때문에 등록 환경을 숙지하는 것이 좋습니다. 그러면 잘 작성된 준수 정책과 경험을 결합하여 사용자에 대한 공감을 표시할 수 있습니다. 이는 특히 관리자가 볼 수 있는 정보를 사용자가 정확히 알게 되기 때문에 중요합니다.
 

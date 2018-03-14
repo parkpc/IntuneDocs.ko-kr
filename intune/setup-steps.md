@@ -1,9 +1,9 @@
 ---
-title: "Intune 설정"
+title: "Microsoft Intune 설정"
 description: "Intune 구독 사용을 시작하기 위한 요구 사항 및 필수 구성 요소"
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 01/24/2018
 ms.topic: get-started-article
@@ -14,17 +14,17 @@ ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a1203cf22fad93f245508284d93024df40e11b9a
-ms.sourcegitcommit: 4509039cbfd4d450324a3475fb5841906720baa1
+ms.openlocfilehash: d2abd140dc83cffa11777ab75f7fb40e76fc1b83
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="set-up-intune"></a>Intune 설정
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
-이러한 설정 단계를 MDM(모바일 장치 관리)을 사용하도록 설정할 수 있습니다. 사용자에게 회사 리소스에 대한 액세스 권한을 부여하거나 해당 장치에서 설정을 관리할 수 있으려면 먼저 장치가 관리되어야 합니다.
+이러한 설정 단계는 Intune을 이용하여 MDM(모바일 장치 관리)을 사용하도록 할 수 있습니다. 사용자에게 회사 리소스에 대한 액세스 권한을 부여하거나 해당 장치에서 설정을 관리할 수 있으려면 먼저 장치가 관리되어야 합니다.
 
 Intune 구독 설정 및 MDM 기관 설정과 같은 일부 단계는 대부분의 시나리오에 필요합니다. 사용자 지정 도메인 구성 또는 앱 추가와 같은 다른 단계는 회사의 요구 사항에 따라 적용할 수 있는 선택 사항입니다.
 

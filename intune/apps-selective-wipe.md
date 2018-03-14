@@ -1,12 +1,12 @@
 ---
 title: "앱에서 회사 데이터만 초기화하는 방법"
-titleSuffix: Azure portal
-description: "Microsoft Intune을 사용하여 앱을 선택적으로 초기화하는 방법을 알아봅니다.\""
+titleSuffix: Microsoft Intune
+description: "Microsoft Intune을 사용하여 앱을 선택적으로 초기화하는 방법을 알아봅니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: Erikre
+ms.author: erikre
 manager: dougeby
-ms.date: 12/05/2017
+ms.date: 01/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 42605e6e-5b84-44ff-b86e-346ea123b53e
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7a9690e75e0d0dced9ad30951b0178685813eeae
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: dfd1b37c1b944a545234b93b44d651ead8f0f486
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="how-to-wipe-only-corporate-data-from-intune-managed-apps"></a>Intune 관리 앱에서 회사 데이터만 초기화하는 방법
 
@@ -39,21 +39,23 @@ ms.lasthandoff: 01/25/2018
 
 1.  [Azure 포털](https://portal.azure.com)에 로그인합니다.
 
-2.  **추가 서비스**를 선택하고 필터 텍스트 상자에 **Intune**을 입력한 후 **Intune**을 선택합니다. Intune 블레이드가 열리면 **모바일 앱** 블레이드를 선택합니다.
+2.  **추가 서비스**를 선택하고 필터 텍스트 상자에 **Intune**을 입력한 후 **Intune**을 선택합니다. Intune 블레이드를 엽니다. **모바일 앱**을 선택합니다.
 
     ![Microsoft Intune 블레이드 스크린샷](./media/apps-selective-wipe01.png)
 
 3.  **모바일 앱 블레이드**에서 **앱 선택적 초기화**를 선택합니다.
 
-4.  **새 초기화 요청**을 선택합니다. **새 초기화 요청** 블레이드가 열립니다.
+4.  **새 초기화 요청**을 선택합니다. **새 초기화 요청** 창이 열립니다.
 
-    ![새 초기화 요청 블레이드의 스크린샷](./media/AzurePortal_MAM_NewWipeRequest.png)
+    ![새 초기화 요청 창의 스크린샷](./media/AzurePortal_MAM_NewWipeRequest.png)
 
 5.  **사용자**를 선택하여 **사용자** 블레이드를 열고 초기화하려는 앱 데이터의 사용자를 선택합니다.
 
-6.  그런 다음 **새 초기화 요청** 블레이드에서 **장치**를 선택합니다. 선택한 사용자와 연결된 모든 장치를 나열하고 장치 이름(사용자가 정의한 이름) 및 장치 유형, 장치 플랫폼의 두 열도 제공하는 **장치 선택** 블레이드가 열립니다. 초기화하려는 장치를 선택합니다.
+6.  그런 다음 **새 초기화 요청** 블레이드에서 **장치**를 선택합니다. 이 아티클은 **장치 선택** 블레이드를 엽니다. 선택한 사용자와 연결된 모든 장치를 나열합니다. 또한 이 창에서는 사용자가 정의한 친숙한 이름인 장치 이름과 장치 플랫폼을 지정하는 장치 유형을 제공합니다. 
 
-7.  이제 **새 초기화 요청** 블레이드로 전환됩니다. 초기화 요청을 수행하려면 **확인**을 클릭합니다.
+7. 목록에서 초기화하려는 장치를 선택합니다.
+
+8.  이제 **새 초기화 요청** 블레이드로 전환됩니다. 초기화 요청을 수행하려면 **확인**을 클릭합니다.
 
 서비스에서 장치의 각 보호된 앱 및 초기화 요청과 연결된 사용자에 대해 별도의 초기화 요청을 만들고 추적합니다.
 
@@ -63,7 +65,7 @@ ms.lasthandoff: 01/25/2018
 
 1.  **모바일 앱 - 앱 선택적 초기화** 블레이드에서 사용자별로 그룹화된 요청 목록을 확인할 수 있습니다. 시스템에서는 장치에서 실행 중인 각각의 보호된 앱에 대해 초기화 요청을 생성하므로 한 사용자에 대해 여러 요청이 표시될 수 있습니다. 상태를 통해 초기화 요청이 **보류 중**인지, **실패**했는지 아니면 **성공**했는지 확인할 수 있습니다.
 
-    ![앱 선택적 초기화 블레이드의 초기화 요청 상태 스크린샷](./media/wipe-request-status-1.png)
+    ![앱 선택적 초기화 창의 초기화 요청 상태 스크린샷](./media/wipe-request-status-1.png)
 
 또한 장치 이름과 장치 유형을 볼 수 있습니다. 이는 보고서를 읽을 때 유용합니다.
 
@@ -72,13 +74,13 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="delete-a-wipe-request"></a>초기화 요청 삭제
 
-보류 중 상태의 초기화는 수동으로 삭제할 때까지 표시됩니다.  초기화 요청을 수동으로 삭제하려면
+보류 중 상태의 초기화는 수동으로 삭제할 때까지 표시됩니다. 초기화 요청을 수동으로 삭제하려면
 
-1.  **모바일 앱 - 앱 선택적 초기화** 블레이드에서 다음을 수행합니다.
+1.  **모바일 앱 - 앱 선택적 초기화** 블레이드를 엽니다.
 
 2.  목록에서 삭제하려는 초기화 요청을 마우스 오른쪽 단추로 클릭하고 **초기화 요청 삭제**를 선택합니다.
 
-    ![앱 선택적 초기화 블레이드의 초기화 요청 목록 스크린샷](./media/delete-wipe-request.png)
+    ![앱 선택적 초기화 창의 초기화 요청 목록 스크린샷](./media/delete-wipe-request.png)
 
 3.  삭제를 확인하라는 메시지가 표시되면 **예** 또는 **아니요**를 선택하고 **확인**을 클릭합니다.
 

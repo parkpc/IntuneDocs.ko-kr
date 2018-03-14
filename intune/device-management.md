@@ -1,12 +1,12 @@
 ---
-title: "Intune으로 장치 관리"
-titleSuffix: Intune on Azure
-description: "Intune을 사용하여 관리하는 장치를 보고 해당 장치에 대해 여러 작업을 수행하는 방법을 알아봅니다.\""
+title: "Microsoft Intune에서 장치 관리"
+titleSuffix: 
+description: "Intune을 사용하여 관리하는 장치를 검토하고 해당 장치에 대해 여러 작업을 수행합니다."
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
-ms.date: 08/31/2017
+ms.date: 02/21/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: d2412418-d91a-4767-a3d6-bc88bb29caa2
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1b034e144aa43d239874b484acb2a40be12aff7c
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 2e69f47e841cb44ab646431d5bd81b9c1d874c64
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="what-is-microsoft-intune-device-management"></a>Microsoft Intune 장치 관리란?
 
@@ -29,8 +29,8 @@ IT 관리자의 경우 관리되는 장치가 위험으로부터 해당 데이�
 
 **장치** 워크로드는 관리하는 장치에 대한 정보를 제공하고, 이러한 장치에 대해 원격 작업을 수행할 수 있도록 합니다. 이 워크로드에 액세스하려면 다음을 수행합니다.
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune**에서 **장치**를 선택합니다.
 4. 장치에 대한 정보를 보고 다음과 같이 원격 장치 작업을 수행할 수 있습니다.
     - **개요** - 관리할 수 있는 등록된 장치의 스냅숏입니다.
@@ -38,10 +38,12 @@ IT 관리자의 경우 관리되는 장치가 위험으로부터 해당 데이�
     - **Azure AD 장치** - Azure AD(Active Directory)로 등록되거나 조인된 장치 목록입니다. [Azure AD 장치 관리](https://docs.microsoft.com/azure/active-directory/device-management-introduction)에 대해 자세히 알아봅니다.
     - **장치 작업** - 작업, 해당 상태, 작업을 시작한 사용자 및 시간을 비롯한 원격 작업의 기록은 장치에서 수행됩니다.
 
-    ![장치 작업 모니터링](./media/monitor-device-actions.png)
+        ![장치 작업 모니터링 스크린샷](./media/monitor-device-actions.png)
 
-    - **TeamViewer** - TeamViewer 서비스를 사용하면 Intune에서 관리되는 Android 장치의 사용자가 IT 관리자의 원격 지원을 받을 수 있습니다. [TeamViewer](device-profile-android-teamviewer.md)에 대해 자세히 알아봅니다.
-
+    - **감사 로그** - 감사 로그는 Microsoft Intune에서 변경을 생성하는 활동 레코드를 제공합니다. [감사 로그](monitor-audit-logs.md)에 대해 자세히 알아봅니다.
+    - **TeamViewer 커넥터** - TeamViewer 서비스를 사용하면 Intune에서 관리되는 Android 장치의 사용자가 IT 관리자의 원격 지원을 받을 수 있습니다. [TeamViewer](device-profile-android-teamviewer.md)에 대해 자세히 알아봅니다.
+    - **도움말 및 지원** - 문제를 해결하거나, 지원을 요청하거나, Intune 상태를 볼 수 있습니다.  
+    
 ## <a name="available-device-actions"></a>사용 가능한 장치 작업
 사용 가능한 작업은 장치 플랫폼 및 장치 구성에 따라 다릅니다.
 

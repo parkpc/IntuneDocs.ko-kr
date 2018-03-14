@@ -1,25 +1,26 @@
 ---
-title: "Windows 10에 대한 Intune 장치 제한 설정"
-titlesuffix: Azure portal
-description: "Windows 10 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
+title: "Windows 10에 대한 Microsoft Intune 장치 제한 설정"
+titlesuffix: 
+description: "Windows 10을 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Microsoft Intune 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 2/15/2018
+ms.date: 3/1/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 128e16ad989293e168d2bb53d5974e479e09a000
-ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
+ms.openlocfilehash: 861c971c98493f6adab78e6bc93d560bbc1d5243
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/02/2018
 ---
-# <a name="windows-10-and-later-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 이상 장치 제한 설정
+#<a name="microsoft-intune-windows-10-and-later-device-restriction-settings"></a>Microsoft Intune의 Windows 10 이상 장치 제한 설정
+이 아티클에서는 Windows 10을 실행하는 장치에 대해 구성할 수 있는 모든 Microsoft Intune 장치 제한 설정을 보여줍니다.
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -30,11 +31,7 @@ ms.lasthandoff: 02/19/2018
    - 이 정책은 컴퓨터가 Azure Active Directory에 연결되어 있고 자동 등록이 활성화된 경우에는 적용되지 않습니다. 
    - 이 정책 설정은 Windows 10 Home을 실행 중인 컴퓨터에 적용되지 않습니다.
 - **수동 루트 인증서 설치(모바일 전용)** - 사용자가 루트 인증서 및 중간 CAP 인증서를 수동으로 설치할 수 없게 됩니다.
-- **진단 데이터 제출** - 가능한 값은 다음과 같습니다.
-    - **없음** - Microsoft로 데이터가 전송되지 않습니다.
-    - **기본** - 제한된 정보가 Microsoft로 전송됩니다.
-    - **고급** - 고급 진단 데이터가 Microsoft로 전송됩니다.
-    - **전체** - 고급과 동일한 데이터 외에, 장치 상태에 대한 추가적인 데이터를 전송합니다.
+
 - **카메라** - 장치에서 카메라 사용을 허용하거나 차단합니다.
 - **OneDrive 파일 동기화** - 장치가 OneDrive로 파일을 동기화하는 작업이 차단됩니다.
 - **이동식 저장소** - 장치에 SD 카드와 같은 외부 저장 장치를 사용할 수 있는지 여부를 지정합니다.
@@ -51,6 +48,7 @@ ms.lasthandoff: 02/19/2018
 - **장치 검색** - 장치가 다른 장치에서 검색되지 않습니다.
 - **작업 전환기(모바일 전용)** -장치에서 작업 전환기를 차단합니다.
 - **SIM 카드 오류 대화 상자(모바일 전용)** - SIM 카드가 검색되지 않는 경우에는 오류 메시지가 장치에 표시되지 않습니다.
+- **잉크 작업 영역** - 사용자가 잉크 작업 영역에 액세스하는 것을 차단 합니다. 이 설정이 구성되지 않은 경우 잉크 작업 영역을 활성화되고(기능이 켜짐), 사용자는 잠금 화면에서 이를 사용할 수 있습니다.
 - **자동 재배포** - 관리 권한을 가진 사용자가 장치 잠금 화면에서 **CTRL + Win + R**을 사용하여 모든 사용자 데이터 및 설정을 삭제할 수 있습니다. 장치가 자동으로 재구성되고 관리에 다시 등록됩니다.
 
 
@@ -75,6 +73,9 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 
 -   **입력 개인 설정** – Cortana, 받아쓰기 또는 Microsoft 스토어 앱에 대한 클라우드 기반 음성 서비스의 사용을 허용하지 않습니다. 이러한 서비스를 허용하면 Microsoft에서 서비스를 향상시키기 위해 음성 데이터를 수집할 수 있습니다.
 -   **페어링 및 개인 정보 보호 사용자 동의 프롬프트의 자동 수락** – Windows에서 앱을 실행할 때 페어링 및 개인 정보 보호 동의 메시지를 자동으로 수락하도록 허용합니다.
+- **사용자 작업 게시**: 작업 전환기에서 공유 경험 및 최근에 사용된 리소스 검색을 차단하려면 이 옵션을 **차단**으로 설정합니다.
+- **로컬 작업만**: 로컬 작업에 대해서만 작업 전환기에서 공유 경험 및 최근에 사용된 리소스 검색을 차단하려면 이 옵션을 **차단**으로 설정합니다.
+
 
 장치의 모든 앱이 액세스할 수 있는 정보를 정의할 수 있습니다. **앱별 개인 정보 예외**를 사용하여 앱별 예외를 정의할 수 있습니다.
 
@@ -130,7 +131,7 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 ## <a name="locked-screen-experience"></a>잠긴 화면 환경
 
 - **알림 센터 알림(모바일 전용)** - 장치 잠금 화면에 알림 센터 알림이 표시되도록 허용합니다(Windows 10 Mobile만 해당).
-- **잠긴 화면 그림 URL(데스크톱 전용)** - Windows 잠금 화면 배경으로 사용할 PNG, JPG 또는 JPEG 형식의 사진에 URL을 지정합니다. 이 정보는 사용자가 변경할 수 없습니다.
+- **잠긴 화면 그림 URL(데스크톱 전용)** - Windows 잠금 화면 배경으로 사용할 JPEG 형식의 사진에 URL을 지정합니다. 이 정보는 사용자가 변경할 수 없습니다.
 -   **사용자 구성 가능 화면 시간 초과(모바일 전용)** – 사용자가 시간을 구성하도록 허용합니다. 
 -   **잠긴 화면 위 Cortana(데스크톱 전용)** – 장치가 잠금 화면 상태일 경우 사용자가 Cortana를 조작할 수 없도록 합니다(Windows 10 Desktop에만 해당).
 -   **잠긴 화면 위 알림** – 장치 잠금 화면에 경고 메시지가 표시되지 않도록 차단합니다.
@@ -180,6 +181,8 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 -   **기본 검색 엔진** - 사용할 기본 검색 엔진을 지정합니다. 최종 사용자는 언제든지 이 값을 변경할 수 있습니다.
 -   **종료 시 검색 데이터 지우기** – 사용자가 Edge를 종료할 때 기록 및 검색 데이터를 지웁니다.
 -   **라이브 타일 데이터 수집** – 사용자가 Edge의 시작 메뉴에 사이트를 고정할 때 Windows가 라이브 타일에서 정보를 수집할 수 없도록 차단합니다.
+-  **즐겨찾기 목록** - 즐겨찾기 파일의 경로를 정의 합니다. 예를 들어 http://contoso.com/favorites.html.
+-  **즐겨찾기 변경 제한** - 이를 **블록**으로 설정하여 사용자가 즐겨찾기 목록을 추가, 가져오기, 정렬 또는 편집하지 못하게 합니다. 
 
 ## <a name="windows-defender-smart-screen"></a>Windows Defender Smart Screen
 

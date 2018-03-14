@@ -1,12 +1,12 @@
 ---
-title: "Intune을 사용하는 장치에서 공장 기본 설정으로 복원을 사용하거나 회사 데이터 제거"
-titlesuffix: Azure portal
+title: "Microsoft Intune을 사용하는 장치에서 출하 시 설정으로 리셋을 사용하거나 회사 데이터 제거"
+titlesuffix: 
 description: "장치에서 회사 데이터를 제거하거나 장치를 공장 기본 설정으로 복원하는 방법을 알아봅니다."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: dougeby
-ms.date: 01/12/2018
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 46cb8510e80db7092de472a769fb5dc78eb5e167
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: b56f7d7bcf576a0b2342c7c5394c08661b6a45fd
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="remove-devices-by-using-factory-reset-or-remove-company-data"></a>공장 기본 설정으로 복원을 사용하여 장치를 제거하거나 회사 데이터 제거
 
@@ -35,9 +35,9 @@ Intune에서 더 이상 필요 없거나 용도를 다시 설정하거나 잃어
 
 ### <a name="to-factory-reset-a-device"></a>장치 공장 기본 설정 복원
 
-1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **장치 및 그룹** 블레이드에서 **모든 장치**를 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **장치** 블레이드에서 **모든 장치**를 선택합니다.
 4. 공장 기본 설정을 복원하려는 장치의 이름을 선택합니다.
 5. 장치 이름이 표시된 블레이드에서 **출하 시 설정으로 리셋**을 선택합니다.
 6. Windows 10 버전 1709 이상에는 "등록 상태 및 사용자 계정 보존" 옵션이 추가로 있습니다. 
@@ -122,9 +122,9 @@ Android for Work 장치에서 회사 데이터를 제거하면 해당 장치의 
 
 ### <a name="to-remove-company-data"></a>회사 데이터 제거
 
-1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **장치 및 그룹** 블레이드에서 **모든 장치**를 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **장치** 블레이드에서 **모든 장치**를 선택합니다.
 4. 회사 데이터를 제거할 장치의 이름을 선택합니다.
 5. 장치 이름을 표시하는 블레이드에서 **회사 데이터 제거**를 선택한 다음 **예**를 선택하여 확인합니다.
 
@@ -134,9 +134,9 @@ Android for Work 장치에서 회사 데이터를 제거하면 해당 장치의 
 
 통신 문제 또는 누락된 장치 때문에 Azure AD(Active Directory)에서 장치를 삭제해야 할 수도 있습니다. 삭제 명령을 수행해도 관리에서 장치가 제거되지 않지만 **삭제**를 사용하여 Azure Portal에서 확실히 연결할 수 없고 Azure와 다시 통신할 가능성이 적은 장치 레코드를 제거할 수 있습니다.
 
-1.  관리 자격 증명을 사용하여 [Azure 포털의 Azure Active Directory](http://aka.ms/accessaad)에 로그인합니다. 또한 [Office 365 포털](https://portal.office.com)에 로그인한 다음 페이지 왼쪽의 링크를 사용하여 **관리** &gt; **Azure AD**를 선택할 수 있습니다.
+1.  관리 자격 증명을 사용하여 [Azure 포털의 Azure Active Directory](http://aka.ms/accessaad)에 로그인합니다. 또한 [Office 365 포털](https://portal.office.com)에 로그인한 다음, 페이지 왼쪽의 링크를 사용하여 **관리 센터** &gt; **Azure AD**를 선택할 수 있습니다.
 3.  Azure 구독이 없으면 만듭니다. 유료 계정이 있는 경우 신용 카드나 결제가 필요하지 않습니다(**Register your free Azure Active Directory(무료 Azure Active Directory 등록)** 구독 링크 선택).
-4.  **Active Directory** 를 선택한 다음, 조직을 선택합니다.
+4.  **Azure Active Directory**를 선택한 다음, 조직을 선택합니다.
 5.  **사용자** 탭을 선택합니다.
 6.  삭제하려는 장치의 사용자를 선택합니다.
 7.  **장치**를 선택합니다.

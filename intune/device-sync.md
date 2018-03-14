@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 02ad249e-f098-421f-861f-6b2ff733ac7c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8f784143535188c6bee2082c5717b752f08c5490
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 7d48b81e6df912815d9ef843b4588f8c1076a8a7
+ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="sync-devices-with-intune-to-get-the-latest-policies-and-actions"></a>Intune으로 장치를 동기화하여 최신 정책과 작업을 가져오기
 
@@ -37,11 +37,11 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="how-to-sync-a-device"></a>장치를 동기화하는 방법
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 블레이드에서 **장치**를 선택합니다.
-4. **장치 및 그룹** 블레이드에서 **모든 장치**를 선택합니다.
-5. 관리하는 장치 목록에서 장치를 선택한 다음 **동기화** 원격 작업을 선택합니다.
+4. **장치** 블레이드에서 **모든 장치**를 선택합니다.
+5. 관리하는 장치 목록에서 장치를 선택하고 **자세히...**를 선택한 다음, **동기화** 원격 작업을 선택합니다.
 7. **예**를 선택하여 작업을 확인합니다.
 
 

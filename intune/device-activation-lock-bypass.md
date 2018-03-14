@@ -1,10 +1,10 @@
 ---
 title: "Intune을 사용하여 iOS 활성화 잠금 무시"
-titlesuffix: Azure portal
-description: "Intune을 사용하여 iOS 활성화 잠금을 무시하고 잠긴 장치에 액세스하는 방법을 알아봅니다\""
+titlesuffix: Microsoft Intune
+description: "Intune을 사용하여 iOS 활성화 잠금을 무시하고 잠긴 장치에 액세스하는 방법을 알아봅니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 08/22/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 9ca3b0ba-e41c-45fb-af28-119dff47c59f
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 15c288b31ab3fb31080aff72d2461dc1d24ec5ae
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 6141b325c5087544a1b78e03209322023f2374e3
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="bypass-activation-lock-on-supervised-ios-devices-with-intune"></a>Intune을 사용하여 감독된 iOS 장치에서 활성화 잠금 무시
 
@@ -69,11 +69,11 @@ Intune에서는 iOS 8.0 이상을 실행하는 감독된 장치의 활성화 잠
 
 Intune **활성화 잠금 무시** 원격 장치 작업에서는 사용자의 Apple ID와 암호 없이 iOS 장치에서 활성화 잠금을 제거합니다. 활성화 잠금을 무시한 후 내 iPhone 앱 찾기가 시작되면 장치에서 활성화 잠금이 다시 켜집니다. 장치에 실제로 액세스할 수 있는 경우에만 활성화 잠금을 무시합니다.
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 블레이드에서 **장치**를 선택합니다.
-4. **장치 및 그룹** 블레이드에서 **모든 장치**를 선택합니다.
-5. 관리하는 장치 목록에서 감독된 iOS 장치를 선택한 다음 **활성화 잠금 무시** 장치 원격 작업을 선택합니다.
+4. **장치** 블레이드에서 **모든 장치**를 선택합니다.
+5. 관리하는 장치 목록에서 감독된 iOS 장치를 선택하고 **자세히...**를 선택한 다음, **활성화 잠금 무시** 장치 원격 작업을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

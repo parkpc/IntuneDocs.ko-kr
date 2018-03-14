@@ -1,12 +1,12 @@
 ---
-title: "지원 센터의 문제 해결 포털 | Microsoft Docs"
-titlesuffix: Azure portal
+title: "기술 지원팀의 문제 해결 포털"
+titlesuffix: Microsoft Intune
 description: "기술 지원팀 직원은 문제 해결 포털을 사용하여 사용자의 기술 문제를 해결합니다."
 keywords: 
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/26/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
-ms.openlocfilehash: 2da1a37af1ab0b0b1566738bf1ecdfe990dd760d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 7997bf0494ff52ad25b09301173b65f2478dca37
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="use-the-troubleshooting-portal-to-help-users"></a>문제 해결 포털을 사용하여 사용자 지원
+# <a name="use-the-troubleshooting-portal-to-help-users-at-your-company"></a>문제 해결 포털을 사용하여 회사 내 사용자 지원
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 01/25/2018
 | 1.   | 계정 상태  | 현재 Intune 테넌트의 상태가 **활성** 또는 **비활성**으로 표시됩니다.       |
 | 2.   | 사용자를 선택합니다.  | 현재 선택된 사용자의 이름입니다. **사용자 변경**을 클릭하여 새 사용자를 선택합니다.       |
 | 3.   | 사용자 상태  | 사용자의 Intune 라이선스, 장치 수, 각 장치의 준수, 앱 수 및 앱의 준수에 대한 상태가 표시됩니다.       |
-| 4.   | 사용자 정보  | 이 목록을 사용하여 블레이드에서 검토할 세부 정보를 선택합니다. <br>선택할 수 있는 항목은 다음과 같습니다. <ul><li>모바일 앱<li>앱 보호 정책<li>규정 준수 정책<li> 구성 정책</ul>      |
+| 4.   | 사용자 정보  | 이 목록을 사용하여 블레이드에서 검토할 세부 정보를 선택합니다. <br>선택할 수 있는 항목은 다음과 같습니다. <ul><li>모바일 앱<li>앱 보호 정책<li>규정 준수 정책<li> 구성 정책<li> 등록 제한 사항</ul>      |
 | 5.   | 그룹 구성원 자격  | Yadda       |
 
 ## <a name="mobile-apps-reference"></a>모바일 앱 참조

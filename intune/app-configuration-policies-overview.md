@@ -1,7 +1,7 @@
 ---
-title: "Intune용 구성 정책 추가 | Microsoft Docs"
-titlesuffix: Azure portal
-description: "Intune용 앱 구성 정책을 사용하는 방법을 알아봅니다."
+title: "Intune용 앱 구성 정책"
+titlesuffix: Microsoft Intune
+description: "Intune에서 iOS 또는 Android 장치에 앱 구성 정책을 사용하는 방법을 알아봅니다."
 keywords: 
 author: erikre
 ms.author: erikre
@@ -15,11 +15,11 @@ ms.assetid: 834B4557-80A9-48C0-A72C-C98F6AF79708
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d7267de95d36ed0e27c8a720599cc78004cd71d3
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 52e0906b58680fa0b5628b2b5fc7445f8135658a
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="app-configuration-policies-for-intune"></a>Intune용 앱 구성 정책
 

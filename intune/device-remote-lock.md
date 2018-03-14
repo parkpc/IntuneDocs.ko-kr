@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 3b67f285-229d-4a0f-ae34-0402a20b4518
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ecd7fa03b35e91b5a77906858fb251348796704d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 0a8f3c93507cde4363570a9a39f8b3b1f69c07df
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="remotely-lock-managed-devices-with-intune"></a>Intune을 사용하여 관리 장치 원격 잠금
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 01/25/2018
 |Android|예|
 |iOS|예|
 |macOS|예|
-|Windows 10|예|
+|Windows 10 Desktop|아니요|
 |Windows 10 Mobile|예|
 |Windows Phone|Windows Phone 8.1 이상 지원|
 
@@ -45,12 +45,12 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="how-to-remote-lock-a-device"></a>장치를 원격으로 잠그는 방법
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 블레이드에서 **장치**를 선택합니다.
-4. **장치 및 그룹** 블레이드에서 **모든 장치**를 선택합니다.
+4. **장치** 블레이드에서 **모든 장치**를 선택합니다.
 5. 관리하는 장치 목록에서 장치를 선택한 다음 **원격 잠금** 장치 원격 작업을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-방금 수행한 작업의 상태를 확인하려면 **장치 및 그룹** 블레이드에서 **장치 작업**을 선택합니다.
+방금 수행한 작업의 상태를 확인하려면 **장치** 블레이드에서 **장치 작업**을 선택합니다.

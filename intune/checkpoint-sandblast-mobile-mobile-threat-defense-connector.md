@@ -3,8 +3,8 @@ title: "Intune과 Check Point SandBlast Mobile 커넥터"
 titlesuffix: Azure portal
 description: "Intune과 Check Point SandBlast 통합"
 keywords: 
-author: andredm7
-ms.author: andredm
+author: msmimart
+ms.author: mimart
 manager: dougeby
 ms.date: 07/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 706a4228-9bdf-41e0-b8d1-64c923dd2d2b
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 09a8914be00b7af039257fe0759967b7f5a90c5e
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 10bc23b5b5e0d0d278677ed4bf332787fc16b367
+ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="check-point-sandblast-mobile-threat-defense-connector-with-intune"></a>Intune과 Check Point SandBlast Mobile Threat Defense 커넥터
 
@@ -33,73 +33,74 @@ Android 및 iOS용 Check Point SandBlast Mobile 앱은 파일 시스템, 네트�
 
 Intune 장치 준수 정책에는 Check Point SandBlast 위험 평가를 기반으로 한 Check Point SandBlast Mobile Threat Defense에 대한 규칙이 포함되어 있습니다. 이 규칙을 사용하면 Intune에서 장치가 사용되는 정책을 준수하는지를 평가합니다. 장치가 정책을 준수하지 않으면 Exchange Online, SharePoint Online 등의 회사 리소스에 대한 사용자의 액세스가 차단됩니다. 사용자는 문제를 해결하고 회사 리소스에 대한 액세스 권한을 다시 얻을 수 있도록 장치에 설치된 Check Point SandBlast 모바일 앱에서 지침을 받습니다.
 
-<!-- ## Sample scenarios
+<!-- ## Sample scenarios 
+closing syntax for comment above is missing. Please insert closing syntax at intended location. -->
 
-Here are some common scenarios:
+다음은 몇 가지 일반적인 시나리오입니다.
 
-### Control access based on threats from malicious apps
+### <a name="control-access-based-on-threats-from-malicious-apps"></a>악성 앱의 위협에 따라 액세스 제어
 
-When malicious apps such as malware are detected on devices, you can block devices until the threat is resolved:
+맬웨어와 같은 악성 앱이 장치에서 감지되면 위협이 해결될 때까지 장치를 차단할 수 있습니다.
 
--   Connecting to corporate e-mail
+-   회사 메일에 연결
 
--   Syncing corporate files with the OneDrive for Work app
+-   작업용 OneDrive 앱과 회사 파일 동기화
 
--   Accessing company apps
+-   회사 앱에 액세스
 
-**Block when malicious apps are detected:**
+**악성 앱이 발견되면 액세스 차단:**
 
-![Check Point MTD block when malicious apps are detected](./media/checkpoint-MTD-2.PNG)
+![악성 앱이 발견되면 Check Point MTD 차단](./media/checkpoint-MTD-2.PNG)
 
-**Access granted on remediation:**
+**수정 시 액세스 권한 부여됨:**
 
-![Check Point MTD access granted](./media/checkpoint-MTD-3.PNG)
+![Check Point MTD 액세스 권한 부여됨](./media/checkpoint-MTD-3.PNG)
 
-### Control access based on threat to network
+### <a name="control-access-based-on-threat-to-network"></a>네트워크에 대한 위협에 따라 액세스 제어
 
-Detect threats like **Man-in-the-middle** in network, and protect access to Wi-Fi networks based on the device risk.
+네트워크에서 **메시지 가로채기(man-in-the-middle)**와 같은 위협을 감지하고 장치 위험에 따라 Wi-Fi 네트워크에 대한 액세스를 보호합니다.
 
-**Block network access through Wi-Fi:**
+**Wi-Fi를 통한 네트워크 액세스 차단:**
 
-![Check Point MTD block network access through Wi-Fi](./media/checkpoint-MTD-4.PNG)
+![Wi-Fi를 통한 Check Point MTD 네트워크 액세스 차단](./media/checkpoint-MTD-4.PNG)
 
-**Access granted on remediation:**
+**수정 시 액세스 권한 부여됨:**
 
-![Check Point MTD Wi-Fi access granted](./media/checkpoint-MTD-5.PNG)
+![Check Point MTD Wi-Fi 액세스 권한 부여됨](./media/checkpoint-MTD-5.PNG)
 
-### Control access to SharePoint Online based on threat to network
+### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>네트워크에 대한 위협에 따라 SharePoint Online에 대한 액세스 제어
 
-Detect threats like **Man-in-the-middle** in network, and prevent synchronization of corporate files based on the device risk.
+네트워크에서 **메시지 가로채기(man-in-the-middle)**와 같은 공격을 감지하여, 장치 위험에 따라 회사 파일 동기화를 금지합니다.
 
-**Block SharePoint Online when network threats are detected:**
+**네트워크 위협이 감지할 경우 SharePoint Online 차단:**
 
-![Check Point MTD block SharePoint Online access](./media/checkpoint-MTD-6.PNG)
+![Check Point MTD SharePoint Online 액세스 차단](./media/checkpoint-MTD-6.PNG)
 
-**Access granted on remediation:**
+**수정 시 액세스 권한 부여됨:**
 
-![Check Point MTD SharePoint Online access granted](./media/checkpoint-MTD-7.PNG)
+![Check Point MTD SharePoint Online 액세스 권한 부여됨](./media/checkpoint-MTD-7.PNG)
 
-## Supported platforms
+## <a name="supported-platforms"></a>지원되는 플랫폼
 
--   **Android 4.1 and later**
+-   **Android 4.1 이상**
 
--   **iOS 8 and later**
+-   **iOS 8 이상**
 
-## Pre-requisites
+## <a name="pre-requisites"></a>필수 구성 요소
 
 -   Azure Active Directory Premium
 
--   Microsoft Intune subscription
+-   Microsoft Intune 구독
 
--   Check Point SandBlast Mobile Threat Defense subscription
-    -   See [CheckPoint SandBlast website](https://www.checkpoint.com/) for more information.
+-   Check Point SandBlast Mobile Threat Defense 구독
+    -   자세한 내용은 [CheckPoint SandBlast 웹사이트](https://www.checkpoint.com/)를 참조하세요.
 
-## Next steps
+## <a name="next-steps"></a>다음 단계
 
-- [Integrate CheckPoint SandBlast with Intune](checkpoint-sandblast-mobile-mtd-connector-integration.md)
+- [Intune과 Check Point SandBlast 통합](checkpoint-sandblast-mobile-mtd-connector-integration.md)
 
-- [Set up CheckPoint SandBlast Mobile app](mtd-apps-ios-app-configuration-policy-add-assign.md)
+- [Check Point SandBlast Mobile 앱 설정](mtd-apps-ios-app-configuration-policy-add-assign.md)
 
-- [Create CheckPoint SandBlast Mobile device compliance policy](mtd-device-compliance-policy-create.md)
+- [CheckPoint SandBlast Mobile 장치 규정 준수 정책 만들기](mtd-device-compliance-policy-create.md)
 
-- [Enable CheckPoint SandBlast Mobile MTD connector](mtd-connector-enable.md)
+- [CheckPoint SandBlast Mobile MTD 커넥터 사용](mtd-connector-enable.md)

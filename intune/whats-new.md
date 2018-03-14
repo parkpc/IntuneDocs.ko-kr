@@ -5,9 +5,9 @@ description: "Intune Azure 포털의 새로운 기능 알아보기"
 keywords: 
 author: ErikjeMS
 ms.author: erikje
-manager: dougeby
-ms.date: 02/01/2018
-ms.topic: article
+manager: angrobe
+ms.date: 01/02/2018
+ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
@@ -15,11 +15,11 @@ ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5058428dca9212d8b20364f58ac463939a699221
-ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
+ms.openlocfilehash: 7490302c7bd928417cdf946cbbf74f8b8b7531ed
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Microsoft Intune의 새로운 기능
 
@@ -41,6 +41,107 @@ ms.lasthandoff: 02/19/2018
   ### Monitor and troubleshoot
 
 -->   
+
+
+## <a name="week-of-february-19-2018"></a>2018년 2월 19일부터 시작되는 주
+### <a name="device-enrollment"></a>장치 등록
+
+#### <a name="intune-support-for-multiple-apple-dep--apple-school-manager-accounts----747685---"></a>여러 Apple DEP/Apple School Manager 계정에 대한 Intune 지원 <!-- 747685 -->
+ 
+이제 Intune은 최대 100개의 다른 Apple DEP(장비 등록 프로그램) 또는 Apple School Manager 계정의 장치 등록을 지원합니다. 업로드된 각 토큰을 등록 프로필과 장치에 대해 별도로 관리할 수 있습니다. 업로드된 DEP/School Manager 토큰마다 다른 등록 프로필을 자동으로 할당할 수 있습니다. School Manager 토큰이 여러 개 업로드된 경우 한 번에 하나의 토큰만 Microsoft School Data Sync와 공유할 수 있습니다.
+
+Graph를 통해 Apple DEP 또는 ASM을 관리하기 위한 베타 Graph API 및 게시된 스크립트는 마이그레이션 후 더 이상 작동하지 않습니다. 새 베타 Graph API가 개발 중이며 마이그레이션 후 릴리스될 예정입니다.
+
+#### <a name="see-enrollment-restrictions-per-user----1634444-eeready-wnready---"></a>사용자별 등록 제한 보기 <!-- 1634444 eeready wnready -->
+**할당** 목록에서 **등록 제한**을 선택함으로써 각 사용자에게 적용되는 등록 제한을 **문제 해결** 블레이드에 표시할 수 있습니다.
+
+### <a name="device-management"></a>장치 관리
+#### <a name="windows-defender-health-status-and-threat-status-reports---854704---"></a>Windows Defender 상태 및 위협 상태 보고서 <!--854704 -->
+
+Windows Defender의 상태를 이해하는 것은 Windows PC 관리의 핵심입니다.  이 업데이트를 사용해 Intune은 Windows Defender 에이전트의 상태에 새 보고서와 작업을 추가합니다. 장치 정책 준수 워크로드에 상태 롤업 보고서를 사용하면 다음 작업이 필요한 장치를 볼 수 있습니다.
+- 서명 업데이트
+- 다시 시작
+- 수동 작업
+- 전체 검사
+- 개입이 필요한 기타 에이전트 상태
+
+각 상태 범주에 대한 드릴인 보고서에는 주의가 필요한 개별 PC 또는 **정리**로 보고되는 PC가 나열됩니다.
+
+#### <a name="new-privacy-settings-for-device-restrictions---1308926---"></a>장치 제안에 대한 새로운 개인 정보 설정 <!--1308926 -->
+장치에 대한 두 가지 새 개인 정보 설정을 사용할 수 있습니다.
+- **사용자 작업 게시**: 작업 전환기에서 공유 경험 및 최근에 사용된 리소스 검색을 차단하려면 이 옵션을 **차단**으로 설정합니다.
+- **로컬 작업만**: 로컬 작업에 대해서만 작업 전환기에서 공유 경험 및 최근에 사용된 리소스 검색을 차단하려면 이 옵션을 **차단**으로 설정합니다.
+
+#### <a name="new-settings-for-the-edge-browser---1469166---"></a>Microsoft Edge 브라우저에 대한 새 설정 <!--1469166 -->
+Microsoft Edge 브라우저에서는 두 가지 새로운 설정인 **자주 사용하는 파일 경로** 및 **즐겨찾기에 대한 변경**을 사용할 수 있습니다. 
+
+### <a name="app-management"></a>앱 관리
+#### <a name="protocol-exceptions-for-applications---1035509---"></a>응용 프로그램에 대한 프로토콜 예외 <!--1035509 -->
+
+Intune MAM(모바일 응용 프로그램 관리) 데이터 전송 정책에 대한 예외를 만들어서 관리되지 않는 응용 프로그램을 열 수 있습니다. 이러한 응용 프로그램은 IT가 신뢰할 수 있는 것이어야 합니다. 관리자가 만드는 예외를 제외하고, 데이터 전송 정책을 **관리되는 앱만**으로 설정하는 경우 데이터 전송은 Intune에서 관리하는 응용 프로그램으로 계속 제한됩니다. 프로토콜(iOS) 또는 패키지(Android)를 사용하여 제한을 만들 수 있습니다.
+ 
+예를 들어 Webex 패키지를 MAM 데이터 전송 정책의 예외로 추가할 수 있습니다. 이렇게 하면 관리되는 Outlook 이메일 메시지의 Webex 링크가 Webex 응용 프로그램에서 바로 열립니다. 관리되지 않는 다른 응용 프로그램에서는 데이터 전송이 계속 제한됩니다. 자세한 내용은 [앱에 대한 데이터 전송 정책 예외](app-protection-policies-exception.md)를 참조합니다.
+
+#### <a name="windows-information-protection-wip-encrypted-data-in-windows-search-results----1469193---"></a>Windows 검색 결과의 WIP(Windows Information Protection) 암호화된 데이터 <!-- 1469193 -->
+WIP(Windows Information Protection) 정책의 설정을 사용하면 WIP 암호화된 데이터를 Windows 검색 결과에 포함할지 여부를 제어할 수 있습니다. Windows 정보 보호 정책의 **고급 설정**에서 **Windows Search Indexer로 암호화된 항목 검색 가능**을 선택해 앱 보호 정책 옵션을 설정합니다. 앱 보호 정책은 *Windows 10* 플랫폼에 설정돼야 하며 해당 앱 정책 **등록 상태**는 **등록을 통해** 설정돼야 합니다. 자세한 내용은 [Windows Search Indexer로 암호화된 항목 검색 가능](windows-information-protection-policy-create.md#allow-windows-search-indexer-to-search-encrypted-items)을 참조합니다.
+
+#### <a name="configuring-a-self-updating-mobile-msi-app----1740840---"></a>자체 업데이트 모바일 MSI 앱 구성 <!-- 1740840 -->
+버전 확인 프로세스를 무시하도록 알려진 자체 업데이트 모바일 MSI 앱을 구성할 수 있습니다. 이 기능은 경합 상태를 방지하는 데 유용합니다. 예를 들어 이런 유형의 경합 상태는 앱 개발자가 앱을 자동 업데이트하는 동시에 Intune에서도 앱을 업데이트하는 경우 발생할 수 있습니다. 둘 다 Windows 클라이언트에서 앱 버전을 적용하려 시도할 수 있으며, 이로 인해 충돌이 발생할 수 있습니다. 이러한 자동으로 업데이트된 MSI 앱의 경우 **앱 정보** 블레이드에서 **앱 버전 무시** 설정을 구성할 수 있습니다. 이 설정이 **예**로 전환될 경우 Microsoft Intune에서 Windows 클라이언트에 설치 된 앱 버전을 무시하게 됩니다. 
+
+#### <a name="related-sets-of-app-licenses-supported-in-intune----1864117---"></a>Intune에서 지원되는 관련 앱 라이선스 집합 <!-- 1864117 -->
+이제 Azure Portal의 Intune은 관련 앱 라이선스 집합을 UI에서 단일 앱 항목으로 지원합니다. 또한 비즈니스용 Microsoft 스토어에서 동기화되는 오프라인 라이선스 앱은 단일 앱 항목으로 통합되고, 개별 패키지의 배포 세부 정보는 단일 항목으로 마이그레이션됩니다. Azure Portal에서 관련 앱 라이선스 집합을 보려면 **모바일 앱** 블레이드에서 **앱 라이선스**를 선택합니다.
+
+### <a name="device-configuration"></a>장치 구성
+#### <a name="windows-information-protection-wip-file-extensions-for-automatic-encryption----1463582---"></a>자동 암호화를 위한 WIP(Windows Information Protection) 파일 확장명 <!-- 1463582 -->
+WIP(Windows Information Protection) 정책의 설정으로 이제 WIP 정책에서 정의된 대로 회사 경계 내부의 SMB(Server Message Block) 공유에서 복사하는 경우 파일 확장명은 자동으로 암호화되도록 지정할 수 있습니다.
+
+#### <a name="configure-resource-account-settings-for-surface-hubs"></a>Surface Hub에 대한 리소스 계정 설정 구성
+
+Surface Hub에 대한 리소스 계정 설정을 원격으로 구성할 수 있습니다.
+
+리소스 계정은 Surface Hub가 Skype/Exchange에 인증하는 데 사용되므로 모임에 참여할 수 있습니다. Surface Hub가 모임에서 회의실로 표시되도록 고유한 리소스 계정을 만들 수 있습니다. 예를 들어 **회의실 B41/6233**이라는 리소스 계정을 만들 수 있습니다.
+
+> [!NOTE]
+> - 필드를 비워 두면 장치에서 이전에 구성된 특성이 재정의됩니다.
+>
+> - 리소스 계정 속성은 Surface Hub에서 동적으로 변경할 수 있습니다. 예를 들어 암호 순환이 켜져 있으면 Azure 콘솔의 값이 장치에서 현실을 반영할 때까지 다소 시간이 걸릴 수 있습니다. 
+>
+>   리소스 계정 정보를 하드웨어 인벤토리에(이미 7일 간격이 있음) 또는 읽기 전용 속성으로 포함하면 현재 Surface Hub에 구성된 내용을 이해할 수 있습니다. 원격 작업을 실행한 후 정확도를 높이려면 Surface Hub에서 계정/매개 변수 업데이트 작업을 실행하는 즉시 매개 변수 상태를 가져오면 됩니다.
+
+
+##### <a name="attack-surface-reduction"></a>공격 노출 영역 축소
+
+
+|설정 이름  |설정 옵션  |설명  |
+|---------|---------|---------|
+|이메일에서 암호로 보호된 실행 가능한 콘텐츠의 실행|차단, 감사, 구성되지 않음|이메일로 다운로드된 암호로 보호된 실행 파일이 실행되는 것을 방지합니다.|
+|고급 랜섬웨어 보호|사용, 감사, 구성되지 않음|적극적인 랜섬웨어 보호를 사용합니다.|
+|Windows 로컬 보안 기관 하위 시스템에서 도용하는 자격 증명에 플래그 지정|사용, 감사, 구성되지 않음|Windows 로컬 보안 기관 하위 시스템(lsass.exe)에서 도용하는 자격 증명에 플래그를 지정합니다.|
+|PSExec 및 WMI 명령에서 프로세스 만들기|차단, 감사, 구성되지 않음|PSExec 및 WMI 명령에서 발생하는 프로세스 만들기를 차단합니다.|
+|USB에서 실행되는 신뢰할 수 없고 서명되지 않은 프로세스|차단, 감사, 구성되지 않음|USB에서 실행되는 신뢰할 수 없고 서명되지 않은 프로세스를 차단합니다.|
+|출현율, 나이 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 실행 파일|차단, 감사, 구성되지 않음|실행 파일이 출현율, 나이 또는 신뢰할 수 있는 목록 기준을 충족하지 않으면 실행을 차단합니다.|
+
+##### <a name="controlled-folder-access"></a>폴더 액세스 제어
+
+|설정 이름  |설정 옵션  |설명  |
+|---------|---------|---------|
+|폴더 보호(이미 구현됨)|구성되지 않음, 사용, 감사만(이미 구현됨)<br><br> **새 항목**<br>디스크 수정 차단, 디스크 수정 감사|
+인증되지 않은 앱이 파일 및 폴더를 무단으로 변경할 수 없도록 보호합니다.<br><br>**사용**: 신뢰할 수 없는 앱이 보호되는 폴더의 파일을 수정 또는 삭제하거나 디스크 섹터에 쓰는 것을 차단합니다.<br><br>
+**디스크 수정만 차단**:<br>신뢰할 수 없는 앱이 디스크 섹터에 쓰는 것을 차단합니다. 신뢰할 수 없는 앱이 보호되는 폴더의 파일을 여전히 수정하거나 삭제할 수 있습니다.|
+
+#### <a name="additions-to-system-security-settings-for-windows-10-and-later-compliance-policies---1704133--"></a>Windows 10 및 향후 규정 준수 정책에 대한 시스템 보안 설정 추가 <!--1704133-->
+
+방화벽과 Windows Defender 바이러스 백신을 반드시 사용하게 하는 것을 포함하여 Windows 10 규정 준수 설정이 추가됩니다. 
+
+
+### <a name="role-based-access-control"></a>역할 기반 액세스 제어
+### <a name="intune-apps"></a>Intune 앱
+#### <a name="support-for-offline-apps-from-the-microsoft-store-for-business---1222672--"></a>비즈니스용 Microsoft 스토어의 오프라인 앱 지원 <!--1222672-->
+이제 비즈니스용 Microsoft 스토어에서 구매한 오프라인 앱이 Azure Portal에 동기화됩니다. 그런 다음, 이러한 앱을 장치 그룹 또는 사용자 그룹에 배포할 수 있습니다. 오프라인 앱은 스토어가 아닌 Intune을 통해 설치됩니다.
+
+#### <a name="prevent-end-users-from-manually-adding-or-removing-accounts-in-the-work-profile----1728700---"></a>최종 사용자가 작업 프로필의 계정을 수동으로 추가 또는 삭제하지 못하게 방지 <!-- 1728700 -->
+
+Gmail 앱을 Android for Work 프로필에 배포하면, Android for Work 장치 제한 프로필에서 **계정 추가 및 제거** 설정을 사용하여 최종 사용자가 작업 프로필에 계정을 수동으로 추가하거나 삭제하지 못하게 할 수 있습니다.
 
 ## <a name="week-of-february-5-2018"></a>2018년 2월 5일부터 시작되는 주
 
@@ -69,6 +170,10 @@ Graph를 통해 Apple DEP 또는 ASM을 관리하기 위한 베타 Graph API 및
 
 ### <a name="remote-printing-over-a-secure-network----1709994----"></a>보안 네트워크를 통한 원격 인쇄 <!-- 1709994  -->
 PrinterOn의 무선 모바일 인쇄 솔루션을 사용하면 사용자가 보안 네트워크를 통해 언제 어디서나 원격으로 인쇄할 수 있습니다. PrinterOn은 iOS 및 Android용 Intune 앱 SDK와 둘 다 통합됩니다. 관리 콘솔의 Intune **앱 보호 정책** 블레이드를 통해 이 앱을 앱 보호 정책의 대상으로 지정할 수 있습니다. 최종 사용자는 Intune 에코시스템에서 사용하기 위해 Play 스토어 또는 iTunes를 통해 'PrinterOn for Microsoft' 앱을 다운로드할 수 있습니다.
+
+### <a name="macos-company-portal-support-for-enrollments-that-use-the-device-enrollment-manager----1352411---"></a>macOS 회사 포털은 장치 등록 관리자를 사용한 등록을 지원 <!-- 1352411 -->
+
+사용자는 macOS 회사 포털에 등록할 때 장치 등록 관리자를 사용할 수 있습니다.
 
 ## <a name="week-of-january-29-2018"></a>2018년 1월 29일
 
@@ -104,16 +209,6 @@ PrinterOn의 무선 모바일 인쇄 솔루션을 사용하면 사용자가 보�
 #### <a name="including-and-excluding-app-assignment-based-on-groups----1406920---"></a>그룹에 따라 앱 할당 포함 및 제외 <!-- 1406920 -->
 
 앱 할당 중이나 할당 유형을 선택한 후 포함할 그룹과 제외할 그룹을 선택할 수 있습니다.
-
-#### <a name="website-learning-mode----1631908---"></a>웹 사이트 학습 모드 <!-- 1631908 -->
-
-Intune에는 이제 WIP(Windows Information Protection) 학습 모드 확장이 있습니다. WIP 지원 앱에 대한 정보뿐 아니라 웹 사이트와 작업 데이터를 공유한 장치 요약도 볼 수 있습니다. 이 정보를 사용하여 그룹 및 사용자 WIP 정책에 추가할 웹 사이트를 확인할 수 있습니다.
-
-#### <a name="approve-the-company-portal-app-for-android-for-work---1797090---"></a>Android for Work용 회사 포털 앱 승인 <!--1797090 -->
-조직에서 Android for Work를 사용하는 경우 관리되는 Google Play 스토어에서 자동 업데이트를 계속 받으려면 Android용 회사 포털 앱을 수동으로 승인해야 합니다.
-
-#### <a name="faceid-on-ios-devices----1807377---"></a>iOS 장치에서 FaceID <!-- 1807377 -->
-Intune 앱 보호 정책은 이제 iOS 장치에서 FaceID를 제어하는 설정을 지원 합니다. 이 설정은 FaceID 기능을 지원하는 장치를 위한 것입니다(현재 iPhone X만 해당). 이 설정은 현재 지원되는 TouchID 컨트롤과는 별개입니다. 조직은 TouchID 컨트롤 대신 FaceID를 유효한 PIN 프롬프트로 신뢰할지를 선택할 수 있습니다.
 
 ### <a name="device-configuration"></a>장치 구성
 
@@ -196,7 +291,7 @@ Intune에서 SCEP 인증서 프로필을 만드는 경우 이제 사용자 지�
 
 #### <a name="disallow-datetime-changes-to-samsung-knox-devices----1468103---"></a>Samsung Knox 장치의 날짜/시간 변경 허용 안함 <!-- 1468103 -->
 
-이제 삼성 Samsung 장치에 대한 날짜 및 시간 변경을 차단할 수 있습니다. 이 기능은 **장치 구성 프로필** > **장치 제한 사항(Android)** > **일반**에서 확인할 수 있습니다.
+Samsung Knox 장치의 날짜 및 시간 변경을 차단할 수 있는 새로운 기능이 추가되었습니다. 이 기능은 **장치 구성 프로필** > **장치 제한 사항(Android)** > **일반**에서 확인할 수 있습니다.
 
 #### <a name="surface-hub-resource-account-supported----1566442----"></a>Surface Hub 리소스 계정 지원됨 <!-- 1566442  -->
 
@@ -241,7 +336,7 @@ Intune에서 SCEP 인증서 프로필을 만드는 경우 이제 사용자 지�
      일정 동기화 및 기타 Exchange Server 서비스를 사용할지 여부를 지정합니다. 예: 모임 동기화.
 
 #### <a name="install-office-apps-on-macos-devices----1494311---"></a>macOS 장치에 Office 앱 설치 <!-- 1494311 -->
-이제 macOS 장치에 Office 앱을 설치할 수 있습니다. 이 새로운 앱 유형을 통해 Word, Excel, PowerPoint, Outlook 및 OneNote를 설치할 수 있습니다. 또한 이러한 앱은 MAU(Microsoft 자동 업데이트)와 함께 제공되므로 앱을 안전하게 최신 상태로 유지할 수 있습니다.
+이제 macOS 장치에 Office 앱을 설치할 수 있습니다. 새 앱 유형을 사용하여 Word, Excel, PowerPoint, Outlook 및 OneNote를 설치할 수 있습니다. 또한 이러한 앱은 MAU(Microsoft 자동 업데이트)와 함께 제공되므로 앱을 안전하게 최신 상태로 유지할 수 있습니다.
 
 ### <a name="app-management"></a>앱 관리
 
@@ -267,8 +362,7 @@ Intune에서 SCEP 인증서 프로필을 만드는 경우 이제 사용자 지�
 
 ### <a name="updated-graph-apis----1736360---"></a>Graph API 업데이트됨 <!-- 1736360 -->
 
-베타 상태인 몇 가지 Intune용 Graph API가 업데이트되었습니다. 자세한 내용은 월별 [Graph API 변경 로그](https://developer.microsoft.com/graph/docs/concepts/changelog)를 참조하세요.
-
+이 릴리스에서는 베타 상태인 몇 가지 Intune용 Graph API가 업데이트되었습니다. 자세한 내용은 월별 [Graph API 변경 로그](https://developer.microsoft.com/graph/docs/concepts/changelog)를 참조하세요.
 
 ## <a name="week-of-december-4-2017"></a>2017년 12월 4일 주
 
@@ -461,7 +555,7 @@ Exchange Connector 로그를 구문 분석하는 데 도움이 되도록 이제 
 
 ### <a name="device-enrollment"></a>장치 등록
 #### <a name="co-management-for-windows-10-devices-----1243445---"></a>Windows 10 장치의 공동 관리<!-- 1243445 -->
-공동 관리는 기존 관리에서 최신 관리에 대한 연결을 제공하고 단계별 접근 방법을 사용하여 전환할 수 있는 경로를 제공하는 솔루션입니다. 기본적으로 공동 관리는 Windows 10 장치를 Configuration Manager와 Microsoft Intune에서 동시에 관리할 수 있는 솔루션입니다. 뿐만 아니라 AD(Active Directory) 및 Azure AD(Azure Active Directory)에 조인됩니다.  이 구성을 통해 한 번에 경로로 이동할 수 없는 경우 조직에 적합한 속도로 시간이 지남에 따라 현대화하는 경로를 제공합니다.  
+공동 관리는 기존 관리에서 최신 관리에 대한 연결을 제공하고 단계별 접근 방법을 사용하여 전환할 수 있는 경로를 제공하는 솔루션입니다. 기본적으로 공동 관리는 Windows 10 장치를 Configuration Manager와 Microsoft Intune에서 동시에 관리할 수 있는 솔루션입니다. 뿐만 아니라 AD(Active Directory) 및 Azure AD(Azure Active Directory)에 조인되됩니다.  이 구성을 통해 한 번에 경로로 이동할 수 없는 경우 조직에 적합한 속도로 시간이 지남에 따라 현대화하는 경로를 제공합니다.  
 
 #### <a name="restrict-windows-enrollment-by-os-version----245498---"></a>OS 버전별 Windows 등록 제한 <!-- 245498 -->
 Intune 관리자는 장치 등록을 위한 Windows 10의 최소 및 최대 버전을 지정할 수 있습니다. 이러한 제한은 **플랫폼 구성** 블레이드에서 설정할 수 있습니다.
@@ -599,6 +693,28 @@ Intune 데이터 웨어하우스 데이터 모델의 첫 번째 버전에는 최
 
 
 ## <a name="notices"></a>알림
+
+
+### <a name="coming-soon-workflow-updates-to-intune-administration-ui"></a>출시 예정: Intune 관리 UI에 워크플로 업데이트
+
+Intune는 3월 서비스 릴리스에서 관리자 경험을 업데이트합니다. 아무런 조치도 할 필요가 없지만 이를 Microsoft의 투명성에 대한 헌신의 일부로 인식했으면 합니다. Android 또는 Apple 장치 관리를 사용하는 경우 Intune은 이러한 타사 서비스와 통합하는 장치 및 사용자 정보를 보내 해당 장치를 관리합니다. 3월 서비스 릴리스에서 도입하는 향상된 관리자 UI 경험은 공유되는 데이터에 더 큰 투명성을 제공할 예정입니다. 이러한 UI 변경에 영향을 미치는 최종 사용자는 없습니다.
+
+#### <a name="how-does-this-affect-me"></a>이 변경 사항은 어떤 영향을 미치나요?
+
+데이터 창을 공유하는 데 동의하는 시나리오는 다음과 같습니다.
+- Android for Work를 사용하는 경우 
+- Apple MDM 푸시 인증서를 사용하고 업로드하는 경우 
+- DEP(장비 등록 프로그램), School Manager 및 Volume Purchasing Program 등의 Apple 서비스 중 하나를 사용하는 경우
+
+각각의 경우에 동의는 IT 관리자가 등록을 위해 Google 또는 Apple 장치를 인증했는지 확인하는 것처럼 모바일 장치 관리 서비스 실행에 대해 엄격히 적용됩니다. 새 워크플로가 가동할 때 어떤 정보를 공유하는지 대답하는 설명서는 다음에서 사용할 수 있습니다.
+- [Intune이 Google에 보내는 데이터](data-intune-sends-to-google.md)
+- [Intune이 Apple에 보내는 데이터](data-intune-sends-to-apple.md)
+
+#### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>이러한 변경에 대해 준비하려면 어떻게 해야 하나요?
+
+이는 사소한 워크플로 UI 업데이트이므로 이러한 변경에 대해 준비할 필요는 없습니다. Microsoft의 GDPR 준수에 대한 자세한 내용은 추가 정보 링크에서 액세스 가능한 보안 센터를 참조하십시오.
+
+
 
 ### <a name="plan-for-change-update-where-you-configure-your-app-protection-policies"></a>변경 계획: 앱 보호 정책을 구성한 업데이트
 

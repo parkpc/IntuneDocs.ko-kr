@@ -1,11 +1,12 @@
 ---
-title: "Power BI를 사용하여 데이터 웨어하우스 연결 | Microsoft 문서"
-description: "Intune 테넌트에 대해 동적으로 생성된 보고서인 인터랙티브 다운로드를 위해 Microsoft Power BI용 파일을 다운로드할 수 있습니다."
+title: "Power BI를 통해 데이터 웨어하우스에 연결"
+titlesuffix: Microsoft Intune
+description: "Microsoft Intune 테넌트에 대해 동적으로 생성된 보고서인 인터랙티브 다운로드를 위해 Microsoft Power BI용 파일을 다운로드할 수 있습니다."
 keywords: "Intune 데이터 웨어하우스"
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/13/2017
+ms.date: 01/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +15,11 @@ ms.assetid: 5E5A35D3-88F8-441B-8A0B-C5D7A1E5137B
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: fa7c578cd8dba84910bae9b9f204c8057c76bf6b
-ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
+ms.openlocfilehash: 1266fa4cc5ef958e369e58b0a6619e2bab3dd3eb
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="connect-to-the-data-warehouse-with-power-bi"></a>Power BI를 통해 데이터 웨어하우스에 연결
 

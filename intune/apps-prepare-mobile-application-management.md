@@ -1,10 +1,11 @@
 ---
-title: "Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정"
-description: "이 항목의 정보는 LOB(기간 업무) 앱이 모바일 앱 관리 정책을 사용하도록 하기 위해 앱 줄 바꿈 도구 및 앱 SDK를 사용해야 하는 경우를 결정하는 데 도움이 됩니다."
+title: "앱 보호 정책에 대해 LOB(기간 업무) 앱 준비"
+titlesuffix: Microsoft Intune
+description: "앱 래핑 도구와 앱 SDK를 사용하여 사용자 지정 기간 업무(LOB) 앱이 Microsoft Intune에서 앱 보호 정책을 사용하게 할 수 있습니다."
 keywords: 
-author: erikre
+author: Erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 01/24/2018
 ms.topic: article
 ms.prod: 
@@ -14,11 +15,11 @@ ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6b2ab30f9bf061e7ea4a34372e7c99e059c6e30f
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 76330c926ecac9ae8b071837465d800f48f925fb
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>앱 보호 정책에 대해 LOB(기간 업무) 앱 준비
 
@@ -102,6 +103,7 @@ SDK에 대해 자세히 알아보려면 [개요](app-sdk.md) 항목을 참조하
 |대상 응용 프로그램 구성 |X||
 |다중 ID 지원|X||
 |사용자 지정 가능한 스타일 |X|||
+
 ## <a name="next-steps"></a>다음 단계
 
 앱 보호 정책 및 Intune에 대한 자세한 내용은 다음 항목을 참조하세요.

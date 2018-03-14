@@ -1,12 +1,12 @@
 ---
-title: "Intune에 Windows 스토어 앱을 추가하는 방법"
-titleSuffix: Azure portal
-description: "Intune에 Windows 스토어 앱을 추가하는 방법을 알아봅니다.\""
+title: "Microsoft Intune에 Windows 스토어 앱을 추가하는 방법"
+titleSuffix: 
+description: "Microsoft Intune에 Windows 스토어 앱을 추가하는 방법을 알아봅니다."
 keywords: 
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 05/04/2017
+ms.date: 01/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,38 +15,40 @@ ms.assetid: 07241b6d-86d8-4abb-83a2-3fc5feae5788
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: cdc1696175f26dc4bb89fcdd005d88bc0948f86d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 815f780ef9f04870f19e75481ed74f0a1c3601f3
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="how-to-add-windows-store-apps-to-microsoft-intune"></a>Microsoft Intune에 Windows 스토어 앱을 추가하는 방법
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
+앱을 할당, 모니터링, 구성 또는 보호하려면 앱을 Intune에 추가해야 합니다. 다음 단계를 사용하면 Microsoft Intune에 Windows 스토어 앱을 추가할 수 있습니다.
 
-1. Azure 포털에 로그인합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
 2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 3. **Intune** 블레이드에서 **앱 관리**를 선택합니다.
-4. **모바일 앱** 워크로드에서 **관리** > **앱**을 선택합니다.
-5. 앱 목록 위에서 **추가**를 선택합니다.
-6. **앱 추가** 블레이드에서 **앱 정보**를 선택합니다.
-7. **앱 편집** 블레이드에서 다음 정보를 구성합니다. 작업이 끝나면 **추가**를 클릭합니다. 선택한 앱에 따라 이 블레이드의 일부 값이 자동으로 채워질 수 있습니다.
+4. **모바일 앱** 워크로드의 **관리** 섹션에서 **앱**을 선택합니다.
+5. 목록 위의 **추가**를 선택합니다.
+6. 목록에서 사용할 수 있는 **스토어 앱** 형식에서 **Windows**를 선택합니다.
+7. **앱 정보**를 선택해 앱 정보를 구성합니다.
+8. **앱 정보** 블레이드에서 다음 정보를 구성합니다. 선택한 앱에 따라 이 창의 일부 값은 자동으로 채워질 수 있습니다.
     - **앱 이름** - 회사 포털에 표시되는 앱의 이름을 입력합니다. 사용하는 모든 앱 이름이 고유한지 확인합니다. 같은 앱 이름을 두 번 사용하는 경우에는 회사 포털에서 앱 중 하나만 사용자에게 표시됩니다.
-    - **앱 설명** - 앱에 대한 설명을 입력합니다. 이 설명은 회사 포털에서 사용자에게 표시됩니다.
+    - **설명** - 앱에 대한 설명을 입력합니다. 이 설명은 회사 포털에서 사용자에게 표시됩니다.
     - **게시자** - 앱의 게시자 이름을 입력합니다.
-    - **앱 스토어 URL** - 만들려는 앱의 앱 스토어 URL을 입력합니다.
-    - **최소 운영 체제** - 목록에서 앱을 설치할 수 있는 최소 운영 체제 버전을 선택합니다. 이전 버전의 운영 체제를 사용하는 장치에 앱을 할당할 경우 앱이 설치되지 않습니다.
-    - **범주(선택 사항)** - 기본 제공 앱 범주 중 하나 이상 또는 사용자가 만든 범주를 선택합니다. 이렇게 하면 사용자가 회사 포털을 찾아볼 때 앱을 더 쉽게 찾을 수 있습니다.
+    - **앱 스토어 URL** - 만들려는 앱의 앱 스토어 URL을 입력합니다. 
+    - **범주**(선택 사항) - 앱 범주 중 하나 이상 또는 사용자가 만든 범주를 선택합니다. 이 정보를 추가하면 사용자가 회사 포털을 찾아볼 때 앱을 더 쉽게 찾을 수 있습니다.
     - **회사 포털에서 이 항목을 추천 앱으로 표시** - 사용자가 앱을 찾을 때 회사 포털의 기본 페이지에서 앱이 눈에 띄게 표시됩니다.
-    - **정보 URL** - 필요에 따라 이 앱에 대한 정보를 포함하는 웹 사이트의 URL을 입력합니다. URL은 회사 포털에서 사용자에게 표시됩니다.
-    - **개인 정보 URL** - 필요에 따라 이 앱에 대한 개인 정보 관련 정보를 포함하는 웹 사이트의 URL을 입력합니다. URL은 회사 포털에서 사용자에게 표시됩니다.
-    - **개발자** - 필요에 따라 앱 개발자의 이름을 입력합니다.
-    - **소유자** - 필요에 따라 이 앱의 소유자 이름을 입력합니다(예: **HR 부서**).
-    - **메모** - 이 앱과 연결할 모든 메모를 입력합니다.
+    - **정보 URL** - (선택 사항) 이 앱에 대한 정보를 포함하는 웹 사이트의 URL을 입력합니다. URL은 회사 포털에서 사용자에게 표시됩니다.
+    - **개인 정보 URL** - (선택 사항) 이 앱에 대한 개인 정보 관련 정보를 포함하는 웹 사이트의 URL을 입력합니다. URL은 회사 포털에서 사용자에게 표시됩니다.
+    - **개발자** - (선택 사항) 앱 개발자의 이름을 입력합니다.
+    - **소유자** - (선택 사항) 이 앱의 소유자 이름을 입력합니다(예: **HR 부서**).
+    - **메모** - (선택 사항) 이 앱과 연결할 모든 메모를 입력합니다.
     - **아이콘 업로드** - 앱과 연결할 아이콘을 업로드합니다. 사용자가 회사 포털을 찾아볼 때 이 아이콘이 앱과 함께 표시됩니다.
-8. 작업을 마치면 **앱 추가** 블레이드에서 **저장**을 선택합니다.
+1. 필요한 모든 앱 정보를 입력한 경우 **확인**을 클릭합니다.
+2. **추가 앱** 블레이드에서 **추가**를 클릭합니다.
 
 만든 앱이 앱 목록에 표시됩니다. 이 목록에서 선택한 그룹에 앱을 할당할 수 있습니다. 도움말은 [그룹에 앱을 할당하는 방법](apps-deploy.md)을 참조하세요.
 
@@ -59,16 +61,22 @@ ms.lasthandoff: 01/25/2018
 1. 자신의 계정으로 [비즈니스용 Microsoft 스토어](https://www.microsoft.com/business-store)에 로그인하고 **오프라인 라이선스** 버전의 회사 포털 앱을 가져옵니다.  
 2. 앱을 가져왔으면 **인벤토리** 페이지에서 앱을 선택합니다.  
 3. **플랫폼**으로 **Windows 10 all devices**(Windows 10 모든 장치)를 선택한 다음 적절한 **아키텍처**를 선택하고 다운로드합니다. 이 앱에는 앱 라이선스 파일이 필요 없습니다.
-![Windows 10 모든 장치 및 아키텍처 X86 패키지 다운로드 세부 정보를 보여 주는 이미지](./media/Win10CP-all-devices.png)
+
+    ![Windows 10 모든 장치 및 아키텍처 X86 패키지 다운로드 세부 정보를 보여 주는 이미지](./media/Win10CP-all-devices.png)
+
 4. "Required Frameworks"(필요한 프레임워크)에 나온 모든 패키지를 다운로드합니다. x86, x64 및 ARM 아키텍처에 대해 수행해야 하므로 아래와 같이 총 9개의 패키지가 됩니다.
 
-![다운로드할 종속성 파일의 이미지 ](./media/Win10CP-dependent-files.png)
+    ![다운로드할 종속성 파일의 이미지](./media/Win10CP-dependent-files.png)
+
 5. 회사 포털 앱을 Intune에 업로드하기 전에 패키지를 포함하는 폴더(예: C:&#92;Company Portal)를 다음과 같은 방법으로 만듭니다.
-  1. C:\Company Portal에 회사 포털 패키지를 배치합니다. 이 위치에 Dependencies 하위 폴더도 만듭니다.  
-  ![APPXBUN 파일과 함께 저장된 Dependencies 폴더의 이미지](./media/Win10CP-Dependencies-save.png)
-  2. Dependencies 폴더에 9개의 종속성 패키지를 배치합니다.  
-  종속성을 이 형식으로 배치하지 않는 경우 Intune은 패키지 업로드 도중에 패키지를 인식 및 업로드할 수 없습니다. 이에 따라 업로드에 실패하고 다음과 같은 오류가 표시됩니다.  
-  ![이 소프트웨어 설치 관리자의 Windows 앱 종속성이 응용 프로그램 폴더에 없습니다. 이 응용 프로그램을 계속 만들고 할당할 수 있지만 누락된 Windows 앱 종속성이 제공될 때까지 실행되지 않습니다.](./media/Win10CP-error-message.png)
+  - C:\Company Portal에 회사 포털 패키지를 배치합니다. 이 위치에 Dependencies 하위 폴더도 만듭니다.  
+  
+    ![APPXBUN 파일과 함께 저장된 Dependencies 폴더의 이미지](./media/Win10CP-Dependencies-save.png)
+
+  - Dependencies 폴더에 9개의 종속성 패키지를 배치합니다. 종속성을 이 형식으로 배치하지 않는 경우 Intune은 패키지 업로드 도중에 패키지를 인식 및 업로드할 수 없습니다. 이에 따라 업로드에 실패하고 다음과 같은 오류가 표시됩니다. 
+
+      ![이 소프트웨어 설치 관리자의 Windows 앱 종속성이 응용 프로그램 폴더에 없습니다. 이 응용 프로그램을 계속 만들고 할당할 수 있지만 누락된 Windows 앱 종속성이 제공될 때까지 실행되지 않습니다.](./media/Win10CP-error-message.png)
+
 6. Intune으로 돌아간 후 회사 포털 앱을 새 앱으로 업로드합니다. 원하는 대상 사용자 집합에게 필수 앱으로 할당합니다.  
 
 Intune에서 유니버설 앱의 종속성을 처리하는 방식에 대한 자세한 내용은 [Deploying an appxbundle with dependencies via Microsoft Intune MDM(Microsoft Intune MDM을 통해 종속성이 포함된 appxbundle 배포)](https://blogs.technet.microsoft.com/configmgrdogs/2016/11/30/deploying-an-appxbundle-with-dependencies-via-microsoft-intune-mdm/)을 참조하세요.  
@@ -77,14 +85,14 @@ Intune에서 유니버설 앱의 종속성을 처리하는 방식에 대한 자�
 사용자가 이미 스토어에서 Windows 8.1 또는 Windows Phone 8.1 회사 포털 앱을 설치한 경우 관리자나 사용자의 별도 조치가 필요 없이 앱이 자동으로 새 버전으로 업데이트됩니다. 업데이트가 이루어지지 않는 경우 사용자에게 장치에서 스토어 앱에 대해 자동 업데이트를 활성화했는지 확인하도록 요청합니다.   
 
 ### <a name="how-do-i-upgrade-my-sideloaded-windows-81-company-portal-app-to-the-windows-10-company-portal-app"></a>사이드로드한 Windows 8.1 회사 포털 앱을 Windows 10 회사 포털 앱으로 어떻게 업그레이드하나요?
-권장되는 마이그레이션 경로는 할당 작업을 "제거"로 설정하여 Windows 8.1 회사 포털 앱의 할당을 삭제하는 것입니다. 이 작업이 완료되면 위의 옵션 중 하나를 사용하여 Windows 10 회사 포털 앱을 할당할 수 있습니다.  
+권장되는 마이그레이션 경로는 할당 작업을 "제거"로 설정하여 Windows 8.1 회사 포털 앱의 할당을 삭제하는 것입니다. 이 설정이 완료되면 위의 옵션 중 하나를 사용하여 Windows 10 회사 포털 앱을 할당할 수 있습니다.  
 
 앱을 사이드로드해야 하며 Symantec 인증서로 서명하지 않고 Windows 8.1 회사 포털을 할당한 경우에는 위의 Intune 섹션을 통해 직접 할당의 단계를 따라 업그레이드를 완료합니다.
 
 앱을 사이드로드해야 하며 Symantec 코드 서명 인증서로 Windows 8.1 회사 포털을 서명 및 할당한 경우에는 아래 섹션의 단계를 따릅니다.  
 
 ### <a name="how-do-i-upgrade-my-signed-and-sideloaded-windows-phone-81-company-portal-app-or-windows-81-company-portal-app-to-the-windows-10-company-portal-app"></a>서명 및 사이드로드된 Windows Phone 8.1 회사 포털 앱이나 Windows 8.1 회사 포털 앱을 어떻게 Windows 10 회사 포털 앱으로 업그레이드하나요?
-권장되는 마이그레이션 경로는 할당 작업을 "제거"로 설정하여 Windows Phone 8.1 회사 포털 앱 또는 Windows 8.1 회사 포털 앱의 기존 할당을 삭제하는 것입니다. 이 작업이 완료되면 Windows 10 회사 포털 앱을 정상적으로 할당할 수 있습니다.  
+권장되는 마이그레이션 경로는 할당 작업을 "제거"로 설정하여 Windows Phone 8.1 회사 포털 앱 또는 Windows 8.1 회사 포털 앱의 기존 할당을 삭제하는 것입니다. 이 설정이 완료되면 Windows 10 회사 포털 앱을 정상적으로 할당할 수 있습니다.  
 
 이 작업을 마치지 않는 경우에는 업그레이드 경로를 준수하도록 Windows 10 회사 포털 앱을 적절하게 업데이트하고 서명해야 합니다.  
 

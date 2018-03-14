@@ -1,9 +1,10 @@
 ---
 title: "Intune 테스트 및 유효성 검사"
-description: "사용자 환경에서 Intune 클라우드 전용 솔루션을 테스트하고 유효성 검사하는 경우 고려해야 할 세부 정보입니다."
+titlesuffix: Microsoft Intune
+description: "사용자 환경에서 Intune 클라우드 전용 솔루션의 테스트 및 유효성 검사 방법."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: dougeby
+ms.author: dougeby
 manager: dougeby
 ms.date: 10/31/2017
 ms.topic: article
@@ -13,15 +14,15 @@ ms.technology:
 ms.assetid: 4f82ee0c-4bd6-4623-9b10-9249d316ccf5
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
-ms.openlocfilehash: 8521ae12062ad73dfddb0f03aeac8c07ce65de58
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 1346c0f5b0e1665e49e09fc566b9ff3da17fc17a
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="intune-testing-and-validation"></a>Intune 테스트 및 유효성 검사
 
-테스트 단계는 구현 단계 중 그리고 구현 단계 후에 모두 발생합니다. 이전에 확인한 모든 필수 IT(관리자) 및 최종 사용자(사용 사례) 시나리오를 테스트하기 위한 테스트 계정, 그룹 및 장치가 있어야 합니다.
+Microsoft Intune 구현을 테스트할 때 기능 유효성 검사 및 사용 사례 유효성 검사를 고려 합니다. 기능 유효성 검사는 각 구성 요소 및 구성이 올바르게 작동하는지 확인하는 테스트로 구성됩니다. 사용 사례 유효성 검사는 일련의 작업이 연관된 시나리오가 예상 대로 작동하는지 확인하는 테스트가 포함됩니다. 
 
 지원 설명서를 만들도록 테스트 단계에 IT 지원 및 지원 센터 직원을 포함하는 것이 좋습니다. 그러면 IT 지원 및 지원 센터 직원의 제품 지원이 편리해집니다. 구성 요소 또는 시나리오가 사용 사례에 따라 작동하지 않을 경우 필요한 변경 내용을 문서화하고 변경을 수행한 이유를 포함해야 합니다.
 

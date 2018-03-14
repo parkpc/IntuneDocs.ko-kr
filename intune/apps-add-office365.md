@@ -1,12 +1,12 @@
 ---
-title: "Intune을 사용하여 모바일 장치에 Office 365 앱 설치"
-titlesuffix: Azure portal
-description: "Intune을 사용하여 Office 365 앱을 Windows 10 장치에 더 간편하게 설치하는 방법을 알아봅니다."
+title: "Intune을 사용하여 장치에 Office 365 앱 설치"
+titlesuffix: 
+description: "Microsoft Intune을 사용하여 Office 365 앱을 Windows 10 장치에 더 간편하게 설치하는 방법을 알아봅니다."
 keywords: 
-author: dougeby
-ms.author: dougeby
+author: Erikre
+ms.author: erikre
 manager: dougeby
-ms.date: 01/29/2018
+ms.date: 02/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 3292671a-5f5a-429e-90f7-b20019787d22
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f6ef1d1dab39a6939b80bd13ba090424a67c6f53
-ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
+ms.openlocfilehash: 1a8045261f93c6ac0282a03f13ac7bb7a7caac0d
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="how-to-assign-office-365-proplus-apps-to-windows-10-devices-with-microsoft-intune"></a>Microsoft Intune을 사용하여 Office 365 ProPlus 앱을 Windows 10 장치에 할당하는 방법
 
@@ -85,11 +85,11 @@ ms.lasthandoff: 02/19/2018
 1.  **앱 추가** 블레이드에서 **앱 패키지 설정**을 선택합니다.
 2.  **앱 패키지 설정** 블레이드에서 다음 정보를 지정합니다.
     - **Office 버전** - Office의 32비트 또는 64비트 비전을 할당할지 여부를 선택합니다. 32비트 버전은 32비트 및 64비트 장치에 모두 설치할 수 있지만, 64비트 버전은 64비트 장치에만 설치할 수 있습니다.
-    - **업데이트 채널** - 장치에서 Office를 업데이트하는 방법을 선택합니다. 다양한 업데이트 채널에 대한 자세한 내용은 Office 365 ProPlus의 업데이트 채널 개요를 참조하세요. 다음 중에서 선택합니다.
-        - **현재**
-        - **지연**
-        - **첫 번째 릴리스 현재**
-        - **첫 번째 릴리스 지연**
+    - **업데이트 채널** - 장치에서 Office를 업데이트하는 방법을 선택합니다. 다양한 업데이트 채널에 대한 자세한 내용은 [Office 365 ProPlus의 업데이트 채널 개요](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)를 참조하세요. 다음 중에서 선택합니다.
+        - **매월**
+        - **매월(대상 지정됨)**
+        - **반년마다**
+        - **반년마다(대상 지정됨)**
     - **Automatically accept the app end user license agreement**(앱 최종 사용자 사용권 계약 자동으로 동의) - 최종 사용자가 사용권 계약에 동의하도록 요구하지 않으려면 이 옵션을 선택합니다. Intune에서 자동으로 계약에 동의합니다.
     - **공유 컴퓨터 인증 사용** - 여러 사용자가 컴퓨터를 공유할 경우 공유 컴퓨터 인증이 사용됩니다. 자세한 내용은 Office 365 ProPlus의 공유 컴퓨터 인증 개요를 참조하세요.
     - **언어** - Office는 최종 사용자 장치에 Windows와 함께 설치된 지원 언어로 자동으로 설치됩니다. 앱 패키지와 함께 추가 언어를 설치하려면 이 옵션을 선택합니다.

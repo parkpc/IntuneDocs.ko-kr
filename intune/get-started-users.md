@@ -1,10 +1,10 @@
 ---
-title: "사용자 시작"
-titlesuffix: Azure portal
-description: "모바일 장치에서 회사 리소스에 액세스할 수 있도록 Intune에 사용자를 추가합니다."
+title: "사용자 관리 시작"
+titlesuffix: Microsoft Intune
+description: "모바일 장치에서 회사 리소스에 액세스할 수 있도록 라이선스 할당하고 Intune에 사용자를 추가합니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 10/31/2017
 ms.topic: article
@@ -15,13 +15,13 @@ ms.assetid: 22a232de-ab93-44ab-b0b5-d2b3ccb007fe
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 297a9244bac8e45e14e1d22cadee9088c87f34a3
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 4e06b335c03caee0bd997748f9c48ed78d7d379b
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="get-started-with-managing-users"></a>사용자 관리 시작
+# <a name="get-started-managing-users"></a>사용자 관리 시작
 
 조직에 있는 각기 다른 사람에 대해 생각해 보세요. 회사 데이터를 사용하는 이러한 모든 사람은 Intune에서 회사 데이터에 대한 액세스를 관리할 사용자가 필요합니다.
 

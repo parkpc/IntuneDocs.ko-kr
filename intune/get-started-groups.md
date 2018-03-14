@@ -1,10 +1,10 @@
 ---
-title: "그룹 시작"
-titleSuffix: Azure portal
+title: "Microsoft Intune에서 그룹 만들기"
+titleSuffix: 
 description: "사용자가 액세스할 수 있는 정책 및 앱을 더 쉽게 관리할 수 있도록 사용자를 그룹으로 구성합니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 10/31/2017
 ms.topic: article
@@ -15,13 +15,13 @@ ms.assetid: 39a93fb5-d318-4997-a409-b64549a00e7a
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 63a35c04a14ebd79ac55f1dab2680d70008ee0ed
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: e052f7c8d5742859d009816473fe97a98c499b17
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="get-started-with-groups"></a>그룹 시작
+# <a name="create-a-group-to-manage-your-users-and-data-access"></a>사용자 및 데이터 액세스를 관리하는 그룹 만들기
 
 그룹은 사용자를 관리하고 회사 리소스에 직원의 액세스를 제어하는 데 사용됩니다. 이러한 리소스는 디렉터리의 일부이거나 SaaS 앱 또는 SharePoint 사이트와 같은 외부 리소스일 수 있습니다.
 

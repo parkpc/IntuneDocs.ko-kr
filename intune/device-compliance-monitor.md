@@ -1,10 +1,10 @@
 ---
-title: "장치 준수를 모니터링하는 방법"
-titlesuffix: Azure portal
+title: "장치 준수 모니터링"
+titlesuffix: Microsoft Intune
 description: "장치 준수를 모니터링하는 방법을 알아봅니다.\""
 keywords: 
-author: andredm7
-ms.author: andredm
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 12/07/2016
 ms.topic: article
@@ -15,26 +15,26 @@ ms.assetid: 0790934b-48b9-435b-a8aa-e83ed5b73191
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9cd8bb0486164dd9dfe020261da9079ea5a68633
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 708ed5a335d3475c213a536da9072afb1ad32ef9
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
-# <a name="how-to-monitor-device-compliance-in-intune"></a>Intune에서 장치 준수를 모니터링하는 방법
+# <a name="monitor-device-compliance-in-intune"></a>Intune에서 장치 준수 모니터
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 **개요** 블레이드에서 **준수 프로필**의 상태 요약을 볼 수 있습니다.
-대화형으로 방식으로 차트를 클릭하여 세부 정보로 드릴다운할 수 있습니다. 여러 준수 프로필을 구성한 경우 정책 블레이드로 이동한 후 **관리** 섹션에서 **보고서**를 선택하여 각 정책의 상태를 확인할 수도 있습니다.  사용할 수 있는 보고서의 세부 정보는 다음과 같습니다.
+대화형으로 방식으로 차트를 클릭하여 세부 정보로 드릴다운할 수 있습니다. 여러 준수 프로 파일을 구성한 경우 **관리** > **보고서** 아래 정책 블레이드에서 정책 상태를 볼 수 있습니다.
 
 ##  <a name="device-compliance"></a>장치 정책 준수
 
 장치 준수 보고서의 요약 보기에는 다음 중 하나로 보고되는 장치 수에 대한 집계된 정보가 표시됩니다.
 
-- **규격**: 최근에 장치에 대한 준수 여부가 평가되었으며 지정한 준수 프로필 설정을 준수하는 것으로 확인되었습니다.
+- **규격**: 장치는 최근에 평가됐으며 지정한 준수 프로필 설정을 준수합니다.
 - **비규격**: 장치가 평가되고 비규격으로 확인되었습니다.  프로필에 지정된 유예 기간이 있는 경우 유예 기간이 만료되어 장치가 비규격 상태가 되었습니다.
-- **유예 기간**: 장치가 평가되고 비규격으로 확인되었습니다. 그러나 장치가 실제로 비규격으로 표시되기 전까지 유예 기간이 계속 적용됩니다.
+- **유예 기간**: 장치가 평가되고 비규격으로 확인되었습니다. 그러나 장치가 비규격으로 표시되기 전까지 유예 기간이 계속 적용됩니다.
 
 각 섹션을 드릴다운하여 개별 장치 및 사용자에 대한 세부 정보를 확인할 수 있습니다.
 

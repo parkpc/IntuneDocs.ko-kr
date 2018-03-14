@@ -3,10 +3,10 @@ title: "Intune을 사용하여 WIP(Windows Information Protection) 앱 보호 �
 titlesuffix: Azure portal
 description: "Intune을 사용하여 WIP 앱 보호 정책 만들기 및 배포"
 keywords: 
-author: arob98
-ms.author: angrobe
-manager: dougeby
-ms.date: 12/29/2017
+author: Erikre
+ms.author: erikre
+manager: doubeby
+ms.date: 02/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 4e3627bd-a9fd-49bc-b95e-9b7532f0ed55
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 67d8a6eb4f284cf1922f9f79a8b767c124b66b06
-ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
+ms.openlocfilehash: 647e6fd129593156f2ba24299a19e96686206165
+ms.sourcegitcommit: 1978a30ab1af0f43aa5f447690d0bbcdcb9b563b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Intune을 사용하여 WIP(Windows Information Protection) 앱 보호 정책 만들기 및 배포
 
@@ -49,7 +49,7 @@ WIP 정책을 추가할 때 적용되는 몇 가지 개념에 대해 살펴보�
 
 WIP 앱 보호 정책을 만들려면 먼저 MAM 공급자를 구성해야 합니다. [Intune을 사용하여 MAM 공급자를 구성하는 방법](app-protection-policies-configure-windows-10.md)에 대해 자세히 알아보세요.
 
-다음과 같은 구성 요소도 필요합니다.
+다음과 같은 라이센스와 업데이트도 필요합니다.
 
 -   [Azure AD Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium) 라이선스
 -   [Windows 크리에이터 업데이트](https://blogs.windows.com/windowsexperience/2017/04/11/how-to-get-the-windows-10-creators-update/#o61bC2PdrHslHG5J.97)
@@ -60,7 +60,7 @@ WIP 앱 보호 정책을 만들려면 먼저 MAM 공급자를 구성해야 합�
 
 ## <a name="to-add-a-wip-policy"></a>WIP 정책을 추가하려면
 
-조직에 Intune을 설치한 후에는 [Azure Portal](https://docs.microsoft.com/intune-classic/deploy-use/azure-portal-for-microsoft-intune-mam-policies)을 통해 WIP 관련 정책을 만들 수 있습니다. <!---Is there an azure topic you can use instead of a classic? if not, should this topic be moved into the azure docset?--->
+조직에 Intune을 설치한 후에는 [Azure Portal](https://docs.microsoft.com/intune-classic/deploy-use/azure-portal-for-microsoft-intune-mam-policies)을 통해 WIP 관련 정책을 만들 수 있습니다. <!---Is there an azure topic you can use instead of a classic? if not, should this topic be moved into the azure doc set?--->
 
 1.  **Intune 모바일 응용 프로그램 관리 대시보드**로 이동하여 **모든 설정** > **앱 정책**을 차례로 선택합니다.
 
@@ -80,7 +80,7 @@ WIP 앱 보호 정책을 만들려면 먼저 MAM 공급자를 구성해야 합�
 
 1.  **앱 정책** 블레이드에서 정책의 이름을 선택한 다음 **정책 추가** 블레이드에서 **허용되는 앱**을 선택합니다. **허용되는 앱** 블레이드가 열리고 이 앱 보호 정책의 목록에 이미 포함된 모든 앱이 표시됩니다.
 
-2.  **허용되는 앱** 블레이드에서 **앱 추가**를 선택합니다. **앱 추가** 블레이드가 열리고 이 목록에 포함된 모든 앱이 표시됩니다.
+2.  **허용되는 앱** 블레이드에서 **앱 추가**를 선택합니다. **앱 추가** 정보가 이 목록에 포함된 모든 앱을 표시합니다.
 
 3.  회사 데이터에 액세스하려는 각 앱을 선택한 다음 **확인**을 선택합니다. **허용되는 앱** 블레이드가 업데이트되어 선택한 모든 앱이 표시됩니다.
 
@@ -92,7 +92,7 @@ WIP 앱 보호 정책을 만들려면 먼저 MAM 공급자를 구성해야 합�
 
 2.  **허용되는 앱** 블레이드에서 **앱 추가**를 선택합니다.
 
-3.  **앱 추가** 블레이드의 드롭다운 목록에서 **스토어 앱**을 선택합니다. 블레이드가 변경되어 **게시자** 및 앱 **이름**을 추가할 수 있는 상자가 표시됩니다.
+3.  **앱 추가** 블레이드의 드롭다운 목록에서 **스토어 앱**을 선택합니다. 정보가 변경되어 **게시자** 및 앱 **이름**을 추가할 수 있는 상자가 표시됩니다.
 
 4.  앱의 이름과 해당 게시자의 이름을 입력하고 **확인**을 선택합니다.
 
@@ -137,7 +137,7 @@ WIP 지원 앱 및 WIP 알 수 없는 앱으로 작업하는 경우, 허용되�
 WIP가 부적절한 데이터 공유 사례를 찾아 사용자의 작업 완료를 중지시킵니다. 부적절한 데이터 공유 사례에는 회사에서 보호하지 않는 앱 간에 정보를 공유하는 행위, 조직 외부의 타인과 장치 간에 회사 데이터를 공유하는 행위 등이 포함될 수 있습니다.
 
 #### <a name="allow-overrides"></a>재정의 허용
-WIP가 부적절한 데이터 공유를 찾은 다음 사용자가 안전하지 않을 수 있는 작업을 수행하면 경고를 표시합니다. 그러나 이 모드에서는 사용자가 정책을 재정의하고 데이터를 공유할 수 있습니다. 그러면 해당 작업이 감사 로그에 로깅됩니다.
+WIP가 부적절한 데이터 공유를 찾은 다음, 사용자가 안전하지 않을 수 있는 작업을 수행할 때 경고를 표시합니다. 그러나 이 모드에서는 사용자가 정책을 재정의하고 데이터를 공유할 수 있습니다. 그러면 해당 작업이 감사 로그에 로깅됩니다.
 
 #### <a name="silent"></a>자동
 재정의 허용 모드에서 직원 상호 작용을 묻는 메시지를 차단하지 않고도 WIP가 자동으로 실행되어 부적절한 데이터 공유를 로깅합니다. 그러나 네트워크 리소스 또는 WIP로 보호되는 데이터에 대한 앱의 부적절한 액세스 시도와 같은 허용되지 않는 작업은 계속 중지됩니다.
@@ -149,11 +149,11 @@ WIP를 해제하고 나면 로컬로 연결된 드라이브에서 WIP 태그가 
 
 ### <a name="add-a-protection-mode"></a>보호 모드 추가
 
-1.  **앱 정책** 블레이드에서 정책의 이름을 선택한 다음 **필수 설정**을 선택합니다.
+1.  **앱 정책** 블레이드에서 정책의 이름을 선택한 다음, **필수 설정**을 선택합니다.
 
     ![학습 모드 스크린샷](./media/learning-mode-sc1.png)
 
-1.  **저장**을 선택합니다.
+2.  **저장**을 선택합니다.
 
 ### <a name="use-wip-learning"></a>WIP 학습 사용
 
@@ -165,10 +165,23 @@ WIP를 해제하고 나면 로컬로 연결된 드라이브에서 WIP 태그가 
  
     WIP 학습 로깅 보고서에 앱이 표시되면 앱 보호 정책에 해당 앱을 추가할 수 있습니다.
 
+## <a name="allow-windows-search-indexer-to-search-encrypted-items"></a>Windows Search Indexer가 암호화된 항목을 검색 하게 합니다
+항목의 인덱싱을 허용하거나 허용하지 않습니다. WIP(Windows Information Protection)로 보호되는 파일 같이 암호화된 항목을 인덱싱할지 여부를 제어하는 Windows Search Indexer용 스위치입니다.
+
+이 앱 보호 정책은 WIP 정책의 **고급 설정**에 있습니다. 앱 보호 정책은 *Windows 10* 플랫폼에 설정돼야 하며 해당 앱 정책 **등록 상태**는 **등록을 통해** 설정돼야 합니다. 
+
+정책을 사용할 때 WIP로 보호되는 항목은 인덱싱되고 이 항목에 대한 메타데이터는 암호화되지 않은 위치에 저장됩니다. 해당 메타데이터는 파일 경로 및 수정된 날짜 같은 것을 포함합니다.
+
+정책을 사용하지 않을 때 WIP로 보호되는 항목은 인덱싱되지 않고 Cortana 또는 파일 탐색기의 결과에도 표시되지 않습니다. 해당 장치에 WIP로 보호되는 미디어 파일이 많은 경우 사진이나 Groove 앱의 성능에 영향을 줄 수도 있습니다.
+
+## <a name="add-encrypted-file-extensions"></a>암호화된 파일 확장명 추가
+
+**Windows Search Indexer가 암호화된 항목 검색하도록 허용** 옵션을 설정할 뿐 아니라 파일 확장명 목록도 지정할 수 있습니다. 네트워크 위치 목록에서 정의된 것처럼 기업 내의 SMB(서버 메시지 블록) 공유에서 복사하는 경우 이러한 확장명의 파일은 암호화됩니다. 이 정책이 지정되지 않은 경우 기존 자동 암호화 동작이 적용됩니다. 이 정책이 구성된 경우 목록에서 확장명을 가진 파일만 암호화됩니다.
+
 ## <a name="deploy-your-wip-app-protection-policy"></a>WIP 앱 보호 정책 배포
 
 > [!IMPORTANT]
-> 장치 등록 없이 WIP에 적용됩니다.
+> 이 정보는 장치 등록 없이 WIP에 적용됩니다.
 
 <!---not sure why you need the Important note. Isn't this what the topic is about? app protection w/o enrollment?--->
 
@@ -178,4 +191,8 @@ WIP 앱 보호 정책을 만든 후에는 MAM을 사용하여 조직에 정책�
 
     **사용자 그룹 추가** 블레이드에서 Azure Active Directory의 모든 보안 그룹이 포함된 사용자 그룹 목록이 열립니다.
 
-1.  정책을 적용할 그룹을 선택하고 **선택**을 선택하여 정책을 배포합니다.
+2.  정책을 적용할 그룹을 선택하고 **선택**을 선택하여 정책을 배포합니다.
+
+## <a name="next-steps"></a>다음 단계
+
+- WIP에 대한 자세한 내용은 [WIP(Windows Information Protection)를 사용하여 엔터프라이즈 데이터 보호](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)를 참조하세요. 

@@ -1,25 +1,23 @@
 ---
-title: "Intune 장치 제한 설정 구성"
-titleSuffix: Azure portal
-description: "관리하는 장치에서 Intune을 사용하여 설정 및 기능을 구성하는 방법을 알아봅니다.\""
+title: "Microsoft Intune 장치 제한 설정 구성"
+titleSuffix: 
+description: "관리하는 장치에서 Microsoft Intune을 사용하여 설정 및 기능을 구성하는 방법을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 04/12/2017
+ms.date: 3/1/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 93b6a642f26ec6273853f75d063fd368698f3864
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: 62c12cde5ca128a26b10e0e4516e0bbf7e0f0bbb
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="how-to-configure-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune에서 장치 제한 설정을 구성하는 방법
 
@@ -33,16 +31,16 @@ ms.lasthandoff: 02/01/2018
 
 예를 들어 iOS 장치의 사용자가 장치 카메라에 액세스하지 못하도록 하는 장치 제한 프로필을 만들 수 있습니다.
 
-이 항목의 정보를 사용하여 장치 제한 프로필 구성에 대한 기본 사항을 알아본 다음 각 플랫폼에 대한 추가 항목을 통해 장치에 특정한 정보를 확인할 수 있습니다.
+장치 제한 프로필 기본 사항을 학습한 다음, 각 플랫폼에 대한 더 많은 아티클을 읽어 장치 세부 사항을 알아봅니다.
 
-장치 제한 설정을 포함하는 장치 프로필을 만들려면:
+## <a name="create-a-device-profile-containing-device-restriction-settings"></a>장치 제한 설정을 포함하는 장치 프로필 만들기
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
-2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
-3. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.
-4. **프로필 만들기** 블레이드에서 장치 제한 프로필에 대한 **이름** 및 **설명**을 입력합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 페이지에서 **장치 구성**을 선택합니다.
+2. **관리** 섹션 아래의 **장치 구성** 페이지에서 **프로필**을 선택합니다.
+3. **프로필** 페이지에서 **프로필 만들기**를 선택합니다.
+4. **프로필 만들기** 페이지에서 장치 제한 프로필에 대한 **이름** 및 **설명**을 입력합니다.
 5. **플랫폼** 드롭다운 목록에서 사용자 지정 설정을 적용할 장치 플랫폼을 선택합니다. 현재 장치 제한 설정에 대해 다음 플랫폼 중 하나를 선택할 수 있습니다.
     - **OWA(Outlook Web Access)**
     - **iOS**
@@ -61,9 +59,9 @@ ms.lasthandoff: 02/01/2018
     - [Windows 10 Team 설정](device-restrictions-windows-10-teams.md)
     - [Windows Holographic for Business 설정](device-restrictions-windows-holographic.md)
     - [Android for Work 설정](device-restrictions-android-for-work.md)
-8. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
+8. 완료되면 **프로필 만들기** 페이지로 돌아와서 **만들기**를 클릭합니다.
 
-프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
+프로필이 만들어지고 프로필 목록 페이지에 표시됩니다.
 계속해서 이 프로필을 그룹에 할당하려면 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
 
 <!--  Removing image as part of design review; retaining source until we known the disposition.

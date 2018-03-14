@@ -1,25 +1,23 @@
 ---
 title: "Intune 장치 준수 정책 모니터링"
 titlesuffix: Azure portal
-description: "장치 준수 정책을 모니터링하는 방법을 알아봅니다.\""
+description: "장치 준수 정책 모니터링 방법을 알아봅니다"
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: dougeby
-ms.date: 03/10/2017
+ms.date: 2/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 503d1dd2-a647-4aea-bf48-55319a3dd8a7
-ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f82293ee3803f189cbb67549b1a6cd653572eaaf
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 2f80d46e3e7c25c2b2e7a7c1af9604de1257a21e
+ms.sourcegitcommit: a55c009a2ab223f79dc7439539937b284aee0626
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="monitor-intune-device-compliance-policies"></a>Intune 장치 준수 정책 모니터링
 
@@ -27,7 +25,7 @@ ms.lasthandoff: 01/30/2018
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-아래의 단계에 따라 Azure Portal에서 **Intune 장치 준수 대시보드**를 찾습니다.
+다음의 단계를 사용해 Azure Portal에서 **Intune 장치 준수 대시보드**를 찾습니다.
 
 1.  [Azure Portal](https://portal.azure.com)로 이동한 다음 Intune 자격 증명을 사용하여 로그인합니다.
 
@@ -131,7 +129,7 @@ Intune에 등록된 모든 장치에 대해 준수 상태 집계를 보여 주�
 
 ![장치 준수 설정 이름](./media/idc-7.png)
 
-### <a name="per-policy-device-compliance-report"></a>정책별 장치 준수 보고서
+## <a name="policy-compliance-report"></a>정책 준수 보고서
 
 이 보고서는 준수 정책별 보기 및 각 준수 상태에 속한 장치의 총수를 보여 줍니다. **장치 준수 대시보드**에서 **정책 준수** 타일을 사용할 수 있으며, 여기에는 이전에 관리자가 만든 모든 정책, 정책이 적용되는 플랫폼, 준수 장치의 수, 비규격 장치의 수가 표시됩니다.
 
@@ -141,7 +139,7 @@ Intune에 등록된 모든 장치에 대해 준수 상태 집계를 보여 주�
 
 ![정책 준수 타일](./media/idc-9.png)
 
-### <a name="per-setting-device-compliance-report"></a>설정별 장치 준수 보고서
+## <a name="setting-compliance-report"></a>준수 보고서 설정
 
 이 보고서에서는 준수 설정별 보기 및 각 준수 상태에 속한 장치의 총수를 볼 수 있습니다. **장치 준수 대시보드**에서 **설정 준수** 타일을 사용할 수 있으며, 여기에는 관리자가 만든 모든 장치 준수 정책의 모든 장치 준수 정책 설정, 정책 설정이 적용된 플랫폼, 비규격 장치의 수가 표시됩니다.
 
@@ -150,3 +148,14 @@ Intune에 등록된 모든 장치에 대해 준수 상태 집계를 보여 주�
 [설정 준수] 타일을 클릭한 후 장치 준수 정책 설정 중 하나를 클릭하면 장치 준수 정책 설정에서 대상으로 지정된 각 장치에 대해 **준수 상태**, **사용자의 메일 별칭**, **장치 모델** 및 **위치**를 볼 수 있습니다.
 
 ![설정 준수 타일](./media/idc-11.png)
+
+## <a name="threat-agent-status-report"></a>위협 에이전트 상태 보고서
+
+이 보고서를 사용하면 Windows Defender 에이전트의 상태를 볼 수 있습니다. **장치 준수**에서 상태 롤업 보고서를 사용하면 다음 작업이 필요한 장치를 볼 수 있습니다.
+- 서명 업데이트
+- 다시 시작
+- 수동 작업
+- 전체 검사
+- 개입이 필요한 기타 에이전트 상태
+
+각 상태 범주에 대한 드릴인 보고서에는 주의가 필요한 개별 PC 그리고 **정리**로 보고되는 PC가 나열됩니다.

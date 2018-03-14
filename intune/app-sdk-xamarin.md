@@ -1,11 +1,11 @@
 ---
 title: "Microsoft Intune 앱 SDK Xamarin 구성 요소"
-description: 
+description: "Intune 앱 SDK Xamarin 구성 요소는 Xamarin에 내장된 iOS 및 Android 앱의 Intune 앱 보호 정책을 사용하도록 설정합니다."
 keywords: sdk, Xamarin, intune
-author: erikre
+author: Erikre
 manager: dougeby
 ms.author: erikre
-ms.date: 02/08/2018
+ms.date: 03/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,18 +14,16 @@ ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: df90f3e011442e4e383c18d0309416d6549c330c
-ms.sourcegitcommit: 0a5f424a8f683daa919b13b5c363173040d561c8
+ms.openlocfilehash: 9fa0d471f91eeeebd0058417aa437e5469f48e09
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-component"></a>Microsoft Intune 앱 SDK Xamarin 구성 요소
 
 > [!NOTE]
 > 먼저 지원되는 각 플랫폼에서 통합을 준비하는 방법을 설명하는 [Intune 앱 SDK 시작](app-sdk-get-started.md) 문서를 읽어보는 것이 좋습니다.
-
-
 
 ## <a name="overview"></a>개요
 [Intune 앱 SDK Xamarin 구성 요소](https://github.com/msintuneappsdk/intune-app-sdk-xamarin)는 Xamarin에 내장된 iOS 및 Android 앱의 [Intune 앱 보호 정책](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)을 사용하도록 설정합니다. 개발자는 구성 요소를 사용하여 Intune 앱 보호 기능을 Xamarin 기반 앱에 손쉽게 빌드할 수 있습니다.

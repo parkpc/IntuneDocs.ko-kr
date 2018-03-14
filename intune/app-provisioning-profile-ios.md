@@ -1,12 +1,12 @@
 ---
-title: "앱 프로비전 프로필"
-titlesuffix: Azure portal
+title: "Microsoft Intune에서 iOS 앱 프로비전 프로필"
+titlesuffix: 
 description: "Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필을 미리 할당하기 위한 도구를 제공합니다.\""
 keywords: 
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 05/03/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ms.assetid: bbc3ba4a-df48-4aeb-988b-69a177764e3a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6aa1fe56726f320d971f35cc971253707f968442
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 7637dcb3aba4f46a3e97c8de47d974b46af27b47
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="use-ios-mobile-provisioning-profiles-to-prevent-your-apps-from-expiring"></a>iOS 모바일 프로비전 프로필을 사용하여 모바일 앱이 만료되지 않도록 방지
+# <a name="use-ios-mobile-provisioning-profiles-in-intune-to-prevent-your-apps-from-expiring"></a>Intune에서 iOS 모바일 프로비전 프로필을 사용하여 모바일 앱이 만료되지 않도록 방지
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -39,12 +39,12 @@ iPhone 및 iPad에 할당된 Apple iOS LOB(기간 업무) 앱은 포함된 프�
 
 ## <a name="how-to-create-an-ios-mobile-app-provisioning-profile"></a>iOS 모바일 앱 프로비전 프로필을 만드는 방법
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
-1.  **모바일 앱** 워크로드에서 **관리** > **iOS 프로비전 프로필**을 선택합니다.
-2.  프로필 목록 블레이드에서 **프로필 만들기**를 선택합니다.
-3. **프로필 만들기** 블레이드에서 다음 값을 구성합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **모바일 앱**을 선택합니다.
+1.  **모바일 앱** 워크로드에서 **관리** > **iOS 앱 프로비전 프로필**을 선택합니다.
+2.  프로필 목록 창에서 **프로필 만들기**를 선택합니다.
+3. **프로필 만들기** 창에서 다음 값을 구성합니다.
     - **이름** - 이 모바일 프로비전 프로필의 이름을 제공합니다.
     - **설명** - 필요에 따라 정책에 대한 설명을 제공합니다.
     - **프로필 파일 업로드** - **가져오기**를 선택하고 Apple 개발자 웹 사이트에서 다운로드한 Apple 모바일 구성 프로필 파일(확장명 **.mobileprovision**)을 선택합니다.

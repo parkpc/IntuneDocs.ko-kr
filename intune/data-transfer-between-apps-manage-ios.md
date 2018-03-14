@@ -1,12 +1,12 @@
 ---
 title: "iOS 앱 간의 데이터 전송 관리"
-titlesuffix: Azure portal
-description: "이 항목의 정보를 참조하면 iOS의 다음에서 열기 기능과 모바일 앱 관리 정책을 사용하여 앱 간의 데이터 전송을 관리하는 방법을 파악할 수 있습니다.\""
+titlesuffix: Microsoft Intune
+description: "앱 간 데이터 전송을 관리하려면 Microsoft Intune에서 모바일 앱 관리를 사용하는 법을 이해합니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: Erikre
+ms.author: erikre
 manager: dougeby
-ms.date: 11/06/2017
+ms.date: 01/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ms.assetid: d10b2d64-8c72-4e9b-bd06-ab9d9486ba5e
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2d110a099b4957626d4368c9e63817674d6cfaa2
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 441f78a8b3b9c41610b78a27dbe51fb144dd82da
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="how-to-manage-data-transfer-between-ios-apps"></a>iOS 앱 간의 데이터 전송을 관리하는 방법
+# <a name="how-to-manage-data-transfer-between-ios-apps-in-microsoft-intune"></a>Microsoft Intune에서 iOS 앱 간의 데이터 전송 관리 방법
 ## <a name="manage-ios-apps"></a>IOS 앱 관리
 회사 데이터 보호는 파일 전송이 관리하는 앱으로만 제한되도록 하는 작업을 포함합니다.  다음과 같은 방법으로 iOS 앱을 관리할 수 있습니다.
 

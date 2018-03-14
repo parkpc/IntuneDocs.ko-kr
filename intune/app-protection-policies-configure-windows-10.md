@@ -6,7 +6,7 @@ keywords:
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/13/2018
+ms.date: 02/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 949fddec-5318-4c9a-957e-ea260e6e05be
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5514ea423f67e5bc824b4ee947f630c7f1b43d8f
-ms.sourcegitcommit: 754fcc31155b28d6910bba45419c6be745f8793e
+ms.openlocfilehash: e36998236515f66f65817497522496874c92f5a2
+ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="get-ready-to-configure-app-protection-policies-for-windows-10"></a>Windows 10용 앱 보호 정책 구성 준비
 
@@ -41,7 +41,7 @@ Azure AD에서 MAM 공급자를 설정하여 Windows 10용 MAM(모바일 응용 
 4. **구성** 블레이드의 **기본 MAM URL 복원** 그룹에서 설정을 구성합니다.
 
    **MAM 사용자 범위**  
-   MAM 자동 등록을 사용하여 직원의 Windows 장치에서 엔터프라이즈 데이터를 관리합니다. MAM 자동 등록은 Bring Your Own Device 시나리오용으로 구성됩니다.<ul><li>**없음**<br>모든 사용자가 MAM에 등록될 수 있는 경우 선택합니다.</li><li>**일부**<br>MAM에 등록될 사용자가 포함된 Azure AD 그룹을 선택합니다.</li><li>**모두**<br>모든 사용자가 MAM에 등록될 수 있는 경우 선택합니다.</li></ul>
+   MAM 자동 등록을 사용하여 직원의 Windows 장치에서 엔터프라이즈 데이터를 관리합니다. MAM 자동 등록은 Bring Your Own Device 시나리오용으로 구성됩니다.<ul><li>**없음**<br>사용자가 MAM에 등록될 수 없는 경우 선택합니다.</li><li>**일부**<br>MAM에 등록될 사용자가 포함된 Azure AD 그룹을 선택합니다.</li><li>**모두**<br>모든 사용자가 MAM에 등록될 수 있는 경우 선택합니다.</li></ul>
 
    **MAM 사용 약관 URL**  
    MAM 사용 약관 URL은 Microsoft Intune에서 지원되지 않습니다. 이 입력 상자는 보호 정책을 적용하도록 비워 두어야 합니다.
