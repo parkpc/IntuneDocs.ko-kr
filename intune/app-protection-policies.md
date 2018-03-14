@@ -15,11 +15,11 @@ ms.assetid: f31b2964-e932-4cee-95c4-8d5506966c85
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: cd92e787fd3c1abaa8b20ce1d75141b46ab17934
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: c7ad60a27e32aaab49e77789364aecdc5ea7fc60
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-create-and-assign-app-protection-policies"></a>앱 보호 정책을 만들고 할당하는 방법
 
@@ -37,14 +37,14 @@ Intune 클래식 포털 관련 지침을 확인하려면 [앱 보호 정책을 �
 MAM을 지원하는 앱 목록을 확인하려면 [MAM 앱 목록](https://www.microsoft.com/cloud-platform/microsoft-intune-apps)을 참조하세요.
 
 ##  <a name="create-an-app-protection-policy"></a>앱 보호 정책 만들기
-1.  **모바일 앱** 워크로드의 **관리** 섹션에서 **앱 보호 정책**을 선택합니다. **앱 보호 정책** 세부내용이 열리고, 여기서 새 정책을 만들고 기존 정책을 편집할 수 있습니다. 
-2. **정책 추가**를 선택합니다. 
+1.  **모바일 앱** 워크로드의 **관리** 섹션에서 **앱 보호 정책**을 선택합니다. **앱 보호 정책** 세부내용이 열리고, 여기서 새 정책을 만들고 기존 정책을 편집할 수 있습니다.
+2. **정책 추가**를 선택합니다.
 
   ![정책 추가 블레이드의 스크린 샷](./media/app-protection-add-policy.png)
 
 3.  정책의 이름을 입력하고 간략한 설명을 추가한 다음, 해당 정책에 대한 플랫폼 형식을 선택합니다. 필요한 경우 각 플랫폼에 대해 여러 개의 정책을 만들 수 있습니다.
 
-4.  **앱**을 선택하여 **앱 블레이드**를 열면 사용할 수 있는 앱 목록이 표시됩니다. 만들고 있는 정책과 연결할 앱을 목록에서 하나 이상 선택합니다. 
+4.  **앱**을 선택하여 **앱 블레이드**를 열면 사용할 수 있는 앱 목록이 표시됩니다. 만들고 있는 정책과 연결할 앱을 목록에서 하나 이상 선택합니다.
 5. 앱을 선택하면 **선택**을 선택해 선택 영역을 저장 합니다.
 
     > [!IMPORTANT]
@@ -59,7 +59,7 @@ MAM을 지원하는 앱 목록을 확인하려면 [MAM 앱 목록](https://www.m
     > 이러한 정책 설정은 회사 컨텍스트에서 앱을 사용하는 경우에만 적용됩니다. 최종 사용자가 앱을 사용하여 개인 작업을 수행하는 경우에는 이러한 정책의 영향을 받지 않습니다.
 
 7.  **확인**을 선택하여 이 구성을 저장합니다. 이제 **정책 추가** 창으로 돌아옵니다. **만들기**를 클릭하여 정책을 만들고 설정을 저장합니다.
-8. **확인**을 선택하여 이 구성을 저장합니다. 이제 **정책 추가** 창으로 돌아옵니다. 
+8. **확인**을 선택하여 이 구성을 저장합니다. 이제 **정책 추가** 창으로 돌아옵니다.
 9. **만들기**를 클릭하여 정책을 만들고 설정을 저장합니다.
 
 이전 절차에서 설명한 대로 정책 만들기를 완료하면 사용자에게 배포되지 않습니다. 정책을 배포하려면 [사용자에게 정책 배포](app-protection-policies.md#deploy-a-policy-to-users)를 참조하세요.
@@ -74,7 +74,7 @@ MAM을 지원하는 앱 목록을 확인하려면 [MAM 앱 목록](https://www.m
    ![강조 표시된 포함할 그룹 선택 메뉴 옵션을 사용하는 할당 창의 스크린샷](./media/app-protection-policy-add-users.png)
 
 2.  사용자 그룹 목록이 **사용자 그룹 추가** 창에 표시됩니다. 이는 **Azure Active Directory**에 있는 모든 보안 그룹의 목록입니다. 이 정책을 적용할 사용자 그룹을 선택하고 **선택**을 선택합니다. **선택**을 선택하면 정책이 사용자에게 배포됩니다.
-  
+
     ![Azure Active Directory 사용자 목록을 보여 주는 사용자 그룹 추가 창의 스크린 샷](./media/azure-ad-user-group-list.png)
 
 이제 정책을 만들고 사용자에게 배포했습니다.

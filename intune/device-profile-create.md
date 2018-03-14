@@ -14,11 +14,11 @@ ms.assetid: d98aceff-eb35-4e3e-8e40-5f300e7335cc
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c40fd13a46a61ec0ee05efba7ece7653f5de90ca
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: e4e1febb5f12de038d2ddd543be883f71ef79005
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="create-a-device-profile-in-microsoft-intune"></a>Microsoft Intune에서 장치 프로필 만들기
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/05/2018
 
 2. **Microsoft Intune**에서 **장치 구성**를 선택하고 **프로필**을 선택한 다음, **프로필 만들기**를 선택합니다.
 
-3. 다음 속성을 입력합니다. 
+3. 다음 속성을 입력합니다.
 
     - **이름** - 새 프로필에 대한 설명이 포함된 이름 입력
     - **설명**: 선택 사항이지만 사용하는 것이 좋습니다. 프로필에 대한 설명을 입력합니다.
@@ -59,7 +59,7 @@ ms.lasthandoff: 03/05/2018
 
     ![장치 프로필을 만들려면 설정 입력](./media/create-device-profile.png)
 
-4. 완료된 경우 **만들기**를 선택합니다. 
+4. 완료된 경우 **만들기**를 선택합니다.
 
 프로필이 만들어지고 목록에 표시됩니다. 이 프로필을 그룹에 할당하려면 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
 
