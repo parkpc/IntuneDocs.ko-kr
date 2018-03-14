@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 02/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c4d91d00995d821b14b3b2a04681b4c57258a7c0
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 5d48a2cea096c1639cd3661521cd636454f3e0ba
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="set-the-mobile-device-management-authority"></a>모바일 장치 관리 기관 설정
 
@@ -40,7 +40,8 @@ Configuration Manager 버전 1610 이상과 Microsoft Intune 버전 1705에서�
 
 ## <a name="set-mdm-authority-to-intune"></a>MDM 기관을 Intune으로 설정
 
-1. [Azure Portal](https://portal.azure.com)에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 2. 주황색 배너를 선택하여 **모바일 장치 관리 기관** 설정을 엽니다.
 3. **모바일 장치 관리 기관** 아래에서, 다음 옵션 중에서 MDM 기관을 선택합니다.
   - **Intune MDM 기관**
