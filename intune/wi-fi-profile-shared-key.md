@@ -1,12 +1,11 @@
 ---
-title: "미리 공유한 키를 사용하여 Wi-Fi 프로필 만들기"
-titleSuffix: Microsoft Intune
-description: "Intune 사용자 지정 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만듭니다."
+title: "미리 공유한 키를 사용하여 Wi-Fi 프로필 만들기 - Microsoft Intune - Azure | Micrososft Docs"
+description: "사용자 지정 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만들고, Microsoft Intune에서 Android, Windows 및 EAP 기반 Wi-Ri 프로필에 대한 샘플 XML 코드를 가져옵니다."
 keywords: 
-author: vhorne
-ms.author: victorh
+author: mandia
+ms.author: MandiOhlinger
 manager: dougeby
-ms.date: 11/09/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,63 +14,64 @@ ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8229ac82e6854d75f569b7bbf04dd2f5e14856c7
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 85543d87ca79fa301ee1e9c242c053c1c34e18c3
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="use-a-custom-device-profile-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>사용자 지정 장치 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필 만들기
+# <a name="use-a-custom-device-profile-to-create-a-wifi-profile-with-a-pre-shared-key---intune"></a>사용자 지정 장치 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필 만들기 - Intune
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Intune의 **사용자 지정 장치 프로필**을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만드는 방법은 다음과 같습니다. 이 항목에서는 EAP 기반 Wi-Fi 프로필을 만드는 방법에 대한 예도 포함합니다.
+일반적으로 PSK(미리 공유한 키)를 사용하여 Wi-Fi 네트워크 또는 무선 LAN에서 사용자를 인증합니다. Intune에서 미리 공유한 키를 사용하여 Wi-Fi 프로필을 만들 수 있습니다. 프로필을 만들려면 Intune 내에서 **사용자 지정 장치 프로필** 기능을 사용합니다. 이 아티클에는 EAP 기반 Wi-Fi 프로필을 만드는 방법에 대한 예제가 포함됩니다.
 
-> [!NOTE]
--   아래 설명된 대로 네트워크에 연결하는 컴퓨터에서 코드를 복사하면 작업을 좀 더 쉽게 수행할 수 있습니다.
-- Android의 경우 Johnathon Biersack이 제공하는 이 [Android PSK 생성기](http://intunepskgenerator.johnathonb.com/)를 사용하는 옵션도 포함합니다.
--   더 많은 OMA-URI 설정을 추가하여 여러 네트워크와 키를 추가할 수 있습니다.
--  iOS의 경우 Mac 스테이션의 Apple Configurator를 사용하여 프로필을 설정합니다. 또는 Johnathon Biersack이 제공하는 이 [iOS PSK Mobile Config Generator](http://intunepskgenerator.johnathonb.com/)를 사용합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
+- 나중에 이 아티클에서 설명한 대로 해당 네트워크에 연결된 컴퓨터에서 코드를 쉽게 복사할 수 있습니다.
+- Android의 경우 [Android PSK 생성기](http://intunepskgenerator.johnathonb.com/)를 사용할 수도 있습니다.
+- 더 많은 OMA-URI 설정을 추가하여 여러 네트워크와 키를 추가할 수 있습니다.
+- iOS의 경우 Mac 스테이션의 Apple Configurator를 사용하여 프로필을 설정합니다. 또는 [iOS PSK 모바일 구성 생성기](http://intunepskgenerator.johnathonb.com/)를 사용합니다.
 
-1.  Android 또는 Windows용으로 미리 공유한 키를 사용하여 Wi-Fi 프로필을 만들거나 EAP 기반 Wi-Fi 프로필을 만들려면 장치 프로필을 만들 때 해당 장치 플랫폼에 대해 Wi-Fi 프로필 대신 **사용자 지정**을 선택합니다.
+## <a name="create-a-custom-profile"></a>사용자 지정 프로필 만들기
+Android, Windows 또는 EAP 기반 Wi-Fi 프로필에서 미리 공유한 키를 사용하여 사용자 지정 프로필을 만들 수 있습니다. Azure Portal을 사용하여 프로필을 만들려면 [사용자 지정 장치 설정 만들기](custom-settings-configure.md)를 참조하세요. 장치 프로필을 만들 때 장치 플랫폼에서 **사용자 지정**을 선택합니다. Wi-Fi 프로필을 선택하지 않습니다. 사용자 지정을 선택할 때 다음을 확인해야 합니다. 
 
-2.  이름 및 설명을 제공합니다.
-3.  새 OMA-URI 설정을 추가합니다.
+1. 프로필의 이름과 설명을 입력합니다.
+2. 다음 속성을 가진 새 OMA-URI 설정을 추가합니다. 
 
-   a.   이 Wi-Fi 네트워크 설정에 대한 이름을 입력합니다.
+   a. 이 Wi-Fi 네트워크 설정에 대한 이름을 입력합니다.
 
-   b.   OMA-URI 설정에 대한 설명을 입력하거나 비워 둡니다.
+   b. (선택 사항)OMA-URI 설정에 대한 설명을 입력하거나 비워둡니다.
 
-   c.   **데이터 형식**: **문자열**로 설정합니다.
+   c. **데이터 형식**을 **문자열**로 설정합니다.
 
-   d.   **OMA URI**
+   d. **OMA URI**
 
     - **Android용**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
     - **Windows용**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
 
     > [!NOTE]
-시작 부분에 점 문자를 포함해야 합니다.
+    > 시작 부분에 점 문자를 포함해야 합니다.
 
-    SSID는 정책을 만들고 있는 SSID입니다. `./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`).
+    SSID는 정책을 만들고 있는 SSID입니다. 예를 들어 다음과 같이 입력합니다. `./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`
 
-  e. **값 필드**에 XML 코드를 붙여넣습니다. 아래 예를 살펴보세요. 각 값을 네트워크 설정에 맞게 조정해야 합니다. 일부 포인터에 대해서는 코드의 주석 섹션을 참조하세요.
-4. **확인**을 선택하고 정책을 저장한 다음 할당합니다.
+  e. **값 필드**에 XML 코드를 붙여넣습니다. 이 아티클 내에서 예제를 참조하세요. 네트워크 설정에 맞게 각 값을 업데이트합니다. 코드의 주석 섹션에는 일부 포인터가 포함됩니다.
+3. **확인**을 선택하고, 저장한 다음, 정책을 할당합니다.
 
     > [!NOTE]
     > 이 정책은 사용자 그룹에만 할당할 수 있습니다.
 
-다음에 각 장치가 체크인되면 정책이 적용되고 해당 장치에 Wi-Fi 프로필이 만들어집니다. 장치를 네트워크에 자동으로 연결할 수 있게 됩니다.
+다음에 각 장치가 체크인되면 정책이 적용되고 해당 장치에 Wi-Fi 프로필이 만들어집니다. 장치는 네트워크에 자동으로 연결될 수 있습니다.
 
-## <a name="android-or-windows-wi-fi-profile"></a>Android 또는 Windows Wi-Fi 프로필
+## <a name="android-or-windows-wi-fi-profile-example"></a>Android 또는 Windows Wi-Fi 프로필 예제
 
-Android 또는 Windows Wi-Fi 프로필의 XML 코드 예제는 다음과 같습니다.
+다음 예제에는 Android 또는 Windows Wi-Fi 프로필의 XML 코드가 포함됩니다. 
 
 > [!IMPORTANT]
 >
-> `<protected>false</protected>`는 **false**로 설정해야 합니다. **true**로 설정하면 장치가 암호화된 암호를 요구한 다음 암호를 해독하려 할 수 있습니다. 이로 인해 연결에 실패할 수 있습니다.
+> `<protected>false</protected>`는 **false**로 설정해야 합니다. **true**로 설정하면 장치가 암호화된 암호를 요구한 다음, 암호를 해독하려 할 수 있습니다. 이로 인해 연결에 실패할 수 있습니다.
 >
 >  `<hex>53534944</hex>`는 `<name><SSID of wifi profile></name>`의 16진수 값으로 설정해야 합니다.
->  Windows 10 장치는 잘못된 *0x87D1FDE8 재구성 실패* 오류를 반환할 수 있지만, 계속 프로필로 프로비전됩니다.
+>  Windows 10 장치는 잘못된 *0x87D1FDE8 재구성 실패* 오류를 반환할 수 있지만, 해당 장치에는 계속 프로필이 포함됩니다.
 
 ```
 <!--
@@ -115,8 +115,8 @@ xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
 </WLANProfile>
 ```
 
-## <a name="eap-based-wi-fi-profile"></a>EAP 기반 Wi-Fi 프로필
-EAP 기반 Wi-Fi 프로필에 대한 XML 코드 예제는 다음과 같습니다.
+## <a name="eap-based-wi-fi-profile-example"></a>EAP 기반 Wi-Fi 프로필 예제
+다음 예제에는 EAP 기반 Wi-Fi 프로필의 XML 코드가 포함됩니다.
 
 ```
     <WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
@@ -199,16 +199,18 @@ EAP 기반 Wi-Fi 프로필에 대한 XML 코드 예제는 다음과 같습니다
 ```
 
 ## <a name="create-the-xml-file-from-an-existing-wi-fi-connection"></a>기존 Wi-Fi 연결에서 XML 파일 만들기
-기존 Wi-Fi 연결에서 XML 파일을 만들 수도 있습니다.
-1. 무선 네트워크에 연결되어 있거나 최근에 연결된 컴퓨터에서 C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces\{guid} 폴더를 엽니다.
+다음 단계를 사용하여 기존 Wi-Fi 연결에서 XML 파일을 만들 수도 있습니다. 
 
-    각 프로필을 검색하여 적합한 프로필을 찾아야 하므로 여러 무선 네트워크에 연결되지 않은 컴퓨터를 사용하는 것이 가장 좋습니다.
-3.     XML 파일을 검색하여 올바른 이름의 항목을 찾습니다.
-4.     올바른 XML 파일을 찾았으면 XML 코드를 복사하여 OMA-URI 설정 페이지의 데이터 필드에 붙여넣습니다.
+1. 무선 네트워크에 연결되어 있거나 최근에 연결되었던 컴퓨터에서 `\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces\{guid}` 폴더를 엽니다.
+
+  여러 무선 네트워크에 연결되지 않은 컴퓨터를 사용하는 것이 좋습니다. 그렇지 않은 경우, 올바른 항목을 찾기 위해 각 프로필을 검색할 수 있습니다.
+
+2. XML 파일을 검색하여 올바른 이름을 가진 파일을 찾습니다.
+3. 올바른 XML 파일을 찾았으면 XML 코드를 복사하여 OMA-URI 설정 페이지의 **데이터** 필드에 붙여넣습니다.
 
 ## <a name="best-practices"></a>모범 사례
-PSK를 사용하여 Wi-Fi 프로필을 배포하기 전에 장치를 끝점에 직접 연결할 수 있는지 확인합니다.
+- PSK를 사용하여 Wi-Fi 프로필을 배포하기 전에 장치를 끝점에 직접 연결할 수 있는지 확인합니다.
 
-키(암호)를 회전하는 경우 가동 중지 시간을 예상하고 그에 따라 배포를 계획합니다. 근무 외 시간에 새 Wi-Fi 프로필을 푸시하는 것이 좋습니다. 연결에 영향을 받을만한 사용자에게 경고도 하는 것이 좋습니다.
+- 키(암호)를 회전하는 경우 가동 중지 시간을 예상하고 그에 따라 배포를 계획합니다. 근무 외 시간에 새 Wi-Fi 프로필을 푸시하는 것이 좋습니다. 연결에 영향을 받을만한 사용자에게 경고도 하는 것이 좋습니다.
 
-원활한 전환 환경을 구현하려면 최종 사용자의 장치에서 인터넷에 연결하는 대안을 마련해야 합니다. 예를 들어 최종 사용자가 게스트 WiFi(또는 다른 WiFi 네트워크)로 다시 전환할 수 있거나 셀룰러 연결을 통해 Intune과 통신할 수 있어야 합니다. 그러면 장치에서 회사 WiFi 프로필이 업데이트 될 때 사용자가 계속해서 정책 업데이트를 받을 수 있습니다.
+- 원활한 전환을 구현하려면 최종 사용자의 장치에서 인터넷에 연결하는 대안을 마련해야 합니다. 예를 들어 최종 사용자가 게스트 WiFi(또는 다른 WiFi 네트워크)로 다시 전환할 수 있거나 셀룰러 연결을 통해 Intune과 통신할 수 있어야 합니다. 추가 연결을 사용하면 장치에서 회사 Wi-Fi 프로필이 업데이트될 때 사용자가 정책 업데이트를 받을 수 있습니다.

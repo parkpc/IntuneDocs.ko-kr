@@ -6,8 +6,8 @@ keywords:
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/22/2018
-ms.topic: get-started-article
+ms.date: 02/26/2018
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
@@ -15,11 +15,11 @@ ms.assetid: 917c0eed-96d0-49d8-8db8-a6ba13ad0e1f
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bd2a5af8c5535fc45083b1386f378604b0b67353
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: f2d0a77c9e9e36db53c23031fd9f06f508fef15d
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="getting-started-with-microsoft-intune-in-the-azure-portal"></a>Azure Portal에서 Microsoft Intune 시작
 
@@ -31,7 +31,7 @@ Azure Portal의 왼쪽에 있는 __사이드바__에는 사용 가능한 모든 
 
 ![사용자가 ‘추가 서비스’ 목록에서 Microsoft Intune을 검색 중입니다.](./media/azure-add-intune1.png)
 
-1. 페이지 왼쪽에 있는 사이드바의 아래쪽에서 **추가 서비스**를 선택합니다.
+1. 페이지 왼쪽에 있는 사이드바에서 **모든 서비스**를 선택합니다.
 2. 필터 상자에서 **Intune**을 검색합니다.
 3. **별**을 선택하여 Intune을 즐겨찾기 서비스 목록 아래쪽에 추가합니다.
 4. Intune 서비스를 마우스로 가리킵니다. 서비스 이름 오른쪽에 있는 **세로 점 세 개**를 사용하여 Intune을 선택하고 끕니다.
@@ -52,7 +52,7 @@ Azure Portal의 왼쪽에 있는 __사이드바__에는 사용 가능한 모든 
 
 ## <a name="using-services"></a>서비스 사용
 
-Azure에서 Microsoft Intune 또는 다른 서비스를 열 때마다 서비스가 **블레이드**에 표시됩니다. Intune에서 사용하는 첫 번째 워크로드 일부(예: **사용자**, **그룹** 및 **모바일 앱**)가 전부 전체 화면 블레이드에 표시됩니다. 워크로드를 선택하면 해당 블레이드가 전체 페이지에서 열립니다. 다른 블레이드는 열릴 때 이 블레이드의 오른쪽에서 미끄러져 나오고, 나온 기본 블레이드의 아래로 축소됩니다.
+Azure에서 Intune 또는 다른 서비스를 열 때마다 서비스가 **창**에 표시됩니다. Intune에서 사용하는 첫 번째 워크로드 일부(예: **사용자**, **그룹** 및 **모바일 앱**)가 전부 전체 화면 창에 표시됩니다. 워크로드를 선택하면 해당 창이 전체 페이지에서 열립니다. 다른 창은 열릴 때 이 창의 오른쪽에서 미끄러져 나오고, 나온 기본 창의 아래로 축소됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -1,10 +1,10 @@
 ---
-title: "Intune을 사용하는 조건부 액세스"
-titlesuffix: Azure portal
-description: "Intune에서 조건부 액세스를 사용하는 일반적인 방법"
+title: "Microsoft Intune을 사용하는 조건부 액세스"
+titlesuffix: 
+description: "Intune 조건부 액세스를 장치 및 앱 기반 조건부 액세스에 일반적으로 사용하는 방법에 대해 알아봅니다."
 keywords: 
-author: Erikre
-ms.author: erikre
+author: msmimart
+ms.author: mimart
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: get-started-article
@@ -14,17 +14,17 @@ ms.technology:
 ms.assetid: a0b8e55e-c3d8-4599-be25-dc10c1027b62
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d5ec945cdbc4efa791edc51e659a1546876446c5
-ms.sourcegitcommit: 1978a30ab1af0f43aa5f447690d0bbcdcb9b563b
+ms.openlocfilehash: 9c34e6e2891769d64885d364f05dbedaa1fb7d57
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="common-ways-to-use-conditional-access-with-intune"></a>Intune에서 조건부 액세스를 사용하는 일반적인 방법
+# <a name="what-are-common-ways-to-use-conditional-access-with-intune"></a>Intune에서 조건부 액세스를 사용하는 일반적인 방법이란?
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Intune을 사용하는 조건부 액세스에는 두 가지 주요 형식이 있습니다. 첫 번째 형식은 장치 기반 조건부 액세스입니다. 두 번째 형식은 앱 기반 조건부 액세스입니다. 조직에서 조건부 액세스 규정 준수를 추진하는 관련 규정 준수 정책을 구성해야 합니다.
+Intune을 사용하는 조건부 액세스에는 장치 기반 조건부 액세스 및 앱 기반 조건부와 같은 두 가지 방법이 있습니다. 조직에서 조건부 액세스 규정 준수를 추진하는 관련 규정 준수 정책을 구성해야 합니다. 일반적으로 조건부 액세스를 사용하여 Exchange 온-프레미스에 대한 액세스를 허용하거나 차단하는 작업, 네트워크에 대한 액세스를 제어하는 작업 또는 Mobile Threat Defense 솔루션과 통합하는 작업 등을 수행합니다.
 
 아래 정보는 Intune 모바일 *장치* 규정 준수 기능 및 Intune 모바일 *응용 프로그램* 관리(MAM) 기능 사용 방법의 이해에 도움이 됩니다. 
 

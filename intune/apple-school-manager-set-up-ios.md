@@ -15,11 +15,11 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f639a61c4d481a891156383c3a23e0e1511a5fbe
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: d3a599ff1dff3e27214dfcca694f6b97333f370a
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="set-up-ios-device-enrollment-with-apple-school-manager"></a>Apple School Manager를 통해 iOS 장치 등록 설정
 
@@ -89,7 +89,7 @@ Apple School Manager 등록을 활성화하려면 Intune과 Apple School Manager
 ## <a name="create-an-apple-enrollment-profile"></a>Apple 등록 프로필 만들기
 장치 등록 프로필은 등록 중에 장치 그룹에 적용되는 설정을 정의합니다.
 
-1. Azure 포털의 Intune에서 **장치 등록**을 선택한 다음 **Apple 등록**을 선택합니다.
+1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록**을 선택한 다음, **Apple 등록**을 선택합니다.
 2. **등록 프로그램** 아래에서 **등록 프로그램 프로필**을 선택합니다.
 3. **등록 프로그램 프로필** 블레이드에서 **만들기**를 선택합니다.
 4. **등록 프로필 만들기** 블레이드에서 Intune에 표시되는 프로필에 대한 **이름** 및 **설명**을 입력합니다.
@@ -149,7 +149,7 @@ Apple School Manager 등록을 활성화하려면 Intune과 Apple School Manager
 ## <a name="sync-managed-devices"></a>관리되는 장치 동기화
 이제 Intune에 Apple School Manager 장치 관리 권한이 할당되었으므로 Intune을 Apple 서비스와 동기화하여 Intune에서 관리 장치를 확인할 수 있습니다.
 
-1. Azure Portal의 Intune에서 **장치 등록** > **Apple 등록** > **등록 프로그램 장치** > **동기화**를 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
+1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **Apple 등록** > **등록 프로그램 장치** > **동기화**를 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
 
   ![등록 프로그램 장치 노드 선택 및 동기화 링크 선택](./media/enrollment-program-device-sync.png)
 2. **동기화** 블레이드에서 **동기화 요청**을 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
@@ -166,7 +166,7 @@ Apple School Manager 등록을 활성화하려면 Intune과 Apple School Manager
 ## <a name="assign-a-profile-to-devices"></a>장치에 프로필 할당
 Intune에서 관리하는 Apple School Manager 장치를 등록하려면 등록 프로필을 할당해야 합니다.
 
-1. Azure 포털의 Intune에서 **장치 등록** > **Apple 등록**을 선택한 다음 **등록 프로그램 프로필**을 선택합니다.
+1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **Apple 등록**을 선택한 다음, **등록 프로그램 프로필**을 선택합니다.
 2. **등록 프로그램 프로필** 목록에서 장치에 할당할 프로필을 선택한 다음 **장치 할당**을 선택합니다.
 
  ![할당이 선택된 장치 할당입니다.](./media/enrollment-program-device-assign.png)

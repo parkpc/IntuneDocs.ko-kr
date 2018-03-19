@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 01/03/2018
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 7196b33e-d303-4415-ad0b-2ecdb14230fd
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 01f5791869876ecfb7096c987cbc2828a39a2844
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 0f5d723c86c120bb8dee1f4e109b70d9ea4e6091
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="enroll-devices-by-using-a-device-enrollment-manager-account"></a>장치 등록 관리자 계정을 사용하여 장치 등록
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/02/2018
 
 ## <a name="example-of-a-device-enrollment-manager-scenario"></a>장치 등록 관리자 시나리오의 예
 
-식당에는 서빙 직원을 위한 50대의 POS 태블릿과 주방 직원을 위한 주문 모니터를 공급하기를 원합니다. 직원은 회사 데이터에 액세스하거나 사용자로 로그인할 필요가 없습니다. Intune 관리자는 장치 등록 관리자 계정을 만들고 DEM 계정에 식당 감독자를 추가하여 해당 감독자에게 DEM 기능을 제공합니다. 이제 감독자는 DEM 자격 증명을 사용하여 50대의 태블릿 장치를 등록할 수 있습니다.
+식당에는 서빙 직원을 위한 50대의 POS 태블릿과 주방 직원을 위한 주문 모니터를 공급하기를 원합니다. 직원은 회사 데이터에 액세스하거나 사용자로 로그인할 필요가 없습니다. Intune 관리자는 장치 등록 관리자 계정을 만들고 DEM 계정에 식당 감독자를 추가합니다. 이제 감독자에는 DEM 기능이 있습니다. 이제 감독자는 DEM 자격 증명을 사용하여 50대의 태블릿 장치를 등록할 수 있습니다.
 
 [Azure Portal](https://portal.azure.com)의 사용자만 장치 등록 관리자가 될 수 있습니다. 장치 등록 관리자 사용자는 Intune 관리자일 수 없습니다.
 
@@ -50,16 +50,16 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
   - 사용자별 액세스는 불가능합니다. 장치에 할당된 사용자가 없기 때문에 장치에는 메일 또는 회사 데이터 액세스 권한이 없습니다. VPN 구성 등을 계속 사용하여 장치 앱에 데이터 액세스 권한을 제공할 수는 있습니다.
   - 이러한 시나리오는 사용자별 시나리오이므로 조건부 액세스는 불가능합니다.
-  - DEM 사용자는 회사 포털을 사용하여 장치 자체에서 DEM에 등록된 장치 등록을 해제할 수 없습니다. Intune 관리자는 이 작업을 수행할 수 있지만 DEM 관리자는 수행할 수 없습니다.
+  - DEM 사용자는 회사 포털을 사용하여 장치 자체에서 DEM에 등록된 장치 등록을 해제할 수 없습니다. Intune 관리는 등록을 해제할 수 있습니다.
   - 회사 포털 앱 또는 웹 사이트에 로컬 장치만 표시됩니다.
   - 앱 관리에 대한 사용자별 Apple ID 요구 사항으로 인해 Apple VPP(Volume Purchase Program) 앱을 사용할 수 없습니다.
   - (iOS에만 해당) DEM을 사용하여 iOS 장치를 등록하는 경우 Apple Configurator, Apple DEP(장치 등록 프로그램) 또는 ASM(Apple School Manager)를 사용하여 장치를 등록할 수 없습니다.
-  - (Android에만 해당) 단일 DEM 계정으로 등록할 수 있는 Android for Work 장치의 수량에는 제한이 있습니다. DEM 계정당 10개까지 Android 회사 프로필 장치를 등록할 수 있습니다. 이 제한은 기존 Android 등록에는 적용되지 않습니다.
+  - (Android에만 해당) 단일 DEM 계정으로 등록할 수 있는 Android for Work 장치의 수에는 제한이 있습니다. DEM 계정당 10개까지 Android 회사 프로필 장치를 등록할 수 있습니다. 이 제한은 기존 Android 등록에는 적용되지 않습니다.
   - 각 장치에 장치 라이선스가 필요합니다. [사용자 및 장치 라이선스](licenses-assign.md#how-user-and-device-licenses-affect-access-to-services)에 대해 자세히 알아보세요.
 
 
 > [!NOTE]
-> 장치 등록 관리자로 관리되는 장치에 회사 앱을 배포하려면 회사 포털 앱을 장치 등록 관리자의 사용자 계정에 **필수 설치**로 배포합니다.
+> 장치 등록 관리자에서 관리하는 장치에 회사 앱을 배포할 수 있습니다. **필수 설치**인 회사 포털 앱을 장치 등록 관리자의 사용자 계정에 배포합니다.
 > 성능 향상을 위해 DEM 장치에서 회사 포털 앱을 보면 로컬 장치만 표시됩니다. 다른 DEM 장치의 원격 관리는 Intune 관리 콘솔에서만 수행할 수 있습니다.
 
 
@@ -88,9 +88,8 @@ DEM 등록 작업을 수행하려면 전역 또는 Intune 서비스 관리자 Az
 
 **장치 등록 관리자를 제거하려면**
 
-1. [Azure Portal](https://portal.azure.com)에서 **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
-2. Intune 블레이드에서 **장치 등록**을 선택한 다음, **장치 등록 관리자**를 선택합니다.
-3. **장치 등록 관리자** 블레이드에서 DEM 사용자를 선택하고 **삭제**를 선택합니다.
+1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록**을 선택한 다음, **장치 등록 관리자**를 선택합니다.
+2. **장치 등록 관리자** 블레이드에서 DEM 사용자를 선택하고 **삭제**를 선택합니다.
 
 ## <a name="view-the-properties-of-a-device-enrollment-manager"></a>장치 등록 관리자의 속성 보기
 

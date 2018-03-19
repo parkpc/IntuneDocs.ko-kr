@@ -6,19 +6,19 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 3/1/2018
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.reviewer: ayesham
+ms.reviewer: ayesham, chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d939d86f6ccd7f9851cfc52f1080fddaeee6a947
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: f938967951045d24ae65315b3b4d40749c1bc20f
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="microsoft-intune-android-and-samsung-knox-standard-device-restriction-settings"></a>Microsoft Intune Android 및 Samsung Knox Standard 장치 제한 설정 
 
@@ -144,7 +144,7 @@ ms.lasthandoff: 03/05/2018
 
 키오스크 설정은 Samsung Knox Standard 장치와 Intune을 사용하여 관리하는 앱에만 적용됩니다.
 
-- **관리되는 앱 선택** - 다음 옵션 중 하나를 선택하여 장치가 키오스크 모드일 때 실행할 수 있는 관리되는 앱을 하나 이상 추가합니다. 다른 앱은 장치에서 실행할 수 없습니다.
+- **관리되는 앱 선택** - 다음 옵션 중 하나를 선택하여 장치가 키오스크 모드일 때 실행할 수 있는 관리되는 앱을 하나 이상 추가합니다. 다른 앱은 장치에서 실행할 수 없습니다. 장치가 키오스크 모드인 경우 사전 설치된 브라우저는 실행하도록 허용된 앱으로 정의될 수 없습니다. 브라우저가 필요한 경우 [Managed Browser](app-configuration-managed-browser.md)를 사용하는 것이 좋습니다.
     - **패키지 이름으로 앱 추가**
     - **URL로 앱 추가**
     - **관리되는 앱 추가**.

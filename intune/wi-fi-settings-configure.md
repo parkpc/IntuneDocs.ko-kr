@@ -6,18 +6,18 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 1/25/2018
+ms.date: 03/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 21bc79d3440e57ec91f7e4482112d77cf233575f
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 90d2df028d5a61bb134b6a2b76efa570eed80f20
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-configure-wi-fi-settings-in-microsoft-intune"></a>Microsoft Intune에서 Wi-Fi 설정을 구성하는 방법
 
@@ -47,17 +47,19 @@ Windows 8.1, Windows 10, Windows 10 Mobile 및 Windows Holographic for Business�
 ## <a name="create-a-device-profile-containing-wi-fi-settings"></a>Wi-Fi 설정을 포함하는 장치 프로필 만들기
 
 1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
-2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
-3. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.
-4. **프로필 만들기** 블레이드에서 Wi-Fi 프로필에 대한 **이름** 및 **설명**을 입력합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **장치 구성**을 선택합니다.
+2. **관리** 섹션 아래의 **장치 구성** 창에서 **프로필**을 선택합니다.
+3. 프로필 창에서 **프로필 만들기**를 선택합니다.
+4. **프로필 만들기** 창에서 Wi-Fi 프로필에 대한 **이름** 및 **설명**을 입력합니다.
 5. **플랫폼** 드롭다운 목록에서 Wi-Fi 설정을 적용할 장치 플랫폼을 선택합니다. 현재 Wi-Fi 설정에 대해 다음 플랫폼 중 하나를 선택할 수 있습니다.
     - **OWA(Outlook Web Access)**
     - **Android for Work**
     - **Android**
     - **macOS**
-    - **Windows 8.1 이상(프로필 가져오기)**
+    - **Windows Phone 8.1**
+    - **Windows 8.1 이상**
+    - **Windows 10 이상**
 
    > [!IMPORTANT]
    > Windows Holographic for Business를 포함하여 Windows 10을 실행하는 장치용 프로필을 만드는 경우 **Windows 8.1 이상** 플랫폼을 선택해야 합니다. **Windows 10 이상** 플랫폼에는 Wi-Fi 프로필 유형이 포함되지 않습니다. 
@@ -70,9 +72,9 @@ Windows 8.1, Windows 10, Windows 10 Mobile 및 Windows Holographic for Business�
     - [iOS 설정](wi-fi-settings-ios.md)
     - [macOS 설정](wi-fi-settings-macos.md)
     - [Windows 8.1 이상 설정](wi-fi-settings-import-windows-8-1.md)(Windows Holographic for Business 포함)
-1. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
+1. 작업이 완료되면 **프로필 만들기** 창으로 돌아가서 **만들기**를 누릅니다.
 
-프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
+프로필이 만들어지고 프로필 목록 창에 표시됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

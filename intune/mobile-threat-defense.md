@@ -1,7 +1,7 @@
 ---
-title: "Intune에서 Mobile Threat Defense 사용"
-titleSuffix: Azure portal
-description: "장치 위험에 따라 회사 리소스에 대한 액세스를 보호합니다."
+title: "Microsoft Intune에서 Mobile Threat Defense 사용"
+titleSuffix: 
+description: "MTD(Mobile Threat Defense) 파트너와 함께 Intune MTD(Mobile Threat Defense)를 사용하여 장치 위험에 따라 회사 리소스에 대한 액세스를 보호합니다."
 keywords: 
 author: msmimart
 ms.author: mimart
@@ -15,13 +15,13 @@ ms.assetid: ac77b590-a7ec-45a0-9516-ebf5243b6210
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: da0f21a822608052846200e13ef37ca4606e6079
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: 2eaba4f04d6a1daedf40b7b37d2b44ed5aff4533
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="mobile-threat-defense-integration-with-intune"></a>Intune에 Mobile Threat Defense 통합
+# <a name="what-is-mobile-threat-defense-integration-with-intune"></a>Intune과 Mobile Threat Defense의 통합이란?
 
 
 Intune 모바일 위협 방어 커넥터를 사용하면 선택한 모바일 위협 방어 공급업체를 준수 정책 및 조건부 액세스 규칙의 정보 소스로 활용할 수 있습니다. 이 경우 IT 관리자가 특히 손상된 모바일 장치에서 Exchange 및 Sharepoint와 같은 회사 리소스에 보호 계층을 추가할 수 있습니다.
@@ -32,7 +32,7 @@ Intune 모바일 위협 방어 커넥터를 사용하면 선택한 모바일 위
 
 지금까지 회사는 공격으로부터 PC를 보호하는 데 사전 예방적인 자세를 취해 왔지만 모바일 장치는 모니터링 및 보호되지 않고 있습니다. 모바일 플랫폼에는 앱 격리 및 소비자 앱 스토어 점검과 같은 기본 제공 보호 기능이 있지만 이러한 플랫폼은 정교한 공격에 여전히 취약합니다. 오늘날 업무에 장치를 사용하며 중요한 정보에 액세스해야 하는 직원이 늘어나고 있습니다. 따라서 점점 더 정교한 공격으로부터 장치를 보호해야 합니다.
 
-## <a name="how-the-intune-mobile-threat-defense-connectors-work"></a>Intune Mobile Threat Defense 커넥터의 작동 방식
+## <a name="how-do-the-intune-mobile-threat-defense-connectors-work"></a>Intune Mobile Threat Defense 커넥터의 작동 방식
 
 커넥터는 Intune과 선택한 모바일 위협 방어 공급업체 간에 통신 채널을 만들어 회사 리소스를 보호합니다. Intune Mobile Threat Defense 파트너는 직관적이고 배포하기 쉬운 모바일 장치용 응용 프로그램을 제공합니다. 이 응용 프로그램은 보고 또는 적용을 위해 Intune과 공유할 위협 정보를 적극적으로 검색하고 분석합니다. 
 
@@ -58,11 +58,11 @@ Intune은 개인 및 회사 소유 장치 모두에서 앱 인벤토리 정보�
 
 Mobile Threat Defense 솔루션에서 장치가 감염된 것으로 간주되는 경우
 
-![Mobile Threat Defense 감염된 장치](./media/MTD-image-1.png)
+![Mobile Threat Defense 감염된 장치를 보여주는 이미지](./media/MTD-image-1.png)
 
 장치를 재구성하면 액세스가 허용됩니다.
 
-![Mobile Threat Defense 액세스 부여](./media/MTD-image-2.png)
+![Mobile Threat Defense 감염된 장치를 보여주는 이미지](./media/MTD-image-2.png)
 
 > [!NOTE] 
 > Intune에서 여러 Mobile Threat Defense 공급 업체를 사용하도록 지원되지 않습니다. 여러 MTD 도구를 사용하면 모든 MTD 앱을 설치하도록 강제하고 장치에서 위협을 검사합니다.

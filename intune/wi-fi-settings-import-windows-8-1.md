@@ -6,18 +6,18 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 3/2/2018
+ms.date: 03/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0113703cbdc58172edc9552146c7634aa1058e3b
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 890a10ecf4212656c189adaf46bb2839898758c1
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="import-wi-fi-settings-for-windows-81-and-later-devices-in-microsoft-intune"></a>Microsoft Intune에서 Windows 8.1 이상 장치에 대한 Wi-Fi 설정 가져오기
 
@@ -35,22 +35,23 @@ Windows에서 **netsh wlan** 유틸리티를 사용하여 기존 Wi-Fi 프로필
 
 ## <a name="import-the-wi-fi-settings-into-intune"></a>Intune으로 Wi-Fi 설정 가져오기
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 페이지에서 **장치 구성**을 선택합니다.
-2. **장치 구성** 페이지에서 **관리** > **프로필**을 선택합니다.
-3. 프로필 창에서 **프로필 만들기**를 클릭합니다.
-4. **프로필 만들기** 페이지에서 장치 제한 프로필에 대한 **이름** 및 **설명**을 입력합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **장치 구성**을 선택합니다.
+4. **관리** 섹션 아래의 **장치 구성** 창에서 **프로필**을 선택합니다.
+5. 프로필 창에서 **프로필 만들기**를 클릭합니다.
+6. **프로필 만들기** 창에서 장치 제한 프로필에 대한 **이름** 및 **설명**을 입력합니다.
+
 
    > [!WARNING]
    > 이름은 **반드시** Wi-Fi 프로필 xml의 이름 속성과 동일해야 합니다. 그렇지 않으면 실패합니다.
 
-5. **플랫폼** 드롭다운 목록에서 **Windows 8.1 이상**을 선택합니다.
-6. **프로필** 유형 드롭다운 목록에서 **Wi-Fi 가져오기**를 선택합니다.
-7. **Wi-Fi 기본** 페이지에서 다음 설정을 구성합니다.
+7. **플랫폼** 드롭다운 목록에서 **Windows 8.1 이상**을 선택합니다.
+8. **프로필 형식** 드롭다운 목록에서 **Wi-Fi 가져오기**를 선택합니다.
+9. **Wi-Fi** 창에서 다음 설정을 구성합니다.
     - **연결 이름** Wi-Fi 연결 이름을 입력합니다. 이 이름은 최종 사용자가 사용 가능한 Wi-Fi 네트워크를 찾아볼 때 표시됩니다.
     - **프로필 XML** 찾아보기 단추를 클릭하여 Intune으로 가져오려는 Wi-Fi 프로필 설정이 포함된 XML 파일을 선택합니다.
     - **파일 내용** 선택한 구성 프로필에 대한 XML 코드를 표시합니다.
-8. 완료되면 **프로필 만들기** 페이지로 돌아가서 **만들기**를 누릅니다.
+10. 작업이 완료되면 **확인**을 선택하고 **프로필 만들기** 창으로 돌아와서 **만들기**를 선택합니다.
 
-프로필이 만들어지고 프로필 목록 페이지에 표시됩니다.
+프로필이 만들어지고 프로필 목록 창에 표시됩니다.

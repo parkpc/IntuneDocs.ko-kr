@@ -6,7 +6,7 @@ keywords:
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/01/2018
+ms.date: 03/09/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9372a77a63f48c8215a02ccd784fb0a812f5a12f
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 737c2900b2cdd57cb4dfc8373d06111a52e772b2
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Microsoft Intune 앱 관리란?
 
@@ -34,7 +34,7 @@ Microsoft Intune를 사용하면 IT 관리자로서 회사의 직원이 사용�
 
 또한 Intune에 등록되지 않은 장치에서 앱을 할당하고 관리할 수 있습니다.
 
-Intune은 원하는 장치에서 필요한 앱을 얻도록 도와주는 다양한 기능을 제공합니다. 다음 표에서 앱 관리 기능의 요약을 제공합니다. 아래 표는 Azure Portal에서 Microsoft Intune을 이해하기 위한 출발점입니다. 
+Intune은 원하는 장치에서 필요한 앱을 얻도록 도와주는 다양한 기능을 제공합니다. 다음 표에서 앱 관리 기능의 요약을 제공합니다. 아래 표는 Azure Portal에서 Microsoft Intune을 이해하기 위한 출발점입니다.
 
 ## <a name="app-management-capabilities-by-platform"></a>플랫폼별 앱 관리 기능
 
@@ -51,7 +51,7 @@ Intune은 원하는 장치에서 필요한 앱을 얻도록 도와주는 다양�
 |앱 스토어에서 대량 구매 앱 할당 및 추적|아니요|아니요|아니요|예|
 |장치에 앱 필수 설치(필수)<sup>2</sup>|예|예|예|예|
 |회사 포털에서 장치에 선택적 설치(사용 가능한 설치)|예|예|예|예|
-|웹에서 앱에 바로 가기 설치(웹 클립)|예|예|예|예|
+|웹에서 앱에 바로 가기 설치(웹 칭크)|예|예|예|예|
 |사내(기간 업무) 앱|예|예|아니요|예|
 |스토어의 앱|예|예|예|예|
 |앱 업데이트|예|예|예|예|
@@ -70,25 +70,29 @@ Intune은 원하는 장치에서 필요한 앱을 얻도록 도와주는 다양�
 
     ![모바일 앱 워크로드](./media/apps-workload.png)
 
+아래 정보는 **모바일 앱** 블레이드에서 사용할 수 있는 옵션에 해당합니다.
+
 ### <a name="manage"></a>관리
-- **앱** - 대부분의 앱을 추가, 할당 및 모니터링할 수 있는 노드입니다.
+- **앱** - 이 옵션을 선택하여 직원이 사용하는 앱을 추가하고, 보고, 할당하고, 모니터링합니다. 자세한 내용은 다음 문서를 참조하십시오.
     - [앱 추가](apps-add.md)
     - [앱 할당](apps-deploy.md)
     - [앱 모니터링](apps-monitor.md)
-- **앱 구성 정책** - 앱 구성 정책을 사용하여 사용자가 앱을 실행할 때 필요할 수 있는 설정을 제공할 수 있습니다.
-    - [iOS 앱 구성 정책](app-configuration-policies-use-ios.md)
-    - [Android 앱 구성 정책](app-configuration-policies-use-android.md)
-- **앱 보호 정책** - 설정을 앱에 연결하여 앱에서 사용 중인 회사 데이터를 보호할 수 있습니다. 예를 들어 다른 앱과 통신하는 앱의 기능을 제한하고 사용자에게 회사 앱에 액세스하려면 PIN을 입력하도록 요구할 수 있습니다.
+- **앱 구성 정책** - 앱 구성 정책을 사용하면 사용자가 앱을 실행할 때 필요할 수 있는 설정을 제공할 수 있습니다. 자세한 내용은 다음 문서를 참조하십시오.
+    - [Intune용 앱 구성 정책](app-configuration-policies-overview.md)
+        - [iOS 앱 구성 정책](app-configuration-policies-use-ios.md)
+        - [Android 앱 구성 정책](app-configuration-policies-use-android.md)
+- **앱 보호 정책** - 앱 보호 정책을 사용하면 설정을 앱에 연결하여 앱에서 사용 중인 회사 데이터를 보호할 수 있습니다. 예를 들어 다른 앱과 통신하는 앱의 기능을 제한하고 사용자에게 회사 앱에 액세스하려면 PIN을 입력하도록 요구할 수 있습니다. 자세한 내용은 다음 아티클을 참조하세요.
     - [앱 보호 정책](app-protection-policies.md)
-- **앱 선택적 초기화** - 선택한 사용자의 장치에서 회사 데이터만 제거합니다.
+- **앱 선택적 초기화** - 선택한 사용자의 장치에서 회사 데이터만 제거합니다. 자세한 내용은 다음 아티클을 참조하세요.
     - [앱 선택적 초기화](apps-selective-wipe.md)
-- **iOS 프로비전 프로필** - iOS 앱에는 인증서로 서명된 프로비전 프로필 및 코드가 포함됩니다. 인증서가 만료되면 앱을 더 이상 실행할 수 없습니다. Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필 정책을 미리 할당하기 위한 도구를 제공합니다.
+- **iOS 앱 프로비전 프로필** - iOS 앱에는 인증서로 서명된 프로비전 프로필 및 코드가 포함됩니다. 인증서가 만료되면 앱을 더 이상 실행할 수 없습니다. Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필 정책을 미리 할당하기 위한 도구를 제공합니다. 자세한 내용은 다음 아티클을 참조하세요.
     - [iOS 앱 프로비전 프로필](app-provisioning-profile-ios.md)
 
 자세한 내용은 [앱 관리](app-management.md)를 참조하세요.
 
 ### <a name="monitor"></a>모니터
-- **앱 라이선스** - 앱 스토어에서 대량 구매 앱을 보고, 할당하고, 모니터링할 수 있습니다.
+- **앱 라이선스** - 앱 스토어에서 대량 구매 앱을 보고, 할당하고, 모니터링할 수 있습니다. 자세한 내용은 다음 문서를 참조하십시오.
+    - [iOS VPP(대량 구매 프로그램) 앱](vpp-apps-ios.md)
     - [비즈니스용 Microsoft 스토어 대량 구매 앱](windows-store-for-business.md)
 - **검색된 앱** - Intune에서 할당하고 장치에 설치된 모든 앱을 표시합니다.
 - **앱 설치 상태** - 생성한 앱 할당의 상태를 표시합니다.
@@ -100,22 +104,22 @@ Intune은 원하는 장치에서 필요한 앱을 얻도록 도와주는 다양�
 ### <a name="setup"></a>설정
 - **iOS VPP 토큰** - iOS VPP(대량 구매 프로그램) 라이선스를 적용하고 볼 수 있습니다.
     - [iOS 대량 구매 앱](vpp-apps-ios.md)
-- **Windows 엔터프라이즈 인증서** - 관리되는 Windows 장치에 기간 업무 앱을 분배하는 데 사용되는 코드 서명 인증서의 상태를 적용하거나 볼 수 있습니다. 
-- **Windows Symantec 인증서** - Windows 10 Mobile 장치에 XAP 및 WP8.x appx 파일을 분배하는 데 필요한 Symantec 코드 서명 인증서의 상태를 적용하거나 볼 수 있습니다. 
-- **비즈니스용 Microsoft 스토어** - 비즈니스용 Microsoft 스토어에 대한 통합을 설정합니다. 그리고 나면 구매한 응용 프로그램을 Intune에 동기화하고 할당한 후 라이선스 사용 현황을 추적할 수 있습니다.
+- **Windows 엔터프라이즈 인증서** - 관리되는 Windows 장치에 기간 업무 앱을 분배하는 데 사용되는 코드 서명 인증서의 상태를 적용하거나 볼 수 있습니다.
+- **Windows Symantec 인증서** - Windows 10 Mobile 장치에 XAP 및 WP8.x appx 파일을 분배하는 데 필요한 Symantec 코드 서명 인증서의 상태를 적용하거나 볼 수 있습니다.
+- **비즈니스용 Microsoft 스토어** - 비즈니스용 Microsoft 스토어에 대한 통합을 설정합니다. 그리고 나면 구매한 응용 프로그램을 Intune에 동기화하고 할당한 후 라이선스 사용 현황을 추적할 수 있습니다. 자세한 내용은 다음 아티클을 참조하세요.
     - [비즈니스용 Microsoft 스토어 대량 구매 앱](windows-store-for-business.md)
-- **Windows 테스트용 로드 키** - Windows 스토어에서 앱을 게시 및 다운로드하는 대신 장치에 직접 설치하는 데 사용할 수 있는 Windows 테스트용 로드 키를 추가할 수 있습니다.
-    - [Windows 앱 테스트용 로드](app-sideload-windows.md) 
-- **회사 포털 브랜딩** - 회사 포털을 사용자 지정하여 회사 브랜딩을 제공할 수 있습니다.
+- **Windows 테스트용 로드 키** - Windows 스토어에서 앱을 게시 및 다운로드하는 대신 장치에 직접 설치하는 데 사용할 수 있는 Windows 테스트용 로드 키를 추가할 수 있습니다. 자세한 내용은 다음 아티클을 참조하세요.
+    - [Windows 앱 테스트용 로드](app-sideload-windows.md)
+- **회사 포털 브랜딩** - 회사 포털을 사용자 지정하여 회사 브랜딩을 제공할 수 있습니다. 자세한 내용은 다음 아티클을 참조하세요.
     - [회사 포털 구성](company-portal-app.md)
 - **앱 범주** - 앱 범주 이름을 추가, 고정 및 삭제할 수 있습니다.
-- **Android for Work** - 엔터프라이즈에 대해 승인한 앱을 승인 및 동기화할 수 있습니다.
-    - [Android for Work 앱](apps-add-android-for-work.md) 
+- **Android for Work** - 엔터프라이즈에 대해 승인한 앱을 승인 및 동기화할 수 있습니다. 자세한 내용은 다음 아티클을 참조하세요.
+    - [Android for Work 앱](apps-add-android-for-work.md)
 
 ### <a name="help-and-support"></a>도움말 및 지원
-- **도움말 및 지원** - 문제를 해결하거나, 지원을 요청하거나, Intune 상태를 볼 수 있습니다.
+- **도움말 및 지원** - 문제를 해결하거나, 지원을 요청하거나, Intune 상태를 볼 수 있습니다. 자세한 내용은 다음 아티클을 참조하세요.
     - [문제 해결](help-desk-operators.md)
-    
+
 ## <a name="next-steps"></a>다음 단계
 
 - [Microsoft Intune에 앱을 추가하는 방법](apps-add.md)

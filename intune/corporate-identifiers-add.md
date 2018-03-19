@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 01/11/2018
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 566ed16d-8030-42ee-bac9-5f8252a83012
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 29c3d331cae06b0474fc3a2b31790719d99c678e
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 7d014ae02f3db2ea9175e74f2a867bd12f1d4f22
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="identify-devices-as-corporate-owned"></a>회사 소유의 장치 식별
 
@@ -70,7 +70,7 @@ Intune 관리자는 IMEI 번호 또는 일련 번호가 나열된 쉼표로 구�
 
 ### <a name="add-a-csv-list-of-corporate-identifiers"></a>회사 식별자의 .csv 목록 추가
 
-1. Azure Portal의 Intune에서 **장치 등록** > **회사 장치 식별자**를 선택한 다음 **추가**를 클릭합니다.
+1. [Azure Portal의 Intune](https://portal.azure.com)에서 **장치 등록** > **회사 장치 식별자**를 선택한 다음, **추가**를 클릭합니다.
 
  ![추가 단추가 강조 표시된 회사 장치 식별자 작업 영역](./media/add-corp-id.png)
 
@@ -82,11 +82,11 @@ Intune 관리자는 IMEI 번호 또는 일련 번호가 나열된 쉼표로 구�
 
 ### <a name="delete-corporate-identifiers"></a>회사 식별자 삭제
 
-1. Azure Portal의 Intune에서 **장치 등록** > **회사 장치 식별자**를 선택합니다.
+1. [Azure Portal의 Intune](https://portal.azure.com)에서 **장치 등록** > **회사 장치 식별자**를 선택합니다.
 2. 삭제할 장치 식별자를 선택하고 **삭제**를 선택합니다.
 3. 삭제를 확인 합니다.
 
-등록된 장치의 회사 식별자를 삭제해도 장치의 소유권이 변경되지는 않습니다. 장치의 소유권을 변경하려면 **장치** > **모든 장치**로 이동하고 장치를 선택한 다음 **속성**을 선택하고 **장치 소유권**을 변경합니다.
+등록된 장치의 회사 식별자를 삭제해도 장치의 소유권이 변경되지는 않습니다. 장치의 소유권을 변경하려면 **장치**로 이동하고 장치를 선택하고 **속성**을 선택하고 **장치 소유권**을 변경합니다.
 
 ### <a name="imei-specifications"></a>IMEI 사양
 International Mobile Equipment Identifiers에 대한 자세한 사양은 [3GGPP TS 23.003](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=729)을 참조하세요.
@@ -96,7 +96,7 @@ International Mobile Equipment Identifiers에 대한 자세한 사양은 [3GGPP 
 장치 속성은 Intune의 각 장치 레코드에 대한 **소유권**을 표시합니다. 관리자는 장치를 **개인** 또는 **회사**로 지정할 수 있습니다.
 
 **장치 소유권을 변경하려면 다음과 같이 합니다.**
-1. Azure Portal의 Intune에서 **장치** > **모든 장치**로 이동하고 장치를 선택합니다.
+1. [Azure Portal의 Intune](https://portal.azure.com)에서 **장치**로 이동하고 장치를 선택합니다.
 3. **속성**을 선택합니다.
 4. **장치 소유권**을 **개인** 또는 **회사**로 지정합니다.
 

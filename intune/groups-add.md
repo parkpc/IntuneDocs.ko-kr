@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 02/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f0a2b858-a824-4598-ab81-bdd8e62ac3b3
 ms.reviewer: amyros
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 42e7e2c8d239b8150f67a699ba6fef156b3e1a7d
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: b7d2b551832d8d0e467d079df673954318623e4c
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="add-groups-to-organize-users-and-devices"></a>사용자 및 장치를 구성하기 위한 그룹 추가
 Intune은 Azure AD(Active Directory) 그룹을 사용하여 장치 및 사용자를 관리합니다. Intune 관리자의 경우 조직의 요구에 맞게 그룹을 설정할 수 있습니다. 그룹을 만들어 지리적 위치, 부서 또는 하드웨어 특성별로 사용자 또는 장치를 구성합니다. 그룹을 사용하여 대규모 작업을 관리합니다. 예를 들어 많은 사용자에 대해 정책을 설정하거나 장치 집합에 앱을 배포할 수 있습니다.
@@ -33,9 +33,11 @@ Intune은 Azure AD(Active Directory) 그룹을 사용하여 장치 및 사용자
 ## <a name="add-a-new-group"></a>새 그룹 추가
 
 새 그룹을 만들려면 다음 단계를 따르세요.
-1. Azure Portal에서 **그룹**으로 이동한 다음 **모든 그룹** 블레이드에서 **새 그룹**을 선택합니다.
-  ![새 그룹을 선택한 사용자 및 그룹 화면의 스크린 샷](./media/groups-add-new.png)
-2. 새 그룹의 **이름**과 **설명**을 지정합니다. 이러한 속성은 관리 포털에만 나타나고 사용자에게 표시되지 않습니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **그룹**으로 이동한 다음, **모든 그룹** 창에서 **새로운 그룹**을 선택합니다.
+  ![새 그룹이 선택된 Azure Portal의 스크린샷](./media/groups-add-new.png)
+2. 새로운 그룹의 **그룹 형식**, **이름** 및 **설명**을 지정합니다. 이러한 속성은 관리 포털에만 나타나고 사용자에게 표시되지 않습니다.
 
 3. **멤버 자격 유형**을 선택합니다.
   - **할당됨** - 수동으로 할당된 구성원으로 그룹을 만듭니다. [Azure AD 할당된 그룹](https://docs.microsoft.com/azure/active-directory/active-directory-groups-create-azure-portal)에 대해 자세히 알아봅니다.

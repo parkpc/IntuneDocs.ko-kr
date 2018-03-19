@@ -14,17 +14,17 @@ ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b9d181c4a6e490018c88214a2ed91c90327f2526
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 5b1691e3474b021754e0ee6a1a1977efecc82eac
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="configure-a-certificate-profile-for-your-devices-in-microsoft-intune"></a>Microsoft Intune에서 장치에 대한 인증서 프로필 구성
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-VPN, Wi-Fi 또는 전자 메일 프로필을 통해 사용자에게 회사 리소스 액세스 권한을 부여하는 경우 인증서를 사용하여 연결을 인증할 수 있습니다. 인증서를 사용하면 연결을 인증하기 위해 사용자 이름 및 암호를 입력할 필요가 없습니다 
+VPN, Wi-Fi 또는 전자 메일 프로필을 통해 사용자에게 회사 리소스 액세스 권한을 부여하는 경우 인증서를 사용하여 연결을 인증할 수 있습니다. 인증서를 사용하면 연결을 인증하기 위해 사용자 이름 및 암호를 입력할 필요가 없습니다
 
 Intune을 사용하여 관리하는 장치에 이러한 인증서를 할당할 수 있습니다. Intune에서는 다음 인증서 유형 할당 및 관리를 지원합니다.
 
@@ -85,10 +85,13 @@ Intune을 사용하여 관리하는 장치에 이러한 인증서를 할당할 �
 ## <a name="step-3-create-trusted-certificate-profiles"></a>3단계: 신뢰할 수 있는 인증서 프로필 만들기
 SCEP 또는 PKCS 인증서 프로필을 만들기 전에 신뢰할 수 있는 인증서 프로필을 만듭니다. 각 장치 플랫폼에 신뢰할 수 있는 인증서 프로필 및 SCEP 또는 PKCS 프로필이 필요합니다. 신뢰할 수 있는 인증서를 만들기 위한 단계는 각 장치 플랫폼의 경우와 유사합니다.
 
-1. [Azure Portal](https://portal.azure.com)에서 **모든 서비스**를 선택하고 **Microsoft Intune**을 검색합니다.
-2. **Microsoft Intune**에서 **장치 구성**를 선택하고 **프로필**을 선택합니다. 그런 다음, **프로필 만들기**를 선택합니다.
-3. 신뢰할 수 있는 인증서 프로필에 대한 **이름** 및 **설명**을 입력합니다.
-4. **플랫폼**의 경우 신뢰할 수 있는 인증서에 대한 장치 플랫폼을 선택합니다. 
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **장치 구성**을 선택합니다.
+2. **장치 구성** 창에서 **관리** > **프로필**을 선택합니다.
+3. 프로필 창에서 **프로필 만들기**를 선택합니다.
+4. **프로필 만들기** 창에서 신뢰할 수 있는 인증서 프로필에 대한 **이름** 및 **설명**을 입력합니다.
+5. **플랫폼** 드롭다운 목록에서 이 신뢰할 수 있는 인증서에 대한 장치 플랫폼을 선택합니다. 현재 인증서 설정에 대해 다음 플랫폼 중 하나를 선택할 수 있습니다.
 
     - **OWA(Outlook Web Access)**
     - **Android for Work**
@@ -98,15 +101,13 @@ SCEP 또는 PKCS 인증서 프로필을 만들기 전에 신뢰할 수 있는 �
     - **Windows 8.1 이상**
     - **Windows 10 이상**
 
-5. **프로필 형식**으로 **신뢰할 수 있는 인증서**를 선택합니다. 이전에 저장한 인증서(*CertificateName*.cer)를 찾습니다(2 단계).
-
-    Windows 8.1 및 Windows 10 장치에 한해 신뢰할 수 있는 인증서의 **대상 저장소**를 선택합니다.  
-
+6. **프로필 유형** 드롭다운 목록에서 **신뢰할 수 있는 인증서**를 선택합니다.
+7. 작업 1에서 저장한 인증서를 찾은 다음 **확인**을 클릭합니다.
+8. Windows 8.1 및 Windows 10 장치에 한해 신뢰할 수 있는 인증서의 **대상 저장소**를 선택합니다.
     - **컴퓨터 인증서 저장소 - 루트**
     - **컴퓨터 인증서 저장소 - 중간**
     - **사용자 인증서 저장소 - 중간**
-
-6. **확인**을 선택해 변경 내용을 저장하고 **만들기**를 선택해 새 프로필을 저장합니다.
+8. 작업이 완료되면 **확인**을 선택하고 **프로필 만들기** 창으로 돌아와서 **만들기**를 선택합니다.
 
 프로필이 만들어지고 목록에 표시됩니다. 이 프로필을 그룹에 할당하려면 [장치 프로필 할당](device-profile-assign.md)을 참조하세요.
 

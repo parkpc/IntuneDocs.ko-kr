@@ -6,7 +6,7 @@ keywords:
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/26/2018
+ms.date: 03/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,15 @@ ms.assetid: 3292671a-5f5a-429e-90f7-b20019787d22
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1a8045261f93c6ac0282a03f13ac7bb7a7caac0d
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 076d228f3b18416e4ecb8fd1b3543a58d037e386
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/12/2018
 ---
-# <a name="how-to-assign-office-365-proplus-apps-to-windows-10-devices-with-microsoft-intune"></a>Microsoft Intune을 사용하여 Office 365 ProPlus 앱을 Windows 10 장치에 할당하는 방법
+# <a name="how-to-assign-office-365-apps-to-windows-10-devices-with-microsoft-intune"></a>Microsoft Intune을 사용하여 Office 365 앱을 Windows 10 장치에 할당하는 방법
 
-이 앱 형식을 통해 관리하는 Windows 10 실행 장치에 Office 365 ProPlus 앱을 쉽게 할당할 수 있습니다. Microsoft Project Online 데스크톱 클라이언트 및 Microsoft Visio Pro for Office 365에 대한 라이선스가 있는 경우 관련 앱을 설치할 수 있습니다. 원하는 앱이 Intune 콘솔의 앱 목록에 단일 항목으로 표시됩니다.
+이 앱 형식을 통해 관리하는 Windows 10 실행 장치에 Office 365 앱을 쉽게 할당할 수 있습니다. Microsoft Project Online 데스크톱 클라이언트 및 Microsoft Visio Pro for Office 365에 대한 라이선스가 있는 경우 관련 앱을 설치할 수 있습니다. 원하는 앱이 Intune 콘솔의 앱 목록에 단일 항목으로 표시됩니다.
 
 
 ## <a name="before-you-start"></a>시작하기 전에
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/02/2018
 >이 Office 설치 방법은 Microsoft Office의 다른 버전이 장치에 설치된 경우에만 지원됩니다.
 
 - 이러한 앱을 배포할 장치에서 Windows 10 크리에이터스 업데이트 이상을 실행하고 있어야 합니다.
-- Intune에서는 Office 365 ProPlus 제품군에서 Office 앱을 추가하는 기능만 지원합니다.
+- Intune에서는 Office 365 제품군에서 Office 앱을 추가하는 기능만 지원합니다.
 - Intune에서 앱 패키지를 설치할 때 Office 앱이 열리면, 설치가 실패할 수 있으며 최종 사용자는 저장되지 않은 파일의 데이터를 잃을 수 있습니다.
 - 이 설치 방법은 Windows 10S, Windows Home, Windows Team, Windows Holographic 및 Windows Holographic for Business 장치에서 지원되지 않습니다.
 - Intune은 Microsoft 스토어의 365 데스크톱 앱(Office Centennial 앱)을 이미 Intune으로 Office 365 앱을 배포한 장치에 설치하는 것을 지원하지 않습니다. 이 구성을 설치할 경우 데이터 손실이나 손상이 발생할 수 있습니다.
@@ -41,12 +41,13 @@ ms.lasthandoff: 03/02/2018
 
 ## <a name="get-started"></a>시작
 
-1.  Azure 포털에 로그인합니다.
-2.  **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1.  로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2.  **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3.  **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
-4.  **모바일 앱** 워크로드에서 **관리** > **앱**을 선택합니다.
+4.  **모바일 앱** 워크로드의 **관리** 섹션에서 **앱**을 선택합니다.
 5.  앱 목록 위에서 **추가**를 선택합니다.
-6.  **앱 추가** 블레이드에서 **Office 365 ProPlus 제품군(Windows 10)**을 선택합니다.
+6.  **앱 형식** 목록의 **앱 추가** 블레이드에 있는 **Office 365 제품군** 아래에서 **Windows 10**을 선택합니다.
+    이제 앱 제품군을 구성할 수 있습니다.
 
 ## <a name="configure-the-app-suite"></a>앱 패키지 구성
 
@@ -61,7 +62,7 @@ ms.lasthandoff: 03/02/2018
 
 ## <a name="configure-app-information"></a>앱 정보 구성
 
-이 단계에서는 앱 패키지에 대한 정보를 제공합니다. 이 정보를 사용하여 Intune에서 앱 패키지를 식별하고 사용자가 회사 포털 앱에서 앱 패키지를 찾을 수도 있습니다.
+이 단계에서는 앱 패키지에 대한 정보를 제공해야 합니다. 이 정보를 사용하여 Intune에서 앱 패키지을 식별하고 사용자가 회사 포털 앱에서 앱 패키지을 찾을 수도 있습니다.
 
 1.  **앱 추가** 블레이드에서 **앱 패키지 정보**를 선택합니다.
 2.  **앱 패키지 정보** 블레이드에서 다음 정보를 지정합니다.
@@ -75,7 +76,7 @@ ms.lasthandoff: 03/02/2018
     - **개발자** - 필요에 따라 앱 개발자의 이름을 입력합니다.
     - **소유자** - 필요에 따라 이 앱의 소유자 이름을 입력합니다(예: **HR 부서**).
     - **메모** - 이 앱과 연결할 모든 메모를 입력합니다.
-    - **아이콘 업로드** - 사용자가 회사 포털을 찾아볼 때 이 아이콘이 앱과 함께 표시됩니다.
+    - **로고** - 사용자가 회사 포털을 찾아볼 때 앱과 함께 표시되는 이 아이콘을 업로드합니다.
 3.  작업이 끝나면 **확인**을 클릭합니다.
 
 ## <a name="configure-app-settings"></a>앱 설정 구성
@@ -91,7 +92,7 @@ ms.lasthandoff: 03/02/2018
         - **반년마다**
         - **반년마다(대상 지정됨)**
     - **Automatically accept the app end user license agreement**(앱 최종 사용자 사용권 계약 자동으로 동의) - 최종 사용자가 사용권 계약에 동의하도록 요구하지 않으려면 이 옵션을 선택합니다. Intune에서 자동으로 계약에 동의합니다.
-    - **공유 컴퓨터 인증 사용** - 여러 사용자가 컴퓨터를 공유할 경우 공유 컴퓨터 인증이 사용됩니다. 자세한 내용은 Office 365 ProPlus의 공유 컴퓨터 인증 개요를 참조하세요.
+    - **공유 컴퓨터 인증 사용** - 여러 사용자가 컴퓨터를 공유할 경우 공유 컴퓨터 인증이 사용됩니다. 자세한 내용은 Office 365의 공유 컴퓨터 인증 개요를 참조하세요.
     - **언어** - Office는 최종 사용자 장치에 Windows와 함께 설치된 지원 언어로 자동으로 설치됩니다. 앱 패키지와 함께 추가 언어를 설치하려면 이 옵션을 선택합니다.
 
 >[!IMPORTANT]
@@ -99,7 +100,7 @@ ms.lasthandoff: 03/02/2018
 
 ## <a name="finish-up"></a>끝내기
 
-작업을 마치면 **앱 추가** 블레이드에서 **저장**을 선택합니다. 만든 앱은 앱 목록에 표시됩니다.
+작업이 완료되면 **앱 추가** 블레이드에서 **추가**를 선택합니다. 만든 앱은 앱 목록에 표시됩니다.
 
 ## <a name="error-codes-when-installing-the-app-suite"></a>앱 패키지 설치 시 오류 코드
 
@@ -137,4 +138,4 @@ ms.lasthandoff: 03/02/2018
 
 ## <a name="next-steps"></a>다음 단계
 
-이제 선택한 그룹에 앱을 할당할 수 있습니다. 도움말은 [그룹에 앱을 할당하는 방법](/intune-azure/manage-apps/deploy-apps)을 참조하세요.
+- 이제 선택한 앱을 할당할 수 있습니다. [앱을 그룹에 할당하는 방법](/intune-azure/manage-apps/deploy-apps)을 참조하세요.
