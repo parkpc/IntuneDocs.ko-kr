@@ -1,12 +1,11 @@
 ---
-title: "Intune을 사용하여 Windows 10 장치 다시 설정"
-titlesuffix: Azure portal
-description: "새로 시작 기능을 사용하여 Intune을 실행하는 Windows 10 PC를 다시 설정하는 방법을 알아봅니다.\""
+title: "Microsoft Intune-Azure를 사용한 Windows 10 장치 다시 설정 | Microsoft Docs"
+description: "OEM의 사전 설치된 앱을 비롯한 Microsoft Intune을 사용하여 Windows 10 PC에서 앱을 제거하기 위해 새로 시작을 사용합니다. 사용자 데이터가 설정을 유지하는 경우 사용하는 홈 폴더의 콘텐츠를 유지할 수 있습니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
-ms.date: 08/09/2017
+ms.date: 03/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,29 +13,31 @@ ms.technology:
 ms.assetid: 5aa5cfa3-c483-4099-b40f-578ff8dca425
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c45d3e47c90ca7739b3aa6eee1bf31d787a82264
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: d17c9dc11791f32f0c2c1e7faa88966c112fc6a5
+ms.sourcegitcommit: 9cf05d3cb8099e4a238dae9b561920801ad5cdc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="use-fresh-start-to-reset-windows-10-devices-with-intune"></a>Intune을 통해 새로 시작 기능을 사용하여 Windows 10 장치 다시 설정
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-**새로 시작** 장치 작업을 수행하면 크리에이터스 업데이트를 실행 중인 Windows 10 PC에 설치된 앱이 제거되고 PC가 자동으Apple MDM Push certificate로 최신 버전의 Windows로 업데이트됩니다.
-이 작업은 종종 새 PC와 함께 제공되는 미리 설치된 (OEM) 앱을 제거하는 데 사용할 수 있습니다. 이 장치 작업을 실행할 때 사용자 데이터를 유지할지 여부를 구성할 수 있습니다. 이 경우 앱과 설정은 제거되지만 사용자 홈 폴더의 내용은 그대로 유지됩니다.
+**새로 시작** 장치 작업은 크리에이터스 업데이트를 실행하는 Windows 10 PC에 설치된 모든 앱을 제거합니다. 그런 다음, PC를 최신 버전의 Windows로 자동으로 업데이트합니다.
 
-## <a name="how-to-use-fresh-start"></a>새로 시작을 사용하는 방법
+이 작업을 통해 새로운 PC에서 일반적으로 설치된 사전 설치된(OEM) 앱을 제거할 수 있습니다. 사용자의 홈 폴더의 콘텐츠를 유지하고 앱 및 설정을 제거하려면 `if user data is retained` 설정을 사용합니다.
 
-1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
-2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
-3. **Intune** 창에서 **장치**를 선택합니다.
-4. **장치** 창에서 **모든 장치**를 선택합니다.
-5. 관리하는 장치 목록에서 Windows 10 데스크톱 장치를 선택한 다음 **새로 시작** 장치 원격 작업을 선택합니다.
+> [!IMPORTANT]
+> 새로 시작은 Intune에서 장치 등록을 취소하지만 장치가 Azure Active Directory에 계속 가입됩니다.
+
+## <a name="use-fresh-start"></a>새로 시작 사용
+
+1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
+2. **모든 서비스**를 선택하고 **Intune**에서 필터링하고 **Microsoft Intune**을 선택합니다.
+3. **장치**를 선택한 다음, **모든 장치**를 선택합니다.
+4. 관리하는 장치 목록에서 Windows 10 데스크톱 장치를 선택한 다음, **새로 시작**을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-방금 수행한 작업의 상태를 확인하려면 **장치** 창에서 **장치 작업**을 선택합니다.
-
+이 작업의 상태를 보려면 **장치 작업**(**Microsoft Intune** > **장치**)을 선택합니다.

@@ -1,12 +1,12 @@
 ---
-title: "Intune을 사용하여 Mobile Threat Defense 장치 준수 정책 만들기"
-titlesuffix: Azure portal
-description: "Intune에서 Mobile Threat Defense 장치 준수 정책 만들기"
+title: "Microsoft Intune을 사용하여 MTD 장치 준수 정책 만들기"
+titlesuffix: 
+description: "MTD 파트너 위협 수준을 사용하는 Intune 장치 준수 정책을 만들어서 모바일 장치가 회사 리소스에 액세스할 수 있는지 확인합니다."
 keywords: 
 author: msmimart
 ms.author: mimart
 manager: dougeby
-ms.date: 06/21/2017
+ms.date: 02/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 5d12254f-ffab-4792-b19c-ab37f5e02f35
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a02f08c347f40821a10f6d9b6df3a6b26178180b
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: b719bb1841cfc1aa98808b9c09db43d9c654d63f
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="create-mobile-threat-defense-mtd-device-compliance-policy-with-intune"></a>Intune을 사용하여 MTD(Mobile Threat Defense) 장치 준수 정책 만들기
 
@@ -40,7 +40,7 @@ MTD를 사용한 장치 준수 정책에 대한 필수 조건:
 
 1.  [Azure Portal](https://portal.azure.com/)로 이동한 다음 Intune 자격 증명을 사용하여 로그인합니다.
 
-2.  **Azure 대시보드**의 왼쪽 메뉴에서 **추가 서비스**를 선택하고 텍스트 상자 필터에 **Intune**을 입력합니다.
+2.  **Azure 대시보드**의 왼쪽 메뉴에서 **모든 서비스**를 선택한 다음, 텍스트 상자 필터에 **Intune**을 입력합니다.
 
 3.  **Intune**을 선택합니다. **Intune 대시보드**가 열립니다.
 
@@ -48,9 +48,9 @@ MTD를 사용한 장치 준수 정책에 대한 필수 조건:
 
 5.  **정책 만들기**를 선택하고 장치 준수 **이름**, **설명**을 입력한 다음 **플랫폼**을 선택하고 **설정** 섹션에서 **구성**을 선택합니다.
 
-6.  **준수 정책** 블레이드에서 **장치 상태**를 선택합니다.
+6.  **준수 정책** 창에서 **장치 상태**를 선택합니다.
 
-7.  **장치 상태** 블레이드의 **장치가 Mobile Threat Defense 수준 이하여야 함** 아래에 있는 드롭다운 목록에서 Mobile Threat Level을 선택합니다.
+7.  **장치 상태** 창의 **장치가 장치 위협 수준 이하여야 함** 아래에 있는 드롭다운 목록에서 Mobile Threat Level을 선택합니다.
 
     a.  **보안됨**: 가장 안전한 수준입니다. 장치가 어떠한 위협에도 노출되지 않았으며 회사 리소스에 계속 액세스할 수 있습니다. 어떠한 위협이든 확인되는 장치는 비규격으로 평가됩니다.
 
@@ -67,11 +67,11 @@ MTD를 사용한 장치 준수 정책에 대한 필수 조건:
 
 ## <a name="to-assign-a-mtd-device-compliance-policy"></a>MTD 장치 준수 정책을 할당하려면
 
-사용자에게 장치 준수 정책을 할당하려면 이전에 구성한 정책을 선택합니다. 기존 정책은 **장치 준수 정책** 블레이드에서 확인할 수 있습니다.
+사용자에게 장치 준수 정책을 할당하려면 이전에 구성한 정책을 선택합니다. 기존 정책은 **장치 준수 – 정책** 창에서 확인할 수 있습니다.
 
-1. 사용자에게 할당할 정책을 선택한 다음 **할당**을 선택합니다. 이 작업은 **Azure Active Directory 보안 그룹**을 선택하고 이를 정책에 할당할 수 있는 블레이드를 엽니다.
+1. 사용자에게 할당할 정책을 선택한 다음 **할당**을 선택합니다. 이 작업은 **Azure Active Directory 보안 그룹**을 선택하고 이를 정책에 할당할 수 있는 창을 엽니다.
 
-2. **그룹 선택**을 선택하여 Azure AD 보안 그룹을 표시하는 블레이드를 엽니다.  **선택**을 선택하면 정책이 사용자에게 배포됩니다.
+2. **포함할 그룹 선택**을 선택하여 Azure AD 보안 그룹을 표시하는 창을 엽니다.  **선택**을 선택하면 정책이 사용자에게 배포됩니다.
 
     > [!NOTE] 
     > 사용자에게 정책을 적용했습니다. 정책의 대상이 되는 사용자가 사용하는 장치에 대한 규정 준수 여부가 평가됩니다.

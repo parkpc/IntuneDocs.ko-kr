@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d805d10efccb92ca3fe65b771bf7689e22f42088
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 83d508f0ce33becb9abcef7434845836d8dd2bca
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-configure-email-settings-in-microsoft-intune"></a>Microsoft Intune에서 메일 설정을 구성하는 방법
 
@@ -39,17 +39,19 @@ ms.lasthandoff: 03/02/2018
 
 ## <a name="create-a-device-profile-containing-email-settings"></a>메일 설정을 포함하는 장치 프로필 만들기
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 페이지에서 **장치 구성**을 선택합니다.
-2. **장치 구성** 페이지에서 **관리** > **프로필**을 선택합니다.
-3. 프로필 페이지에서 **프로필 만들기**를 선택합니다.
-4. **프로필 만들기** 페이지에서 이메일 프로필에 대한 **이름** 및 **설명**을 입력합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **장치 구성**을 선택합니다.
+2. **관리** 섹션 아래의 **장치 구성** 창에서 **프로필**을 선택합니다.
+3. 프로필 창에서 **프로필 만들기**를 선택합니다.
+4. **프로필 만들기** 창에서 이메일 프로필에 대한 **이름** 및 **설명**을 입력합니다.
 5. **플랫폼** 드롭다운 목록에서 메일 설정을 적용할 장치 플랫폼을 선택합니다. 현재 메일 장치 설정에 대해 다음 플랫폼 중 하나를 선택할 수 있습니다.
     - **Android**(Samsung Android Knox Standard만 해당)
     - **Android for Work**
-    - **iOS**
+    - **Android**
+    - **macOS**
     - **Windows Phone 8.1**
+    - **Windows 8.1 이상**
     - **Windows 10 이상**
 6. **프로필** 유형 드롭다운 목록에서 선택 **메일**을 선택합니다.
 7. 선택한 플랫폼에 따라 구성할 수 있는 설정이 다릅니다. 각 플랫폼에 대한 자세한 설정을 보려면 다음 항목 중 하나로 이동하세요.
@@ -57,9 +59,9 @@ ms.lasthandoff: 03/02/2018
     - [iOS 설정](email-settings-ios.md)
     - [Windows Phone 8.1 설정](email-settings-windows-phone-8-1.md)
     - [Windows 10 설정](email-settings-windows-10.md)
-8. 완료되면 **프로필 만들기** 페이지로 돌아가서 **만들기**를 누릅니다.
+8. 작업이 완료되면 **프로필 만들기** 창으로 돌아가서 **만들기**를 누릅니다.
 
-프로필이 만들어지고 프로필 목록 페이지에 표시됩니다.
+프로필이 만들어지고 프로필 목록 창에 표시됩니다.
 계속해서 이 프로필을 그룹에 할당하려면 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
 
 ## <a name="further-information"></a>추가 정보

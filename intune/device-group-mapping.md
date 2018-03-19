@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 12/11/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 7b668c37-40b9-4c69-8334-5d8344e78c24
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 416ce4fb671494efabf805595426f25d027d256e
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: d07b025881ea78299d617205ce5ba39bb92a1231
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="categorize-devices-into-groups-for-easier-management"></a>장치를 보다 쉽게 관리하도록 그룹으로 분류하기
 
@@ -41,12 +41,11 @@ ms.lasthandoff: 03/02/2018
 ## <a name="how-to-configure-device-categories"></a>장치 범주를 구성하는 방법
 
 ### <a name="step-1---create-device-categories-in-the-intune-blade-of-the-azure-portal"></a>1단계 - Azure Portal의 Intune 블레이드에서 장치 범주 만들기
-1. [Azure Portal](https://portal.azure.com)에서 **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
-3. **Intune** 블레이드에서 **장치 등록**을 선택합니다.
-3. **장치 등록** 블레이드에서 **장치 범주**를 선택합니다.
-4. **장치 범주** 페이지에서 **만들기**를 선택하여 새 범주를 추가합니다.
-5. **장치 범주 만들기** 블레이드에서 새 범주의 **이름** 및 선택적 **설명**을 입력합니다.
-6. 완료되면 **만들기**를 클릭합니다. 범주 목록에서 새 범주를 확인할 수 있습니다.
+1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록**을 선택합니다.
+2. **장치 등록** 블레이드에서 **장치 범주**를 선택합니다.
+3. **장치 범주** 페이지에서 **만들기**를 선택하여 새 범주를 추가합니다.
+4. **장치 범주 만들기** 블레이드에서 새 범주의 **이름** 및 선택적 **설명**을 입력합니다.
+5. 완료되면 **만들기**를 클릭합니다. 범주 목록에서 새 범주를 확인할 수 있습니다.
 
 2단계에서 Azure Active Directory 보안 그룹을 만들 때 장치 범주 이름을 사용합니다.
 
@@ -61,23 +60,20 @@ ms.lasthandoff: 03/02/2018
 
 ### <a name="how-to-view-the-categories-of-devices-you-manage"></a>관리하는 장치의 범주를 확인하는 방법
 
-1.  [Azure Portal](https://portal.azure.com)에서 **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+1.  [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치**를 선택합니다.
 
-2. Azure Portal의 Intune 블레이드에서 **장치**를 선택합니다.
+2.  **관리** 아래에서 **모든 장치**를 클릭합니다.
 
-3.  **관리** 아래에서 **모든 장치**를 클릭합니다.
-
-4.  장치 목록에서 **장치 범주** 열을 확인합니다.
+3.  장치 목록에서 **장치 범주** 열을 확인합니다.
 
 **장치 범주** 열이 표시되지 않으면 **열**을 클릭하고 목록에서 **장치 범주**를 선택한 다음, **적용**을 클릭합니다.
 
 ### <a name="to-change-the-category-of-a-device"></a>장치의 범주를 변경하려면
 
-1. [Azure Portal](https://portal.azure.com)에서 **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
-3. **Intune** 블레이드에서 **장치**를 선택합니다.
-4. **관리** 섹션 아래 **장치** 블레이드에서 **모든 장치**를 선택합니다.
-5. 장치 목록에서 원하는 장치를 선택하고 **관리** 섹션 아래 장치 속성 블레이드에서 **속성**을 선택합니다.
-6. 다음 블레이드에서 선택한 장치의 **장치 범주**를 이전에 구성한 범주 이름으로 변경할 수 있습니다.
+1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치**를 선택합니다.
+2. **관리** 섹션 아래 **장치** 블레이드에서 **모든 장치**를 선택합니다.
+3. 장치 목록에서 원하는 장치를 선택하고 **관리** 섹션 아래 장치 속성 블레이드에서 **속성**을 선택합니다.
+4. 다음 블레이드에서 선택한 장치의 **장치 범주**를 이전에 구성한 범주 이름으로 변경할 수 있습니다.
 
 ## <a name="after-you-configure-device-groups"></a>장치 그룹 구성 후
 

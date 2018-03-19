@@ -6,18 +6,18 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 3/2/2018
+ms.date: 03/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 46bb82fd49fa58e87c22c8bf0abb57e1587b8b40
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: d415628419bec26c24494b38a13bd3801051c603
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="integrate-windows-hello-for-business-with-microsoft-intune"></a>Microsoft Intune과 비즈니스용 Windows Hello 통합
 
@@ -48,19 +48,19 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 
 ## <a name="create-a-windows-hello-for-business-policy"></a>비즈니스용 Windows Hello 정책 만들기
 
-1.  Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1.  [Azure Portal](https://portal.azure.com)에서 **모든 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
 
-2.  Intune 페이지에서 **장치 등록**, **Windows 등록** > **비즈니스용 Windows Hello**를 차례로 선택합니다.
+2.  Intune 창에서 **장치 등록**, **Windows 등록** > **비즈니스용 Windows Hello**를 차례로 선택합니다.
 
-3.  페이지가 열리면 **기본값**을 선택합니다.
+3.  창이 열리면 **기본값** 설정을 선택합니다.
 
-4.  **모든 사용자** 페이지에서 **속성**을 클릭하고 비즈니스용 Windows Hello 설정에 대한 **이름** 및 선택적 **설명**을 입력합니다.
+4.  **모든 사용자** 창에서 **속성**을 클릭한 다음, 비즈니스용 Windows Hello 설정에 대한 **이름** 및 선택적 **설명**을 입력합니다.
 
-5. **모든 사용자** 페이지에서 **설정**을 클릭하고 **비즈니스용 Windows Hello 구성**에서 다음 중 하나를 선택합니다.
+5. **모든 사용자** 창에서 **설정**을 클릭한 다음, **비즈니스용 Windows Hello 구성**에서 다음 중 하나를 선택합니다.
 
     - **Disabled**. 비즈니스용 Windows Hello를 사용하지 않으려면 이 설정을 선택합니다. 화면의 다른 모든 설정은 사용할 수 없게 됩니다.
     - **Enabled**. 비즈니스용 Windows Hello 설정을 구성하려면 이 설정을 선택합니다.
-    - **구성되지 않음**. Intune을 사용하여 비즈니스용 Windows Hello 설정을 제어하지 않으려면 이 설정을 선택합니다. Windows 10 장치에서 기존 비즈니스용 Windows Hello 설정이 변경되지 않습니다. 페이지의 다른 모든 설정은 사용할 수 없게 됩니다.
+    - **구성되지 않음**. Intune을 사용하여 비즈니스용 Windows Hello 설정을 제어하지 않으려면 이 설정을 선택합니다. Windows 10 장치에서 기존 비즈니스용 Windows Hello 설정이 변경되지 않습니다. 창의 다른 모든 설정은 사용할 수 없게 됩니다.
 
 6.  이전 단계에서 **사용**을 선택한 경우에는 등록된 모든 Windows 10 및 Windows 10 모바일 장치에 적용될 필요한 설정을 구성합니다.
 
@@ -69,9 +69,9 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
      - **필수**(기본값). 액세스할 수는 TPM이 있는 장치만 비즈니스용 Windows Hello를 프로비전할 수 있습니다.
      - **기본 설정**. 장치에서 먼저 TPM을 사용하려고 합니다. 사용할 수 없는 경우에는 소프트웨어 암호화를 사용할 수 있습니다.
 
- - **최소 PIN 길이 필요**/**최대 PIN 길이 필요**. 로그인을 보호하기 위해 지정한 최소 및 최대 PIN 길이를 사용하도록 장치를 구성합니다. 기본 PIN 길이는 6자이지만 최소 길이인 4자를 적용할 수 있습니다. 최대 PIN 길이는 127자입니다.
+ - **최소 PIN 길이**/**최대 PIN 길이**. 로그인을 보호하기 위해 지정한 최소 및 최대 PIN 길이를 사용하도록 장치를 구성합니다. 기본 PIN 길이는 6자이지만 최소 길이인 4자를 적용할 수 있습니다. 최대 PIN 길이는 127자입니다.
 
- - **PIN에 소문자 필요**/**PIN에 대문자 필요**/**PIN에 특수 문자 필요**. PIN에 대문자, 소문자, 특수 문자를 사용하도록 요구하여 강력한 PIN을 적용할 수 있습니다. 다음 중에서 선택합니다.
+ - **PIN에 소문자**/**PIN에 대문자**/**PIN에 특수 문자**. PIN에 대문자, 소문자, 특수 문자를 사용하도록 요구하여 강력한 PIN을 적용할 수 있습니다. 다음 중에서 선택합니다.
 
      - **허용**. 사용자는 해당 PIN에 문자 형식을 사용할 수 있지만 필수는 아닙니다.
 
@@ -90,7 +90,7 @@ PIN을 제어하기 위해 두 정책 유형을 설정한 경우 비즈니스용
 
  - **사용 가능한 경우 향상된 스푸핑 방지 사용**. Windows Hello의 스푸핑 방지 기능을 지원하는 장치에서 사용할지 여부를 구성합니다(예: 실제 얼굴 대신 얼굴 사진 검색).<br>**예**로 설정하면 얼굴 인식 기능이 지원되는 경우 모든 사용자는 얼굴 인식 기능에 대해 스푸핑 방지 기능을 사용해야 합니다.
 
- - **휴대폰 로그인 사용**. 이 옵션이 **예**로 설정되면 원격 Passport를 데스크톱 컴퓨터 인증을 위한 휴대용 포함 장치로 사용할 수 있습니다. 데스크톱 컴퓨터가 Azure Active Directory에 연결되어 있어야 하고 해당 포함 장치는 비즈니스용 Windows Hello PIN으로 구성되어야 합니다.
+ - **휴대폰 로그인 허용**. 이 옵션이 **예**로 설정되면 원격 Passport를 데스크톱 컴퓨터 인증을 위한 휴대용 포함 장치로 사용할 수 있습니다. 데스크톱 컴퓨터가 Azure Active Directory에 연결되어 있어야 하고 해당 포함 장치는 비즈니스용 Windows Hello PIN으로 구성되어야 합니다.
 
 ## <a name="windows-holographic-for-business-support"></a>Windows Holographic for Business 지원
 

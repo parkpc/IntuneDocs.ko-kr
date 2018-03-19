@@ -4,17 +4,17 @@ description: "Intune 활동을 기록하는 감사 로그를 검토하는 방법
 keywords: 
 author: dougeby
 manager: dougeby
-ms.date: 12/12/2017
+ms.date: 02/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6ee841cc-5694-4ba1-8f66-1d58edec30a4
-ms.openlocfilehash: 9f514e6d2dec268efe99f682bc3ef4e63ec53c02
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: 55499bc8126958918ac2494fc86059eb3d331c69
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="audit-logs-for-intune-activities"></a>Intune 활동에 대한 감사 로그
 감사 로그는 Microsoft Intune에서 변경을 생성하는 활동 레코드를 제공합니다. 만들기, 업데이트(편집), 삭제 및 할당 작업이나 원격 태스크는 검토할 수 있는 감사 이벤트를 생성합니다. 대부분의 Intune 워크로드에 대한 감사 로그를 검토할 수 있습니다. 감사는 기본적으로 모든 고객에 대해 사용 가능하며 사용 불가능하게 할 수 없습니다. 감사 이벤트는 2017년 12월의 기능 릴리스 날짜에 기록되기 시작했으며, 이전 이벤트는 사용할 수 없습니다.
@@ -28,8 +28,8 @@ ms.lasthandoff: 02/23/2018
 ## <a name="audit-logs-for-intune-workloads"></a>Intune 워크로드에 대한 감사 로그
 각 Intune 워크로드에 대한 모니터링 그룹에서 감사 로그를 검토할 수 있습니다.  
 1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 감사 로그를 검토할 워크로드를 선택합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 감사 로그를 검토하려는 워크로드를 선택합니다(예: **장치**).
 4. 워크로드에 대한 **모니터링** 그룹에서 **감사 로그**를 선택합니다.
 
 ## <a name="review-audit-events"></a>감사 이벤트 검토
@@ -39,6 +39,7 @@ ms.lasthandoff: 02/23/2018
 
 - 발생 날짜 및 시간
 - 시작한 사람(행위자)
+- 응용 프로그램 이름
 - 활동
 - 대상
 - Category
@@ -55,7 +56,7 @@ ms.lasthandoff: 02/23/2018
 
 
 ## <a name="filter-audit-events"></a>감사 이벤트 필터링
-각 워크로드에는 해당 블레이드와 관련된 감사 이벤트 범주를 사전 필터링하는 메뉴 항목이 있습니다. 별도의 필터 옵션을 사용하여 다른 범주와 해당 범주 내의 이벤트 작업 세부 정보로 변경할 수 있습니다. UPN(예: 작업을 수행한 사용자)으로 검색할 수 있습니다. 날짜 범위 필터는 24시간, 7일 또는 30일 옵션을 허용합니다. 기본적으로 최근 30일의 감사 이벤트가 표시됩니다.
+각 워크로드에는 해당 창과 관련된 감사 이벤트 범주를 사전 필터링하는 메뉴 항목이 있습니다. 별도의 필터 옵션을 사용하여 다른 범주와 해당 범주 내의 이벤트 작업 세부 정보로 변경할 수 있습니다. UPN(예: 작업을 수행한 사용자)으로 검색할 수 있습니다. 날짜 범위 필터는 24시간, 7일 또는 30일 옵션을 허용합니다. 기본적으로 최근 30일의 감사 이벤트가 표시됩니다.
 
 ## <a name="use-graph-api-to-retrieve-audit-events"></a>Graph API를 사용하여 감사 이벤트 검색
 Graph API를 사용하여 최대 1년의 감사 이벤트를 검색하는 방법에 대한 자세한 내용은 [auditEvent 목록](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/intune_auditing_auditevent_list)을 참조하세요.

@@ -6,7 +6,7 @@ keywords:
 author: erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/30/2018
+ms.date: 03/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 51d45ce2-d81b-4584-8bc4-568c8c62653d
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3694cbde1aeba8b185c67e65269b7afbd530b048
-ms.sourcegitcommit: 3cc3a6554691c6edeff985e7d8fa402e7e49e8d3
+ms.openlocfilehash: 04a94e4baee23ac9a4a742a2ff11591087381fde
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-manage-ios-apps-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Microsoft Intune을 사용하여 대량 구매 프로그램을 통해 구매한 iOS 앱을 관리하는 방법
 
@@ -80,11 +80,11 @@ Microsoft Intune에서는 다음을 수행하여 이 프로그램을 통해 구�
 
 ## <a name="to-get-and-upload-an-apple-vpp-token"></a>Apple VPP 토큰을 가져와 업로드하려면
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-1.  **Intune** 블레이드의 **설치** 아래에서 **모바일 앱** > **iOS VPP 토큰**을 차례로 선택합니다.
-2.  VPP 토큰 목록 블레이드에서 **만들기**를 선택합니다.
-4. **VPP 토큰 만들기** 블레이드에서 다음 정보를 지정합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+1.  **Intune** 창의 **설정** 아래에서 **모바일 앱** > **iOS VPP 토큰**을 차례로 선택합니다.
+2.  VPP 토큰 목록 창에서 **만들기**를 선택합니다.
+4. **VPP 토큰 만들기** 창에서 다음 정보를 지정합니다.
     - **VPP 토큰 파일** - 아직 수행하지 않은 경우 비즈니스용 Volume Purchase Program 또는 교육용 Volume Purchase Program에 등록합니다. 등록한 후 계정에 대한 Apple VPP 토큰을 다운로드하여 선택합니다.
     - **Apple ID** - 대량 구매 프로그램과 연결된 계정의 Apple ID를 입력합니다.
     - **국가/지역** - VPP 국가별 스토어를 선택합니다.  Intune은 지정된 VPP 국가 스토어의 모든 로캘에 대해 VPP 앱을 동기화합니다.
@@ -94,17 +94,17 @@ Microsoft Intune에서는 다음을 수행하여 이 프로그램을 통해 구�
     - **VPP 계정 유형** - **비즈니스** 또는 **교육**을 선택합니다.
     - **자동 앱 업데이트** - **켜기**를 **끄기**로 선택하여 자동 업데이트를 사용하도록 설정합니다. 이 기능을 사용하면 장치가 검사할 때 Intune은 Intune 서비스를 통해 지정된 토큰에서 구입한 모든 앱을 업데이트합니다.
 또한 앱 스토어 내의 VPP 앱 업데이트를 검색하고 장치가 체크 인하면 자동으로 장치에 푸시합니다.
-4. 완료되면 **업로드**를 선택합니다.
+4. 작업이 완료되면 **만들기**를 선택합니다.
 
-토큰은 토큰 목록 블레이드에 표시됩니다.
+토큰은 토큰 목록 창에 표시됩니다.
 
 언제든지 **지금 동기화**를 선택하여 Apple에 보관된 데이터를 Intune과 동기화할 수 있습니다.
 
 ## <a name="to-assign-a-volume-purchased-app"></a>대량 구매 앱을 할당하려면
 
-1.  **Intune** 블레이드의 **관리** 아래에서 **Mobile Apps** > **앱**을 선택합니다.
-2.  앱 목록 블레이드에서 할당할 앱을 선택한 다음 **할당**을 선택합니다.
-3.  ***앱 이름*** - **할당**에서 **그룹 선택**을 선택하고 **그룹 선택** 블레이드에서 앱을 할당할 Azure AD 사용자 또는 장치 그룹을 선택합니다.
+1.  **Intune** 창의 **관리** 아래에서 **Mobile Apps** > **앱**을 선택합니다.
+2.  앱 목록 창에서 할당할 앱을 선택한 다음, **할당**을 선택합니다.
+3.  ***앱 이름*** - **할당**에서 **그룹 선택**을 선택한 다음, **그룹 추가** 창에서 **할당 형식**을 선택하고, 앱을 할당하려는 Azure AD 사용자 또는 장치 그룹을 선택합니다.
 5.  선택한 각 그룹에 대해 다음 설정을 선택합니다.
     - **형식** - 앱이 **사용 가능**(최종 사용자가 회사 포털에서 앱 설치 가능)인지 또는 **필수**(최종 사용자 장치에서 자동으로 앱 설치)인지를 선택합니다.
     - **라이선스 형식** - **사용자 라이선싱** 또는 **장치 라이선싱**을 선택합니다.

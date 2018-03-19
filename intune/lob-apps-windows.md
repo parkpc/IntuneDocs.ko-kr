@@ -6,7 +6,7 @@ keywords:
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/16/2018
+ms.date: 03/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f81c5f82-5cfa-4b97-9f73-d6cf77c06896
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b687b71f9d264364ff758fdd46b0739465c16865
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: e23ddb70bb2c12e1278f4167ec074972eeba3003
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="how-to-add-windows-line-of-business-lob-apps-to-microsoft-intune"></a>Microsoft Intune에 Windows LOB(기간 업무) 앱을 추가하는 방법
 
@@ -29,27 +29,28 @@ LOB(기간 업무) 앱은 앱 설치 파일로 추가합니다. 이러한 유형
 
 ## <a name="step-1---specify-the-software-setup-file"></a>단계 1 - 소프트웨어 설치 파일 지정
 
-1. Azure Portal에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** + **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **앱 관리**를 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **모바일 앱**을 선택합니다.
 4. **모바일 앱** 워크로드에서 **관리** > **앱**을 선택합니다.
 5. 앱 목록 위에서 **추가**를 선택합니다.
-6. **앱 추가** 블레이드에서 **LOB(기간 업무) 앱**을 선택합니다.
+6. **앱 추가** 창에서 **LOB(기간 업무) 앱**을 선택합니다.
 
 ## <a name="step-2---configure-the-app-package-file"></a>2단계: 앱 패키지 파일 구성
 
-1. **앱 추가** 블레이드에서 **앱 패키지** 파일을 선택합니다.
-2. **앱 패키지** 파일 블레이드에서 찾아보기 단추를 선택하고 확장명 **.msi**, **.appx** 또는 **.appxbundle**이 포함된 Windows 설치 파일을 선택합니다.
+1. **앱 추가** 창에서 **앱 패키지 파일**을 선택합니다.
+2. **앱 패키지** 파일 창에서 찾아보기 단추를 선택하고 확장명 **.msi**, **.appx** 또는 **.appxbundle**이 포함된 Windows 설치 파일을 선택합니다.
 3. 작업이 끝나면 **확인**을 선택합니다.
 
 
 ## <a name="step-3---configure-app-information"></a>3단계 - 앱 정보 구성
 
-1. **앱 추가** 블레이드에서 **앱 패키지** 파일을 선택합니다.
-2. **앱 정보** 블레이드에서 다음 정보를 구성합니다(이 블레이드의 일부 값은 자동으로 채워질 수 있음).
+1. **앱 추가** 창에서 **앱 패키지 파일**을 선택합니다.
+2. **앱 정보** 창에서 다음 정보를 구성합니다(이 창의 일부 값은 자동으로 채워질 수 있음).
     - **이름** - 회사 포털에 표시되는 앱의 이름을 입력합니다. 사용하는 모든 앱 이름이 고유한지 확인합니다. 동일한 앱 이름을 두 번 사용하는 경우에는 회사 포털에서 앱 중 하나만 사용자에게 표시됩니다.
     - **설명** - 앱에 대한 설명을 입력합니다. 설명은 회사 포털에서 사용자에게 표시됩니다.
     - **게시자** - 앱의 게시자 이름을 입력합니다.
+    - **앱 버전 무시** - 앱 개발자가 앱을 자동으로 업데이트할 경우 **예**로 설정합니다.
     - **카테고리** - 기본 제공 앱 범주 중 하나 이상 또는 사용자가 만든 범주를 선택합니다. 앱을 분류하면 사용자가 회사 포털을 찾아볼 때 앱을 더 쉽게 찾을 수 있습니다.
     - **회사 포털에서 이 항목을 추천 앱으로 표시** - 사용자가 앱을 찾을 때 회사 포털의 기본 페이지에서 앱이 눈에 띄게 표시됩니다.
     - **정보 URL** - 필요에 따라 앱에 대한 정보가 포함된 웹 사이트의 URL을 입력합니다. URL은 회사 포털에서 사용자에게 표시됩니다.
@@ -63,7 +64,7 @@ LOB(기간 업무) 앱은 앱 설치 파일로 추가합니다. 이러한 유형
 
 ## <a name="step-4---finish-up"></a>4단계 - 끝내기
 
-1. **앱 추가** 블레이드에서 앱 정보를 올바르게 구성했는지 확인합니다.
+1. **앱 추가** 창에서 앱 정보를 올바르게 구성했는지 확인합니다.
 2. **추가**를 선택하여 Intune에 앱을 업로드합니다.
 
 ## <a name="step-5---update-a-line-of-business-app"></a>5단계 - 기간 업무(line-of-business) 앱 업데이트
@@ -76,8 +77,8 @@ LOB(기간 업무) 앱은 앱 설치 파일로 추가합니다. 이러한 유형
 
 ## <a name="next-steps"></a>다음 단계
 
-만든 앱은 앱 목록에 표시됩니다. 이제 선택한 그룹에 앱을 할당할 수 있습니다. 도움말은 [그룹에 앱을 할당하는 방법](apps-deploy.md)을 참조하세요.
+- 만든 앱은 앱 목록에 표시됩니다. 이제 선택한 그룹에 앱을 할당할 수 있습니다. 도움말은 [그룹에 앱을 할당하는 방법](apps-deploy.md)을 참조하세요.
 
-앱의 속성 및 할당을 모니터링할 수 있는 방법에 대해 자세히 알아봅니다. 자세한 내용은 [앱 정보 및 할당을 모니터링하는 방법](apps-monitor.md)을 참조하세요.
+- 앱의 속성 및 할당을 모니터링할 수 있는 방법에 대해 자세히 알아봅니다. 자세한 내용은 [앱 정보 및 할당을 모니터링하는 방법](apps-monitor.md)을 참조하세요.
 
-Intune에서 앱의 컨텍스트에 대해 자세히 알아봅니다. 자세한 내용은 [장치 및 앱 수명 주기 개요](introduction-device-app-lifecycles.md)를 참조하세요.
+- Intune에서 앱의 컨텍스트에 대해 자세히 알아봅니다. 자세한 내용은 [장치 및 앱 수명 주기 개요](introduction-device-app-lifecycles.md)를 참조하세요.

@@ -13,15 +13,18 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3fe05b5fdd87e92f5acc35c0a750287f8fd01b92
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 909c014e1d68c26c1440c2b924e05dbaabbde5e5
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-android"></a>Android를 실행하는 장치용 Microsoft Intune에서 VPN 설정 구성 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+이 아티클에서는 Android를 실행하는 장치에서 VPN 연결을 구성하는 데 사용할 수 있는 Intune 설정을 설명합니다.
+
 
 다음 플랫폼에 대해 VPN 설정을 구성할 수 있습니다.
 
@@ -39,7 +42,7 @@ ms.lasthandoff: 03/05/2018
 - **연결 형식** - 다음 공급업체 목록에서 VPN 연결 형식을 선택합니다.
     - **검사점 캡슐 VPN**
     - **Cisco AnyConnect**
-    - **Dell SonicWALL Mobile Connect**
+    - **SonicWall Mobile Connect**
     - **F5 Edge Client**
     - **Pulse Secure**
     - **Citrix**
@@ -57,7 +60,7 @@ ms.lasthandoff: 03/05/2018
 - **연결 형식** - 다음 공급업체 목록에서 VPN 연결 형식을 선택합니다.
     - **검사점 캡슐 VPN**
     - **Cisco AnyConnect**
-    - **Dell SonicWALL Mobile Connect**
+    - **SonicWall Mobile Connect**
     - **F5 Edge Client**
     - **Pulse Secure**
 

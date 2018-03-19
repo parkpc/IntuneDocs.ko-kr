@@ -6,18 +6,18 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 1/25/2018
+ms.date: 03/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: feba7e7dc3e88d7d9beefc548c20bf19fbba662d
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 9480f19a8cd71e001d196674d3e285c8f2a8bb09
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="how-to-configure-vpn-settings-in-microsoft-intune"></a>Microsoft Intune에서 VPN 설정을 구성하는 방법
 
@@ -37,7 +37,7 @@ VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전
 |Cisco(IPsec)|아니요|예|아니요|아니요|아니요|아니요|
 |Citrix|예|예|아니요|아니요|아니요|예|
 |F5 Edge Client|예|예|예|예|예|예|
-|Dell SonicWALL Mobile Connect|예|예|예|예|예|예|
+|SonicWall Mobile Connect|예|예|예|예|예|예|
 |검사점 캡슐 VPN|예|예|예|예|예|예|
 |Cisco AnyConnect|예|예|예|아니요|아니요|아니요|
 |자동|아니요|아니요|아니요|아니요|아니요|예|
@@ -54,12 +54,12 @@ VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전
 
 ## <a name="create-a-device-profile-containing-vpn-settings"></a>VPN 설정을 포함하는 장치 프로필 만들기
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
-2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
-3. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.
-4. **프로필 만들기** 블레이드에서 VPN 프로필에 대한 **이름** 및 **설명**을 입력합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **장치 구성**을 선택합니다.
+2. **장치 구성** 창에서 **관리** > **프로필**을 선택합니다.
+3. 프로필 창에서 **프로필 만들기**를 선택합니다.
+4. **프로필 만들기** 창에서 VPN 프로필에 대한 **이름** 및 **설명**을 입력합니다.
 5. **플랫폼** 드롭다운 목록에서 VPN 설정을 적용할 장치 플랫폼을 선택합니다. 현재 VPN 장치 설정에 대해 다음 플랫폼 중 하나를 선택할 수 있습니다.
     - **OWA(Outlook Web Access)**
     - **Android for Work**
@@ -76,9 +76,9 @@ VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전
     - [Windows Phone 8.1 설정](vpn-settings-windows-phone-8-1.md)
     - [Windows 8.1 설정](vpn-settings-windows-8-1.md)
     - [Windows 10 설정](vpn-settings-windows-10.md)(Windows Holographic for Business 포함)
-8. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
+8. 작업이 완료되면 **프로필 만들기** 창으로 돌아가서 **만들기**를 선택합니다.
 
-프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
+프로필이 만들어지고 프로필 목록 창에 표시됩니다.
 계속해서 이 프로필을 그룹에 할당하려면 [장치 프로필을 할당하는 방법](device-profile-assign.md)을 참조하세요.
 
 

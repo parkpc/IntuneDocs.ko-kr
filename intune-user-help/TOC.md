@@ -66,6 +66,7 @@
 ### [iOS 장치를 등록하면 어떻게 되나요?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
 ### [회사 포털 설치 및 로그인](install-and-sign-in-to-the-intune-company-portal-app-ios.md)
 ### [iOS 장치 등록](enroll-your-device-in-intune-ios.md)
+### [장치 등록 프로그램 iOS 장치 등록](enroll-your-device-dep-ios.md)
 
 ### [장치에서 관리되는 앱 사용](use-managed-apps-on-your-device-ios.md)
 ### [암호 설정 또는 변경](set-or-change-your-passcode-ios.md)

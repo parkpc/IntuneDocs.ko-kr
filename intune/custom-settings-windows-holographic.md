@@ -1,25 +1,25 @@
 ---
-title: "Windows Holographic for Business 장치에 대한 Intune 사용자 지정 설정"
-titlesuffix: Azure portal
-description: "Windows Holographic for Business 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다.\""
+title: "Windows Holographic for Business 장치에 대한 Microsoft Intune 사용자 지정 설정"
+titlesuffix: 
+description: "Windows Holographic for Business 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: angrobe
-ms.date: 2/26/2018
+ms.date: 3/6/2018
 ms.article: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d204f9de5c02835fe059783807558496b0cff039
-ms.sourcegitcommit: 80a2eefc1896a42cc2bc16be23093d1abf58b088
+ms.openlocfilehash: b95d891d1dfaecbce182fde4a2221255a7e1eb06
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="custom-device-settings-for-windows-holographic-for-business-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows Holographic for Business 장치에 대한 사용자 지정 장치 설정
+# <a name="microsoft-intune-custom-device-settings-for-devices-running-windows-holographic-for-business"></a>Windows Holographic for Business를 실행하는 장치에 Microsoft Intune 사용자 지정 장치 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 

@@ -6,7 +6,7 @@ keywords:
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/13/2018
+ms.date: 02/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 4433000a-23e9-4cad-a818-48c28eedc1f5
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c2cbc68aa3ea11e3b5593597a94aa059dd2927ed
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 87fea551dea1f80ee071fe6b477b84729e000874
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-add-android-store-apps-to-microsoft-intune"></a>Microsoft Intune에 Android 스토어 앱을 추가하는 방법
 
@@ -28,12 +28,12 @@ ms.lasthandoff: 03/05/2018
 앱은 장치 또는 사용자 그룹에 할당하기 전에 먼저 앱을 Microsoft Intune에 추가해야 합니다. 다음 단계를 사용하면 Azure 포털에서 Android 스토어 앱을 Intune에 추가할 수 있습니다.
 
 1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Microsoft Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **모바일 앱**을 선택합니다.
 4. **모바일 앱** 워크로드의 **관리** 섹션에서 **앱**을 선택합니다.
 5. 앱 목록 위에서 **추가**를 선택합니다.
-6. **앱 추가** 블레이드의 **스토어 앱** 형식 아래에서 **Android**를 선택합니다.
-7. 다음 정보에 따라 앱 정보를 구성하려면 **구성**을 선택합니다.  이 설명은 회사 포털에서 사용자에게 표시됩니다.
+6. **앱 추가** 창의 사용할 수 있는 **스토어 앱** 형식 아래에서 **Android**를 선택합니다.
+7. 다음 정보에 따라 앱 정보를 구성하려면 **구성**을 선택합니다. 선택한 앱에 따라 이 창의 일부 값은 자동적으로 채워집니다.
     - **이름** - 회사 포털에 표시되는 앱의 이름을 입력합니다. 사용하는 모든 앱 이름이 고유한지 확인합니다. 같은 앱 이름을 두 번 사용하는 경우에는 회사 포털에서 앱 중 하나만 사용자에게 표시됩니다.
     - **설명** - 앱에 대한 설명을 입력합니다. 이 설명은 회사 포털에서 사용자에게 표시됩니다.
     - **게시자** - 앱의 게시자 이름을 입력합니다.

@@ -6,7 +6,7 @@ keywords:
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/02/2018
+ms.date: 03/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 2f6c06bf-e29a-4715-937b-1d2c7cf663d4
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6a0b488120ed62031f8af5b8b65d9e90ea6d252b
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: e3b5a742fb480cf9c4c77106b849eebb95ad2439
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="how-to-assign-apps-to-android-for-work-devices-with-intune"></a>Intune으로 Android for Work 장치에 앱을 할당하는 방법
 
@@ -38,36 +38,35 @@ Intune과 Android for Work가 Azure Portal의 **장치 등록** 워크로드에�
 ## <a name="synchronize-an-app-from-the-google-play-for-work-store"></a>Google Play for Work 스토어에서 앱 동기화
 
 1. [Google Play for Work 스토어](https://play.google.com/work)로 이동합니다. Intune과 Android for Work 간 연결을 구성하는 데 사용한 동일한 계정으로 로그인합니다.
-2. Intune을 사용하여 할당할 앱에 대한 스토어를 검색합니다.
-3. 선택한 앱 페이지에서 **승인**을 선택합니다. 이 예제에서는 Microsoft Excel 앱을 선택했습니다.<br>
-  ![앱 승인 예제](media/approve.png)
-4. 앱 창이 열리면서 앱에서 다양한 작업을 수행할 수 있는 권한을 부여하라는 메시지가 표시됩니다. 계속하려면 **승인**을 선택합니다.<br>
-  ![앱 사용 권한 승인 예제](media/approve-app-permissions.png)
-5. 앱이 승인되어 IT 관리자 콘솔에 표시됩니다.
+2. Intune을 사용하여 스토어를 검색하고 할당하려는 앱을 선택합니다.
+3. 앱을 표시하는 페이지에서 **승인**을 선택합니다. 다음 예제에서는 선택된 Microsoft Excel 앱을 보여줍니다.</br>
 
-## <a name="publish-then-synchronize-a-line-of-business-app-from-the-google-play-for-work-store"></a>Google Play for Work 스토어에서 기간 업무 앱 게시 후 동기화
+    ![예제 - Google Play for Work 스토어에서 앱 승인](media/approve.png)</br>
+    
+  앱 창이 열리면서 앱에서 다양한 작업을 수행할 수 있는 권한을 부여하라는 메시지가 표시됩니다. 
 
-1. Google Play Developer 콘솔 [play.google.com/apps/publish](https://play.google.com/apps/publish)로 이동합니다.
-2. Intune과 Android for Work 간 연결을 구성하는 데 사용한 동일한 계정으로 로그인합니다. 처음으로 로그인하는 경우 Google Developer 프로그램 구성원이 되도록 등록하고 요금을 지불해야 합니다.
-3. 콘솔에서 **새 응용 프로그램 추가**를 선택합니다.
-4. Google Play 스토어에 앱을 게시한 것과 동일한 방법으로 앱에 대한 정보를 업로드하고 제공합니다. 단, **이 응용 프로그램을 내 조직만 사용(<*조직 이름*>)** 설정을 선택해야 합니다.<br>
-  ![내 조직에서만 앱 사용 가능 옵션](media/restrict.png)<br>
-이 작업을 수행하면 앱은 해당 조직에서만 사용할 수 있고 공개 Google Play 스토어에서 사용할 수 없게 됩니다.
-Android 앱 업로드 및 게시하는 방법에 대한 자세한 내용은 [Google Developer Console Help](https://support.google.com/googleplay/android-developer/answer/113469)(Google Developer 콘솔 도움말)를 참조하세요.
-5. 앱을 게시한 후에는 [Google Play for Work 스토어](https://play.google.com/work)로 이동합니다. Intune과 Android for Work 간 연결을 구성하는 데 사용한 동일한 계정으로 로그인합니다.
-6. 스토어의 **앱** 노드에서 게시한 앱을 볼 수 있는지 확인합니다. 앱이 Intune와 동기화되도록 자동으로 승인됩니다.
+4. **승인**을 선택하여 앱 사용 권한에 동의하고 계속합니다.</br>
 
-## <a name="assign-an-android-for-work-app"></a>Android for Work 앱 할당
+    ![예제 - 앱 사용 권한 승인](media/approve-app-permissions.png)
+
+5. 새 앱 사용 권한 요청을 처리하는 방법을 선택합니다. 그런 다음, **저장**을 선택하여 새로운 앱 사용 권한 요청을 처리하는 방법을 저장합니다.</br>
+
+    ![예제 - 새 앱 사용 권한 요청 저장](media/approve-app-settings.png)</br>
+
+    앱이 승인되어 IT 관리자 콘솔에 표시됩니다. 이제 [Intune과 Android for Work 앱을 동기화](apps-add-android-for-work.md#sync-an-android-for-work-app-with-intune)할 수 있습니다. 
+
+## <a name="sync-an-android-for-work-app-with-intune"></a>Intune과 Android for Work 앱 동기화
 
 스토어에서 앱을 승인했지만 **모바일 앱** 워크로드의 **사용이 허가된 앱** 노드에 표시되지 않으면 다음과 같이 강제로 즉시 동기화합니다.
 
-1. Azure 포털에 로그인합니다.
-2. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
-3. **모바일 앱** 워크로드에서 **설정** > **Android for Work**를 선택합니다.
-4. Android for Work 블레이드에서 **지금 동기화**를 선택합니다.
-5. 페이지에 마지막 동기화의 시간 및 상태도 표시됩니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **모바일 앱**을 선택합니다.
+4. **모바일 앱** 워크로드의 **설정** 섹션에서 **Android for Work**를 선택합니다.
+5. Android for Work 창에서 **동기화**를 선택합니다. 페이지는 마지막 동기화의 시간 및 상태를 업데이트합니다.
+6. **모바일 앱** 워크로드에서 **앱**을 선택하여 새로 사용 가능한 Android for Work 앱을 표시합니다.
 
-앱이 **모바일 앱** 워크로드의 **사용이 허가된 앱** 노드에 표시되면 [다른 앱을 할당하는 것과 마찬가지 방법으로 할당](/intune-azure/manage-apps/deploy-apps)할 수 있습니다. 앱은 사용자의 그룹에만 할당할 수 있습니다.
+앱이 **모바일 앱** 워크로드의 **앱 라이선스** 노드에 표시되면 [다른 앱을 할당하는 것과 마찬가지 방법으로 할당](/intune-azure/manage-apps/deploy-apps)할 수 있습니다. 앱은 사용자의 그룹에만 할당할 수 있습니다.
 
 앱을 할당하고 나면 대상으로 지정한 장치에 설치됩니다. 장치 사용자에게 설치 승인을 요청하지 않습니다.
 
@@ -86,5 +85,21 @@ Android for Work를 사용하려면 관리되는 Google Play 웹 콘솔에서 �
 
 앱별로 앱 권한을 자동으로 다시 승인하도록 Google Play를 구성할 수도 있습니다. 
 
+## <a name="working-with-a-line-of-business-app-from-the-google-play-for-work-store"></a>Google Play for Work 스토어에서 기간 업무 앱 작업
 
+1. Google Play Developer 콘솔 [play.google.com/apps/publish](https://play.google.com/apps/publish)로 이동합니다.
+2. Intune과 Android for Work 간 연결을 구성하는 데 사용한 동일한 계정으로 로그인합니다. 처음으로 로그인하는 경우 Google Developer 프로그램 구성원이 되도록 등록하고 요금을 지불해야 합니다.
+3. 콘솔에서 **새 응용 프로그램 추가**를 선택합니다.
+4. Google Play 스토어에 앱을 게시한 것과 동일한 방법으로 앱에 대한 정보를 업로드하고 제공합니다. 단, **이 응용 프로그램을 내 조직만 사용(<*조직 이름*>)** 설정을 선택해야 합니다.</br>
+
+    ![내 조직에서만 앱 사용 가능 옵션](media/restrict.png)</br>
+
+이 작업을 수행하면 앱은 해당 조직에서만 사용할 수 있고 공개 Google Play 스토어에서 사용할 수 없게 됩니다.
+Android 앱 업로드 및 게시하는 방법에 대한 자세한 내용은 [Google Developer Console Help](https://support.google.com/googleplay/android-developer/answer/113469)(Google Developer 콘솔 도움말)를 참조하세요.
+5. 앱을 게시한 후에는 [Google Play for Work 스토어](https://play.google.com/work)로 이동합니다. Intune과 Android for Work 간 연결을 구성하는 데 사용한 동일한 계정으로 로그인합니다.
+6. 스토어의 **앱** 노드에서 게시한 앱을 볼 수 있는지 확인합니다. 앱이 Intune와 동기화되도록 자동으로 승인됩니다.
+
+## <a name="next-steps"></a>다음 단계
+
+- [그룹에 앱을 할당하는 방법](apps-deploy.md)
 

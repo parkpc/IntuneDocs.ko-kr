@@ -1,7 +1,7 @@
 ---
-title: "Intune과 Check Point SandBlast Mobile 커넥터"
-titlesuffix: Azure portal
-description: "Intune과 Check Point SandBlast 통합"
+title: "Microsoft Intune을 사용한 Check Point SandBlast MTD"
+titlesuffix: 
+description: "회사 리소스에 대한 모바일 장치 액세스를 제어하기 위해 Check Point SandBlast MTD(Mobile Threat Defense)를 사용하여 Intune을 통합하는 방법을 알아봅니다."
 keywords: 
 author: msmimart
 ms.author: mimart
@@ -15,11 +15,11 @@ ms.assetid: 706a4228-9bdf-41e0-b8d1-64c923dd2d2b
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 10bc23b5b5e0d0d278677ed4bf332787fc16b367
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: a0dad532511b87b7856bb2e293707ac5311eb773
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="check-point-sandblast-mobile-threat-defense-connector-with-intune"></a>Intune과 Check Point SandBlast Mobile Threat Defense 커넥터
 

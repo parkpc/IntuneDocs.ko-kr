@@ -1,12 +1,12 @@
 ---
 title: "비즈니스용 Microsoft 스토어에서 앱 관리"
-titlesuffix: Azure portal
-description: "비즈니스용 Microsoft 스토어에서 Intune에 앱을 동기화한 다음 할당 및 추적하는 방법을 알아봅니다.\""
+titlesuffix: Microsoft Intune
+description: "비즈니스용 Microsoft Store에서 Intune에 앱을 동기화한 다음, 해당 앱을 할당하고 추적하는 방법을 알아봅니다."
 keywords: 
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/20/2018
+ms.date: 03/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 2ed5d3f0-2749-45cd-b6bf-fd8c7c08bc1b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4460924b3e53a9540ff21aa009a0c028de92f26f
-ms.sourcegitcommit: 1978a30ab1af0f43aa5f447690d0bbcdcb9b563b
+ms.openlocfilehash: aa5e3b5559c5c17ea726b26f1c1f56ef37cfe0ae
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-manage-apps-you-purchased-from-the-microsoft-store-for-business-with-microsoft-intune"></a>Microsoft Intune을 사용하여 비즈니스용 Microsoft 스토어에서 구입한 앱을 관리하는 방법
 
@@ -62,15 +62,14 @@ Intune 콘솔에서 동기화를 사용하기 전에 관리 도구로 Intune을 
 
 ## <a name="configure-synchronization"></a>동기화 구성
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
-4. **Mobile Apps** 블레이드에서 **설치** > **비즈니스용 Microsoft 스토어**를 선택합니다.
-5. **사용**을 클릭합니다.
-6. 아직 수행하지 않은 경우에는 링크를 클릭하여 비즈니스용 Microsoft 스토어에 등록하고 이전에 설명된 대로 계정을 연결합니다.
-7. **언어** 드롭다운 목록에서 비즈니스용 Microsoft 스토어의 앱이 Azure Portal에 표시되는 언어를 선택합니다. 표시되는 언어에 관계없이 사용 가능한 경우 최종 사용자의 언어로 설치됩니다.
-8. **동기화**를 클릭하여 Microsoft 스토어에서 구입한 앱을 Intune으로 가져옵니다.
-9. **Save**을 클릭합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **모바일 앱**을 선택합니다.
+1. **모바일 앱** 창에서 **설치** > **비즈니스용 Microsoft Store**를 선택합니다.
+2. **사용**을 클릭합니다.
+3. 아직 수행하지 않은 경우에는 링크를 클릭하여 비즈니스용 Microsoft 스토어에 등록하고 이전에 설명된 대로 계정을 연결합니다.
+5. **언어** 드롭다운 목록에서 비즈니스용 Microsoft Store의 앱이 Azure Portal에 표시되는 언어를 선택합니다. 표시되는 언어에 관계없이 사용 가능한 경우 최종 사용자의 언어로 설치됩니다.
+6. **동기화**를 클릭하여 Microsoft 스토어에서 구입한 앱을 Intune으로 가져옵니다.
 
 ## <a name="synchronize-apps"></a>앱 동기화
 

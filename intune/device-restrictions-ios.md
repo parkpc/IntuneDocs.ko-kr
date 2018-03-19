@@ -13,19 +13,21 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bc53a7a6a4c961a649d01f23f30c59ff4dc90fe2
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: b0523a514eb9d6a5c0429f1a2e2fa84d1ca00de4
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="microsoft-intune-ios-device-restriction-settings"></a>Microsoft Intune iOS 장치 제한 설정
-이 아티클에서는 iOS를 실행하는 장치에 대해 구성할 수 있는 모든 Microsoft Intune 장치 제한 설정을 보여줍니다.
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
+이 아티클에서는 iOS를 실행하는 장치에 대해 구성할 수 있는 Microsoft Intune 장치 제한 설정을 설명합니다.
+
 ## <a name="general"></a>일반
 
+-   **사용량 데이터 공유** - Apple에 진단 및 사용량 원격 분석 데이터를 보내지 않도록 장치를 허용하거나 차단합니다.
 -   **진단 데이터 제출** - 장치의 Apple에 진단 데이터 제출을 허용 또는 차단합니다.
 -   **화면 캡처** - 사용자가 이미지 형식으로 화면의 내용을 캡처할 수 있습니다.
     - **교실 앱에서 원격 화면 관찰(감독 모드에만 해당)** - Apple 교실 앱에서 iOS 장치의 화면을 보도록 허용하거나 차단합니다.
@@ -213,8 +215,8 @@ iOS 감독 모드는 Apple의 장치 등록 프로그램을 통하거나 Apple C
 -   **구성 프로필을 사용해서만 Wi-Fi 네트워크에 참여(감독 모드만 해당)** - 장치가 Intune Wi-Fi 프로필로 구성된 Wi-Fi 네트워크에만 참여할 수 있습니다.
 
 - **셀룰러 사용 규칙(관리 앱에만 해당)** - 관리 앱이 셀룰러 네트워크에서 사용할 수 있는 데이터 형식을 정의할 수 있습니다. 다음 중에서 선택합니다.
-    - **셀룰러 데이터 사용 차단**
-    - **로밍 시 셀룰러 데이터 사용 차단**
+    - **셀룰러 데이터의 사용 차단** - **모든 관리 앱** 또는 **특정 앱 선택**에 대한 셀룰러 데이터의 사용을 차단할 수 있습니다.
+    - **로밍할 때 셀룰러 데이터의 사용 차단** - 로밍할 때 **모든 관리 앱** 또는 **특정 앱 선택**에 대한 셀룰러 데이터의 사용을 차단할 수 있습니다.
 
 ## <a name="connected-devices"></a>연결된 장치
 

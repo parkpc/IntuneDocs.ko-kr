@@ -15,11 +15,11 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8e770c39a22b620bb642b7b15a456369bb4acec2
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 24b1ffb1d89f52a51f21dc6c4a588324f3cd87d3
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="automatically-enroll-ios-devices-by-using-apples-device-enrollment-program"></a>Apple 장치 등록 프로그램을 사용해 iOS 장치를 자동으로 등록
 
@@ -74,7 +74,7 @@ Apple DEP 포털을 사용하여 DEP 토큰을 만듭니다. 관리용으로 Int
 
 **1단계. Apple DEP 토큰을 만드는 데 필요한 Intune 공개 키 인증서를 다운로드합니다.**<br>
 
-1. Azure 포털의 Intune에서 **장치 등록** > **Apple 등록** > **등록 프로그램 토큰**을 선택합니다.
+1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **Apple 등록** > **등록 프로그램 토큰**을 선택합니다.
 
   ![Apple 인증서 작업 영역의 등록 프로그램 토큰 창](./media/enrollment-program-token-add.png)
 
@@ -116,7 +116,7 @@ Apple DEP 포털을 사용하여 DEP 토큰을 만듭니다. 관리용으로 Int
 
 이제 토큰을 설치했으므로 DEP 장치의 등록 프로필을 만들 수 있습니다. 장치 등록 프로필은 등록 중에 장치 그룹에 적용되는 설정을 정의합니다.
 
-1. Azure 포털의 Intune에서 **장치 등록** > **Apple 등록**을 선택합니다.
+1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **Apple 등록**을 선택합니다.
 2. **Apple의 등록 프로그램**에서 **등록 프로그램 프로필** > **만들기**를 선택합니다.
 3. **등록 프로필 만들기**에서 관리 목적으로 프로필에 대한 **이름** 및 **설명**을 입력합니다. 사용자는 이러한 세부 정보를 볼 수 없습니다. 이 **이름** 필드를 사용하여 Azure Active Directory에 동적 그룹을 만들 수 있습니다. 이 등록 프로필로 장치를 할당하기 위해 프로필 이름을 사용하여 enrollmentProfileName 매개 변수를 정의합니다. [Azure Active Directory 동적 그룹](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal#using-attributes-to-create-rules-for-device-objects)에 대해 자세히 알아보세요.
 
@@ -169,7 +169,7 @@ Apple DEP 포털을 사용하여 DEP 토큰을 만듭니다. 관리용으로 Int
 ## <a name="sync-managed-devices"></a>관리되는 장치 동기화
 이제 Intune에 장치 관리 권한이 있으므로 Intune을 Apple과 동기화하여 Azure 포털의 Intune에서 관리되는 장치를 확인할 수 있습니다.
 
-1. Azure Portal의 Intune에서 **장치 등록** > **Apple 등록** > **등록 프로그램 장치** > **동기화**를 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
+1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **Apple 등록** > **등록 프로그램 장치** > **동기화**를 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
 
   ![등록 프로그램 장치 노드 선택 및 동기화 링크 선택](./media/enrollment-program-device-sync.png)
   
@@ -190,7 +190,7 @@ Apple DEP 포털을 사용하여 DEP 토큰을 만듭니다. 관리용으로 Int
 >[!NOTE]
 >**Apple 일련 번호** 블레이드에서 프로필에 일련 번호를 할당할 수도 있습니다.
 
-1. Azure 포털의 Intune에서 **장치 등록** > **Apple 등록**을 선택한 다음 **등록 프로그램 프로필**을 선택합니다.
+1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **Apple 등록**을 선택한 다음, **등록 프로그램 프로필**을 선택합니다.
 2. **등록 프로그램 프로필** 목록에서 장치에 할당할 프로필을 선택한 다음 **장치 할당**을 선택합니다.
 
  ![할당이 선택된 장치 할당](./media/enrollment-program-device-assign.png)

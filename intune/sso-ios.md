@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b11f2b3a560d33503e381f96804bfe5489fe367d
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 3bb7c3bdffb19e26f2f2178c1750d1ef31a02556
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="configure-microsoft-intune-for-ios-device-single-sign-on"></a>iOS 장치 Single Sign-On용 Microsoft Intune 구성
 
@@ -34,18 +34,19 @@ iOS 장치 Single Sign-On을 활용하려면 다음 조건이 있어야 합니�
 
 
 1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 페이지에서 **장치 구성**을 선택합니다.
-2. **장치 구성** 페이지에서 **프로필**을 선택합니다.
-3. 프로필 페이지에서 **프로필 만들기**를 선택하고 이름과 설명을 제공한 후 다음 설정을 구성합니다.
-   - **플랫폼**: **iOS**를 선택합니다. 
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **장치 구성**을 선택합니다.
+4. **관리** 섹션 아래의 **장치 구성** 창에서 **프로필**을 선택합니다.
+5. 프로필 창에서 **프로필 만들기**를 선택합니다.
+6. 이름과 설명을 입력하고 다음 설정을 구성합니다.
+   - **플랫폼**: **iOS**를 선택합니다.
    - **프로필 유형**: **장치 기능**을 선택합니다.
-4. **장치 기능** 페이지에서 **Single Sign-On**을 선택합니다.
+7. **장치 기능** 창에서 **Single Sign-On**을 선택합니다.
 
-   ![Single Sign-On 페이지](./media/sso-blade.png)
+   ![Single Sign-On 창](./media/sso-blade.png)
 
-2. 다음 요약표를 사용하여 **Single Sign-On** 페이지의 필드를 채울 수 있습니다. 자세한 내용은 표 뒤에 있는 섹션을 참조하세요.
-   
+8. 다음 요약표를 사용하여 **Single Sign-On** 창의 필드를 채울 수 있습니다. 자세한 내용은 표 뒤에 있는 섹션을 참조하세요.
+
    |필드  |참고|
    |---------|---------|
    |**AAD의 사용자 이름 특성**|Intune이 AAD에서 각 사용자에 대해 확인하고 장치에 설치되는 XML 페이로드를 생성하기 전에 해당 필드(예: UPN)를 채우는 특성입니다.|
@@ -95,7 +96,7 @@ Single Sign-On 페이로드를 사용할 수 있는 최종 사용자 장치의 �
 
 ### <a name="credential-renewal-certificate"></a>자격 증명 갱신 인증서
 
-인증서(암호 아님)를 사용하여 최종 사용자를 인증하는 경우 이 필드를 사용하여 사용자에게 인증 인증서로 배포되는 SCEP 또는 PFX 인증서를 선택합니다. 일반적으로 VPN, WiFi, 메일 등의 다른 프로필에 대해 사용자에게 배포되는 것과 동일한 인증서입니다.
+인증서(암호 아님)를 사용하여 최종 사용자를 인증하는 경우 이 필드를 사용하여 사용자에게 인증 인증서로 배포되는 SCEP 또는 PFX 인증서를 선택합니다. 일반적으로 VPN, Wi-Fi, 이메일 등의 다른 프로필에 대해 사용자에게 배포되는 것과 동일한 인증서입니다.
 
 ## <a name="next-steps"></a>다음 단계
 

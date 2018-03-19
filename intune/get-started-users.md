@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 02/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 22a232de-ab93-44ab-b0b5-d2b3ccb007fe
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4e06b335c03caee0bd997748f9c48ed78d7d379b
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 53b5be6e5cdf8f60304126e133a727123bfef58d
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-managing-users"></a>사용자 관리 시작
 
@@ -27,13 +27,13 @@ ms.lasthandoff: 03/05/2018
 
 ## <a name="how-do-i-create-a-user"></a>사용자를 만들려면 어떻게 하나요?
 
-1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
-2. **리소스 검색**을 사용하여 **Intune**을 검색합니다.
-3. **Microsoft Intune** 블레이드를 연 후 **사용자**를 선택합니다. **모든 사용자** 페이지에서 **+ 새 사용자**를 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Microsoft Intune** 창을 열면 **사용자**를 선택합니다. **모든 사용자** 페이지에서 **+ 새 사용자**를 선택합니다.
 4. **이름** 및 **사용자 이름**과 같은 사용자 정보를 입력합니다. 사용자 이름의 도메인 이름 부분은 초기 기본 도메인 이름인 "contoso.onmicrosoft.com" 도메인 이름 또는 "contoso.com"과 같은 페더레이션되지 않은 확인된 도메인 이름이어야 합니다.
 5. **그룹**에서 사용자를 추가할 테스트 그룹을 선택합니다.
 6. 테스트 장치에 로그인하는 데 사용할 수 있도록 자동으로 생성된 사용자 암호를 저장합니다. 기억할 수 있는 일반적인 암호로 변경할 수 있도록 이 암호를 사용자에게 제공해야 합니다.
-7. **사용자** 블레이드에서 **만들기**를 선택합니다.
+7. **사용자** 창에서 **만들기**를 선택합니다.
 
 ## <a name="assigning-licenses-to-users"></a>사용자에게 라이선스 할당
 

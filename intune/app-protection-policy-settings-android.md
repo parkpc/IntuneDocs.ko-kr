@@ -15,11 +15,11 @@ ms.assetid: 9e9ef9f5-1215-4df1-b690-6b21a5a631f8
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 330826307e4f3db24532908d42da77a1a857a681
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 34334186fbf74507b54d1bf4df347de2c16c39c0
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="android-app-protection-policy-settings"></a>Android 앱 보호 정책 설정
 이 항목에서는 Android 장치에 대한 앱 보호 정책 설정을 설명합니다. 설명하는 정책 설정은 Azure Portal의 **설정** 블레이드에서 앱 보호 정책에 대해 [구성](app-protection-policies.md)될 수 있습니다.
@@ -73,7 +73,7 @@ ms.lasthandoff: 03/05/2018
   | com.android.providers.media | Android 미디어 콘텐츠 공급자 | 미디어 콘텐츠 공급자는 벨소리 선택 작업에 대해서만 허용됩니다. |
   | com.google.android.gms; com.google.android.gsf | Google Play 서비스 패키지 | 이러한 패키지는 푸시 알림 등의 Google Cloud Messaging 작업에 대해서 허용됩니다. |
 
-자세한 내용은 [앱에 대한 데이터 전송 정책 예외](app-protection-policies-exception.md)를 참조합니다. 
+자세한 내용은 [앱에 대한 데이터 전송 정책 예외](app-protection-policies-exception.md)를 참조합니다.
 
 ##  <a name="access-settings"></a>액세스 설정
 
@@ -88,7 +88,10 @@ ms.lasthandoff: 03/05/2018
 | **장치 PIN을 관리하는 경우 앱 PIN 사용 안 함** | 등록된 장치에서 장치 잠금이 검색되는 경우 앱 PIN을 사용하지 않도록 설정하려면 **예**를 선택합니다. | 아니요 |
 | **최소 Android 운영 체제 필요** | 이 앱을 사용하기 위한 최소 Android 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 Android 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다.<br><br> 이 정책 설정 형식은 major.minor, major.minor.build, major.minor.build.revision을 지원합니다.| 아니요 |
 | **최소 Android 운영 체제 필요(경고)** | 이 앱을 사용하기 위한 최소 Android 운영 체제를 요구하려면 **예**를 선택합니다. 장치의 Android 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다.<br><br> 이 정책 설정 형식은 major.minor, major.minor.build, major.minor.build.revision을 지원합니다. | 아니요 |
-| **Require minimum app version**(최소 앱 버전 필요) | 앱을 사용할 최소 앱 버전을 요구하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다.<br><br>응용 프로그램 간에 서로 다른 버전 지정 체계를 종종 있는 하나의 앱 (예를 들어 "Outlook 버전 정책")을 대상으로 하는 하나의 최소 응용 프로그램 버전으로는 정책을 만듭니다. <br><br> 이 정책 설정 형식은 major.minor, major.minor.build, major.minor.build.revision을 지원합니다.| 아니요 | 
-| **Require minimum app version (Warning only)**(최소 앱 버전 필요(경고)) | 이 앱을 사용하기 위한 최소 앱 버전을 권장하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다.<br><br>응용 프로그램 간에 서로 다른 버전 지정 체계를 종종 있는 하나의 앱 (예를 들어 "Outlook 버전 정책")을 대상으로 하는 하나의 최소 응용 프로그램 버전으로는 정책을 만듭니다. <br><br> 이 정책 설정 형식은 major.minor, major.minor.build, major.minor.build.revision을 지원합니다.| 아니요 | 
+| **Require minimum app version**(최소 앱 버전 필요) | 앱을 사용할 최소 앱 버전을 요구하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다.<br><br>응용 프로그램 간에 서로 다른 버전 지정 체계를 종종 있는 하나의 앱 (예를 들어 "Outlook 버전 정책")을 대상으로 하는 하나의 최소 응용 프로그램 버전으로는 정책을 만듭니다. <br><br> 이 정책 설정 형식은 major.minor, major.minor.build, major.minor.build.revision을 지원합니다.| 아니요 |
+| **Require minimum app version (Warning only)**(최소 앱 버전 필요(경고)) | 이 앱을 사용하기 위한 최소 앱 버전을 권장하려면 **예**를 선택합니다. 장치의 앱 버전이 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다.<br><br>응용 프로그램 간에 서로 다른 버전 지정 체계를 종종 있는 하나의 앱 (예를 들어 "Outlook 버전 정책")을 대상으로 하는 하나의 최소 응용 프로그램 버전으로는 정책을 만듭니다. <br><br> 이 정책 설정 형식은 major.minor, major.minor.build, major.minor.build.revision을 지원합니다.| 아니요 |
 | **최소 Android 패치 버전 필요** | Google이 출시한 최소 Android 보안 패치를 요구하려면 **예**를 선택합니다. 장치의 Android 보안 패치가 요구 사항을 충족하지 않으면 사용자 액세스가 차단됩니다.<br><br> 이 정책 설정 형식은 YYYY-MM-DD 날짜 형식을 지원합니다. | 아니요 |
 | **최소 Android 패치 버전 필요(경고)** | Google이 출시한 최소 Android 보안 패치를 요구하려면 **예**를 선택합니다. 장치의 Android 보안 패치가 요구 사항을 충족하지 않으면 사용자에게 알림이 표시됩니다. 이 알림은 무시할 수 있습니다.<br><br> 이 정책 설정 형식은 YYYY-MM-DD 날짜 형식을 지원합니다. | 아니요 |
+
+> [!NOTE]
+> 동일한 일련의 앱과 사용자에 대한 액세스 섹션에서 구성된 여러 Intune 앱 보호 설정이 Android에서 작동하는 방법에 대해 자세히 알아보려면 [Intune MAM 질문과 대답](mam-faq.md)을 참조하세요.
