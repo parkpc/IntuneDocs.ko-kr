@@ -1,6 +1,6 @@
 ---
 title: "응용 프로그램을 위한 데이터 전송 정책 예외"
-titleSuffix: Azure portal
+titleSuffix: Microsoft Intune
 description: "Intune 모바일 응용 프로그램 관리(MAM) 데이터 전송 정책에 대한 예외를 만듭니다."
 keywords: 
 author: Erikre
@@ -15,11 +15,11 @@ ms.assetid: f9015e3a-c22c-42eb-90e6-ba48dee3a41d
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b24060d1b042322f1c7607aba7266421a0effc52
-ms.sourcegitcommit: 80a2eefc1896a42cc2bc16be23093d1abf58b088
+ms.openlocfilehash: e1e37e78f7272b0f53f974eccb20c7e02574a9a9
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="how-to-create-exceptions-to-the-intune-mobile-application-management-mam-data-transfer-policy"></a>Intune 모바일 응용 프로그램 관리(MAM) 데이터 전송 정책에 대한 예외를 만드는 방법
 

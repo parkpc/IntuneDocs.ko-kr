@@ -15,11 +15,11 @@ ms.assetid: e1258fe4-0b5c-4485-8bd1-152090df6345
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 283685629ac1e268a66d82250273a17f9baa5d17
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 2539ff1703809f5f89183a9d0cfd448f2e57fd64
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-android-devices-in-intune"></a>Intune에서 Android 장치에 대한 장치 준수 정책을 만드는 방법
 
@@ -47,7 +47,7 @@ Android에 대한 Intune 장치 준수 정책은 Android 장치가 준수하는 
 준수 정책을 사용자에게 할당하려면 구성한 정책을 선택합니다. 기존 정책은 **장치 준수 정책** 창에서 확인할 수 있습니다.
 
 1. 정책을 선택한 다음 **할당**을 선택합니다. 이렇게 하면 **Azure Active Directory 보안 그룹**을 선택하고 이를 정책에 할당할 수 있는 창이 열립니다.
-2. **그룹 선택**을 선택하여 Azure AD 보안 그룹을 표시하는 창을 엽니다. 여기에서 Azure Active Directory에 있는 보안 그룹을 확인할 수 있습니다.  이 정책을 적용할 사용자 그룹을 선택하고 **저장**을 선택하여 해당 정책을 사용자에게 배포합니다.
+2. **선택된 그룹**을 선택하여 Azure AD 보안 그룹을 표시하는 창을 엽니다. 여기에서 Azure Active Directory에 있는 보안 그룹을 확인할 수 있습니다.  이 정책을 적용할 사용자 그룹을 선택하고 **저장**을 선택하여 해당 정책을 사용자에게 배포합니다.
 
 사용자에게 정책을 적용했습니다.  정책의 대상 사용자가 사용하는 장치에 대해 준수 여부가 평가됩니다.
 
@@ -70,8 +70,6 @@ Android에 대한 Intune 장치 준수 정책은 Android 장치가 준수하는 
   - **낮음**: 낮은 수준의 위협만 있는 경우 장치가 규정 준수로 평가됩니다. 더 높은 수준의 위협이 발생하면 장치는 규정 비준수 상태가 됩니다.
   - **보통**: 장치에 있는 위협이 낮거나 중간 수준인 경우 장치가 규정 준수로 평가됩니다. 높은 수준의 위협이 있는 것으로 감지되면 장치가 규정 비준수로 결정됩니다.
   - **높음**: 안전성이 가장 낮은 수준입니다. 기본적으로 모든 위협 수준이 허용됩니다. 이 수준은 이 솔루션을 보고 용도로만 사용하는 경우에 유용할 수 있습니다.
-
-자세한 내용은 [규정 준수 정책에서 장치 위협 방지 규칙 활성화](https://docs.microsoft.com/intune-classic/deploy-use/enable-device-threat-protection-rule-in-compliance-policy)를 참조하세요.
 
 ## <a name="system-security-settings"></a>시스템 보안 설정
 
