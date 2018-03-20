@@ -14,11 +14,11 @@ ms.assetid: ed2db991-4729-49a7-a1e6-be2ffa0d03d1
 ROBOTS: noindex,nofollow
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1f259620f64d70bfce4ed60c2a96194028a12c38
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: edbb76e0eb4a1157e70a24c47b960ef138a0f876
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="whats-new-in-the-intune-classic-portal---previous-months"></a>Intune 클래식 포털의 새로운 기능 - 지난 달
 
@@ -281,7 +281,7 @@ iOS 및 Android 앱에서 Intune 앱 래핑 도구 또는 Intune 앱 SDK를 사�
 
 * [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](apps-prepare-mobile-application-management.md)
 * [Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리를 위해 iOS 앱 준비](app-wrapper-prepare-ios.md)
-* [Microsoft Intune 앱 SDK 시작](/app-sdk-get-started.md)
+* [Microsoft Intune 앱 SDK 시작](app-sdk-get-started.md)
 * [iOS용 Intune 앱 SDK 개발자 가이드](app-sdk-ios.md)
 
 다음 문서가 문서 라이브러리에 새로 추가되었습니다.

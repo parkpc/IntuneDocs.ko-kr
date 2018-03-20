@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Intune에서 Mobile Threat Defense 커넥터 사용하도록 설정"
-titlesuffix: Azure portal
+titleSuffix: 
 description: "Mobile Threat Defense(MTD) 파트너와 Microsoft Intune 간에 커넥터를 사용하도록 설정합니다."
 keywords: 
 author: msmimart
@@ -15,11 +15,11 @@ ms.assetid: dbb6a37e-ba47-4b69-922c-d25e66c279f6
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 28233965fb68ef1b83b07d14d39568b5bd997c89
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 3ca0b8082e0fccc5ee4c97e281d546ba4a75d813
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="enable-the-mobile-threat-defense-connector-in-intune"></a>Intune에서 Mobile Threat Defense 커넥터를 사용하도록 설정
 
@@ -32,7 +32,7 @@ Mobile Threat Defense(MTD)를 설치하는 동안 MTD 파트너 콘솔에서 위
 
 1. [Azure Portal](https://portal.azure.com)로 이동한 다음 Intune 자격 증명을 사용하여 로그인합니다. 정상적으로 로그인되면 **Azure 대시보드**가 표시됩니다.
 
-2. **Azure 대시보드**의 왼쪽 메뉴에서 **모든 서비스**를 선택하고 텍스트 상자 필터에 **Intune**을 입력합니다.
+2. **Azure 대시보드**의 왼쪽 메뉴에서 **모든 서비스**를 선택한 다음, 텍스트 상자 필터에 **Intune**을 입력합니다.
 
 3. **Intune**을 선택하면 **Intune 대시보드**가 열립니다.
 
