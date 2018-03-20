@@ -1,40 +1,40 @@
 ---
-title: "macOS 장치에 대한 Intune Wi-Fi 설정"
-titleSuffix: Azure portal
-description: "macOS 장치에서 Wi-Fi 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다\""
+title: "macOS를 실행하는 장치에 대한 Microsoft Intune Wi-Fi 설정"
+titleSuffix: 
+description: "macOS 실행하는 장치에서 Wi-Fi 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 12/15/2017
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 322a38d5-21f5-48ee-bc59-0a4f9da78d38
-ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6a48671d738a2697202b98073502433ed0888316
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 25cc8cd550567d6edc63f1cab416bdb7d978eb52
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="wi-fi-settings-for-macos-devices-in-microsoft-intune"></a>Microsoft Intune의 macOS 장치에 대한 Wi-Fi 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
+이 아티클에서는 macOS를 실행하는 장치에 대해 Microsoft Intune에서 구성할 수 있는 Wi-Fi 설정을 설명합니다.
+
 ## <a name="wi-fi-settings-for-basic-and-enterprise-profiles"></a>기본 및 엔터프라이즈 프로필에 대한 Wi-Fi 설정
 
-- **네트워크 이름** - 이 Wi-Fi 네트워크 설정에 대한 이름을 입력합니다. 사용자가 장치에서 사용 가능한 연결 목록을 찾아볼 때 표시되는 이름입니다.
-- **SSID** - Service Set Identifier(서비스 집합 ID)의 약어입니다. 장치에 연결할 무선 네트워크의 실제 이름입니다. 그러나 사용자에게는 연결을 선택할 때 위에서 만든 네트워크 이름만 표시됩니다.
+- **네트워크 이름** - 이 Wi-Fi 네트워크 설정에 대한 이름을 입력합니다. 사용자가 장치에서 사용 가능한 연결 목록을 찾아볼 때 확인하는 이름입니다.
+- **SSID** - Service Set Identifier(서비스 집합 ID)의 약어입니다. 장치에 연결할 무선 네트워크의 실제 이름입니다. 그러나 사용자에게는 연결을 선택할 때 구성한 네트워크 이름만 표시됩니다.
 - **자동으로 연결** - 이 네트워크 범위에 있을 때마다 장치를 연결합니다.
 - **숨겨진 네트워크** - 이 네트워크가 장치의 사용 가능한 네트워크 목록에 표시되지 않도록 합니다.
 - **프록시 설정** - 다음에서 선택합니다.
     - **없음** - 프록시 설정을 구성하지 않습니다.
     - **수동** - **프록시 서버 주소**(IP 주소) 및 연결된 **포트 번호**를 입력합니다.
-    - **자동** – 파일을 사용하여 프록시 서버를 구성합니다. 구성 파일이 포함된 **프록시 서버 URL**(예: **http://proxy.contoso.com**)을 입력합니다.
+    - **자동** – 파일을 사용하여 프록시 서버를 구성합니다. 구성 파일이 포함된 **프록시 서버 URL**(예: **http://proxy.contoso.com)을 입력합니다.
 
 ## <a name="wi-fi-settings-for-basic-profiles-only"></a>기본 프로필에만 적용되는 Wi-Fi 설정
 
@@ -65,7 +65,7 @@ ms.lasthandoff: 01/25/2018
 
 |설정 이름|추가 정보|사용하는 경우|
 |--------------|-------------|----------|
-|**인증서 서버 이름**|신뢰할 수 있는 CA(인증 기관)에서 발급하는 인증서에 사용되는 일반적인 이름입니다. 이 정보를 제공하는 경우 Wi-Fi 네트워크에 연결할 때 최종 사용자 장치에 표시되는 동적 트러스트 대화 상자를 무시할 수 있습니다.|EAP 유형이 **EAP-TLS**, **EAP-TTLS** 또는 **PEAP**인 경우|
+|**인증서 서버 이름**|신뢰할 수 있는 CA(인증 기관)에서 발급하는 인증서에 사용되는 일반적인 이름입니다. 이 정보를 제공하는 경우 Wi-Fi 네트워크에 연결할 때 사용자 장치에 표시되는 동적 트러스트 대화 상자를 무시할 수 있습니다.|EAP 유형이 **EAP-TLS**, **EAP-TTLS** 또는 **PEAP**인 경우|
 |**서버 유효성 검사에 대한 루트 인증서**|연결을 인증하는 데 사용되는 신뢰할 수 있는 루트 인증서 프로필을 선택합니다. |EAP 유형이 **EAP-TLS**, **EAP-TTLS** 또는 **PEAP**인 경우|
 |**ID 개인 정보 사용(외부 ID)**|EAP ID 요청에 대한 응답으로 전송되는 텍스트를 지정합니다. 이 텍스트에는 원하는 값을 사용할 수 있습니다. 인증하는 동안 이 익명 ID가 먼저 전송된 다음 실제 ID가 보안 채널을 통해 전송됩니다.|EAP 유형이 **PEAP**인 경우|
 
@@ -76,4 +76,4 @@ ms.lasthandoff: 01/25/2018
 |설정 이름|추가 정보|사용하는 경우|
 |--------------|-------------|----------|
 |**클라이언트 인증에 사용할 클라이언트 인증서(ID 인증서)**|연결을 인증하는 데 사용되는 SCEP 또는 PKCS 인증서 프로필을 선택합니다.|EAP 유형이 **EAP-TLS**인 경우|
-|**인증 방법**|연결에 대한 인증 방법을 선택합니다.<br>- **인증서** - 서버에 제공되는 ID 인증서인 SCEP 또는 PKCS 클라이언트 인증서를 선택하려는 경우<br><br>- **사용자 이름 및 암호** - 다른 인증 방법을 지정하려는 경우 <br><br>**사용자 이름 및 암호**를 선택한 경우<br><br>-  **EAP 이외의 방법(내부 ID)**을 구성한 후 연결을 인증할 방법으로 다음 중 하나를 선택합니다.<br>- **없음**<br>- **암호화되지 않은 암호(PAP)**<br>- **CHAP(Challenge Handshake 인증 프로토콜)**<br>- **MS-CHAP(Microsoft CHAP)**<br>- **MS-CHAP v2(Microsoft CHAP 버전 2)**<br>사용 가능한 옵션은 선택한 EAP 종류에 따라 달라집니다.<br><br>**및**<br><br>- **ID 개인 정보(외부 ID)** - EAP ID 요청에 대한 응답으로 전송되는 텍스트를 지정하려는 경우 이 텍스트에는 원하는 값을 사용할 수 있습니다. 인증하는 동안 이 익명 ID가 먼저 전송된 다음 실제 ID가 보안 채널을 통해 전송됩니다.|EAP 유형이 **EAP-TTLS** 또는 **PEAP**인 경우|
+|**인증 방법**|연결에 대한 인증 방법을 선택합니다.<br>- **인증서** - 서버에 제공되는 ID 인증서인 SCEP 또는 PKCS 클라이언트 인증서를 선택하려는 경우<br><br>- **사용자 이름 및 암호** - 다른 인증 방법을 지정하려는 경우 <br><br>**사용자 이름 및 암호**를 선택한 경우<br><br>-  **EAP 이외의 방법(내부 ID)**을 구성한 다음, 연결을 인증할 방법으로 다음 중 하나를 선택합니다.<br>- **없음**<br>- **암호화되지 않은 암호(PAP)**<br>- **CHAP(Challenge Handshake 인증 프로토콜)**<br>- **MS-CHAP(Microsoft CHAP)**<br>- **MS-CHAP v2(Microsoft CHAP 버전 2)**<br>사용 가능한 옵션은 선택한 EAP 종류에 따라 달라집니다.<br><br>**및**<br><br>- **ID 개인 정보(외부 ID)** - EAP ID 요청에 대한 응답으로 전송되는 텍스트를 지정하려는 경우 이 텍스트에는 원하는 값을 사용할 수 있습니다. 인증하는 동안 이 익명 ID가 먼저 전송된 다음 실제 ID가 보안 채널을 통해 전송됩니다.|EAP 유형이 **EAP-TTLS** 또는 **PEAP**인 경우|

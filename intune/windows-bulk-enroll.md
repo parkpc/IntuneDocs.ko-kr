@@ -1,6 +1,6 @@
 ---
 title: "Windows 10에 대한 대량 등록"
-titlesuffix: Azure portal
+titlesuffix: Microsoft Intune
 description: "Microsoft Intune에 대한 대량 등록 패키지를 만듭니다."
 keywords: 
 author: Erikje
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: damionw
 ms.custom: intune-azure
-ms.openlocfilehash: 8b4c9f5685c12bb6c15d15d85c73d573dfcd66e8
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 851be6ad98383937a3457a33e47115933f309cea
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Windows 장치에 대한 대량 등록
 
@@ -36,7 +36,7 @@ Azure AD 사용자는 이러한 장치에서 표준 사용자이며 할당된 In
 ## <a name="create-a-provisioning-package"></a>프로비전 패키지 만들기
 
 1. Microsoft 스토어에서 [WCD(Windows 구성 디자이너)](https://www.microsoft.com/store/apps/9nblggh4tx22)를 다운로드합니다.
-![Windows 구성 디자이너 앱 스토어 스크린샷과 설명이 포함된 스크린샷](media/bulk-enroll-store.png)
+![Windows 구성 디자이너 앱 스토어 스크린샷](media/bulk-enroll-store.png)
 
 2. **Windows 구성 디자이너** 앱을 열고 **데스크톱 장치 프로비전**을 선택합니다.
 ![Windows 구성 디자이너 앱에서 데스크톱 장치 프로비전을 선택하는 스크린샷](media/bulk-enroll-select.png)
@@ -47,23 +47,24 @@ Azure AD 사용자는 이러한 장치에서 표준 사용자이며 할당된 In
   - **설명** - 프로젝트에 대한 설명(옵션) ![Windows 구성 디자이너 앱에서 프로젝트 폴더 이름과 설명을 지정하는 스크린샷](media/bulk-enroll-name.png)
 
 4.  장치에 대한 고유한 이름을 입력합니다. 이름에는 일련 번호(%%SERIAL%%) 또는 임의의 문자 집합이 포함될 수 있습니다. 필요에 따라 Windows 버전을 업그레이드하는 경우 제품 키를 입력하고, 공유용 장치를 구성하고, 사전 설치된 소프트웨어를 제거할 수도 있습니다.
-![Windows 구성 디자이너 앱에서 이름, 프로젝트 폴더 및 설명을 지정하는 스크린샷](media/bulk-enroll-device.png)
+
+    ![Windows 구성 디자이너 앱에서 이름 및 제품 키를 지정하는 스크린샷](media/bulk-enroll-device.png)
 
 5.  필요에 따라 장치를 처음 시작할 때 연결할 Wi-Fi 네트워크 장치를 구성할 수 있습니다.  네트워크 장치가 구성되지 않은 경우 장치를 처음 시작할 때 유선 네트워크 연결이 필요합니다.
 ![Windows 구성 디자이너 앱에서 네트워크 SSID 및 네트워크 유형 옵션을 포함하여 Wi-Fi를 사용하도록 구성하는 스크린샷](media/bulk-enroll-network.png)
 
 6.  **Azure AD에 등록**을 선택하고, **대량 토큰 만료** 날짜를 입력한 다음 **대량 토큰 가져오기**를 선택합니다.
-![Windows 구성 디자이너 앱에서 이름, 프로젝트 폴더 및 설명을 지정하는 스크린샷](media/bulk-enroll-account.png)
+![Windows 구성 디자이너 앱에서 계정 관리 스크린샷](media/bulk-enroll-account.png)
 
 7. 대량 토큰을 가져올 Azure AD 자격 증명을 제공합니다.
-![Windows 구성 디자이너 앱에서 이름, 프로젝트 폴더 및 설명을 지정하는 스크린샷](media/bulk-enroll-cred.png)
+![Windows 구성 디자이너 앱에 로그인하는 스크린샷](media/bulk-enroll-cred.png)
 
 8.  **대량 토큰**을 성공적으로 가져오면 **다음**을 클릭합니다.
 
 9. 필요에 따라 **응용 프로그램 추가** 및 **인증서 추가**를 수행할 수 있습니다. 이러한 앱 및 인증서는 장치에서 프로비전됩니다.
 
 10. 경우에 따라 사용자 프로비전 패키지를 암호로 보호할 수 있습니다.  **만들기**를 클릭합니다.
-![Windows 구성 디자이너 앱에서 이름, 프로젝트 폴더 및 설명을 지정하는 스크린샷](media/bulk-enroll-create.png)
+![Windows 구성 디자이너 앱에서 패키지 보호 스크린샷](media/bulk-enroll-create.png)
 
 ## <a name="provision-devices"></a>장치 프로비전
 

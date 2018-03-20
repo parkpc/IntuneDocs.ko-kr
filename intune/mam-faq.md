@@ -1,25 +1,19 @@
----
-title: "MAM 및 앱 보호에 대한 질문과 대답"
-description: "이 문서에서는 Intune MAM(모바일 응용 프로그램 관리) 및 Intune 앱 보호에 대한 일부 질문과 대답을 제공합니다."
-keywords: 
-author: Erikre
-ms.author: erikre
-manager: angrobe
-ms.date: 02/06/2018
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 149def73-9d08-494b-97b7-4ba1572f0623
-ms.reviewer: erikre
-ms.suite: ems
+--
+# <a name="required-metadata"></a>필수 메타데이터
+
+제목: MAM 및 앱 보호 설명에 대한 질문과 대답: 이 문서에서는 Intune MAM(모바일 응용 프로그램 관리) 및 Intune 앱 보호에 대한 일부 질문과 대답을 제공합니다.
+keywords: author: Erikre ms.author: erikre manager: angrobe ms.date: 02/28/2018 ms.topic: article ms.prod: ms.service: microsoft-intune ms.technology: ms.assetid: 149def73-9d08-494b-97b7-4ba1572f0623
+
+# <a name="optional-metadata"></a>선택적 메타데이터
+
+#<a name="audience"></a>대상 그룹:
+#<a name="msdevlang"></a>ms.devlang:
+ms.reviewer: erikre ms.suite: ems
+#<a name="mstgtpltfrm"></a>ms.tgt_pltfrm:
 ms.custom: intune-azure
-ms.openlocfilehash: 23ab21e21ff2ffd471523f8132acffd7545358f0
-ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+
 ---
+
 # <a name="frequently-asked-questions-about-mam-and-app-protection"></a>MAM 및 앱 보호에 대한 질문과 대답
 
 이 문서에서는 Intune MAM(모바일 응용 프로그램 관리) 및 Intune 앱 보호에 대한 일부 질문과 대답을 제공합니다.
@@ -135,14 +129,21 @@ ms.lasthandoff: 02/09/2018
 
 **관리되는 앱에서 웹 링크를 안전하게 여는 방법이 있나요?** 예. IT 관리자는 Intune을 사용하여 쉽게 관리할 수 있는 Microsoft Intune에서 개발된 웹 브라우저인 [Intune Managed Browser 앱](app-configuration-managed-browser.md)에 대한 앱 보호 정책을 배포 및 설정할 수 있습니다. IT 관리자는 Intune 관리 앱의 모든 웹 링크가 Managed Browser 앱을 사용하여 열리도록 지정할 수 있습니다.
 
-
 ## <a name="app-experience-on-android"></a>Android의 앱 환경
 
 **Intune 앱 보호 기능을 Android 장치에서 작동하기 위해 회사 포털 앱이 필요한 이유는 무엇인가요?** 많은 앱 보호 기능이 회사 포털 앱에 기본 제공됩니다. 회사 포털 앱이 항상 필요한 경우에도 장치 등록은 _필요하지 않습니다_. MAM-WE의 경우 최종 사용자가 회사 포털 앱을 장치에 설치하기만 하면 됩니다.
 
+**Android에서 앱 및 사용자 작업의 동일한 집합에 구성된 여러 Intune 앱 보호 액세스 설정은 어떻게 합니까?** 액세스에 대한 Intune 앱 보호 정책은 최종 사용자 장치가 회사 계정에서 대상 앱에 액세스하려 하기 때문에 해당 장치에 지정된 순서에 따라 적용됩니다. 일반적으로 차단이 우선 적용된 다음, 무시할 수 있는 경고가 적용됩니다. 예를 들어 특정 사용자/앱에 적용되는 경우 사용자의 액세스를 차단하는 최소 Android 패치 버전 설정 적용 후 패치 업그레이드를 적용하도록 사용자에게 경고하는 최소 Android 패치 버전 설정이 적용됩니다. 따라서 IT 관리자가 최소 Android 패치 버전을 2018-03-01로, 최소 Android 패치 버전(경고에서만 해당)을 2018-02-01로 구성하는 반면 앱에 액세스하려는 장치의 패치 버전은 2018-01-01인 시나리오에서 최종 사용자는 결국 액세스 차단을 야기하는 최소 Android 패치 버전에 대한 더 제한적인 설정을 기반으로 차단되게 됩니다. 
+
+다른 두 유형의 설정을 처리할 경우 앱 버전 요구 사항이 우선하고 이어 Android 운영 체제 버전 요구 사항 및 Android 패치 버전 요구 사항이 차례로 처리됩니다. 그런 다음, 동일한 순서로 설정의 모든 형식에 대한 모든 경고를 확인합니다.
+
 ## <a name="app-experience-on-ios"></a>iOS의 앱 환경
 
 **데이터 전송 정책이 "관리되는 앱만" 또는 "앱 없음"으로 설정된 경우에도 iOS 공유 확장을 사용하여 관리되지 않는 앱에서 회사 또는 학교 데이터를 열 수 있습니다. 데이터가 유출되지는 않나요?** Intune 앱 보호 정책은 장치를 관리하지 않고는 iOS 공유 확장을 제어할 수 없습니다. 따라서 Intune은 _**"회사" 데이터를 앱 외부에서 공유하기 전에 먼저 암호화합니다**_. 관리되는 앱 외부에서 "회사" 파일 열기를 시도하여 이를 확인할 수 있습니다. 파일이 암호화되어야 하며, 관리되는 앱 외부에서 파일을 열 수 없어야 합니다.
+
+**iOS에서 앱 및 사용자 작업의 동일한 집합에 구성된 여러 Intune 앱 보호 액세스 설정은 어떻게 합니까?** 액세스에 대한 Intune 앱 보호 정책은 최종 사용자 장치가 회사 계정에서 대상 앱에 액세스하려 하기 때문에 해당 장치에 지정된 순서에 따라 적용됩니다. 일반적으로 차단이 우선 적용되고 차단이 적용된 다음, 무시할 수 있는 경고가 적용됩니다. 예를 들어 특정 사용자/앱에 적용되는 경우 사용자의 액세스를 차단하는 최소 iOS 운영 체제 설정 적용 후 iOS 버전을 업그레이드하도록 사용자에게 경고하는 최소 iOS 운영 체제 설정이 적용됩니다. 따라서 IT 관리자가 최소 iOS 운영 체제를 11.0.0.0으로, 최소 iOS 운영 체제(경고에서만 해당)를 11.1.0.0으로 구성하는 반면 앱에 액세스하려는 장치는 iOS 10인 시나리오에서 최종 사용자는 결국 액세스 차단을 야기하는 최소 iOS 운영 체제에 대한 더 제한적인 설정을 기반으로 차단되게 됩니다.
+
+다른 유형의 설정을 처리할 경우 Intune 앱 SDK 버전 요구 사항이 우선하고 이어 앱 버전 요구 사항, iOS 운영 체제 버전 요구 사항이 처리됩니다. 그런 다음, 동일한 순서로 설정의 모든 형식에 대한 모든 경고를 확인합니다. Intune 앱 SDK 버전 요구 사항은 필수 차단 시나리오의 경우 Intune 제품 팀의 안내에 따라 구성하는 것이 좋습니다.
 
 ## <a name="see-also"></a>참고 항목
 - [Intune 계획 구현](planning-guide-onboarding.md)

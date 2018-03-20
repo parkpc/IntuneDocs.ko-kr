@@ -1,10 +1,10 @@
 ---
-title: "Windows Information Protection 구성 - Intune"
-titleSuffix: Azure portal
-description: "Windows Information Protection을 관리하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+title: "Microsoft Intune에서 Windows Information Protection 설정"
+titleSuffix: 
+description: "Windows Information Protection을 관리하는 데 사용할 수 있는 Microsoft Intune 설정을 알아봅니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: msmimart
+ms.author: mimart
 manager: dougeby
 ms.date: 1/18/2018
 ms.topic: article
@@ -14,11 +14,11 @@ ms.technology:
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e33fa9b22687f7f8c4d301c6cd82ecd787c23246
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: f2e5090eada373b83c3f8c390b7df6b31f6d1723
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-configure-windows-information-protection-in-microsoft-intune"></a>Microsoft Intune에서 Windows Information Protection을 구성하는 방법
 

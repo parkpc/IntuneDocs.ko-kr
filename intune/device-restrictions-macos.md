@@ -1,29 +1,29 @@
 ---
-title: "macOS에 대한 Intune 장치 제한 설정"
-titlesuffix: Azure portal
-description: "macOS 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+title: "macOS에 대한 Microsoft Intune 장치 제한 설정"
+titlesuffix: 
+description: "macOS를 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 1/31/2018
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a88cf11209726a622863339c3a6c117f7b83be1e
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: 72c9036bd6062e719d55876d77f44123fe2af392
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="macos-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 macOS 장치 제한 설정
+# <a name="microsoft-intune-macos-device-restriction-settings"></a>Microsoft Intune macOS 장치 제한 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-이러한 설정을 사용하여 장치 제한 프로필에서 macOS 장치를 관리할 수 있습니다.
+이 아티클에서는 macOS를 실행하는 장치에 대해 구성할 수 있는 Microsoft Intune 장치 제한 설정을 보여줍니다.
 
 ## <a name="password"></a>암호
 -   **암호** - 최종 사용자에게 장치에 액세스하려면 암호를 입력하도록 요구합니다.
@@ -49,5 +49,5 @@ ms.lasthandoff: 02/01/2018
 
 ### <a name="unmarked-email-domains"></a>표시되지 않은 전자 메일 도메인
 
-**전자 메일 도메인 URL** 필드에서 하나 이상의 URL을 목록에 추가합니다. 최종 사용자가 구성한 도메인이 아닌 다른 도메인에서 받은 메일은 iOS 메일 앱에서 신뢰할 수 없는 메일로 표시됩니다.
+**전자 메일 도메인 URL** 필드에서 하나 이상의 URL을 목록에 추가합니다. 사용자가 구성한 도메인이 아닌 다른 도메인에서 받은 이메일은 iOS 메일 앱에서 신뢰할 수 없는 이메일로 표시됩니다.
 

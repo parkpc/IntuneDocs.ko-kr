@@ -1,7 +1,7 @@
 ---
-title: "Intune과 Check Point SandBlast 통합 설정"
-titlesuffix: Azure portal
-description: "Intune과 Check Point SandBlast 통합 설정"
+title: "Microsoft Intune을 사용한 Check Point SandBlast MTD"
+titlesuffix: 
+description: "회사 리소스에 대한 모바일 장치 액세스를 제어하기 위해 Intune을 사용하여 CheckPoint SandBlast Mobile Threat Defense(MTD)를 설정하는 방법입니다."
 keywords: 
 author: msmimart
 ms.author: mimart
@@ -15,11 +15,11 @@ ms.assetid: 1e9b1576-b239-48cc-a672-da6b5fb7be0a
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0b1ea4804005abb1e2fcbc5dc3b5ef1382edd4db
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: b864d78fd7bfd7fb4e177b568b3587bc1e28b209
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="integrate-check-point-sandblast-mobile-with-intune"></a>Intune과 Check Point SandBlast Mobile 통합
 
@@ -68,7 +68,7 @@ Check Point SandBlast 앱 권한 부여 프로세스는 다음과 같이 구성�
 
 5.  Microsoft Intune을 MDM 서비스로 설정하면 **Microsoft Intune 구성** 화면이 표시됩니다. iOS, Android, Windows 같은 각 장치 플랫폼에 대해 **내 조직에 추가**를 선택하여 Check Point SandBlast Mobile에 Intune 및 Azure AD와 통신할 권한을 부여합니다.
 
-    ![Check Point MTD Intune 구성](./media/checkpoint-MTD-1.PNG)
+    ![Check Point MTD Intune 구성을 보여주는 이미지](./media/checkpoint-MTD-1.PNG)
 
     > [!IMPORTANT]
     > 다음 단계를 계속하려면 모든 장치 플랫폼을 추가해야 합니다.

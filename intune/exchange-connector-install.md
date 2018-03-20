@@ -1,12 +1,12 @@
 ---
-title: "Intune을 사용하여 온-프레미스 EAS용 Exchange Connector 설정"
-titleSuffix: Azure portal
-description: "커넥터 도구를 사용하여 Intune 및 온-프레미스 Exchange Server 간 통신 설정"
+title: "Microsoft Intune 온-프레미스 Exchange 커넥터 설정"
+titleSuffix: 
+description: "온-프레미스 Exchange 커넥터를 사용하여 Intune 등록 및 EAS(Exchange Active Sync)에 따라 Exchange 사서함에 장치 액세스를 관리합니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: msmimart
+ms.author: mimart
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 03/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,15 @@ ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: cb82b1a9af0cc8dd2f394747ce7ed8b695260bb9
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: 0caea2e8b7704fe2dfcbec937b59000ac2a12ae5
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Microsoft Intune Azure에서 Intune 온-프레미스 Exchange 커넥터 설정
 
-온-프레미스 Exchange Server 환경에서는 Intune 온-프레미스 Exchange Connector를 사용하여 장치가 Intune에 등록되어 있으며 Intune 장치 준수 정책을 준수하는지 여부에 따라 온-프레미스 Exchange 사서함에 대한 장치 액세스를 관리할 수 있습니다. 또한 온-프레미스 Exchange Connector는 기존 EAS(Exchange Active Sync) 레코드를 Intune과 동기화하여 온-프레미스 Exchange Server에 연결하는 모바일 장치를 검색합니다.
+온-프레미스 Exchange Server 환경에서는 Intune 온-프레미스 Exchange Connector를 사용하여 장치가 Intune에 등록되어 있는지 그리고 Intune 장치 준수 정책을 준수하는지 여부에 따라 온-프레미스 Exchange 사서함에 대한 장치 액세스를 관리할 수 있습니다. 또한 온-프레미스 Exchange Connector는 기존 EAS(Exchange Active Sync) 레코드를 Intune과 동기화하여 온-프레미스 Exchange Server에 연결하는 모바일 장치를 검색합니다.
 
 > [!IMPORTANT]
 > Intune은 온-프레미스 Exchange Connector 연결을 형식에 상관없이 구독당 한 번만 지원합니다.
@@ -70,11 +70,11 @@ Intune Exchange Connector에서 사용되는 Active Directory 사용자 계정�
 
 1. 온-프레미스 Exchange Connector에 대해 지원되는 Windows Server 운영 체제에서 [Azure Portal](http://portal.azure.com)을 열고 Exchange Server 사용을 위한 라이선스가 있으며 온-프레미스 Exchange Server의 관리자인 사용자 계정으로 로그인합니다.
 
-2. 왼쪽 메뉴에서 **More services**(추가 서비스)를 선택한 다음 텍스트 상자 필터에 **Intune**을 입력합니다.
+2. 왼쪽 메뉴에서 **모든 서비스**를 선택한 다음, 텍스트 상자 필터에 **Intune**을 입력합니다.
 
 3. **Intune**을 선택하면 열리는 Intune 대시보드에서 **온-프레미스 액세스**를 선택합니다.
 
-4. **온-프레미스 액세스 - Exchange ActiveSync Connector** 블레이드의 **설치** 섹션에서 **온-프레미스 커넥터 다운로드**를 선택합니다.
+4. **Exchange ActiveSync 온-프레미스 커넥터**를 선택한 다음, **온-프레미스 커넥터 다운로드**를 선택합니다.
 
 5.  온-프레미스 Exchange Connector는 열거나 저장할 수 있는 압축(.zip) 폴더에 포함되어 있습니다. **파일 다운로드** 대화 상자에서 **저장**을 선택하여 이 압축(ZIP) 폴더를 안전한 위치에 저장합니다.
 
@@ -93,7 +93,7 @@ Intune 온-프레미스 Exchange Connector를 설치하려면 다음 단계를 �
 
 3.  **Microsoft Intune Exchange Connector** 대화 상자에서 **온-프레미스 Microsoft Exchange Server** 또는 **호스트된 Microsoft Exchange Server**를 선택합니다.
 
-  ![Exchange Server 종류를 선택합니다.](./media/intune-sa-exchange-connector-config.png)
+  ![Exchange Server 유형을 선택하는 경우를 보여주는 이미지](./media/intune-sa-exchange-connector-config.png)
 
   온-프레미스 Exchange Server의 경우 **클라이언트 액세스 서버** 역할을 호스트하는 Exchange 서버의 서버 이름 또는 정규화된 도메인 이름을 지정합니다.
 
@@ -116,7 +116,7 @@ Intune 온-프레미스 Exchange Connector를 설치하려면 다음 단계를 �
 
     5. **사용자(도메인\사용자)** 및 **암호** 필드에 Exchange Server에 연결하는 데 필요한 자격 증명을 입력합니다.
 
-    6.  사용자의 Exchange Server 사서함에 알림을 보내는 데 필요한 관리 자격 증명을 입력합니다. 이러한 알림은 Intune에서 조건부 액세스 정책을 통해 구성할 수 있습니다.
+    6.  사용자의 Exchange Server 사서함에 알림을 보내는 데 필요한 자격 증명을 입력합니다. 이 사용자를 알림에만 전용할 수 있습니다. 알림 사용자는 알림을 이메일로 보낼 수 있도록 Exchange 사서함이 필요합니다. 이러한 알림은 Intune에서 조건부 액세스 정책을 통해 구성할 수 있습니다.  
 
         자동 검색 서비스 및 Exchange 웹 서비스가 Exchange 클라이언트 액세스 서버에 구성되어 있는지 확인합니다. 자세한 내용은 [Client Access server](https://technet.microsoft.com/library/dd298114.aspx)(클라이언트 액세스 서버)를 참조하세요.
 

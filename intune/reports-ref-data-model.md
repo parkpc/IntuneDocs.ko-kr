@@ -1,11 +1,12 @@
 ---
-title: "데이터 웨어하우스 데이터 모델 | Microsoft 문서"
-description: "Intune 데이터 웨어하우스 샘플 데이터는 항상 변화하는 모바일 환경에 대한 과거 보기를 제공합니다."
+title: "데이터 웨어하우스 데이터 모델"
+titlesuffix: Microsoft Intune
+description: "Microsoft Intune 데이터 웨어하우스 샘플 데이터는 항상 변화하는 모바일 환경에 대한 과거 보기를 제공합니다."
 keywords: "Intune 데이터 웨어하우스"
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/14/2017
+ms.date: 01/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,17 +15,17 @@ ms.assetid: 4D04D3D9-4B6C-41CD-AAF8-466AF8FA6032
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f52531f854c57551613b1e94f0cfd0925c6d3d12
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 7bf893acd5a3d162b767744001fe2257824d86a4
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="data-warehouse-data-model"></a>데이터 웨어하우스 데이터 모델
 
-Intune 데이터 웨어하우스 샘플 데이터는 항상 변화하는 모바일 장치 환경에 대한 과거 보기를 제공합니다. 보기는 해당 시점의 관련된 항목으로 구성됩니다.
+Intune 데이터 웨어하우스 샘플 데이터는 항상 변화하는 모바일 장치 환경에 대한 과거 보기를 제공합니다. 보기는 해당 시점의 관련 엔터티로 구성됩니다.
 
-## <a name="things-entity-sets"></a>항목: 엔터티 집합
+## <a name="entities-entity-sets"></a>엔터티: 엔터티 집합
 
 웨어하우스는 다음과 같은 개략적인 영역으로 데이터를 노출합니다.
 
@@ -33,7 +34,7 @@ Intune 데이터 웨어하우스 샘플 데이터는 항상 변화하는 모바�
   -  앱 및 소프트웨어 인벤토리
   -  장치 구성 및 규정 준수 정책
 
-이러한 영역에는 Intune 환경에 적합한 엔터티 또는 항목이 포함됩니다. 다음 항목의 엔터티 집합에 대한 정보를 찾을 수 있습니다.
+이러한 영역에는 Intune 환경에 적합한 엔터티가 포함됩니다. 다음 항목의 엔터티 집합에 대한 정보를 찾을 수 있습니다.
 
   -  [응용 프로그램](reports-ref-application.md)
   -  [날짜](reports-ref-date.md)

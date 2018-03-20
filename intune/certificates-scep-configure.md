@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: dougeby
-ms.date: 1/18/2018
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 61193cc96f0ea22e9a80d24fe8ee0499e80d4202
-ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
+ms.openlocfilehash: d723bc4d5032a7a5c330367fe83eabd4763917a2
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="configure-and-manage-scep-certificates-with-intune"></a>Intune을 사용하여 SCEP 인증서 구성 및 관리
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -304,10 +304,10 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
 ##### <a name="to-download-install-and-configure-the-certificate-connector"></a>인증서 커넥터를 다운로드, 설치 및 구성하려면
 ![ConnectorDownload](./media/certificates-download-connector.png)   
  
-1. Azure 포털에 로그인합니다. 
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
-4. **장치 구성** 블레이드에서 **인증 기관**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **장치 구성**을 선택합니다.
+4. **장치 구성** 창에서 **인증 기관**을 선택합니다.
 5. **추가**를 클릭하고 **커넥터 파일 다운로드**를 선택합니다. 설치할 서버에서 액세스할 수 있는 위치에 다운로드를 저장합니다. 
 6.  다운로드가 완료되면 NDES(Network Device Enrollment Service) 역할을 호스트하는 서버에서 다운로드한 설치 관리자(**ndesconnectorssetup.exe**)를 실행합니다. 설치 관리자가 NDES에 대한 정책 모듈 및 CRP 웹 서비스도 설치합니다. CRP 웹 서비스 CertificateRegistrationSvc는 IIS에서 응용 프로그램으로 실행됩니다.
 
@@ -347,9 +347,9 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
 ## <a name="how-to-create-a-scep-certificate-profile"></a>SCEP 인증서 프로필을 만들려면
 
 1. Azure Portal에서 **장치 구성** 워크로드를 선택합니다.
-2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
-3. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.
-4. **프로필 만들기** 블레이드에서 SCEP 인증서 프로필에 대한 **이름** 및 **설명**을 입력합니다.
+2. **장치 구성** 창에서 **관리** > **프로필**을 선택합니다.
+3. 프로필 창에서 **프로필 만들기**를 선택합니다.
+4. **프로필 만들기** 창에서 SCEP 인증서 프로필에 대한 **이름** 및 **설명**을 입력합니다.
 5. **플랫폼** 드롭다운 목록에서 이 SCEP 인증서에 대한 장치 플랫폼을 선택합니다. 현재, 장치 제한 설정에 대해 다음 플랫폼 중 하나를 선택할 수 있습니다.
     - **OWA(Outlook Web Access)**
     - **iOS**
@@ -358,7 +358,7 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
     - **Windows 8.1 이상**
     - **Windows 10 이상**
 6. **프로필** 유형 드롭다운 목록에서 **SCEP 인증서**를 선택합니다.
-7. **SCEP 인증서** 블레이드에서 다음 설정을 구성합니다.
+7. **SCEP 인증서** 창에서 다음 설정을 구성합니다.
     - **인증서 유효 기간** - 발급 CA에 대해 사용자 지정 유효 기간을 허용하는 **certutil - setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE** 명령을 실행한 경우 인증서가 만료될 때까지 남은 기간을 지정할 수 있습니다.<br>지정된 인증서 템플릿에서 유효 기간보다 작은 값은 지정할 수 있지만 높은 값은 지정할 수 없습니다. 예를 들어 인증서 템플릿의 인증서 유효 기간이 2년이면 값을 1년으로 지정할 수는 있어도 5년으로는 지정할 수 없습니다. 또한 이 값은 발급 CA 인증서의 남은 유효 기간보다 작아야 합니다. 
     - **KSP(키 저장소 공급자)**(Windows Phone 8.1, Windows 8.1, Windows 10) - 인증서의 키가 저장될 위치를 지정합니다. 다음 값 중 하나를 선택합니다.
         - **있는 경우 TPM(신뢰할 수 있는 플랫폼 모듈) KSP에 등록, 그렇지 않으면 소프트웨어 KSP에 등록**
@@ -385,9 +385,9 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
     - **등록 설정**
         - **갱신 임계값(%)** - 장치에서 인증서 갱신을 요청하기 전까지 남은 인증서 수명을 백분율로 지정합니다.
         - **SCEP 서버 URL** - SCEP를 통해 인증서를 발급하는 NDES 서버의 URL을 하나 이상 지정합니다. 
-8. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
+8. **확인**을 선택한 다음, **프로필 만들기** 창으로 돌아가 **만들기**를 선택합니다.
 
-프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
+프로필이 만들어지고 프로필 목록 창에 표시됩니다.
 
 ## <a name="how-to-assign-the-certificate-profile"></a>인증서 프로필을 할당하려면
 

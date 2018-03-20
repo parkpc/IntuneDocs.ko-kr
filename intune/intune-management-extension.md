@@ -5,7 +5,7 @@ description: "Windows 10 장치에서 실행되도록 Intune에서 PowerShell �
 keywords: 
 author: dougeby
 manager: dougeby
-ms.date: 11/08/2017
+ms.date: 02/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 768b6f08-3eff-4551-b139-095b3cfd1f89
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e8c959ca3df62cbda17e5a659d0703cbc37f3249
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: a52f2affa235a37b6d99a8452bc83a794cb04ce5
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="manage-powershell-scripts-in-intune-for-windows-10-devices"></a>Windows 10 장치를 위한 Intune에서의 PowerShell 스크립트 관리
 Intune 관리 확장을 사용하면 Windows 10 장치에서 실행되도록 Intune에서 PowerShell 스크립트를 업로드할 수 있습니다. 관리 확장은 Windows 10 MDM(모바일 장치 관리) 기능을 보완하며 사용자가 최신 관리로 더 손쉽게 이행할 수 있도록 합니다.
@@ -37,24 +37,24 @@ Intune 관리 확장에는 다음과 같은 필수 구성 요소가 있습니다
 
 ## <a name="create-a-powershell-script-policy"></a>PowerShell 스크립트 정책 만들기 
 1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
-4. **장치 구성** 블레이드에서 **관리** > **PowerShell 스크립트**를 선택합니다.
-5. **PowerShell 스크립트** 블레이드에서 **스크립트 추가**를 선택합니다.
-6. **PowerShell 스크립트 추가** 블레이드에서 PowerShell 스크립트에 대한 **이름** 및 **설명**을 입력합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **장치 구성**을 선택합니다.
+4. **장치 구성** 창에서 **관리** > **PowerShell 스크립트**를 선택합니다.
+5. **PowerShell 스크립트** 창에서 **추가**를 선택합니다.
+6. **PowerShell 스크립트 추가** 창에서 PowerShell 스크립트에 대한 **이름** 및 **설명**을 입력합니다.
 7. **스크립트 위치**의 경우 PowerShell 스크립트를 찾습니다. 스크립트는 10KB(ASCII) 또는 5KB(유니코드) 미만이어야 합니다.
 8. **구성**을 선택한 다음, 장치(**예**) 또는 시스템 컨텍스트(**아니요**) 중 어디에서 사용자의 자격 증명으로 스크립트를 실행할지를 선택합니다. 기본적으로 스크립트는 시스템 컨텍스트에서 실행됩니다. 스크립트를 시스템 컨텍스트에서 실행해야 하는 경우 외에는 **예**를 선택합니다. 
-  ![PowerShell 스크립트 추가 블레이드](./media/mgmt-extension-add-script.png)
+  ![PowerShell 스크립트 추가 창](./media/mgmt-extension-add-script.png)
 9. 신뢰할 수 있는 게시자가 스크립트를 서명해야 하는지 여부를 선택합니다(**예**). 기본적으로 서명할 스크립트에 대한 요구 사항은 없습니다. 
 10. **확인**을 클릭한 다음, **만들기**를 클릭하여 스크립트를 저장합니다.
 
 ## <a name="assign-a-powershell-script-policy"></a>PowerShell 스크립트 정책 할당
 1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
-4. **장치 구성** 블레이드에서 **관리** > **PowerShell 스크립트**를 선택합니다.
-5. **PowerShell 스크립트** 블레이드에서 할당할 스크립트를 선택한 다음, **관리** > **할당**을 선택합니다.
-  ![PowerShell 스크립트 추가 블레이드](./media/mgmt-extension-assignments.png)
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **장치 구성**을 선택합니다.
+4. **장치 구성** 창에서 **관리** > **PowerShell 스크립트**를 선택합니다.
+5. **PowerShell 스크립트** 창에서 할당할 스크립트를 선택한 다음, **관리** > **할당**을 선택합니다.
+  ![PowerShell 스크립트 추가 창](./media/mgmt-extension-assignments.png)
  
 6. **그룹 선택**을 선택하여 사용할 수 있는 Azure AD 그룹을 나열합니다. 
 7. 스크립트를 받을 장치의 사용자를 포함하는 그룹을 하나 이상 선택하고 **선택**을 클릭하여 선택한 그룹에 정책을 할당합니다.
@@ -64,9 +64,9 @@ Intune 관리 확장은 1시간마다 Intune으로 동기화합니다. Azure AD 
 ## <a name="monitor-run-status-for-powershell-scripts"></a>PowerShell 스크립트에 대한 실행 상태 모니터
 Azure Portal에서 사용자 및 장치에 대한 PowerShell 스크립트의 실행 상태를 모니터링할 수 있습니다.
 1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
-4. **장치 구성** 블레이드에서 **관리** > **PowerShell 스크립트**를 선택합니다.
-5. **PowerShell 스크립트** 블레이드에서 모니터링할 스크립트를 선택한 다음, **모니터**를 선택하고, 다음 보고서 중 하나를 선택합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **장치 구성**을 선택합니다.
+4. **장치 구성** 창에서 **관리** > **PowerShell 스크립트**를 선택합니다.
+5. **PowerShell 스크립트** 창에서 모니터링할 스크립트를 선택한 다음, **모니터**를 선택하고, 다음 보고서 중 하나를 선택합니다.
    - **장치 상태**
    - **사용자 상태**

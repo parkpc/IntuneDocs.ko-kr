@@ -6,7 +6,7 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 07/03/2017
+ms.date: 02/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 712a79fb-14ef-4f6b-aba5-1dfca900afd2
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fc1a30a86ae924777b435c67e67f926819753d67
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 9de6f0e2f7c74e7aec45c27f0fa20189b26c5e22
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="intune-airplay-settings-for-ios-devices"></a>iOS 장치에 대한 Intune AirPlay 설정
 
@@ -33,19 +33,20 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="get-started"></a>시작
 
-1. **장치 기능** 블레이드에서 **AirPlay**를 선택합니다.
-2. **AirPlay** 블레이드에서 다음 작업 중 하나 또는 모두를 선택합니다.
+1. [Azure Portal의 Intune](https://portal.azure.com)에서 [**장치 구성 영역의 장치 기능**으로 이동합니다](device-features-configure.md). 
+1. **장치 기능** 창에서 **AirPlay**를 선택합니다.
+2. **AirPlay** 창에서 다음 작업 중 하나 또는 모두를 선택합니다.
 
 ## <a name="configure-a-device-and-password-list"></a>장치 및 암호 목록 구성
 
-1. **암호** 블레이드에서 AirPlay 장치의 **장치 이름** 및 **암호**를 입력합니다(예: **Contoso Apple TV**).
+1. **암호** 창에서 AirPlay 장치의 **장치 이름** 및 **암호**를 입력합니다(예: **Contoso Apple TV**).
 2. 장치 세부 정보를 입력한 후 **추가**를 클릭합니다. **장치 이름** 목록에 해당 장치가 표시됩니다.
 3. 장치를 계속 추가합니다. 작업이 끝나면 **확인**을 선택합니다.
 
 
 ## <a name="configure-allowed-destinations"></a>허용된 대상 구성
 
-1. **허용된 대상(감독 모드에서만 해당)** 블레이드에서 AirPlay 장치의 **장치 ID**를 입력합니다(예: 52:46:CD:51:83:4C).
+1. **허용된 대상(감독 모드에서만 해당)** 창에서 AirPlay 장치의 **장치 ID**를 입력합니다(예: 52:46:CD:51:83:4C).
 2. 장치 ID를 입력한 후 **추가**를 클릭합니다. **장치 ID** 목록에 해당 ID가 표시됩니다.
 3. 장치를 계속 추가합니다. 작업이 끝나면 **확인**을 선택합니다.
 

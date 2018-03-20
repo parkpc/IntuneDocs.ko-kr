@@ -6,7 +6,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: dougeby
-ms.date: 09/12/2017
+ms.date: 02/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 6f4de4bd-3dde-4a8d-8e22-46c5d06c3eea
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b50c35dc805d033bd905105c22c4ec287dfaa1b7
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 18987c65c7ad0443c8bf3dc268284306cf64080d
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-configure-windows-10-education-settings-in-microsoft-intune"></a>Microsoft Intune에서 Windows 10 교육 설정을 구성하는 방법
 
@@ -31,22 +31,23 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="create-a-device-profile-containing-education-profile-settings"></a>교육 프로필 설정을 포함하는 장치 프로필 만들기
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
-2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
-3. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.
-4. **프로필 만들기** 블레이드에서 장치 제한 프로필에 대한 **이름** 및 **설명**을 입력합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **장치 구성**을 선택합니다.
+2. **관리** 섹션 아래의 **장치 구성** 창에서 **프로필**을 선택합니다.
+3. 프로필 창에서 **프로필 만들기**를 선택합니다.
+4. **프로필 만들기** 창에서 장치 제한 프로필에 대한 **이름** 및 **설명**을 입력합니다.
 5. **플랫폼** 드롭다운 목록에서 **Windows 10 이상**을 선택합니다.
 6. **프로필 유형** 드롭다운 목록에서 선택 **교육 프로필**을 선택합니다. 
-7. 설정 > 구성을 선택한 다음 **시험 응시** 블레이드에서 다음을 구성합니다.
+7. **설정 > 구성**을 선택한 다음, **시험 응시** 창에서 다음을 구성합니다.
+    - **계정 유형** - 드롭 다운 필드에서 계정 유형을 선택합니다.
     - **계정 사용자 이름** - 시험 응시에 사용한 계정의 사용자 이름을 입력합니다. 이름은 도메인 계정, AAD(Azure Active Directory) 계정 또는 로컬 컴퓨터 계정일 수 있습니다.
     - **평가 URL** - 사용자가 수행해야 할 테스트의 URL을 제공합니다. 자세한 내용은 시험 응시 설명서를 참조하세요.
     - **화면 모니터링** - 사용자가 테스트를 수행하는 동안 화면 활동을 모니터링할 수 있는지 여부를 지정합니다.
     - **텍스트 제안** - 사용자가 테스트를 수행하는 동안 텍스트 제안을 허용하거나 차단합니다.
-8. 완료되면 **프로필 만들기** 블레이드로 돌아가서 **만들기**를 누릅니다.
+8. 완료되면 **프로필 만들기** 창으로 돌아가서 **만들기**를 누릅니다.
 
-프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
+프로필이 만들어지고 프로필 목록 창에 표시됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

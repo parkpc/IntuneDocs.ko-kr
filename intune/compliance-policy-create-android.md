@@ -1,12 +1,12 @@
 ---
-title: "Android에 대한 준수 정책을 만드는 방법"
-titleSuffix: Azure portal
-description: "Android 장치에 대한 준수 정책을 만드는 방법을 알아봅니다.\""
+title: "Microsoft Intune에서 Android 장치 준수 정책 만들기"
+titleSuffix: 
+description: "장치가 준수하려면 충족해야 하는 요구 사항을 지정할 수 있도록 Android 장치에 대한 Microsoft Intune 장치 준수 정책을 만듭니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: msmimart
+ms.author: mimart
 manager: dougeby
-ms.date: 12/07/2016
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,41 +15,39 @@ ms.assetid: e1258fe4-0b5c-4485-8bd1-152090df6345
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6da4e6ffb473cee73f3946e5af3d97ddd5bb6b7b
-ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
+ms.openlocfilehash: 283685629ac1e268a66d82250273a17f9baa5d17
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-android-devices-in-intune"></a>Intune에서 Android 장치에 대한 장치 준수 정책을 만드는 방법
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-장치 준수 정책은 Intune Azure 포털에서 각 플랫폼에 대해 만들어집니다. 
-
-- 준수 정책에 대한 자세한 내용을 알아보려면 [장치 준수란?](device-compliance.md)을 참조하세요.
-- 준수 정책을 만들기 전에 해결해야 하는 전제 조건을 자세히 알아보려면 [장치 준수 시작](device-compliance-get-started.md)을 참조하세요.
+Android에 대한 Intune 장치 준수 정책은 Android 장치가 준수하는 것으로 간주되려면 충족해야 하는 규칙과 설정을 지정합니다. 이러한 정책을 회사 리소스에 액세스를 허용하거나 차단할 조건부 액세스와 함께 사용할 수 있으며 장치 보고서를 가져오고 비준수에 대한 조치를 할 수 있습니다. Intune Azure Portal에서 각 플랫폼에 대해 장치 준수 정책을 만듭니다. 준수 정책을 만들기 전에 해결해야 하는 전제 조건 및 준수 정책을 자세히 알아보려면 [장치 준수 시작](device-compliance-get-started.md)을 참조하세요.
 
 ## <a name="to-create-a-device-compliance-policy"></a>장치 준수 정책을 만들려면
 
-1. **Intune** 블레이드에서 **장치 준수 설정**을 선택합니다. **관리** 아래에서 **모든 장치 준수 정책**을 선택한 다음 **만들기**를 선택합니다.
-2. 이름 및 설명을 입력하고 이 정책을 적용할 플랫폼을 선택합니다.
-3. **준수 요구 사항**을 선택하여 **보안**, **장치 상태** 및 **장치 속성** 설정을 지정합니다. 작업이 끝나면 **확인**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+1. **Intune** 창에서 **장치 준수**를 선택합니다. **관리**에서 **정책**을 선택하고 **정책 만들기**를 선택합니다.
+3. **설정 구성**을 선택하여 여기에서 **시스템 보안**, **장치 상태** 및 **장치 속성** 설정을 지정합니다. 작업이 끝나면 **확인**을 선택합니다.
 
-<!-- 4. Choose **Actions for noncompliance** to say what actions should happen when a device is determined as noncompliant based on the configured settings in this policy.
-5. In the **Actions for noncompliance** blade, choose **Add** to create a new action.  The action parameters blade allows you to specify the action, email recipients that should receive the notification in addition to the user of the device, and the content of the notification that you want to send.
+<!--- 4. Choose **Actions for noncompliance** to say what actions should happen when a device is determined as noncompliant based on the configured settings in this policy.
+5. In the **Actions for noncompliance** pane, choose **Add** to create a new action.  The action parameters pane allows you to specify the action, email recipients that should receive the notification in addition to the user of the device, and the content of the notification that you want to send.
 6. The message template option allows you to create several custom emails depending on when the action is set to take. For example, you can create a message for notifications that are sent for the first time and a different message for final warning before access is blocked. The custom messages that you create can be used for all your device compliance policy.
 7. Specify the **Grace period** which determines when that action to take place.  For example, you may want to send a notification as soon as the device is evaluated as noncompliant, but allow some time before enforcing the conditional access policy to block access to company resources like SharePoint online.
 8. Choose **Add** to finish creating the action.
-9. You can create multiple actions and the sequence in which they should occur. Choose **OK** when you are finished creating all the actions.-->
+9. You can create multiple actions and the sequence in which they should occur. Choose **OK** when you are finished creating all the actions.--->
 
 ## <a name="to-assign-user-groups"></a>사용자 그룹을 할당하려면
 
-준수 정책을 사용자에게 할당하려면 구성한 정책을 선택합니다. 기존 정책은 **준수 – 정책** 블레이드에서 찾을 수 있습니다.
+준수 정책을 사용자에게 할당하려면 구성한 정책을 선택합니다. 기존 정책은 **장치 준수 정책** 창에서 확인할 수 있습니다.
 
-1. 정책을 선택한 다음 **할당**을 선택합니다. 그런 다음, **Azure Active Directory 보안 그룹**을 선택하고 정책에 그룹을 할당할 수 있습니다.
-2. **그룹 선택**을 선택하여 Azure AD 보안 그룹을 표시하는 블레이드를 엽니다. 여기에서 Azure Active Directory에 있는 보안 그룹을 확인할 수 있습니다.  이 정책을 적용할 사용자 그룹을 선택하고 **선택**을 선택할 수 있습니다. **선택**을 선택하면 정책이 사용자에게 배포됩니다.
+1. 정책을 선택한 다음 **할당**을 선택합니다. 이렇게 하면 **Azure Active Directory 보안 그룹**을 선택하고 이를 정책에 할당할 수 있는 창이 열립니다.
+2. **그룹 선택**을 선택하여 Azure AD 보안 그룹을 표시하는 창을 엽니다. 여기에서 Azure Active Directory에 있는 보안 그룹을 확인할 수 있습니다.  이 정책을 적용할 사용자 그룹을 선택하고 **저장**을 선택하여 해당 정책을 사용자에게 배포합니다.
 
 사용자에게 정책을 적용했습니다.  정책의 대상 사용자가 사용하는 장치에 대해 준수 여부가 평가됩니다.
 
@@ -68,16 +66,18 @@ ms.lasthandoff: 02/09/2018
 - **장치의 보안 위협 검색을 사용하도록 장치가 설정되어 있어야 함(Android 4.2 4.4 이상)**: 이 설정은 장치에 **앱 확인** 기능이 사용하도록 설정되어 있는지 지정합니다.
 - **최소 Android 보안 패치 수준(Android 6.0 이상)**: 최소 Android 패치 수준이 지정하려면 이 설정을 사용합니다. 적어도 이 패치 수준에 없는 장치가 비규격 장치가 됩니다. 날짜는 YYYY-MM-DD 형식으로 지정해야 합니다.
 - **장치 위협 보호를 사용하도록 설정해야 함**: Lookout MTP 솔루션에서 위험 평가를 규정 준수에 대한 조건으로 수행하려면 이 설정을 사용합니다. 허용되는 최대 위협 수준을 다음 중에서 선택합니다.
-  - **없음(보안됨)**: 이 위협 수준이 가장 안전합니다. 장치에 어떤 위협도 있어서는 안 된다는 의미입니다. 수준에 관계없이 위협이 발견된 장치는 규정 비준수로 평가됩니다.
+  - **없음(보안됨)**: 가장 안전합니다. 장치에 어떤 위협도 있어서는 안 된다는 의미입니다. 수준에 관계없이 위협이 발견된 장치는 규정 비준수로 평가됩니다.
   - **낮음**: 낮은 수준의 위협만 있는 경우 장치가 규정 준수로 평가됩니다. 더 높은 수준의 위협이 발생하면 장치는 규정 비준수 상태가 됩니다.
   - **보통**: 장치에 있는 위협이 낮거나 중간 수준인 경우 장치가 규정 준수로 평가됩니다. 높은 수준의 위협이 있는 것으로 감지되면 장치가 규정 비준수로 결정됩니다.
-  - **높음**: 이 위협 수준은 보안이 가장 취약합니다. 기본적으로 모든 위협 수준이 허용됩니다. 이 수준은 이 솔루션을 보고 용도로만 사용하는 경우에 유용할 수 있습니다.
+  - **높음**: 안전성이 가장 낮은 수준입니다. 기본적으로 모든 위협 수준이 허용됩니다. 이 수준은 이 솔루션을 보고 용도로만 사용하는 경우에 유용할 수 있습니다.
+
+자세한 내용은 [규정 준수 정책에서 장치 위협 방지 규칙 활성화](https://docs.microsoft.com/intune-classic/deploy-use/enable-device-threat-protection-rule-in-compliance-policy)를 참조하세요.
 
 ## <a name="system-security-settings"></a>시스템 보안 설정
 
 ### <a name="password"></a>암호
 
-- **모바일 장치의 잠금을 해제하는 데 암호 필요**: 장치에 액세스하기 전에 사용자가 암호를 입력하도록 하려면 **예**로 선택합니다.
+- **모바일 장치의 잠금을 해제하는 데 암호 필요**: 장치에 액세스하기 전에 사용자가 암호를 입력하도록 하려면 **예**로 설정합니다.
 - **최소 암호 길이**: 사용자의 암호에 포함해야 하는 최소 자릿수 또는 문자 수를 지정합니다.
 - **암호 품질**: 지정한 암호 요구 사항이 장치에 설정되었는지 검색합니다. 이 설정을 사용하여 사용자가 Android 장치에 대한 특정 암호 요구 사항을 충족하도록 요구합니다. 다음 중에서 선택합니다.
   - **낮은 보안 생체 인식**
@@ -89,12 +89,12 @@ ms.lasthandoff: 02/09/2018
 - **암호를 요구하기 전까지 비활성 시간(분)**: 사용자가 해당 시간 내에 자신의 암호를 다시 입력해야 하는 유휴 시간을 지정합니다.
 - **암호 만료(일)**: 암호가 만료된 후 새로 만들어야 하기 전까지의 일수를 선택합니다.
 - **암호 기록 기억**: 이 설정을 **이전 암호 다시 사용 방지**와 함께 사용하여 사용자가 이전에 사용했던 암호를 만들지 못하게 제한할 수 있습니다.
-- **이전 암호 다시 사용 방지**: **암호 기록 기억**을 선택한 경우 다시 사용할 수 없는 이전에 사용했던 암호 수를 지정합니다.
+- **이전 암호 다시 사용 방지** **암호 기록 기억**:을 선택한 경우 다시 사용할 수 없는 이전에 사용했던 암호 수를 지정합니다.
 - **장치가 유휴 상태에서 되돌아오는 경우 암호 필요**: 이 설정은 **암호를 요구하기 전까지 비활성 시간(분)** 설정과 함께 사용해야 합니다. **암호를 요구하기 전까지 비활성 시간(분)** 설정에 지정된 시간 동안 비활성화 상태인 장치에 사용자가 액세스하려고 하면 암호를 입력하라는 메시지가 표시됩니다.
 
 ### <a name="encryption"></a>암호화
 
-- **모바일 장치 암호화 필요**: **예**로 선택하여 리소스에 연결하기 위해 장치를 암호화하도록 해야 합니다. **모바일 장치의 잠금을 해제하는 데 암호 필요** 설정을 선택하면 장치가 암호화됩니다.
+- **모바일 장치 암호화 필요**: **예**로 설정하여 리소스에 연결하기 위해 장치를 암호화하도록 해야 합니다. **모바일 장치의 잠금을 해제하는 데 암호 필요** 설정을 선택하면 장치가 암호화됩니다.
 
 ## <a name="device-property-settings"></a>장치 속성 설정
 

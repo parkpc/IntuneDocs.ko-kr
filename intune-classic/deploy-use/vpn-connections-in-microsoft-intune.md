@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 08e1126e05d101669c5796e4bd7fcaf08339fa43
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 7c63c817ccddd0abc6c5c6b0ae2f2a7d1cb2d9bf
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="vpn-connections-in-microsoft-intune"></a>Microsoft Intune에서 VPN 연결
 
@@ -53,7 +53,7 @@ Cisco(IPsec)|예 |예   |아니요  |아니요  |아니요 | 아니요|
 Citrix|예 |예(Android에만 해당)   |아니요  |아니요  |아니요 | 아니요|
 Pulse Secure|예  |예 |예   |예  |예| 예|        
 F5 Edge Client|예 |예 |예 |예  |   예 |  예|   
-Dell SonicWALL Mobile Connect|예 |예 |예 |예 |예 |예|         
+SonicWall Mobile Connect|예 |예 |예 |예 |예 |예|         
 CheckPoint Mobile VPN|예 |예 |예 |예|예|예|
 Microsoft SSL(SSTP)|아니요 |아니요 |아니요 |아니요|아니요|VPNv1 OMA-URI*|
 Microsoft 자동|아니요 |아니요 |아니요 |아니요|예(OMA-URI)|예|
@@ -108,7 +108,7 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 **Name**     |Intune 콘솔에서 쉽게 식별할 수 있도록 VPN 프로필에 대한 고유한 이름을 입력합니다.         
 **설명**     |VPN 프로필의 개요에 대한 설명과 찾을 때 도움이 되는 기타 관련 정보를 제공합니다.         
 **VPN 연결 이름(사용자에게 표시)**     |VPN 프로필의 이름을 지정합니다. 사용자는 장치의 사용 가능한 VPN 연결 목록에서 이 이름을 볼 수 있습니다.         
-**연결 형식**     |  VPN 프로필에서 사용할 연결 형식으로 다음 중 하나를 선택합니다. **Cisco AnyConnect**(Windows 8.1 또는 Windows Phone 8.1에 대해 사용할 수 없음), **Pulse Secure**, **Citrix**, **F5 Edge Client**, **Dell SonicWALL Mobile Connect**, **CheckPoint Mobile VPN**.
+**연결 형식**     |  VPN 프로필에서 사용할 연결 형식으로 다음 중 하나를 선택합니다. **Cisco AnyConnect**(Windows 8.1 또는 Windows Phone 8.1에 대해 사용할 수 없음), **Pulse Secure**, **Citrix**, **F5 Edge Client**, **SonicWall Mobile Connect**, **CheckPoint Mobile VPN**.
 **VPN 서버 설명**     | 장치가 연결될 VPN 서버에 대한 설명을 지정합니다. 예: **Contoso VPN 서버**. 연결 형식이 **F5 Edge Client**인 경우 **서버 목록** 필드를 사용하여 서버 설명 및 IP 주소 목록을 지정합니다.
 **서버 IP 주소 또는 FQDN**    |장치를 연결할 VPN 서버의 정규화된 도메인 이름 또는 IP 주소를 입력합니다. 예: **192.168.1.1**, **vpn.contoso.com**.  연결 형식이 **F5 Edge Client**인 경우 **서버 목록** 필드를 사용하여 서버 설명 및 IP 주소 목록을 지정합니다.         |         
 **서버 목록**     |**추가**를 선택하여 VPN 연결에 사용할 새 VPN 서버를 추가합니다. 또한 연결에 대한 기본 서버를 지정할 수도 있습니다. 연결 형식이 **F5 Edge Client**인 경우에만 이 옵션이 표시됩니다.         
@@ -118,7 +118,7 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 **클라이언트 인증을 위해 클라이언트 인증서 선택(ID 인증서)**|이전에 만든 클라이언트 SCEP 인증서를 선택합니다. VPN 연결을 인증하는 데 사용됩니다. Intune에서 인증서 프로필을 사용하는 방법에 대한 자세한 내용은 [인증서 프로필을 통해 리소스 액세스 보안](secure-resource-access-with-certificate-profiles.md)을 참조하세요. 인증 방법이 **인증서**인 경우에만 이 옵션이 표시됩니다.
 **역할**| 이 연결에 대한 액세스 권한이 있는 사용자 역할의 이름을 지정합니다. 사용자 역할은 개인 설정과 옵션을 정의하고, 특정 액세스 기능을 사용 또는 사용하지 않도록 설정합니다. 연결 형식이 **Pulse Secure** 또는 **Citrix**인 경우에만 이 옵션이 표시됩니다.
 **영역**|사용하려는 인증 영역의 이름을 지정합니다. 인증 영역은 Pulse Secure 또는 Citrix 연결 형식에서 사용하는 인증 리소스 그룹입니다. 연결 형식이 **Pulse Secure** 또는 **Citrix**인 경우에만 이 옵션이 표시됩니다.
-**로그인 그룹 또는 도메인**|연결하려는 로그인 그룹 또는 도메인의 이름을 지정합니다. 연결 형식이 **Dell SonicWALL Mobile Connect**인 경우에만 이 옵션이 표시됩니다.
+**로그인 그룹 또는 도메인**|연결하려는 로그인 그룹 또는 도메인의 이름을 지정합니다. 연결 형식이 **SonicWall Mobile Connect**인 경우에만 이 옵션이 표시됩니다.
 **지문**|신뢰할 수 있는 VPN 서버를 확인하는 데 사용할 문자열(예: 'Contoso 지문 코드')을 지정합니다. 연결 시 동일한 지문을 제시하는 서버가 신뢰할 수 있는지 알 수 있도록 클라이언트에 지문을 보낼 수 있습니다. 장치에 지문이 아직 없으면, 사용자에게 지문을 보여주면서 연결하려는 VPN 서버를 신뢰할 것인지 묻는 메시지가 표시됩니다. 사용자는 지문을 수동으로 확인한 후 연결할 **신뢰**를 선택합니다. 연결 형식이 **CheckPoint Mobile VPN**인 경우에만 이 옵션이 표시됩니다.
 **앱별 VPN**|앱이 실행될 때 연결이 열리도록 이 VPN 연결을 iOS 또는 Mac OS X 앱과 연결하려면 이 옵션을 선택합니다. 소프트웨어를 배포할 때 VPN 프로필을 앱과 연결할 수 있습니다. 자세한 내용은 [Microsoft Intune에서 앱 배포](deploy-apps-in-microsoft-intune.md) 항목을 참조하세요.
 **요청 시 VPN**|iOS 8.0 이상 장치에 대해 필요 시 VPN을 설정할 수 있습니다. 이를 설정하는 방법에 대한 지침은 [iOS 장치에 대한 필요 시 VPN](#on-demand-vpn-for-ios-devices)에 제공됩니다.
@@ -126,7 +126,7 @@ Intune에서 인증서 프로필을 만들고 사용하는 방법에 대한 자�
 **자동 구성 스크립트 사용**(iOS, Mac OS X, Windows 8.1 및 Windows Phone 8.1에만 해당)|VPN 서버에 연결을 위한 프록시 서버가 필요한 경우 설정을 정의하기 위해 자동 구성 스크립트를 사용할지 여부를 지정한 다음 설정이 포함된 파일에 대한 URL을 지정합니다. 자세한 내용은 Windows Server 설명서를 참조하세요.
 **프록시 서버 사용**(iOS, Mac OS X, Windows 8.1 및 Windows Phone 8.1에만 해당)|VPN 서버에 연결을 위한 프록시 서버가 필요한 경우 이 옵션을 선택한 다음 프록시 서버의 주소 및 포트 번호를 지정합니다. 자세한 내용은 Windows Server 설명서를 참조하세요.
 **로컬 주소에 대해 프록시 설정 사용 안 함**(iOS, Mac OS X, Windows 8.1 및 Windows Phone 8.1에만 해당)|VPN 서버에 연결을 위한 프록시 서버가 필요한 경우 지정하는 로컬 주소에 대해 프록시 서버를 사용하지 않으려면 이 옵션을 선택합니다. 자세한 내용은 Windows Server 설명서를 참조하세요.
-**사용자 지정 XML**(Windows 8.1 이상 및 Windows Phone 8.1 이상에만 해당)|VPN 연결을 구성하는 사용자 지정 XML 명령을 지정합니다. **Pulse Secure**의 예: &lt;pulse-schema&gt;&lt;isSingleSignOnCredential&gt;true&lt;/isSingleSignOnCredential&gt;&lt;/pulse-schema&gt;. **CheckPoint Mobile VPN**의 예: &lt;CheckPointVPN port="443" name="CheckPointSelfhost" sso="true"  debug="3" /&gt;. **Dell SonicWALL Mobile Connect**의 예: &lt;MobileConnect&gt;&lt;Compression&gt;false&lt;/Compression&gt;&lt;debugLogging&gt;True&lt;/debugLogging&gt;&lt;packetCapture&gt;False&lt;/packetCapture&gt;&lt;/MobileConnect&gt;. **F5 Edge Client**의 예: &lt;f5-vpn-conf&gt;&lt;single-sign-on-credential /&gt;&lt;/f5-vpn-conf&gt;. 사용자 지정 XML 명령을 작성하는 방법에 대한 자세한 내용은 각 제조업체의 VPN 설명서를 참조하세요.
+**사용자 지정 XML**(Windows 8.1 이상 및 Windows Phone 8.1 이상에만 해당)|VPN 연결을 구성하는 사용자 지정 XML 명령을 지정합니다. **Pulse Secure**의 예: &lt;pulse-schema&gt;&lt;isSingleSignOnCredential&gt;true&lt;/isSingleSignOnCredential&gt;&lt;/pulse-schema&gt;. **CheckPoint Mobile VPN**의 예: &lt;CheckPointVPN port="443" name="CheckPointSelfhost" sso="true"  debug="3" /&gt;. **SonicWall Mobile Connect**의 예: &lt;MobileConnect&gt;&lt;Compression&gt;false&lt;/Compression&gt;&lt;debugLogging&gt;True&lt;/debugLogging&gt;&lt;packetCapture&gt;False&lt;/packetCapture&gt;&lt;/MobileConnect&gt;. **F5 Edge Client**의 예: &lt;f5-vpn-conf&gt;&lt;single-sign-on-credential /&gt;&lt;/f5-vpn-conf&gt;. 사용자 지정 XML 명령을 작성하는 방법에 대한 자세한 내용은 각 제조업체의 VPN 설명서를 참조하세요.
 **DNS 접미사 검색 목록**(Windows Phone 8.1에만 해당)|각 줄에 하나의 DNS 접미사를 지정합니다. 지정하는 각 DNS 접미사는 짧은 이름을 사용하여 웹 사이트에 연결할 때 검색됩니다. 예를 들어 DNS 접미사 **domain1. contoso.com** 및 **domain2. contoso.com**을 지정하고 URL **http://mywebsite**를 방문하면 URL **http://mywebsite.domain1.contoso.com** 및 **http://mywebsite.domain2.contoso.com**이 검색됩니다.
 **회사 Wi-Fi 네트워크에 연결된 경우 VPN 사용 안 함**(Windows Phone 8.1에만 해당)|장치가 회사 Wi-Fi 네트워크에 연결된 경우 VPN 연결을 사용하지 않도록 지정하려면 이 옵션을 선택합니다.
 **가정용 Wi-Fi 네트워크에 연결된 경우 VPN 사용 안 함**(Windows Phone 8.1에만 해당)|장치가 가정용 Wi-Fi 네트워크에 연결된 경우 VPN 연결을 사용하지 않도록 지정하려면 이 옵션을 선택합니다.
@@ -138,11 +138,11 @@ Windows 10 Desktop 및 Mobile 장치에는 다음과 같은 추가 설정을 사
 **네트워크 트래픽 규칙**|VPN 연결을 위해 사용할 프로토콜, 로컬/원격 포트와 주소 범위를 선택합니다. 네트워크 트래픽 규칙을 만들지 않으면 모든 프로토콜, 포트 및 주소 범위를 사용할 수 있습니다. 규칙을 만들고 나면 해당 규칙에 지정하는 프로토콜, 포트 및 주소 범위만 VPN 연결에 사용됩니다.
 **경로**|VPN 연결을 사용할 경로를 선택합니다.
 **DNS 서버**| 연결이 설정된 후 VPN 연결에 사용할 DNS 서버를 선택합니다.         
-**연결된 앱**|자동으로 VPN 연결을 사용하는 앱 목록을 제공합니다. 앱 유형에 따라 앱 식별자가 결정됩니다. 유니버설 앱의 경우 패키지 패밀리 이름을 제공합니다. 데스크톱 앱의 경우에는 앱의 파일 경로를 제공합니다.          
+**연결된 앱**|자동으로 VPN 연결을 사용하는 앱 목록을 제공합니다. 앱의 유형에 따라 앱 식별자가 결정됩니다. 유니버설 앱의 경우 패키지 패밀리 이름을 제공합니다. 데스크톱 앱의 경우에는 앱의 파일 경로를 제공합니다.          
 
 
 > [!IMPORTANT]
-> 앱별 VPN의 구성에서 사용하기 위해 컴파일하는 앱의 모든 목록을 보호하는 것이 좋습니다. 권한이 없는 사용자가 목록을 수정한 경우 해당 목록을 앱별 VPN 앱 목록으로 가져오는 경우 액세스 권한이 부여되면 안 되는 앱에 VPN 액세스 권한을 잠재적으로 부여하게 됩니다. 앱 목록을 보호하는 한 가지 방법은 ACL(액세스 제어 목록)을 사용하는 것입니다.
+> 앱별 VPN의 구성에서 사용하기 위해 컴파일하는 앱의 모든 목록을 보호하는 것이 좋습니다. 권한이 없는 사용자가 목록을 수정한 경우 해당 목록을 앱별 VPN 앱 목록으로 가져오는 경우 액세스 권한이 부여되면 안 되는 앱에 VPN 액세스 권한을 잠재적으로 부여하게 됩니다. 앱 목록을 보호할 수 있는 한 가지 방법은 ACL(액세스 제어 목록)을 사용하는 것입니다.
 
 회사 경계 설정을 사용할 수 있는 경우의 예로, 원격 데스크톱에 대해서만 VPN을 사용하려는 경우를 들 수 있습니다. 이렇게 하려면 외부 포트 3996에서 프로토콜 27에 대한 트래픽을 허용하는 네트워크 트래픽 규칙을 만듭니다. 그러면 다른 트래픽은 VPN을 사용하지 않습니다.
 

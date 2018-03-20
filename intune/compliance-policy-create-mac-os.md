@@ -1,12 +1,12 @@
 ---
-title: "macOS에 대한 준수 정책을 만드는 방법"
-titleSuffix: Azure portal
-description: "macOS 장치에 대한 준수 정책을 만드는 방법을 알아봅니다."
+title: "Microsoft Intune에서 macOS 장치 준수 정책 만들기"
+titleSuffix: 
+description: "장치가 준수하려면 충족해야 하는 요구 사항을 지정할 수 있도록 macOS 장치에 대 한 Microsoft Intune 장치 준수 정책을 만듭니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: msmimart
+ms.author: mimart
 manager: dougeby
-ms.date: 2/13/2018
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,16 +14,18 @@ ms.technology:
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a5f1caeddbd3d171092ef59cfb092404b31154f2
-ms.sourcegitcommit: 754fcc31155b28d6910bba45419c6be745f8793e
+ms.openlocfilehash: e7703b8ea26d6ce53b82e806a78c788d14ae05b4
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="create-a-device-compliance-policy-for-macos-devices-with-intune"></a>Intune에서 macOS 장치에 대한 장치 준수 정책 만들기
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+MacOS에 대한 Intune 장치 준수 정책은 macOS 장치가 준수하는 것으로 간주되려면 충족해야 하는 규칙과 설정을 지정합니다. 이러한 정책을 회사 리소스에 액세스를 허용하거나 차단할 조건부 액세스와 함께 사용할 수 있으며 장치 보고서를 가져오고 비준수에 대한 조치를 할 수 있습니다. Intune Azure Portal에서 각 플랫폼에 대해 장치 준수 정책을 만듭니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -108,7 +110,7 @@ Intune에서 새 장치 준수를 만들 때 다양한 범주의 다양한 설�
 
 2. 정상적으로 로그인되면 **Azure 대시보드**가 표시됩니다.
 
-3. 왼쪽 메뉴에서 **More services**(추가 서비스)를 선택한 다음 텍스트 상자 필터에 **Intune**을 입력합니다.
+3. 왼쪽 메뉴에서 **모든 서비스**를 선택한 다음, 텍스트 상자 필터에 **Intune**을 입력합니다.
 
 4. **Intune**을 선택하면 **Intune 대시보드**가 표시됩니다.
 
@@ -118,7 +120,7 @@ Intune에서 새 장치 준수를 만들 때 다양한 범주의 다양한 설�
 
 7. 이름 및 설명을 입력하고 이 정책을 적용할 플랫폼을 선택합니다.
 
-8. **macOS 준수 정책** 블레이드가 열기면 준수 설정 범주 **보안**, **장치 상태** 및 **장치 속성**을 선택하여 설정을 지정합니다.
+8. **Mac 준수 정책** 창이 열리면 장치 준수 설정 범주 **시스템 보안**, **장치 상태** 및 **장치 속성**을 선택하여 설정을 지정합니다.
 
 10. 설정 선택을 마치면 각 장치 준수 설정 범주 아래에서 **확인**을 선택합니다.
 
@@ -126,15 +128,15 @@ Intune에서 새 장치 준수를 만들 때 다양한 범주의 다양한 설�
 
 ## <a name="assign-user-groups"></a>사용자 그룹 할당
 
-준수 정책을 사용자에게 할당하려면 구성한 정책을 선택합니다. 기존 정책은 **준수 – 정책** 블레이드에서 찾을 수 있습니다.
+준수 정책을 사용자에게 할당하려면 구성한 정책을 선택합니다. 기존 정책은 **장치 준수 정책** 창에서 확인할 수 있습니다.
 
-1. 사용자에게 할당할 장치 준수 정책을 선택하고 **할당**을 선택합니다. **Azure Active Directory 보안 그룹**을 선택하고 정책에 할당할 수 있는 블레이드가 열립니다.
+1. 사용자에게 할당할 장치 준수 정책을 선택하고 **할당**을 선택합니다. 이렇게 하면 **Azure Active Directory 보안 그룹**을 선택하고 이를 정책에 할당할 수 있는 창이 열립니다.
 
-2. **그룹 선택**을 선택하여 Azure AD 보안 그룹을 표시하는 블레이드를 엽니다.
+2. **그룹 선택**을 선택하여 Azure AD 보안 그룹을 표시하는 창을 엽니다.
 
-3. **선택**, **저장**을 차례로 선택하여 Azure AD 보안 그룹에 장치 준수 정책을 할당합니다.
+3. **저장**을 선택하여 Azure AD 보안 그룹에 장치 준수 정책을 할당합니다.
 
-4. 그룹에 대한 장치 준수 정책 할당을 마치면 **할당** 블레이드를 닫을 수 있습니다.
+4. 그룹에 대한 장치 준수 정책 할당을 마치면 **할당** 창을 닫을 수 있습니다.
 
     > [!TIP]
     > 기본적으로 장치에서 8시간마다 준수 여부를 확인하지만, 사용자가 Intune 회사 포털 앱을 통해 이 프로세스를 적용할 수 있습니다.

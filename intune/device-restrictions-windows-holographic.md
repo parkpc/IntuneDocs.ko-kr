@@ -1,25 +1,25 @@
 ---
-title: "Windows Holographic for Business에 대한 Intune 장치 제한 설정"
+title: "Windows Holographic for Business에 대한 Microsoft Intune 장치 제한 설정"
 titlesuffix: Azure portal
-description: "Windows Holographic for Business 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+description: "Windows Holographic for Business를 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: angrobe
-ms.date: 1/19/2018
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 300ddb15f2d7b8f2fc6ab4a0e9e32852e0604e0a
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: 10bb5a2eac9e72ba5b09a9a6f02932e872328c75
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="windows-holographic-for-business-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows Holographic for Business 장치 제한 설정
+# <a name="microsoft-intune-windows-holographic-for-business-device-restriction-settings"></a>Microsoft Intune Windows Holographic for Business 장치 제한 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -41,19 +41,18 @@ ms.lasthandoff: 02/01/2018
 
 ## <a name="app-store"></a>앱 스토어
 
--   **앱 스토어** - 장치에서 앱 스토어의 사용을 허용하거나 차단 합니다.
 -   **스토어에서 앱 자동 업데이트** - Microsoft 스토어에서 설치된 앱이 자동으로 업데이트되게 합니다.
 -   **신뢰할 수 있는 앱 설치** - 신뢰할 수 있는 인증서로 서명된 앱을 테스트용으로 로드할 수 있습니다.
 -   **개발자의 잠금 해제** - Windows 개발자 설정을 허용합니다(예: 테스트용으로 로드된 앱을 최종 사용자가 수정하도록 허용).
 
-## <a name="edge-browser"></a>Edge 브라우저
+## <a name="edge-browser"></a>Microsoft Edge 브라우저
 
 -   **Microsoft Edge 브라우저** - 장치에서 Edge 웹 브라우저 사용을 허용합니다.
 -   **쿠키** - 브라우저에서 장치에 인터넷 쿠키를 저장할 수 있도록 합니다.
 -   **팝업** - 브라우저에서 팝업 창을 차단합니다(Windows 10 Desktop에만 적용).
 -   **검색 제안** - 검색 구문을 입력하면 검색 엔진에서 사이트를 제안할 수 있습니다.
 -   **암호 관리자** - Edge 암호 관리자 기능을 사용하거나 사용하지 않습니다.
-- **추적 방지 헤더 보내기** - 사용자가 방문하는 웹 사이트에 Do Not Track 헤더를 보내도록 Edge 브라우저를 구성합니다
+- **추적 방지 헤더 보내기** - 사용자가 방문하는 웹 사이트에 Do Not Track 헤더를 보내도록 Microsoft Edge 브라우저를 구성합니다
 
 ## <a name="windows-defender-smart-screen"></a>Windows Defender Smart Screen
 

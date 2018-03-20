@@ -1,12 +1,12 @@
 ---
-title: "온-프레미스 Exchange 및 Exchange Online에 대한 조건부 액세스 준수 모니터링"
-titlesuffix: Azure portal
-description: "Intune Azure Portal을 사용하여 온-프레미스 Exchange 및 Exchange Online에 대한 조건부 액세스 준수 모니터링"
+title: "Microsoft Intune에서 Exchange 조건부 액세스 모니터링"
+titlesuffix: 
+description: "Intune Azure Portal을 사용하여 온-프레미스 Exchange 및 Exchange Online에 대한 조건부 액세스 준수를 모니터링합니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: msmimart
+ms.author: mimart
 manager: dougeby
-ms.date: 04/24/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 5712682d-285b-43fd-9978-3dcfd95ec5f9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2025bbb008be090420ebb3778fc37a0b1790608b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 932dfe32c6df5741615d9db9f303aaee7785d3a3
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="monitor-conditional-access-compliance-for-on-premises-exchange-and-exchange-online-in-intune"></a>Intune에서 온-프레미스 Exchange 및 Exchange Online에 대한 조건부 액세스 준수 모니터링
 
@@ -36,23 +36,23 @@ Intune 1704 릴리스부터는 관리자가 온-프레미스 Exchange Connector 
 
 2.  정상적으로 로그인되면 **Azure 대시보드**가 표시됩니다.
 
-3.  왼쪽 메뉴에서 **More services**(추가 서비스)를 선택한 다음 텍스트 상자 필터에 **Intune**을 입력합니다.
+3.  왼쪽 메뉴에서 **모든 서비스**를 선택한 다음, 텍스트 상자 필터에 **Intune**을 입력합니다.
 
 4.  **Intune**을 선택하면 **Intune 대시보드**가 표시됩니다.
 
 5.  **조건부 액세스**와 **개요**를 차례로 선택합니다.
 
-6.  차트에서 **차단됨**, **격리** 또는 **허용됨**의 세 영역 중 하나를 선택하면 조건부 액세스 준수 보고 내용을 확인할 수 있습니다.
+6.  차트에서 **허용**, **차단** 또는 **격리**의 세 영역 중 하나를 선택하면 조건부 액세스 준수 보고 내용을 확인할 수 있습니다.
 
-    ![조건부 액세스 대시보드](./media/CA-reporting-intune-1.png)
+    ![조건부 액세스 대시보드의 이미지](./media/CA-reporting-intune-1.png)
 
 세 영역 중 하나를 선택하면 허용, 차단 또는 격리 중인 장치에 대한 추가 세부 정보를 확인할 수 있습니다.
 
-특정 장치로 드릴다운하여 더 자세한 정보를 확인할 수도 있습니다. 예를 들어 아래 이미지에서 선택된 장치는 차단된 상태입니다. Intune에서는 조건부 액세스 준수 보고서 블레이드에서 회사 데이터를 제거할 수 있는 옵션을 제공합니다.
+특정 장치로 드릴다운하여 더 자세한 정보를 확인할 수도 있습니다. 예를 들어 다음의 이미지에서 선택된 장치는 차단된 상태입니다. Intune에서는 조건부 액세스 준수 보고서 창에서 회사 데이터를 제거할 수 있는 옵션을 제공합니다.
 
-![조건부 액세스 장치 세부 보고](./media/CA-reporting-intune-3.png)
+![조건부 액세스 장치 세부 보고 이미지](./media/CA-reporting-intune-3.png)
 
-장치 세부 정보 블레이드에서 다음과 같은 추가 정보를 확인할 수 있습니다.
+장치 세부 정보 창에서 다음과 같은 추가 정보를 확인할 수 있습니다.
 
 -   **개요:** OS 버전, 장치 모델, 소유권, 일련 번호, 장치 제조업체, 전화번호, 마지막 장치 체크 인 시간 등의 장치 속성을 확인할 수 있습니다.
 

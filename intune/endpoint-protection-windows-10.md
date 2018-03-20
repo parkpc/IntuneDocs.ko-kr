@@ -1,12 +1,12 @@
 ---
-title: "Windows 10용 Intune Endpoint Protection 설정"
-titlesuffix: Azure portal
-description: "Windows 10 장치의 BitLocker와 같은 Endpoint Protection 설정을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+title: "Windows 10용 Microsoft Intune Endpoint Protection 설정"
+titlesuffix: 
+description: "Windows 10 장치의 BitLocker와 같은 Endpoint Protection 설정을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: msmimart
+ms.author: mimart
 manager: dougeby
-ms.date: 01/16/2018
+ms.date: 02/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,34 +15,34 @@ ms.assetid: 3af7c91b-8292-4c7e-8d25-8834fcf3517a
 ms.reviewer: ilwu
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 35c33fb189187a678efa04d10706fe752d683e17
-ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
+ms.openlocfilehash: 02a32f678b40b2b40535984e17b41e0a864d8fdf
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="endpoint-protection-settings-for-windows-10-and-later-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 이상용 Endpoint Protection 설정
+# <a name="create-endpoint-protection-settings-for-windows-10-and-later-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 이상용 Endpoint Protection 설정 만들기
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Endpoint Protection 프로필을 사용하면 BitLocker 및 Windows Defender와 같은 Windows 10 장치의 보안 기능을 제어할 수 있습니다.
 
-이 항목의 정보를 사용하여 Endpoint Protection 프로필을 만드는 방법을 알아봅니다.
+이 아티클의 정보를 사용하여 Endpoint Protection 프로필을 만드는 방법을 알아봅니다.
 
 > [!Note]
 > Windows 10 Home 및 Professional 버전에서는 이러한 설정이 지원되지 않습니다.
 
 ## <a name="create-an-endpoint-protection-profile"></a>Endpoint Protection 프로필 만들기
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 블레이드에서 **장치 구성**을 선택합니다.
-2. **장치 구성** 블레이드에서 **관리** > **프로필**을 선택합니다.
+2. **관리** 섹션 아래의 **장치 구성** 블레이드에서 **프로필**을 선택합니다.
 3. 프로필 블레이드에서 **프로필 만들기**를 선택합니다.
 4. **프로필 만들기** 블레이드에서 장치 기능 프로필에 대한 **이름** 및 **설명**을 입력합니다.
 5. **플랫폼** 드롭다운 목록에서 **Windows 10 이상**을 선택합니다.
 6. **프로필 유형** 드롭다운 목록에서 **Endpoint Protection**을 선택합니다.
-7. 원하는 설정을 구성합니다. 이 항목의 세부 정보를 사용하여 각 설정의 기능을 파악합니다. 작업이 끝나면 **확인**을 선택합니다.
+7. 원하는 설정을 구성합니다. 이 아티클의 세부 정보를 사용하여 각 설정의 기능을 파악합니다. 작업이 끝나면 **확인**을 선택합니다.
 8. **프로필 만들기** 블레이드로 돌아가서 **만들기**를 선택합니다.
 
 프로필이 만들어지고 프로필 목록 블레이드에 표시됩니다.
@@ -57,6 +57,7 @@ Application Guard는 Windows 10(64비트) 장치에서만 사용할 수 있습�
 - **가상 브라우저에서 인쇄** - PDF, XPS, 로컬 및/또는 네트워크 프린터에서 가상 브라우저의 내용을 인쇄할 수 있습니다.
 - **로그 수집** - Application Guard 검색 세션에서 발생하는 이벤트에 대한 로그를 수집합니다.
 - **사용자가 생성한 브라우저 데이터 보존** - Application Guard 가상 검색 세션 중에 만들어진 사용자 데이터(예: 암호, 즐겨찾기 및 쿠키)를 저장할 수 있습니다.
+- **그래픽 가속** - 가상 그래픽 처리 장치에 대한 액세스를 사용하여 Application Guard 가상 검색 세션 내에서 작업할 때 그래픽 집약적 웹 사이트를 더 빠르게 로드...
 
 
 ## <a name="windows-defender-firewall"></a>Windows Defender 방화벽
