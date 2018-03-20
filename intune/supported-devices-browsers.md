@@ -1,5 +1,6 @@
 ---
-title: "지원되는 장치 - Microsoft Intune"
+title: "Microsoft Intune에서 지원하는 운영 체제 및 브라우저"
+titleSuffix: 
 description: "Intune 장치 관리용으로 지원되는 장치 플랫폼 및 브라우저를 나열합니다."
 keywords: 
 author: ErikjeMS
@@ -14,24 +15,19 @@ ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 11c4336979ee9089b218ea79ac826176d99492d9
-ms.sourcegitcommit: 754fcc31155b28d6910bba45419c6be745f8793e
+ms.openlocfilehash: 1e58201620612118f0984a1c477b3fa3bc7e923a
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="supported-operating-systems-and-browsers"></a>지원되는 운영 체제 및 브라우저
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
-이 문서는 기업에서 장치 관리를 담당하는 시스템 관리자용으로 작성되었습니다. 장치에서 Intune을 설치하는 방법에 대한 도움말은 [관리되는 장치를 사용하여 작업 완료](/intune-user-help/company-portal-frequently-asked-questions)를 참조하세요.
+Microsoft Intune을 설정하기 전에 지원되는 운영 체제 및 브라우저를 검토합니다.
 
-Microsoft Intune의 설정을 시작하기 전에 다음 요구 사항을 검토합니다.
-
-- [지원되는 운영 체제](#intune-supported-operating-systems)
-- [Intune을 사용하도록 지원되는 웹 브라우저 목록](#intune-supported-web-browsers)
-
-또한 [Intune 네트워크 대역폭 사용량](network-bandwidth-use.md)([클래식 포털](/intune-classic/get-started/network-bandwidth-use))을 잘 이해해야 합니다.
+장치에서 Intune을 설치하는 방법에 대한 도움말은 [관리되는 장치를 사용하여 작업 완료](/intune-user-help/company-portal-frequently-asked-questions)를 참조하세요. 또한 [Intune 네트워크 대역폭 사용량](network-bandwidth-use.md)([클래식 포털](/intune-classic/get-started/network-bandwidth-use))을 잘 이해해야 합니다.
 
 ## <a name="intune-supported-operating-systems"></a>Intune에서 지원하는 운영 체제
 

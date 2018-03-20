@@ -1,29 +1,30 @@
 ---
-title: "Windows Phone 8.1에 대한 Intune 장치 제한 설정"
-titleSuffix: Azure portal
-description: "Windows Phone 8.1 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+title: "Windows Phone 8.1에 대한 Microsoft Intune 장치 제한 설정"
+titleSuffix: 
+description: "Windows Phone 8.1을 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 08/01/2017
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: c2d42714-49ca-43b3-b080-2e67a4268198
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 98734b51cf72a097c6b4a9e425e80457b0b39afa
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 808c8e9ac1ef944b69ae8e548c62d4c6366820d0
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="windows-phone-81-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune에서 Windows Phone 8.1 장치 제한 설정
+# <a name="microsoft-intune-windows-phone-81-device-restriction-settings"></a>Microsoft Intune Windows Phone 8.1 장치 제한 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+이 아티클에서는 Windows Phone 8.1을 실행하는 장치에 대해 구성할 수 있는 Microsoft Intune 장치 제한 설정을 보여줍니다.
+
 
 ## <a name="general"></a>일반
 
@@ -75,7 +76,7 @@ ms.lasthandoff: 01/25/2018
 
 ### <a name="additional-options"></a>추가 옵션
 
-**가져오기**를 클릭하여 <*앱 URL*>, <*앱 이름*>, <*앱 게시자*> 형식으로 csv 파일에서 목록을 채우거나 **내보내기**를 클릭하여 같은 형식으로 제한된 앱 목록 내용이 포함된 csv 파일을 만들 수도 있습니다.
+**가져오기**를 클릭하여 <*앱 URL*>, <*앱 이름*> 및 <app publisher> 형식으로 csv 파일에서 목록을 채우거나 **내보내기**를 클릭하여 같은 형식으로 제한된 앱 목록 내용이 포함된 csv 파일을 만들 수도 있습니다.
 
 
 ## <a name="browser"></a>브라우저

@@ -1,29 +1,30 @@
 ---
-title: "Windows 8.1에 대한 Intune 장치 제한 설정"
-titleSuffix: Azure portal
-description: "Windows 8.1 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+title: "Windows 8.1을 실행하는 장치에 대한 Microsoft Intune 장치 제한 설정"
+titleSuffix: 
+description: "Windows 8.1을 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 08/01/2017
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: fe5785e9-8d35-4ad7-95e8-d50f8d87154a
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3c96340255e9b71694278b5a396d907a6212541d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 8cfaad3c35a0035546e5ebb7a55b9978da8025d8
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="windows-81-and-later-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune에서 Windows 8.1 이상 장치 제한 설정
+# <a name="microsoft-intune-windows-81-and-later-device-restriction-settings"></a>Microsoft Intune Windows 8.1 이상 장치 제한 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+이 아티클에서는 Windows 8.1 이상을 실행하는 장치에 대해 구성할 수 있는 Microsoft Intune 장치 제한 설정을 보여줍니다.
+
 
 ## <a name="general"></a>일반
 
@@ -62,7 +63,7 @@ Windows 8.1 장치에 대해 이 설정을 사용하려면 장치의 모든 사�
 -   **제한된 사이트에 대한 높은 수준의 보안** - 제한된 사이트 영역에 대한 보안 수준을 구성합니다.
 -   **엔터프라이즈 모드 메뉴 액세스** - 사용자가 Internet Explorer에서 엔터프라이즈 모드 메뉴에 액세스하도록 허용합니다.
 이 설정을 선택하면 사용자가 엔터프라이즈 모드 액세스를 켜 놓은 웹 사이트를 보여주는 보고서에 대한 URL을 포함하는 **로깅 보고서 위치**를 지정할 수 있습니다.
--   **엔터프라이즈 모드 사이트 목록 위치** – 엔터프라이즈 모드가 활성화된 경우 이 모드를 사용할 웹 사이트 목록의 위치를 지정합니다.
+-   **엔터프라이즈 모드 사이트 목록 위치** – 엔터프라이즈 모드가 활성화된 경우 이 모드를 사용하는 웹 사이트 목록의 위치를 지정합니다.
 
 ## <a name="cellular"></a>셀룰러
 -   **데이터 로밍** - 장치가 셀룰러 네트워크에 있을 때 데이터 로밍을 사용하도록 설정합니다.

@@ -1,7 +1,7 @@
 ---
-title: "Intune을 사용한 Skycure 커넥터 통합"
-titlesuffix: Azure portal
-description: "Intune을 사용하여 Skycure 커넥터를 통합합니다."
+title: "Microsoft Intune을 사용한 Skycure 커넥터"
+titlesuffix: 
+description: "회사 리소스에 대한 모바일 장치 액세스를 제어하기 위해 Skycure MTD(모바일 위협 방어)를 사용하여 Intune을 통합하는 방법을 알아봅니다."
 keywords: 
 author: msmimart
 ms.author: mimart
@@ -15,11 +15,11 @@ ms.assetid: df4ce3f6-a093-432c-ab86-7a83865e389e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 333322022882566b55e869e5d6a1a1e2b203b830
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: b3148a24b077dfd491ce06fcf708a81de7d12dc1
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="skycure-mobile-threat-defense-connector"></a>Skycure Mobile Threat Defense
 
@@ -69,7 +69,7 @@ Intune은 Skycure와의 통합을 두 가지 모드로 지원합니다.
 
 **수정 시 액세스 권한 부여됨:**
 
-![감지된 악성 앱에 액세스 권한 부여됨](./media/skycure-arch-2.png)
+![악성 앱에 검색된 후 수정 시 액세스 권한 부여됨](./media/skycure-arch-2.png)
 
 ### <a name="control-access-based-on-threat-to-network"></a>네트워크에 대한 위협에 따라 액세스 제어
 

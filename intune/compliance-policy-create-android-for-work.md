@@ -1,12 +1,12 @@
 ---
-title: "Android for Work에 대한 준수 정책 만들기"
-titleSuffix: Azure portal
-description: "Android for Work 장치에 대한 준수 정책을 만드는 방법을 알아봅니다.\""
+title: "Android for Work 준수 정책 만들기"
+titleSuffix: Microsoft Intune
+description: "장치가 준수하려면 충족해야 하는 요구 사항을 지정할 수 있도록 Android for Work 장치에 대한 Intune 장치 준수 정책을 만듭니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: msmimart
+ms.author: mimart
 manager: dougeby
-ms.date: 12/07/2016
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,18 @@ ms.assetid: 9da89713-6306-4468-b211-57cfb4b51cc6
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b5ff76137da7b42fddc5c1238ef9e102adfa1307
-ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
+ms.openlocfilehash: 8ca31d4c83ccc6b786933080b96f66953cf1a108
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-android-for-work-devices-in-intune"></a>Intune에서 Android for Work 장치에 대한 장치 준수 정책을 만드는 방법
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-준수 정책은 각 플랫폼에 대해 생성됩니다.  Azure Portal에서 준수 정책을 만들 수 있습니다. 준수 정책에 대한 자세한 내용을 알아보려면 [장치 준수란?](device-compliance.md)을 참조하세요. 준수 정책을 만들기 전에 해결해야 하는 전제 조건을 자세히 알아보려면 [장치 준수 시작](device-compliance-get-started.md)을 참조하세요.
+Android for Work에 대한 Intune 장치 준수 정책은 Android for Work 장치가 준수하는 것으로 간주되려면 충족해야 하는 규칙과 설정을 지정합니다. 이러한 정책을 회사 리소스에 액세스를 허용하거나 차단할 조건부 액세스와 함께 사용할 수 있으며 장치 보고서를 가져오고 비준수에 대한 조치를 할 수 있습니다. Intune Azure Portal에서 각 플랫폼에 대해 장치 준수 정책을 만듭니다. 준수 정책을 만들기 전에 해결해야 하는 전제 조건 및 준수 정책을 자세히 알아보려면 [장치 준수 시작](device-compliance-get-started.md)을 참조하세요.
 
 다음 표에서는 준수 정책을 조건부 액세스 정책과 함께 사용할 경우 비준수 설정을 관리하는 방법을 설명합니다.
 
@@ -51,12 +51,14 @@ ms.lasthandoff: 02/09/2018
 
 ## <a name="create-a-compliance-policy-in-the-azure-portal"></a>Azure Portal에서 준수 정책 만들기
 
-1. **Intune** 블레이드에서 **장치 준수 설정**을 선택합니다. **관리** 아래에서 **모든 장치 준수 정책**을 선택한 다음 **만들기**를 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+1. **Intune** 창에서 **장치 준수**를 선택합니다. **관리**에서 **정책**을 선택하고 **정책 만들기**를 선택합니다.
 2. 이름 및 설명을 입력하고 이 정책을 적용할 플랫폼을 선택합니다.
-3. **준수 요구 사항**을 선택하여 **보안**, **장치 상태** 및 **장치 속성** 설정을 지정합니다. 작업이 끝나면 **확인**을 클릭합니다.
+3. **설정 구성**을 선택하여 여기에서 **시스템 보안**, **장치 상태** 및 **장치 속성** 설정을 지정합니다. 작업이 끝나면 **확인**을 선택합니다.
 
 <!--- 4. Choose **Actions for noncompliance** to say what actions should happen when a device is determined as noncompliant with this policy.
-5. In the **Actions for noncompliance** blade, choose **Add** to create a new action.  The action parameters blade allows you to specify the action, email recipients that should receive the notification in addition to the user of the device, and the content of the notification that you want to send.
+5. In the **Actions for noncompliance** pane, choose **Add** to create a new action.  The action parameters pane allows you to specify the action, email recipients that should receive the notification in addition to the user of the device, and the content of the notification that you want to send.
 6. The message template option allows you to create several custom emails depending on when the action is set to take. For example, you can create a message for notifications that are sent for the first time and a different message for final warning before access is blocked. The custom messages that you create can be used for all your device compliance policy.
 7. Specify the **Grace period** which determines when that action to take place.  For example, you may want to send a notification as soon as the device is evaluated as noncompliant, but allow some time before enforcing the conditional access policy to block access to company resources like SharePoint online.
 8. Choose **Add** to finish creating the action.
@@ -64,10 +66,10 @@ ms.lasthandoff: 02/09/2018
 
 ## <a name="assign-user-groups"></a>사용자 그룹 할당
 
-준수 정책을 사용자에게 할당하려면 구성한 정책을 선택합니다. 기존 정책은 **준수 – 정책** 블레이드에서 찾을 수 있습니다.
+준수 정책을 사용자에게 할당하려면 구성한 정책을 선택합니다. 기존 정책은 **장치 준수 정책** 창에서 확인할 수 있습니다.
 
-1. 사용자에게 할당할 정책을 선택한 다음 **할당**을 선택합니다. **Azure Active Directory 보안 그룹**을 선택하고 정책에 할당할 수 있는 블레이드가 열립니다.
-2. **그룹 선택**을 선택하여 Azure AD 보안 그룹을 표시하는 블레이드를 엽니다.  **선택**을 선택하면 정책이 사용자에게 배포됩니다.
+1. 사용자에게 할당할 정책을 선택한 다음 **할당**을 선택합니다. 이렇게 하면 **Azure Active Directory 보안 그룹**을 선택하고 이를 정책에 할당할 수 있는 창이 열립니다.
+2. **그룹 선택**을 선택하여 Azure AD 보안 그룹을 표시하는 창을 엽니다.  **저장**을 선택하면 정책이 사용자에게 배포됩니다.
 
 사용자에게 정책을 적용했습니다.  정책의 대상 사용자가 사용하는 장치에 대해 준수 여부가 평가됩니다.
 

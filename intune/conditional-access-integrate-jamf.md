@@ -1,10 +1,10 @@
 ---
-title: "준수를 위해 Intune과 Jamf Pro 통합"
-titlesuffix: Azure portal
-description: "준수를 사용하여 Jamf에서 관리되는 장치를 보호할 수 있습니다."
+title: "준수를 위해 Microsoft Intune과 Jamf Pro 통합"
+titlesuffix: 
+description: "보안 Jamf 관리 장치를 도우려면 Azure Active Directory의 조건부 액세스와 함께 Microsoft Intune 준수 정책을 사용합니다."
 keywords: 
-author: barlanmsft
-ms.author: barlan
+author: msmimart
+ms.author: mimart
 manager: dougeby
 ms.date: 01/04/2018
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 4b6dcbcc-4661-4463-9a36-698d673502c6
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 82b26d351949e6705a0438bee8cc712a9e624990
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: f4b040c6aa7001e8ebdd7c05571276428c7ef9bd
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="integrate-jamf-pro-with-intune-for-compliance"></a>준수를 위해 Intune과 Jamf Pro 통합
 

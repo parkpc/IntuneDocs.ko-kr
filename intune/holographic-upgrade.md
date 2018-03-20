@@ -1,28 +1,28 @@
 ---
 title: "Windows Holographic에서 Windows Holographic for Business로 업그레이드"
-titleSuffix: Azure portal
+titleSuffix: Microsoft Intune
 description: "Windows Holographic을 실행하는 장치를 Windows Holographic for Business로 업그레이드하는 방법을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 1/30/2018
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c467d2d4e02785bfac48afe2b39c50300eb4be40
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: e7c750b372c297637abcdb9e941dae17714d081b
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="upgrade-devices-running-windows-holographic-to-windows-holographic-for-business"></a>Windows Holographic을 실행하는 장치를 Windows Holographic for Business로 업그레이드
 
 
-Microsoft Intune으로 Windows Holographic를 실행하는 장치를 관리하려면 버전 업그레이드 프로필을 만들어 Windows Holographic에서 Windows Holographic for Business로 장치를 업그레이드해야 합니다. Microsoft HoloLens의 경우 Commercial Suite를 구입하여 업그레이드에 필요한 라이선스를 얻을 수 있습니다. 자세한 내용은 [Windows Holographic for Business 기능 잠금 해제](https://docs.microsoft.com/en-us/hololens/hololens-upgrade-enterprise)를 참조하세요.
+Microsoft Intune으로 Windows Holographic를 실행하는 장치를 관리하려면 Windows Holographic에서 Windows Holographic for Business로 장치를 업그레이드해야 합니다. 업그레이드 작업을 수행하여 버전 업그레이드 프로필을 만들 수 있습니다. Microsoft HoloLens의 경우 Commercial Suite를 구입하여 업그레이드에 필요한 라이선스를 얻을 수 있습니다. 자세한 내용은 [Windows Holographic for Business 기능 잠금 해제](https://docs.microsoft.com/en-us/hololens/hololens-upgrade-enterprise)를 참조하세요.
 
 ## <a name="to-set-up-an-edition-upgrade-device-configuration-profile"></a>버전 업그레이드 장치 구성 프로파일을 설정하려면
 
@@ -33,9 +33,9 @@ Microsoft Intune으로 Windows Holographic를 실행하는 장치를 관리하�
 
     ![프로필 만들기](media/Holographic-create-profile.png)
 
-3.  **프로필 만들기** 블레이드에서 프로필의 이름을 입력하고 플랫폼에 대해 **Windows 10 이상**을 선택하고 프로필 유형에 대해 **버전 업그레이드**를 선택합니다. **설정 구성**을 클릭합니다.
+3.  **프로필 만들기** 창에서 프로필의 이름을 입력하고 플랫폼에 대해 **Windows 10 이상**을 선택하고 프로필 유형에 대해 **버전 업그레이드**를 선택합니다. **설정 구성**을 클릭합니다.
 
-5. **버전 업그레이드** 블레이드, **업그레이드할 버전**에서 **Windows 10 Holographic for Business**을 선택합니다. **라이선스 파일**에서, 제공된 XML 라이선스 파일을 찾아 선택합니다.
+5. **버전 업그레이드** 창의 **업그레이드할 버전**에서 **Windows 10 Holographic for Business**을 선택합니다. **라이선스 파일**에서, 제공된 XML 라이선스 파일을 찾아 선택합니다.
 
     ![XML 파일 이름 입력](media/Holographic-edition-upgrade.png)
  
@@ -48,7 +48,7 @@ Microsoft Intune으로 Windows Holographic를 실행하는 장치를 관리하�
 
 1. 이전 단계에서 만든 프로필에서 **할당**을 클릭합니다.
 
-2. **할당** 블레이드에서, 정책으로 포함 및 제외하려는 사용자 그룹 및 장치를 선택합니다.
+2. **할당** 페이지에서, 정책으로 포함 및 제외하려는 사용자 그룹 및 장치를 선택합니다.
 
 ![그룹 포함 및 제외](media/Holographic-groups.PNG)
 

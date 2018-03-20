@@ -1,54 +1,54 @@
 ---
-title: "Windows 8.1 장치에 대한 Intune VPN 설정"
-titleSuffix: Azure portal
-description: "Windows 8.1 장치에서 VPN 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
+title: "Windows 8.1 장치에 대한 Microsoft Intune VPN 설정"
+titleSuffix: 
+description: "Windows 8.1을 실행하는 장치에서 VPN 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 12/15/2017
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
-ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0126c483ec905d4c073e19b35498c27069ecd285
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 8ced3e03fa337034076af75c7984a30cd75105bb
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/12/2018
 ---
-# <a name="vpn-settings-for-windows-81-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows 8.1 장치에 대한 VPN 설정
+# <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-windows-81"></a>Windows 8.1을 실행하는 장치용 Microsoft Intune에서 VPN 설정 구성
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-선택한 설정에 따라 아래 목록의 일부 값을 구성할 수 없습니다.
+이 아티클에서는 Windows 8.1을 실행하는 장치에서 VPN 연결을 구성하는 데 사용할 수 있는 Intune 설정을 설명합니다.
+
+선택한 설정에 따라 다음 목록의 일부 값을 구성할 수 없습니다.
 
 ## <a name="base-vpn-settings"></a>기본 VPN 설정
 
 
 - **Windows 8.1에만 모든 설정 적용** - Intune 클래식 포털에서 구성할 수 있는 설정입니다. Azure Portal에서는 이 설정을 변경할 수 없습니다. **구성됨**으로 설정된 경우 모든 설정이 Windows 8.1 장치에만 적용됩니다. **구성되지 않음**으로 설정한 경우 Windows 10 장치에도 이러한 설정이 적용됩니다.
-- **연결 이름** - 이 연결에 대한 이름을 입력합니다. 최종 사용자가 장치에서 사용 가능한 VPN 연결 목록을 찾아볼 때 이 이름이 표시됩니다.
-- **서버** - 장치에서 연결할 하나 이상의 VPN 서버를 추가합니다.
-    - **추가** - 다음 정보를 지정할 수 있는 **행 추가** 블레이드를 엽니다.
+- **연결 이름** - 이 연결에 대한 이름을 입력합니다. 사용자가 장치에서 사용 가능한 VPN 연결 목록을 찾아볼 때 이 이름이 표시됩니다.
+- **서버** - 장치를 연결할 한 대 이상의 VPN 서버를 추가합니다.
+    - **추가** - 다음 정보를 지정할 수 있는 **행 추가** 페이지를 엽니다.
         - **설명** - 서버의 설명이 포함된 이름(예: **Contoso VPN 서버**)을 지정합니다.
-        - **IP 주소 또는 FQDN** - 장치를 연결할 VPN 서버의 정규화된 도메인 이름 또는 IP 주소를 입력합니다. 예: **192.168.1.1**, **vpn.contoso.com**.
+        - **IP 주소 또는 FQDN** - 장치가 연결되는 VPN 서버의 IP 주소 또는 정규화된 도메인 이름을 입력합니다. 예: **192.168.1.1**, **vpn.contoso.com**.
         - **기본 서버** - 이 서버를 장치에서 연결을 설정하는 데 사용할 기본 서버로 사용합니다. 기본적으로 하나의 서버만 설정해야 합니다.
     - **가져오기** - 설명, IP 주소 또는 FQDN, 기본 서버 형식의 쉼표로 구분된 서버 목록을 포함하는 파일로 이동합니다. **확인**을 선택하여 이를 **서버** 목록으로 가져옵니다.
     - **내보내기** - 서버 목록을 쉼표로 구분된 값(csv) 파일로 내보냅니다.
 
 - **연결 형식** - 다음 공급업체 목록에서 VPN 연결 형식을 선택합니다.
 - **검사점 캡슐 VPN**
-- **Dell SonicWALL Mobile Connect**
+- **SonicWall Mobile Connect**
 - **F5 Edge Client**
 - **Pulse Secure**
 
 <!--- **Fingerprint** (Check Point Capsule VPN only) - Specify a string (for example, "Contoso Fingerprint Code") that will be used to verify that the VPN server can be trusted. A fingerprint can be sent to the client so it knows to trust any server that presents the same fingerprint when connecting. If the device doesn’t already have the fingerprint, it will prompt the user to trust the VPN server that they are connecting to while showing the fingerprint. (The user manually verifies the fingerprint and chooses **trust** to connect.) --->
 
-- **로그인 그룹 또는 도메인**(Dell SonicWALL 모바일 연결만) - 연결하려는 로그인 그룹 또는 도메인의 이름을 지정합니다.
+- **로그인 그룹 또는 도메인**(SonicWall Mobile Connect만) - 연결하려는 로그인 그룹 또는 도메인의 이름을 지정합니다.
 
 - **역할**(Pulse Secure만) - 이 연결에 대한 액세스 권한이 있는 사용자 역할의 이름을 지정합니다. 사용자 역할은 개인 설정과 옵션을 정의하고, 특정 액세스 기능을 사용 또는 사용하지 않도록 설정합니다.
 
@@ -70,7 +70,7 @@ ms.lasthandoff: 01/25/2018
 
 ```
 
-**Dell SonicWALL 모바일 연결의 예:**
+**SonicWall Mobile Connect의 예:**
 ```
     <MobileConnect><Compression>false</Compression><debugLogging>True</debugLogging><packetCapture>False</packetCapture></MobileConnect>
 
@@ -83,7 +83,7 @@ ms.lasthandoff: 01/25/2018
 
 ```
 
-사용자 지정 XML 명령을 작성하는 방법에 대한 자세한 내용은 각 제조업체의 VPN 설명서를 참조하세요.
+자세한 내용은 사용자 지정 XML 명령을 작성하는 방법에 대한 각 제조업체의 VPN 설명서를 참조하세요.
 
 
 ## <a name="proxy-settings"></a>프록시 설정

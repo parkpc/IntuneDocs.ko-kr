@@ -6,18 +6,18 @@ keywords:
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 1/30/2018
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.reviewer: coryfe
 ms.suite: ems
-ms.openlocfilehash: 63d8628c183b3efb924cae6635e2c8038fd42598
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: d6ccda2aba0b1383de6c38b7a2fdcfdc742d0e15
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="manage-software-updates"></a>소프트웨어 업데이트 관리
 
@@ -71,20 +71,21 @@ Windows as a Service는 Windows 10 장치를 업데이트하는 방법입니다.
 
 ## <a name="how-to-create-and-assign-update-rings"></a>업데이트 링 만들기 및 할당 방법
 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **소프트웨어 업데이트**를 선택합니다.
-4. **소프트웨어 업데이트** 블레이드에서 **관리** > **Windows 10 업데이트 링**을 선택합니다.
-5. 업데이트 링 목록이 표시된 블레이드에서 **만들기**를 선택합니다.
-6. **업데이트 링 만들기** 블레이드에서 업데이트 링의 이름과 선택적으로 설명을 입력한 다음 **설정**을 선택합니다.
-7. **설정** 블레이드에서 다음 정보를 구성합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **소프트웨어 업데이트**를 선택합니다.
+4. **소프트웨어 업데이트** 창에서 **관리** > **Windows 10 업데이트 링**을 선택합니다.
+5. 업데이트 링 목록이 표시된 창에서 **만들기**를 선택합니다.
+6. **업데이트 링 만들기** 창에서 업데이트 링의 이름과 선택적으로 설명을 입력한 다음, **설정-구성**을 선택합니다.
+7. **설정** 창에서 다음 정보를 구성합니다.
     - **서비스 채널**: 장치가 Windows 업데이트 반기 채널(대상 지정) 또는 반기 채널을 수신할 채널을 선택합니다.
-    - **Microsoft 업데이트**: Microsoft Update에서 앱 업데이트를 검색할지 여부를 선택합니다.
+    - **Microsoft 제품 업데이트**: Microsoft Update에서 앱 업데이트를 검색할지 여부를 선택합니다.
     - **Windows 드라이버**: 업데이트 도중에 Windows 업데이트 드라이버를 제외할지 여부를 선택합니다.
     - **자동 업데이트 동작**: 업데이트를 검색, 다운로드 및 설치하도록 자동 업데이트 동작을 관리하는 방법을 선택합니다. 자세한 내용은 [Update/AllowAutoUpdate](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider#update-allowautoupdate)를 참조하세요.
     - **품질 업데이트 지연 기간(일)**: 품질 업데이트가 지연되는 일 수를 지정합니다. 이러한 품질 업데이트는 릴리스된 지 최대 30일 동안 수신을 연기할 수 있습니다.  
 
     품질 업데이트는 일반적으로 기존 Windows 기능에 대한 수정 및 개선 사항이며 대체로 매월 첫 번째 화요일에 게시되지만 Microsoft의 재량에 따라 언제든지 릴리스될 수 있습니다. 사용 가능성에 따라 품질 업데이트 수신을 연기할지 여부 및 기간을 정의할 수 있습니다.
+
     - **기능 업데이트 지연 기간(일)**: 기능 업데이트가 지연되는 일 수를 지정합니다. 이러한 기능 업데이트는 릴리스된 지 180일 동안 수신을 연기할 수 있습니다.
 
     기능 업데이트는 일반적으로 Windows의 새로운 기능입니다. **서비스 채널** 설정(반기 채널(대상 지정) 또는 반기 채널)을 구성한 후, Microsoft의 Windows 업데이트를 통한 사용 가능성에 따라 기능 업데이트 수신의 연기 여부와 기간을 정의할 수 있습니다.
@@ -93,13 +94,13 @@ Windows as a Service는 Windows 10 장치를 업데이트하는 방법입니다.
 
     **서비스 채널이 반기 채널로 설정되어 있고 지연 기간이 30일인 경우**: 기능 업데이트 X가 Windows 업데이트에서 1월에 반기 채널(대상 지정)로 처음 공개적으로 제공된다고 가정하겠습니다. 4개월 후 4월에 기능 업데이트 X는 반기 채널로 릴리스됩니다. 장치는 이 반기 채널 릴리스 30일 후에 기능 업데이트를 수신하며 5월에 업데이트됩니다.
 
-    - **배달 최적화**: 장치가 Windows 업데이트를 다운로드하는 방법을 선택합니다. 자세한 내용은 [DeliveryOptimization/DODownloadMode](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization#download-mode)를 참조하세요.
-1. 마치면 **확인**을 클릭한 다음 **업데이트 링 만들기** 블레이드에서 **만들기**를 클릭합니다.
+    - **배달 최적화 다운로드 모드**: 장치가 Windows 업데이트를 다운로드하는 방법을 선택합니다. 자세한 내용은 [DeliveryOptimization/DODownloadMode](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization#download-mode)를 참조하세요.
+1. 마치면 **확인**을 클릭한 다음, **업데이트 링 만들기** 창에서 **만들기**를 클릭합니다.
 
 새 업데이트 링이 업데이트 링 목록에 표시됩니다.
 
 1. 링을 할당하려면 업데이트 링 목록에서 링을 선택한 다음 <*링 이름*> 탭에서 **할당**을 선택합니다.
-2. 다음 탭에서 **그룹 선택**을 선택한 후 이 링을 할당할 그룹을 선택합니다.
+2. 다음 탭에서 **포함할 그룹 선택**을 선택한 후 이 링을 할당할 그룹을 선택합니다.
 3. 마치면 **선택**을 선택하여 할당을 완료합니다.
 
 ## <a name="update-compliance-reporting"></a>업데이트 준수 보고
@@ -108,22 +109,21 @@ Intune에서 업데이트 준수를 확인하거나 OMS(Operations Management Su
 ### <a name="review-update-compliance-in-intune"></a>Intune에서 업데이트 준수 확인 
 <!-- 1352223 -->
 정책 보고서를 검토하여 구성한 Windows 10 업데이트 링의 배포 상태를 확인합니다. 
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **소프트웨어 업데이트**를 선택합니다.
-4. **소프트웨어 업데이트** 블레이드에서 **개요**를 선택합니다. 여기서 할당한 모든 업데이트 링의 상태에 대한 일반 정보를 볼 수 있습니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **소프트웨어 업데이트**를 선택합니다.
+4. **소프트웨어 업데이트** 창에서 **개요**를 선택합니다. 여기서 할당한 모든 업데이트 링의 상태에 대한 일반 정보를 볼 수 있습니다.
 5. 다음 보고서 중 하나를 엽니다. 
      
    **모든 배포 링의 경우:**
-   1. **소프트웨어 업데이트** > **Windows 10 업데이트 링** 블레이드를 엽니다. 
+   1. **소프트웨어 업데이트** > **Windows 10 업데이트 링** 창을 엽니다. 
    2. **모니터 섹션**에서 **업데이트 링 배포 상태별**을 선택합니다.
                    
    **특정 배포 링의 경우:** 
-   1. **소프트웨어 업데이트** > **Windows 10 업데이트 링** 블레이드에서 검토할 배포 링을 선택합니다.
+   1. **소프트웨어 업데이트** > **Windows 10 업데이트 링** 창에서 검토할 배포 링을 선택합니다.
    2. **모니터** 섹션에서 다음 보고서 중에서 선택하여 업데이트 링에 대한 자세한 정보를 확인합니다.
-      - **장치별 업데이트 링 배포**
-      - **사용자별 업데이트 링 배포**
-      - **설정당 배포 상태**
+      - **장치 상태**
+      - **사용자 상태**
 
 ### <a name="review-update-compliance-using-oms"></a>OMS를 사용하여 업데이트 준수 검토
 OMS(Operations Management Suite)에서 Update Compliance라는 무료 솔루션을 사용하여 Windows 10 업데이트 출시를 모니터링할 수 있습니다. 자세한 내용은 [Monitor Windows Updates with Update Compliance(Update Compliance를 사용하여 Windows 업데이트 모니터링)](https://technet.microsoft.com/itpro/windows/manage/update-compliance-monitor)를 참조하세요. 이 솔루션을 사용하면 업데이트 준수를 보고할 Intune 관리 Windows 10 장치에 상용 ID를 배포할 수 있습니다.
@@ -136,19 +136,19 @@ Intune 콘솔에서 사용자 지정 정책의 OMA-URI 설정을 사용하여 �
 
 - **설정 이름**: Windows 분석 상용 ID
 - **설정 설명**: Windows Analytics 솔루션에 대한 상용 ID 구성
-- **데이터 형식:** 문자열
 - **OMA-URI**(대/소문자 구분): ./Vendor/MSFT/DMClient/Provider/ProviderID/CommercialID
+- **데이터 형식:** 문자열
 - **값**: <*OMS 작업 영역에서 Windows 원격 분석 탭에 표시되는 GUID 사용*>
 
 ![Windows의 진단 및 사용 현황 데이터 설정](./media/commID.png)
 
 ## <a name="how-to-pause-updates"></a>업데이트를 일시 중지하는 방법
 업데이트를 일시 중지하는 시점부터 최대 35일 동안 장치가 기능 업데이트나 품질 업데이트를 수신하지 않게 일시 중지할 수 있습니다. 최대 일수가 경과하고 나면 일시 중지 기능은 자동으로 만료되고 장치가 Windows 업데이트에서 적용되는 업데이트를 검색합니다. 이 검색 이후 다시 업데이트를 일시 중지할 수 있습니다.
-1. Azure 포털에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-3. **Intune** 블레이드에서 **소프트웨어 업데이트**를 선택합니다.
-4. **소프트웨어 업데이트** 블레이드에서 **관리** > **Windows 10 업데이트 링**을 선택합니다.
-5. 업데이트 링 목록이 표시된 블레이드에서 일시 중지할 링을 선택한 후 일시 중지하려는 업데이트의 유형에 따라 **...** > **품질 업데이트 일시 중지** 또는 **기능 업데이트 일시 중지**를 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
+3. **Intune** 창에서 **소프트웨어 업데이트**를 선택합니다.
+4. **소프트웨어 업데이트** 창에서 **관리** > **Windows 10 업데이트 링**을 선택합니다.
+5. 업데이트 링 목록이 표시된 창에서 일시 중지할 링을 선택한 후 일시 중지하려는 업데이트의 유형에 따라 **...** > **품질 업데이트 일시 중지** 또는 **기능 업데이트 일시 중지**를 선택합니다.
 
 > [!IMPORTANT]
 > 일시 중지 명령을 실행하면 장치는 다음에 서비스에 체크 인할 때 이 명령을 수신합니다. 체크 인 이전에 예약된 업데이트가 설치될 수도 있습니다.

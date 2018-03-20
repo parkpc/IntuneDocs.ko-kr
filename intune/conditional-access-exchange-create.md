@@ -1,12 +1,12 @@
 ---
-title: "온-프레미스 Exchange 조건부 액세스 정책 만들기 및 할당"
-titlesuffix: Azure portal
+title: "Exchange 조건부 액세스 정책 만들기"
+titlesuffix: Microsoft Intune
 description: "Intune에서 Exchange 온-프레미스 레거시 Exchange Online Dedicated의 조건부 액세스를 구성합니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: msmimart
+ms.author: mimart
 manager: dougeby
-ms.date: 02/14/2018
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,17 +14,17 @@ ms.technology:
 ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 70c3de614b0f5ed5075b669ecdffc08e1226817d
-ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
+ms.openlocfilehash: 4cfe5916668de6d8bb3c42f2fd6afb6221bbc07e
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="how-to-create-and-assign-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated-in-microsoft-intune"></a>Microsoft Intune에서 Exchange 온-프레미스 및 레거시 Exchange Online Dedicated용 조건부 액세스 정책을 만들고 할당하는 방법
+# <a name="create-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated"></a>Exchange 온-프레미스 및 레거시 Exchange Online Dedicated에 대한 조건부 액세스 정책 만들기
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-이 항목에서는 장치 준수를 기반으로 Exchange 온-프레미스에 대한 조건부 액세스를 구성하는 프로세스를 안내합니다.
+이 아티클은 장치 준수를 기반으로 Exchange 온-프레미스에 대한 조건부 액세스를 구성하는 방법을 설명합니다.
 
 Exchange Online Dedicated 환경이 있고 신규 또는 기존 구성 상태인지를 확인해야 하는 경우 계정 관리자에게 문의하세요. Exchange 온-프레미스 또는 레거시 Exchange Online Dedicated 환경에 대한 메일 액세스를 제어하려면 Intune에서 Exchange 온-프레미스에 대한 조건부 액세스를 구성합니다.
 
@@ -76,44 +76,43 @@ Windows 8.1 이상에 설치된 기본 **메일** 응용 프로그램(Intune에 
 
 1. [Azure Portal](https://portal.azure.com/)로 이동한 다음 Intune 자격 증명을 사용하여 로그인합니다.
 
-2. 정상적으로 로그인되면 **Azure 대시보드**가 표시됩니다.
+1. 정상적으로 로그인되면 **Azure 대시보드**가 표시됩니다.
 
-3. 왼쪽 메뉴에서 **More services**(추가 서비스)를 선택한 다음 텍스트 상자 필터에 **Intune**을 입력합니다.
+1. 왼쪽 메뉴에서 **모든 서비스**를 선택한 다음, 텍스트 상자 필터에 **Intune**을 입력합니다.
 
-4. **Intune**을 선택하면 **Intune 대시보드**가 표시됩니다.
+1. **Intune**을 선택하면 **Intune 대시보드**가 표시됩니다.
 
-5. **온-프레미스 액세스**를 선택한 후 다음을 선택합니다.
+1. **온-프레미스 액세스**를 선택합니다. **온-프레미스 액세스** 창에 조건부 액세스 정책의 상태 및 그 영향을 받는 장치가 표시됩니다.
 
-6. **온-프레미스** 블레이드에 조건부 액세스 정책의 상태 및 그 영향을 받는 장치가 표시됩니다.
+1. **관리** 아래에서 **Exchange 온-프레미스 액세스**를 선택합니다.
 
-7. **관리** 아래에서 **Exchange 온-프레미스 액세스**를 선택합니다.
-
-8. **Exchange 온-프레미스 액세스** 블레이드에서 **예**를 선택하여 Exchange 온-프레미스 액세스 제어를 사용하도록 설정합니다.
+1. **Exchange 온-프레미스 액세스** 창에서 **예**를 선택하여 Exchange 온-프레미스 액세스 제어를 사용하도록 설정합니다.
 
     > [!NOTE]
     > Exchange Active Sync 온-프레미스 커넥터를 구성하지 않은 경우에는 이 옵션을 사용할 수 없습니다.  Exchange 온-프레미스에 대한 조건부 액세스를 설정하려면 먼저 이 커넥터를 설치하고 구성해야 합니다. 자세한 내용은 [Intune 온-프레미스 Exchange Connector 설치](exchange-connector-install.md)를 참조하세요.
 
-9. **할당** 아래에서 **그룹 포함됨**을 선택합니다.  조건부 액세스를 적용해야 하는 보안 사용자 그룹을 사용합니다. 그러려면 사용자가 Intune에 장치를 등록하고 준수 프로필을 준수해야 합니다.
+1. **할당** 아래에서 **그룹 포함됨**을 선택합니다.  조건부 액세스를 적용해야 하는 보안 사용자 그룹을 사용합니다. 이 작업은 사용자가 Intune에 장치를 등록하고 준수 프로필을 준수하도록 요구합니다.
 
-10. 특정 사용자 그룹을 제외하려면 **그룹 제외됨**을 선택한 다음 장치 등록 및 준수 대상에서 제외할 사용자 그룹을 선택하면 됩니다.
+1. 특정 사용자 그룹을 제외하려면 **그룹 제외됨**을 선택한 다음 장치 등록 및 준수 대상에서 제외할 사용자 그룹을 선택하면 됩니다.
 
-11. **설정** 아래에서 **사용자 알림**을 선택하여 기본 메일 메시지를 수정합니다. 이 메시지는 해당 장치가 준수되지 않으며 Exchange 온-프레미스에 액세스하려는 사용자에게 전송됩니다. 메시지 템플릿에는 마크업 언어가 사용됩니다.  입력할 때 메시지 모양에 대한 미리 보기도 표시됩니다.
+1. **설정** 아래에서 **사용자 알림**을 선택하여 기본 메일 메시지를 수정합니다. 이 메시지는 해당 장치가 준수되지 않으며 Exchange 온-프레미스에 액세스하려는 사용자에게 전송됩니다. 메시지 템플릿에는 마크업 언어가 사용됩니다.  입력할 때 메시지 모양에 대한 미리 보기도 표시될 수 있습니다.
     > [!TIP]
     > 마크업 언어에 대한 자세한 내용은 이 Wikipedia [문서](https://en.wikipedia.org/wiki/Markup_language)를 참조하세요.
 
-12. **고급 Exchange Active Sync 액세스 설정** 블레이드에서 다음 두 단계에 설명된 대로 Intune을 통해 관리되지 않는 장치의 액세스에 대한 전역 기본 규칙 및 플랫폼 수준 규칙을 설정합니다.
+1. **고급 Exchange Active Sync 액세스 설정** 창에서 다음 두 단계에 설명된 대로 Intune을 통해 관리되지 않는 장치의 액세스에 대한 전역 기본 규칙 및 플랫폼 수준 규칙을 설정합니다.
 
-13. 조건부 액세스 또는 다른 규칙의 영향을 받지 않는 장치의 경우 Exchange에 대한 액세스를 허용하거나 차단하도록 선택할 수 있습니다.
-  - 액세스를 허용하도록 설정하면 모든 장치에서 Exchange 온-프레미스에 즉시 액세스할 수 있습니다.  **그룹 포함됨**의 사용자에게 속한 장치는 이후에 준수 정책을 준수하지 않거나 Intune에 등록되지 않은 것으로 평가되는 경우 차단됩니다.
-  - 액세스를 차단하도록 설정하면 모든 장치에서 초기에 Exchange 온-프레미스에 대한 액세스가 즉시 차단됩니다.  **그룹 포함됨**의 사용자에게 속한 장치는 Intune에 등록되고 준수하는 것으로 평가되는 경우 액세스 권한이 부여됩니다. Samsung Knox Standard를 실행하지 않는 Android 장치는 이 설정을 지원하지 않으므로 항상 차단됩니다.
-<br></br>
-14. **장치 플랫폼 예외** 아래에서 **추가**를 선택하여 플랫폼을 지정합니다. **관리되지 않는 장치 액세스** 설정이 **차단됨**으로 설정된 경우 등록 및 호환되는 장치는 차단에 대한 플랫폼 예외가 있는 경우에도 허용됩니다. **확인**을 선택하여 설정을 저장합니다.
+1. 조건부 액세스 또는 다른 규칙의 영향을 받지 않는 장치의 경우 Exchange에 대한 액세스를 허용하거나 차단하도록 선택할 수 있습니다.
 
-15. **온-프레미스** 블레이드에서 **저장**을 클릭하여 조건부 액세스 정책을 저장합니다.
+   - 액세스를 허용하도록 설정하면 모든 장치에서 Exchange 온-프레미스에 즉시 액세스할 수 있습니다.  **그룹 포함됨**의 사용자에게 속한 장치는 이후에 준수 정책을 준수하지 않거나 Intune에 등록되지 않은 것으로 평가되는 경우 차단됩니다.
+   - 액세스를 차단하도록 설정하면 모든 장치에서 초기에 Exchange 온-프레미스에 대한 액세스가 즉시 차단됩니다.  **그룹 포함됨**의 사용자에게 속한 장치는 Intune에 등록되고 준수하는 것으로 평가되는 경우 액세스 권한이 부여됩니다. Samsung Knox Standard를 실행하지 않는 Android 장치는 이 설정을 지원하지 않으므로 항상 차단됩니다.
+
+1. **장치 플랫폼 예외** 아래에서 **추가**를 선택하여 플랫폼을 지정합니다. **관리되지 않는 장치 액세스** 설정이 **차단됨**으로 설정된 경우 등록 및 호환되는 장치는 차단에 대한 플랫폼 예외가 있는 경우에도 허용됩니다. **확인**을 선택하여 설정을 저장합니다.
+
+1. **온-프레미스** 창에서 **저장**을 클릭하여 조건부 액세스 정책을 저장합니다.
 
 ## <a name="create-azure-ad-conditional-access-policies-in-intune"></a>Intune에서 Azure AD 조건부 액세스 정책 만들기
 
-Intune 1704 릴리스부터는 관리자가 Intune Azure Portal에서 Azure AD 조건부 액세스 정책을 만들 수 있습니다. 이렇게 하면 Azure 워크로드와 Intune 워크로드 간을 전환하지 않아도 되므로 편리합니다.
+Intune 1704 릴리스부터는 관리자가 Intune Azure Portal에서 Azure AD 조건부 액세스 정책을 만들 수 있습니다. 이렇게 하면 Azure 워크로드와 Intune 워크로드 간을 전환하지 않아도 됩니다.
 
 > [!IMPORTANT]
 > Intune Azure Portal에서 Azure AD 조건부 액세스 정책을 만들려면 Azure AD Premium 라이선스가 있어야 합니다.
@@ -122,7 +121,7 @@ Intune 1704 릴리스부터는 관리자가 Intune Azure Portal에서 Azure AD �
 
 1. **Intune 대시보드**에서 **조건부 액세스**를 선택합니다.
 
-2. **정책** 블레이드에서 **새 정책**을 선택하여 새 Azure AD 조건부 액세스 정책을 만듭니다.
+2. **정책** 창에서 **새 정책**을 선택하여 새 Azure AD 조건부 액세스 정책을 만듭니다.
 
 ## <a name="see-also"></a>참고 항목
 

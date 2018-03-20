@@ -6,7 +6,7 @@ keywords:
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/20/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: E9810BEB-000A-4DFB-B5C7-A22A92082B22
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 13aa627515b74d3c9fe6d091c44dd5147bd786bd
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 01b26a6165db6e3016d2b3d7063a4bca60ce0266
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-create-a-device-compliance-policy-to-enable-google-play-protect"></a>Google Play 보호를 사용하도록 설정하기 위해 장치 준수 정책을 만드는 방법
 
@@ -29,14 +29,15 @@ GPP(Google Play 보호) 준수를 확인하기 위해 Android 플랫폼에 대�
 
 ## <a name="create-a-compliance-policy"></a>규정 준수 정책 만들기
 
-1. Azure Portal에 로그인합니다. **추가 서비스** > **모니터링 + 관리** + **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 2. **관리** 그룹에서 **장치 준수**를 선택합니다. 
 3. **정책**을 선택하고 **정책 만들기**를 선택합니다.
 4. 정책 **이름** 및 **설명**을 입력합니다.
 5. 플랫폼으로 **Android**를 선택합니다.
 6. **설정** > **장치 상태**를 선택합니다.
 7. **Google Play 보호** 설정을 구성합니다.
-8. Google Play 보호 설정을 지정했으면 **보안** 및 **장치 속성** 설정을 지정합니다. 작업이 끝나면 **확인**을 선택합니다.
+8. Google Play 보호 설정을 지정했으면 **시스템 보안** 및 **장치 속성** 설정을 지정합니다. 작업이 끝나면 **확인**을 선택합니다.
 
 ## <a name="configure-the-google-play-protect-settings"></a>Google Play 보호 설정 구성
 

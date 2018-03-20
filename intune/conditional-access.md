@@ -1,12 +1,12 @@
 ---
-title: "Intune을 사용하는 조건부 액세스"
-titlesuffix: Azure portal
-description: "사용자 및 장치가 Microsoft Intune에서 회사 리소스에 액세스하기 위해 충족해야 하는 조건을 정의하는 방법을 알아봅니다.\""
+title: "Microsoft Intune을 사용하는 조건부 액세스"
+titlesuffix: 
+description: "사용자, 장치 및 앱이 Microsoft Intune에서 회사 리소스에 액세스하기 위해 충족해야 하는 조건을 정의하는 방법을 알아봅니다."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: msmimart
+ms.author: mimart
 manager: dougeby
-ms.date: 05/23/2017
+ms.date: 03/06/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,17 +14,17 @@ ms.technology:
 ms.assetid: a1973f38-ea55-43eb-a151-505fb34a8afb
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4d3d84f8010b72b9595f3ff54924d6c3fe245702
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 08589f3d9186699ce5241579cc1879be2d442e3d
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="whats-conditional-access"></a>조건부 액세스란?
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-이 항목에서는 Enterprise Mobility + Security(EMS)에 적용되는 조건부 액세스 및 Intune 사용 시의 일반적인 조건부 액세스 시나리오에 대해 설명합니다.
+조건부 액세스는 이메일 및 회사 리소스에 연결할 수 있는 앱과 장치를 제어할 수 있는 방법을 말합니다. 이 항목에서는 장치 기반 및 앱 기반 조건부 액세스에 대해 알아보고 Intune을 사용한 조건부 액세스를 사용하는 일반적인 시나리오를 찾아봅니다.
 
 Enterprise Mobility + Security(EMS) 조건부 액세스는 독립 실행형 제품이 아니며 EMS의 일부분인 모든 서비스와 제품에 포함되는 솔루션입니다. EMS 조건부 액세스는 회사 데이터의 보안을 유지할 수 있는 세분화된 액세스 제어 기능을 제공하는 동시에, 사용자에게는 모든 위치와 장치에서 업무를 가장 효율적으로 수행할 수 있도록 하는 환경을 제공합니다.
 

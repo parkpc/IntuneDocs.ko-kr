@@ -1,11 +1,12 @@
 ---
 title: "사용자 추가 및 권한 부여"
-description: "Azure AD와 온-프레미스 사용자를 동기화하고 Intune 구독에 대한 관리자 권한 부여"
+titlesuffix: Microsoft Intune
+description: "Azure AD와 온-프레미스 사용자를 동기화하고 Intune 구독에 대한 관리자 권한을 부여합니다."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 02/28/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,17 +15,15 @@ ms.assetid: 6e9ec662-465b-4ed4-94c1-cff0fe18f126
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8ce84f51dcfb61ec16c78a6216135c2a7639657f
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: f8fe6d668885345f4bd710e4b96b8d7855f12632
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="add-users-and-give-administrative-permission-to-intune"></a>Intune에 사용자를 추가하고 관리 권한 부여
+# <a name="add-users-and-grant-administrative-permission-to-intune"></a>Intune에 사용자 추가 및 관리 권한 부여
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
-
-이 항목에서는 관리자가 Intune에 사용자를 추가하는 방법과 Intune 서비스에서 사용할 수 있는 관리 권한을 알려줍니다.
 
 관리자는 사용자를 직접 추가할 수도 있고 온-프레미스 Active Directory에서 사용자를 동기화할 수도 있습니다. 추가된 사용자는 장치를 등록하고 회사 리소스에 액세스할 수 있습니다. *전역 관리자*, *서비스 관리자* 등의 추가 권한을 사용자에게 제공할 수도 있습니다.
 
@@ -36,7 +35,7 @@ ms.lasthandoff: 02/01/2018
 2. Office 365 메뉴에서 **관리**를 선택합니다.
 3. 관리 센터에서 **사용자 추가**를 선택합니다.
 
-  ![Office 365 관리 스크린샷](media/office-add-user.png)
+  ![사용자 추가 섹션의 스크린 샷](media/office-add-user.png)
 
 4. 다음 사용자 정보를 지정합니다.
   - **이름**
@@ -47,19 +46,19 @@ ms.lasthandoff: 02/01/2018
   - **연락처 정보**(선택 사항)
   - **암호** - 자동으로 생성하거나 지정
 
-     ![Office 365 관리 스크린샷](media/office-add-user-details.png)
+     ![새 사용자 섹션의 스크린 샷](media/office-add-user-details.png)
 
 5. Intune 라이선스를 할당합니다. **제품 라이선스**를 선택하고 제품 라이선스를 선택합니다. Intune을 비롯한 라이선스가 필요합니다.
 6. **추가**를 선택하여 새 사용자를 만듭니다.
 
 ### <a name="add-intune-users-in-the-azure-portal"></a>Azure Portal에서 Intune 사용자 추가
-1. [Azure Portal](https://portal.azure.com)에 로그인하고 **추가 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다. **Intune**에 대한 *리소스를 검색*할 수도 있습니다.
-2. **사용자**를 선택합니다.
+1. [Azure Portal](https://portal.azure.com)에 로그인하고 **모든 서비스** > **모니터링 + 관리** > **Intune**으로 이동합니다. **Intune**에 대한 *리소스를 검색*할 수도 있습니다.
+2. **사용자** > **모든 사용자**를 선택합니다.
 3. 관리 센터에서 **새로운 사용자**를 선택합니다.
-  ![Office 365 관리 스크린샷](media/intune-add-user.png)
+  ![새 사용자 스크린샷](media/intune-add-user.png)
 4. 다음 사용자 정보를 지정합니다.
   - **Name**
-  - **사용자 이름** - Azure Active Directory 포털의 새 이름 ![Office 365 관리 스크린샷](media/intune-add-user-info.png) **확인**을 선택하여 계속합니다.
+  - **사용자 이름** - Azure Active Directory 포털의 새 이름 ![이름 및 사용자 이름 추가하는 스크린샷](media/intune-add-user-info.png) **확인**을 선택하여 계속합니다.
 5. 필요에 따라 다음과 같은 사용자 속성을 지정할 수 있습니다.
   - **프로필** - **직위** 및 **부서**를 비롯한 작업 정보
   -  **그룹** - 사용자에 대해 추가할 그룹 선택
@@ -67,7 +66,7 @@ ms.lasthandoff: 02/01/2018
 
   **만들기**를 선택하여 Intune에 새 사용자를 추가합니다.
 6. **프로필**을 선택한 다음 새 사용자의 **사용 위치**를 선택합니다. 새 사용자에게 Intune 라이선스를 할당하려면 사용 위치가 필요합니다. **저장**을 선택하여 계속합니다.
-    ![Office 365 관리 스크린샷](media/intune-add-user-loc.png)
+    ![사용 위치의 스크린샷](media/intune-add-user-loc.png)
 7. **라이선스**를 선택한 다음 **할당**을 선택하여 이 사용자에게 Intune 라이선스를 할당합니다. 장치를 등록하거나 회사 리소스에 액세스하려면 Intune 라이선스가 필요합니다. **제품**을 선택하고 라이선스 형식을 선택한 다음 **선택**, **할당**을 차례로 선택합니다.
 
 ## <a name="grant-admin-permissions"></a>관리자 권한 부여
@@ -78,17 +77,20 @@ Intune 구독에 사용자를 추가한 후에는 몇 가지 사용자 관리 �
 1. [Office 365 포털](https://www.office.com/signin)에 전역 관리자 계정으로 로그인합니다.
 2. Office 365 메뉴에서 **관리**를 선택합니다.
 3. 관리 센터에서 **활성 사용자**를 선택하고 사용자를 선택하여 관리 권한을 부여합니다.
+
 4. **역할** 열에서 **편집**을 선택합니다.
-  ![Office 365의 역할 할당 화면 스크린샷](./media/office-assign-roles-open.png)
+
+    ![관리 사용자의 스크린샷](./media/office-assign-roles-open.png)
+
 5. 사용 가능한 역할 목록에서 부여할 관리 권한을 선택합니다.
-![Office 365 포털 역할 할당 이미지](./media/office-assign-roles.png)
+![역할 할당의 스크린샷](./media/office-assign-roles.png)
 6. **저장**을 선택합니다.
 
 ### <a name="give-admin-permissions-in-the-azure-portal"></a>Azure Portal에서 관리자 권한 부여
 1. [Azure Portal](https://www.office.com/signin)에 전역 관리자 계정으로 로그인합니다.
 2. Azure Portal에서 **사용자**를 선택한 후 관리 권한을 부여할 사용자를 선택합니다.
 3. **디렉터리 역할**을 선택한 다음 권한을 선택합니다.
-  ![스크린샷](./media/add-intune-directory-role.png)
+  ![디렉터리 역할의 스크린샷](./media/add-intune-directory-role.png)
 4. **저장**을 선택합니다.
 
 ### <a name="types-of-administrators"></a>관리자 유형
@@ -102,7 +104,7 @@ Intune 구독에 사용자를 추가한 후에는 몇 가지 사용자 관리 �
 - **사용자 관리자** - (Office 365 및 Intune) 암호를 재설정하고, 서비스 상태를 모니터링하고, 사용자 계정을 추가/삭제하고, 서비스 요청을 관리합니다. 사용자 관리 관리자는 전역 관리자를 삭제하거나, 다른 관리 역할을 만들거나, 다른 관리자의 암호를 재설정할 수 없습니다.
 - **Intune 서비스 관리자** -**디렉터리 역할** 옵션을 포함한 관리자를 만들 수 있는 권한을 제외한 모든 Intune 전역 관리자 권한입니다.
 
-Microsoft Intune 구독을 만드는 데 사용하는 계정은 전역 관리자입니다. 일상적인 관리 작업에는 전역 관리자를 사용하지 않는 것이 가장 좋습니다. 관리자는 Intune 라이선스를 사용하여 Azure Portal에서 Intune에 액세스하지 않아도 되지만 Exchange 서비스 커넥터 설정과 같은 어떤 관리 작업을 수행하려면 Intune 라이선스가 필요합니다. 
+Microsoft Intune 구독을 만드는 데 사용하는 계정은 전역 관리자입니다. 일상적인 관리 작업에는 전역 관리자를 사용하지 않는 것이 가장 좋습니다. 관리자는 Intune 라이선스를 사용하여 Azure Portal에서 Intune에 액세스하지 않아도 되지만 Exchange 서비스 커넥터 설정과 같은 어떤 관리 작업을 수행하려면 Intune 라이선스가 필요합니다.
 
 Office 365 포털에 액세스하려면 계정에 **로그인 허용**이 설정되어 있어야 합니다. Azure Portal의 **프로필**에서 **로그인 차단**을 **아니요**로 설정하여 액세스를 허용합니다. 이 상태는 구독에 대한 라이선스 보유와는 다른 문제입니다. 기본적으로 모든 사용자 계정은 **허용**됩니다. 관리자 권한이 없는 사용자는 Office 365 포털을 사용하여 Intune 암호를 재설정할 수 있습니다.
 

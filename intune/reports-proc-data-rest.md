@@ -1,11 +1,12 @@
 ---
 title: "REST 클라이언트를 사용하여 데이터 웨어하우스 API에서 데이터 가져오기"
+titlesuffix: Microsoft Intune
 description: "RESTful API를 사용하여 Intune 데이터 웨어하우스에서 데이터를 검색합니다."
 keywords: 
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/31/2017
+ms.date: 02/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +15,11 @@ ms.assetid: D6D15039-4036-446C-A58F-A5E18175720A
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e96e1a728fbb054f412dc6c2a3610179aec18b75
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 22bfcc4e2947cba54509409132da3687d51a472d
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-data-from-the-intune-data-warehouse-api-with-a-rest-client"></a>REST 클라이언트를 사용하여 Intune 데이터 웨어하우스 API에서 데이터 가져오기
 
@@ -34,9 +35,9 @@ RESTful 끝점을 통해 Intune 데이터 웨어하우스 데이터 모델에 �
 
 ## <a name="create-a-client-app-as-a-native-app-in-azure"></a>Azure에서 클라이언트 앱을 네이티브 앱으로 만들기
 
-Azure에서 네이티브 앱을 만듭니다. 이 네이티브 앱은 클라이언트 앱입니다. 로컬 컴퓨터에서 실행되는 클라이언트는 로컬 클라이언트가 자격 증명을 요청할 때 Intune 데이터 웨어하우스 API를 참조합니다. 
+Azure에서 네이티브 앱을 만듭니다. 이 네이티브 앱은 클라이언트 앱입니다. 로컬 컴퓨터에서 실행되는 클라이언트는 로컬 클라이언트가 자격 증명을 요청할 때 Intune 데이터 웨어하우스 API를 참조합니다.
 
-1. 테넌트의 Azure Portal에 로그인합니다. **Azure Active Directory** > **앱 등록**을 선택하여 **앱 등록** 블레이드를 엽니다.
+1. 테넌트의 Azure Portal에 로그인합니다. **Azure Active Directory** > **앱 등록**을 선택하여 **앱 등록** 창을 엽니다.
 2. **새 앱 등록**을 선택합니다.
 3. 앱 세부 정보를 입력합니다.
     1.  **이름**에 이름을 입력합니다(예: Intune Data Warehouse Client).
@@ -53,19 +54,19 @@ Azure에서 네이티브 앱을 만듭니다. 이 네이티브 앱은 클라이�
 이제 Azure에 정의된 앱이 있습니다. 네이티브 앱에서 Microsoft Intune API에 대한 액세스 권한을 부여합니다.
 
 1.  네이티브 앱을 선택합니다. **Intune 데이터 웨어하우스 클라이언트**와 같은 앱 이름이 지정되었습니다.
-2.  **설정** 블레이드에서 **필요한 권한**을 선택합니다.
-3.  **필요한 권한** 블레이드에서 **추가**를 선택합니다.
+2.  **설정** 창에서 **필요한 권한** 선택
+3.  **필요한 권한** 창에서 **추가**를 선택합니다.
 4.  **API 선택**을 선택합니다.
 5.  웹앱 이름을 검색합니다. 웹앱 이름은 **Microsoft Intune API**로 지정되었습니다.
 6.  목록에서 해당 앱을 선택합니다.
 7.  **선택**을 선택합니다.
 8.  **위임된 권한** 상자를 선택하여 **Get data warehouse information from Microsoft Intune**(Microsoft Intune에서 데이터 웨어하우스 정보 가져오기)을 추가합니다.
 
-    ![액세스 사용](media\reports-get_rest_data_client_access.png)
+    ![액세스 사용 - Microsot Intune API](media\reports-get_rest_data_client_access.png)
 
 9.  **선택**을 선택합니다.
 10.  **완료**를 선택합니다.
-11.  필요에 따라 필요한 권한 블레이드에서 **사용 권한 부여**를 선택합니다. 그러면 현재 디렉터리의 모든 계정에 액세스 권한이 부여됩니다. 따라서 테넌트의 모든 사용자에게 동의 대화 상자가 나타나지 않습니다. 자세한 내용은 [Azure Active Directory와 응용 프로그램 통합](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)을 참조하세요.
+11.  필요에 따라 필요한 권한 창에서 **사용 권한 부여**를 선택합니다. 그러면 현재 디렉터리의 모든 계정에 액세스 권한이 부여됩니다. 따라서 테넌트의 모든 사용자에게 동의 대화 상자가 나타나지 않습니다. 자세한 내용은 [Azure Active Directory와 응용 프로그램 통합](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)을 참조하세요.
 12.  **예**를 선택합니다.
 
 ## <a name="get-data-from-the-microsoft-intune-api-with-postman"></a>Postman을 사용하여 Microsoft Intune API에서 데이터 가져오기
@@ -88,14 +89,14 @@ Postman을 사용하여 REST 호출을 수행하려면 다음 정보가 필요�
 
 ### <a name="odata-endpoint"></a>OData 끝점
 
-끝점도 필요합니다. 데이터 웨어하우스 끝점을 가져오려면 사용자 지정 피드 URL이 필요합니다. 데이터 웨어하우스 블레이드에서 OData 끝점을 가져올 수 있습니다.
+끝점도 필요합니다. 데이터 웨어하우스 끝점을 가져오려면 사용자 지정 피드 URL이 필요합니다. 데이터 웨어하우스 창에서 OData 끝점을 가져올 수 있습니다.
 
-1. Azure Portal에 로그인합니다.
-2. **추가 서비스** > **모니터링 + 관리** + **Intune**을 선택합니다.
+1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
+2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **기타 작업**에서 **Intune 데이터 웨어하우스 설정**을 선택합니다.
 4. **타사 보고 서비스 사용** 아래에서 사용자 지정 피드 URL을 복사합니다. 다음과 유사합니다. `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService?api-version=beta`
 
-끝점은 다음과 같은 형식입니다. `https://fef.{yourtenant}.manage.microsoft.com/ReportingService/DataWarehouseFEService/{entity}?api-version={verson-number}`. 
+끝점은 다음과 같은 형식입니다. `https://fef.{yourtenant}.manage.microsoft.com/ReportingService/DataWarehouseFEService/{entity}?api-version={verson-number}`.
 
 예를 들어 **dates** 엔터티는 다음과 같습니다. `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService/dates?api-version=beta`
 
@@ -151,10 +152,10 @@ Postman에 대한 새 액세스 토큰을 가져오려면 Azure AD 권한 부여
 > [GitHub의 샘플](https://github.com/Microsoft/Intune-Data-Warehouse/blob/master/Samples/CSharp/Program.cs)인 다음 코드에 액세스할 수 있습니다. 샘플에 대한 최신 변경 내용 및 업데이트는 GitHub 리포지토리를 참조하세요.
 
 1.  **Microsoft Visual Studio**를 엽니다.
-2.  **파일** > **새 프로젝트**를 선택합니다. **Visual C#**을 확장하고 **콘솔 앱(.Net Framework)**을 선택합니다. 
+2.  **파일** > **새 프로젝트**를 선택합니다. **Visual C#**을 확장하고 **콘솔 앱(.Net Framework)**을 선택합니다.
 3.  프로젝트 이름을 ` IntuneDataWarehouseSamples`로 지정하고 프로젝트를 저장할 위치로 이동한 다음 **확인**을 선택합니다.
 4.  솔루션 탐색기에서 솔루션의 이름을 마우스 오른쪽 단추로 클릭한 다음 **솔루션용 NuGet 패키지 관리**를 선택합니다. **찾아보기**를 클릭한 다음 검색 상자에서 `Microsoft.IdentityModel.Clients.ActiveDirectory`를 선택합니다.
-5. 패키지를 선택하고 솔루션 패키지 관리에서 **IntuneDataWarehouseSamples** 프로젝트를 선택한 다음 **설치**를 선택합니다. 
+5. 패키지를 선택하고 솔루션 패키지 관리에서 **IntuneDataWarehouseSamples** 프로젝트를 선택한 다음 **설치**를 선택합니다.
 6. **동의함**을 선택하여 NuGet 패키지 라이선스에 동의합니다.
 7. 솔루션 탐색기에서 `Program.cs`를 엽니다.
 
@@ -178,15 +179,15 @@ namespace IntuneDataWarehouseSamples
     * emailAddress - The email address of the user that you will authenticate as.
     *
     * password  - The password for the above email address.
-    *    This is inline only for simplicity in this sample. We do not 
+    *    This is inline only for simplicity in this sample. We do not
     *    recommend storing passwords in plaintext.
     *
     * applicationId - The application ID of the native app that was created in AAD.
     *
-    * warehouseUrl   - The data warehouse URL for your tenant. This can be found in 
+    * warehouseUrl   - The data warehouse URL for your tenant. This can be found in
     *      the Azure portal.
-    * 
-    * collectionName - The name of the warehouse entity collection you would like to 
+    *
+    * collectionName - The name of the warehouse entity collection you would like to
     *      access.
     */
    var emailAddress = "intuneadmin@yourcompany.com";
@@ -224,6 +225,6 @@ namespace IntuneDataWarehouseSamples
 
 ## <a name="next-steps"></a>다음 단계
 
-[Intune 데이터 웨어하우스 API 사용](reports-api-url.md)에서 권한 부여, API URL 구조 및 OData 끝점에 대한 자세한 내용을 확인할 수 있습니다. 
+[Intune 데이터 웨어하우스 API 사용](reports-api-url.md)에서 권한 부여, API URL 구조 및 OData 끝점에 대한 자세한 내용을 확인할 수 있습니다.
 
 Intune 데이터 웨어하우스 데이터 모델을 참조하여 API에 포함된 데이터 엔터티를 찾을 수도 있습니다. 자세한 내용은 [Intune 데이터 웨어하우스 API 데이터 모델](reports-ref-data-model.md)을 참조하세요.

@@ -6,7 +6,7 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 07/03/2017
+ms.date: 02/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 712a79fb-14ef-4f6b-aba5-1dfca900afd2
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5f55d05dd39fca02e72535cbbff9afb8d575ed9f
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 7a8ef24a9e6946145bf69d279566f3b736e6efa1
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="airprint-settings-for-ios-and-macos-devices"></a>iOS 및 macOS 장치에 대한 AirPrint 설정
 
@@ -40,8 +40,9 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="configure-an-airprint-profile"></a>AirPrint 프로필 구성
 
-1. **장치 기능** 블레이드에서 **AirPrint**를 선택합니다.
-2. **AirPrint** 블레이드에서 AirPrint 대상을 추가하려면 해당 **IP 주소** 및 **리소스 경로**를 입력한 다음 **추가**를 클릭합니다.
+1. [Azure Portal의 Intune](https://portal.azure.com)에서 [**장치 구성 영역의 장치 기능**으로 이동합니다](device-features-configure.md). 
+1. **장치 기능** 창에서 **AirPrint**를 선택합니다.
+2. **AirPrint** 창에서 AirPrint 대상을 추가하려면 해당 **IP 주소** 및 **리소스 경로**를 입력한 다음, **추가**를 클릭합니다.
 3. 필요에 맞게 대상을 계속 추가합니다. 작업이 끝나면 **확인**을 선택합니다.
 
 프린터 목록을 쉼표로 구분된 값(.csv) 파일에서 가져오거나 목록을 내보낼 수도 있습니다.

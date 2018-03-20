@@ -5,7 +5,7 @@ keywords: "intune graphapi c# powershell 권한 역할"
 author: vhorne
 manager: dougeby
 ms.author: victorh
-ms.date: 06/20/2017
+ms.date: 03/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 79A67342-C06D-4D20-A447-678A6CB8D70A
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e1c97c32f5f6c81f1112c99b486898c271cc5ff2
-ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
+ms.openlocfilehash: 7b59d4bc689daf462ac01a106457c3835a78b98b
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="how-to-use-azure-ad-to-access-the-intune-apis-in-microsoft-graph"></a>Azure AD를 사용하여 Microsoft Graph의 Intune API에 액세스하는 방법
 
@@ -44,7 +44,7 @@ Microsoft Graph에서 Intune API에 액세스하려면 다음 항목이 필요�
 
 - C# 및 PowerShell에 대한 Intune API 인증 예제를 제공합니다.
 
-- 여러 테넌트를 지원하는 방법 설명
+- 여러 테넌트를 지원하는 방법을 설명합니다.
 
 자세한 내용은 다음을 참조하세요.
 
@@ -97,7 +97,7 @@ Microsoft Graph API를 사용할 앱을 등록하려면 다음을 수행합니�
 
     <img src="media/azure-ad-perm-scopes.png" width="489" height="248" alt="Intune Graph API permission scopes" />
 
-    관련 이름 왼쪽에 확인 표시를 하여 앱에 필요한 역할을 선택합니다.  특정 Intune 권한 범위에 대해 자세히 알아보려면 [Intune 권한 범위](#user-content-intune-permission-scopes)를 참조하세요.  다른 Graph API 권한 범위에 대해 자세히 알아보려면 [Microsoft Graph 권한 참조](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)를 참조하세요.
+    관련 이름 왼쪽에 확인 표시를 하여 앱에 필요한 역할을 선택합니다.  특정 Intune 권한 범위에 대해 자세히 알아보려면 [Intune 권한 범위](#intune-permission-scopes)를 참조하세요.  다른 Graph API 권한 범위에 대해 자세히 알아보려면 [Microsoft Graph 권한 참조](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)를 참조하세요.
 
     최상의 결과를 얻으려면 응용 프로그램을 구현하는 데 필요한 가장 적은 수의 역할을 선택합니다.
 
@@ -139,7 +139,7 @@ Microsoft Graph에 권한을 부여하는 경우 다음 범위를 지정하여 I
 
 _액세스 사용_ 설정 | 범위 이름
 :--|:--
-__Microsoft Intune 장치에서 사용자에게 영향을 주는 원격 작업 수행__ | [DeviceManagementManagedDevices.PrivilegedOperations.All](#user-content-mgd-po)
+__Microsoft Intune 장치에서 사용자에게 영향을 주는 원격 작업 수행__ | [DeviceManagementManagedDevices.PrivilegedOperations.All](#mgd-po)
 __Microsoft Intune 장치 읽기 및 쓰기__ | [DeviceManagementManagedDevices.ReadWrite.All](#mgd-rw)
 __Microsoft Intune 장치 읽기__ | [DeviceManagementManagedDevices.Read.All](#mgd-ro)
 __Microsoft Intune RBAC 설정 읽기 및 쓰기__ | [DeviceManagementRBAC.ReadWrite.All](#rac-rw)
@@ -585,7 +585,7 @@ catch {
 
 또한 다음 작업도 수행합니다.
 
-- http://portal.office.com에서 사용자 계정에 Intune 라이선스를 할당합니다.
+- https://portal.office.com을 통해 사용자 계정에 Intune 라이선스를 할당합니다.
 
 - 응용 프로그램 코드를 업데이트하여 자체 도메인이 아닌 클라이언트의 Azure AD 테넌트 도메인에 인증합니다.
 

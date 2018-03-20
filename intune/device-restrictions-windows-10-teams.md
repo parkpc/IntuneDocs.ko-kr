@@ -1,29 +1,29 @@
 ---
-title: "Windows 10 Team에 대한 Intune 장치 제한"
-titlesuffix: Azure portal
-description: "Windows 10 Team 장치에 사용할 수 있는 장치 제한을 알아봅니다.\""
+title: "Windows 10 Team에 대한 Windows Intune 장치 제한"
+titlesuffix: 
+description: "Windows 10 Team을 실행하는 장치에 사용할 수 있는 장치 제한을 알아봅니다."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 08/01/2017
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 677c41a2-5344-4c52-85f0-809dce3a5d5b
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3648f8b273f666d1898226f3da8580e55a6bc6f8
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 69cceda6857412f7e9a50c58d075caeee4ea9c20
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="windows-10-team-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 Team 장치 제한 설정
+# <a name="microsoft-intune-windows-10-team-device-restriction-settings"></a>Microsoft Intune Windows 10 Team 장치 제한 설정
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+이 아티클에서는 Windows 10 Team을 실행하는 장치에 대해 구성할 수 있는 Microsoft Intune 장치 제한 설정을 보여줍니다.
 
 
 ## <a name="apps-and-experience"></a>앱 및 경험
@@ -47,7 +47,7 @@ Azure Operational insights에 연결하려면 **작업 영역 ID** 및 **작업 
 
 - **무선 프로젝션용 PIN** - 장치의 무선 프로젝션 기능을 사용하려면 PIN을 입력해야 하는지 여부를 지정합니다.
 - **Miracast 무선 프로젝션** - Windows 10 Team 장치에서 Miracast 지원 장치를 프로젝트에 사용할 수 있도록 하려면 이 옵션을 선택합니다.
-- **Miracast 무선 프로젝션 채널** - 연결을 설정하는 데 사용할 Miracast 채널을 선택합니다.
+- **Miracast 무선 프로젝션 채널** - 연결을 설정하는 데 사용되는 Miracast 채널을 선택합니다.
 
 
 ## <a name="next-steps"></a>다음 단계
