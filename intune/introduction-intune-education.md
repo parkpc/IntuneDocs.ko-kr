@@ -1,15 +1,15 @@
----
-title: "Intune for Education이란?"
-description: "Intune for Education이 전체 Intune 관리 환경과 어떻게 다른지 알아봅니다."
-keywords: "Intune이란"
+﻿---
+title: Intune for Education이란?
+description: Intune for Education이 전체 Intune 관리 환경과 어떻게 다른지 알아봅니다.
+keywords: Intune이란
 author: barlanmsft
 ms.author: barlan
 manager: dougeby
 ms.date: 12/21/2017
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ca36589b-804d-40b8-b112-9195d8897800
 ms.reviewer: travisj
 ms.suite: ems
