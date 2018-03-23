@@ -1,24 +1,25 @@
 ---
-title: "Windows 10 장치를 위한 Intune에서의 PowerShell 스크립트 관리"
-titlesuffix: Azure portal
-description: "Windows 10 장치에서 실행되도록 Intune에서 PowerShell 스크립트를 업로드하는 방법을 알아봅니다."
-keywords: 
+title: Windows 10 장치용 Microsoft Intune에서 PowerShell 스크립트 관리
+titlesuffix: ''
+description: Microsoft Intune에서 PowerShell 스크립트를 업로드하여 Windows 10 장치에서 실행하는 방법을 알아봅니다.
+keywords: ''
+ms.author: dougeby
 author: dougeby
 manager: dougeby
 ms.date: 02/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 768b6f08-3eff-4551-b139-095b3cfd1f89
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a52f2affa235a37b6d99a8452bc83a794cb04ce5
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: c501292126200baa88e06e30b6226e5c5021b8ec
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="manage-powershell-scripts-in-intune-for-windows-10-devices"></a>Windows 10 장치를 위한 Intune에서의 PowerShell 스크립트 관리
 Intune 관리 확장을 사용하면 Windows 10 장치에서 실행되도록 Intune에서 PowerShell 스크립트를 업로드할 수 있습니다. 관리 확장은 Windows 10 MDM(모바일 장치 관리) 기능을 보완하며 사용자가 최신 관리로 더 손쉽게 이행할 수 있도록 합니다.

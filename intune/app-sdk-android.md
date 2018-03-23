@@ -1,24 +1,24 @@
 ---
-title: "Android용 Microsoft Intune 앱 SDK 개발자 가이드"
-description: "Android용 Microsoft Intune 앱 SDK를 사용하면 Android 앱에 Intune MAM(모바일 앱 관리)을 통합할 수 있습니다."
+title: Android용 Microsoft Intune 앱 SDK 개발자 가이드
+description: Android용 Microsoft Intune 앱 SDK를 사용하면 Android 앱에 Intune MAM(모바일 앱 관리)을 통합할 수 있습니다.
 keywords: SDK
 author: Erikre
 manager: dougeby
 ms.author: erikre
 ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 53f0d46fa1a9452b7a0cc1e243373f21556f5fb6
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 0eafbe9c57051b62f6ed53a3930705eabf5aebd0
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Android용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -1168,7 +1168,7 @@ public final class MAMDataProtectionManager {
 
 `WIPE_USER_DATA` 알림을 등록한 앱에는 SDK 기본 선택적 초기화 동작이 적용되지 않습니다. 다중 ID 인식 앱의 경우 MAM 기본 선택적 초기화는 초기화의 대상이 되는 ID가 있는 파일만 초기화하므로 더 많이 유실될 수 있습니다.
 
-다중 ID 인식 응용 프로그램에서 MAM 기본 선택 초기화를 수행하고  _**및**_ 에서 초기화 시 고유 작업을 수행하려는 경우 `WIPE_USER_AUXILIARY_DATA` 알림을 등록해야 합니다. 이 알림은 MAM 기본 선택적 초기화를 수행하기 직전에 SDK에서 즉시 전송합니다. 앱에서 WIPE_USER_DATA와 WIPE_USER_AUXILIARY_DATA를 둘 다 등록하지 않아야 합니다.
+다중 ID 인식 응용 프로그램에서 MAM 기본 선택 초기화를 수행하고 _**및**_에서 초기화 시 고유 작업을 수행하려는 경우 `WIPE_USER_AUXILIARY_DATA` 알림을 등록해야 합니다. 이 알림은 MAM 기본 선택적 초기화를 수행하기 직전에 SDK에서 즉시 전송합니다. 앱에서 WIPE_USER_DATA와 WIPE_USER_AUXILIARY_DATA를 둘 다 등록하지 않아야 합니다.
 
 ## <a name="enabling-mam-targeted-configuration-for-your-android-applications-optional"></a>Android 응용 프로그램에 대해 MAM 대상 구성 사용(선택 사항)
 Intune 콘솔에서 응용 프로그램 특정 키-값 쌍을 구성해야 합니다. 이러한 키-값 쌍은 Intune에서 전혀 해석되지 않고 앱에 전달되기만 합니다. 해당 구성을 수신하려고 하는 응용 프로그램은 `MAMAppConfigManager` 및 `MAMAppConfig` 클래스를 사용하여 구성을 수신할 수 있습니다. 동일한 앱에서 여러 정책을 대상으로 지정하면 동일한 키에 사용할 수 있는 여러 개의 충돌 값이 발생할 수 있습니다.
@@ -1311,7 +1311,7 @@ public interface MAMAppConfig {
 앱 구성이 다음과 같은 새 알림 형식을 추가합니다.
 * **REFRESH_APP_CONFIG**: 이 알림은 `MAMUserNotification`을 통해 전송되며 새 앱 구성 데이터가 사용 가능함을 앱에 알립니다.
 
-MAM 대상 구성 값과 관련하여 Graph API의 기능에 대한 자세한 내용은 [Graph API 참조 MAM 대상 구성]((https://developer.microsoft.com/graph/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create)을 참조하세요. <br>
+Graph API의 기능에 대한 자세한 내용은 [Graph API 참조](https://developer.microsoft.com/graph/docs/concepts/overview)를 참조하세요. <br>
 
 Android에서 MAM 대상 앱 구성 정책을 만드는 방법에 대한 자세한 내용은 [Android for Work용 Microsoft Intune 앱 구성 정책을 사용하는 방법](https://docs.microsoft.com/intune/app-configuration-policies-use-android)에서 MAM 대상 앱 구성 섹션을 참조하세요.
 

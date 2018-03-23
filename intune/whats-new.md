@@ -1,25 +1,25 @@
 ---
-title: "Microsoft Intune의 새로운 기능"
-titlesuffix: 
-description: "Intune Azure 포털의 새로운 기능 알아보기"
-keywords: 
+title: Microsoft Intune의 새로운 기능
+titlesuffix: ''
+description: Intune Azure 포털의 새로운 기능 알아보기
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
-manager: angrobe
-ms.date: 01/02/2018
+manager: dougeby
+ms.date: 03/16/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
-ms.reviewer: angrobe
+ms.reviewer: dougeby
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 513164a1f734fddb6ac66fcaffdc2fb885a4659a
-ms.sourcegitcommit: 9cf05d3cb8099e4a238dae9b561920801ad5cdc6
+ms.openlocfilehash: f171779a2606790dd1e59caf5e261e6d22faaf7f
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Microsoft Intune의 새로운 기능
 
@@ -43,22 +43,51 @@ ms.lasthandoff: 03/09/2018
 -->   
 
 
+
+
+
+## <a name="week-of-march-12-2018"></a>2018년 3월 12일 주
+
+### <a name="new-windows-defender-exploit-guard-settings----1631893---"></a>새로운 Windows Defender Exploit Guard 설정 <!-- 1631893 -->
+
+이제 여섯 가지 새 **공격 노출 영역 축소** 설정 및 확장된 **폴더 액세스 제어: 폴더 보호** 기능이 제공됩니다. 이러한 설정은 Device configuration\Profiles\에서 찾을 수 있습니다.
+profile\Endpoint protection\Windows Defender Exploit Guard를 만드세요.
+
+#### <a name="attack-surface-reduction"></a>공격 노출 영역 축소
+
+|설정 이름  |설정 옵션  |설명  |
+|---------|---------|---------|
+|고급 랜섬웨어 보호|사용, 감사, 구성되지 않음|적극적인 랜섬웨어 보호를 사용합니다.|
+|Windows 로컬 보안 기관 하위 시스템에서 도용하는 자격 증명에 플래그 지정|사용, 감사, 구성되지 않음|Windows 로컬 보안 기관 하위 시스템(lsass.exe)에서 도용하는 자격 증명에 플래그를 지정합니다.|
+|PSExec 및 WMI 명령에서 프로세스 만들기|차단, 감사, 구성되지 않음|PSExec 및 WMI 명령에서 발생하는 프로세스 만들기를 차단합니다.|
+|USB에서 실행되는 신뢰할 수 없고 서명되지 않은 프로세스|차단, 감사, 구성되지 않음|USB에서 실행되는 신뢰할 수 없고 서명되지 않은 프로세스를 차단합니다.|
+|출현율, 나이 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 실행 파일|차단, 감사, 구성되지 않음|실행 파일이 출현율, 나이 또는 신뢰할 수 있는 목록 기준을 충족하지 않으면 실행을 차단합니다.|
+
+#### <a name="controlled-folder-access"></a>폴더 액세스 제어
+
+|설정 이름  |설정 옵션  |설명  |
+|---------|---------|---------|
+|폴더 보호(이미 구현됨)|구성되지 않음, 사용, 감사만(이미 구현됨)<br><br> **새 항목**<br>디스크 수정 차단, 디스크 수정 감사|
+인증되지 않은 앱이 파일 및 폴더를 무단으로 변경할 수 없도록 보호합니다.<br><br>**사용**: 신뢰할 수 없는 앱이 보호되는 폴더의 파일을 수정 또는 삭제하거나 디스크 섹터에 쓰는 것을 차단합니다.<br><br>
+**디스크 수정만 차단**:<br>신뢰할 수 없는 앱이 디스크 섹터에 쓰는 것을 차단합니다. 신뢰할 수 없는 앱이 보호되는 폴더의 파일을 여전히 수정하거나 삭제할 수 있습니다.|
+
 ## <a name="week-of-february-19-2018"></a>2018년 2월 19일부터 시작되는 주
+
 ### <a name="device-enrollment"></a>장치 등록
 
 #### <a name="intune-support-for-multiple-apple-dep--apple-school-manager-accounts----747685---"></a>여러 Apple DEP/Apple School Manager 계정에 대한 Intune 지원 <!-- 747685 -->
- 
-이제 Intune은 최대 100개의 다른 Apple DEP(장비 등록 프로그램) 또는 Apple School Manager 계정의 장치 등록을 지원합니다. 업로드된 각 토큰을 등록 프로필과 장치에 대해 별도로 관리할 수 있습니다. 업로드된 DEP/School Manager 토큰마다 다른 등록 프로필을 자동으로 할당할 수 있습니다. School Manager 토큰이 여러 개 업로드된 경우 한 번에 하나의 토큰만 Microsoft School Data Sync와 공유할 수 있습니다.
+
+이제 Intune은 최대 100개의 다른 [Apple DEP(장비 등록 프로그램)](device-enrollment-program-enroll-ios.md) 또는 [Apple School Manager](apple-school-manager-set-up-ios.md) 계정의 장치 등록을 지원합니다. 업로드된 각 토큰을 등록 프로필과 장치에 대해 별도로 관리할 수 있습니다. 업로드된 DEP/School Manager 토큰마다 다른 등록 프로필을 자동으로 할당할 수 있습니다. School Manager 토큰이 여러 개 업로드된 경우 한 번에 하나의 토큰만 Microsoft School Data Sync와 공유할 수 있습니다.
 
 Graph를 통해 Apple DEP 또는 ASM을 관리하기 위한 베타 Graph API 및 게시된 스크립트는 마이그레이션 후 더 이상 작동하지 않습니다. 새 베타 Graph API가 개발 중이며 마이그레이션 후 릴리스될 예정입니다.
 
 #### <a name="see-enrollment-restrictions-per-user----1634444-eeready-wnready---"></a>사용자별 등록 제한 보기 <!-- 1634444 eeready wnready -->
-**할당** 목록에서 **등록 제한**을 선택함으로써 각 사용자에게 적용되는 등록 제한을 **문제 해결** 블레이드에 표시할 수 있습니다.
+이제 **할당** 목록에서 **등록 제한**을 선택함으로써 각 사용자에게 적용되는 [등록 제한](enrollment-restrictions-set.md)을 **문제 해결** 블레이드에 표시할 수 있습니다.
 
 ### <a name="device-management"></a>장치 관리
 #### <a name="windows-defender-health-status-and-threat-status-reports---854704---"></a>Windows Defender 상태 및 위협 상태 보고서 <!--854704 -->
 
-Windows Defender의 상태를 이해하는 것은 Windows PC 관리의 핵심입니다.  이 업데이트를 사용해 Intune은 Windows Defender 에이전트의 상태에 새 보고서와 작업을 추가합니다. 장치 정책 준수 워크로드에 상태 롤업 보고서를 사용하면 다음 작업이 필요한 장치를 볼 수 있습니다.
+Windows Defender의 상태를 이해하는 것은 Windows PC 관리의 핵심입니다.  이 업데이트를 사용해 Intune은 Windows Defender 에이전트의 상태에 새 보고서와 작업을 추가합니다. [장치 정책 준수 워크로드](compliance-policy-monitor.md)에 상태 롤업 보고서를 사용하면 다음 작업이 필요한 장치를 볼 수 있습니다.
 - 서명 업데이트
 - 다시 시작
 - 수동 작업
@@ -68,25 +97,25 @@ Windows Defender의 상태를 이해하는 것은 Windows PC 관리의 핵심입
 각 상태 범주에 대한 드릴인 보고서에는 주의가 필요한 개별 PC 또는 **정리**로 보고되는 PC가 나열됩니다.
 
 #### <a name="new-privacy-settings-for-device-restrictions---1308926---"></a>장치 제안에 대한 새로운 개인 정보 설정 <!--1308926 -->
-장치에 대한 두 가지 새 개인 정보 설정을 사용할 수 있습니다.
+장치에 [두 가지 새로운 개인 정보 설정](device-restrictions-windows-10.md#privacy)이 제공됩니다.
 - **사용자 작업 게시**: 작업 전환기에서 공유 경험 및 최근에 사용된 리소스 검색을 차단하려면 이 옵션을 **차단**으로 설정합니다.
 - **로컬 작업만**: 로컬 작업에 대해서만 작업 전환기에서 공유 경험 및 최근에 사용된 리소스 검색을 차단하려면 이 옵션을 **차단**으로 설정합니다.
 
 #### <a name="new-settings-for-the-edge-browser---1469166---"></a>Microsoft Edge 브라우저에 대한 새 설정 <!--1469166 -->
-Microsoft Edge 브라우저에서는 두 가지 새로운 설정인 **자주 사용하는 파일 경로** 및 **즐겨찾기에 대한 변경**을 사용할 수 있습니다. 
+Microsoft Edge 브라우저에서는 [두 가지 새로운 설정](device-restrictions-windows-10.md#edge-browser)인 **자주 사용하는 파일 경로** 및 **즐겨찾기에 대한 변경**을 사용할 수 있습니다.
 
 ### <a name="app-management"></a>앱 관리
 #### <a name="protocol-exceptions-for-applications---1035509---"></a>응용 프로그램에 대한 프로토콜 예외 <!--1035509 -->
 
 Intune MAM(모바일 응용 프로그램 관리) 데이터 전송 정책에 대한 예외를 만들어서 관리되지 않는 응용 프로그램을 열 수 있습니다. 이러한 응용 프로그램은 IT가 신뢰할 수 있는 것이어야 합니다. 관리자가 만드는 예외를 제외하고, 데이터 전송 정책을 **관리되는 앱만**으로 설정하는 경우 데이터 전송은 Intune에서 관리하는 응용 프로그램으로 계속 제한됩니다. 프로토콜(iOS) 또는 패키지(Android)를 사용하여 제한을 만들 수 있습니다.
- 
+
 예를 들어 Webex 패키지를 MAM 데이터 전송 정책의 예외로 추가할 수 있습니다. 이렇게 하면 관리되는 Outlook 이메일 메시지의 Webex 링크가 Webex 응용 프로그램에서 바로 열립니다. 관리되지 않는 다른 응용 프로그램에서는 데이터 전송이 계속 제한됩니다. 자세한 내용은 [앱에 대한 데이터 전송 정책 예외](app-protection-policies-exception.md)를 참조합니다.
 
 #### <a name="windows-information-protection-wip-encrypted-data-in-windows-search-results----1469193---"></a>Windows 검색 결과의 WIP(Windows Information Protection) 암호화된 데이터 <!-- 1469193 -->
 WIP(Windows Information Protection) 정책의 설정을 사용하면 WIP 암호화된 데이터를 Windows 검색 결과에 포함할지 여부를 제어할 수 있습니다. Windows 정보 보호 정책의 **고급 설정**에서 **Windows Search Indexer로 암호화된 항목 검색 가능**을 선택해 앱 보호 정책 옵션을 설정합니다. 앱 보호 정책은 *Windows 10* 플랫폼에 설정돼야 하며 해당 앱 정책 **등록 상태**는 **등록을 통해** 설정돼야 합니다. 자세한 내용은 [Windows Search Indexer로 암호화된 항목 검색 가능](windows-information-protection-policy-create.md#allow-windows-search-indexer-to-search-encrypted-items)을 참조합니다.
 
 #### <a name="configuring-a-self-updating-mobile-msi-app----1740840---"></a>자체 업데이트 모바일 MSI 앱 구성 <!-- 1740840 -->
-버전 확인 프로세스를 무시하도록 알려진 자체 업데이트 모바일 MSI 앱을 구성할 수 있습니다. 이 기능은 경합 상태를 방지하는 데 유용합니다. 예를 들어 이런 유형의 경합 상태는 앱 개발자가 앱을 자동 업데이트하는 동시에 Intune에서도 앱을 업데이트하는 경우 발생할 수 있습니다. 둘 다 Windows 클라이언트에서 앱 버전을 적용하려 시도할 수 있으며, 이로 인해 충돌이 발생할 수 있습니다. 이러한 자동으로 업데이트된 MSI 앱의 경우 **앱 정보** 블레이드에서 **앱 버전 무시** 설정을 구성할 수 있습니다. 이 설정이 **예**로 전환될 경우 Microsoft Intune에서 Windows 클라이언트에 설치 된 앱 버전을 무시하게 됩니다. 
+버전 확인 프로세스를 무시하도록 알려진 자체 업데이트 모바일 MSI 앱을 구성할 수 있습니다. 이 기능은 경합 상태를 방지하는 데 유용합니다. 예를 들어 이런 유형의 경합 상태는 앱 개발자가 앱을 자동 업데이트하는 동시에 Intune에서도 앱을 업데이트하는 경우 발생할 수 있습니다. 둘 다 Windows 클라이언트에서 앱 버전을 적용하려 시도할 수 있으며, 이로 인해 충돌이 발생할 수 있습니다. 이러한 자동으로 업데이트된 MSI 앱의 경우 **앱 정보** 블레이드에서 **앱 버전 무시** 설정을 구성할 수 있습니다. 이 설정이 **예**로 전환될 경우 Microsoft Intune에서 Windows 클라이언트에 설치 된 앱 버전을 무시하게 됩니다.
 
 #### <a name="related-sets-of-app-licenses-supported-in-intune----1864117---"></a>Intune에서 지원되는 관련 앱 라이선스 집합 <!-- 1864117 -->
 이제 Azure Portal의 Intune은 관련 앱 라이선스 집합을 UI에서 단일 앱 항목으로 지원합니다. 또한 비즈니스용 Microsoft 스토어에서 동기화되는 오프라인 라이선스 앱은 단일 앱 항목으로 통합되고, 개별 패키지의 배포 세부 정보는 단일 항목으로 마이그레이션됩니다. Azure Portal에서 관련 앱 라이선스 집합을 보려면 **모바일 앱** 블레이드에서 **앱 라이선스**를 선택합니다.
@@ -99,12 +128,14 @@ WIP(Windows Information Protection) 정책의 설정으로 이제 WIP 정책에�
 
 Surface Hub에 대한 리소스 계정 설정을 원격으로 구성할 수 있습니다.
 
-리소스 계정은 Surface Hub가 Skype/Exchange에 인증하는 데 사용되므로 모임에 참여할 수 있습니다. Surface Hub가 모임에서 회의실로 표시되도록 고유한 리소스 계정을 만들 수 있습니다. 예를 들어 **회의실 B41/6233**이라는 리소스 계정을 만들 수 있습니다.
+리소스 계정은 Surface Hub가 Skype/Exchange에 인증하는 데 사용되므로 모임에 참여할 수 있습니다.
+Surface Hub가 모임에서 회의실로 표시되도록 고유한 리소스 계정을 만들 수 있습니다.
+예를 들어 **회의실 B41/6233**이라는 리소스 계정을 만들 수 있습니다.
 
 > [!NOTE]
 > - 필드를 비워 두면 장치에서 이전에 구성된 특성이 재정의됩니다.
 >
-> - 리소스 계정 속성은 Surface Hub에서 동적으로 변경할 수 있습니다. 예를 들어 암호 순환이 켜져 있으면 Azure 콘솔의 값이 장치에서 현실을 반영할 때까지 다소 시간이 걸릴 수 있습니다. 
+> - 리소스 계정 속성은 Surface Hub에서 동적으로 변경할 수 있습니다. 예를 들어 암호 순환이 켜져 있으면 Azure 콘솔의 값이 장치에서 현실을 반영할 때까지 다소 시간이 걸릴 수 있습니다.
 >
 >   리소스 계정 정보를 하드웨어 인벤토리에(이미 7일 간격이 있음) 또는 읽기 전용 속성으로 포함하면 현재 Surface Hub에 구성된 내용을 이해할 수 있습니다. 원격 작업을 실행한 후 정확도를 높이려면 Surface Hub에서 계정/매개 변수 업데이트 작업을 실행하는 즉시 매개 변수 상태를 가져오면 됩니다.
 
@@ -131,7 +162,7 @@ Surface Hub에 대한 리소스 계정 설정을 원격으로 구성할 수 있�
 
 #### <a name="additions-to-system-security-settings-for-windows-10-and-later-compliance-policies---1704133--"></a>Windows 10 및 향후 규정 준수 정책에 대한 시스템 보안 설정 추가 <!--1704133-->
 
-방화벽과 Windows Defender 바이러스 백신을 반드시 사용하게 하는 것을 포함하여 Windows 10 규정 준수 설정이 추가됩니다. 
+방화벽과 Windows Defender 바이러스 백신을 반드시 사용하게 하는 것을 포함하여 Windows 10 규정 준수 설정이 추가됩니다.
 
 
 ### <a name="role-based-access-control"></a>역할 기반 액세스 제어
@@ -195,7 +226,7 @@ PrinterOn의 무선 모바일 인쇄 솔루션을 사용하면 사용자가 보�
 
 6자리 복구 PIN을 구성해야 합니다. 이 PIN을 사용하여 지워진 장치의 잠금을 해제할 수 있으며, 이때 운영 체제의 재설치가 시작됩니다. 지우기가 시작된 후에는 Intune의 장치 개요 블레이드에 있는 상태 표시줄에 PIN이 표시됩니다. 지우기가 진행되는 동안 PIN이 계속 유지됩니다. 지우기가 완료되면 장치가 Intune 관리에서 완전히 사라집니다. 장치를 복원하는 누구든지 사용할 수 있도록 복구 PIN을 기록해야 합니다.
 
-#### <a name="revoke-licenses-for-an-ios-volume-purchasing-program-token----820870---"></a>iOS Volume Purchasing Program 토큰에 대한 라이선스 철회 <!-- 820870 --> 
+#### <a name="revoke-licenses-for-an-ios-volume-purchasing-program-token----820870---"></a>iOS Volume Purchasing Program 토큰에 대한 라이선스 철회 <!-- 820870 -->
 지정된 VPP 토큰에 대한 모든 iOS VPP(Volume-Purchase Program) 앱의 라이선스를 철회할 수 있습니다.
 
 ### <a name="app-management"></a>앱 관리
@@ -212,7 +243,7 @@ PrinterOn의 무선 모바일 인쇄 솔루션을 사용하면 사용자가 보�
 
 ### <a name="device-configuration"></a>장치 구성
 
-#### <a name="you-can-assign-an-application-configuration-policy-to-groups-by-including-and-excluding-assignments-----1480316---"></a>할당을 포함하거나 제외하여 응용 프로그램 구성 정책을 그룹에 할당할 수 있습니다. <!-- 1480316 --> 
+#### <a name="you-can-assign-an-application-configuration-policy-to-groups-by-including-and-excluding-assignments-----1480316---"></a>할당을 포함하거나 제외하여 응용 프로그램 구성 정책을 그룹에 할당할 수 있습니다. <!-- 1480316 -->
 
 포함 및 제외 할당의 조합을 사용하여 사용자 및 장치 그룹에 응용 프로그램 구성 정책을 할당할 수 있습니다. 할당을 그룹의 사용자 정의 선택 또는 가상 그룹으로 선택할 수 있습니다. 가상 그룹은 **모든 사용자**, **모든 장치** 또는 **모든 사용자 + 모든 장치**를 포함할 수 있습니다.
 
@@ -225,7 +256,7 @@ Windows 10 장치를 Windows 10 Education, Windows 10 Education N, Windows 10 Pr
 
 #### <a name="updates-to-compliance-emails---1637547---"></a>준수 메일 업데이트 <!--1637547 -->
 
-비준수 장치를 보고하기 위해 메일을 보낼 때 비준수 장치에 대한 세부 정보가 포함됩니다. 
+비준수 장치를 보고하기 위해 메일을 보낼 때 비준수 장치에 대한 세부 정보가 포함됩니다.
 
 
 ## <a name="week-of-january-22-2018"></a>2018년 1월 22일
@@ -345,11 +376,6 @@ Samsung Knox 장치의 날짜 및 시간 변경을 차단할 수 있는 새로�
 
 ### <a name="intune-apps"></a>Intune 앱
 
-#### <a name="end-user-messaging-for-accounts---1573558-for-1712--"></a>계정에 대한 최종 사용자 메시징 <!--1573558 for 1712-->
-
-회사 포털 웹 사이트의 사용자는 테넌트에 대한 쓰기 권한이 필요한 작업을 수행할 수 없도록 차단됩니다. 사용자 계정이 유지 관리 중이라고 설명하는 적절한 오류 메시지가 표시됩니다. Android, iOS, macOS 및 Windows용 회사 포털 앱에도 유사한 변경 내용이 곧 적용될 예정입니다. 이 오류는 [앱 UI의 새로운 기능](whats-new-app-ui.md)에서 확인할 수 있습니다.
-
-
 
 ### <a name="role-based-access-control"></a>역할 기반 액세스 제어
 
@@ -431,7 +457,7 @@ Intune은 Android 플랫폼과는 독립적으로 Android for Work 장치의 등
 
 #### <a name="ios-11-app-inventory-api-for-mobile-threat-detection----1391759---"></a>모바일 위협 요소 탐지를 위한 iOS 11 앱 인벤토리 API<!-- 1391759 -->
 
-Intune은 개인 및 회사 소유 장치 모두에서 앱 인벤토리 정보를 수집하며 Lookout for Work와 같은 페치할 MTD(모바일 스레드 검색) 공급자에서 사용할 수 있도록 합니다. iOS 11+ 장치의 사용자로부터 앱 인벤토리를 수집할 수 있습니다.
+Intune은 개인 및 회사 소유 장치 모두에서 앱 인벤토리 정보를 수집하며 Lookout for Work와 같은 페치할 MTD(모바일 위협 검색) 공급자에서 사용할 수 있도록 합니다. iOS 11+ 장치의 사용자로부터 앱 인벤토리를 수집할 수 있습니다.
 
 **앱 인벤토리**  
 회사 소유의 iOS 11+ 및 개인적으로 소유한 장치 모두의 인벤토리가 사용자의 MTD 서비스 공급자에게 전송됩니다. 앱 인벤토리의 데이터에는 다음이 포함됩니다.
@@ -702,8 +728,8 @@ Intune는 3월 서비스 릴리스에서 관리자 경험을 업데이트합니�
 #### <a name="how-does-this-affect-me"></a>이 변경 사항은 어떤 영향을 미치나요?
 
 데이터 창을 공유하는 데 동의하는 시나리오는 다음과 같습니다.
-- Android for Work를 사용하는 경우 
-- Apple MDM 푸시 인증서를 사용하고 업로드하는 경우 
+- Android for Work를 사용하는 경우
+- Apple MDM 푸시 인증서를 사용하고 업로드하는 경우
 - DEP(장비 등록 프로그램), School Manager 및 Volume Purchasing Program 등의 Apple 서비스 중 하나를 사용하는 경우
 
 각각의 경우에 동의는 IT 관리자가 등록을 위해 Google 또는 Apple 장치를 인증했는지 확인하는 것처럼 모바일 장치 관리 서비스 실행에 대해 엄격히 적용됩니다. 새 워크플로가 가동할 때 어떤 정보를 공유하는지 대답하는 설명서는 다음에서 사용할 수 있습니다.
@@ -712,13 +738,14 @@ Intune는 3월 서비스 릴리스에서 관리자 경험을 업데이트합니�
 
 #### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>이러한 변경에 대해 준비하려면 어떻게 해야 하나요?
 
-이는 사소한 워크플로 UI 업데이트이므로 이러한 변경에 대해 준비할 필요는 없습니다. Microsoft의 GDPR 준수에 대한 자세한 내용은 추가 정보 링크에서 액세스 가능한 보안 센터를 참조하십시오.
+이는 사소한 워크플로 UI 업데이트이므로 이러한 변경에 대해 준비할 필요는 없습니다.
+Microsoft의 GDPR 준수에 대한 자세한 내용은 추가 정보 링크에서 액세스 가능한 보안 센터를 참조하십시오.
 
 
 
 ### <a name="plan-for-change-update-where-you-configure-your-app-protection-policies"></a>변경 계획: 앱 보호 정책을 구성한 업데이트
 
-2018년 3월부터는 Azure Portal의 Intune 앱 보호 서비스 블레이드에서 Azure Portal의 Intune 내 모바일 앱 블레이드로 일시적으로 리디렉션될 예정입니다. 모든 앱 보호 정책은 이미 앱 구성에서 Intune의 모바일 앱 블레이드에 있습니다. Intune 앱 보호로 이동하는 대신 Intune으로 이동합니다. 4월에 리디렉션을 중지하고 Intune 앱 보호 서비스 블레이드를 완전히 제거할 예정이며, Intune에 빌드된 항목을 복제하고 있습니다. 
+2018년 3월부터는 Azure Portal의 Intune 앱 보호 서비스 블레이드에서 Azure Portal의 Intune 내 모바일 앱 블레이드로 일시적으로 리디렉션될 예정입니다. 모든 앱 보호 정책은 이미 앱 구성에서 Intune의 모바일 앱 블레이드에 있습니다. Intune 앱 보호로 이동하는 대신 Intune으로 이동합니다. 4월에 리디렉션을 중지하고 Intune 앱 보호 서비스 블레이드를 완전히 제거할 예정이며, Intune에 빌드된 항목을 복제하고 있습니다.
 
 #### <a name="how-does-this-affect-me"></a>이 변경 사항은 어떤 영향을 미치나요?
 이 변경 사항은 Intune 독립 실행형 고객 및 하이브리드(Configuration Manager를 사용하는 Intune) 고객 모두에게 영향을 미칩니다. 이 통합은 클라우드 관리를 단순화하는 데 도움이 됩니다. 이제, 그룹, 정책, 앱 및 모바일 장치 관리를 제어할 때 Azure에서 Intune 블레이드 하나만 이용하면 됩니다.
@@ -739,15 +766,15 @@ Intune 서비스의 보안 강화 기능이 공개됩니다. 이 변경의 일�
 3월 업데이트에 이러한 변경 사항 공개를 시작할 때 이미 할당된 준수 정책이 있는지 여부에 따라 이 기능은 다르게 영향을 미칩니다.
 
 - 새로운 또는 기존 테넌트이며 장치에 할당된 준수 정책이 없는 경우, 설정/해제는 **준수**에 자동으로 설정됩니다. 기능은 콘솔의 기본 설정으로 꺼져 있습니다. 최종 사용자에게는 영향이 없을 것입니다.
-- 기존 테넌트이며 장치에 할당된 준수 정책이 있는 경우 설정/해제는 자동으로 ‘비준수’로 설정됩니다. 3월 업데이트가 공개될 때 기능은 기본 설정으로 켜져 있습니다. 
+- 기존 테넌트이며 장치에 할당된 준수 정책이 있는 경우 설정/해제는 자동으로 ‘비준수’로 설정됩니다. 3월 업데이트가 공개될 때 기능은 기본 설정으로 켜져 있습니다.
 
 CA(조건부 액세스)의 준수 정책을 사용하고 기능을 설정한 경우, 할당된 준수 정책이 하나도 없는 장치는 CA에 의해 차단됩니다. 이러한 장치에 연결되어 있으며 사전에 이메일에 대한 액세스가 허용된 최종 사용자는 모든 장치에 준수 정책을 하나 이상 할당하지 않는 한 액세스가 손실됩니다.   
- 
+
 #### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>이러한 변경에 대해 준비하려면 어떻게 해야 하나요?  
 
 조건부 액세스를 사용하는 경우 이 기능을 켜고 설정/해제를 **비준수**로 설정하는 것이 좋습니다. 최종 사용자의 이메일 액세스 손실을 방지하려면 모든 장치에 하나 이상의 준수 정책이 할당되도록 합니다. 이 작업을 수행하는 데 도움이 되는 일부 변경 내용은 다음과 같습니다.   
 
-- Intune 포털에 **준수 정책 없는 장치**라는 보고서를 도입하였습니다. 할당된 준수 정책이 없는 환경에서 모든 장치를 식별하는 데 사용할 수 있습니다. 
+- Intune 포털에 **준수 정책 없는 장치**라는 보고서를 도입하였습니다. 할당된 준수 정책이 없는 환경에서 모든 장치를 식별하는 데 사용할 수 있습니다.
 - **모든 사용자** 옵션은 모든 사용자에게 준수 정책을 손쉽게 할당할 수 있습니다.
 
 설정/해제를 해제 상태로 유지하는 경우 사용자의 추가 작업이 필요하지 않습니다.
@@ -757,9 +784,9 @@ CA(조건부 액세스)의 준수 정책을 사용하고 기능을 설정한 경
 ### <a name="plan-for-change-change-in-support-for-the-microsoft-intune-app-sdk-for-cordova-plugin"></a>변경 계획: Microsoft Intune App SDK for Cordova 플러그인 지원의 변경
 Intune은 2018년 5월 1일 [Microsoft Intune App SDK Cordova 플러그인](app-sdk-cordova.md)에 대한 지원을 종료합니다. Intune에서 관리 및 가용성을 위해 Cordova 기반 앱을 준비하려면 Intune 앱 래핑 도구를 대신 사용하는 것이 좋습니다. 이 변경 내용이 적용되면 Cordova 플러그인용 Microsoft Intune APP SDK가 더 이상 유지 관리되지 않거나 업데이트를 수신하지 않습니다. 앱 개발자는 이 플러그인을 사용할 수 없습니다. Intune은 Cordova로 빌드된 앱을 계속 지원할 계획입니다. 그러나 Cordova 플러그인용 Microsoft Intune APP SDK를 사용하여 빌드된 앱은 Intune에서 기능이 저하될 수 있습니다. Intune 앱 래핑 도구로 래핑하면 평소처럼 최종 사용자에게 앱을 배포할 수 있습니다. Google Play 스토어에 릴리스된 Cordova 기반 Android 앱의 경우:
 - 최종 사용자는 처음 실행할 때 Intune 정책을 수신하기 위한 자격 증명을 묻는 메시지가 표시됩니다.
-- 앱은 Intune 사용자를 대상으로 앱 스토어에 릴리스되어야 합니다(예: "Contoso App for Intune"). 
+- 앱은 Intune 사용자를 대상으로 앱 스토어에 릴리스되어야 합니다(예: "Contoso App for Intune").
 
-앱 래핑 도구에 대한 자세한 내용은 [iOS용 앱 래핑 도구](app-wrapper-prepare-ios.md) 및 [Android용 앱 래핑 도구](app-wrapper-prepare-android.md)를 참조하세요. 문제 또는 질문이 있는 경우 [msintuneappsdk@microsoft.com](mailto:msintuneappsdk@microsoft.com)에 문의하세요. 
+앱 래핑 도구에 대한 자세한 내용은 [iOS용 앱 래핑 도구](app-wrapper-prepare-ios.md) 및 [Android용 앱 래핑 도구](app-wrapper-prepare-android.md)를 참조하세요. 문제 또는 질문이 있는 경우 [msintuneappsdk@microsoft.com](mailto:msintuneappsdk@microsoft.com)에 문의하세요.
 
 ### <a name="plan-for-change-use-intune-on-azure-now-for-your-mdm-management----1227338---"></a>변경 계획: MDM 관리를 위해 Azure에서 Intune 사용 <!-- 1227338 -->
 1년 전, [Azure에서 Intune의 공개 미리 보기](https://cloudblogs.microsoft.com/enterprisemobility/2016/12/07/public-preview-of-intune-on-azure/)를 발표한 후, 6개월 전 Intune에 대한 [새 관리자 환경의 일반 공급](https://cloudblogs.microsoft.com/enterprisemobility/2017/06/08/the-new-intune-and-conditional-access-admin-consoles-are-ga/)을 발표했습니다. 2018년 8월 31일부터는 Intune 독립 실행형을 사용하는 고객에 대해 클래식 Silverlight 콘솔에서 MDM(모바일 장치 관리) 기능을 해제합니다. 대신, MDM 요구 사항에 따라 [Azure에서 Intune](https://aka.ms/Intune_on_Azure)을 사용할 수 있습니다. MDM용 클래식 콘솔을 아직 사용 중이라면 사용을 중지하고 Azure에서 Intune을 숙지하세요. 이러한 변경으로 최종 사용자에게 어떤 영향이 있지는 않을 것입니다. 클래식 PC 관리는 Silverlight에서 그대로 유지됩니다. 이 변경 사항과 변경 사항이 미치는 영향은 [여기](https://aka.ms/Intune_on_Azure_mdm)에서 자세히 알아볼 수 있습니다.
@@ -797,11 +824,22 @@ Intune은 Android 플랫폼과는 독립적으로 Android for Work 장치의 등
 
 ## <a name="whats-coming"></a>향후 예정 사항
 
+### <a name="new-user-experience-update-for-the-company-portal-website---2000968--"></a>회사 포털 웹 사이트의 새로운 사용자 환경 업데이트<!--2000968-->
+
+UI 업데이트, 간소화된 워크플로 및 내게 필요한 옵션 기능 향상을 사용하여 4월에 새로운 회사 포털 웹 사이트 환경을 도입할 예정입니다. 여기에는 앱 공유 및 전반적인 성능 향상과 같은 고객 기반 고급 기능이 포함되어 보다 편리한 사용자 환경을 제공합니다.
+고객의 의견에 따라 몇 가지 새로운 기능을 추가했습니다. 그러면 다음과 같은 기존 기능과 유용성을 크게 향상시킵니다.
+
+-   웹 사이트 전체 UI 개선 사항
+-   앱에 대한 직접 링크를 공유하는 기능
+- 대규모 앱 카탈로그의 성능 향상
+
+이 변경 내용을 준비하기 위해 조치를 취할 필요가 없습니다. 업데이트된 회사 포털 웹 사이트가 제공될 때 알려드리겠습니다. 그러나 결국 업데이트된 스크린샷을 포함한 최종 사용자 문서를 업데이트해야 할 수 있습니다. 웹 사이트에서 iOS 앱의 **앱** 섹션을 제공하므로 iOS에서 회사 포털 앱에 대한 설명서를 업데이트해야 할 수도 있습니다. [앱 UI의 새로운 기능](whats-new-app-ui.md) 페이지에서 이에 대한 샘플 이미지를 확인할 수 있습니다.
+
 ### <a name="user-experience-update-for-the-company-portal-app-for-ios---1412866--"></a>iOS용 회사 포털 앱의 사용자 환경 업데이트 <!--1412866-->
 
 iOS용 회사 포털 앱에 대한 주요 사용자 환경 업데이트를 출시합니다. 이 업데이트는 사용성 및 접근성이 향상된 최신 모양과 느낌이 포함된 완전한 시각적 재설계를 특징으로 합니다. 현재 모든 iOS 회사 포털 기능이 유지됩니다.
 
-사용자가 사용하고 피드백으로 제공할 수 있도록, Apple TestFlight 프로그램을 통해 iOS용 회사 포털 앱의 업데이트된 시험판 버전을 제공하고 있습니다. TestFlight를 사용하려면 https://aka.ms/intune_ios_cp_testflight에서 등록합니다.
+사용자가 사용하고 피드백으로 제공할 수 있도록, Apple TestFlight 프로그램을 통해 iOS용 회사 포털 앱의 업데이트된 시험판 버전을 제공하고 있습니다. TestFlight 액세스의 경우 https://aka.ms/intune_ios_cp_testflight에서 등록합니다. 이 업데이트에 대한 최신 정보는 https://aka.ms/iOS_companyportal_update를 참조하세요.
 
 ### <a name="apple-to-require-updates-for-application-transport-security---748318--"></a>Apple의 Application Transport Security 업데이트 요구 <!--748318-->
 Apple에서는 ATS(Application Transport Security)에 대한 특정 요구 사항을 적용할 것이라고 발표했습니다. ATS는 HTTPS를 통한 모든 앱 통신에서 보다 엄격한 보안을 적용하는 데 사용됩니다. 이 변경 사항은 iOS 회사 포털 앱을 사용하는 Intune 고객에게 영향을 줍니다.
@@ -810,6 +848,6 @@ Apple에서는 ATS(Application Transport Security)에 대한 특정 요구 사�
 
 ## <a name="see-also"></a>참고 항목
 * [Microsoft Intune 블로그](http://go.microsoft.com/fwlink/?LinkID=273882)
-* [클라우드 플랫폼 로드맵](https://www.microsoft.com/server-cloud/roadmap/Indevelopment.aspx?TabIndex=0&dropValue=Intune)
+* [클라우드 플랫폼 로드맵](https://www.microsoft.com/cloud-platform/roadmap)
 * [What's new in the Company Portal UI](whats-new-app-ui.md)(회사 포털 UI의 새로운 기능)
 * [지난 달의 새로운 기능](whats-new-archive.md)

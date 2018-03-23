@@ -1,25 +1,26 @@
 ---
-title: "Intune 마이그레이션 중 장치 준수 및 앱 관리 정책 구성"
-description: "이 문서의 목적은 Intune 마이그레이션 중 장치 준수 및 앱 관리 정책을 구성하는 데 필요한 단계를 제공하는 것입니다."
-keywords: 
-author: andredm7
-ms.author: andredm
+title: Intune 마이그레이션 중 장치 준수 및 앱 관리 정책 구성
+titlesuffix: Microsoft Intune
+description: 이 아티클의 목적은 Microsoft Intune 마이그레이션 중 장치 준수 및 앱 관리 정책을 구성하는 데 필요한 단계를 제공하는 것입니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 07/11/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0062d08e-e5b3-4f73-8b64-5ad95adbe945
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 96541c503a387e1a2ad3a4158f441266f1202be0
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 13a9c0a036eb6ce6ea7e984419c9598194b35b68
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/16/2018
 ---
-# <a name="configure-device-compliance-and-app-management-policies"></a>장치 준수 및 앱 관리 정책 구성
+# <a name="configure-device-compliance-and-app-management-policies-when-migrating-to-microsoft-intune"></a>Microsoft Intune에 마이그레이션할 때 장치 준수 및 앱 관리 정책 구성
 
 Intune으로 마이그레이션할 때 주요 목표는 모든 장치를 Intune에 등록하고 해당 정책을 준수하도록 하는 것입니다. 장치 정책을 통해 회사 소유의 단일 사용자 장치를 관리할 수 있을 뿐만 아니라 키오스크, POS(Point of Sale) 컴퓨터, 강의실에서 여러 학생이 공유하는 태블릿, 사용자가 지정되지 않은 장치(iOS에만 해당) 등 공유 장치 및 개인 장치(BYOD)를 관리할 수 있습니다.
 

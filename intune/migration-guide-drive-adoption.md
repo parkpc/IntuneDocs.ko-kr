@@ -1,25 +1,26 @@
 ---
-title: "조건부 액세스로 최종 사용자 도입 촉진"
-description: "이 문서는 조건부 액세스를 사용하여 Intune 등록을 촉진하는 방법에 대한 유용한 정보를 제공합니다."
-keywords: 
-author: andredm7
-ms.author: andredm
+title: 조건부 액세스로 최종 사용자 도입 촉진
+titlesuffix: Microsoft Intune
+description: 조건부 액세스를 사용하여 Microsoft Intune에서 등록을 촉진하는 방법에 대해 알아봅니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 06/12/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c2d7ce3f-fe97-4044-ad9e-25ac8fa301c9
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 180cecde31627192363bb00f58fb13f7ec123744
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 31e2a79e5506666cc5ebe655536600b57a429802
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/16/2018
 ---
-# <a name="drive-end-user-adoption-with-conditional-access"></a>조건부 액세스로 최종 사용자 도입 촉진
+# <a name="drive-end-user-adoption-with-conditional-access-in-microsoft-intune"></a>Microsoft Intune에서 조건부 액세스로 최종 사용자 도입 촉진
 
 등록 취소된 장치에 대한 메일 차단과 같은 조건부 액세스 기능을 Intune에서 사용하도록 설정하면 등록 및 준수를 촉진하는 데 도움이 될 수 있지만, 마이그레이션 성공에 필요한 과정은 아닙니다. 마이그레이션 도입 목표 및 보안 요구 사항에서 성공 여부를 결정해야 합니다.
 

@@ -1,25 +1,25 @@
 ---
-title: "Intune을 사용하여 Symantec PKCS 인증서 발급"
-titlesuffix: Azure portal
-description: "Symantec PKI 관리자 웹 서비스에서 Intune으로 관리되는 장치에 대한 PKCS 인증서를 발급하려면 Intune Certificate Connector를 설치 및 구성합니다."
-keywords: 
-author: MicrosoftGuyJFlo
-ms.author: joflore
+title: Microsoft Intune을 사용하여 Symantec PKCS 인증서 발급
+titlesuffix: ''
+description: Symantec PKI 관리자 웹 서비스에서 Intune으로 관리되는 장치에 대한 PKCS 인증서를 발급하려면 Intune Certificate Connector를 설치 및 구성합니다.
+keywords: ''
+author: vhorne
+ms.author: victorh
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 
-ms.reviewer: 
+ms.technology: ''
+ms.assetid: ''
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0f2d37a9033464381de5c23a558d0205f85fe56a
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 1fbb0ccd21ff15cf86656d7badf08002f1e42bb3
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="set-up-intune-certificate-connector-for-symantec-pki-manager-web-service"></a>Symantec PKI 관리자 웹 서비스에 대한 Intune Certificate Connector 설정
 

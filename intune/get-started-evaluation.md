@@ -1,25 +1,25 @@
 ---
-title: "Intune 시작"
-titlesuffix: Azure portal
-description: "짧은 실무 연습 시리즈를 통해 Intune에 대해 알아봅니다."
-keywords: 
+title: Microsoft Intune 시작
+titleSuffix: ''
+description: 짧은 실무 연습 시리즈를 통해 Intune에 대해 알아봅니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 02/23/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6bfab644-c1e2-4154-a254-e95b9a1d75f2
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9a8a2c4b9c88b935e7560457792c02b2e4d08cd2
-ms.sourcegitcommit: 1978a30ab1af0f43aa5f447690d0bbcdcb9b563b
+ms.openlocfilehash: 00f7b3708e20819ad76816587e128ceecee5102b
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="what-can-intune-do-for-my-company"></a>Intune이 회사를 위해 할 수 있는 일은 무엇일까요?
 

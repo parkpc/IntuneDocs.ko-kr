@@ -1,25 +1,25 @@
 ---
-title: "모바일 장치 관리 기관 설정"
+title: 모바일 장치 관리 기관 설정
 titlesuffix: Microsoft Intune
-description: "Intune으로 모바일 장치 관리 기관을 설정합니다."
-keywords: 
+description: Intune으로 모바일 장치 관리 기관을 설정합니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5d48a2cea096c1639cd3661521cd636454f3e0ba
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: ce6464cc6aa67636743479e69ad2b55c9b102ed9
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="set-the-mobile-device-management-authority"></a>모바일 장치 관리 기관 설정
 
@@ -60,7 +60,7 @@ Intune을 MDM 기관으로 설정하면, 사용자는 회사 포털을 설치하
 - **iOS** - (필수) [Apple MDM 푸시 인증서 가져오기](apple-mdm-push-certificate-get.md) 및 [회사 소유 iOS 장치에 대해 등록 사용](ios-enroll.md)(선택 사항)
 - **Android** - (선택 사항) [Android 회사 프로필 사용](android-enroll.md)
 - **Windows** - (선택 사항) [자동 등록](windows-enroll.md) 또는 [대량 등록](windows-bulk-enroll.md) 사용
-- **macOS** - 요구 사항 없음
+- **macOS** - (필수)[Apple MDM 푸시 인증서 가져오기](apple-mdm-push-certificate-get.md)
 
 
 ## <a name="mobile-device-cleanup-after-mdm-certificate-expiration"></a>MDM 인증서 만료 후 모바일 장치 정리

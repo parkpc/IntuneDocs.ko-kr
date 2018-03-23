@@ -1,25 +1,25 @@
 ---
-title: "iOS 교실 앱에 대한 Intune 설정"
-titlesuffix: Azure portal
-description: "iOS 장치에서 교실 앱에 대한 설정을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.\""
-keywords: 
+title: iOS 교실 앱에 대한 Intune 설정
+titleSuffix: Microsoft Intune
+description: iOS 장치에서 교실 앱에 대한 설정을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.
+keywords: ''
 author: barlanmsft
 ms.author: barlan
 manager: dougeby
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 1381a5ce-c743-40e9-8a10-4c218085bb5f
 ms.reviewer: derriw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d9b2e6df6c40ec142554db22a64d362e02884c1d
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 063287ac1bf3441092ff7c9daea5102314384b7d
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="how-to-configure-intune-settings-for-the-ios-classroom-app"></a>iOS 교실 앱에 대한 Intune 설정을 구성하는 방법
 
@@ -59,7 +59,6 @@ SDS는 SIS의 정보를 동기화하고 Azure AD에 저장합니다. Azure AD는
 
 - [CSV 파일](https://support.office.com/article/Follow-these-steps-71d5fe4a-aa51-4f35-9b53-348898a390a1) - 쉼표로 구분된 값(.csv) 파일을 수동으로 내보내고 컴파일합니다.
 - [PowerSchool API](https://support.office.com/article/Follow-these-steps-851b5edc-558f-43a9-9122-b2d63458cb8f) - Azure AD와의 동기화를 간소화하는 SIS 공급자입니다.
-- [Clever API](https://support.office.com/article/Follow-these-steps-f3d92fde-3ad0-48f3-80a1-1ad0ac4a3fae) - 직접 Azure AD와 동기화되는 ID 관리 솔루션입니다.
 - [OneRoster](https://support.office.com/article/Follow-these-steps-f43cbb2a-b502-497d-a8b1-783dc05a57ab) - Azure AD와 동기화하도록 내보내고 변환할 수 있는 CSV 형식입니다.
 
 ### <a name="find-out-more"></a>자세한 정보

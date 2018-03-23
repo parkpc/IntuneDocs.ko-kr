@@ -1,25 +1,25 @@
 ---
-title: "Intune을 사용하여 대량 구매 앱 및 책 관리"
-titlesuffix: Azure portal
-description: "Intune을 사용하여 스토어에서 대량 구매한 앱과 책의 사용을 관리 및 모니터링하는 방법을 알아봅니다.\""
-keywords: 
-author: erikre
+title: Microsoft Intune을 사용하여 대량 구매 앱 및 전자책 관리
+titlesuffix: ''
+description: Microsoft Intune을 사용하여 스토어에서 대량 구매한 앱과 책의 사용을 관리하고 모니터링하는 방법을 알아봅니다."
+keywords: ''
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/03/2017
+ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 85b07f57-661a-4bc8-87d2-7b446d5cf4d6
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: edd39502ae61991c9c596d859c667b65b6e0d3c1
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: b33a129954fbd5bbf5ce3907810ceb7e42849737
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="manage-volume-purchased-apps-and-books-with-microsoft-intune"></a>Microsoft Intune을 사용하여 대량 구매 앱 및 전자책 관리
 

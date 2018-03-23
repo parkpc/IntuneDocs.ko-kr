@@ -1,25 +1,25 @@
 ---
-title: "Managed Browser 앱으로 웹 액세스 관리"
+title: Managed Browser 앱으로 웹 액세스 관리
 titlesuffix: Microsoft Intune
-description: "Managed Browser 응용 프로그램을 배포하여 웹 데이터의 웹 검색 및 다른 앱으로의 전송을 제한합니다."
-keywords: 
-author: erikre
+description: Managed Browser 응용 프로그램을 배포하여 웹 데이터의 웹 검색 및 다른 앱으로의 전송을 제한합니다.
+keywords: ''
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/22/2018
+ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 1feca24f-9212-4d5d-afa9-7c171c5e8525
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f7c36639272bd8738bff33f6039a2d26e6147729
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 742173c1ef53337dab35694c0c04cbca60dbb07c
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Microsoft Intune에서 Managed Browser 정책을 사용하여 인터넷 액세스 관리
 
@@ -35,7 +35,7 @@ Managed Browser는 조직에서 사용하기 위해 공개 앱 스토어에서 �
 - 화면 캡처 방지
 - 사용자가 선택한 콘텐츠에 대한 링크가 다른 관리되는 앱에서만 열리도록 확인.
 
-자세한 내용은 [앱 보호 정책이란?](/intune/app-protection-policy)을 참조하세요.
+자세한 내용은 [앱 보호 정책이란?](/intune/app-protection-policy.md)을 참조하세요.
 
 이러한 설정을 적용할 수 있는 장치는 다음과 같습니다.
 
@@ -59,7 +59,47 @@ Managed Browser는 SSLv3(Secure Sockets Layer 버전 3) 암호화 프로토콜�
 >Android 및 iOS 이전 버전에서도 계속 Managed Browser를 사용할 수는 있지만 새로운 버전의 앱을 설치할 수 없고 모든 기능을 액세스하지 못할 수 있습니다. 이러한 장치를 지원되는 운영 체제 버전으로 업데이트하는 것이 좋습니다.
 
 
-Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https://www.microsoft.com/server-cloud/products/microsoft-intune/partners.aspx)에서 웹 콘텐츠 열기를 지원합니다.
+Intune Managed Browser는 [Microsoft Intune 응용 프로그램 파트너](https://www.microsoft.com/cloud-platform/microsoft-intune-apps)에서 웹 콘텐츠 열기를 지원합니다.
+
+## <a name="conditional-access-for-the-intune-managed-browser"></a>Intune Managed Browser에 대한 조건부 액세스
+
+Managed Browser는 조건부 액세스에 승인된 클라이언트 앱입니다. 즉, 사용자가 Managed Browser만 사용할 수 있는 Azure AD 연결 웹앱에 대한 모바일 브라우저 액세스를 제한할 수 있습니다. 그러면 Chrome 또는 Safari와 같은 다른 보호되지 않는 브라우저에서 액세스를 차단합니다. 이 보호는 Exchange Online 및 SharePoint Online과 같은 Azure 리소스, Office 포털 및 [Azure AD 응용 프로그램 프록시](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started)를 통해 외부 사용자에게 노출한 온-프레미스 사이트에도 적용될 수 있습니다. 
+
+Azure AD 연결 웹앱이 모바일 플랫폼에서 Intune Managed Browser를 사용하도록 제한하려면 승인된 클라이언트 응용 프로그램을 필요로 하는 Azure AD 조건부 액세스 정책을 만들 수 있습니다. 
+
+1. Azure Portal에서 **Azure Active Directory** > **엔터프라이즈 응용 프로그램** > **조건부 액세스** > **새 정책**을 선택합니다. 
+2. 다음으로 블레이드의 **액세스 제어** 섹션에서 **권한 부여**를 선택합니다. 
+3. **승인된 클라이언트 앱 필요**를 클릭합니다. 
+4. **권한 부여** 블레이드에서 **선택**을 클릭합니다. 이 정책은 Intune Managed Browser 앱에만 액세스할 수 있도록 하려는 클라우드 앱에 할당되어야 합니다.
+
+    ![Azure AD - Managed Browser 조건부 액세스 정책](./media/managed-browser-conditional-access-01.png)
+
+5. **할당** 섹션에서 **조건** > **클라이언트 앱**을 선택합니다. **클라이언트 앱** 블레이드가 표시됩니다.
+6. **구성** 아래에서 **예**를 클릭하여 특정 클라이언트 앱에 정책을 적용합니다.
+7. **브라우저**가 클라이언트 앱으로 선택되었는지 확인합니다.
+
+    ![Azure AD - Managed Browser - 클라이언트 앱 선택](./media/managed-browser-conditional-access-02.png)
+
+    > [!NOTE]
+    > 이러한 클라우드 응용 프로그램에 액세스할 수 있는 네이티브 앱(비 브라우저 앱)을 제한하려는 경우 **모바일 앱 및 데스크톱 클라이언트**를 선택할 수도 있습니다.
+
+8. **할당** 섹션에서 **사용자 및 그룹**을 선택한 다음, 이 정책을 할당하려는 사용자 또는 그룹을 선택합니다. 
+
+    > [!NOTE]
+    > 사용자도 Intune 앱 보호 정책에서 대상으로 지정되어야 합니다. Intune 앱 보호 정책에 대한 자세한 내용은 [앱 보호 정책이란?](app-protection-policy.md)을 참조하세요.
+
+9. **할당** 섹션에서 **클라우드 앱**을 선택하여 이 정책으로 보호할 앱을 선택합니다.
+
+위의 정책이 구성되면 사용자는 Intune Managed Browser를 사용하도록 강제하여 이 정책으로 보호한 Azure AD 연결 웹앱에 액세스할 수 있습니다. 사용자가 이 시나리오에서 관리되지 않는 브라우저를 사용하는 경우 Intune Managed Browser를 대신 사용해야 한다는 알림이 표시됩니다.
+
+##  <a name="single-sign-on-to-azure-ad-connected-web-apps-in-the-intune-managed-browser"></a>Intune Managed Browser에서 Azure AD 연결 웹앱에 Single Sign-On
+
+이제 iOS 및 Android의 Intune Managed Browser 응용 프로그램에서는 Azure AD에 연결된 모든 웹앱(SaaS 및 온-프레미스)에 SSO를 활용할 수도 있습니다. Microsoft Authenticator 앱이 iOS 또는 Android의 Intune 회사 포털 앱에 표시되는 경우 Intune Managed Browser의 사용자는 자격 증명을 다시 입력하지 않고도 Azure AD 연결 웹앱에 액세스할 수 있습니다.
+
+Intune Managed Browser에서 SSO하려면 장치를 iOS 또는 Android의 Intune 회사 포털에 있는 Microsoft Authenticator 앱에 등록해야 합니다. 해당 장치가 다른 응용 프로그램에 등록되어 있지 않은 경우 Authenticator 앱 또는 Intune 회사 포털을 사용하는 사용자가 Intune Managed Browser에서 Azure AD 연결 웹앱으로 이동할 때 해당 장치를 등록하라는 메시지가 표시됩니다. 장치가 Intune에서 관리되는 계정으로 등록되면 해당 계정은 Azure AD 연결 웹앱에서 SSO를 사용하도록 설정합니다. 
+
+> [!NOTE]
+> 장치 등록은 Azure AD 서비스를 사용하는 간단한 체크 인입니다. 전체 장치를 등록할 필요가 없고 장치에 대한 추가 권한을 부여하지 않습니다.
 
 ## <a name="create-a-managed-browser-app-configuration"></a>Managed Browser 앱 구성 만들기
 
@@ -102,7 +142,10 @@ Intune Managed Browser와 [Azure AD 응용 프로그램 프록시]( https://docs
     - 응용 프로그램 프록시를 구성하고 응용 프로그램을 게시하려면 [설정 설명서]( https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started#how-to-get-started)를 참조하세요. 
 - 최소 버전 1.2.0의 Managed Browser 앱을 사용해야 합니다.
 - Managed Browser 앱의 사용자는 [Intune 앱 보호 정책]( app-protection-policy.md)이 앱에 할당되어 있습니다.
-참고: 업데이트된 응용 프로그램 프록시 리디렉션 데이터는 Managed Browser에 적용되는 데 최대 24시간이 걸릴 수 있습니다.
+
+    > [!NOTE]
+    > 업데이트된 응용 프로그램 프록시 리디렉션 데이터는 Managed Browser에 적용되는 데 최대 24시간이 걸릴 수 있습니다.
+
 
 #### <a name="step-1-enable-automatic-redirection-to-the-managed-browser-from-outlook"></a>1단계: Outlook에서 Managed Browser로 자동 리디렉션 사용
 **Managed Browser에서 표시할 수 있는 웹 콘텐츠 제한** 설정을 사용하도록 설정하는 앱 보호 정책으로 Outlook이 구성되어 있어야 합니다.
@@ -115,6 +158,7 @@ Intune Managed Browser와 [Azure AD 응용 프로그램 프록시]( https://docs
 |Key|값|
 |**com.microsoft.intune.mam.managedbrowser.AppProxyRedirection**|**true**|
 
+온-프레미스 웹앱에 원활한(및 보호된) 액세스와 함께 Managed Browser와 Azure AD 응용 프로그램 프록시를 사용하는 방법에 대한 자세한 내용은 Enterprise Mobility + Security 블로그 게시물 [연계를 통해 성능 향상: 사용자 액세스를 개선하려는 Intune 및 Azure Active Directory 팀](https://cloudblogs.microsoft.com/enterprisemobility/2017/07/06/better-together-intune-and-azure-active-directory-team-up-to-improve-user-access)을 참조하세요.
 
 ## <a name="how-to-configure-the-homepage-for-the-managed-browser"></a>Managed Browser의 홈페이지를 구성하는 방법
 
@@ -175,12 +219,12 @@ Managed Browser 앱 구성을 만드는 절차를 수행할 때 다음 키와 �
 |-------|---------------|-----------|------------------|
 |http://www.contoso.com|단일 페이지와 일치|www.contoso.com|host.contoso.com<br /><br />www.contoso.com/images<br /><br />contoso.com/|
 |http://contoso.com|단일 페이지와 일치|contoso.com/|host.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com|
-|http://www.contoso.com/&#42;|www.contoso.com으로 시작하는 모든 URL과 일치|www.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com/videos/tvshows|host.contoso.com<br /><br />host.contoso.com/images|
+|http://www.contoso.com/&#42|www.contoso.com으로 시작하는 모든 URL과 일치|www.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com/videos/tvshows|host.contoso.com<br /><br />host.contoso.com/images|
 |http://&#42;.contoso.com/&#42;|contoso.com 아래의 모든 하위 도메인과 일치|developer.contoso.com/resources<br /><br />news.contoso.com/images<br /><br />news.contoso.com/videos|contoso.host.com|
 |http://www.contoso.com/images|단일 폴더와 일치|www.contoso.com/images|www.contoso.com/images/dogs|
 |http://www.contoso.com:80|포트 번호를 사용하여 단일 페이지와 일치|http://www.contoso.com:80|
 |https://www.contoso.com|안전한 단일 페이지와 일치|https://www.contoso.com|http://www.contoso.com|
-|http://www.contoso.com/images/&#42;|단일 폴더 및 모든 하위 폴더와 일치|www.contoso.com/images/dogs<br /><br />www.contoso.com/images/cats|www.contoso.com/videos|
+|http://www.contoso.com/images/&#42|단일 폴더 및 모든 하위 폴더와 일치|www.contoso.com/images/dogs<br /><br />www.contoso.com/images/cats|www.contoso.com/videos|
 
 -   다음은 지정할 수 없는 몇몇 입력의 예입니다.
 
@@ -200,7 +244,7 @@ Managed Browser 앱 구성을 만드는 절차를 수행할 때 다음 키와 �
 
     -   http://&#42;
 
-    -   http://www.contoso.com:&#42;
+    -   http://www.contoso.com:&#42
 
     -   http://www.contoso.com: /&#42;
 
@@ -247,3 +291,7 @@ Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Brows
 
 ### <a name="turn-off-usage-data"></a>사용 데이터 해제
 Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Browser의 성능 및 사용에 대한 익명의 데이터를 자동으로 수집합니다. 사용자는 장치에서 **사용 데이터** 설정을 사용하여 데이터의 수집을 해제할 수 있습니다. 이 데이터의 수집은 제어할 수 없습니다.
+
+## <a name="next-steps"></a>다음 단계
+
+- [앱 보호 정책이란?](app-protection-policy.md)

@@ -1,25 +1,25 @@
 ---
-title: "Azure에서 Intune 기능은 어디에 있나요?"
-titlesuffix: Azure portal
-description: "Azure Portal에서 Intune 기능을 찾는 데 도움이 되는 정보를 제공합니다.”"
-keywords: 
-author: dagerrit
-ms.author: dagerrit
+title: Azure에서 Intune 기능은 어디에 있나요?
+titleSuffix: Microsoft Intune
+description: Azure Portal에서 Microsoft Intune 기능을 찾는 데 도움이 되는 정보를 제공합니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
 ms.date: 1/4/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 
+ms.technology: ''
+ms.assetid: ''
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d15659e78c3b47753e9ef87a99d16ef1687ecf22
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 00f45d9a126e76c45712c6483b458f935e6d0021
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="where-did-my-intune-feature-go-in-azure"></a>Azure에서 Intune 기능은 어디에 있나요?
 Intune 기능을 Azure Portal로 이동하면서 일부 작업을 더 논리적으로 구성할 수 있게 되었습니다. 하지만 개선 작업을 진행할 때마다 항상 새 구성을 학습하는 비용이 발생하게 됩니다. 따라서 클래식 콘솔의 Intune에는 완전히 익숙하지만 Azure Portal의 Intune에서 작업을 수행하는 방법을 궁금해하는 사용자를 위해 이 참조 가이드를 만들었습니다. 찾고 있는 기능이 이 문서에서 다루어지지 않은 경우 Microsoft에서 문서를 업데이트할 수 있도록 문서 하단에 의견을 남겨주세요.

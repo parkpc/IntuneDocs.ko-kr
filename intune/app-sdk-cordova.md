@@ -1,24 +1,24 @@
 ---
-title: "Microsoft Intune 앱 SDK Cordova 플러그 인"
-description: 
+title: Microsoft Intune 앱 SDK Cordova 플러그 인
+description: 개발자는 Intune 앱 SDK Cordova 플러그 인을 사용하여 Cordova 기반 앱에 Intune 앱 및 데이터 보호 기능을 통합할 수 있습니다.
 keywords: sdk, Cordova, intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/02/2018
+ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: bb940cb9-d43f-45ca-b065-ac0adc61dc6f
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d42f8418e2f277dca0fbb2f01248f5a815606cb6
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: 84ff217361108ac3518567f31af8943d0b3032fe
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="microsoft-intune-app-sdk-cordova-plugin"></a>Microsoft Intune 앱 SDK Cordova 플러그 인
 
@@ -36,7 +36,7 @@ Cordova 기반 iOS 및 Android 앱의 [Intune 앱 SDK Cordova 플러그인](/int
 
 ## <a name="supported-platforms"></a>지원되는 플랫폼
 
-* 플러그 인이 Windows, Mac, Linux OS에서 작동
+* 플러그 인이 Windows, Mac 및 Linux OS에서 작동
 * 플러그 인이 `minSdkVersion` >= 14 및 `targetSdkVersion` <= 24의 Android 앱에서 작동
 * 플러그 인이 iOS 9.0 이상을 대상으로 하는 iOS 앱에서 작동
 
@@ -64,7 +64,7 @@ Cordova 기반 iOS 및 Android 앱의 [Intune 앱 SDK Cordova 플러그인](/int
 * [Cordova용 Azure Active Directory 인증 라이브러리(ADAL) 플러그 인](https://github.com/AzureAD/azure-activedirectory-library-for-cordova)의 0.8.0 버전 이상이 필요합니다.
 
 > [!NOTE]
-> [여기](https://issues.apache.org/jira/browse/CB-6227?jql=text%20~%20%22plugin%20dependency%22) 제출된 Apache Cordova로 인해 플러그 인 종속성이 이미 있는 앱은 플러그 인을 요청된 버전으로 자동으로 업그레이드하지 않습니다.
+> [여기](https://issues.apache.org/jira/browse/CB-6227?jql=text%20~%20%22plugin%20dependency%22)에 제출된 Apache Cordova 버그로 인해 플러그 인 종속성이 이미 있는 앱은 플러그 인을 요청된 버전으로 자동으로 업그레이드하지 않습니다.
 
 
 
@@ -118,19 +118,19 @@ $ cordova run --nobuild
 
 예상되는 형식에 대한 자세한 내용은 [정보 Cordova Gradle 서명 정보](https://cordova.apache.org/docs/en/latest/guide/platforms/android/#using-gradle) 참조하세요.
 
-현재에는 `build.json` 또는 매개 변수를 통해 제공된 임의 위치에서 Cordova 빌드에 서명 정보를 제공하는 기능을 지원하지 않습니다.
+현재 Intune은 `build.json` 또는 매개 변수를 통해 제공된 임의 위치에서 Cordova 빌드에 서명 정보를 제공하는 기능을 지원하지 않습니다.
 
 ## <a name="debugging-from-visual-studio"></a>Visual Studio에서 디버깅
 
-앱을 처음 시작한 후 앱이 Intune에서 관리되고 있음을 알리는 대화 상자가 표시됩니다. "다시 표시 안 함"을 누르고 중단점을 누르려면 VS에서 디버그/실행 단추를 다시 클릭합니다.
+앱을 처음 시작한 후에 앱이 Intune에서 관리되고 있음을 알리는 대화 상자가 표시됩니다. "다시 표시 안 함"을 누르고 중단점을 누르려면 VS에서 디버그/실행 단추를 다시 클릭합니다.
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 
 ### <a name="android"></a>Android
 
 * MultiDex 지원은 완전하지 않습니다.
-* 앱은 `minSdkVersion` 14 및 `targetSdkVersion` 24 이하여야 합니다. 현재에는 API 25가 대상인 앱을 지원하지 않습니다.
-* V2 서명 기법을 사용하여 서명된 앱에 다시 서명할 수 없습니다. V2로 서명된 앱을 플러그 인이 래핑하면 래핑된 출력 .apk는 서명이 취소됩니다.
+* 앱은 `minSdkVersion` 14 및 `targetSdkVersion` 24 이하여야 합니다. 현재 Intune은 API 25가 대상인 앱을 지원하지 않습니다.
+* Intune은 V2 서명 구성표를 사용하여 서명된 앱을 다시 서명할 수 없습니다. V2로 서명된 앱을 플러그 인이 래핑하면 래핑된 출력 .apk는 서명이 취소됩니다.
 *
   * 다음을 `build-extras.gradle` 파일에 추가하여 Cordova의 기본 V2 서명을 사용하지 않도록 설정할 수 있습니다.
 
@@ -157,6 +157,6 @@ $ cordova run --nobuild
 
 ### <a name="ios"></a>iOS
 
-* **Info.plist** 파일의 **CFBundleDocumentTypes** 노드에서 UTI 목록을 수정할 때마다 다시 빌드하기 전에 동일한 plist 파일의 Imported UTI 섹션(**UTImportedTypeDeclarations** 노드)에서 Intune UTI를 제거해야 합니다. 모든 Intune UTI는 접두사 `com.microsoft.intune.mam`으로 시작합니다.
+* **Info.plist** 파일의 **CFBundleDocumentTypes** 노드에서 UTI 목록을 수정할 때마다 다시 빌드하기 전에 동일한 plist 파일(**UTImportedTypeDeclarations** 노드)의 가져온 UTI 섹션에서 Intune UTI를 제거해야 합니다. 모든 Intune UTI는 접두사 `com.microsoft.intune.mam`으로 시작합니다.
 
 * 또한 Cordova 프로젝트에서 Cordova용 Intune 앱 SDK 플러그 인을 제거하려는 경우에는 iOS 플랫폼도 제거했다가 다시 추가해야 .xcodeproj 및.plist 파일에 있는 Intune 구성을 실행 취소할 수 있습니다.

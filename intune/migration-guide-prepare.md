@@ -1,25 +1,26 @@
 ---
-title: "모바일 장치 관리를 위한 Intune 준비"
-description: "Intune으로 마이그레이션하기 전에 비즈니스 및 기술 요구 사항을 평가합니다."
-keywords: 
-author: andredm7
-ms.author: andredm
+title: 모바일 장치 관리를 위한 Intune 준비
+titlesuffix: Microsoft Intune
+description: Microsoft Intune으로 마이그레이션하기 전에 비즈니스 및 기술 요구 사항을 평가합니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 06/12/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 58591442-6606-4f39-a06b-f17a1f25af25
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 93c17ff0343c4475bbc665ff2418e1e7860894d5
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 52af99e79b9c97fc38dc911fb55070180667b7a1
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/16/2018
 ---
-# <a name="phase-1-prepare-intune-for-mobile-device-management-mdm"></a>1단계: MDM(모바일 장치 관리)을 위한 Intune 준비
+# <a name="phase-1-prepare-microsoft-intune-for-mobile-device-management-mdm"></a>1단계: MDM(모바일 장치 관리)을 위한 Microsoft Intune 준비
 
 Intune 설정의 세부 정보를 살펴보기 전에 조직의 모바일 장치 관리 요구 사항을 검토해 보겠습니다. 현재 MDM 공급자의 활성 사용자에 대한 보고서를 실행하여 중요한 사용자 그룹을 확인하는 것이 유용할 수 있습니다. 그런 다음 [MDM 요구 사항 평가](migration-guide-prepare.md#assess-mdm-requirements) 섹션의 질문 검토를 시작할 수 있습니다.
 

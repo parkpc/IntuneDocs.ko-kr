@@ -1,26 +1,25 @@
 ---
-title: "Intune을 사용하여 SCEP 인증서 구성 및 관리"
-titlesuffix: Azure portal
-description: "인프라를 구성한 다음 Intune SCEP 인증서 프로필을 만들어 할당하는 방법을 알아봅니다.\""
-keywords: 
-author: arob98
-ms.author: angrobe
+title: Microsoft Intune을 사용하여 SCEP 인증서 구성 및 관리
+description: Microsoft Intune에서 인프라를 구성한 다음, Intune SCEP(단순 인증서 등록 프로토콜) 인증서 프로필을 만들고 할당하는 방법을 보여줍니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d723bc4d5032a7a5c330367fe83eabd4763917a2
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 88109f1dc4543a5c71f36378fddb110c03afa08f
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
-# <a name="configure-and-manage-scep-certificates-with-intune"></a>Intune을 사용하여 SCEP 인증서 구성 및 관리
+# <a name="configure-and-manage-scep-certificates-with-microsoft-intune"></a>Microsoft Intune을 사용하여 SCEP 인증서 구성 및 관리
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 이 항목에서는 Intune에서 인프라를 구성하고 SCEP(단순 인증서 등록 프로토콜) 인증서를 만들고 할당하는 방법을 보여 줍니다.

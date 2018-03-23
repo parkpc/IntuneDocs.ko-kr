@@ -1,24 +1,24 @@
 ---
-title: "Microsoft Intune의 30일 무료 평가판 등록"
-titleSuffix: Azure portal
-description: "Intune 30일 평가판에 등록하는 방법.\""
-keywords: 
-author: arob98
-ms.author: angrobe
+title: Microsoft Intune의 30일 무료 평가판 등록
+titleSuffix: Microsoft Intune
+description: Microsoft Intune의 30일 무료 평가판에 등록하는 방법에 대해 알아봅니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
 ms.date: 03/04/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 195931c0-8208-43bd-b0af-b1f8e469a32c
 ms.suite: ems
-ms.custom: 
-ms.openlocfilehash: 08fa759515d437e40a751ce39b3ef617dd92e83f
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.custom: ''
+ms.openlocfilehash: 389981fc207371d64064872235fc9babde6b3f6a
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="sign-up-for-a-microsoft-intune-free-trial"></a>Microsoft Intune 무료 평가판 등록
 
@@ -30,11 +30,15 @@ ms.lasthandoff: 03/08/2018
 
 * 대부분의 IT 작업자 및 사용자가 여러분과 다른 로캘에 있는 경우 **회사 위치는 어디입니까?** 아래에서 로캘을 선택할 수 있습니다.
 
-2. 등록 프로세스가 끝나면 새 계정 정보가 포함된 메시지가 제공됩니다. <br/> ![계정 정보 이미지](./media/2-end-of-sign-up-process.png) <br/>이제 **준비가 되었습니다.**를 클릭하면 테스트 환경에 사용자를 추가할 수 있는 Office 365 관리 센터로 이동합니다. <br/><br/>그러나 Intune Azure Portal로 직접 이동하려면 새 브라우저 창을 열고 주소 표시줄에 **https://portal.azure.com**을 입력합니다. 그러면 제공된 자격 증명을 사용하여 로그인할 수 있는 Azure 로그인 페이지로 이동합니다. Intune 평가판에 로그인할 때마다 이 주소를 사용합니다. <br/> ![Azure Portal 로그인 페이지 이미지](./media/azure-portal-signin.png)
+2. 등록 프로세스가 끝나면 새 계정 정보가 포함된 메시지가 제공됩니다. <br/> 
+
+![계정 정보 이미지](./media/2-end-of-sign-up-process.png) <br/>
+
+이제 **준비가 되었습니다.**를 클릭하면 테스트 환경에 사용자를 추가할 수 있는 Office 365 관리 센터로 이동합니다. <br/><br/>그러나 Intune Azure Portal로 직접 이동하려면 새 브라우저 창을 열고 주소 표시줄에 **https://portal.azure.com**을 입력합니다. 그러면 제공된 자격 증명을 사용하여 로그인할 수 있는 Azure 로그인 페이지로 이동합니다. Intune 평가판에 로그인할 때마다 이 주소를 사용합니다. <br/> ![Azure Portal 로그인 페이지 이미지](./media/azure-portal-signin.png)
 
 Intune [Azure portal](https://portal.azure.com)에 처음으로 로그온한 경우 Azure 대시보드에 Intune이 표시되지 않을 수 있습니다. Azure 대시보드에 Intune 서비스를 추가하려면 다음을 수행합니다.
 1. 대시보드의 왼쪽에 있는 Azure 서비스 목록에서 **모든 서비스 >**를 선택하고 검색 상자에 **Intune**을 입력합니다.
-2. 목록에서 **Intune**을 선택하고, 별표를 선택하여 서비스 목록에 서비스를 추가합니다.<br/> ![서비스 목록에서 Intune을 선택하는 이미지](./media/azure-add-intune1.png)
+2. 목록에서 **Intune**을 선택하고, 별표를 선택하여 서비스 목록에 서비스를 추가합니다.<br/> ![Azure Portal 내에서 Microsoft Intune 선택 이미지](./media/azure-add-intune1.png)
 3. 그런 다음 서비스 목록에서 **Intune**을 선택하면 Intune 대시보드가 열립니다.
 
 평가판에 등록하는 경우 등록 과정 중에 제공한 메일 주소로 계정 정보가 포함된 메일 메시지도 제공됩니다. 이 전자 메일을 통해 평가판이 활성화된 것을 확인합니다.

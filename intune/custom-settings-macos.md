@@ -1,23 +1,23 @@
 ---
-title: "macOS를 실행하는 장치에 대한 Microsoft Intune 사용자 지정 설정"
-titleSuffix: 
-description: "macOS 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다."
-keywords: 
+title: macOS를 실행하는 장치에 대한 Microsoft Intune 사용자 지정 설정
+titleSuffix: ''
+description: Microsoft Intune의 macOS 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5ccc9d48eb16ce155bbed2bbdf38793b8f3bdfda
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: e8dc2042d7f88cf626d7420d4760255e1e9a3469
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="microsoft-intune-custom-device-settings-for-devices-running-macos"></a>macOS를 실행하는 장치에 대한 Microsoft Intune 사용자 지정 장치 설정
 

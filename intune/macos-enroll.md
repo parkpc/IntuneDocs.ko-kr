@@ -1,25 +1,25 @@
 ---
-title: "macOS 장치에 대한 등록 설정"
+title: macOS 장치에 대한 등록 설정
 titlesuffix: Microsoft Intune
-description: "Intune에서 macOS 장치 등록을 설정하는 방법을 알아봅니다."
-keywords: 
+description: Intune에서 macOS 장치 등록을 설정하는 방법을 알아봅니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 10/30/2017
+ms.date: 03/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 46429114-2e26-4ba7-aa21-b2b1a5643e01
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 77a1551321079765f00f0e35d57211ae4c99e5a6
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: c1fb846dc65ee14315edf7b9ba15e0e24998a3a2
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="set-up-enrollment-for-macos-devices-in-intune"></a>Intune에서 macOS 장치 등록 설정
 
@@ -53,9 +53,20 @@ macOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료
 
 ## <a name="tell-your-users-how-to-enroll-their-devices-to-access-company-resources"></a>회사 리소스에 액세스할 수 있도록 사용자에게 장치를 등록하는 방법 설명
 
-최종 사용자에게 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 가서 메시지를 따라 장치를 등록하도록 알립니다. 또한 온라인 등록 단계: [macOS Intune에서 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos)에 대한 링크를 최종 사용자에게 전송할 수 있습니다.
+최종 사용자에게 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)로 가서 메시지를 따라 장치를 등록하도록 알립니다. 또한 온라인 등록 단계: [macOS Intune에서 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos)에 대한 링크를 최종 사용자에게 전송할 수 있습니다.
 
 최종 사용자의 다른 작업에 대한 정보는 다음 문서를 참조하세요.
 
 - [Microsoft Intune에서 최종 사용자 환경 관련 리소스](end-user-educate.md)
 - [Intune에서 macOS 장치 사용](/intune-user-help/using-your-macos-device-with-intune)
+
+## <a name="enroll-virtual-macos-machines-for-testing"></a>테스트를 위해 macOS 가상 머신 등록
+
+> [!NOTE]
+> 테스트에는 macOS 가상 머신만이 지원됩니다. 최종 사용자에 대한 프로덕션 장치로 macOS 가상 머신을 사용하지 않아야 합니다. 
+
+병렬 데스크톱 또는 VMware Fusion 중 하나를 사용하여 테스트를 위해 macOS 가상 머신을 등록할 수 있습니다. 
+
+병렬 데스크톱의 경우 Intune이 인식할 수 있도록 가상 머신의 하드웨어 형식 및 일련 번호를 설정해야 합니다. [하드웨어 형식](http://kb.parallels.com/123594) 및 [일련 번호](http://kb.parallels.com/123455)를 설정하는 병렬 지침에 따라 테스트에 필요한 설정을 지정합니다. 가상 머신을 실행하는 장치의 하드웨어 형식을 사용자가 만드는 가상 머신의 하드웨어 형식과 일치시키는 것이 좋습니다. **Apple 메뉴** > **이 Mac 정보** > **시스템 보고서** > **모델 식별자**에서 이러한 하드웨어 형식을 찾을 수 있습니다. 
+
+VMware Fusion의 경우 [.vmx 파일을 편집](https://kb.vmware.com/s/article/1014782)하여 가상 머신의 하드웨어 모델 및 일련 번호를 설정해야 합니다. 가상 머신을 실행하는 장치의 하드웨어 형식을 사용자가 만드는 가상 머신의 하드웨어 형식과 일치시키는 것이 좋습니다. **Apple 메뉴** > **이 Mac 정보** > **시스템 보고서** > **모델 식별자**에서 이러한 하드웨어 형식을 찾을 수 있습니다. 

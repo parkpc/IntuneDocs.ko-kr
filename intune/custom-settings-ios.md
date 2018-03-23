@@ -1,23 +1,23 @@
 ---
-title: "iOS를 실행하는 장치에 대한 Microsoft Intune 사용자 지정 설정"
-titleSuffix: Azure portal
-description: "iOS 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다."
-keywords: 
+title: iOS를 실행하는 장치에 대한 Microsoft Intune 사용자 지정 설정
+titleSuffix: ''
+description: Microsoft Intune의 iOS 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 40e34a2e22c9349cad63d813b892863e0e8a2933
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 3c92b8816dd6c5afd96cb8853b6d251ff5befaf4
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="microsoft-intune-custom-device-settings-for-devices-running-ios"></a>iOS를 실행하는 장치에 대한 Microsoft Intune 사용자 지정 장치 설정
 

@@ -1,28 +1,28 @@
 ---
-title: "Intune에서 Office 365 앱에 대해 기본 데이터 관리 설정"
-titlesuffix: Azure portal
-description: "Office 365 앱 관리 마법사에 대한 보충 설명서입니다.\""
-keywords: 
+title: Microsoft Intune에서 Office 365 앱의 데이터 관리
+titlesuffix: ''
+description: Microsoft Intune에서 Office 365 앱의 데이터 관리에 대해 자세히 알아봅니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 08/01/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 852612ac-f146-4372-a900-3f6fdebd05ad
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: ayesham
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e12f5becc1f3c03af0ee6d1fab9cd7ee16f2a547
-ms.sourcegitcommit: 80a2eefc1896a42cc2bc16be23093d1abf58b088
+ms.openlocfilehash: fa784d0b446e3de180ce47ec51d3440522966fad
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/16/2018
 ---
-# <a name="how-your-users-will-experience-basic-protection-on-managed-office-365-apps"></a>사용자에게 관리되는 Office 365 앱에 대한 기본 보호 환경을 제공하는 방법
+# <a name="how-your-users-will-experience-basic-protection-on-managed-office-365-apps-in-microsoft-intune"></a>Microsoft Intune에서 사용자가 관리되는 Office 365 앱에 대한 기본 보호 환경을 사용하는 방법
 
 **Office 365 관리 앱** 마법사는 각 장치 플랫폼에 대한 앱 보호 정책을 만듭니다.
 
@@ -46,30 +46,30 @@ ms.lasthandoff: 02/27/2018
 
 ## <a name="user-experience-on-an-ios-device"></a>iOS 장치의 사용자 환경
 
-1. 비즈니스용 OneDrive 앱을 시작하여 로그인 페이지를 엽니다.  <br/> ![iOS용 OneDrive 로그인 화면의 이미지](./media/onedrive-ios-sign-in.png)
-2. 회사 계정 사용자 이름을 입력합니다. 회사 자격 증명을 입력할 수 있도록 Office 365 인증 페이지로 리디렉션됩니다. <br/> ![Office 365 로그인 페이지의 이미지](./media/o365-sign-in-ios.png)
-3. Azure Active Directory에서 자격 증명이 인증되면 앱 보호 정책이 적용되며, 비즈니스용 OneDrive 앱을 다시 시작하라는 메시지가 표시됩니다.  <br/>![iOS에 대한 다시 시작 메시지의 이미지](./media/ios-restart-prompt.png)    
+1. 비즈니스용 OneDrive 앱을 시작하여 로그인 페이지를 엽니다.  
+2. 회사 계정 사용자 이름을 입력합니다. 회사 자격 증명을 입력할 수 있도록 Office 365 인증 페이지로 리디렉션됩니다. 
+3. Azure Active Directory에서 자격 증명이 인증되면 앱 보호 정책이 적용되며, 비즈니스용 OneDrive 앱을 다시 시작하라는 메시지가 표시됩니다. 
+
   > [!NOTE]
   > Intune에서 등록되지 않은 장치에서만 다시 시작 필요 메시지가 표시됩니다.
 
+4. 비즈니스용 OneDrive 앱을 다시 시작합니다. 설정된 앱 보호 정책으로 앱이 시작되고 장치의 PIN을 설정하라는 메시지가 표시됩니다(장치의 PIN을 아직 구성하지 않은 경우).  
 
-4. 비즈니스용 OneDrive 앱을 다시 시작합니다. 설정된 앱 보호 정책으로 앱이 시작되고 장치의 PIN을 설정하라는 메시지가 표시됩니다(장치의 PIN을 아직 구성하지 않은 경우). <br/> ![PIN을 만들라는 메시지의 이미지](./media/pin-prompt-ios.png)    
   > [!NOTE]
   > 대부분의 사용자에게는 이 메시지가 표시되지 않습니다. iOS 장치에서 PIN을 사용하도록 설정하지 않은 사용자에게만 이 메시지가 표시됩니다.
 
-
-5. PIN을 설정하고 확인했으면 비즈니스용 OneDrive 앱으로 돌아갑니다. 이제 IT 관리자가 OneDrive에서 작업 데이터를 보호함을 알리는 일회성 알림이 표시됩니다. <br/> ![IT 관리자의 일회성 알림 이미지](./media/one-time-notice.png)
-6. 이 알림을 클릭하면 비즈니스용 OneDrive에서 파일에 액세스할 수 있습니다. <br/> ![iOS 장치의 OneDrive 파일 이미지](./media/onedrive-files-ios.png) <br/>
+5. PIN을 설정하고 확인했으면 비즈니스용 OneDrive 앱으로 돌아갑니다. 이제 IT 관리자가 OneDrive에서 작업 데이터를 보호함을 알리는 일회성 알림이 표시됩니다. 
+6. 이 알림을 클릭하면 비즈니스용 OneDrive에서 파일에 액세스할 수 있습니다. 
 
 >[!NOTE]
 >배포된 정책을 변경하는 경우 다음에 앱을 열 때 변경 내용이 적용됩니다.
-
 
 ## <a name="user-experience-on-an-android-device"></a>Android 장치의 사용자 환경
 
 1. 비즈니스용 OneDrive 앱을 시작하여 로그인 페이지를 엽니다.  <br/> ![OneDrive 앱 시작 화면 이미지](./media/onedrive-android-welcome.png)
 2. 회사 계정 사용자 이름을 입력합니다. 회사 자격 증명을 입력할 수 있도록 Office 365 인증 페이지로 리디렉션됩니다. <br/> ![Android의 O365 로그인 이미지](./media/o365-sign-in-android.png)
-3. Azure Active Directory에서 자격 증명이 인증되면 회사 포털 앱을 설치하는 지침이 포함된 메시지가 표시됩니다(아직 장치에 설치되지 않은 경우). **스토어로 이동**을 탭하여 계속 진행합니다. <br/> ![회사 포털 앱을 가져오는 메시지의 이미지](./media/get-company-portal-android.png) <br/>회사 포털 앱이 휴대폰에 이미 설치된 경우 비즈니스용 OneDrive 앱이 자동으로 시작되며 마지막 메모로 건너뛸 수 있습니다.    
+3. Azure Active Directory에서 자격 증명이 인증되면 회사 포털 앱을 설치하는 지침이 포함된 메시지가 표시됩니다(아직 장치에 설치되지 않은 경우). **스토어로 이동**을 탭하여 계속 진행합니다. <br/> ![회사 포털 앱을 가져오는 메시지의 이미지](./media/get-company-portal-android.png) <br/>회사 포털 앱이 휴대폰에 이미 설치된 경우 비즈니스용 OneDrive 앱이 자동으로 시작되며 마지막 메모로 건너뛸 수 있습니다.   
+
   > [!IMPORTANT]
   > Android에서 앱 보호 정책을 통해 관리할 Office 앱을 설정한 후 장치 사용자는 실제로 메일이나 문서를 읽기 위해 앱을 열거나 로그인할 필요가 없지만 회사 포털 앱을 설치**해야** 회사 메일 및 문서에 액세스할 수 있습니다.
 
@@ -128,4 +128,4 @@ Android에서 Intune 앱 보호 정책과 연결된 앱의 경우 데이터는 �
 ![정책을 표시하는 사용자 인터페이스 경로 이미지](./media/image-for-faq.png)
 
 ## <a name="next-steps"></a>다음 단계
-[앱 보호 정책](app-protection-policy.md)에 대해 자세히 알아봅니다.
+- [앱 보호 정책](app-protection-policy.md)에 대해 자세히 알아봅니다.

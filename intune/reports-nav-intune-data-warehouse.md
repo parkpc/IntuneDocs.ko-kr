@@ -1,24 +1,25 @@
 ---
-title: "Intune 데이터 웨어하우스 API  | Microsoft 문서"
-description: "API를 사용하여 회사의 모바일 환경에 대한 정보를 제공하는 보고서를 작성할 수 있습니다."
-keywords: "Intune 데이터 웨어하우스"
+title: Intune 데이터 웨어하우스 API
+titlesuffix: Microsoft Intune
+description: Intune 데이터 웨어하우스 API를 사용하여 기업 모바일 환경에 대한 정보를 제공하는 보고서를 빌드할 수 있습니다.
+keywords: Intune 데이터 웨어하우스
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/31/2017
+ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 701D6CE9-43F6-4A29-8E84-E2B59931C635
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e5c12ea4212bf7276b2cb0a4b09ecff648d67583
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 7291e6f0d6094801383ba7fd606c0238e85ba01f
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/16/2018
 ---
 #  <a name="intune-data-warehouse-api"></a>Intune 데이터 웨어하우스 API
 
@@ -65,4 +66,4 @@ OData는 모든 클라이언트가 데이터 소스에서 노출된 정보에 �
 
 [odata.org](http://www.odata.org)에서 OData 리소스를 찾습니다.
   
-[OData 버전 4.0](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)에서 OData 버전 4.0 표준을 검토합니다.  
+[OData 버전 4.0]에서 OData 버전 4.0 표준을 검토합니다(http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html).  

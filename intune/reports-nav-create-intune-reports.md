@@ -1,25 +1,25 @@
 ---
-title: "Intune 데이터 웨어하우스 사용"
+title: Intune 데이터 웨어하우스 사용
 titlesuffix: Microsoft Intune
-description: "Intune 데이터 웨어하우스를 사용하여 기업 모바일 환경에 대한 정보를 제공하는 보고서를 만듭니다."
-keywords: "Intune 데이터 웨어하우스"
+description: Intune 데이터 웨어하우스를 사용하여 기업 모바일 환경에 대한 정보를 제공하는 보고서를 만듭니다.
+keywords: Intune 데이터 웨어하우스
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 57019B11-DF9B-4D8A-95FE-254C75398DDE
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: dd90c9d51fe212b0675da4d6039a535be0ff3c89
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 328d8b3787bcef20a1d4949eba427cd8737edafe
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="use-the-intune-data-warehouse"></a>Intune 데이터 웨어하우스 사용
 
@@ -37,7 +37,7 @@ Intune 데이터 웨어하우스를 사용하여 기업 모바일 환경에 대�
   -  OData 표준을 사용하는 데이터 모델
 
 > [!Note]
-> System Center Configuration Manager 및 Microsoft Intune과 함께 하이브리드 MDM(모바일 장치 관리)을 사용하는 경우 SCCM에서 데이터를 검색하고자 합니다. Intune 데이터 웨어하우스에는 Intune 데이터만 포함됩니다. 사용자 지정 보고서에 대한 SCCM Power BI 대시보드를 사용할 수 있습니다. 자세한 내용은 “[System Center Configuration Manager에 대한 Power BI 솔루션 템플릿 발표]( https://powerbi.microsoft.com/blog/sccm-solution-template)” 및 “[Power BI 보고서 및 대시보드 만들기](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/create-powerbi-report-dashboard)”를 참조하세요.
+> System Center Configuration Manager 및 Microsoft Intune과 함께 하이브리드 MDM(모바일 장치 관리)을 사용하는 경우 SCCM에서 데이터를 검색하고자 합니다. Intune 데이터 웨어하우스에는 Intune 데이터만 포함됩니다. 사용자 지정 보고서에 대한 SCCM Power BI 대시보드를 사용할 수 있습니다. 자세한 내용은 "[System Center Configuration Manager에 대한 Power BI 솔루션 템플릿 발표]( https://powerbi.microsoft.com/blog/sccm-solution-template)" 및 "[Dynamics 365의 Power BI 콘텐츠](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page)"를 참조하세요.
 
 
 > [!Important]  

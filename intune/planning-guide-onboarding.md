@@ -1,26 +1,27 @@
 ---
-title: "Intune 온보딩 프로세스"
-description: "이 문서에는 Intune 클라우드 전용 솔루션을 환경에 온보딩할 때 고려해야 하는 유용한 모든 세부 정보가 포함되어 있습니다."
-keywords: 
-author: arob98
-ms.author: angrobe
+title: Intune 온보딩 프로세스
+titlesuffix: Microsoft Intune
+description: 이 아티클에는 Microsoft Intune 클라우드 전용 솔루션을 환경에 온보딩할 때 고려해야 하는 유용한 모든 세부 정보가 포함되어 있습니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ac7bd764-5365-4920-8fd0-ea57d5ebe039
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 29560058c386c9e8f6d8734e241ea74a8b780eb1
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: c0c88ddf84e7dfd3eed83f846ccfc3ff9c4da2d5
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/17/2018
 ---
-# <a name="implement-your-intune-plan"></a>Intune 계획 구현
+# <a name="implement-your-microsoft-intune-plan"></a>Microsoft Intune 계획 구현
 
 온보딩 단계에서 프로덕션 환경에 Intune을 배포합니다. 구현 프로세스는 [사용 사례 요구 사항](planning-guide-requirements.md)에 따른 Intune 및 외부 종속성(필요한 경우) 설정과 구성으로 이루어져 있습니다.
 
