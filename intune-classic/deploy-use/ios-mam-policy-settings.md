@@ -1,27 +1,30 @@
 ---
-title: "iOS MAM 정책 설정"
-description: "이 항목에서는 iOS 장치용 모바일 앱 관리 정책 설정에 대해 설명합니다."
-keywords: 
+title: iOS MAM 정책 설정
+description: 이 항목에서는 iOS 장치용 모바일 앱 관리 정책 설정에 대해 설명합니다.
+keywords: ''
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
 ms.date: 04/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 673ff872-943c-4076-931c-0be90363aea9
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ae861de505964e830aadc1cd913561462762f282
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: c4a87223a25ba26492e8db1731594f844136e003
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/20/2018
 ---
 #  <a name="ios-mobile-app-protection-policy-settings"></a>iOS 모바일 앱 보호 정책 설정
+
+> [!IMPORTANT]
+> Intune 앱 보호 정책을 Azure Portal에 완전히 마이그레이션하면 이 페이지에 있는 콘텐츠는 이제 사용하지 않게 됩니다. [Azure Portal에서 iOS용 Intune 앱 보호 정책](https://docs.microsoft.com/intune/app-protection-policy-settings-ios)에 대해 자세히 알아봅니다.
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
@@ -31,7 +34,7 @@ ms.lasthandoff: 10/10/2017
 
 ##  <a name="data-relocation-settings"></a>데이터 재배치 설정
 
-| 설정 | 사용 방법 | 기본값 |
+| Setting | 사용 방법 | 기본값 |
 |------|------|------|
 | **iTunes 및 iCloud 백업 차단** | 이 앱이 회사 또는 학교 데이터를 iTunes 및 iCloud로 백업하는 것을 방지하려면 **예**를 선택합니다. 이 앱이 회사 또는 학교 데이터를 iTunes 및 iCloud로 백업하도록 허용하려면 **아니요**를 선택합니다.| 예 |
 | **앱이 다른 앱으로 데이터를 전송하도록 허용** | 이 앱에서 데이터를 받을 수 있는 앱을 지정합니다. <ul><li> **정책 관리 앱**: 다른 정책 관리 앱으로만 데이터를 전송하도록 허용합니다.</li> <li>**모든 앱**: 모든 앱으로의 전송을 허용합니다. </li> <li>**없음**: 다른 정책 관리 앱을 포함한 모든 앱에 대한 데이터 전송을 허용하지 않습니다.</li></ul> 또한 이 옵션을 **정책 관리 앱** 또는 **없음**으로 설정하는 경우 스포트라이트 검색을 통해 앱 내의 데이터를 검색할 수 있는 iOS 9 기능이 차단됩니다. <br><br> 예외적으로 intune에서 데이터를 전송할 수 있는 몇 가지 앱 및 서비스가 있습니다. 전체 앱 및 서비스 목록은 [데이터 전송 예외](#Data-transfer-exemptions)를 참조하세요. | 모든 앱 |
@@ -64,7 +67,7 @@ Intune 앱 보호 정책에서 특정 시나리오의 데이터 송수신을 허
 
 ## <a name="access-settings"></a>액세스 설정
 
-| 설정 | 사용 방법 | 기본값 |
+| Setting | 사용 방법 | 기본값 |
 |------|------|------|
 | **액세스하려면 PIN 필요** | 이 앱을 사용하는 데 PIN을 요구하려면 **예**를 선택합니다. 회사 또는 학교 컨텍스트에서 앱을 처음으로 실행할 때 이 PIN을 설정하라는 메시지가 표시됩니다. 기본값은 **예**입니다.<br><br> PIN 강도에 대한 다음 설정을 구성합니다. <ul><li>**PIN 초기화 전 시도 횟수**: 초기화하기 전까지 PIN을 성공적으로 입력하기 위해 시도할 수 있는 횟수를 지정합니다. 기본값 = **5**.</li><li> **단순한 PIN 허용**: 1234 또는 1111과 같은 단순한 PIN 시퀀스를 사용할 수 있도록 허용하려면 **예**를 선택합니다. 단순한 순서를 사용하는 것을 방지하려면 **아니요**를 선택합니다. 기본값은 **예**입니다. </li><li> **PIN 길이**: PIN 시퀀스의 최소 자릿수를 지정합니다. 기본값은 **4**입니다. </li><li> **PIN 대신 지문 허용(iOS 8.0 이상)**: 사용자가 앱 액세스를 위해 PIN 대신 [Touch ID](https://support.apple.com/HT201371)를 사용하도록 허용하려면 **예**를 선택합니다. 기본값은 **예**입니다.</li></ul> iOS 장치에서 사용자가 PIN 대신 [Touch ID](https://support.apple.com/HT201371)를 사용하여 자신의 ID를 증명하도록 허용할 수 있습니다. 회사 또는 학교 계정으로 이 앱을 열려고 하면 PIN을 입력하는 대신 해당 지문 ID를 제공하라는 메시지가 표시됩니다. 이 설정을 사용하는 경우 회사 또는 학교 계정을 사용하는 동안 최근 실행 앱 미리 보기 이미지가 흐리게 표시됩니다. </li></ul>| PIN 필요: 예 <br><br> PIN 초기화 시도 횟수: 5 <br><br> 단순한 PIN 허용: 예 <br><br> PIN 길이: 4 <br><br> 지문 허용: 예 |
 | **액세스 시 회사 자격 증명 필요** | 앱 액세스에 PIN을 입력하는 대신 해당 회사 또는 학교 계정으로 로그인하도록 요구하려면 **예**를 선택합니다. 이 옵션을 **예**로 설정하면 PIN 또는 터치 ID에 대한 요구 사항이 재정의됩니다.  | 아니요 |

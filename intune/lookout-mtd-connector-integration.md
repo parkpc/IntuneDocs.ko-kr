@@ -1,25 +1,25 @@
 ---
-title: "Microsoft Intune과 Lookout 통합 설정"
-titlesuffix: 
-description: "회사 리소스에 대한 모바일 장치 액세스를 제어하기 위해 Lookout MTD(Mobile Threat Defense)와 Intune을 통합하는 방법을 알아봅니다."
-keywords: 
+title: Microsoft Intune과 Lookout 통합 설정
+titlesuffix: ''
+description: 회사 리소스에 대한 모바일 장치 액세스를 제어하기 위해 Lookout MTD(Mobile Threat Defense)와 Intune을 통합하는 방법을 알아봅니다.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5b0d7644-3183-45ba-a165-0d82d70cb71e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7ffd55a82af4f7fdc8d8df7cab818c59def74109
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 8b1b7d9ef1a7dce0b5a139f3b8acb85ab7d11d4c
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="set-up-your-lookout-mobile-threat-defense-integration-with-intune"></a>Intune과 Lookout Mobile Threat Defense 통합 설정
 
@@ -67,13 +67,11 @@ Lookout Mobility Endpoint Security 테넌트가 Azure AD 구독과 연결되어 
 
 ## <a name="configure-your-subscription"></a>구독 구성
 
-1. Lookout 지원 팀이 Lookout 엔터프라이즈 계정을 만들면 Lookout에서 사용자 회사의 주요 담당자에게 로그인 링크(url:https://aad.lookout.com/les?action=consent)가 담긴 메일이 전송됩니다.
+1. Lookout 지원 팀이 Lookout 엔터프라이즈 계정을 만들면 Lookout에서 사용자 회사의 주요 담당자에게 로그인 URL에 대한 링크(https://aad.lookout.com/les?action=consent)가 포함된 이메일을 전송합니다.
 
 2.  Azure AD 테넌트를 등록하려면 Lookout 콘솔에 처음 로그인할 때 Azure AD 역할이 전역 관리자인 사용자 계정을 사용해야 합니다. 이후에는 로그인에 이 수준의 Azure AD 권한이 필요하지 않습니다. 동의 페이지가 표시됩니다. **동의**를 선택하여 등록을 완료합니다. 동의하고 승인하면 Lookout 콘솔로 리디렉션됩니다.
 
     ![Lookout 콘솔의 첫 번째 로그인 페이지 스크린샷](./media/lookout_mtp_initial_login.png)
-    > [!NOTE] 
-    > 로그인 문제에 도움이 필요한 경우 [Intune과 Lookout의 통합 문제 해결](https://docs.microsoft.com/intune/troubleshoot/troubleshooting-lookout-integration)을 참조하세요.
 
 3.  [Lookout 콘솔](https://aad.lookout.com)의 **시스템** 모듈에서 **커넥터** 탭과 **Intune**을 차례로 선택합니다.
 

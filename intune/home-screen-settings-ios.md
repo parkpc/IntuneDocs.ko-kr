@@ -1,23 +1,23 @@
 ---
-title: "iOS를 실행하는 장치에 대해 Microsoft Intune 홈 화면 레이아웃 설정"
-titlesuffix: Azure portal
-description: "iOS를 실행하는 장치에서 홈 화면과 Dock를 사용자 지정하는 데 사용할 수 있는 설정을 알아봅니다."
-keywords: 
+title: iOS를 실행하는 장치에 대해 Microsoft Intune 홈 화면 레이아웃 설정
+titleSuffix: ''
+description: iOS를 실행하는 장치에서 홈 화면과 Dock를 사용자 지정하는 데 사용할 수 있는 Microsoft Intune의 설정에 대해 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 03/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 88be142c98d7b89720d245c738a45a26ac825395
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 56527da7ac8c2ed00a4b33049c8ba4ad03299976
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="microsoft-intune-home-screen-layout-settings-for-devices-running-ios"></a>iOS를 실행하는 장치에 대해 Microsoft Intune 홈 화면 레이아웃 설정
 

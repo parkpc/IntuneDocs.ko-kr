@@ -1,24 +1,24 @@
 ---
-title: "Microsoft Intune 서비스 설명"
-description: "Intune은 Windows, iOS, Mac OS X, Android 및 Windows 모바일 장치를 관리하는 데 유용한 클라우드 기반 서비스입니다."
-keywords: 
-author: arob98
-ms.author: angrobe
+title: Microsoft Intune 서비스 설명
+description: Microsoft Intune은 Windows, iOS, Mac OS X, Android 및 Windows 모바일 장치를 관리하는 데 유용한 클라우드 기반 서비스입니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 01/02/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 40fa5a2e-6c0f-4150-9740-d5ddc0cdbda0
 ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f4671f643f9806945043adcb9279c7bc95d8efe2
-ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
+ms.openlocfilehash: 7b9c3965d99e0058ae0236e1efc3daa840aebc6c
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="microsoft-intune-service-description"></a>Microsoft Intune 서비스 설명
 
@@ -33,7 +33,7 @@ Intune은 ID 및 액세스 제어를 위한 Azure AD(Azure Active Directory) 및
 Intune을 사용하여 장치 및 앱을 관리하고 회사 데이터를 보호하는 방법에 대한 자세한 내용은 [Intune 설명서](https://docs.microsoft.com/intune/)를 참조하세요.
 
 ## <a name="30-day-free-trial"></a>30일 평가판
-100개의 사용자 라이선스를 포함하는 30일 무료 평가판으로 Intune 사용을 시작할 수 있습니다. 무료 평가판을 시작하려면 [Intune 등록 페이지로 이동하세요](https://www.microsoft.com/server-cloud/products/microsoft-intune/). 조직에서 기업 계약 또는 이와 동등한 볼륨 라이선스 계약을 맺은 경우 Microsoft 담당자에게 문의하여 무료 평가판을 설정하세요.
+100개의 사용자 라이선스를 포함하는 30일 무료 평가판으로 Intune 사용을 시작할 수 있습니다. 무료 평가판을 시작하려면 [Intune 등록 페이지로 이동하세요](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20). 조직에서 기업 계약 또는 이와 동등한 볼륨 라이선스 계약을 맺은 경우 Microsoft 담당자에게 문의하여 무료 평가판을 설정하세요.
 
 > [!NOTE]
 > 조직에 Microsoft Online Services 회사 또는 학교 계정이 있고 평가 기간이 종료된 후 프로덕션에서 이 Intune 구독을 계속 사용할 수 있는 경우, 해당 페이지에서 **로그인** 옵션을 선택하고 조직의 전역 관리자 계정을 사용하여 인증해야 합니다. 이 작업을 통해 Intune 평가판을 기존 회사 또는 학교 계정에 연결할 수 있습니다.

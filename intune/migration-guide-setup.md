@@ -1,27 +1,27 @@
 ---
-title: "Intune 기본 설정"
-description: "이 문서는 Microsoft Intune을 설정하는 데 필요한 단계를 제공합니다."
-keywords: 
-author: andredm7
-ms.author: andredm
+title: Microsoft Intune 기본 설정
+description: 이 문서는 Microsoft Intune을 설정하는 데 필요한 단계를 제공합니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 06/12/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 60cfa440-0723-4ea0-bacf-3c5d26f9a1d3
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: bd685959aa03612002cbbe74d5678b75efe2d492
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 54f0d2496c40703212ad61da462a2ae499388bb4
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="basic-setup"></a>기본 설정
 
-환경을 평가했으면 Intune을 설정할 차례입니다.
+환경을 평가했으면 Microsoft Intune을 설정할 차례입니다.
 
 ## <a name="external-dependencies-for-an-intune-deployment"></a>Intune 배포에 대한 외부 종속성
 

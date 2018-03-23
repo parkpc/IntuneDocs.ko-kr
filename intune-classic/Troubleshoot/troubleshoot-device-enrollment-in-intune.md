@@ -1,25 +1,25 @@
 ---
-title: "장치 등록 문제 해결"
-description: "장치 등록 문제 해결을 위한 제안 사항"
-keywords: 
+title: 장치 등록 문제 해결
+description: 장치 등록 문제 해결을 위한 제안 사항
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 09/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 50adfb13c619f81a8429c46e798b7f78acf3217e
-ms.sourcegitcommit: 229f9bf89efeac3eb3d28dff01e9a77ddbf618eb
+ms.openlocfilehash: 0293614e2654c16b6fd5fd43d40331453b332e3c
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="troubleshoot-device-enrollment-in-intune"></a>Intune에서 장치 등록 문제 해결
 
@@ -70,7 +70,7 @@ ms.lasthandoff: 01/05/2018
 
 #### <a name="to-delete-devices-in-the-azure-active-directory-portal"></a>Azure Active Directory 포털에서 장치를 삭제하려면
 
-1.  [http://aka.ms/accessaad](http://aka.ms/accessaad)로 이동하거나 [https://portal.office.com](https://portal.office.com)에서 **관리자** &gt; **Azure AD**를 선택합니다.
+1.  [https://portal.office.com](https://portal.office.com)에서 [http://aka.ms/accessaad](http://aka.ms/accessaad)를 찾거나 **관리자**&gt;**Azure AD**를 선택합니다.
 
 2.  페이지의 왼쪽에 있는 링크를 사용하여 조직 ID로 로그인합니다.
 
@@ -99,7 +99,7 @@ ms.lasthandoff: 01/05/2018
 
 1.  장치에서 Intune 회사 포털 앱을 제거합니다.
 
-2.  장치에서 브라우저를 열고, [https://portal.manage.microsoft.com](https://portal.manage.microsoft.com)으로 이동한 다음, 사용자 로그인을 시도합니다.
+2.  장치에서 브라우저를 열고, [https://portal.manage.microsoft.com](https://portal.manage.microsoft.com)으로 이동하고, 사용자 로그인을 시도합니다.
 
 3.  사용자가 로그인하지 못하면 사용자가 다른 네트워크를 사용하도록 해보세요.
 
@@ -165,8 +165,8 @@ ms.lasthandoff: 01/05/2018
 
 |오류 메시지|문제|해결 방법|
 |---|---|---|
-|**IT 관리자가 액세스에 대한 라이선스를 할당해야 함**<br>IT 관리자가 이 앱을 사용할 수 있도록 액세스 권한을 할당하지 않았습니다. IT 관리자에게 도움을 받거나 나중에 다시 시도하세요.|사용자 계정에 필요한 라이선스가 없으므로 장치를 등록할 수 없습니다.|사용자가 장치를 등록하려면 먼저 필요한 라이선스를 할당받아야 합니다. 이 메시지는 지정된 모바일 장치 관리 기관에 맞지 않는 라이선스 유형이 있음을 의미합니다. 예를 들어 Intune이 모바일 장치 관리 기관으로 지정되었는데 System Center 2012 R2 Configuration Manager 라이선스를 사용하는 경우 이 오류가 표시됩니다.<br><br>[사용자 계정에 Intune 라이선스를 할당](/intune/licenses-assign.md)하는 방법을 참조하세요.
-|**IT 관리자가 MDM 기관을 설정해야 함**<br>IT 관리자가 MDM 기관을 설정하지 않은 것 같습니다. IT 관리자에게 도움을 받거나 나중에 다시 시도하세요.|모바일 장치 관리 기관이 정의되지 않았습니다.|Intune에서 모바일 장치 관리 기관이 지정되지 않았습니다. [모바일 장치 관리 기관을 설정](/intune/mdm-authority-set.md)하는 방법을 참조하세요.|
+|**IT 관리자가 액세스에 대한 라이선스를 할당해야 함**<br>IT 관리자가 이 앱을 사용할 수 있도록 액세스 권한을 할당하지 않았습니다. IT 관리자에게 도움을 받거나 나중에 다시 시도하세요.|사용자 계정에 필요한 라이선스가 없으므로 장치를 등록할 수 없습니다.|사용자가 장치를 등록하려면 먼저 필요한 라이선스를 할당받아야 합니다. 이 메시지는 지정된 모바일 장치 관리 기관에 맞지 않는 라이선스 유형이 있음을 의미합니다. 예를 들어 Intune이 모바일 장치 관리 기관으로 지정되었는데 System Center 2012 R2 Configuration Manager 라이선스를 사용하는 경우 이 오류가 표시됩니다.<br><br>[사용자 계정에 Intune 라이선스를 할당](/intune/licenses-assign)하는 방법을 참조하세요.
+|**IT 관리자가 MDM 기관을 설정해야 함**<br>IT 관리자가 MDM 기관을 설정하지 않은 것 같습니다. IT 관리자에게 도움을 받거나 나중에 다시 시도하세요.|모바일 장치 관리 기관이 정의되지 않았습니다.|Intune에서 모바일 장치 관리 기관이 지정되지 않았습니다. [모바일 장치 관리 기관을 설정](/intune/mdm-authority-set)하는 방법을 참조하세요.|
 
 
 ### <a name="devices-fail-to-check-in-with-the-intune-service-and-display-as-unhealthy-in-the-intune-admin-console"></a>장치가 Intune 서비스에 체크 인되지 않고 Intune 관리 콘솔에서 "비정상"으로 표시됨
@@ -332,7 +332,7 @@ Android 장치의 경우 중간 인증서가 [SSL 서버 hello](https://technet.
 
 2.  장치가 아직 다른 MDM 공급자에게 등록하지 않았는지 또는 아직 관리 프로필을 설치하지 않았는지 확인합니다.
 
-3.  [https://portal.manage.microsoft.com](https://portal.manage.microsoft.com)으로 이동하고 메시지가 표시되면 프로필을 설치해 봅니다.
+3.  [https://portal.manage.microsoft.com](https://portal.manage.microsoft.com)으로 이동하고 메시지가 표시되면 프로필을 설치하도록 시도합니다.
 
 4.  iOS용 Safari가 기본 브라우저이고 쿠키가 사용할 수 있도록 설정되어 있는지 확인합니다.
 
@@ -377,7 +377,7 @@ Android 장치의 경우 중간 인증서가 [SSL 서버 hello](https://technet.
 
 
 ### <a name="other-ios-enrollment-errors"></a>기타 iOS 등록 오류
-iOS 등록 오류의 목록은 장치-사용자 설명서의 [Intune에서 장치를 등록하는 동안 오류가 발생하는 경우](/intune-user-help/using-your-iOS-or-macOS-device-with-intune)에서 제공됩니다.
+[Microsoft Intune에서 iOS 장치 등록 문제 해결](https://support.microsoft.com/help/4039809/troubleshooting-ios-device-enrollment-in-intune)의 설명서에서 iOS 등록 오류 목록이 제공됩니다.
 
 ## <a name="pc-issues"></a>PC 문제
 

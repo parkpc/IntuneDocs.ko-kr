@@ -1,25 +1,27 @@
 ---
-title: "관리되지 않는 장치에서 데이터 누수 방지"
-description: "장치에서 회사 데이터에 대한 액세스를 허용하고 데이터 유출로부터 데이터를 보호합니다."
-keywords: "데이터 보호 누수 방지 장치 O365 Office 365"
-author: arob98
+title: 관리되지 않는 장치에서 데이터 누수 방지
+titlesuffix: Microsoft Intune
+description: Microsoft Intune을 사용하여 장치에서 회사 데이터에 대한 액세스를 허용하고 데이터 유출로부터 데이터를 보호합니다.
+keywords: 데이터 보호 누수 방지 장치 O365 Office 365
+ms.author: dougeby
+author: dougeby
 manager: dougeby
-ms.date: 09/22/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: b1512c3a-3bbd-4111-a0df-c874a0a335df
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3b917b3718a7630c4a556a41c551aa5d76f4b4aa
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 964422f113e6a722c1134cf49b1b28b494632872
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/17/2018
 ---
-# <a name="prevent-data-leaks-on-non-managed-devices"></a>관리되지 않는 장치에서 데이터 누수 방지
+# <a name="prevent-data-leaks-on-non-managed-devices-using-microsoft-intune"></a>Microsoft Intune을 사용하여 관리되지 않는 장치에서 데이터 유출 방지
 
 Office 365에서 호스팅하는 회사 데이터에 대한 액세스를 허용하면 의도적이거나 실수로 데이터가 유출될 위험 없이 사용자가 데이터를 공유하고 저장하는 방법을 제어할 수 있습니다. Microsoft Intune은 사용자 소유 장치에서 회사 데이터를 보호하도록 설정한 앱 보호 정책을 제공합니다. 장치는 Intune 서비스에 등록할 필요가 없습니다. 
 

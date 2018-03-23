@@ -1,29 +1,30 @@
 ---
-title: "Intune 모바일 장치 관리 마이그레이션 가이드"
-description: "이 가이드에서는 타사 MDM 공급자에서 Microsoft Intune으로 마이그레이션하는 과정과 관련된 다양한 세부 정보를 단계적으로 안내합니다."
-keywords: 
-author: andredm7
-ms.author: andredm
+title: Intune 모바일 장치 관리 마이그레이션 가이드
+titlesuffix: Microsoft Intune
+description: 이 가이드에서는 타사 MDM 공급자에서 Microsoft Intune으로 마이그레이션하는 과정과 관련된 다양한 세부 정보를 단계적으로 안내합니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 07/11/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: dcfc21f9-1bcd-4371-a46d-f2e18154ec50
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 888624530fe77f22ea9391b688fa9f9b92f0ac75
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 9bfefff2ef5960b6e52a8a37c2fd31466d16cbff
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="intune-migration-guide"></a>Intune 마이그레이션 가이드
 
-![Intune MDM 마이그레이션 가이드 아트](./media/MDM-migration-guide-art.PNG)
+![Microsoft Intune MDM 마이그레이션 가이드 아트](./media/MDM-migration-guide-art.PNG)
 
-Intune으로의 성공적인 마이그레이션은 현재 MDM(모바일 장치 관리) 환경, 비즈니스 목표 및 기술 요구 사항을 고려하는 견고한 계획에서 시작됩니다. 또한 마이그레이션 계획을 지원하고 협력해 줄 주요 관련자가 있어야 합니다.
+Microsoft Intune으로의 성공적인 마이그레이션은 현재 MDM(모바일 장치 관리) 환경, 비즈니스 목표 및 기술 요구 사항을 고려하는 견고한 계획에서 시작합니다. 또한 마이그레이션 계획을 지원하고 협력해 줄 주요 관련자가 포함되어야 합니다.
 
 이 가이드에서는 타사 MDM 공급자에서 Intune으로 마이그레이션하는 과정과 관련된 다양한 세부 정보를 단계적으로 안내합니다.
 

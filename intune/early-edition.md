@@ -1,25 +1,25 @@
 ---
-title: "초기 버전"
-description: 
-keywords: 
+title: 초기 버전
+description: ''
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 03/06/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f49650f4-31fa-406c-a4da-d8c9a4a8384d
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9a2c104200518af31fd05e6b8abe853377767aa9
-ms.sourcegitcommit: 9cf05d3cb8099e4a238dae9b561920801ad5cdc6
+ms.openlocfilehash: e91745abb7c3409b31724101b3071157407acec9
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="the-early-edition-for-microsoft-intune---march-2018"></a>Microsoft Intune 초기 버전 - 2018년 3월
 
@@ -147,6 +147,33 @@ Android 앱에 대한 모범 사례에 맞우기 위게 Android용 회사 포털
 
 Android의 [자료 디자인](https://material.io/) 지침에 따라 Android용 회사 포털 앱을 업데이트합니다. 앱을 릴리스할 때 [앱 UI의 새로운 기능](whats-new-app-ui.md) 아티클에 새 아이콘의 이미지를 게시합니다. 
 
+### <a name="edge-mobile-support-for-intune-app-protection-policies----1817882---"></a>Intune 앱 보호 정책용 Edge 모바일 지원<!-- 1817882 -->
+
+모바일 장치용 Microsoft Edge 브라우저는 Intune에 정의된 앱 보호 정책을 지원합니다.
+
+### <a name="use-fully-distinguished-name-as-subject-for-scep-certificate---2221763-eeready--"></a>SCEP 인증서에 대한 제목으로 정식 고유 이름 사용<!--2221763 eeready-->
+SCEP 인증서 프로필을 만들 때 주체 이름을 입력합니다. 정식 고유 이름을 주체로 사용할 수 있습니다. **주체 이름**에서 **사용자 지정**을 선택한 다음, `CN={{OnPrem_Distinguished_Name}}`을 입력합니다. `{{OnPrem_Distinguished_Name}}` 변수를 사용하려면 [Azure AD(Active Directory) Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)를 사용하는 `onpremisesdistingishedname` 사용자 특성을 Azure AD와 동기화해야 합니다. 
+
+### <a name="ios-devices-are-prompted-for-a-pin-every-15-minutes---1550837-eeready--"></a>iOS 장치에 15분마다 PIN을 입력하라는 메시지가 표시됩니다.<!--1550837 eeready-->
+준수 또는 구성 정책을 iOS 장치에 적용하면 사용자에게 15분마다 PIN을 설정하라는 메시지가 표시됩니다. 사용자가 PIN을 설정할 때까지 계속 메시지가 표시됩니다.
+
+### <a name="enable-bluetooth-contact-sharing---android-for-work---1098983-eeready--"></a>Bluetooth 연락처 공유 사용 - Android for Work<!--1098983 eeready-->
+기본적으로 Android는 작업 프로필의 연락처를 Bluetooth 장치와 동기화하지 않도록 방지합니다. 결과적으로 작업 프로필 연락처는 Bluetooth 장치의 발신자 ID에 표시되지 않습니다.
+
+**Android for Work** > **장치 제한** > **작업 프로필 설정**에서 새 설정이 지정됩니다.
+- Bluetooth를 통한 연락처 공유
+
+Intune 관리자는 공유할 수 있도록 이러한 설정을 구성할 수 있습니다. 핸즈 프리 사용에 호출자 ID를 표시하는 자동차 기반 Bluetooth 장치를 사용하여 장치를 연결하는 경우에 유용합니다. 사용하도록 설정하면 작업 프로필 연락처가 표시됩니다. 사용하지 않도록 설정하면 작업 프로필 연락처가 표시되지 않습니다.
+
+적용 대상: Android OS v6.0 이상의 Android 작업 프로필 장치입니다.
+
+### <a name="schedule-your-automatic-updates---1805514---"></a>자동 업데이트를 예약합니다.<!--1805514 -->
+
+Intune에서는 [Windows Update 링 설정](windows-update-for-business-configure.md)을 사용하여 자동 업데이트를 설치하도록 제어할 수 있습니다. 주, 일, 시간을 비롯한 되풀이 업데이트를 예약할 수 있습니다. 
+
+### <a name="disable-checks-on-device-restart---1805490---"></a>장치를 다시 시작에 대한 검사를 사용하지 않습니다.<!--1805490 -->
+
+Intune에서는 [소프트웨어 업데이트를 관리](windows-update-for-business-configure.md)하는 컨트롤을 제공합니다. **검사 다시 시작** 속성을 추가하고 기본적으로 사용합니다. 장치를 다시 시작할 때 발생하는 일반적인 검사(예: 활성 사용자, 배터리 수준 등)를 건너뛰려면 **건너뛰기**를 선택합니다. 
 
 <!-- 1802 start -->
 
@@ -160,7 +187,7 @@ Android의 [자료 디자인](https://material.io/) 지침에 따라 Android용 
 
 ### <a name="new-windows-defender-credential-guard-settings-added-to-endpoint-protection-settings---1102252---"></a>엔드포인트 보호 설정에 추가된 새 Windows Defender Credential Guard 설정 <!--1102252 --> 
 
-새 [Windows Defender Credential Guard](https://docs.microsoft.com/windows/access-protection/credential-guard/credential-guard] 설정은 **장치 구성** > **프로필** > **엔드포인트 보호**에 추가됩니다. 다음 설정이 추가됩니다. 
+새 [Windows Defender Credential Guard](https://docs.microsoft.com/windows/access-protection/credential-guard/credential-guard] 설정이 **장치 구성** > **프로필** > **Endpoint Protection**에 추가됩니다. 다음 설정이 추가됩니다. 
 
 - 플랫폼 보안 수준: 다음에 재부팅할 때 플랫폼 보안 수준의 사용 여부를 지정합니다. 가상화 기반 보안에는 보안 부팅 필요합니다. 필요에 따라 DMA(직접 메모리 액세스) 보호를 사용하여 가상화 기반 보안을 설정할 수 있습니다. DMA 보호는 하드웨어 지원이 필요하며 올바르게 구성된 장치에서만 작동합니다.
 - 가상화 기반 보안: 다음에 재부팅할 때 가상화 기반 보안의 사용 여부를 지정합니다. 
@@ -185,29 +212,6 @@ Android의 [자료 디자인](https://material.io/) 지침에 따라 Android용 
 
 ### <a name="ios-app-provisioning-configuration----1581650---"></a>iOS 앱 프로비전 구성 <!-- 1581650 -->
 보안 그룹을 포함 또는 제거하여 앱이 만료되지 않게 방지하는 IOS 앱 프로비전 프로필을 할당할 수 있습니다.
-
-### <a name="new-windows-defender-exploit-guard-settings----631893---"></a>새로운 Windows Defender Exploit Guard 설정 <!-- 631893 -->
-
-6개의 새 **공격 노출 영역 축소** 설정 및 확장된 **폴더 액세스 제어: 폴더 보호** 기능이 제공될 예정입니다. 이러한 설정은 Device configuration\Profiles\에서 찾을 수 있습니다.
-profile\Endpoint protection\Windows Defender Exploit Guard를 만드세요.
-
-#### <a name="attack-surface-reduction"></a>공격 노출 영역 축소
-
-|설정 이름  |설정 옵션  |설명  |
-|---------|---------|---------|
-|고급 랜섬웨어 보호|사용, 감사, 구성되지 않음|적극적인 랜섬웨어 보호를 사용합니다.|
-|Windows 로컬 보안 기관 하위 시스템에서 도용하는 자격 증명에 플래그 지정|사용, 감사, 구성되지 않음|Windows 로컬 보안 기관 하위 시스템(lsass.exe)에서 도용하는 자격 증명에 플래그를 지정합니다.|
-|PSExec 및 WMI 명령에서 프로세스 만들기|차단, 감사, 구성되지 않음|PSExec 및 WMI 명령에서 발생하는 프로세스 만들기를 차단합니다.|
-|USB에서 실행되는 신뢰할 수 없고 서명되지 않은 프로세스|차단, 감사, 구성되지 않음|USB에서 실행되는 신뢰할 수 없고 서명되지 않은 프로세스를 차단합니다.|
-|출현율, 나이 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 실행 파일|차단, 감사, 구성되지 않음|실행 파일이 출현율, 나이 또는 신뢰할 수 있는 목록 기준을 충족하지 않으면 실행을 차단합니다.|
-
-#### <a name="controlled-folder-access"></a>폴더 액세스 제어
-
-|설정 이름  |설정 옵션  |설명  |
-|---------|---------|---------|
-|폴더 보호(이미 구현됨)|구성되지 않음, 사용, 감사만(이미 구현됨)<br><br> **새 항목**<br>디스크 수정 차단, 디스크 수정 감사|
-인증되지 않은 앱이 파일 및 폴더를 무단으로 변경할 수 없도록 보호합니다.<br><br>**사용**: 신뢰할 수 없는 앱이 보호되는 폴더의 파일을 수정 또는 삭제하거나 디스크 섹터에 쓰는 것을 차단합니다.<br><br>
-**디스크 수정만 차단**:<br>신뢰할 수 없는 앱이 디스크 섹터에 쓰는 것을 차단합니다. 신뢰할 수 없는 앱이 보호되는 폴더의 파일을 여전히 수정하거나 삭제할 수 있습니다.|
 
 ### <a name="new-windows-defender-application-guard-settings----1631890---"></a>새 Windows Defender Application Guard 설정 <!-- 1631890 -->
 

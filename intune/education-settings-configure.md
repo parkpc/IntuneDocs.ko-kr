@@ -1,25 +1,25 @@
 ---
-title: "Windows 10용 Intune 교육 설정 구성"
-titleSuffix: Azure portal
-description: "관리하는 장치에서 Intune을 사용하여 Windows 10 교육 설정을 구성하는 방법을 알아봅니다.\""
-keywords: 
+title: Windows 10용 Intune 교육 설정 구성
+titleSuffix: Microsoft Intune
+description: 관리하는 장치에서 Intune을 사용하여 Windows 10 교육 설정을 구성하는 방법을 알아봅니다.
+keywords: ''
 author: barlanmsft
 ms.author: barlan
 manager: dougeby
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6f4de4bd-3dde-4a8d-8e22-46c5d06c3eea
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 18987c65c7ad0443c8bf3dc268284306cf64080d
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 6fa631cfb799fe02aee935f524a4012f381973d8
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="how-to-configure-windows-10-education-settings-in-microsoft-intune"></a>Microsoft Intune에서 Windows 10 교육 설정을 구성하는 방법
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 03/08/2018
     - **평가 URL** - 사용자가 수행해야 할 테스트의 URL을 제공합니다. 자세한 내용은 시험 응시 설명서를 참조하세요.
     - **화면 모니터링** - 사용자가 테스트를 수행하는 동안 화면 활동을 모니터링할 수 있는지 여부를 지정합니다.
     - **텍스트 제안** - 사용자가 테스트를 수행하는 동안 텍스트 제안을 허용하거나 차단합니다.
-8. 완료되면 **프로필 만들기** 창으로 돌아가서 **만들기**를 누릅니다.
+8. 작업이 완료되면 **프로필 만들기** 창으로 돌아가서 **만들기**를 누릅니다.
 
 프로필이 만들어지고 프로필 목록 창에 표시됩니다.
 

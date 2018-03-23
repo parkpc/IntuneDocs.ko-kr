@@ -1,23 +1,24 @@
 ---
-title: "Intune 배포 계획 및 디자인을 위한 템플릿과 리소스"
-description: "Intune 배포 계획 및 구현 프로세스에서 유용할 수 있는 계획 템플릿 및 추가 Intune 정보에 대한 링크가 제공됩니다."
-keywords: 
-author: arob98
-ms.author: angrobe
+title: Intune 배포 계획 및 디자인을 위한 템플릿과 리소스
+titlesuffix: Microsoft Intune
+description: Microsoft Intune 배포 계획 및 구현 프로세스에서 유용할 수 있는 계획 템플릿 및 추가 Intune 정보에 대한 링크입니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 63060896-e00e-4ef0-b2ad-276e55164895
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
-ms.openlocfilehash: 8a5a819fc8d081330be60e8b83944e326baaba2b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 67476afbd00cf54162b316e6c38967bccbed34ad
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="additional-resources-for-planning-your-intune-deployment"></a>Intune 배포 계획을 위한 추가 리소스
 
@@ -50,7 +51,7 @@ Intune 배포 계획, 디자인 및 구현 프로세스 중 유용할 수 있는
 
 -   [Intune 블로그](https://blogs.technet.microsoft.com/enterprisemobility/) - 보다 규모가 큰 Enterprise Mobility 환경에 Intune이 어느 정도 적합한지를 파악할 수 있는 게시물이 제공됩니다.
 
--   [Microsoft 보안 센터](http://www.microsoft.com/TrustCenter/default.aspx) - 모든 Microsoft 클라우드 제품과 서비스의 보안, 개인 정보, 규정 준수 및 투명성에 대한 Microsoft의 접근 방식을 알아볼 수 있습니다.
+-   [Microsoft 보안 센터](http://www.microsoft.com/TrustCenter) - 모든 Microsoft 클라우드 제품과 서비스의 보안, 개인 정보, 규정 준수 및 투명성에 대한 Microsoft의 접근 방식을 알아볼 수 있습니다.
 
 -   [Intune 사용자 의견](http://microsoftintune.uservoice.com/) - 특정 기능을 요청하거나 다른 고객들과 함께 유용한 기능에 투표를 하려는 경우 사용자 의견을 통해 Intune에 의견을 제공할 수 있습니다. Microsoft는 사용자 여러분의 의견을 항상 반영하기 위해 노력하고 있습니다.
 

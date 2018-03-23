@@ -1,25 +1,25 @@
 ---
-title: "Microsoft Intune을 사용하여 Windows 장치에 대한 등록 설정"
-titlesuffix: 
-description: "Windows 장치에 대한 등록을 설정합니다."
-keywords: 
+title: Microsoft Intune을 사용하여 Windows 장치에 대한 등록 설정
+titlesuffix: ''
+description: Windows 장치에 대한 등록을 설정합니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 12/29/2017
+ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 21849cd4bb1c77334fdc3e9e347365a25ab4df2d
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 896c984cb5831dc84a041d4ad39e4cdf6819f0f8
+ms.sourcegitcommit: 820f950d1fc80b1eb5db1b0cf77f44d92a969951
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="set-up-enrollment-for-windows-devices"></a>Windows 장치에 대한 등록 설정
 
@@ -85,6 +85,9 @@ Azure Portal에서 **추가 서비스** > **모니터링 + 관리** > **Intune**
 > 최종 사용자는 특정 버전의 Windows용으로 할당된 Windows 앱을 보려면 Microsoft Edge를 통해 회사 포털 웹 사이트에 액세스해야 합니다. Google Chrome, Mozilla Firefox 및 Internet Explorer를 비롯한 다른 브라우저는 이런 유형의 필터링을 지원하지 않습니다.
 
 최종 사용자 등록 지침은 [Intune에서 Windows 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows)을 참조하세요. 사용자에게 [IT 관리자가 장치에서 볼 수 있는 정보](https://docs.microsoft.com/intune-user-help/what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows)를 검토하도록 지시할 수도 있습니다.
+
+>[!IMPORTANT]
+> 자동 MDM 등록을 사용하지 않지만 Windows 10 장치가 Azure AD에 가입된 경우 등록한 후에 두 레코드가 Intune 콘솔에 표시됩니다. Azure AD 가입 장치를 가진 사용자가 동일한 계정을 사용하여 **계정** > **회사 또는 학교에 액세스** 및 **연결**로 이동하는지 확인하여 중지할 수 있습니다. 
 
 최종 사용자 작업에 대한 자세한 내용은 [Microsoft Intune에서 최종 사용자 환경 관련 리소스](end-user-educate.md)를 참조하세요.
 

@@ -1,23 +1,24 @@
 ---
-title: "Intune 마이그레이션 중 앱 보호 정책 구성"
-description: "이 문서는 Intune 마이그레이션 중 앱 보호 정책을 설정하는 데 필요한 단계를 제공합니다."
-keywords: 
-author: andredm7
-ms.author: andredm
+title: Intune 마이그레이션 중 앱 보호 정책 구성
+titlesuffix: Microsoft Intune
+description: 이 아티클에서는 Microsoft Intune 마이그레이션 중 앱 보호 정책을 설정하는 데 필요한 단계를 제공합니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 07/12/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 93cda587-bf56-4d41-b123-9fe203fad788
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 009759aa826872fc2c608c6786749d6706cd2f93
-ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
+ms.openlocfilehash: eab6d5d48e5b15b79683fe6f03e4c81fb7392a9b
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="configure-app-protection-policies-optional"></a>앱 보호 정책 구성(선택 사항)
 

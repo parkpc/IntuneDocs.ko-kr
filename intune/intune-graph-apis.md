@@ -1,23 +1,24 @@
 ---
-title: "Azure AD를 사용하여 Microsoft Graph의 Intune API에 액세스하는 방법"
-description: "앱에서 Azure AD를 통해 Microsoft Graph의 Intune API에 액세스하는 데 필요한 단계를 설명합니다."
-keywords: "intune graphapi c# powershell 권한 역할"
+title: Azure AD를 사용하여 Microsoft Graph의 Intune API에 액세스하는 방법
+titlesuffix: Microsoft Intune
+description: 앱에서 Azure AD를 통해 Microsoft Graph의 Intune API에 액세스하는 데 필요한 단계를 설명합니다.
+keywords: intune graphapi c# powershell 권한 역할
 author: vhorne
 manager: dougeby
 ms.author: victorh
 ms.date: 03/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 79A67342-C06D-4D20-A447-678A6CB8D70A
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7b59d4bc689daf462ac01a106457c3835a78b98b
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 273919a7f5a62ab6b7b625756da29d3b58339578
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="how-to-use-azure-ad-to-access-the-intune-apis-in-microsoft-graph"></a>Azure AD를 사용하여 Microsoft Graph의 Intune API에 액세스하는 방법
 
@@ -585,7 +586,7 @@ catch {
 
 또한 다음 작업도 수행합니다.
 
-- https://portal.office.com을 통해 사용자 계정에 Intune 라이선스를 할당합니다.
+- https://portal.office.com을 사용하여 사용자 계정에 Intune 라이선스를 할당합니다.
 
 - 응용 프로그램 코드를 업데이트하여 자체 도메인이 아닌 클라이언트의 Azure AD 테넌트 도메인에 인증합니다.
 

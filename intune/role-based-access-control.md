@@ -1,27 +1,26 @@
 ---
-title: "Intune을 통한 RBAC"
-titleSuffix: Azure portal
-description: "Intune Azure 미리 보기: RBAC를 통해 작업을 수행하고 변경할 수 있는 사용자를 제어하는 방법을 알아봅니다."
-keywords: 
-author: arob98
-ms.author: angrobe
+title: Microsoft Intune에서 RBAC
+description: RBAC(역할 기반 액세스 제어)를 통해 Microsoft Intune에서 작업을 수행하고 변경할 수 있는 방법을 알아봅니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
 ms.date: 02/27/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ca3de752-3caa-46a4-b4ed-ee9012ccae8e
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c19a3b8a6df82780d54f277d5477b947f050b1cc
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: edf17d98bb733f7567a615eec856fb7122ba251b
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
-# <a name="role-based-administration-control-rbac-with-intune"></a>Intune을 통한 RBAC(역할 기반 관리 제어)
+# <a name="role-based-administration-control-rbac-with-microsoft-intune"></a>Microsoft Intune에서 RBAC(역할 기반 관리 제어)
 
 RBAC를 사용하면 조직 내에서 다양한 Intune 작업을 수행할 수 있는 사용자와 해당 작업이 적용되는 사용자를 제어할 수 있습니다. 몇 가지 일반적인 Intune 시나리오에 적용되는 기본 제공 역할을 사용하거나, 사용자 고유의 역할을 만들 수 있습니다. 역할은 다음으로 정의됩니다.
 

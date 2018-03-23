@@ -1,23 +1,23 @@
 ---
-title: "Intune에서 비즈니스용 Windows 업데이트 설정 구성"
-titleSuffix: Azure portal
-description: "Windows 10 장치에 대한 업데이트를 제어하도록 Intune에서 비즈니스용 Windows 업데이트 설정을 구성하는 방법을 알아봅니다.\""
-keywords: 
+title: Microsoft Intune에서 비즈니스용 Windows 업데이트 설정 구성
+titleSuffix: ''
+description: Windows 10 장치에 대한 업데이트를 제어하도록 Microsoft Intune에서 비즈니스용 Windows 업데이트 설정을 구성하는 방법을 알아봅니다.
+keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.reviewer: coryfe
 ms.suite: ems
-ms.openlocfilehash: d6ccda2aba0b1383de6c38b7a2fdcfdc742d0e15
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: ac26d0ac1855aa32ef0f00de6a4056bd57c07528
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="manage-software-updates"></a>소프트웨어 업데이트 관리
 
@@ -140,7 +140,7 @@ Intune 콘솔에서 사용자 지정 정책의 OMA-URI 설정을 사용하여 �
 - **데이터 형식:** 문자열
 - **값**: <*OMS 작업 영역에서 Windows 원격 분석 탭에 표시되는 GUID 사용*>
 
-![Windows의 진단 및 사용 현황 데이터 설정](./media/commID.png)
+![OMA-URI 설정 - 행 추가](./media/commID.png)
 
 ## <a name="how-to-pause-updates"></a>업데이트를 일시 중지하는 방법
 업데이트를 일시 중지하는 시점부터 최대 35일 동안 장치가 기능 업데이트나 품질 업데이트를 수신하지 않게 일시 중지할 수 있습니다. 최대 일수가 경과하고 나면 일시 중지 기능은 자동으로 만료되고 장치가 Windows 업데이트에서 적용되는 업데이트를 검색합니다. 이 검색 이후 다시 업데이트를 일시 중지할 수 있습니다.

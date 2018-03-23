@@ -1,24 +1,24 @@
 ---
-title: "iOS용 Microsoft Intune 앱 SDK 개발자 가이드"
-description: "iOS용 Microsoft Intune 앱 SDK를 사용하면 네이티브 iOS 앱에 Intune 앱 보호 정책(APP 또는 MAM 정책이라고도 함)을 통합할 수 있습니다."
-keywords: 
+title: iOS용 Microsoft Intune 앱 SDK 개발자 가이드
+description: iOS용 Microsoft Intune 앱 SDK를 사용하면 네이티브 iOS 앱에 Intune 앱 보호 정책(APP 또는 MAM 정책이라고도 함)을 통합할 수 있습니다.
+keywords: ''
 author: Erikre
 manager: dougeby
 ms.author: erikre
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 49ffac609ec24917b8490c535ebd74c6d2729ccd
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 498b9ec1ab98358f73c0ca2139f156164a253a75
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>iOS용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -470,7 +470,7 @@ MAM 대상 구성을 사용하면 앱이 Intune 앱 SDK를 통해 구성 데이�
 * ```[[IntuneMAMAppConfigManager instance] appConfigForIdentity:]```를 호출하여 앱 구성 개체를 가져옵니다.
 * ```IntuneMAMAppConfig``` 개체에 대해 적절한 선택기를 호출합니다. 예를 들어 응용 프로그램 키가 문자열인 경우 ```stringValueForKey``` 또는 ```allStringsForKey```를 사용하는 것이 좋습니다. ```IntuneMAMAppConfig.h header``` 파일은 반환 값/오류 조건에 대해 설명합니다.
 
-MAM 대상 구성 값과 관련된 Graph API의 기능에 대한 자세한 내용은 [Graph API 참조 MAM 대상 구성](https://developer.microsoft.com/graph/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create)을 참조하세요. <br>
+Graph API의 기능에 대한 자세한 내용은 [Graph API 참조](https://developer.microsoft.com/graph/docs/concepts/overview)를 참조하세요. <br>
 
 iOS에서 MAM 대상 앱 구성 정책을 만드는 방법에 대한 자세한 내용은 [iOS용 Microsoft Intune 앱 구성 정책을 사용하는 방법](https://docs.microsoft.com/intune/app-configuration-policies-use-ios)에서 MAM 대상 앱 구성 섹션을 참조하세요.
 

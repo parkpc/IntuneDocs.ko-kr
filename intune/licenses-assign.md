@@ -1,24 +1,24 @@
 ---
-title: "Microsoft Intune 라이선스 할당"
-description: "Intune에 등록할 수 있도록 사용자에게 라이선스 할당"
-keywords: 
+title: Microsoft Intune 라이선스 할당
+description: Intune에 등록할 수 있도록 사용자에게 라이선스 할당
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 10/31/2017
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 45baadb24ac646a6456e04c85a701842774c7930
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 67d12c748c5f4daabcb64eff7a154455b39a57d0
+ms.sourcegitcommit: 820f950d1fc80b1eb5db1b0cf77f44d92a969951
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="assign-licenses-to-users-so-they-can-enroll-devices-in-intune"></a>Intune에 장치를 등록할 수 있도록 사용자에게 라이선스 할당
 
@@ -58,6 +58,17 @@ SDS에 대한 자세한 내용은 이 [학교 데이터 동기화 및 강의실 
 * 사용자 소프트웨어 라이선스를 할당하는 각 **사용자**는 온라인 서비스 및 관련 소프트웨어(System Center 소프트웨어 포함)에 액세스하여 최대 15대의 장치와 응용 프로그램을 관리하는 데 해당 서비스와 소프트웨어를 사용할 수 있습니다.
 * 장치 소프트웨어 라이선스를 할당하는 각 **장치**는 온라인 서비스 및 관련 소프트웨어(System Center 소프트웨어 포함)에 액세스하여 사용자 수에 관계없이 해당 서비스와 소프트웨어를 사용할 수 있습니다.
 * 여러 사용자가 장치를 사용하는 경우 각 사용자에게 장치 소프트웨어 라이선스가 있어야 하거나, 모든 사용자에게 사용자 소프트웨어 라이선스가 있어야 합니다.
+
+## <a name="understanding-the-type-of-licenses-you-have-purchased"></a>구입한 라이선스 형식 이해
+
+구입한 Intune이 구독 정보를 결정하는 방법입니다.
+
+- 기업계약을 통해 Intune을 구입한 경우 **구독**의 볼륨 라이선스 포털에서 구독 정보를 찾을 수 있습니다.
+- 클라우드 솔루션 공급자를 통해 Intune을 구입한 경우 재판매인으로부터 확인합니다.
+- CC# 또는 송장을 포함한 Intune을 구입한 경우 라이선스는 사용자 기반입니다.
+
+
+
 
 ## <a name="use-powershell-to-selectively-manage-ems-user-licenses"></a>PowerShell을 사용하여 EMS 사용자 라이선스를 선택적으로 관리
 Microsoft Enterprise Mobility + Security(이전 명칭 Enterprise Mobility Suite)를 사용하는 조직에는 EMS 패키지의 Intune 서비스 또는 Azure Active Directory Premium만 필요한 사용자가 있을 수 있습니다. [Azure Active Directory PowerShell cmdlet](https://msdn.microsoft.com/library/jj151815.aspx)을 사용하여 한 가지 서비스 또는 서비스 하위 집합을 할당할 수 있습니다.

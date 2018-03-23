@@ -1,20 +1,21 @@
 ---
-title: "Intune 활동에 대한 감사 로그"
-description: "Intune 활동을 기록하는 감사 로그를 검토하는 방법을 알아봅니다."
-keywords: 
+title: Microsoft Intune 활동에 대한 감사 로그
+description: Microsoft Intune 활동을 기록하는 감사 로그를 검토하는 방법을 알아봅니다.
+keywords: ''
+ms.author: dougeby
 author: dougeby
 manager: dougeby
 ms.date: 02/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6ee841cc-5694-4ba1-8f66-1d58edec30a4
-ms.openlocfilehash: 55499bc8126958918ac2494fc86059eb3d331c69
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: c7c8b860be9722138f8bd804a66131328b592022
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="audit-logs-for-intune-activities"></a>Intune 활동에 대한 감사 로그
 감사 로그는 Microsoft Intune에서 변경을 생성하는 활동 레코드를 제공합니다. 만들기, 업데이트(편집), 삭제 및 할당 작업이나 원격 태스크는 검토할 수 있는 감사 이벤트를 생성합니다. 대부분의 Intune 워크로드에 대한 감사 로그를 검토할 수 있습니다. 감사는 기본적으로 모든 고객에 대해 사용 가능하며 사용 불가능하게 할 수 없습니다. 감사 이벤트는 2017년 12월의 기능 릴리스 날짜에 기록되기 시작했으며, 이전 이벤트는 사용할 수 없습니다.

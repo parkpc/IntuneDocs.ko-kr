@@ -1,30 +1,31 @@
 ---
-title: "Intune 계획 및 설계 소개"
-description: "이 문서에서는 모든 Intune 계획, 설계 및 구현 섹션을 소개합니다. 또한 목적/사용 사례 시나리오/요구 사항을 확인하고 출시/통신 계획/지원/테스트/유효성 검사 계획을 작성하는 데 도움이 되는 도구에 대해 설명합니다."
-keywords: 
-author: arob98
-ms.author: angrobe
+title: Intune 계획 및 설계 소개
+titlesuffix: Microsoft Intune
+description: 이 아티클에서는 모든 Microsoft Intune 계획, 설계 및 구현 섹션을 소개합니다. 또한 목적/사용 사례 시나리오/요구 사항을 확인하고 출시/통신 계획/지원/테스트/유효성 검사 계획을 작성하는 데 도움이 되는 도구에 대해 설명합니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: a65efa6e-4a48-47f3-8f6e-34a85ca64ced
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 962ec376b7f2e30ad857ce69e24124c5d482cda0
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 074490428b52effbc4a555a63d997a47da55546e
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="intune-deployment-planning-design-and-implementation-guide"></a>Intune 배포 계획, 설계 및 구현 가이드
 
 [!INCLUDE[note for both-portals](./includes/note-for-both-portals.md)]
 
-Intune을 성공적으로 배포하려면 먼저 적절히 계획하고 설계해야 합니다. 이 가이드의 목적은 배포 계획, 설계 생성, Intune 온보딩 및 프로덕션 출시의 과정을 단계별로 안내하는 것입니다.
+Microsoft Intune을 성공적으로 배포하려면 먼저 적절히 계획하고 설계해야 합니다. 이 가이드의 목적은 배포 계획, 설계 생성, Intune 온보딩 및 프로덕션 출시의 과정을 단계별로 안내하는 것입니다.
 
 ## <a name="whats-included-in-this-guide"></a>이 가이드의 내용
 
