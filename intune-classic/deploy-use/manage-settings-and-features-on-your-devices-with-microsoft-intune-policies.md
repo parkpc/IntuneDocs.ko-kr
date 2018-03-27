@@ -1,25 +1,25 @@
 ---
-title: "정책을 사용하여 장치 설정 관리"
-description: "Intune을 사용하여 관리하는 등록된 장치에서 설정 및 기능을 제어하는 정책을 만들어 배포합니다."
-keywords: 
-author: arob98
+title: 정책을 사용하여 장치 설정 관리
+description: Intune을 사용하여 관리하는 등록된 장치에서 설정 및 기능을 제어하는 정책을 만들어 배포합니다.
+keywords: ''
+author: dougeby
 ms.author: angrobe
 manager: angrobe
 ms.date: 11/02/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 09bae0b9-4f79-4658-8ca1-a71ab992c1b2
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a3075aa4ecae75b2c422b1e59b9fa0ce5281a2d7
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 12bb3e91b842ffb03e3ad7b181841374c92b3dc4
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="manage-settings-and-features-on-your-devices-with-microsoft-intune-policies"></a>Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리
 

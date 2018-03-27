@@ -1,25 +1,25 @@
 ---
-title: "PFX 인증서 인프라 구성"
-description: ".PFX 인증서 프로필을 만들고 배포합니다."
-keywords: 
+title: PFX 인증서 인프라 구성
+description: .PFX 인증서 프로필을 만들고 배포합니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 11/17/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 2c543a02-44a5-4964-8000-a45e3bf2cc69
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: vinaybha
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b415e84f488d3bcdd14d6c3bca1aad76831fc499
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: a19dbd6ad2b65e7d2d090b543f3e2200180c660a
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configure-certificate-infrastructure"></a>인증서 인프라 구성
 

@@ -1,25 +1,25 @@
 ---
-title: "정책 및 앱 배포"
-description: "정책 설정을 사용하도록 설정하고 장치가 관리에 등록되면 즉시 적용되는 앱을 배포할 수 있습니다."
-keywords: 
+title: 정책 및 앱 배포
+description: 정책 설정을 사용하도록 설정하고 장치가 관리에 등록되면 즉시 적용되는 앱을 배포할 수 있습니다.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
-manager: angrobe
+manager: dougeby
 ms.date: 02/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e0d8e98f-7dd8-4cbf-887c-a9af63ffe970
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e34079899650307d295130fcbf456eb4ea1f993f
-ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
+ms.openlocfilehash: 3da91a23a3aaa7da4f914bb04eda9a2f640db733
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="create-policies-and-publish-apps"></a>정책 만들기 및 앱 게시
 

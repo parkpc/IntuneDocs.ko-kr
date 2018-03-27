@@ -1,25 +1,25 @@
 ---
-title: "장치 등록"
-description: "MDM(모바일 장치 관리)에서는 등록을 사용하여 장치를 관리하고 리소스에 대한 액세스를 허용합니다."
-keywords: 
+title: 장치 등록
+description: MDM(모바일 장치 관리)에서는 등록을 사용하여 장치를 관리하고 리소스에 대한 액세스를 허용합니다.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
-manager: angrobe
+manager: dougeby
 ms.date: 09/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b28ea0220425c3def2594fa9ddf795b33aaafc3d
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 99a4273a5f3ef2e1696d2fdc1c2a9b9f251b5b87
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="enroll-devices-for-management-in-intune"></a>Intune에서 관리를 위해 장치 등록
 
@@ -45,7 +45,7 @@ Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같�
 |:---:|:---:|:---:|:---:|:---:|
 |**[BYOD](#byod)** | 아니요|    예 |   아니요 | [추가 정보](prerequisites-for-enrollment.md)|
 |**[DEM](#dem)**|   아니요 |아니요 |아니요  | [추가 정보](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
-|**[DEP](#dep)**|   예 |   선택 사항 |  선택 사항입니다.|[추가 정보](ios-device-enrollment-program-in-microsoft-intune.md)|
+|**[DEP](#dep)**|   예 |   선택 사항 |  선택 사항|[추가 정보](ios-device-enrollment-program-in-microsoft-intune.md)|
 |**[USB-SA](#usb-sa)**| 예 |   선택 사항 |  아니요| [추가 정보](ios-setup-assistant-enrollment-in-microsoft-intune.md)|
 |**[USB-Direct](#usb-direct)**| 아니요 |    아니요  | 아니요|[추가 정보](ios-direct-enrollment-in-microsoft-intune.md)|
 
@@ -83,12 +83,12 @@ Microsoft Intune으로 MDM(모바일 장치 관리)을 설정할 Windows PC 같�
 "Bring Your Own Device" 사용자가 회사 포털 앱을 설치하고 장치를 등록합니다. 이렇게 하면 사용자가 회사 네트워크에 연결되어 도메인 또는 Azure Active Directory에 가입할 수 있습니다. 대부분의 플랫폼에서는 많은 COD 시나리오를 위해 BYOD 등록을 사용하도록 설정해야 합니다. 자세한 내용은 [장치 등록을 위한 필수 조건](prerequisites-for-enrollment.md)을 참조하세요. ([표로 돌아가기](#overview-of-device-enrollment-methods))
 
 ## <a name="corporate-owned-devices"></a>회사 소유 장치
-Intune 콘솔을 사용하여 COD(회사 소유 장치)를 관리할 수 있습니다. Apple에서 제공한 도구를 통해 iOS 장치를 직접 등록할 수 있습니다. 관리자 또는 관리자 장치 등록 관리자를 사용하여 모든 장치 유형을 등록할 수 있습니다. IMEI 번호가 있는 장치도 회사 소유로 식별되고 태그가 지정되어 COD 시나리오를 사용할 수 있습니다.
+Intune 콘솔을 사용하여 COD(회사 소유 장치)를 관리할 수 있습니다. Apple에서 제공한 도구를 통해 iOS 장치를 직접 등록할 수 있습니다. 관리자(admin) 또는 관리자(manager)는 장치 등록 관리자를 사용하여 모든 장치 유형을 등록할 수 있습니다. IMEI 번호가 있는 장치도 회사 소유로 식별되고 태그가 지정되어 COD 시나리오를 사용할 수 있습니다.
 
 자세한 내용은 [회사 소유 장치 등록](manage-corporate-owned-devices.md)을 참조하세요.
 
 ### <a name="dem"></a>DEM
-장치 등록 관리자는 회사 소유 장치를 여러 개 등록하여 관리할 수 있는 특수 Intune 계정입니다. 관리자는 회사 포털을 설치하고 사용자 정보가 없는 장치를 여러 대 등록할 수 있습니다. [DEM](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)에 대해 자세히 알아보세요. ([표로 돌아가기](#overview-of-device-enrollment-methods))
+장치 등록 관리자는 회사 소유 장치를 여러 개 등록하여 관리할 수 있는 특수 Intune 계정입니다. 관리자는 회사 포털을 설치하고 사용자가 없는 많은 장치를 등록할 수 있습니다. [DEM](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)에 대해 자세히 알아보세요. ([표로 돌아가기](#overview-of-device-enrollment-methods))
 
 ### <a name="dep"></a>DEP
 Apple DEP(장치 등록 프로그램) 관리에서는 정책을 만든 후, 구입한 iOS 장치 중에서 DEP로 관리하는 장치에 "무선으로" 정책을 배포할 수 있습니다. 사용자가 처음으로 장치를 켜고 iOS 설치 도우미를 실행하면 장치가 등록됩니다. 이 방법은 **iOS 감독** 모드를 지원하며, 이 모드에서는 다음을 사용할 수 있습니다.

@@ -1,25 +1,25 @@
 ---
-title: "회사 리소스에 대한 액세스 허용"
-description: "Wi-Fi, VPN 및 전자 메일 프로필은 함께 작동하여 사용자에게 필요한 파일 및 리소스에 쉽게 액세스할 수 있게 해줍니다."
-keywords: 
+title: 회사 리소스에 대한 액세스 허용
+description: Wi-Fi, VPN 및 전자 메일 프로필은 함께 작동하여 사용자에게 필요한 파일 및 리소스에 쉽게 액세스할 수 있게 해줍니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 11/02/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 3dd8dd4e-e165-4d0c-97b7-b3e86ebab909
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e3d1b8cff396f6a78d635d96b936a1bb155ca198
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 170163a6edd372a92e04762d1ba7a1a9a420160c
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="enable-access-to-company-resources-with-microsoft-intune"></a>Microsoft Intune을 사용하여 회사 리소스에 대한 액세스 허용
 

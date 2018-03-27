@@ -1,23 +1,23 @@
 ---
-title: "Windows Holographic for Business 장치에 대한 Microsoft Intune 사용자 지정 설정"
-titlesuffix: 
-description: "Windows Holographic for Business 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다."
-keywords: 
+title: Windows Holographic for Business 장치에 대한 Microsoft Intune 사용자 지정 설정
+titlesuffix: ''
+description: Windows Holographic for Business 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 3/6/2018
 ms.article: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b95d891d1dfaecbce182fde4a2221255a7e1eb06
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: d5cdba24c10b90756d9a2b9f08fd7d4dcd727303
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="microsoft-intune-custom-device-settings-for-devices-running-windows-holographic-for-business"></a>Windows Holographic for Business를 실행하는 장치에 Microsoft Intune 사용자 지정 장치 설정
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 03/08/2018
 |[UpdateServiceURL](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-updateserviceurl)|./Vendor/MSFT/Policy/Config/Update/UpdateServiceUrl|문자열<br>URL - 장치가 지정된 URL의 WSUS 서버에서 업데이트를 확인합니다.<br>구성되지 않음 - 장치가 Microsoft Update에서 업데이트를 확인합니다.|
 |[RequireUpdatesApproval](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-requireupdateapproval)|./Vendor/MSFT/Policy/Config/Update/RequireUpdateApproval|Integer<br>0 – 구성되지 않음. 장치는 모든 적용 가능한 업데이트를 설치합니다.<br>1 – 장치는 적용 가능한 업데이트뿐 아니라 승인된 업데이트 목록에 있는 업데이트도 설치합니다. 배포에 앞서 테스트가 필요한 경우처럼 장치에 업데이트의 배포를 IT로 제어하고자 하는 경우 이 정책을 1로 설정하십시오.|
 |[ApprovedUpdates](https://docs.microsoft.com/windows/client-management/mdm/update-csp)|./Vendor/MSFT/Update/ApprovedUpdates<br><br>**중요**<br>최종 사용자를 대신하여 업데이트 EULA를 읽고 동의해야 합니다. 이렇게 하지 않으면 법률 또는 계약상 의무 위반입니다.|최종 사용자를 대신하여 EULA 동의 및 업데이트 승인 노드.|
-[ApplicationLaunchRestrictions](https://docs.microsoft.com/windows/client-management/mdm/applocker-csp)|./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/*Grouping*/*ApplicationType*/Policy<br><br>**중요**<br>AppLocker CSP 아티클은 이스케이프된 XML 예제를 사용합니다. Intune 사용자 지정 프로필을 사용해 설정을 구성하려면 일반 XML을 사용해야 합니다.|문자열<br>자세한 내용은 [AppLocker CSP](https://docs.microsoft.com/windows/client-management/mdm/applocker-csp) 아티클을 참조하세요. 
+[ApplicationLaunchRestrictions](https://docs.microsoft.com/windows/client-management/mdm/applocker-csp)|./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/*Grouping*/*ApplicationType*/Policy<br><br>**중요**<br>AppLocker CSP 아티클은 이스케이프된 XML 예제를 사용합니다. Intune 사용자 지정 프로필을 사용해 설정을 구성하려면 일반 XML을 사용해야 합니다.|문자열<br>자세한 내용은 [AppLocker CSP](https://docs.microsoft.com/windows/client-management/mdm/applocker-csp) 아티클을 참조하세요.
 
 ## <a name="how-to-find-the-policies-you-can-configure"></a>구성할 수 있는 정책을 찾는 방법
 

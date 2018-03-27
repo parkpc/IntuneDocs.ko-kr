@@ -1,25 +1,25 @@
 ---
-title: "장치 준수 정책 만들기"
-description: "규정 준수 정책을 만들어 회사 데이터에 액세스하는 데 사용하는 모바일 장치 및 PC 보안을 유지합니다."
-keywords: 
+title: 장치 준수 정책 만들기
+description: 규정 준수 정책을 만들어 회사 데이터에 액세스하는 데 사용하는 모바일 장치 및 PC 보안을 유지합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 10/12/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5336dac0-a2cc-4cd4-8511-67e4f95bd700
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1e37e5f490254efedf56a383e612f934925be75e
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 03719051179a30b0cc543098861f1b480c66082a
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="create-a-device-compliance-policy-in-microsoft-intune"></a>Microsoft Intune에서 장치 규정 준수 정책 만들기
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 10/10/2017
 다음 테이블에서는 규정 준수 정책 설정 및 해당 사항이 지원되는 플랫폼을 나열합니다.
 
 -------------
-|설정|iOS|Android|Windows|
+|Setting|iOS|Android|Windows|
 |-----|----|-----|-----|
 |모바일 장치의 잠금을 해제하는 데 암호 필요|iOS 6 이상|Android 4.0 이상 <br>Samsung KNOX Standard 4.0 이상|Windows Phone 8.1 이상|
 |단순 암호 허용|iOS 6 이상|지원되지 않음|Windows Phone 8.1 이상|

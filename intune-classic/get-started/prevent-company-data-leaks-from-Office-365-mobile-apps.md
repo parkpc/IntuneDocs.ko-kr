@@ -1,25 +1,25 @@
 ---
-title: "Office 365 모바일 앱에서 회사 데이터 누수 방지"
-description: "Intune을 사용하면 Office 365 모바일 앱 또는 다른 LOB(기간 업무) 앱의 회사 데이터 누수를 방지하는 데 도움이 되는 MAM(모바일 응용 프로그램 관리) 정책을 사용하여 조직의 데이터를 보호할 수 있습니다."
-keywords: 
+title: Office 365 모바일 앱에서 회사 데이터 누수 방지
+description: Intune을 사용하면 Office 365 모바일 앱 또는 다른 LOB(기간 업무) 앱의 회사 데이터 누수를 방지하는 데 도움이 되는 MAM(모바일 응용 프로그램 관리) 정책을 사용하여 조직의 데이터를 보호할 수 있습니다.
+keywords: ''
 author: jeffgilb
 ms.author: jeffgilb
-manager: angrobe
+manager: dougeby
 ms.date: 11/22/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 19be3de7-539c-49f5-8c46-5363b987fef9
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3556c130402292450efc26f13f624861322e5ae7
-ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
+ms.openlocfilehash: b0117ef734a8549593992108105192ce1c4de5b0
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="quick-start-guide-prevent-company-data-leaks-from-office-365-mobile-apps"></a>빠른 시작 가이드: Office 365 모바일 앱에서 회사 데이터 누수 방지
 

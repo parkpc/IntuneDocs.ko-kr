@@ -1,24 +1,24 @@
 ---
-title: "Microsoft Intune에서 장치 관리"
-titleSuffix: 
-description: "Intune을 사용하여 관리하는 장치를 검토하고 해당 장치에 대해 여러 작업을 수행합니다."
-keywords: 
+title: Microsoft Intune에서 장치 관리
+titleSuffix: ''
+description: Intune을 사용하여 관리하는 장치를 검토하고 해당 장치에 대해 여러 작업을 수행합니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/21/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: d2412418-d91a-4767-a3d6-bc88bb29caa2
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2e69f47e841cb44ab646431d5bd81b9c1d874c64
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 436eeb306bf4ba343ae4d88a824aeed2077a3426
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="what-is-microsoft-intune-device-management"></a>Microsoft Intune 장치 관리란?
 
