@@ -1,4 +1,4 @@
----
+﻿---
 title: "IMEI 번호 지정"
 description: "Microsoft Intune에서는 관리자가 회사 소유의 모바일 장치를 식별하는 데 도움이 되는 모바일 장치 플랫폼용 IMEI 번호를 가져올 수 있습니다."
 keywords: 

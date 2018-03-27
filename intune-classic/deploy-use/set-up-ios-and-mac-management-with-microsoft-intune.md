@@ -1,4 +1,4 @@
----
+﻿---
 title: Set up iOS and Mac management
 description: "Microsoft Intune으로 Mac OS X 장치뿐만 아니라 iPad 및 iPhone을 포함하는 iOS 장치의 MDM(모바일 장치 관리)도 수행합니다."
 keywords: 
