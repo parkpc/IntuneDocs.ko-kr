@@ -1,25 +1,25 @@
 ---
-title: "경고 알림 받기 | Microsoft 문서"
-description: "경고 기능이 Microsoft Intune에서 일어나는 소식을 사용자에게 계속 제공하는 방법을 알아봅니다."
-keywords: 
+title: 경고 알림 받기 | Microsoft 문서
+description: 경고 기능이 Microsoft Intune에서 일어나는 소식을 사용자에게 계속 제공하는 방법을 알아봅니다.
+keywords: ''
 author: nathbarn
-ms.author: angrobe
-manager: angrobe
+ms.author: dougeby
+manager: dougeby
 ms.date: 8/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 396ea714 0433 4bd5 a934 8d0b477f28e4
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune classic
-ms.openlocfilehash: 1e7ad299b91fe8e258d6769eed6f199bdb7f0537
-ms.sourcegitcommit: 12b2111839e648f85374c1c0db4288f08e0ef85d
+ms.openlocfilehash: daa936b43c53d14d57f2c48f80dff7e908354054
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/22/2018
 ---
 #  <a name="use-alerts-to-get-notified-by-microsoft-intune"></a>경고를 사용하여 Microsoft Intune 알림 받기
 

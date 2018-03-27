@@ -1,25 +1,25 @@
-﻿---
-title: "장치에서 비즈니스용 Windows Hello 설정 제어"
-description: "Intune이 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 비즈니스용 Windows Hello와 통합하는 방법을 알아봅니다."
-keywords: 
+---
+title: 장치에서 비즈니스용 Windows Hello 설정 제어
+description: Intune이 Active Directory 또는 Azure Active Directory 계정을 사용하여 암호, 스마트 카드 또는 가상 스마트 카드를 대신하는 대체 로그인 방법인 비즈니스용 Windows Hello와 통합하는 방법을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 09/27/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b7b3ab8b266ed4699b6982c26aca173244dc19d0
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 63532456edbaf3579b9b6da8c0f376e7f4409c88
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="control-windows-hello-for-business-settings-on-devices-with-microsoft-intune"></a>Microsoft Intune을 사용하는 장치에서 비즈니스용 Windows Hello 설정 제어
 

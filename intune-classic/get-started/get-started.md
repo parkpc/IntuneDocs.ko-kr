@@ -1,22 +1,22 @@
 ---
-title: "시작"
-description: "이 항목에서는 관리자가 관리하는 엔터프라이즈 프로덕션 환경에 Microsoft Intune을 배포하는 데 필요하는 지침을 제공합니다."
-keywords: 
+title: 시작
+description: 이 항목에서는 관리자가 관리하는 엔터프라이즈 프로덕션 환경에 Microsoft Intune을 배포하는 데 필요하는 지침을 제공합니다.
+keywords: ''
 author: nathbarn
-manager: angrobe
+manager: dougeby
 ms.date: 03/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5b56f8b4-269b-4e7f-b7e9-b0401bdd42f4
 ROBOTS: NOINDEX,NOFOLLOW
 ms.custom: intune-classic
-ms.openlocfilehash: 1c72a7008e69f48d4ef3300c6358a99aea9680ef
-ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
+ms.openlocfilehash: 591a9d0855de4703b3ffcbd71bda04788a95d6b5
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="get-started-with-microsoft-intune"></a>Microsoft Intune 시작
 

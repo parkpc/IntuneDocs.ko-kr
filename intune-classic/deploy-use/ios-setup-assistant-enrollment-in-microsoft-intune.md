@@ -1,25 +1,25 @@
 ---
-title: "설정 도우미를 사용하여 iOS 장치 등록"
-description: "Apple Configurator 도구를 통해 회사 소유의 iOS 장치를 공장 설정으로 초기화하고 설정 도우미를 실행할 수 있도록 준비하여 해당 장치를 등록합니다."
-keywords: 
+title: 설정 도우미를 사용하여 iOS 장치 등록
+description: Apple Configurator 도구를 통해 회사 소유의 iOS 장치를 공장 설정으로 초기화하고 설정 도우미를 실행할 수 있도록 준비하여 해당 장치를 등록합니다.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
-manager: angrobe
+manager: dougeby
 ms.date: 03/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 46e5b027-4280-4809-b45f-651a6ab6d0cd
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8a97ccdb8f557c4c2bfd542fb1c96d84d768eae5
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: a33c383cb65d0edfa94117278e3f473699588aa3
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="enroll-ios-devices-with-apple-configurator-by-using-setup-assistant"></a>설정 도우미를 사용하여 Apple Configurator로 iOS 장치 등록
 

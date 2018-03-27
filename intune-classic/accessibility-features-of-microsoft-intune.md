@@ -1,25 +1,25 @@
 ---
-title: "내게 필요한 옵션 기능"
-description: "장애가 있는 사용자가 더욱 쉽게 액세스할 수 있도록 하는 Intune의 기능에 알아봅니다."
-keywords: 
-author: arob98
-ms.author: angrobe
-manager: angrobe
+title: 내게 필요한 옵션 기능
+description: 장애가 있는 사용자가 더욱 쉽게 액세스할 수 있도록 하는 Intune의 기능에 알아봅니다.
+keywords: ''
+author: dougeby
+ms.author: dougeby
+manager: dougeby
 ms.date: 05/04/2017
 ms.topic: reference
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6d7ed613-be97-4973-9532-8cb5bd434a1b
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a218a8b0135e587b7eff88490966ea0b2090b84a
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: cccc81a470795c963659b5348738ac2d94306aff
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="accessibility-features-of-microsoft-intune"></a>Microsoft Intune의 내게 필요한 옵션 기능
 Microsoft Windows의 내게 필요한 옵션 기능과 도구 외에 다음 바로 가기 키를 사용해서도 장애가 있는 사용자가 Microsoft Intune을 더욱 쉽게 사용할 수 있습니다.

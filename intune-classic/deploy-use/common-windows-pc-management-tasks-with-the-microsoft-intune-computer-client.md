@@ -1,24 +1,24 @@
 ---
-title: "일반적인 Windows PC 관리 작업"
-description: "Intune 소프트웨어 클라이언트를 실행하는 Windows PC를 관리할 수 있는 방법을 알아봅니다."
-keywords: 
+title: 일반적인 Windows PC 관리 작업
+description: Intune 소프트웨어 클라이언트를 실행하는 Windows PC를 관리할 수 있는 방법을 알아봅니다.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
-manager: angrobe
+manager: dougeby
 ms.date: 12/15/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: eb912c73-54d2-4d78-ac34-3cbe825804c7
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f8706c34792720224624b6d430de791e5e98608a
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: a550595f18dac8f74cafc1c3ac118c39198c568f
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="common-windows-pc-management-tasks-with-the-intune-software-client"></a>Intune 소프트웨어 클라이언트를 사용하는 일반 Windows PC 관리 태스크
 

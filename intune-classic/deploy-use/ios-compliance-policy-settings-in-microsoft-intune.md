@@ -1,25 +1,25 @@
 ---
-title: "iOS 장치용 준수 정책 설정"
-description: "이 항목에서는 iOS 장치에 대한 준수 정책에 설정할 수 있는 규칙 및 설정에 대해 설명합니다."
-keywords: 
+title: iOS 장치용 준수 정책 설정
+description: 이 항목에서는 iOS 장치에 대한 준수 정책에 설정할 수 있는 규칙 및 설정에 대해 설명합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 12/15/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 4a59d24f-ed58-49b1-b874-b2d4aea3ec76
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6cd64a833aa9dbddd2e85dbc427f5c5d5d2bca64
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 7973dd757c69bc0a63f1ff5d24973acb6086d8a4
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="compliance-policy-settings-for-ios-devices-in-microsoft-intune"></a>Microsoft Intune에서 iOS 장치용 규정 준수 정책 설정
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 10/10/2017
 - **장치가 유휴 상태에서 되돌아오는 경우 암호 필요**: 이 설정은 **암호를 요구하기 전까지 비활성 시간(분)** 설정과 함께 사용해야 합니다. **암호를 요구하기 전까지 비활성 시간(분)** 설정에 지정된 시간 동안 비활성화 상태인 장치에 사용자가 액세스하려고 하면 암호를 입력하라는 메시지가 표시됩니다.
 
 ### <a name="email-profile"></a>전자 메일 프로필
-- **메일 계정은 Intune을 통해 관리해야 함:** 이 옵션이 **예**로 설정된 경우 장치는 장치에 배포된 메일 프로필을 사용해야 합니다. 장치는 다음과 같은 상황에서 비규격으로 간주됩니다.
+- **메일 계정은 Intune을 통해 관리해야 함:** 이 옵션이 **예**로 설정된 경우 장치는 장치에 배포된 메일 프로필을 사용해야 합니다. 다음과 같은 상황에서는 장치가 정책을 준수하지 않는 것으로 간주됩니다.
   - 메일 프로필은 준수 정책의 대상으로 지정된 사용자 그룹 이외의 사용자 그룹에 배포됩니다.
   - 사용자가 장치에 배포된 Intune 메일 프로필과 일치하는 메일 계정을 이미 장치에서 설정했습니다. Intune은 사용자가 프로비전한 프로필을 덮어쓸 수 없으므로 이러한 프로필을 관리할 수 없습니다. 장치의 준수 상태를 유지하려면 사용자는 기존 메일 설정을 제거해야 합니다. 그런 다음 Intune이 관리되는 메일 프로필을 설치할 수 있습니다.
 
