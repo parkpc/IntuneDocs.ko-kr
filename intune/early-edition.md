@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e91745abb7c3409b31724101b3071157407acec9
-ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
+ms.openlocfilehash: 99b1436fdf718b54f54f7e90835668d4a632b7ce
+ms.sourcegitcommit: 390a4be5aa36007c36fb6a5abcfe8d20bc862a4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="the-early-edition-for-microsoft-intune---march-2018"></a>Microsoft Intune 초기 버전 - 2018년 3월
 
@@ -51,11 +51,11 @@ Intune 온-프레미스 Exchange Connector를 사용하여 장치가 Intune에 �
 iOS용 Cisco AnyConnect를 위해 만든 새 VPN 프로필은 Cisco AnyConnect 4.0.7x 이상과 작동합니다. 기존 iOS Cisco AnyConnect VPN 프로필은 **Cisco Legacy AnyConnect**로 레이블이 지정되고 오늘과 마찬가지로 앞으로도 Cisco AnyConnect 4.0.5x와 계속 작동합니다.
 
 > [!NOTE]
-> 이러한 변경은 iOS에만 해당되며, Android, Android for Work 및 macOS에 대해 단 하나의 Cisco AnyConnect 옵션만 계속 있게 됩니다. 
+> 이러한 변경은 iOS에만 해당되며, Android, Android for Work 및 macOS에 대해 단 하나의 Cisco AnyConnect 옵션만 계속 있게 됩니다.
 
 #### <a name="more-information"></a>추가 정보
 
-새 Cisco AnyConnect 앱 및 Cisco Legacy AnyConnect 앱은 별도 앱이기 때문에 새 iOS Cisco AnyConnect VPN 프로필을 만들어 새 앱을 지원해야 합니다. 사용자 환경에서 AnyConnect 클라이언트를 관리하는 경우 새 Cisco AnyConnect 앱도 함께 배포해야 합니다. 업그레이드를 완료하려면 Cisco Legacy AnyConnect VPN 프로필을 삭제하고 Cisco Legacy AnyConnect 앱을 제거해야 합니다. 
+새 Cisco AnyConnect 앱 및 Cisco Legacy AnyConnect 앱은 별도 앱이기 때문에 새 iOS Cisco AnyConnect VPN 프로필을 만들어 새 앱을 지원해야 합니다. 사용자 환경에서 AnyConnect 클라이언트를 관리하는 경우 새 Cisco AnyConnect 앱도 함께 배포해야 합니다. 업그레이드를 완료하려면 Cisco Legacy AnyConnect VPN 프로필을 삭제하고 Cisco Legacy AnyConnect 앱을 제거해야 합니다.
 
 초기 릴리스에서 새 AnyConnect 클라이언트에 대해 NAC(네트워크 액세스 제어) 통합이 작동하지 않습니다. 당사는 Intune의 향후 릴리스에서 NAC 통합 기능을 제공하기 위해 Cisco와 협력합니다.
 
@@ -64,7 +64,7 @@ iOS용 Cisco AnyConnect를 위해 만든 새 VPN 프로필은 Cisco AnyConnect 4
 향상된 탈옥 검색은 Intune이 무단 해제된 장치를 평가하는 방법을 향상시키는 새 준수 설정입니다. 이 설정은 장치의 위치 확인 서비스를 사용하고 배터리 사용에 영향을 주도록 더 자주 Intune을 사용하여 장치를 체크 인하게 합니다.
 
 ### <a name="ability-to-deploy-required-line-of-business-lob-apps-to-all-users-on-windows-10-desktop-devices----1627835-rs4---"></a>Windows 10 Desktop 장치의 모든 사용자에게 필수 LOB(기간 업무) 앱을 배포하는 기능 <!-- 1627835 RS4 -->
-고객은 필수 LOB(기간 업무) Windows 10 앱을 장치 컨텍스트에 설치하도록 배포할 수 있습니다. 이렇게 하면 이러한 앱을 장치의 모든 사용자가 사용할 수 있습니다. 이 기능은 Windows 10 Desktop 장치에만 적용됩니다. 
+고객은 필수 LOB(기간 업무) Windows 10 앱을 장치 컨텍스트에 설치하도록 배포할 수 있습니다. 이렇게 하면 이러한 앱을 장치의 모든 사용자가 사용할 수 있습니다. 이 기능은 Windows 10 Desktop 장치에만 적용됩니다.
 
 ### <a name="expiring-line-of-business-lob-apps-for-microsoft-intune----748789---"></a>Microsoft Intune에 대해 LOB(기간 업무) 앱 만료 <!-- 748789 -->
 Azure Portal에서 Intune은 막 만료될 LOB 앱에 경고를 보냅니다. 새 버전의 LOB 앱을 업로드할 때 Intune은 앱 목록에서 만료 알림을 제거합니다.
@@ -73,10 +73,10 @@ Azure Portal에서 Intune은 막 만료될 LOB 앱에 경고를 보냅니다. �
 Windows 10 Build 1703 이상에서 회사 포털을 사용하여 장치를 등록하는 사용자는 해당 앱을 종료하지 않고 등록의 첫 번째 단계를 완료할 수 있습니다.
 
 ### <a name="new-management-name-column----1333586---"></a>새 관리 이름 열 <!-- 1333586 -->
-**관리 이름**이라는 새 열은 장치 블레이드에 추가됩니다. 이 이름은 다음 수식에 따라 장치당 할당된 자동 생성되고 편집할 수 없는 이름입니다. 
+**관리 이름**이라는 새 열은 장치 블레이드에 추가됩니다. 이 이름은 다음 수식에 따라 장치당 할당된 자동 생성되고 편집할 수 없는 이름입니다.
 - 모든 장치에 대한 기본 이름: <username>_<devicetype>_<enrollmenttimestamp>
-- 대량으로 추가된 장치에 대해: <PackageId/ProfileId>_<DeviceType>_<EnrollmentTime> 
- 
+- 대량으로 추가된 장치에 대해: <PackageId/ProfileId>_<DeviceType>_<EnrollmentTime>
+
 이 열은 장치 블레이드에서 선택적입니다. 이 열은 기본으로 사용할 수 없으며 열 선택기를 통해서만 액세스할 수 있습니다. 장치 이름은 이 새 열에서 영향을 받지 않습니다.
 
 ### <a name="new-settings-for-windows-defender-security-center-notifications-device-configuration-profile----1631906---"></a>WDSC(Windows Defender 보안 센터) 알림 장치 구성 프로필에 대한 새 설정 <!-- 1631906 -->
@@ -107,19 +107,19 @@ WDSC 앱에서 이러한 Pillar를 숨길 경우 최종 사용자는 이러한 �
 ### <a name="configure-the-mac-application-firewall----1690461---"></a>Mac 응용 프로그램 방화벽 구성 <!-- 1690461 -->
 
 Mac 응용 프로그램 방화벽을 구성할 수 있습니다. 포트당이 아닌 응용 프로그램당을 기반으로 연결을 제어하는 데 이 방화벽을 사용할 수 있습니다. 이렇게 하면 쉽게 방화벽 보호의 이점을 얻고 바람직하지 않은 앱이 합법적인 앱에 대해 네트워크 포트 열기를 제어하는 것을 방지할 수 있습니다.
- 
+
 이 기능은 **장치 구성** -> **프로필 만들기** -> **macOS** -> **끝점 보호** 아래에서 찾을 수 있습니다.
 
 일단 방화벽 설정을 사용하면 두 가지 전략을 사용하여 방화벽을 구성할 수 있습니다.
 
 - 들어오는 모든 연결 차단
 
-   대상 장치에 대해 들어오는 모든 연결을 차단할 수 있습니다. 이 작업 수행을 선택한 경우 모든 앱에 대해 들어오는 연결이 차단됩니다. 
+   대상 장치에 대해 들어오는 모든 연결을 차단할 수 있습니다. 이 작업 수행을 선택한 경우 모든 앱에 대해 들어오는 연결이 차단됩니다.
 
 - 특정 앱 허용 또는 차단
 
    들어오는 연결을 특정 앱이 수신하는 것을 허용하거나 차단할 수 있습니다. 검색 요청에 응답하지 않도록 은폐 모드를 사용할 수도 있습니다.
- 
+
 #### <a name="more-information"></a>추가 정보
 
 - 들어오는 모든 연결 차단
@@ -134,7 +134,7 @@ Mac 응용 프로그램 방화벽을 구성할 수 있습니다. 포트당이 �
 - 은폐 모드
 
    이 모드를 사용하여 컴퓨터가 검색 요청에 응답하지 않게 합니다. 그래도 컴퓨터는 권한이 부여된 앱에 대해 들어오는 요청에는 응답합니다. ICMP(ping)와 같은 예기치 않은 요청은 무시합니다.
- 
+
 
 ### <a name="updating-the-help-and-feedback-experience-on-company-portal-app-for-android---1631531---"></a>Android용 회사 포털 앱에서 도움말 및 피드백 환경 업데이트 <!--1631531 -->
 
@@ -143,16 +143,16 @@ Android 앱에 대한 모범 사례에 맞우기 위게 Android용 회사 포털
 ### <a name="custom-book-categories-for-volume-purchase-program-vpp-ebooks----1488911---"></a>VPP(대량 구매 프로그램) 전자책에 대한 사용자 지정 책 범주 <!-- 1488911 -->
 사용자 지정 전자책 범주를 만든 다음, 해당 사용자 지정 전자책 범주에 VPP 전자책을 할당할 수 있습니다. 그러면 최종 사용자는 새로 만든 전자책 범주 및 해당 범주에 할당된 책을 확인할 수 있습니다.
 
-#### <a name="company-portal-for-android-visual-updates---976944---"></a>Android용 회사 포털 시각적 업데이트 <!--976944 -->
+### <a name="hololens-and-surface-hub-now-appear-in-device-lists---1725868--"></a>HoloLens 및 Surface Hub가 이제 장치 목록에 표시됩니다. <!--1725868-->
 
-Android의 [자료 디자인](https://material.io/) 지침에 따라 Android용 회사 포털 앱을 업데이트합니다. 앱을 릴리스할 때 [앱 UI의 새로운 기능](whats-new-app-ui.md) 아티클에 새 아이콘의 이미지를 게시합니다. 
+Intune에 등록된 HoloLens 및 Surface Hub 장치를 Android용 회사 포털 앱에 표시하는 지원을 추가했습니다.
 
 ### <a name="edge-mobile-support-for-intune-app-protection-policies----1817882---"></a>Intune 앱 보호 정책용 Edge 모바일 지원<!-- 1817882 -->
 
 모바일 장치용 Microsoft Edge 브라우저는 Intune에 정의된 앱 보호 정책을 지원합니다.
 
 ### <a name="use-fully-distinguished-name-as-subject-for-scep-certificate---2221763-eeready--"></a>SCEP 인증서에 대한 제목으로 정식 고유 이름 사용<!--2221763 eeready-->
-SCEP 인증서 프로필을 만들 때 주체 이름을 입력합니다. 정식 고유 이름을 주체로 사용할 수 있습니다. **주체 이름**에서 **사용자 지정**을 선택한 다음, `CN={{OnPrem_Distinguished_Name}}`을 입력합니다. `{{OnPrem_Distinguished_Name}}` 변수를 사용하려면 [Azure AD(Active Directory) Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)를 사용하는 `onpremisesdistingishedname` 사용자 특성을 Azure AD와 동기화해야 합니다. 
+SCEP 인증서 프로필을 만들 때 주체 이름을 입력합니다. 정식 고유 이름을 주체로 사용할 수 있습니다. **주체 이름**에서 **사용자 지정**을 선택한 다음, `CN={{OnPrem_Distinguished_Name}}`을 입력합니다. `{{OnPrem_Distinguished_Name}}` 변수를 사용하려면 [Azure AD(Active Directory) Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)를 사용하는 `onpremisesdistingishedname` 사용자 특성을 Azure AD와 동기화해야 합니다.
 
 ### <a name="ios-devices-are-prompted-for-a-pin-every-15-minutes---1550837-eeready--"></a>iOS 장치에 15분마다 PIN을 입력하라는 메시지가 표시됩니다.<!--1550837 eeready-->
 준수 또는 구성 정책을 iOS 장치에 적용하면 사용자에게 15분마다 PIN을 설정하라는 메시지가 표시됩니다. 사용자가 PIN을 설정할 때까지 계속 메시지가 표시됩니다.
@@ -169,11 +169,11 @@ Intune 관리자는 공유할 수 있도록 이러한 설정을 구성할 수 �
 
 ### <a name="schedule-your-automatic-updates---1805514---"></a>자동 업데이트를 예약합니다.<!--1805514 -->
 
-Intune에서는 [Windows Update 링 설정](windows-update-for-business-configure.md)을 사용하여 자동 업데이트를 설치하도록 제어할 수 있습니다. 주, 일, 시간을 비롯한 되풀이 업데이트를 예약할 수 있습니다. 
+Intune에서는 [Windows Update 링 설정](windows-update-for-business-configure.md)을 사용하여 자동 업데이트를 설치하도록 제어할 수 있습니다. 주, 일, 시간을 비롯한 되풀이 업데이트를 예약할 수 있습니다.
 
 ### <a name="disable-checks-on-device-restart---1805490---"></a>장치를 다시 시작에 대한 검사를 사용하지 않습니다.<!--1805490 -->
 
-Intune에서는 [소프트웨어 업데이트를 관리](windows-update-for-business-configure.md)하는 컨트롤을 제공합니다. **검사 다시 시작** 속성을 추가하고 기본적으로 사용합니다. 장치를 다시 시작할 때 발생하는 일반적인 검사(예: 활성 사용자, 배터리 수준 등)를 건너뛰려면 **건너뛰기**를 선택합니다. 
+Intune에서는 [소프트웨어 업데이트를 관리](windows-update-for-business-configure.md)하는 컨트롤을 제공합니다. **검사 다시 시작** 속성을 추가하고 기본적으로 사용합니다. 장치를 다시 시작할 때 발생하는 일반적인 검사(예: 활성 사용자, 배터리 수준 등)를 건너뛰려면 **건너뛰기**를 선택합니다.
 
 <!-- 1802 start -->
 
@@ -183,15 +183,15 @@ Intune에서는 [소프트웨어 업데이트를 관리](windows-update-for-busi
 
 ### <a name="customize-your-company-portal-themes-with-hex-codes---1049561---"></a>16진수 코드를 사용하여 회사 포털 테마 사용자 지정 <!--1049561 -->
 
-16진수 코드를 사용하여 회사 포털 앱에서 테마 색을 사용자 지정할 수 있습니다. 16진수 코드를 입력하면 Intune은 [WCAG 2.0 표준](http://www.w3.org/TR/WCAG20)에 따라 텍스트 색과 배경색 간의 대비가 가장 높은 텍스트 색을 결정합니다. **모바일 앱** > **회사 포털**에서 텍스트 색과 회사 로고를 미리 볼 수 있습니다. 
+16진수 코드를 사용하여 회사 포털 앱에서 테마 색을 사용자 지정할 수 있습니다. 16진수 코드를 입력하면 Intune은 [WCAG 2.0 표준](http://www.w3.org/TR/WCAG20)에 따라 텍스트 색과 배경색 간의 대비가 가장 높은 텍스트 색을 결정합니다. **모바일 앱** > **회사 포털**에서 텍스트 색과 회사 로고를 미리 볼 수 있습니다.
 
-### <a name="new-windows-defender-credential-guard-settings-added-to-endpoint-protection-settings---1102252---"></a>엔드포인트 보호 설정에 추가된 새 Windows Defender Credential Guard 설정 <!--1102252 --> 
+### <a name="new-windows-defender-credential-guard-settings-added-to-endpoint-protection-settings---1102252---"></a>엔드포인트 보호 설정에 추가된 새 Windows Defender Credential Guard 설정 <!--1102252 -->
 
-새 [Windows Defender Credential Guard](https://docs.microsoft.com/windows/access-protection/credential-guard/credential-guard] 설정이 **장치 구성** > **프로필** > **Endpoint Protection**에 추가됩니다. 다음 설정이 추가됩니다. 
+새 [Windows Defender Credential Guard](https://docs.microsoft.com/windows/access-protection/credential-guard/credential-guard] 설정이 **장치 구성** > **프로필** > **Endpoint Protection**에 추가됩니다. 다음 설정이 추가됩니다.
 
 - 플랫폼 보안 수준: 다음에 재부팅할 때 플랫폼 보안 수준의 사용 여부를 지정합니다. 가상화 기반 보안에는 보안 부팅 필요합니다. 필요에 따라 DMA(직접 메모리 액세스) 보호를 사용하여 가상화 기반 보안을 설정할 수 있습니다. DMA 보호는 하드웨어 지원이 필요하며 올바르게 구성된 장치에서만 작동합니다.
-- 가상화 기반 보안: 다음에 재부팅할 때 가상화 기반 보안의 사용 여부를 지정합니다. 
-- Windows Defender Credential Guard: 보안 부팅을 사용하는 플랫폼 보안 수준 및 가상화 기반 보안을 모두 사용하는 경우 다음에 재부팅할 때 자격 증명을 보호하려면 가상화 기반 보안을 사용하여 Credential Guard를 켜면 됩니다. 사용 가능한 옵션으로는 **사용 안 함**, **UEFI 잠금을 사용하여 설정**, **잠금 없이 설정** 및 **구성되지 않음**이 있습니다. 
+- 가상화 기반 보안: 다음에 재부팅할 때 가상화 기반 보안의 사용 여부를 지정합니다.
+- Windows Defender Credential Guard: 보안 부팅을 사용하는 플랫폼 보안 수준 및 가상화 기반 보안을 모두 사용하는 경우 다음에 재부팅할 때 자격 증명을 보호하려면 가상화 기반 보안을 사용하여 Credential Guard를 켜면 됩니다. 사용 가능한 옵션으로는 **사용 안 함**, **UEFI 잠금을 사용하여 설정**, **잠금 없이 설정** 및 **구성되지 않음**이 있습니다.
   - "사용 안 함" 옵션은 이전에 "잠금 없이 설정" 옵션을 사용하여 Credential Guard를 켠 경우 원격으로 Credential Guard를 끄는 옵션입니다.
 
   - "UEFI 잠금을 사용하여 설정" 옵션을 사용하면 레지스트리 키 또는 그룹 정책을 사용하여 Credential Guard를 해제할 수 없습니다. 이 설정을 사용한 후 Credential Guard를 해제하려면 실존하는 사용자로 각 컴퓨터에서 그룹 정책을 "사용 안 함"으로 설정하고 보안 기능을 제거하여 UEFI에 남아 있는 구성을 지워야 합니다. UEFI 구성이 지속되는 한, Credential Guard가 계속 사용됩니다.
@@ -208,7 +208,7 @@ Intune에서는 [소프트웨어 업데이트를 관리](windows-update-for-busi
 
 ### <a name="new-printer-settings-for-education-profiles----1308900---"></a>교육 프로필에 대한 새 프린터 설정 <!-- 1308900 -->
 
-교육 프로필의 경우 **프린터** 범주의 **프린터**, **기본 프린터**, **새 프린터추가**에서 새 설정을 사용할 수 있습니다. 
+교육 프로필의 경우 **프린터** 범주의 **프린터**, **기본 프린터**, **새 프린터추가**에서 새 설정을 사용할 수 있습니다.
 
 ### <a name="ios-app-provisioning-configuration----1581650---"></a>iOS 앱 프로비전 구성 <!-- 1581650 -->
 보안 그룹을 포함 또는 제거하여 앱이 만료되지 않게 방지하는 IOS 앱 프로비전 프로필을 할당할 수 있습니다.
@@ -265,5 +265,3 @@ Azure AD(Azure Active Directory)를 사용하면 모바일 장치에서 웹 사�
 
 ### <a name="see-also"></a>참고 항목
 최근 개발 작업에 대한 자세한 내용은 [Microsoft Intune의 새로운 기능](whats-new.md)을 참조하세요.
-
-

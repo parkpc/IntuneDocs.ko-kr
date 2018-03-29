@@ -1,25 +1,25 @@
 ---
-title: "온-프레미스 EAS용 Exchange Connector"
-description: "커넥터 도구를 사용하여 Intune 관리 콘솔과 Exchange ActiveSync MDM용 온-프레미스 Exchange Server 간 통신을 설정합니다."
-keywords: 
+title: 온-프레미스 EAS용 Exchange Connector
+description: 커넥터 도구를 사용하여 Intune 관리 콘솔과 Exchange ActiveSync MDM용 온-프레미스 Exchange Server 간 통신을 설정합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 07/29/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 41ff4212-a6f5-4374-8731-631f7560cff1
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: cb627843879a784eb4f597839058f54f9744542f
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 96d61ccae4e70a3e99da70a0ef19218ddbd218f3
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="install-the-intune-on-premises-exchange-connector"></a>Intune 온-프레미스 Exchange Connector 설치
 
@@ -39,7 +39,7 @@ Microsoft Intune을 사용하여 모바일 장치의 사서함을 호스트하�
 |하드웨어|커넥터를 설치하는 컴퓨터에는 1.6GHz CPU, 2GB RAM 및 10GB의 사용 가능한 디스크 공간이 필요합니다.|/intune/users-permissions-add
 |Active Directory 동기화|Connector를 사용하여 Exchange Server에 Intune을 연결하려면 먼저 로컬 사용자 및 보안 그룹이 Azure Active Directory의 인스턴스와 동기화되도록 [Active Directory 동기화를 설정](/intune/users-permissions-add)해야 합니다.|
 |추가 소프트웨어|커넥터를 호스트하는 컴퓨터에 Microsoft .NET Framework 4.5 및 Windows PowerShell 2.0 전체 설치를 설치해야 합니다.|
-|네트워크|커넥터를 설치하는 컴퓨터는 Exchange 서버를 호스트하는 도메인과 트러스트 관계에 있는 도메인에 있어야 합니다.<br /><br />이 컴퓨터에서는 포트 80 및 443을 사용하여 방화벽 및 프록시 서버를 통해 Intune 서비스에 액세스할 수 있도록 구성해야 합니다. Intune에서 사용되는 도메인은 manage.microsoft.com, &#42;manage.microsoft.com, &#42;.manage.microsoft.com 등입니다.|
+|Network (네트워크)|커넥터를 설치하는 컴퓨터는 Exchange 서버를 호스트하는 도메인과 트러스트 관계에 있는 도메인에 있어야 합니다.<br /><br />이 컴퓨터에서는 포트 80 및 443을 사용하여 방화벽 및 프록시 서버를 통해 Intune 서비스에 액세스할 수 있도록 구성해야 합니다. Intune에서 사용되는 도메인은 manage.microsoft.com, &#42;manage.microsoft.com, &#42;.manage.microsoft.com 등입니다.|
 
 
 ### <a name="exchange-cmdlet-requirements"></a>Exchange cmdlet 요구 사항
@@ -62,7 +62,7 @@ Intune Exchange Connector에서 사용되는 Active Directory 사용자 계정�
 
 ## <a name="download-the-on-premises-exchange-connector-software-installation-package"></a>온-프레미스 Exchange Connector 소프트웨어 설치 패키지 다운로드
 
-1. 온-프레미스 Exchange Connector용으로 지원되는 Windows Server 운영 체제에서 Exchange 테넌트의 관리자이며 Exchange Server 사용을 위한 라이선스가 있는 사용자 계정으로 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com) (https://manage.microsoft.com) 을 엽니다.
+1. 온-프레미스 Exchange Connector에 대해 지원되는 Windows Server 운영 체제에서 Exchange Server를 사용할 라이선스를 보유하고 Exchange 테넌트의 관리자인 사용자 계정으로 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)(https://manage.microsoft.com))을 엽니다.
 ![Exchange 연결 설정 열기](../media/ExchangeConnector.gif)
 
 2.  작업 영역 바로 가기 창에서 **관리**>**모바일 장치 관리** > **Microsoft Exchange**>**Exchange 연결 설정**으로 이동합니다.

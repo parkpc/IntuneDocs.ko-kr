@@ -1,25 +1,25 @@
 ---
-title: "Managed Browser로 웹 액세스 관리"
-description: "관리 브라우저 응용 프로그램을 배포하여 웹 데이터의 웹 검색 및 전송을 다른 앱으로 제한합니다."
-keywords: 
+title: Managed Browser로 웹 액세스 관리
+description: 관리 브라우저 응용 프로그램을 배포하여 웹 데이터의 웹 검색 및 전송을 다른 앱으로 제한합니다.
+keywords: ''
 author: mattbriggs
 ms.author: mabrigg
-manager: angrobe
+manager: dougeby
 ms.date: 05/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: dc946303-e09b-4d73-8bf4-87742299bc54
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a8b928de0bc9dddc35da188ad619b35541027364
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 559866fff63b0ad77a43ce337adede5cd8b27302
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Microsoft Intune에서 관리 브라우저 정책을 사용하여 인터넷 액세스 관리
 
@@ -117,12 +117,12 @@ Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Brows
     |-------|---------------|-----------|------------------|
     |http://www.contoso.com|단일 페이지와 일치|www.contoso.com|host.contoso.com<br /><br />www.contoso.com/images<br /><br />contoso.com/|
     |http://contoso.com|단일 페이지와 일치|contoso.com/|host.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com|
-    |http://www.contoso.com/&#42;|www.contoso.com으로 시작하는 모든 URL과 일치|www.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com/videos/tvshows|host.contoso.com<br /><br />host.contoso.com/images|
+    |http://www.contoso.com/&#42|www.contoso.com으로 시작하는 모든 URL과 일치|www.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com/videos/tvshows|host.contoso.com<br /><br />host.contoso.com/images|
     |http://&#42;.contoso.com/&#42;|contoso.com 아래의 모든 하위 도메인과 일치|developer.contoso.com/resources<br /><br />news.contoso.com/images<br /><br />news.contoso.com/videos|contoso.host.com|
     |http://www.contoso.com/images|단일 폴더와 일치|www.contoso.com/images|www.contoso.com/images/dogs|
     |http://www.contoso.com:80|포트 번호를 사용하여 단일 페이지와 일치|http://www.contoso.com:80||
     |https://www.contoso.com|안전한 단일 페이지와 일치|https://www.contoso.com|http://www.contoso.com|
-    |http://www.contoso.com/images/&#42;|단일 폴더 및 모든 하위 폴더와 일치|www.contoso.com/images/dogs<br /><br />www.contoso.com/images/cats|www.contoso.com/videos|
+    |http://www.contoso.com/images/&#42|단일 폴더 및 모든 하위 폴더와 일치|www.contoso.com/images/dogs<br /><br />www.contoso.com/images/cats|www.contoso.com/videos|
 
 -   다음은 지정할 수 없는 몇몇 입력의 예입니다.
 
@@ -142,7 +142,7 @@ Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Brows
 
     -   http://&#42;
 
-    -   http://www.contoso.com:&#42;
+    -   http://www.contoso.com:&#42
 
     -   http://www.contoso.com: /&#42;
 

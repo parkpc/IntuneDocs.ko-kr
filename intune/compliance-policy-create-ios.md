@@ -1,49 +1,42 @@
 ---
-title: "Microsoft Intune에서 iOS 장치 준수 정책 만들기"
-titleSuffix: 
-description: "장치가 준수가 되려면 충족해야 하는 요구 사항을 지정할 수 있도록 iOS 장치에 대한 Microsoft Intune 장치 준수 정책을 만듭니다."
-keywords: 
-author: msmimart
-ms.author: mimart
+title: Microsoft Intune에서 iOS 장치 규정 준수 정책 만들기 - Azure | Microsoft Docs
+description: iOS 장치에 대한 Microsoft Intune 장치 규정 준수 정책을 만들어서 이메일 계정을 입력하고, 무단 해제된 장치를 확인하고, 최소 및 최대 운영 체제를 확인하고, 암호 길이 및 장치 비활성화를 비롯한 암호 제한을 설정합니다.
+keywords: ''
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
-ms.date: 02/22/2018
+ms.date: 03/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 3cfb8222-d05b-49e3-ae6f-36ce1a16c61d
-ms.reviewer: muhosabe
+ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b024c846f9fc79fe214e3e90b094384455f2b086
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: b05eb725adb61ae47a24ca884d0e73ffe0dd269f
+ms.sourcegitcommit: a22309174e617e59ab0cdd0a55abde38711a5f35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/23/2018
 ---
-# <a name="how-to-create-a-device-compliance-policy-for-ios-devices-in-intune"></a>Intune에서 iOS 장치에 대한 장치 준수 정책을 만드는 방법
-
+# <a name="add-a-device-compliance-policy-for-ios-devices-in-intune"></a>Intune에서 iOS 장치에 대한 장치 준수 정책 추가
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-iOS에 대한 Intune 장치 준수 정책은 iOS 장치가 준수하는 것으로 간주되려면 충족해야 하는 규칙과 설정을 지정합니다. 조건부 액세스 정책을 사용하여 장치 준수 정책을 사용하는 경우 회사 리소스에 대한 액세스를 허용하거나 차단할 수 있습니다. 장치 보고서를 가져오 고 비준수에 대해 조치를 할 수 있습니다. Intune Azure Portal에서 각 플랫폼에 대한 장치 준수 정책을 만듭니다. 준수 정책을 만들기 전에 해결해야 하는 전제 조건 및 준수 정책을 자세히 알아보려면 [장치 준수 시작](device-compliance-get-started.md) 토픽을 참조하세요.
+Intune iOS 장치 준수 정책은 iOS 장치가 준수하도록 충족해야 하는 규칙과 설정을 결정합니다. 조건부 액세스 정책을 사용하여 장치 준수 정책을 사용하는 경우 회사 리소스에 대한 액세스를 허용하거나 차단할 수 있습니다. 장치 보고서를 가져오 고 비준수에 대해 조치를 할 수 있습니다. Intune Azure Portal에서 각 플랫폼에 대한 장치 준수 정책을 만듭니다. 준수 정책을 만들기 전에 필요한 준수 정책 및 필수 구성 요소에 대해 자세히 알아보려면 [장치 준수 시작](device-compliance-get-started.md)을 참조하세요.
 
 다음 표에서는 준수 정책을 조건부 액세스 정책과 함께 사용할 경우 비준수 설정을 관리하는 방법을 설명합니다.
 
--------------------------------
-
-
 | **정책 설정** | **iOS 8.0 이상** |
 | --- | --- |
-| **PIN 또는 암호 구성** | 재구성됨 |   
+| **PIN 또는 암호 구성** | 재구성됨 |
 | **장치 암호화** | 재구성됨(PIN 설정) |
 | **무단 해제 또는 루팅된 장치** | 격리됨(설정 아님)
 | **전자 메일 프로필** | 격리됨 |
 |**최소 OS 버전** | 격리됨 |
-| **최대 OS 버전** | 격리됨 |  
-| **Windows 상태 증명** | 해당 없음 |  
-----------------------------
-
+| **최대 OS 버전** | 격리됨 |
+| **Windows 상태 증명** | 해당 없음 |
 
 **재구성됨** = 장치 운영 체제에서 준수를 적용하도록 요구합니다. (예를 들어 사용자에게 PIN을 설정하도록 강제합니다.)
 
@@ -54,11 +47,11 @@ iOS에 대한 Intune 장치 준수 정책은 iOS 장치가 준수하는 것으�
 
 ## <a name="create-a-compliance-policy-in-the-azure-portal"></a>Azure Portal에서 준수 정책 만들기
 
-1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
-2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
-1. **Intune** 창에서 **장치 준수**를 선택합니다. **관리**에서 **정책**을 선택하고 **정책 만들기**를 선택합니다.
-2. 이름 및 설명을 입력하고 이 정책을 적용할 플랫폼을 선택합니다.
-3. **준수 요구 사항**을 선택하여 **시스템 보안**, **장치 상태** 및 **장치 속성** 설정을 지정합니다. 작업이 끝나면 **확인**을 선택합니다.
+1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
+2. **모든 서비스**를 선택하고 **Intune**에서 필터링하고 **Microsoft Intune**을 선택합니다.
+3. **장치 준수** > **정책** > **정책 만들기**를 선택합니다.
+4. 이름 및 설명을 입력하고 이 정책을 적용할 플랫폼을 선택합니다.
+5. **설정**을 선택하고, **이메일**, **장치 상태**, **장치 속성** 및 **시스템 보안** 설정을 입력합니다. 작업이 완료되면 **확인**을 선택합니다.
 
 <!--- 4. Choose **Actions for noncompliance** to say what actions should happen when a device is determined as noncompliant with this policy.
 5. In the **Actions for noncompliance** pane, choose **Add** to create a new action.  The action parameters pane allows you to specify the action, email recipients that should receive the notification in addition to the user of the device, and the content of the notification that you want to send.
@@ -78,31 +71,7 @@ iOS에 대한 Intune 장치 준수 정책은 iOS 장치가 준수하는 것으�
 
 <!---## Compliance policy settings--->
 
-## <a name="system-security-settings"></a>시스템 보안 설정
-
-### <a name="password"></a>암호
-
-- **모바일 장치의 잠금을 해제하는 데 암호 필요**: 장치에 액세스하기 전에 사용자가 암호를 입력하도록 하려면 **예**로 설정합니다. 암호를 사용하는 iOS 장치는 암호화됩니다.
-- **단순 암호 허용**: 사용자가 **1234** 또는 **1111**과 같은 암호를 만들도록 하려면 **예**로 설정합니다.
-- **최소 암호 길이**: 암호에 포함해야 하는 최소 자릿수 또는 문자 수를 지정합니다.
-- **필수 암호 유형**: 사용자가 **영숫자** 암호 또는 **숫자** 암호를 만들어야 할지를 지정합니다.
-- **최소 문자 집합 수**: **필수 암호 유형**을 **영숫자**로 설정한 경우 이 설정을 사용하여 암호에 포함해야 하는 최소 문자 집합 수를 지정합니다. 4가지 문자 집합은 다음과 같습니다.
-  - 소문자
-  - 대문자
-  - 기호
-  - 숫자
-
-더 큰 값을 설정하면 사용자는 더욱 복잡한 암호를 만들어야 합니다.
-
-iOS 장치의 경우 이 설정은 암호에 포함해야 하는 특수 문자(예: **!** , **#**, **&amp;**) 수를 나타냅니다.
-
-- **암호를 요구하기 전까지 비활성 시간(분)**: 사용자가 해당 시간 내에 자신의 암호를 다시 입력해야 하는 유휴 시간을 지정합니다.
-- **암호 만료(일)**: 암호가 만료된 후 새로 만들어야 하기 전까지의 일수를 선택합니다.
-- **암호 기록 기억:** 이 설정을 **이전 암호 다시 사용 방지**와 함께 사용하여 사용자가 이전에 사용했던 암호를 만들지 못하게 제한할 수 있습니다.
-- **이전 암호 다시 사용 방지** **암호 기록 기억**:을 선택한 경우 다시 사용할 수 없는 이전에 사용했던 암호 수를 지정합니다.
-- **장치가 유휴 상태에서 되돌아오는 경우 암호 필요**: 이 설정은 **암호를 요구하기 전까지 비활성 시간(분)** 설정과 함께 사용해야 합니다. **암호를 요구하기 전까지 비활성 시간(분)** 설정에 지정된 시간 동안 비활성화 상태인 장치에 사용자가 액세스하려고 하면 암호를 입력하라는 메시지가 표시됩니다.
-
-### <a name="email-profile"></a>전자 메일 프로필
+## <a name="email"></a>메일
 
 - **메일 계정은 Intune을 통해 관리해야 함:** 이 옵션이 **예**로 설정된 경우 장치는 장치에 배포된 메일 프로필을 사용해야 합니다. 다음과 같은 상황에서는 장치가 정책을 준수하지 않는 것으로 간주됩니다.
   - 메일 프로필은 준수 정책의 대상으로 지정된 사용자 그룹 이외의 사용자 그룹에 배포됩니다.
@@ -111,14 +80,34 @@ iOS 장치의 경우 이 설정은 암호에 포함해야 하는 특수 문자(�
 
 메일 프로필에 대한 자세한 내용은 [Microsoft Intune에서 메일 프로필을 사용하여 회사 메일에 대한 액세스 구성](https://docs.microsoft.com/intune-classic/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune)을 참조하세요.
 
-## <a name="device-health-settings"></a>장치 상태 설정
+## <a name="device-health"></a>Device health
 
-- **장치는 탈옥 또는 루팅되지 않아야 함**: 이 설정을 사용하도록 설정하는 경우 탈옥된 장치는 비준수 상태가 됩니다.
+- **무단 해제된 장치**: 이 설정을 사용하도록 설정하면 무단 해제된 장치는 규정을 준수하지 않습니다.
+- **장치를 장치 위협 수준 이하로 유지**: 최대 위협 수준을 선택하여 장치를 비준수로 표시합니다. 예를 들어, 위협 수준을 **보통**으로 설정하는 경우 보통, 낮음 또는 보안된 장치는 규정을 준수합니다. 높은 위협 수준의 장치는 비준수입니다.
 
 ## <a name="device-properties"></a>장치 속성
 
 - **필요한 최소 OS**: 장치가 OS 최소 버전 요구 사항을 충족하지 못하면 비준수 장치로 보고됩니다. 업그레이드 방법에 대한 정보를 제공하는 링크가 표시됩니다. 사용자는 장치를 업그레이드하도록 선택할 수 있습니다. 그런 다음 회사 리소스에 액세스할 수 있습니다.
-- **허용된 최대 OS 버전**: 장치가 규칙에 지정된 버전 이후의 OS를 사용하는 경우 회사 리소스에 대한 액세스가 차단되고 사용자는 IT 관리자에게 문의하라는 메시지가 표시됩니다. OS 버전 허용 규칙이 변경될 때까지 회사 리소스에 액세스하는 데 이 장치를 사용할 수 없습니다.
+- **허용된 최대 OS 버전**: 장치가 규칙에 지정된 버전 이상의 OS 버전을 사용하는 경우 회사 리소스에 대한 액세스가 차단됩니다. 그런 다음, 사용자에게는 IT 관리자에게 문의하라는 메시지가 표시됩니다. OS 버전 허용 규칙이 변경될 때까지 이 장치는 회사 리소스에 액세스할 수 없습니다.
+
+## <a name="system-security"></a>시스템 보안
+
+### <a name="password"></a>암호
+
+> [!NOTE]
+> 준수 또는 구성 정책을 iOS 장치에 적용하면 사용자에게 15분마다 암호를 설정하라는 메시지가 표시됩니다. 사용자가 암호를 설정할 때까지 계속 메시지가 표시됩니다.
+
+- **모바일 장치의 잠금을 해제하는 데 암호 필요**: 장치에 액세스하기 전에 사용자가 암호를 입력하도록 하려면 **예**로 설정합니다. 암호를 사용하는 iOS 장치는 암호화됩니다.
+- **단순 암호**: 사용자가 **1234** 또는 **1111**과 같은 암호를 만들도록 하려면 **예**로 설정합니다.
+- **최소 암호 길이**: 암호에 포함해야 하는 최소 자릿수 또는 문자 수를 입력합니다.
+- **필수 암호 유형**: 사용자가 **영숫자** 암호 또는 **숫자** 암호를 만들어야 할지를 입력합니다.
+- **영숫자가 아닌 암호의 문자 수**: 암호에 포함해야 하는 특수 문자의 최소 수(&, #, %, ! 등)를 입력합니다.
+
+    더 큰 값을 설정하면 사용자는 더욱 복잡한 암호를 만들어야 합니다.
+
+- **암호를 요구하기 전까지 최대 비활성 시간(분)**: 사용자가 해당 시간 내에 자신의 암호를 다시 입력해야 하는 유휴 시간을 입력합니다.
+- **암호 만료(일)**: 암호가 만료된 후 새로 만들어야 하기 전까지의 일수를 선택합니다.
+- **재사용을 방지하기 위한 이전 암호 수**: 사용할 수 없는 이전에 사용된 암호의 수를 입력합니다.
 
 <!--- ## Next steps
 

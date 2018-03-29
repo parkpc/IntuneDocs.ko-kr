@@ -1,25 +1,25 @@
 ---
-title: "장치 등록 프로그램을 사용하여 iOS 장치 등록"
+title: 장치 등록 프로그램을 사용하여 iOS 장치 등록
 titlesuffix: Microsoft Intune
-description: "장비 등록 프로그램을 사용하여 회사 소유 iOS 장치를 등록하는 방법을 알아봅니다.\""
-keywords: 
+description: 장비 등록 프로그램을 사용하여 회사 소유 iOS 장치를 등록하는 방법을 알아봅니다."
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 24b1ffb1d89f52a51f21dc6c4a588324f3cd87d3
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 05b03502a27c244dd665363741f70a695f8e945b
+ms.sourcegitcommit: a22309174e617e59ab0cdd0a55abde38711a5f35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="automatically-enroll-ios-devices-by-using-apples-device-enrollment-program"></a>Apple 장치 등록 프로그램을 사용해 iOS 장치를 자동으로 등록
 
@@ -42,10 +42,10 @@ ms.lasthandoff: 03/08/2018
 
 DEP 등록을 사용하도록 설정하려면 Intune과 Apple DEP 포털을 둘 다 사용합니다. 관리용으로 Intune에 장치를 할당할 수 있으려면 일련 번호 또는 구매 주문 번호 목록이 필요합니다. 등록 중에 장치에 적용된 설정을 포함하는 DEP 등록 프로필을 만듭니다.
 
-그러나 DEP 등록은 [장치 등록 관리자](device-enrollment-manager-enroll.md)에서 작동할 수 없습니다.
+DEP 등록은 [장치 등록 관리자](device-enrollment-manager-enroll.md)에서 작동할 수 없습니다. 또한 현재 macOS는 DEP를 지원하지 않습니다.
 
 ## <a name="what-is-supervised-mode"></a>감독됨 모드란?
-Apple은 iOS 5에서 감독됨 모드를 도입했습니다. 감독됨 모드에서 iOS 장치를 더 세밀하게 관리할 수 있습니다. 이와 같이 회사 소유 장치에 특히 유용합니다. Intune은 Apple DEP(장치 등록 프로그램)의 일부로 감독됨 모드의 장치를 구성하도록 지원합니다. 
+Apple은 iOS 5에서 감독됨 모드를 도입했습니다. 감독됨 모드에서 iOS 장치를 더 세밀하게 관리할 수 있습니다. 이와 같이 회사 소유 장치에 특히 유용합니다. Intune은 Apple DEP(장치 등록 프로그램)의 일부로 감독됨 모드의 장치를 구성하도록 지원합니다.
 
 <!--
 **Steps to enable enrollment programs from Apple**
@@ -172,7 +172,7 @@ Apple DEP 포털을 사용하여 DEP 토큰을 만듭니다. 관리용으로 Int
 1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **Apple 등록** > **등록 프로그램 장치** > **동기화**를 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
 
   ![등록 프로그램 장치 노드 선택 및 동기화 링크 선택](./media/enrollment-program-device-sync.png)
-  
+
 2. **동기화** 블레이드에서 **동기화 요청**을 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
 
    ![동기화 요청 링크를 선택하는 동기화 블레이드](./media/enrollment-program-device-request-sync.png)
@@ -206,6 +206,4 @@ Apple DEP 포털을 사용하여 DEP 토큰을 만듭니다. 관리용으로 Int
 ## <a name="distribute-devices"></a>장치 배포
 Apple과 Intune 간의 동기화 및 관리를 사용하도록 설정했으며 DEP 장치를 등록할 수 있는 프로필을 할당했습니다. 이제 사용자에게 장치를 배포할 수 있습니다. 사용자 선호도가 있는 장치의 경우 각 사용자에게 Intune 라이선스를 할당해야 합니다. 사용자 선호도를 사용하지 않는 장치에는 장치 라이선스가 필요합니다. 활성화된 장치는 초기화될 때까지 등록 프로필을 적용할 수 없습니다.
 
-[장비 등록 프로그램을 통해 Intune에서 iOS 장치 등록](/intune-user-help/enroll-your-device-dep-ios)을 참조하세요. 
-
-
+[장비 등록 프로그램을 통해 Intune에서 iOS 장치 등록](/intune-user-help/enroll-your-device-dep-ios)을 참조하세요.

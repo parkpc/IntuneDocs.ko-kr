@@ -1,25 +1,25 @@
 ---
-title: "앱별 VPN에 대한 PFN(패키지 패밀리 이름) 찾기"
-description: "앱별 VPN을 구성할 수 있도록 PFN을 찾을 수 있습니다."
-keywords: 
+title: 앱별 VPN에 대한 PFN(패키지 패밀리 이름) 찾기
+description: 앱별 VPN을 구성할 수 있도록 PFN을 찾을 수 있습니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 10/25/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 74643d1d-4fd9-4cff-ac79-1a42281d2f76
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tycast
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f4b5d71e46fbc78ebadf52e96bb75eedecc291ee
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: de1a5beafae900a21f685cf1daeb2302cbf245b3
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="find-a-package-family-name-pfn-for-per-app-vpn-configuration"></a>앱별 VPN 구성에 대한 PFN(패키지 제품군 이름) 찾기
 
@@ -72,10 +72,10 @@ PFN을 검색하려면 PowerShell을 관리자 권한으로 실행해야 할 수
 
 ## <a name="find-a-pfn-if-the-app-is-not-installed-on-a-computer"></a>컴퓨터에 설치되어 있지 않은 앱에 대한 PFN 찾기
 
-1.  https://www.microsoft.com/ko-kr/store/apps로 이동합니다.
+1.  https://www.microsoft.com/store/apps으로 이동합니다.
 2.  검색 표시줄에 앱의 이름을 입력합니다. 이 예제에서는 OneNote를 검색합니다.
 3.  앱에 대한 링크를 선택합니다. URL은 끝부분에 일련의 문자가 있다는 점에 유의하세요. 이 예제에서 URL은 `https://www.microsoft.com/store/apps/onenote/9wzdncrfhvjl`과 같습니다.
-4.  다른 탭에서 URL `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`를 붙여 넣습니다. 여기에서 `<app id>`를 https://www.microsoft.com/store/apps에서 가져온 앱 ID 즉, 3단계에서 보았듯이 URL의 끝부분에 있는 일련의 문자로 대체합니다. OneNote 예제에서는 `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`를 붙여넣습니다.
+4.  다른 탭에서 URL `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`를 붙여 넣습니다. 여기에서 `<app id>`를 https://www.microsoft.com/store/apps에서 가져온 앱 ID 즉, 3단계에서 보았듯이 URL의 끝부분에 있는 일련의 문자로 바꿉니다. OneNote 예제에서는 `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`를 붙여넣습니다.
 
 Microsoft Edge에 원하는 정보가 표시됩니다. Internet Explorer에서 **열기**를 선택하여 정보를 확인합니다. PFN 값은 첫 번째 줄에 제공됩니다. 이 예제에서 결과는 다음과 같습니다.
 

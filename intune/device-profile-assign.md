@@ -1,40 +1,40 @@
 ---
-title: "Microsoft Intune에서 장치 프로필 할당"
-description: "Azure Portal을 사용하여 장치 프로필 및 정책을 사용자와 장치에 배포하고 Microsoft InTune의 프로필 할당에서 그룹 제외"
-keywords: 
+title: Microsoft Intune에서 장치 프로필 할당
+description: Azure Portal을 사용하여 사용자 및 장치에 장치 프로필 및 정책을 할당합니다. Microsoft Intune에서 프로필 할당으로부터 그룹을 제외하는 방법에 대해 알아봅니다.
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 03/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f6f5414d-0e41-42fc-b6cf-e7ad76e1e06d
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b09650bc99b1bdf892b60828f0b524467d7b60ac
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 9840298df981bee6c33d3cb36ec5e4ada46d11bd
+ms.sourcegitcommit: e6319ff186d969da34bd19c9730ba003d6cce353
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="assign-user-and-device-profiles-in-microsoft-intune"></a>Microsoft Intune에서 사용자 및 장치 프로필 할당
 
-프로필을 만든 후에 Azure Active Directory 그룹에 해당 프로필을 할당할 수 있습니다.
+프로필을 만든 후에 Azure AD(Azure Active Directory) 그룹에 해당 프로필을 할당할 수 있습니다.
 
 ## <a name="assign-a-device-profile"></a>장치 프로필 할당
 
 1. [Azure Portal](https://portal.azure.com)에서 **모든 서비스**를 선택하고 **Microsoft Intune**을 검색합니다.
 2. **Microsoft Intune**에서 **장치 구성**를 선택한 다음, **프로필**을 선택합니다.
 3. 프로필 목록에서 할당할 프로필을 선택한 다음, **할당**을 선택합니다.
-4. 그룹을 **포함**하거나 **제외**하기로 선택한 다음, **그룹을 선택**합니다.  
+4. 그룹을 **포함**하거나 **제외**하기로 선택한 다음, 그룹을 선택합니다.  
 
-    ![프로필 할당에서 그룹 제외 또는 포함](./media/group-include-exclude.png)
+    ![프로필 할당에서 그룹 제외 또는 포함하는 옵션 스크린샷](./media/group-include-exclude.png)
 
-5. 그룹을 선택하면 Azure Activity Directory 그룹을 선택합니다. 여러 그룹을 선택하려면 **Ctrl** 키를 누릅니다.
-6. 완료되면 변경 내용을 **저장**합니다.
+5. 그룹을 선택하면 Azure AD 그룹을 선택합니다. 여러 그룹을 선택하려면 **Ctrl** 키를 누르고 있습니다.
+6. 작업이 완료되면 **저장**을 선택합니다.
 
 ## <a name="exclude-groups-from-a-profile-assignment"></a>프로필 할당에서 그룹 제외
 
@@ -42,9 +42,7 @@ Intune 장치 구성 프로필을 통해 정책 할당에서 그룹을 제외할
 
 할당에서 그룹을 제외하는 경우 사용자만 제외하거나 장치 그룹만(그룹의 혼합 아님)만 제외하면 Intune은 사용자-장치 관계를 고려하지 않습니다. 장치 그룹을 제외하고 사용자 그룹을 포함하면 기대한 결과를 만들 수 없습니다. 그룹을 섞어서 사용하거나 다른 충돌이 있는 경우 포함이 제외보다 우선 적용됩니다.
 
-예를 들어 키오스크 장치를 제외한 조직의 모든 장치에 장치 프로필을 할당하려고 합니다. **모든 사용자** 그룹을 포함하되 **모든 장치** 그룹을 제외합니다.
-
-이 경우 사용자 장치가 **모든 장치** 그룹에 속하는 경우에도 모든 사용자와 해당 장치에 정책이 적용됩니다.
+예를 들어 키오스크 장치를 제외한 조직의 모든 장치에 장치 프로필을 할당하려고 합니다. **모든 사용자** 그룹을 포함하되 **모든 장치** 그룹을 제외합니다. 이 경우 사용자 장치가 **모든 장치** 그룹에 속하는 경우에도 모든 사용자와 해당 장치에 정책이 적용됩니다.
 
 제외는 그룹의 직접 구성원만 해당하며 사용자와 연결된 장치는 포함하지 않습니다. 그러나 사용자가 없는 장치는 정책을 얻지 못합니다. 이는 이러한 장치가 **모든 사용자** 그룹과 아무 관계도 없기 때문에 발생합니다.
 

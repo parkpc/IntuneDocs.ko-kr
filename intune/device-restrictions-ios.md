@@ -1,23 +1,23 @@
 ---
-title: "iOS에 대한 Microsoft Intune 장치 제한 설정"
-titleSuffix: 
-description: "iOS를 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
-keywords: 
+title: iOS에 대한 Microsoft Intune 장치 제한 설정
+titleSuffix: ''
+description: iOS를 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/1/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b0523a514eb9d6a5c0429f1a2e2fa84d1ca00de4
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 436be436991ea4f2f295291fb95122cddf4e7ac5
+ms.sourcegitcommit: a22309174e617e59ab0cdd0a55abde38711a5f35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="microsoft-intune-ios-device-restriction-settings"></a>Microsoft Intune iOS 장치 제한 설정
 
@@ -40,7 +40,6 @@ ms.lasthandoff: 03/12/2018
 - **장치에서 모든 콘텐츠 및 설정 지우기 옵션 사용(감독 모드인 경우에만)** - 사용자가 장치의 모든 콘텐츠 및 설정을 지우는 옵션을 사용할 수 있습니다.
 - **장치 이름 수정(감독 모드인 경우에만)** - 사용자가 장치의 이름을 변경할 수 있습니다.
 - **알림 설정 수정(감독 모드인 경우에만)** - 사용자가 장치 알림 설정을 변경할 수 있습니다.
-- **바탕 화면 수정(감독 모드인 경우에만)** - 사용자가 장치 배경 화면을 변경할 수 있습니다.
 - **엔터프라이즈 앱 신뢰 설정 수정(감독 모드인 경우에만)** - 사용자가 앱 스토어에서 다운로드하지 않은 앱을 신뢰하도록 선택할 수 있습니다.
 - **구성 프로필 변경(감독 모드인 경우에만)** - 사용자가 구성 프로필을 설치하도록 허용합니다.
 - **활성화 잠금(감독 모드에만 해당)** - 감독된 iOS 장치에서 활성화 잠금을 설정합니다.
@@ -74,7 +73,6 @@ iOS 감독 모드는 Apple의 장치 등록 프로그램을 통하거나 Apple C
 - 바로 가기 키 
 - 암호 수정 
 - 장치 이름 변경 
-- 월페이퍼 변경 
 - 자동 앱 다운로드 
 - 엔터프라이즈 앱 신뢰로 변경 
 - Apple Music 
@@ -170,7 +168,7 @@ iOS 감독 모드는 Apple의 장치 등록 프로그램을 통하거나 Apple C
 페이지 URL을 복사한 후 허용 또는 금지된 앱 목록이나 키오스크 모드에서 실행하려는 앱을 구성할 URL로 사용합니다.
 제한된 앱 설정이 포함된 장치 프로필을 사용자 그룹에 할당해야 합니다.
 
-예: iPad용 Microsoft Word를 검색합니다. 사용하는 URL은 https://itunes.apple.com/kr/app/microsoft-word-for-ipad/id586447913?mt=8입니다.
+예: iPad용 Microsoft Word를 검색합니다. 사용할 URL은 https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8입니다.
 
 > [!Note]
 > 또한 iTunes를 사용하여 앱을 찾은 다음, **링크 복사** 명령을 사용하여 앱 URL을 가져올 수 있습니다.
@@ -195,7 +193,7 @@ iOS 감독 모드는 Apple의 장치 등록 프로그램을 통하거나 Apple C
 검색 엔진을 사용하여 iTunes 앱 스토어에서 사용할 앱을 찾고 앱 페이지를 엽니다.
 페이지 URL을 복사한 후 허용 또는 금지된 앱 목록이나 키오스크 모드에서 실행하려는 앱을 구성할 URL로 사용합니다.
 
-예: iPad용 Microsoft Word를 검색합니다. 사용하는 URL은 https://itunes.apple.com/kr/app/microsoft-word-for-ipad/id586447913?mt=8입니다.
+예: iPad용 Microsoft Word를 검색합니다. 사용할 URL은 https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8입니다.
 
 > [!Note]
 > 또한 iTunes 소프트웨어를 사용하여 앱을 찾은 후 **링크 복사** 명령으로 앱 URL을 가져올 수 있습니다.

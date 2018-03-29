@@ -1,24 +1,24 @@
 ---
-title: "Microsoft Intune - Azure의 장치 프로필 | Microsoft Docs"
-description: "기능, 제한 사항, 이메일, wifi, VPN, 교육, 인증서, Windows 10 업그레이드, BitLocker 및 Windows defender, Windows Information Protection 및 Azure Portal에서 사용자 지정 장치 구성을 포함한 다양한 Microsoft Intune 장치 프로필 개요입니다. 이러한 프로필을 사용하여 회사의 장치와 데이터를 관리하고 보호 합니다."
-keywords: 
+title: Microsoft Intune - Azure의 장치 프로필 | Microsoft Docs
+description: 기능, 제한 사항, 이메일, wifi, VPN, 교육, 인증서, Windows 10 업그레이드, BitLocker 및 Windows defender, Windows Information Protection 및 Azure Portal에서 사용자 지정 장치 구성을 포함한 다양한 Microsoft Intune 장치 프로필 개요입니다. 이러한 프로필을 사용하여 회사의 장치와 데이터를 관리하고 보호 합니다.
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/01/2018
+ms.date: 03/22/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 
-ms.reviewer: 
+ms.technology: ''
+ms.assetid: ''
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 79ca6eaf22233dd6d024a28e456e57a8a74d02aa
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: e92a10f51fb403c802c1c6d3ea79ccf49a1e93fb
+ms.sourcegitcommit: a22309174e617e59ab0cdd0a55abde38711a5f35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="what-are-microsoft-intune-device-profiles"></a>Microsoft Intune 장치 프로필이란?
 
@@ -120,6 +120,8 @@ VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전
 ## <a name="endpoint-protection-profile"></a>Endpoint Protection 프로필
 [Windows 10에 대한 Endpoint Protection 설정](endpoint-protection-windows-10.md)은 Windows 10 장치에 대한 BitLocker 및 Windows Defender 설정을 구성합니다.
 
+Microsoft Intune에서 WDATP(Windows Defender Advanced Threat Protection)을 온보드하려면 [MDM(모바일 장치 관리) 도구를 사용하여 끝점 구성](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-endpoints-mdm-windows-defender-advanced-threat-protection)을 참조하세요.
+
 이 기능은 Windows 10만 지원합니다
 
 ## <a name="windows-information-protection-profile"></a>Windows Information Protection 프로필
@@ -130,7 +132,7 @@ VPN(가상 사설망)을 사용하면 사용자가 회사 네트워크에 안전
 ## <a name="custom-profile"></a>사용자 지정 프로필
 [사용자 지정 설정](custom-settings-configure.md)은 Intune에 기본 제공되지 않는 장치 설정을 할당하는 기능을 포함합니다. 예를 들어 Android 장치에서 OMA-URI 값을 입력할 수 있습니다. IOS 장치의 경우 Apple Configurator에서 만든 구성 파일을 가져올 수 있습니다. 
 
-이 기능은 다음을 지원합니다. 
+이 기능은 다음을 지원합니다.
 
 - Android
 - iOS

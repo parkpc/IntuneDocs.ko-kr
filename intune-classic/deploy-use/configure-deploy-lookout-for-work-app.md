@@ -1,24 +1,24 @@
 ---
-title: "Lookout for Work 앱 배포"
-description: "Android용 Lookout for Work 앱을 구성하고 배포합니다."
+title: Lookout for Work 앱 배포
+description: Android용 Lookout for Work 앱을 구성하고 배포합니다.
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 03/21/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 524c4209-ad57-4d35-955e-a00d796bf858
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: fd0ad36f40463ab56f1a5ab0a11fa9eeb0c35db4
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 5d56dcf54c4f087dbea0dfcd95a2eebbdf384c00
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configure-and-deploy-lookout-for-work-app"></a>Lookout for Work 앱 구성 및 배포
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 10/10/2017
 ## <a name="android-google-play-store-app"></a>Android(Google Play 스토어 앱)
 
 1.  [Microsoft Intune 관리자 콘솔](https://manage.microsoft.com)에서 **앱**으로 이동하고 **앱 추가**를 선택합니다.
-2.  게시자의 **소프트웨어 설치** 페이지에서 **외부 링크**를 선택한 후 다음 URL을 지정합니다. https://play.google.com/store/apps/details?id=com.lookout.enterprise
+2.  게시자의 **소프트웨어 설정** 페이지에서 **외부 링크**를 선택하고, 다음 URL을 지정하합니다. https://play.google.com/store/apps/details?id=com.lookout.enterprise
   >[!NOTE]
   >관리되는 브라우저가 필요한 상자는 클릭하지 마세요.
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 10/10/2017
   Lookout 앱을 사용자 장치에 설치하도록 하는 **필수 설치** 옵션를 선택합니다.
 
 ## <a name="what-happens-when-the-deployed-app-is-opened-on-the-device"></a>장치에서 배포된 앱을 열 때 수행되는 작업
-https://github.com/Microsoft/Docs/blob/master/ContributorGuide/index.md 사용자가 장치에서 Lookout for Work를 열면 앱이 활성화되고 Azure Active Directory를 사용하여 로그인 옵션을 선택하라는 메시지가 표시됩니다. 최종 사용자 흐름을 사용하는 자세한 연습은 다음 항목에서 확인할 수 있습니다.
+https://github.com/Microsoft/Docs/blob/master/ContributorGuide/index.md사용자가 장치에서 Lookout for Work를 열면 앱을 활성화하고 Azure Active Directory를 사용하여 로그인 옵션을 선택하라는 메시지가 표시됩니다. 최종 사용자 흐름을 사용하는 자세한 연습은 다음 항목에서 확인할 수 있습니다.
 
 * [Android 장치에 Lookout for Work를 설치하라는 메시지가 표시됨](https://docs.microsoft.com/intune-user-help/you-are-prompted-to-install-lookout-for-work-android)
 
