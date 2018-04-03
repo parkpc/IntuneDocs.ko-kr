@@ -1,24 +1,24 @@
 ---
-title: "MDM 기관을 Configuration Manager(하이브리드 MDM)로 변경"
-description: "MDM 기관을 Intune 독립 실행형에서 Configuration Manager(하이브리드 MDM)로 변경하는 방법을 알아봅니다."
-keywords: 
+title: MDM 기관을 Configuration Manager(하이브리드 MDM)로 변경
+description: MDM 기관을 Intune 독립 실행형에서 Configuration Manager(하이브리드 MDM)로 변경하는 방법을 알아봅니다.
+keywords: ''
 author: dougeby
-manager: angrobe
+manager: dougeby
 ms.date: 10/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f1b4bce3-7932-4a0d-aa92-6dacc7060f42
 ROBOTS: NOINDEX,NOFOLLOW
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 64e79da53aec646fc65285e41f86541ecdf6d804
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: b5494e4b2b6a7983d05ac83d9bc495677ee1a1ab
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="change-the-mdm-authority"></a>MDM 기관 변경
 Configuration Manager 버전 1610부터 Microsoft 지원에 문의하지 않고 기존 관리 장치에 대한 등록 취소 및 다시 등록을 수행할 필요 없이 MDM 기관을 변경할 수 있습니다. 이 항목에서는 기존의 관리 장치를 등록 취소했다가 다시 등록하지 않고도 Intune에서 구성되고 MDM 기관이 **Microsoft Intune**(독립 실행형)으로 설정된 기존 Microsoft Intune 테넌트를 **Configuration Manager**(하이브리드 MDM)로 변경하는 단계를 제공합니다.
@@ -51,7 +51,7 @@ Configuration Manager 버전 1610부터 Microsoft 지원에 문의하지 않고 
 - MDM 기관 변경 전에 Intune 독립 실행형을 사용하여 iOS 장치를 관리하는 경우 이전에 Intune에서 사용했던 동일한 APNs(Apple Push Notification Service) 인증서가 갱신되고 Configuration Manager(하이브리드)에서 테넌트를 다시 설정하는 데 사용되도록 해야 합니다.    
 
     > [!IMPORTANT]  
-    > 하이브리드에 다른 APNs 인증서가 사용되면 이전에 등록한 모든 iOS 장치가 등록 취소되고 다시 등록하는 프로세스를 진행해야 합니다. MDM 기관 변경 전에 Intune에서 iOS 장치를 관리하는 데 사용된 APNs 인증서를 정확히 알고 있어야 합니다. Apple Push Certificates 포털 (https://identity.apple.com) 에 나열된 동일한 인증서를 찾고, 해당 Apple ID가 원래 APNs 인증서를 만드는 데 사용된 사용자를 식별한 후 새 MDM 기관 변경의 일부로 동일한 APNs 인증서를 갱신하는 데 이 인증서를 사용할 수 있도록 합니다.  
+    > 하이브리드에 다른 APNs 인증서가 사용되면 이전에 등록한 모든 iOS 장치가 등록 취소되고 다시 등록하는 프로세스를 진행해야 합니다. MDM 기관 변경 전에 Intune에서 iOS 장치를 관리하는 데 사용된 APNs 인증서를 정확히 알고 있어야 합니다. Apple Push Certificates 포털(https://identity.apple.com))에 나열된 동일한 인증서를 찾고, 해당 Apple ID가 원래 APNs 인증서를 만드는 데 사용된 사용자를 식별한 후 새 MDM 기관 변경의 일부로 동일한 APNs 인증서를 갱신하는 데 이 인증서를 사용할 수 있도록 합니다.  
 
 ## <a name="change-the-mdm-authority-to-configuration-manager"></a>MDM 기관을 Configuration Manager로 변경
 MDM 기관을 Configuration Manager(하이브리드)로 변경하는 프로세스는 다음과 같은 고급 단계를 포함합니다.  

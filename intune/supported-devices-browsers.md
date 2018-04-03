@@ -1,25 +1,25 @@
 ---
-title: "Microsoft Intune에서 지원하는 운영 체제 및 브라우저"
-titleSuffix: 
-description: "Intune 장치 관리용으로 지원되는 장치 플랫폼 및 브라우저를 나열합니다."
-keywords: 
+title: Microsoft Intune에서 지원하는 운영 체제 및 브라우저
+titleSuffix: ''
+description: Intune 장치 관리용으로 지원되는 장치 플랫폼 및 브라우저를 나열합니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 01/03/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
-ms.reviewer: angrobe
+ms.reviewer: dougeby
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1e58201620612118f0984a1c477b3fa3bc7e923a
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 5a8962223bac0ed27b6a52404973f2c30abfc28b
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="supported-operating-systems-and-browsers"></a>지원되는 운영 체제 및 브라우저
 
@@ -109,7 +109,7 @@ You can manage [Exchange ActiveSync devices](/intune-classic/deploy-use/mobile-d
 
 ### <a name="intune-classic-portal"></a>Intune 클래식 포털
 
-Intune PC 소프트웨어 클라이언트 및 Mobile Threat Defense 파트너와의 통합과 같은 Intune 클래식 전용 기능은 Intune 클래식 포털(https://manage.microsoft.com)에서만 사용 가능합니다. Intune 클래식 포털에는 Silverlight 브라우저 지원이 필요합니다.
+Intune PC 소프트웨어 클라이언트 및 Mobile Threat Defense 파트너와의 통합과 같은 Intune 클래식 전용 기능은 Intune 클래식 포털(https://manage.microsoft.com))에서만 제공됩니다. Intune 클래식 포털에는 Silverlight 브라우저 지원이 필요합니다.
 
 Intune 콘솔을 지원하는 Silverlight 브라우저는 다음과 같습니다.
 - Internet Explorer 10 이상

@@ -1,23 +1,22 @@
 ---
-title: "Microsoft Intune에서 Windows 장치 규정 준수 정책 만들기"
-titleSuffix: 
-description: "장치가 규정을 준수하는 데 충족해야 하는 요구 사항을 지정할 수 있도록 Windows 장치에 대한 Microsoft Intune 장치 규정 준수 정책을 만듭니다."
-keywords: 
+title: Microsoft Intune에서 Windows 장치 규정 준수 정책 만들기 - Azure | Microsoft Docs
+description: 장치가 규정을 준수하는 데 충족해야 하는 요구 사항을 지정할 수 있도록 Windows 장치에 대한 Microsoft Intune 장치 규정 준수 정책을 만듭니다.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 32af54e3e753e7ded3c86d9d44b793da7fe2e9c0
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 211b3c94dd7172d1755e3c12bb4d90dbcf28750d
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-windows-devices-in-intune"></a>Intune에서 Windows 장치에 대한 장치 준수 정책을 만드는 방법
 
@@ -177,7 +176,7 @@ HAS 서비스의 작동 방식에 대한 자세한 내용은 [상태 증명 CSP]
 
 - **Minimum OS required(필요한 최소 OS):** - Windows 8.1 및 Windows 10에서 지원됩니다.
 
-여기에 major.minor.build 번호를 지정합니다. 버전 번호는 ```winver``` 명령에 의해 반환된 버전과 일치해야 합니다.
+여기에 major.minor.build.CU 번호를 지정합니다. 버전 번호는 ```winver``` 명령에 의해 반환된 버전과 일치해야 합니다.
 
 지정된 OS 버전보다 이전 버전이 장치에 있으면 호환되지 않는 것으로 보고됩니다. 업그레이드 방법에 대한 정보를 제공하는 링크가 표시됩니다. 최종 사용자는 회사 리소스에 액세스할 수 있으면 장치를 업그레이드하도록 선택할 수 있습니다.
 

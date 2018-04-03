@@ -1,25 +1,25 @@
 ---
-title: "Lookout 통합 문제 해결"
-description: "이 항목에서는 Lookout 통합에서 흔히 발생하는 문제의 해결 방법을 설명합니다."
-keywords: 
+title: Lookout 통합 문제 해결
+description: 이 항목에서는 Lookout 통합에서 흔히 발생하는 문제의 해결 방법을 설명합니다.
+keywords: ''
 author: NathBarn
 ms.author: nathbarn
-manager: angrobe
+manager: dougeby
 ms.date: 12/19/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: bbe0b5f4-b8bc-49f3-85a9-51fb2f226fca
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6adb0bc2562a16c0111242cc7dd923afa073d84e
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: ec20d87da48fb52207d839da0753eb05524569af
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshoot-lookout-integration-with-intune"></a>Intune과 Lookout의 통합 문제 해결
 
@@ -36,14 +36,14 @@ Lookout MTP를 통해, 구성된 Azure AD 그룹의 사용자만 서비스에 �
 
 * 메일: enterprisesupport@lookout.com
 * [MTP 콘솔](http://aad.lookout.com)에 로그인한 다음 **지원** 모듈로 이동합니다.
-* https://enterprise.support.lookout.com/hc/requests로 이동하여 지원 요청을 수행합니다.
+* https://enterprise.support.lookout.com/hc/requests로 이동하고 지원을 요청합니다.
 
 ## <a name="unable-to-sign-in"></a>로그인할 수 없음
 Azure AD 전역 관리자가 초기 Lookout 설정을 수락하지 않은 경우 다음 오류가 표시됩니다.
 
 ![로그인 오류를 보여 주는 Lookout 로그인 화면의 스크린샷](../media/mtp/lookout-mtp-consent-not-accepted-error.png)
 
-이 문제를 해결하려면 전역 관리자가 https://aad.lookout.com/les?action=consent에 로그인한 다음 메시지에 동의하여 설치를 시작해야 합니다. 자세한 정보는 [Lookout MTP 구독 설정](../deploy-use/setup-your-lookout-mtd-subscription.md) 항목에서 확인할 수 있습니다.
+이 문제를 해결하려면 전역 관리자가 https://aad.lookout.com/les?action=consent에 로그인하고 메시지에 동의하여 설정을 시작해야 합니다. 자세한 정보는 [Lookout MTP 구독 설정](../deploy-use/setup-your-lookout-mtd-subscription.md) 항목에서 확인할 수 있습니다.
 
 **장치 상태 문제**
 
@@ -82,7 +82,7 @@ Lookout MTP 콘솔에서, 활성 장치에 장치 ID가 없으면 장치 사용�
 
 ## <a name="compliance-remediation-workflows"></a>규정 준수 수정 워크플로
 - [Android 장치에 Lookout for Work를 설치하라는 메시지가 표시됨]( http://docs.microsoft.com/intune-user-help/you-are-prompted-to-install-lookout-for-work-android)
-- [Android 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](http://docs.microsoft.com/intune-user-help/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
+- [Lookout for Work가 Android 장치에서 발견한 위협을 해결해야 함](http://docs.microsoft.com/intune-user-help/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
 - [iOS 장치에서 Lookout for Work가 발견한 위협을 해결해야 함](https://docs.microsoft.com/intune-user-help/you-need-to-resolve-a-threat-found-by-lookout-for-work-ios)
 
 

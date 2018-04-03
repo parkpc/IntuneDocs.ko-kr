@@ -1,25 +1,25 @@
 ---
-title: "iOS 정책 설정"
-description: "Intune으로 관리하는 iOS 장치에서 설정 및 기능을 제어하는 정책을 만듭니다."
-keywords: 
+title: iOS 정책 설정
+description: Intune으로 관리하는 iOS 장치에서 설정 및 기능을 제어하는 정책을 만듭니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ab46be6c-ab73-4c99-8492-66d1dd418293
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e9d014eb504098ff4361add7a0f3715f33be9083
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: ff426feff58de8b06fed7be9a0e6a52e9cc40ae3
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="ios-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 iOS 정책 설정
 
@@ -222,7 +222,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 
 2. 페이지 URL을 복사한 후 호환 또는 비호환 앱 목록이나 키오스크 모드에서 실행하려는 앱을 구성할 URL로 사용합니다.
 
-**예:** **iPad용 Microsoft Word**를 검색합니다. 사용하는 URL은 **https://itunes.apple.com/kr/app/microsoft-word-for-ipad/id586447913?mt=8**이 됩니다.
+**예:****iPad용 Microsoft Word**를 검색합니다. 사용할 URL은 **https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8**입니다.
 
 > [!NOTE]
 > 또한 iTunes 소프트웨어를 사용하여 앱을 찾은 후 **링크 복사** 명령으로 앱 URL을 가져올 수 있습니다.
@@ -362,7 +362,7 @@ Microsoft Intune **iOS 일반 구성 정책**을 사용하여 다음 설정을 �
 
 이 기능으로 Intune 일반 구성 정책으로는 구성할 수 없는 iOS 설정을 배포할 수 있습니다.
 
-### <a name="prerequisites"></a>필수 구성 요소
+### <a name="prerequisites"></a>전제 조건
 시작하기 전에 Apple Configurator를 설치하고 사용자 또는 장치를 배포할 설정이 포함된 구성 파일을 만들어야 합니다. [Mac 앱 스토어](https://itunes.apple.com/us/app/apple-configurator/id434433123?mt=12)에서 Apple Configurator를 다운로드하고 이에 대해 알아볼 수 있습니다.
 
 > [!NOTE]

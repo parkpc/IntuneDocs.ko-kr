@@ -1,25 +1,25 @@
 ---
-title: "Android 및 Samsung KNOX 정책 설정"
-description: "Intune으로 관리하는 Android 장치에서 설정 및 기능을 제어하는 정책을 만듭니다."
-keywords: 
+title: Android 및 Samsung KNOX 정책 설정
+description: Intune으로 관리하는 Android 장치에서 설정 및 기능을 제어하는 정책을 만듭니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 10/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 71cc39cf-e726-40fd-8d08-78776e099a4b
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8978194dfed956550a6417d4bfbedf3f2c547539
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: a75380f578eeea57b8f6e694923d84b42b844045
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="android-and-samsung-knox-standard-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 Android 및 Samsung KNOX Standard 정책 설정
 
@@ -119,7 +119,7 @@ Intune **Android 일반 구성 정책**을 사용하여 다음 설정을 구성�
 |----------------|---|-------------|----------------|
 |**음성 로밍 허용**|장치가 셀룰러 네트워크에 있을 때 음성 로밍을 허용합니다.|아니요|예|
 |**데이터 로밍 허용**|장치가 셀룰러 네트워크에 있을 때 데이터 로밍을 허용합니다.|아니요|예|
-|**SMS/MMS 메시징 허용**|장치에서 SMS 및 MMS 메시징을 허용합니다.|아니요|예|
+|**SMS/MMS 메시징 허용**|장치에서 SMS 및 MMS 메시지를 허용합니다.|아니요|예|
 
 ### <a name="device-capabilities-settings---features"></a>장치 기능 설정 - 기능
 
@@ -175,7 +175,7 @@ Intune **Android 일반 구성 정책**을 사용하여 다음 설정을 구성�
 
 앱 설치 페이지를 열고 클립보드에 URL을 복사합니다. 이제 규격 또는 비규격 앱 목록의 URL로 사용할 수 있습니다.
 
-예: Google Play에서 Microsoft Office Mobile을 검색합니다. 사용하는 URL이 **https://play.google.com/store/apps/details?id=com.microsoft.office.officehub**가 됩니다.
+예: Google Play에서 Microsoft Office Mobile을 검색합니다. 사용할 URL은 **https://play.google.com/store/apps/details?id=com.microsoft.office.officehub**입니다.
 
 ## <a name="custom-policy-settings"></a>사용자 지정 정책 설정
 Microsoft Intune **Android 사용자 지정 구성 정책**을 사용하여 Android 장치에서 기능을 제어하는 데 사용할 수 있는 OMA-URI 설정을 배포합니다. 이는 많은 모바일 장치 제조업체가 장치 기능을 제어하는 데 사용하는 표준 설정입니다.

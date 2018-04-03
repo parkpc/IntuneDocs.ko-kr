@@ -1,25 +1,25 @@
 ---
-title: "회사 포털 앱을 구성하는 방법"
+title: 회사 포털 앱을 구성하는 방법
 titleSuffix: Microsoft Intune
-description: "Intune 회사 포털 앱에 회사별 브랜딩을 적용할 수 있는 방법을 알아봅니다."
-keywords: 
+description: Intune 회사 포털 앱에 회사별 브랜딩을 적용할 수 있는 방법을 알아봅니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: dec6f258-ee1b-4824-bf66-29053051a1ae
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: cd876739fb0f3ad6d2e0fea705825a26ebc9fe03
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 186f6c1749d94a995ad145ca535bb59c6f02875c
+ms.sourcegitcommit: a22309174e617e59ab0cdd0a55abde38711a5f35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="how-to-configure-the-microsoft-intune-company-portal-app"></a>Microsoft Intune 회사 포털 앱을 구성하는 방법
 
@@ -41,9 +41,9 @@ Microsoft Intune 회사 포털에서 사용자는 회사 데이터에 액세스�
 |**회사 이름**|40|이 이름은 회사 포털의 제목으로 표시됩니다.|        
 |**IT 부서 연락처 이름**|40|이 이름은 **IT 담당자** 페이지에 표시됩니다.|      
 |**IT 부서 전화 번호**|20|이 연락처 번호는 **IT 담당자** 페이지에 표시됩니다.|        
-|IT 부서 전자 메일 주소|40|이 연락처 주소는 **IT 담당자** 페이지에 표시됩니다. 유효한 메일 주소를 **alias@domainname.com** 형식으로 입력해야 합니다.|     
+|**IT 부서 이메일 주소**|40|이 연락처 주소는 **IT 담당자** 페이지에 표시됩니다. 유효한 메일 주소를 **alias@domainname.com** 형식으로 입력해야 합니다.|     
 |**추가 정보**|120|**IT 담당자** 페이지에 표시됩니다.|      
-|**회사 개인정보취급방침 URL**|79|사용자가 회사 포털에서 개인정보취급방침 링크를 클릭할 때 표시되는 회사 개인정보취급방침을 지정할 수 있습니다. **https://www.contoso.com** 형식의 올바른 URL을 입력해야 합니다.|        
+|**회사 개인정보취급방침 URL**|79|사용자가 회사 포털에서 개인정보취급방침 링크를 클릭할 때 표시되는 회사 개인정보취급방침을 지정할 수 있습니다. 올바른 URL을 **https://www.contoso.com** 형식으로 입력해야 합니다.|        
 
 ## <a name="support-contacts"></a>지원 연락처     
 지원 웹 사이트가 회사 포털의 사용자에게 표시되어, 온라인 지원에 액세스할 수 있도록 합니다.        

@@ -1,25 +1,25 @@
 ---
-title: "iOS 장치용 Apple DEP 관리"
-description: "무선으로 iOS DEP(장비 등록 프로그램)를 통해 구매한 iOS 장치를 등록하는 등록 프로필을 배포하여 Apple 장치를 관리할 수 있습니다."
-keywords: 
+title: iOS 장치용 Apple DEP 관리
+description: 무선으로 iOS DEP(장비 등록 프로그램)를 통해 구매한 iOS 장치를 등록하는 등록 프로필을 배포하여 Apple 장치를 관리할 수 있습니다.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
-manager: angrobe
+manager: dougeby
 ms.date: 03/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 885e3f0608cd367cb23658c342451a4a56e5474d
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: bf47c802291d802ac890aa4ba00cf79d9d2d10f0
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="enroll-corporate-owned-device-enrollment-program-ios-devices"></a>회사 소유 장치 등록 프로그램 iOS 장치 등록
 
@@ -29,13 +29,14 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 >[!NOTE]
 >DEP 등록은 [장치 등록 관리자](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md) 방법과 함께 사용할 수 없습니다.
->또한 사용자가 (예: 회사 포털 앱을 사용하여) iOS 장치를 등록한 다음 해당 장치의 일련 번호를 가져오고 DEP 프로필을 할당한 경우 장치가 Intune에서 등록 취소됩니다.
+>또한 사용자가 (예: 회사 포털 앱을 사용하여) iOS 장치를 등록한 다음, 해당 장치의 일련 번호를 가져오고 DEP 프로필을 할당한 경우 Intune에서 장치의 등록이 취소됩니다.
+> 또한 현재 macOS는 DEP를 지원하지 않습니다.
 
 ## <a name="prerequisites-for-enrolling-ios-devices-by-using-apple-dep-management"></a>Apple DEP 관리를 사용하여 iOS 장치를 등록하기 위한 필수 조건
 
 - [APNs 인증서 설치](set-up-ios-and-mac-management-with-microsoft-intune.md)
 
-- 조직에서 Apple DEP에 가입하고 그 프로그램을 통해 장치를 가져와야 합니다. 해당 프로세스의 세부 정보는  [https://deploy.apple.com](https://deploy.apple.com)으로 관리할 수 있습니다. 이 프로그램의 이점 중 하나는 USB 케이블을 사용해서 각 장치를 컴퓨터에 연결하지 않고도 장치를 자동 설치할 수 있다는 것입니다.
+- 조직에서 Apple DEP에 가입하고 그 프로그램을 통해 장치를 가져와야 합니다. 해당 프로세스의 세부 정보는 [https://deploy.apple.com](https://deploy.apple.com)에서 제공됩니다. 이 프로그램의 이점 중 하나는 USB 케이블을 사용해서 각 장치를 컴퓨터에 연결하지 않고도 장치를 자동 설치할 수 있다는 것입니다.
 
 - 회사 소유의 iOS 장치를 DEP에 등록하려면 Apple의 DEP 토큰이 필요합니다. Intune에서는 이 토큰을 통해 회사에서 소유한 DEP 참가 장치에 대한 정보를 동기화할 수 있습니다. 또한 Apple에 등록 프로필을 업로드하고 이러한 프로필에 장치를 할당할 수 있습니다.
 
@@ -53,7 +54,7 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 ### <a name="get-a-device-enrollment-program-token"></a>장치 등록 프로그램 토큰 가져오기
 
-1. [장치 등록 프로그램 포털](https://deploy.apple.com) (https://deploy.apple.com) 로 이동한 다음 회사 Apple ID로 로그인합니다. 나중에 DEP 토큰을 갱신하려면 이 Apple ID를 사용해야 합니다.
+1. [장치 등록 프로그램 포털](https://deploy.apple.com)(https://deploy.apple.com))로 이동하고, 회사 Apple ID로 로그인합니다. 나중에 DEP 토큰을 갱신하려면 이 Apple ID를 사용해야 합니다.
 
 2.  장치 등록 프로그램 포털에서 **장치 등록 프로그램** &gt; **서버 관리**로 이동한 후 **MDM 서버 추가**를 선택합니다.
 
@@ -130,7 +131,7 @@ Microsoft Intune은 “무선으로” DEP(장치 등록 프로그램)를 통해
 
 ### <a name="assign-dep-devices-for-management"></a>관리를 위해 DEP 장치 할당
 
-1. [장치 등록 프로그램 포털](https://deploy.apple.com) (https://deploy.apple.com) 로 이동한 다음 회사 Apple ID로 로그인합니다.
+1. [장치 등록 프로그램 포털](https://deploy.apple.com)(https://deploy.apple.com))로 이동하고, 회사 Apple ID로 로그인합니다.
 
 2. **배포 프로그램** &gt; **장치 등록 프로그램** &gt; **장치 관리**로 이동합니다.
 

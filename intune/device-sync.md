@@ -1,25 +1,25 @@
 ---
-title: "Microsoft Intune-Azure와 장치 동기화 | Micrososft Docs"
-description: "Microsoft Intune으로 등록되거나 관리되는 장치를 동기화하여 최신 정책과 작업을 가져옵니다. Azure Portal을 사용하여 동기화하는 단계를 포함하고 다시 시도할 수 있는 오류 코드를 나열합니다."
-keywords: 
+title: Microsoft Intune-Azure와 장치 동기화 | Micrososft Docs
+description: Microsoft Intune으로 등록되거나 관리되는 장치를 동기화하여 최신 정책과 작업을 가져옵니다. Azure Portal을 사용하여 동기화하는 단계를 포함하고 다시 시도할 수 있는 오류 코드를 나열합니다.
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 02ad249e-f098-421f-861f-6b2ff733ac7c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d2d13ce2ed06549a6cd09fd766a0072b15fcd067
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 7af71a2d5c3ad871e69424cf6afbf7c364bb888d
+ms.sourcegitcommit: 390a4be5aa36007c36fb6a5abcfe8d20bc862a4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
-# <a name="sync-devices-to-get-the-latest-policies-and-actions---intune"></a>장치를 동기화하여 최신 정책과 작업 가져오기 - Intune
+# <a name="sync-devices-to-get-the-latest-policies-and-actions-with-intune"></a>장치를 동기화하여 Intune에서 최신 정책과 작업 가져오기
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -36,11 +36,11 @@ ms.lasthandoff: 03/08/2018
 
 ## <a name="sync-a-device"></a>장치 동기화
 
-1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
-2. **모든 서비스**를 선택하고 **Intune**에서 필터링하고 **Microsoft Intune**을 선택합니다. 
-3. **Intune**에서 **장치**를 선택하고 **모든 장치**를 선택합니다.
-4. 관리하는 장치 목록에서 장치를 선택하고 **자세히...**를 선택한 다음, **동기화** 작업을 선택합니다.
-5. **예**를 선택하여 확인합니다.
+1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
+2. **모든 서비스**를 선택하고 **Intune**에 필터링한 다음, **Microsoft Intune**을 선택합니다. 
+3. **Intune**에서 **장치** > **모든 장치**를 선택합니다.
+4. 관리하는 장치 목록에서 장치를 선택하고 **자세히**를 선택한 다음, **동기화**를 선택합니다.
+5. 확인하려면 **예**를 선택합니다.
 
 
 ## <a name="retryable-error-codes"></a>다시 시도 가능 오류 코드
@@ -62,6 +62,6 @@ ms.lasthandoff: 03/08/2018
 | 2016330889 | 보안 연결에 실패했습니다. 연결을 다시 설정하십시오. | 예|
 | 2016330888 | 서버 신뢰 평가에 실패했습니다. | 아니요|
 
-## <a name="next-step"></a>다음 단계
+## <a name="next-steps"></a>다음 단계
 
-**장치 작업**을 선택하여 동기화 작업의 상태를 확인합니다. 
+- 동기화 작업의 상태를 확인하려면 **장치 작업**을 선택합니다. 

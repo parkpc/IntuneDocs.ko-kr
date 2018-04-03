@@ -1,23 +1,23 @@
 ---
-title: "iOS 장치 Single Sign-On용 Microsoft Intune 구성"
-titlesuffix: 
-description: "iOS 장치 Single Sign-On용 Microsoft Intune을 구성하는 방법을 알아봅니다."
-keywords: 
+title: iOS 장치 Single Sign-On용 Microsoft Intune 구성
+titlesuffix: ''
+description: iOS 장치 Single Sign-On용 Microsoft Intune을 구성하는 방법을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/2/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3bb7c3bdffb19e26f2f2178c1750d1ef31a02556
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 8f19320df9a9728cdd77e608fc0ad219272a731f
+ms.sourcegitcommit: e6319ff186d969da34bd19c9730ba003d6cce353
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="configure-microsoft-intune-for-ios-device-single-sign-on"></a>iOS 장치 Single Sign-On용 Microsoft Intune 구성
 
@@ -90,7 +90,7 @@ URL 일치 패턴은 `http://` 또는 `https://`로 시작해야 합니다. 단�
 
 Single Sign-On 페이로드를 사용할 수 있는 최종 사용자 장치의 앱을 나타냅니다.
 
-`AppIdentifierMatches` 배열에는 앱 번들 ID와 일치하는 문자열이 포함되어야 합니다. 이러한 문자열은 정확히 일치하는 항목(예: `com.contoso.myapp`)이거나, *\ 와일드카드 문자를 사용하여 번들 ID의 접두사 일치를 지정할 수 있습니다. 와일드카드 문자는 마침표 문자(.) 뒤에 표시되어야 하며, 문자열의 끝에 한 번만 나타날 수 있습니다(예: `com.contoso.*`). 와일드카드가 포함되면 번들 ID가 접두사로 시작하는 모든 앱에 계정에 대한 액세스 권한이 부여됩니다.
+`AppIdentifierMatches` 배열에는 앱 번들 ID와 일치하는 문자열이 포함되어야 합니다. 이러한 문자열은 정확히 일치하는 항목(예: `com.contoso.myapp`)이거나, \* 와일드카드 문자를 사용하여 번들 ID의 접두사 일치를 지정할 수 있습니다. 와일드카드 문자는 마침표 문자(.) 뒤에 표시되어야 하며, 문자열의 끝에 한 번만 나타날 수 있습니다(예: `com.contoso.*`). 와일드카드가 포함되면 번들 ID가 접두사로 시작하는 모든 앱에 계정에 대한 액세스 권한이 부여됩니다.
 
 **앱 이름** 필드는 사용자가 번들 ID를 쉽게 식별할 수 있는 친숙한 이름을 추가하는 데 사용됩니다.
 
