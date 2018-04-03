@@ -1,4 +1,4 @@
----
+﻿---
 title: Intune for Education이란?
 description: Intune for Education이 전체 Intune 관리 환경과 어떻게 다른지 알아봅니다.
 keywords: Intune이란

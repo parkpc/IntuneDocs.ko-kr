@@ -19,7 +19,7 @@ ms.openlocfilehash: a70b2707b38534826577bfe47bcd8e575c09a71f
 ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/22/201
 ---
 # <a name="troubleshoot-the-exchange-connector"></a>Exchange Connector 문제 해결
 
