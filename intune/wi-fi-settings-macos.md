@@ -1,16 +1,16 @@
 ---
-title: "macOS를 실행하는 장치에 대한 Microsoft Intune Wi-Fi 설정"
-titleSuffix: 
-description: "macOS 실행하는 장치에서 Wi-Fi 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
-keywords: 
+title: macOS를 실행하는 장치에 대한 Microsoft Intune Wi-Fi 설정
+titleSuffix: ''
+description: macOS 실행하는 장치에서 Wi-Fi 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.openlocfilehash: 25cc8cd550567d6edc63f1cab416bdb7d978eb52
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/08/2018
 - **프록시 설정** - 다음에서 선택합니다.
     - **없음** - 프록시 설정을 구성하지 않습니다.
     - **수동** - **프록시 서버 주소**(IP 주소) 및 연결된 **포트 번호**를 입력합니다.
-    - **자동** – 파일을 사용하여 프록시 서버를 구성합니다. 구성 파일이 포함된 **프록시 서버 URL**(예: **http://proxy.contoso.com)을 입력합니다.
+    - **자동** – 파일을 사용하여 프록시 서버를 구성합니다. 구성 파일이 포함된 **프록시 서버 URL**(예: ** http://proxy.contoso.com) 을 입력합니다.
 
 ## <a name="wi-fi-settings-for-basic-profiles-only"></a>기본 프로필에만 적용되는 Wi-Fi 설정
 
