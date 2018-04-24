@@ -1,4 +1,4 @@
----
+﻿---
 title: Mac OS X 정책 설정
 description: Intune은 Mac OS X 장치에서 구성할 수 있는 기본 제공 일반 설정의 범위를 제공합니다. 또한 Intune에서 사용할 수 없는 사용자 지정 설정을 만들려면 Apple Configurator 도구를 사용할 수 있습니다.
 keywords: ''

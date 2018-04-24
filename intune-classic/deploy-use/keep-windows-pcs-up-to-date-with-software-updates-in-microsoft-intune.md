@@ -1,4 +1,4 @@
----
+﻿---
 title: Windows PC의 소프트웨어 업데이트
 description: Intune은 최신 패치 및 소프트웨어 업데이트를 빠르게 설치하여 관리되는 컴퓨터를 최신 상태로 유지하도록 도와줍니다.
 keywords: ''

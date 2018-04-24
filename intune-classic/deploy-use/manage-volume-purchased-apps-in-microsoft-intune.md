@@ -1,4 +1,4 @@
----
+﻿---
 title: 대량 구매 앱 관리
 description: Intune을 사용하여 앱 스토어에서 볼륨으로 구매한 앱을 관리하는 방법에 대해 알아봅니다.
 keywords: ''

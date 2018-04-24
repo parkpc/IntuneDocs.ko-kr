@@ -1,4 +1,4 @@
----
+﻿---
 title: Windows PC에 대한 방화벽 정책
 description: Intune에서는 Intune 클라이언트로 관리하는 PC를 다양한 방법으로 보호할 수 있습니다. 그중 하나는 Windows 방화벽 설정을 구성하는 것입니다.
 keywords: ''

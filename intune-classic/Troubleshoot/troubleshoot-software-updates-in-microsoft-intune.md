@@ -1,4 +1,4 @@
----
+﻿---
 title: 소프트웨어 업데이트 문제 해결
 description: Microsoft Intune에서 소프트웨어 업데이트 문제를 해결합니다.
 keywords: ''
