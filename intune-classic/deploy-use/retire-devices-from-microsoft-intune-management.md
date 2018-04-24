@@ -1,29 +1,29 @@
 ---
-title: "장치 사용 중지"
-description: "Intune은 정책 및 회사 포털을 제거하여 Intune 관리에서 장치를 제거할 수 있도록 선택적 초기화 및 전체 초기화를 모두 지원합니다."
-keywords: 
+title: 장치 사용 중지
+description: Intune은 정책 및 회사 포털을 제거하여 Intune 관리에서 장치를 제거할 수 있도록 선택적 초기화 및 전체 초기화를 모두 지원합니다.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 02/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 3dbec400-5d8a-47be-b892-7745811d9de2
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d304e0d27b6aa1ee568bc71272781f44efdce121
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: d9dc8fdd7437c9de49df9ea9a4c9641ac9d590de
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="retire-devices-from-intune-management"></a>Intune 관리에서 장치 사용 중지
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 장치가 회사 소유 또는 개인 소유인지 관계없이 결과적으로 관리되는 장치는 Intune 관리에서 제거되어야 합니다.
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 10/10/2017
 
 ## <a name="to-delete-devices-in-the-azure-active-directory-portal"></a>Azure Active Directory 포털에서 장치를 삭제하려면
 
-1.  조직 자격 증명을 사용하여 [http://aka.ms/accessaad](http://aka.ms/accessaad) 또는 [https://portal.office.com](https://portal.office.com)에 로그인한 다음 **관리 센터** &gt; **Azure AD**를 선택합니다.
+1.  조직 자격 증명을 사용하여 [http://aka.ms/accessaad](http://aka.ms/accessaad) 또는 [https://portal.office.com](https://portal.office.com)에 로그인한 다음, **관리 센터** &gt; **Azure AD**를 선택합니다.
 
 2.  Azure 구독이 없으면 만듭니다. 유료 계정이 있으면 신용 카드 또는 결제 과정이 필요하지 않습니다. **무료 Azure Active Directory 등록** 구독 링크를 선택합니다.
 

@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b5d2ec278d182f3d9dbe03fbdf86791b59debf79
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 52cba4de7d19744e1a011071ac6c9bbb168ffb30
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="get-ready-to-configure-app-protection-policies-in-the-azure-portal"></a>Azure Portal에서 앱 보호 정책 구성 준비
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 Azure Portal에서 앱 보호 정책을 만들기 **전**에 완료해야 하는 필수 조건 및 단계에 대해 설명합니다.
 
@@ -74,18 +74,18 @@ Intune 관리 콘솔에서 앱 정책을 만드는 방법에 대한 자세한 �
 
 ## <a name="prerequisites"></a>전제 조건
 
--   **Microsoft Intune 구독**. 앱 보호 정책이 있는 앱을 사용하려면 Intune 라이선스가 필요합니다.
-현재 Intune을 사용하여 장치를 관리하는 경우 Intune 구독이 이미 있습니다. EMS(Enterprise Mobility Suite) 라이선스를 구입한 경우에도 Intune 구독이 있습니다. Intune을 사용하여 MAM 기능을 확인하려는 경우 [Microsoft Intune 페이지](https://www.microsoft.com/server-cloud/products/microsoft-intune/)에서 평가판 계정을 얻을 수 있습니다.
+- **Microsoft Intune 구독**. 앱 보호 정책이 있는 앱을 사용하려면 Intune 라이선스가 필요합니다.
+  현재 Intune을 사용하여 장치를 관리하는 경우 Intune 구독이 이미 있습니다. EMS(Enterprise Mobility Suite) 라이선스를 구입한 경우에도 Intune 구독이 있습니다. Intune을 사용하여 MAM 기능을 확인하려는 경우 [Microsoft Intune 페이지](https://www.microsoft.com/server-cloud/products/microsoft-intune/)에서 평가판 계정을 얻을 수 있습니다.
 
-    Intune 구독이 있는지 확인하려면 Office 포털에서 **결제** 페이지로 이동합니다.  구독이 있는 경우 구독 아래에 Intune이 **활성**으로 표시되어야 합니다.
+  Intune 구독이 있는지 확인하려면 Office 포털에서 **결제** 페이지로 이동합니다.  구독이 있는 경우 구독 아래에 Intune이 **활성**으로 표시되어야 합니다.
 
--   다음과 같은 경우에 필요한 **Office 365 구독**.
+- 다음과 같은 경우에 필요한 **Office 365 구독**.
 
   - 다중 ID 기능을 지원하는 앱에 앱 보호 정책 적용
 
   - SharePoint Online 및 Exchange Online 회사 계정 만들기 Exchange 온-프레미스 및 SharePoint 온-프레미스는 지원되지 않습니다.
 
--   **최신 인증을 위한 비즈니스용 Skype Online 설정**. 자세한 내용은 [최신 인증 사용](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)을 참조하세요.
+- **최신 인증을 위한 비즈니스용 Skype Online 설정**. 자세한 내용은 [최신 인증 사용](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)을 참조하세요.
 
 
 - 사용자를 만들기 위한 Azure AD(Azure Active Directory). Azure AD는 사용자가 앱을 열고 회사 자격 증명을 입력하는 경우 사용자를 인증합니다.

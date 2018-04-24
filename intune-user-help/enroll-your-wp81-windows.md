@@ -1,27 +1,27 @@
 ---
-title: "Intune에서 Windows Phone 8.1 장치 등록 | Microsoft 문서"
-description: "Intune에서 Windows Phone 8.1 장치를 등록하는 방법을 설명합니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Intune에서 Windows Phone 8.1 장치 등록 | Microsoft 문서
+description: Intune에서 Windows Phone 8.1 장치를 등록하는 방법을 설명합니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 01/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 4a120c3d-d520-4d48-ae4c-3338ca4e7bde
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 1f9139ba7b938e09efd25062d4ea81b639050d8a
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 6004be5fd38efcc3ec6d325a562fc2a23267ee30
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-your-windows-phone-81-device-in-intune"></a>Intune에서 Windows Phone 8.1 장치 등록
 
@@ -57,7 +57,7 @@ Intune에 Phone 8.1 장치를 등록하려면 회사에 적용되는 지침을 �
 
 3.  **내 장치**를 살짝 밉니다.
 
-4.  **이 장치를 등록하거나 식별하려면 탭하세요.**를 탭합니다.
+4.  **이 장치를 등록하거나 식별하려면 탭하세요.** 를 탭합니다.
 
     ![이 장치를 등록하거나 식별하려면 탭하세요.](./media/WP81-enroll-1-swipe-my-devices.png)
 

@@ -1,29 +1,29 @@
 ---
-title: "Microsoft Intune에 웹앱을 추가하는 방법"
-titleSuffix: 
-description: "Microsoft Intune에 웹앱을 추가하는 방법을 알아봅니다."
-keywords: 
+title: Microsoft Intune에 웹앱을 추가하는 방법
+titleSuffix: ''
+description: Microsoft Intune에 웹앱을 추가하는 방법을 알아봅니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5f08752f-0e87-4ad9-a34c-4991b3150775
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ecb44f8b98501f6c82f91994cd8a06b8177208d7
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 45253e061039198aee4aa49b2bf879a1b9929e35
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-add-web-apps-to-microsoft-intune"></a>Microsoft Intune에 웹앱을 추가하는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune은 웹앱을 포함하여 다양한 앱 유형을 지원합니다. 웹앱은 클라이언트-서버 응용 프로그램입니다. 서버는 UI, 콘텐츠 및 기능을 포함하는 웹앱을 제공합니다. 또한 플랫폼을 호스팅하는 현대식 웹은 일반적으로 보안, 부하 분산 및 기타 이점을 제공합니다. 웹 앱은 웹에서 별도로 유지 관리됩니다. Microsoft Intune을 사용하여 이 앱 유형을 가리킵니다. 또한 이 앱에 액세스할 수 있는 사용자 그룹을 할당합니다. 
 

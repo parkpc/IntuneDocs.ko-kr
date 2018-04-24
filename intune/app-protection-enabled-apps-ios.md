@@ -1,29 +1,29 @@
 ---
-title: "앱 보호 정책을 사용하는 iOS 앱"
+title: 앱 보호 정책을 사용하는 iOS 앱
 titlesuffix: Microsoft Intune
-description: "보호 정책이 있는 iOS 앱에서 예상되는 상황을 알아봅니다."
-keywords: 
+description: 보호 정책이 있는 iOS 앱에서 예상되는 상황을 알아봅니다.
+keywords: ''
 author: erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 12/07/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 586d9440-3813-4dec-b865-8bd319befde0
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 13833d41603e24e4471f0bb5fdda40d000f29a34
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 2804003a0f1acac56ecaae5e24dcf34b4eb0c256
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="what-to-expect-when-your-ios-app-is-managed-by-app-protection-policies"></a>iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 앱 보호 정책이 적용되는 iOS 앱에 대한 사용자 경험을 알아봅니다. 앱 보호 정책은 앱이 회사 컨텍스트에서 사용되는 경우에만 적용됩니다. 예를 들어 회사 계정을 사용하여 앱에 액세스할 때 또는 회사의 OneDrive 위치에 저장된 파일에 액세스할 때입니다.
 ##  <a name="accessing-apps"></a>앱 액세스

@@ -1,25 +1,25 @@
 ---
-title: "iOS에서 Zimperium zIPS로 발견한 위협 해결 | Microsoft Docs"
-description: "iOS 장치에서 발견된 위협을 해결하는 방법에 대해 알아봅니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: iOS에서 Zimperium zIPS로 발견한 위협 해결 | Microsoft Docs
+description: iOS 장치에서 발견된 위협을 해결하는 방법에 대해 알아봅니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 09/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: eaccd9c0-cd46-48e2-8675-4c022c74f672
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: 63d5ee7b71f5b2c5423cd2cdb2b88a43ad2c715e
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 1ee101fe31b32ccd3d5b1c7cfd361b881e232ae5
+ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="you-need-to-resolve-a-threat-found-by-zimperium-zips"></a>Zimperium zIPS에서 발견한 위협을 해결해야 함
 

@@ -1,28 +1,28 @@
 ---
-title: "사용자 및 장치 그룹 계획"
-description: "조직의 요구에 맞게 그룹을 계획합니다."
-keywords: 
+title: 사용자 및 장치 그룹 계획
+description: 조직의 요구에 맞게 그룹을 계획합니다.
+keywords: ''
 author: sanchusa
 manager: angrobe
 ms.date: 10/25/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f11bb256-1094-4f7e-b826-1314c57f3356
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: lpatha
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5c1f06cc59ff81483d9e54b23435af720d919155
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 679399f306f3837a010cc01799c7567c1e5b5b39
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="plan-your-user-and-device-groups"></a>사용자 및 장치 그룹 계획
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할 수 있습니다. 다음 사항에 따라 조직의 요구에 맞도록 그룹을 설정할 수 있습니다.
 
@@ -191,7 +191,7 @@ BYOD 또는 혼합의 경우에 로컬 개인 정보 보호 규정을 침해하�
 
 ![그룹 만들기 대화 상자](../media/Intune_Planning_Groups_Device_General_small.png)
 
-그룹에 모든 BYO 장치가 포함되도록 **모든 장치(컴퓨터 및 모바일)**을 선택해야 합니다.
+그룹에 모든 BYO 장치가 포함되도록 **모든 장치(컴퓨터 및 모바일)** 을 선택해야 합니다.
 
 ![구성원 자격 기준 정의 페이지](../media/Intune_Planning_Groups_Device_Criteria_small.png)
 

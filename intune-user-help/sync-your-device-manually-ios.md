@@ -1,42 +1,43 @@
 ---
-title: "수동으로 iOS 장치 동기화 | Microsoft 문서"
-description: 
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: 수동으로 iOS 장치 동기화 | Microsoft 문서
+description: ''
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
-ms.date: 01/11/2017
+ms.date: 04/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 2780101b-f703-4b78-9d33-f68490b9382d
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 9c9144fbb20842a9ac8148827b85ac49d23a3d6d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: a896e4a86cbeaacc07bdb4a32606a67b0049e3e1
+ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="sync-your-ios-device-manually"></a>수동으로 iOS 장치 동기화
 
-경우에 따라 회사 포털에서 앱을 다운로드하는 데 너무 오래 걸릴 수 있습니다. 이 경우에는 장치를 수동으로 동기화할 수 있습니다. 즉, 다운로드하는 데 어려움이 있다는 정보를 받도록 장치에서 다시 시도하게 합니다.
+경우에 따라 회사 포털에서 앱을 다운로드하는 데 너무 오래 걸릴 수 있습니다. 이 문제가 발생하는 경우 장치를 수동으로 동기화합니다. 이렇게 하면 장치가 다운로드할 수 없는 정보를 가져옵니다.
 
 1. 회사 포털 앱을 엽니다.
 
-2. **내 장치** 섹션에서, 현재 사용 중인 장치를 선택합니다. 맨 왼쪽 장치 타일로, 타일에는 확인 표시도 있습니다.
+2. **장치**를 탭합니다. 장치가 많은 경우 장치 목록이 표시됩니다. 현재 사용 중인 장치를 선택합니다. 하나의 장치만 있는 경우 장치 세부 정보 화면으로 직접 이동합니다.
 
-    ![내 장치 섹션의 장치 화면](./media/ios-sync-1-comp-portal-apps.png)
+    ![두 개의 장치를 보여주는 장치 화면의 스크린샷입니다. 위의 장치에는 "현재 사용 중인 것은 iPhone 6 Plus입니다"라는 텍스트가 표시됩니다.](/intune-user-help/media/ios_sync_1_CP_after_1804.png)
 
-3. 화면 맨 아래 오른쪽의 **동기화** 단추를 탭합니다.
+3. **설정 확인**을 탭하여 장치를 동기화합니다. 동기화를 마칠 때까지 로드 중인 막대가 화면에 표시됩니다.
 
-    ![동기화 단추가 포함된 장치 세부 정보](./media/ios-sync-2-sync-button.png)
+    ![장치의 마치작 체크 인 시간 및 설정 확인 링크를 표시하는 장치 세부 정보의 스크린샷입니다.](/intune-user-help/media/ios_sync_2_CP_after_1804.png)  
 
-로드 중인 막대가 화면에 나타나며 동기화를 마칠 때까지 표시됩니다.
+   ![사용자가 설정 확인을 클릭한 후 로드 중인 막대를 표시하는 장치 세부 정보의 스크린샷입니다.](/intune-user-help/media/ios_sync_3_CP-after_1804.png)
 
 여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.
+

@@ -1,29 +1,29 @@
 ﻿---
-title: "대량 구매 앱 관리"
-description: "Intune을 사용하여 앱 스토어에서 볼륨으로 구매한 앱을 관리하는 방법에 대해 알아봅니다."
-keywords: 
+title: 대량 구매 앱 관리
+description: Intune을 사용하여 앱 스토어에서 볼륨으로 구매한 앱을 관리하는 방법에 대해 알아봅니다.
+keywords: ''
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
 ms.date: 12/27/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 674c8f4c-00be-4c69-85b7-cf7bdaa71c94
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f82ba373d45c0238f7de62953b4527680daa79f8
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 9b23100e1b609574733cbba3d9c8b25d61ad15ec
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="manage-volume-purchased-apps-using-microsoft-intune"></a>Microsoft Intune을 사용하여 대량 구매 앱 관리
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 일부 앱 스토어는 회사에서 실행하려는 앱의 라이선스를 여러 개 구매하는 기능을 제공합니다. 이 기능을 사용하면 구입한 앱의 여러 복사본을 추적하는 관리 오버헤드를 줄일 수 있습니다.
 

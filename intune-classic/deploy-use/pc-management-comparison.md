@@ -1,28 +1,28 @@
 ---
-title: "Windows PC 관리 옵션 비교"
-description: "Apple DEP(장비 등록 프로그램) 또는 Apple Configurator를 사용하여 회사 소유 iOS 장치 등록"
-keywords: 
+title: Windows PC 관리 옵션 비교
+description: Apple DEP(장비 등록 프로그램) 또는 Apple Configurator를 사용하여 회사 소유 iOS 장치 등록
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 10/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 068a73bb-e6b3-44a6-8f6e-4cf7d455bbf3
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8f6de91724db10ef64e2c1fd6eee6101c6eac79a
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: c760f9c76e54c0b5f9eb037414870ab1c8943803
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="compare-managing-windows-pcs-as-computers-or-mobile-devices"></a>Windows PC를 컴퓨터로 관리하는 방식과 모바일 장치로 관리하는 방식 비교
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 조직은 Microsoft Intune을 사용하여 Windows PC를 모바일 장치로 관리할 수도 있고 컴퓨터로 관리할 수도 있습니다. 모바일 장치로 관리하는 경우에는 MDM(모바일 장치 관리)을 사용하고, 컴퓨터로 관리하는 경우에는 Intune 소프트웨어 클라이언트를 사용합니다.  고객은 가능한 경우 항상 MDM 관리 솔루션을 사용하는 것이 좋습니다. 아래 차트에는 이러한 옵션 간의 차이점을 보다 명확하게 파악할 수 있도록 두 관리 옵션을 비교한 내용이 나와 있습니다.
 

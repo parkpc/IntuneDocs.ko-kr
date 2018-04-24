@@ -1,4 +1,4 @@
----
+﻿---
 title: Windows PC에 대한 방화벽 정책
 description: Intune에서는 Intune 클라이언트로 관리하는 PC를 다양한 방법으로 보호할 수 있습니다. 그중 하나는 Windows 방화벽 설정을 구성하는 것입니다.
 keywords: ''
@@ -14,15 +14,15 @@ ms.assetid: 9549c072-ac3d-4d14-a931-a2eda8846217
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3be77c1042d695ed0bed6ee7cbbc442342e91d8b
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: b04e6e06c2257ffc5822b28b6f81dd00ca5573cc
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune"></a>Microsoft Intune에서 Windows 방화벽 정책을 사용하여 Windows PC 보호
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune에서는 Intune 클라이언트로 관리하는 Windows PC를 다양한 방법으로 보호할 수 있습니다. 그중 한 가지 방법은 PC에서 Windows 방화벽 설정을 구성할 수 있도록 하는 정책을 제공하는 것입니다.
 

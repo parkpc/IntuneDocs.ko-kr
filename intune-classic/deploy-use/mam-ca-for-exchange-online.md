@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d582421ed842f1e5b87419e25c5d03ad7a138e99
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: a64a5ac7f10bb7988c75dd473e1e87dae03959d4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-an-exchange-online-conditional-access-to-only-allow-apps-supported-by-mam"></a>MAM에서 지원하는 앱만 허용하도록 Exchange Online 조건부 액세스 만들기
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 Exchange Online에서 Intune 앱 보호 정책을 지원하는 모바일 앱만 허용하도록 조건부 액세스를 설정하는 방법에 대한 단계별 지침을 제공합니다.
 
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="modify-an-existing-policy"></a>기존 정책 수정
 ### <a name="add-or-delete-user-groups"></a>사용자 그룹 추가 또는 삭제
 
-**제한된 사용자 그룹** 목록에서 **사용자 그룹을 삭제**하려면 **제한된 사용자 그룹** 블레이드를 열고 삭제할 사용자 그룹을 강조 표시한 다음 **줄임표 (...)**를 클릭하여 **삭제** 옵션을 표시합니다. **삭제**를 선택하여 목록에서 사용자 그룹을 제거합니다. 동일한 절차를 사용하여 **제외된 사용자 그룹** 목록에서 사용자 그룹을 제거할 수 있습니다.
+**제한된 사용자 그룹** 목록에서 **사용자 그룹을 삭제**하려면 **제한된 사용자 그룹** 블레이드를 열고 삭제할 사용자 그룹을 강조 표시한 다음 **줄임표 (...)** 를 클릭하여 **삭제** 옵션을 표시합니다. **삭제**를 선택하여 목록에서 사용자 그룹을 제거합니다. 동일한 절차를 사용하여 **제외된 사용자 그룹** 목록에서 사용자 그룹을 제거할 수 있습니다.
 
 
 ## <a name="next-steps"></a>다음 단계

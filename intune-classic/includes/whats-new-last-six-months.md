@@ -331,6 +331,6 @@ __Intune 앱 SDK Xamarin 구성 요소를 통해 별도의 등록 없이 MAM 사
 
 __이제 Symantec 서명 인증서를 업로드할 때 서명된 Windows Phone 8 회사 포털이 필요하지 않음__ Symantec 서명 인증서를 업로드할 때 서명된 Windows Phone 8 회사 포털 앱이 더 이상 필요하지 않습니다. 인증서는 개별적으로 업로드할 수 있습니다.
 
-###<a name="deprecations"></a>지원 중단
+### <a name="deprecations"></a>지원 중단
 
 __Windows Phone 8 회사 포털에 대한 지원__ 이제 Windows Phone 8 회사 포털은 지원되지 않습니다. Windows Phone 8 및 WinRT 플랫폼 지원이 2016년 10월에 중단되었습니다. Windows 8 회사 포털 지원도 2016년 10월에 중단되었습니다.

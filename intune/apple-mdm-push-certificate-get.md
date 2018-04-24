@@ -1,50 +1,62 @@
 ---
-title: "Apple MDM Push Certificate 가져오기"
+title: Apple MDM Push Certificate 가져오기
 titlesuffix: Microsoft Intune
-description: "Intune에서 iOS 장치를 관리하기 위해 Apple MDM Push Certificate를 가져오는 단계를 알아봅니다."
-keywords: 
+description: Intune에서 iOS 장치를 관리하기 위해 Apple MDM Push Certificate를 가져오는 단계를 알아봅니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 03/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 504f2431754aa88ddf79bef4a201cbf7aa032834
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 28eb86a1924dc72df4c77cc3f8a05aacd61e0fbd
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="get-an-apple-mdm-push-certificate"></a>Apple MDM 푸시 인증서 가져오기
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
- Intune은 iPad, iPhone 및 Mac 컴퓨터의 MDM(모바일 장치 관리)을 가능하게 하고, 사용자가 회사 메일 및 앱에 액세스할 수 있게 해줍니다. MDM Push Certificate는 Intune에서 iOS 및 Mac 장치를 관리하는 데 필요합니다. 인증서를 Intune에 추가하면 사용자가 회사 포털 앱을 설치하여 장치를 등록할 수도 있습니다. Apple 장비 등록 프로그램을 사용하여 회사 소유 iOS 장치 관리를 설정하거나 예를 들어 Apple Configurator를 사용하여 장치를 등록할 수 있습니다. 등록 옵션에 대한 자세한 내용은 [iOS 장치를 등록하는 방법 선택](enrollment-method-choose-ios.md)을 참조하세요.
+Intune은 iPad, iPhone 및 Mac 컴퓨터의 MDM(모바일 장치 관리)을 가능하게 하고, 사용자가 회사 메일 및 앱에 액세스할 수 있게 해줍니다. Apple MDM Push Certificate는 Intune에서 iOS 및 macOS 장치를 관리하는 데 필요합니다. 인증서를 Intune에 추가하면 사용자는 다음을 사용하여 장치를 등록할 수 있습니다.
+
+- 회사 포털 앱.
+
+- 장비 등록 프로그램, Apple School Manager 또는 Apple Configurator 같은 Apple의 대량 등록 메서드입니다.
+
+등록 옵션에 대한 자세한 내용은 [iOS 장치를 등록하는 방법 선택](enrollment-method-choose-ios.md)을 참조하세요.
+
+푸시 인증서가 만료되는 경우 갱신해야 합니다. 갱신하는 경우 처음 푸시 인증서를 만들 때 사용했던 동일한 Apple ID를 사용했는지 확인합니다.
+
 
 ## <a name="steps-to-get-your-certificate"></a>인증서를 가져오는 단계
 [Azure Portal](https://portal.azure.com)에서 **장치 등록** > **Apple 등록** > **Apple MDM Push Certificate**를 선택한 후 [Azure Portal](https://portal.azure.com)에서 이런 단계를 따릅니다.
 
-**1단계. Apple MDM Push Certificate를 만드는 데 필요한 Intune 인증서 서명 요청을 다운로드합니다.**<br>
+### <a name="step-1-grant-microsoft-permission-to-send-user-and-device-information-to-apple"></a>1단계. Apple에 사용자 및 장치 정보를 보내려면 Microsoft 권한 부여
+**동의**를 선택합니다. Apple에 데이터를 보내려면 Microsoft 권한을 제공 합니다.
+
+![MDM Push가 설정되지 않은 Configure MDM Push Certificate 화면입니다.](./media/create-mdm-push-certificate.png)
+
+### <a name="step-2-download-the-intune-certificate-signing-request-required-to-create-an-apple-mdm-push-certificate"></a>2단계. Apple MDM Push Certificate를 만드는 데 필요한 Intune 인증서 서명 요청 다운로드
 **CSR 다운로드**를 선택하여 요청 파일을 로컬로 다운로드하고 저장합니다. 이 파일은 APC(Apple Push Certificate) 포털에서 트러스트 관계 인증서를 요청하는 데 사용됩니다.
 
-  ![MDM Push가 설정되지 않은 Configure MDM Push Certificate 화면입니다.](./media/create-mdm-push-certificate.png)
-
-**2단계. Apple MDM Push Certificate를 만듭니다.**<br>
+  ### <a name="step-3-create-an-apple-mdm-push-certificate"></a>3단계: Apple MDM Push Certificate 만들기
 **MDM Push Certificate 만들기**를 선택하여 APC(Apple Push Certificate) 포털로 이동합니다. 회사 Apple ID로 로그인한 다음 **인증서 만들기**를 클릭합니다. **파일 선택**을 선택하고 인증서 서명 요청 파일을 찾은 다음 **업로드**를 선택합니다. 확인 페이지에서 **다운로드**를 선택하여 인증서 파일(.pem)을 다운로드하고 로컬에 파일을 저장합니다.
 
 > [!NOTE]
 > 인증서는 인증서 생성에 사용된 Apple ID와 연결됩니다. 모범 사례로 관리 작업에 대한 회사 Apple ID를 사용하고 사서함이 배포 목록과 같은 둘 이상의 사용자에 의해 모니터링되어야 합니다. 절대로 개인 Apple ID를 사용하지 마세요.
 
-**3단계. MDM Push Certificate를 만드는 데 사용되는 Apple ID를 입력합니다.**<br>
+### <a name="step-4-enter-the-apple-id-used-to-create-your-apple-mdm-push-certificate"></a>4단계. MDM Push Certificate를 만드는 데 사용되는 Apple ID 입력
 이 인증서를 갱신해야 하는 경우 참조할 수 있도록 이 ID를 기록합니다.
 
-**4단계. Apple MDM Push Certificate로 이동하여 업로드합니다.**<br>
+### <a name="step-5-browse-to-your-apple-mdm-push-certificate-to-upload"></a>5단계. Apple MDM Push Certificate로 이동하여 업로드
 인증서(.pem) 파일로 이동한 후 **열기**를 선택하고 **업로드**를 선택합니다. 푸시 인증서를 사용하여 Intune에서 Apple 장치를 등록하고 관리할 수 있습니다.
 
 ## <a name="renew-apple-mdm-push-certificate"></a>Apple MDM 푸시 인증서 갱신

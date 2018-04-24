@@ -1,29 +1,29 @@
 ---
-title: "Microsoft intune에서 그룹에 앱을 할당하는 방법"
-titlesuffix: 
-description: "Microsoft Intune에 앱을 추가한 후 사용자 또는 장치 그룹에 할당할 수 있습니다.\""
-keywords: 
+title: Microsoft intune에서 그룹에 앱을 할당하는 방법
+titlesuffix: ''
+description: Microsoft Intune에 앱을 추가한 후 사용자 또는 장치 그룹에 할당할 수 있습니다."
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: dc349e22-9e1c-42ba-9e70-fb2ef980ef7a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: eba329be463fbf0593638bd4cf41c404a17f9cc0
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: de95f5516298e8ade9e394fab8b05fc056651b0c
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-assign-apps-to-groups-with-microsoft-intune"></a>Microsoft intune을 사용하여 그룹에 앱을 할당하는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Microsoft Intune에 앱을 추가하면 사용자와 장치에 할당할 수 있습니다.
 
@@ -51,26 +51,26 @@ Intune에서 관리되는지 여부에 상관없이 장치에 앱을 할당할 �
 1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
 2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 블레이드에서 **Mobile Apps**를 선택합니다.
-1. **모바일 앱** 워크로드의 **관리** 섹션에서 **앱**을 선택합니다.
-2. 앱 목록 블레이드에서 할당할 앱을 클릭합니다.
-3. 앱 특정 **개요** 블레이드의 **관리** 섹션에서 **할당**을 선택합니다.
-4. **그룹 추가**를 선택하여 **그룹 추가** 블레이드를 관련 앱에 표시합니다.
-5. 특정 앱에서 앱의 **할당 형식**을 선택합니다.
-    - **등록 장치에 대해 사용 가능** - 사용자가 회사 포털 앱 또는 웹 사이트에서 앱을 설치합니다.
-    - **등록없이 사용 가능** - 이 앱을 Intune에 등록되지 않은 장치의 사용자 그룹에 할당합니다. **Android for Work 앱** 형식은 이 옵션을 지원하지 않습니다. 
-    - **필수** - 앱이 선택한 그룹의 장치에 설치됩니다.
-    - **제거** - 앱이 선택한 그룹의 장치에서 제거됩니다.
+4. **모바일 앱** 워크로드의 **관리** 섹션에서 **앱**을 선택합니다.
+5. 앱 목록 블레이드에서 할당할 앱을 클릭합니다.
+6. 앱 특정 **개요** 블레이드의 **관리** 섹션에서 **할당**을 선택합니다.
+7. **그룹 추가**를 선택하여 **그룹 추가** 블레이드를 관련 앱에 표시합니다.
+8. 특정 앱에서 앱의 **할당 형식**을 선택합니다.
+   - **등록 장치에 대해 사용 가능** - 사용자가 회사 포털 앱 또는 웹 사이트에서 앱을 설치합니다.
+   - **등록없이 사용 가능** - 이 앱을 Intune에 등록되지 않은 장치의 사용자 그룹에 할당합니다. **Android for Work 앱** 형식은 이 옵션을 지원하지 않습니다. 
+   - **필수** - 앱이 선택한 그룹의 장치에 설치됩니다.
+   - **제거** - 앱이 선택한 그룹의 장치에서 제거됩니다.
 
-    > [!NOTE]
-    > **iOS 앱 전용** - 앱당 VPN 설정을 포함하는 iOS VPN 프로필을 만든 경우 **VPN**에서 선택할 수 있습니다. 앱을 실행하면 VPN 연결이 열립니다. 자세한 내용은 [iOS 장치의 VPN 설정](vpn-settings-ios.md)을 참조하세요.
+     > [!NOTE]
+     > **iOS 앱 전용** - 앱당 VPN 설정을 포함하는 iOS VPN 프로필을 만든 경우 **VPN**에서 선택할 수 있습니다. 앱을 실행하면 VPN 연결이 열립니다. 자세한 내용은 [iOS 장치의 VPN 설정](vpn-settings-ios.md)을 참조하세요.
 
-6. **포함되는 그룹**을 선택하여 이 앱 할당에서 영향을 주는 사용자 그룹을 선택할 수 있습니다.
-7. 포함할 하나 이상의 그룹을 선택하면 **선택**을 클릭합니다.
-8. **할당** 블레이드에서 **확인**을 클릭하여 포함되는 그룹 선택을 완료합니다.
-9. 이 앱 할당에서 영향을 주지 않도록 제외할 사용자 그룹을 선택하는 경우 **제외 그룹**을 클릭합니다.
-10. 그룹을 제외하도록 선택한 경우 **그룹 선택** 블레이드에서 **선택**을 클릭합니다.
-11. **그룹 추가** 블레이드에서 **확인**을 클릭합니다.
-12. 앱 **할당** 블레이드에서 **저장**을 클릭하여 할당을 저장합니다.
+9. **포함되는 그룹**을 선택하여 이 앱 할당에서 영향을 주는 사용자 그룹을 선택할 수 있습니다.
+10. 포함할 하나 이상의 그룹을 선택하면 **선택**을 클릭합니다.
+11. **할당** 블레이드에서 **확인**을 클릭하여 포함되는 그룹 선택을 완료합니다.
+12. 이 앱 할당에서 영향을 주지 않도록 제외할 사용자 그룹을 선택하는 경우 **제외 그룹**을 클릭합니다.
+13. 그룹을 제외하도록 선택한 경우 **그룹 선택** 블레이드에서 **선택**을 클릭합니다.
+14. **그룹 추가** 블레이드에서 **확인**을 클릭합니다.
+15. 앱 **할당** 블레이드에서 **저장**을 클릭하여 할당을 저장합니다.
 
 이제 선택한 그룹에 앱이 할당됩니다. 앱 할당을 포함하고 제외하는 방법에 대한 자세한 내용은 [앱 할당 포함 및 제외](apps-inc-exl-assignments.md)를 참조하세요.
 

@@ -1,29 +1,29 @@
 ---
-title: "Windows 10 정책 설정"
-description: "이 항목에 나열된 정책 설정을 사용하면 등록된 Windows 10 Desktop 및 Windows 10 Mobile 장치의 기본 제공 및 사용자 지정 설정을 구성하는 데 도움이 됩니다."
-keywords: 
+title: Windows 10 정책 설정
+description: 이 항목에 나열된 정책 설정을 사용하면 등록된 Windows 10 Desktop 및 Windows 10 Mobile 장치의 기본 제공 및 사용자 지정 설정을 구성하는 데 도움이 됩니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: angrobe
 ms.date: 09/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: fff34b145660e1d0e78e05de467629f9421fcf7a
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 202f15766aa740755669ab246739a5331ea328a4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="intune-policy-settings-for-windows-10-devices-in-microsoft-intune"></a>Microsoft Intune의 Windows 10 장치용 Intune 정책 설정
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 Windows 10 장치 관리에 사용할 수 있는 Intune 정책 설정을 파악하는 데 도움이 되는 정보를 제공합니다. [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](/intune-classic/get-started/windows-pc-management-capabilities-in-microsoft-intune)에 나와 있는 절차와 이 문서를 함께 참조하세요.
 
@@ -56,7 +56,7 @@ Intune 콘솔에서 식별할 수 있도록 이 정책의 이름을 입력하고
 - **OMA-URI(대/소문자 구분)**: 설정을 제공할 OMA-URI를 지정합니다.
 - **값**: 입력한 OMA-URI와 연결할 값을 지정합니다.
 
-### <a name="example"></a>예
+### <a name="example"></a>예제
 다음 스크린샷에서는 **Connectivity/AllowVPNOverCellular** 설정을 사용하도록 설정되어 있습니다. 따라서 Windows 10 장치는 셀룰러 네트워크에서 VPN 연결을 열 수 있습니다.
 
 > ![VPN 설정을 포함하는 사용자 지정 정책의 예](./media/custom-policy-example.png)
@@ -116,12 +116,12 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여 등록�
 
 |설정 이름|추가 정보(필요 시)|
 |----------------|----------------------|
-|**웹 브라우저 허용**|장치에서 Microsoft Edge 웹 브라우저 사용을 허용합니다.<br>(Windows 10 Mobile에만 해당)|
+|**웹 브라우저 허용**|장치에서 Edge 웹 브라우저 사용을 허용합니다.<br>(Windows 10 Mobile에만 해당)|
 |**주소 표시줄에서 검색 제안 허용**|검색 구를 입력할 때 검색 엔진이 사이트를 제안하도록 허용합니다.|
 |**인트라넷 트래픽을 Internet Explorer에 전송 허용**|사용자가 Internet Explorer에서 인트라넷 웹 사이트를 열도록 허용합니다.<br>(Windows 10 Desktop에만 해당)|
-|**Do Not Track 허용**|사용자가 방문하는 웹 사이트에 Do Not Track 헤더를 보내도록 Microsoft Edge 브라우저를 구성합니다|
+|**Do Not Track 허용**|사용자가 방문하는 웹 사이트에 Do Not Track 헤더를 보내도록 Edge 브라우저를 구성합니다|
 |**SmartScreen 사용**||
-|**액티브 스크립팅 허용**|Microsoft Edge 브라우저에서 JavaScript 등의 스크립트가 실행되도록 허용합니다.|
+|**액티브 스크립팅 허용**|Edge 브라우저에서 JavaScript 등의 스크립트가 실행되도록 허용합니다.|
 |**팝업 허용**|Windows 10 Desktop에만 적용됩니다.|
 |**쿠키 허용**||
 |**자동 채우기 허용**|사용자가 브라우저에서 자동 완성 설정을 변경하도록 허용합니다.<br>(Windows 10 Desktop에만 해당)|
@@ -192,8 +192,8 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여 등록�
 |**보관 파일 검색**|Defender가 Zip 또는 Cab 파일로 보관된 파일을 검색하도록 허용합니다.|
 |**메일 메시지 검색**|Defender가 전자 메일 메시지가 장치에 도착하면 검색하도록 허용합니다.|
 |**이동식 드라이브 검색**|Defender가 USB 스틱 같은 이동식 드라이브를 검색하도록 허용합니다.|
-|**매핑된 네트워크 드라이브 검색**|Defender가 매핑된 네트워크 드라이브의 파일을 검색하도록 허용합니다.<br>드라이브의 파일이 읽기 전용이면, Defender가 그 안에서 발견한 맬웨어를 제거할 수 없습니다.|
-|**네트워크 공유 폴더의 열린 파일 검색**|Defender가 공유 네트워크 드라이브의 파일을(예: UNC 경로를 통해 액세스하는) 검색하도록 허용합니다.<br>드라이브의 파일이 읽기 전용이면, Defender가 그 안에서 발견한 맬웨어를 제거할 수 없습니다.|
+|**매핑된 네트워크 드라이브 검색**|Defender가 매핑된 네트워크 드라이브의 파일을 검색하도록 허용합니다.<br>드라이브의 파일이 읽기 전용인 경우 Defender는 해당 파일에서 발견된 맬웨어를 제거할 수 없습니다.|
+|**네트워크 공유 폴더의 열린 파일 검색**|Defender가 공유 네트워크 드라이브의 파일을(예: UNC 경로를 통해 액세스하는) 검색하도록 허용합니다.<br>드라이브의 파일이 읽기 전용인 경우 Defender는 해당 파일에서 발견된 맬웨어를 제거할 수 없습니다.|
 |**서명 업데이트 간격**|Defender가 새로운 서명 파일을 확인하는 간격을 지정합니다.|
 |**클라우드 보호 허용**|사용자가 관리하는 장치의 맬웨어 활동에 대한 정보를 Microsoft Active Protection Service가 수신하도록 허용하거나 차단합니다. 이 정보는 향후 서비스를 개선하는 데 사용됩니다.|
 |**사용자에게 샘플 제출 확인**|파일이 악성 파일인지 판단하기 위해 Microsoft의 자세한 분석이 필요할 수 있는 파일을 Microsoft에 자동으로 보낼지를 제어합니다.|
@@ -203,7 +203,7 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여 등록�
 |**검색을 실행하거나 실시간 보호를 사용할 때 제외할 프로세스**|제외 목록에 **.exe**, **.com**, 또는 **.scr** 같은 유형의 프로세스를 하나 이상 추가합니다. 이러한 프로세스는 실시간 또는 예약된 검색에 포함되지 않습니다.|
 
 
-### <a name="updates"></a>Updates
+### <a name="updates"></a>업데이트
 
 |설정 이름|추가 정보(필요 시)|
 |----------------|---------------|

@@ -16,11 +16,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: ayesham
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fa784d0b446e3de180ce47ec51d3440522966fad
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: 242ee454ec42c54bb9437fbdf0a7efeca926d193
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-your-users-will-experience-basic-protection-on-managed-office-365-apps-in-microsoft-intune"></a>Microsoft Intune에서 사용자가 관리되는 Office 365 앱에 대한 기본 보호 환경을 사용하는 방법
 
@@ -50,13 +50,13 @@ ms.lasthandoff: 03/16/2018
 2. 회사 계정 사용자 이름을 입력합니다. 회사 자격 증명을 입력할 수 있도록 Office 365 인증 페이지로 리디렉션됩니다. 
 3. Azure Active Directory에서 자격 증명이 인증되면 앱 보호 정책이 적용되며, 비즈니스용 OneDrive 앱을 다시 시작하라는 메시지가 표시됩니다. 
 
-  > [!NOTE]
-  > Intune에서 등록되지 않은 장치에서만 다시 시작 필요 메시지가 표시됩니다.
+   > [!NOTE]
+   > Intune에서 등록되지 않은 장치에서만 다시 시작 필요 메시지가 표시됩니다.
 
 4. 비즈니스용 OneDrive 앱을 다시 시작합니다. 설정된 앱 보호 정책으로 앱이 시작되고 장치의 PIN을 설정하라는 메시지가 표시됩니다(장치의 PIN을 아직 구성하지 않은 경우).  
 
-  > [!NOTE]
-  > 대부분의 사용자에게는 이 메시지가 표시되지 않습니다. iOS 장치에서 PIN을 사용하도록 설정하지 않은 사용자에게만 이 메시지가 표시됩니다.
+   > [!NOTE]
+   > 대부분의 사용자에게는 이 메시지가 표시되지 않습니다. iOS 장치에서 PIN을 사용하도록 설정하지 않은 사용자에게만 이 메시지가 표시됩니다.
 
 5. PIN을 설정하고 확인했으면 비즈니스용 OneDrive 앱으로 돌아갑니다. 이제 IT 관리자가 OneDrive에서 작업 데이터를 보호함을 알리는 일회성 알림이 표시됩니다. 
 6. 이 알림을 클릭하면 비즈니스용 OneDrive에서 파일에 액세스할 수 있습니다. 
@@ -70,8 +70,8 @@ ms.lasthandoff: 03/16/2018
 2. 회사 계정 사용자 이름을 입력합니다. 회사 자격 증명을 입력할 수 있도록 Office 365 인증 페이지로 리디렉션됩니다. <br/> ![Android의 O365 로그인 이미지](./media/o365-sign-in-android.png)
 3. Azure Active Directory에서 자격 증명이 인증되면 회사 포털 앱을 설치하는 지침이 포함된 메시지가 표시됩니다(아직 장치에 설치되지 않은 경우). **스토어로 이동**을 탭하여 계속 진행합니다. <br/> ![회사 포털 앱을 가져오는 메시지의 이미지](./media/get-company-portal-android.png) <br/>회사 포털 앱이 휴대폰에 이미 설치된 경우 비즈니스용 OneDrive 앱이 자동으로 시작되며 마지막 메모로 건너뛸 수 있습니다.   
 
-  > [!IMPORTANT]
-  > Android에서 앱 보호 정책을 통해 관리할 Office 앱을 설정한 후 장치 사용자는 실제로 메일이나 문서를 읽기 위해 앱을 열거나 로그인할 필요가 없지만 회사 포털 앱을 설치**해야** 회사 메일 및 문서에 액세스할 수 있습니다.
+   > [!IMPORTANT]
+   > Android에서 앱 보호 정책을 통해 관리할 Office 앱을 설정한 후 장치 사용자는 실제로 메일이나 문서를 읽기 위해 앱을 열거나 로그인할 필요가 없지만 회사 포털 앱을 설치**해야** 회사 메일 및 문서에 액세스할 수 있습니다.
 
 4. 이제 Google Play 스토어에 있으며, 회사 포털 앱을 다운로드하고 설치할 수 있습니다. 이 앱은 데이터를 안전하게 보호하는 데 도움이 됩니다. <br/> ![Google Play 스토어의 앱 이미지](./media/google-play-get-app-android.png)
 5. 앱 설치를 완료한 후 **동의함**을 선택하여 약관에 동의합니다. 비즈니스용 OneDrive 앱이 자동으로 시작됩니다.
@@ -86,6 +86,7 @@ ms.lasthandoff: 03/16/2018
 <!--- Original steps: 6. The next time you open OneDrive for Business, you may be asked to set a PIN, if your IT requires one to use the OneDrive for Business app. ART 7. After you set and confirm the PIN, you can continue on to OneDrive for Business. -->
 
 ## <a name="what-policies-does-this-wizard-set"></a>이 마법사에서 설정하는 정책은 무엇입니까?
+
 |     |       | |
 |----|--------|-|
 |**Name**|Office 365 앱 관리| |

@@ -13,15 +13,15 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3c92b8816dd6c5afd96cb8853b6d251ff5befaf4
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: ada36b11489adbbcaf67db9192c7dd66caadb525
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-custom-device-settings-for-devices-running-ios"></a>iOS를 실행하는 장치에 대한 Microsoft Intune 사용자 지정 장치 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 [Apple Configurator 도구](https://itunes.apple.com/app/apple-configurator-2/id1037126344?mt=12)를 사용하여 만든 설정을 Microsoft Intune iOS 사용자 지정 프로필을 사용하여 iOS 장치에 할당할 수 있습니다. 이 도구를 사용하면 이러한 장치의 작업을 제어하는 많은 설정을 만들어 구성 프로필에 내보낼 수 있습니다. 그런 다음 이 구성 프로필을 Intune iOS 사용자 지정 프로필로 가져와서 조직의 사용자와 장치에 설정을 할당할 수 있습니다.
 

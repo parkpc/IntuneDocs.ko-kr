@@ -15,23 +15,23 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 7973dd757c69bc0a63f1ff5d24973acb6086d8a4
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 58af24f4c3ed7a650323dab0072d4e5a85f5554c
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="compliance-policy-settings-for-ios-devices-in-microsoft-intune"></a>Microsoft Intune에서 iOS 장치용 규정 준수 정책 설정
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서 설명하는 정책 설정은 iOS 8.0 이상을 실행하는 장치에 적용됩니다.
 
 다른 플랫폼에 대한 정보를 찾는 경우 다음 중 하나를 선택합니다.
 > [!div class="op_single_selector"]
-- [Android 장치용 규정 준수 정책 설정](android-compliance-policy-settings-in-microsoft-intune.md)
-- [Android for Work용 규정 준수 정책 설정](afw-compliance-policy-settings-in-microsoft-intune.md)
-- [Windows 장치용 준수 정책 설정](windows-compliance-policy-settings-in-microsoft-intune.md)
+> - [Android 장치용 규정 준수 정책 설정](android-compliance-policy-settings-in-microsoft-intune.md)
+> - [Android for Work용 규정 준수 정책 설정](afw-compliance-policy-settings-in-microsoft-intune.md)
+> - [Windows 장치용 준수 정책 설정](windows-compliance-policy-settings-in-microsoft-intune.md)
 
 ## <a name="system-security-settings"></a>시스템 보안 설정
 ### <a name="password"></a>암호

@@ -1,27 +1,27 @@
 ---
-title: "내 iOS 장치에서 일련 번호를 어떻게 찾을 수 있나요? | Microsoft 문서"
-description: 
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: 내 iOS 장치에서 일련 번호를 어떻게 찾을 수 있나요? | Microsoft 문서
+description: ''
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 12/06/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 528f2b32-6802-42f7-af30-b3d1397f689a
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 63ce105230192c46e713c4850a9cc37287a072b9
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 33e06cbd1ad47ee9af34c660157a5dacc3db2e80
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-do-i-find-the-serial-number-on-my-device"></a>장치에 일련 번호를 찾으려면 어떻게 하나요?
 

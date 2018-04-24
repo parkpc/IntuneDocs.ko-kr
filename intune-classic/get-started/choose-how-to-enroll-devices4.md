@@ -14,26 +14,26 @@ ms.assetid: 0be369d5-d4ad-433a-8a81-c04b070d76e3
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.custom: intune-classic EXPIERIMENT
-ms.openlocfilehash: 8b9281fd4595a64c56ef8c38a91563a83dc46987
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 805e142008112365dad572f114340646aab53842
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="choose-how-to-enroll-mobile-devices"></a>모바일 장치를 등록하는 방법 선택
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이러한 일련의 질문에 답변하면 관리하는 장치에 대한 최상의 등록 방법을 결정하는 데 도움이 됩니다.
 
 ## <a name="what-operating-system-are-your-shared-devices-running"></a>**어떤 운영 체제에서 공유 장치를 실행하고 있나요?**
 
 > [!div class="button"]
-[Windows >](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
+> [Windows >](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
 > [!div class="button"]
-[Android >](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
+> [Android >](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
 > [!div class="button"]
-[iOS >](choose-how-to-enroll-devices5.md)
-
+> [iOS >](choose-how-to-enroll-devices5.md)
+> 
 > [!div class="button"]
-[< 뒤로](choose-how-to-enroll-devices3.md)
+> [< 뒤로](choose-how-to-enroll-devices3.md)

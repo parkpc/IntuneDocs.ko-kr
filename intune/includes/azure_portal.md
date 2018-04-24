@@ -1,4 +1,5 @@
-|적용 대상: Azure Portal의 Intune |
-|--|
-|클래식 포털의 Intune에 대한 설명서를 찾으시나요? 이 [Intune 소개](/intune/introduction-intune?toc=/intune-classic/toc.json)를 참고하세요.|
-| |
+|                                                           적용 대상: Azure Portal의 Intune                                                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 클래식 포털의 Intune에 대한 설명서를 찾으시나요? 이 [Intune 소개](/intune/introduction-intune?toc=/intune-classic/toc.json)를 참고하세요. |
+|                                                                                                                                                             |
+

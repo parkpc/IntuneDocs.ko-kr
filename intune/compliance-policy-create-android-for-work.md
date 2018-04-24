@@ -1,30 +1,30 @@
 ---
-title: "Android for Work 준수 정책 만들기"
+title: Android for Work 준수 정책 만들기
 titleSuffix: Microsoft Intune
-description: "장치가 준수하려면 충족해야 하는 요구 사항을 지정할 수 있도록 Android for Work 장치에 대한 Intune 장치 준수 정책을 만듭니다."
-keywords: 
+description: 장치가 준수하려면 충족해야 하는 요구 사항을 지정할 수 있도록 Android for Work 장치에 대한 Intune 장치 준수 정책을 만듭니다.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 9da89713-6306-4468-b211-57cfb4b51cc6
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8ca31d4c83ccc6b786933080b96f66953cf1a108
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 00fa4508cdd4e74a20205ce46025b414cc0bb4cf
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-android-for-work-devices-in-intune"></a>Intune에서 Android for Work 장치에 대한 장치 준수 정책을 만드는 방법
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Android for Work에 대한 Intune 장치 준수 정책은 Android for Work 장치가 준수하는 것으로 간주되려면 충족해야 하는 규칙과 설정을 지정합니다. 이러한 정책을 회사 리소스에 액세스를 허용하거나 차단할 조건부 액세스와 함께 사용할 수 있으며 장치 보고서를 가져오고 비준수에 대한 조치를 할 수 있습니다. Intune Azure Portal에서 각 플랫폼에 대해 장치 준수 정책을 만듭니다. 준수 정책을 만들기 전에 해결해야 하는 전제 조건 및 준수 정책을 자세히 알아보려면 [장치 준수 시작](device-compliance-get-started.md)을 참조하세요.
 

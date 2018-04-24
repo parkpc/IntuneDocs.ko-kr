@@ -1,26 +1,26 @@
 ---
-title: "Intune용 Windows 및 Windows Phone 앱 사이드로드"
-description: "Intune을 사용하여 LOB(기간 업무) 앱을 배포할 수 있도록 앱에 서명하는 방법을 알아봅니다."
-keywords: 
+title: Intune용 Windows 및 Windows Phone 앱 사이드로드
+description: Intune을 사용하여 LOB(기간 업무) 앱을 배포할 수 있도록 앱에 서명하는 방법을 알아봅니다.
+keywords: ''
 author: erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 06/07/2017
 ms.topic: article
-ms.prod: 
-ms.service: 
-ms.technology: 
+ms.prod: ''
+ms.service: ''
+ms.technology: ''
 ms.assetid: e44f1756-52e1-4ed5-bf7d-0e80363a8674
 ms.custom: intune-classic
-ms.openlocfilehash: 06922f76643a6b95e994bf4e219ee3a4a85953c5
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 9f629fce727df9f15b6357c7c624165e4443ea91
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="sign-line-of-business-apps-so-they-can-be-deployed-to-windows-devices-with-intune"></a>Intune으로 Windows 장치에 기간 업무 앱을 배포할 수 있도록 앱에 서명
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 Intune 관리자는 회사 포털 앱을 비롯한 LOB(기간 업무) 앱을 Windows 및 Windows 10 Mobile 장치에 배포할 수 있습니다. Windows 10 및 Windows 10 Mobile 장치에 .appx 또는 .xap 앱을 배포하거나 Windows 8.1 또는 Windows Phone 8.1 장치에 LOB 앱을 배포하려면 **Symantec Enterprise 모바일 코드 서명 인증서**를 얻어야 합니다. 해당 Windows 장치에서 이러한 앱용으로 Symantec 인증서만 신뢰할 수 있습니다. Windows 10 앱 및 "유니버설" 앱에는 사용자 고유의 인증 기관을 사용할 수 있습니다. 이 인증서는 다음을 위해 필요합니다.
 
@@ -78,7 +78,7 @@ Intune 관리자는 회사 포털 앱을 비롯한 LOB(기간 업무) 앱을 Win
 
     또는 [비즈니스용 Microsoft 스토어](http://businessstore.microsoft.com/)에서 Windows Phone 8.1 회사 포털(오프라인 사용이 허가된 패키지) 또는 Windows 10 회사 포털(오프라인 사용이 허가된 패키지)을 다운로드할 수 있습니다. 회사 포털 앱과 함께 오프라인 라이선스 및 오프라인에서 사용하기 위해 다운로드한 적절한 패키지를 얻어야 합니다. 선택 영역의 Windows 8 및 Windows Phone 8 플랫폼 목록은 상응하는 8.1 플랫폼을 나타냅니다. Intune을 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [비즈니스용 Microsoft 스토어에서 구입한 앱 관리](/intune-classic/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune)를 참조하세요.
 
-2.  **Windows Phone SDK 다운로드** Windows Phone SDK 8.0(http://go.microsoft.com/fwlink/?LinkId=615570)을 다운로드하고 이 SDK를 컴퓨터에 설치합니다. 이 SDK는 응용 프로그램 등록 토큰을 생성하는 데 필요합니다.
+2.  **Windows Phone SDK 다운로드** Windows Phone SDK 8.0](http://go.microsoft.com/fwlink/?LinkId=615570)을 다운로드하고 이 SDK를 컴퓨터에 설치합니다. 이 SDK는 응용 프로그램 등록 토큰을 생성하는 데 필요합니다.
 
 3.  **AETX 파일 생성** Windows Phone SDK 8.0의 일부인 AETGenerator.exe를 사용하여 Symantec PFX 에서 응용 프로그램 등록 토큰(.aetx) 파일을 생성합니다. AETX 파일을 생성하는 방법에 대한 지침은 [Windows Phone용 응용 프로그램 등록 토큰을 생성하는 방법](https://msdn.microsoft.com/library/windows/apps/jj735576.aspx)을 참조하세요.
 
@@ -128,7 +128,7 @@ Windows 및 Windows Phone 모바일 앱을 배포하는 데 사용되는 Symante
 
     Symantec 인증서에 대한 자세한 내용을 확인하려면 [www.symantec.com](http://www.symantec.com) 을 방문하거나 1-877-438-8776 또는 1-650-426-3400로 전화 문의하세요.
 
-2.  웹 사이트(예: [https://products.websecurity.symantec.com/orders/enrollment/microsoftCert.do](https://products.websecurity.symantec.com/orders/enrollment/microsoftCert.do))로 이동한 다음 인증서에 연결된 Symantec 게시자 ID 및 전자 메일 주소를 사용하여 로그인합니다. 이때 인증서를 다운로드하는 데 사용하려는 것과 같은 컴퓨터를 사용하여 갱신을 시작해야 합니다.
+2.  웹사이트(예: [https://products.websecurity.symantec.com/orders/enrollment/microsoftCert.do](https://products.websecurity.symantec.com/orders/enrollment/microsoftCert.do))로 이동하여 인증서와 연결된 Symantec 게시자 ID 및 이메일 주소를 사용하여 로그인합니다. 이때 인증서를 다운로드하는 데 사용하려는 것과 같은 컴퓨터를 사용하여 갱신을 시작해야 합니다.
 
 3.  갱신이 승인 및 결제되면 인증서를 다운로드합니다.
 
@@ -158,11 +158,11 @@ Windows 및 Windows Phone 모바일 앱을 배포하는 데 사용되는 Symante
 
 ![다운로드할 종속성 파일의 이미지 ](./media/Win10CP-dependent-files.png)
 5. 회사 포털 앱을 Intune에 업로드하기 전에 패키지를 포함하는 폴더(예: C:&#92;Company Portal)를 다음과 같은 방법으로 만듭니다.
-  1. C:\Company Portal에 회사 포털 패키지를 배치합니다. 이 위치에 Dependencies 하위 폴더도 만듭니다.  
-  ![APPXBUN 파일과 함께 저장된 Dependencies 폴더의 이미지](./media/Win10CP-Dependencies-save.png)
-  2. Dependencies 폴더에 9개의 종속성 패키지를 배치합니다.  
-  종속성을 이 형식으로 배치하지 않는 경우 Intune은 패키지 업로드 도중에 패키지를 인식 및 업로드할 수 없습니다. 이에 따라 업로드에 실패하고 다음과 같은 오류가 표시됩니다.  
-  ![이 소프트웨어 설치 관리자의 Windows 앱 종속성이 응용 프로그램 폴더에 없습니다. 이 응용 프로그램을 계속 만들고 배포할 수 있지만 누락된 Windows 앱 종속성이 제공될 때까지 실행되지 않습니다.](./media/Win10CP-error-message.png)
+   1. C:\Company Portal에 회사 포털 패키지를 배치합니다. 이 위치에 Dependencies 하위 폴더도 만듭니다.  
+   ![APPXBUN 파일과 함께 저장된 Dependencies 폴더의 이미지](./media/Win10CP-Dependencies-save.png)
+   2. Dependencies 폴더에 9개의 종속성 패키지를 배치합니다.  
+   종속성을 이 형식으로 배치하지 않는 경우 Intune은 패키지 업로드 도중에 패키지를 인식 및 업로드할 수 없습니다. 이에 따라 업로드에 실패하고 다음과 같은 오류가 표시됩니다.  
+   ![이 소프트웨어 설치 관리자의 Windows 앱 종속성이 응용 프로그램 폴더에 없습니다. 이 응용 프로그램을 계속 만들고 배포할 수 있지만 누락된 Windows 앱 종속성이 제공될 때까지 실행되지 않습니다.](./media/Win10CP-error-message.png)
 6. Intune으로 돌아간 후 회사 포털 앱을 새 앱으로 업로드합니다. 원하는 대상 사용자 집합에게 필수 앱으로 배포합니다.  
 
 Intune에서 유니버설 앱의 종속성을 처리하는 방식에 대한 자세한 내용은 [Deploying an appxbundle with dependencies via Microsoft Intune MDM(Microsoft Intune MDM을 통해 종속성이 포함된 appxbundle 배포)](https://blogs.technet.microsoft.com/configmgrdogs/2016/11/30/deploying-an-appxbundle-with-dependencies-via-microsoft-intune-mdm/)을 참조하세요.  
@@ -186,17 +186,18 @@ Intune에서 유니버설 앱의 종속성을 처리하는 방식에 대한 자�
 
 이러한 방식으로 앱을 서명하고 배포하는 방법은 다음과 같습니다.
 
-1. [https://aka.ms/win10cpscript](https://aka.ms/win10cpscript)에서 Microsoft Intune Windows 10 회사 포털 앱 서명 스크립트를 다운로드합니다.  이 스크립트가 작동하려면 호스트 컴퓨터에 Windows 10용 Windows SDK가 설치되어야 있어야 합니다. Windows 10용 Windows SDK를 다운로드하려면 [https://go.microsoft.com/fwlink/?LinkId=619296](https://go.microsoft.com/fwlink/?LinkId=619296) 페이지를 방문하세요.
+1. [https://aka.ms/win10cpscript](https://aka.ms/win10cpscript)에서 Microsoft Intune Windows 10 회사 포털 앱 서명 스크립트를 다운로드합니다.  이 스크립트가 작동하려면 호스트 컴퓨터에 Windows 10용 Windows SDK가 설치되어야 있어야 합니다. Windows 10용 Windows SDK를 다운로드하려면 [https://go.microsoft.com/fwlink/?LinkId=619296](https://go.microsoft.com/fwlink/?LinkId=619296)을 방문해 보세요.
 2. 위에서 설명한 대로 비즈니스용 Microsoft 스토어에서 Windows 10 회사 포털 앱을 다운로드합니다.  
 3. Windows 10 회사 포털 앱을 서명하려면 스크립트 헤더에 입력 매개 변수를 자세히 지정하여 스크립트를 실행합니다(아래에 추출됨). 종속성은 스크립트에 전달할 필요가 없습니다. 앱을 Intune 관리 콘솔에 업로드할 때만 필요합니다.
 
-|매개 변수 | 설명|
-| ------------- | ------------- |
-|InputWin10AppxBundle |원본 appxbundle 파일이 위치한 경로입니다. |
-|OutputWin10AppxBundle |서명된 appxbundle 파일의 출력 경로입니다. |
-|Win81Appx | Windows 8.1 또는 Windows Phone 8.1 회사 포털(.APPX) 파일이 위치한 경로입니다.|
-|PfxFilePath |Symantec Enterprise 모바일 코드 서명 인증서(.PFX) 파일의 경로입니다. |
-|PfxPassword| Symantec Enterprise 모바일 코드 서명 인증서의 암호입니다. |
-|PublisherId |엔터프라이즈의 게시자 ID입니다. 없는 경우 Symantec Enterprise 모바일 코드 서명 인증서의 '제목' 필드를 사용합니다.|
-|SdkPath | Windows 10용 Windows SDK의 루트 폴더에 대한 경로입니다. 이 인수는 선택 사항이며 기본적으로 ${env:ProgramFiles(x86)}\Windows Kits\10입니다.|
+|       매개 변수       |                                                                    설명                                                                    |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| InputWin10AppxBundle  |                                             원본 appxbundle 파일이 위치한 경로입니다.                                              |
+| OutputWin10AppxBundle |                                                  서명된 appxbundle 파일의 출력 경로입니다.                                                  |
+|       Win81Appx       |                          Windows 8.1 또는 Windows Phone 8.1 회사 포털(.APPX) 파일이 위치한 경로입니다.                           |
+|      PfxFilePath      |                                   Symantec Enterprise 모바일 코드 서명 인증서(.PFX) 파일의 경로입니다.                                    |
+|      PfxPassword      |                                     Symantec Enterprise 모바일 코드 서명 인증서의 암호입니다.                                      |
+|      PublisherId      |      엔터프라이즈의 게시자 ID입니다. 없는 경우 Symantec Enterprise 모바일 코드 서명 인증서의 '제목' 필드를 사용합니다.       |
+|        SdkPath        | Windows 10용 Windows SDK의 루트 폴더에 대한 경로입니다. 이 인수는 선택 사항이며 기본적으로 ${env:ProgramFiles(x86)}\Windows Kits\10입니다. |
+
 실행이 완료되면 스크립트는 서명된 버전의 Windows 10 회사 포털 앱을 출력합니다. 그러면 서명된 버전의 앱을 Intune 통해 LOB 앱으로 배포할 수 있으며, 현재 배포된 버전이 이 새 앱으로 업그레이드됩니다.  

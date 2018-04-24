@@ -13,15 +13,15 @@ ms.technology: ''
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e4581b59de68c2877b122887fa1ffe86eaa2b92c
-ms.sourcegitcommit: 390a4be5aa36007c36fb6a5abcfe8d20bc862a4b
+ms.openlocfilehash: bb191f33133b85613f491220c970947b9e55b79f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="remove-devices-by-using-factory-reset-or-remove-company-data"></a>공장 기본 설정으로 복원을 사용하여 장치를 제거하거나 회사 데이터 제거
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune에서 더 이상 필요하거나, 용도를 다시 설정하거나, 누락되지 않은 장치를 제거할 수 있습니다. **회사 데이터 제거** 또는 **공장 기본 설정으로 복원** 작업을 사용하여 수행할 수 있습니다. 또한 사용자가 Intune 회사 포털에서 Intune에 등록된 개인적으로 소유한 장치로 원격 명령을 실행할 수 있습니다.
 
@@ -72,7 +72,7 @@ Intune에서 더 이상 필요하거나, 용도를 다시 설정하거나, 누�
 |인증서 프로필 설정|인증서가 제거되고 해지됩니다.|
 |관리 에이전트|관리 프로필이 제거됩니다.|
 |메일|Intune을 통해 프로비전된 이메일 프로필이 제거됩니다. 장치에서 캐시된 이메일이 삭제됩니다.|
-|Outlook|iOS에 대해 Microsoft Outlook 앱에서 받은 이메일이 제거됩니다.|
+|Outlook|iOS에 대해 Microsoft Outlook 앱에서 받은 이메일이 제거됩니다. Outlook 모바일 앱이 먼저 iOS 사용자에게 필요한 앱으로서 배포되기를 요구합니다.|
 |Azure AD 가입 취소|Azure AD 레코드가 제거됩니다.|
 |연락처 |앱에서 기본 주소록에 직접 동기화된 연락처가 제거됩니다. 기본 주소록에서 다른 외부 소스에 동기화된 연락처는 제거할 수 없습니다. <br /> <br />현재는 Outlook 앱만 지원됩니다.
 

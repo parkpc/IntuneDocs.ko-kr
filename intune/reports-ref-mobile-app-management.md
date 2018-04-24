@@ -15,11 +15,11 @@ ms.assetid: 084F11AD-F7BA-45A4-8424-45E6E4564930
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: eb9f63199063db34361c7d463b8cef37bb8bfa1f
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: 317e884cd54b57f4892c4e101e206089ef335f0c
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="reference-for-mobile-app-management-mam-entities"></a>모바일 앱 관리(MAM) 엔터티에 대한 참조
 
@@ -51,23 +51,24 @@ ms.lasthandoff: 03/16/2018
 
 **MamApplicationInstance** 엔터티는 장치별 사용자당 단일 인스턴스로서 관리되는 모바일 앱 관리(MAM) 앱을 나열합니다. 엔터티 내 모든 사용자 및 장치에 MAM 정책이 하나 이상 할당되어 있으므로 모두 보호됩니다.
 
-| 속성 | 설명 | 예제 |
-|---------|------------|--------|
-| ApplicationInstanceKey |데이터 웨어하우스의 MAM 앱 인스턴스에 대한 고유 식별자 - 서로게이트 키 |123 |
-| UserId |해당 MAM 앱을 설치한 사용자의 사용자 ID |b66bc706-ffff-7437-0340-032819502773 |
-| ApplicationInstanceId |MAM 앱 인스턴스에 대한 고유 식별자 - ApplicationInstanceKey와 비슷하지만 자연 키입니다. |b66bc706-ffff-7437-0340-032819502773 |
-| ApplicationId |이 MAM 앱의 응용 프로그램 ID |com.microsoft.groupies-daily.<IOS> |
-| ApplicationVersion |해당 MAM 앱의 응용 프로그램 버전 |2 |
-| CreatedDate |MAM 앱 인스턴스의 이 레코드를 만든 날짜입니다. 값은 null일 수 있습니다. |11/23/2016 12:00:00 AM |
-| 플랫폼 |해당 MAM 앱이 설치된 장치 플랫폼 |2 |
-| PlatformVersion |해당 MAM 앱이 설치된 장치의 플랫폼 버전 |2.2 |
-| SdkVersion |해당 MAM 앱을 래핑한 MAM SDK 버전 |3.2 |
-| DeviceId |해당 MAM 앱이 설치된 장치의 장치 ID |b66bc706-ffff-7437-0340-032819502773 |
-| DeviceName |해당 MAM 앱이 설치된 장치의 장치 이름 |"MyDevice" |
-| IsDeleted |이 MAM 앱 인스턴스 레코드가 업데이트되었는지 나타냅니다. <br>True-이 MAM 앱 인스턴스는 이 테이블에서 필드가 업데이트된 새 레코드를 가집니다. <br>False-이 MAM 앱 인스턴스의 최신 레코드입니다. |True/False |
-| StartDateInclusiveUtc |데이터웨어 하우스에서 해당 MAM 앱 인스턴스를 만든 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
-| DeletedDateUtc |IsDeleted를 True로 변경한 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
-| RowLastModifiedDateTimeUtc |데이터웨어 하우스에서 해당 MAM 앱 인스턴스를 마지막으로 수정한 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
+
+|          속성          |                                                                                                  설명                                                                                                  |               예제                |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
+|   ApplicationInstanceKey   |                                                               데이터 웨어하우스의 MAM 앱 인스턴스에 대한 고유 식별자 - 서로게이트 키                                                                |                 123                  |
+|           UserId           |                                                                              해당 MAM 앱을 설치한 사용자의 사용자 ID                                                                              | b66bc706-ffff-7437-0340-032819502773 |
+|   ApplicationInstanceId    |                                              MAM 앱 인스턴스에 대한 고유 식별자 - ApplicationInstanceKey와 비슷하지만 자연 키입니다.                                              | b66bc706-ffff-7437-0340-032819502773 |
+|       ApplicationId        |                                                                                        이 MAM 앱의 응용 프로그램 ID                                                                                         |  com.microsoft.groupies-daily.<IOS>  |
+|     ApplicationVersion     |                                                                                     해당 MAM 앱의 응용 프로그램 버전                                                                                      |                  2                   |
+|        CreatedDate         |                                                                 MAM 앱 인스턴스의 이 레코드를 만든 날짜입니다. 값은 null일 수 있습니다.                                                                 |        11/23/2016 12:00:00 AM        |
+|          플랫폼          |                                                                          해당 MAM 앱이 설치된 장치 플랫폼                                                                           |                  2                   |
+|      PlatformVersion       |                                                                      해당 MAM 앱이 설치된 장치의 플랫폼 버전                                                                       |                 2.2                  |
+|         SdkVersion         |                                                                            해당 MAM 앱을 래핑한 MAM SDK 버전                                                                            |                 3.2                  |
+|          DeviceId          |                                                                          해당 MAM 앱이 설치된 장치의 장치 ID                                                                          | b66bc706-ffff-7437-0340-032819502773 |
+|         DeviceName         |                                                                         해당 MAM 앱이 설치된 장치의 장치 이름                                                                         |              "MyDevice"              |
+|         IsDeleted          | 이 MAM 앱 인스턴스 레코드가 업데이트되었는지 나타냅니다. <br>True-이 MAM 앱 인스턴스는 이 테이블에서 필드가 업데이트된 새 레코드를 가집니다. <br>False-이 MAM 앱 인스턴스의 최신 레코드입니다. |              True/False              |
+|   StartDateInclusiveUtc    |                                                              데이터웨어 하우스에서 해당 MAM 앱 인스턴스를 만든 UTC 날짜 및 시간                                                               |        11/23/2016 12:00:00 AM        |
+|       DeletedDateUtc       |                                                                             IsDeleted를 True로 변경한 UTC 날짜 및 시간                                                                              |        11/23/2016 12:00:00 AM        |
+| RowLastModifiedDateTimeUtc |                                                           데이터웨어 하우스에서 해당 MAM 앱 인스턴스를 마지막으로 수정한 UTC 날짜 및 시간                                                            |        11/23/2016 12:00:00 AM        |
 
 ## <a name="mamcheckin"></a>MamCheckin
 
@@ -112,20 +113,23 @@ ms.lasthandoff: 03/16/2018
 
 **MamGlobalApplication** 엔터티는 회사에 등록하지 않고 모바일 앱 관리(MAM)를 통해 관리되는 스토어 앱을 나열합니다.
 
-| 속성 | 설명 | 예제 |
-|---------|------------|--------|
-| ApplicationKey |대리 키로 알려진 데이터 웨어하우스의 스토어 앱의 고유 식별자입니다. |123 |
-| ApplicationId |스토어 앱의 고유 식별자입니다. ApplicationKey와 비슷하지만 자연 키 식별자입니다. |com.microsoft.skydrive.<ios> |
-| ApplicationName |MAM 전역 응용 프로그램 이름입니다. |Skydrive |
-| RowLastModifiedDateTimeUtc |데이터 웨어하우스에서 이 특정 MAM 글로벌 응용 프로그램을 마지막으로 수정한 UTC 날짜 및 시간입니다. |11/23/2016 12:00:00 AM |
+
+|          속성          |                                               설명                                               |           예제            |
+|----------------------------|---------------------------------------------------------------------------------------------------------|------------------------------|
+|       ApplicationKey       |          대리 키로 알려진 데이터 웨어하우스의 스토어 앱의 고유 식별자입니다.          |             123              |
+|       ApplicationId        | 스토어 앱의 고유 식별자입니다. ApplicationKey와 비슷하지만 자연 키 식별자입니다.  | com.microsoft.skydrive.<ios> |
+|      ApplicationName       |                                      MAM 전역 응용 프로그램 이름입니다.                                       |           Skydrive           |
+| RowLastModifiedDateTimeUtc | 데이터 웨어하우스에서 이 특정 MAM 글로벌 응용 프로그램을 마지막으로 수정한 UTC 날짜 및 시간입니다. |    11/23/2016 12:00:00 AM    |
 
 ## <a name="mamplatform"></a>MamPlatform
 
 **MamPlatform** 엔터티는 모바일 앱 관리(MAM) 앱이 설치된 플랫폼 이름과 유형을 나열합니다.
 
-| 속성 | 설명 | 예제 |
-|---------|------------|--------|
-| PlatformKey |데이터 웨어하우스의 플랫폼에 대한 고유 식별자 - 서로게이트 키 |123 |
-| 플랫폼 |플랫폼에 대한 고유 식별자 - PlatformKey와 비슷하지만 자연 키입니다. |123 |
-| PlatformName |플랫폼 이름 |사용할 수 없음 <br>없음 <br>Windows <br>iOS <br>Android: |
-| RowLastModifiedDateTimeUtc |데이터 웨어하우스에서 해당 플랫폼을 마지막으로 수정한 UTC 날짜 및 시간 |11/23/2016 12:00:00 AM |
+
+|          속성          |                                    설명                                    |                         예제                         |
+|----------------------------|-----------------------------------------------------------------------------------|---------------------------------------------------------|
+|        PlatformKey         |     데이터 웨어하우스의 플랫폼에 대한 고유 식별자 - 서로게이트 키      |                           123                           |
+|          플랫폼          | 플랫폼에 대한 고유 식별자 - PlatformKey와 비슷하지만 자연 키입니다. |                           123                           |
+|        PlatformName        |                                   플랫폼 이름                                   | 사용할 수 없음 <br>없음 <br>Windows <br>iOS <br>Android: |
+| RowLastModifiedDateTimeUtc | 데이터 웨어하우스에서 해당 플랫폼을 마지막으로 수정한 UTC 날짜 및 시간  |                 11/23/2016 12:00:00 AM                  |
+

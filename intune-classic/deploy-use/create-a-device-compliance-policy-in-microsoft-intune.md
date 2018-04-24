@@ -1,4 +1,4 @@
----
+﻿---
 title: 장치 준수 정책 만들기
 description: 규정 준수 정책을 만들어 회사 데이터에 액세스하는 데 사용하는 모바일 장치 및 PC 보안을 유지합니다.
 keywords: ''
@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 03719051179a30b0cc543098861f1b480c66082a
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: ed6f66747364debd89661d78bcf3b002b1c8a9b6
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-a-device-compliance-policy-in-microsoft-intune"></a>Microsoft Intune에서 장치 규정 준수 정책 만들기
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 호환되는 것으로 간주하기 위해 따라야 하는 규정 준수 정책을 만드는 데 사용할 수 있는 단계를 간략히 설명합니다.
 
@@ -56,6 +56,7 @@ ms.lasthandoff: 03/22/2018
 다음 테이블에서는 규정 준수 정책 설정 및 해당 사항이 지원되는 플랫폼을 나열합니다.
 
 -------------
+
 |Setting|iOS|Android|Windows|
 |-----|----|-----|-----|
 |모바일 장치의 잠금을 해제하는 데 암호 필요|iOS 6 이상|Android 4.0 이상 <br>Samsung KNOX Standard 4.0 이상|Windows Phone 8.1 이상|
@@ -79,9 +80,9 @@ ms.lasthandoff: 03/22/2018
 
 각 플랫폼에서 지원되는 규정 준수 설정에 대한 자세한 내용을 보려면 다음 중 하나를 선택합니다.
 > [!div class="op_single_selector"]
-- [iOS 장치용 규정 준수 정책 설정](ios-compliance-policy-settings-in-microsoft-intune.md)
-- [Android 장치용 규정 준수 정책 설정](android-compliance-policy-settings-in-microsoft-intune.md)
-- [Windows 및 Windows Phone용 규정 준수 정책 설정](windows-compliance-policy-settings-in-microsoft-intune.md)
+> - [iOS 장치용 규정 준수 정책 설정](ios-compliance-policy-settings-in-microsoft-intune.md)
+> - [Android 장치용 규정 준수 정책 설정](android-compliance-policy-settings-in-microsoft-intune.md)
+> - [Windows 및 Windows Phone용 규정 준수 정책 설정](windows-compliance-policy-settings-in-microsoft-intune.md)
 
 
 ## <a name="next-steps"></a>다음 단계

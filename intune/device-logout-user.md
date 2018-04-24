@@ -1,30 +1,29 @@
 ---
-title: "iOS 장치의 사용자 로그아웃"
+title: iOS 장치의 사용자 로그아웃
 titlesuffix: Microsoft Intune
-description: "Intune을 사용하여 iOS 장치의 현재 사용자를 로그아웃하는 방법을 알아봅니다.\""
-keywords: 
+description: Intune을 사용하여 iOS 장치의 현재 사용자를 로그아웃하는 방법을 알아봅니다."
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 07/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 702bc46c-1a6f-4689-bd53-3b778a447baa
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9474a144abd02a807658af9bf243c8764089b5de
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 223906d37159ba4081f5a5c055392321ac02e0ab
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="logout-the-current-user-on-intune-managed-ios-devices"></a>Intune 관리 iOS 장치에서 현재 사용자 로그아웃
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
-
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 **현재 사용자 로그아웃** 작업은 [iOS 교육 프로필](education-settings-configure-ios.md)을 사용하여 iOS 교실 앱을 관리하도록 구성된 공유 iPad 장치에서 현재 사용자를 로그아웃합니다. 
 

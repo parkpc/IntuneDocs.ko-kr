@@ -1,31 +1,31 @@
 ---
-title: "관리되는 Android 장치용 앱 구성 정책 추가"
+title: 관리되는 Android 장치용 앱 구성 정책 추가
 titlesuffix: Microsoft Intune
-description: "Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 Android for Work 앱을 실행할 때 설정을 제공할 수 있습니다."
-keywords: 
+description: Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 Android for Work 앱을 실행할 때 설정을 제공할 수 있습니다.
+keywords: ''
 author: erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: d0b6f3fe-2bd4-4518-a6fe-b9fd115ed5e0
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a448c33e8324492c68d509a12d5901f41ed4873a
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 6fbf70630124614aa1ed302a41d6e3f33c10c63d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-app-configuration-policies-for-managed-android-devices"></a>관리되는 Android 장치용 앱 구성 정책 추가
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 Android for Work 앱을 실행할 때 설정을 제공할 수 있습니다. 사용자 및 장치에 이러한 정책을 직접 할당하지는 않으며, 대신 앱에 정책을 연결한 다음 앱을 할당합니다. 정책 설정은 앱에서 해당 설정을 확인할 때(일반적으로는 앱을 처음 실행할 때) 사용됩니다.
+Microsoft Intune에서 앱 구성 정책을 사용하여 Android for Work 앱에 설정을 제공할 수 있습니다. 앱에 대한 구성 설정을 지정하려면 앱 개발자는 Android 관리되는 앱 구성 설정을 공개해야 합니다. 설정을 적용하려는 사용자 그룹에 앱 구성 정책을 할당합니다.  정책 설정은 앱에서 해당 설정을 확인할 때(일반적으로는 앱을 처음 실행할 때) 사용됩니다.
 
 > [!Note]  
 > 모든 앱이 앱 구성을 지원하지는 않습니다. 앱 구성 정책을 지원하도록 앱을 빌드했는지 앱 개발자와 확인하세요.
@@ -50,16 +50,27 @@ Microsoft Intune에서 앱 구성 정책을 사용하여 사용자가 Android fo
 
 ## <a name="use-the-configuration-designer"></a>구성 디자이너 사용
 
-Intune에 등록되었거나 등록되지 않은 장치에서 앱에 대한 구성 디자이너를 사용할 수 있습니다. 디자이너를 사용하면 특정 구성 키 및 값을 구성할 수 있습니다. 또한 각 값에 대한 데이터 형식을 지정해야 합니다.
+Android 앱에 대한 구성 디자이너를 사용하여 구성을 지원할 수 있습니다. 구성은 Intune에 등록된 장치에 적용됩니다. 디자이너를 사용하면 앱이 공개하는 설정에 대한 특정 구성 값을 구성할 수 있습니다.
 
+**추가**를 선택하여 앱에 대해 지정하려는 구성 설정 목록을 선택합니다.  
 구성의 각 키 및 값의 경우 다음을 설정합니다.
 
-  - **구성 키**  
-     특정 설정 구성을 고유하게 식별하는 키입니다.
   - **값 형식**  
-    구성 값의 데이터 형식입니다. 형식에는 정수, 실수, 문자열 또는 부울이 포함됩니다.
+    구성 값의 데이터 형식입니다. 문자열 값 형식의 경우 값 형식으로 변수 또는 인증서 프로필을 필요에 따라 선택할 수 있습니다.
   - **구성 값**  
-    구성의 값입니다. 
+    구성의 값입니다. 값 형식에 대해 변수 또는 인증서를 선택하는 경우 구성 값 드롭다운 목록의 변수 또는 인증서 프로필 목록에서 선택할 수 있습니다.  인증서를 선택하면 장치에 배포되는 인증서 별칭이 런타임 시 채워집니다.
+    
+### <a name="supported-variables-for-configuration-values"></a>구성 값에 대해 지원되는 변수
+
+값 형식으로 변수를 선택하는 경우 다음 옵션을 선택할 수 있습니다.
+- 사용자 계정 이름 — 예: **John@contoso.com**
+- 메일 — 예: **John@contoso.com**
+- Partian UPN — 예: **John**
+- 계정 ID — 예: **fc0dc142-71d8-4b12-bbea-bae2a8514c81**
+- 장치 ID — 예: **b9841cd9-9843-405f-be28-b2265c59ef97**
+- 사용자 ID — 예: **3ec2c00f-b125-4519-acf0-302ac3761822**
+- 사용자 이름 — 예: **John Doe**
+
 
 ## <a name="enter-the-json-editor"></a>JSON 편집기 입력
 

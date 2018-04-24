@@ -1,4 +1,4 @@
----
+﻿---
 title: 소프트웨어 업데이트 문제 해결
 description: Microsoft Intune에서 소프트웨어 업데이트 문제를 해결합니다.
 keywords: ''
@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 36715859c4c4685aa8d0fc74b360efd2372ee6c2
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 5fdae47509fa2c0606008bf399339a14403ad2fa
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="troubleshoot-software-updates-in-microsoft-intune"></a>Microsoft Intune에서 소프트웨어 업데이트 문제 해결
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 섹션의 정보를 사용하면 Microsoft Intune의 소프트웨어 업데이트 문제를 해결할 수 있습니다.
 

@@ -1,25 +1,25 @@
 ---
-title: "Microsoft Intune에서 앱 할당 포함 및 제외"
-titlesuffix: 
-description: "Microsoft Intune을 사용하여 앱 할당을 포함하거나 배제하는 방법에 대해 알아봅니다."
-keywords: 
+title: Microsoft Intune에서 앱 할당 포함 및 제외
+titlesuffix: ''
+description: Microsoft Intune을 사용하여 앱 할당을 포함하거나 배제하는 방법에 대해 알아봅니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c59f6df5-3317-4dff-8f19-fdeec33faedf
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: dbe8669dc2bf448e0738147758d90ba6d2d69b06
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 93fd626d580917a3dd5bb20e7696c09c109dcc0b
+ms.sourcegitcommit: c3ae3c3dc46b62d9191813d25a196874ba4927be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="include-and-exclude-app-assignments-in-microsoft-intune"></a>Microsoft Intune에서 앱 할당 포함 및 제외
 
@@ -33,6 +33,8 @@ Intune을 사용하면 포함시킬 그룹과 배제할 그룹을 할당하여 �
 >앱에 대해 그룹 할당을 설정할 때 **해당 사항 없음** 유형은 더 이상 사용되지 않으며 제외 그룹 기능으로 대체되었습니다. 
 >
 >Intune은 편의를 위해 콘솔에서 미리 만든 **모든 사용자** 및 **모든 장치** 그룹에 기본 최적화 기능을 제공합니다. 이들 그룹을 사용하여 직접 만든 '모든 사용자' 또는 '모든 장치' 그룹 대신 모든 사용자와 모든 장치를 지정하는 것이 좋습니다.  
+>
+>Android Enterprise(이전의 Android for Work)는 그룹 포함 및 제외를 지원하지만 미리 만들어진 **모든 사용자** 및 **모든 장치** 기본 제공 그룹은 지원하지 않습니다.
 
 ## <a name="including-and-excluding-groups-when-assigning-apps"></a>앱을 할당할 때 그룹 포함 및 제외 
 포함 및 제외 할당을 사용하여 그룹에 앱을 할당하려면 다음 단계를 따르세요.

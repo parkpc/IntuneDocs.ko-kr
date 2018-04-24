@@ -1,29 +1,28 @@
 ---
-title: "Windows PC 원격 지원 요청 및 제공"
-description: "PC로 관리되는 Windows 데스크톱에 대한 원격 지원을 제공하고 PC를 원격으로 시작하기 위한 최종 사용자 및 IT 관리자 단계를 설명합니다."
-keywords: 
+title: Windows PC 원격 지원 요청 및 제공
+description: PC로 관리되는 Windows 데스크톱에 대한 원격 지원을 제공하고 PC를 원격으로 시작하기 위한 최종 사용자 및 IT 관리자 단계를 설명합니다.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c2654491-5144-408a-a45a-644eb91ac1bb
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1bfa7f1dedecd47aeb30a12c5627a137b775d12a
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 245d18b89be9b9884df6c7ee41436e747c0557fe
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="request-and-provide-remote-assistance-for-windows-pcs"></a>Windows PC 원격 지원 요청 및 제공
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
-
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목의 정보는 Intune 소프트웨어 클라이언트를 사용하여 PC를 관리하는 Windows 데스크톱에만 적용됩니다.
 
@@ -60,10 +59,10 @@ Intune은 [TeamViewer](https://www.teamviewer.com) 소프트웨어(별매)를 �
 ## <a name="respond-to-a-remote-assistance-request"></a>원격 지원 요청에 응답
 
 1. 사용자가 원격 지원 요청을 제출하는 경우 **경고** 작업 영역의 **모니터링** > **원격 지원**에서 해당 요청을 확인할 수 있습니다. 예를 들면 다음과 같습니다.
-> ![원격 지원 요청 스크린샷](./media/team-viewer.png)
+   > ![원격 지원 요청 스크린샷](./media/team-viewer.png)
 
 <br>요청에 대해 4시간 이상 동안 답변하지 않으면 해당 요청이 제거됩니다.
-2. 요청을 수락하려면 **요청을 승인하고 원격 지원을 시작합니다.**를 선택합니다.
+2. 요청을 수락하려면 **요청을 승인하고 원격 지원을 시작합니다.** 를 선택합니다.
 3. **새 원격 지원 요청이 보류 중입니다.** 대화 상자에서 **원격 지원 요청 수락**을 선택합니다. 아직 설치되어 있지 않은 경우 TeamViewer가 PC에 필요한 모든 앱을 설치합니다.
 4. 그런 다음, TeamViewer가 최종 사용자에게 PC 제어를 허용하려는지 묻는 알림을 표시합니다. 사용자가 그 요청을 수락하면 TeamViewer 창이 열리며, PC를 제어할 수 있게 됩니다.
 

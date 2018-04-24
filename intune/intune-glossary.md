@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: bd7b5613-ee9f-4dc3-990c-ab4c1d40720d
 ms.custom: intune-azure
-ms.openlocfilehash: f5f413ed050bd5f5620d0e15d5584a7db06eaaff
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 2b59ed38329462ad8d8db604979c8eb725f7973a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-glossary"></a>Microsoft Intune 용어
 Microsoft Intune에서 사용되는 일반적인 용어의 정의에 대해 알아봅니다.
@@ -39,11 +39,13 @@ Microsoft Intune에서 사용되는 일반적인 용어의 정의에 대해 알�
 |Azure 포털|Intune용 새 콘솔입니다. [자세한 내용을 확인해 보세요](/intune/what-is-intune).|
 
 ## <a name="b"></a>B
+
 |||
 |-|-|
 |BYOD|[Bring Your Own Device](/intune/device-enrollment)를 의미합니다. 사용자가 자신의 장치에 Intune 회사 포털 앱을 설치한 후 메일, 회사 앱, 회사 데이터 및 지원과 같은 회사 리소스에 액세스할 수 있습니다.|
 
 ## <a name="c"></a>C
+
 |||
 |-|-|
 |인증서 프로필|Wi-Fi, 메일 또는 VPN 프로필을 사용할 경우 이 정책 형식을 사용하여 인증서를 통해 [회사 리소스에 대한 액세스를 보호](/intune/certificates-configure)합니다.|
@@ -55,6 +57,7 @@ Microsoft Intune에서 사용되는 일반적인 용어의 정의에 대해 알�
 |사용자 지정 정책|일반 구성 정책에 요구 사항을 충족하는 기본 제공 설정이 포함되지 않은 경우 [이러한 정책을 사용](/intune/custom-settings-configure)합니다. 사용자 지정 정책을 사용하여 Apple Configurator 또는 OMA-URI와 같은 다른 방법으로 설정을 만들 수 있습니다.|
 
 ## <a name="d"></a>D
+
 |||
 |-|-|
 |배포|관리하는 장치 또는 사용자에게 앱 또는 정책을 보내는 동작입니다. 이 작업의 현재 명칭은 *할당*입니다.|
@@ -62,6 +65,7 @@ Microsoft Intune에서 사용되는 일반적인 용어의 정의에 대해 알�
 |장치 프로필|[이러한 프로필](/intune/device-profile-create)을 사용하면 관리하는 장치에서 광범위한 보안, 기능 및 액세스 설정을 구성할 수 있습니다.|
 
 ## <a name="e"></a>E
+
 |||
 |-|-|
 |전자 메일 프로필|이 정책을 사용하여 모바일 장치에서 [전자 메일 액세스 설정](/intune/email-settings-configure)을 지정하여 최종 사용자가 수행해야 하는 설정의 양을 최소화할 수 있습니다.|
@@ -70,21 +74,25 @@ Microsoft Intune에서 사용되는 일반적인 용어의 정의에 대해 알�
 |등록|Microsoft Intune에서는 [등록](/intune/device-enrollment)을 사용하여 장치를 관리하며 리소스에 대한 액세스를 허용합니다.|
 
 ## <a name="f"></a>F
+
 |||
 |-|-|
 |FastTrack|적격 플랜에 150개의 라이선스가 포함된 Intune 사용자에 대한 [Microsoft 서비스](https://technet.microsoft.com/library/mt228265.aspx)입니다. 이 서비스를 사용하여 Microsoft 전문가는 Intune을 시작 및 실행하기 위해 관리자와 협력할 수 있습니다.|
 
 ## <a name="g"></a>G
+
 |||
 |-|-|
 |Groups|그룹을 사용하면 [사용자 또는 장치를 논리적으로 함께 수집](/intune/groups-get-started)할 수 있습니다. 예를 들어 모든 Windows PC가 포함된 그룹을 만들 수 있습니다. 그런 다음 이러한 그룹에 앱과 프로필을 할당할 수 있습니다.|
 
 ## <a name="h"></a>H
+
 |||
 |-|-|
 |하이브리드|System Center Configuration Manager 콘솔을 통해 Intune에 등록된 장치를 관리할 수 있는 구성입니다.|
 
 ## <a name="i"></a>I
+
 |||
 |-|-|
 |Azure 포털|대부분의 Intune 관리 작업에 사용하는 Azure Portal입니다.|
@@ -93,11 +101,13 @@ Microsoft Intune에서 사용되는 일반적인 용어의 정의에 대해 알�
 |재고|관리하는 장치의 [하드웨어 및 설치된 소프트웨어](/intune/device-inventory)를 확인하는 데 사용합니다.|
 
 ## <a name="k"></a>K
+
 |||
 |-|-|
 |키오스크 모드|[장치 제한 프로필](/intune/device-restrictions-configure)의 일부로 구성된 이 모드를 사용하여 장치를 잠글 수 있습니다. 예를 들어 일부앱만 실행될 수 있도록 소매용 장치를 구성할 수 있습니다.|
 
 ## <a name="m"></a>M
+
 |||
 |-|-|
 |Managed Browser|Intune을 사용하여 조직에서 할당할 수 있는 [웹 브라우징 응용 프로그램](/intune/app-configuration-managed-browser)입니다. 관리 브라우저 정책은 관리 브라우저의 사용자가 방문할 수 있는 웹 사이트를 제한하는 허용 목록 또는 차단 목록을 구성합니다.|
@@ -110,17 +120,20 @@ Microsoft Intune에서 사용되는 일반적인 용어의 정의에 대해 알�
 
 
 ## <a name="o"></a>O
+
 |||
 |-|-|
 |OMA-DM|Open Mobile Alliance Device Management를 의미합니다. 많은 하드웨어 제조업체에서 모바일 장치 및 PC의 기능을 제어할 수 있도록 하는 사용되는 업계 표준 장치 관리 프로토콜입니다.|
 |OMA URI|Open Mobile Alliance Uniform Resource Identifier를 의미합니다. 이러한 항목은 OMA-DM 표준을 준수하는 개별 장치 설정을 식별합니다. 요구 사항을 충족하는 기본 제공 설정이 없는 경우 [Intune 사용자 지정 프로필](/intune/custom-settings-configure)에서 이러한 설정을 사용할 수 있습니다.|
 
 ## <a name="p"></a>P
+
 |||
 |-|-|
 |암호 재설정|지원되는 장치에서 강제로 최종 사용자가 [암호를 재설정](/intune/device-passcode-reset)하도록 하는 Intune 기능입니다.|
 
 ## <a name="r"></a>R
+
 |||
 |-|-|
 |원격 잠금|지원되는 장치를 가지고 있지 않더라도 [해당 장치를 잠글](/intune/device-remote-lock) 수 있는 Intune 기능입니다.|
@@ -128,6 +141,7 @@ Microsoft Intune에서 사용되는 일반적인 용어의 정의에 대해 알�
 
 
 ## <a name="s"></a>S
+
 |||
 |-|-|
 |선택적 초기화|[선택적 초기화](/intune/device-company-data-remove)는 앱 보호 정책을 통해 보호되는 설정 및 메일 프로필을 비롯한 회사 데이터만 장치에서 제거합니다. 선택적 초기화는 사용자의 개인적인 데이터를 장치에 남겨둡니다.|
@@ -135,6 +149,7 @@ Microsoft Intune에서 사용되는 일반적인 용어의 정의에 대해 알�
 |구독|Intune 테넌트에 액세스하는 데 사용되는, 직접 입력한 계약입니다.|
 
 ## <a name="t"></a>T
+
 |||
 |-|-|
 |TeamViewer|Intune으로 관리하는 Android 장치에 [원격 지원 기능](/intune/device-profile-android-teamviewer)을 제공하기 위해 Intune과 연동되는 타사 응용 프로그램입니다.|
@@ -142,12 +157,15 @@ Microsoft Intune에서 사용되는 일반적인 용어의 정의에 대해 알�
 |Terms and conditions|사용자가 회사 포털을 사용하여 등록하고 작업에 액세스하기 전에 먼저 [읽고 동의](/intune/terms-and-conditions-create)해야 하는 정보를 포한, 사용자에게 할당할 정책 형식입니다.|
 
 ## <a name="v"></a>V
+
 |||
 |-|-|
 |대량 구매 앱 및 전자책|일부 앱 스토어는 회사에서 사용하려는 앱이나 전자책의 라이선스를 여러 개 구매하는 기능을 제공합니다. Intune에서는 [이러한 프로그램을 통해 구매](/intune/vpp-apps)한 앱과 전자책을 관리할 수 있습니다. 앱 스토어에서 라이선스 정보를 가져오고, 사용한 라이선스 수를 추적하고, 소유한 앱 복사본 수를 초과하여 설치하지 않도록 할 수 있습니다.|
 |VPN 프로필|관리하는 장치에 [VPN 설정](/intune/vpn-settings-configure)을 할당하여 최종 사용자에게 필요한 설정을 최소화하는 정책입니다.|
 
 ## <a name="w"></a>W
-|||
-|-|-|
-|Wi-Fi 프로필|사용자가 설정을 알거나 구성할 필요 없이 회사 네트워크에 연결할 수 있도록 장치에 [무선 네트워크 설정](/intune/wi-fi-settings-configure)을 할당하는 정책입니다.
+
+|               |                                                                                                                                                                                                 |
+|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Wi-Fi 프로필 | 사용자가 설정을 알거나 구성할 필요 없이 회사 네트워크에 연결할 수 있도록 장치에 [무선 네트워크 설정](/intune/wi-fi-settings-configure)을 할당하는 정책입니다. |
+

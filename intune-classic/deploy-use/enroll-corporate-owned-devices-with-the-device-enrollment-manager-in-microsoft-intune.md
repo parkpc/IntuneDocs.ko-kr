@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0f9ecb8cf16d8c344ea595c53ab91c9b1f00c90e
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 4973e896109589a91891545bbf6db6ca6df45aad
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune"></a>Microsoft Intune에서 장치 등록 관리자를 사용하여 회사 소유 장치 등록
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 조직에서는 Intune을 사용하여 단일 사용자 계정으로 많은 수의 모바일 장치를 관리할 수 있습니다. *DEM(장치 등록 관리자)* 계정은 1000개까지 장치를 등록할 수 있는 특수한 사용자 계정입니다. 기존 사용자를 DEM 계정에 추가하여 특수 DEM 기능을 제공합니다. 등록된 각 장치는 단일 라이선스를 사용합니다. 이 계정을 통해 등록한 장치는 개인("BYOD") 장치가 아닌, 사용자 선호도가 없는 공유 장치로 사용하는 것이 좋습니다.  
 
@@ -67,22 +67,22 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
 ## <a name="add-a-device-enrollment-manager"></a>장치 등록 관리자 추가
 
-1.  DEM 계정에 추가할 사용자가 이미 있는지 확인하세요. 사용자를 추가해야하는 경우 [Office 365 포털](https://go.microsoft.com/fwlink/p/?LinkId=698854)에 로그인하여 [Office 365 포털에 사용자를 개별적으로 또는 일괄적으로 추가](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)의 단계를 따르세요.
+1. DEM 계정에 추가할 사용자가 이미 있는지 확인하세요. 사용자를 추가해야하는 경우 [Office 365 포털](https://go.microsoft.com/fwlink/p/?LinkId=698854)에 로그인하여 [Office 365 포털에 사용자를 개별적으로 또는 일괄적으로 추가](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)의 단계를 따르세요.
 
-2.  관리자 자격 증명을 사용하여 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에 로그인합니다.
+2. 관리자 자격 증명을 사용하여 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에 로그인합니다.
 
-3.  탐색 창에서 **관리**를 선택하고 **관리자 관리**를 선택한 후 **장치 등록 관리자**를 선택합니다. **장치 등록 관리자** 페이지가 열립니다.
+3. 탐색 창에서 **관리**를 선택하고 **관리자 관리**를 선택한 후 **장치 등록 관리자**를 선택합니다. **장치 등록 관리자** 페이지가 열립니다.
 
-4.  **추가...**를 선택합니다. **장치 등록 관리자 추가** 대화 상자가 열립니다.
+4. **추가...** 를 선택합니다. **장치 등록 관리자 추가** 대화 상자가 열립니다.
 
-5.  Intune 계정의 **사용자 ID**를 입력하고 **확인**을 선택합니다.
+5. Intune 계정의 **사용자 ID**를 입력하고 **확인**을 선택합니다.
 
-    이제 DEM 사용자는 최종 사용자가 회사 포털에서 BYOD 시나리오에 이용하는 동일한 절차를 사용하여 모바일 장치를 등록할 수 있습니다. 관리자 최종 사용자는 회사 포털 앱을 설치하고 최대 1000대의 장치에 DEM 자격 증명을 사용하여 장치를 등록할 수 있습니다. 각 플랫폼에 대한 최종 사용자 등록 단계는 다음을 참조하세요.
+   이제 DEM 사용자는 최종 사용자가 회사 포털에서 BYOD 시나리오에 이용하는 동일한 절차를 사용하여 모바일 장치를 등록할 수 있습니다. 관리자 최종 사용자는 회사 포털 앱을 설치하고 최대 1000대의 장치에 DEM 자격 증명을 사용하여 장치를 등록할 수 있습니다. 각 플랫폼에 대한 최종 사용자 등록 단계는 다음을 참조하세요.
 
-  - [Intune에서 iOS 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-ios)
-  - [Intune에서 macOS 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos)
-  - [Intune에서 Android 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-android)
-  - [Intune에서 Windows 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows)
+   - [Intune에서 iOS 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-ios)
+   - [Intune에서 macOS 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos)
+   - [Intune에서 Android 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-android)
+   - [Intune에서 Windows 장치 등록](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows)
 
 ## <a name="delete-a-device-enrollment-manager-from-intune"></a>Intune에서 장치 등록 관리자 삭제
 

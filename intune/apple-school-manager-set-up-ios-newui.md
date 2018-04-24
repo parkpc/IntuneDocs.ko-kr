@@ -15,15 +15,15 @@ ms.assetid: 4c35a23e-0c61-11e8-ba89-0ed5f89f718b
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4054eb3804c159e6256b07bf89b8ccd93f7b2e8e
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 7d9a51cb4e76f5aa0f89f9160af6f5fe62f0bbbd
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enable-ios-device-enrollment-with-apple-school-manager"></a>Apple School Manager를 통해 iOS 장치 등록 기능 사용
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 > [!NOTE]
 > ### <a name="temporary-user-interface-differences"></a>임시 사용자 인터페이스 차이점
@@ -59,7 +59,7 @@ Apple School Manager 등록은 [Apple의 장비 등록 프로그램](device-enro
 
 1. [Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **Apple 등록** > **등록 프로그램 토큰** > **추가**를 선택합니다.
 
-  ![등록 프로그램 토큰을 가져옵니다.](./media/device-enrollment-program-enroll-ios/image01.png)
+   ![등록 프로그램 토큰을 가져옵니다.](./media/device-enrollment-program-enroll-ios/image01.png)
 
 2. **등록 프로그램 토큰** 블레이드에서 **공개 키 다운로드**를 선택하여 암호화 키(.pem) 파일을 다운로드하고 로컬로 저장합니다. .pem 파일은 Apple School Manager 포털에서 트러스트 관계 인증서를 요청하는 데 사용됩니다.
      ![등록 프로그램 토큰 블레이드입니다.](./media/device-enrollment-program-enroll-ios/image02.png)
@@ -94,7 +94,7 @@ Azure 포털의 Intune에서 나중에 참조할 수 있도록 Apple ID를 제�
 2. 토큰을 선택하고 **프로필**을 선택한 다음 **프로필 만들기**를 선택합니다.
 3. **프로필 만들기**에서 관리 목적으로 프로필의 **이름** 및 **설명**을 입력합니다. 사용자는 이러한 세부 정보를 볼 수 없습니다. 이 **이름** 필드를 사용하여 Azure Active Directory에 동적 그룹을 만들 수 있습니다. 이 등록 프로필로 장치를 할당하기 위해 프로필 이름을 사용하여 enrollmentProfileName 매개 변수를 정의합니다. [Azure Active Directory 동적 그룹](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal#using-attributes-to-create-rules-for-device-objects)에 대해 자세히 알아보세요.
     ![프로필 이름 및 설명입니다.](./media/device-enrollment-program-enroll-ios/image05.png)
-    
+
 4. **사용자 선호도**에서 이 프로필이 있는 장치가 할당된 사용자로 등록되어야 하는지, 할당된 사용자 없이 등록되어야 하는지 선택합니다.
     - **사용자 선호도를 사용하여 등록** - 사용자에게 속하고 앱 설치 같은 서비스에 회사 포털을 사용하려는 장치의 경우 이 옵션을 선택합니다. 이 옵션을 사용하면 사용자가 회사 포털을 통해 장치를 인증할 수도 있습니다. 사용자 선호도에는 [WS-Trust 1.3 사용자 이름/혼합 끝점](https://technet.microsoft.com/library/adfs2-help-endpoints)이 필요합니다. [자세히 알아봅니다](https://technet.microsoft.com/itpro/powershell/windows/adfs/get-adfsendpoint).   Apple School Manager의 공유 iPad 모드에서는 사용자가 사용자 선호도를 사용하지 않고 등록해야 합니다.
 
@@ -112,8 +112,8 @@ Azure 포털의 Intune에서 나중에 참조할 수 있도록 Apple ID를 제�
 
     사용자는 해당 장치가 감독된다는 알림을 다음 두 가지 방법으로 받습니다.
 
-    - 잠금 화면에 “이 iPhone은 Contoso에서 관리됩니다.”라는 메시지가 표시됩니다.
-    - **설정** > **일반** > **정보** 화면에 “이 iPhone은 감독됩니다. Contoso는 사용자의 인터넷 트래픽을 모니터링하고 이 장치를 찾습니다."라는 메시지를
+   - 잠금 화면에 “이 iPhone은 Contoso에서 관리됩니다.”라는 메시지가 표시됩니다.
+   - **설정** > **일반** > **정보** 화면에 “이 iPhone은 감독됩니다. Contoso는 사용자의 인터넷 트래픽을 모니터링하고 이 장치를 찾습니다."라는 메시지를
 
      > [!NOTE]
      > 감독 없이 등록된 장치는 Apple Configurator를 사용하여 감독으로만 다시 설정할 수 있습니다. 이러한 방식으로 장치를 다시 설정하려면 iOS 장치를 Mac에 USB 케이블로 연결해야 합니다. 이에 대해 [Apple Configurator 문서](http://help.apple.com/configurator/mac/2.3)에서 자세히 알아보세요.
@@ -124,31 +124,33 @@ Azure 포털의 Intune에서 나중에 참조할 수 있도록 Apple ID를 제�
 
 9. 이 프로필을 사용하는 장치가 **컴퓨터와 동기화**할 수 있도록 할지 여부를 선택합니다. **인증서로 Apple Configurator 허용**을 선택한 경우 **Apple Configurator 인증서** 아래에서 인증서를 선택해야 합니다.
 
-9. 이전 단계에서 **인증서로 Apple Configurator 허용**을 선택한 경우 가져올 Apple Configurator 인증서를 선택합니다.
+10. 이전 단계에서 **인증서로 Apple Configurator 허용**을 선택한 경우 가져올 Apple Configurator 인증서를 선택합니다.
 
-10. **확인**을 선택합니다.
+11. **확인**을 선택합니다.
 
-11. **설정 도우미 설정**을 선택하여 다음 프로필 설정을 구성합니다. ![설정 도우미 사용자 지정](./media/device-enrollment-program-enroll-ios/setupassistantcustom.png)
+12. **설정 도우미 설정**을 선택하여 다음 프로필 설정을 구성합니다. ![설정 도우미 사용자 지정](./media/device-enrollment-program-enroll-ios/setupassistantcustom.png)
 
-    | Setting | 설명 |
-    | --- | --- |
-    | **부서 이름** | 정품 인증을 하는 동안 사용자가 **구성 정보**를 탭하면 표시됩니다. |
-    | **부서 전화** | 정품 인증을 하는 동안 사용자가 **도움이 필요하세요?** 단추를 클릭하면 표시됩니다. |
-    | **설정 도우미 옵션** | 다음 선택적 설정은 나중에 iOS **설정** 메뉴에서 지정할 수 있습니다. |
-    | **암호** | 정품 인증을 하는 동안 암호를 묻는 메시지가 표시됩니다. 장치가 보안된 상태가 아니거나 다른 방식으로 액세스가 제어된 상태(즉, 하나의 앱만 사용할 수 있도록 장치를 제한하는 키오스크 모드)가 아니면 항상 암호를 요구합니다. |
-    | **위치 서비스** | 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 서비스를 확인하는 메시지가 표시됩니다. |
-    | **복원** | 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 iCloud 백업을 확인하는 메시지가 표시됩니다. |
-    | **iCloud 및 Apple ID** | 이 옵션을 사용하도록 설정하면 설정 도우미에서 Apple ID로 로그인하라는 메시지가 표시되고, 앱 및 데이터 화면을 통해 iCloud 백업에서 장치를 복원할 수 있습니다. |
-    | **계약조건** | 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 Apple 사용 약관에 동의하라는 메시지가 표시됩니다. |
-    | **터치 ID** | 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 이 서비스를 확인하는 메시지가 표시됩니다. |
-    | **Apple Pay** | 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 이 서비스를 확인하는 메시지가 표시됩니다. |
-    | **확대/축소** | 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 이 서비스를 확인하는 메시지가 표시됩니다. |
-    | **Siri** | 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 이 서비스를 확인하는 메시지가 표시됩니다. |
-    | **진단 데이터** | 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 이 서비스를 확인하는 메시지가 표시됩니다. |
 
-12. **확인**을 선택합니다.
+    |                 Setting                  |                                                                                               설명                                                                                               |
+    |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    |     <strong>부서 이름</strong>     |                                                             정품 인증을 하는 동안 사용자가 <strong>구성 정보</strong>를 탭하면 표시됩니다.                                                              |
+    |    <strong>부서 전화</strong>     |                                                          정품 인증을 하는 동안 사용자가 <strong>도움이 필요하세요?</strong> 단추를 클릭하면 표시됩니다.                                                          |
+    | <strong>설정 도우미 옵션</strong> |                                                     다음 선택적 설정은 나중에 iOS <strong>설정</strong> 메뉴에서 지정할 수 있습니다.                                                      |
+    |        <strong>암호</strong>         | 정품 인증을 하는 동안 암호를 묻는 메시지가 표시됩니다. 장치가 보안된 상태가 아니거나 다른 방식으로 액세스가 제어된 상태(즉, 하나의 앱만 사용할 수 있도록 장치를 제한하는 키오스크 모드)가 아니면 항상 암호를 요구합니다. |
+    |    <strong>위치 서비스</strong>    |                                                                 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 서비스를 확인하는 메시지가 표시됩니다.                                                                  |
+    |         <strong>복원</strong>         |                                                                이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 iCloud 백업을 확인하는 메시지가 표시됩니다.                                                                 |
+    |   <strong>iCloud 및 Apple ID</strong>   |                         이 옵션을 사용하도록 설정하면 설정 도우미에서 Apple ID로 로그인하라는 메시지가 표시되고, 앱 및 데이터 화면을 통해 iCloud 백업에서 장치를 복원할 수 있습니다.                         |
+    |  <strong>계약조건</strong>   |                                                   이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 Apple 사용 약관에 동의하라는 메시지가 표시됩니다.                                                   |
+    |        <strong>터치 ID</strong>         |                                                                 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 이 서비스를 확인하는 메시지가 표시됩니다.                                                                 |
+    |        <strong>Apple Pay</strong>        |                                                                 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 이 서비스를 확인하는 메시지가 표시됩니다.                                                                 |
+    |          <strong>확대/축소</strong>           |                                                                 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 이 서비스를 확인하는 메시지가 표시됩니다.                                                                 |
+    |          <strong>Siri</strong>           |                                                                 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 이 서비스를 확인하는 메시지가 표시됩니다.                                                                 |
+    |     <strong>진단 데이터</strong>     |                                                                 이 옵션을 사용하도록 설정하면 정품 인증을 하는 동안 설정 도우미에서 이 서비스를 확인하는 메시지가 표시됩니다.                                                                 |
 
-13. 프로필을 저장하려면 **만들기**를 선택합니다.
+
+13. **확인**을 선택합니다.
+
+14. 프로필을 저장하려면 **만들기**를 선택합니다.
 
 ## <a name="connect-school-data-sync"></a>학교 데이터 동기화 연결
 (선택 사항) Apple School Manager에서는 Microsoft SDS(학교 데이터 동기화)를 사용하여 학급 명단 데이터를 Azure AD(Active Directory)에 동기화할 수 있습니다. 하나의 토큰만 SDS와 동기화할 수 있습니다. 학교 데이터 동기화를 사용하여 다른 토큰을 설정하면 이전에 SDS가 설정된 토큰에서 SDS가 제거됩니다. 새 연결이 현재 토큰을 대체합니다. SDS를 사용하여 학교 데이터를 동기화하려면 다음 단계를 완료하세요.
@@ -164,7 +166,7 @@ Azure 포털의 Intune에서 나중에 참조할 수 있도록 Apple ID를 제�
 이제 Intune에 Apple School Manager 장치 관리 권한이 할당되었으므로 Intune을 Apple 서비스와 동기화하여 Intune에서 관리 장치를 확인할 수 있습니다.
 
 [Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **Apple 등록** > **등록 프로그램 토큰**을 선택하고 목록에서 토큰을 선택한 다음 **장치** > **동기화**를 선택합니다. ![등록 프로그램 장치 노드가 선택되고 동기화 링크를 선택하는 스크린샷](./media/device-enrollment-program-enroll-ios/image06.png)
-  
+
   허용되는 등록 프로그램 트래픽에 대한 Apple 약관을 준수하기 위해 Intune에서는 다음과 같은 제한 사항을 적용합니다.
   - 전체 동기화는 7일마다 한 번씩만 실행할 수 있습니다. 전체 동기화 동안 Intune은 Intune에 할당된 모든 Apple 일련 번호를 새로 고칩니다. 전체 동기화를 이전 전체 동기화의 7일 이내에 시도하는 경우 Intune은 Intune에 나열되지 않은 일련 번호만 새로 고칩니다.
   - 모든 동기화 요청은 완료하는 데 15분이 주어집니다. 이 시간 동안 또는 요청이 성공될 때까지 **동기화** 단추는 비활성화됩니다.

@@ -1,28 +1,28 @@
 ---
-title: "Microsoft Intune - Azure에서 장치 프로필 문제 해결 | Microsoft Docs"
-description: "Azure Portal에서 Microsoft InTune을 사용하는 경우 일부 사용자나 장치에 적용되지 않은 프로필 변경, 새 정책이 장치에 적용되는 데 얼마나 걸리는지, 여러 정책이 있을 때 어떤 설정을 적용하는지, 프로필이 삭제되거나 제거되면 어떻게 되는지 등을 포함한 장치 프로필의 일반적인 문제"
-keywords: 
+title: Microsoft Intune - Azure에서 장치 프로필 문제 해결 | Microsoft Docs
+description: Azure Portal에서 Microsoft InTune을 사용하는 경우 일부 사용자나 장치에 적용되지 않은 프로필 변경, 새 정책이 장치에 적용되는 데 얼마나 걸리는지, 여러 정책이 있을 때 어떤 설정을 적용하는지, 프로필이 삭제되거나 제거되면 어떻게 되는지 등을 포함한 장치 프로필의 일반적인 문제
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 1/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 
+ms.technology: ''
+ms.assetid: ''
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 73bac7c139a0dd42734ce6528172aeba2cb7b40c
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 8ceebe8b306893f9e6362a1aeb6ec119a650b90b
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="common-issues-and-resolutions-with-device-profiles-in-microsoft-intune"></a>일반적인 문제와 Microsoft Intune에서 장치 프로필을 사용한 해결
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune 장치 프로필을 사용해 일반적인 문제를 해결 합니다.
 

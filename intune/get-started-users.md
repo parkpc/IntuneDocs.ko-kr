@@ -1,25 +1,25 @@
 ---
-title: "사용자 관리 시작"
+title: 사용자 관리 시작
 titlesuffix: Microsoft Intune
-description: "모바일 장치에서 회사 리소스에 액세스할 수 있도록 라이선스 할당하고 Intune에 사용자를 추가합니다."
-keywords: 
+description: 모바일 장치에서 회사 리소스에 액세스할 수 있도록 라이선스 할당하고 Intune에 사용자를 추가합니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 22a232de-ab93-44ab-b0b5-d2b3ccb007fe
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 53b5be6e5cdf8f60304126e133a727123bfef58d
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 6ed6b95a11eddfeb748b21d6df55f3a5668d9e1d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="get-started-managing-users"></a>사용자 관리 시작
 
@@ -44,8 +44,8 @@ ms.lasthandoff: 03/08/2018
 3. 사용자 정보가 모두 로드될 때까지 잠시 기다려야 할 수도 있습니다. 로드되고 나면 사용자의 **제품 라이선스**에 대해 **편집**을 선택합니다.
 4. 사용자에게 **위치**를 할당한 다음 Intune을 **켜기**로 전환합니다.
 
- > [!NOTE]
- > 그러면 라이선스 중 하나가 이 사용자에 사용됩니다. 라이브 환경을 사용하는 경우 나중에 실제 사용자에게 다시 할당하기 위해 이 라이선스 사용을 해제할 수 있습니다.
+   > [!NOTE]
+   > 그러면 라이선스 중 하나가 이 사용자에 사용됩니다. 라이브 환경을 사용하는 경우 나중에 실제 사용자에게 다시 할당하기 위해 이 라이선스 사용을 해제할 수 있습니다.
 
 5. **저장**을 선택합니다.
 

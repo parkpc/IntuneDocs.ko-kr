@@ -14,11 +14,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b5494e4b2b6a7983d05ac83d9bc495677ee1a1ab
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: dc73befb46f1f159d9a8c023bb5604517b9f73f4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="change-the-mdm-authority"></a>MDM 기관 변경
 Configuration Manager 버전 1610부터 Microsoft 지원에 문의하지 않고 기존 관리 장치에 대한 등록 취소 및 다시 등록을 수행할 필요 없이 MDM 기관을 변경할 수 있습니다. 이 항목에서는 기존의 관리 장치를 등록 취소했다가 다시 등록하지 않고도 Intune에서 구성되고 MDM 기관이 **Microsoft Intune**(독립 실행형)으로 설정된 기존 Microsoft Intune 테넌트를 **Configuration Manager**(하이브리드 MDM)로 변경하는 단계를 제공합니다.
@@ -76,16 +76,16 @@ iOS 장치가 있는 경우 Configuration Manager에서 APNs 인증서를 구성
 
 1. **인증서 서명 요청 다운로드**
 
-    1. Configuration Manager 콘솔에서 **관리** &gt; **Cloud Services** &gt; **Microsoft Intune 구독**으로 이동한 후 **APNs 인증서 요청 만들기**를 선택하여 **APNs CSR(인증서 서명 요청) 요청** 대화 상자를 엽니다.  
-    2. **찾아보기** 를 클릭하여 새 인증서 서명 요청(.csr) 파일을 저장할 경로를 찾습니다. 인증서 서명 요청(.csr) 파일을 로컬로 저장합니다.  
-    3. **다운로드**를 클릭합니다. 새 Microsoft Intune .csr 파일이 다운로드되고 Configuration Manager에 의해 저장됩니다.   
+   1. Configuration Manager 콘솔에서 **관리** &gt; **Cloud Services** &gt; **Microsoft Intune 구독**으로 이동한 후 **APNs 인증서 요청 만들기**를 선택하여 **APNs CSR(인증서 서명 요청) 요청** 대화 상자를 엽니다.  
+   2. **찾아보기** 를 클릭하여 새 인증서 서명 요청(.csr) 파일을 저장할 경로를 찾습니다. 인증서 서명 요청(.csr) 파일을 로컬로 저장합니다.  
+   3. **다운로드**를 클릭합니다. 새 Microsoft Intune .csr 파일이 다운로드되고 Configuration Manager에 의해 저장됩니다.   
 
-    > [!IMPORTANT]
-    > 새 인증서 서명 요청을 다운로드해야 합니다. 기존 파일은 사용하지 않습니다. 이 파일을 사용하면 실패합니다.  
+      > [!IMPORTANT]
+      > 새 인증서 서명 요청을 다운로드해야 합니다. 기존 파일은 사용하지 않습니다. 이 파일을 사용하면 실패합니다.  
 
-2.  [Apple Push Certificates Portal](http://go.microsoft.com/fwlink/?LinkId=269844)로 이동하고 Intune 독립 실행형에서 사용한 APNs 인증서를 이전에 만들고 갱신하는 데 사용된 **동일한** Apple ID로 로그인합니다.
+2. [Apple Push Certificates Portal](http://go.microsoft.com/fwlink/?LinkId=269844)로 이동하고 Intune 독립 실행형에서 사용한 APNs 인증서를 이전에 만들고 갱신하는 데 사용된 **동일한** Apple ID로 로그인합니다.
 
-    ![Apple Push Certificates Portal 로그인 페이지](../media/mdm-change-apns-portal.png)
+   ![Apple Push Certificates Portal 로그인 페이지](../media/mdm-change-apns-portal.png)
 
 3. Intune 독립 실행형에서 사용했던 APNs 인증서를 선택하고 **갱신**을 클릭합니다.
 

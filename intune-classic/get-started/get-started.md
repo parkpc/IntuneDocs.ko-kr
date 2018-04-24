@@ -12,15 +12,15 @@ ms.technology: ''
 ms.assetid: 5b56f8b4-269b-4e7f-b7e9-b0401bdd42f4
 ROBOTS: NOINDEX,NOFOLLOW
 ms.custom: intune-classic
-ms.openlocfilehash: 591a9d0855de4703b3ffcbd71bda04788a95d6b5
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: d1d71836dfc9f22a6bcfeb9116d863575f6e015e
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="get-started-with-microsoft-intune"></a>Microsoft Intune 시작
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목은 관리자가 Microsoft Intune을 사용하여 사용자의 장치와 서비스를 관리할 준비를 하는 데 도움이 됩니다. Intune을 구입할 준비가 되지 않은 경우 [Intune 평가판 계정으로 서비스를 평가](/intune-classic/understand-explore/mobile-device-management-trial-guide-microsoft-intune)할 수 있습니다.
 

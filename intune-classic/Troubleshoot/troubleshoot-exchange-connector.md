@@ -1,4 +1,4 @@
----
+﻿---
 title: Exchange Connector 문제 해결
 description: Intune Exchange 커넥터와 관련된 문제를 해결합니다.
 keywords: ''
@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a70b2707b38534826577bfe47bcd8e575c09a71f
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 0eef4e2ae3792c601bd4a32cd041d7d041091cca
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/201
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="troubleshoot-the-exchange-connector"></a>Exchange Connector 문제 해결
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 Intune Exchange Connector와 관련될 수 있는 문제를 해결하는 방법에 대해 설명합니다.
 
@@ -36,8 +36,8 @@ Exchange Connector의 구성을 확인한 다음 문제가 해결되었는지 �
 - Exchange Connector를 구성할 경우 Exchange Connector를 호스팅하는 서버와 최대한 가까이 있는 CAS(클라이언트 액세스 서버)를 지정합니다. CAS와 Exchange Connector 간의 통신 대기 시간은 장치 검색 지연으로 인해 발생할 수 있으며 특히 O365 전용을 사용하는 경우 발생할 수 있습니다.
 - Exchange CAS와의 Exchange Connector 동기화 작업 간에는 시간 지연이 발생합니다. 전체 동기화는 하루에 한 번, 델타(빠른) 동기화는 2시간마다 수행됩니다. 새로 등록된 장치를 사용하는 사용자는 액세스 시 지연을 경험할 가능성이 있습니다.
 - 
-## <a name="exchange-activesync-device-not-discovered-from-exchange"></a>Exchange ActiveSync 장치가 Exchange에서 검색되지 않음
-Exchange Connector가 Exchange 서버와 동기화하는 중인지 확인합니다. 이렇게 하려면 전체 동기화 또는 델타 동기화에 대한 로그를 찾아 봅니다. Exchange Connector 로그를 참조하세요. 장치가 가입한 이후 전체 동기화 또는 델타 동기화가 완료되면 문제의 출처로 해당 장치를 제거한 것입니다. 동기화가 수행되지 않으면 동기화 로그를 수집하여 지원 요청에 첨부하여 전달하세요.
+  ## <a name="exchange-activesync-device-not-discovered-from-exchange"></a>Exchange ActiveSync 장치가 Exchange에서 검색되지 않음
+  Exchange Connector가 Exchange 서버와 동기화하는 중인지 확인합니다. 이렇게 하려면 전체 동기화 또는 델타 동기화에 대한 로그를 찾아 봅니다. Exchange Connector 로그를 참조하세요. 장치가 가입한 이후 전체 동기화 또는 델타 동기화가 완료되면 문제의 출처로 해당 장치를 제거한 것입니다. 동기화가 수행되지 않으면 동기화 로그를 수집하여 지원 요청에 첨부하여 전달하세요.
 
 - 사용자에게 Intune 라이선스가 없는 경우 Exchange Connector에서는 장치가 검색되지 않습니다.
 - 사용자의 기본 SMTP 주소가 AAD의 해당 UPN과 다른 경우 Exchange Connector는 해당 Intune/AAD 사용자에 대해 어떤 장치도 검색하지 않습니다. 기본 SMTP 주소를 수정하세요.

@@ -13,15 +13,15 @@ ms.technology: ''
 ms.assetid: 3b67f285-229d-4a0f-ae34-0402a20b4518
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6e32140070cf6d3c2d34ae9f28a9694ffc9c3eb8
-ms.sourcegitcommit: 390a4be5aa36007c36fb6a5abcfe8d20bc862a4b
+ms.openlocfilehash: 0aac90c0c6c8a9e44db5a21d5864a2e0930c7ef1
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="remotely-lock-devices-with-intune"></a>Intune을 사용하여 장치 원격 잠금
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 **원격 잠금** 장치 작업을 수행하면 장치가 잠깁니다. 장치의 잠금을 해제하려면 장치 소유자가 암호를 입력해야 합니다. PIN 또는 암호 설정이 있는 장치를 원격으로 잠글 수 있습니다. PIN 또는 암호가 없는 장치를 원격으로 잠글 수 없습니다.
 

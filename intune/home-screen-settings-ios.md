@@ -13,22 +13,22 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 56527da7ac8c2ed00a4b33049c8ba4ad03299976
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: ab5ee886cbc324b0fe3383e7e585e8d0b6482326
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-home-screen-layout-settings-for-devices-running-ios"></a>iOS를 실행하는 장치에 대해 Microsoft Intune 홈 화면 레이아웃 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이러한 설정을 사용하여 iOS를 실행하는 장치의 도킹 및 홈 화면에서 폴더의 레이아웃을 구성합니다.
 
 할당된 프로필을 사용해 iOS를 실행하는 장치는 감독 모드여야 하며, iOS 9.3 이상을 실행해야 합니다.
 
 1. [Azure Portal의 Intune](https://portal.azure.com)에서 [**장치 구성 영역의 장치 기능**으로 이동합니다](device-features-configure.md).
-2. **장치 기능** 창에서 **홈 화면 레이아웃(감독 모드인 경우에만)**을 선택합니다.
+2. **장치 기능** 창에서 **홈 화면 레이아웃(감독 모드인 경우에만)** 을 선택합니다.
 3. **홈 화면 레이아웃(감독 모드인 경우에만)** 창에서 **Dock** 또는 **페이지** 레이아웃을 구성할지 여부를 선택합니다.
 
 ## <a name="add-items-to-the-dock"></a>Dock에 항목 추가

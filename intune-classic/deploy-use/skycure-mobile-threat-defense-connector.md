@@ -1,29 +1,29 @@
 ---
-title: "Skycure Mobile Threat Defense 커넥터"
-description: "Skycure Mobile Threat Defense 커넥터 및 Intune을 사용하여 장치, 네트워크 및 응용 프로그램 위험에 따라 회사 리소스에 대한 액세스를 보호합니다."
-keywords: 
+title: Skycure Mobile Threat Defense 커넥터
+description: Skycure Mobile Threat Defense 커넥터 및 Intune을 사용하여 장치, 네트워크 및 응용 프로그램 위험에 따라 회사 리소스에 대한 액세스를 보호합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 03/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 7a004e6c-604a-448c-bfb8-cfda63749f5b
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 096cd7f2f7895531b00d77c5d26413471fb9bbcf
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: f79e793ec6931d6497c6b66eee98aea39786e962
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="skycure-mobile-threat-defense-connector"></a>Skycure Mobile Threat Defense
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune과 통합된 모바일 위협 방어 솔루션인 Skycure에서 수행한 위험 평가에 따라 조건부 액세스를 사용하여 회사 리소스에 대한 모바일 장치의 액세스를 제어할 수 있습니다. 위험은 다음을 비롯하여 Skycure를 실행하는 장치에서 수집된 원격 분석에 따라 평가됩니다.
 
@@ -75,7 +75,7 @@ Intune은 Skycure와의 통합을 두 가지 모드로 지원합니다.
 
 ### <a name="control-access-based-on-threat-to-network"></a>네트워크에 대한 위협에 따라 액세스 제어
 
-네트워크에서 **메시지 가로채기(man-in-the-middle)**와 같은 위협을 감지하고 장치 위험에 따라 Wi-Fi 네트워크에 대한 액세스를 보호합니다.
+네트워크에서 **메시지 가로채기(man-in-the-middle)** 와 같은 위협을 감지하고 장치 위험에 따라 Wi-Fi 네트워크에 대한 액세스를 보호합니다.
 
 **Wi-Fi를 통한 네트워크 액세스 차단:**
 
@@ -87,7 +87,7 @@ Intune은 Skycure와의 통합을 두 가지 모드로 지원합니다.
 
 ### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>네트워크에 대한 위협에 따라 SharePoint Online에 대한 액세스 제어
 
-네트워크에서 **메시지 가로채기(man-in-the-middle)**와 같은 공격을 감지하여, 장치 위험에 따라 회사 파일 동기화를 금지합니다.
+네트워크에서 **메시지 가로채기(man-in-the-middle)** 와 같은 공격을 감지하여, 장치 위험에 따라 회사 파일 동기화를 금지합니다.
 
 **네트워크 위협이 감지할 경우 SharePoint Online 차단:**
 

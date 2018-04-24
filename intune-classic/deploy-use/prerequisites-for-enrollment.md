@@ -1,29 +1,29 @@
 ---
-title: "모바일 장치 등록의 전제 조건"
-description: "MDM(모바일 장치 관리) 필수 구성 요소를 설정하고 다른 운영 체제를 등록할 준비를 완료합니다."
-keywords: 
+title: 모바일 장치 등록의 전제 조건
+description: MDM(모바일 장치 관리) 필수 구성 요소를 설정하고 다른 운영 체제를 등록할 준비를 완료합니다.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9d02a822dc9a403806657f36ae0ac4bfad8246d0
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 57dfc1bf2765de6c2e02352caca58f3859742fd6
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="prerequisites-for-mobile-device-management-in-intune"></a>Intune에서 모바일 장치 관리를 위한 필수 조건
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 직원이 Intune에 모바일 장치를 등록할 수 있도록 하려면 다음 단계가 필요합니다. 이러한 동일한 단계는 회사 소유 장치를 관리하는 데 필요합니다.
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 10/10/2017
 
 Configuration Manager가 포함된 Intune을 찾고 있나요?
 > [!div class="button"]
-[SCCM 문서 보기 >](https://docs.microsoft.com/sccm/mdm/deploy-use/setup-hybrid-mdm)
+> [SCCM 문서 보기 >](https://docs.microsoft.com/sccm/mdm/deploy-use/setup-hybrid-mdm)
 
 ## <a name="step-1-enable-connections"></a>1단계: 연결 사용
 
@@ -80,14 +80,15 @@ Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장�
 
 회사 이름은 회사 포털의 제목으로 표시됩니다. 연락처 정보 및 세부 정보는 회사 포털의 IT 담당자 화면에서 사용자에게 표시됩니다. 개인정보취급방침은 사용자가 개인정보취급방침 링크를 클릭하면 표시됩니다.
 
-|필드 이름|최대 길이|추가 정보|
-    |----------|------------------------|----------------|
-    |회사 이름|40|이 이름은 회사 포털의 제목으로 표시됩니다. **참고**: 영숫자 문자만 가능합니다. 이 필드는 특수 문자를 지원하지 않습니다.|
-    |IT 부서 연락처 이름|40|이 이름은 **IT 담당자** 페이지에 표시됩니다.|
-    |IT 부서 전화 번호|20|이 연락처 번호는 **IT 담당자** 페이지에 표시됩니다.|
-    |IT 부서 전자 메일 주소|40|이 연락처 주소는 **IT 담당자** 페이지에 표시됩니다. 유효한 메일 주소를 **alias@domainname.com** 형식으로 입력해야 합니다.|
-    |추가 정보|120|이 정보는 **IT 담당자** 페이지에 표시됩니다.|
-    |회사 개인정보취급방침 URL|79|사용자가 회사 포털에서 개인정보취급방침 링크를 클릭할 때 표시되는 회사 개인정보취급방침을 지정할 수 있습니다. https://www.contoso.com 형식의 올바른 URL을 입력해야 합니다.|
+
+|          필드 이름           | 최대 길이 |                                                                                       추가 정보                                                                                        |
+|-------------------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|         회사 이름          |     40     |                이 이름은 회사 포털의 제목으로 표시됩니다. <strong>참고</strong>: 영숫자 문자만 가능합니다. 이 필드는 특수 문자를 지원하지 않습니다.                |
+|  IT 부서 연락처 이름   |     40     |                                                                이 이름은 <strong>IT 담당자</strong> 페이지에 표시됩니다.                                                                |
+|  IT 부서 전화 번호   |     20     |                                                           이 연락처 번호는 <strong>IT 담당자</strong> 페이지에 표시됩니다.                                                           |
+|  IT 부서 전자 메일 주소  |     40     |             이 연락처 주소는 <strong>IT 담당자</strong> 페이지에 표시됩니다. 유효한 메일 주소를 <strong>alias@domainname.com</strong> 형식으로 입력해야 합니다.              |
+|    추가 정보     |    120     |                                                            이 정보는 <strong>IT 담당자</strong> 페이지에 표시됩니다.                                                             |
+| 회사 개인정보취급방침 URL |     79     | 사용자가 회사 포털에서 개인정보취급방침 링크를 클릭할 때 표시되는 회사 개인정보취급방침을 지정할 수 있습니다. 올바른 URL을 https://www.contoso.com 형식으로 입력해야 합니다. |
 
 ### <a name="support-contacts"></a>지원 연락처
 지원 웹 사이트가 회사 포털의 사용자에게 표시되어, 온라인 지원에 액세스할 수 있도록 합니다.

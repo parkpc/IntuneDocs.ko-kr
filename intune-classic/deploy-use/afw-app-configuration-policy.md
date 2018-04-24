@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 02934e40346be88cb823bcfa80ff9618e86e757b
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 7bebf6137b7378c52741195a1dce048caaa03e3d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-android-for-work-apps-with-mobile-app-configuration-policies-in-microsoft-intune"></a>Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 Android for Work 앱 구성
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 앱을 실행할 때 필요할 수 있는 설정을 제공할 수 있습니다. 예를 들어 사용자가 앱에서 다음 사항을 지정해야 할 수 있습니다.
 
@@ -43,7 +43,7 @@ Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 
 
 1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **개요** &gt; **정책 추가**를 선택합니다.
 
-2.  정책 목록에서 **Android for Work**를 확장하고 **모바일 앱 구성 정책(Android for Work)**을 선택한 다음 **정책 만들기**를 선택합니다.
+2.  정책 목록에서 **Android for Work**를 확장하고 **모바일 앱 구성 정책(Android for Work)** 을 선택한 다음 **정책 만들기**를 선택합니다.
 
     > [!TIP]
     > 이 정책 유형에는 사용자 지정 설정만 구성할 수 있습니다. 권장 설정은 사용할 수 없습니다.

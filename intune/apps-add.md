@@ -1,29 +1,29 @@
 ---
-title: "Microsoft Intune에 앱을 추가하는 방법"
-titlesuffix: 
-description: "사용자 및 장치에 앱을 할당할 수 있도록 앱을 Microsoft Intune에 추가하는 방법을 알아봅니다. Intune은 다양한 종류의 앱을 지원합니다."
-keywords: 
+title: Microsoft Intune에 앱을 추가하는 방법
+titlesuffix: ''
+description: 사용자 및 장치에 앱을 할당할 수 있도록 앱을 Microsoft Intune에 추가하는 방법을 알아봅니다. Intune은 다양한 종류의 앱을 지원합니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: a1ded457-0ecf-4f9c-a2d2-857d57f8d30a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 407a332e170497dbb618a2915bba6b794c4a720f
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 6b4e87c36c3aa0aaeae1e1bf265902100612db15
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-add-an-app-to-microsoft-intune"></a>Microsoft Intune에 앱을 추가하는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 앱을 할당, 모니터링, 구성 또는 보호하려면 앱을 Microsoft Intune에 추가해야 합니다.
 

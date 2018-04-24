@@ -1,12 +1,12 @@
 ---
-title: Android용 앱별 VPN 프로필 - Pulse Secure
+title: Android용 사용자 지정 앱별 VPN 프로필
 titlesuffix: Microsoft Intune
 description: Microsoft Intune으로 관리되는 Android 장치용 앱별 VPN 프로필을 만드는 방법을 알아봅니다.
 keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 03/05/2018
+ms.date: 04/05/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,23 +15,23 @@ ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fc87363169cd2d967b2fea9683926970c18c5e97
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 96d164c0f4274a6d1fc81a0c7f9d86cccfec1fb1
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-a-microsoft-intune-custom-profile-to-create-a-per-app-vpn-profile-for-android-devices"></a>Microsoft Intune 사용자 지정 프로필을 사용하여 Android 장치에 대한 앱별 VPN 프로필 만들기
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Intune으로 관리되는 Android 5.0 이상 장치용 앱별 VPN 프로필을 만들 수 있습니다. 먼저 Pulse Secure 연결 형식을 사용하는 VPN 프로필을 만듭니다. 그런 다음 VPN 프로필을 특정 앱과 연결하는 사용자 지정 구성 정책을 만듭니다.
+Intune으로 관리되는 Android 5.0 이상 장치용 앱별 VPN 프로필을 만들 수 있습니다. 먼저 Pulse Secure 또는 Citrix 연결 형식을 사용하는 VPN 프로필을 만듭니다. 그런 다음 VPN 프로필을 특정 앱과 연결하는 사용자 지정 구성 정책을 만듭니다.
 
-Android 장치 또는 사용자 그룹에 정책을 할당한 후에 사용자가 PulseSecure VPN을 시작해야 합니다. 그러면 PulseSecure은 지정한 앱에서 생성되는 트래픽만 열린 VPN 연결을 사용하도록 허용합니다.
+Android 장치 또는 사용자 그룹에 정책을 할당한 후에 사용자가 PulseSecure 또는 Citrix VPN 클라이언트를 시작해야 합니다. 그러면 VPN 클라이언트는 지정한 앱에서 생성되는 트래픽만 열린 VPN 연결을 사용하도록 허용합니다.
 
 > [!NOTE]
 >
-> 이 프로필에서는 Pulse Secure 연결 형식만 지원됩니다.
+> 이 프로필에서는 Pulse Secure 및 Citrix 연결 형식만 지원됩니다.
 
 
 ## <a name="step-1-create-a-vpn-profile"></a>1단계: VPN 프로필 만들기

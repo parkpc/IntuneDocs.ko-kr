@@ -1,25 +1,25 @@
 ---
-title: "응용 프로그램"
+title: 응용 프로그램
 titlesuffix: Microsoft Intune
-description: "Intune 데이터 웨어하우스 API에서 엔터티 컬렉션의 응용 프로그램 범주에 대한 항목을 참조하세요."
-keywords: "Intune 데이터 웨어하우스"
+description: Intune 데이터 웨어하우스 API에서 엔터티 컬렉션의 응용 프로그램 범주에 대한 항목을 참조하세요.
+keywords: Intune 데이터 웨어하우스
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: A92DEF30-5D01-4774-9917-E26F5F0E2E68
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e7de3ab89ff75b381d0438f49fb6015b0eb28d28
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: 5fd8f9744e68a19cc9411fe366aff4050cc3caa6
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="reference-for-application-entities"></a>응용 프로그램 엔터티에 대한 참조
 
@@ -128,11 +128,13 @@ ms.lasthandoff: 03/16/2018
 
 **MobileAppDeviceUserInstallStatus**는 지정된 장치 및 사용자의 모바일 앱 설치 상태를 나타냅니다.
 
-| 속성 | 설명 |
-|---|---|
-| DateKey | 앱 설치 상태가 기록된 날짜의 키입니다. |
-| AppKey | AppRevision 인스턴스를 식별하는 데 사용되는 모바일 앱의 키입니다. |
-| DeviceKey | 장치 인스턴스를 식별하는 데 사용되는 대상 장치의 키입니다. |
-| UserKey | 사용자 인스턴스를 식별하는 데 사용되는 대상 사용자의 키입니다. |
-|AppInstallStateKey | MobileAppInstallState 인스턴스를 식별하는 데 사용되는 앱 설치 상태의 키입니다. |
-| 오류 코드 | 앱 설치 프로그램, 모바일 플랫폼 또는 서비스에서 반환된 앱 설치와 관련된 오류 코드입니다. |
+
+|      속성      |                                                         설명                                                         |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------|
+|      DateKey       |                                  앱 설치 상태가 기록된 날짜의 키입니다.                                  |
+|       AppKey       |                             AppRevision 인스턴스를 식별하는 데 사용되는 모바일 앱의 키입니다.                              |
+|     DeviceKey      |                              장치 인스턴스를 식별하는 데 사용되는 대상 장치의 키입니다.                               |
+|      UserKey       |                                사용자 인스턴스를 식별하는 데 사용되는 대상 사용자의 키입니다.                                 |
+| AppInstallStateKey |                     MobileAppInstallState 인스턴스를 식별하는 데 사용되는 앱 설치 상태의 키입니다.                     |
+|     오류 코드      | 앱 설치 프로그램, 모바일 플랫폼 또는 서비스에서 반환된 앱 설치와 관련된 오류 코드입니다. |
+

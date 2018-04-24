@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5fd86b380a80529ba7f6c431452ae89e22c0de25
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 5a346c321147656d748d3abde78575268b20e9ab
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="categorize-devices-with-device-group-mapping-in-microsoft-intune"></a>Microsoft Intune에서 장치 그룹 매핑을 사용하여 장치 분류
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이러한 장치를 쉽게 관리하기 위해 Microsoft Intune **장치 그룹 매핑**을 사용하여 정의하는 범주를 기반으로 하는 그룹에 장치를 자동으로 추가합니다. 
 
@@ -67,10 +67,10 @@ Azure Active Directory 기반 보안 그룹은 단계적으로 구현되므로 [
 
 ### <a name="step-1---create-device-categories-in-the-intune-administration-console"></a>1단계 - Intune 관리 콘솔에서 장치 범주 만들기
 1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리자**를 선택합니다.
-3. **관리** 작업 영역에서 **모바일 장치 관리**를 확장한 후 **장치 범주**를 선택합니다.
-4. **장치 범주** 페이지에 장치 범주를 구성할 수 있는 목록이 표시됩니다. 
-- 이름을 입력한 다음 **추가**를 클릭하고 새 장치 범주로 추가할 수 있습니다.
-- 또한 범주를 선택한 다음 **삭제**할 수 있습니다.
+2. **관리** 작업 영역에서 **모바일 장치 관리**를 확장한 후 **장치 범주**를 선택합니다.
+3. **장치 범주** 페이지에 장치 범주를 구성할 수 있는 목록이 표시됩니다. 
+4. 이름을 입력한 다음 **추가**를 클릭하고 새 장치 범주로 추가할 수 있습니다.
+5. 또한 범주를 선택한 다음 **삭제**할 수 있습니다.
 
 2단계에서 Azure Active Directory 보안 그룹을 만들 때 장치 범주 이름을 사용합니다.
 

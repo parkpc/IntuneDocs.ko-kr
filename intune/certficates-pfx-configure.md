@@ -1,28 +1,28 @@
 ---
-title: "Microsoft Intune-Azure를 사용한 PKCS 인증서 사용 | Micrososft Docs"
-description: "루트 인증서 내보내기 단계, 인증서 템플릿을 구성 단계, Microsoft Intune Certificate Connector 다운로드 및 설치 단계, 장치를 구성 프로필 만들기 단계, Azure 및 인증 기관에서 PKCS 인증서 프로필 만들기 단계를 포함해 Microsoft intune을 사용하여 공개 키 암호화 표준 인증서 추가 또는 만들기"
-keywords: 
+title: Microsoft Intune-Azure를 사용한 PKCS 인증서 사용 | Micrososft Docs
+description: 루트 인증서 내보내기 단계, 인증서 템플릿을 구성 단계, Microsoft Intune Certificate Connector 다운로드 및 설치 단계, 장치를 구성 프로필 만들기 단계, Azure 및 인증 기관에서 PKCS 인증서 프로필 만들기 단계를 포함해 Microsoft intune을 사용하여 공개 키 암호화 표준 인증서 추가 또는 만들기
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 
-ms.reviewer: 
+ms.technology: ''
+ms.assetid: ''
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c0668921f03b24b319c2c37837dbd2cc053370ca
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 0dfcaa2e37fecc4c5a075931489c106b78c17b7e
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-and-use-pkcs-certificates-with-intune"></a>Intune을 사용하여 PKCS 인증서 구성 및 사용
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 인증서은 VPN 또는 WiFi 네트워크 같은 회사 리소스에 대한 액세스를 보호하고 인증하는 데 사용됩니다. 이 아티클에서는 PKCS 인증서를 내보낸 다음, 인증서를 Intune 프로필에 추가하는 방법을 설명합니다. 
 
@@ -56,7 +56,7 @@ VPN, WiFi 및 기타 리소스를 통해 인증하려면 각 장치에 루트 �
 
    예를 들면 다음과 같습니다.
 
-4.  마법사를 완료한 후 마법사를 닫기 전에 **인증서 커넥터 UI 시작**을 클릭합니다.
+4. 마법사를 완료한 후 마법사를 닫기 전에 **인증서 커넥터 UI 시작**을 클릭합니다.
 
    `certutil -ca.cert certnew.cer`
 
@@ -112,7 +112,7 @@ VPN, WiFi 및 기타 리소스를 통해 인증하려면 각 장치에 루트 �
     4. 작업이 완료된 경우 **Intune Connector 시작** 및 **마침**을 차례로 확인합니다.
 
 4. NDES Connector 창이 **등록** 탭으로 열립니다. Intune에 대한 연결을 사용하려면 **로그인**을 선택하고 전역 관리자 권한이 있는 계정을 입력합니다.
-5. **고급** 탭에서 **이 컴퓨터의 시스템 계정 사용(기본값)**을 선택한 상태로 둡니다.
+5. **고급** 탭에서 **이 컴퓨터의 시스템 계정 사용(기본값)** 을 선택한 상태로 둡니다.
 6. **적용**을 클릭한 다음, **닫기**를 클릭합니다.
 7. Azure Portal(**Intune** > **장치 구성** > **인증 기관**)로 돌아갑니다. 몇 분 후에 녹색 확인 표시가 표시되고 **연결 상태** 가 **활성화**됩니다. 커넥터 서버가 이제 Intune과 통신할 수 있습니다.
 
@@ -155,7 +155,7 @@ VPN, WiFi 및 기타 리소스를 통해 인증하려면 각 장치에 루트 �
    * **인증 기관 이름** - 엔터프라이즈 CA의 이름이 나열되고 이전 항목과 다를 수 있습니다.
    * **인증서 템플릿 이름** - 이전에 생성된 템플릿의 이름입니다. 기본적으로 **템플릿 이름**은 *공백 없이* **템플릿 표시 이름**과 동일합니다.
    * **주체 이름 형식** - 별도로 필요한 경우가 아니면 이 옵션을 **일반 이름**으로 설정합니다.
-   * **주체 대체 이름** - 별도로 필요한 경우가 아니면 이 옵션을 **UPN(사용자 계정 이름)**으로 설정합니다.
+   * **주체 대체 이름** - 별도로 필요한 경우가 아니면 이 옵션을 **UPN(사용자 계정 이름)** 으로 설정합니다.
    * **확장된 키 사용** - [인증 기관에서 인증서 템플릿 구성](#configure-certificate-templates-on-the-certification-authority) 섹션(이전 아티클)의 10단계에서 기본 설정을 사용한 경우에는 선택에서 다음 **미리 정의된 값**을 추가합니다.
       * **모든 용도**
       * **클라이언트 인증**

@@ -1,27 +1,27 @@
 ---
-title: "모바일 응용 프로그램 관리 문제 해결"
-description: "이 항목에서는 조건부 액세스 배포의 몇 가지 문제 해결 팁을 설명합니다."
-keywords: 
+title: 모바일 응용 프로그램 관리 문제 해결
+description: 이 항목에서는 조건부 액세스 배포의 몇 가지 문제 해결 팁을 설명합니다.
+keywords: ''
 author: oydang
 ms.author: oydang
 manager: angerobe
 ms.date: 12/19/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: cd5a0a3b-0013-4be3-a233-ce6e9083149f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.custom: intune-classic
-ms.openlocfilehash: 15baae06398d135557439c0e67b50f7e1326b6fe
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: ec6e663c570399f0adca02772416904d5a9dcc79
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="troubleshoot-mobile-application-management"></a>모바일 응용 프로그램 관리 문제 해결
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune 모바일 응용 프로그램 관리에 문제가 있으면 이 문서의 내용을 참조하여 문제 해결을 시작할 수 있습니다. 이 항목에서는 관리자에게 발생할 수 있는 몇 가지 일반적인 문제와 질문, 그리고 해결 방법과 대답을 제공합니다.
 

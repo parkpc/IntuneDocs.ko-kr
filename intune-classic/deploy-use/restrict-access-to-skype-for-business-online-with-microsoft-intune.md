@@ -1,29 +1,29 @@
 ---
-title: "비즈니스용 Skype Online 보호"
-description: "조건부 액세스를 사용하여 비즈니스용 Skype Online을 보호하고 액세스를 제어하는 방법을 설명합니다."
-keywords: 
+title: 비즈니스용 Skype Online 보호
+description: 조건부 액세스를 사용하여 비즈니스용 Skype Online을 보호하고 액세스를 제어하는 방법을 설명합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 01/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 30d1abb3e7411cae73a98be51489cffdfc738e7f
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: d9d912cc0a2d8f815e046d888fc8878a8703c514
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="protect-access-to-skype-for-business-online-with-microsoft-intune"></a>Microsoft Intune을 사용하여 비즈니스용 Skype Online에 대한 액세스 보호
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 **비즈니스용 Skype Online**에 대한 조건부 액세스 정책을 사용하여 비즈니스용 Skype Online에 대한 액세스를 제어할 수 있습니다.
 조건부 액세스에는 두 구성 요소가 포함되어 있습니다.
@@ -72,7 +72,7 @@ ms.lasthandoff: 10/10/2017
 
 사용자가 두 그룹에 모두 속한 경우에는 정책에서 제외됩니다.
 
-### <a name="step-2-configure-and-deploy-a-compliance-policy"></a>2단계: 준수 정책 구성 및 배포
+### <a name="step-2-configure-and-deploy-a-compliance-policy"></a>2단계: 규정 준수 정책 구성 및 배포
 정책의 영향을 받을 모든 장치에 규정 준수 정책을 [만들고](create-a-device-compliance-policy-in-microsoft-intune.md) [배포](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)합니다. 이러한 모든 장치는 **대상 그룹**의 사용자가 사용합니다.
 
 > [!NOTE]
@@ -87,23 +87,23 @@ ms.lasthandoff: 10/10/2017
 ### <a name="step-3-configure-the-skype-for-business-online-policy"></a>3 단계: 비즈니스용 Skype Online 정책 구성
 이제, 규정을 준수하는 관리 장치만 비즈니스용 Skype Online에 액세스할 수 있도록 요구하는 정책을 구성합니다. 이 정책은 Azure Active Directory에 저장됩니다.
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** > **조건부 액세스** > **비즈니스용 Skype Online 정책**을 선택합니다.
+1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** > **조건부 액세스** > **비즈니스용 Skype Online 정책**을 선택합니다.
 
-  ![비즈니스용 Skype Online 조건부 액세스 정책 페이지의 스크린샷](./media/conditional_access_SFBPolicy.png)
+   ![비즈니스용 Skype Online 조건부 액세스 정책 페이지의 스크린샷](./media/conditional_access_SFBPolicy.png)
 
-2.  **조건부 액세스 정책 사용**을 선택합니다.
+2. **조건부 액세스 정책 사용**을 선택합니다.
 
-3.  **응용 프로그램 액세스**에서 다음 플랫폼에 조건부 액세스 정책을 적용하도록 선택할 수 있습니다.
+3. **응용 프로그램 액세스**에서 다음 플랫폼에 조건부 액세스 정책을 적용하도록 선택할 수 있습니다.
 
-    -   **iOS**
+   -   **iOS**
 
-    -   **OWA(Outlook Web Access)**
+   -   **OWA(Outlook Web Access)**
 
-4.  **대상 그룹**에서 **수정**을 선택하여 정책을 적용할 Azure Active Directory 보안 그룹을 선택합니다. 모든 사용자 또는 선택한 사용자 그룹을 대상으로 지정할 수 있습니다.
+4. **대상 그룹**에서 **수정**을 선택하여 정책을 적용할 Azure Active Directory 보안 그룹을 선택합니다. 모든 사용자 또는 선택한 사용자 그룹을 대상으로 지정할 수 있습니다.
 
-5.  **제외된 그룹**에서 필요에 따라 **수정**을 선택하여 이 정책에서 제외된 Azure Active Directory 보안 그룹을 선택합니다.
+5. **제외된 그룹**에서 필요에 따라 **수정**을 선택하여 이 정책에서 제외된 Azure Active Directory 보안 그룹을 선택합니다.
 
-6.  작업이 완료되면 **저장**을 선택합니다.
+6. 작업이 완료되면 **저장**을 선택합니다.
 
 이제 비즈니스용 Skype Online에 대한 조건부 액세스를 구성했습니다. 조건부 액세스 정책은 배포하지 않아도 즉시 적용됩니다.
 

@@ -1,27 +1,27 @@
 ---
-title: "Intune에서 Windows 10 장치 등록 | Microsoft 문서"
-description: "Intune에서 Windows 10 모바일 또는 데스크톱 장치를 등록하는 방법을 설명합니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Intune에서 Windows 10 장치 등록 | Microsoft 문서
+description: Intune에서 Windows 10 모바일 또는 데스크톱 장치를 등록하는 방법을 설명합니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 36250832-c6fd-4e8d-b681-de735023ebc3
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: f3debd0177df0aa0bdf5cb3cea8bf18054407b87
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 22d23751aaa3416fb13c7b08451ea91c3ee308e2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-your-windows-10-devices-in-intune"></a>Intune에서 Windows 10 장치 등록
 
@@ -35,13 +35,13 @@ Microsoft Intune에 장치를 등록하면 Windows 10 장치를 사용하여 메
 
 2. __검색 표시줄__에 “PC 정보”라고 입력한 다음 __PC 정보__를 선택합니다.
 
- ![PC 정보 설정 검색](media/searching_for_about_your_pc.png)
+   ![PC 정보 설정 검색](media/searching_for_about_your_pc.png)
 
-3.  __설정__에는 사용자 PC에 설치된 Windows 10의 버전에 대한 정보 목록이 표시됩니다. 이 목록에서 __버전__을 찾습니다.
+3. __설정__에는 사용자 PC에 설치된 Windows 10의 버전에 대한 정보 목록이 표시됩니다. 이 목록에서 __버전__을 찾습니다.
 
- ![Windows 10 데스크톱 PC 정보](media/settings_about_pc.png)
+   ![Windows 10 데스크톱 PC 정보](media/settings_about_pc.png)
 
-4.  버전이 __1607 이상인 경우__ [이 단계를 따릅니다](enroll-your-w10-device-access-work-or-school.md). 버전이 __1511 이하__인 경우 [이 단계](enroll-your-w10-device-your-account.md)를 계속 진행합니다.
+4. 버전이 __1607 이상인 경우__ [이 단계를 따릅니다](enroll-your-w10-device-access-work-or-school.md). 버전이 __1511 이하__인 경우 [이 단계](enroll-your-w10-device-your-account.md)를 계속 진행합니다.
 
 ## <a name="windows-10-mobile-devices"></a>Windows 10 모바일 장치        
 

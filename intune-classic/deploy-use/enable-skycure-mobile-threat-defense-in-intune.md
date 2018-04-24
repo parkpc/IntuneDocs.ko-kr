@@ -15,17 +15,17 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 971600d59a6afe019f5f3bd51459964c168afa82
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: da4197a41798f4e47ff35d2dfab36c5317f92e21
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enable-skycure-mobile-threat-defense-in-intune"></a>Intune에서 Skycure Mobile Threat Defense를 사용하도록 설정
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
-Skycure Mobile Threat Defense를 사용하도록 설정하려면 [Skycure 콘솔에서 Intune 커넥터](/intune-classic/deploy-use/setup-the-skycure-integration-with-Intune)를 미리 구성해야 합니다.
+Skycure MTD(Mobile Threat Defense)을 사용하도록 설정하려면 [Skycure 콘솔에서 Intune 커넥터](/intune-classic/deploy-use/setup-the-skycure-integration-with-Intune)를 미리 구성해야 합니다.
 
 ## <a name="to-enable-the-skycure-mtd-connection-in-intune"></a>Intune에서 Skycure MTD 연결을 사용하도록 설정하려면
 

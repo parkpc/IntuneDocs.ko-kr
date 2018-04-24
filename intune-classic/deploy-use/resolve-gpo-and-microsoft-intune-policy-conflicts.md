@@ -1,28 +1,28 @@
 ﻿---
-title: "GPO 및 Intune 정책 충돌 해결"
-description: "그룹 정책 및 Intune 구성 정책 간의 충돌을 해결하는 방법을 알아봅니다."
-keywords: 
+title: GPO 및 Intune 정책 충돌 해결
+description: 그룹 정책 및 Intune 구성 정책 간의 충돌을 해결하는 방법을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: angrobe
 ms.date: 12/27/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e76af5b7-e933-442c-a9d3-3b42c5f5868b
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9764a1fec44ff5aae7ebcf63b3ebde252bb687f9
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: f6d12dd886fe475161e767e63177313a729e170d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="resolve-group-policy-objects-gpo-and-microsoft-intune-policy-conflicts"></a>GPO(그룹 정책 개체) 및 Microsoft Intune 정책 충돌 해결
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune은 Windows PC에서 설정 관리를 도와주는 정책을 사용합니다. 예를 들어 정책을 사용하여 PC의 Windows 방화벽에 대한 설정을 제어할 수 있습니다. 많은 Intune 설정이 Windows 그룹 정책으로 구성할 수 있는 설정과 비슷합니다. 그러나 경우에 따라 두 가지 방법이 서로 충돌할 수 있습니다.
 

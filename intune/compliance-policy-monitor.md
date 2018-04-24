@@ -1,27 +1,30 @@
 ---
-title: "Microsoft Intune 장치 준수 정책 모니터링"
-titlesuffix: 
-description: "장치 준수 대시보드를 사용하여 전반적인 장치 준수를 모니터링하고, 보고서를 보고, 정책별 및 설정별 장치 준수를 봅니다."
-keywords: 
+title: Microsoft Intune 장치 준수 정책 모니터링
+titlesuffix: ''
+description: 장치 준수 대시보드를 사용하여 전반적인 장치 준수를 모니터링하고, 보고서를 보고, 정책별 및 설정별 장치 준수를 봅니다.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 2/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 146b8034022ed5f5a50de9910d28baf27f7482ac
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 557018264da5c21459e47e3e139ddd327a4a5ea6
+ms.sourcegitcommit: c3ae3c3dc46b62d9191813d25a196874ba4927be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="monitor-intune-device-compliance-policies"></a>Intune 장치 준수 정책 모니터링
 
 관리자는 준수 보고서를 사용하여 조직 내 장치의 준수 상태를 분석하고 조직 내부 사용자가 경험하는 준수 관련 문제를 신속하게 해결할 수 있습니다. 장치의 전반적인 준수 상태, 개별 설정에 대한 준수 상태, 개별 정책에 대한 준수 상태 등에 대한 정보 및 개별 장치에 대한 드릴다운을 확인하여 장치에 영향을 주는 특정 설정 및 정책을 볼 수 있습니다.
+
+> [!NOTE]
+> 사용자 의견에 따라 3월에 Intune 서비스에서 몇 가지 보안 강화 기능을 소개합니다. 준수 정책을 구성하는 방법에 따라 최종 사용자에 대한 이메일 액세스가 손실되지 않도록 조치를 취해야 합니다. 자세한 내용은 [향후 보안 강화](https://blogs.technet.microsoft.com/intunesupport/2018/02/09/updated-upcoming-security-enhancements-in-the-intune-service/)를 참조합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -124,6 +127,19 @@ Intune에 등록된 모든 장치에 대해 준수 상태 집계를 보여 주�
 장치를 클릭하면 선택한 장치에서 **장치 창**이 열립니다. 여기서는 장치에 적용한 장치 준수 정책 설정에 대한 자세한 세부 정보를 제공합니다.
 
 장치 정책 설정 자체를 클릭하면 관리자가 대상으로 지정한 해당 장치 준수 설정에서 장치 준수 정책 이름이 발생했음을 확인할 수 있습니다.
+
+### <a name="devices-without-compliance-policy"></a>준수 정책 없는 장치
+이 보고서는 할당된 준수 정책이 없는 장치를 식별합니다. 준수 정책이 없는 모든 장치를 "비준수"로 표시하는 보안 설정의 도입으로 이러한 장치를 식별 가능한 것이 중요합니다. 최소 하나 이상의 준수 정책을 장치에 할당할 수 있습니다.
+
+> [!NOTE]
+> 새 보안 설정은 Intune 포털에서 구성할 수 있습니다. **장치 준수**를 선택하고 **설정** 아래에서 **준수 정책 설정**을 선택합니다. 토글을 사용하여 **할당된 준수 정책이 없는 장치 표시**를 **준수** 또는 **비준수**로 설정합니다. [Intune 서비스에서 보안 강화](https://blogs.technet.microsoft.com/intunesupport/2018/02/09/updated-upcoming-security-enhancements-in-the-intune-service/)를 자세히 읽어보세요.
+
+![준수 정책 보고서가 없는 장치를 보여주는 이미지](./media/idc-12.png)
+
+**준수 정책 없는 장치** 타일은 장치 준수 대시보드에서 사용 가능하며 준수 정책 없는 모든 장치, 장치 사용자, 준수 상태 및 장치 모델을 표시합니다.
+
+> [!NOTE]
+> 모든 유형의 준수 정책이 할당된 사용자는 장치 플랫폼에 관계 없이 보고서에 표시되지 않습니다. 예를 들어 Android 장치를 사용하여 Windows 준수 정책을 사용자에게 실수로 할당한 경우 장치는 보고서에 표시되지 않습니다. 그러나 Intune은 해당 Android 장치를 비준수로 간주합니다. 문제를 방지하려면 각 장치 플랫폼에 대한 정책을 만들어 모든 사용자에게 배포하는 것 좋습니다.
 
 ### <a name="per-policy-device-compliance-report"></a>정책별 장치 준수 보고서
 

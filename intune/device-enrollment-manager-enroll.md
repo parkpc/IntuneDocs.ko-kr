@@ -1,29 +1,29 @@
 ---
-title: "장치 등록 관리자 계정을 사용하여 장치 등록"
+title: 장치 등록 관리자 계정을 사용하여 장치 등록
 titlesuffix: Microsoft Intune
-description: "장치 등록 관리자 계정을 사용하여 Intune에 장치를 등록합니다. \""
-keywords: 
+description: 장치 등록 관리자 계정을 사용하여 Intune에 장치를 등록합니다. "
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 7196b33e-d303-4415-ad0b-2ecdb14230fd
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0f5d723c86c120bb8dee1f4e109b70d9ea4e6091
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 870d61cce47132b19b4c3d8b7357f84a21a443e4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-devices-by-using-a-device-enrollment-manager-account"></a>장치 등록 관리자 계정을 사용하여 장치 등록
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 조직에서는 Intune을 사용하여 단일 사용자 계정으로 많은 수의 모바일 장치를 관리할 수 있습니다. *DEM(장치 등록 관리자)* 계정은 1000개까지 장치를 등록할 수 있는 특수한 사용자 계정입니다. 기존 사용자를 DEM 계정에 추가하여 특수 DEM 기능을 제공합니다. 등록된 각 장치는 단일 라이선스를 사용합니다. 이 계정을 통해 등록한 장치는 개인("BYOD") 장치가 아닌 공유 장치로 사용하는 것이 좋습니다.  
 
@@ -49,12 +49,12 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
 장치 등록 관리자 계정을 사용하여 등록한 장치에는 다음과 같은 제한 사항이 적용됩니다.
 
   - 사용자별 액세스는 불가능합니다. 장치에 할당된 사용자가 없기 때문에 장치에는 메일 또는 회사 데이터 액세스 권한이 없습니다. VPN 구성 등을 계속 사용하여 장치 앱에 데이터 액세스 권한을 제공할 수는 있습니다.
-  - 이러한 시나리오는 사용자별 시나리오이므로 조건부 액세스는 불가능합니다.
   - DEM 사용자는 회사 포털을 사용하여 장치 자체에서 DEM에 등록된 장치 등록을 해제할 수 없습니다. Intune 관리는 등록을 해제할 수 있습니다.
   - 회사 포털 앱 또는 웹 사이트에 로컬 장치만 표시됩니다.
-  - 앱 관리에 대한 사용자별 Apple ID 요구 사항으로 인해 Apple VPP(Volume Purchase Program) 앱을 사용할 수 없습니다.
+  - 앱 관리에 대한 사용자별 Apple ID 요구 사항으로 인해 사용자 라이선스를 통해 Apple VPP(Volume Purchase Program) 앱을 사용할 수 없습니다.
   - (iOS에만 해당) DEM을 사용하여 iOS 장치를 등록하는 경우 Apple Configurator, Apple DEP(장치 등록 프로그램) 또는 ASM(Apple School Manager)를 사용하여 장치를 등록할 수 없습니다.
   - (Android에만 해당) 단일 DEM 계정으로 등록할 수 있는 Android for Work 장치의 수에는 제한이 있습니다. DEM 계정당 10개까지 Android 회사 프로필 장치를 등록할 수 있습니다. 이 제한은 기존 Android 등록에는 적용되지 않습니다.
+  - 장치 라이선스가 있는 경우 장치는 VPP 앱을 설치할 수 있습니다.
   - 각 장치에 장치 라이선스가 필요합니다. [사용자 및 장치 라이선스](licenses-assign.md#how-user-and-device-licenses-affect-access-to-services)에 대해 자세히 알아보세요.
 
 

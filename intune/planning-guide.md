@@ -15,15 +15,15 @@ ms.assetid: a65efa6e-4a48-47f3-8f6e-34a85ca64ced
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 074490428b52effbc4a555a63d997a47da55546e
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 7990c559429f5963884565bef4f18c09d03746dd
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="intune-deployment-planning-design-and-implementation-guide"></a>Intune 배포 계획, 설계 및 구현 가이드
 
-[!INCLUDE[note for both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [note for both-portals](./includes/note-for-both-portals.md)]
 
 Microsoft Intune을 성공적으로 배포하려면 먼저 적절히 계획하고 설계해야 합니다. 이 가이드의 목적은 배포 계획, 설계 생성, Intune 온보딩 및 프로덕션 출시의 과정을 단계별로 안내하는 것입니다.
 

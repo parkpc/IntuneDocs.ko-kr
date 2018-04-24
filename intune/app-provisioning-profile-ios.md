@@ -1,29 +1,29 @@
 ---
-title: "Microsoft Intune에서 iOS 앱 프로비전 프로필"
-titlesuffix: 
-description: "Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필을 미리 할당하기 위한 도구를 제공합니다.\""
-keywords: 
+title: Microsoft Intune에서 iOS 앱 프로비전 프로필
+titlesuffix: ''
+description: Intune은 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필을 미리 할당하기 위한 도구를 제공합니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/02/2018
+ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: bbc3ba4a-df48-4aeb-988b-69a177764e3a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 87d97ddd4c70236193d4e6bb12ac6d68e4085903
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: d6394af9affd5087aaf26489be4b49e84568d6e1
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="use-ios-mobile-provisioning-profiles-in-intune-to-prevent-your-apps-from-expiring"></a>Intune에서 iOS 모바일 프로비전 프로필을 사용하여 모바일 앱이 만료되지 않도록 방지
+# <a name="use-ios-app-provisioning-profiles-to-prevent-your-apps-from-expiring"></a>iOS 앱 프로비전 프로필을 사용하여 모바일 앱이 만료되지 않도록 방지
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## <a name="introduction"></a>소개
 
@@ -36,6 +36,7 @@ iPhone 및 iPad에 할당된 Apple iOS LOB(기간 업무) 앱은 포함된 프�
 일반적으로 앱에 서명하기 위해 사용하는 엔터프라이즈 서명 인증서는 3년 동안 유지됩니다. 그러나 프로비전 프로필은 1년 후에 만료됩니다. Intune은 인증서가 여전히 유효한 동안 만료일이 다가오는 앱이 있는 장치에 새 프로비전 프로필을 미리 할당하기 위한 도구를 제공합니다.
 인증서가 만료되면 새 인증서로 앱을 다시 서명하고 새 인증서의 키에 새 프로비전 프로필을 포함해야 합니다.
 
+관리자의 경우 iOS 앱 프로비전 구성을 할당하려면 보안 그룹을 제외 및 포함할 수 있습니다. 예를 들어 iOS 앱 프로비전 구성을 모든 사용자에게 할당할 수 있지만 임원 그룹은 제외합니다.
 
 ## <a name="how-to-create-an-ios-mobile-app-provisioning-profile"></a>iOS 모바일 앱 프로비전 프로필을 만드는 방법
 

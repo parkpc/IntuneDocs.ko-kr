@@ -1,37 +1,37 @@
 ---
-title: "Windows 장치용 규정 준수 정책 설정"
-description: "이 항목에서는 Windows 장치의 준수 정책에 대해 구성할 수 있는 규칙 및 설정을 살펴보았습니다."
-keywords: 
+title: Windows 장치용 규정 준수 정책 설정
+description: 이 항목에서는 Windows 장치의 준수 정책에 대해 구성할 수 있는 규칙 및 설정을 살펴보았습니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f996842c-e9a4-4819-acb4-ee66e8fb35b8
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1c9a59fa97c11794ff8ad0a0eaa41630bfdf847e
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 6a54943873a6af158badb92cef4610e54fc8889b
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="compliance-policy-settings-for-windows-devices-in-microsoft-intune"></a>Microsoft Intune에서 Windows 장치용 규정 준수 정책 설정
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서 설명하는 정책 설정은Windows 운영 체제에서 실행하는 장치에 적용됩니다. 다음 섹션에서는 지원되는 Windows 버전에 대해 설명합니다.
 
 다른 플랫폼에 대한 정보를 찾는 경우 다음 중 하나를 선택하세요.
 > [!div class="op_single_selector"]
-- [iOS 장치용 규정 준수 정책 설정](ios-compliance-policy-settings-in-microsoft-intune.md)
-- [Android 장치용 규정 준수 정책 설정](android-compliance-policy-settings-in-microsoft-intune.md)
-- [Android for Work용 규정 준수 정책 설정](afw-compliance-policy-settings-in-microsoft-intune.md)
+> - [iOS 장치용 규정 준수 정책 설정](ios-compliance-policy-settings-in-microsoft-intune.md)
+> - [Android 장치용 규정 준수 정책 설정](android-compliance-policy-settings-in-microsoft-intune.md)
+> - [Android for Work용 규정 준수 정책 설정](afw-compliance-policy-settings-in-microsoft-intune.md)
 
 ## <a name="compliance-policy-settings-for-windows-phone-devices"></a>Windows Phone 장치용 규정 준수 정책 설정
 이 항목에 나열된 설정은 Windows Phone 8.1 이상에서 지원됩니다.
@@ -80,7 +80,7 @@ ms.lasthandoff: 10/10/2017
   > Windows 장치는 장치 상태 증명의 일부로 설치된 타사 ELAM(**맬웨어 방지 조기 실행**) 소프트웨어를 지원하지 않습니다.
 
   HAS 서비스의 작동 원리에 대한 내용은 [상태 증명 CSP](https://msdn.microsoft.com/library/dn934876.aspx)를 참조하세요.
-###  <a name="device-property-settings"></a>장치 속성 설정
+  ###  <a name="device-property-settings"></a>장치 속성 설정
 - **필요한 최소 OS**: 장치가 OS 최소 버전 요구 사항을 충족하지 못하면 비준수 장치로 보고됩니다.
     업그레이드 방법에 대한 정보를 제공하는 링크가 표시됩니다. 사용자는 장치를 업그레이드하고 회사 리소스에 액세스할 수 있습니다.
 
@@ -153,4 +153,4 @@ ms.lasthandoff: 10/10/2017
 - Windows 8.1 PC는 **6.3** 버전을 반환합니다. Windows에 대한 OS 버전 규칙이 Windows 8.1로 설정된 경우 장치에 Windows 8.1이 있어도 장치가 호환되지 않는 것으로 보고됩니다.
 
 - Windows 10을 실행하는 PC의 버전은 **10.0**과 **winver** 명령에 의해 반환된 OS 빌드 번호로 설정되어야 합니다. 예를 들면 10.0.10586과 같이 설정해야 합니다.
-> !["Windows 정보" 대화 상자에 강조 표시된 OS 빌드 버전](./media/ca_win10-os-version.png)
+  > !["Windows 정보" 대화 상자에 강조 표시된 OS 빌드 버전](./media/ca_win10-os-version.png)

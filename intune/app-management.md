@@ -1,31 +1,30 @@
 ---
-title: "Microsoft Intune에서 앱 관리는 무엇인가"
-titlesuffix: 
-description: "Microsoft Intune을 사용한 앱 관리의 기본 사항을 알아봅니다."
-keywords: 
+title: Microsoft Intune에서 앱 관리는 무엇인가
+titlesuffix: ''
+description: Microsoft Intune을 사용한 앱 관리의 기본 사항을 알아봅니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/09/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 737c2900b2cdd57cb4dfc8373d06111a52e772b2
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 86cb0dfb67e81a7abbdc8f38dcbf5539b9855adb
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Microsoft Intune 앱 관리란?
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
-
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Microsoft Intune를 사용하면 IT 관리자로서 회사의 직원이 사용하는 모바일 앱을 관리할 수 있습니다. 이 기능은 장치 관리 및 데이터 보호 외에 추가적인 것입니다. 이 기능의 일부로 우선하는 것 하나는 최종 사용자가 작업 수행에 필요한 앱에 액세스할 수 있는지 확인하는 것입니다. 이는 다음과 같은 이유로 까다로운 일일 수 있습니다.
 - 장치 플랫폼 및 앱 유형이 광범위합니다.
@@ -73,11 +72,11 @@ Intune은 원하는 장치에서 필요한 앱을 얻도록 도와주는 다양�
 아래 정보는 **모바일 앱** 블레이드에서 사용할 수 있는 옵션에 해당합니다.
 
 ### <a name="manage"></a>관리
-- **앱** - 이 옵션을 선택하여 직원이 사용하는 앱을 추가하고, 보고, 할당하고, 모니터링합니다. 자세한 내용은 다음 문서를 참조하십시오.
+- **앱** - 이 옵션을 선택하여 직원이 사용하는 앱을 추가하고, 보고, 할당하고, 모니터링합니다. 자세한 내용은 다음 아티클을 참조하세요.
     - [앱 추가](apps-add.md)
     - [앱 할당](apps-deploy.md)
     - [앱 모니터링](apps-monitor.md)
-- **앱 구성 정책** - 앱 구성 정책을 사용하면 사용자가 앱을 실행할 때 필요할 수 있는 설정을 제공할 수 있습니다. 자세한 내용은 다음 문서를 참조하십시오.
+- **앱 구성 정책** - 앱 구성 정책을 사용하면 사용자가 앱을 실행할 때 필요할 수 있는 설정을 제공할 수 있습니다. 자세한 내용은 다음 아티클을 참조하세요.
     - [Intune용 앱 구성 정책](app-configuration-policies-overview.md)
         - [iOS 앱 구성 정책](app-configuration-policies-use-ios.md)
         - [Android 앱 구성 정책](app-configuration-policies-use-android.md)
@@ -91,7 +90,7 @@ Intune은 원하는 장치에서 필요한 앱을 얻도록 도와주는 다양�
 자세한 내용은 [앱 관리](app-management.md)를 참조하세요.
 
 ### <a name="monitor"></a>모니터
-- **앱 라이선스** - 앱 스토어에서 대량 구매 앱을 보고, 할당하고, 모니터링할 수 있습니다. 자세한 내용은 다음 문서를 참조하십시오.
+- **앱 라이선스** - 앱 스토어에서 대량 구매 앱을 보고, 할당하고, 모니터링할 수 있습니다. 자세한 내용은 다음 아티클을 참조하세요.
     - [iOS VPP(대량 구매 프로그램) 앱](vpp-apps-ios.md)
     - [비즈니스용 Microsoft 스토어 대량 구매 앱](windows-store-for-business.md)
 - **검색된 앱** - Intune에서 할당하고 장치에 설치된 모든 앱을 표시합니다.

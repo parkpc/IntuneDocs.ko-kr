@@ -1,29 +1,29 @@
----
-title: "원격 초기화를 사용하여 데이터 보호 지원"
-description: "Intune에서는 중요한 회사 데이터를 제거하고 많은 회사 리소스에 대한 액세스 권한을 제거할 수 있는 선택적 초기화 및 전체 초기화 기능을 제공합니다."
-keywords: 
+﻿---
+title: 원격 초기화를 사용하여 데이터 보호 지원
+description: Intune에서는 중요한 회사 데이터를 제거하고 많은 회사 리소스에 대한 액세스 권한을 제거할 수 있는 선택적 초기화 및 전체 초기화 기능을 제공합니다.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 07/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 8519e411-3d48-44eb-9b41-3e4fd6a93112
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: lancecra
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 85907167305e822ddf6a29475f032b2eb5f97a74
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 82c50be9a8def23fadd8d24fc7654312d5c7ca5c
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="help-protect-your-data-with-full-or-selective-wipe-using-microsoft-intune"></a>Microsoft Intune을 사용하여 전체 또는 선택적 초기화를 통해 데이터 보호 지원
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정하거나 잃어버린 장치에 있는 앱과 데이터를 초기화할 수 있습니다. 이를 위해, Intune은 선택적 초기화 및 전체 초기화 기능을 제공합니다. 또한 사용자가 Intune에 등록된 개인적으로 소유한 장치의 Intune 회사 포털 앱에서 원격 장치 초기화 명령을 실행할 수 있습니다.
 
@@ -40,37 +40,37 @@ Intune 관리 장치 중에서 이제 필요 없거나 용도를 다시 설정�
 
 ### <a name="remotely-wipe-a-device-from-the-intune-administrator-console"></a>Intune 관리자 콘솔에서 장치를 원격으로 초기화
 
-1.  초기화할 장치를 선택합니다. 사용자 또는 장치를 기준으로 찾을 수 있습니다.
+1. 초기화할 장치를 선택합니다. 사용자 또는 장치를 기준으로 찾을 수 있습니다.
 
-    -   **사용자 기준:**
+   - **사용자 기준:**
 
-        1.  [Intune 관리자 콘솔](https://manage.microsoft.com/)에서 **그룹** &gt; **모든 사용자**를 선택합니다.
+     1.  [Intune 관리자 콘솔](https://manage.microsoft.com/)에서 **그룹** &gt; **모든 사용자**를 선택합니다.
 
-        2.  초기화하려는 모바일 장치의 사용자의 이름을 선택합니다. **속성 보기**를 선택합니다.
+     2.  초기화하려는 모바일 장치의 사용자의 이름을 선택합니다. **속성 보기**를 선택합니다.
 
-        3.  사용자의 **속성** 페이지에서 **장치**를 선택한 다음 초기화하려는 모바일 장치의 이름을 선택합니다. 여러 장치를 선택하려면 Ctrl 키를 누른 채 장치를 클릭합니다.
+     3.  사용자의 **속성** 페이지에서 **장치**를 선택한 다음 초기화하려는 모바일 장치의 이름을 선택합니다. 여러 장치를 선택하려면 Ctrl 키를 누른 채 장치를 클릭합니다.
 
-    -   **장치 기준:**
+   - **장치 기준:**
 
-        1.  [Intune 관리자 콘솔](https://manage.microsoft.com/)에서 **그룹** &gt; **모든 모바일 장치**를 선택합니다.
+     1. [Intune 관리자 콘솔](https://manage.microsoft.com/)에서 **그룹** &gt; **모든 모바일 장치**를 선택합니다.
 
-         ![사용 중지 또는 초기화 작업 시작](../media/dev-sa-wipe.png)
+        ![사용 중지 또는 초기화 작업 시작](../media/dev-sa-wipe.png)
 
-        2.  **장치**를 선택하고 초기화하려는 모바일 장치의 이름을 선택합니다. 여러 장치를 선택하려면 Ctrl 키를 누른 채 장치를 클릭합니다.
+     2. **장치**를 선택하고 초기화하려는 모바일 장치의 이름을 선택합니다. 여러 장치를 선택하려면 Ctrl 키를 누른 채 장치를 클릭합니다.
 
-2.  **사용 중지/초기화**를 선택합니다.
+2. **사용 중지/초기화**를 선택합니다.
 
-3.  장치를 사용 중지할지 묻는 확인 메시지가 나타납니다.
+3. 장치를 사용 중지할지 묻는 확인 메시지가 나타납니다.
 
-    -   회사 앱과 데이터만 제거하는 **선택적인 초기화**를 수행하려면 **예**를 선택합니다.
+   -   회사 앱과 데이터만 제거하는 **선택적인 초기화**를 수행하려면 **예**를 선택합니다.
 
-    -   모든 앱과 데이터를 지우고 장치를 공장 기본 설정으로 되돌리는 **전체 초기화**를 수행하려면 **사용 중지 전에 장치 초기화**를 선택합니다. 이 작업은 Windows 8.1을 제외한 모든 플랫폼에 적용됩니다. **전체 초기화로 제거된 데이터는 복구할 수 없습니다**.
+   -   모든 앱과 데이터를 지우고 장치를 공장 기본 설정으로 되돌리는 **전체 초기화**를 수행하려면 **사용 중지 전에 장치 초기화**를 선택합니다. 이 작업은 Windows 8.1을 제외한 모든 플랫폼에 적용됩니다. **전체 초기화로 제거된 데이터는 복구할 수 없습니다**.
 
 장치가 켜져 있고 연결되어 있는 경우 초기화 명령이 모든 장치 유형에서 전파되는 데 15분 미만이 걸립니다.
 
 #### <a name="to-delete-devices-in-the-azure-active-directory-portal"></a>Azure Active Directory 포털에서 장치를 삭제하려면
 
-1.  [http://aka.ms/accessaad](http://aka.ms/accessaad)로 이동하거나 [https://portal.office.com](https://portal.office.com)에서 **관리자** &gt; **Azure AD**를 선택합니다.
+1.  [https://portal.office.com](https://portal.office.com)에서 [http://aka.ms/accessaad](http://aka.ms/accessaad)를 찾거나 **관리자**&gt;**Azure AD**를 선택합니다.
 
 2.  페이지의 왼쪽에 있는 링크를 사용하여 조직 ID로 로그인합니다.
 

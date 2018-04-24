@@ -1,4 +1,4 @@
----
+﻿---
 title: Android for Work 장치에 앱 배포
 description: 이 항목을 사용하여 앱을 동기화한 다음 Google Play for Work 스토어에서 Android for Work 장치로 배포합니다.
 keywords: ''
@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 20d43882895e299b26a4130b1551b17f054c52d6
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 54e4355a1253af4338bdcc3e34b651fadfb569dd
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-deploy-apps-to-android-for-work-devices-with-intune"></a>Intune으로 Android for Work 장치에 앱을 배포하는 방법
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 표준 Android 장치에 배포하던 방식과 다른 방법으로 Android for Work 장치에 앱을 배포합니다. Android for Work에 대해 설치하는 모든 앱은 Google Play for Work 스토어에서 받습니다. 스토어에 로그온하여 원하는 앱을 찾아본 다음 승인합니다.
 그러면 Intune 콘솔의 **대량 구매 앱** 노드에 나타납니다. 여기에서 다른 앱을 배포하는 방식과 동일하게 앱 배포를 관리할 수 있습니다.

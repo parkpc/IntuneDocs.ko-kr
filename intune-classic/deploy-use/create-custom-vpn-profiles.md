@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6139b656c69b58bdbdd02e296f8a061dd598a1c6
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 512bd38802dbb97a74d3d19d74a7d5086784d327
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="custom-configurations-for-microsoft-intune-vpn-profiles"></a>Microsoft Intune VPN 프로필에 대한 사용자 지정 구성
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 ## <a name="create-a-custom-configuration"></a>사용자 지정 구성 만들기
 사용자 지정 구성 정책을 사용하여 다음에 대한 VPN 프로필을 만들 수 있습니다.
@@ -39,13 +39,13 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-create-a-custom-configuration-policy"></a>사용자 지정 구성 정책을 만들려면
 
-   1. [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** > **정책 추가** > *플랫폼 확장* > **사용자 지정 구성** > **정책 만들기**를 선택합니다.
-   2. 정책의 이름을 입력합니다.
-   3. 지정하려는 각 URI 설정에 대해 **추가**를 선택하고 요청된 정보를 제공합니다. 아래 예를 살펴보세요.
+1. [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** > **정책 추가** > *플랫폼 확장* > **사용자 지정 구성** > **정책 만들기**를 선택합니다.
+2. 정책의 이름을 입력합니다.
+3. 지정하려는 각 URI 설정에 대해 **추가**를 선택하고 요청된 정보를 제공합니다. 아래 예를 살펴보세요.
 
    ![VPN 프로필 사용자 지정 구성 대화 상자](./media/Intune_Add_VPN_URI.png)
 
-   4.  URI 설정을 모두 입력한 후에 **정책 저장**을 선택한 다음 정책을 배포합니다.
+4. URI 설정을 모두 입력한 후에 **정책 저장**을 선택한 다음 정책을 배포합니다.
 
 그런 다음 일반적인 방식으로 [정책을 배포](/intune-classic/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies#deploy-a-configuration-policy)합니다.
 

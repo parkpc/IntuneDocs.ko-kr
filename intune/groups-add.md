@@ -1,25 +1,25 @@
 ---
-title: "사용자 및 장치를 구성하기 위한 그룹 추가"
+title: 사용자 및 장치를 구성하기 위한 그룹 추가
 titlesuffix: Microsoft Intune
-description: "지리, 부서 또는 하드웨어 세부사항별로 사용자 및 장치를 구성하는 그룹을 추가합니다."
-keywords: 
+description: 지리, 부서 또는 하드웨어 세부사항별로 사용자 및 장치를 구성하는 그룹을 추가합니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f0a2b858-a824-4598-ab81-bdd8e62ac3b3
 ms.reviewer: amyros
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b7d2b551832d8d0e467d079df673954318623e4c
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 613d64e396e969b8b6bde76ee6c4474a60be8ba9
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-groups-to-organize-users-and-devices"></a>사용자 및 장치를 구성하기 위한 그룹 추가
 Intune은 Azure AD(Active Directory) 그룹을 사용하여 장치 및 사용자를 관리합니다. Intune 관리자의 경우 조직의 요구에 맞게 그룹을 설정할 수 있습니다. 그룹을 만들어 지리적 위치, 부서 또는 하드웨어 특성별로 사용자 또는 장치를 구성합니다. 그룹을 사용하여 대규모 작업을 관리합니다. 예를 들어 많은 사용자에 대해 정책을 설정하거나 장치 집합에 앱을 배포할 수 있습니다.
@@ -36,20 +36,20 @@ Intune은 Azure AD(Active Directory) 그룹을 사용하여 장치 및 사용자
 1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
 2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 창에서 **그룹**으로 이동한 다음, **모든 그룹** 창에서 **새로운 그룹**을 선택합니다.
-  ![새 그룹이 선택된 Azure Portal의 스크린샷](./media/groups-add-new.png)
-2. 새로운 그룹의 **그룹 형식**, **이름** 및 **설명**을 지정합니다. 이러한 속성은 관리 포털에만 나타나고 사용자에게 표시되지 않습니다.
+   ![새 그룹이 선택된 Azure Portal의 스크린샷](./media/groups-add-new.png)
+4. 새로운 그룹의 **그룹 형식**, **이름** 및 **설명**을 지정합니다. 이러한 속성은 관리 포털에만 나타나고 사용자에게 표시되지 않습니다.
 
-3. **멤버 자격 유형**을 선택합니다.
-  - **할당됨** - 수동으로 할당된 구성원으로 그룹을 만듭니다. [Azure AD 할당된 그룹](https://docs.microsoft.com/azure/active-directory/active-directory-groups-create-azure-portal)에 대해 자세히 알아봅니다.
-  - **동적 사용자** - **동적 쿼리**로 정의된 사용자 그룹을 만듭니다.
-  - **동적 장치** - **동적 쿼리**로 정의된 장치 그룹을 만듭니다.
+5. **멤버 자격 유형**을 선택합니다.
+   - **할당됨** - 수동으로 할당된 구성원으로 그룹을 만듭니다. [Azure AD 할당된 그룹](https://docs.microsoft.com/azure/active-directory/active-directory-groups-create-azure-portal)에 대해 자세히 알아봅니다.
+   - **동적 사용자** - **동적 쿼리**로 정의된 사용자 그룹을 만듭니다.
+   - **동적 장치** - **동적 쿼리**로 정의된 장치 그룹을 만듭니다.
 
-  ![Intune 그룹 속성의 스크린샷](./media/groups-add-properties.png)
+   ![Intune 그룹 속성의 스크린샷](./media/groups-add-properties.png)
 
-  Azure AD를 통해 멤버 자격을 정의하는 규칙에 따라 동적 그룹을 만들 수 있습니다. [특성 기반 동적 그룹을 만드는 방법](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal)을 알아봅니다.
+   Azure AD를 통해 멤버 자격을 정의하는 규칙에 따라 동적 그룹을 만들 수 있습니다. [특성 기반 동적 그룹을 만드는 방법](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal)을 알아봅니다.
 
-4. **Office 기능 사용**을 선택하여 사용자 그룹 구성원에게 공유 Office 365 앱에 대한 액세스 권한을 부여할 수 있습니다. [Office 365 그룹](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)에 대해 자세히 알아보세요.
-5. 새 그룹을 추가하려면 **만들기**를 선택합니다.
+6. **Office 기능 사용**을 선택하여 사용자 그룹 구성원에게 공유 Office 365 앱에 대한 액세스 권한을 부여할 수 있습니다. [Office 365 그룹](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)에 대해 자세히 알아보세요.
+7. 새 그룹을 추가하려면 **만들기**를 선택합니다.
 
 ## <a name="see-also"></a>참고 항목
 - [Azure Active Directory 그룹을 사용하여 리소스에 대한 액세스 관리](https://docs.microsoft.com/azure/active-directory/active-directory-manage-groups)

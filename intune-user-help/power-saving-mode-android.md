@@ -1,27 +1,27 @@
 ---
-title: "전원 최적화에서 메일 액세스 방지 | Microsoft Docs"
-description: "Android에서 메일을 받을 수 있도록 전원 최적화를 해제하는 방법을 알아봅니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: 전원 최적화에서 메일 액세스 방지 | Microsoft Docs
+description: Android에서 메일을 받을 수 있도록 전원 최적화를 해제하는 방법을 알아봅니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 07/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ad713f18-40a9-421f-aa2b-f8c21028d57c
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: d0e39bfc475909ba2f6b8d361ba31c734cace523
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 663da92e11befeae1f65467e887870a52640cbeb
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="outlook-wont-sync-managed-email-when-battery-optimization-for-android-is-turned-on"></a>Android의 경우 배터리 최적화가 설정되어 있으면 Outlook에서 관리되는 메일을 동기화하지 않습니다.
 

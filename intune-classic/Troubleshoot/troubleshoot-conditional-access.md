@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 67a2891e4c7a6adcd7bd132c5663c9a78426ea07
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: eb27605108feb3a2db3072d4a8b7a296f0f74cfc
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="troubleshoot-conditional-access"></a>조건부 액세스 문제 해결
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 일반적으로 사용자는 메일 또는 SharePoint에 액세스하려고 하고 등록하라는 메시지가 표시됩니다. 그런 후에는 회사 포털로 연결됩니다.
 
@@ -49,20 +49,20 @@ Azure 관리 포털 및 장치 인벤토리 보고서에서 각 장치에 대해
 
 ## <a name="compliance-issues"></a>규정 준수 문제
 
- -  장치가 Intune 정책에 맞지 않습니다. 일반적인 문제는 암호화 및 암호 요구 사항입니다. 사용자는 회사 포털로 리디렉션되며 여기서 규정을 준수하도록 장치를 구성할 수 있습니다.
- -  장치에 대해 규정 준수 정보가 등록되는 데 시간이 소요될 수 있습니다. 잠시 기다린 후 다시 시도하세요.
- -  iOS 장치의 경우:
-     -   사용자가 만든 기존 메일 프로필에서는 Intune 관리자가 만든 프로필 배포가 차단됩니다. iOS 사용자는 일반적으로 메일 프로필을 만든 후에 등록을 하므로 이것은 일반적인 문제입니다. 회사 포털에서는 수동으로 구성된 메일 프로필 때문에 규정에 맞지 않음을 사용자에게 알리며, 프로필을 제거하라는 메시지를 표시합니다. 사용자는 Intune 프로필을 배포할 수 있도록 메일 프로필을 제거해야 합니다. 이 문제를 방지하려면 메일 프로필을 설치하지 않은 상태에서 등록을 하고 Intune의 프로필 배포를 허용할 것을 지시합니다.
-     -   iOS 장치가 규정 준수 확인 상태로 국한되어 사용자가 다른 체크 인을 시작하지 못할 수도 있습니다. 회사 포털을 다시 시작하면 이 문제가 해결될 수도 있으며, 준수 상태는 Intune에서 장치 상태를 반영합니다. 장치 동기화를 통해 모든 데이터가 수집되면 규정 준수 확인이 빨라져 평균 0.5초가 걸리지 않게 됩니다.
+- 장치가 Intune 정책에 맞지 않습니다. 일반적인 문제는 암호화 및 암호 요구 사항입니다. 사용자는 회사 포털로 리디렉션되며 여기서 규정을 준수하도록 장치를 구성할 수 있습니다.
+- 장치에 대해 규정 준수 정보가 등록되는 데 시간이 소요될 수 있습니다. 잠시 기다린 후 다시 시도하세요.
+- iOS 장치의 경우:
+  - 사용자가 만든 기존 메일 프로필에서는 Intune 관리자가 만든 프로필 배포가 차단됩니다. iOS 사용자는 일반적으로 메일 프로필을 만든 후에 등록을 하므로 이것은 일반적인 문제입니다. 회사 포털에서는 수동으로 구성된 메일 프로필 때문에 규정에 맞지 않음을 사용자에게 알리며, 프로필을 제거하라는 메시지를 표시합니다. 사용자는 Intune 프로필을 배포할 수 있도록 메일 프로필을 제거해야 합니다. 이 문제를 방지하려면 메일 프로필을 설치하지 않은 상태에서 등록을 하고 Intune의 프로필 배포를 허용할 것을 지시합니다.
+  - iOS 장치가 규정 준수 확인 상태로 국한되어 사용자가 다른 체크 인을 시작하지 못할 수도 있습니다. 회사 포털을 다시 시작하면 이 문제가 해결될 수도 있으며, 준수 상태는 Intune에서 장치 상태를 반영합니다. 장치 동기화를 통해 모든 데이터가 수집되면 규정 준수 확인이 빨라져 평균 0.5초가 걸리지 않게 됩니다.
 
-        일반적으로 장치가 이 상태로 유지되는 이유는 서비스 연결에 문제가 발생하거나 동기화가 오래 걸리기 때문입니다.  장치를 다시 시작해도 다른 네트워크 구성(셀룰러, Wi-Fi, VPN)에서 문제가 지속되면, SSP가 장치에서 최신 상태인지 확인한 후 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)에 설명된 대로 Microsoft 지원 서비스에 문의하세요.
+    일반적으로 장치가 이 상태로 유지되는 이유는 서비스 연결에 문제가 발생하거나 동기화가 오래 걸리기 때문입니다.  장치를 다시 시작해도 다른 네트워크 구성(셀룰러, Wi-Fi, VPN)에서 문제가 지속되면, SSP가 장치에서 최신 상태인지 확인한 후 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)에 설명된 대로 Microsoft 지원 서비스에 문의하세요.
 
- - Android 장치:
-    - 어떤 Android 장치는 암호화된 것처럼 보이지만 회사 포털 앱에서 암호화되지 않은 것으로 인식됩니다. 
+- Android 장치:
+   - 어떤 Android 장치는 암호화된 것처럼 보이지만 회사 포털 앱에서 암호화되지 않은 것으로 인식됩니다. 
     
-        -   이 상태에 있는 장치는 사용자가 안전한 시작 암호를 설정해야 합니다. 회사 포털 앱에서 사용자에게 장치의 시작 암호를 설정하라는 내용의 장치 알림을 표시합니다. 장치 알림을 탭하고 기존 PIN 또는 암호를 확인한 후에 **안전한 시작** 화면에서 **기기 시작 시 PIN 요청** 옵션을 선택합니다. 그런 다음 회사 포털 앱에서 그 장치의 **준수 확인** 단추를 탭합니다. 이제 장치가 암호화된 것으로 감지됩니다.
+       -   이 상태에 있는 장치는 사용자가 안전한 시작 암호를 설정해야 합니다. 회사 포털 앱에서 사용자에게 장치의 시작 암호를 설정하라는 내용의 장치 알림을 표시합니다. 장치 알림을 탭하고 기존 PIN 또는 암호를 확인한 후에 **안전한 시작** 화면에서 **기기 시작 시 PIN 요청** 옵션을 선택합니다. 그런 다음 회사 포털 앱에서 그 장치의 **준수 확인** 단추를 탭합니다. 이제 장치가 암호화된 것으로 감지됩니다.
     
-        -   일부 장치 제조업체에서는 사용자가 설정한 비밀 PIN이 아닌 기본 PIN을 사용하여 장치를 암호화합니다. 악의적인 사용자가 물리적으로 장치에 액세스할 수 있게 되었을 때 장치에 있는 데이터가 위험해질 수 있기 때문에 기본 PIN을 사용하는 암호화 방법은 Intune에서 보안이 약한 것으로 인식됩니다. 이 문제가 우려될 경우는 [앱 보호 정책](/intune-classic/deploy-use/azure-portal-for-microsoft-intune-mam-policies)을 사용합니다.
+       -   일부 장치 제조업체에서는 사용자가 설정한 비밀 PIN이 아닌 기본 PIN을 사용하여 장치를 암호화합니다. 악의적인 사용자가 물리적으로 장치에 액세스할 수 있게 되었을 때 장치에 있는 데이터가 위험해질 수 있기 때문에 기본 PIN을 사용하는 암호화 방법은 Intune에서 보안이 약한 것으로 인식됩니다. 이 문제가 우려될 경우는 [앱 보호 정책](/intune-classic/deploy-use/azure-portal-for-microsoft-intune-mam-policies)을 사용합니다.
 
 ## <a name="policy-issues"></a>정책 문제
 
@@ -118,22 +118,22 @@ Azure 관리 포털 및 장치 인벤토리 보고서에서 각 장치에 대해
 ### <a name="exchange-connector-logs"></a>Exchange Connector 로그
 
 #### <a name="general-log-information"></a>일반 로그 정보
-Exchange Connector 로그를 보려면 [서버 추적 뷰어 도구](https://msdn.microsoft.com/library/ms732023(v=vs.110).aspx')를 사용합니다. 이 도구를 사용하려면 Windows Server SDK를 다운로드해야 합니다.
+Exchange Connector 로그를 보려면 [서버 추적 뷰어 도구](<https://msdn.microsoft.com/library/ms732023(v=vs.110).aspx>')를 사용합니다. 이 도구를 사용하려면 Windows Server SDK를 다운로드해야 합니다.
 
 >[!NOTE]
 >로그는 C:\ProgramData\Microsoft\Windows Intune Exchange Connector\Logs에 있습니다. 로그는 *Connector0.log*에서 시작하여 *Connector29.log*로 끝나는 일련의 로그 파일 30개에 포함되어 있습니다. 10MB의 데이터가 누적되면 한 로그에서 다른 로그로 롤오버됩니다. 로그가 Connector29로 이동하면 다시 Connector0부터 시작되며 이전 로그 파일을 덮어씁니다.
 
 #### <a name="locating-sync-logs"></a>동기화 로그 찾기
 
--    **full sync**를 검색하여 로그에서 전체 동기화를 찾습니다. 전체 동기화의 시작 부분에 다음 텍스트가 표시됩니다.
+- **full sync**를 검색하여 로그에서 전체 동기화를 찾습니다. 전체 동기화의 시작 부분에 다음 텍스트가 표시됩니다.
 
-    '명령 처리 중: 시간 필터(전체 동기화)를 사용하지 않고 <number>명의 사용자에 대한 모바일 장치 목록을 가져오고 있습니다.
+  '명령 처리 중: 시간 필터(전체 동기화)를 사용하지 않고 <number>명의 사용자에 대한 모바일 장치 목록을 가져오고 있습니다.
 
-    전체 동기화 로그의 끝부분은 다음과 같습니다.
+  전체 동기화 로그의 끝부분은 다음과 같습니다.
 
-    시간 필터(전체 동기화)를 사용하지 않고 4명의 사용자에 대한 모바일 장치 목록을 가져왔습니다. 세부 사항: 인벤토리 명령 결과 - 동기화된 장치: 0 명령 ID: commandIDGUID' Exchange 상태: '서버 상태 '이름: 'PowerShellExchangeServer: <Name=mymailservername>' 상태: 연결됨','
+  시간 필터(전체 동기화)를 사용하지 않고 4명의 사용자에 대한 모바일 장치 목록을 가져왔습니다. 세부 사항: 인벤토리 명령 결과 - 동기화된 장치: 0 명령 ID: commandIDGUID' Exchange 상태: '서버 상태 '이름: 'PowerShellExchangeServer: <Name=mymailservername>' 상태: 연결됨','
 
--   **quick sync**를 검색하여 로그에서 빠른(델타) 동기화를 찾습니다.
+- **quick sync**를 검색하여 로그에서 빠른(델타) 동기화를 찾습니다.
 
 ##### <a name="exceptions-in-get-next-command"></a>Get next 명령 예외
 Exchange Connector 로그에서 **Get next 명령**의 예외를 확인하고 이 예외를 Microsoft 지원 서비스에 제공합니다.

@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1f53796e08ee962a23ab02929c4451478480e281
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 4c69dec5903f25b9e7f09f6a20fc35068f3329d4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="troubleshoot-device-enrollment-in-intune"></a>Intune에서 장치 등록 문제 해결
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 장치 등록 문제 해결을 위한 제안 사항을 제공합니다. 이 정보로 문제가 해결되지 않는 경우 [Microsoft Intune에 대한 지원을 받는 방법](how-to-get-support-for-microsoft-intune.md)을 참조하여 도움을 얻을 수 있는 다른 방법을 찾아보세요.
 
@@ -87,9 +87,9 @@ ms.lasthandoff: 03/22/2018
 8.  더 이상 사용 중이 아닌 장치나 정의가 부정확한 장치 등 장치를 적절하게 제거합니다.
 
 > [!NOTE]
-
+> 
 > [Microsoft Intune에서 장치 등록 관리자 계정을 사용하여 회사 소유 장치 등록](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)에 설명된 대로 장치 등록 관리자를 사용하여 장치 등록 최대값에 도달하는 것을 방지할 수 있습니다.
->
+> 
 > 장치 등록 관리자 계정에 추가된 사용자 계정은 해당 특정 사용자 로그인에 대해 조건부 액세스 정책이 적용되는 경우 등록을 완료할 수 없습니다.
 
 ### <a name="company-portal-temporarily-unavailable"></a>회사 포털을 일시적으로 사용할 수 없음
@@ -142,7 +142,7 @@ ms.lasthandoff: 03/22/2018
 
         -   특정 사용자를 보려면 다음 쿼리를 사용합니다. 여기서 %testuser1%은 조회하려는 사용자에 대한 username@domain.com을 나타냅니다. `select * from [CM_ DBName].[dbo].[User_DISC] where User_Principal_Name0 like '%testuser1%'`
 
-        쿼리를 작성한 후 **!Execute(!실행)**를 선택합니다.
+        쿼리를 작성한 후 **!Execute(!실행)** 를 선택합니다.
         결과가 반환되면 클라우드 사용자 ID를 찾습니다.  ID를 찾을 수 없으면 Intune을 사용할 라이선스가 없는 것입니다.
 
 ### <a name="unable-to-create-policy-or-enroll-devices-if-the-company-name-contains-special-characters"></a>회사 이름에 특수 문자가 포함되어 있으면 정책을 만들거나 장치를 등록할 수 없습니다.
@@ -154,7 +154,7 @@ ms.lasthandoff: 03/22/2018
 **문제:** ADFS에 두 번째 확인된 도메인을 추가하는 경우, UPN(사용자 계정 이름) 접미사가 두 번째 도메인인 사용자가 포털에 로그인하거나 장치를 등록할 수 없습니다.
 
 
-**해결 방법:** AD FS 2.0을 통해 SSO(Single Sign-On)를 사용하며, 조직 내에 사용자 UPN 접미사에 대한 최상위 도메인이 여러 개인(예: @contoso.com 또는 @fabrikam.com) Microsoft Office 365 고객은, 각 접미사에 대해 AD FS 2.0 페더레이션 서비스를 개별적으로 배포해야 합니다. 추가적인 AD FS 2.0 서버를 필요로 하지 않고 AD FS 서버가 이 시나리오를 지원할 수 있도록 하는, **SupportMultipleDomain** 스위치와 함께 작동하는 [AD FS 2.0 롤업](http://support.microsoft.com/kb/2607496)이 있습니다. 자세한 정보는 [이 블로그](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/)를 참조하세요.
+<strong>해결 방법:</strong> AD FS 2.0을 통해 SSO(Single Sign-On)를 사용하며, 조직 내에 사용자 UPN 접미사에 대한 최상위 도메인이 여러 개인(예: @contoso.com 또는 @fabrikam.com) Microsoft Office 365 고객은, 각 접미사에 대해 AD FS 2.0 페더레이션 서비스를 개별적으로 배포해야 합니다. 추가적인 AD FS 2.0 서버를 필요로 하지 않고 AD FS 서버가 이 시나리오를 지원할 수 있도록 하는, <strong>SupportMultipleDomain</strong> 스위치와 함께 작동하는 [AD FS 2.0 롤업](http://support.microsoft.com/kb/2607496)이 있습니다. 자세한 정보는 [이 블로그](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/)를 참조하세요.
 
 
 ## <a name="android-issues"></a>Android 문제
@@ -195,27 +195,27 @@ ms.lasthandoff: 03/22/2018
 
 1. 장치에서 Smart Manager 앱을 시작합니다.
 
-  ![장치에서 Smart Manager 아이콘 선택](./media/smart-manager-app-icon.png)
+   ![장치에서 Smart Manager 아이콘 선택](./media/smart-manager-app-icon.png)
 
 2. **배터리** 타일을 선택합니다.
 
-  ![배터리 타일 선택](./media/smart-manager-battery-tile.png)
+   ![배터리 타일 선택](./media/smart-manager-battery-tile.png)
 
 3. **앱 절전** 또는 **앱 최적화** 아래에서 **세부 정보**를 선택합니다.
 
-  ![앱 절전 또는 앱 최적화 아래에서 세부 정보 선택](./media/smart-manager-app-power-saving-detail.png)
+   ![앱 절전 또는 앱 최적화 아래에서 세부 정보 선택](./media/smart-manager-app-power-saving-detail.png)
 
 4. 앱 목록에서 **회사 포털**을 선택합니다.
 
-  ![앱 목록에서 회사 포털 선택](./media/smart-manager-company-portal.png)
+   ![앱 목록에서 회사 포털 선택](./media/smart-manager-company-portal.png)
 
 5. **꺼짐**을 선택합니다.
 
-  ![앱 최적화 대화 상자에서 꺼짐 선택](./media/smart-manager-app-optimization-turned-off.png)
+   ![앱 최적화 대화 상자에서 꺼짐 선택](./media/smart-manager-app-optimization-turned-off.png)
 
 6. **앱 절전** 또는 **앱 최적화** 아래에서 회사 포털이 꺼져 있는지 확인합니다.
 
-  ![회사 포털이 꺼져 있는지 확인](./media/smart-manager-verify-comp-portal-turned-off.png)
+   ![회사 포털이 꺼져 있는지 확인](./media/smart-manager-verify-comp-portal-turned-off.png)
 
 
 ### <a name="profile-installation-failed"></a>프로필 설치 실패
@@ -231,7 +231,7 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="android-certificate-issues"></a>Android 인증서 문제
 
-**문제**: 장치에서 *필요한 인증서가 장치에 없으므로 로그인할 수 없습니다.*라는 메시지가 표시됩니다.
+**문제**: 장치에서 *필요한 인증서가 장치에 없으므로 로그인할 수 없습니다.* 라는 메시지가 표시됩니다.
 
 **해결 방법 1**:
 
@@ -250,7 +250,7 @@ Android 장치의 경우 중간 인증서가 [SSL 서버 hello](https://technet.
 3.  AD FS 서비스 통신용 인증서(공개 서명된 인증서)를 찾은 다음 두 번 클릭하여 해당 속성을 확인합니다.
 4.  **인증 경로** 탭을 선택하여 해당 인증서의 상위 인증서를 확인합니다.
 5.  각 상위 인증서에서 **인증서 보기**를 선택합니다.
-6.  **세부 정보** 탭 > **파일에 복사...**를 선택합니다.
+6.  **세부 정보** 탭 > **파일에 복사...** 를 선택합니다.
 7.  마법사의 메시지에 따라 상위 인증서의 공개 키를 원하는 파일 위치에 내보내거나 저장합니다.
 8.  **인증서** > **모든 작업** > **가져오기**를 마우스 오른쪽 단추로 클릭합니다.
 9.  마법사의 메시지에 따라 상위 인증서를 **LocalComputer\Personal\Certificates**로 가져옵니다.
@@ -293,7 +293,7 @@ Android 장치의 경우 중간 인증서가 [SSL 서버 hello](https://technet.
 
 **해결 방법:** 최종 사용자에게 다음 해결 방법을 공유하여 회사 리소스에 대한 액세스 권한을 다시 얻도록 지원합니다.
 
-사용자는 iOS 회사 포털 앱을 시작하는 경우 장치와 Intune과의 연결이 끊겼는지 알 수 있습니다. 연결이 끊겼다고 감지되면 다시 연결하기 위해 Intune과 동기화를 자동으로 시도하며 사용자에게 **동기화하는 중...**이라는 인라인 알림이 표시됩니다.
+사용자는 iOS 회사 포털 앱을 시작하는 경우 장치와 Intune과의 연결이 끊겼는지 알 수 있습니다. 연결이 끊겼다고 감지되면 다시 연결하기 위해 Intune과 동기화를 자동으로 시도하며 사용자에게 **동기화하는 중...** 이라는 인라인 알림이 표시됩니다.
 
   ![동기화하는 중 알림](./media/ios_cp_app_trying_to_sync_notification.png)
 
@@ -389,7 +389,7 @@ Android 장치의 경우 중간 인증서가 [SSL 서버 hello](https://technet.
 
 
 ### <a name="the-machine-is-already-enrolled---error-hr-0x8007064c"></a>컴퓨터가 이미 등록되었습니다. - 오류: hr 0x8007064c
-**문제:** **컴퓨터가 이미 등록되었습니다.**라는 오류와 함께 등록에 실패합니다. 등록 로그에 **hr 0x8007064c** 오류가 표시됩니다.
+**문제:** **컴퓨터가 이미 등록되었습니다.** 라는 오류와 함께 등록에 실패합니다. 등록 로그에 **hr 0x8007064c** 오류가 표시됩니다.
 
 컴퓨터가 이전에 등록되었거나, 등록된 컴퓨터의 복제 이미지를 사용하기 때문일 수 있습니다. 이전 계정의 계정 인증서가 컴퓨터에 아직 존재합니다.
 
@@ -400,7 +400,7 @@ Android 장치의 경우 중간 인증서가 [SSL 서버 hello](https://technet.
 1. **시작** 메뉴에서 **실행** -> **MMC**를 입력합니다.
 1. **파일** > **스냅인 추가/제거**를 선택합니다.
 1. **인증서**를 두 번 클릭하고 **컴퓨터 계정** > **다음**을 선택한 후 **로컬 컴퓨터**를 선택합니다.
-1. **인증서(로컬 컴퓨터)**를 두 번 클릭하고 **개인/인증서**를 선택합니다.
+1. **인증서(로컬 컴퓨터)** 를 두 번 클릭하고 **개인/인증서**를 선택합니다.
 1. Sc_Online_Issuing에서 발급한 Intune 인증서를 찾아서 있으면 삭제합니다.
 1. 다음 레지스트리 키가 있으면 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OnlineManagement regkey** 및 모든 하위 키를 삭제합니다.
 1. 다시 등록해 보세요.

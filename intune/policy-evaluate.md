@@ -1,27 +1,27 @@
 ---
-title: "정책의 대상인 사용자 수 확인"
+title: 정책의 대상인 사용자 수 확인
 titlesuffix: Microsoft Intune
-description: "정책의 대상인 사용자 수 확인"
-keywords: 
+description: 정책의 대상인 사용자 수 확인
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 03/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 38e8a2e2-2329-11e8-b467-0ed5f89f718b
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: decfd33b540fcb72c838e09034ba4bf312142a5b
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: c407bb17b80299e8eb44fee8eff8ee172aeaa268
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="evaluate-how-many-users-are-targeted-by-a-policy"></a>정책의 대상인 사용자 수 평가
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 **평가** 단추를 사용해 장치 준수 또는 장치 구성 정책의 대상인 사용자 수를 확인할 수 있습니다. 이 기능은 장치가 아닌 사용자 수만 계산합니다.
 

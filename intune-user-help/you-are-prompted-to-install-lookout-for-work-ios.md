@@ -1,25 +1,25 @@
 ﻿---
-title: "iOS 장치에 Lookout for Work를 설치해야 하는 경우 | Microsoft 문서"
-description: "iOS용 Lookout for Work를 설치하는 방법에 대해 알아봅니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: iOS 장치에 Lookout for Work를 설치해야 하는 경우 | Microsoft 문서
+description: iOS용 Lookout for Work를 설치하는 방법에 대해 알아봅니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
-ms.date: 09/25/2017
+ms.date: 04/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 7adab655-8317-4512-ba7d-beeaa25bbf6c
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: ae05df1478baa8b965cdcd11a47ffc0d694734ab
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: fda95e461fe8412b26289bc601d8282588cd211c
+ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="install-lookout-for-work-on-your-ios-device"></a>iOS 장치에 Lookout for Work 설치
 
@@ -31,15 +31,15 @@ ms.lasthandoff: 01/25/2018
 
 1.  다음과 같은 메시지가 표시되면 **설치**를 탭하여 Lookout for Work이 장치에 설치되도록 합니다.
 
-  ![설치를 탭하여 Lookout for Work 설치](./media/ios-mtd-install-app-request.png)
+      ![설치 및 취소 단추가 포함된 앱 설치 프롬프트의 스크린샷입니다.](/intune-user-help/media/ios-mts-install-app-request-after-1804.png)
 
 2. 다음과 같은 메시지가 나타나면 **설정**을 탭하고 **위치 서비스**를 켠 다음 **계속**을 탭합니다.
 
-  ![설정 및 위치 서비스 탭하기](./media/ios-lfw-allow-location-services.png)
+      ![설정 및 위치 서비스 탭하기](./media/ios-lfw-allow-location-services.png)
 
 3. Lookout for Work에 필요한 사용 권한을 검토하고 **계속**을 탭합니다.
 
-  ![현재 Lookout for Work에 연결되어 있음](./media/ios-lfw-permissions-lookout-needs.png)
+      ![현재 Lookout for Work에 연결되어 있음](./media/ios-lfw-permissions-lookout-needs.png)
 
 4. Lookout for Work에서 알림을 보내도록 허용할지 묻는 메시지가 표시되면 **허용**을 탭합니다.
 

@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/06/2018
+ms.date: 03/29/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,37 +13,45 @@ ms.technology: ''
 ms.assetid: 47181d19-4049-4c7a-a8de-422206c4027e
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4cca5922f036711093469e71489e267af53f05a9
-ms.sourcegitcommit: e6319ff186d969da34bd19c9730ba003d6cce353
+ms.openlocfilehash: 19b30315fa26dd53b5e383bc9e4bef5c65b89962
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="reset-or-remove-a-device-passcode-in-intune"></a>Intune에서 장치 암호 다시 설정 또는 제거
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 장치에 새 암호를 만들려면 **암호 제거** 작업을 사용합니다.
 
 ## <a name="supported-platforms"></a>지원되는 플랫폼
 
-- Windows Phone 8.1(Azure Active Directory에 가입되지 않음), Windows 10 크리에이터 업데이트 릴리스 포함
-- Windows 10 크리에이터스 업데이트 이상
-- iOS
-- Android 7 이전 Android 버전
+- 작업 프로필에 등록된 Android 장치 버전 7.0 이상
+- 버전 6.0 이하의 Android 장치
+- iOS 
+     
+## <a name="unsupported-platforms"></a>지원되지 않는 플랫폼
 
-다음 시스템에서는 이 기능이 지원되지 않습니다.
-
-- Windows
+- 작업 프로필에 등록된 Android 장치 버전 6.0 이하
+- 버전 7.0 이상의 Android 장치
 - macOS
-- Android for Work
+- Windows
 
 ## <a name="reset-a-passcode"></a>암호 재설정
 
 1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
 2. **모든 서비스**를 선택하고 **Intune**에서 필터링한 다음, **Microsoft Intune**을 선택합니다.
 3. **장치**를 선택한 다음, **모든 장치**를 선택합니다.
-4. 관리하는 장치 목록에서 장치를 선택하고 **자세히...**를 선택합니다. 그런 다음, **암호 제거** 장치 원격 작업을 선택합니다.
+4. 관리하는 장치 목록에서 장치를 선택하고 **자세히...** 를 선택합니다. 그런 다음, **암호 제거** 장치 원격 작업을 선택합니다.
+
+## <a name="resetting-android-for-work-passcodes"></a>Android for Work 암호 다시 설정
+
+지원되는 Android for Work 장치는 최종 사용자에 대한 관리되는 프로필 챌린지 또는 새 장치 잠금 해제 암호를 수신합니다. 작업 프로필이 있는 Android 7.0 이상 장치의 경우 등록 완료된 후 즉시 재설정 암호 토큰을 활성화하려면 최종 사용자에게 알림이 제공됩니다. 작업 프로필 암호가 필요하고 설정된 경우 알림이 표시됩니다. 암호를 입력하면 알림은 해제됩니다.
+
+## <a name="resetting-ios-passcodes"></a>iOS 암호 다시 설정
+
+iOS 장치에서 암호가 제거됩니다. 준수 정책이 설정된 암호가 있는 경우 장치의 설정에서 새 암호를 설정하라는 메시지가 사용자에게 나타납니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

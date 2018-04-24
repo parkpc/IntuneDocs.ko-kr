@@ -1,35 +1,35 @@
 ---
-title: "Wi-Fi 연결"
-description: "Wi-Fi 프로필을 통해 사용자의 Wi-Fi 네트워크 연결을 지원하는 방법을 설명합니다."
-keywords: 
+title: Wi-Fi 연결
+description: Wi-Fi 프로필을 통해 사용자의 Wi-Fi 네트워크 연결을 지원하는 방법을 설명합니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: angrobe
 ms.date: 02/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0b1b86ed-2e80-474d-8437-17dd4bc07b55
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 99ac426d2210aa22a7c0151aea59e14b848bbe1f
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 5eebe251371d466421bfe936a1f991c988e490b0
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-devices-to-connect-to-your-corporate-wi-fi-networks"></a>회사 Wi-Fi 네트워크에 연결하도록 장치 구성
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune Wi-Fi 프로필을 사용하여 무선 네트워크 설정을 조직의 사용자와 장치에 배포합니다. Wi-Fi 프로필을 배포하면 사용자가 Wi-Fi를 직접 구성하지 않고도 회사 Wi-Fi에 액세스할 수 있습니다.
 
 예를 들어, **Contoso Wi-Fi**라는 이름의 새 Wi-Fi 네트워크를 설치하고 모든 iOS 장치를 이 네트워크에 연결하도록 설정하려고 합니다. 프로세스는 다음과 같습니다.
 
-![Wi-Fi 프로필 프로세스 요약](..\media\wi-fi-process-diagram.png)
+![Wi-Fi 프로필 프로세스 요약](../media/wi-fi-process-diagram.png)
 
 1.   **Contoso Wi-Fi** 무선 네트워크에 연결하는 데 필요한 설정이 포함된 Wi-Fi 프로필을 만듭니다.
 
@@ -67,23 +67,25 @@ Windows 8.1 또는 Windows 10 데스크톱이나 모바일 운영 체제를 실�
 
 이 정책 유형에 대한 권장 설정은 없습니다. 사용자 지정 정책을 만들어야 합니다.
 
-3.  프로필의 이름과 설명을 제공합니다.
+3. 프로필의 이름과 설명을 제공합니다.
 
 4. **네트워크 연결** 값을 지정합니다.
- - **SSID(서비스 집합 ID)**: 사용자에게 SSID가 아니라 네트워크 이름을 표시하려면 이 옵션을 선택합니다.
- - **네트워크가 해당 이름(SSID)을 브로드캐스트하지 않을 때 연결**: 네트워크가 숨겨져 있고 네트워크 이름이 브로드캐스트되지 않아서 네트워크 목록에 네트워크가 표시되지 않을 때 장치가 네트워크에 연결할 수 있도록 하려면 이 옵션을 선택합니다.
+   - **SSID(서비스 집합 ID)**: 사용자에게 SSID가 아니라 네트워크 이름을 표시하려면 이 옵션을 선택합니다.
+   - **네트워크가 해당 이름(SSID)을 브로드캐스트하지 않을 때 연결**: 네트워크가 숨겨져 있고 네트워크 이름이 브로드캐스트되지 않아서 네트워크 목록에 네트워크가 표시되지 않을 때 장치가 네트워크에 연결할 수 있도록 하려면 이 옵션을 선택합니다.
 
 5. 선택한 플랫폼의 **보안 설정** 을 구성합니다. 사용 가능한 설정은 선택한 보안 유형에 따라 달라집니다. 보안 유형에 대한 설명은 [보안 설정](#security-settings)에 있습니다.
 
 6. **프록시 설정**을 구성합니다(iOS 및 MAC OS X만 해당).
 
-    |설정 이름|추가 정보|사용 시기|
-    |----------------|-------------------|-------------|
-    |**이 Wi-Fi 연결에 대한 프록시 설정**|프록시 설정 유형을 선택합니다.<br /><br />-   **없음**(기본값)<br />-   **수동** - 프록시 서버의 URL 및 포트 번호를 수동으로 지정합니다.<br />-   **자동** – 구성 파일을 사용하여 프록시 서버를 구성합니다.|항상|
-    |**프록시 서버 주소** 및 **포트 번호**|프록시 서버의 URL과 포트 번호를 지정합니다.|**이 Wi-Fi 연결에 대한 프록시 설정**을 **수동**으로 설정한 경우|
-    |**프록시 서버 URL**|프록시 서버 설정을 포함하는 파일의 URL을 지정합니다.|**이 Wi-Fi 연결에 대한 프록시 설정**을 **자동**으로 설정한 경우|
 
-7.  Wi-Fi 프로필 저장
+   |                              설정 이름                              |                                                                                                                                추가 정보                                                                                                                                 |                                            사용 시기                                            |
+   |------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+   |       <strong>이 Wi-Fi 연결에 대한 프록시 설정</strong>        | 프록시 설정 유형을 선택합니다.<br /><br />-   <strong>없음</strong>(기본값)<br />-   <strong>수동</strong> - 프록시 서버의 URL 및 포트 번호를 수동으로 지정합니다.<br />-   <strong>자동</strong> – 구성 파일을 사용하여 프록시 서버를 구성합니다. |                                              항상                                               |
+   | <strong>프록시 서버 주소</strong> 및 <strong>포트 번호</strong> |                                                                                                              프록시 서버의 URL과 포트 번호를 지정합니다.                                                                                                               |  <strong>이 Wi-Fi 연결에 대한 프록시 설정</strong>을 <strong>수동</strong>으로 설정한 경우   |
+   |                   <strong>프록시 서버 URL</strong>                    |                                                                                                      프록시 서버 설정을 포함하는 파일의 URL을 지정합니다.                                                                                                       | <strong>이 Wi-Fi 연결에 대한 프록시 설정</strong>을 <strong>자동</strong>으로 설정한 경우 |
+
+
+7. Wi-Fi 프로필 저장
 
 새 정책이 **정책** 작업 영역의 **구성 정책** 노드에 표시됩니다. 프로필 배포에 대한 자세한 내용은 **다음 단계**를 참조하세요.
 

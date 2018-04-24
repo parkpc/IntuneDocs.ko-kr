@@ -1,28 +1,28 @@
 ---
-title: "Intune 장치 등록에 대한 다단계 인증 요구"
+title: Intune 장치 등록에 대한 다단계 인증 요구
 titlesuffix: Microsoft Intune
-description: "Azure AD에서 Intune 장치를 등록하기 위해 다단계 인증을 요구하는 방법입니다."
-keywords: 
+description: Azure AD에서 Intune 장치를 등록하기 위해 다단계 인증을 요구하는 방법입니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 94280c73-c05c-4e72-b0dd-a7cb997782f9
-ROBOTS: 
+ROBOTS: ''
 ms.custom: intune-azure
-ms.openlocfilehash: 4dbb1b94fa7e2ebc5ce31ae00c3cb893f9e1470e
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 0941db852674d1ee775fc05edb92ff479d856d0c
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="require-multi-factor-authentication-for-intune-device-enrollments"></a>Intune 장치 등록에 대한 다단계 인증 요구
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune은 장치 등록에 Azure AD(Active Directory) MFA(다단계 인증)를 사용하여 회사 리소스를 보호하는 데 도움을 줄 수 있습니다.
 

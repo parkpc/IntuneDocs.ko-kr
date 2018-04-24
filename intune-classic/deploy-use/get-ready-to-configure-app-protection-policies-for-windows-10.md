@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a18136a6b7aa26391a38aa071699dc60dc024c21
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 9b91d3740ead5815974d7ffee67c15b7769b0210
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="get-ready-to-configure-app-protection-policies-for-windows-10"></a>Windows 10용 앱 보호 정책 구성 준비
 
-[!INCLUDE[note for both-portals](../includes/note-for-both-portals.md)]
+[!INCLUDE [note for both-portals](../includes/note-for-both-portals.md)]
 
 Windows 10 앱 보호 정책을 만들려면 Azure AD에서 MAM(모바일 응용 프로그램 관리) 공급자를 설치하여 Windows 10용 MAM을 사용하도록 설정해야 합니다. 이와 같이 구성하면 Intune을 사용하여 새 WIP(Windows Information Protection) 정책을 만들 때 등록 상태를 정의할 수 있습니다.
 
@@ -38,7 +38,7 @@ Windows 10 앱 보호 정책을 만들려면 Azure AD에서 MAM(모바일 응용
 
     ![MAM 공급자 구성](../media/AppManagement/mam-provider-sc-1.png)
 
-3.  **Azure AD** 블레이드가 열리면 **모바일(MDM 및 MAM)**을 선택한 다음 **Microsoft Intune**을 클릭합니다.
+3.  **Azure AD** 블레이드가 열리면 **모바일(MDM 및 MAM)** 을 선택한 다음 **Microsoft Intune**을 클릭합니다.
 
     ![모바일 MDM 및 MAM](../media/AppManagement/mam-provider-sc-2.png)
 

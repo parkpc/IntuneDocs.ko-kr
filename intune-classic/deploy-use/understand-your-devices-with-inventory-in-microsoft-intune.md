@@ -1,29 +1,29 @@
 ---
-title: "인벤토리를 사용하는 장치 이해"
-description: "Intune을 사용하여 관리하는 장치의 하드웨어에 대한 정보를 확인합니다."
-keywords: 
+title: 인벤토리를 사용하는 장치 이해
+description: Intune을 사용하여 관리하는 장치의 하드웨어에 대한 정보를 확인합니다.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 09/05/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 312911fe-b963-4949-9911-ae425e0590b2
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c72e216201ac019f2cdffaf6e185bd6ff4436737
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: e50a7329512e6b57eb5486792669b7cd102eebdb
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="understand-your-devices-with-inventory-in-microsoft-intune"></a>Microsoft Intune에서 인벤토리를 사용하는 장치 이해
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune을 사용하면 Intune 클라이언트 소프트웨어를 실행하는 Windows PC와 등록된 장치의 인벤토리를 볼 수 있습니다.
 Intune은 대개 7일마다 관리 장치에서 인벤토리를 수집합니다. 이로 인해 최근에 수행한 장치 변경(예: 장치 이름 변경 또는 저장소 공간 확보)의 결과가 보고서에 표시될 때까지 시간이 약간 지연될 수 있습니다.

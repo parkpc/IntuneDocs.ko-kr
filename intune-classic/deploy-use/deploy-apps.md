@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9762c20abb9e4eedded50c92fb10ffb6119be63e
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: dc2a8cb8fc07f87dd0a4e9d8f3935c04a73fe8fd
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="deploy-apps-with-microsoft-intune"></a>Microsoft Intune을 사용하여 앱 배포
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 Microsoft Intune을 사용하여 앱을 배포하기 전에 이해해야 하는 개념을 설명합니다.
 
@@ -46,18 +46,19 @@ ms.lasthandoff: 03/22/2018
 
 #### <a name="understand-which-deployment-actions-are-available-for-each-installer-type"></a>각 설치 관리자 유형에 사용할 수 있는 배포 작업 이해
 
-|설치 관리자 유형|필수 설치|사용 가능한 설치|제거|해당 없음|
-|------------------|--------------------|---------------------|-------------|------------------|
-|Windows 앱 패키지(사용자 그룹에 배포)|예|예|예|예|
-|Windows 앱 패키지(장치 그룹에 배포)|예|아니요|예|예|
-|모바일 장치용 앱 패키지(사용자 그룹에 배포)|예|예|예|예|
-|모바일 장치용 앱 패키지(장치 그룹에 배포)|예|아니요|예|예|
-|Windows Installer(사용자 그룹에 배포)|아니요|예|아니요|예|
-|Windows Installer(장치 그룹에 배포)|예|아니요|예|예|
-|외부 링크(사용자 그룹에 배포)|아니요|예|아니요|예|
-|외부 링크(장치 그룹에 배포)|아니요|아니요|아니요|아니요|
-|앱 스토어에서 관리되는 iOS 앱(사용자 그룹에 배포)|예|예|예|예|
-|앱 스토어에서 관리되는 iOS 앱(장치 그룹에 배포)|예|아니요|예|예|
+|                         설치 관리자 유형                          | 필수 설치 | 사용 가능한 설치 | 제거 | 해당 없음 |
+|-----------------------------------------------------------------|------------------|-------------------|-----------|----------------|
+|         Windows 앱 패키지(사용자 그룹에 배포)          |       예        |        예        |    예    |      예       |
+|        Windows 앱 패키지(장치 그룹에 배포)         |       예        |        아니요         |    예    |      예       |
+|    모바일 장치용 앱 패키지(사용자 그룹에 배포)    |       예        |        예        |    예    |      예       |
+|   모바일 장치용 앱 패키지(장치 그룹에 배포)   |       예        |        아니요         |    예    |      예       |
+|          Windows Installer(사용자 그룹에 배포)           |        아니요        |        예        |    아니요     |      예       |
+|         Windows Installer(장치 그룹에 배포)          |       예        |        아니요         |    예    |      예       |
+|            외부 링크(사용자 그룹에 배포)             |        아니요        |        예        |    아니요     |      예       |
+|           외부 링크(장치 그룹에 배포)            |        아니요        |        아니요         |    아니요     |       아니요       |
+|  앱 스토어에서 관리되는 iOS 앱(사용자 그룹에 배포)  |       예        |        예        |    예    |      예       |
+| 앱 스토어에서 관리되는 iOS 앱(장치 그룹에 배포) |       예        |        아니요         |    예    |      예       |
+
 > [!TIP]
 > 앱을 배포할 때 사용자 및 장치 그룹을 둘 다 선택하는 경우 앱을 **사용 가능한 설치**로만 배포할 수 있습니다.
 

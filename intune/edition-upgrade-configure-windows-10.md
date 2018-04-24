@@ -1,27 +1,27 @@
 ---
-title: "Microsoft Intune-Azure를 사용한 Windows 10 장치 업그레이드 | Microsoft Docs"
-description: "Windows 10 장치를 최신 버전으로 업그레이드하려면 Microsoft Intune에서 장치 프로필을 만듭니다. Windows 10 Pro, N 버전, 교육, 클라우드, Enterprise, Core, Holographic 및 모바일에 대해 지원되는 업그레이드 경로를 참조하세요."
-keywords: 
+title: Microsoft Intune-Azure를 사용한 Windows 10 장치 업그레이드 | Microsoft Docs
+description: Windows 10 장치를 최신 버전으로 업그레이드하려면 Microsoft Intune에서 장치 프로필을 만듭니다. Windows 10 Pro, N 버전, 교육, 클라우드, Enterprise, Core, Holographic 및 모바일에 대해 지원되는 업그레이드 경로를 참조하세요.
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ae8b6528-7979-47d8-abe0-58cea1905270
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8084f1b2fbd513de596bd97f4ffec995b6f7aac4
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 994ab8e7d955d18b293e4d9e9661e0c44baaaa1f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-windows-10-edition-upgrade-profile-in-intune"></a>Intune에서 Windows 10 버전 업그레이드 설정 구성
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Windows 10 버전을 실행하는 장치를 다른 버전으로 자동으로 업그레이드하려면 Intune에서 업그레이드 프로필을 구성합니다. 또한 지원되는 업그레이드 경로를 참조합니다.
 
@@ -128,10 +128,10 @@ The following lists provide the supported upgrade paths for the Windows 10 editi
 5. **플랫폼** 드롭다운 목록에서 **Windows 10 이상**을 선택합니다.
 6. **프로필** 유형 드롭다운 목록에서 선택 **버전 업그레이드**를 선택합니다.
 7. **버전 업그레이드** 속성에서 다음 설정을 입력합니다.
-  - **업그레이드할 대상 버전** - 드롭다운 목록에서 대상 장치를 업그레이드할 Windows 10 Desktop, Windows 10 Holographic 또는 Windows 10 Mobile 버전을 선택합니다.
-  - **제품 키** - 대상으로 지정된 모든 Windows 10 Desktop 장치를 업그레이드하는 데 사용할 수 있는 Microsoft에서 받은 제품 키를 입력합니다. 
+   - **업그레이드할 대상 버전** - 드롭다운 목록에서 대상 장치를 업그레이드할 Windows 10 Desktop, Windows 10 Holographic 또는 Windows 10 Mobile 버전을 선택합니다.
+   - **제품 키** - 대상으로 지정된 모든 Windows 10 Desktop 장치를 업그레이드하는 데 사용할 수 있는 Microsoft에서 받은 제품 키를 입력합니다. 
     제품 키를 포함하는 정책을 만든 후에 해당 키는 업데이트될 수 없고 보안상의 이유로 숨겨집니다. 제품 키를 변경하려면 전체 키를 다시 입력합니다.
-  - **라이선스 파일** - **찾아보기**를 선택하여 Microsoft에서 받은 라이선스 파일을 선택합니다. 이 라이선스 파일은 대상 장치를 업그레이드할 Windows Holographic 또는 Windows 10 Mobile 버전에 대한 라이선스 정보를 포함합니다.
+   - **라이선스 파일** - **찾아보기**를 선택하여 Microsoft에서 받은 라이선스 파일을 선택합니다. 이 라이선스 파일은 대상 장치를 업그레이드할 Windows Holographic 또는 Windows 10 Mobile 버전에 대한 라이선스 정보를 포함합니다.
 8. 완료되면 **만들기**를 선택하여 변경 내용을 저장합니다.
 
 프로필이 만들어지고 프로필 목록에 표시됩니다.

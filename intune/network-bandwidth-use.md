@@ -1,29 +1,29 @@
 ---
-title: "Microsoft Intune에 대한 네트워크 요구 사항 및 대역폭 세부 정보"
-titlesuffix: 
-description: "Intune에 대한 네트워크 구성 요구 사항 및 대역폭 세부 정보를 검토합니다."
-keywords: 
+title: Microsoft Intune에 대한 네트워크 요구 사항 및 대역폭 세부 정보
+titlesuffix: ''
+description: Intune에 대한 네트워크 구성 요구 사항 및 대역폭 세부 정보를 검토합니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 01/24/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0f737d48-24bc-44cd-aadd-f0a1d59f6893
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b21c4421914294e84bae637e489065c5e4410839
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: c161d1ca120d5a0210cffca01e781f1ae9206fe4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="intune-network-configuration-requirements-and-bandwidth"></a>Intune 네트워크 구성 요구 사항 및 대역폭
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 Intune 관리자는 이 문서의 지침을 참조하여 Intune 서비스의 네트워크 요구 사항을 파악할 수 있습니다. 이 문서의 정보를 참조하여 프록시 설정에 필요한 IP 주소 및 포트 설정과 대역폭 요구 사항을 파악할 수 있습니다.
 
@@ -58,11 +58,13 @@ Intune 관리자는 이 문서의 지침을 참조하여 Intune 서비스의 네
 
 다음은 Intune 클라이언트의 콘텐츠를 캐시할 프록시 서버에 사용하는 일반적인 설정입니다.
 
-|Setting|권장 값|세부 정보|
-|-----------|---------------------|-----------|
-|캐시 크기|5GB - 30GB|값은 사용하는 구성 및 네트워크의 클라이언트 컴퓨터의 수에 따라 달라집니다. 파일이 너무 빠르게 삭제되지 않도록 하려면 환경에 맞게 캐시 크기를 조정하세요.|
-|개별 캐시 파일 크기|950 MB|이 설정은 모든 캐싱 프록시 서버에서 사용할 수 없습니다.|
-|캐시할 개체 유형|HTTP<br /><br />HTTPS<br /><br />BITS|Intune 패키지는 HTTP를 통한 BITS(Background Intelligent Transfer Service) 다운로드로 검색되는 CAB 파일입니다.|
+
+|          Setting           |           권장 값           |                                                                                                  세부 정보                                                                                                  |
+|----------------------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|         캐시 크기         |             5GB - 30GB             | 값은 사용하는 구성 및 네트워크의 클라이언트 컴퓨터의 수에 따라 달라집니다. 파일이 너무 빠르게 삭제되지 않도록 하려면 환경에 맞게 캐시 크기를 조정하세요. |
+| 개별 캐시 파일 크기 |                950 MB                 |                                                                     이 설정은 모든 캐싱 프록시 서버에서 사용할 수 없습니다.                                                                     |
+|   캐시할 개체 유형    | HTTP<br /><br />HTTPS<br /><br />BITS |                                               Intune 패키지는 HTTP를 통한 BITS(Background Intelligent Transfer Service) 다운로드로 검색되는 CAB 파일입니다.                                               |
+
 프록시 서버를 사용하여 콘텐츠를 캐시하는 방법에 대해서는 사용 중인 프록시 서버 솔루션의 설명서를 참조하세요.
 
 ### <a name="use-background-intelligent-transfer-service-on-computers"></a>컴퓨터에서 BITS(Background Intelligent Transfer Service) 사용
@@ -92,7 +94,7 @@ Intune은 Intune 소프트웨어를 실행하는 서버와 같은 온-프레미�
 
 방화벽 및 프록시 서버로 보호되는 컴퓨터를 관리하려면 Intune에 대한 통신을 사용하도록 설정해야 합니다.
 
--   프록시 서버는 **HTTP(80)**와 **HTTPS(443)**를 모두 지원해야 합니다. Intune 클라이언트에서 두 프로토콜을 모두 사용하기 때문입니다.
+-   프록시 서버는 **HTTP(80)** 와 **HTTPS(443)** 를 모두 지원해야 합니다. Intune 클라이언트에서 두 프로토콜을 모두 사용하기 때문입니다.
 -   Intune에서 소프트웨어 및 업데이트 다운로드 등의 일부 작업을 수행하려면 manage.microsoft.com에 대한 인증되지 않은 프록시 서버 액세스가 필요합니다.
 
 개별 클라이언트 컴퓨터에서 프록시 서버 설정을 수정할 수도 있고, 그룹 정책을 사용하여 지정된 프록시 서버로 보호되는 모든 클라이언트 컴퓨터의 설정을 변경할 수도 있습니다.
@@ -159,14 +161,16 @@ Intune은 Intune 소프트웨어를 실행하는 서버와 같은 온-프레미�
 |fef.msuc05.manage.microsoft.com|52.230.16.180|
 
 ### <a name="apple-device-network-information"></a>Apple 장치 네트워크 정보
-| 호스트 이름  | URL(IP 주소/서브넷) | 프로토콜 | 포트 | 장치 |
-| --- | --- | --- | --- | --- |
-|  관리 사용자  | gateway.push.apple.com(17.0.0.0/8) | TCP | 2195 | Apple iOS 및 macOS |
-| 관리 사용자  | feedback.push.apple.com(17.0.0.0/8) | TCP | 2196 | Apple iOS 및 macOS |
-| 관리 사용자  | Apple iTunesitunes.apple.com, \*.mzstatic.com, \*.phobos.apple.com, \*.phobos.apple.com.edgesuite.net | HTTP | 80 | Apple iOS 및 macOS  |
-| PI Server  | gateway.push.apple.com(17.0.0.0/8) feedback.push.apple.com(17.0.0.0/8) | TCP | 2195, 2196 | Apple iOS와 macOS 클라우드 메시징의 경우입니다. |
-| 장치 서비스  | gateway.push.apple.com | TCP | 2195 | Apple  |
-| 장치 서비스  | feedback.push.apple.com | TCP | 2196 | Apple  |
-| 장치 서비스  | Apple iTunesitunes.apple.com \*.mzstatic.com\*.phobos.apple.com \*.phobos.apple.com.edgesuite.net | HTTP | 80 | Apple  |
-| 장치(인터넷/Wi-Fi) | #-courier.push.apple.com(17.0.0.0/8) | TCP | 5223 및 443 | Apple에만 해당합니다. &#39;#&#39;는 0~200 사이의 임의 숫자입니다. |
-| 장치(인터넷/Wi-Fi) | phobos.apple.comocsp.apple.comax.itunes.apple.com | HTTP/HTTPS | 80 또는 443 | Apple에만 해당합니다. |
+
+|         호스트 이름         |                                        URL(IP 주소/서브넷)                                        |  프로토콜  |     포트     |                          장치                           |
+|--------------------------|-------------------------------------------------------------------------------------------------------|------------|--------------|-----------------------------------------------------------|
+|      관리 사용자       |                                  gateway.push.apple.com(17.0.0.0/8)                                  |    TCP     |     2195     |                    Apple iOS 및 macOS                    |
+|      관리 사용자       |                                  feedback.push.apple.com(17.0.0.0/8)                                  |    TCP     |     2196     |                    Apple iOS 및 macOS                    |
+|      관리 사용자       | Apple iTunesitunes.apple.com, \*.mzstatic.com, \*.phobos.apple.com, \*.phobos.apple.com.edgesuite.net |    HTTP    |      80      |                    Apple iOS 및 macOS                    |
+|        PI Server         |                gateway.push.apple.com(17.0.0.0/8) feedback.push.apple.com(17.0.0.0/8)                 |    TCP     |  2195, 2196  |         Apple iOS와 macOS 클라우드 메시징의 경우입니다.          |
+|     장치 서비스      |                                        gateway.push.apple.com                                         |    TCP     |     2195     |                           Apple                           |
+|     장치 서비스      |                                        feedback.push.apple.com                                        |    TCP     |     2196     |                           Apple                           |
+|     장치 서비스      |   Apple iTunesitunes.apple.com \*.mzstatic.com\*.phobos.apple.com \*.phobos.apple.com.edgesuite.net   |    HTTP    |      80      |                           Apple                           |
+| 장치(인터넷/Wi-Fi) |                                 #-courier.push.apple.com(17.0.0.0/8)                                  |    TCP     | 5223 및 443 | Apple에만 해당합니다. &#39;#&#39;는 0~200 사이의 임의 숫자입니다. |
+| 장치(인터넷/Wi-Fi) |                           phobos.apple.comocsp.apple.comax.itunes.apple.com                           | HTTP/HTTPS |  80 또는 443   |                        Apple에만 해당합니다.                         |
+

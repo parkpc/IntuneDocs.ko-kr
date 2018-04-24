@@ -13,15 +13,15 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: 323f384d-8a76-4adc-999b-e508d641bfa1
 ms.custom: intune-azure
-ms.openlocfilehash: 026f7e4177553c8aa7fdb86fd8b24514b1ca64c9
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: b8f33d1cde7ab1b35f643f49af005fdbdb560a02
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-classic-groups-in-the-azure-portal"></a>Azure Portal의 Microsoft Intune 클래식 그룹
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Microsoft는 피드백을 경청하여 Microsoft Intune에서 그룹을 사용하는 방법을 변경했습니다.
 Azure Portal에서 Intune을 사용하는 경우 Intune 그룹이 Azure Active Directory 보안 그룹으로 마이그레이션되었습니다.

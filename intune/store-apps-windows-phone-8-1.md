@@ -1,29 +1,29 @@
 ---
-title: "Microsoft Intune에 Windows Phone 8.1 스토어 앱을 추가하는 방법"
-titleSuffix: 
-description: "Microsoft Intune에 Windows Phone 8.1 스토어 앱을 추가하는 방법을 알아봅니다."
-keywords: 
+title: Microsoft Intune에 Windows Phone 8.1 스토어 앱을 추가하는 방법
+titleSuffix: ''
+description: Microsoft Intune에 Windows Phone 8.1 스토어 앱을 추가하는 방법을 알아봅니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/06/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 4a95e575-2c63-4bfc-b9c4-f0a132eef618
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e4c3935c8dc263ceef9981a9fc9c47ace6f77d86
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 772257369368783a02a826cddc323960fea436b9
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-add-windows-phone-81-store-apps-to-microsoft-intune"></a>Microsoft Intune에 Windows Phone 8.1 스토어 앱을 추가하는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 앱은 장치 또는 사용자 그룹에 할당하기 전에 먼저 앱을 Microsoft Intune에 추가해야 합니다. 다음 단계를 사용하면 Azure 포털에서 Windows Phone 8.1 스토어 앱을 Intune에 추가할 수 있습니다.
 
@@ -46,7 +46,7 @@ ms.lasthandoff: 03/12/2018
     - **소유자** - 필요에 따라 이 앱의 소유자 이름을 입력합니다(예: **HR 부서**).
     - **메모** - 이 앱과 연결할 모든 메모를 입력합니다.
     - **로고** - 앱과 연결할 아이콘을 업로드합니다. 사용자가 회사 포털을 찾아볼 때 이 아이콘이 앱과 함께 표시됩니다.
-8. 완료되면 **앱 추가** 창에서 **추가**를 선택합니다.
+8. 작업이 완료되면 **앱 추가** 창에서 **추가**를 선택합니다.
 
 만든 앱이 앱 목록에 표시됩니다. 이 목록에서 선택한 그룹에 앱을 할당할 수 있습니다. 도움말은 [그룹에 앱을 할당하는 방법](apps-deploy.md)을 참조하세요.
 

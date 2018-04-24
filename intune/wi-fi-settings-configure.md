@@ -1,27 +1,27 @@
 ---
-title: "Intune Wi-Fi 설정을 구성하는 방법"
+title: Intune Wi-Fi 설정을 구성하는 방법
 titleSuffix: Microsoft Intune
-description: "관리하는 장치에서 Microsoft Intune을 사용하여 Wi-Fi 연결을 구성하는 방법을 알아봅니다."
-keywords: 
+description: 관리하는 장치에서 Microsoft Intune을 사용하여 Wi-Fi 연결을 구성하는 방법을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 03/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 90d2df028d5a61bb134b6a2b76efa570eed80f20
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 9a550e2963fa60a91db3ef63f7771bc4ca352d98
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-configure-wi-fi-settings-in-microsoft-intune"></a>Microsoft Intune에서 Wi-Fi 설정을 구성하는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Microsoft Intune Wi-Fi 프로필을 사용하여 무선 네트워크 설정을 조직의 사용자와 장치에 할당합니다. Wi-Fi 프로필을 할당하면 사용자가 Wi-Fi를 직접 구성하지 않고도 회사 Wi-Fi 네트워크에 액세스할 수 있습니다.
 

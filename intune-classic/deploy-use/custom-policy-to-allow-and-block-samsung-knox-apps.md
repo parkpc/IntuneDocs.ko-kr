@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a47e1388f640f96c2650e284ae0a5311fd816ba7
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 22018a241664a02aa99b9a3b1a53aa559ab42db5
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices"></a>사용자 지정 정책을 사용하여 Samsung KNOX Standard 장치에 대해 앱을 허용하거나 차단
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목의 절차를 사용하여 다음 중 하나를 만들 수 있는 Microsoft Intune 사용자 지정 정책을 만듭니다.
 
@@ -39,21 +39,21 @@ ms.lasthandoff: 03/22/2018
 3. 정책에 대한 다음 이름 및 선택적 설명을 제공한 다음 **OMA-URI 설정** 섹션에서 **추가**를 선택합니다.
 4. **OMA URI 설정 추가 또는 편집** 대화 상자에서 다음을 지정합니다. 장치에서 실행이 차단된 앱 목록의 경우
     
-    - **설정 이름.** **PreventStartPackages**를 입력합니다.
-    - **설정 설명.** ‘실행이 차단된 앱 목록’과 같이 설명을 선택적으로 입력합니다.
-    -   **데이터 형식.** 드롭다운 목록에서 **문자열**을 선택합니다.
-    -   **OMA-URI.** **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**를 입력합니다.
-    -   **값.** 차단할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|**를 사용할 수 있습니다. (예: package1, package2;)
+   - **설정 이름.** **PreventStartPackages**를 입력합니다.
+   - **설정 설명.** ‘실행이 차단된 앱 목록’과 같이 설명을 선택적으로 입력합니다.
+   - **데이터 형식.** 드롭다운 목록에서 **문자열**을 선택합니다.
+   - **OMA-URI.** **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**를 입력합니다.
+   - **값.** 차단할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|** 를 사용할 수 있습니다. (예: package1, package2;)
 
-    사용자가 다른 앱을 모두 제외하는 반면 Google Play 스토어에서 설치할 수 있도록 허용된 앱 목록의 경우
+     사용자가 다른 앱을 모두 제외하는 반면 Google Play 스토어에서 설치할 수 있도록 허용된 앱 목록의 경우
 
-    - **설정 이름.** **AllowInstallPackages**를 입력합니다.
-    - **설정 설명.** ‘사용자가 Google Play 스토어에서 설치할 수 있는 앱 목록’과 같이 설명을 선택적으로 입력합니다.
-    - **데이터 형식.** 드롭다운 목록에서 **문자열**을 선택합니다.
-    - **OMA-URI.** **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/AllowInstallPackages**를 입력합니다.
-    - **값.** 허용할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|**를 사용할 수 있습니다. (예: package1, package2;)
+   - **설정 이름.** **AllowInstallPackages**를 입력합니다.
+   - **설정 설명.** ‘사용자가 Google Play 스토어에서 설치할 수 있는 앱 목록’과 같이 설명을 선택적으로 입력합니다.
+   - **데이터 형식.** 드롭다운 목록에서 **문자열**을 선택합니다.
+   - **OMA-URI.** **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/AllowInstallPackages**를 입력합니다.
+   - **값.** 허용할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|** 를 사용할 수 있습니다. (예: package1, package2;)
 
-4. **확인**을 클릭한 다음 **정책 저장**을 클릭합니다. 
+5. **확인**을 클릭한 다음 **정책 저장**을 클릭합니다. 
 
 >[!TIP]
 > Google Play 스토어에서 앱을 탐색하여 앱의 패키지 ID를 찾을 수 있습니다. 패키지 ID는 앱 페이지의 URL에 포함되어 있습니다. 예를 들어 Microsoft Word 앱의 패키지 ID는 **com.microsoft.office.word**입니다.

@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8e11ae063bc2cc302af238ab9062da82c6b6c30c
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 058a44d6ef97cbc35786312461c6077bc2feaf3b
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="quick-start-guide-simplify-email-configuration-on-mobile-devices"></a>빠른 시작 가이드: 모바일 장치에서 메일 구성 단순화
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune은 Intune 서비스에서 관리되는 Windows, iOS 및 Android 모바일 장치에 메일(VPN 및 Wi-Fi) 프로필에 배포할 수 있도록 허용하여 회사의 작업 시간과 리소스를 절약합니다. 메일 프로필을 자동으로 구성하면 기술 지원팀의 비용은 줄이면서 동시에 최종 사용자 환경이 크게 향상되고 만족도는 증가할 수 있습니다.
 

@@ -1,31 +1,31 @@
 ---
-title: "Windows 정책 설정"
-description: "Intune Windows 일반 구성 정책(Windows 8.1 이상)을 사용하여 등록된 Windows 8.1 및 Windows 8 장치에 대한 설정을 구성합니다."
-keywords: 
+title: Windows 정책 설정
+description: Intune Windows 일반 구성 정책(Windows 8.1 이상)을 사용하여 등록된 Windows 8.1 및 Windows 8 장치에 대한 설정을 구성합니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: angrobe
 ms.date: 10/11/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6982a2bc-aafa-475a-9236-4840b709e5a1
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9fa8d8454e9d22b2d3c36cd6449805d709c34ffa
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: ccd5bd201de59537dbf99ea9e19d84dbf80c1a20
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="windows-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 Windows 정책 설정
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
-Microsoft Intune **Windows 일반 구성 정책(Windows 8.1 이상)**을 사용하여 등록된 Windows 8, Windows 8.1 및 Windows RT 8.1 장치에 대한 다음 설정을 구성합니다.
+Microsoft Intune **Windows 일반 구성 정책(Windows 8.1 이상)** 을 사용하여 등록된 Windows 8, Windows 8.1 및 Windows RT 8.1 장치에 대한 다음 설정을 구성합니다.
 
 ## <a name="applicability-settings"></a>적용 가능성 설정
 
@@ -49,9 +49,10 @@ Microsoft Intune **Windows 일반 구성 정책(Windows 8.1 이상)**을 사용�
 
 ## <a name="encryption-settings"></a>암호화 설정
 
-|설정 이름|세부 정보|
-|----------------|-----|
-|**모바일 장치 암호화 필요**<sup>1</sup>|장치의 파일을 암호화해야 합니다.|
+|                           설정 이름                           |                     세부 정보                      |
+|------------------------------------------------------------------|--------------------------------------------------|
+| <strong>모바일 장치 암호화 필요</strong><sup>1</sup> | 장치의 파일을 암호화해야 합니다. |
+
 <sup>1</sup> Windows 8.1을 실행하는 장치에 대한 추가 정보
 
 -   Windows 8.1을 실행하는 장치에 암호화를 적용하려면 각 장치에 [Windows용 December 2014 MDM 클라이언트 업데이트](http://support.microsoft.com/kb/3013816) 를 설치해야 합니다.

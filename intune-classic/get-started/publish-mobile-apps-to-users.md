@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ef4eac0e0841ba20a966f2ee30ed51659f25afa3
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 6e4afa232309572016c3f585ecaf27032cafc7ba
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="quick-start-guide-publish-mobile-apps-to-your-users"></a>빠른 시작 가이드: 사용자에게 모바일 앱 게시
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune은 선택한 장치에서 필요한 모바일 및 데스크톱 앱 액세스 권한을 최종 사용자에게 쉽고 신속하게 부여하여 최종 사용자들의 생산성을 높이는 데 도움이 됩니다. 앱을 쉽게 만드는 기능이 최종 사용자에게 제공되면 올바른 앱을 검색하고 설치하는 데 사용자가 소모하는 시간과 노력이 줄어들고, 필요한 앱을 찾을 수 없는 경우 기술 지원팀에 문의하는 횟수가 줄어듭니다.   
 

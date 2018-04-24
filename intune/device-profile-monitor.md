@@ -14,15 +14,15 @@ ms.assetid: 9deaed87-fb4b-4689-ba88-067bc61686d7
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ddf8c7366cf97e251d85b995cb620e61f9d5f4ef
-ms.sourcegitcommit: 390a4be5aa36007c36fb6a5abcfe8d20bc862a4b
+ms.openlocfilehash: cccd6b1a65e97386458ec68098c4c42521d0f82b
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="monitor-device-profiles-in-microsoft-intune"></a>Microsoft Intune에서 장치 프로필 모니터링
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 두 가지 방법으로 Intune 장치 프로필의 할당 진행률을 모니터링할 수 있습니다.
 

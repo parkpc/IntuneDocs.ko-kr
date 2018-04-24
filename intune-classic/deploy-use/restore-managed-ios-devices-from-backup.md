@@ -1,29 +1,29 @@
 ---
-title: "Intune 관리 iOS 장치를 백업에서 복원"
-description: "백업에서 복원한 후 해당 장치를 다시 등록하는 방법에 대한 지침을 최종 사용자에게 제공합니다."
-keywords: "복원, 관리되는, iOS"
-author: barlanmsft
-ms.author: barlan
+title: Intune 관리 iOS 장치를 백업에서 복원
+description: 백업에서 복원한 후 해당 장치를 다시 등록하는 방법에 대한 지침을 최종 사용자에게 제공합니다.
+keywords: 복원, 관리되는, iOS
+author: lenewsad
+ms.author: lanewsad
 manager: angrobe
 ms.date: 10/18/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: a19e5612-8805-4bd7-a86a-b734bde293ae
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2270e19ab2f45d7f3636226709b8a0fbea075ed0
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 2c2a35a7faa022ab2b9b095d4a08075e1c338c70
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="restore-intune-managed-ios-devices-from-backup"></a>Intune 관리 iOS 장치를 백업에서 복원
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 새 장치를 가져오는 경우와 같이 사용자가 iOS 장치를 백업에서 복원해야 할 경우가 있습니다. 이 항목에서는 장치를 복원한 후 Intune 관리 설정을 위해 수행해야 할 추가 단계를 설명합니다.
 

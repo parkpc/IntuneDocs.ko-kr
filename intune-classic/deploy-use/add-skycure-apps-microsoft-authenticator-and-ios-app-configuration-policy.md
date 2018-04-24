@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 45412855db4afd9dd03b2139a3720d1619d293e2
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 3538b3b326ee45dfcc0912c89d1766e04d88051e
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-skycure-apps-microsoft-authenticator-app-and-ios-configuration-policy"></a>Skycure 앱, Microsoft Authenticator 앱 및 iOS 구성 정책 추가
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 최종 사용자가 모바일 장치에서 위협이 식별될 때 알림을 받을 수 있도록 Skycure 앱을 추가 및 배포하고, 위협을 해결하기 위한 지침을 받으려면 Intune을 사용해야 합니다.
 
@@ -93,7 +93,7 @@ ms.lasthandoff: 03/22/2018
 
 1.  Intune 클래식 포털에서 **정책** &gt; **개요 &gt; 정책 추가**를 선택합니다.
 
-2.  정책 목록에서 **iOS**를 확장하고 **모바일 앱 구성 정책(iOS 8.0 이상)**을 선택한 다음 **정책 만들기**를 선택합니다.
+2.  정책 목록에서 **iOS**를 확장하고 **모바일 앱 구성 정책(iOS 8.0 이상)** 을 선택한 다음 **정책 만들기**를 선택합니다.
 
     ![iOS 앱 구성 정책](../media/mtp/skycure-add-apps-7.png)
 

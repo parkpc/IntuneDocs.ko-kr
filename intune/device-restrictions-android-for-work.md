@@ -2,8 +2,8 @@
 title: Microsoft Intune에서 Android for Work에 대한 장치 제한 사항 - Azure | Microsoft Docs
 description: Android for Work를 실행하는 장치에서 복사 및 붙여넣기, 표시 알림, 앱 사용 권한, 데이터 공유, 암호 길이, 로그인 오류, 잠금에 지문 사용, 암호 다시 사용 및 작업 연락처 Bluetooth 공유 설정을 비롯한 장치의 일부 설정을 제한할 수 있습니다.
 keywords: ''
-author: vhorne
-ms.author: victorh
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 3/19/2018
 ms.topic: article
@@ -12,17 +12,17 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c155817e0bc9df00087908a86fcfcb675fa0ad97
-ms.sourcegitcommit: a22309174e617e59ab0cdd0a55abde38711a5f35
+ms.openlocfilehash: 11ce7fa7fa4d48d9cc292b7b6565b6b4f2be2dc4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="work-device-restriction-settings-in-intune"></a>Intune에서 장치 제한 사항 설정 작업
 
 이 아티클에서는 Android for Work을 실행하는 장치에 대해 구성할 수 있는 모든 Microsoft Intune 장치 제한 사항 설정을 나열합니다.
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## <a name="work-profile-settings"></a>업무용 프로필 설정
 
@@ -48,6 +48,8 @@ ms.lasthandoff: 03/23/2018
    최종 사용자가 작업 프로필의 계정을 수동으로 추가 또는 삭제하지 못하게 방지합니다.
 
    예를 들어 Android for Work 프로필에 Gmail 앱을 배포할 경우 최종 사용자가 해당 작업 프로필에 계정 추가나 제거를 방지할 수 있습니다.
+
+- **Bluetooth를 통한 연락처 공유**: Bluetooth를 사용하여 쌍을 이루는 자동차 등의 다른 장치에서 작업 연락처에 액세스할 수 있습니다. 기본적으로 이 설정은 구성되지 않고 작업 프로필 연락처는 표시되지 않습니다. 이 공유를 허용하고 작업 프로필 연락처를 표시하려면 **사용**을 선택합니다. 이 설정은 Android OS v6.0 이상의 Android 작업 프로필 장치에 적용됩니다.
 
 ### <a name="work-profile-password"></a>회사 프로필 암호
 

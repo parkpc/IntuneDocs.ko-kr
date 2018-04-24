@@ -1,27 +1,27 @@
 ---
-title: "Windows 10 Team에 대한 Windows Intune 장치 제한"
-titlesuffix: 
-description: "Windows 10 Team을 실행하는 장치에 사용할 수 있는 장치 제한을 알아봅니다."
-keywords: 
+title: Windows 10 Team에 대한 Windows Intune 장치 제한
+titlesuffix: ''
+description: Windows 10 Team을 실행하는 장치에 사용할 수 있는 장치 제한을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 69cceda6857412f7e9a50c58d075caeee4ea9c20
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 5d1198e8332645297ab0739bb0346c573877f0c3
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-windows-10-team-device-restriction-settings"></a>Microsoft Intune Windows 10 Team 장치 제한 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이 아티클에서는 Windows 10 Team을 실행하는 장치에 대해 구성할 수 있는 Microsoft Intune 장치 제한 설정을 보여줍니다.
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/08/2018
 - **시작 화면에 표시되는 모임 정보** - 시작 화면의 모임 타일에 표시되는 정보를 선택하려면 이 옵션을 사용합니다. 다음과 같습니다.
     - **이끌이 및 시간만 표시**
     - **이끌이, 시간 및 제목 표시(비공개 모임의 경우 제목이 숨겨짐)**
-- **시작 화면 배경 이미지 URL** - 지정한 URL에서 Windows 10 Team 장치의 **시작** 화면에 사용자 지정 배경을 표시하려면 이 설정을 사용하도록 설정합니다.<br>이미지는 PNG 형식이어야 하며 URL은 **https://**로 시작되어야 합니다.
+- **시작 화면 배경 이미지 URL** - 지정한 URL에서 Windows 10 Team 장치의 **시작** 화면에 사용자 지정 배경을 표시하려면 이 설정을 사용하도록 설정합니다.<br>이미지는 PNG 형식이어야 하며 URL은 **https://** 로 시작되어야 합니다.
 
 ## <a name="azure-operational-insights"></a>Azure Operational Insights
 

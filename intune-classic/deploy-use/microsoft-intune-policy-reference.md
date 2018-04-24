@@ -1,29 +1,29 @@
 ---
-title: "구성 정책 참조"
-description: "장치를 관리하는 데 사용해야 하는 Microsoft Intune 정책을 결정할 수 있도록 이 항목의 정보를 사용합니다."
-keywords: 
+title: 구성 정책 참조
+description: 장치를 관리하는 데 사용해야 하는 Microsoft Intune 정책을 결정할 수 있도록 이 항목의 정보를 사용합니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: angrobe
 ms.date: 10/11/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: d27f2739-9791-4aae-a9db-01a4e59ccfe5
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: bf92e34c5bb94fe0cb3c0cc9dabd687a0f2710b9
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 46bc3408f861bcd249ca5071abf1ee80733af10d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-configuration-policy-reference"></a>Microsoft Intune 구성 정책 참조
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 장치를 관리하는 데 사용해야 하는 Microsoft Intune 구성 정책을 결정할 수 있도록 이 항목의 정보를 사용합니다.
 
@@ -102,12 +102,13 @@ Windows Phone 및 등록된 Windows 장치에만 적용됩니다.
 
 ## <a name="common-mobile-device-settings"></a>공용 모바일 장치 설정
 
-|정책 이름|다음을 수행하려는 경우에 사용|
-|---------------|------------------------|
-|**Exchange ActiveSync 정책**|모바일 장치 보안 및 Exchange ActiveSync에서 관리되는 장치에 대한 기능 설정을 구성합니다.<br /><br />자세한 내용은 [Microsoft Intune의 Exchange ActiveSync 정책 설정](exchange-activesync-policy-settings-in-microsoft-intune.md)을 참조하세요.|
-|**모바일 장치 보안 정책**|<ul><li>다음을 포함한 모바일 장치(모든 플랫폼)에 대한 설정을 구성합니다.<br /><br /><ul><li>보안</li><li>암호화</li><li>시스템</li><li>메일</li><li>응용 프로그램</li></ul></li></ul>
+|                  정책 이름                   |                                                                                                                       다음을 수행하려는 경우에 사용                                                                                                                       |
+|------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <strong>Exchange ActiveSync 정책</strong>   | 모바일 장치 보안 및 Exchange ActiveSync에서 관리되는 장치에 대한 기능 설정을 구성합니다.<br /><br />자세한 내용은 [Microsoft Intune의 Exchange ActiveSync 정책 설정](exchange-activesync-policy-settings-in-microsoft-intune.md)을 참조하세요. |
+| <strong>모바일 장치 보안 정책</strong> |                                  <ul><li>다음을 포함한 모바일 장치(모든 플랫폼)에 대한 설정을 구성합니다.<br /><br /><ul><li>보안</li><li>암호화</li><li>시스템</li><li>메일</li><li>응용 프로그램</li></ul></li></ul>                                  |
+
 > [!IMPORTANT]
-이제 Microsoft Intune에서는 각 장치 플랫폼에 대해 개별 **구성 정책**을 사용하며 이러한 정책에는 사용할 수 있는 최신 설정이 포함되어 있습니다. 모바일 장치 보안 정책을 계속해서 사용할 수 있으며 기존 배포가 계속 작동하지만, 새 구성 정책으로 최대한 빨리 마이그레이션하는 계획을 세워야 합니다.<br />자세한 내용은 [Microsoft Intune의 모바일 장치 보안 정책 설정](mobile-device-security-policy-settings-in-microsoft-intune.md)을 참조하세요.
+> 이제 Microsoft Intune에서는 각 장치 플랫폼에 대해 개별 **구성 정책**을 사용하며 이러한 정책에는 사용할 수 있는 최신 설정이 포함되어 있습니다. 모바일 장치 보안 정책을 계속해서 사용할 수 있으며 기존 배포가 계속 작동하지만, 새 구성 정책으로 최대한 빨리 마이그레이션하는 계획을 세워야 합니다.<br />자세한 내용은 [Microsoft Intune의 모바일 장치 보안 정책 설정](mobile-device-security-policy-settings-in-microsoft-intune.md)을 참조하세요.
 
 ## <a name="policies-for-windows-pcs-managed-by-the-intune-software-client"></a>Intune 소프트웨어 클라이언트를 통해 관리하는 Windows PC용 정책
 

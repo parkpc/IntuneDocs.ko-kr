@@ -15,11 +15,11 @@ ms.assetid: 73DF3B90-6D52-4EF6-AFFD-1873A18C7421
 ms.reviewer: dariusz
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 74c6868caace323699e4c84ddc90278dadb56b6a
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: bd4ddf9712746cb97886e94e728b5a31a26f8786
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="reference-for-intune-management-extension"></a>Intune 관리 확장에 대한 참조
 
@@ -51,10 +51,12 @@ ms.lasthandoff: 03/16/2018
 **IntuneManagementExtension**은 일별 각 Windows 10 장치의 IntuneManagementExtension 상태를 나열합니다.
 데이터는 최근 60일 동안 보존됩니다. 
 
-| 속성  | 설명 | 예제 |
-|---------|------------|--------|
-| DateKey |날짜의 고유 식별자입니다. | 123 |
-| TenantKey |테넌트의 고유 식별자입니다. | 456 |
-| DeviceKey |장치의 고유 식별자입니다. | 789 |
-| ExtensionVersionKey |IntuneManagementExtension 버전의 고유 식별자입니다. | 1 |
-| ExtensionStateKey|상태의 고유 식별자입니다. | 2 |
+
+|      속성       |                         설명                         | 예제 |
+|---------------------|-------------------------------------------------------------|---------|
+|       DateKey       |               날짜의 고유 식별자입니다.                |   123   |
+|      TenantKey      |              테넌트의 고유 식별자입니다.               |   456   |
+|      DeviceKey      |              장치의 고유 식별자입니다.               |   789   |
+| ExtensionVersionKey | IntuneManagementExtension 버전의 고유 식별자입니다. |    1    |
+|  ExtensionStateKey  |             상태의 고유 식별자입니다.              |    2    |
+

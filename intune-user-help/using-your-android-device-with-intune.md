@@ -1,27 +1,27 @@
 ---
-title: "Intune에서 Android 장치 사용 | Microsoft 문서"
-description: "Intune에서 장치가 등록될 때 최종 사용자가 Android 모바일 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록"
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Intune에서 Android 장치 사용 | Microsoft 문서
+description: Intune에서 장치가 등록될 때 최종 사용자가 Android 모바일 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 10/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 09992912c439e639f7410ea93a95f0c52ed9a22d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 347757a333bcfd8e649cb621f0a95c83f24cdc88
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-your-android-device-with-intune"></a>Intune에서 Android 장치 사용
 
@@ -44,11 +44,11 @@ Intune은 현재 Android 4.4 이상을 지원합니다. Samsung Knox 4.4 이상 
 - [PIN 또는 암호 설정](set-your-pin-or-password-android.md)
 - [회사의 VPN(가상 사설망) 설치](install-your-companys-virtual-private-network-VPN-android.md)
 - [장치가 잠기기 전의 시간 설정](set-the-amount-of-time-before-your-device-is-locked-android.md)
-<!--- [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-android.md)-->
+  <!--- [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-android.md)-->
 - [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-device-cpwebsite.md)
 - [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-android.md)
 - [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-android.md)
 - [사용 약관을 거부한 경우 장치 등록 취소](unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
 - [Intune에서 장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-android.md)
 - [회사 포털 앱을 사용하여 Android 장치를 초기화하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
-<!--- - [What is the Rights Management sharing app?](what-is-the-rms-sharing-app-android.md) --->
+  <!--- - [What is the Rights Management sharing app?](what-is-the-rms-sharing-app-android.md) --->

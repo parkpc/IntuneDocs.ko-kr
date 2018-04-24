@@ -1,28 +1,28 @@
 ---
-title: "Intune을 사용한 앱 기반 조건부 액세스 정책 설정"
-description: "Intune을 사용한 앱 기반 조건부 액세스 정책 설정을 만드는 방법을 알아봅니다."
-keywords: 
+title: Intune을 사용한 앱 기반 조건부 액세스 정책 설정
+description: Intune을 사용한 앱 기반 조건부 액세스 정책 설정을 만드는 방법을 알아봅니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: d1693515-de18-4553-91ef-801976cd3ec7
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5ab442f49e0eabc4162bd2f56865ed42d96ae5db
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: b7e3654021935495189b62da5257793383586137
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-app-based-conditional-access-policies-with-intune"></a>Intune을 사용한 앱 기반 조건부 액세스 정책 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이 아티클에서는 승인된 앱 목록에 포함된 앱에 대해 앱 기반 조건부 액세스 정책을 설정하는 방법을 설명합니다. 승인된 앱 목록은 Microsoft에서 테스트한 앱으로 구성됩니다.
 

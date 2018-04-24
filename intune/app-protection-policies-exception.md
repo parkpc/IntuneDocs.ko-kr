@@ -1,29 +1,29 @@
 ---
-title: "응용 프로그램을 위한 데이터 전송 정책 예외"
+title: 응용 프로그램을 위한 데이터 전송 정책 예외
 titleSuffix: Microsoft Intune
-description: "Intune 모바일 응용 프로그램 관리(MAM) 데이터 전송 정책에 대한 예외를 만듭니다."
-keywords: 
+description: Intune 모바일 응용 프로그램 관리(MAM) 데이터 전송 정책에 대한 예외를 만듭니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/20/2018
+ms.date: 03/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f9015e3a-c22c-42eb-90e6-ba48dee3a41d
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e1e37e78f7272b0f53f974eccb20c7e02574a9a9
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 1910334093a416933912c9cdeedac85e36d66e92
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-create-exceptions-to-the-intune-mobile-application-management-mam-data-transfer-policy"></a>Intune 모바일 응용 프로그램 관리(MAM) 데이터 전송 정책에 대한 예외를 만드는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 관리자로서 Intune 모바일 응용 프로그램 관리(MAM) 데이터 전송 정책에 대한 예외를 만들 수 있습니다. 예외를 통해 관리되지 않는 응용 프로그램과 관리되는 응용 프로그램 간에 데이터를 전송할 수 있도록 구체적으로 선택할 수 있습니다. 예외 목록에 포함된 관리되지 않는 응용프로그램은 IT의 신뢰를 받아야 합니다. 
 
@@ -39,6 +39,10 @@ IOS를 대상으로 하는 정책의 경우 URL 프로토콜에서 데이터 전
 
 ## <a name="android-data-transfer-exceptions"></a>Android 데이터 전송 예외
 Android 대상으로 하는 정책의 경우 응용 프로그램 패키지 이름으로 데이터 전송 예외를 구성할 수 있습니다. 예외를 추가하고자 하는 응용 프로그램에 대해 **Google Play** 스토어 페이지를 확인해 응용 프로그램 패키지 이름을 찾을 수 있습니다. Android 데이터 전송 예외에 대한 자세한 내용은 [Android 응용 프로그램 보호 정책 설정 - 데이터 전송 예외](app-protection-policy-settings-android.md#data-transfer-exemptions)를 참조합니다.
+
+
+>[!TIP]
+> Google Play 스토어에서 앱을 탐색하여 앱의 패키지 ID를 찾을 수 있습니다. 패키지 ID는 앱 페이지의 URL에 포함되어 있습니다. 예를 들어 Microsoft Word 앱의 패키지 ID는 **com.microsoft.office.word**입니다.
 
 ### <a name="example"></a>예제
 **Webex** 패키지를 예외로 MAM 데이터 전송 정책에 추가함으로써 관리되는 Outlook 이메일 메시지 내의 Webex 링크는 Webex 응용 프로그램에서 직접 열 수 있습니다. 데이터 전송은 관리되지 않는 다른 응용 프로그램에서 계속 제한됩니다.

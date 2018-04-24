@@ -1,24 +1,24 @@
 ---
-title: "정책"
+title: 정책
 titlesuffix: Microsoft Intune
-description: "Intune 데이터 웨어하우스 API에서 엔터티 컬렉션의 정책 범주에 대한 항목을 참조하세요."
-keywords: "Intune 데이터 웨어하우스"
+description: Intune 데이터 웨어하우스 API에서 엔터티 컬렉션의 정책 범주에 대한 항목을 참조하세요.
+keywords: Intune 데이터 웨어하우스
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 02/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c5546c686a51170c8c854252cddb048685c6b2d2
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: 0cfeffd4cb466d8bcfc2da072e7e6c028a4e0c8a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="reference-for-policy-entities"></a>정책 엔터티에 대한 참조
 
@@ -157,10 +157,12 @@ PolicyKey|정책 키 - Policy와 조인하여 policyName을 가져올 수 있습
 
 다음 표는 하루에 성공, 보류, 실패 또는 오류 상태에 있는 사용자 수를 나열합니다. 수는 데이터별 정책 유형 프로필을 반영합니다. 예를 들어 사용자가 모든 할당된 정책에 대해 성공 상태에 있으면 해당 날짜에 대한 성공 카운터를 1만큼 높입니다. 사용자에게 두 프로필이 할당된 경우(하나는 성공 상태, 하나는 오류 상태) 오류 상태의 사용자를 카운트합니다. PolicyUserActivity 엔터티는 지난 30일 동안 특정 날짜에 해당 상태에 있는 장치가 몇 개인지 표시합니다.
 
-|속성  |설명  |예제  |
-|---------|---------|---------|
-|DateKey|데이터 웨어하우스에서 장치 구성 프로필 체크 인을 기록했을 때의 날짜 키|20160703|
-|Pending|보류 중 상태에 있는 고유 장치의 수|123|
-|성공|성공 상태에 있는 고유 장치의 수|12|
-PolicyKey|정책 키 - Policy와 조인하여 policyName을 가져올 수 있습니다.|Windows 10 기준|
-|오류|오류 상태에 있는 고유 장치의 수|10|
+
+| 속성  |                                         설명                                         |       예제       |
+|-----------|---------------------------------------------------------------------------------------------|---------------------|
+|  DateKey  | 데이터 웨어하우스에서 장치 구성 프로필 체크 인을 기록했을 때의 날짜 키 |      20160703       |
+|  Pending  |                         보류 중 상태에 있는 고유 장치의 수                          |         123         |
+| 성공 |                         성공 상태에 있는 고유 장치의 수                          |         12          |
+| PolicyKey |                정책 키 - Policy와 조인하여 policyName을 가져올 수 있습니다.                 | Windows 10 기준 |
+|   오류   |                          오류 상태에 있는 고유 장치의 수                           |         10          |
+

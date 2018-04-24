@@ -1,27 +1,27 @@
 ---
-title: "Intune에서 iOS 장치 사용 | Microsoft 문서"
-description: "Intune에 장치가 등록되어 있을 때 iOS 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록입니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Intune에서 iOS 장치 사용 | Microsoft 문서
+description: Intune에 장치가 등록되어 있을 때 iOS 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록입니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 11/06/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 3d648819-b866-412b-bd19-ac4505eb5eaf
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 8e6eb579968fe8499b176e58ff50b9d7635aa3c0
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 51bca0c2aa10f15511e1644eda9ca6dd11c36f8b
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-your-ios-device-with-intune"></a>Intune에서 iOS 장치 사용
 
@@ -41,7 +41,7 @@ Intune은 현재 iOS 9.0 이상을 지원합니다.
 
 - [장치에서 관리되는 앱 사용](use-managed-apps-on-your-device-ios.md)
 - [암호 설정 또는 변경](set-or-change-your-passcode-ios.md)
-<!--- [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-ios.md) -->
+  <!--- [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-ios.md) -->
 - [분실하거나 도난당한 장치 초기화(지우기)](reset-erase-your-device-cpwebsite.md)
 - [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-ios.md)
 - [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-ios.md)

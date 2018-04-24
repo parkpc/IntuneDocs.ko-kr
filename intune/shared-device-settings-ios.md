@@ -1,27 +1,27 @@
 ---
-title: "iOS용 Microsoft Intune 공유 장치 구성 설정"
-titlesuffix: 
-description: "iOS 장치 잠금 화면에서 정보를 표시하는 데 사용할 수 있는 Microsoft Intune 설정을 알아봅니다."
-keywords: 
+title: iOS용 Microsoft Intune 공유 장치 구성 설정
+titlesuffix: ''
+description: iOS 장치 잠금 화면에서 정보를 표시하는 데 사용할 수 있는 Microsoft Intune 설정을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/5/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9147eaff2bd366dbfd86c6422e0f7a29f685db62
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 73c4f96e3057227bc601175c4e8f42802eb322bc
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="shared-device-configuration-settings-to-display-messages-on-the-ios-device-lock-screen"></a>iOS 장치 잠금 화면에 메시지를 표시하기 위한 공유 장치 구성 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이 아티클은 iOS 장치 잠금 화면에서 정보를 표시하는 데 사용할 수 있는 Microsoft Intune 설정을 설명합니다.
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 03/08/2018
 ## <a name="create-shared-device-settings"></a>공유 장치 설정 만들기
 
 1. [Azure Portal의 Intune](https://portal.azure.com)에서 [**장치 구성 영역의 장치 기능**으로 이동합니다](device-features-configure.md). 
-1. **장치 기능** 창에서 **공유 장치 구성(감독 모드에서만 해당)**을 선택합니다.
+1. **장치 기능** 창에서 **공유 장치 구성(감독 모드에서만 해당)** 을 선택합니다.
 2. **공유 장치 구성(감독 모드에서만 해당)** 창에서 다음 설정을 구성합니다.
     - **자산 태그 정보** - 장치의 자산 태그에 대한 정보를 입력합니다. 예를 들면 **Contoso Corp에서 소유함**입니다. 입력한 정보는 이 프로필을 할당하는 모든 장치에 적용됩니다.
-    - **잠금 화면 각주** - 장치를 분실했거나 도난당한 경우 장치를 되찾는 데 도움이 되는 정보를 입력합니다. 예를 들어 **발견하는 경우 '번호'로 연락해주세요.**라고 입력합니다.
+    - **잠금 화면 각주** - 장치를 분실했거나 도난당한 경우 장치를 되찾는 데 도움이 되는 정보를 입력합니다. 예를 들어 **발견하는 경우 '번호'로 연락해주세요.** 라고 입력합니다.
 3. 작업이 완료되면 **프로필 만들기** 창으로 돌아갈 때까지 **확인**을 선택한 다음, **만들기**를 선택합니다. 
 
 

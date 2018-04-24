@@ -14,15 +14,15 @@ ms.assetid: 531b09bb-ddfd-498f-8ee3-6675d2466208
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
-ms.openlocfilehash: 5848fc18e0c288f8806f1fc93427d96c48317d64
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 5e2cf210dd46c062f9dcc9c68bcdaa3234519e5f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-app-based-conditional-access-ca-policies-for-sharepoint-online"></a>SharePoint Online에 대한 앱 기반 CA(조건부 액세스) 정책 설정
 
-[!INCLUDE[note for both-portals](../includes/note-for-both-portals.md)]
+[!INCLUDE [note for both-portals](../includes/note-for-both-portals.md)]
 
 이 항목에서는 SharePoint Online에 대한 앱 기반 조건부 액세스 정책을 설정하는 방법을 안내합니다. 앱 기반 CA는 Intune 앱 보호 정책이 적용되는 모바일 앱에만 사용할 수 있도록 관리자를 지원합니다.
 

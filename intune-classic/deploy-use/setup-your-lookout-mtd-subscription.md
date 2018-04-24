@@ -1,29 +1,29 @@
 ---
-title: "Lookout 구독 설정"
-description: "이 항목에서는 Lookout 장치 위협 방지를 구성하는 방법에 대해 자세히 설명합니다."
-keywords: 
+title: Lookout 구독 설정
+description: 이 항목에서는 Lookout 장치 위협 방지를 구성하는 방법에 대해 자세히 설명합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 03/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 8477a2f1-2e1d-4d42-8bcb-e1181cc900bb
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0e8a6e52b5bdb9df03af88988f2e4ac49ecf2ab8
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: defd1373ac53d354ffb97a17ebdaeafe7ba460b2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-your-lookout-mobile-threat-defense-subscription"></a>Lookout Mobile Threat Defense 구독 설정
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Lookout Mobile Threat Defense를 설정하려면 다음 단계를 수행해야 합니다.
 
@@ -53,59 +53,59 @@ Lookout Mobility Endpoint Security 테넌트가 Azure AD 구독과 연결되어 
 다음 단계에 따라 Lookout 지원 팀에 제공해야 하는 정보를 수집합니다.
 
 1. [Azure AD 관리 포털](https://manage.windowsazure.com)에 로그인한 후 구독을 선택합니다. 
-  ![테넌트 이름을 보여 주는 Azure AD 페이지의 스크린샷](../media/mtp/aad_tenant_name.png)
+   ![테넌트 이름을 보여 주는 Azure AD 페이지의 스크린샷](../media/mtp/aad_tenant_name.png)
 2. 구독 이름을 선택하면 결과로 표시되는 URL에 구독 ID가 포함됩니다.  구독 ID를 찾는 데 문제가 있으면 [Microsoft 지원 문서](https://support.office.com/article/Find-your-Office-365-tenant-ID-6891b561-a52d-4ade-9f39-b492285e2c9b)ID를 찾는 방법에 대한 팁을 확인하세요. 
 3. Azure AD 그룹 ID를 찾습니다. Lookout 콘솔은 두 가지 수준의 액세스를 지원합니다.  
-  * **모든 권한:** Azure AD 관리자는 모든 권한이 있는 사용자 그룹을 만들고, 선택적으로 제한된 권한이 있는 사용자 그룹을 만들 수 있습니다.  이러한 그룹의 사용자만 **Lookout 콘솔**에 로그인할 수 있습니다.
-  * **제한된 권한:** 이 그룹의 사용자는 Lookout 콘솔의 여러 구성 및 등록 관련 모듈에 대한 액세스 권한이 없으며, Lookout 콘솔의 **보안 정책** 모듈에 대한 읽기 전용 액세스 권한을 갖습니다.  
+   * **모든 권한:** Azure AD 관리자는 모든 권한이 있는 사용자 그룹을 만들고, 선택적으로 제한된 권한이 있는 사용자 그룹을 만들 수 있습니다.  이러한 그룹의 사용자만 **Lookout 콘솔**에 로그인할 수 있습니다.
+   * **제한된 권한:** 이 그룹의 사용자는 Lookout 콘솔의 여러 구성 및 등록 관련 모듈에 대한 액세스 권한이 없으며, Lookout 콘솔의 **보안 정책** 모듈에 대한 읽기 전용 액세스 권한을 갖습니다.  
 
-  사용 권한에 대한 자세한 내용은 Lookout 웹 사이트에서 [이 문서](https://personal.support.lookout.com/hc/articles/114094105653)를 참조하세요.
+   사용 권한에 대한 자세한 내용은 Lookout 웹 사이트에서 [이 문서](https://personal.support.lookout.com/hc/articles/114094105653)를 참조하세요.
 
-  **그룹 개체 ID**는 **Azure AD 관리 콘솔**의 그룹 **속성** 페이지에 있습니다.
+   **그룹 개체 ID**는 **Azure AD 관리 콘솔**의 그룹 **속성** 페이지에 있습니다.
 
-  ![GroupID 필드가 강조 표시된 속성 페이지 스크린샷](../media/mtp/aad_group_object_id.png)
+   ![GroupID 필드가 강조 표시된 속성 페이지 스크린샷](../media/mtp/aad_group_object_id.png)
 
 4. 이 정보를 수집한 후 Lookout 지원 센터로 문의하세요(메일: enterprisesupport@lookout.com). Lookout 지원 팀은 주요 담당자와 함께 수집한 정보를 사용하여 구독을 등록하고 Lookout 엔터프라이즈 계정을 만듭니다.
 
 ## <a name="configure-your-subscription"></a>구독 구성
-1. Lookout 지원 팀이 Lookout 엔터프라이즈 계정을 만들면 Lookout에서 사용자 회사의 주요 담당자에게 로그인 링크(url:https://aad.lookout.com/les?action=consent)가 담긴 메일이 전송됩니다.
+1. Lookout 지원 팀이 Lookout 엔터프라이즈 계정을 만들면 Lookout에서 사용자 회사의 주요 담당자에게 로그인 URL에 대한 링크(<https://aad.lookout.com/les?action=consent>)가 포함된 이메일을 전송합니다.
 
-2.  Azure AD 테넌트를 등록하려면 Lookout 콘솔에 처음 로그인할 때 Azure AD 역할이 전역 관리자인 사용자 계정을 사용해야 합니다. 이후에는 로그인에 이 수준의 Azure AD 권한이 필요하지 않습니다. 동의 페이지가 표시됩니다. **동의**를 선택하여 등록을 완료합니다.
+2. Azure AD 테넌트를 등록하려면 Lookout 콘솔에 처음 로그인할 때 Azure AD 역할이 전역 관리자인 사용자 계정을 사용해야 합니다. 이후에는 로그인에 이 수준의 Azure AD 권한이 필요하지 않습니다. 동의 페이지가 표시됩니다. **동의**를 선택하여 등록을 완료합니다.
 
-  ![Lookout 콘솔에 처음 로그인할 때의 페이지 스크린샷](../media/mtp/lookout_mtp_initial_login.png) 수락하고 동의하면 사용자가 Lookout 콘솔로 리디렉션됩니다.
+   ![Lookout 콘솔에 처음 로그인할 때의 페이지 스크린샷](../media/mtp/lookout_mtp_initial_login.png) 수락하고 동의하면 사용자가 Lookout 콘솔로 리디렉션됩니다.
 
-  로그인 문제에 도움이 필요한 경우 [Intune과 Lookout의 통합 문제 해결](/intune-classic/Troubleshoot/device-threat-protection-troubleshooting.md)을 참조하세요.
+   로그인 문제에 도움이 필요한 경우 [Intune과 Lookout의 통합 문제 해결](/intune-classic/Troubleshoot/device-threat-protection-troubleshooting.md)을 참조하세요.
 
-3.  [Lookout 콘솔](https://aad.lookout.com)의 **시스템** 모듈에서 **커넥터** 탭과 **Intune**을 차례로 선택합니다.
+3. [Lookout 콘솔](https://aad.lookout.com)의 **시스템** 모듈에서 **커넥터** 탭과 **Intune**을 차례로 선택합니다.
 
-  ![커넥터 탭이 열려 있고 Intune 옵션이 강조 표시된 Lookout 콘솔의 스크린샷](../media/mtp/lookout_mtp_setup-intune-connector.png)
+   ![커넥터 탭이 열려 있고 Intune 옵션이 강조 표시된 Lookout 콘솔의 스크린샷](../media/mtp/lookout_mtp_setup-intune-connector.png)
 
-4.  **커넥터** > **연결 설정**으로 이동하여 **하트비트 빈도**(단위: 분)를 지정합니다.
+4. **커넥터** > **연결 설정**으로 이동하여 **하트비트 빈도**(단위: 분)를 지정합니다.
 
-  ![구성된 하트비트 주기를 보여 주는 연결 설정 탭의 스크린샷](../media/mtp/lookout-mtp-connection-settings.png)
+   ![구성된 하트비트 주기를 보여 주는 연결 설정 탭의 스크린샷](../media/mtp/lookout-mtp-connection-settings.png)
 
 ## <a name="configure-enrollment-groups"></a>등록 그룹 구성
 1. [Azure AD 관리 포털](https://manage.windowsazure.com)에서 Lookout 통합을 테스트할 적은 수의 사용자를 포함하는 Azure AD 보안 그룹을 만드는 것이 좋습니다.
 
-  식별되고 지원되는 Azure AD 내 등록 그룹 사용자의 Lookout이 지원되는 모든 Intune 등록 장치는 Lookout 장치 위협 방지에 등록하여 활성화할 수 있습니다.
+   식별되고 지원되는 Azure AD 내 등록 그룹 사용자의 Lookout이 지원되는 모든 Intune 등록 장치는 Lookout 장치 위협 방지에 등록하여 활성화할 수 있습니다.
 
 2. [Lookout 콘솔](https://aad.lookout.com)의 **시스템** 모듈에서 **커넥터** 탭, **등록 관리**를 차례로 선택하여 Lookout에서 해당 장치를 등록해야 하는 사용자 집합을 정의합니다. 등록할 Azure AD 보안 그룹 **표시 이름**을 추가합니다.
 
-  ![Intune Connector 등록 페이지의 스크린샷](../media/mtp/lookout-mtp-enrollment.png)
+   ![Intune Connector 등록 페이지의 스크린샷](../media/mtp/lookout-mtp-enrollment.png)
 
-  >[!IMPORTANT]
-  > Azure Portal에서 보안 그룹의 **속성**에 나와 있는 것처럼 **표시 이름**은 대/소문자가 구분됩니다. 제목이 모두 소문자이지만 아래 이미지에 나와 있는 것처럼 보안 그룹의 **표시 이름**은 카멜 표기법(camelCase)을 따릅니다. Lookout 콘솔에서 보안 그룹에 대한 **표시 이름**의 대/소문자를 일치시키세요.
-  >![Azure Portal의 Azure Active Directory 서비스 속성 페이지의 스크린샷](../media/mtp/aad-group-display-name.png)
+   >[!IMPORTANT]
+   > Azure Portal에서 보안 그룹의 **속성**에 나와 있는 것처럼 **표시 이름**은 대/소문자가 구분됩니다. 제목이 모두 소문자이지만 아래 이미지에 나와 있는 것처럼 보안 그룹의 **표시 이름**은 카멜 표기법(camelCase)을 따릅니다. Lookout 콘솔에서 보안 그룹에 대한 **표시 이름**의 대/소문자를 일치시키세요.
+   >![Azure Portal의 Azure Active Directory 서비스 속성 페이지의 스크린샷](../media/mtp/aad-group-display-name.png)
 
-  가장 좋은 방법은 새 장치의 확인 간격을 기본값(5분)으로 하는 것입니다.
+   가장 좋은 방법은 새 장치의 확인 간격을 기본값(5분)으로 하는 것입니다.
 
-  **현재 제한 사항:**
-  * Lookout에서는 그룹 표시 이름의 유효성을 검사할 수 없습니다.  Azure Portal의 **표시 이름** 필드가 Azure AD 보안 그룹과 정확히 일치하도록 하세요.
-  * 중첩 그룹 만들기는 지원되지 않습니다.  Lookout에 사용된 Azure AD 보안 그룹에는 사용자만 포함해야 하며, 다른 그룹은 포함할 수 없습니다.
+   **현재 제한 사항:**
+   * Lookout에서는 그룹 표시 이름의 유효성을 검사할 수 없습니다.  Azure Portal의 **표시 이름** 필드가 Azure AD 보안 그룹과 정확히 일치하도록 하세요.
+   * 중첩 그룹 만들기는 지원되지 않습니다.  Lookout에 사용된 Azure AD 보안 그룹에는 사용자만 포함해야 하며, 다른 그룹은 포함할 수 없습니다.
 
-3.  그룹이 추가된 후 다음번에 사용자가 지원되는 해당 장치에서 Lookout for Work 앱을 열면 장치가 Lookout에서 활성화됩니다.
+3. 그룹이 추가된 후 다음번에 사용자가 지원되는 해당 장치에서 Lookout for Work 앱을 열면 장치가 Lookout에서 활성화됩니다.
 
-4.  결과에 만족한 경우 추가 사용자 그룹까지 등록을 확장합니다.
+4. 결과에 만족한 경우 추가 사용자 그룹까지 등록을 확장합니다.
 
 ## <a name="configure-state-sync"></a>상태 동기화 구성
 **상태 동기화** 옵션에서 Intune에 전송해야 할 데이터 유형을 지정합니다.  Lookout Intune 통합이 제대로 작동하려면 장치 상태와 위협 상태가 둘 다 필요합니다.  기본적으로 모두 사용하도록 설정됩니다.

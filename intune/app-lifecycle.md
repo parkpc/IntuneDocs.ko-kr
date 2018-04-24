@@ -1,28 +1,28 @@
 ---
-title: "Microsoft Intune에 대한 앱 수명 주기 개요"
-description: "Microsoft Intune에서 관리하는 앱 수명 주기에 대해 알아봅니다. 앱 수명 주기는 앱의 추가, 배포, 구성, 보호 및 사용 중지를 포함합니다."
-keywords: 
+title: Microsoft Intune에 대한 앱 수명 주기 개요
+description: Microsoft Intune에서 관리하는 앱 수명 주기에 대해 알아봅니다. 앱 수명 주기는 앱의 추가, 배포, 구성, 보호 및 사용 중지를 포함합니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/02/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 60347012-bc3f-4b9a-a4f4-6d3c5021a6e6
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: apps
-ms.openlocfilehash: 732323d1d882a256128ae731cab68656126583b2
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 853873480beb5e95a195e04e251cea9975ce03b4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="overview-of-the-app-lifecycle-in-microsoft-intune"></a>Microsoft Intune에 대한 앱 수명 주기 개요
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 Microsoft Intune 앱 수명 주기는 앱이 추가될 때 시작되어 앱을 제거할 때까지 추가 단계를 진행해 나갑니다. 이러한 단계를 이해해야 Intune에서 앱 관리를 시작 하는 데 필요한 세부 정보를 얻게 됩니다.
 

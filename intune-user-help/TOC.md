@@ -128,7 +128,7 @@
 ### [장치 재설정](reset-erase-your-device-cpwebsite.md)
 ### [장치 암호화](encrypt-your-device-windows.md)
 ### [암호 설정 또는 변경](set-or-change-your-password-windows.md)
-### [Intune에서 장치 등록 취소](unenroll-your-device-from-intune-windows.md)
+### [Intune에서 장치 제거](unenroll-your-device-from-intune-windows.md)
 ### [장치 등록을 취소하면 어떻게 되나요?](what-happens-if-you-unenroll-your-device-from-intune-windows.md)
 ### [장치를 초기화하면 어떻게 되나요?](what-happens-if-you-reset-your-device-using-the-company-portal-windows.md)
 ### [Microsoft 사용 현황 데이터 수집 해제](turn-off-microsoft-usage-data-collection-windows.md)

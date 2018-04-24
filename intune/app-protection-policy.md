@@ -1,30 +1,30 @@
 ---
-title: "앱 보호 정책이란?"
+title: 앱 보호 정책이란?
 titleSuffix: Microsoft Intune
-description: "Microsoft Intune 앱 보호 정책이 어떻게 회사 데이터를 보호하고 데이터 손실을 방지하는지 알아봅시다."
-keywords: 
+description: Microsoft Intune 앱 보호 정책이 어떻게 회사 데이터를 보호하고 데이터 손실을 방지하는지 알아봅시다.
+keywords: ''
 author: erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 01/19/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 691c7317cda07be292cc2d778b853727124dba8a
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: c4483baa68267b7a7218a4e78fe5275d1ea8d330
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="what-are-app-protection-policies"></a>앱 보호 정책이란?
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Microsoft Intune 앱 보호 정책은 회사 데이터를 보호하고 데이터 손실을 방지하도록 도와줍니다.
 
@@ -37,12 +37,12 @@ Intune 앱 보호 정책을 사용하여 회사 데이터를 보호할 수 있�
 
 - **Microsoft Intune에 등록:** 이 범주의 장치는 일반적으로 회사에서 소유한 장치입니다.
 
--   **타사 MDM(모바일 장치 관리) 솔루션에 등록:** 이 범주의 장치는 일반적으로 회사에서 소유한 장치입니다.
+- **타사 MDM(모바일 장치 관리) 솔루션에 등록:** 이 범주의 장치는 일반적으로 회사에서 소유한 장치입니다.
 
   > [!NOTE]
   > 타사 모바일 앱 관리 또는 보안 컨테이너 솔루션에는 모바일 앱 관리 정책을 사용하면 안 됩니다.
 
--   **모바일 장치 관리 솔루션에 등록되지 않음:** 이 범주의 장치는 일반적으로 직원이 소유한 장치로 Intune 또는 기타 MDM 솔루션에서 관리 또는 등록되지 않습니다.
+- **모바일 장치 관리 솔루션에 등록되지 않음:** 이 범주의 장치는 일반적으로 직원이 소유한 장치로 Intune 또는 기타 MDM 솔루션에서 관리 또는 등록되지 않습니다.
 
 > [!IMPORTANT]
 > Office 365 서비스에 연결되는 Office 모바일 앱에 대한 모바일 앱 관리 정책을 만들 수 있습니다. 온-프레미스 Exchange 또는 SharePoint 서비스에 연결하는 앱에는 앱 보호 정책이 지원되지 않습니다.

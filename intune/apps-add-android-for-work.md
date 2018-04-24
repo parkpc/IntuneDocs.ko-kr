@@ -1,29 +1,29 @@
 ---
-title: "Android for Work 장치에 앱 할당"
+title: Android for Work 장치에 앱 할당
 titlesuffix: Microsoft Intune
-description: "Google Play for Work 스토어에서 Android for Work 장치에 앱을 동기화하고 할당하는 방법을 이해합니다."
-keywords: 
+description: Google Play for Work 스토어에서 Android for Work 장치에 앱을 동기화하고 할당하는 방법을 이해합니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 2f6c06bf-e29a-4715-937b-1d2c7cf663d4
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e3b5a742fb480cf9c4c77106b849eebb95ad2439
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 4168f78bff8937ca403cdb75b1028954cbbebd6f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-assign-apps-to-android-for-work-devices-with-intune"></a>Intune으로 Android for Work 장치에 앱을 할당하는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Android for Work는 Android 장치용 프로그램입니다. Android for Work 장치에 설치하는 모든 앱은 Google Play for Work 스토어에서 받습니다. 표준 Android 장치에 할당하던 방식과 다른 방법으로 Android for Work 장치에 앱을 할당합니다. 스토어에 로그온하여 원하는 앱을 찾아본 다음 승인합니다. 그러면 앱이 Azure Portal의 **사용이 허가된 앱** 노드에 나타납니다. 여기에서 다른 앱을 할당하는 방식과 동일하게 앱 할당을 관리할 수 있습니다.
 
@@ -43,7 +43,7 @@ Intune과 Android for Work가 Azure Portal의 **장치 등록** 워크로드에�
 
     ![예제 - Google Play for Work 스토어에서 앱 승인](media/approve.png)</br>
     
-  앱 창이 열리면서 앱에서 다양한 작업을 수행할 수 있는 권한을 부여하라는 메시지가 표시됩니다. 
+   앱 창이 열리면서 앱에서 다양한 작업을 수행할 수 있는 권한을 부여하라는 메시지가 표시됩니다. 
 
 4. **승인**을 선택하여 앱 사용 권한에 동의하고 계속합니다.</br>
 
@@ -79,7 +79,7 @@ Android for Work를 사용하려면 관리되는 Google Play 웹 콘솔에서 �
 
 관리되는 Google Play 콘솔을 주기적으로 방문하여 새 권한을 확인합니다. 승인된 앱에 대해 새 권한이 필요할 때 자신이나 다른 사용자에게 전자 메일을 전송하도록 Google Play를 구성할 수 있습니다. 앱을 할당할 때 장치에 설치되지 않은 것을 발견한 경우 다음 단계에 따라 새 권한을 확인하세요.
 
-1. http://play.google.com/work를 방문합니다.
+1. http://play.google.com/work 참조
 2. 앱을 게시하고 승인하는 데 사용한 Google 계정으로 로그인합니다.
 3. **업데이트** 탭을 방문하여 업데이트가 필요한 앱이 있는지 확인합니다.  나열된 모든 앱은 새 권한이 필요하므로 새 권한이 적용될 때까지 할당되지 않습니다.  
 

@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 29e1ad3f41c5b8dc7dd58e04f6ecbda067bd4a1f
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 084da36e9b417e4faee87f33bbd42e0e5f5fa7e2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="quick-start-guide-protect-company-data-with-data-encryption"></a>빠른 시작 가이드: 데이터 암호화를 사용하여 회사 데이터 보호
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune은 다음을 비롯한 다양한 방법으로 Office 모바일 앱의 데이터 손실을 방지하는 데 도움을 줄 수 있습니다.
 - iOS 및 Android에서 제공하는 가장 높은 수준의 장치 암호화를 사용하여 회사 데이터 암호화
