@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: lpatha
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5f84469f0514d2e644db2ec9b0700644af143d81
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: bd8503e4223c3732f1b2368db536c2c15f259b22
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-groups-to-manage-users-and-devices-in-microsoft-intune"></a>Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 Intune에서 그룹을 만드는 방법을 설명합니다. 몇 개월 후에 그룹 관리 방법이 어떻게 변경되는지에 대한 정보도 제공합니다. 
 

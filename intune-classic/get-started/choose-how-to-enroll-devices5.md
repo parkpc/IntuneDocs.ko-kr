@@ -14,26 +14,26 @@ ms.assetid: ed9250aa-e894-4eac-92b8-5f1a3748e255
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.custom: intune-classic EXPIERIMENT
-ms.openlocfilehash: c9744358afca288978e14b4ec9967a52100076f1
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: c7e750d308c4167dd6e99f503ed52d3a96ea630b
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="choose-how-to-enroll-mobile-devices"></a>모바일 장치를 등록하는 방법 선택
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이러한 일련의 질문에 답변하면 관리하는 장치에 대한 최상의 등록 방법을 결정하는 데 도움이 됩니다.
 
 ## <a name="how-will-you-manage-shared-ios-devices"></a>**공유 iOS 장치는 어떻게 관리해야 하나요?**
 
 > [!div class="button"]
-[iOS DEP 등록 >](/intune-classic/deploy-use/ios-device-enrollment-program-in-microsoft-intune)
+> [iOS DEP 등록 >](/intune-classic/deploy-use/ios-device-enrollment-program-in-microsoft-intune)
 > [!div class="button"]
-[iOS 직접 등록 >](/intune-classic/deploy-use/ios-direct-enrollment-in-microsoft-intune)
+> [iOS 직접 등록 >](/intune-classic/deploy-use/ios-direct-enrollment-in-microsoft-intune)
 > [!div class="button"]
-[DEM 등록 >](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
+> [DEM 등록 >](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
 
   - **Apple의 DEP(장치 등록 프로그램)** - DEP로 구입되고 관리되는 iOS 장치는 등록 프로필을 사용하여 대상으로 지정될 수 있습니다. 사용자가 처음으로 장치를 켤 때 장치는 DEP 프로필을 다운로드하고 프로필 DEP를 사용하여 등록됩니다.
 
@@ -42,4 +42,4 @@ ms.lasthandoff: 03/22/2018
   - **장치 등록 관리자** -Intune의 DEM(장치 등록 관리자)을 사용하면 관리자가 단일 사용자 계정으로 여러 모바일 장치를 등록할 수 있습니다. 이러한 장치에는 사용자 선호도(예: 전용 사용자)가 있을 수 없으며 회사 포털 앱을 설치하고 로그인하여 장치를 등록해야합니다.
 
 > [!div class="button"]
-[< 뒤로](choose-how-to-enroll-devices3.md)
+> [< 뒤로](choose-how-to-enroll-devices3.md)

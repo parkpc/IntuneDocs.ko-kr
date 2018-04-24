@@ -1,29 +1,29 @@
 ---
-title: "Exchange ActiveSync 장치 관리"
-description: "Exchange Connector를 사용한 EAS(Exchange ActiveSync) 관리를 통해 모바일 장치 관리"
-keywords: 
+title: Exchange ActiveSync 장치 관리
+description: Exchange Connector를 사용한 EAS(Exchange ActiveSync) 관리를 통해 모바일 장치 관리
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 07/29/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 14f5cf53-6764-4e22-a18b-fa750b3acd41
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 02d6220a4c780eafb7afb01208e18e7df7684b68
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: f5e9bd3dd2026096c323858fc7faa915895ed55d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="exchange-activesync-mobile-device-management-with-microsoft-intune"></a>Microsoft Intune을 사용한 Exchange ActiveSync 모바일 장치 관리
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune에서 모바일 장치를 직접 관리하도록 하려면 장치가 [Intune에 등록](prerequisites-for-enrollment.md)되어 있어야 합니다. 또는 관리자가 EAS(Exchange ActiveSync) 관리를 Exchange Connector와 같이 사용하는 좀 더 제한적인 관리 솔루션을 사용하도록 설정할 수 있습니다. 장치는 Office 365를 사용하는 온-프레미스 Exchange 서버 또는 Exchange Online을 사용하여 관리할 수 있습니다. Intune은 Exchange Connector 연결 형식에 상관없이 구독당 연결을 한 번만 지원합니다.
 

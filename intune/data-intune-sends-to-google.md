@@ -1,29 +1,29 @@
 ---
-title: "Intune이 Google에 보내는 데이터"
+title: Intune이 Google에 보내는 데이터
 titleSuffix: Microsoft Intune
-description: "Intune이 Google에 보내는 데이터 목록입니다."
-keywords: 
+description: Intune이 Google에 보내는 데이터 목록입니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: a5c3bec4-18ed-11e8-accf-0ed5f89f718b
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 63f1b07d13daad7512dff8e53f9acbafa7bffdd3
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 78fef57849b8742bb10ece1717234af5cce3f4ba
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="data-intune-sends-to-google"></a>Intune이 Google에 보내는 데이터
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Android 장치 관리가 장치에서 사용되는 경우 Microsoft Intune이 Google과 연결되고 Google과 사용자 및 장치 정보를 공유합니다. Microsoft Intune이 연결을 설정하기 전에 Google 계정을 만들어야 합니다.
 

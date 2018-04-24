@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ec4116a54377b3db7ea58d8e24e49c44edf73a7a
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: df00293335b23d8924887bdd7b70838f9bddfb65
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="troubleshoot-app-deployment-problems-in-microsoft-intune"></a>Microsoft Intune에서 앱 배포 문제 해결
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune을 사용하여 앱을 배포하고 관리하는 데 문제가 있는 경우 여기서 시작하세요. 이 항목에는 솔루션에서 함께 발생할 수 있는 몇 가지 일반적인 문제가 포함되어 있습니다.
 

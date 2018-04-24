@@ -1,27 +1,27 @@
 ---
-title: "Intune에서 Android 장치 등록 | Microsoft 문서"
-description: "Intune에서 Android 장치를 등록하는 방법을 설명합니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Intune에서 Android 장치 등록 | Microsoft 문서
+description: Intune에서 Android 장치를 등록하는 방법을 설명합니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 10/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 89262f4fecba6aa8d76efd7fd5bbe415d9048204
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 7230f14ae9481555f457a8a8700d588c4170b39b
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-your-android-device-in-intune"></a>Intune에서 Android 장치 등록
 
@@ -35,57 +35,57 @@ ms.lasthandoff: 01/25/2018
 
 **Android 장치를 등록하려면:**
 
-1.  [Google Play](http://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal)에서 무료 Intune 회사 포털 앱을 설치합니다.
+1. [Google Play](http://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal)에서 무료 Intune 회사 포털 앱을 설치합니다.
 
-2.  회사 포털 앱을 엽니다.
+2. 회사 포털 앱을 엽니다.
 
-3.  회사 포털의 **시작** 화면에서 **로그인**을 탭한 다음, 회사 또는 학교 계정으로 로그인합니다.
+3. 회사 포털의 **시작** 화면에서 **로그인**을 탭한 다음, 회사 또는 학교 계정으로 로그인합니다.
 
-    ![Android용 회사 포털 앱의 시작 화면이며 사용자에게 필수 회사 또는 학교 계정으로 로그인하도록 요청합니다. 또한 Microsoft 계정과 기타 개인 계정은 허용되지 않는다고 주의 사항을 설명합니다.](./media/and-enroll-0-welcome-screen.png)   
+   ![Android용 회사 포털 앱의 시작 화면이며 사용자에게 필수 회사 또는 학교 계정으로 로그인하도록 요청합니다. 또한 Microsoft 계정과 기타 개인 계정은 허용되지 않는다고 주의 사항을 설명합니다.](./media/and-enroll-0-welcome-screen.png)   
 
-4.  회사 지원팀이 회사 사용 약관을 설정하는 경우 **동의**를 눌러 조건에 동의합니다. 이 화면은 현재 사용 중인 Android의 버전에 따라 아래 이미지와 약간 다를 수 있습니다.
+4. 회사 지원팀이 회사 사용 약관을 설정하는 경우 **동의**를 눌러 조건에 동의합니다. 이 화면은 현재 사용 중인 Android의 버전에 따라 아래 이미지와 약간 다를 수 있습니다.
 
-    ![android-company-portal-sign-in](./media/and-enroll-3-accept-terms.png)
+   ![android-company-portal-sign-in](./media/and-enroll-3-accept-terms.png)
 
-5.  회사 또는 학교 계정과 암호를 사용하여 회사 포털 앱에 로그인하고 **로그인**을 탭합니다.
+5. 회사 또는 학교 계정과 암호를 사용하여 회사 포털 앱에 로그인하고 **로그인**을 탭합니다.
 
-    ![android-company-portal-sign-in](./media/and-enroll-2-cp-sign-in.png)
+   ![android-company-portal-sign-in](./media/and-enroll-2-cp-sign-in.png)
 
-6.  **회사 액세스 설정** 화면에서 **계속**을 탭합니다.
+6. **회사 액세스 설정** 화면에서 **계속**을 탭합니다.
 
-    ![회사 액세스 설정 화면](/intune/media/android_cp_enroll_01_1709_new.png)
+   ![회사 액세스 설정 화면](/intune/media/android_cp_enroll_01_1709_new.png)
 
-    > [!NOTE]
-    > 노란색 삼각형은 이미 오류가 발생했음을 의미하지 않습니다. 이 아이콘은 등록 프로세스에서 완료해야 할 단계가 여전히 남아 있음을 나타냅니다.
+   > [!NOTE]
+   > 노란색 삼각형은 이미 오류가 발생했음을 의미하지 않습니다. 이 아이콘은 등록 프로세스에서 완료해야 할 단계가 여전히 남아 있음을 나타냅니다.
 
-7.  회사 지원팀이 장치에서 볼 수 있는 사항과 볼 수 없는 사항의 목록을 검토하고 **계속**을 누릅니다.
+7. 회사 지원팀이 장치에서 볼 수 있는 사항과 볼 수 없는 사항의 목록을 검토하고 **계속**을 누릅니다.
 
-    ![개인 정보 설정](/intune/media/android_cp_enroll_02_after_1710.png)
+   ![개인 정보 설정](/intune/media/android_cp_enroll_02_after_1710.png)
 
-9.  **다음 단계는?** 화면에서 등록하는 동안 발생하는 상황을 확인하고 **등록**을 누릅니다.
+8. **다음 단계는?** 화면에서 등록하는 동안 발생하는 상황을 확인하고 **등록**을 누릅니다.
 
-    ![다음 단계는 화면](/intune/media/android_cp_enroll_03_after_1710.png)
+   ![다음 단계는 화면](/intune/media/android_cp_enroll_03_after_1710.png)
 
-10.  Android 6.0 이상을 사용하는 경우 이 단계를 수행합니다. 그렇지 않으면 다음 단계로 진행합니다.
+9. Android 6.0 이상을 사용하는 경우 이 단계를 수행합니다. 그렇지 않으면 다음 단계로 진행합니다.
 
-    회사 지원팀이 특정 정책을 설정한 경우 다음과 같은 메시지가 표시될 수 있습니다.
-    -   **회사 포털에서 통화를 하고 전화 통화를 관리하도록 허용하시나요?**
+   회사 지원팀이 특정 정책을 설정한 경우 다음과 같은 메시지가 표시될 수 있습니다.
+   - **회사 포털에서 통화를 하고 전화 통화를 관리하도록 허용하시나요?**
 
-        ![android-company-portal-sign-in](./media/and-enroll-3a-allow-phone-access.png)
+     ![android-company-portal-sign-in](./media/and-enroll-3a-allow-phone-access.png)
 
-    이 메시지가 표시되면 **허용**을 탭합니다. **Microsoft는 결코 전화를 걸거나 전화 통화를 관리하지 않으므로** 허용을 탭하는 것이 안전합니다. Google이 메시지 텍스트를 제어하므로 Microsoft에서 변경할 수 없습니다. 액세스를 허용하면 장치를 통해 장치의 IMEI(International Mobile Station Equipment Identity) 번호를 Intune에 보내도록 허용하기만 하면 됩니다. IMEI 번호는 모바일 장치를 고유하게 식별하는 일련 번호와 같습니다.
+   이 메시지가 표시되면 **허용**을 탭합니다. **Microsoft는 결코 전화를 걸거나 전화 통화를 관리하지 않으므로** 허용을 탭하는 것이 안전합니다. Google이 메시지 텍스트를 제어하므로 Microsoft에서 변경할 수 없습니다. 액세스를 허용하면 장치를 통해 장치의 IMEI(International Mobile Station Equipment Identity) 번호를 Intune에 보내도록 허용하기만 하면 됩니다. IMEI 번호는 모바일 장치를 고유하게 식별하는 일련 번호와 같습니다.
 
-    액세스를 거부하면 다음에 회사 포털에 로그인할 때 메시지가 다시 표시되지만, **다시 묻지 않음** 상자를 탭하여 이후 메시지를 해제할 수 있습니다. 사용자가 나중에 액세스를 허용할 경우 **설정** &gt; **앱** &gt; **회사 포털** &gt; **사용 권한** &gt; **전화**로 이동한 다음 사용 권한을 설정합니다.
+   액세스를 거부하면 다음에 회사 포털에 로그인할 때 메시지가 다시 표시되지만, **다시 묻지 않음** 상자를 탭하여 이후 메시지를 해제할 수 있습니다. 사용자가 나중에 액세스를 허용할 경우 **설정** &gt; **앱** &gt; **회사 포털** &gt; **사용 권한** &gt; **전화**로 이동한 다음 사용 권한을 설정합니다.
 
-    -   **회사 포털에 연락처에 대한 액세스를 허용하시나요?**
+   - **회사 포털에 연락처에 대한 액세스를 허용하시나요?**
 
-        ![android-company-portal-sign-in](./media/and-enroll-3b-allow-contacts-access.png)
+     ![android-company-portal-sign-in](./media/and-enroll-3b-allow-contacts-access.png)
 
-        이 메시지가 표시되면 **허용**을 탭합니다. **Microsoft는 결코 연락처에 액세스하지 않으므로** 허용을 탭하는 것이 안전합니다. Google이 메시지 텍스트를 제어하므로 Microsoft에서 변경할 수 없습니다. 액세스를 허용하는 경우 회사 포털 앱을 통해서만 회사 계정을 만들고, 사용하고 관리할 수 있습니다.
+     이 메시지가 표시되면 **허용**을 탭합니다. **Microsoft는 결코 연락처에 액세스하지 않으므로** 허용을 탭하는 것이 안전합니다. Google이 메시지 텍스트를 제어하므로 Microsoft에서 변경할 수 없습니다. 액세스를 허용하는 경우 회사 포털 앱을 통해서만 회사 계정을 만들고, 사용하고 관리할 수 있습니다.
 
-        액세스를 거부하면 다음에 회사 포털에 로그인할 때 메시지가 다시 표시되지만, **다시 묻지 않음** 상자를 탭하여 이후 메시지를 해제할 수 있습니다. 사용자가 나중에 액세스를 허용할 경우 **설정** &gt; **앱** &gt; **회사 포털** &gt; **사용 권한** &gt; **전화**로 이동한 다음 사용 권한을 설정합니다.
+     액세스를 거부하면 다음에 회사 포털에 로그인할 때 메시지가 다시 표시되지만, **다시 묻지 않음** 상자를 탭하여 이후 메시지를 해제할 수 있습니다. 사용자가 나중에 액세스를 허용할 경우 **설정** &gt; **앱** &gt; **회사 포털** &gt; **사용 권한** &gt; **전화**로 이동한 다음 사용 권한을 설정합니다.
 
-11.  **활성화 장치 관리자** 화면에서 **활성화**를 탭합니다.
+10. **활성화 장치 관리자** 화면에서 **활성화**를 탭합니다.
 
     ![장치 관리자 활성화 화면](./media/and-enroll-5-activate.png)
 
@@ -95,11 +95,11 @@ ms.lasthandoff: 01/25/2018
 
     Microsoft는 이 메시지를 규제하지 않습니다. 또한 이러한 표현이 다소 극단적으로 보일 수도 있음을 알고 있습니다. 하지만 회사 포털에서 조직과 관련된 제한 사항 및 액세스 권한만 표시하는 것은 적절한 방법이 아닙니다. 모든 작업이 이 화면에서 한 번에 제공됩니다. 개별 조직의 사용 관련 질문이 있는 경우 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)의 연락처 정보를 사용하여 회사 지원팀에 자세한 내용을 문의하세요.
 
-12.  지시에 따라 PIN이나 암호를 입력합니다. 이미 이 장치에서 암호나 PIN을 설정했다면 이 화면에 표시되지 않거나 새 PIN이나 암호를 입력할 필요가 없습니다.
+11. 지시에 따라 PIN이나 암호를 입력합니다. 이미 이 장치에서 암호나 PIN을 설정했다면 이 화면에 표시되지 않거나 새 PIN이나 암호를 입력할 필요가 없습니다.
 
     ![PIN 또는 암호 입력](./media/and-enroll-6-PIN-native.png)
 
-13.  Samsung Knox 장치를 사용하는 경우 **확인**을 탭하면 장치가 등록되고 있음을 나타내는 메시지를 확인할 수 있습니다. 기본 Android 장치를 사용하는 경우 장치가 등록되고 있음을 보여 주는 다음 화면을 확인할 수 있습니다.
+12. Samsung Knox 장치를 사용하는 경우 **확인**을 탭하면 장치가 등록되고 있음을 나타내는 메시지를 확인할 수 있습니다. 기본 Android 장치를 사용하는 경우 장치가 등록되고 있음을 보여 주는 다음 화면을 확인할 수 있습니다.
 
     ![Samsung Knox 개인 정보 취급 방침](./media/and-enroll-7-knox-privacy-policy.png)
 
@@ -107,7 +107,7 @@ ms.lasthandoff: 01/25/2018
 
     ![장치 등록 화면](./media/and-enroll-8-device-enrolling.png)
 
-14. **회사 액세스 설정** 화면이 나타나면 **계속**을 탭합니다. 장치가 규정을 준수하지 않음을 나타내는 메시지가 표시되면 지침에 따라 문제를 해결하고 **계속**을 탭합니다.
+13. **회사 액세스 설정** 화면이 나타나면 **계속**을 탭합니다. 장치가 규정을 준수하지 않음을 나타내는 메시지가 표시되면 지침에 따라 문제를 해결하고 **계속**을 탭합니다.
 
     ![장치가 비준수 상태이지만 등록되어 있음](/intune/media/android_cp_enroll_05_post_1709.png)
 
@@ -119,7 +119,7 @@ ms.lasthandoff: 01/25/2018
 
     ![회사 액세스 설정 화면](./media/and-enroll-9d-comp-access-setup.png)  
 
-15. **회사 액세스 설정 완료** 화면에서 **완료**를 탭합니다. 이제 장치가 등록됩니다.
+14. **회사 액세스 설정 완료** 화면에서 **완료**를 탭합니다. 이제 장치가 등록됩니다.
 
     ![회사 액세스 설정 완료 화면](./media/and-enroll-10-comp-access-setup-complete.png)
 

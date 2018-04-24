@@ -15,15 +15,15 @@ ms.assetid: 949fddec-5318-4c9a-957e-ea260e6e05be
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a394b3b218613459d993b84fcb0ea7a37d4ac4dd
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 16c579bb4eb475bc92260e55f2e47335efc73e03
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="get-ready-to-configure-app-protection-policies-for-windows-10"></a>Windows 10용 앱 보호 정책 구성 준비 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Azure AD에서 MAM 공급자를 설정하여 Windows 10용 MAM(모바일 응용 프로그램 관리)을 사용하도록 설정합니다. Azure AD에서 MAM 공급자를 설정하면 Intune을 사용하여 새 WIP(Windows Information Protection) 정책을 만들 때 등록 상태를 정의할 수 있습니다. 등록 상태는 MAM 또는 MDM(모바일 장치 관리)일 수 있습니다.
 
@@ -34,7 +34,7 @@ Azure AD에서 MAM 공급자를 설정하여 Windows 10용 MAM(모바일 응용 
 
 1. Azure Portal에 로그인하고 **Azure Active Directory**를 선택합니다.
 
-2. **관리** 그룹에서 **이동성(MDM 및 MAM)**을 선택합니다.
+2. **관리** 그룹에서 **이동성(MDM 및 MAM)** 을 선택합니다.
 
 3. **Microsoft Intune**을 클릭합니다.
 

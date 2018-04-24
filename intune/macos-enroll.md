@@ -15,15 +15,15 @@ ms.assetid: 46429114-2e26-4ba7-aa21-b2b1a5643e01
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c1fb846dc65ee14315edf7b9ba15e0e24998a3a2
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: 1e522708879818f644780904c42fe9e6fb19a402
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-enrollment-for-macos-devices-in-intune"></a>Intune에서 macOS 장치 등록 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune을 통해 macOS 장치를 관리할 수 있습니다. 장치 관리를 사용하려면 사용자가 [회사 포털 웹 사이트](http://portal.manage.microsoft.com)로 이동하여 장치를 등록하고 메시지를 따라야 합니다. macOS 장치가 관리 상태에 있으면 [macOS 장치에 대한 사용자 지정 설정을 만들](custom-settings-macos.md) 수 있습니다. 더 많은 기능이 곧 제공됩니다.
 

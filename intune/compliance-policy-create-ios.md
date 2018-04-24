@@ -14,15 +14,15 @@ ms.assetid: 3cfb8222-d05b-49e3-ae6f-36ce1a16c61d
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b05eb725adb61ae47a24ca884d0e73ffe0dd269f
-ms.sourcegitcommit: a22309174e617e59ab0cdd0a55abde38711a5f35
+ms.openlocfilehash: 887f45cdc79aa5e45de3e8a1df5d12665d2ed8ab
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-a-device-compliance-policy-for-ios-devices-in-intune"></a>Intune에서 iOS 장치에 대한 장치 준수 정책 추가
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune iOS 장치 준수 정책은 iOS 장치가 준수하도록 충족해야 하는 규칙과 설정을 결정합니다. 조건부 액세스 정책을 사용하여 장치 준수 정책을 사용하는 경우 회사 리소스에 대한 액세스를 허용하거나 차단할 수 있습니다. 장치 보고서를 가져오 고 비준수에 대해 조치를 할 수 있습니다. Intune Azure Portal에서 각 플랫폼에 대한 장치 준수 정책을 만듭니다. 준수 정책을 만들기 전에 필요한 준수 정책 및 필수 구성 요소에 대해 자세히 알아보려면 [장치 준수 시작](device-compliance-get-started.md)을 참조하세요.
 

@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e9572181fb15ec97e7ae4c11a8ab2e4fe4cc9b30
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 1b09545e99f18815e690ad224e11e772e8911c8a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enable-enrollment-for-mobile-devices"></a>모바일 장치에 대한 등록 사용
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 Intune 관리자가 모바일 장치 등록을 사용하도록 설정하는 방법을 설명합니다. 휴대폰에서 Intune을 사용하는 방법에 대한 도움말은 [using managed devices to get work done](https://docs.microsoft.com/intune-user-help/company-portal-frequently-asked-questions)(관리되는 장치를 사용하여 작업 완료)을 참조하세요.
 
@@ -66,4 +66,4 @@ iOS, Mac 및 Android for Work 장치에 대해 등록을 사용하도록 설정�
 축하합니다. *Intune 빠른 시작 가이드*의 마지막 단계를 완료했습니다. 초기 구성을 완료했으니, 추가적인 MDM 기능 활성화를 고려할 수 있습니다.
 
 >[!div class="step-by-step"]
->[&larr; **장치 등록**](.\start-with-a-paid-subscription-to-microsoft-intune-step-8.md)     [**구성 후 작업** &rarr;](.\post-configuration-tasks.md)  
+>[&larr; **장치 등록**](./start-with-a-paid-subscription-to-microsoft-intune-step-8.md)     [**구성 후 작업** &rarr;](./post-configuration-tasks.md)  

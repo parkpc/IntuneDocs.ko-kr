@@ -1,25 +1,25 @@
 ---
-title: "iOS에서 Mobile Threat Defense 앱으로 발견한 위협 해결 | Microsoft 문서"
-description: "iOS용 Mobile Threat Defense 앱을 사용하여 위협을 해결하는 방법에 대해 알아봅니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: iOS에서 Mobile Threat Defense 앱으로 발견한 위협 해결 | Microsoft 문서
+description: iOS용 Mobile Threat Defense 앱을 사용하여 위협을 해결하는 방법에 대해 알아봅니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 09/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 3c95d821-7862-486a-b9dc-0ed37bc5befb
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: b196d3bfd01b7eafddc4728c45c2db93572a887c
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: fee3f31b4a475ed3def1ee96fcdad2f2a414ab3c
+ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="resolve-a-threat-found-by-a-mobile-threat-defense-app"></a>Mobile Threat Defense 앱에서 발견한 위협 해결
 

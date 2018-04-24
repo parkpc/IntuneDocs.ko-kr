@@ -15,15 +15,15 @@ ms.assetid: a097b7b2-d01d-454b-954c-da4f3cd0ae86
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4053c2f932f6101397deb6bf0c3a142fa713aec4
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 6f1a07960f4c00fa5562529a97453a61202a3913
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-add-windows-phone-line-of-business-lob-apps-to-microsoft-intune"></a>Microsoft Intune에 Windows Phone LOB(기간 업무) 앱을 추가하는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이 아티클의 정보를 사용하면 Microsoft Intune에 Windows Phone LOB(기간 업무) 앱을 추가하는 데 도움이 됩니다. LOB(기간 업무) 앱은 앱 설치 파일에서 추가하는 앱입니다. 이러한 유형의 앱은 일반적으로 사내에서 작성됩니다. Intune이 사용자 장치에 LOB 앱을 설치합니다. 
 

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/01/2018
+ms.date: 03/28/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,15 +15,15 @@ ms.assetid: dec6f258-ee1b-4824-bf66-29053051a1ae
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 186f6c1749d94a995ad145ca535bb59c6f02875c
-ms.sourcegitcommit: a22309174e617e59ab0cdd0a55abde38711a5f35
+ms.openlocfilehash: aed2bec6e6fea40fdbd78bc487896d167d036f06
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-configure-the-microsoft-intune-company-portal-app"></a>Microsoft Intune 회사 포털 앱을 구성하는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Microsoft Intune 회사 포털에서 사용자는 회사 데이터에 액세스하고 장치 등록, 앱 설치, IT 부서 지원 정보 찾기 등의 일반적인 작업을 수행할 수 있습니다.        
 
@@ -36,14 +36,14 @@ Microsoft Intune 회사 포털에서 사용자는 회사 데이터에 액세스�
 회사 이름은 회사 포털의 제목으로 표시됩니다. 연락처 정보 및 세부 정보는 회사 포털의 **IT 담당자** 화면에서 사용자에게 표시됩니다. 개인정보취급방침은 사용자가 개인정보취급방침 링크를 클릭하면 표시됩니다.        
 
 
-|필드 이름|최대 길이|추가 정보|        
-|-|-|-|     
-|**회사 이름**|40|이 이름은 회사 포털의 제목으로 표시됩니다.|        
-|**IT 부서 연락처 이름**|40|이 이름은 **IT 담당자** 페이지에 표시됩니다.|      
-|**IT 부서 전화 번호**|20|이 연락처 번호는 **IT 담당자** 페이지에 표시됩니다.|        
-|**IT 부서 이메일 주소**|40|이 연락처 주소는 **IT 담당자** 페이지에 표시됩니다. 유효한 메일 주소를 **alias@domainname.com** 형식으로 입력해야 합니다.|     
-|**추가 정보**|120|**IT 담당자** 페이지에 표시됩니다.|      
-|**회사 개인정보취급방침 URL**|79|사용자가 회사 포털에서 개인정보취급방침 링크를 클릭할 때 표시되는 회사 개인정보취급방침을 지정할 수 있습니다. 올바른 URL을 **https://www.contoso.com** 형식으로 입력해야 합니다.|        
+|                   필드 이름                   | 최대 길이 |                                                                                                 추가 정보                                                                                                 |
+|------------------------------------------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|         <strong>회사 이름</strong>          |     40     |                                                                            이 이름은 회사 포털의 제목으로 표시됩니다.                                                                            |
+|  <strong>IT 부서 연락처 이름</strong>   |     40     |                                                                         이 이름은 <strong>IT 담당자</strong> 페이지에 표시됩니다.                                                                          |
+|  <strong>IT 부서 전화 번호</strong>   |     20     |                                                                    이 연락처 번호는 <strong>IT 담당자</strong> 페이지에 표시됩니다.                                                                     |
+|  <strong>IT 부서 이메일 주소</strong>  |     40     |                       이 연락처 주소는 <strong>IT 담당자</strong> 페이지에 표시됩니다. 유효한 메일 주소를 <strong>alias@domainname.com</strong> 형식으로 입력해야 합니다.                       |
+|    <strong>추가 정보</strong>     |    120     |                                                                                <strong>IT 담당자</strong> 페이지에 표시됩니다.                                                                                |
+| <strong>회사 개인정보취급방침 URL</strong> |     79     | 사용자가 회사 포털에서 개인정보취급방침 링크를 클릭할 때 표시되는 회사 개인정보취급방침을 지정할 수 있습니다. 올바른 URL을 <strong><https://www.contoso.com></strong> 형식으로 입력해야 합니다. |
 
 ## <a name="support-contacts"></a>지원 연락처     
 지원 웹 사이트가 회사 포털의 사용자에게 표시되어, 온라인 지원에 액세스할 수 있도록 합니다.        
@@ -62,7 +62,7 @@ Microsoft Intune 회사 포털에서 사용자는 회사 데이터에 액세스�
 
 |필드 이름|추가 정보|       
 |-|-|       
-|**테마 색**|회사 포털에 적용할 테마 색을 선택합니다.|      
+|**테마 색**|회사 포털에 적용할 테마 색을 선택합니다. 색 편집기에서 선택하거나 특정 16진수 코드를 입력할 수 있습니다.|      
 |**회사 로고 표시**|이 옵션을 설정한 경우 회사 포털에서 표시할 회사 로고를 업로드할 수 있습니다. 회사 포털 배경이 흰색인 경우에 표시되는 로고 하나와 회사 포털 배경이 직접 선택한 테마 색을 사용하는 경우에 표시되는 로고 하나, 두 개의 로고를 업로드할 수 있습니다. 각 로고는 .png 또는 .jpg 파일 형식이어야 하며 최대 해상도가 400 x 100픽셀이고 크기가 750KB 이하여야 합니다.<br>업로드된 로고 옆에 입력한 회사 이름을 표시할 수도 있습니다.|      
 
-변경 내용을 저장한 후 **Intune 웹 포털에서 설정을 미리 봅니다.**를 선택하여 구성의 모양을 확인할 수 있습니다.
+변경 내용을 저장한 후 **Intune 웹 포털에서 설정을 미리 봅니다.** 를 선택하여 구성의 모양을 확인할 수 있습니다.

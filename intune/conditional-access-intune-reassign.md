@@ -1,25 +1,25 @@
 ---
-title: "Azure Portal에 조건부 액세스 마이그레이션"
+title: Azure Portal에 조건부 액세스 마이그레이션
 titlesuffix: Microsoft Intune
-description: "이전에 Intune 클래식 포털에서 만든 조건부 액세스 정책을 Azure Portal에 다시 할당합니다."
-keywords: 
+description: 이전에 Intune 클래식 포털에서 만든 조건부 액세스 정책을 Azure Portal에 다시 할당합니다.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 06/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 301159ad-5f7e-4fcc-86c7-f72a71701ff4
 ms.reviewer: chrisgree
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 80c8c994486dd340c9037817854eb35b32ab3a9e
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: d295ade29522a5593993b5541311eadd9e4c9528
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="reassign-conditional-access-policies-from-intune-classic-portal-to-the-azure-portal"></a>Intune 클래식 포털에서 Azure 포털로 조건부 액세스 정책 다시 할당
 
@@ -183,8 +183,8 @@ Intune 클래식 포털에서 Exchange Online 정책의 일부로 Exchange Activ
 
 Azure 포털에서 조건부 액세스 정책을 다시 할당했으면 이전에 Intune 클래식 포털에서 만든 조건부 액세스 정책을 점차적으로 사용하지 않도록 설정해야 합니다. 또한 동일한 보안 그룹을 사용하여 Azure 포털에서 만든 조건부 액세스 정책을 적용해야 할 수도 있습니다.
 
-> [!NOTE] 
-    > Intune 클래식 포털에서 조건부 액세스 정책을 사용하지 않도록 설정하기 전에 이 항목의 시작 부분에 있는 [시작하기 전에](#before-you-begin) 섹션을 참조하세요.
+> [!NOTE]
+> Intune 클래식 포털에서 조건부 액세스 정책을 사용하지 않도록 설정하기 전에 이 항목의 시작 부분에 있는 [시작하기 전에](#before-you-begin) 섹션을 참조하세요.
 
 ### <a name="to-disable-the-conditional-access-policies"></a>조건부 액세스 정책을 사용하지 않도록 설정하려면
 

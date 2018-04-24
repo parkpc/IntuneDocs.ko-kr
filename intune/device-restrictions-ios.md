@@ -13,15 +13,15 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 436be436991ea4f2f295291fb95122cddf4e7ac5
-ms.sourcegitcommit: a22309174e617e59ab0cdd0a55abde38711a5f35
+ms.openlocfilehash: 2af720248363b78dc9cfc3b17af7b11eb14fd893
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-ios-device-restriction-settings"></a>Microsoft Intune iOS 장치 제한 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이 아티클에서는 iOS를 실행하는 장치에 대해 구성할 수 있는 Microsoft Intune 장치 제한 설정을 설명합니다.
 
@@ -106,7 +106,7 @@ iOS 감독 모드는 Apple의 장치 등록 프로그램을 통하거나 Apple C
 - **암호 수정(감독 모드에만 해당)** - 암호 변경, 추가 또는 제거를 중지합니다.
     - **지문 수정(감독 모드에만 해당)** - 사용자의 TouchID 설정 변경, 추가 또는 제거를 중지합니다.
 
-<sup>1</sup> **화면이 잠기기 전까지 최대 비활성 시간(분)** 및 **화면 잠금 후 암호를 요구하기 전까지 최대 시간(분)**을 구성한 경우 순차적으로 적용됩니다. 예를 들어 두 설정 값을 모두 **5**분으로 지정하면 5분 뒤 화면이 자동으로 꺼지고 이후 5분이 더 지나면 장치가 잠깁니다. 그러나 사용자가 화면을 수동으로 끄면 두 번째 설정이 즉시 적용됩니다. 동일한 예에서 사용자가 화면을 끄면 5분 뒤 장치가 잠깁니다.
+<sup>1</sup> **화면이 잠기기 전까지 최대 비활성 시간(분)** 및 **화면 잠금 후 암호를 요구하기 전까지 최대 시간(분)** 을 구성한 경우 순차적으로 적용됩니다. 예를 들어 두 설정 값을 모두 **5**분으로 지정하면 5분 뒤 화면이 자동으로 꺼지고 이후 5분이 더 지나면 장치가 잠깁니다. 그러나 사용자가 화면을 수동으로 끄면 두 번째 설정이 즉시 적용됩니다. 동일한 예에서 사용자가 화면을 끄면 5분 뒤 장치가 잠깁니다.
 
 ## <a name="locked-screen-experience"></a>잠긴 화면 환경
 
@@ -301,8 +301,6 @@ iOS 감독 모드는 Apple의 장치 등록 프로그램을 통하거나 Apple C
 ,com.apple.Passbook,Wallet,Apple
 ,com.apple.Bridge,Watch,Apple
 ,com.apple.weather,Weather,Apple
-
-
 ```
 
 

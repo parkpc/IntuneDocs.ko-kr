@@ -1,29 +1,29 @@
 ---
-title: "회사 리소스 액세스 문제 해결"
-description: "이 항목의 오류 및 상태 코드는 리소스 액세스 문제를 해결하는 데 도움이 됩니다."
-keywords: 
+title: 회사 리소스 액세스 문제 해결
+description: 이 항목의 오류 및 상태 코드는 리소스 액세스 문제를 해결하는 데 도움이 됩니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: angrobe
 ms.date: 10/06/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 40622ced-6029-4abf-873e-b51d2b51934c
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 48c7c0a2da845416bdf6280a0ba9ac29c8fb37ba
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: a01124eb531de0b1303541d3b5d0717983106ef5
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="troubleshoot-company-resource-access-problems-with-microsoft-intune"></a>Microsoft Intune 관련 회사 리소스 액세스 문제 해결
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune 작업이 오류 코드를 반환하는 경우, 문제 해결을 돕기 위해 이 항목의 오류 및 상태 코드를 사용합니다.
 

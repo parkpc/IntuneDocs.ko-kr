@@ -14,11 +14,11 @@ ms.assetid: bb940cb9-d43f-45ca-b065-ac0adc61dc6f
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 84ff217361108ac3518567f31af8943d0b3032fe
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: d32c024d6cd526062c373b56dd18bca9480c32fa
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-app-sdk-cordova-plugin"></a>Microsoft Intune 앱 SDK Cordova 플러그 인
 
@@ -72,16 +72,16 @@ Cordova 기반 iOS 및 Android 앱의 [Intune 앱 SDK Cordova 플러그인](/int
 
 1. ADAL 버전 업데이트:
 
-  ```shell
-  cordova plugin remove cordova-plugin-ms-adal
-  cordova plugin add cordova-plugin-ms-adal@0.8.x
-  ```
+   ```shell
+   cordova plugin remove cordova-plugin-ms-adal
+   cordova plugin add cordova-plugin-ms-adal@0.8.x
+   ```
 
 2. Cordova 플러그 인에 대한 Intune 앱 SDK 추가:
 
-  ```shell
-  cordova plugin add cordova-plugin-ms-intune-mam
-  ```
+   ```shell
+   cordova plugin add cordova-plugin-ms-intune-mam
+   ```
 
 ## <a name="build-the-plugin-into-your-ios-app"></a>IOS 앱에 플러그 인 빌드
 
@@ -131,7 +131,7 @@ $ cordova run --nobuild
 * MultiDex 지원은 완전하지 않습니다.
 * 앱은 `minSdkVersion` 14 및 `targetSdkVersion` 24 이하여야 합니다. 현재 Intune은 API 25가 대상인 앱을 지원하지 않습니다.
 * Intune은 V2 서명 구성표를 사용하여 서명된 앱을 다시 서명할 수 없습니다. V2로 서명된 앱을 플러그 인이 래핑하면 래핑된 출력 .apk는 서명이 취소됩니다.
-*
+  *
   * 다음을 `build-extras.gradle` 파일에 추가하여 Cordova의 기본 V2 서명을 사용하지 않도록 설정할 수 있습니다.
 
   ```gradle

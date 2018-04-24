@@ -1,29 +1,29 @@
 ---
-title: "Intune에 회사 식별자 추가"
+title: Intune에 회사 식별자 추가
 titlesuffix: Microsoft Intune
-description: "Microsoft Intune에 회사 식별자(등록 방법, IMEI 및 일련 번호)를 추가하는 방법을 알아봅니다."
-keywords: 
+description: Microsoft Intune에 회사 식별자(등록 방법, IMEI 및 일련 번호)를 추가하는 방법을 알아봅니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 566ed16d-8030-42ee-bac9-5f8252a83012
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7d014ae02f3db2ea9175e74f2a867bd12f1d4f22
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: d9557c5f962390a9893109bc6f5175b1e709f7cd
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="identify-devices-as-corporate-owned"></a>회사 소유의 장치 식별
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune 관리자로서 사용자는 장치를 회사 소유로 식별하여 관리 및 식별을 구체화할 수 있습니다. Intune은 추가 관리 작업을 수행하고 회사 소유 장치에서 전체 전화 번호와 앱의 인벤토리와 같은 추가 정보를 수집할 수 있습니다. 회사 소유가 아닌 장치에서 등록하지 못하도록 차단하는 장치 제한을 설정할 수도 있습니다.
 
@@ -72,7 +72,7 @@ Intune 관리자는 IMEI 번호 또는 일련 번호가 나열된 쉼표로 구�
 
 1. [Azure Portal의 Intune](https://portal.azure.com)에서 **장치 등록** > **회사 장치 식별자**를 선택한 다음, **추가**를 클릭합니다.
 
- ![추가 단추가 강조 표시된 회사 장치 식별자 작업 영역](./media/add-corp-id.png)
+   ![추가 단추가 강조 표시된 회사 장치 식별자 작업 영역](./media/add-corp-id.png)
 
 2. **식별자 추가** 블레이드에서 식별자 형식 **IMEI** 또는 **일련**을 지정합니다. 이전에 가져온 숫자가 **기존 식별자 세부 정보를 덮어쓸지**를 지정할 수 있습니다.
 
@@ -97,7 +97,7 @@ International Mobile Equipment Identifiers에 대한 자세한 사양은 [3GGPP 
 
 **장치 소유권을 변경하려면 다음과 같이 합니다.**
 1. [Azure Portal의 Intune](https://portal.azure.com)에서 **장치**로 이동하고 장치를 선택합니다.
-3. **속성**을 선택합니다.
-4. **장치 소유권**을 **개인** 또는 **회사**로 지정합니다.
+2. **속성**을 선택합니다.
+3. **장치 소유권**을 **개인** 또는 **회사**로 지정합니다.
 
-  ![장치 범주 및 장치 소유권 옵션을 보여 주는 장치 속성](./media/device-properties.png)
+   ![장치 범주 및 장치 소유권 옵션을 보여 주는 장치 속성](./media/device-properties.png)

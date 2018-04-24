@@ -1,29 +1,29 @@
 ---
-title: "앱 보호 정책에 대해 LOB(기간 업무) 앱 준비"
+title: 앱 보호 정책에 대해 LOB(기간 업무) 앱 준비
 titlesuffix: Microsoft Intune
-description: "앱 래핑 도구와 앱 SDK를 사용하여 사용자 지정 기간 업무(LOB) 앱이 Microsoft Intune에서 앱 보호 정책을 사용하게 할 수 있습니다."
-keywords: 
+description: 앱 래핑 도구와 앱 SDK를 사용하여 사용자 지정 기간 업무(LOB) 앱이 Microsoft Intune에서 앱 보호 정책을 사용하게 할 수 있습니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 01/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 76330c926ecac9ae8b071837465d800f48f925fb
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: d61ba21ba465037fbf2ef4e1c7423f6649fc810f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>앱 보호 정책에 대해 LOB(기간 업무) 앱 준비
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 Intune 앱 래핑 도구 또는 Intune 앱 SDK를 사용하여 앱에서 앱 보호 정책을 사용할 수 있게 할 수 있습니다. 이 정보를 사용하여 이러한 두 가지 방법 및 사용 시기에 대해 알아보세요.
 
@@ -70,8 +70,8 @@ SDK에 대해 자세히 알아보려면 [개요](app-sdk.md) 항목을 참조하
 
 |**Intune 앱 SDK** |**Xamarin** |**Cordova**
 |------|----|----|
-|**iOS**|예 – [Intune 앱 SDK Xamarin 구성 요소](app-sdk-xamarin.md) 사용|예 – [Intune 앱 SDK Cordova 플러그인](app-sdk-cordova.md) 사용|
-|**OWA(Outlook Web Access)**| 예 – [Intune 앱 SDK Xamarin 구성 요소](app-sdk-xamarin.md) 사용|예 – [Intune 앱 SDK Cordova 플러그인](app-sdk-cordova.md) 사용|
+|**iOS**|예 – [Intune 앱 SDK Xamarin 바인딩](app-sdk-xamarin.md)을 사용합니다.|예 – [Intune 앱 SDK Cordova 플러그인](app-sdk-cordova.md) 사용|
+|**OWA(Outlook Web Access)**| 예 – [Intune 앱 SDK Xamarin 바인딩](app-sdk-xamarin.md)을 사용합니다.|예 – [Intune 앱 SDK Cordova 플러그인](app-sdk-cordova.md) 사용|
 
 ## <a name="feature-comparison"></a>기능 비교
 이 표에는 앱 SDK 및 앱 래핑 도구에 사용할 수 있는 설정이 나와 있습니다.
@@ -79,30 +79,30 @@ SDK에 대해 자세히 알아보려면 [개요](app-sdk.md) 항목을 참조하
 > [!NOTE]
 > 앱 래핑 도구는 Intune 독립 실행형 또는 Configuration Manager가 포함된 Intune과 함께 사용할 수 있습니다.
 
-|기능|앱 SDK|앱 래핑 도구|
-|-----------|---------------------|-----------|
-|웹 콘텐츠가 회사에서 관리되는 브라우저에 표시되도록 제한|X|X|
-|Android, iTunes 또는 iCloud 백업 차단|X|X|
-|앱이 다른 앱으로 데이터를 전송하도록 허용|X|X|
-|앱이 다른 앱의 데이터를 받도록 허용|X|X|
-|다른 앱에서 잘라내기, 복사 및 붙여넣기 제한|X|X|
-|액세스용 단순 PIN 필요|X|X|
-|기본 제공 앱 PIN을 Intune PIN으로 바꾸기|X||
-|PIN을 다시 설정하기 전 시도 횟수 지정|X|X|
-|PIN 대신 지문 허용 |X|X|
-|액세스 시 회사 자격 증명 필요|X|X|
-|관리되는 앱이 무단 해제 또는 루팅된 장치를 실행하지 못하도록 차단|X|X|
-|앱 데이터 암호화|X|X|
-|지정된 시간(분) 후에 액세스 요구 사항 다시 확인|X|X|
-|오프라인 유예 기간 지정|X|X|
-|화면 캡처 차단(Android에만 해당)|X|X|
-|장치 등록이 제외된 MAM에 대한 지원|X|X|
-|전체 초기화|X|X|
-|선택적 초기화 <br></br>**참고:** iOS의 경우 관리 프로필을 제거하면 앱도 제거됩니다.|X||
-|"다른 이름으로 저장" 차단 |X||
-|대상 응용 프로그램 구성 |X||
-|다중 ID 지원|X||
-|사용자 지정 가능한 스타일 |X|||
+|                                                         기능                                                          | 앱 SDK | 앱 래핑 도구 |
+|--------------------------------------------------------------------------------------------------------------------------|---------|-------------------|
+|                              웹 콘텐츠가 회사에서 관리되는 브라우저에 표시되도록 제한                              |    X    |         X         |
+|                                        Android, iTunes 또는 iCloud 백업 차단                                        |    X    |         X         |
+|                                         앱이 다른 앱으로 데이터를 전송하도록 허용                                         |    X    |         X         |
+|                                        앱이 다른 앱의 데이터를 받도록 허용                                         |    X    |         X         |
+|                                      다른 앱에서 잘라내기, 복사 및 붙여넣기 제한                                       |    X    |         X         |
+|                                              액세스용 단순 PIN 필요                                               |    X    |         X         |
+|                                         기본 제공 앱 PIN을 Intune PIN으로 바꾸기                                         |    X    |                   |
+|                                     PIN을 다시 설정하기 전 시도 횟수 지정                                      |    X    |         X         |
+|                                             PIN 대신 지문 허용                                             |    X    |         X         |
+|                                         액세스 시 회사 자격 증명 필요                                         |    X    |         X         |
+|                             관리되는 앱이 무단 해제 또는 루팅된 장치를 실행하지 못하도록 차단                              |    X    |         X         |
+|                                                     앱 데이터 암호화                                                     |    X    |         X         |
+|                           지정된 시간(분) 후에 액세스 요구 사항 다시 확인                            |    X    |         X         |
+|                                             오프라인 유예 기간 지정                                             |    X    |         X         |
+|                                           화면 캡처 차단(Android에만 해당)                                            |    X    |         X         |
+|                                        장치 등록이 제외된 MAM에 대한 지원                                         |    X    |         X         |
+|                                                        전체 초기화                                                         |    X    |         X         |
+| 선택적 초기화 <br></br><strong>참고:</strong> iOS의 경우 관리 프로필을 제거하면 앱도 제거됩니다. |    X    |                   |
+|                                                    "다른 이름으로 저장" 차단                                                     |    X    |                   |
+|                                            대상 응용 프로그램 구성                                            |    X    |                   |
+|                                                다중 ID 지원                                                |    X    |                   |
+|                                                    사용자 지정 가능한 스타일                                                    |    X    |                   |
 
 ## <a name="next-steps"></a>다음 단계
 

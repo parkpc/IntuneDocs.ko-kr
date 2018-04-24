@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ce8375a1b946a7ba5286637b1958539fd5015d8a
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 4c9c93d29ddee6d01e057c01a44c81950b857213
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="device-compliance-policies-in-microsoft-intune"></a>Microsoft Intune의 장치 준수 정책
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 ## <a name="what-is-a-compliance-policy"></a>준수 정책이란?
 회사 데이터를 보호하는 데 도움이 되려면 회사 앱 및 데이터에 액세스하는 데 사용되는 장치가 특정 규칙을 준수하는지 확인해야 합니다. 이러한 규칙에는 장치에 액세스하는 데 PIN을 사용하고 장치에 저장된 데이터를 암호화하는 규칙이 포함됩니다. 이러한 규칙의 집합을 준수 정책이라고 합니다.

@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f6cd6f71b3f78a7b77435d1c7474c1bd672b8b95
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: b6c0349d8e8c3b20d4674706d3cdf52234bab1c2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="manage-intune-licenses-using-powershell"></a>PowerShell을 사용하여 Intune 라이선스 관리
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 관리자가 PowerShell을 사용하여 Intune 사용자 라이선스를 관리하는 방법을 알려줍니다.
 
@@ -68,5 +68,5 @@ EMS 서비스에 대해 사용자 라이선스를 선택적으로 할당하려�
 
 ### <a name="next-steps"></a>다음 단계
 축하합니다. *Intune 빠른 시작 가이드*의 4단계를 완료했습니다.
->[!div class="step-by-step"]
-(/intune/custom-domain-name-configure) [&larr; **사용자를 Intune에 동기화**](/intune/custom-domain-name-configure)     [**사용자 및 장치 구성** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)  
+> [!div class="step-by-step"]
+> (/intune/custom-domain-name-configure) [&larr; **사용자를 Intune에 동기화**](/intune/custom-domain-name-configure)     [**사용자 및 장치 구성** &rarr;](./start-with-a-paid-subscription-to-microsoft-intune-step-5.md)  

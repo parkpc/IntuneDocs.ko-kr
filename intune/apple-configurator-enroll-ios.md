@@ -1,29 +1,29 @@
 ---
-title: "Apple Configurator를 사용하여 iOS 장치 등록"
+title: Apple Configurator를 사용하여 iOS 장치 등록
 titlesuffix: Microsoft Intune
-description: "Apple Configurator를 사용하여 설정 도우미를 통해 회사 소유 iOS 장치를 등록하는 방법을 알아봅니다."
-keywords: 
+description: Apple Configurator를 사용하여 설정 도우미를 통해 회사 소유 iOS 장치를 등록하는 방법을 알아봅니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6d384cd0-b662-41e7-94f5-0c96790ab20a
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 35c254d91a104b08a1bdda3f3496369607af30f2
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 5ecdd79a029bc3d434ebb0d8ba62ea0e65215f9e
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-ios-devices-with-apple-configurator"></a>Apple Configurator를 사용한 iOS 장치 등록
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 > [!NOTE]
 > ### <a name="temporary-user-interface-differences"></a>임시 사용자 인터페이스 차이점
@@ -85,8 +85,8 @@ Apple Configurator 등록 방법은 [장치 등록 관리자](device-enrollment-
 
 1. 헤더 없이 2열로 구성된 쉼표로 구분된 값(.csv) 목록을 만듭니다. 왼쪽 열에 일련 번호를 추가하고, 오른쪽 열에 세부 정보를 추가합니다. 현재 목록의 최대값은 5,000개 행입니다. 텍스트 편집기에 .csv 목록이 다음과 같이 표시됩니다.
 
-  F7TLWCLBX196,장치 세부 정보</br>
-  DLXQPCWVGHMJ,장치 세부 정보
+   F7TLWCLBX196,장치 세부 정보</br>
+   DLXQPCWVGHMJ,장치 세부 정보
 
    [iOS 장치 일련 번호를 확인하는 방법](https://support.apple.com/HT204073)을 알아봅니다.
 2. [Azure Portal](https://portal.azure.com)의 Intune에서 **장치 등록**을 선택한 다음, **Apple 등록**을 선택합니다.
@@ -119,23 +119,23 @@ Apple Configurator 등록을 위한 iOS 일련 번호를 가져올 때 등록 �
 1. [Azure Portal](https://portal.azure.com)의 Intune에서 **장치 등록** > **Apple 등록** > **AC 프로필**을 선택한 다음, 내보낼 프로필을 선택합니다.
 2. 프로필에서 **프로필 내보내기**를 선택합니다.
 
-  ![프로필 URL이 강조 표시된 설정 도우미 등록 프로필 내보내기](./media/ios-apple-configurator-expor-sat.png)
+   ![프로필 URL이 강조 표시된 설정 도우미 등록 프로필 내보내기](./media/ios-apple-configurator-expor-sat.png)
 3. 프로필 URL을 복사합니다. iOS 장치에서 사용하는 Intune 프로필을 정의하기 위해 나중에 Apple Configurator에서 추가할 수 있습니다.
 
-  다음 절차에서 Apple Configurator에 이 프로필을 가져와 iOS 장치에서 사용하는 Intune 프로필을 정의합니다.
+   다음 절차에서 Apple Configurator에 이 프로필을 가져와 iOS 장치에서 사용하는 Intune 프로필을 정의합니다.
 
 ### <a name="enroll-devices-with-setup-assistant"></a>설정 도우미를 사용하여 장치 등록
 
-1.  Mac 컴퓨터에서 **Apple Configurator 2**를 엽니다. 메뉴 모음에서 **Apple Configurator 2**를 선택한 후 **기본 설정**을 선택합니다.
-  > [!WARNING]
-  > 장치는 등록 프로세스 중에 공장 구성으로 재설정됩니다. 장치를 초기화하고 전원을 켜는 것이 좋습니다. 장치를 연결할 때 장치가 **Hello** 화면에 있어야 합니다.
+1. Mac 컴퓨터에서 **Apple Configurator 2**를 엽니다. 메뉴 모음에서 **Apple Configurator 2**를 선택한 후 **기본 설정**을 선택합니다.
+   > [!WARNING]
+   > 장치는 등록 프로세스 중에 공장 구성으로 재설정됩니다. 장치를 초기화하고 전원을 켜는 것이 좋습니다. 장치를 연결할 때 장치가 **Hello** 화면에 있어야 합니다.
 
 2. **기본 설정** 창에서 **서버**를 선택하고 더하기 기호(+)를 선택하여 MDM 서버 마법사를 시작합니다. **다음**을 선택합니다.
 3. Microsoft Intune을 사용한 iOS 장치용 설정 도우미 등록 아래 MDM 서버에 대한 **호스트 이름 또는 URL** 및 **등록 URL**을 입력합니다. 등록 URL에 Intune에서 내보낸 등록 프로필 URL을 입력합니다. **다음**을 선택합니다.  
 
-  "서버 URL이 확인되지 않음"을 알리는 경고는 무시해도 안전합니다. 계속하려면 마법사가 완료될 때까지 **다음**을 선택합니다.
-4.  USB 어댑터를 사용하여 Mac 컴퓨터에 iOS 모바일 장치를 연결합니다.
-5.  관리하려는 iOS 장치를 선택한 후 **준비**를 선택합니다. **iOS 장치 준비** 창에서 **수동**을 선택하고 **다음**을 선택합니다.
+   "서버 URL이 확인되지 않음"을 알리는 경고는 무시해도 안전합니다. 계속하려면 마법사가 완료될 때까지 **다음**을 선택합니다.
+4. USB 어댑터를 사용하여 Mac 컴퓨터에 iOS 모바일 장치를 연결합니다.
+5. 관리하려는 iOS 장치를 선택한 후 **준비**를 선택합니다. **iOS 장치 준비** 창에서 **수동**을 선택하고 **다음**을 선택합니다.
 6. **MDM 서버에 등록** 창에서 만든 서버 이름을 선택하고 **다음**을 선택합니다.
 7. **장치 감독** 창에서 감독 수준을 선택하고 **다음**을 선택합니다.
 8. **조직 만들기** 창에서 **조직**을 선택하거나 새 조직을 만들고 **다음**을 선택합니다.
@@ -162,13 +162,14 @@ Apple Configurator를 사용하여 iOS 장치를 직접 등록하는 경우 장�
 
 2. [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)를 실행하는 Mac 컴퓨터에 파일을 전송하여 iOS 장치에 관리 프로필로 직접 푸시합니다.
 3. 다음 단계를 사용하여 Apple Configurator로 장치를 준비합니다.
-  1. Mac 컴퓨터에서 Apple Configurator 2.0을 엽니다.
-  2. USB 코드를 사용하여 iOS 장치를 Mac 컴퓨터에 연결합니다. 사진, iTunes 및 장치를 검색할 때 장치에 대해 열려 있는 기타 앱을 닫습니다.
-  3. Apple Configurator에서 연결된 iOS 장치를 한 번 선택한 다음 **추가** 단추를 선택합니다. 장치에 추가할 수 있는 옵션이 드롭다운 목록에 나타납니다. **프로필**을 선택합니다.
+   1. Mac 컴퓨터에서 Apple Configurator 2.0을 엽니다.
+   2. USB 코드를 사용하여 iOS 장치를 Mac 컴퓨터에 연결합니다. 사진, iTunes 및 장치를 검색할 때 장치에 대해 열려 있는 기타 앱을 닫습니다.
+   3. Apple Configurator에서 연결된 iOS 장치를 한 번 선택한 다음 **추가** 단추를 선택합니다. 장치에 추가할 수 있는 옵션이 드롭다운 목록에 나타납니다. **프로필**을 선택합니다.
 
-    ![프로필 URL이 강조 표시된 설정 도우미 등록 프로필 내보내기](./media/ios-apple-configurator-add-profile.png)
+      ![프로필 URL이 강조 표시된 설정 도우미 등록 프로필 내보내기](./media/ios-apple-configurator-add-profile.png)
 
-  4. 파일 선택기를 사용하여 Intune에서 내보낸 .mobileconfig 파일을 선택하고 **추가**를 선택합니다. 프로필이 장치에 추가됩니다. 장치가 감독되지 않음인 경우 장치에서 설치에 동의해야 합니다.
+   4. 파일 선택기를 사용하여 Intune에서 내보낸 .mobileconfig 파일을 선택하고 **추가**를 선택합니다. 프로필이 장치에 추가됩니다. 장치가 감독되지 않음인 경우 장치에서 설치에 동의해야 합니다.
+
 4. 다음 단계를 사용하여 iOS 장치에 프로필을 설치합니다. 장치가 설정 도우미를 이미 완료했으며 사용할 준비가 된 상태여야 합니다. 등록 시 앱을 배포해야 하는 경우 앱 배포 시 Apple ID로 앱 스토어에 로그인해야 하기 때문에 장치에 Apple ID가 설정되어 있어야 합니다.
    1. iOS 장치 잠금을 해제합니다.
    2. **관리 프로필**에 대한 **프로필 설치** 대화 상자에서 **설치**를 선택합니다.

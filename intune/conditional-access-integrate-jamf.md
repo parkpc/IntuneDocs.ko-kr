@@ -1,25 +1,25 @@
 ---
-title: "준수를 위해 Microsoft Intune과 Jamf Pro 통합"
-titlesuffix: 
-description: "보안 Jamf 관리 장치를 도우려면 Azure Active Directory의 조건부 액세스와 함께 Microsoft Intune 준수 정책을 사용합니다."
-keywords: 
+title: 준수를 위해 Microsoft Intune과 Jamf Pro 통합
+titlesuffix: ''
+description: 보안 Jamf 관리 장치를 도우려면 Azure Active Directory의 조건부 액세스와 함께 Microsoft Intune 준수 정책을 사용합니다.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 01/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 4b6dcbcc-4661-4463-9a36-698d673502c6
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f4b040c6aa7001e8ebdd7c05571276428c7ef9bd
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: cdeb3a21af2b4cf020d3e5029eeb5b0bc31db062
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="integrate-jamf-pro-with-intune-for-compliance"></a>준수를 위해 Intune과 Jamf Pro 통합
 
@@ -56,20 +56,20 @@ Jamf Pro를 사용하여 조건부 액세스를 구성하려면 다음이 필요
 6. **응용 프로그램 만들기**를 클릭합니다.
 7. 새로 만든 **응용 프로그램 ID**를 저장한 다음 **설정**을 열고 **API 액세스** > **키**로 이동하여 새 응용 프로그램 키를 만듭니다. **설명**, **만료**되기까지 걸리는 시간을 입력한 다음 응용 프로그램 키를 저장합니다.
 
-  > [!IMPORTANT]
-  > 응용 프로그램 키는 이 프로세스 중에 한 번만 표시됩니다. 쉽게 검색할 수 있는 위치에 저장해야 합니다.
+   > [!IMPORTANT]
+   > 응용 프로그램 키는 이 프로세스 중에 한 번만 표시됩니다. 쉽게 검색할 수 있는 위치에 저장해야 합니다.
 
 8. **설정**을 입력한 다음 **API 액세스** > **필수 권한**으로 이동하여 모든 권한을 삭제합니다.
 
-  > [!NOTE]
-  > 새 필수 권한을 추가합니다. 응용 프로그램은 단일 필수 권한이 있는 경우에만 제대로 작동할 수 있습니다.
+   > [!NOTE]
+   > 새 필수 권한을 추가합니다. 응용 프로그램은 단일 필수 권한이 있는 경우에만 제대로 작동할 수 있습니다.
 
-9.  **Microsoft Intune API**를 선택하고 **선택**을 클릭합니다.
+9. **Microsoft Intune API**를 선택하고 **선택**을 클릭합니다.
 10. **Microsoft Intune에 장치 속성 보내기**를 선택하고 **선택**을 클릭합니다.
 11. 응용 프로그램에 필요한 권한을 저장한 후 **권한 부여** 단추를 클릭합니다.
 
-  > [!NOTE]
-  > 응용 프로그램 키가 만료되면 Microsoft Azure에서 새 응용 프로그램 키를 만든 다음 Jamf Pro의 조건부 액세스 데이터를 업데이트해야 합니다. Azure를 사용하면 서비스 중단을 방지하기 위해 이전 키와 새 키를 모두 활성화할 수 있습니다.
+    > [!NOTE]
+    > 응용 프로그램 키가 만료되면 Microsoft Azure에서 새 응용 프로그램 키를 만든 다음 Jamf Pro의 조건부 액세스 데이터를 업데이트해야 합니다. Azure를 사용하면 서비스 중단을 방지하기 위해 이전 키와 새 키를 모두 활성화할 수 있습니다.
 
 ## <a name="enable-intune-to-integrate-with-jamf-pro"></a>Intune을 Jamf Pro와 통합할 수 있도록 설정
 

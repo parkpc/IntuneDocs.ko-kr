@@ -1,27 +1,27 @@
 ---
-title: "Intune 회사 포털 웹 사이트 사용 | Microsoft 문서"
-description: "회사 포털 웹 사이트에 대해 설명하고 최종 사용자가 웹 사이트에서 수행할 수 있는 작업 단계로 연결되는 링크를 제공합니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Intune 회사 포털 웹 사이트 사용 | Microsoft 문서
+description: 회사 포털 웹 사이트에 대해 설명하고 최종 사용자가 웹 사이트에서 수행할 수 있는 작업 단계로 연결되는 링크를 제공합니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 06/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: a26d9e3c-8f58-4494-9571-fc88ba91852e
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 824c8d97195459289bf5944c8490f1363ece3c93
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: eca19c189a48e8173232cfe6fde9e33eb6fb1090
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-the-intune-company-portal-website"></a>Intune 회사 포털 웹 사이트 사용
 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)는 최종 사용자가 Intune에서 등록한 컴퓨터와 장치를 관리하는 데 사용할 수 있는 웹 페이지입니다.

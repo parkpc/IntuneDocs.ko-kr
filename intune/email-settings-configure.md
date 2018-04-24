@@ -1,27 +1,27 @@
 ---
-title: "Microsoft Intune 이메일 설정 구성하는 방법"
-titleSuffix: 
-description: "관리하는 장치에서 회사 이메일에 대한 연결을 만들도록 Microsoft Intune을 구성하는 방법을 알아봅니다."
-keywords: 
+title: Microsoft Intune 이메일 설정 구성하는 방법
+titleSuffix: ''
+description: 관리하는 장치에서 회사 이메일에 대한 연결을 만들도록 Microsoft Intune을 구성하는 방법을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/1/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 83d508f0ce33becb9abcef7434845836d8dd2bca
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: f51854bfb198ca65cc5fc82bad0e3b3befbb173a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-configure-email-settings-in-microsoft-intune"></a>Microsoft Intune에서 메일 설정을 구성하는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 메일 프로필을 사용하여 연결하는 데 필요한 설정으로 관리하는 장치를 구성하고 회사 메일과 동기화할 수 있습니다. 이를 통해 모든 장치에서 설정을 표준화하고 올바른 메일 설정을 모르는 최종 사용자의 지원 요청을 줄일 수 있습니다.
 

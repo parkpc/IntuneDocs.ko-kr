@@ -1,29 +1,29 @@
 ---
-title: "메일 보호 시나리오"
-description: "몇 가지 예제 시나리오와 이러한 시나리오를 조건부 액세스로 구현할 수 있는 방법입니다."
-keywords: 
+title: 메일 보호 시나리오
+description: 몇 가지 예제 시나리오와 이러한 시나리오를 조건부 액세스로 구현할 수 있는 방법입니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 01/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 454eab79-b620-42c9-b8e6-fada6e719fcd
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1ca486ca9eab1ebb8a446b560ff5e265eb4d2712
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 3116cfdb6b1ea153d914630a23e0db82a8c31d85
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="protect-access-to-email-with-microsoft-intune-example-scenarios"></a>Microsoft Intune을 사용한 메일에 대한 액세스 보호: 예제 시나리오
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 ## <a name="scenario-1-block-users-from-using-noncompliant-devices-to-access-exchange-online"></a>시나리오 1: 비규격 장치를 사용하여 Exchange Online에 액세스하는 사용자 차단
 ### <a name="scenario-requirements"></a>시나리오 요구 사항
@@ -53,9 +53,9 @@ ms.lasthandoff: 10/10/2017
 
 이를 위해 다음 설정으로 Exchange 온-프레미스에 대한 다음 조건부 액세스 정책을 구성합니다.
 
--   **비규격 장치이거나 Microsoft Intune에 등록되지 않은 장치인 경우 전자 메일 앱의 Exchange 온-프레미스 액세스를 차단합니다.** 옵션을 선택합니다. 이 옵션을 선택하면 조건부 액세스 정책이 사용하도록 설정되며 Exchange에 액세스할 수 있으려면 모든 장치를 Microsoft Intune에 등록하고 규정 준수 정책 규칙을 충족해야 합니다.
+- **비규격 장치이거나 Microsoft Intune에 등록되지 않은 장치인 경우 전자 메일 앱의 Exchange 온-프레미스 액세스를 차단합니다.** 옵션을 선택합니다. 이 옵션을 선택하면 조건부 액세스 정책이 사용하도록 설정되며 Exchange에 액세스할 수 있으려면 모든 장치를 Microsoft Intune에 등록하고 규정 준수 정책 규칙을 충족해야 합니다.
 
--   고급 Exchange Active Sync 설정을 위해 다음을 만듭니다.
+- 고급 Exchange Active Sync 설정을 위해 다음을 만듭니다.
 
   -   iOS를 실행하는 장치가 Exchange에 액세스하도록 허용하는 플랫폼 예외   
 

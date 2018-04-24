@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8f19318256dc4480207097d2f4ab393b799e207a
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: b39f7cac8c09813eb9db94e761ec6fa6ab53c7a0
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-lookout-device-compliance-policy-in-intune"></a>Intune에서 Lookout 장치 준수 정책 만들기
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Lookout Mobile Threat Defense와 Intune을 사용하면 모바일 장치에 대한 위협을 감지하고 해당 장치에 대한 위협을 평가할 수 있습니다. 위험을 평가하는 준수 정책 규칙을 만들어 장치가 정책을 준수하는지 확인할 수 있습니다. 그런 다음 조건부 액세스 정책을 사용하여 장치 준수 여부에 따라 액세스를 차단할 수 있습니다.
 
@@ -36,13 +36,13 @@ Lookout Mobile Threat Defense와 준수 정책에 대한 필수 구성 요소:
 Lookout Mobile Threat Defense 설정의 일부로, [Lookout 콘솔](https://aad.lookout.com)에서 다양한 위협 수준을 높음, 보통, 낮음으로 분류하는 정책을 만들었습니다. Intune 준수 정책에서 허용된 최대 위협 수준을 설정할 수 있습니다.
 
 1. [Intune 관리자 콘솔](https://manage.microsoft.com)에서 **준수 정책** 페이지로 이동합니다. 기존 준수 정책을 사용하거나 새로 만들 수 있습니다. **장치 상태**로 이동하고 **장치 위협 방지**를 사용하도록 설정합니다.
-  ![장치 위협 방지 규칙을 설정한 모습을 보여 주는 스크린샷](../media/mtp/mtp-compliance-policy-rule.png)
+   ![장치 위협 방지 규칙을 설정한 모습을 보여 주는 스크린샷](../media/mtp/mtp-compliance-policy-rule.png)
 
 2. **허용된 최대 위협 수준**을 선택합니다.
-  * **없음(보안됨)**: 가장 안전한 수준입니다.  장치가 어떠한 위협에도 노출되지 않았으며 회사 리소스에 계속 액세스할 수 있습니다.  어떠한 위협이든 확인되는 장치는 비규격으로 평가됩니다.  
-  * **낮음**: 낮은 수준의 위협만 있는 장치는 규격 장치입니다. 더 높은 수준의 위협이 발생하면 장치는 규정 비준수 상태가 됩니다.
-  * **보통**: 낮음 또는 보통 수준의 위협이 발견되는 장치는 규격 장치입니다. 높은 수준의 위협이 검색되는 장치는 비규격으로 간주됩니다.
-  * **높음**: 안전성이 가장 낮은 수준입니다. 이 수준은 모든 위협 수준을 허용하며 방지 보고용으로만 Lookout 모바일 위협 방지를 사용합니다.
+   * **없음(보안됨)**: 가장 안전한 수준입니다.  장치가 어떠한 위협에도 노출되지 않았으며 회사 리소스에 계속 액세스할 수 있습니다.  어떠한 위협이든 확인되는 장치는 비규격으로 평가됩니다.  
+   * **낮음**: 낮은 수준의 위협만 있는 장치는 규격 장치입니다. 더 높은 수준의 위협이 발생하면 장치는 규정 비준수 상태가 됩니다.
+   * **보통**: 낮음 또는 보통 수준의 위협이 발견되는 장치는 규격 장치입니다. 높은 수준의 위협이 검색되는 장치는 비규격으로 간주됩니다.
+   * **높음**: 안전성이 가장 낮은 수준입니다. 이 수준은 모든 위협 수준을 허용하며 방지 보고용으로만 Lookout 모바일 위협 방지를 사용합니다.
 
 ![장치 위협 방지 규칙에서 위협 수준 옵션을 설정한 모습을 보여 주는 스크린샷](../media/mtp/mtp-compliance-policy-setting.png)
 

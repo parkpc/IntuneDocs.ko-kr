@@ -1,29 +1,29 @@
 ---
-title: "Intune이 Apple에 보내는 데이터"
+title: Intune이 Apple에 보내는 데이터
 titleSuffix: Microsoft Intune
-description: "Intune이 Apple에 보내는 데이터 목록입니다."
-keywords: 
+description: Intune이 Apple에 보내는 데이터 목록입니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: b204a956-18ec-11e8-accf-0ed5f89f718b
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c247cfbd715368f65dfb1ba2ce8b5e88a491d302
-ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
+ms.openlocfilehash: e2829ffe4c8dfffd4d23f4c86b2985d41e983799
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="data-intune-sends-to-apple"></a>Intune이 Apple에 보내는 데이터
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 다음의 모든 Apple 서비스가 장치 장치에서 사용되는 경우 Microsoft Intune이 Apple과 연결되고 Apple과 사용자 및 장치 정보를 공유합니다. 
 

@@ -1,29 +1,29 @@
 ---
-title: "Intune에 Android 장치 등록"
+title: Intune에 Android 장치 등록
 titlesuffix: Microsoft Intune
-description: "Intune에 Android 장치를 등록하는 방법을 알아봅니다."
-keywords: 
+description: Intune에 Android 장치를 등록하는 방법을 알아봅니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7e65a32843cec48268c7e205ab4a064038c28415
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: d74f59f1df0a4a4e1285b58d7ac5b3677d3c5e48
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-android-devices"></a>Android 장치 등록
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune 관리자는 Samsung Knox Standard 장치를 포함한 Android 장치를 관리할 수 있습니다. 회사 프로필 [Android for Work 장치](#enable-enrollment-of-android-for-work-devices)를 관리할 수도 있습니다.
 
@@ -47,6 +47,8 @@ Android 장치를 차단하거나 등록에서 개인적으로 소유한 Android
 
 [장치 등록 관리자](device-enrollment-manager-enroll.md) 계정을 사용하여 Android for Work 장치를 등록하는 경우 계정당 등록할 수 있는 장치 수는 최대 10개입니다.
 
+자세한 내용은 [Google에 보내는 데이터 Intune](data-intune-sends-to-google.md)을 참조하세요.
+
 ## <a name="add-android-for-work-binding-for-intune"></a>Intune에 대한 Android for Work 바인딩 추가
 
 > [!NOTE]
@@ -55,15 +57,18 @@ Android 장치를 차단하거나 등록에서 개인적으로 소유한 Android
 1. **Intune MDM 설정**<br>
 아직 설정하지 않은 경우 **Microsoft Intune**으로 [모바일 장치 관리 기관을 설정](mdm-authority-set.md)하여 모바일 장치 관리를 준비합니다.
 2. **Android for Work 바인딩 구성**<br>
-    [Azure Portal](https://portal.azure.com)에서 Intune 관리자로 **모든 서비스** > **모니터링 + 관리** > **Intune**을 선택합니다.
-
-   a. **Intune** 창에서 **장치 등록** > **Android for Work 등록**을 선택하고 **관리되는 Google Play – 구성**을 선택하여 Google Play의 Android for Work 웹 사이트를 엽니다. 웹 사이트가 브라우저의 새 탭에 열립니다.
+    
+   a. [Azure Portal의 Intune](https://aka.ms/intuneportal)에 로그인하고, **장치 등록** > **Android 등록** > **관리되는 Google Play**를 선택합니다.
    ![Android for Work 등록 화면](./media/android-work-bind.png)
 
-   b. **Google에 로그인**<br>
+   b. **동의**를 선택하여 Microsoft에서 [Google에 사용자 및 장치 정보를 보낼 수 있도록](data-intune-sends-to-google.md) 권한을 부여합니다. 
+   
+   c. **Google을 시작하여 지금 연결**을 선택하여 Google Play의 Android for Work 웹 사이트를 엽니다. 웹 사이트가 브라우저의 새 탭에 열립니다.
+  
+   d. **Google에 로그인**<br>
    Google의 로그인 페이지에서 이 테넌트에 대한 모든 Android for Work 관리 작업과 연결할 Google 계정을 입력합니다. Play for Work 콘솔에서 앱을 관리 및 게시하기 위해 귀사의 IT 관리자가 공유하는 Google 계정입니다. 기존 Google 계정을 사용하거나 새 계정을 만들 수 있습니다.  선택한 계정이 G-Suite 도메인과 연결되어서는 안 됩니다.
 
-   c. **조직 세부 정보 제공**<br>
+   e. **조직 세부 정보 제공**<br>
    **조직 이름**에 회사 이름을 제공합니다. **EMM(엔터프라이즈 이동성 관리) 공급자**의 경우 **Microsoft Intune**이 나타나야 합니다. Android for Work 계약에 동의하고 **확인**을 선택합니다. 요청이 처리됩니다.
 
 ## <a name="specify-android-for-work-enrollment-settings"></a>Android for Work 등록 설정 지정
@@ -110,3 +115,14 @@ Android for Work 등록 및 관리를 해제할 수 있습니다. Intune 관리 
 
 2. **Android for Work 바인딩 삭제 동의**<br>
   바인딩을 삭제하고 Intune에서 Android for Work를 모두 등록 해제하려면 **예**를 선택합니다.
+
+## <a name="end-user-experience-when-enrolling-a-samsung-knox-device"></a>Samsung Knox 장치를 등록할 때 최종 사용자 환경
+Samsung Knox 장치를 등록할 때 몇 가지 고려 사항이 있습니다.
+-   PIN을 요구하는 정책이 없는 경우에도 등록을 위해 장치에 최소 4자리 PIN이 있어야 합니다. 장치에 PIN이 없는 경우 PIN을 만들라는 메시지가 사용자에게 표시됩니다.
+-   WPJ(작업 공간 연결) 인증서를 위한 사용자 상호 작용이 없습니다.
+-   서비스 등록 정보 및 앱이 수행할 수 있는 사항에 관한 메시지가 사용자에게 표시됩니다.
+-   Knox 등록 정보 및 앱이 수행할 수 있는 사항에 관한 메시지가 사용자에게 표시됩니다.
+-   암호화 정책이 적용되는 경우 사용자는 장치 암호에 대한 6자 복합 암호를 설정해야 합니다.
+-   회사 리소스 액세스를 위해 서비스에서 푸시되는 인증서를 설치하라는 추가 사용자 프롬프트는 없습니다.
+- 일부 이전 Knox 장치의 경우 회사 리소스 액세스에 사용되는 추가 인증서에 관한 메시지가 사용자에게 표시됩니다.
+- Samsung 미니 장치가 **인증서를 찾을 수 없습니다** 또는 **장치를 등록할 수 없습니다** 오류와 함께 WPJ를 설치하지 못하는 경우 최신 Samsung 펌웨어 업데이트를 설치합니다.

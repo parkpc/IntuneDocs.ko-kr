@@ -1,28 +1,28 @@
 ---
-title: "원격 잠금 및 암호 재설정"
-description: "Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다."
-keywords: 
+title: 원격 잠금 및 암호 재설정
+description: Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다.
+keywords: ''
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
 ms.date: 03/06/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.custom: intune-classic
-ms.openlocfilehash: 0fb7014392655eef44f94cf095717616732ebfd0
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: fc1cad418904de335b434a3726e2772d0558b303
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="help-protect-your-devices-with-remote-lock-and-passcode-reset"></a>원격 잠금 또는 암호 재설정으로 장치 보호 지원
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune은 원격 잠금 및 암호 재설정 기능을 제공합니다.
 

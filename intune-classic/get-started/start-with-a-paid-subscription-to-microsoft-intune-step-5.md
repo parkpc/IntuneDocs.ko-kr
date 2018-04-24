@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8e023035dabea653b289b767ff08801b13068a9e
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: f8590fc524e770536a66c604add2ce82d0c28afc
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-groups-to-organize-users-and-devices"></a>사용자 및 장치를 구성하는 그룹 만들기
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 관리자가 Intune에서 사용자 그룹을 만드는 방법을 알려줍니다.
 
@@ -36,7 +36,7 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 >[!IMPORTANT]
 >
->Intune 포털에서 그룹 작업 영역을 열 때 **Intune 사용자 그룹은 이제 Azure Active Directory에서 그룹으로 관리됩니다.**와 Azure Active Directory 포털에 대한 링크가 보이면 Intune의 그룹 관리에 대한 *새* Azure AD 보안 그룹 접근 방식을 이미 사용하고 있는 것입니다. 그룹을 만드는 방법을 알아보려면 [Azure Active Directory에서 그룹 관리](https://docs.microsoft.com/azure/active-directory/active-directory-groups-create-azure-portal)를 참조하세요.
+>Intune 포털에서 그룹 작업 영역을 열 때 **Intune 사용자 그룹은 이제 Azure Active Directory에서 그룹으로 관리됩니다.** 와 Azure Active Directory 포털에 대한 링크가 보이면 Intune의 그룹 관리에 대한 *새* Azure AD 보안 그룹 접근 방식을 이미 사용하고 있는 것입니다. 그룹을 만드는 방법을 알아보려면 [Azure Active Directory에서 그룹 관리](https://docs.microsoft.com/azure/active-directory/active-directory-groups-create-azure-portal)를 참조하세요.
 >
 >Azure AD 포털에 대한 링크가 보이지 않으면 그룹 관리에 Intune 포털을 여전히 사용하고 있는 것입니다.
 
@@ -83,5 +83,5 @@ Intune의 그룹을 통해 장치 및 사용자를 매우 유연하게 관리할
 
 새로 만든 그룹은 **그룹** 작업 영역의 **모든 사용자** 아래에 있는 **그룹** 목록에서 찾아볼 수 있습니다. 여기에서 그룹을 편집하거나 삭제할 수도 있습니다.
 
->[!div class="step-by-step"]
-/intune/licenses-assign [&larr; **Intune 라이선스 관리**](/intune/licenses-assign)       [**정책 및 앱 만들기** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md)  
+> [!div class="step-by-step"]
+> /intune/licenses-assign [&larr; **Intune 라이선스 관리**](/intune/licenses-assign)       [**정책 및 앱 만들기** &rarr;](./start-with-a-paid-subscription-to-microsoft-intune-step-6.md)  

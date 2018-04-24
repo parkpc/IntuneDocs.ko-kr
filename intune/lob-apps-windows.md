@@ -15,15 +15,15 @@ ms.assetid: f81c5f82-5cfa-4b97-9f73-d6cf77c06896
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f975f2018d2ce1d7affded3c3386c479e6877388
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: aa11c29a50006053b6e9b52516a595683d6f4cfd
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-add-windows-line-of-business-lob-apps-to-microsoft-intune"></a>Microsoft Intune에 Windows LOB(기간 업무) 앱을 추가하는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 LOB(기간 업무) 앱은 앱 설치 파일로 추가합니다. 이러한 유형의 앱은 일반적으로 사내에서 작성됩니다. 다음 단계는 Windows LOB 앱을 Microsoft Intune에 추가할 수 있도록 지침을 제공합니다.
 
@@ -69,7 +69,7 @@ LOB(기간 업무) 앱은 앱 설치 파일로 추가합니다. 이러한 유형
 
 ## <a name="step-5---update-a-line-of-business-app"></a>5단계 - 기간 업무(line-of-business) 앱 업데이트
 
-[!INCLUDE[shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)]
+[!INCLUDE [shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)]
 
 ## <a name="configuring-a-self-updating-mobile-msi-app-to-ignore-the-version-check-process"></a>버전 확인 프로세스를 무시하도록 알려진 자체 업데이트 모바일 MSI 앱을 구성할 수 있습니다
 

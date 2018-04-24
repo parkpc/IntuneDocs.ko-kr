@@ -1,27 +1,27 @@
 ---
-title: "Intune에서 Windows 장치 사용 | Microsoft 문서"
-description: "Intune에서 장치가 등록될 때 사용자가 Windows 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록"
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Intune에서 Windows 장치 사용 | Microsoft 문서
+description: Intune에서 장치가 등록될 때 사용자가 Windows 장치에서 수행할 수 있는 작업으로 연결되는 링크 목록
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 11/06/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0de5f03a-c288-423b-b9ea-493a39eb715a
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 1d7a5ab2fc2b4be7e385e533016f9d07f4e16505
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 645e87ef731cf911824ab16673c01e962c91fb70
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-your-windows-device-with-intune"></a>Intune에서 Windows 장치 사용
 

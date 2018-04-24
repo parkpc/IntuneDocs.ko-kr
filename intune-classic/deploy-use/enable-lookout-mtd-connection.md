@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 99c9952b8df3e9b4b1992cbc45366a5ceed458aa
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 4814bc053a27cf9fdf2694b6ae78884544b50c27
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enable-lookout-mtd-connection-in-the-intune-classic-portal"></a>Intune 클래식 포털에서 Lookout MTD 연결 사용
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune에서 Lookout MTD(Mobile Threat Defense) 연결을 사용하려면 Lookout 콘솔에서 Intune Connector를 미리 구성해야 합니다.  아직 구성하지 않은 경우 [Lookout MTD(Mobile Threat Defense) 구독을 설정](setup-your-lookout-mtd-subscription.md)해야 합니다.
 

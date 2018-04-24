@@ -1,30 +1,29 @@
 ---
-title: "Microsoft Intune에 iOS 스토어 앱을 추가하는 방법"
-titlesuffix: 
-description: "Microsoft Intune에 iOS 스토어 앱을 추가하는 방법을 알아봅니다."
+title: Microsoft Intune에 iOS 스토어 앱을 추가하는 방법
+titlesuffix: ''
+description: Microsoft Intune에 iOS 스토어 앱을 추가하는 방법을 알아봅니다.
 keywords: Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/06/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c59514d7-1256-4576-9380-e7a0b85a0378
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4bd10c4f05204d0e911a7538f5d5133e4a336320
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 4eaa4b279ab98c6fe41482628937e0f2b0dc70a5
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-add-ios-store-apps-to-microsoft-intune"></a>Microsoft Intune에 iOS 스토어 앱을 추가하는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
-
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이 아티클의 정보를 사용하면 Microsoft Intune에 iOS 스토어 앱을 추가하는 데 도움이 됩니다. iOS 스토어 앱은 Intune이 사용자 장치에 설치하는 앱입니다. 사용자는 회사의 직원입니다. iOS 스토어 앱은 자동으로 업데이트됩니다.
 
@@ -65,7 +64,7 @@ ms.lasthandoff: 03/12/2018
     - **메모** - 이 앱과 연결할 모든 메모를 입력합니다. 이 필드는 관리자에게만 표시되며, 최종 사용자에게는 표시되지 않습니다.
     - **로고** - 앱과 연결된 아이콘을 업로드합니다. 사용자가 회사 포털을 찾아볼 때 이 아이콘이 앱과 함께 표시됩니다.
 13. 작업이 완료되면 **정보 추가** 블레이드에서 **확인**을 클릭합니다.
-14. **추가 앱** 블레이드에서 **추가**를 클릭합니다.
+14. **앱 추가** 블레이드에서 **추가**를 클릭합니다.
 
 만든 앱이 앱 목록에 표시되며, 여기서 선택한 그룹에 해당 앱을 할당할 수 있습니다.
 

@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 94c6a46d2213ba3d1389b52f7684ec531e40228a
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: e1b4903eedaec53015a01a7711f87401dc02d24e
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console"></a>구성 하 고 Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 배포
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune의 MAM(모바일 응용 프로그램 관리) 정책을 사용하여 배포하는 앱의 기능을 회사의 규정 준수 및 보안 정책에 맞게 수정할 수 있습니다. 예를 들어 관리되는 앱 내에서의 잘라내기/복사/붙여넣기 작업을 제한하거나 관리되는 브라우저 안에서 모든 웹 링크를 열도록 앱을 구성할 수 있습니다.
 
@@ -102,7 +102,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 
 2.  **이 소프트웨어를 장치에 제공할 방법 선택**에서 **소프트웨어 설치 관리자**를 선택합니다.
 
-3.  **소프트웨어 설치 관리자 파일 형식**에서 **iOS용 앱 패키지(&#42;.ipa 파일)**를 선택합니다.
+3.  **소프트웨어 설치 관리자 파일 형식**에서 **iOS용 앱 패키지(&#42;.ipa 파일)** 를 선택합니다.
 
 업로드가 완료되면 업로드한 앱의 **소프트웨어 속성** 페이지에서 **앱 관리 정책**에 **예**가 표시됩니다.
 

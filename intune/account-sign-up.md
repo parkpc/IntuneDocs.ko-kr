@@ -14,15 +14,15 @@ ms.assetid: 0f3ce07a-b718-42a9-bace-f99a8b8abd94
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8858768586398d3dbb341c9963727df5faf9da15
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 14a295828a332b45e1cb0bc6d9b3b97bef5a3a59
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="sign-up-or-sign-in-to-microsoft-intune"></a>Microsoft Intune에 등록 또는 로그인
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 이 항목에서는 시스템 관리자가 Intune 계정을 등록하는 방법을 알려줍니다.
 
@@ -35,11 +35,11 @@ Intune에 등록하기 전에 Microsoft Online Services 계정, 기업계약 또
 
 ## <a name="how-to-sign-up-or-sign-in-to-intune"></a>Intune에 등록 또는 로그인하는 방법
 
-1.  [Intune 등록 페이지](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20)를 방문합니다.
+1. [Intune 등록 페이지](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20)를 방문합니다.
 
-  ![Microsoft Intune 평가판 계정 등록 웹 페이지의 스크린샷](./media/account-sign-up-site.png)
+   ![Microsoft Intune 평가판 계정 등록 웹 페이지의 스크린샷](./media/account-sign-up-site.png)
 
-2.  등록 페이지에서 로그인 또는 등록하여 Intune의 새로운 구독을 관리합니다.
+2. 등록 페이지에서 로그인 또는 등록하여 Intune의 새로운 구독을 관리합니다.
 
 ## <a name="post-sign-up-considerations"></a>등록 후 고려 사항
 새 구독을 등록하면 등록 과정 중에 제공한 메일 주소로 계정 정보가 포함된 메일 메시지를 받게 됩니다. 이 전자 메일을 통해 구독이 활성화된 것을 확인합니다.

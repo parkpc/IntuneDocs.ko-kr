@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 944c5771e00d8e256944fe5767217f138797bde2
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: d5d55f6c3efabdde51b5627d5ddd409c2b282f6c
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="general-troubleshooting-tips-for-microsoft-intune"></a>Microsoft Intune에 대한 일반적인 문제 해결 팁
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune을 배포한 후에 구성이나 클라이언트 장치에서 문제가 발생할 수 있습니다. 다음 리소스를 사용하면 문제를 해결하기 위해 문제의 원인을 파악할 수 있습니다.
 
@@ -50,13 +50,13 @@ Microsoft Intune을 배포한 후에 구성이나 클라이언트 장치에서 �
 
 ## <a name="collect-available-data"></a>사용 가능한 데이터 수집
 
--   다음 리소스를 통해 장치 로그를 수집하는 방법을 파악할 수 있습니다.
+- 다음 리소스를 통해 장치 로그를 수집하는 방법을 파악할 수 있습니다.
   - [USB 케이블을 사용하여 IT 관리자에게 Android 진단 데이터 로그 보내기](/intune-user-help/send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android)
   - [메일을 사용하여 IT 관리자에게 Android 진단 데이터 로그 보내기](/intune-user-help/send-diagnostic-data-logs-to-your-it-administrator-using-email-android)
   - [IT 관리자에게 Android 등록 오류 보내기](/intune-user-help/send-enrollment-errors-to-your-it-administrator-android)
   - [IT 관리자에게 iOS 등록 오류 보내기](/intune-user-help/send-errors-to-your-it-admin-ios)
 
--   관리 콘솔 데이터. 예를 들어 정책 구현 문제의 경우 [Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리](/intune-classic/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)에 설명된 대로 의도한 정책 및 해당 정책의 상태를 검사합니다.
+- 관리 콘솔 데이터. 예를 들어 정책 구현 문제의 경우 [Microsoft Intune에서 그룹을 사용하여 사용자 및 장치 관리](/intune-classic/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)에 설명된 대로 의도한 정책 및 해당 정책의 상태를 검사합니다.
 
 ## <a name="research-the-solution"></a>솔루션 연구
 

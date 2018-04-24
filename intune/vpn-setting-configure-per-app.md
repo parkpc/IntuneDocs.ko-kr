@@ -1,25 +1,25 @@
 ---
-title: "iOS 장치용 Microsoft Intune에서 앱당 VPN 설정"
-titleSuffix: 
-description: "Intune이 관리하는 iOS 장치에서 관리되는 앱이 VPN(가상 사설망)을 사용할 수 있도록 지정합니다."
-keywords: 
+title: iOS 장치용 Microsoft Intune에서 앱당 VPN 설정
+titleSuffix: ''
+description: Intune이 관리하는 iOS 장치에서 관리되는 앱이 VPN(가상 사설망)을 사용할 수 있도록 지정합니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: D9958CBF-34BF-41C2-A86C-28F832F87C94
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d2839a11f95614add0691813a9fdf89dba0a2d5d
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 1b28f809c924ec2699647a3cc377b3bdde86afe5
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-in-intune-for-ios-devices"></a>iOS 장치용 Intune에서 앱당 VPN 설정
 
@@ -67,7 +67,7 @@ Intune에서 만든 프로필에 CA에서 발급한 VPN 서버의 루트 인증�
 4. 폴더 아이콘을 클릭하고 VPN 관리 콘솔에서 내보낸 VPN 인증서(.cer 파일)로 이동합니다. **확인**을 클릭합니다.
 5. **만들기**를 클릭합니다.
 
-    ![신뢰할 수 있는 인증서 프로필 만들기](media\vpn-per-app-create-trusted-cert.png)
+    ![신뢰할 수 있는 인증서 프로필 만들기](./media/vpn-per-app-create-trusted-cert.png)
 
 ## <a name="create-a-scep-certificate-profile"></a>SCEP 인증서 프로필 만들기
 
@@ -83,9 +83,9 @@ Intune에서 만든 프로필에 CA에서 발급한 VPN 서버의 루트 인증�
     4. **프로필 형식**으로 **SCEP 인증서**를 선택합니다.
 4. **연도**를 선택하고 **인증서 유효 기간이**으로 `2`를 입력합니다.
 5. **주체 이름 형식**으로 **공통 이름**을 선택합니다.
-6. **주체 대체 이름**으로 **UPN(사용자 계정 이름)**을 선택합니다.
+6. **주체 대체 이름**으로 **UPN(사용자 계정 이름)** 을 선택합니다.
 7. **키 사용**에서 **디지털 서명** 및 **키 암호화**를 선택합니다.
-8. **키 크기(비트)**에서 **2048**을 선택합니다.
+8. **키 크기(비트)** 에서 **2048**을 선택합니다.
 9. 루트 인증서를 클릭하고 SCEP 인증서를 선택합니다. **확인**을 클릭합니다.
 10. **확장된 키 사용**의 **이름**에 `Client Authentication`을 입력합니다.
 11. **개체 식별자**에 `1.3.6.1.5.5.7.3.2`를 입력합니다.
@@ -94,7 +94,7 @@ Intune에서 만든 프로필에 CA에서 발급한 VPN 서버의 루트 인증�
 14. **확인**을 클릭합니다.
 15. **만들기**를 클릭합니다.
 
-    ![SCEP 인증서 프로필 만들기](media\vpn-per-app-create-scep-cert.png)
+    ![SCEP 인증서 프로필 만들기](./media/vpn-per-app-create-scep-cert.png)
 
 ## <a name="create-a-per-app-vpn-profile"></a>앱당 VPN 프로필 만들기
 
@@ -123,7 +123,7 @@ VPN 프로필에는 클라이언트 자격 증명을 포함한 SCEP 인증서, V
 6. **확인**을 클릭합니다.
 7. **만들기**를 클릭합니다.
 
-    ![앱당 VPN 프로필 만들기](media\vpn-per-app-create-vpn-profile.png)
+    ![앱당 VPN 프로필 만들기](./media/vpn-per-app-create-vpn-profile.png)
 
 
 ## <a name="associate-an-app-with-the-vpn-profile"></a>VPN 프로필과 앱 연결
@@ -146,7 +146,7 @@ VPN 프로필을 추가한 후에 앱 및 Azure AD 그룹을 프로필에 연결
 
 9. **확인**을 클릭하고 **저장**을 클릭합니다.
 
-    ![VPN과 앱 연결](media\vpn-per-app-app-to-vpn.png)
+    ![VPN과 앱 연결](./media/vpn-per-app-app-to-vpn.png)
 
 ## <a name="verify-the-connection-on-the-ios-device"></a>iOS 장치에 대한 연결 확인
 

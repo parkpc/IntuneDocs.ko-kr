@@ -15,15 +15,15 @@ ms.assetid: 671e4d76-0c61-11e8-ba89-0ed5f89f718b
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 96889cfeb3b66fa988a14143cb560eb714d749c9
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 605bfb94d720336da94e62a2629576cf178eea2f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-ios-devices-with-apple-configurator"></a>Apple Configurator를 사용한 iOS 장치 등록
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 > [!NOTE]
 > ### <a name="temporary-user-interface-differences"></a>임시 사용자 인터페이스 차이점
@@ -90,7 +90,7 @@ Apple Configurator 등록 방법은 [장치 등록 관리자](device-enrollment-
    [iOS 장치 일련 번호를 확인하는 방법](https://support.apple.com/HT204073)을 알아봅니다.
 2. [Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **Apple 등록** > **Apple Configurator** > **장치** > **추가**를 선택합니다.
 
-5. 가져올 일련 번호에 적용할 **등록 프로필**을 선택합니다. 기존 세부 정보를 새 일련 번호 정보로 덮어쓰려는 경우 **기존 식별자에 대한 세부 정보를 덮어씁니다.**를 선택합니다.
+5. 가져올 일련 번호에 적용할 **등록 프로필**을 선택합니다. 기존 세부 정보를 새 일련 번호 정보로 덮어쓰려는 경우 **기존 식별자에 대한 세부 정보를 덮어씁니다.** 를 선택합니다.
 6. **장치 가져오기**에서 일련 번호의 csv 파일을 찾은 다음 **추가**를 선택합니다.
 
 ### <a name="reassign-a-profile-to-device-serial-numbers"></a>장치 일련 번호에 프로필 재할당
@@ -115,7 +115,7 @@ Apple Configurator 등록을 위해 iOS 일련 번호를 가져올 때 등록 �
 2. 프로필에서 **프로필 내보내기**를 선택합니다.
 3. **프로필 URL**을 복사합니다. 그런 다음 Apple Configurator에서 추가하여 iOS 장치가 사용하는 Intune 프로필을 정의할 수 있습니다.
 
-  다음 절차에서 Apple Configurator에 이 프로필을 가져와 iOS 장치에서 사용하는 Intune 프로필을 정의합니다.
+   다음 절차에서 Apple Configurator에 이 프로필을 가져와 iOS 장치에서 사용하는 Intune 프로필을 정의합니다.
 
 ### <a name="enroll-devices-with-setup-assistant"></a>설정 도우미를 사용하여 장치 등록
 

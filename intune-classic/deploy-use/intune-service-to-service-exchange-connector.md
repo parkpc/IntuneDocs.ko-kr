@@ -15,27 +15,28 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 78b4e91fd61bb79c2a3a6d86d5a79c39b320cc5e
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 8af8d79d6f8ea9037c6bef532ad45185830c358d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-the-intune-service-to-service-connector-for-exchange-online"></a>Exchange Online용 Intune Service to Service Connector 구성
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 정보를 사용하여 Microsoft Intune과 Exchange Online 또는 신규 Exchange Online Dedicated 서비스에 연결합니다. Exchange Online Dedicated 환경이 **신규** 또는 **기존** 버전인지 확인하려면 계정 관리자에게 문의하세요. Intune은 Exchange Connector 연결 형식에 상관없이 구독당 연결을 한 번만 지원합니다.
 
 ## <a name="service-to-service-connector-requirements"></a>Service to Service Connector 요구 사항
 **Service to Service Connector**는 Exchange Online 또는 Exchange Online Dedicated만 지원하며 온-프레미스 인프라에 대한 요구 사항은 없습니다.
 
-|요구 사항|추가 정보|
-|---------------|--------------------|
-|Exchange Online 구성 및 실행|[Exchange Online](https://technet.microsoft.com/library/jj200580.aspx) |
-|모바일 장치 관리 기관| [Microsoft Intune으로 모바일 장치 관리 기관 설정](prerequisites-for-enrollment.md#step-2-set-mdm-authority)|
-|Microsoft Exchange 버전|Exchange Online 또는 신규 Exchange Online Dedicated 서비스|/intune/users-permissions-add
-|Active Directory 동기화|Intune Connector를 사용하려면 로컬 사용자 및 보안 그룹이 Azure Active Directory의 인스턴스와 동기화되도록 [Active Directory 동기화를 설정](/intune/users-permissions-add)해야 합니다.|
+
+|              요구 사항               |                                                                                                            추가 정보                                                                                                            |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Exchange Online 구성 및 실행 |                                                                                 [Exchange Online](https://technet.microsoft.com/library/jj200580.aspx)                                                                                 |
+|   모바일 장치 관리 기관   |                                                       [Microsoft Intune으로 모바일 장치 관리 기관 설정](prerequisites-for-enrollment.md#step-2-set-mdm-authority)                                                       |
+|       Microsoft Exchange 버전       |                                                                                      Exchange Online 또는 신규 Exchange Online Dedicated 서비스                                                                                      |
+|    Active Directory 동기화    | Intune Connector를 사용하려면 로컬 사용자 및 보안 그룹이 Azure Active Directory의 인스턴스와 동기화되도록 [Active Directory 동기화를 설정](/intune/users-permissions-add)해야 합니다. |
 
 ### <a name="exchange-cmdlet-requirements"></a>Exchange cmdlet 요구 사항
 

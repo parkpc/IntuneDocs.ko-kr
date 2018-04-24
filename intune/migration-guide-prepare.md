@@ -14,11 +14,11 @@ ms.technology: ''
 ms.assetid: 58591442-6606-4f39-a06b-f17a1f25af25
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 52af99e79b9c97fc38dc911fb55070180667b7a1
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: f7bf390bd581e3edee1c94f446e89b16163cadee
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="phase-1-prepare-microsoft-intune-for-mobile-device-management-mdm"></a>1단계: MDM(모바일 장치 관리)을 위한 Microsoft Intune 준비
 
@@ -55,23 +55,23 @@ Intune 설정의 세부 정보를 살펴보기 전에 조직의 모바일 장치
 
 ### <a name="what-is-your-device-security-policy"></a>장치 보안 정책은 어떻게 되나요?
 
--   장치 수준 암호화가 필요한가요?
+- 장치 수준 암호화가 필요한가요?
 
--   현재 장치 암호/PIN 코드 길이는 어떤가요?
+- 현재 장치 암호/PIN 코드 길이는 어떤가요?
 
--   장치 기능을 사용하지 않도록 설정하거나 특정 장치 동작을 제한해야 하나요? 장치 구성 프로필을 사용하여 다음과 같은 다양한 플랫폼 관련 설정을 제어할 수 있습니다.
-      - 카메라 사용 안 함
-      - 단일 앱 모드 잠금<br/>
+- 장치 기능을 사용하지 않도록 설정하거나 특정 장치 동작을 제한해야 하나요? 장치 구성 프로필을 사용하여 다음과 같은 다양한 플랫폼 관련 설정을 제어할 수 있습니다.
+    - 카메라 사용 안 함
+    - 단일 앱 모드 잠금<br/>
 
--   어떤 종류의 인증을 지원해야 하나요? 인증서 기반 인증이 필요한 경우 어떤 종류의 인증서를 프로비전해야 하나요?
+- 어떤 종류의 인증을 지원해야 하나요? 인증서 기반 인증이 필요한 경우 어떤 종류의 인증서를 프로비전해야 하나요?
   - Intune에서는 등록된 장치에 대한 리소스 액세스 프로필을 사용하여 인증서를 프로비전할 수 있습니다.
-    -   어떤 종류의 PKI(공개 키 인프라) 인프라를 지원해야 하나요?
-<br></br>
--   장치 또는 앱 수준에서 VPN(가상 사설망)을 지원해야 하나요?
+  -   어떤 종류의 PKI(공개 키 인프라) 인프라를 지원해야 하나요?
+  <br></br>
+- 장치 또는 앱 수준에서 VPN(가상 사설망)을 지원해야 하나요?
 
-    -   Intune에서는 타사 VPN 공급자에 대한 VPN 구성을 프로비전할 수 있습니다.
-<br/><br/>
--   가동 중지 시간을 방지하기 위해 특정 요구 사항에 대한 임시 예외를 만들 수 있나요? 또는 액세스 권한이 있는 장치가 항상 모든 보안 요구 사항을 준수해야 하나요?
+  -   Intune에서는 타사 VPN 공급자에 대한 VPN 구성을 프로비전할 수 있습니다.
+  <br/><br/>
+- 가동 중지 시간을 방지하기 위해 특정 요구 사항에 대한 임시 예외를 만들 수 있나요? 또는 액세스 권한이 있는 장치가 항상 모든 보안 요구 사항을 준수해야 하나요?
 
 ## <a name="next-steps"></a>다음 단계
 다양한 산업 분야의 [사례 연구](https://customers.microsoft.com/story/mwh-global-now-part-of-stantec-secures-mobile-devices-with-intune)를 검토하여 여러 조직이 모바일 장치 관리에 대한 요구 사항을 어떻게 평가했는지 알아봅니다.

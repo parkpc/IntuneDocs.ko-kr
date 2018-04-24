@@ -14,26 +14,26 @@ ms.assetid: 40262e47-1ab4-437d-8ca5-c89b5022f91f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.custom: intune-classic EXPIERIMENT
-ms.openlocfilehash: fd09126b8226828ccb60f30e0daa6135643303e2
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: b730aae4e3e8f576824ac61811018293cc07e080
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="choose-how-to-enroll-mobile-devices"></a>모바일 장치를 등록하는 방법 선택
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이러한 일련의 질문에 답변하면 관리하는 장치에 대한 최상의 등록 방법을 결정하는 데 도움이 됩니다.
 
 ## <a name="how-will-you-manage-dedicated-corporate-owned-devices"></a>**회사 소유의 전용 장치를 어떻게 관리하나요?**
 
-  > [!div class="button"]
-[iOS DEP >](/intune-classic/deploy-use/ios-device-enrollment-program-in-microsoft-intune)  
 > [!div class="button"]
-[iOS 설정 길잡이 >](/intune-classic/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune)
+> [iOS DEP >](/intune-classic/deploy-use/ios-device-enrollment-program-in-microsoft-intune)  
 > [!div class="button"]
-[IMEI로 태그 지정 >](/intune-classic/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers)
+> [iOS 설정 길잡이 >](/intune-classic/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune)
+> [!div class="button"]
+> [IMEI로 태그 지정 >](/intune-classic/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers)
 
   다음과 같은 방법으로 전용 사용자가 포함된 회사 소유 장치를 등록할 수 있습니다.
 
@@ -44,4 +44,4 @@ ms.lasthandoff: 03/22/2018
   - **IMEI 번호로 태그 지정** - 회사 소유 장치의 IMEI(International Mobile Equipment Identity) 번호를 가져와서 Intune에서 회사 소유 장치로 장치에 태그를 지정할 수 있습니다. 이는 전용("단일 사용자") Windows 및 Android 장치를 회사 소유로 확인하는 유일한 방법입니다. Apple 장치 등록 프로그램 또는 Apple 구성기에 등록되지 않는 iOS 장치도 IMEI 숫자로 태그될 수 있습니다. 장치가 “회사”로 태그되도록 미리 선언한 후에는 장치를 사용자에게 분배할 수 있습니다. 그런 다음 사용자는 회사 포털을 설치하여 장치를 전용 장치로 등록함으로써 전자 메일, 앱, 데이터 등의 회사 리소스에 액세스할 수 있습니다.
 
 > [!div class="button"]
-[< 뒤로](choose-how-to-enroll-devices3.md)
+> [< 뒤로](choose-how-to-enroll-devices3.md)

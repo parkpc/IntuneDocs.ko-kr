@@ -1,29 +1,29 @@
 ---
-title: "장치 및 앱 수명 주기에 대한 개요"
+title: 장치 및 앱 수명 주기에 대한 개요
 titleSuffix: Microsoft Intune
-description: "Microsoft Intune을 사용하는 장치 및 앱 수명 주기에 대한 대략적인 설명입니다."
-keywords: 
+description: Microsoft Intune을 사용하는 장치 및 앱 수명 주기에 대한 대략적인 설명입니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 38e08253-14a0-4cc4-87be-7b110c12a523
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d262d5679ceb802320bd5aa496d91f549ec12952
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: c358fff91744335080a10d45c7753293911430ae
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="overview-of-device-and-app-lifecycles"></a>장치 및 앱 수명 주기에 대한 개요
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 개별 조직의 필요는 다를 수 있지만 모바일 장치와 모바일 앱을 관리하기 위해 수시로 실행해야 하는 특정 일반적인 단계가 있습니다. 이러한 단계를 **수명 주기**라는 두 가지 주요 범주로 그룹화할 수 있습니다. 수행하는 배포 수명 주기는 사용하려는 시나리오에 따라 달라집니다. 예를 들어 장치 수명 주기와 앱 수명 주기 중 하나만 필요할 수도 있고 둘 다 필요할 수도 있습니다.
 

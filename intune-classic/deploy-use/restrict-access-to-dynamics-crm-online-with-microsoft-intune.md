@@ -1,29 +1,29 @@
 ---
-title: "Dynamics CRM Online 보호"
-description: "조건부 액세스로 Dynamics CRM Online을 보호하고 액세스를 제어합니다."
-keywords: 
+title: Dynamics CRM Online 보호
+description: 조건부 액세스로 Dynamics CRM Online을 보호하고 액세스를 제어합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 01/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: bae29ed7eba164ce19ea5db7d003ab38b4683454
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: e2f720c8a6613884397111c2a421fa1cfdc0eb53
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="protect-access-to-dynamics-crm-online-with-intune"></a>Intune을 사용하여 Dynamics CRM Online에 대한 액세스 보호
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune 조건부 액세스를 사용하여 iOS 및 Android 장치에서 Microsoft Dynamics CRM Online에 대한 액세스를 제어할 수 있습니다.  Intune 조건부 액세스에는 두 구성 요소가 포함되어 있습니다.
 * [장치 준수 정책](introduction-to-device-compliance-policies-in-microsoft-intune.md) - 장치가 규격으로 간주되기 위해 준수해야 하는 정책입니다.
@@ -60,7 +60,7 @@ Dynamics CRM 정책에 사용할 두 가지 그룹 유형을 지정할 수 있�
 
 사용자가 두 그룹에 모두 속한 경우에는 정책에서 제외됩니다.
 
-### <a name="step-2-configure-and-deploy-a-compliance-policy"></a>2단계: 준수 정책 구성 및 배포
+### <a name="step-2-configure-and-deploy-a-compliance-policy"></a>2단계: 규정 준수 정책 구성 및 배포
 규정 준수 정책을 [만들어](create-a-device-compliance-policy-in-microsoft-intune.md) 이 정책의 영향을 받는 모든 장치에 [배포](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)합니다. 대상 그룹의 사용자가 사용하는 모든 장치가 여기에 해당됩니다.
 
 > [!NOTE]
@@ -73,17 +73,17 @@ Dynamics CRM 정책에 사용할 두 가지 그룹 유형을 지정할 수 있�
 ### <a name="step-3-configure-the-dynamics-crm-policy"></a>3단계: Dynamics CRM 정책 구성
 다음으로 관리되고 규정을 준수하는 장치만 Dynamics CRM에 액세스할 수 있도록 요구하는 정책을 구성합니다. 이 정책은 Azure Active Directory에 저장됩니다.
 
-1.  Intune 관리 콘솔에서 **정책 > 조건부 액세스 > Dynamics CRM Online 정책**을 선택합니다.
+1. Intune 관리 콘솔에서 **정책 > 조건부 액세스 > Dynamics CRM Online 정책**을 선택합니다.
 
-  ![Dynamics CRM Online 조건부 액세스 정책 페이지의 스크린샷](../media/mdm-ca-dynamics-crm-policy-configuration.png)
+   ![Dynamics CRM Online 조건부 액세스 정책 페이지의 스크린샷](../media/mdm-ca-dynamics-crm-policy-configuration.png)
 
-2.  **조건부 액세스 정책 사용**을 선택합니다.
-3.  **응용 프로그램 액세스** 아래에서 다음 플랫폼에 조건부 액세스 정책을 적용하도록 선택할 수 있습니다.
-  * **iOS**
-  * **OWA(Outlook Web Access)**
-4.  **대상 그룹**에서 **수정**을 선택하여 정책을 적용할 Azure Active Directory 보안 그룹을 선택합니다. 모든 사용자 또는 선택한 사용자 그룹을 대상으로 지정할 수 있습니다.
-5.  **제외된 그룹**에서 필요에 따라 **수정**을 선택하여 이 정책에서 제외된 Azure Active Directory 보안 그룹을 선택합니다.
-6.  작업이 끝나면 **저장**을 선택합니다.
+2. **조건부 액세스 정책 사용**을 선택합니다.
+3. **응용 프로그램 액세스**에서 다음 플랫폼에 조건부 액세스 정책을 적용하도록 선택할 수 있습니다.
+   * **iOS**
+   * **OWA(Outlook Web Access)**
+4. **대상 그룹**에서 **수정**을 선택하여 정책을 적용할 Azure Active Directory 보안 그룹을 선택합니다. 모든 사용자 또는 선택한 사용자 그룹을 대상으로 지정할 수 있습니다.
+5. **제외된 그룹**에서 필요에 따라 **수정**을 선택하여 이 정책에서 제외된 Azure Active Directory 보안 그룹을 선택합니다.
+6. 작업이 끝나면 **저장**을 선택합니다.
 
 이제 Dynamics CRM에 대한 조건부 액세스가 구성되었습니다. 조건부 액세스 정책을 배포할 필요는 없으며, 즉시 적용됩니다.
 ##  <a name="monitor-the-compliance-and-conditional-access-policies"></a>준수 및 조건부 액세스 정책 모니터링

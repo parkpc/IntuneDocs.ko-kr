@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d6230fbc50ae79702cfd938f158d2961b5d720c9
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 51da197b9b805fbac22b6a46453617b7703a37e8
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-intune-certificate-profiles"></a>Intune 인증서 프로필 구성
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 [SCEP 인증서 인프라 구성](configure-certificate-infrastructure-for-scep.md) 또는 [PFX 인증서 인프라 구성](configure-certificate-infrastructure-for-pfx.md)에 설명한 대로 인프라 및 인증서를 구성한 후에는 인증서 프로필을 만들 수 있습니다. 프로세스는 다음과 같습니다.
 
@@ -92,39 +92,39 @@ SCEP(단순 인증서 등록 프로토콜) 또는 PKCS #12(.PFX) 인증서 프�
 
 -  Windows Phone 8.1 이상
 
-2.  **SCEP 인증서 프로필** 정책 추가
+2. **SCEP 인증서 프로필** 정책 추가
 
-    자세한 정보: [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
+   자세한 정보: [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 
-3.  SCEP 인증서 프로필 설정을 구성하려면 프로필 구성 페이지의 지침을 따릅니다.
-    > [!NOTE]
-    >
-    > **주체 이름 형식**에서 **사용자 지정**을 선택하여 사용자 지정 주체 이름 형식을 입력합니다(iOS 프로필에만 해당).
-    >
-    > 현재 사용자 지정 형식에 지원되는 두 변수는 `Common Name (CN)` 및 `Email (E)`입니다. 이러한 변수 및 정적 문자열의 조합을 사용하여 다음과 같은 사용자 지정 주체 이름 형식을 만들 수 있습니다.
+3. SCEP 인증서 프로필 설정을 구성하려면 프로필 구성 페이지의 지침을 따릅니다.
+   > [!NOTE]
+   > 
+   > **주체 이름 형식**에서 **사용자 지정**을 선택하여 사용자 지정 주체 이름 형식을 입력합니다(iOS 프로필에만 해당).
+   > 
+   > 현재 사용자 지정 형식에 지원되는 두 변수는 `Common Name (CN)` 및 `Email (E)`입니다. 이러한 변수 및 정적 문자열의 조합을 사용하여 다음과 같은 사용자 지정 주체 이름 형식을 만들 수 있습니다.
+   > 
+   >     CN={{UserName}},E={{EmailAddress}},OU=Mobile,O=Finance Group,L=Redmond,ST=Washington,C=US
+   > 
+   > 이 예에서는 관리자가 `CN` 및 `E` 변수 외에 조직 구성 단위, 조직, 위치, 상태 및 국가 값에 해당하는 문자열을 사용하는 주체 이름 형식을 만들었습니다. [CertStrToName 함수](https://msdn.microsoft.com/library/windows/desktop/aa377160.aspx)에는 지원되는 문자열이 나열됩니다.
 
-    >     CN={{UserName}},E={{EmailAddress}},OU=Mobile,O=Finance Group,L=Redmond,ST=Washington,C=US
-
-    > 이 예에서는 관리자가 `CN` 및 `E` 변수 외에 조직 구성 단위, 조직, 위치, 상태 및 국가 값에 해당하는 문자열을 사용하는 주체 이름 형식을 만들었습니다. [CertStrToName 함수](https://msdn.microsoft.com/library/windows/desktop/aa377160.aspx)에는 지원되는 문자열이 나열됩니다.
-
-4.  **정책 저장**을 선택합니다.
+4. **정책 저장**을 선택합니다.
 
 새 정책이 **정책** 작업 영역에 표시됩니다. 이제 해당 정책을 배포할 수 있습니다.
 
 ### <a name="to-create-a-pfx-certificate-profile"></a>.PFX 인증서 프로필을 만들려면
 
-1.  [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택하고 장치 플랫폼을 선택합니다. .PFX 인증서는 아래의 운영 체제에서 지원됩니다.
-  - Android 4 이상
-  - Android for Work
-  - Windows 10 이상
-  - Windows Phone 10 이상
-  - iOS 8.0 이상    
+1. [Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** &gt; **정책 추가**를 선택하고 장치 플랫폼을 선택합니다. .PFX 인증서는 아래의 운영 체제에서 지원됩니다.
+   - Android 4 이상
+   - Android for Work
+   - Windows 10 이상
+   - Windows Phone 10 이상
+   - iOS 8.0 이상    
 
 
-2.  **.PFX 인증서 프로필** 정책을 추가합니다.
-      자세한 정보: [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-3.  정책 양식에 요청된 정보를 입력합니다.
-4.  **정책 저장**을 선택합니다.
+2. **.PFX 인증서 프로필** 정책을 추가합니다.
+     자세한 정보: [Microsoft Intune 정책을 사용하여 장치의 설정 및 기능 관리](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
+3. 정책 양식에 요청된 정보를 입력합니다.
+4. **정책 저장**을 선택합니다.
 
 새 정책이 **정책** 작업 영역에 표시됩니다. 이제 해당 정책을 배포할 수 있습니다.
 

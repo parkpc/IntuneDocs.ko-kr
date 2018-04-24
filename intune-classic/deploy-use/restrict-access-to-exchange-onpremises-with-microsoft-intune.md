@@ -1,29 +1,29 @@
 ---
-title: "Exchange 온-프레미스에 대한 전자 메일 보호"
-description: "조건부 액세스로 Exchange 온-프레미스에서 회사 전자 메일을 보호하고 액세스를 제어합니다."
-keywords: 
+title: Exchange 온-프레미스에 대한 전자 메일 보호
+description: 조건부 액세스로 Exchange 온-프레미스에서 회사 전자 메일을 보호하고 액세스를 제어합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 03/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: a55071f5-101e-4829-908d-07d3414011fc
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6bdb5fbf7bb382c9ad503f584b499f5275885ef1
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 73535e35605bbc9ca7123935e1816e90b5e60e1d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="protect-email-access-to-exchange-on-premises-and-legacy-exchange-online-dedicated-with-intune"></a>Intune을 사용하여 Exchange 온-프레미스 및 레거시 Exchange Online Dedicated에 대한 메일 액세스 보호
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exchange 온-프레미스에 조건부 액세스 제어 메일 액세스를 구성할 수 있습니다.
 조건부 액세스가 어떻게 작동하는지에 대한 자세한 내용은 [메일 및 O365 서비스에 대한 액세스 보호](restrict-access-to-email-and-o365-services-with-microsoft-intune.md) 문서를 읽어보세요.
@@ -53,13 +53,13 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
 
 조건부 액세스 정책을 구성하고 사용자를 대상으로 지정한 경우 사용자가 자신의 메일에 연결하기 전에 사용하는 **장치**는 다음과 같아야 합니다.
 
--  도메인에 가입된 PC 또는 Intune에 **등록**된 장치여야 합니다.
+- 도메인에 가입된 PC 또는 Intune에 **등록**된 장치여야 합니다.
 
--  **Azure Active Directory에 등록**되어야 합니다. 또한 클라이언트 Exchange ActiveSync ID가 Azure Active Directory에 등록되어 있어야 합니다.
+- **Azure Active Directory에 등록**되어야 합니다. 또한 클라이언트 Exchange ActiveSync ID가 Azure Active Directory에 등록되어 있어야 합니다.
 
   Intune 및 Office 365 고객의 경우에는 Azure Active Directory Device Registration Service가 자동으로 활성화됩니다. ADFS Device Registration Service를 이미 배포한 고객의 온-프레미스 Active Directory에는 등록된 장치가 표시되지 않습니다. **Windows PC 및 Windows Phone 장치에는 적용되지 않습니다**.
 
--   해당 장치에 배포된 모든 Intune 준수 정책을 **준수**해야 합니다.
+- 해당 장치에 배포된 모든 Intune 준수 정책을 **준수**해야 합니다.
 
 ### <a name="how-conditional-access-works-with-exchange-on-premises"></a>Exchange 온-프레미스 조건부 액세스의 작동 방식
 
@@ -91,35 +91,35 @@ Microsoft Intune을 사용하여 레거시 Exchange Online Dedicated 또는 Exch
 
 ##  <a name="configure-a-conditional-access-policy"></a>조건부 액세스 정책 구성
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** > **조건부 액세스** > **Exchange 온-프레미스 정책**을 선택합니다.
-![IntuneSA5aSelectExchOnPremPolicy](../media/IntuneSA5aSelectExchOnPremPolicy.png)
+1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **정책** > **조건부 액세스** > **Exchange 온-프레미스 정책**을 선택합니다.
+   ![IntuneSA5aSelectExchOnPremPolicy](../media/IntuneSA5aSelectExchOnPremPolicy.png)
 
-2.  필요한 설정이 포함된 정책을 구성합니다. ![Exchange 온-프레미스 정책 페이지의 스크린샷](../media/IntuneSA5bExchangeOnPremPolicy.png)
+2. 필요한 설정이 포함된 정책을 구성합니다. ![Exchange 온-프레미스 정책 페이지의 스크린샷](../media/IntuneSA5bExchangeOnPremPolicy.png)
 
-  - **비규격 장치이거나 Microsoft Intune에 등록되지 않은 장치인 경우 메일 앱의 Exchange 온-프레미스 액세스를 차단합니다.**: 이 옵션을 선택하면 Intune에서 관리되지 않거나 준수 정책을 준수하지 않는 장치에서 Exchange 서비스로의 액세스가 차단됩니다.
+   - **비규격 장치이거나 Microsoft Intune에 등록되지 않은 장치인 경우 메일 앱의 Exchange 온-프레미스 액세스를 차단합니다.**: 이 옵션을 선택하면 Intune에서 관리되지 않거나 준수 정책을 준수하지 않는 장치에서 Exchange 서비스로의 액세스가 차단됩니다.
 
-  - **기본 규칙 재정의 - 등록 및 준수 장치가 Exchange에 액세스할 수 있도록 항상 허용:** 이 옵션을 선택하면 Intune에 등록되어 있고 준수 정책을 준수하는 장치는 Exchange에 액세스할 수 있습니다.
-  이 규칙은 **기본 규칙**을 재정의합니다. 즉, 액세스를 격리 또는 차단하도록 **기본 규칙**을 설정하더라도 등록된 규격 장치는 여전히 Exchange에 액세스할 수 있습니다.
+   - **기본 규칙 재정의 - 등록 및 준수 장치가 Exchange에 액세스할 수 있도록 항상 허용:** 이 옵션을 선택하면 Intune에 등록되어 있고 준수 정책을 준수하는 장치는 Exchange에 액세스할 수 있습니다.
+     이 규칙은 **기본 규칙**을 재정의합니다. 즉, 액세스를 격리 또는 차단하도록 **기본 규칙**을 설정하더라도 등록된 규격 장치는 여전히 Exchange에 액세스할 수 있습니다.
 
-  - **대상이 지정된 그룹**: Intune에 등록해야 Exchange에 액세스할 수 있는 Intune 사용자 그룹을 선택합니다.
+   - **대상이 지정된 그룹**: Intune에 등록해야 Exchange에 액세스할 수 있는 Intune 사용자 그룹을 선택합니다.
 
-  - **제외된 그룹**: 조건부 액세스 정책에서 제외된 Intune 사용자 그룹을 선택합니다. 이 목록에 있는 사용자는 **대상이 지정된 그룹** 목록에 있더라도 제외됩니다.
+   - **제외된 그룹**: 조건부 액세스 정책에서 제외된 Intune 사용자 그룹을 선택합니다. 이 목록에 있는 사용자는 **대상이 지정된 그룹** 목록에 있더라도 제외됩니다.
 
-  - **플랫폼 예외:** **규칙 추가**를 선택하여 지정한 모바일 장치 제품군 및 모델에 대한 액세스 수준을 정의하는 규칙을 구성합니다. 장치의 유형과는 상관이 없으므로 Intune에서 지원하지 않는 장치 유형도 구성할 수 있습니다.
+   - **플랫폼 예외:** **규칙 추가**를 선택하여 지정한 모바일 장치 제품군 및 모델에 대한 액세스 수준을 정의하는 규칙을 구성합니다. 장치의 유형과는 상관이 없으므로 Intune에서 지원하지 않는 장치 유형도 구성할 수 있습니다.
 
-  - **기본 규칙**: 다른 규칙이 적용되지 않는 장치의 경우, Exchange 액세스를 허용하거나, 차단하거나, 격리하도록 선택할 수 있습니다. 등록 및 규격 장치의 경우 액세스를 허용하도록 규칙을 설정하면 iOS, Windows 및 삼성 KNOX 장치의 경우 메일 액세스 권한이 자동으로 부여됩니다. 사용자는 메일을 가져오기 위해 어떠한 프로세스도 거칠 필요가 없습니다.
-      - Samsung KNOX를 실행하지 않는 Android 장치를 사용하는 사용자는 메일에 액세스하기 전에 등록 및 준수를 확인하는 안내 방식 연습을 포함하는 격리 메일을 받게 됩니다. 액세스를 차단하거나 격리하는 규칙을 설정하면 모든 장치가 이미 Intune에 등록되었는지 여부와 관계없이 Exchange에 대한 액세스가 차단됩니다. 등록된 규격 장치가 이 규칙의 영향을 받는 것을 방지하려면 **기본 규칙 재정의** 상자를 선택합니다.
->[!TIP]
->메일에 대한 액세스 권한을 부여하기 전에 먼저 모든 장치를 차단하려면 액세스 차단 규칙이나 격리 규칙을 선택합니다. 기본 규칙이 모든 장치 유형에 적용되므로, Intune에서 지원되지 않는 플랫폼 예외로 구성한 장치 유형도 영향을 받습니다.
+   - **기본 규칙**: 다른 규칙이 적용되지 않는 장치의 경우, Exchange 액세스를 허용하거나, 차단하거나, 격리하도록 선택할 수 있습니다. 등록 및 규격 장치의 경우 액세스를 허용하도록 규칙을 설정하면 iOS, Windows 및 삼성 KNOX 장치의 경우 메일 액세스 권한이 자동으로 부여됩니다. 사용자는 메일을 가져오기 위해 어떠한 프로세스도 거칠 필요가 없습니다.
+     - Samsung KNOX를 실행하지 않는 Android 장치를 사용하는 사용자는 메일에 액세스하기 전에 등록 및 준수를 확인하는 안내 방식 연습을 포함하는 격리 메일을 받게 됩니다. 액세스를 차단하거나 격리하는 규칙을 설정하면 모든 장치가 이미 Intune에 등록되었는지 여부와 관계없이 Exchange에 대한 액세스가 차단됩니다. 등록된 규격 장치가 이 규칙의 영향을 받는 것을 방지하려면 **기본 규칙 재정의** 상자를 선택합니다.
+       >[!TIP]
+       >메일에 대한 액세스 권한을 부여하기 전에 먼저 모든 장치를 차단하려면 액세스 차단 규칙이나 격리 규칙을 선택합니다. 기본 규칙이 모든 장치 유형에 적용되므로, Intune에서 지원되지 않는 플랫폼 예외로 구성한 장치 유형도 영향을 받습니다.
 
-  - **사용자 알림**: Exchange에서 보내는 알림 메일 외에도 Intune은 장치를 차단 해제하는 단계를 포함하는 메일을 보냅니다. 기본 메시지를 필요에 맞게 사용자 지정하도록 편집할 수 있습니다. 사용자가 관리 지침이 포함된 Intune 알림 메일을 받기 전에 해당 사용자의 장치가 차단된 경우(이 메일은 사용자의 Exchange 사서함으로 배달됨) 차단 해제된 장치 또는 다른 방법을 사용하여 Exchange에 액세스하여 메시지를 볼 수 있습니다.
-      - 이것은 특히 **기본 규칙**이 차단 또는 격리로 설정된 경우 유용합니다. 이러한 경우 사용자는 앱 스토어로 가서 Microsoft 회사 포털 앱을 다운로드하고 장치를 등록해야 합니다. 이것은 iOS, Windows 및 삼성 KNOX 장치에 적용할 수 있습니다. Samsung KNOX를 실행하지 않는 장치의 경우 대체 메일 계정에 격리 메일을 보내야 합니다. 사용자가 차단된 장치에 메일을 복사하여 등록 및 준수 프로세스를 완료해야 합니다.
-  > [!NOTE]
-  > Exchange에서 알림 메일을 보내도록 하려면 알림 메일을 보내는 계정을 지정해야 합니다.
-  >
-  > 자세한 내용은 [Intune 온-프레미스 Exchange Connector 설치](intune-on-premises-exchange-connector.md)를 참조하세요.
+   - **사용자 알림**: Exchange에서 보내는 알림 메일 외에도 Intune은 장치를 차단 해제하는 단계를 포함하는 메일을 보냅니다. 기본 메시지를 필요에 맞게 사용자 지정하도록 편집할 수 있습니다. 사용자가 관리 지침이 포함된 Intune 알림 메일을 받기 전에 해당 사용자의 장치가 차단된 경우(이 메일은 사용자의 Exchange 사서함으로 배달됨) 차단 해제된 장치 또는 다른 방법을 사용하여 Exchange에 액세스하여 메시지를 볼 수 있습니다.
+     - 이것은 특히 **기본 규칙**이 차단 또는 격리로 설정된 경우 유용합니다. 이러한 경우 사용자는 앱 스토어로 가서 Microsoft 회사 포털 앱을 다운로드하고 장치를 등록해야 합니다. 이것은 iOS, Windows 및 삼성 KNOX 장치에 적용할 수 있습니다. Samsung KNOX를 실행하지 않는 장치의 경우 대체 메일 계정에 격리 메일을 보내야 합니다. 사용자가 차단된 장치에 메일을 복사하여 등록 및 준수 프로세스를 완료해야 합니다.
+       > [!NOTE]
+       > Exchange에서 알림 메일을 보내도록 하려면 알림 메일을 보내는 계정을 지정해야 합니다.
+       >
+       > 자세한 내용은 [Intune 온-프레미스 Exchange Connector 설치](intune-on-premises-exchange-connector.md)를 참조하세요.
 
-3.  작업이 완료되면 **저장**을 선택합니다.
+3. 작업이 완료되면 **저장**을 선택합니다.
 
 -   조건부 액세스 정책은 배포하지 않아도 즉시 적용됩니다.
 

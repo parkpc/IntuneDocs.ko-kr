@@ -1,43 +1,43 @@
 ---
-title: "PSK를 사용하는 Wi-Fi"
-description: "사용자 지정 구성을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만듭니다."
-keywords: 
+title: PSK를 사용하는 Wi-Fi
+description: 사용자 지정 구성을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만듭니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: angrobe
 ms.date: 10/25/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0e2dff26e6dcbe1db6a9cef58af10901178e432b
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: a023b6829b33c3b3bff94021ecd3c90d8b41f30f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-a-custom-policy-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>사용자 지정 정책을 사용하여 미리 공유한 키로 Wi-Fi 프로필 만들기
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune의 **사용자 지정 구성**을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만드는 방법은 다음과 같습니다. 이 항목에서는 EAP 기반 Wi-Fi 프로필을 만드는 방법에 대한 예도 포함합니다.
 
 > [!NOTE]
--   아래 설명된 대로 네트워크에 연결하는 컴퓨터에서 코드를 복사하면 작업을 좀 더 쉽게 수행할 수 있습니다.
-- Android의 경우 Johnathon Biersack이 제공하는 이 [Android PSK 생성기](http://johnathonb.com/2015/05/intune-android-pre-shared-key-generator/)를 사용하는 옵션도 포함합니다.
--   더 많은 OMA-URI 설정을 추가하여 여러 네트워크와 키를 추가할 수 있습니다.
--  iOS의 경우 Mac 스테이션의 Apple Configurator를 사용하여 프로필을 설정합니다. 또는 Johnathon Biersack이 제공하는 이 [iOS PSK Mobile Config Generator](http://johnathonb.com/2015/05/intune-ios-psk-mobile-config-generator/)를 사용합니다.
+> -   아래 설명된 대로 네트워크에 연결하는 컴퓨터에서 코드를 복사하면 작업을 좀 더 쉽게 수행할 수 있습니다.
+> - Android의 경우 Johnathon Biersack이 제공하는 이 [Android PSK 생성기](http://johnathonb.com/2015/05/intune-android-pre-shared-key-generator/)를 사용하는 옵션도 포함합니다.
+> -   더 많은 OMA-URI 설정을 추가하여 여러 네트워크와 키를 추가할 수 있습니다.
+> -  iOS의 경우 Mac 스테이션의 Apple Configurator를 사용하여 프로필을 설정합니다. 또는 Johnathon Biersack이 제공하는 이 [iOS PSK Mobile Config Generator](http://johnathonb.com/2015/05/intune-ios-psk-mobile-config-generator/)를 사용합니다.
 
 
-1.  Android 또는 Windows용으로 미리 공유한 키를 사용하여 Wi-Fi 프로필을 만들거나 EAP 기반 Wi-Fi 프로필을 만들려면 정책을 만들 때 Wi-Fi 프로필이 아닌 해당 장치 플랫폼용 **사용자 지정 구성**을 선택합니다.
+1. Android 또는 Windows용으로 미리 공유한 키를 사용하여 Wi-Fi 프로필을 만들거나 EAP 기반 Wi-Fi 프로필을 만들려면 정책을 만들 때 Wi-Fi 프로필이 아닌 해당 장치 플랫폼용 **사용자 지정 구성**을 선택합니다.
 
-2.  이름 및 설명을 제공합니다.
-3.  새 OMA-URI 설정을 추가합니다.
+2. 이름 및 설명을 제공합니다.
+3. 새 OMA-URI 설정을 추가합니다.
 
    a.   이 Wi-Fi 네트워크 설정에 대한 이름을 입력합니다.
 
@@ -47,15 +47,15 @@ Intune의 **사용자 지정 구성**을 사용하여 미리 공유한 키로 Wi
 
    d.   **OMA URI**
 
-    - **Android용**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
-    - **Windows용**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
+   - **Android용**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
+   - **Windows용**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
 
-    > [!NOTE]
-시작 부분에 점 문자를 포함해야 합니다.
+   > [!NOTE]
+   > 시작 부분에 점 문자를 포함해야 합니다.
 
-    SSID는 정책을 만들고 있는 SSID입니다. `./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`).
+   SSID는 정책을 만들고 있는 SSID입니다. `./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`).
 
-  e. **값 필드**에 XML 코드를 붙여넣습니다. 아래 예를 살펴보세요. 각 값을 네트워크 설정에 맞게 조정해야 합니다. 일부 포인터에 대해서는 코드의 주석 섹션을 참조하세요.
+   e. **값 필드**에 XML 코드를 붙여넣습니다. 아래 예를 살펴보세요. 각 값을 네트워크 설정에 맞게 조정해야 합니다. 일부 포인터에 대해서는 코드의 주석 섹션을 참조하세요.
 4. **확인**을 선택하고 정책을 저장한 다음 배포합니다.
 
     > [!NOTE]
@@ -202,8 +202,8 @@ EAP 기반 Wi-Fi 프로필에 대한 XML 코드 예제는 다음과 같습니다
 1. 무선 네트워크에 연결되어 있거나 최근에 연결된 컴퓨터에서 C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces\{guid} 폴더를 엽니다.
 
     각 프로필을 검색하여 적합한 프로필을 찾아야 하므로 여러 무선 네트워크에 연결되지 않은 컴퓨터를 사용하는 것이 가장 좋습니다.
-3.     XML 파일을 검색하여 올바른 이름의 항목을 찾습니다.
-4.     올바른 XML 파일을 찾았으면 XML 코드를 복사하여 OMA-URI 설정 페이지의 데이터 필드에 붙여넣습니다.
+2. XML 파일을 검색하여 올바른 이름의 항목을 찾습니다.
+3. 올바른 XML 파일을 찾았으면 XML 코드를 복사하여 OMA-URI 설정 페이지의 데이터 필드에 붙여넣습니다.
 
 ## <a name="deploy-the-policy"></a>정책 배포
 

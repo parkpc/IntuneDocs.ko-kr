@@ -1,28 +1,28 @@
 ---
-title: "Microsoft Intune - Azure에서 인증서 프로필 만들기 | Microsoft Docs"
-description: "사용자 장치에 대해 SCEP 또는 PKCS 인증서 환경을 구성하여 인증서 프로필을 만들거나 추가하고, 공용 인증서를 내보내고, Azure Portal에서 프로필을 만든 다음, SCEP 또는 PKCS를 Azure Portal의 Microsoft Intune에서 인증서 프로필에 할당합니다"
-keywords: 
+title: Microsoft Intune - Azure에서 인증서 프로필 만들기 | Microsoft Docs
+description: 사용자 장치에 대해 SCEP 또는 PKCS 인증서 환경을 구성하여 인증서 프로필을 만들거나 추가하고, 공용 인증서를 내보내고, Azure Portal에서 프로필을 만든 다음, SCEP 또는 PKCS를 Azure Portal의 Microsoft Intune에서 인증서 프로필에 할당합니다
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 03/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5b1691e3474b021754e0ee6a1a1977efecc82eac
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 867a846b43edb3392db2be11e7ea544fa9317b6c
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-a-certificate-profile-for-your-devices-in-microsoft-intune"></a>Microsoft Intune에서 장치에 대한 인증서 프로필 구성
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 VPN, Wi-Fi 또는 전자 메일 프로필을 통해 사용자에게 회사 리소스 액세스 권한을 부여하는 경우 인증서를 사용하여 연결을 인증할 수 있습니다. 인증서를 사용하면 연결을 인증하기 위해 사용자 이름 및 암호를 입력할 필요가 없습니다
 

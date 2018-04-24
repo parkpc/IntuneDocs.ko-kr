@@ -1,23 +1,23 @@
 ---
-title: "Microsoft Intune을 사용하여 사용자 지정 VPN 프로필을 만드는 방법"
-titleSuffix: 
-description: "사용자 지정 구성을 사용하여 Intune에서 VPN 프로필을 만듭니다."
-keywords: 
+title: Microsoft Intune을 사용하여 사용자 지정 VPN 프로필을 만드는 방법
+titleSuffix: ''
+description: 사용자 지정 구성을 사용하여 Intune에서 VPN 프로필을 만듭니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.openlocfilehash: ec9b959d086051985287a62f7d10fe8d4cbad7e9
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.sourcegitcommit: 28ed8902a11500b195fff839d59b90c16af6e743
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/29/2018
 ---
 # <a name="how-to-create-custom-vpn-profiles-in-microsoft-intune"></a>Microsoft Intune에서 사용자 지정 VPN 프로필을 만드는 방법
 

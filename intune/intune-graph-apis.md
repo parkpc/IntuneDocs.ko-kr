@@ -14,11 +14,11 @@ ms.technology: ''
 ms.assetid: 79A67342-C06D-4D20-A447-678A6CB8D70A
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 273919a7f5a62ab6b7b625756da29d3b58339578
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: f6e5955b690eedf06872171fcc22eb86a0f7764e
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-use-azure-ad-to-access-the-intune-apis-in-microsoft-graph"></a>Azure AD를 사용하여 Microsoft Graph의 Intune API에 액세스하는 방법
 
@@ -118,13 +118,13 @@ Microsoft Graph API를 사용할 앱을 등록하려면 다음을 수행합니�
 
     확인 방법은 다음과 같습니다.
 
-    1. 응용 프로그램 블레이드에서 **매니페스트**를 선택합니다. 그러면 **매니페스트 편집** 블레이드가 열립니다.
+  1. 응용 프로그램 블레이드에서 **매니페스트**를 선택합니다. 그러면 **매니페스트 편집** 블레이드가 열립니다.
 
-    <img src="media/azure-ad-edit-mft.png" width="295" height="114" alt="The Edit manifest blade" />
+     <img src="media/azure-ad-edit-mft.png" width="295" height="114" alt="The Edit manifest blade" />
 
-    2. `availableToOtherTenants` 설정의 값을 `true`로 변경합니다.
+  2. `availableToOtherTenants` 설정의 값을 `true`로 변경합니다.
 
-    3. 변경 내용을 저장합니다.
+  3. 변경 내용을 저장합니다.
 
 ## <a name="intune-permission-scopes"></a>Intune 권한 범위
 

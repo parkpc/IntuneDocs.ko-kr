@@ -1,27 +1,27 @@
 ---
-title: "Windows Phone 8.1에 대한 Microsoft Intune 이메일 설정"
-titleSuffix: 
-description: "Windows Phone 8.1을 실행하는 장치에서 이메일 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
-keywords: 
+title: Windows Phone 8.1에 대한 Microsoft Intune 이메일 설정
+titleSuffix: ''
+description: Windows Phone 8.1을 실행하는 장치에서 이메일 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 06815ac6ed6e24bc1efb4ea612b867fc78e7fb5e
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: a8d0ce028fbfa214240ce7973a2a0699a8c88a6a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="email-profile-settings-in-microsoft-intune-for-devices-running-windows-phone-81"></a>Windows Phone 8.1을 실행하는 장치용 Microsoft Intune에서 이메일 프로필 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이 아티클에서는 Windows Phone 8.1을 실행하는 장치에 대해 구성할 수 있는 이메일 프로필 설정을 보여줍니다.
 

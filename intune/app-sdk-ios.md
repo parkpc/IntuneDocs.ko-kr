@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 498b9ec1ab98358f73c0ca2139f156164a253a75
-ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
+ms.openlocfilehash: 74c709790295a971ff9efe7c2cc348d13d471d5a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>iOS용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -66,7 +66,7 @@ iOS용 Intune 앱 SDK에는 정적 라이브러리, 리소스 파일, API 헤더
     * IntuneMAMPolicyDelegate.h
     * IntuneMAMPolicyManager.h
     * IntuneMAMVersionInfo.h
-    
+
 개발자는 IntuneMAM.h만 가져오면 위의 헤더 전체 콘텐츠를 사용할 수 있습니다.
 
 
@@ -89,66 +89,67 @@ Intune 앱 SDK를 사용하려면 다음 단계를 따르세요.
     ![Intune 앱 SDK iOS - 연결된 프레임워크 및 라이브러리](./media/intune-app-sdk-ios-linked-frameworks-and-libraries.png)
 
     `{PATH_TO_LIB}`를 Intune 앱 SDK 위치로 대체하여 `-force_load {PATH_TO_LIB}/libIntuneMAM.a`를 다음 중 하나에 추가합니다.
-      * 프로젝트의 `OTHER_LDFLAGS` 빌드 구성 설정
-      * Xcode UI의 **기타 링커 플래그**
+   * 프로젝트의 `OTHER_LDFLAGS` 빌드 구성 설정
+   * Xcode UI의 **기타 링커 플래그**
 
-        > [!NOTE]
-        > `PATH_TO_LIB`를 찾으려면 `libIntuneMAM.a` 파일을 선택하고 **파일** 메뉴에서 **정보 가져오기**를 선택합니다. **정보** 창의 **일반** 섹션에서 **위치** 정보(경로)를 복사하여 붙여넣습니다.
+     > [!NOTE]
+     > `PATH_TO_LIB`를 찾으려면 `libIntuneMAM.a` 파일을 선택하고 **파일** 메뉴에서 **정보 가져오기**를 선택합니다. **정보** 창의 **일반** 섹션에서 **위치** 정보(경로)를 복사하여 붙여넣습니다.
 
-    **빌드 단계** 내의 **번들 리소스 복사** 아래로 리소스 번들을 끌어 프로젝트에 `IntuneMAMResources.bundle` 리소스 번들을 추가합니다.
+     **빌드 단계** 내의 **번들 리소스 복사** 아래로 리소스 번들을 끌어 프로젝트에 `IntuneMAMResources.bundle` 리소스 번들을 추가합니다.
 
-    ![Intune 앱 SDK iOS - 번들 리소스 복사](./media/intune-app-sdk-ios-copy-bundle-resources.png)
+     ![Intune 앱 SDK iOS - 번들 리소스 복사](./media/intune-app-sdk-ios-copy-bundle-resources.png)
 
-    프로젝트에 다음 iOS 프레임워크를 추가합니다.  
-            * MessageUI.framework  
-            * Security.framework  
-            * MobileCoreServices.framework  
-            * SystemConfiguration.framework  
-            * libsqlite3.tbd  
-            * libc++.tbd  
-            * ImageIO.framework  
-            * LocalAuthentication.framework  
-            * AudioToolbox.framework  
-            * QuartzCore.framework  
-            * WebKit.framework  
+     프로젝트에 다음 iOS 프레임워크를 추가합니다.  
+    * MessageUI.framework  
+    * Security.framework  
+    * MobileCoreServices.framework  
+    * SystemConfiguration.framework  
+    * libsqlite3.tbd  
+    * libc++.tbd  
+    * ImageIO.framework  
+    * LocalAuthentication.framework  
+    * AudioToolbox.framework  
+    * QuartzCore.framework  
+    * WebKit.framework
 
 3. 각 프로젝트 대상에서 **기능**을 클릭하고 **키 집합 공유** 스위치를 사용하도록 설정하여 키 집합 공유를 사용하도록 설정합니다(아직 설정되지 않은 경우). 다음 단계를 진행하려면 키 집합 공유가 필요합니다.
 
-  > [!NOTE]
-    > 프로비전 프로필이 새로운 키 집합 공유 값을 지원해야 합니다. 키 집합 액세스 그룹이 와일드카드 문자를 지원해야 합니다. 이를 확인하려면 텍스트 편집기에서 .mobileprovision 파일을 열고 **keychain-access-groups**를 검색한 다음 와일드카드가 있는지 확인합니다. 예를 들면 다음과 같습니다.
-    ```xml
-    <key>keychain-access-groups</key>
-    <array>
-    <string>YOURBUNDLESEEDID.*</string>
-    </array>
-    ```
+   > [!NOTE]
+   > 프로비전 프로필이 새로운 키 집합 공유 값을 지원해야 합니다. 키 집합 액세스 그룹이 와일드카드 문자를 지원해야 합니다. 이를 확인하려면 텍스트 편집기에서 .mobileprovision 파일을 열고 **keychain-access-groups**를 검색한 다음 와일드카드가 있는지 확인합니다. 예를 들면 다음과 같습니다.
+   >  ```xml
+   >  <key>keychain-access-groups</key>
+   >  <array>
+   >  <string>YOURBUNDLESEEDID.*</string>
+   >  </array>
+   >  ```
 
 4. 키 집합 공유를 사용하도록 설정한 후 다음 단계에 따라 Intune 앱 SDK에서 데이터를 저장할 별도의 액세스 그룹을 만듭니다. UI를 사용하거나 자격 파일을 사용하여 키 집합 액세스 그룹을 만들 수 있습니다. UI를 사용하여 키 집합 액세스 그룹을 만드는 경우 다음 단계를 수행해야 합니다.
 
-    1. 모바일 앱에 키 집합 액세스 그룹이 정의되어 있지 않으면 앱의 번들 ID를 첫 번째 그룹으로 추가합니다.
+   1. 모바일 앱에 키 집합 액세스 그룹이 정의되어 있지 않으면 앱의 번들 ID를 첫 번째 그룹으로 추가합니다.
 
-    2. 공유 키 집합 그룹 `com.microsoft.intune.mam`을 기존 액세스 그룹에 추가합니다. Intune 앱 SDK에서 이 액세스 그룹을 사용하여 데이터를 저장합니다.
+   2. 공유 키 집합 그룹 `com.microsoft.intune.mam`을 기존 액세스 그룹에 추가합니다. Intune 앱 SDK에서 이 액세스 그룹을 사용하여 데이터를 저장합니다.
 
-    3. 기존 액세스 그룹에 `com.microsoft.adalcache`를 추가합니다.
+   3. 기존 액세스 그룹에 `com.microsoft.adalcache`를 추가합니다.
 
-        ![Intune 앱 SDK iOS: 키 집합 공유](./media/intune-app-sdk-ios-keychain-sharing.png)
+       ![Intune 앱 SDK iOS: 키 집합 공유](./media/intune-app-sdk-ios-keychain-sharing.png)
 
-    4. 위에 표시된 Xcode UI를 사용하지 않고 직접 자격 파일을 편집하여 키 집합 액세스 그룹을 만드는 경우 키 집합 액세스 그룹 앞에 `$(AppIdentifierPrefix)`를 추가합니다(Xcode는 이를 자동으로 처리함). 예를 들면 다음과 같습니다.
+   4. 위에 표시된 Xcode UI를 사용하지 않고 직접 자격 파일을 편집하여 키 집합 액세스 그룹을 만드는 경우 키 집합 액세스 그룹 앞에 `$(AppIdentifierPrefix)`를 추가합니다(Xcode는 이를 자동으로 처리함). 예를 들면 다음과 같습니다.
 
-            * `$(AppIdentifierPrefix)com.microsoft.intune.mam`
-            * `$(AppIdentifierPrefix)com.microsoft.adalcache`
+           * `$(AppIdentifierPrefix)com.microsoft.intune.mam`
+           * `$(AppIdentifierPrefix)com.microsoft.adalcache`
 
-    > [!NOTE]
-    > 자격 파일은 모바일 응용 프로그램에 고유한 XML 파일입니다. iOS 앱에서 특수한 권한 및 기능을 지정하는 데 사용됩니다. 이전에 앱에 자격 파일이 없었던 경우 키 집합 공유를 사용하도록 설정하면(3단계) Xcode에서 해당 앱용 자격 파일을 생성했을 것입니다.
+      > [!NOTE]
+      > 자격 파일은 모바일 응용 프로그램에 고유한 XML 파일입니다. iOS 앱에서 특수한 권한 및 기능을 지정하는 데 사용됩니다. 이전에 앱에 자격 파일이 없었던 경우 키 집합 공유를 사용하도록 설정하면(3단계) Xcode에서 해당 앱용 자격 파일을 생성했을 것입니다.
 
 5. 앱이 `UIApplication canOpenURL`에 전달하는 각 프로토콜을 앱 Info.plist 파일의 `LSApplicationQueriesSchemes` 배열에 포함합니다. 다음 단계로 진행하기 전에 변경 내용을 저장해야 합니다.
 
 6. [SDK 리포지토리](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios)에 포함된 IntuneMAMConfigurator 도구를 사용하여 앱의 Info.plist 구성을 완료합니다. 이 도구에는 3가지 매개 변수가 있습니다.
-|속성|사용 방법|
-|---------------|--------------------------------|
-|- i |  `<Path to the input plist>` |
-|- e | `<Path to the entitlements file>` |
-|- o |  (선택 사항) `<Path to the output plist>` |
+
+   |속성|사용 방법|
+   |---------------|--------------------------------|
+   |- i |  `<Path to the input plist>` |
+   |- e | `<Path to the entitlements file>` |
+   |- o |  (선택 사항) `<Path to the output plist>` |
 
 '-o' 매개 변수를 지정하지 않으면 입력 파일이 현재 위치에서 수정됩니다. 이 도구는 멱등적이며 앱의 Info.plist 또는 자격을 변경할 때마다 다시 실행해야 합니다. 또한 Info.plist 구성 요구 사항이 최신 릴리스에서 변경된 경우 Intune SDK를 업데이트할 때 최신 버전의 도구를 다운로드하여 실행해야 합니다.
 
@@ -171,9 +172,9 @@ ADAL 바이너리에 앱을 연결하려면 다음 단계를 수행합니다.
 1. GitHub에서 [Objective-C용 Azure ADAL(Active Directory 인증 라이브러리)](https://github.com/AzureAD/azure-activedirectory-library-for-objc)을 다운로드한 다음 Git 하위 모듈 또는 CocoaPods를 사용하여 ADAL을 다운로드하는 방법에 관한 [지침](https://github.com/AzureAD/azure-activedirectory-library-for-objc#download)을 따릅니다.
 
 2. ADAL 프레임워크(옵션 1) 또는 정적 라이브러리(옵션 2)를 프로젝트에 추가합니다.
-    
+
     **옵션 1(권장)**: `ADAL.framework`를 프로젝트 대상의 **포함된 이진 파일** 목록으로 끌어옵니다.
-    
+
     **옵션 2**: `libADALiOS.a` 라이브러리를 프로젝트 대상의 **연결된 프레임워크 및 라이브러리** 목록으로 끌어옵니다. 프로젝트의 `OTHER_LDFLAGS` 빌드 구성 설정이나 Xcode UI의 **기타 링커 플래그**에 `-force_load {PATH_TO_LIB}/libADALiOS.a`를 추가합니다. `PATH_TO_LIB`를 ADAL 이진 파일의 위치로 바꿔야 합니다.
 
 
@@ -210,7 +211,7 @@ ADAL 바이너리에 앱을 연결하려면 다음 단계를 수행합니다.
 앱에서 런타임 시 이러한 Azure AD 설정을 재정의할 수도 있습니다. 이 작업을 수행하려면 `IntuneMAMPolicyManager` 인스턴스의 `aadAuthorityUriOverride`, `aadClientIdOverride`, `aadRedirectUriOverride` 속성을 설정하면 됩니다.
 
 > [!NOTE]
-    > Info.plist 접근 방법은 정적이며 런타임에 확인할 필요가 없는 모든 설정에 권장됩니다. `IntuneMAMPolicyManager` 속성에 할당된 값이 Info.plist에 지정된 해당 값보다 우선하며, 앱을 다시 시작한 후에도 유지됩니다. 사용자가 등록 취소되거나 값이 지워지거나 변경될 때까지 SDK는 계속 이 값을 정책 체크인에 사용합니다.
+> Info.plist 접근 방법은 정적이며 런타임에 확인할 필요가 없는 모든 설정에 권장됩니다. `IntuneMAMPolicyManager` 속성에 할당된 값이 Info.plist에 지정된 해당 값보다 우선하며, 앱을 다시 시작한 후에도 유지됩니다. 사용자가 등록 취소되거나 값이 지워지거나 변경될 때까지 SDK는 계속 이 값을 정책 체크인에 사용합니다.
 
 ### <a name="if-your-app-does-not-use-adal"></a>앱에서 ADAL을 사용하지 않는 경우
 
@@ -233,7 +234,6 @@ Intune 앱 보호 정책을 받으려면 앱에서 Intune MAM 서비스를 사�
  */
 
 (void)registerAndEnrollAccount:(NSString *)identity;
-
 ```
 
 `registerAndEnrollAccount` 메서드를 호출하여 SDK는 사용자 계정을 등록하고 이 계정을 대신하여 앱을 등록하려고 시도합니다. 어떤 이유로든 등록에 실패하면 SDK는 자동으로 24시간 후에 등록을 다시 시도합니다. 앱은 디버깅 목적으로 대리자를 통해 모든 등록 요청의 결과에 대한 [알림](#Status-result-and-debug-notifications)을 받을 수 있습니다.
@@ -256,7 +256,6 @@ ADAL을 사용하여 사용자를 로그인하지 않는 앱은 API를 호출하
  *  @param identity The UPN of the account to be logged in and enrolled.
  */
  (void)loginAndEnrollAccount: (NSString *)identity;
-
 ```
 
 이 메서드를 호출하면 기존 토큰을 찾을 수 없는 경우 SDK에서 사용자에게 자격 증명을 묻는 메시지를 표시합니다. 그러면 SDK에서 제공된 사용자 계정을 대신하여 Intune MAM 서비스에 앱 등록을 시도합니다. "nil"을 ID로 사용하여 메서드를 호출할 수 있습니다. 이 경우 SDK는 장치의 기존 관리되는 사용자로 등록하거나(MDM), 기존 사용자가 없는 경우 사용자 이름을 입력하라는 메시지를 표시합니다.
@@ -295,7 +294,6 @@ ADAL을 사용하여 사용자를 로그인하지 않는 앱은 API를 호출하
  *  @param doWipe   If YES, a selective wipe if the account is un-enrolled
  */
 (void)deRegisterAndUnenrollAccount:(NSString *)identity withWipe:(BOOL)doWipe;
-
 ```
 
 이 메서드는 사용자 계정의 Azure AD 토큰이 삭제되기 전에 호출해야 합니다. SDK에서 사용자를 대신하여 Intune MAM 서비스에 대해 특정 요청을 하려면 사용자 계정의 AAD 토큰이 필요합니다.
@@ -338,7 +336,6 @@ ADAL을 사용하여 사용자를 로그인하지 않는 앱은 API를 호출하
  */
 
 (void)unenrollRequestWithStatus:(IntuneMAMEnrollmentStatus *)status;
-
 ```
 
 이러한 대리자 메서드는 다음 정보가 있는 `IntuneMAMEnrollmentStatus` 개체를 반환합니다.
@@ -374,7 +371,6 @@ ADAL을 사용하여 사용자를 로그인하지 않는 앱은 API를 호출하
     NSLog(@"un-enroll result for identity %@ with status code %ld", status.identity, (unsigned long)status.statusCode);
     NSLog(@"Debug Message: %@", status.errorString);
 }
-
 ```
 
 ## <a name="app-restart"></a>앱 다시 시작

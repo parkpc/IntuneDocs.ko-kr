@@ -1,28 +1,28 @@
 ---
-title: "Microsoft Intune을 사용한 Windows 장치 관리 설정"
-description: "Microsoft Intune으로 Windows 장치에 대한 MDM(모바일 장치 관리)을 사용하도록 설정합니다."
-keywords: 
+title: Microsoft Intune을 사용한 Windows 장치 관리 설정
+description: Microsoft Intune으로 Windows 장치에 대한 MDM(모바일 장치 관리)을 사용하도록 설정합니다.
+keywords: ''
 author: NathBarn
 manager: angrobe
 ms.date: 03/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 44559572a048a0ad8e79d6fdac837f0c71a42646
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: fb2d724cc87ffdc506eda8d5ea2330ab9aacd3e9
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-windows-device-management"></a>Windows 장치 관리 설정
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목은 IT 관리자가 사용자를 위해 Windows 등록을 간소화하는 데 도움이 됩니다.  Windows 장치는 추가 단계 없이도 등록할 수 있지만 사용자가 더 쉽게 등록하도록 할 수 있습니다.
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 10/10/2017
 |**Windows 10**|[자동 등록](#enable-windows-10-automatic-enrollment) |[사용자 등록](#enable-windows-enrollment-without-automatic-enrollment)|
 |**이전 버전의 Windows**|[사용자 등록](#enable-windows-enrollment-without-automatic-enrollment)|[사용자 등록](#enable-windows-enrollment-without-automatic-enrollment)|
 
-[!INCLUDE[AAD-enrollment](../includes/win10-automatic-enrollment-aad.md)]
+[!INCLUDE [AAD-enrollment](../includes/win10-automatic-enrollment-aad.md)]
 
 ## <a name="enable-windows-enrollment-without-automatic-enrollment"></a>자동 등록을 사용하지 않고 Windows 등록 사용
 사용자가 Azure AD Premium 자동 등록 없이도 장치를 등록하도록 할 수 있습니다. 라이선스를 할당하고 나면 사용자가 개인 소유 장치에 자신의 작업 계정을 추가하거나 회사 소유의 장치를 Azure AD에 연결한 후에 등록할 수 있습니다. DNS 별칭(CNAME 레코드 유형)을 만들면 사용자가 자신의 장치를 쉽게 등록할 수 있습니다. DNS CNAME 리소스 레코드를 만들면 사용자가 Intune 서버 이름을 입력하지 않고도 Intune에서 연결 및 등록할 수 있습니다.

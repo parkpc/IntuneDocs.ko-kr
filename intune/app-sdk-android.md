@@ -14,11 +14,11 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0eafbe9c57051b62f6ed53a3930705eabf5aebd0
-ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
+ms.openlocfilehash: e3f8dd2e63702a7eff3b1808628a25df9618da1f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Android용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -65,7 +65,7 @@ Android용 Intune 앱 SDK가 작동하려면 장치에 앱 보호 정책을 사�
 
 Intune 앱 SDK는 외부 종속성이 없는 표준 Android 라이브러리입니다. **Microsoft.Intune.MAM.SDK.jar**에는 앱 보호 정책 사용에 필요한 인터페이스와 Microsoft Intune Company Portal 앱과의 상호 운용에 필요한 코드가 모두 포함되어 있습니다.
 
-**Microsoft.Intune.MAM.SDK.jar**은 Android 라이브러리 참조로 지정해야 합니다. 이렇게 하려면 Android Studio에서 앱 프로젝트를 열고 **파일 > 새로 만들기 > 새 모듈**로 이동하고**.JAR/.AAR 패키지 가져오기**를 선택합니다. Android 아카이브 패키지 Microsoft.Intune.MAM.SDK.aar을 선택합니다.
+**Microsoft.Intune.MAM.SDK.jar**은 Android 라이브러리 참조로 지정해야 합니다. 이렇게 하려면 Android Studio에서 앱 프로젝트를 열고 **파일 > 새로 만들기 > 새 모듈**로 이동하고 **.JAR/.AAR 패키지 가져오기**를 선택합니다. Android 아카이브 패키지 Microsoft.Intune.MAM.SDK.aar을 선택합니다.
 
 또한 **Microsoft.Intune.MAM.SDK.Support.v4** 및 **Microsoft.Intune.MAM.SDK.Support.v7**에는 각각 `android.support.v4` 및 `android.support.v7`의 Intune 변형이 포함되어 있습니다. 앱에 지원 라이브러리를 포함하지 않으려는 경우를 대비하여 Microsoft.Intune.MAM.SDK.aar에 빌드되지 않습니다. 이는 Android 라이브러리 프로젝트가 아니라 표준 JAR 파일입니다.
 
@@ -278,7 +278,6 @@ boolean diagnosticIsFileEncryptionInUse();
 String toString();
 
 }
-
 ```
 
 > [!NOTE]
@@ -399,7 +398,6 @@ public interface MAMNotificationReceiver {
      */
     boolean onReceive(MAMNotification notification);
 }
-
 ```
 
 ### <a name="types-of-notifications"></a>알림 유형
@@ -526,7 +524,6 @@ APP-WE 통합을 구현하려면 앱에서 MAM SDK에 사용자 계정을 등록
 MAMEnrollmentManager mgr = MAMComponents.get(MAMEnrollmentManager.class);
 
 // make use of mgr
-
 ```
 
 반환된 `MAMEnrollmentManager` 인스턴스는 null이 되지 않습니다. API 메서드는 두 가지 범주, 즉 **인증**과 **계정 등록**으로 나뉩니다.
@@ -654,7 +651,6 @@ Result getRegisteredAccountStatus(String upn);
 public interface MAMEnrollmentNotification extends MAMUserNotification {
     MAMEnrollmentManager.Result getEnrollmentResult();
 }
-
 ```
 
 `getEnrollmentResult()` 메서드에서 등록 요청의 결과를 반환합니다.  `MAMEnrollmentNotification`에서 `MAMUserNotification`을 확장하므로 등록을 시도하는 사용자의 ID도 사용 가능합니다. [SDK에서 알림 등록](#Register-for-notifications-from-the-SDK) 섹션에 자세히 설명된 대로 앱에서 이러한 알림을 받도록 `MAMNotificationReceiver` 인터페이스를 구현해야 합니다.
@@ -677,7 +673,7 @@ Intune을 통해 XML에서 사용자 지정 규칙을 정의하는 기능을 비
 1. 앱에서 고유 사용자 지정 BackupAgent를 사용하지 **않으면** Intune 정책을 준수하는 자동 전체 백업을 허용하려면 기본 MAMBackupAgent를 사용합니다. 그러면 백업 에이전트에 적용할 수 없으므로 `android:fullBackupOnly` 매니페스트 특성을 무시할 수 있습니다. 앱 매니페스트에 다음을 둡니다.
 
     ```xml
-android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackupAgent"
+   android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackupAgent"
     ```
 
 
@@ -828,7 +824,6 @@ ID는 단순히 문자열로 정의됩니다. ID는 **대/소문자를 구분하
   public static AppPolicy getPolicyForIdentity(final String identity);
 
   public static boolean getIsIdentityManaged(final String identity);
-
   ```
 
 >[!NOTE]
@@ -924,9 +919,9 @@ ID를 설정하는 데 사용된 모든 메서드는 `MAMIdentitySwitchResult`�
 
 `MAMService.onMAMBind`에서 반환된 Binder 를 통해 적용된 변경을 제외하고 모든 암시적 ID 변경에 대해 `onMAMIdentitySwitchRequired` 메서드가 호출됩니다. 기본 `onMAMIdentitySwitchRequired` 구현에서 즉시 다음을 호출합니다.
 
-*  이유가 RESUME_CANCELLED이면 `reportIdentitySwitchResult(FAILURE)`.
+* 이유가 RESUME_CANCELLED이면 `reportIdentitySwitchResult(FAILURE)`.
 
-*  다른 모든 경우에는 `reportIdentitySwitchResult(SUCCESS)`.
+* 다른 모든 경우에는 `reportIdentitySwitchResult(SUCCESS)`.
 
   대부분 앱은 ID 전환을 다른 방식으로 차단하거나 연기할 필요가 없지만, 앱이 이렇게 해야 할 경우에는 다음 사항을 고려해야 합니다.
 
@@ -956,7 +951,7 @@ UI 스레드의 작업에서 백그라운드 작업을 다른 스레드에 발�
     protected Object doInBackgroundMAM(final Object[] params) {
         // Do operations.
     }
-    
+
     @Override
     protected void onPreExecuteMAM() {
         // Do setup.
@@ -990,7 +985,7 @@ UI 스레드의 작업에서 백그라운드 작업을 다른 스레드에 발�
          *             If the file cannot be changed.
          */
         public static void protect(final File file, final String identity) throws IOException;
-        
+
         /**
         * Protect a file obtained from a content provider. This is intended to be used for
         * sdcard (whether internal or removable) files accessed through the Storage Access Framework.
@@ -1032,7 +1027,6 @@ UI 스레드의 작업에서 백그라운드 작업을 다른 스레드에 발�
     public interface MAMFileProtectionInfo {
         String getIdentity();
     }
-
   ```
 #### <a name="app-responsibility"></a>앱 책임
 MAM은 읽고 있는 파일과 `Activity`에 표시되는 데이터 간 관계를 자동으로 유추할 수 없습니다. 앱은 회사 데이터를 표시하기 전에 UI ID를 적절하게 *설정해야 합니다*. 여기에는 파일에서 읽은 데이터가 포함됩니다. 파일이 앱 외부에서 제공된 경우(`ContentProvider`에서 제공되거나 공개적으로 쓰기 가능한 위치에서 읽은 경우) 앱은 파일에서 읽은 정보를 표시하기 전에 파일 ID를 확인하려고 *시도해야 합니다*(`MAMFileProtectionManager.getProtectionInfo` 사용). `getProtectionInfo`가 null이 아니고 비어 있지 않은 ID를 보고할 경우 UI ID는 이 ID와 일치하도록 *설정되어야 합니다*(`MAMActivity.switchMAMIdentity` 또는 `MAMPolicyManager.setUIPolicyIdentity` 사용). ID 전환에 실패하는 경우 파일의 데이터가 표시되지 *않아야 합니다*.
@@ -1157,7 +1151,6 @@ public final class MAMDataProtectionManager {
      */
     public static MAMDataProtectionInfo getProtectionInfo(final byte[] input) throws IOException;
 }
-
 ```
 
 ### <a name="content-providers"></a>콘텐츠 공급자
@@ -1168,7 +1161,7 @@ public final class MAMDataProtectionManager {
 
 `WIPE_USER_DATA` 알림을 등록한 앱에는 SDK 기본 선택적 초기화 동작이 적용되지 않습니다. 다중 ID 인식 앱의 경우 MAM 기본 선택적 초기화는 초기화의 대상이 되는 ID가 있는 파일만 초기화하므로 더 많이 유실될 수 있습니다.
 
-다중 ID 인식 응용 프로그램에서 MAM 기본 선택 초기화를 수행하고 _**및**_에서 초기화 시 고유 작업을 수행하려는 경우 `WIPE_USER_AUXILIARY_DATA` 알림을 등록해야 합니다. 이 알림은 MAM 기본 선택적 초기화를 수행하기 직전에 SDK에서 즉시 전송합니다. 앱에서 WIPE_USER_DATA와 WIPE_USER_AUXILIARY_DATA를 둘 다 등록하지 않아야 합니다.
+다중 ID 인식 응용 프로그램에서 MAM 기본 선택 초기화를 수행하고 _**및**_ 에서 초기화 시 고유 작업을 수행하려는 경우 `WIPE_USER_AUXILIARY_DATA` 알림을 등록해야 합니다. 이 알림은 MAM 기본 선택적 초기화를 수행하기 직전에 SDK에서 즉시 전송합니다. 앱에서 WIPE_USER_DATA와 WIPE_USER_AUXILIARY_DATA를 둘 다 등록하지 않아야 합니다.
 
 ## <a name="enabling-mam-targeted-configuration-for-your-android-applications-optional"></a>Android 응용 프로그램에 대해 MAM 대상 구성 사용(선택 사항)
 Intune 콘솔에서 응용 프로그램 특정 키-값 쌍을 구성해야 합니다. 이러한 키-값 쌍은 Intune에서 전혀 해석되지 않고 앱에 전달되기만 합니다. 해당 구성을 수신하려고 하는 응용 프로그램은 `MAMAppConfigManager` 및 `MAMAppConfig` 클래스를 사용하여 구성을 수신할 수 있습니다. 동일한 앱에서 여러 정책을 대상으로 지정하면 동일한 키에 사용할 수 있는 여러 개의 충돌 값이 발생할 수 있습니다.
@@ -1339,7 +1332,6 @@ Intune MAM 보기에 스타일 변경을 적용하려면 먼저 스타일 재정
         name="logo_image"
         resource="@drawable/app_logo"/>
 </styleOverrides>
-
 ```
 
 앱에 이미 있는 리소스를 다시 사용해야 합니다. 예를 들어, colors.xml 파일에 녹색을 정의한 다음 여기에서 참조해야 합니다. 16진 색상 코드인 “#0000ff”를 사용할 수 없습니다. 앱 로고의 최대 크기는 110dip(dp)입니다. 작은 로고 이미지를 사용해야 하지만, 이 최대 크기를 사용하면 가장 우수한 결과를 얻을 수 있습니다. 110dip 제한을 초과하면 이미지가 축소되며 흐릿하게 표시될 수 있습니다.
@@ -1353,7 +1345,8 @@ Intune MAM 보기에 스타일 변경을 적용하려면 먼저 스타일 재정
 | 강조 색 | 강조 표시할 때 PIN 상자 테두리 <br> 하이퍼링크 |accent_color | 색상 |
 | 앱 로고 | Intune 앱 PIN 화면에 표시되는 큰 아이콘 | logo_image | 그리기 가능 |
 
-## <a name="requiring-user-login-prompt-for-an-automatic-app-we-service-enrollment-requiring-intune-app-protection-policies-in-order-to-use-your-sdk-integrated-android-lob-app-and-enabling-adal-sso-optional"></a>자동 APP-WE 서비스 등록을 위한 사용자 로그인 프롬프트 필요, SDK 통합 Android LOB 앱을 사용하기 위한 Intune 앱 보호 정책 필요, ADAL SSO을 사용하도록 설정(선택 사항)
+## <a name="working-with-app-we-service-enrollment-sdk-integrated-android-lob-app-and-adal-sso-optional"></a>APP-WE 서비스 등록, SDK 통합 Android LOB 앱 및 ADAL SSO(선택 사항) 사용
+<!-- Requiring user login prompt for an automatic APP-WE service enrollment, requiring Intune app protection policies in order to use your SDK-integrated Android LOB app, and enabling ADAL SSO (optional) -->
 
 다음은 자동 APP-WE 서비스 등록(이 섹션에서는 **기본값 등록**이라고 함)을 위해 앱 시작 시 사용자 프롬프트를 요구하는 것에 관한 지침으로, Intune 보호 사용자만 SDK 통합 Android LOB 앱을 사용할 수 있도록 허용하는 Intune 앱 보호 정책을 요구합니다. 또한 SDK 통합 Android LOB 앱에 SSO를 사용하는 방법에 관해서도 설명합니다. 이것은 Intune 이외의 사용자가 사용할 수 있는 스토어 앱에서는 **지원되지 않습니다.**
 
@@ -1362,22 +1355,22 @@ Intune MAM 보기에 스타일 변경을 적용하려면 먼저 스타일 재정
 
 ### <a name="general-requirements"></a>일반 요구 사항
 * Intune SDK 팀은 앱의 응용 프로그램 ID를 필요로 합니다. ID는 [Azure Portal](https://portal.azure.com/)을 통해 확인할 수 있으며 **모든 응용 프로그램** 아래 **응용 프로그램 ID** 열에 나와 있습니다. Intune SDK 팀에는 이메일(msintuneappsdk@microsoft.com)을 통해 연락하는 것이 좋습니다.
-     
+
 ### <a name="working-with-the-intune-sdk"></a>Intune SDK 사용
 이러한 지침은 최종 사용자 장치에서 사용하기 위해 Intune 앱 보호 정책을 요구하려는 모든 Android 및 Xamarin 앱에만 적용됩니다.
 
 1. [Android 가이드용 Intune SDK](https://docs.microsoft.com/intune/app-sdk-android#configure-azure-active-directory-authentication-library-adal)에 정의된 단계에 따라 ADAL을 구성합니다.
-> [!NOTE] 
-> 앱에 연결된 “클라이언트 ID”라는 용어는 앱에 연결된 Azure Portal의 “응용 프로그램 ID”라는 용어와 같습니다. 
-* SSO를 사용하려면 “일반적인 ADAL 구성” #2가 필요합니다.
+   > [!NOTE] 
+   > 앱에 연결된 “클라이언트 ID”라는 용어는 앱에 연결된 Azure Portal의 “응용 프로그램 ID”라는 용어와 같습니다. 
+2. SSO를 사용하려면 “일반적인 ADAL 구성” #2가 필요합니다.
 
-2. 매니페스트에 다음 값을 입력하여 기본 등록을 사용합니다. ```xml <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />```
-> [!NOTE] 
-> 이것은 앱에서 유일한 MAM-WE 통합이어야 합니다. MAMEnrollmentManager API를 호출하려는 다른 시도가 있으면 충돌이 발생할 수 있습니다.
+3. 매니페스트에 다음 값을 입력하여 기본 등록을 사용합니다. ```xml <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />```
+   > [!NOTE] 
+   > 이것은 앱에서 유일한 MAM-WE 통합이어야 합니다. MAMEnrollmentManager API를 호출하려는 다른 시도가 있으면 충돌이 발생할 수 있습니다.
 
-3. 매니페스트에 다음 값을 입력하여 필요한 MAM 정책을 설정합니다. ```xml <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />```
-> [!NOTE] 
-> 이렇게 하면 사용자는 장치에 회사 포털을 다운로드하고 사용하기 전에 기본 등록 절차를 완료해야 합니다.
+4. 매니페스트에 다음 값을 입력하여 필요한 MAM 정책을 설정합니다. ```xml <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />```
+   > [!NOTE] 
+   > 이렇게 하면 사용자는 장치에 회사 포털을 다운로드하고 사용하기 전에 기본 등록 절차를 완료해야 합니다.
 
 ## <a name="limitations"></a>제한 사항
 
@@ -1403,7 +1396,7 @@ Intune MAM 보기에 스타일 변경을 적용하려면 먼저 스타일 재정
     ```
 
     이 두 번째 사례에서 다중 ID 앱은 스레드 ID를 적절하게 설정하도록 주의해야 합니다(또는 `getPolicy` 호출에 명시적 ID 전달).
-    
+
 ### <a name="exported-services"></a>내보낸 서비스
 
  Intune 앱 SDK에 포함된 AndroidManifest.xml 파일에는 **MAMNotificationReceiverService**가 포함되어 있으며, 이것은 회사 포털이 관리하는 앱에 알림을 보낼 수 있도록 하는 내보낸 서비스여야 합니다. 이 서비스는 호출자를 검사하여 회사 포털만 알림을 보낼 수 있는지 확인합니다.

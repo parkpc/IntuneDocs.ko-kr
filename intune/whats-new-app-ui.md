@@ -3,10 +3,10 @@ title: Intune 최종 사용자 앱 UI 업데이트
 titlesuffix: Microsoft Intune
 description: Microsoft Intune을 사용하여 최종 사용자 장치에서 작동하는 앱의 UI가 어떻게 변경되었는지 알아봅니다.
 keywords: ''
-author: barlanmsft
-ms.author: barlan
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
-ms.date: 03/21/2018
+ms.date: 03/29/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,16 +15,41 @@ ms.assetid: b782e382-8deb-48a7-a437-d7c5a17163f1
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7e553391bb2a98c5e57edf0a4388359703b9d550
-ms.sourcegitcommit: 390a4be5aa36007c36fb6a5abcfe8d20bc862a4b
+ms.openlocfilehash: 8da396e41844c854cd18a9384fe97ac0bee59355
+ms.sourcegitcommit: b727b6bd6f138c5def7ac7bf1658068db30a0ec3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Intune 최종 사용자 앱 UI 업데이트
 최종 사용자가 이번 Microsoft Intune 릴리스에서 보게 될 앱의 UI가 어떻게 업데이트되었는지 알아봅니다. 이러한 업데이트를 이해하면 사용자 커뮤니케이션 및 배포를 지원하기 위해 만든 사용자 지정 설명서 업데이트에 도움이 될 것입니다. 사용자가 회사 포털을 사용하여 지원 센터에 전화해 지원을 요청하는 경우 사용자에게 발생하는 문제를 더 잘 해결하는 방법을 이해하는 데에도 도움이 될 수 있습니다.
 
 <!---End-user messaging for accounts 1573558, 1712; changes to be made for other platforms for 1801 Users of the Company Portal website, will be blocked from taking actions that require write access to your tenant. They will see appropriate error messaging explaining that their account is under maintenance. Similar changes are coming to the Company Portal apps for Android, iOS, macOS, and Windows soon. ![Error message that occurs during account move](./media/account-move-rom-iwp-user-1712.png)--->
+
+## <a name="week-of-april-2-2018"></a>2018년 4월 2일의 주간
+
+#### <a name="user-experience-update-for-the-company-portal-app-for-ios---1412866---"></a>iOS용 회사 포털 앱의 사용자 환경 업데이트 <!--1412866 -->
+iOS용 회사 포털 앱에 대한 주요 사용자 환경 업데이트가 릴리스되었습니다. 이 업데이트는 현대적인 모양과 느낌을 포함하여 시각적으로 완전히 새롭게 설계했습니다. 앱의 기능은 유지하면서도 유용성과 접근성을 향상시켰습니다.  
+
+또한 다음을 확인할 수 있습니다.
+- iPhone X 지원.
+- 더 빨라진 앱 시작과 응답 로드로 사용자 시간 단축.
+- 사용자에게 최신 상태 정보를 제공하는 추가 진행률 표시줄.
+- 사용자가 로그를 업로드하는 방식의 향상으로, 문제 발생 시 이를 보고하기가 더 쉬워짐.  
+
+|이전|이러한|
+|---|---|
+|![01](/intune/media/cp_iosRedesign_before_1803_01.png)|![01](/intune/media/cp_iosRedesign_after_1803_01.png)|
+|*이전 단계와 결합*|![02](/intune/media/cp_iosRedesign_after_1803_02.png)|
+|![03](/intune/media/cp_iosRedesign_before_1803_02.png)|![03](/intune/media/cp_iosRedesign_after_1803_03.png)|
+
+#### <a name="improvements-to-the-language-in-the-company-portal-app-for-windows----1683758---"></a>Windows용 회사 포털 앱의 언어 개선 사항 <!---1683758--->
+귀사에 더욱 친숙하고 구체적이 되도록 Windows 10용 회사 포털에서 언어를 개선하였습니다.
+
+|이전|이러한|
+|---|---|
+|![01](./media/windows_enroll_before_1803.png)|![01](./media/windows_enroll_after_1803.png)|
+|![02](./media/windows_view_policy_issues_before_1803.png)|![02](./media/windows_view_policy_issues_after_1803.png)
 
 ## <a name="week-of-march-12-2018"></a>2018년 3월 12일 주
 
@@ -34,12 +59,13 @@ Android의 [자료 디자인](https://material.io/) 지침에 따르도록 Andro
 
 |이전|이러한|
 |---|---|
-|![01](./media/android_about_before_1803.png)|![01](./media/android_contact_it_after_1803.png)|
+|![01](./media/android_about_before_1803.png)|![01](./media/androidCP_about_after_1803.png)|
 |![02](./media/android_contact_it_before_1803.png)|![02](./media/android_contact_it_after_1803.png)|
-|![03](./media/android_device_details_before_1803.png)|![03](./media/android_device_details_after_1803.png)|
-|![04](./media/android_device_details_update_settings_before_1803.png)|![04](./media/android_device_details_update_settings_after_1803.png)|
-|![05](./media/android_devices_before_1803.png)|![05](./media/android_devices_before_1803.png)|
+|![03](./media/android_devices_before_1803.png)|![03](./media/androidCP_devicelist_after_1803.png)|
+|![04](./media/android_device_details_before_1803.png)|![05](./media/androidCP_devicedetails_1_after1803.png)|
+|![05](./media/android_device_details_update_settings_before_1803.png)|![05](./media/androidCP_devicedetails_red_box_2_after1803.png)|
 |![06](./media/android_profile_before_1803.png)|![06](./media/android_profile_after_1803.png)|
+|![07](./media/androidCP_Setup01_before_1803.png)|![07](./media/androidCP_Setup01_after_1803.png)|
 
 
 ## <a name="week-of-november-27-2017"></a>2017년 11월 27일 주
@@ -409,14 +435,6 @@ UI 업데이트, 간소화된 워크플로 및 내게 필요한 옵션 기능 �
 |---|---|
 |![업데이트된 장치 페이지는 더 이상 전체 목록 위에 팝업으로 표시하지 않고 장치 정보 위에 바르게 정렬된 장치를 표시합니다.](./media/iwp-device-after-1803.png)|![이전 버전의 장치 페이지입니다.](./media/iwp-device-before-1803.png)|
 |![업데이트된 앱 설치 페이지는 게시 날짜, 버전 및 앱 형식 등 설명 및 다양한 설치 정보 위에 앱을 바르게 보여줍니다.](./media/iwp-app-install-after-1803.png)|![이전 버전의 앱 설치 페이지입니다.](./media/iwp-app-install-before-1803.png)|
-
-### <a name="user-experience-update-for-the-company-portal-app-for-ios---1412866--"></a>iOS용 회사 포털 앱의 사용자 환경 업데이트 <!--1412866-->
-
-iOS용 회사 포털 앱에 대한 주요 사용자 환경 업데이트를 출시합니다. 이 업데이트는 사용성 및 접근성이 향상된 최신 모양과 느낌이 포함된 완전한 시각적 재설계를 특징으로 합니다. 현재 모든 iOS 회사 포털 기능이 유지됩니다.
-
-사용자가 사용하고 피드백으로 제공할 수 있도록, Apple TestFlight 프로그램을 통해 iOS용 회사 포털 앱의 업데이트된 시험판 버전을 제공하고 있습니다. TestFlight 액세스의 경우 https://aka.ms/intune_ios_cp_testflight에서 등록합니다. 이 업데이트에 대한 최신 정보는 https://aka.ms/iOS_companyportal_update를 참조하세요.
-
-![새 ios 회사 포털 앱에 대한 티저(teaser) 이미지](./media/ios-cp-app-redesign-1801-teaser.png)
 
 ### <a name="ui-updates-to-the-company-portal-website---1313244-part-2--"></a>회사 포털 웹 사이트의 UI 업데이트 <!--1313244 part 2-->
 

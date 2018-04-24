@@ -14,11 +14,11 @@ ms.assetid: ca3de752-3caa-46a4-b4ed-ee9012ccae8e
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: edf17d98bb733f7567a615eec856fb7122ba251b
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 11b0e1d80740366a638059162d10e3ebcfe9e8a8
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="role-based-administration-control-rbac-with-microsoft-intune"></a>Microsoft Intune에서 RBAC(역할 기반 관리 제어)
 
@@ -26,12 +26,12 @@ RBAC를 사용하면 조직 내에서 다양한 Intune 작업을 수행할 수 �
 
 - **역할 정의**: 역할의 이름, 역할이 관리하는 리소스 및 각 리소스에 대해 부여되는 권한입니다.
 - **구성원**: 권한을 부여받은 사용자 그룹입니다.
-- **범위**: 구성원이 관리할 수 있는 사용자 또는 장치 그룹입니다.
+- **범위**: 구성원이 앱 또는 정책 배포를 대상으로 하거나 원격 작업을 수행할 수 있는 사용자 또는 장치 그룹입니다.
 - **할당** - 정의, 구성원 및 범위가 구성된 경우 역할이 할당됩니다.
 
 ![Intune RBAC 예제](./media/intune-rbac-1.PNG)
 
-새로운 Azure Portal부터는 **Azure AD(Azure Active Directory)**에서 Intune에 사용할 수 있는 두 가지 디렉터리 역할을 제공합니다. 이러한 역할에는 Intune에서 모든 활동을 수행할 수 있는 모든 권한이 부여됩니다.
+새로운 Azure Portal부터는 **Azure AD(Azure Active Directory)** 에서 Intune에 사용할 수 있는 두 가지 디렉터리 역할을 제공합니다. 이러한 역할에는 Intune에서 모든 활동을 수행할 수 있는 모든 권한이 부여됩니다.
 
 - **전역 관리자:** 이 역할의 사용자는 Azure AD의 모든 관리 기능뿐 아니라 Exchange Online, SharePoint Online, 비즈니스용 Skype Online 등 Azure AD에 페더레이션되는 서비스에도 액세스할 수 있습니다. Azure AD 테넌트에 등록하는 사람이 전역 관리자가 됩니다. 전역 관리자만이 다른 Azure AD 관리자 역할을 할당할 수 있습니다. 조직에 전역 관리자가 두 명 이상 있을 수도 있습니다. 전역 관리자는 모든 사용자 및 다른 모든 관리자의 암호를 다시 설정할 수 있습니다.
 

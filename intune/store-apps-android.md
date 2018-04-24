@@ -1,29 +1,29 @@
 ---
-title: "Microsoft Intune에 Android 스토어 앱을 추가하는 방법"
-titleSuffix: 
-description: "Microsoft Intune에 Android 스토어 앱을 추가하는 방법을 알아봅니다."
-keywords: 
+title: Microsoft Intune에 Android 스토어 앱을 추가하는 방법
+titleSuffix: ''
+description: Microsoft Intune에 Android 스토어 앱을 추가하는 방법을 알아봅니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 4433000a-23e9-4cad-a818-48c28eedc1f5
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 87fea551dea1f80ee071fe6b477b84729e000874
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: ece6edee891b147ad2124b987239da6af8e1bc8d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-add-android-store-apps-to-microsoft-intune"></a>Microsoft Intune에 Android 스토어 앱을 추가하는 방법
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 앱은 장치 또는 사용자 그룹에 할당하기 전에 먼저 앱을 Microsoft Intune에 추가해야 합니다. 다음 단계를 사용하면 Azure 포털에서 Android 스토어 앱을 Intune에 추가할 수 있습니다.
 
@@ -52,6 +52,6 @@ ms.lasthandoff: 03/08/2018
 
 만든 앱이 앱 목록에 표시되며, 여기서 이 앱을 선택한 그룹에 할당할 수 있습니다. 
 
-##<a name="next-steps"></a>다음 단계
+## <a name="next-steps"></a>다음 단계
 
 - [그룹에 앱을 할당하는 방법](apps-deploy.md)

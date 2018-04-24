@@ -1,10 +1,9 @@
 ---
-title: Windows Holographic for Business 장치에 대한 Microsoft Intune 사용자 지정 설정
-titlesuffix: ''
-description: Windows Holographic for Business 사용자 지정 프로필에서 사용할 수 있는 설정을 알아봅니다.
+title: Microsoft Intune - Azure의 Windows Holographic for Business 장치에 대한 사용자 지정 설정 | Microsoft Docs
+description: Microsoft Intune에서 Windows Holographic for Business를 실행하는 장치 OMA-URI 설정을 사용하려면 사용자 지정 프로필을 만듭니다. AllowFastReconnect, AllowVPN, AllowUpdateService, UpdateServiceURL, RequireUpdatesApproval, ApprovedUpdates 및 ApplicationLaunchRestrictions 정책 CSP(구성 서비스 공급자) 설정을 설정할 수 있습니다.
 keywords: ''
-author: vhorne
-ms.author: victorh
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 3/6/2018
 ms.article: article
@@ -13,21 +12,22 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d5cdba24c10b90756d9a2b9f08fd7d4dcd727303
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: b349a61d61288f700294e04d029d825afba13445
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="microsoft-intune-custom-device-settings-for-devices-running-windows-holographic-for-business"></a>Windows Holographic for Business를 실행하는 장치에 Microsoft Intune 사용자 지정 장치 설정
+# <a name="custom-device-settings-for-devices-running-windows-holographic-for-business-in-intune"></a>Intune에서 Windows Holographic for Business를 실행하는 장치에 사용자 지정 장치 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
  장치의 기능을 제어하는 데 사용할 수 있는 OMA-URI(Open Mobile Alliance Uniform Resource Identifier) 설정을 배포하려면 Windows Holographic for Business용 Microsoft Intune **사용자 지정** 프로필을 사용합니다. Windows Holographic for Business는 많은 CSP(구성 서비스 공급자) 설정을 사용할 수 있게 합니다. CSP 개요는 [IT 전문가용 구성 CSP(구성 서비스 공급자) 소개](https://technet.microsoft.com/itpro/windows/manage/how-it-pros-can-use-configuration-service-providers)를 참조하세요. Windows Holographic에서 지원되는 특정 CSP의 경우 [Windows Holographic에서 지원되는 CSP](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#hololens)를 참조하세요.
 
 특정 설정을 찾고 있는 경우 [Windows Holographic for Business 장치 제한 프로필](device-restrictions-windows-holographic.md)에 기본 제공 설정이 많기 때문에 사용자 지정 값을 지정할 필요가 없습니다.
 
-1. [Microsoft Intune에서 사용자 지정 장치 설정을 구성하는 방법](custom-settings-configure.md)의 지침을 사용하여 시작합니다.
+## <a name="create-the-custom-oma-uri-profile"></a>사용자 지정 OMA-URI 프로필 만들기
+1. [Microsoft Intune에서 사용자 지정 장치 설정 구성](custom-settings-configure.md)의 지침을 사용하여 시작합니다.
 2. **프로필 만들기**에서 **설정**을 선택하여 하나 이상의 OMA-URI 설정을 추가합니다.
 3. **사용자 지정 OMA-URI 설정**에서 **추가**를 클릭하여 새 값을 추가합니다. **내보내기**를 클릭하여 쉼표로 구분된 값(.csv) 파일로 구성한 모든 값의 목록을 만들 수도 있습니다.
 4. 추가하려는 각 OMA-URI 설정에 대해 다음 정보를 입력합니다.
@@ -49,18 +49,56 @@ ms.lasthandoff: 03/22/2018
 
 다음 설정은 Windows Holographic for Business를 실행하는 장치에 유용합니다.
 
+### <a name="allowfastreconnecthttpsdocsmicrosoftcomwindowsclient-managementmdmpolicy-csp-authenticationauthentication-allowfastreconnect"></a>[AllowFastReconnect](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-authentication#authentication-allowfastreconnect)
 
-|설정 이름|OMA URI|데이터 형식  |
-|---------|---------|---------|
-|[AllowFastReconnect](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-authentication#authentication-allowfastreconnect)|./Vendor/MSFT/Policy/Config/Authentication/AllowFastReconnect|Integer<br>0 – 허용되지 않음<br>1 - 허용됨(기본값)|
-|[AllowVPN](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-settings#settings-allowvpn)|./Vendor/MSFT/Policy/Config/Settings/AllowVPN|Integer<br>0 – 허용되지 않음<br>1 - 허용됨(기본값)|
-|[AllowUpdateService](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allowupdateservice)|./Vendor/MSFT/Policy/Config/Update/AllowUpdateService|Integer<br>0 - 업데이트 서비스가 허용되지 않습니다 <br>1 - 업데이트 서비스가 허용됨(기본값).|
-|[UpdateServiceURL](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-updateserviceurl)|./Vendor/MSFT/Policy/Config/Update/UpdateServiceUrl|문자열<br>URL - 장치가 지정된 URL의 WSUS 서버에서 업데이트를 확인합니다.<br>구성되지 않음 - 장치가 Microsoft Update에서 업데이트를 확인합니다.|
-|[RequireUpdatesApproval](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-requireupdateapproval)|./Vendor/MSFT/Policy/Config/Update/RequireUpdateApproval|Integer<br>0 – 구성되지 않음. 장치는 모든 적용 가능한 업데이트를 설치합니다.<br>1 – 장치는 적용 가능한 업데이트뿐 아니라 승인된 업데이트 목록에 있는 업데이트도 설치합니다. 배포에 앞서 테스트가 필요한 경우처럼 장치에 업데이트의 배포를 IT로 제어하고자 하는 경우 이 정책을 1로 설정하십시오.|
-|[ApprovedUpdates](https://docs.microsoft.com/windows/client-management/mdm/update-csp)|./Vendor/MSFT/Update/ApprovedUpdates<br><br>**중요**<br>최종 사용자를 대신하여 업데이트 EULA를 읽고 동의해야 합니다. 이렇게 하지 않으면 법률 또는 계약상 의무 위반입니다.|최종 사용자를 대신하여 EULA 동의 및 업데이트 승인 노드.|
-[ApplicationLaunchRestrictions](https://docs.microsoft.com/windows/client-management/mdm/applocker-csp)|./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/*Grouping*/*ApplicationType*/Policy<br><br>**중요**<br>AppLocker CSP 아티클은 이스케이프된 XML 예제를 사용합니다. Intune 사용자 지정 프로필을 사용해 설정을 구성하려면 일반 XML을 사용해야 합니다.|문자열<br>자세한 내용은 [AppLocker CSP](https://docs.microsoft.com/windows/client-management/mdm/applocker-csp) 아티클을 참조하세요.
+---
+|OMA URI|데이터 형식  |
+|---------|---------|
+|./Vendor/MSFT/Policy/Config/Authentication/AllowFastReconnect|Integer<br>0 – 허용되지 않음<br>1 - 허용됨(기본값)|
 
-## <a name="how-to-find-the-policies-you-can-configure"></a>구성할 수 있는 정책을 찾는 방법
+### <a name="allowvpnhttpsdocsmicrosoftcomwindowsclient-managementmdmpolicy-csp-settingssettings-allowvpn"></a>[AllowVPN](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-settings#settings-allowvpn)
+
+---
+|OMA URI|데이터 형식  |
+|---------|---------|
+|./Vendor/MSFT/Policy/Config/Settings/AllowVPN|Integer<br>0 – 허용되지 않음<br>1 - 허용됨(기본값)|
+
+### <a name="allowupdateservicehttpsdocsmicrosoftcomwindowsclient-managementmdmpolicy-csp-updateupdate-allowupdateservice"></a>[AllowUpdateService](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allowupdateservice)
+
+---
+|OMA URI|데이터 형식  |
+|---------|---------|
+|./Vendor/MSFT/Policy/Config/Update/AllowUpdateService|Integer<br>0 - 업데이트 서비스가 허용되지 않습니다 <br>1 - 업데이트 서비스가 허용됨(기본값).|
+
+### <a name="updateserviceurlhttpsdocsmicrosoftcomwindowsclient-managementmdmpolicy-csp-updateupdate-updateserviceurl"></a>[UpdateServiceURL](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-updateserviceurl)
+
+---
+|OMA URI|데이터 형식  |
+|---------|---------|
+|./Vendor/MSFT/Policy/Config/Update/UpdateServiceUrl|문자열<br>URL - 장치가 지정된 URL의 WSUS 서버에서 업데이트를 확인합니다.<br>구성되지 않음 - 장치가 Microsoft Update에서 업데이트를 확인합니다.|
+
+### <a name="requireupdatesapprovalhttpsdocsmicrosoftcomwindowsclient-managementmdmpolicy-csp-updateupdate-requireupdateapproval"></a>[RequireUpdatesApproval](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-requireupdateapproval)
+
+---
+|OMA URI|데이터 형식  |
+|---------|---------|
+|./Vendor/MSFT/Policy/Config/Update/RequireUpdateApproval|Integer<br>0 – 구성되지 않음. 장치는 모든 적용 가능한 업데이트를 설치합니다.<br>1 – 장치는 적용 가능한 업데이트뿐 아니라 승인된 업데이트 목록에 있는 업데이트도 설치합니다. 배포에 앞서 테스트가 필요한 경우처럼 장치에 업데이트의 배포를 IT로 제어하고자 하는 경우 이 정책을 1로 설정하십시오.|
+
+### <a name="approvedupdateshttpsdocsmicrosoftcomwindowsclient-managementmdmupdate-csp"></a>[ApprovedUpdates](https://docs.microsoft.com/windows/client-management/mdm/update-csp)
+
+---
+|OMA URI|데이터 형식  |
+|---------|---------|
+|./Vendor/MSFT/Update/ApprovedUpdates<br><br>**중요**<br>최종 사용자를 대신하여 업데이트 EULA를 읽고 동의해야 합니다. 이렇게 하지 않으면 법률 또는 계약상 의무 위반입니다.|최종 사용자를 대신하여 EULA 동의 및 업데이트 승인 노드.|
+
+### <a name="applicationlaunchrestrictionshttpsdocsmicrosoftcomwindowsclient-managementmdmapplocker-csp"></a>[ApplicationLaunchRestrictions](https://docs.microsoft.com/windows/client-management/mdm/applocker-csp)
+
+---
+|OMA URI|데이터 형식  |
+|---------|---------|
+|./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/*Grouping*/*ApplicationType*/Policy<br><br>**중요**<br>AppLocker CSP 아티클은 이스케이프된 XML 예제를 사용합니다. Intune 사용자 지정 프로필을 사용해 설정을 구성하려면 일반 XML을 사용해야 합니다.|문자열<br>자세한 내용은 [AppLocker CSP](https://docs.microsoft.com/windows/client-management/mdm/applocker-csp)을 참조하세요.|
+
+## <a name="find-the-policies-you-can-configure"></a>구성할 수 있는 정책 찾기
 
 [Windows Holographic에서 지원되는 CSP](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#hololens)에서 Windows Holographic이 지원하는 모든 CSP(구성 서비스 공급자)의 전체 목록을 찾을 수 있습니다. 일부 Windows Holographic 버전과 호환되지 않는 설정도 있습니다. Windows 아티클의 표에서 각 CSP에 지원되는 버전을 알려줍니다.
 

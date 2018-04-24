@@ -1,28 +1,28 @@
 ---
-title: "Exchange 조건부 액세스 정책 만들기"
+title: Exchange 조건부 액세스 정책 만들기
 titlesuffix: Microsoft Intune
-description: "Intune에서 Exchange 온-프레미스 레거시 Exchange Online Dedicated의 조건부 액세스를 구성합니다."
-keywords: 
+description: Intune에서 Exchange 온-프레미스 레거시 Exchange Online Dedicated의 조건부 액세스를 구성합니다.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4cfe5916668de6d8bb3c42f2fd6afb6221bbc07e
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 183eb3f121e1b5c53673d10a04d0710baeb5a703
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated"></a>Exchange 온-프레미스 및 레거시 Exchange Online Dedicated에 대한 조건부 액세스 정책 만들기
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이 아티클은 장치 준수를 기반으로 Exchange 온-프레미스에 대한 조건부 액세스를 구성하는 방법을 설명합니다.
 

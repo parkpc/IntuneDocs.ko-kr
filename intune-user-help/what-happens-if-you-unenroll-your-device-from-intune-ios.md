@@ -1,27 +1,27 @@
 ---
-title: "iOS 또는 macOS 장치 등록을 취소하면 어떻게 되나요? | Microsoft 문서"
-description: 
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: iOS 또는 macOS 장치 등록을 취소하면 어떻게 되나요? | Microsoft 문서
+description: ''
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 02/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c6a97c74-c35c-4977-b925-6efe01e31d3c
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: esmich, elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 88e97f49332f3bf010b74f43748da5a1b33bb7cb
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 5b3af226fa1b92a3e9e3f29f35c1b80ca253568f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="what-happens-if-you-unenroll-your-ios-or-macos-device-from-intune"></a>Intune에서 iOS 또는 macOS 장치 등록을 취소하면 어떻게 되나요?
 

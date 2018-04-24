@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c55d8965d566074bddd23ea3973d22333fcc0980
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: caa6e57fbaeefbdcdbdf118f2f97985e26fc7724
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune"></a>Microsoft Intune에서 메일 프로필을 사용하여 회사 메일에 대한 액세스 구성
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 다양한 모바일 플랫폼은 운영 체제의 일부로 제공되는 네이티브 전자 메일 클라이언트를 포함합니다. 이러한 클라이언트 중 일부를 이 항목에서 설명하는 전자 메일 프로필을 사용하여 설정할 수 있습니다.
 

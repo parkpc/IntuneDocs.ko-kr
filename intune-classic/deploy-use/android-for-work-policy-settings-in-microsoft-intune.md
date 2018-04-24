@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e42d33b4cc69e6b2cc836e2236c508d97c2245fe
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 89c0e09a34a734ccfe704b9a89971544e9a25e86
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="android-for-work-policy-settings-in-microsoft-intune"></a>Microsoft Intune에서 Android for Work 정책 설정
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune은 [Android for Work 장치](android-for-work.md)에서 구성할 수 있는 기본 제공 일반 설정의 범위를 제공합니다.
 

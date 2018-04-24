@@ -1,28 +1,28 @@
 ---
-title: "Microsoft Intune - Azure에서 Android 장치에 대한 사용자 지정 설정 추가 | Microsoft Docs"
-description: "미리 공유한 키로 WiFi 프로필을 만들려면 Android 장치에 대해 사용자 지정 프로필을 추가 또는 만들기, 앱당 VPN 프로필 만들기 또는 Microsoft Intune에서 Samsung Knox Standard 장치에 대한 앱 허용/차단"
-keywords: 
+title: Microsoft Intune - Azure에서 Android 장치에 대한 사용자 지정 설정 추가 | Microsoft Docs
+description: 미리 공유한 키로 WiFi 프로필을 만들려면 Android 장치에 대해 사용자 지정 프로필을 추가 또는 만들기, 앱당 VPN 프로필 만들기 또는 Microsoft Intune에서 Samsung Knox Standard 장치에 대한 앱 허용/차단
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 03/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 494b3892-916e-4b40-9b67-61adec889bdf
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: aa105cc96cd0fa7d8c6beb32cdb80b7782d9828c
-ms.sourcegitcommit: 9cf05d3cb8099e4a238dae9b561920801ad5cdc6
+ms.openlocfilehash: 0195e138b59fae019fa2bc02aadf211257a65cac
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="custom-settings-for-android-devices---intune"></a>Android 장치 - Intune에 대한 사용자 지정 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 사용자 지정 설정은 OMA-URI(Open Mobile Alliance Uniform Resource Identifier) 설정을 사용하여 Android 장치에서 다른 기능을 구성합니다. 이러한 설정은 일반적으로 모바일 장치 제조업체에서 장치에서 기능을 제어하기 위해 사용합니다.
 
@@ -43,11 +43,11 @@ ms.lasthandoff: 03/09/2018
 4. **사용자 지정 OMA-URI 설정**에서 **추가**를 선택한 다음, **행 추가**를 선택합니다.
 5. 다음 속성을 입력합니다.
 
-  - **이름** - 쉽게 찾을 수 있도록 OMA-URI 설정에 대한 고유 이름을 입력합니다.
-  - **설명** - 설정에 대한 개요와 기타 중요한 모든 세부 정보를 제공하는 설명을 입력합니다.
-  - **데이터 형식** - 이 OMA URI 설정에 사용하는 데이터 형식을 입력합니다. **문자열**, **문자열(XML)**, **날짜 및 시간**, **정수**, **부동 소수점** 또는 **부울** 중에서 선택합니다.
-  - **OMA URI** - 원하는 OMA URI를 입력합니다.
-  - **값** - 입력한 OMA-URI와 연결할 값을 입력합니다.
+   - **이름** - 쉽게 찾을 수 있도록 OMA-URI 설정에 대한 고유 이름을 입력합니다.
+   - **설명** - 설정에 대한 개요와 기타 중요한 모든 세부 정보를 제공하는 설명을 입력합니다.
+   - **데이터 형식** - 이 OMA URI 설정에 사용하는 데이터 형식을 입력합니다. **문자열**, **문자열(XML)**, **날짜 및 시간**, **정수**, **부동 소수점** 또는 **부울** 중에서 선택합니다.
+   - **OMA URI** - 원하는 OMA URI를 입력합니다.
+   - **값** - 입력한 OMA-URI와 연결할 값을 입력합니다.
 
 6. **확인**을 선택하여 변경 내용을 저장합니다. 필요에 따라 더 많은 설정을 계속 추가합니다.
 

@@ -2,8 +2,8 @@
 title: 이전 릴리스
 description: ''
 keywords: ''
-author: barlanmsft
-ms.author: barlan
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 02/13/2017
 ms.topic: article
@@ -14,17 +14,17 @@ ms.assetid: 45dad14a-d412-488d-bb1e-ad990ea503df
 ROBOTS: NOINDEX,NOFOLLOW
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 76e53cabba9b684170d659ae5b8ef884bfe9abaa
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 57b2ab83f356eac27f668908a9a14b4f9310da19
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="previous-intune-releases"></a>이전 Intune 릴리스
 
 이 페이지는 [Microsoft Intune의 새로운 기능](whats-new-in-microsoft-intune.md)에서 제공된 공지 사항이 포함되어 있는 목록입니다.
 
-[!INCLUDE[wit_nextref](../includes/whats-new-last-six-months.md)]
+[!INCLUDE [wit_nextref](../includes/whats-new-last-six-months.md)]
 
 ## <a name="july-2016"></a>2016년 7월
 
@@ -94,12 +94,12 @@ Intune에 대한 서비스 상태 정보는 다른 Microsoft 서비스와 함께
     * Intune에서 관리되어야 합니다.
     * 배포된 Intune 준수 정책을 준수해야 함
 
- 비규격 장치의 최종 사용자는 액세스하기 위해 등록하고 준수 문제를 해결하도록 요구됩니다.
+  비규격 장치의 최종 사용자는 액세스하기 위해 등록하고 준수 문제를 해결하도록 요구됩니다.
 - **브라우저에 대한 조건부 액세스.** 관리되는 규격 iOS 및 Android 장치의 지원되는 웹 브라우저에서만 액세스할 수 있도록 [Exchange Online](/intune-classic/deploy-use/restrict-access-to-sharepoint-online-with-microsoft-intune)에 대한 조건부 액세스 정책을 설정할 수 있습니다. iOS 및 Android 장치를 사용하여 OWA(Outlook Web Access) 및 SharePoint 사이트에 로그인하려는 최종 사용자에게는 Intune에 장치를 등록하고 비규격 문제를 해결해야 로그인을 완료할 수 있다는 메시지가 표시됩니다.
-<!---TFS 1175844--->
+  <!---TFS 1175844--->
 
 - **Dynamics CRM Online에서 조건부 액세스를 지원합니다.** 정책을 준수하고 관리되는 iOS 및 Android 장치에서만 액세스할 수 있도록, [Dynamics CRM Online](/intune-classic/deploy-use/restrict-access-to-dynamics-crm-online-with-microsoft-intune)에 대한 조건부 액세스 정책을 설정할 수 있습니다. iOS 및 Android에서 Dynamics CRM 모바일 앱에 로그인하려고 하는 최종 사용자에게 Intune에 등록하고 로그인을 완료하기 전에 모든 비호환성 문제를 해결해야 한다는 메시지가 표시됩니다.
-<!---TFS1295358--->
+  <!---TFS1295358--->
 
 ### <a name="intune-company-portal-updates"></a>Intune 회사 포털 업데이트
 
@@ -180,19 +180,19 @@ Intune 알림 규칙은 Intune에서 메일 경고를 보낼 대상자를 정의
 
 ### <a name="app-management"></a>앱 관리
 - **MAM 사용자 규정 준수.**
-이제 Azure Active Directory(AAD) 테넌트에 속하는 모든 사용자에 대한 응용 프로그램 관리 정책의 [상태](/intune-classic/deploy-use/monitor-mobile-app-management-policies-with-Microsoft-Intune)를 볼 수 있습니다. 여기에는 다음 항목이 포함됩니다.
-   - 장치
-   - 장치의 앱
+  이제 Azure Active Directory(AAD) 테넌트에 속하는 모든 사용자에 대한 응용 프로그램 관리 정책의 [상태](/intune-classic/deploy-use/monitor-mobile-app-management-policies-with-Microsoft-Intune)를 볼 수 있습니다. 여기에는 다음 항목이 포함됩니다.
+  - 장치
+  - 장치의 앱
 
-   상태 값:
+    상태 값:
 
-   **Checked in**(체크 인 됨): 사용자에게 정책이 배포되었고, 회사 컨텍스트에서 앱이 사용되었으며, 성공적으로 정책이 수신되었다는 것을 나타냅니다.
+    **Checked in**(체크 인 됨): 사용자에게 정책이 배포되었고, 회사 컨텍스트에서 앱이 사용되었으며, 성공적으로 정책이 수신되었다는 것을 나타냅니다.
 
     **Not checked in**(체크인 안됨): 사용자에게 정책이 배포되었지만, 그 뒤로 회사 컨텍스트에서 앱이 사용되지 않았다는 것을 나타냅니다.
 
 
 - **Outlook 연락처 동기화를 방지하기 위한 MAM 컨트롤(Android).**
-[모바일 응용 프로그램 관리](/intune-classic/deploy-use/wipe-managed-company-app-data-with-Microsoft-Intune)에 대한 새 설정을 사용할 수 있습니다. 기본 주소록에 이미 저장된 연락처는 삭제됩니다. 이 새로운 설정은 처음에 Android 장치의 Outlook 응용 프로그램에서 지원됩니다.
+  [모바일 응용 프로그램 관리](/intune-classic/deploy-use/wipe-managed-company-app-data-with-Microsoft-Intune)에 대한 새 설정을 사용할 수 있습니다. 기본 주소록에 이미 저장된 연락처는 삭제됩니다. 이 새로운 설정은 처음에 Android 장치의 Outlook 응용 프로그램에서 지원됩니다.
 
 ### <a name="device-management"></a>장치 관리
 - **회사 소유 장치에 대한 전화 번호 식별.** "회사"로 분류되는 전화는 이제 전체 전화 번호로 식별됩니다(예: 모바일 장치 인벤토리 보고서를 실행하는 경우). BYOD 전화 번호는 마지막 4자리만 표시되고 ****으로 계속 마스킹됩니다.
@@ -212,6 +212,6 @@ Intune 알림 규칙은 Intune에서 메일 경고를 보낼 대상자를 정의
 
 이런 상태가 추가되기 전에는, 사용자에게 “설치 중” 상태만 보여줬기 때문에(화면에 수 시간 동안 유지되기도 하는) 앱 설치가 오래 걸리면 혼란스러웠습니다. 새로운 상태가 추가되었기 때문에, 이제 사용자들은 지원을 요청하는 대신 "장치가 동기화될 때까지 기다리는 중" 링크를 클릭하고 지침에 따라서 동기화 프로세스가 재시작되도록 강제 적용할 수 있습니다.
 
->[!div class="step-by-step"]
-
->[&larr; **Intune의 새로운 기능**](whats-new-in-microsoft-intune.md)    
+> [!div class="step-by-step"]
+> 
+> [&larr; **Intune의 새로운 기능**](whats-new-in-microsoft-intune.md)    

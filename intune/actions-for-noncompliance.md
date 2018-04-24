@@ -1,22 +1,22 @@
 ---
-title: "Microsoft Intune - Azure를 사용한 비준수 메시지와 작업 | Microsoft Docs"
-description: "비준수 장치에 보낼 알림 이메일을 만듭니다. 장치가 비준수로 표시된 후 준수하기 위한 유예 기간을 추가하거나 장치가 준수하기까지 액세스를 차단하는 일정을 만드는 등의 작업을 추가합니다. Azure에서 Microsoft Intune을 사용하여 이를 수행합니다."
-keywords: 
+title: Microsoft Intune - Azure를 사용한 비준수 메시지와 작업 | Microsoft Docs
+description: 비준수 장치에 보낼 알림 이메일을 만듭니다. 장치가 비준수로 표시된 후 준수하기 위한 유예 기간을 추가하거나 장치가 준수하기까지 액세스를 차단하는 일정을 만드는 등의 작업을 추가합니다. Azure에서 Microsoft Intune을 사용하여 이를 수행합니다.
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 03/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 37a8deca147bbad1e706b814f366a2c3f1247869
-ms.sourcegitcommit: 9cf05d3cb8099e4a238dae9b561920801ad5cdc6
+ms.openlocfilehash: a4b5e55b404da907d8f17a658483b4802af8226d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="automate-email-and-add-actions-for-noncompliant-devices---intune"></a>이메일 자동화 및 비준수 장치 - Intune에 대한 작업 추가
 
@@ -54,14 +54,14 @@ ms.lasthandoff: 03/09/2018
 3. **장치 준수**를 선택한 다음, **알림**을 선택합니다. 
 4. **알림 만들기**를 선택하고 다음 정보를 입력합니다.
 
-  - 이름
-  - 주체
-  - 메시지
-  - 이메일 머리글 – 회사 로고 포함
-  - 이메일 바닥글 – 회사 이름 포함
-  - 이메일 바닥글 – 연락처 정보 포함
+   - 이름
+   - 주체
+   - 메시지
+   - 이메일 머리글 – 회사 로고 포함
+   - 이메일 바닥글 – 회사 이름 포함
+   - 이메일 바닥글 – 연락처 정보 포함
 
-  ![Intune에서 준수 알림 메시지의 예](./media/actionsfornoncompliance-1.PNG)
+   ![Intune에서 준수 알림 메시지의 예](./media/actionsfornoncompliance-1.PNG)
 
 정보 추가를 완료하면 **만들기**를 선택합니다. 알림 메시지 템플릿을 사용할 준비가 됐습니다.
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 03/09/2018
 1. [Azure Portal](https://portal.azure.com)에서 **Microsoft Intune**을 열고 **장치 준수**를 선택합니다.
 2. **정책**을 선택하고 사용자 정책 중 하나를 선택한 다음, **속성**을 선택합니다. 
 
-  정책이 아직 없습니까? [Android](compliance-policy-create-android.md), [iOS](compliance-policy-create-ios.md), [Windows](compliance-policy-create-windows.md) 또는 다른 플랫폼 정책을 만듭니다.
+   정책이 아직 없습니까? [Android](compliance-policy-create-android.md), [iOS](compliance-policy-create-ios.md), [Windows](compliance-policy-create-windows.md) 또는 다른 플랫폼 정책을 만듭니다.
 
 3. **비준수에 대한 작업**을 선택한 다음, **추가**를 선택하여 작업 매개 변수를 입력합니다. 이전에 만든 메시지 템플릿을 선택하고 추가 수신자를 추가하고 유예 기간 일정을 업데이트할 수 있습니다. 일정에서 일 수(0 - 365)를 입력할 수 있습니다. 그런 다음, 조건부 액세스 정책을 적용할 수 있습니다. 일 수를 **0**으로 입력하는 경우 조건부 액세스는 **즉시** 회사 리소스에 대한 액세스를 차단 합니다.
 

@@ -1,25 +1,24 @@
 ---
-title: "Microsoft Intune과 네트워크 액세스 제어 통합"
-titlesuffix: 
-description: "Intune과 NAC(네트워크 액세스 제어) 통합"
-keywords: 
+title: Microsoft Intune - Azure와 네트워크 액세스 제어 통합 | Microsoft Docs
+description: NAC(네트워크 액세스 제어) 솔루션은 Intune을 사용하여 장치에 대한 준수 및 등록을 확인합니다. NAC는 조건부 액세스를 사용한 특정 동작 및 작업을 포함합니다. 등록된 단계를 참조하고 파트너 솔루션 목록을 가져옵니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: aa7ecff7-8579-4009-8fd6-e17074df67de
 ms.reviewer: davidra
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6f54f04bc5a63c8a431eddaf4210fcb290942cc3
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: bdf6b5b71c71dd8b1a9a5c9154953d1ebc07d0dc
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="network-access-control-nac-integration-with-intune"></a>Intune과 NAC(네트워크 액세스 제어) 통합
 
@@ -27,7 +26,7 @@ Intune은 장치가 온-프레미스 리소스에 액세스하려고 할 때 조
 
 ## <a name="how-do-intune-and-nac-solutions-help-protect-your-organization-resources"></a>Intune 및 NAC 솔루션은 조직 리소스를 어떻게 보호하나요?
 
-NAC 솔루션은 액세스 제어 결정을 내리기 위해 Intune에서 장치 등록 및 규정 준수 상태를 검사합니다. 장치가 등록되지 않았거나 등록되었으나 Intune 장치 준수 정책을 준수하지 않을 경우 등록 및/또는 장치 준수 확인을 위해 Intune에 리디렉션되어야 합니다.
+NAC 솔루션은 액세스 제어 결정을 내리기 위해 Intune에서 장치 등록 및 규정 준수 상태를 확인합니다. 장치가 등록되지 않았거나 등록되었으나 Intune 장치 준수 정책을 준수하지 않을 경우 등록 및/또는 장치 준수 확인을 위해 Intune에 리디렉션되어야 합니다.
 
 ### <a name="example"></a>예제
 
@@ -45,7 +44,7 @@ NAC는 조건부 액세스와 연동하여 액세스 제어 결정을 제공합�
 
 ## <a name="how-the-nac-integration-works"></a>NAC 통합의 작동 방식
 
-Intune과 통합된 경우 NAC 통합의 작동 방식에 대한 개요는 다음과 같습니다. 처음 세 단계인 1-3단계에서는 온보딩 프로세스에 대해 설명합니다. NAC 솔루션이 Intune과 통합된 후 4-9단계에서는 지속적인 작업을 설명합니다.
+다음 목록은 Intune과 통합된 경우 NAC 통합의 작동 방식에 대한 개요입니다. 처음 세 단계인 1-3단계에서는 온보딩 프로세스에 대해 설명합니다. NAC 솔루션이 Intune과 통합된 후 4-9단계에서는 지속적인 작업을 설명합니다.
 
 ![NAC와 Intune의 연동 방식](./media/ca-intune-common-ways-2.png)
 
@@ -64,3 +63,4 @@ Intune과 통합된 경우 NAC 통합의 작동 방식에 대한 개요는 다�
 - [Intune과 Cisco ISE 통합](http://www.cisco.com/c/en/us/td/docs/security/ise/2-1/admin_guide/b_ise_admin_guide_21/b_ise_admin_guide_20_chapter_01000.html)
 - [Intune과 Citrix NetScaler 통합](http://docs.citrix.com/en-us/netscaler-gateway/12/microsoft-intune-integration/configuring-network-access-control-device-check-for-netscaler-gateway-virtual-server-for-single-factor-authentication-deployment.html)
 - [Intune과 HP Aruba Clear Pass 통합](https://support.arubanetworks.com/Documentation/tabid/77/DMXModule/512/Command/Core_Download/Default.aspx?EntryId=23757)
+- [Intune을 사용한 Squadra 보안 이동식 미디어 관리자(secRMM) 통합](http://www.squadratechnologies.com/StaticContent/ProductDownload/secRMM/9.9.0.0/secRMMIntuneAccessControlSetupGuide.pdf)

@@ -1,25 +1,25 @@
 ---
-title: "Android 장치에 Symantec Endpoint Protection Mobile을 설치해야 함 | Microsoft Docs"
-description: "Android 장치에 SEP Mobile을 설치하는 방법을 알아봅니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Android 장치에 Symantec Endpoint Protection Mobile을 설치해야 함 | Microsoft Docs
+description: Android 장치에 SEP Mobile을 설치하는 방법을 알아봅니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 09/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 627cd171-6e1b-439e-809a-2e6f007c4b3d
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: 040b7bad4b62acffa5dad1606d5beb81efc56b68
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 7194f63a3d9b34be00753a66b9929c033bd10b86
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="install-symantec-endpoint-protection-mobile-on-your-android-device"></a>Android 장치에 Symantec Endpoint Protection Mobile 설치
 
@@ -45,13 +45,13 @@ ms.lasthandoff: 01/25/2018
 
 8. SEP Mobile에서 장치에 대한 보안 위협을 검사하기 시작합니다.
 
-  * SEP Mobile에서 장치에 대한 보안 위협을 발견한 경우 문제 해결 방법에 대한 지침이 표시됩니다.
+   * SEP Mobile에서 장치에 대한 보안 위협을 발견한 경우 문제 해결 방법에 대한 지침이 표시됩니다.
 
-  * 위협이 발견되지 않으면 세 가지 위협 유형이 모두 녹색으로 표시됩니다.
+   * 위협이 발견되지 않으면 세 가지 위협 유형이 모두 녹색으로 표시됩니다.
 
-    * 회사 포털의 **장치 세부 정보** 화면에 현재 회사의 보안 요구 사항을 준수하고 있다고 표시됩니다.
+     * 회사 포털의 **장치 세부 정보** 화면에 현재 회사의 보안 요구 사항을 준수하고 있다고 표시됩니다.
 
-    ![장치가 현재 정책을 준수함](./media/mtd-device-now-compliant-android.png)
+     ![장치가 현재 정책을 준수함](./media/mtd-device-now-compliant-android.png)
 
 ## <a name="if-the-installation-doesnt-work"></a>설치가 작동하지 않는 경우
 

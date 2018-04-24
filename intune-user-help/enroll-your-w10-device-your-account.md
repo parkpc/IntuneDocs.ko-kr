@@ -1,37 +1,37 @@
 ---
-title: "Intune에서 Windows 10 장치 등록 | Microsoft 문서"
-description: "Windows 10 1511 장치를 Intune에 등록합니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Intune에서 Windows 10 장치 등록 | Microsoft 문서
+description: Windows 10 1511 장치를 Intune에 등록합니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 05/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 43b738b7-6a56-498a-a433-112da5104876
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ba0535e388ac730ad04cda898c2299f98686ff1d
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: bc9a351b24e35359f628a9af9ac906ed0c41a6ff
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-your-windows-10-device-in-intune"></a>Intune에서 Windows 10 장치 등록
 
   > [!NOTE]
   > Windows 10은 모든 유형의 장치에서 작동합니다. 데스크톱, 휴대폰 또는 태블릿에 따라 이 페이지의 그림과 다소 다르더라도 모두 동일한 단계를 따르면 됩니다.
 
-1.  **시작**으로 이동합니다.
+1. **시작**으로 이동합니다.
 
-  - **Windows 10 데스크톱** 장치를 사용하는 경우 **시작 메뉴**로 이동합니다.
-  - **Windows 10 Mobile** 장치를 사용하는 경우 **시작 화면**으로 가서 살짝 밀면 **모든 앱** 목록이 표시됩니다.
+   - **Windows 10 데스크톱** 장치를 사용하는 경우 **시작 메뉴**로 이동합니다.
+   - **Windows 10 Mobile** 장치를 사용하는 경우 **시작 화면**으로 가서 살짝 밀면 **모든 앱** 목록이 표시됩니다.
 
 2. 검색 창에서 "설정"을 검색하여 Windows **설정** 앱을 엽니다.
 

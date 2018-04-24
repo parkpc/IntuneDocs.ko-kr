@@ -1,28 +1,28 @@
 ---
-title: "클라이언트 소프트웨어로 PC 관리"
-description: "Intune 클라이언트 소프트웨어를 설치하여 Windows PC를 관리합니다."
-keywords: 
+title: 클라이언트 소프트웨어로 PC 관리
+description: Intune 클라이언트 소프트웨어를 설치하여 Windows PC를 관리합니다.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 03/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 3b8d22fe-c318-4796-b760-44f1ccf34312
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 773e4d551a8ea278c60107a279e29b83f0a1596f
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 8790863f4cfb3b0b8fdcf4f7aedbfc338ae64667
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="manage-windows-pcs-as-computers-via-intune-software-client"></a>Intune 소프트웨어 클라이언트를 통해 Windows PC를 컴퓨터로 관리
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune은 조직에서 모바일 장치를 관리할 수 있는 포괄적 솔루션을 제공합니다. Intune에서는 Windows 10 운영 체제에 기본 제공된 최신 장치 관리 기능을 사용하여 Windows PC를 모바일 장치로 관리할 수 있습니다. 조직의 관리 요구 사항을 충족하기 위해 Intune에서는 Intune 소프트웨어 클라이언트를 사용하여 Windows PC를 컴퓨터로 관리할 수도 있습니다. 이 관리 방법에는 레거시 Windows 운영 체제의 기존 컴퓨터 관리 기능이 사용됩니다.
 

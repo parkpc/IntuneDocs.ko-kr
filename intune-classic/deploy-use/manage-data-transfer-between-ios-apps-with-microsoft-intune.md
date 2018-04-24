@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6b83e5fa37f9a9844e3011cded3c3cd58f268521
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: c27b191f8a0f9fbd298b820114f27acb4c31f966
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="manage-data-transfer-between-ios-apps-with-microsoft-intune"></a>Microsoft Intune으로 iOS 앱 간의 데이터 전송 관리
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 ## <a name="manage-ios-apps"></a>IOS 앱 관리
 회사 데이터 보호는 파일 전송이 관리하는 앱으로만 제한되도록 하는 작업을 포함합니다.  다음과 같은 방법으로 iOS 앱을 관리할 수 있습니다.
@@ -51,17 +51,17 @@ iOS 장치의 **관리에서 열기** 기능은 **MDM 채널**을 통해 배포�
 사용자 UPN 설정 구성은 타사 EMM 솔루션으로 관리되는 장치에 **필요**합니다. 아래에 설명된 절차는 UPN을 구성하는 방법과 결과로 생성되는 최종 사용자 환경에 대한 일반적인 설명입니다.
 
 
-1.  Azure Portal에서 iOS 플랫폼에 대한 [앱 보호 정책을 구성](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)합니다. 회사 요구 사항에 따라 정책 설정을 구성하고 이 정책이 있어야 하는 앱을 선택합니다.
+1. Azure Portal에서 iOS 플랫폼에 대한 [앱 보호 정책을 구성](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)합니다. 회사 요구 사항에 따라 정책 설정을 구성하고 이 정책이 있어야 하는 앱을 선택합니다.
 
-2.  아래 일반적인 단계를 사용하여 **타사 MDM 솔루션을 통해** 관리할 앱 및 메일 프로필을 배포합니다. 이 환경은 예제 1에서도 설명합니다.
+2. 아래 일반적인 단계를 사용하여 **타사 MDM 솔루션을 통해** 관리할 앱 및 메일 프로필을 배포합니다. 이 환경은 예제 1에서도 설명합니다.
 
-  1.  다음 앱 구성 설정을 사용하여 앱을 배포합니다.
+   1. 다음 앱 구성 설정을 사용하여 앱을 배포합니다.
 
       **키** = IntuneMAMUPN,  **값** = <username@company.com>
 
       예: [‘IntuneMAMUPN’, ‘jondoe@microsoft.com’]
 
-  2.  등록된 장치에 타사 MDM 공급자를 사용하여 다음에서 열기 관리 정책을 배포합니다.
+   2. 등록된 장치에 타사 MDM 공급자를 사용하여 다음에서 열기 관리 정책을 배포합니다.
 
 
 ### <a name="example-1-admin-experience-in-third-party-mdm-console"></a>예제 1: 타사 MDM 콘솔의 관리 환경
@@ -70,9 +70,9 @@ iOS 장치의 **관리에서 열기** 기능은 **MDM 채널**을 통해 배포�
 
 2. [응용 프로그램 구성] 섹션에서 다음 설정을 입력합니다.
 
-  **키** = IntuneMAMUPN,  **값** = <username@company.com>
+   **키** = IntuneMAMUPN,  **값** = <username@company.com>
 
-  키/값 쌍의 정확한 구문은 타사 MDM 공급자에 따라 달라질 수 있습니다. 아래 표에서는 타사 MDM 공급자 및 키/값 쌍에 입력해야 하는 정확한 값의 예를 보여 줍니다.
+   키/값 쌍의 정확한 구문은 타사 MDM 공급자에 따라 달라질 수 있습니다. 아래 표에서는 타사 MDM 공급자 및 키/값 쌍에 입력해야 하는 정확한 값의 예를 보여 줍니다.
 
 |타사 MDM 공급자| 구성 키 | 값 형식 | 구성 값|
 | ------- | ---- | ---- | ---- |

@@ -1,25 +1,25 @@
 ---
-title: "iOS 앱 간의 데이터 전송 관리"
+title: iOS 앱 간의 데이터 전송 관리
 titlesuffix: Microsoft Intune
-description: "앱 간 데이터 전송을 관리하려면 Microsoft Intune에서 모바일 앱 관리를 사용하는 법을 이해합니다."
-keywords: 
+description: 앱 간 데이터 전송을 관리하려면 Microsoft Intune에서 모바일 앱 관리를 사용하는 법을 이해합니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: d10b2d64-8c72-4e9b-bd06-ab9d9486ba5e
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 441f78a8b3b9c41610b78a27dbe51fb144dd82da
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 4c2872e70697b15326f89abd5721048643c5421a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-manage-data-transfer-between-ios-apps-in-microsoft-intune"></a>Microsoft Intune에서 iOS 앱 간의 데이터 전송 관리 방법
 ## <a name="manage-ios-apps"></a>IOS 앱 관리
@@ -63,9 +63,9 @@ iOS 장치의 **관리에서 열기** 기능은 **MDM 채널**을 통해 장치�
 
 2. [응용 프로그램 구성] 섹션에서 다음 설정을 입력합니다.
 
-  **키** = IntuneMAMUPN,  **값** = <username@company.com>
+   **키** = IntuneMAMUPN,  **값** = <username@company.com>
 
-  키/값 쌍의 정확한 구문은 타사 MDM 공급자에 따라 달라질 수 있습니다. 아래 표에서는 타사 MDM 공급자 및 키/값 쌍에 입력해야 하는 정확한 값의 예를 보여 줍니다.
+   키/값 쌍의 정확한 구문은 타사 MDM 공급자에 따라 달라질 수 있습니다. 아래 표에서는 타사 MDM 공급자 및 키/값 쌍에 입력해야 하는 정확한 값의 예를 보여 줍니다.
 
 |타사 MDM 공급자| 구성 키 | 값 형식 | 구성 값|
 | ------- | ---- | ---- | ---- |

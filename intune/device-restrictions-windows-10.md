@@ -1,28 +1,27 @@
 ---
-title: "Windows 10에 대한 Microsoft Intune 장치 제한 설정"
-titlesuffix: 
-description: "Windows 10을 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Microsoft Intune 설정을 알아봅니다."
-keywords: 
-author: vhorne
-ms.author: victorh
+title: Microsoft Intune - Azure에서 Windows 10을 위한 장치 제한 설정 | Microsoft Docs
+description: Windows 10을 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Microsoft Intune 설정을 알아봅니다.
+keywords: ''
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
-ms.date: 3/1/2018
+ms.date: 4/9/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: eee23afb4e2398358dc2c6b19b7d85be6b4f9edb
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 83027a95edca04f4461cecab341deb3ec10680fb
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
-#<a name="microsoft-intune-windows-10-and-later-device-restriction-settings"></a>Microsoft Intune의 Windows 10 이상 장치 제한 설정
+# <a name="device-restriction-for-windows-10-and-newer-settings-in-intune"></a>Intune에서 Windows 10(및 이상) 설정을 위한 장치 제한
 이 아티클에서는 Windows 10을 실행하는 장치에 대해 구성할 수 있는 모든 Microsoft Intune 장치 제한 설정을 보여줍니다.
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## <a name="general"></a>일반
 - **화면 캡처(모바일 전용)** - 장치 화면을 이미지로 캡처하도록 허용합니다.
@@ -51,7 +50,6 @@ ms.lasthandoff: 03/12/2018
 - **잉크 작업 영역** - 사용자가 잉크 작업 영역에 액세스하는 것을 차단 합니다. 이 설정이 구성되지 않은 경우 잉크 작업 영역을 활성화되고(기능이 켜짐), 사용자는 잠금 화면에서 이를 사용할 수 있습니다.
 - **자동 재배포** - 관리 권한을 가진 사용자가 장치 잠금 화면에서 **CTRL + Win + R**을 사용하여 모든 사용자 데이터 및 설정을 삭제할 수 있습니다. 장치가 자동으로 재구성되고 관리에 다시 등록됩니다.
 
-
 ## <a name="password"></a>암호
 -   **암호** - 최종 사용자에게 장치에 액세스하려면 암호를 입력하도록 요구합니다.
     -   **필수 암호 유형** - 암호를 숫자로만 입력해야 하는지 아니면 영숫자로 입력할지 여부를 지정합니다.
@@ -75,7 +73,6 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 -   **페어링 및 개인 정보 보호 사용자 동의 프롬프트의 자동 수락** – Windows에서 앱을 실행할 때 페어링 및 개인 정보 보호 동의 메시지를 자동으로 수락하도록 허용합니다.
 - **사용자 작업 게시**: 작업 전환기에서 공유 경험 및 최근에 사용된 리소스 검색을 차단하려면 이 옵션을 **차단**으로 설정합니다.
 - **로컬 작업만**: 로컬 작업에 대해서만 작업 전환기에서 공유 경험 및 최근에 사용된 리소스 검색을 차단하려면 이 옵션을 **차단**으로 설정합니다.
-
 
 장치의 모든 앱이 액세스할 수 있는 정보를 정의할 수 있습니다. **앱별 개인 정보 예외**를 사용하여 앱별 예외를 정의할 수 있습니다.
 
@@ -137,8 +134,6 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 -   **잠긴 화면 위 알림** – 장치 잠금 화면에 경고 메시지가 표시되지 않도록 차단합니다.
 -   **화면 시간 초과(모바일 전용)** - 화면이 잠긴 후 꺼질 때까지의 시간(초)을 지정합니다.
 
-
-
 ## <a name="app-store"></a>앱 스토어
 
 -   **앱 스토어(모바일 전용)** - Windows 10 Mobile 장치에서 앱 스토어 사용을 허용하거나 차단합니다.
@@ -152,8 +147,6 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 -   **시스템 드라이브에 앱 설치** - 앱에서 장치의 시스템 드라이브에 있는 데이터를 저장할 수 없습니다.
 -   **게임 DVR(데스크톱 전용)** - 게임의 녹화와 방송이 허용되는지 여부를 구성합니다.
 -   **Store의 앱만 해당** - 사용자가 App Store 이외의 위치에서 앱을 설치할 수 있는지 구성합니다.
-
-
 
 ## <a name="edge-browser"></a>Microsoft Edge 브라우저
 
@@ -181,7 +174,7 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 -   **기본 검색 엔진** - 사용할 기본 검색 엔진을 지정합니다. 최종 사용자는 언제든지 이 값을 변경할 수 있습니다.
 -   **종료 시 검색 데이터 지우기** – 사용자가 Edge를 종료할 때 기록 및 검색 데이터를 지웁니다.
 -   **라이브 타일 데이터 수집** – 사용자가 Edge의 시작 메뉴에 사이트를 고정할 때 Windows가 라이브 타일에서 정보를 수집할 수 없도록 차단합니다.
--  **즐겨찾기 목록** - 즐겨찾기 파일의 경로를 정의 합니다. 예를 들어 http://contoso.com/favorites.html.
+-  **즐겨찾기 목록** - 즐겨찾기 파일의 경로를 정의 합니다. 정의합니다(예: http://contoso.com/favorites.html).
 -  **즐겨찾기 변경 제한** - 이를 **블록**으로 설정하여 사용자가 즐겨찾기 목록을 추가, 가져오기, 정렬 또는 편집하지 못하게 합니다. 
 
 ## <a name="windows-defender-smart-screen"></a>Windows Defender Smart Screen
@@ -192,6 +185,7 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 
 ## <a name="search"></a>검색
 - **안전 검색(모바일 전용)** - Cortana가 검색 결과에서 성인 콘텐츠를 필터링하는 방법을 제어합니다. **엄격**, **보통** 중에 선택하거나 최종 사용자가 사용자 고유 설정을 선택할 수 있게 할 수 있습니다.
+- **검색에 웹 결과 표시** - 웹 결과가 장치에서 수행한 검색에 표시되는 것을 차단 또는 허용합니다.
 
 ## <a name="cloud-and-storage"></a>클라우드 및 저장소
 -   **Microsoft 계정** - 사용자가 Microsoft 계정을 장치와 연결하도록 허용합니다.
@@ -215,7 +209,6 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 -   **Wi-Fi 수동 구성** - 사용자가 Wi-Fi 연결을 직접 구성할 수 있는지 아니면 Wi-Fi 프로필에 의해 구성된 연결만 사용할 수 있는지를 제어합니다(Windows 10 Mobile에만 해당).
 -   **Wi-Fi 검색 간격** - 장치가 Wi-Fi 네트워크를 검색하는 빈도를 지정합니다. 1(빈도 가장 높음)에서 500(빈도 가장 낮음) 사이의 값을 지정합니다.
 -   **Bluetooth 허용 서비스** - 허용된 Bluetooth 서비스 및 프로필 목록인 16진수 문자열을 지정합니다.
-
 
 ## <a name="control-panel-and-settings"></a>제어판 및 설정
 
@@ -258,41 +251,48 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 
 ## <a name="kiosk-preview"></a>키오스크(미리 보기)
 
--   **키오스크 모드** - 정책에서 지원되는 [키오스크 모드](https://docs.microsoft.com/windows/configuration/kiosk-shared-pc) 유형을 식별합니다. 다음 옵션을 사용할 수 있습니다.
+키오스크 장치는 일반적으로 하나의 앱 또는 특정 앱 집합을 실행합니다. 사용자는 키오스크 앱의 외부에 있는 장치에서 모든 기능 또는 함수에 액세스할 수 없습니다.
 
-      - **구성되지 않음**(기본값) - 정책이 키오스크 모드를 사용하도록 설정하지 않습니다. 
-      - **단일 앱 키오스크** - 프로필을 통해 장치를 단일 앱 키오스크로 사용하도록 설정합니다.
-      - **여러 앱 키오스크** - 프로필을 통해 장치를 여러 앱 키오스크로 사용하도록 설정합니다.
+- **키오스크 모드** - 정책에서 지원되는 키오스크 모드 유형을 식별합니다. 다음 옵션을 사용할 수 있습니다.
 
-    단일 앱 키오스크에는 다음 설정이 필요합니다.
+  - **구성되지 않음**(기본값) - 정책이 키오스크 모드를 사용하도록 설정하지 않습니다. 
+  - **단일 앱 키오스크** - 프로필을 통해 장치가 하나의 앱만 실행하도록 설정합니다. 사용자가 로그인할 때 특정 앱이 시작됩니다. 또한 이 모드는 사용자가 새 앱을 열거나 실행 중인 앱을 변경하는 것을 제한합니다.
+  - **다중 앱 키오스크** - 프로필을 통해 장치가 여러 앱을 실행하도록 설정합니다. 사용자는 추가한 앱만 사용할 수 있습니다. 다중 앱 키오스크 또는 용도가 고정된 장치의 혜택은 필요한 앱에만 액세스하고 불필요한 앱을 표시되지 않도록 함으로써 개인이 이해하기 쉬운 환경을 제공하는 것입니다.
 
-      - **사용자 계정** - 키오스크 앱과 연결된 로컬(장치에 대한) 사용자 계정 또는 Azure AD 계정 로그인을 지정합니다. Azure AD 도메인에 가입된 계정의 경우 `domain\\username@tenant.org` 형태로 계정을 지정합니다.
+#### <a name="single-app-kiosks"></a>단일 앱 키오스크
+다음 설정을 입력합니다.
 
-         공용 환경의 장치는 권한이 부여되지 않은 작업을 방지하기 위해 최소한의 권한으로 계정을 사용합니다.  
+- **사용자 계정** - 키오스크 앱과 연결된 로컬(장치에 대한) 사용자 계정 또는 Azure AD 계정 로그인을 입력합니다. Azure AD 도메인에 가입된 계정의 경우 `domain\username@tenant.org` 형식을 사용하여 계정을 입력합니다. 
 
-      - **앱의 AUMID(응용 프로그램 사용자 모델 ID)** - 키오스크 앱의 AUMID를 지정합니다. 자세한 내용은 [설치된 앱의 응용 프로그램 사용자 모델 ID 찾기](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)를 참조하세요.
+    자동 로그온을 사용할 수 있는 공용 환경의 키오스크에서는 최소한의 권한(예: 로컬 표준 사용자 계정)을 지닌 사용자 유형을 사용해야 합니다. 키오스크 모드에 대해 Azure AD(Active Directory) 계정을 구성하려면 `AzureAD\user@contoso.com` 형식을 사용합니다.
 
-    [다중 앱 키오스크](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps#configure-a-kiosk-in-microsoft-intune)에는 키오스크 구성이 필요합니다. **추가** 단추를 사용하여 키오스크 구성을 만들거나 기존 키오스크를 선택합니다.
+- **앱의 AUMID(응용 프로그램 사용자 모델 ID)** - 키오스크 앱의 AUMID를 입력합니다. 자세한 내용은 [설치된 앱의 응용 프로그램 사용자 모델 ID 찾기](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)를 참조하세요.
 
-    다중 앱 키오스크 구성에는 다음 설정이 포함됩니다.
+#### <a name="multi-app-kiosks"></a>다중 앱 키오스크
+[다중 앱 키오스크](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps#configure-a-kiosk-in-microsoft-intune)는 허용되는 앱 및 기타 설정을 나열하는 키오스크 구성을 사용합니다. 
 
-    - **키오스크 구성 이름** - 지정된 구성을 식별하는 데 사용되는 이름입니다.
+**추가** 단추를 사용하여 키오스크 구성을 만들거나 기존 구성을 선택합니다. 그런 다음, 다음 설정을 입력합니다.
 
-    - 하나 이상의 **키오스크 앱**은 다음으로 이루어집니다.
+- **키오스크 구성 이름** - 구성을 식별하는 데 사용되는 친숙한 이름을 입력합니다.
 
-        - **앱 유형** - 키오스크 앱 유형을 지정합니다.  지원되는 값은 다음과 같습니다.   
+- **키오스크 앱** - 시작 메뉴에서 사용할 수 있는 앱을 입력합니다. 추가한 앱은 사용자가 열 수 있는 앱만 해당합니다.
 
-            - **Win32 앱** - 기존 데스크톱 앱입니다. 장치 관련 실행 파일의 정규화된 경로 이름이 필요합니다.
+  - **앱 유형** - 키오스크 앱의 유형을 선택합니다.
+    - **Win32 앱** - 기존 데스크톱 앱입니다. 장치 관련 실행 파일의 정규화된 경로 이름이 필요합니다.
+    - **UWP 앱** - 유니버설 Windows 앱입니다. [앱용 AUMID](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)가 필요합니다.
 
-            - **UWP 앱** - 유니버설 Windows 앱입니다. [앱용 AUMID](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)가 필요합니다.
+  - **식별자** - 실행 파일(Win32 앱)의 정규화된 경로 이름 또는 [앱의 AUMID](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)(UWP 앱)를 입력합니다.
 
-        - **앱 식별자** - 실행 파일(Win32 앱)의 정규화된 경로 이름 또는 [앱의 AUMID](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)(UWP 앱)를 지정합니다.
+- **작업 표시줄**: 키오스크에서 작업 표시줄을 **사용**(표시)하도록 선택하거나 **구성되지 않음**(숨김)으로 유지합니다.
 
-    - **작업 표시줄**은 작업 표시줄이 키오스크에 표시되는지(**사용함**) 또는 숨겨지는지(**구성되지 않음**)를 나타냅니다.
+- **시작 메뉴 레이아웃** - 시작 메뉴에 앱이 나타나는 방식을 설명하는 XML 파일을 입력합니다. [시작 레이아웃 사용자 지정 및 내보내기](https://docs.microsoft.com/windows/configuration/customize-and-export-start-layout)에는 몇 가지 지침 및 샘플 XML이 제공됩니다.
 
-    - **시작 메뉴 레이아웃** - [시작 메뉴에 앱이 나타나는](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps#create-xml-file) 방식을 설명하는 XML 파일을 지정합니다.
 
-    - **할당된 사용자** - 키오스크 구성과 연결된 하나 이상의 사용자 계정을 지정합니다. 계정은 장치에 로컬이거나 키오스크 앱과 연결된 Azure AD 계정 로그인일 수 있습니다. 도메인에 가입된 계정을 `domain\\username@tenant.org` 형태로 지정합니다.
+  [다중 앱을 실행하는 Windows 10 키오스크 만들기](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps#create-xml-file)에서는 XML 파일의 사용 및 만들기에 관한 자세한 세부 정보를 제공합니다.
+
+- **할당된 사용자** - 추가한 앱을 사용할 수 있는 사용자 계정을 하나 이상 추가합니다. 계정이 로그인하면 구성에 정의된 앱만 사용할 수 있습니다. 계정은 장치에 로컬이거나 키오스크 앱과 연결된 Azure AD 계정 로그인일 수 있습니다.
+
+    자동 로그온을 사용할 수 있는 공용 환경의 키오스크에서는 최소한의 권한(예: 로컬 표준 사용자 계정)을 지닌 사용자 유형을 사용해야 합니다. 키오스크 모드에 대해 Azure AD(Active Directory) 계정을 구성하려면 `domain\user@tenant.com` 형식을 사용합니다.
 
 ## <a name="windows-defender-antivirus"></a>Windows Defender 바이러스 백신
 
@@ -328,14 +328,11 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
     -   **사용자 정의**
     -   **차단**
 
-
-
 ### <a name="windows-defender-antivirus-exclusions"></a>Windows Defender 바이러스 백신 제외
 
 -   **검색 및 실시간 보호에서 제외할 파일 및 폴더** - 제외 목록에 **C:\Path** 또는 **%ProgramFiles%\Path\filename.exe** 같은 파일과 폴더를 하나 이상 추가합니다. 이러한 파일과 폴더는 실시간 또는 예약된 검색에 포함되지 않습니다.
 -   **검색 및 실시간 보호에서 제외할 파일 확장명** -제외 목록에 **jpg** 또는 **txt**와 같은 하나 이상의 파일 확장명을 추가합니다. 이러한 확장명의 파일은 실시간 또는 예약된 검색에 포함되지 않습니다.
 -   **검색 및 실시간 보호에서 제외할 프로세스** - 제외 목록에 **.exe**, **.com** 또는 **.scr** 형식의 프로세스를 하나 이상 추가합니다. 이러한 프로세스는 실시간 검색 또는 예약된 검색에 포함되지 않습니다.
-
 
 ## <a name="network-proxy"></a>네트워크 프록시
 
@@ -348,9 +345,7 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
     -   **프록시 예외** - 프록시 서버를 사용하지 말아야 하는 URL을 입력합니다. 각각 구분을 위해 세미콜론을 사용하세요.
     -   **로컬 주소에 프록시 서버 사용 안 함** - 인트라넷에서 로컬 주소에 프록시 서버를 사용하지 않으려면 이 옵션을 사용하도록 설정합니다.
 
-
 ## <a name="windows-spotlight"></a>Windows 추천
-
 
 - **Windows 추천** – Windows 10 장치에서 모든 Windows 추천 기능을 차단하려면 이 설정을 사용합니다. 이 설정은 차단하면 다음 설정을 사용할 수 없습니다.
     - **잠금 화면에서 Windows 추천** – Windows 추천이 장치 잠금 화면에 정보를 표시하지 않도록 차단합니다.
@@ -360,7 +355,6 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
     - **알림 센터의 Windows 추천** – 새 앱 또는 보안 콘텐츠와 같은 Windows 추천 제안이 Windows 알림 센터에 표시되지 않도록 차단합니다.
     - **Windows 추천 개인 설정** – Windows 추천이 장치 사용에 따라 결과를 개인 설정할 수 없도록 차단합니다.
     - **Windows 시작 환경** – 새로운 기능이나 업데이트된 기능에 대한 사용자 정보를 보여 주는 Windows 시작 환경을 차단합니다.
-
 
 ## <a name="projection"></a>프로젝션
 
@@ -394,15 +388,3 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 - **메시지 동기화(모바일 전용)** - 어디서나 메시지 주고받기와 문자 메시지 백업 및 복원을 사용하지 않도록 설정합니다.
 - **MMS(모바일 전용)** - 장치에서 MMS 보내기/받기 기능을 사용하지 않도록 설정합니다.
 - **PKI(모바일 전용)** - 장치에서 Rich Communication Services 보내기/받기 기능을 사용하지 않도록 설정합니다.
-
-
-
-
-
-
-
-
-
-
-
-

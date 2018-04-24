@@ -1,25 +1,25 @@
 ---
-title: "IOS 장치 등록 경험 이해"
+title: IOS 장치 등록 경험 이해
 titlesuffix: Microsoft Intune
-description: "iOS 장치의 전체 등록 과정을 안내하여 등록 과정을 알아봅니다."
-keywords: 
+description: iOS 장치의 전체 등록 과정을 안내하여 등록 과정을 알아봅니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 10/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: b595848d-c451-43ab-812d-b22e0170fb7a
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 18a3225ef81d7f13b8656326540e30cf5ee07f1e
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: a31722bbaf43b099c42673e4a807a8e896bf1fd2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="understand-the-users-experience-enrolling-an-ios-device"></a>IOS 장치를 등록하는 사용자의 경험 이해
 

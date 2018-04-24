@@ -1,29 +1,29 @@
 ---
-title: "Microsoft Intune에서 사용 약관 설정"
-titlesuffix: 
-description: "Intune용 회사 포털에서 사용자에게 표시되는 사용 약관을 설정합니다."
-keywords: 
+title: Microsoft Intune에서 사용 약관 설정
+titlesuffix: ''
+description: Intune용 회사 포털에서 사용자에게 표시되는 사용 약관을 설정합니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 4a3a11a8-9c0c-4334-8c6b-6fea4d0a2efb
 ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8fb386948d14fcbd26cffcd1b531b6ae61e9d669
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 550d9c457335f212f0b60c16249e45f22f5baaf5
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="manage-your-companys-terms-and-conditions-for-user-access"></a>사용자 액세스에 대한 회사의 사용 약관 관리
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune 관리자는 사용자가 회사의 사용 약관에 동의해야만 회사 포털을 통해 장치를 등록하고 회사 앱 및 전자 메일 같은 리소스에 액세스하도록 요구할 수 있습니다. 사용 약관의 구성은 선택 사항입니다.
 
@@ -86,7 +86,7 @@ Intune 관리자는 사용자가 회사의 사용 약관에 동의해야만 회�
 
 2. Intune 창에서 **장치 등록**을 선택하고, **사용 약관**을 선택하고, 수정할 사용 약관을 선택한 다음, **속성**을 선택합니다.
 
-4. **속성** 창에서 **사용 약관**을 선택하고 필요에 따라 **제목**, **사용 약관 요약**, **사용 약관**을 수정합니다. 내용을 변경하여 사용자가 새로운 사용 약관에 다시 동의해야 하는 경우 **사용자가 다시 수락하고 버전 번호를 증가시켜야 합니다.**를 클릭합니다.
+4. **속성** 창에서 **사용 약관**을 선택하고 필요에 따라 **제목**, **사용 약관 요약**, **사용 약관**을 수정합니다. 내용을 변경하여 사용자가 새로운 사용 약관에 다시 동의해야 하는 경우 **사용자가 다시 수락하고 버전 번호를 증가시켜야 합니다.** 를 클릭합니다.
 
 4.  **확인**을 선택하고 **저장**을 선택합니다.
 

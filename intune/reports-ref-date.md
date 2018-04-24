@@ -15,11 +15,11 @@ ms.assetid: 6B4BC650-62F7-4049-9DE4-CDECB579B58F
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 121e782b2044063fe05f99f7c8daded9fef9ca4c
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: 48acddf8db9907277889c9c2800febacf58d42f0
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="reference-for-date-entity"></a>날짜 엔터티에 대한 참조
 
@@ -29,23 +29,25 @@ ms.lasthandoff: 03/16/2018
 
 **날짜** 엔터티는 여러 데이터 웨어하우스 엔터티에 걸쳐 참조되는 날짜를 나타냅니다.
 
-| 속성  | 설명 | 예제 |
-|---------|------------|--------|
-| DateKey | 데이터 웨어하우스의 해당 날짜에 대한 고유 식별자 | 20160703 |
-| FullDate | 해당 날짜가 전체 날짜/시간 형식으로 표시됩니다. | 7/3/2016 12:00:00 AM |
-| DayOfWeek | 주중 일수 | 1 |
-| DayOfMonth | 달중 일수 | 3 |
-| DayOfYear | 연중 일수 | 185 |
-| WeekOfYear | 연중 주 | 28 |
-| MonthOfYear | 연중 월 | 7 |
-| CalendarQuarter | 달력 분기 | 3 |
-| CalendarYear | 달력 연도 | 2016 |
-| DateKey | 데이터 웨어하우스의 해당 날짜에 대한 고유 식별자 | 20160703 |
-| FullDate | 해당 날짜가 전체 날짜/시간 형식으로 표시됩니다. | 7/3/2016 12:00:00 AM |
-| DayOfWeek | 주중 일수 | 1 |
-| DayOfMonth | 달중 일수 | 3 |
-| DayOfYear | 연중 일수 | 185 |
-| WeekOfYear | 연중 주 | 28 |
-| MonthOfYear | 연중 월 | 7 |
-| CalendarQuarter | 달력 분기 | 3 |
-| CalendarYear | 달력 연도 | 2016 |
+
+|    속성     |                      설명                       |       예제        |
+|-----------------|--------------------------------------------------------|----------------------|
+|     DateKey     | 데이터 웨어하우스의 해당 날짜에 대한 고유 식별자 |       20160703       |
+|    FullDate     |    해당 날짜가 전체 날짜/시간 형식으로 표시됩니다.     | 7/3/2016 12:00:00 AM |
+|    DayOfWeek    |                      주중 일수                       |          1           |
+|   DayOfMonth    |                      달중 일수                      |          3           |
+|    DayOfYear    |                      연중 일수                       |         185          |
+|   WeekOfYear    |                      연중 주                      |          28          |
+|   MonthOfYear   |                   연중 월                    |          7           |
+| CalendarQuarter |                    달력 분기                    |          3           |
+|  CalendarYear   |                     달력 연도                      |         2016         |
+|     DateKey     | 데이터 웨어하우스의 해당 날짜에 대한 고유 식별자 |       20160703       |
+|    FullDate     |    해당 날짜가 전체 날짜/시간 형식으로 표시됩니다.     | 7/3/2016 12:00:00 AM |
+|    DayOfWeek    |                      주중 일수                       |          1           |
+|   DayOfMonth    |                      달중 일수                      |          3           |
+|    DayOfYear    |                      연중 일수                       |         185          |
+|   WeekOfYear    |                      연중 주                      |          28          |
+|   MonthOfYear   |                   연중 월                    |          7           |
+| CalendarQuarter |                    달력 분기                    |          3           |
+|  CalendarYear   |                     달력 연도                      |         2016         |
+

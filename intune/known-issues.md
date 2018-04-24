@@ -1,33 +1,31 @@
 ---
-title: "Microsoft Intune의 알려진 문제"
-titlesuffix: Microsoft Intune
-description: "Microsoft Intune의 알려진 문제에 대해 알아봅니다."
-keywords: 
+title: Microsoft Intune - Azure의 알려진 문제 | Microsoft Docs
+description: Microsoft Intune의 알려진 문제에 대해 알아봅니다.
+keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 03/08/2018
+ms.date: 03/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 02efc7e2369c590e2d21ac8c27db54ffbaae38c1
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: d0a8a189e708ed140c3cda987a20cebb562fdb34
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Microsoft Intune의 알려진 문제
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-
-이 항목을 사용하여 Microsoft Intune의 알려진 문제를 파악할 수 있습니다.
+이 아티클을 사용하여 Microsoft Intune의 알려진 문제를 파악할 수 있습니다.
 
 여기에 나열되지 않은 버그를 보고하려면 [지원 요청을 시작](get-support.md)하세요.
 
@@ -45,7 +43,7 @@ Intune에서 Azure Portal로 마이그레이션할 때 **All Users - b0b08746-4d
 
 ### <a name="status-blades-for-migrated-policies-do-not-work"></a>마이그레이션한 정책에 대한 상태 블레이드가 작동하지 않음
 
-클래식 포털에서 마이그레이션한 정책의 상태 정보는 Azure Portal에서 확인할 수 없습니다. 그러나 클래식 포털에서는 이러한 정책에 대한 보고서를 계속 확인할 수 있습니다. 마이그레이션한 구성 정책에 대한 상태 정보를 확인하려면 Azure Portal에서 정책을 다시 만드세요.
+Azure 클래식 포털에서 마이그레이션한 정책의 상태 정보는 Azure Portal에서 확인할 수 없습니다. 그러나 클래식 포털에서는 이러한 정책에 대한 보고서를 계속 확인할 수 있습니다. 마이그레이션한 구성 정책에 대한 상태 정보를 확인하려면 Azure Portal에서 정책을 다시 만드세요.
 
 ## <a name="apps"></a>앱
 
@@ -66,9 +64,8 @@ Intune에 등록되지 않은 장치의 경우 Windows Information Protection �
 **고급 설정** > **네트워크 경계** > **보호된 도메인 추가**를 사용하여 도메인을 더 추가하는 경우 정책을 저장할 수 없습니다. 표시되는 오류 메시지는 조만간 보다 정확하게 변경될 예정입니다.
 
 ### <a name="cisco-anyconnect-vpn-client-support"></a>Cisco AnyConnect VPN 클라이언트 지원
+Cisco AnyConnect VPN 클라이언트(4.0.07072)의 최신 릴리스는 현재 Intune과 호환되지 않습니다. 향후 Intune 업데이트에는 이 VPN 클라이언트 버전과의 호환성이 포함됩니다. 그때까지 Cisco AnyConnect VPN 클라이언트를 업데이트하지 말고 기존 버전을 계속 사용하는 것이 좋습니다.
 
-Cisco AnyConnect VPN 클라이언트(4.0.07072)의 최신 릴리스는 현재 Intune과 호환되지 않습니다.
-향후 Intune 업데이트에는 이 VPN 클라이언트 버전과의 호환성이 포함됩니다. 그때까지 Cisco AnyConnect VPN 클라이언트를 업데이트하지 말고 기존 버전을 계속 사용하는 것이 좋습니다.
 
 ### <a name="using-the-numeric-password-type-with-macos-sierra-devices"></a>macOS Sierra 장치에서 숫자 암호 유형 사용
 

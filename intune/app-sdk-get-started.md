@@ -1,24 +1,24 @@
 ---
-title: "Microsoft Intune 앱 SDK 시작"
-description: "Microsoft Intune을 통해 모바일 앱을 MAM(모바일 응용 프로그램 관리)에 사용할 수 있도록 빠르게 설정할 수 있습니다."
-keywords: 
+title: Microsoft Intune 앱 SDK 시작
+description: Microsoft Intune을 통해 모바일 앱을 MAM(모바일 응용 프로그램 관리)에 사용할 수 있도록 빠르게 설정할 수 있습니다.
+keywords: ''
 author: Erikre
 manager: dougeby
 ms.author: erikre
 ms.date: 01/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5827c82d84be45020aa2bdec16c92e0296431cf8
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: e4437e3dbf7e942f084a0c441af7946b53c6d54d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Microsoft Intune 앱 SDK 시작
 
@@ -69,7 +69,7 @@ Microsoft에서는 사용자의 설문지 응답에 명시된 메일 주소를 �
 
 Xamarin 또는 Cordova 앱의 경우 다음 SDK 변형을 사용하세요.
 
-* [Intune 앱 SDK Xamarin 구성 요소](https://github.com/msintuneappsdk/intune-app-sdk-xamarin)
+* [Intune 앱 SDK Xamarin 바인딩](https://github.com/msintuneappsdk/intune-app-sdk-xamarin)
 * [Intune 앱 SDK Cordova 플러그 인](https://github.com/msintuneappsdk/cordova-plugin-ms-intune-mam)
 
 Microsoft 리포지토리에서 분기하고 끌어오는 데 사용할 수 있는 GitHub 계정을 등록하는 것이 좋습니다. GitHub에서는 개발자가 Microsoft 제품 팀과 커뮤니케이션하고, 문제를 개설하고 빠른 응답을 받으며, 릴리스 정보를 확인하고, Microsoft에 피드백을 제공할 수 있도록 하고 있습니다. Intune 앱 SDK GitHub에 대해 궁금한 사항은 msintuneappsdk@microsoft.com으로 문의해 주세요.
@@ -84,7 +84,7 @@ Microsoft 리포지토리에서 분기하고 끌어오는 데 사용할 수 있�
 
 * **[Intune 앱 SDK Cordova 플러그 인 가이드](app-sdk-cordova.md)**: 이 문서를 사용하면 Intune 앱 보호 정책용 Cordova를 사용하여 iOS 및 Android 앱을 쉽게 빌드할 수 있습니다.
 
-* **[Intune 앱 SDK Xamarin 구성 요소 가이드](app-sdk-xamarin.md)**: 이 문서를 사용하면 Intune 앱 보호 정책용 Cordova를 사용하여 iOS 및 Android 앱을 쉽게 빌드할 수 있습니다.
+* **[Intune 앱 SDK Xamarin 바인딩 가이드](app-sdk-xamarin.md)**: 이 문서를 사용하면 Intune 앱 보호 정책용 Xamarin을 사용하여 iOS 및 Android 앱을 쉽게 빌드할 수 있습니다.
 
 
 
@@ -142,7 +142,7 @@ Intune|iOS|Android|설명|
 
 - **CFBundleShortVersionString**  
     번들의 릴리스 버전 번호를 지정합니다. 이 번호는 앱의 릴리스된 버전을 식별합니다. 최종 사용자가 앱을 참조하는 데 사용되는 번호입니다.
- - **CFBundleVersion**  
+  - **CFBundleVersion**  
     번들의 빌드 버전으로, 번들의 반복을 식별합니다. 번호는 릴리스 또는 릴리스되지 않은 번들을 식별할 수도 있습니다. 번호는 앱 검색에 사용됩니다.
 
 #### <a name="android"></a>Android

@@ -14,15 +14,15 @@ ms.assetid: d98aceff-eb35-4e3e-8e40-5f300e7335cc
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e5070052c0d4cce3cfd81a7bae259bc7dfb22e7f
-ms.sourcegitcommit: e6319ff186d969da34bd19c9730ba003d6cce353
+ms.openlocfilehash: 3d46960e6ea7e2ae9bed6c0016ddc309bd15f572
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-a-device-profile-in-microsoft-intune"></a>Microsoft Intune에서 장치 프로필 만들기
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## <a name="create-the-profile"></a>프로필 만들기
 1. [Azure Portal](https://portal.azure.com)에서 **모든 서비스**를 선택하고 **Microsoft Intune**을 검색합니다.
@@ -31,33 +31,33 @@ ms.lasthandoff: 03/20/2018
 
 3. 다음 속성을 입력합니다.
 
-    - **이름**: 새 프로필에 대한 설명이 포함된 이름을 입력합니다.
-    - **설명**: 설정에 대한 설명을 입력합니다. 선택 사항이지만 입력하는 것이 좋습니다.
-    - **플랫폼**: 플랫폼 형식을 선택 합니다.  
+   - **이름**: 새 프로필에 대한 설명이 포함된 이름을 입력합니다.
+   - **설명**: 설정에 대한 설명을 입력합니다. 선택 사항이지만 입력하는 것이 좋습니다.
+   - **플랫폼**: 플랫폼 형식을 선택 합니다.  
 
-        - **OWA(Outlook Web Access)**
-        - **Android for Work**
-        - **Android**
-        - **macOS**
-        - **Windows Phone 8.1**
-        - **Windows 8.1 이상**
-        - **Windows 10 이상**
+       - **OWA(Outlook Web Access)**
+       - **Android for Work**
+       - **Android**
+       - **macOS**
+       - **Windows Phone 8.1**
+       - **Windows 8.1 이상**
+       - **Windows 10 이상**
 
-    - **프로필 유형** - 만들려는 유형을 선택합니다. 목록은 선택한 플랫폼에 따라 달라집니다.
-    - **설정** - 다음 항목에서는 각 프로필 유형의 설정에 대해 설명합니다.
+   - **프로필 유형** - 만들려는 유형을 선택합니다. 목록은 선택한 플랫폼에 따라 달라집니다.
+   - **설정** - 다음 항목에서는 각 프로필 유형의 설정에 대해 설명합니다.
 
-        -  [장치 기능 설정](device-features-configure.md)
-        -  [장치 제한 설정](device-restrictions-configure.md)
-        -  [메일 설정](email-settings-configure.md)
-        -  [VPN 설정](vpn-settings-configure.md)
-        -  [Wi-Fi 설정](wi-fi-settings-configure.md)
-        -  [Windows 10 버전 업그레이드 설정](edition-upgrade-configure-windows-10.md)
-        -  [인증서 설정](certificates-configure.md)
-        -  [Windows Information Protection 설정](windows-information-protection-configure.md)
-        -  [교육 설정](education-settings-configure.md)
-        -  [사용자 지정 설정](custom-settings-configure.md)
+       -  [장치 기능 설정](device-features-configure.md)
+       -  [장치 제한 설정](device-restrictions-configure.md)
+       -  [메일 설정](email-settings-configure.md)
+       -  [VPN 설정](vpn-settings-configure.md)
+       -  [Wi-Fi 설정](wi-fi-settings-configure.md)
+       -  [Windows 10 버전 업그레이드 설정](edition-upgrade-configure-windows-10.md)
+       -  [인증서 설정](certificates-configure.md)
+       -  [Windows Information Protection 설정](windows-information-protection-configure.md)
+       -  [교육 설정](education-settings-configure.md)
+       -  [사용자 지정 설정](custom-settings-configure.md)
 
-    ![프로필 만들기 스크린샷](./media/create-device-profile.png)
+     ![프로필 만들기 스크린샷](./media/create-device-profile.png)
 
 4. 완료된 경우 **만들기**를 선택합니다.
 

@@ -1,28 +1,28 @@
 ---
-title: "Microsoft Intune 클래식 포털 아카이브의 새로운 기능"
-description: "Microsoft Intune에 대한 새로운 기능 공지"
-keywords: 
+title: Microsoft Intune 클래식 포털 아카이브의 새로운 기능
+description: Microsoft Intune에 대한 새로운 기능 공지
+keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
 ms.date: 06/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ed2db991-4729-49a7-a1e6-be2ffa0d03d1
 ROBOTS: noindex,nofollow
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: edbb76e0eb4a1157e70a24c47b960ef138a0f876
-ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
+ms.openlocfilehash: 5ba8d7940f9c02a1f01a115e16be331bb4fc2fcd
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whats-new-in-the-intune-classic-portal---previous-months"></a>Intune 클래식 포털의 새로운 기능 - 지난 달
 
-[!INCLUDE[classic-portal](./includes/classic-portal.md)]
+[!INCLUDE [classic-portal](./includes/classic-portal.md)]
 
 이 페이지에는 Intune 클래식 포털에 대해 [새로운 기능 페이지](whats-new.md)에서 이전에 발표되었던 새로운 기능과 공지가 나와 있습니다.
 
@@ -359,7 +359,7 @@ __Intune 앱 SDK Xamarin 구성 요소를 통해 별도의 등록 없이 MAM 사
 
 __이제 Symantec 서명 인증서를 업로드할 때 서명된 Windows Phone 8 회사 포털이 필요하지 않음__ Symantec 서명 인증서를 업로드할 때 서명된 Windows Phone 8 회사 포털 앱이 더 이상 필요하지 않습니다. 인증서는 개별적으로 업로드할 수 있습니다.
 
-###<a name="deprecations"></a>지원 중단
+### <a name="deprecations"></a>지원 중단
 
 __Windows Phone 8 회사 포털에 대한 지원__ 이제 Windows Phone 8 회사 포털은 지원되지 않습니다. Windows Phone 8 및 WinRT 플랫폼 지원이 2016년 10월에 중단되었습니다. Windows 8 회사 포털 지원도 2016년 10월에 중단되었습니다.
 

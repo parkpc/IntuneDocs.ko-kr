@@ -1,29 +1,29 @@
 ---
-title: "메일 및 Office 365 보호"
-description: "이 항목에서는 SharePoint Online 및 다른 서비스에서 호환 장치만 회사 전자 메일 및 회사 데이터에 액세스하도록 하는 데 조건부 방식을 사용하는 방법을 설명합니다."
-keywords: 
+title: 메일 및 Office 365 보호
+description: 이 항목에서는 SharePoint Online 및 다른 서비스에서 호환 장치만 회사 전자 메일 및 회사 데이터에 액세스하도록 하는 데 조건부 방식을 사용하는 방법을 설명합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 01/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ab45292734c39d3eaf4a5f0403cbff6e77d9d7e6
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: e121a3aaf4988bd92c36eb79131b2205263fb309
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="protect-access-to-email-office-365-and-other-services-with-microsoft-intune"></a>Microsoft Intune을 사용한 메일, Office 365 및 기타 서비스에 대한 액세스 보호
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 EMS(Enterprise Mobility + Security) 조건부 액세스를 사용하여 회사 메일, **Exchange 온-프레미스**, **Exchange Online**, **Exchange Online Dedicated**, **SharePoint Online**, **비즈니스용 Skype Online** 등의 Office 365 서비스, 기타 서비스에 대한 액세스를 보호할 수 있습니다. 이 기능을 사용하면 회사 메일 및 Office 365 서비스에 대한 액세스가 Intune 관리 콘솔 또는 Azure 클래식 포털에서 설정하는 조건부 액세스 규칙을 준수하는 장치로 제한할 수 있습니다.
 ## <a name="how-does-conditional-access-work"></a>조건부 액세스는 어떻게 작동합니까?
@@ -72,12 +72,12 @@ Microsoft Intune과 Azure AD(Azure Active Directory) Premium이 원활하게 함
 
 2. [장치 준수 정책 만듭니다](create-a-device-compliance-policy-in-microsoft-intune.md).
 
-2.  다음 Microsoft 클라우드 서비스/제품 중 하나에 대한 조건부 액세스 정책을 만듭니다.
+3. 다음 Microsoft 클라우드 서비스/제품 중 하나에 대한 조건부 액세스 정책을 만듭니다.
 
-  - [Exchange Online에 대해 조건부 액세스 정책 만들기](restrict-access-to-exchange-online-with-microsoft-intune.md)
-  - [Exchange 온-프레미스에 대해 조건부 액세스 정책 만들기](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
-  - [새 Exchange Online Dedicated에 대해 조건부 액세스 정책 만들기](restrict-access-to-exchange-online-with-microsoft-intune.md)
-  - [레거시 Exchange Online Dedicated에 대해 조건부 액세스 정책 만들기](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
-  - [SharePoint Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
-  - [비즈니스용 Skype Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
-  - [Dynamics CRM Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
+   - [Exchange Online에 대해 조건부 액세스 정책 만들기](restrict-access-to-exchange-online-with-microsoft-intune.md)
+   - [Exchange 온-프레미스에 대해 조건부 액세스 정책 만들기](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
+   - [새 Exchange Online Dedicated에 대해 조건부 액세스 정책 만들기](restrict-access-to-exchange-online-with-microsoft-intune.md)
+   - [레거시 Exchange Online Dedicated에 대해 조건부 액세스 정책 만들기](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
+   - [SharePoint Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
+   - [비즈니스용 Skype Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
+   - [Dynamics CRM Online에 대한 조건부 액세스 정책 만들기](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)

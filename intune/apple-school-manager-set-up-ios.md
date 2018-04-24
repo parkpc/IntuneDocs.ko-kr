@@ -1,29 +1,29 @@
 ---
-title: "IOS 장치용 Apple School Manager 프로그램 등록 설정"
+title: IOS 장치용 Apple School Manager 프로그램 등록 설정
 titlesuffix: Microsoft Intune
-description: "Intune을 사용하여 회사 소유 iOS 장치에 대해 Apple School Manager 프로그램 등록을 설정하는 방법을 알아봅니다."
-keywords: 
+description: Intune을 사용하여 회사 소유 iOS 장치에 대해 Apple School Manager 프로그램 등록을 설정하는 방법을 알아봅니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d3a599ff1dff3e27214dfcca694f6b97333f370a
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: afcca0cc1f7786f468856f2aacefc0b8168b4934
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-ios-device-enrollment-with-apple-school-manager"></a>Apple School Manager를 통해 iOS 장치 등록 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 > [!NOTE]
 > ### <a name="temporary-user-interface-differences"></a>임시 사용자 인터페이스 차이점
@@ -61,7 +61,7 @@ Apple School Manager 등록을 활성화하려면 Intune과 Apple School Manager
 **1단계. Apple 토큰을 만드는 데 필요한 Intune 공개 키 인증서를 다운로드합니다.**<br>
 1. [Azure 포털의 Intune에서](https://aka.ms/intuneportal)**장치 등록**을 선택하고 **등록 프로그램 토큰**을 선택합니다.
 
-  ![공개 키를 다운로드하기 위한 Apple 인증서 작업 영역의 등록 프로그램 토큰 창](./media/enrollment-program-token-download.png)
+   ![공개 키를 다운로드하기 위한 Apple 인증서 작업 영역의 등록 프로그램 토큰 창](./media/enrollment-program-token-download.png)
 
 2. **등록 프로그램 토큰** 블레이드에서 **공개 키 다운로드**를 선택하여 암호화 키(.pem) 파일을 다운로드하고 로컬로 저장합니다. .pem 파일은 Apple School Manager 포털에서 트러스트 관계 인증서를 요청하는 데 사용됩니다.
 
@@ -95,20 +95,20 @@ Apple School Manager 등록을 활성화하려면 Intune과 Apple School Manager
 4. **등록 프로필 만들기** 블레이드에서 Intune에 표시되는 프로필에 대한 **이름** 및 **설명**을 입력합니다.
 5. **사용자 선호도**에서 이 프로필을 가진 장치가 사용자 선호도를 사용하여 등록되는지 사용하지 않고 등록되는지 선택합니다.
 
- - **사용자 선호도를 사용하여 등록** - 설정 중에 사용자를 사용하여 장치를 등록합니다.
+   - **사용자 선호도를 사용하여 등록** - 설정 중에 사용자를 사용하여 장치를 등록합니다.
 
-  Apple School Manager의 공유 iPad 모드에서는 사용자가 사용자 선호도를 사용하지 않고 등록해야 합니다.
+   Apple School Manager의 공유 iPad 모드에서는 사용자가 사용자 선호도를 사용하지 않고 등록해야 합니다.
 
- - **사용자 선호도를 사용하지 않고 등록** - 공유 장치와 같이 단일 사용자로 등록되지 않은 장치를 선택합니다. 로컬 사용자 데이터에 액세스하지 않고도 작업을 수행하는 장치에 사용합니다. 회사 포털 앱과 같은 앱이 작동하지 않습니다.
+   - **사용자 선호도를 사용하지 않고 등록** - 공유 장치와 같이 단일 사용자로 등록되지 않은 장치를 선택합니다. 로컬 사용자 데이터에 액세스하지 않고도 작업을 수행하는 장치에 사용합니다. 회사 포털 앱과 같은 앱이 작동하지 않습니다.
 
 6. **장치 관리 설정**을 선택합니다. 이러한 항목은 활성화 중에 설정되며, 변경하려면 장치를 초기화해야 합니다. 다음 프로필 설정을 구성한 후 **저장**을 선택합니다.
 
-  ![관리 모드 선택](./media/enrollment-program-profile-mode.png)
+   ![관리 모드 선택](./media/enrollment-program-profile-mode.png)
 
-    - **감독됨** - 더 많은 관리 옵션을 사용할 수 있으며 기본적으로 활성화 잠금이 해제된 관리 모드입니다. 이 확인란을 비워 두면 관리 기능이 제한됩니다.
+   - **감독됨** - 더 많은 관리 옵션을 사용할 수 있으며 기본적으로 활성화 잠금이 해제된 관리 모드입니다. 이 확인란을 비워 두면 관리 기능이 제한됩니다.
 
      - **등록 잠김** - (관리 모드 = 감독됨이어야 함) 관리 프로필 제거를 허용하는 iOS 설정이 해제됩니다. 이 확인란을 비워 두면 설정 메뉴에서 관리 프로필을 제거할 수 있습니다.
-   - **공유 iPad** - (**사용자 선호도를 사용하지 않고 등록** 및 감독됨 모드를 사용해야 함) 여러 사용자가 관리되는 Apple ID를 사용하여 등록된 iPad에 로그온할 수 있습니다. 관리되는 Apple ID는 Apple School Manager 포털에서 작성됩니다. [공유 iPad](education-settings-configure-ios-shared.md)에 대해 자세히 알아보세요. [Apple의 공유된 iPad 요구 사항](https://help.apple.com/classroom/ipad/2.0/#/cad7e2e0cf56)도 검토해야 합니다.
+     - **공유 iPad** - (**사용자 선호도를 사용하지 않고 등록** 및 감독됨 모드를 사용해야 함) 여러 사용자가 관리되는 Apple ID를 사용하여 등록된 iPad에 로그온할 수 있습니다. 관리되는 Apple ID는 Apple School Manager 포털에서 작성됩니다. [공유 iPad](education-settings-configure-ios-shared.md)에 대해 자세히 알아보세요. [Apple의 공유된 iPad 요구 사항](https://help.apple.com/classroom/ipad/2.0/#/cad7e2e0cf56)도 검토해야 합니다.
 
    >[!NOTE]
    >**사용자 선호도**가 **사용자 선호도 사용**으로 설정되거나 **감독** 모드가 **꺼짐**으로 설정된 경우 등록 프로필에 대해 공유 iPad 모드가 사용되지 않습니다.
@@ -151,12 +151,12 @@ Apple School Manager 등록을 활성화하려면 Intune과 Apple School Manager
 
 1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **Apple 등록** > **등록 프로그램 장치** > **동기화**를 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
 
-  ![등록 프로그램 장치 노드 선택 및 동기화 링크 선택](./media/enrollment-program-device-sync.png)
+   ![등록 프로그램 장치 노드 선택 및 동기화 링크 선택](./media/enrollment-program-device-sync.png)
 2. **동기화** 블레이드에서 **동기화 요청**을 선택합니다. 진행률 표시줄에 동기화를 다시 요청하기 전에 대기해야 하는 시간이 표시됩니다.
 
-  ![동기화 요청 링크를 선택하는 동기화 블레이드](./media/enrollment-program-device-request-sync.png)
+   ![동기화 요청 링크를 선택하는 동기화 블레이드](./media/enrollment-program-device-request-sync.png)
 
-  허용 가능한 트래픽에 대한 Apple의 약관을 준수하기 위해 Intune에서는 다음과 같은 제한 사항을 적용합니다.
+   허용 가능한 트래픽에 대한 Apple의 약관을 준수하기 위해 Intune에서는 다음과 같은 제한 사항을 적용합니다.
    -    전체 동기화는 7일마다 한 번씩만 실행할 수 있습니다. 전체 동기화 중 Intune은 Apple에서 일련 번호가 이전에 동기화되었는지 여부를 Intune에 할당한 모든 일련 번호를 새로 고칩니다. 전체 동기화를 이전 전체 동기화의 7일 이내에 시도하는 경우 Intune은 Intune에 나열되지 않은 일련 번호만 새로 고칩니다.
    -    모든 동기화 요청은 완료하는 데 15분이 주어집니다. 이 시간 동안 또는 요청이 성공될 때까지 **동기화** 단추는 비활성화됩니다.
 
@@ -169,15 +169,15 @@ Intune에서 관리하는 Apple School Manager 장치를 등록하려면 등록 
 1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **Apple 등록**을 선택한 다음, **등록 프로그램 프로필**을 선택합니다.
 2. **등록 프로그램 프로필** 목록에서 장치에 할당할 프로필을 선택한 다음 **장치 할당**을 선택합니다.
 
- ![할당이 선택된 장치 할당입니다.](./media/enrollment-program-device-assign.png)
+   ![할당이 선택된 장치 할당입니다.](./media/enrollment-program-device-assign.png)
 
 3. **할당**을 선택한 다음 이 프로필을 할당할 Apple School Manager 장치를 선택합니다. 다음 기준을 사용하여 필터링하면 사용 가능한 장치를 확인할 수 있습니다.
-  - **할당되지 않음**
-  - **임의**
-  - **&lt;프로필 이름&gt;**
+   - **할당되지 않음**
+   - **임의**
+   - **&lt;프로필 이름&gt;**
 4. 프로필을 할당할 장치를 선택합니다. 열 위의 확인란을 사용하면 나열된 장치를 1,000개까지 선택할 수 있습니다. **할당**을 클릭합니다. 1,000개보다 많은 장치를 등록하려면 모든 장치에 등록 프로필이 할당될 때까지 할당 단계를 반복합니다.
 
-  ![Intune에서 등록 프로그램 프로필을 할당하는 데 사용되는 할당 단추](media/dep-profile-assignment.png)
+   ![Intune에서 등록 프로그램 프로필을 할당하는 데 사용되는 할당 단추](media/dep-profile-assignment.png)
 
 ## <a name="distribute-devices-to-users"></a>사용자에게 장치 배포
 

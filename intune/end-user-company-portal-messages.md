@@ -1,28 +1,28 @@
 ---
-title: "장치에서 사용자가 볼 수 있는 회사 포털 메시지"
+title: 장치에서 사용자가 볼 수 있는 회사 포털 메시지
 titlesuffix: Microsoft Intune
-description: "최종 사용자가 회사 포털에서 볼 수 있는 다양한 메시지를 이해합니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+description: 최종 사용자가 회사 포털에서 볼 수 있는 다양한 메시지를 이해합니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 03/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 3df993aa-48c5-4799-b68d-c85fe4f7b02c
 ms.reviewer: aanavath
 ms.suite: ems
-ms.openlocfilehash: e78d43cf1cb96575ebc8d8143b7b4fc1103a9bd1
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 3ed729e437fcdbc4352bf5fa8ceada4ddf336708
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="help-end-users-understand-company-portal-app-messages"></a>최종 사용자가 회사 포털 앱 메시지를 이해할 수 있도록 지원
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 > [!NOTE]
 > 다음 정보는 Android 6.0 이상 장치에만 적용됩니다.
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/02/2018
 ## <a name="allow-company-portal-to-make-and-manage-phone-calls"></a>회사 포털에서 통화를 하고 전화 통화를 관리하도록 허용하시겠습니까?
 
 ### <a name="where-it-appears"></a>표시되는 곳
-**회사 포털에서 통화를 하고 전화 통화를 관리하도록 허용하시겠습니까?**라는 메시지는 사용자가 장치를 등록하는 동안 회사 포털 앱에서 **등록**을 탭하면 표시됩니다.
+**회사 포털에서 통화를 하고 전화 통화를 관리하도록 허용하시겠습니까?** 라는 메시지는 사용자가 장치를 등록하는 동안 회사 포털 앱에서 **등록**을 탭하면 표시됩니다.
 
 ### <a name="what-it-means"></a>의미
 이 메시지를 수락하면 장치의 전화 및 IMEI 번호를 Intune 서비스에 보낼 수 있습니다. 이러한 번호는 관리 콘솔의 __하드웨어__ 페이지에 표시됩니다.
@@ -58,7 +58,7 @@ ms.lasthandoff: 03/02/2018
 ## <a name="allow-company-portal-to-access-your-contacts"></a>회사 포털에 연락처에 대한 액세스를 허용하시겠습니까?
 
 ### <a name="where-it-appears"></a>표시되는 곳
-**회사 포털에서 연락처에 액세스하도록 허용하시겠습니까?**라는 메시지는 사용자가 장치를 등록하는 동안 회사 포털 앱에서 **등록**을 탭하면 표시됩니다.
+**회사 포털에서 연락처에 액세스하도록 허용하시겠습니까?** 라는 메시지는 사용자가 장치를 등록하는 동안 회사 포털 앱에서 **등록**을 탭하면 표시됩니다.
 
 ### <a name="what-it-means"></a>의미
 Intune이 회사 계정을 만들어 해당 장치에 등록된 사용자의 Azure Active Directory ID를 관리하도록 허용하려면 이 메시지에 동의합니다.

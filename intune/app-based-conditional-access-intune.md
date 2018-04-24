@@ -1,28 +1,28 @@
 ---
-title: "Intune을 사용하는 앱 기반 조건부 액세스"
-description: "Intune을 사용하는 앱 기반 조건부 액세스 작동 방식에 대해 알아봅니다."
-keywords: 
+title: Intune을 사용하는 앱 기반 조건부 액세스
+description: Intune을 사용하는 앱 기반 조건부 액세스 작동 방식에 대해 알아봅니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: b399fba0-5dd4-4777-bc9b-856af038ec41
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 604eb86e6ae712bac360ecf45dd8f20e611bc52a
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 35d7be91201f8cf4fc3016363770b65bcea9ed72
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="app-based-conditional-access-with-intune"></a>Intune을 사용하는 앱 기반 조건부 액세스
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 [Intune 앱 보호 정책](app-protection-policy.md)을 사용하면 Intune에 등록된 장치에서 회사 데이터를 보호하는 데 도움이 됩니다. Intune에서 관리를 위해 등록되지 않은 직원 소유 장치에서 앱 보호 정책을 사용할 수도 있습니다. 이 경우 회사에서 장치를 관리하지 않더라도 여전히 회사 데이터와 리소스가 보호되고 있음을 확인해야 합니다.
 
@@ -56,29 +56,29 @@ Microsoft Outlook 앱만 Exchange Online에 액세스할 수 있도록 하려는
 
 ![순서도에 예시된 앱 기반 조건부 액세스 프로세스](./media/ca-intune-common-ways-3.png)
 
-1.  사용자가 Outlook 앱에서 Azure AD에 인증을 시도합니다.
+1. 사용자가 Outlook 앱에서 Azure AD에 인증을 시도합니다.
 
-2.  사용자가 처음으로 인증을 시도할 때 앱 스토어로 리디렉션되며, 브로커 앱을 설치하라는 메시지가 표시됩니다. 브로커 앱은 iOS의 경우 Microsoft Authenticator, Android 장치의 경우 Microsoft 회사 포털일 수 있습니다.
+2. 사용자가 처음으로 인증을 시도할 때 앱 스토어로 리디렉션되며, 브로커 앱을 설치하라는 메시지가 표시됩니다. 브로커 앱은 iOS의 경우 Microsoft Authenticator, Android 장치의 경우 Microsoft 회사 포털일 수 있습니다.
 
- 사용자가 기본 전자 메일 앱을 사용하려고 하면 앱 스토어로 리디렉션되며, Outlook 앱을 설치해야 합니다.
+   사용자가 기본 전자 메일 앱을 사용하려고 하면 앱 스토어로 리디렉션되며, Outlook 앱을 설치해야 합니다.
 
-3.  장치에 브로커 앱이 설치됩니다.
+3. 장치에 브로커 앱이 설치됩니다.
 
-4.  브로커 앱에서 Azure AD 등록 프로세스를 시작하며, 이 프로세스에서 Azure AD에 장치 레코드를 만듭니다. 이 프로세스는 MDM(모바일 장치 관리) 등록 프로세스와는 다르지만 조건부 액세스 정책을 장치에 적용하려면 이 레코드가 필요합니다.
+4. 브로커 앱에서 Azure AD 등록 프로세스를 시작하며, 이 프로세스에서 Azure AD에 장치 레코드를 만듭니다. 이 프로세스는 MDM(모바일 장치 관리) 등록 프로세스와는 다르지만 조건부 액세스 정책을 장치에 적용하려면 이 레코드가 필요합니다.
 
-5.  브로커 앱이 앱의 ID를 확인합니다. 앱이 사용자가 사용할 수 있도록 권한이 부여된 앱인지 브로커 앱이 유효성을 검사할 수 있는 보안 계층이 있습니다.
+5. 브로커 앱이 앱의 ID를 확인합니다. 앱이 사용자가 사용할 수 있도록 권한이 부여된 앱인지 브로커 앱이 유효성을 검사할 수 있는 보안 계층이 있습니다.
 
-6.  브로커 앱은 사용자 인증 프로세스의 일환으로 Azure AD에 앱 클라이언트 ID를 보내서 해당 앱이 정책으로 승인된 목록에 있는지를 확인합니다.
+6. 브로커 앱은 사용자 인증 프로세스의 일환으로 Azure AD에 앱 클라이언트 ID를 보내서 해당 앱이 정책으로 승인된 목록에 있는지를 확인합니다.
 
-7.  Azure AD에서 사용자가 인증을 하고 정책으로 승인된 목록을 기반으로 앱을 사용하도록 허용합니다. 앱이 목록에 없으면 Azure AD는 앱 액세스를 거부합니다.
+7. Azure AD에서 사용자가 인증을 하고 정책으로 승인된 목록을 기반으로 앱을 사용하도록 허용합니다. 앱이 목록에 없으면 Azure AD는 앱 액세스를 거부합니다.
 
-8.  Outlook 앱이 Outlook 클라우드 서비스와 통신을 하여 Exchange Online과의 통신을 시작합니다.
+8. Outlook 앱이 Outlook 클라우드 서비스와 통신을 하여 Exchange Online과의 통신을 시작합니다.
 
-9.  Outlook 클라우드 서비스는 Azure AD와 통신을 하여 사용자에 대한 Exchange Online 서비스 액세스 토큰을 검색합니다.
+9. Outlook 클라우드 서비스는 Azure AD와 통신을 하여 사용자에 대한 Exchange Online 서비스 액세스 토큰을 검색합니다.
 
-10.  Outlook 앱이 Exchange Online과 통신을 하여 사용자의 회사 전자 메일을 검색합니다.
+10. Outlook 앱이 Exchange Online과 통신을 하여 사용자의 회사 전자 메일을 검색합니다.
 
-11.  회사 전자 메일이 사용자의 사서함에 배달됩니다.
+11. 회사 전자 메일이 사용자의 사서함에 배달됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 [앱 기반 조건부 액세스 정책 만들기](app-based-conditional-access-intune-create.md)

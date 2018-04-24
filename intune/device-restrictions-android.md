@@ -1,28 +1,28 @@
 ---
-title: "Android에 대한 Microsoft Intune 장치 제한 설정"
-titlesuffix: 
-description: "Android를 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
-keywords: 
+title: Android에 대한 Microsoft Intune 장치 제한 설정
+titlesuffix: ''
+description: Android를 실행하는 장치에서 장치 설정 및 기능을 제어하는 데 사용할 수 있는 Intune 설정을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.reviewer: ayesham, chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f938967951045d24ae65315b3b4d40749c1bc20f
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 77942ef6a5f25708ce43910cde94133e174b4731
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-android-and-samsung-knox-standard-device-restriction-settings"></a>Microsoft Intune Android 및 Samsung Knox Standard 장치 제한 설정 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이 아티클에서는 Android를 실행하는 장치에 대해 구성할 수 있는 모든 Microsoft Intune 장치 제한 설정을 보여줍니다.
 
@@ -93,7 +93,7 @@ ms.lasthandoff: 03/08/2018
 
 앱 설치 페이지를 열고 클립보드에 URL을 복사합니다. 이제 규격 또는 비규격 앱 목록에서 이 URL을 사용할 수 있습니다.
 
-예: [Google Play의 앱 섹션](https://play.google.com/store/apps)에서 **Microsoft 플래너**를 검색합니다. **https://play.google.com/store/apps/details?id=com.microsoft.planner** URL을 사용합니다.
+예: [Google Play의 앱 섹션](https://play.google.com/store/apps)에서 **Microsoft 플래너**를 검색합니다. URL 사용: **https://play.google.com/store/apps/details?id=com.microsoft.planner**.
 
 ### <a name="additional-options"></a>추가 옵션
 

@@ -1,29 +1,29 @@
 ---
-title: "MAM 정책을 사용하여 앱 데이터 보호"
-description: "이 항목에서는 모바일 응용 프로그램 관리 정책이 회사 데이터를 보호하고, 데이터 손실을 방지하고, 개인 및 회사 정보를 별도로 유지되도록 하는 방법을 설명합니다."
-keywords: 
+title: MAM 정책을 사용하여 앱 데이터 보호
+description: 이 항목에서는 모바일 응용 프로그램 관리 정책이 회사 데이터를 보호하고, 데이터 손실을 방지하고, 개인 및 회사 정보를 별도로 유지되도록 하는 방법을 설명합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 11/14/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e5f9eb33ca877fba0d59cfd9ddbc23f5eb2cd05c
-ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
+ms.openlocfilehash: dcdee874e42aa9511c09fda43a8cc662afaea38a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="protect-app-data-using-app-protection-policies-with-microsoft-intune"></a>Microsoft Intune에서 앱 보호 정책을 사용하여 앱 데이터 보호
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 ## <a name="how-you-can-protect-app-data"></a>앱 데이터를 보호하는 방법
 직원은 개인 및 회사 작업 둘 다에 모바일 장치를 사용합니다. 직원의 생산성을 유지하는 동시에 의도했거나 의도하지 않은 데이터 손실을 방지하려고 합니다.  또한 관리하지 않는 장치를 사용하여 직원이 액세스하는 회사 데이터를 보호하기를 원합니다.

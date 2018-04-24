@@ -1,28 +1,28 @@
 ---
-title: "MAM 설정 유효성 검사"
-description: "이 항목에서는 MAM 정책이 올바르게 설정되어 있으며 정상적으로 작동하는지를 테스트하고 유효성을 검사하는 방법을 설명합니다."
-keywords: 
+title: MAM 설정 유효성 검사
+description: 이 항목에서는 MAM 정책이 올바르게 설정되어 있으며 정상적으로 작동하는지를 테스트하고 유효성을 검사하는 방법을 설명합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angerobe
 ms.date: 12/19/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 41d82597-e13e-4c3e-9151-e71392236ca0
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.custom: intune-classic
-ms.openlocfilehash: e0cb44177f830236865dce0ab68bb1084fcebc2d
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 6f11c2f2af53813040417a8f40e983b5c88d5189
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="validating-your-mobile-application-management-setup"></a>모바일 응용 프로그램 관리 설정 유효성 검사
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 항목에서는 MAM(모바일 응용 프로그램 관리)을 설정한 후에 문제를 확인하는 방법에 대한 정보를 제공합니다. 이 지침은 Azure Portal의 MAM 정책에 적용됩니다.
 
@@ -43,9 +43,9 @@ MAM은 데이터 보호 도구이므로 사용자가 문제를 보고할 가능�
 
 2. 목록에서 사용자를 선택하거나 사용자를 검색하여 선택한 다음 **사용자 선택**을 선택합니다. **앱 보고** 열 맨 위에 사용자에게 MAM 사용이 허가되었는지 여부가 표시됩니다. 그 아래에는 사용자에게 O365 사용이 허가되었는지 여부와 해당 사용자의 모든 장치에 대한 앱 상태가 표시됩니다.
 
-![MAM용 앱 상태](..\media\ts-mam-user-apps.png)
+![MAM용 앱 상태](../media/ts-mam-user-apps.png)
 
-### <a name="what-to-do"></a>알아두어야 할 사항
+### <a name="what-to-do"></a>수행할 작업
 사용자 상태에 따라 수행할 작업은 다음과 같습니다.
 
 - 사용자에게 MAM 사용이 허가되지 않은 경우 [Intune 라이선스 관리](/intune/setup-steps)의 설명에 따라 사용자에게 Intune 라이선스를 할당합니다.
@@ -54,6 +54,6 @@ MAM은 데이터 보호 도구이므로 사용자가 문제를 보고할 가능�
 - MAM 정책을 적용할 모든 사용자에게 이러한 조건이 적용되는지 확인합니다.
 
 ### <a name="see-also"></a>참고 항목
-[Microsoft Intune을 사용하여 모바일 앱 관리 정책 구성 준비](..\deploy-use\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
+[Microsoft Intune을 사용하여 모바일 앱 관리 정책 구성 준비](../deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 
-[Microsoft Intune에서 모바일 앱 관리 정책을 사용하여 앱 데이터 보호](..\deploy-use\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
+[Microsoft Intune에서 모바일 앱 관리 정책을 사용하여 앱 데이터 보호](../deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)

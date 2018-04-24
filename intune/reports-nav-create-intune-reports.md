@@ -15,15 +15,15 @@ ms.assetid: 57019B11-DF9B-4D8A-95FE-254C75398DDE
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 328d8b3787bcef20a1d4949eba427cd8737edafe
-ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
+ms.openlocfilehash: 16913689dcc5b37de73b39387efeb399b307306b
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-intune-data-warehouse"></a>Intune 데이터 웨어하우스 사용
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune 데이터 웨어하우스를 사용하여 기업 모바일 환경에 대한 정보를 제공하는 보고서를 만듭니다. 예를 들어 일부 보고서는 다음과 같은 내용을 포함합니다.
 -   라이선스 구매 최적화를 위한 Intune 등록 사용자 추세

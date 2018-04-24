@@ -1,29 +1,29 @@
 ---
-title: "앱 사용 중지"
-description: "Intune을 사용하여 앱을 사용 중지 또는 제거하는 방법에 대해 알아봅니다."
-keywords: 
+title: 앱 사용 중지
+description: Intune을 사용하여 앱을 사용 중지 또는 제거하는 방법에 대해 알아봅니다.
+keywords: ''
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
 ms.date: 12/27/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6fbf0805-1144-4e08-bafd-4f181d932bf2
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 15e90a2fea2ec3b4f020a0e14c40da2cb65aecab
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: a3fadf497e5db147d12ecf1e32343e94222c65e9
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="retire-apps-using-microsoft-intune"></a>Microsoft Intune을 사용하여 앱 사용 중지
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 앱을 사용 중지하려면 단순히 제거하면 됩니다. Intune을 사용하여 앱을 배포하고 관리하는 경우 앱을 제거하는 과정은 모바일 장치와 Windows PC에서 모두 동일합니다. 이 절차를 정상적으로 완료하려면 앱에서 제거 프로세스를 지원해야 합니다.
 

@@ -1,27 +1,26 @@
 ---
-title: "Microsoft Intune 장치 제한 설정 구성"
-titleSuffix: 
-description: "관리하는 장치에서 Microsoft Intune을 사용하여 설정 및 기능을 구성하는 방법을 알아봅니다."
-keywords: 
-author: vhorne
-ms.author: victorh
+title: Microsoft Intune - Azure에서 장치 제한 설정 구성 | Microsoft Docs
+description: Microsoft Intune에서 Android, macOS, iOS, Windows Phone 및 Windows 10 장치에서 기능을 제한하는 장치 프로필 추가
+keywords: ''
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
-ms.date: 3/1/2018
+ms.date: 3/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c5ccb928b8ff3f9cebbd6f51d99cddd1f36fb074
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 13f93f9fcf813c2e86809d2cc20991d2fd635187
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="how-to-configure-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune에서 장치 제한 설정을 구성하는 방법
+# <a name="configure-device-restriction-settings-in-microsoft-intune"></a>Microsoft Intune에서 장치 제한 설정 구성
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 장치 제한을 통해 다음과 같은 다양한 범주에 걸쳐 관리하는 광범위한 설정 및 기능을 제어할 수 있습니다.
 - 보안
@@ -35,12 +34,10 @@ ms.lasthandoff: 03/08/2018
 
 ## <a name="create-a-device-profile-containing-device-restriction-settings"></a>장치 제한 설정을 포함하는 장치 프로필 만들기
 
-1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
-2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
-3. **Intune** 페이지에서 **장치 구성**을 선택합니다.
-2. **관리** 섹션 아래의 **장치 구성** 페이지에서 **프로필**을 선택합니다.
-3. **프로필** 페이지에서 **프로필 만들기**를 선택합니다.
-4. **프로필 만들기** 페이지에서 장치 제한 프로필에 대한 **이름** 및 **설명**을 입력합니다.
+1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
+2. **모든 서비스**를 선택하고 **Intune**에서 필터링하고 **Microsoft Intune**을 선택합니다.
+3. **장치 구성** > **프로필** > **프로필 만들기**를 선택합니다.
+4. 장치 제한 프로필의 **이름** 및 **설명**을 입력합니다.
 5. **플랫폼** 드롭다운 목록에서 사용자 지정 설정을 적용할 장치 플랫폼을 선택합니다. 현재 장치 제한 설정에 대해 다음 플랫폼 중 하나를 선택할 수 있습니다.
     - **OWA(Outlook Web Access)**
     - **iOS**
@@ -48,7 +45,7 @@ ms.lasthandoff: 03/08/2018
     - **Windows Phone 8.1**
     - **Windows 8.1 이상**
     - **Windows 10 이상**
-6. **프로필** 유형 드롭다운 목록에서 **장치 제한**을 선택합니다. Surface Hub와 같은 Windows 10 Team 장치에 대한 장치 제한 프로필을 만들려면 **장치 제한(Windows 10 Team)**을 선택합니다.
+6. **프로필** 유형 드롭다운 목록에서 **장치 제한**을 선택합니다. Surface Hub와 같은 Windows 10 Team 장치에 대한 장치 제한 프로필을 만들려면 **장치 제한(Windows 10 Team)** 을 선택합니다.
 7. 선택한 플랫폼에 따라 구성할 수 있는 설정이 다릅니다. 각 플랫폼에 대한 자세한 설정을 보려면 다음 항목 중 하나로 이동하세요.
     - [Android 설정](device-restrictions-android.md)
     - [iOS 설정](device-restrictions-ios.md)

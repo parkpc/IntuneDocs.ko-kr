@@ -1,25 +1,25 @@
 ---
-title: "Android 장치에 SandBlast Mobile Protect를 설치해야 함 | Microsoft Docs"
-description: "Android 장치에 SandBlast Mobile Protect를 설치하는 방법에 대해 알아봅니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Android 장치에 SandBlast Mobile Protect를 설치해야 함 | Microsoft Docs
+description: Android 장치에 SandBlast Mobile Protect를 설치하는 방법에 대해 알아봅니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 09/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 754f4ea5-cff4-414d-8cd1-900238f79e84
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: 277702604defe593fad9b3552d317c28b32710b9
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 889fb53fc215763b061f5165425df7b0b9960702
+ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="you-need-to-install-sandblast-mobile-protect-on-your-android-device"></a>Android 장치에 SandBlast Mobile Protect를 설치해야 함
 

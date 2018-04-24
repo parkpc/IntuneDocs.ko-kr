@@ -1,29 +1,29 @@
 ---
-title: "Intune을 사용하여 iOS 활성화 잠금 무시"
+title: Intune을 사용하여 iOS 활성화 잠금 무시
 titlesuffix: Microsoft Intune
-description: "Intune을 사용하여 iOS 활성화 잠금을 무시하고 잠긴 장치에 액세스하는 방법을 알아봅니다."
-keywords: 
+description: Intune을 사용하여 iOS 활성화 잠금을 무시하고 잠긴 장치에 액세스하는 방법을 알아봅니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 08/22/2017
+ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 9ca3b0ba-e41c-45fb-af28-119dff47c59f
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6141b325c5087544a1b78e03209322023f2374e3
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 2a8c14e523d33c9e0994134ff1ef468b290b3992
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="bypass-activation-lock-on-supervised-ios-devices-with-intune"></a>Intune을 사용하여 감독된 iOS 장치에서 활성화 잠금 무시
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Microsoft Intune에서는 iOS 8.0 이상 장치용 나의 iPhone 찾기(Find My iPhone) 앱의 기능인 iOS 활성화 잠금을 관리할 수 있습니다. 활성화 잠금은 사용자가 장치에서 나의 iPhone 찾기 앱을 열 때 자동으로 설정됩니다. 활성화 잠금이 설정되면 사용자의 Apple ID와 암호를 입력해야 다음 작업을 수행할 수 있습니다.
 
@@ -73,7 +73,7 @@ Intune **활성화 잠금 무시** 원격 장치 작업에서는 사용자의 Ap
 2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 블레이드에서 **장치**를 선택합니다.
 4. **장치** 블레이드에서 **모든 장치**를 선택합니다.
-5. 관리하는 장치 목록에서 감독된 iOS 장치를 선택하고 **자세히...**를 선택한 다음, **활성화 잠금 무시** 장치 원격 작업을 선택합니다.
+5. 관리하는 장치 목록에서 감독된 iOS 장치를 선택하고 **자세히...** 를 선택한 다음, **활성화 잠금 무시** 장치 원격 작업을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

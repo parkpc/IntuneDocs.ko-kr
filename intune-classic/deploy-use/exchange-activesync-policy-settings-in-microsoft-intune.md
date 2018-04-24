@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ce43f43e2d5522d947f0db244023b93635f1d19f
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 25bdc7da543cdc38ccbe70651c145750ba96c082
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="exchange-activesync-policy-settings-in-microsoft-intune"></a>Microsoft Intune의 Exchange ActiveSync 정책 설정
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune **Exchange ActiveSync** 정책을 사용하여 Exchange ActiveSync에 의해 관리되는 장치에서 다양한 특징과 기능을 제어할 수 있는 설정을 구성할 수 있습니다.
 
@@ -44,10 +44,11 @@ Microsoft Intune **Exchange ActiveSync** 정책을 사용하여 Exchange ActiveS
 
 ## <a name="encryption-settings"></a>암호화 설정
 
-|설정 이름|세부 정보|
-|----------------|---|
-|**모바일 장치 암호화 필요**<sup>1</sup>|지원되는 경우에는 암호화해야 하는 장치의 데이터가 필요합니다.<br><br>Windows Phone 8 장치의 경우 이 옵션을 **예**로 설정해야 합니다.<br /><br />iOS 장치에서 암호화를 사용하도록 설정하려면 **모바일 장치를 잠금 해제하는 데 암호 필요** 설정을 사용하도록 설정합니다.|
-|**메모리 카드 암호화 필요**|지원되는 장치에서 암호화할 SD 카드와 같은 외부 저장소에 저장된 데이터가 필요합니다.
+|                           설정 이름                           |                                                                                                                                    세부 정보                                                                                                                                    |
+|------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <strong>모바일 장치 암호화 필요</strong><sup>1</sup> | 지원되는 경우에는 암호화해야 하는 장치의 데이터가 필요합니다.<br><br>Windows Phone 8 장치의 경우 이 옵션을 <strong>예</strong>로 설정해야 합니다.<br /><br />iOS 장치에서 암호화를 사용하도록 설정하려면 <strong>모바일 장치를 잠금 해제하는 데 암호 필요</strong> 설정을 사용하도록 설정합니다. |
+|       <strong>메모리 카드 암호화 필요</strong>       |                                                                                  지원되는 장치에서 암호화할 SD 카드와 같은 외부 저장소에 저장된 데이터가 필요합니다.                                                                                  |
+
 <sup>1</sup> Windows 8.1을 실행하는 장치에 대한 추가 정보
 
 -   Windows 8.1을 실행하는 장치에 암호화를 적용하려면 각 장치에 [Windows용 December 2014 MDM 클라이언트 업데이트](https://support.microsoft.com/kb/3013816) 를 설치해야 합니다.

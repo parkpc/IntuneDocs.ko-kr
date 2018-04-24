@@ -11,11 +11,11 @@ ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
-ms.openlocfilehash: 39432d09bea822c25ca9e11181a11a1e2298dfef
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 58727a501d6a8ec14e964094eac9fcd6eb3868da
+ms.sourcegitcommit: c3ae3c3dc46b62d9191813d25a196874ba4927be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="configure-ios-update-policies-in-microsoft-intune"></a>Microsoft Intune에서 iOS 업데이트 정책 구성
 
@@ -55,3 +55,4 @@ iOS 업데이트 정책을 사용자에게 할당하려면 구성된 정책을 �
 ## <a name="monitor-ios-device-installation-failures"></a>iOS 장치 설치 실패 모니터링
 <!-- 1352223 -->
 **iOS 장치의 설치 오류** 보고서는 **소프트웨어 업데이트** 창에서 제공됩니다. 보고서에는 iOS 업데이트 정책의 대상으로 업데이트를 시도했지만 업데이트할 수 없었던 감독된 iOS 장치의 목록이 표시됩니다. 장치가 자동으로 업데이트되지 않은 이유를 나타내는 각 장치의 상태를 볼 수 있습니다. 최신 정상 장치가 목록에 표시되지 않습니다. 장치 자체가 지원할 수 있는 최신 업데이트로 최신 장치를 정의합니다.
+

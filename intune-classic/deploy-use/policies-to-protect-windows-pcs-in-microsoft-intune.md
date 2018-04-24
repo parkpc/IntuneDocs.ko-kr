@@ -1,28 +1,28 @@
 ---
-title: "Windows PC를 보호하는 정책"
-description: "이러한 정책을 사용하여 Intune 클라이언트 소프트웨어에 의해 관리될 때 Windows PC의 보안을 보장할 수 있습니다."
-keywords: 
+title: Windows PC를 보호하는 정책
+description: 이러한 정책을 사용하여 Intune 클라이언트 소프트웨어에 의해 관리될 때 Windows PC의 보안을 보장할 수 있습니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: angrobe
 ms.date: 12/27/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: d081f466-45dd-41d1-ab25-6d974c72a52a
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: cf12d6c96371cc1f9b79c83586879ab25dbe98ff
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 8f372d2e8b770e536da08c7b89a760c78ea38fb4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-policies-to-help-protect-windows-pcs-that-run-the-intune-client-software"></a>정책을 사용하여 Intune 클라이언트 소프트웨어를 실행하는 Windows PC를 보호합니다.
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune은 [Intune 클라이언트 소프트웨어](manage-windows-pcs-with-microsoft-intune.md)에서 관리하는 Windows PC의 보안을 확보하는 데 사용할 수 있는 세 가지 정책을 제공합니다.
 

@@ -1,29 +1,29 @@
 ---
-title: "장치 준수 모니터링"
+title: 장치 준수 모니터링
 titlesuffix: Microsoft Intune
-description: "장치 준수를 모니터링하는 방법을 알아봅니다.\""
-keywords: 
+description: 장치 준수를 모니터링하는 방법을 알아봅니다."
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 12/07/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0790934b-48b9-435b-a8aa-e83ed5b73191
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 708ed5a335d3475c213a536da9072afb1ad32ef9
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: b363e074b1b0652a81d56c68e28cf11220adfa56
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="monitor-device-compliance-in-intune"></a>Intune에서 장치 준수 모니터
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 **개요** 블레이드에서 **준수 프로필**의 상태 요약을 볼 수 있습니다.
 대화형으로 방식으로 차트를 클릭하여 세부 정보로 드릴다운할 수 있습니다. 여러 준수 프로 파일을 구성한 경우 **관리** > **보고서** 아래 정책 블레이드에서 정책 상태를 볼 수 있습니다.

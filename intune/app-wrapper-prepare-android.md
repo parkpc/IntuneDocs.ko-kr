@@ -14,15 +14,15 @@ ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: de63fe9476e4fa0f3f85343659538856f2f841d8
-ms.sourcegitcommit: 820f950d1fc80b1eb5db1b0cf77f44d92a969951
+ms.openlocfilehash: 593907c4e57abce1a05d22d9ad8a07a044579285
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="prepare-android-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Intune 앱 래핑 도구를 사용하여 앱 보호 정책에 대해 Android 앱 준비
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 Android용 Microsoft Intune 앱 래핑 도구를 사용하여 해당 앱 코드를 변경하지 않고도 앱 기능을 제한하여 사내 Android 앱의 동작을 변경합니다.
 
@@ -62,21 +62,21 @@ Android용 Microsoft Intune 앱 래핑 도구를 사용하여 해당 앱 코드�
 
 ## <a name="run-the-app-wrapping-tool"></a>앱 래핑 도구 실행
 
-1.  앱 래핑 도구를 설치한 Windows 컴퓨터에서 PowerShell 창을 엽니다.
+1. 앱 래핑 도구를 설치한 Windows 컴퓨터에서 PowerShell 창을 엽니다.
 
-2.  도구를 설치한 폴더에서 앱 래핑 도구 PowerShell 모듈을 가져옵니다.
+2. 도구를 설치한 폴더에서 앱 래핑 도구 PowerShell 모듈을 가져옵니다.
 
-    ```
-    Import-Module .\IntuneAppWrappingTool.psm1
-    ```
+   ```
+   Import-Module .\IntuneAppWrappingTool.psm1
+   ```
 
-3.  **invoke-AppWrappingTool** 명령을 사용하여 도구를 실행합니다. 사용 구문은 다음과 같습니다.
-    ```
-    Invoke-AppWrappingTool [-InputPath] <String> [-OutputPath] <String> -KeyStorePath <String> -KeyStorePassword <SecureString>
-    -KeyAlias <String> -KeyPassword <SecureString> [-SigAlg <String>] [<CommonParameters>]
-    ```
+3. **invoke-AppWrappingTool** 명령을 사용하여 도구를 실행합니다. 사용 구문은 다음과 같습니다.
+   ```
+   Invoke-AppWrappingTool [-InputPath] <String> [-OutputPath] <String> -KeyStorePath <String> -KeyStorePassword <SecureString>
+   -KeyAlias <String> -KeyPassword <SecureString> [-SigAlg <String>] [<CommonParameters>]
+   ```
 
- 다음 표에 **invoke-AppWrappingTool** 명령의 속성이 자세히 나와 있습니다.
+   다음 표에 **invoke-AppWrappingTool** 명령의 속성이 자세히 나와 있습니다.
 
 |속성|정보 산업|예제|
 |-------------|--------------------|---------|
@@ -160,17 +160,17 @@ Android의 경우 Android 장치에 설치하려면 유효한 인증서로 모�
 
 1. [Android 가이드용 Intune SDK](https://docs.microsoft.com/intune/app-sdk-android#configure-azure-active-directory-authentication-library-adal)에 정의된 단계에 따라 ADAL을 구성합니다.
 
-> [!NOTE] 
+> [!NOTE]
 > 앱에 연결된 “클라이언트 ID”라는 용어는 앱에 연결된 Azure Portal의 “응용 프로그램 ID”라는 용어와 같습니다. 
-* SSO를 사용하려면 “일반적인 ADAL 구성” #2가 필요합니다.
+> * SSO를 사용하려면 “일반적인 ADAL 구성” #2가 필요합니다.
 
 2. 매니페스트에 다음 값을 입력하여 기본 등록을 사용합니다. ```xml <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />```
-> [!NOTE] 
-> 이것은 앱에서 유일한 MAM-WE 통합이어야 합니다. MAMEnrollmentManager API를 호출하려는 다른 시도가 있으면 충돌이 발생할 수 있습니다.
+   > [!NOTE] 
+   > 이것은 앱에서 유일한 MAM-WE 통합이어야 합니다. MAMEnrollmentManager API를 호출하려는 다른 시도가 있으면 충돌이 발생할 수 있습니다.
 
 3. 매니페스트에 다음 값을 입력하여 필요한 MAM 정책을 설정합니다. ```xml <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />```
-> [!NOTE] 
-> 이렇게 하면 사용자는 장치에 회사 포털을 다운로드하고 사용하기 전에 기본 등록 절차를 완료해야 합니다.
+   > [!NOTE] 
+   > 이렇게 하면 사용자는 장치에 회사 포털을 다운로드하고 사용하기 전에 기본 등록 절차를 완료해야 합니다.
 
 ### <a name="see-also"></a>참고 항목
 - [Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정](apps-prepare-mobile-application-management.md)

@@ -1,27 +1,27 @@
 ---
-title: "Samsung Knox에 대한 앱 허용/차단 Microsoft IntuneIntune 정책"
-titlesuffix: 
-description: "Samsung Knox Standard 장치에 대해 앱을 허용 및 차단하는 사용자 지정 프로필을 만듭니다."
-keywords: 
+title: Samsung Knox에 대한 앱 허용/차단 Microsoft IntuneIntune 정책
+titlesuffix: ''
+description: Samsung Knox Standard 장치에 대해 앱을 허용 및 차단하는 사용자 지정 프로필을 만듭니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/5/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 95f35cfd869975a43fd54a1e6a9ff6ae35ffa6af
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 61a4d059eb771e22075796def5e1a273b02d932e
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-custom-policies-in-microsoft-intune-to-allow-and-block-apps-for-samsung-knox-standard-devices"></a>Microsoft Intune에서 사용자 지정 정책을 사용하여 Samsung Knox Standard 장치에 대해 앱 허용 및 차단 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이 아티클의 절차를 사용하여 다음 중 하나를 만들 수 있는 Microsoft Intune 사용자 지정 정책을 만듭니다.
 
@@ -49,14 +49,14 @@ ms.lasthandoff: 03/08/2018
    - **설명** - ‘실행이 차단된 앱 목록’과 같이 설명을 선택적으로 입력합니다.
    -    **데이터 형식** - 드롭다운 목록에서 **문자열**을 선택합니다.
    -    **OMA-URI** - **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**를 입력합니다.
-   -    **값** - 허용할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|**를 사용할 수 있습니다. (예: package1, package2;)
+   -    **값** - 허용할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|** 를 사용할 수 있습니다. (예: package1, package2;)
 
    사용자가 다른 앱을 모두 제외하는 반면 Google Play 스토어에서 설치할 수 있도록 허용된 앱 목록의 경우
    - **이름** - **AllowInstallPackages**를 입력합니다.
    - **설명** - ‘사용자가 Google Play 스토어에서 설치할 수 있는 앱 목록’과 같이 설명을 선택적으로 입력합니다.
    - **데이터 형식** - 드롭다운 목록에서 **문자열**을 선택합니다.
    - **OMA-URI** - **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/AllowInstallPackages**를 입력합니다.
-   - **값** - 허용할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|**를 사용할 수 있습니다. (예: package1, package2;)
+   - **값** - 허용할 앱 패키지 이름 목록을 입력합니다. 구분 기호로 **;:,** 또는 **|** 를 사용할 수 있습니다. (예: package1, package2;)
 
 4. **확인**을 클릭한 다음, **프로필 만들기** 창에서 **만들기**를 선택합니다.
 

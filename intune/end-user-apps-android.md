@@ -1,28 +1,28 @@
 ---
-title: "Android 사용자가 앱을 얻는 방법"
-description: "최종 사용자에게 Android 앱을 제공하기 위한 방법"
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Android 사용자가 앱을 얻는 방법
+description: 최종 사용자에게 Android 앱을 제공하기 위한 방법
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 08/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f33d1684-b1b5-44f7-9aac-c6d5186a5d7c
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c37fedd23606b51182ada561ae467ebe52c829d6
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 878e4d0854722d82eab0545cf3a1ba743f2c52db
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-your-android-users-get-their-apps"></a>Android 사용자가 앱을 얻는 방법
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 이 정보를 사용하여 최종 사용자가 Microsoft Intune을 통해 배포하는 Android 앱을 얻는 방법과 위치를 이해합니다. 해당 정보는 네이티브 Android 장치와 Samsung Knox Standard 장치 등 장치 유형에 따라 다를 수 있습니다.
 

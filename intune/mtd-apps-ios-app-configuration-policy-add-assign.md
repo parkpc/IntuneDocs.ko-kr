@@ -1,25 +1,25 @@
 ---
-title: "Microsoft Intune에 MTD 앱 추가 및 할당"
-titleSuffix: 
-description: "Intune을 사용하여 Azure Portal에서 MTD 앱, Microsoft Authenticator 앱 및 iOS 구성 정책을 추가합니다."
-keywords: 
+title: Microsoft Intune에 MTD 앱 추가 및 할당
+titleSuffix: ''
+description: Intune을 사용하여 Azure Portal에서 MTD 앱, Microsoft Authenticator 앱 및 iOS 구성 정책을 추가합니다.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 07/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 00356258-76a8-4a84-9cf5-64ceedb58e72
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3fc71620fee1b1df907a4027c1c57cd91b53032e
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 08cebf84443e65ded5f7884218fbe17d722bddf2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Intune을 사용하여 MTD(Mobile Threat Defense) 앱 추가 및 할당
 
@@ -75,7 +75,7 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
 다음을 수행하여 iOS 사용자에게 Azure Active Directory 인증을 사용하도록 설정합니다.
 
 1. [Azure Portal](https://portal.azure.com)로 이동해서 자격 증명으로 로그인한 다음 응용 프로그램 페이지를 탐색합니다.
-  
+
 2. **Lookout for Work iOS 앱**을 **네이티브 클라이언트 응용 프로그램**으로 추가합니다.
 
 3. **com.lookout.enterprise.yourcompanyname**을 IPA에 서명할 때 선택한 고객 번들 ID로 바꿉니다.
@@ -133,13 +133,13 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
 
 -   iOS 앱 구성 정책 파일을 **다운로드**해야 합니다. 
     -   [Skycure 관리 콘솔](https://aad.skycure.com)로 이동하고 관리자 자격 증명을 사용하여 로그인합니다.
-    
+
     -   **설정** &gt; **장치 관리 통합** &gt; **EMM 통합 선택**으로 이동하고 **Microsoft Intune**을 선택한 다음 선택한 항목을 저장합니다.
-    
+
     -   **통합 설치 파일** 링크를 클릭하고 생성된 \*.zip 파일을 저장합니다. .zip 파일에는 **skycure\_configuration.plist** 파일이 포함되어 있으며 이 파일은 Intune에서 iOS 앱 구성 정책을 만드는 데 사용됩니다.
-    
+
     -   Skycure iOS 앱 구성 정책을 추가하려면 [iOS에 대해 Microsoft Intune 앱 구성 정책 사용](app-configuration-policies-use-ios.md) 지침을 참조하세요.
-    
+
     - **8단계**에서 **XML 데이터 입력** 옵션을 사용하고 **skycure_configuration.plist** 파일 콘텐츠를 복사하여 구성 정책 본문에 붙여넣습니다.
 
 다음 위치에서 **skycure_configuration.plist** 콘텐츠를 복사할 수도 있습니다.
@@ -151,7 +151,6 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
     <key>UserEmail</key>
     <string>{{userprincipalname}}</string>
 </dict>
-
 ```
 ### <a name="for-check-point-sandblast-mobile"></a>Check Point SandBlast Mobile의 경우
 
@@ -160,7 +159,6 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
 
 ```
 <dict><key>MDM</key><string>INTUNE</string></dict>
-
 ```
 
 ### <a name="for-zimperium"></a>Zimperium의 경우
@@ -179,7 +177,6 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
 <key>udidlast4digits</key>
 <string>{{udidlast4digits}}</string>
 </dict>
-
 ```
 
 ## <a name="to-assign-apps-all-mtd-partners"></a>앱을 할당하려면(모든 MTD 파트너)

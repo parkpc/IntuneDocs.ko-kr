@@ -1,28 +1,28 @@
 ---
-title: "등록 상태 화면 추가"
+title: 등록 상태 화면 추가
 titleSuffix: Microsoft Intune
-description: "Windows 10 장치를 등록하는 사용자에게 인사하세요."
-keywords: 
+description: Windows 10 장치를 등록하는 사용자에게 인사하세요.
+keywords: ''
 author: ErikjeMS
 manager: erikje
 ms.date: 11/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 8518d8fa-a0de-449d-89b6-8a33fad7b3eb
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a8691572a25dbb94ff5d165298d48a3c68b33bab
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: e38adf62c13551f00c7e0356e5d8af1b1c729324
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-an-enrollment-status-screen"></a>등록 상태 화면 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 최종 사용자가 Windows 장치를 등록하는 경우 등록 직후 필요한 모든 항목에 액세스할 수 있을 것으로 기대합니다. 등록이 완료된 후에도 콘텐츠, 앱, 정책 및 설정이 아직 장치에 전달되고 있다는 점을 최종 사용자는 인식하지 못합니다.
 

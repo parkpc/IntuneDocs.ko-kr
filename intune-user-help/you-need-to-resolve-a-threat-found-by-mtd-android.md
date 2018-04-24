@@ -1,25 +1,25 @@
 ---
-title: "Android에서 Mobile Threat Defense 앱으로 발견한 위협 해결 | Microsoft 문서"
-description: "Android용 Mobile Threat Defense 앱을 사용하여 위협을 해결하는 방법에 대해 알아봅니다."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Android에서 Mobile Threat Defense 앱으로 발견한 위협 해결 | Microsoft 문서
+description: Android용 Mobile Threat Defense 앱을 사용하여 위협을 해결하는 방법에 대해 알아봅니다.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 09/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 9e176e10-72fd-42fe-94ef-b41d57a4914f
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: d9e8cf854856c6d1f296b9bdb79a23d4993f213e
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 9636ff126618db62e682607afdb9e45b03a5cf91
+ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="resolve-a-threat-found-by-a-mobile-threat-defense-app"></a>Mobile Threat Defense 앱에서 발견한 위협 해결
 

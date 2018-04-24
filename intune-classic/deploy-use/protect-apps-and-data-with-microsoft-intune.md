@@ -1,29 +1,29 @@
 ---
-title: "앱 및 데이터 보호"
-description: "이 항목에서는 회사 앱 및 데이터를 보호하는 데 사용할 수 있는 다양한 Intune의 특징과 기능에 대해 설명합니다."
-keywords: 
+title: 앱 및 데이터 보호
+description: 이 항목에서는 회사 앱 및 데이터를 보호하는 데 사용할 수 있는 다양한 Intune의 특징과 기능에 대해 설명합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 12/19/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5c46e188-87eb-4ce2-b184-24809e8bf783
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 59168615548d3c7da8dc284476227ed0f01ceffe
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 2a05444c757b8e99ca0b897acfcd6238d960aeb2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="protect-apps-and-data-with-microsoft-intune"></a>Microsoft Intune을 사용하여 앱 및 데이터 보호 | Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune은 여러 기술 계층을 통해 회사 데이터를 보호합니다. ID 계층에서 조건부 액세스를 통해 관리되는 호환 장치에서만 액세스를 허용하여 서비스에 대한 액세스를 보호합니다. 클라이언트 응용 프로그램 계층에서 MAM(모바일 응용 프로그램 관리)은 보호되지 않는 앱 또는 저장소 위치로 데이터가 이동되는 것을 방지하고 장치를 분실하거나 도난당한 경우 데이터를 삭제하여 데이터 손실을 보호합니다. 모바일 직원의 생산성을 유지하면서 데이터를 보호하려면 이러한 두 가지 보호 계층을 함께 사용하는 것이 좋습니다.
 

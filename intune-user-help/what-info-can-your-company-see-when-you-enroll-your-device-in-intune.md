@@ -1,26 +1,26 @@
 ---
-title: "장치를 등록하면 회사에 어떤 정보가 표시되나요? | Microsoft 문서"
-description: "IT가 관리되는 장치에서 볼 수 있는 사항과 볼 수 없는 사항의 목록"
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: 장치를 등록하면 회사에 어떤 정보가 표시되나요? | Microsoft 문서
+description: IT가 관리되는 장치에서 볼 수 있는 사항과 볼 수 없는 사항의 목록
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 11/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 12655728-a1af-4d89-97bc-925fe36c0dc4
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
-ms.openlocfilehash: 58fd9c985700e65ad5f97376382d348f009e2c29
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: fefc9c5a74afca1dad662e6d5ccde6afce6e2113
+ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="what-information-can-my-company-see-when-i-enroll-my-device"></a>장치를 등록하면 회사에 어떤 정보가 표시되나요?
 

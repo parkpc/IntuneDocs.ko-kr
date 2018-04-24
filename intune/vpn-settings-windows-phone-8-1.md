@@ -1,27 +1,27 @@
 ---
-title: "Windows Phone 8.1 장치에 대한 Microsoft Intune VPN 설정"
-titleSuffix: 
-description: "Windows Phone 8.1을 실행하는 장치에서 VPN 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다."
-keywords: 
+title: Windows Phone 8.1 장치에 대한 Microsoft Intune VPN 설정
+titleSuffix: ''
+description: Windows Phone 8.1을 실행하는 장치에서 VPN 연결을 구성하는 데 사용할 수 있는 Intune 설정을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 786a817fbbd821d74f4f1a03fdec5a6893ed890b
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 458586a2d507e913eb702c0ee2e3c0531350f1b4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-windows-phone-81"></a>Windows Phone 8.1을 실행하는 장치용 Microsoft Intune에서 VPN 설정 구성
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이 아티클에서는 Windows Phone 8.1을 실행하는 장치에서 VPN 연결을 구성하는 데 사용할 수 있는 Intune 설정을 설명합니다.
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 03/12/2018
 - **역할**(Pulse Secure만) - 이 연결에 대한 액세스 권한이 있는 사용자 역할의 이름을 지정합니다. 사용자 역할은 개인 설정과 옵션을 정의하고, 특정 액세스 기능을 사용 또는 사용하지 않도록 설정합니다.
 - **영역**(Pulse Secure만) - 사용하려는 인증 영역의 이름을 지정합니다. 인증 영역은 Pulse Secure 연결 형식에서 사용하는 인증 리소스 그룹입니다.
 
-- **DNS 접미사 검색 목록** - 하나 이상의 DNS 접미사를 **추가**합니다. 지정하는 각 DNS 접미사는 짧은 이름을 사용하여 웹 사이트에 연결할 때 검색됩니다. 예를 들어 DNS 접미사 **domain1. contoso.com** 및 **domain2. contoso.com**을 지정하고 URL **http://mywebsite**를 방문하면 URL **http://mywebsite.domain1.contoso.com** 및 **http://mywebsite.domain2.contoso.com**이 검색됩니다.
+- **DNS 접미사 검색 목록** - 하나 이상의 DNS 접미사를 **추가**합니다. 지정하는 각 DNS 접미사는 짧은 이름을 사용하여 웹 사이트에 연결할 때 검색됩니다. 예를 들어 DNS 접미사 **domain1.contoso.com** 및 **domain2.contoso.com**을 지정하고, URL **http://mywebsite**로 이동하고, **http://mywebsite.domain1.contoso.com** 및 **http://mywebsite.domain2.contoso.com이라는 URL을 검색합니다**.
 
 - **사용자 지정 XML** - VPN 연결을 구성하는 사용자 지정 XML 명령을 지정합니다.
 
@@ -64,7 +64,6 @@ ms.lasthandoff: 03/12/2018
 
 ```
     <pulse-schema><isSingleSignOnCredential>true</isSingleSignOnCredential></pulse-schema>
-
 ```
 
 **CheckPoint 모바일 VPN의 예:**
@@ -76,13 +75,11 @@ ms.lasthandoff: 03/12/2018
 **SonicWall Mobile Connect의 예:**
 ```
 <MobileConnect><Compression>false</Compression><debugLogging>True</debugLogging><packetCapture>False</packetCapture></MobileConnect>
-
 ```
 
 **F5 Edge Client의 예:**
 ```
     <f5-vpn-conf><single-sign-on-credential /></f5-vpn-conf>
-
 ```
 
 사용자 지정 XML 명령을 작성하는 방법에 대한 자세한 내용은 각 제조업체의 VPN 설명서를 참조하세요.

@@ -14,15 +14,15 @@ ms.assetid: 002241bf-6cd0-4c75-a4f0-891ac7e6721a
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: fd201cbe7b91791f7db014e0176b0873a1e270c0
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 72a4e977f88a7f397d4f37f723ca1f13c4bc689c
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune"></a>Microsoft Intune용 Endpoint Protection을 사용한 Windows PC의 보안 유지 방법
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune은 맬웨어 위협으로부터 실시간으로 보호하고 맬웨어 정의를 최신으로 유지하며 컴퓨터를 자동으로 검색하는 Endpoint Protection 등의 관리 컴퓨터의 보안을 유지할 수 있습니다. 또한 Endpoint Protection은 맬웨어 공격의 관리 및 모니터링을 지원하는 도구도 제공합니다.
 
@@ -33,11 +33,13 @@ Endpoint Protection을 구성, 배포 및 모니터링하려면 다음 섹션의
 ## <a name="choose-when-to-use-endpoint-protection"></a>Endpoint Protection을 사용하는 시기 선택
 IT 관리자의 최우선 업무 중 하나는 관리하는 컴퓨터를 맬웨어와 바이러스로부터 보호하는 것입니다. 조직 내의 Windows PC에 Intune을 배포하기 전에 다음 옵션 중 하나를 선택하고 그와 관련한 정책 설정을 구성하여 컴퓨터를 보호하는 방법을 결정해야 합니다.
 
-|다음 사항 필요|Endpoint Protection 정책 설정|추가 정보|
-|--------------|---------------------------------------|--------------------|
-|타사 끝점 보호 응용 프로그램이 설치되지 않은 경우에만 Microsoft Intune Endpoint Protection을 사용합니다.<br /><br />타사 끝점 보호 응용 프로그램이 설치되지 않은 모든 컴퓨터에 Microsoft Intune Endpoint Protection을 사용할 수 있습니다.|Endpoint Protection 설치 = **예**<br /><br />Endpoint Protection 사용 = **예**<br /><br />타사 끝점 보호 응용 프로그램이 설치된 경우에도 Endpoint Protection 설치 = **아니요**|타사 끝점 보호 응용 프로그램이 감지된 경우 Microsoft Intune Endpoint Protection이 설치되지 않거나 이미 설치되었다면 제거됩니다.|
-|타사 끝점 보호 응용 프로그램이 설치된 경우에도 Microsoft Intune Endpoint Protection을 사용합니다.<br /><br />이 접근 방식에서는 Microsoft Intune Endpoint Protection과 타사 끝점 보호 응용 프로그램을 동시에 실행합니다. 이 구성은 성능 문제가 발생할 수 있으므로 사용하지 않는 것이 좋습니다. |Endpoint Protection 설치 = **예**<br /><br />Endpoint Protection 사용 = **예**<br /><br />타사 끝점 보호 응용 프로그램이 설치된 경우에도 Endpoint Protection 설치 = **예**|사용하는 경우:<br /><br />-  Microsoft Intune Endpoint Protection 사용으로 전환하려고 합니다.<br />-   Microsoft Intune Endpoint Protection을 사용할 새 클라이언트를 배포합니다.<br />-  Microsoft Intune Endpoint Protection을 사용할 클라이언트를 업그레이드합니다.|
-|Microsoft Intune Endpoint Protection 없이 Intune을 사용합니다. 대신 타사 끝점 보호 응용 프로그램을 사용합니다.|Endpoint Protection 설치 = **아니요**|타사 끝점 보호 응용 프로그램을 사용하지 않는 경우 이 구성은 조직의 컴퓨터를 맬웨어나 다른 공격에 노출시킬 수 있으므로 사용하지 않는 게 좋습니다.<br /><br />Microsoft Intune Endpoint Protection이 설치되지 않으며 이전에 설치되었다면 제거됩니다.|
+
+|                                                                                                                                                                       다음 사항 필요                                                                                                                                                                        |                                                                                                       Endpoint Protection 정책 설정                                                                                                        |                                                                                                                                                  추가 정보                                                                                                                                                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                             타사 끝점 보호 응용 프로그램이 설치되지 않은 경우에만 Microsoft Intune Endpoint Protection을 사용합니다.<br /><br />타사 끝점 보호 응용 프로그램이 설치되지 않은 모든 컴퓨터에 Microsoft Intune Endpoint Protection을 사용할 수 있습니다.                                              | Endpoint Protection 설치 = <strong>예</strong><br /><br />Endpoint Protection 사용 = <strong>예</strong><br /><br />타사 끝점 보호 응용 프로그램이 설치된 경우에도 Endpoint Protection 설치 = <strong>아니요</strong>  |                                                                      타사 끝점 보호 응용 프로그램이 감지된 경우 Microsoft Intune Endpoint Protection이 설치되지 않거나 이미 설치되었다면 제거됩니다.                                                                       |
+| 타사 끝점 보호 응용 프로그램이 설치된 경우에도 Microsoft Intune Endpoint Protection을 사용합니다.<br /><br />이 접근 방식에서는 Microsoft Intune Endpoint Protection과 타사 끝점 보호 응용 프로그램을 동시에 실행합니다. 이 구성은 성능 문제가 발생할 수 있으므로 사용하지 않는 것이 좋습니다. | Endpoint Protection 설치 = <strong>예</strong><br /><br />Endpoint Protection 사용 = <strong>예</strong><br /><br />타사 끝점 보호 응용 프로그램이 설치된 경우에도 Endpoint Protection 설치 = <strong>예</strong> |                        사용하는 경우:<br /><br />-  Microsoft Intune Endpoint Protection 사용으로 전환하려고 합니다.<br />-   Microsoft Intune Endpoint Protection을 사용할 새 클라이언트를 배포합니다.<br />-  Microsoft Intune Endpoint Protection을 사용할 클라이언트를 업그레이드합니다.                         |
+|                                                                                                             Microsoft Intune Endpoint Protection 없이 Intune을 사용합니다. 대신 타사 끝점 보호 응용 프로그램을 사용합니다.                                                                                                             |                                                                                                Endpoint Protection 설치 = <strong>아니요</strong>                                                                                                 | 타사 끝점 보호 응용 프로그램을 사용하지 않는 경우 이 구성은 조직의 컴퓨터를 맬웨어나 다른 공격에 노출시킬 수 있으므로 사용하지 않는 게 좋습니다.<br /><br />Microsoft Intune Endpoint Protection이 설치되지 않으며 이전에 설치되었다면 제거됩니다. |
+
 현재 끝점 보호 응용 프로그램에서 Microsoft Intune Endpoint Protection으로 전환하려면 다음을 수행합니다.
 
 1.  해당 컴퓨터에 Intune 클라이언트 소프트웨어를 배포하는 동안 기존 끝점 보호 응용 프로그램이 실행되는 상태로 둡니다.
@@ -68,15 +70,16 @@ IT 관리자의 최우선 업무 중 하나는 관리하는 컴퓨터를 맬웨�
 
 ## <a name="specify-endpoint-protection-service-settings"></a>Endpoint Protection 서비스 설정 지정
 
-|정책 설정|세부 정보|
-|------------------|--------------------|
-|**Endpoint Protection 설치**|관리 컴퓨터에 Endpoint Protection을 설치하려면 **예**로 설정합니다. 설치 중에 타사 끝점 보호 응용 프로그램이 검색된 경우 설정 **타사 끝점 보호 응용 프로그램이 설치된 경우에도 Endpoint Protection 설치**가 **예**로 설정되어 있지 않으면 Endpoint Protection이 설치되지 않습니다. **참고:** Intune Endpoint Protection은 관리 컴퓨터에 기본적으로 설치됩니다. 관리 컴퓨터에 Endpoint Protection을 설치하지 않으려면 명시적으로 이 정책을 **아니요**로 설정해야 합니다. 이전에 Endpoint Protection을 설치했는데 정책을 **아니요**로 업데이트하면 Endpoint Protection 클라이언트가 제거됩니다.<br />권장 값: **예**|
-|**타사 끝점 보호 앱이 설치된 경우에도 Endpoint Protection 설치**|타사 끝점 보호 응용 프로그램이 검색된 경우에도 **예**로 설정하여 Microsoft Intune Endpoint Protection을 설치합니다.<br /><br />권장 값: **예**|
-|**Endpoint Protection 사용**|**예**로 설정하여 Endpoint Protection 클라이언트가 있는 컴퓨터에서 Microsoft Intune Endpoint Protection을 활성화합니다.<br /><br />**아니요**로 설정하고 Microsoft Intune Endpoint Protection을 설치하는 경우 Endpoint Protection 클라이언트 사용자 인터페이스가 사용자에게 표시되지 않으며 모든 보호 기능이 비활성화됩니다.<br /><br />권장 값: **예**|
-|**클라이언트 UI 사용 안 함**|사용자에게 Microsoft Intune Endpoint Protection 클라이언트 사용자 인터페이스를 숨기려면 **예**로 설정합니다(클라이언트 컴퓨터를 다시 시작해야 적용됨).<br /><br />권장 값: **아니요**|
-|**타사 끝점 보호 앱이 설치된 경우에도 Endpoint Protection 설치**|타사 끝점 보호 응용 프로그램이 검색된 경우에도 Microsoft Intune Endpoint Protection을 강제로 설치하려면 **예**로 설정합니다.<br /><br />권장 값: **아니요**|
-|**맬웨어 치료 전에 시스템 복원 지점 만들기**|맬웨어 치료를 시작하기 전에 Windows 시스템 복원 지점을 만들려면 **예**로 설정합니다.<br /><br />권장 값: **예**|
-|**해결된 맬웨어 추적(일)**|Endpoint Protection에서 지정한 시간 동안에 해결된 맬웨어를 추적하므로 이전에 감염된 컴퓨터를 수동으로 검사할 수 있습니다.<br /><br />0 - 30일의 값을 지정할 수 있습니다.<br /><br />권장 값: **7일**|
+|                                                 정책 설정                                                  |                                                                                                                                                                                                                                                                                                                                                                                                             세부 정보                                                                                                                                                                                                                                                                                                                                                                                                             |
+|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                  <strong>Endpoint Protection 설치</strong>                                   | 관리 컴퓨터에 Endpoint Protection을 설치하려면 <strong>예</strong>로 설정합니다. 설치 중에 타사 끝점 보호 응용 프로그램이 검색된 경우 설정 <strong>타사 끝점 보호 응용 프로그램이 설치된 경우에도 Endpoint Protection 설치</strong>가 <strong>예</strong>로 설정되어 있지 않으면 Endpoint Protection이 설치되지 않습니다. <strong>참고:</strong> Intune Endpoint Protection은 관리 컴퓨터에 기본적으로 설치됩니다. 관리 컴퓨터에 Endpoint Protection을 설치하지 않으려면 명시적으로 이 정책을 <strong>아니요</strong>로 설정해야 합니다. 이전에 Endpoint Protection을 설치했는데 정책을 <strong>아니요</strong>로 업데이트하면 Endpoint Protection 클라이언트가 제거됩니다.<br />권장 값: <strong>예</strong> |
+| <strong>타사 끝점 보호 앱이 설치된 경우에도 Endpoint Protection 설치</strong> |                                                                                                                                                                                                                                                                                                                타사 끝점 보호 응용 프로그램이 검색된 경우에도 <strong>예</strong>로 설정하여 Microsoft Intune Endpoint Protection을 설치합니다.<br /><br />권장 값: <strong>예</strong>                                                                                                                                                                                                                                                                                                                |
+|                                   <strong>Endpoint Protection 사용</strong>                                   |                                                                                                                                                                                                            <strong>예</strong>로 설정하여 Endpoint Protection 클라이언트가 있는 컴퓨터에서 Microsoft Intune Endpoint Protection을 활성화합니다.<br /><br /><strong>아니요</strong>로 설정하고 Microsoft Intune Endpoint Protection을 설치하는 경우 Endpoint Protection 클라이언트 사용자 인터페이스가 사용자에게 표시되지 않으며 모든 보호 기능이 비활성화됩니다.<br /><br />권장 값: <strong>예</strong>                                                                                                                                                                                                             |
+|                                       <strong>클라이언트 UI 사용 안 함</strong>                                        |                                                                                                                                                                                                                                                                                                      사용자에게 Microsoft Intune Endpoint Protection 클라이언트 사용자 인터페이스를 숨기려면 <strong>예</strong>로 설정합니다(클라이언트 컴퓨터를 다시 시작해야 적용됨).<br /><br />권장 값: <strong>아니요</strong>                                                                                                                                                                                                                                                                                                       |
+| <strong>타사 끝점 보호 앱이 설치된 경우에도 Endpoint Protection 설치</strong> |                                                                                                                                                                                                                                                                                                       타사 끝점 보호 응용 프로그램이 검색된 경우에도 Microsoft Intune Endpoint Protection을 강제로 설치하려면 <strong>예</strong>로 설정합니다.<br /><br />권장 값: <strong>아니요</strong>                                                                                                                                                                                                                                                                                                       |
+|                    <strong>맬웨어 치료 전에 시스템 복원 지점 만들기</strong>                    |                                                                                                                                                                                                                                                                                                                                 맬웨어 치료를 시작하기 전에 Windows 시스템 복원 지점을 만들려면 <strong>예</strong>로 설정합니다.<br /><br />권장 값: <strong>예</strong>                                                                                                                                                                                                                                                                                                                                  |
+|                                 <strong>해결된 맬웨어 추적(일)</strong>                                  |                                                                                                                                                                                                                                                                                      Endpoint Protection에서 지정한 시간 동안에 해결된 맬웨어를 추적하므로 이전에 감염된 컴퓨터를 수동으로 검사할 수 있습니다.<br /><br />0 - 30일의 값을 지정할 수 있습니다.<br /><br />권장 값: <strong>7일</strong>                                                                                                                                                                                                                                                                                       |
+
 **Endpoint Protection 설치** 및 **Endpoint Protection 사용** 설정에 대한 정책 값을 **예**로 설정하고 **타사 끝점 보호 응용 프로그램이 설치된 경우에도 Endpoint Protection 설치**에 대한 정책 값을 **아니요**로 설정하면, Microsoft Intune Endpoint Protection은 다른 끝점 보호 응용 프로그램이 설치된 것으로 감지합니다. 즉, Endpoint Protection이 설치되지 않으며 이미 있는 경우 제거됩니다. 하지만 Intune의 Microsoft Intune Endpoint Protection은 다른 끝점 보호 응용 프로그램의 상태를 보고합니다.
 
   바이러스 및 스파이웨어와 같은 잠재적인 위협 요소가 PC에서 자체 설치 또는 실행하려고 할 때 Microsoft Security Essentials에서 실시간 보호로 경고를 보냅니다. 이 문제가 발생하는 순간 작업 표시줄의 오른쪽 알림 영역에 메시지가 표시됩니다.
@@ -145,10 +148,10 @@ Microsoft 활성 보호 서비스는 잠재적 위협에 대응하는 방법을 
 
 ## <a name="choose-management-tasks-for-endpoint-protection"></a>Endpoint Protection의 관리 작업 선택
 다음 작업을 통해 Endpoint Protection을 실행하는 관리 컴퓨터에서 다양한 관리 작업을 쉽게 수행할 수 있습니다.
- - 맬웨어 정의 업데이트
+- 맬웨어 정의 업데이트
   - Intune 콘솔 - **그룹** 작업 영역에서 업데이트할 컴퓨터를 선택합니다. **원격 작업** &gt; **맬웨어 정의 업데이트**를 선택합니다.
   - 관리 컴퓨터 - Windows 알림 영역에서 Endpoint Protection 클라이언트 소프트웨어를 시작합니다. **업데이트** 탭을 선택한 다음 **업데이트**를 선택합니다.
- - 맬웨어 검색 실행:
+- 맬웨어 검색 실행:
   - Intune 콘솔 - **그룹** 작업 영역에서 검색할 컴퓨터를 선택합니다. **전체 맬웨어 검색 실행** 또는 **빠른 맬웨어 검색 실행**을 선택합니다.
   - 관리 컴퓨터 - Windows 알림 영역에서 Endpoint Protection 클라이언트 소프트웨어를 시작합니다. **빠른**, **전체**또는 **사용자 지정**을 선택한 후 **지금 검색**을 선택합니다.
 
@@ -156,12 +159,12 @@ Intune 콘솔의 오른쪽 아래 모서리에 있는 **원격 작업** 링크�
 
 ## <a name="monitor-endpoint-protection"></a>Endpoint Protection 모니터링
 [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/) 의 **보호**작업 영역을 사용하여 컴퓨터의 맬웨어 상태를 모니터링할 수 있습니다. 이 작업 영역에는 다음 두 페이지가 포함되어 있습니다.
- - **보호 개요** - 추가 정보를 보기 위해 선택할 수 있는 링크로 중요 정보를 표시합니다. 표시되는 문제는 다음과 같습니다.
+- **보호 개요** - 추가 정보를 보기 위해 선택할 수 있는 링크로 중요 정보를 표시합니다. 표시되는 문제는 다음과 같습니다.
   - **추가 작업이 필요한 맬웨어 인스턴스** – 문제를 해결하기 위해 수행해야 하는 추가 작업이 포함된 맬웨어 문제 목록을 보려면 이 링크를 클릭합니다. 이 목록을 탐색하여 영향 받는 컴퓨터를 확인할 수 있습니다.
   - **추가 작업이 필요한 맬웨어 인스턴스** – 문제를 해결하기 위해 수행해야 하는 추가 작업뿐만 아니라 해결되지 않은 맬웨어 문제 목록을 보려면 이 링크를 클릭합니다.
   - **보호되지 않는 장치** – 소프트웨어가 설치되어 있지 않거나 오류가 발생하여 끝점 보호 소프트웨어에서 보호하지 않는 컴퓨터를 보려면 이 링크를 클릭합니다. 자세한 내용을 보려면 컴퓨터를 선택하세요.
   - **다른 끝점 보호 응용 프로그램을 실행 중인 장치** – 타사 끝점 보호 응용 프로그램을 실행하는 컴퓨터를 보려면 이 링크를 클릭합니다.
- - **모든 맬웨어** - 컴퓨터에서 검색된 모든 활성 맬웨어 목록을 표시합니다. 이 목록을 탐색하여 특정 맬웨어로 검색되는 모든 컴퓨터를 보거나 다음 작업 중 하나를 선택할 수 있습니다.
+- **모든 맬웨어** - 컴퓨터에서 검색된 모든 활성 맬웨어 목록을 표시합니다. 이 목록을 탐색하여 특정 맬웨어로 검색되는 모든 컴퓨터를 보거나 다음 작업 중 하나를 선택할 수 있습니다.
   - **속성 보기** – 선택한 맬웨어에 대한 추가 정보가 포함된 페이지를 엽니다.
   - **이 맬웨어에 대한 자세한 정보** – 맬웨어에 대한 추가 정보가 포함된 Microsoft 맬웨어 보호 센터의 항목을 엽니다.
 

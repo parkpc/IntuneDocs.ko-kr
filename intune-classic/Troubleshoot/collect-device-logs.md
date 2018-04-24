@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 979b1317adbb23f9ace27f15c49072798b67bb95
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: f07947a4064cbd6852edb93ea8d6d17e2c6d9101
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="device-logs"></a>장치 로그
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 문제 해결 과정의 일환으로 사용자 장치에서 로그를 수집할 수 있습니다. 이러한 로그를 수집하기 위한 지침은 여기에 설명되어 있습니다. 일반적으로 장치에 액세스하여 이러한 로그를 가져오거나, 사용자에게 로그를 수집하여 보내달라고 요청할 수 있습니다.
 
@@ -49,8 +49,8 @@ Android 로그는 *<Android Device>\Phone\Android\data\com.microsoft.windowsintu
 ### <a name="mac-os-x-logs"></a>Mac OS X 로그
 
 1. **Console(콘솔)** 앱을 엽니다.
-2. **FILES(파일)**에서 **system.log**를 선택합니다.
-3. 맨 위의 메뉴 모음에서 **File(파일)** > **Save a Copy As…(다른 이름으로 복사본 저장…)**를 선택하고 파일을 저장합니다.
+2. **FILES(파일)** 에서 **system.log**를 선택합니다.
+3. 맨 위의 메뉴 모음에서 **File(파일)** > **Save a Copy As…(다른 이름으로 복사본 저장…)** 를 선택하고 파일을 저장합니다.
 
 ### <a name="windows-phone"></a>Windows Phone
 

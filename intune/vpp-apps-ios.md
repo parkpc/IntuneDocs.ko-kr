@@ -15,16 +15,16 @@ ms.assetid: 51d45ce2-d81b-4584-8bc4-568c8c62653d
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bd9915f3120e2fee2b487fbfff0d775a9d50ef8a
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: 848f76f61ebf85201af18ab019d0546e48fcaa41
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-manage-ios-apps-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Microsoft Intune을 사용하여 대량 구매 프로그램을 통해 구매한 iOS 앱을 관리하는 방법
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 iOS 앱 스토어는 회사에서 실행하려는 앱의 라이선스를 여러 개 구매하는 기능을 제공합니다. 여러 복사본을 구매하면 회사에서 앱을 효율적으로 관리할 수 있습니다.
 
@@ -152,6 +152,17 @@ Microsoft Intune에서는 다음을 수행하여 이 프로그램을 통해 구�
 ## <a name="further-information"></a>추가 정보
 
 적합한 장치를 가진 사용자가 장치에 VPP 앱을 처음 설치하려고 하면 Apple Volume Purchase Program에 가입하라는 메시지가 표시됩니다. 가입해야만 앱 설치가 진행됩니다. Apple 대량 구매 프로그램 참여 초대를 받으려면 사용자가 iOS 장치에서 iTunes 앱을 사용할 수 있어야 합니다. iTunes Store 앱을 사용하지 않도록 하는 정책을 설정한 경우에는 VPP 앱용 사용자 기반 라이선싱이 적용되지 않습니다. 이 경우에는 정책을 제거하여 iTunes 앱을 허용하거나, 장치 기반 라이선싱을 사용하면 됩니다.
+
+## <a name="frequently-asked-questions"></a>질문과 대답
+
+#### <a name="how-long-does-the-portal-take-to-update-the-license-count-once-an-app-is-installed-or-removed-from-the-device"></a>앱이 설치되거나 장치에서 제거되면 포털이 라이선스 개수를 업데이트하는 데 얼마나 걸리나요?
+라이선스는 앱을 설치하거나 제거한 후에 몇 시간 이내에 업데이트되어야 합니다. 최종 사용자가 장치에서 앱을 제거하는 경우 라이선스는 여전히 해당 사용자 또는 장치에 할당되어 있습니다.
+
+#### <a name="is-it-possible-to-oversubscribe-an-app-and-if-so-in-what-circumstance"></a>앱을 초과 구독할 수 있나요, 그렇다면 어떤 상황에서 가능한가요?
+예. Intune 관리자는 앱을 초과 구독할 수 있습니다. 예를 들어 관리자가 XYZ 앱에 대한 100개의 라이선스를 구입한 다음, 500명의 멤버를 포함한 그룹에 앱을 대상으로 지정하는 경우 처음 100명의 멤버(사용자 또는 장치)는 라이선스를 할당받습니다. 그리고 나머지 멤버는 라이선스 할당에 실패합니다.
+
+#### <a name="i-understand-intune-automatically-syncs-app-licenses-each-day-with-apple-is-that-correct"></a>Intune이 Apple과 앱 라이선스를 매일 자동으로 동기화하는 것이 맞나요?
+Intune에서는 Apple과 15시간마다 앱 라이선스를 동기화합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

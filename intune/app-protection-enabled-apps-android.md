@@ -1,29 +1,29 @@
 ---
-title: "앱 보호 정책을 사용하는 Android 앱"
+title: 앱 보호 정책을 사용하는 Android 앱
 titlesuffix: Microsoft Intune
-description: "보호 정책이 있는 Android 앱에서 예상되는 상황을 알아봅니다."
-keywords: 
+description: 보호 정책이 있는 Android 앱에서 예상되는 상황을 알아봅니다.
+keywords: ''
 author: erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 12/07/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: a6816285-8e43-4dc8-bca0-e80ec5ef01e6
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: af25dc918907e086441a89f222985a75199bbe95
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 450bcd9c807bdfae16e9c2fa1eb813b00444df65
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="what-to-expect-when-your-android-app-is-managed-by-app-protection-policies"></a>Android 앱이 앱 보호 정책에 의해 관리될 때 예상되는 상황 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 보호 정책이 있는 Android 앱에서 예상되는 상황을 알아봅니다. 앱 보호 정책은 앱이 회사 컨텍스트에서 사용되는 경우에만 적용됩니다. 예를 들어 회사 계정을 사용하여 앱에 액세스할 때 또는 회사의 OneDrive 위치에 저장된 파일에 액세스할 때입니다.
 ##  <a name="accessing-apps"></a>앱 액세스
@@ -75,9 +75,11 @@ Google Play 스토어에서 이 응앱을 다운로드합니다.
 * **문서:** PDF, PPDF
 
 ------------
-|**pfile**|**텍스트**|
-|----|----|
-|Pfile은 보호된 파일에 대한 일반 "래퍼" 형식입니다. 암호화된 콘텐츠 및 Azure Information Protection 라이선스를 캡슐화합니다. pfile을 사용하면 모든 파일 형식을 보호할 수 있습니다.|XML, CSV 등을 포함하는 텍스트 파일은 보호되는 경우에도 앱에서 열어서 볼 수 있습니다. 파일 형식: txt, ptxt, csv, pcsv, log, plog, xml, pxml|
+
+|                                                                                 <strong>pfile</strong>                                                                                 |                                                                      <strong>텍스트</strong>                                                                      |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Pfile은 보호된 파일에 대한 일반 "래퍼" 형식입니다. 암호화된 콘텐츠 및 Azure Information Protection 라이선스를 캡슐화합니다. pfile을 사용하면 모든 파일 형식을 보호할 수 있습니다. | XML, CSV 등을 포함하는 텍스트 파일은 보호되는 경우에도 앱에서 열어서 볼 수 있습니다. 파일 형식: txt, ptxt, csv, pcsv, log, plog, xml, pxml |
+
 ---------------
 ## <a name="next-steps"></a>다음 단계
 [iOS 앱이 앱 보호 정책으로 관리될 때 예상되는 상황](app-protection-enabled-apps-ios.md)

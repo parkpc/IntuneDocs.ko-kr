@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ae0acf53a4987dac21e576826477d32da1f56155
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 2e3e71f52979f6285a14c5cc4fe26ea912cb3a42
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="azure-portal-for-intune-app-protection-policies"></a>Intune 앱 보호 정책용 Azure Portal
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Azure Portal은 다음에 대한 앱 보호 정책을 만들고 관리하는 데 사용됩니다.
 
@@ -32,9 +32,9 @@ Azure Portal은 다음에 대한 앱 보호 정책을 만들고 관리하는 데
 - 장치에서 실행되는 앱을 모든 MDM 솔루션에 **등록하지 않음**.
 - 장치에서 실행되는 앱 중에서 **타사 MDM 솔루션에 등록된 앱**.
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > Azure Portal은 앱 보호 정책을 만들 수 있는 새로운 관리 콘솔이지만 MDM 시나리오에서 [Intune 관리 콘솔](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)을 사용하여 Intune에 등록된 장치의 앱을 지원하는 앱 보호 정책을 만들 수도 있습니다.
-
+> 
 > Intune 관리 콘솔에서 사용할 수 있는 앱 보호 정책 설정이 일부 나타나지 않을 수도 있습니다. 또한 Intune 관리 콘솔과 Azure Portal 둘 다에서 앱 보호 정책을 만들 경우 Azure Portal에서 만든 정책이 Intune 관리 콘솔에서 만든 정책을 재정의합니다. 이 시나리오에서는 Azure Portal 앱 보호 정책을 앱에 적용하여 사용자에게 배포합시다.
 
 

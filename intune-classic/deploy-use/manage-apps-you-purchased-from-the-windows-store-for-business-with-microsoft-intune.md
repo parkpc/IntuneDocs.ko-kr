@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 50fc27efc34ab6c13fad714e41be0d87c5ab0df9
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: b32f9c6be910156c26b446b7bf70a7975b4afaff
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="manage-apps-you-purchased-from-the-microsoft-store-for-business-with-microsoft-intune"></a>Microsoft Intune을 사용하여 비즈니스용 Microsoft 스토어에서 구입한 앱 관리
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 [비즈니스용 Microsoft 스토어](https://www.microsoft.com/business-store)는 개별적으로 또는 대량으로 조직에 대한 앱을 찾고 구입할 수 있는 위치를 제공합니다. 저장소를 Microsoft Intune에 연결하여 Intune 콘솔에서 대용량 구입 앱을 관리할 수 있습니다. 예를 들면 다음과 같습니다.
 * Intune을 사용하여 저장소에서 구입한 앱 목록을 동기화할 수 있습니다.
@@ -57,8 +57,8 @@ Intune 콘솔에서 동기화를 사용하기 전에 관리 도구로 Intune을 
 1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com)에서 **관리자**를 선택합니다.
 2. **관리** 작업 영역에서 **모바일 장치 관리**  >  **Windows**를 확장한 후 **비즈니스용 스토어**를 클릭합니다.
 3. **비즈니스용 Microsoft 스토어** 페이지에서 다음을 수행합니다.
- * 아직 수행하지 않은 경우에는 링크를 클릭하여 비즈니스용 Microsoft 스토어에 등록합니다.
- * 등록했으면 **동기화 구성**을 선택합니다.
+   * 아직 수행하지 않은 경우에는 링크를 클릭하여 비즈니스용 Microsoft 스토어에 등록합니다.
+   * 등록했으면 **동기화 구성**을 선택합니다.
 4. **비즈니스용 Microsoft 스토어 앱 동기화 구성** 대화 상자에서 **비즈니스용 Microsoft 스토어 동기화 사용**을 선택합니다.
 5. **언어** 드롭다운 목록에서 Intune 콘솔에 표시될 비즈니스용 Microsoft 스토어에서 앱의 언어를 선택합니다. 표시되는 언어에 관계 없이 사용 가능한 경우 최종 사용자의 언어로 설치됩니다.
 6. **확인**을 클릭합니다.

@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 23ae8afbf6c200f983ebee8a94fff42f65ec2486
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 4d224ceb819b6b0b4be0596c46d7bb20a98ddd97
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-corporate-owned-devices-by-using-intune"></a>Intune을 사용하여 회사 소유 장치 등록
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 장치 유형, 장치 구매 방법, 조직의 요구 사항에 따라 다양한 방법으로 Intune을 통해 관리할 조직 소유 또는 회사 소유 장치를 등록할 수 있습니다. 회사 포털 앱을 설치하여 BYOD(Bring Your Own Device) 시나리오의 경우처럼 회사 소유 장치를 등록하고 관리할 수도 있습니다.
 

@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dougeby
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d29cd4ae545bfa684eea6c679c2f69957651402a
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: bac3bc13f302dc9c89c9f84b7e65610e92f5ccf2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="choose-how-to-manage-devices"></a>장치를 관리하는 방법 선택
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 앱 배포와 같이 Intune에서 제공하는 다양한 기능을 활용하고 장치 설정을 제어하려면 장치를 *관리*해야 합니다. 장치를 관리하는 방법은 사용하려는 Intune 기능에 따라 달라집니다. 이 항목에서는 요구 사항을 충족하는 방법을 선택하도록 도와줍니다.
 

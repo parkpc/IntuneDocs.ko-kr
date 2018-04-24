@@ -1,27 +1,27 @@
 ---
-title: "PC 클라이언트 소프트웨어 설치"
-description: "이 가이드를 사용하여 Microsoft Intune 클라이언트 소프트웨어에서 관리되는 Windows PC를 얻을 수 있습니다."
-keywords: 
+title: PC 클라이언트 소프트웨어 설치
+description: 이 가이드를 사용하여 Microsoft Intune 클라이언트 소프트웨어에서 관리되는 Windows PC를 얻을 수 있습니다.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 ms.date: 07/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9316f78155b38f74765a353186a29dc90afce547
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 56ae374f5b930c55fbe12305f4246c52e6213a20
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="install-the-intune-software-client-on-windows-pcs"></a>Windows PC에 Intune 소프트웨어 클라이언트 설치
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune 클라이언트 소프트웨어를 설치하여 Windows PC를 등록할 수 있습니다. Intune 클라이언트 소프트웨어는 다음 방법으로 설치할 수 있습니다.
 
@@ -39,13 +39,13 @@ Intune 클라이언트 소프트웨어에는 PC를 Intune 관리에 등록하는
 
 사용자가 Intune 클라이언트 소프트웨어를 직접 설치하는 방법을 제외한 모든 방법에서는 IT 관리자가 최종 사용자에게 소프트웨어를 배포할 수 있도록 먼저 다운로드해야 합니다.
 
-1.  [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **관리** &gt; **클라이언트 소프트웨어 다운로드**를 클릭합니다.
+1. [Microsoft Intune 관리 콘솔](https://manage.microsoft.com/)에서 **관리** &gt; **클라이언트 소프트웨어 다운로드**를 클릭합니다.
 
-  ![Intune PC 클라이언트 다운로드](../media/pc-sa-client-download.png)
+   ![Intune PC 클라이언트 다운로드](../media/pc-sa-client-download.png)
 
 2. **클라이언트 소프트웨어 다운로드** 페이지에서 **클라이언트 소프트웨어 다운로드**를 클릭합니다. 그런 다음 소프트웨어가 포함된 **Microsoft_Intune_Setup.zip** 패키지를 네트워크의 안전한 위치에 저장합니다.
 
-  Intune 클라이언트 소프트웨어 설치 패키지에는 사용자 계정에 대한 고유한 특정 정보가 포함되어 있으며, 이 정보는 포함된 인증서를 통해 사용할 수 있습니다. 권한이 없는 사용자가 설치 패키지에 대한 액세스 권한을 얻는 경우 포함된 인증서에 표시된 계정에 PC를 등록하고 회사 리소스에 대한 액세스 권한을 얻을 수 있습니다.
+   Intune 클라이언트 소프트웨어 설치 패키지에는 사용자 계정에 대한 고유한 특정 정보가 포함되어 있으며, 이 정보는 포함된 인증서를 통해 사용할 수 있습니다. 권한이 없는 사용자가 설치 패키지에 대한 액세스 권한을 얻는 경우 포함된 인증서에 표시된 계정에 PC를 등록하고 회사 리소스에 대한 액세스 권한을 얻을 수 있습니다.
 
 3. 설치 패키지의 콘텐츠를 네트워크의 안전한 위치로 추출합니다.
 

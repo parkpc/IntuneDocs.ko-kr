@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 7654e5235fc30f46f67d35544a92c4bd25ac5c86
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 816a235136d91f2691e6be442036515544c004b2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="frequently-asked-questions-about-mam-and-app-protection"></a>MAM 및 앱 보호에 대한 질문과 대답
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이 문서에서는 Intune MAM(모바일 응용 프로그램 관리) 및 Intune 앱 보호에 대한 일부 질문과 대답을 제공합니다.
 
@@ -61,23 +61,23 @@ ms.lasthandoff: 03/22/2018
 
 **[Outlook 모바일 앱](https://www.microsoft.com/outlook-com/mobile/) 사용에 대한 추가 요구 사항은 무엇인가요?**
 
-  1. 최종 사용자는 장치에 Outlook 모바일 앱이 설치되어 있어야 합니다.
+1. 최종 사용자는 장치에 Outlook 모바일 앱이 설치되어 있어야 합니다.
 
-  2. 최종 사용자는 [Office 365 Exchange Online](https://products.office.com/exchange/exchange-online) 사서함 및 라이선스가 Azure Active Directory 계정에 연결되어 있어야 합니다.
+2. 최종 사용자는 [Office 365 Exchange Online](https://products.office.com/exchange/exchange-online) 사서함 및 라이선스가 Azure Active Directory 계정에 연결되어 있어야 합니다.
 
-  >[!NOTE]
-  > Outlook 모바일 앱은 현재 Microsoft Exchange Online만 지원하며 Exchange 온-프레미스 또는 Office 365 전용 Exchange는 지원하지 않습니다.
+   >[!NOTE]
+   > Outlook 모바일 앱은 현재 Microsoft Exchange Online만 지원하며 Exchange 온-프레미스 또는 Office 365 전용 Exchange는 지원하지 않습니다.
 
 **[Word, Excel 및 PowerPoint](https://products.office.com/business/office) 앱 사용에 대한 추가 요구 사항은 무엇인가요?**
 
-  1. 최종 사용자는 [Office 365 Business 또는 Enterprise](https://products.office.com/business/compare-more-office-365-for-business-plans)에 대한 라이선스가 자신의 Azure Active Directory 계정에 할당되어야 합니다. 구독에는 모바일 장치의 Office 앱이 포함되어야 하며 [비즈니스용 OneDrive](https://onedrive.live.com/about/business/)의 클라우드 저장소 계정을 포함할 수 있습니다. 다음 [지침](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)에 따라 [Office 포털](http://portal.office.com)에서 Office 365 라이선스를 할당받을 수 있습니다.
+1. 최종 사용자는 [Office 365 Business 또는 Enterprise](https://products.office.com/business/compare-more-office-365-for-business-plans)에 대한 라이선스가 자신의 Azure Active Directory 계정에 할당되어야 합니다. 구독에는 모바일 장치의 Office 앱이 포함되어야 하며 [비즈니스용 OneDrive](https://onedrive.live.com/about/business/)의 클라우드 저장소 계정을 포함할 수 있습니다. 다음 [지침](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)에 따라 [Office 포털](http://portal.office.com)에서 Office 365 라이선스를 할당받을 수 있습니다.
 
-  2. “다른 이름으로 저장 금지” 응용 프로그램 보호 정책 설정에서 세분화된 저장을 기능으로 사용하여 구성된 관리 위치가 최종 사용자에게 있어야 합니다. 예를 들어 관리 위치가 OneDrive인 경우 최종 사용자의 Word, Excel 또는 PowerPoint 앱에 [OneDrive](https://onedrive.live.com/about/) 앱이 구성되어 있어야 합니다.
+2. “다른 이름으로 저장 금지” 응용 프로그램 보호 정책 설정에서 세분화된 저장을 기능으로 사용하여 구성된 관리 위치가 최종 사용자에게 있어야 합니다. 예를 들어 관리 위치가 OneDrive인 경우 최종 사용자의 Word, Excel 또는 PowerPoint 앱에 [OneDrive](https://onedrive.live.com/about/) 앱이 구성되어 있어야 합니다.
 
-  3. 관리 위치가 OneDrive인 경우 해당 앱이 최종 사용자에게 배포된 앱 보호 정책의 대상으로 지정되어야 합니다.
+3. 관리 위치가 OneDrive인 경우 해당 앱이 최종 사용자에게 배포된 앱 보호 정책의 대상으로 지정되어야 합니다.
 
-  >[!NOTE]
-  > Office 모바일 앱은 현재 SharePoint Online만 지원하고 SharePoint 온-프레미스는 지원하지 않습니다.
+   >[!NOTE]
+   > Office 모바일 앱은 현재 SharePoint Online만 지원하고 SharePoint 온-프레미스는 지원하지 않습니다.
 
 **Office에 관리 위치(예: OneDrive)가 필요한 이유는 무엇인가요?** Intune에서는 앱의 모든 데이터를 "회사" 또는 "개인" 데이터로 표시합니다. 데이터는 비즈니스 위치에서 시작될 경우 "회사" 데이터로 간주됩니다. Office 앱의 경우 Intune은 전자 메일(Exchange) 또는 클라우드 저장소(비즈니스용 OneDrive 계정이 있는 OneDrive 앱)를 비즈니스 위치로 간주합니다.
 
@@ -124,15 +124,15 @@ MAM(iOS)은 현재 영숫자 및 특수 문자를 사용하는 응용 프로그�
 
 **Intune에서는 어떻게 원격으로 데이터를 초기화하나요?** Intune에서는 전체 장치 초기화, MDM에 대한 선택적 초기화 및 MAM 선택적 초기화라는 세 가지 방법으로 앱 데이터를 초기화할 수 있습니다. MDM의 원격 초기화에 대한 자세한 내용은 [Microsoft Intune을 사용하여 원격 초기화 또는 선택적 초기화로 데이터 보호 지원](../deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)을 참조하세요. MAM를 사용한 선택적 초기화에 대한 자세한 내용은 [Microsoft Intune을 사용하여 관리되는 업무용 앱 데이터 초기화](../deploy-use/wipe-managed-company-app-data-with-microsoft-intune.md)를 참조하세요.
 
-  1. **전체 초기화란?** [전체 초기화](../deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune.md#full-wipe)는 장치를 출하 시 기본 설정으로 복원하여 **장치**에서 모든 사용자 데이터 및 설정을 제거합니다. 그리고 장치가 Intune에서 제거됩니다.
-  >[!NOTE]
-  > 전체 초기화는 Intune MDM(모바일 장치 관리)에 등록된 장치에서만 수행할 수 있습니다.
+1. **전체 초기화란?** [전체 초기화](../deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune.md#full-wipe)는 장치를 출하 시 기본 설정으로 복원하여 **장치**에서 모든 사용자 데이터 및 설정을 제거합니다. 그리고 장치가 Intune에서 제거됩니다.
+   >[!NOTE]
+   > 전체 초기화는 Intune MDM(모바일 장치 관리)에 등록된 장치에서만 수행할 수 있습니다.
 
-  2. **MDM에 대한 선택적 초기화란?** 선택적 초기화에 대한 자세한 내용은 [Microsoft Intune을 사용하여 전체 또는 선택적 초기화를 통해 데이터 보호 지원](../deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune.md#selective-wipe)을 참조하세요.
+2. **MDM에 대한 선택적 초기화란?** 선택적 초기화에 대한 자세한 내용은 [Microsoft Intune을 사용하여 전체 또는 선택적 초기화를 통해 데이터 보호 지원](../deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune.md#selective-wipe)을 참조하세요.
 
-  3. **MAM에 대한 선택적 초기화란?** MAM에 대한 선택적 초기화는 단순히 앱에서 업무용 앱 데이터를 제거합니다. 이 요청은 Intune Azure Portal 포털에서 시작됩니다. 초기화 요청을 시작하는 방법을 알아보려면 [Microsoft Intune을 사용하여 관리되는 업무용 앱 데이터 초기화](../deploy-use/wipe-managed-company-app-data-with-microsoft-intune.md)를 참조하세요.
+3. **MAM에 대한 선택적 초기화란?** MAM에 대한 선택적 초기화는 단순히 앱에서 업무용 앱 데이터를 제거합니다. 이 요청은 Intune Azure Portal 포털에서 시작됩니다. 초기화 요청을 시작하는 방법을 알아보려면 [Microsoft Intune을 사용하여 관리되는 업무용 앱 데이터 초기화](../deploy-use/wipe-managed-company-app-data-with-microsoft-intune.md)를 참조하세요.
 
-  4. **MAM에 대한 선택적 초기화는 얼마나 빠르게 수행되나요?** 선택적 초기화가 시작된 상태로 앱을 사용하면 Intune 앱 SDK는 Intune MAM 서비스에서 선택적 초기화 요청을 30분 간격으로 확인합니다. 또한 사용자가 앱을 처음 시작하고 회사 또는 학교 계정으로 로그인할 때에도 선택적 초기화를 확인합니다.
+4. **MAM에 대한 선택적 초기화는 얼마나 빠르게 수행되나요?** 선택적 초기화가 시작된 상태로 앱을 사용하면 Intune 앱 SDK는 Intune MAM 서비스에서 선택적 초기화 요청을 30분 간격으로 확인합니다. 또한 사용자가 앱을 처음 시작하고 회사 또는 학교 계정으로 로그인할 때에도 선택적 초기화를 확인합니다.
 
 **온-프레미스 서비스가 Intune 보호 앱에 작동하지 않는 이유는 무엇인가요?** Intune 앱 보호 기능은 응용 프로그램과 Intune 앱 SDK에서 일관되게 작동하기 위해 사용자의 ID에 의존합니다. 이를 보장하는 유일한 방법은 최신 인증뿐입니다. 앱이 온-프레미스 구성에 작동하는데도 일관되거나 보장되지 않는 시나리오가 있습니다.
 

@@ -1,25 +1,25 @@
 ---
-title: "REST 클라이언트를 사용하여 데이터 웨어하우스 API에서 데이터 가져오기"
+title: REST 클라이언트를 사용하여 데이터 웨어하우스 API에서 데이터 가져오기
 titlesuffix: Microsoft Intune
-description: "RESTful API를 사용하여 Intune 데이터 웨어하우스에서 데이터를 검색합니다."
-keywords: 
+description: RESTful API를 사용하여 Intune 데이터 웨어하우스에서 데이터를 검색합니다.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 02/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: D6D15039-4036-446C-A58F-A5E18175720A
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 22bfcc4e2947cba54509409132da3687d51a472d
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 5ba065b53560a4e1d3f1fffbe6cea56e85da0f06
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="get-data-from-the-intune-data-warehouse-api-with-a-rest-client"></a>REST 클라이언트를 사용하여 Intune 데이터 웨어하우스 API에서 데이터 가져오기
 
@@ -45,7 +45,7 @@ Azure에서 네이티브 앱을 만듭니다. 이 네이티브 앱은 클라이�
     3.  **로그온 URL**의 URL을 입력합니다. 로그온 URL은 구체적인 시나리오에 따라 달라지지만, Postman을 사용하려는 경우 `https://www.getpostman.com/oauth2/callback`을 입력합니다. Azure AD에 인증할 때 클라이언트 인증 단계에 콜백을 사용합니다.
 4.  **만들기**를 선택합니다.
 
-     ![Intune 데이터 웨어하우스 API](media\reports-get_rest_data_client_overview.png)
+     ![Intune 데이터 웨어하우스 API](./media/reports-get_rest_data_client_overview.png)
 
 5. 이 앱의 **응용 프로그램 ID**를 기록해 둡니다. 다음 섹션에서 이 ID를 사용합니다.
 
@@ -62,7 +62,7 @@ Azure에서 네이티브 앱을 만듭니다. 이 네이티브 앱은 클라이�
 7.  **선택**을 선택합니다.
 8.  **위임된 권한** 상자를 선택하여 **Get data warehouse information from Microsoft Intune**(Microsoft Intune에서 데이터 웨어하우스 정보 가져오기)을 추가합니다.
 
-    ![액세스 사용 - Microsot Intune API](media\reports-get_rest_data_client_access.png)
+    ![액세스 사용 - Microsot Intune API](./media/reports-get_rest_data_client_access.png)
 
 9.  **선택**을 선택합니다.
 10.  **완료**를 선택합니다.
@@ -132,7 +132,7 @@ Postman에 대한 새 액세스 토큰을 가져오려면 Azure AD 권한 부여
 
 12. **Request Token**(토큰 요청)을 선택합니다.
 
-    ![토큰에 대한 정보](media\reports-postman_getnewtoken.png)
+    ![토큰에 대한 정보](./media/reports-postman_getnewtoken.png)
 
 13. Active AD 권한 부여 페이지에서 자격 증명을 입력합니다. Postman의 토큰 목록에 이제 `Bearer`라는 토큰이 들어 있습니다.
 14. **Use Token**(토큰 사용)을 선택합니다. 헤더 목록에는 권한 부여의 새 키 값과 `Bearer <your-authorization-token>` 값이 포함되어 있습니다.
@@ -142,7 +142,7 @@ Postman에 대한 새 액세스 토큰을 가져오려면 Azure AD 권한 부여
 1.  **보내기**를 선택합니다.
 2.  반환 데이터는 Postman 응답 본문에 표시됩니다.
 
-    ![Postman 200OK](media\reports-postman_200OK.png)
+    ![Postman 200OK](./media/reports-postman_200OK.png)
 
 ## <a name="create-a-rest-client-c-to-get-data-from-the-intune-data-warehouse"></a>Intune 데이터 웨어하우스에서 데이터를 가져오기 위한 REST 클라이언트(C#) 만들기
 
@@ -151,45 +151,45 @@ Postman에 대한 새 액세스 토큰을 가져오려면 Azure AD 권한 부여
 > [!Note]  
 > [GitHub의 샘플](https://github.com/Microsoft/Intune-Data-Warehouse/blob/master/Samples/CSharp/Program.cs)인 다음 코드에 액세스할 수 있습니다. 샘플에 대한 최신 변경 내용 및 업데이트는 GitHub 리포지토리를 참조하세요.
 
-1.  **Microsoft Visual Studio**를 엽니다.
-2.  **파일** > **새 프로젝트**를 선택합니다. **Visual C#**을 확장하고 **콘솔 앱(.Net Framework)**을 선택합니다.
-3.  프로젝트 이름을 ` IntuneDataWarehouseSamples`로 지정하고 프로젝트를 저장할 위치로 이동한 다음 **확인**을 선택합니다.
-4.  솔루션 탐색기에서 솔루션의 이름을 마우스 오른쪽 단추로 클릭한 다음 **솔루션용 NuGet 패키지 관리**를 선택합니다. **찾아보기**를 클릭한 다음 검색 상자에서 `Microsoft.IdentityModel.Clients.ActiveDirectory`를 선택합니다.
+1. **Microsoft Visual Studio**를 엽니다.
+2. **파일** > **새 프로젝트**를 선택합니다. **Visual C#** 을 확장하고 **콘솔 앱(.Net Framework)** 을 선택합니다.
+3. 프로젝트 이름을 ` IntuneDataWarehouseSamples`로 지정하고 프로젝트를 저장할 위치로 이동한 다음 **확인**을 선택합니다.
+4. 솔루션 탐색기에서 솔루션의 이름을 마우스 오른쪽 단추로 클릭한 다음 **솔루션용 NuGet 패키지 관리**를 선택합니다. **찾아보기**를 클릭한 다음 검색 상자에서 `Microsoft.IdentityModel.Clients.ActiveDirectory`를 선택합니다.
 5. 패키지를 선택하고 솔루션 패키지 관리에서 **IntuneDataWarehouseSamples** 프로젝트를 선택한 다음 **설치**를 선택합니다.
 6. **동의함**을 선택하여 NuGet 패키지 라이선스에 동의합니다.
 7. 솔루션 탐색기에서 `Program.cs`를 엽니다.
 
-    ![Visual Studio의 프로젝트](media\reports-get_rest_data_in.png)
+    ![Visual Studio의 프로젝트](./media/reports-get_rest_data_in.png)
 
-8.  Program.cs의 코드를 다음 코드로 바꿉니다.  
-    ```csharp
-namespace IntuneDataWarehouseSamples
-{
-    using System;
-    using System.Net.Http;
-    using System.Net.Http.Headers;
-    using Microsoft.IdentityModel.Clients.ActiveDirectory;
+8. Program.cs의 코드를 다음 코드로 바꿉니다.  
+   ```csharp
+   namespace IntuneDataWarehouseSamples
+   {
+   using System;
+   using System.Net.Http;
+   using System.Net.Http.Headers;
+   using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
-    class Program
-    {
-     static void Main(string[] args)
-  {
+   class Program
+   {
+    static void Main(string[] args)
+   {
    /**
-    * TODO: Replace the below values with your own.
-    * emailAddress - The email address of the user that you will authenticate as.
-    *
-    * password  - The password for the above email address.
-    *    This is inline only for simplicity in this sample. We do not
-    *    recommend storing passwords in plaintext.
-    *
-    * applicationId - The application ID of the native app that was created in AAD.
-    *
-    * warehouseUrl   - The data warehouse URL for your tenant. This can be found in
-    *      the Azure portal.
-    *
-    * collectionName - The name of the warehouse entity collection you would like to
-    *      access.
-    */
+   * TODO: Replace the below values with your own.
+   * emailAddress - The email address of the user that you will authenticate as.
+   *
+   * password  - The password for the above email address.
+   *    This is inline only for simplicity in this sample. We do not
+   *    recommend storing passwords in plaintext.
+   *
+   * applicationId - The application ID of the native app that was created in AAD.
+   *
+   * warehouseUrl   - The data warehouse URL for your tenant. This can be found in
+   *      the Azure portal.
+   *
+   * collectionName - The name of the warehouse entity collection you would like to
+   *      access.
+   */
    var emailAddress = "intuneadmin@yourcompany.com";
    var password = "password_of(intuneadmin@yourcompany.com)";
    var applicationId = "<Application ID>";
@@ -198,9 +198,9 @@ namespace IntuneDataWarehouseSamples
 
    var adalContext = new AuthenticationContext("https://login.windows.net/common/oauth2/token");
    AuthenticationResult authResult = adalContext.AcquireTokenAsync(
-    resource: "https://api.manage.microsoft.com/",
-    clientId: applicationId,
-    userCredential: new UserPasswordCredential(emailAddress, password)).Result;
+   resource: "https://api.manage.microsoft.com/",
+   clientId: applicationId,
+   userCredential: new UserPasswordCredential(emailAddress, password)).Result;
 
    var httpClient = new HttpClient();
    httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", authResult.AccessToken);
@@ -212,16 +212,16 @@ namespace IntuneDataWarehouseSamples
 
    Console.Write(response.Content.ReadAsStringAsync().Result);
    Console.ReadKey();
-  }
-    }
-    ```
+   }
+   }
+   ```
 
-9.  코드 샘플의 `TODO`를 업데이트합니다.
-10.  **Ctrl + F5**를 눌러 디버그 모드에서 Intune.DataWarehouseAPIClient 클라이언트를 빌드하고 실행합니다.
+9. 코드 샘플의 `TODO`를 업데이트합니다.
+10. **Ctrl + F5**를 눌러 디버그 모드에서 Intune.DataWarehouseAPIClient 클라이언트를 빌드하고 실행합니다.
 
-    ![JSON 형식으로 검색된 날짜 엔터티](media\reports-get_rest_data_output.png)
+    ![JSON 형식으로 검색된 날짜 엔터티](./media/reports-get_rest_data_output.png)
 
-11.  콘솔 출력을 검토합니다. 출력에는 Intune 테넌트의 **dates** 엔터티에서 끌어온 JSON 형식의 데이터가 포함되어 있습니다.
+11. 콘솔 출력을 검토합니다. 출력에는 Intune 테넌트의 **dates** 엔터티에서 끌어온 JSON 형식의 데이터가 포함되어 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

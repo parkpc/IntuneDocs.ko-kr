@@ -15,15 +15,15 @@ ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 896c984cb5831dc84a041d4ad39e4cdf6819f0f8
-ms.sourcegitcommit: 820f950d1fc80b1eb5db1b0cf77f44d92a969951
+ms.openlocfilehash: e2759146634f16e5d92ca8c497aa2856f071a679
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-enrollment-for-windows-devices"></a>Windows 장치에 대한 등록 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이 항목은 IT 관리자가 사용자를 위해 Windows 등록을 간소화하는 데 도움이 됩니다. [Intune을 설정](setup-steps.md)한 후에는 사용자가 회사 또는 학교 계정으로 [로그인](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows)하여 Windows 장치를 등록합니다.  
 
@@ -48,7 +48,7 @@ Intune 관리자는 다음과 같은 방식으로 등록을 간소화할 수 있
 **다중 사용자 지원**<br>
 Intune에 의한 다중 사용자 관리를 위해, Windows 10 크리에이터스 업데이트를 실행하고 Azure Active Directory 도메인에 가입된 장치가 지원됩니다. 표준 사용자가 Azure AD 자격 증명으로 로그온하는 경우 해당 사용자 이름에 할당된 앱과 정책을 받게 됩니다. 현재 사용자가 앱 설치와 같은 셀프 서비스의 경우 회사 포털을 사용할 수 없습니다.
 
-[!INCLUDE[AAD-enrollment](./includes/win10-automatic-enrollment-aad.md)]
+[!INCLUDE [AAD-enrollment](./includes/win10-automatic-enrollment-aad.md)]
 
 ## <a name="simplify-windows-enrollment-without-azure-ad-premium"></a>Azure AD Premium을 사용하지 않고 Windows 등록 간소화
 등록 요청을 Intune 서버에 자동으로 리디렉션하는 DNS(도메인 이름 서버) 별칭(CNAME 레코드 종류)을 만들어 사용자 등록을 간소화할 수 있습니다. DNS CNAME 리소스 레코드를 만들지 않으면 Intune에 연결하려는 사용자가 등록 중에 Intune 서버 이름을 입력해야 합니다.

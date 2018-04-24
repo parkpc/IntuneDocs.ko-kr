@@ -1,27 +1,27 @@
 ---
-title: "Microsoft Intune 장치 등록이란?"
+title: Microsoft Intune 장치 등록이란?
 titlesuffix: Microsoft Intune
-description: "iOS, Android 및 Windows 장치 등록에 대해 알아봅니다."
-keywords: 
+description: iOS, Android 및 Windows 장치 등록에 대해 알아봅니다.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 12/29/2017
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9f49178a2d8e8a73a693ed2f374b86b8e702680f
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: c4be5c1897c4358d2eee83fa97e710136dd0379d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="what-is-device-enrollment"></a>장치 등록이란?
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune을 사용하여 직원의 장치 및 앱을 관리하고 회사 데이터에 액세스하는 방법을 관리할 수 있습니다. 이 모바일 장치 관리(MDM)를 사용하려면 먼저 장치를 Intune 서비스에 등록해야 합니다. 장치가 등록되면 MDM 인증서가 발급됩니다. 이 인증서는 Intune 서비스와 통신하는 데 사용됩니다.
 

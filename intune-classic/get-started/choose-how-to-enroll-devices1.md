@@ -14,24 +14,24 @@ ms.assetid: d2989e39-9b76-411b-b6fb-7209adb3bfb6
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.custom: intune-classic EXPIERIMENT
-ms.openlocfilehash: 944d235dce6ae905ee53b8a1a3451a45adcc670f
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: d0dad7877cf9d54ae88625c384282fc3e8be40b3
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="choose-how-to-enroll-mobile-devices"></a>모바일 장치를 등록하는 방법 선택
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 이러한 일련의 질문에 답변하면 관리하는 장치에 대한 최상의 등록 방법을 결정하는 데 도움이 됩니다.
 
 ## <a name="do-employees-bring-their-own-devices-byod-or-are-devices-provided-by-your-organization-cod"></a>**직원들이 조직에 개인용 장치를 가져오나요(BYOD), 아니면 조직에서 장치를 제공하나요(COD)?**
 
 > [!div class="button"]
-[BYOD >](choose-how-to-enroll-devices2.md)
+> [BYOD >](choose-how-to-enroll-devices2.md)
 > [!div class="button"]
-[COD >](choose-how-to-enroll-devices3.md)
+> [COD >](choose-how-to-enroll-devices3.md)
 
 - **사용자 소유 장치** - "BYOD"(Bring Your Own Device) 등록 – 사용자가 장치에 Intune 회사 포털 앱을 설치하고 메일, 회사 앱, 회사 데이터 및 지원과 같은 회사 리소스에 액세스할 수 있습니다.  
 

@@ -1,36 +1,36 @@
 ---
-title: "Azure Portal의 Intune 소개"
-titlesuffix: 
-description: "Azure Portal에서 Microsoft Intune을 사용할 수 있습니다. Azure Portal에서 Intune에 대한 기본 사항을 가져옵니다."
-keywords: 
+title: Azure Portal의 Intune 소개
+titlesuffix: ''
+description: Azure Portal에서 Microsoft Intune을 사용할 수 있습니다. Azure Portal에서 Intune에 대한 기본 사항을 가져옵니다.
+keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
 ms.date: 02/28/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 4a085264-232a-4af0-97f1-747496c44517
 ms.suite: ems
-ms.custom: 
-ms.openlocfilehash: c9c8485a3ab68be745c8903659df0fd35af2a644
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.custom: ''
+ms.openlocfilehash: 4dee2c2204b90a35f0b03e2cd78a6662f67f680d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="introduction-to-microsoft-intune-in-the-azure-portal"></a>Azure Portal의 Microsoft Intune 소개
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 다른 Azure 서비스와 비슷하게 Azure Portal에서 Microsoft Intune을 사용할 수 있습니다. Azure 포털 내에서 **Intune**을 선택하여 조직의 모바일 장치, PC 및 앱을 관리할 수 있습니다.
 
->[!NOTE] 
+> [!NOTE]
 > 이전 버전의 Microsoft Intune을 사용한 경우 다음 정보가 유용할 수 있습니다.
-    * [Azure에서 내 기능은 어디에 있나요?](ui-changes.md)는 Azure로 이동을 통해 변경된 특정 워크플로 및 UI를 보여 주는 참조입니다.
-    * [Azure Portal의 Intune 클래식 그룹](groups-get-started.md)에서는 그룹 관리를 위해 Azure Active Directory 보안 그룹으로 이동하는 의미를 설명합니다.
+>     * [Azure에서 내 기능은 어디에 있나요?](ui-changes.md)는 Azure로 이동을 통해 변경된 특정 워크플로 및 UI를 보여 주는 참조입니다.
+>     * [Azure Portal의 Intune 클래식 그룹](groups-get-started.md)에서는 그룹 관리를 위해 Azure Active Directory 보안 그룹으로 이동하는 의미를 설명합니다.
 
 Azure Portal에서 Microsoft Intune 환경의 주요 특징은 다음과 같습니다.
 

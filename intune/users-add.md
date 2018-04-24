@@ -15,15 +15,15 @@ ms.assetid: 6e9ec662-465b-4ed4-94c1-cff0fe18f126
 ms.reviewer: dougeby
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6bbfa42b8ec03cfbe97efdae21f493b68c53d769
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 0d38d7671218bfcecd3d2aa4671a565e0cabe37f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-users-and-grant-administrative-permission-to-intune"></a>Intune에 사용자 추가 및 관리 권한 부여
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 관리자는 사용자를 직접 추가할 수도 있고 온-프레미스 Active Directory에서 사용자를 동기화할 수도 있습니다. 추가된 사용자는 장치를 등록하고 회사 리소스에 액세스할 수 있습니다. *전역 관리자*, *서비스 관리자* 등의 추가 권한을 사용자에게 제공할 수도 있습니다.
 
@@ -35,16 +35,16 @@ ms.lasthandoff: 03/22/2018
 2. Office 365 메뉴에서 **관리**를 선택합니다.
 3. 관리 센터에서 **사용자 추가**를 선택합니다.
 
-  ![사용자 추가 섹션의 스크린 샷](media/office-add-user.png)
+   ![사용자 추가 섹션의 스크린 샷](media/office-add-user.png)
 
 4. 다음 사용자 정보를 지정합니다.
-  - **이름**
-  - **성**
-  - **표시 이름**
-  - **사용자 이름** - 서비스 액세스에 사용되는 Azure Active Directory에 저장된 유니버설 원칙 이름(UPN)입니다.
-  - **위치**
-  - **연락처 정보**(선택 사항)
-  - **암호** - 자동으로 생성하거나 지정
+   - **이름**
+   - **성**
+   - **표시 이름**
+   - **사용자 이름** - 서비스 액세스에 사용되는 Azure Active Directory에 저장된 유니버설 원칙 이름(UPN)입니다.
+   - **위치**
+   - **연락처 정보**(선택 사항)
+   - **암호** - 자동으로 생성하거나 지정
 
      ![새 사용자 섹션의 스크린 샷](media/office-add-user-details.png)
 
@@ -55,16 +55,16 @@ ms.lasthandoff: 03/22/2018
 1. [Azure Portal](https://portal.azure.com)에 로그인하고 **모든 서비스** > **모니터링 + 관리** > **Intune**으로 이동합니다. **Intune**에 대한 *리소스를 검색*할 수도 있습니다.
 2. **사용자** > **모든 사용자**를 선택합니다.
 3. 관리 센터에서 **새로운 사용자**를 선택합니다.
-  ![새 사용자 스크린샷](media/intune-add-user.png)
+   ![새 사용자 스크린샷](media/intune-add-user.png)
 4. 다음 사용자 정보를 지정합니다.
-  - **Name**
-  - **사용자 이름** - Azure Active Directory 포털의 새 이름 ![이름 및 사용자 이름 추가하는 스크린샷](media/intune-add-user-info.png) **확인**을 선택하여 계속합니다.
+   - **Name**
+   - **사용자 이름** - Azure Active Directory 포털의 새 이름 ![이름 및 사용자 이름 추가하는 스크린샷](media/intune-add-user-info.png) **확인**을 선택하여 계속합니다.
 5. 필요에 따라 다음과 같은 사용자 속성을 지정할 수 있습니다.
-  - **프로필** - **직위** 및 **부서**를 비롯한 작업 정보
-  -  **그룹** - 사용자에 대해 추가할 그룹 선택
-  - **디렉터리 역할** -사용자에게 Intune 서비스 관리자 역할을 포함한 관리 권한을 부여합니다.
+   - **프로필** - **직위** 및 **부서**를 비롯한 작업 정보
+   -  **그룹** - 사용자에 대해 추가할 그룹 선택
+   - **디렉터리 역할** -사용자에게 Intune 서비스 관리자 역할을 포함한 관리 권한을 부여합니다.
 
-  **만들기**를 선택하여 Intune에 새 사용자를 추가합니다.
+   **만들기**를 선택하여 Intune에 새 사용자를 추가합니다.
 6. **프로필**을 선택한 다음 새 사용자의 **사용 위치**를 선택합니다. 새 사용자에게 Intune 라이선스를 할당하려면 사용 위치가 필요합니다. **저장**을 선택하여 계속합니다.
     ![사용 위치의 스크린샷](media/intune-add-user-loc.png)
 7. **라이선스**를 선택한 다음 **할당**을 선택하여 이 사용자에게 Intune 라이선스를 할당합니다. 장치를 등록하거나 회사 리소스에 액세스하려면 Intune 라이선스가 필요합니다. **제품**을 선택하고 라이선스 형식을 선택한 다음 **선택**, **할당**을 차례로 선택합니다.
@@ -112,7 +112,7 @@ Office 365 포털에 액세스하려면 계정에 **로그인 허용**이 설정
 온-프레미스 Active Directory에서 Microsoft Azure AD(Azure Active Directory)로 Intune 사용자를 포함한 사용자 계정을 가져오도록 디렉터리 동기화를 구성할 수 있습니다. 온-프레미스 Active Directory 서비스를 모든 Azure Active Directory 기반 서비스와 연결하면 사용자 ID를 훨씬 간편하게 관리할 수 있습니다. 사용자에게 친숙하고 간편한 인증 환경을 제공하도록 Single Sign-On 기능을 구성할 수도 있습니다. 같은 [Azure AD 테넌트](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)를 여러 서비스와 연결하면 이전에 동기화했던 사용자 계정을 모든 클라우드 기반 서비스에 사용할 수 있습니다.
 
 ### <a name="how-to-sync-on-premises-users-with-azure-ad"></a>Azure AD와 온-프레미스 사용자를 동기화하는 방법
-Azure AD와 사용자 계정을 동기화하기 위해 필요한 유일한 도구는 [Azure AD Connect 마법사](https://www.microsoft.com/download/details.aspx?id=47594)입니다. Azure AD Connect 마법사는 온-프레미스 ID 인프라를 클라우드에 연결하도록 안내하는 간단한 환경을 제공합니다.  토폴로지 및 요구 사항(단일 디렉터리 또는 여러 디렉터리, 암호 동기화 또는 페더레이션)을 선택합니다. 마법사는 연결이 작동되도록 하는 데 필요한 모든 구성 요소를 배포하고 구성합니다. 여기에는 동기화 서비스, AD FS(Active Directory Federation Services) 및 Azure AD PowerShell 모듈이 포함됩니다.
+Azure AD와 사용자 계정을 동기화하기 위해 필요한 유일한 도구는 [Azure AD Connect 마법사](https://www.microsoft.com/download/details.aspx?id=47594)입니다. Azure AD Connect 마법사는 온-프레미스 ID 인프라를 클라우드에 연결하도록 안내하는 간단한 환경을 제공합니다. 토폴로지 및 요구 사항(단일 디렉터리 또는 여러 디렉터리, 암호 해시 동기화, 통과 인증 또는 페더레이션)을 선택합니다. 마법사는 연결이 작동되도록 하는 데 필요한 모든 구성 요소를 배포하고 구성합니다. 여기에는 동기화 서비스, AD FS(Active Directory Federation Services) 및 Azure AD PowerShell 모듈이 포함됩니다.
 
 > [!TIP]
 > Azure AD Connect에는 이전에 Dirsync 및 Azure AD Sync로 출시된 기능이 포함됩니다. [디렉터리 통합](http://technet.microsoft.com/library/jj573653.aspx)에 대해 자세히 알아봅니다. 로컬 디렉터리에서 Azure AD로 사용자 계정을 동기화하는 방법에 대해 자세히 알아보려면 [Active Directory와 Azure AD의 유사성](http://technet.microsoft.com/library/dn518177.aspx)을 참조하세요.

@@ -1,27 +1,27 @@
 ---
-title: "Intune에서 Windows 10 장치 등록 | Microsoft 문서"
-description: "Windows 10 1607 이상의 장치를 Intune에 등록"
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Intune에서 Windows 10 장치 등록 | Microsoft 문서
+description: Windows 10 1607 이상의 장치를 Intune에 등록
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 05/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 812e82df-76df-402b-bfe9-29302838f40e
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 2183f17b2797229f6af156349029e8061658c51b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: fee90ed055a0d132a4f6304d7b33f67005caf0fc
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-your-windows-10-device-in-intune"></a>Intune에서 Windows 10 장치 등록
 
@@ -32,30 +32,30 @@ ms.lasthandoff: 01/25/2018
 
 1. **시작**으로 이동합니다.
 
-  - **Windows 10 데스크톱** 장치를 사용하는 경우 **시작 메뉴**로 이동합니다.
-  - **Windows 10 Mobile** 장치를 사용하는 경우 **시작 화면**으로 가서 살짝 밀면 **모든 앱** 목록이 표시됩니다.
+   - **Windows 10 데스크톱** 장치를 사용하는 경우 **시작 메뉴**로 이동합니다.
+   - **Windows 10 Mobile** 장치를 사용하는 경우 **시작 화면**으로 가서 살짝 밀면 **모든 앱** 목록이 표시됩니다.
 
-2.  검색 창에서 "설정"을 검색하여 Windows **설정** 앱을 엽니다.
+2. 검색 창에서 "설정"을 검색하여 Windows **설정** 앱을 엽니다.
 
 3. **계정** > **회사 또는 학교 액세스** > **연결**을 선택합니다.
 
     ![회사 또는 학교 계정 액세스 선택](./media/w10-enroll-rs1-connect-to-work-or-school.png)
 
-3.  회사 또는 학교 메일 주소를 입력하고 **다음**을 선택합니다.
+4. 회사 또는 학교 메일 주소를 입력하고 **다음**을 선택합니다.
 
-    ![회사 또는 학교 계정 입력](./media/w10-enroll-rs1-set-up-work-or-school-account.png)
+   ![회사 또는 학교 계정 입력](./media/w10-enroll-rs1-set-up-work-or-school-account.png)
 
-4. 회사 또는 학교 계정을 사용하여 Intune에 로그인합니다.
+5. 회사 또는 학교 계정을 사용하여 Intune에 로그인합니다.
 
     ![회사 또는 학교 계정 추가](./media/w10-enroll-rs1-enter-your-credentials.png)
 
     회사 또는 학교에서 내 장치를 등록하고 있다는 메시지가 표시됩니다.
 
-5. **모두 설정되었습니다.** 화면이 표시되면 **닫기**를 선택합니다. 작업을 완료했습니다.
+6. **모두 설정되었습니다.** 화면이 표시되면 **닫기**를 선택합니다. 작업을 완료했습니다.
 
-  !["모두 설정되었습니다." 화면에서 닫기 탭하기](./media/w10-enroll-rs1-youre-all-set.png)
+   !["모두 설정되었습니다." 화면에서 닫기 탭하기](./media/w10-enroll-rs1-youre-all-set.png)
 
-6. 연결이 올바르게 되었는지 다시 확인하고 싶은 경우 **설정**으로 돌아가면 이제 회사 또는 학교 계정이 나열되어 있는 것을 볼 수 있습니다.
+7. 연결이 올바르게 되었는지 다시 확인하고 싶은 경우 **설정**으로 돌아가면 이제 회사 또는 학교 계정이 나열되어 있는 것을 볼 수 있습니다.
 
     ![연결이 제대로 설정되었는지 확인](./media/w10-enroll-rs1-validate-successful-enrollment.png)
 

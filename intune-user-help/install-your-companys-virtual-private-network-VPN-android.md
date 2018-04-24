@@ -1,33 +1,33 @@
 ---
-title: "회사의 VPN(가상 사설망) 설치 | Microsoft 문서"
-description: 
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: 회사의 VPN(가상 사설망) 설치 | Microsoft 문서
+description: ''
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 01/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ed4a9f15-72fb-4171-84cb-63d2f1a6d04c
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 1eac765e89b776263e1cd15d39ff27ece4545bbe
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 86a41284b05d73e9cbf3833fa85757ca3cbf7f27
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-install-your-companys-virtual-private-network-vpn"></a>회사의 VPN(가상 사설망)을 설치하는 방법
 
 사용자가 회사 리소스에 연결할 수 있도록 회사 지원팀이 VPN 응용 프로그램을 구성한 경우에는 VPN 앱을 설치해야 한다는 알림이 Android 장치에 표시됩니다. VPN 앱을 설치하려면 다음 단계를 수행합니다.
 
-1.  알림 서랍을 내리고 **필수 앱을 설치하려면 탭하세요.**를 탭합니다.
+1.  알림 서랍을 내리고 **필수 앱을 설치하려면 탭하세요.** 를 탭합니다.
 
 2.  **Play 스토어**에서 **설치**를 클릭하고 화면의 메시지에 따라 앱을 설치합니다.
 

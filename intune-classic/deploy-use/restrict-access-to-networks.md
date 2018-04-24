@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e455f291d9bfdb655f6c66cad7bf859a864e756d
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 1893410f4993d6feaa218d251dd7e2561286f5a3
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-cisco-ise-with-microsoft-intune"></a>Microsoft intune에서 Cisco ISE 사용
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Cisco ISE(ID 서비스 엔진)와 Intune을 통합하면 Intune 장치 등록 및 규정 준수 상태를 사용하여 ISE 환경에서 네트워크 정책을 작성할 수 있습니다. 이러한 정책을 사용하여 회사 네트워크에 대한 액세스가 Intune에서 관리되고 Intune 정책을 준수하는 장치로 제한되도록 할 수 있습니다.
 
@@ -45,7 +45,7 @@ Azure AD(Azure Active Directory) 콘솔에서 인증서를 내보낸 다음, ISE
 
    d. **인증서 내보내기 마법사** 시작 페이지에서 **다음**을 선택합니다.
 
-   e. **내보내기 파일 형식** 페이지에서 기본값인 **DER로 인코딩된 바이너리 X.509(.CER)**를 선택하고 **다음**을 선택합니다.  
+   e. **내보내기 파일 형식** 페이지에서 기본값인 **DER로 인코딩된 바이너리 X.509(.CER)** 를 선택하고 **다음**을 선택합니다.  
 
    f. **내보낼 파일** 페이지에서 **찾아보기**를 선택하여 파일을 저장할 위치를 선택하고 파일 이름을 제공합니다. 내보낼 파일을 선택한 것 같지만 실제로는 내보낸 인증서가 저장될 파일에 이름을 지정하게 되는 것입니다. **다음** &gt; **마침**을 선택합니다.
 
@@ -70,13 +70,13 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 
 ### <a name="obtain-a-self-signed-cert-from-ise"></a>ISE에서 자체 서명된 인증서 가져오기 
 
-1.  ISE 콘솔에서 **관리** > **인증서** > **시스템 인증서** > **자체 서명된 인증서 생성**로 이동합니다.  
-2.       자체 서명된 인증서를 내보냅니다.
+1. ISE 콘솔에서 **관리** > **인증서** > **시스템 인증서** > **자체 서명된 인증서 생성**로 이동합니다.  
+2. 자체 서명된 인증서를 내보냅니다.
 3. 텍스트 편집기에서 내보낸 인증서를 편집합니다.
 
- - Delete **-----BEGIN CERTIFICATE-----**
- - Delete **-----END CERTIFICATE-----**
- 
+   - Delete **-----BEGIN CERTIFICATE-----**
+   - Delete **-----END CERTIFICATE-----**
+
 모든 텍스트를 한 줄에 입력해야 합니다.
 
 
@@ -88,13 +88,13 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 5. 해당 이름을 변경하지 않고 파일을 저장합니다.
 6. Microsoft Graph 및 Microsoft Intune API에 대한 사용 권한이 있는 앱을 제공합니다.
 
- a. Microsoft Graph에 대해 다음을 선택합니다.
+   a. Microsoft Graph에 대해 다음을 선택합니다.
     - **응용 프로그램 사용 권한**: 디렉터리 데이터 읽기
     - **위임된 권한**:
         - 항상 사용자 데이터에 액세스
         - 사용자 로그인
 
- b. Microsoft Intune API의 **응용 프로그램 사용 권한**에서 **Intune에서 장치 상태 및 규정 준수 가져오기**를 선택합니다.
+   b. Microsoft Intune API의 **응용 프로그램 사용 권한**에서 **Intune에서 장치 상태 및 규정 준수 가져오기**를 선택합니다.
 
 7. **끝점 보기**를 선택하고 ISE 설정 구성에 사용하기 위해 다음 값을 복사합니다.
 
@@ -105,23 +105,40 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
 |클라이언트 ID로 코드 업데이트|클라이언트 ID|
 
 ### <a name="step-4-upload-the-self-signed-certificate-from-ise-into-the-ise-app-you-created-in-azure-ad"></a>4단계: ISE의 자체 서명된 인증서를 Azure AD에서 만든 ISE 앱으로 업로드
-1.     Base64로 인코딩된 인증서 값과 지문을 .cer X509 공용 인증서 파일에서 가져옵니다. 이 예제에서는 PowerShell을 사용합니다.
-   
-      
-      $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2    $cer.Import(“mycer.cer”)    $bin = $cer.GetRawCertData()    $base64Value = [System.Convert]::ToBase64String($bin)    $bin = $cer.GetCertHash()    $base64Thumbprint = [System.Convert]::ToBase64String($bin)    $keyid = [System.Guid]::NewGuid().ToString()
- 
-    다음 단계에서 사용할, $base64Thumbprint 값과 $base64Value 값, $keyid 값을 저장합니다.
-2.       매니페스트 파일을 통해 인증서를 업로드합니다. [Azure 관리 포털](https://manage.windowsazure.com)에 로그인합니다.
-2.      Azure AD 스냅인에서 X.509 인증서로 구성할 응용 프로그램을 찾습니다.
-3.      응용 프로그램 매니페스트 파일을 다운로드합니다. 
-5.      빈 “KeyCredentials”: [], 속성을 다음 JSON으로 바꿉니다.  KeyCredential 복합 형식은 [Entity and complex type reference](https://msdn.microsoft.com/library/azure/ad/graph/api/entity-and-complex-type-reference#KeyCredentialType)(엔터티 및 복합 형식 참조)에 나와 있습니다.
+1. Base64로 인코딩된 인증서 값과 지문을 .cer X509 공용 인증서 파일에서 가져옵니다. 이 예제에서는 PowerShell을 사용합니다.
 
- 
-    “keyCredentials“: [ { “customKeyIdentifier“: “$base64Thumbprint_from_above”, “keyId“: “$keyid_from_above“, “type”: “AsymmetricX509Cert”, “usage”: “Verify”, “value”:  “$base64Value_from_above” }2. 
-     ], 
- 
+
+~~~
+  $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2
+  $cer.Import(“mycer.cer”)
+  $bin = $cer.GetRawCertData()
+  $base64Value = [System.Convert]::ToBase64String($bin)
+  $bin = $cer.GetCertHash()
+  $base64Thumbprint = [System.Convert]::ToBase64String($bin)
+  $keyid = [System.Guid]::NewGuid().ToString()
+
+Store the values for $base64Thumbprint, $base64Value and $keyid, to be used in the next step.
+~~~
+2. 매니페스트 파일을 통해 인증서를 업로드합니다. [Azure 관리 포털](https://manage.windowsazure.com)에 로그인합니다.
+3. Azure AD 스냅인에서 X.509 인증서로 구성할 응용 프로그램을 찾습니다.
+4. 응용 프로그램 매니페스트 파일을 다운로드합니다. 
+5. 빈 “KeyCredentials”: [], 속성을 다음 JSON으로 바꿉니다.  KeyCredential 복합 형식은 [Entity and complex type reference](https://msdn.microsoft.com/library/azure/ad/graph/api/entity-and-complex-type-reference#KeyCredentialType)(엔터티 및 복합 형식 참조)에 나와 있습니다.
+
+
+~~~
+“keyCredentials“: [
+{
+ “customKeyIdentifier“: “$base64Thumbprint_from_above”,
+ “keyId“: “$keyid_from_above“,
+ “type”: “AsymmetricX509Cert”,
+ “usage”: “Verify”,
+ “value”:  “$base64Value_from_above”
+ }2. 
+ ], 
+~~~
+
 예를 들면 다음과 같습니다.
- 
+
     “keyCredentials“: [
     {
     “customKeyIdentifier“: “ieF43L8nkyw/PEHjWvj+PkWebXk=”,
@@ -131,10 +148,10 @@ b. 잠금 아이콘 &gt; **추가 정보**를 선택합니다.
     “value”: “MIICWjCCAgSgAwIBA***omitted for brevity***qoD4dmgJqZmXDfFyQ”
     }
     ],
- 
-6.      변경 내용을 응용 프로그램 매니페스트 파일에 저장합니다.
-7.      편집한 응용 프로그램 매니페스트 파일을 Azure 관리 포털을 통해 업로드합니다.
-8.      선택 사항: X.509 인증서가 응용 프로그램에 있는지 확인하려면 다시 매니페스트를 다운로드하세요.
+
+6. 변경 내용을 응용 프로그램 매니페스트 파일에 저장합니다.
+7. 편집한 응용 프로그램 매니페스트 파일을 Azure 관리 포털을 통해 업로드합니다.
+8. 선택 사항: X.509 인증서가 응용 프로그램에 있는지 확인하려면 다시 매니페스트를 다운로드하세요.
 
 >[!NOTE]
 >

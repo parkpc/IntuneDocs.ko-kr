@@ -14,16 +14,16 @@ ms.technology: ''
 ms.assetid: 2ea5941c-a69b-4e1c-b42c-a1fc0c3a7de7
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 01928439f3a4d9280036b2e1a9576175ef425050
-ms.sourcegitcommit: 390a4be5aa36007c36fb6a5abcfe8d20bc862a4b
+ms.openlocfilehash: 67a5f60e0877ebc8994ed7d3191a81f51d19c40a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="remove-a-user-from-a-shared-ios-device"></a>공유 iOS 장치에서 사용자 제거
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 **사용자 제거** 작업은 공유 iPad 장치의 로컬 캐시에서 선택한 사용자를 삭제합니다. iPad 장치는 [iOS 교육 프로필](education-settings-configure-ios.md)을 사용하여 iOS 클래스룸 앱을 관리하도록 설정되어야 합니다. 
 

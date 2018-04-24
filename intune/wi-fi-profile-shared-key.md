@@ -1,29 +1,33 @@
 ---
-title: "미리 공유한 키를 사용하여 Wi-Fi 프로필 만들기 - Microsoft Intune - Azure | Micrososft Docs"
-description: "사용자 지정 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만들고, Microsoft Intune에서 Android, Windows 및 EAP 기반 Wi-Ri 프로필에 대한 샘플 XML 코드를 가져옵니다."
-keywords: 
+title: 미리 공유한 키를 사용하여 Wi-Fi 프로필 만들기 - Microsoft Intune - Azure | Micrososft Docs
+description: 사용자 지정 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만들고, Microsoft Intune에서 Android, Windows 및 EAP 기반 Wi-Ri 프로필에 대한 샘플 XML 코드를 가져옵니다.
+keywords: ''
 author: mandia
 ms.author: MandiOhlinger
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 85543d87ca79fa301ee1e9c242c053c1c34e18c3
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 27ced5debc7eb063be03f4e6a1932425717318af
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-a-custom-device-profile-to-create-a-wifi-profile-with-a-pre-shared-key---intune"></a>사용자 지정 장치 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필 만들기 - Intune
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 일반적으로 PSK(미리 공유한 키)를 사용하여 Wi-Fi 네트워크 또는 무선 LAN에서 사용자를 인증합니다. Intune에서 미리 공유한 키를 사용하여 Wi-Fi 프로필을 만들 수 있습니다. 프로필을 만들려면 Intune 내에서 **사용자 지정 장치 프로필** 기능을 사용합니다. 이 아티클에는 EAP 기반 Wi-Fi 프로필을 만드는 방법에 대한 예제가 포함됩니다.
+
+> [!IMPORTANT]
+>- Windows 10에서 미리 공유한 키를 사용하면 Intune에서 나타나는 업데이트 관리 오류가 발생합니다. 이런 경우 Wi-Fi 프로필은 장치에 제대로 할당되고 프로필은 예상대로 작동합니다.
+>- 미리 공유한 키를 포함하는 Wi-Fi 프로필을 내보내는 경우 파일이 보호되도록 합니다. 키가 일반 텍스트인 경우 키를 보호하는 것은 사용자의 책임입니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -46,15 +50,15 @@ Android, Windows 또는 EAP 기반 Wi-Fi 프로필에서 미리 공유한 키를
 
    d. **OMA URI**
 
-    - **Android용**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
-    - **Windows용**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
+   - **Android용**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
+   - **Windows용**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
 
-    > [!NOTE]
-    > 시작 부분에 점 문자를 포함해야 합니다.
+     > [!NOTE]
+     > 시작 부분에 점 문자를 포함해야 합니다.
 
-    SSID는 정책을 만들고 있는 SSID입니다. 예를 들어 다음과 같이 입력합니다. `./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`
+     SSID는 정책을 만들고 있는 SSID입니다. 예를 들어 다음과 같이 입력합니다. `./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`
 
-  e. **값 필드**에 XML 코드를 붙여넣습니다. 이 아티클 내에서 예제를 참조하세요. 네트워크 설정에 맞게 각 값을 업데이트합니다. 코드의 주석 섹션에는 일부 포인터가 포함됩니다.
+   e. **값 필드**에 XML 코드를 붙여넣습니다. 이 아티클 내에서 예제를 참조하세요. 네트워크 설정에 맞게 각 값을 업데이트합니다. 코드의 주석 섹션에는 일부 포인터가 포함됩니다.
 3. **확인**을 선택하고, 저장한 다음, 정책을 할당합니다.
 
     > [!NOTE]
@@ -203,7 +207,7 @@ xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
 
 1. 무선 네트워크에 연결되어 있거나 최근에 연결되었던 컴퓨터에서 `\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces\{guid}` 폴더를 엽니다.
 
-  여러 무선 네트워크에 연결되지 않은 컴퓨터를 사용하는 것이 좋습니다. 그렇지 않은 경우, 올바른 항목을 찾기 위해 각 프로필을 검색할 수 있습니다.
+   여러 무선 네트워크에 연결되지 않은 컴퓨터를 사용하는 것이 좋습니다. 그렇지 않은 경우, 올바른 항목을 찾기 위해 각 프로필을 검색할 수 있습니다.
 
 2. XML 파일을 검색하여 올바른 이름을 가진 파일을 찾습니다.
 3. 올바른 XML 파일을 찾았으면 XML 코드를 복사하여 OMA-URI 설정 페이지의 **데이터** 필드에 붙여넣습니다.

@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e0fa9f66ee0338b21e12a27ef60fb0df22d23030
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 02e821f24c378c15a474adda901699664a9af68a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune"></a>Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 iOS 앱 구성
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 앱을 실행할 때 필요할 수 있는 설정을 제공할 수 있습니다. 예를 들어 사용자가 앱에서 다음 사항을 지정해야 할 수 있습니다.
 
@@ -77,14 +77,14 @@ Microsoft Intune에서 모바일 앱 구성 정책을 사용하여 사용자가 
 ## <a name="information-about-the-xml-file-format"></a>XML 파일 형식에 대한 정보
 
 Intune에서는 속성 목록의 다음 데이터 형식을 지원합니다.
-    
+
 - &lt;integer&gt;
 - &lt;real&gt;
 - &lt;string&gt;
 - &lt;array&gt;
 - &lt;dict&gt;
 - &lt;true /&gt; 또는 &lt;false /&gt;
-     
+
 데이터 형식에 대한 자세한 내용은 iOS 개발자 라이브러리의 [속성 목록 정보](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/AboutPropertyLists/AboutPropertyLists.html)를 참조하세요.
 
 또한 Intune은 속성 목록에서 다음과 같은 토큰 형식을 지원합니다.
@@ -97,7 +97,7 @@ Intune에서는 속성 목록의 다음 데이터 형식을 지원합니다.
 - \{\{username\}\} - (예: **John Doe**)
 - \{\{serialnumber\}\} - (예: **F4KN99ZUG5V2**)(iOS 장치)
 - \{\{serialnumberlast4digits\}\} - (예: **G5V2**)(iOS 장치)
-    
+
 \{\{ 및 \}\} 문자는 토큰 형식에만 사용되며 다른 용도로 사용하면 안 됩니다.
 
 ## <a name="associate-a-mobile-app-configuration-policy-with-an-app"></a>앱에 모바일 앱 구성 정책 연결
@@ -139,5 +139,4 @@ Intune에서는 속성 목록의 다음 데이터 형식을 지원합니다.
   <key>udidlast4digits</key>
   <string>{{udidlast4digits}}</string>
 </dict>
-
 ```

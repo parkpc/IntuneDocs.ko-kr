@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 699d07daa1f16dd7746b531a1687ba97b06973a2
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: ea1cc3bc2d662a0d74c87fb5616f3626d580a7e9
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="protect-devices-with-microsoft-intune"></a>Microsoft Intune으로 장치 보호
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune에서는 관리하는 장치와 해당 장치에 저장된 데이터를 보호하는 데 사용 가능한 모든 기능 집합을 제공합니다. 이 항목에서 이러한 기능과 관련된 기본 사항을 파악하고 자세한 정보를 확인하는 방법을 알아보세요.
 

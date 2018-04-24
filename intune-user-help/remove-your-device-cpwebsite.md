@@ -1,27 +1,27 @@
 ---
-title: "회사 포털에서 장치 제거 | Microsoft 문서"
-description: "회사 포털에서 장치 제거"
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: 회사 포털에서 장치 제거 | Microsoft 문서
+description: 회사 포털에서 장치 제거
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 02/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e240419a-a836-4be3-8fd9-39a4ec890226
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 4064b18a9553c3818008c0641b9428a03733f7c2
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: c7cd6380cbb596779a3094b18eef4e91b6161871
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="remove-your-device-from-the-company-portal"></a>회사 포털에서 장치 제거
 
@@ -29,17 +29,17 @@ ms.lasthandoff: 01/25/2018
 
 장치를 제거하려면:
 
-1.  [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에서 __메뉴__ 단추 ![세 개의 가로 막대가 병렬로 누적된 메뉴 단추의 작은 이미지](/Intune/whats-new/media/CP_hamburger_menu.png)를 탭한 다음 __내 장치__를 선택합니다.
+1. [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)에서 __메뉴__ 단추 ![세 개의 가로 막대가 병렬로 누적된 메뉴 단추의 작은 이미지](/Intune/whats-new/media/CP_hamburger_menu.png)를 탭한 다음 __내 장치__를 선택합니다.
 
-  ![화면 왼쪽에 홈, 모든 앱, 내 장치, 기술 지원팀 및 로그 아웃 단추가 포함된 확장된 측면 메뉴가 있는 회사 포털 웹 사이트의 이미지](/media/iwp-expanded-sidebar.png)
+   ![화면 왼쪽에 홈, 모든 앱, 내 장치, 기술 지원팀 및 로그 아웃 단추가 포함된 확장된 측면 메뉴가 있는 회사 포털 웹 사이트의 이미지](/media/iwp-expanded-sidebar.png)
 
 2. __내 장치__ 페이지에서 이동할 장치의 이름을 선택합니다.
 
     ![목록에 없는 장치를 등록하거나 식별되지 않은 장치를 식별하라는 배너 프롬프트 위에 몇 개의 식별되지 않은 장치가 표시된 내 장치 페이지의 스크린샷](./media/macOS_enroll_002_tap_here_banner.png)
 
-3.  장치가 팝업 창에서 열립니다. **제거** 단추를 탭합니다.
+3. 장치가 팝업 창에서 열립니다. **제거** 단추를 탭합니다.
 
-    ![이름 바꾸기, 제거, 장치 다시 설정, 암호 다시 설정, 원격 잠금 등 회사 포털 웹 사이트에서 선택한 장치에 대한 모든 옵션 ](./media/iwp-screen-with-all-options.png)
+   ![이름 바꾸기, 제거, 장치 다시 설정, 암호 다시 설정, 원격 잠금 등 회사 포털 웹 사이트에서 선택한 장치에 대한 모든 옵션 ](./media/iwp-screen-with-all-options.png)
 
 4. 경고 메시지를 읽고 **제거**를 탭하여 회사 포털에서 장치를 제거합니다.
 

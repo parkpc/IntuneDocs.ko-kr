@@ -1,28 +1,28 @@
 ---
-title: "iOS 장치에 대한 Microsoft Intune 웹 콘텐츠 필터 설정"
-titlesuffix: 
-description: "iOS를 실행하는 장치에서 웹 사이트에 대한 액세스를 허용하거나 차단하는 데 사용할 수 있는 Microsoft Intune 설정을 알아봅니다."
-keywords: 
+title: iOS 장치에 대한 Microsoft Intune 웹 콘텐츠 필터 설정
+titlesuffix: ''
+description: iOS를 실행하는 장치에서 웹 사이트에 대한 액세스를 허용하거나 차단하는 데 사용할 수 있는 Microsoft Intune 설정을 알아봅니다.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a401a3a04d10587606b8ec4862a62e551e7aadf0
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: c5e3dbdc339fd25289e1aed526bc03e4691c3812
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="web-content-filter-settings-for-ios-devices"></a>iOS 장치에 대한 웹 콘텐츠 필터 설정
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 이 아티클에서는 iOS를 실행하는 장치에서 브라우저 URL 액세스를 제어하는 데 사용할 수 있는 Microsoft Intune 설정을 보여줍니다.
 
@@ -35,7 +35,7 @@ URL을 지정하지 않으면 최종 사용자는 microsoft.com, microsoft.net �
 
 ## <a name="get-started"></a>시작
 
-1. 장치 기능 페이지에서 **웹 콘텐츠 필터(감독 모드에서만 해당)**를 선택합니다.
+1. 장치 기능 페이지에서 **웹 콘텐츠 필터(감독 모드에서만 해당)** 를 선택합니다.
 2. **웹 콘텐츠 필터** 창에서 구성할 **필터 형식**을 선택합니다.
     - **구성되지 않음** - 필터링하지 않습니다.
     - **URL 구성**
@@ -63,7 +63,7 @@ URL을 지정하지 않으면 최종 사용자는 microsoft.com, microsoft.net �
 2. 각 웹 사이트에 대한 정보를 입력한 후 **추가**를 클릭합니다.
 3. 작업을 마쳤으면 **확인**을 클릭합니다.
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > 다음 URL은 Intune에서 자동으로 허용됩니다.
 > - www.microsoft.com
 > - www.microsoft.net
