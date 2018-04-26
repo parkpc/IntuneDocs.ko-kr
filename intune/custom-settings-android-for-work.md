@@ -3,8 +3,8 @@ title: Android for Work에 대한 Intune 사용자 지정 프로필 설정
 titlesuffix: Microsoft Intune
 description: Android for Work 장치에 대한 Microsoft Intune 사용자 지정 프로필 설정을 만드는 방법을 알아봅니다.
 keywords: ''
-author: vhorne
-ms.author: victorh
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 04/12/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 4724d6e5-05e5-496c-9af3-b74f083141f8
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a3f2b85e4ebf01082f075feaac5100b43d4f1392
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 1d7d1512514465b618435b8e699c581534384d2c
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-intune-custom-profile-settings-for-android-for-work-devices"></a>Android for Work 장치에 대한 Intune 사용자 지정 프로필 설정 만들기
 
@@ -35,7 +35,7 @@ Intune Android for Work 사용자 지정 구성 정책을 사용하여 Android f
     - **이름** - Azure Portal에서 쉽게 식별할 수 있도록 Android for Work 사용자 지정 설정에 대한 고유한 이름을 입력합니다.
     - **설명** - Android 사용자 지정 정책의 개요에 대한 설명과 찾을 때 도움이 되는 기타 관련 정보를 제공합니다.
     - **OMA-URI** - 설정을 제공하려는 OMA-URI를 입력합니다.
-    - **데이터 형식** - 이 OMA-URI 설정을 지정할 데이터 형식을 선택합니다. **문자열**, **문자열(XML 파일)**, **날짜 및 시간**, **정수**, **부동 소수점**, **부울** 또는 **Base64(파일)**중에서 선택합니다.
+    - **데이터 형식** - 이 OMA-URI 설정을 지정할 데이터 형식을 선택합니다. **문자열**, **문자열(XML 파일)**, **날짜 및 시간**, **정수**, **부동 소수점**, **부울** 또는 **Base64(파일)** 중에서 선택합니다.
     - **값** - 이전에 지정한 OMA-URI와 연결할 값을 지정합니다. 이 값을 제공하는 데 사용하는 방법은 선택한 데이터 형식에 따라 달라집니다. 예를 들어 **날짜 및 시간**을 선택한 경우 날짜 선택기에서 값을 선택합니다.
 4. 완료되면 확인을 선택하여 **사용자 지정 OMA-URI 설정**으로 돌아간 다음 설정을 더 추가하거나, **만들기**를 선택하여 사용자 지정 프로필을 만듭니다.
 

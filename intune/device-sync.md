@@ -2,8 +2,8 @@
 title: Microsoft Intune-Azure와 장치 동기화 | Micrososft Docs
 description: Microsoft Intune으로 등록되거나 관리되는 장치를 동기화하여 최신 정책과 작업을 가져옵니다. Azure Portal을 사용하여 동기화하는 단계를 포함하고 다시 시도할 수 있는 오류 코드를 나열합니다.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 02ad249e-f098-421f-861f-6b2ff733ac7c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1c098c3d7f71a45830f45877f5ce794d9e112b5e
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: fb609f0d99378e2e30b3c3a4f769781448aea1b5
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="sync-devices-to-get-the-latest-policies-and-actions-with-intune"></a>장치를 동기화하여 Intune에서 최신 정책과 작업 가져오기
 

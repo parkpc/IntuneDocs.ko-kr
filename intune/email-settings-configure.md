@@ -3,8 +3,8 @@ title: Microsoft Intune 이메일 설정 구성하는 방법
 titleSuffix: ''
 description: 관리하는 장치에서 회사 이메일에 대한 연결을 만들도록 Microsoft Intune을 구성하는 방법을 알아봅니다.
 keywords: ''
-author: vhorne
-ms.author: victorh
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 3/1/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f51854bfb198ca65cc5fc82bad0e3b3befbb173a
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: b71c004a165bd6d38cd1907eadc05ac20f27bd1a
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="how-to-configure-email-settings-in-microsoft-intune"></a>Microsoft Intune에서 메일 설정을 구성하는 방법
 

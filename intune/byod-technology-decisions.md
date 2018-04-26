@@ -3,7 +3,7 @@ title: EMS를 사용한 BYOD에 대한 기술 결정
 description: Microsoft Enterprise Mobility + Security를 사용하여 BYOD를 활성화하고 회사 데이터를 보호하기 위한 주요 기술 결정입니다.
 keywords: ''
 author: dougeby
-ms.author: pfetty
+ms.author: dougeby
 manager: dougeby
 ms.date: 12/8/2017
 ms.topic: article
@@ -12,11 +12,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: ''
 ms.suite: ems
-ms.openlocfilehash: 7d04abfe7886e4ef42cf168dbb495e987fdba425
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 7fb86ae8d3163e14581ee495004b74f684d30cec
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="technology-decisions-for-enabling-byod-with-microsoft-enterprise-mobility--security-ems"></a>Microsoft EMS(Enterprise Mobility + Security)를 사용하여 BYOD를 활성화하기 위한 기술 결정
 
@@ -78,6 +78,6 @@ MDM이 없는 MAM은 BYOD를 지원하는 조직에서 널리 사용됩니다. E
 |우발적인 데이터 공유 또는 비보안 위치에 저장 | 인쇄 사용 안 함 | 해당 없음|
 
 ## <a name="next-steps"></a>다음 단계
-이제 장치 관리, 앱 관리 또는 이 둘의 조합에 집중하여 조직에서 BYOD를 활성화할지 여부를 결정해야 합니다. 구현 선택은 사용자 책임이며, Azure AD에서 사용 가능한 ID 및 보안 기능은 관계없이 사용할 수 있습니다.
+이제 장치 관리, 앱 관리 또는 이 둘의 조합에 집중하여 조직에서 BYOD를 활성화할지 여부를 결정해야 합니다. 구현 선택은 사용자 책임이며, Azure AD에서 사용 가능한 ID 및 보안 기능은 관계없이 사용할 수 있습니다.  
 
 Intune [계획 가이드](planning-guide.md)에 따라 다음 수준의 계획을 매핑합니다.

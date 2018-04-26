@@ -2,8 +2,8 @@
 title: Microsoft Intune을 사용하는 장치에서 회사 데이터 제거 - Azure | Microsoft Docs
 description: Microsoft Intune을 사용하여 장치의 회사 데이터를 제거하거나 Android, Android for work, iOS, macOS 또는 Windows 장치에서 출하 시 설정으로 리셋합니다. 또한 Azure Active Directory에서 장치를 삭제합니다.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bb191f33133b85613f491220c970947b9e55b79f
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 228198276643f1eb8dfcb0392e4902a7f56875c9
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="remove-devices-by-using-factory-reset-or-remove-company-data"></a>공장 기본 설정으로 복원을 사용하여 장치를 제거하거나 회사 데이터 제거
 

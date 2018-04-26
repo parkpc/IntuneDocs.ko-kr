@@ -2,8 +2,8 @@
 title: Microsoft Intune-Azure에서 장치 암호 다시 설정 | Micrososft Docs
 description: Intune에서 관리하거나 모니터링하는 장치에서 암호 제거 작업을 사용하여 암호를 제거하거나 다시 설정합니다.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 03/29/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 47181d19-4049-4c7a-a8de-422206c4027e
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 19b30315fa26dd53b5e383bc9e4bef5c65b89962
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 905c51dcbc5b7731be207c25ffd368b339dbec57
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="reset-or-remove-a-device-passcode-in-intune"></a>Intune에서 장치 암호 다시 설정 또는 제거
 

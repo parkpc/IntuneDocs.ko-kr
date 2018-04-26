@@ -17,18 +17,16 @@ ROBOTS: ''
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: e3990c0670516de907ac048b844152014db5be57
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 3dac9446d7a1097f5be4d0851cd78e8cbb86cc4e
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-macos-device-in-intune-with-the-company-portal-app"></a>회사 포털 앱을 사용하여 Intune에 macOS 장치 등록
 
 조직의 앱, 데이터 및 리소스에 액세스할 수 있으면 업무를 더 쉽게 수행할 수 있습니다. 조직에서 Intune을 사용하여 [리소스에 대한 액세스를 관리하려면](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-macos.md) macOS용 회사 포털 앱을 다운로드해야 합니다. 이 지침은 OS X El Capitan 10.11+의 macOS 장치에 해당됩니다.
 
-> [!NOTE]
-> 이전 버전의 macOS에서 macOS 장치를 등록하는 방법은 [여기](enroll-your-device-in-intune-macos-legacy.md)에서 찾을 수 있습니다.
 
 1. __Dock__에서 __Safari__를 찾고 새 창을 연 다음 [회사 포털 웹 사이트](https://portal.manage.microsoft.com)를 엽니다.
 

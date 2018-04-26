@@ -15,11 +15,11 @@ ms.assetid: 1feca24f-9212-4d5d-afa9-7c171c5e8525
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 10278dd48552e280ebe7399a61033dfb04fbbd74
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 4d0c63c5e926c3f8893762a9be3b6bed2d6844c4
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Microsoft Intune에서 Managed Browser 정책을 사용하여 인터넷 액세스 관리
 
@@ -155,10 +155,9 @@ Intune Managed Browser와 [Azure AD 응용 프로그램 프록시]( https://docs
 #### <a name="step-2-assign-an-app-configuration-policy-assigned-for-the-managed-browser"></a>2단계: Managed Browser에 대해 할당되는 앱 구성 정책 할당
 이 절차에서는 앱 프록시 리디렉션을 사용하도록 Managed Browser 앱을 구성합니다. Managed Browser 앱 구성을 만드는 절차를 수행할 때 다음 키와 값 쌍을 제공합니다.
 
-|||
-|-|-|
-|Key|값|
-|**com.microsoft.intune.mam.managedbrowser.AppProxyRedirection**|**true**|
+| Key                                                             | 값    |
+|-----------------------------------------------------------------|----------|
+| **com.microsoft.intune.mam.managedbrowser.AppProxyRedirection** | **true** |
 
 온-프레미스 웹앱에 원활한(및 보호된) 액세스와 함께 Managed Browser와 Azure AD 응용 프로그램 프록시를 사용하는 방법에 대한 자세한 내용은 Enterprise Mobility + Security 블로그 게시물 [연계를 통해 성능 향상: 사용자 액세스를 개선하려는 Intune 및 Azure Active Directory 팀](https://cloudblogs.microsoft.com/enterprisemobility/2017/07/06/better-together-intune-and-azure-active-directory-team-up-to-improve-user-access)을 참조하세요.
 
@@ -166,10 +165,8 @@ Intune Managed Browser와 [Azure AD 응용 프로그램 프록시]( https://docs
 
 이 설정을 사용하면 Managed Browser를 시작하거나 새 탭을 만들 때 사용자에게 표시되는 홈페이지를 구성할 수 있습니다. Managed Browser 앱 구성을 만드는 절차를 수행할 때 다음 키와 값 쌍을 제공합니다.
 
-
-|                                                                   |                                                                                                                            |
-|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 |                                Key                                |                                                           값                                                            |
+|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | <strong>com.microsoft.intune.mam.managedbrowser.homepage</strong> | 유효한 URL을 지정합니다. 잘못된 URL은 보안 조치로 차단됩니다.<br>예: <strong><https://www.bing.com></strong> |
 
 ## <a name="how-to-configure-bookmarks-for-the-managed-browser"></a>Managed Browser의 책갈피를 구성하는 방법
@@ -182,21 +179,17 @@ Intune Managed Browser와 [Azure AD 응용 프로그램 프록시]( https://docs
 
 Managed Browser 앱 구성을 만드는 절차를 수행할 때 다음 키와 값 쌍을 제공합니다.
 
-
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                Key                                 |                                                                                                                                                                                                                                                         값                                                                                                                                                                                                                                                          |
+|--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <strong>com.microsoft.intune.mam.managedbrowser.bookmarks</strong> | 이 구성에 대한 값은 책갈피 목록입니다. 각 책갈피는 책갈피 제목과 책갈피 URL로 이루어져 있습니다. 제목과 URL을 <strong>&#124;</strong> 문자로 구분합니다.<br><br>예: <strong>Microsoft Bing&#124;<https://www.bing.com></strong><br><br>여러 책갈피를 구성하려면 각 쌍을 이중 문자 <strong>&#124;&#124;</strong>로 구분합니다.<br><br>예: <strong>Bing&#124;https://www.bing.com&#124;&#124;Contoso&#124;<https://www.contoso.com></strong> |
 
 ## <a name="how-to-specify-allowed-and-blocked-urls-for-the-managed-browser"></a>Managed Browser에 대해 허용 URL 및 차단 URL을 지정하는 방법
 
 Managed Browser 앱 구성을 만드는 절차를 수행할 때 다음 키와 값 쌍을 제공합니다.
 
-
-|                                                                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                               Key                                                                                                                                                                |                                                                                                                                                                                    값                                                                                                                                                                                    |
-| 다음 중에서 선택합니다.<br><br>- 허용되는 URL 지정(이러한 URL만 허용되고 다른 사이트는 액세스할 수 없음): <strong>com.microsoft.intune.mam.managedbrowser.AllowListURLs</strong><br><br>- 차단되는 URL 지정(다른 모든 사이트는 액세스할 수 있음): <br><br><strong>com.microsoft.intune.mam.managedbrowser.BlockListURLs</strong> | 키에 해당하는 값은 URL 목록입니다. 허용하거나 차단할 모든 URL을 파이프 <strong>&#124;</strong> 문자로 구분된 단일 값으로 입력합니다.<br><br>예:<br><br><strong>URL1&#124;URL2&#124;URL3</strong><br><strong>http://<em>.contoso.com/</em>&#124;https://<em>.bing.com/</em>&#124;<https://expenses.contoso.com></strong> |
+|Key|값|
+|-|-|
+|다음 중에서 선택합니다.<br><br>- 허용되는 URL 지정(이러한 URL만 허용되고 다른 사이트는 액세스할 수 없음): **com.microsoft.intune.mam.managedbrowser.AllowListURLs**<br><br>- 차단되는 URL 지정(다른 모든 사이트는 액세스할 수 있음): <br><br>**com.microsoft.intune.mam.managedbrowser.BlockListURLs**|키에 해당하는 값은 URL 목록입니다. 허용하거나 차단할 모든 URL을 파이프 **&#124;** 문자로 구분된 단일 값으로 입력합니다.<br><br>예:<br><br>`URL1\|URL2\|URL3`</code><br>`http://*.contoso.com/*\|https://*.bing.com/*\|https://expenses.contoso.com`|
 
 >[!IMPORTANT]
 >두 키를 모두 지정하지 마세요. 두 키가 동일한 사용자를 대상으로 하는 경우 가장 제한적인 옵션인 허용 키가 사용됩니다.

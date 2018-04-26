@@ -14,11 +14,11 @@ ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 867a846b43edb3392db2be11e7ea544fa9317b6c
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 89f8ddc105787bc7ff4f7cfc1e226d28589ecbbf
+ms.sourcegitcommit: 9536300a6211bac4bdc733593a40c1ae47611de3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="configure-a-certificate-profile-for-your-devices-in-microsoft-intune"></a>Microsoft Intune에서 장치에 대한 인증서 프로필 구성
 
@@ -40,7 +40,7 @@ Intune을 사용하여 관리하는 장치에 이러한 인증서를 할당할 �
 2. 각 장치에 루트 인증서 또는 중간 CA(인증 기관) 인증서를 설치하여 장치가 인증 기관의 적법성을 인식할 수 있게 합니다. 이를 수행하려면 **신뢰할 수 있는 인증서 프로필**을 만들고 할당합니다. 이 프로필을 할당하면 Intune으로 관리하는 장치가 루트 인증서를 요청하고 받습니다. 각 플랫폼에 대해 별도 프로필을 만들어야 합니다. 신뢰할 수 있는 인증서 프로필을 사용할 수 있는 플랫폼은 다음과 같습니다.
 
     - iOS 8.0 이상
-    - macOS 10.9 이상
+    - macOS 10.11 이상
     - Android 4.0 이상
     - Android for Work
     - Windows 8.1 이상

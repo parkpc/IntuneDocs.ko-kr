@@ -2,8 +2,8 @@
 title: 미리 공유한 키를 사용하여 Wi-Fi 프로필 만들기 - Microsoft Intune - Azure | Micrososft Docs
 description: 사용자 지정 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필을 만들고, Microsoft Intune에서 Android, Windows 및 EAP 기반 Wi-Ri 프로필에 대한 샘플 XML 코드를 가져옵니다.
 keywords: ''
-author: mandia
-ms.author: MandiOhlinger
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 27ced5debc7eb063be03f4e6a1932425717318af
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: a3b98dad86b7abe5ce330ae99fdf008137cc2b11
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-a-custom-device-profile-to-create-a-wifi-profile-with-a-pre-shared-key---intune"></a>사용자 지정 장치 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필 만들기 - Intune
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]

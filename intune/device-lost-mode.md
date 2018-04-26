@@ -2,8 +2,8 @@
 title: Microsoft Intune-Azure를 사용하여 iOS 분실 모드 활성화 | Microsoft Docs
 description: Microsoft Intune을 사용하여 분실되거나 도난당한 iOS 장치의 잠금 화면에서 표시하는 메시지를 사용자 지정하기 위해 분실 모드를 켜거나 시작합니다. 그리고 분실 모드 작업을 사용하는 경우 보안 및 개인 정보 취급 방침에 대한 세부 정보를 가져옵니다.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 126a7489-fe3e-43fd-a681-defb2fe0bb66
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 070256ce5267189731c3565f4332a3bd57c326f5
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 4601f1ec4b50ee13d21b419066ed741f52c7c275
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enable-lost-mode-on-ios-devices-with-intune"></a>Intune을 사용하여 iOS 장치에서 분실 모드 설정
 

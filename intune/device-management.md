@@ -2,8 +2,8 @@
 title: Microsoft Intune-Azure를 사용하여 장치 관리 | Micrososft Docs
 description: 장치 목록을 csv 형식으로 내보내는 것을 포함하여 Microsoft intune으로 관리하는 장치를 검토하고, Azure Active Directory-조인된 장치를 보고, 장치에서 동작의 변경 로그를 검토하고, IT 관리자가 원격으로 Android 장치의 문제를 해결할 수 있게 TeamViewer 커넥터를 사용하고 장치에서 실행할 수 있는 모든 작업을 봅니다.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 04/02/2018
 ms.topic: get-started-article
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: d2412418-d91a-4767-a3d6-bc88bb29caa2
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9a003b9ec4208bc3449dfb1b3b2ee889a29b742b
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 9e24f9aca0c06f69c61af6a7fab4f69afe381b6d
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="what-is-microsoft-intune-device-management"></a>Microsoft Intune 장치 관리란?
 

@@ -2,8 +2,8 @@
 title: Microsoft Intune - Azure를 사용하여 장치 세부 정보 보기 | Microsoft Docs
 description: 운영 체제, 저장 공간, 제조업체 및 모델을 비롯한 장치 세부 정보를 봅니다. Azure에서 Microsoft Intune을 사용하여 설치된 앱의 목록을 가져오고, 준수 정책을 확인하고, TeamViewer를 설정합니다. 관리하는 장치의 인벤토리 보기와 유사합니다.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 04/02/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: e71c6bdb-d75c-404f-8e38-24a663be81c2
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 404fb301d9ab749f887840208e12388e12d79db4
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: a40b855d1dbaeece1dc91648866285c0a01fb338
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="see-device-details-in-intune"></a>Intune에서 장치 세부 정보 참조
 

@@ -13,11 +13,11 @@ ms.technology: ''
 ms.suite: ems
 ms.reviewer: tycast
 ms.custom: intune-azure
-ms.openlocfilehash: 9464b73acc43b9625560156617359c374d7100fb
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 787501892d0955e3396bc8f37e5da8ba0d312c74
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="read-about-the-vpn-settings-in-intune"></a>Intune에서 VPN 설정에 대해 읽기
 
@@ -93,6 +93,7 @@ Intune을 사용하여 VPN 연결을 구성할 수 있습니다. 이 아티클�
 ## <a name="apps-and-traffic-rules"></a>앱 및 트래픽 규칙
 
 **이러한 앱에 VPN 연결을 사용하도록 제한**: 일부 앱에서 이 VPN 연결을 사용하게 하려면 이 설정을 사용합니다.
+
 **연결된 앱**: 자동으로 VPN 연결을 사용하는 앱 목록을 입력합니다. 앱의 유형에 따라 앱 식별자가 결정됩니다. 유니버설 앱의 경우 패키지 패밀리 이름을 입력합니다. 데스크톱 앱의 경우에는 앱의 파일 경로를 입력합니다.
 
 >[!IMPORTANT]
