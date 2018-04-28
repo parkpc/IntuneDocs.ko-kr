@@ -14,11 +14,11 @@ ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
 ms.reviewer: pmay
 ms.suite: ems
 ms.custom: ''
-ms.openlocfilehash: 23d669bfd535fb08bb52d194a1852aa774b5a186
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 6f92cb350a69aeb600f1d48e9bdb0b22a623cb52
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="what-is-intune"></a>Intune이란?
 
@@ -81,7 +81,7 @@ MAM(모바일 앱 관리)이라는 용어는 이러한 작업을 개별적으로
 Intune을 EMS의 다른 서비스와 함께 사용하면 모바일 운영 체제와 모바일 앱이 앱 구성을 통해 제공하는 기능 외에도 조직 모바일 앱 보안을 제공할 수 있습니다. EMS를 사용하여 관리되는 앱에서는 다음과 같이 보다 광범위한 모바일 앱 및 데이터 보호 기능 집합에 액세스할 수 있습니다.
 
 * [Single sign-on](https://docs.microsoft.com/azure/active-directory/active-directory-appssoaccess-whatis)  
-*   [다단계 인증](https://docs.microsoft.com/multi-factor-authentication/multi-factor-authentication)
+*   [다단계 인증](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication)
 * [앱의 조건부 액세스 - 모바일 앱에 회사 데이터가 포함된 경우 액세스 허용](app-based-conditional-access-intune.md)
 * [동일한 앱 내의 개인 데이터에서 회사 데이터 격리](app-protection-policy.md)
 * [앱 보호 정책(PIN, 암호화, 다른 이름으로 저장, 클립보드 등)](app-protection-policies.md)
