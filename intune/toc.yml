@@ -407,8 +407,6 @@
           href: edition-upgrade-configure-windows-10.md
         - name: Windows 10 Education 설정 구성
           href: education-settings-configure.md
-        - name: iOS 교육 설정 구성
-          href: education-settings-configure-ios.md
         - name: iOS 교육 공유 장치 구성
           href: education-settings-configure-ios-shared.md
         - name: iOS 업데이트 정책 구성
@@ -511,6 +509,8 @@
                   href: mtd-device-compliance-policy-create.md
                 - name: Intune에서 MTD 사용
                   href: mtd-connector-enable.md
+        - name: 고급 위협 방지
+          href: advanced-threat-protection.md
         - name: 네트워크 액세스 제어
           href: network-access-control-integrate.md
         - name: Windows Hello 설정
@@ -596,6 +596,10 @@
           href: data-intune-sends-to-apple.md
         - name: Intune이 Google에 보내는 데이터
           href: data-intune-sends-to-google.md
+        - name: Apple이 Intune에 보내는 데이터
+          href: data-apple-sends-to-intune.md
+        - name: Google이 Intune에 보내는 데이터
+          href: data-google-sends-to-intune.md
     - name: 모니터링 및 문제 해결
       items:
         - name: 사용자가 문제 해결할 수 있도록 도움
@@ -694,6 +698,8 @@
               href: reports-ref-user-device.md
             - name: 사용자 엔터티에 대한 참조
               href: reports-ref-user.md
+        - name: Intune 데이터 웨어하우스 계정 데이터를 이동
+          href: data-warehouse-account-move.md
     - name: Azure AD를 사용하여 Microsoft Graph의 Intune API에 액세스
       href: intune-graph-apis.md
       items:
