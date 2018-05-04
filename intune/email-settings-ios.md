@@ -3,8 +3,8 @@ title: iOS 장치에 대한 Microsoft Intune 메일 설정
 titleSuffix: ''
 description: iOS를 실행하는 장치에서 이메일 설정을 구성하는 데 사용할 수 있는 Microsoft Intune 설정에 대해 알아봅니다.
 keywords: ''
-author: vhorne
-ms.author: victorh
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 3/2/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d7b050e94114b0d3c9dcec765f4dd6e7700a801f
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 0912ec4fdc77b51903b4febd54f9d16972b867a8
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="email-profile-settings-in-microsoft-intune-for-devices-running-ios"></a>iOS를 실행하는 장치용 Microsoft Intune에서 이메일 프로필 설정 
 
@@ -31,11 +31,12 @@ ms.lasthandoff: 04/16/2018
 - **계정 이름** - 장치에서 사용자에게 표시되는 전자 메일 계정의 표시 이름입니다.
 - **AAD의 사용자 이름 특성** - 이것은 이메일 프로필에 대한 사용자 이름을 생성하는 데 사용되는 Active Directory(AD) 또는 Azure AD의 특성입니다. **user1@contoso.com**와 같은 **기본 SMTP 주소** 또는 **user1**, **user1@contoso.com**와 같은 **사용자 계정 이름**을 선택합니다.
 - **AAD의 메일 주소 특성** - 각 장치에서 사용자의 메일 주소가 생성되는 방식을 선택합니다. **기본 SMTP 주소**를 선택하여 Exchange에 로그인하는 기본 SMTP 주소를 사용하거나 **사용자 계정 이름**을 사용하여 메일 주소와 전체 사용자 이름을 사용합니다.
-- **인증 방법** - 메일 프로필에서 사용되는 인증 방법으로 **사용자 이름 및 암호** 또는 **인증서** 중 하나를 선택합니다.
+- **인증 방법** - 메일 프로필에서 사용되는 인증 방법으로 **사용자 이름 및 암호** 또는 **인증서** 중 하나를 선택합니다. **참고**: Azure Multi-factor Authentication은 지원되지 않습니다.
     - **인증서**를 선택한 경우 Exchange 연결을 인증하는 데 사용할 이전에 만든 클라이언트 SCEP 또는 PKCS 인증서 프로필을 선택합니다.
 - **SSL** - 메일을 전송하거나 수신할 때와 Exchange Server와 통신할 때 SSL(Secure Sockets Layer) 통신을 사용합니다.
 - **S/MIME** - S/MIME 서명을 사용하여 보내는 메일을 전송합니다.
     - **인증서**를 선택한 경우 Exchange 연결을 인증하는 데 사용할 이전에 만든 클라이언트 SCEP 또는 PKCS 인증서 프로필을 선택합니다.
+    - SCEP 인증서를 선택하는 경우 유효한 개인 정보 교환(PFX) 인증서가 장치에 설치되어 있는지 확인합니다.
 - **동기화할 메일 양** - 동기화할 메일의 일 수를 선택하거나, **무제한**을 선택하여 사용 가능한 모든 메일을 동기화합니다.
 - **다른 메일 계정으로 메시지를 이동할 수 있음** - 사용자가 자신의 장치에 구성한 여러 계정 간에 메일 메시지를 이동할 수 있도록 허용합니다.
 - **타사 응용 프로그램에서 메일을 전송할 수 있음** - 사용자는 이 프로필을 메일을 보내기 위한 기본 계정으로 선택하고, 타사에서는 네이티브 메일 앱의 메일을 열고 메일에 파일을 첨부할 수 있게 됩니다.

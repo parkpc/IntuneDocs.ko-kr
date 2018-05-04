@@ -5,18 +5,18 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 3/27/2018
+ms.date: 4/17/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3ce970f942d8ea20eb9ea593c23160757122926e
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 374c3937d04fd546c17d6f147609f448875dddba
+ms.sourcegitcommit: 2773f388f50654366197a95a6838306f70fc18b8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-ios"></a>iOS를 실행하는 장치용 Microsoft Intune에서 VPN 설정 구성
 
@@ -36,12 +36,17 @@ ms.lasthandoff: 04/16/2018
 - **연결 형식**: 다음 공급업체 목록에서 VPN 연결 형식을 선택합니다.
   - **검사점 캡슐 VPN**
   - **Cisco AnyConnect**
+  - **Cisco Legacy AnyConnect**
   - **SonicWall Mobile Connect**
   - **F5 Edge Client**
   - **Pulse Secure**
   - **Cisco(IPSec)**
   - **Citrix**
   - **사용자 지정 VPN**
+
+    > [!NOTE]
+    > - **Cisco Legacy AnyConnect VPN** 프로필은 [Cisco Legacy AnyConnect](https://itunes.apple.com/app/cisco-legacy-anyconnect/id392790924) 앱 버전 4.0.5x 및 이전 버전에 사용됩니다.
+    > - **Cisco AnyConnect VPN** 프로필은 [Cisco AnyConnect](https://itunes.apple.com/app/cisco-anyconnect/id1135064690) 앱 버전 4.0.7x 및 최신 버전에 사용됩니다.
 
 - **분할 터널링**: 장치에서 트래픽에 따라 사용할 연결을 결정할 수 있도록 **사용** 또는 **사용 안 함**으로 설정합니다. 예를 들어 호텔에 있는 사용자는 VPN 연결을 사용하여 작업 파일에 액세스하지만, 일반적인 웹 검색에는 호텔의 표준 네트워크를 사용합니다.
 
@@ -75,3 +80,6 @@ ms.lasthandoff: 04/16/2018
 - **자동 구성 스크립트**: 파일을 사용하여 프록시 서버를 구성합니다. 구성 파일이 포함된 **프록시 서버 URL**(예: **http://proxy.contoso.com**)을 입력합니다.
 - **주소**: 프록시 서버의 정규화된 호스트 이름 IP 주소를 입력합니다.
 - **포트 번호**: 프록시 서버와 연결된 포트 번호 입력
+
+## <a name="next-step"></a>다음 단계
+[Intune에서 VPN 프로필 만들기](vpn-settings-configure.md)

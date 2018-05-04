@@ -3,10 +3,10 @@ title: 응용 프로그램을 위한 데이터 전송 정책 예외
 titleSuffix: Microsoft Intune
 description: Intune 모바일 응용 프로그램 관리(MAM) 데이터 전송 정책에 대한 예외를 만듭니다.
 keywords: ''
-author: Erikre
-ms.author: erikre
+author: msmimart
+ms.author: mimart
 manager: dougeby
-ms.date: 03/26/2018
+ms.date: 03/28/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f9015e3a-c22c-42eb-90e6-ba48dee3a41d
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1910334093a416933912c9cdeedac85e36d66e92
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: d33768206c53550ec1cb34d5c1ad5e2f33e4f8c8
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="how-to-create-exceptions-to-the-intune-mobile-application-management-mam-data-transfer-policy"></a>Intune 모바일 응용 프로그램 관리(MAM) 데이터 전송 정책에 대한 예외를 만드는 방법
 
@@ -47,9 +47,18 @@ Android 대상으로 하는 정책의 경우 응용 프로그램 패키지 이�
 ### <a name="example"></a>예제
 **Webex** 패키지를 예외로 MAM 데이터 전송 정책에 추가함으로써 관리되는 Outlook 이메일 메시지 내의 Webex 링크는 Webex 응용 프로그램에서 직접 열 수 있습니다. 데이터 전송은 관리되지 않는 다른 응용 프로그램에서 계속 제한됩니다.
 
-- iOS **Webex** 예: 관리되는 Intune 앱에서 호출할 수 있도록 **Webex** 앱을 제외하려면 다음 문자열 <code>wbx</code>에 대한 데이터 전송 예외를 추가해야 합니다.
+- iOS **Webex** 예: Intune 관리 앱이 호출할 수 있도록 **Webex** 앱을 제외하려면 다음 문자열에 대한 데이터 전송 예외를 추가해야 합니다. <code>wbx</code>
+    
+ - iOS **Maps** 예: Intune 관리 앱이 호출할 수 있도록 네이티브 **Maps** 앱을 제외하려면 다음 문자열에 대한 데이터 전송 예외를 추가해야 합니다. <code>maps</code>
 
-- Android **Webex** 예: 관리되는 Intune 앱에서 호출할 수 있도록 **Webex** 앱을 제외하려면 다음 문자열 <code>com.cisco.webex.meetings</code>에 대한 데이터 전송 예외를 추가해야 합니다. 
+- Android **Webex** 예: Intune 관리 앱이 호출할 수 있도록 **Webex** 앱을 제외하려면 다음 문자열에 대한 데이터 전송 예외를 추가해야 합니다. <code>com.cisco.webex.meetings</code>
+    
+- Android **SMS** 예: 다양한 메시징 앱과 Android 장치에서 Intune 관리 앱이 호출할 수 있도록 네이티브 **SMS** 앱을 제외하려면 다음 문자열에 대한 데이터 전송 예외를 추가해야 합니다. 
+    <code>com.google.android.apps.messaging</code>
+    
+    <code>com.android.mms</code>
+    
+    <code>com.samsung.android.messaging</code>
 
 ## <a name="next-steps"></a>다음 단계
 

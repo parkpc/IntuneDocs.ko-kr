@@ -5,7 +5,7 @@ keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 03/27/2018
+ms.date: 04/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d0a8a189e708ed140c3cda987a20cebb562fdb34
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 388c9f69b6cbee1353b0e21121a47576b58b3ba6
+ms.sourcegitcommit: 407191a92ef356a3d196b6f9959b9b033190ca2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Microsoft Intune의 알려진 문제
 
@@ -63,9 +63,11 @@ iOS 대량 구매 앱은 Intune 계정과 동일한 국가 코드에 대해서�
 Intune에 등록되지 않은 장치의 경우 Windows Information Protection 정책에 대한 설정의 **회사 ID** 필드에서 주 도메인만 지정할 수 있습니다.
 **고급 설정** > **네트워크 경계** > **보호된 도메인 추가**를 사용하여 도메인을 더 추가하는 경우 정책을 저장할 수 없습니다. 표시되는 오류 메시지는 조만간 보다 정확하게 변경될 예정입니다.
 
-### <a name="cisco-anyconnect-vpn-client-support"></a>Cisco AnyConnect VPN 클라이언트 지원
-Cisco AnyConnect VPN 클라이언트(4.0.07072)의 최신 릴리스는 현재 Intune과 호환되지 않습니다. 향후 Intune 업데이트에는 이 VPN 클라이언트 버전과의 호환성이 포함됩니다. 그때까지 Cisco AnyConnect VPN 클라이언트를 업데이트하지 말고 기존 버전을 계속 사용하는 것이 좋습니다.
+### <a name="cisco-anyconnect-and-cisco-legacy-anyconnect-vpn-client-support---ios"></a>Cisco AnyConnect 및 Cisco Legacy AnyConnect VPN 클라이언트 지원 - iOS
 
+iOS 장치의 경우 새로운 Cisco AnyConnect 클라이언트에서 NAC(네트워크 액세스 제어) 통합이 작동하지 않습니다. Microsoft는 NAC 통합 기능을 제공하기 위해 Cisco와 협력하고 있습니다.
+
+[Intune에서 VPN 프로필 만들기](vpn-settings-ios.md)에서는 Cisco AnyConnect 및 Cisco Legacy AnyConnect 클라이언트에 대한 자세한 정보를 제공합니다.
 
 ### <a name="using-the-numeric-password-type-with-macos-sierra-devices"></a>macOS Sierra 장치에서 숫자 암호 유형 사용
 

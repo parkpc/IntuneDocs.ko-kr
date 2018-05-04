@@ -1,12 +1,12 @@
 ---
-title: Microsoft Intune의 새로운 기능
+title: Microsoft Intune의 새로운 기능 - Azure | Microsoft Docs
 titlesuffix: ''
 description: Intune Azure 포털의 새로운 기능 알아보기
 keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 04/12/2018
+ms.date: 04/24/2018
 ms.topic: get-started-article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
 ms.reviewer: dougeby
 ms.suite: ems
 /ms.custom: intune-azure
-ms.openlocfilehash: a2692163977a352e7a26dfc656d601d70ef401b4
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 9be6e0a3364f6ee0a077c1435d66498aba898430
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Microsoft Intune의 새로운 기능
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -40,6 +40,30 @@ ms.lasthandoff: 04/16/2018
   ### Role-based access control
 
 -->   
+
+## <a name="week-of-april-23-2018"></a>2018년 4월 23일 주간
+
+#### <a name="advanced-threat-protection-atp-and-intune-are-fully-integrated----eeready-1629303---"></a>ATP(Advanced Threat Protection)와 Intune이 완전히 통합됨 <!-- EEready 1629303 -->
+
+Windows Defender 보안 센터(ATP 포털)에서 Microsoft Intune에 대한 연결을 만들 수 있습니다. 연결이 생성되면 Intune 준수 정책을 사용하여 허용되는 위협 수준이 결정됩니다. 위협 수준을 초과할 경우 AD(Azure Active Directory) 조건부 액세스 정책을 통해 조직 내의 여러 앱에 대한 액세스를 차단할 수 있습니다.
+
+이 기능을 사용하면 ATP가 Windows 10 장치에서 파일 검사, 위협 검색, 위험 보고 등을 수행할 수 있습니다.
+
+[Intune에서 조건부 액세스로 ATP 사용](advanced-threat-protection.md)을 참조하세요.
+
+## <a name="week-of-april-16-2018"></a>2018년 4월 16일 주간
+
+#### <a name="use-cisco-anyconnect-client-for-ios----eeready-1333708---"></a>iOS용 Cisco AnyConnect 클라이언트 사용 <!-- EEready 1333708 -->
+
+iOS용 새 VPN 프로필을 만들 때 이제 **Cisco AnyConnect** 및 **Cisco Legacy AnyConnect**의 두 가지 옵션이 있습니다. Cisco AnyConnect 프로필은 4.0.7x 이상 버전을 지원합니다. 기존 iOS Cisco AnyConnect VPN 프로필은 **Cisco Legacy AnyConnect**로 레이블이 지정되며, 현재와 마찬가지로 Cisco AnyConnect 4.0.5x 및 이전 버전에서 계속 작동합니다.
+
+> [!NOTE]
+> 이 변경 내용은 iOS에만 적용됩니다. Android, Android for Work 및 macOS 플랫폼에는 계속해서 Cisco AnyConnect 옵션 하나만 사용할 수 있습니다.
+
+#### <a name="jamf-enrolled-macos-devices-can-now-register-with-intune----2370684---"></a>이제 Jamf에 등록된 macOS 장치를 Intune에 등록할 수 있음 <!-- 2370684 -->
+
+macOS 회사 포털 버전 1.3 및 1.4에서는 Jamf 장치가 Intune에 등록되지 않았습니다. macOS 포털 버전 1.4.2에서 이 문제가 해결되었습니다.
+
 
 ## <a name="week-of-april-9-2018"></a>2018년 4월 9일 주간
 
@@ -67,7 +91,7 @@ Azure Portal의 Microsoft Intune 서비스에서는 **Intune 앱 보호** 서비
 **Intune 앱 보호** 서비스 블레이드 대신 **Intune**을 즐겨찾기로 태그를 지정하고 Intune 내 **모바일** 앱 블레이드의 앱 보호 정책 워크플로에 익숙해지도록 합니다. 짧은 시간 동안 리디렉션된 다음, **앱 보호** 블레이드가 제거됩니다. Intune에서 모든 앱 보호 정책이 이미 설정되어 있으므로 조건부 액세스 정책을 수정할 수 있습니다. 조건부 액세스 정책을 수정하는 방법에 대한 자세한 내용은 [Azure Active Directory의 조건부 액세스](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)를 참조하세요. 자세한 내용은 [앱 보호 정책이란?](app-protection-policy.md)을 참조하세요. 
 
 
-## <a name="week-of-april-2-2018"></a>2018년 4월 2일 주간
+## <a name="week-of-april-2-2018"></a>2018년 4월 2일의 주간
 
 ### <a name="intune-apps"></a>Intune 앱
 
@@ -140,8 +164,6 @@ Intune 서비스 3월 업데이트에서 기본 설정/해제 상태는 바로 U
 #### <a name="ios-devices-are-prompted-for-a-pin-every-15-minutes---1550837---"></a>iOS 장치에 15분마다 PIN을 입력하라는 메시지가 표시됩니다.<!--1550837 -->
 준수 또는 구성 정책을 iOS 장치에 적용하면 사용자에게 15분마다 PIN을 설정하라는 메시지가 표시됩니다. 사용자가 PIN을 설정할 때까지 계속 메시지가 표시됩니다.
 
-
-
 #### <a name="schedule-your-automatic-updates---1805514---"></a>자동 업데이트를 예약합니다.<!--1805514 -->
 Intune에서는 [Windows Update 링 설정](windows-update-for-business-configure.md)을 사용하여 자동 업데이트를 설치하도록 제어할 수 있습니다. 이 업데이트에서는 주, 일, 시간을 비롯한 되풀이 업데이트를 예약할 수 있습니다.
 
@@ -179,6 +201,10 @@ Mac 응용 프로그램 방화벽을 구성할 수 있습니다. 포트당이 �
 - 특정 앱 허용 또는 차단
 
    들어오는 연결을 특정 앱이 수신하는 것을 허용하거나 차단할 수 있습니다. 검색 요청에 응답하지 않도록 은폐 모드를 사용할 수도 있습니다.
+
+####  <a name="detailed-error-codes-and-messages----1376342---"></a>자세한 오류 코드 및 메시지 <!-- 1376342 -->
+
+장치 구성에서 자세한 오류 코드 및 오류 메시지를 확인할 수 있습니다. 이 향상된 보고 기능은 설정, 설정 상태 및 자세한 문제 해결 정보를 보여 줍니다.
 
 ##### <a name="more-information"></a>추가 정보
 
@@ -935,12 +961,6 @@ Intune 데이터 웨어하우스 데이터 모델의 첫 번째 버전에는 최
 
 
 ## <a name="notices"></a>알림
-
-
-#### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>이러한 변경에 대해 준비하려면 어떻게 해야 하나요?
-
-이는 사소한 워크플로 UI 업데이트이므로 이러한 변경에 대해 준비할 필요는 없습니다.
-Microsoft의 GDPR 준수에 대한 자세한 내용은 추가 정보 링크에서 액세스 가능한 보안 센터를 참조하십시오.
 
 ### <a name="plan-for-change-new-windows-10-setting-for-kiosk-configuration-in-intune----1560072---"></a>변경 계획: Intune에서 키오스크 구성에 대한 새로운 Windows 10 설정 <!-- 1560072 -->
 Intune Azure Portal에서 Windows 10 1709 이상(RS3 이상) 데스크톱을 구성하는 방법 및 위치를 변경할 예정입니다.

@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 manager: dougeby
 ms.author: erikre
-ms.date: 01/10/2018
+ms.date: 04/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 74c709790295a971ff9efe7c2cc348d13d471d5a
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 486ff2d22cb201abc926efc96a83455be98e7536
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>iOS용 Microsoft Intune 앱 SDK 개발자 가이드
 
@@ -458,6 +458,73 @@ WebViewHandledURLSchemes | 문자열 배열 | 앱의 WebView에서 처리하는 
 
 > [!NOTE]
 > 앱이 앱 스토어에 출시될 경우 `MAMPolicyRequired`를 앱 스토어 표준에 따라 "NO"로 설정해야 합니다.
+
+## <a name="sharing-data-via-uiactivityviewcontroller"></a>UIActivityViewController를 통해 데이터 공유 
+버전 8.0.2 이상부터 Intune APP SDK에서 UIActivityViewController 작업을 필터링하여 Intune 이외의 공유 위치를 선택하지 못하게 할 수 있습니다. 이 동작은 응용 프로그램 데이터 전송 정책과 예정된 APP 기능에 의해 제어됩니다. 대부분의 Microsoft 자사 응용 프로그램(예: Word, Excel, Powerpoint)이 UIActivityViewController를 통한 데이터 공유를 지원하는 데 필요한 변경을 수행한 후에 예정된 기능을 사용할 수 있게 됩니다. 
+ 
+### <a name="copy-to-actions"></a>‘복사’ 작업 
+UIActivityViewController 및 UIDocumentInteractionController를 통해 문서를 공유하는 경우 iOS에서 공유되는 문서의 열기를 지원하는 각 응용 프로그램에 대해 ‘복사’ 작업이 표시됩니다. 응용 프로그램은 Info.plist에 있는 CFBundleDocumentTypes 설정을 통해 지원하는 문서 종류를 선언합니다. 정책에 따라 관리되지 않는 응용 프로그램에 공유할 수 없는 경우에는 이 유형의 공유를 더 이상 사용할 수 없습니다. 대신, 응용 프로그램에서 UI가 아닌 작업 확장을 해당 응용 프로그램에 추가하고 이 확장을 iOS용 Intune APP SDK에 연결해야 합니다. 작업 확장은 스텁처럼 작동합니다. SDK는 모든 파일 공유 동작을 구현합니다. 위의 SDK 통합 단계와 다음을 수행합니다. 
+ 
+1. 응용 프로그램의 Info.plist CFBundleURLTypes 아래에 schemeURL이 하나 이상 정의되어 있어야 합니다. 
+2. 응용 프로그램과 작업 확장이 하나 이상의 앱 그룹을 공유해야 하며, 해당 앱 그룹이 앱 및 확장 IntuneMAMSettings 사전의 AppGroupIdentifiers 배열 아래에 나열되어야 합니다. 
+3. 작업 확장의 이름을 “Open in”과 응용 프로그램 이름으로 지정합니다. 필요에 따라 Info.plist를 지역화합니다. 
+4. [Apple 개발자 설명서](https://developer.apple.com/ios/human-interface-guidelines/extensions/sharing-and-actions/)에 설명된 대로 확장에 대한 템플릿 아이콘을 디자인합니다. 또는 IntuneMAMConfigurator 도구를 사용하여 응용 프로그램 .app 디렉터리에서 이러한 이미지를 생성할 수 있습니다. ‘IntuneMAMConfigurator-generateOpenInIcons /path/to/app.app-o /path/to/output/directory’를 실행합니다. 
+5. 확장의 Info.plist에 있는 IntuneMAMSettings 아래에 이름이 OpenInActionExtension이고 값이 YES인 부울 설정을 추가합니다. 
+6. 단일 파일과 ‘com.microsoft.intune.mam’이 접두사로 지정된 응용 프로그램 CFBundleDocumentTypes의 모든 형식을 지원하도록 NSExtensionActivationRule을 구성합니다. 예를 들어 응용 프로그램이 public.text 및 public.image를 지원하는 경우 활성화 규칙은 다음과 같습니다. 
+
+```
+SUBQUERY ( 
+    extensionItems, 
+    $extensionItem, 
+    SUBQUERY ( 
+        $extensionItem.attachments, 
+        $attachment, 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.text” || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.image”).@count == 1 
+).@count == 1 
+```
+
+### <a name="update-existing-share-and-action-extensions"></a>기존 공유 및 작업 확장 업데이트 
+응용 프로그램에 이미 공유 또는 작업 확장이 포함되어 있는 경우 Intune 형식을 허용하도록 해당 NSExtensionActivationRule을 수정해야 합니다. 확장에서 지원하는 각 형식마다 ‘com.microsoft.intune.mam’이 접두사로 지정된 추가 형식이 있어야 합니다. 예를 들어 기존 활성화 규칙이 다음과 같다고 가정합니다.  
+
+```
+SUBQUERY ( 
+    extensionItems, 
+    $extensionItem, 
+    SUBQUERY ( 
+        $extensionItem.attachments, 
+        $attachment, 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.plain-text" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data" 
+    ).@count > 0 
+).@count > 0 
+ ```
+
+이 경우 다음과 같이 변경해야 합니다. 
+
+```
+SUBQUERY ( 
+    extensionItems, 
+    $extensionItem, 
+    SUBQUERY ( 
+        $extensionItem.attachments, 
+        $attachment, 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.plain-text" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.url" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.plain-text" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.image" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.data 
+    ).@count > 0 
+).@count > 0 
+ ```
+
+>[!Note] IntuneMAMConfigurator 도구를 사용하여 Intune 형식을 활성화 규칙에 추가할 수 있습니다. 기존 활성화 규칙이 미리 정의된 문자열 상수(예: NSExtensionActivationSupportsFileWithMaxCount, NSExtensionActivationSupportsText 등)를 사용하는 경우 조건자 구문이 복잡해질 수 있습니다. Intune 형식을 추가하는 동안 IntuneMAMConfigurator 도구를 사용하여 활성화 규칙을 문자열 상수에서 조건자 문자열로 변환할 수도 있습니다. IntuneMAMConfigurator는 GitHub 리포지토리에 있습니다. 
+
 
 ## <a name="enabling-mam-targeted-configuration-for-your-ios-applications"></a>iOS 응용 프로그램에 대해 MAM 대상 구성 사용
 MAM 대상 구성을 사용하면 앱이 Intune 앱 SDK를 통해 구성 데이터를 받을 수 있습니다. 응용 프로그램 소유자/개발자가 이 데이터의 형식 및 variant를 정의하고 Intune 고객에게 전달해야 합니다. Intune 관리자는 Intune Azure Portal을 통해 구성 데이터를 대상으로 지정하고 배포할 수 있습니다. iOS용 Intune 앱 SDK 버전 7.0.1를 기준으로, MAM 서비스를 통해 MAM 대상 구성에 참여하는 앱에 MAM 대상 구성 데이터를 제공할 수 있습니다. 응용 프로그램 구성 데이터는 MDM 채널을 통해 제공되는 것이 아니라 MAM 서비스를 통해 앱에 직접 푸시됩니다. Intune 앱 SDK는 이러한 콘솔에서 검색된 데이터에 액세스하기 위한 클래스를 제공합니다. 필수 조건으로 다음을 고려합니다. <br>

@@ -17,11 +17,11 @@ ROBOTS: ''
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: bbed41e819af0cb5cc194553f2a5a3413a68425a
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: ebb79bc3405e9ea0dd38c24b86a4c9020760c895
+ms.sourcegitcommit: 2773f388f50654366197a95a6838306f70fc18b8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="use-managed-apps-on-your-android-device"></a>Android 장치에서 관리되는 앱 사용
 
@@ -65,11 +65,7 @@ IT 부서에서 관리할 수 있는 몇 가지 일반적인 앱은 다음과 �
 
 -   Intune Managed Browser
 
--   Intune 이미지 뷰어
-
--   Intune PDF 뷰어
-
--   Intune AV 플레이어
+-   Microsoft Azure Information Protection 뷰어
 
 -   Microsoft Word, Excel 및 PowerPoint
 

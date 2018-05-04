@@ -3,8 +3,8 @@ title: Windows 10 장치용 Microsoft Intune에서 PowerShell 스크립트 관�
 titlesuffix: ''
 description: Microsoft Intune에서 PowerShell 스크립트를 업로드하여 Windows 10 장치에서 실행하는 방법을 알아봅니다.
 keywords: ''
-ms.author: dougeby
-author: dougeby
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 02/27/2018
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 768b6f08-3eff-4551-b139-095b3cfd1f89
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c501292126200baa88e06e30b6226e5c5021b8ec
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 3de7af01ffa64293e420913258919eff118b4abc
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="manage-powershell-scripts-in-intune-for-windows-10-devices"></a>Windows 10 장치를 위한 Intune에서의 PowerShell 스크립트 관리
 Intune 관리 확장을 사용하면 Windows 10 장치에서 실행되도록 Intune에서 PowerShell 스크립트를 업로드할 수 있습니다. 관리 확장은 Windows 10 MDM(모바일 장치 관리) 기능을 보완하며 사용자가 최신 관리로 더 손쉽게 이행할 수 있도록 합니다.
@@ -33,8 +33,8 @@ Intune 관리 확장은 Windows 10 MDM의 기본 기능을 보완합니다. 필�
 
 ## <a name="prerequisites"></a>전제 조건
 Intune 관리 확장에는 다음과 같은 필수 구성 요소가 있습니다.
-- 장치가 Azure AD에 가입되어 있어야 합니다.
-- 장치가 Windows 10 버전 1607 이상을 실행해야 합니다.
+- 장치가 Azure AD에 연결되어야 합니다. 하이브리드 AD 연결 장치는 여기에 포함되지 않습니다.
+- 장치에서 Windows 10 버전 1607 이상을 실행해야 합니다.
 
 ## <a name="create-a-powershell-script-policy"></a>PowerShell 스크립트 정책 만들기 
 1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
@@ -43,7 +43,7 @@ Intune 관리 확장에는 다음과 같은 필수 구성 요소가 있습니다
 4. **장치 구성** 창에서 **관리** > **PowerShell 스크립트**를 선택합니다.
 5. **PowerShell 스크립트** 창에서 **추가**를 선택합니다.
 6. **PowerShell 스크립트 추가** 창에서 PowerShell 스크립트에 대한 **이름** 및 **설명**을 입력합니다.
-7. **스크립트 위치**의 경우 PowerShell 스크립트를 찾습니다. 스크립트는 10KB(ASCII) 또는 5KB(유니코드) 미만이어야 합니다.
+7. **스크립트 위치**의 경우 PowerShell 스크립트를 찾습니다. 스크립트 크기가 200KB 미만이어야 합니다.
 8. **구성**을 선택한 다음, 장치(**예**) 또는 시스템 컨텍스트(**아니요**) 중 어디에서 사용자의 자격 증명으로 스크립트를 실행할지를 선택합니다. 기본적으로 스크립트는 시스템 컨텍스트에서 실행됩니다. 스크립트를 시스템 컨텍스트에서 실행해야 하는 경우 외에는 **예**를 선택합니다. 
   ![PowerShell 스크립트 추가 창](./media/mgmt-extension-add-script.png)
 9. 신뢰할 수 있는 게시자가 스크립트를 서명해야 하는지 여부를 선택합니다(**예**). 기본적으로 서명할 스크립트에 대한 요구 사항은 없습니다. 

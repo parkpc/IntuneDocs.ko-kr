@@ -5,7 +5,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 04/03/2018
+ms.date: 04/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b6ca8108924c6c062da0d0ef56ab5b68635dd9ca
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: b003fde011fd3a727c7c7a163fedb1dae6779425
+ms.sourcegitcommit: 407191a92ef356a3d196b6f9959b9b033190ca2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="the-early-edition-for-microsoft-intune---april-2018"></a>Microsoft Intune 초기 버전 - 2018년 4월
 
@@ -39,6 +39,16 @@ ms.lasthandoff: 04/16/2018
 ## <a name="intune-in-the-azure-portal"></a>Azure Portal의 Intune
 
 <!-- 1804 start -->
+
+### <a name="show-caller-id-in-personal-profile---android-for-work---1098984---"></a>개인 프로필에 발신자 ID 표시 - Android for Work <!--1098984 -->
+장치에서 개인 프로필을 사용하는 경우 회사 연락처의 발신자 ID 정보가 최종 사용자에게 표시되지 않을 수 있습니다. 
+
+이 업데이트에서는 **Android for Work** > **장치 제한** > **작업 프로필 설정**에서 새 설정이 지정됩니다.
+- 개인 프로필에 회사 연락처의 발신자 ID 표시
+
+사용하도록 설정하면(구성하지 않음) 회사 연락처의 발신자 정보가 개인 프로필에 표시됩니다. 차단하면 회사 연락처의 발신자 번호가 개인 프로필에 표시되지 않습니다. 
+
+적용 대상: Android OS v6.0 이상의 Android 회사 프로필 장치
 
 ### <a name="new-windows-defender-credential-guard-settings-added-to-endpoint-protection-settings---1102252-----from-1802--"></a>엔드포인트 보호 설정에 추가된 새 Windows Defender Credential Guard 설정 <!--1102252 --><!--from 1802-->
 
@@ -112,6 +122,9 @@ AFW 앱 할당을 위해 기본 제공된 **모든 사용자** 및 **모든 장�
 
 ### <a name="play-sounds-on-ios-when-in-lost-mode----1629303---"></a>분실 모드에 있을 때 iOS에서 소리 재생 <!-- 1629303 -->
 감독 중인 iOS 장치가 MDM(모바일 장치 관리) [분실 모드](device-lost-mode.md)에 있는 경우 소리를 재생할 수 있습니다(**장치** > **모든 장치** > iOS 장치 선택 > **개요** > **자세히**). 소리는 장치가 분실 모드에서 제거되거나 사용자가 장치에서 소리를 사용하지 않도록 설정할 때까지 계속 재생할 수 있습니다. iOS 장치 9.3 이상에서 적용됩니다.
+
+### <a name="intune-will-reinstall-required-apps-that-are-uninstalled-by-users----1947010---"></a>사용자가 제거한 필수 앱을 Intune에서 다시 설치함 <!-- 1947010 -->
+최종 사용자가 필수 앱을 제거할 경우 Intune에서 7일 재평가 주기를 기다리지 않고 24시간 이내에 앱을 자동으로 다시 설치합니다.
 
 ### <a name="use-a-custom-subject-name-on-scep-certificate----2064190---"></a>SCEP 인증서에서 사용자 지정 주체 이름 사용 <!-- 2064190 -->
 SCEP 인증서 프로필에서 사용자 지정 주체에 **OnPremisesSamAccountName** 일반 이름을 사용할 수 있습니다. 예를 들어 `CN={OnPremisesSamAccountName})`를 사용할 수 있습니다.

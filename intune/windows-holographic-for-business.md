@@ -12,11 +12,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 41c1ea3bf12b83a0f09c8535275ffb58e5f46931
-ms.sourcegitcommit: b727b6bd6f138c5def7ac7bf1658068db30a0ec3
+ms.openlocfilehash: 45d8f5051d9663273c6515717b7930145ff8a964
+ms.sourcegitcommit: 2773f388f50654366197a95a6838306f70fc18b8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="customize-devices-running-windows-holographic-with-intune"></a>Intune을 사용하여 Windows Holographic을 실행하는 장치 사용자 지정
 
@@ -38,7 +38,7 @@ Intune은 사용자가 회사 데이터 액세스하고, 장치를 등록하고,
 
 **[준수 정책 시작](device-compliance-get-started.md)** 을 참조합니다.
 
-## <a name="deploy-apps"></a>앱 배포
+## <a name="deploy-and-manage-apps"></a>앱 배포 및 관리
 **[Intune에 앱 추가](apps-add.md)**
 
 Intune을 사용하여 Windows Holographic for Business를 실행하는 장치에 앱을 추가할 수 있습니다. 다음을 포함하여 앱을 배포하는 방법은 많습니다.
@@ -46,6 +46,16 @@ Intune을 사용하여 Windows Holographic for Business를 실행하는 장치�
 - [Microsoft Store 앱 추가](store-apps-windows.md)
 - [만든 앱 추가](lob-apps-windows.md)
 - [그룹에 앱 할당](apps-deploy.md)
+
+Microsoft Intune은 Windows Holographic for Business를 실행하는 Microsoft HoloLens 장치에 유니버설 Windows 앱을 배포할 수 있습니다. Intune Azure Portal에서 앱 패키지를 직접 업로드하거나, 비즈니스용 Microsoft Store에서 배포할 수 있습니다. 관련 영역에 대한 자세한 내용은 다음을 참조하세요.
+- Intune Azure Portal을 사용하여 LOB(기간 업무) 앱을 배포하려면 [Microsoft Intune에 Windows 기간 업무 앱을 추가하는 방법](lob-apps-windows.md)을 참조하세요.
+- 비즈니스용 Microsoft Store를 사용하여 앱을 배포하려면 [Microsoft Intune을 사용하여 비즈니스용 Microsoft Store에서 구입한 앱을 관리하는 방법](windows-store-for-business.md)을 참조하세요. 
+- Microsoft Intune을 사용하는 앱 관리에 대한 자세한 내용은 [Microsoft Intune의 앱 관리란?](app-management.md)을 참조하세요.
+- Microsoft HoloLens용 앱 개발에 대한 자세한 내용은 [Microsoft HoloLens용 혼합 현실 앱](https://www.microsoft.com/hololens/apps)을 참조하세요. 
+
+> [!NOTE]
+> Windows 10 Holographic for Business 1607을 실행하는 HoloLens 장치는 비즈니스용 Microsoft Store에서 구입한, 온라인 사용이 허가된 앱을 지원하지 않습니다. 자세한 내용은 [HoloLens에 앱 설치](https://docs.microsoft.com/en-us/hololens/hololens-install-apps)를 참조하세요.
+
 
 ## <a name="device-categories-and-groups"></a>장치 범주 및 그룹
 **[장치를 그룹으로 분류](device-group-mapping.md)**

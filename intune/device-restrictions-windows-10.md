@@ -12,11 +12,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 83027a95edca04f4461cecab341deb3ec10680fb
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 611ec516b87f42b41a80de605d0d511ed2c58309
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="device-restriction-for-windows-10-and-newer-settings-in-intune"></a>Intune에서 Windows 10(및 이상) 설정을 위한 장치 제한
 이 아티클에서는 Windows 10을 실행하는 장치에 대해 구성할 수 있는 모든 Microsoft Intune 장치 제한 설정을 보여줍니다.
@@ -370,6 +370,11 @@ Windows 10 Mobile을 실행 중인 장치: 지정한 횟수만큼 로그인이 �
 - **인쇄 서비스 리소스 URI** - Azure Portal에 구성된 인쇄 서비스의 OAuth 리소스 URI입니다.
 - **쿼리할 최대 프린터 수(모바일 전용)** - 검색 끝점에서 쿼리해야 하는 최대 프린터 수입니다.
 - **프린터 검색 서비스 리소스 URI** - Azure Portal에 구성된 프린터 검색 서비스의 OAuth 리소스 URI입니다.
+
+## <a name="local-printer"></a>로컬 프린터
+- **프린터** - 추가된 로컬 프린터 목록입니다.
+- **기본 프린터** - 기본 프린터를 설정합니다.
+- **새 프린터 추가에 대한 사용자 액세스** - 로컬 프린터 사용을 허용하거나 차단합니다.
 
 ## <a name="reporting-and-telemetry"></a>보고 및 원격 분석
 

@@ -13,11 +13,11 @@ ms.technology: ''
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3326ecccd0d20602d6a9445b62c39f582354f238
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 2f599f168c1b4ae9aa94324b69ed11e6d426c86d
+ms.sourcegitcommit: 4c18352d5b3b30080f7c7257fa63d852b1894850
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="get-started-with-device-compliance-policies-in-intune"></a>Intune에서 장치 준수 정책 시작
 
@@ -80,6 +80,8 @@ Remember that you need to implement conditional access policies in addition to c
   - Windows 10
 
 - 준수 상태를 보고하려면 장치가 Intune에 등록되어야 합니다.
+
+- 한 사용자에 등록된 장치 또는 기본 사용자가 없는 장치는 지원됩니다. 하지만 다중 사용자 컨텍스트는 지원되지 않습니다.
 
 ## <a name="how-intune-device-compliance-policies-work-with-azure-ad"></a>Azure AD에서 Intune 장치 준수 정책이 사용되는 방식
 
@@ -148,9 +150,9 @@ Remember that you need to implement conditional access policies in addition to c
 또한 조건부 액세스 없이 장치 준수 정책을 사용할 수 있습니다. 준수 정책을 독립적으로 사용하는 경우 대상 장치는 평가되고 준수 상태와 함께 보고됩니다. 예를 들어 암호화되지 않은 장치의 수나 무단 해제 또는 루팅된 장치에 대한 보고서를 가져올 수 있습니다. 조건부 액세스 없이 준수 정책을 사용하는 경우 회사 리소스에 대한 액세스 제한이 없습니다.
 
 ## <a name="ways-to-deploy-device-compliance-policies"></a>장치 준수 정책을 배포하는 방법
-준수 정책을 사용자 그룹의 사용자 또는 장치 그룹의 장치에 배포할 수 있습니다. 준수 정책을 사용자에게 배포하면 사용자 장치의 준수가 확인됩니다.
+준수 정책을 사용자 그룹의 사용자 또는 장치 그룹의 장치에 배포할 수 있습니다. 준수 정책을 사용자에게 배포하면 사용자의 모든 장치에서 준수가 확인됩니다.
 
-장치 그룹의 장치는 **준수 정책 설정**(Azure Portal > 장치 준수)에는 다음이 포함됩니다.
+**준수 정책 설정**(Azure Portal > 장치 준수)에는 다음이 포함됩니다.
 
 - **준수 정책 없이 장치를 다음으로 표시**: 이 속성에는 두 개의 값이 있습니다.
 

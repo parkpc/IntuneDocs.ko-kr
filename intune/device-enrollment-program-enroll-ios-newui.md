@@ -15,11 +15,11 @@ ms.assetid: 7ddbf360-0c61-11e8-ba89-0ed5f89f718b
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5532e00f90702b820ec5bed6bf2fdb3d5e9d37df
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: b7925b09a8f5978319fc76d899f954190dc9df4e
+ms.sourcegitcommit: 4c18352d5b3b30080f7c7257fa63d852b1894850
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="automatically-enroll-ios-devices-with-apples-device-enrollment-program"></a>Apple 장치 등록 프로그램을 통해 iOS 장치를 자동으로 등록
 
@@ -132,7 +132,7 @@ Azure 포털의 Intune에서 나중에 참조할 수 있도록 Apple ID를 제�
     ![회사 포털에서 인증합니다.](./media/device-enrollment-program-enroll-ios/authenticatewithcompanyportal.png)
 
     > [!NOTE]
-    > 프로필 속성이 **사용자 선호도를 사용하여 등록**하도록 설정되어 있고 회사 포털을 사용하지 않는 경우 DEP를 등록하는 동안 MFA(다단계 인증)가 작동하지 않습니다. 등록 후 MFA는 장치에서 예상대로 작동합니다. 처음 로그인할 때 암호를 변경해야 하는 사용자에게 장치가 메시지를 표시할 수 없습니다. 또한 암호가 만료된 사용자는 등록 중에 암호를 재설정하라는 메시지가 표시되지 않습니다. 사용자가 다른 장치를 사용하여 암호를 재설정해야 합니다.
+    > 프로필 속성이 **사용자 선호도를 사용하여 등록**하도록 설정되어 있는 경우 DEP를 등록하는 동안 MFA(다단계 인증)가 작동하지 않습니다. 등록 후 MFA는 장치에서 예상대로 작동합니다. 처음 로그인할 때 암호를 변경해야 하는 사용자에게 장치가 메시지를 표시할 수 없습니다. 또한 암호가 만료된 사용자는 등록 중에 암호를 재설정하라는 메시지가 표시되지 않습니다. 사용자가 다른 장치를 사용하여 암호를 재설정해야 합니다.
 
 6. **장치 관리 설정**을 선택한 다음 이 프로필을 사용하는 장치를 감독할지 여부를 선택합니다.
     **감독**되는 장치의 경우 더 많은 관리 옵션이 제공되며 기본적으로 활성화 잠금을 사용할 수 없습니다. 특히 많은 수의 iOS 장치를 배포하는 조직의 경우 감독됨 모드를 사용하기 위한 메커니즘으로 DEP를 사용하는 것이 좋습니다.

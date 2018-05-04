@@ -5,18 +5,18 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 3/6/2018
+ms.date: 4/26/2018
 ms.article: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b349a61d61288f700294e04d029d825afba13445
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: d1825d99243654c9fecac7729153a95234d435ff
+ms.sourcegitcommit: 4c18352d5b3b30080f7c7257fa63d852b1894850
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="custom-device-settings-for-devices-running-windows-holographic-for-business-in-intune"></a>Intune에서 Windows Holographic for Business를 실행하는 장치에 사용자 지정 장치 설정
 
@@ -89,14 +89,14 @@ ms.lasthandoff: 04/16/2018
 ---
 |OMA URI|데이터 형식  |
 |---------|---------|
-|./Vendor/MSFT/Update/ApprovedUpdates<br><br>**중요**<br>최종 사용자를 대신하여 업데이트 EULA를 읽고 동의해야 합니다. 이렇게 하지 않으면 법률 또는 계약상 의무 위반입니다.|최종 사용자를 대신하여 EULA 동의 및 업데이트 승인 노드.|
+|./Vendor/MSFT/Update/ApprovedUpdates/*GUID*<br><br>**중요**<br>최종 사용자를 대신하여 업데이트 EULA를 읽고 동의해야 합니다. 이렇게 하지 않으면 법률 또는 계약상 의무 위반입니다.|최종 사용자를 대신하여 EULA 동의 및 업데이트 승인 노드.<br/><br/>자세한 내용은 [업데이트 CSP](https://docs.microsoft.com/windows/client-management/mdm/update-csp)를 참조하세요.|
 
 ### <a name="applicationlaunchrestrictionshttpsdocsmicrosoftcomwindowsclient-managementmdmapplocker-csp"></a>[ApplicationLaunchRestrictions](https://docs.microsoft.com/windows/client-management/mdm/applocker-csp)
 
 ---
 |OMA URI|데이터 형식  |
 |---------|---------|
-|./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/*Grouping*/*ApplicationType*/Policy<br><br>**중요**<br>AppLocker CSP 아티클은 이스케이프된 XML 예제를 사용합니다. Intune 사용자 지정 프로필을 사용해 설정을 구성하려면 일반 XML을 사용해야 합니다.|문자열<br>자세한 내용은 [AppLocker CSP](https://docs.microsoft.com/windows/client-management/mdm/applocker-csp)을 참조하세요.|
+|./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/*Grouping*/*ApplicationType*/Policy<br><br>**중요**<br>AppLocker CSP 아티클은 이스케이프된 XML 예제를 사용합니다. Intune 사용자 지정 프로필을 사용해 설정을 구성하려면 일반 XML을 사용해야 합니다.|문자열<br>자세한 내용은 [AppLocker CSP](https://docs.microsoft.com/windows/client-management/mdm/applocker-csp)를 참조하세요.|
 
 ## <a name="find-the-policies-you-can-configure"></a>구성할 수 있는 정책 찾기
 

@@ -14,11 +14,11 @@ ms.assetid: ''
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0dfcaa2e37fecc4c5a075931489c106b78c17b7e
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 61a190be2b4685030438988dab0d0134a8fa9f9b
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-and-use-pkcs-certificates-with-intune"></a>Intune을 사용하여 PKCS 인증서 구성 및 사용
 
@@ -82,7 +82,7 @@ VPN, WiFi 및 기타 리소스를 통해 인증하려면 각 장치에 루트 �
 9. **확장**에서 **응용 프로그램 정책** 아래에 파일 시스템 암호화, 메일 보안 및 클라이언트 인증이 표시되는지 확인합니다.
     
       > [!IMPORTANT]
-      > iOS 및 macOS 인증서 템플릿의 경우 **확장** 탭으로 이동해 **키 사용**을 업데이트하고 **서명이 원본 증명임**이 선택되어 있지 않음을 확인합니다.
+      > iOS 인증서 템플릿의 경우 **확장** 탭으로 이동해서 **키 사용**을 업데이트한 다음 **서명이 원본 증명임**이 선택되지 않은 것을 확인합니다.
 
 10. **보안**에서 Microsoft Intune Certificate Connector를 설치할 서버의 컴퓨터 계정을 추가합니다.
     * 이 계정에 **읽기** 및 **등록** 권한을 허용합니다.

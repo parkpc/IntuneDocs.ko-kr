@@ -15,17 +15,25 @@ ms.assetid: E85DBB2D-67BB-4E10-82D6-E43046B9C43C
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8e11585adf570ba9155861f89688c33ac6cecbeb
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 1a44ac33542675457864eead5915a3150e592b1b
+ms.sourcegitcommit: 4c18352d5b3b30080f7c7257fa63d852b1894850
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="change-log-for-the-intune-data-warehouse-api"></a>Intune 데이터 웨어하우스 API에 대한 변경 로그
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune 데이터 웨어하우스에 대한 업데이트를 최신 상태로 유지합니다.
+
+## <a name="1805"></a>1805
+_릴리스 날짜: 2018년 5월_
+
+### <a name="correction-to-device-count-in-devices-collection"></a>**장치** 컬렉션의 장치 수 수정 
+
+**장치** 컬렉션이 수정되어 `isDeleted` 특성을 기준으로 필터링되는 총 장치 수가 감소할 수 있습니다. 이 감소는 수정 결과이며 오류가 아닙니다. **장치** 컬렉션에 대한 자세한 내용은 [장치 엔티티 참조](reports-ref-devices.md)를 참조하세요. 
+
 
 ## <a name="1801"></a>1801
 _2018년 1월 출시_

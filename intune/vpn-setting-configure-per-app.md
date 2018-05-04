@@ -3,8 +3,8 @@ title: iOS 장치용 Microsoft Intune에서 앱당 VPN 설정
 titleSuffix: ''
 description: Intune이 관리하는 iOS 장치에서 관리되는 앱이 VPN(가상 사설망)을 사용할 수 있도록 지정합니다.
 keywords: ''
-author: Erikre
-ms.author: erikre
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 03/02/2018
 ms.topic: article
@@ -15,15 +15,23 @@ ms.assetid: D9958CBF-34BF-41C2-A86C-28F832F87C94
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1b28f809c924ec2699647a3cc377b3bdde86afe5
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 67e2630fc2a7ccd75ac86c797e36c389757d908a
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-in-intune-for-ios-devices"></a>iOS 장치용 Intune에서 앱당 VPN 설정
 
 Intune이 관리하는 iOS 장치에서 관리되는 앱이 VPN을 사용할 수 있도록 지정합니다. Intune에서 앱당 VPN을 만들면 최종 사용자가 회사 문서에 액세스할 때 VPN을 통해 자동으로 연결합니다.
+
+현재 앱당 VPN을 사용할 수 있는 공급자는 다음과 같습니다. 
+
+ - Pulse Connect Secure
+ - Checkpoint Remote Access VPN
+ - F5
+ - SonicWall
+
 
 ## <a name="prerequisites-for-the-per-app-vpn"></a>앱당 VPN의 필수 구성 요소
 
@@ -37,7 +45,7 @@ Intune이 관리하는 iOS 장치에서 관리되는 앱이 VPN을 사용할 수
 4. 인증을 위해 인증서를 발급한 CA의 이름을 VPN 서버에 추가합니다.
     해당 장치에서 제공한 CA가 VPN 서버의 신뢰할 수 있는 CA 목록에 있는 CA와 일치하는 경우 VPN 서버는 성공적으로 장치를 인증합니다.
 
-## <a name="create-a--group-for-your-vpn-users"></a>VPN 사용자의 그룹 만들기
+## <a name="create-a-group-for-your-vpn-users"></a>VPN 사용자 그룹 만들기
 
 Azure AD(Azure Active Directory)에서 기존 그룹을 만들거나 선택하여 앱당 VPN에 액세스할 수 있는 멤버를 포함합니다.
 

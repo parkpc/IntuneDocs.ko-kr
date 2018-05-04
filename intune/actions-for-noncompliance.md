@@ -12,11 +12,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a4b5e55b404da907d8f17a658483b4802af8226d
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 8e8603ca59b46937b1529e710a8bc83aec5dd4d6
+ms.sourcegitcommit: 4c18352d5b3b30080f7c7257fa63d852b1894850
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="automate-email-and-add-actions-for-noncompliant-devices---intune"></a>이메일 자동화 및 비준수 장치 - Intune에 대한 작업 추가
 
@@ -77,7 +77,10 @@ ms.lasthandoff: 04/16/2018
 1. [Azure Portal](https://portal.azure.com)에서 **Microsoft Intune**을 열고 **장치 준수**를 선택합니다.
 2. **정책**을 선택하고 사용자 정책 중 하나를 선택한 다음, **속성**을 선택합니다. 
 
-   정책이 아직 없습니까? [Android](compliance-policy-create-android.md), [iOS](compliance-policy-create-ios.md), [Windows](compliance-policy-create-windows.md) 또는 다른 플랫폼 정책을 만듭니다.
+  정책이 아직 없습니까? [Android](compliance-policy-create-android.md), [iOS](compliance-policy-create-ios.md), [Windows](compliance-policy-create-windows.md) 또는 다른 플랫폼 정책을 만듭니다.
+  
+  > [!NOTE]
+  > JAMF 장치 및 장치 그룹을 사용하여 대상으로 지정된 장치는 현재 준수 작업을 받을 수 없습니다.
 
 3. **비준수에 대한 작업**을 선택한 다음, **추가**를 선택하여 작업 매개 변수를 입력합니다. 이전에 만든 메시지 템플릿을 선택하고 추가 수신자를 추가하고 유예 기간 일정을 업데이트할 수 있습니다. 일정에서 일 수(0 - 365)를 입력할 수 있습니다. 그런 다음, 조건부 액세스 정책을 적용할 수 있습니다. 일 수를 **0**으로 입력하는 경우 조건부 액세스는 **즉시** 회사 리소스에 대한 액세스를 차단 합니다.
 
