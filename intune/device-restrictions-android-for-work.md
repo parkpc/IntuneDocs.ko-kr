@@ -5,18 +5,18 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 3/19/2018
+ms.date: 4/25/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5715cca4a2f3deff925c5ba2575771c548261e53
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: e1db0e98318c05c7a1a854ed1af77d9d9654cc38
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="work-device-restriction-settings-in-intune"></a>Intune에서 장치 제한 사항 설정 작업
 
@@ -50,6 +50,12 @@ ms.lasthandoff: 04/26/2018
    예를 들어 Android for Work 프로필에 Gmail 앱을 배포할 경우 최종 사용자가 해당 작업 프로필에 계정 추가나 제거를 방지할 수 있습니다.
 
 - **Bluetooth를 통한 연락처 공유**: Bluetooth를 사용하여 쌍을 이루는 자동차 등의 다른 장치에서 작업 연락처에 액세스할 수 있습니다. 기본적으로 이 설정은 구성되지 않고 작업 프로필 연락처는 표시되지 않습니다. 이 공유를 허용하고 작업 프로필 연락처를 표시하려면 **사용**을 선택합니다. 이 설정은 Android OS v6.0 이상의 Android 작업 프로필 장치에 적용됩니다. 이 옵션을 사용하도록 설정하면 특정 Bluetooth 장치가 처음 연결할 때 회사 연락처를 캐시할 수 있습니다. 초기 페어링/동기화 후에 이 정책을 사용하지 않도록 설정할 경우 Bluetooth 장치에서 회사 연락처가 제거되지 않을 수 있습니다.
+
+- **화면 캡처**: 회사 프로필에서 장치의 화면 캡처를 차단합니다. 또한 보안 비디오 출력이 없는 디스플레이 장치에 콘텐츠가 표시되지 않도록 합니다.
+
+- **개인 프로필에 회사 연락처 발신자 번호 표시**: 사용하도록 설정되면(구성되지 않음) 회사 연락처 발신자 정보가 개인 프로필에 표시됩니다. 차단하면 회사 연락처의 발신자 번호가 개인 프로필에 표시되지 않습니다. Android OS v6.0 및 이후 버전에 적용됩니다.
+
+- **카메라**: 회사 프로필에서 장치의 카메라를 차단합니다. 개인용 카메라는 이 설정의 영향을 받지 않습니다.
 
 ### <a name="work-profile-password"></a>회사 프로필 암호
 

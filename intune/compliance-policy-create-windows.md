@@ -5,18 +5,18 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 04/16/2018
+ms.date: 04/26/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bb79a6c18ff8b6eec20f4ce8813d8dea188215e7
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 2a4bd083027905d00dc317a0103754748bf0236e
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-device-compliance-policy-for-windows-devices-in-intune"></a>Intune에서 Windows 장치에 대한 장치 준수 정책 추가
 
@@ -94,7 +94,7 @@ Windows 8.1 PC는 **3** 버전을 반환합니다. Windows에 대한 OS 버전 �
     - 기호
     - 숫자
 
-    더 큰 값을 설정하면 사용자는 더욱 복잡한 암호를 만들어야 합니다. Windows를 실행하고 Microsoft 계정으로 보안이 유지되는 장치의 경우 최소 암호 길이가 8자보다 길거나 최소 문자 집합 수가 2보다 크면 준수 정책 평가가 올바르게 이루어지지 않습니다.
+    더 큰 값을 설정하면 사용자는 더욱 복잡한 암호를 만들어야 합니다. Windows를 실행하고 Microsoft 계정으로 액세스되는 장치의 경우 최소 암호 길이가 8자보다 길거나 최소 문자 집합 수가 2보다 크면 준수 정책 평가가 올바르게 이루어지지 않습니다.
 
 - **암호를 요구하기 전까지 최대 비활성 시간(분)**: 사용자가 해당 시간 내에 자신의 암호를 다시 입력해야 하는 유휴 시간을 입력합니다.
 - **암호 만료(일)**: 암호가 만료되기 전에 새로 만들어야 하는 일수를 선택합니다.
@@ -121,23 +121,23 @@ HAS 서비스의 작동 방식에 대한 자세한 내용은 [상태 증명 CSP]
 
 ### <a name="device-properties"></a>장치 속성
 
-- **필요한 최소 OS**: major.minor.build.CU 번호를 입력합니다. build.CU 번호는 `ver` 또는 `winver` 명령에 의해 반환된 버전과 일치해야 합니다.
+- **최소 OS 버전**: 주 버전.부 버전.빌드.CU 번호 형식으로 최소 허용 버전을 입력합니다. build.CU 번호는 `ver` 또는 `winver` 명령에 의해 반환된 버전과 일치해야 합니다.
 
   지정된 OS 버전보다 이전 버전이 장치에 있으면 호환되지 않는 것으로 보고됩니다. 업그레이드 방법에 대한 정보를 제공하는 링크가 표시됩니다. 최종 사용자는 회사 리소스에 액세스할 수 있으면 장치를 업그레이드하도록 선택할 수 있습니다.
 
-- **허용된 최대 OS 버전**: major.minor.build.CU 번호를 입력합니다. build.CU 번호는 `ver` 또는 `winver` 명령에 의해 반환된 버전과 일치해야 합니다.
+- **최대 OS 버전**: 주 버전.부 버전.빌드.CU 번호 형식으로 최대 허용 버전을 입력합니다. build.CU 번호는 `ver` 또는 `winver` 명령에 의해 반환된 버전과 일치해야 합니다.
 
   장치가 규칙에 지정된 버전 이후의 OS를 사용하는 경우 회사 리소스에 대한 액세스가 차단되고 사용자는 IT 관리자에게 문의하라는 메시지가 표시됩니다. OS 버전 허용 규칙이 변경될 때까지 회사 리소스에 액세스하는 데 이 장치를 사용할 수 없습니다.
 
-- **모바일 장치에 필요한 최소 OS**: major.minor.build 번호를 입력합니다.
+- **모바일 장치에 필요한 최소 OS**: 주 버전.부 버전.빌드 번호 형식으로 최소 허용 버전을 입력합니다.
 
   지정된 OS 버전보다 이전 버전이 장치에 있으면 호환되지 않는 것으로 보고됩니다. 업그레이드 방법에 대한 정보를 제공하는 링크가 표시됩니다. 최종 사용자는 회사 리소스에 액세스할 수 있으면 장치를 업그레이드하도록 선택할 수 있습니다.
 
-- **모바일 장치에 필요한 최대 OS**: major.minor.build 번호를 입력합니다.
+- **모바일 장치에 필요한 최대 OS**: 주 버전.부 버전.빌드 번호 형식으로 최대 허용 버전을 입력합니다.
 
   장치가 규칙에 지정된 버전 이후의 OS를 사용하는 경우 회사 리소스에 대한 액세스가 차단되고 사용자는 IT 관리자에게 문의하라는 메시지가 표시됩니다. OS 버전 허용 규칙이 변경될 때까지 회사 리소스에 액세스하는 데 이 장치를 사용할 수 없습니다.
 
-- **유효한 운영 체제 빌드**: 최소 버전과 최대 버전을 포함하여 허용되는 운영 체제 버전의 범위를 입력합니다.
+- **유효한 운영 체제 빌드**: 최소 버전과 최대 버전을 포함하여 허용되는 운영 체제 버전의 범위를 입력합니다. 이러한 허용되는 OS 빌드 번호의 CSV(쉼표로 구분된 값) 파일 목록을 **내보낼** 수도 있습니다.
 
 ### <a name="system-security-settings"></a>시스템 보안 설정
 

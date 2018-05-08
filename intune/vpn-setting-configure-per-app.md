@@ -15,11 +15,11 @@ ms.assetid: D9958CBF-34BF-41C2-A86C-28F832F87C94
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 67e2630fc2a7ccd75ac86c797e36c389757d908a
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 46857dcf24befb0cf552769d48b99020c36e3e5b
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-in-intune-for-ios-devices"></a>iOS 장치용 Intune에서 앱당 VPN 설정
 
@@ -27,13 +27,13 @@ Intune이 관리하는 iOS 장치에서 관리되는 앱이 VPN을 사용할 수
 
 현재 앱당 VPN을 사용할 수 있는 공급자는 다음과 같습니다. 
 
- - Pulse Connect Secure
  - Checkpoint Remote Access VPN
  - F5
+ - Pulse Connect Secure
  - SonicWall
 
 
-## <a name="prerequisites-for-the-per-app-vpn"></a>앱당 VPN의 필수 구성 요소
+## <a name="prerequisites-for-per-app-vpn"></a>앱별 VPN의 필수 조건
 
 해당 ID를 증명하기 위해 장치의 프롬프트 없이 동의해야 하는 인증서가 VPN 서버에 표시됩니다. 인증서의 자동 승인을 보장하려면 CA(인증 기관)에서 발급한 VPN 서버의 루트 인증서가 포함된 신뢰할 수 있는 인증서 프로필을 만듭니다. 
 
