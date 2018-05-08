@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/24/2018
+ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d61ba21ba465037fbf2ef4e1c7423f6649fc810f
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 5ae3b19cfe57c48ac262a376c778d7d593456991
+ms.sourcegitcommit: 0f1a5d6e577915d2d748d681840ca04a0a2604dd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>앱 보호 정책에 대해 LOB(기간 업무) 앱 준비
 
@@ -70,8 +70,8 @@ SDK에 대해 자세히 알아보려면 [개요](app-sdk.md) 항목을 참조하
 
 |**Intune 앱 SDK** |**Xamarin** |**Cordova**
 |------|----|----|
-|**iOS**|예 – [Intune 앱 SDK Xamarin 바인딩](app-sdk-xamarin.md)을 사용합니다.|예 – [Intune 앱 SDK Cordova 플러그인](app-sdk-cordova.md) 사용|
-|**OWA(Outlook Web Access)**| 예 – [Intune 앱 SDK Xamarin 바인딩](app-sdk-xamarin.md)을 사용합니다.|예 – [Intune 앱 SDK Cordova 플러그인](app-sdk-cordova.md) 사용|
+|**iOS**|예 – [Intune 앱 SDK Xamarin 바인딩](app-sdk-xamarin.md)을 사용합니다.|아니요|
+|**OWA(Outlook Web Access)**| 예 – [Intune 앱 SDK Xamarin 바인딩](app-sdk-xamarin.md)을 사용합니다.|아니요|
 
 ## <a name="feature-comparison"></a>기능 비교
 이 표에는 앱 SDK 및 앱 래핑 도구에 사용할 수 있는 설정이 나와 있습니다.
