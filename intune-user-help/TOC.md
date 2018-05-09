@@ -149,6 +149,6 @@
 #### [UAC를 사용하도록 설정해야 하는 경우](you-need-to-enable-uac-windows.md)
 #### [Windows를 업데이트해야 하는 경우](you-need-to-update-os-build-version-windows.md)
 #### [Windows Defender를 켜야 하는 경우](turn-on-defender-windows.md)
-
+## [Windows용 회사 포털 앱에서 장치를 원격으로 잠금](remote-lock-your-device-cp-app.md) 
 ## [Intune 회사 포털 웹 사이트 사용](using-the-intune-company-portal-website.md)
 ### [장치 원격 잠금](remote-lock-your-device-cpwebsite.md)
