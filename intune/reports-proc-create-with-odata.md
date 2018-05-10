@@ -1,16 +1,16 @@
 ---
-title: "Power BI를 사용하여 OData 피드에서 보고서 만들기"
+title: Power BI를 사용하여 OData 피드에서 보고서 만들기
 titlesuffix: Microsoft Intune
-description: "Intune 데이터 웨어하우스 API의 대화형 필터와 함께 Power BI Desktop을 사용하여 트리맵 시각화를 만듭니다."
-keywords: "Intune 데이터 웨어하우스"
+description: Intune 데이터 웨어하우스 API의 대화형 필터와 함께 Power BI Desktop을 사용하여 트리맵 시각화를 만듭니다.
+keywords: Intune 데이터 웨어하우스
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 02/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: A2C8A336-29D3-47DF-BB4A-62748339391D
 ms.reviewer: aanavath
 ms.suite: ems
@@ -79,7 +79,7 @@ Power BI Desktop의 최신 버전을 설치합니다. Power BI Desktop 다운로
 ![관계 관리](media/reports-create-03-managerelationships.png)
 
 1. **관계 관리**를 선택합니다.
-2. PowerBI에서 아직 관계를 검색하지 못했으면 **자동 검색 중...**을 선택합니다.
+2. PowerBI에서 아직 관계를 검색하지 못했으면 **자동 검색 중...** 을 선택합니다.
 
 관계는 [대상] 열에 대한 [원본] 열에 표시됩니다. 이 예에서 **devices** 테이블의 **ownerTypeKey** 데이터 필드는 **ownerTypes** 테이블의 **ownerTypeKey** 데이터 필드에 연결됩니다. 관계를 사용하여 **devices** 테이블에서 장치 유형 코드의 일반 이름을 찾습니다.
 
