@@ -255,6 +255,8 @@
                   href: lob-apps-windows-phone.md
                 - name: Windows LOB 앱
                   href: lob-apps-windows.md
+                - name: macOS LOB 앱
+                  href: lob-apps-macos.md
             - name: 웹앱
               href: web-app.md
             - name: 기본 제공 앱
@@ -486,10 +488,10 @@
               items:
                 - name: Lookout 및 Intune 통합
                   href: lookout-mtd-connector-integration.md
-            - name: Skycure 설정
+            - name: Symantec 설정
               href: skycure-mobile-threat-defense-connector.md
               items:
-                - name: Skycure 및 Intune 통합
+                - name: Symantec 및 Intune 통합
                   href: skycure-mtd-connector-integration.md
             - name: Check Point 설정
               href: checkpoint-sandblast-mobile-mobile-threat-defense-connector.md

@@ -6,7 +6,7 @@ keywords: Intune 데이터 웨어하우스
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/14/2018
+ms.date: 04/20/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 6955E12D-70D7-4802-AE3B-8B276F01FA4F
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 185cf1061ff4d577fd14af59bbe5fbc38365c3d1
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: c73b745915f1dcb32269059907b1cec1078d4b39
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="reference-for-devices-entities"></a>장치 엔터티에 대한 참조
 
@@ -266,6 +266,7 @@ ms.lasthandoff: 04/16/2018
 | LastPolicyUpdateUtc | 장치에서 정책을 마지막으로 업데이트한 시간 |
 | LastExchangeStatusUtc | 장치를 exchange와 마지막으로 동기화한 시간입니다. |
 | IsDeleted | 더 이상 Intune에서 장치를 관리하지 않는 경우 True로 설정합니다. 마지막으로 알려진 상태를 유지합니다. |
+| AndroidSecurityPatchLevel |장치의 가장 최근 보안 패치 날짜입니다. |
 
 ## <a name="devicepropertyhistory"></a>DevicePropertyHistory
 

@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 228198276643f1eb8dfcb0392e4902a7f56875c9
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: f7d3e768e740866d69d675a962dfca6d98c85568
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="remove-devices-by-using-factory-reset-or-remove-company-data"></a>공장 기본 설정으로 복원을 사용하여 장치를 제거하거나 회사 데이터 제거
 
@@ -58,7 +58,9 @@ Intune에서 더 이상 필요하거나, 용도를 다시 설정하거나, 누�
 
 ## <a name="remove-company-data"></a>회사 데이터 제거
 
-**회사 데이터 제거** 작업은 Intune을 사용하여 할당된 관리 앱 데이터(해당되는 경우), 설정 및 이메일 프로필을 제거합니다. **회사 데이터 제거**를 수행하면 사용자의 개인적인 데이터를 장치에 남겨둡니다. 그리고 장치가 Intune 관리에서 제거됩니다. 
+**회사 데이터 제거** 작업은 Intune을 사용하여 할당된 관리 앱 데이터(해당되는 경우), 설정 및 이메일 프로필을 제거합니다. 그리고 장치가 Intune 관리에서 제거됩니다. 이 동작은 다음에 장치가 체크 인되고 **원격 회사 데이터 제거** 작업을 수신할 때 수행됩니다.
+
+**회사 데이터 제거**를 수행하면 사용자의 개인적인 데이터를 장치에 남겨둡니다.  
 
 다음 표에서는 제거되는 데이터와 회사 데이터 제거 후 장치에 남아 있는 데이터에 대한 **회사 데이터 제거**의 영향을 설명합니다.
 
@@ -123,13 +125,19 @@ Android for Work 장치에서 회사 데이터를 제거하면 해당 장치의 
 
 ### <a name="remove-company-data"></a>회사 데이터 제거
 
-1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
-2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
-3. **장치** 창에서 **모든 장치**를 선택합니다.
-4. 회사 데이터를 제거할 장치의 이름을 선택합니다.
-5. 장치 이름을 보여주는 창에서 **회사 데이터 제거**를 선택합니다. 확인하려면 **예**를 선택합니다.
+1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에 로그인합니다.
+2. **장치** 창에서 **모든 장치**를 선택합니다.
+3. 회사 데이터를 제거할 장치의 이름을 선택합니다.
+4. 장치 이름을 보여주는 창에서 **회사 데이터 제거**를 선택합니다. 확인하려면 **예**를 선택합니다.
 
 장치가 켜져 있고 연결되어 있는 경우 15분 내에 **회사 데이터 제거** 작업이 모든 장치 유형에 전파됩니다.
+
+## <a name="delete-devices-from-the-intune-portal"></a>Intune 포털에서 장치 삭제
+
+Intune 포털에서 장치를 제거하려면 특정 장치 창에서 해당 장치를 삭제하면 됩니다. 다음에 장치가 체크 인될 때 이에 대한 모든 회사 데이터가 제거됩니다.
+
+1. [Azure Portal의 Intune](https://aka.ms/intuneportal)에 로그인합니다.
+2. **장치** > **모든 장치** > 삭제할 장치 > **삭제**를 선택합니다.
 
 ## <a name="delete-devices-from-the-azure-active-directory-portal"></a>Azure Active Directory 포털에서 장치 삭제
 

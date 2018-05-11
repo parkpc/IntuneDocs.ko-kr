@@ -1,25 +1,25 @@
 ---
-title: "Microsoft Intune을 사용하여 MTD 장치 준수 정책 만들기"
-titlesuffix: 
-description: "MTD 파트너 위협 수준을 사용하는 Intune 장치 준수 정책을 만들어서 모바일 장치가 회사 리소스에 액세스할 수 있는지 확인합니다."
-keywords: 
+title: Microsoft Intune을 사용하여 MTD 장치 준수 정책 만들기
+titlesuffix: ''
+description: MTD 파트너 위협 수준을 사용하는 Intune 장치 준수 정책을 만들어서 모바일 장치가 회사 리소스에 액세스할 수 있는지 확인합니다.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 02/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5d12254f-ffab-4792-b19c-ab37f5e02f35
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b719bb1841cfc1aa98808b9c09db43d9c654d63f
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 1152473206826aa2e3f63c7196a3d0538101a948
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="create-mobile-threat-defense-mtd-device-compliance-policy-with-intune"></a>Intune을 사용하여 MTD(Mobile Threat Defense) 장치 준수 정책 만들기
 
@@ -36,7 +36,7 @@ MTD를 사용한 장치 준수 정책에 대한 필수 조건:
 
 -   Intune과 MTD 통합 설정
 
-## <a name="to-create-a-mtd-device-compliance-policy"></a>MTD 장치 준수 정책을 만들려면
+## <a name="to-create-an-mtd-device-compliance-policy"></a>MTD 장치 준수 정책을 만들려면
 
 1.  [Azure Portal](https://portal.azure.com/)로 이동한 다음 Intune 자격 증명을 사용하여 로그인합니다.
 
@@ -65,7 +65,7 @@ MTD를 사용한 장치 준수 정책에 대한 필수 조건:
 > [!IMPORTANT]
 > Office 365 또는 기타 서비스용으로 조건부 액세스 정책을 만드는 경우 장치 준수 평가가 수행되며, 장치에서 위협이 해결될 때까지 회사 리소스에 대한 비규격 장치의 액세스가 차단됩니다.
 
-## <a name="to-assign-a-mtd-device-compliance-policy"></a>MTD 장치 준수 정책을 할당하려면
+## <a name="to-assign-an-mtd-device-compliance-policy"></a>MTD 장치 준수 정책을 할당하려면
 
 사용자에게 장치 준수 정책을 할당하려면 이전에 구성한 정책을 선택합니다. 기존 정책은 **장치 준수 – 정책** 창에서 확인할 수 있습니다.
 

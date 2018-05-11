@@ -15,11 +15,11 @@ ms.assetid: 00356258-76a8-4a84-9cf5-64ceedb58e72
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 08cebf84443e65ded5f7884218fbe17d722bddf2
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 10502f82d94246f7a70af6b88c0704a4daa0372b
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Intune을 사용하여 MTD(Mobile Threat Defense) 앱 추가 및 할당
 
@@ -53,7 +53,7 @@ iOS 장치의 경우 사용자의 ID가 Azure AD에서 확인될 수 있도록 [
 
 #### <a name="microsoft-authenticator-app-for-ios"></a>iOS용 Microsoft Authenticator 앱
 
-- [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조하세요. **앱 정보 구성** 섹션의 **5단계**에서 이 [Microsoft Authenticator 앱 스토어 URL](https://itunes.apple.com/us/app/microsoft-authenticator/id983156458?mt=8)을 사용합니다.
+- [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조하세요. **앱 정보 구성** 섹션의 **12단계**에서 이 [Microsoft Authenticator 앱 스토어 URL](https://itunes.apple.com/us/app/microsoft-authenticator/id983156458?mt=8)을 사용합니다.
 
 ### <a name="lookout"></a>Lookout
 
@@ -62,7 +62,7 @@ iOS 장치의 경우 사용자의 ID가 Azure AD에서 확인될 수 있도록 [
 
 #### <a name="ios"></a>iOS
 
-- [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조하세요. **앱 정보 구성** 섹션의 **5단계**에서 이 [Lookout for Work iOS 앱 스토어 URL](https://itunes.apple.com/us/app/lookout-for-work/id997193468?mt=8)을 사용합니다.
+- [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조하세요. **앱 정보 구성** 섹션의 **12단계**에서 이 [Lookout for Work iOS 앱 스토어 URL](https://itunes.apple.com/us/app/lookout-for-work/id997193468?mt=8)을 사용합니다.
 
 #### <a name="lookout-for-work-app-outside-the-apple-store"></a>Apple Store 외부의 Lookout for Work 앱
 
@@ -91,15 +91,15 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
 
 - [Intune을 사용하여 iOS LOB 앱 추가](lob-apps-ios.md) 항목에 설명된 대로 다시 서명된 .ipa 파일을 업로드합니다. 또한 최소 OS 버전을 iOS 8.0 이상으로 설정해야 합니다.
 
-### <a name="skycure"></a>Skycure
+### <a name="symantec-endpoint-protection-mobile-sep-mobile"></a>SEP Mobile(Symantec Endpoint Protection Mobile)
 
 #### <a name="android"></a>Android
 
-- [Microsoft Intune에 Android 스토어 앱 추가](store-apps-android.md) 지침을 참조하세요. **7단계**에서 이 [Skycure 앱 스토어 URL](https://play.google.com/store/apps/details?id=com.skycure.skycure)을 사용합니다.
+- [Microsoft Intune에 Android 스토어 앱 추가](store-apps-android.md) 지침을 참조하세요. **7단계**에서 이 [SEP Mobile 앱 스토어 URL](https://play.google.com/store/apps/details?id=com.skycure.skycure)을 사용합니다.  **최소 운영 체제**의 경우 **Android 4.0(Ice Cream Sandwich)** 을 선택합니다.
 
 #### <a name="ios"></a>iOS
 
-- [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조하세요. **앱 정보 구성** 섹션의 **5단계**에서 이 [Skycure 앱 스토어 URL](https://itunes.apple.com/us/app/skycure/id695620821?mt=8)을 사용합니다.
+- [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조하세요. **12**단계에서 **앱 구성 정보** 섹션 아래에 있는 이 [SEP Mobile 앱 상점 URL](https://itunes.apple.com/us/app/skycure/id695620821?mt=8)을 사용합니다.
 
 ### <a name="check-point-sandblast-mobile"></a>Check Point SandBlast Mobile
 
@@ -109,7 +109,7 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
 
 #### <a name="ios"></a>iOS
 
-- [Check Point SandBlast Mobile](https://www.checkpoint.com/products/sandblast-mobile/)에 문의하여 iOS 앱을 다운로드합니다. [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조한 다음 **앱 정보 구성** 섹션의 **5단계**에서 Apple 스토어 URL을 사용합니다.
+- [Check Point SandBlast Mobile](https://www.checkpoint.com/products/sandblast-mobile/)에 문의하여 iOS 앱을 다운로드합니다. [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조한 다음, **앱 정보 구성** 섹션의 **12단계**에서 Apple 스토어 URL을 사용합니다.
 
 ### <a name="zimperium"></a>Zimperium
 
@@ -119,7 +119,7 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
 
 #### <a name="ios"></a>iOS
 
-- [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조하세요. **앱 정보 구성** 섹션의 **5단계**에서 이 [Zimperium 앱 스토어 URL](https://itunes.apple.com/us/app/zimperium-zips/id1030924459?mt=8)을 사용합니다.
+- [Microsoft Intune에 iOS 스토어 앱 추가](store-apps-ios.md) 지침을 참조하세요. **앱 정보 구성** 섹션의 **12단계**에서 이 [Zimperium 앱 스토어 URL](https://itunes.apple.com/us/app/zimperium-zips/id1030924459?mt=8)을 사용합니다.
 
 ## <a name="to-associate-the-mtd-app-with-an-ios-app-configuration-policy"></a>iOS 앱 구성 정책에 MTD 앱을 연결하려면
 
@@ -127,31 +127,24 @@ Lookout for Work iOS 앱에 다시 서명하는 방법에 대한 자세한 내�
 
 - [iOS 앱 구성 정책 사용](app-configuration-policies-use-ios.md) 항목에 설명된 대로 iOS 앱 구성 정책을 만듭니다.
 
-### <a name="for-skycure"></a>Skycure의 경우
+### <a name="for-sep-mobile"></a>SEP 모바일의 경우
 
--   [Skycure 관리 콘솔](https://aad.skycure.com)에서 이전에 구성된 Azure AD 계정, 즉 Intune 클래식 포털에 로그인하는 데 사용되는 계정과 같은 계정을 사용해야 합니다.
+-   [Symantec Endpoint Protection 관리 콘솔](https://aad.skycure.com)에서 이전에 구성된 Azure AD 계정, 즉 Intune 클래식 포털에 로그인하는 데 사용되는 계정과 같은 계정을 사용해야 합니다.
 
 -   iOS 앱 구성 정책 파일을 **다운로드**해야 합니다. 
-    -   [Skycure 관리 콘솔](https://aad.skycure.com)로 이동하고 관리자 자격 증명을 사용하여 로그인합니다.
+    -   [Symantec Endpoint Protection 관리 콘솔](https://aad.skycure.com)로 이동하고 관리자 자격 증명을 사용하여 로그인합니다.
 
-    -   **설정** &gt; **장치 관리 통합** &gt; **EMM 통합 선택**으로 이동하고 **Microsoft Intune**을 선택한 다음 선택한 항목을 저장합니다.
+    -   **설정**으로 이동하여 **통합** 아래에서 **Intune**을 선택합니다. **EMM 통합 선택**을 선택합니다. **Microsoft**를 선택한 다음, 선택 항목을 저장합니다.
 
-    -   **통합 설치 파일** 링크를 클릭하고 생성된 \*.zip 파일을 저장합니다. .zip 파일에는 **skycure\_configuration.plist** 파일이 포함되어 있으며 이 파일은 Intune에서 iOS 앱 구성 정책을 만드는 데 사용됩니다.
+    -   **통합 설치 파일** 링크를 클릭하고 생성된 \*.zip 파일을 저장합니다. .zip 파일에는 ***.plist** 파일이 포함되어 있으며 이 파일은 Intune에서 iOS 앱 구성 정책을 만드는 데 사용됩니다.
 
-    -   Skycure iOS 앱 구성 정책을 추가하려면 [iOS에 대해 Microsoft Intune 앱 구성 정책 사용](app-configuration-policies-use-ios.md) 지침을 참조하세요.
+    -   SEP Mobile iOS 앱 구성 정책을 추가하려면 [iOS에 대해 Microsoft Intune 앱 구성 정책 사용](app-configuration-policies-use-ios.md) 지침을 참조하세요.
 
-    - **8단계**에서 **XML 데이터 입력** 옵션을 사용하고 **skycure_configuration.plist** 파일 콘텐츠를 복사하여 구성 정책 본문에 붙여넣습니다.
+    - **8단계**에서 **XML 데이터 입력** 옵션을 사용하고 ***.plist** 파일 콘텐츠를 복사하여 구성 정책 본문에 붙여넣습니다.
 
-다음 위치에서 **skycure_configuration.plist** 콘텐츠를 복사할 수도 있습니다.
+> [!NOTE]
+> 파일을 검색할 수 없는 경우 [Symantec Endpoint Protection Mobile Enterprise 지원](https://support.symantec.com/en_US/contact-support.html)에 문의하세요.
 
-```
-<dict>
-    <key>MdmType</key>
-    <string>Intune</string>
-    <key>UserEmail</key>
-    <string>{{userprincipalname}}</string>
-</dict>
-```
 ### <a name="for-check-point-sandblast-mobile"></a>Check Point SandBlast Mobile의 경우
 
 - Check Point SandBlast Mobile iOS 앱 구성 정책을 추가하려면 [iOS에 대해 Microsoft Intune 앱 구성 정책 사용](app-configuration-policies-use-ios.md) 지침을 참조하세요.

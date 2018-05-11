@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 3e544286-12ad-4a3a-86f8-d2cf16940b1f
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: da8bb19db8c2da2d5854c3f991ccce4d124d594c
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 735b3323527487e231d190ffd45e9083c4f524a2
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="locate-lost-or-stolen-ios-devices-with-intune"></a>Intune을 사용하여 분실했거나 도난당한 iOS 장치 찾기
 
@@ -46,6 +46,15 @@ ms.lasthandoff: 04/26/2018
 
 >[!NOTE]
 >개인 정보 보호 차원에서 맵을 확대할 수 있는 거리가 제한됩니다.
+
+## <a name="activate-lost-mode-sound-alert-on-an-ios-device"></a>iOS 장치에서 분실 모드 알림음 활성화
+
+누군가 iOS 9.3 이상의 장치를 분실하는 경우 관리자는 장치를 원격으로 트리거하여 사용자가 찾을 수 있도록 알림음을 재생할 수 있습니다. 장치가 [분실 모드](device-lost-mode.md)에 있어야 합니다.
+
+[Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치** > **모든 장치** > iOS 장치 > **개요** > **기타** > **분실 모드 소리 재생(감독 모드인 경우에만)** 을 선택합니다.
+
+사용자가 장치에서 소리를 사용하지 않도록 설정하거나 장치가 분실 모드에서 제거될 때까지 소리가 계속 재생됩니다.
+
 
 ## <a name="security-and-privacy-information-for-lost-mode-and-locate-device-actions"></a>분실 모드의 보안 및 개인 정보와 장치 찾기 작업
 - 이 작업을 켤 때까지 장치 위치 정보는 Intune에 전송되지 않습니다.

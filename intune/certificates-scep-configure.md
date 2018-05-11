@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/26/2018
+ms.date: 04/23/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: dabf8d67b4d0bd7252f306d6b21949cf501eca8d
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 834eb66e21820880f644c33d7e5d6aedad6bd502
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="configure-and-use-scep-certificates-with-intune"></a>Intune을 사용하여 SCEP 인증서 구성 및 사용
 
@@ -40,13 +40,11 @@ NDES 서버는 CA를 호스트하는 도메인에 가입해야 하며 CA와 동�
   -  장치에서 인터넷 연결을 사용하여 인증서를 받을 수 있습니다.
   -  장치가 인터넷을 통해 연결하여 인증서를 받고 갱신하는 경우 보안상 안전합니다.
 
-> [!NOTE]
-> - WAP를 호스팅하는 서버에는 네트워크 장치 등록 서비스에서 사용하는 긴 URL을 지원할 수 있도록 하는 [업데이트를 설치](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx) 해야 합니다. 이 업데이트는 [2014년 12월 업데이트 롤업](http://support.microsoft.com/kb/3013769)에 포함되어 있으며, [KB3011135](http://support.microsoft.com/kb/3011135)에서 개별적으로 다운로드할 수도 있습니다.
-> - WAP 서버에는 외부 클라이언트에 게시된 이름과 일치하는 SSL 인증서가 있어야 하며 NDES 서버에서 사용되는 SSL 인증서를 신뢰해야 합니다. 이러한 인증서를 통해 WAP 서버는 클라이언트와의 SSL 연결을 종료하고 NDES 서버로의 새 SSL 연결을 생성할 수 있습니다.
-> 
->   WAP용 인증서에 대한 정보는 [인증서 계획](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn383650(v=ws.11)#plan-certificates)을 참조하세요.
-> 
->   WAP 서버에 대한 일반 정보는 [웹 응용 프로그램 프록시 작업](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn584113(v=ws.11))을 참조하세요.
+#### <a name="additional"></a>추가 정보
+- WAP를 호스팅하는 서버에는 네트워크 장치 등록 서비스에서 사용하는 긴 URL을 지원할 수 있도록 하는 [업데이트를 설치](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx) 해야 합니다. 이 업데이트는 [2014년 12월 업데이트 롤업](http://support.microsoft.com/kb/3013769)에 포함되어 있으며, [KB3011135](http://support.microsoft.com/kb/3011135)에서 개별적으로 다운로드할 수도 있습니다.
+- WAP 서버에는 외부 클라이언트에 게시된 이름과 일치하는 SSL 인증서가 있어야 하며 NDES 서버에서 사용되는 SSL 인증서를 신뢰해야 합니다. 이러한 인증서를 통해 WAP 서버는 클라이언트와의 SSL 연결을 종료하고 NDES 서버로의 새 SSL 연결을 생성할 수 있습니다.
+
+자세한 내용은 [Plan certificates for WAP](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn383650(v=ws.11)#plan-certificates)(WAP에 대한 인증서 계획) 및 [general information about WAP servers](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn584113(v=ws.11))(WAP 서버에 대한 일반적인 정보)를 참조하세요.
 
 ### <a name="network-requirements"></a>네트워크 요구 사항
 
@@ -369,13 +367,13 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
        - **CN={{IMEINumber}}**: 휴대폰을 식별하는 데 사용되는 IMEI(International Mobile Equipment Identity) 고유 번호입니다.
        - **CN={{OnPrem_Distinguished_Name}}**: 쉼표로 구분된 상대 고유 이름의 시퀀스입니다(예: `CN=Jane Doe,OU=UserAccounts,DC=corp,DC=contoso,DC=com`).
 
-       > [!TIP]
-       > `{{OnPrem_Distinguished_Name}}` 변수를 사용하려면 [Azure AD(Active Directory) Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)를 사용하는 `onpremisesdistingishedname` 사용자 특성을 Azure AD와 동기화해야 합니다.
+          `{{OnPrem_Distinguished_Name}}` 변수를 사용하려면 [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)를 사용하는 `onpremisesdistingishedname` 사용자 특성을 Azure AD와 동기화해야 합니다.
+
+       - **CN={{onPremisesSamAccountName}}**: 관리자는 Azure AD Connect를 사용하여 Azure AD에 대한 Active Directory의 samAccountName 특성을 `onPremisesSamAccountName` 특성으로 동기화할 수 있습니다. Intune에서는 해당 변수를 SCEP 인증서의 제목에 있는 인증 발급 요청의 일부로 대체할 수 있습니다.  samAccountName 특성은 이전 버전의 Windows(Windows 2000 이전)에서 클라이언트 및 서버를 지원하는 데 사용되는 사용자 로그온 이름입니다. 사용자 로그온 이름 형식은 `DomainName\testUser`이거나 `testUser`만 사용합니다.
+
+          `{{onPremisesSamAccountName}}` 변수를 사용하려면 [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)를 사용하는 `onPremisesSamAccountName` 사용자 특성을 Azure AD와 동기화해야 합니다.
 
        이러한 변수와 정적 문자열을 하나 또는 여러 개 조합으로 사용하는 경우 사용자 지정 주체 이름 형식을 만들 수 있습니다(예: **CN={{UserName}},E={{EmailAddress}},OU=Mobile,O=Finance Group,L=Redmond,ST=Washington,C=US**). <br/> 이 예에서는 CN 및 E 변수 외에 조직 구성 단위, 조직, 위치, 상태 및 국가 값에 해당하는 문자열을 사용하는 주체 이름 형식을 만들었습니다. [CertStrToName 함수](https://msdn.microsoft.com/library/windows/desktop/aa377160.aspx)에서는 이 함수와 지원되는 문자열을 보여 줍니다.
-
-
-
 
 - **주체 대체 이름**: Intune에서 인증서 요청의 SAN(주체 대체 이름) 값을 자동으로 만드는 방법을 입력합니다. 예를 들어 사용자 인증서 유형을 선택한 경우 주체 대체 이름에 UPN(사용자 계정 이름)을 포함할 수 있습니다. 클라이언트 인증서가 네트워크 정책 서버에 대한 인증에 사용되는 경우 주체 대체 이름을 UPN으로 설정해야 합니다.
 - **키 사용**: 인증서에 대한 키 사용 옵션을 입력합니다. 옵션은 다음과 같습니다.

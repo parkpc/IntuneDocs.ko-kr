@@ -15,11 +15,11 @@ ms.assetid: 46429114-2e26-4ba7-aa21-b2b1a5643e01
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1e522708879818f644780904c42fe9e6fb19a402
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 4f8cddb69ac85e45acde8a846df3b5413c3b75bf
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="set-up-enrollment-for-macos-devices-in-intune"></a>Intune에서 macOS 장치 등록 설정
 
@@ -70,3 +70,11 @@ macOS 장치 등록을 설정하기 전에 다음 필수 구성 요소를 완료
 병렬 데스크톱의 경우 Intune이 인식할 수 있도록 가상 머신의 하드웨어 형식 및 일련 번호를 설정해야 합니다. [하드웨어 형식](http://kb.parallels.com/123594) 및 [일련 번호](http://kb.parallels.com/123455)를 설정하는 병렬 지침에 따라 테스트에 필요한 설정을 지정합니다. 가상 머신을 실행하는 장치의 하드웨어 형식을 사용자가 만드는 가상 머신의 하드웨어 형식과 일치시키는 것이 좋습니다. **Apple 메뉴** > **이 Mac 정보** > **시스템 보고서** > **모델 식별자**에서 이러한 하드웨어 형식을 찾을 수 있습니다. 
 
 VMware Fusion의 경우 [.vmx 파일을 편집](https://kb.vmware.com/s/article/1014782)하여 가상 머신의 하드웨어 모델 및 일련 번호를 설정해야 합니다. 가상 머신을 실행하는 장치의 하드웨어 형식을 사용자가 만드는 가상 머신의 하드웨어 형식과 일치시키는 것이 좋습니다. **Apple 메뉴** > **이 Mac 정보** > **시스템 보고서** > **모델 식별자**에서 이러한 하드웨어 형식을 찾을 수 있습니다. 
+
+## <a name="user-approved-enrollment"></a>사용자 승인됨 등록
+
+사용자 승인됨 MDM 등록은 특정 보안 관련 설정을 관리하는 데 사용할 수 있는 macOS 등록 유형입니다. 자세한 내용은 [Apple의 지원 문서](https://support.apple.com/HT208019)를 참조하세요.
+
+사용자가 승인되려면 최종 사용자가 macOS 회사 포털을 사용하여 등록한 후에 시스템 환경설정을 사용하여 수동으로 승인을 제공해야 합니다. 이 작업에 대한 지침은 macOS 10.13.2 이상에서 사용자의 macOS 회사 포털을 통해 제공됩니다.
+
+장치가 사용자 승인됨 상태인지 확인하려면 Intune 포털로 이동한 다음, **장치** > **모든 장치** > 장치 > **하드웨어**를 선택합니다. **사용자 승인됨** 필드를 확인합니다.
