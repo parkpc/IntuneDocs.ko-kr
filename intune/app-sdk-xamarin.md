@@ -14,11 +14,11 @@ ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9f9cc117925f59c9fb7c55d0ff10aedf09d26f93
-ms.sourcegitcommit: b727b6bd6f138c5def7ac7bf1658068db30a0ec3
+ms.openlocfilehash: 5c9f81761e7e24393471f44da4cf619f017e9bbd
+ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-bindings"></a>Microsoft Intune 앱 SDK Xamarin 바인딩
 
@@ -74,35 +74,35 @@ Microsoft Intune 앱 SDK Xamarin 바인딩을 사용하면 Xamarin으로 개발�
        IntuneMAMEnrollmentManager.Instance.LoginAndEnrollAccount([NullAllowed] string identity);
       ```
 
-## <a name="enabling-app-protection-policies-in-your-android-mobile-app"></a>Android 모바일 앱에서 앱 보호 정책을 사용하도록 설정
-[Microsoft.Intune.MAM.Xamarin.Android NuGet 패키지](https://www.nuget.org/packages/Microsoft.Intune.MAM.Xamarin.Android)를 Xamarin.Android 프로젝트에 추가합니다.
+## <a name="enabling-intune-app-protection-policies-in-your-android-mobile-app"></a>Android 모바일 앱에서 Intune 앱 보호 정책을 사용하도록 설정
 
-Xamarin.Android 앱의 경우 가이드에 포함된 [테이블](app-sdk-android.md#replace-classes-methods-and-activities-with-their-mam-equivalent)을 기반으로 클래스, 메서드 및 활동을 동등한 MAM으로 바꾸기를 포함해 [Android용 Intune 앱 SDK 개발자 가이드](app-sdk-android.md)를 충분히 읽고 준수해야 합니다. 
+### <a name="xamarinandroid-integration"></a>Xamarin.Android 통합
+
+1. [Microsoft.Intune.MAM.Xamarin.Android NuGet 패키지](https://www.nuget.org/packages/Microsoft.Intune.MAM.Xamarin.Android)의 최신 버전을 Xamarin.Android 프로젝트에 추가합니다. 이렇게 하면 Intune이 응용 프로그램을 사용하기에 필요한 참조를 제공합니다.
+
+2. [Android용 Intune 앱 SDK 개발자 가이드](app-sdk-android.md)를 특별한 관심을 갖고 충분히 읽고 따르십시오.
+    1. [전체 클래스 및 메서드 바꾸기 섹션](app-sdk-android.md#replace-classes-methods-and-activities-with-their-mam-equivalent)입니다. 
+    2. [MAMApplication 섹션](app-sdk-android.md#mamapplication)입니다. 서브 클래스가 `[Application]` 특성으로 올바르게 데코레이팅되고 `(IntPtr, JniHandleOwnership)` 생성자를 재정의하는지 확인입니다.
+    3. 앱이 AAD에 대한 인증을 수행하는 경우의 [ADAL 통합 섹션](app-sdk-android.md#configure-azure-active-directory-authentication-library-adal)입니다.
+    4. 응용 프로그램의 MAM 서비스에서 정책을 가져오려고 계획한 경우의 [MAM-WE 등록 섹션](app-sdk-android.md#app-protection-policy-without-device-enrollment)입니다.
 
 > [!NOTE]
-> 앱에서 `android.app.Application` 클래스를 정의하지 않는 경우에는 클래스를 새로 만들고 `MAMApplication`에서 상속해야 합니다.
-
-> [!NOTE]
-> 가이드에서 코드 조각을 변환하거나 `Microsoft.Intune.MAM.Xamarin.Android` 바인딩할 때 [Android용 Intune 앱 SDK 개발자 가이드](app-sdk-android.md)에서 동등한 Api를 찾으려 시도하는 경우 Xamarin 바인딩 생성기가 다음과 같은 주목할 만한 방식으로 Android Api를 수정할 수 있음을 알아야 합니다.
-> * 모든 식별자가 Pascale 사례로 변환(com.microsoft.foo -> Com.Microsoft.Foo)
+> 가이드에서 코드 조각을 변환하는 경우 또는 `Microsoft.Intune.MAM.Xamarin.Android` 바인딩의 [Android용 Intune 앱 SDK 개발자 가이드](app-sdk-android.md)에서 동등한 API를 찾으려 시도하는 경우 Xamarin 바인딩 생성기가 다음과 같은 주목할 만한 방식으로 Android API를 수정할 수 있음을 알아야 합니다.
+> * 모든 식별자는 파스칼식 대/소문자로 변환(com.foo.bar ->Com.Foo.Bar)
 > * 모든 가져오기/설정하기 작업이 속성 작업으로 변환(예: Foo.getBar() -> Foo.Bar, Foo.setBar("zap") -> Foo.Bar = "zap")
 > * 모든 인터페이스가 'I' 문자를 이름에 추가(FooInterface -> IFooInterface)
 
-Xamarin.Forms 및 기타 UI 프레임워크를 활용하는 앱의 경우 `Microsoft.Intune.MAM.Remapper`라는 도구를 제공합니다. 이 도구를 통해 클래스를 바꿀 수 있습니다. 이 도구를 사용하려면 다음을 수행하십시오.
+### <a name="xamarinforms-integration"></a>Xamarin.Forms 통합
 
-1.  프로젝트에 [Microsoft.Intune.MAM.Remapper.Tasks](https://www.nuget.org/packages/Microsoft.Intune.MAM.Remapper.Tasks) NuGet 패키지를 추가합니다.
+**위의 단계를 모두 수행하는 것 외에도** `Xamarin.Forms` 응용 프로그램의 경우 `Microsoft.Intune.MAM.Remapper` 패키지를 제공합니다. 이 패키지는 `FormsAppCompatActivity` 및 `FormsApplicationActivity`처럼 일반적으로 사용된 `Xamarin.Forms` 클래스의 클래스 계층 구조에 `MAM` 클래스를 삽입하여 사용자를 위해 클래스 바꾸기를 수행하므로 `OnMAMCreate` 및 `OnMAMResume`처럼 MAM 동등한 함수에 대한 재정의를 제공하여 이러한 클래스를 계속 사용할 수 있습니다. 이 도구를 사용하려면 다음을 수행하십시오.
 
-2.  Nuget 패키지와 함께 포함된 `remapping-config.json` 파일의 빌드 동작을 **RemappingConfigFile**로 설정합니다. 포함된 `remapping-config.json`은 Xamarin.Forms에서만 작동합니다. 기타 UI 프레임워크의 경우에는 Remapper NuGet 패키지와 함께 포함된 추가 정보 파일을 참조하세요.
+1.  프로젝트에 [Microsoft.Intune.MAM.Remapper.Tasks](https://www.nuget.org/packages/Microsoft.Intune.MAM.Remapper.Tasks) NuGet 패키지를 추가합니다. 이렇게 하면 아직 Intune 앱 SDK Xamarin 바인딩이 포함되지 않은 경우 자동으로 추가됩니다.
 
-3.  Intune 관리를 통해 응용 프로그램이 백그라운드에서 시작될 수 있기 때문에 MAMApplication의 OnMAMCreate 함수에서 Xamarin.Forms.Forms.Init(Context, Bundle)에 호출을 추가합니다.
-
-4.  앱에 적용할 수 있는 [Android용 Intune 앱 SDK 개발자 가이드](app-sdk-android.md)의 나머지 단계를 수행합니다.
+2.  위의 2.2 단계에서 만든 `MAMApplication` 클래스의 `OnMAMCreate` 함수에서 `Xamarin.Forms.Forms.Init(Context, Bundle)`에 호출을 추가합니다. Intune 관리를 통해 응용 프로그램이 백그라운드에서도 시작할 수 있기 때문에 필요합니다.
 
 > [!NOTE]
-> 빌드가 실패하게 만드는 Microsoft.Intune.MAM.Remapper.Tasks 패키지를 업데이트할 경우 때로는 remapping-config.json의 빌드 작업이 재설정될 수 있습니다.
+> 이 작업은 Visual Studio가 Intellisense 자동 완성을 위해 사용하는 종속성을 다시 작성하기 때문에 Intellisense가 변경 내용을 올바로 인식하도록 처음 Remapper를 실행한 후 Visual Studio를 다시 시작해야 할 수 있습니다. 
 
-## <a name="next-steps"></a>다음 단계
-
-Intune 관리에 대해 앱을 설정하는 기본 단계를 완료했습니다. 이제 위에 나열된 플랫폼 각각에 대한 통합 가이드에 포함된 단계를 수행할 수 있습니다.
+## <a name="support"></a>Support
 
 조직이 기존 Intune 고객인 경우 Microsoft 지원 담당자에게 문의해 지원 티켓을 열고 [Github 문제 페이지에서](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/issues) 문제를 만들면 가능한 한 빨리 도움을 제공할 수 있습니다. 

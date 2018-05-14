@@ -14,11 +14,11 @@ ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e4437e3dbf7e942f084a0c441af7946b53c6d54d
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: f0fcd4b04541593f41abb35be6558be2375a0131
+ms.sourcegitcommit: 0f1a5d6e577915d2d748d681840ca04a0a2604dd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Microsoft Intune 앱 SDK 시작
 
@@ -67,10 +67,9 @@ Microsoft에서는 사용자의 설문지 응답에 명시된 메일 주소를 �
 * [iOS용 Intune 앱 SDK](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios)
 * [Android용 Intune 앱 SDK](https://github.com/msintuneappsdk/ms-intune-app-sdk-android)
 
-Xamarin 또는 Cordova 앱의 경우 다음 SDK 변형을 사용하세요.
+앱이 Xamarin 앱인 경우 이 SDK 변형을 사용하세요.
 
 * [Intune 앱 SDK Xamarin 바인딩](https://github.com/msintuneappsdk/intune-app-sdk-xamarin)
-* [Intune 앱 SDK Cordova 플러그 인](https://github.com/msintuneappsdk/cordova-plugin-ms-intune-mam)
 
 Microsoft 리포지토리에서 분기하고 끌어오는 데 사용할 수 있는 GitHub 계정을 등록하는 것이 좋습니다. GitHub에서는 개발자가 Microsoft 제품 팀과 커뮤니케이션하고, 문제를 개설하고 빠른 응답을 받으며, 릴리스 정보를 확인하고, Microsoft에 피드백을 제공할 수 있도록 하고 있습니다. Intune 앱 SDK GitHub에 대해 궁금한 사항은 msintuneappsdk@microsoft.com으로 문의해 주세요.
 
@@ -81,8 +80,6 @@ Microsoft 리포지토리에서 분기하고 끌어오는 데 사용할 수 있�
 * **[iOS용 Intune 앱 SDK 개발자 가이드](app-sdk-ios.md)**: 이 문서에서는 Intune 앱 SDK를 사용하여 기본 iOS 앱을 사용하도록 설정하는 과정을 단계별로 안내합니다.
 
 * **[Android용 Intune 앱 SDK 개발자 가이드](app-sdk-android.md)**: 이 문서에서는 Intune 앱 SDK를 사용하여 기본 Android 앱을 사용하도록 설정하는 과정을 단계별로 안내합니다.
-
-* **[Intune 앱 SDK Cordova 플러그 인 가이드](app-sdk-cordova.md)**: 이 문서를 사용하면 Intune 앱 보호 정책용 Cordova를 사용하여 iOS 및 Android 앱을 쉽게 빌드할 수 있습니다.
 
 * **[Intune 앱 SDK Xamarin 바인딩 가이드](app-sdk-xamarin.md)**: 이 문서를 사용하면 Intune 앱 보호 정책용 Xamarin을 사용하여 iOS 및 Android 앱을 쉽게 빌드할 수 있습니다.
 

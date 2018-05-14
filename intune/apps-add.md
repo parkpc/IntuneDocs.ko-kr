@@ -15,11 +15,11 @@ ms.assetid: a1ded457-0ecf-4f9c-a2d2-857d57f8d30a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 88b8d9aa8e65e0238ab634b23836ee9c02234dd3
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 8c54dd0180788a83ee01607e0e6d895fdb9a85ab
+ms.sourcegitcommit: 0f1a5d6e577915d2d748d681840ca04a0a2604dd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="add-apps-to-microsoft-intune"></a>Microsoft Intune에 앱 추가
 
@@ -155,6 +155,16 @@ Intune에 앱을 추가하는 경우 원하는 범주를 선택할 수 있는 �
 ## <a name="apps-that-are-added-automatically-by-intune"></a>Intune에서 자동으로 추가된 앱
 
 이전에는 Intune에 신속하게 할당할 수 있는 많은 기본 제공 앱이 포함되어 있었습니다. Intune 고객 피드백에 따라 이 목록은 제거되었으며, 기본 제공 앱이 더 이상 표시되지 않습니다. 그러나 기본 제공 앱을 이미 할당한 경우 해당 앱은 앱 목록에 계속 표시됩니다. 필요에 따라 앱을 계속 할당할 수 있습니다.
+
+## <a name="installing-updating-or-removing-required-apps"></a>필수 앱 설치, 업데이트 또는 제거
+
+Intune은 7일 재평가 주기를 기다리지 않고 24시간 이내에 필수 앱을 자동으로 재설치, 업데이트 또는 제거합니다.
+
+Intune은 다음 조건에 따라 필수 앱을 자동으로 재설치, 업데이트 또는 제거합니다.
+- 최종 사용자의 장치에 반드시 설치하도록 지정한 앱을 최종 사용자가 제거할 경우 Intune은 이 일정이 경과하면 자동으로 해당 앱을 다시 설치합니다.
+- 필수 앱 설치가 실패하거나 앱이 장치에 없는 경우 Intune은 이 일정이 경과하면 규정 준수를 평가하고 앱을 다시 설치합니다.  
+- 관리자는 사용자 그룹에 사용할 수 있는 앱을 대상으로 하고 최종 사용자는 회사 포털의 앱을 장치에 설치합니다. 나중에 관리자가 앱을 v1에서 v2로 업데이트합니다. 여전히 이전 버전 앱이 장치에 남이 있는 경우 Intune은 이 일정이 경과하면 앱을 업데이트합니다.
+- 관리자가 제거 의도를 배포하고, 앱이 장치에 있고, 제거에 실패할 경우 Intune은 이 일정이 경과하면 규정 준수를 평가하고 앱을 제거합니다.   
 
 ## <a name="next-steps"></a>다음 단계
 

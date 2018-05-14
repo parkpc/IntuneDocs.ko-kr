@@ -14,11 +14,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 388c9f69b6cbee1353b0e21121a47576b58b3ba6
-ms.sourcegitcommit: 407191a92ef356a3d196b6f9959b9b033190ca2c
+ms.openlocfilehash: b8ef4688a5d1a98a27a2fcb6fc5b6ce456b5fd25
+ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Microsoft Intune의 알려진 문제
 
@@ -46,6 +46,14 @@ Intune에서 Azure Portal로 마이그레이션할 때 **All Users - b0b08746-4d
 Azure 클래식 포털에서 마이그레이션한 정책의 상태 정보는 Azure Portal에서 확인할 수 없습니다. 그러나 클래식 포털에서는 이러한 정책에 대한 보고서를 계속 확인할 수 있습니다. 마이그레이션한 구성 정책에 대한 상태 정보를 확인하려면 Azure Portal에서 정책을 다시 만드세요.
 
 ## <a name="apps"></a>앱
+
+
+### <a name="multiple-app-install-prompts-for-certain-vpp-apps"></a>특정 VPP 앱에 대한 여러 앱 설치 프롬프트
+최종 사용자 장치에 이미 설치된 특정 VPP 앱에 대한 여러 앱 설치 프롬프트를 볼 수 있습니다. 이 문제는 **자동 앱 업데이트** 옵션이 Intune Azure Portal에 업로드한 VPP 토큰에 대해 **켜짐**으로 설정된 경우 발생합니다.    
+
+이 문제를 해결하려면 VPP 토큰에 대해 **자동 앱 업데이트** 옵션을 사용하지 못하게 설정할 수 있습니다. 이렇게 하려면 Azure Portal에서 Microsoft Intune을 엽니다. Intune에서 **모바일 앱** > **iOS VPP 토큰**을 선택합니다. 다음으로 영향을 받는 앱을 배포한 VPP 토큰을 선택하고 **편집** > **자동 앱 업데이트** > **꺼짐** > **저장**을 선택합니다. 또는 영향을 받는 앱을 VPP 앱으로 배포하는 것을 중지할 수 있습니다. 그러면 프롬프트도 중지됩니다.    
+
+현재 릴리스에서 알려진 문제입니다. 이 문제를 해결하게 될 예정된 수정 내용이 있습니다. 수정이 구현되면 사용자에게 더 이상 여러 앱 설치 프롬프트가 표시되지 않습니다.
 
 ### <a name="ios-volume-purchased-apps-only-available-in-default-intune-tenant-language"></a>기본 Intune 테넌트 언어에서만 iOS 대량 구매 앱을 사용할 수 있음
 iOS 대량 구매 앱은 Intune 계정과 동일한 국가 코드에 대해서만 표시되며 할당할 수 있습니다. Intune은 Intune 테넌트 계정 국가 코드와 동일한 iTunes 로캘의 앱만 동기화합니다. 예를 들어 미국 스토어에서만 사용할 수 있는 앱을 구매했는데 Intune 계정이 독일어라면 Intune에 해당 앱이 표시되지 않습니다.

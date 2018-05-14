@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 02/27/2018
+ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e15e1678fa93269eb650f8a5684091b430ebf1cd
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 8f903e9dfe5fb30f45806aac5694171814492f2e
+ms.sourcegitcommit: 0f1a5d6e577915d2d748d681840ca04a0a2604dd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="set-the-mobile-device-management-authority"></a>모바일 장치 관리 기관 설정
 
@@ -62,6 +62,19 @@ Intune을 MDM 기관으로 설정하면, 사용자는 회사 포털을 설치하
 - **Windows** - (선택 사항) [자동 등록](windows-enroll.md) 또는 [대량 등록](windows-bulk-enroll.md) 사용
 - **macOS** - (필수)[Apple MDM 푸시 인증서 가져오기](apple-mdm-push-certificate-get.md)
 
+### <a name="workflow-of-intune-administration-ui"></a>Intune 관리 UI의 워크플로
+Android 또는 Apple 장치 관리를 사용하는 경우 Intune은 이러한 타사 서비스와 통합하는 장치 및 사용자 정보를 보내 해당 장치를 관리합니다.
+
+데이터 공유 동의를 추가하는 시나리오는 다음과 같습니다.
+- Android for Work 사용.
+- Apple MDM 푸시 인증서를 사용하고 업로드.
+- DEP(장비 등록 프로그램), School Manager, Volume Purchasing Program 등의 Apple 서비스 중 하나를 사용.
+
+각각의 경우에 동의는 IT 관리자가 등록을 위해 Google 또는 Apple 장치를 인증했는지 확인하는 것처럼 모바일 장치 관리 서비스 실행에 대해 엄격히 적용됩니다. 새 워크플로가 가동될 때 어떤 정보가 공유되는지 알려주는 설명서는 다음 위치에 있습니다.
+- [Intune이 Google에 보내는 데이터](https://aka.ms/Data-intune-sends-to-google)
+- [Intune이 Apple에 보내는 데이터](https://aka.ms/data-intune-sends-to-apple)
+
+Microsoft의 GDPR 규정 준수에 대한 자세한 내용은 [보안 센터 - GDPR 규정 준수 평가](https://aka.ms/trust_center_info)를 참조하세요.
 
 ## <a name="mobile-device-cleanup-after-mdm-certificate-expiration"></a>MDM 인증서 만료 후 모바일 장치 정리
 

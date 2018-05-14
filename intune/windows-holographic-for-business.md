@@ -5,18 +5,18 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 4/5/2018
+ms.date: 5/1/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 45d8f5051d9663273c6515717b7930145ff8a964
-ms.sourcegitcommit: 2773f388f50654366197a95a6838306f70fc18b8
+ms.openlocfilehash: 18f86580fc4c80fade7aeaa9678e9d8edac9a53e
+ms.sourcegitcommit: b57be56524ddb5026fab94f7638dc516ed118325
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="customize-devices-running-windows-holographic-with-intune"></a>Intune을 사용하여 Windows Holographic을 실행하는 장치 사용자 지정
 
@@ -25,6 +25,16 @@ Microsoft Intune은 [Microsoft HoloLens](https://docs.microsoft.com/en-us/holole
 Microsoft Intune을 사용하여 Windows Holographic을 실행하는 장치를 관리하려면 버전 업그레이드 프로필을 만들어야 합니다. 이 업그레이트 프로필은 Windows Holographic 장치를 Windows Holographic for Business로 업그레이드합니다. Microsoft HoloLens의 경우 Commercial Suite를 구입하여 업그레이드에 필요한 라이선스를 얻을 수 있습니다. 자세한 내용은 [Windows Holographic을 실행하는 장치를 Windows Holographic for Business로 업그레이드](holographic-upgrade.md)를 참조하세요.
 
 Windows Holographic for Business를 실행하는 장치를 사용자 지정하고 관리하려면 이 문서의 작업을 사용할 수 있습니다. 예를 들어 VPN 설정 구성, 소프트웨어 업데이트 등을 관리할 수 있습니다.
+
+## <a name="azure-active-directory"></a>Azure Active Directory
+
+Azure AD(Active Directory)는 Windows Holographic for Business를 실행하는 장치의 관리 및 제어를 도와주는 유용한 리소스입니다. Intune 및 Azure AD를 사용하여 다음을 수행할 수 있습니다. 
+
+- **[Azure Active Directory 조인 장치 설정](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-setup)**: Azure AD(Active Directory)에서 Windows Holographic for Business를 실행하는 장치를 포함하여 회사 소유의 Windows 10 장치를 추가할 수 있습니다. 이 기능은 Azure AD가 장치를 제어하도록 허용합니다. 이렇게 하면 사용자는 보안 및 규정을 충족하는 장치에서 회사 리소스에 액세스할 수 있습니다.
+
+  자세한 내용은 [Azure AD의 장치 관리 소개](https://docs.microsoft.com/azure/active-directory/device-management-introduction)에 설명되어 있습니다.
+
+- **[Windows 장치에 대한 대량 등록](windows-bulk-enroll.md)**: 대량의 새 Windows 장치를 Azure AD(Active Directory) 및 Intune에 조인할 수 있습니다. 이 기능을 대량 등록이라고 하며, 프로비전 패키지를 사용합니다. 이러한 패키지는 Windows Holographic for Business를 실행하는 장치를 Azure AD 테넌트에 조인하고, Intune에 등록합니다.
 
 ## <a name="company-portal"></a>회사 포털
 **[회사 포털 앱 구성](company-portal-app.md)**
@@ -56,6 +66,18 @@ Microsoft Intune은 Windows Holographic for Business를 실행하는 Microsoft H
 > [!NOTE]
 > Windows 10 Holographic for Business 1607을 실행하는 HoloLens 장치는 비즈니스용 Microsoft Store에서 구입한, 온라인 사용이 허가된 앱을 지원하지 않습니다. 자세한 내용은 [HoloLens에 앱 설치](https://docs.microsoft.com/en-us/hololens/hololens-install-apps)를 참조하세요.
 
+## <a name="device-actions"></a>장치 작업
+Intune에는 IT 관리자가 장치에서 로컬로 또는 Azure Portal에서 Intune을 사용하여 원격으로 다른 작업을 수행할 수 있는 몇 가지 기본 제공 작업이 있습니다. 또한 사용자가 Intune 회사 포털에서 Intune에 등록된 개인적으로 소유한 장치로 원격 명령을 실행할 수 있습니다.
+
+Windows Holographic for Business를 실행하는 장치를 사용할 때 다음 작업을 사용할 수 있습니다. 
+
+- **[출하 시 설정으로 리셋](devices-wipe.md#factory-reset)**: **출하 시 설정으로 리셋** 작업은 Intune에서 장치를 제거하고 공장 기본 설정으로 복원합니다. 이 작업은 새 사용자에게 장치를 제공하기 전에 또는 장치를 분실하거나 도난당했을 때 사용합니다.
+
+- **[회사 데이터 제거](devices-wipe.md#remove-company-data)**: **회사 데이터 제거** 작업은 Intune에서 장치를 제거하고, Intune을 통해 할당된 앱 데이터, 설정 및 이메일 프로필을 제거합니다. 사용자의 개인 데이터는 장치에 유지됩니다.
+
+- **[장치를 동기화하여 최신 정책과 작업 가져오기](device-sync.md)**: **동기화** 작업은 Intune을 사용하여 장치를 즉시 체크 인합니다. 장치가 체크 인하면 장치에 할당된 보류 중인 작업 또는 정책을 즉시 받게 됩니다. 이 기능을 통해 예약된 다음 체크 인을 기다리지 않고 할당한 정책의 유효성을 검사하고 문제를 해결할 수 있습니다.
+
+**[Microsoft Intune 장치 관리란?](device-management.md)** 은 Azure Portal을 사용하여 장치를 관리하는 방법에 대한 유용한 리소스입니다. 
 
 ## <a name="device-categories-and-groups"></a>장치 범주 및 그룹
 **[장치를 그룹으로 분류](device-group-mapping.md)**

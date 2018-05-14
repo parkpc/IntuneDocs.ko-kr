@@ -17,11 +17,11 @@ ROBOTS: ''
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 9f9051fb393c82031d581f7fec731a3b148cbf2e
-ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
+ms.openlocfilehash: 89a69f7d5cda31658cc9faf068a2a37698fdd93c
+ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="remove-your-windows-device-from-intune"></a>Intune에서 Windows 장치 제거
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 04/04/2018
 
 회사 포털이 Windows 장치에 저장하는 두 종류의 데이터가 있습니다.
 
--   **진단 로그**: 회사 포털에서 장치를 제거하는 경우 앱이 얼마나 오래 열려 있었는지 또는 크래시되었는지 등 Microsoft에서 수집하는 표준 앱 활동 데이터가 자동으로 지워집니다.
+-   **진단 로그**: 회사 포털 앱을 제거하는 경우 앱이 얼마나 오래 열려 있었는지 또는 크래시되었는지 등 Microsoft에서 수집하는 표준 앱 활동 데이터가 자동으로 지워집니다.
 -   **응용 프로그램 캐시**: 아이콘 및 설정 같이 앱이 작동하는 데 필요한 지원 파일을 저장합니다.
 
 이 정보를 완전히 삭제하려면 수행해야 할 몇 가지 단계가 있습니다.

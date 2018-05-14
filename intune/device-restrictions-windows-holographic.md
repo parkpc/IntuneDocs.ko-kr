@@ -5,18 +5,18 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 4/9/2018
+ms.date: 5/1/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5b0784aeb1dc1022b4be824c2f858f9525d03918
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: e8a1abb4229b3e6b4c91cfd49b4f66dbe739ea7d
+ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="device-restriction-settings-for-windows-holographic-for-business-in-intune"></a>Windows Holographic for Business에 대한 장치 제한 설정
 
@@ -68,21 +68,24 @@ ms.lasthandoff: 04/16/2018
 
 - **시스템 시간 수정** - 최종 사용자가 장치 날짜 및 시간을 변경할 수 없습니다.
 
-## <a name="kiosk-preview"></a>키오스크(미리 보기)
+## <a name="kiosk"></a>키오스크
 
 키오스크 장치는 일반적으로 특정 앱을 실행합니다. 사용자는 키오스크 앱 외부의 장치에서 모든 기능 또는 함수에 액세스할 수 없습니다.
 
 - **키오스크 모드** - 정책에서 지원되는 키오스크 모드 유형을 식별합니다. 다음 옵션을 사용할 수 있습니다.
 
   - **구성되지 않음**(기본값) - 정책이 키오스크 모드를 사용하도록 설정하지 않습니다. 
-  - **단일 앱 키오스크** - 프로필을 통해 장치가 하나의 앱만 실행하도록 설정합니다. 사용자가 로그인할 때 특정 앱이 시작합니다. 또한 이 모드는 사용자가 새 앱을 열거나 실행 중인 앱을 변경하는 것을 제한합니다.
+  - **단일 앱 키오스크** - 프로필을 통해 장치가 하나의 앱만 실행하도록 설정합니다. 사용자가 로그인할 때 특정 앱이 시작됩니다. 또한 이 모드는 사용자가 새 앱을 열거나 실행 중인 앱을 변경하는 것을 제한합니다.
+  - **다중 앱 키오스크** - 프로필을 통해 장치가 여러 앱을 실행하도록 설정합니다. 사용자는 추가한 앱만 사용할 수 있습니다. 다중 앱 키오스크 또는 용도가 고정된 장치의 혜택은 필요한 앱에만 액세스함으로써 개인이 이해하기 쉬운 환경을 제공하는 것입니다. 필요하지 않은 앱을 해당 보기에서 제거합니다. 
+  
+    다중 앱 키오스크 환경에 대해 앱을 추가하는 경우 시작 메뉴 레이아웃 파일도 추가합니다. [시작 메뉴 레이아웃 파일](https://docs.microsoft.com/hololens/hololens-kiosk#start-layout-file-for-intune)은 Intune에서 사용할 수 있는 XML 샘플을 포함합니다. 
 
 #### <a name="single-app-kiosks"></a>단일 앱 키오스크
 다음 설정을 입력합니다.
 
-- **사용자 계정** - 키오스크 앱과 연결된 로컬(장치에 대한) 사용자 계정 또는 Azure AD 계정 로그인을 입력합니다. Azure AD 도메인에 가입된 계정의 경우 `domain\username@tenant.org` 형식으로 계정을 입력합니다. 
+- **사용자 계정** - 키오스크 앱과 연결된 로컬(장치에 대한) 사용자 계정 또는 Azure AD 계정 로그인을 입력합니다. Azure AD 도메인에 가입된 계정의 경우 `domain\username@tenant.org` 형식을 사용하여 계정을 입력합니다. 
 
-    자동 로그온을 사용할 수 있는 공용 환경에서 키오스크에 대해 최소한의 권한(예: 로컬 표준 사용자 계정)을 지닌 사용자 유형이 사용돼야 합니다. 키오스크 모드에 대해 Azure AD(Active Directory) 계정을 구성하려면 `AzureAD\user@contoso.com` 형식을 사용합니다.
+    자동 로그온을 사용할 수 있는 공용 환경의 키오스크에서는 최소한의 권한(예: 로컬 표준 사용자 계정)을 지닌 사용자 유형을 사용해야 합니다. 키오스크 모드에 대해 Azure AD(Active Directory) 계정을 구성하려면 `AzureAD\user@contoso.com` 형식을 사용합니다.
 
 - **앱의 AUMID(응용 프로그램 사용자 모델 ID)** - 키오스크 앱의 AUMID를 입력합니다. 자세한 내용은 [설치된 앱의 응용 프로그램 사용자 모델 ID 찾기](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app)를 참조하세요.
 
