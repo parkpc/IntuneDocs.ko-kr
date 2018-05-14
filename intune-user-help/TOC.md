@@ -125,6 +125,7 @@
 #### ["회사 또는 학교 액세스"를 통해 Windows 10 장치 등록](enroll-your-w10-device-access-work-or-school.md)
 #### [Windows 8.1 또는 Windows RT 8.1 장치 등록](enroll-your-w81-or-rt81-windows.md)
 #### [Windows Phone 8.1 장치 등록](enroll-your-wp81-windows.md)
+### [Windows용 회사 포털 앱에서 앱 설치](install-apps-cpapp-windows.md)
 ### [장치 재설정](reset-erase-your-device-cpwebsite.md)
 ### [장치 암호화](encrypt-your-device-windows.md)
 ### [암호 설정 또는 변경](set-or-change-your-password-windows.md)

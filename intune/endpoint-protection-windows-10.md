@@ -14,11 +14,11 @@ ms.assetid: 3af7c91b-8292-4c7e-8d25-8834fcf3517a
 ms.reviewer: ilwu
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 22eceb7792aee714fb728d64d8bec2ae8db4167c
-ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
+ms.openlocfilehash: 069f71d75c0a9c7cec083a929f89a2b39bb4aac5
+ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="endpoint-protection-settings-for-windows-10-and-later-in-intune"></a>Intune의 Windows 10 이상용 Endpoint Protection 설정
 
@@ -26,7 +26,7 @@ ms.lasthandoff: 04/28/2018
 
 Endpoint Protection 프로필을 사용하면 BitLocker 및 Windows Defender와 같은 Windows 10 장치의 보안 기능을 제어할 수 있습니다.
 
-이 아티클의 정보를 사용하여 Endpoint Protection 프로필을 만드는 방법을 알아봅니다.
+이 문서의 정보를 사용하여 Endpoint Protection 프로필을 만듭니다. Windows Defender 바이러스 백신을 구성하려면 [Windows 10 장치 차단](device-restrictions-windows-10.md#windows-defender-antivirus)을 참조하세요. 
 
 > [!NOTE]
 > Windows 10 Home 및 Professional 버전에서는 이러한 설정이 지원되지 않습니다.
