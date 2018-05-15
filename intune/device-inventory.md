@@ -5,7 +5,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 04/02/2018
+ms.date: 05/10/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: e71c6bdb-d75c-404f-8e38-24a663be81c2
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a40b855d1dbaeece1dc91648866285c0a01fb338
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: f66c0695c7e3d1f4bb7a5ca3abceeb13f6af41f2
+ms.sourcegitcommit: 3c4ea8d6809a63042705b5ed4f25ba80f522070e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="see-device-details-in-intune"></a>Intune에서 장치 세부 정보 참조
 
@@ -46,6 +46,16 @@ ms.lasthandoff: 04/26/2018
    - **장치 구성**은 장치에 할당된 모든 장치 구성 정책 및 정책이 성공 또는 실패인지 여부를 표시합니다.
 
 Intune은 회사 소유 장치에서만 앱 목록을 수집합니다. 앱이 개인 장치에서 확인되지 않습니다. Windows 10 PC의 경우 최신 앱만이 회사 소유 장치에서 나열됩니다. Intune은 장치에서 Win32 앱에 대한 정보는 수집하지 않습니다. 장치별 이동 통신 사업자에 따라 일부 앱을 수집하지 않을 수 있습니다.
+
+|플랫폼|개인 소유 장치|회사 소유 장치|  
+|--------------|---------------------------------|--------------------------------|  
+|Windows 10(Configuration Manager 클라이언트 없음)|관리되는 앱만|관리되는 앱만|
+|Windows 8.1(Configuration Manager 클라이언트 없음)|관리되는 앱만|관리되는 앱만|  
+|Windows Phone 8|관리되는 앱만|관리되는 앱만|  
+|Windows RT|관리되는 앱만|관리되는 앱만|  
+|iOS|관리되는 앱만|장치에 설치되는 모든 앱|
+|macOS|장치에 설치되는 모든 앱|장치에 설치되는 모든 앱|  
+|Android|관리되는 앱만|장치에 설치되는 모든 앱|  
 
 ## <a name="next-steps"></a>다음 단계
 Intune을 사용하여 [장치를 관리](device-management.md)하기 위해 수행할 수 있는 작업을 참조하세요.
