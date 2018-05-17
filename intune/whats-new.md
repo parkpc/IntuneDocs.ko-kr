@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 05/02/2018
+ms.date: 05/08/2018
 ms.topic: get-started-article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
 ms.reviewer: dougeby
 ms.suite: ems
 /ms.custom: intune-azure
-ms.openlocfilehash: 9004441a41c5e7458447b5c5f7e1d91e630bd412
-ms.sourcegitcommit: 2b5d88c434bda7f1cdc32d1ccacc6b341a9a399b
+ms.openlocfilehash: e677e15d1e4ee688a826683ecd1d8d68620d2796
+ms.sourcegitcommit: b0ad42fe5b5627e5555b2f9e5bb81bb44dbff078
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Microsoft Intune의 새로운 기능
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -40,6 +40,18 @@ ms.lasthandoff: 05/07/2018
   ### Role-based access control
 
 -->   
+
+## <a name="week-of-may-7-2018"></a>2018년 5월 7일 주
+
+### <a name="app-management"></a>앱 관리
+
+#### <a name="samsung-knox-mobile-enrollment-support---1112863--"></a>삼성 Knox 모바일 등록 지원 <!--1112863-->
+
+삼성 KME(Knox 모바일 등록)와 함께 Intune을 사용하는 경우, 많은 회사 소유 Android 장치를 등록할 수 있습니다. WiFi 또는 셀룰러 네트워크의 사용자는 장치를 처음 켤 때 몇 번만 탭하면 등록할 수 있습니다. Knox 배포 앱을 사용하는 경우 Bluetooth 또는 NFC를 사용하여 장치를 등록할 수 있습니다. 자세한 내용은 [삼성 Knox 모바일 등록을 사용하여 Android 장치 자동 등록](android-samsung-knox-mobile-enroll.md)을 참조하세요.
+
+#### <a name="requesting-help-in-the-company-portal-for-windows-10----1874137---"></a>Windows 10용 회사 포털에서 도움말 요청 <!-- 1874137 -->
+
+이제 Windows 10용 회사 포털은 사용자가 문제에 대한 도움을 받기 위해 워크플로를 시작할 때 Microsoft에 직접 앱 로그를 전송합니다. 이렇게 하면 Microsoft에 제기된 문제를 더 쉽게 해결할 수 있습니다.
 
 ## <a name="week-of-april-23-2018"></a>2018년 4월 23일 주간
 
@@ -369,12 +381,21 @@ Intune에서 배포 채널을 만드는 방법에 대한 자세한 내용은 [In
 
 #### <a name="company-portal-enrollment-improved----1874230-eeready--"></a>회사 포털 등록 향상<!-- 1874230 eeready-->
 Windows 10 Build 1703 이상에서 회사 포털을 사용하여 장치를 등록하는 사용자는 이제 해당 앱을 종료하지 않고 등록의 첫 번째 단계를 완료할 수 있습니다.
-
 #### <a name="hololens-and-surface-hub-now-appear-in-device-lists---1725868---"></a>HoloLens 및 Surface Hub가 이제 장치 목록에 표시됩니다. <!--1725868 -->
 Intune에 등록된 HoloLens 및 Surface Hub 장치를 Android용 회사 포털 앱에 표시하는 지원을 추가했습니다.
 
 #### <a name="custom-book-categories-for-volume-purchase-progream-vpp-ebooks----1488911---"></a>VPP(대량 구매 프로그램) 전자책에 대한 사용자 지정 책 범주 <!-- 1488911 -->
-사용자 지정 전자책 범주를 만든 다음, 해당 사용자 지정 전자책 범주에 VPP 전자책을 할당할 수 있습니다. 그러면 최종 사용자는 새로 만든 전자책 범주 및 해당 범주에 할당된 책을 확인할 수 있습니다. 자세한 내용은 [Microsoft Intune을 사용하여 대량 구매 앱 및 전자책 관리](vpp-apps.md)를 참조하세요.
+사용자 지정 전자책 범주를 만든 다음, 해당 사용자 지정 전자책 범주에 VPP 전자책을 할당할 수 있습니다. 그러면 최종 사용자는 새로 만든 전자책 범주 및 해당 범주에 할당된 책을 확인할 수 있습니다. 자세한 내용은 [Microsoft Intune을 사용하여 대량 구매 앱 및 전자책 관리](vpp-apps.md)를 참조하세요.  
+
+#### <a name="support-changes-for-company-portal-app-for-windows-send-feedback-option----2070166---"></a>Windows용 회사 포털 앱 피드백 보내기 옵션에 대한 지원 변경 내용 <!-- 2070166 -->
+2018년 4월 30일부터 Windows용 회사 포털 앱의 **피드백 보내기** 옵션은 Windows 10 1주년 업데이트(1607) 이상을 실행하는 장치에서만 작동합니다. 다음 환경에서 Windows용 회사 포털 앱을 사용하는 경우 피드백 보내기 옵션이 더 이상 지원되지 않습니다.  
+- Windows 10, 1507 릴리스  
+- Windows 10, 1511 릴리스  
+- Windows Phone 8.1 
+
+Windows 10 RS1 이상에서 장치가 실행 중인 경우 스토어에서 Windows 회사 포털 앱의 최신 버전을 다운로드하세요. 지원되지 않는 버전을 실행 중인 경우 다음 채널을 통해 피드백을 계속 보내세요. 
+- Windows 10의 피드백 허브 앱
+- 메일 WinCPfeedback@microsoft.com  
 
 #### <a name="new-windows-defender-application-guard-settings----1631890---"></a>새 Windows Defender Application Guard 설정 <!-- 1631890 -->
 
@@ -408,7 +429,7 @@ Intune에 등록된 HoloLens 및 Surface Hub 장치를 Android용 회사 포털 
 ### <a name="export-all-devices-into-csv-files-in-ie-edge-or-chrome----2258071---"></a>모든 장치를 IE, Edge 또는 Chrome의 CSV 파일로 내보내기 <!-- 2258071 -->
 **장치** > **모든 장치**에서 장치를 CSV로 서식이 지정된 목록으로 **내보낼** 수 있습니다. 10,000개 이상의 장치가 있는 IE(Internet Explorer) 사용자는 해당 장치를 여러 파일로 성공적으로 내보낼 수 있습니다. 각 파일에는 최대 10,000개의 장치가 있습니다.
 
-30,000개 이상의 장치가 있는 Edge 및 Chrome 사용자는 해당 장치를 여러 파일로 성공적으로 내보낼 수 있습니다. 각 파일에는 최대 30,000개의 장치가 있습니다.
+30,000개 이상의 장치가 있는 Microsoft Edge 및 Chrome 사용자는 해당 장치를 여러 파일로 성공적으로 내보낼 수 있습니다. 각 파일에는 최대 30,000개의 장치가 있습니다.
 
 [장치 관리](device-management.md)에서는 관리하는 장치에서 수행할 수 있는 작업에 대한 자세한 세부 정보를 제공합니다.
 
@@ -1110,23 +1131,6 @@ Intune이 5월 말에 5월 서비스 업데이트를 릴리스하는 경우 Wind
 Intune 앱 보호 서비스 블레이드 대신 Intune을 즐겨찾기로 태그를 지정하고 Intune 내 모바일 앱 블레이드의 앱 보호 정책 워크플로에 익숙해지도록 합니다. 짧은 시간 동안 리디렉션된 다음, 앱 보호 블레이드가 제거됩니다. Intune에서 모든 앱 보호 정책은 이미 설정되어 있으며, 다음 설명서를 수행하면 조건부 액세스 정책을 수정할 수 있습니다. [https://aka.ms/azuread_ca](https://aka.ms/azuread_ca)
 
 **추가 정보**: [https://aka.ms/intuneapppolicy](https://aka.ms/intuneapppolicy)
-
-### <a name="plan-for-change-windows-company-portal-send-feedback-option-may-no-longer-work"></a>변경 계획: Windows 회사 포털 피드백 보내기 옵션이 더 이상 작동하지 않을 수 있음  
-Windows 회사 포털 앱에는 사용자가 앱에 대한 피드백을 Microsoft에 보낼 수 있는 **피드백 보내기** 옵션이 있습니다. 2018년 4월 30일부터 이 옵션은 Windows 10 1607(1주년 업데이트) 이상에서 실행되는 Windows 10 회사 포털 앱에서만 계속 지원됩니다.  
-
-#### <a name="how-does-this-affect-me"></a>이 변경 사항은 어떤 영향을 미치나요?  
-최종 사용자용 Windows 회사 포털 앱이 설치되어 있지 않은 경우 이 메시지를 무시해 주세요. 최종 사용자가 회사 포털 앱을 사용 중인 경우 4월 30일부터 다음 시나리오에서 앱의 **피드백 보내기** 단추가 더 이상 작동하지 않습니다.  
-- Windows 10 1507 및 1511 릴리스에서 사용되는 Windows 10 회사 포털 앱  
-- Windows Phone 8.1 회사 포털 앱  
-
-관련 장치에서 **피드백 보내기** 옵션이 실패하고 다시 시도하더라도 마찬가지입니다. 이러한 플랫폼의 환경에 대한 피드백을 Microsoft로 보내려면 아래에 나열된 대체 피드백 채널을 확인합니다.  
-
-#### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>이러한 변경에 대해 준비하려면 어떻게 해야 하나요?  
-이 변경 사항을 사용자에게 알리고 필요한 경우 모든 사용자 지침을 업데이트하세요. 회사 포털을 사용하는 Windows Phone 8.1, Windows 10 1507 및 Windows 10 버전 1511의 최종 사용자에게 두 가지 대체 피드백 채널이 지원됨을 알리세요. 최종 사용자는 다음과 같이 할 수 있습니다.  
-- Windows 10에서 피드백 허브 앱 사용
-- WinCPfeedback@microsoft.com으로 이메일 보내기  
-
-Windows 10 RS1 이상의 최종 사용자에게 Microsoft Store에 있는 Windows 회사 포털의 최신 버전으로 업데이트하도록 요청하세요.
 
 ### <a name="plan-for-change-change-in-support-for-the-microsoft-intune-app-sdk-for-cordova-plugin"></a>변경 계획: Microsoft Intune App SDK for Cordova 플러그인 지원의 변경
 Intune은 2018년 5월 1일 [Microsoft Intune App SDK Cordova 플러그인](app-sdk-cordova.md)에 대한 지원을 종료합니다. Intune에서 관리 및 가용성을 위해 Cordova 기반 앱을 준비하려면 Intune 앱 래핑 도구를 대신 사용하는 것이 좋습니다. 이 변경 내용이 적용되면 Cordova 플러그인용 Microsoft Intune APP SDK가 더 이상 유지 관리되지 않거나 업데이트를 수신하지 않습니다. 앱 개발자는 이 플러그인을 사용할 수 없습니다. Intune은 Cordova로 빌드된 앱을 계속 지원할 계획입니다. 그러나 Cordova 플러그인용 Microsoft Intune APP SDK를 사용하여 빌드된 앱은 Intune에서 기능이 저하될 수 있습니다. Intune 앱 래핑 도구로 래핑하면 평소처럼 최종 사용자에게 앱을 배포할 수 있습니다. Google Play 스토어에 릴리스된 Cordova 기반 Android 앱의 경우:
