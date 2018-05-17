@@ -15,11 +15,11 @@ ms.assetid: 7ddbf360-0c61-11e8-ba89-0ed5f89f718b
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b03de8b2c5fca0f41a792e5004d74fe82e4a861d
-ms.sourcegitcommit: 0f1a5d6e577915d2d748d681840ca04a0a2604dd
+ms.openlocfilehash: 0f6f16bfd148e3c386aaf0ced78381e1eed8ae47
+ms.sourcegitcommit: b0ad42fe5b5627e5555b2f9e5bb81bb44dbff078
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="automatically-enroll-ios-devices-with-apples-device-enrollment-program"></a>Apple 장치 등록 프로그램을 통해 iOS 장치를 자동으로 등록
 
@@ -106,9 +106,12 @@ Azure 포털의 Intune에서 나중에 참조할 수 있도록 Apple ID를 제�
 
 1. Azure Portal의 Intune에서 **장치 등록** > **Apple 등록** > **등록 프로그램 토큰**을 선택합니다.
 2. 토큰을 선택하고 **프로필**을 선택한 다음 **프로필 만들기**를 선택합니다.
+
     ![프로필 만들기 스크린샷](./media/device-enrollment-program-enroll-ios/image04.png)
+
 3. **프로필 만들기**에서 관리 목적으로 프로필의 **이름** 및 **설명**을 입력합니다. 사용자는 이러한 세부 정보를 볼 수 없습니다. 이 **이름** 필드를 사용하여 Azure Active Directory에 동적 그룹을 만들 수 있습니다. 이 등록 프로필로 장치를 할당하기 위해 프로필 이름을 사용하여 enrollmentProfileName 매개 변수를 정의합니다. [Azure Active Directory 동적 그룹](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal#using-attributes-to-create-rules-for-device-objects)에 대해 자세히 알아보세요.
-    ![프로필 이름 및 설명입니다.](./media/device-enrollment-program-enroll-ios/image05.png)
+
+    ![프로필 이름 및 설명](./media/device-enrollment-program-enroll-ios/image05.png)
 
 4. **사용자 선호도**에서 이 프로필이 있는 장치가 할당된 사용자로 등록되어야 하는지, 할당된 사용자 없이 등록되어야 하는지 선택합니다.
     - **사용자 선호도를 사용하여 등록** - 사용자에게 속하고 앱 설치 같은 서비스에 회사 포털을 사용하려는 장치의 경우 이 옵션을 선택합니다. 이 옵션을 사용하면 사용자가 회사 포털을 통해 장치를 인증할 수도 있습니다. 사용자 선호도에는 [WS-Trust 1.3 사용자 이름/혼합 끝점](https://technet.microsoft.com/library/adfs2-help-endpoints)이 필요합니다. [자세히 알아봅니다](https://technet.microsoft.com/itpro/powershell/windows/adfs/get-adfsendpoint).
@@ -123,6 +126,9 @@ Azure 포털의 Intune에서 나중에 참조할 수 있도록 Apple ID를 제�
     > 프로필 속성이 **사용자 선호도를 사용하여 등록**하도록 설정되어 있는 경우 DEP를 등록하는 동안 MFA(다단계 인증)가 작동하지 않습니다. 등록 후 MFA는 장치에서 예상대로 작동합니다. 처음 로그인할 때 암호를 변경해야 하는 사용자에게 장치가 메시지를 표시할 수 없습니다. 또한 암호가 만료된 사용자는 등록 중에 암호를 재설정하라는 메시지가 표시되지 않습니다. 사용자가 다른 장치를 사용하여 암호를 재설정해야 합니다.
 
 6. **장치 관리 설정**을 선택한 다음 이 프로필을 사용하는 장치를 감독할지 여부를 선택합니다.
+
+    ![장치 관리 설정 스크린샷](./media/device-enrollment-program-enroll-ios/devicemanagementsettingsblade.png)
+
     **감독**되는 장치의 경우 더 많은 관리 옵션이 제공되며 기본적으로 활성화 잠금을 사용할 수 없습니다. 특히 많은 수의 iOS 장치를 배포하는 조직의 경우 감독됨 모드를 사용하기 위한 메커니즘으로 DEP를 사용하는 것이 좋습니다.
 
     사용자는 해당 장치가 감독된다는 알림을 다음 두 가지 방법으로 받습니다.
@@ -171,9 +177,9 @@ Azure 포털의 Intune에서 나중에 참조할 수 있도록 Apple ID를 제�
 1. Azure Portal의 Intune에서 **장치 등록** > **Apple 등록** > **등록 프로그램 토큰**을 선택하고 목록에서 토큰을 선택한 다음 **장치** > **동기화**를 선택합니다. ![등록 프로그램 장치 노드가 선택되고 동기화 링크를 선택하는 스크린샷](./media/device-enrollment-program-enroll-ios/image06.png)
 
    허용되는 등록 프로그램 트래픽에 대한 Apple 약관을 준수하기 위해 Intune에서는 다음과 같은 제한 사항을 적용합니다.
-   - 전체 동기화는 7일마다 한 번씩만 실행할 수 있습니다. 전체 동기화 동안 Intune은 Intune에 할당된 모든 Apple 일련 번호를 새로 고칩니다. 전체 동기화를 이전 전체 동기화의 7일 이내에 시도하는 경우 Intune은 Intune에 나열되지 않은 일련 번호만 새로 고칩니다.
-   - 모든 동기화 요청은 완료하는 데 15분이 주어집니다. 이 시간 동안 또는 요청이 성공될 때까지 **동기화** 단추는 비활성화됩니다.
-   - Intune은 24시간마다 새 장치 및 제거된 장치를 Apple과 동기화합니다.
+   - 전체 동기화는 7일마다 한 번씩만 실행할 수 있습니다. 전체 동기화 중에 Intune은 Intune에 연결된 Apple MDM 서버에 할당된 일련 번호의 전체 업데이트된 목록을 가져옵니다. Intune 포털에서 등록 프로그램 장치가 삭제된 후에는 전체 동기화가 실행될 때까지 해당 장치를 다시 가져올 수 없습니다.   
+   - 동기화는 24시간마다 자동으로 실행됩니다. **동기화** 단추를 클릭하여 동기화할 수도 있습니다(15분마다 한 번만). 모든 동기화 요청은 완료하는 데 15분이 주어집니다. **동기화** 단추는 동기화가 완료될 때까지 사용할 수 없습니다. 이 동기화는 기존 장치 상태를 새로 고치고 Apple MDM 서버에 할당된 새 장치를 가져옵니다.   
+
 
 ## <a name="assign-an-enrollment-profile-to-devices"></a>장치에 등록 프로필 할당
 먼저 등록 프로그램 프로필을 장치에 할당해야 장치를 등록할 수 있습니다.
@@ -196,5 +202,17 @@ Azure 포털의 Intune에서 나중에 참조할 수 있도록 Apple ID를 제�
 Apple과 Intune 간의 동기화 및 관리를 사용하도록 설정했으며 DEP 장치를 등록할 수 있는 프로필을 할당했습니다. 이제 사용자에게 장치를 배포할 수 있습니다. 사용자 선호도가 있는 장치의 경우 각 사용자에게 Intune 라이선스를 할당해야 합니다. 사용자 선호도를 사용하지 않는 장치에는 장치 라이선스가 필요합니다. 활성화된 장치는 초기화될 때까지 등록 프로필을 적용할 수 없습니다.
 
 [장비 등록 프로그램을 통해 Intune에서 iOS 장치 등록](/intune-user-help/enroll-your-device-dep-ios)을 참조하세요.
+
+## <a name="renew-a-dep-token"></a>DEP 토큰 갱신  
+1. deploy.apple.com으로 이동합니다.  
+2. **서버 관리**에서 갱신할 토큰 파일과 연결된 MDM 서버를 선택합니다.
+3. **새 토큰 생성**을 선택합니다.  
+4. **서버 토큰**을 선택합니다.  
+5. [Azure Portal의 Intune](https://aka.ms/intuneportal)에서 **장치 등록** > **Apple 등록** > **등록 프로그램 토큰**을 선택합니다.  
+6. 토큰을 선택한 다음, **토큰 갱신**을 선택합니다.  
+7. 원래 토큰을 만드는 데 사용되는 Apple ID를 입력합니다.  
+8. 새로 다운로드된 토큰을 업로드합니다.  
+9. **토큰 갱신**을 선택합니다. 토큰이 갱신되었다는 확인 메시지가 표시됩니다.   
+
 
 

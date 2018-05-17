@@ -175,7 +175,7 @@ Intune **Android 일반 구성 정책**을 사용하여 다음 설정을 구성�
 
 앱 설치 페이지를 열고 클립보드에 URL을 복사합니다. 이제 규격 또는 비규격 앱 목록의 URL로 사용할 수 있습니다.
 
-예: Google Play에서 Microsoft Office Mobile을 검색합니다. 사용할 URL은 **https://play.google.com/store/apps/details?id=com.microsoft.office.officehub**입니다.
+예: Google Play에서 Microsoft Office Mobile을 검색합니다. 사용할 URL은 **https://play.google.com/store/apps/details?id=com.microsoft.office.officehub** 입니다.
 
 ## <a name="custom-policy-settings"></a>사용자 지정 정책 설정
 Microsoft Intune **Android 사용자 지정 구성 정책**을 사용하여 Android 장치에서 기능을 제어하는 데 사용할 수 있는 OMA-URI 설정을 배포합니다. 이는 많은 모바일 장치 제조업체가 장치 기능을 제어하는 데 사용하는 표준 설정입니다.

@@ -34,7 +34,7 @@ ms.lasthandoff: 04/16/2018
 
 ![계정 정보 이미지](./media/2-end-of-sign-up-process.png) <br/>
 
-이제 **준비가 되었습니다.** 를 클릭하면 테스트 환경에 사용자를 추가할 수 있는 Office 365 관리 센터로 이동합니다. <br/><br/>그러나 Intune Azure Portal로 직접 이동하려면 새 브라우저 창을 열고 주소 표시줄에 **https://portal.azure.com**을 입력합니다. 그러면 제공된 자격 증명을 사용하여 로그인할 수 있는 Azure 로그인 페이지로 이동합니다. Intune 평가판에 로그인할 때마다 이 주소를 사용합니다. <br/> ![Azure Portal 로그인 페이지 이미지](./media/azure-portal-signin.png)
+이제 **준비가 되었습니다.** 를 클릭하면 테스트 환경에 사용자를 추가할 수 있는 Office 365 관리 센터로 이동합니다. <br/><br/>그러나 Intune Azure Portal로 직접 이동하려면 새 브라우저 창을 열고 주소 표시줄에 **https://portal.azure.com** 을 입력합니다. 그러면 제공된 자격 증명을 사용하여 로그인할 수 있는 Azure 로그인 페이지로 이동합니다. Intune 평가판에 로그인할 때마다 이 주소를 사용합니다. <br/> ![Azure Portal 로그인 페이지 이미지](./media/azure-portal-signin.png)
 
 Intune [Azure portal](https://portal.azure.com)에 처음으로 로그온한 경우 Azure 대시보드에 Intune이 표시되지 않을 수 있습니다. Azure 대시보드에 Intune 서비스를 추가하려면 다음을 수행합니다.
 1. 대시보드의 왼쪽에 있는 Azure 서비스 목록에서 **모든 서비스 >** 를 선택하고 검색 상자에 **Intune**을 입력합니다.

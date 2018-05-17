@@ -12,11 +12,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 374c3937d04fd546c17d6f147609f448875dddba
-ms.sourcegitcommit: 2773f388f50654366197a95a6838306f70fc18b8
+ms.openlocfilehash: eb87d75512d9f04abac9db256d0d968bb85116ef
+ms.sourcegitcommit: 6a9830de768dd97a0e95b366fd5d2f93980cee05
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-ios"></a>iOS를 실행하는 장치용 Microsoft Intune에서 VPN 설정 구성
 
@@ -33,6 +33,10 @@ ms.lasthandoff: 04/18/2018
 - **인증 방법**: 장치가 VPN 서버에 인증하는 방법을 선택합니다.
   - **인증서**: **인증 인증서** 아래에서 연결을 인증하기 위해 기존 SCEP 또는 PKCS 인증서 프로필을 선택합니다. [인증서 구성](certificates-configure.md)에서는 인증서 프로필에 대한 몇 가지 지침을 제공합니다.
   - **사용자 이름 및 암호**: 최종 사용자는 VPN 서버에 로그인하기 위해 사용자 이름 및 암호를 입력해야 합니다.
+
+    > [!NOTE]
+    > 사용자 이름과 암호를 Cisco IPsec VPN에 대한 인증 방법으로 사용하는 경우 사용자 지정 Apple Configurator 프로필을 통해 SharedSecret을 전달해야 합니다.
+  
 - **연결 형식**: 다음 공급업체 목록에서 VPN 연결 형식을 선택합니다.
   - **검사점 캡슐 VPN**
   - **Cisco AnyConnect**

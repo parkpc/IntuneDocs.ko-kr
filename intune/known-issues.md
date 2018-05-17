@@ -14,11 +14,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b8ef4688a5d1a98a27a2fcb6fc5b6ce456b5fd25
-ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
+ms.openlocfilehash: f49b5050f4ce182699f0955bed6224309a4d7c7c
+ms.sourcegitcommit: c1631ad8feba6c6fd03698ab20836b2e5d8a78d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Microsoft Intune의 알려진 문제
 
@@ -61,6 +61,8 @@ iOS 대량 구매 앱은 Intune 계정과 동일한 국가 코드에 대해서�
 ### <a name="multiple-copies-of-the-same-ios-volume-purchase-program-are-uploaded"></a>동일한 iOS 대량 구매 프로그램의 여러 복사본이 업로드됨
 동일한 VPP 토큰에 대해 **업로드** 단추를 여러 번 클릭하지 마세요. 여러 번 클릭하면 중복 VPP 토큰이 업로드되고, 동일한 VPP 토큰에 대해 앱이 여러 번 동기화됩니다.
 
+### <a name="some-managed-browser-traffic-not-routed-through-azure-app-proxy----2463492---"></a>일부 Managed Browser 트래픽이 Azure App Proxy를 통해 라우팅되지 않음 <!-- 2463492 -->
+특정 3차 트래픽(예: Javascript 또는 AJAX 호출)이 Azure App Proxy를 통해 라우팅되지 않는 Managed Browser 및 앱 프록시 통합에 관련된다고 알려진 문제가 있습니다. 현재 릴리스에서 알려진 문제입니다.  
 
 <!-- ## Groups -->
 

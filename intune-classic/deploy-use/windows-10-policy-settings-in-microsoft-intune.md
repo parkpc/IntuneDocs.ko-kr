@@ -116,12 +116,12 @@ Windows 10용 Microsoft Intune **일반 구성 정책**을 사용하여 등록�
 
 |설정 이름|추가 정보(필요 시)|
 |----------------|----------------------|
-|**웹 브라우저 허용**|장치에서 Edge 웹 브라우저 사용을 허용합니다.<br>(Windows 10 Mobile에만 해당)|
+|**웹 브라우저 허용**|장치에서 Microsoft Edge 웹 브라우저 사용을 허용합니다<br>(Windows 10 Mobile에만 해당)|
 |**주소 표시줄에서 검색 제안 허용**|검색 구를 입력할 때 검색 엔진이 사이트를 제안하도록 허용합니다.|
 |**인트라넷 트래픽을 Internet Explorer에 전송 허용**|사용자가 Internet Explorer에서 인트라넷 웹 사이트를 열도록 허용합니다.<br>(Windows 10 Desktop에만 해당)|
-|**Do Not Track 허용**|사용자가 방문하는 웹 사이트에 Do Not Track 헤더를 보내도록 Edge 브라우저를 구성합니다|
+|**Do Not Track 허용**|사용자가 방문하는 웹 사이트에 Do Not Track 헤더를 보내도록 Microsoft Edge 브라우저를 구성합니다|
 |**SmartScreen 사용**||
-|**액티브 스크립팅 허용**|Edge 브라우저에서 JavaScript 등의 스크립트가 실행되도록 허용합니다.|
+|**액티브 스크립팅 허용**|Microsoft Edge 브라우저에서 JavaScript 등의 스크립트가 실행되도록 허용합니다|
 |**팝업 허용**|Windows 10 Desktop에만 적용됩니다.|
 |**쿠키 허용**||
 |**자동 채우기 허용**|사용자가 브라우저에서 자동 완성 설정을 변경하도록 허용합니다.<br>(Windows 10 Desktop에만 해당)|

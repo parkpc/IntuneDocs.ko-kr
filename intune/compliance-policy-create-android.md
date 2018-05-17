@@ -14,11 +14,11 @@ ms.assetid: e1258fe4-0b5c-4485-8bd1-152090df6345
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: afc8edb38b667d744bb586d1ed5c82df8ab10f49
-ms.sourcegitcommit: 2773f388f50654366197a95a6838306f70fc18b8
+ms.openlocfilehash: 559fd83d83c7312e0efe0d2c3f6bb7e5ec596a1b
+ms.sourcegitcommit: 6a9830de768dd97a0e95b366fd5d2f93980cee05
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="add-a-device-compliance-policy-for-android-devices-in-intune"></a>Intune에서 Android 장치에 대한 장치 준수 정책 추가
 
@@ -100,12 +100,12 @@ Android에 대한 Intune 장치 준수 정책은 Android 장치가 준수하는 
   - **장치 기본값**
   - **낮은 보안 생체 인식**
   - **최소 숫자**
-  - **복합 숫자**
+  - **복합 숫자**: “1111” 또는 “1234”와 같이 반복 또는 연속된 숫자는 허용되지 않습니다.
   - **최소 알파벳**
   - **최소 영숫자**
   - **기호가 포함된 최소 영숫자**
 - **암호를 요구하기 전까지 최대 비활성 시간(분)**: 사용자가 해당 시간 내에 자신의 암호를 다시 입력해야 하는 유휴 시간을 입력합니다.
-- **암호 만료(일)**: 암호가 만료되기 전에 새로 만들어야 하는 일수를 선택합니다.
+- **암호 만료(일)**: 암호가 만료된 후 새 암호를 만들어야 하기 전까지의 일수를 선택합니다.
 - **재사용을 방지하기 위한 이전 암호 수**: 사용할 수 없는 최근 암호 수를 입력합니다. 이 설정을 통해 사용자가 이전에 사용한 암호를 만들지 못하도록 제한할 수 있습니다.
 
 ### <a name="encryption"></a>암호화

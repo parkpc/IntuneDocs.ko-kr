@@ -76,7 +76,7 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 *다중 ID*를 지
 
 ## <a name="step-1-get-the-link-to-a-policy-managed-app-create-a-wrapped-app-or-use-the-intune-app-sdk-to-write-a-mam-enabled-app"></a>1단계: 정책으로 관리되는 앱으로 연결되는 링크를 얻거나 래핑된 앱을 만들거나 Intune 앱 SDK를 사용하여 MAM 사용 앱을 작성합니다.
 
-배포하려는 정책 관리 앱의 URL을 앱 스토어에서 찾아서 적어 둡니다. 예를 들어 iPad용 Microsoft Word 앱의 URL은 **https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8**입니다.
+배포하려는 정책 관리 앱의 URL을 앱 스토어에서 찾아서 적어 둡니다. 예를 들어 iPad용 Microsoft Word 앱의 URL은 **https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8** 입니다.
 
 
 ## <a name="step-2-publish-the-app-to-your-cloud-storage-space"></a>2단계: 클라우드 저장소 공간에 앱을 게시합니다.

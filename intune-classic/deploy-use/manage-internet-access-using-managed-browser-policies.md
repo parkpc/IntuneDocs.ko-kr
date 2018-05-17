@@ -1,4 +1,4 @@
-﻿---
+---
 title: Managed Browser로 웹 액세스 관리
 description: 관리 브라우저 응용 프로그램을 배포하여 웹 데이터의 웹 검색 및 전송을 다른 앱으로 제한합니다.
 keywords: ''
@@ -142,7 +142,7 @@ Microsoft는 Microsoft 제품 및 서비스를 개선하기 위해 Managed Brows
 
   - http://&#42;
 
-  - http://www.contoso.com:&#42
+  - http://www.contoso.com:&#42;
 
   - http://www.contoso.com: /&#42;
 

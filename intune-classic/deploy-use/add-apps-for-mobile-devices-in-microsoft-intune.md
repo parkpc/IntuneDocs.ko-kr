@@ -48,14 +48,14 @@ Intune 소프트웨어 게시자를 사용하여 앱 속성을 구성한 다음 
    -   **외부 링크**는 앱 스토어에 대한 링크를 지정하여 만들려는 앱에 대해 다음 작업을 수행합니다.
 
        - **URL 지정**. URL을 다음 중 하나로 지정합니다.
-           - 배포할 앱의 앱 스토어 URL. 예를 들어 Android용 Microsoft 원격 데스크톱 앱을 배포하려는 경우 **https://play.google.com/store/apps/details?id=com.microsoft.rdc.android**를 지정합니다.<br>앱의 URL을 확인하려면 검색 엔진을 사용하여 앱이 포함된 스토어 페이지를 찾습니다. 예를 들어 원격 데스크톱 앱을 찾으려는 경우 **Microsoft 원격 데스크톱 Android**를 검색할 수 있습니다.
+           - 배포할 앱의 앱 스토어 URL. 예를 들어 Android용 Microsoft 원격 데스크톱 앱을 배포하려는 경우 **https://play.google.com/store/apps/details?id=com.microsoft.rdc.android** 를 지정합니다.<br>앱의 URL을 확인하려면 검색 엔진을 사용하여 앱이 포함된 스토어 페이지를 찾습니다. 예를 들어 원격 데스크톱 앱을 찾으려는 경우 **Microsoft 원격 데스크톱 Android**를 검색할 수 있습니다.
            - 웹 사이트. Intune은 장치 사이트에 바로 가기 아이콘을 배포합니다(웹 클립이라고도 함).
            - 웹앱. Intune은 앱에 대한 바로 가기 아이콘을 장치에 배포합니다.
        - **이 링크를 열려면 Managed Browser가 필요(Android 및 iOS에만 해당)**. 웹 사이트 또는 웹앱에 대한 링크를 사용자에게 배포할 경우 Intune 관리 브라우저에서만 링크를 열 수 있습니다. 이 브라우저는 장치에 설치되어 있어야 합니다.<br>Managed Browser에 대한 자세한 내용은 [Microsoft Intune에서 관리 브라우저 정책을 사용하여 인터넷 액세스 관리](manage-internet-access-using-managed-browser-policies.md) 항목을 참조하세요.<br>이 설치 유형에서는 클라우드 저장 공간을 사용하지 않습니다.
 
    -   **앱 스토어에서 관리되는 iOS 앱**은 MAM(모바일 응용 프로그램 관리) 정책을 사용하여 관리하려는 iTunes 스토어의 무료 앱에 대해 다음을 수행합니다.
 
-       - **URL 지정**. 배포할 앱의 앱 스토어 URL을 입력합니다. 예를 들어 iOS용 Microsoft 작업 폴더 앱을 배포하려는 경우 **https://itunes.apple.com/us/app/work-folders/id950878067?mt=8**을 지정합니다.<br>이 설치 유형에서는 클라우드 저장 공간을 사용하지 않습니다.
+       - **URL 지정**. 배포할 앱의 앱 스토어 URL을 입력합니다. 예를 들어 iOS용 Microsoft 작업 폴더 앱을 배포하려는 경우 **https://itunes.apple.com/us/app/work-folders/id950878067?mt=8** 을 지정합니다.<br>이 설치 유형에서는 클라우드 저장 공간을 사용하지 않습니다.
 
        예를 들어 iTunes 스토어의 Microsoft Word 앱을 장치에 배포하려는 경우 페이지는 다음과 같습니다.
 

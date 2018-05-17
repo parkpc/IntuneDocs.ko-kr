@@ -14,11 +14,11 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: decb2dee8d2029c70f7f08df507f42211e0f21bb
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 8f37c45945df460dabac60e5b06286c940728ba3
+ms.sourcegitcommit: 3c4ea8d6809a63042705b5ed4f25ba80f522070e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="assign-licenses-to-users-so-they-can-enroll-devices-in-intune"></a>Intune에 장치를 등록할 수 있도록 사용자에게 라이선스 할당
 
@@ -42,6 +42,10 @@ ms.lasthandoff: 04/16/2018
 
 > [!NOTE]
 > 사용자는 장치를 등록한 후에만 관리 콘솔에 표시됩니다. 또한 사용자 그룹을 선택하여 동시에 편집할 수 있습니다. 즉, 선택한 모든 사용자에 대한 라이선스를 추가하거나 바꾸도록 선택할 수 있습니다.
+
+## <a name="assign-an-intune-license-by-using-azure-active-directory"></a>Azure Active Directory를 사용하여 Intune 라이선스 할당
+
+Azure Active Directory를 사용하여 Intune 라이선스를 사용자에게 할당할 수도 있습니다. 자세한 내용은 [Azure Active Directory 문서에서 사용자에게 라이선스 할당](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-licensing-group-assignment-azure-portal)을 참조하세요. 
 
 ## <a name="use-school-data-sync-to-assign-licenses-to-users-in-intune-for-education"></a>학교 데이터 동기화를 사용하여 Intune for Education에서 사용자에게 라이선스 할당
 교육 조직일 경우 SDS(학교 데이터 동기화)를 사용하여 Intune for Education 라이선스를 동기화된 사용자에게 할당할 수 있습니다. SDS 프로필을 설정할 때 [Intune for Education] 확인란을 선택하면 됩니다.  

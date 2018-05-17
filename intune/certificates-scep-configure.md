@@ -13,11 +13,11 @@ ms.technology: ''
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 834eb66e21820880f644c33d7e5d6aedad6bd502
-ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
+ms.openlocfilehash: f67ccf1c2fb3b708916ef4ed4209bd3be07d9a5e
+ms.sourcegitcommit: 6a9830de768dd97a0e95b366fd5d2f93980cee05
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="configure-and-use-scep-certificates-with-intune"></a>Intune을 사용하여 SCEP 인증서 구성 및 사용
 
@@ -304,6 +304,9 @@ NDES 서비스 계정으로 사용할 도메인 사용자 계정을 만듭니다
 6. 인증서 커넥터용 클라이언트 인증서를 선택하라는 메시지가 표시되면 **선택**을 선택하고 작업 3에서 NDES 서버에 설치한 **클라이언트 인증** 인증서를 선택합니다.
 
     클라이언트 인증 인증서를 선택하고 나면 **Microsoft Intune 인증서 커넥터용 클라이언트 인증서** 화면으로 돌아가게 됩니다. 선택한 인증서는 표시되지 않지만 **다음**을 선택하면 해당 인증서의 속성을 볼 수 있습니다. **다음**을 선택한 다음, **설치**를 선택합니다.
+    
+    > [!IMPORTANT]
+    > Internet Explorer 보안 강화 구성이 사용되는 장치에는 Intune Certificate Connector를 등록할 수 없습니다. Intune Certificate Connector를 사용하려면 [IE 보안 강화 구성을 사용하지 않도록 설정](https://technet.microsoft.com/library/cc775800(v=WS.10).aspx)합니다.
 
 7. 마법사를 완료한 후 마법사를 닫기 전에 **인증서 커넥터 UI를 시작**합니다.
 

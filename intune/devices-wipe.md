@@ -5,7 +5,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 02/22/2018
+ms.date: 05/10/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,24 +13,35 @@ ms.technology: ''
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f7d3e768e740866d69d675a962dfca6d98c85568
-ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
+ms.openlocfilehash: 84fc162eda25970c14ed1014b9f67ef3e782c663
+ms.sourcegitcommit: 7e80388b6223c9a632c5729bf9b157f848fe52cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="remove-devices-by-using-factory-reset-or-remove-company-data"></a>공장 기본 설정으로 복원을 사용하여 장치를 제거하거나 회사 데이터 제거
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-Intune에서 더 이상 필요하거나, 용도를 다시 설정하거나, 누락되지 않은 장치를 제거할 수 있습니다. **회사 데이터 제거** 또는 **공장 기본 설정으로 복원** 작업을 사용하여 수행할 수 있습니다. 또한 사용자가 Intune 회사 포털에서 Intune에 등록된 개인적으로 소유한 장치로 원격 명령을 실행할 수 있습니다.
+**회사 데이터 제거** 또는 **초기화**를 사용하여 Intune에서 더 이상 필요하거나, 용도를 다시 설정하거나, 누락되지 않은 장치를 제거할 수 있습니다. 또한 사용자가 Intune 회사 포털에서 Intune에 등록된 개인적으로 소유한 장치로 원격 명령을 실행할 수 있습니다.
 
 > [!NOTE]
 > Azure AD(Azure Active Directory)에서 사용자를 제거하기 전에 해당 사용자와 관련된 모든 장치에서 **출하 시 설정으로 리셋** 또는 **회사 데이터 제거** 작업을 사용합니다. Azure AD에서 관리 장치가 있는 사용자를 제거하는 경우 Intune에서는 해당 장치에서 더 이상 출하 시 설정으로 리셋 또는 회사 데이터 제거를 실행하지 않습니다.
 
 ## <a name="factory-reset"></a>공장 기본 설정
 
-**출하 시 설정으로 리셋** 작업은 장치를 해당 공장 기본 설정으로 복원합니다. 출하 시 설정으로 리셋하면 모든 회사 및 사용자 데이터와 설정을 제거합니다. 그리고 장치가 Intune 관리에서 제거됩니다. 출하 시 설정으로 리셋은 새로운 사용자에게 장치를 제공하기 전이나 장치를 분실하거나 도난당한 경우 장치를 다시 설정하는 데 유용합니다. **출하 시 설정으로 리셋**은 주의하여 선택해야 합니다. 장치의 데이터가 복구될 수 없습니다.
+**출하 시 설정으로 리셋** 작업은 장치를 해당 공장 기본 설정으로 복원합니다. **등록 상태 및 사용자 계정 유지** 확인란 선택 여부에 따라 사용자 데이터가 유지되거나 초기화됩니다.
+
+|초기화 작업|**등록 상태 및 사용자 계정 유지**|Intune 관리에서 제거됨|설명|
+|:-------------:|:------------:|:------------:|------------|
+|**초기화**| 선택되지 않음 | 예 | 모든 사용자 계정, 데이터, MDM 정책 및 설정을 초기화합니다. 운영 체제를 기본 상태 및 설정으로 초기화합니다.|
+|**초기화**| 선택 | 아니요 | 모든 MDM 정책을 초기화합니다. 사용자 계정 및 데이터를 유지합니다. 사용자 설정을 기본값으로 다시 초기화합니다. 운영 체제를 기본 상태 및 설정으로 초기화합니다.|
+
+**등록 상태 및 사용자 계정 유지** 옵션은 Windows 10 버전 1709 이상에만 사용할 수 있습니다.
+
+MDM 정책은 다음에 장치가 Intune에 연결될 때 다시 적용됩니다.
+
+출하 시 설정으로 리셋은 새로운 사용자에게 장치를 제공하기 전이나 장치를 분실하거나 도난당한 경우 장치를 다시 설정하는 데 유용합니다. **출하 시 설정으로 리셋**은 주의하여 선택해야 합니다. 장치의 데이터가 복구될 수 없습니다.
 
 ### <a name="factory-reset-a-device"></a>출하 시 설정으로 장치 리셋
 

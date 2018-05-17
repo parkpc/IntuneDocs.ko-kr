@@ -1,6 +1,6 @@
 ---
-title: 보안 위협 검사를 켜야 하는 경우 | Microsoft 문서
-description: ''
+title: 보안 위협 검사를 켜야 하는 경우
+description: 장치에서 보안 위협 검사를 사용하도록 설정하는 방법 알아보기
 keywords: ''
 author: lenewsad
 ms.author: lanewsad
@@ -15,16 +15,20 @@ searchScope:
 - User help
 ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: 403b3b50cd8fba7d8d0c8ee6fd6f20d0d5561b76
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: cf2413ee879cf4a6cb2742d34f452105057ccf59
+ms.sourcegitcommit: c1631ad8feba6c6fd03698ab20836b2e5d8a78d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/12/2018
 ---
-# <a name="you-need-to-make-your-device-able-to-scan-for-security-threats"></a>장치에서 보안 위협을 검색할 수 있도록 해야 함
+# <a name="enable-security-threat-scans-on-your-device"></a>장치에서 보안 위협 검사 사용 
+자신도 모르게 안전하지 않은 앱을 설치하는 경우 장치 데이터가 위험해질 수 있습니다. 장치에서 데이터를 보호하기 위해 다음을 수행하는 것이 좋습니다. 
 
-Android 장치에서 다양한 작업을 수행할 수 있는 앱을 다운로드하여 설치할 수 있습니다. 그러나 모든 앱이 같은 것은 아니며 일부 앱은 문제를 일으킬 수도 있습니다. 일반적으로 Google Play Store와 같은 검증된 소스에서만 앱을 다운로드하는 것이 좋습니다. 회사 지원팀이 추가적으로 장치에서 데이터를 보호하기 위해 설치 중인 앱이 안전한지 Google에서 검색하도록 결정했습니다.
+* Google Play 스토어와 같은 확인된 출처의 앱만 다운로드합니다.  
+* 장치에서 보안 위협 검사를 사용합니다. 이러한 검사는 Google에서 수행하며 앱이 설치하기에 안전한지 확인합니다.  
 
-이 검색 기능을 설정하려면 **설정** > **Google** > **보안**으로 이동한 후 **기기에 보안 위협이 있는지 검색**을 켜면 됩니다.
+장치에서 검사를 사용하도록 설정하려면 **설정** > **Google** > **보안**으로 이동합니다. **장치의 보안 위협 검색**을 켭니다.  
 
-여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요.
+일부 삼성 장치에서는 **설정** > **Google** > **보안** > **Google Play 보호**에서 설정을 찾을 수 있습니다.
+
+여전히 도움이 필요하세요? 회사 지원 부서에 문의하세요. 연락처 정보는 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 참조하세요. 
