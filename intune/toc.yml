@@ -168,6 +168,8 @@
               href: windows-enroll.md
             - name: 대량 등록
               href: windows-bulk-enroll.md
+            - name: 등록 상태 페이지
+              href: windows-enrollment-status.md
             - name: Windows AutoPilot 배포 프로그램
               href: enrollment-autopilot.md
         - name: Android 등록 설정
