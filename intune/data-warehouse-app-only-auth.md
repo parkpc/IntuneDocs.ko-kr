@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/12/2018
+ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: d7166563-6bb5-4624-b8c8-6b300a997c3a
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e926d3d9e9dfbf6025fb36fd54e64f28b662fc89
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 85632ffe74b3973f4e87c77933b17f522c991caf
+ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="intune-data-warehouse-application-only-authentication"></a>Intune 데이터 웨어하우스 응용 프로그램 전용 인증
 
@@ -75,7 +75,7 @@ Azure AD(Azure Active Directory)는 OAuth 2.0을 사용하여 Azure AD 테넌트
 1.  **설정** 블레이드에서 **필요한 권한**을 선택합니다.
 2.  **추가**를 클릭합니다.
 3.  **API 추가**를 선택하여 **API 선택** 블레이드를 표시합니다.
-4.  **Microsoft Intune API(MicrosoftIntuneAPI)**를 선택하고 **API 선택** 블레이드에서 **선택**을 클릭합니다. **사용 권한 선택** 단계가 선택되고 **액세스 사용** 블레이드가 표시됩니다.
+4.  **Microsoft Intune API(MicrosoftIntuneAPI)** 를 선택하고 **API 선택** 블레이드에서 **선택**을 클릭합니다. **사용 권한 선택** 단계가 선택되고 **액세스 사용** 블레이드가 표시됩니다.
 5.  **응용 프로그램 사용 권한** 섹션에서 **Microsoft Intune에서 데이터 웨어하우스 정보 가져오기** 옵션을 선택합니다.
 6.  **액세스 사용** 블레이드에서 **선택**을 클릭합니다.
 7.  **API 액세스 추가** 블레이드에서 **완료**를 클릭합니다.
@@ -86,11 +86,11 @@ Azure AD(Azure Active Directory)는 OAuth 2.0을 사용하여 Azure AD 테넌트
 Visual Studio를 사용하여 .NET Framework를 지원하고 C#을 코딩 언어로 사용하는 콘솔 앱(.NET Framework) 프로젝트를 만듭니다.
 
 1.  **파일** > **새로 만들기** > **프로젝트**를 선택하여 **새 프로젝트** 대화 상자를 표시합니다.
-2.  왼쪽에서 **Visual C#**을 선택하여 모든 .NET Framework 프로젝트를 표시합니다.
-3.  **콘솔 앱(.NET Framework)**을 선택하고 앱 이름을 추가한 다음 **확인**을 클릭하여 앱을 만듭니다.
+2.  왼쪽에서 **Visual C#** 을 선택하여 모든 .NET Framework 프로젝트를 표시합니다.
+3.  **콘솔 앱(.NET Framework)** 을 선택하고 앱 이름을 추가한 다음 **확인**을 클릭하여 앱을 만듭니다.
 4.  **솔루션 탐색기**에서 **Program.cs**를 선택하여 코드를 표시합니다.
 5.  팝업 메뉴에서 **추가** > **새 항목**을 선택합니다. **새 항목 추가** 대화 상자가 표시됩니다.
-6.  왼쪽의 **Visual C#**에서 **코드**를 선택합니다.
+6.  왼쪽의 **Visual C#** 에서 **코드**를 선택합니다.
 7.  **클래스**를 선택하고 클래스 이름을 *IntuneDataWarehouseClass.cs*로 변경한 다음 **추가**를 클릭합니다.
 8.  <code>Main</code> 메서드 안에 다음 코드를 추가합니다.
 

@@ -15,11 +15,11 @@ ms.assetid: f31b2964-e932-4cee-95c4-8d5506966c85
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d973ca86a9adcbe3c7c18b2018c29006ba54ae9e
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 9132000f5fcf43251bcc1e9b903ea03551e0b85e
+ms.sourcegitcommit: af0cc27b05bf0743f7d0970f5f3822f0aab346af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="how-to-create-and-assign-app-protection-policies"></a>앱 보호 정책을 만들고 할당하는 방법
 
@@ -127,7 +127,7 @@ Intune 앱 보호 정책은 사용자의 ID를 대상으로 하기 때문에 사
 이러한 정책을 만들려면 Intune 콘솔에서 **모바일 앱** > **앱 보호** 정책을 찾아보고 **정책 추가**를 클릭합니다. 기존 앱 보호 정책을 편집할 수도 있습니다. 앱 보호 정책을 관리되는 장치 및 관리되지 않는 장치 모두에 적용하려면 **모든 앱 형식의 대상**을 기본값인 **예**로 설정했는지 확인합니다. 관리 상태에 따라 세부적으로 할당하려는 경우 **모든 앱 형식의 대상** 옵션을 **아니요**로 설정합니다. 
 
 > [!NOTE]
-> 장치 관리 상태에 따른 앱 보호 정책에 대한 특정 iOS 지원 내용은 [관리 상태에 따라 대상으로 지정된 MAM 보호 정책](whats-new.md#mam-protection-policies-targeted-based-on-management-state----1665993---)을 참조합니다.
+> 장치 관리 상태에 따른 앱 보호 정책에 대한 특정 iOS 지원 내용은 [관리 상태에 따라 대상으로 지정된 MAM 보호 정책](whats-new.md#mam-protection-policies-targeted-based-on-management-state-)을 참조합니다.
 
 ## <a name="policy-settings"></a>정책 설정
 iOS 및 Android에 대한 정책 설정의 전체 목록을 보려면 다음 링크 중 하나를 선택합니다.

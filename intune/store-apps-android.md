@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/26/2018
+ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 4433000a-23e9-4cad-a818-48c28eedc1f5
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 685ddf806bff865930de70b2d1925fb9b463b173
-ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
+ms.openlocfilehash: f62cb3a99a9cfd328cc041f095b0980eacc99852
+ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-android-store-apps-to-microsoft-intune"></a>Microsoft Intune에 Android 스토어 앱 추가
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/03/2018
 4. **앱 추가** 창에서 사용할 수 있는 **스토어 앱** 형식 아래에서 **Android**를 선택합니다.
 5. 앱 정보를 구성하려면 **구성**을 선택하고 다음 정보를 제공합니다.  
     선택한 앱에 따라 일부 값이 자동으로 채워질 수 있습니다.
-    - **이름**: 회사 포털에 표시되는 앱 이름을 입력합니다. 사용하는 모든 앱 이름이 고유한지 확인합니다. 앱 이름이 중복될 경우 하나의 이름만 회사 포털에서 사용자에게 표시됩니다.
+    - **이름**: 회사 포털에 표시되는 앱 이름을 입력합니다. 사용하는 모든 앱 이름이 고유한지 확인합니다. 앱 이름이 중복될 경우 한 이름만 회사 포털에서 사용자에게 표시됩니다.
     - **설명**: 앱에 대한 설명을 입력합니다. 이 설명은 회사 포털에서 사용자에게 표시됩니다.
     - **게시자**: 앱의 게시자 이름을 입력합니다.
     - **앱 스토어 URL**: 만들려는 앱의 앱 스토어 URL을 입력합니다.
@@ -46,9 +46,9 @@ ms.lasthandoff: 05/03/2018
     - **정보 URL**: 선택적으로, 이 앱에 대한 정보가 포함된 웹 사이트의 URL을 입력합니다. URL은 회사 포털에서 사용자에게 표시됩니다.
     - **개인 정보 URL**: 선택적으로, 이 앱에 대한 개인 정보 관련 정보가 포함된 웹 사이트의 URL을 입력합니다. URL은 회사 포털에서 사용자에게 표시됩니다.
     - **개발자**: 선택적으로, 앱 개발자의 이름을 입력합니다.
-    - **소유자**: 선택적으로, 이 앱의 소유자 이름을 입력합니다(예: *HR 부서*).
+    - **소유자**: 필요한 경우 이 앱의 소유자 이름을 입력합니다(예: *HR 부서*).
     - **메모**: 선택 사항으로, 이 앱과 연결할 모든 메모를 입력합니다.
-    - **아이콘**: 선택 사항으로 앱과 연결할 아이콘을 업로드합니다. 사용자가 회사 포털을 찾아볼 때 이 아이콘이 앱과 함께 표시됩니다.
+    - **아이콘**: 필요한 경우 앱과 연결할 아이콘을 업로드합니다. 사용자가 회사 포털을 찾아볼 때 이 아이콘이 앱과 함께 표시됩니다.
 1. **확인**을 선택합니다.
 2. **추가**를 선택합니다.
 
