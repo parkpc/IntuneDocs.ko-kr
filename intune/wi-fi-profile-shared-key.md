@@ -14,11 +14,11 @@ ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a3b98dad86b7abe5ce330ae99fdf008137cc2b11
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: eb88bf64db8eaa82a68f56f8c3235030539f1959
+ms.sourcegitcommit: af0cc27b05bf0743f7d0970f5f3822f0aab346af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="use-a-custom-device-profile-to-create-a-wifi-profile-with-a-pre-shared-key---intune"></a>사용자 지정 장치 프로필을 사용하여 미리 공유한 키로 Wi-Fi 프로필 만들기 - Intune
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -35,6 +35,7 @@ ms.lasthandoff: 04/26/2018
 - Android의 경우 [Android PSK 생성기](http://intunepskgenerator.johnathonb.com/)를 사용할 수도 있습니다.
 - 더 많은 OMA-URI 설정을 추가하여 여러 네트워크와 키를 추가할 수 있습니다.
 - iOS의 경우 Mac 스테이션의 Apple Configurator를 사용하여 프로필을 설정합니다. 또는 [iOS PSK 모바일 구성 생성기](http://intunepskgenerator.johnathonb.com/)를 사용합니다.
+- PSK는 64자리 16진수 문자열 또는 인쇄 가능한 8~63자의 ASCII 문자를 요구합니다. 별표(*) 등의 일부 문자는 지원되지 않습니다.
 
 ## <a name="create-a-custom-profile"></a>사용자 지정 프로필 만들기
 Android, Windows 또는 EAP 기반 Wi-Fi 프로필에서 미리 공유한 키를 사용하여 사용자 지정 프로필을 만들 수 있습니다. Azure Portal을 사용하여 프로필을 만들려면 [사용자 지정 장치 설정 만들기](custom-settings-configure.md)를 참조하세요. 장치 프로필을 만들 때 장치 플랫폼에서 **사용자 지정**을 선택합니다. Wi-Fi 프로필을 선택하지 않습니다. 사용자 지정을 선택할 때 다음을 확인해야 합니다. 
@@ -44,14 +45,14 @@ Android, Windows 또는 EAP 기반 Wi-Fi 프로필에서 미리 공유한 키를
 
    a. 이 Wi-Fi 네트워크 설정에 대한 이름을 입력합니다.
 
-   b. (선택 사항)OMA-URI 설정에 대한 설명을 입력하거나 비워둡니다.
+   b. (선택 사항) OMA-URI 설정에 대한 설명을 입력하거나 비워둡니다.
 
    c. **데이터 형식**을 **문자열**로 설정합니다.
 
    d. **OMA URI**
 
-   - **Android용**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
-   - **Windows용**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
+   - **Android용**: ./Vendor/MSFT/WiFi/Profile/SSID/Settings
+   - **Windows용**: ./Vendor/MSFT/WiFi/Profile/SSID/WlanXml
 
      > [!NOTE]
      > 시작 부분에 점 문자를 포함해야 합니다.

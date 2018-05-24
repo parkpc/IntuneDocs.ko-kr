@@ -13,11 +13,11 @@ ms.technology: ''
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2f599f168c1b4ae9aa94324b69ed11e6d426c86d
-ms.sourcegitcommit: 4c18352d5b3b30080f7c7257fa63d852b1894850
+ms.openlocfilehash: 777cfa7d387c2bd19d529dbfc6d1aeab5dbad67e
+ms.sourcegitcommit: af0cc27b05bf0743f7d0970f5f3822f0aab346af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="get-started-with-device-compliance-policies-in-intune"></a>Intune에서 장치 준수 정책 시작
 
@@ -159,7 +159,7 @@ Remember that you need to implement conditional access policies in addition to c
   - **준수**: 보안 기능 해제
   - **비준수**(기본값): 보안 기능 켜기
 
-  장치에 할당된 준수 정책이 없으면 이 장치는 준수하지 않음으로 간주됩니다. 기본적으로 장치는 **비준수**로 표시됩니다. 조건부 액세스를 사용하는 경우 **비준수**의 기본 설정을 그대로 적용하는 것이 좋습니다. 정책이 할당되지 않아 최종 사용자가 준수하지 않으면, 회사 포털에 `No compliance policies have been assigned`가 나열합니다.
+  장치에 할당된 준수 정책이 없으면 이 장치는 준수하지 않음으로 간주됩니다. 기본적으로 장치는 **준수**로 표시됩니다. 조건부 액세스를 사용하는 경우 **비준수**로 설정을 변경하는 것이 좋습니다. 정책이 할당되지 않아 최종 사용자가 준수하지 않으면, 회사 포털에 `No compliance policies have been assigned`가 나열합니다.
 
 - **향상된 탈옥 검색**: 이 설정을 사용하도록 지정하면 iOS 장치에서 Intune으로 더 자주 체크 인할 수 있습니다. 이 속성을 사용하면 장치의 위치 서비스를 사용하고 배터리 사용에 영향을 줍니다. 사용자 위치 데이터는 Intune에서 저장되지 않습니다.
 

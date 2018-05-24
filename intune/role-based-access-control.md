@@ -5,7 +5,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 02/27/2018
+ms.date: 05/17/2018
 ms.topic: get-started-article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: ca3de752-3caa-46a4-b4ed-ee9012ccae8e
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 98355ec1cf54597f488bd2426ac77f35809070fd
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 8cce5da762c119ec04553d80d717fb586c962566
+ms.sourcegitcommit: 698bd1488be3a269bb88c077eb8d99df6e552a9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="role-based-administration-control-rbac-with-microsoft-intune"></a>Microsoft Intune에서 RBAC(역할 기반 관리 제어)
 
@@ -78,20 +78,18 @@ RBAC를 사용하면 조직 내에서 다양한 Intune 작업을 수행할 수 �
 1. 로그인은 [Azure 포털](https://portal.azure.com)합니다.
 2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 창에서 **Intune 역할**을 선택한 다음, **모든 역할**을 선택합니다.
-1. **Intune 역할 - 모든 역할** 창에서 할당할 기본 제공 역할을 선택합니다.
+4. **Intune 역할 - 모든 역할** 창에서 할당할 기본 제공 역할을 선택합니다.
 
-2. <*역할 이름*> - **개요** 창에서 **관리**, **할당**을 차례로 선택합니다.
+5. <*역할 이름*> - **개요** 창에서 **할당** > **할당**을 차례로 선택합니다.
 
     > [!NOTE]
     > 기본 제공 역할은 편집하거나 삭제할 수 없습니다.
 
-3. 사용자 지정 역할 창에서 **할당**을 선택합니다.
-
-4. **역할 할당** 창에서 할당에 대한 **이름** 및 선택적 **설명**을 입력하고 다음을 선택합니다.
+6. **역할 할당** 창에서 **할당 이름** 및 선택적 **할당 설명**을 입력하고 다음을 선택합니다.
     - **구성원** - 사용 권한을 부여하려면 사용자가 포함된 그룹을 선택합니다.
-    - **범위** - 위 구성원이 관리하도록 허용할 사용자가 포함된 그룹을 선택합니다.
+    - **범위** - 위 구성원이 관리하도록 허용할 사용자가 포함된 그룹을 선택합니다. 범위를 **모든 사용자**, **모든 장치** 또는 **모든 사용자 및 장치**로 설정하도록 선택할 수도 있습니다.
 <br></br>
-5. 작업이 끝나면 **확인**을 클릭합니다. 새 할당이 할당 목록에 표시됩니다.
+7. 작업이 끝나면 **확인**을 클릭합니다. 새 할당이 할당 목록에 표시됩니다.
 
 ### <a name="intune-rbac-table"></a>Intune RBAC 테이블
 
@@ -128,13 +126,13 @@ RBAC를 사용하면 조직 내에서 다양한 Intune 작업을 수행할 수 �
 
 1. **Intune 역할 - 모든 역할** 창에서 할당할 사용자 지정 역할을 선택합니다.
 
-2. <*역할 이름*> - **개요** 창에서 **관리**, **할당**을 차례로 선택합니다. 이 창에서 기존 역할을 편집하거나 삭제할 수도 있습니다.
+2. <*역할 이름*> - **개요** 창에서 **할당**을 선택합니다. 이 창에서 기존 역할을 편집하거나 삭제할 수도 있습니다.
 
 3. 사용자 지정 역할 창에서 **할당**을 선택합니다.
 
 4. **역할 할당** 창에서 할당에 대한 **이름** 및 선택적 **설명**을 입력하고 다음을 선택합니다.
     - **구성원** - 사용 권한을 부여하려면 사용자가 포함된 그룹을 선택합니다.
-    - **범위** - 위 구성원이 관리하도록 허용할 사용자가 포함된 그룹을 선택합니다.
+    - **범위** - 위 구성원이 관리하도록 허용할 사용자가 포함된 그룹을 선택합니다. 범위를 **모든 사용자**, **모든 장치** 또는 **모든 사용자 및 장치**로 설정하도록 선택할 수도 있습니다.
 <br></br>
 5. 작업이 끝나면 **확인**을 클릭합니다. 새 할당이 할당 목록에 표시됩니다.
 
@@ -145,3 +143,5 @@ RBAC를 사용하면 조직 내에서 다양한 Intune 작업을 수행할 수 �
 ## <a name="see-also"></a>참고 항목
 
 [Azure AD를 사용하여 역할 할당](https://docs.microsoft.com/azure/active-directory/active-directory-users-assign-role-azure-portal)
+
+

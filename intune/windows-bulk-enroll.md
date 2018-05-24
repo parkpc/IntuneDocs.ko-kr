@@ -6,7 +6,7 @@ keywords: ''
 author: Erikje
 ms.author: erikje
 manager: dougeby
-ms.date: 10/23/2017
+ms.date: 5/21/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology: ''
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: damionw
 ms.custom: intune-azure
-ms.openlocfilehash: 4f7d9cbf4f67a1205189deb836d738a70e940125
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: a1d0c445c2e6e5f2e4227d1b04ead416bf73d737
+ms.sourcegitcommit: d9211837ec4580dd33cc92502423e54f1f369eb7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Windows 장치에 대한 대량 등록
 
@@ -30,7 +30,7 @@ Azure AD 사용자는 이러한 장치에서 표준 사용자이며 할당된 In
 
 ## <a name="prerequisites-for-windows-devices-bulk-enrollment"></a>Windows 장치 대량 등록에 대한 필수 구성 요소
 
-- Windows 10 크리에이터스 업데이트 이상을 실행하는 장치
+- Windows 10 Creator 업데이트(빌드 1703) 이상을 실행하는 장치
 - [Windows 자동 등록](windows-enroll.md#enable-windows-10-automatic-enrollment)
 
 ## <a name="create-a-provisioning-package"></a>프로비전 패키지 만들기

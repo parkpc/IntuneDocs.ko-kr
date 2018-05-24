@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 manager: dougeby
 ms.author: erikre
-ms.date: 04/06/2018
+ms.date: 05/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,17 +13,17 @@ ms.technology: ''
 ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
-ms.custom: intune-classic
-ms.openlocfilehash: 486ff2d22cb201abc926efc96a83455be98e7536
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.custom: ''
+ms.openlocfilehash: f8f81b4ff3bf5d17832d2f943fffb905eba52b6e
+ms.sourcegitcommit: 49dc405bb26270392ac010d4729ec88dfe1b68e4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>iOS용 Microsoft Intune 앱 SDK 개발자 가이드
 
 > [!NOTE]
-> 먼저 지원되는 각 플랫폼에서 통합을 준비하는 방법을 설명하는 [Intune 앱 SDK 시작 가이드](app-sdk-get-started.md) 문서를 읽어보는 것이 좋습니다.
+> 지원되는 각 플랫폼에서 통합을 준비하는 방법을 설명하는 [Intune 앱 SDK 시작 가이드](app-sdk-get-started.md) 문서를 읽어보는 것이 좋습니다.
 
 iOS용 Microsoft Intune 앱 SDK를 사용하면 네이티브 iOS 앱에 Intune 앱 보호 정책(**APP** 또는 **MAM 정책**이라고도 함)을 통합할 수 있습니다. MAM 지원 응용 프로그램은 Intune 앱 SDK와 통합된 응용 프로그램입니다. IT 관리자는 Intune에서 앱을 적극적으로 관리할 때 모바일 앱에 앱 보호 정책을 배포할 수 있습니다.
 
@@ -81,8 +81,8 @@ Intune 앱 SDK를 사용하려면 다음 단계를 따르세요.
 
 1. **옵션 1(권장)**: `IntuneMAM.framework`를 프로젝트에 연결합니다. `IntuneMAM.framework`를 프로젝트 대상의 **포함된 이진 파일** 목록으로 끕니다.
 
-    > [!NOTE]
-    > 프레임워크를 사용하는 경우 앱을 앱 스토어에 제출하기 전에 수동으로 범용 프레임워크에서 시뮬레이터 아키텍처를 제거해야 합니다. 자세한 내용은 [앱 스토어에 앱 제출](#Submit-your-app-to-the-App-Store)을 참조하세요.
+   > [!NOTE]
+   > 프레임워크를 사용하는 경우 앱을 앱 스토어에 제출하기 전에 수동으로 범용 프레임워크에서 시뮬레이터 아키텍처를 제거해야 합니다. 자세한 내용은 [앱 스토어에 앱 제출](#Submit-your-app-to-the-App-Store)을 참조하세요.
 
 2. **옵션 2**: `libIntuneMAM.a` 라이브러리에 연결합니다. 프로젝트 대상의 **연결된 프레임워크 및 라이브러리** 목록으로 `libIntuneMAM.a` 라이브러리를 끌어옵니다.
 
@@ -179,7 +179,7 @@ ADAL 바이너리에 앱을 연결하려면 다음 단계를 수행합니다.
 
 
 
-### <a name="share-the-adal-token-cache-with-other-apps-signed-with-the-same-provisioning-profile"></a>같은 프로비전 프로필로 서명된 다른 앱과 ADAL 토큰 캐시를 공유하나요?**
+### <a name="share-the-adal-token-cache-with-other-apps-signed-with-the-same-provisioning-profile"></a>같은 프로비전 프로필로 서명된 다른 앱과 ADAL 토큰 캐시를 공유하나요?
 
 같은 프로비전 프로필로 서명된 앱 간에 ADAL 토큰을 공유하려면 아래 지침을 따르세요.
 
@@ -523,7 +523,8 @@ SUBQUERY (
 ).@count > 0 
  ```
 
->[!Note] IntuneMAMConfigurator 도구를 사용하여 Intune 형식을 활성화 규칙에 추가할 수 있습니다. 기존 활성화 규칙이 미리 정의된 문자열 상수(예: NSExtensionActivationSupportsFileWithMaxCount, NSExtensionActivationSupportsText 등)를 사용하는 경우 조건자 구문이 복잡해질 수 있습니다. Intune 형식을 추가하는 동안 IntuneMAMConfigurator 도구를 사용하여 활성화 규칙을 문자열 상수에서 조건자 문자열로 변환할 수도 있습니다. IntuneMAMConfigurator는 GitHub 리포지토리에 있습니다. 
+> [!NOTE]
+> IntuneMAMConfigurator 도구를 사용하여 Intune 형식을 활성화 규칙에 추가할 수 있습니다. 기존 활성화 규칙이 미리 정의된 문자열 상수(예: NSExtensionActivationSupportsFileWithMaxCount, NSExtensionActivationSupportsText 등)를 사용하는 경우 조건자 구문이 복잡해질 수 있습니다. Intune 형식을 추가하는 동안 IntuneMAMConfigurator 도구를 사용하여 활성화 규칙을 문자열 상수에서 조건자 문자열로 변환할 수도 있습니다. IntuneMAMConfigurator는 GitHub 리포지토리에 있습니다. 
 
 
 ## <a name="enabling-mam-targeted-configuration-for-your-ios-applications"></a>iOS 응용 프로그램에 대해 MAM 대상 구성 사용

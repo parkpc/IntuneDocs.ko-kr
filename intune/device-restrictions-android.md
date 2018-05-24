@@ -14,11 +14,11 @@ ms.technology: ''
 ms.reviewer: ayesham, chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 619d9e86bd130a617155d262f3e09882ce26ec1e
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 100742b378b30eab84b28c01728b2b382dd5155c
+ms.sourcegitcommit: af0cc27b05bf0743f7d0970f5f3822f0aab346af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="microsoft-intune-android-and-samsung-knox-standard-device-restriction-settings"></a>Microsoft Intune Android 및 Samsung Knox Standard 장치 제한 설정 
 
@@ -47,6 +47,10 @@ ms.lasthandoff: 04/26/2018
 ## <a name="password"></a>암호
 
 - **암호** - 최종 사용자에게 장치에 액세스하려면 암호를 입력하도록 요구합니다.|Yes|Yes|
+
+    > [!NOTE]
+    > 삼성 Knox 장치는 MDM 등록 중에 4자리 PIN을 자동으로 요구합니다. 네이티브 Android 장치는 조건부 액세스와의 호환을 위해 자동으로 PIN을 요구할 수 있습니다.
+
 - **최소 암호 길이** - 사용자가 구성해야 하는 암호의 최소 길이(4~16자)를 입력합니다.
 - **화면이 잠기기 전까지 최대 비활성 시간(분)** - 장치가 자동으로 잠길 때까지 비활성 상태로 유지되는 시간(분)을 지정합니다.
 - **장치를 초기화하기 전 로그인 오류 발생 횟수** - 장치를 초기화하기 전까지 허용되는 로그인 오류 횟수를 지정합니다.
@@ -55,7 +59,7 @@ ms.lasthandoff: 04/26/2018
     - **장치 기본값**
     - **낮은 보안 생체 인식**
     - **최소 숫자**
-    - **복합 숫자** - '1111' 또는 '1234'와 같이 반복 또는 연속된 숫자는 허용되지 않음<sup>1</sup>
+    - **복합 숫자** - “1111” 또는 “1234”와 같이 반복 또는 연속된 숫자는 허용되지 않습니다.<sup>1</sup>
     - **최소 알파벳**
     - **최소 영숫자**
     - **기호가 포함된 최소 영숫자**
@@ -63,6 +67,9 @@ ms.lasthandoff: 04/26/2018
 - **지문 잠금 해제(Samsung Knox만 해당)** - 지문을 사용하여 지원되는 장치의 잠금을 해제할 수 있습니다.
 - **Smart Lock 및 기타 신뢰 에이전트** - 호환되는 Android 장치(Samsung Knox Standard 5.0 이상)에서 Smart Lock 기능을 제어할 수 있습니다. 신뢰 에이전트라고도 하는 이 전화 기능을 통해 장치가 신뢰할 수 있는 위치에 있는 경우 장치 잠금 화면 암호를 사용하지 않도록 설정하거나 무시할 수 있습니다. 예를 들어 장치가 특정 Bluetooth 장치에 연결되어 있거나 NFC 태그 근처에 있을 때 이 기능을 사용할 수 있습니다. 이 설정을 사용하면 사용자가 스마트 잠금 기능을 구성하는 것을 방지할 수 있습니다.
 - **암호화** - 장치의 파일을 암호화해야 합니다.
+
+    > [!NOTE]
+    > 암호화 정책이 적용되는 경우 삼성 Knox 장치는 사용자에게 장치 암호에 대해 6자 복합 암호를 설정하도록 요구합니다.
 
 <sup>1</sup> 이 설정을 장치에 할당하기 전에 해당 장치에서 회사 포털 앱을 최신 버전으로 업데이트하세요.
 

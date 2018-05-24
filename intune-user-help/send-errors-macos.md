@@ -1,5 +1,5 @@
 ---
-title: 관리되는 macOS 장치를 사용하여 오류 제출 | Microsoft Docs
+title: Mac 장치에서 회사 지원팀에 오류 보내기 | Microsoft Docs
 description: ''
 keywords: ''
 author: lenewsad
@@ -17,11 +17,11 @@ ROBOTS: ''
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 52431d900ee9abe71458b8b22d8a0946f22ce583
-ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
+ms.openlocfilehash: 9805dfdba67299a5a1cd9433bbc061f8bd96bc9e
+ms.sourcegitcommit: af0cc27b05bf0743f7d0970f5f3822f0aab346af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="submit-errors-to-the-right-people-for-your-managed-macos-device"></a>관리되는 macOS 장치를 사용하여 올바른 사람에게 오류 제출
 

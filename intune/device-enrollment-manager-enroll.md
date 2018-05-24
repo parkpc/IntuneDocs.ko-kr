@@ -15,11 +15,11 @@ ms.assetid: 7196b33e-d303-4415-ad0b-2ecdb14230fd
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 870d61cce47132b19b4c3d8b7357f84a21a443e4
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 0a32eb1d65710bf09d61c0846a8d949d5cd99ed2
+ms.sourcegitcommit: 91802e78cd5014d20a828ca25a54a381d452f0f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="enroll-devices-by-using-a-device-enrollment-manager-account"></a>장치 등록 관리자 계정을 사용하여 장치 등록
 
@@ -73,7 +73,7 @@ DEM 사용자는 다음 작업을 수행할 수 있습니다.
 
 ## <a name="permissions-for-dem"></a>DEM에 대한 권한
 
-DEM 등록 작업을 수행하려면 전역 또는 Intune 서비스 관리자 Azure AD 역할이 필요합니다. 또한 사용자 지정 사용자 역할 아래에 RBAC 권한이 나열되어 있고 사용 가능하더라도 모든 DEM 사용자를 보려면 이러한 역할이 필요합니다. 전역 관리자 또는 Intune 서비스 관리자 역할은 할당되지 않고 장치 등록 관리자 역할에 대한 읽기 권한은 있는 사용자의 경우 자신이 만든 DEM 사용자만 볼 수 있습니다. 이러한 기능에 필요한 RBAC 역할 지원이 향후 발표될 예정입니다.
+Admin Portal에서 DEM 등록 관련 작업을 수행하려면 전역 또는 Intune 서비스 관리자 Azure AD 역할이 필요합니다. 또한 사용자 지정 사용자 역할 아래에 RBAC 권한이 나열되어 있고 사용 가능하더라도 모든 DEM 사용자를 보려면 이러한 역할이 필요합니다. 전역 관리자 또는 Intune 서비스 관리자 역할은 할당되지 않고 장치 등록 관리자 역할에 대한 읽기 권한은 있는 사용자의 경우 자신이 만든 DEM 사용자만 볼 수 있습니다. 이러한 기능에 필요한 RBAC 역할 지원이 향후 발표될 예정입니다.
 
 전역 관리자 또는 Intune 서비스 관리자 역할은 할당되지 않고 장치 등록 관리자 역할용으로 사용하도록 설정된 읽기 권한은 할당된 사용자의 경우 자신이 만든 DEM 사용자만 볼 수 있습니다.
 

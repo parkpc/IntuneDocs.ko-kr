@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 47181d19-4049-4c7a-a8de-422206c4027e
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 905c51dcbc5b7731be207c25ffd368b339dbec57
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 5783558a768e1d58087168f81ad27e5acf9aae09
+ms.sourcegitcommit: 91802e78cd5014d20a828ca25a54a381d452f0f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="reset-or-remove-a-device-passcode-in-intune"></a>Intune에서 장치 암호 다시 설정 또는 제거
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="resetting-android-for-work-passcodes"></a>Android for Work 암호 다시 설정
 
-지원되는 Android for Work 장치는 최종 사용자에 대한 관리되는 프로필 챌린지 또는 새 장치 잠금 해제 암호를 수신합니다. 작업 프로필이 있는 Android 7.0 이상 장치의 경우 등록 완료된 후 즉시 재설정 암호 토큰을 활성화하려면 최종 사용자에게 알림이 제공됩니다. 작업 프로필 암호가 필요하고 설정된 경우 알림이 표시됩니다. 암호를 입력하면 알림은 해제됩니다.
+지원되는 Android for Work 장치는 최종 사용자에 대한 관리되는 새 프로필 잠금 해제 암호 또는 관리되는 프로필 질문을 수신합니다. 작업 프로필이 있는 Android 7.0 이상 장치의 경우 등록 완료된 후 즉시 재설정 암호 토큰을 활성화하려면 최종 사용자에게 알림이 제공됩니다. 작업 프로필 암호가 필요하고 설정된 경우 알림이 표시됩니다. 암호를 입력하면 알림은 해제됩니다.
 
 ## <a name="resetting-ios-passcodes"></a>iOS 암호 다시 설정
 

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/09/2018
+ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,23 +15,26 @@ ms.assetid: 64e5133d-1e23-4ee6-b556-f5d32c0e95da
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0408ce3a4c2d4224780b4b23b0fb1b7d690471fe
-ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
+ms.openlocfilehash: 0cd9db9399eb08c3ed04ff1d8920082aa0c04f06
+ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="monitor-app-information-and-assignments-with-microsoft-intune"></a>Microsoft Intune으로 앱 정보 및 할당 모니터링
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-Intune에서는 관리하는 앱 속성을 모니터링하고 앱 할당 상태를 관리하는 다양한 방법을 제공합니다.
+Intune에서는 관리하는 앱 속성을 모니터링하고 앱 할당 상태를 관리하는 몇 가지 방법을 제공합니다.
 
 1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
 2. **모든 서비스** > **Intune**을 선택합니다. Intune은 **모니터링 + 관리** 섹션에 있습니다.
 3. **Intune** 메뉴에서 **모바일 앱**을 선택합니다.
 4. 메뉴의 **관리** 섹션에서 **앱**을 선택합니다.
-5. 앱 목록에서 모니터링할 앱을 선택합니다. 장치 상태 및 사용자 상태에 대한 개요를 포함한 앱 창이 표시됩니다.
+5. 앱 목록에서 모니터링할 앱을 선택합니다. 그러면 장치 상태 및 사용자 상태에 대한 개요를 포함한 앱 창이 표시됩니다.
+
+> [!NOTE]
+> **사용 가능** 상태로 배포되는 Android 스토어 앱은 설치 상태를 보고하지 않습니다.
 
 ## <a name="app-overview-pane"></a>앱 개요 창
 

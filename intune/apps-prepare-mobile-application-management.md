@@ -1,12 +1,11 @@
 ---
-title: 앱 보호 정책에 대해 LOB(기간 업무) 앱 준비
-titlesuffix: Microsoft Intune
-description: 앱 래핑 도구와 앱 SDK를 사용하여 사용자 지정 기간 업무(LOB) 앱이 Microsoft Intune에서 앱 보호 정책을 사용하게 할 수 있습니다.
+title: Microsoft Intune으로 모바일 응용 프로그램 관리용 앱을 준비하는 방법 결정
+description: 이 항목의 정보는 LOB(기간 업무) 앱이 모바일 앱 관리 정책을 사용하도록 하기 위해 앱 줄 바꿈 도구 및 앱 SDK를 사용해야 하는 경우를 결정하는 데 도움이 됩니다.
 keywords: ''
-author: Erikre
+author: erikre
 ms.author: erikre
-manager: dougeby
-ms.date: 05/07/2018
+manager: angrobe
+ms.date: 05/17/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,15 +14,15 @@ ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5ae3b19cfe57c48ac262a376c778d7d593456991
-ms.sourcegitcommit: 0f1a5d6e577915d2d748d681840ca04a0a2604dd
+ms.openlocfilehash: 89a8f29e2e31cf59ed237cbfae5c557f60bd8dfa
+ms.sourcegitcommit: 698bd1488be3a269bb88c077eb8d99df6e552a9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>앱 보호 정책에 대해 LOB(기간 업무) 앱 준비
 
-[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
 Intune 앱 래핑 도구 또는 Intune 앱 SDK를 사용하여 앱에서 앱 보호 정책을 사용할 수 있게 할 수 있습니다. 이 정보를 사용하여 이러한 두 가지 방법 및 사용 시기에 대해 알아보세요.
 
@@ -34,7 +33,6 @@ Intune 앱 래핑 도구 또는 Intune 앱 SDK를 사용하여 앱에서 앱 보
 
 앱 래핑 도구는 Apple 앱 스토어 또는 Google Play 스토어에서 앱을 지원하지 **않습니다**. 개발자 통합이 필요한 특정 기능을 지원하지도 않습니다(다음 기능 비교 표 참조).
 
-
 Intune에 등록되지 않은 장치의 앱 보호 정책에 대한 앱 래핑 도구에 대한 자세한 내용은 [Microsoft Intune에 등록되지 않은 장치의 기간 업무 앱 및 데이터 보호](/intune-classic/deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune)를 참조하세요.
 
 ### <a name="reasons-to-use-the-app-wrapping-tool"></a>앱 래핑 도구를 사용하는 이유
@@ -44,7 +42,6 @@ Intune에 등록되지 않은 장치의 앱 보호 정책에 대한 앱 래핑 �
 * 앱의 소스 코드에 액세스할 수 없습니다.
 * 앱 개발자가 아닙니다.
 * 앱에 최소한의 사용자 인증 환경이 있습니다.
-
 
 ### <a name="supported-app-development-platforms"></a>지원되는 앱 개발 플랫폼
 
@@ -79,35 +76,43 @@ SDK에 대해 자세히 알아보려면 [개요](app-sdk.md) 항목을 참조하
 > [!NOTE]
 > 앱 래핑 도구는 Intune 독립 실행형 또는 Configuration Manager가 포함된 Intune과 함께 사용할 수 있습니다.
 
-|                                                         기능                                                          | 앱 SDK | 앱 래핑 도구 |
-|--------------------------------------------------------------------------------------------------------------------------|---------|-------------------|
-|                              웹 콘텐츠가 회사에서 관리되는 브라우저에 표시되도록 제한                              |    X    |         X         |
-|                                        Android, iTunes 또는 iCloud 백업 차단                                        |    X    |         X         |
-|                                         앱이 다른 앱으로 데이터를 전송하도록 허용                                         |    X    |         X         |
-|                                        앱이 다른 앱의 데이터를 받도록 허용                                         |    X    |         X         |
-|                                      다른 앱에서 잘라내기, 복사 및 붙여넣기 제한                                       |    X    |         X         |
-|                                              액세스용 단순 PIN 필요                                               |    X    |         X         |
-|                                         기본 제공 앱 PIN을 Intune PIN으로 바꾸기                                         |    X    |                   |
-|                                     PIN을 다시 설정하기 전 시도 횟수 지정                                      |    X    |         X         |
-|                                             PIN 대신 지문 허용                                             |    X    |         X         |
-|                                         액세스 시 회사 자격 증명 필요                                         |    X    |         X         |
-|                             관리되는 앱이 무단 해제 또는 루팅된 장치를 실행하지 못하도록 차단                              |    X    |         X         |
-|                                                     앱 데이터 암호화                                                     |    X    |         X         |
-|                           지정된 시간(분) 후에 액세스 요구 사항 다시 확인                            |    X    |         X         |
-|                                             오프라인 유예 기간 지정                                             |    X    |         X         |
-|                                           화면 캡처 차단(Android에만 해당)                                            |    X    |         X         |
-|                                        장치 등록이 제외된 MAM에 대한 지원                                         |    X    |         X         |
-|                                                        전체 초기화                                                         |    X    |         X         |
-| 선택적 초기화 <br></br><strong>참고:</strong> iOS의 경우 관리 프로필을 제거하면 앱도 제거됩니다. |    X    |                   |
-|                                                    "다른 이름으로 저장" 차단                                                     |    X    |                   |
-|                                            대상 응용 프로그램 구성                                            |    X    |                   |
-|                                                다중 ID 지원                                                |    X    |                   |
-|                                                    사용자 지정 가능한 스타일                                                    |    X    |                   |
+|기능|앱 SDK|앱 래핑 도구|
+|-----------|---------------------|-----------|
+|웹 콘텐츠가 회사에서 관리되는 브라우저에 표시되도록 제한|X|X|
+|Android, iTunes 또는 iCloud 백업 차단|X|X|
+|앱이 다른 앱으로 데이터를 전송하도록 허용|X|X|
+|앱이 다른 앱의 데이터를 받도록 허용|X|X|
+|다른 앱에서 잘라내기, 복사 및 붙여넣기 제한|X|X|
+|액세스용 단순 PIN 필요|X|X|
+|기본 제공 앱 PIN을 Intune PIN으로 바꾸기|X||
+|PIN을 다시 설정하기 전 시도 횟수 지정|X|X|
+|PIN 대신 지문 허용|X|X|
+|PIN 대신 안면 인식 허용(iOS에만 해당)|X|X|
+|액세스 시 회사 자격 증명 필요|X|X|
+|관리되는 앱이 무단 해제 또는 루팅된 장치를 실행하지 못하도록 차단|X|X|
+|앱 데이터 암호화|X|X|
+|지정된 시간(분) 후에 액세스 요구 사항 다시 확인|X|X|
+|오프라인 유예 기간 지정|X|X|
+|화면 캡처 차단(Android에만 해당)|X|X|
+|장치 등록이 제외된 MAM에 대한 지원|X|X|
+|전체 초기화|X|X|
+|선택적 초기화 <br></br>**참고:** iOS의 경우 관리 프로필을 제거하면 앱도 제거됩니다.|X||
+|"다른 이름으로 저장" 차단|X||
+|대상 응용 프로그램 구성|X||
+|다중 ID 지원|X||
+|사용자 지정 가능한 스타일 |X|||
+|Citrix mVPN을 통한 주문형 응용 프로그램 VPN|X|X| 
+|연락처 동기화 사용 안 함|X|X|
+|인쇄 사용 안 함|X|X|
+|최소 앱 버전 필요|X|X|
+|최소 운영 체제 필요(iOS 및 Android)|X|X|
+|최소 Android 보안 패치 버전 필요(Android에만 해당)|X|X|
+|iOS용 최소 Intune SDK 필요(iOS에만 해당)|X|X|
 
 ## <a name="next-steps"></a>다음 단계
 
 앱 보호 정책 및 Intune에 대한 자세한 내용은 다음 항목을 참조하세요.
 
-  -  [Android 앱 래핑 도구](app-wrapper-prepare-android.md)</br>
+  - [Android 앱 래핑 도구](app-wrapper-prepare-android.md)</br>
   - [iOS 앱 래핑 도구](app-wrapper-prepare-ios.md)</br>
   - [SDK를 사용하여 모바일 응용 프로그램 관리에 앱을 사용하도록 설정](/intune-classic/deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management)

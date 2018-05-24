@@ -15,11 +15,11 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d74f59f1df0a4a4e1285b58d7ac5b3677d3c5e48
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 3212d1a3d3454542dd9d34409fc788558f2d7eed
+ms.sourcegitcommit: af0cc27b05bf0743f7d0970f5f3822f0aab346af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="enroll-android-devices"></a>Android 장치 등록
 
@@ -58,7 +58,8 @@ Android 장치를 차단하거나 등록에서 개인적으로 소유한 Android
 아직 설정하지 않은 경우 **Microsoft Intune**으로 [모바일 장치 관리 기관을 설정](mdm-authority-set.md)하여 모바일 장치 관리를 준비합니다.
 2. **Android for Work 바인딩 구성**<br>
     
-   a. [Azure Portal의 Intune](https://aka.ms/intuneportal)에 로그인하고, **장치 등록** > **Android 등록** > **관리되는 Google Play**를 선택합니다.
+   a. [Azure Portal의 Intune](https://aka.ms/intuneportal)에 로그인하고, **장치 등록** > **Android 등록** > **관리되는 Google Play**를 선택합니다.  사용자 지정 Intune 관리자 역할을 사용할 경우 여기에 액세스하려면 조직 읽기 및 업데이트 권한이 필요합니다.
+   
    ![Android for Work 등록 화면](./media/android-work-bind.png)
 
    b. **동의**를 선택하여 Microsoft에서 [Google에 사용자 및 장치 정보를 보낼 수 있도록](data-intune-sends-to-google.md) 권한을 부여합니다. 

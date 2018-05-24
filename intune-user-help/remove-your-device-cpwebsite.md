@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 02/23/2017
+ms.date: 05/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,15 +17,15 @@ ROBOTS: ''
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: c7cd6380cbb596779a3094b18eef4e91b6161871
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: f22509d780ec4d877e7e780109b34776b269c8b3
+ms.sourcegitcommit: 49dc405bb26270392ac010d4729ec88dfe1b68e4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="remove-your-device-from-the-company-portal"></a>회사 포털에서 장치 제거
 
-회사나 조직에서 장치를 더 이상 관리하지 않도록 하려면 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 사용하여 회사 포털에서 장치를 제거할 수 있습니다. 회사 포털 웹 사이트는 IT부서에서 관리에 등록한 컴퓨터와 장치를 관리하는 데 사용할 수 있는 웹 페이지입니다. 장치를 제거하면 회사 포털에 장치가 더 이상 나열되지 않으며 회사 또는 학교 데이터, 앱 및 전자 메일에 액세스할 수도 없습니다.
+회사나 조직에서 장치를 더 이상 관리하지 않도록 하려면 [회사 포털 웹 사이트](https://portal.manage.microsoft.com#HelpDeskDialog)를 통해 회사 포털에서 장치를 제거할 수 있습니다. 장치를 제거하면 더 이상 회사 포털에 나열되지 않습니다. 또한 조직의 데이터, 앱 및 이메일에 액세스하지 못할 수 있습니다.
 
 장치를 제거하려면:
 
