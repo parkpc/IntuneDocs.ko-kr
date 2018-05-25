@@ -32,7 +32,7 @@ Intune for Education은 단독으로 사용하거나 [Intune에서 제공되는 
 
 > [!VIDEO https://www.youtube.com/embed/ukrnCwcLvV8]
 
-Intune 및 Intune for Education에서 둘 다 다음을 수행할 수 있습니다.
+Intune 및 Intune for Education에서 다음을 수행할 수 있습니다.
 * 직원과 학생이 데이터에 액세스하는 데 사용하는 모바일 장치를 관리합니다.
 * 사용자가 매일 액세스하는 모바일 앱을 관리합니다.
 * 사용자가 조직 정보에 액세스하여 이를 공유하는 방법을 제어할 수 있게 하여 조직 정보를 보호합니다.
